@@ -1,0 +1,21 @@
+## Interface: 20503
+## Title: Loon BestInSlot
+## Notes: 
+## OptionalDeps: LibExtraTip
+## SavedVariablesPerCharacter: LoonBestInSlotSettings
+## Version: 3.0.0
+
+libs\LibDataBroker-1.1.lua
+libs\LibDBIcon-1.0.lua
+
+libs\LibExtraTip\Load.xml
+
+LoonBestInSlot.lua
+Common.lua
+Items\BIS.xml
+UpdateTooltips.lua
+UserItemCache.lua
+ItemSources.lua
+MinimapButton.lua
+
+LootBrowser.lua
