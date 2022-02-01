@@ -58,7 +58,7 @@ LoonBestInSlot:AddItem(spec, "32347", "Gloves", "Grips of Damnation",           
 LoonBestInSlot:AddItem(spec, "29947", "Gloves", "Gloves of the Searing Grip",       "Alt", "2>3", "Drop", "Al'ar", "Tempest Keep")
 LoonBestInSlot:AddItem(spec, "30239", "Gloves", "Gloves of the Vanquished Champion", "Alt", "2", "Token", "Leotheras the Blind", "Serpentshrine Cavern")
 LoonBestInSlot:AddItem(spec, "30189", "Gloves", "Cataclysm Gauntlets",              "Alt", "2", "Drop", "Leotheras the Blind", "Serpentshrine Cavern")
-LoonBestInSlot:AddItem(spec, "30644", "Gloves", "Liar's Tongue Gloves",             "Alt", "1>2", "Drop", "Magtheridon", "Magtheridon's Lair")
+LoonBestInSlot:AddItem(spec, "28776", "Gloves", "Liar's Tongue Gloves",             "Alt", "1>2", "Drop", "Magtheridon", "Magtheridon's Lair")
 LoonBestInSlot:AddItem(spec, "30644", "Gloves", "Grips of Deftness",                "Alt", "1>2", "Drop", "Trash Drop", "Karazhan")
 LoonBestInSlot:AddItem(spec, "30341", "Gloves", "Flesh Handler's Gauntlets",        "PreRaid", "0", "Quest", "The Flesh Lies...", "Agent Araxes, Netherstorm")
 LoonBestInSlot:AddItem(spec, "29503", "Gloves", "Cobrascale Gloves",                "PreRaid", "0", "Profession", "Leatherworking (365)")
