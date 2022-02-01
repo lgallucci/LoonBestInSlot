@@ -73,6 +73,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Support", "Support", "{F190
 		LoonBestInSlot\libs\LibExtraTip\Support\Load.xml = LoonBestInSlot\libs\LibExtraTip\Support\Load.xml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC3ACBDB-76F6-40AD-80DF-68EE0D68E129}"
+	ProjectSection(SolutionItems) = preProject
+		BugList.txt = BugList.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
