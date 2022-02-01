@@ -1,0 +1,3 @@
+Opening Window too soon after first login causes error.
+
+PvP Items are all over the place with some missing and some being the wrong costs.
