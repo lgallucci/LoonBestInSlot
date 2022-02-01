@@ -49,7 +49,7 @@ LoonBestInSlot:AddItem(spec, "29369", "Back", "Shawl of Shifting Probabilities",
 LoonBestInSlot:AddItem(spec, "24252", "Back", "Cloak of the Black Void",            "PreRaid", "0", "Profession", "Tailoring (350)")
 LoonBestInSlot:AddItem(spec, "25777", "Back", "Ogre Slayer's Cover",                "PreRaid", "0", "Quest", "Cho'war the Pillager", "Nagrand")
 
-LoonBestInSlot:AddItem(spec, "31043", "Chest", "Thunderheart Vest",                     "BIS", "3", "Drop", "undefined", "undefined")
+LoonBestInSlot:AddItem(spec, "31043", "Chest", "Thunderheart Vest",                     "BIS", "3", "Drop", "Illidan Stormrage", "Black Temple")
 LoonBestInSlot:AddItem(spec, "31090", "Chest", "Chestguard of the Forgotten Vanquisher","BIS", "3", "Token", "Illidan Stormrage", "Black Temple")
 LoonBestInSlot:AddItem(spec, "30913", "Chest", "Robes of Rhonin",                       "Alt", "3", "Drop", "Archimonde", "Hyjal Summit")
 LoonBestInSlot:AddItem(spec, "30231", "Chest", "Nordrassil Chestpiece",                 "Alt", "2>3", "Drop", "Kael'thas Sunstrider", "Tempest Keep")
@@ -168,7 +168,7 @@ LoonBestInSlot:AddItem(spec, "31692", "Neck", "Natasha's Ember Necklace",       
 LoonBestInSlot:AddItem(spec, "29333", "Neck", "Torc of the Sethekk Prophet",        "PreRaid", "0", "Quest", "Brother Against Brother", "Sethekk Halls")
 LoonBestInSlot:AddItem(spec, "24462", "Neck", "Luminous Pearls of Insight",         "PreRaid", "0", "Drop", "Ghaz'an", "The Underbog")
 
-LoonBestInSlot:AddItem(spec, "32527", "Ring", "Ring of Ancient Knowledge",      "BIS", "3", "Drop", "undefined", "Black Temple")
+LoonBestInSlot:AddItem(spec, "32527", "Ring", "Ring of Ancient Knowledge",      "BIS", "3", "Drop", "Trash Drop", "Black Temple")
 LoonBestInSlot:AddItem(spec, "29305", "Ring", "Band of the Eternal Sage",       "BIS", "3", "Reputation", "Soridormi", "The Scale of the Sands (Exalted)")
 LoonBestInSlot:AddItem(spec, "32247", "Ring", "Ring of Captured Storms",        "Alt", "3", "Drop", "High Warlord Naj'entus", "Black Temple")
 LoonBestInSlot:AddItem(spec, "30109", "Ring", "Ring of Endless Coils",          "Alt", "2>3", "Drop", "Lady Vashj", "Serpentshrine Cavern")
