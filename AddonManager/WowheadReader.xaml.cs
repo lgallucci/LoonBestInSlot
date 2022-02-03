@@ -8,26 +8,30 @@ namespace AddonManager;
 /// </summary>
 public partial class WowheadReader : Window
 {
+    public string[] SpecList = {"DruidBalance", "DruidBear", "DruidCat", "DruidRestoration", "Hunter", "Mage", "PaladinHoly",
+                                "PaladinProtection", "PaladinRetribution", "PriestHoly", "PriestShadow", "Rogue", "ShamanElemental",
+                                "ShamanEnhancement", "ShamanRestoration", "Warlock", "WarriorDPS", "WarriorProtection"};
     public WowheadReader()
     {
         InitializeComponent();
+        cmbSpec.ItemsSource = SpecList;
     }
 
-    private async void Button_Click(object sender, RoutedEventArgs e)
+    private async void Import_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = string.Empty;
 
         var itemSources = new ItemSourceFileManager().ReadItemSources();
 
-        var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == txtSpec.Text);
+        var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == cmbSpec.SelectedValue.ToString());
 
         if (specMapping != null)
         {
-            var items = await new WowheadGuideParser().ParseWowheadGuide(txtUrl.Text, specMapping, txtSpec.Text, txtPhase.Text);
+            var items = await new WowheadGuideParser().ParseWowheadGuide(txtUrl.Text, specMapping, cmbSpec.SelectedValue.ToString(), txtPhase.Text);
 
             items.ForEach(item =>
             {
-                if (!itemSources.ContainsKey(item.ItemId))
+                if (!itemSources.ContainsKey(item.ItemId) && item.ItemId != 99999)
                 {
                     itemSources.Add(item.ItemId, new ItemSource
                     {
@@ -42,14 +46,31 @@ public partial class WowheadReader : Window
                 ConsoleOut.Text += $"{item.ItemId}: {item.Name} - {item.Slot} - {item.BisStatus}\n";
             });
 
-            new ItemSpecFileManager().WriteItemSpec(Constants.AddonPath + $@"Guides\{txtPhase.Text}\{txtSpec.Text}.lua", specMapping.ClassName, specMapping.SpecName, items);
+            new ItemSpecFileManager().WriteItemSpec(Constants.AddonPath + $@"Guides\{txtPhase.Text}\{cmbSpec.SelectedValue.ToString()}.lua", specMapping.ClassName, specMapping.SpecName, items);
 
             new ItemSourceFileManager().WriteItemSources(itemSources);
-        } 
+        }
         else
         {
-            ConsoleOut.Text = $"Couldn't find spec: {txtSpec.Text}";
+            ConsoleOut.Text = $"Couldn't find spec: {cmbSpec.SelectedValue.ToString()}";
         }
 
+    }
+
+    private async void Read_Click(object sender, RoutedEventArgs e)
+    {
+        ConsoleOut.Text = string.Empty;
+
+        var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == cmbSpec.SelectedValue.ToString());
+
+        if (specMapping != null)
+        {
+            ConsoleOut.Text = await new WowheadGuideParser().ReadWowheadGuide(txtUrl.Text, specMapping);
+
+        }
+        else
+        {
+            ConsoleOut.Text = $"Couldn't find spec: {cmbSpec.SelectedValue.ToString()}";
+        }
     }
 }

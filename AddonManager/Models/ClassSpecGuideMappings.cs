@@ -207,40 +207,40 @@ public class ClassSpecGuideMappings
 
         GuideMappings.Add(new ClassGuideMapping("PriestHoly", "Holy", "Priest", new List<GuideMapping>
         {        
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "MH"),
-            new GuideMapping(14, "OH"),
-            new GuideMapping(15, "Wand")
+            new GuideMapping(8, "Head"),
+            new GuideMapping(12, "Shoulders"),
+            new GuideMapping(13, "Back"),
+            new GuideMapping(17, "Chest"),
+            new GuideMapping(18, "Bracers"),
+            new GuideMapping(19, "Gloves"),
+            new GuideMapping(23, "Belt"),
+            new GuideMapping(24, "Legs"),
+            new GuideMapping(25, "Feet"),
+            new GuideMapping(26, "Neck"),
+            new GuideMapping(27, "Ring"),
+            new GuideMapping(28, "Trinket"),
+            new GuideMapping(29, "MH"),
+            new GuideMapping(31, "OH"),
+            new GuideMapping(30, "Wand")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("PriestShadow", "Shadow", "Priest", new List<GuideMapping>
         {        
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "MH"),
-            new GuideMapping(14, "OH"),
-            new GuideMapping(15, "Wand")
+            //new GuideMapping(1, "Head"),
+            new GuideMapping(0, "Shoulders"),
+            new GuideMapping(1, "Back"),
+            new GuideMapping(2, "Chest"),
+            new GuideMapping(3, "Bracers"),
+            new GuideMapping(4, "Gloves"),
+            new GuideMapping(5, "Belt"),
+            new GuideMapping(6, "Legs"),
+            new GuideMapping(7, "Feet"),
+            new GuideMapping(8, "Neck"),
+            new GuideMapping(9, "Ring"),
+            new GuideMapping(10, "Trinket"),
+            new GuideMapping(11, "MH"),
+            new GuideMapping(12, "OH"),
+            new GuideMapping(13, "Wand")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("Rogue", "", "Rogue", new List<GuideMapping>
@@ -262,8 +262,27 @@ public class ClassSpecGuideMappings
             new GuideMapping(15, "Ranged")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanElemental", "Elemental", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("ShamanElemental-PreRaid", "Elemental", "Shaman", new List<GuideMapping>
         {        
+            new GuideMapping(1, "Head"),
+            new GuideMapping(2, "Shoulders"),
+            //new GuideMapping(3, "Back"),
+            new GuideMapping(3, "Chest"),
+            new GuideMapping(4, "Bracers"),
+            new GuideMapping(5, "Gloves"),
+            new GuideMapping(6, "Belt"),
+            new GuideMapping(7, "Legs"),
+            new GuideMapping(8, "Feet"),
+            new GuideMapping(9, "Neck"),
+            new GuideMapping(10, "Ring"),
+            new GuideMapping(11, "Trinket"),
+            new GuideMapping(12, "MH"),
+            new GuideMapping(13, "OH"),
+            new GuideMapping(14, "Totem")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("ShamanElemental", "Elemental", "Shaman", new List<GuideMapping>
+        {
             new GuideMapping(1, "Head"),
             new GuideMapping(2, "Shoulders"),
             new GuideMapping(3, "Back"),

@@ -8,12 +8,13 @@
         Title="WowheadReader" Height="768" Width="1024
 ">
     <Grid>
-        <Button Content="ReadSite" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <TextBox x:Name="txtUrl" HorizontalAlignment="Left" Margin="75,11,0,0" Text="https://tbc.wowhead.com/guides/balance-druid-dps-pre-raid-best-in-slot-gear-burning-crusade-classic-wow" TextWrapping="Wrap" VerticalAlignment="Top" Width="675"/>
+        <Button Content="Read" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="Read_Click"/>
+        <Button Content="Import" HorizontalAlignment="Left" Margin="45,10,0,0" VerticalAlignment="Top" Click="Import_Click"/>
+        <TextBox x:Name="txtUrl" HorizontalAlignment="Left" Margin="90,11,0,0" Text="https://tbc.wowhead.com/guides/druid-healer-pre-raid-best-in-slot-gear-burning-crusade-classic-wow" TextWrapping="Wrap" VerticalAlignment="Top" Width="675"/>
         <ScrollViewer Margin="0,35,0,0" BorderBrush="Gray" BorderThickness="1">
-            <TextBlock x:Name="ConsoleOut" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" />
+            <TextBox x:Name="ConsoleOut" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" />
         </ScrollViewer>
-        <TextBox x:Name="txtSpec" HorizontalAlignment="Left" Margin="755,11,0,0" TextWrapping="Wrap" Text="DruidBalance" VerticalAlignment="Top" Width="150"/>
-        <TextBox x:Name="txtPhase" HorizontalAlignment="Left" Margin="910,11,0,0" TextWrapping="Wrap" Text="Phase0" VerticalAlignment="Top" Width="83"/>
+        <ComboBox x:Name="cmbSpec" HorizontalAlignment="Left" Margin="770,11,0,0" Text="DruidRestoration" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="txtPhase" HorizontalAlignment="Left" Margin="925,11,0,0" TextWrapping="Wrap" Text="Phase0" VerticalAlignment="Top" Width="83"/>
     </Grid>
 </Window>

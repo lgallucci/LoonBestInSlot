@@ -21,16 +21,20 @@ public class ItemSpec
     {
         new Tuple<string, string>("BiS", "BIS"),
         new Tuple<string, string>("Recommended", "BIS"),
+        new Tuple<string, string>("Best in slot", "BIS"),
         new Tuple<string, string>("Best", "BIS"),
         new Tuple<string, string>("Optional", "Alt"),
         new Tuple<string, string>("PvP", "Alt"),
         new Tuple<string, string>("Easy to Acquire", "Alt"),
+        new Tuple<string, string>("Easy to Obtain", "Alt"),        
         new Tuple<string, string>(" Pre-raid", ""),
         new Tuple<string, string>("Alternative", "Alt"),
         new Tuple<string, string>("Mitigation", "Mit"),
         new Tuple<string, string>("Threat", "Thrt"),
         new Tuple<string, string>("alternative", "Alt"),
         new Tuple<string, string>(" skewed", ""),
+        new Tuple<string, string>("Great", "Alt"),
+        new Tuple<string, string>("Viable", "Alt"),
 
 
         new Tuple<string, string>("Thrt Alt", "Alt Thrt"),
