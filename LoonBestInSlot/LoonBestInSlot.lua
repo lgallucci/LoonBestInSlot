@@ -73,18 +73,16 @@ function LoonBestInSlot:RegisterEvent(...)
 	end
 end
 
-function LoonBestInSlot:RegisterSpec(class, spec, comment)
+function LoonBestInSlot:RegisterSpec(class, spec)
 	
 	if not spec then spec = "" end
-	if not comment then comment = "" end
 	
     local classSpec = {
 		Class = class,
-		Spec = spec,
-		Comment = comment
+		Spec = spec
 	}
 	
-	classSpec.ID = class..spec..comment
+	classSpec.ID = class..spec
 
     LoonBestInSlot.ClassSpec[classSpec.ID] = classSpec
     return classSpec
