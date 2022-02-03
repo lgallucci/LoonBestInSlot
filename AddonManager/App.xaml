@@ -1,8 +1,8 @@
-﻿<Application x:Class="LoonBestInSlotManager.App"
+﻿<Application x:Class="AddonManager.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:LoonBestInSlotManager"
-             StartupUri="MainWindow.xaml">
+             xmlns:local="clr-namespace:AddonManager"
+             StartupUri="WowheadReader.xaml">
     <Application.Resources>
          
     </Application.Resources>
