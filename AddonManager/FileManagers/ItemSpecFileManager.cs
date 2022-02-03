@@ -9,8 +9,15 @@ public class ItemSpecFileManager
         var itemSB = new StringBuilder();
 
         itemSB.AppendLine($"local spec = LoonBestInSlot:RegisterSpec(\"{className}\", \"{specName}\")");
+
+        var previousSlot = "Head";
         foreach (var item in items)
         {
+            if (previousSlot != item.Slot)
+            {
+                previousSlot = item.Slot;
+                itemSB.AppendLine();
+            }
             itemSB.AppendLine($"LoonBestInSlot:AddItem(spec, \"{item.ItemId}\", \"{item.Slot}\", \"{item.Name}\", \"{item.BisStatus}\")");
         }
                 
