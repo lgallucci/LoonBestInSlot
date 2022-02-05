@@ -1,4 +1,4 @@
-local spec = LoonBestInSlot:RegisterSpec("Druid", "Balance")
+local spec = LoonBestInSlot:RegisterSpec("Druid", "Balance", "0")
 LoonBestInSlot:AddItem(spec, "32480", "Head", "Magnified Moon Specs", "BIS")
 LoonBestInSlot:AddItem(spec, "24266", "Head", "Spellstrike Hood", "Alt")
 LoonBestInSlot:AddItem(spec, "32057", "Head", "Merciless Gladiator's Wyrmhide Helm", "Alt")

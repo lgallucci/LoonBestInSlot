@@ -1,4 +1,4 @@
-local spec = LoonBestInSlot:RegisterSpec("Paladin", "Ret")
+local spec = LoonBestInSlot:RegisterSpec("Paladin", "Ret", "0")
 LoonBestInSlot:AddItem(spec, "32461", "Head", "Furious Gizmatic Goggles", "BIS - Engineer")
 LoonBestInSlot:AddItem(spec, "32087", "Head", "Mask of the Deceiver", "BIS - Non Engineer")
 LoonBestInSlot:AddItem(spec, "31105", "Head", "Overlord's Helmet of Second Sight", "BIS - No Meta Gem")

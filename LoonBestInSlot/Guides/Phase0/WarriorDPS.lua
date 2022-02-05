@@ -1,4 +1,4 @@
-local spec = LoonBestInSlot:RegisterSpec("Warrior", "DPS")
+local spec = LoonBestInSlot:RegisterSpec("Warrior", "DPS", "0")
 LoonBestInSlot:AddItem(spec, "32461", "Head", "Furious Gizmatic Goggles", "BIS")
 LoonBestInSlot:AddItem(spec, "32087", "Head", "Mask of the Deceiver", "BIS")
 LoonBestInSlot:AddItem(spec, "28224", "Head", "Wastewalker Helm", "Alt")
