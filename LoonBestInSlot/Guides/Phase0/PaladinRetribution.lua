@@ -12,7 +12,7 @@ LoonBestInSlot:AddItem(spec, "28713", "Shoulders", "Grand Marshal's Scaled Shoul
 
 LoonBestInSlot:AddItem(spec, "24259", "Back", "Vengeance Wrap", "BIS-Crafted")
 LoonBestInSlot:AddItem(spec, "27878", "Back", "Auchenai Death Shroud", "BIS for Hit")
-LoonBestInSlot:AddItem(spec, "27892", "Back", "Cloak of the Inciter", "Alt - Hit")
+LoonBestInSlot:AddItem(spec, "27892", "Back", "Cloak of the Inciter", "Alt Hit")
 LoonBestInSlot:AddItem(spec, "28249", "Back", "Capacitus' Cloak of Calibration", "Option")
 
 LoonBestInSlot:AddItem(spec, "23522", "Chest", "Ragesteel Breastplate", "Ragesteel BIS")
@@ -41,13 +41,13 @@ LoonBestInSlot:AddItem(spec, "30533", "Legs", "Vanquisher's Legplates", "Serious
 
 LoonBestInSlot:AddItem(spec, "25686", "Feet", "Fel Leather Boots", "BIS-Hit")
 LoonBestInSlot:AddItem(spec, "28176", "Feet", "Sha'tari Wrought Greaves", "BIS-Non Hit")
-LoonBestInSlot:AddItem(spec, "99999", "Feet", "undefined", "undefined")
+LoonBestInSlot:AddItem(spec, "27867", "Feet", "Boots of the Unjust", "Option")
 LoonBestInSlot:AddItem(spec, "28318", "Feet", "Obsidian Clodstompers", "Option")
 
 LoonBestInSlot:AddItem(spec, "29381", "Neck", "Choker of Vile Intent", "BIS-HIT")
 LoonBestInSlot:AddItem(spec, "29119", "Neck", "Haramad's Bargain", "BIS-Non HIT")
 LoonBestInSlot:AddItem(spec, "31275", "Neck", "Necklace of Trophies", "BOE")
-LoonBestInSlot:AddItem(spec, "99999", "Neck", "undefined", "undefined")
+LoonBestInSlot:AddItem(spec, "31695", "Neck", "Natasha's Choker", "Easy to acquire")
 
 LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "Never Un-equip")
 LoonBestInSlot:AddItem(spec, "29177", "Ring", "A'dal's Command", "BIS-NonHit")
@@ -67,14 +67,14 @@ LoonBestInSlot:AddItem(spec, "23206", "Trinket", "Mark of the Champion", "Undead
 LoonBestInSlot:AddItem(spec, "29776", "Trinket", "Core of Ar'kelos", "Option")
 
 LoonBestInSlot:AddItem(spec, "28429", "2H", "Lionheart Champion", "BIS")
-LoonBestInSlot:AddItem(spec, "99999", "2H", "undefined", "undefined")
+LoonBestInSlot:AddItem(spec, "28441", "2H", "Deep Thunder", "Second BIS")
 LoonBestInSlot:AddItem(spec, "29356", "2H", "Quantum Blade", "Option")
 LoonBestInSlot:AddItem(spec, "31322", "2H", "The Hammer of Destiny", "Option")
 LoonBestInSlot:AddItem(spec, "23541", "2H", "Khorium Champion", "Option")
 LoonBestInSlot:AddItem(spec, "22798", "2H", "Might of Menethil", "Old Weapon")
 LoonBestInSlot:AddItem(spec, "27986", "2H", "Crow Wing Reaper", "Option")
 
-LoonBestInSlot:AddItem(spec, "27484", "Shield", "Libram of Avengement", "BIS")
-LoonBestInSlot:AddItem(spec, "22401", "Shield", "Libram of Hope", "Option")
-LoonBestInSlot:AddItem(spec, "23203", "Shield", "Libram of Fervor", "Alt Easy to Obtain")
-LoonBestInSlot:AddItem(spec, "22402", "Shield", "Libram of Grace", "Cleansebot")
+LoonBestInSlot:AddItem(spec, "27484", "Libram", "Libram of Avengement", "BIS")
+LoonBestInSlot:AddItem(spec, "22401", "Libram", "Libram of Hope", "Option")
+LoonBestInSlot:AddItem(spec, "23203", "Libram", "Libram of Fervor", "Alt Alt")
+LoonBestInSlot:AddItem(spec, "22402", "Libram", "Libram of Grace", "Cleansebot")

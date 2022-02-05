@@ -18,10 +18,10 @@ LoonBestInSlot:AddItem(spec, "28264", "Chest", "Wastewalker Tunic", "BIS")
 LoonBestInSlot:AddItem(spec, "29525", "Chest", "Primalstrike Vest", "BIS")
 LoonBestInSlot:AddItem(spec, "30933", "Chest", "Hauberk of Karabor", "Alt")
 
-LoonBestInSlot:AddItem(spec, "32647", "Bracers", "Shard-Bound Bracers", "BIS")
+LoonBestInSlot:AddItem(spec, "32647", "Bracers", "Shard-bound Bracers", "BIS")
 LoonBestInSlot:AddItem(spec, "29246", "Bracers", "Nightfall Wristguards", "Alt")
 LoonBestInSlot:AddItem(spec, "29527", "Bracers", "Primalstrike Bracers", "Alt")
-LoonBestInSlot:AddItem(spec, "28171", "Bracers", "Spymistress' Wristguards", "Alt")
+LoonBestInSlot:AddItem(spec, "28171", "Bracers", "Spymistress's Wristguards", "Alt")
 
 LoonBestInSlot:AddItem(spec, "25685", "Gloves", "Fel Leather Gloves", "BIS")
 LoonBestInSlot:AddItem(spec, "27531", "Gloves", "Wastewalker Gloves", "BIS")
