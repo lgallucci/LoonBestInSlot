@@ -23,7 +23,10 @@ public partial class WowheadReader : Window
 
         var itemSources = new ItemSourceFileManager().ReadItemSources();
 
-        var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == cmbSpec.SelectedValue.ToString());
+        var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == $"{cmbSpec.SelectedValue.ToString()}{txtPhase.Text}");
+
+        if (specMapping == null)
+            specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == cmbSpec.SelectedValue.ToString());
 
         if (specMapping != null)
         {

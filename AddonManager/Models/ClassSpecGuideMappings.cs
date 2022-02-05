@@ -205,6 +205,25 @@ public class ClassSpecGuideMappings
             new GuideMapping("#librams", "Libram")
         }));
 
+        GuideMappings.Add(new ClassGuideMapping("PriestHolyPhase0", "Holy", "Priest", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-priest-healing-in-pre-raid", "Head"),
+            new GuideMapping("#shoulders-for-priest-healing-in-pre-raid", "Shoulders"),
+            new GuideMapping("#back-for-priest-healing-in-pre-raid", "Back"),
+            new GuideMapping("#chest-for-priest-healing-in-pre-raid", "Chest"),
+            new GuideMapping("#wrists-for-priest-healing-in-pre-raid", "Bracers"),
+            new GuideMapping("#hands-for-priest-healing-in-pre-raid", "Gloves"),
+            new GuideMapping("#waist-for-priest-healing-in-pre-raid", "Belt"),
+            new GuideMapping("#legs-for-priest-healing-in-pre-raid", "Legs"),
+            new GuideMapping("#feet-for-priest-healing-in-pre-raid", "Feet"),
+            new GuideMapping("#neck-for-priest-healing-in-pre-raid", "Neck"),
+            new GuideMapping("#rings-for-priest-healing-in-pre-raid", "Ring"),
+            new GuideMapping("#trinkets-for-priest-healing-in-pre-raid", "Trinket"),
+            new GuideMapping("#main-and-two-handed-for-priest-healing-in-pre-raid", "MH"),
+            new GuideMapping("#off-hand-for-priest-healing-in-pre-raid", "OH"),
+            new GuideMapping("#wands-for-priest-healing-in-pre-raid", "Wand")
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("PriestHoly", "Holy", "Priest", new List<GuideMapping>
         {        
             new GuideMapping("#head", "Head"),

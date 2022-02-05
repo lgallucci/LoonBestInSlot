@@ -86,13 +86,18 @@ public class WowheadGuideParser
                                     if (((IHtmlAnchorElement)child).PathName.Contains("/item="))
                                     {
                                         var item = ((IHtmlAnchorElement)child).PathName.Replace("/item=", "");
-                                        item = item.Substring(0, item.IndexOf("/"));
+
+                                        var itemIdIndex = item.IndexOf("/");
+                                        if (itemIdIndex == -1)
+                                            itemIdIndex = item.IndexOf("&");
+
+                                        item = item.Substring(0, itemIdIndex);
                                         var itemName = child.TextContent.Trim();
                                         var bisStatus = tableRow?.ChildNodes[0].TextContent.Trim();
 
                                         bool skippedItem = false;
                                         foreach(var excludedName in excludedItemNames)
-                                            if (child.NextSibling?.TextContent.Contains(excludedName) ?? false)
+                                            if (child.NextSibling?.TextContent.Contains(excludedName) ?? false || itemName.Contains(excludedName))
                                                 skippedItem = true;
 
                                         if (!skippedItem)
