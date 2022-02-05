@@ -17,12 +17,12 @@ public class ClassGuideMapping
 
 public class GuideMapping
 {
-    public GuideMapping(int tableIndex, string slot)
+    public GuideMapping(string slotHtmlId, string slot)
     {
-        TableIndex = tableIndex;
+        SlotHtmlId = slotHtmlId;
         Slot = slot;
     }
-    public int TableIndex { get; }
+    public string SlotHtmlId { get; }
     public string Slot { get; }
 }
 
@@ -35,365 +35,347 @@ public class ClassSpecGuideMappings
 
         GuideMappings.Add(new ClassGuideMapping("DruidBalance", "Balance", "Druid", new List<GuideMapping> 
         {
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "MH"),
-            new GuideMapping(14, "2H"),
-            new GuideMapping(15, "OH"),
-            new GuideMapping(16, "Idol")
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#1-handed-weapons", "MH"),
+            new GuideMapping("#2-handed-weapons", "2H"),
+            new GuideMapping("#offhands", "OH"),
+            new GuideMapping("#idols", "Idol")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("DruidCat", "Cat", "Druid", new List<GuideMapping> 
         {
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "2H"),
-            new GuideMapping(14, "Idol")
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#weapons", "2H"),
+            new GuideMapping("#idols", "Idol")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("DruidBear", "Bear", "Druid", new List<GuideMapping>
         {
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "2H"),
-            new GuideMapping(14, "Idol")
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#weapons", "2H"),
+            new GuideMapping("#idols", "Idol")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("DruidRestoration", "Resto", "Druid", new List<GuideMapping>
         {
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "MH"),
-            new GuideMapping(14, "2H"),
-            new GuideMapping(15, "OH"),
-            new GuideMapping(16, "Idol")
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#1-handed-weapons", "MH"),
+            new GuideMapping("#2-handed-weapons", "2H"),
+            new GuideMapping("#offhands", "OH"),
+            new GuideMapping("#idols", "Idol")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("Hunter", "", "Hunter", new List<GuideMapping>
         {
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "MH"),
-            new GuideMapping(14, "OH"),
-            new GuideMapping(15, "2H"),
-            new GuideMapping(16, "Ranged")
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#main-hand", "MH"),
+            new GuideMapping("#offhand", "OH"),
+            new GuideMapping("#two-handed", "2H"),
+            new GuideMapping("#ranged-weapon", "Ranged")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("Mage", "", "Mage", new List<GuideMapping>
         {
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "MH"),
-            new GuideMapping(14, "2H"),
-            new GuideMapping(15, "OH"),
-            new GuideMapping(16, "Wand")
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#1-handed-weapons", "MH"),
+            new GuideMapping("#2-handed-weapons", "2H"),
+            new GuideMapping("#offhands", "OH"),
+            new GuideMapping("#wands", "Wand")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("PaladinHoly", "Holy", "Paladin", new List<GuideMapping>
         {
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "MH"),
-            new GuideMapping(14, "OH"),
-            new GuideMapping(15, "Shield")
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#1-handed-weapons", "MH"),
+            new GuideMapping("#offhands-and-shields", "OH"),
+            new GuideMapping("#librams", "Libram")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("PaladinProtection", "Prot", "Paladin", new List<GuideMapping>
-        {        
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "MH"),
-            new GuideMapping(14, "Libram"),
-            new GuideMapping(15, "Shield")
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#1-handed-weapons", "MH"),
+            new GuideMapping("#librams", "Libram"),
+            new GuideMapping("#shields", "Shield")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("PaladinRetribution", "Ret", "Paladin", new List<GuideMapping>
-        {        
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "2H"),
-            new GuideMapping(14, "Shield")
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#2-handed-weapons", "2H"),
+            new GuideMapping("#librams", "Libram")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("PriestHoly", "Holy", "Priest", new List<GuideMapping>
         {        
-            new GuideMapping(8, "Head"),
-            new GuideMapping(12, "Shoulders"),
-            new GuideMapping(13, "Back"),
-            new GuideMapping(17, "Chest"),
-            new GuideMapping(18, "Bracers"),
-            new GuideMapping(19, "Gloves"),
-            new GuideMapping(23, "Belt"),
-            new GuideMapping(24, "Legs"),
-            new GuideMapping(25, "Feet"),
-            new GuideMapping(26, "Neck"),
-            new GuideMapping(27, "Ring"),
-            new GuideMapping(28, "Trinket"),
-            new GuideMapping(29, "MH"),
-            new GuideMapping(31, "OH"),
-            new GuideMapping(30, "Wand")
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#main-and-two-handed", "MH"),
+            new GuideMapping("#off-hands", "OH"),
+            new GuideMapping("#wands", "Wand")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("PriestShadow", "Shadow", "Priest", new List<GuideMapping>
-        {        
-            //new GuideMapping(1, "Head"),
-            new GuideMapping(0, "Shoulders"),
-            new GuideMapping(1, "Back"),
-            new GuideMapping(2, "Chest"),
-            new GuideMapping(3, "Bracers"),
-            new GuideMapping(4, "Gloves"),
-            new GuideMapping(5, "Belt"),
-            new GuideMapping(6, "Legs"),
-            new GuideMapping(7, "Feet"),
-            new GuideMapping(8, "Neck"),
-            new GuideMapping(9, "Ring"),
-            new GuideMapping(10, "Trinket"),
-            new GuideMapping(11, "MH"),
-            new GuideMapping(12, "OH"),
-            new GuideMapping(13, "Wand")
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#main-and-two-handed-weapons", "MH"),
+            new GuideMapping("#off-hand", "OH"),
+            new GuideMapping("#wands", "Wand")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("Rogue", "", "Rogue", new List<GuideMapping>
-        {        
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "MH"),
-            new GuideMapping(14, "OH"),
-            new GuideMapping(15, "Ranged")
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("ShamanElemental-PreRaid", "Elemental", "Shaman", new List<GuideMapping>
-        {        
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            //new GuideMapping(3, "Back"),
-            new GuideMapping(3, "Chest"),
-            new GuideMapping(4, "Bracers"),
-            new GuideMapping(5, "Gloves"),
-            new GuideMapping(6, "Belt"),
-            new GuideMapping(7, "Legs"),
-            new GuideMapping(8, "Feet"),
-            new GuideMapping(9, "Neck"),
-            new GuideMapping(10, "Ring"),
-            new GuideMapping(11, "Trinket"),
-            new GuideMapping(12, "MH"),
-            new GuideMapping(13, "OH"),
-            new GuideMapping(14, "Totem")
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#main-hand-weapons", "MH"),
+            new GuideMapping("#off-hand-weapons", "OH"),
+            new GuideMapping("#guns-and-bows", "Ranged")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("ShamanElemental", "Elemental", "Shaman", new List<GuideMapping>
         {
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "MH"),
-            new GuideMapping(14, "OH"),
-            new GuideMapping(15, "Totem")
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#weapons", "MH"),
+            new GuideMapping("#shields-off-hands", "OH"),
+            new GuideMapping("#totems", "Totem")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("ShamanEnhancement", "Enhance", "Shaman", new List<GuideMapping>
-        {        
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "MH"),
-            new GuideMapping(14, "Totem")
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#1-handed-weapons", "MH"),
+            new GuideMapping("#totems", "Totem")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("ShamanRestoration", "Resto", "Shaman", new List<GuideMapping>
-        {        
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "MH"),
-            new GuideMapping(14, "OH"),
-            new GuideMapping(15, "Totem")
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#weapons", "MH"),
+            new GuideMapping("#shields-off-hands", "OH"),
+            new GuideMapping("#totems", "Totem")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("Warlock", "", "Warlock", new List<GuideMapping>
-        {        
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "MH"),
-            new GuideMapping(14, "2H"),
-            new GuideMapping(15, "Wand"),
-            new GuideMapping(16, "OH")
+        {
+
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#1-handed", "MH"),
+            new GuideMapping("#2-handed-weapons", "2H"),
+            new GuideMapping("#wands", "Wand"),
+            new GuideMapping("#offhands", "OH")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("WarriorDPS", "DPS", "Warrior", new List<GuideMapping>
-        {        
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "MH"),
-            new GuideMapping(14, "OH"),
-            new GuideMapping(15, "2H"),
-            new GuideMapping(16, "Ranged"),
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#main-hand-weapons", "MH"),
+            new GuideMapping("#off-hand-weapons", "OH"),
+            new GuideMapping("#2-handed-weapons", "2H"),
+            new GuideMapping("#guns-and-bows", "Ranged"),
         }));
 
         GuideMappings.Add(new ClassGuideMapping("WarriorProtection", "Prot", "Warrior", new List<GuideMapping>
-        {        
-            new GuideMapping(1, "Head"),
-            new GuideMapping(2, "Shoulders"),
-            new GuideMapping(3, "Back"),
-            new GuideMapping(4, "Chest"),
-            new GuideMapping(5, "Bracers"),
-            new GuideMapping(6, "Gloves"),
-            new GuideMapping(7, "Belt"),
-            new GuideMapping(8, "Legs"),
-            new GuideMapping(9, "Feet"),
-            new GuideMapping(10, "Neck"),
-            new GuideMapping(11, "Ring"),
-            new GuideMapping(12, "Trinket"),
-            new GuideMapping(13, "MH"),
-            new GuideMapping(14, "Shield"),
-            new GuideMapping(15, "Ranged")
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#1-handed-weapons", "MH"),
+            new GuideMapping("#shields", "Shield"),
+            new GuideMapping("#guns-and-bows", "Ranged")
         }));
     }
 }

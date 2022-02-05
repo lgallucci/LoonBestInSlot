@@ -27,7 +27,7 @@ public partial class WowheadReader : Window
 
         if (specMapping != null)
         {
-            var items = await new WowheadGuideParser().ParseWowheadGuide(txtUrl.Text, specMapping, cmbSpec.SelectedValue.ToString(), txtPhase.Text);
+            var items = await new WowheadGuideParser().ParseWowheadGuide(specMapping, cmbSpec.SelectedValue.ToString(), txtPhase.Text);
 
             items.ForEach(item =>
             {
@@ -65,8 +65,7 @@ public partial class WowheadReader : Window
 
         if (specMapping != null)
         {
-            ConsoleOut.Text = await new WowheadGuideParser().ReadWowheadGuide(txtUrl.Text, specMapping);
-
+            ConsoleOut.Text = await new WowheadGuideParser().ReadWowheadGuide(specMapping, cmbSpec.SelectedValue.ToString(), txtPhase.Text);
         }
         else
         {
