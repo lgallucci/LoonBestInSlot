@@ -38,6 +38,7 @@ public class ItemSpec
         new Tuple<string, string>("Viable", "Alt"),
         new Tuple<string, string>("Under Hit Cap", "Alt"),
         new Tuple<string, string>("Over Hit Cap", "Alt"),
+        new Tuple<string, string>("Classic Option", "Alt"),
 
         new Tuple<string, string>("- Hit", "Hit"),
 
@@ -49,9 +50,11 @@ public class ItemSpec
         new Tuple<string, string>("Pre-raid ", ""),
         new Tuple<string, string>(" skewed", ""),
         new Tuple<string, string>(" Individually", ""),
+        new Tuple<string, string>(" Overall", ""),
 
         new Tuple<string, string>("Thrt Alt", "Alt Thrt"),
         new Tuple<string, string>("Mit Alt", "Alt Mit"),
+        new Tuple<string, string>("BIS Alt", "BIS"),
     };
 
     private string ReplaceStatuses(string value)
@@ -59,7 +62,7 @@ public class ItemSpec
         var replaceString = value;
 
         foreach (var replace in Replacements)
-            replaceString = replaceString.Replace(replace.Item1, replace.Item2);
+            replaceString = replaceString.Replace(replace.Item1, replace.Item2).Trim();
 
         return replaceString;
     }

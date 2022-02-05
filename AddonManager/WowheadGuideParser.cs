@@ -13,7 +13,7 @@ public class WowheadGuideParser
 {
     public static HttpClient httpClient = new HttpClient();
 
-    private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath" };
+    private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of the Tiger", "of Agility" };
 
     class MyFormatter : IMarkupFormatter
     {

@@ -51,7 +51,7 @@ public partial class WowheadReader : Window
                 ConsoleOut.Text += $"{item.ItemId}: {item.Name} - {item.Slot} - {item.BisStatus}\n";
             });
 
-            new ItemSpecFileManager().WriteItemSpec(Constants.AddonPath + $@"Guides\{txtPhase.Text}\{cmbSpec.SelectedValue.ToString()}.lua", specMapping.ClassName, specMapping.SpecName, items);
+            new ItemSpecFileManager().WriteItemSpec(Constants.AddonPath + $@"Guides\{txtPhase.Text}\{cmbSpec.SelectedValue.ToString()}.lua", specMapping.ClassName, specMapping.SpecName, txtPhase.Text, items);
 
             new ItemSourceFileManager().WriteItemSources(itemSources);
         }
