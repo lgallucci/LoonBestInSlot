@@ -28,7 +28,7 @@ LoonBestInSlot:AddItem(spec, "32810", "Bracers", "Veteran's Dragonhide Bracers",
 LoonBestInSlot:AddItem(spec, "29246", "Bracers", "Nightfall Wristguards", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28396", "Gloves", "Gloves of the Unbound", "BIS")
-LoonBestInSlot:AddItem(spec, "29507", "Gloves", "Windslayer Wraps", "BIS Hit")
+LoonBestInSlot:AddItem(spec, "29507", "Gloves", "Windslayer Wraps", "BIS")
 LoonBestInSlot:AddItem(spec, "25685", "Gloves", "Fel Leather Gloves", "Alt")
 LoonBestInSlot:AddItem(spec, "27509", "Gloves", "Handgrips of Assassination", "Alt")
 LoonBestInSlot:AddItem(spec, "27531", "Gloves", "Wastewalker Gloves", "Alt")
@@ -67,7 +67,6 @@ LoonBestInSlot:AddItem(spec, "27925", "Ring", "Ravenclaw Band", "Alt")
 LoonBestInSlot:AddItem(spec, "30860", "Ring", "Kaylaan's Signet", "Alt")
 LoonBestInSlot:AddItem(spec, "31077", "Ring", "Slayer's Mark of the Redemption", "Alt")
 
-LoonBestInSlot:AddItem(spec, "23206", "Trinket", "Mark of the Champion", "BIS")
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS")
 LoonBestInSlot:AddItem(spec, "28034", "Trinket", "Hourglass of the Unraveller", "BIS")
 LoonBestInSlot:AddItem(spec, "32654", "Trinket", "Crystalforged Trinket", "Alt")

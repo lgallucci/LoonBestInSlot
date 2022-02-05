@@ -75,9 +75,9 @@ LoonBestInSlot:AddItem(spec, "27872", "MH", "The Harvester of Souls", "BIS (OH)"
 LoonBestInSlot:AddItem(spec, "28944", "MH", "Grand Marshal's Cleaver", "BIS (OH)")
 LoonBestInSlot:AddItem(spec, "28920", "MH", "High Warlord's Cleaver", "BIS (OH)")
 LoonBestInSlot:AddItem(spec, "28657", "MH", "Fool's Bane", "Alt")
-LoonBestInSlot:AddItem(spec, "28438", "MH", "Dragonmaw", "Alt (2.7 MH)")
-LoonBestInSlot:AddItem(spec, "28432", "MH", "Black Planar Edge", "Alt (2.7 MH)")
-LoonBestInSlot:AddItem(spec, "28392", "MH", "Reflex Blades", "Alt (2.7 MH)")
-LoonBestInSlot:AddItem(spec, "31139", "MH", "Fist of Reckoning", "Alt (2.7 OH)")
+LoonBestInSlot:AddItem(spec, "28438", "MH", "Dragonmaw", "Alt (MH)")
+LoonBestInSlot:AddItem(spec, "28432", "MH", "Black Planar Edge", "Alt (MH)")
+LoonBestInSlot:AddItem(spec, "28392", "MH", "Reflex Blades", "Alt (MH)")
+LoonBestInSlot:AddItem(spec, "31139", "MH", "Fist of Reckoning", "Alt (OH)")
 
 LoonBestInSlot:AddItem(spec, "27815", "Totem", "Totem of the Astral Winds", "BIS")

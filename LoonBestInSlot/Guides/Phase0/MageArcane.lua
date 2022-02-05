@@ -108,7 +108,6 @@ LoonBestInSlot:AddItem(spec, "31075", "Ring", "Evoker's Mark of the Redemption",
 LoonBestInSlot:AddItem(spec, "30366", "Ring", "Manastorm Band", "Alt")
 LoonBestInSlot:AddItem(spec, "32774", "Ring", "The Black Pearl", "Alt")
 
-LoonBestInSlot:AddItem(spec, "23207", "Trinket", "Mark of the Champion", "BIS")
 LoonBestInSlot:AddItem(spec, "31856", "Trinket", "Darkmoon Card: Crusade", "BIS")
 LoonBestInSlot:AddItem(spec, "29132", "Trinket", "Scryer's Bloodgem", "BIS")
 LoonBestInSlot:AddItem(spec, "29370", "Trinket", "Icon of the Silver Crescent", "BIS")

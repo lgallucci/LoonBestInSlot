@@ -17,8 +17,8 @@ LoonBestInSlot:AddItem(spec, "27892", "Back", "Cloak of the Inciter", "Alt")
 
 LoonBestInSlot:AddItem(spec, "24544", "Chest", "Gladiator's Plate Chestpiece", "BIS")
 LoonBestInSlot:AddItem(spec, "23522", "Chest", "Ragesteel Breastplate", "BIS")
-LoonBestInSlot:AddItem(spec, "28403", "Chest", "Doomplate Chestguard", "Dungeon BIS")
-LoonBestInSlot:AddItem(spec, "30258", "Chest", "Chestplate of A'dal", "Quest BIS")
+LoonBestInSlot:AddItem(spec, "28403", "Chest", "Doomplate Chestguard", "BIS")
+LoonBestInSlot:AddItem(spec, "30258", "Chest", "Chestplate of A'dal", "BIS")
 
 LoonBestInSlot:AddItem(spec, "32818", "Bracers", "Veteran's Plate Bracers", "Alt")
 LoonBestInSlot:AddItem(spec, "23537", "Bracers", "Black Felsteel Bracers", "BIS")

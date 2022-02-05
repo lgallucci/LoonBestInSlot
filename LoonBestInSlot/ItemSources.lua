@@ -139,8 +139,6 @@ LoonBestInSlot.ItemSources =
     [23198] = { Name = "Idol of Brutality", SourceType = "Drop", Source = "Magistrate Barthilas", SourceLocation = "Stratholme" },
     [23199] = { Name = "Totem of the Storm", SourceType = "Drop", Source = "BOE World Drop", SourceLocation = "" },
     [23203] = { Name = "Libram of Fervor", SourceType = "Drop", Source = "BOE World Drop", SourceLocation = "" },
-    [23206] = { Name = "Mark of the Champion", SourceType = "Quest", Source = "The Fall of Kel'Thuzad", SourceLocation = "Naxxramas" },
-    [23207] = { Name = "Mark of the Champion", SourceType = "Quest", Source = "The Fall of Kel'Thuzad", SourceLocation = "Naxxramas" },
     [23226] = { Name = "Ghoul Skin Tunic", SourceType = "Drop", Source = "Trash", SourceLocation = "Naxxramas" },
     [23237] = { Name = "Ring of the Eternal Flame", SourceType = "Drop", Source = "Trash", SourceLocation = "Naxxramas" },
     [23242] = { Name = "Claw of the Frost Wyrm", SourceType = "Drop", Source = "Sapphiron", SourceLocation = "Naxxramas" },

@@ -51,7 +51,6 @@ LoonBestInSlot:AddItem(spec, "30860", "Ring", "Kaylaan's Signet", "BIS")
 LoonBestInSlot:AddItem(spec, "30973", "Ring", "Band of Anguish", "Alt")
 LoonBestInSlot:AddItem(spec, "27925", "Ring", "Ravenclaw Band", "Alt")
 
-LoonBestInSlot:AddItem(spec, "23206", "Trinket", "Mark of the Champion", "BIS")
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS")
 LoonBestInSlot:AddItem(spec, "28288", "Trinket", "Abacus of Violent Odds", "BIS")
 LoonBestInSlot:AddItem(spec, "23041", "Trinket", "Slayer's Crest", "Alt")

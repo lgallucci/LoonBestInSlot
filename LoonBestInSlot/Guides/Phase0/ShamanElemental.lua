@@ -54,7 +54,6 @@ LoonBestInSlot:AddItem(spec, "31290", "Ring", "Band of Dominion", "BIS")
 LoonBestInSlot:AddItem(spec, "29172", "Ring", "Ashyen's Gift", "Alt")
 LoonBestInSlot:AddItem(spec, "28227", "Ring", "Sparking Arcanite Ring", "Alt")
 
-LoonBestInSlot:AddItem(spec, "23207", "Trinket", "Mark of the Champion", "Special")
 LoonBestInSlot:AddItem(spec, "29370", "Trinket", "Icon of the Silver Crescent", "BIS")
 LoonBestInSlot:AddItem(spec, "38290", "Trinket", "Dark Iron Smoking Pipe", "BIS")
 LoonBestInSlot:AddItem(spec, "27683", "Trinket", "Quagmirran's Eye", "BIS")

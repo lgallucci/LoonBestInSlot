@@ -96,7 +96,6 @@ LoonBestInSlot:AddItem(spec, "33057", "Ring", "Veteran's Band of Triumph", "Alt"
 LoonBestInSlot:AddItem(spec, "31919", "Ring", "Nexus-Prince's Ring of Balance", "Alt")
 LoonBestInSlot:AddItem(spec, "28553", "Ring", "Band of the Exorcist", "Alt")
 
-LoonBestInSlot:AddItem(spec, "23206", "Trinket", "Mark of the Champion", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "28121", "Trinket", "Icon of Unyielding Courage", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "23836", "Trinket", "Goblin Rocket Launcher", "BIS Mit")

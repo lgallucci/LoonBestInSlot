@@ -76,7 +76,6 @@ LoonBestInSlot:AddItem(spec, "34073", "Ring", "The Horseman's Signet Ring", "BIS
 
 LoonBestInSlot:AddItem(spec, "29370", "Trinket", "Icon of the Silver Crescent", "BIS")
 LoonBestInSlot:AddItem(spec, "31856", "Trinket", "Darkmoon Card: Crusade", "BIS")
-LoonBestInSlot:AddItem(spec, "23207", "Trinket", "Mark of the Champion", "BIS")
 LoonBestInSlot:AddItem(spec, "38290", "Trinket", "Dark Iron Smoking Pipe", "BIS")
 LoonBestInSlot:AddItem(spec, "27683", "Trinket", "Quagmirran's Eye", "Alt")
 LoonBestInSlot:AddItem(spec, "23046", "Trinket", "The Restrained Essence of Sapphiron", "Alt")

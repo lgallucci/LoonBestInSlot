@@ -142,8 +142,8 @@ LoonBestInSlot:AddItem(spec, "22632", "2H", "Atiesh, Greatstaff of the Guardian"
 LoonBestInSlot:AddItem(spec, "27791", "2H", "Serpentcrest Life-Staff", "Alt")
 LoonBestInSlot:AddItem(spec, "29133", "2H", "Seer's Cane", "Alt")
 LoonBestInSlot:AddItem(spec, "28033", "2H", "Epoch-Mender", "Alt")
-LoonBestInSlot:AddItem(spec, "28604", "2H", "Nightstaff of the Everliving", "Innervate")
-LoonBestInSlot:AddItem(spec, "31289", "2H", "Staff of Divine Infusion", "Innervate")
+LoonBestInSlot:AddItem(spec, "28604", "2H", "Nightstaff of the Everliving", "Alt")
+LoonBestInSlot:AddItem(spec, "31289", "2H", "Staff of Divine Infusion", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29274", "OH", "Tears of Heaven", "BIS")
 LoonBestInSlot:AddItem(spec, "29170", "OH", "Windcaller's Orb", "BIS")
