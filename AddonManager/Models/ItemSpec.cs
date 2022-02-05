@@ -30,7 +30,9 @@ public class ItemSpec
         new Tuple<string, string>("Easy To Obtain", "Alt"),
         new Tuple<string, string>("Alternative", "Alt"),
         new Tuple<string, string>("Mitigation", "Mit"),
-        new Tuple<string, string>("Defense swap", "Mit"),
+        new Tuple<string, string>("Defense swap", "Alt Mit"),
+        new Tuple<string, string>("Defense Swap", "Alt Mit"),
+        new Tuple<string, string>("Option", "Alt"),
         new Tuple<string, string>("Threat", "Thrt"),
         new Tuple<string, string>("threat", "Thrt"),
         new Tuple<string, string>("alternative", "Alt"),
@@ -39,7 +41,7 @@ public class ItemSpec
         new Tuple<string, string>("Under Hit Cap", "Alt"),
         new Tuple<string, string>("Over Hit Cap", "Alt"),
         new Tuple<string, string>("Classic Option", "Alt"),
-
+        new Tuple<string, string>("Survivability", "Mit"),
         new Tuple<string, string>("- Hit", "Hit"),
 
         new Tuple<string, string>(" - Tailoring", ""),
@@ -52,8 +54,10 @@ public class ItemSpec
         new Tuple<string, string>(" Individually", ""),
         new Tuple<string, string>(" Overall", ""),
 
+        new Tuple<string, string>("Alt Alt", "Alt"),
         new Tuple<string, string>("Thrt Alt", "Alt Thrt"),
         new Tuple<string, string>("Mit Alt", "Alt Mit"),
+        new Tuple<string, string>("mit", "Mit"),
         new Tuple<string, string>("BIS Alt", "BIS"),
     };
 
