@@ -1471,6 +1471,7 @@ LoonBestInSlot.ItemSources =
     [32045] = { Name = "Merciless Gladiator's Shield Wall", SourceType = "PvP", Source = "", SourceLocation = "" },
     [32046] = { Name = "Merciless Gladiator's Shiv", SourceType = "PvP", Source = "", SourceLocation = "" },
     [32052] = { Name = "Merciless Gladiator's Slicer", SourceType = "PvP", Source = "", SourceLocation = "" },
+    [32053] = { Name = "Merciless Gladiator's Spellblade", SourceType = "PvP", Source = "", SourceLocation = "" },
     [32055] = { Name = "Merciless Gladiator's War Staff", SourceType = "PvP", Source = "", SourceLocation = "" },
     [32056] = { Name = "Merciless Gladiator's Wyrmhide Gloves", SourceType = "PvP", Source = "", SourceLocation = "" },
     [32057] = { Name = "Merciless Gladiator's Wyrmhide Helm", SourceType = "PvP", Source = "", SourceLocation = "" },
