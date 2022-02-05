@@ -13,7 +13,7 @@ public class WowheadGuideParser
 {
     public static HttpClient httpClient = new HttpClient();
 
-    private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing" };
+    private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath" };
 
     class MyFormatter : IMarkupFormatter
     {
@@ -179,7 +179,7 @@ public class WowheadGuideParser
 
                 var nextSibling = headerElement.NextSibling;
                 int elementCounter = 0;
-                while (nextSibling is not IHtmlTableElement || nextSibling is IHtmlHeadingElement)
+                while (nextSibling != null && (nextSibling is not IHtmlTableElement || nextSibling is IHtmlHeadingElement))
                 {
                     nextSibling = nextSibling?.NextSibling;
                     elementCounter++;

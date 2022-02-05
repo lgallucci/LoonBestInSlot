@@ -8,9 +8,11 @@ namespace AddonManager;
 /// </summary>
 public partial class WowheadReader : Window
 {
-    public string[] SpecList = {"DruidBalance", "DruidBear", "DruidCat", "DruidRestoration", "Hunter", "Mage", "PaladinHoly",
-                                "PaladinProtection", "PaladinRetribution", "PriestHoly", "PriestShadow", "Rogue", "ShamanElemental",
-                                "ShamanEnhancement", "ShamanRestoration", "Warlock", "WarriorDPS", "WarriorProtection"};
+    public string[] SpecList = {"DruidBalance", "DruidBear", "DruidCat", "DruidRestoration", "HunterBM", "HunterMarks", "HunterSurvival",
+                                "MageFrost", "MageFire", "MageArcane", "PaladinHoly", "PaladinProtection", "PaladinRetribution", "PriestHoly", 
+                                "PriestShadow", "Rogue", "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAfflic",
+                                "WarlockDemo", "WarlockDestro", "WarriorDPS", "WarriorProtection"};
+    
     public WowheadReader()
     {
         InitializeComponent();
