@@ -1,6 +1,5 @@
 local spec = LoonBestInSlot:RegisterSpec("Shaman", "Elemental")
 LoonBestInSlot:AddItem(spec, "32476", "Head", "Gadgetstorm Goggles", "BIS")
-LoonBestInSlot:AddItem(spec, "99999", "Head", "undefined", "undefined")
 LoonBestInSlot:AddItem(spec, "32086", "Head", "Storm Master's Helmet", "Alt")
 LoonBestInSlot:AddItem(spec, "28415", "Head", "Hood of Oblivion", "Alt")
 LoonBestInSlot:AddItem(spec, "28278", "Head", "Incanter's Cowl", "Alt")
@@ -9,7 +8,7 @@ LoonBestInSlot:AddItem(spec, "31330", "Head", "Lightning Crown", "Alt")
 LoonBestInSlot:AddItem(spec, "31107", "Head", "Shamanistic Helmet of Second Sight", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32078", "Shoulders", "Pauldrons of Wild Magic", "BIS")
-LoonBestInSlot:AddItem(spec, "30925", "Shoulders", "Spaulders of the Torn-Heart", "Alt")
+LoonBestInSlot:AddItem(spec, "30925", "Shoulders", "Spaulders of the Torn-heart", "Alt")
 LoonBestInSlot:AddItem(spec, "27796", "Shoulders", "Mana-Etched Spaulders", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29369", "Back", "Shawl of Shifting Probabilities", "BIS")
