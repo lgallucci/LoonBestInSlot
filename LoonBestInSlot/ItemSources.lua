@@ -16,6 +16,7 @@ LoonBestInSlot.ItemSources =
     [19288] = { Name = "Darkmoon Card: Blue Dragon", SourceType = "Quest", Source = "Beasts Deck", SourceLocation = "Darkmoon Faire" },
     [19309] = { Name = "Tome of Shadow Force", SourceType = "PvP", Source = "", SourceLocation = "" },
     [19315] = { Name = "Therazane's Touch", SourceType = "PvP", Source = "", SourceLocation = "" },
+    [19337] = { Name = "The Black Book", SourceType = "Drop", Source = "Razorgore the Untamed", SourceLocation = "Blackwing Lair" },
     [19339] = { Name = "Mind Quickening Gem", SourceType = "Drop", Source = "Vaelastrasz the Corrupt", SourceLocation = "Blackwing Lair" },
     [19360] = { Name = "Lok'amir il Romathis", SourceType = "Drop", Source = "Nefarian", SourceLocation = "Blackwing Lair" },
     [19375] = { Name = "Mish'undare, Circlet of the Mind Flayer", SourceType = "Drop", Source = "Nefarian", SourceLocation = "Blackwing Lair" },
