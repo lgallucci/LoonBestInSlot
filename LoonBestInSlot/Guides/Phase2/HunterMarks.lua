@@ -3,6 +3,7 @@ LoonBestInSlot:AddItem(spec, "30141", "Head", "Rift Stalker Helm", "BIS")
 LoonBestInSlot:AddItem(spec, "28275", "Head", "Beast Lord Helm", "Alt")
 LoonBestInSlot:AddItem(spec, "32474", "Head", "Surestrike Goggles v2.0", "Alt")
 LoonBestInSlot:AddItem(spec, "29081", "Head", "Demon Stalker Greathelm", "Alt")
+LoonBestInSlot:AddItem(spec, "29759", "Head", "Helm of the Fallen Hero", "Alt")
 LoonBestInSlot:AddItem(spec, "32087", "Head", "Mask of the Deceiver", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30143", "Shoulders", "Rift Stalker Mantle", "BIS")

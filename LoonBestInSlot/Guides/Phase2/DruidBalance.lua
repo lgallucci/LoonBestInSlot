@@ -3,6 +3,7 @@ LoonBestInSlot:AddItem(spec, "30233", "Head", "Nordrassil Headpiece", "BIS")
 LoonBestInSlot:AddItem(spec, "29986", "Head", "Cowl of the Grand Engineer", "Alt")
 LoonBestInSlot:AddItem(spec, "32480", "Head", "Magnified Moon Specs", "Alt")
 LoonBestInSlot:AddItem(spec, "29093", "Head", "Antlers of Malorne", "Alt")
+LoonBestInSlot:AddItem(spec, "29761", "Head", "Helm of the Fallen Defender", "Alt")
 LoonBestInSlot:AddItem(spec, "24266", "Head", "Spellstrike Hood", "Alt")
 LoonBestInSlot:AddItem(spec, "32057", "Head", "Merciless Gladiator's Wyrmhide Helm", "Alt")
 
@@ -10,6 +11,7 @@ LoonBestInSlot:AddItem(spec, "30235", "Shoulders", "Nordrassil Wrath-Mantle", "B
 LoonBestInSlot:AddItem(spec, "30024", "Shoulders", "Mantle of the Elven Kings", "Alt")
 LoonBestInSlot:AddItem(spec, "30079", "Shoulders", "Illidari Shoulderpads", "Alt")
 LoonBestInSlot:AddItem(spec, "29095", "Shoulders", "Pauldrons of Malorne", "Alt")
+LoonBestInSlot:AddItem(spec, "29764", "Shoulders", "Pauldrons of the Fallen Defender", "Alt")
 LoonBestInSlot:AddItem(spec, "27796", "Shoulders", "Mana-Etched Spaulders", "Alt")
 LoonBestInSlot:AddItem(spec, "32059", "Shoulders", "Merciless Gladiator's Wyrmhide Spaulders", "Alt")
 
@@ -26,6 +28,7 @@ LoonBestInSlot:AddItem(spec, "21848", "Chest", "Spellfire Robe", "Alt")
 LoonBestInSlot:AddItem(spec, "30056", "Chest", "Robe of Hateful Echoes", "Alt")
 LoonBestInSlot:AddItem(spec, "29522", "Chest", "Windhawk Hauberk", "Alt")
 LoonBestInSlot:AddItem(spec, "29091", "Chest", "Chestpiece of Malorne", "Alt")
+LoonBestInSlot:AddItem(spec, "29753", "Chest", "Chestguard of the Fallen Defender", "Alt")
 LoonBestInSlot:AddItem(spec, "32060", "Chest", "Merciless Gladiator's Wyrmhide Tunic", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29918", "Bracers", "Mindstorm Wristbands", "BIS")
@@ -42,6 +45,7 @@ LoonBestInSlot:AddItem(spec, "28507", "Gloves", "Handwraps of Flowing Thought", 
 LoonBestInSlot:AddItem(spec, "28780", "Gloves", "Soul-Eater's Handwraps", "Alt")
 LoonBestInSlot:AddItem(spec, "29987", "Gloves", "Gauntlets of the Sun King", "Alt")
 LoonBestInSlot:AddItem(spec, "29092", "Gloves", "Gloves of Malorne", "Alt")
+LoonBestInSlot:AddItem(spec, "29758", "Gloves", "Gloves of the Fallen Defender", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30038", "Belt", "Belt of Blasting", "BIS")
 LoonBestInSlot:AddItem(spec, "30064", "Belt", "Cord of Screaming Terrors", "Alt")

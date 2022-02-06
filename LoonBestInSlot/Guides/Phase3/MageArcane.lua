@@ -5,6 +5,7 @@ LoonBestInSlot:AddItem(spec, "31056", "Head", "Cowl of the Tempest", "Alt")
 LoonBestInSlot:AddItem(spec, "29986", "Head", "Cowl of the Grand Engineer", "Alt")
 LoonBestInSlot:AddItem(spec, "24266", "Head", "Spellstrike Hood", "Alt")
 LoonBestInSlot:AddItem(spec, "29076", "Head", "Collar of the Aldor", "Alt")
+LoonBestInSlot:AddItem(spec, "29759", "Head", "Helm of the Fallen Hero", "Alt")
 LoonBestInSlot:AddItem(spec, "31104", "Head", "Evoker's Helmet of Second Sight", "Alt")
 LoonBestInSlot:AddItem(spec, "30515", "Head", "Junior Technician 3rd Grade Goggles", "Alt")
 

@@ -4,12 +4,14 @@ LoonBestInSlot:AddItem(spec, "32525", "Head", "Cowl of the Illidari High Lord", 
 LoonBestInSlot:AddItem(spec, "32494", "Head", "Destruction Holo-gogs", "Alt")
 LoonBestInSlot:AddItem(spec, "30212", "Head", "Hood of the Corruptor", "Alt")
 LoonBestInSlot:AddItem(spec, "28963", "Head", "Voidheart Crown", "Alt")
+LoonBestInSlot:AddItem(spec, "29759", "Head", "Helm of the Fallen Hero", "Alt")
 
 LoonBestInSlot:AddItem(spec, "31054", "Shoulders", "Mantle of the Malefic", "BIS")
 LoonBestInSlot:AddItem(spec, "32338", "Shoulders", "Blood-cursed Shoulderpads", "Alt")
 LoonBestInSlot:AddItem(spec, "30884", "Shoulders", "Hatefury Mantle", "Alt")
 LoonBestInSlot:AddItem(spec, "32587", "Shoulders", "Mantle of Nimble Thought", "Alt")
 LoonBestInSlot:AddItem(spec, "28967", "Shoulders", "Voidheart Mantle",  "Alt")
+LoonBestInSlot:AddItem(spec, "29762", "Shoulders", "Pauldrons of the Fallen Hero", "Alt")
 LoonBestInSlot:AddItem(spec, "30215", "Shoulders", "Mantle of the Corruptor",  "Alt")
 LoonBestInSlot:AddItem(spec, "30024", "Shoulders", "Mantle of the Elven Kings",  "Alt")
 

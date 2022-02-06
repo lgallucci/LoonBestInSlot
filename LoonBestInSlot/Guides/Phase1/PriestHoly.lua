@@ -1,5 +1,6 @@
 local spec = LoonBestInSlot:RegisterSpec("Priest", "Holy", "1")
 LoonBestInSlot:AddItem(spec, "29049", "Head", "Light-Collar of the Incarnate", "BIS")
+LoonBestInSlot:AddItem(spec, "29761", "Head", "Helm of the Fallen Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "32090", "Head", "Cowl of Naaru Blessings", "Alt")
 LoonBestInSlot:AddItem(spec, "24264", "Head", "Whitemend Hood", "Alt")
 LoonBestInSlot:AddItem(spec, "28756", "Head", "Headdress of the High Potentate", "Alt")
@@ -8,6 +9,7 @@ LoonBestInSlot:AddItem(spec, "28413", "Head", "Hallowed Crown", "Alt")
 
 LoonBestInSlot:AddItem(spec, "21874", "Shoulders", "Primal Mooncloth Shoulders", "BIS")
 LoonBestInSlot:AddItem(spec, "29054", "Shoulders", "Light-Mantle of the Incarnate", "BIS")
+LoonBestInSlot:AddItem(spec, "29764", "Shoulders", "Pauldrons of the Fallen Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "27775", "Shoulders", "Hallowed Pauldrons", "Alt")
 LoonBestInSlot:AddItem(spec, "28612", "Shoulders", "Pauldrons of the Solace-Giver", "Alt")
 
@@ -19,6 +21,7 @@ LoonBestInSlot:AddItem(spec, "29375", "Back", "Bishop's Cloak", "Alt")
 
 LoonBestInSlot:AddItem(spec, "21875", "Chest", "Primal Mooncloth Robe", "BIS")
 LoonBestInSlot:AddItem(spec, "29050", "Chest", "Robes of the Incarnate", "BIS")
+LoonBestInSlot:AddItem(spec, "29753", "Chest", "Chestguard of the Fallen Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "28578", "Chest", "Masquerade Gown", "Alt")
 LoonBestInSlot:AddItem(spec, "28230", "Chest", "Hallowed Garments", "Alt")
 
@@ -28,6 +31,7 @@ LoonBestInSlot:AddItem(spec, "29249", "Bracers", "Bands of the Benevolent", "BIS
 
 LoonBestInSlot:AddItem(spec, "28508", "Gloves", "Gloves of Saintly Blessings", "BIS")
 LoonBestInSlot:AddItem(spec, "29055", "Gloves", "Handwraps of the Incarnate", "Alt")
+LoonBestInSlot:AddItem(spec, "29758", "Gloves", "Gloves of the Fallen Defender", "Alt")
 LoonBestInSlot:AddItem(spec, "24393", "Gloves", "Bloody Surgeon's Mitts", "Alt")
 LoonBestInSlot:AddItem(spec, "27536", "Gloves", "Hallowed Handwraps", "Alt")
 
@@ -40,6 +44,7 @@ LoonBestInSlot:AddItem(spec, "28742", "Legs", "Pantaloons of Repentance", "BIS")
 LoonBestInSlot:AddItem(spec, "30543", "Legs", "Pontifex Kilt", "BIS")
 LoonBestInSlot:AddItem(spec, "24261", "Legs", "Whitemend Pants", "Alt")
 LoonBestInSlot:AddItem(spec, "29053", "Legs", "Trousers of the Incarnate", "Alt")
+LoonBestInSlot:AddItem(spec, "29767", "Legs", "Leggings of the Fallen Defender", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28663", "Feet", "Boots of the Incorrupt", "BIS")
 LoonBestInSlot:AddItem(spec, "29251", "Feet", "Boots of the Pious", "BIS")

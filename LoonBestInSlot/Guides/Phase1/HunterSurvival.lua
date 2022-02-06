@@ -1,6 +1,7 @@
 local spec = LoonBestInSlot:RegisterSpec("Hunter", "Survival", "1")
 LoonBestInSlot:AddItem(spec, "28275", "Head", "Beast Lord Helm", "BIS")
 LoonBestInSlot:AddItem(spec, "29081", "Head", "Demon Stalker Greathelm", "Alt")
+LoonBestInSlot:AddItem(spec, "29759", "Head", "Helm of the Fallen Hero", "Alt")
 LoonBestInSlot:AddItem(spec, "31109", "Head", "Stealther's Helmet of Second Sight", "Alt")
 LoonBestInSlot:AddItem(spec, "31106", "Head", "Stalker's Helmet of Second Sight", "Alt")
 LoonBestInSlot:AddItem(spec, "27414", "Head", "Mok'Nathal Beast-Mask", "Alt")

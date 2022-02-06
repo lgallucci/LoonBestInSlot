@@ -5,6 +5,7 @@ LoonBestInSlot:AddItem(spec, "30972", "Head", "Onslaught Battle-Helm", "Alt")
 LoonBestInSlot:AddItem(spec, "30120", "Head", "Destroyer Battle-Helm", "Alt")
 LoonBestInSlot:AddItem(spec, "32461", "Head", "Furious Gizmatic Goggles", "Alt")
 LoonBestInSlot:AddItem(spec, "29021", "Head", "Warbringer Battle-Helm", "Alt")
+LoonBestInSlot:AddItem(spec, "29761", "Head", "Helm of the Fallen Defender", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30979", "Shoulders", "Onslaught Shoulderblades", "BIS")
 LoonBestInSlot:AddItem(spec, "32570", "Shoulders", "Swiftsteel Shoulders", "Crafted BIS")

@@ -4,6 +4,7 @@ LoonBestInSlot:AddItem(spec, "33672", "Head", "Vengeful Gladiator's Dragonhide H
 LoonBestInSlot:AddItem(spec, "32235", "Head", "Cursed Vision of Sargeras", "Alt")
 LoonBestInSlot:AddItem(spec, "30228", "Head", "Nordrassil Headdress", "Alt")
 LoonBestInSlot:AddItem(spec, "29098", "Head", "Stag-Helm of Malorne", "Alt")
+LoonBestInSlot:AddItem(spec, "29761", "Head", "Helm of the Fallen Defender", "Alt")
 
 LoonBestInSlot:AddItem(spec, "31048", "Shoulders", "Thunderheart Pauldrons", "BIS")
 LoonBestInSlot:AddItem(spec, "33674", "Shoulders", "Vengeful Gladiator's Dragonhide Spaulders", "Alt")
@@ -11,6 +12,7 @@ LoonBestInSlot:AddItem(spec, "30230", "Shoulders", "Nordrassil Feral-Mantle", "A
 LoonBestInSlot:AddItem(spec, "30055", "Shoulders", "Shoulderpads of the Stranger", "Alt")
 LoonBestInSlot:AddItem(spec, "30917", "Shoulders", "Razorfury Mantle", "Alt")
 LoonBestInSlot:AddItem(spec, "29100", "Shoulders", "Mantle of Malorne", "Alt")
+LoonBestInSlot:AddItem(spec, "29764", "Shoulders", "Pauldrons of the Fallen Defender", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28660", "Back", "Gilded Thorium Cloak", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "29994", "Back", "Thalassian Wildercloak", "BIS Thrt")
@@ -36,6 +38,7 @@ LoonBestInSlot:AddItem(spec, "30223", "Gloves", "Nordrassil Handgrips", "Alt Mit
 LoonBestInSlot:AddItem(spec, "29947", "Gloves", "Gloves of the Searing Grip", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "33671", "Gloves", "Vengeful Gladiator's Dragonhide Gloves", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "29097", "Gloves", "Gauntlets of Malorne", "Alt Mit")
+LoonBestInSlot:AddItem(spec, "29758", "Gloves", "Gloves of the Fallen Defender", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "30644", "Gloves", "Grips of Deftness", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "30106", "Belt", "Belt of One-Hundred Deaths", "BIS")
@@ -49,6 +52,7 @@ LoonBestInSlot:AddItem(spec, "30229", "Legs", "Nordrassil Feral-Kilt", "Alt")
 LoonBestInSlot:AddItem(spec, "30898", "Legs", "Shady Dealer's Pantaloons", "Alt")
 LoonBestInSlot:AddItem(spec, "33673", "Legs", "Vengeful Gladiator's Dragonhide Legguards", "Alt")
 LoonBestInSlot:AddItem(spec, "29099", "Legs", "Greaves of Malorne", "Alt")
+LoonBestInSlot:AddItem(spec, "29767", "Legs", "Leggings of the Fallen Defender", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32593", "Feet", "Treads of the Den Mother", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "32366", "Feet", "Shadowmaster's Boots", "BIS Thrt")

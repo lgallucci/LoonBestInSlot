@@ -2,6 +2,7 @@ local spec = LoonBestInSlot:RegisterSpec("WarriorDPS", "Arms", "2")
 LoonBestInSlot:AddItem(spec, "30120", "Head", "Destroyer Battle-Helm", "BIS")
 LoonBestInSlot:AddItem(spec, "32461", "Head", "Furious Gizmatic Goggles", "Alt")
 LoonBestInSlot:AddItem(spec, "29021", "Head", "Warbringer Battle-Helm", "Alt")
+LoonBestInSlot:AddItem(spec, "29761", "Head", "Helm of the Fallen Defender", "Alt")
 LoonBestInSlot:AddItem(spec, "32087", "Head", "Mask of the Deceiver", "Alt")
 LoonBestInSlot:AddItem(spec, "29983", "Head", "Fel-Steel Warhelm", "Alt")
 
@@ -10,6 +11,7 @@ LoonBestInSlot:AddItem(spec, "30122", "Shoulders", "Destroyer Shoulderblades", "
 LoonBestInSlot:AddItem(spec, "30053", "Shoulders", "Pauldrons of the Wardancer", "Alt")
 LoonBestInSlot:AddItem(spec, "30740", "Shoulders", "Ripfiend Shoulderplates", "BIS")
 LoonBestInSlot:AddItem(spec, "29023", "Shoulders", "Warbringer Shoulderplates", "Alt")
+LoonBestInSlot:AddItem(spec, "29764", "Shoulders", "Pauldrons of the Fallen Defender", "Alt")
 LoonBestInSlot:AddItem(spec, "33173", "Shoulders", "Ragesteel Shoulders", "BIS")
 
 LoonBestInSlot:AddItem(spec, "30729", "Back", "Black-Iron Battlecloak", "BIS")
@@ -22,6 +24,7 @@ LoonBestInSlot:AddItem(spec, "30101", "Chest", "Bloodsea Brigand's Vest", "BIS")
 LoonBestInSlot:AddItem(spec, "30102", "Chest", "Krakken-Heart Breastplate", "Alt")
 LoonBestInSlot:AddItem(spec, "30730", "Chest", "Terrorweave Tunic", "Alt")
 LoonBestInSlot:AddItem(spec, "29019", "Chest", "Warbringer Breastplate", "Alt")
+LoonBestInSlot:AddItem(spec, "29753", "Chest", "Chestguard of the Fallen Defender", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30057", "Bracers", "Bracers of Eradication", "BIS")
 LoonBestInSlot:AddItem(spec, "28795", "Bracers", "Bladespire Warbands", "BIS")

@@ -1,12 +1,14 @@
 local spec = LoonBestInSlot:RegisterSpec("Warrior", "Prot", "1")
 LoonBestInSlot:AddItem(spec, "29011", "Head", "Warbringer Greathelm", "BIS")
 LoonBestInSlot:AddItem(spec, "24545", "Head", "Gladiator's Plate Helm", "BIS Thrt")
+LoonBestInSlot:AddItem(spec, "29761", "Head", "Helm of the Fallen Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "29021", "Head", "Warbringer Battle-Helm", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "30731", "Head", "Faceguard of the Endless Watch", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "28593", "Head", "Eternium Greathelm", "Alt Mit")
 
 LoonBestInSlot:AddItem(spec, "29023", "Shoulders", "Warbringer Shoulderplates", "BIS")
 LoonBestInSlot:AddItem(spec, "29016", "Shoulders", "Warbringer Shoulderguards", "BIS Mit")
+LoonBestInSlot:AddItem(spec, "29764", "Shoulders", "Pauldrons of the Fallen Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "24546", "Shoulders", "Gladiator's Plate Shoulders", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "28743", "Shoulders", "Mantle of Abrahmis", "Alt Mit")
 
@@ -16,6 +18,7 @@ LoonBestInSlot:AddItem(spec, "28660", "Back", "Gilded Thorium Cloak", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "29385", "Back", "Farstrider Defender's Cloak", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29012", "Chest", "Warbringer Chestguard", "BIS")
+LoonBestInSlot:AddItem(spec, "29753", "Chest", "Chestguard of the Fallen Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "24544", "Chest", "Gladiator's Plate Chestpiece", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "28597", "Chest", "Panzar'Thar Breastplate", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "28484", "Chest", "Bulwark of Kings", "Alt")
@@ -29,6 +32,7 @@ LoonBestInSlot:AddItem(spec, "30741", "Gloves", "Topaz-Studded Battlegrips", "BI
 LoonBestInSlot:AddItem(spec, "30644", "Gloves", "Grips of Deftness", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "28518", "Gloves", "Iron Gauntlets of the Maiden", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "29017", "Gloves", "Warbringer Handguards", "Alt Mit")
+LoonBestInSlot:AddItem(spec, "29758", "Gloves", "Gloves of the Fallen Defender", "Alt Mit")
 
 LoonBestInSlot:AddItem(spec, "28995", "Belt", "Marshal's Plate Belt", "BIS")
 LoonBestInSlot:AddItem(spec, "28566", "Belt", "Crimson Girdle of the Indomitable", "BIS Mit")
@@ -38,6 +42,7 @@ LoonBestInSlot:AddItem(spec, "29238", "Belt", "Lion's Heart Girdle", "Alt")
 LoonBestInSlot:AddItem(spec, "28621", "Legs", "Wrynn Dynasty Greaves", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "24547", "Legs", "Gladiator's Plate Legguards", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "29015", "Legs", "Warbringer Legguards", "Alt Mit")
+LoonBestInSlot:AddItem(spec, "29767", "Legs", "Leggings of the Fallen Defender", "Alt Mit")
 
 LoonBestInSlot:AddItem(spec, "28747", "Feet", "Battlescar Boots", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "28608", "Feet", "Ironstriders of Urgency", "BIS Thrt")

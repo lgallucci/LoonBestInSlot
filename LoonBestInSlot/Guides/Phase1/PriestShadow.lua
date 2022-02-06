@@ -2,11 +2,13 @@ local spec = LoonBestInSlot:RegisterSpec("Priest", "Shadow", "1")
 LoonBestInSlot:AddItem(spec, "24266", "Head", "Spellstrike Hood", "BIS")
 LoonBestInSlot:AddItem(spec, "28804", "Head", "Collar of Cho'gall", "Alt")
 LoonBestInSlot:AddItem(spec, "29058", "Head", "Soul-Collar of the Incarnate", "Alt")
+LoonBestInSlot:AddItem(spec, "29761", "Head", "Helm of the Fallen Defender", "Alt")
 LoonBestInSlot:AddItem(spec, "31104", "Head", "Evoker's Helmet of Second Sight", "Alt")
 
 LoonBestInSlot:AddItem(spec, "21869", "Shoulders", "Frozen Shadoweave Shoulders", "BIS")
 LoonBestInSlot:AddItem(spec, "27778", "Shoulders", "Spaulders of Oblivion", "BIS")
 LoonBestInSlot:AddItem(spec, "29060", "Shoulders", "Soul-Mantle of the Incarnate", "Alt")
+LoonBestInSlot:AddItem(spec, "29764", "Shoulders", "Pauldrons of the Fallen Defender", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28570", "Back", "Shadow-Cloak of Dalaran", "Alt")
 LoonBestInSlot:AddItem(spec, "28766", "Back", "Ruby Drape of the Mysticant", "Alt")
@@ -14,6 +16,7 @@ LoonBestInSlot:AddItem(spec, "28797", "Back", "Brute Cloak of the Ogre-Magi", "A
 
 LoonBestInSlot:AddItem(spec, "21871", "Chest", "Frozen Shadoweave Robe", "BIS")
 LoonBestInSlot:AddItem(spec, "29056", "Chest", "Shroud of the Incarnate", "Alt")
+LoonBestInSlot:AddItem(spec, "29753", "Chest", "Chestguard of the Fallen Defender", "Alt")
 LoonBestInSlot:AddItem(spec, "28232", "Chest", "Robe of Oblivion", "Alt")
 LoonBestInSlot:AddItem(spec, "31297", "Chest", "Robe of the Crimson Order", "Alt")
 

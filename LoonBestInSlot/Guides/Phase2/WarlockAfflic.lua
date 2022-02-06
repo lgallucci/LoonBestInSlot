@@ -2,9 +2,11 @@ local spec = LoonBestInSlot:RegisterSpec("Warlock", "Afflic", "2"
 LoonBestInSlot:AddItem(spec, "32494", "Head", "Destruction Holo-gogs", "BIS")
 LoonBestInSlot:AddItem(spec, "30212", "Head", "Hood of the Corruptor", "BIS")
 LoonBestInSlot:AddItem(spec, "28963", "Head", "Voidheart Crown", "Alt")
+LoonBestInSlot:AddItem(spec, "29759", "Head", "Helm of the Fallen Hero", "Alt")
 LoonBestInSlot:AddItem(spec, "29986", "Head", "Cowl of the Grand Engineer", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28967", "Shoulders", "Voidheart Mantle", "BIS")
+LoonBestInSlot:AddItem(spec, "29762", "Shoulders", "Pauldrons of the Fallen Hero", "BIS")
 LoonBestInSlot:AddItem(spec, "30215", "Shoulders", "Mantle of the Corruptor", "Alt")
 LoonBestInSlot:AddItem(spec, "30079", "Shoulders", "Illidari Shoulderpads", "Alt")
 LoonBestInSlot:AddItem(spec, "21869", "Shoulders", "Frozen Shadoweave Shoulders", "Alt")
@@ -19,6 +21,7 @@ LoonBestInSlot:AddItem(spec, "30107", "Chest", "Vestments of the Sea-Witch", "BI
 LoonBestInSlot:AddItem(spec, "30214", "Chest", "Robe of the Corruptor", "Alt")
 LoonBestInSlot:AddItem(spec, "30056", "Chest", "Robe of Hateful Echoes", "Alt")
 LoonBestInSlot:AddItem(spec, "28964", "Chest", "Voidheart Robe", "Alt")
+LoonBestInSlot:AddItem(spec, "29755", "Chest", "Chestguard of the Fallen Hero", "Alt")
 LoonBestInSlot:AddItem(spec, "21871", "Chest", "Frozen Shadoweave Robe", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29918", "Bracers", "Mindstorm Wristbands", "BIS")
@@ -27,6 +30,7 @@ LoonBestInSlot:AddItem(spec, "24250", "Bracers", "Bracers of Havok", "Alt")
 LoonBestInSlot:AddItem(spec, "24692", "Bracers", "Elementalist Bracelets", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28968", "Gloves", "Voidheart Gloves", "BIS")
+LoonBestInSlot:AddItem(spec, "29756", "Gloves", "Gloves of the Fallen Hero", "BIS")
 LoonBestInSlot:AddItem(spec, "30725", "Gloves", "Anger-Spark Gloves", "BIS")
 LoonBestInSlot:AddItem(spec, "28780", "Gloves", "Soul-Eater's Handwraps", "Alt")
 LoonBestInSlot:AddItem(spec, "28507", "Gloves", "Handwraps of Flowing Thought", "Alt")
@@ -42,6 +46,7 @@ LoonBestInSlot:AddItem(spec, "30213", "Legs", "Leggings of the Corruptor", "BIS"
 LoonBestInSlot:AddItem(spec, "30734", "Legs", "Leggings of the Seventh Circle", "BIS")
 LoonBestInSlot:AddItem(spec, "24262", "Legs", "Spellstrike Pants", "BIS")
 LoonBestInSlot:AddItem(spec, "28966", "Legs", "Voidheart Leggings", "Alt")
+LoonBestInSlot:AddItem(spec, "29765", "Legs", "Leggings of the Fallen Hero", "Alt")
 LoonBestInSlot:AddItem(spec, "29972", "Legs", "Trousers of the Astromancer", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30037", "Feet", "Boots of Blasting", "BIS")

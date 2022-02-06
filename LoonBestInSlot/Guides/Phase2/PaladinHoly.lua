@@ -3,10 +3,12 @@ LoonBestInSlot:AddItem(spec, "30136", "Head", "Crystalforge Greathelm", "BIS")
 LoonBestInSlot:AddItem(spec, "32472", "Head", "Justicebringer 2000 Specs", "Alt")
 LoonBestInSlot:AddItem(spec, "30728", "Head", "Fathom-Helm of the Deeps", "Alt")
 LoonBestInSlot:AddItem(spec, "29061", "Head", "Justicar Diadem", "Alt")
+LoonBestInSlot:AddItem(spec, "29760", "Head", "Helm of the Fallen Champion", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30138", "Shoulders", "Crystalforge Pauldrons", "BIS")
 LoonBestInSlot:AddItem(spec, "30097", "Shoulders", "Coral-Barbed Shoulderpads", "Alt")
 LoonBestInSlot:AddItem(spec, "29064", "Shoulders", "Justicar Pauldrons", "Alt")
+LoonBestInSlot:AddItem(spec, "29763", "Shoulders", "Pauldrons of the Fallen Champion", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29989", "Back", "Sunshower Light Cloak", "BIS")
 LoonBestInSlot:AddItem(spec, "28765", "Back", "Stainless Cloak of the Pure Hearted", "Alt")
@@ -14,6 +16,7 @@ LoonBestInSlot:AddItem(spec, "31329", "Back", "Lifegiving Cloak", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30134", "Chest", "Crystalforge Chestpiece", "BIS")
 LoonBestInSlot:AddItem(spec, "29062", "Chest", "Justicar Chestpiece", "Alt")
+LoonBestInSlot:AddItem(spec, "29754", "Chest", "Chestguard of the Fallen Champion", "Alt")
 LoonBestInSlot:AddItem(spec, "21875", "Chest", "Primal Mooncloth Robe", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30047", "Bracers", "Blackfathom Warbands", "BIS")

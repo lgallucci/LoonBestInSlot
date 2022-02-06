@@ -41,6 +41,7 @@ LoonBestInSlot:AddItem(spec, "28507", "Gloves", "Handwraps of Flowing Thought", 
 LoonBestInSlot:AddItem(spec, "28780", "Gloves", "Soul-Eater's Handwraps", "Alt")
 LoonBestInSlot:AddItem(spec, "29987", "Gloves", "Gauntlets of the Sun King", "Alt")
 LoonBestInSlot:AddItem(spec, "29092", "Gloves", "Gloves of Malorne", "Alt")
+LoonBestInSlot:AddItem(spec, "29758", "Gloves", "Gloves of the Fallen Defender", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30888", "Belt", "Anetheron's Noose", "BIS")
 LoonBestInSlot:AddItem(spec, "30914", "Belt", "Belt of the Crescent Moon", "Alt")

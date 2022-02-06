@@ -1,5 +1,6 @@
 local spec = LoonBestInSlot:RegisterSpec("Shaman", "Elemental", "1")
 LoonBestInSlot:AddItem(spec, "29035", "Head", "Cyclone Faceguard", "BIS")
+LoonBestInSlot:AddItem(spec, "29760", "Head", "Helm of the Fallen Champion", "BIS")
 LoonBestInSlot:AddItem(spec, "32086", "Head", "Storm Master's Helmet", "Alt")
 LoonBestInSlot:AddItem(spec, "28415", "Head", "Hood of Oblivion", "Alt")
 LoonBestInSlot:AddItem(spec, "28278", "Head", "Incanter's Cowl", "Alt")
@@ -8,6 +9,7 @@ LoonBestInSlot:AddItem(spec, "31330", "Head", "Lightning Crown", "Alt")
 LoonBestInSlot:AddItem(spec, "28583", "Head", "Big Bad Wolf's Head", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29037", "Shoulders", "Cyclone Shoulderguards", "BIS")
+LoonBestInSlot:AddItem(spec, "29763", "Shoulders", "Pauldrons of the Fallen Champion", "BIS")
 LoonBestInSlot:AddItem(spec, "32078", "Shoulders", "Pauldrons of Wild Magic", "Alt")
 LoonBestInSlot:AddItem(spec, "30925", "Shoulders", "Spaulders of the Torn-heart", "Alt")
 
@@ -18,6 +20,7 @@ LoonBestInSlot:AddItem(spec, "30735", "Back", "Ancient Spellcloak of the Highbor
 LoonBestInSlot:AddItem(spec, "29519", "Chest", "Netherstrike Breastplate", "BIS")
 LoonBestInSlot:AddItem(spec, "29522", "Chest", "Windhawk Hauberk", "BIS")
 LoonBestInSlot:AddItem(spec, "29033", "Chest", "Cyclone Chestguard", "Alt")
+LoonBestInSlot:AddItem(spec, "29754", "Chest", "Chestguard of the Fallen Champion", "Alt")
 LoonBestInSlot:AddItem(spec, "31340", "Chest", "Will of Edward the Odd", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29521", "Bracers", "Netherstrike Bracers", "BIS")
@@ -28,6 +31,7 @@ LoonBestInSlot:AddItem(spec, "28638", "Bracers", "General's Mail Bracers", "Alt"
 LoonBestInSlot:AddItem(spec, "28780", "Gloves", "Soul-Eater's Handwraps", "BIS")
 LoonBestInSlot:AddItem(spec, "28507", "Gloves", "Handwraps of Flowing Thought", "Alt")
 LoonBestInSlot:AddItem(spec, "29034", "Gloves", "Cyclone Handguards", "Alt")
+LoonBestInSlot:AddItem(spec, "29757", "Gloves", "Gloves of the Fallen Champion", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29520", "Belt", "Netherstrike Belt", "BIS")
 LoonBestInSlot:AddItem(spec, "24256", "Belt", "Girdle of Ruination", "BIS")

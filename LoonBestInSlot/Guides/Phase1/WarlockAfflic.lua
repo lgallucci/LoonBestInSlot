@@ -1,16 +1,19 @@
 local spec = LoonBestInSlot:RegisterSpec("Warlock", "Afflic", "1")
 LoonBestInSlot:AddItem(spec, "28963", "Head", "Voidheart Crown", "BIS")
+LoonBestInSlot:AddItem(spec, "29759", "Head", "Helm of the Fallen Hero", "BIS")
 LoonBestInSlot:AddItem(spec, "24266", "Head", "Spellstrike Hood", "Alt")
 LoonBestInSlot:AddItem(spec, "28744", "Head", "Uni-Mind Headdress", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28967", "Shoulders", "Voidheart Mantle", "BIS")
+LoonBestInSlot:AddItem(spec, "29762", "Shoulders", "Pauldrons of the Fallen Hero", "BIS")
 LoonBestInSlot:AddItem(spec, "21869", "Shoulders", "Frozen Shadoweave Shoulders", "Alt")
 
-LoonBestInSlot:AddItem(spec, "28766", "Back", "Ruby Drape of the Mysticant", "Alt")
+LoonBestInSlot:AddItem(spec, "28766", "Back", "Ruby Drape of the Mysticant", "BIS")
 LoonBestInSlot:AddItem(spec, "30735", "Back", "Ancient Spellcloak of the Highborne", "Alt")
 LoonBestInSlot:AddItem(spec, "28797", "Back", "Brute Cloak of the Ogre-Magi", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28964", "Chest", "Voidheart Robe", "BIS")
+LoonBestInSlot:AddItem(spec, "29755", "Chest", "Chestguard of the Fallen Hero", "BIS")
 LoonBestInSlot:AddItem(spec, "21871", "Chest", "Frozen Shadoweave Robe", "Alt")
 LoonBestInSlot:AddItem(spec, "28602", "Chest", "Robe of the Elder Scribes", "Alt")
 
@@ -19,6 +22,7 @@ LoonBestInSlot:AddItem(spec, "24692", "Bracers", "Elementalist Bracelets", "Alt"
 LoonBestInSlot:AddItem(spec, "28515", "Bracers", "Bands of Nefarious Deeds", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28968", "Gloves", "Voidheart Gloves", "BIS")
+LoonBestInSlot:AddItem(spec, "29756", "Gloves", "Gloves of the Fallen Hero", "BIS")
 LoonBestInSlot:AddItem(spec, "30725", "Gloves", "Anger-Spark Gloves", "Alt")
 LoonBestInSlot:AddItem(spec, "28507", "Gloves", "Handwraps of Flowing Thought", "Alt")
 LoonBestInSlot:AddItem(spec, "28780", "Gloves", "Soul-Eater's Handwraps", "Alt")
@@ -28,6 +32,7 @@ LoonBestInSlot:AddItem(spec, "28799", "Belt", "Belt of Divine Inspiration", "Alt
 
 LoonBestInSlot:AddItem(spec, "24262", "Legs", "Spellstrike Pants", "BIS")
 LoonBestInSlot:AddItem(spec, "28966", "Legs", "Voidheart Leggings", "Alt")
+LoonBestInSlot:AddItem(spec, "29765", "Legs", "Leggings of the Fallen Hero", "Alt")
 LoonBestInSlot:AddItem(spec, "30734", "Legs", "Leggings of the Seventh Circle", "Alt")
 
 LoonBestInSlot:AddItem(spec, "21870", "Feet", "Frozen Shadoweave Boots", "BIS")

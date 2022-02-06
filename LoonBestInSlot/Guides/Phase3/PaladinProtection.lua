@@ -5,6 +5,7 @@ LoonBestInSlot:AddItem(spec, "30125", "Head", "Crystalforge Faceguard", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30998", "Shoulders", "Lightbringer Shoulderguards", "BIS")
 LoonBestInSlot:AddItem(spec, "29070", "Shoulders", "Justicar Shoulderguards", "Alt")
+LoonBestInSlot:AddItem(spec, "29763", "Shoulders", "Pauldrons of the Fallen Champion", "Alt")
 LoonBestInSlot:AddItem(spec, "32250", "Shoulders", "Pauldrons of Abyssal Fury", "Alt")
 
 LoonBestInSlot:AddItem(spec, "34010", "Back", "Pepe's Shroud of Pacification", "BIS")
@@ -17,6 +18,7 @@ LoonBestInSlot:AddItem(spec, "30991", "Chest", "Lightbringer Chestguard", "BIS")
 LoonBestInSlot:AddItem(spec, "30896", "Chest", "Glory of the Defender", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "33695", "Chest", "Vengeful Gladiator's Lamellar Chestpiece", "Alt")
 LoonBestInSlot:AddItem(spec, "29066", "Chest", "Justicar Chestguard", "Alt")
+LoonBestInSlot:AddItem(spec, "29754", "Chest", "Chestguard of the Fallen Champion", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32279", "Bracers", "The Seeker's Wristguards", "BIS")
 LoonBestInSlot:AddItem(spec, "32232", "Bracers", "Eternium Shell Bracers", "BIS Mit")
