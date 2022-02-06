@@ -319,7 +319,32 @@ public class ClassSpecGuideMappings
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
-            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#crit-crush-reduction-avoidance-mitigation-trinkets", "Trinket"),
+            new GuideMapping("#stamina-trinkets", "Trinket"),
+            new GuideMapping("#threat-generation-trinkets", "Trinket"),
+            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("#librams", "Libram"),
+            new GuideMapping("#shields", "Shield")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("PaladinProtectionPhase2", "Prot", "Paladin", new List<GuideMapping>
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrist", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#defensive-necks", "Neck"),
+            new GuideMapping("#offensive-necks", "Neck"),
+            new GuideMapping("#defensive-rings", "Ring"),
+            new GuideMapping("#spellpower-rings", "Ring"),
+            new GuideMapping("#crit-crush-reduction-avoidance-mitigation-trinkets", "Trinket"),
+            new GuideMapping("#stamina-trinkets", "Trinket"),
+            new GuideMapping("#threat-generation-trinkets", "Trinket"),
             new GuideMapping("h3#weapons~h4", "MH"),
             new GuideMapping("#librams", "Libram"),
             new GuideMapping("#shields", "Shield")
