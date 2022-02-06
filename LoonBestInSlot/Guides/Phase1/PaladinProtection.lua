@@ -131,7 +131,7 @@ LoonBestInSlot:AddItem(spec, "23836", "Trinket", "Goblin Rocket Launcher", "Alt"
 LoonBestInSlot:AddItem(spec, "23835", "Trinket", "Gnomish Poultryizer", "Alt")
 LoonBestInSlot:AddItem(spec, "32864", "Trinket", "Commander's Badge", "Alt")
 LoonBestInSlot:AddItem(spec, "27770", "Trinket", "Argussian Compass", "Alt")
-LoonBestInSlot:AddItem(spec, "24126", "Trinket", "Figurine - Living Ruby Serpent", "Alt ")
+LoonBestInSlot:AddItem(spec, "24126", "Trinket", "Figurine - Living Ruby Serpent", "Alt")
 LoonBestInSlot:AddItem(spec, "13503", "Trinket", "Alchemist's Stone", "Alt")
 LoonBestInSlot:AddItem(spec, "29370", "Trinket", "Icon of the Silver Crescent", "Alt")
 LoonBestInSlot:AddItem(spec, "24126", "Trinket", "Figurine - Living Ruby Serpent", "Alt")

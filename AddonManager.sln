@@ -191,7 +191,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phase3", "Phase3", "{79E951
 		LoonBestInSlot\Guides\Phase3\ShamanElemental.lua = LoonBestInSlot\Guides\Phase3\ShamanElemental.lua
 		LoonBestInSlot\Guides\Phase3\ShamanEnhancement.lua = LoonBestInSlot\Guides\Phase3\ShamanEnhancement.lua
 		LoonBestInSlot\Guides\Phase3\ShamanRestoration.lua = LoonBestInSlot\Guides\Phase3\ShamanRestoration.lua
-		LoonBestInSlot\Guides\Phase3\Warlock.lua = LoonBestInSlot\Guides\Phase3\Warlock.lua
 		LoonBestInSlot\Guides\Phase3\WarlockAfflic.lua = LoonBestInSlot\Guides\Phase3\WarlockAfflic.lua
 		LoonBestInSlot\Guides\Phase3\WarlockDemo.lua = LoonBestInSlot\Guides\Phase3\WarlockDemo.lua
 		LoonBestInSlot\Guides\Phase3\WarlockDestro.lua = LoonBestInSlot\Guides\Phase3\WarlockDestro.lua

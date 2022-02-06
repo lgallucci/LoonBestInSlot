@@ -1,9 +1,9 @@
-local spec = LoonBestInSlot:RegisterSpec("Warrior", "Arms", "3")
+local spec = LoonBestInSlot:RegisterSpec("WarriorDPS", "Arms", "3")
 LoonBestInSlot:AddItem(spec, "32235", "Head", "Cursed Vision of Sargeras", "BIS")
 LoonBestInSlot:AddItem(spec, "32373", "Head", "Helm of the Illidari Shatterer", "Alt")
 LoonBestInSlot:AddItem(spec, "30972", "Head", "Onslaught Battle-Helm", "Alt")
 LoonBestInSlot:AddItem(spec, "30120", "Head", "Destroyer Battle-Helm", "Alt")
-LoonBestInSlot:AddItem(spec, "32461", "Head", "Furious Gizmatic Goggles", "Crafted Alt")
+LoonBestInSlot:AddItem(spec, "32461", "Head", "Furious Gizmatic Goggles", "Alt")
 LoonBestInSlot:AddItem(spec, "29021", "Head", "Warbringer Battle-Helm", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30979", "Shoulders", "Onslaught Shoulderblades", "BIS")
@@ -13,7 +13,7 @@ LoonBestInSlot:AddItem(spec, "30122", "Shoulders", "Destroyer Shoulderblades", "
 LoonBestInSlot:AddItem(spec, "30053", "Shoulders", "Pauldrons of the Wardancer", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32323", "Back", "Shadowmoon Destroyer's Drape", "BIS")
-LoonBestInSlot:AddItem(spec, "33122", "Back", "Cloak of Darkness", "Crafted BIS")
+LoonBestInSlot:AddItem(spec, "33122", "Back", "Cloak of Darkness", "BIS")
 LoonBestInSlot:AddItem(spec, "24259", "Back", "Vengeance Wrap", "Alt")
 LoonBestInSlot:AddItem(spec, "29994", "Back", "Thalassian Wildercloak", "Alt")
 LoonBestInSlot:AddItem(spec, "30098", "Back", "Razor-Scale Battlecloak", "Alt")
@@ -26,7 +26,7 @@ LoonBestInSlot:AddItem(spec, "30102", "Chest", "Krakken-Heart Breastplate", "Alt
 
 LoonBestInSlot:AddItem(spec, "30863", "Bracers", "Deadly Cuffs", "BIS")
 LoonBestInSlot:AddItem(spec, "32324", "Bracers", "Insidious Bands", "Alt")
-LoonBestInSlot:AddItem(spec, "32574", "Bracers", "Bindings of Lightning Reflexes", "Crafted BIS")
+LoonBestInSlot:AddItem(spec, "32574", "Bracers", "Bindings of Lightning Reflexes", "BIS")
 LoonBestInSlot:AddItem(spec, "30057", "Bracers", "Bracers of Eradication", "Alt")
 LoonBestInSlot:AddItem(spec, "28795", "Bracers", "Bladespire Warbands", "Alt")
 LoonBestInSlot:AddItem(spec, "30861", "Bracers", "Furious Shackles", "Alt")
@@ -72,7 +72,7 @@ LoonBestInSlot:AddItem(spec, "32505", "Trinket", "Madness of the Betrayer", "BIS
 LoonBestInSlot:AddItem(spec, "30627", "Trinket", "Tsunami Talisman", "BIS")
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS")
 LoonBestInSlot:AddItem(spec, "28034", "Trinket", "Hourglass of the Unraveller", "Alt")
-LoonBestInSlot:AddItem(spec, "21670", "Trinket", "Badge of the Swarmguard", "Classic Alt")
+LoonBestInSlot:AddItem(spec, "21670", "Trinket", "Badge of the Swarmguard", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30902", "2H", "Cataclysm's Edge", "BIS")
 LoonBestInSlot:AddItem(spec, "32348", "2H", "Soul Cleaver", "BIS")
@@ -80,7 +80,7 @@ LoonBestInSlot:AddItem(spec, "29993", "2H", "Twinblade of the Phoenix", "BIS")
 LoonBestInSlot:AddItem(spec, "33688", "2H", "Vengeful Gladiator's Greatsword", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32837", "MH", "Warglaive of Azzinoth", "BIS")
-LoonBestInSlot:AddItem(spec, "33669", "MH", "Vengeful Gladiator's Cleaver", "Alt - Orcs")
+LoonBestInSlot:AddItem(spec, "33669", "MH", "Vengeful Gladiator's Cleaver", "Alt")
 LoonBestInSlot:AddItem(spec, "33762", "MH", "Vengeful Gladiator's Slicer", "Alt")
 LoonBestInSlot:AddItem(spec, "30082", "MH", "Talon of Azshara", "Alt")
 

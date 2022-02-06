@@ -83,7 +83,7 @@ LoonBestInSlot:AddItem(spec, "31334", "2H", "Staff of Natural Fury", "Alt")
 LoonBestInSlot:AddItem(spec, "29171", "2H", "Earthwarden", "Alt")
 LoonBestInSlot:AddItem(spec, "27877", "2H", "Draenic Wildstaff", "Alt")
 
-LoonBestInSlot:AddItem(spec, "29390", "Idol", "Everbloom Idol", "BIS ")
+LoonBestInSlot:AddItem(spec, "29390", "Idol", "Everbloom Idol", "BIS")
 LoonBestInSlot:AddItem(spec, "32387", "Idol", "Idol of the Raven Goddess", "BIS")
 LoonBestInSlot:AddItem(spec, "28372", "Idol", "Idol of Feral Shadows", "BIS")
 LoonBestInSlot:AddItem(spec, "28064", "Idol", "Idol of the Wild", "Alt")
