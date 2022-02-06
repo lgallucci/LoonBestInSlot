@@ -97,7 +97,7 @@ public class WowheadGuideParser
 
                                         bool skippedItem = false;
                                         foreach(var excludedName in excludedItemNames)
-                                            if (child.NextSibling?.TextContent.Contains(excludedName) ?? false || itemName.Contains(excludedName))
+                                            if (child.NextSibling?.TextContent.Trim().EndsWith(excludedName) ?? false || itemName.EndsWith(excludedName))
                                                 skippedItem = true;
 
                                         if (!skippedItem)
