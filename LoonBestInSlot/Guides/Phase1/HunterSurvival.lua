@@ -57,6 +57,7 @@ LoonBestInSlot:AddItem(spec, "28674", "Neck", "Saberclaw Talisman", "Alt")
 LoonBestInSlot:AddItem(spec, "25562", "Neck", "Earthen Mark of Razing", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28791", "Ring", "Ring of the Recalcitrant", "BIS")
+LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "BIS")
 LoonBestInSlot:AddItem(spec, "31277", "Ring", "Pathfinder's Band", "BIS")
 LoonBestInSlot:AddItem(spec, "28649", "Ring", "Garona's Signet Ring", "Alt")
 LoonBestInSlot:AddItem(spec, "27925", "Ring", "Ravenclaw Band", "Alt")

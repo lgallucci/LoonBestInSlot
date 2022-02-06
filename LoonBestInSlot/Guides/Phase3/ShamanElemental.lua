@@ -92,6 +92,7 @@ LoonBestInSlot:AddItem(spec, "28810", "Feet", "Windshear Boots", "Alt")
 LoonBestInSlot:AddItem(spec, "28406", "Feet", "Sigil-Laced Boots", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30015", "Neck", "The Sun King's Talisman", "BIS")
+LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
 LoonBestInSlot:AddItem(spec, "32349", "Neck", "Translucent Spellthread Necklace", "Alt")
 LoonBestInSlot:AddItem(spec, "28762", "Neck", "Adornment of Stolen Souls", "Alt")
 LoonBestInSlot:AddItem(spec, "28530", "Neck", "Brooch of Unquenchable Fury", "Alt")

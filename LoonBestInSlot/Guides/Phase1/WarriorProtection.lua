@@ -58,6 +58,7 @@ LoonBestInSlot:AddItem(spec, "29279", "Ring", "Violet Signet of the Great Protec
 LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "28675", "Ring", "Shermanar Great-Ring", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "28792", "Ring", "A'dal's Signet of Defense", "Alt Mit")
+LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "29384", "Ring", "Ring of Unyielding Force", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "28649", "Ring", "Garona's Signet Ring", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "29283", "Ring", "Violet Signet of the Master Assassin", "Alt Thrt")

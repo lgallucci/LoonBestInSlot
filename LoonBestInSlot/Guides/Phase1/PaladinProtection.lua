@@ -105,6 +105,7 @@ LoonBestInSlot:AddItem(spec, "24121", "Neck", "Chain of the Twilight Owl", "Alt"
 
 LoonBestInSlot:AddItem(spec, "29279", "Ring", "Violet Signet of the Great Protector", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "28793", "Ring", "Band of Crimson Fury", "BIS Thrt")
+LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "BIS")
 LoonBestInSlot:AddItem(spec, "28407", "Ring", "Elementium Band of the Sentry", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "28675", "Ring", "Shermanar Great-Ring", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "28792", "Ring", "A'dal's Signet of Defense", "Alt Mit")

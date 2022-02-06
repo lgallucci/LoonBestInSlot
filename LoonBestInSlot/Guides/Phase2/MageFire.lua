@@ -110,6 +110,7 @@ LoonBestInSlot:AddItem(spec, "30519", "Feet", "Boots of the Nexus Warden", "Alt"
 LoonBestInSlot:AddItem(spec, "30398", "Feet", "Boots of the Beneficent", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30015", "Neck", "The Sun King's Talisman", "BIS")
+LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
 LoonBestInSlot:AddItem(spec, "28134", "Neck", "Brooch of Heightened Potential", "Alt")
 LoonBestInSlot:AddItem(spec, "28530", "Neck", "Brooch of Unquenchable Fury", "Alt")
 LoonBestInSlot:AddItem(spec, "28762", "Neck", "Adornment of Stolen Souls", "Alt")
@@ -123,6 +124,7 @@ LoonBestInSlot:AddItem(spec, "31178", "Neck", "Amulet of Unstable Power", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30109", "Ring", "Ring of Endless Coils", "BIS")
 LoonBestInSlot:AddItem(spec, "28793", "Ring", "Band of Crimson Fury", "BIS")
+LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "BIS")
 LoonBestInSlot:AddItem(spec, "28753", "Ring", "Ring of Recurrence", "BIS")
 LoonBestInSlot:AddItem(spec, "29172", "Ring", "Ashyen's Gift", "Alt")
 LoonBestInSlot:AddItem(spec, "21709", "Ring", "Ring of the Fallen God", "Alt")

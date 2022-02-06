@@ -62,6 +62,7 @@ LoonBestInSlot:AddItem(spec, "25686", "Feet", "Fel Leather Boots", "Alt")
 LoonBestInSlot:AddItem(spec, "27867", "Feet", "Boots of the Unjust", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30017", "Neck", "Telonicus's Pendant of Mayhem", "BIS")
+LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
 LoonBestInSlot:AddItem(spec, "30022", "Neck", "Pendant of the Perilous", "BIS")
 LoonBestInSlot:AddItem(spec, "29381", "Neck", "Choker of Vile Intent", "Alt")
 LoonBestInSlot:AddItem(spec, "28509", "Neck", "Worgen Claw Necklace", "Alt")

@@ -52,6 +52,7 @@ LoonBestInSlot:AddItem(spec, "30894", "Feet", "Blue Suede Shoes", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "32362", "Neck", "Pendant of Titans", "BIS")
 LoonBestInSlot:AddItem(spec, "30007", "Neck", "The Darkener's Grasp", "BIS Mit")
+LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "33921", "Neck", "Vindicator's Pendant of Dominance", "BIS Thrt")
 
 LoonBestInSlot:AddItem(spec, "30083", "Ring", "Ring of Sundered Souls", "BIS Mit")
@@ -61,6 +62,7 @@ LoonBestInSlot:AddItem(spec, "30028", "Ring", "Seventh Ring of the Tirisfalen", 
 LoonBestInSlot:AddItem(spec, "29297", "Ring", "Band of the Eternal Defender", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "29172", "Ring", "Ashyen's Gift", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "28793", "Ring", "Band of Crimson Fury", "Alt Thrt")
+LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "28555", "Ring", "Seal of the Exorcist", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "29305", "Ring", "Band of the Eternal Sage", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "33054", "Ring", "The Seal of Danzalar", "Alt Thrt")

@@ -48,6 +48,7 @@ LoonBestInSlot:AddItem(spec, "24121", "Neck", "Chain of the Twilight Owl", "BIS"
 LoonBestInSlot:AddItem(spec, "24116", "Neck", "Eye of the Night", "BIS")
 LoonBestInSlot:AddItem(spec, "20966", "Neck", "Jade Pendant of Blasting", "Alt")
 LoonBestInSlot:AddItem(spec, "30015", "Neck", "The Sun King's Talisman", "Alt")
+LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "Alt")
 LoonBestInSlot:AddItem(spec, "33921", "Neck", "Vindicator's Pendant of Dominance", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30109", "Ring", "Ring of Endless Coils", "BIS")
@@ -57,6 +58,7 @@ LoonBestInSlot:AddItem(spec, "23031", "Ring", "Band of the Inevitable", "Alt")
 LoonBestInSlot:AddItem(spec, "28753", "Ring", "Ring of Recurrence", "Alt")
 LoonBestInSlot:AddItem(spec, "29352", "Ring", "Cobalt Band of Tyrigosa", "Alt")
 LoonBestInSlot:AddItem(spec, "28793", "Ring", "Band of Crimson Fury", "Alt")
+LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "Alt")
 LoonBestInSlot:AddItem(spec, "29287", "Ring", "Violet Signet of the Archmage", "Alt")
 LoonBestInSlot:AddItem(spec, "34073", "Ring", "The Horseman's Signet Ring", "Alt")
 

@@ -53,6 +53,7 @@ LoonBestInSlot:AddItem(spec, "28663", "Feet", "Boots of the Incorrupt", "Alt")
 LoonBestInSlot:AddItem(spec, "29251", "Feet", "Boots of the Pious", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30018", "Neck", "Lord Sanguinar's Claim", "BIS")
+LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
 LoonBestInSlot:AddItem(spec, "30726", "Neck", "Archaic Charm of Presence", "Alt")
 LoonBestInSlot:AddItem(spec, "28609", "Neck", "Emberspur Talisman", "Alt")
 LoonBestInSlot:AddItem(spec, "28822", "Neck", "Teeth of Gruul", "Alt")

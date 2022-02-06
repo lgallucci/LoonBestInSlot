@@ -86,6 +86,7 @@ LoonBestInSlot:AddItem(spec, "30519", "Feet", "Boots of the Nexus Warden", "Alt"
 LoonBestInSlot:AddItem(spec, "30398", "Feet", "Boots of the Beneficent", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30015", "Neck", "The Sun King's Talisman", "BIS")
+LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
 LoonBestInSlot:AddItem(spec, "30008", "Neck", "Pendant of the Lost Ages", "Alt")
 LoonBestInSlot:AddItem(spec, "32349", "Neck", "Translucent Spellthread Necklace", "Alt")
 LoonBestInSlot:AddItem(spec, "28134", "Neck", "Brooch of Heightened Potential", "Alt")

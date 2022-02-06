@@ -62,6 +62,7 @@ LoonBestInSlot:AddItem(spec, "29290", "Ring", "Violet Signet of the Grand Restor
 LoonBestInSlot:AddItem(spec, "28763", "Ring", "Jade Ring of the Everliving", "BIS")
 LoonBestInSlot:AddItem(spec, "28661", "Ring", "Mender's Heart-Ring", "Alt")
 LoonBestInSlot:AddItem(spec, "28790", "Ring", "Naaru Lightwarden's Band", "Alt")
+LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29376", "Trinket", "Essence of the Martyr", "BIS")
 LoonBestInSlot:AddItem(spec, "28823", "Trinket", "Eye of Gruul", "BIS")

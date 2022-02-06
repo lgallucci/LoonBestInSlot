@@ -51,6 +51,7 @@ LoonBestInSlot:AddItem(spec, "30737", "Feet", "Gold-Leaf Wildboots", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32370", "Neck", "Nadina's Pendant of Purity", "BIS")
 LoonBestInSlot:AddItem(spec, "30018", "Neck", "Lord Sanguinar's Claim", "Alt")
+LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
 LoonBestInSlot:AddItem(spec, "30726", "Neck", "Archaic Charm of Presence", "Alt")
 LoonBestInSlot:AddItem(spec, "28609", "Neck", "Emberspur Talisman", "Alt")
 
@@ -60,6 +61,7 @@ LoonBestInSlot:AddItem(spec, "29309", "Ring", "Band of the Eternal Restorer", "B
 LoonBestInSlot:AddItem(spec, "30110", "Ring", "Coral Band of the Revived", "Alt")
 LoonBestInSlot:AddItem(spec, "30736", "Ring", "Ring of Flowing Light", "Alt")
 LoonBestInSlot:AddItem(spec, "28790", "Ring", "Naaru Lightwarden's Band", "Alt")
+LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "Alt")
 LoonBestInSlot:AddItem(spec, "28763", "Ring", "Jade Ring of the Everliving", "Alt")
 LoonBestInSlot:AddItem(spec, "29920", "Ring", "Phoenix-Ring of Rebirth", "Alt")
 

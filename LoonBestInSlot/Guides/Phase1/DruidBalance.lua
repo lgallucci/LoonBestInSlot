@@ -117,6 +117,7 @@ LoonBestInSlot:AddItem(spec, "29333", "Neck", "Torc of the Sethekk Prophet", "Al
 LoonBestInSlot:AddItem(spec, "24462", "Neck", "Luminous Pearls of Insight", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28793", "Ring", "Band of Crimson Fury", "BIS")
+LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "BIS")
 LoonBestInSlot:AddItem(spec, "28753", "Ring", "Ring of Recurrence", "BIS")
 LoonBestInSlot:AddItem(spec, "29172", "Ring", "Ashyen's Gift", "BIS")
 LoonBestInSlot:AddItem(spec, "29287", "Ring", "Violet Signet of the Archmage", "BIS")

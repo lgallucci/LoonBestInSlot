@@ -76,6 +76,7 @@ LoonBestInSlot:AddItem(spec, "30886", "Feet", "Enchanted Leather Sandals", "Alt"
 LoonBestInSlot:AddItem(spec, "28752", "Feet", "Forestlord Striders", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30018", "Neck", "Lord Sanguinar's Claim", "BIS")
+LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
 LoonBestInSlot:AddItem(spec, "32370", "Neck", "Nadina's Pendant of Purity", "Alt")
 LoonBestInSlot:AddItem(spec, "30726", "Neck", "Archaic Charm of Presence", "Alt")
 LoonBestInSlot:AddItem(spec, "33922", "Neck", "Vindicator's Pendant of Salvation", "Alt")

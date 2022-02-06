@@ -47,6 +47,7 @@ LoonBestInSlot:AddItem(spec, "31691", "Neck", "Natasha's Guardian Cord", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28763", "Ring", "Jade Ring of the Everliving", "BIS")
 LoonBestInSlot:AddItem(spec, "28790", "Ring", "Naaru Lightwarden's Band", "BIS")
+LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "BIS")
 LoonBestInSlot:AddItem(spec, "29169", "Ring", "Ring of Convalescence", "Alt")
 LoonBestInSlot:AddItem(spec, "29168", "Ring", "Ancestral Band", "Alt")
 LoonBestInSlot:AddItem(spec, "28259", "Ring", "Cosmic Lifeband", "Alt")

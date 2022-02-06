@@ -55,6 +55,7 @@ LoonBestInSlot:AddItem(spec, "28608", "Feet", "Ironstriders of Urgency", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30022", "Neck", "Pendant of the Perilous", "BIS")
 LoonBestInSlot:AddItem(spec, "30017", "Neck", "Telonicus's Pendant of Mayhem", "Alt")
+LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "Alt")
 LoonBestInSlot:AddItem(spec, "30059", "Neck", "Choker of Animalistic Fury", "Alt")
 LoonBestInSlot:AddItem(spec, "29349", "Neck", "Adamantine Chain of the Unbroken", "Alt")
 LoonBestInSlot:AddItem(spec, "29381", "Neck", "Choker of Vile Intent", "Alt")

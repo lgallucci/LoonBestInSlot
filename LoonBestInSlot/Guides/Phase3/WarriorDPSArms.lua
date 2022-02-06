@@ -69,6 +69,7 @@ LoonBestInSlot:AddItem(spec, "32260", "Neck", "Choker of Endless Nightmares", "B
 LoonBestInSlot:AddItem(spec, "32591", "Neck", "Choker of Serrated Blades", "BIS")
 LoonBestInSlot:AddItem(spec, "30022", "Neck", "Pendant of the Perilous", "Alt")
 LoonBestInSlot:AddItem(spec, "30017", "Neck", "Telonicus's Pendant of Mayhem", "Alt")
+LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32497", "Ring", "Stormrage Signet Ring", "BIS")
 LoonBestInSlot:AddItem(spec, "32335", "Ring", "Unstoppable Aggressor's Ring", "BIS")

@@ -80,6 +80,7 @@ LoonBestInSlot:AddItem(spec, "32349", "Neck", "Translucent Spellthread Necklace"
 LoonBestInSlot:AddItem(spec, "32589", "Neck", "Hellfire-Encased Pendant", "BIS")
 LoonBestInSlot:AddItem(spec, "24116", "Neck", "Eye of the Night", "Buff")
 LoonBestInSlot:AddItem(spec, "30015", "Neck", "The Sun King's Talisman", "BIS")
+LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
 
 LoonBestInSlot:AddItem(spec, "32527", "Ring", "Ring of Ancient Knowledge", "BIS")
 LoonBestInSlot:AddItem(spec, "32247", "Ring", "Ring of Captured Storms", "BIS")
@@ -87,6 +88,7 @@ LoonBestInSlot:AddItem(spec, "29305", "Ring", "Band of the Eternal Sage", "BIS")
 LoonBestInSlot:AddItem(spec, "30109", "Ring", "Ring of Endless Coils", "Alt")
 LoonBestInSlot:AddItem(spec, "28753", "Ring", "Ring of Recurrence", "Alt")
 LoonBestInSlot:AddItem(spec, "28793", "Ring", "Band of Crimson Fury", "Alt")
+LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "Alt")
 LoonBestInSlot:AddItem(spec, "32941", "Ring", "Corruptor's Signet", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32483", "Trinket", "The Skull of Gul'dan", "BIS")

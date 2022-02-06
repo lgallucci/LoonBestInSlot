@@ -71,6 +71,7 @@ LoonBestInSlot:AddItem(spec, "30060", "Feet", "Boots of Effortless Striking", "A
 LoonBestInSlot:AddItem(spec, "28545", "Feet", "Edgewalker Longboots", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "30017", "Neck", "Telonicus's Pendant of Mayhem", "BIS")
+LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
 LoonBestInSlot:AddItem(spec, "33066", "Neck", "Veteran's Pendant of Triumph", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "30099", "Neck", "Frayed Tether of the Drowned", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "28509", "Neck", "Worgen Claw Necklace", "Alt")
@@ -80,6 +81,7 @@ LoonBestInSlot:AddItem(spec, "28745", "Neck", "Mithril Chain of Heroism", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29279", "Ring", "Violet Signet of the Great Protector", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "28792", "Ring", "A'dal's Signet of Defense", "BIS Mit")
+LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "29997", "Ring", "Band of the Ranger-General", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "30052", "Ring", "Ring of Lethality", "BIS Thrt")

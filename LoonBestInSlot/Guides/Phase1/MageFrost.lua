@@ -109,6 +109,7 @@ LoonBestInSlot:AddItem(spec, "31178", "Neck", "Amulet of Unstable Power", "Alt")
 
 LoonBestInSlot:AddItem(spec, "21709", "Ring", "Ring of the Fallen God", "BIS")
 LoonBestInSlot:AddItem(spec, "28793", "Ring", "Band of Crimson Fury", "BIS")
+LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "BIS")
 LoonBestInSlot:AddItem(spec, "29172", "Ring", "Ashyen's Gift", "BIS")
 LoonBestInSlot:AddItem(spec, "28227", "Ring", "Sparking Arcanite Ring", "BIS")
 LoonBestInSlot:AddItem(spec, "28555", "Ring", "Seal of the Exorcist", "BIS")
