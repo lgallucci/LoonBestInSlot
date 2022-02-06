@@ -1,10 +1,12 @@
 local spec = LoonBestInSlot:RegisterSpec("Priest", "Shadow", "2")
 LoonBestInSlot:AddItem(spec, "32494", "Head", "Destruction Holo-gogs", "BIS")
 LoonBestInSlot:AddItem(spec, "30161", "Head", "Hood of the Avatar", "BIS")
+LoonBestInSlot:AddItem(spec, "30243", "Head", "Helm of the Vanquished Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "29986", "Head", "Cowl of the Grand Engineer", "Alt")
 LoonBestInSlot:AddItem(spec, "24266", "Head", "Spellstrike Hood", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30163", "Shoulders", "Wings of the Avatar", "BIS")
+LoonBestInSlot:AddItem(spec, "30249", "Shoulders", "Pauldrons of the Vanquished Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "21869", "Shoulders", "Frozen Shadoweave Shoulders", "BIS")
 LoonBestInSlot:AddItem(spec, "30079", "Shoulders", "Illidari Shoulderpads", "Alt")
 
@@ -13,6 +15,7 @@ LoonBestInSlot:AddItem(spec, "28570", "Back", "Shadow-Cloak of Dalaran", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30107", "Chest", "Vestments of the Sea-Witch", "BIS")
 LoonBestInSlot:AddItem(spec, "30159", "Chest", "Shroud of the Avatar", "Alt")
+LoonBestInSlot:AddItem(spec, "30237", "Chest", "Chestguard of the Vanquished Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "21871", "Chest", "Frozen Shadoweave Robe", "Alt")
 LoonBestInSlot:AddItem(spec, "30056", "Chest", "Robe of Hateful Echoes", "Alt")
 
@@ -22,6 +25,7 @@ LoonBestInSlot:AddItem(spec, "28515", "Bracers", "Bands of Nefarious Deeds", "Al
 LoonBestInSlot:AddItem(spec, "28507", "Gloves", "Handwraps of Flowing Thought", "BIS")
 LoonBestInSlot:AddItem(spec, "28780", "Gloves", "Soul-Eater's Handwraps", "Alt")
 LoonBestInSlot:AddItem(spec, "30160", "Gloves", "Handguards of the Avatar", "Alt")
+LoonBestInSlot:AddItem(spec, "30240", "Gloves", "Gloves of the Vanquished Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "29987", "Gloves", "Gauntlets of the Sun King", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30038", "Belt", "Belt of Blasting", "BIS")
@@ -30,6 +34,7 @@ LoonBestInSlot:AddItem(spec, "28799", "Belt", "Belt of Divine Inspiration", "Alt
 
 LoonBestInSlot:AddItem(spec, "29972", "Legs", "Trousers of the Astromancer", "BIS")
 LoonBestInSlot:AddItem(spec, "30162", "Legs", "Leggings of the Avatar", "BIS")
+LoonBestInSlot:AddItem(spec, "30246", "Legs", "Leggings of the Vanquished Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "24262", "Legs", "Spellstrike Pants", "Alt")
 LoonBestInSlot:AddItem(spec, "30734", "Legs", "Leggings of the Seventh Circle", "Alt")
 LoonBestInSlot:AddItem(spec, "28594", "Legs", "Trial-Fire Trousers", "Alt")

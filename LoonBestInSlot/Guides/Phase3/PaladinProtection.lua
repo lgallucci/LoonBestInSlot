@@ -2,6 +2,7 @@ local spec = LoonBestInSlot:RegisterSpec("Paladin", "Prot", "3")
 LoonBestInSlot:AddItem(spec, "32521", "Head", "Faceplate of the Impenetrable", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "30987", "Head", "Lightbringer Faceguard", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "30125", "Head", "Crystalforge Faceguard", "Alt")
+LoonBestInSlot:AddItem(spec, "30242", "Head", "Helm of the Vanquished Champion", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30998", "Shoulders", "Lightbringer Shoulderguards", "BIS")
 LoonBestInSlot:AddItem(spec, "29070", "Shoulders", "Justicar Shoulderguards", "Alt")
@@ -28,6 +29,7 @@ LoonBestInSlot:AddItem(spec, "32515", "Bracers", "Wristguards of Determination",
 LoonBestInSlot:AddItem(spec, "30985", "Gloves", "Lightbringer Handguards", "BIS")
 LoonBestInSlot:AddItem(spec, "29998", "Gloves", "Royal Gauntlets of Silvermoon", "Alt")
 LoonBestInSlot:AddItem(spec, "30124", "Gloves", "Crystalforge Handguards", "Alt")
+LoonBestInSlot:AddItem(spec, "30239", "Gloves", "Gloves of the Vanquished Champion", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32342", "Belt", "Girdle of Mighty Resolve", "BIS")
 LoonBestInSlot:AddItem(spec, "32333", "Belt", "Girdle of Stability", "Alt Mit")

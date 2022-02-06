@@ -9,6 +9,7 @@ LoonBestInSlot:AddItem(spec, "30055", "Shoulders", "Shoulderpads of the Stranger
 LoonBestInSlot:AddItem(spec, "32581", "Shoulders", "Swiftstrike Shoulders", "BIS")
 LoonBestInSlot:AddItem(spec, "30997", "Shoulders", "Lightbringer Shoulderbraces", "Alt")
 LoonBestInSlot:AddItem(spec, "30133", "Shoulders", "Crystalforge Shoulderbraces", "Alt")
+LoonBestInSlot:AddItem(spec, "30248", "Shoulders", "Pauldrons of the Vanquished Champion", "Alt")
 LoonBestInSlot:AddItem(spec, "29075", "Shoulders", "Justicar Shoulderplates", "Alt")
 LoonBestInSlot:AddItem(spec, "29763", "Shoulders", "Pauldrons of the Fallen Champion", "Alt")
 
@@ -22,6 +23,7 @@ LoonBestInSlot:AddItem(spec, "28529", "Back", "Royal Cloak of Arathi Kings", "Al
 LoonBestInSlot:AddItem(spec, "30905", "Chest", "Midnight Chestguard", "BIS")
 LoonBestInSlot:AddItem(spec, "30990", "Chest", "Lightbringer Breastplate", "Alt")
 LoonBestInSlot:AddItem(spec, "30129", "Chest", "Crystalforge Breastplate", "Alt")
+LoonBestInSlot:AddItem(spec, "30236", "Chest", "Chestguard of the Vanquished Champion", "Alt")
 LoonBestInSlot:AddItem(spec, "28485", "Chest", "Bulwark of the Ancient Kings", "Alt")
 LoonBestInSlot:AddItem(spec, "30101", "Chest", "Bloodsea Brigand's Vest", "Alt")
 LoonBestInSlot:AddItem(spec, "33749", "Chest", "Vengeful Gladiator's Scaled Chestpiece", "Alt")

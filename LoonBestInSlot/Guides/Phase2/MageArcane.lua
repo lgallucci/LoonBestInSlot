@@ -1,5 +1,6 @@
 local spec = LoonBestInSlot:RegisterSpec("Mage", "Arcane", "2")
 LoonBestInSlot:AddItem(spec, "30206", "Head", "Cowl of Tirisfal", "BIS")
+LoonBestInSlot:AddItem(spec, "30244", "Head", "Helm of the Vanquished Hero", "BIS")
 LoonBestInSlot:AddItem(spec, "29986", "Head", "Cowl of the Grand Engineer", "Alt")
 LoonBestInSlot:AddItem(spec, "24266", "Head", "Spellstrike Hood", "Alt")
 LoonBestInSlot:AddItem(spec, "29076", "Head", "Collar of the Aldor", "Alt")
@@ -12,6 +13,7 @@ LoonBestInSlot:AddItem(spec, "31104", "Head", "Evoker's Helmet of Second Sight",
 LoonBestInSlot:AddItem(spec, "30515", "Head", "Junior Technician 3rd Grade Goggles", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30210", "Shoulders", "Mantle of Tirisfal", "BIS")
+LoonBestInSlot:AddItem(spec, "30250", "Shoulders", "Pauldrons of the Vanquished Hero", "BIS")
 LoonBestInSlot:AddItem(spec, "30079", "Shoulders", "Illidari Shoulderpads", "Alt")
 LoonBestInSlot:AddItem(spec, "30024", "Shoulders", "Mantle of the Elven Kings", "Alt")
 LoonBestInSlot:AddItem(spec, "29079", "Shoulders", "Pauldrons of the Aldor", "Alt")
@@ -36,6 +38,7 @@ LoonBestInSlot:AddItem(spec, "29813", "Back", "Cloak of Woven Energy", "Alt")
 LoonBestInSlot:AddItem(spec, "25777", "Back", "Ogre Slayer's Cover", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30196", "Chest", "Robes of Tirisfal", "BIS")
+LoonBestInSlot:AddItem(spec, "30244", "Head", "Helm of the Vanquished Hero", "BIS")
 LoonBestInSlot:AddItem(spec, "30107", "Chest", "Vestments of the Sea-Witch", "Alt")
 LoonBestInSlot:AddItem(spec, "21848", "Chest", "Spellfire Robe", "Alt")
 LoonBestInSlot:AddItem(spec, "30056", "Chest", "Robe of Hateful Echoes", "Alt")
@@ -60,6 +63,7 @@ LoonBestInSlot:AddItem(spec, "30520", "Bracers", "Gold-Trimmed Cuffs", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29987", "Gloves", "Gauntlets of the Sun King", "BIS")
 LoonBestInSlot:AddItem(spec, "30205", "Gloves", "Gloves of Tirisfal", "Alt")
+LoonBestInSlot:AddItem(spec, "30241", "Gloves", "Gloves of the Vanquished Hero", "Alt")
 LoonBestInSlot:AddItem(spec, "21847", "Gloves", "Spellfire Gloves", "Alt")
 LoonBestInSlot:AddItem(spec, "28507", "Gloves", "Handwraps of Flowing Thought", "Alt")
 LoonBestInSlot:AddItem(spec, "29080", "Gloves", "Gloves of the Aldor", "Alt")
@@ -82,6 +86,7 @@ LoonBestInSlot:AddItem(spec, "30923", "Belt", "Grom'tor's Bloodied Bandage", "Al
 LoonBestInSlot:AddItem(spec, "29771", "Belt", "Kirin'Var Journeyman's Belt", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30207", "Legs", "Leggings of Tirisfal", "BIS")
+LoonBestInSlot:AddItem(spec, "30247", "Legs", "Leggings of the Vanquished Hero", "BIS")
 LoonBestInSlot:AddItem(spec, "24262", "Legs", "Spellstrike Pants", "Alt")
 LoonBestInSlot:AddItem(spec, "30734", "Legs", "Leggings of the Seventh Circle", "Alt")
 LoonBestInSlot:AddItem(spec, "29972", "Legs", "Trousers of the Astromancer", "Alt")

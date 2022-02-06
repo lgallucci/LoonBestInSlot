@@ -7,6 +7,7 @@ LoonBestInSlot:AddItem(spec, "30972", "Head", "Onslaught Battle-Helm", "Alt Thrt
 LoonBestInSlot:AddItem(spec, "33732", "Shoulders", "Vengeful Gladiator's Plate Shoulders", "BIS")
 LoonBestInSlot:AddItem(spec, "30979", "Shoulders", "Onslaught Shoulderblades", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "30122", "Shoulders", "Destroyer Shoulderblades", "Alt Thrt")
+LoonBestInSlot:AddItem(spec, "30249", "Shoulders", "Pauldrons of the Vanquished Defender", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "30980", "Shoulders", "Onslaught Shoulderguards", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "32250", "Shoulders", "Pauldrons of Abyssal Fury", "Alt Mit")
 
@@ -20,6 +21,7 @@ LoonBestInSlot:AddItem(spec, "30098", "Back", "Razor-Scale Battlecloak", "Alt")
 LoonBestInSlot:AddItem(spec, "33728", "Chest", "Vengeful Gladiator's Plate Chestpiece", "BIS")
 LoonBestInSlot:AddItem(spec, "30975", "Chest", "Onslaught Breastplate", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "30113", "Chest", "Destroyer Chestguard", "BIS Mit")
+LoonBestInSlot:AddItem(spec, "30237", "Chest", "Chestguard of the Vanquished Defender", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "30896", "Chest", "Glory of the Defender", "Alt Mit")
 
 LoonBestInSlot:AddItem(spec, "33813", "Bracers", "Vindicator's Plate Bracers", "BIS")
