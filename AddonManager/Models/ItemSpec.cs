@@ -45,6 +45,7 @@ public class ItemSpec
         new Tuple<string, string>("Quest", "Alt"),
         new Tuple<string, string>("Survivability", "Mit"),
         new Tuple<string, string>("- Hit", "Hit"),
+        new Tuple<string, string>("- Defensive", "Mit");
 
         new Tuple<string, string>("-PVP", ""),
         new Tuple<string, string>("-Crafted", ""),

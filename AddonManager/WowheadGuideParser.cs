@@ -13,7 +13,8 @@ public class WowheadGuideParser
 {
     public static HttpClient httpClient = new HttpClient();
 
-    private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of the Tiger", "of Agility" };
+    private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of the Tiger", "of Agility", 
+        "Lurker's Grasp", "Ravager's Wrist-Wraps", "Ravager's Bands", "Lurker's Belt", "Glider's Sabatons", "Mark of the Champion" };
 
     class MyFormatter : IMarkupFormatter
     {

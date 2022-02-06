@@ -22,7 +22,7 @@ LoonBestInSlot:AddItem(spec, "29062", "Chest", "Justicar Chestpiece", "BIS")
 LoonBestInSlot:AddItem(spec, "21875", "Chest", "Primal Mooncloth Robe", "Alt")
 LoonBestInSlot:AddItem(spec, "29522", "Chest", "Windhawk Hauberk", "Alt")
 LoonBestInSlot:AddItem(spec, "28662", "Chest", "Breastplate of the Lightbinder", "Alt")
-LoonBestInSlot:AddItem(spec, "28735", "Chest", "Earthblood Chestguard", "Quest")
+LoonBestInSlot:AddItem(spec, "28735", "Chest", "Earthblood Chestguard", "Alt")
 LoonBestInSlot:AddItem(spec, "28230", "Chest", "Hallowed Garments", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29523", "Bracers", "Windhawk Bracers", "BIS")
@@ -30,7 +30,7 @@ LoonBestInSlot:AddItem(spec, "29183", "Bracers", "Bindings of the Timewalker", "
 LoonBestInSlot:AddItem(spec, "23539", "Bracers", "Blessed Bracers", "BIS")
 LoonBestInSlot:AddItem(spec, "28512", "Bracers", "Bracers of Justice", "Alt")
 LoonBestInSlot:AddItem(spec, "28503", "Bracers", "Whirlwind Bracers", "Alt")
-LoonBestInSlot:AddItem(spec, "28511", "Bracers", "Bands of Indwelling", "Quest")
+LoonBestInSlot:AddItem(spec, "28511", "Bracers", "Bands of Indwelling", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28505", "Gloves", "Gauntlets of Renewed Hope", "BIS")
 LoonBestInSlot:AddItem(spec, "28520", "Gloves", "Gloves of Centering", "Alt")
