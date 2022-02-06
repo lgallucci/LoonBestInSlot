@@ -145,6 +145,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phase2", "Phase2", "{6D5232
 		LoonBestInSlot\Guides\Phase2\DruidBear.lua = LoonBestInSlot\Guides\Phase2\DruidBear.lua
 		LoonBestInSlot\Guides\Phase2\DruidCat.lua = LoonBestInSlot\Guides\Phase2\DruidCat.lua
 		LoonBestInSlot\Guides\Phase2\DruidRestoration.lua = LoonBestInSlot\Guides\Phase2\DruidRestoration.lua
+		LoonBestInSlot\Guides\Phase2\HunterBM.lua = LoonBestInSlot\Guides\Phase2\HunterBM.lua
+		LoonBestInSlot\Guides\Phase2\HunterMarks.lua = LoonBestInSlot\Guides\Phase2\HunterMarks.lua
+		LoonBestInSlot\Guides\Phase2\HunterSurvival.lua = LoonBestInSlot\Guides\Phase2\HunterSurvival.lua
+		LoonBestInSlot\Guides\Phase2\MageArcane.lua = LoonBestInSlot\Guides\Phase2\MageArcane.lua
+		LoonBestInSlot\Guides\Phase2\MageFire.lua = LoonBestInSlot\Guides\Phase2\MageFire.lua
+		LoonBestInSlot\Guides\Phase2\MageFrost.lua = LoonBestInSlot\Guides\Phase2\MageFrost.lua
 		LoonBestInSlot\Guides\Phase2\PaladinHoly.lua = LoonBestInSlot\Guides\Phase2\PaladinHoly.lua
 		LoonBestInSlot\Guides\Phase2\PaladinProtection.lua = LoonBestInSlot\Guides\Phase2\PaladinProtection.lua
 		LoonBestInSlot\Guides\Phase2\PaladinRetribution.lua = LoonBestInSlot\Guides\Phase2\PaladinRetribution.lua
@@ -154,7 +160,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phase2", "Phase2", "{6D5232
 		LoonBestInSlot\Guides\Phase2\ShamanElemental.lua = LoonBestInSlot\Guides\Phase2\ShamanElemental.lua
 		LoonBestInSlot\Guides\Phase2\ShamanEnhancement.lua = LoonBestInSlot\Guides\Phase2\ShamanEnhancement.lua
 		LoonBestInSlot\Guides\Phase2\ShamanRestoration.lua = LoonBestInSlot\Guides\Phase2\ShamanRestoration.lua
-		LoonBestInSlot\Guides\Phase2\WarriorDPS.lua = LoonBestInSlot\Guides\Phase2\WarriorDPS.lua
+		LoonBestInSlot\Guides\Phase2\WarlockAfflic.lua = LoonBestInSlot\Guides\Phase2\WarlockAfflic.lua
+		LoonBestInSlot\Guides\Phase2\WarlockDemo.lua = LoonBestInSlot\Guides\Phase2\WarlockDemo.lua
+		LoonBestInSlot\Guides\Phase2\WarlockDestro.lua = LoonBestInSlot\Guides\Phase2\WarlockDestro.lua
+		LoonBestInSlot\Guides\Phase2\WarriorDPSArms.lua = LoonBestInSlot\Guides\Phase2\WarriorDPSArms.lua
+		LoonBestInSlot\Guides\Phase2\WarriorDPSFury.lua = LoonBestInSlot\Guides\Phase2\WarriorDPSFury.lua
 		LoonBestInSlot\Guides\Phase2\WarriorProtection.lua = LoonBestInSlot\Guides\Phase2\WarriorProtection.lua
 	EndProjectSection
 EndProject

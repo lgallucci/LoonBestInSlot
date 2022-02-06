@@ -10,7 +10,7 @@ public class ItemSpecFileManager
 
         var phaseNumber = Int32.Parse(phaseText.Replace("Phase", ""));
 
-        itemSB.AppendLine($"local spec = LoonBestInSlot:RegisterSpec(\"{className}\", \"{specName}\", \"{phaseNumber}\"");
+        itemSB.AppendLine($"local spec = LoonBestInSlot:RegisterSpec(\"{className}\", \"{specName}\", \"{phaseNumber}\")");
 
         var previousSlot = "Head";
         foreach (var item in items)

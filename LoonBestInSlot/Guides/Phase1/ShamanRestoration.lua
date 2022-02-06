@@ -72,6 +72,8 @@ LoonBestInSlot:AddItem(spec, "28728", "OH", "Aran's Soothing Sapphire", "Alt")
 LoonBestInSlot:AddItem(spec, "28754", "OH", "Triptych Shield of the Ancients", "Alt")
 LoonBestInSlot:AddItem(spec, "22819", "OH", "Shield of Condemnation", "Alt")
 
+
+LoonBestInSlot:AddItem(spec, "28523", "Totem", "Totem of Healing Rains", "BIS"),
 LoonBestInSlot:AddItem(spec, "27544", "Totem", "Totem of Spontaneous Regrowth", "Alt")
 LoonBestInSlot:AddItem(spec, "22396", "Totem", "Totem of Life", "Alt")
 LoonBestInSlot:AddItem(spec, "25645", "Totem", "Totem of the Plains", "Alt")

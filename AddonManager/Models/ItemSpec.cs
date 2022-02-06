@@ -25,6 +25,7 @@ public class ItemSpec
         new Tuple<string, string>("Best", "BIS"),
         new Tuple<string, string>("Optional", "Alt"),
         new Tuple<string, string>("PvP", "Alt"),
+        new Tuple<string, string>("Good", "Alt"),
         new Tuple<string, string>("Easy to Acquire", "Alt"),
         new Tuple<string, string>("Easy to Obtain", "Alt"),
         new Tuple<string, string>("Easy To Obtain", "Alt"),
@@ -41,6 +42,7 @@ public class ItemSpec
         new Tuple<string, string>("Under Hit Cap", "Alt"),
         new Tuple<string, string>("Over Hit Cap", "Alt"),
         new Tuple<string, string>("Classic Option", "Alt"),
+        new Tuple<string, string>("Quest", "Alt"),
         new Tuple<string, string>("Survivability", "Mit"),
         new Tuple<string, string>("- Hit", "Hit"),
 
@@ -53,6 +55,7 @@ public class ItemSpec
         new Tuple<string, string>(" skewed", ""),
         new Tuple<string, string>(" Individually", ""),
         new Tuple<string, string>(" Overall", ""),
+        new Tuple<string, string>("World Boss ", ""),
 
         new Tuple<string, string>("Alt Alt", "Alt"),
         new Tuple<string, string>("Thrt Alt", "Alt Thrt"),

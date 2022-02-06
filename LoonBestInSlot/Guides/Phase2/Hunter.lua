@@ -1,1 +1,0 @@
-local spec = LoonBestInSlot:RegisterSpec("Hunter", "")

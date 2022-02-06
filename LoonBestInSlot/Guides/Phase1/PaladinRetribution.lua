@@ -12,7 +12,7 @@ LoonBestInSlot:AddItem(spec, "27883", "Shoulders", "Gladiator's Scaled Shoulders
 LoonBestInSlot:AddItem(spec, "33122", "Back", "Cloak of Darkness", "BIS")
 LoonBestInSlot:AddItem(spec, "27878", "Back", "Auchenai Death Shroud", "BIS")
 LoonBestInSlot:AddItem(spec, "24259", "Back", "Vengeance Wrap", "Alt")
-LoonBestInSlot:AddItem(spec, "27892", "Back", "Cloak of the Inciter", "Alt Hit")
+LoonBestInSlot:AddItem(spec, "27892", "Back", "Cloak of the Inciter", "Alt")
 LoonBestInSlot:AddItem(spec, "28249", "Back", "Capacitus' Cloak of Calibration", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29071", "Chest", "Justicar Breastplate", "BIS")
