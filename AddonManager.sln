@@ -107,7 +107,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phase0", "Phase0", "{710C87
 		LoonBestInSlot\Guides\Phase0\WarlockAfflic.lua = LoonBestInSlot\Guides\Phase0\WarlockAfflic.lua
 		LoonBestInSlot\Guides\Phase0\WarlockDemo.lua = LoonBestInSlot\Guides\Phase0\WarlockDemo.lua
 		LoonBestInSlot\Guides\Phase0\WarlockDestro.lua = LoonBestInSlot\Guides\Phase0\WarlockDestro.lua
-		LoonBestInSlot\Guides\Phase0\WarriorDPS.lua = LoonBestInSlot\Guides\Phase0\WarriorDPS.lua
+		LoonBestInSlot\Guides\Phase0\WarriorDPSArms.lua = LoonBestInSlot\Guides\Phase0\WarriorDPSArms.lua
+		LoonBestInSlot\Guides\Phase0\WarriorDPSFury.lua = LoonBestInSlot\Guides\Phase0\WarriorDPSFury.lua
 		LoonBestInSlot\Guides\Phase0\WarriorProtection.lua = LoonBestInSlot\Guides\Phase0\WarriorProtection.lua
 	EndProjectSection
 EndProject

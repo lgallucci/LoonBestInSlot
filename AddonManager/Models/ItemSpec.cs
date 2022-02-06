@@ -46,6 +46,8 @@ public class ItemSpec
         new Tuple<string, string>("Survivability", "Mit"),
         new Tuple<string, string>("- Hit", "Hit"),
 
+        new Tuple<string, string>("-PVP", ""),
+        new Tuple<string, string>("-Crafted", ""),
         new Tuple<string, string>(" - Tailoring", ""),
         new Tuple<string, string>(" - Engineering", ""),
         new Tuple<string, string>(" - Classic", ""),
