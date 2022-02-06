@@ -1,5 +1,6 @@
 local spec = LoonBestInSlot:RegisterSpec("Shaman", "Elemental", "3")
 LoonBestInSlot:AddItem(spec, "31014", "Head", "Skyshatter Headguard", "BIS")
+LoonBestInSlot:AddItem(spec, "31095", "Head", "Helm of the Forgotten Protector", "BIS")
 LoonBestInSlot:AddItem(spec, "32525", "Head", "Cowl of the Illidari High Lord", "Alt")
 LoonBestInSlot:AddItem(spec, "29035", "Head", "Cyclone Faceguard", "Alt")
 LoonBestInSlot:AddItem(spec, "29760", "Head", "Helm of the Fallen Champion", "Alt")
@@ -12,6 +13,7 @@ LoonBestInSlot:AddItem(spec, "31330", "Head", "Lightning Crown", "Alt")
 LoonBestInSlot:AddItem(spec, "28583", "Head", "Big Bad Wolf's Head", "Alt")
 
 LoonBestInSlot:AddItem(spec, "31023", "Shoulders", "Skyshatter Mantle", "BIS")
+LoonBestInSlot:AddItem(spec, "31103", "Shoulders", "Pauldrons of the Forgotten Protector", "BIS")
 LoonBestInSlot:AddItem(spec, "32587", "Shoulders", "Mantle of Nimble Thought", "BIS")
 LoonBestInSlot:AddItem(spec, "30884", "Shoulders", "Hatefury Mantle", "Alt")
 LoonBestInSlot:AddItem(spec, "29037", "Shoulders", "Cyclone Shoulderguards", "Alt")
@@ -29,6 +31,7 @@ LoonBestInSlot:AddItem(spec, "28766", "Back", "Ruby Drape of the Mysticant", "Al
 LoonBestInSlot:AddItem(spec, "30735", "Back", "Ancient Spellcloak of the Highborne", "Alt")
 
 LoonBestInSlot:AddItem(spec, "31017", "Chest", "Skyshatter Breastplate", "BIS")
+LoonBestInSlot:AddItem(spec, "31091", "Chest", "Chestguard of the Forgotten Protector", "BIS")
 LoonBestInSlot:AddItem(spec, "32592", "Chest", "Chestguard of Relentless Storms", "Alt")
 LoonBestInSlot:AddItem(spec, "30169", "Chest", "Cataclysm Chestpiece", "Alt")
 LoonBestInSlot:AddItem(spec, "30236", "Chest", "Chestguard of the Vanquished Champion", "Alt")
@@ -48,6 +51,7 @@ LoonBestInSlot:AddItem(spec, "29523", "Bracers", "Windhawk Bracers", "Alt")
 LoonBestInSlot:AddItem(spec, "24250", "Bracers", "Bracers of Havok", "Alt")
 
 LoonBestInSlot:AddItem(spec, "31008", "Gloves", "Skyshatter Gauntlets", "BIS")
+LoonBestInSlot:AddItem(spec, "31094", "Gloves", "Gloves of the Forgotten Protector", "BIS")
 LoonBestInSlot:AddItem(spec, "32328", "Gloves", "Botanist's Gloves of Growth", "Alt")
 LoonBestInSlot:AddItem(spec, "32275", "Gloves", "Spiritwalker Gauntlets", "Alt")
 LoonBestInSlot:AddItem(spec, "28780", "Gloves", "Soul-Eater's Handwraps", "Alt")
@@ -68,6 +72,7 @@ LoonBestInSlot:AddItem(spec, "28799", "Belt", "Belt of Divine Inspiration", "Alt
 
 LoonBestInSlot:AddItem(spec, "30916", "Legs", "Leggings of Channeled Elements", "BIS")
 LoonBestInSlot:AddItem(spec, "31020", "Legs", "Skyshatter Legguards", "BIS")
+LoonBestInSlot:AddItem(spec, "31100", "Legs", "Leggings of the Forgotten Protector", "BIS")
 LoonBestInSlot:AddItem(spec, "30172", "Legs", "Cataclysm Leggings", "Alt")
 LoonBestInSlot:AddItem(spec, "30245", "Legs", "Leggings of the Vanquished Champion", "Alt")
 LoonBestInSlot:AddItem(spec, "24262", "Legs", "Spellstrike Pants", "Alt")

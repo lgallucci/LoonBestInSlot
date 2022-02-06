@@ -1,6 +1,7 @@
 local spec = LoonBestInSlot:RegisterSpec("Shaman", "Enhance", "3")
 LoonBestInSlot:AddItem(spec, "32235", "Head", "Cursed Vision of Sargeras", "BIS")
 LoonBestInSlot:AddItem(spec, "31015", "Head", "Skyshatter Cover", "Alt")
+LoonBestInSlot:AddItem(spec, "31095", "Head", "Helm of the Forgotten Protector", "Alt")
 LoonBestInSlot:AddItem(spec, "30190", "Head", "Cataclysm Helm", "Alt")
 LoonBestInSlot:AddItem(spec, "30242", "Head", "Helm of the Vanquished Champion", "Alt")
 LoonBestInSlot:AddItem(spec, "32474", "Head", "Surestrike Goggles v2.0", "Alt")

@@ -1,10 +1,12 @@
 local spec = LoonBestInSlot:RegisterSpec("Paladin", "Prot", "3")
 LoonBestInSlot:AddItem(spec, "32521", "Head", "Faceplate of the Impenetrable", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "30987", "Head", "Lightbringer Faceguard", "BIS Thrt")
+LoonBestInSlot:AddItem(spec, "31097", "Head", "Helm of the Forgotten Conqueror", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "30125", "Head", "Crystalforge Faceguard", "Alt")
 LoonBestInSlot:AddItem(spec, "30242", "Head", "Helm of the Vanquished Champion", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30998", "Shoulders", "Lightbringer Shoulderguards", "BIS")
+LoonBestInSlot:AddItem(spec, "31101", "Shoulders", "Pauldrons of the Forgotten Conqueror", "BIS")
 LoonBestInSlot:AddItem(spec, "29070", "Shoulders", "Justicar Shoulderguards", "Alt")
 LoonBestInSlot:AddItem(spec, "29763", "Shoulders", "Pauldrons of the Fallen Champion", "Alt")
 LoonBestInSlot:AddItem(spec, "32250", "Shoulders", "Pauldrons of Abyssal Fury", "Alt")
@@ -16,6 +18,7 @@ LoonBestInSlot:AddItem(spec, "29992", "Back", "Royal Cloak of the Sunstriders", 
 LoonBestInSlot:AddItem(spec, "32331", "Back", "Cloak of the Illidari Council", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "30991", "Chest", "Lightbringer Chestguard", "BIS")
+LoonBestInSlot:AddItem(spec, "31089", "Chest", "Chestguard of the Forgotten Conqueror", "BIS")
 LoonBestInSlot:AddItem(spec, "30896", "Chest", "Glory of the Defender", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "33695", "Chest", "Vengeful Gladiator's Lamellar Chestpiece", "Alt")
 LoonBestInSlot:AddItem(spec, "29066", "Chest", "Justicar Chestguard", "Alt")
@@ -27,6 +30,7 @@ LoonBestInSlot:AddItem(spec, "33889", "Bracers", "Vindicator's Lamellar Bracers"
 LoonBestInSlot:AddItem(spec, "32515", "Bracers", "Wristguards of Determination", "Alt Mit")
 
 LoonBestInSlot:AddItem(spec, "30985", "Gloves", "Lightbringer Handguards", "BIS")
+LoonBestInSlot:AddItem(spec, "31092", "Gloves", "Gloves of the Forgotten Conqueror", "BIS")
 LoonBestInSlot:AddItem(spec, "29998", "Gloves", "Royal Gauntlets of Silvermoon", "Alt")
 LoonBestInSlot:AddItem(spec, "30124", "Gloves", "Crystalforge Handguards", "Alt")
 LoonBestInSlot:AddItem(spec, "30239", "Gloves", "Gloves of the Vanquished Champion", "Alt")
@@ -37,6 +41,7 @@ LoonBestInSlot:AddItem(spec, "30096", "Belt", "Girdle of the Invulnerable", "Alt
 LoonBestInSlot:AddItem(spec, "30064", "Belt", "Cord of Screaming Terrors", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "30995", "Legs", "Lightbringer Legguards", "BIS")
+LoonBestInSlot:AddItem(spec, "31098", "Legs", "Leggings of the Forgotten Conqueror", "BIS")
 LoonBestInSlot:AddItem(spec, "32263", "Legs", "Praetorian's Legguards", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "33698", "Legs", "Vengeful Gladiator's Lamellar Legguards", "Alt")
 LoonBestInSlot:AddItem(spec, "32367", "Legs", "Leggings of Devastation", "Alt Thrt")

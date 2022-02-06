@@ -3,12 +3,14 @@ LoonBestInSlot:AddItem(spec, "32521", "Head", "Faceplate of the Impenetrable", "
 LoonBestInSlot:AddItem(spec, "33730", "Head", "Vengeful Gladiator's Plate Helm", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "30974", "Head", "Onslaught Greathelm", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "30972", "Head", "Onslaught Battle-Helm", "Alt Thrt")
+LoonBestInSlot:AddItem(spec, "31095", "Head", "Helm of the Forgotten Protector", "Alt")
 
 LoonBestInSlot:AddItem(spec, "33732", "Shoulders", "Vengeful Gladiator's Plate Shoulders", "BIS")
 LoonBestInSlot:AddItem(spec, "30979", "Shoulders", "Onslaught Shoulderblades", "BIS Thrt")
+LoonBestInSlot:AddItem(spec, "30980", "Shoulders", "Onslaught Shoulderguards", "BIS Mit")
+LoonBestInSlot:AddItem(spec, "31103", "Shoulders", "Pauldrons of the Forgotten Protector", "BIS")
 LoonBestInSlot:AddItem(spec, "30122", "Shoulders", "Destroyer Shoulderblades", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "30249", "Shoulders", "Pauldrons of the Vanquished Defender", "Alt Thrt")
-LoonBestInSlot:AddItem(spec, "30980", "Shoulders", "Onslaught Shoulderguards", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "32250", "Shoulders", "Pauldrons of Abyssal Fury", "Alt Mit")
 
 LoonBestInSlot:AddItem(spec, "34010", "Back", "Pepe's Shroud of Pacification", "BIS")
@@ -20,6 +22,7 @@ LoonBestInSlot:AddItem(spec, "30098", "Back", "Razor-Scale Battlecloak", "Alt")
 
 LoonBestInSlot:AddItem(spec, "33728", "Chest", "Vengeful Gladiator's Plate Chestpiece", "BIS")
 LoonBestInSlot:AddItem(spec, "30975", "Chest", "Onslaught Breastplate", "BIS Thrt")
+LoonBestInSlot:AddItem(spec, "31091", "Chest", "Chestguard of the Forgotten Protector", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "30113", "Chest", "Destroyer Chestguard", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "30237", "Chest", "Chestguard of the Vanquished Defender", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "30896", "Chest", "Glory of the Defender", "Alt Mit")
@@ -41,6 +44,7 @@ LoonBestInSlot:AddItem(spec, "32342", "Belt", "Girdle of Mighty Resolve", "Alt M
 
 LoonBestInSlot:AddItem(spec, "33731", "Legs", "Vengeful Gladiator's Plate Legguards", "BIS")
 LoonBestInSlot:AddItem(spec, "30977", "Legs", "Onslaught Greaves", "BIS Thrt")
+LoonBestInSlot:AddItem(spec, "31100", "Legs", "Leggings of the Forgotten Protector", "BIS")
 LoonBestInSlot:AddItem(spec, "30903", "Legs", "Legguards of Endless Rage", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "32263", "Legs", "Praetorian's Legguards", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "30978", "Legs", "Onslaught Legguards", "Alt Mit")
