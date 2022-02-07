@@ -70,7 +70,6 @@ LoonBestInSlot:AddItem(spec, "19147", "Ring", "Ring of Spell Power", "Alt")
 LoonBestInSlot:AddItem(spec, "29126", "Ring", "Seer's Signet", "Alt")
 LoonBestInSlot:AddItem(spec, "31290", "Ring", "Band of Dominion", "Alt")
 LoonBestInSlot:AddItem(spec, "31075", "Ring", "Evoker's Mark of the Redemption", "Alt")
-LoonBestInSlot:AddItem(spec, "31075", "Ring", "Evoker's Mark of the Redemption", "Alt")
 LoonBestInSlot:AddItem(spec, "29172", "Ring", "Ashyen's Gift", "Alt")
 LoonBestInSlot:AddItem(spec, "34073", "Ring", "The Horseman's Signet Ring", "BIS")
 

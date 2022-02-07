@@ -63,16 +63,16 @@ LoonBestInSlot:AddItem(spec, "22630", "2H", "Atiesh, Greatstaff of the Guardian"
 LoonBestInSlot:AddItem(spec, "30723", "MH", "Talon of the Tempest", "BIS")
 LoonBestInSlot:AddItem(spec, "28802", "MH", "Bloodmaw Magus-Blade", "Alt")
 LoonBestInSlot:AddItem(spec, "28770", "MH", "Nathrezim Mindblade", "Alt")
-LoonBestInSlot:AddItem(spec, "28297", "MH", "Gladiator's Spellblade", "Alt Alt")
+LoonBestInSlot:AddItem(spec, "28297", "MH", "Gladiator's Spellblade", "Alt")
 LoonBestInSlot:AddItem(spec, "30787", "MH", "Illidari-Bane Mageblade", "Alt")
 LoonBestInSlot:AddItem(spec, "31336", "MH", "Blade of Wizardry", "Alt")
 LoonBestInSlot:AddItem(spec, "23554", "MH", "Eternium Runed Blade", "Alt")
+
+LoonBestInSlot:AddItem(spec, "29273", "OH", "Khadgar's Knapsack", "BIS")
+LoonBestInSlot:AddItem(spec, "29272", "OH", "Orb of the Soul-Eater", "Alt")
+LoonBestInSlot:AddItem(spec, "28734", "OH", "Jewel of Infinite Possibilities", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28673", "Wand", "Tirisfal Wand of Ascendancy", "BIS")
 LoonBestInSlot:AddItem(spec, "29350", "Wand", "The Black Stalk", "BIS")
 LoonBestInSlot:AddItem(spec, "28783", "Wand", "Eredar Wand of Obliteration", "BIS")
 LoonBestInSlot:AddItem(spec, "28386", "Wand", "Nether Core's Control Rod", "Alt")
-
-LoonBestInSlot:AddItem(spec, "29273", "OH", "Khadgar's Knapsack", "BIS")
-LoonBestInSlot:AddItem(spec, "29272", "OH", "Orb of the Soul-Eater", "Alt")
-LoonBestInSlot:AddItem(spec, "28734", "OH", "Jewel of Infinite Possibilities", "Alt")

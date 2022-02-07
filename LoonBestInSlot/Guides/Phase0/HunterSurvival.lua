@@ -78,7 +78,6 @@ LoonBestInSlot:AddItem(spec, "29121", "MH", "Guile of Khoraazi", "Alt")
 LoonBestInSlot:AddItem(spec, "27846", "MH", "Claw of the Watcher", "Alt")
 LoonBestInSlot:AddItem(spec, "30277", "MH", "Ripfang Paw", "Alt")
 
-LoonBestInSlot:AddItem(spec, "28263", "OH", "Stellaris", "BIS")
 LoonBestInSlot:AddItem(spec, "32781", "OH", "Talon of Anzu", "Alt")
 LoonBestInSlot:AddItem(spec, "29372", "OH", "Void-Talon", "Alt")
 LoonBestInSlot:AddItem(spec, "28315", "OH", "Stormreaver Warblades", "Alt")

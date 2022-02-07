@@ -763,8 +763,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets", "Trinket"),
             new GuideMapping("h3#weapons~h4", "MH"),
             new GuideMapping("h3#weapons~h4~h4", "2H"),
-            new GuideMapping("#wands", "Wand"),
-            new GuideMapping("#offhands", "OH")
+            new GuideMapping("#offhands", "OH"),
+            new GuideMapping("#wands", "Wand")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("WarlockAfflicPhase1", "Afflic", "Warlock", new List<GuideMapping>
@@ -823,8 +823,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets", "Trinket"),
             new GuideMapping("h3#weapons~h4", "MH"),
             new GuideMapping("h3#weapons~h4~h4", "2H"),
-            new GuideMapping("#wands", "Wand"),
-            new GuideMapping("#offhands", "OH")
+            new GuideMapping("#offhands", "OH"),
+            new GuideMapping("#wands", "Wand")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("WarlockDemo", "Demo", "Warlock", new List<GuideMapping>
@@ -863,8 +863,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets", "Trinket"),
             new GuideMapping("h3#weapons~h4", "MH"),
             new GuideMapping("h3#weapons~h4~h4", "2H"),
-            new GuideMapping("#wands", "Wand"),
-            new GuideMapping("#offhands", "OH")
+            new GuideMapping("#offhands", "OH"),
+            new GuideMapping("#wands", "Wand")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("WarlockDestro", "Destro", "Warlock", new List<GuideMapping>

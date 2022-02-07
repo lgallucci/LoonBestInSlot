@@ -25,6 +25,10 @@ public class WowheadGuideParser
         30676, //Lurker's Grasp
         23206, //Mark of the Champion
         23207, //Mark of the Champion
+        30675, //Lurker's Cord
+        30680, //Glider's Foot-Wraps
+        30681, //Glider's Boots
+        31201, //Illidari Cloak
     };
 
     private HashSet<int> addedItems = new HashSet<int>();

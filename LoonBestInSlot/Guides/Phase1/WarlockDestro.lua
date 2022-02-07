@@ -70,13 +70,13 @@ LoonBestInSlot:AddItem(spec, "30787", "MH", "Illidari-Bane Mageblade", "Alt")
 LoonBestInSlot:AddItem(spec, "31336", "MH", "Blade of Wizardry", "Alt")
 LoonBestInSlot:AddItem(spec, "23554", "MH", "Eternium Runed Blade", "Alt")
 
+LoonBestInSlot:AddItem(spec, "29270", "OH", "Flametongue Seal", "BIS")
+LoonBestInSlot:AddItem(spec, "29273", "OH", "Khadgar's Knapsack", "BIS")
+LoonBestInSlot:AddItem(spec, "29272", "OH", "Orb of the Soul-Eater", "Alt")
+LoonBestInSlot:AddItem(spec, "28734", "OH", "Jewel of Infinite Possibilities", "Alt")
+
 LoonBestInSlot:AddItem(spec, "28673", "Wand", "Tirisfal Wand of Ascendancy", "BIS")
 LoonBestInSlot:AddItem(spec, "29350", "Wand", "The Black Stalk", "BIS")
 LoonBestInSlot:AddItem(spec, "28783", "Wand", "Eredar Wand of Obliteration", "BIS")
 LoonBestInSlot:AddItem(spec, "28386", "Wand", "Nether Core's Control Rod", "Alt")
 LoonBestInSlot:AddItem(spec, "22128", "Wand", "Master Firestone", "Alt")
-
-LoonBestInSlot:AddItem(spec, "29270", "OH", "Flametongue Seal", "BIS")
-LoonBestInSlot:AddItem(spec, "29273", "OH", "Khadgar's Knapsack", "BIS")
-LoonBestInSlot:AddItem(spec, "29272", "OH", "Orb of the Soul-Eater", "Alt")
-LoonBestInSlot:AddItem(spec, "28734", "OH", "Jewel of Infinite Possibilities", "Alt")

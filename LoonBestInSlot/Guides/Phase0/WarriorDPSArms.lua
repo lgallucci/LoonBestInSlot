@@ -53,7 +53,6 @@ LoonBestInSlot:AddItem(spec, "27546", "Neck", "Traitor's Noose", "Alt")
 LoonBestInSlot:AddItem(spec, "23038", "Ring", "Band of Unnatural Forces", "BIS")
 LoonBestInSlot:AddItem(spec, "29379", "Ring", "Ring of Arathi Warlords", "BIS")
 LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "BIS")
-LoonBestInSlot:AddItem(spec, "33057", "Ring", "Veteran's Band of Triumph", "Alt")
 LoonBestInSlot:AddItem(spec, "28323", "Ring", "Ring of Umbral Doom", "Alt")
 LoonBestInSlot:AddItem(spec, "31077", "Ring", "Slayer's Mark of the Redemption", "Alt")
 
@@ -69,10 +68,7 @@ LoonBestInSlot:AddItem(spec, "28295", "MH", "Gladiator's Slicer", "Alt")
 LoonBestInSlot:AddItem(spec, "27872", "MH", "The Harvester of Souls", "Alt")
 LoonBestInSlot:AddItem(spec, "29124", "MH", "Vindicator's Brand", "Alt")
 
-LoonBestInSlot:AddItem(spec, "28295", "OH", "Gladiator's Slicer", "BIS")
-LoonBestInSlot:AddItem(spec, "29124", "OH", "Vindicator's Brand", "BIS")
 LoonBestInSlot:AddItem(spec, "23542", "OH", "Fel Edged Battleaxe", "Alt")
-LoonBestInSlot:AddItem(spec, "27872", "OH", "The Harvester of Souls", "Alt")
 LoonBestInSlot:AddItem(spec, "28189", "OH", "Latro's Shifting Sword", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28429", "2H", "Lionheart Champion", "BIS")

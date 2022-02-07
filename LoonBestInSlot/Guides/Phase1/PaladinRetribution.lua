@@ -12,17 +12,17 @@ LoonBestInSlot:AddItem(spec, "28755", "Shoulders", "Bladed Shoulderpads of the M
 LoonBestInSlot:AddItem(spec, "27883", "Shoulders", "Gladiator's Scaled Shoulders", "Alt")
 
 LoonBestInSlot:AddItem(spec, "33122", "Back", "Cloak of Darkness", "BIS")
-LoonBestInSlot:AddItem(spec, "27878", "Back", "Auchenai Death Shroud", "BIS")
 LoonBestInSlot:AddItem(spec, "24259", "Back", "Vengeance Wrap", "Alt")
+LoonBestInSlot:AddItem(spec, "27878", "Back", "Auchenai Death Shroud", "BIS")
 LoonBestInSlot:AddItem(spec, "27892", "Back", "Cloak of the Inciter", "Alt")
 LoonBestInSlot:AddItem(spec, "28249", "Back", "Capacitus' Cloak of Calibration", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29071", "Chest", "Justicar Breastplate", "BIS")
 LoonBestInSlot:AddItem(spec, "29754", "Chest", "Chestguard of the Fallen Champion", "BIS")
-LoonBestInSlot:AddItem(spec, "29515", "Chest", "Ebon Netherscale Breastplate", "BIS")
-LoonBestInSlot:AddItem(spec, "28403", "Chest", "Doomplate Chestguard", "BIS")
 LoonBestInSlot:AddItem(spec, "30730", "Chest", "Terrorweave Tunic", "Alt")
+LoonBestInSlot:AddItem(spec, "29515", "Chest", "Ebon Netherscale Breastplate", "BIS")
 LoonBestInSlot:AddItem(spec, "29525", "Chest", "Primalstrike Vest", "Alt")
+LoonBestInSlot:AddItem(spec, "28403", "Chest", "Doomplate Chestguard", "BIS")
 
 LoonBestInSlot:AddItem(spec, "28795", "Bracers", "Bladespire Warbands", "BIS")
 LoonBestInSlot:AddItem(spec, "23537", "Bracers", "Black Felsteel Bracers", "Alt")

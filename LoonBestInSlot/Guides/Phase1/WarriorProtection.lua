@@ -1,14 +1,14 @@
 local spec = LoonBestInSlot:RegisterSpec("Warrior", "Prot", "1")
 LoonBestInSlot:AddItem(spec, "29011", "Head", "Warbringer Greathelm", "BIS")
-LoonBestInSlot:AddItem(spec, "24545", "Head", "Gladiator's Plate Helm", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "29761", "Head", "Helm of the Fallen Defender", "BIS")
+LoonBestInSlot:AddItem(spec, "24545", "Head", "Gladiator's Plate Helm", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "29021", "Head", "Warbringer Battle-Helm", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "30731", "Head", "Faceguard of the Endless Watch", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "28593", "Head", "Eternium Greathelm", "Alt Mit")
 
 LoonBestInSlot:AddItem(spec, "29023", "Shoulders", "Warbringer Shoulderplates", "BIS")
-LoonBestInSlot:AddItem(spec, "29016", "Shoulders", "Warbringer Shoulderguards", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "29764", "Shoulders", "Pauldrons of the Fallen Defender", "BIS")
+LoonBestInSlot:AddItem(spec, "29016", "Shoulders", "Warbringer Shoulderguards", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "24546", "Shoulders", "Gladiator's Plate Shoulders", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "28743", "Shoulders", "Mantle of Abrahmis", "Alt Mit")
 

@@ -85,7 +85,6 @@ LoonBestInSlot:AddItem(spec, "28657", "MH", "Fool's Bane", "Alt")
 LoonBestInSlot:AddItem(spec, "28767", "MH", "The Decapitator", "Alt")
 LoonBestInSlot:AddItem(spec, "23054", "MH", "Gressil, Dawn of Ruin", "Alt")
 
-LoonBestInSlot:AddItem(spec, "28295", "OH", "Gladiator's Slicer", "BIS")
 LoonBestInSlot:AddItem(spec, "28729", "OH", "Spiteblade", "BIS")
 LoonBestInSlot:AddItem(spec, "30733", "OH", "Hope Ender", "BIS")
 LoonBestInSlot:AddItem(spec, "23542", "OH", "Fel Edged Battleaxe", "Alt")

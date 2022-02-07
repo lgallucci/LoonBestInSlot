@@ -100,7 +100,6 @@ LoonBestInSlot:AddItem(spec, "32652", "Shield", "Ogri'la Aegis", "Alt")
 LoonBestInSlot:AddItem(spec, "32082", "Shield", "The Fel Barrier", "Alt")
 LoonBestInSlot:AddItem(spec, "28316", "Shield", "Aegis of the Sunbird", "Alt")
 LoonBestInSlot:AddItem(spec, "27887", "Shield", "Platinum Shield of the Valorous", "Alt")
-LoonBestInSlot:AddItem(spec, "27887", "Shield", "Platinum Shield of the Valorous", "Alt")
 LoonBestInSlot:AddItem(spec, "31490", "Shield", "Netherwing Protector's Shield", "Alt")
 LoonBestInSlot:AddItem(spec, "23043", "Shield", "The Face of Death", "Alt")
 
