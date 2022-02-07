@@ -42,7 +42,7 @@ LoonBestInSlot:AddItem(spec, "30148", "Legs", "Deathmantle Legguards", "BIS")
 LoonBestInSlot:AddItem(spec, "30245", "Legs", "Leggings of the Vanquished Champion", "BIS")
 LoonBestInSlot:AddItem(spec, "29995", "Legs", "Leggings of Murderous Intent", "Alt")
 LoonBestInSlot:AddItem(spec, "29046", "Legs", "Netherblade Breeches", "Alt")
-LoonBestInSlot:AddItem(spec, "29766", "Legs", "Leggings of the Fallen Champion", "BIS")
+LoonBestInSlot:AddItem(spec, "29766", "Legs", "Leggings of the Fallen Champion", "Alt")
 LoonBestInSlot:AddItem(spec, "28741", "Legs", "Skulker's Greaves", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28545", "Feet", "Edgewalker Longboots", "BIS")
