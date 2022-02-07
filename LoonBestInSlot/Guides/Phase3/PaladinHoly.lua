@@ -51,7 +51,7 @@ LoonBestInSlot:AddItem(spec, "30737", "Feet", "Gold-Leaf Wildboots", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32370", "Neck", "Nadina's Pendant of Purity", "BIS")
 LoonBestInSlot:AddItem(spec, "30018", "Neck", "Lord Sanguinar's Claim", "Alt")
-LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
+LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "Alt")
 LoonBestInSlot:AddItem(spec, "30726", "Neck", "Archaic Charm of Presence", "Alt")
 LoonBestInSlot:AddItem(spec, "28609", "Neck", "Emberspur Talisman", "Alt")
 

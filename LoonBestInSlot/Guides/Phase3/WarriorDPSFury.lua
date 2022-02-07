@@ -92,9 +92,7 @@ LoonBestInSlot:AddItem(spec, "33762", "MH", "Vengeful Gladiator's Slicer", "Alt"
 LoonBestInSlot:AddItem(spec, "28439", "MH", "Dragonstrike", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32838", "OH", "Warglaive of Azzinoth", "BIS")
-LoonBestInSlot:AddItem(spec, "33762", "OH", "Vengeful Gladiator's Slicer", "Alt")
 LoonBestInSlot:AddItem(spec, "30881", "OH", "Blade of Infamy", "Alt")
-LoonBestInSlot:AddItem(spec, "33669", "OH", "Vengeful Gladiator's Cleaver", "Alt")
 LoonBestInSlot:AddItem(spec, "30082", "OH", "Talon of Azshara", "Alt")
 LoonBestInSlot:AddItem(spec, "32052", "OH", "Merciless Gladiator's Slicer", "Alt")
 LoonBestInSlot:AddItem(spec, "29924", "OH", "Netherbane", "Alt")

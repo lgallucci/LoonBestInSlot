@@ -12,7 +12,7 @@ LoonBestInSlot:AddItem(spec, "30230", "Shoulders", "Nordrassil Feral-Mantle", "B
 LoonBestInSlot:AddItem(spec, "30249", "Shoulders", "Pauldrons of the Vanquished Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "30055", "Shoulders", "Shoulderpads of the Stranger", "Alt")
 LoonBestInSlot:AddItem(spec, "29100", "Shoulders", "Mantle of Malorne", "Alt")
-LoonBestInSlot:AddItem(spec, "29764", "Shoulders", "Pauldrons of the Fallen Defender", "BIS")
+LoonBestInSlot:AddItem(spec, "29764", "Shoulders", "Pauldrons of the Fallen Defender", "Alt")
 LoonBestInSlot:AddItem(spec, "31971", "Shoulders", "Merciless Gladiator's Dragonhide Spaulders", "Alt")
 LoonBestInSlot:AddItem(spec, "28129", "Shoulders", "Gladiator's Dragonhide Spaulders", "Alt")
 LoonBestInSlot:AddItem(spec, "28755", "Shoulders", "Bladed Shoulderpads of the Merciless", "Alt")
@@ -42,7 +42,7 @@ LoonBestInSlot:AddItem(spec, "28424", "Bracers", "General's Leather Bracers", "A
 LoonBestInSlot:AddItem(spec, "29263", "Bracers", "Forestheart Bracers", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30223", "Gloves", "Nordrassil Handgrips", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "30240", "Gloves", "Gloves of the Vanquished Defender", "BIS")
+LoonBestInSlot:AddItem(spec, "30240", "Gloves", "Gloves of the Vanquished Defender", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "29947", "Gloves", "Gloves of the Searing Grip", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "29097", "Gloves", "Gauntlets of Malorne", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "29758", "Gloves", "Gloves of the Fallen Defender", "Alt Mit")

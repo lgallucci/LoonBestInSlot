@@ -131,8 +131,6 @@ LoonBestInSlot:AddItem(spec, "30732", "2H", "Exodar Life-Staff", "Alt")
 LoonBestInSlot:AddItem(spec, "28782", "2H", "Crystalheart Pulse-Staff", "Alt")
 LoonBestInSlot:AddItem(spec, "28604", "2H", "Nightstaff of the Everliving", "Alt")
 LoonBestInSlot:AddItem(spec, "22632", "2H", "Atiesh, Greatstaff of the Guardian", "Alt")
-LoonBestInSlot:AddItem(spec, "29981", "2H", "Ethereum Life-Staff", "Alt")
-LoonBestInSlot:AddItem(spec, "28604", "2H", "Nightstaff of the Everliving", "Alt")
 LoonBestInSlot:AddItem(spec, "31289", "2H", "Staff of Divine Infusion", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29274", "OH", "Tears of Heaven", "BIS")

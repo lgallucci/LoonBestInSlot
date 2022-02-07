@@ -68,11 +68,11 @@ LoonBestInSlot:AddItem(spec, "29305", "Ring", "Band of the Eternal Sage", "Alt T
 LoonBestInSlot:AddItem(spec, "33054", "Ring", "The Seal of Danzalar", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "31858", "Trinket", "Darkmoon Card: Vengeance", "BIS")
-LoonBestInSlot:AddItem(spec, "32501", "Trinket", "Shadowmoon Insignia", "BIS")
 LoonBestInSlot:AddItem(spec, "31859", "Trinket", "Darkmoon Card: Madness", "Alt")
 LoonBestInSlot:AddItem(spec, "23836", "Trinket", "Goblin Rocket Launcher", "Alt")
 LoonBestInSlot:AddItem(spec, "23835", "Trinket", "Gnomish Poultryizer", "Alt")
 LoonBestInSlot:AddItem(spec, "32864", "Trinket", "Commander's Badge", "Alt")
+LoonBestInSlot:AddItem(spec, "32501", "Trinket", "Shadowmoon Insignia", "BIS")
 LoonBestInSlot:AddItem(spec, "28528", "Trinket", "Moroes' Lucky Pocket Watch", "Alt")
 LoonBestInSlot:AddItem(spec, "30629", "Trinket", "Scarab of Displacement", "Alt")
 LoonBestInSlot:AddItem(spec, "24125", "Trinket", "Figurine - Dawnstone Crab", "Alt")

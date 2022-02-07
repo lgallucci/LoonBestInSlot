@@ -89,10 +89,6 @@ LoonBestInSlot:AddItem(spec, "29924", "MH", "Netherbane", "BIS")
 LoonBestInSlot:AddItem(spec, "29996", "MH", "Rod of the Sun King", "Alt")
 LoonBestInSlot:AddItem(spec, "32052", "MH", "Merciless Gladiator's Slicer", "Alt")
 
-LoonBestInSlot:AddItem(spec, "29996", "OH", "Rod of the Sun King", "Alt")
-LoonBestInSlot:AddItem(spec, "32052", "OH", "Merciless Gladiator's Slicer", "Alt")
-LoonBestInSlot:AddItem(spec, "29924", "OH", "Netherbane", "Alt")
-
 LoonBestInSlot:AddItem(spec, "30105", "Ranged", "Serpent Spine Longbow", "BIS")
 LoonBestInSlot:AddItem(spec, "30724", "Ranged", "Barrel-Blade Longrifle", "BIS")
 LoonBestInSlot:AddItem(spec, "28772", "Ranged", "Sunfury Bow of the Phoenix", "BIS")

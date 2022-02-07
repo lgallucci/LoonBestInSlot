@@ -2,12 +2,12 @@ local spec = LoonBestInSlot:RegisterSpec("Warrior", "Prot", "2")
 LoonBestInSlot:AddItem(spec, "32473", "Head", "Tankatronic Goggles", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "30488", "Head", "Merciless Gladiator's Plate Helm", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "30115", "Head", "Destroyer Greathelm", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "30120", "Head", "Destroyer Battle-Helm", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "30243", "Head", "Helm of the Vanquished Defender", "Alt")
+LoonBestInSlot:AddItem(spec, "30120", "Head", "Destroyer Battle-Helm", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "30117", "Shoulders", "Destroyer Shoulderguards", "BIS")
-LoonBestInSlot:AddItem(spec, "30122", "Shoulders", "Destroyer Shoulderblades", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "30249", "Shoulders", "Pauldrons of the Vanquished Defender", "BIS")
+LoonBestInSlot:AddItem(spec, "30122", "Shoulders", "Destroyer Shoulderblades", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "30490", "Shoulders", "Merciless Gladiator's Plate Shoulders", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "28529", "Back", "Royal Cloak of Arathi Kings", "BIS")
@@ -72,11 +72,11 @@ LoonBestInSlot:AddItem(spec, "28579", "Trinket", "Romulo's Poison Vial", "Alt Th
 LoonBestInSlot:AddItem(spec, "29387", "Trinket", "Gnomeregan Auto-Blocker 600", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30058", "MH", "Mallet of the Tides", "BIS")
-LoonBestInSlot:AddItem(spec, "29362", "MH", "The Sun Eater", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "30103", "MH", "Fang of Vashj", "Alt")
 LoonBestInSlot:AddItem(spec, "28427", "MH", "Blazefury", "Alt")
 LoonBestInSlot:AddItem(spec, "29165", "MH", "Warbringer", "Alt")
 LoonBestInSlot:AddItem(spec, "28749", "MH", "King's Defender", "Alt")
+LoonBestInSlot:AddItem(spec, "29362", "MH", "The Sun Eater", "BIS Mit")
 
 LoonBestInSlot:AddItem(spec, "28825", "Shield", "Aldori Legacy Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "32045", "Shield", "Merciless Gladiator's Shield Wall", "Alt")

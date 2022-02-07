@@ -11,7 +11,7 @@ LoonBestInSlot:AddItem(spec, "29761", "Head", "Helm of the Fallen Defender", "Al
 
 LoonBestInSlot:AddItem(spec, "30979", "Shoulders", "Onslaught Shoulderblades", "BIS")
 LoonBestInSlot:AddItem(spec, "31103", "Shoulders", "Pauldrons of the Forgotten Protector", "BIS")
-LoonBestInSlot:AddItem(spec, "32570", "Shoulders", "Swiftsteel Shoulders", "Crafted BIS")
+LoonBestInSlot:AddItem(spec, "32570", "Shoulders", "Swiftsteel Shoulders", "BIS")
 LoonBestInSlot:AddItem(spec, "30055", "Shoulders", "Shoulderpads of the Stranger", "Alt")
 LoonBestInSlot:AddItem(spec, "30122", "Shoulders", "Destroyer Shoulderblades", "Alt")
 LoonBestInSlot:AddItem(spec, "30249", "Shoulders", "Pauldrons of the Vanquished Defender", "Alt")
@@ -97,10 +97,8 @@ LoonBestInSlot:AddItem(spec, "33762", "MH", "Vengeful Gladiator's Slicer", "Alt"
 LoonBestInSlot:AddItem(spec, "30082", "MH", "Talon of Azshara", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32838", "OH", "Warglaive of Azzinoth", "BIS")
-LoonBestInSlot:AddItem(spec, "33762", "OH", "Vengeful Gladiator's Slicer", "Alt")
 LoonBestInSlot:AddItem(spec, "30881", "OH", "Blade of Infamy", "Alt")
 LoonBestInSlot:AddItem(spec, "32369", "OH", "Blade of Savagery", "Alt")
-LoonBestInSlot:AddItem(spec, "30082", "OH", "Talon of Azshara", "Alt")
 LoonBestInSlot:AddItem(spec, "32052", "OH", "Merciless Gladiator's Slicer", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32326", "Ranged", "Twisted Blades of Zarak", "BIS")

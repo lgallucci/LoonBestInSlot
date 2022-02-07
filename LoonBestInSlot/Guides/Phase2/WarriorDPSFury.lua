@@ -82,9 +82,6 @@ LoonBestInSlot:AddItem(spec, "29996", "MH", "Rod of the Sun King", "Alt")
 LoonBestInSlot:AddItem(spec, "30082", "MH", "Talon of Azshara", "Alt")
 LoonBestInSlot:AddItem(spec, "32052", "MH", "Merciless Gladiator's Slicer", "Alt")
 
-LoonBestInSlot:AddItem(spec, "29996", "OH", "Rod of the Sun King", "Alt")
-LoonBestInSlot:AddItem(spec, "30082", "OH", "Talon of Azshara", "Alt")
-LoonBestInSlot:AddItem(spec, "32052", "OH", "Merciless Gladiator's Slicer", "Alt")
 LoonBestInSlot:AddItem(spec, "29924", "OH", "Netherbane", "Orc Alt")
 
 LoonBestInSlot:AddItem(spec, "30105", "Ranged", "Serpent Spine Longbow", "BIS")

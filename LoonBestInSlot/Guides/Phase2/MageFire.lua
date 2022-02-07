@@ -36,7 +36,6 @@ LoonBestInSlot:AddItem(spec, "29369", "Back", "Shawl of Shifting Probabilities",
 LoonBestInSlot:AddItem(spec, "29813", "Back", "Cloak of Woven Energy", "Alt")
 LoonBestInSlot:AddItem(spec, "25777", "Back", "Ogre Slayer's Cover", "Alt")
 
-
 LoonBestInSlot:AddItem(spec, "30107", "Chest", "Vestments of the Sea-Witch", "BIS")
 LoonBestInSlot:AddItem(spec, "21848", "Chest", "Spellfire Robe", "Alt")
 LoonBestInSlot:AddItem(spec, "30196", "Chest", "Robes of Tirisfal", "Alt")

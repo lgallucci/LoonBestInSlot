@@ -117,11 +117,9 @@ LoonBestInSlot:AddItem(spec, "21673", "MH", "Silithid Claw", "Alt")
 LoonBestInSlot:AddItem(spec, "30277", "MH", "Ripfang Paw", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29948", "OH", "Claw of the Phoenix", "BIS")
-LoonBestInSlot:AddItem(spec, "29924", "OH", "Netherbane", "Alt")
 LoonBestInSlot:AddItem(spec, "28572", "OH", "Blade of the Unrequited", "Alt")
 LoonBestInSlot:AddItem(spec, "28315", "OH", "Stormreaver Warblades", "Alt")
 LoonBestInSlot:AddItem(spec, "29372", "OH", "Void-Talon", "Alt")
-LoonBestInSlot:AddItem(spec, "29121", "OH", "Guile of Khoraazi", "Alt")
 LoonBestInSlot:AddItem(spec, "23242", "OH", "Claw of the Frost Wyrm", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29993", "2H", "Twinblade of the Phoenix", "BIS")

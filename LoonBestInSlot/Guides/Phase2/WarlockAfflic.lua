@@ -61,9 +61,9 @@ LoonBestInSlot:AddItem(spec, "30067", "Feet", "Velvet Boots of the Guardian", "A
 LoonBestInSlot:AddItem(spec, "28517", "Feet", "Boots of Foretelling", "Alt")
 LoonBestInSlot:AddItem(spec, "28585", "Feet", "Ruby Slippers", "Alt")
 
-LoonBestInSlot:AddItem(spec, "24116", "Neck", "Eye of the Night", "Buff")
 LoonBestInSlot:AddItem(spec, "30015", "Neck", "The Sun King's Talisman", "BIS")
 LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
+LoonBestInSlot:AddItem(spec, "24116", "Neck", "Eye of the Night", "Alt")
 LoonBestInSlot:AddItem(spec, "24121", "Neck", "Chain of the Twilight Owl", "Alt")
 LoonBestInSlot:AddItem(spec, "28762", "Neck", "Adornment of Stolen Souls", "Alt")
 LoonBestInSlot:AddItem(spec, "30666", "Neck", "Ritssyn's Lost Pendant", "Alt")

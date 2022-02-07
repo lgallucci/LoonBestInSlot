@@ -78,7 +78,6 @@ LoonBestInSlot:AddItem(spec, "32239", "Feet", "Slippers of the Seacaller", "BIS"
 LoonBestInSlot:AddItem(spec, "30894", "Feet", "Blue Suede Shoes", "Alt")
 LoonBestInSlot:AddItem(spec, "30067", "Feet", "Velvet Boots of the Guardian", "Alt")
 LoonBestInSlot:AddItem(spec, "30037", "Feet", "Boots of Blasting", "Alt")
-LoonBestInSlot:AddItem(spec, "30067", "Feet", "Velvet Boots of the Guardian", "Alt")
 LoonBestInSlot:AddItem(spec, "30519", "Feet", "Boots of the Nexus Warden", "Alt")
 LoonBestInSlot:AddItem(spec, "30398", "Feet", "Boots of the Beneficent", "Alt")
 
