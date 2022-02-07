@@ -13,8 +13,8 @@ LoonBestInSlot:AddItem(spec, "25790", "Shoulders", "Expedition Scout's Epaulets"
 
 LoonBestInSlot:AddItem(spec, "24259", "Back", "Vengeance Wrap", "BIS")
 LoonBestInSlot:AddItem(spec, "27878", "Back", "Auchenai Death Shroud", "Alt")
-LoonBestInSlot:AddItem(spec, "32665", "Back", "Crystalweave Cape", "Easy To Obtain")
-LoonBestInSlot:AddItem(spec, "27892", "Back", "Cloak of the Inciter", "Easy To Obtain")
+LoonBestInSlot:AddItem(spec, "32665", "Back", "Crystalweave Cape", "Alt")
+LoonBestInSlot:AddItem(spec, "27892", "Back", "Cloak of the Inciter", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29525", "Chest", "Primalstrike Vest", "BIS")
 LoonBestInSlot:AddItem(spec, "29515", "Chest", "Ebon Netherscale Breastplate", "BIS")

@@ -119,7 +119,6 @@ LoonBestInSlot:AddItem(spec, "29370", "Trinket", "Icon of the Silver Crescent", 
 LoonBestInSlot:AddItem(spec, "24126", "Trinket", "Figurine - Living Ruby Serpent", "AltJewelcrafters")
 LoonBestInSlot:AddItem(spec, "23046", "Trinket", "The Restrained Essence of Sapphiron", "Alt")
 LoonBestInSlot:AddItem(spec, "19379", "Trinket", "Neltharion's Tear", "Alt")
-LoonBestInSlot:AddItem(spec, "23207", "Trinket", "Mark of the Champion", "Alt - Demons/Undead Only")
 LoonBestInSlot:AddItem(spec, "18820", "Trinket", "Talisman of Ephemeral Power", "Alt (Thrt)")
 LoonBestInSlot:AddItem(spec, "19950", "Trinket", "Zandalarian Hero Charm", "Alt")
 
