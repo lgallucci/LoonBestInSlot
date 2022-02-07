@@ -25,6 +25,12 @@ function LoonBestInSlot:GetItemForCache(itemId)
     return false;
 end
 
+function LoonBestInSlot:TableLength(T)
+  local count = 0
+  for _ in pairs(T) do count = count + 1 end
+  return count
+end
+
 function LoonBestInSlot:GetItemInfo(itemIdString)
 
     local itemId = tonumber(itemIdString);
@@ -74,7 +80,7 @@ function LoonBestInSlot:Dump(o)
     end
 end
 
-function LoonBestInSlot:Debug(startString, object)
+local function stringify(object)
     local objectType = type(object);
     local debugString = "";
 
@@ -89,8 +95,16 @@ function LoonBestInSlot:Debug(startString, object)
     else
         debugString = "Tried to debug an unknown type: "..objectType;
     end
+    return debugString
+end
 
-    ChatFrame6:AddMessage(startString..debugString);
+function LoonBestInSlot:Debug(startString, object)
+    ChatFrame6:AddMessage(startString..stringify(object));
+end
+
+
+function LoonBestInSlot:Error(startString, object)
+    print("LoonBestInSlot ERROR:"..startString..stringify(object));
 end
 
 function LoonBestInSlot:GetItemIdFromLink(itemLink)

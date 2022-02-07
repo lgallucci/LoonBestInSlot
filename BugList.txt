@@ -1,3 +1,7 @@
 Opening Window too soon after first login causes error.
 
-PvP Items are all over the place with some missing and some being the wrong costs.
+PvP Items have all been reset and are not showing anything
+
+Items are out of order in the browser
+
+Tooltip items need to be consolidated

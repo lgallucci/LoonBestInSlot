@@ -73,26 +73,29 @@ function LoonBestInSlot:RegisterEvent(...)
 	end
 end
 
-function LoonBestInSlot:RegisterSpec(class, spec)
+function LoonBestInSlot:RegisterSpec(class, spec, phase)
 	
 	if not spec then spec = "" end
 	
     local classSpec = {
 		Class = class,
-		Spec = spec
+		Spec = spec,
+		Phase = phase
 	}
 	
-	classSpec.ID = class..spec
+	classSpec.Id = class..spec
 
-    LoonBestInSlot.ClassSpec[classSpec.ID] = classSpec
+    LoonBestInSlot.ClassSpec[classSpec.Id] = classSpec
+
     return classSpec
 end
 
-function LoonBestInSlot:AddItem(bisEntry, id, slot, description, bis, phase, source, dropLocation, zone)
+function LoonBestInSlot:AddItem(bisEntry, id, slot, description, bis)
 
 	if strlen(id) <= 0 then
 		return
 	end
+	
 
 	if not LoonBestInSlot.Items[id] then
 		LoonBestInSlot.Items[id] = {}
@@ -102,13 +105,50 @@ function LoonBestInSlot:AddItem(bisEntry, id, slot, description, bis, phase, sou
 		zone = "";
 	end
 
-	item = { Id = id, Bis = bis, Phase = phase, Slot = slot, Source = source, DropLocation = dropLocation, Zone = zone }
-
-	LoonBestInSlot.Items[id][bisEntry.ID] = item
-
-	if not LoonBestInSlot.SpecItems[bisEntry.ID] then
-		LoonBestInSlot.SpecItems[bisEntry.ID] = {}
+	if bisEntry.Phase == "0" then
+		bis = "PreRaid";
 	end
+
+	local searchedItem = LoonBestInSlot.Items[id][bisEntry.Id];
+
+	if searchedItem == nil then
+		
+		item = { Id = id, Bis = bis, Phase = bisEntry.Phase, Slot = slot }
+
+		LoonBestInSlot.Items[id][bisEntry.Id] = item
+
+		if not LoonBestInSlot.SpecItems[bisEntry.Id] then
+			LoonBestInSlot.SpecItems[bisEntry.Id] = {}
+		end
 	
-	table.insert(LoonBestInSlot.SpecItems[bisEntry.ID], item);
+		LoonBestInSlot.SpecItems[bisEntry.Id][item.Id] = item;
+	else 
+		if bisEntry.Phase > searchedItem.Phase then
+			searchedItem.Bis = bis;
+		end
+
+		if searchedItem.Phase == "0" then
+			searchedItem.Phase = bisEntry.Phase;
+		else 
+
+		    local firstNumber, lastNumber = strsplit(">", searchedItem.Phase);
+
+			if firstNumber == nil then
+				return false;
+			end
+			if lastNumber == nil then
+				lastNumber = firstNumber;
+			end
+
+			if tonumber(bisEntry.Phase) > tonumber(lastNumber) then
+				searchedItem.Phase = firstNumber..">"..bisEntry.Phase;
+			else
+				searchedItem.Phase = bisEntry.Phase;
+			end
+		end
+
+		LoonBestInSlot.SpecItems[bisEntry.Id][id] = searchedItem		
+		LoonBestInSlot.Items[id][bisEntry.Id] = searchedItem;
+	end
+
 end

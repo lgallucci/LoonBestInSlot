@@ -13,8 +13,21 @@ public class WowheadGuideParser
 {
     public static HttpClient httpClient = new HttpClient();
 
-    private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of the Tiger", "of Agility", 
-        "Lurker's Grasp", "Ravager's Wrist-Wraps", "Ravager's Bands", "Lurker's Belt", "Glider's Sabatons", "Mark of the Champion" };
+    private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of the Tiger", "of Agility" };
+
+    private static readonly int[] excludedItemIds =
+    {
+        30684, //Ravager's Cuffs
+        30677, //Lurker's Belt
+        30682, //Glider's Sabatons
+        30686, //Ravager's Bands
+        30685, //Ravager's Wrist-Wraps
+        30676, //Lurker's Grasp
+        23206, //Mark of the Champion
+        23207, //Mark of the Champion
+    };
+
+    private HashSet<int> addedItems = new HashSet<int>();
 
     class MyFormatter : IMarkupFormatter
     {
@@ -105,15 +118,31 @@ public class WowheadGuideParser
                                         {
                                             int itemId = -99999;
                                             Int32.TryParse(item, out itemId);
-
-                                            items.Add(new ItemSpec
+                                            if (!excludedItemIds.Contains(itemId) && !addedItems.Contains(itemId))
                                             {
-                                                ItemId = itemId,
-                                                Name = itemName ?? "undefined",
-                                                BisStatus = bisStatus ?? "undefined",
-                                                PhaseStatus = "EH",
-                                                Slot = guideMapping.Slot
-                                            });
+                                                addedItems.Add(itemId);
+                                                items.Add(new ItemSpec
+                                                {
+                                                    ItemId = itemId,
+                                                    Name = itemName ?? "undefined",
+                                                    BisStatus = bisStatus ?? "undefined",
+                                                    PhaseStatus = "EH",
+                                                    Slot = guideMapping.Slot
+                                                });
+
+                                                if (TierPiecesAndTokens.TierPieces.ContainsKey(itemId) && !addedItems.Contains(TierPiecesAndTokens.TierPieces[itemId].Item1))
+                                                {
+                                                    addedItems.Add(TierPiecesAndTokens.TierPieces[itemId].Item1);
+                                                    items.Add(new ItemSpec
+                                                    {
+                                                        ItemId = TierPiecesAndTokens.TierPieces[itemId].Item1,
+                                                        Name = TierPiecesAndTokens.TierPieces[itemId].Item2,
+                                                        BisStatus = bisStatus ?? "undefined",
+                                                        PhaseStatus = "EH",
+                                                        Slot = guideMapping.Slot
+                                                    });
+                                                }
+                                            }
                                         }
                                     }
                                 }

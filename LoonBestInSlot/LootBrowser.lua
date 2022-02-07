@@ -98,8 +98,8 @@ local function FindInPhase(phaseText, phase)
                
 end
 
-local function IsInPhase(specItem)
-    if specItem.Source == "Token" then
+local function IsInPhase(specItem, specItemSource)
+    if specItemSource.SourceType == "Token" then
         return false;
     elseif LoonBestInSlotSettings.SelectedPhase == "All" and specItem.Phase ~= "0" then
         return true;
@@ -129,13 +129,13 @@ end
 local function IsInZone(specItem)
     if LoonBestInSlotSettings.SelectedZone == "All" then
         return true;
-    elseif strfind(specItem.Zone, LoonBestInSlotSettings.SelectedZone) ~= nil then
+    elseif strfind(specItem.SourceLocation, LoonBestInSlotSettings.SelectedZone) ~= nil then
         return true;
     end
     return false;
 end
 
-local function createItemRow(specItem, point)
+local function createItemRow(specItem, specItemSource, point)
     local window = LoonBestInSlot.BrowserWindow.Window;
     local spacing = 1;
     local alt_color = false;
@@ -144,6 +144,7 @@ local function createItemRow(specItem, point)
     local f, tex, t, l, b, d, dl, fh = nil, nil, nil, nil, nil, nil, nil, nil;
     local reusing = false;
     
+
     if item == nil then
         print("Failed to find object"..specItem.Id);
         return;
@@ -200,28 +201,28 @@ local function createItemRow(specItem, point)
 
         --Create Drop Text
         local dtColor = "|cFF7727FF";
-        if specItem.Source == "Profession" then
+        if specItemSource.SourceType == "Profession" then
             dtColor = "|cFF33ADFF";
-        elseif specItem.Source == "Reputation" then
+        elseif specItemSource.SourceType == "Reputation" then
             dtColor = "|cFF23E4C4";
-        elseif specItem.Source == "Quest" then
+        elseif specItemSource.SourceType == "Quest" then
             dtColor = "|cFFFFEF27";
-        elseif specItem.Source == "Dungeon Token" then
+        elseif specItemSource.SourceType == "Dungeon Token" then
             dtColor = "|cFFFF276D";
-        elseif specItem.Source == "PvP" then
+        elseif specItemSource.SourceType == "PvP" then
             dtColor = "|cFFE52AED";
         end
         d = f:CreateFontString(nil, nil, "GameFontNormal");
-        d:SetText(dtColor..specItem.Source);
+        d:SetText(dtColor..specItemSource.SourceType);
         d:SetJustifyH("LEFT");
         d:SetWidth(window.ScrollFrame:GetWidth() / 2);
         d:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
 
         dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
-        if specItem.Zone == "" then
-            dl:SetText(specItem.DropLocation);
+        if specItemSource.SourceLocation == "" then
+            dl:SetText(specItemSource.Source);
         else
-            dl:SetText(specItem.DropLocation.." - "..specItem.Zone);
+            dl:SetText(specItemSource.Source.." - "..specItemSource.SourceLocation);
         end      
         dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
 
@@ -304,6 +305,7 @@ function LoonBestInSlot.BrowserWindow:UpdateItemsForSpec()
         return;
     end
 
+    --TODO: going to have to sort this list of items now
     local specItems = LoonBestInSlot.SpecItems[LoonBestInSlot.SpecToName[LoonBestInSlotSettings.SelectedSpec]];
 
     local window = LoonBestInSlot.BrowserWindow.Window;
@@ -334,10 +336,17 @@ function LoonBestInSlot.BrowserWindow:UpdateItemsForSpec()
     topl:SetStartPoint("TOPLEFT",5, 0);
     topl:SetEndPoint("TOPRIGHT",-5, 0);
 
-    for slot, specItem in pairs(specItems) do
+
+    for itemId, specItem in pairs(specItems) do
         
-        if IsInSlot(specItem) and IsInPhase(specItem) and IsInSource(specItem) and IsInZone(specItem) then
-            point = createItemRow(specItem, point);
+        local specItemSource = LoonBestInSlot.ItemSources[tonumber(specItem.Id)];
+
+        if specItemSource == nil then
+            LoonBestInSlot:Error("Missing item source: ", specItem);
+        else
+            if IsInSlot(specItem) and IsInPhase(specItem, specItemSource) and IsInSource(specItemSource) and IsInZone(specItemSource) then
+                point = createItemRow(specItem, specItemSource, point);
+            end
         end
     end
 

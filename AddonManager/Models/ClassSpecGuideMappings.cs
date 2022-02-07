@@ -887,7 +887,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wand", "Wand")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorDPSFuryPhase0", "Fury", "WarriorDPS", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarriorDPSFuryPhase0", "Fury", "Warrior", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -907,7 +907,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows", "Ranged"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorDPSFuryPhase1", "Fury", "WarriorDPS", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarriorDPSFuryPhase1", "Fury", "Warrior", new List<GuideMapping>
         {
             new GuideMapping("#head-for-warrior-dps-in-phase-1", "Head"),
             new GuideMapping("#shoulders-for-warrior-dps-in-phase-1", "Shoulders"),
@@ -927,7 +927,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows", "Ranged"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorDPSFuryPhase2", "Fury", "WarriorDPS", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarriorDPSFuryPhase2", "Fury", "Warrior", new List<GuideMapping>
         {
             new GuideMapping("#head-for-warrior-dps-in-phase-2", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -946,7 +946,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows", "Ranged")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorDPSFuryPhase3", "Fury", "WarriorDPS", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarriorDPSFuryPhase3", "Fury", "Warrior", new List<GuideMapping>
         {
             new GuideMapping("#head-for-warrior-dps-in-phase-3", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -965,7 +965,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows", "Ranged")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorDPSArmsPhase0", "Arms", "WarriorDPS", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarriorDPSArmsPhase0", "Arms", "Warrior", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -985,7 +985,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows", "Ranged"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorDPSArmsPhase1", "Arms", "WarriorDPS", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarriorDPSArmsPhase1", "Arms", "Warrior", new List<GuideMapping>
         {
             new GuideMapping("#head-for-warrior-dps-in-phase-1", "Head"),
             new GuideMapping("#shoulders-for-warrior-dps-in-phase-1", "Shoulders"),
@@ -1005,7 +1005,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows", "Ranged"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorDPSArmsPhase2", "Arms", "WarriorDPS", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarriorDPSArmsPhase2", "Arms", "Warrior", new List<GuideMapping>
         {
             new GuideMapping("#head-for-warrior-dps-in-phase-2", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -1025,7 +1025,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows", "Ranged"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorDPSArmsPhase3", "Arms", "WarriorDPS", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarriorDPSArmsPhase3", "Arms", "Warrior", new List<GuideMapping>
         {
             new GuideMapping("#head-for-warrior-dps-in-phase-3", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),

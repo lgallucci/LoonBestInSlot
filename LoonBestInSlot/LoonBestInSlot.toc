@@ -12,10 +12,10 @@ libs\LibExtraTip\Load.xml
 
 LoonBestInSlot.lua
 Common.lua
-Items\BIS.xml
+ItemSources.lua
+Guides\Guides.xml
 UpdateTooltips.lua
 UserItemCache.lua
-ItemSources.lua
 MinimapButton.lua
 
 LootBrowser.lua
