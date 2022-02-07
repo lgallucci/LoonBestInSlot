@@ -11,18 +11,42 @@ local function buildExtraTip(tooltip, entry)
     local r,g,b = .9,.8,.5
     LibExtraTip:AddLine(tooltip," ",r,g,b,true)
 	LibExtraTip:AddLine(tooltip,"# Gear best for:",r,g,b,true)
-	
+
+	--TODO: Go through this list of entries and create a new table with consolidated classes (without spec)
+
+	local combinedTooltip = {};
+
 	for k, v in pairs(entry) do
 		local entry = LoonBestInSlot.ClassSpec[k]
-		local class = entry.Class:upper()
+		local foundMatch = false;
+
+		for _, ttItem in pairs(combinedTooltip) do
+			if entry.Class == ttItem.Class and v.Bis == ttItem.Bis and v.Phase == ttItem.Phase then
+				foundMatch = true;
+				if ttItem.Class == "Warrior" and (ttItem.Spec == "Fury" or ttItem.Spec == "Arms") then
+					ttItem.Spec = "DPS";
+				else
+					ttItem.Spec = "";
+				end
+			end
+		end
+
+		if not foundMatch then
+			table.insert(combinedTooltip, { Class = entry.Class, Spec = entry.Spec, Bis = v.Bis, Phase = v.Phase })
+		end
+
+	end
+
+	for k, v in pairs(combinedTooltip) do
+		local class = v.Class:upper()
 		local color = RAID_CLASS_COLORS[class]
 		local coords = CLASS_ICON_TCOORDS[class]
 		local classfontstring = "|T" .. iconpath .. ":14:14:::256:256:" .. iconOffset(coords[1] * 4, coords[3] * 4) .. "|t"
 		
         if v.Phase == "0" then
-            LibExtraTip:AddDoubleLine(tooltip, classfontstring .. " " .. entry.Class .. " " .. entry.Spec .. " " .. entry.Comment, v.Bis, color.r, color.g, color.b, color.r, color.g, color.b, true)
+            LibExtraTip:AddDoubleLine(tooltip, classfontstring .. " " .. v.Class .. " " .. v.Spec, v.Bis, color.r, color.g, color.b, color.r, color.g, color.b, true)
         else
-            LibExtraTip:AddDoubleLine(tooltip, classfontstring .. " " .. entry.Class .. " " .. entry.Spec .. " " .. entry.Comment, v.Bis.." "..v.Phase, color.r, color.g, color.b, color.r, color.g, color.b, true)
+            LibExtraTip:AddDoubleLine(tooltip, classfontstring .. " " .. v.Class .. " " .. v.Spec, v.Bis.." "..v.Phase, color.r, color.g, color.b, color.r, color.g, color.b, true)
         end
 		
 	end

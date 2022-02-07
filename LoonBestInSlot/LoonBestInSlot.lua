@@ -1,13 +1,14 @@
 local addonName = ...
 
-LoonBestInSlot = {}
-LoonBestInSlot.ClassSpec = {}
-LoonBestInSlot.SpecToName = {}
-LoonBestInSlot.Items = {}
-LoonBestInSlot.SpecItems = {}
-LoonBestInSlot.ItemCache = {}
+LoonBestInSlot = {};
+LoonBestInSlot.ClassSpec = {};
+LoonBestInSlot.SpecToName = {};
+LoonBestInSlot.Items = {};
+LoonBestInSlot.SpecItems = {};
+LoonBestInSlot.ItemCache = {};
 LoonBestInSlot.AllItemsCached = false;
-LoonBestInSlot.PendingItems = {}
+LoonBestInSlot.PendingItems = {};
+LoonBestInSlot.CurrentPhase = 3;
 LoonBestInSlot.EventFrame = CreateFrame("FRAME",addonName.."Events")
 
 LoonBestInSlotSettings = LoonBestInSlotSettings or { SelectedSpec = "", SelectedSlot = "All", SelectedPhase = "All", SelectedSource = "All", SelectedZone = "All", minimap = { hide = false, minimapPos = 180}, ShowTooltip = true }
@@ -107,12 +108,14 @@ function LoonBestInSlot:AddItem(bisEntry, id, slot, description, bis)
 
 	if bisEntry.Phase == "0" then
 		bis = "PreRaid";
+	elseif tonumber(bisEntry.Phase) < LoonBestInSlot.CurrentPhase then
+		bis = string.gsub(bis, "BIS", "Alt");
 	end
 
 	local searchedItem = LoonBestInSlot.Items[id][bisEntry.Id];
 
-	if searchedItem == nil then
-		
+	if searchedItem == nil then		
+
 		item = { Id = id, Bis = bis, Phase = bisEntry.Phase, Slot = slot }
 
 		LoonBestInSlot.Items[id][bisEntry.Id] = item
@@ -122,7 +125,7 @@ function LoonBestInSlot:AddItem(bisEntry, id, slot, description, bis)
 		end
 	
 		LoonBestInSlot.SpecItems[bisEntry.Id][item.Id] = item;
-	else 
+	else 		
 		if bisEntry.Phase > searchedItem.Phase then
 			searchedItem.Bis = bis;
 		end
