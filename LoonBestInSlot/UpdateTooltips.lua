@@ -12,27 +12,53 @@ local function buildExtraTip(tooltip, entry)
     LibExtraTip:AddLine(tooltip," ",r,g,b,true)
 	LibExtraTip:AddLine(tooltip,"# Gear best for:",r,g,b,true)
 
-	--TODO: Go through this list of entries and create a new table with consolidated classes (without spec)
-
 	local combinedTooltip = {};
+	local mageCount = 0;
+	local warriorDpsCount = 0;
+	local warlockCount = 0;
+	local hunterCount = 0;
 
 	for k, v in pairs(entry) do
-		local entry = LoonBestInSlot.ClassSpec[k]
+		local classSpec = LoonBestInSlot.ClassSpec[k]
+		if classSpec.Class == "Warrior" and (classSpec.Spec == "Fury" or classSpec.Spec == "Arms") then
+			warriorDpsCount = warriorDpsCount + 1;
+		end
+
+		if classSpec.Class == "Warlock" then
+			warlockCount = warlockCount + 1;
+		end
+
+		if classSpec.Class == "Mage" then
+			mageCount = mageCount + 1;
+		end
+
+		if classSpec.Class == "Hunter" then
+			hunterCount = hunterCount + 1;
+		end
+	end
+
+	for k, v in pairs(entry) do
+		local classSpec = LoonBestInSlot.ClassSpec[k]
 		local foundMatch = false;
 
 		for _, ttItem in pairs(combinedTooltip) do
-			if entry.Class == ttItem.Class and v.Bis == ttItem.Bis and v.Phase == ttItem.Phase then
-				foundMatch = true;
-				if ttItem.Class == "Warrior" and (ttItem.Spec == "Fury" or ttItem.Spec == "Arms") then
-					ttItem.Spec = "DPS";
-				else
-					ttItem.Spec = "";
+			if (ttItem.Class == "Warrior" and warriorDpsCount == 2) or 
+			   (ttItem.Class == "Warlock" and warlockCount == 3) or 
+			   (ttItem.Class == "Mage" and mageCount == 3) or
+			   (ttItem.Class == "Hunter" and hunterCount == 3) then
+				if classSpec.Class == ttItem.Class and v.Bis == ttItem.Bis and v.Phase == ttItem.Phase then
+					foundMatch = true;
+					if ttItem.Class == "Warrior" and (ttItem.Spec == "Fury" or ttItem.Spec == "Arms") then
+						ttItem.Spec = "DPS";
+					else
+						ttItem.Spec = "";
+					end
 				end
 			end
 		end
 
 		if not foundMatch then
-			table.insert(combinedTooltip, { Class = entry.Class, Spec = entry.Spec, Bis = v.Bis, Phase = v.Phase })
+			table.insert(combinedTooltip, { Class = classSpec.Class, Spec = classSpec.Spec, Bis = v.Bis, Phase = v.Phase })
 		end
 
 	end
@@ -62,7 +88,7 @@ local function onTooltipSetItem(tooltip, itemLink, quantity)
 	if LoonBestInSlot.Items[itemId] and LoonBestInSlotSettings.ShowTooltip then
 		buildExtraTip(tooltip, LoonBestInSlot.Items[itemId])
 	end
-end
+end  
 
 LoonBestInSlot:RegisterEvent("PLAYER_ENTERING_WORLD" , function ()
 	LoonBestInSlot.EventFrame:UnregisterEvent("PLAYER_ENTERING_WORLD")

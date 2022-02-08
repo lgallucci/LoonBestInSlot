@@ -2,6 +2,3 @@ Opening Window too soon after first login causes error.
 
 PvP Items have all been reset and are not showing anything
 
-Items are out of order in the browser
-
-Tooltip items need to be consolidated

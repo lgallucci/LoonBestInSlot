@@ -25,6 +25,19 @@ function LoonBestInSlot:GetItemForCache(itemId)
     return false;
 end
 
+function LoonBestInSlot:GetPhaseNumbers(phaseText)
+    local firstNumber, lastNumber = strsplit(">", phaseText);
+
+    if firstNumber == nil then
+        firstNumber = 0;
+    end
+    if lastNumber == nil then
+        lastNumber = firstNumber;
+    end
+
+    return firstNumber, lastNumber;
+end
+
 function LoonBestInSlot:TableLength(T)
   local count = 0
   for _ in pairs(T) do count = count + 1 end

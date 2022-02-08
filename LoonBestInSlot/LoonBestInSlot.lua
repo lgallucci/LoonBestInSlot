@@ -124,7 +124,7 @@ function LoonBestInSlot:AddItem(bisEntry, id, slot, description, bis)
 			LoonBestInSlot.SpecItems[bisEntry.Id] = {}
 		end
 	
-		LoonBestInSlot.SpecItems[bisEntry.Id][item.Id] = item;
+		LoonBestInSlot.SpecItems[bisEntry.Id][tonumber(item.Id)] = item;
 	else 		
 		if bisEntry.Phase > searchedItem.Phase then
 			searchedItem.Bis = bis;
@@ -134,14 +134,7 @@ function LoonBestInSlot:AddItem(bisEntry, id, slot, description, bis)
 			searchedItem.Phase = bisEntry.Phase;
 		else 
 
-		    local firstNumber, lastNumber = strsplit(">", searchedItem.Phase);
-
-			if firstNumber == nil then
-				return false;
-			end
-			if lastNumber == nil then
-				lastNumber = firstNumber;
-			end
+			local firstNumber, lastNumber = LoonBestInSlot:GetPhaseNumbers(searchedItem.Phase);
 
 			if tonumber(bisEntry.Phase) > tonumber(lastNumber) then
 				searchedItem.Phase = firstNumber..">"..bisEntry.Phase;
@@ -150,7 +143,7 @@ function LoonBestInSlot:AddItem(bisEntry, id, slot, description, bis)
 			end
 		end
 
-		LoonBestInSlot.SpecItems[bisEntry.Id][id] = searchedItem		
+		LoonBestInSlot.SpecItems[bisEntry.Id][tonumber(id)] = searchedItem		
 		LoonBestInSlot.Items[id][bisEntry.Id] = searchedItem;
 	end
 

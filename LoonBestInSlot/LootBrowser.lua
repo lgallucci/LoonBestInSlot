@@ -85,13 +85,10 @@ local function FindInPhase(phaseText, phase)
 
     local phaseNumber = tonumber(phase);
 
-    local firstNumber, lastNumber = strsplit(">", phaseText);
+    local firstNumber, lastNumber = LoonBestInSlot:GetPhaseNumbers(phaseText);
 
     if firstNumber == nil then
         return false;
-    end
-    if lastNumber == nil then
-        lastNumber = firstNumber;
     end
 
     return tonumber(firstNumber) <= phaseNumber and tonumber(lastNumber) >= phaseNumber;
@@ -299,6 +296,87 @@ local function createItemRow(specItem, specItemSource, point)
     return point;
 end
 
+local itemSlotOrder = {}
+itemSlotOrder["Head"] = 0;
+itemSlotOrder["Shoulders"] = 1;
+itemSlotOrder["Back"] = 2;
+itemSlotOrder["Chest"] = 3;
+itemSlotOrder["Bracers"] = 4;
+itemSlotOrder["Gloves"] = 5;
+itemSlotOrder["Belt"] = 6;
+itemSlotOrder["Legs"] = 7;
+itemSlotOrder["Feet"] = 8;
+itemSlotOrder["Neck"] = 9;
+itemSlotOrder["Ring"] = 10;
+itemSlotOrder["Trinket"] = 11;
+itemSlotOrder["MH"] = 12;
+itemSlotOrder["OH"] = 13;
+itemSlotOrder["2H"] = 14;
+itemSlotOrder["Shield"] = 15;
+itemSlotOrder["Ranged"] = 16;
+itemSlotOrder["Wand"] = 17;
+itemSlotOrder["Totem"] = 18;
+itemSlotOrder["Idol"] = 19;
+itemSlotOrder["Libram"] = 20;
+
+local function itemSortFunction(table, k1, k2)
+
+    local item1 = table[k1];
+    local item2 = table[k2];
+
+    local item1Score = 0;
+    local item2Score = 0;
+
+    if itemSlotOrder[item1.Slot] < itemSlotOrder[item2.Slot] then
+        item1Score = item1Score + 1000;
+    end
+    if itemSlotOrder[item1.Slot] > itemSlotOrder[item2.Slot] then
+        item2Score = item2Score +  1000;
+    end
+
+    if string.find(item1.Bis, "BIS") ~= nil then
+        item1Score = item1Score + 100;
+    end    
+    if string.find(item2.Bis, "BIS") ~= nil then
+        item2Score = item2Score + 100;
+    end
+
+    local _, lastNumber1 = LoonBestInSlot:GetPhaseNumbers(item1.Phase)
+    local _, lastNumber2 = LoonBestInSlot:GetPhaseNumbers(item2.Phase)
+
+    item1Score = item1Score + lastNumber1;
+    item2Score = item2Score + lastNumber2;
+
+    if item1Score == item2Score then
+        return item1.Id > item2.Id;
+    else
+        return item1Score > item2Score
+    end
+end
+
+function spairs(t, order)
+    -- collect the keys
+    local keys = {}
+    for k in pairs(t) do keys[#keys+1] = k end
+
+    -- if order function given, sort by it by passing the table and keys a, b,
+    -- otherwise just sort the keys 
+    if order then
+        table.sort(keys, function(a,b) return order(t, a, b) end)
+    else
+        table.sort(keys)
+    end
+
+    -- return the iterator function
+    local i = 0
+    return function()
+        i = i + 1
+        if keys[i] then
+            return keys[i], t[keys[i]]
+        end
+    end
+end
+
 function LoonBestInSlot.BrowserWindow:UpdateItemsForSpec()
             
     if LoonBestInSlotSettings.SelectedSpec == "" then
@@ -335,9 +413,8 @@ function LoonBestInSlot.BrowserWindow:UpdateItemsForSpec()
     topl:SetThickness(1);
     topl:SetStartPoint("TOPLEFT",5, 0);
     topl:SetEndPoint("TOPRIGHT",-5, 0);
-
-
-    for itemId, specItem in pairs(specItems) do
+    
+    for itemId, specItem in spairs(specItems, itemSortFunction) do
         
         local specItemSource = LoonBestInSlot.ItemSources[tonumber(specItem.Id)];
 
@@ -393,12 +470,6 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
     window:SetMovable(true);
     window:SetFrameStrata("HIGH");
 
-    --window:SetBackdrop( { 
---        bgFile = "Interface/DialogFrame/UI-DialogBox-Background",
-        --edgeFile = "Interface/Tooltips/UI-Tooltip-Border", edgeSize = 16,
-        --insets = { left = 4, right = 4, top = 4, bottom = 4 }
-      --});
-    --window:SetBackdropColor(0,0,0,1);
     window:RegisterForDrag("LeftButton");
 
     local getSpecList = function()
@@ -521,6 +592,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
     botLine:SetEndPoint("BOTTOMRIGHT",scrollframe, 0, -1);
 
     local tooltipButton = CreateFrame("CheckButton", "TooltipCheckButton", window, "ChatConfigCheckButtonTemplate")
+    tooltipButton:SetHitRectInsets(0, 0, 0, 0)
     local tooltipString = tooltipButton:CreateFontString("TooltipText", "OVERLAY", "GameFontNormal");
     tooltipString:SetPoint("TOPRIGHT", tooltipButton, "TOPLEFT", -2, -3);
     tooltipString:SetText("Show Tooltip:");
@@ -531,6 +603,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
     tooltipButton:SetChecked(LoonBestInSlotSettings.ShowTooltip);
 
     local miniMapButton = CreateFrame("CheckButton", "MinimapCheckButton", window, "ChatConfigCheckButtonTemplate")
+    miniMapButton:SetHitRectInsets(0, 0, 0, 0)
     local miniMapString = miniMapButton:CreateFontString("MiniMapText", "OVERLAY", "GameFontNormal");
     miniMapString:SetPoint("TOPRIGHT", miniMapButton, "TOPLEFT", -2, -3);
     miniMapString:SetText("Show Minimap Button:");
