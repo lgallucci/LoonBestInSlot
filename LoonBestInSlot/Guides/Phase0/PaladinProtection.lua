@@ -32,8 +32,8 @@ LoonBestInSlot:AddItem(spec, "30296", "Chest", "Lost Chestplate of the Reverent"
 LoonBestInSlot:AddItem(spec, "29337", "Chest", "The Exarch's Protector", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29252", "Bracers", "Bracers of Dignity", "BIS")
-LoonBestInSlot:AddItem(spec, "29463", "Bracers", "Amber Bands of the Aggressor", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "23538", "Bracers", "Bracers of the Green Fortress", "Alt Mit")
+LoonBestInSlot:AddItem(spec, "29463", "Bracers", "Amber Bands of the Aggressor", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "28167", "Bracers", "Sha'tari Wrought Armguards", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "27459", "Bracers", "Vambraces of Daring", "Alt")
 LoonBestInSlot:AddItem(spec, "30400", "Bracers", "Thadell's Bracers", "Alt")
@@ -102,7 +102,7 @@ LoonBestInSlot:AddItem(spec, "27891", "Trinket", "Adamantine Figurine", "BIS Mit
 LoonBestInSlot:AddItem(spec, "32534", "Trinket", "Brooch of the Immortal King", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "30300", "Trinket", "Dabiri's Enigma", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "19431", "Trinket", "Styleen's Impeding Scarab", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "24125", "Trinket", "Figurine - Dawnstone Crab", "Alt ")
+LoonBestInSlot:AddItem(spec, "24125", "Trinket", "Figurine - Dawnstone Crab", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "28042", "Trinket", "Regal Protectorate", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "23040", "Trinket", "Glyph of Deflection", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "29387", "Trinket", "Gnomeregan Auto-Blocker 600", "Alt Mit")
@@ -152,4 +152,3 @@ LoonBestInSlot:AddItem(spec, "28166", "Shield", "Shield of the Void", "Alt")
 LoonBestInSlot:AddItem(spec, "31200", "Shield", "Shield of the Wayward Footman", "Alt")
 LoonBestInSlot:AddItem(spec, "23043", "Shield", "The Face of Death", "Alt")
 LoonBestInSlot:AddItem(spec, "21269", "Shield", "Blessed Qiraji Bulwark", "Alt")
-

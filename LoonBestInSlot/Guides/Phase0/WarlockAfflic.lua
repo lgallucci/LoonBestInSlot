@@ -9,8 +9,8 @@ LoonBestInSlot:AddItem(spec, "28169", "Head", "Mag'hari Ritualist's Horns", "Alt
 LoonBestInSlot:AddItem(spec, "21869", "Shoulders", "Frozen Shadoweave Shoulders", "BIS")
 LoonBestInSlot:AddItem(spec, "22507", "Shoulders", "Plagueheart Shoulderpads", "BIS")
 LoonBestInSlot:AddItem(spec, "27796", "Shoulders", "Mana-Etched Spaulders", "BIS")
-LoonBestInSlot:AddItem(spec, "30925", "Shoulders", "Spaulders of the Torn-heart", "BIS")
 LoonBestInSlot:AddItem(spec, "27994", "Shoulders", "Mantle of Three Terrors", "Alt")
+LoonBestInSlot:AddItem(spec, "30925", "Shoulders", "Spaulders of the Torn-heart", "BIS")
 
 LoonBestInSlot:AddItem(spec, "23050", "Back", "Cloak of the Necropolis", "BIS")
 LoonBestInSlot:AddItem(spec, "27981", "Back", "Sethekk Oracle Cloak", "Alt")
@@ -84,8 +84,8 @@ LoonBestInSlot:AddItem(spec, "27905", "MH", "Greatsword of Horrid Dreams", "Alt"
 LoonBestInSlot:AddItem(spec, "22630", "2H", "Atiesh, Greatstaff of the Guardian", "BIS")
 
 LoonBestInSlot:AddItem(spec, "29273", "OH", "Khadgar's Knapsack", "BIS")
-LoonBestInSlot:AddItem(spec, "28412", "OH", "Lamp of Peaceful Radiance", "BIS")
 LoonBestInSlot:AddItem(spec, "29272", "OH", "Orb of the Soul-Eater", "Alt")
+LoonBestInSlot:AddItem(spec, "28412", "OH", "Lamp of Peaceful Radiance", "BIS")
 LoonBestInSlot:AddItem(spec, "23049", "OH", "Sapphiron's Left Eye", "Alt")
 LoonBestInSlot:AddItem(spec, "21597", "OH", "Royal Scepter of Vek'lor", "Alt")
 

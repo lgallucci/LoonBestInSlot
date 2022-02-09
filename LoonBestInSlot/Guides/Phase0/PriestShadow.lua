@@ -75,7 +75,6 @@ LoonBestInSlot:AddItem(spec, "34073", "Ring", "The Horseman's Signet Ring", "BIS
 
 LoonBestInSlot:AddItem(spec, "29370", "Trinket", "Icon of the Silver Crescent", "BIS")
 LoonBestInSlot:AddItem(spec, "31856", "Trinket", "Darkmoon Card: Crusade", "BIS")
-LoonBestInSlot:AddItem(spec, "38290", "Trinket", "Dark Iron Smoking Pipe", "BIS")
 LoonBestInSlot:AddItem(spec, "27683", "Trinket", "Quagmirran's Eye", "Alt")
 LoonBestInSlot:AddItem(spec, "23046", "Trinket", "The Restrained Essence of Sapphiron", "Alt")
 LoonBestInSlot:AddItem(spec, "19379", "Trinket", "Neltharion's Tear", "Alt")
@@ -87,6 +86,7 @@ LoonBestInSlot:AddItem(spec, "30340", "Trinket", "Starkiller's Bauble", "Alt")
 LoonBestInSlot:AddItem(spec, "29132", "Trinket", "Scryer's Bloodgem", "Alt")
 LoonBestInSlot:AddItem(spec, "27922", "Trinket", "Mark of Defiance", "Alt")
 LoonBestInSlot:AddItem(spec, "27924", "Trinket", "Mark of Defiance", "Alt")
+LoonBestInSlot:AddItem(spec, "38290", "Trinket", "Dark Iron Smoking Pipe", "BIS")
 
 LoonBestInSlot:AddItem(spec, "30832", "MH", "Gavel of Unearthed Secrets", "BIS")
 LoonBestInSlot:AddItem(spec, "23554", "MH", "Eternium Runed Blade", "BIS")

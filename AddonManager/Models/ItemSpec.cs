@@ -28,6 +28,7 @@ public class ItemSpec
         new Tuple<string, string>("PvP", "Alt"),
         new Tuple<string, string>("Good", "Alt"),
         new Tuple<string, string>("Easy to Acquire", "Alt"),
+        new Tuple<string, string>("Easy to aquire", "Alt"),
         new Tuple<string, string>("Easy to Obtain", "Alt"),
         new Tuple<string, string>("Easy To Obtain", "Alt"),
         new Tuple<string, string>("Easier to Obtain", "Alt"),
@@ -72,6 +73,7 @@ public class ItemSpec
         new Tuple<string, string>(" (Unobtainable)", ""),
         new Tuple<string, string>(" Individually", ""),
         new Tuple<string, string>(" Overall", ""),
+        new Tuple<string, string>(" for DPS", ""),
         new Tuple<string, string>("World Boss ", ""),
         new Tuple<string, string>("2.7 ", ""),
         new Tuple<string, string>("Crafted ", ""),
@@ -81,12 +83,14 @@ public class ItemSpec
         new Tuple<string, string>("Classic ", ""),
         new Tuple<string, string>("Reputation ", ""),
         new Tuple<string, string>("Stamina", "Stam"),
+        new Tuple<string, string>("Horde", ""),
+        new Tuple<string, string>("Alliance", ""),
 
 
         new Tuple<string, string>("Alt Alt", "Alt"),
         new Tuple<string, string>("Thrt Alt", "Alt Thrt"),
-        new Tuple<string, string>("Mit Alt", "Alt Mit"),
         new Tuple<string, string>("mit", "Mit"),
+        new Tuple<string, string>("Mit Alt", "Alt Mit"),
         new Tuple<string, string>("BIS Alt", "BIS"),
     };
 

@@ -24,7 +24,7 @@ LoonBestInSlot:AddItem(spec, "29527", "Bracers", "Primalstrike Bracers", "BIS")
 LoonBestInSlot:AddItem(spec, "29517", "Bracers", "Ebon Netherscale Bracers", "BIS")
 LoonBestInSlot:AddItem(spec, "32647", "Bracers", "Shard-bound Bracers", "Alt")
 LoonBestInSlot:AddItem(spec, "25697", "Bracers", "Felstalker Bracers", "Alt")
-LoonBestInSlot:AddItem(spec, "28171", "Bracers", "Spymistress' Wristguards", "Alt")
+LoonBestInSlot:AddItem(spec, "28171", "Bracers", "Spymistress's Wristguards", "Alt")
 LoonBestInSlot:AddItem(spec, "30399", "Bracers", "Nightstalker's Wristguards", "Alt")
 
 LoonBestInSlot:AddItem(spec, "25685", "Gloves", "Fel Leather Gloves", "BIS")
