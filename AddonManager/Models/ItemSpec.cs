@@ -53,7 +53,7 @@ public class ItemSpec
         new Tuple<string, string>("Defensive", "Mit"),
         new Tuple<string, string>("Old Trinkets", "Alt"),
         new Tuple<string, string>("PVP", "Alt"),
-
+        new Tuple<string, string>("Close Second", "Alt"),
 
 
         new Tuple<string, string>("- Hit", ""),
@@ -90,7 +90,11 @@ public class ItemSpec
         new Tuple<string, string>("Alliance", ""),
         new Tuple<string, string>("Scryers", ""),
         new Tuple<string, string>("Aldor", ""),
-
+        new Tuple<string, string>(" in 2pT4 Gear Set", ""),
+        new Tuple<string, string>(" in 4pT5 Gear Set", ""),
+        new Tuple<string, string>(" in 4pT5 Set", ""),
+        new Tuple<string, string>(" in 6%  Set", ""),
+        new Tuple<string, string>("BIS Until Tier 5", ""),
 
         new Tuple<string, string>("Alt Alt", "Alt"),
         new Tuple<string, string>("Thrt Alt", "Alt Thrt"),

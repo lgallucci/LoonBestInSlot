@@ -76,7 +76,7 @@ LoonBestInSlot:AddItem(spec, "29387", "Trinket", "Gnomeregan Auto-Blocker 600", 
 
 LoonBestInSlot:AddItem(spec, "28749", "MH", "King's Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "28426", "MH", "Blazeguard", "BIS")
-LoonBestInSlot:AddItem(spec, "29165", "MH", "Warbringer", "Orc BIS")
+LoonBestInSlot:AddItem(spec, "29165", "MH", "Warbringer", "BIS")
 LoonBestInSlot:AddItem(spec, "29362", "MH", "The Sun Eater", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "28189", "MH", "Latro's Shifting Sword", "Alt")
 LoonBestInSlot:AddItem(spec, "23577", "MH", "The Hungering Cold", "Alt")
