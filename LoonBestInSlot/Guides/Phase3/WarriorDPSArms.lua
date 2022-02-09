@@ -83,8 +83,6 @@ LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "BIS")
 LoonBestInSlot:AddItem(spec, "32505", "Trinket", "Madness of the Betrayer", "BIS")
 LoonBestInSlot:AddItem(spec, "30627", "Trinket", "Tsunami Talisman", "BIS")
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS")
-LoonBestInSlot:AddItem(spec, "28034", "Trinket", "Hourglass of the Unraveller", "Alt")
-LoonBestInSlot:AddItem(spec, "21670", "Trinket", "Badge of the Swarmguard", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30902", "2H", "Cataclysm's Edge", "BIS")
 LoonBestInSlot:AddItem(spec, "32348", "2H", "Soul Cleaver", "BIS")

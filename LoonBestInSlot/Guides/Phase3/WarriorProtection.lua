@@ -15,7 +15,6 @@ LoonBestInSlot:AddItem(spec, "32250", "Shoulders", "Pauldrons of Abyssal Fury", 
 
 LoonBestInSlot:AddItem(spec, "34010", "Back", "Pepe's Shroud of Pacification", "BIS")
 LoonBestInSlot:AddItem(spec, "33122", "Back", "Cloak of Darkness", "Alt")
-LoonBestInSlot:AddItem(spec, "28529", "Back", "Royal Cloak of Arathi Kings", "Alt")
 LoonBestInSlot:AddItem(spec, "28672", "Back", "Drape of the Dark Reavers", "Alt")
 LoonBestInSlot:AddItem(spec, "30098", "Back", "Razor-Scale Battlecloak", "Alt")
 LoonBestInSlot:AddItem(spec, "29925", "Back", "Phoenix-Wing Cloak", "BIS Mit")
@@ -74,9 +73,7 @@ LoonBestInSlot:AddItem(spec, "37127", "Trinket", "Brightbrew Charm", "Alt Stam")
 LoonBestInSlot:AddItem(spec, "32864", "Trinket", "Commander's Badge", "Alt Stam")
 LoonBestInSlot:AddItem(spec, "23836", "Trinket", "Goblin Rocket Launcher", "Alt Stam")
 LoonBestInSlot:AddItem(spec, "23835", "Trinket", "Gnomish Poultryizer", "Alt Stam")
-LoonBestInSlot:AddItem(spec, "29181", "Trinket", "Timelapse Shard", "Alt Stam")
 LoonBestInSlot:AddItem(spec, "32501", "Trinket", "Shadowmoon Insignia", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "28579", "Trinket", "Romulo's Poison Vial", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "28121", "Trinket", "Icon of Unyielding Courage", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "10725", "Trinket", "Gnomish Battle Chicken", "Alt")
 

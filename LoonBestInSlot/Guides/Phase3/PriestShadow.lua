@@ -38,7 +38,6 @@ LoonBestInSlot:AddItem(spec, "32270", "Bracers", "Focused Mana Bindings", "Alt")
 LoonBestInSlot:AddItem(spec, "31061", "Gloves", "Handguards of Absolution", "BIS")
 LoonBestInSlot:AddItem(spec, "31092", "Gloves", "Gloves of the Forgotten Conqueror", "BIS")
 LoonBestInSlot:AddItem(spec, "28507", "Gloves", "Handwraps of Flowing Thought", "Alt")
-LoonBestInSlot:AddItem(spec, "28780", "Gloves", "Soul-Eater's Handwraps", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32256", "Belt", "Waistwrap of Infinity", "BIS")
 LoonBestInSlot:AddItem(spec, "30038", "Belt", "Belt of Blasting", "Alt")
@@ -62,7 +61,6 @@ LoonBestInSlot:AddItem(spec, "32349", "Neck", "Translucent Spellthread Necklace"
 LoonBestInSlot:AddItem(spec, "24121", "Neck", "Chain of the Twilight Owl", "BIS")
 LoonBestInSlot:AddItem(spec, "24116", "Neck", "Eye of the Night", "BIS")
 LoonBestInSlot:AddItem(spec, "30666", "Neck", "Ritssyn's Lost Pendant", "Alt")
-LoonBestInSlot:AddItem(spec, "20966", "Neck", "Jade Pendant of Blasting", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32527", "Ring", "Ring of Ancient Knowledge", "BIS")
 LoonBestInSlot:AddItem(spec, "32528", "Ring", "Blessed Band of Karabor", "Alt")
@@ -78,22 +76,18 @@ LoonBestInSlot:AddItem(spec, "31856", "Trinket", "Darkmoon Card: Crusade", "BIS"
 LoonBestInSlot:AddItem(spec, "29370", "Trinket", "Icon of the Silver Crescent", "BIS")
 LoonBestInSlot:AddItem(spec, "27683", "Trinket", "Quagmirran's Eye", "Alt")
 LoonBestInSlot:AddItem(spec, "28789", "Trinket", "Eye of Magtheridon", "Alt")
-LoonBestInSlot:AddItem(spec, "23046", "Trinket", "The Restrained Essence of Sapphiron", "Alt")
 LoonBestInSlot:AddItem(spec, "38290", "Trinket", "Dark Iron Smoking Pipe", "BIS")
 
 LoonBestInSlot:AddItem(spec, "32374", "MH", "Zhar'doom, Greatstaff of the Devourer", "BIS")
 LoonBestInSlot:AddItem(spec, "33687", "MH", "Vengeful Gladiator's Gavel", "Alt")
 LoonBestInSlot:AddItem(spec, "32237", "MH", "The Maelstrom's Fury", "Alt")
 LoonBestInSlot:AddItem(spec, "34009", "MH", "Hammer of Judgement", "Alt")
-LoonBestInSlot:AddItem(spec, "32963", "MH", "Merciless Gladiator's Gavel", "Alt")
 LoonBestInSlot:AddItem(spec, "28770", "MH", "Nathrezim Mindblade", "Alt")
 LoonBestInSlot:AddItem(spec, "30723", "MH", "Talon of the Tempest", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29272", "OH", "Orb of the Soul-Eater", "BIS")
 LoonBestInSlot:AddItem(spec, "30872", "OH", "Chronicle of Dark Secrets", "Alt")
 LoonBestInSlot:AddItem(spec, "32361", "OH", "Blind-Seers Icon", "Alt")
-LoonBestInSlot:AddItem(spec, "29273", "OH", "Khadgar's Knapsack", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29982", "Wand", "Wand of the Forgotten Star", "BIS")
 LoonBestInSlot:AddItem(spec, "32343", "Wand", "Wand of Prismatic Focus", "Alt")
-LoonBestInSlot:AddItem(spec, "28673", "Wand", "Tirisfal Wand of Ascendancy", "Alt")
