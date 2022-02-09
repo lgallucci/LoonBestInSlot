@@ -31,7 +31,7 @@ public class WowheadGuideParser
         31201, //Illidari Cloak
     };
 
-    private HashSet<int> addedItems = new HashSet<int>();
+    private Random _rand = new Random(DateTime.Now.Millisecond);
 
     class MyFormatter : IMarkupFormatter
     {
@@ -54,9 +54,9 @@ public class WowheadGuideParser
         public string Text(ICharacterData text) => text.Data;// + "\n";
     }
 
-    public async Task<List<ItemSpec>> ParseWowheadGuide(ClassGuideMapping specMapping, string spec, string phase)
+    public async Task<Dictionary<int, ItemSpec>> ParseWowheadGuide(ClassGuideMapping specMapping, string spec, string phase)
     {
-        var items = new List<ItemSpec>();
+        var items = new Dictionary<int, ItemSpec>();
 
         try
         {
@@ -122,10 +122,9 @@ public class WowheadGuideParser
                                         {
                                             int itemId = -99999;
                                             Int32.TryParse(item, out itemId);
-                                            if (!excludedItemIds.Contains(itemId) && !addedItems.Contains(itemId))
+                                            if (!excludedItemIds.Contains(itemId) && !items.ContainsKey(itemId))
                                             {
-                                                addedItems.Add(itemId);
-                                                items.Add(new ItemSpec
+                                                items.Add(itemId, new ItemSpec
                                                 {
                                                     ItemId = itemId,
                                                     Name = itemName ?? "undefined",
@@ -134,10 +133,9 @@ public class WowheadGuideParser
                                                     Slot = guideMapping.Slot
                                                 });
 
-                                                if (TierPiecesAndTokens.TierPieces.ContainsKey(itemId) && !addedItems.Contains(TierPiecesAndTokens.TierPieces[itemId].Item1))
+                                                if (TierPiecesAndTokens.TierPieces.ContainsKey(itemId) && !items.ContainsKey(TierPiecesAndTokens.TierPieces[itemId].Item1))
                                                 {
-                                                    addedItems.Add(TierPiecesAndTokens.TierPieces[itemId].Item1);
-                                                    items.Add(new ItemSpec
+                                                    items.Add(TierPiecesAndTokens.TierPieces[itemId].Item1, new ItemSpec
                                                     {
                                                         ItemId = TierPiecesAndTokens.TierPieces[itemId].Item1,
                                                         Name = TierPiecesAndTokens.TierPieces[itemId].Item2,
@@ -154,9 +152,10 @@ public class WowheadGuideParser
 
                         if (!foundAnchor)
                         {
-                            items.Add(new ItemSpec
+                            var itemId = -1 * _rand.Next(10000, 99999);
+                            items.Add(itemId, new ItemSpec
                             {
-                                ItemId = 99999,
+                                ItemId = itemId,
                                 Name = "undefined",
                                 BisStatus = "undefined",
                                 PhaseStatus = "EH",

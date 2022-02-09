@@ -25,6 +25,7 @@ public partial class WowheadReader : Window
 
         try
         {
+            var phaseNumber = Int32.Parse(txtPhase.Text.Replace("Phase", ""));
             var itemSources = new ItemSourceFileManager().ReadItemSources();
 
             var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == $"{cmbSpec.SelectedValue.ToString()}{txtPhase.Text}");
@@ -36,24 +37,49 @@ public partial class WowheadReader : Window
             {
                 var items = await new WowheadGuideParser().ParseWowheadGuide(specMapping, cmbSpec.SelectedValue.ToString(), txtPhase.Text);
 
-                items.ForEach(item =>
+                var oldPhaseNumber = phaseNumber - 2;
+
+                Dictionary<int, ItemSpec> oldItems = new Dictionary<int, ItemSpec>();
+                if (oldPhaseNumber >= 0)
                 {
-                    if (!itemSources.ContainsKey(item.ItemId) && item.ItemId != 99999)
+                    for (int i = 0; i <= oldPhaseNumber; i++)
                     {
-                        itemSources.Add(item.ItemId, new ItemSource
-                        {
-                            ItemId = item.ItemId,
-                            Name = item.Name,
-                            SourceType = "undefined",
-                            Source = "undefined",
-                            SourceLocation = "undefined"
-                        });
+                        var phaseItems = new ItemSpecFileManager().ReadPhaseFromFile(Constants.AddonPath + $@"Guides\Phase{i}\{cmbSpec.SelectedValue.ToString()}.lua");
+
+                        foreach (var item in phaseItems)
+                            if (!oldItems.ContainsKey(item.Key))
+                                oldItems.Add(item.Key, item.Value);
+                            else
+                                oldItems[item.Key].BisStatus = item.Value.BisStatus;
                     }
+                }
 
-                    ConsoleOut.Text += $"{item.ItemId}: {item.Name} - {item.Slot} - {item.BisStatus}\n";
-                });
+                foreach (var item in items)
+                {
+                    if (!oldItems.ContainsKey(item.Value.ItemId) || oldItems[item.Value.ItemId].BisStatus.Contains("BIS"))
+                    {
+                        if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
+                        {
+                            itemSources.Add(item.Value.ItemId, new ItemSource
+                            {
+                                ItemId = item.Value.ItemId,
+                                Name = item.Value.Name,
+                                SourceType = "undefined",
+                                Source = "undefined",
+                                SourceLocation = "undefined"
+                            });
+                        }
 
-                new ItemSpecFileManager().WriteItemSpec(Constants.AddonPath + $@"Guides\{txtPhase.Text}\{cmbSpec.SelectedValue.ToString()}.lua", specMapping.ClassName, specMapping.SpecName, txtPhase.Text, items);
+                        ConsoleOut.Text += $"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}\n";
+                    }
+                    else
+                    {
+                        items.Remove(item.Value.ItemId);
+                        ConsoleOut.Text += $"Skipped: {item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}\n";
+                    }
+                }
+
+                new ItemSpecFileManager().WriteItemSpec(Constants.AddonPath + $@"Guides\Phase{phaseNumber}\{cmbSpec.SelectedValue.ToString()}.lua", specMapping.ClassName, specMapping.SpecName, txtPhase.Text, items);
 
                 new ItemSourceFileManager().WriteItemSources(itemSources);
             }
