@@ -49,7 +49,6 @@ LoonBestInSlot:AddItem(spec, "28608", "Feet", "Ironstriders of Urgency", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30099", "Neck", "Frayed Tether of the Drowned", "BIS")
 LoonBestInSlot:AddItem(spec, "33066", "Neck", "Veteran's Pendant of Triumph", "Alt")
-LoonBestInSlot:AddItem(spec, "35511", "Neck", "Hailstone Pendant", "Alt")
 LoonBestInSlot:AddItem(spec, "28674", "Neck", "Saberclaw Talisman", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29294", "Ring", "Band of Eternity", "BIS Mit")
@@ -64,19 +63,15 @@ LoonBestInSlot:AddItem(spec, "30061", "Ring", "Ancestral Ring of Conquest", "Alt
 LoonBestInSlot:AddItem(spec, "23836", "Trinket", "Goblin Rocket Launcher", "BIS Stam")
 LoonBestInSlot:AddItem(spec, "23835", "Trinket", "Gnomish Poultryizer", "BIS Stam")
 LoonBestInSlot:AddItem(spec, "30620", "Trinket", "Spyglass of the Hidden Fleet", "Alt Stam")
-LoonBestInSlot:AddItem(spec, "27770", "Trinket", "Argussian Compass", "Alt Stam")
 LoonBestInSlot:AddItem(spec, "31113", "Trinket", "Violet Badge", "Alt Stam")
-LoonBestInSlot:AddItem(spec, "29181", "Trinket", "Timelapse Shard", "Alt Stam")
 LoonBestInSlot:AddItem(spec, "28121", "Trinket", "Icon of Unyielding Courage", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "28579", "Trinket", "Romulo's Poison Vial", "Alt Thrt")
-LoonBestInSlot:AddItem(spec, "29387", "Trinket", "Gnomeregan Auto-Blocker 600", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30058", "MH", "Mallet of the Tides", "BIS")
 LoonBestInSlot:AddItem(spec, "30103", "MH", "Fang of Vashj", "Alt")
 LoonBestInSlot:AddItem(spec, "28427", "MH", "Blazefury", "Alt")
 LoonBestInSlot:AddItem(spec, "29165", "MH", "Warbringer", "Alt")
 LoonBestInSlot:AddItem(spec, "28749", "MH", "King's Defender", "Alt")
-LoonBestInSlot:AddItem(spec, "29362", "MH", "The Sun Eater", "BIS Mit")
 
 LoonBestInSlot:AddItem(spec, "28825", "Shield", "Aldori Legacy Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "32045", "Shield", "Merciless Gladiator's Shield Wall", "Alt")

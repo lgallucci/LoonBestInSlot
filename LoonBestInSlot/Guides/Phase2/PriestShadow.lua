@@ -15,7 +15,7 @@ LoonBestInSlot:AddItem(spec, "28570", "Back", "Shadow-Cloak of Dalaran", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30107", "Chest", "Vestments of the Sea-Witch", "BIS")
 LoonBestInSlot:AddItem(spec, "30159", "Chest", "Shroud of the Avatar", "Alt")
-LoonBestInSlot:AddItem(spec, "30237", "Chest", "Chestguard of the Vanquished Defender", "BIS")
+LoonBestInSlot:AddItem(spec, "30237", "Chest", "Chestguard of the Vanquished Defender", "Alt")
 LoonBestInSlot:AddItem(spec, "21871", "Chest", "Frozen Shadoweave Robe", "Alt")
 LoonBestInSlot:AddItem(spec, "30056", "Chest", "Robe of Hateful Echoes", "Alt")
 
@@ -46,7 +46,6 @@ LoonBestInSlot:AddItem(spec, "30067", "Feet", "Velvet Boots of the Guardian", "A
 LoonBestInSlot:AddItem(spec, "30666", "Neck", "Ritssyn's Lost Pendant", "BIS")
 LoonBestInSlot:AddItem(spec, "24121", "Neck", "Chain of the Twilight Owl", "BIS")
 LoonBestInSlot:AddItem(spec, "24116", "Neck", "Eye of the Night", "BIS")
-LoonBestInSlot:AddItem(spec, "20966", "Neck", "Jade Pendant of Blasting", "Alt")
 LoonBestInSlot:AddItem(spec, "30015", "Neck", "The Sun King's Talisman", "Alt")
 LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "Alt")
 LoonBestInSlot:AddItem(spec, "33921", "Neck", "Vindicator's Pendant of Dominance", "Alt")
@@ -63,20 +62,15 @@ LoonBestInSlot:AddItem(spec, "29287", "Ring", "Violet Signet of the Archmage", "
 LoonBestInSlot:AddItem(spec, "34073", "Ring", "The Horseman's Signet Ring", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29370", "Trinket", "Icon of the Silver Crescent", "BIS")
-LoonBestInSlot:AddItem(spec, "27683", "Trinket", "Quagmirran's Eye", "BIS")
 LoonBestInSlot:AddItem(spec, "28789", "Trinket", "Eye of Magtheridon", "BIS")
-LoonBestInSlot:AddItem(spec, "23046", "Trinket", "The Restrained Essence of Sapphiron", "Alt")
 LoonBestInSlot:AddItem(spec, "38290", "Trinket", "Dark Iron Smoking Pipe", "BIS")
 
 LoonBestInSlot:AddItem(spec, "28770", "MH", "Nathrezim Mindblade", "BIS")
 LoonBestInSlot:AddItem(spec, "33687", "MH", "Vengeful Gladiator's Gavel", "BIS")
 LoonBestInSlot:AddItem(spec, "30723", "MH", "Talon of the Tempest", "BIS")
-LoonBestInSlot:AddItem(spec, "32963", "MH", "Merciless Gladiator's Gavel", "Alt")
-LoonBestInSlot:AddItem(spec, "32450", "MH", "Gladiator's Gavel", "Alt")
 LoonBestInSlot:AddItem(spec, "29988", "MH", "The Nexus Key", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29272", "OH", "Orb of the Soul-Eater", "BIS")
-LoonBestInSlot:AddItem(spec, "29273", "OH", "Khadgar's Knapsack", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29982", "Wand", "Wand of the Forgotten Star", "BIS")
 LoonBestInSlot:AddItem(spec, "32872", "Wand", "Illidari Rod of Discipline", "Alt")

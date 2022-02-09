@@ -60,7 +60,6 @@ LoonBestInSlot:AddItem(spec, "29376", "Trinket", "Essence of the Martyr", "BIS")
 LoonBestInSlot:AddItem(spec, "28590", "Trinket", "Ribbon of Sacrifice", "BIS")
 LoonBestInSlot:AddItem(spec, "23047", "Trinket", "Eye of the Dead", "Alt")
 LoonBestInSlot:AddItem(spec, "30841", "Trinket", "Lower City Prayerbook", "Alt")
-LoonBestInSlot:AddItem(spec, "19395", "Trinket", "Rejuvenating Gem", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30108", "MH", "Lightfathom Scepter", "BIS")
 LoonBestInSlot:AddItem(spec, "28771", "MH", "Light's Justice", "Alt")
@@ -75,5 +74,3 @@ LoonBestInSlot:AddItem(spec, "29267", "OH", "Light-Bearer's Faith Shield", "Alt"
 
 LoonBestInSlot:AddItem(spec, "28592", "Libram", "Libram of Souls Redeemed", "BIS")
 LoonBestInSlot:AddItem(spec, "23006", "Libram", "Libram of Light", "Alt")
-LoonBestInSlot:AddItem(spec, "28296", "Libram", "Libram of the Lightbringer", "Alt")
-LoonBestInSlot:AddItem(spec, "25644", "Libram", "Blessed Book of Nagrand", "Alt")

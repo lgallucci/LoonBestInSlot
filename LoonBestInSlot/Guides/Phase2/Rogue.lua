@@ -24,8 +24,6 @@ LoonBestInSlot:AddItem(spec, "29754", "Chest", "Chestguard of the Fallen Champio
 
 LoonBestInSlot:AddItem(spec, "29966", "Bracers", "Vambraces of Ending", "BIS")
 LoonBestInSlot:AddItem(spec, "32647", "Bracers", "Shard-bound Bracers", "Alt")
-LoonBestInSlot:AddItem(spec, "29246", "Bracers", "Nightfall Wristguards", "Alt")
-LoonBestInSlot:AddItem(spec, "28171", "Bracers", "Spymistress's Wristguards", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30145", "Gloves", "Deathmantle Handguards", "BIS")
 LoonBestInSlot:AddItem(spec, "30239", "Gloves", "Gloves of the Vanquished Champion", "BIS")
@@ -67,21 +65,16 @@ LoonBestInSlot:AddItem(spec, "30627", "Trinket", "Tsunami Talisman", "Alt")
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "Alt")
 LoonBestInSlot:AddItem(spec, "28288", "Trinket", "Abacus of Violent Odds", "Alt")
 LoonBestInSlot:AddItem(spec, "28579", "Trinket", "Romulo's Poison Vial", "Alt")
-LoonBestInSlot:AddItem(spec, "21670", "Trinket", "Badge of the Swarmguard", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30082", "MH", "Talon of Azshara", "BIS")
 LoonBestInSlot:AddItem(spec, "28439", "MH", "Dragonstrike", "Alt")
 LoonBestInSlot:AddItem(spec, "32052", "MH", "Merciless Gladiator's Slicer", "Alt")
 LoonBestInSlot:AddItem(spec, "32944", "MH", "Talon of the Phoenix", "Alt")
 LoonBestInSlot:AddItem(spec, "29996", "MH", "Rod of the Sun King", "Alt")
-LoonBestInSlot:AddItem(spec, "28438", "MH", "Dragonmaw", "Alt")
-LoonBestInSlot:AddItem(spec, "28295", "MH", "Gladiator's Slicer", "Alt")
 LoonBestInSlot:AddItem(spec, "30103", "MH", "Fang of Vashj", "BIS Dagger")
 LoonBestInSlot:AddItem(spec, "29962", "MH", "Heartrazor", "Alt Dagger")
 
 LoonBestInSlot:AddItem(spec, "32027", "OH", "Merciless Gladiator's Quickblade", "BIS")
-LoonBestInSlot:AddItem(spec, "28307", "OH", "Gladiator's Quickblade", "Alt")
-LoonBestInSlot:AddItem(spec, "28189", "OH", "Latro's Shifting Sword", "Alt")
 LoonBestInSlot:AddItem(spec, "32046", "OH", "Merciless Gladiator's Shiv", "BIS Dagger")
 LoonBestInSlot:AddItem(spec, "29275", "OH", "Searing Sunblade", "Alt Dagger")
 
