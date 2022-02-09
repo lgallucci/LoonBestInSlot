@@ -84,9 +84,9 @@ LoonBestInSlot:AddItem(spec, "27980", "MH", "Terokk's Nightmace", "Alt")
 LoonBestInSlot:AddItem(spec, "29156", "MH", "Honor's Call", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28825", "Shield", "Aldori Legacy Defender", "BIS")
-LoonBestInSlot:AddItem(spec, "29176", "Shield", "Crest of the Sha'tar", "BIS")
 LoonBestInSlot:AddItem(spec, "28358", "Shield", "Gladiator's Shield Wall", "Alt")
 LoonBestInSlot:AddItem(spec, "28606", "Shield", "Shield of Impenetrable Darkness", "Alt")
+LoonBestInSlot:AddItem(spec, "29176", "Shield", "Crest of the Sha'tar", "Alt")
 LoonBestInSlot:AddItem(spec, "29266", "Shield", "Azure-Shield of Coldarra", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30724", "Ranged", "Barrel-Blade Longrifle", "BIS")

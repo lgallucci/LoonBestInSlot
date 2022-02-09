@@ -51,6 +51,9 @@ public class ItemSpec
         new Tuple<string, string>("Survivability", "Mit"),
         new Tuple<string, string>("Innervate", "Alt"),
         new Tuple<string, string>("Defensive", "Mit"),
+        new Tuple<string, string>("Old Trinkets", "Alt"),
+        new Tuple<string, string>("PVP", "Alt"),
+
 
 
         new Tuple<string, string>("- Hit", ""),
@@ -85,6 +88,8 @@ public class ItemSpec
         new Tuple<string, string>("Stamina", "Stam"),
         new Tuple<string, string>("Horde", ""),
         new Tuple<string, string>("Alliance", ""),
+        new Tuple<string, string>("Scryers", ""),
+        new Tuple<string, string>("Aldor", ""),
 
 
         new Tuple<string, string>("Alt Alt", "Alt"),

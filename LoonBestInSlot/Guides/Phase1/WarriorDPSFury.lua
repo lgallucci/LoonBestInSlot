@@ -44,10 +44,10 @@ LoonBestInSlot:AddItem(spec, "27985", "Belt", "Deathforge Girdle", "Alt")
 LoonBestInSlot:AddItem(spec, "29247", "Belt", "Girdle of the Deathdealer", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30739", "Legs", "Scaled Greaves of the Marksman", "BIS")
-LoonBestInSlot:AddItem(spec, "30538", "Legs", "Midnight Legguards", "BIS")
 LoonBestInSlot:AddItem(spec, "28741", "Legs", "Skulker's Greaves", "BIS")
 LoonBestInSlot:AddItem(spec, "29022", "Legs", "Warbringer Greaves", "Alt")
 LoonBestInSlot:AddItem(spec, "29767", "Legs", "Leggings of the Fallen Defender", "Alt")
+LoonBestInSlot:AddItem(spec, "30538", "Legs", "Midnight Legguards", "BIS")
 LoonBestInSlot:AddItem(spec, "25687", "Legs", "Fel Leather Leggings", "Alt")
 LoonBestInSlot:AddItem(spec, "31544", "Legs", "Clefthoof Hide Leggings", "Alt")
 
