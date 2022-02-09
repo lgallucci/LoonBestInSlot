@@ -174,7 +174,7 @@ local function createItemRow(specItem, specItemSource, point)
         b:SetPoint("TOPLEFT", f, 2, -5);
         
         t = f:CreateFontString(nil, nil, "GameFontNormal");
-        t:SetText((item.Link or item.Name):gsub("[%[%]]", ""));
+        t:SetText((item.Link or item.Name or "ERROR!"..item.Id):gsub("[%[%]]", ""));
         t:SetPoint("TOPLEFT", b, "TOPRIGHT", 2, -2);
 
         local type = item.Type;
