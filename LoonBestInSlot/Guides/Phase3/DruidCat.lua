@@ -14,7 +14,6 @@ LoonBestInSlot:AddItem(spec, "32323", "Back", "Shadowmoon Destroyer's Drape", "B
 LoonBestInSlot:AddItem(spec, "29994", "Back", "Thalassian Wildercloak", "BIS")
 LoonBestInSlot:AddItem(spec, "28672", "Back", "Drape of the Dark Reavers", "Alt")
 LoonBestInSlot:AddItem(spec, "30098", "Back", "Razor-Scale Battlecloak", "Alt")
-LoonBestInSlot:AddItem(spec, "31255", "Back", "Cloak of the Craft", "Alt")
 LoonBestInSlot:AddItem(spec, "33122", "Back", "Cloak of Darkness", "Alt")
 LoonBestInSlot:AddItem(spec, "24259", "Back", "Vengeance Wrap", "Alt")
 
@@ -42,7 +41,6 @@ LoonBestInSlot:AddItem(spec, "28506", "Gloves", "Gloves of Dexterous Manipulatio
 LoonBestInSlot:AddItem(spec, "30223", "Gloves", "Nordrassil Handgrips", "Alt")
 LoonBestInSlot:AddItem(spec, "30240", "Gloves", "Gloves of the Vanquished Defender", "Alt")
 LoonBestInSlot:AddItem(spec, "32347", "Gloves", "Grips of Damnation", "Alt")
-LoonBestInSlot:AddItem(spec, "25685", "Gloves", "Fel Leather Gloves", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30106", "Belt", "Belt of One-Hundred Deaths", "BIS")
 LoonBestInSlot:AddItem(spec, "30040", "Belt", "Belt of Deep Shadow", "Alt")
@@ -62,7 +60,6 @@ LoonBestInSlot:AddItem(spec, "33673", "Legs", "Vengeful Gladiator's Dragonhide L
 
 LoonBestInSlot:AddItem(spec, "32366", "Feet", "Shadowmaster's Boots", "BIS")
 LoonBestInSlot:AddItem(spec, "28545", "Feet", "Edgewalker Longboots", "Alt")
-LoonBestInSlot:AddItem(spec, "25686", "Feet", "Fel Leather Boots", "Alt")
 LoonBestInSlot:AddItem(spec, "33880", "Feet", "Vindicator's Dragonhide Boots", "Alt")
 LoonBestInSlot:AddItem(spec, "30039", "Feet", "Boots of Utter Darkness", "Alt")
 LoonBestInSlot:AddItem(spec, "30041", "Feet", "Boots of Natural Grace", "Alt")
@@ -73,7 +70,6 @@ LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
 LoonBestInSlot:AddItem(spec, "32591", "Neck", "Choker of Serrated Blades", "BIS")
 LoonBestInSlot:AddItem(spec, "24114", "Neck", "Braided Eternium Chain", "BIS")
 LoonBestInSlot:AddItem(spec, "29381", "Neck", "Choker of Vile Intent", "Alt")
-LoonBestInSlot:AddItem(spec, "28509", "Neck", "Worgen Claw Necklace", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32497", "Ring", "Stormrage Signet Ring", "BIS")
 LoonBestInSlot:AddItem(spec, "29301", "Ring", "Band of the Eternal Champion", "BIS")
@@ -89,11 +85,7 @@ LoonBestInSlot:AddItem(spec, "32505", "Trinket", "Madness of the Betrayer", "BIS
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS")
 LoonBestInSlot:AddItem(spec, "38287", "Trinket", "Empty Mug of Direbrew", "BIS")
 LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "BIS")
-LoonBestInSlot:AddItem(spec, "28121", "Trinket", "Icon of Unyielding Courage", "Alt")
-LoonBestInSlot:AddItem(spec, "19406", "Trinket", "Drake Fang Talisman", "Alt")
-LoonBestInSlot:AddItem(spec, "28034", "Trinket", "Hourglass of the Unraveller", "Alt")
 LoonBestInSlot:AddItem(spec, "32658", "Trinket", "Badge of Tenacity", "Alt")
-LoonBestInSlot:AddItem(spec, "32654", "Trinket", "Crystalforged Trinket", "Alt")
 
 LoonBestInSlot:AddItem(spec, "33716", "2H", "Vengeful Gladiator's Staff", "BIS")
 LoonBestInSlot:AddItem(spec, "32014", "2H", "Merciless Gladiator's Maul", "Alt")
@@ -106,4 +98,3 @@ LoonBestInSlot:AddItem(spec, "29390", "Idol", "Everbloom Idol", "BIS")
 LoonBestInSlot:AddItem(spec, "32387", "Idol", "Idol of the Raven Goddess", "BIS")
 LoonBestInSlot:AddItem(spec, "32257", "Idol", "Idol of the White Stag", "Alt")
 LoonBestInSlot:AddItem(spec, "28372", "Idol", "Idol of Feral Shadows", "Alt")
-LoonBestInSlot:AddItem(spec, "28064", "Idol", "Idol of the Wild", "Alt")

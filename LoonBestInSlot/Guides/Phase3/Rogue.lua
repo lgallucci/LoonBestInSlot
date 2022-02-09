@@ -69,7 +69,6 @@ LoonBestInSlot:AddItem(spec, "30450", "Trinket", "Warp-Spring Coil", "BIS")
 LoonBestInSlot:AddItem(spec, "32505", "Trinket", "Madness of the Betrayer", "Alt")
 LoonBestInSlot:AddItem(spec, "32492", "Trinket", "Ashtongue Talisman of Lethality", "Alt")
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "Alt")
-LoonBestInSlot:AddItem(spec, "21670", "Trinket", "Badge of the Swarmguard", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32837", "MH", "Warglaive of Azzinoth", "BIS")
 LoonBestInSlot:AddItem(spec, "33762", "MH", "Vengeful Gladiator's Slicer", "Alt")
