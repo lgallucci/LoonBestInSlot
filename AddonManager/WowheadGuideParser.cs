@@ -29,6 +29,7 @@ public class WowheadGuideParser
         30680, //Glider's Foot-Wraps
         30681, //Glider's Boots
         31201, //Illidari Cloak
+        24692, //Elementalist Bracelets
     };
 
     private Random _rand = new Random(DateTime.Now.Millisecond);

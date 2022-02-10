@@ -117,7 +117,7 @@ end
 local function IsInSource(specItem)
     if LoonBestInSlotSettings.SelectedSource == "All" then
         return true;
-    elseif LoonBestInSlotSettings.SelectedSource == specItem.Source then
+    elseif LoonBestInSlotSettings.SelectedSource == specItem.SourceType then
         return true;
     end
     return false;
@@ -162,8 +162,9 @@ local function createItemRow(specItem, specItemSource, point)
     if item == nil or item.Id == nil or item.Link == nil or item.Type == nil then
         LoonBestInSlot:Error("LoonBestInSlot: Failed to find object: ", specItem.Id);
         LoonBestInSlot:Error("LoonBestInSlot: Pending Item count: ", LoonBestInSlot.PendingCount)
-        LoonBestInSlot:Error("LoonBestInSlot: Pending Items: ", LoonBestInSlot.PendingItems)
-        return;
+        LoonBestInSlot:Error("LoonBestInSlot: Pending Item ("..specItem.Id.."): ", LoonBestInSlot.PendingItems[specItem.Id])
+        LoonBestInSlot:Error("LoonBestInSlot: Item Cache ("..specItem.Id.."): ",LoonBestInSlot.ItemCache[specItem.Id]
+        return point;
     end
 
     -- attempting to reuse a previous child frame if it exists 
@@ -552,7 +553,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
         ['name']='source',
         ['parent']=window,
         ['title']='Source:',
-        ['items']= { "All", "Drop", "Profession", "Reputation", "Dungeon Token", "Quest" },
+        ['items']= { "All", "Drop", "Profession", "Reputation", "Dungeon Token", "Quest", "PvP" },
         ['defaultVal']= LoonBestInSlotSettings.SelectedSource,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedSource = dropdown_val;
