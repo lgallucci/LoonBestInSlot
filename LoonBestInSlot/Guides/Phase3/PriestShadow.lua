@@ -5,7 +5,6 @@ LoonBestInSlot:AddItem(spec, "32525", "Head", "Cowl of the Illidari High Lord", 
 LoonBestInSlot:AddItem(spec, "32494", "Head", "Destruction Holo-gogs", "Alt")
 LoonBestInSlot:AddItem(spec, "30161", "Head", "Hood of the Avatar", "Alt")
 LoonBestInSlot:AddItem(spec, "30243", "Head", "Helm of the Vanquished Defender", "Alt")
-LoonBestInSlot:AddItem(spec, "29986", "Head", "Cowl of the Grand Engineer", "Alt")
 
 LoonBestInSlot:AddItem(spec, "31070", "Shoulders", "Shoulderpads of Absolution", "BIS")
 LoonBestInSlot:AddItem(spec, "31101", "Shoulders", "Pauldrons of the Forgotten Conqueror", "BIS")
@@ -24,11 +23,7 @@ LoonBestInSlot:AddItem(spec, "29992", "Back", "Royal Cloak of the Sunstriders", 
 LoonBestInSlot:AddItem(spec, "31065", "Chest", "Shroud of Absolution", "BIS")
 LoonBestInSlot:AddItem(spec, "31089", "Chest", "Chestguard of the Forgotten Conqueror", "BIS")
 LoonBestInSlot:AddItem(spec, "30107", "Chest", "Vestments of the Sea-Witch", "Alt")
-LoonBestInSlot:AddItem(spec, "30159", "Chest", "Shroud of the Avatar", "Alt")
-LoonBestInSlot:AddItem(spec, "30237", "Chest", "Chestguard of the Vanquished Defender", "Alt")
 LoonBestInSlot:AddItem(spec, "30913", "Chest", "Robes of Rhonin", "Alt")
-LoonBestInSlot:AddItem(spec, "21871", "Chest", "Frozen Shadoweave Robe", "Alt")
-LoonBestInSlot:AddItem(spec, "30056", "Chest", "Robe of Hateful Echoes", "Alt")
 LoonBestInSlot:AddItem(spec, "32327", "Chest", "Robe of the Shadow Council", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32586", "Bracers", "Bracers of Nimble Thought", "BIS")
@@ -55,7 +50,6 @@ LoonBestInSlot:AddItem(spec, "32239", "Feet", "Slippers of the Seacaller", "BIS"
 LoonBestInSlot:AddItem(spec, "21870", "Feet", "Frozen Shadoweave Boots", "BIS")
 LoonBestInSlot:AddItem(spec, "30050", "Feet", "Boots of the Shifting Nightmare", "Alt")
 LoonBestInSlot:AddItem(spec, "30894", "Feet", "Blue Suede Shoes", "Alt")
-LoonBestInSlot:AddItem(spec, "30067", "Feet", "Velvet Boots of the Guardian", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32349", "Neck", "Translucent Spellthread Necklace", "BIS")
 LoonBestInSlot:AddItem(spec, "24121", "Neck", "Chain of the Twilight Owl", "BIS")
@@ -68,8 +62,6 @@ LoonBestInSlot:AddItem(spec, "32247", "Ring", "Ring of Captured Storms", "Alt")
 LoonBestInSlot:AddItem(spec, "29305", "Ring", "Band of the Eternal Sage", "Alt")
 LoonBestInSlot:AddItem(spec, "30109", "Ring", "Ring of Endless Coils", "Alt")
 LoonBestInSlot:AddItem(spec, "29922", "Ring", "Band of Al'ar", "Alt")
-LoonBestInSlot:AddItem(spec, "21709", "Ring", "Ring of the Fallen God", "Alt")
-LoonBestInSlot:AddItem(spec, "23031", "Ring", "Band of the Inevitable", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32483", "Trinket", "The Skull of Gul'dan", "BIS")
 LoonBestInSlot:AddItem(spec, "31856", "Trinket", "Darkmoon Card: Crusade", "BIS")

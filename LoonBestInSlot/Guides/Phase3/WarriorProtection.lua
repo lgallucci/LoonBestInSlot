@@ -15,8 +15,7 @@ LoonBestInSlot:AddItem(spec, "32250", "Shoulders", "Pauldrons of Abyssal Fury", 
 
 LoonBestInSlot:AddItem(spec, "34010", "Back", "Pepe's Shroud of Pacification", "BIS")
 LoonBestInSlot:AddItem(spec, "33122", "Back", "Cloak of Darkness", "Alt")
-LoonBestInSlot:AddItem(spec, "28672", "Back", "Drape of the Dark Reavers", "Alt")
-LoonBestInSlot:AddItem(spec, "30098", "Back", "Razor-Scale Battlecloak", "Alt")
+LoonBestInSlot:AddItem(spec, "28529", "Back", "Royal Cloak of Arathi Kings", "Alt")
 LoonBestInSlot:AddItem(spec, "29925", "Back", "Phoenix-Wing Cloak", "BIS Mit")
 
 LoonBestInSlot:AddItem(spec, "33728", "Chest", "Vengeful Gladiator's Plate Chestpiece", "BIS")
@@ -37,7 +36,6 @@ LoonBestInSlot:AddItem(spec, "32608", "Gloves", "Pillager's Gauntlets", "Alt")
 LoonBestInSlot:AddItem(spec, "29998", "Gloves", "Royal Gauntlets of Silvermoon", "BIS Mit")
 
 LoonBestInSlot:AddItem(spec, "30106", "Belt", "Belt of One-Hundred Deaths", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "30032", "Belt", "Red Belt of Battle", "Alt")
 LoonBestInSlot:AddItem(spec, "32333", "Belt", "Girdle of Stability", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "32342", "Belt", "Girdle of Mighty Resolve", "Alt Mit")
 
@@ -63,7 +61,6 @@ LoonBestInSlot:AddItem(spec, "29301", "Ring", "Band of the Eternal Champion", "A
 LoonBestInSlot:AddItem(spec, "33919", "Ring", "Vindicator's Band of Triumph", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "29296", "Ring", "Band of Eternity", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "32261", "Ring", "Band of the Abyssal Lord", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "29279", "Ring", "Violet Signet of the Great Protector", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "30083", "Ring", "Ring of Sundered Souls", "Alt Mit")
 
 LoonBestInSlot:AddItem(spec, "31858", "Trinket", "Darkmoon Card: Vengeance", "BIS Stam")
@@ -71,17 +68,13 @@ LoonBestInSlot:AddItem(spec, "31859", "Trinket", "Darkmoon Card: Madness", "BIS 
 LoonBestInSlot:AddItem(spec, "37128", "Trinket", "Balebrew Charm", "Alt Stam")
 LoonBestInSlot:AddItem(spec, "37127", "Trinket", "Brightbrew Charm", "Alt Stam")
 LoonBestInSlot:AddItem(spec, "32864", "Trinket", "Commander's Badge", "Alt Stam")
-LoonBestInSlot:AddItem(spec, "23836", "Trinket", "Goblin Rocket Launcher", "Alt Stam")
-LoonBestInSlot:AddItem(spec, "23835", "Trinket", "Gnomish Poultryizer", "Alt Stam")
 LoonBestInSlot:AddItem(spec, "32501", "Trinket", "Shadowmoon Insignia", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "28121", "Trinket", "Icon of Unyielding Courage", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "10725", "Trinket", "Gnomish Battle Chicken", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32254", "MH", "The Brutalizer", "BIS")
 LoonBestInSlot:AddItem(spec, "32369", "MH", "Blade of Savagery", "BIS")
 LoonBestInSlot:AddItem(spec, "32943", "MH", "Swiftsteel Bludgeon", "Alt")
 LoonBestInSlot:AddItem(spec, "30874", "MH", "The Unbreakable Will", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "28427", "MH", "Blazefury", "Alt")
 LoonBestInSlot:AddItem(spec, "30058", "MH", "Mallet of the Tides", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32375", "Shield", "Bulwark of Azzinoth", "BIS")
@@ -91,6 +84,5 @@ LoonBestInSlot:AddItem(spec, "28825", "Shield", "Aldori Legacy Defender", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32253", "Ranged", "Legionkiller", "BIS")
 LoonBestInSlot:AddItem(spec, "29949", "Ranged", "Arcanite Steam-Pistol", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "30025", "Ranged", "Serpentshrine Shuriken", "Alt")
 LoonBestInSlot:AddItem(spec, "33765", "Ranged", "Vengeful Gladiator's War Edge", "Alt")
 LoonBestInSlot:AddItem(spec, "32756", "Ranged", "Gyro-Balanced Khorium Destroyer", "BIS Mit")

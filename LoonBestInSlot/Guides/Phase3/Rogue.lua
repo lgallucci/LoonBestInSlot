@@ -4,7 +4,6 @@ LoonBestInSlot:AddItem(spec, "31027", "Head", "Slayer's Helm", "Alt")
 LoonBestInSlot:AddItem(spec, "31096", "Head", "Helm of the Forgotten Vanquisher", "Alt")
 LoonBestInSlot:AddItem(spec, "30146", "Head", "Deathmantle Helm", "Alt")
 LoonBestInSlot:AddItem(spec, "30242", "Head", "Helm of the Vanquished Champion", "Alt")
-LoonBestInSlot:AddItem(spec, "32478", "Head", "Deathblow X11 Goggles", "Alt")
 
 LoonBestInSlot:AddItem(spec, "31030", "Shoulders", "Slayer's Shoulderpads", "BIS")
 LoonBestInSlot:AddItem(spec, "31102", "Shoulders", "Pauldrons of the Forgotten Vanquisher", "BIS")
@@ -16,7 +15,6 @@ LoonBestInSlot:AddItem(spec, "30055", "Shoulders", "Shoulderpads of the Stranger
 LoonBestInSlot:AddItem(spec, "30917", "Shoulders", "Razorfury Mantle", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32323", "Back", "Shadowmoon Destroyer's Drape", "BIS")
-LoonBestInSlot:AddItem(spec, "29994", "Back", "Thalassian Wildercloak", "Alt")
 LoonBestInSlot:AddItem(spec, "28672", "Back", "Drape of the Dark Reavers", "Alt")
 
 LoonBestInSlot:AddItem(spec, "31028", "Chest", "Slayer's Chestguard", "BIS")
@@ -40,13 +38,11 @@ LoonBestInSlot:AddItem(spec, "30239", "Gloves", "Gloves of the Vanquished Champi
 
 LoonBestInSlot:AddItem(spec, "30106", "Belt", "Belt of One-Hundred Deaths", "BIS")
 LoonBestInSlot:AddItem(spec, "32265", "Belt", "Shadow-walker's Cord", "Alt")
-LoonBestInSlot:AddItem(spec, "30040", "Belt", "Belt of Deep Shadow", "Alt")
 LoonBestInSlot:AddItem(spec, "30879", "Belt", "Don Alejandro's Money Belt", "Alt")
 
 LoonBestInSlot:AddItem(spec, "31029", "Legs", "Slayer's Legguards", "BIS")
 LoonBestInSlot:AddItem(spec, "31099", "Legs", "Leggings of the Forgotten Vanquisher", "BIS")
 LoonBestInSlot:AddItem(spec, "30898", "Legs", "Shady Dealer's Pantaloons", "Alt")
-LoonBestInSlot:AddItem(spec, "28741", "Legs", "Skulker's Greaves", "Alt")
 LoonBestInSlot:AddItem(spec, "30148", "Legs", "Deathmantle Legguards", "Alt")
 LoonBestInSlot:AddItem(spec, "30245", "Legs", "Leggings of the Vanquished Champion", "Alt")
 
@@ -68,14 +64,11 @@ LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "BIS")
 LoonBestInSlot:AddItem(spec, "30450", "Trinket", "Warp-Spring Coil", "BIS")
 LoonBestInSlot:AddItem(spec, "32505", "Trinket", "Madness of the Betrayer", "Alt")
 LoonBestInSlot:AddItem(spec, "32492", "Trinket", "Ashtongue Talisman of Lethality", "Alt")
-LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32837", "MH", "Warglaive of Azzinoth", "BIS")
 LoonBestInSlot:AddItem(spec, "33762", "MH", "Vengeful Gladiator's Slicer", "Alt")
 LoonBestInSlot:AddItem(spec, "30881", "MH", "Blade of Infamy", "Alt")
 LoonBestInSlot:AddItem(spec, "30082", "MH", "Talon of Azshara", "Alt")
-LoonBestInSlot:AddItem(spec, "28439", "MH", "Dragonstrike", "Alt")
-LoonBestInSlot:AddItem(spec, "32052", "MH", "Merciless Gladiator's Slicer", "Alt")
 LoonBestInSlot:AddItem(spec, "32471", "MH", "Shard of Azzinoth", "BIS Dagger")
 LoonBestInSlot:AddItem(spec, "33754", "MH", "Vengeful Gladiator's Shanker", "Alt Dagger")
 
@@ -88,5 +81,3 @@ LoonBestInSlot:AddItem(spec, "30865", "OH", "Tracker's Blade", "Alt Dagger")
 
 LoonBestInSlot:AddItem(spec, "29949", "Ranged", "Arcanite Steam-Pistol", "BIS")
 LoonBestInSlot:AddItem(spec, "32326", "Ranged", "Twisted Blades of Zarak", "Alt")
-LoonBestInSlot:AddItem(spec, "30724", "Ranged", "Barrel-Blade Longrifle", "Alt")
-LoonBestInSlot:AddItem(spec, "28772", "Ranged", "Sunfury Bow of the Phoenix", "Alt")
