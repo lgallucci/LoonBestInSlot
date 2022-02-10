@@ -37,22 +37,7 @@ public partial class WowheadReader : Window
             {
                 var items = await new WowheadGuideParser().ParseWowheadGuide(specMapping, cmbSpec.SelectedValue.ToString(), txtPhase.Text);
 
-                var oldPhaseNumber = phaseNumber - 2;
-
-                Dictionary<int, ItemSpec> oldItems = new Dictionary<int, ItemSpec>();
-                if (oldPhaseNumber >= 0)
-                {
-                    for (int i = 0; i <= oldPhaseNumber; i++)
-                    {
-                        var phaseItems = new ItemSpecFileManager().ReadPhaseFromFile(Constants.AddonPath + $@"Guides\Phase{i}\{cmbSpec.SelectedValue.ToString()}.lua");
-
-                        foreach (var item in phaseItems)
-                            if (!oldItems.ContainsKey(item.Key))
-                                oldItems.Add(item.Key, item.Value);
-                            else
-                                oldItems[item.Key].BisStatus = item.Value.BisStatus;
-                    }
-                }
+                var oldItems = ExcludeItemsFromPhaseGuide(items, phaseNumber, cmbSpec.SelectedValue.ToString());
 
                 foreach (var item in items)
                 {
@@ -92,6 +77,28 @@ public partial class WowheadReader : Window
         {
             ConsoleOut.Text = ex.ToString();
         }
+    }
+
+    private Dictionary<int, ItemSpec> ExcludeItemsFromPhaseGuide(Dictionary<int, ItemSpec> items, int phaseNumber, string specName)
+    {
+        var oldPhaseNumber = phaseNumber - 1;
+
+        Dictionary<int, ItemSpec> oldItems = new Dictionary<int, ItemSpec>();
+        if (oldPhaseNumber >= 0)
+        {
+            for (int i = 0; i <= oldPhaseNumber; i++)
+            {
+                var phaseItems = new ItemSpecFileManager().ReadPhaseFromFile(Constants.AddonPath + $@"Guides\Phase{i}\{specName}.lua");
+
+                foreach (var item in phaseItems)
+                    if (!oldItems.ContainsKey(item.Key))
+                        oldItems.Add(item.Key, item.Value);
+                    else
+                        oldItems[item.Key].BisStatus = item.Value.BisStatus;
+            }
+        }
+
+        return oldItems;
     }
 
     private async void Read_Click(object sender, RoutedEventArgs e)

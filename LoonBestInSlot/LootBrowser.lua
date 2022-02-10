@@ -132,6 +132,23 @@ local function IsInZone(specItem)
     return false;
 end
 
+local function IsNotInClassic(specItem)
+    if specItem.SourceLocation == "Molten Core" then
+        return false;
+    elseif specItem.SourceLocation == "Blackwing Lair" then
+        return false;
+     elseif specItem.SourceLocation == "Zul'Gurub" then
+        return false;
+    elseif specItem.SourceLocation == "Ruins of Ahn'Qiraj" then
+        return false;
+    elseif specItem.SourceLocation == "Temple of Ahn'Qiraj" then
+        return false;
+    elseif specItem.SourceLocation == "Naxxramas" then
+        return false;
+    end
+    return true;
+end
+
 local function createItemRow(specItem, specItemSource, point)
     local window = LoonBestInSlot.BrowserWindow.Window;
     local spacing = 1;
@@ -142,8 +159,10 @@ local function createItemRow(specItem, specItemSource, point)
     local reusing = false;
     
 
-    if item == nil then
-        print("Failed to find object"..specItem.Id);
+    if item == nil or item.Id == nil or item.Link == nil or item.Type == nil then
+        LoonBestInSlot:Error("LoonBestInSlot: Failed to find object: ", specItem.Id);
+        LoonBestInSlot:Error("LoonBestInSlot: Pending Item count: ", LoonBestInSlot.PendingCount)
+        LoonBestInSlot:Error("LoonBestInSlot: Pending Items: ", LoonBestInSlot.PendingItems)
         return;
     end
 
@@ -174,7 +193,7 @@ local function createItemRow(specItem, specItemSource, point)
         b:SetPoint("TOPLEFT", f, 2, -5);
         
         t = f:CreateFontString(nil, nil, "GameFontNormal");
-        t:SetText((item.Link or item.Name or "ERROR!"..item.Id):gsub("[%[%]]", ""));
+        t:SetText((item.Link or item.Name):gsub("[%[%]]", ""));
         t:SetPoint("TOPLEFT", b, "TOPRIGHT", 2, -2);
 
         local type = item.Type;
@@ -421,7 +440,7 @@ function LoonBestInSlot.BrowserWindow:UpdateItemsForSpec()
         if specItemSource == nil then
             LoonBestInSlot:Error("Missing item source: ", specItem);
         else
-            if IsInSlot(specItem) and IsInPhase(specItem, specItemSource) and IsInSource(specItemSource) and IsInZone(specItemSource) then
+            if IsInSlot(specItem) and IsInPhase(specItem, specItemSource) and IsInSource(specItemSource) and IsInZone(specItemSource) and IsNotInClassic(specItemSource) then
                 point = createItemRow(specItem, specItemSource, point);
             end
         end

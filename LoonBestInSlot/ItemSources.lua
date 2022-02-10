@@ -36,7 +36,7 @@ LoonBestInSlot.ItemSources =
     [20966] = { Name = "Jade Pendant of Blasting", SourceType = "Profession", Source = "Jewelcrafting (160)", SourceLocation = "" },
     [21186] = { Name = "Rockfury Bracers", SourceType = "Reputation", Source = "Cenarion Circle (Revered)", SourceLocation = "Vargus" },
     [21269] = { Name = "Blessed Qiraji Bulwark", SourceType = "Quest", Source = "Imperial Qiraji Armaments", SourceLocation = "Temple of Ahn'Qiraj" },
-    [21459] = { Name = "Crossbow of Imminent Doom", SourceType = "Drop", Source = "Ossirian the Unscarred", SourceLocation = "Ruins of Ahn'Qiraj'" },
+    [21459] = { Name = "Crossbow of Imminent Doom", SourceType = "Drop", Source = "Ossirian the Unscarred", SourceLocation = "Ruins of Ahn'Qiraj" },
     [21582] = { Name = "Grasp of the Old God", SourceType = "Drop", Source = "C'Thun", SourceLocation = "Temple of Ahn'Qiraj" },
     [21583] = { Name = "Cloak of Clarity", SourceType = "Drop", Source = "C'Thun", SourceLocation = "Temple of Ahn'Qiraj" },
     [21585] = { Name = "Dark Storm Gauntlets", SourceType = "Drop", Source = "C'Thun", SourceLocation = "Temple of Ahn'Qiraj" },

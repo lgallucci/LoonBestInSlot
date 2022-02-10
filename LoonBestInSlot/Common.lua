@@ -11,6 +11,7 @@ function LoonBestInSlot:PreCacheItems()
 
             if not cacheSuccessful then
                 LoonBestInSlot.PendingItems[itemId] = true;
+				LoonBestInSlot.PendingCount = LoonBestInSlot.PendingCount + 1;
             end
         end
     end
@@ -49,28 +50,29 @@ function LoonBestInSlot:GetItemInfo(itemIdString)
     local itemId = tonumber(itemIdString);
 
     if not itemId then
-        LoonBestInSlot:Debug("bad itemId: ", itemIdString);
+        LoonBestInSlot:Debug("LoonBestInSlot: bad itemId: ", itemIdString);
         return;
     end
 
     local item = LoonBestInSlot.ItemCache[itemId];
 
     if itemId <= 0 then
+        LoonBestInSlot:Error("LoonBestInSlot: item id < 0: "..itemId);
         return { Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil };
     end
 
     if not item then
         local name, link, quality, _, _, itemtype, subtype, _, _, texture = GetItemInfo(itemId);
 
-            item = {
-                Id = itemId,
-                Name = name,
-                Link = link,
-                Quality = quality,
-                Type = itemtype,
-                SubType = subtype,
-                Texture = texture,
-            };
+        item = {
+            Id = itemId,
+            Name = name,
+            Link = link,
+            Quality = quality,
+            Type = itemtype,
+            SubType = subtype,
+            Texture = texture,
+        };
 
         if name then
             LoonBestInSlot.ItemCache[itemId] = item;

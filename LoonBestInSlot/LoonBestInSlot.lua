@@ -8,6 +8,7 @@ LoonBestInSlot.SpecItems = {};
 LoonBestInSlot.ItemCache = {};
 LoonBestInSlot.AllItemsCached = false;
 LoonBestInSlot.PendingItems = {};
+LoonBestInSlot.PendingCount = 0;
 LoonBestInSlot.CurrentPhase = 3;
 LoonBestInSlot.EventFrame = CreateFrame("FRAME",addonName.."Events")
 
@@ -29,6 +30,7 @@ function LoonBestInSlot:Startup()
             
             if cacheSuccessful then
                 self.PendingItems[itemId] = nil;
+				LoonBestInSlot.PendingCount = LoonBestInSlot.PendingCount - 1;
             end
         end
     end);
