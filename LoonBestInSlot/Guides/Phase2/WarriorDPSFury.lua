@@ -67,13 +67,10 @@ LoonBestInSlot:AddItem(spec, "30738", "Ring", "Ring of Reciprocity", "Alt")
 LoonBestInSlot:AddItem(spec, "28730", "Ring", "Mithril Band of the Unscarred", "Alt")
 LoonBestInSlot:AddItem(spec, "28757", "Ring", "Ring of a Thousand Marks", "Alt")
 LoonBestInSlot:AddItem(spec, "31920", "Ring", "Shaffar's Band of Brutality", "Alt")
-LoonBestInSlot:AddItem(spec, "29379", "Ring", "Ring of Arathi Warlords", "Alt")
-LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "BIS")
 LoonBestInSlot:AddItem(spec, "30627", "Trinket", "Tsunami Talisman", "BIS")
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS")
-LoonBestInSlot:AddItem(spec, "21670", "Trinket", "Badge of the Swarmguard", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28439", "MH", "Dragonstrike", "BIS")
 LoonBestInSlot:AddItem(spec, "28438", "MH", "Dragonmaw", "BIS")

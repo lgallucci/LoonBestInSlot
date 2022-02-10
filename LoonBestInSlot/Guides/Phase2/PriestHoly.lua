@@ -14,10 +14,12 @@ LoonBestInSlot:AddItem(spec, "29764", "Shoulders", "Pauldrons of the Fallen Defe
 
 LoonBestInSlot:AddItem(spec, "29989", "Back", "Sunshower Light Cloak", "BIS")
 LoonBestInSlot:AddItem(spec, "28765", "Back", "Stainless Cloak of the Pure Hearted", "Alt")
+LoonBestInSlot:AddItem(spec, "29354", "Back", "Light-Touched Stole of Altruism", "Alt")
 LoonBestInSlot:AddItem(spec, "31329", "Back", "Lifegiving Cloak", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30150", "Chest", "Vestments of the Avatar", "BIS")
 LoonBestInSlot:AddItem(spec, "30237", "Chest", "Chestguard of the Vanquished Defender", "BIS")
+LoonBestInSlot:AddItem(spec, "21875", "Chest", "Primal Mooncloth Robe", "Alt")
 LoonBestInSlot:AddItem(spec, "29050", "Chest", "Robes of the Incarnate", "Alt")
 LoonBestInSlot:AddItem(spec, "29753", "Chest", "Chestguard of the Fallen Defender", "Alt")
 
@@ -30,8 +32,6 @@ LoonBestInSlot:AddItem(spec, "29249", "Bracers", "Bands of the Benevolent", "BIS
 LoonBestInSlot:AddItem(spec, "30151", "Gloves", "Gloves of the Avatar", "BIS")
 LoonBestInSlot:AddItem(spec, "30240", "Gloves", "Gloves of the Vanquished Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "28508", "Gloves", "Gloves of Saintly Blessings", "Alt")
-LoonBestInSlot:AddItem(spec, "29055", "Gloves", "Handwraps of the Incarnate", "Alt")
-LoonBestInSlot:AddItem(spec, "29758", "Gloves", "Gloves of the Fallen Defender", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30036", "Belt", "Belt of the Long Road", "BIS")
 LoonBestInSlot:AddItem(spec, "21873", "Belt", "Primal Mooncloth Belt", "BIS")
@@ -41,6 +41,7 @@ LoonBestInSlot:AddItem(spec, "30246", "Legs", "Leggings of the Vanquished Defend
 LoonBestInSlot:AddItem(spec, "30727", "Legs", "Gilded Trousers of Benediction", "BIS")
 LoonBestInSlot:AddItem(spec, "28742", "Legs", "Pantaloons of Repentance", "Alt")
 LoonBestInSlot:AddItem(spec, "29977", "Legs", "Star-Soul Breeches", "Alt")
+LoonBestInSlot:AddItem(spec, "30543", "Legs", "Pontifex Kilt", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30100", "Feet", "Soul-Strider Boots", "BIS")
 LoonBestInSlot:AddItem(spec, "30035", "Feet", "Boots of the Long Road", "Alt")
@@ -62,8 +63,8 @@ LoonBestInSlot:AddItem(spec, "29920", "Ring", "Phoenix-Ring of Rebirth", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29376", "Trinket", "Essence of the Martyr", "BIS")
 LoonBestInSlot:AddItem(spec, "28823", "Trinket", "Eye of Gruul", "BIS")
+LoonBestInSlot:AddItem(spec, "19288", "Trinket", "Darkmoon Card: Blue Dragon", "BIS")
 LoonBestInSlot:AddItem(spec, "30665", "Trinket", "Earring of Soulful Meditation", "Alt")
-LoonBestInSlot:AddItem(spec, "28590", "Trinket", "Ribbon of Sacrifice", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30108", "MH", "Lightfathom Scepter", "BIS")
 LoonBestInSlot:AddItem(spec, "32964", "MH", "Merciless Gladiator's Salvation", "BIS")

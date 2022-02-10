@@ -13,14 +13,12 @@ LoonBestInSlot:AddItem(spec, "29064", "Shoulders", "Justicar Pauldrons", "Alt")
 LoonBestInSlot:AddItem(spec, "29763", "Shoulders", "Pauldrons of the Fallen Champion", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29989", "Back", "Sunshower Light Cloak", "BIS")
-LoonBestInSlot:AddItem(spec, "28765", "Back", "Stainless Cloak of the Pure Hearted", "Alt")
 LoonBestInSlot:AddItem(spec, "31329", "Back", "Lifegiving Cloak", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30134", "Chest", "Crystalforge Chestpiece", "BIS")
 LoonBestInSlot:AddItem(spec, "30236", "Chest", "Chestguard of the Vanquished Champion", "BIS")
 LoonBestInSlot:AddItem(spec, "29062", "Chest", "Justicar Chestpiece", "Alt")
 LoonBestInSlot:AddItem(spec, "29754", "Chest", "Chestguard of the Fallen Champion", "Alt")
-LoonBestInSlot:AddItem(spec, "21875", "Chest", "Primal Mooncloth Robe", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30047", "Bracers", "Blackfathom Warbands", "BIS")
 LoonBestInSlot:AddItem(spec, "29523", "Bracers", "Windhawk Bracers", "Alt")
@@ -47,7 +45,6 @@ LoonBestInSlot:AddItem(spec, "30092", "Feet", "Orca-Hide Boots", "Alt")
 LoonBestInSlot:AddItem(spec, "30018", "Neck", "Lord Sanguinar's Claim", "BIS")
 LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
 LoonBestInSlot:AddItem(spec, "30726", "Neck", "Archaic Charm of Presence", "Alt")
-LoonBestInSlot:AddItem(spec, "28609", "Neck", "Emberspur Talisman", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30110", "Ring", "Coral Band of the Revived", "BIS")
 LoonBestInSlot:AddItem(spec, "30736", "Ring", "Ring of Flowing Light", "BIS")
@@ -63,14 +60,9 @@ LoonBestInSlot:AddItem(spec, "30841", "Trinket", "Lower City Prayerbook", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30108", "MH", "Lightfathom Scepter", "BIS")
 LoonBestInSlot:AddItem(spec, "28771", "MH", "Light's Justice", "Alt")
-LoonBestInSlot:AddItem(spec, "28522", "MH", "Shard of the Virtuous", "Alt")
-LoonBestInSlot:AddItem(spec, "23556", "MH", "Hand of Eternity", "Alt")
-LoonBestInSlot:AddItem(spec, "29353", "MH", "Shockwave Truncheon", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29923", "OH", "Talisman of the Sun King", "BIS")
 LoonBestInSlot:AddItem(spec, "29458", "OH", "Aegis of the Vindicator", "BIS")
-LoonBestInSlot:AddItem(spec, "29274", "OH", "Tears of Heaven", "Alt")
 LoonBestInSlot:AddItem(spec, "29267", "OH", "Light-Bearer's Faith Shield", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28592", "Libram", "Libram of Souls Redeemed", "BIS")
-LoonBestInSlot:AddItem(spec, "23006", "Libram", "Libram of Light", "Alt")

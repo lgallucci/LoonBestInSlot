@@ -12,12 +12,9 @@ LoonBestInSlot:AddItem(spec, "30055", "Shoulders", "Shoulderpads of the Stranger
 LoonBestInSlot:AddItem(spec, "29100", "Shoulders", "Mantle of Malorne", "Alt")
 LoonBestInSlot:AddItem(spec, "29764", "Shoulders", "Pauldrons of the Fallen Defender", "Alt")
 LoonBestInSlot:AddItem(spec, "31971", "Shoulders", "Merciless Gladiator's Dragonhide Spaulders", "Alt")
-LoonBestInSlot:AddItem(spec, "28755", "Shoulders", "Bladed Shoulderpads of the Merciless", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28660", "Back", "Gilded Thorium Cloak", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "29994", "Back", "Thalassian Wildercloak", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "24258", "Back", "Resolute Cape", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "28256", "Back", "Thoriumweave Cloak", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "28672", "Back", "Drape of the Dark Reavers", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "30098", "Back", "Razor-Scale Battlecloak", "Alt")
 
@@ -30,6 +27,10 @@ LoonBestInSlot:AddItem(spec, "30101", "Chest", "Bloodsea Brigand's Vest", "Alt T
 
 LoonBestInSlot:AddItem(spec, "29966", "Bracers", "Vambraces of Ending", "BIS")
 LoonBestInSlot:AddItem(spec, "32810", "Bracers", "Veteran's Dragonhide Bracers", "BIS Mit")
+LoonBestInSlot:AddItem(spec, "28978", "Bracers", "Marshal's Dragonhide Bracers", "Alt")
+LoonBestInSlot:AddItem(spec, "28445", "Bracers", "General's Dragonhide Bracers", "Alt")
+LoonBestInSlot:AddItem(spec, "28988", "Bracers", "Marshal's Leather Bracers", "Alt")
+LoonBestInSlot:AddItem(spec, "28424", "Bracers", "General's Leather Bracers", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30223", "Gloves", "Nordrassil Handgrips", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "30240", "Gloves", "Gloves of the Vanquished Defender", "BIS Mit")
@@ -38,7 +39,6 @@ LoonBestInSlot:AddItem(spec, "29097", "Gloves", "Gauntlets of Malorne", "Alt Mit
 LoonBestInSlot:AddItem(spec, "29758", "Gloves", "Gloves of the Fallen Defender", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "30644", "Gloves", "Grips of Deftness", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "31967", "Gloves", "Merciless Gladiator's Dragonhide Gloves", "Alt")
-LoonBestInSlot:AddItem(spec, "28506", "Gloves", "Gloves of Dexterous Manipulation", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30106", "Belt", "Belt of One-Hundred Deaths", "BIS")
 LoonBestInSlot:AddItem(spec, "30042", "Belt", "Belt of Natural Power", "Alt")
@@ -65,8 +65,6 @@ LoonBestInSlot:AddItem(spec, "33066", "Neck", "Veteran's Pendant of Triumph", "B
 LoonBestInSlot:AddItem(spec, "30099", "Neck", "Frayed Tether of the Drowned", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "28509", "Neck", "Worgen Claw Necklace", "Alt")
 LoonBestInSlot:AddItem(spec, "29381", "Neck", "Choker of Vile Intent", "Alt")
-LoonBestInSlot:AddItem(spec, "28674", "Neck", "Saberclaw Talisman", "Alt")
-LoonBestInSlot:AddItem(spec, "28745", "Neck", "Mithril Chain of Heroism", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29279", "Ring", "Violet Signet of the Great Protector", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "28792", "Ring", "A'dal's Signet of Defense", "BIS Mit")
@@ -75,8 +73,6 @@ LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "BIS Thrt
 LoonBestInSlot:AddItem(spec, "29997", "Ring", "Band of the Ranger-General", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "30052", "Ring", "Ring of Lethality", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "33054", "Ring", "The Seal of Danzalar", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "29384", "Ring", "Ring of Unyielding Force", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "28649", "Ring", "Garona's Signet Ring", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "30061", "Ring", "Ancestral Ring of Conquest", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "32658", "Trinket", "Badge of Tenacity", "BIS")
@@ -90,10 +86,13 @@ LoonBestInSlot:AddItem(spec, "23836", "Trinket", "Goblin Rocket Launcher", "Alt 
 LoonBestInSlot:AddItem(spec, "23835", "Trinket", "Gnomish Poultryizer", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "30620", "Trinket", "Spyglass of the Hidden Fleet", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "13503", "Trinket", "Alchemist's Stone", "Alt")
+LoonBestInSlot:AddItem(spec, "19406", "Trinket", "Drake Fang Talisman", "Alt")
+LoonBestInSlot:AddItem(spec, "29181", "Trinket", "Timelapse Shard", "BIS Mit")
 
 LoonBestInSlot:AddItem(spec, "30021", "2H", "Wildfury Greatstaff", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "32014", "2H", "Merciless Gladiator's Maul", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "28658", "2H", "Terestian's Stranglestaff", "Alt")
+LoonBestInSlot:AddItem(spec, "28476", "2H", "Gladiator's Maul", "Alt")
 LoonBestInSlot:AddItem(spec, "29171", "2H", "Earthwarden", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32387", "Idol", "Idol of the Raven Goddess", "BIS")
