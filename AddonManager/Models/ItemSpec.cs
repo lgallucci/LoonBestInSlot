@@ -21,6 +21,7 @@ public class ItemSpec
     {
         new Tuple<string, string>(" -", ""),
         new Tuple<string, string>("BiS", "BIS"),
+        new Tuple<string, string>("All", "BIS"),
         new Tuple<string, string>("Recommended", "BIS"),
         new Tuple<string, string>("Best in slot", "BIS"),
         new Tuple<string, string>("Best", "BIS"),

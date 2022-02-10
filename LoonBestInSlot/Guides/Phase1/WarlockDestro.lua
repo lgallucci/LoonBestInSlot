@@ -51,14 +51,12 @@ LoonBestInSlot:AddItem(spec, "28793", "Ring", "Band of Crimson Fury", "BIS")
 LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "BIS")
 LoonBestInSlot:AddItem(spec, "29172", "Ring", "Ashyen's Gift", "BIS")
 LoonBestInSlot:AddItem(spec, "28227", "Ring", "Sparking Arcanite Ring", "Alt")
-LoonBestInSlot:AddItem(spec, "21709", "Ring", "Ring of the Fallen God", "Alt")
 LoonBestInSlot:AddItem(spec, "28753", "Ring", "Ring of Recurrence", "BIS")
 LoonBestInSlot:AddItem(spec, "29287", "Ring", "Violet Signet of the Archmage", "BIS")
 
 LoonBestInSlot:AddItem(spec, "27683", "Trinket", "Quagmirran's Eye", "BIS")
 LoonBestInSlot:AddItem(spec, "29370", "Trinket", "Icon of the Silver Crescent", "BIS")
 LoonBestInSlot:AddItem(spec, "29132", "Trinket", "Scryer's Bloodgem", "BIS")
-LoonBestInSlot:AddItem(spec, "19379", "Trinket", "Neltharion's Tear", "Alt")
 
 LoonBestInSlot:AddItem(spec, "22630", "2H", "Atiesh, Greatstaff of the Guardian", "BIS")
 
@@ -66,13 +64,11 @@ LoonBestInSlot:AddItem(spec, "30723", "MH", "Talon of the Tempest", "BIS")
 LoonBestInSlot:AddItem(spec, "28802", "MH", "Bloodmaw Magus-Blade", "Alt")
 LoonBestInSlot:AddItem(spec, "28770", "MH", "Nathrezim Mindblade", "Alt")
 LoonBestInSlot:AddItem(spec, "28297", "MH", "Gladiator's Spellblade", "Alt")
-LoonBestInSlot:AddItem(spec, "30787", "MH", "Illidari-Bane Mageblade", "Alt")
 LoonBestInSlot:AddItem(spec, "31336", "MH", "Blade of Wizardry", "Alt")
 LoonBestInSlot:AddItem(spec, "23554", "MH", "Eternium Runed Blade", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29270", "OH", "Flametongue Seal", "BIS")
 LoonBestInSlot:AddItem(spec, "29273", "OH", "Khadgar's Knapsack", "BIS")
-LoonBestInSlot:AddItem(spec, "29272", "OH", "Orb of the Soul-Eater", "Alt")
 LoonBestInSlot:AddItem(spec, "28734", "OH", "Jewel of Infinite Possibilities", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28673", "Wand", "Tirisfal Wand of Ascendancy", "BIS")

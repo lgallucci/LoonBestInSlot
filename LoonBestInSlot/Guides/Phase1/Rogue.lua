@@ -1,7 +1,6 @@
 local spec = LoonBestInSlot:RegisterSpec("Rogue", "", "1")
 LoonBestInSlot:AddItem(spec, "29044", "Head", "Netherblade Facemask", "BIS")
 LoonBestInSlot:AddItem(spec, "29760", "Head", "Helm of the Fallen Champion", "BIS")
-LoonBestInSlot:AddItem(spec, "28224", "Head", "Wastewalker Helm", "Alt")
 LoonBestInSlot:AddItem(spec, "28732", "Head", "Cowl of Defiance", "Alt")
 LoonBestInSlot:AddItem(spec, "28796", "Head", "Malefic Mask of the Shadows", "Alt")
 
@@ -12,7 +11,6 @@ LoonBestInSlot:AddItem(spec, "28755", "Shoulders", "Bladed Shoulderpads of the M
 
 LoonBestInSlot:AddItem(spec, "28672", "Back", "Drape of the Dark Reavers", "BIS")
 LoonBestInSlot:AddItem(spec, "24259", "Back", "Vengeance Wrap", "Alt")
-LoonBestInSlot:AddItem(spec, "27878", "Back", "Auchenai Death Shroud", "Alt")
 LoonBestInSlot:AddItem(spec, "28777", "Back", "Cloak of the Pit Stalker", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29045", "Chest", "Netherblade Chestpiece", "BIS")
@@ -21,7 +19,6 @@ LoonBestInSlot:AddItem(spec, "30730", "Chest", "Terrorweave Tunic", "BIS")
 LoonBestInSlot:AddItem(spec, "28264", "Chest", "Wastewalker Tunic", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29246", "Bracers", "Nightfall Wristguards", "BIS")
-LoonBestInSlot:AddItem(spec, "28171", "Bracers", "Spymistress's Wristguards", "Alt")
 
 LoonBestInSlot:AddItem(spec, "27531", "Gloves", "Wastewalker Gloves", "BIS")
 LoonBestInSlot:AddItem(spec, "30644", "Gloves", "Grips of Deftness", "BIS")
@@ -57,9 +54,6 @@ LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "BIS")
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS")
 LoonBestInSlot:AddItem(spec, "28288", "Trinket", "Abacus of Violent Odds", "Alt")
 LoonBestInSlot:AddItem(spec, "28579", "Trinket", "Romulo's Poison Vial", "Alt")
-LoonBestInSlot:AddItem(spec, "22954", "Trinket", "Kiss of the Spider", "Alt")
-LoonBestInSlot:AddItem(spec, "23041", "Trinket", "Slayer's Crest", "Alt")
-LoonBestInSlot:AddItem(spec, "21670", "Trinket", "Badge of the Swarmguard", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28438", "MH", "Dragonmaw", "BIS")
 LoonBestInSlot:AddItem(spec, "28295", "MH", "Gladiator's Slicer", "BIS")
@@ -72,7 +66,6 @@ LoonBestInSlot:AddItem(spec, "28312", "MH", "Gladiator's Shanker", "Alt Dagger")
 LoonBestInSlot:AddItem(spec, "28307", "OH", "Gladiator's Quickblade", "BIS")
 LoonBestInSlot:AddItem(spec, "28189", "OH", "Latro's Shifting Sword", "BIS")
 LoonBestInSlot:AddItem(spec, "29275", "OH", "Searing Sunblade", "BIS Dagger")
-LoonBestInSlot:AddItem(spec, "28310", "OH", "Gladiator's Shiv", "Alt Dagger")
 
 LoonBestInSlot:AddItem(spec, "29151", "Ranged", "Veteran's Musket", "BIS")
 LoonBestInSlot:AddItem(spec, "29152", "Ranged", "Marksman's Bow", "BIS")

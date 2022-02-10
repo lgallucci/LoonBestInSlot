@@ -41,7 +41,7 @@ public partial class WowheadReader : Window
 
                 foreach (var item in items)
                 {
-                    if (!oldItems.ContainsKey(item.Value.ItemId) || oldItems[item.Value.ItemId].BisStatus.Contains("BIS"))
+                    if (!oldItems.ContainsKey(item.Value.ItemId) || oldItems[item.Value.ItemId].BisStatus.Contains("BIS") || item.Value.BisStatus.Contains("BIS"))
                     {
                         if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
                         {
