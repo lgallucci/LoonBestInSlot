@@ -30,6 +30,7 @@ LoonBestInSlot:AddItem(spec, "29020", "Gloves", "Warbringer Gauntlets", "Alt")
 LoonBestInSlot:AddItem(spec, "29758", "Gloves", "Gloves of the Fallen Defender", "Alt")
 LoonBestInSlot:AddItem(spec, "25685", "Gloves", "Fel Leather Gloves", "BIS")
 LoonBestInSlot:AddItem(spec, "27497", "Gloves", "Doomplate Gauntlets", "Alt")
+LoonBestInSlot:AddItem(spec, "28776", "Gloves", "Liar's Tongue Gloves", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28779", "Belt", "Girdle of the Endless Pit", "BIS")
 LoonBestInSlot:AddItem(spec, "28828", "Belt", "Gronn-Stitched Girdle", "Alt")

@@ -13,7 +13,6 @@ LoonBestInSlot:AddItem(spec, "32250", "Shoulders", "Pauldrons of Abyssal Fury", 
 
 LoonBestInSlot:AddItem(spec, "34010", "Back", "Pepe's Shroud of Pacification", "BIS")
 LoonBestInSlot:AddItem(spec, "29925", "Back", "Phoenix-Wing Cloak", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "28766", "Back", "Ruby Drape of the Mysticant", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "29992", "Back", "Royal Cloak of the Sunstriders", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "32331", "Back", "Cloak of the Illidari Council", "Alt Thrt")
 

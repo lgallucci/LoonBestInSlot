@@ -24,6 +24,7 @@ LoonBestInSlot:AddItem(spec, "29527", "Bracers", "Primalstrike Bracers", "Alt")
 LoonBestInSlot:AddItem(spec, "29517", "Bracers", "Ebon Netherscale Bracers", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30644", "Gloves", "Grips of Deftness", "BIS")
+LoonBestInSlot:AddItem(spec, "28776", "Gloves", "Liar's Tongue Gloves", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28828", "Belt", "Gronn-Stitched Girdle", "BIS")
 LoonBestInSlot:AddItem(spec, "29526", "Belt", "Primalstrike Belt", "Alt")

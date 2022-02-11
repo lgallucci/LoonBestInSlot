@@ -1540,7 +1540,7 @@ LoonBestInSlot.ItemSources =
     [32243] = { Name = "Pearl Inlaid Boots", SourceType = "Drop", Source = "High Warlord Naj'entus", SourceLocation = "Black Temple" },
     [32245] = { Name = "Tide-stomper's Greaves", SourceType = "Drop", Source = "High Warlord Naj'entus", SourceLocation = "Black Temple" },
     [32247] = { Name = "Ring of Captured Storms", SourceType = "Drop", Source = "High Warlord Naj'entus", SourceLocation = "Black Temple" },
-    [32248] = { Name = "Halberd of Desolation", SourceType = "Drop", Source = "Kael'thas Sunstrider", SourceLocation = "Tempest Keep" },
+    [32248] = { Name = "Halberd of Desolation", SourceType = "Drop", Source = "High Warlord Naj'entus", SourceLocation = "Black Temple" },
     [32250] = { Name = "Pauldrons of Abyssal Fury", SourceType = "Drop", Source = "Supremus", SourceLocation = "Black Temple" },
     [32251] = { Name = "Wraps of Precise Flight", SourceType = "Drop", Source = "Supremus", SourceLocation = "Black Temple" },
     [32252] = { Name = "Nether Shadow Tunic", SourceType = "Drop", Source = "Supremus", SourceLocation = "Black Temple" },

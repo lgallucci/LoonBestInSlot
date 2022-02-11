@@ -24,6 +24,7 @@ LoonBestInSlot:AddItem(spec, "28514", "Bracers", "Bracers of Maliciousness", "Al
 
 LoonBestInSlot:AddItem(spec, "30189", "Gloves", "Cataclysm Gauntlets", "BIS")
 LoonBestInSlot:AddItem(spec, "30239", "Gloves", "Gloves of the Vanquished Champion", "BIS")
+LoonBestInSlot:AddItem(spec, "29947", "Gloves", "Gloves of the Searing Grip", "Alt")
 LoonBestInSlot:AddItem(spec, "28776", "Gloves", "Liar's Tongue Gloves", "Alt")
 LoonBestInSlot:AddItem(spec, "30644", "Gloves", "Grips of Deftness", "Alt")
 

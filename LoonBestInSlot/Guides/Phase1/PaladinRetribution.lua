@@ -47,7 +47,7 @@ LoonBestInSlot:AddItem(spec, "29119", "Neck", "Haramad's Bargain", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "BIS")
 LoonBestInSlot:AddItem(spec, "30738", "Ring", "Ring of Reciprocity", "BIS")
-LoonBestInSlot:AddItem(spec, "28757", "Ring", "Ring of a Thousand Marks", "Bis")
+LoonBestInSlot:AddItem(spec, "28757", "Ring", "Ring of a Thousand Marks", "BIS")
 LoonBestInSlot:AddItem(spec, "28730", "Ring", "Mithril Band of the Unscarred", "Alt")
 LoonBestInSlot:AddItem(spec, "29283", "Ring", "Violet Signet of the Master Assassin", "Alt")
 LoonBestInSlot:AddItem(spec, "31920", "Ring", "Shaffar's Band of Brutality", "Alt")

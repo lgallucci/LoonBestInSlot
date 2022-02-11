@@ -23,6 +23,7 @@ LoonBestInSlot:AddItem(spec, "30486", "Chest", "Merciless Gladiator's Plate Ches
 
 LoonBestInSlot:AddItem(spec, "32818", "Bracers", "Veteran's Plate Bracers", "BIS")
 LoonBestInSlot:AddItem(spec, "28996", "Bracers", "Marshal's Plate Bracers", "Alt")
+LoonBestInSlot:AddItem(spec, "30057", "Bracers", "Bracers of Eradication", "Alt")
 LoonBestInSlot:AddItem(spec, "28502", "Bracers", "Vambraces of Courage", "Alt")
 LoonBestInSlot:AddItem(spec, "28795", "Bracers", "Bladespire Warbands", "Alt")
 
@@ -56,6 +57,7 @@ LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "BIS Thrt
 LoonBestInSlot:AddItem(spec, "29279", "Ring", "Violet Signet of the Great Protector", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "29298", "Ring", "Band of Eternity", "Alt")
 LoonBestInSlot:AddItem(spec, "30061", "Ring", "Ancestral Ring of Conquest", "Alt")
+LoonBestInSlot:AddItem(spec, "30083", "Ring", "Ring of Sundered Souls", "Alt Mit")
 
 LoonBestInSlot:AddItem(spec, "23836", "Trinket", "Goblin Rocket Launcher", "BIS Stam")
 LoonBestInSlot:AddItem(spec, "23835", "Trinket", "Gnomish Poultryizer", "BIS Stam")
@@ -73,6 +75,7 @@ LoonBestInSlot:AddItem(spec, "28825", "Shield", "Aldori Legacy Defender", "BIS")
 LoonBestInSlot:AddItem(spec, "32045", "Shield", "Merciless Gladiator's Shield Wall", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32756", "Ranged", "Gyro-Balanced Khorium Destroyer", "BIS Mit")
+LoonBestInSlot:AddItem(spec, "29949", "Ranged", "Arcanite Steam-Pistol", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "30724", "Ranged", "Barrel-Blade Longrifle", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "32054", "Ranged", "Merciless Gladiator's War Edge", "Alt")
 LoonBestInSlot:AddItem(spec, "30025", "Ranged", "Serpentshrine Shuriken", "Alt")

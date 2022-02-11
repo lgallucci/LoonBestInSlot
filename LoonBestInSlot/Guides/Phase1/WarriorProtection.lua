@@ -15,6 +15,7 @@ LoonBestInSlot:AddItem(spec, "28743", "Shoulders", "Mantle of Abrahmis", "Alt Mi
 LoonBestInSlot:AddItem(spec, "28672", "Back", "Drape of the Dark Reavers", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "28529", "Back", "Royal Cloak of Arathi Kings", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "28660", "Back", "Gilded Thorium Cloak", "BIS Mit")
+LoonBestInSlot:AddItem(spec, "28777", "Back", "Cloak of the Pit Stalker", "Alt")
 LoonBestInSlot:AddItem(spec, "29385", "Back", "Farstrider Defender's Cloak", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29012", "Chest", "Warbringer Chestguard", "BIS")

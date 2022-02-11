@@ -13,6 +13,7 @@ LoonBestInSlot:AddItem(spec, "30248", "Shoulders", "Pauldrons of the Vanquished 
 
 LoonBestInSlot:AddItem(spec, "29925", "Back", "Phoenix-Wing Cloak", "BIS")
 LoonBestInSlot:AddItem(spec, "27804", "Back", "Devilshark Cape", "Alt")
+LoonBestInSlot:AddItem(spec, "29992", "Back", "Royal Cloak of the Sunstriders", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "29066", "Chest", "Justicar Chestguard", "BIS")
 LoonBestInSlot:AddItem(spec, "29754", "Chest", "Chestguard of the Fallen Champion", "BIS")

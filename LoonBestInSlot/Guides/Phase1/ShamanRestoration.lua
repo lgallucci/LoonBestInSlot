@@ -52,6 +52,7 @@ LoonBestInSlot:AddItem(spec, "31923", "Ring", "Band of the Crystalline Void", "A
 
 LoonBestInSlot:AddItem(spec, "29376", "Trinket", "Essence of the Martyr", "BIS")
 LoonBestInSlot:AddItem(spec, "28190", "Trinket", "Scarab of the Infinite Cycle", "BIS")
+LoonBestInSlot:AddItem(spec, "28590", "Trinket", "Ribbon of Sacrifice", "BIS")
 
 LoonBestInSlot:AddItem(spec, "28771", "MH", "Light's Justice", "BIS")
 LoonBestInSlot:AddItem(spec, "32451", "MH", "Gladiator's Salvation", "Alt")

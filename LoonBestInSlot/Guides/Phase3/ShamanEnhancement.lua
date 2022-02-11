@@ -59,7 +59,6 @@ LoonBestInSlot:AddItem(spec, "32526", "Ring", "Band of Devastation", "Alt")
 LoonBestInSlot:AddItem(spec, "32335", "Ring", "Unstoppable Aggressor's Ring", "Alt")
 LoonBestInSlot:AddItem(spec, "32266", "Ring", "Ring of Deceitful Intent", "Alt")
 LoonBestInSlot:AddItem(spec, "30052", "Ring", "Ring of Lethality", "Alt")
-LoonBestInSlot:AddItem(spec, "28730", "Ring", "Mithril Band of the Unscarred", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32505", "Trinket", "Madness of the Betrayer", "BIS")
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS")
