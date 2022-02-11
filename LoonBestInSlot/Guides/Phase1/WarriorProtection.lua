@@ -53,6 +53,7 @@ LoonBestInSlot:AddItem(spec, "29386", "Neck", "Necklace of the Juggernaut", "BIS
 LoonBestInSlot:AddItem(spec, "28516", "Neck", "Barbed Choker of Discipline", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "28509", "Neck", "Worgen Claw Necklace", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "28244", "Neck", "Pendant of Triumph", "Alt Thrt")
+LoonBestInSlot:AddItem(spec, "28674", "Neck", "Saberclaw Talisman", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29279", "Ring", "Violet Signet of the Great Protector", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "BIS Thrt")

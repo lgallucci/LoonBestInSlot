@@ -37,6 +37,7 @@ LoonBestInSlot:AddItem(spec, "30034", "Belt", "Belt of the Guardian", "BIS")
 LoonBestInSlot:AddItem(spec, "30096", "Belt", "Girdle of the Invulnerable", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "29253", "Belt", "Girdle of Valorous Deeds", "Alt")
 LoonBestInSlot:AddItem(spec, "28566", "Belt", "Crimson Girdle of the Indomitable", "Alt")
+LoonBestInSlot:AddItem(spec, "30064", "Belt", "Cord of Screaming Terrors", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "30126", "Legs", "Crystalforge Legguards", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "30245", "Legs", "Leggings of the Vanquished Champion", "BIS Thrt")

@@ -66,3 +66,6 @@ LoonBestInSlot:AddItem(spec, "29458", "OH", "Aegis of the Vindicator", "BIS")
 LoonBestInSlot:AddItem(spec, "29267", "OH", "Light-Bearer's Faith Shield", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28592", "Libram", "Libram of Souls Redeemed", "BIS")
+LoonBestInSlot:AddItem(spec, "23006", "Libram", "Libram of Light", "Alt")
+LoonBestInSlot:AddItem(spec, "30063", "Libram", "Libram of Absolute Truth", "Alt")
+LoonBestInSlot:AddItem(spec, "28296", "Libram", "Libram of the Lightbringer", "Alt")

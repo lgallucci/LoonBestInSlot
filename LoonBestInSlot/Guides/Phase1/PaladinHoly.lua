@@ -85,4 +85,5 @@ LoonBestInSlot:AddItem(spec, "29274", "OH", "Tears of Heaven", "Alt")
 LoonBestInSlot:AddItem(spec, "22819", "OH", "Shield of Condemnation", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28592", "Libram", "Libram of Souls Redeemed", "BIS")
+LoonBestInSlot:AddItem(spec, "28296", "Libram", "Libram of the Lightbringer", "Alt")
 LoonBestInSlot:AddItem(spec, "23006", "Libram", "Libram of Light", "Alt")
