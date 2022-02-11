@@ -164,6 +164,7 @@ local function createItemRow(specItem, specItemSource, point)
         LoonBestInSlot:Error("LoonBestInSlot: Pending Item count: ", LoonBestInSlot.PendingCount)
         LoonBestInSlot:Error("LoonBestInSlot: Pending Item ("..specItem.Id.."): ", LoonBestInSlot.PendingItems[specItem.Id])
         LoonBestInSlot:Error("LoonBestInSlot: Item Cache ("..specItem.Id.."): ",LoonBestInSlot.ItemCache[specItem.Id]
+        LoonBestInSlot:Error("Failed to load one or more items.  Type /reload to fix");
         return point;
     end
 
