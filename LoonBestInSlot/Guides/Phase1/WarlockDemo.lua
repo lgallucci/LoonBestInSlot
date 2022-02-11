@@ -18,7 +18,6 @@ LoonBestInSlot:AddItem(spec, "21871", "Chest", "Frozen Shadoweave Robe", "Alt")
 LoonBestInSlot:AddItem(spec, "28602", "Chest", "Robe of the Elder Scribes", "Alt")
 
 LoonBestInSlot:AddItem(spec, "24250", "Bracers", "Bracers of Havok", "BIS")
-LoonBestInSlot:AddItem(spec, "24692", "Bracers", "Elementalist Bracelets", "Alt")
 LoonBestInSlot:AddItem(spec, "28515", "Bracers", "Bands of Nefarious Deeds", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30725", "Gloves", "Anger-Spark Gloves", "Alt")
