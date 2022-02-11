@@ -1,4 +1,0 @@
-Opening Window too soon after first login causes error.
-
-PvP Items have all been reset and are not showing anything
-
