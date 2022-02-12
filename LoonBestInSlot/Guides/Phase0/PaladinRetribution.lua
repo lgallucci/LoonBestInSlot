@@ -58,7 +58,6 @@ LoonBestInSlot:AddItem(spec, "31380", "Ring", "Acrobat's Mark of the Sha'tar", "
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS")
 LoonBestInSlot:AddItem(spec, "28034", "Trinket", "Hourglass of the Unraveller", "BIS")
 LoonBestInSlot:AddItem(spec, "28288", "Trinket", "Abacus of Violent Odds", "Alt")
-LoonBestInSlot:AddItem(spec, "31856", "Trinket", "Darkmoon Card: Crusade", "Alt")
 LoonBestInSlot:AddItem(spec, "22954", "Trinket", "Kiss of the Spider", "Alt")
 LoonBestInSlot:AddItem(spec, "23041", "Trinket", "Slayer's Crest", "Alt")
 LoonBestInSlot:AddItem(spec, "19406", "Trinket", "Drake Fang Talisman", "Alt")

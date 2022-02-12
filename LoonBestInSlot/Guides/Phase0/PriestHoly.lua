@@ -95,7 +95,6 @@ LoonBestInSlot:AddItem(spec, "29814", "Ring", "Celestial Jewel Ring", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29376", "Trinket", "Essence of the Martyr", "BIS")
 LoonBestInSlot:AddItem(spec, "21625", "Trinket", "Scarab Brooch", "BIS")
-LoonBestInSlot:AddItem(spec, "19288", "Trinket", "Darkmoon Card: Blue Dragon", "Alt")
 LoonBestInSlot:AddItem(spec, "23047", "Trinket", "Eye of the Dead", "Alt")
 LoonBestInSlot:AddItem(spec, "19395", "Trinket", "Rejuvenating Gem", "Alt")
 LoonBestInSlot:AddItem(spec, "28190", "Trinket", "Scarab of the Infinite Cycle", "Alt")
