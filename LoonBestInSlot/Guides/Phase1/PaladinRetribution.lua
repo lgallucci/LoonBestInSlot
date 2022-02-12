@@ -13,7 +13,6 @@ LoonBestInSlot:AddItem(spec, "27883", "Shoulders", "Gladiator's Scaled Shoulders
 LoonBestInSlot:AddItem(spec, "33122", "Back", "Cloak of Darkness", "BIS")
 LoonBestInSlot:AddItem(spec, "24259", "Back", "Vengeance Wrap", "Alt")
 LoonBestInSlot:AddItem(spec, "27878", "Back", "Auchenai Death Shroud", "BIS")
-LoonBestInSlot:AddItem(spec, "28529", "Back", "Royal Cloak of Arathi Kings", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29071", "Chest", "Justicar Breastplate", "BIS")
 LoonBestInSlot:AddItem(spec, "29754", "Chest", "Chestguard of the Fallen Champion", "BIS")
@@ -61,7 +60,7 @@ LoonBestInSlot:AddItem(spec, "28034", "Trinket", "Hourglass of the Unraveller", 
 LoonBestInSlot:AddItem(spec, "28579", "Trinket", "Romulo's Poison Vial", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28429", "2H", "Lionheart Champion", "BIS")
-LoonBestInSlot:AddItem(spec, "30722", "2H", "Ethereum Nexus-Reaver", "BIS")
+LoonBestInSlot:AddItem(spec, "30722", "2H", "Ethereum Nexus-Reaver", "Alt")
 LoonBestInSlot:AddItem(spec, "28441", "2H", "Deep Thunder", "Alt")
 LoonBestInSlot:AddItem(spec, "28773", "2H", "Gorehowl", "Alt")
 LoonBestInSlot:AddItem(spec, "24550", "2H", "Gladiator's Greatsword", "Alt")

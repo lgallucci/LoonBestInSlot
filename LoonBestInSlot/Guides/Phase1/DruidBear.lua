@@ -70,7 +70,6 @@ LoonBestInSlot:AddItem(spec, "28675", "Ring", "Shermanar Great-Ring", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "28757", "Ring", "Ring of a Thousand Marks", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "28649", "Ring", "Garona's Signet Ring", "Alt Thrt")
 
-LoonBestInSlot:AddItem(spec, "28579", "Trinket", "Romulo's Poison Vial", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "23836", "Trinket", "Goblin Rocket Launcher", "BIS Mit")

@@ -22,22 +22,41 @@ public partial class WowheadReader : Window
     private async void Import_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = string.Empty;
+        var phaseNumber = Int32.Parse(txtPhase.Text.Replace("Phase", ""));
 
+        ConsoleOut.Text = await ImportClass(cmbSpec.SelectedValue.ToString(), phaseNumber);
+    }
+
+    private async void ImportAll_Click(object sender, RoutedEventArgs e)
+    {
+        ConsoleOut.Text = string.Empty;
+
+        var phaseNumber = Int32.Parse(txtPhase.Text.Replace("Phase", ""));
+
+        foreach (string spec in SpecList)
+        {
+            await ImportClass(spec, phaseNumber);
+            ConsoleOut.Text += $"{spec} Completed!" + Environment.NewLine;
+        }
+    }
+
+    private async Task<string> ImportClass(string className, int phaseNumber)
+    {
+        var sb = new StringBuilder();
         try
         {
-            var phaseNumber = Int32.Parse(txtPhase.Text.Replace("Phase", ""));
             var itemSources = new ItemSourceFileManager().ReadItemSources();
 
-            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == $"{cmbSpec.SelectedValue.ToString()}{txtPhase.Text}");
+            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == $"{className}Phase{phaseNumber}");
 
             if (specMapping == null)
-                specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == cmbSpec.SelectedValue.ToString());
+                specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == className);
 
             if (specMapping != null)
             {
-                var items = await new WowheadGuideParser().ParseWowheadGuide(specMapping, cmbSpec.SelectedValue.ToString(), txtPhase.Text);
+                var items = await new WowheadGuideParser().ParseWowheadGuide(specMapping, className, txtPhase.Text);
 
-                var oldItems = ExcludeItemsFromPhaseGuide(items, phaseNumber, cmbSpec.SelectedValue.ToString());
+                var oldItems = ExcludeItemsFromPhaseGuide(items, phaseNumber, className);
 
                 foreach (var item in items)
                 {
@@ -55,28 +74,29 @@ public partial class WowheadReader : Window
                             });
                         }
 
-                        ConsoleOut.Text += $"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}\n";
+                        sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
                     }
                     else
                     {
                         items.Remove(item.Value.ItemId);
-                        ConsoleOut.Text += $"Skipped: {item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}\n";
+                        sb.AppendLine($"Skipped: {item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
                     }
                 }
 
-                new ItemSpecFileManager().WriteItemSpec(Constants.AddonPath + $@"Guides\Phase{phaseNumber}\{cmbSpec.SelectedValue.ToString()}.lua", specMapping.ClassName, specMapping.SpecName, txtPhase.Text, items);
+                new ItemSpecFileManager().WriteItemSpec(Constants.AddonPath + $@"Guides\Phase{phaseNumber}\{className}.lua", specMapping.ClassName, specMapping.SpecName, txtPhase.Text, items);
 
                 new ItemSourceFileManager().WriteItemSources(itemSources);
             }
             else
             {
-                ConsoleOut.Text = $"Couldn't find spec: {cmbSpec.SelectedValue.ToString()}";
+                sb.AppendLine($"Couldn't find spec: {className}");
             }
         }
         catch (Exception ex)
         {
-            ConsoleOut.Text = ex.ToString();
+            sb.AppendLine(ex.ToString());
         }
+        return sb.ToString();
     }
 
     private Dictionary<int, ItemSpec> ExcludeItemsFromPhaseGuide(Dictionary<int, ItemSpec> items, int phaseNumber, string specName)

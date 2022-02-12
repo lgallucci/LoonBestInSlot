@@ -81,7 +81,6 @@ LoonBestInSlot:AddItem(spec, "32658", "Trinket", "Badge of Tenacity", "Alt")
 LoonBestInSlot:AddItem(spec, "30627", "Trinket", "Tsunami Talisman", "Alt")
 LoonBestInSlot:AddItem(spec, "34576", "Trinket", "Battlemaster's Cruelty", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "31858", "Trinket", "Darkmoon Card: Vengeance", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "28579", "Trinket", "Romulo's Poison Vial", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "30883", "2H", "Pillar of Ferocity", "BIS")
 LoonBestInSlot:AddItem(spec, "33716", "2H", "Vengeful Gladiator's Staff", "Alt Mit")
