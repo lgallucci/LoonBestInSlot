@@ -25,7 +25,6 @@ LoonBestInSlot:AddItem(spec, "30091", "Bracers", "True-Aim Stalker Bands", "Alt"
 
 LoonBestInSlot:AddItem(spec, "32234", "Gloves", "Fists of Mukoa", "BIS")
 LoonBestInSlot:AddItem(spec, "32347", "Gloves", "Grips of Damnation", "BIS")
-LoonBestInSlot:AddItem(spec, "29947", "Gloves", "Gloves of the Searing Grip", "Alt")
 LoonBestInSlot:AddItem(spec, "30189", "Gloves", "Cataclysm Gauntlets", "Alt")
 LoonBestInSlot:AddItem(spec, "30239", "Gloves", "Gloves of the Vanquished Champion", "Alt")
 

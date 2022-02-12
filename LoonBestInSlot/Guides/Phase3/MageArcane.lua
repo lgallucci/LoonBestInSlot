@@ -65,6 +65,7 @@ LoonBestInSlot:AddItem(spec, "32483", "Trinket", "The Skull of Gul'dan", "BIS")
 LoonBestInSlot:AddItem(spec, "30720", "Trinket", "Serpent-Coil Braid", "BIS")
 LoonBestInSlot:AddItem(spec, "32488", "Trinket", "Ashtongue Talisman of Insight", "Alt")
 LoonBestInSlot:AddItem(spec, "29370", "Trinket", "Icon of the Silver Crescent", "Alt")
+LoonBestInSlot:AddItem(spec, "31856", "Trinket", "Darkmoon Card: Crusade", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30910", "MH", "Tempest of Chaos", "BIS")
 LoonBestInSlot:AddItem(spec, "32237", "MH", "The Maelstrom's Fury", "Alt")

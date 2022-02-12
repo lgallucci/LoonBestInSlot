@@ -58,7 +58,8 @@ LoonBestInSlot:AddItem(spec, "32261", "Ring", "Band of the Abyssal Lord", "Alt M
 LoonBestInSlot:AddItem(spec, "29297", "Ring", "Band of the Eternal Defender", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "29305", "Ring", "Band of the Eternal Sage", "Alt Thrt")
 
-LoonBestInSlot:AddItem(spec, "31858", "Trinket", "Darkmoon Card: Vengeance", "BIS")
+LoonBestInSlot:AddItem(spec, "31858", "Trinket", "Darkmoon Card: Vengeance", "BIS Stam")
+LoonBestInSlot:AddItem(spec, "31859", "Trinket", "Darkmoon Card: Madness", "Alt Stam")
 LoonBestInSlot:AddItem(spec, "32501", "Trinket", "Shadowmoon Insignia", "BIS")
 LoonBestInSlot:AddItem(spec, "28528", "Trinket", "Moroes' Lucky Pocket Watch", "Alt")
 LoonBestInSlot:AddItem(spec, "32534", "Trinket", "Brooch of the Immortal King", "Alt")

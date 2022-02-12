@@ -47,6 +47,7 @@ LoonBestInSlot:AddItem(spec, "30022", "Neck", "Pendant of the Perilous", "BIS")
 LoonBestInSlot:AddItem(spec, "32260", "Neck", "Choker of Endless Nightmares", "BIS")
 LoonBestInSlot:AddItem(spec, "29381", "Neck", "Choker of Vile Intent", "Alt")
 
+LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "BIS")
 LoonBestInSlot:AddItem(spec, "32526", "Ring", "Band of Devastation", "BIS")
 LoonBestInSlot:AddItem(spec, "29997", "Ring", "Band of the Ranger-General", "BIS")
 LoonBestInSlot:AddItem(spec, "32335", "Ring", "Unstoppable Aggressor's Ring", "Alt")
@@ -55,6 +56,7 @@ LoonBestInSlot:AddItem(spec, "30061", "Ring", "Ancestral Ring of Conquest", "BIS
 LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "BIS")
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS")
 LoonBestInSlot:AddItem(spec, "32505", "Trinket", "Madness of the Betrayer", "Alt")
+LoonBestInSlot:AddItem(spec, "31856", "Trinket", "Darkmoon Card: Crusade", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32332", "2H", "Torch of the Damned", "BIS")
 LoonBestInSlot:AddItem(spec, "30902", "2H", "Cataclysm's Edge", "Alt")

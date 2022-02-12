@@ -46,6 +46,7 @@ LoonBestInSlot:AddItem(spec, "28649", "Ring", "Garona's Signet Ring", "BIS")
 LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "Alt")
 LoonBestInSlot:AddItem(spec, "30738", "Ring", "Ring of Reciprocity", "Alt")
 LoonBestInSlot:AddItem(spec, "29283", "Ring", "Violet Signet of the Master Assassin", "Alt")
+LoonBestInSlot:AddItem(spec, "28730", "Ring", "Mithril Band of the Unscarred", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "BIS")
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS")
