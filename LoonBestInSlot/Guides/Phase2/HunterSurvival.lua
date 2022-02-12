@@ -17,6 +17,7 @@ LoonBestInSlot:AddItem(spec, "30238", "Chest", "Chestguard of the Vanquished Her
 LoonBestInSlot:AddItem(spec, "28228", "Chest", "Beast Lord Cuirass", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29966", "Bracers", "Vambraces of Ending", "BIS")
+LoonBestInSlot:AddItem(spec, "25697", "Bracers", "Felstalker Bracers", "Alt")
 LoonBestInSlot:AddItem(spec, "30026", "Bracers", "Bands of the Celestial Archer", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28506", "Gloves", "Gloves of Dexterous Manipulation", "BIS")
@@ -25,6 +26,7 @@ LoonBestInSlot:AddItem(spec, "27474", "Gloves", "Beast Lord Handguards", "Alt")
 LoonBestInSlot:AddItem(spec, "30040", "Belt", "Belt of Deep Shadow", "BIS")
 LoonBestInSlot:AddItem(spec, "30106", "Belt", "Belt of One-Hundred Deaths", "Alt")
 LoonBestInSlot:AddItem(spec, "30046", "Belt", "Belt of the Black Eagle", "Alt")
+LoonBestInSlot:AddItem(spec, "28750", "Belt", "Girdle of Treachery", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30142", "Legs", "Rift Stalker Leggings", "BIS")
 LoonBestInSlot:AddItem(spec, "30247", "Legs", "Leggings of the Vanquished Hero", "BIS")
@@ -33,6 +35,7 @@ LoonBestInSlot:AddItem(spec, "29985", "Legs", "Void Reaver Greaves", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30104", "Feet", "Cobra-Lash Boots", "BIS")
 LoonBestInSlot:AddItem(spec, "29951", "Feet", "Star-Strider Boots", "BIS")
+LoonBestInSlot:AddItem(spec, "28545", "Feet", "Edgewalker Longboots", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30017", "Neck", "Telonicus's Pendant of Mayhem", "BIS")
 LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")

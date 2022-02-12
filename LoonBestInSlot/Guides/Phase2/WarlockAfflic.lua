@@ -71,7 +71,6 @@ LoonBestInSlot:AddItem(spec, "29922", "Ring", "Band of Al'ar", "Alt")
 LoonBestInSlot:AddItem(spec, "27683", "Trinket", "Quagmirran's Eye", "BIS")
 LoonBestInSlot:AddItem(spec, "29370", "Trinket", "Icon of the Silver Crescent", "BIS")
 LoonBestInSlot:AddItem(spec, "30626", "Trinket", "Sextant of Unstable Currents", "Alt")
-LoonBestInSlot:AddItem(spec, "28789", "Trinket", "Eye of Magtheridon", "Alt")
 
 LoonBestInSlot:AddItem(spec, "22630", "2H", "Atiesh, Greatstaff of the Guardian", "BIS")
 LoonBestInSlot:AddItem(spec, "32055", "2H", "Merciless Gladiator's War Staff", "Alt")
@@ -85,3 +84,4 @@ LoonBestInSlot:AddItem(spec, "30049", "OH", "Fathomstone", "BIS")
 LoonBestInSlot:AddItem(spec, "29273", "OH", "Khadgar's Knapsack", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29982", "Wand", "Wand of the Forgotten Star", "BIS")
+LoonBestInSlot:AddItem(spec, "28673", "Wand", "Tirisfal Wand of Ascendancy", "Alt")

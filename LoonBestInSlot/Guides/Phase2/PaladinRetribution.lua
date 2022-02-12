@@ -55,8 +55,11 @@ LoonBestInSlot:AddItem(spec, "30022", "Neck", "Pendant of the Perilous", "BIS")
 LoonBestInSlot:AddItem(spec, "29381", "Neck", "Choker of Vile Intent", "BIS")
 LoonBestInSlot:AddItem(spec, "28509", "Neck", "Worgen Claw Necklace", "Alt")
 
+LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "BIS")
 LoonBestInSlot:AddItem(spec, "29997", "Ring", "Band of the Ranger-General", "BIS")
 LoonBestInSlot:AddItem(spec, "30061", "Ring", "Ancestral Ring of Conquest", "BIS")
+LoonBestInSlot:AddItem(spec, "30738", "Ring", "Ring of Reciprocity", "Alt")
+LoonBestInSlot:AddItem(spec, "28757", "Ring", "Ring of a Thousand Marks", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS")
 LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "BIS")
