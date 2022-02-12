@@ -63,7 +63,6 @@ LoonBestInSlot:AddItem(spec, "29920", "Ring", "Phoenix-Ring of Rebirth", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29376", "Trinket", "Essence of the Martyr", "BIS")
 LoonBestInSlot:AddItem(spec, "28823", "Trinket", "Eye of Gruul", "BIS")
-LoonBestInSlot:AddItem(spec, "19288", "Trinket", "Darkmoon Card: Blue Dragon", "BIS")
 LoonBestInSlot:AddItem(spec, "30665", "Trinket", "Earring of Soulful Meditation", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30108", "MH", "Lightfathom Scepter", "BIS")

@@ -63,7 +63,6 @@ LoonBestInSlot:AddItem(spec, "31339", "Ring", "Lola's Eve", "Alt")
 LoonBestInSlot:AddItem(spec, "30720", "Trinket", "Serpent-Coil Braid", "BIS")
 LoonBestInSlot:AddItem(spec, "29370", "Trinket", "Icon of the Silver Crescent", "BIS")
 LoonBestInSlot:AddItem(spec, "38290", "Trinket", "Dark Iron Smoking Pipe", "Alt")
-LoonBestInSlot:AddItem(spec, "31856", "Trinket", "Darkmoon Card: Crusade", "Alt")
 LoonBestInSlot:AddItem(spec, "29132", "Trinket", "Scryer's Bloodgem", "Alt")
 LoonBestInSlot:AddItem(spec, "30626", "Trinket", "Sextant of Unstable Currents", "Alt")
 
