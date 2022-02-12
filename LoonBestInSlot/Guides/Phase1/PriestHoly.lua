@@ -58,7 +58,6 @@ LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29376", "Trinket", "Essence of the Martyr", "BIS")
 LoonBestInSlot:AddItem(spec, "28823", "Trinket", "Eye of Gruul", "BIS")
-LoonBestInSlot:AddItem(spec, "19288", "Trinket", "Darkmoon Card: Blue Dragon", "BIS")
 LoonBestInSlot:AddItem(spec, "28590", "Trinket", "Ribbon of Sacrifice", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28771", "MH", "Light's Justice", "BIS")

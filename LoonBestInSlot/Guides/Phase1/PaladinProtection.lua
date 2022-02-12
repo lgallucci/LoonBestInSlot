@@ -64,7 +64,6 @@ LoonBestInSlot:AddItem(spec, "28528", "Trinket", "Moroes' Lucky Pocket Watch", "
 LoonBestInSlot:AddItem(spec, "27529", "Trinket", "Figurine of the Colossus", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "27891", "Trinket", "Adamantine Figurine", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "32534", "Trinket", "Brooch of the Immortal King", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "31858", "Trinket", "Darkmoon Card: Vengeance", "BIS Stam")
 LoonBestInSlot:AddItem(spec, "28789", "Trinket", "Eye of Magtheridon", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "29370", "Trinket", "Icon of the Silver Crescent", "Alt")
 

@@ -65,7 +65,6 @@ LoonBestInSlot:AddItem(spec, "28510", "Ring", "Spectral Band of Innervation", "A
 LoonBestInSlot:AddItem(spec, "29287", "Ring", "Violet Signet of the Archmage", "Alt")
 LoonBestInSlot:AddItem(spec, "28753", "Ring", "Ring of Recurrence", "Alt")
 
-LoonBestInSlot:AddItem(spec, "31856", "Trinket", "Darkmoon Card: Crusade", "BIS")
 LoonBestInSlot:AddItem(spec, "29132", "Trinket", "Scryer's Bloodgem", "BIS")
 LoonBestInSlot:AddItem(spec, "29370", "Trinket", "Icon of the Silver Crescent", "BIS")
 LoonBestInSlot:AddItem(spec, "28789", "Trinket", "Eye of Magtheridon", "Alt")
