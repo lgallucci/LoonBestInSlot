@@ -42,7 +42,7 @@ LoonBestInSlot:AddItem(spec, "29972", "Legs", "Trousers of the Astromancer", "Al
 LoonBestInSlot:AddItem(spec, "30037", "Feet", "Boots of Blasting", "BIS")
 LoonBestInSlot:AddItem(spec, "30067", "Feet", "Velvet Boots of the Guardian", "BIS")
 LoonBestInSlot:AddItem(spec, "28585", "Feet", "Ruby Slippers", "Alt")
-LoonBestInSlot:AddItem(spec, "28517", "Feet", "Boots of Foretelling", "Optinal")
+LoonBestInSlot:AddItem(spec, "28517", "Feet", "Boots of Foretelling", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30015", "Neck", "The Sun King's Talisman", "BIS")
 LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
