@@ -21,15 +21,20 @@ SlashCmdList["LOONBESTINSLOT"] = function(command)
 	if command == "" then
 		LoonBestInSlot.BrowserWindow:OpenWindow()
 	end
+
+	if command == "pending" then
+		LoonBestInSlot:Debug("Pending Item Count: ", LoonBestInSlot.PendingCount)
+	end
 end
 
 function LoonBestInSlot:Startup()
 	LoonBestInSlot:RegisterEvent("GET_ITEM_INFO_RECEIVED", function(itemId, success)
-        if success and LoonBestInSlot.PendingItems[itemId] then
+
+        if success and LoonBestInSlot.PendingItems[itemId] ~= nil then		
             local cacheSuccessful = LoonBestInSlot:GetItemForCache(itemId);
             
             if cacheSuccessful then
-                self.PendingItems[itemId] = nil;
+                LoonBestInSlot.PendingItems[itemId] = nil;
 				LoonBestInSlot.PendingCount = LoonBestInSlot.PendingCount - 1;
             end
         end

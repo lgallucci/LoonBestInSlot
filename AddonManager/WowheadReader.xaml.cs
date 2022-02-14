@@ -110,6 +110,8 @@ public partial class WowheadReader : Window
             {
                 var phaseItems = new ItemSpecFileManager().ReadPhaseFromFile(Constants.AddonPath + $@"Guides\Phase{i}\{specName}.lua");
 
+                //TODO: VALIDATE FILE ONLY CONTAINS "BIS" AND "ALT" BIS STATUSES FIRST
+
                 foreach (var item in phaseItems)
                     if (!oldItems.ContainsKey(item.Key))
                         oldItems.Add(item.Key, item.Value);

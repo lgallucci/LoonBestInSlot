@@ -149,6 +149,8 @@ local function IsNotInClassic(specItem)
     return true;
 end
 
+local failedLoad = false;
+
 local function createItemRow(specItem, specItemSource, point)
     local window = LoonBestInSlot.BrowserWindow.Window;
     local spacing = 1;
@@ -160,11 +162,7 @@ local function createItemRow(specItem, specItemSource, point)
     
 
     if item == nil or item.Id == nil or item.Link == nil or item.Type == nil then
-        LoonBestInSlot:Error("LoonBestInSlot: Failed to find object: ", specItem.Id);
-        LoonBestInSlot:Error("LoonBestInSlot: Pending Item count: ", LoonBestInSlot.PendingCount)
-        LoonBestInSlot:Error("LoonBestInSlot: Pending Item ("..specItem.Id.."): ", LoonBestInSlot.PendingItems[specItem.Id])
-        LoonBestInSlot:Error("LoonBestInSlot: Item Cache ("..specItem.Id.."): ", LoonBestInSlot.ItemCache[specItem.Id])
-        LoonBestInSlot:Error("Failed to load one or more items.  Type /reload to fix", {});
+        failedLoad = true;
         return point;
     end
 
@@ -435,6 +433,8 @@ function LoonBestInSlot.BrowserWindow:UpdateItemsForSpec()
     topl:SetStartPoint("TOPLEFT",5, 0);
     topl:SetEndPoint("TOPRIGHT",-5, 0);
     
+    failedLoad = false;
+
     for itemId, specItem in spairs(specItems, itemSortFunction) do
         
         local specItemSource = LoonBestInSlot.ItemSources[tonumber(specItem.Id)];
@@ -446,6 +446,10 @@ function LoonBestInSlot.BrowserWindow:UpdateItemsForSpec()
                 point = createItemRow(specItem, specItemSource, point);
             end
         end
+    end
+
+    if failedLoad then
+        LoonBestInSlot:Error("Failed to load one or more items into browser. Type /reload to attempt to fix", "");
     end
 
     window.Container:SetSize(window.ScrollFrame:GetWidth(), window.ScrollFrame:GetHeight());

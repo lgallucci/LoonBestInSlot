@@ -10,7 +10,7 @@ function LoonBestInSlot:PreCacheItems()
             LoonBestInSlot.AllItemsCached = LoonBestInSlot.AllItemsCached and cacheSuccessful;
 
             if not cacheSuccessful then
-                LoonBestInSlot.PendingItems[itemId] = true;
+                LoonBestInSlot.PendingItems[tonumber(itemId)] = true;
 				LoonBestInSlot.PendingCount = LoonBestInSlot.PendingCount + 1;
             end
         end
@@ -50,14 +50,11 @@ function LoonBestInSlot:GetItemInfo(itemIdString)
     local itemId = tonumber(itemIdString);
 
     if not itemId then
-        LoonBestInSlot:Debug("LoonBestInSlot: bad itemId: ", itemIdString);
         return;
     end
-
     local item = LoonBestInSlot.ItemCache[itemId];
 
     if itemId <= 0 then
-        LoonBestInSlot:Error("LoonBestInSlot: item id < 0: "..itemId);
         return { Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil };
     end
 
@@ -114,7 +111,7 @@ local function stringify(object)
 end
 
 function LoonBestInSlot:Debug(startString, object)
-    ChatFrame6:AddMessage(startString..stringify(object));
+    ChatFrame6:AddMessage("LoonBestInSlot:"..startString..stringify(object));
 end
 
 
