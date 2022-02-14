@@ -508,6 +508,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
             table.insert(specList, specString)
             LoonBestInSlot.SpecToName[specString] = specId;
         end
+        table.sort(specList);
         return specList;
     end
 
