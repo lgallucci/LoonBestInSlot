@@ -37,7 +37,7 @@ local function createDropdown(opts)
     local change_func = opts['changeFunc'] or function (dropdown_val) end
 
     local dropdown = CreateFrame("Frame", dropdown_name, opts['parent'], 'UIDropDownMenuTemplate')
-    local dd_title = dropdown:CreateFontString(dropdown, 'OVERLAY', 'GameFontNormal')
+    local dd_title = dropdown:CreateFontString(dropdown, 'OVERLAY', 'GameFontNormalSmall')
 
     for _, item in pairs(menu_items) do -- Sets the dropdown width to the largest item string width.
         dd_title:SetText(item)
@@ -619,7 +619,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
 
     local tooltipButton = CreateFrame("CheckButton", "TooltipCheckButton", window, "ChatConfigCheckButtonTemplate")
     tooltipButton:SetHitRectInsets(0, 0, 0, 0)
-    local tooltipString = tooltipButton:CreateFontString("TooltipText", "OVERLAY", "GameFontNormal");
+    local tooltipString = tooltipButton:CreateFontString("TooltipText", "OVERLAY", "GameFontNormalSmall");
     tooltipString:SetPoint("TOPRIGHT", tooltipButton, "TOPLEFT", -2, -3);
     tooltipString:SetText("Show Tooltip:");
     tooltipButton:SetPoint("BOTTOMRIGHT", window, "BOTTOMRIGHT", -175, 2);
@@ -630,7 +630,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
 
     local miniMapButton = CreateFrame("CheckButton", "MinimapCheckButton", window, "ChatConfigCheckButtonTemplate")
     miniMapButton:SetHitRectInsets(0, 0, 0, 0)
-    local miniMapString = miniMapButton:CreateFontString("MiniMapText", "OVERLAY", "GameFontNormal");
+    local miniMapString = miniMapButton:CreateFontString("MiniMapText", "OVERLAY", "GameFontNormalSmall");
     miniMapString:SetPoint("TOPRIGHT", miniMapButton, "TOPLEFT", -2, -3);
     miniMapString:SetText("Show Minimap Button:");
     miniMapButton:SetPoint("BOTTOMRIGHT", window, "BOTTOMRIGHT", 0, 2);
