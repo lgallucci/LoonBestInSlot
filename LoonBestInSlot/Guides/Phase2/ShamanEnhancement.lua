@@ -15,6 +15,7 @@ LoonBestInSlot:AddItem(spec, "24259", "Back", "Vengeance Wrap", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30185", "Chest", "Cataclysm Chestplate", "BIS")
 LoonBestInSlot:AddItem(spec, "30236", "Chest", "Chestguard of the Vanquished Champion", "BIS")
+LoonBestInSlot:AddItem(spec, "30101", "Chest", "Bloodsea Brigand's Vest", "Alt")
 LoonBestInSlot:AddItem(spec, "29038", "Chest", "Cyclone Breastplate", "Alt")
 LoonBestInSlot:AddItem(spec, "29754", "Chest", "Chestguard of the Fallen Champion", "Alt")
 

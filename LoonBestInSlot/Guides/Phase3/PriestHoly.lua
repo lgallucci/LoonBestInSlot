@@ -24,6 +24,7 @@ LoonBestInSlot:AddItem(spec, "32340", "Chest", "Garments of Temperance", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32584", "Bracers", "Swiftheal Wraps", "BIS")
 LoonBestInSlot:AddItem(spec, "30871", "Bracers", "Bracers of Martyrdom", "BIS")
+LoonBestInSlot:AddItem(spec, "32513", "Bracers", "Wristbands of Divine Influence", "Alt")
 LoonBestInSlot:AddItem(spec, "33901", "Bracers", "Vindicator's Mooncloth Cuffs", "Alt")
 LoonBestInSlot:AddItem(spec, "29183", "Bracers", "Bindings of the Timewalker", "Alt")
 LoonBestInSlot:AddItem(spec, "32516", "Bracers", "Wraps of Purification", "Alt")
@@ -63,9 +64,9 @@ LoonBestInSlot:AddItem(spec, "29290", "Ring", "Violet Signet of the Grand Restor
 LoonBestInSlot:AddItem(spec, "32238", "Ring", "Ring of Calming Waves", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29376", "Trinket", "Essence of the Martyr", "BIS")
-LoonBestInSlot:AddItem(spec, "38288", "Trinket", "Direbrew Hops", "BIS")
-LoonBestInSlot:AddItem(spec, "32496", "Trinket", "Memento of Tyrande", "BIS")
-LoonBestInSlot:AddItem(spec, "28823", "Trinket", "Eye of Gruul", "BIS")
+LoonBestInSlot:AddItem(spec, "-73418", "Trinket", "undefined", "undefined")
+LoonBestInSlot:AddItem(spec, "-96062", "Trinket", "undefined", "undefined")
+LoonBestInSlot:AddItem(spec, "28823", "Trinket", "Eye of Gruul", "BIS (CoH)")
 LoonBestInSlot:AddItem(spec, "19288", "Trinket", "Darkmoon Card: Blue Dragon", "BIS")
 LoonBestInSlot:AddItem(spec, "32490", "Trinket", "Ashtongue Talisman of Acumen", "Situational")
 

@@ -59,7 +59,7 @@ LoonBestInSlot:AddItem(spec, "33892", "Feet", "Vindicator's Leather Boots", "Alt
 LoonBestInSlot:AddItem(spec, "30017", "Neck", "Telonicus's Pendant of Mayhem", "BIS")
 LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
 LoonBestInSlot:AddItem(spec, "33923", "Neck", "Vindicator's Pendant of Triumph", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "32362", "Neck", "Pendant of Titans", "Alt Mit")
+LoonBestInSlot:AddItem(spec, "32362", "Neck", "Pendant of Titans", "BIS Mit")
 
 LoonBestInSlot:AddItem(spec, "29279", "Ring", "Violet Signet of the Great Protector", "BIS")
 LoonBestInSlot:AddItem(spec, "32266", "Ring", "Ring of Deceitful Intent", "BIS")

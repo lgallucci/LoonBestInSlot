@@ -79,5 +79,7 @@ LoonBestInSlot:AddItem(spec, "30108", "MH", "Lightfathom Scepter", "Alt")
 LoonBestInSlot:AddItem(spec, "30882", "OH", "Bastion of Light", "BIS")
 LoonBestInSlot:AddItem(spec, "32255", "OH", "Felstone Bulwark", "BIS")
 LoonBestInSlot:AddItem(spec, "29458", "OH", "Aegis of the Vindicator", "Alt")
+LoonBestInSlot:AddItem(spec, "33735", "OH", "Vengeful Gladiator's Redoubt", "Alt")
+LoonBestInSlot:AddItem(spec, "33309", "OH", "Merciless Gladiator's Redoubt", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28523", "Totem", "Totem of Healing Rains", "BIS")

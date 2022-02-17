@@ -2,6 +2,7 @@ local spec = LoonBestInSlot:RegisterSpec("Shaman", "Enhance", "3")
 LoonBestInSlot:AddItem(spec, "32235", "Head", "Cursed Vision of Sargeras", "BIS")
 LoonBestInSlot:AddItem(spec, "31015", "Head", "Skyshatter Cover", "Alt")
 LoonBestInSlot:AddItem(spec, "31095", "Head", "Helm of the Forgotten Protector", "Alt")
+LoonBestInSlot:AddItem(spec, "32376", "Head", "Forest Prowler's Helm", "Alt")
 LoonBestInSlot:AddItem(spec, "30190", "Head", "Cataclysm Helm", "Alt")
 LoonBestInSlot:AddItem(spec, "30242", "Head", "Helm of the Vanquished Champion", "Alt")
 
@@ -15,6 +16,7 @@ LoonBestInSlot:AddItem(spec, "29994", "Back", "Thalassian Wildercloak", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30905", "Chest", "Midnight Chestguard", "BIS")
 LoonBestInSlot:AddItem(spec, "32252", "Chest", "Nether Shadow Tunic", "Alt")
+LoonBestInSlot:AddItem(spec, "30101", "Chest", "Bloodsea Brigand's Vest", "Alt")
 LoonBestInSlot:AddItem(spec, "30185", "Chest", "Cataclysm Chestplate", "Alt")
 LoonBestInSlot:AddItem(spec, "30236", "Chest", "Chestguard of the Vanquished Champion", "Alt")
 
