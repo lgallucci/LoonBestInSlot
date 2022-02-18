@@ -402,7 +402,6 @@ function LoonBestInSlot.BrowserWindow:UpdateItemsForSpec()
         return;
     end
 
-    --TODO: going to have to sort this list of items now
     local specItems = LoonBestInSlot.SpecItems[LoonBestInSlot.SpecToName[LoonBestInSlotSettings.SelectedSpec]];
 
     local window = LoonBestInSlot.BrowserWindow.Window;

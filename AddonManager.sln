@@ -23,11 +23,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Icons", "Icons", "{6CCD2B99
 		LoonBestInSlot\Icons\bank.tga = LoonBestInSlot\Icons\bank.tga
 		LoonBestInSlot\Icons\checkmark.tga = LoonBestInSlot\Icons\checkmark.tga
 		LoonBestInSlot\Icons\loon.tga = LoonBestInSlot\Icons\loon.tga
-		LoonBestInSlot\Icons\milogo.tga = LoonBestInSlot\Icons\milogo.tga
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{5D7B4E6E-0F3B-4D5C-B6FE-1447C37D766C}"
 	ProjectSection(SolutionItems) = preProject
+		LoonBestInSlot\libs\CallbackHandler-1.0.lua = LoonBestInSlot\libs\CallbackHandler-1.0.lua
 		LoonBestInSlot\libs\LibDataBroker-1.1.lua = LoonBestInSlot\libs\LibDataBroker-1.1.lua
 		LoonBestInSlot\libs\LibDBIcon-1.0.lua = LoonBestInSlot\libs\LibDBIcon-1.0.lua
 		LoonBestInSlot\libs\LibStub.lua = LoonBestInSlot\libs\LibStub.lua
