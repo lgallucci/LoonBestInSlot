@@ -1034,7 +1034,7 @@ LoonBestInSlot.ItemSources =
     [30090] = { Name = "World Breaker", SourceType = "Drop", Source = "Fathom-Lord Karathress", SourceLocation = "Serpentshrine Cavern" },
     [30091] = { Name = "True-Aim Stalker Bands", SourceType = "Drop", Source = "Leotheras the Blind", SourceLocation = "Serpentshrine Cavern" },
     [30092] = { Name = "Orca-Hide Boots", SourceType = "Drop", Source = "Leotheras the Blind", SourceLocation = "Serpentshrine Cavern" },
-    [30095] = { Name = "Fang of the Leviathan", SourceType = "Drop", Source = "Leotheras the Blind", SourceLocation = "Tempest Keep" },
+    [30095] = { Name = "Fang of the Leviathan", SourceType = "Drop", Source = "Leotheras the Blind", SourceLocation = "Serpentshrine Cavern" },
     [30096] = { Name = "Girdle of the Invulnerable", SourceType = "Drop", Source = "Leotheras the Blind", SourceLocation = "Serpentshrine Cavern" },
     [30097] = { Name = "Coral-Barbed Shoulderpads", SourceType = "Drop", Source = "Leotheras the Blind", SourceLocation = "Serpentshrine Cavern" },
     [30098] = { Name = "Razor-Scale Battlecloak", SourceType = "Drop", Source = "Morogrim Tidewalker", SourceLocation = "Serpentshrine Cavern" },
