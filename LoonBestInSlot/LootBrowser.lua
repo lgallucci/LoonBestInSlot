@@ -374,18 +374,21 @@ local function itemSortFunction(table, k1, k2)
 end
 
 function spairs(t, order)
+
     -- collect the keys
     local keys = {}
-    for k in pairs(t) do keys[#keys+1] = k end
 
-    -- if order function given, sort by it by passing the table and keys a, b,
-    -- otherwise just sort the keys 
-    if order then
-        table.sort(keys, function(a,b) return order(t, a, b) end)
-    else
-        table.sort(keys)
+    if t ~= nil then
+        for k in pairs(t) do keys[#keys+1] = k end
+
+        -- if order function given, sort by it by passing the table and keys a, b,
+        -- otherwise just sort the keys 
+        if order then
+            table.sort(keys, function(a,b) return order(t, a, b) end)
+        else
+            table.sort(keys)
+        end    
     end
-
     -- return the iterator function
     local i = 0
     return function()
