@@ -1,6 +1,7 @@
 local spec = LoonBestInSlot:RegisterSpec("Mage", "Frost", "2")
 LoonBestInSlot:AddItem(spec, "24266", "Head", "Spellstrike Hood", "BIS")
 LoonBestInSlot:AddItem(spec, "29986", "Head", "Cowl of the Grand Engineer", "Alt")
+LoonBestInSlot:AddItem(spec, "32494", "Head", "Destruction Holo-gogs", "Alt")
 LoonBestInSlot:AddItem(spec, "30206", "Head", "Cowl of Tirisfal", "Alt")
 LoonBestInSlot:AddItem(spec, "30244", "Head", "Helm of the Vanquished Hero", "Alt")
 

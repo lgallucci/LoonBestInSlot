@@ -15,7 +15,6 @@ LoonBestInSlot:AddItem(spec, "29763", "Shoulders", "Pauldrons of the Fallen Cham
 LoonBestInSlot:AddItem(spec, "32043", "Shoulders", "Merciless Gladiator's Scaled Shoulders", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30098", "Back", "Razor-Scale Battlecloak", "BIS")
-LoonBestInSlot:AddItem(spec, "33122", "Back", "Cloak of Darkness", "Alt")
 LoonBestInSlot:AddItem(spec, "29994", "Back", "Thalassian Wildercloak", "Alt")
 LoonBestInSlot:AddItem(spec, "27878", "Back", "Auchenai Death Shroud", "BIS")
 LoonBestInSlot:AddItem(spec, "28529", "Back", "Royal Cloak of Arathi Kings", "Alt")

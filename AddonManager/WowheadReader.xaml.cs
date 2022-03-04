@@ -35,8 +35,16 @@ public partial class WowheadReader : Window
 
         foreach (string spec in SpecList)
         {
-            await ImportClass(spec, phaseNumber);
-            ConsoleOut.Text += $"{spec} Completed!" + Environment.NewLine;
+            var result = await ImportClass(spec, phaseNumber);
+            if (result.StartsWith("System.Exception"))
+            {
+                ConsoleOut.Text += $"{spec} Failed!" + Environment.NewLine;
+
+            }
+            else
+            {
+                ConsoleOut.Text += $"{spec} Completed!" + Environment.NewLine;
+            }
         }
     }
 

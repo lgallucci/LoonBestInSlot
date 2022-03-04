@@ -64,6 +64,7 @@ LoonBestInSlot:AddItem(spec, "29301", "Ring", "Band of the Eternal Champion", "B
 LoonBestInSlot:AddItem(spec, "29997", "Ring", "Band of the Ranger-General", "BIS")
 LoonBestInSlot:AddItem(spec, "32266", "Ring", "Ring of Deceitful Intent", "Alt")
 LoonBestInSlot:AddItem(spec, "30052", "Ring", "Ring of Lethality", "Alt")
+LoonBestInSlot:AddItem(spec, "32526", "Ring", "Band of Devastation", "Alt")
 LoonBestInSlot:AddItem(spec, "28791", "Ring", "Ring of the Recalcitrant", "Alt")
 LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "Alt")
 
@@ -75,12 +76,14 @@ LoonBestInSlot:AddItem(spec, "32487", "Trinket", "Ashtongue Talisman of Swiftnes
 LoonBestInSlot:AddItem(spec, "30901", "MH", "Boundless Agony", "BIS")
 LoonBestInSlot:AddItem(spec, "33737", "MH", "Vengeful Gladiator's Right Ripper", "Alt")
 LoonBestInSlot:AddItem(spec, "32944", "MH", "Talon of the Phoenix", "Alt")
+LoonBestInSlot:AddItem(spec, "32946", "MH", "Claw of Molten Fury", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30881", "OH", "Blade of Infamy", "BIS")
 LoonBestInSlot:AddItem(spec, "33705", "OH", "Vengeful Gladiator's Left Ripper", "BIS")
 LoonBestInSlot:AddItem(spec, "30865", "OH", "Tracker's Blade", "Alt")
 LoonBestInSlot:AddItem(spec, "32269", "OH", "Messenger of Fate", "Alt")
 LoonBestInSlot:AddItem(spec, "29948", "OH", "Claw of the Phoenix", "Alt")
+LoonBestInSlot:AddItem(spec, "32945", "OH", "Fist of Molten Fury", "Alt")
 
 LoonBestInSlot:AddItem(spec, "29993", "2H", "Twinblade of the Phoenix", "BIS")
 LoonBestInSlot:AddItem(spec, "32248", "2H", "Halberd of Desolation", "BIS")

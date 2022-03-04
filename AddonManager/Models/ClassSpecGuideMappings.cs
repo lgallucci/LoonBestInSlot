@@ -209,6 +209,25 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wands", "Wand")
         }));
 
+        GuideMappings.Add(new ClassGuideMapping("MageFrostPhase3", "Frost", "Mage", new List<GuideMapping>
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#jewelry", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#main-hand-and-two-handed-weapons", "MH"),
+            new GuideMapping("#off-hand", "OH"),
+            new GuideMapping("#wand", "Wand")
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("MageFire", "Fire", "Mage", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
@@ -229,6 +248,25 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wands", "Wand")
         }));
 
+        GuideMappings.Add(new ClassGuideMapping("MageFirePhase3", "Fire", "Mage", new List<GuideMapping>
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#jewelry", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#main-hand-and-two-handed-weapons", "MH"),
+            new GuideMapping("#off-hand", "OH"),
+            new GuideMapping("#wand", "Wand")
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("MageArcane", "Arcane", "Mage", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
@@ -247,6 +285,25 @@ public class ClassSpecGuideMappings
             new GuideMapping("h3#weapons~h4~h4", "2H"),
             new GuideMapping("#offhands", "OH"),
             new GuideMapping("#wands", "Wand")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("MageArcanePhase3", "Arcane", "Mage", new List<GuideMapping>
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulders"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrists", "Bracers"),
+            new GuideMapping("#hands", "Gloves"),
+            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#jewelry", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#main-hand-and-two-handed-weapons", "MH"),
+            new GuideMapping("#off-hand", "OH"),
+            new GuideMapping("#wand", "Wand")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("PaladinHoly", "Holy", "Paladin", new List<GuideMapping>

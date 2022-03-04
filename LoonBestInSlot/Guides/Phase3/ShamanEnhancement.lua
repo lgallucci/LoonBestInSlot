@@ -13,6 +13,7 @@ LoonBestInSlot:AddItem(spec, "32377", "Shoulders", "Mantle of Darkness", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32323", "Back", "Shadowmoon Destroyer's Drape", "BIS")
 LoonBestInSlot:AddItem(spec, "29994", "Back", "Thalassian Wildercloak", "Alt")
+LoonBestInSlot:AddItem(spec, "33122", "Back", "Cloak of Darkness", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30905", "Chest", "Midnight Chestguard", "BIS")
 LoonBestInSlot:AddItem(spec, "32252", "Chest", "Nether Shadow Tunic", "Alt")

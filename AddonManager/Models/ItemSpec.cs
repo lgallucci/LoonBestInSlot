@@ -116,6 +116,7 @@ public class ItemSpec
         new (" 6% and 9%", ""),
         new (" 6%", ""),
         new (" 9%", ""),
+        new (" Early Pickup", ""),
 
         new ("Alt Alt", "Alt"),
         new ("Thrt Alt", "Alt Thrt"),
