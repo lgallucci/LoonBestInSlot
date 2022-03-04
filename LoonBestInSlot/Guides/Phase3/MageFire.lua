@@ -41,8 +41,8 @@ LoonBestInSlot:AddItem(spec, "30037", "Feet", "Boots of Blasting", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32589", "Neck", "Hellfire-Encased Pendant", "BIS")
 LoonBestInSlot:AddItem(spec, "32349", "Neck", "Translucent Spellthread Necklace", "BIS")
-LoonBestInSlot:AddItem(spec, "24116", "Neck", "Eye of the Night", "BIS")
-LoonBestInSlot:AddItem(spec, "24121", "Neck", "Chain of the Twilight Owl", "BIS")
+LoonBestInSlot:AddItem(spec, "24116", "Neck", "Eye of the Night", "Alt")
+LoonBestInSlot:AddItem(spec, "24121", "Neck", "Chain of the Twilight Owl", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32527", "Ring", "Ring of Ancient Knowledge", "BIS")
 LoonBestInSlot:AddItem(spec, "32247", "Ring", "Ring of Captured Storms", "Alt")
