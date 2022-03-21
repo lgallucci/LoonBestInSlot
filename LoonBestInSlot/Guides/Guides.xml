@@ -102,4 +102,30 @@
 	<Script file="Phase3\WarriorDPSFury.lua" />
 	<Script file="Phase3\WarriorDPSArms.lua" />
 	<Script file="Phase3\WarriorProtection.lua" />
+	
+	<Script file="Phase4\DruidBalance.lua" />
+	<Script file="Phase4\DruidBear.lua" />
+	<Script file="Phase4\DruidCat.lua" />
+	<Script file="Phase4\DruidRestoration.lua" />
+	<Script file="Phase4\HunterBM.lua" />
+	<Script file="Phase4\HunterMarks.lua" />
+	<Script file="Phase4\HunterSurvival.lua" />
+	<Script file="Phase4\MageFrost.lua" />
+	<Script file="Phase4\MageFire.lua" />
+	<Script file="Phase4\MageArcane.lua" />
+	<Script file="Phase4\PaladinHoly.lua" />
+	<Script file="Phase4\PaladinRetribution.lua" />
+	<Script file="Phase4\PaladinProtection.lua" />
+	<Script file="Phase4\PriestHoly.lua" />
+	<Script file="Phase4\PriestShadow.lua" />
+	<Script file="Phase4\Rogue.lua" />
+	<Script file="Phase4\ShamanElemental.lua" />
+	<Script file="Phase4\ShamanEnhancement.lua" />
+	<Script file="Phase4\ShamanRestoration.lua" />
+	<Script file="Phase4\WarlockAfflic.lua" />
+	<Script file="Phase4\WarlockDemo.lua" />
+	<Script file="Phase4\WarlockDestro.lua" />
+	<Script file="Phase4\WarriorDPSFury.lua" />
+	<Script file="Phase4\WarriorDPSArms.lua" />
+	<Script file="Phase4\WarriorProtection.lua" />
 </Ui>
