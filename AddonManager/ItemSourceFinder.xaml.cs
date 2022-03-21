@@ -94,13 +94,13 @@ public partial class ItemSourceFinder : Window
 
     private async void Read_Click(object sender, RoutedEventArgs e)
     {
-        int itemId = 0;
+        //int itemId = 0;
 
-        Int32.TryParse(txtItemId.Text, out itemId);
+        //Int32.TryParse(txtItemId.Text, out itemId);
 
-        if (itemId > 0)
-            ConsoleOut.Text = await new WowheadItemParser().ReadWowheadItem(itemId);
-        else
-            ConsoleOut.Text = "Invalid ItemId";
+        //if (itemId > 0)
+        //    ConsoleOut.Text = await new WowheadItemParser().ReadWowheadItem(itemId);
+        //else
+            ConsoleOut.Text = "CANT READ";
     }
 }

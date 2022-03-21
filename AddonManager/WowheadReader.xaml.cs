@@ -97,7 +97,7 @@ public partial class WowheadReader : Window
             }
             else
             {
-                sb.AppendLine($"Couldn't find spec: {className}");
+                sb.AppendLine($"System.Exception: Couldn't find spec: {className}");
             }
         }
         catch (Exception ex)
