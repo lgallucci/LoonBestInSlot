@@ -24,7 +24,7 @@ LoonBestInSlot:AddItem(spec, "31005", "Legs", "Gronnstalker's Leggings", "Alt")
 LoonBestInSlot:AddItem(spec, "31100", "Legs", "Leggings of the Forgotten Protector", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32366", "Feet", "Shadowmaster's Boots", "BIS")
-LoonBestInSlot:AddItem(spec, "33222", "Feet", "Nyn'jah's Tabi Boots", "Temporary  Alt")
+LoonBestInSlot:AddItem(spec, "33222", "Feet", "Nyn'jah's Tabi Boots", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30017", "Neck", "Telonicus's Pendant of Mayhem", "BIS")
 LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")

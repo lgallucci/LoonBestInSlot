@@ -108,6 +108,8 @@ local function IsInPhase(specItem, specItemSource)
         return true;
     elseif LoonBestInSlotSettings.SelectedPhase == "Phase 3" and FindInPhase(specItem.Phase, "3") then
         return true;
+    elseif LoonBestInSlotSettings.SelectedPhase == "Phase 4" and FindInPhase(specItem.Phase, "4") then
+        return true;
     elseif LoonBestInSlotSettings.SelectedPhase == "BIS" and strfind(specItem.Bis, "BIS") ~= nil then
         return true;
     end
@@ -547,7 +549,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
         ['name']='phase',
         ['parent']=window,
         ['title']='Phase:',
-        ['items']= { "All", "PreRaid", "Phase 1", "Phase 2", "Phase 3", "BIS" },
+        ['items']= { "All", "PreRaid", "Phase 1", "Phase 2", "Phase 3", "Phase 4", "BIS" },
         ['defaultVal']=LoonBestInSlotSettings.SelectedPhase,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedPhase = dropdown_val;
@@ -575,7 +577,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
         ['name']='zone',
         ['parent']=window,
         ['title']='Zone:',
-        ['items']= { "All", "Karazhan", "Gruul's Lair", "Magtheridon's Lair", "Serpentshrine Cavern", "Tempest Keep", "Hyjal Summit", "Black Temple"},
+        ['items']= { "All", "Karazhan", "Gruul's Lair", "Magtheridon's Lair", "Serpentshrine Cavern", "Tempest Keep", "Hyjal Summit", "Black Temple", "Zul'Aman"},
         ['defaultVal']= LoonBestInSlotSettings.SelectedZone,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedZone = dropdown_val;

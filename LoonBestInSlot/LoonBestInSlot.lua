@@ -9,7 +9,7 @@ LoonBestInSlot.ItemCache = {};
 LoonBestInSlot.AllItemsCached = false;
 LoonBestInSlot.PendingItems = {};
 LoonBestInSlot.PendingCount = 0;
-LoonBestInSlot.CurrentPhase = 3;
+LoonBestInSlot.CurrentPhase = 4;
 LoonBestInSlot.EventFrame = CreateFrame("FRAME",addonName.."Events")
 
 LoonBestInSlotSettings = LoonBestInSlotSettings or { SelectedSpec = "", SelectedSlot = "All", SelectedPhase = "All", SelectedSource = "All", SelectedZone = "All", minimap = { hide = false, minimapPos = 180}, ShowTooltip = true }
