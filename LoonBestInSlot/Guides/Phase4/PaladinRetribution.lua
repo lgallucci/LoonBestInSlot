@@ -16,7 +16,7 @@ LoonBestInSlot:AddItem(spec, "30905", "Chest", "Midnight Chestguard", "BIS")
 LoonBestInSlot:AddItem(spec, "32574", "Bracers", "Bindings of Lightning Reflexes", "BIS")
 
 LoonBestInSlot:AddItem(spec, "29947", "Gloves", "Gloves of the Searing Grip", "BIS")
-LoonBestInSlot:AddItem(spec, "32347", "Gloves", "Grips of Damnation", "BIS")
+LoonBestInSlot:AddItem(spec, "32347", "Gloves", "Grips of Damnation", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30106", "Belt", "Belt of One-Hundred Deaths", "BIS")
 

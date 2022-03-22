@@ -61,6 +61,8 @@ public class ItemSpec
         new ("BIS Until T5", "Alt"),
         new ("BIS Until Tier 6", "Alt"),
         new ("BIS Until T6", "Alt"),
+        new ("Pre-Raid", "Alt"),
+        new ("BIS Group Performance", "Alt"),
 
         new ("- Hit", ""),
         new ("Hit", ""),

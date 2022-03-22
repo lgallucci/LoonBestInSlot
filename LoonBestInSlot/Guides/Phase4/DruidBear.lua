@@ -56,6 +56,8 @@ LoonBestInSlot:AddItem(spec, "32505", "Trinket", "Madness of the Betrayer", "BIS
 LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "32658", "Trinket", "Badge of Tenacity", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "30627", "Trinket", "Tsunami Talisman", "Alt Thrt")
+LoonBestInSlot:AddItem(spec, "28579", "Trinket", "Romulo's Poison Vial", "Alt Thrt")
+LoonBestInSlot:AddItem(spec, "28288", "Trinket", "Abacus of Violent Odds", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "30883", "2H", "Pillar of Ferocity", "BIS")
 LoonBestInSlot:AddItem(spec, "33465", "2H", "Staff of Primal Fury", "Alt")

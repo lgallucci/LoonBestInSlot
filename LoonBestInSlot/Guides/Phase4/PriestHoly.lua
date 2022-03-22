@@ -54,6 +54,7 @@ LoonBestInSlot:AddItem(spec, "32496", "Trinket", "Memento of Tyrande", "BIS")
 LoonBestInSlot:AddItem(spec, "28823", "Trinket", "Eye of Gruul", "BIS")
 LoonBestInSlot:AddItem(spec, "19288", "Trinket", "Darkmoon Card: Blue Dragon", "Alt")
 LoonBestInSlot:AddItem(spec, "35326", "Trinket", "Battlemaster's Alacrity", "Alt")
+LoonBestInSlot:AddItem(spec, "33828", "Trinket", "Tome of Diabolic Remedy", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32500", "MH", "Crystal Spire of Karabor", "BIS")
 LoonBestInSlot:AddItem(spec, "33468", "MH", "Dark Blessing", "Alt")

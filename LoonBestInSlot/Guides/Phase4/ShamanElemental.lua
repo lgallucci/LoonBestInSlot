@@ -31,6 +31,7 @@ LoonBestInSlot:AddItem(spec, "32239", "Feet", "Slippers of the Seacaller", "BIS"
 LoonBestInSlot:AddItem(spec, "32352", "Feet", "Naturewarden's Treads", "BIS")
 LoonBestInSlot:AddItem(spec, "33357", "Feet", "Footpads of Madness", "BIS")
 LoonBestInSlot:AddItem(spec, "32242", "Feet", "Boots of Oceanic Fury", "Alt")
+LoonBestInSlot:AddItem(spec, "33537", "Feet", "Treads of Booming Thunder", "Alt")
 
 LoonBestInSlot:AddItem(spec, "33281", "Neck", "Brooch of Nature's Mercy", "BIS")
 LoonBestInSlot:AddItem(spec, "33466", "Neck", "Loop of Cursed Bones", "BIS")
@@ -52,7 +53,8 @@ LoonBestInSlot:AddItem(spec, "33354", "MH", "Wub's Cursed Hexblade", "Alt")
 LoonBestInSlot:AddItem(spec, "33494", "MH", "Amani Divining Staff", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30909", "OH", "Antonidas's Aegis of Rapt Concentration", "BIS")
-LoonBestInSlot:AddItem(spec, "30872", "OH", "Chronicle of Dark Secrets", "BIS")
+LoonBestInSlot:AddItem(spec, "33334", "OH", "Fetish of the Primal Gods", "BIS")
+LoonBestInSlot:AddItem(spec, "30872", "OH", "Chronicle of Dark Secrets", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32330", "Totem", "Totem of Ancestral Guidance", "BIS")
 LoonBestInSlot:AddItem(spec, "33506", "Totem", "Skycall Totem", "Alt")
