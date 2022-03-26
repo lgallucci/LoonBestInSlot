@@ -21,6 +21,7 @@ LoonBestInSlot:AddItem(spec, "32278", "Gloves", "Grips of Silent Justice", "BIS"
 
 LoonBestInSlot:AddItem(spec, "30106", "Belt", "Belt of One-Hundred Deaths", "BIS")
 LoonBestInSlot:AddItem(spec, "33211", "Belt", "Bladeangel's Money Belt", "Alt")
+LoonBestInSlot:AddItem(spec, "33331", "Belt", "Chain of Unleashed Rage", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32341", "Legs", "Leggings of Divine Retribution", "BIS")
 

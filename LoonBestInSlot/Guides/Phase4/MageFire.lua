@@ -34,8 +34,6 @@ LoonBestInSlot:AddItem(spec, "32349", "Neck", "Translucent Spellthread Necklace"
 LoonBestInSlot:AddItem(spec, "30015", "Neck", "The Sun King's Talisman", "Alt")
 LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "Alt")
 LoonBestInSlot:AddItem(spec, "33466", "Neck", "Loop of Cursed Bones", "Alt")
-LoonBestInSlot:AddItem(spec, "24116", "Neck", "Eye of the Night", "Alt")
-LoonBestInSlot:AddItem(spec, "24121", "Neck", "Chain of the Twilight Owl", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32527", "Ring", "Ring of Ancient Knowledge", "BIS")
 LoonBestInSlot:AddItem(spec, "33497", "Ring", "Mana Attuned Band", "Alt")

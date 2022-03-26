@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using System.IO;
+using System.Text.RegularExpressions;
+using System.Windows;
 using AddonManager.FileManagers;
 using AddonManager.Models;
 
@@ -12,6 +14,13 @@ public partial class WowheadReader : Window
                                 "MageFrost", "MageFire", "MageArcane", "PaladinHoly", "PaladinProtection", "PaladinRetribution", "PriestHoly",
                                 "PriestShadow", "Rogue", "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAfflic",
                                 "WarlockDemo", "WarlockDestro", "WarriorDPSArms", "WarriorDPSFury", "WarriorProtection"};
+    public class CsvLootTable
+    {
+        public int ItemId { get; set; }
+        public string ItemName { get; set; }
+        public string InstanceName { get; set; }
+        public string SourceName { get; set; }
+    }
 
     public WowheadReader()
     {
@@ -145,5 +154,69 @@ public partial class WowheadReader : Window
         {
             ConsoleOut.Text = $"Couldn't find spec: {cmbSpec.SelectedValue.ToString()}";
         }
+    }
+
+    private void Update_Click(object sender, RoutedEventArgs e)
+    {
+        ConsoleOut.Text = string.Empty;
+
+        var itemSources = new ItemSourceFileManager().ReadItemSources();
+
+        var csvLootTable = new Dictionary<int, CsvLootTable>();
+        var readHeaderRow = false;
+
+        using (var streamReader = new StreamReader(@"..\..\..\burning-crusade-loot-table.csv"))
+        {
+            while (!streamReader.EndOfStream)
+            {
+                var line = streamReader.ReadLine();
+
+                if (!readHeaderRow)
+                {
+                    readHeaderRow = true;
+                    continue;
+                }
+
+                Regex CSVParser = new Regex(",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))");
+                var values = CSVParser.Split(line);
+
+                if (values != null)
+                {
+                    var itemId = Int32.Parse(values[4]);
+
+                    if (csvLootTable.ContainsKey(itemId))
+                    {
+                        if (csvLootTable[itemId].InstanceName != values[0])
+                            csvLootTable[itemId].InstanceName += $", {values[0]}";
+                        if (csvLootTable[itemId].SourceName != values[1])
+                            csvLootTable[itemId].SourceName += $", {values[1]}";
+                    }
+                    else
+                    {
+                        csvLootTable.Add(itemId, new CsvLootTable
+                        {
+                            ItemId = itemId,
+                            ItemName = values[2],
+                            InstanceName = values[0],
+                            SourceName = values[1]
+                        });
+                    }
+                }
+            }
+        }
+
+        foreach (var itemSource in itemSources.Where(i => i.Value.SourceType == "undefined"))
+        {
+
+            if (csvLootTable.ContainsKey(itemSource.Key))
+            {
+                var csvItem = csvLootTable[itemSource.Key];
+                itemSource.Value.SourceType = "Drop";
+                itemSource.Value.Source = csvItem.SourceName.Trim().Trim('"');
+                itemSource.Value.SourceLocation = csvItem.InstanceName.Trim().Trim('"');
+            }
+        }
+
+        new ItemSourceFileManager().WriteItemSources(itemSources);
     }
 }

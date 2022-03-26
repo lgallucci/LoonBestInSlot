@@ -21,6 +21,7 @@ LoonBestInSlot:AddItem(spec, "31094", "Gloves", "Gloves of the Forgotten Protect
 LoonBestInSlot:AddItem(spec, "33586", "Gloves", "Studious Wraps", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32276", "Belt", "Flashfire Girdle", "BIS")
+LoonBestInSlot:AddItem(spec, "30914", "Belt", "Belt of the Crescent Moon", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30916", "Legs", "Leggings of Channeled Elements", "BIS")
 LoonBestInSlot:AddItem(spec, "33584", "Legs", "Pantaloons of Arcane Annihilation", "BIS")
@@ -57,4 +58,4 @@ LoonBestInSlot:AddItem(spec, "33334", "OH", "Fetish of the Primal Gods", "BIS")
 LoonBestInSlot:AddItem(spec, "30872", "OH", "Chronicle of Dark Secrets", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32330", "Totem", "Totem of Ancestral Guidance", "BIS")
-LoonBestInSlot:AddItem(spec, "33506", "Totem", "Skycall Totem", "Alt")
+LoonBestInSlot:AddItem(spec, "33506", "Totem", "Skycall Totem", "BIS")

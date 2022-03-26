@@ -8,6 +8,7 @@ LoonBestInSlot:AddItem(spec, "33464", "Shoulders", "Hex Lord's Voodoo Pauldrons"
 
 LoonBestInSlot:AddItem(spec, "32524", "Back", "Shroud of the Highborne", "BIS")
 LoonBestInSlot:AddItem(spec, "33592", "Back", "Cloak of Ancient Rituals", "Alt")
+LoonBestInSlot:AddItem(spec, "35324", "Back", "Cloak of Swift Reprieve", "Alt")
 
 LoonBestInSlot:AddItem(spec, "31016", "Chest", "Skyshatter Chestguard", "BIS")
 LoonBestInSlot:AddItem(spec, "31091", "Chest", "Chestguard of the Forgotten Protector", "BIS")

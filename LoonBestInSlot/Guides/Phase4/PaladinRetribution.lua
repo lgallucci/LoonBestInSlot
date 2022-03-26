@@ -19,6 +19,8 @@ LoonBestInSlot:AddItem(spec, "29947", "Gloves", "Gloves of the Searing Grip", "B
 LoonBestInSlot:AddItem(spec, "32347", "Gloves", "Grips of Damnation", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30106", "Belt", "Belt of One-Hundred Deaths", "BIS")
+LoonBestInSlot:AddItem(spec, "32265", "Belt", "Shadow-walker's Cord", "Alt")
+LoonBestInSlot:AddItem(spec, "32606", "Belt", "Girdle of the Lightbearer", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30900", "Legs", "Bow-stitched Leggings", "BIS")
 

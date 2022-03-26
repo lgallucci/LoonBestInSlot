@@ -12,6 +12,7 @@ LoonBestInSlot:AddItem(spec, "32524", "Back", "Shroud of the Highborne", "BIS")
 LoonBestInSlot:AddItem(spec, "32590", "Back", "Nethervoid Cloak", "Alt")
 LoonBestInSlot:AddItem(spec, "32331", "Back", "Cloak of the Illidari Council", "Alt")
 LoonBestInSlot:AddItem(spec, "33591", "Back", "Shadowcaster's Drape", "Alt")
+LoonBestInSlot:AddItem(spec, "35321", "Back", "Cloak of Arcane Alacrity", "Alt")
 LoonBestInSlot:AddItem(spec, "33592", "Back", "Cloak of Ancient Rituals", "Alt")
 
 LoonBestInSlot:AddItem(spec, "30107", "Chest", "Vestments of the Sea-Witch", "BIS")

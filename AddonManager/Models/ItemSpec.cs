@@ -119,8 +119,17 @@ public class ItemSpec
         new (" 6%", ""),
         new (" 9%", ""),
         new (" Early Pickup", ""),
-
+        new (" for weaving", ""),
+        new (" for hit rating", ""),
+        new (" Raid-Wide", ""),
+        new (" Haste", ""),
+        new (" Non-Haste", ""),
+         
         new ("Alt Alt", "Alt"),
+        new ("Temporary  Alt", "Alt"),
+        new ("Alt / AoE", "Alt"),
+        new ("Alt  Alt", "Alt"),
+        new ("BIS Personal", "Alt"),
         new ("Thrt Alt", "Alt Thrt"),
         new ("mit", "Mit"),
         new ("Mit Alt", "Alt Mit"),

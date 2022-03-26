@@ -5,9 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AddonManager"
         mc:Ignorable="d"
-        Title="WowheadReader" Height="768" Width="1024
-">
+        Title="WowheadReader" Height="768" Width="1024">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
         <Button Content="Read" HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top" Click="Read_Click"/>
         <Button Content="Import" HorizontalAlignment="Left" Margin="52,12,0,0" VerticalAlignment="Top" Click="Import_Click"/>
         <Button Content="ImportAll" HorizontalAlignment="Left" Margin="104,12,0,0" VerticalAlignment="Top" Click="ImportAll_Click"/>
@@ -15,6 +18,8 @@
             <TextBox x:Name="ConsoleOut" TextWrapping="Wrap" />
         </ScrollViewer>
         <ComboBox x:Name="cmbSpec" HorizontalAlignment="Left" Margin="172,11,0,0" Text="DruidRestoration" VerticalAlignment="Top" Width="150"/>
-        <TextBox x:Name="txtPhase" HorizontalAlignment="Left" Margin="344,13,0,0" TextWrapping="Wrap" Text="Phase0" VerticalAlignment="Top" Width="82"/>
+        <TextBox x:Name="txtPhase" HorizontalAlignment="Left" Margin="344,13,0,0" TextWrapping="Wrap" Text="Phase4" VerticalAlignment="Top" Width="82"/>
+
+        <Button Grid.Row="1" Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Left" Click="Update_Click"/>
     </Grid>
 </Window>

@@ -1,7 +1,7 @@
 local spec = LoonBestInSlot:RegisterSpec("Hunter", "Survival", "4")
 LoonBestInSlot:AddItem(spec, "31003", "Head", "Gronnstalker's Helmet", "BIS")
 LoonBestInSlot:AddItem(spec, "31095", "Head", "Helm of the Forgotten Protector", "BIS")
-LoonBestInSlot:AddItem(spec, "32235", "Head", "Cursed Vision of Sargeras", "BIS")
+LoonBestInSlot:AddItem(spec, "32235", "Head", "Cursed Vision of Sargeras", "Alt")
 
 LoonBestInSlot:AddItem(spec, "31006", "Shoulders", "Gronnstalker's Spaulders", "BIS")
 LoonBestInSlot:AddItem(spec, "31103", "Shoulders", "Pauldrons of the Forgotten Protector", "BIS")
@@ -36,7 +36,7 @@ LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "Alt")
 
 LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "BIS")
 LoonBestInSlot:AddItem(spec, "32505", "Trinket", "Madness of the Betrayer", "BIS")
-LoonBestInSlot:AddItem(spec, "33831", "Trinket", "Berserker's Call", "BIS")
+LoonBestInSlot:AddItem(spec, "33831", "Trinket", "Berserker's Call", "Alt")
 
 LoonBestInSlot:AddItem(spec, "33389", "MH", "Dagger of Bad Mojo", "BIS")
 LoonBestInSlot:AddItem(spec, "30881", "MH", "Blade of Infamy", "Alt")
