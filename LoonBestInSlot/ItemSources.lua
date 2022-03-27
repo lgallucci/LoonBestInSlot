@@ -1739,6 +1739,7 @@ LoonBestInSlot.ItemSources =
     [33211] = { Name = "Bladeangel's Money Belt", SourceType = "Drop", Source = "Nalorakk", SourceLocation = "Zul'Aman" },
     [33214] = { Name = "Akil'zon's Talonblade", SourceType = "Drop", Source = "Akil'zon", SourceLocation = "Zul'Aman" },
     [33222] = { Name = "Nyn'jah's Tabi Boots", SourceType = "Dungeon Token", Source = "60 Badges of Justice", SourceLocation = "G'eras" },
+    [33279] = { Name = "Iron-tusk Girdle", SourceType = "Dungeon Token", Source = "60 Badges of Justice", SourceLocation = "G'eras" },
     [33281] = { Name = "Brooch of Nature's Mercy", SourceType = "Drop", Source = "Akil'zon", SourceLocation = "Zul'Aman" },
     [33283] = { Name = "Amani Punisher", SourceType = "Drop", Source = "Akil'zon", SourceLocation = "Zul'Aman" },
     [33285] = { Name = "Fury of the Ursine", SourceType = "Drop", Source = "Nalorakk", SourceLocation = "Zul'Aman" },

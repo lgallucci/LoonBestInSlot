@@ -27,6 +27,7 @@ LoonBestInSlot:AddItem(spec, "33517", "Gloves", "Bonefist Gauntlets", "Alt Mit")
 
 LoonBestInSlot:AddItem(spec, "32342", "Belt", "Girdle of Mighty Resolve", "BIS")
 LoonBestInSlot:AddItem(spec, "33524", "Belt", "Girdle of the Protector", "BIS Thrt")
+LoonBestInSlot:AddItem(spec, "33279", "Belt", "Iron-tusk Girdle", "Alt Mit")
 
 LoonBestInSlot:AddItem(spec, "30995", "Legs", "Lightbringer Legguards", "BIS")
 LoonBestInSlot:AddItem(spec, "31098", "Legs", "Leggings of the Forgotten Conqueror", "BIS")
