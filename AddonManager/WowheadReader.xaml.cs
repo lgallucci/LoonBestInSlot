@@ -205,13 +205,27 @@ public partial class WowheadReader : Window
             }
         }
 
-        foreach (var itemSource in itemSources.Where(i => i.Value.SourceType == "undefined"))
+        var tokenKeys = new HashSet<int>();
+        foreach (var tierPiece in TierPiecesAndTokens.TierPieces)
         {
+            if (!tokenKeys.Contains(tierPiece.Value.Item1))
+            {
+                tokenKeys.Add(tierPiece.Value.Item1);
+            }
+        }
+
+        foreach (var itemSource in itemSources)
+        {
+            var sourceType = "Drop";
+            if (tokenKeys.Contains(itemSource.Key))
+            {
+                sourceType = "Token";
+            }
 
             if (csvLootTable.ContainsKey(itemSource.Key))
             {
                 var csvItem = csvLootTable[itemSource.Key];
-                itemSource.Value.SourceType = "Drop";
+                itemSource.Value.SourceType = sourceType;
                 itemSource.Value.Source = csvItem.SourceName.Trim().Trim('"');
                 itemSource.Value.SourceLocation = csvItem.InstanceName.Trim().Trim('"');
             }
