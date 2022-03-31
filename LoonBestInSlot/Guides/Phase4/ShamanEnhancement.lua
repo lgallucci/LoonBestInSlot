@@ -14,6 +14,8 @@ LoonBestInSlot:AddItem(spec, "30905", "Chest", "Midnight Chestguard", "BIS")
 LoonBestInSlot:AddItem(spec, "30863", "Bracers", "Deadly Cuffs", "BIS")
 LoonBestInSlot:AddItem(spec, "32574", "Bracers", "Bindings of Lightning Reflexes", "BIS")
 LoonBestInSlot:AddItem(spec, "32324", "Bracers", "Insidious Bands", "BIS")
+LoonBestInSlot:AddItem(spec, "33540", "Bracers", "Master Assassin Wristwraps", "Alt")
+LoonBestInSlot:AddItem(spec, "32251", "Bracers", "Wraps of Precise Flight", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32347", "Gloves", "Grips of Damnation", "BIS")
 LoonBestInSlot:AddItem(spec, "32234", "Gloves", "Fists of Mukoa", "BIS")
@@ -23,6 +25,7 @@ LoonBestInSlot:AddItem(spec, "33539", "Gloves", "Trickster's Stickyfingers", "Al
 LoonBestInSlot:AddItem(spec, "30106", "Belt", "Belt of One-Hundred Deaths", "BIS")
 
 LoonBestInSlot:AddItem(spec, "30900", "Legs", "Bow-stitched Leggings", "BIS")
+LoonBestInSlot:AddItem(spec, "33538", "Legs", "Shallow-grave Trousers", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32510", "Feet", "Softstep Boots of Tracking", "BIS")
 LoonBestInSlot:AddItem(spec, "32366", "Feet", "Shadowmaster's Boots", "BIS")
@@ -30,6 +33,7 @@ LoonBestInSlot:AddItem(spec, "33222", "Feet", "Nyn'jah's Tabi Boots", "BIS")
 
 LoonBestInSlot:AddItem(spec, "32260", "Neck", "Choker of Endless Nightmares", "BIS")
 LoonBestInSlot:AddItem(spec, "32591", "Neck", "Choker of Serrated Blades", "Alt")
+LoonBestInSlot:AddItem(spec, "33296", "Neck", "Brooch of Deftness", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32497", "Ring", "Stormrage Signet Ring", "BIS")
 LoonBestInSlot:AddItem(spec, "33496", "Ring", "Signet of Primal Wrath", "BIS")
