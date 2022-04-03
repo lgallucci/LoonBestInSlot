@@ -124,7 +124,9 @@ public class ItemSpec
         new (" Raid-Wide", ""),
         new (" Haste", ""),
         new (" Non-Haste", ""),
-         
+        new (" for DPS", ""),
+
+
         new ("Alt Alt", "Alt"),
         new ("Temporary  Alt", "Alt"),
         new ("Alt / AoE", "Alt"),

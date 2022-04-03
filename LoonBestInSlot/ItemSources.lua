@@ -1809,6 +1809,7 @@ LoonBestInSlot.ItemSources =
     [33522] = { Name = "Chestguard of the Stoic Guardian", SourceType = "Dungeon Token", Source = "75 Badges of Justice", SourceLocation = "G'eras" },
     [33523] = { Name = "Sabatons of the Righteous Defender", SourceType = "Dungeon Token", Source = "60 Badges of Justice", SourceLocation = "G'eras" },
     [33524] = { Name = "Girdle of the Protector", SourceType = "Dungeon Token", Source = "60 Badges of Justice", SourceLocation = "G'eras" },
+    [33529] = { Name = "Steadying Bracers", SourceType = "Dungeon Token", Source = "35 Badges of Justice", SourceLocation = "G'eras" },
     [33530] = { Name = "Natural Life Leggings", SourceType = "Dungeon Token", Source = "75 Badges of Justice", SourceLocation = "G'eras" },
     [33531] = { Name = "Polished Waterscale Gloves", SourceType = "Dungeon Token", Source = "60 Badges of Justice", SourceLocation = "G'eras" },
     [33533] = { Name = "Avalanche Leggings", SourceType = "Drop", Source = "Halazzi", SourceLocation = "Zul'Aman" },

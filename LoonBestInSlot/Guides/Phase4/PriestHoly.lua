@@ -13,6 +13,7 @@ LoonBestInSlot:AddItem(spec, "32585", "Shoulders", "Swiftheal Mantle", "BIS")
 
 LoonBestInSlot:AddItem(spec, "32524", "Back", "Shroud of the Highborne", "BIS")
 LoonBestInSlot:AddItem(spec, "33592", "Back", "Cloak of Ancient Rituals", "Alt")
+LoonBestInSlot:AddItem(spec, "35324", "Back", "Cloak of Swift Reprieve", "Alt")
 
 LoonBestInSlot:AddItem(spec, "31066", "Chest", "Vestments of Absolution", "BIS")
 LoonBestInSlot:AddItem(spec, "31089", "Chest", "Chestguard of the Forgotten Conqueror", "BIS")
@@ -41,6 +42,7 @@ LoonBestInSlot:AddItem(spec, "32609", "Feet", "Boots of the Divine Light", "BIS"
 LoonBestInSlot:AddItem(spec, "33471", "Feet", "Two-toed Sandals", "Alt")
 
 LoonBestInSlot:AddItem(spec, "33281", "Neck", "Brooch of Nature's Mercy", "BIS")
+LoonBestInSlot:AddItem(spec, "35319", "Neck", "Vindicator's Pendant of Subjugation", "Alt")
 LoonBestInSlot:AddItem(spec, "32370", "Neck", "Nadina's Pendant of Purity", "Alt")
 LoonBestInSlot:AddItem(spec, "30018", "Neck", "Lord Sanguinar's Claim", "Alt")
 LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "Alt")

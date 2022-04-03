@@ -14,6 +14,8 @@ LoonBestInSlot:AddItem(spec, "31004", "Chest", "Gronnstalker's Chestguard", "BIS
 LoonBestInSlot:AddItem(spec, "31091", "Chest", "Chestguard of the Forgotten Protector", "BIS")
 
 LoonBestInSlot:AddItem(spec, "32324", "Bracers", "Insidious Bands", "BIS")
+LoonBestInSlot:AddItem(spec, "33540", "Bracers", "Master Assassin Wristwraps", "Alt")
+LoonBestInSlot:AddItem(spec, "33529", "Bracers", "Steadying Bracers", "Alt")
 
 LoonBestInSlot:AddItem(spec, "31001", "Gloves", "Gronnstalker's Gloves", "BIS")
 LoonBestInSlot:AddItem(spec, "31094", "Gloves", "Gloves of the Forgotten Protector", "BIS")

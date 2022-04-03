@@ -40,6 +40,7 @@ LoonBestInSlot:AddItem(spec, "33831", "Trinket", "Berserker's Call", "Alt")
 
 LoonBestInSlot:AddItem(spec, "33389", "MH", "Dagger of Bad Mojo", "BIS")
 LoonBestInSlot:AddItem(spec, "30881", "MH", "Blade of Infamy", "Alt")
+LoonBestInSlot:AddItem(spec, "33495", "MH", "Rage", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32248", "2H", "Halberd of Desolation", "BIS")
 LoonBestInSlot:AddItem(spec, "33492", "2H", "Trollbane", "Alt")
