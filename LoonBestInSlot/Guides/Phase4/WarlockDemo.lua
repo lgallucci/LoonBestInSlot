@@ -45,6 +45,7 @@ LoonBestInSlot:AddItem(spec, "33357", "Feet", "Footpads of Madness", "Alt")
 LoonBestInSlot:AddItem(spec, "32349", "Neck", "Translucent Spellthread Necklace", "BIS")
 LoonBestInSlot:AddItem(spec, "33281", "Neck", "Brooch of Nature's Mercy", "BIS")
 LoonBestInSlot:AddItem(spec, "33466", "Neck", "Loop of Cursed Bones", "Alt")
+LoonBestInSlot:AddItem(spec, "35319", "Neck", "Vindicator's Pendant of Subjugation", "Alt")
 LoonBestInSlot:AddItem(spec, "30015", "Neck", "The Sun King's Talisman", "Alt")
 LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "Alt")
 
