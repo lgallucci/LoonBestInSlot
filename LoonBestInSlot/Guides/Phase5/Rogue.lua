@@ -1,0 +1,76 @@
+local spec = LoonBestInSlot:RegisterSpec("Rogue", "", "5")
+LoonBestInSlot:AddItem(spec, "34244", "Head", "Duplicitous Guise", "BIS")
+LoonBestInSlot:AddItem(spec, "32235", "Head", "Cursed Vision of Sargeras", "Alt")
+LoonBestInSlot:AddItem(spec, "34353", "Head", "Quad Deathblow X44 Goggles", "Alt")
+
+LoonBestInSlot:AddItem(spec, "31030", "Shoulders", "Slayer's Shoulderpads", "BIS")
+LoonBestInSlot:AddItem(spec, "31102", "Shoulders", "Pauldrons of the Forgotten Vanquisher", "BIS")
+LoonBestInSlot:AddItem(spec, "34195", "Shoulders", "Shoulderpads of Vehemence", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34241", "Back", "Cloak of Unforgivable Sin", "BIS")
+LoonBestInSlot:AddItem(spec, "32323", "Back", "Shadowmoon Destroyer's Drape", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34397", "Chest", "Bladed Chaos Tunic", "BIS")
+LoonBestInSlot:AddItem(spec, "34369", "Chest", "Carapace of Sun and Shadow", "BIS")
+LoonBestInSlot:AddItem(spec, "31028", "Chest", "Slayer's Chestguard", "Alt")
+LoonBestInSlot:AddItem(spec, "31090", "Chest", "Chestguard of the Forgotten Vanquisher", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34448", "Bracers", "Slayer's Bracers", "BIS")
+LoonBestInSlot:AddItem(spec, "34852", "Bracers", "Bracers of the Forgotten Vanquisher", "BIS")
+LoonBestInSlot:AddItem(spec, "32324", "Bracers", "Insidious Bands", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34370", "Gloves", "Gloves of Immortal Dusk", "BIS")
+LoonBestInSlot:AddItem(spec, "34234", "Gloves", "Shadowed Gauntlets of Paroxysm", "Alt")
+LoonBestInSlot:AddItem(spec, "31026", "Gloves", "Slayer's Handguards", "Alt")
+LoonBestInSlot:AddItem(spec, "31093", "Gloves", "Gloves of the Forgotten Vanquisher", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34558", "Belt", "Slayer's Belt", "BIS")
+LoonBestInSlot:AddItem(spec, "34855", "Belt", "Belt of the Forgotten Vanquisher", "BIS")
+LoonBestInSlot:AddItem(spec, "30106", "Belt", "Belt of One-Hundred Deaths", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34188", "Legs", "Leggings of the Immortal Night", "BIS")
+LoonBestInSlot:AddItem(spec, "31029", "Legs", "Slayer's Legguards", "Alt")
+LoonBestInSlot:AddItem(spec, "31099", "Legs", "Leggings of the Forgotten Vanquisher", "Alt")
+LoonBestInSlot:AddItem(spec, "34928", "Legs", "Trousers of the Scryers' Retainer", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34575", "Feet", "Slayer's Boots", "BIS")
+LoonBestInSlot:AddItem(spec, "34858", "Feet", "Boots of the Forgotten Vanquisher", "BIS")
+LoonBestInSlot:AddItem(spec, "32366", "Feet", "Shadowmaster's Boots", "Alt")
+LoonBestInSlot:AddItem(spec, "33222", "Feet", "Nyn'jah's Tabi Boots", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34358", "Neck", "Hard Khorium Choker", "BIS")
+LoonBestInSlot:AddItem(spec, "34177", "Neck", "Clutch of Demise", "BIS")
+LoonBestInSlot:AddItem(spec, "32260", "Neck", "Choker of Endless Nightmares", "Alt")
+LoonBestInSlot:AddItem(spec, "34679", "Neck", "Shattered Sun Pendant of Might", "Alt")
+
+LoonBestInSlot:AddItem(spec, "32497", "Ring", "Stormrage Signet Ring", "BIS")
+LoonBestInSlot:AddItem(spec, "34189", "Ring", "Band of Ruinous Delight", "BIS")
+LoonBestInSlot:AddItem(spec, "34361", "Ring", "Hard Khorium Band", "Alt")
+LoonBestInSlot:AddItem(spec, "34887", "Ring", "Angelista's Revenge", "Alt")
+LoonBestInSlot:AddItem(spec, "33496", "Ring", "Signet of Primal Wrath", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34427", "Trinket", "Blackened Naaru Sliver", "BIS")
+LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "BIS")
+LoonBestInSlot:AddItem(spec, "30450", "Trinket", "Warp-Spring Coil", "Alt")
+LoonBestInSlot:AddItem(spec, "34472", "Trinket", "Shard of Contempt", "Alt")
+LoonBestInSlot:AddItem(spec, "33831", "Trinket", "Berserker's Call", "Alt")
+
+LoonBestInSlot:AddItem(spec, "32837", "MH", "Warglaive of Azzinoth", "BIS")
+LoonBestInSlot:AddItem(spec, "34331", "MH", "Hand of the Deceiver", "Alt")
+LoonBestInSlot:AddItem(spec, "34214", "MH", "Muramasa", "Alt")
+LoonBestInSlot:AddItem(spec, "35101", "MH", "Brutal Gladiator's Slicer", "Alt")
+LoonBestInSlot:AddItem(spec, "34329", "MH", "Crux of the Apocalypse", "BIS Dagger")
+LoonBestInSlot:AddItem(spec, "35093", "MH", "Brutal Gladiator's Shanker", "Alt Dagger")
+
+LoonBestInSlot:AddItem(spec, "32838", "OH", "Warglaive of Azzinoth", "BIS")
+LoonBestInSlot:AddItem(spec, "32369", "OH", "Blade of Savagery", "Alt")
+LoonBestInSlot:AddItem(spec, "34164", "OH", "Dragonscale-Encrusted Longblade", "Alt")
+LoonBestInSlot:AddItem(spec, "35072", "OH", "Brutal Gladiator's Quickblade", "Alt")
+LoonBestInSlot:AddItem(spec, "34165", "OH", "Fang of Kalecgos", "BIS Dagger")
+LoonBestInSlot:AddItem(spec, "35095", "OH", "Brutal Gladiator's Shiv", "Alt Dagger")
+
+LoonBestInSlot:AddItem(spec, "34196", "Ranged", "Golden Bow of Quel'Thalas", "BIS")
+LoonBestInSlot:AddItem(spec, "34334", "Ranged", "Thori'dal, the Stars' Fury", "BIS")
+LoonBestInSlot:AddItem(spec, "34349", "Ranged", "Blade of Life's Inevitability", "Alt")
+LoonBestInSlot:AddItem(spec, "34892", "Ranged", "Crossbow of Relentless Strikes", "Alt")
+LoonBestInSlot:AddItem(spec, "29949", "Ranged", "Arcanite Steam-Pistol", "Alt")
