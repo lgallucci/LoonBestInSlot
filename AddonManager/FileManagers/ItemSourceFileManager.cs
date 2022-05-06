@@ -14,7 +14,9 @@ public class ItemSourceFileManager
         {
             if (itemSource == "LoonBestInSlot.ItemSources =" ||
                 itemSource == "{" ||
-                itemSource == "}")
+                itemSource == "}"||
+                itemSource == String.Empty ||
+                itemSource.Trim().StartsWith("--"))
             {
                 continue;
             }

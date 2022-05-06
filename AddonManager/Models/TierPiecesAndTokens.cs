@@ -282,6 +282,61 @@ internal class TierPiecesAndTokens
         { 31044, new (31099, "Leggings of the Forgotten Vanquisher")}, //Thunderheart Leggings
         { 31045, new (31099, "Leggings of the Forgotten Vanquisher")}, //Thunderheart Legguards
         { 31046, new (31099, "Leggings of the Forgotten Vanquisher")}, //Thunderheart Pants
-        { 31058, new (31099, "Leggings of the Forgotten Vanquisher")} //Leggings of the Tempest
+        { 31058, new (31099, "Leggings of the Forgotten Vanquisher")}, //Leggings of the Tempest
+
+        //T6 Sunwell
+        { 34435 ,new (34848, "Bracers of the Forgotten Conqueror") }, //Cuffs of Absolution
+        { 34434 ,new (34848, "Bracers of the Forgotten Conqueror") }, //Bracers of Absolution
+        { 34431 ,new (34848, "Bracers of the Forgotten Conqueror") }, //Lightbringer Bands
+        { 34432 ,new (34848, "Bracers of the Forgotten Conqueror") }, //Lightbringer Bracers
+        { 34433 ,new (34848, "Bracers of the Forgotten Conqueror") }, //Lightbringer Wristguards
+        { 34436 ,new (34848, "Bracers of the Forgotten Conqueror") }, //Bracers of the Malefic
+        { 34527 ,new (34848, "Belt of the Forgotten Conqueror")}, //Belt of Absolution
+        { 34528 ,new (34848, "Belt of the Forgotten Conqueror")}, //Cord of Absolution
+        { 34487 ,new (34848, "Belt of the Forgotten Conqueror")}, //Lightbringer Belt
+        { 34488 ,new (34848, "Belt of the Forgotten Conqueror")}, //Lightbringer Waistguard
+        { 34485 ,new (34848, "Belt of the Forgotten Conqueror")}, //Lightbringer Girdle
+        { 34541 ,new (34848, "Belt of the Forgotten Conqueror")}, //Belt of the Malefic
+        { 34563 ,new (34856, "Boots of the Forgotten Conqueror")}, //Treads of Absolution
+        { 34562 ,new (34856, "Boots of the Forgotten Conqueror")}, //Boots of Absolution
+        { 34560 ,new (34856, "Boots of the Forgotten Conqueror")}, //Lightbringer Stompers
+        { 34559 ,new (34856, "Boots of the Forgotten Conqueror")}, //Lightbringer Treads
+        { 34561 ,new (34856, "Boots of the Forgotten Conqueror")}, //Lightbringer Boots
+        { 34564 ,new (34856, "Boots of the Forgotten Conqueror")}, //Boots of the Malefic
+
+        { 34441 ,new (34851, "Bracers of the Forgotten Protector") }, //Onslaught Bracers
+        { 34442 ,new (34851, "Bracers of the Forgotten Protector") }, //Onslaught Wristguards
+        { 34443 ,new (34851, "Bracers of the Forgotten Protector") }, //Gronnstalker's Bracers
+        { 34439 ,new (34851, "Bracers of the Forgotten Protector") }, //Skyshatter Wristguards
+        { 34438 ,new (34851, "Bracers of the Forgotten Protector") }, //Skyshatter Bracers
+        { 34437 ,new (34851, "Bracers of the Forgotten Protector") }, //Skyshatter Bands
+        { 34547 ,new(34854, "Belt of the Forgotten Protector") }, //Onslaught Waistguard
+        { 34546 ,new(34854, "Belt of the Forgotten Protector") }, //Onslaught Belt
+        { 34549 ,new(34854, "Belt of the Forgotten Protector") }, //Gronnstalker's Belt
+        { 34545 ,new(34854, "Belt of the Forgotten Protector") }, //Skyshatter Girdle
+        { 34543 ,new(34854, "Belt of the Forgotten Protector") }, //Skyshatter Belt
+        { 34542 ,new(34854, "Belt of the Forgotten Protector") }, //Skyshatter Cord
+        { 34568 ,new(34857, "Boots of the Forgotten Protector") }, //Onslaught Boots
+        { 34569 ,new(34857, "Boots of the Forgotten Protector") }, //Onslaught Treads
+        { 34570 ,new(34857, "Boots of the Forgotten Protector") }, //Gronnstalker's Boots
+        { 34565 ,new(34857, "Boots of the Forgotten Protector") }, //Skyshatter Boots
+        { 34566 ,new(34857, "Boots of the Forgotten Protector") }, //Skyshatter Treads
+        { 34567 ,new(34857, "Boots of the Forgotten Protector") }, //Skyshatter Greaves
+
+        { 34444 ,new (34852, "Bracers of the Forgotten Vanquisher") }, //Thunderheart Wristguards
+        { 34445 ,new (34852, "Bracers of the Forgotten Vanquisher") }, //Thunderheart Bracers
+        { 34446 ,new (34852, "Bracers of the Forgotten Vanquisher") }, //Thunderheart Bands
+        { 34448 ,new (34852, "Bracers of the Forgotten Vanquisher") }, //Slayer's Bracers
+        { 34447 ,new (34852, "Bracers of the Forgotten Vanquisher") }, //Bracers of the Tempest
+        { 34556 ,new (34855, "Belt of the Forgotten Vanquisher") }, //Thunderheart Waistguard
+        { 34555 ,new (34855, "Belt of the Forgotten Vanquisher") }, //Thunderheart Cord
+        { 34554 ,new (34855, "Belt of the Forgotten Vanquisher") }, //Thunderheart Belt
+        { 34558 ,new (34855, "Belt of the Forgotten Vanquisher") }, //Slayer's Belt
+        { 34557 ,new (34855, "Belt of the Forgotten Vanquisher") }, //Belt of the Tempest
+        { 34573 ,new (34858, "Boots of the Forgotten Vanquisher") }, //Thunderheart Treads
+        { 34572 ,new (34858, "Boots of the Forgotten Vanquisher") }, //Thunderheart Footwraps
+        { 34571 ,new (34858, "Boots of the Forgotten Vanquisher") }, //Thunderheart Boots
+        { 34575 ,new (34858, "Boots of the Forgotten Vanquisher") }, //Slayer's Boots
+        { 34574 ,new (34858, "Boots of the Forgotten Vanquisher") }  //Boots of the Tempest
     };
 }
