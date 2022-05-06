@@ -212,6 +212,13 @@ public partial class WowheadReader : Window
             {
                 tokenKeys.Add(tierPiece.Value.Item1);
             }
+            csvLootTable.Add(tierPiece.Key, new CsvLootTable
+            {
+                ItemId = tierPiece.Key,
+                ItemName = csvLootTable[tierPiece.Key].ItemName,
+                InstanceName = csvLootTable[tierPiece.Value.Item1].InstanceName, 
+                SourceName = csvLootTable[tierPiece.Value.Item1].SourceName,
+            });
         }
 
         foreach (var itemSource in itemSources)
