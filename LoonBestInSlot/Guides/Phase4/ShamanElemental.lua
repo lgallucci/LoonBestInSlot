@@ -9,6 +9,7 @@ LoonBestInSlot:AddItem(spec, "32587", "Shoulders", "Mantle of Nimble Thought", "
 
 LoonBestInSlot:AddItem(spec, "32331", "Back", "Cloak of the Illidari Council", "BIS")
 LoonBestInSlot:AddItem(spec, "33591", "Back", "Shadowcaster's Drape", "Alt")
+LoonBestInSlot:AddItem(spec, "35321", "Back", "Cloak of Arcane Alacrity", "Alt")
 
 LoonBestInSlot:AddItem(spec, "31017", "Chest", "Skyshatter Breastplate", "BIS")
 LoonBestInSlot:AddItem(spec, "31091", "Chest", "Chestguard of the Forgotten Protector", "BIS")

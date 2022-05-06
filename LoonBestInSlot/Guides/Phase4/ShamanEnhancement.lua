@@ -50,6 +50,7 @@ LoonBestInSlot:AddItem(spec, "38287", "Trinket", "Empty Mug of Direbrew", "Alt")
 LoonBestInSlot:AddItem(spec, "33669", "MH", "Vengeful Gladiator's Cleaver", "BIS (All)")
 LoonBestInSlot:AddItem(spec, "32262", "MH", "Syphon of the Nathrezim", "BIS (All)")
 LoonBestInSlot:AddItem(spec, "33495", "MH", "Rage", "Alt (MH)")
+LoonBestInSlot:AddItem(spec, "33640", "MH", "Fury", "Alt (OH)")
 
 LoonBestInSlot:AddItem(spec, "33507", "Totem", "Stonebreaker's Totem", "BIS")
 LoonBestInSlot:AddItem(spec, "27815", "Totem", "Totem of the Astral Winds", "Alt")

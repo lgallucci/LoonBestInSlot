@@ -41,6 +41,7 @@ LoonBestInSlot:AddItem(spec, "30737", "Feet", "Gold-Leaf Wildboots", "BIS")
 LoonBestInSlot:AddItem(spec, "33471", "Feet", "Two-toed Sandals", "Alt")
 
 LoonBestInSlot:AddItem(spec, "33281", "Neck", "Brooch of Nature's Mercy", "BIS")
+LoonBestInSlot:AddItem(spec, "35317", "Neck", "Vindicator's Pendant of Reprieve", "Alt")
 LoonBestInSlot:AddItem(spec, "30018", "Neck", "Lord Sanguinar's Claim", "Alt")
 LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "Alt")
 
