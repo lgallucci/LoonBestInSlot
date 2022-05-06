@@ -136,6 +136,9 @@ public class ItemSpec
         new ("mit", "Mit"),
         new ("Mit Alt", "Alt Mit"),
         new ("BIS Alt", "BIS"),
+        new ("BIS / Alt", "BIS"),
+        new ("BIS-", "BIS"),
+        new ("Alt-", "Alt"),
     };
 
     private string ReplaceStatuses(string value)

@@ -1,0 +1,75 @@
+local spec = LoonBestInSlot:RegisterSpec("Paladin", "Holy", "5")
+LoonBestInSlot:AddItem(spec, "34243", "Head", "Helm of Burning Righteousness", "BIS")
+LoonBestInSlot:AddItem(spec, "34402", "Head", "Shroud of Chieftain Ner'zhul", "Alt")
+LoonBestInSlot:AddItem(spec, "35185", "Head", "Justicebringer 3000 Specs", "Alt")
+LoonBestInSlot:AddItem(spec, "30988", "Head", "Lightbringer Greathelm", "Alt")
+LoonBestInSlot:AddItem(spec, "31097", "Head", "Helm of the Forgotten Conqueror", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34193", "Shoulders", "Spaulders of the Thalassian Savior", "BIS")
+LoonBestInSlot:AddItem(spec, "34208", "Shoulders", "Equilibrium Epaulets", "Alt")
+LoonBestInSlot:AddItem(spec, "30996", "Shoulders", "Lightbringer Pauldrons", "Alt")
+LoonBestInSlot:AddItem(spec, "31101", "Shoulders", "Pauldrons of the Forgotten Conqueror", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34205", "Back", "Shroud of Redeemed Souls", "BIS")
+LoonBestInSlot:AddItem(spec, "32524", "Back", "Shroud of the Highborne", "Alt")
+LoonBestInSlot:AddItem(spec, "34012", "Back", "Shroud of the Final Stand", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34229", "Chest", "Garments of Serene Shores", "BIS")
+LoonBestInSlot:AddItem(spec, "34379", "Chest", "Sunblessed Breastplate", "Alt")
+LoonBestInSlot:AddItem(spec, "34395", "Chest", "Noble Judicator's Chestguard", "Alt")
+LoonBestInSlot:AddItem(spec, "30992", "Chest", "Lightbringer Chestpiece", "Alt")
+LoonBestInSlot:AddItem(spec, "31089", "Chest", "Chestguard of the Forgotten Conqueror", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34432", "Bracers", "Lightbringer Bracers", "BIS")
+LoonBestInSlot:AddItem(spec, "34848", "Bracers", "Bracers of the Forgotten Conqueror", "BIS")
+LoonBestInSlot:AddItem(spec, "30862", "Bracers", "Blessed Adamantite Bracers", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34380", "Gloves", "Sunblessed Gauntlets", "BIS")
+LoonBestInSlot:AddItem(spec, "34240", "Gloves", "Gauntlets of the Soothed Soul", "BIS")
+LoonBestInSlot:AddItem(spec, "30112", "Gloves", "Glorious Gauntlets of Crestfall", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34487", "Belt", "Lightbringer Belt", "BIS")
+LoonBestInSlot:AddItem(spec, "30897", "Belt", "Girdle of Hope", "Alt")
+LoonBestInSlot:AddItem(spec, "33446", "Belt", "Girdle of Stromgarde's Hope", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34167", "Legs", "Legplates of the Holy Juggernaut", "BIS")
+LoonBestInSlot:AddItem(spec, "34383", "Legs", "Kilt of Spiritual Reconstruction", "Alt")
+LoonBestInSlot:AddItem(spec, "30994", "Legs", "Lightbringer Leggings", "Alt")
+LoonBestInSlot:AddItem(spec, "31098", "Legs", "Leggings of the Forgotten Conqueror", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34559", "Feet", "Lightbringer Treads", "BIS")
+LoonBestInSlot:AddItem(spec, "34856", "Feet", "Boots of the Forgotten Conqueror", "BIS")
+LoonBestInSlot:AddItem(spec, "32243", "Feet", "Pearl Inlaid Boots", "Alt")
+
+LoonBestInSlot:AddItem(spec, "32370", "Neck", "Nadina's Pendant of Purity", "BIS")
+LoonBestInSlot:AddItem(spec, "34360", "Neck", "Amulet of Flowing Life", "BIS")
+LoonBestInSlot:AddItem(spec, "34184", "Neck", "Brooch of the Highborne", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34363", "Ring", "Ring of Flowing Life", "BIS")
+LoonBestInSlot:AddItem(spec, "32528", "Ring", "Blessed Band of Karabor", "BIS")
+LoonBestInSlot:AddItem(spec, "34166", "Ring", "Band of Lucent Beams", "Alt")
+LoonBestInSlot:AddItem(spec, "32238", "Ring", "Ring of Calming Waves", "Alt")
+LoonBestInSlot:AddItem(spec, "29309", "Ring", "Band of the Eternal Restorer", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34430", "Trinket", "Glimmering Naaru Sliver", "BIS")
+LoonBestInSlot:AddItem(spec, "35750", "Trinket", "Redeemer's Alchemist Stone", "BIS")
+LoonBestInSlot:AddItem(spec, "32496", "Trinket", "Memento of Tyrande", "BIS")
+LoonBestInSlot:AddItem(spec, "29376", "Trinket", "Essence of the Martyr", "Alt")
+LoonBestInSlot:AddItem(spec, "38288", "Trinket", "Direbrew Hops", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34335", "MH", "Hammer of Sanctification", "BIS")
+LoonBestInSlot:AddItem(spec, "34199", "MH", "Archon's Gavel", "Alt")
+LoonBestInSlot:AddItem(spec, "32500", "MH", "Crystal Spire of Karabor", "Alt")
+LoonBestInSlot:AddItem(spec, "30918", "MH", "Hammer of Atonement", "Alt")
+LoonBestInSlot:AddItem(spec, "34896", "MH", "Gavel of Naaru Blessings", "Alt")
+
+LoonBestInSlot:AddItem(spec, "34231", "OH", "Aegis of Angelic Fortune", "BIS")
+LoonBestInSlot:AddItem(spec, "34206", "OH", "Book of Highborne Hymns", "BIS")
+LoonBestInSlot:AddItem(spec, "32255", "OH", "Felstone Bulwark", "Alt")
+LoonBestInSlot:AddItem(spec, "30882", "OH", "Bastion of Light", "Alt")
+LoonBestInSlot:AddItem(spec, "30911", "OH", "Scepter of Purification", "Alt")
+
+LoonBestInSlot:AddItem(spec, "28592", "Libram", "Libram of Souls Redeemed", "BIS")
+LoonBestInSlot:AddItem(spec, "23006", "Libram", "Libram of Light", "BIS")
+LoonBestInSlot:AddItem(spec, "30063", "Libram", "Libram of Absolute Truth", "BIS")
+LoonBestInSlot:AddItem(spec, "28296", "Libram", "Libram of the Lightbringer", "BIS")
