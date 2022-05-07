@@ -549,7 +549,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
         ['name']='phase',
         ['parent']=window,
         ['title']='Phase:',
-        ['items']= { "All", "PreRaid", "Phase 1", "Phase 2", "Phase 3", "Phase 4", "BIS" },
+        ['items']= { "All", "PreRaid", "Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "BIS" },
         ['defaultVal']=LoonBestInSlotSettings.SelectedPhase,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedPhase = dropdown_val;
@@ -563,7 +563,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
         ['name']='source',
         ['parent']=window,
         ['title']='Source:',
-        ['items']= { "All", "Drop", "Profession", "Reputation", "Dungeon Token", "Quest", "PvP" },
+        ['items']= { "All", "Drop", "Profession", "Reputation", "Dungeon Token", "Quest", "PvP", "Transmute" },
         ['defaultVal']= LoonBestInSlotSettings.SelectedSource,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedSource = dropdown_val;
@@ -577,7 +577,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
         ['name']='zone',
         ['parent']=window,
         ['title']='Zone:',
-        ['items']= { "All", "Karazhan", "Gruul's Lair", "Magtheridon's Lair", "Serpentshrine Cavern", "Tempest Keep", "Hyjal Summit", "Black Temple", "Zul'Aman"},
+        ['items']= { "All", "Karazhan", "Gruul's Lair", "Magtheridon's Lair", "Serpentshrine Cavern", "Tempest Keep", "Hyjal Summit", "Black Temple", "Zul'Aman", "Sunwell Plateau"},
         ['defaultVal']= LoonBestInSlotSettings.SelectedZone,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedZone = dropdown_val;
