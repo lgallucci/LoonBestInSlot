@@ -13,6 +13,7 @@ LoonBestInSlot:AddItem(spec, "34241", "Back", "Cloak of Unforgivable Sin", "BIS"
 LoonBestInSlot:AddItem(spec, "32323", "Back", "Shadowmoon Destroyer's Drape", "Alt")
 
 LoonBestInSlot:AddItem(spec, "34397", "Chest", "Bladed Chaos Tunic", "BIS")
+LoonBestInSlot:AddItem(spec, "34211", "Chest", "Harness of Carnal Instinct", "BIS Tmute")
 LoonBestInSlot:AddItem(spec, "34228", "Chest", "Vicious Hawkstrider Hauberk", "BIS")
 LoonBestInSlot:AddItem(spec, "34373", "Chest", "Embrace of the Phoenix", "Alt")
 LoonBestInSlot:AddItem(spec, "34369", "Chest", "Carapace of Sun and Shadow", "Alt")

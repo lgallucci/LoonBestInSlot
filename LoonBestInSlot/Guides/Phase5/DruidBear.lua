@@ -1,9 +1,10 @@
 local spec = LoonBestInSlot:RegisterSpec("Druid", "Bear", "5")
 LoonBestInSlot:AddItem(spec, "34404", "Head", "Mask of the Fury Hunter", "BIS")
-LoonBestInSlot:AddItem(spec, "34244", "Head", "Duplicitous Guise", "Alt")
+LoonBestInSlot:AddItem(spec, "34244", "Head", "Duplicitous Guise", "BIS Tmute")
 LoonBestInSlot:AddItem(spec, "34999", "Head", "Brutal Gladiator's Dragonhide Helm", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "34392", "Shoulders", "Demontooth Shoulderpads", "BIS Mit")
+LoonBestInSlot:AddItem(spec, "34195", "Shoulders", "Shoulderpads of Vehemence", "BIS Mit Tmute")
 LoonBestInSlot:AddItem(spec, "31048", "Shoulders", "Thunderheart Pauldrons", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "31102", "Shoulders", "Pauldrons of the Forgotten Vanquisher", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "35001", "Shoulders", "Brutal Gladiator's Dragonhide Spaulders", "Alt")
@@ -25,8 +26,8 @@ LoonBestInSlot:AddItem(spec, "35171", "Bracers", "Guardian's Leather Bracers", "
 LoonBestInSlot:AddItem(spec, "35167", "Bracers", "Guardian's Dragonhide Bracers", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "34408", "Gloves", "Gloves of the Forest Drifter", "BIS")
+LoonBestInSlot:AddItem(spec, "34234", "Gloves", "Shadowed Gauntlets of Paroxysm", "BIS Tmute")
 LoonBestInSlot:AddItem(spec, "34911", "Gloves", "Handwraps of the Aggressor", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "34234", "Gloves", "Shadowed Gauntlets of Paroxysm", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "31034", "Gloves", "Thunderheart Gauntlets", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "31093", "Gloves", "Gloves of the Forgotten Vanquisher", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "34370", "Gloves", "Gloves of Immortal Dusk", "Alt Thrt")
@@ -37,8 +38,8 @@ LoonBestInSlot:AddItem(spec, "34855", "Belt", "Belt of the Forgotten Vanquisher"
 LoonBestInSlot:AddItem(spec, "30106", "Belt", "Belt of One-Hundred Deaths", "Alt")
 
 LoonBestInSlot:AddItem(spec, "34385", "Legs", "Leggings of the Immortal Beast", "BIS")
+LoonBestInSlot:AddItem(spec, "34188", "Legs", "Leggings of the Immortal Night", "BIS Tmute")
 LoonBestInSlot:AddItem(spec, "34910", "Legs", "Tameless Breeches", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "34188", "Legs", "Leggings of the Immortal Night", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "31044", "Legs", "Thunderheart Leggings", "Alt")
 LoonBestInSlot:AddItem(spec, "31099", "Legs", "Leggings of the Forgotten Vanquisher", "Alt")
 

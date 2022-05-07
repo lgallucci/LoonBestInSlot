@@ -1,6 +1,7 @@
 local spec = LoonBestInSlot:RegisterSpec("Paladin", "Holy", "5")
 LoonBestInSlot:AddItem(spec, "34243", "Head", "Helm of Burning Righteousness", "BIS")
 LoonBestInSlot:AddItem(spec, "34402", "Head", "Shroud of Chieftain Ner'zhul", "Alt")
+LoonBestInSlot:AddItem(spec, "34332", "Head", "Cowl of Gul'dan", "Alt Tmute")
 LoonBestInSlot:AddItem(spec, "35185", "Head", "Justicebringer 3000 Specs", "Alt")
 LoonBestInSlot:AddItem(spec, "30988", "Head", "Lightbringer Greathelm", "Alt")
 LoonBestInSlot:AddItem(spec, "31097", "Head", "Helm of the Forgotten Conqueror", "Alt")
@@ -17,6 +18,7 @@ LoonBestInSlot:AddItem(spec, "34012", "Back", "Shroud of the Final Stand", "Alt"
 LoonBestInSlot:AddItem(spec, "34229", "Chest", "Garments of Serene Shores", "BIS")
 LoonBestInSlot:AddItem(spec, "34379", "Chest", "Sunblessed Breastplate", "Alt")
 LoonBestInSlot:AddItem(spec, "34395", "Chest", "Noble Judicator's Chestguard", "Alt")
+LoonBestInSlot:AddItem(spec, "34216", "Chest", "Heroic Judicator's Chestguard", "Alt Tmute")
 LoonBestInSlot:AddItem(spec, "30992", "Chest", "Lightbringer Chestpiece", "Alt")
 LoonBestInSlot:AddItem(spec, "31089", "Chest", "Chestguard of the Forgotten Conqueror", "Alt")
 
@@ -34,6 +36,7 @@ LoonBestInSlot:AddItem(spec, "33446", "Belt", "Girdle of Stromgarde's Hope", "Al
 
 LoonBestInSlot:AddItem(spec, "34167", "Legs", "Legplates of the Holy Juggernaut", "BIS")
 LoonBestInSlot:AddItem(spec, "34383", "Legs", "Kilt of Spiritual Reconstruction", "Alt")
+LoonBestInSlot:AddItem(spec, "34186", "Legs", "Chain Links of the Tumultuous Storm", "Alt Tmute")
 LoonBestInSlot:AddItem(spec, "30994", "Legs", "Lightbringer Leggings", "Alt")
 LoonBestInSlot:AddItem(spec, "31098", "Legs", "Leggings of the Forgotten Conqueror", "Alt")
 

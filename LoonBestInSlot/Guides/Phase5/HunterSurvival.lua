@@ -17,6 +17,7 @@ LoonBestInSlot:AddItem(spec, "33484", "Back", "Dory's Embrace", "Alt")
 LoonBestInSlot:AddItem(spec, "33590", "Back", "Cloak of Fiends", "Alt")
 
 LoonBestInSlot:AddItem(spec, "34397", "Chest", "Bladed Chaos Tunic", "BIS")
+LoonBestInSlot:AddItem(spec, "34211", "Chest", "Harness of Carnal Instinct", "BIS Tmute")
 LoonBestInSlot:AddItem(spec, "34228", "Chest", "Vicious Hawkstrider Hauberk", "BIS")
 LoonBestInSlot:AddItem(spec, "34373", "Chest", "Embrace of the Phoenix", "Alt")
 LoonBestInSlot:AddItem(spec, "34369", "Chest", "Carapace of Sun and Shadow", "Alt")

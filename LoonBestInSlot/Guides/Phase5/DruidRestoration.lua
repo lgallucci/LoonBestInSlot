@@ -43,6 +43,7 @@ LoonBestInSlot:AddItem(spec, "32339", "Belt", "Belt of Primal Majesty", "Alt")
 LoonBestInSlot:AddItem(spec, "33483", "Belt", "Life-step Belt", "Alt")
 
 LoonBestInSlot:AddItem(spec, "34384", "Legs", "Breeches of Natural Splendor", "BIS")
+LoonBestInSlot:AddItem(spec, "34169", "Legs", "Breeches of Natural Aggression", "BIS Tmute")
 LoonBestInSlot:AddItem(spec, "34170", "Legs", "Pantaloons of Calming Strife", "BIS")
 LoonBestInSlot:AddItem(spec, "30912", "Legs", "Leggings of Eternity", "Alt")
 LoonBestInSlot:AddItem(spec, "34901", "Legs", "Grovewalker's Leggings", "Alt")
