@@ -4,7 +4,7 @@ LoonBestInSlot:AddItem(spec, "34333", "Head", "Coif of Alleria", "BIS")
 LoonBestInSlot:AddItem(spec, "32235", "Head", "Cursed Vision of Sargeras", "BIS")
 
 LoonBestInSlot:AddItem(spec, "34392", "Shoulders", "Demontooth Shoulderpads", "BIS")
-LoonBestInSlot:AddItem(spec, "34195", "Shoulders", "Shoulderpads of Vehemence", "Tmute BIS")
+LoonBestInSlot:AddItem(spec, "34195", "Shoulders", "Shoulderpads of Vehemence", "Transmute BIS")
 LoonBestInSlot:AddItem(spec, "34194", "Shoulders", "Mantle of the Golden Forest", "BIS")
 LoonBestInSlot:AddItem(spec, "32581", "Shoulders", "Swiftstrike Shoulders", "Alt")
 LoonBestInSlot:AddItem(spec, "30055", "Shoulders", "Shoulderpads of the Stranger", "Alt")
@@ -14,7 +14,7 @@ LoonBestInSlot:AddItem(spec, "34241", "Back", "Cloak of Unforgivable Sin", "BIS"
 LoonBestInSlot:AddItem(spec, "32323", "Back", "Shadowmoon Destroyer's Drape", "BIS")
 
 LoonBestInSlot:AddItem(spec, "34397", "Chest", "Bladed Chaos Tunic", "BIS")
-LoonBestInSlot:AddItem(spec, "34211", "Chest", "Harness of Carnal Instinct", "Tmute BIS")
+LoonBestInSlot:AddItem(spec, "34211", "Chest", "Harness of Carnal Instinct", "Transmute BIS")
 LoonBestInSlot:AddItem(spec, "34369", "Chest", "Carapace of Sun and Shadow", "BIS")
 LoonBestInSlot:AddItem(spec, "34373", "Chest", "Embrace of the Phoenix", "Alt")
 LoonBestInSlot:AddItem(spec, "34228", "Chest", "Vicious Hawkstrider Hauberk", "Alt")

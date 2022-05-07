@@ -2,7 +2,7 @@ local spec = LoonBestInSlot:RegisterSpec("Druid", "Cat", "5")
 LoonBestInSlot:AddItem(spec, "8345", "Head", "Wolfshead Helm", "BIS")
 
 LoonBestInSlot:AddItem(spec, "34392", "Shoulders", "Demontooth Shoulderpads", "BIS")
-LoonBestInSlot:AddItem(spec, "34195", "Shoulders", "Shoulderpads of Vehemence", "Tmute BIS")
+LoonBestInSlot:AddItem(spec, "34195", "Shoulders", "Shoulderpads of Vehemence", "Transmute BIS")
 LoonBestInSlot:AddItem(spec, "31048", "Shoulders", "Thunderheart Pauldrons", "BIS")
 LoonBestInSlot:AddItem(spec, "31102", "Shoulders", "Pauldrons of the Forgotten Vanquisher", "BIS")
 LoonBestInSlot:AddItem(spec, "35001", "Shoulders", "Brutal Gladiator's Dragonhide Spaulders", "Alt")
@@ -12,7 +12,7 @@ LoonBestInSlot:AddItem(spec, "32323", "Back", "Shadowmoon Destroyer's Drape", "A
 LoonBestInSlot:AddItem(spec, "29994", "Back", "Thalassian Wildercloak", "Alt")
 
 LoonBestInSlot:AddItem(spec, "34397", "Chest", "Bladed Chaos Tunic", "BIS")
-LoonBestInSlot:AddItem(spec, "34211", "Chest", "Harness of Carnal Instinct", "Tmute BIS")
+LoonBestInSlot:AddItem(spec, "34211", "Chest", "Harness of Carnal Instinct", "Transmute BIS")
 LoonBestInSlot:AddItem(spec, "34369", "Chest", "Carapace of Sun and Shadow", "Alt")
 LoonBestInSlot:AddItem(spec, "31042", "Chest", "Thunderheart Chestguard", "Alt")
 LoonBestInSlot:AddItem(spec, "31090", "Chest", "Chestguard of the Forgotten Vanquisher", "Alt")
@@ -27,7 +27,7 @@ LoonBestInSlot:AddItem(spec, "35171", "Bracers", "Guardian's Leather Bracers", "
 
 LoonBestInSlot:AddItem(spec, "34370", "Gloves", "Gloves of Immortal Dusk", "BIS")
 LoonBestInSlot:AddItem(spec, "34408", "Gloves", "Gloves of the Forest Drifter", "Alt")
-LoonBestInSlot:AddItem(spec, "34234", "Gloves", "Shadowed Gauntlets of Paroxysm", "Tmute Alt")
+LoonBestInSlot:AddItem(spec, "34234", "Gloves", "Shadowed Gauntlets of Paroxysm", "Transmute Alt")
 LoonBestInSlot:AddItem(spec, "31034", "Gloves", "Thunderheart Gauntlets", "Alt")
 LoonBestInSlot:AddItem(spec, "31093", "Gloves", "Gloves of the Forgotten Vanquisher", "Alt")
 LoonBestInSlot:AddItem(spec, "34998", "Gloves", "Brutal Gladiator's Dragonhide Gloves", "Alt")

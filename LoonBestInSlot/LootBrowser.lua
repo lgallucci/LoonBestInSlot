@@ -98,7 +98,7 @@ end
 local function IsInPhase(specItem, specItemSource)
     if specItemSource.SourceType == "Token" then
         return false;
-    elseif strfind(specItem.Bis, "Tmute") ~= nil then
+    elseif strfind(specItem.Bis, "Transmute") ~= nil then
         return false;
     elseif LoonBestInSlotSettings.SelectedPhase == "All" and specItem.Phase ~= "0" then
         return true;
