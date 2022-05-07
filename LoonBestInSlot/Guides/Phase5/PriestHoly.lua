@@ -41,8 +41,8 @@ LoonBestInSlot:AddItem(spec, "30895", "Belt", "Angelista's Sash", "Alt")
 LoonBestInSlot:AddItem(spec, "32519", "Belt", "Belt of Divine Guidance", "Alt")
 
 LoonBestInSlot:AddItem(spec, "34170", "Legs", "Pantaloons of Calming Strife", "Alt")
-LoonBestInSlot:AddItem(spec, "30912", "Legs", "Leggings of Eternity", "BIS")
-LoonBestInSlot:AddItem(spec, "33585", "Legs", "Achromic Trousers of the Naaru", "BIS")
+LoonBestInSlot:AddItem(spec, "30912", "Legs", "Leggings of Eternity", "Alt")
+LoonBestInSlot:AddItem(spec, "33585", "Legs", "Achromic Trousers of the Naaru", "Alt")
 LoonBestInSlot:AddItem(spec, "34925", "Legs", "Adorned Supernal Legwraps", "Alt")
 
 LoonBestInSlot:AddItem(spec, "34562", "Feet", "Boots of Absolution", "BIS")

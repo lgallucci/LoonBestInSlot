@@ -11,7 +11,7 @@ LoonBestInSlot:AddItem(spec, "34241", "Back", "Cloak of Unforgivable Sin", "BIS"
 LoonBestInSlot:AddItem(spec, "32323", "Back", "Shadowmoon Destroyer's Drape", "Alt")
 
 LoonBestInSlot:AddItem(spec, "34397", "Chest", "Bladed Chaos Tunic", "BIS")
-LoonBestInSlot:AddItem(spec, "34211", "Chest", "Harness of Carnal Instinct", "BIS Tmute")
+LoonBestInSlot:AddItem(spec, "34211", "Chest", "Harness of Carnal Instinct", "Tmute BIS")
 LoonBestInSlot:AddItem(spec, "34369", "Chest", "Carapace of Sun and Shadow", "BIS")
 LoonBestInSlot:AddItem(spec, "31028", "Chest", "Slayer's Chestguard", "Alt")
 LoonBestInSlot:AddItem(spec, "31090", "Chest", "Chestguard of the Forgotten Vanquisher", "Alt")

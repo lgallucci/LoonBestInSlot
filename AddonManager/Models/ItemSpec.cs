@@ -146,6 +146,11 @@ public class ItemSpec
         new (" (Leatherworking)", ""),
         new (" (Alchemy)", ""),
         new (" (with 4pT6 Bonus)", ""),
+        new (" with 4pT6 Bonus", ""),
+        new (" Below Armor Cap", ""),
+        new (" Above Armor Cap", ""),
+        new (" (below Armor cap)", ""),
+        new (" (above Armor cap)", ""),
 
         new ("Alt Alt", "Alt"),
         new ("Temporary  Alt", "Alt"),
