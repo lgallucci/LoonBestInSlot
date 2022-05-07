@@ -150,7 +150,7 @@ public class WowheadGuideParser
                                                     {
                                                         ItemId = TierPiecesAndTokens.Transmutes[itemId].Item1,
                                                         Name = TierPiecesAndTokens.Transmutes[itemId].Item2,
-                                                        BisStatus = bisStatus + " Tmute" ?? "undefined",
+                                                        BisStatus = "Tmute " + bisStatus ?? "undefined",
                                                         Slot = guideMapping.Slot
                                                     });
                                                 }

@@ -66,6 +66,8 @@ public class ItemSpec
         new ("P3 BIS", "Alt"),
         new ("P4 BIS", "Alt"),
         new ("BIS in Slot", "BIS"),
+        new ("Avoidance", "Mit"),
+
 
         new ("- Hit", ""),
         new ("Hit", ""),
@@ -136,6 +138,14 @@ public class ItemSpec
         new (" Balanced", ""),
         new (" Set Bonus", ""),
         new (" ()", ""),
+        new ("AoE-", ""),
+        new (" PvE", ""),
+        new (" NonHuman", ""),
+        new (" Human", ""),
+        new (" (Jewelcrafting)", ""),
+        new (" (Leatherworking)", ""),
+        new (" (Alchemy)", ""),
+        new (" (with 4pT6 Bonus)", ""),
 
         new ("Alt Alt", "Alt"),
         new ("Temporary  Alt", "Alt"),
