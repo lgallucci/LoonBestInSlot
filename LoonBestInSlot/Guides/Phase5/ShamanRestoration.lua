@@ -1,5 +1,6 @@
 local spec = LoonBestInSlot:RegisterSpec("Shaman", "Resto", "5")
 LoonBestInSlot:AddItem(spec, "34402", "Head", "Shroud of Chieftain Ner'zhul", "BIS")
+LoonBestInSlot:AddItem(spec, "34332", "Head", "Cowl of Gul'dan", "BIS Tmute")
 LoonBestInSlot:AddItem(spec, "34339", "Head", "Cowl of Light's Purity", "Alt")
 LoonBestInSlot:AddItem(spec, "35184", "Head", "Primal-Attuned Goggles", "Alt")
 LoonBestInSlot:AddItem(spec, "31012", "Head", "Skyshatter Helmet", "Alt")
@@ -29,6 +30,7 @@ LoonBestInSlot:AddItem(spec, "32582", "Bracers", "Bracers of Renewed Life", "Alt
 
 LoonBestInSlot:AddItem(spec, "34376", "Gloves", "Sun-Drenched Scale Gloves", "BIS")
 LoonBestInSlot:AddItem(spec, "34409", "Gloves", "Gauntlets of the Ancient Frostwolf", "BIS")
+LoonBestInSlot:AddItem(spec, "34350", "Gloves", "Gauntlets of the Ancient Shadowmoon", "BIS Tmute")
 LoonBestInSlot:AddItem(spec, "32328", "Gloves", "Botanist's Gloves of Growth", "Alt")
 
 LoonBestInSlot:AddItem(spec, "34543", "Belt", "Skyshatter Belt", "BIS")
@@ -39,6 +41,7 @@ LoonBestInSlot:AddItem(spec, "30895", "Belt", "Angelista's Sash", "Alt")
 LoonBestInSlot:AddItem(spec, "34932", "Belt", "Clutch of the Soothing Breeze", "Alt")
 
 LoonBestInSlot:AddItem(spec, "34383", "Legs", "Kilt of Spiritual Reconstruction", "BIS")
+LoonBestInSlot:AddItem(spec, "34186", "Legs", "Chain Links of the Tumultuous Storm", "BIS Tmute")
 LoonBestInSlot:AddItem(spec, "31019", "Legs", "Skyshatter Leggings", "Alt")
 LoonBestInSlot:AddItem(spec, "31100", "Legs", "Leggings of the Forgotten Protector", "Alt")
 LoonBestInSlot:AddItem(spec, "34931", "Legs", "Runed Scales of Antiquity", "Alt")

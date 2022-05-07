@@ -1,9 +1,9 @@
 local spec = LoonBestInSlot:RegisterSpec("Warrior", "Prot", "5")
 LoonBestInSlot:AddItem(spec, "34400", "Head", "Crown of Dath'Remar", "BIS Mit")
+LoonBestInSlot:AddItem(spec, "34345", "Head", "Crown of Anasterian", "BIS Mit Tmute")
 LoonBestInSlot:AddItem(spec, "34357", "Head", "Hard Khorium Goggles", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "35068", "Head", "Brutal Gladiator's Plate Helm", "BIS Thrt")
 LoonBestInSlot:AddItem(spec, "34354", "Head", "Mayhem Projection Goggles", "Alt Thrt")
-LoonBestInSlot:AddItem(spec, "34345", "Head", "Crown of Anasterian", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "35070", "Shoulders", "Brutal Gladiator's Plate Shoulders", "BIS")
 LoonBestInSlot:AddItem(spec, "34388", "Shoulders", "Pauldrons of Berserking", "BIS Thrt")
@@ -36,9 +36,11 @@ LoonBestInSlot:AddItem(spec, "34854", "Belt", "Belt of the Forgotten Protector",
 LoonBestInSlot:AddItem(spec, "34941", "Belt", "Girdle of the Fearless", "Alt")
 
 LoonBestInSlot:AddItem(spec, "34381", "Legs", "Felstrength Legplates", "BIS")
+LoonBestInSlot:AddItem(spec, "34180", "Legs", "Felfury Legplates", "BIS Tmute")
 LoonBestInSlot:AddItem(spec, "34940", "Legs", "Sunguard Legplates", "Alt")
 LoonBestInSlot:AddItem(spec, "35069", "Legs", "Brutal Gladiator's Plate Legguards", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "34382", "Legs", "Judicator's Legguards", "Alt Mit")
+LoonBestInSlot:AddItem(spec, "34167", "Legs", "Legplates of the Holy Juggernaut", "Alt Mit Tmute")
 
 LoonBestInSlot:AddItem(spec, "34568", "Feet", "Onslaught Boots", "BIS")
 LoonBestInSlot:AddItem(spec, "34857", "Feet", "Boots of the Forgotten Protector", "BIS")

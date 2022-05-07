@@ -65,6 +65,7 @@ public class ItemSpec
         new ("P2 BIS", "Alt"),
         new ("P3 BIS", "Alt"),
         new ("P4 BIS", "Alt"),
+        new ("BIS in Slot", "BIS"),
 
         new ("- Hit", ""),
         new ("Hit", ""),
@@ -133,6 +134,8 @@ public class ItemSpec
         new (" Without Thori'dal", ""),
         new (" With Thori'dal", ""),
         new (" Balanced", ""),
+        new (" Set Bonus", ""),
+        new (" ()", ""),
 
         new ("Alt Alt", "Alt"),
         new ("Temporary  Alt", "Alt"),
