@@ -212,13 +212,35 @@ public partial class WowheadReader : Window
             {
                 tokenKeys.Add(tierPiece.Value.Item1);
             }
-            csvLootTable.Add(tierPiece.Key, new CsvLootTable
+            if (itemSources.ContainsKey(tierPiece.Key))
             {
-                ItemId = tierPiece.Key,
-                ItemName = csvLootTable[tierPiece.Key].ItemName,
-                InstanceName = csvLootTable[tierPiece.Value.Item1].InstanceName, 
-                SourceName = csvLootTable[tierPiece.Value.Item1].SourceName,
-            });
+                csvLootTable.Add(tierPiece.Key, new CsvLootTable
+                {
+                    ItemId = tierPiece.Key,
+                    ItemName = itemSources[tierPiece.Key].Name,
+                    InstanceName = csvLootTable[tierPiece.Value.Item1].InstanceName,
+                    SourceName = csvLootTable[tierPiece.Value.Item1].SourceName,
+                });
+            }
+        }
+
+        var transmuteKeys = new HashSet<int>();
+        foreach (var transmutePiece in TierPiecesAndTokens.Transmutes)
+        {
+            if (!transmuteKeys.Contains(transmutePiece.Key))
+            {
+                transmuteKeys.Add(transmutePiece.Key);
+            }
+            if (itemSources.ContainsKey(transmutePiece.Key) && csvLootTable.ContainsKey(transmutePiece.Value.Item1))
+            {
+                csvLootTable.Add(transmutePiece.Key, new CsvLootTable
+                {
+                    ItemId = transmutePiece.Key,
+                    ItemName = itemSources[transmutePiece.Key].Name,
+                    InstanceName = $"{csvLootTable[transmutePiece.Value.Item1].SourceName} - {csvLootTable[transmutePiece.Value.Item1].InstanceName}",
+                    SourceName = transmutePiece.Value.Item1.ToString(),
+                });
+            }
         }
 
         foreach (var itemSource in itemSources)
@@ -227,6 +249,9 @@ public partial class WowheadReader : Window
             if (tokenKeys.Contains(itemSource.Key))
             {
                 sourceType = "Token";
+            } else if (transmuteKeys.Contains(itemSource.Key))
+            {
+                sourceType = "Transmute";
             }
 
             if (csvLootTable.ContainsKey(itemSource.Key))

@@ -14,7 +14,6 @@ public class ItemSpec
             _bisStatus = ReplaceStatuses(value);
         }
     }
-    public string PhaseStatus { get; set; }
 
 
     public List<Tuple<string, string>> Replacements = new List<Tuple<string, string>>

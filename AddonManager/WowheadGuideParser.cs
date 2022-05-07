@@ -130,7 +130,6 @@ public class WowheadGuideParser
                                                     ItemId = itemId,
                                                     Name = itemName ?? "undefined",
                                                     BisStatus = bisStatus ?? "undefined",
-                                                    PhaseStatus = "EH",
                                                     Slot = guideMapping.Slot
                                                 });
 
@@ -141,7 +140,17 @@ public class WowheadGuideParser
                                                         ItemId = TierPiecesAndTokens.TierPieces[itemId].Item1,
                                                         Name = TierPiecesAndTokens.TierPieces[itemId].Item2,
                                                         BisStatus = bisStatus ?? "undefined",
-                                                        PhaseStatus = "EH",
+                                                        Slot = guideMapping.Slot
+                                                    });
+                                                }
+
+                                                if (TierPiecesAndTokens.Transmutes.ContainsKey(itemId) && !items.ContainsKey(TierPiecesAndTokens.Transmutes[itemId].Item1))
+                                                {
+                                                    items.Add(TierPiecesAndTokens.Transmutes[itemId].Item1, new ItemSpec
+                                                    {
+                                                        ItemId = TierPiecesAndTokens.Transmutes[itemId].Item1,
+                                                        Name = TierPiecesAndTokens.Transmutes[itemId].Item2,
+                                                        BisStatus = bisStatus + " Tmute" ?? "undefined",
                                                         Slot = guideMapping.Slot
                                                     });
                                                 }
@@ -159,7 +168,6 @@ public class WowheadGuideParser
                                 ItemId = itemId,
                                 Name = "undefined",
                                 BisStatus = "undefined",
-                                PhaseStatus = "EH",
                                 Slot = guideMapping.Slot
                             });
                         }

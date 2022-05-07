@@ -43,8 +43,7 @@ internal class MigrationSpecReader
                 ItemId = Int32.Parse(splitFields[0]),
                 Name = splitFields[2],
                 Slot = splitFields[1],
-                BisStatus = splitFields[3],
-                PhaseStatus = splitFields[4]
+                BisStatus = splitFields[3]
             },
             new ItemSource
             {
