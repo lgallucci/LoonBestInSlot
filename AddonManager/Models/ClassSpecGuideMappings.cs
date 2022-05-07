@@ -414,7 +414,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#jewelry", "Neck"),
             new GuideMapping("#rings", "Ring"),
-            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#trinkets~.last li div .gem2", "Trinket"),
             new GuideMapping("#main-hand-and-two-handed-weapons", "MH"),
             new GuideMapping("#off-hand", "OH"),
             new GuideMapping("#wand", "Wand")

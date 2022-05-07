@@ -98,6 +98,8 @@ end
 local function IsInPhase(specItem, specItemSource)
     if specItemSource.SourceType == "Token" then
         return false;
+    elseif strfind(specItem.Bis, "Tmute") ~= nil then
+        return false;
     elseif LoonBestInSlotSettings.SelectedPhase == "All" and specItem.Phase ~= "0" then
         return true;
     elseif LoonBestInSlotSettings.SelectedPhase == "PreRaid" and specItem.Phase == "0" then
@@ -109,6 +111,8 @@ local function IsInPhase(specItem, specItemSource)
     elseif LoonBestInSlotSettings.SelectedPhase == "Phase 3" and FindInPhase(specItem.Phase, "3") then
         return true;
     elseif LoonBestInSlotSettings.SelectedPhase == "Phase 4" and FindInPhase(specItem.Phase, "4") then
+        return true;
+    elseif LoonBestInSlotSettings.SelectedPhase == "Phase 5" and FindInPhase(specItem.Phase, "5") then
         return true;
     elseif LoonBestInSlotSettings.SelectedPhase == "BIS" and strfind(specItem.Bis, "BIS") ~= nil then
         return true;
@@ -151,6 +155,39 @@ local function IsNotInClassic(specItem)
     return true;
 end
 
+
+local function SetTooltipOnButton(b, item)
+    
+    b:SetScript("OnClick", 
+        function(self, button)
+            if button == "LeftButton" then
+                HandleModifiedItemClick(item.Link);
+            end
+        end
+    );
+
+    b:SetScript("OnEnter", 
+        function(self)
+            GameTooltip:SetOwner(self, "ANCHOR_LEFT");
+            GameTooltip:SetItemByID(item.Id);
+            GameTooltip:Show();
+            itemIsOnEnter = true;
+                
+            if IsShiftKeyDown() and itemIsOnEnter then
+                GameTooltip_ShowCompareItem(tooltip)
+            end
+        end
+    );
+
+    b:SetScript("OnLeave", 
+        function(self)
+            itemIsOnEnter = false;
+            GameTooltip:SetOwner(UIParent, "ANCHOR_NONE");
+            GameTooltip:Hide();
+        end
+    );
+end
+
 local failedLoad = false;
 
 local function createItemRow(specItem, specItemSource, point)
@@ -186,13 +223,15 @@ local function createItemRow(specItem, specItemSource, point)
         tex:SetAllPoints();            
 
         --Create Item Button and Text
-
+        
         b = CreateFrame("Button", nil, f);
         b:SetSize(32, 32);
         local bt = b:CreateTexture();
         bt:SetAllPoints();
         bt:SetTexture(item.Texture);
         b:SetPoint("TOPLEFT", f, 2, -5);
+
+        SetTooltipOnButton(b, item);
         
         t = f:CreateFontString(nil, nil, "GameFontNormal");
         t:SetText((item.Link or item.Name):gsub("[%[%]]", ""));
@@ -229,6 +268,8 @@ local function createItemRow(specItem, specItemSource, point)
             dtColor = "|cFFFF276D";
         elseif specItemSource.SourceType == "PvP" then
             dtColor = "|cFFE52AED";
+        elseif specItemSource.SourceType == "Transmute" then
+            dtColor = "|cFFFC6A03";
         end
         d = f:CreateFontString(nil, nil, "GameFontNormal");
         d:SetText(dtColor..specItemSource.SourceType);
@@ -236,13 +277,34 @@ local function createItemRow(specItem, specItemSource, point)
         d:SetWidth(window.ScrollFrame:GetWidth() / 2);
         d:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
 
+
+
         dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
         if specItemSource.SourceLocation == "" then
             dl:SetText(specItemSource.Source);
+            dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
+        elseif specItemSource.SourceType == "Transmute" then
+            
+            local transmuteItem = LoonBestInSlot:GetItemInfo(tonumber(specItemSource.Source))
+
+            local tb = CreateFrame("Button", nil, f);
+            tb:SetSize(32, 32);
+            local bt = tb:CreateTexture();
+            bt:SetAllPoints();
+            bt:SetTexture(transmuteItem.Texture);
+            tb:SetPoint("BOTTOMLEFT", dl, "BOTTOMRIGHT", 5, -2);
+            SetTooltipOnButton(tb, transmuteItem);
+            
+            local ft = f:CreateFontString(nil, nil, "GameFontNormalSmall")
+            ft:SetText("From:");
+            ft:SetPoint("TOPRIGHT", tb, "TOPLEFT", -3, -3);
+
+            dl:SetText(specItemSource.SourceLocation);
+            dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
         else
             dl:SetText(specItemSource.Source.." - "..specItemSource.SourceLocation);
+            dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
         end      
-        dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
 
         local userItemCache = LoonBestInSlot.UserItems[item.Id];
         if userItemCache then
@@ -263,35 +325,6 @@ local function createItemRow(specItem, specItemSource, point)
         l:SetThickness(1);
         l:SetStartPoint("BOTTOMLEFT",5, 0);
         l:SetEndPoint("BOTTOMRIGHT",-5, 0);
-
-        b:SetScript("OnClick", 
-            function(self, button)
-                if button == "LeftButton" then
-                    HandleModifiedItemClick(item.Link);
-                end
-            end
-        );
-
-        b:SetScript("OnEnter", 
-            function(self)
-                GameTooltip:SetOwner(self, "ANCHOR_LEFT");
-                GameTooltip:SetItemByID(item.Id);
-                GameTooltip:Show();
-                itemIsOnEnter = true;
-                
-                if IsShiftKeyDown() and itemIsOnEnter then
-                    GameTooltip_ShowCompareItem(tooltip)
-                end
-            end
-        );
-
-        b:SetScript("OnLeave", 
-            function(self)
-                itemIsOnEnter = false;
-                GameTooltip:SetOwner(UIParent, "ANCHOR_NONE");
-                GameTooltip:Hide();
-            end
-        );
         
     end
     
@@ -316,6 +349,7 @@ local function createItemRow(specItem, specItemSource, point)
 
     return point;
 end
+
 
 local itemSlotOrder = {}
 itemSlotOrder["Head"] = 0;
