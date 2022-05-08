@@ -47,8 +47,9 @@ LoonBestInSlot:AddItem(spec, "34679", "Neck", "Shattered Sun Pendant of Might", 
 LoonBestInSlot:AddItem(spec, "30022", "Neck", "Pendant of the Perilous", "Alt")
 LoonBestInSlot:AddItem(spec, "32260", "Neck", "Choker of Endless Nightmares", "Alt")
 
-LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "BIS")
+LoonBestInSlot:AddItem(spec, "34361", "Ring", "Hard Khorium Band", "BIS")
 LoonBestInSlot:AddItem(spec, "34189", "Ring", "Band of Ruinous Delight", "BIS")
+LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "Alt")
 LoonBestInSlot:AddItem(spec, "32526", "Ring", "Band of Devastation", "Alt")
 LoonBestInSlot:AddItem(spec, "29997", "Ring", "Band of the Ranger-General", "Alt")
 
@@ -58,6 +59,7 @@ LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "Alt")
 LoonBestInSlot:AddItem(spec, "33831", "Trinket", "Berserker's Call", "Alt")
 LoonBestInSlot:AddItem(spec, "35702", "Trinket", "Figurine - Shadowsong Panther", "Alt")
 
+LoonBestInSlot:AddItem(spec, "34247", "2H", "Apolyon, the Soul-Render", "BIS")
 LoonBestInSlot:AddItem(spec, "32332", "2H", "Torch of the Damned", "BIS")
 LoonBestInSlot:AddItem(spec, "34183", "2H", "Shivering Felspine", "BIS")
 LoonBestInSlot:AddItem(spec, "34891", "2H", "The Blade of Harbingers", "Alt")

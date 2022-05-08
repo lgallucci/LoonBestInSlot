@@ -80,6 +80,7 @@ LoonBestInSlot:AddItem(spec, "34214", "MH", "Muramasa", "Alt")
 LoonBestInSlot:AddItem(spec, "28439", "MH", "Dragonstrike", "Alt")
 
 LoonBestInSlot:AddItem(spec, "32838", "OH", "Warglaive of Azzinoth", "BIS")
+LoonBestInSlot:AddItem(spec, "35072", "OH", "Brutal Gladiator's Quickblade", "Alt")
 LoonBestInSlot:AddItem(spec, "34164", "OH", "Dragonscale-Encrusted Longblade", "Alt")
 
 LoonBestInSlot:AddItem(spec, "34196", "Ranged", "Golden Bow of Quel'Thalas", "BIS")

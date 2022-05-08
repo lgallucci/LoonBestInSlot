@@ -151,6 +151,8 @@ public class ItemSpec
         new (" Above Armor Cap", ""),
         new (" (below Armor cap)", ""),
         new (" (above Armor cap)", ""),
+        new ("P5 ", ""),
+        new ("P4", "Alt"),
 
         new ("Alt Alt", "Alt"),
         new ("Temporary  Alt", "Alt"),

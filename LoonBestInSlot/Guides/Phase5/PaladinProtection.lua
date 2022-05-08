@@ -60,12 +60,15 @@ LoonBestInSlot:AddItem(spec, "34213", "Ring", "Ring of Hardened Resolve", "BIS M
 LoonBestInSlot:AddItem(spec, "34888", "Ring", "Ring of the Stalwart Protector", "BIS Mit")
 LoonBestInSlot:AddItem(spec, "30083", "Ring", "Ring of Sundered Souls", "Alt Mit")
 LoonBestInSlot:AddItem(spec, "34889", "Ring", "Fused Nethergon Band", "BIS Thrt")
+LoonBestInSlot:AddItem(spec, "34362", "Ring", "Loop of Forged Power", "Alt Thrt")
 LoonBestInSlot:AddItem(spec, "29305", "Ring", "Band of the Eternal Sage", "BIS Thrt")
+LoonBestInSlot:AddItem(spec, "35129", "Ring", "Guardian's Band of Dominance", "Alt Thrt")
 
 LoonBestInSlot:AddItem(spec, "34473", "Trinket", "Commendation of Kael'thas", "BIS Stam")
 LoonBestInSlot:AddItem(spec, "31858", "Trinket", "Darkmoon Card: Vengeance", "Alt Stam")
 LoonBestInSlot:AddItem(spec, "32501", "Trinket", "Shadowmoon Insignia", "BIS")
 LoonBestInSlot:AddItem(spec, "34428", "Trinket", "Steely Naaru Sliver", "Alt")
+LoonBestInSlot:AddItem(spec, "35700", "Trinket", "Figurine - Crimson Serpent", "Alt")
 
 LoonBestInSlot:AddItem(spec, "35014", "MH", "Brutal Gladiator's Gavel", "BIS")
 LoonBestInSlot:AddItem(spec, "30910", "MH", "Tempest of Chaos", "BIS")
