@@ -7,8 +7,6 @@ LoonBestInSlot.Items = {};
 LoonBestInSlot.SpecItems = {};
 LoonBestInSlot.ItemCache = {};
 LoonBestInSlot.AllItemsCached = false;
-LoonBestInSlot.PendingItems = {};
-LoonBestInSlot.PendingCount = 0;
 LoonBestInSlot.CurrentPhase = 4;
 LoonBestInSlot.EventFrame = CreateFrame("FRAME",addonName.."Events")
 
@@ -21,24 +19,9 @@ SlashCmdList["LOONBESTINSLOT"] = function(command)
 	if command == "" then
 		LoonBestInSlot.BrowserWindow:OpenWindow()
 	end
-
-	if command == "pending" then
-		LoonBestInSlot:Debug("Pending Item Count: ", LoonBestInSlot.PendingCount)
-	end
 end
 
 function LoonBestInSlot:Startup()
-	LoonBestInSlot:RegisterEvent("GET_ITEM_INFO_RECEIVED", function(itemId, success)
-
-        if success and LoonBestInSlot.PendingItems[itemId] ~= nil then		
-            local cacheSuccessful = LoonBestInSlot:GetItemForCache(itemId);
-            
-            if cacheSuccessful then
-                LoonBestInSlot.PendingItems[itemId] = nil;
-				LoonBestInSlot.PendingCount = LoonBestInSlot.PendingCount - 1;
-            end
-        end
-    end);
 
 	if LoonBestInSlotSettings.ShowTooltip == nil then
 		LoonBestInSlotSettings.ShowTooltip = true;

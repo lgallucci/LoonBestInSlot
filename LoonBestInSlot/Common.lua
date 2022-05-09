@@ -6,24 +6,26 @@ function LoonBestInSlot:PreCacheItems()
     for itemId, _ in pairs(LoonBestInSlot.Items) do
 
         if itemId and itemId ~= 0 then
-            local cacheSuccessful = LoonBestInSlot:GetItemForCache(itemId);
-            LoonBestInSlot.AllItemsCached = LoonBestInSlot.AllItemsCached and cacheSuccessful;
-
-            if not cacheSuccessful then
-                LoonBestInSlot.PendingItems[tonumber(itemId)] = true;
-				LoonBestInSlot.PendingCount = LoonBestInSlot.PendingCount + 1;
-            end
+            LoonBestInSlot:CacheItem(itemId);
         end
     end
     return LoonBestInSlot.AllItemsCached;
 end
 
-function LoonBestInSlot:GetItemForCache(itemId)
-    local item = LoonBestInSlot:GetItemInfo(itemId);
-    if item and item.Name then
-        return true;
-    end
-    return false;
+function LoonBestInSlot:CacheItem(itemId)
+    LoonBestInSlot:GetItemInfo(itemId, function(cacheItem)
+        if not cacheItem or cacheItem.Name == nil then
+            LoonBestInSlot:ReCacheItem(itemId)
+        end
+    end);
+end
+
+function LoonBestInSlot:ReCacheItem(itemId)
+    LoonBestInSlot:GetItemInfo(itemId, function(cacheItem)
+        if not cacheItem or cacheItem.Name == nil then
+            LoonBestInSlot:Debug("Failed to cache ("..itemId.."): ", cacheItem);
+        end
+    end);
 end
 
 function LoonBestInSlot:GetPhaseNumbers(phaseText)
@@ -45,38 +47,43 @@ function LoonBestInSlot:TableLength(T)
   return count
 end
 
-function LoonBestInSlot:GetItemInfo(itemIdString)
+function LoonBestInSlot:GetItemInfo(itemIdString, returnFunc)
 
     local itemId = tonumber(itemIdString);
 
-    if not itemId then
-        return;
-    end
-    local item = LoonBestInSlot.ItemCache[itemId];
-
-    if itemId <= 0 then
-        return { Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil };
+    if not itemId or itemId <= 0 then
+        returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil });
     end
 
-    if not item then
-        local name, link, quality, _, _, itemtype, subtype, _, _, texture = GetItemInfo(itemId);
+    local cachedItem = LoonBestInSlot.ItemCache[itemId];
 
-        item = {
-            Id = itemId,
-            Name = name,
-            Link = link,
-            Quality = quality,
-            Type = itemtype,
-            SubType = subtype,
-            Texture = texture,
-        };
+    if cachedItem then
+        returnFunc(cachedItem);
+    else
+        local itemCache = Item:CreateFromItemID(itemId)
 
-        if name then
-            LoonBestInSlot.ItemCache[itemId] = item;
-        end
-    end
+        itemCache:ContinueOnItemLoad(function()
+            local itemId, itemType, subType = GetItemInfoInstant(itemId)
 
-    return item;
+            local name = itemCache:GetItemName();
+            
+            local newItem = {
+                Id = itemId,
+                Name = name,
+                Link = itemCache:GetItemLink(),
+                Quality = itemCache:GetItemQuality(),
+                Type = itemType,
+                SubType = subType,
+                Texture = itemCache:GetItemIcon(),
+            };
+
+            if name then
+                LoonBestInSlot.ItemCache[itemId] = newItem;
+            end
+            
+            returnFunc(newItem);            
+        end);
+    end           
 end
 
 function LoonBestInSlot:Dump(o)
@@ -113,7 +120,6 @@ end
 function LoonBestInSlot:Debug(startString, object)
     ChatFrame6:AddMessage("LoonBestInSlot:"..startString..stringify(object));
 end
-
 
 function LoonBestInSlot:Error(startString, object)
     print("LoonBestInSlot ERROR:"..startString..stringify(object));
