@@ -80,5 +80,6 @@ LoonBestInSlot:AddItem(spec, "34206", "OH", "Book of Highborne Hymns", "BIS")
 LoonBestInSlot:AddItem(spec, "34231", "OH", "Aegis of Angelic Fortune", "BIS")
 LoonBestInSlot:AddItem(spec, "30882", "OH", "Bastion of Light", "BIS")
 LoonBestInSlot:AddItem(spec, "32255", "OH", "Felstone Bulwark", "BIS")
+LoonBestInSlot:AddItem(spec, "33332", "OH", "Enamelled Disc of Mojo", "BIS")
 
 LoonBestInSlot:AddItem(spec, "28523", "Totem", "Totem of Healing Rains", "BIS")

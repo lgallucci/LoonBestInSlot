@@ -75,5 +75,5 @@ LoonBestInSlot:AddItem(spec, "34179", "OH", "Heart of the Pit", "BIS")
 LoonBestInSlot:AddItem(spec, "30872", "OH", "Chronicle of Dark Secrets", "Alt")
 LoonBestInSlot:AddItem(spec, "33334", "OH", "Fetish of the Primal Gods", "Alt")
 
-LoonBestInSlot:AddItem(spec, "34347", "Wand", "Wand of the Demonsoul", "Alt")
-LoonBestInSlot:AddItem(spec, "33192", "Wand", "Carved Witch Doctor's Stick", "BIS")
+LoonBestInSlot:AddItem(spec, "34347", "Wand", "Wand of the Demonsoul", "BIS")
+LoonBestInSlot:AddItem(spec, "33192", "Wand", "Carved Witch Doctor's Stick", "Alt")

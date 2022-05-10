@@ -68,6 +68,7 @@ LoonBestInSlot:AddItem(spec, "34472", "Trinket", "Shard of Contempt", "BIS")
 LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "Alt")
 LoonBestInSlot:AddItem(spec, "33831", "Trinket", "Berserker's Call", "Alt")
 LoonBestInSlot:AddItem(spec, "32505", "Trinket", "Madness of the Betrayer", "Alt")
+LoonBestInSlot:AddItem(spec, "35702", "Trinket", "Figurine - Shadowsong Panther", "Alt")
 
 LoonBestInSlot:AddItem(spec, "34331", "MH", "Hand of the Deceiver", "BIS (MH)")
 LoonBestInSlot:AddItem(spec, "34346", "MH", "Mounting Vengeance", "BIS (OH)")
