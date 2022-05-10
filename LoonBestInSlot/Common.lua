@@ -23,7 +23,7 @@ end
 function LoonBestInSlot:ReCacheItem(itemId)
     LoonBestInSlot:GetItemInfo(itemId, function(cacheItem)
         if not cacheItem or cacheItem.Name == nil then
-            LoonBestInSlot:Debug("Failed to cache ("..itemId.."): ", cacheItem);
+            LoonBestInSlot:Error("Failed to cache ("..itemId.."): ", cacheItem);
         end
     end);
 end
