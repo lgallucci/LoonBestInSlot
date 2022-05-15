@@ -3,7 +3,7 @@
 ## Notes: 
 ## OptionalDeps: LibExtraTip
 ## SavedVariablesPerCharacter: LoonBestInSlotSettings
-## Version: 5.0.0
+## Version: 3.1.0
 
 libs\LibStub.lua
 libs\CallbackHandler-1.0.lua
