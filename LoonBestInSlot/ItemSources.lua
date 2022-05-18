@@ -1988,6 +1988,8 @@ LoonBestInSlot.ItemSources =
     [34352] = { Name = "Borderland Fortress Grips", SourceType = "Drop", Source = "Felmyst", SourceLocation = "Sunwell Plateau" },
     [34353] = { Name = "Quad Deathblow X44 Goggles", SourceType = "Profession", Source = "Engineering (375)", SourceLocation = "" },
     [34354] = { Name = "Mayhem Projection Goggles", SourceType = "Profession", Source = "Engineering (375)", SourceLocation = "" },
+    [34355] = { Name = "Lightning Etched Specs", SourceType = "Profession", Source = "Engineering (375)", SourceLocation = "" },
+    [34356] = { Name = "Surestrike Goggles v3.0", SourceType = "Profession", Source = "Engineering (375)", SourceLocation = "" },
     [34357] = { Name = "Hard Khorium Goggles", SourceType = "Profession", Source = "Engineering (375)", SourceLocation = "" },
     [34358] = { Name = "Hard Khorium Choker", SourceType = "Profession", Source = "Jewelcrafting (365)", SourceLocation = "" },
     [34359] = { Name = "Pendant of Sunfire", SourceType = "Profession", Source = "Jewelcrafting (365)", SourceLocation = "" },

@@ -2,6 +2,7 @@ local spec = LoonBestInSlot:RegisterSpec("Shaman", "Enhance", "5")
 LoonBestInSlot:AddItem(spec, "34244", "Head", "Duplicitous Guise", "BIS")
 LoonBestInSlot:AddItem(spec, "34333", "Head", "Coif of Alleria", "BIS")
 LoonBestInSlot:AddItem(spec, "32235", "Head", "Cursed Vision of Sargeras", "BIS")
+LoonBestInSlot:AddItem(spec, "34356", "Head", "Surestrike Goggles v3.0", "Alt")
 
 LoonBestInSlot:AddItem(spec, "34392", "Shoulders", "Demontooth Shoulderpads", "BIS")
 LoonBestInSlot:AddItem(spec, "34195", "Shoulders", "Shoulderpads of Vehemence", "Transmute BIS")
