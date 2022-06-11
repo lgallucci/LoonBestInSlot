@@ -47,8 +47,8 @@ public class ItemSpecFileManager
                 {
                     ItemId = itemId,
                     Slot = itemSplit[3],
-                    Name = itemSplit[5],
-                    BisStatus = itemSplit[7]
+                    Name = itemSplit[6].Replace(") --", ""),
+                    BisStatus = itemSplit[5]
                 });
             }
         }
