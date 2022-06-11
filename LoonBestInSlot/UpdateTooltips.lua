@@ -10,7 +10,7 @@ end
 local function buildExtraTip(tooltip, entry)
     local r,g,b = .9,.8,.5
     LibExtraTip:AddLine(tooltip," ",r,g,b,true)
-	LibExtraTip:AddLine(tooltip,"# Gear best for:",r,g,b,true)
+	LibExtraTip:AddLine(tooltip,L["# Gear best for:"],r,g,b,true)
 
 	local combinedTooltip = {};
 	local mageCount = 0;
@@ -20,19 +20,19 @@ local function buildExtraTip(tooltip, entry)
 
 	for k, v in pairs(entry) do
 		local classSpec = LoonBestInSlot.ClassSpec[k]
-		if classSpec.Class == "Warrior" and (classSpec.Spec == "Fury" or classSpec.Spec == "Arms") then
+		if classSpec.Class == L["Warrior"] and (classSpec.Spec == L["Fury"] or classSpec.Spec == L["Arms"]) then
 			warriorDpsCount = warriorDpsCount + 1;
 		end
 
-		if classSpec.Class == "Warlock" then
+		if classSpec.Class == L["Warlock"] then
 			warlockCount = warlockCount + 1;
 		end
 
-		if classSpec.Class == "Mage" then
+		if classSpec.Class == L["Mage"] then
 			mageCount = mageCount + 1;
 		end
 
-		if classSpec.Class == "Hunter" then
+		if classSpec.Class == L["Hunter"] then
 			hunterCount = hunterCount + 1;
 		end
 	end
@@ -42,13 +42,13 @@ local function buildExtraTip(tooltip, entry)
 		local foundMatch = false;
 
 		for _, ttItem in pairs(combinedTooltip) do
-			if (ttItem.Class == "Warrior" and warriorDpsCount == 2) or 
-			   (ttItem.Class == "Warlock" and warlockCount == 3) or 
-			   (ttItem.Class == "Mage" and mageCount == 3) or
-			   (ttItem.Class == "Hunter" and hunterCount == 3) then
+			if (ttItem.Class == L["Warrior"] and warriorDpsCount == 2) or 
+			   (ttItem.Class == L["Warlock"] and warlockCount == 3) or 
+			   (ttItem.Class == L["Mage"] and mageCount == 3) or
+			   (ttItem.Class == L["Hunter"] and hunterCount == 3) then
 				if classSpec.Class == ttItem.Class and v.Bis == ttItem.Bis and v.Phase == ttItem.Phase then
 					foundMatch = true;
-					if ttItem.Class == "Warrior" and (ttItem.Spec == "Fury" or ttItem.Spec == "Arms") then
+					if ttItem.Class == L["Warrior"] and (ttItem.Spec == L["Fury"] or ttItem.Spec == L["Arms"]) then
 						ttItem.Spec = "DPS";
 					else
 						ttItem.Spec = "";

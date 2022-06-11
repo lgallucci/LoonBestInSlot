@@ -10,7 +10,7 @@ LoonBestInSlot.AllItemsCached = false;
 LoonBestInSlot.CurrentPhase = 4;
 LoonBestInSlot.EventFrame = CreateFrame("FRAME",addonName.."Events")
 
-LoonBestInSlotSettings = LoonBestInSlotSettings or { SelectedSpec = "", SelectedSlot = "All", SelectedPhase = "All", SelectedSource = "All", SelectedZone = "All", minimap = { hide = false, minimapPos = 180}, ShowTooltip = true }
+LoonBestInSlotSettings = LoonBestInSlotSettings or { SelectedSpec = "", SelectedSlot = L["All"], SelectedPhase = L["All"], SelectedSource = L["All"], SelectedZone = L["All"], minimap = { hide = false, minimapPos = 180}, ShowTooltip = true }
 
 SLASH_LOONBESTINSLOT1 = '/bis'
 SlashCmdList["LOONBESTINSLOT"] = function(command)

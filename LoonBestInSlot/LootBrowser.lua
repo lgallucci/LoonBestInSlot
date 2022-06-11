@@ -96,9 +96,9 @@ local function FindInPhase(phaseText, phase)
 end
 
 local function IsInPhase(specItem, specItemSource)
-    if specItemSource.SourceType == "Token" then
+    if specItemSource.SourceType == L["Token"] then
         return false;
-    elseif strfind(specItem.Bis, "Transmute") ~= nil then
+    elseif strfind(specItem.Bis, L["Transmute"]) ~= nil then
         return false;
     elseif LoonBestInSlotSettings.SelectedPhase == "All" and specItem.Phase ~= "0" then
         return true;
@@ -139,17 +139,17 @@ local function IsInZone(specItem)
 end
 
 local function IsNotInClassic(specItem)
-    if specItem.SourceLocation == "Molten Core" then
+    if specItem.SourceLocation == L["Molten Core"] then
         return false;
-    elseif specItem.SourceLocation == "Blackwing Lair" then
+    elseif specItem.SourceLocation == L["Blackwing Lair"] then
         return false;
-     elseif specItem.SourceLocation == "Zul'Gurub" then
+     elseif specItem.SourceLocation == L["Zul'Gurub"] then
         return false;
-    elseif specItem.SourceLocation == "Ruins of Ahn'Qiraj" then
+    elseif specItem.SourceLocation == L["Ruins of Ahn'Qiraj"] then
         return false;
-    elseif specItem.SourceLocation == "Temple of Ahn'Qiraj" then
+    elseif specItem.SourceLocation == L["Temple of Ahn'Qiraj"] then
         return false;
-    elseif specItem.SourceLocation == "Naxxramas" then
+    elseif specItem.SourceLocation == L["Naxxramas"] then
         return false;
     end
     return true;
@@ -252,17 +252,17 @@ local function createItemRow(specItem, specItemSource, point)
 
             --Create Drop Text
             local dtColor = "|cFF7727FF";
-            if specItemSource.SourceType == "Profession" then
+            if specItemSource.SourceType == L["Profession"] then
                 dtColor = "|cFF33ADFF";
-            elseif specItemSource.SourceType == "Reputation" then
+            elseif specItemSource.SourceType == L["Reputation"] then
                 dtColor = "|cFF23E4C4";
-            elseif specItemSource.SourceType == "Quest" then
+            elseif specItemSource.SourceType == L["Quest"] then
                 dtColor = "|cFFFFEF27";
-            elseif specItemSource.SourceType == "Dungeon Token" then
+            elseif specItemSource.SourceType == L["Dungeon Token"] then
                 dtColor = "|cFFFF276D";
-            elseif specItemSource.SourceType == "PvP" then
+            elseif specItemSource.SourceType == L["PvP"] then
                 dtColor = "|cFFE52AED";
-            elseif specItemSource.SourceType == "Transmute" then
+            elseif specItemSource.SourceType == L["Transmute"] then
                 dtColor = "|cFFFC6A03";
             end
             d = f:CreateFontString(nil, nil, "GameFontNormal");
@@ -275,7 +275,7 @@ local function createItemRow(specItem, specItemSource, point)
             if specItemSource.SourceLocation == "" then
                 dl:SetText(specItemSource.Source);
                 dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
-            elseif specItemSource.SourceType == "Transmute" then
+            elseif specItemSource.SourceType == L["Transmute"] then
             
                 LoonBestInSlot:GetItemInfo(tonumber(specItemSource.Source), function(transmuteItem)
 
@@ -336,27 +336,27 @@ end
 
 
 local itemSlotOrder = {}
-itemSlotOrder["Head"] = 0;
-itemSlotOrder["Shoulders"] = 1;
-itemSlotOrder["Back"] = 2;
-itemSlotOrder["Chest"] = 3;
-itemSlotOrder["Bracers"] = 4;
-itemSlotOrder["Gloves"] = 5;
-itemSlotOrder["Belt"] = 6;
-itemSlotOrder["Legs"] = 7;
-itemSlotOrder["Feet"] = 8;
-itemSlotOrder["Neck"] = 9;
-itemSlotOrder["Ring"] = 10;
-itemSlotOrder["Trinket"] = 11;
-itemSlotOrder["MH"] = 12;
-itemSlotOrder["OH"] = 13;
-itemSlotOrder["2H"] = 14;
-itemSlotOrder["Shield"] = 15;
-itemSlotOrder["Ranged"] = 16;
-itemSlotOrder["Wand"] = 17;
-itemSlotOrder["Totem"] = 18;
-itemSlotOrder["Idol"] = 19;
-itemSlotOrder["Libram"] = 20;
+itemSlotOrder[L["Head"]] = 0;
+itemSlotOrder[L["Shoulders"]] = 1;
+itemSlotOrder[L["Back"]] = 2;
+itemSlotOrder[L["Chest"]] = 3;
+itemSlotOrder[L["Bracers"]] = 4;
+itemSlotOrder[L["Gloves"]] = 5;
+itemSlotOrder[L["Belt"]] = 6;
+itemSlotOrder[L["Legs"]] = 7;
+itemSlotOrder[L["Feet"]] = 8;
+itemSlotOrder[L["Neck"]] = 9;
+itemSlotOrder[L["Ring"]] = 10;
+itemSlotOrder[L["Trinket"]] = 11;
+itemSlotOrder[L["MH"]] = 12;
+itemSlotOrder[L["OH"]] = 13;
+itemSlotOrder[L["2H"]] = 14;
+itemSlotOrder[L["Shield"]] = 15;
+itemSlotOrder[L["Ranged"]] = 16;
+itemSlotOrder[L["Wand"]] = 17;
+itemSlotOrder[L["Totem"]] = 18;
+itemSlotOrder[L["Idol"]] = 19;
+itemSlotOrder[L["Libram"]] = 20;
 
 local function itemSortFunction(table, k1, k2)
 
@@ -553,7 +553,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
         ['name']='slot',
         ['parent']=window,
         ['title']='Slot:',
-        ['items']= { "All", "Head", "Shoulders", "Back", "Chest", "Bracers", "Gloves", "Belt", "Legs", "Feet", "Neck", "Ring", "Trinket", "MH", "OH", "2H", "Shield", "Ranged", "Wand", "Totem", "Idol", "Libram"},        
+        ['items']= { L["All"], L["Head"], L["Shoulders"], L["Back"], L["Chest"], L["Bracers"], L["Gloves"], L["Belt"], L["Legs"], L["Feet"], L["Neck"], L["Ring"], L["Trinket"], L["MH"], L["OH"], L["2H"], L["Shield"], L["Ranged"], L["Wand"], L["Totem"], L["Idol"], L["Libram"]},        
         ['defaultVal']=LoonBestInSlotSettings.SelectedSlot,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedSlot = dropdown_val;
@@ -567,7 +567,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
         ['name']='phase',
         ['parent']=window,
         ['title']='Phase:',
-        ['items']= { "All", "PreRaid", "Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "BIS" },
+        ['items']= { L["All"], "PreRaid", "Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "BIS" },
         ['defaultVal']=LoonBestInSlotSettings.SelectedPhase,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedPhase = dropdown_val;
@@ -581,7 +581,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
         ['name']='source',
         ['parent']=window,
         ['title']='Source:',
-        ['items']= { "All", "Drop", "Profession", "Reputation", "Dungeon Token", "Quest", "PvP", "Transmute" },
+        ['items']= { L["All"], L["Drop"], L["Profession"], L["Reputation"], L["Dungeon Token"], L["Quest"], L["PvP"], L["Transmute"] },
         ['defaultVal']= LoonBestInSlotSettings.SelectedSource,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedSource = dropdown_val;
@@ -595,7 +595,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
         ['name']='zone',
         ['parent']=window,
         ['title']='Zone:',
-        ['items']= { "All", "Karazhan", "Gruul's Lair", "Magtheridon's Lair", "Serpentshrine Cavern", "Tempest Keep", "Hyjal Summit", "Black Temple", "Zul'Aman", "Sunwell Plateau"},
+        ['items']= { L["All"], L["Karazhan"], L["Gruul's Lair"], L["Magtheridon's Lair"], L["Serpentshrine Cavern"], L["Tempest Keep"], L["Hyjal Summit"], L["Black Temple"], L["Zul'Aman"], L["Sunwell Plateau"]},
         ['defaultVal']= LoonBestInSlotSettings.SelectedZone,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedZone = dropdown_val;
@@ -607,7 +607,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
 
     local header = window:CreateFontString();
     header:SetFont("Fonts\\FRIZQT__.TTF", 12); -- Fonts\\ARIALN.TTF - Fonts\\SKURRI.TTF -  -
-    header:SetText("Loon Best In Slot Gear");
+    header:SetText(L["Loon Best In Slot List"]);
     header:SetPoint("TOP", window, -5, -5);
 
     local topLine = window:CreateLine();
@@ -643,7 +643,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
     tooltipButton:SetHitRectInsets(0, 0, 0, 0)
     local tooltipString = tooltipButton:CreateFontString("TooltipText", "OVERLAY", "GameFontNormalSmall");
     tooltipString:SetPoint("TOPRIGHT", tooltipButton, "TOPLEFT", -2, -3);
-    tooltipString:SetText("Show Tooltip:");
+    tooltipString:SetText(L["Show Tooltip:"]);
     tooltipButton:SetPoint("BOTTOMRIGHT", window, "BOTTOMRIGHT", -175, 2);
     tooltipButton:SetScript("OnClick", function(self)
         LoonBestInSlot:ShowHideTooltip(self:GetChecked());
@@ -654,7 +654,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
     miniMapButton:SetHitRectInsets(0, 0, 0, 0)
     local miniMapString = miniMapButton:CreateFontString("MiniMapText", "OVERLAY", "GameFontNormalSmall");
     miniMapString:SetPoint("TOPRIGHT", miniMapButton, "TOPLEFT", -2, -3);
-    miniMapString:SetText("Show Minimap Button:");
+    miniMapString:SetText(L["Show Minimap Button:"]);
     miniMapButton:SetPoint("BOTTOMRIGHT", window, "BOTTOMRIGHT", 0, 2);
     miniMapButton:SetScript("OnClick", function(self)
         LoonBestInSlot:ShowHideMiniMap(not self:GetChecked());

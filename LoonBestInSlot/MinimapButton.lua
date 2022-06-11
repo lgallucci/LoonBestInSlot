@@ -21,7 +21,7 @@ function LoonBestInSlot:RegisterMiniMap()
         end,
 
         OnTooltipShow = function (tooltip)
-            tooltip:AddLine ("Loon Best In Slot");
+            tooltip:AddLine (L["Loon Best In Slot"]);
             tooltip:AddLine("|cFF9CD6DELeft-Click|r: Open Browser Window");
         end,
         })
