@@ -1,64 +1,65 @@
-local spec = LoonBestInSlot:RegisterSpec("Hunter", "Survival", "3")
-LoonBestInSlot:AddItem(spec, "31003", L["Head"], "Gronnstalker's Helmet", "BIS")
-LoonBestInSlot:AddItem(spec, "31095", L["Head"], "Helm of the Forgotten Protector", "BIS")
-LoonBestInSlot:AddItem(spec, "30141", L["Head"], "Rift Stalker Helm", "Alt")
-LoonBestInSlot:AddItem(spec, "30244", L["Head"], "Helm of the Vanquished Hero", "Alt")
+local spec = LoonBestInSlot:RegisterSpec(L["Hunter"], L["Survival"], "3")
 
-LoonBestInSlot:AddItem(spec, "31006", L["Shoulders"], "Gronnstalker's Spaulders", "BIS")
-LoonBestInSlot:AddItem(spec, "31103", L["Shoulders"], "Pauldrons of the Forgotten Protector", "BIS")
-LoonBestInSlot:AddItem(spec, "30143", L["Shoulders"], "Rift Stalker Mantle", "Alt")
-LoonBestInSlot:AddItem(spec, "30250", L["Shoulders"], "Pauldrons of the Vanquished Hero", "Alt")
+LoonBestInSlot:AddItem(spec, "31003", L["Head"], "BIS") --Gronnstalker's Helmet
+LoonBestInSlot:AddItem(spec, "31095", L["Head"], "BIS") --Helm of the Forgotten Protector
+LoonBestInSlot:AddItem(spec, "30141", L["Head"], "Alt") --Rift Stalker Helm
+LoonBestInSlot:AddItem(spec, "30244", L["Head"], "Alt") --Helm of the Vanquished Hero
 
-LoonBestInSlot:AddItem(spec, "29994", L["Back"], "Thalassian Wildercloak", "BIS")
+LoonBestInSlot:AddItem(spec, "31006", L["Shoulders"], "BIS") --Gronnstalker's Spaulders
+LoonBestInSlot:AddItem(spec, "31103", L["Shoulders"], "BIS") --Pauldrons of the Forgotten Protector
+LoonBestInSlot:AddItem(spec, "30143", L["Shoulders"], "Alt") --Rift Stalker Mantle
+LoonBestInSlot:AddItem(spec, "30250", L["Shoulders"], "Alt") --Pauldrons of the Vanquished Hero
 
-LoonBestInSlot:AddItem(spec, "31004", L["Chest"], "Gronnstalker's Chestguard", "BIS")
-LoonBestInSlot:AddItem(spec, "31091", L["Chest"], "Chestguard of the Forgotten Protector", "BIS")
-LoonBestInSlot:AddItem(spec, "30139", L["Chest"], "Rift Stalker Hauberk", "Alt")
-LoonBestInSlot:AddItem(spec, "30238", L["Chest"], "Chestguard of the Vanquished Hero", "Alt")
+LoonBestInSlot:AddItem(spec, "29994", L["Back"], "BIS") --Thalassian Wildercloak
 
-LoonBestInSlot:AddItem(spec, "32324", L["Bracers"], "Insidious Bands", "BIS")
-LoonBestInSlot:AddItem(spec, "29966", L["Bracers"], "Vambraces of Ending", "Alt")
+LoonBestInSlot:AddItem(spec, "31004", L["Chest"], "BIS") --Gronnstalker's Chestguard
+LoonBestInSlot:AddItem(spec, "31091", L["Chest"], "BIS") --Chestguard of the Forgotten Protector
+LoonBestInSlot:AddItem(spec, "30139", L["Chest"], "Alt") --Rift Stalker Hauberk
+LoonBestInSlot:AddItem(spec, "30238", L["Chest"], "Alt") --Chestguard of the Vanquished Hero
 
-LoonBestInSlot:AddItem(spec, "31001", L["Gloves"], "Gronnstalker's Gloves", "BIS")
-LoonBestInSlot:AddItem(spec, "31094", L["Gloves"], "Gloves of the Forgotten Protector", "BIS")
-LoonBestInSlot:AddItem(spec, "28506", L["Gloves"], "Gloves of Dexterous Manipulation", "Alt")
+LoonBestInSlot:AddItem(spec, "32324", L["Bracers"], "BIS") --Insidious Bands
+LoonBestInSlot:AddItem(spec, "29966", L["Bracers"], "Alt") --Vambraces of Ending
 
-LoonBestInSlot:AddItem(spec, "30879", L["Belt"], "Don Alejandro's Money Belt", "BIS")
-LoonBestInSlot:AddItem(spec, "30040", L["Belt"], "Belt of Deep Shadow", "Alt")
+LoonBestInSlot:AddItem(spec, "31001", L["Gloves"], "BIS") --Gronnstalker's Gloves
+LoonBestInSlot:AddItem(spec, "31094", L["Gloves"], "BIS") --Gloves of the Forgotten Protector
+LoonBestInSlot:AddItem(spec, "28506", L["Gloves"], "Alt") --Gloves of Dexterous Manipulation
 
-LoonBestInSlot:AddItem(spec, "30900", L["Legs"], "Bow-stitched Leggings", "BIS")
-LoonBestInSlot:AddItem(spec, "31005", L["Legs"], "Gronnstalker's Leggings", "Alt")
-LoonBestInSlot:AddItem(spec, "31100", L["Legs"], "Leggings of the Forgotten Protector", "Alt")
-LoonBestInSlot:AddItem(spec, "30142", L["Legs"], "Rift Stalker Leggings", "Alt")
-LoonBestInSlot:AddItem(spec, "30247", L["Legs"], "Leggings of the Vanquished Hero", "Alt")
-LoonBestInSlot:AddItem(spec, "30898", L["Legs"], "Shady Dealer's Pantaloons", "Alt")
+LoonBestInSlot:AddItem(spec, "30879", L["Belt"], "BIS") --Don Alejandro's Money Belt
+LoonBestInSlot:AddItem(spec, "30040", L["Belt"], "Alt") --Belt of Deep Shadow
 
-LoonBestInSlot:AddItem(spec, "32366", L["Feet"], "Shadowmaster's Boots", "BIS")
-LoonBestInSlot:AddItem(spec, "30104", L["Feet"], "Cobra-Lash Boots", "Alt")
-LoonBestInSlot:AddItem(spec, "29951", L["Feet"], "Star-Strider Boots", "Alt")
+LoonBestInSlot:AddItem(spec, "30900", L["Legs"], "BIS") --Bow-stitched Leggings
+LoonBestInSlot:AddItem(spec, "31005", L["Legs"], "Alt") --Gronnstalker's Leggings
+LoonBestInSlot:AddItem(spec, "31100", L["Legs"], "Alt") --Leggings of the Forgotten Protector
+LoonBestInSlot:AddItem(spec, "30142", L["Legs"], "Alt") --Rift Stalker Leggings
+LoonBestInSlot:AddItem(spec, "30247", L["Legs"], "Alt") --Leggings of the Vanquished Hero
+LoonBestInSlot:AddItem(spec, "30898", L["Legs"], "Alt") --Shady Dealer's Pantaloons
 
-LoonBestInSlot:AddItem(spec, "30017", L["Neck"], "Telonicus's Pendant of Mayhem", "BIS")
-LoonBestInSlot:AddItem(spec, "32405", L["Neck"], "Verdant Sphere", "BIS")
+LoonBestInSlot:AddItem(spec, "32366", L["Feet"], "BIS") --Shadowmaster's Boots
+LoonBestInSlot:AddItem(spec, "30104", L["Feet"], "Alt") --Cobra-Lash Boots
+LoonBestInSlot:AddItem(spec, "29951", L["Feet"], "Alt") --Star-Strider Boots
 
-LoonBestInSlot:AddItem(spec, "28791", L["Ring"], "Ring of the Recalcitrant", "BIS")
-LoonBestInSlot:AddItem(spec, "32385", L["Ring"], "Magtheridon's Head", "BIS")
-LoonBestInSlot:AddItem(spec, "29301", L["Ring"], "Band of the Eternal Champion", "BIS")
+LoonBestInSlot:AddItem(spec, "30017", L["Neck"], "BIS") --Telonicus's Pendant of Mayhem
+LoonBestInSlot:AddItem(spec, "32405", L["Neck"], "BIS") --Verdant Sphere
 
-LoonBestInSlot:AddItem(spec, "28830", L["Trinket"], "Dragonspine Trophy", "BIS")
-LoonBestInSlot:AddItem(spec, "32505", L["Trinket"], "Madness of the Betrayer", "BIS")
-LoonBestInSlot:AddItem(spec, "29383", L["Trinket"], "Bloodlust Brooch", "Alt")
-LoonBestInSlot:AddItem(spec, "32487", L["Trinket"], "Ashtongue Talisman of Swiftness", "Alt")
+LoonBestInSlot:AddItem(spec, "28791", L["Ring"], "BIS") --Ring of the Recalcitrant
+LoonBestInSlot:AddItem(spec, "32385", L["Ring"], "BIS") --Magtheridon's Head
+LoonBestInSlot:AddItem(spec, "29301", L["Ring"], "BIS") --Band of the Eternal Champion
 
-LoonBestInSlot:AddItem(spec, "30881", L["MH"], "Blade of Infamy", "BIS")
-LoonBestInSlot:AddItem(spec, "29924", L["MH"], "Netherbane", "Alt")
-LoonBestInSlot:AddItem(spec, "27846", L["MH"], "Claw of the Watcher", "Alt")
+LoonBestInSlot:AddItem(spec, "28830", L["Trinket"], "BIS") --Dragonspine Trophy
+LoonBestInSlot:AddItem(spec, "32505", L["Trinket"], "BIS") --Madness of the Betrayer
+LoonBestInSlot:AddItem(spec, "29383", L["Trinket"], "Alt") --Bloodlust Brooch
+LoonBestInSlot:AddItem(spec, "32487", L["Trinket"], "Alt") --Ashtongue Talisman of Swiftness
 
-LoonBestInSlot:AddItem(spec, "29948", L["OH"], "Claw of the Phoenix", "Alt")
+LoonBestInSlot:AddItem(spec, "30881", L["MH"], "BIS") --Blade of Infamy
+LoonBestInSlot:AddItem(spec, "29924", L["MH"], "Alt") --Netherbane
+LoonBestInSlot:AddItem(spec, "27846", L["MH"], "Alt") --Claw of the Watcher
 
-LoonBestInSlot:AddItem(spec, "32248", L["2H"], "Halberd of Desolation", "BIS")
-LoonBestInSlot:AddItem(spec, "29993", L["2H"], "Twinblade of the Phoenix", "Alt")
+LoonBestInSlot:AddItem(spec, "29948", L["OH"], "Alt") --Claw of the Phoenix
 
-LoonBestInSlot:AddItem(spec, "30906", L["Ranged"], "Bristleblitz Striker", "BIS")
-LoonBestInSlot:AddItem(spec, "34530", L["Ranged"], "Vengeful Gladiator's Rifle", "BIS")
-LoonBestInSlot:AddItem(spec, "32336", L["Ranged"], "Black Bow of the Betrayer", "Alt")
-LoonBestInSlot:AddItem(spec, "30105", L["Ranged"], "Serpent Spine Longbow", "Alt")
+LoonBestInSlot:AddItem(spec, "32248", L["2H"], "BIS") --Halberd of Desolation
+LoonBestInSlot:AddItem(spec, "29993", L["2H"], "Alt") --Twinblade of the Phoenix
+
+LoonBestInSlot:AddItem(spec, "30906", L["Ranged"], "BIS") --Bristleblitz Striker
+LoonBestInSlot:AddItem(spec, "34530", L["Ranged"], "BIS") --Vengeful Gladiator's Rifle
+LoonBestInSlot:AddItem(spec, "32336", L["Ranged"], "Alt") --Black Bow of the Betrayer
+LoonBestInSlot:AddItem(spec, "30105", L["Ranged"], "Alt") --Serpent Spine Longbow

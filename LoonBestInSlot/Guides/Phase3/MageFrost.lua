@@ -1,69 +1,69 @@
-local spec = LoonBestInSlot:RegisterSpec("Mage", "Frost", "3")
-LoonBestInSlot:AddItem(spec, "32525", L["Head"], "Cowl of the Illidari High Lord", "BIS")
-LoonBestInSlot:AddItem(spec, "31056", L["Head"], "Cowl of the Tempest", "Alt")
-LoonBestInSlot:AddItem(spec, "31096", L["Head"], "Helm of the Forgotten Vanquisher", "Alt")
+local spec = LoonBestInSlot:RegisterSpec(L["Mage"], L["Frost"], "3")
 
-LoonBestInSlot:AddItem(spec, "31059", L["Shoulders"], "Mantle of the Tempest", "BIS")
-LoonBestInSlot:AddItem(spec, "31102", L["Shoulders"], "Pauldrons of the Forgotten Vanquisher", "BIS")
-LoonBestInSlot:AddItem(spec, "30884", L["Shoulders"], "Hatefury Mantle", "Alt")
-LoonBestInSlot:AddItem(spec, "32587", L["Shoulders"], "Mantle of Nimble Thought", "Alt")
+LoonBestInSlot:AddItem(spec, "32525", L["Head"], "Alt") --Cowl of the Illidari High Lord
+LoonBestInSlot:AddItem(spec, "31056", L["Head"], "Alt") --Cowl of the Tempest
+LoonBestInSlot:AddItem(spec, "31096", L["Head"], "Alt") --Helm of the Forgotten Vanquisher
 
-LoonBestInSlot:AddItem(spec, "32524", L["Back"], "Shroud of the Highborne", "BIS")
-LoonBestInSlot:AddItem(spec, "32331", L["Back"], "Cloak of the Illidari Council", "BIS")
+LoonBestInSlot:AddItem(spec, "31059", L["Shoulders"], "BIS") --Mantle of the Tempest
+LoonBestInSlot:AddItem(spec, "31102", L["Shoulders"], "BIS") --Pauldrons of the Forgotten Vanquisher
+LoonBestInSlot:AddItem(spec, "30884", L["Shoulders"], "Alt") --Hatefury Mantle
+LoonBestInSlot:AddItem(spec, "32587", L["Shoulders"], "Alt") --Mantle of Nimble Thought
 
-LoonBestInSlot:AddItem(spec, "31057", L["Chest"], "Robes of the Tempest", "BIS")
-LoonBestInSlot:AddItem(spec, "31090", L["Chest"], "Chestguard of the Forgotten Vanquisher", "BIS")
-LoonBestInSlot:AddItem(spec, "30107", L["Chest"], "Vestments of the Sea-Witch", "Alt")
-LoonBestInSlot:AddItem(spec, "30913", L["Chest"], "Robes of Rhonin", "Alt")
+LoonBestInSlot:AddItem(spec, "32524", L["Back"], "BIS") --Shroud of the Highborne
+LoonBestInSlot:AddItem(spec, "32331", L["Back"], "BIS") --Cloak of the Illidari Council
 
-LoonBestInSlot:AddItem(spec, "32586", L["Bracers"], "Bracers of Nimble Thought", "BIS")
-LoonBestInSlot:AddItem(spec, "30870", L["Bracers"], "Cuffs of Devastation", "Alt")
-LoonBestInSlot:AddItem(spec, "29918", L["Bracers"], "Mindstorm Wristbands", "Alt")
-LoonBestInSlot:AddItem(spec, "33913", L["Bracers"], "Vindicator's Silk Cuffs", "Alt")
+LoonBestInSlot:AddItem(spec, "31057", L["Chest"], "BIS") --Robes of the Tempest
+LoonBestInSlot:AddItem(spec, "31090", L["Chest"], "BIS") --Chestguard of the Forgotten Vanquisher
+LoonBestInSlot:AddItem(spec, "30107", L["Chest"], "Alt") --Vestments of the Sea-Witch
+LoonBestInSlot:AddItem(spec, "30913", L["Chest"], "Alt") --Robes of Rhonin
 
-LoonBestInSlot:AddItem(spec, "31055", L["Gloves"], "Gloves of the Tempest", "BIS")
-LoonBestInSlot:AddItem(spec, "31093", L["Gloves"], "Gloves of the Forgotten Vanquisher", "BIS")
+LoonBestInSlot:AddItem(spec, "32586", L["Bracers"], "BIS") --Bracers of Nimble Thought
+LoonBestInSlot:AddItem(spec, "30870", L["Bracers"], "Alt") --Cuffs of Devastation
+LoonBestInSlot:AddItem(spec, "29918", L["Bracers"], "Alt") --Mindstorm Wristbands
+LoonBestInSlot:AddItem(spec, "33913", L["Bracers"], "Alt") --Vindicator's Silk Cuffs
 
-LoonBestInSlot:AddItem(spec, "32256", L["Belt"], "Waistwrap of Infinity", "BIS")
-LoonBestInSlot:AddItem(spec, "30888", L["Belt"], "Anetheron's Noose", "Alt")
-LoonBestInSlot:AddItem(spec, "30038", L["Belt"], "Belt of Blasting", "Alt")
+LoonBestInSlot:AddItem(spec, "31055", L["Gloves"], "BIS") --Gloves of the Tempest
+LoonBestInSlot:AddItem(spec, "31093", L["Gloves"], "BIS") --Gloves of the Forgotten Vanquisher
 
-LoonBestInSlot:AddItem(spec, "31058", L["Legs"], "Leggings of the Tempest", "BIS")
-LoonBestInSlot:AddItem(spec, "31099", L["Legs"], "Leggings of the Forgotten Vanquisher", "BIS")
-LoonBestInSlot:AddItem(spec, "30916", L["Legs"], "Leggings of Channeled Elements", "BIS")
-LoonBestInSlot:AddItem(spec, "24262", L["Legs"], "Spellstrike Pants", "Alt")
+LoonBestInSlot:AddItem(spec, "32256", L["Belt"], "BIS") --Waistwrap of Infinity
+LoonBestInSlot:AddItem(spec, "30888", L["Belt"], "Alt") --Anetheron's Noose
+LoonBestInSlot:AddItem(spec, "30038", L["Belt"], "Alt") --Belt of Blasting
 
-LoonBestInSlot:AddItem(spec, "32239", L["Feet"], "Slippers of the Seacaller", "BIS")
-LoonBestInSlot:AddItem(spec, "33914", L["Feet"], "Vindicator's Silk Footguards", "Alt")
-LoonBestInSlot:AddItem(spec, "30037", L["Feet"], "Boots of Blasting", "Alt")
+LoonBestInSlot:AddItem(spec, "31058", L["Legs"], "BIS") --Leggings of the Tempest
+LoonBestInSlot:AddItem(spec, "31099", L["Legs"], "BIS") --Leggings of the Forgotten Vanquisher
+LoonBestInSlot:AddItem(spec, "30916", L["Legs"], "BIS") --Leggings of Channeled Elements
+LoonBestInSlot:AddItem(spec, "24262", L["Legs"], "Alt") --Spellstrike Pants
 
-LoonBestInSlot:AddItem(spec, "30015", L["Neck"], "The Sun King's Talisman", "BIS")
-LoonBestInSlot:AddItem(spec, "32405", L["Neck"], "Verdant Sphere", "BIS")
-LoonBestInSlot:AddItem(spec, "32349", L["Neck"], "Translucent Spellthread Necklace", "Alt")
-LoonBestInSlot:AddItem(spec, "24116", L["Neck"], "Eye of the Night", "Alt")
-LoonBestInSlot:AddItem(spec, "24121", L["Neck"], "Chain of the Twilight Owl", "Alt")
+LoonBestInSlot:AddItem(spec, "32239", L["Feet"], "BIS") --Slippers of the Seacaller
+LoonBestInSlot:AddItem(spec, "33914", L["Feet"], "Alt") --Vindicator's Silk Footguards
+LoonBestInSlot:AddItem(spec, "30037", L["Feet"], "Alt") --Boots of Blasting
 
-LoonBestInSlot:AddItem(spec, "32527", L["Ring"], "Ring of Ancient Knowledge", "BIS")
-LoonBestInSlot:AddItem(spec, "32247", L["Ring"], "Ring of Captured Storms", "Alt")
-LoonBestInSlot:AddItem(spec, "29305", L["Ring"], "Band of the Eternal Sage", "Alt")
-LoonBestInSlot:AddItem(spec, "28793", L["Ring"], "Band of Crimson Fury", "Alt")
-LoonBestInSlot:AddItem(spec, "32385", L["Ring"], "Magtheridon's Head", "Alt")
+LoonBestInSlot:AddItem(spec, "30015", L["Neck"], "BIS") --The Sun King's Talisman
+LoonBestInSlot:AddItem(spec, "32405", L["Neck"], "BIS") --Verdant Sphere
+LoonBestInSlot:AddItem(spec, "32349", L["Neck"], "Alt") --Translucent Spellthread Necklace
+LoonBestInSlot:AddItem(spec, "24116", L["Neck"], "Alt") --Eye of the Night
+LoonBestInSlot:AddItem(spec, "24121", L["Neck"], "Alt") --Chain of the Twilight Owl
 
-LoonBestInSlot:AddItem(spec, "32483", L["Trinket"], "The Skull of Gul'dan", "BIS")
-LoonBestInSlot:AddItem(spec, "32488", L["Trinket"], "Ashtongue Talisman of Insight", "BIS")
-LoonBestInSlot:AddItem(spec, "27683", L["Trinket"], "Quagmirran's Eye", "Alt")
-LoonBestInSlot:AddItem(spec, "29370", L["Trinket"], "Icon of the Silver Crescent", "Alt")
-LoonBestInSlot:AddItem(spec, "38290", L["Trinket"], "Dark Iron Smoking Pipe", "Alt")
+LoonBestInSlot:AddItem(spec, "32527", L["Ring"], "BIS") --Ring of Ancient Knowledge
+LoonBestInSlot:AddItem(spec, "32247", L["Ring"], "Alt") --Ring of Captured Storms
+LoonBestInSlot:AddItem(spec, "29305", L["Ring"], "Alt") --Band of the Eternal Sage
+LoonBestInSlot:AddItem(spec, "28793", L["Ring"], "Alt") --Band of Crimson Fury
+LoonBestInSlot:AddItem(spec, "32385", L["Ring"], "Alt") --Magtheridon's Head
 
-LoonBestInSlot:AddItem(spec, "30910", L["MH"], "Tempest of Chaos", "Alt")
-LoonBestInSlot:AddItem(spec, "32237", L["MH"], "The Maelstrom's Fury", "Alt")
-LoonBestInSlot:AddItem(spec, "33763", L["MH"], "Vengeful Gladiator's Spellblade", "Alt")
-LoonBestInSlot:AddItem(spec, "32053", L["MH"], "Merciless Gladiator's Spellblade", "Alt")
+LoonBestInSlot:AddItem(spec, "32483", L["Trinket"], "BIS") --The Skull of Gul'dan
+LoonBestInSlot:AddItem(spec, "32488", L["Trinket"], "BIS") --Ashtongue Talisman of Insight
+LoonBestInSlot:AddItem(spec, "27683", L["Trinket"], "Alt") --Quagmirran's Eye
+LoonBestInSlot:AddItem(spec, "29370", L["Trinket"], "Alt") --Icon of the Silver Crescent
+LoonBestInSlot:AddItem(spec, "38290", L["Trinket"], "Alt") --Dark Iron Smoking Pipe
 
-LoonBestInSlot:AddItem(spec, "32374", L["2H"], "Zhar'doom, Greatstaff of the Devourer", "BIS")
+LoonBestInSlot:AddItem(spec, "32374", L["MH"], "BIS") --Zhar'doom, Greatstaff of the Devourer
+LoonBestInSlot:AddItem(spec, "30910", L["MH"], "Alt") --Tempest of Chaos
+LoonBestInSlot:AddItem(spec, "32237", L["MH"], "Alt") --The Maelstrom's Fury
+LoonBestInSlot:AddItem(spec, "33763", L["MH"], "Alt") --Vengeful Gladiator's Spellblade
+LoonBestInSlot:AddItem(spec, "32053", L["MH"], "Alt") --Merciless Gladiator's Spellblade
 
-LoonBestInSlot:AddItem(spec, "30872", L["OH"], "Chronicle of Dark Secrets", "BIS")
-LoonBestInSlot:AddItem(spec, "32361", L["OH"], "Blind-Seers Icon", "Alt")
+LoonBestInSlot:AddItem(spec, "30872", L["OH"], "BIS") --Chronicle of Dark Secrets
+LoonBestInSlot:AddItem(spec, "32361", L["OH"], "Alt") --Blind-Seers Icon
 
-LoonBestInSlot:AddItem(spec, "29982", L["Wand"], "Wand of the Forgotten Star", "BIS")
-LoonBestInSlot:AddItem(spec, "32343", L["Wand"], "Wand of Prismatic Focus", "Alt")
+LoonBestInSlot:AddItem(spec, "29982", L["Wand"], "BIS") --Wand of the Forgotten Star
+LoonBestInSlot:AddItem(spec, "32343", L["Wand"], "Alt") --Wand of Prismatic Focus
