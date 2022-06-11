@@ -245,13 +245,13 @@ public partial class WowheadReader : Window
 
         foreach (var itemSource in itemSources)
         {
-            var sourceType = "Drop";
+            var sourceType = "L[\"Drop\"]";
             if (tokenKeys.Contains(itemSource.Key))
             {
-                sourceType = "Token";
+                sourceType = "L[\"Token\"]";
             } else if (transmuteKeys.Contains(itemSource.Key))
             {
-                sourceType = "Transmute";
+                sourceType = "L[\"Transmute\"]";
             }
 
             if (csvLootTable.ContainsKey(itemSource.Key))

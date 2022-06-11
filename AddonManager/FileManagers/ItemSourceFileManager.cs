@@ -49,9 +49,9 @@ public class ItemSourceFileManager
         {
             itemSourceSB.AppendLine($"    [{source.Key}] = {{ " +
                 $"Name = \"{source.Value.Name}\", " +
-                $"SourceType = \"{source.Value.SourceType}\", " +
-                $"Source = \"{source.Value.Source}\", " +
-                $"SourceLocation = \"{source.Value.SourceLocation}\" }},");
+                $"SourceType = L[\"{source.Value.SourceType}\"], " +
+                $"Source = L[\"{source.Value.Source}\"], " +
+                $"SourceLocation = L[\"{source.Value.SourceLocation}\"] }},");
         }
         itemSourceSB.AppendLine("}");
         System.IO.File.WriteAllText(Constants.AddonPath + "ItemSources.lua", itemSourceSB.ToString());

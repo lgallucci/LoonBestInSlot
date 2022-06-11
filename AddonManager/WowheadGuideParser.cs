@@ -177,7 +177,7 @@ public class WowheadGuideParser
         }
         catch (Exception ex)
         {
-            throw;
+            throw ex;
         }
         return items;
     }

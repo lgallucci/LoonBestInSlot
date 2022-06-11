@@ -10,9 +10,9 @@ public class ItemSpecFileManager
 
         var phaseNumber = Int32.Parse(phaseText.Replace("Phase", ""));
 
-        itemSB.AppendLine($"local spec = LoonBestInSlot:RegisterSpec(\"{className}\", \"{specName}\", \"{phaseNumber}\")");
+        itemSB.AppendLine($"local spec = LoonBestInSlot:RegisterSpec(L[\"{className}\"], L[\"{specName}\"], \"{phaseNumber}\")");
 
-        var previousSlot = "Head";
+        var previousSlot = "L[\"Head\"]";
         foreach (var item in items)
         {
             if (previousSlot != item.Value.Slot)
@@ -20,7 +20,7 @@ public class ItemSpecFileManager
                 previousSlot = item.Value.Slot;
                 itemSB.AppendLine();
             }
-            itemSB.AppendLine($"LoonBestInSlot:AddItem(spec, \"{item.Value.ItemId}\", \"{item.Value.Slot}\", \"{item.Value.Name}\", \"{item.Value.BisStatus}\")");
+            itemSB.AppendLine($"LoonBestInSlot:AddItem(spec, \"{item.Value.ItemId}\", L[\"{item.Value.Slot}\"], \"{item.Value.BisStatus}\") --{item.Value.Name}");
         }
                 
         System.IO.File.WriteAllText(path, itemSB.ToString());

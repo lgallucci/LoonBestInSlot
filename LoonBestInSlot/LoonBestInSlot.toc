@@ -12,6 +12,8 @@ libs\LibDBIcon-1.0.lua
 
 libs\LibExtraTip\Load.xml
 
+Localization\Localization.xml
+
 LoonBestInSlot.lua
 Common.lua
 ItemSources.lua
