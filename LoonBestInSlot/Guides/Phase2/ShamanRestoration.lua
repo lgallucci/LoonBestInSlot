@@ -1,69 +1,70 @@
-local spec = LoonBestInSlot:RegisterSpec("Shaman", "Resto", "2")
-LoonBestInSlot:AddItem(spec, "30166", L["Head"], "Cataclysm Headguard", "BIS")
-LoonBestInSlot:AddItem(spec, "30242", L["Head"], "Helm of the Vanquished Champion", "BIS")
-LoonBestInSlot:AddItem(spec, "32475", L["Head"], "Living Replicator Specs", "BIS")
-LoonBestInSlot:AddItem(spec, "29028", L["Head"], "Cyclone Headdress", "Alt")
-LoonBestInSlot:AddItem(spec, "29760", L["Head"], "Helm of the Fallen Champion", "Alt")
+local spec = LoonBestInSlot:RegisterSpec(L["Shaman"], L["Resto"], "2")
 
-LoonBestInSlot:AddItem(spec, "30168", L["Shoulders"], "Cataclysm Shoulderguards", "BIS")
-LoonBestInSlot:AddItem(spec, "30248", L["Shoulders"], "Pauldrons of the Vanquished Champion", "BIS")
-LoonBestInSlot:AddItem(spec, "30097", L["Shoulders"], "Coral-Barbed Shoulderpads", "BIS")
-LoonBestInSlot:AddItem(spec, "29031", L["Shoulders"], "Cyclone Shoulderpads", "Alt")
-LoonBestInSlot:AddItem(spec, "29763", L["Shoulders"], "Pauldrons of the Fallen Champion", "Alt")
+LoonBestInSlot:AddItem(spec, "30166", L["Head"], "BIS") --Cataclysm Headguard
+LoonBestInSlot:AddItem(spec, "30242", L["Head"], "BIS") --Helm of the Vanquished Champion
+LoonBestInSlot:AddItem(spec, "32475", L["Head"], "BIS") --Living Replicator Specs
+LoonBestInSlot:AddItem(spec, "29028", L["Head"], "Alt") --Cyclone Headdress
+LoonBestInSlot:AddItem(spec, "29760", L["Head"], "Alt") --Helm of the Fallen Champion
 
-LoonBestInSlot:AddItem(spec, "29989", L["Back"], "Sunshower Light Cloak", "BIS")
-LoonBestInSlot:AddItem(spec, "28765", L["Back"], "Stainless Cloak of the Pure Hearted", "Alt")
+LoonBestInSlot:AddItem(spec, "30168", L["Shoulders"], "BIS") --Cataclysm Shoulderguards
+LoonBestInSlot:AddItem(spec, "30248", L["Shoulders"], "BIS") --Pauldrons of the Vanquished Champion
+LoonBestInSlot:AddItem(spec, "30097", L["Shoulders"], "BIS") --Coral-Barbed Shoulderpads
+LoonBestInSlot:AddItem(spec, "29031", L["Shoulders"], "Alt") --Cyclone Shoulderpads
+LoonBestInSlot:AddItem(spec, "29763", L["Shoulders"], "Alt") --Pauldrons of the Fallen Champion
 
-LoonBestInSlot:AddItem(spec, "30164", L["Chest"], "Cataclysm Chestguard", "BIS")
-LoonBestInSlot:AddItem(spec, "30236", L["Chest"], "Chestguard of the Vanquished Champion", "BIS")
-LoonBestInSlot:AddItem(spec, "29921", L["Chest"], "Fire Crest Breastplate", "Alt")
-LoonBestInSlot:AddItem(spec, "29522", L["Chest"], "Windhawk Hauberk", "Alt")
-LoonBestInSlot:AddItem(spec, "21875", L["Chest"], "Primal Mooncloth Robe", "Alt")
+LoonBestInSlot:AddItem(spec, "29989", L["Back"], "BIS") --Sunshower Light Cloak
+LoonBestInSlot:AddItem(spec, "28765", L["Back"], "Alt") --Stainless Cloak of the Pure Hearted
 
-LoonBestInSlot:AddItem(spec, "30047", L["Bracers"], "Blackfathom Warbands", "BIS")
-LoonBestInSlot:AddItem(spec, "32516", L["Bracers"], "Wraps of Purification", "Alt")
-LoonBestInSlot:AddItem(spec, "29523", L["Bracers"], "Windhawk Bracers", "Alt")
+LoonBestInSlot:AddItem(spec, "30164", L["Chest"], "BIS") --Cataclysm Chestguard
+LoonBestInSlot:AddItem(spec, "30236", L["Chest"], "BIS") --Chestguard of the Vanquished Champion
+LoonBestInSlot:AddItem(spec, "29921", L["Chest"], "Alt") --Fire Crest Breastplate
+LoonBestInSlot:AddItem(spec, "29522", L["Chest"], "Alt") --Windhawk Hauberk
+LoonBestInSlot:AddItem(spec, "21875", L["Chest"], "Alt") --Primal Mooncloth Robe
 
-LoonBestInSlot:AddItem(spec, "29976", L["Gloves"], "Worldstorm Gauntlets", "BIS")
-LoonBestInSlot:AddItem(spec, "30165", L["Gloves"], "Cataclysm Gloves", "Alt")
-LoonBestInSlot:AddItem(spec, "30239", L["Gloves"], "Gloves of the Vanquished Champion", "Alt")
-LoonBestInSlot:AddItem(spec, "28520", L["Gloves"], "Gloves of Centering", "Alt")
+LoonBestInSlot:AddItem(spec, "30047", L["Bracers"], "BIS") --Blackfathom Warbands
+LoonBestInSlot:AddItem(spec, "32516", L["Bracers"], "Alt") --Wraps of Purification
+LoonBestInSlot:AddItem(spec, "29523", L["Bracers"], "Alt") --Windhawk Bracers
 
-LoonBestInSlot:AddItem(spec, "30030", L["Belt"], "Girdle of Fallen Stars", "BIS")
-LoonBestInSlot:AddItem(spec, "29524", L["Belt"], "Windhawk Belt", "Alt")
-LoonBestInSlot:AddItem(spec, "21873", L["Belt"], "Primal Mooncloth Belt", "Alt")
+LoonBestInSlot:AddItem(spec, "29976", L["Gloves"], "BIS") --Worldstorm Gauntlets
+LoonBestInSlot:AddItem(spec, "30165", L["Gloves"], "Alt") --Cataclysm Gloves
+LoonBestInSlot:AddItem(spec, "30239", L["Gloves"], "Alt") --Gloves of the Vanquished Champion
+LoonBestInSlot:AddItem(spec, "28520", L["Gloves"], "Alt") --Gloves of Centering
 
-LoonBestInSlot:AddItem(spec, "29991", L["Legs"], "Sunhawk Leggings", "BIS")
-LoonBestInSlot:AddItem(spec, "30167", L["Legs"], "Cataclysm Legguards", "Alt")
-LoonBestInSlot:AddItem(spec, "30245", L["Legs"], "Leggings of the Vanquished Champion", "Alt")
-LoonBestInSlot:AddItem(spec, "28751", L["Legs"], "Heart-Flame Leggings", "Alt")
+LoonBestInSlot:AddItem(spec, "30030", L["Belt"], "BIS") --Girdle of Fallen Stars
+LoonBestInSlot:AddItem(spec, "29524", L["Belt"], "Alt") --Windhawk Belt
+LoonBestInSlot:AddItem(spec, "21873", L["Belt"], "Alt") --Primal Mooncloth Belt
 
-LoonBestInSlot:AddItem(spec, "30737", L["Feet"], "Gold-Leaf Wildboots", "BIS")
-LoonBestInSlot:AddItem(spec, "30092", L["Feet"], "Orca-Hide Boots", "BIS")
-LoonBestInSlot:AddItem(spec, "30066", L["Feet"], "Tempest-Strider Boots", "Alt")
+LoonBestInSlot:AddItem(spec, "29991", L["Legs"], "BIS") --Sunhawk Leggings
+LoonBestInSlot:AddItem(spec, "30167", L["Legs"], "Alt") --Cataclysm Legguards
+LoonBestInSlot:AddItem(spec, "30245", L["Legs"], "Alt") --Leggings of the Vanquished Champion
+LoonBestInSlot:AddItem(spec, "28751", L["Legs"], "Alt") --Heart-Flame Leggings
 
-LoonBestInSlot:AddItem(spec, "30018", L["Neck"], "Lord Sanguinar's Claim", "BIS")
-LoonBestInSlot:AddItem(spec, "32405", L["Neck"], "Verdant Sphere", "BIS")
-LoonBestInSlot:AddItem(spec, "28609", L["Neck"], "Emberspur Talisman", "Alt")
+LoonBestInSlot:AddItem(spec, "30737", L["Feet"], "BIS") --Gold-Leaf Wildboots
+LoonBestInSlot:AddItem(spec, "30092", L["Feet"], "BIS") --Orca-Hide Boots
+LoonBestInSlot:AddItem(spec, "30066", L["Feet"], "Alt") --Tempest-Strider Boots
 
-LoonBestInSlot:AddItem(spec, "29920", L["Ring"], "Phoenix-Ring of Rebirth", "BIS")
-LoonBestInSlot:AddItem(spec, "28790", L["Ring"], "Naaru Lightwarden's Band", "BIS")
-LoonBestInSlot:AddItem(spec, "32385", L["Ring"], "Magtheridon's Head", "BIS")
-LoonBestInSlot:AddItem(spec, "29307", L["Ring"], "Band of Eternity", "BIS")
-LoonBestInSlot:AddItem(spec, "28763", L["Ring"], "Jade Ring of the Everliving", "Alt")
-LoonBestInSlot:AddItem(spec, "30110", L["Ring"], "Coral Band of the Revived", "Alt")
+LoonBestInSlot:AddItem(spec, "30018", L["Neck"], "BIS") --Lord Sanguinar's Claim
+LoonBestInSlot:AddItem(spec, "32405", L["Neck"], "BIS") --Verdant Sphere
+LoonBestInSlot:AddItem(spec, "28609", L["Neck"], "Alt") --Emberspur Talisman
 
-LoonBestInSlot:AddItem(spec, "29376", L["Trinket"], "Essence of the Martyr", "BIS")
-LoonBestInSlot:AddItem(spec, "38288", L["Trinket"], "Direbrew Hops", "BIS")
-LoonBestInSlot:AddItem(spec, "28190", L["Trinket"], "Scarab of the Infinite Cycle", "BIS")
-LoonBestInSlot:AddItem(spec, "28590", L["Trinket"], "Ribbon of Sacrifice", "BIS")
-LoonBestInSlot:AddItem(spec, "30841", L["Trinket"], "Lower City Prayerbook", "BIS")
+LoonBestInSlot:AddItem(spec, "29920", L["Ring"], "BIS") --Phoenix-Ring of Rebirth
+LoonBestInSlot:AddItem(spec, "28790", L["Ring"], "BIS") --Naaru Lightwarden's Band
+LoonBestInSlot:AddItem(spec, "32385", L["Ring"], "BIS") --Magtheridon's Head
+LoonBestInSlot:AddItem(spec, "29307", L["Ring"], "BIS") --Band of Eternity
+LoonBestInSlot:AddItem(spec, "28763", L["Ring"], "Alt") --Jade Ring of the Everliving
+LoonBestInSlot:AddItem(spec, "30110", L["Ring"], "Alt") --Coral Band of the Revived
 
-LoonBestInSlot:AddItem(spec, "30108", L["MH"], "Lightfathom Scepter", "BIS")
-LoonBestInSlot:AddItem(spec, "32964", L["MH"], "Merciless Gladiator's Salvation", "Alt")
-LoonBestInSlot:AddItem(spec, "28771", L["MH"], "Light's Justice", "Alt")
+LoonBestInSlot:AddItem(spec, "29376", L["Trinket"], "BIS") --Essence of the Martyr
+LoonBestInSlot:AddItem(spec, "38288", L["Trinket"], "BIS") --Direbrew Hops
+LoonBestInSlot:AddItem(spec, "28190", L["Trinket"], "BIS") --Scarab of the Infinite Cycle
+LoonBestInSlot:AddItem(spec, "28590", L["Trinket"], "BIS") --Ribbon of Sacrifice
+LoonBestInSlot:AddItem(spec, "30841", L["Trinket"], "BIS") --Lower City Prayerbook
 
-LoonBestInSlot:AddItem(spec, "29458", L["OH"], "Aegis of the Vindicator", "BIS")
-LoonBestInSlot:AddItem(spec, "29923", L["OH"], "Talisman of the Sun King", "Alt")
+LoonBestInSlot:AddItem(spec, "30108", L["MH"], "BIS") --Lightfathom Scepter
+LoonBestInSlot:AddItem(spec, "32964", L["MH"], "Alt") --Merciless Gladiator's Salvation
+LoonBestInSlot:AddItem(spec, "28771", L["MH"], "Alt") --Light's Justice
 
-LoonBestInSlot:AddItem(spec, "28523", L["Totem"], "Totem of Healing Rains", "BIS")
+LoonBestInSlot:AddItem(spec, "29458", L["OH"], "BIS") --Aegis of the Vindicator
+LoonBestInSlot:AddItem(spec, "29923", L["OH"], "Alt") --Talisman of the Sun King
+
+LoonBestInSlot:AddItem(spec, "28523", L["Totem"], "BIS") --Totem of Healing Rains
