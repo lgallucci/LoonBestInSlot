@@ -1,34 +1,34 @@
-function LoonBestInSlot:PreCacheItems()
-    if LoonBestInSlot.AllItemsCached then return LoonBestInSlot.AllItemsCached; end
+function LBIS:PreCacheItems()
+    if LBIS.AllItemsCached then return LBIS.AllItemsCached; end
 
-    LoonBestInSlot.AllItemsCached = true;
+    LBIS.AllItemsCached = true;
 
-    for itemId, _ in pairs(LoonBestInSlot.Items) do
+    for itemId, _ in pairs(LBIS.Items) do
 
         if itemId and itemId ~= 0 then
-            LoonBestInSlot:CacheItem(itemId);
+            LBIS:CacheItem(itemId);
         end
     end
-    return LoonBestInSlot.AllItemsCached;
+    return LBIS.AllItemsCached;
 end
 
-function LoonBestInSlot:CacheItem(itemId)
-    LoonBestInSlot:GetItemInfo(itemId, function(cacheItem)
+function LBIS:CacheItem(itemId)
+    LBIS:GetItemInfo(itemId, function(cacheItem)
         if not cacheItem or cacheItem.Name == nil then
-            LoonBestInSlot:ReCacheItem(itemId)
+            LBIS:ReCacheItem(itemId)
         end
     end);
 end
 
-function LoonBestInSlot:ReCacheItem(itemId)
-    LoonBestInSlot:GetItemInfo(itemId, function(cacheItem)
+function LBIS:ReCacheItem(itemId)
+    LBIS:GetItemInfo(itemId, function(cacheItem)
         if not cacheItem or cacheItem.Name == nil then
-            LoonBestInSlot:Error("Failed to cache ("..itemId.."): ", cacheItem);
+            LBIS:Error("Failed to cache ("..itemId.."): ", cacheItem);
         end
     end);
 end
 
-function LoonBestInSlot:GetPhaseNumbers(phaseText)
+function LBIS:GetPhaseNumbers(phaseText)
     local firstNumber, lastNumber = strsplit(">", phaseText);
 
     if firstNumber == nil then
@@ -41,13 +41,13 @@ function LoonBestInSlot:GetPhaseNumbers(phaseText)
     return firstNumber, lastNumber;
 end
 
-function LoonBestInSlot:TableLength(T)
+function LBIS:TableLength(T)
   local count = 0
   for _ in pairs(T) do count = count + 1 end
   return count
 end
 
-function LoonBestInSlot:GetItemInfo(itemIdString, returnFunc)
+function LBIS:GetItemInfo(itemIdString, returnFunc)
 
     local itemId = tonumber(itemIdString);
 
@@ -55,7 +55,7 @@ function LoonBestInSlot:GetItemInfo(itemIdString, returnFunc)
         returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil });
     end
 
-    local cachedItem = LoonBestInSlot.ItemCache[itemId];
+    local cachedItem = LBIS.ItemCache[itemId];
 
     if cachedItem then
         returnFunc(cachedItem);
@@ -78,7 +78,7 @@ function LoonBestInSlot:GetItemInfo(itemIdString, returnFunc)
             };
 
             if name then
-                LoonBestInSlot.ItemCache[itemId] = newItem;
+                LBIS.ItemCache[itemId] = newItem;
             end
             
             returnFunc(newItem);            
@@ -86,12 +86,12 @@ function LoonBestInSlot:GetItemInfo(itemIdString, returnFunc)
     end           
 end
 
-function LoonBestInSlot:Dump(o)
+function LBIS:Dump(o)
     if type(o) == 'table' then
        local s = '{ '
        for k,v in pairs(o) do
           if type(k) ~= 'number' then k = '"'..k..'"' end
-          s = s .. '['..k..'] = ' .. LoonBestInSlot:Dump(v) .. ','
+          s = s .. '['..k..'] = ' .. LBIS:Dump(v) .. ','
        end
        return s .. '} '
     else
@@ -104,7 +104,7 @@ local function stringify(object)
     local debugString = "";
 
     if objectType == "table" then
-        debugString = LoonBestInSlot:Dump(object);
+        debugString = LBIS:Dump(object);
     elseif objectType == "number" or objectType == "boolean" then
         debugString = tostring(object);
     elseif objectType == "nil" then
@@ -117,15 +117,15 @@ local function stringify(object)
     return debugString
 end
 
-function LoonBestInSlot:Debug(startString, object)
-    ChatFrame6:AddMessage("LoonBestInSlot:"..startString..stringify(object));
+function LBIS:Debug(startString, object)
+    ChatFrame6:AddMessage("LBIS:"..startString..stringify(object));
 end
 
-function LoonBestInSlot:Error(startString, object)
+function LBIS:Error(startString, object)
     print("LoonBestInSlot ERROR:"..startString..stringify(object));
 end
 
-function LoonBestInSlot:GetItemIdFromLink(itemLink)
+function LBIS:GetItemIdFromLink(itemLink)
 
     local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4,
     Suffix, Unique, LinkLvl, Name = string.find(itemLink,

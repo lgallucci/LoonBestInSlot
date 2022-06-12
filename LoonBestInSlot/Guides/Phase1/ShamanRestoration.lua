@@ -1,66 +1,66 @@
-local spec = LoonBestInSlot:RegisterSpec(L["Shaman"], L["Resto"], "1")
+local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Resto"], "1")
 
-LoonBestInSlot:AddItem(spec, "29028", L["Head"], "BIS") --Cyclone Headdress
-LoonBestInSlot:AddItem(spec, "29760", L["Head"], "BIS") --Helm of the Fallen Champion
-LoonBestInSlot:AddItem(spec, "30728", L["Head"], "Alt") --Fathom-Helm of the Deeps
-LoonBestInSlot:AddItem(spec, "24264", L["Head"], "Alt") --Whitemend Hood
+LBIS:AddItem(spec, "29028", LBIS.L["Head"], "BIS") --Cyclone Headdress
+LBIS:AddItem(spec, "29760", LBIS.L["Head"], "BIS") --Helm of the Fallen Champion
+LBIS:AddItem(spec, "30728", LBIS.L["Head"], "Alt") --Fathom-Helm of the Deeps
+LBIS:AddItem(spec, "24264", LBIS.L["Head"], "Alt") --Whitemend Hood
 
-LoonBestInSlot:AddItem(spec, "29031", L["Shoulders"], "BIS") --Cyclone Shoulderpads
-LoonBestInSlot:AddItem(spec, "29763", L["Shoulders"], "BIS") --Pauldrons of the Fallen Champion
-LoonBestInSlot:AddItem(spec, "21874", L["Shoulders"], "Alt") --Primal Mooncloth Shoulders
-LoonBestInSlot:AddItem(spec, "28631", L["Shoulders"], "Alt") --Dragon-Quake Shoulderguards
+LBIS:AddItem(spec, "29031", LBIS.L["Shoulders"], "BIS") --Cyclone Shoulderpads
+LBIS:AddItem(spec, "29763", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Champion
+LBIS:AddItem(spec, "21874", LBIS.L["Shoulders"], "Alt") --Primal Mooncloth Shoulders
+LBIS:AddItem(spec, "28631", LBIS.L["Shoulders"], "Alt") --Dragon-Quake Shoulderguards
 
-LoonBestInSlot:AddItem(spec, "28765", L["Back"], "BIS") --Stainless Cloak of the Pure Hearted
-LoonBestInSlot:AddItem(spec, "31329", L["Back"], "Alt") --Lifegiving Cloak
+LBIS:AddItem(spec, "28765", LBIS.L["Back"], "BIS") --Stainless Cloak of the Pure Hearted
+LBIS:AddItem(spec, "31329", LBIS.L["Back"], "Alt") --Lifegiving Cloak
 
-LoonBestInSlot:AddItem(spec, "29522", L["Chest"], "BIS") --Windhawk Hauberk
-LoonBestInSlot:AddItem(spec, "21875", L["Chest"], "BIS") --Primal Mooncloth Robe
-LoonBestInSlot:AddItem(spec, "29029", L["Chest"], "Alt") --Cyclone Hauberk
-LoonBestInSlot:AddItem(spec, "29754", L["Chest"], "Alt") --Chestguard of the Fallen Champion
+LBIS:AddItem(spec, "29522", LBIS.L["Chest"], "BIS") --Windhawk Hauberk
+LBIS:AddItem(spec, "21875", LBIS.L["Chest"], "BIS") --Primal Mooncloth Robe
+LBIS:AddItem(spec, "29029", LBIS.L["Chest"], "Alt") --Cyclone Hauberk
+LBIS:AddItem(spec, "29754", LBIS.L["Chest"], "Alt") --Chestguard of the Fallen Champion
 
-LoonBestInSlot:AddItem(spec, "29523", L["Bracers"], "BIS") --Windhawk Bracers
-LoonBestInSlot:AddItem(spec, "28503", L["Bracers"], "Alt") --Whirlwind Bracers
+LBIS:AddItem(spec, "29523", LBIS.L["Bracers"], "BIS") --Windhawk Bracers
+LBIS:AddItem(spec, "28503", LBIS.L["Bracers"], "Alt") --Whirlwind Bracers
 
-LoonBestInSlot:AddItem(spec, "28520", L["Gloves"], "BIS") --Gloves of Centering
-LoonBestInSlot:AddItem(spec, "28521", L["Gloves"], "Alt") --Mitts of the Treemender
-LoonBestInSlot:AddItem(spec, "29032", L["Gloves"], "Alt") --Cyclone Gloves
-LoonBestInSlot:AddItem(spec, "29757", L["Gloves"], "Alt") --Gloves of the Fallen Champion
+LBIS:AddItem(spec, "28520", LBIS.L["Gloves"], "BIS") --Gloves of Centering
+LBIS:AddItem(spec, "28521", LBIS.L["Gloves"], "Alt") --Mitts of the Treemender
+LBIS:AddItem(spec, "29032", LBIS.L["Gloves"], "Alt") --Cyclone Gloves
+LBIS:AddItem(spec, "29757", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Champion
 
-LoonBestInSlot:AddItem(spec, "29524", L["Belt"], "BIS") --Windhawk Belt
-LoonBestInSlot:AddItem(spec, "21873", L["Belt"], "BIS") --Primal Mooncloth Belt
-LoonBestInSlot:AddItem(spec, "28567", L["Belt"], "Alt") --Belt of Gale Force
+LBIS:AddItem(spec, "29524", LBIS.L["Belt"], "BIS") --Windhawk Belt
+LBIS:AddItem(spec, "21873", LBIS.L["Belt"], "BIS") --Primal Mooncloth Belt
+LBIS:AddItem(spec, "28567", LBIS.L["Belt"], "Alt") --Belt of Gale Force
 
-LoonBestInSlot:AddItem(spec, "28751", L["Legs"], "BIS") --Heart-Flame Leggings
-LoonBestInSlot:AddItem(spec, "28591", L["Legs"], "Alt") --Earthsoul Leggings
-LoonBestInSlot:AddItem(spec, "24261", L["Legs"], "Alt") --Whitemend Pants
+LBIS:AddItem(spec, "28751", LBIS.L["Legs"], "BIS") --Heart-Flame Leggings
+LBIS:AddItem(spec, "28591", LBIS.L["Legs"], "Alt") --Earthsoul Leggings
+LBIS:AddItem(spec, "24261", LBIS.L["Legs"], "Alt") --Whitemend Pants
 
-LoonBestInSlot:AddItem(spec, "30737", L["Feet"], "BIS") --Gold-Leaf Wildboots
-LoonBestInSlot:AddItem(spec, "28752", L["Feet"], "Alt") --Forestlord Striders
+LBIS:AddItem(spec, "30737", LBIS.L["Feet"], "BIS") --Gold-Leaf Wildboots
+LBIS:AddItem(spec, "28752", LBIS.L["Feet"], "Alt") --Forestlord Striders
 
-LoonBestInSlot:AddItem(spec, "28609", L["Neck"], "BIS") --Emberspur Talisman
-LoonBestInSlot:AddItem(spec, "30726", L["Neck"], "Alt") --Archaic Charm of Presence
-LoonBestInSlot:AddItem(spec, "28822", L["Neck"], "Alt") --Teeth of Gruul
-LoonBestInSlot:AddItem(spec, "31691", L["Neck"], "Alt") --Natasha's Guardian Cord
+LBIS:AddItem(spec, "28609", LBIS.L["Neck"], "BIS") --Emberspur Talisman
+LBIS:AddItem(spec, "30726", LBIS.L["Neck"], "Alt") --Archaic Charm of Presence
+LBIS:AddItem(spec, "28822", LBIS.L["Neck"], "Alt") --Teeth of Gruul
+LBIS:AddItem(spec, "31691", LBIS.L["Neck"], "Alt") --Natasha's Guardian Cord
 
-LoonBestInSlot:AddItem(spec, "28763", L["Ring"], "BIS") --Jade Ring of the Everliving
-LoonBestInSlot:AddItem(spec, "28790", L["Ring"], "BIS") --Naaru Lightwarden's Band
-LoonBestInSlot:AddItem(spec, "32385", L["Ring"], "BIS") --Magtheridon's Head
-LoonBestInSlot:AddItem(spec, "29169", L["Ring"], "Alt") --Ring of Convalescence
-LoonBestInSlot:AddItem(spec, "29168", L["Ring"], "Alt") --Ancestral Band
-LoonBestInSlot:AddItem(spec, "28259", L["Ring"], "Alt") --Cosmic Lifeband
-LoonBestInSlot:AddItem(spec, "29814", L["Ring"], "Alt") --Celestial Jewel Ring
-LoonBestInSlot:AddItem(spec, "31923", L["Ring"], "Alt") --Band of the Crystalline Void
+LBIS:AddItem(spec, "28763", LBIS.L["Ring"], "BIS") --Jade Ring of the Everliving
+LBIS:AddItem(spec, "28790", LBIS.L["Ring"], "BIS") --Naaru Lightwarden's Band
+LBIS:AddItem(spec, "32385", LBIS.L["Ring"], "BIS") --Magtheridon's Head
+LBIS:AddItem(spec, "29169", LBIS.L["Ring"], "Alt") --Ring of Convalescence
+LBIS:AddItem(spec, "29168", LBIS.L["Ring"], "Alt") --Ancestral Band
+LBIS:AddItem(spec, "28259", LBIS.L["Ring"], "Alt") --Cosmic Lifeband
+LBIS:AddItem(spec, "29814", LBIS.L["Ring"], "Alt") --Celestial Jewel Ring
+LBIS:AddItem(spec, "31923", LBIS.L["Ring"], "Alt") --Band of the Crystalline Void
 
-LoonBestInSlot:AddItem(spec, "29376", L["Trinket"], "BIS") --Essence of the Martyr
-LoonBestInSlot:AddItem(spec, "28190", L["Trinket"], "BIS") --Scarab of the Infinite Cycle
+LBIS:AddItem(spec, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
+LBIS:AddItem(spec, "28190", LBIS.L["Trinket"], "BIS") --Scarab of the Infinite Cycle
 
-LoonBestInSlot:AddItem(spec, "28771", L["MH"], "BIS") --Light's Justice
-LoonBestInSlot:AddItem(spec, "32451", L["MH"], "Alt") --Gladiator's Salvation
-LoonBestInSlot:AddItem(spec, "28522", L["MH"], "Alt") --Shard of the Virtuous
+LBIS:AddItem(spec, "28771", LBIS.L["MH"], "BIS") --Light's Justice
+LBIS:AddItem(spec, "32451", LBIS.L["MH"], "Alt") --Gladiator's Salvation
+LBIS:AddItem(spec, "28522", LBIS.L["MH"], "Alt") --Shard of the Virtuous
 
-LoonBestInSlot:AddItem(spec, "29458", L["OH"], "BIS") --Aegis of the Vindicator
-LoonBestInSlot:AddItem(spec, "28728", L["OH"], "Alt") --Aran's Soothing Sapphire
-LoonBestInSlot:AddItem(spec, "28754", L["OH"], "Alt") --Triptych Shield of the Ancients
+LBIS:AddItem(spec, "29458", LBIS.L["OH"], "BIS") --Aegis of the Vindicator
+LBIS:AddItem(spec, "28728", LBIS.L["OH"], "Alt") --Aran's Soothing Sapphire
+LBIS:AddItem(spec, "28754", LBIS.L["OH"], "Alt") --Triptych Shield of the Ancients
 
-LoonBestInSlot:AddItem(spec, "28523", L["Totem"], "BIS") --Totem of Healing Rains
-LoonBestInSlot:AddItem(spec, "27544", L["Totem"], "Alt") --Totem of Spontaneous Regrowth
+LBIS:AddItem(spec, "28523", LBIS.L["Totem"], "BIS") --Totem of Healing Rains
+LBIS:AddItem(spec, "27544", LBIS.L["Totem"], "Alt") --Totem of Spontaneous Regrowth

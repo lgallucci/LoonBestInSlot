@@ -1,104 +1,104 @@
-local spec = LoonBestInSlot:RegisterSpec(L["Priest"], L["Holy"], "0")
+local spec = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "0")
 
-LoonBestInSlot:AddItem(spec, "32090", L["Head"], "Alt") --Cowl of Naaru Blessings
-LoonBestInSlot:AddItem(spec, "24264", L["Head"], "Alt") --Whitemend Hood
-LoonBestInSlot:AddItem(spec, "28413", L["Head"], "Alt") --Hallowed Crown
-LoonBestInSlot:AddItem(spec, "29174", L["Head"], "Alt") --Watcher's Cowl
-LoonBestInSlot:AddItem(spec, "31104", L["Head"], "Alt") --Evoker's Helmet of Second Sight
+LBIS:AddItem(spec, "32090", LBIS.L["Head"], "Alt") --Cowl of Naaru Blessings
+LBIS:AddItem(spec, "24264", LBIS.L["Head"], "Alt") --Whitemend Hood
+LBIS:AddItem(spec, "28413", LBIS.L["Head"], "Alt") --Hallowed Crown
+LBIS:AddItem(spec, "29174", LBIS.L["Head"], "Alt") --Watcher's Cowl
+LBIS:AddItem(spec, "31104", LBIS.L["Head"], "Alt") --Evoker's Helmet of Second Sight
 
-LoonBestInSlot:AddItem(spec, "32585", L["Shoulders"], "BIS") --Swiftheal Mantle
-LoonBestInSlot:AddItem(spec, "21874", L["Shoulders"], "Alt") --Primal Mooncloth Shoulders
-LoonBestInSlot:AddItem(spec, "27775", L["Shoulders"], "Alt") --Hallowed Pauldrons
-LoonBestInSlot:AddItem(spec, "27433", L["Shoulders"], "Alt") --Pauldrons of Sufferance
-LoonBestInSlot:AddItem(spec, "28250", L["Shoulders"], "Alt") --Vestia's Pauldrons of Inner Grace
+LBIS:AddItem(spec, "32585", LBIS.L["Shoulders"], "BIS") --Swiftheal Mantle
+LBIS:AddItem(spec, "21874", LBIS.L["Shoulders"], "Alt") --Primal Mooncloth Shoulders
+LBIS:AddItem(spec, "27775", LBIS.L["Shoulders"], "Alt") --Hallowed Pauldrons
+LBIS:AddItem(spec, "27433", LBIS.L["Shoulders"], "Alt") --Pauldrons of Sufferance
+LBIS:AddItem(spec, "28250", LBIS.L["Shoulders"], "Alt") --Vestia's Pauldrons of Inner Grace
 
-LoonBestInSlot:AddItem(spec, "29354", L["Back"], "BIS") --Light-Touched Stole of Altruism
-LoonBestInSlot:AddItem(spec, "29375", L["Back"], "Alt") --Bishop's Cloak
-LoonBestInSlot:AddItem(spec, "24254", L["Back"], "Alt") --White Remedy Cape
-LoonBestInSlot:AddItem(spec, "31329", L["Back"], "Alt") --Lifegiving Cloak
-LoonBestInSlot:AddItem(spec, "28373", L["Back"], "Alt") --Cloak of Scintillating Auras
-LoonBestInSlot:AddItem(spec, "27789", L["Back"], "Alt") --Cloak of Whispering Shells
+LBIS:AddItem(spec, "29354", LBIS.L["Back"], "BIS") --Light-Touched Stole of Altruism
+LBIS:AddItem(spec, "29375", LBIS.L["Back"], "Alt") --Bishop's Cloak
+LBIS:AddItem(spec, "24254", LBIS.L["Back"], "Alt") --White Remedy Cape
+LBIS:AddItem(spec, "31329", LBIS.L["Back"], "Alt") --Lifegiving Cloak
+LBIS:AddItem(spec, "28373", LBIS.L["Back"], "Alt") --Cloak of Scintillating Auras
+LBIS:AddItem(spec, "27789", LBIS.L["Back"], "Alt") --Cloak of Whispering Shells
 
-LoonBestInSlot:AddItem(spec, "21875", L["Chest"], "BIS") --Primal Mooncloth Robe
-LoonBestInSlot:AddItem(spec, "28230", L["Chest"], "Alt") --Hallowed Garments
-LoonBestInSlot:AddItem(spec, "24397", L["Chest"], "Alt") --Raiments of Divine Authority
-LoonBestInSlot:AddItem(spec, "27506", L["Chest"], "Alt") --Robe of Effervescent Light
+LBIS:AddItem(spec, "21875", LBIS.L["Chest"], "BIS") --Primal Mooncloth Robe
+LBIS:AddItem(spec, "28230", LBIS.L["Chest"], "Alt") --Hallowed Garments
+LBIS:AddItem(spec, "24397", LBIS.L["Chest"], "Alt") --Raiments of Divine Authority
+LBIS:AddItem(spec, "27506", LBIS.L["Chest"], "Alt") --Robe of Effervescent Light
 
-LoonBestInSlot:AddItem(spec, "32584", L["Bracers"], "BIS") --Swiftheal Wraps
-LoonBestInSlot:AddItem(spec, "29183", L["Bracers"], "Alt") --Bindings of the Timewalker
-LoonBestInSlot:AddItem(spec, "29249", L["Bracers"], "Alt") --Bands of the Benevolent
-LoonBestInSlot:AddItem(spec, "28174", L["Bracers"], "Alt") --Shattrath Wraps
+LBIS:AddItem(spec, "32584", LBIS.L["Bracers"], "BIS") --Swiftheal Wraps
+LBIS:AddItem(spec, "29183", LBIS.L["Bracers"], "Alt") --Bindings of the Timewalker
+LBIS:AddItem(spec, "29249", LBIS.L["Bracers"], "Alt") --Bands of the Benevolent
+LBIS:AddItem(spec, "28174", LBIS.L["Bracers"], "Alt") --Shattrath Wraps
 
-LoonBestInSlot:AddItem(spec, "27536", L["Gloves"], "BIS") --Hallowed Handwraps
-LoonBestInSlot:AddItem(spec, "24393", L["Gloves"], "BIS") --Bloody Surgeon's Mitts
-LoonBestInSlot:AddItem(spec, "28304", L["Gloves"], "Alt") --Prismatic Mittens of Mending
-LoonBestInSlot:AddItem(spec, "29315", L["Gloves"], "Alt") --Gloves of Penitence
+LBIS:AddItem(spec, "27536", LBIS.L["Gloves"], "BIS") --Hallowed Handwraps
+LBIS:AddItem(spec, "24393", LBIS.L["Gloves"], "BIS") --Bloody Surgeon's Mitts
+LBIS:AddItem(spec, "28304", LBIS.L["Gloves"], "Alt") --Prismatic Mittens of Mending
+LBIS:AddItem(spec, "29315", LBIS.L["Gloves"], "Alt") --Gloves of Penitence
 
-LoonBestInSlot:AddItem(spec, "30036", L["Belt"], "BIS") --Belt of the Long Road
-LoonBestInSlot:AddItem(spec, "21873", L["Belt"], "Alt") --Primal Mooncloth Belt
-LoonBestInSlot:AddItem(spec, "29250", L["Belt"], "Alt") --Cord of Sanctification
-LoonBestInSlot:AddItem(spec, "27542", L["Belt"], "Alt") --Cord of Belief
-LoonBestInSlot:AddItem(spec, "27843", L["Belt"], "Alt") --Glyph-Lined Sash
+LBIS:AddItem(spec, "30036", LBIS.L["Belt"], "BIS") --Belt of the Long Road
+LBIS:AddItem(spec, "21873", LBIS.L["Belt"], "Alt") --Primal Mooncloth Belt
+LBIS:AddItem(spec, "29250", LBIS.L["Belt"], "Alt") --Cord of Sanctification
+LBIS:AddItem(spec, "27542", LBIS.L["Belt"], "Alt") --Cord of Belief
+LBIS:AddItem(spec, "27843", LBIS.L["Belt"], "Alt") --Glyph-Lined Sash
 
-LoonBestInSlot:AddItem(spec, "33585", L["Legs"], "BIS") --Achromic Trousers of the Naaru
-LoonBestInSlot:AddItem(spec, "30727", L["Legs"], "Alt") --Gilded Trousers of Benediction
-LoonBestInSlot:AddItem(spec, "30543", L["Legs"], "Alt") --Pontifex Kilt
-LoonBestInSlot:AddItem(spec, "27875", L["Legs"], "Alt") --Hallowed Trousers
-LoonBestInSlot:AddItem(spec, "24261", L["Legs"], "Alt") --Whitemend Pants
-LoonBestInSlot:AddItem(spec, "28185", L["Legs"], "Alt") --Khadgar's Kilt of Abjuration
-LoonBestInSlot:AddItem(spec, "30256", L["Legs"], "Alt") --Pants of the Naaru
+LBIS:AddItem(spec, "33585", LBIS.L["Legs"], "BIS") --Achromic Trousers of the Naaru
+LBIS:AddItem(spec, "30727", LBIS.L["Legs"], "Alt") --Gilded Trousers of Benediction
+LBIS:AddItem(spec, "30543", LBIS.L["Legs"], "Alt") --Pontifex Kilt
+LBIS:AddItem(spec, "27875", LBIS.L["Legs"], "Alt") --Hallowed Trousers
+LBIS:AddItem(spec, "24261", LBIS.L["Legs"], "Alt") --Whitemend Pants
+LBIS:AddItem(spec, "28185", LBIS.L["Legs"], "Alt") --Khadgar's Kilt of Abjuration
+LBIS:AddItem(spec, "30256", LBIS.L["Legs"], "Alt") --Pants of the Naaru
 
-LoonBestInSlot:AddItem(spec, "30035", L["Feet"], "BIS") --Boots of the Long Road
-LoonBestInSlot:AddItem(spec, "29251", L["Feet"], "Alt") --Boots of the Pious
-LoonBestInSlot:AddItem(spec, "27411", L["Feet"], "Alt") --Slippers of Serenity
-LoonBestInSlot:AddItem(spec, "28179", L["Feet"], "Alt") --Shattrath Jumpers
+LBIS:AddItem(spec, "30035", LBIS.L["Feet"], "BIS") --Boots of the Long Road
+LBIS:AddItem(spec, "29251", LBIS.L["Feet"], "Alt") --Boots of the Pious
+LBIS:AddItem(spec, "27411", LBIS.L["Feet"], "Alt") --Slippers of Serenity
+LBIS:AddItem(spec, "28179", LBIS.L["Feet"], "Alt") --Shattrath Jumpers
 
-LoonBestInSlot:AddItem(spec, "30726", L["Neck"], "BIS") --Archaic Charm of Presence
-LoonBestInSlot:AddItem(spec, "29374", L["Neck"], "Alt") --Necklace of Eternal Hope
-LoonBestInSlot:AddItem(spec, "30377", L["Neck"], "Alt") --Karja's Medallion
-LoonBestInSlot:AddItem(spec, "28233", L["Neck"], "Alt") --Necklace of Resplendent Hope
-LoonBestInSlot:AddItem(spec, "31691", L["Neck"], "Alt") --Natasha's Guardian Cord
-LoonBestInSlot:AddItem(spec, "27766", L["Neck"], "Alt") --Swampstone Necklace
-LoonBestInSlot:AddItem(spec, "28419", L["Neck"], "Alt") --Choker of Fluid Thought
-LoonBestInSlot:AddItem(spec, "29334", L["Neck"], "Alt") --Sethekk Oracle's Focus
+LBIS:AddItem(spec, "30726", LBIS.L["Neck"], "BIS") --Archaic Charm of Presence
+LBIS:AddItem(spec, "29374", LBIS.L["Neck"], "Alt") --Necklace of Eternal Hope
+LBIS:AddItem(spec, "30377", LBIS.L["Neck"], "Alt") --Karja's Medallion
+LBIS:AddItem(spec, "28233", LBIS.L["Neck"], "Alt") --Necklace of Resplendent Hope
+LBIS:AddItem(spec, "31691", LBIS.L["Neck"], "Alt") --Natasha's Guardian Cord
+LBIS:AddItem(spec, "27766", LBIS.L["Neck"], "Alt") --Swampstone Necklace
+LBIS:AddItem(spec, "28419", LBIS.L["Neck"], "Alt") --Choker of Fluid Thought
+LBIS:AddItem(spec, "29334", LBIS.L["Neck"], "Alt") --Sethekk Oracle's Focus
 
-LoonBestInSlot:AddItem(spec, "29373", L["Ring"], "BIS") --Band of Halos
-LoonBestInSlot:AddItem(spec, "29168", L["Ring"], "BIS") --Ancestral Band
-LoonBestInSlot:AddItem(spec, "32535", L["Ring"], "BIS") --Gift of the Talonpriests
-LoonBestInSlot:AddItem(spec, "31923", L["Ring"], "BIS") --Band of the Crystalline Void
-LoonBestInSlot:AddItem(spec, "31383", L["Ring"], "BIS") --Spiritualist's Mark of the Sha'tar
-LoonBestInSlot:AddItem(spec, "29322", L["Ring"], "Alt") --Keeper's Ring of Piety
-LoonBestInSlot:AddItem(spec, "28259", L["Ring"], "Alt") --Cosmic Lifeband
-LoonBestInSlot:AddItem(spec, "27780", L["Ring"], "Alt") --Ring of Fabled Hope
-LoonBestInSlot:AddItem(spec, "29814", L["Ring"], "Alt") --Celestial Jewel Ring
+LBIS:AddItem(spec, "29373", LBIS.L["Ring"], "BIS") --Band of Halos
+LBIS:AddItem(spec, "29168", LBIS.L["Ring"], "BIS") --Ancestral Band
+LBIS:AddItem(spec, "32535", LBIS.L["Ring"], "BIS") --Gift of the Talonpriests
+LBIS:AddItem(spec, "31923", LBIS.L["Ring"], "BIS") --Band of the Crystalline Void
+LBIS:AddItem(spec, "31383", LBIS.L["Ring"], "BIS") --Spiritualist's Mark of the Sha'tar
+LBIS:AddItem(spec, "29322", LBIS.L["Ring"], "Alt") --Keeper's Ring of Piety
+LBIS:AddItem(spec, "28259", LBIS.L["Ring"], "Alt") --Cosmic Lifeband
+LBIS:AddItem(spec, "27780", LBIS.L["Ring"], "Alt") --Ring of Fabled Hope
+LBIS:AddItem(spec, "29814", LBIS.L["Ring"], "Alt") --Celestial Jewel Ring
 
-LoonBestInSlot:AddItem(spec, "29376", L["Trinket"], "BIS") --Essence of the Martyr
-LoonBestInSlot:AddItem(spec, "19288", L["Trinket"], "BIS") --Darkmoon Card: Blue Dragon
-LoonBestInSlot:AddItem(spec, "28590", L["Trinket"], "Alt") --Ribbon of Sacrifice
-LoonBestInSlot:AddItem(spec, "28190", L["Trinket"], "Alt") --Scarab of the Infinite Cycle
-LoonBestInSlot:AddItem(spec, "23047", L["Trinket"], "Alt") --Eye of the Dead
-LoonBestInSlot:AddItem(spec, "30841", L["Trinket"], "Alt") --Lower City Prayerbook
-LoonBestInSlot:AddItem(spec, "28370", L["Trinket"], "Alt") --Bangle of Endless Blessings
+LBIS:AddItem(spec, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
+LBIS:AddItem(spec, "19288", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Blue Dragon
+LBIS:AddItem(spec, "28590", LBIS.L["Trinket"], "Alt") --Ribbon of Sacrifice
+LBIS:AddItem(spec, "28190", LBIS.L["Trinket"], "Alt") --Scarab of the Infinite Cycle
+LBIS:AddItem(spec, "23047", LBIS.L["Trinket"], "Alt") --Eye of the Dead
+LBIS:AddItem(spec, "30841", LBIS.L["Trinket"], "Alt") --Lower City Prayerbook
+LBIS:AddItem(spec, "28370", LBIS.L["Trinket"], "Alt") --Bangle of Endless Blessings
 
-LoonBestInSlot:AddItem(spec, "30732", L["MH"], "BIS") --Exodar Life-Staff
-LoonBestInSlot:AddItem(spec, "23556", L["MH"], "Alt") --Hand of Eternity
-LoonBestInSlot:AddItem(spec, "29353", L["MH"], "Alt") --Shockwave Truncheon
-LoonBestInSlot:AddItem(spec, "31342", L["MH"], "Alt") --The Ancient Scepter of Sue-Min
-LoonBestInSlot:AddItem(spec, "29175", L["MH"], "Alt") --Gavel of Pure Light
-LoonBestInSlot:AddItem(spec, "31304", L["MH"], "Alt") --The Essence Focuser
-LoonBestInSlot:AddItem(spec, "27538", L["MH"], "Alt") --Lightsworn Hammer
-LoonBestInSlot:AddItem(spec, "28216", L["MH"], "Alt") --Dathrohan's Ceremonial Hammer
-LoonBestInSlot:AddItem(spec, "27791", L["MH"], "Alt") --Serpentcrest Life-Staff
-LoonBestInSlot:AddItem(spec, "28033", L["MH"], "Alt") --Epoch-Mender
-LoonBestInSlot:AddItem(spec, "29133", L["MH"], "Alt") --Seer's Cane
+LBIS:AddItem(spec, "30732", LBIS.L["MH"], "BIS") --Exodar Life-Staff
+LBIS:AddItem(spec, "23556", LBIS.L["MH"], "Alt") --Hand of Eternity
+LBIS:AddItem(spec, "29353", LBIS.L["MH"], "Alt") --Shockwave Truncheon
+LBIS:AddItem(spec, "31342", LBIS.L["MH"], "Alt") --The Ancient Scepter of Sue-Min
+LBIS:AddItem(spec, "29175", LBIS.L["MH"], "Alt") --Gavel of Pure Light
+LBIS:AddItem(spec, "31304", LBIS.L["MH"], "Alt") --The Essence Focuser
+LBIS:AddItem(spec, "27538", LBIS.L["MH"], "Alt") --Lightsworn Hammer
+LBIS:AddItem(spec, "28216", LBIS.L["MH"], "Alt") --Dathrohan's Ceremonial Hammer
+LBIS:AddItem(spec, "27791", LBIS.L["MH"], "Alt") --Serpentcrest Life-Staff
+LBIS:AddItem(spec, "28033", LBIS.L["MH"], "Alt") --Epoch-Mender
+LBIS:AddItem(spec, "29133", LBIS.L["MH"], "Alt") --Seer's Cane
 
-LoonBestInSlot:AddItem(spec, "33325", L["OH"], "BIS") --Voodoo Shaker
-LoonBestInSlot:AddItem(spec, "29170", L["OH"], "Alt") --Windcaller's Orb
-LoonBestInSlot:AddItem(spec, "29274", L["OH"], "Alt") --Tears of Heaven
-LoonBestInSlot:AddItem(spec, "27477", L["OH"], "Alt") --Faol's Signet of Cleansing
-LoonBestInSlot:AddItem(spec, "28213", L["OH"], "Alt") --Lordaeron Medical Guide
-LoonBestInSlot:AddItem(spec, "27714", L["OH"], "Alt") --Swamplight Lantern
-LoonBestInSlot:AddItem(spec, "28387", L["OH"], "Alt") --Lamp of Peaceful Repose
+LBIS:AddItem(spec, "33325", LBIS.L["OH"], "BIS") --Voodoo Shaker
+LBIS:AddItem(spec, "29170", LBIS.L["OH"], "Alt") --Windcaller's Orb
+LBIS:AddItem(spec, "29274", LBIS.L["OH"], "Alt") --Tears of Heaven
+LBIS:AddItem(spec, "27477", LBIS.L["OH"], "Alt") --Faol's Signet of Cleansing
+LBIS:AddItem(spec, "28213", LBIS.L["OH"], "Alt") --Lordaeron Medical Guide
+LBIS:AddItem(spec, "27714", LBIS.L["OH"], "Alt") --Swamplight Lantern
+LBIS:AddItem(spec, "28387", LBIS.L["OH"], "Alt") --Lamp of Peaceful Repose
 
-LoonBestInSlot:AddItem(spec, "27885", L["Wand"], "BIS") --Soul-Wand of the Aldor
-LoonBestInSlot:AddItem(spec, "29779", L["Wand"], "Alt") --Rejuvenating Scepter
+LBIS:AddItem(spec, "27885", LBIS.L["Wand"], "BIS") --Soul-Wand of the Aldor
+LBIS:AddItem(spec, "29779", LBIS.L["Wand"], "Alt") --Rejuvenating Scepter

@@ -1,40 +1,39 @@
-local addonName = ...
+local addonName = ...;
 
-LoonBestInSlot = {};
-LoonBestInSlot.ClassSpec = {};
-LoonBestInSlot.SpecToName = {};
-LoonBestInSlot.Items = {};
-LoonBestInSlot.SpecItems = {};
-LoonBestInSlot.ItemCache = {};
-LoonBestInSlot.AllItemsCached = false;
-LoonBestInSlot.CurrentPhase = 4;
-LoonBestInSlot.EventFrame = CreateFrame("FRAME",addonName.."Events")
+LBIS.ClassSpec = {};
+LBIS.SpecToName = {};
+LBIS.Items = {};
+LBIS.SpecItems = {};
+LBIS.ItemCache = {};
+LBIS.AllItemsCached = false;
+LBIS.CurrentPhase = 4;
+LBIS.EventFrame = CreateFrame("FRAME",addonName.."Events")
 
-LoonBestInSlotSettings = LoonBestInSlotSettings or { SelectedSpec = "", SelectedSlot = L["All"], SelectedPhase = L["All"], SelectedSource = L["All"], SelectedZone = L["All"], minimap = { hide = false, minimapPos = 180}, ShowTooltip = true }
+LoonBestInSlotSettings = LoonBestInSlotSettings or { SelectedSpec = "", SelectedSlot = LBIS.L["All"], SelectedPhase = LBIS.L["All"], SelectedSource = LBIS.L["All"], SelectedZone = LBIS.L["All"], minimap = { hide = false, minimapPos = 180}, ShowTooltip = true }
 
 SLASH_LOONBESTINSLOT1 = '/bis'
 SlashCmdList["LOONBESTINSLOT"] = function(command)
 	command = command:lower()
     
 	if command == "" then
-		LoonBestInSlot.BrowserWindow:OpenWindow()
+		LBIS.BrowserWindow:OpenWindow()
 	end
 end
 
-function LoonBestInSlot:Startup()
+function LBIS:Startup()
 
 	if LoonBestInSlotSettings.ShowTooltip == nil then
 		LoonBestInSlotSettings.ShowTooltip = true;
 	end
 
-	LoonBestInSlot:RegisterMiniMap();
-    LoonBestInSlot:PreCacheItems();
+	LBIS:RegisterMiniMap();
+    LBIS:PreCacheItems();
 end
 
-function LoonBestInSlot:RegisterEvent(...)
-	if not LoonBestInSlot.EventFrame.RegisteredEvents then
-		LoonBestInSlot.EventFrame.RegisteredEvents = { };
-		LoonBestInSlot.EventFrame:SetScript("OnEvent", function(self, event, ...)
+function LBIS:RegisterEvent(...)
+	if not LBIS.EventFrame.RegisteredEvents then
+		LBIS.EventFrame.RegisteredEvents = { };
+		LBIS.EventFrame:SetScript("OnEvent", function(self, event, ...)
 			local handlers = self.RegisteredEvents[event];
 			if handlers then
 				for _, handler in ipairs(handlers) do
@@ -55,16 +54,16 @@ function LoonBestInSlot:RegisterEvent(...)
 	for i = 1, params - 1 do
 		local event = select(i, ...);
 		if type(event) == "string" then
-			LoonBestInSlot.EventFrame:RegisterEvent(event);
-			LoonBestInSlot.EventFrame.RegisteredEvents[event] = LoonBestInSlot.EventFrame.RegisteredEvents[event] or { };
-			table.insert(LoonBestInSlot.EventFrame.RegisteredEvents[event], handler);
+			LBIS.EventFrame:RegisterEvent(event);
+			LBIS.EventFrame.RegisteredEvents[event] = LBIS.EventFrame.RegisteredEvents[event] or { };
+			table.insert(LBIS.EventFrame.RegisteredEvents[event], handler);
 		else
-			error("LoonMasterLoot:RegisterEvent: All but the last passed parameters must be event names");
+			error("LBIS:RegisterEvent: All but the last passed parameters must be event names");
 		end
 	end
 end
 
-function LoonBestInSlot:RegisterSpec(class, spec, phase)
+function LBIS:RegisterSpec(class, spec, phase)
 	
 	if not spec then spec = "" end
 	
@@ -76,20 +75,20 @@ function LoonBestInSlot:RegisterSpec(class, spec, phase)
 	
 	classSpec.Id = class..spec
 
-    LoonBestInSlot.ClassSpec[classSpec.Id] = classSpec
+    LBIS.ClassSpec[classSpec.Id] = classSpec
 
     return classSpec
 end
 
-function LoonBestInSlot:AddItem(bisEntry, id, slot, description, bis)
+function LBIS:AddItem(bisEntry, id, slot, bis)
 
 	if strlen(id) <= 0 then
 		return
 	end
 	
 
-	if not LoonBestInSlot.Items[id] then
-		LoonBestInSlot.Items[id] = {}
+	if not LBIS.Items[id] then
+		LBIS.Items[id] = {}
 	end
 	
 	if zone == nil then
@@ -97,24 +96,24 @@ function LoonBestInSlot:AddItem(bisEntry, id, slot, description, bis)
 	end
 
 	if bisEntry.Phase == "0" then
-		bis = "PreRaid";
-	elseif tonumber(bisEntry.Phase) < LoonBestInSlot.CurrentPhase then
+		bis = LBIS.L["PreRaid"];
+	elseif tonumber(bisEntry.Phase) < LBIS.CurrentPhase then
 		bis = string.gsub(bis, "BIS", "Alt");
 	end
 
-	local searchedItem = LoonBestInSlot.Items[id][bisEntry.Id];
+	local searchedItem = LBIS.Items[id][bisEntry.Id];
 
 	if searchedItem == nil then		
 
 		item = { Id = id, Bis = bis, Phase = bisEntry.Phase, Slot = slot }
 
-		LoonBestInSlot.Items[id][bisEntry.Id] = item
+		LBIS.Items[id][bisEntry.Id] = item
 
-		if not LoonBestInSlot.SpecItems[bisEntry.Id] then
-			LoonBestInSlot.SpecItems[bisEntry.Id] = {}
+		if not LBIS.SpecItems[bisEntry.Id] then
+			LBIS.SpecItems[bisEntry.Id] = {}
 		end
 	
-		LoonBestInSlot.SpecItems[bisEntry.Id][tonumber(item.Id)] = item;
+		LBIS.SpecItems[bisEntry.Id][tonumber(item.Id)] = item;
 	else 		
 		if bisEntry.Phase > searchedItem.Phase then
 			searchedItem.Bis = bis;
@@ -124,7 +123,7 @@ function LoonBestInSlot:AddItem(bisEntry, id, slot, description, bis)
 			searchedItem.Phase = bisEntry.Phase;
 		else 
 
-			local firstNumber, lastNumber = LoonBestInSlot:GetPhaseNumbers(searchedItem.Phase);
+			local firstNumber, lastNumber = LBIS:GetPhaseNumbers(searchedItem.Phase);
 
 			if tonumber(bisEntry.Phase) > tonumber(lastNumber) then
 				searchedItem.Phase = firstNumber..">"..bisEntry.Phase;
@@ -133,8 +132,8 @@ function LoonBestInSlot:AddItem(bisEntry, id, slot, description, bis)
 			end
 		end
 
-		LoonBestInSlot.SpecItems[bisEntry.Id][tonumber(id)] = searchedItem		
-		LoonBestInSlot.Items[id][bisEntry.Id] = searchedItem;
+		LBIS.SpecItems[bisEntry.Id][tonumber(id)] = searchedItem		
+		LBIS.Items[id][bisEntry.Id] = searchedItem;
 	end
 
 end

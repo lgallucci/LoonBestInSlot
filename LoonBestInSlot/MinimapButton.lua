@@ -1,7 +1,7 @@
 local LDB = LibStub ("LibDataBroker-1.1", true)
 local LBISButton = LDB and LibStub ("LibDBIcon-1.0", true)
 
-function LoonBestInSlot:RegisterMiniMap()
+function LBIS:RegisterMiniMap()
     
     if LDB then
   
@@ -15,14 +15,14 @@ function LoonBestInSlot:RegisterMiniMap()
         OnClick = function (self, button)
         
             if button == "LeftButton" then 
-                LoonBestInSlot.BrowserWindow:ToggleWindow()
+                LBIS.BrowserWindow:ToggleWindow()
             end
 
         end,
 
         OnTooltipShow = function (tooltip)
-            tooltip:AddLine (L["Loon Best In Slot"]);
-            tooltip:AddLine("|cFF9CD6DELeft-Click|r: Open Browser Window");
+            tooltip:AddLine (LBIS.L["Loon Best In Slot"]);
+            tooltip:AddLine(LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"]);
         end,
         })
         
@@ -30,13 +30,13 @@ function LoonBestInSlot:RegisterMiniMap()
             LBISButton:Register ("LoonBestInSlot", databroker, LoonBestInSlotSettings.minimap)
         end
 
-        LoonBestInSlot:ShowHideMiniMap(LoonBestInSlotSettings.minimap.hide);
+        LBIS:ShowHideMiniMap(LoonBestInSlotSettings.minimap.hide);
   
     end
 
   end
 
-  function LoonBestInSlot:ShowHideMiniMap(shouldHide)
+  function LBIS:ShowHideMiniMap(shouldHide)
     LoonBestInSlotSettings.minimap.hide = shouldHide;
     if shouldHide then
         LBISButton:Hide("LoonBestInSlot");
@@ -44,7 +44,7 @@ function LoonBestInSlot:RegisterMiniMap()
         LBISButton:Show("LoonBestInSlot");
     end
 
-    function LoonBestInSlot:ShowHideTooltip(shouldHide)
+    function LBIS:ShowHideTooltip(shouldHide)
         LoonBestInSlotSettings.ShowTooltip = shouldHide;
     end
 end

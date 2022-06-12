@@ -1,81 +1,81 @@
-local spec = LoonBestInSlot:RegisterSpec(L["Hunter"], L["Marks"], "2")
+local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marks"], "2")
 
-LoonBestInSlot:AddItem(spec, "30141", L["Head"], "BIS") --Rift Stalker Helm
-LoonBestInSlot:AddItem(spec, "30244", L["Head"], "BIS") --Helm of the Vanquished Hero
-LoonBestInSlot:AddItem(spec, "28275", L["Head"], "Alt") --Beast Lord Helm
-LoonBestInSlot:AddItem(spec, "32087", L["Head"], "Alt") --Mask of the Deceiver
+LBIS:AddItem(spec, "30141", LBIS.L["Head"], "BIS") --Rift Stalker Helm
+LBIS:AddItem(spec, "30244", LBIS.L["Head"], "BIS") --Helm of the Vanquished Hero
+LBIS:AddItem(spec, "28275", LBIS.L["Head"], "Alt") --Beast Lord Helm
+LBIS:AddItem(spec, "32087", LBIS.L["Head"], "Alt") --Mask of the Deceiver
 
-LoonBestInSlot:AddItem(spec, "30143", L["Shoulders"], "BIS") --Rift Stalker Mantle
-LoonBestInSlot:AddItem(spec, "30250", L["Shoulders"], "BIS") --Pauldrons of the Vanquished Hero
-LoonBestInSlot:AddItem(spec, "27801", L["Shoulders"], "Alt") --Beast Lord Mantle
-LoonBestInSlot:AddItem(spec, "30055", L["Shoulders"], "Alt") --Shoulderpads of the Stranger
-LoonBestInSlot:AddItem(spec, "30085", L["Shoulders"], "Alt") --Mantle of the Tireless Tracker
+LBIS:AddItem(spec, "30143", LBIS.L["Shoulders"], "BIS") --Rift Stalker Mantle
+LBIS:AddItem(spec, "30250", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Hero
+LBIS:AddItem(spec, "27801", LBIS.L["Shoulders"], "Alt") --Beast Lord Mantle
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "Alt") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "30085", LBIS.L["Shoulders"], "Alt") --Mantle of the Tireless Tracker
 
-LoonBestInSlot:AddItem(spec, "29994", L["Back"], "BIS") --Thalassian Wildercloak
-LoonBestInSlot:AddItem(spec, "24259", L["Back"], "Alt") --Vengeance Wrap
+LBIS:AddItem(spec, "29994", LBIS.L["Back"], "BIS") --Thalassian Wildercloak
+LBIS:AddItem(spec, "24259", LBIS.L["Back"], "Alt") --Vengeance Wrap
 
-LoonBestInSlot:AddItem(spec, "30139", L["Chest"], "BIS") --Rift Stalker Hauberk
-LoonBestInSlot:AddItem(spec, "30238", L["Chest"], "BIS") --Chestguard of the Vanquished Hero
-LoonBestInSlot:AddItem(spec, "28228", L["Chest"], "Alt") --Beast Lord Cuirass
-LoonBestInSlot:AddItem(spec, "30054", L["Chest"], "Alt") --Ranger-General's Chestguard
-LoonBestInSlot:AddItem(spec, "29525", L["Chest"], "Alt") --Primalstrike Vest
+LBIS:AddItem(spec, "30139", LBIS.L["Chest"], "BIS") --Rift Stalker Hauberk
+LBIS:AddItem(spec, "30238", LBIS.L["Chest"], "BIS") --Chestguard of the Vanquished Hero
+LBIS:AddItem(spec, "28228", LBIS.L["Chest"], "Alt") --Beast Lord Cuirass
+LBIS:AddItem(spec, "30054", LBIS.L["Chest"], "Alt") --Ranger-General's Chestguard
+LBIS:AddItem(spec, "29525", LBIS.L["Chest"], "Alt") --Primalstrike Vest
 
-LoonBestInSlot:AddItem(spec, "29966", L["Bracers"], "BIS") --Vambraces of Ending
-LoonBestInSlot:AddItem(spec, "30026", L["Bracers"], "Alt") --Bands of the Celestial Archer
-LoonBestInSlot:AddItem(spec, "30091", L["Bracers"], "Alt") --True-Aim Stalker Bands
-LoonBestInSlot:AddItem(spec, "29246", L["Bracers"], "Alt") --Nightfall Wristguards
-LoonBestInSlot:AddItem(spec, "29527", L["Bracers"], "Alt") --Primalstrike Bracers
+LBIS:AddItem(spec, "29966", LBIS.L["Bracers"], "BIS") --Vambraces of Ending
+LBIS:AddItem(spec, "30026", LBIS.L["Bracers"], "Alt") --Bands of the Celestial Archer
+LBIS:AddItem(spec, "30091", LBIS.L["Bracers"], "Alt") --True-Aim Stalker Bands
+LBIS:AddItem(spec, "29246", LBIS.L["Bracers"], "Alt") --Nightfall Wristguards
+LBIS:AddItem(spec, "29527", LBIS.L["Bracers"], "Alt") --Primalstrike Bracers
 
-LoonBestInSlot:AddItem(spec, "30140", L["Gloves"], "BIS") --Rift Stalker Gauntlets
-LoonBestInSlot:AddItem(spec, "30241", L["Gloves"], "BIS") --Gloves of the Vanquished Hero
-LoonBestInSlot:AddItem(spec, "27474", L["Gloves"], "Alt") --Beast Lord Handguards
+LBIS:AddItem(spec, "30140", LBIS.L["Gloves"], "BIS") --Rift Stalker Gauntlets
+LBIS:AddItem(spec, "30241", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Hero
+LBIS:AddItem(spec, "27474", LBIS.L["Gloves"], "Alt") --Beast Lord Handguards
 
-LoonBestInSlot:AddItem(spec, "30040", L["Belt"], "BIS") --Belt of Deep Shadow
-LoonBestInSlot:AddItem(spec, "30046", L["Belt"], "Alt") --Belt of the Black Eagle
-LoonBestInSlot:AddItem(spec, "30106", L["Belt"], "Alt") --Belt of One-Hundred Deaths
-LoonBestInSlot:AddItem(spec, "28828", L["Belt"], "Alt") --Gronn-Stitched Girdle
+LBIS:AddItem(spec, "30040", LBIS.L["Belt"], "BIS") --Belt of Deep Shadow
+LBIS:AddItem(spec, "30046", LBIS.L["Belt"], "Alt") --Belt of the Black Eagle
+LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "Alt") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "28828", LBIS.L["Belt"], "Alt") --Gronn-Stitched Girdle
 
-LoonBestInSlot:AddItem(spec, "29995", L["Legs"], "BIS") --Leggings of Murderous Intent
-LoonBestInSlot:AddItem(spec, "29985", L["Legs"], "Alt") --Void Reaver Greaves
-LoonBestInSlot:AddItem(spec, "30739", L["Legs"], "Alt") --Scaled Greaves of the Marksman
-LoonBestInSlot:AddItem(spec, "30142", L["Legs"], "Alt") --Rift Stalker Leggings
-LoonBestInSlot:AddItem(spec, "30247", L["Legs"], "Alt") --Leggings of the Vanquished Hero
+LBIS:AddItem(spec, "29995", LBIS.L["Legs"], "BIS") --Leggings of Murderous Intent
+LBIS:AddItem(spec, "29985", LBIS.L["Legs"], "Alt") --Void Reaver Greaves
+LBIS:AddItem(spec, "30739", LBIS.L["Legs"], "Alt") --Scaled Greaves of the Marksman
+LBIS:AddItem(spec, "30142", LBIS.L["Legs"], "Alt") --Rift Stalker Leggings
+LBIS:AddItem(spec, "30247", LBIS.L["Legs"], "Alt") --Leggings of the Vanquished Hero
 
-LoonBestInSlot:AddItem(spec, "30104", L["Feet"], "BIS") --Cobra-Lash Boots
-LoonBestInSlot:AddItem(spec, "29951", L["Feet"], "BIS") --Star-Strider Boots
-LoonBestInSlot:AddItem(spec, "30060", L["Feet"], "Alt") --Boots of Effortless Striking
-LoonBestInSlot:AddItem(spec, "28545", L["Feet"], "Alt") --Edgewalker Longboots
+LBIS:AddItem(spec, "30104", LBIS.L["Feet"], "BIS") --Cobra-Lash Boots
+LBIS:AddItem(spec, "29951", LBIS.L["Feet"], "BIS") --Star-Strider Boots
+LBIS:AddItem(spec, "30060", LBIS.L["Feet"], "Alt") --Boots of Effortless Striking
+LBIS:AddItem(spec, "28545", LBIS.L["Feet"], "Alt") --Edgewalker Longboots
 
-LoonBestInSlot:AddItem(spec, "30017", L["Neck"], "BIS") --Telonicus's Pendant of Mayhem
-LoonBestInSlot:AddItem(spec, "32405", L["Neck"], "BIS") --Verdant Sphere
-LoonBestInSlot:AddItem(spec, "30059", L["Neck"], "Alt") --Choker of Animalistic Fury
-LoonBestInSlot:AddItem(spec, "29381", L["Neck"], "Alt") --Choker of Vile Intent
+LBIS:AddItem(spec, "30017", LBIS.L["Neck"], "BIS") --Telonicus's Pendant of Mayhem
+LBIS:AddItem(spec, "32405", LBIS.L["Neck"], "BIS") --Verdant Sphere
+LBIS:AddItem(spec, "30059", LBIS.L["Neck"], "Alt") --Choker of Animalistic Fury
+LBIS:AddItem(spec, "29381", LBIS.L["Neck"], "Alt") --Choker of Vile Intent
 
-LoonBestInSlot:AddItem(spec, "28791", L["Ring"], "BIS") --Ring of the Recalcitrant
-LoonBestInSlot:AddItem(spec, "32385", L["Ring"], "BIS") --Magtheridon's Head
-LoonBestInSlot:AddItem(spec, "29997", L["Ring"], "BIS") --Band of the Ranger-General
-LoonBestInSlot:AddItem(spec, "30052", L["Ring"], "BIS") --Ring of Lethality
-LoonBestInSlot:AddItem(spec, "29298", L["Ring"], "Alt") --Band of Eternity
-LoonBestInSlot:AddItem(spec, "28757", L["Ring"], "Alt") --Ring of a Thousand Marks
-LoonBestInSlot:AddItem(spec, "28649", L["Ring"], "Alt") --Garona's Signet Ring
+LBIS:AddItem(spec, "28791", LBIS.L["Ring"], "BIS") --Ring of the Recalcitrant
+LBIS:AddItem(spec, "32385", LBIS.L["Ring"], "BIS") --Magtheridon's Head
+LBIS:AddItem(spec, "29997", LBIS.L["Ring"], "BIS") --Band of the Ranger-General
+LBIS:AddItem(spec, "30052", LBIS.L["Ring"], "BIS") --Ring of Lethality
+LBIS:AddItem(spec, "29298", LBIS.L["Ring"], "Alt") --Band of Eternity
+LBIS:AddItem(spec, "28757", LBIS.L["Ring"], "Alt") --Ring of a Thousand Marks
+LBIS:AddItem(spec, "28649", LBIS.L["Ring"], "Alt") --Garona's Signet Ring
 
-LoonBestInSlot:AddItem(spec, "28830", L["Trinket"], "BIS") --Dragonspine Trophy
-LoonBestInSlot:AddItem(spec, "29383", L["Trinket"], "BIS") --Bloodlust Brooch
-LoonBestInSlot:AddItem(spec, "30627", L["Trinket"], "Alt") --Tsunami Talisman
+LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
+LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
+LBIS:AddItem(spec, "30627", LBIS.L["Trinket"], "Alt") --Tsunami Talisman
 
-LoonBestInSlot:AddItem(spec, "32944", L["MH"], "BIS") --Talon of the Phoenix
-LoonBestInSlot:AddItem(spec, "27846", L["MH"], "Alt") --Claw of the Watcher
-LoonBestInSlot:AddItem(spec, "29924", L["MH"], "Alt") --Netherbane
+LBIS:AddItem(spec, "32944", LBIS.L["MH"], "BIS") --Talon of the Phoenix
+LBIS:AddItem(spec, "27846", LBIS.L["MH"], "Alt") --Claw of the Watcher
+LBIS:AddItem(spec, "29924", LBIS.L["MH"], "Alt") --Netherbane
 
-LoonBestInSlot:AddItem(spec, "29948", L["OH"], "BIS") --Claw of the Phoenix
-LoonBestInSlot:AddItem(spec, "28315", L["OH"], "Alt") --Stormreaver Warblades
+LBIS:AddItem(spec, "29948", LBIS.L["OH"], "BIS") --Claw of the Phoenix
+LBIS:AddItem(spec, "28315", LBIS.L["OH"], "Alt") --Stormreaver Warblades
 
-LoonBestInSlot:AddItem(spec, "29993", L["2H"], "BIS") --Twinblade of the Phoenix
-LoonBestInSlot:AddItem(spec, "28436", L["2H"], "BIS") --Bloodmoon
-LoonBestInSlot:AddItem(spec, "28435", L["2H"], "Alt") --Mooncleaver
+LBIS:AddItem(spec, "29993", LBIS.L["2H"], "BIS") --Twinblade of the Phoenix
+LBIS:AddItem(spec, "28436", LBIS.L["2H"], "BIS") --Bloodmoon
+LBIS:AddItem(spec, "28435", LBIS.L["2H"], "Alt") --Mooncleaver
 
-LoonBestInSlot:AddItem(spec, "30105", L["Ranged"], "BIS") --Serpent Spine Longbow
-LoonBestInSlot:AddItem(spec, "31986", L["Ranged"], "BIS") --Merciless Gladiator's Crossbow of the Phoenix
-LoonBestInSlot:AddItem(spec, "28772", L["Ranged"], "Alt") --Sunfury Bow of the Phoenix
-LoonBestInSlot:AddItem(spec, "30724", L["Ranged"], "Alt") --Barrel-Blade Longrifle
-LoonBestInSlot:AddItem(spec, "29949", L["Ranged"], "Alt") --Arcanite Steam-Pistol
+LBIS:AddItem(spec, "30105", LBIS.L["Ranged"], "BIS") --Serpent Spine Longbow
+LBIS:AddItem(spec, "31986", LBIS.L["Ranged"], "BIS") --Merciless Gladiator's Crossbow of the Phoenix
+LBIS:AddItem(spec, "28772", LBIS.L["Ranged"], "Alt") --Sunfury Bow of the Phoenix
+LBIS:AddItem(spec, "30724", LBIS.L["Ranged"], "Alt") --Barrel-Blade Longrifle
+LBIS:AddItem(spec, "29949", LBIS.L["Ranged"], "Alt") --Arcanite Steam-Pistol

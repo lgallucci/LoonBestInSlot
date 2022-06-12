@@ -1,84 +1,84 @@
-local spec = LoonBestInSlot:RegisterSpec(L["Paladin"], L["Prot"], "0")
+local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Prot"], "0")
 
-LoonBestInSlot:AddItem(spec, "32083", L["Head"], "BIS Mit") --Faceguard of Determination
-LoonBestInSlot:AddItem(spec, "33697", L["Head"], "BIS") --Vengeful Gladiator's Lamellar Helm
-LoonBestInSlot:AddItem(spec, "32473", L["Head"], "Alt") --Tankatronic Goggles
+LBIS:AddItem(spec, "32083", LBIS.L["Head"], "BIS Mit") --Faceguard of Determination
+LBIS:AddItem(spec, "33697", LBIS.L["Head"], "BIS") --Vengeful Gladiator's Lamellar Helm
+LBIS:AddItem(spec, "32473", LBIS.L["Head"], "Alt") --Tankatronic Goggles
 
-LoonBestInSlot:AddItem(spec, "33699", L["Shoulders"], "BIS") --Vengeful Gladiator's Lamellar Shoulders
-LoonBestInSlot:AddItem(spec, "27847", L["Shoulders"], "Alt") --Fanblade Pauldrons
-LoonBestInSlot:AddItem(spec, "27739", L["Shoulders"], "Alt") --Spaulders of the Righteous
-LoonBestInSlot:AddItem(spec, "30291", L["Shoulders"], "Alt") --Nexus-Guard's Pauldrons
+LBIS:AddItem(spec, "33699", LBIS.L["Shoulders"], "BIS") --Vengeful Gladiator's Lamellar Shoulders
+LBIS:AddItem(spec, "27847", LBIS.L["Shoulders"], "Alt") --Fanblade Pauldrons
+LBIS:AddItem(spec, "27739", LBIS.L["Shoulders"], "Alt") --Spaulders of the Righteous
+LBIS:AddItem(spec, "30291", LBIS.L["Shoulders"], "Alt") --Nexus-Guard's Pauldrons
 
-LoonBestInSlot:AddItem(spec, "33593", L["Back"], "BIS") --Slikk's Cloak of Placation
+LBIS:AddItem(spec, "33593", LBIS.L["Back"], "BIS") --Slikk's Cloak of Placation
 
-LoonBestInSlot:AddItem(spec, "34945", L["Chest"], "BIS Thrt") --Shattrath Protectorate's Breastplate
-LoonBestInSlot:AddItem(spec, "34939", L["Chest"], "BIS Mit") --Chestplate of Stoicism
-LoonBestInSlot:AddItem(spec, "33522", L["Chest"], "Alt") --Chestguard of the Stoic Guardian
-LoonBestInSlot:AddItem(spec, "33695", L["Chest"], "Alt") --Vengeful Gladiator's Lamellar Chestpiece
+LBIS:AddItem(spec, "34945", LBIS.L["Chest"], "BIS Thrt") --Shattrath Protectorate's Breastplate
+LBIS:AddItem(spec, "34939", LBIS.L["Chest"], "BIS Mit") --Chestplate of Stoicism
+LBIS:AddItem(spec, "33522", LBIS.L["Chest"], "Alt") --Chestguard of the Stoic Guardian
+LBIS:AddItem(spec, "33695", LBIS.L["Chest"], "Alt") --Vengeful Gladiator's Lamellar Chestpiece
 
-LoonBestInSlot:AddItem(spec, "33516", L["Bracers"], "BIS") --Bracers of the Ancient Phalanx
-LoonBestInSlot:AddItem(spec, "29252", L["Bracers"], "Alt") --Bracers of Dignity
-LoonBestInSlot:AddItem(spec, "23538", L["Bracers"], "Alt") --Bracers of the Green Fortress
+LBIS:AddItem(spec, "33516", LBIS.L["Bracers"], "BIS") --Bracers of the Ancient Phalanx
+LBIS:AddItem(spec, "29252", LBIS.L["Bracers"], "Alt") --Bracers of Dignity
+LBIS:AddItem(spec, "23538", LBIS.L["Bracers"], "Alt") --Bracers of the Green Fortress
 
-LoonBestInSlot:AddItem(spec, "33517", L["Gloves"], "BIS") --Bonefist Gauntlets
-LoonBestInSlot:AddItem(spec, "30741", L["Gloves"], "BIS") --Topaz-Studded Battlegrips
-LoonBestInSlot:AddItem(spec, "25788", L["Gloves"], "Alt") --Dauntless Handguards
+LBIS:AddItem(spec, "33517", LBIS.L["Gloves"], "BIS") --Bonefist Gauntlets
+LBIS:AddItem(spec, "30741", LBIS.L["Gloves"], "BIS") --Topaz-Studded Battlegrips
+LBIS:AddItem(spec, "25788", LBIS.L["Gloves"], "Alt") --Dauntless Handguards
 
-LoonBestInSlot:AddItem(spec, "33524", L["Belt"], "BIS") --Girdle of the Protector
-LoonBestInSlot:AddItem(spec, "33279", L["Belt"], "Alt") --Iron-tusk Girdle
-LoonBestInSlot:AddItem(spec, "30034", L["Belt"], "Alt") --Belt of the Guardian
-LoonBestInSlot:AddItem(spec, "34941", L["Belt"], "Alt") --Girdle of the Fearless
+LBIS:AddItem(spec, "33524", LBIS.L["Belt"], "BIS") --Girdle of the Protector
+LBIS:AddItem(spec, "33279", LBIS.L["Belt"], "Alt") --Iron-tusk Girdle
+LBIS:AddItem(spec, "30034", LBIS.L["Belt"], "Alt") --Belt of the Guardian
+LBIS:AddItem(spec, "34941", LBIS.L["Belt"], "Alt") --Girdle of the Fearless
 
-LoonBestInSlot:AddItem(spec, "34946", L["Legs"], "BIS") --Inscribed Legplates of the Aldor
-LoonBestInSlot:AddItem(spec, "33515", L["Legs"], "Alt") --Unwavering Legguards
-LoonBestInSlot:AddItem(spec, "34940", L["Legs"], "Alt") --Sunguard Legplates
+LBIS:AddItem(spec, "34946", LBIS.L["Legs"], "BIS") --Inscribed Legplates of the Aldor
+LBIS:AddItem(spec, "33515", LBIS.L["Legs"], "Alt") --Unwavering Legguards
+LBIS:AddItem(spec, "34940", LBIS.L["Legs"], "Alt") --Sunguard Legplates
 
-LoonBestInSlot:AddItem(spec, "34947", L["Feet"], "BIS") --Blue's Greaves of the Righteous Guardian
-LoonBestInSlot:AddItem(spec, "33523", L["Feet"], "Alt") --Sabatons of the Righteous Defender
+LBIS:AddItem(spec, "34947", LBIS.L["Feet"], "BIS") --Blue's Greaves of the Righteous Guardian
+LBIS:AddItem(spec, "33523", LBIS.L["Feet"], "Alt") --Sabatons of the Righteous Defender
 
-LoonBestInSlot:AddItem(spec, "33296", L["Neck"], "BIS") --Brooch of Deftness
-LoonBestInSlot:AddItem(spec, "27792", L["Neck"], "Alt") --Steam-Hinge Chain of Valor
-LoonBestInSlot:AddItem(spec, "35133", L["Neck"], "Alt") --Guardian's Pendant of Dominance
+LBIS:AddItem(spec, "33296", LBIS.L["Neck"], "BIS") --Brooch of Deftness
+LBIS:AddItem(spec, "27792", LBIS.L["Neck"], "Alt") --Steam-Hinge Chain of Valor
+LBIS:AddItem(spec, "35133", LBIS.L["Neck"], "Alt") --Guardian's Pendant of Dominance
 
-LoonBestInSlot:AddItem(spec, "34888", L["Ring"], "BIS Mit") --Ring of the Stalwart Protector
-LoonBestInSlot:AddItem(spec, "34889", L["Ring"], "BIS Thrt") --Fused Nethergon Band
-LoonBestInSlot:AddItem(spec, "29172", L["Ring"], "Alt") --Ashyen's Gift
-LoonBestInSlot:AddItem(spec, "28407", L["Ring"], "Alt") --Elementium Band of the Sentry
-LoonBestInSlot:AddItem(spec, "29323", L["Ring"], "Alt") --Andormu's Tear
-LoonBestInSlot:AddItem(spec, "28265", L["Ring"], "Alt") --Dath'Remar's Ring of Defense
+LBIS:AddItem(spec, "34888", LBIS.L["Ring"], "BIS Mit") --Ring of the Stalwart Protector
+LBIS:AddItem(spec, "34889", LBIS.L["Ring"], "BIS Thrt") --Fused Nethergon Band
+LBIS:AddItem(spec, "29172", LBIS.L["Ring"], "Alt") --Ashyen's Gift
+LBIS:AddItem(spec, "28407", LBIS.L["Ring"], "Alt") --Elementium Band of the Sentry
+LBIS:AddItem(spec, "29323", LBIS.L["Ring"], "Alt") --Andormu's Tear
+LBIS:AddItem(spec, "28265", LBIS.L["Ring"], "Alt") --Dath'Remar's Ring of Defense
 
-LoonBestInSlot:AddItem(spec, "35693", L["Trinket"], "Alt") --Figurine - Empyrean Tortoise
-LoonBestInSlot:AddItem(spec, "27529", L["Trinket"], "Alt") --Figurine of the Colossus
-LoonBestInSlot:AddItem(spec, "32534", L["Trinket"], "Alt") --Brooch of the Immortal King
-LoonBestInSlot:AddItem(spec, "29387", L["Trinket"], "Alt Mit") --Gnomeregan Auto-Blocker 600
-LoonBestInSlot:AddItem(spec, "31858", L["Trinket"], "Alt") --Darkmoon Card: Vengeance
-LoonBestInSlot:AddItem(spec, "34473", L["Trinket"], "Alt") --Commendation of Kael'thas
-LoonBestInSlot:AddItem(spec, "31859", L["Trinket"], "Alt") --Darkmoon Card: Madness
-LoonBestInSlot:AddItem(spec, "23836", L["Trinket"], "Alt") --Goblin Rocket Launcher
-LoonBestInSlot:AddItem(spec, "23835", L["Trinket"], "Alt") --Gnomish Poultryizer
-LoonBestInSlot:AddItem(spec, "32864", L["Trinket"], "Alt") --Commander's Badge
-LoonBestInSlot:AddItem(spec, "29370", L["Trinket"], "BIS") --Icon of the Silver Crescent
-LoonBestInSlot:AddItem(spec, "34579", L["Trinket"], "Alt") --Battlemaster's Audacity
-LoonBestInSlot:AddItem(spec, "35700", L["Trinket"], "Alt") --Figurine - Crimson Serpent
+LBIS:AddItem(spec, "35693", LBIS.L["Trinket"], "Alt") --Figurine - Empyrean Tortoise
+LBIS:AddItem(spec, "27529", LBIS.L["Trinket"], "Alt") --Figurine of the Colossus
+LBIS:AddItem(spec, "32534", LBIS.L["Trinket"], "Alt") --Brooch of the Immortal King
+LBIS:AddItem(spec, "29387", LBIS.L["Trinket"], "Alt Mit") --Gnomeregan Auto-Blocker 600
+LBIS:AddItem(spec, "31858", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Vengeance
+LBIS:AddItem(spec, "34473", LBIS.L["Trinket"], "Alt") --Commendation of Kael'thas
+LBIS:AddItem(spec, "31859", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Madness
+LBIS:AddItem(spec, "23836", LBIS.L["Trinket"], "Alt") --Goblin Rocket Launcher
+LBIS:AddItem(spec, "23835", LBIS.L["Trinket"], "Alt") --Gnomish Poultryizer
+LBIS:AddItem(spec, "32864", LBIS.L["Trinket"], "Alt") --Commander's Badge
+LBIS:AddItem(spec, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Crescent
+LBIS:AddItem(spec, "34579", LBIS.L["Trinket"], "Alt") --Battlemaster's Audacity
+LBIS:AddItem(spec, "35700", LBIS.L["Trinket"], "Alt") --Figurine - Crimson Serpent
 
-LoonBestInSlot:AddItem(spec, "33687", L["MH"], "BIS") --Vengeful Gladiator's Gavel
-LoonBestInSlot:AddItem(spec, "34611", L["MH"], "Alt") --Cudgel of Consecration
-LoonBestInSlot:AddItem(spec, "29153", L["MH"], "Alt") --Blade of the Archmage
-LoonBestInSlot:AddItem(spec, "29155", L["MH"], "Alt") --Stormcaller
-LoonBestInSlot:AddItem(spec, "30832", L["MH"], "Alt") --Gavel of Unearthed Secrets
-LoonBestInSlot:AddItem(spec, "34670", L["MH"], "Alt") --Seeker's Gavel
-LoonBestInSlot:AddItem(spec, "31336", L["MH"], "Alt") --Blade of Wizardry
-LoonBestInSlot:AddItem(spec, "32660", L["MH"], "Alt") --Crystalforged Sword
-LoonBestInSlot:AddItem(spec, "29185", L["MH"], "Alt") --Continuum Blade
+LBIS:AddItem(spec, "33687", LBIS.L["MH"], "BIS") --Vengeful Gladiator's Gavel
+LBIS:AddItem(spec, "34611", LBIS.L["MH"], "Alt") --Cudgel of Consecration
+LBIS:AddItem(spec, "29153", LBIS.L["MH"], "Alt") --Blade of the Archmage
+LBIS:AddItem(spec, "29155", LBIS.L["MH"], "Alt") --Stormcaller
+LBIS:AddItem(spec, "30832", LBIS.L["MH"], "Alt") --Gavel of Unearthed Secrets
+LBIS:AddItem(spec, "34670", LBIS.L["MH"], "Alt") --Seeker's Gavel
+LBIS:AddItem(spec, "31336", LBIS.L["MH"], "Alt") --Blade of Wizardry
+LBIS:AddItem(spec, "32660", LBIS.L["MH"], "Alt") --Crystalforged Sword
+LBIS:AddItem(spec, "29185", LBIS.L["MH"], "Alt") --Continuum Blade
 
-LoonBestInSlot:AddItem(spec, "29388", L["Libram"], "Alt") --Libram of Repentance
-LoonBestInSlot:AddItem(spec, "33504", L["Libram"], "Alt") --Libram of Divine Purpose
-LoonBestInSlot:AddItem(spec, "27917", L["Libram"], "Alt") --Libram of the Eternal Rest
+LBIS:AddItem(spec, "29388", LBIS.L["Libram"], "Alt") --Libram of Repentance
+LBIS:AddItem(spec, "33504", LBIS.L["Libram"], "Alt") --Libram of Divine Purpose
+LBIS:AddItem(spec, "27917", LBIS.L["Libram"], "Alt") --Libram of the Eternal Rest
 
-LoonBestInSlot:AddItem(spec, "33755", L["Shield"], "Alt") --Vengeful Gladiator's Shield Wall
-LoonBestInSlot:AddItem(spec, "33661", L["Shield"], "Alt") --Vengeful Gladiator's Barrier
-LoonBestInSlot:AddItem(spec, "34676", L["Shield"], "Alt") --Dawnforged Defender
-LoonBestInSlot:AddItem(spec, "34675", L["Shield"], "Alt") --Sunward Crest
-LoonBestInSlot:AddItem(spec, "29176", L["Shield"], "Alt") --Crest of the Sha'tar
-LoonBestInSlot:AddItem(spec, "29266", L["Shield"], "Alt") --Azure-Shield of Coldarra
-LoonBestInSlot:AddItem(spec, "32652", L["Shield"], "Alt") --Ogri'la Aegis
+LBIS:AddItem(spec, "33755", LBIS.L["Shield"], "Alt") --Vengeful Gladiator's Shield Wall
+LBIS:AddItem(spec, "33661", LBIS.L["Shield"], "Alt") --Vengeful Gladiator's Barrier
+LBIS:AddItem(spec, "34676", LBIS.L["Shield"], "Alt") --Dawnforged Defender
+LBIS:AddItem(spec, "34675", LBIS.L["Shield"], "Alt") --Sunward Crest
+LBIS:AddItem(spec, "29176", LBIS.L["Shield"], "Alt") --Crest of the Sha'tar
+LBIS:AddItem(spec, "29266", LBIS.L["Shield"], "Alt") --Azure-Shield of Coldarra
+LBIS:AddItem(spec, "32652", LBIS.L["Shield"], "Alt") --Ogri'la Aegis

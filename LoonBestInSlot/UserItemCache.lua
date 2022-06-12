@@ -1,5 +1,5 @@
-LoonBestInSlot.UserItems = {}
-LoonBestInSlot.UserItemCacheBuilt = false;
+LBIS.UserItems = {}
+LBIS.UserItemCacheBuilt = false;
 
 local hasBagnon = Bagnon or Combuctor;
 local LibItemCache = LibStub("LibItemCache-2.0", true)
@@ -13,11 +13,11 @@ local readBagsWithApi = function()
         for slot = 1, GetContainerNumSlots(bag) do
             local itemLink = GetContainerItemLink(bag, slot);
             if itemLink then
-                local itemId = LoonBestInSlot:GetItemIdFromLink(itemLink);
+                local itemId = LBIS:GetItemIdFromLink(itemLink);
                 if bag < 0 or bag > NUM_BAG_SLOTS then
-                    LoonBestInSlot.UserItems[tonumber(itemId)] = "bank";
+                    LBIS.UserItems[tonumber(itemId)] = "bank";
                 else
-                    LoonBestInSlot.UserItems[tonumber(itemId)] = "bag";
+                    LBIS.UserItems[tonumber(itemId)] = "bag";
                 end     
             end
         end
@@ -34,9 +34,9 @@ local readBagsWithBagnon = function ()
                 local item = LibItemCache:GetItemInfo(UnitName("player"), bag, slot);
                 if item.id and item.id > 0 then
                     if bag < 0 or bag > NUM_BAG_SLOTS then
-                        LoonBestInSlot.UserItems[item.id] = "bank";
+                        LBIS.UserItems[item.id] = "bank";
                     else
-                        LoonBestInSlot.UserItems[item.id] = "bag";
+                        LBIS.UserItems[item.id] = "bag";
                     end
                 end
             end
@@ -45,22 +45,22 @@ local readBagsWithBagnon = function ()
     end
 end
 
-function LoonBestInSlot:BuildItemCache()
+function LBIS:BuildItemCache()
 
-    if LoonBestInSlot.UserItemCacheBuilt then
+    if LBIS.UserItemCacheBuilt then
         return;
     end
 
-    for k,v in pairs(LoonBestInSlot.UserItems) do
-        LoonBestInSlot.UserItems[k] = nil
+    for k,v in pairs(LBIS.UserItems) do
+        LBIS.UserItems[k] = nil
     end
 
     for i, slotCode in ipairs(wowSlotCodes) do
         local itemLink = GetInventoryItemLink("player",GetInventorySlotInfo(slotCode));
         
         if itemLink then
-            local itemId = LoonBestInSlot:GetItemIdFromLink(itemLink);
-            LoonBestInSlot.UserItems[tonumber(itemId)] = "player";
+            local itemId = LBIS:GetItemIdFromLink(itemLink);
+            LBIS.UserItems[tonumber(itemId)] = "player";
         end
     end
 

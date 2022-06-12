@@ -1,23 +1,23 @@
-LoonBestInSlot.BrowserWindow = {
+LBIS.BrowserWindow = {
     MaxHeight = 0,
     CompareTooltip = {}
 }
 
 local deleted_windows = {}
-function LoonBestInSlot.BrowserWindow:OpenWindow()
-    LoonBestInSlot:BuildItemCache()
-    if not LoonBestInSlot.BrowserWindow.Window then
-        LoonBestInSlot.BrowserWindow:CreateBrowserWindow();
+function LBIS.BrowserWindow:OpenWindow()
+    LBIS:BuildItemCache()
+    if not LBIS.BrowserWindow.Window then
+        LBIS.BrowserWindow:CreateBrowserWindow();
     end
-    LoonBestInSlot.BrowserWindow:UpdateItemsForSpec();
-    LoonBestInSlot.BrowserWindow.Window:Show();
+    LBIS.BrowserWindow:UpdateItemsForSpec();
+    LBIS.BrowserWindow.Window:Show();
 end
 
-function LoonBestInSlot.BrowserWindow:ToggleWindow()
-    if LoonBestInSlot.BrowserWindow.Window and LoonBestInSlot.BrowserWindow.Window:IsShown() then
-        LoonBestInSlot.BrowserWindow.Window:Hide();
+function LBIS.BrowserWindow:ToggleWindow()
+    if LBIS.BrowserWindow.Window and LBIS.BrowserWindow.Window:IsShown() then
+        LBIS.BrowserWindow.Window:Hide();
     else
-        LoonBestInSlot.BrowserWindow:OpenWindow();
+        LBIS.BrowserWindow:OpenWindow();
     end    
 end
 
@@ -85,7 +85,7 @@ local function FindInPhase(phaseText, phase)
 
     local phaseNumber = tonumber(phase);
 
-    local firstNumber, lastNumber = LoonBestInSlot:GetPhaseNumbers(phaseText);
+    local firstNumber, lastNumber = LBIS:GetPhaseNumbers(phaseText);
 
     if firstNumber == nil then
         return false;
@@ -96,9 +96,9 @@ local function FindInPhase(phaseText, phase)
 end
 
 local function IsInPhase(specItem, specItemSource)
-    if specItemSource.SourceType == L["Token"] then
+    if specItemSource.SourceType == LBIS.L["Token"] then
         return false;
-    elseif strfind(specItem.Bis, L["Transmute"]) ~= nil then
+    elseif strfind(specItem.Bis, LBIS.L["Transmute"]) ~= nil then
         return false;
     elseif LoonBestInSlotSettings.SelectedPhase == "All" and specItem.Phase ~= "0" then
         return true;
@@ -139,17 +139,17 @@ local function IsInZone(specItem)
 end
 
 local function IsNotInClassic(specItem)
-    if specItem.SourceLocation == L["Molten Core"] then
+    if specItem.SourceLocation == LBIS.L["Molten Core"] then
         return false;
-    elseif specItem.SourceLocation == L["Blackwing Lair"] then
+    elseif specItem.SourceLocation == LBIS.L["Blackwing Lair"] then
         return false;
-     elseif specItem.SourceLocation == L["Zul'Gurub"] then
+     elseif specItem.SourceLocation == LBIS.L["Zul'Gurub"] then
         return false;
-    elseif specItem.SourceLocation == L["Ruins of Ahn'Qiraj"] then
+    elseif specItem.SourceLocation == LBIS.L["Ruins of Ahn'Qiraj"] then
         return false;
-    elseif specItem.SourceLocation == L["Temple of Ahn'Qiraj"] then
+    elseif specItem.SourceLocation == LBIS.L["Temple of Ahn'Qiraj"] then
         return false;
-    elseif specItem.SourceLocation == L["Naxxramas"] then
+    elseif specItem.SourceLocation == LBIS.L["Naxxramas"] then
         return false;
     end
     return true;
@@ -191,7 +191,7 @@ end
 local failedLoad = false;
 
 local function createItemRow(specItem, specItemSource, point)
-    local window = LoonBestInSlot.BrowserWindow.Window;
+    local window = LBIS.BrowserWindow.Window;
     local spacing = 1;
     local alt_color = false;
     local name = "frame_"..item.Id;
@@ -212,9 +212,9 @@ local function createItemRow(specItem, specItemSource, point)
     if not resuing then
         f = CreateFrame("Frame", "frame_"..item.Id, window.Container);
 
-        LoonBestInSlot:GetItemInfo(specItem.Id, function(item)
+        LBIS:GetItemInfo(specItem.Id, function(item)
             if item == nil or item.Id == nil or item.Link == nil or item.Type == nil then
-                LoonBestInSlot:Error("Failed Load: "..specItem.Id);
+                LBIS:Error("Failed Load: "..specItem.Id);
                 failedLoad = true;
                 return point;
             end
@@ -252,17 +252,17 @@ local function createItemRow(specItem, specItemSource, point)
 
             --Create Drop Text
             local dtColor = "|cFF7727FF";
-            if specItemSource.SourceType == L["Profession"] then
+            if specItemSource.SourceType == LBIS.L["Profession"] then
                 dtColor = "|cFF33ADFF";
-            elseif specItemSource.SourceType == L["Reputation"] then
+            elseif specItemSource.SourceType == LBIS.L["Reputation"] then
                 dtColor = "|cFF23E4C4";
-            elseif specItemSource.SourceType == L["Quest"] then
+            elseif specItemSource.SourceType == LBIS.L["Quest"] then
                 dtColor = "|cFFFFEF27";
-            elseif specItemSource.SourceType == L["Dungeon Token"] then
+            elseif specItemSource.SourceType == LBIS.L["Dungeon Token"] then
                 dtColor = "|cFFFF276D";
-            elseif specItemSource.SourceType == L["PvP"] then
+            elseif specItemSource.SourceType == LBIS.L["PvP"] then
                 dtColor = "|cFFE52AED";
-            elseif specItemSource.SourceType == L["Transmute"] then
+            elseif specItemSource.SourceType == LBIS.L["Transmute"] then
                 dtColor = "|cFFFC6A03";
             end
             d = f:CreateFontString(nil, nil, "GameFontNormal");
@@ -275,9 +275,9 @@ local function createItemRow(specItem, specItemSource, point)
             if specItemSource.SourceLocation == "" then
                 dl:SetText(specItemSource.Source);
                 dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
-            elseif specItemSource.SourceType == L["Transmute"] then
+            elseif specItemSource.SourceType == LBIS.L["Transmute"] then
             
-                LoonBestInSlot:GetItemInfo(tonumber(specItemSource.Source), function(transmuteItem)
+                LBIS:GetItemInfo(tonumber(specItemSource.Source), function(transmuteItem)
 
                     local tb = CreateFrame("Button", nil, f);
                     tb:SetSize(32, 32);
@@ -299,7 +299,7 @@ local function createItemRow(specItem, specItemSource, point)
                 dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
             end      
 
-            local userItemCache = LoonBestInSlot.UserItems[item.Id];
+            local userItemCache = LBIS.UserItems[item.Id];
             if userItemCache then
                 local ot = f:CreateTexture(nil,"BACKGROUND")
                 ot:SetSize(24, 24);
@@ -327,7 +327,7 @@ local function createItemRow(specItem, specItemSource, point)
     
     point = point - (f:GetHeight()+spacing);
     
-    LoonBestInSlot.BrowserWindow.MaxHeight = LoonBestInSlot.BrowserWindow.MaxHeight + (f:GetHeight()+spacing);
+    LBIS.BrowserWindow.MaxHeight = LBIS.BrowserWindow.MaxHeight + (f:GetHeight()+spacing);
 
     f:Show(); -- forcing a show since if we are reusing, the old child was previously hidden
 
@@ -336,27 +336,27 @@ end
 
 
 local itemSlotOrder = {}
-itemSlotOrder[L["Head"]] = 0;
-itemSlotOrder[L["Shoulders"]] = 1;
-itemSlotOrder[L["Back"]] = 2;
-itemSlotOrder[L["Chest"]] = 3;
-itemSlotOrder[L["Bracers"]] = 4;
-itemSlotOrder[L["Gloves"]] = 5;
-itemSlotOrder[L["Belt"]] = 6;
-itemSlotOrder[L["Legs"]] = 7;
-itemSlotOrder[L["Feet"]] = 8;
-itemSlotOrder[L["Neck"]] = 9;
-itemSlotOrder[L["Ring"]] = 10;
-itemSlotOrder[L["Trinket"]] = 11;
-itemSlotOrder[L["MH"]] = 12;
-itemSlotOrder[L["OH"]] = 13;
-itemSlotOrder[L["2H"]] = 14;
-itemSlotOrder[L["Shield"]] = 15;
-itemSlotOrder[L["Ranged"]] = 16;
-itemSlotOrder[L["Wand"]] = 17;
-itemSlotOrder[L["Totem"]] = 18;
-itemSlotOrder[L["Idol"]] = 19;
-itemSlotOrder[L["Libram"]] = 20;
+itemSlotOrder[LBIS.L["Head"]] = 0;
+itemSlotOrder[LBIS.L["Shoulders"]] = 1;
+itemSlotOrder[LBIS.L["Back"]] = 2;
+itemSlotOrder[LBIS.L["Chest"]] = 3;
+itemSlotOrder[LBIS.L["Bracers"]] = 4;
+itemSlotOrder[LBIS.L["Gloves"]] = 5;
+itemSlotOrder[LBIS.L["Belt"]] = 6;
+itemSlotOrder[LBIS.L["Legs"]] = 7;
+itemSlotOrder[LBIS.L["Feet"]] = 8;
+itemSlotOrder[LBIS.L["Neck"]] = 9;
+itemSlotOrder[LBIS.L["Ring"]] = 10;
+itemSlotOrder[LBIS.L["Trinket"]] = 11;
+itemSlotOrder[LBIS.L["MH"]] = 12;
+itemSlotOrder[LBIS.L["OH"]] = 13;
+itemSlotOrder[LBIS.L["2H"]] = 14;
+itemSlotOrder[LBIS.L["Shield"]] = 15;
+itemSlotOrder[LBIS.L["Ranged"]] = 16;
+itemSlotOrder[LBIS.L["Wand"]] = 17;
+itemSlotOrder[LBIS.L["Totem"]] = 18;
+itemSlotOrder[LBIS.L["Idol"]] = 19;
+itemSlotOrder[LBIS.L["Libram"]] = 20;
 
 local function itemSortFunction(table, k1, k2)
 
@@ -380,8 +380,8 @@ local function itemSortFunction(table, k1, k2)
         item2Score = item2Score + 100;
     end
 
-    local _, lastNumber1 = LoonBestInSlot:GetPhaseNumbers(item1.Phase)
-    local _, lastNumber2 = LoonBestInSlot:GetPhaseNumbers(item2.Phase)
+    local _, lastNumber1 = LBIS:GetPhaseNumbers(item1.Phase)
+    local _, lastNumber2 = LBIS:GetPhaseNumbers(item2.Phase)
 
     item1Score = item1Score + lastNumber1;
     item2Score = item2Score + lastNumber2;
@@ -419,15 +419,15 @@ function spairs(t, order)
     end
 end
 
-function LoonBestInSlot.BrowserWindow:UpdateItemsForSpec()
+function LBIS.BrowserWindow:UpdateItemsForSpec()
             
     if LoonBestInSlotSettings.SelectedSpec == "" then
         return;
     end
 
-    local specItems = LoonBestInSlot.SpecItems[LoonBestInSlot.SpecToName[LoonBestInSlotSettings.SelectedSpec]];
+    local specItems = LBIS.SpecItems[LBIS.SpecToName[LoonBestInSlotSettings.SelectedSpec]];
 
-    local window = LoonBestInSlot.BrowserWindow.Window;
+    local window = LBIS.BrowserWindow.Window;
     local point = -2;
     local function clear_content(self)
         for i=1, self:GetNumChildren() do
@@ -445,7 +445,7 @@ function LoonBestInSlot.BrowserWindow:UpdateItemsForSpec()
 
     clear_content(window.Container);
     
-    LoonBestInSlot.BrowserWindow.MaxHeight = 0;
+    LBIS.BrowserWindow.MaxHeight = 0;
     
     window.ScrollFrame.content = nil;
 
@@ -459,10 +459,10 @@ function LoonBestInSlot.BrowserWindow:UpdateItemsForSpec()
 
     for itemId, specItem in spairs(specItems, itemSortFunction) do
         
-        local specItemSource = LoonBestInSlot.ItemSources[tonumber(specItem.Id)];
+        local specItemSource = LBIS.ItemSources[tonumber(specItem.Id)];
 
         if specItemSource == nil then
-            LoonBestInSlot:Error("Missing item source: ", specItem);
+            LBIS:Error("Missing item source: ", specItem);
         else
             if IsInSlot(specItem) and IsInPhase(specItem, specItemSource) and IsInSource(specItemSource) and IsInZone(specItemSource) and IsNotInClassic(specItemSource) then
                 point = createItemRow(specItem, specItemSource, point);
@@ -471,13 +471,13 @@ function LoonBestInSlot.BrowserWindow:UpdateItemsForSpec()
     end
 
     if failedLoad then
-        LoonBestInSlot:Error("Failed to load one or more items into browser. Type /reload to attempt to fix", "");
+        LBIS:Error("Failed to load one or more items into browser. Type /reload to attempt to fix", "");
     end
 
     window.Container:SetSize(window.ScrollFrame:GetWidth(), window.ScrollFrame:GetHeight());
 
-    if LoonBestInSlot.BrowserWindow.MaxHeight-window.ScrollFrame:GetHeight() > 0 then
-        window.ScrollBar:SetMinMaxValues(0, (LoonBestInSlot.BrowserWindow.MaxHeight-window.ScrollFrame:GetHeight()));
+    if LBIS.BrowserWindow.MaxHeight-window.ScrollFrame:GetHeight() > 0 then
+        window.ScrollBar:SetMinMaxValues(0, (LBIS.BrowserWindow.MaxHeight-window.ScrollFrame:GetHeight()));
         window.ScrollBar:Enable();
     else
         window.ScrollBar:SetMinMaxValues(0, 0);
@@ -488,7 +488,7 @@ function LoonBestInSlot.BrowserWindow:UpdateItemsForSpec()
 
 end
 
-function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
+function LBIS.BrowserWindow:CreateBrowserWindow()
     local step = 25;
 
     local window = CreateFrame("Frame", "Roll Window", UIParent, "BasicFrameTemplateWithInset");
@@ -501,9 +501,9 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
             if(scrollbar:GetValue()-step < 0) then
                 scrollbar:SetValue(0);
             else scrollbar:SetValue(scrollbar:GetValue() - step) end
-        elseif(delta == -1 and scrollbar:GetValue() < LoonBestInSlot.BrowserWindow.MaxHeight) then
-            if(scrollbar:GetValue()+step > LoonBestInSlot.BrowserWindow.MaxHeight) then
-                scrollbar:SetValue(LoonBestInSlot.BrowserWindow.MaxHeight);
+        elseif(delta == -1 and scrollbar:GetValue() < LBIS.BrowserWindow.MaxHeight) then
+            if(scrollbar:GetValue()+step > LBIS.BrowserWindow.MaxHeight) then
+                scrollbar:SetValue(LBIS.BrowserWindow.MaxHeight);
             else scrollbar:SetValue(scrollbar:GetValue() + step) end
         end
     end
@@ -521,14 +521,14 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
 
     local getSpecList = function()
         local specList = {};
-        for specId, spec in pairs(LoonBestInSlot.ClassSpec) do
+        for specId, spec in pairs(LBIS.ClassSpec) do
 
             local specString = spec.Class;
             if strlen(spec.Spec) > 0 then
                 specString = spec.Spec.." "..specString;
             end
             table.insert(specList, specString)
-            LoonBestInSlot.SpecToName[specString] = specId;
+            LBIS.SpecToName[specString] = specId;
         end
         table.sort(specList);
         return specList;
@@ -543,7 +543,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
         ['defaultVal']=LoonBestInSlotSettings.SelectedSpec,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedSpec = dropdown_val;
-            LoonBestInSlot.BrowserWindow:UpdateItemsForSpec();
+            LBIS.BrowserWindow:UpdateItemsForSpec();
         end
     }
     local specDropDown = createDropdown(spec_opts);
@@ -553,11 +553,11 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
         ['name']='slot',
         ['parent']=window,
         ['title']='Slot:',
-        ['items']= { L["All"], L["Head"], L["Shoulders"], L["Back"], L["Chest"], L["Bracers"], L["Gloves"], L["Belt"], L["Legs"], L["Feet"], L["Neck"], L["Ring"], L["Trinket"], L["MH"], L["OH"], L["2H"], L["Shield"], L["Ranged"], L["Wand"], L["Totem"], L["Idol"], L["Libram"]},        
+        ['items']= { LBIS.L["All"], LBIS.L["Head"], LBIS.L["Shoulders"], LBIS.L["Back"], LBIS.L["Chest"], LBIS.L["Bracers"], LBIS.L["Gloves"], LBIS.L["Belt"], LBIS.L["Legs"], LBIS.L["Feet"], LBIS.L["Neck"], LBIS.L["Ring"], LBIS.L["Trinket"], LBIS.L["MH"], LBIS.L["OH"], LBIS.L["2H"], LBIS.L["Shield"], LBIS.L["Ranged"], LBIS.L["Wand"], LBIS.L["Totem"], LBIS.L["Idol"], LBIS.L["Libram"]},        
         ['defaultVal']=LoonBestInSlotSettings.SelectedSlot,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedSlot = dropdown_val;
-            LoonBestInSlot.BrowserWindow:UpdateItemsForSpec();
+            LBIS.BrowserWindow:UpdateItemsForSpec();
         end
     }
     local slotDropDown = createDropdown(spec_opts);
@@ -567,11 +567,11 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
         ['name']='phase',
         ['parent']=window,
         ['title']='Phase:',
-        ['items']= { L["All"], "PreRaid", "Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "BIS" },
+        ['items']= { LBIS.L["All"], "PreRaid", "Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "BIS" },
         ['defaultVal']=LoonBestInSlotSettings.SelectedPhase,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedPhase = dropdown_val;
-            LoonBestInSlot.BrowserWindow:UpdateItemsForSpec();
+            LBIS.BrowserWindow:UpdateItemsForSpec();
         end
     }
     local slotDropDown = createDropdown(spec_opts);
@@ -581,11 +581,11 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
         ['name']='source',
         ['parent']=window,
         ['title']='Source:',
-        ['items']= { L["All"], L["Drop"], L["Profession"], L["Reputation"], L["Dungeon Token"], L["Quest"], L["PvP"], L["Transmute"] },
+        ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Dungeon Token"], LBIS.L["Quest"], LBIS.L["PvP"], LBIS.L["Transmute"] },
         ['defaultVal']= LoonBestInSlotSettings.SelectedSource,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedSource = dropdown_val;
-            LoonBestInSlot.BrowserWindow:UpdateItemsForSpec();
+            LBIS.BrowserWindow:UpdateItemsForSpec();
         end
     }
     local slotDropDown = createDropdown(spec_opts);
@@ -595,11 +595,11 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
         ['name']='zone',
         ['parent']=window,
         ['title']='Zone:',
-        ['items']= { L["All"], L["Karazhan"], L["Gruul's Lair"], L["Magtheridon's Lair"], L["Serpentshrine Cavern"], L["Tempest Keep"], L["Hyjal Summit"], L["Black Temple"], L["Zul'Aman"], L["Sunwell Plateau"]},
+        ['items']= { LBIS.L["All"], LBIS.L["Karazhan"], LBIS.L["Gruul's Lair"], LBIS.L["Magtheridon's Lair"], LBIS.L["Serpentshrine Cavern"], LBIS.L["Tempest Keep"], LBIS.L["Hyjal Summit"], LBIS.L["Black Temple"], LBIS.L["Zul'Aman"], LBIS.L["Sunwell Plateau"]},
         ['defaultVal']= LoonBestInSlotSettings.SelectedZone,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedZone = dropdown_val;
-            LoonBestInSlot.BrowserWindow:UpdateItemsForSpec();
+            LBIS.BrowserWindow:UpdateItemsForSpec();
         end
     }
     local slotDropDown = createDropdown(spec_opts);
@@ -607,7 +607,7 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
 
     local header = window:CreateFontString();
     header:SetFont("Fonts\\FRIZQT__.TTF", 12); -- Fonts\\ARIALN.TTF - Fonts\\SKURRI.TTF -  -
-    header:SetText(L["Loon Best In Slot List"]);
+    header:SetText(LBIS.L["Loon Best In Slot List"]);
     header:SetPoint("TOP", window, -5, -5);
 
     local topLine = window:CreateLine();
@@ -643,10 +643,10 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
     tooltipButton:SetHitRectInsets(0, 0, 0, 0)
     local tooltipString = tooltipButton:CreateFontString("TooltipText", "OVERLAY", "GameFontNormalSmall");
     tooltipString:SetPoint("TOPRIGHT", tooltipButton, "TOPLEFT", -2, -3);
-    tooltipString:SetText(L["Show Tooltip:"]);
+    tooltipString:SetText(LBIS.L["Show Tooltip:"]);
     tooltipButton:SetPoint("BOTTOMRIGHT", window, "BOTTOMRIGHT", -175, 2);
     tooltipButton:SetScript("OnClick", function(self)
-        LoonBestInSlot:ShowHideTooltip(self:GetChecked());
+        LBIS:ShowHideTooltip(self:GetChecked());
     end);
     tooltipButton:SetChecked(LoonBestInSlotSettings.ShowTooltip);
 
@@ -654,10 +654,10 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
     miniMapButton:SetHitRectInsets(0, 0, 0, 0)
     local miniMapString = miniMapButton:CreateFontString("MiniMapText", "OVERLAY", "GameFontNormalSmall");
     miniMapString:SetPoint("TOPRIGHT", miniMapButton, "TOPLEFT", -2, -3);
-    miniMapString:SetText(L["Show Minimap Button:"]);
+    miniMapString:SetText(LBIS.L["Show Minimap Button:"]);
     miniMapButton:SetPoint("BOTTOMRIGHT", window, "BOTTOMRIGHT", 0, 2);
     miniMapButton:SetScript("OnClick", function(self)
-        LoonBestInSlot:ShowHideMiniMap(not self:GetChecked());
+        LBIS:ShowHideMiniMap(not self:GetChecked());
     end);
     miniMapButton:SetChecked(not LoonBestInSlotSettings.minimap.hide);
 
@@ -668,12 +668,12 @@ function LoonBestInSlot.BrowserWindow:CreateBrowserWindow()
     window:SetScript("OnDragStart", function(self) self:StartMoving() end);
     window:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end);    
 
-    LoonBestInSlot.BrowserWindow.Window = window;
-    LoonBestInSlot.BrowserWindow.Window.ScrollFrame = scrollframe;
-    LoonBestInSlot.BrowserWindow.Window.ScrollBar = scrollbar;
-    LoonBestInSlot.BrowserWindow.Window.Container = content;
+    LBIS.BrowserWindow.Window = window;
+    LBIS.BrowserWindow.Window.ScrollFrame = scrollframe;
+    LBIS.BrowserWindow.Window.ScrollBar = scrollbar;
+    LBIS.BrowserWindow.Window.Container = content;
 
-	LoonBestInSlot:RegisterEvent("MODIFIER_STATE_CHANGED", function()
+	LBIS:RegisterEvent("MODIFIER_STATE_CHANGED", function()
         if IsShiftKeyDown() and itemIsOnEnter then
             GameTooltip_ShowCompareItem()
         else
