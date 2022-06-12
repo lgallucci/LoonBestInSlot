@@ -64,7 +64,7 @@ local function buildExtraTip(tooltip, entry)
 	end
 
 	for k, v in pairs(combinedTooltip) do
-		local class = v.Class:upper()
+		local class = LBIS.ENGLISH_CLASS[v.Class]:upper()
 		local color = RAID_CLASS_COLORS[class]
 		local coords = CLASS_ICON_TCOORDS[class]
 		local classfontstring = "|T" .. iconpath .. ":14:14:::256:256:" .. iconOffset(coords[1] * 4, coords[3] * 4) .. "|t"

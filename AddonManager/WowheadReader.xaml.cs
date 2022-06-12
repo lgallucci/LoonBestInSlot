@@ -87,6 +87,7 @@ public partial class WowheadReader : Window
                                 Name = item.Value.Name,
                                 SourceType = "undefined",
                                 Source = "undefined",
+                                SourceNumber = "",
                                 SourceLocation = "undefined"
                             });
                         }
@@ -259,6 +260,7 @@ public partial class WowheadReader : Window
                 var csvItem = csvLootTable[itemSource.Key];
                 itemSource.Value.SourceType = sourceType;
                 itemSource.Value.Source = csvItem.SourceName.Trim().Trim('"');
+                itemSource.Value.SourceNumber = "";
                 itemSource.Value.SourceLocation = csvItem.InstanceName.Trim().Trim('"');
             }
         }

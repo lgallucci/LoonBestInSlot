@@ -32,7 +32,8 @@ public class ItemSourceFileManager
                 Name = sourceSplit[1],
                 SourceType = sourceSplit[3],
                 Source = sourceSplit[5],
-                SourceLocation = sourceSplit[7]
+                SourceNumber = sourceSplit[7],
+                SourceLocation = sourceSplit[9]
             });
         }
 
@@ -63,6 +64,7 @@ public class ItemSourceFileManager
                     $"Name = \"{source.Value.Name}\", " +
                     $"SourceType = LBIS.L[\"{source.Value.SourceType}\"], " +
                     $"Source = {sourceText}, " +
+                    $"SourceNumber = \"{source.Value.SourceNumber}\", " +
                     $"SourceLocation = {sourceLocation} }},");
         }
         itemSourceSB.AppendLine("}");
