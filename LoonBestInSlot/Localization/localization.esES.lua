@@ -2,7 +2,6 @@ if GetLocale() == "esES" then
   LBIS.L["# Gear best for:"] = "# Equipo mejor para:";
   LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "|cFF9CD6DEClick izquierdo|r: Abrir ventana del navegador";
 --  LBIS.L["2H"] = "";
---  LBIS.L["50 Spirit Shard"] = "";
 --  LBIS.L["A Fate Worse Than Death"] = "";
 --  LBIS.L["A Job Unfinished..."] = "";
 --  LBIS.L["A Personal Favor"] = "";
@@ -197,10 +196,10 @@ if GetLocale() == "esES" then
 --  LBIS.L["Hero of the Mag'har"] = "";
 --  LBIS.L["Hero of the Mag'har (Horde only)"] = "";
 --  LBIS.L["Heroic Mana-Tombs"] = "";
---  LBIS.L["Hex Lord Malacrass"] = "";
---  LBIS.L["High Astromancer Solarian"] = "";
---  LBIS.L["High Botanist Freywinn"] = "";
---  LBIS.L["High King Maulgar"] = "";
+  LBIS.L["Hex Lord Malacrass"] = "Se�or aojador Malacrass";
+  LBIS.L["High Astromancer Solarian"] = "Gran astrom�ntica Solarian";
+  LBIS.L["High Botanist Freywinn"] = "Gran bot�nico Freywinn";
+  LBIS.L["High King Maulgar"] = "Su majestad Maulgar";
 --  LBIS.L["High Warlord Naj'entus"] = "";
 --  LBIS.L["Hitting the Motherlode"] = "";
 --  LBIS.L["Holy"] = "";
@@ -266,10 +265,10 @@ if GetLocale() == "esES" then
 --  LBIS.L["Maiden of Virtue"] = "";
 --  LBIS.L["Mana-Tombs"] = "";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
---  LBIS.L["Marks of Thrallmar"] = "";
 --  LBIS.L["Mark V is Alive!"] = "";
 --  LBIS.L["Marks"] = "";
 --  LBIS.L["Marks of Honor Hold"] = "";
+--  LBIS.L["Marks of Thrallmar"] = "";
 --  LBIS.L["Master Armorsmith"] = "";
 --  LBIS.L["Master Axesmith"] = "";
 --  LBIS.L["Master Hammersmith"] = "";
@@ -383,6 +382,7 @@ if GetLocale() == "esES" then
 --  LBIS.L["Special Delivery to Shattrath City"] = "";
 --  LBIS.L["Spellfire Tailoring"] = "";
 --  LBIS.L["Spirit Sage Gartok, Spirit Sage Zran"] = "";
+--  LBIS.L["Spirit Shard"] = "";
 --  LBIS.L["Spy To'gun,Shadow Labyrinth"] = "";
 --  LBIS.L["Stratholme"] = "";
 --  LBIS.L["Subdue the Subduer"] = "";
@@ -506,7 +506,7 @@ if GetLocale() == "esES" then
 --  LBIS.L["You're Hired!"] = "";
 --  LBIS.L["Zangarmarsh"] = "";
 --  LBIS.L["Zereketh the Unbound"] = "";
---  LBIS.L["Zul'Aman"] = "";
---  LBIS.L["Zul'Gurub"] = "";
---  LBIS.L["Zul'jin"] = "";
+  LBIS.L["Zul'Aman"] = "Zul'Aman";
+  LBIS.L["Zul'Gurub"] = "Zul'Gurub";
+  LBIS.L["Zul'jin"] = "Zul'jin";
 end

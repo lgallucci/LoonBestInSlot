@@ -2,7 +2,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["# Gear best for:"] = "";
 --  LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "";
 --  LBIS.L["2H"] = "";
---  LBIS.L["50 Spirit Shard"] = "";
 --  LBIS.L["A Fate Worse Than Death"] = "";
 --  LBIS.L["A Job Unfinished..."] = "";
 --  LBIS.L["A Personal Favor"] = "";
@@ -266,10 +265,10 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Maiden of Virtue"] = "";
 --  LBIS.L["Mana-Tombs"] = "";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
---  LBIS.L["Mark of Thrallmar"] = "";
 --  LBIS.L["Mark V is Alive!"] = "";
 --  LBIS.L["Marks"] = "";
 --  LBIS.L["Marks of Honor Hold"] = "";
+--  LBIS.L["Marks of Thrallmar"] = "";
 --  LBIS.L["Master Armorsmith"] = "";
 --  LBIS.L["Master Axesmith"] = "";
 --  LBIS.L["Master Hammersmith"] = "";
@@ -383,6 +382,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Special Delivery to Shattrath City"] = "";
 --  LBIS.L["Spellfire Tailoring"] = "";
 --  LBIS.L["Spirit Sage Gartok, Spirit Sage Zran"] = "";
+--  LBIS.L["Spirit Shard"] = "";
 --  LBIS.L["Spy To'gun,Shadow Labyrinth"] = "";
 --  LBIS.L["Stratholme"] = "";
 --  LBIS.L["Subdue the Subduer"] = "";
