@@ -1,5 +1,4 @@
 if GetLocale() == "koKR" then
---  LBIS.L[" Teron Gorefiend,I am..."] = 
 --  LBIS.L["# Gear best for:"] = 
 --  LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = 
 --  LBIS.L["100 Badges of Justice"] = 
