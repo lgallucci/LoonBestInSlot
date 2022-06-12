@@ -567,7 +567,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
         ['name']='phase',
         ['parent']=window,
         ['title']='Phase:',
-        ['items']= { LBIS.L["All"], "PreRaid", "Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "BIS" },
+        ['items']= { LBIS.L["All"], LBIS.L["PreRaid"], LBIS.L["Phase 1"], LBIS.L["Phase 2"], LBIS.L["Phase 3"], LBIS.L["Phase 4"], LBIS.L["Phase 5"], "BIS" },
         ['defaultVal']=LoonBestInSlotSettings.SelectedPhase,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LoonBestInSlotSettings.SelectedPhase = dropdown_val;

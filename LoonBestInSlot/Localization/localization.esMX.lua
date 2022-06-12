@@ -81,7 +81,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Arena Vendor"] = 
 --  LBIS.L["Arms"] = 
 --  LBIS.L["Ashtongue Deathsworn"] = 
---  LBIS.L["Ashtongue Deathsworn "] = 
 --  LBIS.L["Atiesh, Greatstaff of the Guardian"] = 
 --  LBIS.L["Attumen the Huntsman"] = 
 --  LBIS.L["Auchenai Crypts"] = 
@@ -104,7 +103,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Black Temple"] = 
 --  LBIS.L["Black Temple / Hyjal Summit"] = 
 --  LBIS.L["Blackheart the Inciter"] = 
---  LBIS.L["Blacksmith()"] = 
 --  LBIS.L["Blacksmithing"] = 
 --  LBIS.L["Blackwing Lair"] = 
 --  LBIS.L["Blade's Edge Mountains"] = 
@@ -112,7 +110,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Bleeding Hollow Supply Crates"] = 
 --  LBIS.L["Blood Guard Porung"] = 
 --  LBIS.L["BoE World Drop"] = 
---  LBIS.L["BOE World Drop"] = 
 --  LBIS.L["Bracers"] = 
 --  LBIS.L["Brewfest"] = 
 --  LBIS.L["Bring Me The Egg!"] = 
@@ -168,8 +165,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Dissension Amongst the Ranks..."] = 
 --  LBIS.L["Doom Lord Kazzak"] = 
 --  LBIS.L["Doomwalker"] = 
---  LBIS.L["Down with Daelis"] = 
---  LBIS.L["Down With Daellis	Netherstorm"] = 
+--  LBIS.L["Down with Daellis"] = 
 --  LBIS.L["Dr. Boom!"] = 
 --  LBIS.L["Dragonscale Leatherworking"] = 
 --  LBIS.L["Drake Shared Loot"] = 
@@ -184,7 +180,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Elemental"] = 
 --  LBIS.L["Elemental Leatherworking"] = 
 --  LBIS.L["Engineering"] = 
---  LBIS.L["Engineering()"] = 
 --  LBIS.L["Enhance"] = 
 --  LBIS.L["Enraged Spirits of Air"] = 
 --  LBIS.L["Epoch Hunter"] = 
@@ -237,6 +232,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Hail,Commander!"] = 
 --  LBIS.L["Hakkar"] = 
 --  LBIS.L["Halazzi"] = 
+--  LBIS.L["Hallows Eve"] = 
 --  LBIS.L["Harbinger Skyriss"] = 
 --  LBIS.L["Head"] = 
 --  LBIS.L["Headless Horseman"] = 
@@ -339,7 +335,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Netherstorm"] = 
 --  LBIS.L["Netherstorm Arena Vendor"] = 
 --  LBIS.L["News of Victory"] = 
---  LBIS.L["News Of Victory"] = 
 --  LBIS.L["Nexus-King Salhadaar"] = 
 --  LBIS.L["Nexus-Prince Shaffar"] = 
 --  LBIS.L["Nightbane"] = 
@@ -350,15 +345,18 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Old Hillsbrad Foothills"] = 
 --  LBIS.L["Old Hillsbrad Foothills (Heroic)"] = 
 --  LBIS.L["Omor the Unscarred"] = 
---  LBIS.L["Omor the Unscarred "] = 
 --  LBIS.L["Opera Event"] = 
 --  LBIS.L["Ossirian the Unscarred"] = 
---  LBIS.L["Overlord /  Cruel's Intentions"] = 
+--  LBIS.L["Overlord / Cruel's Intentions"] = 
 --  LBIS.L["Overlord Gorefist"] = 
---  LBIS.L["Overlord/Cruel's Intentions"] = 
 --  LBIS.L["Pandemonius"] = 
 --  LBIS.L["Patchwerk"] = 
 --  LBIS.L["Pathaleon the Calculator"] = 
+--  LBIS.L["Phase 1"] = 
+--  LBIS.L["Phase 2"] = 
+--  LBIS.L["Phase 3"] = 
+--  LBIS.L["Phase 4"] = 
+--  LBIS.L["Phase 5"] = 
 --  LBIS.L["Plagueheart Robe"] = 
 --  LBIS.L["Plagueheart Sandals"] = 
 --  LBIS.L["Plagueheart Shoulderpads"] = 
@@ -392,7 +390,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Sandals of Faith"] = 
 --  LBIS.L["Sapphiron"] = 
 --  LBIS.L["Sartura"] = 
---  LBIS.L["Seasonal (Hallows Eve)"] = 
 --  LBIS.L["Securing the Celestial Ridge"] = 
 --  LBIS.L["Selin Fireheart"] = 
 --  LBIS.L["Serpentshrine Cavern"] = 
@@ -419,7 +416,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Showdown"] = 
 --  LBIS.L["Showdown - Baron Sablemane/Showdown"] = 
 --  LBIS.L["Shutting Down Manaforge Ara"] = 
---  LBIS.L["Shutting Down Manaforge Ara Netherstorm"] = 
 --  LBIS.L["Smith Hauthaa"] = 
 --  LBIS.L["Someone Else's Hard Work Pays Off"] = 
 --  LBIS.L["Soul Shard"] = 
@@ -438,7 +434,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Tailoring"] = 
 --  LBIS.L["Talon King Ikiss"] = 
 --  LBIS.L["Tavarok"] = 
---  LBIS.L["Tavarok "] = 
 --  LBIS.L["Teleport This!"] = 
 --  LBIS.L["Tempest Keep"] = 
 --  LBIS.L["Temple of Ahn'Qiraj"] = 
@@ -452,14 +447,12 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Teron Gorefiend,I am..."] = 
 --  LBIS.L["Thaddius"] = 
 --  LBIS.L["The Aldor"] = 
---  LBIS.L["The Aldor "] = 
 --  LBIS.L["The Aldor/Scryers"] = 
 --  LBIS.L["The Arcatraz"] = 
 --  LBIS.L["The Arcatraz (Heroic)"] = 
 --  LBIS.L["The Black Morass"] = 
 --  LBIS.L["The Black Morass (Heroic)"] = 
 --  LBIS.L["The Black Stalker"] = 
---  LBIS.L["The Black Stalker "] = 
 --  LBIS.L["The Blood Furnace"] = 
 --  LBIS.L["The Blood Furnace (Heroic)"] = 
 --  LBIS.L["The Botanica"] = 
@@ -536,9 +529,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Warbringer O'mrogg"] = 
 --  LBIS.L["Warchief Kargath Bladefist"] = 
 --  LBIS.L["Warlord Kalithresh"] = 
---  LBIS.L["Warlord Kalithresh "] = 
 --  LBIS.L["Warp Splinter"] = 
---  LBIS.L["Watcher Jhang,The Steamvault"] = 
 --  LBIS.L["Watcher Jhang,Zangarmarsh"] = 
 --  LBIS.L["Watchkeeper Gargolmar"] = 
 --  LBIS.L["Wazat,Nagrand"] = 
