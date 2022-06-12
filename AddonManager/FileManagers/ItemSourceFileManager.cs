@@ -47,10 +47,16 @@ public class ItemSourceFileManager
         itemSourceSB.AppendLine("{");
         foreach(var source in sources)
         {
+            var sourceText = string.Empty;
+            if (Int32.TryParse(source.Value.Source, out int value))
+                sourceText = $"\"{source.Value.Source}\"";
+            else
+                sourceText = $"LBIS.L[\"{source.Value.Source}\"]";
+
             itemSourceSB.AppendLine($"    [{source.Key}] = {{ " +
                 $"Name = \"{source.Value.Name}\", " +
                 $"SourceType = LBIS.L[\"{source.Value.SourceType}\"], " +
-                $"Source = LBIS.L[\"{source.Value.Source}\"], " +
+                $"Source = {sourceText}, " +
                 $"SourceLocation = LBIS.L[\"{source.Value.SourceLocation}\"] }},");
         }
         itemSourceSB.AppendLine("}");

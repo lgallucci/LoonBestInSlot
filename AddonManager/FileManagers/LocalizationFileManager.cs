@@ -28,20 +28,24 @@ public static class LocalizationFileManager
         var localList = localizations.ToList();
         localList.Sort();
         StringBuilder sb = new StringBuilder();
+
         foreach (var localization in localList)
         {
-            sb.AppendLine($"--  LBIS.L[\"{localization}\"] = ");
+            if (localization != null)
+            {
+                sb.AppendLine($"--  LBIS.L[\"{localization}\"] = ");
+            }
         }
 
         var localizedLanguages = new[] { "esES", "esMX", "deDE", "frFR", "ruRU", "zhCN", "koKR", "zhTW" };
         foreach(var language in localizedLanguages)
         {
-            sb.Insert(0, $"if GetLocale() == \"{language}\" then\n");
-            sb.AppendLine("end");
+            var fileText = $"if GetLocale() == \"{language}\" then\n";
+            fileText += sb.ToString();
+            fileText += "end";
 
-            System.IO.File.WriteAllText(@$"..\..\..\..\LoonBestInSlot\Localization\localization.{language}.lua", sb.ToString());
+            System.IO.File.WriteAllText(@$"..\..\..\..\LoonBestInSlot\Localization\localization.{language}.lua", fileText);
         }
-
     }
 
     private static HashSet<string> RecursivelySearch(DirectoryInfo di)
