@@ -360,7 +360,7 @@ LBIS.ItemSources =
     [27917] = { Name = "Libram of the Eternal Rest", SourceType = LBIS.L["Drop"], Source = LBIS.L["Darkweaver Syth"], SourceNumber = "", SourceLocation = LBIS.L["Sethekk Halls"] },
     [27918] = { Name = "Bands of Syth", SourceType = LBIS.L["Drop"], Source = LBIS.L["Darkweaver Syth"], SourceNumber = "", SourceLocation = LBIS.L["Sethekk Halls"] },
     [27922] = { Name = "Mark of Defiance", SourceType = LBIS.L["PvP"], Source = LBIS.L["Marks of Honor Hold"], SourceNumber = "30", SourceLocation = "" },
-    [27924] = { Name = "Mark of Defiance", SourceType = LBIS.L["PvP"], Source = LBIS.L["Mark of Thrallmar"], SourceNumber = "30", SourceLocation = "" },
+    [27924] = { Name = "Mark of Defiance", SourceType = LBIS.L["PvP"], Source = LBIS.L["Marks of Thrallmar"], SourceNumber = "30", SourceLocation = "" },
     [27925] = { Name = "Ravenclaw Band", SourceType = LBIS.L["Drop"], Source = LBIS.L["Talon King Ikiss"], SourceNumber = "", SourceLocation = LBIS.L["Sethekk Halls"] },
     [27937] = { Name = "Sky Breaker", SourceType = LBIS.L["Drop"], Source = LBIS.L["Avatar of the Martyred"], SourceNumber = "", SourceLocation = LBIS.L["Auchenai Crypts (Heroic)"] },
     [27946] = { Name = "Avian Cloak of Feathers", SourceType = LBIS.L["Drop"], Source = LBIS.L["Talon King Ikiss"], SourceNumber = "", SourceLocation = LBIS.L["Sethekk Halls"] },
