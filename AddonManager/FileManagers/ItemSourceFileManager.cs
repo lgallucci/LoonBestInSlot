@@ -50,7 +50,7 @@ public class ItemSourceFileManager
             itemSourceSB.AppendLine($"    [{source.Key}] = {{ " +
                 $"Name = \"{source.Value.Name}\", " +
                 $"SourceType = LBIS.L[\"{source.Value.SourceType}\"], " +
-                $"Source = \"{source.Value.Source}\", " +
+                $"Source = LBIS.L[\"{source.Value.Source}\"], " +
                 $"SourceLocation = LBIS.L[\"{source.Value.SourceLocation}\"] }},");
         }
         itemSourceSB.AppendLine("}");

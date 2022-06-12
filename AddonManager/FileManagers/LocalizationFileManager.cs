@@ -25,8 +25,10 @@ public static class LocalizationFileManager
         var di = new System.IO.DirectoryInfo(@$"..\..\..\..\LoonBestInSlot\");
 
         var localizations = RecursivelySearch(di);
+        var localList = localizations.ToList();
+        localList.Sort();
         StringBuilder sb = new StringBuilder();
-        foreach (var localization in localizations)
+        foreach (var localization in localList)
         {
             sb.AppendLine($"--  LBIS.L[\"{localization}\"] = ");
         }
