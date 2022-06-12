@@ -12,7 +12,7 @@ public class ItemSourceFileManager
 
         foreach (var itemSource in itemSources)
         {
-            if (itemSource == "LoonBestInSlot.ItemSources =" ||
+            if (itemSource == "LBIS.ItemSources =" ||
                 itemSource == "{" ||
                 itemSource == "}"||
                 itemSource == String.Empty ||
@@ -43,15 +43,15 @@ public class ItemSourceFileManager
     {
         StringBuilder itemSourceSB = new StringBuilder();
 
-        itemSourceSB.AppendLine("LoonBestInSlot.ItemSources =");
+        itemSourceSB.AppendLine("LBIS.ItemSources =");
         itemSourceSB.AppendLine("{");
         foreach(var source in sources)
         {
             itemSourceSB.AppendLine($"    [{source.Key}] = {{ " +
                 $"Name = \"{source.Value.Name}\", " +
-                $"SourceType = L[\"{source.Value.SourceType}\"], " +
-                $"Source = L[\"{source.Value.Source}\"], " +
-                $"SourceLocation = L[\"{source.Value.SourceLocation}\"] }},");
+                $"SourceType = LBIS.L[\"{source.Value.SourceType}\"], " +
+                $"Source = \"{source.Value.Source}\", " +
+                $"SourceLocation = LBIS.L[\"{source.Value.SourceLocation}\"] }},");
         }
         itemSourceSB.AppendLine("}");
         System.IO.File.WriteAllText(Constants.AddonPath + "ItemSources.lua", itemSourceSB.ToString());

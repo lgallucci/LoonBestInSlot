@@ -1,4 +1,7 @@
-local addonName, L = ...; -- Let's use the private table passed to every .lua file to store our locale
+LBIS = {}
+LBIS.L = {};
+local L = LBIS.L;
+
 local function defaultFunc(L, key)
  -- If this function was called, we have no localization for this key.
  -- We could complain loudly to allow localizers to see the error of their ways, 
@@ -7,3 +10,16 @@ local function defaultFunc(L, key)
  return key;
 end
 setmetatable(L, {__index=defaultFunc});
+
+local CLASS_NAMES = {};
+FillLocalizedClassList(CLASS_NAMES)
+L["Druid"] = CLASS_NAMES.DRUID;
+L["Hunter"] = CLASS_NAMES.HUNTER;
+L["Mage"] = CLASS_NAMES.MAGE;
+L["Paladin"] = CLASS_NAMES.PALADIN;
+L["Priest"] = CLASS_NAMES.PRIEST;
+L["Rogue"] = CLASS_NAMES.ROGUE;
+L["Shaman"] = CLASS_NAMES.SHAMAN;
+L["Warlock"] = CLASS_NAMES.WARLOCK;
+L["Warrior"] = CLASS_NAMES.WARRIOR;
+L["Death Knight"] = CLASS_NAMES.DEATHKNIGHT;

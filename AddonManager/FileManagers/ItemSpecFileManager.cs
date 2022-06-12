@@ -10,9 +10,9 @@ public class ItemSpecFileManager
 
         var phaseNumber = Int32.Parse(phaseText.Replace("Phase", ""));
 
-        itemSB.AppendLine($"local spec = LoonBestInSlot:RegisterSpec(L[\"{className}\"], L[\"{specName}\"], \"{phaseNumber}\")");
+        itemSB.AppendLine($"local spec = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"{phaseNumber}\")");
 
-        var previousSlot = "L[\"Head\"]";
+        var previousSlot = "LBIS.L[\"Head\"]";
         foreach (var item in items)
         {
             if (previousSlot != item.Value.Slot)
@@ -20,7 +20,7 @@ public class ItemSpecFileManager
                 previousSlot = item.Value.Slot;
                 itemSB.AppendLine();
             }
-            itemSB.AppendLine($"LoonBestInSlot:AddItem(spec, \"{item.Value.ItemId}\", L[\"{item.Value.Slot}\"], \"{item.Value.BisStatus}\") --{item.Value.Name}");
+            itemSB.AppendLine($"LBIS:AddItem(spec, \"{item.Value.ItemId}\", LBIS.L[\"{item.Value.Slot}\"], \"{item.Value.BisStatus}\") --{item.Value.Name}");
         }
                 
         System.IO.File.WriteAllText(path, itemSB.ToString());
@@ -34,13 +34,13 @@ public class ItemSpecFileManager
 
         foreach (var itemSpecLine in itemSpecLines)
         {
-            if (itemSpecLine.Contains("local spec = LoonBestInSlot:RegisterSpec("))
+            if (itemSpecLine.Contains("local spec = LBIS:RegisterSpec("))
             {
                 continue;
             }
-            if (itemSpecLine.Contains("LoonBestInSlot:AddItem(spec,"))
+            if (itemSpecLine.Contains("LBIS:AddItem(spec,"))
             {
-                var itemSplit = itemSpecLine.Remove(itemSpecLine.Length - 1).Replace("LoonBestInSlot:AddItem(spec,", "").Trim().Split('"');
+                var itemSplit = itemSpecLine.Remove(itemSpecLine.Length - 1).Replace("LBIS:AddItem(spec,", "").Trim().Split('"');
 
                 var itemId = Int32.Parse(itemSplit[1]);
                 items.Add(itemId, new ItemSpec

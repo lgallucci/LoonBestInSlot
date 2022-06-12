@@ -265,4 +265,9 @@ public partial class WowheadReader : Window
 
         new ItemSourceFileManager().WriteItemSources(itemSources);
     }
+
+    private void Localize_Click(object sender, RoutedEventArgs e)
+    {
+        LocalizationFileManager.WriteLocalizationFiles();
+    }
 }

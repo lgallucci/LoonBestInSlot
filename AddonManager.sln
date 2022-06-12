@@ -237,8 +237,15 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Localization", "Localization", "{248C145B-5864-4FE2-80B1-42D3565F2193}"
 	ProjectSection(SolutionItems) = preProject
 		LoonBestInSlot\Localization\localization.core.lua = LoonBestInSlot\Localization\localization.core.lua
-		LoonBestInSlot\Localization\localization.es.lua = LoonBestInSlot\Localization\localization.es.lua
+		LoonBestInSlot\Localization\localization.deDE.lua = LoonBestInSlot\Localization\localization.deDE.lua
+		LoonBestInSlot\Localization\localization.esES.lua = LoonBestInSlot\Localization\localization.esES.lua
+		LoonBestInSlot\Localization\localization.esMX.lua = LoonBestInSlot\Localization\localization.esMX.lua
+		LoonBestInSlot\Localization\localization.frFR.lua = LoonBestInSlot\Localization\localization.frFR.lua
+		LoonBestInSlot\Localization\localization.koKR.lua = LoonBestInSlot\Localization\localization.koKR.lua
+		LoonBestInSlot\Localization\localization.ruRU.lua = LoonBestInSlot\Localization\localization.ruRU.lua
 		LoonBestInSlot\Localization\Localization.xml = LoonBestInSlot\Localization\Localization.xml
+		LoonBestInSlot\Localization\localization.zhCN.lua = LoonBestInSlot\Localization\localization.zhCN.lua
+		LoonBestInSlot\Localization\localization.zhTW.lua = LoonBestInSlot\Localization\localization.zhTW.lua
 	EndProjectSection
 EndProject
 Global
