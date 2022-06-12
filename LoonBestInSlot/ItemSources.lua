@@ -1404,7 +1404,7 @@ LBIS.ItemSources =
     [31101] = { Name = "Pauldrons of the Forgotten Conqueror", SourceType = LBIS.L["Token"], Source = LBIS.L["Mother Shahraz"], SourceLocation = LBIS.L["Black Temple"] },
     [31102] = { Name = "Pauldrons of the Forgotten Vanquisher", SourceType = LBIS.L["Token"], Source = LBIS.L["Mother Shahraz"], SourceLocation = LBIS.L["Black Temple"] },
     [31103] = { Name = "Pauldrons of the Forgotten Protector", SourceType = LBIS.L["Token"], Source = LBIS.L["Mother Shahraz"], SourceLocation = LBIS.L["Black Temple"] },
-    [31104] = { Name = "Evoker's Helmet of Second Sight", SourceType = LBIS.L["Quest"], Source = LBIS.L[" Teron Gorefiend,I am..."], SourceLocation = LBIS.L["Shadowmoon Valley"] },
+    [31104] = { Name = "Evoker's Helmet of Second Sight", SourceType = LBIS.L["Quest"], Source = LBIS.L["Teron Gorefiend,I am..."], SourceLocation = LBIS.L["Shadowmoon Valley"] },
     [31105] = { Name = "Overlord's Helmet of Second Sight", SourceType = LBIS.L["Quest"], Source = LBIS.L["Teron Gorefiend,I am..."], SourceLocation = LBIS.L["Shadowmoon Valley"] },
     [31106] = { Name = "Stalker's Helmet of Second Sight", SourceType = LBIS.L["Quest"], Source = LBIS.L["Teron Gorefiend,I am..."], SourceLocation = LBIS.L["Shadowmoon Valley"] },
     [31107] = { Name = "Shamanistic Helmet of Second Sight", SourceType = LBIS.L["Quest"], Source = LBIS.L["Teron Gorefiend,I am..."], SourceLocation = LBIS.L["Shadowmoon Valley"] },
