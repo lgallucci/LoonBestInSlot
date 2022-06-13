@@ -190,6 +190,37 @@ public static class LocalizationFileManager
                 localizations.Add(localizedString.Trim('\"'), translation);
         }
 
+        //Search in LibBabbleFaction
+        alcPath = $@"E:\Blizzard\World of Warcraft\_classic_\Interface\Addons\Atlas\Libs\LibBabble-Faction-3.0\LibBabble-Faction-3.0.lua";
+        itemSources = System.IO.File.ReadAllLines(alcPath);
+        foundStart = false;
+        foreach (var line in itemSources)
+        {
+            if (!foundStart && !line.StartsWith("elseif"))
+                continue;
+
+            if (foundStart && line.StartsWith("elseif"))
+                break;
+
+            if (line.StartsWith("elseif") && line.Contains(language))
+                foundStart = true;
+
+            if (!foundStart || !line.StartsWith("	["))
+                continue;
+
+            var localizedString = string.Empty;
+            var position = 2;
+            while (position <= line.Length && line[position] != ']')
+            {
+                localizedString += line[position];
+                position++;
+            }
+
+            var translation = line.Split("=")[1].Trim().Trim(',').Trim('\"');
+            if (!localizations.ContainsKey(localizedString.Trim('\"')))
+                localizations.Add(localizedString.Trim('\"'), translation);
+        }
+
         return localizations;
     }
 

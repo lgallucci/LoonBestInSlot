@@ -153,7 +153,7 @@ if GetLocale() == "esES" then
   LBIS.L["Flamegor"] = "Flamagor";
 --  LBIS.L["Forge Camp: Annihilated"] = "";
 --  LBIS.L["Four Horsemen"] = "";
---  LBIS.L["Friendly"] = "";
+  LBIS.L["Friendly"] = "Amistoso";
   LBIS.L["Frost"] = "Escarcha";
 --  LBIS.L["Frostfire Circlet"] = "";
 --  LBIS.L["Frostfire Robe"] = "";
@@ -230,12 +230,12 @@ if GetLocale() == "esES" then
   LBIS.L["Kalecgos / Eredar Twins"] = "Kalecgos / Gemelos Eredar";
   LBIS.L["Karazhan"] = "Karazhan";
   LBIS.L["Kaz'rogal"] = "Kaz'rogal";
---  LBIS.L["Keepers of Time"] = "";
+  LBIS.L["Keepers of Time"] = "Vigilantes del Tiempo";
   LBIS.L["Kel'Thuzad"] = "Kel'Thuzad";
   LBIS.L["Keli'dan the Breaker"] = "Keli'dan el Ultrajador";
   LBIS.L["Kil'Jaeden"] = "Kil'Jaeden";
   LBIS.L["Kil'Jaeden - Sunwell Plateau"] = "Kil'Jaeden - Meseta de La Fuente del Sol";
---  LBIS.L["Kurenai"] = "";
+  LBIS.L["Kurenai"] = "Kurenai";
   LBIS.L["Lady Vashj"] = "Lady Vashj";
   LBIS.L["Laj"] = "Laj";
   LBIS.L["Leatherworking"] = "Peletería";

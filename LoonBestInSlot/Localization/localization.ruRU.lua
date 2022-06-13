@@ -31,7 +31,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Arena Points"] = "";
 --  LBIS.L["Arena Vendor"] = "";
 --  LBIS.L["Arms"] = "";
---  LBIS.L["Ashtongue Deathsworn"] = "";
+  LBIS.L["Ashtongue Deathsworn"] = "Пеплоусты-служители";
 --  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "";
   LBIS.L["Attumen the Huntsman"] = "Ловчий Аттумен";
   LBIS.L["Auchenai Crypts"] = "Аукенайские гробницы";
@@ -77,8 +77,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["Captain Skarloc"] = "Капитан Скарлок";
 --  LBIS.L["Cat"] = "";
   LBIS.L["Caverns of Time"] = "Пещеры Времени";
---  LBIS.L["Cenarion Circle"] = "";
---  LBIS.L["Cenarion Expedition"] = "";
+  LBIS.L["Cenarion Circle"] = "Круг Кенария";
+  LBIS.L["Cenarion Expedition"] = "Кенарийская экспедиция";
   LBIS.L["Chess Event"] = "Шахматный турнир";
 --  LBIS.L["Chest"] = "";
 --  LBIS.L["Cho'war the Pillager"] = "";
@@ -140,7 +140,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Escaping the Tomb"] = "";
   LBIS.L["Essence of Anger"] = "Воплощение гнева";
 --  LBIS.L["Everything Will Be Alright"] = "";
---  LBIS.L["Exalted"] = "";
+  LBIS.L["Exalted"] = "Превознесение";
   LBIS.L["Exarch Maladaar"] = "Экзарх Маладаар";
 --  LBIS.L["Fankriss"] = "";
   LBIS.L["Fathom-Lord Karathress"] = "Повелитель глубин Каратресс";
@@ -153,7 +153,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Flamegor"] = "Пламегор";
 --  LBIS.L["Forge Camp: Annihilated"] = "";
 --  LBIS.L["Four Horsemen"] = "";
---  LBIS.L["Friendly"] = "";
+  LBIS.L["Friendly"] = "Дружелюбие";
 --  LBIS.L["Frost"] = "";
 --  LBIS.L["Frostfire Circlet"] = "";
 --  LBIS.L["Frostfire Robe"] = "";
@@ -206,7 +206,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Honor, Arathi Basin Marks"] = "";
 --  LBIS.L["Honor, Eye of the Storm Marks"] = "";
 --  LBIS.L["Honor, Warsong Gulch Marks"] = "";
---  LBIS.L["Honored"] = "";
+  LBIS.L["Honored"] = "Уважение";
 --  LBIS.L["How to Break Into the Arcatraz"] = "";
 --  LBIS.L["Huhuran"] = "";
   LBIS.L["Hungarfen"] = "Топеглад";
@@ -230,12 +230,12 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Kalecgos / Eredar Twins"] = "";
   LBIS.L["Karazhan"] = "Каражан";
   LBIS.L["Kaz'rogal"] = "Каз'рогал";
---  LBIS.L["Keepers of Time"] = "";
+  LBIS.L["Keepers of Time"] = "Хранители Времени";
   LBIS.L["Kel'Thuzad"] = "Кел'Тузад";
   LBIS.L["Keli'dan the Breaker"] = "Кели'дан Разрушитель";
 --  LBIS.L["Kil'Jaeden"] = "";
 --  LBIS.L["Kil'Jaeden - Sunwell Plateau"] = "";
---  LBIS.L["Kurenai"] = "";
+  LBIS.L["Kurenai"] = "Куренай";
   LBIS.L["Lady Vashj"] = "Леди Вайш";
   LBIS.L["Laj"] = "Ладж";
 --  LBIS.L["Leatherworking"] = "";
@@ -338,7 +338,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Resto"] = "";
 --  LBIS.L["Ret"] = "";
 --  LBIS.L["Return to Andormu"] = "";
---  LBIS.L["Revered"] = "";
+  LBIS.L["Revered"] = "Почтение";
 --  LBIS.L["Rexxar,Blade's Edge Mountains"] = "";
 --  LBIS.L["Ring"] = "";
 --  LBIS.L["Rise, Thunderfury!"] = "";
@@ -363,7 +363,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Shared"] = "";
 --  LBIS.L["Shartuul"] = "";
 --  LBIS.L["Shattered Halls (Herioc)"] = "";
---  LBIS.L["Shattered Sun Offensive"] = "";
+  LBIS.L["Shattered Sun Offensive"] = "Армия Расколотого Солнца";
   LBIS.L["Shattrath City"] = "Шаттрат";
 --  LBIS.L["Shield"] = "";
   LBIS.L["Shirrak the Dead Watcher"] = "Ширрак Страж Мертвых";
@@ -405,7 +405,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Teron Gorefiend"] = "Терон Кровожад";
 --  LBIS.L["Teron Gorefiend,I am..."] = "";
   LBIS.L["Thaddius"] = "Таддиус";
---  LBIS.L["The Aldor"] = "";
+  LBIS.L["The Aldor"] = "Алдоры";
 --  LBIS.L["The Aldor/Scryers"] = "";
   LBIS.L["The Arcatraz"] = "Аркатрац";
 --  LBIS.L["The Arcatraz (Heroic)"] = "";
@@ -419,7 +419,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["The Cipher of Damnation"] = "";
 --  LBIS.L["The Cipher of Damnation - The First Fragment Recovered"] = "";
 --  LBIS.L["The Cipher of Damnation - The Third Fragment Recovered"] = "";
---  LBIS.L["The Consortium"] = "";
+  LBIS.L["The Consortium"] = "Консорциум";
   LBIS.L["The Curator"] = "Смотритель";
 --  LBIS.L["The Fallen Exarch"] = "";
 --  LBIS.L["The Flesh Lies..."] = "";
@@ -427,7 +427,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["The Hound-Master"] = "";
   LBIS.L["The Illidari Council"] = "Совет иллидари";
   LBIS.L["The Lurker Below"] = "Скрытень из глубин";
---  LBIS.L["The Mag'har"] = "";
+  LBIS.L["The Mag'har"] = "Маг'хары";
   LBIS.L["The Maker"] = "Мастер";
   LBIS.L["The Mechanar"] = "Механар";
 --  LBIS.L["The Mechanar (Heroic)"] = "";
@@ -435,9 +435,9 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["The Opening of the Dark Portal"] = "";
 --  LBIS.L["The Ring of Blood: The Final Challenge"] = "";
 --  LBIS.L["The Savior of Kalimdor"] = "";
---  LBIS.L["The Scale of the Sands"] = "";
---  LBIS.L["The Scryers"] = "";
---  LBIS.L["The Sha'tar"] = "";
+  LBIS.L["The Scale of the Sands"] = "Песчаная Чешуя";
+  LBIS.L["The Scryers"] = "Провидцы";
+  LBIS.L["The Sha'tar"] = "Ша'тар";
   LBIS.L["The Shattered Halls"] = "Разрушенные залы";
 --  LBIS.L["The Shattered Halls (Heroic)"] = "";
 --  LBIS.L["The Sigil of Krasus"] = "";
@@ -452,7 +452,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["The Ultimate Bloodsport"] = "";
   LBIS.L["The Underbog"] = "Нижетопь";
 --  LBIS.L["The Underbog (Heroic)"] = "";
---  LBIS.L["The Violet Eye"] = "";
+  LBIS.L["The Violet Eye"] = "Аметистовое Око";
 --  LBIS.L["The Warlord's Hideout"] = "";
 --  LBIS.L["The Will of the Warchief"] = "";
   LBIS.L["Thorngrin the Tender"] = "Скалезуб Скорбный";

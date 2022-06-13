@@ -31,7 +31,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Arena Points"] = "";
 --  LBIS.L["Arena Vendor"] = "";
 --  LBIS.L["Arms"] = "";
---  LBIS.L["Ashtongue Deathsworn"] = "";
+  LBIS.L["Ashtongue Deathsworn"] = "灰舌死誓者";
 --  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "";
   LBIS.L["Attumen the Huntsman"] = "猎手阿图门";
   LBIS.L["Auchenai Crypts"] = "奥金尼地穴";
@@ -77,8 +77,8 @@ if GetLocale() == "zhCN" then
   LBIS.L["Captain Skarloc"] = "斯卡洛克上尉";
 --  LBIS.L["Cat"] = "";
   LBIS.L["Caverns of Time"] = "时光之穴";
---  LBIS.L["Cenarion Circle"] = "";
---  LBIS.L["Cenarion Expedition"] = "";
+  LBIS.L["Cenarion Circle"] = "塞纳里奥议会";
+  LBIS.L["Cenarion Expedition"] = "塞纳里奥远征队";
   LBIS.L["Chess Event"] = "国际象棋赛事";
 --  LBIS.L["Chest"] = "";
 --  LBIS.L["Cho'war the Pillager"] = "";
@@ -140,7 +140,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Escaping the Tomb"] = "";
   LBIS.L["Essence of Anger"] = "愤怒精华";
 --  LBIS.L["Everything Will Be Alright"] = "";
---  LBIS.L["Exalted"] = "";
+  LBIS.L["Exalted"] = "崇拜";
   LBIS.L["Exarch Maladaar"] = "大主教玛拉达尔";
 --  LBIS.L["Fankriss"] = "";
   LBIS.L["Fathom-Lord Karathress"] = "深水领主卡拉瑟雷斯";
@@ -153,7 +153,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Flamegor"] = "弗莱格尔";
 --  LBIS.L["Forge Camp: Annihilated"] = "";
 --  LBIS.L["Four Horsemen"] = "";
---  LBIS.L["Friendly"] = "";
+  LBIS.L["Friendly"] = "友善";
 --  LBIS.L["Frost"] = "";
 --  LBIS.L["Frostfire Circlet"] = "";
 --  LBIS.L["Frostfire Robe"] = "";
@@ -206,7 +206,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Honor, Arathi Basin Marks"] = "";
 --  LBIS.L["Honor, Eye of the Storm Marks"] = "";
 --  LBIS.L["Honor, Warsong Gulch Marks"] = "";
---  LBIS.L["Honored"] = "";
+  LBIS.L["Honored"] = "尊敬";
 --  LBIS.L["How to Break Into the Arcatraz"] = "";
 --  LBIS.L["Huhuran"] = "";
   LBIS.L["Hungarfen"] = "霍加尔芬";
@@ -230,12 +230,12 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Kalecgos / Eredar Twins"] = "";
   LBIS.L["Karazhan"] = "卡拉赞";
   LBIS.L["Kaz'rogal"] = "卡兹洛加";
---  LBIS.L["Keepers of Time"] = "";
+  LBIS.L["Keepers of Time"] = "时光守护者";
   LBIS.L["Kel'Thuzad"] = "克尔苏加德";
   LBIS.L["Keli'dan the Breaker"] = "击碎者克里丹";
 --  LBIS.L["Kil'Jaeden"] = "";
 --  LBIS.L["Kil'Jaeden - Sunwell Plateau"] = "";
---  LBIS.L["Kurenai"] = "";
+  LBIS.L["Kurenai"] = "库雷尼";
   LBIS.L["Lady Vashj"] = "瓦丝琪";
   LBIS.L["Laj"] = "拉伊";
 --  LBIS.L["Leatherworking"] = "";
@@ -338,7 +338,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Resto"] = "";
 --  LBIS.L["Ret"] = "";
 --  LBIS.L["Return to Andormu"] = "";
---  LBIS.L["Revered"] = "";
+  LBIS.L["Revered"] = "崇敬";
 --  LBIS.L["Rexxar,Blade's Edge Mountains"] = "";
 --  LBIS.L["Ring"] = "";
 --  LBIS.L["Rise, Thunderfury!"] = "";
@@ -363,7 +363,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Shared"] = "";
 --  LBIS.L["Shartuul"] = "";
 --  LBIS.L["Shattered Halls (Herioc)"] = "";
---  LBIS.L["Shattered Sun Offensive"] = "";
+  LBIS.L["Shattered Sun Offensive"] = "破碎残阳";
   LBIS.L["Shattrath City"] = "沙塔斯城";
 --  LBIS.L["Shield"] = "";
   LBIS.L["Shirrak the Dead Watcher"] = "死亡观察者希尔拉克";
@@ -405,7 +405,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Teron Gorefiend"] = "塔隆·血魔";
 --  LBIS.L["Teron Gorefiend,I am..."] = "";
   LBIS.L["Thaddius"] = "塔迪乌斯";
---  LBIS.L["The Aldor"] = "";
+  LBIS.L["The Aldor"] = "奥尔多";
 --  LBIS.L["The Aldor/Scryers"] = "";
   LBIS.L["The Arcatraz"] = "禁魔监狱";
 --  LBIS.L["The Arcatraz (Heroic)"] = "";
@@ -419,7 +419,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["The Cipher of Damnation"] = "";
 --  LBIS.L["The Cipher of Damnation - The First Fragment Recovered"] = "";
 --  LBIS.L["The Cipher of Damnation - The Third Fragment Recovered"] = "";
---  LBIS.L["The Consortium"] = "";
+  LBIS.L["The Consortium"] = "星界财团";
   LBIS.L["The Curator"] = "馆长";
 --  LBIS.L["The Fallen Exarch"] = "";
 --  LBIS.L["The Flesh Lies..."] = "";
@@ -427,7 +427,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["The Hound-Master"] = "";
   LBIS.L["The Illidari Council"] = "伊利达雷议会";
   LBIS.L["The Lurker Below"] = "鱼斯拉";
---  LBIS.L["The Mag'har"] = "";
+  LBIS.L["The Mag'har"] = "玛格汉";
   LBIS.L["The Maker"] = "制造者";
   LBIS.L["The Mechanar"] = "能源舰";
 --  LBIS.L["The Mechanar (Heroic)"] = "";
@@ -435,9 +435,9 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["The Opening of the Dark Portal"] = "";
 --  LBIS.L["The Ring of Blood: The Final Challenge"] = "";
 --  LBIS.L["The Savior of Kalimdor"] = "";
---  LBIS.L["The Scale of the Sands"] = "";
---  LBIS.L["The Scryers"] = "";
---  LBIS.L["The Sha'tar"] = "";
+  LBIS.L["The Scale of the Sands"] = "流沙之鳞";
+  LBIS.L["The Scryers"] = "占星者";
+  LBIS.L["The Sha'tar"] = "沙塔尔";
   LBIS.L["The Shattered Halls"] = "破碎大厅";
 --  LBIS.L["The Shattered Halls (Heroic)"] = "";
 --  LBIS.L["The Sigil of Krasus"] = "";
@@ -452,7 +452,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["The Ultimate Bloodsport"] = "";
   LBIS.L["The Underbog"] = "幽暗沼泽";
 --  LBIS.L["The Underbog (Heroic)"] = "";
---  LBIS.L["The Violet Eye"] = "";
+  LBIS.L["The Violet Eye"] = "紫罗兰之眼";
 --  LBIS.L["The Warlord's Hideout"] = "";
 --  LBIS.L["The Will of the Warchief"] = "";
   LBIS.L["Thorngrin the Tender"] = "看管者索恩格林";
