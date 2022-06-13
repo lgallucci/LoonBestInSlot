@@ -121,9 +121,9 @@ local function IsInPhase(specItem, specItemSource)
 end
 
 local function IsInSource(specItem)
-    if LBISSettings.SelectedSource == LBIS.L["All"] then
+    if LBISSettings.SelectedSourceType == LBIS.L["All"] then
         return true;
-    elseif LBISSettings.SelectedSource == specItem.SourceType then
+    elseif LBISSettings.SelectedSourceType == specItem.SourceType then
         return true;
     end
     return false;
@@ -139,18 +139,8 @@ local function IsInZone(specItem)
 end
 
 local function IsNotInClassic(specItem)
-    if specItem.SourceLocation == LBIS.L["Molten Core"] then
-        return false;
-    elseif specItem.SourceLocation == LBIS.L["Blackwing Lair"] then
-        return false;
-     elseif specItem.SourceLocation == LBIS.L["Zul'Gurub"] then
-        return false;
-    elseif specItem.SourceLocation == LBIS.L["Ruins of Ahn'Qiraj"] then
-        return false;
-    elseif specItem.SourceLocation == LBIS.L["Temple of Ahn'Qiraj"] then
-        return false;
-    elseif specItem.SourceLocation == LBIS.L["Naxxramas"] then
-        return false;
+    if specItem.SelectedSourceType == LBIS.L["Classic"] then
+        return false
     end
     return true;
 end
@@ -590,9 +580,9 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
         ['parent']=window,
         ['title']='Source:',
         ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Dungeon Token"], LBIS.L["Quest"], LBIS.L["PvP"], LBIS.L["Transmute"] },
-        ['defaultVal']= LBISSettings.SelectedSource,
+        ['defaultVal']= LBISSettings.SelectedSourceType,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
-            LBISSettings.SelectedSource = dropdown_val;
+            LBISSettings.SelectedSourceType = dropdown_val;
             LBIS.BrowserWindow:UpdateItemsForSpec();
         end
     }
