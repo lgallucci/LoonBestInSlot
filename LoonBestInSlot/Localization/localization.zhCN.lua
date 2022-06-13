@@ -13,7 +13,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Akama's Promise"] = "";
   LBIS.L["Akil'zon"] = "埃基尔松";
   LBIS.L["Al'ar"] = "奥";
---  LBIS.L["Alchemy"] = "";
+  LBIS.L["Alchemy"] = "炼金术";
 --  LBIS.L["Aldor No More"] = "";
 --  LBIS.L["All"] = "";
 --  LBIS.L["Ally of the Netherwing"] = "";
@@ -40,7 +40,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Avatar of the Martyred"] = "殉难者的化身";
   LBIS.L["Azgalor"] = "阿兹加洛";
   LBIS.L["Azuregos"] = "艾索雷葛斯";
---  LBIS.L["Back"] = "";
+  LBIS.L["Back"] = "背部";
 --  LBIS.L["Back to the Chief!"] = "";
 --  LBIS.L["Badges of Justice"] = "";
 --  LBIS.L["Bag of Fishing Treasures"] = "";
@@ -56,7 +56,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Black Temple"] = "黑暗神殿";
 --  LBIS.L["Black Temple / Hyjal Summit"] = "";
   LBIS.L["Blackheart the Inciter"] = "煽动者布莱卡特";
---  LBIS.L["Blacksmithing"] = "";
+  LBIS.L["Blacksmithing"] = "锻造";
   LBIS.L["Blackwing Lair"] = "黑翼之巢";
   LBIS.L["Blade's Edge Mountains"] = "刀锋山";
 --  LBIS.L["Blast the Infernals!"] = "";
@@ -80,7 +80,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Cenarion Circle"] = "塞纳里奥议会";
   LBIS.L["Cenarion Expedition"] = "塞纳里奥远征队";
   LBIS.L["Chess Event"] = "国际象棋赛事";
---  LBIS.L["Chest"] = "";
+  LBIS.L["Chest"] = "胸部";
 --  LBIS.L["Cho'war the Pillager"] = "";
   LBIS.L["Chromaggus"] = "克洛玛古斯";
   LBIS.L["Chrono Lord Deja"] = "时空领主德亚";
@@ -127,9 +127,9 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Drop"] = "";
 --  LBIS.L["Dungeon Token"] = "";
   LBIS.L["Ebonroc"] = "埃博诺克";
---  LBIS.L["Elemental"] = "";
+  LBIS.L["Elemental"] = "元素";
 --  LBIS.L["Elemental Leatherworking"] = "";
---  LBIS.L["Engineering"] = "";
+  LBIS.L["Engineering"] = "工程学";
 --  LBIS.L["Enhance"] = "";
 --  LBIS.L["Enraged Spirits of Air"] = "";
   LBIS.L["Epoch Hunter"] = "时空猎手";
@@ -144,7 +144,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Exarch Maladaar"] = "大主教玛拉达尔";
 --  LBIS.L["Fankriss"] = "";
   LBIS.L["Fathom-Lord Karathress"] = "深水领主卡拉瑟雷斯";
---  LBIS.L["Feet"] = "";
+  LBIS.L["Feet"] = "脚";
 --  LBIS.L["Fel Embers"] = "";
   LBIS.L["Felmyst"] = "菲米丝";
 --  LBIS.L["Felmyst - Sunwell Plateau"] = "";
@@ -185,7 +185,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Halazzi"] = "哈尔拉兹";
 --  LBIS.L["Hallows Eve"] = "";
   LBIS.L["Harbinger Skyriss"] = "预言者斯克瑞斯";
---  LBIS.L["Head"] = "";
+  LBIS.L["Head"] = "头部";
   LBIS.L["Headless Horseman"] = "无头骑士";
 --  LBIS.L["Heigan"] = "";
   LBIS.L["Hellfire Peninsula"] = "地狱火半岛";
@@ -213,7 +213,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Hydromancer Thespia"] = "水术师瑟丝比娅";
   LBIS.L["Hydross the Unstable"] = "不稳定的海度斯";
   LBIS.L["Hyjal Summit"] = "海加尔峰";
---  LBIS.L["Idol"] = "";
+  LBIS.L["Idol"] = "神像";
   LBIS.L["Illidan Stormrage"] = "伊利丹·怒风";
 --  LBIS.L["Imperial Qiraji Armaments"] = "";
 --  LBIS.L["Information Gathering"] = "";
@@ -223,7 +223,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["It's a Fel Reaver,But with Heart"] = "";
   LBIS.L["Jan'alai"] = "加亚莱";
   LBIS.L["Jed Runewatcher"] = "杰德";
---  LBIS.L["Jewelcrafting"] = "";
+  LBIS.L["Jewelcrafting"] = "珠宝加工";
   LBIS.L["Kael'thas Sunstrider"] = "凯尔萨斯·逐日者";
   LBIS.L["Kalecgos"] = "卡雷苟斯";
 --  LBIS.L["Kalecgos - Sunwell Plateau"] = "";
@@ -238,12 +238,12 @@ if GetLocale() == "zhCN" then
   LBIS.L["Kurenai"] = "库雷尼";
   LBIS.L["Lady Vashj"] = "瓦丝琪";
   LBIS.L["Laj"] = "拉伊";
---  LBIS.L["Leatherworking"] = "";
+  LBIS.L["Leatherworking"] = "制皮";
 --  LBIS.L["Leggings of Faith"] = "";
---  LBIS.L["Legs"] = "";
+  LBIS.L["Legs"] = "腿部";
   LBIS.L["Leotheras the Blind"] = "盲眼者莱欧瑟拉斯";
 --  LBIS.L["Levixus the Soul Caller"] = "";
---  LBIS.L["Libram"] = "";
+  LBIS.L["Libram"] = "圣契";
   LBIS.L["Lieutenant Drake"] = "德拉克中尉";
   LBIS.L["Loatheb"] = "洛欧塞布";
 --  LBIS.L["Loon Best In Slot"] = "";
@@ -285,7 +285,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Nalorakk"] = "纳洛拉克";
 --  LBIS.L["Natural Remedies"] = "";
   LBIS.L["Naxxramas"] = "纳克萨玛斯";
---  LBIS.L["Neck"] = "";
+  LBIS.L["Neck"] = "颈部";
   LBIS.L["Nefarian"] = "奈法利安";
   LBIS.L["Nethermancer Sepethrea"] = "灵术师塞比瑟蕾";
 --  LBIS.L["Nethermancer Sepethrea and Pathaleon the Calculator"] = "";
@@ -327,10 +327,10 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["PvP Vendor"] = "";
   LBIS.L["Quagmirran"] = "夸格米拉";
 --  LBIS.L["Quenching the Blade"] = "";
---  LBIS.L["Quest"] = "";
+  LBIS.L["Quest"] = "任务";
   LBIS.L["Rage Winterchill"] = "雷基·冬寒";
   LBIS.L["Ragnaros"] = "拉格纳罗斯";
---  LBIS.L["Ranged"] = "";
+  LBIS.L["Ranged"] = "远程";
 --  LBIS.L["Razorgore"] = "";
 --  LBIS.L["Razuvious"] = "";
 --  LBIS.L["Reinforced Fel Iron Chest"] = "";
@@ -340,7 +340,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Return to Andormu"] = "";
   LBIS.L["Revered"] = "崇敬";
 --  LBIS.L["Rexxar,Blade's Edge Mountains"] = "";
---  LBIS.L["Ring"] = "";
+  LBIS.L["Ring"] = "手指";
 --  LBIS.L["Rise, Thunderfury!"] = "";
 --  LBIS.L["Robe of Faith"] = "";
   LBIS.L["Rokmar the Crackler"] = "巨钳鲁克玛尔";
@@ -365,7 +365,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Shattered Halls (Herioc)"] = "";
   LBIS.L["Shattered Sun Offensive"] = "破碎残阳";
   LBIS.L["Shattrath City"] = "沙塔斯城";
---  LBIS.L["Shield"] = "";
+  LBIS.L["Shield"] = "盾牌";
   LBIS.L["Shirrak the Dead Watcher"] = "死亡观察者希尔拉克";
 --  LBIS.L["Shoulderpads of Faith"] = "";
 --  LBIS.L["Shoulders"] = "";
@@ -390,7 +390,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Survival"] = "";
   LBIS.L["Swamplord Musel'ek"] = "沼地领主穆塞雷克";
 --  LBIS.L["Swift Flight Questline"] = "";
---  LBIS.L["Tailoring"] = "";
+  LBIS.L["Tailoring"] = "裁缝";
   LBIS.L["Talon King Ikiss"] = "利爪之王艾吉斯";
   LBIS.L["Tavarok"] = "塔瓦洛克";
 --  LBIS.L["Teleport This!"] = "";
@@ -463,12 +463,12 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Timeon,Blade's Edge Mountains"] = "";
 --  LBIS.L["Token"] = "";
 --  LBIS.L["Torgos!"] = "";
---  LBIS.L["Totem"] = "";
+  LBIS.L["Totem"] = "图腾";
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
 --  LBIS.L["Trash Drop - Sunwell Plateau"] = "";
 --  LBIS.L["Tribal Leatherworking"] = "";
---  LBIS.L["Trinket"] = "";
+  LBIS.L["Trinket"] = "饰品";
 --  LBIS.L["Turning Point"] = "";
 --  LBIS.L["Turning the Tide"] = "";
   LBIS.L["Twin Emperors"] = "双子皇帝";
@@ -484,7 +484,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Viscidus"] = "维希度斯";
   LBIS.L["Void Reaver"] = "空灵机甲";
 --  LBIS.L["Voren'thal the Seer,Shattrath City"] = "";
---  LBIS.L["Wand"] = "";
+  LBIS.L["Wand"] = "魔杖";
 --  LBIS.L["Wanted: Annihilator Servo!"] = "";
   LBIS.L["Warbringer O'mrogg"] = "战争使者沃姆罗格";
   LBIS.L["Warchief Kargath Bladefist"] = "酋长卡加斯·刃拳";

@@ -111,7 +111,7 @@ public static class LocalizationFileManager
         }
 
         //Search in LibBabbleSubZone
-        alcPath = $@"E:\Blizzard\World of Warcraft\_classic_\Interface\Addons\Atlas\Libs\LibBabble-SubZone-3.0\";
+        alcPath = $@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-SubZone-3.0\";
         switch (language)
         {
             case "esES":
@@ -160,7 +160,7 @@ public static class LocalizationFileManager
         }
 
         //Search in LibBabbleBoss
-        alcPath = $@"E:\Blizzard\World of Warcraft\_classic_\Interface\Addons\Atlas\Libs\LibBabble-Boss-3.0\LibBabble-Boss-3.0.lua";
+        alcPath = $@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-Boss-3.0\LibBabble-Boss-3.0.lua";
         itemSources = System.IO.File.ReadAllLines(alcPath);
         var foundStart = false;
         foreach (var line in itemSources)
@@ -191,7 +191,37 @@ public static class LocalizationFileManager
         }
 
         //Search in LibBabbleFaction
-        alcPath = $@"E:\Blizzard\World of Warcraft\_classic_\Interface\Addons\Atlas\Libs\LibBabble-Faction-3.0\LibBabble-Faction-3.0.lua";
+        alcPath = $@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-Faction-3.0\LibBabble-Faction-3.0.lua";
+        itemSources = System.IO.File.ReadAllLines(alcPath);
+        foundStart = false;
+        foreach (var line in itemSources)
+        {
+            if (!foundStart && !line.StartsWith("elseif"))
+                continue;
+
+            if (foundStart && line.StartsWith("elseif"))
+                break;
+
+            if (line.StartsWith("elseif") && line.Contains(language))
+                foundStart = true;
+
+            if (!foundStart || !line.StartsWith("	["))
+                continue;
+
+            var localizedString = string.Empty;
+            var position = 2;
+            while (position <= line.Length && line[position] != ']')
+            {
+                localizedString += line[position];
+                position++;
+            }
+
+            var translation = line.Split("=")[1].Trim().Trim(',').Trim('\"');
+            if (!localizations.ContainsKey(localizedString.Trim('\"')))
+                localizations.Add(localizedString.Trim('\"'), translation);
+        }
+
+        alcPath = $@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-Inventory-3.0\LibBabble-Inventory-3.0.lua";
         itemSources = System.IO.File.ReadAllLines(alcPath);
         foundStart = false;
         foreach (var line in itemSources)

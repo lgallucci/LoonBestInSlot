@@ -40,7 +40,7 @@ if GetLocale() == "esES" then
   LBIS.L["Avatar of the Martyred"] = "Avatar de los Martirizados";
   LBIS.L["Azgalor"] = "Azgalor";
   LBIS.L["Azuregos"] = "Azuregos";
-  LBIS.L["Back"] = "Capa";
+  LBIS.L["Back"] = "Espalda";
 --  LBIS.L["Back to the Chief!"] = "";
   LBIS.L["Badges of Justice"] = "Insignias de la justicia";
 --  LBIS.L["Bag of Fishing Treasures"] = "";
@@ -80,7 +80,7 @@ if GetLocale() == "esES" then
   LBIS.L["Cenarion Circle"] = "Círculo Cenarion";
   LBIS.L["Cenarion Expedition"] = "Expedición Cenarion";
   LBIS.L["Chess Event"] = "Evento de ajedrez";
-  LBIS.L["Chest"] = "Cofre";
+  LBIS.L["Chest"] = "Torso";
 --  LBIS.L["Cho'war the Pillager"] = "";
   LBIS.L["Chromaggus"] = "Chromaggus";
   LBIS.L["Chrono Lord Deja"] = "Cronolord Deja";
@@ -330,7 +330,7 @@ if GetLocale() == "esES" then
   LBIS.L["Quest"] = "Misión";
   LBIS.L["Rage Winterchill"] = "Ira Fríoinvierno";
   LBIS.L["Ragnaros"] = "Ragnaros";
-  LBIS.L["Ranged"] = "A distancia";
+  LBIS.L["Ranged"] = "Rango";
   LBIS.L["Razorgore"] = "Sangrevaja el Indomable";
   LBIS.L["Razuvious"] = "Razuvious";
 --  LBIS.L["Reinforced Fel Iron Chest"] = "";
@@ -468,7 +468,7 @@ if GetLocale() == "esES" then
   LBIS.L["Trash Drop"] = "Bote de basura";
   LBIS.L["Trash Drop - Sunwell Plateau"] = "Bote de basura - Meseta de La Fuente del Sol";
   LBIS.L["Tribal Leatherworking"] = "Peletería tribal";
-  LBIS.L["Trinket"] = "Baratija";
+  LBIS.L["Trinket"] = "Abalorio";
 --  LBIS.L["Turning Point"] = "";
 --  LBIS.L["Turning the Tide"] = "";
   LBIS.L["Twin Emperors"] = "Emperadores Gemelos";

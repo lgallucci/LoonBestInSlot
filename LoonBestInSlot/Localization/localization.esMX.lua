@@ -13,7 +13,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Akama's Promise"] = "";
   LBIS.L["Akil'zon"] = "Akil'zon";
   LBIS.L["Al'ar"] = "Al'ar";
---  LBIS.L["Alchemy"] = "";
+  LBIS.L["Alchemy"] = "Alquímia";
 --  LBIS.L["Aldor No More"] = "";
 --  LBIS.L["All"] = "";
 --  LBIS.L["Ally of the Netherwing"] = "";
@@ -40,7 +40,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Avatar of the Martyred"] = "Avatar de los Martirizados";
   LBIS.L["Azgalor"] = "Azgalor";
   LBIS.L["Azuregos"] = "Azuregos";
---  LBIS.L["Back"] = "";
+  LBIS.L["Back"] = "Espalda";
 --  LBIS.L["Back to the Chief!"] = "";
 --  LBIS.L["Badges of Justice"] = "";
 --  LBIS.L["Bag of Fishing Treasures"] = "";
@@ -56,7 +56,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Black Temple"] = "Templo Oscuro";
 --  LBIS.L["Black Temple / Hyjal Summit"] = "";
   LBIS.L["Blackheart the Inciter"] = "Negrozón el Incitador";
---  LBIS.L["Blacksmithing"] = "";
+  LBIS.L["Blacksmithing"] = "Herrería";
   LBIS.L["Blackwing Lair"] = "Guarida de Alanegra";
   LBIS.L["Blade's Edge Mountains"] = "Montañas Filospada";
 --  LBIS.L["Blast the Infernals!"] = "";
@@ -80,7 +80,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Cenarion Circle"] = "Círculo Cenarion";
   LBIS.L["Cenarion Expedition"] = "Expedición Cenarion";
   LBIS.L["Chess Event"] = "Evento del Ajedrez";
---  LBIS.L["Chest"] = "";
+  LBIS.L["Chest"] = "Torso";
 --  LBIS.L["Cho'war the Pillager"] = "";
   LBIS.L["Chromaggus"] = "Chromaggus";
   LBIS.L["Chrono Lord Deja"] = "Cronolord Deja";
@@ -127,9 +127,9 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Drop"] = "";
 --  LBIS.L["Dungeon Token"] = "";
   LBIS.L["Ebonroc"] = "Ebanorroca";
---  LBIS.L["Elemental"] = "";
+  LBIS.L["Elemental"] = "Elemental";
 --  LBIS.L["Elemental Leatherworking"] = "";
---  LBIS.L["Engineering"] = "";
+  LBIS.L["Engineering"] = "Ingeniería";
 --  LBIS.L["Enhance"] = "";
 --  LBIS.L["Enraged Spirits of Air"] = "";
   LBIS.L["Epoch Hunter"] = "Cazador de Época";
@@ -144,7 +144,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Exarch Maladaar"] = "Exarca Maladaar";
 --  LBIS.L["Fankriss"] = "";
   LBIS.L["Fathom-Lord Karathress"] = "Señor de las profundidades Karathress";
---  LBIS.L["Feet"] = "";
+  LBIS.L["Feet"] = "Pies";
 --  LBIS.L["Fel Embers"] = "";
   LBIS.L["Felmyst"] = "Brumavil";
 --  LBIS.L["Felmyst - Sunwell Plateau"] = "";
@@ -185,7 +185,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Halazzi"] = "Halazzi";
 --  LBIS.L["Hallows Eve"] = "";
   LBIS.L["Harbinger Skyriss"] = "Presagista Cieloriss";
---  LBIS.L["Head"] = "";
+  LBIS.L["Head"] = "Cabeza";
   LBIS.L["Headless Horseman"] = "El Jinete decapitado";
 --  LBIS.L["Heigan"] = "";
   LBIS.L["Hellfire Peninsula"] = "Península del Fuego Infernal";
@@ -213,7 +213,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Hydromancer Thespia"] = "Hidromántica Thespia";
   LBIS.L["Hydross the Unstable"] = "Hydross el Inestable";
   LBIS.L["Hyjal Summit"] = "La Cima Hyjal";
---  LBIS.L["Idol"] = "";
+  LBIS.L["Idol"] = "Ídolo";
   LBIS.L["Illidan Stormrage"] = "Illidan Tempestira";
 --  LBIS.L["Imperial Qiraji Armaments"] = "";
 --  LBIS.L["Information Gathering"] = "";
@@ -223,7 +223,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["It's a Fel Reaver,But with Heart"] = "";
   LBIS.L["Jan'alai"] = "Jan'alai";
   LBIS.L["Jed Runewatcher"] = "Jed Vigía de las Runas";
---  LBIS.L["Jewelcrafting"] = "";
+  LBIS.L["Jewelcrafting"] = "Joyería";
   LBIS.L["Kael'thas Sunstrider"] = "Kael'thas Caminante del Sol";
   LBIS.L["Kalecgos"] = "Kalecgos";
 --  LBIS.L["Kalecgos - Sunwell Plateau"] = "";
@@ -238,12 +238,12 @@ if GetLocale() == "esMX" then
   LBIS.L["Kurenai"] = "Kurenai";
   LBIS.L["Lady Vashj"] = "Lady Vashj";
   LBIS.L["Laj"] = "Laj";
---  LBIS.L["Leatherworking"] = "";
+  LBIS.L["Leatherworking"] = "Peletería";
 --  LBIS.L["Leggings of Faith"] = "";
---  LBIS.L["Legs"] = "";
+  LBIS.L["Legs"] = "Piernas";
   LBIS.L["Leotheras the Blind"] = "Leotheras el Ciego";
 --  LBIS.L["Levixus the Soul Caller"] = "";
---  LBIS.L["Libram"] = "";
+  LBIS.L["Libram"] = "Tratado";
   LBIS.L["Lieutenant Drake"] = "Teniente Drake";
   LBIS.L["Loatheb"] = "Loatheb";
 --  LBIS.L["Loon Best In Slot"] = "";
@@ -285,7 +285,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Nalorakk"] = "Nalorakk";
 --  LBIS.L["Natural Remedies"] = "";
   LBIS.L["Naxxramas"] = "Naxxramas";
---  LBIS.L["Neck"] = "";
+  LBIS.L["Neck"] = "Cuello";
   LBIS.L["Nefarian"] = "Nefarian";
   LBIS.L["Nethermancer Sepethrea"] = "Abisálica Sepethrea";
 --  LBIS.L["Nethermancer Sepethrea and Pathaleon the Calculator"] = "";
@@ -327,10 +327,10 @@ if GetLocale() == "esMX" then
 --  LBIS.L["PvP Vendor"] = "";
   LBIS.L["Quagmirran"] = "Quagmirran";
 --  LBIS.L["Quenching the Blade"] = "";
---  LBIS.L["Quest"] = "";
+  LBIS.L["Quest"] = "Misión";
   LBIS.L["Rage Winterchill"] = "Ira Fríoinvierno";
   LBIS.L["Ragnaros"] = "Ragnaros";
---  LBIS.L["Ranged"] = "";
+  LBIS.L["Ranged"] = "Rango";
 --  LBIS.L["Razorgore"] = "";
 --  LBIS.L["Razuvious"] = "";
 --  LBIS.L["Reinforced Fel Iron Chest"] = "";
@@ -340,7 +340,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Return to Andormu"] = "";
   LBIS.L["Revered"] = "Reverenciado";
 --  LBIS.L["Rexxar,Blade's Edge Mountains"] = "";
---  LBIS.L["Ring"] = "";
+  LBIS.L["Ring"] = "Anillo";
 --  LBIS.L["Rise, Thunderfury!"] = "";
 --  LBIS.L["Robe of Faith"] = "";
   LBIS.L["Rokmar the Crackler"] = "Rokmar el Crujidor";
@@ -365,7 +365,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Shattered Halls (Herioc)"] = "";
   LBIS.L["Shattered Sun Offensive"] = "Ofensiva Sol Devastado";
   LBIS.L["Shattrath City"] = "Ciudad de Shattrath";
---  LBIS.L["Shield"] = "";
+  LBIS.L["Shield"] = "Escudo";
   LBIS.L["Shirrak the Dead Watcher"] = "Shirrak el Vigía de los Muertos";
 --  LBIS.L["Shoulderpads of Faith"] = "";
 --  LBIS.L["Shoulders"] = "";
@@ -390,7 +390,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Survival"] = "";
   LBIS.L["Swamplord Musel'ek"] = "Señor del pantano Musel'ek";
 --  LBIS.L["Swift Flight Questline"] = "";
---  LBIS.L["Tailoring"] = "";
+  LBIS.L["Tailoring"] = "Sastrería";
   LBIS.L["Talon King Ikiss"] = "Rey Garra Ikiss";
   LBIS.L["Tavarok"] = "Tavarok";
 --  LBIS.L["Teleport This!"] = "";
@@ -463,12 +463,12 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Timeon,Blade's Edge Mountains"] = "";
 --  LBIS.L["Token"] = "";
 --  LBIS.L["Torgos!"] = "";
---  LBIS.L["Totem"] = "";
+  LBIS.L["Totem"] = "Tótem";
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
 --  LBIS.L["Trash Drop - Sunwell Plateau"] = "";
 --  LBIS.L["Tribal Leatherworking"] = "";
---  LBIS.L["Trinket"] = "";
+  LBIS.L["Trinket"] = "Abalorio";
 --  LBIS.L["Turning Point"] = "";
 --  LBIS.L["Turning the Tide"] = "";
   LBIS.L["Twin Emperors"] = "Emperadores Gemelos";
@@ -484,7 +484,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Viscidus"] = "Viscidus";
   LBIS.L["Void Reaver"] = "Atracador del Vacío";
 --  LBIS.L["Voren'thal the Seer,Shattrath City"] = "";
---  LBIS.L["Wand"] = "";
+  LBIS.L["Wand"] = "Varita";
 --  LBIS.L["Wanted: Annihilator Servo!"] = "";
   LBIS.L["Warbringer O'mrogg"] = "Belisario O'mrogg";
   LBIS.L["Warchief Kargath Bladefist"] = "Jefe de Guerra Kargath Garrafilada";
