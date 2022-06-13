@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L[""Beast Mastery""], "1")
+local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "1")
 
 LBIS:AddItem(spec, "28275", LBIS.L["Head"], "BIS") --Beast Lord Helm
 LBIS:AddItem(spec, "29081", LBIS.L["Head"], "Alt") --Demon Stalker Greathelm
