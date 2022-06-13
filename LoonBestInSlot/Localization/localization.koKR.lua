@@ -61,6 +61,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Blade's Edge Mountains"] = "";
 --  LBIS.L["Blast the Infernals!"] = "";
 --  LBIS.L["Bleeding Hollow Supply Crates"] = "";
+--  LBIS.L["Blessings Deck"] = "";
 --  LBIS.L["Blood Guard Porung"] = "";
 --  LBIS.L["BoE World Drop"] = "";
 --  LBIS.L["Bracers"] = "";
@@ -77,7 +78,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Captain Skarloc"] = "";
 --  LBIS.L["Cat"] = "";
 --  LBIS.L["Caverns of Time"] = "";
---  LBIS.L["Cenarion Circle (Revered)"] = "";
+--  LBIS.L["Cenarion Circle"] = "";
 --  LBIS.L["Cenarion Expedition"] = "";
 --  LBIS.L["Chess Event"] = "";
 --  LBIS.L["Chest"] = "";
@@ -100,10 +101,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Cryptstalker Wristguards"] = "";
 --  LBIS.L["Daily Fishing Quest"] = "";
 --  LBIS.L["Dalliah the Doomsayer"] = "";
---  LBIS.L["Darkmoon Blessings Deck"] = "";
 --  LBIS.L["Darkmoon Faire"] = "";
---  LBIS.L["Darkmoon Furies Deck"] = "";
---  LBIS.L["Darkmoon Lunacy Deck"] = "";
 --  LBIS.L["Darkweaver Syth"] = "";
 --  LBIS.L["Dealer Jadyan"] = "";
 --  LBIS.L["Dealing with the Overmaster"] = "";
@@ -162,6 +160,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Frostfire Robe"] = "";
 --  LBIS.L["Frostfire Sandals"] = "";
 --  LBIS.L["Frostfire Shoulderpads"] = "";
+--  LBIS.L["Furies Deck"] = "";
 --  LBIS.L["Fury"] = "";
 --  LBIS.L["G'eras"] = "";
 --  LBIS.L["Gava'xi"] = "";
@@ -253,6 +252,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Lord Kazzak"] = "";
 --  LBIS.L["Lost in Action"] = "";
 --  LBIS.L["Lower City"] = "";
+--  LBIS.L["Lunacy Deck"] = "";
 --  LBIS.L["M'uru"] = "";
 --  LBIS.L["M'uru - Sunwell Plateau"] = "";
 --  LBIS.L["Maexxna"] = "";
