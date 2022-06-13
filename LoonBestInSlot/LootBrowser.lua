@@ -73,7 +73,7 @@ local function createDropdown(opts)
 end
 
 local function IsInSlot(specItem)
-    if LoonBestInSlotSettings.SelectedSlot == "All" then
+    if LoonBestInSlotSettings.SelectedSlot == LBIS.L["All"] then
         return true;
     elseif LoonBestInSlotSettings.SelectedSlot == specItem.Slot then
         return true;
@@ -100,28 +100,28 @@ local function IsInPhase(specItem, specItemSource)
         return false;
     elseif strfind(specItem.Bis, LBIS.L["Transmute"]) ~= nil then
         return false;
-    elseif LoonBestInSlotSettings.SelectedPhase == "All" and specItem.Phase ~= "0" then
+    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["All"] and specItem.Phase ~= "0" then
         return true;
-    elseif LoonBestInSlotSettings.SelectedPhase == "PreRaid" and specItem.Phase == "0" then
+    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["PreRaid"] and specItem.Phase == "0" then
         return true;
-    elseif LoonBestInSlotSettings.SelectedPhase == "Phase 1" and FindInPhase(specItem.Phase, "1") then
+    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["Phase 1"] and FindInPhase(specItem.Phase, "1") then
         return true;
-    elseif LoonBestInSlotSettings.SelectedPhase == "Phase 2" and FindInPhase(specItem.Phase, "2") then
+    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["Phase 2"] and FindInPhase(specItem.Phase, "2") then
         return true;
-    elseif LoonBestInSlotSettings.SelectedPhase == "Phase 3" and FindInPhase(specItem.Phase, "3") then
+    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["Phase 3"] and FindInPhase(specItem.Phase, "3") then
         return true;
-    elseif LoonBestInSlotSettings.SelectedPhase == "Phase 4" and FindInPhase(specItem.Phase, "4") then
+    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["Phase 4"] and FindInPhase(specItem.Phase, "4") then
         return true;
-    elseif LoonBestInSlotSettings.SelectedPhase == "Phase 5" and FindInPhase(specItem.Phase, "5") then
+    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["Phase 5"] and FindInPhase(specItem.Phase, "5") then
         return true;
-    elseif LoonBestInSlotSettings.SelectedPhase == "BIS" and strfind(specItem.Bis, "BIS") ~= nil then
+    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["BIS"] and strfind(specItem.Bis, "BIS") ~= nil then
         return true;
     end
     return false;
 end
 
 local function IsInSource(specItem)
-    if LoonBestInSlotSettings.SelectedSource == "All" then
+    if LoonBestInSlotSettings.SelectedSource == LBIS.L["All"] then
         return true;
     elseif LoonBestInSlotSettings.SelectedSource == specItem.SourceType then
         return true;
@@ -130,7 +130,7 @@ local function IsInSource(specItem)
 end
 
 local function IsInZone(specItem)
-    if LoonBestInSlotSettings.SelectedZone == "All" then
+    if LoonBestInSlotSettings.SelectedZone == LBIS.L["All"] then
         return true;
     elseif strfind(specItem.SourceLocation, LoonBestInSlotSettings.SelectedZone) ~= nil then
         return true;
@@ -273,7 +273,11 @@ local function createItemRow(specItem, specItemSource, point)
 
             dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
             if specItemSource.SourceLocation == "" then
-                dl:SetText(specItemSource.Source);
+                if specItemSource.SourceNumber == "" then
+                    dl:SetText(specItemSource.Source);
+                else
+                    dl:SetText(specItemSource.Source.." ("..specItemSource.SourceNumber..")");
+                end                
                 dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
             elseif specItemSource.SourceType == LBIS.L["Transmute"] then
             
@@ -295,7 +299,11 @@ local function createItemRow(specItem, specItemSource, point)
                 dl:SetText(specItemSource.SourceLocation);
                 dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
             else
-                dl:SetText(specItemSource.Source.." - "..specItemSource.SourceLocation);
+                if specItemSource.SourceNumber == "" then
+                    dl:SetText(specItemSource.Source.." - "..specItemSource.SourceLocation);
+                else
+                    dl:SetText(specItemSource.Source.." ("..specItemSource.SourceNumber..") - "..specItemSource.SourceLocation);
+                end
                 dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
             end      
 

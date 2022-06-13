@@ -52,6 +52,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Belt"] = "";
 --  LBIS.L["Belt of Faith"] = "";
 --  LBIS.L["Bindings of Faith"] = "";
+--  LBIS.L["BIS"] = "";
 --  LBIS.L["Black Temple"] = "";
 --  LBIS.L["Black Temple / Hyjal Summit"] = "";
 --  LBIS.L["Blackheart the Inciter"] = "";
@@ -163,7 +164,6 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Frostfire Shoulderpads"] = "";
 --  LBIS.L["Fury"] = "";
 --  LBIS.L["G'eras"] = "";
---  LBIS.L["G'eras'"] = "";
 --  LBIS.L["Gava'xi"] = "";
 --  LBIS.L["General Drakkisath's Demise - Marshal Maxwell/For The Horde!"] = "";
 --  LBIS.L["Gezzarak the Huntress"] = "";

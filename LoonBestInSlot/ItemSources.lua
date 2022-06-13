@@ -1737,7 +1737,7 @@ LBIS.ItemSources =
     [33122] = { Name = "Cloak of Darkness", SourceType = LBIS.L["Profession"], Source = LBIS.L["Leatherworking"], SourceNumber = "360", SourceLocation = "" },
     [33173] = { Name = "Ragesteel Shoulders", SourceType = LBIS.L["Profession"], Source = LBIS.L["Blacksmithing"], SourceNumber = "350", SourceLocation = "" },
     [33191] = { Name = "Jungle Stompers", SourceType = LBIS.L["Drop"], Source = LBIS.L["Nalorakk"], SourceNumber = "", SourceLocation = LBIS.L["Zul'Aman"] },
-    [33192] = { Name = "Carved Witch Doctor's Stick", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Badges of Justice"], SourceNumber = "25", SourceLocation = LBIS.L["G'eras'"] },
+    [33192] = { Name = "Carved Witch Doctor's Stick", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Badges of Justice"], SourceNumber = "25", SourceLocation = LBIS.L["G'eras"] },
     [33203] = { Name = "Robes of Heavenly Purpose", SourceType = LBIS.L["Drop"], Source = LBIS.L["Nalorakk"], SourceNumber = "", SourceLocation = LBIS.L["Zul'Aman"] },
     [33211] = { Name = "Bladeangel's Money Belt", SourceType = LBIS.L["Drop"], Source = LBIS.L["Nalorakk"], SourceNumber = "", SourceLocation = LBIS.L["Zul'Aman"] },
     [33214] = { Name = "Akil'zon's Talonblade", SourceType = LBIS.L["Drop"], Source = LBIS.L["Akil'zon"], SourceNumber = "", SourceLocation = LBIS.L["Zul'Aman"] },
