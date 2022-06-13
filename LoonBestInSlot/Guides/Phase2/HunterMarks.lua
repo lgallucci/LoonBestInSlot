@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marks"], "2")
+local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marksmanship"], "2")
 
 LBIS:AddItem(spec, "30141", LBIS.L["Head"], "BIS") --Rift Stalker Helm
 LBIS:AddItem(spec, "30244", LBIS.L["Head"], "BIS") --Helm of the Vanquished Hero

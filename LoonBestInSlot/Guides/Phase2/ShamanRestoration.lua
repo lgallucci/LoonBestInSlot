@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Resto"], "2")
+local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "2")
 
 LBIS:AddItem(spec, "30166", LBIS.L["Head"], "BIS") --Cataclysm Headguard
 LBIS:AddItem(spec, "30242", LBIS.L["Head"], "BIS") --Helm of the Vanquished Champion

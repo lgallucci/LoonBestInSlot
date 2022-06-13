@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Ret"], "2")
+local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "2")
 
 LBIS:AddItem(spec, "32461", LBIS.L["Head"], "BIS") --Furious Gizmatic Goggles
 LBIS:AddItem(spec, "30131", LBIS.L["Head"], "Alt") --Crystalforge War-Helm

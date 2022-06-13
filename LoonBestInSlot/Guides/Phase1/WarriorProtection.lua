@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Prot"], "1")
+local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "1")
 
 LBIS:AddItem(spec, "29011", LBIS.L["Head"], "BIS") --Warbringer Greathelm
 LBIS:AddItem(spec, "29761", LBIS.L["Head"], "BIS") --Helm of the Fallen Defender

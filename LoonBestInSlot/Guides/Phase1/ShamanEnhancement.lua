@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhance"], "1")
+local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement"], "1")
 
 LBIS:AddItem(spec, "29040", LBIS.L["Head"], "BIS") --Cyclone Helm
 LBIS:AddItem(spec, "29760", LBIS.L["Head"], "BIS") --Helm of the Fallen Champion

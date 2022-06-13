@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Resto"], "4")
+local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "4")
 
 LBIS:AddItem(spec, "31012", LBIS.L["Head"], "BIS") --Skyshatter Helmet
 LBIS:AddItem(spec, "31095", LBIS.L["Head"], "BIS") --Helm of the Forgotten Protector

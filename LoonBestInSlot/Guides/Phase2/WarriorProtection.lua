@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Prot"], "2")
+local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "2")
 
 LBIS:AddItem(spec, "32473", LBIS.L["Head"], "BIS Mit") --Tankatronic Goggles
 LBIS:AddItem(spec, "30488", LBIS.L["Head"], "BIS Thrt") --Merciless Gladiator's Plate Helm

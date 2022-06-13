@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Prot"], "1")
+local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "1")
 
 LBIS:AddItem(spec, "29068", LBIS.L["Head"], "BIS") --Justicar Faceguard
 LBIS:AddItem(spec, "29760", LBIS.L["Head"], "BIS") --Helm of the Fallen Champion

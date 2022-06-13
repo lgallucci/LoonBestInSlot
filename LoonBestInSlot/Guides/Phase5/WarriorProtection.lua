@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Prot"], "5")
+local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "5")
 
 LBIS:AddItem(spec, "34400", LBIS.L["Head"], "BIS Mit") --Crown of Dath'Remar
 LBIS:AddItem(spec, "34345", LBIS.L["Head"], "Transmute BIS Mit") --Crown of Anasterian

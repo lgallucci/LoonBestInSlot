@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demo"], "0")
+local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "0")
 
 LBIS:AddItem(spec, "32494", LBIS.L["Head"], "BIS") --Destruction Holo-gogs
 LBIS:AddItem(spec, "24266", LBIS.L["Head"], "BIS") --Spellstrike Hood

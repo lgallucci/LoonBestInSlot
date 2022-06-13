@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marks"], "5")
+local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marksmanship"], "5")
 
 LBIS:AddItem(spec, "34333", LBIS.L["Head"], "BIS") --Coif of Alleria
 LBIS:AddItem(spec, "34244", LBIS.L["Head"], "BIS") --Duplicitous Guise

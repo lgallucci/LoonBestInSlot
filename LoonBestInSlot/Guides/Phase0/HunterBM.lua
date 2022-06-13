@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["BeastMaster"], "0")
+local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "0")
 
 LBIS:AddItem(spec, "28275", LBIS.L["Head"], "BIS") --Beast Lord Helm
 LBIS:AddItem(spec, "32474", LBIS.L["Head"], "Alt") --Surestrike Goggles v2.0

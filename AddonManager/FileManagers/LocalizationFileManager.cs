@@ -110,6 +110,57 @@ public static class LocalizationFileManager
             localizations.Add(localizedString.Trim('\"'), translation);
         }
 
+        alcPath = @$"E:\Blizzard\World of Warcraft\_classic_\Interface\Addons\WIM\Localization\";
+        switch (language)
+        {
+            case "esES":
+                alcPath += "esES.lua";
+                break;
+            case "esMX":
+                alcPath += "esES.lua";
+                break;
+            case "deDE":
+                alcPath += "deDE.lua";
+                break;
+            case "frFR":
+                alcPath += "frFR.lua";
+                break;
+            case "ruRU":
+                alcPath += "ruRU.lua";
+                break;
+            case "zhCN":
+                alcPath += "zhCN.lua";
+                break;
+            case "koKR":
+                alcPath += "koKR.lua";
+                break;
+            case "zhTW":
+                alcPath += "zhTW.lua";
+                break;
+        }
+        itemSources = System.IO.File.ReadAllLines(alcPath);
+        foreach (var line in itemSources)
+        {
+            if (!line.StartsWith("    [") && !line.StartsWith("	["))
+                continue;
+
+            var localizedString = string.Empty;
+            var position = 0;
+            if (line.StartsWith("    ["))
+                position = 5;
+            if (line.StartsWith("	["))
+                position = 2;
+            while (position <= line.Length && line[position] != ']')
+            {
+                localizedString += line[position];
+                position++;
+            }
+
+            var translation = line.Split("=")[1].Trim().Trim(',').Trim('\"');
+            if (!localizations.ContainsKey(localizedString.Trim('\"')))
+                localizations.Add(localizedString.Trim('\"'), translation);
+        }
+
         //Search in LibBabbleSubZone
         alcPath = $@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-SubZone-3.0\";
         switch (language)

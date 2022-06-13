@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Ret"], "0")
+local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "0")
 
 LBIS:AddItem(spec, "32461", LBIS.L["Head"], "BIS") --Furious Gizmatic Goggles
 LBIS:AddItem(spec, "32087", LBIS.L["Head"], "BIS") --Mask of the Deceiver

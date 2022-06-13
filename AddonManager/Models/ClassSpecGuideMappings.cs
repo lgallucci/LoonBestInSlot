@@ -109,7 +109,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#idols", "Idol")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DruidRestoration", "Resto", "Druid", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("DruidRestoration", "Restoration", "Druid", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -129,7 +129,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#idols", "Idol")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("HunterBM", "BeastMaster", "Hunter", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("HunterBM", "Beast Mastery", "Hunter", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -149,7 +149,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#ranged-weapon", "Ranged")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("HunterMarks", "Marks", "Hunter", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("HunterMarks", "Marksmanship", "Hunter", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -515,7 +515,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#librams-for-holy-paladin-healing-in-phase-5", "Libram")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinProtection", "Prot", "Paladin", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("PaladinProtection", "Protection", "Paladin", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -536,7 +536,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#shields", "Shield")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinProtectionPhase1", "Prot", "Paladin", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("PaladinProtectionPhase1", "Protection", "Paladin", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -557,7 +557,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#shields", "Shield")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinProtectionPhase2", "Prot", "Paladin", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("PaladinProtectionPhase2", "Protection", "Paladin", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -580,7 +580,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#shields", "Shield")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinProtectionPhase3", "Prot", "Paladin", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("PaladinProtectionPhase3", "Protection", "Paladin", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -602,7 +602,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#shields", "Shield")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinProtectionPhase4", "Prot", "Paladin", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("PaladinProtectionPhase4", "Protection", "Paladin", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -624,7 +624,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#shields", "Shield")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinProtectionPhase5", "Prot", "Paladin", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("PaladinProtectionPhase5", "Protection", "Paladin", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -646,7 +646,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#shields", "Shield")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinRetribution", "Ret", "Paladin", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("PaladinRetribution", "Retribution", "Paladin", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -930,7 +930,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems-for-elemental-shaman-dps-in-phase-5", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancement", "Enhance", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancement", "Enhancement", "Shaman", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -948,7 +948,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementPhase1", "Enhance", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementPhase1", "Enhancement", "Shaman", new List<GuideMapping>
         {
             new GuideMapping("#head-for-enhancement-shaman-dps-in-phase-1", "Head"),
             new GuideMapping("#shoulders-for-enhancement-shaman-dps-in-phase-1", "Shoulders"),
@@ -966,7 +966,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems-for-enhancement-shaman-dps-in-phase-1", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementPhase2", "Enhance", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementPhase2", "Enhancement", "Shaman", new List<GuideMapping>
         {
             new GuideMapping("#head-for-enhancement-shaman-dps-in-phase-2", "Head"),
             new GuideMapping("#shoulders-for-enhancement-shaman-dps-in-phase-2", "Shoulders"),
@@ -984,7 +984,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems-for-enhancement-shaman-dps-in-phase-2", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementPhase3", "Enhance", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementPhase3", "Enhancement", "Shaman", new List<GuideMapping>
         {
             new GuideMapping("#head-for-enhancement-shaman-dps-in-phase-3", "Head"),
             new GuideMapping("#shoulders-for-enhancement-shaman-dps-in-phase-3", "Shoulders"),
@@ -1002,7 +1002,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems-for-enhancement-shaman-dps-in-phase-3", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementPhase4", "Enhance", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementPhase4", "Enhancement", "Shaman", new List<GuideMapping>
         {
             new GuideMapping("#head-for-enhancement-shaman-dps-in-phase-4", "Head"),
             new GuideMapping("#shoulders-for-enhancement-shaman-dps-in-phase-4", "Shoulders"),
@@ -1020,7 +1020,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems-for-enhancement-shaman-dps-in-phase-4", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementPhase5", "Enhance", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementPhase5", "Enhancement", "Shaman", new List<GuideMapping>
         {
             new GuideMapping("#head-for-enhancement-shaman-dps-in-phase-5", "Head"),
             new GuideMapping("#shoulders-for-enhancement-shaman-dps-in-phase-5", "Shoulders"),
@@ -1038,7 +1038,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems-for-enhancement-shaman-dps-in-phase-5", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanRestoration", "Resto", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("ShamanRestoration", "Restoration", "Shaman", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulder", "Shoulders"),
@@ -1057,7 +1057,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanRestorationPhase1", "Resto", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("ShamanRestorationPhase1", "Restoration", "Shaman", new List<GuideMapping>
         {
             new GuideMapping("#head-for-restoration-shaman-healing-in-phase-1", "Head"),
             new GuideMapping("#shoulder-for-restoration-shaman-healing-in-phase-1", "Shoulders"),
@@ -1076,7 +1076,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems-for-restoration-shaman-healing-in-phase-1", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanRestorationPhase2", "Resto", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("ShamanRestorationPhase2", "Restoration", "Shaman", new List<GuideMapping>
         {
             new GuideMapping("#head-for-restoration-shaman-healing-in-phase-2", "Head"),
             new GuideMapping("#shoulder-for-restoration-shaman-healing-in-phase-2", "Shoulders"),
@@ -1095,7 +1095,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems-for-restoration-shaman-healing-in-phase-2", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanRestorationPhase3", "Resto", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("ShamanRestorationPhase3", "Restoration", "Shaman", new List<GuideMapping>
         {
             new GuideMapping("#head-for-restoration-shaman-healing-in-phase-3", "Head"),
             new GuideMapping("#shoulder-for-restoration-shaman-healing-in-phase-3", "Shoulders"),
@@ -1114,7 +1114,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems-for-restoration-shaman-healing-in-phase-3", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanRestorationPhase4", "Resto", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("ShamanRestorationPhase4", "Restoration", "Shaman", new List<GuideMapping>
         {
             new GuideMapping("#head-for-restoration-shaman-healing-in-phase-4", "Head"),
             new GuideMapping("#shoulder-for-restoration-shaman-healing-in-phase-4", "Shoulders"),
@@ -1133,7 +1133,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems-for-restoration-shaman-healing-in-phase-4", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanRestorationPhase5", "Resto", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("ShamanRestorationPhase5", "Restoration", "Shaman", new List<GuideMapping>
         {
             new GuideMapping("#head-for-restoration-shaman-healing-in-phase-5", "Head"),
             new GuideMapping("#shoulder-for-restoration-shaman-healing-in-phase-5", "Shoulders"),
@@ -1152,7 +1152,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems-for-restoration-shaman-healing-in-phase-5", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarlockAfflicPhase0", "Afflic", "Warlock", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarlockAfflicPhase0", "Affliction", "Warlock", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -1172,7 +1172,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wands", "Wand")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarlockAfflicPhase1", "Afflic", "Warlock", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarlockAfflicPhase1", "Affliction", "Warlock", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -1192,7 +1192,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wand", "Wand")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarlockAfflic", "Afflic", "Warlock", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarlockAfflic", "Affliction", "Warlock", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -1212,7 +1212,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wand", "Wand")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarlockDemoPhase0", "Demo", "Warlock", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarlockDemoPhase0", "Demonology", "Warlock", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -1232,7 +1232,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wands", "Wand")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarlockDemo", "Demo", "Warlock", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarlockDemo", "Demonology", "Warlock", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -1252,7 +1252,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wand", "Wand")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarlockDestroPhase0", "Destro", "Warlock", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarlockDestroPhase0", "Destruction", "Warlock", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -1272,7 +1272,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wands", "Wand")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarlockDestro", "Destro", "Warlock", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarlockDestro", "Destruction", "Warlock", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -1528,7 +1528,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows", "Ranged"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorProtection", "Prot", "Warrior", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarriorProtection", "Protection", "Warrior", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulders"),
@@ -1547,7 +1547,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows", "Ranged")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorProtectionPhase1", "Prot", "Warrior", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarriorProtectionPhase1", "Protection", "Warrior", new List<GuideMapping>
         {
             new GuideMapping("#head-for-protection-warrior-tank-in-phase-1", "Head"),
             new GuideMapping("#shoulders-for-protection-warrior-tank-in-phase-1", "Shoulders"),
@@ -1566,7 +1566,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows-for-protection-warrior-tank-in-phase-1", "Ranged")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorProtectionPhase2", "Prot", "Warrior", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarriorProtectionPhase2", "Protection", "Warrior", new List<GuideMapping>
         {
             new GuideMapping("#head-for-protection-warrior-tank-in-phase-2", "Head"),
             new GuideMapping("#shoulders-for-protection-warrior-tank-in-phase-2", "Shoulders"),
@@ -1585,7 +1585,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows-for-protection-warrior-tank-in-phase-2", "Ranged")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorProtectionPhase3", "Prot", "Warrior", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarriorProtectionPhase3", "Protection", "Warrior", new List<GuideMapping>
         {
             new GuideMapping("#head-for-protection-warrior-tank-in-phase-3", "Head"),
             new GuideMapping("#shoulders-for-protection-warrior-tank-in-phase-3", "Shoulders"),
@@ -1604,7 +1604,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows-for-protection-warrior-tank-in-phase-3", "Ranged")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorProtectionPhase4", "Prot", "Warrior", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarriorProtectionPhase4", "Protection", "Warrior", new List<GuideMapping>
         {
             new GuideMapping("#head-for-protection-warrior-tank-in-phase-4", "Head"),
             new GuideMapping("#shoulders-for-protection-warrior-tank-in-phase-4", "Shoulders"),
@@ -1623,7 +1623,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows-for-protection-warrior-tank-in-phase-4", "Ranged")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorProtectionPhase5", "Prot", "Warrior", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("WarriorProtectionPhase5", "Protection", "Warrior", new List<GuideMapping>
         {
             new GuideMapping("#head-for-protection-warrior-tank-in-phase-5", "Head"),
             new GuideMapping("#shoulders-for-protection-warrior-tank-in-phase-5", "Shoulders"),

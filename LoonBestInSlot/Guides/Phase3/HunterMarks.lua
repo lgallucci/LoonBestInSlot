@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marks"], "3")
+local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marksmanship"], "3")
 
 LBIS:AddItem(spec, "32235", LBIS.L["Head"], "BIS") --Cursed Vision of Sargeras
 LBIS:AddItem(spec, "33666", LBIS.L["Head"], "BIS") --Vengeful Gladiator's Chain Helm

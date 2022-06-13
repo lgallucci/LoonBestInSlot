@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Prot"], "5")
+local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "5")
 
 LBIS:AddItem(spec, "34401", LBIS.L["Head"], "BIS") --Helm of Uther's Resolve
 LBIS:AddItem(spec, "34243", LBIS.L["Head"], "Transmute BIS") --Helm of Burning Righteousness

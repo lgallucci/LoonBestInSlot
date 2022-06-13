@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Resto"], "5")
+local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Restoration"], "5")
 
 LBIS:AddItem(spec, "34339", LBIS.L["Head"], "BIS") --Cowl of Light's Purity
 LBIS:AddItem(spec, "34245", LBIS.L["Head"], "BIS") --Cover of Ursol the Wise

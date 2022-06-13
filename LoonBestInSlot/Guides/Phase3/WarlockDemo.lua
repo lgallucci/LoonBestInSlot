@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demo"], "3")
+local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "3")
 
 LBIS:AddItem(spec, "31051", LBIS.L["Head"], "BIS") --Hood of the Malefic
 LBIS:AddItem(spec, "31097", LBIS.L["Head"], "BIS") --Helm of the Forgotten Conqueror

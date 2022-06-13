@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Resto"], "1")
+local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Restoration"], "1")
 
 LBIS:AddItem(spec, "24264", LBIS.L["Head"], "BIS") --Whitemend Hood
 LBIS:AddItem(spec, "29086", LBIS.L["Head"], "BIS") --Crown of Malorne

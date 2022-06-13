@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Prot"], "0")
+local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "0")
 
 LBIS:AddItem(spec, "32083", LBIS.L["Head"], "BIS Mit") --Faceguard of Determination
 LBIS:AddItem(spec, "33697", LBIS.L["Head"], "BIS") --Vengeful Gladiator's Lamellar Helm

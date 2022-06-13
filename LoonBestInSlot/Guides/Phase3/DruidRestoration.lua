@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Resto"], "3")
+local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Restoration"], "3")
 
 LBIS:AddItem(spec, "31037", LBIS.L["Head"], "BIS") --Thunderheart Helmet
 LBIS:AddItem(spec, "31096", LBIS.L["Head"], "BIS") --Helm of the Forgotten Vanquisher

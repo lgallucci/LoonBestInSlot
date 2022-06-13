@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Destro"], "2")
+local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Destruction"], "2")
 
 LBIS:AddItem(spec, "32494", LBIS.L["Head"], "BIS") --Destruction Holo-gogs
 LBIS:AddItem(spec, "30212", LBIS.L["Head"], "BIS") --Hood of the Corruptor

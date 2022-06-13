@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Resto"], "5")
+local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "5")
 
 LBIS:AddItem(spec, "34402", LBIS.L["Head"], "Alt") --Shroud of Chieftain Ner'zhul
 LBIS:AddItem(spec, "34332", LBIS.L["Head"], "Transmute Alt") --Cowl of Gul'dan

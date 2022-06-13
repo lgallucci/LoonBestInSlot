@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Resto"], "0")
+local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "0")
 
 LBIS:AddItem(spec, "32475", LBIS.L["Head"], "BIS") --Living Replicator Specs
 LBIS:AddItem(spec, "24264", LBIS.L["Head"], "BIS") --Whitemend Hood

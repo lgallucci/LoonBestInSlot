@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Prot"], "3")
+local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "3")
 
 LBIS:AddItem(spec, "32521", LBIS.L["Head"], "BIS Mit") --Faceplate of the Impenetrable
 LBIS:AddItem(spec, "33730", LBIS.L["Head"], "BIS Thrt") --Vengeful Gladiator's Plate Helm

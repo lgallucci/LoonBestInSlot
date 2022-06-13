@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Prot"], "0")
+local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "0")
 
 LBIS:AddItem(spec, "32473", LBIS.L["Head"], "BIS") --Tankatronic Goggles
 LBIS:AddItem(spec, "28180", LBIS.L["Head"], "Alt") --Myrmidon's Headdress

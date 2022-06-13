@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Afflic"], "5")
+local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "5")
 
 LBIS:AddItem(spec, "34340", LBIS.L["Head"], "BIS") --Dark Conjuror's Collar
 LBIS:AddItem(spec, "34847", LBIS.L["Head"], "Alt") --Annihilator Holo-Gogs

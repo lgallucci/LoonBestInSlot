@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demo"], "1")
+local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "1")
 
 LBIS:AddItem(spec, "28963", LBIS.L["Head"], "BIS") --Voidheart Crown
 LBIS:AddItem(spec, "29759", LBIS.L["Head"], "BIS") --Helm of the Fallen Hero

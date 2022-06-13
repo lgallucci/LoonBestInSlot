@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Resto"], "0")
+local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Restoration"], "0")
 
 LBIS:AddItem(spec, "32479", LBIS.L["Head"], "BIS") --Wonderheal XT40 Shades
 LBIS:AddItem(spec, "31988", LBIS.L["Head"], "Alt") --Merciless Gladiator's Kodohide Helm
