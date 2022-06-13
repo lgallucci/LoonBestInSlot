@@ -607,7 +607,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
 
     local header = window:CreateFontString();
     header:SetFont("Fonts\\FRIZQT__.TTF", 12); -- Fonts\\ARIALN.TTF - Fonts\\SKURRI.TTF -  -
-    header:SetText(LBIS.L["Loon Best In Slot List"]);
+    header:SetText(LBIS.L["Loon Best In Slot Browser"]);
     header:SetPoint("TOP", window, -5, -5);
 
     local topLine = window:CreateLine();

@@ -1198,7 +1198,7 @@ LBIS.ItemSources =
     [30531] = { Name = "Breeches of the Occultist", SourceType = LBIS.L["Drop"], Source = LBIS.L["Aeonus"], SourceNumber = "", SourceLocation = LBIS.L["The Black Morass (Heroic)"] },
     [30532] = { Name = "Kirin Tor Master's Trousers", SourceType = LBIS.L["Drop"], Source = LBIS.L["Murmur"], SourceNumber = "", SourceLocation = LBIS.L["Shadow Labyrinth (Heroic)"] },
     [30533] = { Name = "Vanquisher's Legplates", SourceType = LBIS.L["Drop"], Source = LBIS.L["Pathaleon the Calculator"], SourceNumber = "", SourceLocation = LBIS.L["The Mechanar (Heroic)"] },
-    [30535] = { Name = "Forestwalker Kilt", SourceType = LBIS.L["Drop"], Source = LBIS.L["Nexus-Prince Shaffar"], SourceNumber = "", SourceLocation = LBIS.L["Heroic Mana-Tombs"] },
+    [30535] = { Name = "Forestwalker Kilt", SourceType = LBIS.L["Drop"], Source = LBIS.L["Nexus-Prince Shaffar"], SourceNumber = "", SourceLocation = LBIS.L["Mana-Tombs (Heroic)"] },
     [30538] = { Name = "Midnight Legguards", SourceType = LBIS.L["Drop"], Source = LBIS.L["Quagmirran"], SourceNumber = "", SourceLocation = LBIS.L["The Slave Pens (Heroic)"] },
     [30541] = { Name = "Stormsong Kilt", SourceType = LBIS.L["Drop"], Source = LBIS.L["The Black Stalker"], SourceNumber = "", SourceLocation = LBIS.L["The Underbog (Heroic)"] },
     [30543] = { Name = "Pontifex Kilt", SourceType = LBIS.L["Drop"], Source = LBIS.L["Warlord Kalithresh"], SourceNumber = "", SourceLocation = LBIS.L["The Steamvault (Heroic)"] },
