@@ -8,7 +8,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["A Spirit Ally?"] = "";
   LBIS.L["Aeonus"] = "Aeonus";
 --  LBIS.L["Aeonus and Temporus"] = "";
---  LBIS.L["Affliction"] = "";
+  LBIS.L["Affliction"] = "Gebrechen";
   LBIS.L["Ahune"] = "Ahune";
 --  LBIS.L["Akama's Promise"] = "";
   LBIS.L["Akil'zon"] = "Akil'zon";
@@ -47,7 +47,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Balance"] = "Gleichgewicht";
 --  LBIS.L["Battle of the Crimson Watch"] = "";
 --  LBIS.L["Bear"] = "";
---  LBIS.L[""Beast Mastery""] = "";
+  LBIS.L["Beast Mastery"] = "Tierherrschaft";
 --  LBIS.L["Beasts Deck"] = "";
 --  LBIS.L["Belt"] = "";
 --  LBIS.L["Belt of Faith"] = "";
@@ -107,9 +107,9 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Deathblow to the Legion"] = "";
 --  LBIS.L["Declawing Doomclaw"] = "";
 --  LBIS.L["Defender Grashna,Shattrath City"] = "";
---  LBIS.L["Demonology"] = "";
---  LBIS.L["Destruction"] = "";
+  LBIS.L["Demonology"] = "Dämonologie";
 --  LBIS.L["Destroy Naberius!"] = "";
+  LBIS.L["Destruction"] = "Zerstörung";
 --  LBIS.L["Dimensius the All-Devouring"] = "";
   LBIS.L["Dire Maul East"] = "Düsterbruch Ost";
 --  LBIS.L["Dissension Amongst the Ranks..."] = "";
@@ -130,7 +130,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Elemental"] = "Elementar";
 --  LBIS.L["Elemental Leatherworking"] = "";
   LBIS.L["Engineering"] = "Ingenieurskunst";
---  LBIS.L["Enhancement"] = "";
+  LBIS.L["Enhancement"] = "Verstärkung";
 --  LBIS.L["Enraged Spirits of Air"] = "";
   LBIS.L["Epoch Hunter"] = "Epochenjäger";
   LBIS.L["Eredar Twins"] = "Eredar Zwillinge";
@@ -264,9 +264,9 @@ if GetLocale() == "deDE" then
   LBIS.L["Mana-Tombs"] = "Managruft";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
 --  LBIS.L["Mark V is Alive!"] = "";
---  LBIS.L["Marksmanship"] = "";
 --  LBIS.L["Marks of Honor Hold"] = "";
 --  LBIS.L["Marks of Thrallmar"] = "";
+  LBIS.L["Marksmanship"] = "Treffsicherheit";
 --  LBIS.L["Master Armorsmith"] = "";
 --  LBIS.L["Master Axesmith"] = "";
 --  LBIS.L["Master Hammersmith"] = "";
@@ -322,7 +322,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Priestess Delrissa"] = "Priesterin Delrissa";
   LBIS.L["Prince Malchezaar"] = "Prinz Malchezaar";
 --  LBIS.L["Profession"] = "";
---  LBIS.L["Protection"] = "";
+  LBIS.L["Protection"] = "Schutz";
 --  LBIS.L["PvP"] = "";
 --  LBIS.L["PvP Vendor"] = "";
   LBIS.L["Quagmirran"] = "Quagmirran";
@@ -335,8 +335,8 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Razuvious"] = "";
 --  LBIS.L["Reinforced Fel Iron Chest"] = "";
 --  LBIS.L["Reputation"] = "";
---  LBIS.L["Restoration"] = "";
---  LBIS.L["Retribution"] = "";
+  LBIS.L["Restoration"] = "Wiederherstellung";
+  LBIS.L["Retribution"] = "Vergeltung";
 --  LBIS.L["Return to Andormu"] = "";
   LBIS.L["Revered"] = "Respektvoll";
 --  LBIS.L["Rexxar,Blade's Edge Mountains"] = "";

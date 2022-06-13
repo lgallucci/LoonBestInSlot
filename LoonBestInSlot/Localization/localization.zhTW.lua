@@ -47,7 +47,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Balance"] = "平衡";
 --  LBIS.L["Battle of the Crimson Watch"] = "";
 --  LBIS.L["Bear"] = "";
---  LBIS.L[""Beast Mastery""] = "";
+  LBIS.L["Beast Mastery"] = "野獸控制";
 --  LBIS.L["Beasts Deck"] = "";
 --  LBIS.L["Belt"] = "";
 --  LBIS.L["Belt of Faith"] = "";
@@ -107,9 +107,9 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Deathblow to the Legion"] = "";
 --  LBIS.L["Declawing Doomclaw"] = "";
 --  LBIS.L["Defender Grashna,Shattrath City"] = "";
---  LBIS.L["Demonology"] = "";
---  LBIS.L["Destruction"] = "";
+  LBIS.L["Demonology"] = "惡魔學識";
 --  LBIS.L["Destroy Naberius!"] = "";
+  LBIS.L["Destruction"] = "毀滅";
 --  LBIS.L["Dimensius the All-Devouring"] = "";
   LBIS.L["Dire Maul East"] = "厄運之槌 東";
 --  LBIS.L["Dissension Amongst the Ranks..."] = "";
@@ -130,7 +130,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Elemental"] = "元素材料";
 --  LBIS.L["Elemental Leatherworking"] = "";
   LBIS.L["Engineering"] = "工程學";
---  LBIS.L["Enhancement"] = "";
+  LBIS.L["Enhancement"] = "增強";
 --  LBIS.L["Enraged Spirits of Air"] = "";
   LBIS.L["Epoch Hunter"] = "紀元狩獵者";
   LBIS.L["Eredar Twins"] = "艾雷達爾雙子";
@@ -264,9 +264,9 @@ if GetLocale() == "zhTW" then
   LBIS.L["Mana-Tombs"] = "法力墓地";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
 --  LBIS.L["Mark V is Alive!"] = "";
---  LBIS.L["Marksmanship"] = "";
 --  LBIS.L["Marks of Honor Hold"] = "";
 --  LBIS.L["Marks of Thrallmar"] = "";
+  LBIS.L["Marksmanship"] = "射擊";
 --  LBIS.L["Master Armorsmith"] = "";
 --  LBIS.L["Master Axesmith"] = "";
 --  LBIS.L["Master Hammersmith"] = "";
@@ -322,7 +322,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Priestess Delrissa"] = "女牧師戴利莎";
   LBIS.L["Prince Malchezaar"] = "莫克札王子";
 --  LBIS.L["Profession"] = "";
---  LBIS.L["Protection"] = "";
+  LBIS.L["Protection"] = "防護";
 --  LBIS.L["PvP"] = "";
 --  LBIS.L["PvP Vendor"] = "";
   LBIS.L["Quagmirran"] = "奎克米瑞";
@@ -335,8 +335,8 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Razuvious"] = "";
 --  LBIS.L["Reinforced Fel Iron Chest"] = "";
 --  LBIS.L["Reputation"] = "";
---  LBIS.L["Restoration"] = "";
---  LBIS.L["Retribution"] = "";
+  LBIS.L["Restoration"] = "恢復";
+  LBIS.L["Retribution"] = "懲戒";
 --  LBIS.L["Return to Andormu"] = "";
   LBIS.L["Revered"] = "崇敬";
 --  LBIS.L["Rexxar,Blade's Edge Mountains"] = "";

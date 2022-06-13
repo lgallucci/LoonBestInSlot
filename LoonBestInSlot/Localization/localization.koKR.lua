@@ -8,7 +8,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["A Spirit Ally?"] = "";
   LBIS.L["Aeonus"] = "아에누스";
 --  LBIS.L["Aeonus and Temporus"] = "";
---  LBIS.L["Affliction"] = "";
+  LBIS.L["Affliction"] = "고통";
   LBIS.L["Ahune"] = "아훈";
 --  LBIS.L["Akama's Promise"] = "";
   LBIS.L["Akil'zon"] = "아킬존 <독수리의 화신>";
@@ -47,7 +47,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Balance"] = "조화";
 --  LBIS.L["Battle of the Crimson Watch"] = "";
 --  LBIS.L["Bear"] = "";
---  LBIS.L[""Beast Mastery""] = "";
+  LBIS.L["Beast Mastery"] = "true";
 --  LBIS.L["Beasts Deck"] = "";
 --  LBIS.L["Belt"] = "";
 --  LBIS.L["Belt of Faith"] = "";
@@ -107,9 +107,9 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Deathblow to the Legion"] = "";
 --  LBIS.L["Declawing Doomclaw"] = "";
 --  LBIS.L["Defender Grashna,Shattrath City"] = "";
---  LBIS.L["Demonology"] = "";
---  LBIS.L["Destruction"] = "";
+  LBIS.L["Demonology"] = "악마";
 --  LBIS.L["Destroy Naberius!"] = "";
+  LBIS.L["Destruction"] = "true";
 --  LBIS.L["Dimensius the All-Devouring"] = "";
   LBIS.L["Dire Maul East"] = "혈투의 전장 (동쪽)";
 --  LBIS.L["Dissension Amongst the Ranks..."] = "";
@@ -130,7 +130,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Elemental"] = "원소";
 --  LBIS.L["Elemental Leatherworking"] = "";
   LBIS.L["Engineering"] = "기계공학";
---  LBIS.L["Enhancement"] = "";
+  LBIS.L["Enhancement"] = "고양";
 --  LBIS.L["Enraged Spirits of Air"] = "";
   LBIS.L["Epoch Hunter"] = "시대의 사냥꾼";
   LBIS.L["Eredar Twins"] = "에레다르 쌍둥이";
@@ -264,9 +264,9 @@ if GetLocale() == "koKR" then
   LBIS.L["Mana-Tombs"] = "마나 무덤";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
 --  LBIS.L["Mark V is Alive!"] = "";
---  LBIS.L["Marksmanship"] = "";
 --  LBIS.L["Marks of Honor Hold"] = "";
 --  LBIS.L["Marks of Thrallmar"] = "";
+  LBIS.L["Marksmanship"] = "true";
 --  LBIS.L["Master Armorsmith"] = "";
 --  LBIS.L["Master Axesmith"] = "";
 --  LBIS.L["Master Hammersmith"] = "";
@@ -322,7 +322,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Priestess Delrissa"] = "여사제 델리사";
   LBIS.L["Prince Malchezaar"] = "공작 말체자르";
 --  LBIS.L["Profession"] = "";
---  LBIS.L["Protection"] = "";
+  LBIS.L["Protection"] = "보호";
 --  LBIS.L["PvP"] = "";
 --  LBIS.L["PvP Vendor"] = "";
   LBIS.L["Quagmirran"] = "쿠아그미란";
@@ -335,8 +335,8 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Razuvious"] = "";
 --  LBIS.L["Reinforced Fel Iron Chest"] = "";
 --  LBIS.L["Reputation"] = "";
---  LBIS.L["Restoration"] = "";
---  LBIS.L["Retribution"] = "";
+  LBIS.L["Restoration"] = "복원";
+  LBIS.L["Retribution"] = "true";
 --  LBIS.L["Return to Andormu"] = "";
   LBIS.L["Revered"] = "매우 우호적";
 --  LBIS.L["Rexxar,Blade's Edge Mountains"] = "";

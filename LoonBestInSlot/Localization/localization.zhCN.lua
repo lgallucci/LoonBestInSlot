@@ -8,7 +8,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["A Spirit Ally?"] = "";
   LBIS.L["Aeonus"] = "埃欧努斯";
 --  LBIS.L["Aeonus and Temporus"] = "";
---  LBIS.L["Affliction"] = "";
+  LBIS.L["Affliction"] = "痛苦";
   LBIS.L["Ahune"] = "埃霍恩";
 --  LBIS.L["Akama's Promise"] = "";
   LBIS.L["Akil'zon"] = "埃基尔松";
@@ -47,7 +47,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Balance"] = "平衡";
 --  LBIS.L["Battle of the Crimson Watch"] = "";
 --  LBIS.L["Bear"] = "";
---  LBIS.L[""Beast Mastery""] = "";
+  LBIS.L["Beast Mastery"] = "野兽控制";
 --  LBIS.L["Beasts Deck"] = "";
 --  LBIS.L["Belt"] = "";
 --  LBIS.L["Belt of Faith"] = "";
@@ -107,9 +107,9 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Deathblow to the Legion"] = "";
 --  LBIS.L["Declawing Doomclaw"] = "";
 --  LBIS.L["Defender Grashna,Shattrath City"] = "";
---  LBIS.L["Demonology"] = "";
---  LBIS.L["Destruction"] = "";
+  LBIS.L["Demonology"] = "恶魔学识";
 --  LBIS.L["Destroy Naberius!"] = "";
+  LBIS.L["Destruction"] = "毁灭";
 --  LBIS.L["Dimensius the All-Devouring"] = "";
   LBIS.L["Dire Maul East"] = "厄运之槌 东";
 --  LBIS.L["Dissension Amongst the Ranks..."] = "";
@@ -130,7 +130,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Elemental"] = "元素";
 --  LBIS.L["Elemental Leatherworking"] = "";
   LBIS.L["Engineering"] = "工程学";
---  LBIS.L["Enhancement"] = "";
+  LBIS.L["Enhancement"] = "增强";
 --  LBIS.L["Enraged Spirits of Air"] = "";
   LBIS.L["Epoch Hunter"] = "时空猎手";
   LBIS.L["Eredar Twins"] = "艾瑞达双子";
@@ -264,9 +264,9 @@ if GetLocale() == "zhCN" then
   LBIS.L["Mana-Tombs"] = "法力陵墓";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
 --  LBIS.L["Mark V is Alive!"] = "";
---  LBIS.L["Marksmanship"] = "";
 --  LBIS.L["Marks of Honor Hold"] = "";
 --  LBIS.L["Marks of Thrallmar"] = "";
+  LBIS.L["Marksmanship"] = "射击";
 --  LBIS.L["Master Armorsmith"] = "";
 --  LBIS.L["Master Axesmith"] = "";
 --  LBIS.L["Master Hammersmith"] = "";
@@ -322,7 +322,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Priestess Delrissa"] = "女祭司德莉希亚";
   LBIS.L["Prince Malchezaar"] = "玛克扎尔王子";
 --  LBIS.L["Profession"] = "";
---  LBIS.L["Protection"] = "";
+  LBIS.L["Protection"] = "防护";
 --  LBIS.L["PvP"] = "";
 --  LBIS.L["PvP Vendor"] = "";
   LBIS.L["Quagmirran"] = "夸格米拉";
@@ -335,8 +335,8 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Razuvious"] = "";
 --  LBIS.L["Reinforced Fel Iron Chest"] = "";
 --  LBIS.L["Reputation"] = "";
---  LBIS.L["Restoration"] = "";
---  LBIS.L["Retribution"] = "";
+  LBIS.L["Restoration"] = "恢复";
+  LBIS.L["Retribution"] = "惩戒";
 --  LBIS.L["Return to Andormu"] = "";
   LBIS.L["Revered"] = "崇敬";
 --  LBIS.L["Rexxar,Blade's Edge Mountains"] = "";
