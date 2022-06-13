@@ -195,7 +195,6 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Hellfire Ramparts (Heroic)"] = "";
 --  LBIS.L["Hero of the Mag'har"] = "";
 --  LBIS.L["Hero of the Mag'har (Horde only)"] = "";
---  LBIS.L["Heroic Mana-Tombs"] = "";
 --  LBIS.L["Hex Lord Malacrass"] = "";
 --  LBIS.L["High Astromancer Solarian"] = "";
 --  LBIS.L["High Botanist Freywinn"] = "";
@@ -250,7 +249,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Lieutenant Drake"] = "";
 --  LBIS.L["Loatheb"] = "";
 --  LBIS.L["Loon Best In Slot"] = "";
---  LBIS.L["Loon Best In Slot List"] = "";
+--  LBIS.L["Loon Best In Slot Browser"] = "";
 --  LBIS.L["Lord Kazzak"] = "";
 --  LBIS.L["Lost in Action"] = "";
 --  LBIS.L["Lower City"] = "";
