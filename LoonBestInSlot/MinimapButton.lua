@@ -27,17 +27,17 @@ function LBIS:RegisterMiniMap()
         })
         
         if (databroker and not LBISButton:IsRegistered ("LoonBestInSlot")) then
-            LBISButton:Register ("LoonBestInSlot", databroker, LoonBestInSlotSettings.minimap)
+            LBISButton:Register ("LoonBestInSlot", databroker, LBISSettings.minimap)
         end
 
-        LBIS:ShowHideMiniMap(LoonBestInSlotSettings.minimap.hide);
+        LBIS:ShowHideMiniMap(LBISSettings.minimap.hide);
   
     end
 
   end
 
   function LBIS:ShowHideMiniMap(shouldHide)
-    LoonBestInSlotSettings.minimap.hide = shouldHide;
+    LBISSettings.minimap.hide = shouldHide;
     if shouldHide then
         LBISButton:Hide("LoonBestInSlot");
     else
@@ -45,6 +45,6 @@ function LBIS:RegisterMiniMap()
     end
 
     function LBIS:ShowHideTooltip(shouldHide)
-        LoonBestInSlotSettings.ShowTooltip = shouldHide;
+        LBISSettings.ShowTooltip = shouldHide;
     end
 end

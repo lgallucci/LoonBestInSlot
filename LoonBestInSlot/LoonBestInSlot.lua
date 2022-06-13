@@ -9,7 +9,7 @@ LBIS.AllItemsCached = false;
 LBIS.CurrentPhase = 4;
 LBIS.EventFrame = CreateFrame("FRAME",addonName.."Events")
 
-LoonBestInSlotSettings = LoonBestInSlotSettings or { SelectedSpec = "", SelectedSlot = LBIS.L["All"], SelectedPhase = LBIS.L["All"], SelectedSource = LBIS.L["All"], SelectedZone = LBIS.L["All"], minimap = { hide = false, minimapPos = 180}, ShowTooltip = true }
+LBISSettings = LBISSettings or { SelectedSpec = "", SelectedSlot = LBIS.L["All"], SelectedPhase = LBIS.L["All"], SelectedSource = LBIS.L["All"], SelectedZone = LBIS.L["All"], minimap = { hide = false, minimapPos = 180}, ShowTooltip = true }
 
 SLASH_LOONBESTINSLOT1 = '/bis'
 SlashCmdList["LOONBESTINSLOT"] = function(command)
@@ -22,8 +22,8 @@ end
 
 function LBIS:Startup()
 
-	if LoonBestInSlotSettings.ShowTooltip == nil then
-		LoonBestInSlotSettings.ShowTooltip = true;
+	if LBISSettings.ShowTooltip == nil then
+		LBISSettings.ShowTooltip = true;
 	end
 
 	LBIS:RegisterMiniMap();

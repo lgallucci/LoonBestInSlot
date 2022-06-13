@@ -73,9 +73,9 @@ local function createDropdown(opts)
 end
 
 local function IsInSlot(specItem)
-    if LoonBestInSlotSettings.SelectedSlot == LBIS.L["All"] then
+    if LBISSettings.SelectedSlot == LBIS.L["All"] then
         return true;
-    elseif LoonBestInSlotSettings.SelectedSlot == specItem.Slot then
+    elseif LBISSettings.SelectedSlot == specItem.Slot then
         return true;
     end
     return false;
@@ -100,39 +100,39 @@ local function IsInPhase(specItem, specItemSource)
         return false;
     elseif strfind(specItem.Bis, LBIS.L["Transmute"]) ~= nil then
         return false;
-    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["All"] and specItem.Phase ~= "0" then
+    elseif LBISSettings.SelectedPhase == LBIS.L["All"] and specItem.Phase ~= "0" then
         return true;
-    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["PreRaid"] and specItem.Phase == "0" then
+    elseif LBISSettings.SelectedPhase == LBIS.L["PreRaid"] and specItem.Phase == "0" then
         return true;
-    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["Phase 1"] and FindInPhase(specItem.Phase, "1") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 1"] and FindInPhase(specItem.Phase, "1") then
         return true;
-    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["Phase 2"] and FindInPhase(specItem.Phase, "2") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 2"] and FindInPhase(specItem.Phase, "2") then
         return true;
-    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["Phase 3"] and FindInPhase(specItem.Phase, "3") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 3"] and FindInPhase(specItem.Phase, "3") then
         return true;
-    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["Phase 4"] and FindInPhase(specItem.Phase, "4") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 4"] and FindInPhase(specItem.Phase, "4") then
         return true;
-    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["Phase 5"] and FindInPhase(specItem.Phase, "5") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 5"] and FindInPhase(specItem.Phase, "5") then
         return true;
-    elseif LoonBestInSlotSettings.SelectedPhase == LBIS.L["BIS"] and strfind(specItem.Bis, "BIS") ~= nil then
+    elseif LBISSettings.SelectedPhase == LBIS.L["BIS"] and strfind(specItem.Bis, "BIS") ~= nil then
         return true;
     end
     return false;
 end
 
 local function IsInSource(specItem)
-    if LoonBestInSlotSettings.SelectedSource == LBIS.L["All"] then
+    if LBISSettings.SelectedSource == LBIS.L["All"] then
         return true;
-    elseif LoonBestInSlotSettings.SelectedSource == specItem.SourceType then
+    elseif LBISSettings.SelectedSource == specItem.SourceType then
         return true;
     end
     return false;
 end
 
 local function IsInZone(specItem)
-    if LoonBestInSlotSettings.SelectedZone == LBIS.L["All"] then
+    if LBISSettings.SelectedZone == LBIS.L["All"] then
         return true;
-    elseif strfind(specItem.SourceLocation, LoonBestInSlotSettings.SelectedZone) ~= nil then
+    elseif strfind(specItem.SourceLocation, LBISSettings.SelectedZone) ~= nil then
         return true;
     end
     return false;
@@ -429,11 +429,11 @@ end
 
 function LBIS.BrowserWindow:UpdateItemsForSpec()
             
-    if LoonBestInSlotSettings.SelectedSpec == "" then
+    if LBISSettings.SelectedSpec == "" then
         return;
     end
 
-    local specItems = LBIS.SpecItems[LBIS.SpecToName[LoonBestInSlotSettings.SelectedSpec]];
+    local specItems = LBIS.SpecItems[LBIS.SpecToName[LBISSettings.SelectedSpec]];
 
     local window = LBIS.BrowserWindow.Window;
     local point = -2;
@@ -548,9 +548,9 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
         ['parent']=window,
         ['title']='Spec:',
         ['items']= getSpecList(),
-        ['defaultVal']=LoonBestInSlotSettings.SelectedSpec,
+        ['defaultVal']=LBISSettings.SelectedSpec,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
-            LoonBestInSlotSettings.SelectedSpec = dropdown_val;
+            LBISSettings.SelectedSpec = dropdown_val;
             LBIS.BrowserWindow:UpdateItemsForSpec();
         end
     }
@@ -562,9 +562,9 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
         ['parent']=window,
         ['title']='Slot:',
         ['items']= { LBIS.L["All"], LBIS.L["Head"], LBIS.L["Shoulders"], LBIS.L["Back"], LBIS.L["Chest"], LBIS.L["Bracers"], LBIS.L["Gloves"], LBIS.L["Belt"], LBIS.L["Legs"], LBIS.L["Feet"], LBIS.L["Neck"], LBIS.L["Ring"], LBIS.L["Trinket"], LBIS.L["MH"], LBIS.L["OH"], LBIS.L["2H"], LBIS.L["Shield"], LBIS.L["Ranged"], LBIS.L["Wand"], LBIS.L["Totem"], LBIS.L["Idol"], LBIS.L["Libram"]},        
-        ['defaultVal']=LoonBestInSlotSettings.SelectedSlot,
+        ['defaultVal']=LBISSettings.SelectedSlot,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
-            LoonBestInSlotSettings.SelectedSlot = dropdown_val;
+            LBISSettings.SelectedSlot = dropdown_val;
             LBIS.BrowserWindow:UpdateItemsForSpec();
         end
     }
@@ -576,9 +576,9 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
         ['parent']=window,
         ['title']='Phase:',
         ['items']= { LBIS.L["All"], LBIS.L["PreRaid"], LBIS.L["Phase 1"], LBIS.L["Phase 2"], LBIS.L["Phase 3"], LBIS.L["Phase 4"], LBIS.L["Phase 5"], "BIS" },
-        ['defaultVal']=LoonBestInSlotSettings.SelectedPhase,
+        ['defaultVal']=LBISSettings.SelectedPhase,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
-            LoonBestInSlotSettings.SelectedPhase = dropdown_val;
+            LBISSettings.SelectedPhase = dropdown_val;
             LBIS.BrowserWindow:UpdateItemsForSpec();
         end
     }
@@ -590,9 +590,9 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
         ['parent']=window,
         ['title']='Source:',
         ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Dungeon Token"], LBIS.L["Quest"], LBIS.L["PvP"], LBIS.L["Transmute"] },
-        ['defaultVal']= LoonBestInSlotSettings.SelectedSource,
+        ['defaultVal']= LBISSettings.SelectedSource,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
-            LoonBestInSlotSettings.SelectedSource = dropdown_val;
+            LBISSettings.SelectedSource = dropdown_val;
             LBIS.BrowserWindow:UpdateItemsForSpec();
         end
     }
@@ -604,9 +604,9 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
         ['parent']=window,
         ['title']='Zone:',
         ['items']= { LBIS.L["All"], LBIS.L["Karazhan"], LBIS.L["Gruul's Lair"], LBIS.L["Magtheridon's Lair"], LBIS.L["Serpentshrine Cavern"], LBIS.L["Tempest Keep"], LBIS.L["Hyjal Summit"], LBIS.L["Black Temple"], LBIS.L["Zul'Aman"], LBIS.L["Sunwell Plateau"]},
-        ['defaultVal']= LoonBestInSlotSettings.SelectedZone,
+        ['defaultVal']= LBISSettings.SelectedZone,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
-            LoonBestInSlotSettings.SelectedZone = dropdown_val;
+            LBISSettings.SelectedZone = dropdown_val;
             LBIS.BrowserWindow:UpdateItemsForSpec();
         end
     }
@@ -656,7 +656,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     tooltipButton:SetScript("OnClick", function(self)
         LBIS:ShowHideTooltip(self:GetChecked());
     end);
-    tooltipButton:SetChecked(LoonBestInSlotSettings.ShowTooltip);
+    tooltipButton:SetChecked(LBISSettings.ShowTooltip);
 
     local miniMapButton = CreateFrame("CheckButton", "MinimapCheckButton", window, "ChatConfigCheckButtonTemplate")
     miniMapButton:SetHitRectInsets(0, 0, 0, 0)
@@ -667,7 +667,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     miniMapButton:SetScript("OnClick", function(self)
         LBIS:ShowHideMiniMap(not self:GetChecked());
     end);
-    miniMapButton:SetChecked(not LoonBestInSlotSettings.minimap.hide);
+    miniMapButton:SetChecked(not LBISSettings.minimap.hide);
 
     window.scrollframe = scrollframe;
     window.scrollbar = scrollbar;

@@ -85,7 +85,7 @@ local function onTooltipSetItem(tooltip, itemLink, quantity)
 	local itemString = string.match(itemLink, "item[%-?%d:]+")
 	local itemId = ({ strsplit(":", itemString) })[2]
 
-	if LBIS.Items[itemId] and LoonBestInSlotSettings.ShowTooltip then
+	if LBIS.Items[itemId] and LBISSettings.ShowTooltip then
 		buildExtraTip(tooltip, LBIS.Items[itemId])
 	end
 end  
