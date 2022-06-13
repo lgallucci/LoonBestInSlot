@@ -61,7 +61,7 @@ if GetLocale() == "esES" then
   LBIS.L["Blade's Edge Mountains"] = "Montañas Filospada";
 --  LBIS.L["Blast the Infernals!"] = "";
 --  LBIS.L["Bleeding Hollow Supply Crates"] = "";
---  LBIS.L["Blessings Deck"] = "Cubierta de bendiciones";
+  LBIS.L["Blessings Deck"] = "Cubierta de bendiciones";
 --  LBIS.L["Blood Guard Porung"] = "";
   LBIS.L["Bracers"] = "Brazales";
   LBIS.L["Brewfest"] = "Festival de la cerveza";
