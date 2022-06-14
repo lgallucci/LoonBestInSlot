@@ -266,7 +266,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Quest"] = "Задания";
   LBIS.L["Rage Winterchill"] = "Лютый Хлад";
   LBIS.L["Ranged"] = "Для оружия дальнего боя";
---  LBIS.L["Reinforced Fel Iron Chest"] = "";
+  LBIS.L["Reinforced Fel Iron Chest"] = "Укрепленный сундук из оскверненного железа";
   LBIS.L["Reputation"] = "Репутация";
   LBIS.L["Restoration"] = "Исцеление";
   LBIS.L["Retribution"] = "Возмездие";
@@ -286,8 +286,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Shadow Labyrinth (Heroic)"] = "";
 --  LBIS.L["Shadoweave Tailoring"] = "";
   LBIS.L["Shadowmoon Valley"] = "Долина Призрачной Луны";
---  LBIS.L["Shartuul"] = "";
---  LBIS.L["Shattered Halls (Herioc)"] = "";
+  LBIS.L["Shartuul"] = "Шартуул";
   LBIS.L["Shattered Sun Offensive"] = "Армия Расколотого Солнца";
   LBIS.L["Shattrath City"] = "Шаттрат";
   LBIS.L["Shield"] = "Щит";
@@ -296,14 +295,13 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Show Minimap Button:"] = "";
 --  LBIS.L["Show Tooltip:"] = "";
   LBIS.L["Showdown"] = "Перед выстрелом";
---  LBIS.L["Showdown - Baron Sablemane/Showdown"] = "/Перед выстрелом";
   LBIS.L["Shutting Down Manaforge Ara"] = "Отключить манагорн Ара";
 --  LBIS.L["Smith Hauthaa"] = "";
   LBIS.L["Someone Else's Hard Work Pays Off"] = "Someone Else's Hard Work Pays Off";
 --  LBIS.L["Soul Shard"] = "";
   LBIS.L["Special Delivery to Shattrath City"] = "Специальный груз в город Шаттрат";
 --  LBIS.L["Spellfire Tailoring"] = "";
---  LBIS.L["Spirit Sage Gartok, Spirit Sage Zran"] = "";
+--  LBIS.L["Spirit Sage Gartok/Spirit Sage Zran"] = "/";
 --  LBIS.L["Spirit Shard"] = "";
   LBIS.L["Subdue the Subduer"] = "Покорить Покорителя";
   LBIS.L["Success!"] = "Готово!";
@@ -311,7 +309,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Supremus"] = "Супремус";
   LBIS.L["Survival"] = "Выживание";
   LBIS.L["Swamplord Musel'ek"] = "Владыка болот Мусел'ек";
---  LBIS.L["Swift Flight Questline"] = "";
   LBIS.L["Tailoring"] = "Портняжное дело";
   LBIS.L["Talon King Ikiss"] = "Король воронов Айкисс";
   LBIS.L["Tavarok"] = "Таварок";

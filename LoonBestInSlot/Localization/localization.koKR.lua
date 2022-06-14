@@ -266,7 +266,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Quest"] = "퀘스트";
   LBIS.L["Rage Winterchill"] = "격노한 윈터칠";
   LBIS.L["Ranged"] = "원거리 장비";
---  LBIS.L["Reinforced Fel Iron Chest"] = "";
+  LBIS.L["Reinforced Fel Iron Chest"] = "강화된 지옥무쇠 궤짝";
   LBIS.L["Reputation"] = "평판";
   LBIS.L["Restoration"] = "복원";
   LBIS.L["Retribution"] = "true";
@@ -286,8 +286,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Shadow Labyrinth (Heroic)"] = "";
 --  LBIS.L["Shadoweave Tailoring"] = "";
   LBIS.L["Shadowmoon Valley"] = "어둠달 골짜기";
---  LBIS.L["Shartuul"] = "";
---  LBIS.L["Shattered Halls (Herioc)"] = "";
+  LBIS.L["Shartuul"] = "샤툴";
   LBIS.L["Shattered Sun Offensive"] = "무너진 태양 공격대";
   LBIS.L["Shattrath City"] = "샤트라스";
   LBIS.L["Shield"] = "방패";
@@ -296,14 +295,13 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Show Minimap Button:"] = "";
 --  LBIS.L["Show Tooltip:"] = "";
   LBIS.L["Showdown"] = "대결";
---  LBIS.L["Showdown - Baron Sablemane/Showdown"] = "/대결";
   LBIS.L["Shutting Down Manaforge Ara"] = "아라 마나괴철로 차단";
 --  LBIS.L["Smith Hauthaa"] = "";
   LBIS.L["Someone Else's Hard Work Pays Off"] = "고진감래";
 --  LBIS.L["Soul Shard"] = "";
   LBIS.L["Special Delivery to Shattrath City"] = "샤트라스로 특별 배달";
 --  LBIS.L["Spellfire Tailoring"] = "";
---  LBIS.L["Spirit Sage Gartok, Spirit Sage Zran"] = "";
+--  LBIS.L["Spirit Sage Gartok/Spirit Sage Zran"] = "/";
 --  LBIS.L["Spirit Shard"] = "";
   LBIS.L["Subdue the Subduer"] = "정복자 제압";
   LBIS.L["Success!"] = "성공!";
@@ -311,7 +309,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Supremus"] = "궁극의 심연";
   LBIS.L["Survival"] = "true";
   LBIS.L["Swamplord Musel'ek"] = "늪군주 뮤즐레크";
---  LBIS.L["Swift Flight Questline"] = "";
   LBIS.L["Tailoring"] = "재봉술";
   LBIS.L["Talon King Ikiss"] = "갈퀴대왕 이키스";
   LBIS.L["Tavarok"] = "타바로크";

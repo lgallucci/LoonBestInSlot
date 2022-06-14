@@ -266,7 +266,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Quest"] = "Misión";
   LBIS.L["Rage Winterchill"] = "Ira Fríoinvierno";
   LBIS.L["Ranged"] = "Rango";
---  LBIS.L["Reinforced Fel Iron Chest"] = "";
+  LBIS.L["Reinforced Fel Iron Chest"] = "Cofre de hierro vil reforzado";
   LBIS.L["Reputation"] = "Reputación";
   LBIS.L["Restoration"] = "Recuperación";
   LBIS.L["Retribution"] = "Reprensión";
@@ -287,7 +287,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Shadoweave Tailoring"] = "";
   LBIS.L["Shadowmoon Valley"] = "Valle Sombraluna";
 --  LBIS.L["Shartuul"] = "";
---  LBIS.L["Shattered Halls (Herioc)"] = "";
   LBIS.L["Shattered Sun Offensive"] = "Ofensiva Sol Devastado";
   LBIS.L["Shattrath City"] = "Ciudad de Shattrath";
   LBIS.L["Shield"] = "Escudo";
@@ -296,14 +295,13 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Show Minimap Button:"] = "";
 --  LBIS.L["Show Tooltip:"] = "";
 --  LBIS.L["Showdown"] = "";
---  LBIS.L["Showdown - Baron Sablemane/Showdown"] = "/";
 --  LBIS.L["Shutting Down Manaforge Ara"] = "";
 --  LBIS.L["Smith Hauthaa"] = "";
 --  LBIS.L["Someone Else's Hard Work Pays Off"] = "";
 --  LBIS.L["Soul Shard"] = "";
 --  LBIS.L["Special Delivery to Shattrath City"] = "";
 --  LBIS.L["Spellfire Tailoring"] = "";
---  LBIS.L["Spirit Sage Gartok, Spirit Sage Zran"] = "";
+--  LBIS.L["Spirit Sage Gartok/Spirit Sage Zran"] = "/";
 --  LBIS.L["Spirit Shard"] = "";
 --  LBIS.L["Subdue the Subduer"] = "";
 --  LBIS.L["Success!"] = "";
@@ -311,7 +309,6 @@ if GetLocale() == "esMX" then
   LBIS.L["Supremus"] = "Supremus";
   LBIS.L["Survival"] = "Supervivencia";
   LBIS.L["Swamplord Musel'ek"] = "Señor del pantano Musel'ek";
---  LBIS.L["Swift Flight Questline"] = "";
   LBIS.L["Tailoring"] = "Sastrería";
   LBIS.L["Talon King Ikiss"] = "Rey Garra Ikiss";
   LBIS.L["Tavarok"] = "Tavarok";

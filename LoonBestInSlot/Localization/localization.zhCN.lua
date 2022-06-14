@@ -266,7 +266,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Quest"] = "任务";
   LBIS.L["Rage Winterchill"] = "雷基·冬寒";
   LBIS.L["Ranged"] = "远程";
---  LBIS.L["Reinforced Fel Iron Chest"] = "";
+  LBIS.L["Reinforced Fel Iron Chest"] = "强化魔铁箱";
   LBIS.L["Reputation"] = "声望";
   LBIS.L["Restoration"] = "恢复";
   LBIS.L["Retribution"] = "惩戒";
@@ -286,8 +286,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Shadow Labyrinth (Heroic)"] = "";
 --  LBIS.L["Shadoweave Tailoring"] = "";
   LBIS.L["Shadowmoon Valley"] = "影月谷";
---  LBIS.L["Shartuul"] = "";
---  LBIS.L["Shattered Halls (Herioc)"] = "";
+  LBIS.L["Shartuul"] = "沙图尔";
   LBIS.L["Shattered Sun Offensive"] = "破碎残阳";
   LBIS.L["Shattrath City"] = "沙塔斯城";
   LBIS.L["Shield"] = "盾牌";
@@ -296,14 +295,13 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Show Minimap Button:"] = "";
 --  LBIS.L["Show Tooltip:"] = "";
   LBIS.L["Showdown"] = "摊牌";
---  LBIS.L["Showdown - Baron Sablemane/Showdown"] = "/摊牌";
   LBIS.L["Shutting Down Manaforge Ara"] = "关闭法力熔炉：艾拉";
 --  LBIS.L["Smith Hauthaa"] = "";
   LBIS.L["Someone Else's Hard Work Pays Off"] = "别人的烂摊子";
 --  LBIS.L["Soul Shard"] = "";
   LBIS.L["Special Delivery to Shattrath City"] = "送往沙塔斯的特殊货物";
 --  LBIS.L["Spellfire Tailoring"] = "";
---  LBIS.L["Spirit Sage Gartok, Spirit Sage Zran"] = "";
+--  LBIS.L["Spirit Sage Gartok/Spirit Sage Zran"] = "/";
 --  LBIS.L["Spirit Shard"] = "";
   LBIS.L["Subdue the Subduer"] = "征服者雷萨赫尔顿";
   LBIS.L["Success!"] = "成功了！";
@@ -311,7 +309,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Supremus"] = "苏普雷姆斯";
   LBIS.L["Survival"] = "生存";
   LBIS.L["Swamplord Musel'ek"] = "沼地领主穆塞雷克";
---  LBIS.L["Swift Flight Questline"] = "";
   LBIS.L["Tailoring"] = "裁缝";
   LBIS.L["Talon King Ikiss"] = "利爪之王艾吉斯";
   LBIS.L["Tavarok"] = "塔瓦洛克";
