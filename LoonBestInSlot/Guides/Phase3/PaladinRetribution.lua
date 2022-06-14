@@ -31,7 +31,7 @@ LBIS:AddItem(spec, "33910", LBIS.L["Bracers"], "Alt") --Vindicator's Scaled Brac
 LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "BIS") --Gloves of the Searing Grip
 LBIS:AddItem(spec, "32347", LBIS.L["Gloves"], "BIS") --Grips of Damnation
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 
 LBIS:AddItem(spec, "30900", LBIS.L["Legs"], "BIS") --Bow-stitched Leggings
 LBIS:AddItem(spec, "30993", LBIS.L["Legs"], "Alt") --Lightbringer Greaves

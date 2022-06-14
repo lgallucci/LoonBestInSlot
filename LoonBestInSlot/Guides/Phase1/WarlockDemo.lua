@@ -27,8 +27,8 @@ LBIS:AddItem(spec, "28507", LBIS.L["Gloves"], "Alt") --Handwraps of Flowing Thou
 LBIS:AddItem(spec, "28968", LBIS.L["Gloves"], "Alt") --Voidheart Gloves
 LBIS:AddItem(spec, "29756", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Hero
 
-LBIS:AddItem(spec, "24256", LBIS.L["Belt"], "BIS") --Girdle of Ruination
-LBIS:AddItem(spec, "28799", LBIS.L["Belt"], "Alt") --Belt of Divine Inspiration
+LBIS:AddItem(spec, "24256", LBIS.L["Waist"], "BIS") --Girdle of Ruination
+LBIS:AddItem(spec, "28799", LBIS.L["Waist"], "Alt") --Belt of Divine Inspiration
 
 LBIS:AddItem(spec, "24262", LBIS.L["Legs"], "BIS") --Spellstrike Pants
 LBIS:AddItem(spec, "30734", LBIS.L["Legs"], "Alt") --Leggings of the Seventh Circle

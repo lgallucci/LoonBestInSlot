@@ -30,11 +30,11 @@ LBIS:AddItem(spec, "30341", LBIS.L["Gloves"], "BIS") --Flesh Handler's Gauntlets
 LBIS:AddItem(spec, "18823", LBIS.L["Gloves"], "Alt") --Aged Core Leather Gloves
 LBIS:AddItem(spec, "29509", LBIS.L["Gloves"], "Alt") --Windstrike Gloves
 
-LBIS:AddItem(spec, "29247", LBIS.L["Belt"], "BIS") --Girdle of the Deathdealer
-LBIS:AddItem(spec, "27755", LBIS.L["Belt"], "BIS") --Girdle of Gallantry
-LBIS:AddItem(spec, "27760", LBIS.L["Belt"], "Alt") --Dunewind Sash
-LBIS:AddItem(spec, "29516", LBIS.L["Belt"], "Alt") --Ebon Netherscale Belt
-LBIS:AddItem(spec, "27985", LBIS.L["Belt"], "Alt") --Deathforge Girdle
+LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "BIS") --Girdle of the Deathdealer
+LBIS:AddItem(spec, "27755", LBIS.L["Waist"], "BIS") --Girdle of Gallantry
+LBIS:AddItem(spec, "27760", LBIS.L["Waist"], "Alt") --Dunewind Sash
+LBIS:AddItem(spec, "29516", LBIS.L["Waist"], "Alt") --Ebon Netherscale Belt
+LBIS:AddItem(spec, "27985", LBIS.L["Waist"], "Alt") --Deathforge Girdle
 
 LBIS:AddItem(spec, "30257", LBIS.L["Legs"], "BIS") --Shattrath Leggings
 LBIS:AddItem(spec, "31544", LBIS.L["Legs"], "BIS") --Clefthoof Hide Leggings

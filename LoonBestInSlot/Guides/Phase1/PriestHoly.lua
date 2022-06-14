@@ -29,8 +29,8 @@ LBIS:AddItem(spec, "29758", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Defe
 LBIS:AddItem(spec, "24393", LBIS.L["Gloves"], "Alt") --Bloody Surgeon's Mitts
 LBIS:AddItem(spec, "27536", LBIS.L["Gloves"], "Alt") --Hallowed Handwraps
 
-LBIS:AddItem(spec, "21873", LBIS.L["Belt"], "BIS") --Primal Mooncloth Belt
-LBIS:AddItem(spec, "28652", LBIS.L["Belt"], "BIS") --Cincture of Will
+LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt
+LBIS:AddItem(spec, "28652", LBIS.L["Waist"], "BIS") --Cincture of Will
 
 LBIS:AddItem(spec, "30727", LBIS.L["Legs"], "BIS") --Gilded Trousers of Benediction
 LBIS:AddItem(spec, "28742", LBIS.L["Legs"], "BIS") --Pantaloons of Repentance

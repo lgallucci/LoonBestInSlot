@@ -30,9 +30,9 @@ LBIS:AddItem(spec, "30165", LBIS.L["Gloves"], "Alt") --Cataclysm Gloves
 LBIS:AddItem(spec, "30239", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Champion
 LBIS:AddItem(spec, "28520", LBIS.L["Gloves"], "Alt") --Gloves of Centering
 
-LBIS:AddItem(spec, "30030", LBIS.L["Belt"], "BIS") --Girdle of Fallen Stars
-LBIS:AddItem(spec, "29524", LBIS.L["Belt"], "Alt") --Windhawk Belt
-LBIS:AddItem(spec, "21873", LBIS.L["Belt"], "Alt") --Primal Mooncloth Belt
+LBIS:AddItem(spec, "30030", LBIS.L["Waist"], "BIS") --Girdle of Fallen Stars
+LBIS:AddItem(spec, "29524", LBIS.L["Waist"], "Alt") --Windhawk Belt
+LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "Alt") --Primal Mooncloth Belt
 
 LBIS:AddItem(spec, "29991", LBIS.L["Legs"], "BIS") --Sunhawk Leggings
 LBIS:AddItem(spec, "30167", LBIS.L["Legs"], "Alt") --Cataclysm Legguards

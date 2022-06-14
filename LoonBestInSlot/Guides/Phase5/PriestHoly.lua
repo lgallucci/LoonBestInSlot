@@ -37,9 +37,9 @@ LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten C
 LBIS:AddItem(spec, "30151", LBIS.L["Gloves"], "Alt") --Gloves of the Avatar
 LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Defender
 
-LBIS:AddItem(spec, "34527", LBIS.L["Belt"], "BIS") --Belt of Absolution
-LBIS:AddItem(spec, "30895", LBIS.L["Belt"], "Alt") --Angelista's Sash
-LBIS:AddItem(spec, "32519", LBIS.L["Belt"], "Alt") --Belt of Divine Guidance
+LBIS:AddItem(spec, "34527", LBIS.L["Waist"], "BIS") --Belt of Absolution
+LBIS:AddItem(spec, "30895", LBIS.L["Waist"], "Alt") --Angelista's Sash
+LBIS:AddItem(spec, "32519", LBIS.L["Waist"], "Alt") --Belt of Divine Guidance
 
 LBIS:AddItem(spec, "34170", LBIS.L["Legs"], "Alt") --Pantaloons of Calming Strife
 LBIS:AddItem(spec, "30912", LBIS.L["Legs"], "Alt") --Leggings of Eternity

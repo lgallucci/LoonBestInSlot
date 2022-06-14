@@ -39,10 +39,10 @@ LBIS:AddItem(spec, "31094", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten P
 LBIS:AddItem(spec, "30140", LBIS.L["Gloves"], "Alt") --Rift Stalker Gauntlets
 LBIS:AddItem(spec, "30241", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Hero
 
-LBIS:AddItem(spec, "34549", LBIS.L["Belt"], "BIS") --Gronnstalker's Belt
-LBIS:AddItem(spec, "34854", LBIS.L["Belt"], "BIS") --Belt of the Forgotten Protector
-LBIS:AddItem(spec, "30879", LBIS.L["Belt"], "BIS") --Don Alejandro's Money Belt
-LBIS:AddItem(spec, "32346", LBIS.L["Belt"], "Alt") --Boneweave Girdle
+LBIS:AddItem(spec, "34549", LBIS.L["Waist"], "BIS") --Gronnstalker's Belt
+LBIS:AddItem(spec, "34854", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Protector
+LBIS:AddItem(spec, "30879", LBIS.L["Waist"], "BIS") --Don Alejandro's Money Belt
+LBIS:AddItem(spec, "32346", LBIS.L["Waist"], "Alt") --Boneweave Girdle
 
 LBIS:AddItem(spec, "34188", LBIS.L["Legs"], "BIS") --Leggings of the Immortal Night
 LBIS:AddItem(spec, "34168", LBIS.L["Legs"], "BIS") --Starstalker Legguards

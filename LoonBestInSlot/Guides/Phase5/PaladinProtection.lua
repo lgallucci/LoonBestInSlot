@@ -33,9 +33,9 @@ LBIS:AddItem(spec, "34352", LBIS.L["Gloves"], "BIS Mit") --Borderland Fortress G
 LBIS:AddItem(spec, "30985", LBIS.L["Gloves"], "BIS") --Lightbringer Handguards
 LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Conqueror
 
-LBIS:AddItem(spec, "34488", LBIS.L["Belt"], "BIS") --Lightbringer Waistguard
-LBIS:AddItem(spec, "32342", LBIS.L["Belt"], "Alt") --Girdle of Mighty Resolve
-LBIS:AddItem(spec, "33524", LBIS.L["Belt"], "Alt Thrt") --Girdle of the Protector
+LBIS:AddItem(spec, "34488", LBIS.L["Waist"], "BIS") --Lightbringer Waistguard
+LBIS:AddItem(spec, "32342", LBIS.L["Waist"], "Alt") --Girdle of Mighty Resolve
+LBIS:AddItem(spec, "33524", LBIS.L["Waist"], "Alt Thrt") --Girdle of the Protector
 
 LBIS:AddItem(spec, "34382", LBIS.L["Legs"], "BIS") --Judicator's Legguards
 LBIS:AddItem(spec, "34167", LBIS.L["Legs"], "Transmute BIS") --Legplates of the Holy Juggernaut

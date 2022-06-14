@@ -28,10 +28,10 @@ LBIS:AddItem(spec, "25685", LBIS.L["Gloves"], "BIS") --Fel Leather Gloves
 LBIS:AddItem(spec, "27531", LBIS.L["Gloves"], "BIS") --Wastewalker Gloves
 LBIS:AddItem(spec, "30003", LBIS.L["Gloves"], "Alt") --Gloves of the Nether-Stalker
 
-LBIS:AddItem(spec, "29247", LBIS.L["Belt"], "BIS") --Girdle of the Deathdealer
-LBIS:AddItem(spec, "29526", LBIS.L["Belt"], "BIS") --Primalstrike Belt
-LBIS:AddItem(spec, "30372", LBIS.L["Belt"], "Alt") --Socrethar's Girdle
-LBIS:AddItem(spec, "31464", LBIS.L["Belt"], "Alt") --Naaru Belt of Precision
+LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "BIS") --Girdle of the Deathdealer
+LBIS:AddItem(spec, "29526", LBIS.L["Waist"], "BIS") --Primalstrike Belt
+LBIS:AddItem(spec, "30372", LBIS.L["Waist"], "Alt") --Socrethar's Girdle
+LBIS:AddItem(spec, "31464", LBIS.L["Waist"], "Alt") --Naaru Belt of Precision
 
 LBIS:AddItem(spec, "27837", LBIS.L["Legs"], "BIS") --Wastewalker Leggings
 LBIS:AddItem(spec, "25687", LBIS.L["Legs"], "Alt") --Fel Leather Leggings

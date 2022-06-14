@@ -44,9 +44,9 @@ LBIS:AddItem(spec, "34351", LBIS.L["Gloves"], "Transmute Alt") --Tranquil Majest
 LBIS:AddItem(spec, "31035", LBIS.L["Gloves"], "Alt") --Thunderheart Handguards
 LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Vanquisher
 
-LBIS:AddItem(spec, "34555", LBIS.L["Belt"], "BIS") --Thunderheart Cord
-LBIS:AddItem(spec, "34855", LBIS.L["Belt"], "BIS") --Belt of the Forgotten Vanquisher
-LBIS:AddItem(spec, "30888", LBIS.L["Belt"], "Alt") --Anetheron's Noose
+LBIS:AddItem(spec, "34555", LBIS.L["Waist"], "BIS") --Thunderheart Cord
+LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Vanquisher
+LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "Alt") --Anetheron's Noose
 
 LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "BIS") --Leggings of Calamity
 LBIS:AddItem(spec, "34169", LBIS.L["Legs"], "Alt") --Breeches of Natural Aggression

@@ -33,10 +33,10 @@ LBIS:AddItem(spec, "31034", LBIS.L["Gloves"], "Alt Mit") --Thunderheart Gauntlet
 LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "Alt Mit") --Gloves of the Forgotten Vanquisher
 LBIS:AddItem(spec, "34370", LBIS.L["Gloves"], "Alt Thrt") --Gloves of Immortal Dusk
 
-LBIS:AddItem(spec, "35156", LBIS.L["Belt"], "BIS Mit") --Guardian's Leather Belt
-LBIS:AddItem(spec, "34556", LBIS.L["Belt"], "BIS Thrt") --Thunderheart Waistguard
-LBIS:AddItem(spec, "34855", LBIS.L["Belt"], "BIS Thrt") --Belt of the Forgotten Vanquisher
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "Alt") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "35156", LBIS.L["Waist"], "BIS Mit") --Guardian's Leather Belt
+LBIS:AddItem(spec, "34556", LBIS.L["Waist"], "BIS Thrt") --Thunderheart Waistguard
+LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "BIS Thrt") --Belt of the Forgotten Vanquisher
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "Alt") --Belt of One-Hundred Deaths
 
 LBIS:AddItem(spec, "34385", LBIS.L["Legs"], "BIS") --Leggings of the Immortal Beast
 LBIS:AddItem(spec, "34188", LBIS.L["Legs"], "Transmute BIS") --Leggings of the Immortal Night

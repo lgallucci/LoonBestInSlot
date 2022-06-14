@@ -34,11 +34,11 @@ LBIS:AddItem(spec, "24393", LBIS.L["Gloves"], "BIS") --Bloody Surgeon's Mitts
 LBIS:AddItem(spec, "28304", LBIS.L["Gloves"], "Alt") --Prismatic Mittens of Mending
 LBIS:AddItem(spec, "29315", LBIS.L["Gloves"], "Alt") --Gloves of Penitence
 
-LBIS:AddItem(spec, "30036", LBIS.L["Belt"], "BIS") --Belt of the Long Road
-LBIS:AddItem(spec, "21873", LBIS.L["Belt"], "Alt") --Primal Mooncloth Belt
-LBIS:AddItem(spec, "29250", LBIS.L["Belt"], "Alt") --Cord of Sanctification
-LBIS:AddItem(spec, "27542", LBIS.L["Belt"], "Alt") --Cord of Belief
-LBIS:AddItem(spec, "27843", LBIS.L["Belt"], "Alt") --Glyph-Lined Sash
+LBIS:AddItem(spec, "30036", LBIS.L["Waist"], "BIS") --Belt of the Long Road
+LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "Alt") --Primal Mooncloth Belt
+LBIS:AddItem(spec, "29250", LBIS.L["Waist"], "Alt") --Cord of Sanctification
+LBIS:AddItem(spec, "27542", LBIS.L["Waist"], "Alt") --Cord of Belief
+LBIS:AddItem(spec, "27843", LBIS.L["Waist"], "Alt") --Glyph-Lined Sash
 
 LBIS:AddItem(spec, "33585", LBIS.L["Legs"], "BIS") --Achromic Trousers of the Naaru
 LBIS:AddItem(spec, "30727", LBIS.L["Legs"], "Alt") --Gilded Trousers of Benediction

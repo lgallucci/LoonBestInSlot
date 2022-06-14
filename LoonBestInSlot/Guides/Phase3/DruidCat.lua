@@ -39,10 +39,10 @@ LBIS:AddItem(spec, "30223", LBIS.L["Gloves"], "Alt") --Nordrassil Handgrips
 LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Defender
 LBIS:AddItem(spec, "32347", LBIS.L["Gloves"], "Alt") --Grips of Damnation
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "30879", LBIS.L["Belt"], "Alt") --Don Alejandro's Money Belt
-LBIS:AddItem(spec, "32265", LBIS.L["Belt"], "Alt") --Shadow-walker's Cord
-LBIS:AddItem(spec, "33879", LBIS.L["Belt"], "Alt") --Vindicator's Dragonhide Belt
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "30879", LBIS.L["Waist"], "Alt") --Don Alejandro's Money Belt
+LBIS:AddItem(spec, "32265", LBIS.L["Waist"], "Alt") --Shadow-walker's Cord
+LBIS:AddItem(spec, "33879", LBIS.L["Waist"], "Alt") --Vindicator's Dragonhide Belt
 
 LBIS:AddItem(spec, "31044", LBIS.L["Legs"], "BIS") --Thunderheart Leggings
 LBIS:AddItem(spec, "31099", LBIS.L["Legs"], "BIS") --Leggings of the Forgotten Vanquisher

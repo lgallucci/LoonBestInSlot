@@ -21,7 +21,7 @@ LBIS:AddItem(spec, "31061", LBIS.L["Gloves"], "BIS") --Handguards of Absolution
 LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Conqueror
 LBIS:AddItem(spec, "33586", LBIS.L["Gloves"], "Alt") --Studious Wraps
 
-LBIS:AddItem(spec, "32256", LBIS.L["Belt"], "BIS") --Waistwrap of Infinity
+LBIS:AddItem(spec, "32256", LBIS.L["Waist"], "BIS") --Waistwrap of Infinity
 
 LBIS:AddItem(spec, "30916", LBIS.L["Legs"], "BIS") --Leggings of Channeled Elements
 LBIS:AddItem(spec, "33584", LBIS.L["Legs"], "Alt") --Pantaloons of Arcane Annihilation

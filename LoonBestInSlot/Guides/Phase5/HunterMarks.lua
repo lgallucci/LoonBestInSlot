@@ -32,9 +32,9 @@ LBIS:AddItem(spec, "34343", LBIS.L["Gloves"], "BIS") --Thalassian Ranger Gauntle
 LBIS:AddItem(spec, "31001", LBIS.L["Gloves"], "Alt") --Gronnstalker's Gloves
 LBIS:AddItem(spec, "31094", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Protector
 
-LBIS:AddItem(spec, "34549", LBIS.L["Belt"], "BIS") --Gronnstalker's Belt
-LBIS:AddItem(spec, "34854", LBIS.L["Belt"], "BIS") --Belt of the Forgotten Protector
-LBIS:AddItem(spec, "32346", LBIS.L["Belt"], "BIS") --Boneweave Girdle
+LBIS:AddItem(spec, "34549", LBIS.L["Waist"], "BIS") --Gronnstalker's Belt
+LBIS:AddItem(spec, "34854", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Protector
+LBIS:AddItem(spec, "32346", LBIS.L["Waist"], "BIS") --Boneweave Girdle
 
 LBIS:AddItem(spec, "34188", LBIS.L["Legs"], "BIS") --Leggings of the Immortal Night
 LBIS:AddItem(spec, "34168", LBIS.L["Legs"], "BIS") --Starstalker Legguards

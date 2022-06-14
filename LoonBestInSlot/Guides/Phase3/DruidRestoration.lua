@@ -40,12 +40,12 @@ LBIS:AddItem(spec, "31032", LBIS.L["Gloves"], "Alt") --Thunderheart Gloves
 LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Vanquisher
 LBIS:AddItem(spec, "28521", LBIS.L["Gloves"], "Alt") --Mitts of the Treemender
 
-LBIS:AddItem(spec, "30895", LBIS.L["Belt"], "BIS") --Angelista's Sash
-LBIS:AddItem(spec, "32339", LBIS.L["Belt"], "BIS") --Belt of Primal Majesty
-LBIS:AddItem(spec, "21873", LBIS.L["Belt"], "Alt") --Primal Mooncloth Belt
-LBIS:AddItem(spec, "32519", LBIS.L["Belt"], "Alt") --Belt of Divine Guidance
-LBIS:AddItem(spec, "30036", LBIS.L["Belt"], "Alt") --Belt of the Long Road
-LBIS:AddItem(spec, "29984", LBIS.L["Belt"], "Alt") --Girdle of Zaetar
+LBIS:AddItem(spec, "30895", LBIS.L["Waist"], "BIS") --Angelista's Sash
+LBIS:AddItem(spec, "32339", LBIS.L["Waist"], "BIS") --Belt of Primal Majesty
+LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "Alt") --Primal Mooncloth Belt
+LBIS:AddItem(spec, "32519", LBIS.L["Waist"], "Alt") --Belt of Divine Guidance
+LBIS:AddItem(spec, "30036", LBIS.L["Waist"], "Alt") --Belt of the Long Road
+LBIS:AddItem(spec, "29984", LBIS.L["Waist"], "Alt") --Girdle of Zaetar
 
 LBIS:AddItem(spec, "30912", LBIS.L["Legs"], "BIS") --Leggings of Eternity
 LBIS:AddItem(spec, "32271", LBIS.L["Legs"], "Alt") --Kilt of Immortal Nature

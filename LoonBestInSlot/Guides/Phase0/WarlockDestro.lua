@@ -37,12 +37,12 @@ LBIS:AddItem(spec, "27465", LBIS.L["Gloves"], "Alt") --Mana-Etched Gloves
 LBIS:AddItem(spec, "27537", LBIS.L["Gloves"], "Alt") --Gloves of Oblivion
 LBIS:AddItem(spec, "24450", LBIS.L["Gloves"], "Alt") --Manaspark Gloves
 
-LBIS:AddItem(spec, "30038", LBIS.L["Belt"], "BIS") --Belt of Blasting
-LBIS:AddItem(spec, "21846", LBIS.L["Belt"], "BIS") --Spellfire Belt
-LBIS:AddItem(spec, "24256", LBIS.L["Belt"], "BIS") --Girdle of Ruination
-LBIS:AddItem(spec, "22730", LBIS.L["Belt"], "Alt") --Eyestalk Waist Cord
-LBIS:AddItem(spec, "31461", LBIS.L["Belt"], "Alt") --A'dal's Gift
-LBIS:AddItem(spec, "27795", LBIS.L["Belt"], "Alt") --Sash of Serpentra
+LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
+LBIS:AddItem(spec, "21846", LBIS.L["Waist"], "BIS") --Spellfire Belt
+LBIS:AddItem(spec, "24256", LBIS.L["Waist"], "BIS") --Girdle of Ruination
+LBIS:AddItem(spec, "22730", LBIS.L["Waist"], "Alt") --Eyestalk Waist Cord
+LBIS:AddItem(spec, "31461", LBIS.L["Waist"], "Alt") --A'dal's Gift
+LBIS:AddItem(spec, "27795", LBIS.L["Waist"], "Alt") --Sash of Serpentra
 
 LBIS:AddItem(spec, "24262", LBIS.L["Legs"], "BIS") --Spellstrike Pants
 LBIS:AddItem(spec, "30531", LBIS.L["Legs"], "BIS") --Breeches of the Occultist

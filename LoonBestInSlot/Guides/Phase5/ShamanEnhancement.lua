@@ -37,9 +37,9 @@ LBIS:AddItem(spec, "32347", LBIS.L["Gloves"], "Alt") --Grips of Damnation
 LBIS:AddItem(spec, "32234", LBIS.L["Gloves"], "Alt") --Fists of Mukoa
 LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "Alt") --Gloves of the Searing Grip
 
-LBIS:AddItem(spec, "34545", LBIS.L["Belt"], "BIS") --Skyshatter Girdle
-LBIS:AddItem(spec, "34854", LBIS.L["Belt"], "BIS") --Belt of the Forgotten Protector
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "34545", LBIS.L["Waist"], "BIS") --Skyshatter Girdle
+LBIS:AddItem(spec, "34854", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Protector
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 
 LBIS:AddItem(spec, "34188", LBIS.L["Legs"], "BIS") --Leggings of the Immortal Night
 LBIS:AddItem(spec, "30900", LBIS.L["Legs"], "Alt") --Bow-stitched Leggings

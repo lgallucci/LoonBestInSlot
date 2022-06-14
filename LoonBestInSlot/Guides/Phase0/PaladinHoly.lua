@@ -37,11 +37,11 @@ LBIS:AddItem(spec, "27457", LBIS.L["Gloves"], "Alt") --Life Bearer's Gauntlets
 LBIS:AddItem(spec, "28304", LBIS.L["Gloves"], "Alt") --Prismatic Mittens of Mending
 LBIS:AddItem(spec, "29327", LBIS.L["Gloves"], "Alt") --Cryo-mitts
 
-LBIS:AddItem(spec, "21873", LBIS.L["Belt"], "BIS") --Primal Mooncloth Belt
-LBIS:AddItem(spec, "29524", LBIS.L["Belt"], "Alt") --Windhawk Belt
-LBIS:AddItem(spec, "29250", LBIS.L["Belt"], "Alt") --Cord of Sanctification
-LBIS:AddItem(spec, "21582", LBIS.L["Belt"], "Alt") --Grasp of the Old God
-LBIS:AddItem(spec, "30932", LBIS.L["Belt"], "Alt") --Akama's Sash
+LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt
+LBIS:AddItem(spec, "29524", LBIS.L["Waist"], "Alt") --Windhawk Belt
+LBIS:AddItem(spec, "29250", LBIS.L["Waist"], "Alt") --Cord of Sanctification
+LBIS:AddItem(spec, "21582", LBIS.L["Waist"], "Alt") --Grasp of the Old God
+LBIS:AddItem(spec, "30932", LBIS.L["Waist"], "Alt") --Akama's Sash
 
 LBIS:AddItem(spec, "24261", LBIS.L["Legs"], "BIS") --Whitemend Pants
 LBIS:AddItem(spec, "30543", LBIS.L["Legs"], "Alt") --Pontifex Kilt

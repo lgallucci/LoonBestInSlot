@@ -27,9 +27,9 @@ LBIS:AddItem(spec, "29048", LBIS.L["Gloves"], "Alt") --Netherblade Gloves
 LBIS:AddItem(spec, "29757", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Champion
 LBIS:AddItem(spec, "28506", LBIS.L["Gloves"], "Alt") --Gloves of Dexterous Manipulation
 
-LBIS:AddItem(spec, "29247", LBIS.L["Belt"], "BIS") --Girdle of the Deathdealer
-LBIS:AddItem(spec, "28828", LBIS.L["Belt"], "Alt") --Gronn-Stitched Girdle
-LBIS:AddItem(spec, "28750", LBIS.L["Belt"], "Alt") --Girdle of Treachery
+LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "BIS") --Girdle of the Deathdealer
+LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "Alt") --Gronn-Stitched Girdle
+LBIS:AddItem(spec, "28750", LBIS.L["Waist"], "Alt") --Girdle of Treachery
 
 LBIS:AddItem(spec, "28741", LBIS.L["Legs"], "BIS") --Skulker's Greaves
 LBIS:AddItem(spec, "29046", LBIS.L["Legs"], "BIS") --Netherblade Breeches

@@ -46,7 +46,6 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Bear"] = "";
   LBIS.L["Beast Mastery"] = "true";
 --  LBIS.L["Beasts Deck"] = "";
---  LBIS.L["Belt"] = "";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Black Temple"] = "검은 사원";
 --  LBIS.L["Black Temple / Hyjal Summit"] = "";
@@ -403,6 +402,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Vendor"] = "상인";
   LBIS.L["Vexallus"] = "벡살루스";
   LBIS.L["Void Reaver"] = "공허의 절단기";
+  LBIS.L["Waist"] = "허리";
   LBIS.L["Wand"] = "마법봉";
   LBIS.L["Wanted: Annihilator Servo!"] = "구함: 파멸자 제어장치!";
   LBIS.L["Warbringer O'mrogg"] = "돌격대장 오므로그";

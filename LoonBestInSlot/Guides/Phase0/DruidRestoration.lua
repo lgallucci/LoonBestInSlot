@@ -48,13 +48,13 @@ LBIS:AddItem(spec, "25791", LBIS.L["Gloves"], "Alt") --Gloves of Preservation
 LBIS:AddItem(spec, "28268", LBIS.L["Gloves"], "Alt") --Natural Mender's Wraps
 LBIS:AddItem(spec, "29327", LBIS.L["Gloves"], "Alt") --Cryo-mitts
 
-LBIS:AddItem(spec, "30036", LBIS.L["Belt"], "BIS") --Belt of the Long Road
-LBIS:AddItem(spec, "21873", LBIS.L["Belt"], "BIS") --Primal Mooncloth Belt
-LBIS:AddItem(spec, "29524", LBIS.L["Belt"], "Alt") --Windhawk Belt
-LBIS:AddItem(spec, "29250", LBIS.L["Belt"], "Alt") --Cord of Sanctification
-LBIS:AddItem(spec, "31594", LBIS.L["Belt"], "Alt") --General's Kodohide Belt
-LBIS:AddItem(spec, "27542", LBIS.L["Belt"], "Alt") --Cord of Belief
-LBIS:AddItem(spec, "28398", LBIS.L["Belt"], "Alt") --The Sleeper's Cord
+LBIS:AddItem(spec, "30036", LBIS.L["Waist"], "BIS") --Belt of the Long Road
+LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt
+LBIS:AddItem(spec, "29524", LBIS.L["Waist"], "Alt") --Windhawk Belt
+LBIS:AddItem(spec, "29250", LBIS.L["Waist"], "Alt") --Cord of Sanctification
+LBIS:AddItem(spec, "31594", LBIS.L["Waist"], "Alt") --General's Kodohide Belt
+LBIS:AddItem(spec, "27542", LBIS.L["Waist"], "Alt") --Cord of Belief
+LBIS:AddItem(spec, "28398", LBIS.L["Waist"], "Alt") --The Sleeper's Cord
 
 LBIS:AddItem(spec, "24261", LBIS.L["Legs"], "BIS") --Whitemend Pants
 LBIS:AddItem(spec, "30543", LBIS.L["Legs"], "BIS") --Pontifex Kilt

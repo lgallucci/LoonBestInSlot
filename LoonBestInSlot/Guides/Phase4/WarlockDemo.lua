@@ -29,10 +29,10 @@ LBIS:AddItem(spec, "31050", LBIS.L["Gloves"], "BIS") --Gloves of the Malefic
 LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Conqueror
 LBIS:AddItem(spec, "33586", LBIS.L["Gloves"], "Alt") --Studious Wraps
 
-LBIS:AddItem(spec, "30038", LBIS.L["Belt"], "BIS") --Belt of Blasting
-LBIS:AddItem(spec, "30888", LBIS.L["Belt"], "BIS") --Anetheron's Noose
-LBIS:AddItem(spec, "32256", LBIS.L["Belt"], "BIS") --Waistwrap of Infinity
-LBIS:AddItem(spec, "33291", LBIS.L["Belt"], "Alt") --Voodoo-woven Belt
+LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
+LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "BIS") --Anetheron's Noose
+LBIS:AddItem(spec, "32256", LBIS.L["Waist"], "BIS") --Waistwrap of Infinity
+LBIS:AddItem(spec, "33291", LBIS.L["Waist"], "Alt") --Voodoo-woven Belt
 
 LBIS:AddItem(spec, "31053", LBIS.L["Legs"], "BIS") --Leggings of the Malefic
 LBIS:AddItem(spec, "31098", LBIS.L["Legs"], "BIS") --Leggings of the Forgotten Conqueror

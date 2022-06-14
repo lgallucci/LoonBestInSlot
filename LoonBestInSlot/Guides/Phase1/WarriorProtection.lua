@@ -35,9 +35,9 @@ LBIS:AddItem(spec, "28518", LBIS.L["Gloves"], "Alt Mit") --Iron Gauntlets of the
 LBIS:AddItem(spec, "29017", LBIS.L["Gloves"], "Alt Mit") --Warbringer Handguards
 LBIS:AddItem(spec, "29758", LBIS.L["Gloves"], "Alt Mit") --Gloves of the Fallen Defender
 
-LBIS:AddItem(spec, "28995", LBIS.L["Belt"], "BIS") --Marshal's Plate Belt
-LBIS:AddItem(spec, "28566", LBIS.L["Belt"], "BIS Mit") --Crimson Girdle of the Indomitable
-LBIS:AddItem(spec, "28779", LBIS.L["Belt"], "BIS Thrt") --Girdle of the Endless Pit
+LBIS:AddItem(spec, "28995", LBIS.L["Waist"], "BIS") --Marshal's Plate Belt
+LBIS:AddItem(spec, "28566", LBIS.L["Waist"], "BIS Mit") --Crimson Girdle of the Indomitable
+LBIS:AddItem(spec, "28779", LBIS.L["Waist"], "BIS Thrt") --Girdle of the Endless Pit
 
 LBIS:AddItem(spec, "28621", LBIS.L["Legs"], "BIS Mit") --Wrynn Dynasty Greaves
 LBIS:AddItem(spec, "24547", LBIS.L["Legs"], "BIS Thrt") --Gladiator's Plate Legguards

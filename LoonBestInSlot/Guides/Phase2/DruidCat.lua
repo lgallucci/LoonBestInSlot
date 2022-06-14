@@ -28,10 +28,10 @@ LBIS:AddItem(spec, "30223", LBIS.L["Gloves"], "BIS") --Nordrassil Handgrips
 LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Defender
 LBIS:AddItem(spec, "28506", LBIS.L["Gloves"], "Alt") --Gloves of Dexterous Manipulation
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "30040", LBIS.L["Belt"], "Alt") --Belt of Deep Shadow
-LBIS:AddItem(spec, "29247", LBIS.L["Belt"], "Alt") --Girdle of the Deathdealer
-LBIS:AddItem(spec, "30042", LBIS.L["Belt"], "Alt") --Belt of Natural Power
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "30040", LBIS.L["Waist"], "Alt") --Belt of Deep Shadow
+LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "Alt") --Girdle of the Deathdealer
+LBIS:AddItem(spec, "30042", LBIS.L["Waist"], "Alt") --Belt of Natural Power
 
 LBIS:AddItem(spec, "28741", LBIS.L["Legs"], "BIS") --Skulker's Greaves
 LBIS:AddItem(spec, "29995", LBIS.L["Legs"], "BIS") --Leggings of Murderous Intent

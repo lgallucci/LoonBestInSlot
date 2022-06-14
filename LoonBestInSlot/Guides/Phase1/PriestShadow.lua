@@ -25,7 +25,7 @@ LBIS:AddItem(spec, "28507", LBIS.L["Gloves"], "BIS") --Handwraps of Flowing Thou
 LBIS:AddItem(spec, "28780", LBIS.L["Gloves"], "Alt") --Soul-Eater's Handwraps
 LBIS:AddItem(spec, "30725", LBIS.L["Gloves"], "Alt") --Anger-Spark Gloves
 
-LBIS:AddItem(spec, "28799", LBIS.L["Belt"], "BIS") --Belt of Divine Inspiration
+LBIS:AddItem(spec, "28799", LBIS.L["Waist"], "BIS") --Belt of Divine Inspiration
 
 LBIS:AddItem(spec, "24262", LBIS.L["Legs"], "BIS") --Spellstrike Pants
 LBIS:AddItem(spec, "30734", LBIS.L["Legs"], "BIS") --Leggings of the Seventh Circle

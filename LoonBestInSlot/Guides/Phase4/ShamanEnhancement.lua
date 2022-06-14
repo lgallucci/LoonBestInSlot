@@ -23,7 +23,7 @@ LBIS:AddItem(spec, "32234", LBIS.L["Gloves"], "BIS") --Fists of Mukoa
 LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "BIS") --Gloves of the Searing Grip
 LBIS:AddItem(spec, "33539", LBIS.L["Gloves"], "Alt") --Trickster's Stickyfingers
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 
 LBIS:AddItem(spec, "30900", LBIS.L["Legs"], "BIS") --Bow-stitched Leggings
 LBIS:AddItem(spec, "33538", LBIS.L["Legs"], "Alt") --Shallow-grave Trousers

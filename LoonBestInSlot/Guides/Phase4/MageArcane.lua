@@ -27,9 +27,9 @@ LBIS:AddItem(spec, "30205", LBIS.L["Gloves"], "BIS") --Gloves of Tirisfal
 LBIS:AddItem(spec, "30241", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Hero
 LBIS:AddItem(spec, "33586", LBIS.L["Gloves"], "Alt") --Studious Wraps
 
-LBIS:AddItem(spec, "30888", LBIS.L["Belt"], "BIS") --Anetheron's Noose
-LBIS:AddItem(spec, "32256", LBIS.L["Belt"], "Alt") --Waistwrap of Infinity
-LBIS:AddItem(spec, "33291", LBIS.L["Belt"], "Alt") --Voodoo-woven Belt
+LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "BIS") --Anetheron's Noose
+LBIS:AddItem(spec, "32256", LBIS.L["Waist"], "Alt") --Waistwrap of Infinity
+LBIS:AddItem(spec, "33291", LBIS.L["Waist"], "Alt") --Voodoo-woven Belt
 
 LBIS:AddItem(spec, "30916", LBIS.L["Legs"], "BIS") --Leggings of Channeled Elements
 LBIS:AddItem(spec, "31058", LBIS.L["Legs"], "Alt") --Leggings of the Tempest

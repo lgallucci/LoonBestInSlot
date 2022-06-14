@@ -39,10 +39,10 @@ LBIS:AddItem(spec, "29065", LBIS.L["Gloves"], "Alt") --Justicar Gloves
 LBIS:AddItem(spec, "29757", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Champion
 LBIS:AddItem(spec, "29506", LBIS.L["Gloves"], "Alt") --Gloves of the Living Touch
 
-LBIS:AddItem(spec, "21873", LBIS.L["Belt"], "BIS") --Primal Mooncloth Belt
-LBIS:AddItem(spec, "28733", LBIS.L["Belt"], "Alt") --Girdle of Truth
-LBIS:AddItem(spec, "28655", LBIS.L["Belt"], "Alt") --Cord of Nature's Sustenance
-LBIS:AddItem(spec, "32985", LBIS.L["Belt"], "Alt") --Marshal's Ornamented Belt
+LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt
+LBIS:AddItem(spec, "28733", LBIS.L["Waist"], "Alt") --Girdle of Truth
+LBIS:AddItem(spec, "28655", LBIS.L["Waist"], "Alt") --Cord of Nature's Sustenance
+LBIS:AddItem(spec, "32985", LBIS.L["Waist"], "Alt") --Marshal's Ornamented Belt
 
 LBIS:AddItem(spec, "30727", LBIS.L["Legs"], "BIS") --Gilded Trousers of Benediction
 LBIS:AddItem(spec, "28751", LBIS.L["Legs"], "Alt") --Heart-Flame Leggings

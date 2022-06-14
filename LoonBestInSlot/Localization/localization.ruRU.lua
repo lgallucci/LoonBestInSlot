@@ -46,7 +46,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Bear"] = "";
   LBIS.L["Beast Mastery"] = "Чувство зверя";
 --  LBIS.L["Beasts Deck"] = "";
---  LBIS.L["Belt"] = "";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Black Temple"] = "Черный храм";
 --  LBIS.L["Black Temple / Hyjal Summit"] = "";
@@ -403,6 +402,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Vendor"] = "Торговец";
   LBIS.L["Vexallus"] = "Вексалиус";
   LBIS.L["Void Reaver"] = "Страж Бездны";
+  LBIS.L["Waist"] = "Пояс";
   LBIS.L["Wand"] = "Жезл";
   LBIS.L["Wanted: Annihilator Servo!"] = "Разыскивается: аннигиляторный сервопривод!";
   LBIS.L["Warbringer O'mrogg"] = "О'мрогг Завоеватель";

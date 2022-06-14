@@ -46,7 +46,6 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Bear"] = "";
   LBIS.L["Beast Mastery"] = "野獸控制";
 --  LBIS.L["Beasts Deck"] = "";
---  LBIS.L["Belt"] = "";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Black Temple"] = "黑暗神廟";
 --  LBIS.L["Black Temple / Hyjal Summit"] = "";
@@ -403,6 +402,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Vendor"] = "商人";
   LBIS.L["Vexallus"] = "維克索魯斯";
   LBIS.L["Void Reaver"] = "虛無劫奪者";
+  LBIS.L["Waist"] = "腰部";
   LBIS.L["Wand"] = "魔杖";
   LBIS.L["Wanted: Annihilator Servo!"] = "懸賞:殲滅者伺服電動機!";
   LBIS.L["Warbringer O'mrogg"] = "戰爭使者歐姆拉格";

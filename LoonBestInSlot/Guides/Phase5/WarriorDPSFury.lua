@@ -36,9 +36,9 @@ LBIS:AddItem(spec, "34370", LBIS.L["Gloves"], "BIS") --Gloves of Immortal Dusk
 LBIS:AddItem(spec, "34341", LBIS.L["Gloves"], "Alt") --Borderland Paingrips
 LBIS:AddItem(spec, "32278", LBIS.L["Gloves"], "Alt") --Grips of Silent Justice
 
-LBIS:AddItem(spec, "34546", LBIS.L["Belt"], "BIS") --Onslaught Belt
-LBIS:AddItem(spec, "34854", LBIS.L["Belt"], "BIS") --Belt of the Forgotten Protector
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "34546", LBIS.L["Waist"], "BIS") --Onslaught Belt
+LBIS:AddItem(spec, "34854", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Protector
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 
 LBIS:AddItem(spec, "34180", LBIS.L["Legs"], "BIS") --Felfury Legplates
 LBIS:AddItem(spec, "34188", LBIS.L["Legs"], "BIS") --Leggings of the Immortal Night

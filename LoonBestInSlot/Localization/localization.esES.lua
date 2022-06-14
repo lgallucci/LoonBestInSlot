@@ -46,7 +46,6 @@ if GetLocale() == "esES" then
   LBIS.L["Bear"] = "Oso";
   LBIS.L["Beast Mastery"] = "Dominio de bestias";
   LBIS.L["Beasts Deck"] = "Baraja Bestias";
-  LBIS.L["Belt"] = "Cinturón";
   LBIS.L["BIS"] = "BIS";
   LBIS.L["Black Temple"] = "Templo Oscuro";
   LBIS.L["Black Temple / Hyjal Summit"] = "Templo Oscuro / La Cima Hyjal";
@@ -403,6 +402,7 @@ if GetLocale() == "esES" then
   LBIS.L["Vendor"] = "Vendedor";
   LBIS.L["Vexallus"] = "Vexallus";
   LBIS.L["Void Reaver"] = "Atracador del vacío";
+  LBIS.L["Waist"] = "Cintura";
   LBIS.L["Wand"] = "Varita";
   LBIS.L["Wanted: Annihilator Servo!"] = "Se busca: servoaniquilador";
   LBIS.L["Warbringer O'mrogg"] = "Belisario O'mrogg";

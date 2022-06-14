@@ -33,9 +33,9 @@ LBIS:AddItem(spec, "34378", LBIS.L["Gloves"], "Alt") --Hard Khorium Battlefists
 LBIS:AddItem(spec, "34341", LBIS.L["Gloves"], "Alt") --Borderland Paingrips
 LBIS:AddItem(spec, "34352", LBIS.L["Gloves"], "BIS Mit") --Borderland Fortress Grips
 
-LBIS:AddItem(spec, "34547", LBIS.L["Belt"], "BIS") --Onslaught Waistguard
-LBIS:AddItem(spec, "34854", LBIS.L["Belt"], "BIS") --Belt of the Forgotten Protector
-LBIS:AddItem(spec, "34941", LBIS.L["Belt"], "Alt") --Girdle of the Fearless
+LBIS:AddItem(spec, "34547", LBIS.L["Waist"], "BIS") --Onslaught Waistguard
+LBIS:AddItem(spec, "34854", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Protector
+LBIS:AddItem(spec, "34941", LBIS.L["Waist"], "Alt") --Girdle of the Fearless
 
 LBIS:AddItem(spec, "34381", LBIS.L["Legs"], "BIS") --Felstrength Legplates
 LBIS:AddItem(spec, "34180", LBIS.L["Legs"], "Transmute BIS") --Felfury Legplates

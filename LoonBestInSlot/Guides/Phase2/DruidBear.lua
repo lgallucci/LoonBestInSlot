@@ -41,11 +41,11 @@ LBIS:AddItem(spec, "29758", LBIS.L["Gloves"], "Alt Mit") --Gloves of the Fallen 
 LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "Alt Thrt") --Grips of Deftness
 LBIS:AddItem(spec, "31967", LBIS.L["Gloves"], "Alt") --Merciless Gladiator's Dragonhide Gloves
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "30042", LBIS.L["Belt"], "Alt") --Belt of Natural Power
-LBIS:AddItem(spec, "30040", LBIS.L["Belt"], "Alt") --Belt of Deep Shadow
-LBIS:AddItem(spec, "29264", LBIS.L["Belt"], "Alt") --Tree-Mender's Belt
-LBIS:AddItem(spec, "32802", LBIS.L["Belt"], "Alt Mit") --Veteran's Leather Belt
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "30042", LBIS.L["Waist"], "Alt") --Belt of Natural Power
+LBIS:AddItem(spec, "30040", LBIS.L["Waist"], "Alt") --Belt of Deep Shadow
+LBIS:AddItem(spec, "29264", LBIS.L["Waist"], "Alt") --Tree-Mender's Belt
+LBIS:AddItem(spec, "32802", LBIS.L["Waist"], "Alt Mit") --Veteran's Leather Belt
 
 LBIS:AddItem(spec, "30229", LBIS.L["Legs"], "BIS") --Nordrassil Feral-Kilt
 LBIS:AddItem(spec, "30246", LBIS.L["Legs"], "BIS") --Leggings of the Vanquished Defender

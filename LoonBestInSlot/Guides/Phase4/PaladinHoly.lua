@@ -17,8 +17,8 @@ LBIS:AddItem(spec, "30862", LBIS.L["Bracers"], "BIS") --Blessed Adamantite Brace
 
 LBIS:AddItem(spec, "30112", LBIS.L["Gloves"], "BIS") --Glorious Gauntlets of Crestfall
 
-LBIS:AddItem(spec, "30897", LBIS.L["Belt"], "BIS") --Girdle of Hope
-LBIS:AddItem(spec, "33446", LBIS.L["Belt"], "BIS") --Girdle of Stromgarde's Hope
+LBIS:AddItem(spec, "30897", LBIS.L["Waist"], "BIS") --Girdle of Hope
+LBIS:AddItem(spec, "33446", LBIS.L["Waist"], "BIS") --Girdle of Stromgarde's Hope
 
 LBIS:AddItem(spec, "30994", LBIS.L["Legs"], "BIS") --Lightbringer Leggings
 LBIS:AddItem(spec, "31098", LBIS.L["Legs"], "BIS") --Leggings of the Forgotten Conqueror

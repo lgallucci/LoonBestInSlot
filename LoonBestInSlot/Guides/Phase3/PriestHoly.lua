@@ -37,10 +37,10 @@ LBIS:AddItem(spec, "30151", LBIS.L["Gloves"], "BIS") --Gloves of the Avatar
 LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Defender
 LBIS:AddItem(spec, "32353", LBIS.L["Gloves"], "Alt") --Gloves of Unfailing Faith
 
-LBIS:AddItem(spec, "30895", LBIS.L["Belt"], "BIS") --Angelista's Sash
-LBIS:AddItem(spec, "32519", LBIS.L["Belt"], "BIS") --Belt of Divine Guidance
-LBIS:AddItem(spec, "30036", LBIS.L["Belt"], "Alt") --Belt of the Long Road
-LBIS:AddItem(spec, "21873", LBIS.L["Belt"], "Alt") --Primal Mooncloth Belt
+LBIS:AddItem(spec, "30895", LBIS.L["Waist"], "BIS") --Angelista's Sash
+LBIS:AddItem(spec, "32519", LBIS.L["Waist"], "BIS") --Belt of Divine Guidance
+LBIS:AddItem(spec, "30036", LBIS.L["Waist"], "Alt") --Belt of the Long Road
+LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "Alt") --Primal Mooncloth Belt
 
 LBIS:AddItem(spec, "30912", LBIS.L["Legs"], "BIS") --Leggings of Eternity
 LBIS:AddItem(spec, "31068", LBIS.L["Legs"], "Alt") --Breeches of Absolution

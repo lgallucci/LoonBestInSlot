@@ -30,10 +30,10 @@ LBIS:AddItem(spec, "30140", LBIS.L["Gloves"], "BIS") --Rift Stalker Gauntlets
 LBIS:AddItem(spec, "30241", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Hero
 LBIS:AddItem(spec, "27474", LBIS.L["Gloves"], "Alt") --Beast Lord Handguards
 
-LBIS:AddItem(spec, "30040", LBIS.L["Belt"], "BIS") --Belt of Deep Shadow
-LBIS:AddItem(spec, "30046", LBIS.L["Belt"], "Alt") --Belt of the Black Eagle
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "Alt") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "28828", LBIS.L["Belt"], "Alt") --Gronn-Stitched Girdle
+LBIS:AddItem(spec, "30040", LBIS.L["Waist"], "BIS") --Belt of Deep Shadow
+LBIS:AddItem(spec, "30046", LBIS.L["Waist"], "Alt") --Belt of the Black Eagle
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "Alt") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "Alt") --Gronn-Stitched Girdle
 
 LBIS:AddItem(spec, "29995", LBIS.L["Legs"], "BIS") --Leggings of Murderous Intent
 LBIS:AddItem(spec, "29985", LBIS.L["Legs"], "Alt") --Void Reaver Greaves

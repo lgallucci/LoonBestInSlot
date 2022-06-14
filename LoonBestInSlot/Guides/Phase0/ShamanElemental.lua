@@ -30,10 +30,10 @@ LBIS:AddItem(spec, "31149", LBIS.L["Gloves"], "Alt") --Gloves of Pandemonium
 LBIS:AddItem(spec, "31280", LBIS.L["Gloves"], "Alt") --Thundercaller's Gauntlets
 LBIS:AddItem(spec, "30930", LBIS.L["Gloves"], "Alt") --Grips of the Void
 
-LBIS:AddItem(spec, "29520", LBIS.L["Belt"], "BIS") --Netherstrike Belt
-LBIS:AddItem(spec, "24256", LBIS.L["Belt"], "BIS") --Girdle of Ruination
-LBIS:AddItem(spec, "29524", LBIS.L["Belt"], "BIS") --Windhawk Belt
-LBIS:AddItem(spec, "31283", LBIS.L["Belt"], "Alt") --Sash of Sealed Fate
+LBIS:AddItem(spec, "29520", LBIS.L["Waist"], "BIS") --Netherstrike Belt
+LBIS:AddItem(spec, "24256", LBIS.L["Waist"], "BIS") --Girdle of Ruination
+LBIS:AddItem(spec, "29524", LBIS.L["Waist"], "BIS") --Windhawk Belt
+LBIS:AddItem(spec, "31283", LBIS.L["Waist"], "Alt") --Sash of Sealed Fate
 
 LBIS:AddItem(spec, "24262", LBIS.L["Legs"], "BIS") --Spellstrike Pants
 LBIS:AddItem(spec, "30541", LBIS.L["Legs"], "Alt") --Stormsong Kilt

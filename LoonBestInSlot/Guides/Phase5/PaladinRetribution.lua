@@ -31,8 +31,8 @@ LBIS:AddItem(spec, "34343", LBIS.L["Gloves"], "BIS") --Thalassian Ranger Gauntle
 LBIS:AddItem(spec, "34370", LBIS.L["Gloves"], "BIS") --Gloves of Immortal Dusk
 LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "Alt") --Gloves of the Searing Grip
 
-LBIS:AddItem(spec, "34485", LBIS.L["Belt"], "BIS") --Lightbringer Girdle
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "Alt") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "34485", LBIS.L["Waist"], "BIS") --Lightbringer Girdle
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "Alt") --Belt of One-Hundred Deaths
 
 LBIS:AddItem(spec, "34180", LBIS.L["Legs"], "BIS") --Felfury Legplates
 LBIS:AddItem(spec, "34188", LBIS.L["Legs"], "Alt") --Leggings of the Immortal Night

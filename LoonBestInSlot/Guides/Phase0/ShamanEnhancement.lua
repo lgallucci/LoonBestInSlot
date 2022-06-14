@@ -35,11 +35,11 @@ LBIS:AddItem(spec, "30341", LBIS.L["Gloves"], "Alt") --Flesh Handler's Gauntlets
 LBIS:AddItem(spec, "29503", LBIS.L["Gloves"], "Alt") --Cobrascale Gloves
 LBIS:AddItem(spec, "28396", LBIS.L["Gloves"], "Alt") --Gloves of the Unbound
 
-LBIS:AddItem(spec, "29526", LBIS.L["Belt"], "BIS") --Primalstrike Belt
-LBIS:AddItem(spec, "29516", LBIS.L["Belt"], "BIS") --Ebon Netherscale Belt
-LBIS:AddItem(spec, "29247", LBIS.L["Belt"], "BIS") --Girdle of the Deathdealer
-LBIS:AddItem(spec, "27911", LBIS.L["Belt"], "Alt") --Epoch's Whispering Cinch
-LBIS:AddItem(spec, "31462", LBIS.L["Belt"], "Alt") --Shattrath's Champion Belt
+LBIS:AddItem(spec, "29526", LBIS.L["Waist"], "BIS") --Primalstrike Belt
+LBIS:AddItem(spec, "29516", LBIS.L["Waist"], "BIS") --Ebon Netherscale Belt
+LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "BIS") --Girdle of the Deathdealer
+LBIS:AddItem(spec, "27911", LBIS.L["Waist"], "Alt") --Epoch's Whispering Cinch
+LBIS:AddItem(spec, "31462", LBIS.L["Waist"], "Alt") --Shattrath's Champion Belt
 
 LBIS:AddItem(spec, "31544", LBIS.L["Legs"], "BIS") --Clefthoof Hide Leggings
 LBIS:AddItem(spec, "25687", LBIS.L["Legs"], "Alt") --Fel Leather Leggings

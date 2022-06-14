@@ -17,9 +17,9 @@ LBIS:AddItem(spec, "32574", LBIS.L["Bracers"], "BIS") --Bindings of Lightning Re
 LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "BIS") --Gloves of the Searing Grip
 LBIS:AddItem(spec, "32347", LBIS.L["Gloves"], "Alt") --Grips of Damnation
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "32265", LBIS.L["Belt"], "Alt") --Shadow-walker's Cord
-LBIS:AddItem(spec, "32606", LBIS.L["Belt"], "Alt") --Girdle of the Lightbearer
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "32265", LBIS.L["Waist"], "Alt") --Shadow-walker's Cord
+LBIS:AddItem(spec, "32606", LBIS.L["Waist"], "Alt") --Girdle of the Lightbearer
 
 LBIS:AddItem(spec, "30900", LBIS.L["Legs"], "BIS") --Bow-stitched Leggings
 

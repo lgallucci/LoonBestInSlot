@@ -34,9 +34,9 @@ LBIS:AddItem(spec, "30241", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished 
 LBIS:AddItem(spec, "34344", LBIS.L["Gloves"], "Alt") --Handguards of Defiled Worlds
 LBIS:AddItem(spec, "34366", LBIS.L["Gloves"], "Alt") --Sunfire Handwraps
 
-LBIS:AddItem(spec, "34557", LBIS.L["Belt"], "BIS") --Belt of the Tempest
-LBIS:AddItem(spec, "34855", LBIS.L["Belt"], "BIS") --Belt of the Forgotten Vanquisher
-LBIS:AddItem(spec, "30888", LBIS.L["Belt"], "Alt") --Anetheron's Noose
+LBIS:AddItem(spec, "34557", LBIS.L["Waist"], "BIS") --Belt of the Tempest
+LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Vanquisher
+LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "Alt") --Anetheron's Noose
 
 LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "BIS") --Leggings of Calamity
 LBIS:AddItem(spec, "34386", LBIS.L["Legs"], "Alt") --Pantaloons of Growing Strife

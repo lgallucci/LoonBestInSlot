@@ -26,10 +26,10 @@ LBIS:AddItem(spec, "29517", LBIS.L["Bracers"], "Alt") --Ebon Netherscale Bracers
 
 LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "BIS") --Grips of Deftness
 
-LBIS:AddItem(spec, "28828", LBIS.L["Belt"], "BIS") --Gronn-Stitched Girdle
-LBIS:AddItem(spec, "29526", LBIS.L["Belt"], "Alt") --Primalstrike Belt
-LBIS:AddItem(spec, "29516", LBIS.L["Belt"], "Alt") --Ebon Netherscale Belt
-LBIS:AddItem(spec, "29247", LBIS.L["Belt"], "Alt") --Girdle of the Deathdealer
+LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "BIS") --Gronn-Stitched Girdle
+LBIS:AddItem(spec, "29526", LBIS.L["Waist"], "Alt") --Primalstrike Belt
+LBIS:AddItem(spec, "29516", LBIS.L["Waist"], "Alt") --Ebon Netherscale Belt
+LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "Alt") --Girdle of the Deathdealer
 
 LBIS:AddItem(spec, "28741", LBIS.L["Legs"], "BIS") --Skulker's Greaves
 LBIS:AddItem(spec, "31544", LBIS.L["Legs"], "Alt") --Clefthoof Hide Leggings

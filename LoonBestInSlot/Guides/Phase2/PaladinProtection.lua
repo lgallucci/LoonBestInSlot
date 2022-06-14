@@ -32,10 +32,10 @@ LBIS:AddItem(spec, "29067", LBIS.L["Gloves"], "Alt Thrt") --Justicar Handguards
 LBIS:AddItem(spec, "29757", LBIS.L["Gloves"], "Alt Thrt") --Gloves of the Fallen Champion
 LBIS:AddItem(spec, "28518", LBIS.L["Gloves"], "Alt Mit") --Iron Gauntlets of the Maiden
 
-LBIS:AddItem(spec, "30034", LBIS.L["Belt"], "BIS") --Belt of the Guardian
-LBIS:AddItem(spec, "30096", LBIS.L["Belt"], "BIS Mit") --Girdle of the Invulnerable
-LBIS:AddItem(spec, "29253", LBIS.L["Belt"], "Alt") --Girdle of Valorous Deeds
-LBIS:AddItem(spec, "28566", LBIS.L["Belt"], "Alt") --Crimson Girdle of the Indomitable
+LBIS:AddItem(spec, "30034", LBIS.L["Waist"], "BIS") --Belt of the Guardian
+LBIS:AddItem(spec, "30096", LBIS.L["Waist"], "BIS Mit") --Girdle of the Invulnerable
+LBIS:AddItem(spec, "29253", LBIS.L["Waist"], "Alt") --Girdle of Valorous Deeds
+LBIS:AddItem(spec, "28566", LBIS.L["Waist"], "Alt") --Crimson Girdle of the Indomitable
 
 LBIS:AddItem(spec, "30126", LBIS.L["Legs"], "BIS Thrt") --Crystalforge Legguards
 LBIS:AddItem(spec, "30245", LBIS.L["Legs"], "BIS Thrt") --Leggings of the Vanquished Champion

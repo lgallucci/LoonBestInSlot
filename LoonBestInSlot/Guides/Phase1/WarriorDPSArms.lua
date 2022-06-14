@@ -32,9 +32,9 @@ LBIS:AddItem(spec, "29758", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Defe
 LBIS:AddItem(spec, "25685", LBIS.L["Gloves"], "BIS") --Fel Leather Gloves
 LBIS:AddItem(spec, "27497", LBIS.L["Gloves"], "Alt") --Doomplate Gauntlets
 
-LBIS:AddItem(spec, "28779", LBIS.L["Belt"], "BIS") --Girdle of the Endless Pit
-LBIS:AddItem(spec, "28828", LBIS.L["Belt"], "Alt") --Gronn-Stitched Girdle
-LBIS:AddItem(spec, "27985", LBIS.L["Belt"], "Alt") --Deathforge Girdle
+LBIS:AddItem(spec, "28779", LBIS.L["Waist"], "BIS") --Girdle of the Endless Pit
+LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "Alt") --Gronn-Stitched Girdle
+LBIS:AddItem(spec, "27985", LBIS.L["Waist"], "Alt") --Deathforge Girdle
 
 LBIS:AddItem(spec, "30739", LBIS.L["Legs"], "BIS") --Scaled Greaves of the Marksman
 LBIS:AddItem(spec, "28741", LBIS.L["Legs"], "BIS") --Skulker's Greaves

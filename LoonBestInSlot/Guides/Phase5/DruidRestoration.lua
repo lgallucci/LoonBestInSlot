@@ -37,11 +37,11 @@ LBIS:AddItem(spec, "34367", LBIS.L["Gloves"], "BIS") --Hands of Eternal Light
 LBIS:AddItem(spec, "34351", LBIS.L["Gloves"], "BIS") --Tranquil Majesty Wraps
 LBIS:AddItem(spec, "32328", LBIS.L["Gloves"], "Alt") --Botanist's Gloves of Growth
 
-LBIS:AddItem(spec, "34554", LBIS.L["Belt"], "BIS") --Thunderheart Belt
-LBIS:AddItem(spec, "34855", LBIS.L["Belt"], "BIS") --Belt of the Forgotten Vanquisher
-LBIS:AddItem(spec, "30895", LBIS.L["Belt"], "Alt") --Angelista's Sash
-LBIS:AddItem(spec, "32339", LBIS.L["Belt"], "Alt") --Belt of Primal Majesty
-LBIS:AddItem(spec, "33483", LBIS.L["Belt"], "Alt") --Life-step Belt
+LBIS:AddItem(spec, "34554", LBIS.L["Waist"], "BIS") --Thunderheart Belt
+LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Vanquisher
+LBIS:AddItem(spec, "30895", LBIS.L["Waist"], "Alt") --Angelista's Sash
+LBIS:AddItem(spec, "32339", LBIS.L["Waist"], "Alt") --Belt of Primal Majesty
+LBIS:AddItem(spec, "33483", LBIS.L["Waist"], "Alt") --Life-step Belt
 
 LBIS:AddItem(spec, "34384", LBIS.L["Legs"], "BIS") --Breeches of Natural Splendor
 LBIS:AddItem(spec, "34169", LBIS.L["Legs"], "Transmute BIS") --Breeches of Natural Aggression

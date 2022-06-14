@@ -22,10 +22,10 @@ LBIS:AddItem(spec, "32582", LBIS.L["Bracers"], "BIS") --Bracers of Renewed Life
 LBIS:AddItem(spec, "32328", LBIS.L["Gloves"], "BIS") --Botanist's Gloves of Growth
 LBIS:AddItem(spec, "33531", LBIS.L["Gloves"], "Alt") --Polished Waterscale Gloves
 
-LBIS:AddItem(spec, "32258", LBIS.L["Belt"], "BIS") --Naturalist's Preserving Cinch
-LBIS:AddItem(spec, "32339", LBIS.L["Belt"], "BIS") --Belt of Primal Majesty
-LBIS:AddItem(spec, "30895", LBIS.L["Belt"], "BIS") --Angelista's Sash
-LBIS:AddItem(spec, "33386", LBIS.L["Belt"], "Alt") --Man'kin'do's Belt
+LBIS:AddItem(spec, "32258", LBIS.L["Waist"], "BIS") --Naturalist's Preserving Cinch
+LBIS:AddItem(spec, "32339", LBIS.L["Waist"], "BIS") --Belt of Primal Majesty
+LBIS:AddItem(spec, "30895", LBIS.L["Waist"], "BIS") --Angelista's Sash
+LBIS:AddItem(spec, "33386", LBIS.L["Waist"], "Alt") --Man'kin'do's Belt
 
 LBIS:AddItem(spec, "31019", LBIS.L["Legs"], "BIS") --Skyshatter Leggings
 LBIS:AddItem(spec, "31100", LBIS.L["Legs"], "BIS") --Leggings of the Forgotten Protector

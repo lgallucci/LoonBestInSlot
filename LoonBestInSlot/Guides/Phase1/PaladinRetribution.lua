@@ -28,10 +28,10 @@ LBIS:AddItem(spec, "23537", LBIS.L["Bracers"], "Alt") --Black Felsteel Bracers
 LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "BIS") --Grips of Deftness
 LBIS:AddItem(spec, "30341", LBIS.L["Gloves"], "Alt") --Flesh Handler's Gauntlets
 
-LBIS:AddItem(spec, "28779", LBIS.L["Belt"], "BIS") --Girdle of the Endless Pit
-LBIS:AddItem(spec, "28828", LBIS.L["Belt"], "Alt") --Gronn-Stitched Girdle
-LBIS:AddItem(spec, "29247", LBIS.L["Belt"], "Alt") --Girdle of the Deathdealer
-LBIS:AddItem(spec, "28750", LBIS.L["Belt"], "Alt") --Girdle of Treachery
+LBIS:AddItem(spec, "28779", LBIS.L["Waist"], "BIS") --Girdle of the Endless Pit
+LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "Alt") --Gronn-Stitched Girdle
+LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "Alt") --Girdle of the Deathdealer
+LBIS:AddItem(spec, "28750", LBIS.L["Waist"], "Alt") --Girdle of Treachery
 
 LBIS:AddItem(spec, "30257", LBIS.L["Legs"], "BIS") --Shattrath Leggings
 LBIS:AddItem(spec, "31544", LBIS.L["Legs"], "BIS") --Clefthoof Hide Leggings

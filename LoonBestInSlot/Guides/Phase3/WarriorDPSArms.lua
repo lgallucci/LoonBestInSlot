@@ -37,7 +37,7 @@ LBIS:AddItem(spec, "32608", LBIS.L["Gloves"], "Alt") --Pillager's Gauntlets
 LBIS:AddItem(spec, "28824", LBIS.L["Gloves"], "Alt") --Gauntlets of Martial Perfection
 LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "Alt") --Gloves of the Searing Grip
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 
 LBIS:AddItem(spec, "32341", LBIS.L["Legs"], "BIS") --Leggings of Divine Retribution
 LBIS:AddItem(spec, "30898", LBIS.L["Legs"], "Alt") --Shady Dealer's Pantaloons

@@ -21,9 +21,9 @@ LBIS:AddItem(spec, "33529", LBIS.L["Bracers"], "Alt") --Steadying Bracers
 LBIS:AddItem(spec, "31001", LBIS.L["Gloves"], "BIS") --Gronnstalker's Gloves
 LBIS:AddItem(spec, "31094", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Protector
 
-LBIS:AddItem(spec, "32346", LBIS.L["Belt"], "BIS") --Boneweave Girdle
-LBIS:AddItem(spec, "30879", LBIS.L["Belt"], "Alt") --Don Alejandro's Money Belt
-LBIS:AddItem(spec, "33211", LBIS.L["Belt"], "Alt") --Bladeangel's Money Belt
+LBIS:AddItem(spec, "32346", LBIS.L["Waist"], "BIS") --Boneweave Girdle
+LBIS:AddItem(spec, "30879", LBIS.L["Waist"], "Alt") --Don Alejandro's Money Belt
+LBIS:AddItem(spec, "33211", LBIS.L["Waist"], "Alt") --Bladeangel's Money Belt
 
 LBIS:AddItem(spec, "31005", LBIS.L["Legs"], "BIS") --Gronnstalker's Leggings
 LBIS:AddItem(spec, "31100", LBIS.L["Legs"], "BIS") --Leggings of the Forgotten Protector

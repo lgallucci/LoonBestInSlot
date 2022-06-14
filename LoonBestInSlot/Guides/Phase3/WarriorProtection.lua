@@ -36,9 +36,9 @@ LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "Alt Thrt") --Gloves of the Searin
 LBIS:AddItem(spec, "32608", LBIS.L["Gloves"], "Alt") --Pillager's Gauntlets
 LBIS:AddItem(spec, "29998", LBIS.L["Gloves"], "BIS Mit") --Royal Gauntlets of Silvermoon
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS Thrt") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "32333", LBIS.L["Belt"], "BIS Mit") --Girdle of Stability
-LBIS:AddItem(spec, "32342", LBIS.L["Belt"], "Alt Mit") --Girdle of Mighty Resolve
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS Thrt") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "32333", LBIS.L["Waist"], "BIS Mit") --Girdle of Stability
+LBIS:AddItem(spec, "32342", LBIS.L["Waist"], "Alt Mit") --Girdle of Mighty Resolve
 
 LBIS:AddItem(spec, "33731", LBIS.L["Legs"], "BIS") --Vengeful Gladiator's Plate Legguards
 LBIS:AddItem(spec, "30977", LBIS.L["Legs"], "BIS Thrt") --Onslaught Greaves

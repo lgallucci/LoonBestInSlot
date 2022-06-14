@@ -32,9 +32,9 @@ LBIS:AddItem(spec, "29090", LBIS.L["Gloves"], "Alt") --Handguards of Malorne
 LBIS:AddItem(spec, "29758", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Defender
 LBIS:AddItem(spec, "29506", LBIS.L["Gloves"], "Alt") --Gloves of the Living Touch
 
-LBIS:AddItem(spec, "21873", LBIS.L["Belt"], "BIS") --Primal Mooncloth Belt
-LBIS:AddItem(spec, "28655", LBIS.L["Belt"], "Alt") --Cord of Nature's Sustenance
-LBIS:AddItem(spec, "28652", LBIS.L["Belt"], "Alt") --Cincture of Will
+LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt
+LBIS:AddItem(spec, "28655", LBIS.L["Waist"], "Alt") --Cord of Nature's Sustenance
+LBIS:AddItem(spec, "28652", LBIS.L["Waist"], "Alt") --Cincture of Will
 
 LBIS:AddItem(spec, "30727", LBIS.L["Legs"], "BIS") --Gilded Trousers of Benediction
 LBIS:AddItem(spec, "24261", LBIS.L["Legs"], "BIS") --Whitemend Pants

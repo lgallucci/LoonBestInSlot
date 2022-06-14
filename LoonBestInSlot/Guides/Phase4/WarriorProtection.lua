@@ -27,9 +27,9 @@ LBIS:AddItem(spec, "32232", LBIS.L["Bracers"], "BIS Mit") --Eternium Shell Brace
 LBIS:AddItem(spec, "32280", LBIS.L["Gloves"], "BIS") --Gauntlets of Enforcement
 LBIS:AddItem(spec, "29998", LBIS.L["Gloves"], "BIS Mit") --Royal Gauntlets of Silvermoon
 
-LBIS:AddItem(spec, "32333", LBIS.L["Belt"], "BIS Mit") --Girdle of Stability
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS Thrt") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "33331", LBIS.L["Belt"], "Alt") --Chain of Unleashed Rage
+LBIS:AddItem(spec, "32333", LBIS.L["Waist"], "BIS Mit") --Girdle of Stability
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS Thrt") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "33331", LBIS.L["Waist"], "Alt") --Chain of Unleashed Rage
 
 LBIS:AddItem(spec, "33731", LBIS.L["Legs"], "BIS") --Vengeful Gladiator's Plate Legguards
 LBIS:AddItem(spec, "30977", LBIS.L["Legs"], "BIS Thrt") --Onslaught Greaves

@@ -31,9 +31,9 @@ LBIS:AddItem(spec, "30205", LBIS.L["Gloves"], "Alt") --Gloves of Tirisfal
 LBIS:AddItem(spec, "30241", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Hero
 LBIS:AddItem(spec, "21847", LBIS.L["Gloves"], "Alt") --Spellfire Gloves
 
-LBIS:AddItem(spec, "30038", LBIS.L["Belt"], "BIS") --Belt of Blasting
-LBIS:AddItem(spec, "21846", LBIS.L["Belt"], "Alt") --Spellfire Belt
-LBIS:AddItem(spec, "30064", LBIS.L["Belt"], "Alt") --Cord of Screaming Terrors
+LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
+LBIS:AddItem(spec, "21846", LBIS.L["Waist"], "Alt") --Spellfire Belt
+LBIS:AddItem(spec, "30064", LBIS.L["Waist"], "Alt") --Cord of Screaming Terrors
 
 LBIS:AddItem(spec, "30207", LBIS.L["Legs"], "BIS") --Leggings of Tirisfal
 LBIS:AddItem(spec, "30247", LBIS.L["Legs"], "BIS") --Leggings of the Vanquished Hero

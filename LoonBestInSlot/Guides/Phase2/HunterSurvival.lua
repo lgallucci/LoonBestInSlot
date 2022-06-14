@@ -23,9 +23,9 @@ LBIS:AddItem(spec, "30026", LBIS.L["Bracers"], "Alt") --Bands of the Celestial A
 LBIS:AddItem(spec, "28506", LBIS.L["Gloves"], "BIS") --Gloves of Dexterous Manipulation
 LBIS:AddItem(spec, "27474", LBIS.L["Gloves"], "Alt") --Beast Lord Handguards
 
-LBIS:AddItem(spec, "30040", LBIS.L["Belt"], "BIS") --Belt of Deep Shadow
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "Alt") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "30046", LBIS.L["Belt"], "Alt") --Belt of the Black Eagle
+LBIS:AddItem(spec, "30040", LBIS.L["Waist"], "BIS") --Belt of Deep Shadow
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "Alt") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "30046", LBIS.L["Waist"], "Alt") --Belt of the Black Eagle
 
 LBIS:AddItem(spec, "30142", LBIS.L["Legs"], "BIS") --Rift Stalker Leggings
 LBIS:AddItem(spec, "30247", LBIS.L["Legs"], "BIS") --Leggings of the Vanquished Hero

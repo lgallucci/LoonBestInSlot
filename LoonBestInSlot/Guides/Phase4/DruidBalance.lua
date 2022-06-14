@@ -26,9 +26,9 @@ LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten V
 LBIS:AddItem(spec, "33586", LBIS.L["Gloves"], "Alt") --Studious Wraps
 LBIS:AddItem(spec, "33974", LBIS.L["Gloves"], "Alt") --Grasp of the Moonkin
 
-LBIS:AddItem(spec, "30888", LBIS.L["Belt"], "BIS") --Anetheron's Noose
-LBIS:AddItem(spec, "33559", LBIS.L["Belt"], "Alt") --Starfire Waistband
-LBIS:AddItem(spec, "33291", LBIS.L["Belt"], "Alt") --Voodoo-woven Belt
+LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "BIS") --Anetheron's Noose
+LBIS:AddItem(spec, "33559", LBIS.L["Waist"], "Alt") --Starfire Waistband
+LBIS:AddItem(spec, "33291", LBIS.L["Waist"], "Alt") --Voodoo-woven Belt
 
 LBIS:AddItem(spec, "30916", LBIS.L["Legs"], "BIS") --Leggings of Channeled Elements
 LBIS:AddItem(spec, "33971", LBIS.L["Legs"], "Alt") --Elunite Imbued Leggings

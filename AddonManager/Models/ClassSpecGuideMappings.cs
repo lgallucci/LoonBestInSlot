@@ -41,15 +41,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrists", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
-            new GuideMapping("h3#weapons~h4~h4", "2H"),
-            new GuideMapping("#offhands", "OH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Two-Hand"),
+            new GuideMapping("#offhands", "Off Hand"),
             new GuideMapping("#idols", "Idol")
         }));
 
@@ -61,15 +61,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
-            new GuideMapping("h3#weapons~h4~h4", "2H"),
-            new GuideMapping("#offhands", "OH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Two-Hand"),
+            new GuideMapping("#offhands", "Off Hand"),
             new GuideMapping("#idols", "Idol")
         }));
 
@@ -81,13 +81,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#weapons~h4", "2H"),
+            new GuideMapping("#weapons~h4", "Two-Hand"),
             new GuideMapping("#idols", "Idol")
         }));
 
@@ -99,13 +99,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#weapons~h4", "2H"),
+            new GuideMapping("#weapons~h4", "Two-Hand"),
             new GuideMapping("#idols", "Idol")
         }));
 
@@ -117,15 +117,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
-            new GuideMapping("h3#weapons~h4~h4", "2H"),
-            new GuideMapping("#offhands", "OH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Two-Hand"),
+            new GuideMapping("#offhands", "Off Hand"),
             new GuideMapping("#idols", "Idol")
         }));
 
@@ -137,15 +137,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrists", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt", "Belt"),
+            new GuideMapping("#belt", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#boots", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand", "MH"),
-            new GuideMapping("#offhand", "OH"),
-            new GuideMapping("#two-handed", "2H"),
+            new GuideMapping("#main-hand", "Main Hand"),
+            new GuideMapping("#offhand", "Off Hand"),
+            new GuideMapping("#two-handed", "Two-Hand"),
             new GuideMapping("#ranged-weapon", "Ranged")
         }));
 
@@ -157,15 +157,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrists", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt", "Belt"),
+            new GuideMapping("#belt", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#boots", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand", "MH"),
-            new GuideMapping("#offhand", "OH"),
-            new GuideMapping("#two-handed", "2H"),
+            new GuideMapping("#main-hand", "Main Hand"),
+            new GuideMapping("#offhand", "Off Hand"),
+            new GuideMapping("#two-handed", "Two-Hand"),
             new GuideMapping("#ranged-weapon", "Ranged")
         }));
 
@@ -177,15 +177,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrists", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt", "Belt"),
+            new GuideMapping("#belt", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#boots", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand", "MH"),
-            new GuideMapping("#offhand", "OH"),
-            new GuideMapping("#two-handed", "2H"),
+            new GuideMapping("#main-hand", "Main Hand"),
+            new GuideMapping("#offhand", "Off Hand"),
+            new GuideMapping("#two-handed", "Two-Hand"),
             new GuideMapping("#ranged-weapon", "Ranged")
         }));
 
@@ -197,15 +197,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
-            new GuideMapping("h3#weapons~h4~h4", "2H"),
-            new GuideMapping("#offhands", "OH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Two-Hand"),
+            new GuideMapping("#offhands", "Off Hand"),
             new GuideMapping("#wands", "Wand")
         }));
 
@@ -217,14 +217,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrists", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#jewelry", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand-and-two-handed-weapons", "MH"),
-            new GuideMapping("#off-hand", "OH"),
+            new GuideMapping("#main-hand-and-two-handed-weapons", "Main Hand"),
+            new GuideMapping("#off-hand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
         }));
 
@@ -236,14 +236,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrists", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#jewelry", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand-and-two-handed-weapons", "MH"),
-            new GuideMapping("#off-hand", "OH"),
+            new GuideMapping("#main-hand-and-two-handed-weapons", "Main Hand"),
+            new GuideMapping("#off-hand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
         }));
 
@@ -255,14 +255,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrists", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#jewelry", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand-and-two-handed-weapons", "MH"),
-            new GuideMapping("#off-hand", "OH"),
+            new GuideMapping("#main-hand-and-two-handed-weapons", "Main Hand"),
+            new GuideMapping("#off-hand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
         }));
 
@@ -274,15 +274,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
-            new GuideMapping("h3#weapons~h4~h4", "2H"),
-            new GuideMapping("#offhands", "OH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Two-Hand"),
+            new GuideMapping("#offhands", "Off Hand"),
             new GuideMapping("#wands", "Wand")
         }));
 
@@ -294,14 +294,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrists", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#jewelry", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand-and-two-handed-weapons", "MH"),
-            new GuideMapping("#off-hand", "OH"),
+            new GuideMapping("#main-hand-and-two-handed-weapons", "Main Hand"),
+            new GuideMapping("#off-hand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
         }));
 
@@ -313,14 +313,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrists", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#jewelry", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand-and-two-handed-weapons", "MH"),
-            new GuideMapping("#off-hand", "OH"),
+            new GuideMapping("#main-hand-and-two-handed-weapons", "Main Hand"),
+            new GuideMapping("#off-hand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
         }));
 
@@ -332,14 +332,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrists", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#jewelry", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand-and-two-handed-weapons", "MH"),
-            new GuideMapping("#off-hand", "OH"),
+            new GuideMapping("#main-hand-and-two-handed-weapons", "Main Hand"),
+            new GuideMapping("#off-hand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
         }));
 
@@ -351,15 +351,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
-            new GuideMapping("h3#weapons~h4~h4", "2H"),
-            new GuideMapping("#offhands", "OH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Two-Hand"),
+            new GuideMapping("#offhands", "Off Hand"),
             new GuideMapping("#wands", "Wand")
         }));
 
@@ -371,14 +371,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrists", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#jewelry", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand-and-two-handed-weapons", "MH"),
-            new GuideMapping("#off-hand", "OH"),
+            new GuideMapping("#main-hand-and-two-handed-weapons", "Main Hand"),
+            new GuideMapping("#off-hand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
         }));
 
@@ -390,14 +390,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrists", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#jewelry", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand-and-two-handed-weapons", "MH"),
-            new GuideMapping("#off-hand", "OH"),
+            new GuideMapping("#main-hand-and-two-handed-weapons", "Main Hand"),
+            new GuideMapping("#off-hand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
         }));
 
@@ -409,14 +409,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrists", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#jewelry", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets~.last li div .gem2", "Trinket"),
-            new GuideMapping("#main-hand-and-two-handed-weapons", "MH"),
-            new GuideMapping("#off-hand", "OH"),
+            new GuideMapping("#main-hand-and-two-handed-weapons", "Main Hand"),
+            new GuideMapping("#off-hand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
         }));
 
@@ -428,14 +428,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
-            new GuideMapping("#offhands-and-shields", "OH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("#offhands-and-shields", "Off Hand"),
             new GuideMapping("#librams", "Libram")
         }));
 
@@ -447,14 +447,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-holy-paladin-healing-in-phase-2", "Chest"),
             new GuideMapping("#wrist-for-holy-paladin-healing-in-phase-2", "Bracers"),
             new GuideMapping("#hands-for-holy-paladin-healing-in-phase-2", "Gloves"),
-            new GuideMapping("#waist-for-holy-paladin-healing-in-phase-2", "Belt"),
+            new GuideMapping("#waist-for-holy-paladin-healing-in-phase-2", "Waist"),
             new GuideMapping("#legs-for-holy-paladin-healing-in-phase-2", "Legs"),
             new GuideMapping("#feet-for-holy-paladin-healing-in-phase-2", "Feet"),
             new GuideMapping("#neck-for-holy-paladin-healing-in-phase-2", "Neck"),
             new GuideMapping("#rings-for-holy-paladin-healing-in-phase-2", "Ring"),
             new GuideMapping("#trinkets-for-holy-paladin-healing-in-phase-2", "Trinket"),
-            new GuideMapping("#weapons-for-holy-paladin-healing-in-phase-2", "MH"),
-            new GuideMapping("#offhands-and-shields-for-holy-paladin-healing-in-phase-2", "OH"),
+            new GuideMapping("#weapons-for-holy-paladin-healing-in-phase-2", "Main Hand"),
+            new GuideMapping("#offhands-and-shields-for-holy-paladin-healing-in-phase-2", "Off Hand"),
             new GuideMapping("#librams-for-holy-paladin-healing-in-phase-2", "Libram")
         }));
 
@@ -466,14 +466,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-holy-paladin-healing-in-phase-3", "Chest"),
             new GuideMapping("#wrist-for-holy-paladin-healing-in-phase-3", "Bracers"),
             new GuideMapping("#hands-for-holy-paladin-healing-in-phase-3", "Gloves"),
-            new GuideMapping("#waist-for-holy-paladin-healing-in-phase-3", "Belt"),
+            new GuideMapping("#waist-for-holy-paladin-healing-in-phase-3", "Waist"),
             new GuideMapping("#legs-for-holy-paladin-healing-in-phase-3", "Legs"),
             new GuideMapping("#feet-for-holy-paladin-healing-in-phase-3", "Feet"),
             new GuideMapping("#neck-for-holy-paladin-healing-in-phase-3", "Neck"),
             new GuideMapping("#rings-for-holy-paladin-healing-in-phase-3", "Ring"),
             new GuideMapping("#trinkets-for-holy-paladin-healing-in-phase-3", "Trinket"),
-            new GuideMapping("#weapons-for-holy-paladin-healing-in-phase-3", "MH"),
-            new GuideMapping("#offhands-and-shields-for-holy-paladin-healing-in-phase-3", "OH"),
+            new GuideMapping("#weapons-for-holy-paladin-healing-in-phase-3", "Main Hand"),
+            new GuideMapping("#offhands-and-shields-for-holy-paladin-healing-in-phase-3", "Off Hand"),
             new GuideMapping("#librams-for-holy-paladin-healing-in-phase-3", "Libram")
         }));
 
@@ -485,14 +485,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-holy-paladin-healing-in-phase-4", "Chest"),
             new GuideMapping("#wrist-for-holy-paladin-healing-in-phase-4", "Bracers"),
             new GuideMapping("#hands-for-holy-paladin-healing-in-phase-4", "Gloves"),
-            new GuideMapping("#waist-for-holy-paladin-healing-in-phase-4", "Belt"),
+            new GuideMapping("#waist-for-holy-paladin-healing-in-phase-4", "Waist"),
             new GuideMapping("#legs-for-holy-paladin-healing-in-phase-4", "Legs"),
             new GuideMapping("#feet-for-holy-paladin-healing-in-phase-4", "Feet"),
             new GuideMapping("#neck-for-holy-paladin-healing-in-phase-4", "Neck"),
             new GuideMapping("#rings-for-holy-paladin-healing-in-phase-4", "Ring"),
             new GuideMapping("#trinkets-for-holy-paladin-healing-in-phase-4", "Trinket"),
-            new GuideMapping("#weapons-for-holy-paladin-healing-in-phase-4", "MH"),
-            new GuideMapping("#offhands-and-shields-for-holy-paladin-healing-in-phase-4", "OH"),
+            new GuideMapping("#weapons-for-holy-paladin-healing-in-phase-4", "Main Hand"),
+            new GuideMapping("#offhands-and-shields-for-holy-paladin-healing-in-phase-4", "Off Hand"),
             new GuideMapping("#librams-for-holy-paladin-healing-in-phase-4", "Libram")
         }));
 
@@ -504,14 +504,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-holy-paladin-healing-in-phase-5", "Chest"),
             new GuideMapping("#wrist-for-holy-paladin-healing-in-phase-5", "Bracers"),
             new GuideMapping("#hands-for-holy-paladin-healing-in-phase-5", "Gloves"),
-            new GuideMapping("#waist-for-holy-paladin-healing-in-phase-5", "Belt"),
+            new GuideMapping("#waist-for-holy-paladin-healing-in-phase-5", "Waist"),
             new GuideMapping("#legs-for-holy-paladin-healing-in-phase-5", "Legs"),
             new GuideMapping("#feet-for-holy-paladin-healing-in-phase-5", "Feet"),
             new GuideMapping("#neck-for-holy-paladin-healing-in-phase-5", "Neck"),
             new GuideMapping("#rings-for-holy-paladin-healing-in-phase-5", "Ring"),
             new GuideMapping("#trinkets-for-holy-paladin-healing-in-phase-5", "Trinket"),
-            new GuideMapping("#weapons-for-holy-paladin-healing-in-phase-5", "MH"),
-            new GuideMapping("#offhands-and-shields-for-holy-paladin-healing-in-phase-5", "OH"),
+            new GuideMapping("#weapons-for-holy-paladin-healing-in-phase-5", "Main Hand"),
+            new GuideMapping("#offhands-and-shields-for-holy-paladin-healing-in-phase-5", "Off Hand"),
             new GuideMapping("#librams-for-holy-paladin-healing-in-phase-5", "Libram")
         }));
 
@@ -523,7 +523,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
@@ -531,7 +531,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#mitigation-trinkets", "Trinket"),
             new GuideMapping("#stamina-trinkets", "Trinket"),
             new GuideMapping("#threat-generation-trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#librams", "Libram"),
             new GuideMapping("#shields", "Shield")
         }));
@@ -544,7 +544,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
@@ -552,7 +552,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#crit-crush-reduction-avoidance-mitigation-trinkets", "Trinket"),
             new GuideMapping("#stamina-trinkets", "Trinket"),
             new GuideMapping("#threat-generation-trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#librams", "Libram"),
             new GuideMapping("#shields", "Shield")
         }));
@@ -565,7 +565,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#defensive-necks", "Neck"),
@@ -575,7 +575,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#crit-crush-reduction-avoidance-mitigation-trinkets", "Trinket"),
             new GuideMapping("#stamina-trinkets", "Trinket"),
             new GuideMapping("#threat-generation-trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#librams", "Libram"),
             new GuideMapping("#shields", "Shield")
         }));
@@ -588,7 +588,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
@@ -597,7 +597,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#stamina-trinkets", "Trinket"),
             new GuideMapping("#mitigation-trinkets", "Trinket"),
             new GuideMapping("#threat-trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#librams", "Libram"),
             new GuideMapping("#shields", "Shield")
         }));
@@ -610,7 +610,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
@@ -619,7 +619,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#stamina-trinkets", "Trinket"),
             new GuideMapping("#mitigation-trinkets", "Trinket"),
             new GuideMapping("#threat-trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#librams", "Libram"),
             new GuideMapping("#shields", "Shield")
         }));
@@ -632,7 +632,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
@@ -641,7 +641,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#stamina-trinkets", "Trinket"),
             new GuideMapping("#mitigation-trinkets", "Trinket"),
             new GuideMapping("#threat-trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#librams", "Libram"),
             new GuideMapping("#shields", "Shield")
         }));
@@ -654,13 +654,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "2H"),
+            new GuideMapping("h3#weapons~h4", "Two-Hand"),
             new GuideMapping("#librams", "Libram")
         }));
 
@@ -672,14 +672,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-and-two-handed", "MH"),
-            new GuideMapping("#off-hands", "OH"),
+            new GuideMapping("#main-and-two-handed", "Main Hand"),
+            new GuideMapping("#off-hands", "Off Hand"),
             new GuideMapping("#wands", "Wand")
         }));
 
@@ -691,14 +691,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrists", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-and-two-handed-weapons", "MH"),
-            new GuideMapping("#off-hand", "OH"),
+            new GuideMapping("#main-and-two-handed-weapons", "Main Hand"),
+            new GuideMapping("#off-hand", "Off Hand"),
             new GuideMapping("#wands", "Wand")
         }));
 
@@ -710,14 +710,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand-weapons", "MH"),
-            new GuideMapping("#off-hand-weapons", "OH"),
+            new GuideMapping("#main-hand-weapons", "Main Hand"),
+            new GuideMapping("#off-hand-weapons", "Off Hand"),
             new GuideMapping("#guns-and-bows", "Ranged")
         }));
 
@@ -729,14 +729,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-rogue-dps-in-phase-1", "Chest"),
             new GuideMapping("#wrist-for-rogue-dps-in-phase-1", "Bracers"),
             new GuideMapping("#hands-for-rogue-dps-in-phase-1", "Gloves"),
-            new GuideMapping("#waist-for-rogue-dps-in-phase-1", "Belt"),
+            new GuideMapping("#waist-for-rogue-dps-in-phase-1", "Waist"),
             new GuideMapping("#legs-for-rogue-dps-in-phase-1", "Legs"),
             new GuideMapping("#feet-for-rogue-dps-in-phase-1", "Feet"),
             new GuideMapping("#neck-for-rogue-dps-in-phase-1", "Neck"),
             new GuideMapping("#rings-for-rogue-dps-in-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-rogue-dps-in-phase-1", "Trinket"),
-            new GuideMapping("#main-hand-weapons-for-rogue-dps-in-phase-1", "MH"),
-            new GuideMapping("#off-hand-weapons-for-rogue-dps-in-phase-1", "OH"),
+            new GuideMapping("#main-hand-weapons-for-rogue-dps-in-phase-1", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-rogue-dps-in-phase-1", "Off Hand"),
             new GuideMapping("#guns-and-bows-for-rogue-dps-in-phase-1", "Ranged")
         }));
 
@@ -748,14 +748,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-rogue-dps-in-phase-2", "Chest"),
             new GuideMapping("#wrist-for-rogue-dps-in-phase-2", "Bracers"),
             new GuideMapping("#hands-for-rogue-dps-in-phase-2", "Gloves"),
-            new GuideMapping("#waist-for-rogue-dps-in-phase-2", "Belt"),
+            new GuideMapping("#waist-for-rogue-dps-in-phase-2", "Waist"),
             new GuideMapping("#legs-for-rogue-dps-in-phase-2", "Legs"),
             new GuideMapping("#feet-for-rogue-dps-in-phase-2", "Feet"),
             new GuideMapping("#neck-for-rogue-dps-in-phase-2", "Neck"),
             new GuideMapping("#rings-for-rogue-dps-in-phase-2", "Ring"),
             new GuideMapping("#trinkets-for-rogue-dps-in-phase-2", "Trinket"),
-            new GuideMapping("#main-hand-weapons-for-rogue-dps-in-phase-2", "MH"),
-            new GuideMapping("#off-hand-weapons-for-rogue-dps-in-phase-2", "OH"),
+            new GuideMapping("#main-hand-weapons-for-rogue-dps-in-phase-2", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-rogue-dps-in-phase-2", "Off Hand"),
             new GuideMapping("#guns-and-bows-for-rogue-dps-in-phase-2", "Ranged")
         }));
 
@@ -767,14 +767,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-rogue-dps-in-phase-3", "Chest"),
             new GuideMapping("#wrist-for-rogue-dps-in-phase-3", "Bracers"),
             new GuideMapping("#hands-for-rogue-dps-in-phase-3", "Gloves"),
-            new GuideMapping("#waist-for-rogue-dps-in-phase-3", "Belt"),
+            new GuideMapping("#waist-for-rogue-dps-in-phase-3", "Waist"),
             new GuideMapping("#legs-for-rogue-dps-in-phase-3", "Legs"),
             new GuideMapping("#feet-for-rogue-dps-in-phase-3", "Feet"),
             new GuideMapping("#neck-for-rogue-dps-in-phase-3", "Neck"),
             new GuideMapping("#rings-for-rogue-dps-in-phase-3", "Ring"),
             new GuideMapping("#trinkets-for-rogue-dps-in-phase-3", "Trinket"),
-            new GuideMapping("#main-hand-weapons-for-rogue-dps-in-phase-3", "MH"),
-            new GuideMapping("#off-hand-weapons-for-rogue-dps-in-phase-3", "OH"),
+            new GuideMapping("#main-hand-weapons-for-rogue-dps-in-phase-3", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-rogue-dps-in-phase-3", "Off Hand"),
             new GuideMapping("#guns-and-bows-for-rogue-dps-in-phase-3", "Ranged")
         }));
 
@@ -786,14 +786,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-rogue-dps-in-phase-4", "Chest"),
             new GuideMapping("#wrist-for-rogue-dps-in-phase-4", "Bracers"),
             new GuideMapping("#hands-for-rogue-dps-in-phase-4", "Gloves"),
-            new GuideMapping("#waist-for-rogue-dps-in-phase-4", "Belt"),
+            new GuideMapping("#waist-for-rogue-dps-in-phase-4", "Waist"),
             new GuideMapping("#legs-for-rogue-dps-in-phase-4", "Legs"),
             new GuideMapping("#feet-for-rogue-dps-in-phase-4", "Feet"),
             new GuideMapping("#neck-for-rogue-dps-in-phase-4", "Neck"),
             new GuideMapping("#rings-for-rogue-dps-in-phase-4", "Ring"),
             new GuideMapping("#trinkets-for-rogue-dps-in-phase-4", "Trinket"),
-            new GuideMapping("#main-hand-weapons-for-rogue-dps-in-phase-4", "MH"),
-            new GuideMapping("#off-hand-weapons-for-rogue-dps-in-phase-4", "OH"),
+            new GuideMapping("#main-hand-weapons-for-rogue-dps-in-phase-4", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-rogue-dps-in-phase-4", "Off Hand"),
             new GuideMapping("#guns-and-bows-for-rogue-dps-in-phase-4", "Ranged")
         }));
 
@@ -805,14 +805,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-rogue-dps-in-phase-5", "Chest"),
             new GuideMapping("#wrist-for-rogue-dps-in-phase-5", "Bracers"),
             new GuideMapping("#hands-for-rogue-dps-in-phase-5", "Gloves"),
-            new GuideMapping("#waist-for-rogue-dps-in-phase-5", "Belt"),
+            new GuideMapping("#waist-for-rogue-dps-in-phase-5", "Waist"),
             new GuideMapping("#legs-for-rogue-dps-in-phase-5", "Legs"),
             new GuideMapping("#feet-for-rogue-dps-in-phase-5", "Feet"),
             new GuideMapping("#neck-for-rogue-dps-in-phase-5", "Neck"),
             new GuideMapping("#rings-for-rogue-dps-in-phase-5", "Ring"),
             new GuideMapping("#trinkets-for-rogue-dps-in-phase-5", "Trinket"),
-            new GuideMapping("#main-hand-weapons-for-rogue-dps-in-phase-5", "MH"),
-            new GuideMapping("#off-hand-weapons-for-rogue-dps-in-phase-5", "OH"),
+            new GuideMapping("#main-hand-weapons-for-rogue-dps-in-phase-5", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-rogue-dps-in-phase-5", "Off Hand"),
             new GuideMapping("#guns-and-bows-for-rogue-dps-in-phase-5", "Ranged")
         }));
 
@@ -824,14 +824,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#ring", "Ring"),
             new GuideMapping("#trinket", "Trinket"),
-            new GuideMapping("h4#weapons", "MH"),
-            new GuideMapping("#shields-off-hands", "OH"),
+            new GuideMapping("h4#weapons", "Main Hand"),
+            new GuideMapping("#shields-off-hands", "Off Hand"),
             new GuideMapping("#totems", "Totem")
         }));
 
@@ -843,14 +843,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-elemental-shaman-dps-in-phase-1", "Chest"),
             new GuideMapping("#wrist-for-elemental-shaman-dps-in-phase-1", "Bracers"),
             new GuideMapping("#hands-for-elemental-shaman-dps-in-phase-1", "Gloves"),
-            new GuideMapping("#waist-for-elemental-shaman-dps-in-phase-1", "Belt"),
+            new GuideMapping("#waist-for-elemental-shaman-dps-in-phase-1", "Waist"),
             new GuideMapping("#legs-for-elemental-shaman-dps-in-phase-1", "Legs"),
             new GuideMapping("#feet-for-elemental-shaman-dps-in-phase-1", "Feet"),
             new GuideMapping("#neck-for-elemental-shaman-dps-in-phase-1", "Neck"),
             new GuideMapping("#finger-for-elemental-shaman-dps-in-phase-1", "Ring"),
             new GuideMapping("#trinket-for-elemental-shaman-dps-in-phase-1", "Trinket"),
-            new GuideMapping("h4#weapons-for-elemental-shaman-dps-in-phase-1", "MH"),
-            new GuideMapping("#shields-off-hands-for-elemental-shaman-dps-in-phase-1", "OH"),
+            new GuideMapping("h4#weapons-for-elemental-shaman-dps-in-phase-1", "Main Hand"),
+            new GuideMapping("#shields-off-hands-for-elemental-shaman-dps-in-phase-1", "Off Hand"),
             new GuideMapping("#totems-for-elemental-shaman-dps-in-phase-1", "Totem")
         }));
 
@@ -862,14 +862,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-elemental-shaman-dps-in-phase-2", "Chest"),
             new GuideMapping("#wrist-for-elemental-shaman-dps-in-phase-2", "Bracers"),
             new GuideMapping("#hands-for-elemental-shaman-dps-in-phase-2", "Gloves"),
-            new GuideMapping("#waist-for-elemental-shaman-dps-in-phase-2", "Belt"),
+            new GuideMapping("#waist-for-elemental-shaman-dps-in-phase-2", "Waist"),
             new GuideMapping("#legs-for-elemental-shaman-dps-in-phase-2", "Legs"),
             new GuideMapping("#feet-for-elemental-shaman-dps-in-phase-2", "Feet"),
             new GuideMapping("#neck-for-elemental-shaman-dps-in-phase-2", "Neck"),
             new GuideMapping("#finger-for-elemental-shaman-dps-in-phase-2", "Ring"),
             new GuideMapping("#trinket-for-elemental-shaman-dps-in-phase-2", "Trinket"),
-            new GuideMapping("h4#weapons-for-elemental-shaman-dps-in-phase-2", "MH"),
-            new GuideMapping("#shields-off-hands-for-elemental-shaman-dps-in-phase-2", "OH"),
+            new GuideMapping("h4#weapons-for-elemental-shaman-dps-in-phase-2", "Main Hand"),
+            new GuideMapping("#shields-off-hands-for-elemental-shaman-dps-in-phase-2", "Off Hand"),
             new GuideMapping("#totems-for-elemental-shaman-dps-in-phase-2", "Totem")
         }));
 
@@ -881,14 +881,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-elemental-shaman-dps-in-phase-3", "Chest"),
             new GuideMapping("#wrist-for-elemental-shaman-dps-in-phase-3", "Bracers"),
             new GuideMapping("#hands-for-elemental-shaman-dps-in-phase-3", "Gloves"),
-            new GuideMapping("#waist-for-elemental-shaman-dps-in-phase-3", "Belt"),
+            new GuideMapping("#waist-for-elemental-shaman-dps-in-phase-3", "Waist"),
             new GuideMapping("#legs-for-elemental-shaman-dps-in-phase-3", "Legs"),
             new GuideMapping("#feet-for-elemental-shaman-dps-in-phase-3", "Feet"),
             new GuideMapping("#neck-for-elemental-shaman-dps-in-phase-3", "Neck"),
             new GuideMapping("#finger-for-elemental-shaman-dps-in-phase-3", "Ring"),
             new GuideMapping("#trinket-for-elemental-shaman-dps-in-phase-3", "Trinket"),
-            new GuideMapping("h4#weapons-for-elemental-shaman-dps-in-phase-3", "MH"),
-            new GuideMapping("#shields-off-hands-for-elemental-shaman-dps-in-phase-3", "OH"),
+            new GuideMapping("h4#weapons-for-elemental-shaman-dps-in-phase-3", "Main Hand"),
+            new GuideMapping("#shields-off-hands-for-elemental-shaman-dps-in-phase-3", "Off Hand"),
             new GuideMapping("#totems-for-elemental-shaman-dps-in-phase-3", "Totem")
         }));
 
@@ -900,14 +900,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-elemental-shaman-dps-in-phase-4", "Chest"),
             new GuideMapping("#wrist-for-elemental-shaman-dps-in-phase-4", "Bracers"),
             new GuideMapping("#hands-for-elemental-shaman-dps-in-phase-4", "Gloves"),
-            new GuideMapping("#waist-for-elemental-shaman-dps-in-phase-4", "Belt"),
+            new GuideMapping("#waist-for-elemental-shaman-dps-in-phase-4", "Waist"),
             new GuideMapping("#legs-for-elemental-shaman-dps-in-phase-4", "Legs"),
             new GuideMapping("#feet-for-elemental-shaman-dps-in-phase-4", "Feet"),
             new GuideMapping("#neck-for-elemental-shaman-dps-in-phase-4", "Neck"),
             new GuideMapping("#finger-for-elemental-shaman-dps-in-phase-4", "Ring"),
             new GuideMapping("#trinket-for-elemental-shaman-dps-in-phase-4", "Trinket"),
-            new GuideMapping("h4#weapons-for-elemental-shaman-dps-in-phase-4", "MH"),
-            new GuideMapping("#shields-off-hands-for-elemental-shaman-dps-in-phase-4", "OH"),
+            new GuideMapping("h4#weapons-for-elemental-shaman-dps-in-phase-4", "Main Hand"),
+            new GuideMapping("#shields-off-hands-for-elemental-shaman-dps-in-phase-4", "Off Hand"),
             new GuideMapping("#totems-for-elemental-shaman-dps-in-phase-4", "Totem")
         }));
 
@@ -919,14 +919,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-elemental-shaman-dps-in-phase-5", "Chest"),
             new GuideMapping("#wrist-for-elemental-shaman-dps-in-phase-5", "Bracers"),
             new GuideMapping("#hands-for-elemental-shaman-dps-in-phase-5", "Gloves"),
-            new GuideMapping("#waist-for-elemental-shaman-dps-in-phase-5", "Belt"),
+            new GuideMapping("#waist-for-elemental-shaman-dps-in-phase-5", "Waist"),
             new GuideMapping("#legs-for-elemental-shaman-dps-in-phase-5", "Legs"),
             new GuideMapping("#feet-for-elemental-shaman-dps-in-phase-5", "Feet"),
             new GuideMapping("#neck-for-elemental-shaman-dps-in-phase-5", "Neck"),
             new GuideMapping("#finger-for-elemental-shaman-dps-in-phase-5", "Ring"),
             new GuideMapping("#trinket-for-elemental-shaman-dps-in-phase-5", "Trinket"),
-            new GuideMapping("h4#weapons-for-elemental-shaman-dps-in-phase-5", "MH"),
-            new GuideMapping("#shields-off-hands-for-elemental-shaman-dps-in-phase-5", "OH"),
+            new GuideMapping("h4#weapons-for-elemental-shaman-dps-in-phase-5", "Main Hand"),
+            new GuideMapping("#shields-off-hands-for-elemental-shaman-dps-in-phase-5", "Off Hand"),
             new GuideMapping("#totems-for-elemental-shaman-dps-in-phase-5", "Totem")
         }));
 
@@ -938,13 +938,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#totems", "Totem")
         }));
 
@@ -956,13 +956,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-enhancement-shaman-dps-in-phase-1", "Chest"),
             new GuideMapping("#wrist-for-enhancement-shaman-dps-in-phase-1", "Bracers"),
             new GuideMapping("#hands-for-enhancement-shaman-dps-in-phase-1", "Gloves"),
-            new GuideMapping("#waist-for-enhancement-shaman-dps-in-phase-1", "Belt"),
+            new GuideMapping("#waist-for-enhancement-shaman-dps-in-phase-1", "Waist"),
             new GuideMapping("#legs-for-enhancement-shaman-dps-in-phase-1", "Legs"),
             new GuideMapping("#feet-for-enhancement-shaman-dps-in-phase-1", "Feet"),
             new GuideMapping("#neck-for-enhancement-shaman-dps-in-phase-1", "Neck"),
             new GuideMapping("#rings-for-enhancement-shaman-dps-in-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-enhancement-shaman-dps-in-phase-1", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#totems-for-enhancement-shaman-dps-in-phase-1", "Totem")
         }));
 
@@ -974,13 +974,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-enhancement-shaman-dps-in-phase-2", "Chest"),
             new GuideMapping("#wrist-for-enhancement-shaman-dps-in-phase-2", "Bracers"),
             new GuideMapping("#hands-for-enhancement-shaman-dps-in-phase-2", "Gloves"),
-            new GuideMapping("#waist-for-enhancement-shaman-dps-in-phase-2", "Belt"),
+            new GuideMapping("#waist-for-enhancement-shaman-dps-in-phase-2", "Waist"),
             new GuideMapping("#legs-for-enhancement-shaman-dps-in-phase-2", "Legs"),
             new GuideMapping("#feet-for-enhancement-shaman-dps-in-phase-2", "Feet"),
             new GuideMapping("#neck-for-enhancement-shaman-dps-in-phase-2", "Neck"),
             new GuideMapping("#rings-for-enhancement-shaman-dps-in-phase-2", "Ring"),
             new GuideMapping("#trinkets-for-enhancement-shaman-dps-in-phase-2", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#totems-for-enhancement-shaman-dps-in-phase-2", "Totem")
         }));
 
@@ -992,13 +992,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-enhancement-shaman-dps-in-phase-3", "Chest"),
             new GuideMapping("#wrist-for-enhancement-shaman-dps-in-phase-3", "Bracers"),
             new GuideMapping("#hands-for-enhancement-shaman-dps-in-phase-3", "Gloves"),
-            new GuideMapping("#waist-for-enhancement-shaman-dps-in-phase-3", "Belt"),
+            new GuideMapping("#waist-for-enhancement-shaman-dps-in-phase-3", "Waist"),
             new GuideMapping("#legs-for-enhancement-shaman-dps-in-phase-3", "Legs"),
             new GuideMapping("#feet-for-enhancement-shaman-dps-in-phase-3", "Feet"),
             new GuideMapping("#neck-for-enhancement-shaman-dps-in-phase-3", "Neck"),
             new GuideMapping("#rings-for-enhancement-shaman-dps-in-phase-3", "Ring"),
             new GuideMapping("#trinkets-for-enhancement-shaman-dps-in-phase-3", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#totems-for-enhancement-shaman-dps-in-phase-3", "Totem")
         }));
 
@@ -1010,13 +1010,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-enhancement-shaman-dps-in-phase-4", "Chest"),
             new GuideMapping("#wrist-for-enhancement-shaman-dps-in-phase-4", "Bracers"),
             new GuideMapping("#hands-for-enhancement-shaman-dps-in-phase-4", "Gloves"),
-            new GuideMapping("#waist-for-enhancement-shaman-dps-in-phase-4", "Belt"),
+            new GuideMapping("#waist-for-enhancement-shaman-dps-in-phase-4", "Waist"),
             new GuideMapping("#legs-for-enhancement-shaman-dps-in-phase-4", "Legs"),
             new GuideMapping("#feet-for-enhancement-shaman-dps-in-phase-4", "Feet"),
             new GuideMapping("#neck-for-enhancement-shaman-dps-in-phase-4", "Neck"),
             new GuideMapping("#rings-for-enhancement-shaman-dps-in-phase-4", "Ring"),
             new GuideMapping("#trinkets-for-enhancement-shaman-dps-in-phase-4", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#totems-for-enhancement-shaman-dps-in-phase-4", "Totem")
         }));
 
@@ -1028,13 +1028,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-enhancement-shaman-dps-in-phase-5", "Chest"),
             new GuideMapping("#wrist-for-enhancement-shaman-dps-in-phase-5", "Bracers"),
             new GuideMapping("#hands-for-enhancement-shaman-dps-in-phase-5", "Gloves"),
-            new GuideMapping("#waist-for-enhancement-shaman-dps-in-phase-5", "Belt"),
+            new GuideMapping("#waist-for-enhancement-shaman-dps-in-phase-5", "Waist"),
             new GuideMapping("#legs-for-enhancement-shaman-dps-in-phase-5", "Legs"),
             new GuideMapping("#feet-for-enhancement-shaman-dps-in-phase-5", "Feet"),
             new GuideMapping("#neck-for-enhancement-shaman-dps-in-phase-5", "Neck"),
             new GuideMapping("#rings-for-enhancement-shaman-dps-in-phase-5", "Ring"),
             new GuideMapping("#trinkets-for-enhancement-shaman-dps-in-phase-5", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#totems-for-enhancement-shaman-dps-in-phase-5", "Totem")
         }));
 
@@ -1046,14 +1046,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#bracer", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt", "Belt"),
+            new GuideMapping("#belt", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#boots", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#ring", "Ring"),
             new GuideMapping("#trinket", "Trinket"),
-            new GuideMapping("h4#weapons", "MH"),
-            new GuideMapping("#shields-off-hands", "OH"),
+            new GuideMapping("h4#weapons", "Main Hand"),
+            new GuideMapping("#shields-off-hands", "Off Hand"),
             new GuideMapping("#totems", "Totem")
         }));
 
@@ -1065,14 +1065,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-restoration-shaman-healing-in-phase-1", "Chest"),
             new GuideMapping("#wrist-for-restoration-shaman-healing-in-phase-1", "Bracers"),
             new GuideMapping("#hands-for-restoration-shaman-healing-in-phase-1", "Gloves"),
-            new GuideMapping("#waist-for-restoration-shaman-healing-in-phase-1", "Belt"),
+            new GuideMapping("#waist-for-restoration-shaman-healing-in-phase-1", "Waist"),
             new GuideMapping("#legs-for-restoration-shaman-healing-in-phase-1", "Legs"),
             new GuideMapping("#feet-for-restoration-shaman-healing-in-phase-1", "Feet"),
             new GuideMapping("#neck-for-restoration-shaman-healing-in-phase-1", "Neck"),
             new GuideMapping("#finger-for-restoration-shaman-healing-in-phase-1", "Ring"),
             new GuideMapping("#trinket-for-restoration-shaman-healing-in-phase-1", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
-            new GuideMapping("#shields-off-hands-for-restoration-shaman-healing-in-phase-1", "OH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("#shields-off-hands-for-restoration-shaman-healing-in-phase-1", "Off Hand"),
             new GuideMapping("#totems-for-restoration-shaman-healing-in-phase-1", "Totem")
         }));
 
@@ -1084,14 +1084,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-restoration-shaman-healing-in-phase-2", "Chest"),
             new GuideMapping("#wrist-for-restoration-shaman-healing-in-phase-2", "Bracers"),
             new GuideMapping("#hands-for-restoration-shaman-healing-in-phase-2", "Gloves"),
-            new GuideMapping("#waist-for-restoration-shaman-healing-in-phase-2", "Belt"),
+            new GuideMapping("#waist-for-restoration-shaman-healing-in-phase-2", "Waist"),
             new GuideMapping("#legs-for-restoration-shaman-healing-in-phase-2", "Legs"),
             new GuideMapping("#feet-for-restoration-shaman-healing-in-phase-2", "Feet"),
             new GuideMapping("#neck-for-restoration-shaman-healing-in-phase-2", "Neck"),
             new GuideMapping("#finger-for-restoration-shaman-healing-in-phase-2", "Ring"),
             new GuideMapping("#trinket-for-restoration-shaman-healing-in-phase-2", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
-            new GuideMapping("#shields-off-hands-for-restoration-shaman-healing-in-phase-2", "OH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("#shields-off-hands-for-restoration-shaman-healing-in-phase-2", "Off Hand"),
             new GuideMapping("#totems-for-restoration-shaman-healing-in-phase-2", "Totem")
         }));
 
@@ -1103,14 +1103,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-restoration-shaman-healing-in-phase-3", "Chest"),
             new GuideMapping("#wrist-for-restoration-shaman-healing-in-phase-3", "Bracers"),
             new GuideMapping("#hands-for-restoration-shaman-healing-in-phase-3", "Gloves"),
-            new GuideMapping("#waist-for-restoration-shaman-healing-in-phase-3", "Belt"),
+            new GuideMapping("#waist-for-restoration-shaman-healing-in-phase-3", "Waist"),
             new GuideMapping("#legs-for-restoration-shaman-healing-in-phase-3", "Legs"),
             new GuideMapping("#feet-for-restoration-shaman-healing-in-phase-3", "Feet"),
             new GuideMapping("#neck-for-restoration-shaman-healing-in-phase-3", "Neck"),
             new GuideMapping("#finger-for-restoration-shaman-healing-in-phase-3", "Ring"),
             new GuideMapping("#trinket-for-restoration-shaman-healing-in-phase-3", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
-            new GuideMapping("#shields-off-hands-for-restoration-shaman-healing-in-phase-3", "OH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("#shields-off-hands-for-restoration-shaman-healing-in-phase-3", "Off Hand"),
             new GuideMapping("#totems-for-restoration-shaman-healing-in-phase-3", "Totem")
         }));
 
@@ -1122,14 +1122,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-restoration-shaman-healing-in-phase-4", "Chest"),
             new GuideMapping("#wrist-for-restoration-shaman-healing-in-phase-4", "Bracers"),
             new GuideMapping("#hands-for-restoration-shaman-healing-in-phase-4", "Gloves"),
-            new GuideMapping("#waist-for-restoration-shaman-healing-in-phase-4", "Belt"),
+            new GuideMapping("#waist-for-restoration-shaman-healing-in-phase-4", "Waist"),
             new GuideMapping("#legs-for-restoration-shaman-healing-in-phase-4", "Legs"),
             new GuideMapping("#feet-for-restoration-shaman-healing-in-phase-4", "Feet"),
             new GuideMapping("#neck-for-restoration-shaman-healing-in-phase-4", "Neck"),
             new GuideMapping("#finger-for-restoration-shaman-healing-in-phase-4", "Ring"),
             new GuideMapping("#trinket-for-restoration-shaman-healing-in-phase-4", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
-            new GuideMapping("#shields-off-hands-for-restoration-shaman-healing-in-phase-4", "OH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("#shields-off-hands-for-restoration-shaman-healing-in-phase-4", "Off Hand"),
             new GuideMapping("#totems-for-restoration-shaman-healing-in-phase-4", "Totem")
         }));
 
@@ -1141,14 +1141,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-restoration-shaman-healing-in-phase-5", "Chest"),
             new GuideMapping("#wrist-for-restoration-shaman-healing-in-phase-5", "Bracers"),
             new GuideMapping("#hands-for-restoration-shaman-healing-in-phase-5", "Gloves"),
-            new GuideMapping("#waist-for-restoration-shaman-healing-in-phase-5", "Belt"),
+            new GuideMapping("#waist-for-restoration-shaman-healing-in-phase-5", "Waist"),
             new GuideMapping("#legs-for-restoration-shaman-healing-in-phase-5", "Legs"),
             new GuideMapping("#feet-for-restoration-shaman-healing-in-phase-5", "Feet"),
             new GuideMapping("#neck-for-restoration-shaman-healing-in-phase-5", "Neck"),
             new GuideMapping("#finger-for-restoration-shaman-healing-in-phase-5", "Ring"),
             new GuideMapping("#trinket-for-restoration-shaman-healing-in-phase-5", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
-            new GuideMapping("#shields-off-hands-for-restoration-shaman-healing-in-phase-5", "OH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("#shields-off-hands-for-restoration-shaman-healing-in-phase-5", "Off Hand"),
             new GuideMapping("#totems-for-restoration-shaman-healing-in-phase-5", "Totem")
         }));
 
@@ -1160,15 +1160,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
-            new GuideMapping("h3#weapons~h4~h4", "2H"),
-            new GuideMapping("#offhands", "OH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Two-Hand"),
+            new GuideMapping("#offhands", "Off Hand"),
             new GuideMapping("#wands", "Wand")
         }));
 
@@ -1180,15 +1180,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#bracer", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt", "Belt"),
+            new GuideMapping("#belt", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "2H"),
-            new GuideMapping("h3#weapons~h4~h4", "MH"),
-            new GuideMapping("#offhand", "OH"),
+            new GuideMapping("h3#weapons~h4", "Two-Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
+            new GuideMapping("#offhand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
         }));
 
@@ -1200,15 +1200,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "2H"),
-            new GuideMapping("h3#weapons~h4~h4", "MH"),
-            new GuideMapping("#offhand", "OH"),
+            new GuideMapping("h3#weapons~h4", "Two-Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
+            new GuideMapping("#offhand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
         }));
 
@@ -1220,15 +1220,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
-            new GuideMapping("h3#weapons~h4~h4", "2H"),
-            new GuideMapping("#offhands", "OH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Two-Hand"),
+            new GuideMapping("#offhands", "Off Hand"),
             new GuideMapping("#wands", "Wand")
         }));
 
@@ -1240,15 +1240,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "2H"),
-            new GuideMapping("h3#weapons~h4~h4", "MH"),
-            new GuideMapping("#offhand", "OH"),
+            new GuideMapping("h3#weapons~h4", "Two-Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
+            new GuideMapping("#offhand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
         }));
 
@@ -1260,15 +1260,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
-            new GuideMapping("h3#weapons~h4~h4", "2H"),
-            new GuideMapping("#offhands", "OH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Two-Hand"),
+            new GuideMapping("#offhands", "Off Hand"),
             new GuideMapping("#wands", "Wand")
         }));
 
@@ -1280,15 +1280,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#wrist", "Bracers"),
             new GuideMapping("#hands", "Gloves"),
-            new GuideMapping("#waist", "Belt"),
+            new GuideMapping("#waist", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#feet", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "2H"),
-            new GuideMapping("h3#weapons~h4~h4", "MH"),
-            new GuideMapping("#offhand", "OH"),
+            new GuideMapping("h3#weapons~h4", "Two-Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
+            new GuideMapping("#offhand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
         }));
 
@@ -1300,15 +1300,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#bracer", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt-for-warrior-dps-in-pre-raid", "Belt"),
+            new GuideMapping("#belt-for-warrior-dps-in-pre-raid", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#boots", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand-weapons", "MH"),
-            new GuideMapping("#off-hand-weapons", "OH"),
-            new GuideMapping("h3#weapons~h4~h4~h4", "2H"),
+            new GuideMapping("#main-hand-weapons", "Main Hand"),
+            new GuideMapping("#off-hand-weapons", "Off Hand"),
+            new GuideMapping("h3#weapons~h4~h4~h4", "Two-Hand"),
             new GuideMapping("#guns-and-bows", "Ranged"),
         }));
 
@@ -1320,15 +1320,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-warrior-dps-in-phase-1", "Chest"),
             new GuideMapping("#wrist-for-warrior-dps-in-phase-1", "Bracers"),
             new GuideMapping("#hands-for-warrior-dps-in-phase-1", "Gloves"),
-            new GuideMapping("#waist-for-warrior-dps-in-phase-1", "Belt"),
+            new GuideMapping("#waist-for-warrior-dps-in-phase-1", "Waist"),
             new GuideMapping("#legs-for-warrior-dps-in-phase-1", "Legs"),
             new GuideMapping("#feet-for-warrior-dps-in-phase-1", "Feet"),
             new GuideMapping("#neck-for-warrior-dps-in-phase-1", "Neck"),
             new GuideMapping("#rings-for-warrior-dps-in-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-warrior-dps-in-phase-1", "Trinket"),
-            new GuideMapping("#main-hand-weapons", "MH"),
-            new GuideMapping("#off-hand-weapons", "OH"),
-            new GuideMapping("h3#weapons~h4~h4~h4", "2H"),
+            new GuideMapping("#main-hand-weapons", "Main Hand"),
+            new GuideMapping("#off-hand-weapons", "Off Hand"),
+            new GuideMapping("h3#weapons~h4~h4~h4", "Two-Hand"),
             new GuideMapping("#guns-and-bows", "Ranged"),
         }));
 
@@ -1340,14 +1340,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#bracer", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt", "Belt"),
+            new GuideMapping("#belt", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#boots", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand-weapons", "MH"),
-            new GuideMapping("#off-hand-weapons", "OH"),
+            new GuideMapping("#main-hand-weapons", "Main Hand"),
+            new GuideMapping("#off-hand-weapons", "Off Hand"),
             new GuideMapping("#guns-and-bows", "Ranged")
         }));
 
@@ -1359,14 +1359,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#bracer", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt", "Belt"),
+            new GuideMapping("#belt", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#boots", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand-weapons", "MH"),
-            new GuideMapping("#off-hand-weapons", "OH"),
+            new GuideMapping("#main-hand-weapons", "Main Hand"),
+            new GuideMapping("#off-hand-weapons", "Off Hand"),
             new GuideMapping("#guns-and-bows", "Ranged")
         }));
 
@@ -1378,14 +1378,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#bracer", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt", "Belt"),
+            new GuideMapping("#belt", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#boots", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand-weapons", "MH"),
-            new GuideMapping("#off-hand-weapons", "OH"),
+            new GuideMapping("#main-hand-weapons", "Main Hand"),
+            new GuideMapping("#off-hand-weapons", "Off Hand"),
             new GuideMapping("#guns-and-bows", "Ranged")
         }));
 
@@ -1397,14 +1397,14 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#bracer", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt", "Belt"),
+            new GuideMapping("#belt", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#boots", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand-weapons", "MH"),
-            new GuideMapping("#off-hand-weapons", "OH"),
+            new GuideMapping("#main-hand-weapons", "Main Hand"),
+            new GuideMapping("#off-hand-weapons", "Off Hand"),
             new GuideMapping("#guns-and-bows", "Ranged")
         }));
 
@@ -1416,15 +1416,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#bracer", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt-for-warrior-dps-in-pre-raid", "Belt"),
+            new GuideMapping("#belt-for-warrior-dps-in-pre-raid", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#boots", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#main-hand-weapons", "MH"),
-            new GuideMapping("#off-hand-weapons", "OH"),
-            new GuideMapping("h3#weapons~h4~h4~h4", "2H"),
+            new GuideMapping("#main-hand-weapons", "Main Hand"),
+            new GuideMapping("#off-hand-weapons", "Off Hand"),
+            new GuideMapping("h3#weapons~h4~h4~h4", "Two-Hand"),
             new GuideMapping("#guns-and-bows", "Ranged"),
         }));
 
@@ -1436,15 +1436,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-warrior-dps-in-phase-1", "Chest"),
             new GuideMapping("#wrist-for-warrior-dps-in-phase-1", "Bracers"),
             new GuideMapping("#hands-for-warrior-dps-in-phase-1", "Gloves"),
-            new GuideMapping("#waist-for-warrior-dps-in-phase-1", "Belt"),
+            new GuideMapping("#waist-for-warrior-dps-in-phase-1", "Waist"),
             new GuideMapping("#legs-for-warrior-dps-in-phase-1", "Legs"),
             new GuideMapping("#feet-for-warrior-dps-in-phase-1", "Feet"),
             new GuideMapping("#neck-for-warrior-dps-in-phase-1", "Neck"),
             new GuideMapping("#rings-for-warrior-dps-in-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-warrior-dps-in-phase-1", "Trinket"),
-            new GuideMapping("#main-hand-weapons", "MH"),
-            new GuideMapping("#off-hand-weapons", "OH"),
-            new GuideMapping("h3#weapons~h4~h4~h4", "2H"),
+            new GuideMapping("#main-hand-weapons", "Main Hand"),
+            new GuideMapping("#off-hand-weapons", "Off Hand"),
+            new GuideMapping("h3#weapons~h4~h4~h4", "Two-Hand"),
             new GuideMapping("#guns-and-bows", "Ranged"),
         }));
 
@@ -1456,15 +1456,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#bracer", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt", "Belt"),
+            new GuideMapping("#belt", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#boots", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h4#weapons", "2H"),
-            new GuideMapping("#dw-arms-mh", "MH"),
-            new GuideMapping("#off-hand-weapons", "OH"),
+            new GuideMapping("h4#weapons", "Two-Hand"),
+            new GuideMapping("#dw-arms-mh", "Main Hand"),
+            new GuideMapping("#off-hand-weapons", "Off Hand"),
             new GuideMapping("#guns-and-bows", "Ranged"),
         }));
 
@@ -1476,15 +1476,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#bracer", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt", "Belt"),
+            new GuideMapping("#belt", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#boots", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#two-hand-weapons", "2H"),
-            new GuideMapping("#main-hand-weapons", "MH"),
-            new GuideMapping("#off-hand-weapons", "OH"),
+            new GuideMapping("#two-hand-weapons", "Two-Hand"),
+            new GuideMapping("#main-hand-weapons", "Main Hand"),
+            new GuideMapping("#off-hand-weapons", "Off Hand"),
             new GuideMapping("#guns-and-bows", "Ranged"),
         }));
 
@@ -1496,15 +1496,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#bracer", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt", "Belt"),
+            new GuideMapping("#belt", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#boots", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#two-hand-weapons", "2H"),
-            new GuideMapping("#main-hand-weapons", "MH"),
-            new GuideMapping("#off-hand-weapons", "OH"),
+            new GuideMapping("#two-hand-weapons", "Two-Hand"),
+            new GuideMapping("#main-hand-weapons", "Main Hand"),
+            new GuideMapping("#off-hand-weapons", "Off Hand"),
             new GuideMapping("#guns-and-bows", "Ranged"),
         }));
 
@@ -1516,15 +1516,15 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#bracer", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt", "Belt"),
+            new GuideMapping("#belt", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#boots", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#two-hand-weapons", "2H"),
-            new GuideMapping("#main-hand-weapons", "MH"),
-            new GuideMapping("#off-hand-weapons", "OH"),
+            new GuideMapping("#two-hand-weapons", "Two-Hand"),
+            new GuideMapping("#main-hand-weapons", "Main Hand"),
+            new GuideMapping("#off-hand-weapons", "Off Hand"),
             new GuideMapping("#guns-and-bows", "Ranged"),
         }));
 
@@ -1536,13 +1536,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest", "Chest"),
             new GuideMapping("#bracer", "Bracers"),
             new GuideMapping("#gloves", "Gloves"),
-            new GuideMapping("#belt", "Belt"),
+            new GuideMapping("#belt", "Waist"),
             new GuideMapping("#legs", "Legs"),
             new GuideMapping("#boots", "Feet"),
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#shields", "Shield"),
             new GuideMapping("#guns-and-bows", "Ranged")
         }));
@@ -1555,13 +1555,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-protection-warrior-tank-in-phase-1", "Chest"),
             new GuideMapping("#wrist-for-protection-warrior-tank-in-phase-1", "Bracers"),
             new GuideMapping("#hands-for-protection-warrior-tank-in-phase-1", "Gloves"),
-            new GuideMapping("#waist-for-protection-warrior-tank-in-phase-1", "Belt"),
+            new GuideMapping("#waist-for-protection-warrior-tank-in-phase-1", "Waist"),
             new GuideMapping("#legs-for-protection-warrior-tank-in-phase-1", "Legs"),
             new GuideMapping("#feet-for-protection-warrior-tank-in-phase-1", "Feet"),
             new GuideMapping("#neck-for-protection-warrior-tank-in-phase-1", "Neck"),
             new GuideMapping("#rings-for-protection-warrior-tank-in-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-protection-warrior-tank-in-phase-1", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#shields-for-protection-warrior-tank-in-phase-1", "Shield"),
             new GuideMapping("#guns-and-bows-for-protection-warrior-tank-in-phase-1", "Ranged")
         }));
@@ -1574,13 +1574,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-protection-warrior-tank-in-phase-2", "Chest"),
             new GuideMapping("#wrist-for-protection-warrior-tank-in-phase-2", "Bracers"),
             new GuideMapping("#hands-for-protection-warrior-tank-in-phase-2", "Gloves"),
-            new GuideMapping("#waist-for-protection-warrior-tank-in-phase-2", "Belt"),
+            new GuideMapping("#waist-for-protection-warrior-tank-in-phase-2", "Waist"),
             new GuideMapping("#legs-for-protection-warrior-tank-in-phase-2", "Legs"),
             new GuideMapping("#feet-for-protection-warrior-tank-in-phase-2", "Feet"),
             new GuideMapping("#neck-for-protection-warrior-tank-in-phase-2", "Neck"),
             new GuideMapping("#rings-for-protection-warrior-tank-in-phase-2", "Ring"),
             new GuideMapping("#trinkets-for-protection-warrior-tank-in-phase-2", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#shields-for-protection-warrior-tank-in-phase-2", "Shield"),
             new GuideMapping("#guns-and-bows-for-protection-warrior-tank-in-phase-2", "Ranged")
         }));
@@ -1593,13 +1593,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-protection-warrior-tank-in-phase-3", "Chest"),
             new GuideMapping("#wrist-for-protection-warrior-tank-in-phase-3", "Bracers"),
             new GuideMapping("#hands-for-protection-warrior-tank-in-phase-3", "Gloves"),
-            new GuideMapping("#waist-for-protection-warrior-tank-in-phase-3", "Belt"),
+            new GuideMapping("#waist-for-protection-warrior-tank-in-phase-3", "Waist"),
             new GuideMapping("#legs-for-protection-warrior-tank-in-phase-3", "Legs"),
             new GuideMapping("#feet-for-protection-warrior-tank-in-phase-3", "Feet"),
             new GuideMapping("#neck-for-protection-warrior-tank-in-phase-3", "Neck"),
             new GuideMapping("#rings-for-protection-warrior-tank-in-phase-3", "Ring"),
             new GuideMapping("#trinkets-for-protection-warrior-tank-in-phase-3", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#shields-for-protection-warrior-tank-in-phase-3", "Shield"),
             new GuideMapping("#guns-and-bows-for-protection-warrior-tank-in-phase-3", "Ranged")
         }));
@@ -1612,13 +1612,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-protection-warrior-tank-in-phase-4", "Chest"),
             new GuideMapping("#wrist-for-protection-warrior-tank-in-phase-4", "Bracers"),
             new GuideMapping("#hands-for-protection-warrior-tank-in-phase-4", "Gloves"),
-            new GuideMapping("#waist-for-protection-warrior-tank-in-phase-4", "Belt"),
+            new GuideMapping("#waist-for-protection-warrior-tank-in-phase-4", "Waist"),
             new GuideMapping("#legs-for-protection-warrior-tank-in-phase-4", "Legs"),
             new GuideMapping("#feet-for-protection-warrior-tank-in-phase-4", "Feet"),
             new GuideMapping("#neck-for-protection-warrior-tank-in-phase-4", "Neck"),
             new GuideMapping("#rings-for-protection-warrior-tank-in-phase-4", "Ring"),
             new GuideMapping("#trinkets-for-protection-warrior-tank-in-phase-4", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#shields-for-protection-warrior-tank-in-phase-4", "Shield"),
             new GuideMapping("#guns-and-bows-for-protection-warrior-tank-in-phase-4", "Ranged")
         }));
@@ -1631,13 +1631,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("#chest-for-protection-warrior-tank-in-phase-5", "Chest"),
             new GuideMapping("#wrist-for-protection-warrior-tank-in-phase-5", "Bracers"),
             new GuideMapping("#hands-for-protection-warrior-tank-in-phase-5", "Gloves"),
-            new GuideMapping("#waist-for-protection-warrior-tank-in-phase-5", "Belt"),
+            new GuideMapping("#waist-for-protection-warrior-tank-in-phase-5", "Waist"),
             new GuideMapping("#legs-for-protection-warrior-tank-in-phase-5", "Legs"),
             new GuideMapping("#feet-for-protection-warrior-tank-in-phase-5", "Feet"),
             new GuideMapping("#neck-for-protection-warrior-tank-in-phase-5", "Neck"),
             new GuideMapping("#rings-for-protection-warrior-tank-in-phase-5", "Ring"),
             new GuideMapping("#trinkets-for-protection-warrior-tank-in-phase-5", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "MH"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
             new GuideMapping("#shields-for-protection-warrior-tank-in-phase-5", "Shield"),
             new GuideMapping("#guns-and-bows-for-protection-warrior-tank-in-phase-5", "Ranged")
         }));

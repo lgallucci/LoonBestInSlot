@@ -35,14 +35,14 @@ LBIS:AddItem(spec, "23517", LBIS.L["Gloves"], "Alt") --Felsteel Gloves
 LBIS:AddItem(spec, "29134", LBIS.L["Gloves"], "Alt") --Gauntlets of the Chosen
 LBIS:AddItem(spec, "30375", LBIS.L["Gloves"], "Alt") --Gauntlets of the Vanquisher
 
-LBIS:AddItem(spec, "32805", LBIS.L["Belt"], "BIS") --Veteran's Plate Belt
-LBIS:AddItem(spec, "28995", LBIS.L["Belt"], "BIS") --Marshal's Plate Belt
-LBIS:AddItem(spec, "30032", LBIS.L["Belt"], "BIS Thrt") --Red Belt of Battle
-LBIS:AddItem(spec, "27672", LBIS.L["Belt"], "Alt") --Girdle of the Immovable
-LBIS:AddItem(spec, "29238", LBIS.L["Belt"], "Alt") --Lion's Heart Girdle
-LBIS:AddItem(spec, "31460", LBIS.L["Belt"], "Alt") --Sha'tari Vindicator's Waistguard
-LBIS:AddItem(spec, "25922", LBIS.L["Belt"], "Alt") --Fearless Girdle
-LBIS:AddItem(spec, "22422", LBIS.L["Belt"], "Alt") --Dreadnaught Waistguard
+LBIS:AddItem(spec, "32805", LBIS.L["Waist"], "BIS") --Veteran's Plate Belt
+LBIS:AddItem(spec, "28995", LBIS.L["Waist"], "BIS") --Marshal's Plate Belt
+LBIS:AddItem(spec, "30032", LBIS.L["Waist"], "BIS Thrt") --Red Belt of Battle
+LBIS:AddItem(spec, "27672", LBIS.L["Waist"], "Alt") --Girdle of the Immovable
+LBIS:AddItem(spec, "29238", LBIS.L["Waist"], "Alt") --Lion's Heart Girdle
+LBIS:AddItem(spec, "31460", LBIS.L["Waist"], "Alt") --Sha'tari Vindicator's Waistguard
+LBIS:AddItem(spec, "25922", LBIS.L["Waist"], "Alt") --Fearless Girdle
+LBIS:AddItem(spec, "22422", LBIS.L["Waist"], "Alt") --Dreadnaught Waistguard
 
 LBIS:AddItem(spec, "29184", LBIS.L["Legs"], "BIS Mit") --Timewarden's Leggings
 LBIS:AddItem(spec, "30533", LBIS.L["Legs"], "BIS Thrt") --Vanquisher's Legplates

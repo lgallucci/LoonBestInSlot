@@ -40,8 +40,8 @@ LBIS:AddItem(spec, "34366", LBIS.L["Gloves"], "Alt") --Sunfire Handwraps
 LBIS:AddItem(spec, "34938", LBIS.L["Gloves"], "Alt") --Enslaved Doomguard Soulgrips
 LBIS:AddItem(spec, "34808", LBIS.L["Gloves"], "Alt") --Gloves of Arcane Acuity
 
-LBIS:AddItem(spec, "34528", LBIS.L["Belt"], "BIS") --Cord of Absolution
-LBIS:AddItem(spec, "32256", LBIS.L["Belt"], "Alt") --Waistwrap of Infinity
+LBIS:AddItem(spec, "34528", LBIS.L["Waist"], "BIS") --Cord of Absolution
+LBIS:AddItem(spec, "32256", LBIS.L["Waist"], "Alt") --Waistwrap of Infinity
 
 LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "BIS") --Leggings of Calamity
 LBIS:AddItem(spec, "34386", LBIS.L["Legs"], "BIS") --Pantaloons of Growing Strife

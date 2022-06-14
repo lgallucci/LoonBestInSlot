@@ -30,9 +30,9 @@ LBIS:AddItem(spec, "29976", LBIS.L["Gloves"], "Alt") --Worldstorm Gauntlets
 LBIS:AddItem(spec, "30135", LBIS.L["Gloves"], "Alt") --Crystalforge Gloves
 LBIS:AddItem(spec, "30239", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Champion
 
-LBIS:AddItem(spec, "30030", LBIS.L["Belt"], "BIS") --Girdle of Fallen Stars
-LBIS:AddItem(spec, "29965", LBIS.L["Belt"], "Alt") --Girdle of the Righteous Path
-LBIS:AddItem(spec, "21873", LBIS.L["Belt"], "Alt") --Primal Mooncloth Belt
+LBIS:AddItem(spec, "30030", LBIS.L["Waist"], "BIS") --Girdle of Fallen Stars
+LBIS:AddItem(spec, "29965", LBIS.L["Waist"], "Alt") --Girdle of the Righteous Path
+LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "Alt") --Primal Mooncloth Belt
 
 LBIS:AddItem(spec, "29991", LBIS.L["Legs"], "BIS") --Sunhawk Leggings
 LBIS:AddItem(spec, "30727", LBIS.L["Legs"], "Alt") --Gilded Trousers of Benediction

@@ -35,12 +35,12 @@ LBIS:AddItem(spec, "34409", LBIS.L["Gloves"], "BIS") --Gauntlets of the Ancient 
 LBIS:AddItem(spec, "34350", LBIS.L["Gloves"], "Transmute BIS") --Gauntlets of the Ancient Shadowmoon
 LBIS:AddItem(spec, "34376", LBIS.L["Gloves"], "Alt") --Sun-Drenched Scale Gloves
 
-LBIS:AddItem(spec, "34543", LBIS.L["Belt"], "BIS") --Skyshatter Belt
-LBIS:AddItem(spec, "34854", LBIS.L["Belt"], "BIS") --Belt of the Forgotten Protector
-LBIS:AddItem(spec, "32258", LBIS.L["Belt"], "Alt") --Naturalist's Preserving Cinch
-LBIS:AddItem(spec, "32339", LBIS.L["Belt"], "Alt") --Belt of Primal Majesty
-LBIS:AddItem(spec, "30895", LBIS.L["Belt"], "Alt") --Angelista's Sash
-LBIS:AddItem(spec, "34932", LBIS.L["Belt"], "Alt") --Clutch of the Soothing Breeze
+LBIS:AddItem(spec, "34543", LBIS.L["Waist"], "BIS") --Skyshatter Belt
+LBIS:AddItem(spec, "34854", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Protector
+LBIS:AddItem(spec, "32258", LBIS.L["Waist"], "Alt") --Naturalist's Preserving Cinch
+LBIS:AddItem(spec, "32339", LBIS.L["Waist"], "Alt") --Belt of Primal Majesty
+LBIS:AddItem(spec, "30895", LBIS.L["Waist"], "Alt") --Angelista's Sash
+LBIS:AddItem(spec, "34932", LBIS.L["Waist"], "Alt") --Clutch of the Soothing Breeze
 
 LBIS:AddItem(spec, "34383", LBIS.L["Legs"], "BIS") --Kilt of Spiritual Reconstruction
 LBIS:AddItem(spec, "34186", LBIS.L["Legs"], "Transmute BIS") --Chain Links of the Tumultuous Storm

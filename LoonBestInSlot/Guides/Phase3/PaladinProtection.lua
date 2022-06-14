@@ -35,10 +35,10 @@ LBIS:AddItem(spec, "29998", LBIS.L["Gloves"], "Alt") --Royal Gauntlets of Silver
 LBIS:AddItem(spec, "30124", LBIS.L["Gloves"], "Alt") --Crystalforge Handguards
 LBIS:AddItem(spec, "30239", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Champion
 
-LBIS:AddItem(spec, "32342", LBIS.L["Belt"], "BIS") --Girdle of Mighty Resolve
-LBIS:AddItem(spec, "32333", LBIS.L["Belt"], "Alt Mit") --Girdle of Stability
-LBIS:AddItem(spec, "30096", LBIS.L["Belt"], "Alt Mit") --Girdle of the Invulnerable
-LBIS:AddItem(spec, "30064", LBIS.L["Belt"], "Alt Thrt") --Cord of Screaming Terrors
+LBIS:AddItem(spec, "32342", LBIS.L["Waist"], "BIS") --Girdle of Mighty Resolve
+LBIS:AddItem(spec, "32333", LBIS.L["Waist"], "Alt Mit") --Girdle of Stability
+LBIS:AddItem(spec, "30096", LBIS.L["Waist"], "Alt Mit") --Girdle of the Invulnerable
+LBIS:AddItem(spec, "30064", LBIS.L["Waist"], "Alt Thrt") --Cord of Screaming Terrors
 
 LBIS:AddItem(spec, "30995", LBIS.L["Legs"], "BIS") --Lightbringer Legguards
 LBIS:AddItem(spec, "31098", LBIS.L["Legs"], "BIS") --Leggings of the Forgotten Conqueror

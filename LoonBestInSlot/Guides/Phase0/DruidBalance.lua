@@ -56,14 +56,14 @@ LBIS:AddItem(spec, "27465", LBIS.L["Gloves"], "Alt") --Mana-Etched Gloves
 LBIS:AddItem(spec, "29317", LBIS.L["Gloves"], "Alt") --Tempest's Touch
 LBIS:AddItem(spec, "24452", LBIS.L["Gloves"], "Alt") --Starlight Gauntlets
 
-LBIS:AddItem(spec, "30038", LBIS.L["Belt"], "BIS") --Belt of Blasting
-LBIS:AddItem(spec, "21846", LBIS.L["Belt"], "BIS") --Spellfire Belt
-LBIS:AddItem(spec, "24256", LBIS.L["Belt"], "Alt") --Girdle of Ruination
-LBIS:AddItem(spec, "29524", LBIS.L["Belt"], "Alt") --Windhawk Belt
-LBIS:AddItem(spec, "29241", LBIS.L["Belt"], "Alt") --Belt of Depravity
-LBIS:AddItem(spec, "27843", LBIS.L["Belt"], "Alt") --Glyph-Lined Sash
-LBIS:AddItem(spec, "31461", LBIS.L["Belt"], "Alt") --A'dal's Gift
-LBIS:AddItem(spec, "24395", LBIS.L["Belt"], "Alt") --Mindfire Waistband
+LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
+LBIS:AddItem(spec, "21846", LBIS.L["Waist"], "BIS") --Spellfire Belt
+LBIS:AddItem(spec, "24256", LBIS.L["Waist"], "Alt") --Girdle of Ruination
+LBIS:AddItem(spec, "29524", LBIS.L["Waist"], "Alt") --Windhawk Belt
+LBIS:AddItem(spec, "29241", LBIS.L["Waist"], "Alt") --Belt of Depravity
+LBIS:AddItem(spec, "27843", LBIS.L["Waist"], "Alt") --Glyph-Lined Sash
+LBIS:AddItem(spec, "31461", LBIS.L["Waist"], "Alt") --A'dal's Gift
+LBIS:AddItem(spec, "24395", LBIS.L["Waist"], "Alt") --Mindfire Waistband
 
 LBIS:AddItem(spec, "24262", LBIS.L["Legs"], "BIS") --Spellstrike Pants
 LBIS:AddItem(spec, "29141", LBIS.L["Legs"], "Alt") --Tempest Leggings

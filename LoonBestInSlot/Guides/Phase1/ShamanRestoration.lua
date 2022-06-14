@@ -26,9 +26,9 @@ LBIS:AddItem(spec, "28521", LBIS.L["Gloves"], "Alt") --Mitts of the Treemender
 LBIS:AddItem(spec, "29032", LBIS.L["Gloves"], "Alt") --Cyclone Gloves
 LBIS:AddItem(spec, "29757", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Champion
 
-LBIS:AddItem(spec, "29524", LBIS.L["Belt"], "BIS") --Windhawk Belt
-LBIS:AddItem(spec, "21873", LBIS.L["Belt"], "BIS") --Primal Mooncloth Belt
-LBIS:AddItem(spec, "28567", LBIS.L["Belt"], "Alt") --Belt of Gale Force
+LBIS:AddItem(spec, "29524", LBIS.L["Waist"], "BIS") --Windhawk Belt
+LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt
+LBIS:AddItem(spec, "28567", LBIS.L["Waist"], "Alt") --Belt of Gale Force
 
 LBIS:AddItem(spec, "28751", LBIS.L["Legs"], "BIS") --Heart-Flame Leggings
 LBIS:AddItem(spec, "28591", LBIS.L["Legs"], "Alt") --Earthsoul Leggings

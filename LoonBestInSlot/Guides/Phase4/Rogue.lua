@@ -22,8 +22,8 @@ LBIS:AddItem(spec, "31026", LBIS.L["Gloves"], "BIS") --Slayer's Handguards
 LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Vanquisher
 LBIS:AddItem(spec, "33539", LBIS.L["Gloves"], "Alt") --Trickster's Stickyfingers
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "33211", LBIS.L["Belt"], "Alt") --Bladeangel's Money Belt
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "33211", LBIS.L["Waist"], "Alt") --Bladeangel's Money Belt
 
 LBIS:AddItem(spec, "31029", LBIS.L["Legs"], "BIS") --Slayer's Legguards
 LBIS:AddItem(spec, "31099", LBIS.L["Legs"], "BIS") --Leggings of the Forgotten Vanquisher

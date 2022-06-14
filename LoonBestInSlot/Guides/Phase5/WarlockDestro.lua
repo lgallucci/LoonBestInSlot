@@ -40,10 +40,10 @@ LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten C
 LBIS:AddItem(spec, "34938", LBIS.L["Gloves"], "Alt") --Enslaved Doomguard Soulgrips
 LBIS:AddItem(spec, "34808", LBIS.L["Gloves"], "Alt") --Gloves of Arcane Acuity
 
-LBIS:AddItem(spec, "34541", LBIS.L["Belt"], "BIS") --Belt of the Malefic
-LBIS:AddItem(spec, "30038", LBIS.L["Belt"], "Alt") --Belt of Blasting
-LBIS:AddItem(spec, "30888", LBIS.L["Belt"], "Alt") --Anetheron's Noose
-LBIS:AddItem(spec, "32256", LBIS.L["Belt"], "Alt") --Waistwrap of Infinity
+LBIS:AddItem(spec, "34541", LBIS.L["Waist"], "BIS") --Belt of the Malefic
+LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "Alt") --Belt of Blasting
+LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "Alt") --Anetheron's Noose
+LBIS:AddItem(spec, "32256", LBIS.L["Waist"], "Alt") --Waistwrap of Infinity
 
 LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "BIS") --Leggings of Calamity
 LBIS:AddItem(spec, "34386", LBIS.L["Legs"], "Alt") --Pantaloons of Growing Strife

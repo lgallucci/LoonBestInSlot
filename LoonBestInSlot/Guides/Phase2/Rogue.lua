@@ -29,9 +29,9 @@ LBIS:AddItem(spec, "30239", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished 
 LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "Alt") --Gloves of the Searing Grip
 LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "Alt") --Grips of Deftness
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "30040", LBIS.L["Belt"], "Alt") --Belt of Deep Shadow
-LBIS:AddItem(spec, "29247", LBIS.L["Belt"], "Alt") --Girdle of the Deathdealer
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "30040", LBIS.L["Waist"], "Alt") --Belt of Deep Shadow
+LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "Alt") --Girdle of the Deathdealer
 
 LBIS:AddItem(spec, "30148", LBIS.L["Legs"], "BIS") --Deathmantle Legguards
 LBIS:AddItem(spec, "30245", LBIS.L["Legs"], "BIS") --Leggings of the Vanquished Champion

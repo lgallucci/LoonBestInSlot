@@ -28,8 +28,8 @@ LBIS:AddItem(spec, "30239", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished 
 LBIS:AddItem(spec, "28776", LBIS.L["Gloves"], "Alt") --Liar's Tongue Gloves
 LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "Alt") --Grips of Deftness
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "28828", LBIS.L["Belt"], "Alt") --Gronn-Stitched Girdle
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "Alt") --Gronn-Stitched Girdle
 
 LBIS:AddItem(spec, "30192", LBIS.L["Legs"], "BIS") --Cataclysm Legplates
 LBIS:AddItem(spec, "30245", LBIS.L["Legs"], "BIS") --Leggings of the Vanquished Champion

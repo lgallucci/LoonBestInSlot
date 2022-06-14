@@ -26,9 +26,9 @@ LBIS:AddItem(spec, "34234", LBIS.L["Gloves"], "Alt") --Shadowed Gauntlets of Par
 LBIS:AddItem(spec, "31026", LBIS.L["Gloves"], "Alt") --Slayer's Handguards
 LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Vanquisher
 
-LBIS:AddItem(spec, "34558", LBIS.L["Belt"], "BIS") --Slayer's Belt
-LBIS:AddItem(spec, "34855", LBIS.L["Belt"], "BIS") --Belt of the Forgotten Vanquisher
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "Alt") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "34558", LBIS.L["Waist"], "BIS") --Slayer's Belt
+LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Vanquisher
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "Alt") --Belt of One-Hundred Deaths
 
 LBIS:AddItem(spec, "34188", LBIS.L["Legs"], "BIS") --Leggings of the Immortal Night
 LBIS:AddItem(spec, "31029", LBIS.L["Legs"], "Alt") --Slayer's Legguards

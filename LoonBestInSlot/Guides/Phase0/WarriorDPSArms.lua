@@ -30,10 +30,10 @@ LBIS:AddItem(spec, "25685", LBIS.L["Gloves"], "BIS") --Fel Leather Gloves
 LBIS:AddItem(spec, "27497", LBIS.L["Gloves"], "BIS") --Doomplate Gauntlets
 LBIS:AddItem(spec, "23520", LBIS.L["Gloves"], "Alt") --Ragesteel Gloves
 
-LBIS:AddItem(spec, "32805", LBIS.L["Belt"], "BIS") --Veteran's Plate Belt
-LBIS:AddItem(spec, "27985", LBIS.L["Belt"], "BIS") --Deathforge Girdle
-LBIS:AddItem(spec, "29247", LBIS.L["Belt"], "Alt") --Girdle of the Deathdealer
-LBIS:AddItem(spec, "31462", LBIS.L["Belt"], "Alt") --Shattrath's Champion Belt
+LBIS:AddItem(spec, "32805", LBIS.L["Waist"], "BIS") --Veteran's Plate Belt
+LBIS:AddItem(spec, "27985", LBIS.L["Waist"], "BIS") --Deathforge Girdle
+LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "Alt") --Girdle of the Deathdealer
+LBIS:AddItem(spec, "31462", LBIS.L["Waist"], "Alt") --Shattrath's Champion Belt
 
 LBIS:AddItem(spec, "30538", LBIS.L["Legs"], "BIS") --Midnight Legguards
 LBIS:AddItem(spec, "25687", LBIS.L["Legs"], "Alt") --Fel Leather Leggings

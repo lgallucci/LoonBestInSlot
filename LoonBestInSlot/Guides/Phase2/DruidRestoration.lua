@@ -34,9 +34,9 @@ LBIS:AddItem(spec, "30217", LBIS.L["Gloves"], "Alt") --Nordrassil Gloves
 LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Defender
 LBIS:AddItem(spec, "30029", LBIS.L["Gloves"], "Alt") --Bark-Gloves of Ancient Wisdom
 
-LBIS:AddItem(spec, "21873", LBIS.L["Belt"], "BIS") --Primal Mooncloth Belt
-LBIS:AddItem(spec, "30036", LBIS.L["Belt"], "BIS") --Belt of the Long Road
-LBIS:AddItem(spec, "29984", LBIS.L["Belt"], "BIS") --Girdle of Zaetar
+LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt
+LBIS:AddItem(spec, "30036", LBIS.L["Waist"], "BIS") --Belt of the Long Road
+LBIS:AddItem(spec, "29984", LBIS.L["Waist"], "BIS") --Girdle of Zaetar
 
 LBIS:AddItem(spec, "30727", LBIS.L["Legs"], "BIS") --Gilded Trousers of Benediction
 LBIS:AddItem(spec, "28591", LBIS.L["Legs"], "BIS") --Earthsoul Leggings

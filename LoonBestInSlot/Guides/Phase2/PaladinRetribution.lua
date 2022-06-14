@@ -36,8 +36,8 @@ LBIS:AddItem(spec, "28795", LBIS.L["Bracers"], "Alt") --Bladespire Warbands
 LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "BIS") --Gloves of the Searing Grip
 LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "Alt") --Grips of Deftness
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "28779", LBIS.L["Belt"], "Alt") --Girdle of the Endless Pit
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "28779", LBIS.L["Waist"], "Alt") --Girdle of the Endless Pit
 
 LBIS:AddItem(spec, "29950", LBIS.L["Legs"], "BIS") --Greaves of the Bloodwarder
 LBIS:AddItem(spec, "30257", LBIS.L["Legs"], "BIS") --Shattrath Leggings

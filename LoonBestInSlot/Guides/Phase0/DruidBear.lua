@@ -51,13 +51,13 @@ LBIS:AddItem(spec, "29503", LBIS.L["Gloves"], "Alt Thrt") --Cobrascale Gloves
 LBIS:AddItem(spec, "27531", LBIS.L["Gloves"], "Alt") --Wastewalker Gloves
 LBIS:AddItem(spec, "28396", LBIS.L["Gloves"], "Alt") --Gloves of the Unbound
 
-LBIS:AddItem(spec, "30942", LBIS.L["Belt"], "BIS") --Manimal's Cinch
-LBIS:AddItem(spec, "29264", LBIS.L["Belt"], "BIS Mit") --Tree-Mender's Belt
-LBIS:AddItem(spec, "29247", LBIS.L["Belt"], "BIS Thrt") --Girdle of the Deathdealer
-LBIS:AddItem(spec, "32802", LBIS.L["Belt"], "BIS Mit") --Veteran's Leather Belt
-LBIS:AddItem(spec, "32798", LBIS.L["Belt"], "Alt") --Veteran's Dragonhide Belt
-LBIS:AddItem(spec, "28986", LBIS.L["Belt"], "Alt") --Marshal's Leather Belt
-LBIS:AddItem(spec, "28423", LBIS.L["Belt"], "Alt") --General's Leather Belt
+LBIS:AddItem(spec, "30942", LBIS.L["Waist"], "BIS") --Manimal's Cinch
+LBIS:AddItem(spec, "29264", LBIS.L["Waist"], "BIS Mit") --Tree-Mender's Belt
+LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "BIS Thrt") --Girdle of the Deathdealer
+LBIS:AddItem(spec, "32802", LBIS.L["Waist"], "BIS Mit") --Veteran's Leather Belt
+LBIS:AddItem(spec, "32798", LBIS.L["Waist"], "Alt") --Veteran's Dragonhide Belt
+LBIS:AddItem(spec, "28986", LBIS.L["Waist"], "Alt") --Marshal's Leather Belt
+LBIS:AddItem(spec, "28423", LBIS.L["Waist"], "Alt") --General's Leather Belt
 
 LBIS:AddItem(spec, "25690", LBIS.L["Legs"], "BIS Mit") --Heavy Clefthoof Leggings
 LBIS:AddItem(spec, "31544", LBIS.L["Legs"], "BIS Thrt") --Clefthoof Hide Leggings

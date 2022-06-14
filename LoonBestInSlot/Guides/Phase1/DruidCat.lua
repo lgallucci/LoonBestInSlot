@@ -26,9 +26,9 @@ LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "Alt") --Grips of Deftness
 LBIS:AddItem(spec, "29507", LBIS.L["Gloves"], "Alt") --Windslayer Wraps
 LBIS:AddItem(spec, "27509", LBIS.L["Gloves"], "BIS") --Handgrips of Assassination
 
-LBIS:AddItem(spec, "29247", LBIS.L["Belt"], "BIS") --Girdle of the Deathdealer
-LBIS:AddItem(spec, "28750", LBIS.L["Belt"], "BIS") --Girdle of Treachery
-LBIS:AddItem(spec, "28828", LBIS.L["Belt"], "BIS") --Gronn-Stitched Girdle
+LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "BIS") --Girdle of the Deathdealer
+LBIS:AddItem(spec, "28750", LBIS.L["Waist"], "BIS") --Girdle of Treachery
+LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "BIS") --Gronn-Stitched Girdle
 
 LBIS:AddItem(spec, "28741", LBIS.L["Legs"], "BIS") --Skulker's Greaves
 LBIS:AddItem(spec, "31544", LBIS.L["Legs"], "Alt") --Clefthoof Hide Leggings

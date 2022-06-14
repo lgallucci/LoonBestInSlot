@@ -34,14 +34,14 @@ LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "BIS Thrt") --Grips of Deftness
 LBIS:AddItem(spec, "28506", LBIS.L["Gloves"], "Alt") --Gloves of Dexterous Manipulation
 LBIS:AddItem(spec, "28776", LBIS.L["Gloves"], "Alt") --Liar's Tongue Gloves
 
-LBIS:AddItem(spec, "29264", LBIS.L["Belt"], "BIS Mit") --Tree-Mender's Belt
-LBIS:AddItem(spec, "28828", LBIS.L["Belt"], "BIS Thrt") --Gronn-Stitched Girdle
-LBIS:AddItem(spec, "28750", LBIS.L["Belt"], "Alt Thrt") --Girdle of Treachery
-LBIS:AddItem(spec, "28986", LBIS.L["Belt"], "BIS Mit") --Marshal's Leather Belt
-LBIS:AddItem(spec, "28423", LBIS.L["Belt"], "BIS Mit") --General's Leather Belt
-LBIS:AddItem(spec, "29247", LBIS.L["Belt"], "Alt") --Girdle of the Deathdealer
-LBIS:AddItem(spec, "28976", LBIS.L["Belt"], "Alt") --Marshal's Dragonhide Belt
-LBIS:AddItem(spec, "28443", LBIS.L["Belt"], "Alt") --General's Dragonhide Belt
+LBIS:AddItem(spec, "29264", LBIS.L["Waist"], "BIS Mit") --Tree-Mender's Belt
+LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "BIS Thrt") --Gronn-Stitched Girdle
+LBIS:AddItem(spec, "28750", LBIS.L["Waist"], "Alt Thrt") --Girdle of Treachery
+LBIS:AddItem(spec, "28986", LBIS.L["Waist"], "BIS Mit") --Marshal's Leather Belt
+LBIS:AddItem(spec, "28423", LBIS.L["Waist"], "BIS Mit") --General's Leather Belt
+LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "Alt") --Girdle of the Deathdealer
+LBIS:AddItem(spec, "28976", LBIS.L["Waist"], "Alt") --Marshal's Dragonhide Belt
+LBIS:AddItem(spec, "28443", LBIS.L["Waist"], "Alt") --General's Dragonhide Belt
 
 LBIS:AddItem(spec, "29099", LBIS.L["Legs"], "BIS Mit") --Greaves of Malorne
 LBIS:AddItem(spec, "29767", LBIS.L["Legs"], "BIS Mit") --Leggings of the Fallen Defender

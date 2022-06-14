@@ -34,11 +34,11 @@ LBIS:AddItem(spec, "25685", LBIS.L["Gloves"], "Alt") --Fel Leather Gloves
 LBIS:AddItem(spec, "27509", LBIS.L["Gloves"], "Alt") --Handgrips of Assassination
 LBIS:AddItem(spec, "27531", LBIS.L["Gloves"], "Alt") --Wastewalker Gloves
 
-LBIS:AddItem(spec, "30372", LBIS.L["Belt"], "Alt") --Socrethar's Girdle
-LBIS:AddItem(spec, "31464", LBIS.L["Belt"], "Alt") --Naaru Belt of Precision
-LBIS:AddItem(spec, "29247", LBIS.L["Belt"], "BIS") --Girdle of the Deathdealer
-LBIS:AddItem(spec, "27760", LBIS.L["Belt"], "Alt") --Dunewind Sash
-LBIS:AddItem(spec, "27911", LBIS.L["Belt"], "Alt") --Epoch's Whispering Cinch
+LBIS:AddItem(spec, "30372", LBIS.L["Waist"], "Alt") --Socrethar's Girdle
+LBIS:AddItem(spec, "31464", LBIS.L["Waist"], "Alt") --Naaru Belt of Precision
+LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "BIS") --Girdle of the Deathdealer
+LBIS:AddItem(spec, "27760", LBIS.L["Waist"], "Alt") --Dunewind Sash
+LBIS:AddItem(spec, "27911", LBIS.L["Waist"], "Alt") --Epoch's Whispering Cinch
 
 LBIS:AddItem(spec, "31544", LBIS.L["Legs"], "BIS") --Clefthoof Hide Leggings
 LBIS:AddItem(spec, "27837", LBIS.L["Legs"], "Alt") --Wastewalker Leggings

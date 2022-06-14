@@ -32,9 +32,9 @@ LBIS:AddItem(spec, "31055", LBIS.L["Gloves"], "Alt") --Gloves of the Tempest
 LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Vanquisher
 LBIS:AddItem(spec, "29987", LBIS.L["Gloves"], "Alt") --Gauntlets of the Sun King
 
-LBIS:AddItem(spec, "30888", LBIS.L["Belt"], "BIS") --Anetheron's Noose
-LBIS:AddItem(spec, "32256", LBIS.L["Belt"], "BIS") --Waistwrap of Infinity
-LBIS:AddItem(spec, "30038", LBIS.L["Belt"], "Alt") --Belt of Blasting
+LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "BIS") --Anetheron's Noose
+LBIS:AddItem(spec, "32256", LBIS.L["Waist"], "BIS") --Waistwrap of Infinity
+LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "Alt") --Belt of Blasting
 
 LBIS:AddItem(spec, "31058", LBIS.L["Legs"], "BIS") --Leggings of the Tempest
 LBIS:AddItem(spec, "31099", LBIS.L["Legs"], "BIS") --Leggings of the Forgotten Vanquisher

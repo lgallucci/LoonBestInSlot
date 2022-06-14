@@ -28,10 +28,10 @@ LBIS:AddItem(spec, "33557", LBIS.L["Bracers"], "Alt") --Gargon's Bracers of Peac
 LBIS:AddItem(spec, "32328", LBIS.L["Gloves"], "BIS") --Botanist's Gloves of Growth
 LBIS:AddItem(spec, "33587", LBIS.L["Gloves"], "Alt") --Light-Blessed Bonds
 
-LBIS:AddItem(spec, "30895", LBIS.L["Belt"], "BIS") --Angelista's Sash
-LBIS:AddItem(spec, "32339", LBIS.L["Belt"], "BIS") --Belt of Primal Majesty
-LBIS:AddItem(spec, "33483", LBIS.L["Belt"], "BIS") --Life-step Belt
-LBIS:AddItem(spec, "33480", LBIS.L["Belt"], "Alt") --Cord of Braided Troll Hair
+LBIS:AddItem(spec, "30895", LBIS.L["Waist"], "BIS") --Angelista's Sash
+LBIS:AddItem(spec, "32339", LBIS.L["Waist"], "BIS") --Belt of Primal Majesty
+LBIS:AddItem(spec, "33483", LBIS.L["Waist"], "BIS") --Life-step Belt
+LBIS:AddItem(spec, "33480", LBIS.L["Waist"], "Alt") --Cord of Braided Troll Hair
 
 LBIS:AddItem(spec, "30912", LBIS.L["Legs"], "BIS") --Leggings of Eternity
 LBIS:AddItem(spec, "33585", LBIS.L["Legs"], "Alt") --Achromic Trousers of the Naaru

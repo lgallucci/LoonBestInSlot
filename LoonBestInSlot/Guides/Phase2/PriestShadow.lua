@@ -26,9 +26,9 @@ LBIS:AddItem(spec, "30160", LBIS.L["Gloves"], "Alt") --Handguards of the Avatar
 LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Defender
 LBIS:AddItem(spec, "29987", LBIS.L["Gloves"], "Alt") --Gauntlets of the Sun King
 
-LBIS:AddItem(spec, "30038", LBIS.L["Belt"], "BIS") --Belt of Blasting
-LBIS:AddItem(spec, "30064", LBIS.L["Belt"], "Alt") --Cord of Screaming Terrors
-LBIS:AddItem(spec, "28799", LBIS.L["Belt"], "Alt") --Belt of Divine Inspiration
+LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
+LBIS:AddItem(spec, "30064", LBIS.L["Waist"], "Alt") --Cord of Screaming Terrors
+LBIS:AddItem(spec, "28799", LBIS.L["Waist"], "Alt") --Belt of Divine Inspiration
 
 LBIS:AddItem(spec, "29972", LBIS.L["Legs"], "BIS") --Trousers of the Astromancer
 LBIS:AddItem(spec, "30162", LBIS.L["Legs"], "BIS") --Leggings of the Avatar

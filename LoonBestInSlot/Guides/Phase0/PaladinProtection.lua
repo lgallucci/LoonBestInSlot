@@ -24,10 +24,10 @@ LBIS:AddItem(spec, "33517", LBIS.L["Gloves"], "BIS") --Bonefist Gauntlets
 LBIS:AddItem(spec, "30741", LBIS.L["Gloves"], "BIS") --Topaz-Studded Battlegrips
 LBIS:AddItem(spec, "25788", LBIS.L["Gloves"], "Alt") --Dauntless Handguards
 
-LBIS:AddItem(spec, "33524", LBIS.L["Belt"], "BIS") --Girdle of the Protector
-LBIS:AddItem(spec, "33279", LBIS.L["Belt"], "Alt") --Iron-tusk Girdle
-LBIS:AddItem(spec, "30034", LBIS.L["Belt"], "Alt") --Belt of the Guardian
-LBIS:AddItem(spec, "34941", LBIS.L["Belt"], "Alt") --Girdle of the Fearless
+LBIS:AddItem(spec, "33524", LBIS.L["Waist"], "BIS") --Girdle of the Protector
+LBIS:AddItem(spec, "33279", LBIS.L["Waist"], "Alt") --Iron-tusk Girdle
+LBIS:AddItem(spec, "30034", LBIS.L["Waist"], "Alt") --Belt of the Guardian
+LBIS:AddItem(spec, "34941", LBIS.L["Waist"], "Alt") --Girdle of the Fearless
 
 LBIS:AddItem(spec, "34946", LBIS.L["Legs"], "BIS") --Inscribed Legplates of the Aldor
 LBIS:AddItem(spec, "33515", LBIS.L["Legs"], "Alt") --Unwavering Legguards

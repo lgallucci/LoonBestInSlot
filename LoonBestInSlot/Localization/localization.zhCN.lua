@@ -46,7 +46,6 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Bear"] = "";
   LBIS.L["Beast Mastery"] = "野兽控制";
 --  LBIS.L["Beasts Deck"] = "";
---  LBIS.L["Belt"] = "";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Black Temple"] = "黑暗神殿";
 --  LBIS.L["Black Temple / Hyjal Summit"] = "";
@@ -403,6 +402,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Vendor"] = "商人";
   LBIS.L["Vexallus"] = "维萨鲁斯";
   LBIS.L["Void Reaver"] = "空灵机甲";
+  LBIS.L["Waist"] = "腰部";
   LBIS.L["Wand"] = "魔杖";
   LBIS.L["Wanted: Annihilator Servo!"] = "悬赏：歼灭者机械臂";
   LBIS.L["Warbringer O'mrogg"] = "战争使者沃姆罗格";

@@ -38,9 +38,9 @@ LBIS:AddItem(spec, "32328", LBIS.L["Gloves"], "Alt") --Botanist's Gloves of Grow
 LBIS:AddItem(spec, "32275", LBIS.L["Gloves"], "Alt") --Spiritwalker Gauntlets
 LBIS:AddItem(spec, "28780", LBIS.L["Gloves"], "Alt") --Soul-Eater's Handwraps
 
-LBIS:AddItem(spec, "32276", LBIS.L["Belt"], "BIS") --Flashfire Girdle
-LBIS:AddItem(spec, "32256", LBIS.L["Belt"], "Alt") --Waistwrap of Infinity
-LBIS:AddItem(spec, "30038", LBIS.L["Belt"], "Alt") --Belt of Blasting
+LBIS:AddItem(spec, "32276", LBIS.L["Waist"], "BIS") --Flashfire Girdle
+LBIS:AddItem(spec, "32256", LBIS.L["Waist"], "Alt") --Waistwrap of Infinity
+LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "Alt") --Belt of Blasting
 
 LBIS:AddItem(spec, "30916", LBIS.L["Legs"], "BIS") --Leggings of Channeled Elements
 LBIS:AddItem(spec, "31020", LBIS.L["Legs"], "BIS") --Skyshatter Legguards

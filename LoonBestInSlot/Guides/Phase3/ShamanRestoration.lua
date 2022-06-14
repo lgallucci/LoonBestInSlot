@@ -36,10 +36,10 @@ LBIS:AddItem(spec, "29976", LBIS.L["Gloves"], "Alt") --Worldstorm Gauntlets
 LBIS:AddItem(spec, "31007", LBIS.L["Gloves"], "Alt") --Skyshatter Gloves
 LBIS:AddItem(spec, "31094", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Protector
 
-LBIS:AddItem(spec, "32258", LBIS.L["Belt"], "BIS") --Naturalist's Preserving Cinch
-LBIS:AddItem(spec, "32339", LBIS.L["Belt"], "BIS") --Belt of Primal Majesty
-LBIS:AddItem(spec, "30895", LBIS.L["Belt"], "BIS") --Angelista's Sash
-LBIS:AddItem(spec, "30030", LBIS.L["Belt"], "Alt") --Girdle of Fallen Stars
+LBIS:AddItem(spec, "32258", LBIS.L["Waist"], "BIS") --Naturalist's Preserving Cinch
+LBIS:AddItem(spec, "32339", LBIS.L["Waist"], "BIS") --Belt of Primal Majesty
+LBIS:AddItem(spec, "30895", LBIS.L["Waist"], "BIS") --Angelista's Sash
+LBIS:AddItem(spec, "30030", LBIS.L["Waist"], "Alt") --Girdle of Fallen Stars
 
 LBIS:AddItem(spec, "31019", LBIS.L["Legs"], "BIS") --Skyshatter Leggings
 LBIS:AddItem(spec, "31100", LBIS.L["Legs"], "BIS") --Leggings of the Forgotten Protector

@@ -35,9 +35,9 @@ LBIS:AddItem(spec, "31061", LBIS.L["Gloves"], "BIS") --Handguards of Absolution
 LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Conqueror
 LBIS:AddItem(spec, "28507", LBIS.L["Gloves"], "Alt") --Handwraps of Flowing Thought
 
-LBIS:AddItem(spec, "32256", LBIS.L["Belt"], "BIS") --Waistwrap of Infinity
-LBIS:AddItem(spec, "30038", LBIS.L["Belt"], "Alt") --Belt of Blasting
-LBIS:AddItem(spec, "30888", LBIS.L["Belt"], "Alt") --Anetheron's Noose
+LBIS:AddItem(spec, "32256", LBIS.L["Waist"], "BIS") --Waistwrap of Infinity
+LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "Alt") --Belt of Blasting
+LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "Alt") --Anetheron's Noose
 
 LBIS:AddItem(spec, "30916", LBIS.L["Legs"], "BIS") --Leggings of Channeled Elements
 LBIS:AddItem(spec, "32367", LBIS.L["Legs"], "Alt") --Leggings of Devastation

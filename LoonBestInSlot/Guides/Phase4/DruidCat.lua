@@ -22,9 +22,9 @@ LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "BIS") --Gloves of the Searing Gri
 LBIS:AddItem(spec, "31034", LBIS.L["Gloves"], "BIS") --Thunderheart Gauntlets
 LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Vanquisher
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "33583", LBIS.L["Belt"], "Alt") --Waistguard of the Great Beast
-LBIS:AddItem(spec, "33211", LBIS.L["Belt"], "Alt") --Bladeangel's Money Belt
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "33583", LBIS.L["Waist"], "Alt") --Waistguard of the Great Beast
+LBIS:AddItem(spec, "33211", LBIS.L["Waist"], "Alt") --Bladeangel's Money Belt
 
 LBIS:AddItem(spec, "31044", LBIS.L["Legs"], "BIS") --Thunderheart Leggings
 LBIS:AddItem(spec, "31099", LBIS.L["Legs"], "BIS") --Leggings of the Forgotten Vanquisher

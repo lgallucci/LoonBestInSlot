@@ -36,10 +36,10 @@ LBIS:AddItem(spec, "28780", LBIS.L["Gloves"], "Alt") --Soul-Eater's Handwraps
 LBIS:AddItem(spec, "29092", LBIS.L["Gloves"], "Alt") --Gloves of Malorne
 LBIS:AddItem(spec, "29758", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Defender
 
-LBIS:AddItem(spec, "21846", LBIS.L["Belt"], "BIS") --Spellfire Belt
-LBIS:AddItem(spec, "24256", LBIS.L["Belt"], "BIS") --Girdle of Ruination
-LBIS:AddItem(spec, "28799", LBIS.L["Belt"], "Alt") --Belt of Divine Inspiration
-LBIS:AddItem(spec, "28654", LBIS.L["Belt"], "Alt") --Malefic Girdle
+LBIS:AddItem(spec, "21846", LBIS.L["Waist"], "BIS") --Spellfire Belt
+LBIS:AddItem(spec, "24256", LBIS.L["Waist"], "BIS") --Girdle of Ruination
+LBIS:AddItem(spec, "28799", LBIS.L["Waist"], "Alt") --Belt of Divine Inspiration
+LBIS:AddItem(spec, "28654", LBIS.L["Waist"], "Alt") --Malefic Girdle
 
 LBIS:AddItem(spec, "24262", LBIS.L["Legs"], "BIS") --Spellstrike Pants
 LBIS:AddItem(spec, "30734", LBIS.L["Legs"], "BIS") --Leggings of the Seventh Circle

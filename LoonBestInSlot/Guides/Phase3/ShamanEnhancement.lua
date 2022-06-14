@@ -33,12 +33,12 @@ LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "Alt") --Gloves of the Searing Gri
 LBIS:AddItem(spec, "30189", LBIS.L["Gloves"], "Alt") --Cataclysm Gauntlets
 LBIS:AddItem(spec, "30239", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Champion
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "32346", LBIS.L["Belt"], "Alt") --Boneweave Girdle
-LBIS:AddItem(spec, "32265", LBIS.L["Belt"], "Alt") --Shadow-walker's Cord
-LBIS:AddItem(spec, "30879", LBIS.L["Belt"], "Alt") --Don Alejandro's Money Belt
-LBIS:AddItem(spec, "30919", LBIS.L["Belt"], "Alt") --Valestalker Girdle
-LBIS:AddItem(spec, "30040", LBIS.L["Belt"], "Alt") --Belt of Deep Shadow
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "32346", LBIS.L["Waist"], "Alt") --Boneweave Girdle
+LBIS:AddItem(spec, "32265", LBIS.L["Waist"], "Alt") --Shadow-walker's Cord
+LBIS:AddItem(spec, "30879", LBIS.L["Waist"], "Alt") --Don Alejandro's Money Belt
+LBIS:AddItem(spec, "30919", LBIS.L["Waist"], "Alt") --Valestalker Girdle
+LBIS:AddItem(spec, "30040", LBIS.L["Waist"], "Alt") --Belt of Deep Shadow
 
 LBIS:AddItem(spec, "30900", LBIS.L["Legs"], "BIS") --Bow-stitched Leggings
 LBIS:AddItem(spec, "30898", LBIS.L["Legs"], "Alt") --Shady Dealer's Pantaloons

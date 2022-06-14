@@ -20,8 +20,8 @@ LBIS:AddItem(spec, "33513", LBIS.L["Bracers"], "Alt") --Eternium Rage-shackles
 
 LBIS:AddItem(spec, "32278", LBIS.L["Gloves"], "BIS") --Grips of Silent Justice
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "33211", LBIS.L["Belt"], "Alt") --Bladeangel's Money Belt
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "33211", LBIS.L["Waist"], "Alt") --Bladeangel's Money Belt
 
 LBIS:AddItem(spec, "32341", LBIS.L["Legs"], "BIS") --Leggings of Divine Retribution
 

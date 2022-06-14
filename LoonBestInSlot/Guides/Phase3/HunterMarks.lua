@@ -35,9 +35,9 @@ LBIS:AddItem(spec, "31094", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten P
 LBIS:AddItem(spec, "30140", LBIS.L["Gloves"], "Alt") --Rift Stalker Gauntlets
 LBIS:AddItem(spec, "30241", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Hero
 
-LBIS:AddItem(spec, "30879", LBIS.L["Belt"], "BIS") --Don Alejandro's Money Belt
-LBIS:AddItem(spec, "32346", LBIS.L["Belt"], "BIS") --Boneweave Girdle
-LBIS:AddItem(spec, "30040", LBIS.L["Belt"], "Alt") --Belt of Deep Shadow
+LBIS:AddItem(spec, "30879", LBIS.L["Waist"], "BIS") --Don Alejandro's Money Belt
+LBIS:AddItem(spec, "32346", LBIS.L["Waist"], "BIS") --Boneweave Girdle
+LBIS:AddItem(spec, "30040", LBIS.L["Waist"], "Alt") --Belt of Deep Shadow
 
 LBIS:AddItem(spec, "31005", LBIS.L["Legs"], "BIS") --Gronnstalker's Leggings
 LBIS:AddItem(spec, "31100", LBIS.L["Legs"], "BIS") --Leggings of the Forgotten Protector

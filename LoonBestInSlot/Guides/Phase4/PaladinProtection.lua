@@ -24,8 +24,8 @@ LBIS:AddItem(spec, "30985", LBIS.L["Gloves"], "BIS") --Lightbringer Handguards
 LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Conqueror
 LBIS:AddItem(spec, "33517", LBIS.L["Gloves"], "Alt Mit") --Bonefist Gauntlets
 
-LBIS:AddItem(spec, "32342", LBIS.L["Belt"], "BIS") --Girdle of Mighty Resolve
-LBIS:AddItem(spec, "33524", LBIS.L["Belt"], "BIS Thrt") --Girdle of the Protector
+LBIS:AddItem(spec, "32342", LBIS.L["Waist"], "BIS") --Girdle of Mighty Resolve
+LBIS:AddItem(spec, "33524", LBIS.L["Waist"], "BIS Thrt") --Girdle of the Protector
 
 LBIS:AddItem(spec, "30995", LBIS.L["Legs"], "BIS") --Lightbringer Legguards
 LBIS:AddItem(spec, "31098", LBIS.L["Legs"], "BIS") --Leggings of the Forgotten Conqueror

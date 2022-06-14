@@ -38,9 +38,9 @@ LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten C
 LBIS:AddItem(spec, "30725", LBIS.L["Gloves"], "Alt") --Anger-Spark Gloves
 LBIS:AddItem(spec, "21847", LBIS.L["Gloves"], "Alt") --Spellfire Gloves
 
-LBIS:AddItem(spec, "30038", LBIS.L["Belt"], "BIS") --Belt of Blasting
-LBIS:AddItem(spec, "30888", LBIS.L["Belt"], "BIS") --Anetheron's Noose
-LBIS:AddItem(spec, "32256", LBIS.L["Belt"], "BIS") --Waistwrap of Infinity
+LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
+LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "BIS") --Anetheron's Noose
+LBIS:AddItem(spec, "32256", LBIS.L["Waist"], "BIS") --Waistwrap of Infinity
 
 LBIS:AddItem(spec, "30916", LBIS.L["Legs"], "BIS") --Leggings of Channeled Elements
 LBIS:AddItem(spec, "32367", LBIS.L["Legs"], "BIS") --Leggings of Devastation

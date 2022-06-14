@@ -32,9 +32,9 @@ LBIS:AddItem(spec, "30151", LBIS.L["Gloves"], "BIS") --Gloves of the Avatar
 LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Defender
 LBIS:AddItem(spec, "33587", LBIS.L["Gloves"], "BIS") --Light-Blessed Bonds
 
-LBIS:AddItem(spec, "30895", LBIS.L["Belt"], "BIS") --Angelista's Sash
-LBIS:AddItem(spec, "32519", LBIS.L["Belt"], "BIS") --Belt of Divine Guidance
-LBIS:AddItem(spec, "33480", LBIS.L["Belt"], "Alt") --Cord of Braided Troll Hair
+LBIS:AddItem(spec, "30895", LBIS.L["Waist"], "BIS") --Angelista's Sash
+LBIS:AddItem(spec, "32519", LBIS.L["Waist"], "BIS") --Belt of Divine Guidance
+LBIS:AddItem(spec, "33480", LBIS.L["Waist"], "Alt") --Cord of Braided Troll Hair
 
 LBIS:AddItem(spec, "33585", LBIS.L["Legs"], "BIS") --Achromic Trousers of the Naaru
 LBIS:AddItem(spec, "30912", LBIS.L["Legs"], "BIS") --Leggings of Eternity

@@ -36,10 +36,10 @@ LBIS:AddItem(spec, "16571", LBIS.L["Gloves"], "Alt") --General's Chain Gloves
 LBIS:AddItem(spec, "22441", LBIS.L["Gloves"], "Alt") --Cryptstalker Handguards
 LBIS:AddItem(spec, "30003", LBIS.L["Gloves"], "Alt") --Gloves of the Nether-Stalker
 
-LBIS:AddItem(spec, "27760", LBIS.L["Belt"], "BIS") --Dunewind Sash
-LBIS:AddItem(spec, "29526", LBIS.L["Belt"], "Alt") --Primalstrike Belt
-LBIS:AddItem(spec, "25695", LBIS.L["Belt"], "Alt") --Felstalker Belt
-LBIS:AddItem(spec, "22442", LBIS.L["Belt"], "Alt") --Cryptstalker Girdle
+LBIS:AddItem(spec, "27760", LBIS.L["Waist"], "BIS") --Dunewind Sash
+LBIS:AddItem(spec, "29526", LBIS.L["Waist"], "Alt") --Primalstrike Belt
+LBIS:AddItem(spec, "25695", LBIS.L["Waist"], "Alt") --Felstalker Belt
+LBIS:AddItem(spec, "22442", LBIS.L["Waist"], "Alt") --Cryptstalker Girdle
 
 LBIS:AddItem(spec, "27837", LBIS.L["Legs"], "BIS") --Wastewalker Leggings
 LBIS:AddItem(spec, "27874", LBIS.L["Legs"], "Alt") --Beast Lord Leggings

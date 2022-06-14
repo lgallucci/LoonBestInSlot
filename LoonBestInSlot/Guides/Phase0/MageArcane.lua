@@ -59,14 +59,14 @@ LBIS:AddItem(spec, "27465", LBIS.L["Gloves"], "Alt") --Mana-Etched Gloves
 LBIS:AddItem(spec, "30924", LBIS.L["Gloves"], "Alt") --Gloves of the High Magus
 LBIS:AddItem(spec, "30930", LBIS.L["Gloves"], "Alt") --Grips of the Void
 
-LBIS:AddItem(spec, "21846", LBIS.L["Belt"], "BIS") --Spellfire Belt
-LBIS:AddItem(spec, "24256", LBIS.L["Belt"], "Alt") --Girdle of Ruination
-LBIS:AddItem(spec, "29241", LBIS.L["Belt"], "Alt") --Belt of Depravity
-LBIS:AddItem(spec, "22730", LBIS.L["Belt"], "Alt") --Eyestalk Waist Cord
-LBIS:AddItem(spec, "31461", LBIS.L["Belt"], "Alt") --A'dal's Gift
-LBIS:AddItem(spec, "27795", LBIS.L["Belt"], "Alt") --Sash of Serpentra
-LBIS:AddItem(spec, "30923", LBIS.L["Belt"], "Alt") --Grom'tor's Bloodied Bandage
-LBIS:AddItem(spec, "29771", LBIS.L["Belt"], "Alt") --Kirin'Var Journeyman's Belt
+LBIS:AddItem(spec, "21846", LBIS.L["Waist"], "BIS") --Spellfire Belt
+LBIS:AddItem(spec, "24256", LBIS.L["Waist"], "Alt") --Girdle of Ruination
+LBIS:AddItem(spec, "29241", LBIS.L["Waist"], "Alt") --Belt of Depravity
+LBIS:AddItem(spec, "22730", LBIS.L["Waist"], "Alt") --Eyestalk Waist Cord
+LBIS:AddItem(spec, "31461", LBIS.L["Waist"], "Alt") --A'dal's Gift
+LBIS:AddItem(spec, "27795", LBIS.L["Waist"], "Alt") --Sash of Serpentra
+LBIS:AddItem(spec, "30923", LBIS.L["Waist"], "Alt") --Grom'tor's Bloodied Bandage
+LBIS:AddItem(spec, "29771", LBIS.L["Waist"], "Alt") --Kirin'Var Journeyman's Belt
 
 LBIS:AddItem(spec, "24262", LBIS.L["Legs"], "BIS") --Spellstrike Pants
 LBIS:AddItem(spec, "30531", LBIS.L["Legs"], "Alt") --Breeches of the Occultist

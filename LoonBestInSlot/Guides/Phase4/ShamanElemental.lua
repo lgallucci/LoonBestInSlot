@@ -22,9 +22,9 @@ LBIS:AddItem(spec, "31008", LBIS.L["Gloves"], "BIS") --Skyshatter Gauntlets
 LBIS:AddItem(spec, "31094", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Protector
 LBIS:AddItem(spec, "33586", LBIS.L["Gloves"], "Alt") --Studious Wraps
 
-LBIS:AddItem(spec, "32276", LBIS.L["Belt"], "BIS") --Flashfire Girdle
-LBIS:AddItem(spec, "30914", LBIS.L["Belt"], "Alt") --Belt of the Crescent Moon
-LBIS:AddItem(spec, "33559", LBIS.L["Belt"], "Alt") --Starfire Waistband
+LBIS:AddItem(spec, "32276", LBIS.L["Waist"], "BIS") --Flashfire Girdle
+LBIS:AddItem(spec, "30914", LBIS.L["Waist"], "Alt") --Belt of the Crescent Moon
+LBIS:AddItem(spec, "33559", LBIS.L["Waist"], "Alt") --Starfire Waistband
 
 LBIS:AddItem(spec, "30916", LBIS.L["Legs"], "BIS") --Leggings of Channeled Elements
 LBIS:AddItem(spec, "33584", LBIS.L["Legs"], "BIS") --Pantaloons of Arcane Annihilation

@@ -29,9 +29,9 @@ LBIS:AddItem(spec, "29987", LBIS.L["Gloves"], "Alt") --Gauntlets of the Sun King
 LBIS:AddItem(spec, "30205", LBIS.L["Gloves"], "Alt") --Gloves of Tirisfal
 LBIS:AddItem(spec, "30241", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Hero
 
-LBIS:AddItem(spec, "30038", LBIS.L["Belt"], "BIS") --Belt of Blasting
-LBIS:AddItem(spec, "30064", LBIS.L["Belt"], "Alt") --Cord of Screaming Terrors
-LBIS:AddItem(spec, "24256", LBIS.L["Belt"], "Alt") --Girdle of Ruination
+LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
+LBIS:AddItem(spec, "30064", LBIS.L["Waist"], "Alt") --Cord of Screaming Terrors
+LBIS:AddItem(spec, "24256", LBIS.L["Waist"], "Alt") --Girdle of Ruination
 
 LBIS:AddItem(spec, "24262", LBIS.L["Legs"], "BIS") --Spellstrike Pants
 LBIS:AddItem(spec, "30207", LBIS.L["Legs"], "Alt") --Leggings of Tirisfal

@@ -39,10 +39,10 @@ LBIS:AddItem(spec, "30232", LBIS.L["Gloves"], "Alt") --Nordrassil Gauntlets
 LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Defender
 LBIS:AddItem(spec, "32328", LBIS.L["Gloves"], "Alt") --Botanist's Gloves of Growth
 
-LBIS:AddItem(spec, "30888", LBIS.L["Belt"], "BIS") --Anetheron's Noose
-LBIS:AddItem(spec, "30914", LBIS.L["Belt"], "Alt") --Belt of the Crescent Moon
-LBIS:AddItem(spec, "30038", LBIS.L["Belt"], "Alt") --Belt of Blasting
-LBIS:AddItem(spec, "32256", LBIS.L["Belt"], "Alt") --Waistwrap of Infinity
+LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "BIS") --Anetheron's Noose
+LBIS:AddItem(spec, "30914", LBIS.L["Waist"], "Alt") --Belt of the Crescent Moon
+LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "Alt") --Belt of Blasting
+LBIS:AddItem(spec, "32256", LBIS.L["Waist"], "Alt") --Waistwrap of Infinity
 
 LBIS:AddItem(spec, "30916", LBIS.L["Legs"], "BIS") --Leggings of Channeled Elements
 LBIS:AddItem(spec, "31046", LBIS.L["Legs"], "Alt") --Thunderheart Pants

@@ -34,10 +34,10 @@ LBIS:AddItem(spec, "29998", LBIS.L["Gloves"], "BIS Mit") --Royal Gauntlets of Si
 LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "BIS Thrt") --Gloves of the Searing Grip
 LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "Alt Thrt") --Grips of Deftness
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS Thrt") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "30096", LBIS.L["Belt"], "BIS Mit") --Girdle of the Invulnerable
-LBIS:AddItem(spec, "32805", LBIS.L["Belt"], "Alt Thrt") --Veteran's Plate Belt
-LBIS:AddItem(spec, "30032", LBIS.L["Belt"], "Alt") --Red Belt of Battle
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS Thrt") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "30096", LBIS.L["Waist"], "BIS Mit") --Girdle of the Invulnerable
+LBIS:AddItem(spec, "32805", LBIS.L["Waist"], "Alt Thrt") --Veteran's Plate Belt
+LBIS:AddItem(spec, "30032", LBIS.L["Waist"], "Alt") --Red Belt of Battle
 
 LBIS:AddItem(spec, "30116", LBIS.L["Legs"], "BIS") --Destroyer Legguards
 LBIS:AddItem(spec, "30246", LBIS.L["Legs"], "BIS") --Leggings of the Vanquished Defender

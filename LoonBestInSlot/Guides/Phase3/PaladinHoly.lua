@@ -34,8 +34,8 @@ LBIS:AddItem(spec, "30983", LBIS.L["Gloves"], "Alt") --Lightbringer Gloves
 LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Conqueror
 LBIS:AddItem(spec, "32328", LBIS.L["Gloves"], "Alt") --Botanist's Gloves of Growth
 
-LBIS:AddItem(spec, "30897", LBIS.L["Belt"], "BIS") --Girdle of Hope
-LBIS:AddItem(spec, "30030", LBIS.L["Belt"], "Alt") --Girdle of Fallen Stars
+LBIS:AddItem(spec, "30897", LBIS.L["Waist"], "BIS") --Girdle of Hope
+LBIS:AddItem(spec, "30030", LBIS.L["Waist"], "Alt") --Girdle of Fallen Stars
 
 LBIS:AddItem(spec, "30994", LBIS.L["Legs"], "BIS") --Lightbringer Leggings
 LBIS:AddItem(spec, "31098", LBIS.L["Legs"], "BIS") --Leggings of the Forgotten Conqueror

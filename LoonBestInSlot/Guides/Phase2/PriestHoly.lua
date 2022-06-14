@@ -34,8 +34,8 @@ LBIS:AddItem(spec, "30151", LBIS.L["Gloves"], "BIS") --Gloves of the Avatar
 LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Defender
 LBIS:AddItem(spec, "28508", LBIS.L["Gloves"], "Alt") --Gloves of Saintly Blessings
 
-LBIS:AddItem(spec, "30036", LBIS.L["Belt"], "BIS") --Belt of the Long Road
-LBIS:AddItem(spec, "21873", LBIS.L["Belt"], "BIS") --Primal Mooncloth Belt
+LBIS:AddItem(spec, "30036", LBIS.L["Waist"], "BIS") --Belt of the Long Road
+LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt
 
 LBIS:AddItem(spec, "30153", LBIS.L["Legs"], "BIS") --Breeches of the Avatar
 LBIS:AddItem(spec, "30246", LBIS.L["Legs"], "BIS") --Leggings of the Vanquished Defender

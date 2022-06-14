@@ -29,11 +29,11 @@ LBIS:AddItem(spec, "28780", LBIS.L["Gloves"], "BIS") --Soul-Eater's Handwraps
 LBIS:AddItem(spec, "30170", LBIS.L["Gloves"], "Alt") --Cataclysm Handgrips
 LBIS:AddItem(spec, "30239", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Champion
 
-LBIS:AddItem(spec, "30038", LBIS.L["Belt"], "BIS") --Belt of Blasting
-LBIS:AddItem(spec, "30064", LBIS.L["Belt"], "Alt") --Cord of Screaming Terrors
-LBIS:AddItem(spec, "29520", LBIS.L["Belt"], "Alt") --Netherstrike Belt
-LBIS:AddItem(spec, "24256", LBIS.L["Belt"], "Alt") --Girdle of Ruination
-LBIS:AddItem(spec, "29524", LBIS.L["Belt"], "Alt") --Windhawk Belt
+LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
+LBIS:AddItem(spec, "30064", LBIS.L["Waist"], "Alt") --Cord of Screaming Terrors
+LBIS:AddItem(spec, "29520", LBIS.L["Waist"], "Alt") --Netherstrike Belt
+LBIS:AddItem(spec, "24256", LBIS.L["Waist"], "Alt") --Girdle of Ruination
+LBIS:AddItem(spec, "29524", LBIS.L["Waist"], "Alt") --Windhawk Belt
 
 LBIS:AddItem(spec, "30172", LBIS.L["Legs"], "BIS") --Cataclysm Leggings
 LBIS:AddItem(spec, "30245", LBIS.L["Legs"], "BIS") --Leggings of the Vanquished Champion

@@ -19,11 +19,11 @@ LBIS:AddItem(spec, "28506", LBIS.L["Gloves"], "Alt") --Gloves of Dexterous Manip
 LBIS:AddItem(spec, "28827", LBIS.L["Gloves"], "Alt") --Gauntlets of the Dragonslayer
 LBIS:AddItem(spec, "25685", LBIS.L["Gloves"], "Alt") --Fel Leather Gloves
 
-LBIS:AddItem(spec, "28750", LBIS.L["Belt"], "Alt") --Girdle of Treachery
-LBIS:AddItem(spec, "27760", LBIS.L["Belt"], "Alt") --Dunewind Sash
-LBIS:AddItem(spec, "29247", LBIS.L["Belt"], "Alt") --Girdle of the Deathdealer
-LBIS:AddItem(spec, "28656", LBIS.L["Belt"], "Alt") --Girdle of the Prowler
-LBIS:AddItem(spec, "28828", LBIS.L["Belt"], "Alt") --Gronn-Stitched Girdle
+LBIS:AddItem(spec, "28750", LBIS.L["Waist"], "Alt") --Girdle of Treachery
+LBIS:AddItem(spec, "27760", LBIS.L["Waist"], "Alt") --Dunewind Sash
+LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "Alt") --Girdle of the Deathdealer
+LBIS:AddItem(spec, "28656", LBIS.L["Waist"], "Alt") --Girdle of the Prowler
+LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "Alt") --Gronn-Stitched Girdle
 
 LBIS:AddItem(spec, "30739", LBIS.L["Legs"], "BIS") --Scaled Greaves of the Marksman
 LBIS:AddItem(spec, "28741", LBIS.L["Legs"], "Alt") --Skulker's Greaves

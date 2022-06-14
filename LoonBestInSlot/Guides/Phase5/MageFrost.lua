@@ -28,8 +28,8 @@ LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten V
 LBIS:AddItem(spec, "34366", LBIS.L["Gloves"], "Alt") --Sunfire Handwraps
 LBIS:AddItem(spec, "34938", LBIS.L["Gloves"], "Alt") --Enslaved Doomguard Soulgrips
 
-LBIS:AddItem(spec, "34557", LBIS.L["Belt"], "BIS") --Belt of the Tempest
-LBIS:AddItem(spec, "34855", LBIS.L["Belt"], "BIS") --Belt of the Forgotten Vanquisher
+LBIS:AddItem(spec, "34557", LBIS.L["Waist"], "BIS") --Belt of the Tempest
+LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Vanquisher
 
 LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "BIS") --Leggings of Calamity
 LBIS:AddItem(spec, "34386", LBIS.L["Legs"], "Alt") --Pantaloons of Growing Strife

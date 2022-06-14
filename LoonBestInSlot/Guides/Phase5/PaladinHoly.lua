@@ -31,9 +31,9 @@ LBIS:AddItem(spec, "34380", LBIS.L["Gloves"], "BIS") --Sunblessed Gauntlets
 LBIS:AddItem(spec, "34240", LBIS.L["Gloves"], "BIS") --Gauntlets of the Soothed Soul
 LBIS:AddItem(spec, "30112", LBIS.L["Gloves"], "Alt") --Glorious Gauntlets of Crestfall
 
-LBIS:AddItem(spec, "34487", LBIS.L["Belt"], "BIS") --Lightbringer Belt
-LBIS:AddItem(spec, "30897", LBIS.L["Belt"], "Alt") --Girdle of Hope
-LBIS:AddItem(spec, "33446", LBIS.L["Belt"], "Alt") --Girdle of Stromgarde's Hope
+LBIS:AddItem(spec, "34487", LBIS.L["Waist"], "BIS") --Lightbringer Belt
+LBIS:AddItem(spec, "30897", LBIS.L["Waist"], "Alt") --Girdle of Hope
+LBIS:AddItem(spec, "33446", LBIS.L["Waist"], "Alt") --Girdle of Stromgarde's Hope
 
 LBIS:AddItem(spec, "34167", LBIS.L["Legs"], "BIS") --Legplates of the Holy Juggernaut
 LBIS:AddItem(spec, "34383", LBIS.L["Legs"], "Alt") --Kilt of Spiritual Reconstruction

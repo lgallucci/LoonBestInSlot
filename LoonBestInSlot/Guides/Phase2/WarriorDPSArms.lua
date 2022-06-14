@@ -40,9 +40,9 @@ LBIS:AddItem(spec, "28776", LBIS.L["Gloves"], "Alt") --Liar's Tongue Gloves
 LBIS:AddItem(spec, "30119", LBIS.L["Gloves"], "Alt") --Destroyer Gauntlets
 LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Defender
 
-LBIS:AddItem(spec, "30106", LBIS.L["Belt"], "BIS") --Belt of One-Hundred Deaths
-LBIS:AddItem(spec, "30032", LBIS.L["Belt"], "Alt") --Red Belt of Battle
-LBIS:AddItem(spec, "28779", LBIS.L["Belt"], "Alt") --Girdle of the Endless Pit
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "30032", LBIS.L["Waist"], "Alt") --Red Belt of Battle
+LBIS:AddItem(spec, "28779", LBIS.L["Waist"], "Alt") --Girdle of the Endless Pit
 
 LBIS:AddItem(spec, "29995", LBIS.L["Legs"], "BIS") --Leggings of Murderous Intent
 LBIS:AddItem(spec, "29950", LBIS.L["Legs"], "Alt") --Greaves of the Bloodwarder

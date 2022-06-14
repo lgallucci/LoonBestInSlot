@@ -57,13 +57,13 @@ LBIS:AddItem(spec, "23517", LBIS.L["Gloves"], "Alt") --Felsteel Gloves
 LBIS:AddItem(spec, "28390", LBIS.L["Gloves"], "Alt") --Thatia's Self-Correcting Gauntlets
 LBIS:AddItem(spec, "29134", LBIS.L["Gloves"], "Alt") --Gauntlets of the Chosen
 
-LBIS:AddItem(spec, "29253", LBIS.L["Belt"], "BIS") --Girdle of Valorous Deeds
-LBIS:AddItem(spec, "28566", LBIS.L["Belt"], "BIS Mit") --Crimson Girdle of the Indomitable
-LBIS:AddItem(spec, "27672", LBIS.L["Belt"], "Alt") --Girdle of the Immovable
-LBIS:AddItem(spec, "31460", LBIS.L["Belt"], "Alt") --Sha'tari Vindicator's Waistguard
-LBIS:AddItem(spec, "29238", LBIS.L["Belt"], "Alt") --Lion's Heart Girdle
-LBIS:AddItem(spec, "30371", LBIS.L["Belt"], "Alt") --Lightwarden's Girdle
-LBIS:AddItem(spec, "30330", LBIS.L["Belt"], "Alt") --Starcaller's Plated Belt
+LBIS:AddItem(spec, "29253", LBIS.L["Waist"], "BIS") --Girdle of Valorous Deeds
+LBIS:AddItem(spec, "28566", LBIS.L["Waist"], "BIS Mit") --Crimson Girdle of the Indomitable
+LBIS:AddItem(spec, "27672", LBIS.L["Waist"], "Alt") --Girdle of the Immovable
+LBIS:AddItem(spec, "31460", LBIS.L["Waist"], "Alt") --Sha'tari Vindicator's Waistguard
+LBIS:AddItem(spec, "29238", LBIS.L["Waist"], "Alt") --Lion's Heart Girdle
+LBIS:AddItem(spec, "30371", LBIS.L["Waist"], "Alt") --Lightwarden's Girdle
+LBIS:AddItem(spec, "30330", LBIS.L["Waist"], "Alt") --Starcaller's Plated Belt
 
 LBIS:AddItem(spec, "29069", LBIS.L["Legs"], "BIS") --Justicar Legguards
 LBIS:AddItem(spec, "29766", LBIS.L["Legs"], "BIS") --Leggings of the Fallen Champion

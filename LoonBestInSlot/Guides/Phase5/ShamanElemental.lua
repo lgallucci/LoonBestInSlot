@@ -36,10 +36,10 @@ LBIS:AddItem(spec, "34938", LBIS.L["Gloves"], "Alt") --Enslaved Doomguard Soulgr
 LBIS:AddItem(spec, "31008", LBIS.L["Gloves"], "Alt") --Skyshatter Gauntlets
 LBIS:AddItem(spec, "31094", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Protector
 
-LBIS:AddItem(spec, "34542", LBIS.L["Belt"], "BIS") --Skyshatter Cord
-LBIS:AddItem(spec, "34854", LBIS.L["Belt"], "BIS") --Belt of the Forgotten Protector
-LBIS:AddItem(spec, "32276", LBIS.L["Belt"], "Alt") --Flashfire Girdle
-LBIS:AddItem(spec, "34935", LBIS.L["Belt"], "Alt") --Aftershock Waistguard
+LBIS:AddItem(spec, "34542", LBIS.L["Waist"], "BIS") --Skyshatter Cord
+LBIS:AddItem(spec, "34854", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Protector
+LBIS:AddItem(spec, "32276", LBIS.L["Waist"], "Alt") --Flashfire Girdle
+LBIS:AddItem(spec, "34935", LBIS.L["Waist"], "Alt") --Aftershock Waistguard
 
 LBIS:AddItem(spec, "34186", LBIS.L["Legs"], "BIS") --Chain Links of the Tumultuous Storm
 LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "BIS") --Leggings of Calamity
