@@ -6,11 +6,11 @@ LBIS:AddItem(spec, "30171", LBIS.L["Head"], "BIS") --Cataclysm Headpiece
 LBIS:AddItem(spec, "30242", LBIS.L["Head"], "BIS") --Helm of the Vanquished Champion
 LBIS:AddItem(spec, "32476", LBIS.L["Head"], "Alt") --Gadgetstorm Goggles
 
-LBIS:AddItem(spec, "29037", LBIS.L["Shoulders"], "BIS") --Cyclone Shoulderguards
-LBIS:AddItem(spec, "29763", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Champion
-LBIS:AddItem(spec, "30173", LBIS.L["Shoulders"], "BIS") --Cataclysm Shoulderpads
-LBIS:AddItem(spec, "30248", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Champion
-LBIS:AddItem(spec, "30024", LBIS.L["Shoulders"], "Alt") --Mantle of the Elven Kings
+LBIS:AddItem(spec, "29037", LBIS.L["Shoulder"], "BIS") --Cyclone Shoulderguards
+LBIS:AddItem(spec, "29763", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Champion
+LBIS:AddItem(spec, "30173", LBIS.L["Shoulder"], "BIS") --Cataclysm Shoulderpads
+LBIS:AddItem(spec, "30248", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Champion
+LBIS:AddItem(spec, "30024", LBIS.L["Shoulder"], "Alt") --Mantle of the Elven Kings
 
 LBIS:AddItem(spec, "28797", LBIS.L["Back"], "BIS") --Brute Cloak of the Ogre-Magi
 LBIS:AddItem(spec, "29992", LBIS.L["Back"], "Alt") --Royal Cloak of the Sunstriders
@@ -21,13 +21,13 @@ LBIS:AddItem(spec, "30107", LBIS.L["Chest"], "BIS") --Vestments of the Sea-Witch
 LBIS:AddItem(spec, "29519", LBIS.L["Chest"], "Alt") --Netherstrike Breastplate
 LBIS:AddItem(spec, "29522", LBIS.L["Chest"], "Alt") --Windhawk Hauberk
 
-LBIS:AddItem(spec, "29918", LBIS.L["Bracers"], "BIS") --Mindstorm Wristbands
-LBIS:AddItem(spec, "29521", LBIS.L["Bracers"], "Alt") --Netherstrike Bracers
-LBIS:AddItem(spec, "29523", LBIS.L["Bracers"], "Alt") --Windhawk Bracers
+LBIS:AddItem(spec, "29918", LBIS.L["Wrist"], "BIS") --Mindstorm Wristbands
+LBIS:AddItem(spec, "29521", LBIS.L["Wrist"], "Alt") --Netherstrike Bracers
+LBIS:AddItem(spec, "29523", LBIS.L["Wrist"], "Alt") --Windhawk Bracers
 
-LBIS:AddItem(spec, "28780", LBIS.L["Gloves"], "BIS") --Soul-Eater's Handwraps
-LBIS:AddItem(spec, "30170", LBIS.L["Gloves"], "Alt") --Cataclysm Handgrips
-LBIS:AddItem(spec, "30239", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Champion
+LBIS:AddItem(spec, "28780", LBIS.L["Hands"], "BIS") --Soul-Eater's Handwraps
+LBIS:AddItem(spec, "30170", LBIS.L["Hands"], "Alt") --Cataclysm Handgrips
+LBIS:AddItem(spec, "30239", LBIS.L["Hands"], "Alt") --Gloves of the Vanquished Champion
 
 LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
 LBIS:AddItem(spec, "30064", LBIS.L["Waist"], "Alt") --Cord of Screaming Terrors

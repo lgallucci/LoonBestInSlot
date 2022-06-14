@@ -7,14 +7,14 @@ LBIS:AddItem(spec, "32494", LBIS.L["Head"], "Alt") --Destruction Holo-gogs
 LBIS:AddItem(spec, "30161", LBIS.L["Head"], "Alt") --Hood of the Avatar
 LBIS:AddItem(spec, "30243", LBIS.L["Head"], "Alt") --Helm of the Vanquished Defender
 
-LBIS:AddItem(spec, "31070", LBIS.L["Shoulders"], "BIS") --Shoulderpads of Absolution
-LBIS:AddItem(spec, "31101", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Conqueror
-LBIS:AddItem(spec, "32587", LBIS.L["Shoulders"], "Alt") --Mantle of Nimble Thought
-LBIS:AddItem(spec, "30884", LBIS.L["Shoulders"], "Alt") --Hatefury Mantle
-LBIS:AddItem(spec, "32338", LBIS.L["Shoulders"], "Alt") --Blood-cursed Shoulderpads
-LBIS:AddItem(spec, "21869", LBIS.L["Shoulders"], "Alt") --Frozen Shadoweave Shoulders
-LBIS:AddItem(spec, "30163", LBIS.L["Shoulders"], "Alt") --Wings of the Avatar
-LBIS:AddItem(spec, "30249", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Vanquished Defender
+LBIS:AddItem(spec, "31070", LBIS.L["Shoulder"], "BIS") --Shoulderpads of Absolution
+LBIS:AddItem(spec, "31101", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Conqueror
+LBIS:AddItem(spec, "32587", LBIS.L["Shoulder"], "Alt") --Mantle of Nimble Thought
+LBIS:AddItem(spec, "30884", LBIS.L["Shoulder"], "Alt") --Hatefury Mantle
+LBIS:AddItem(spec, "32338", LBIS.L["Shoulder"], "Alt") --Blood-cursed Shoulderpads
+LBIS:AddItem(spec, "21869", LBIS.L["Shoulder"], "Alt") --Frozen Shadoweave Shoulders
+LBIS:AddItem(spec, "30163", LBIS.L["Shoulder"], "Alt") --Wings of the Avatar
+LBIS:AddItem(spec, "30249", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Vanquished Defender
 
 LBIS:AddItem(spec, "32590", LBIS.L["Back"], "BIS") --Nethervoid Cloak
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "Alt") --Shroud of the Highborne
@@ -27,13 +27,13 @@ LBIS:AddItem(spec, "30107", LBIS.L["Chest"], "Alt") --Vestments of the Sea-Witch
 LBIS:AddItem(spec, "30913", LBIS.L["Chest"], "Alt") --Robes of Rhonin
 LBIS:AddItem(spec, "32327", LBIS.L["Chest"], "Alt") --Robe of the Shadow Council
 
-LBIS:AddItem(spec, "32586", LBIS.L["Bracers"], "BIS") --Bracers of Nimble Thought
-LBIS:AddItem(spec, "30870", LBIS.L["Bracers"], "Alt") --Cuffs of Devastation
-LBIS:AddItem(spec, "32270", LBIS.L["Bracers"], "Alt") --Focused Mana Bindings
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "BIS") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "30870", LBIS.L["Wrist"], "Alt") --Cuffs of Devastation
+LBIS:AddItem(spec, "32270", LBIS.L["Wrist"], "Alt") --Focused Mana Bindings
 
-LBIS:AddItem(spec, "31061", LBIS.L["Gloves"], "BIS") --Handguards of Absolution
-LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Conqueror
-LBIS:AddItem(spec, "28507", LBIS.L["Gloves"], "Alt") --Handwraps of Flowing Thought
+LBIS:AddItem(spec, "31061", LBIS.L["Hands"], "BIS") --Handguards of Absolution
+LBIS:AddItem(spec, "31092", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Conqueror
+LBIS:AddItem(spec, "28507", LBIS.L["Hands"], "Alt") --Handwraps of Flowing Thought
 
 LBIS:AddItem(spec, "32256", LBIS.L["Waist"], "BIS") --Waistwrap of Infinity
 LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "Alt") --Belt of Blasting

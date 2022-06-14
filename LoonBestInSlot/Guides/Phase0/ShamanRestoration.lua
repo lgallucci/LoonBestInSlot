@@ -6,9 +6,9 @@ LBIS:AddItem(spec, "29508", LBIS.L["Head"], "Alt") --Living Dragonscale Helm
 LBIS:AddItem(spec, "27759", LBIS.L["Head"], "Alt") --Headdress of the Tides
 LBIS:AddItem(spec, "29174", LBIS.L["Head"], "Alt") --Watcher's Cowl
 
-LBIS:AddItem(spec, "21874", LBIS.L["Shoulders"], "BIS") --Primal Mooncloth Shoulders
-LBIS:AddItem(spec, "27826", LBIS.L["Shoulders"], "Alt") --Mantle of the Sea Wolf
-LBIS:AddItem(spec, "27775", LBIS.L["Shoulders"], "Alt") --Hallowed Pauldrons
+LBIS:AddItem(spec, "21874", LBIS.L["Shoulder"], "BIS") --Primal Mooncloth Shoulders
+LBIS:AddItem(spec, "27826", LBIS.L["Shoulder"], "Alt") --Mantle of the Sea Wolf
+LBIS:AddItem(spec, "27775", LBIS.L["Shoulder"], "Alt") --Hallowed Pauldrons
 
 LBIS:AddItem(spec, "31329", LBIS.L["Back"], "BIS") --Lifegiving Cloak
 LBIS:AddItem(spec, "24254", LBIS.L["Back"], "Alt") --White Remedy Cape
@@ -19,13 +19,13 @@ LBIS:AddItem(spec, "21875", LBIS.L["Chest"], "BIS") --Primal Mooncloth Robe
 LBIS:AddItem(spec, "23527", LBIS.L["Chest"], "Alt") --Earthpeace Breastplate
 LBIS:AddItem(spec, "30298", LBIS.L["Chest"], "Alt") --Void Slayer's Tunic
 
-LBIS:AddItem(spec, "29523", LBIS.L["Bracers"], "BIS") --Windhawk Bracers
-LBIS:AddItem(spec, "29183", LBIS.L["Bracers"], "Alt") --Bindings of the Timewalker
-LBIS:AddItem(spec, "28194", LBIS.L["Bracers"], "Alt") --Primal Surge Bracers
+LBIS:AddItem(spec, "29523", LBIS.L["Wrist"], "BIS") --Windhawk Bracers
+LBIS:AddItem(spec, "29183", LBIS.L["Wrist"], "Alt") --Bindings of the Timewalker
+LBIS:AddItem(spec, "28194", LBIS.L["Wrist"], "Alt") --Primal Surge Bracers
 
-LBIS:AddItem(spec, "27806", LBIS.L["Gloves"], "BIS") --Fathomheart Gauntlets
-LBIS:AddItem(spec, "28304", LBIS.L["Gloves"], "Alt") --Prismatic Mittens of Mending
-LBIS:AddItem(spec, "29506", LBIS.L["Gloves"], "Alt") --Gloves of the Living Touch
+LBIS:AddItem(spec, "27806", LBIS.L["Hands"], "BIS") --Fathomheart Gauntlets
+LBIS:AddItem(spec, "28304", LBIS.L["Hands"], "Alt") --Prismatic Mittens of Mending
+LBIS:AddItem(spec, "29506", LBIS.L["Hands"], "Alt") --Gloves of the Living Touch
 
 LBIS:AddItem(spec, "29524", LBIS.L["Waist"], "BIS") --Windhawk Belt
 LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt

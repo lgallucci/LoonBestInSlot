@@ -6,9 +6,9 @@ LBIS:AddItem(spec, "32478", LBIS.L["Head"], "Alt") --Deathblow X11 Goggles
 LBIS:AddItem(spec, "29044", LBIS.L["Head"], "Alt") --Netherblade Facemask
 LBIS:AddItem(spec, "29760", LBIS.L["Head"], "Alt") --Helm of the Fallen Champion
 
-LBIS:AddItem(spec, "30149", LBIS.L["Shoulders"], "BIS") --Deathmantle Shoulderpads
-LBIS:AddItem(spec, "30248", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Champion
-LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "BIS") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "30149", LBIS.L["Shoulder"], "BIS") --Deathmantle Shoulderpads
+LBIS:AddItem(spec, "30248", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Champion
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "BIS") --Shoulderpads of the Stranger
 
 LBIS:AddItem(spec, "28672", LBIS.L["Back"], "BIS") --Drape of the Dark Reavers
 LBIS:AddItem(spec, "29994", LBIS.L["Back"], "Alt") --Thalassian Wildercloak
@@ -20,14 +20,14 @@ LBIS:AddItem(spec, "30730", LBIS.L["Chest"], "Alt") --Terrorweave Tunic
 LBIS:AddItem(spec, "29045", LBIS.L["Chest"], "Alt") --Netherblade Chestpiece
 LBIS:AddItem(spec, "29754", LBIS.L["Chest"], "Alt") --Chestguard of the Fallen Champion
 
-LBIS:AddItem(spec, "29966", LBIS.L["Bracers"], "BIS") --Vambraces of Ending
-LBIS:AddItem(spec, "32647", LBIS.L["Bracers"], "Alt") --Shard-bound Bracers
-LBIS:AddItem(spec, "29246", LBIS.L["Bracers"], "Alt") --Nightfall Wristguards
+LBIS:AddItem(spec, "29966", LBIS.L["Wrist"], "BIS") --Vambraces of Ending
+LBIS:AddItem(spec, "32647", LBIS.L["Wrist"], "Alt") --Shard-bound Bracers
+LBIS:AddItem(spec, "29246", LBIS.L["Wrist"], "Alt") --Nightfall Wristguards
 
-LBIS:AddItem(spec, "30145", LBIS.L["Gloves"], "BIS") --Deathmantle Handguards
-LBIS:AddItem(spec, "30239", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Champion
-LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "Alt") --Gloves of the Searing Grip
-LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "Alt") --Grips of Deftness
+LBIS:AddItem(spec, "30145", LBIS.L["Hands"], "BIS") --Deathmantle Handguards
+LBIS:AddItem(spec, "30239", LBIS.L["Hands"], "BIS") --Gloves of the Vanquished Champion
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "Alt") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "30644", LBIS.L["Hands"], "Alt") --Grips of Deftness
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 LBIS:AddItem(spec, "30040", LBIS.L["Waist"], "Alt") --Belt of Deep Shadow

@@ -7,13 +7,13 @@ LBIS:AddItem(spec, "32494", LBIS.L["Head"], "Alt") --Destruction Holo-gogs
 LBIS:AddItem(spec, "30212", LBIS.L["Head"], "Alt") --Hood of the Corruptor
 LBIS:AddItem(spec, "30244", LBIS.L["Head"], "Alt") --Helm of the Vanquished Hero
 
-LBIS:AddItem(spec, "31054", LBIS.L["Shoulders"], "BIS") --Mantle of the Malefic
-LBIS:AddItem(spec, "31101", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Conqueror
-LBIS:AddItem(spec, "32338", LBIS.L["Shoulders"], "Alt") --Blood-cursed Shoulderpads
-LBIS:AddItem(spec, "30884", LBIS.L["Shoulders"], "Alt") --Hatefury Mantle
-LBIS:AddItem(spec, "32587", LBIS.L["Shoulders"], "Alt") --Mantle of Nimble Thought
-LBIS:AddItem(spec, "28967", LBIS.L["Shoulders"], "Alt") --Voidheart Mantle
-LBIS:AddItem(spec, "29762", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Fallen Hero
+LBIS:AddItem(spec, "31054", LBIS.L["Shoulder"], "BIS") --Mantle of the Malefic
+LBIS:AddItem(spec, "31101", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Conqueror
+LBIS:AddItem(spec, "32338", LBIS.L["Shoulder"], "Alt") --Blood-cursed Shoulderpads
+LBIS:AddItem(spec, "30884", LBIS.L["Shoulder"], "Alt") --Hatefury Mantle
+LBIS:AddItem(spec, "32587", LBIS.L["Shoulder"], "Alt") --Mantle of Nimble Thought
+LBIS:AddItem(spec, "28967", LBIS.L["Shoulder"], "Alt") --Voidheart Mantle
+LBIS:AddItem(spec, "29762", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Fallen Hero
 
 LBIS:AddItem(spec, "32590", LBIS.L["Back"], "BIS") --Nethervoid Cloak
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
@@ -27,15 +27,15 @@ LBIS:AddItem(spec, "31089", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotte
 LBIS:AddItem(spec, "30913", LBIS.L["Chest"], "Alt") --Robes of Rhonin
 LBIS:AddItem(spec, "32327", LBIS.L["Chest"], "Alt") --Robe of the Shadow Council
 
-LBIS:AddItem(spec, "32586", LBIS.L["Bracers"], "BIS") --Bracers of Nimble Thought
-LBIS:AddItem(spec, "32270", LBIS.L["Bracers"], "Alt") --Focused Mana Bindings
-LBIS:AddItem(spec, "30870", LBIS.L["Bracers"], "Alt") --Cuffs of Devastation
-LBIS:AddItem(spec, "33913", LBIS.L["Bracers"], "Alt") --Vindicator's Silk Cuffs
-LBIS:AddItem(spec, "29918", LBIS.L["Bracers"], "Alt") --Mindstorm Wristbands
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "BIS") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "32270", LBIS.L["Wrist"], "Alt") --Focused Mana Bindings
+LBIS:AddItem(spec, "30870", LBIS.L["Wrist"], "Alt") --Cuffs of Devastation
+LBIS:AddItem(spec, "33913", LBIS.L["Wrist"], "Alt") --Vindicator's Silk Cuffs
+LBIS:AddItem(spec, "29918", LBIS.L["Wrist"], "Alt") --Mindstorm Wristbands
 
-LBIS:AddItem(spec, "31050", LBIS.L["Gloves"], "BIS") --Gloves of the Malefic
-LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Conqueror
-LBIS:AddItem(spec, "30725", LBIS.L["Gloves"], "Alt") --Anger-Spark Gloves
+LBIS:AddItem(spec, "31050", LBIS.L["Hands"], "BIS") --Gloves of the Malefic
+LBIS:AddItem(spec, "31092", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Conqueror
+LBIS:AddItem(spec, "30725", LBIS.L["Hands"], "Alt") --Anger-Spark Gloves
 
 LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
 LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "BIS") --Anetheron's Noose

@@ -4,9 +4,9 @@ LBIS:AddItem(spec, "31064", LBIS.L["Head"], "BIS") --Hood of Absolution
 LBIS:AddItem(spec, "31097", LBIS.L["Head"], "BIS") --Helm of the Forgotten Conqueror
 LBIS:AddItem(spec, "33453", LBIS.L["Head"], "Alt") --Hood of Hexing
 
-LBIS:AddItem(spec, "31070", LBIS.L["Shoulders"], "BIS") --Shoulderpads of Absolution
-LBIS:AddItem(spec, "31101", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Conqueror
-LBIS:AddItem(spec, "33489", LBIS.L["Shoulders"], "Alt") --Mantle of Ill Intent
+LBIS:AddItem(spec, "31070", LBIS.L["Shoulder"], "BIS") --Shoulderpads of Absolution
+LBIS:AddItem(spec, "31101", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Conqueror
+LBIS:AddItem(spec, "33489", LBIS.L["Shoulder"], "Alt") --Mantle of Ill Intent
 
 LBIS:AddItem(spec, "32590", LBIS.L["Back"], "BIS") --Nethervoid Cloak
 LBIS:AddItem(spec, "33591", LBIS.L["Back"], "Alt") --Shadowcaster's Drape
@@ -15,11 +15,11 @@ LBIS:AddItem(spec, "31065", LBIS.L["Chest"], "BIS") --Shroud of Absolution
 LBIS:AddItem(spec, "31089", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Conqueror
 LBIS:AddItem(spec, "33317", LBIS.L["Chest"], "Alt") --Robe of Departed Spirits
 
-LBIS:AddItem(spec, "32586", LBIS.L["Bracers"], "BIS") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "BIS") --Bracers of Nimble Thought
 
-LBIS:AddItem(spec, "31061", LBIS.L["Gloves"], "BIS") --Handguards of Absolution
-LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Conqueror
-LBIS:AddItem(spec, "33586", LBIS.L["Gloves"], "Alt") --Studious Wraps
+LBIS:AddItem(spec, "31061", LBIS.L["Hands"], "BIS") --Handguards of Absolution
+LBIS:AddItem(spec, "31092", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Conqueror
+LBIS:AddItem(spec, "33586", LBIS.L["Hands"], "Alt") --Studious Wraps
 
 LBIS:AddItem(spec, "32256", LBIS.L["Waist"], "BIS") --Waistwrap of Infinity
 

@@ -5,9 +5,9 @@ LBIS:AddItem(spec, "29759", LBIS.L["Head"], "BIS") --Helm of the Fallen Hero
 LBIS:AddItem(spec, "24266", LBIS.L["Head"], "Alt") --Spellstrike Hood
 LBIS:AddItem(spec, "28744", LBIS.L["Head"], "Alt") --Uni-Mind Headdress
 
-LBIS:AddItem(spec, "28967", LBIS.L["Shoulders"], "BIS") --Voidheart Mantle
-LBIS:AddItem(spec, "29762", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Hero
-LBIS:AddItem(spec, "21869", LBIS.L["Shoulders"], "Alt") --Frozen Shadoweave Shoulders
+LBIS:AddItem(spec, "28967", LBIS.L["Shoulder"], "BIS") --Voidheart Mantle
+LBIS:AddItem(spec, "29762", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Hero
+LBIS:AddItem(spec, "21869", LBIS.L["Shoulder"], "Alt") --Frozen Shadoweave Shoulders
 
 LBIS:AddItem(spec, "28766", LBIS.L["Back"], "Alt") --Ruby Drape of the Mysticant
 LBIS:AddItem(spec, "30735", LBIS.L["Back"], "Alt") --Ancient Spellcloak of the Highborne
@@ -18,14 +18,14 @@ LBIS:AddItem(spec, "29755", LBIS.L["Chest"], "BIS") --Chestguard of the Fallen H
 LBIS:AddItem(spec, "21871", LBIS.L["Chest"], "Alt") --Frozen Shadoweave Robe
 LBIS:AddItem(spec, "28602", LBIS.L["Chest"], "Alt") --Robe of the Elder Scribes
 
-LBIS:AddItem(spec, "24250", LBIS.L["Bracers"], "BIS") --Bracers of Havok
-LBIS:AddItem(spec, "28515", LBIS.L["Bracers"], "Alt") --Bands of Nefarious Deeds
+LBIS:AddItem(spec, "24250", LBIS.L["Wrist"], "BIS") --Bracers of Havok
+LBIS:AddItem(spec, "28515", LBIS.L["Wrist"], "Alt") --Bands of Nefarious Deeds
 
-LBIS:AddItem(spec, "30725", LBIS.L["Gloves"], "Alt") --Anger-Spark Gloves
-LBIS:AddItem(spec, "28780", LBIS.L["Gloves"], "Alt") --Soul-Eater's Handwraps
-LBIS:AddItem(spec, "28507", LBIS.L["Gloves"], "Alt") --Handwraps of Flowing Thought
-LBIS:AddItem(spec, "28968", LBIS.L["Gloves"], "Alt") --Voidheart Gloves
-LBIS:AddItem(spec, "29756", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Hero
+LBIS:AddItem(spec, "30725", LBIS.L["Hands"], "Alt") --Anger-Spark Gloves
+LBIS:AddItem(spec, "28780", LBIS.L["Hands"], "Alt") --Soul-Eater's Handwraps
+LBIS:AddItem(spec, "28507", LBIS.L["Hands"], "Alt") --Handwraps of Flowing Thought
+LBIS:AddItem(spec, "28968", LBIS.L["Hands"], "Alt") --Voidheart Gloves
+LBIS:AddItem(spec, "29756", LBIS.L["Hands"], "Alt") --Gloves of the Fallen Hero
 
 LBIS:AddItem(spec, "24256", LBIS.L["Waist"], "BIS") --Girdle of Ruination
 LBIS:AddItem(spec, "28799", LBIS.L["Waist"], "Alt") --Belt of Divine Inspiration

@@ -6,14 +6,14 @@ LBIS:AddItem(spec, "31096", LBIS.L["Head"], "Alt") --Helm of the Forgotten Vanqu
 LBIS:AddItem(spec, "30146", LBIS.L["Head"], "Alt") --Deathmantle Helm
 LBIS:AddItem(spec, "30242", LBIS.L["Head"], "Alt") --Helm of the Vanquished Champion
 
-LBIS:AddItem(spec, "31030", LBIS.L["Shoulders"], "BIS") --Slayer's Shoulderpads
-LBIS:AddItem(spec, "31102", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Vanquisher
-LBIS:AddItem(spec, "32581", LBIS.L["Shoulders"], "Alt") --Swiftstrike Shoulders
-LBIS:AddItem(spec, "32377", LBIS.L["Shoulders"], "Alt") --Mantle of Darkness
-LBIS:AddItem(spec, "30149", LBIS.L["Shoulders"], "Alt") --Deathmantle Shoulderpads
-LBIS:AddItem(spec, "30248", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Vanquished Champion
-LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "Alt") --Shoulderpads of the Stranger
-LBIS:AddItem(spec, "30917", LBIS.L["Shoulders"], "Alt") --Razorfury Mantle
+LBIS:AddItem(spec, "31030", LBIS.L["Shoulder"], "BIS") --Slayer's Shoulderpads
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "32581", LBIS.L["Shoulder"], "Alt") --Swiftstrike Shoulders
+LBIS:AddItem(spec, "32377", LBIS.L["Shoulder"], "Alt") --Mantle of Darkness
+LBIS:AddItem(spec, "30149", LBIS.L["Shoulder"], "Alt") --Deathmantle Shoulderpads
+LBIS:AddItem(spec, "30248", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Vanquished Champion
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "30917", LBIS.L["Shoulder"], "Alt") --Razorfury Mantle
 
 LBIS:AddItem(spec, "32323", LBIS.L["Back"], "BIS") --Shadowmoon Destroyer's Drape
 LBIS:AddItem(spec, "28672", LBIS.L["Back"], "Alt") --Drape of the Dark Reavers
@@ -26,16 +26,16 @@ LBIS:AddItem(spec, "30101", LBIS.L["Chest"], "Alt") --Bloodsea Brigand's Vest
 LBIS:AddItem(spec, "30144", LBIS.L["Chest"], "Alt") --Deathmantle Chestguard
 LBIS:AddItem(spec, "30236", LBIS.L["Chest"], "Alt") --Chestguard of the Vanquished Champion
 
-LBIS:AddItem(spec, "32324", LBIS.L["Bracers"], "BIS") --Insidious Bands
-LBIS:AddItem(spec, "32580", LBIS.L["Bracers"], "Alt") --Swiftstrike Bracers
-LBIS:AddItem(spec, "30863", LBIS.L["Bracers"], "Alt") --Deadly Cuffs
-LBIS:AddItem(spec, "29966", LBIS.L["Bracers"], "Alt") --Vambraces of Ending
+LBIS:AddItem(spec, "32324", LBIS.L["Wrist"], "BIS") --Insidious Bands
+LBIS:AddItem(spec, "32580", LBIS.L["Wrist"], "Alt") --Swiftstrike Bracers
+LBIS:AddItem(spec, "30863", LBIS.L["Wrist"], "Alt") --Deadly Cuffs
+LBIS:AddItem(spec, "29966", LBIS.L["Wrist"], "Alt") --Vambraces of Ending
 
-LBIS:AddItem(spec, "31026", LBIS.L["Gloves"], "BIS") --Slayer's Handguards
-LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Vanquisher
-LBIS:AddItem(spec, "32347", LBIS.L["Gloves"], "Alt") --Grips of Damnation
-LBIS:AddItem(spec, "30145", LBIS.L["Gloves"], "Alt") --Deathmantle Handguards
-LBIS:AddItem(spec, "30239", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Champion
+LBIS:AddItem(spec, "31026", LBIS.L["Hands"], "BIS") --Slayer's Handguards
+LBIS:AddItem(spec, "31093", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Vanquisher
+LBIS:AddItem(spec, "32347", LBIS.L["Hands"], "Alt") --Grips of Damnation
+LBIS:AddItem(spec, "30145", LBIS.L["Hands"], "Alt") --Deathmantle Handguards
+LBIS:AddItem(spec, "30239", LBIS.L["Hands"], "Alt") --Gloves of the Vanquished Champion
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 LBIS:AddItem(spec, "32265", LBIS.L["Waist"], "Alt") --Shadow-walker's Cord

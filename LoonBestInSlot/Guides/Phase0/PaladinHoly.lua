@@ -7,10 +7,10 @@ LBIS:AddItem(spec, "28413", LBIS.L["Head"], "Alt") --Hallowed Crown
 LBIS:AddItem(spec, "28348", LBIS.L["Head"], "Alt") --Moonglade Cowl
 LBIS:AddItem(spec, "25820", LBIS.L["Head"], "Alt") --Metallic Headband of Simm'onz
 
-LBIS:AddItem(spec, "21874", LBIS.L["Shoulders"], "BIS") --Primal Mooncloth Shoulders
-LBIS:AddItem(spec, "27775", LBIS.L["Shoulders"], "Alt") --Hallowed Pauldrons
-LBIS:AddItem(spec, "27433", LBIS.L["Shoulders"], "Alt") --Pauldrons of Sufferance
-LBIS:AddItem(spec, "30925", LBIS.L["Shoulders"], "Alt") --Spaulders of the Torn-heart
+LBIS:AddItem(spec, "21874", LBIS.L["Shoulder"], "BIS") --Primal Mooncloth Shoulders
+LBIS:AddItem(spec, "27775", LBIS.L["Shoulder"], "Alt") --Hallowed Pauldrons
+LBIS:AddItem(spec, "27433", LBIS.L["Shoulder"], "Alt") --Pauldrons of Sufferance
+LBIS:AddItem(spec, "30925", LBIS.L["Shoulder"], "Alt") --Spaulders of the Torn-heart
 
 LBIS:AddItem(spec, "31329", LBIS.L["Back"], "BIS") --Lifegiving Cloak
 LBIS:AddItem(spec, "29354", LBIS.L["Back"], "Alt") --Light-Touched Stole of Altruism
@@ -25,17 +25,17 @@ LBIS:AddItem(spec, "28230", LBIS.L["Chest"], "Alt") --Hallowed Garments
 LBIS:AddItem(spec, "28202", LBIS.L["Chest"], "Alt") --Moonglade Robe
 LBIS:AddItem(spec, "30298", LBIS.L["Chest"], "Alt") --Void Slayer's Tunic
 
-LBIS:AddItem(spec, "29523", LBIS.L["Bracers"], "BIS") --Windhawk Bracers
-LBIS:AddItem(spec, "29183", LBIS.L["Bracers"], "BIS") --Bindings of the Timewalker
-LBIS:AddItem(spec, "23539", LBIS.L["Bracers"], "BIS") --Blessed Bracers
-LBIS:AddItem(spec, "21604", LBIS.L["Bracers"], "Alt") --Bracelets of Royal Redemption
-LBIS:AddItem(spec, "29249", LBIS.L["Bracers"], "Alt") --Bands of the Benevolent
-LBIS:AddItem(spec, "28029", LBIS.L["Bracers"], "Alt") --Goldenvine Wraps
+LBIS:AddItem(spec, "29523", LBIS.L["Wrist"], "BIS") --Windhawk Bracers
+LBIS:AddItem(spec, "29183", LBIS.L["Wrist"], "BIS") --Bindings of the Timewalker
+LBIS:AddItem(spec, "23539", LBIS.L["Wrist"], "BIS") --Blessed Bracers
+LBIS:AddItem(spec, "21604", LBIS.L["Wrist"], "Alt") --Bracelets of Royal Redemption
+LBIS:AddItem(spec, "29249", LBIS.L["Wrist"], "Alt") --Bands of the Benevolent
+LBIS:AddItem(spec, "28029", LBIS.L["Wrist"], "Alt") --Goldenvine Wraps
 
-LBIS:AddItem(spec, "29506", LBIS.L["Gloves"], "BIS") --Gloves of the Living Touch
-LBIS:AddItem(spec, "27457", LBIS.L["Gloves"], "Alt") --Life Bearer's Gauntlets
-LBIS:AddItem(spec, "28304", LBIS.L["Gloves"], "Alt") --Prismatic Mittens of Mending
-LBIS:AddItem(spec, "29327", LBIS.L["Gloves"], "Alt") --Cryo-mitts
+LBIS:AddItem(spec, "29506", LBIS.L["Hands"], "BIS") --Gloves of the Living Touch
+LBIS:AddItem(spec, "27457", LBIS.L["Hands"], "Alt") --Life Bearer's Gauntlets
+LBIS:AddItem(spec, "28304", LBIS.L["Hands"], "Alt") --Prismatic Mittens of Mending
+LBIS:AddItem(spec, "29327", LBIS.L["Hands"], "Alt") --Cryo-mitts
 
 LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt
 LBIS:AddItem(spec, "29524", LBIS.L["Waist"], "Alt") --Windhawk Belt

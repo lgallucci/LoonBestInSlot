@@ -7,12 +7,12 @@ LBIS:AddItem(spec, "29093", LBIS.L["Head"], "Alt") --Antlers of Malorne
 LBIS:AddItem(spec, "29761", LBIS.L["Head"], "Alt") --Helm of the Fallen Defender
 LBIS:AddItem(spec, "28804", LBIS.L["Head"], "Alt") --Collar of Cho'gall
 
-LBIS:AddItem(spec, "29095", LBIS.L["Shoulders"], "BIS") --Pauldrons of Malorne
-LBIS:AddItem(spec, "29764", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Defender
-LBIS:AddItem(spec, "27796", LBIS.L["Shoulders"], "Alt") --Mana-Etched Spaulders
-LBIS:AddItem(spec, "27778", LBIS.L["Shoulders"], "Alt") --Spaulders of Oblivion
-LBIS:AddItem(spec, "27738", LBIS.L["Shoulders"], "Alt") --Incanter's Pauldrons
-LBIS:AddItem(spec, "31797", LBIS.L["Shoulders"], "Alt") --Elekk Hide Spaulders
+LBIS:AddItem(spec, "29095", LBIS.L["Shoulder"], "BIS") --Pauldrons of Malorne
+LBIS:AddItem(spec, "29764", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Defender
+LBIS:AddItem(spec, "27796", LBIS.L["Shoulder"], "Alt") --Mana-Etched Spaulders
+LBIS:AddItem(spec, "27778", LBIS.L["Shoulder"], "Alt") --Spaulders of Oblivion
+LBIS:AddItem(spec, "27738", LBIS.L["Shoulder"], "Alt") --Incanter's Pauldrons
+LBIS:AddItem(spec, "31797", LBIS.L["Shoulder"], "Alt") --Elekk Hide Spaulders
 
 LBIS:AddItem(spec, "28766", LBIS.L["Back"], "BIS") --Ruby Drape of the Mysticant
 LBIS:AddItem(spec, "30735", LBIS.L["Back"], "Alt") --Ancient Spellcloak of the Highborne
@@ -24,17 +24,17 @@ LBIS:AddItem(spec, "21848", LBIS.L["Chest"], "BIS") --Spellfire Robe
 LBIS:AddItem(spec, "29091", LBIS.L["Chest"], "BIS") --Chestpiece of Malorne
 LBIS:AddItem(spec, "29753", LBIS.L["Chest"], "BIS") --Chestguard of the Fallen Defender
 
-LBIS:AddItem(spec, "29523", LBIS.L["Bracers"], "BIS") --Windhawk Bracers
-LBIS:AddItem(spec, "24250", LBIS.L["Bracers"], "BIS") --Bracers of Havok
-LBIS:AddItem(spec, "28515", LBIS.L["Bracers"], "Alt") --Bands of Nefarious Deeds
-LBIS:AddItem(spec, "28453", LBIS.L["Bracers"], "Alt") --Bracers of the White Stag
+LBIS:AddItem(spec, "29523", LBIS.L["Wrist"], "BIS") --Windhawk Bracers
+LBIS:AddItem(spec, "24250", LBIS.L["Wrist"], "BIS") --Bracers of Havok
+LBIS:AddItem(spec, "28515", LBIS.L["Wrist"], "Alt") --Bands of Nefarious Deeds
+LBIS:AddItem(spec, "28453", LBIS.L["Wrist"], "Alt") --Bracers of the White Stag
 
-LBIS:AddItem(spec, "21847", LBIS.L["Gloves"], "BIS") --Spellfire Gloves
-LBIS:AddItem(spec, "30725", LBIS.L["Gloves"], "BIS") --Anger-Spark Gloves
-LBIS:AddItem(spec, "28507", LBIS.L["Gloves"], "BIS") --Handwraps of Flowing Thought
-LBIS:AddItem(spec, "28780", LBIS.L["Gloves"], "Alt") --Soul-Eater's Handwraps
-LBIS:AddItem(spec, "29092", LBIS.L["Gloves"], "Alt") --Gloves of Malorne
-LBIS:AddItem(spec, "29758", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Defender
+LBIS:AddItem(spec, "21847", LBIS.L["Hands"], "BIS") --Spellfire Gloves
+LBIS:AddItem(spec, "30725", LBIS.L["Hands"], "BIS") --Anger-Spark Gloves
+LBIS:AddItem(spec, "28507", LBIS.L["Hands"], "BIS") --Handwraps of Flowing Thought
+LBIS:AddItem(spec, "28780", LBIS.L["Hands"], "Alt") --Soul-Eater's Handwraps
+LBIS:AddItem(spec, "29092", LBIS.L["Hands"], "Alt") --Gloves of Malorne
+LBIS:AddItem(spec, "29758", LBIS.L["Hands"], "Alt") --Gloves of the Fallen Defender
 
 LBIS:AddItem(spec, "21846", LBIS.L["Waist"], "BIS") --Spellfire Belt
 LBIS:AddItem(spec, "24256", LBIS.L["Waist"], "BIS") --Girdle of Ruination

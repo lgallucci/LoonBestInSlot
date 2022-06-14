@@ -3,9 +3,9 @@ local spec = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "4")
 LBIS:AddItem(spec, "30206", LBIS.L["Head"], "BIS") --Cowl of Tirisfal
 LBIS:AddItem(spec, "30244", LBIS.L["Head"], "BIS") --Helm of the Vanquished Hero
 
-LBIS:AddItem(spec, "30210", LBIS.L["Shoulders"], "BIS") --Mantle of Tirisfal
-LBIS:AddItem(spec, "30250", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Hero
-LBIS:AddItem(spec, "33489", LBIS.L["Shoulders"], "Alt") --Mantle of Ill Intent
+LBIS:AddItem(spec, "30210", LBIS.L["Shoulder"], "BIS") --Mantle of Tirisfal
+LBIS:AddItem(spec, "30250", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Hero
+LBIS:AddItem(spec, "33489", LBIS.L["Shoulder"], "Alt") --Mantle of Ill Intent
 
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
 LBIS:AddItem(spec, "32331", LBIS.L["Back"], "Alt") --Cloak of the Illidari Council
@@ -19,13 +19,13 @@ LBIS:AddItem(spec, "31090", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotte
 LBIS:AddItem(spec, "30913", LBIS.L["Chest"], "Alt") --Robes of Rhonin
 LBIS:AddItem(spec, "33317", LBIS.L["Chest"], "Alt") --Robe of Departed Spirits
 
-LBIS:AddItem(spec, "30870", LBIS.L["Bracers"], "BIS") --Cuffs of Devastation
-LBIS:AddItem(spec, "32586", LBIS.L["Bracers"], "BIS") --Bracers of Nimble Thought
-LBIS:AddItem(spec, "33588", LBIS.L["Bracers"], "Alt") --Runed Spell-cuffs
+LBIS:AddItem(spec, "30870", LBIS.L["Wrist"], "BIS") --Cuffs of Devastation
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "BIS") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "33588", LBIS.L["Wrist"], "Alt") --Runed Spell-cuffs
 
-LBIS:AddItem(spec, "30205", LBIS.L["Gloves"], "BIS") --Gloves of Tirisfal
-LBIS:AddItem(spec, "30241", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Hero
-LBIS:AddItem(spec, "33586", LBIS.L["Gloves"], "Alt") --Studious Wraps
+LBIS:AddItem(spec, "30205", LBIS.L["Hands"], "BIS") --Gloves of Tirisfal
+LBIS:AddItem(spec, "30241", LBIS.L["Hands"], "BIS") --Gloves of the Vanquished Hero
+LBIS:AddItem(spec, "33586", LBIS.L["Hands"], "Alt") --Studious Wraps
 
 LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "BIS") --Anetheron's Noose
 LBIS:AddItem(spec, "32256", LBIS.L["Waist"], "Alt") --Waistwrap of Infinity

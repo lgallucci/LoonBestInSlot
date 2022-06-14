@@ -4,7 +4,7 @@ LBIS:AddItem(spec, "28275", LBIS.L["Head"], "BIS") --Beast Lord Helm
 LBIS:AddItem(spec, "29081", LBIS.L["Head"], "Alt") --Demon Stalker Greathelm
 LBIS:AddItem(spec, "29759", LBIS.L["Head"], "Alt") --Helm of the Fallen Hero
 
-LBIS:AddItem(spec, "27801", LBIS.L["Shoulders"], "BIS") --Beast Lord Mantle
+LBIS:AddItem(spec, "27801", LBIS.L["Shoulder"], "BIS") --Beast Lord Mantle
 
 LBIS:AddItem(spec, "24259", LBIS.L["Back"], "BIS") --Vengeance Wrap
 LBIS:AddItem(spec, "28777", LBIS.L["Back"], "Alt") --Cloak of the Pit Stalker
@@ -13,13 +13,13 @@ LBIS:AddItem(spec, "28672", LBIS.L["Back"], "Alt") --Drape of the Dark Reavers
 LBIS:AddItem(spec, "28228", LBIS.L["Chest"], "BIS") --Beast Lord Cuirass
 LBIS:AddItem(spec, "29525", LBIS.L["Chest"], "BIS") --Primalstrike Vest
 
-LBIS:AddItem(spec, "29527", LBIS.L["Bracers"], "BIS") --Primalstrike Bracers
-LBIS:AddItem(spec, "29246", LBIS.L["Bracers"], "BIS") --Nightfall Wristguards
+LBIS:AddItem(spec, "29527", LBIS.L["Wrist"], "BIS") --Primalstrike Bracers
+LBIS:AddItem(spec, "29246", LBIS.L["Wrist"], "BIS") --Nightfall Wristguards
 
-LBIS:AddItem(spec, "27474", LBIS.L["Gloves"], "BIS") --Beast Lord Handguards
-LBIS:AddItem(spec, "28506", LBIS.L["Gloves"], "Alt") --Gloves of Dexterous Manipulation
-LBIS:AddItem(spec, "28827", LBIS.L["Gloves"], "Alt") --Gauntlets of the Dragonslayer
-LBIS:AddItem(spec, "25685", LBIS.L["Gloves"], "Alt") --Fel Leather Gloves
+LBIS:AddItem(spec, "27474", LBIS.L["Hands"], "BIS") --Beast Lord Handguards
+LBIS:AddItem(spec, "28506", LBIS.L["Hands"], "Alt") --Gloves of Dexterous Manipulation
+LBIS:AddItem(spec, "28827", LBIS.L["Hands"], "Alt") --Gauntlets of the Dragonslayer
+LBIS:AddItem(spec, "25685", LBIS.L["Hands"], "Alt") --Fel Leather Gloves
 
 LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "BIS") --Gronn-Stitched Girdle
 LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "Alt") --Girdle of the Deathdealer

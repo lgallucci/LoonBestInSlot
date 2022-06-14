@@ -6,11 +6,11 @@ LBIS:AddItem(spec, "23519", LBIS.L["Head"], "Alt") --Felsteel Helm
 LBIS:AddItem(spec, "27408", LBIS.L["Head"], "Alt Thrt") --Hope Bearer Helm
 LBIS:AddItem(spec, "28350", LBIS.L["Head"], "Alt Mit") --Warhelm of the Bold
 
-LBIS:AddItem(spec, "35411", LBIS.L["Shoulders"], "BIS") --Savage Plate Shoulders
-LBIS:AddItem(spec, "27847", LBIS.L["Shoulders"], "Alt") --Fanblade Pauldrons
-LBIS:AddItem(spec, "32073", LBIS.L["Shoulders"], "Alt") --Spaulders of Dementia
-LBIS:AddItem(spec, "27803", LBIS.L["Shoulders"], "Alt") --Shoulderguards of the Bold
-LBIS:AddItem(spec, "29316", LBIS.L["Shoulders"], "Alt") --Warchief's Mantle
+LBIS:AddItem(spec, "35411", LBIS.L["Shoulder"], "BIS") --Savage Plate Shoulders
+LBIS:AddItem(spec, "27847", LBIS.L["Shoulder"], "Alt") --Fanblade Pauldrons
+LBIS:AddItem(spec, "32073", LBIS.L["Shoulder"], "Alt") --Spaulders of Dementia
+LBIS:AddItem(spec, "27803", LBIS.L["Shoulder"], "Alt") --Shoulderguards of the Bold
+LBIS:AddItem(spec, "29316", LBIS.L["Shoulder"], "Alt") --Warchief's Mantle
 
 LBIS:AddItem(spec, "27804", LBIS.L["Back"], "BIS") --Devilshark Cape
 LBIS:AddItem(spec, "24253", LBIS.L["Back"], "Alt") --Cloak of Eternity
@@ -22,18 +22,18 @@ LBIS:AddItem(spec, "28262", LBIS.L["Chest"], "Alt") --Jade-Skull Breastplate
 LBIS:AddItem(spec, "25819", LBIS.L["Chest"], "Alt") --Breastplate of the Warbringer
 LBIS:AddItem(spec, "22416", LBIS.L["Chest"], "Alt") --Dreadnaught Breastplate
 
-LBIS:AddItem(spec, "32818", LBIS.L["Bracers"], "BIS") --Veteran's Plate Bracers
-LBIS:AddItem(spec, "28996", LBIS.L["Bracers"], "BIS") --Marshal's Plate Bracers
-LBIS:AddItem(spec, "29463", LBIS.L["Bracers"], "Alt") --Amber Bands of the Aggressor
-LBIS:AddItem(spec, "27459", LBIS.L["Bracers"], "Alt") --Vambraces of Daring
-LBIS:AddItem(spec, "28167", LBIS.L["Bracers"], "Alt") --Sha'tari Wrought Armguards
-LBIS:AddItem(spec, "30225", LBIS.L["Bracers"], "Alt") --Junior Technician 3rd Grade Bracers
+LBIS:AddItem(spec, "32818", LBIS.L["Wrist"], "BIS") --Veteran's Plate Bracers
+LBIS:AddItem(spec, "28996", LBIS.L["Wrist"], "BIS") --Marshal's Plate Bracers
+LBIS:AddItem(spec, "29463", LBIS.L["Wrist"], "Alt") --Amber Bands of the Aggressor
+LBIS:AddItem(spec, "27459", LBIS.L["Wrist"], "Alt") --Vambraces of Daring
+LBIS:AddItem(spec, "28167", LBIS.L["Wrist"], "Alt") --Sha'tari Wrought Armguards
+LBIS:AddItem(spec, "30225", LBIS.L["Wrist"], "Alt") --Junior Technician 3rd Grade Bracers
 
-LBIS:AddItem(spec, "27475", LBIS.L["Gloves"], "BIS") --Gauntlets of the Bold
-LBIS:AddItem(spec, "32072", LBIS.L["Gloves"], "Alt") --Gauntlets of Dissension
-LBIS:AddItem(spec, "23517", LBIS.L["Gloves"], "Alt") --Felsteel Gloves
-LBIS:AddItem(spec, "29134", LBIS.L["Gloves"], "Alt") --Gauntlets of the Chosen
-LBIS:AddItem(spec, "30375", LBIS.L["Gloves"], "Alt") --Gauntlets of the Vanquisher
+LBIS:AddItem(spec, "27475", LBIS.L["Hands"], "BIS") --Gauntlets of the Bold
+LBIS:AddItem(spec, "32072", LBIS.L["Hands"], "Alt") --Gauntlets of Dissension
+LBIS:AddItem(spec, "23517", LBIS.L["Hands"], "Alt") --Felsteel Gloves
+LBIS:AddItem(spec, "29134", LBIS.L["Hands"], "Alt") --Gauntlets of the Chosen
+LBIS:AddItem(spec, "30375", LBIS.L["Hands"], "Alt") --Gauntlets of the Vanquisher
 
 LBIS:AddItem(spec, "32805", LBIS.L["Waist"], "BIS") --Veteran's Plate Belt
 LBIS:AddItem(spec, "28995", LBIS.L["Waist"], "BIS") --Marshal's Plate Belt

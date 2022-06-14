@@ -7,10 +7,10 @@ LBIS:AddItem(spec, "32376", LBIS.L["Head"], "Alt") --Forest Prowler's Helm
 LBIS:AddItem(spec, "30190", LBIS.L["Head"], "Alt") --Cataclysm Helm
 LBIS:AddItem(spec, "30242", LBIS.L["Head"], "Alt") --Helm of the Vanquished Champion
 
-LBIS:AddItem(spec, "32581", LBIS.L["Shoulders"], "BIS") --Swiftstrike Shoulders
-LBIS:AddItem(spec, "32575", LBIS.L["Shoulders"], "BIS") --Shoulders of Lightning Reflexes
-LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "Alt") --Shoulderpads of the Stranger
-LBIS:AddItem(spec, "32377", LBIS.L["Shoulders"], "Alt") --Mantle of Darkness
+LBIS:AddItem(spec, "32581", LBIS.L["Shoulder"], "BIS") --Swiftstrike Shoulders
+LBIS:AddItem(spec, "32575", LBIS.L["Shoulder"], "BIS") --Shoulders of Lightning Reflexes
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "32377", LBIS.L["Shoulder"], "Alt") --Mantle of Darkness
 
 LBIS:AddItem(spec, "32323", LBIS.L["Back"], "BIS") --Shadowmoon Destroyer's Drape
 LBIS:AddItem(spec, "29994", LBIS.L["Back"], "Alt") --Thalassian Wildercloak
@@ -22,16 +22,16 @@ LBIS:AddItem(spec, "30101", LBIS.L["Chest"], "Alt") --Bloodsea Brigand's Vest
 LBIS:AddItem(spec, "30185", LBIS.L["Chest"], "Alt") --Cataclysm Chestplate
 LBIS:AddItem(spec, "30236", LBIS.L["Chest"], "Alt") --Chestguard of the Vanquished Champion
 
-LBIS:AddItem(spec, "30863", LBIS.L["Bracers"], "BIS") --Deadly Cuffs
-LBIS:AddItem(spec, "32574", LBIS.L["Bracers"], "BIS") --Bindings of Lightning Reflexes
-LBIS:AddItem(spec, "32324", LBIS.L["Bracers"], "BIS") --Insidious Bands
-LBIS:AddItem(spec, "30091", LBIS.L["Bracers"], "Alt") --True-Aim Stalker Bands
+LBIS:AddItem(spec, "30863", LBIS.L["Wrist"], "BIS") --Deadly Cuffs
+LBIS:AddItem(spec, "32574", LBIS.L["Wrist"], "BIS") --Bindings of Lightning Reflexes
+LBIS:AddItem(spec, "32324", LBIS.L["Wrist"], "BIS") --Insidious Bands
+LBIS:AddItem(spec, "30091", LBIS.L["Wrist"], "Alt") --True-Aim Stalker Bands
 
-LBIS:AddItem(spec, "32234", LBIS.L["Gloves"], "BIS") --Fists of Mukoa
-LBIS:AddItem(spec, "32347", LBIS.L["Gloves"], "BIS") --Grips of Damnation
-LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "Alt") --Gloves of the Searing Grip
-LBIS:AddItem(spec, "30189", LBIS.L["Gloves"], "Alt") --Cataclysm Gauntlets
-LBIS:AddItem(spec, "30239", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Champion
+LBIS:AddItem(spec, "32234", LBIS.L["Hands"], "BIS") --Fists of Mukoa
+LBIS:AddItem(spec, "32347", LBIS.L["Hands"], "BIS") --Grips of Damnation
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "Alt") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "30189", LBIS.L["Hands"], "Alt") --Cataclysm Gauntlets
+LBIS:AddItem(spec, "30239", LBIS.L["Hands"], "Alt") --Gloves of the Vanquished Champion
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 LBIS:AddItem(spec, "32346", LBIS.L["Waist"], "Alt") --Boneweave Girdle

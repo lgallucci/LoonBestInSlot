@@ -7,12 +7,12 @@ LBIS:AddItem(spec, "32235", LBIS.L["Head"], "Alt") --Cursed Vision of Sargeras
 LBIS:AddItem(spec, "30228", LBIS.L["Head"], "Alt") --Nordrassil Headdress
 LBIS:AddItem(spec, "30243", LBIS.L["Head"], "Alt") --Helm of the Vanquished Defender
 
-LBIS:AddItem(spec, "31048", LBIS.L["Shoulders"], "BIS") --Thunderheart Pauldrons
-LBIS:AddItem(spec, "31102", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Vanquisher
-LBIS:AddItem(spec, "33674", LBIS.L["Shoulders"], "Alt") --Vengeful Gladiator's Dragonhide Spaulders
-LBIS:AddItem(spec, "30230", LBIS.L["Shoulders"], "Alt") --Nordrassil Feral-Mantle
-LBIS:AddItem(spec, "30249", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Vanquished Defender
-LBIS:AddItem(spec, "30917", LBIS.L["Shoulders"], "Alt") --Razorfury Mantle
+LBIS:AddItem(spec, "31048", LBIS.L["Shoulder"], "BIS") --Thunderheart Pauldrons
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "33674", LBIS.L["Shoulder"], "Alt") --Vengeful Gladiator's Dragonhide Spaulders
+LBIS:AddItem(spec, "30230", LBIS.L["Shoulder"], "Alt") --Nordrassil Feral-Mantle
+LBIS:AddItem(spec, "30249", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Vanquished Defender
+LBIS:AddItem(spec, "30917", LBIS.L["Shoulder"], "Alt") --Razorfury Mantle
 
 LBIS:AddItem(spec, "28660", LBIS.L["Back"], "BIS Mit") --Gilded Thorium Cloak
 LBIS:AddItem(spec, "29994", LBIS.L["Back"], "BIS Thrt") --Thalassian Wildercloak
@@ -27,18 +27,18 @@ LBIS:AddItem(spec, "33675", LBIS.L["Chest"], "Alt Thrt") --Vengeful Gladiator's 
 LBIS:AddItem(spec, "32252", LBIS.L["Chest"], "Alt") --Nether Shadow Tunic
 LBIS:AddItem(spec, "30905", LBIS.L["Chest"], "Alt") --Midnight Chestguard
 
-LBIS:AddItem(spec, "32324", LBIS.L["Bracers"], "BIS") --Insidious Bands
-LBIS:AddItem(spec, "33881", LBIS.L["Bracers"], "BIS Mit") --Vindicator's Dragonhide Bracers
-LBIS:AddItem(spec, "33893", LBIS.L["Bracers"], "Alt") --Vindicator's Leather Bracers
-LBIS:AddItem(spec, "32580", LBIS.L["Bracers"], "Alt") --Swiftstrike Bracers
-LBIS:AddItem(spec, "30863", LBIS.L["Bracers"], "Alt") --Deadly Cuffs
+LBIS:AddItem(spec, "32324", LBIS.L["Wrist"], "BIS") --Insidious Bands
+LBIS:AddItem(spec, "33881", LBIS.L["Wrist"], "BIS Mit") --Vindicator's Dragonhide Bracers
+LBIS:AddItem(spec, "33893", LBIS.L["Wrist"], "Alt") --Vindicator's Leather Bracers
+LBIS:AddItem(spec, "32580", LBIS.L["Wrist"], "Alt") --Swiftstrike Bracers
+LBIS:AddItem(spec, "30863", LBIS.L["Wrist"], "Alt") --Deadly Cuffs
 
-LBIS:AddItem(spec, "31034", LBIS.L["Gloves"], "BIS") --Thunderheart Gauntlets
-LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Vanquisher
-LBIS:AddItem(spec, "30223", LBIS.L["Gloves"], "Alt Mit") --Nordrassil Handgrips
-LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "Alt Mit") --Gloves of the Vanquished Defender
-LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "Alt Thrt") --Gloves of the Searing Grip
-LBIS:AddItem(spec, "33671", LBIS.L["Gloves"], "Alt Thrt") --Vengeful Gladiator's Dragonhide Gloves
+LBIS:AddItem(spec, "31034", LBIS.L["Hands"], "BIS") --Thunderheart Gauntlets
+LBIS:AddItem(spec, "31093", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Vanquisher
+LBIS:AddItem(spec, "30223", LBIS.L["Hands"], "Alt Mit") --Nordrassil Handgrips
+LBIS:AddItem(spec, "30240", LBIS.L["Hands"], "Alt Mit") --Gloves of the Vanquished Defender
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "Alt Thrt") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "33671", LBIS.L["Hands"], "Alt Thrt") --Vengeful Gladiator's Dragonhide Gloves
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 LBIS:AddItem(spec, "30879", LBIS.L["Waist"], "Alt Thrt") --Don Alejandro's Money Belt

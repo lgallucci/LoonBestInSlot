@@ -5,11 +5,11 @@ LBIS:AddItem(spec, "30244", LBIS.L["Head"], "BIS") --Helm of the Vanquished Hero
 LBIS:AddItem(spec, "28275", LBIS.L["Head"], "Alt") --Beast Lord Helm
 LBIS:AddItem(spec, "32087", LBIS.L["Head"], "Alt") --Mask of the Deceiver
 
-LBIS:AddItem(spec, "30143", LBIS.L["Shoulders"], "BIS") --Rift Stalker Mantle
-LBIS:AddItem(spec, "30250", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Hero
-LBIS:AddItem(spec, "27801", LBIS.L["Shoulders"], "Alt") --Beast Lord Mantle
-LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "Alt") --Shoulderpads of the Stranger
-LBIS:AddItem(spec, "30085", LBIS.L["Shoulders"], "Alt") --Mantle of the Tireless Tracker
+LBIS:AddItem(spec, "30143", LBIS.L["Shoulder"], "BIS") --Rift Stalker Mantle
+LBIS:AddItem(spec, "30250", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Hero
+LBIS:AddItem(spec, "27801", LBIS.L["Shoulder"], "Alt") --Beast Lord Mantle
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "30085", LBIS.L["Shoulder"], "Alt") --Mantle of the Tireless Tracker
 
 LBIS:AddItem(spec, "29994", LBIS.L["Back"], "BIS") --Thalassian Wildercloak
 LBIS:AddItem(spec, "24259", LBIS.L["Back"], "Alt") --Vengeance Wrap
@@ -20,15 +20,15 @@ LBIS:AddItem(spec, "28228", LBIS.L["Chest"], "Alt") --Beast Lord Cuirass
 LBIS:AddItem(spec, "30054", LBIS.L["Chest"], "Alt") --Ranger-General's Chestguard
 LBIS:AddItem(spec, "29525", LBIS.L["Chest"], "Alt") --Primalstrike Vest
 
-LBIS:AddItem(spec, "29966", LBIS.L["Bracers"], "BIS") --Vambraces of Ending
-LBIS:AddItem(spec, "30026", LBIS.L["Bracers"], "Alt") --Bands of the Celestial Archer
-LBIS:AddItem(spec, "30091", LBIS.L["Bracers"], "Alt") --True-Aim Stalker Bands
-LBIS:AddItem(spec, "29246", LBIS.L["Bracers"], "Alt") --Nightfall Wristguards
-LBIS:AddItem(spec, "29527", LBIS.L["Bracers"], "Alt") --Primalstrike Bracers
+LBIS:AddItem(spec, "29966", LBIS.L["Wrist"], "BIS") --Vambraces of Ending
+LBIS:AddItem(spec, "30026", LBIS.L["Wrist"], "Alt") --Bands of the Celestial Archer
+LBIS:AddItem(spec, "30091", LBIS.L["Wrist"], "Alt") --True-Aim Stalker Bands
+LBIS:AddItem(spec, "29246", LBIS.L["Wrist"], "Alt") --Nightfall Wristguards
+LBIS:AddItem(spec, "29527", LBIS.L["Wrist"], "Alt") --Primalstrike Bracers
 
-LBIS:AddItem(spec, "30140", LBIS.L["Gloves"], "BIS") --Rift Stalker Gauntlets
-LBIS:AddItem(spec, "30241", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Hero
-LBIS:AddItem(spec, "27474", LBIS.L["Gloves"], "Alt") --Beast Lord Handguards
+LBIS:AddItem(spec, "30140", LBIS.L["Hands"], "BIS") --Rift Stalker Gauntlets
+LBIS:AddItem(spec, "30241", LBIS.L["Hands"], "BIS") --Gloves of the Vanquished Hero
+LBIS:AddItem(spec, "27474", LBIS.L["Hands"], "Alt") --Beast Lord Handguards
 
 LBIS:AddItem(spec, "30040", LBIS.L["Waist"], "BIS") --Belt of Deep Shadow
 LBIS:AddItem(spec, "30046", LBIS.L["Waist"], "Alt") --Belt of the Black Eagle

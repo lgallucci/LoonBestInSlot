@@ -9,13 +9,13 @@ LBIS:AddItem(spec, "32087", LBIS.L["Head"], "Alt") --Mask of the Deceiver
 LBIS:AddItem(spec, "32088", LBIS.L["Head"], "Alt") --Cowl of Beastly Rage
 LBIS:AddItem(spec, "28224", LBIS.L["Head"], "Alt") --Wastewalker Helm
 
-LBIS:AddItem(spec, "35359", LBIS.L["Shoulders"], "BIS Mit") --Dragonhide Spaulders
-LBIS:AddItem(spec, "27434", LBIS.L["Shoulders"], "BIS Thrt") --Mantle of Perenolde
-LBIS:AddItem(spec, "27776", LBIS.L["Shoulders"], "BIS Thrt") --Shoulderpads of Assassination
-LBIS:AddItem(spec, "31971", LBIS.L["Shoulders"], "BIS") --Merciless Gladiator's Dragonhide Spaulders
-LBIS:AddItem(spec, "28129", LBIS.L["Shoulders"], "Alt") --Gladiator's Dragonhide Spaulders
-LBIS:AddItem(spec, "32080", LBIS.L["Shoulders"], "Alt") --Mantle of Shadowy Embrace
-LBIS:AddItem(spec, "27797", LBIS.L["Shoulders"], "Alt") --Wastewalker Shoulderpads
+LBIS:AddItem(spec, "35359", LBIS.L["Shoulder"], "BIS Mit") --Dragonhide Spaulders
+LBIS:AddItem(spec, "27434", LBIS.L["Shoulder"], "BIS Thrt") --Mantle of Perenolde
+LBIS:AddItem(spec, "27776", LBIS.L["Shoulder"], "BIS Thrt") --Shoulderpads of Assassination
+LBIS:AddItem(spec, "31971", LBIS.L["Shoulder"], "BIS") --Merciless Gladiator's Dragonhide Spaulders
+LBIS:AddItem(spec, "28129", LBIS.L["Shoulder"], "Alt") --Gladiator's Dragonhide Spaulders
+LBIS:AddItem(spec, "32080", LBIS.L["Shoulder"], "Alt") --Mantle of Shadowy Embrace
+LBIS:AddItem(spec, "27797", LBIS.L["Shoulder"], "Alt") --Wastewalker Shoulderpads
 
 LBIS:AddItem(spec, "28256", LBIS.L["Back"], "BIS") --Thoriumweave Cloak
 LBIS:AddItem(spec, "24258", LBIS.L["Back"], "BIS Mit") --Resolute Cape
@@ -32,24 +32,24 @@ LBIS:AddItem(spec, "29525", LBIS.L["Chest"], "Alt Thrt") --Primalstrike Vest
 LBIS:AddItem(spec, "28264", LBIS.L["Chest"], "Alt") --Wastewalker Tunic
 LBIS:AddItem(spec, "23226", LBIS.L["Chest"], "Alt") --Ghoul Skin Tunic
 
-LBIS:AddItem(spec, "30944", LBIS.L["Bracers"], "BIS") --Umberhowl's Collar
-LBIS:AddItem(spec, "32810", LBIS.L["Bracers"], "BIS") --Veteran's Dragonhide Bracers
-LBIS:AddItem(spec, "32814", LBIS.L["Bracers"], "Alt") --Veteran's Leather Bracers
-LBIS:AddItem(spec, "28978", LBIS.L["Bracers"], "Alt") --Marshal's Dragonhide Bracers
-LBIS:AddItem(spec, "28445", LBIS.L["Bracers"], "Alt") --General's Dragonhide Bracers
-LBIS:AddItem(spec, "28988", LBIS.L["Bracers"], "Alt") --Marshal's Leather Bracers
-LBIS:AddItem(spec, "28424", LBIS.L["Bracers"], "Alt") --General's Leather Bracers
-LBIS:AddItem(spec, "29263", LBIS.L["Bracers"], "Alt") --Forestheart Bracers
-LBIS:AddItem(spec, "32647", LBIS.L["Bracers"], "Alt") --Shard-bound Bracers
+LBIS:AddItem(spec, "30944", LBIS.L["Wrist"], "BIS") --Umberhowl's Collar
+LBIS:AddItem(spec, "32810", LBIS.L["Wrist"], "BIS") --Veteran's Dragonhide Bracers
+LBIS:AddItem(spec, "32814", LBIS.L["Wrist"], "Alt") --Veteran's Leather Bracers
+LBIS:AddItem(spec, "28978", LBIS.L["Wrist"], "Alt") --Marshal's Dragonhide Bracers
+LBIS:AddItem(spec, "28445", LBIS.L["Wrist"], "Alt") --General's Dragonhide Bracers
+LBIS:AddItem(spec, "28988", LBIS.L["Wrist"], "Alt") --Marshal's Leather Bracers
+LBIS:AddItem(spec, "28424", LBIS.L["Wrist"], "Alt") --General's Leather Bracers
+LBIS:AddItem(spec, "29263", LBIS.L["Wrist"], "Alt") --Forestheart Bracers
+LBIS:AddItem(spec, "32647", LBIS.L["Wrist"], "Alt") --Shard-bound Bracers
 
-LBIS:AddItem(spec, "30943", LBIS.L["Gloves"], "BIS Mit") --Verdant Gloves
-LBIS:AddItem(spec, "30341", LBIS.L["Gloves"], "BIS Thrt") --Flesh Handler's Gauntlets
-LBIS:AddItem(spec, "31967", LBIS.L["Gloves"], "BIS") --Merciless Gladiator's Dragonhide Gloves
-LBIS:AddItem(spec, "28126", LBIS.L["Gloves"], "Alt Mit") --Gladiator's Dragonhide Gloves
-LBIS:AddItem(spec, "29507", LBIS.L["Gloves"], "Alt Thrt") --Windslayer Wraps
-LBIS:AddItem(spec, "29503", LBIS.L["Gloves"], "Alt Thrt") --Cobrascale Gloves
-LBIS:AddItem(spec, "27531", LBIS.L["Gloves"], "Alt") --Wastewalker Gloves
-LBIS:AddItem(spec, "28396", LBIS.L["Gloves"], "Alt") --Gloves of the Unbound
+LBIS:AddItem(spec, "30943", LBIS.L["Hands"], "BIS Mit") --Verdant Gloves
+LBIS:AddItem(spec, "30341", LBIS.L["Hands"], "BIS Thrt") --Flesh Handler's Gauntlets
+LBIS:AddItem(spec, "31967", LBIS.L["Hands"], "BIS") --Merciless Gladiator's Dragonhide Gloves
+LBIS:AddItem(spec, "28126", LBIS.L["Hands"], "Alt Mit") --Gladiator's Dragonhide Gloves
+LBIS:AddItem(spec, "29507", LBIS.L["Hands"], "Alt Thrt") --Windslayer Wraps
+LBIS:AddItem(spec, "29503", LBIS.L["Hands"], "Alt Thrt") --Cobrascale Gloves
+LBIS:AddItem(spec, "27531", LBIS.L["Hands"], "Alt") --Wastewalker Gloves
+LBIS:AddItem(spec, "28396", LBIS.L["Hands"], "Alt") --Gloves of the Unbound
 
 LBIS:AddItem(spec, "30942", LBIS.L["Waist"], "BIS") --Manimal's Cinch
 LBIS:AddItem(spec, "29264", LBIS.L["Waist"], "BIS Mit") --Tree-Mender's Belt

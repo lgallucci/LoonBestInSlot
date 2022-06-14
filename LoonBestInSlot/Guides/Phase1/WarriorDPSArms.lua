@@ -4,10 +4,10 @@ LBIS:AddItem(spec, "29021", LBIS.L["Head"], "BIS") --Warbringer Battle-Helm
 LBIS:AddItem(spec, "29761", LBIS.L["Head"], "BIS") --Helm of the Fallen Defender
 LBIS:AddItem(spec, "32087", LBIS.L["Head"], "BIS") --Mask of the Deceiver
 
-LBIS:AddItem(spec, "29023", LBIS.L["Shoulders"], "BIS") --Warbringer Shoulderplates
-LBIS:AddItem(spec, "29764", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Defender
-LBIS:AddItem(spec, "30740", LBIS.L["Shoulders"], "BIS") --Ripfiend Shoulderplates
-LBIS:AddItem(spec, "33173", LBIS.L["Shoulders"], "BIS") --Ragesteel Shoulders
+LBIS:AddItem(spec, "29023", LBIS.L["Shoulder"], "BIS") --Warbringer Shoulderplates
+LBIS:AddItem(spec, "29764", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Defender
+LBIS:AddItem(spec, "30740", LBIS.L["Shoulder"], "BIS") --Ripfiend Shoulderplates
+LBIS:AddItem(spec, "33173", LBIS.L["Shoulder"], "BIS") --Ragesteel Shoulders
 
 LBIS:AddItem(spec, "24259", LBIS.L["Back"], "BIS") --Vengeance Wrap
 LBIS:AddItem(spec, "30729", LBIS.L["Back"], "BIS") --Black-Iron Battlecloak
@@ -20,17 +20,17 @@ LBIS:AddItem(spec, "23522", LBIS.L["Chest"], "Alt") --Ragesteel Breastplate
 LBIS:AddItem(spec, "24544", LBIS.L["Chest"], "Alt") --Gladiator's Plate Chestpiece
 LBIS:AddItem(spec, "31548", LBIS.L["Chest"], "Alt") --Blackened Chestplate
 
-LBIS:AddItem(spec, "28795", LBIS.L["Bracers"], "BIS") --Bladespire Warbands
-LBIS:AddItem(spec, "23537", LBIS.L["Bracers"], "Alt") --Black Felsteel Bracers
-LBIS:AddItem(spec, "28381", LBIS.L["Bracers"], "Alt") --General's Plate Bracers
-LBIS:AddItem(spec, "30399", LBIS.L["Bracers"], "Alt") --Nightstalker's Wristguards
+LBIS:AddItem(spec, "28795", LBIS.L["Wrist"], "BIS") --Bladespire Warbands
+LBIS:AddItem(spec, "23537", LBIS.L["Wrist"], "Alt") --Black Felsteel Bracers
+LBIS:AddItem(spec, "28381", LBIS.L["Wrist"], "Alt") --General's Plate Bracers
+LBIS:AddItem(spec, "30399", LBIS.L["Wrist"], "Alt") --Nightstalker's Wristguards
 
-LBIS:AddItem(spec, "28824", LBIS.L["Gloves"], "BIS") --Gauntlets of Martial Perfection
-LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "Alt") --Grips of Deftness
-LBIS:AddItem(spec, "29020", LBIS.L["Gloves"], "Alt") --Warbringer Gauntlets
-LBIS:AddItem(spec, "29758", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Defender
-LBIS:AddItem(spec, "25685", LBIS.L["Gloves"], "BIS") --Fel Leather Gloves
-LBIS:AddItem(spec, "27497", LBIS.L["Gloves"], "Alt") --Doomplate Gauntlets
+LBIS:AddItem(spec, "28824", LBIS.L["Hands"], "BIS") --Gauntlets of Martial Perfection
+LBIS:AddItem(spec, "30644", LBIS.L["Hands"], "Alt") --Grips of Deftness
+LBIS:AddItem(spec, "29020", LBIS.L["Hands"], "Alt") --Warbringer Gauntlets
+LBIS:AddItem(spec, "29758", LBIS.L["Hands"], "Alt") --Gloves of the Fallen Defender
+LBIS:AddItem(spec, "25685", LBIS.L["Hands"], "BIS") --Fel Leather Gloves
+LBIS:AddItem(spec, "27497", LBIS.L["Hands"], "Alt") --Doomplate Gauntlets
 
 LBIS:AddItem(spec, "28779", LBIS.L["Waist"], "BIS") --Girdle of the Endless Pit
 LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "Alt") --Gronn-Stitched Girdle

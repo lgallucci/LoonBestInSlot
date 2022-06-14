@@ -4,9 +4,9 @@ LBIS:AddItem(spec, "29035", LBIS.L["Head"], "BIS") --Cyclone Faceguard
 LBIS:AddItem(spec, "29760", LBIS.L["Head"], "BIS") --Helm of the Fallen Champion
 LBIS:AddItem(spec, "28583", LBIS.L["Head"], "Alt") --Big Bad Wolf's Head
 
-LBIS:AddItem(spec, "29037", LBIS.L["Shoulders"], "BIS") --Cyclone Shoulderguards
-LBIS:AddItem(spec, "29763", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Champion
-LBIS:AddItem(spec, "32078", LBIS.L["Shoulders"], "Alt") --Pauldrons of Wild Magic
+LBIS:AddItem(spec, "29037", LBIS.L["Shoulder"], "BIS") --Cyclone Shoulderguards
+LBIS:AddItem(spec, "29763", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Champion
+LBIS:AddItem(spec, "32078", LBIS.L["Shoulder"], "Alt") --Pauldrons of Wild Magic
 
 LBIS:AddItem(spec, "28797", LBIS.L["Back"], "BIS") --Brute Cloak of the Ogre-Magi
 LBIS:AddItem(spec, "28766", LBIS.L["Back"], "Alt") --Ruby Drape of the Mysticant
@@ -17,14 +17,14 @@ LBIS:AddItem(spec, "29522", LBIS.L["Chest"], "BIS") --Windhawk Hauberk
 LBIS:AddItem(spec, "29033", LBIS.L["Chest"], "Alt") --Cyclone Chestguard
 LBIS:AddItem(spec, "29754", LBIS.L["Chest"], "Alt") --Chestguard of the Fallen Champion
 
-LBIS:AddItem(spec, "29521", LBIS.L["Bracers"], "BIS") --Netherstrike Bracers
-LBIS:AddItem(spec, "29523", LBIS.L["Bracers"], "BIS") --Windhawk Bracers
-LBIS:AddItem(spec, "28638", LBIS.L["Bracers"], "Alt") --General's Mail Bracers
+LBIS:AddItem(spec, "29521", LBIS.L["Wrist"], "BIS") --Netherstrike Bracers
+LBIS:AddItem(spec, "29523", LBIS.L["Wrist"], "BIS") --Windhawk Bracers
+LBIS:AddItem(spec, "28638", LBIS.L["Wrist"], "Alt") --General's Mail Bracers
 
-LBIS:AddItem(spec, "28780", LBIS.L["Gloves"], "BIS") --Soul-Eater's Handwraps
-LBIS:AddItem(spec, "28507", LBIS.L["Gloves"], "Alt") --Handwraps of Flowing Thought
-LBIS:AddItem(spec, "29034", LBIS.L["Gloves"], "Alt") --Cyclone Handguards
-LBIS:AddItem(spec, "29757", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Champion
+LBIS:AddItem(spec, "28780", LBIS.L["Hands"], "BIS") --Soul-Eater's Handwraps
+LBIS:AddItem(spec, "28507", LBIS.L["Hands"], "Alt") --Handwraps of Flowing Thought
+LBIS:AddItem(spec, "29034", LBIS.L["Hands"], "Alt") --Cyclone Handguards
+LBIS:AddItem(spec, "29757", LBIS.L["Hands"], "Alt") --Gloves of the Fallen Champion
 
 LBIS:AddItem(spec, "29520", LBIS.L["Waist"], "BIS") --Netherstrike Belt
 LBIS:AddItem(spec, "24256", LBIS.L["Waist"], "BIS") --Girdle of Ruination

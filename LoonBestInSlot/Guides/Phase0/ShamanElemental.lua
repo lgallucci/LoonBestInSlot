@@ -8,9 +8,9 @@ LBIS:AddItem(spec, "24266", LBIS.L["Head"], "Alt") --Spellstrike Hood
 LBIS:AddItem(spec, "31330", LBIS.L["Head"], "Alt") --Lightning Crown
 LBIS:AddItem(spec, "31107", LBIS.L["Head"], "Alt") --Shamanistic Helmet of Second Sight
 
-LBIS:AddItem(spec, "32078", LBIS.L["Shoulders"], "BIS") --Pauldrons of Wild Magic
-LBIS:AddItem(spec, "30925", LBIS.L["Shoulders"], "Alt") --Spaulders of the Torn-heart
-LBIS:AddItem(spec, "27796", LBIS.L["Shoulders"], "Alt") --Mana-Etched Spaulders
+LBIS:AddItem(spec, "32078", LBIS.L["Shoulder"], "BIS") --Pauldrons of Wild Magic
+LBIS:AddItem(spec, "30925", LBIS.L["Shoulder"], "Alt") --Spaulders of the Torn-heart
+LBIS:AddItem(spec, "27796", LBIS.L["Shoulder"], "Alt") --Mana-Etched Spaulders
 
 LBIS:AddItem(spec, "29369", LBIS.L["Back"], "BIS") --Shawl of Shifting Probabilities
 LBIS:AddItem(spec, "27981", LBIS.L["Back"], "Alt") --Sethekk Oracle Cloak
@@ -20,15 +20,15 @@ LBIS:AddItem(spec, "29522", LBIS.L["Chest"], "BIS") --Windhawk Hauberk
 LBIS:AddItem(spec, "28191", LBIS.L["Chest"], "Alt") --Mana-Etched Vestments
 LBIS:AddItem(spec, "31340", LBIS.L["Chest"], "Alt") --Will of Edward the Odd
 
-LBIS:AddItem(spec, "29521", LBIS.L["Bracers"], "BIS") --Netherstrike Bracers
-LBIS:AddItem(spec, "29523", LBIS.L["Bracers"], "BIS") --Windhawk Bracers
-LBIS:AddItem(spec, "24250", LBIS.L["Bracers"], "Alt") --Bracers of Havok
+LBIS:AddItem(spec, "29521", LBIS.L["Wrist"], "BIS") --Netherstrike Bracers
+LBIS:AddItem(spec, "29523", LBIS.L["Wrist"], "BIS") --Windhawk Bracers
+LBIS:AddItem(spec, "24250", LBIS.L["Wrist"], "Alt") --Bracers of Havok
 
-LBIS:AddItem(spec, "27465", LBIS.L["Gloves"], "BIS") --Mana-Etched Gloves
-LBIS:AddItem(spec, "27793", LBIS.L["Gloves"], "BIS") --Earth Mantle Handwraps
-LBIS:AddItem(spec, "31149", LBIS.L["Gloves"], "Alt") --Gloves of Pandemonium
-LBIS:AddItem(spec, "31280", LBIS.L["Gloves"], "Alt") --Thundercaller's Gauntlets
-LBIS:AddItem(spec, "30930", LBIS.L["Gloves"], "Alt") --Grips of the Void
+LBIS:AddItem(spec, "27465", LBIS.L["Hands"], "BIS") --Mana-Etched Gloves
+LBIS:AddItem(spec, "27793", LBIS.L["Hands"], "BIS") --Earth Mantle Handwraps
+LBIS:AddItem(spec, "31149", LBIS.L["Hands"], "Alt") --Gloves of Pandemonium
+LBIS:AddItem(spec, "31280", LBIS.L["Hands"], "Alt") --Thundercaller's Gauntlets
+LBIS:AddItem(spec, "30930", LBIS.L["Hands"], "Alt") --Grips of the Void
 
 LBIS:AddItem(spec, "29520", LBIS.L["Waist"], "BIS") --Netherstrike Belt
 LBIS:AddItem(spec, "24256", LBIS.L["Waist"], "BIS") --Girdle of Ruination

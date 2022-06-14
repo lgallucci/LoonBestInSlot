@@ -4,11 +4,11 @@ LBIS:AddItem(spec, "32521", LBIS.L["Head"], "BIS Mit") --Faceplate of the Impene
 LBIS:AddItem(spec, "33730", LBIS.L["Head"], "BIS Thrt") --Vengeful Gladiator's Plate Helm
 LBIS:AddItem(spec, "33421", LBIS.L["Head"], "Alt Mit") --Battleworn Tuskguard
 
-LBIS:AddItem(spec, "33732", LBIS.L["Shoulders"], "BIS") --Vengeful Gladiator's Plate Shoulders
-LBIS:AddItem(spec, "30979", LBIS.L["Shoulders"], "BIS Thrt") --Onslaught Shoulderblades
-LBIS:AddItem(spec, "31103", LBIS.L["Shoulders"], "BIS Thrt") --Pauldrons of the Forgotten Protector
-LBIS:AddItem(spec, "30980", LBIS.L["Shoulders"], "BIS Mit") --Onslaught Shoulderguards
-LBIS:AddItem(spec, "30117", LBIS.L["Shoulders"], "Alt Mit") --Destroyer Shoulderguards
+LBIS:AddItem(spec, "33732", LBIS.L["Shoulder"], "BIS") --Vengeful Gladiator's Plate Shoulders
+LBIS:AddItem(spec, "30979", LBIS.L["Shoulder"], "BIS Thrt") --Onslaught Shoulderblades
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "BIS Thrt") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "30980", LBIS.L["Shoulder"], "BIS Mit") --Onslaught Shoulderguards
+LBIS:AddItem(spec, "30117", LBIS.L["Shoulder"], "Alt Mit") --Destroyer Shoulderguards
 
 LBIS:AddItem(spec, "34010", LBIS.L["Back"], "BIS") --Pepe's Shroud of Pacification
 LBIS:AddItem(spec, "33484", LBIS.L["Back"], "BIS") --Dory's Embrace
@@ -21,11 +21,11 @@ LBIS:AddItem(spec, "30113", LBIS.L["Chest"], "BIS Mit") --Destroyer Chestguard
 LBIS:AddItem(spec, "30237", LBIS.L["Chest"], "BIS Mit") --Chestguard of the Vanquished Defender
 LBIS:AddItem(spec, "33473", LBIS.L["Chest"], "Alt Mit") --Chestguard of the Warlord
 
-LBIS:AddItem(spec, "33516", LBIS.L["Bracers"], "BIS") --Bracers of the Ancient Phalanx
-LBIS:AddItem(spec, "32232", LBIS.L["Bracers"], "BIS Mit") --Eternium Shell Bracers
+LBIS:AddItem(spec, "33516", LBIS.L["Wrist"], "BIS") --Bracers of the Ancient Phalanx
+LBIS:AddItem(spec, "32232", LBIS.L["Wrist"], "BIS Mit") --Eternium Shell Bracers
 
-LBIS:AddItem(spec, "32280", LBIS.L["Gloves"], "BIS") --Gauntlets of Enforcement
-LBIS:AddItem(spec, "29998", LBIS.L["Gloves"], "BIS Mit") --Royal Gauntlets of Silvermoon
+LBIS:AddItem(spec, "32280", LBIS.L["Hands"], "BIS") --Gauntlets of Enforcement
+LBIS:AddItem(spec, "29998", LBIS.L["Hands"], "BIS Mit") --Royal Gauntlets of Silvermoon
 
 LBIS:AddItem(spec, "32333", LBIS.L["Waist"], "BIS Mit") --Girdle of Stability
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS Thrt") --Belt of One-Hundred Deaths

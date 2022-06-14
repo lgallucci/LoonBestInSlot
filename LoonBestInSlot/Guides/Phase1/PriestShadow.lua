@@ -5,10 +5,10 @@ LBIS:AddItem(spec, "28804", LBIS.L["Head"], "Alt") --Collar of Cho'gall
 LBIS:AddItem(spec, "29058", LBIS.L["Head"], "Alt") --Soul-Collar of the Incarnate
 LBIS:AddItem(spec, "29761", LBIS.L["Head"], "Alt") --Helm of the Fallen Defender
 
-LBIS:AddItem(spec, "21869", LBIS.L["Shoulders"], "BIS") --Frozen Shadoweave Shoulders
-LBIS:AddItem(spec, "27778", LBIS.L["Shoulders"], "BIS") --Spaulders of Oblivion
-LBIS:AddItem(spec, "29060", LBIS.L["Shoulders"], "Alt") --Soul-Mantle of the Incarnate
-LBIS:AddItem(spec, "29764", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Fallen Defender
+LBIS:AddItem(spec, "21869", LBIS.L["Shoulder"], "BIS") --Frozen Shadoweave Shoulders
+LBIS:AddItem(spec, "27778", LBIS.L["Shoulder"], "BIS") --Spaulders of Oblivion
+LBIS:AddItem(spec, "29060", LBIS.L["Shoulder"], "Alt") --Soul-Mantle of the Incarnate
+LBIS:AddItem(spec, "29764", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Fallen Defender
 
 LBIS:AddItem(spec, "28570", LBIS.L["Back"], "Alt") --Shadow-Cloak of Dalaran
 LBIS:AddItem(spec, "28766", LBIS.L["Back"], "Alt") --Ruby Drape of the Mysticant
@@ -18,12 +18,12 @@ LBIS:AddItem(spec, "21871", LBIS.L["Chest"], "BIS") --Frozen Shadoweave Robe
 LBIS:AddItem(spec, "29056", LBIS.L["Chest"], "Alt") --Shroud of the Incarnate
 LBIS:AddItem(spec, "29753", LBIS.L["Chest"], "Alt") --Chestguard of the Fallen Defender
 
-LBIS:AddItem(spec, "28515", LBIS.L["Bracers"], "Alt") --Bands of Nefarious Deeds
-LBIS:AddItem(spec, "28477", LBIS.L["Bracers"], "Alt") --Harbinger Bands
+LBIS:AddItem(spec, "28515", LBIS.L["Wrist"], "Alt") --Bands of Nefarious Deeds
+LBIS:AddItem(spec, "28477", LBIS.L["Wrist"], "Alt") --Harbinger Bands
 
-LBIS:AddItem(spec, "28507", LBIS.L["Gloves"], "BIS") --Handwraps of Flowing Thought
-LBIS:AddItem(spec, "28780", LBIS.L["Gloves"], "Alt") --Soul-Eater's Handwraps
-LBIS:AddItem(spec, "30725", LBIS.L["Gloves"], "Alt") --Anger-Spark Gloves
+LBIS:AddItem(spec, "28507", LBIS.L["Hands"], "BIS") --Handwraps of Flowing Thought
+LBIS:AddItem(spec, "28780", LBIS.L["Hands"], "Alt") --Soul-Eater's Handwraps
+LBIS:AddItem(spec, "30725", LBIS.L["Hands"], "Alt") --Anger-Spark Gloves
 
 LBIS:AddItem(spec, "28799", LBIS.L["Waist"], "BIS") --Belt of Divine Inspiration
 

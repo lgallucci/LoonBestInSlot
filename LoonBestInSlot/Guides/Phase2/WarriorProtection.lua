@@ -6,10 +6,10 @@ LBIS:AddItem(spec, "30115", LBIS.L["Head"], "Alt Mit") --Destroyer Greathelm
 LBIS:AddItem(spec, "30243", LBIS.L["Head"], "Alt Mit") --Helm of the Vanquished Defender
 LBIS:AddItem(spec, "30120", LBIS.L["Head"], "Alt Thrt") --Destroyer Battle-Helm
 
-LBIS:AddItem(spec, "30117", LBIS.L["Shoulders"], "BIS") --Destroyer Shoulderguards
-LBIS:AddItem(spec, "30249", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Defender
-LBIS:AddItem(spec, "30122", LBIS.L["Shoulders"], "BIS Thrt") --Destroyer Shoulderblades
-LBIS:AddItem(spec, "30490", LBIS.L["Shoulders"], "Alt Thrt") --Merciless Gladiator's Plate Shoulders
+LBIS:AddItem(spec, "30117", LBIS.L["Shoulder"], "BIS") --Destroyer Shoulderguards
+LBIS:AddItem(spec, "30249", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Defender
+LBIS:AddItem(spec, "30122", LBIS.L["Shoulder"], "BIS Thrt") --Destroyer Shoulderblades
+LBIS:AddItem(spec, "30490", LBIS.L["Shoulder"], "Alt Thrt") --Merciless Gladiator's Plate Shoulders
 
 LBIS:AddItem(spec, "28529", LBIS.L["Back"], "BIS") --Royal Cloak of Arathi Kings
 LBIS:AddItem(spec, "28672", LBIS.L["Back"], "Alt") --Drape of the Dark Reavers
@@ -23,16 +23,16 @@ LBIS:AddItem(spec, "30237", LBIS.L["Chest"], "BIS") --Chestguard of the Vanquish
 LBIS:AddItem(spec, "28485", LBIS.L["Chest"], "BIS Thrt") --Bulwark of the Ancient Kings
 LBIS:AddItem(spec, "30486", LBIS.L["Chest"], "Alt Thrt") --Merciless Gladiator's Plate Chestpiece
 
-LBIS:AddItem(spec, "32818", LBIS.L["Bracers"], "BIS") --Veteran's Plate Bracers
-LBIS:AddItem(spec, "28996", LBIS.L["Bracers"], "Alt") --Marshal's Plate Bracers
-LBIS:AddItem(spec, "28502", LBIS.L["Bracers"], "Alt") --Vambraces of Courage
-LBIS:AddItem(spec, "28795", LBIS.L["Bracers"], "Alt") --Bladespire Warbands
+LBIS:AddItem(spec, "32818", LBIS.L["Wrist"], "BIS") --Veteran's Plate Bracers
+LBIS:AddItem(spec, "28996", LBIS.L["Wrist"], "Alt") --Marshal's Plate Bracers
+LBIS:AddItem(spec, "28502", LBIS.L["Wrist"], "Alt") --Vambraces of Courage
+LBIS:AddItem(spec, "28795", LBIS.L["Wrist"], "Alt") --Bladespire Warbands
 
-LBIS:AddItem(spec, "30114", LBIS.L["Gloves"], "BIS") --Destroyer Handguards
-LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Defender
-LBIS:AddItem(spec, "29998", LBIS.L["Gloves"], "BIS Mit") --Royal Gauntlets of Silvermoon
-LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "BIS Thrt") --Gloves of the Searing Grip
-LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "Alt Thrt") --Grips of Deftness
+LBIS:AddItem(spec, "30114", LBIS.L["Hands"], "BIS") --Destroyer Handguards
+LBIS:AddItem(spec, "30240", LBIS.L["Hands"], "BIS") --Gloves of the Vanquished Defender
+LBIS:AddItem(spec, "29998", LBIS.L["Hands"], "BIS Mit") --Royal Gauntlets of Silvermoon
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "BIS Thrt") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "30644", LBIS.L["Hands"], "Alt Thrt") --Grips of Deftness
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS Thrt") --Belt of One-Hundred Deaths
 LBIS:AddItem(spec, "30096", LBIS.L["Waist"], "BIS Mit") --Girdle of the Invulnerable

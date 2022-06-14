@@ -6,13 +6,13 @@ LBIS:AddItem(spec, "32525", LBIS.L["Head"], "Alt") --Cowl of the Illidari High L
 LBIS:AddItem(spec, "30233", LBIS.L["Head"], "Alt") --Nordrassil Headpiece
 LBIS:AddItem(spec, "30243", LBIS.L["Head"], "Alt") --Helm of the Vanquished Defender
 
-LBIS:AddItem(spec, "31049", LBIS.L["Shoulders"], "BIS") --Thunderheart Shoulderpads
-LBIS:AddItem(spec, "31102", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Vanquisher
-LBIS:AddItem(spec, "30884", LBIS.L["Shoulders"], "Alt") --Hatefury Mantle
-LBIS:AddItem(spec, "30235", LBIS.L["Shoulders"], "Alt") --Nordrassil Wrath-Mantle
-LBIS:AddItem(spec, "30249", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Vanquished Defender
-LBIS:AddItem(spec, "32338", LBIS.L["Shoulders"], "Alt") --Blood-cursed Shoulderpads
-LBIS:AddItem(spec, "32587", LBIS.L["Shoulders"], "Alt") --Mantle of Nimble Thought
+LBIS:AddItem(spec, "31049", LBIS.L["Shoulder"], "BIS") --Thunderheart Shoulderpads
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "30884", LBIS.L["Shoulder"], "Alt") --Hatefury Mantle
+LBIS:AddItem(spec, "30235", LBIS.L["Shoulder"], "Alt") --Nordrassil Wrath-Mantle
+LBIS:AddItem(spec, "30249", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Vanquished Defender
+LBIS:AddItem(spec, "32338", LBIS.L["Shoulder"], "Alt") --Blood-cursed Shoulderpads
+LBIS:AddItem(spec, "32587", LBIS.L["Shoulder"], "Alt") --Mantle of Nimble Thought
 
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
 LBIS:AddItem(spec, "32331", LBIS.L["Back"], "BIS") --Cloak of the Illidari Council
@@ -27,17 +27,17 @@ LBIS:AddItem(spec, "30231", LBIS.L["Chest"], "Alt") --Nordrassil Chestpiece
 LBIS:AddItem(spec, "30237", LBIS.L["Chest"], "Alt") --Chestguard of the Vanquished Defender
 LBIS:AddItem(spec, "30913", LBIS.L["Chest"], "Alt") --Robes of Rhonin
 
-LBIS:AddItem(spec, "32586", LBIS.L["Bracers"], "BIS") --Bracers of Nimble Thought
-LBIS:AddItem(spec, "32270", LBIS.L["Bracers"], "Alt") --Focused Mana Bindings
-LBIS:AddItem(spec, "32351", LBIS.L["Bracers"], "Alt") --Elunite Empowered Bracers
-LBIS:AddItem(spec, "30870", LBIS.L["Bracers"], "Alt") --Cuffs of Devastation
-LBIS:AddItem(spec, "29918", LBIS.L["Bracers"], "Alt") --Mindstorm Wristbands
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "BIS") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "32270", LBIS.L["Wrist"], "Alt") --Focused Mana Bindings
+LBIS:AddItem(spec, "32351", LBIS.L["Wrist"], "Alt") --Elunite Empowered Bracers
+LBIS:AddItem(spec, "30870", LBIS.L["Wrist"], "Alt") --Cuffs of Devastation
+LBIS:AddItem(spec, "29918", LBIS.L["Wrist"], "Alt") --Mindstorm Wristbands
 
-LBIS:AddItem(spec, "31035", LBIS.L["Gloves"], "BIS") --Thunderheart Handguards
-LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Vanquisher
-LBIS:AddItem(spec, "30232", LBIS.L["Gloves"], "Alt") --Nordrassil Gauntlets
-LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Defender
-LBIS:AddItem(spec, "32328", LBIS.L["Gloves"], "Alt") --Botanist's Gloves of Growth
+LBIS:AddItem(spec, "31035", LBIS.L["Hands"], "BIS") --Thunderheart Handguards
+LBIS:AddItem(spec, "31093", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Vanquisher
+LBIS:AddItem(spec, "30232", LBIS.L["Hands"], "Alt") --Nordrassil Gauntlets
+LBIS:AddItem(spec, "30240", LBIS.L["Hands"], "Alt") --Gloves of the Vanquished Defender
+LBIS:AddItem(spec, "32328", LBIS.L["Hands"], "Alt") --Botanist's Gloves of Growth
 
 LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "BIS") --Anetheron's Noose
 LBIS:AddItem(spec, "30914", LBIS.L["Waist"], "Alt") --Belt of the Crescent Moon

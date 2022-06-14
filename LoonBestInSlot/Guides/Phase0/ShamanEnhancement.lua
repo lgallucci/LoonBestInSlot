@@ -6,11 +6,11 @@ LBIS:AddItem(spec, "28224", LBIS.L["Head"], "BIS") --Wastewalker Helm
 LBIS:AddItem(spec, "28182", LBIS.L["Head"], "Alt") --Helm of the Claw
 LBIS:AddItem(spec, "31109", LBIS.L["Head"], "Alt") --Stealther's Helmet of Second Sight
 
-LBIS:AddItem(spec, "27797", LBIS.L["Shoulders"], "BIS") --Wastewalker Shoulderpads
-LBIS:AddItem(spec, "27434", LBIS.L["Shoulders"], "Alt") --Mantle of Perenolde
-LBIS:AddItem(spec, "29148", LBIS.L["Shoulders"], "Alt") --Blackened Leather Spaulders
-LBIS:AddItem(spec, "29147", LBIS.L["Shoulders"], "Alt") --Talbuk Hide Spaulders
-LBIS:AddItem(spec, "25790", LBIS.L["Shoulders"], "Alt") --Expedition Scout's Epaulets
+LBIS:AddItem(spec, "27797", LBIS.L["Shoulder"], "BIS") --Wastewalker Shoulderpads
+LBIS:AddItem(spec, "27434", LBIS.L["Shoulder"], "Alt") --Mantle of Perenolde
+LBIS:AddItem(spec, "29148", LBIS.L["Shoulder"], "Alt") --Blackened Leather Spaulders
+LBIS:AddItem(spec, "29147", LBIS.L["Shoulder"], "Alt") --Talbuk Hide Spaulders
+LBIS:AddItem(spec, "25790", LBIS.L["Shoulder"], "Alt") --Expedition Scout's Epaulets
 
 LBIS:AddItem(spec, "24259", LBIS.L["Back"], "BIS") --Vengeance Wrap
 LBIS:AddItem(spec, "27878", LBIS.L["Back"], "Alt") --Auchenai Death Shroud
@@ -21,19 +21,19 @@ LBIS:AddItem(spec, "29525", LBIS.L["Chest"], "BIS") --Primalstrike Vest
 LBIS:AddItem(spec, "29515", LBIS.L["Chest"], "BIS") --Ebon Netherscale Breastplate
 LBIS:AddItem(spec, "30933", LBIS.L["Chest"], "Alt") --Hauberk of Karabor
 
-LBIS:AddItem(spec, "29527", LBIS.L["Bracers"], "BIS") --Primalstrike Bracers
-LBIS:AddItem(spec, "29517", LBIS.L["Bracers"], "BIS") --Ebon Netherscale Bracers
-LBIS:AddItem(spec, "32647", LBIS.L["Bracers"], "Alt") --Shard-bound Bracers
-LBIS:AddItem(spec, "25697", LBIS.L["Bracers"], "Alt") --Felstalker Bracers
-LBIS:AddItem(spec, "28171", LBIS.L["Bracers"], "Alt") --Spymistress's Wristguards
-LBIS:AddItem(spec, "30399", LBIS.L["Bracers"], "Alt") --Nightstalker's Wristguards
+LBIS:AddItem(spec, "29527", LBIS.L["Wrist"], "BIS") --Primalstrike Bracers
+LBIS:AddItem(spec, "29517", LBIS.L["Wrist"], "BIS") --Ebon Netherscale Bracers
+LBIS:AddItem(spec, "32647", LBIS.L["Wrist"], "Alt") --Shard-bound Bracers
+LBIS:AddItem(spec, "25697", LBIS.L["Wrist"], "Alt") --Felstalker Bracers
+LBIS:AddItem(spec, "28171", LBIS.L["Wrist"], "Alt") --Spymistress's Wristguards
+LBIS:AddItem(spec, "30399", LBIS.L["Wrist"], "Alt") --Nightstalker's Wristguards
 
-LBIS:AddItem(spec, "25685", LBIS.L["Gloves"], "BIS") --Fel Leather Gloves
-LBIS:AddItem(spec, "27509", LBIS.L["Gloves"], "Alt") --Handgrips of Assassination
-LBIS:AddItem(spec, "27825", LBIS.L["Gloves"], "Alt") --Predatory Gloves
-LBIS:AddItem(spec, "30341", LBIS.L["Gloves"], "Alt") --Flesh Handler's Gauntlets
-LBIS:AddItem(spec, "29503", LBIS.L["Gloves"], "Alt") --Cobrascale Gloves
-LBIS:AddItem(spec, "28396", LBIS.L["Gloves"], "Alt") --Gloves of the Unbound
+LBIS:AddItem(spec, "25685", LBIS.L["Hands"], "BIS") --Fel Leather Gloves
+LBIS:AddItem(spec, "27509", LBIS.L["Hands"], "Alt") --Handgrips of Assassination
+LBIS:AddItem(spec, "27825", LBIS.L["Hands"], "Alt") --Predatory Gloves
+LBIS:AddItem(spec, "30341", LBIS.L["Hands"], "Alt") --Flesh Handler's Gauntlets
+LBIS:AddItem(spec, "29503", LBIS.L["Hands"], "Alt") --Cobrascale Gloves
+LBIS:AddItem(spec, "28396", LBIS.L["Hands"], "Alt") --Gloves of the Unbound
 
 LBIS:AddItem(spec, "29526", LBIS.L["Waist"], "BIS") --Primalstrike Belt
 LBIS:AddItem(spec, "29516", LBIS.L["Waist"], "BIS") --Ebon Netherscale Belt

@@ -7,12 +7,12 @@ LBIS:AddItem(spec, "30166", LBIS.L["Head"], "Alt") --Cataclysm Headguard
 LBIS:AddItem(spec, "30242", LBIS.L["Head"], "Alt") --Helm of the Vanquished Champion
 LBIS:AddItem(spec, "32475", LBIS.L["Head"], "Alt") --Living Replicator Specs
 
-LBIS:AddItem(spec, "31022", LBIS.L["Shoulders"], "BIS") --Skyshatter Shoulderpads
-LBIS:AddItem(spec, "31103", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Protector
-LBIS:AddItem(spec, "32579", LBIS.L["Shoulders"], "Alt") --Living Earth Shoulders
-LBIS:AddItem(spec, "30168", LBIS.L["Shoulders"], "Alt") --Cataclysm Shoulderguards
-LBIS:AddItem(spec, "30248", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Vanquished Champion
-LBIS:AddItem(spec, "30097", LBIS.L["Shoulders"], "Alt") --Coral-Barbed Shoulderpads
+LBIS:AddItem(spec, "31022", LBIS.L["Shoulder"], "BIS") --Skyshatter Shoulderpads
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "32579", LBIS.L["Shoulder"], "Alt") --Living Earth Shoulders
+LBIS:AddItem(spec, "30168", LBIS.L["Shoulder"], "Alt") --Cataclysm Shoulderguards
+LBIS:AddItem(spec, "30248", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Vanquished Champion
+LBIS:AddItem(spec, "30097", LBIS.L["Shoulder"], "Alt") --Coral-Barbed Shoulderpads
 
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
 LBIS:AddItem(spec, "34012", LBIS.L["Back"], "Alt") --Shroud of the Final Stand
@@ -24,17 +24,17 @@ LBIS:AddItem(spec, "30164", LBIS.L["Chest"], "Alt") --Cataclysm Chestguard
 LBIS:AddItem(spec, "30236", LBIS.L["Chest"], "Alt") --Chestguard of the Vanquished Champion
 LBIS:AddItem(spec, "30887", LBIS.L["Chest"], "Alt") --Golden Links of Restoration
 
-LBIS:AddItem(spec, "32577", LBIS.L["Bracers"], "BIS") --Living Earth Bindings
-LBIS:AddItem(spec, "32584", LBIS.L["Bracers"], "BIS") --Swiftheal Wraps
-LBIS:AddItem(spec, "32582", LBIS.L["Bracers"], "BIS") --Bracers of Renewed Life
-LBIS:AddItem(spec, "30869", LBIS.L["Bracers"], "Alt") --Howling Wind Bracers
-LBIS:AddItem(spec, "30047", LBIS.L["Bracers"], "Alt") --Blackfathom Warbands
+LBIS:AddItem(spec, "32577", LBIS.L["Wrist"], "BIS") --Living Earth Bindings
+LBIS:AddItem(spec, "32584", LBIS.L["Wrist"], "BIS") --Swiftheal Wraps
+LBIS:AddItem(spec, "32582", LBIS.L["Wrist"], "BIS") --Bracers of Renewed Life
+LBIS:AddItem(spec, "30869", LBIS.L["Wrist"], "Alt") --Howling Wind Bracers
+LBIS:AddItem(spec, "30047", LBIS.L["Wrist"], "Alt") --Blackfathom Warbands
 
-LBIS:AddItem(spec, "32328", LBIS.L["Gloves"], "BIS") --Botanist's Gloves of Growth
-LBIS:AddItem(spec, "32275", LBIS.L["Gloves"], "Alt") --Spiritwalker Gauntlets
-LBIS:AddItem(spec, "29976", LBIS.L["Gloves"], "Alt") --Worldstorm Gauntlets
-LBIS:AddItem(spec, "31007", LBIS.L["Gloves"], "Alt") --Skyshatter Gloves
-LBIS:AddItem(spec, "31094", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Protector
+LBIS:AddItem(spec, "32328", LBIS.L["Hands"], "BIS") --Botanist's Gloves of Growth
+LBIS:AddItem(spec, "32275", LBIS.L["Hands"], "Alt") --Spiritwalker Gauntlets
+LBIS:AddItem(spec, "29976", LBIS.L["Hands"], "Alt") --Worldstorm Gauntlets
+LBIS:AddItem(spec, "31007", LBIS.L["Hands"], "Alt") --Skyshatter Gloves
+LBIS:AddItem(spec, "31094", LBIS.L["Hands"], "Alt") --Gloves of the Forgotten Protector
 
 LBIS:AddItem(spec, "32258", LBIS.L["Waist"], "BIS") --Naturalist's Preserving Cinch
 LBIS:AddItem(spec, "32339", LBIS.L["Waist"], "BIS") --Belt of Primal Majesty

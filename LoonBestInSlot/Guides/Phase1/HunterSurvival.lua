@@ -4,7 +4,7 @@ LBIS:AddItem(spec, "28275", LBIS.L["Head"], "BIS") --Beast Lord Helm
 LBIS:AddItem(spec, "29081", LBIS.L["Head"], "Alt") --Demon Stalker Greathelm
 LBIS:AddItem(spec, "29759", LBIS.L["Head"], "Alt") --Helm of the Fallen Hero
 
-LBIS:AddItem(spec, "27801", LBIS.L["Shoulders"], "BIS") --Beast Lord Mantle
+LBIS:AddItem(spec, "27801", LBIS.L["Shoulder"], "BIS") --Beast Lord Mantle
 
 LBIS:AddItem(spec, "28672", LBIS.L["Back"], "BIS") --Drape of the Dark Reavers
 LBIS:AddItem(spec, "29382", LBIS.L["Back"], "Alt") --Blood Knight War Cloak
@@ -12,12 +12,12 @@ LBIS:AddItem(spec, "28777", LBIS.L["Back"], "Alt") --Cloak of the Pit Stalker
 
 LBIS:AddItem(spec, "28228", LBIS.L["Chest"], "BIS") --Beast Lord Cuirass
 
-LBIS:AddItem(spec, "25697", LBIS.L["Bracers"], "Alt") --Felstalker Bracers
+LBIS:AddItem(spec, "25697", LBIS.L["Wrist"], "Alt") --Felstalker Bracers
 
-LBIS:AddItem(spec, "27474", LBIS.L["Gloves"], "BIS") --Beast Lord Handguards
-LBIS:AddItem(spec, "28506", LBIS.L["Gloves"], "Alt") --Gloves of Dexterous Manipulation
-LBIS:AddItem(spec, "28827", LBIS.L["Gloves"], "Alt") --Gauntlets of the Dragonslayer
-LBIS:AddItem(spec, "25685", LBIS.L["Gloves"], "Alt") --Fel Leather Gloves
+LBIS:AddItem(spec, "27474", LBIS.L["Hands"], "BIS") --Beast Lord Handguards
+LBIS:AddItem(spec, "28506", LBIS.L["Hands"], "Alt") --Gloves of Dexterous Manipulation
+LBIS:AddItem(spec, "28827", LBIS.L["Hands"], "Alt") --Gauntlets of the Dragonslayer
+LBIS:AddItem(spec, "25685", LBIS.L["Hands"], "Alt") --Fel Leather Gloves
 
 LBIS:AddItem(spec, "28750", LBIS.L["Waist"], "Alt") --Girdle of Treachery
 LBIS:AddItem(spec, "27760", LBIS.L["Waist"], "Alt") --Dunewind Sash

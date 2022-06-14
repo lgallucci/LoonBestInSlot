@@ -6,10 +6,10 @@ LBIS:AddItem(spec, "28224", LBIS.L["Head"], "Alt") --Wastewalker Helm
 LBIS:AddItem(spec, "28182", LBIS.L["Head"], "Alt") --Helm of the Claw
 LBIS:AddItem(spec, "31105", LBIS.L["Head"], "Alt") --Overlord's Helmet of Second Sight
 
-LBIS:AddItem(spec, "33173", LBIS.L["Shoulders"], "BIS") --Ragesteel Shoulders
-LBIS:AddItem(spec, "27797", LBIS.L["Shoulders"], "Alt") --Wastewalker Shoulderpads
-LBIS:AddItem(spec, "27434", LBIS.L["Shoulders"], "Alt") --Mantle of Perenolde
-LBIS:AddItem(spec, "25790", LBIS.L["Shoulders"], "Alt") --Expedition Scout's Epaulets
+LBIS:AddItem(spec, "33173", LBIS.L["Shoulder"], "BIS") --Ragesteel Shoulders
+LBIS:AddItem(spec, "27797", LBIS.L["Shoulder"], "Alt") --Wastewalker Shoulderpads
+LBIS:AddItem(spec, "27434", LBIS.L["Shoulder"], "Alt") --Mantle of Perenolde
+LBIS:AddItem(spec, "25790", LBIS.L["Shoulder"], "Alt") --Expedition Scout's Epaulets
 
 LBIS:AddItem(spec, "24259", LBIS.L["Back"], "BIS") --Vengeance Wrap
 LBIS:AddItem(spec, "27878", LBIS.L["Back"], "Alt") --Auchenai Death Shroud
@@ -21,14 +21,14 @@ LBIS:AddItem(spec, "23522", LBIS.L["Chest"], "BIS") --Ragesteel Breastplate
 LBIS:AddItem(spec, "28403", LBIS.L["Chest"], "BIS") --Doomplate Chestguard
 LBIS:AddItem(spec, "30258", LBIS.L["Chest"], "Alt") --Chestplate of A'dal
 
-LBIS:AddItem(spec, "32818", LBIS.L["Bracers"], "Alt") --Veteran's Plate Bracers
-LBIS:AddItem(spec, "23537", LBIS.L["Bracers"], "BIS") --Black Felsteel Bracers
-LBIS:AddItem(spec, "22936", LBIS.L["Bracers"], "Alt") --Wristguards of Vengeance
-LBIS:AddItem(spec, "28171", LBIS.L["Bracers"], "Alt") --Spymistress's Wristguards
+LBIS:AddItem(spec, "32818", LBIS.L["Wrist"], "Alt") --Veteran's Plate Bracers
+LBIS:AddItem(spec, "23537", LBIS.L["Wrist"], "BIS") --Black Felsteel Bracers
+LBIS:AddItem(spec, "22936", LBIS.L["Wrist"], "Alt") --Wristguards of Vengeance
+LBIS:AddItem(spec, "28171", LBIS.L["Wrist"], "Alt") --Spymistress's Wristguards
 
-LBIS:AddItem(spec, "25685", LBIS.L["Gloves"], "BIS") --Fel Leather Gloves
-LBIS:AddItem(spec, "27497", LBIS.L["Gloves"], "BIS") --Doomplate Gauntlets
-LBIS:AddItem(spec, "23520", LBIS.L["Gloves"], "Alt") --Ragesteel Gloves
+LBIS:AddItem(spec, "25685", LBIS.L["Hands"], "BIS") --Fel Leather Gloves
+LBIS:AddItem(spec, "27497", LBIS.L["Hands"], "BIS") --Doomplate Gauntlets
+LBIS:AddItem(spec, "23520", LBIS.L["Hands"], "Alt") --Ragesteel Gloves
 
 LBIS:AddItem(spec, "32805", LBIS.L["Waist"], "BIS") --Veteran's Plate Belt
 LBIS:AddItem(spec, "27985", LBIS.L["Waist"], "BIS") --Deathforge Girdle

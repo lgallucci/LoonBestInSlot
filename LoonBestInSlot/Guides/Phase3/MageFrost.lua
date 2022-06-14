@@ -4,10 +4,10 @@ LBIS:AddItem(spec, "32525", LBIS.L["Head"], "Alt") --Cowl of the Illidari High L
 LBIS:AddItem(spec, "31056", LBIS.L["Head"], "Alt") --Cowl of the Tempest
 LBIS:AddItem(spec, "31096", LBIS.L["Head"], "Alt") --Helm of the Forgotten Vanquisher
 
-LBIS:AddItem(spec, "31059", LBIS.L["Shoulders"], "BIS") --Mantle of the Tempest
-LBIS:AddItem(spec, "31102", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Vanquisher
-LBIS:AddItem(spec, "30884", LBIS.L["Shoulders"], "Alt") --Hatefury Mantle
-LBIS:AddItem(spec, "32587", LBIS.L["Shoulders"], "Alt") --Mantle of Nimble Thought
+LBIS:AddItem(spec, "31059", LBIS.L["Shoulder"], "BIS") --Mantle of the Tempest
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "30884", LBIS.L["Shoulder"], "Alt") --Hatefury Mantle
+LBIS:AddItem(spec, "32587", LBIS.L["Shoulder"], "Alt") --Mantle of Nimble Thought
 
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
 LBIS:AddItem(spec, "32331", LBIS.L["Back"], "BIS") --Cloak of the Illidari Council
@@ -17,13 +17,13 @@ LBIS:AddItem(spec, "31090", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotte
 LBIS:AddItem(spec, "30107", LBIS.L["Chest"], "Alt") --Vestments of the Sea-Witch
 LBIS:AddItem(spec, "30913", LBIS.L["Chest"], "Alt") --Robes of Rhonin
 
-LBIS:AddItem(spec, "32586", LBIS.L["Bracers"], "BIS") --Bracers of Nimble Thought
-LBIS:AddItem(spec, "30870", LBIS.L["Bracers"], "Alt") --Cuffs of Devastation
-LBIS:AddItem(spec, "29918", LBIS.L["Bracers"], "Alt") --Mindstorm Wristbands
-LBIS:AddItem(spec, "33913", LBIS.L["Bracers"], "Alt") --Vindicator's Silk Cuffs
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "BIS") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "30870", LBIS.L["Wrist"], "Alt") --Cuffs of Devastation
+LBIS:AddItem(spec, "29918", LBIS.L["Wrist"], "Alt") --Mindstorm Wristbands
+LBIS:AddItem(spec, "33913", LBIS.L["Wrist"], "Alt") --Vindicator's Silk Cuffs
 
-LBIS:AddItem(spec, "31055", LBIS.L["Gloves"], "BIS") --Gloves of the Tempest
-LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Vanquisher
+LBIS:AddItem(spec, "31055", LBIS.L["Hands"], "BIS") --Gloves of the Tempest
+LBIS:AddItem(spec, "31093", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Vanquisher
 
 LBIS:AddItem(spec, "32256", LBIS.L["Waist"], "BIS") --Waistwrap of Infinity
 LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "Alt") --Anetheron's Noose

@@ -7,12 +7,12 @@ LBIS:AddItem(spec, "31097", LBIS.L["Head"], "Alt") --Helm of the Forgotten Conqu
 LBIS:AddItem(spec, "30152", LBIS.L["Head"], "Alt") --Cowl of the Avatar
 LBIS:AddItem(spec, "30243", LBIS.L["Head"], "Alt") --Helm of the Vanquished Defender
 
-LBIS:AddItem(spec, "34202", LBIS.L["Shoulders"], "BIS") --Shawl of Wonderment
-LBIS:AddItem(spec, "31069", LBIS.L["Shoulders"], "Alt") --Mantle of Absolution
-LBIS:AddItem(spec, "31101", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Forgotten Conqueror
-LBIS:AddItem(spec, "30154", LBIS.L["Shoulders"], "Alt") --Mantle of the Avatar
-LBIS:AddItem(spec, "30249", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Vanquished Defender
-LBIS:AddItem(spec, "32585", LBIS.L["Shoulders"], "Alt") --Swiftheal Mantle
+LBIS:AddItem(spec, "34202", LBIS.L["Shoulder"], "BIS") --Shawl of Wonderment
+LBIS:AddItem(spec, "31069", LBIS.L["Shoulder"], "Alt") --Mantle of Absolution
+LBIS:AddItem(spec, "31101", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Forgotten Conqueror
+LBIS:AddItem(spec, "30154", LBIS.L["Shoulder"], "Alt") --Mantle of the Avatar
+LBIS:AddItem(spec, "30249", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Vanquished Defender
+LBIS:AddItem(spec, "32585", LBIS.L["Shoulder"], "Alt") --Swiftheal Mantle
 
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
 LBIS:AddItem(spec, "34205", LBIS.L["Back"], "Alt") --Shroud of Redeemed Souls
@@ -25,17 +25,17 @@ LBIS:AddItem(spec, "30150", LBIS.L["Chest"], "Alt") --Vestments of the Avatar
 LBIS:AddItem(spec, "30237", LBIS.L["Chest"], "Alt") --Chestguard of the Vanquished Defender
 LBIS:AddItem(spec, "34924", LBIS.L["Chest"], "Alt") --Gown of Spiritual Wonder
 
-LBIS:AddItem(spec, "34435", LBIS.L["Bracers"], "BIS") --Cuffs of Absolution
-LBIS:AddItem(spec, "34848", LBIS.L["Bracers"], "BIS") --Bracers of the Forgotten Conqueror
-LBIS:AddItem(spec, "32584", LBIS.L["Bracers"], "Alt") --Swiftheal Wraps
-LBIS:AddItem(spec, "30871", LBIS.L["Bracers"], "Alt") --Bracers of Martyrdom
+LBIS:AddItem(spec, "34435", LBIS.L["Wrist"], "BIS") --Cuffs of Absolution
+LBIS:AddItem(spec, "34848", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Conqueror
+LBIS:AddItem(spec, "32584", LBIS.L["Wrist"], "Alt") --Swiftheal Wraps
+LBIS:AddItem(spec, "30871", LBIS.L["Wrist"], "Alt") --Bracers of Martyrdom
 
-LBIS:AddItem(spec, "34342", LBIS.L["Gloves"], "BIS") --Handguards of the Dawn
-LBIS:AddItem(spec, "34367", LBIS.L["Gloves"], "Alt") --Hands of Eternal Light
-LBIS:AddItem(spec, "31060", LBIS.L["Gloves"], "Alt") --Gloves of Absolution
-LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Conqueror
-LBIS:AddItem(spec, "30151", LBIS.L["Gloves"], "Alt") --Gloves of the Avatar
-LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Defender
+LBIS:AddItem(spec, "34342", LBIS.L["Hands"], "BIS") --Handguards of the Dawn
+LBIS:AddItem(spec, "34367", LBIS.L["Hands"], "Alt") --Hands of Eternal Light
+LBIS:AddItem(spec, "31060", LBIS.L["Hands"], "Alt") --Gloves of Absolution
+LBIS:AddItem(spec, "31092", LBIS.L["Hands"], "Alt") --Gloves of the Forgotten Conqueror
+LBIS:AddItem(spec, "30151", LBIS.L["Hands"], "Alt") --Gloves of the Avatar
+LBIS:AddItem(spec, "30240", LBIS.L["Hands"], "Alt") --Gloves of the Vanquished Defender
 
 LBIS:AddItem(spec, "34527", LBIS.L["Waist"], "BIS") --Belt of Absolution
 LBIS:AddItem(spec, "30895", LBIS.L["Waist"], "Alt") --Angelista's Sash

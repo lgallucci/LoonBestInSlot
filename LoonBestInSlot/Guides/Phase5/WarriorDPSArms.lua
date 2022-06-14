@@ -5,14 +5,14 @@ LBIS:AddItem(spec, "34345", LBIS.L["Head"], "BIS") --Crown of Anasterian
 LBIS:AddItem(spec, "34354", LBIS.L["Head"], "Alt") --Mayhem Projection Goggles
 LBIS:AddItem(spec, "32235", LBIS.L["Head"], "Alt") --Cursed Vision of Sargeras
 
-LBIS:AddItem(spec, "34388", LBIS.L["Shoulders"], "BIS") --Pauldrons of Berserking
-LBIS:AddItem(spec, "34192", LBIS.L["Shoulders"], "Transmute BIS") --Pauldrons of Perseverance
-LBIS:AddItem(spec, "34392", LBIS.L["Shoulders"], "BIS") --Demontooth Shoulderpads
-LBIS:AddItem(spec, "34195", LBIS.L["Shoulders"], "Transmute BIS") --Shoulderpads of Vehemence
-LBIS:AddItem(spec, "34194", LBIS.L["Shoulders"], "BIS") --Mantle of the Golden Forest
-LBIS:AddItem(spec, "30979", LBIS.L["Shoulders"], "BIS") --Onslaught Shoulderblades
-LBIS:AddItem(spec, "31103", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Protector
-LBIS:AddItem(spec, "32570", LBIS.L["Shoulders"], "BIS") --Swiftsteel Shoulders
+LBIS:AddItem(spec, "34388", LBIS.L["Shoulder"], "BIS") --Pauldrons of Berserking
+LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "Transmute BIS") --Pauldrons of Perseverance
+LBIS:AddItem(spec, "34392", LBIS.L["Shoulder"], "BIS") --Demontooth Shoulderpads
+LBIS:AddItem(spec, "34195", LBIS.L["Shoulder"], "Transmute BIS") --Shoulderpads of Vehemence
+LBIS:AddItem(spec, "34194", LBIS.L["Shoulder"], "BIS") --Mantle of the Golden Forest
+LBIS:AddItem(spec, "30979", LBIS.L["Shoulder"], "BIS") --Onslaught Shoulderblades
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "32570", LBIS.L["Shoulder"], "BIS") --Swiftsteel Shoulders
 
 LBIS:AddItem(spec, "34241", LBIS.L["Back"], "BIS") --Cloak of Unforgivable Sin
 LBIS:AddItem(spec, "32323", LBIS.L["Back"], "Alt") --Shadowmoon Destroyer's Drape
@@ -27,15 +27,15 @@ LBIS:AddItem(spec, "30975", LBIS.L["Chest"], "Alt") --Onslaught Breastplate
 LBIS:AddItem(spec, "31091", LBIS.L["Chest"], "Alt") --Chestguard of the Forgotten Protector
 LBIS:AddItem(spec, "33728", LBIS.L["Chest"], "Alt") --Vengeful Gladiator's Plate Chestpiece
 
-LBIS:AddItem(spec, "34441", LBIS.L["Bracers"], "BIS") --Onslaught Bracers
-LBIS:AddItem(spec, "34851", LBIS.L["Bracers"], "BIS") --Bracers of the Forgotten Protector
-LBIS:AddItem(spec, "30863", LBIS.L["Bracers"], "Alt") --Deadly Cuffs
-LBIS:AddItem(spec, "32574", LBIS.L["Bracers"], "BIS") --Bindings of Lightning Reflexes
+LBIS:AddItem(spec, "34441", LBIS.L["Wrist"], "BIS") --Onslaught Bracers
+LBIS:AddItem(spec, "34851", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Protector
+LBIS:AddItem(spec, "30863", LBIS.L["Wrist"], "Alt") --Deadly Cuffs
+LBIS:AddItem(spec, "32574", LBIS.L["Wrist"], "BIS") --Bindings of Lightning Reflexes
 
-LBIS:AddItem(spec, "34343", LBIS.L["Gloves"], "BIS") --Thalassian Ranger Gauntlets
-LBIS:AddItem(spec, "34370", LBIS.L["Gloves"], "BIS") --Gloves of Immortal Dusk
-LBIS:AddItem(spec, "34341", LBIS.L["Gloves"], "BIS") --Borderland Paingrips
-LBIS:AddItem(spec, "32278", LBIS.L["Gloves"], "Alt") --Grips of Silent Justice
+LBIS:AddItem(spec, "34343", LBIS.L["Hands"], "BIS") --Thalassian Ranger Gauntlets
+LBIS:AddItem(spec, "34370", LBIS.L["Hands"], "BIS") --Gloves of Immortal Dusk
+LBIS:AddItem(spec, "34341", LBIS.L["Hands"], "BIS") --Borderland Paingrips
+LBIS:AddItem(spec, "32278", LBIS.L["Hands"], "Alt") --Grips of Silent Justice
 
 LBIS:AddItem(spec, "34546", LBIS.L["Waist"], "BIS") --Onslaught Belt
 LBIS:AddItem(spec, "34854", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Protector

@@ -3,8 +3,8 @@ local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "4")
 LBIS:AddItem(spec, "32235", LBIS.L["Head"], "BIS") --Cursed Vision of Sargeras
 LBIS:AddItem(spec, "33666", LBIS.L["Head"], "BIS") --Vengeful Gladiator's Chain Helm
 
-LBIS:AddItem(spec, "31006", LBIS.L["Shoulders"], "BIS") --Gronnstalker's Spaulders
-LBIS:AddItem(spec, "31103", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "31006", LBIS.L["Shoulder"], "BIS") --Gronnstalker's Spaulders
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Protector
 
 LBIS:AddItem(spec, "32323", LBIS.L["Back"], "BIS") --Shadowmoon Destroyer's Drape
 LBIS:AddItem(spec, "29994", LBIS.L["Back"], "Alt") --Thalassian Wildercloak
@@ -14,12 +14,12 @@ LBIS:AddItem(spec, "33590", LBIS.L["Back"], "Alt") --Cloak of Fiends
 LBIS:AddItem(spec, "31004", LBIS.L["Chest"], "BIS") --Gronnstalker's Chestguard
 LBIS:AddItem(spec, "31091", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Protector
 
-LBIS:AddItem(spec, "32324", LBIS.L["Bracers"], "BIS") --Insidious Bands
-LBIS:AddItem(spec, "33540", LBIS.L["Bracers"], "Alt") --Master Assassin Wristwraps
-LBIS:AddItem(spec, "33529", LBIS.L["Bracers"], "Alt") --Steadying Bracers
+LBIS:AddItem(spec, "32324", LBIS.L["Wrist"], "BIS") --Insidious Bands
+LBIS:AddItem(spec, "33540", LBIS.L["Wrist"], "Alt") --Master Assassin Wristwraps
+LBIS:AddItem(spec, "33529", LBIS.L["Wrist"], "Alt") --Steadying Bracers
 
-LBIS:AddItem(spec, "31001", LBIS.L["Gloves"], "BIS") --Gronnstalker's Gloves
-LBIS:AddItem(spec, "31094", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Protector
+LBIS:AddItem(spec, "31001", LBIS.L["Hands"], "BIS") --Gronnstalker's Gloves
+LBIS:AddItem(spec, "31094", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Protector
 
 LBIS:AddItem(spec, "32346", LBIS.L["Waist"], "BIS") --Boneweave Girdle
 LBIS:AddItem(spec, "30879", LBIS.L["Waist"], "Alt") --Don Alejandro's Money Belt

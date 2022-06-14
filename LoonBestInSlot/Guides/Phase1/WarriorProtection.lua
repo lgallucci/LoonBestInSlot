@@ -7,11 +7,11 @@ LBIS:AddItem(spec, "29021", LBIS.L["Head"], "Alt Thrt") --Warbringer Battle-Helm
 LBIS:AddItem(spec, "30731", LBIS.L["Head"], "Alt Mit") --Faceguard of the Endless Watch
 LBIS:AddItem(spec, "28593", LBIS.L["Head"], "Alt Mit") --Eternium Greathelm
 
-LBIS:AddItem(spec, "29023", LBIS.L["Shoulders"], "BIS") --Warbringer Shoulderplates
-LBIS:AddItem(spec, "29764", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Defender
-LBIS:AddItem(spec, "29016", LBIS.L["Shoulders"], "BIS Mit") --Warbringer Shoulderguards
-LBIS:AddItem(spec, "24546", LBIS.L["Shoulders"], "Alt Thrt") --Gladiator's Plate Shoulders
-LBIS:AddItem(spec, "28743", LBIS.L["Shoulders"], "Alt Mit") --Mantle of Abrahmis
+LBIS:AddItem(spec, "29023", LBIS.L["Shoulder"], "BIS") --Warbringer Shoulderplates
+LBIS:AddItem(spec, "29764", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Defender
+LBIS:AddItem(spec, "29016", LBIS.L["Shoulder"], "BIS Mit") --Warbringer Shoulderguards
+LBIS:AddItem(spec, "24546", LBIS.L["Shoulder"], "Alt Thrt") --Gladiator's Plate Shoulders
+LBIS:AddItem(spec, "28743", LBIS.L["Shoulder"], "Alt Mit") --Mantle of Abrahmis
 
 LBIS:AddItem(spec, "28672", LBIS.L["Back"], "BIS Thrt") --Drape of the Dark Reavers
 LBIS:AddItem(spec, "28529", LBIS.L["Back"], "Alt Thrt") --Royal Cloak of Arathi Kings
@@ -24,16 +24,16 @@ LBIS:AddItem(spec, "24544", LBIS.L["Chest"], "BIS Thrt") --Gladiator's Plate Che
 LBIS:AddItem(spec, "28597", LBIS.L["Chest"], "Alt Mit") --Panzar'Thar Breastplate
 LBIS:AddItem(spec, "28484", LBIS.L["Chest"], "Alt") --Bulwark of Kings
 
-LBIS:AddItem(spec, "28996", LBIS.L["Bracers"], "BIS") --Marshal's Plate Bracers
-LBIS:AddItem(spec, "28502", LBIS.L["Bracers"], "BIS Mit") --Vambraces of Courage
-LBIS:AddItem(spec, "28795", LBIS.L["Bracers"], "BIS Thrt") --Bladespire Warbands
-LBIS:AddItem(spec, "23538", LBIS.L["Bracers"], "Alt") --Bracers of the Green Fortress
+LBIS:AddItem(spec, "28996", LBIS.L["Wrist"], "BIS") --Marshal's Plate Bracers
+LBIS:AddItem(spec, "28502", LBIS.L["Wrist"], "BIS Mit") --Vambraces of Courage
+LBIS:AddItem(spec, "28795", LBIS.L["Wrist"], "BIS Thrt") --Bladespire Warbands
+LBIS:AddItem(spec, "23538", LBIS.L["Wrist"], "Alt") --Bracers of the Green Fortress
 
-LBIS:AddItem(spec, "30741", LBIS.L["Gloves"], "BIS Mit") --Topaz-Studded Battlegrips
-LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "BIS Thrt") --Grips of Deftness
-LBIS:AddItem(spec, "28518", LBIS.L["Gloves"], "Alt Mit") --Iron Gauntlets of the Maiden
-LBIS:AddItem(spec, "29017", LBIS.L["Gloves"], "Alt Mit") --Warbringer Handguards
-LBIS:AddItem(spec, "29758", LBIS.L["Gloves"], "Alt Mit") --Gloves of the Fallen Defender
+LBIS:AddItem(spec, "30741", LBIS.L["Hands"], "BIS Mit") --Topaz-Studded Battlegrips
+LBIS:AddItem(spec, "30644", LBIS.L["Hands"], "BIS Thrt") --Grips of Deftness
+LBIS:AddItem(spec, "28518", LBIS.L["Hands"], "Alt Mit") --Iron Gauntlets of the Maiden
+LBIS:AddItem(spec, "29017", LBIS.L["Hands"], "Alt Mit") --Warbringer Handguards
+LBIS:AddItem(spec, "29758", LBIS.L["Hands"], "Alt Mit") --Gloves of the Fallen Defender
 
 LBIS:AddItem(spec, "28995", LBIS.L["Waist"], "BIS") --Marshal's Plate Belt
 LBIS:AddItem(spec, "28566", LBIS.L["Waist"], "BIS Mit") --Crimson Girdle of the Indomitable

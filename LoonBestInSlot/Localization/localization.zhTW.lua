@@ -56,7 +56,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Bleeding Hollow Supply Crates"] = "血之谷補給木箱";
 --  LBIS.L["Blessings Deck"] = "";
   LBIS.L["Blood Guard Porung"] = "血衛士波洛克";
---  LBIS.L["Bracers"] = "";
 --  LBIS.L["Brewfest"] = "";
   LBIS.L["Bring Me The Egg!"] = "我要蛋!";
   LBIS.L["Broggok"] = "布洛克";
@@ -134,7 +133,6 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["General Drakkisath's Demise - Marshal Maxwell/For The Horde!"] = "";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "高薩安";
---  LBIS.L["Gloves"] = "";
 --  LBIS.L["Gnomish Engineer"] = "";
   LBIS.L["Grand Warlock Nethekurse"] = "大術士奈德克斯";
   LBIS.L["Grandmaster Vorpil"] = "宗師瓦皮歐";
@@ -142,9 +140,10 @@ if GetLocale() == "zhTW" then
   LBIS.L["Gruul's Lair"] = "戈魯爾之巢";
   LBIS.L["Gurok the Usurper"] = "『篡位者』古羅克";
   LBIS.L["Gurtogg Bloodboil"] = "葛塔格．血沸";
---  LBIS.L["Hail,Commander!"] = "";
+--  LBIS.L["Hail, Commander!"] = "";
   LBIS.L["Halazzi"] = "哈拉齊";
 --  LBIS.L["Hallows Eve"] = "";
+  LBIS.L["Hands"] = "手";
   LBIS.L["Harbinger Skyriss"] = "先驅者史蓋力司";
   LBIS.L["Head"] = "頭部";
   LBIS.L["Headless Horseman"] = "無頭騎士";
@@ -296,7 +295,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Shattrath City"] = "撒塔斯城";
   LBIS.L["Shield"] = "盾牌";
   LBIS.L["Shirrak the Dead Watcher"] = "死亡看守者辛瑞克";
---  LBIS.L["Shoulders"] = "";
+  LBIS.L["Shoulder"] = "肩部";
 --  LBIS.L["Show Minimap Button:"] = "";
 --  LBIS.L["Show Tooltip:"] = "";
   LBIS.L["Showdown"] = "攤牌";
@@ -417,6 +416,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["World Drop"] = "";
   LBIS.L["Wrath-Scryer Soccothrates"] = "怒鐮者索寇斯瑞特";
 --  LBIS.L["Wrath-Scryer Soccothrates and Zereketh the Unbound"] = "";
+  LBIS.L["Wrist"] = "手腕";
   LBIS.L["Yor"] = "約兒";
   LBIS.L["You're Hired!"] = "你被雇用了!";
   LBIS.L["Zangarmarsh"] = "贊格沼澤";

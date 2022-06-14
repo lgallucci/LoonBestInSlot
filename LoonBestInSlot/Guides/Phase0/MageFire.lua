@@ -11,14 +11,14 @@ LBIS:AddItem(spec, "19375", LBIS.L["Head"], "Alt") --Mish'undare, Circlet of the
 LBIS:AddItem(spec, "31104", LBIS.L["Head"], "Alt") --Evoker's Helmet of Second Sight
 LBIS:AddItem(spec, "30515", LBIS.L["Head"], "Alt") --Junior Technician 3rd Grade Goggles
 
-LBIS:AddItem(spec, "30925", LBIS.L["Shoulders"], "BIS") --Spaulders of the Torn-heart
-LBIS:AddItem(spec, "27778", LBIS.L["Shoulders"], "Alt") --Spaulders of Oblivion
-LBIS:AddItem(spec, "27796", LBIS.L["Shoulders"], "Alt") --Mana-Etched Spaulders
-LBIS:AddItem(spec, "22983", LBIS.L["Shoulders"], "Alt") --Rime Covered Mantle
-LBIS:AddItem(spec, "27994", LBIS.L["Shoulders"], "Alt") --Mantle of Three Terrors
-LBIS:AddItem(spec, "22499", LBIS.L["Shoulders"], "Alt") --Frostfire Shoulderpads
-LBIS:AddItem(spec, "28075", LBIS.L["Shoulders"], "Alt") --Destroyers' Mantle
-LBIS:AddItem(spec, "30514", LBIS.L["Shoulders"], "Alt") --Nether Guards
+LBIS:AddItem(spec, "30925", LBIS.L["Shoulder"], "BIS") --Spaulders of the Torn-heart
+LBIS:AddItem(spec, "27778", LBIS.L["Shoulder"], "Alt") --Spaulders of Oblivion
+LBIS:AddItem(spec, "27796", LBIS.L["Shoulder"], "Alt") --Mana-Etched Spaulders
+LBIS:AddItem(spec, "22983", LBIS.L["Shoulder"], "Alt") --Rime Covered Mantle
+LBIS:AddItem(spec, "27994", LBIS.L["Shoulder"], "Alt") --Mantle of Three Terrors
+LBIS:AddItem(spec, "22499", LBIS.L["Shoulder"], "Alt") --Frostfire Shoulderpads
+LBIS:AddItem(spec, "28075", LBIS.L["Shoulder"], "Alt") --Destroyers' Mantle
+LBIS:AddItem(spec, "30514", LBIS.L["Shoulder"], "Alt") --Nether Guards
 
 LBIS:AddItem(spec, "23050", LBIS.L["Back"], "BIS") --Cloak of the Necropolis
 LBIS:AddItem(spec, "22731", LBIS.L["Back"], "Alt") --Cloak of the Devoured
@@ -39,24 +39,24 @@ LBIS:AddItem(spec, "22496", LBIS.L["Chest"], "Alt") --Frostfire Robe
 LBIS:AddItem(spec, "29780", LBIS.L["Chest"], "Alt") --Kirin Tor Apprentice's Robes
 LBIS:AddItem(spec, "31717", LBIS.L["Chest"], "Alt") --Shadowcast Tunic
 
-LBIS:AddItem(spec, "32655", LBIS.L["Bracers"], "BIS") --Crystalweave Bracers
-LBIS:AddItem(spec, "24250", LBIS.L["Bracers"], "Alt") --Bracers of Havok
-LBIS:AddItem(spec, "27462", LBIS.L["Bracers"], "Alt") --Crimson Bracers of Gloom
-LBIS:AddItem(spec, "28174", LBIS.L["Bracers"], "Alt") --Shattrath Wraps
-LBIS:AddItem(spec, "27746", LBIS.L["Bracers"], "Alt") --Arcanium Signet Bands
-LBIS:AddItem(spec, "29240", LBIS.L["Bracers"], "Alt") --Bands of Negation
-LBIS:AddItem(spec, "23021", LBIS.L["Bracers"], "Alt") --The Soul Harvester's Bindings
-LBIS:AddItem(spec, "30927", LBIS.L["Bracers"], "Alt") --Earthmender's Bracer of Shattering
-LBIS:AddItem(spec, "30520", LBIS.L["Bracers"], "Alt") --Gold-Trimmed Cuffs
+LBIS:AddItem(spec, "32655", LBIS.L["Wrist"], "BIS") --Crystalweave Bracers
+LBIS:AddItem(spec, "24250", LBIS.L["Wrist"], "Alt") --Bracers of Havok
+LBIS:AddItem(spec, "27462", LBIS.L["Wrist"], "Alt") --Crimson Bracers of Gloom
+LBIS:AddItem(spec, "28174", LBIS.L["Wrist"], "Alt") --Shattrath Wraps
+LBIS:AddItem(spec, "27746", LBIS.L["Wrist"], "Alt") --Arcanium Signet Bands
+LBIS:AddItem(spec, "29240", LBIS.L["Wrist"], "Alt") --Bands of Negation
+LBIS:AddItem(spec, "23021", LBIS.L["Wrist"], "Alt") --The Soul Harvester's Bindings
+LBIS:AddItem(spec, "30927", LBIS.L["Wrist"], "Alt") --Earthmender's Bracer of Shattering
+LBIS:AddItem(spec, "30520", LBIS.L["Wrist"], "Alt") --Gold-Trimmed Cuffs
 
-LBIS:AddItem(spec, "21847", LBIS.L["Gloves"], "BIS") --Spellfire Gloves
-LBIS:AddItem(spec, "27493", LBIS.L["Gloves"], "Alt") --Gloves of the Deadwatcher
-LBIS:AddItem(spec, "21585", LBIS.L["Gloves"], "Alt") --Dark Storm Gauntlets
-LBIS:AddItem(spec, "27537", LBIS.L["Gloves"], "Alt") --Gloves of Oblivion
-LBIS:AddItem(spec, "29317", LBIS.L["Gloves"], "Alt") --Tempest's Touch
-LBIS:AddItem(spec, "27465", LBIS.L["Gloves"], "Alt") --Mana-Etched Gloves
-LBIS:AddItem(spec, "30924", LBIS.L["Gloves"], "Alt") --Gloves of the High Magus
-LBIS:AddItem(spec, "30930", LBIS.L["Gloves"], "Alt") --Grips of the Void
+LBIS:AddItem(spec, "21847", LBIS.L["Hands"], "BIS") --Spellfire Gloves
+LBIS:AddItem(spec, "27493", LBIS.L["Hands"], "Alt") --Gloves of the Deadwatcher
+LBIS:AddItem(spec, "21585", LBIS.L["Hands"], "Alt") --Dark Storm Gauntlets
+LBIS:AddItem(spec, "27537", LBIS.L["Hands"], "Alt") --Gloves of Oblivion
+LBIS:AddItem(spec, "29317", LBIS.L["Hands"], "Alt") --Tempest's Touch
+LBIS:AddItem(spec, "27465", LBIS.L["Hands"], "Alt") --Mana-Etched Gloves
+LBIS:AddItem(spec, "30924", LBIS.L["Hands"], "Alt") --Gloves of the High Magus
+LBIS:AddItem(spec, "30930", LBIS.L["Hands"], "Alt") --Grips of the Void
 
 LBIS:AddItem(spec, "21846", LBIS.L["Waist"], "BIS") --Spellfire Belt
 LBIS:AddItem(spec, "24256", LBIS.L["Waist"], "Alt") --Girdle of Ruination

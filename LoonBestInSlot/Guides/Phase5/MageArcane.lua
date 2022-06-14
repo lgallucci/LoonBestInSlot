@@ -5,11 +5,11 @@ LBIS:AddItem(spec, "30244", LBIS.L["Head"], "BIS") --Helm of the Vanquished Hero
 LBIS:AddItem(spec, "34340", LBIS.L["Head"], "Alt") --Dark Conjuror's Collar
 LBIS:AddItem(spec, "34847", LBIS.L["Head"], "Alt") --Annihilator Holo-Gogs
 
-LBIS:AddItem(spec, "30210", LBIS.L["Shoulders"], "BIS") --Mantle of Tirisfal
-LBIS:AddItem(spec, "30250", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Hero
-LBIS:AddItem(spec, "34393", LBIS.L["Shoulders"], "Alt") --Shoulderpads of Knowledge's Pursuit
-LBIS:AddItem(spec, "34202", LBIS.L["Shoulders"], "Transmute Alt") --Shawl of Wonderment
-LBIS:AddItem(spec, "34210", LBIS.L["Shoulders"], "Alt") --Amice of the Convoker
+LBIS:AddItem(spec, "30210", LBIS.L["Shoulder"], "BIS") --Mantle of Tirisfal
+LBIS:AddItem(spec, "30250", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Hero
+LBIS:AddItem(spec, "34393", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Knowledge's Pursuit
+LBIS:AddItem(spec, "34202", LBIS.L["Shoulder"], "Transmute Alt") --Shawl of Wonderment
+LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "Alt") --Amice of the Convoker
 
 LBIS:AddItem(spec, "34242", LBIS.L["Back"], "BIS") --Tattered Cape of Antonidas
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "Alt") --Shroud of the Highborne
@@ -22,17 +22,17 @@ LBIS:AddItem(spec, "30238", LBIS.L["Chest"], "Alt") --Chestguard of the Vanquish
 LBIS:AddItem(spec, "31057", LBIS.L["Chest"], "Alt") --Robes of the Tempest
 LBIS:AddItem(spec, "31090", LBIS.L["Chest"], "Alt") --Chestguard of the Forgotten Vanquisher
 
-LBIS:AddItem(spec, "34447", LBIS.L["Bracers"], "BIS") --Bracers of the Tempest
-LBIS:AddItem(spec, "34852", LBIS.L["Bracers"], "BIS") --Bracers of the Forgotten Vanquisher
-LBIS:AddItem(spec, "30870", LBIS.L["Bracers"], "Alt") --Cuffs of Devastation
-LBIS:AddItem(spec, "32586", LBIS.L["Bracers"], "Alt") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "34447", LBIS.L["Wrist"], "BIS") --Bracers of the Tempest
+LBIS:AddItem(spec, "34852", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Vanquisher
+LBIS:AddItem(spec, "30870", LBIS.L["Wrist"], "Alt") --Cuffs of Devastation
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "Alt") --Bracers of Nimble Thought
 
-LBIS:AddItem(spec, "34406", LBIS.L["Gloves"], "BIS") --Gloves of Tyri's Power
-LBIS:AddItem(spec, "34342", LBIS.L["Gloves"], "Transmute BIS") --Handguards of the Dawn
-LBIS:AddItem(spec, "30205", LBIS.L["Gloves"], "BIS") --Gloves of Tirisfal
-LBIS:AddItem(spec, "30241", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Hero
-LBIS:AddItem(spec, "34344", LBIS.L["Gloves"], "Alt") --Handguards of Defiled Worlds
-LBIS:AddItem(spec, "34366", LBIS.L["Gloves"], "Alt") --Sunfire Handwraps
+LBIS:AddItem(spec, "34406", LBIS.L["Hands"], "BIS") --Gloves of Tyri's Power
+LBIS:AddItem(spec, "34342", LBIS.L["Hands"], "Transmute BIS") --Handguards of the Dawn
+LBIS:AddItem(spec, "30205", LBIS.L["Hands"], "BIS") --Gloves of Tirisfal
+LBIS:AddItem(spec, "30241", LBIS.L["Hands"], "BIS") --Gloves of the Vanquished Hero
+LBIS:AddItem(spec, "34344", LBIS.L["Hands"], "Alt") --Handguards of Defiled Worlds
+LBIS:AddItem(spec, "34366", LBIS.L["Hands"], "Alt") --Sunfire Handwraps
 
 LBIS:AddItem(spec, "34557", LBIS.L["Waist"], "BIS") --Belt of the Tempest
 LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Vanquisher

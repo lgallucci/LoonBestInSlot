@@ -56,7 +56,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Bleeding Hollow Supply Crates"] = "Припасы клана Кровавой Глазницы";
 --  LBIS.L["Blessings Deck"] = "";
   LBIS.L["Blood Guard Porung"] = "Кровавый страж Порунг";
---  LBIS.L["Bracers"] = "";
 --  LBIS.L["Brewfest"] = "";
   LBIS.L["Bring Me The Egg!"] = "Принеси мне яйцо!";
   LBIS.L["Broggok"] = "Броггок";
@@ -134,7 +133,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["General Drakkisath's Demise - Marshal Maxwell/For The Horde!"] = "";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "Газ'ан";
---  LBIS.L["Gloves"] = "";
 --  LBIS.L["Gnomish Engineer"] = "";
   LBIS.L["Grand Warlock Nethekurse"] = "Главный чернокнижник Пустоклят";
   LBIS.L["Grandmaster Vorpil"] = "Великий мастер Ворпил";
@@ -142,9 +140,10 @@ if GetLocale() == "ruRU" then
   LBIS.L["Gruul's Lair"] = "Логово Груула";
   LBIS.L["Gurok the Usurper"] = "Гурок Узурпатор";
   LBIS.L["Gurtogg Bloodboil"] = "Гуртогг Кипящая Кровь";
---  LBIS.L["Hail,Commander!"] = "";
+  LBIS.L["Hail, Commander!"] = "Приветствую тебя, Командир!";
   LBIS.L["Halazzi"] = "Халаззи";
 --  LBIS.L["Hallows Eve"] = "";
+  LBIS.L["Hands"] = "Кисти рук";
   LBIS.L["Harbinger Skyriss"] = "Предвестник Скайрисс";
   LBIS.L["Head"] = "Голова";
   LBIS.L["Headless Horseman"] = "Всадник без головы";
@@ -296,7 +295,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Shattrath City"] = "Шаттрат";
   LBIS.L["Shield"] = "Щит";
   LBIS.L["Shirrak the Dead Watcher"] = "Ширрак Страж Мертвых";
---  LBIS.L["Shoulders"] = "";
+  LBIS.L["Shoulder"] = "Плечо";
 --  LBIS.L["Show Minimap Button:"] = "";
 --  LBIS.L["Show Tooltip:"] = "";
   LBIS.L["Showdown"] = "Перед выстрелом";
@@ -417,6 +416,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["World Drop"] = "";
   LBIS.L["Wrath-Scryer Soccothrates"] = "Провидец Гнева Соккорат";
 --  LBIS.L["Wrath-Scryer Soccothrates and Zereketh the Unbound"] = "";
+  LBIS.L["Wrist"] = "Запястья";
   LBIS.L["Yor"] = "Йор";
   LBIS.L["You're Hired!"] = "Тебя наняли!";
   LBIS.L["Zangarmarsh"] = "Зангартопь";

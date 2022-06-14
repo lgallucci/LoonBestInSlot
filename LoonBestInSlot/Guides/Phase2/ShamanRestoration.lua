@@ -6,11 +6,11 @@ LBIS:AddItem(spec, "32475", LBIS.L["Head"], "BIS") --Living Replicator Specs
 LBIS:AddItem(spec, "29028", LBIS.L["Head"], "Alt") --Cyclone Headdress
 LBIS:AddItem(spec, "29760", LBIS.L["Head"], "Alt") --Helm of the Fallen Champion
 
-LBIS:AddItem(spec, "30168", LBIS.L["Shoulders"], "BIS") --Cataclysm Shoulderguards
-LBIS:AddItem(spec, "30248", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Champion
-LBIS:AddItem(spec, "30097", LBIS.L["Shoulders"], "BIS") --Coral-Barbed Shoulderpads
-LBIS:AddItem(spec, "29031", LBIS.L["Shoulders"], "Alt") --Cyclone Shoulderpads
-LBIS:AddItem(spec, "29763", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Fallen Champion
+LBIS:AddItem(spec, "30168", LBIS.L["Shoulder"], "BIS") --Cataclysm Shoulderguards
+LBIS:AddItem(spec, "30248", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Champion
+LBIS:AddItem(spec, "30097", LBIS.L["Shoulder"], "BIS") --Coral-Barbed Shoulderpads
+LBIS:AddItem(spec, "29031", LBIS.L["Shoulder"], "Alt") --Cyclone Shoulderpads
+LBIS:AddItem(spec, "29763", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Fallen Champion
 
 LBIS:AddItem(spec, "29989", LBIS.L["Back"], "BIS") --Sunshower Light Cloak
 LBIS:AddItem(spec, "28765", LBIS.L["Back"], "Alt") --Stainless Cloak of the Pure Hearted
@@ -21,14 +21,14 @@ LBIS:AddItem(spec, "29921", LBIS.L["Chest"], "Alt") --Fire Crest Breastplate
 LBIS:AddItem(spec, "29522", LBIS.L["Chest"], "Alt") --Windhawk Hauberk
 LBIS:AddItem(spec, "21875", LBIS.L["Chest"], "Alt") --Primal Mooncloth Robe
 
-LBIS:AddItem(spec, "30047", LBIS.L["Bracers"], "BIS") --Blackfathom Warbands
-LBIS:AddItem(spec, "32516", LBIS.L["Bracers"], "Alt") --Wraps of Purification
-LBIS:AddItem(spec, "29523", LBIS.L["Bracers"], "Alt") --Windhawk Bracers
+LBIS:AddItem(spec, "30047", LBIS.L["Wrist"], "BIS") --Blackfathom Warbands
+LBIS:AddItem(spec, "32516", LBIS.L["Wrist"], "Alt") --Wraps of Purification
+LBIS:AddItem(spec, "29523", LBIS.L["Wrist"], "Alt") --Windhawk Bracers
 
-LBIS:AddItem(spec, "29976", LBIS.L["Gloves"], "BIS") --Worldstorm Gauntlets
-LBIS:AddItem(spec, "30165", LBIS.L["Gloves"], "Alt") --Cataclysm Gloves
-LBIS:AddItem(spec, "30239", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Champion
-LBIS:AddItem(spec, "28520", LBIS.L["Gloves"], "Alt") --Gloves of Centering
+LBIS:AddItem(spec, "29976", LBIS.L["Hands"], "BIS") --Worldstorm Gauntlets
+LBIS:AddItem(spec, "30165", LBIS.L["Hands"], "Alt") --Cataclysm Gloves
+LBIS:AddItem(spec, "30239", LBIS.L["Hands"], "Alt") --Gloves of the Vanquished Champion
+LBIS:AddItem(spec, "28520", LBIS.L["Hands"], "Alt") --Gloves of Centering
 
 LBIS:AddItem(spec, "30030", LBIS.L["Waist"], "BIS") --Girdle of Fallen Stars
 LBIS:AddItem(spec, "29524", LBIS.L["Waist"], "Alt") --Windhawk Belt

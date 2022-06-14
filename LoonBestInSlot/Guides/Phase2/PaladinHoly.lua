@@ -7,11 +7,11 @@ LBIS:AddItem(spec, "30728", LBIS.L["Head"], "Alt") --Fathom-Helm of the Deeps
 LBIS:AddItem(spec, "29061", LBIS.L["Head"], "Alt") --Justicar Diadem
 LBIS:AddItem(spec, "29760", LBIS.L["Head"], "Alt") --Helm of the Fallen Champion
 
-LBIS:AddItem(spec, "30138", LBIS.L["Shoulders"], "BIS") --Crystalforge Pauldrons
-LBIS:AddItem(spec, "30248", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Champion
-LBIS:AddItem(spec, "30097", LBIS.L["Shoulders"], "Alt") --Coral-Barbed Shoulderpads
-LBIS:AddItem(spec, "29064", LBIS.L["Shoulders"], "Alt") --Justicar Pauldrons
-LBIS:AddItem(spec, "29763", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Fallen Champion
+LBIS:AddItem(spec, "30138", LBIS.L["Shoulder"], "BIS") --Crystalforge Pauldrons
+LBIS:AddItem(spec, "30248", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Champion
+LBIS:AddItem(spec, "30097", LBIS.L["Shoulder"], "Alt") --Coral-Barbed Shoulderpads
+LBIS:AddItem(spec, "29064", LBIS.L["Shoulder"], "Alt") --Justicar Pauldrons
+LBIS:AddItem(spec, "29763", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Fallen Champion
 
 LBIS:AddItem(spec, "29989", LBIS.L["Back"], "BIS") --Sunshower Light Cloak
 LBIS:AddItem(spec, "31329", LBIS.L["Back"], "Alt") --Lifegiving Cloak
@@ -21,14 +21,14 @@ LBIS:AddItem(spec, "30236", LBIS.L["Chest"], "BIS") --Chestguard of the Vanquish
 LBIS:AddItem(spec, "29062", LBIS.L["Chest"], "Alt") --Justicar Chestpiece
 LBIS:AddItem(spec, "29754", LBIS.L["Chest"], "Alt") --Chestguard of the Fallen Champion
 
-LBIS:AddItem(spec, "30047", LBIS.L["Bracers"], "BIS") --Blackfathom Warbands
-LBIS:AddItem(spec, "29523", LBIS.L["Bracers"], "Alt") --Windhawk Bracers
-LBIS:AddItem(spec, "23539", LBIS.L["Bracers"], "Alt") --Blessed Bracers
+LBIS:AddItem(spec, "30047", LBIS.L["Wrist"], "BIS") --Blackfathom Warbands
+LBIS:AddItem(spec, "29523", LBIS.L["Wrist"], "Alt") --Windhawk Bracers
+LBIS:AddItem(spec, "23539", LBIS.L["Wrist"], "Alt") --Blessed Bracers
 
-LBIS:AddItem(spec, "30112", LBIS.L["Gloves"], "BIS") --Glorious Gauntlets of Crestfall
-LBIS:AddItem(spec, "29976", LBIS.L["Gloves"], "Alt") --Worldstorm Gauntlets
-LBIS:AddItem(spec, "30135", LBIS.L["Gloves"], "Alt") --Crystalforge Gloves
-LBIS:AddItem(spec, "30239", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Champion
+LBIS:AddItem(spec, "30112", LBIS.L["Hands"], "BIS") --Glorious Gauntlets of Crestfall
+LBIS:AddItem(spec, "29976", LBIS.L["Hands"], "Alt") --Worldstorm Gauntlets
+LBIS:AddItem(spec, "30135", LBIS.L["Hands"], "Alt") --Crystalforge Gloves
+LBIS:AddItem(spec, "30239", LBIS.L["Hands"], "Alt") --Gloves of the Vanquished Champion
 
 LBIS:AddItem(spec, "30030", LBIS.L["Waist"], "BIS") --Girdle of Fallen Stars
 LBIS:AddItem(spec, "29965", LBIS.L["Waist"], "Alt") --Girdle of the Righteous Path

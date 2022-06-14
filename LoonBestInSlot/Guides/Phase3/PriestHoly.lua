@@ -6,11 +6,11 @@ LBIS:AddItem(spec, "30152", LBIS.L["Head"], "BIS") --Cowl of the Avatar
 LBIS:AddItem(spec, "30243", LBIS.L["Head"], "BIS") --Helm of the Vanquished Defender
 LBIS:AddItem(spec, "32329", LBIS.L["Head"], "Alt") --Cowl of Benevolence
 
-LBIS:AddItem(spec, "31069", LBIS.L["Shoulders"], "BIS") --Mantle of Absolution
-LBIS:AddItem(spec, "31101", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Conqueror
-LBIS:AddItem(spec, "30154", LBIS.L["Shoulders"], "BIS") --Mantle of the Avatar
-LBIS:AddItem(spec, "30249", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Defender
-LBIS:AddItem(spec, "32585", LBIS.L["Shoulders"], "BIS") --Swiftheal Mantle
+LBIS:AddItem(spec, "31069", LBIS.L["Shoulder"], "BIS") --Mantle of Absolution
+LBIS:AddItem(spec, "31101", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Conqueror
+LBIS:AddItem(spec, "30154", LBIS.L["Shoulder"], "BIS") --Mantle of the Avatar
+LBIS:AddItem(spec, "30249", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Defender
+LBIS:AddItem(spec, "32585", LBIS.L["Shoulder"], "BIS") --Swiftheal Mantle
 
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
 LBIS:AddItem(spec, "29989", LBIS.L["Back"], "Alt") --Sunshower Light Cloak
@@ -23,19 +23,19 @@ LBIS:AddItem(spec, "30150", LBIS.L["Chest"], "BIS") --Vestments of the Avatar
 LBIS:AddItem(spec, "30237", LBIS.L["Chest"], "BIS") --Chestguard of the Vanquished Defender
 LBIS:AddItem(spec, "32340", LBIS.L["Chest"], "Alt") --Garments of Temperance
 
-LBIS:AddItem(spec, "32584", LBIS.L["Bracers"], "BIS") --Swiftheal Wraps
-LBIS:AddItem(spec, "30871", LBIS.L["Bracers"], "BIS") --Bracers of Martyrdom
-LBIS:AddItem(spec, "32513", LBIS.L["Bracers"], "Alt") --Wristbands of Divine Influence
-LBIS:AddItem(spec, "33901", LBIS.L["Bracers"], "Alt") --Vindicator's Mooncloth Cuffs
-LBIS:AddItem(spec, "29183", LBIS.L["Bracers"], "Alt") --Bindings of the Timewalker
-LBIS:AddItem(spec, "32516", LBIS.L["Bracers"], "Alt") --Wraps of Purification
-LBIS:AddItem(spec, "28511", LBIS.L["Bracers"], "Alt") --Bands of Indwelling
+LBIS:AddItem(spec, "32584", LBIS.L["Wrist"], "BIS") --Swiftheal Wraps
+LBIS:AddItem(spec, "30871", LBIS.L["Wrist"], "BIS") --Bracers of Martyrdom
+LBIS:AddItem(spec, "32513", LBIS.L["Wrist"], "Alt") --Wristbands of Divine Influence
+LBIS:AddItem(spec, "33901", LBIS.L["Wrist"], "Alt") --Vindicator's Mooncloth Cuffs
+LBIS:AddItem(spec, "29183", LBIS.L["Wrist"], "Alt") --Bindings of the Timewalker
+LBIS:AddItem(spec, "32516", LBIS.L["Wrist"], "Alt") --Wraps of Purification
+LBIS:AddItem(spec, "28511", LBIS.L["Wrist"], "Alt") --Bands of Indwelling
 
-LBIS:AddItem(spec, "31060", LBIS.L["Gloves"], "BIS") --Gloves of Absolution
-LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Conqueror
-LBIS:AddItem(spec, "30151", LBIS.L["Gloves"], "BIS") --Gloves of the Avatar
-LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Defender
-LBIS:AddItem(spec, "32353", LBIS.L["Gloves"], "Alt") --Gloves of Unfailing Faith
+LBIS:AddItem(spec, "31060", LBIS.L["Hands"], "BIS") --Gloves of Absolution
+LBIS:AddItem(spec, "31092", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Conqueror
+LBIS:AddItem(spec, "30151", LBIS.L["Hands"], "BIS") --Gloves of the Avatar
+LBIS:AddItem(spec, "30240", LBIS.L["Hands"], "BIS") --Gloves of the Vanquished Defender
+LBIS:AddItem(spec, "32353", LBIS.L["Hands"], "Alt") --Gloves of Unfailing Faith
 
 LBIS:AddItem(spec, "30895", LBIS.L["Waist"], "BIS") --Angelista's Sash
 LBIS:AddItem(spec, "32519", LBIS.L["Waist"], "BIS") --Belt of Divine Guidance

@@ -4,9 +4,9 @@ LBIS:AddItem(spec, "34244", LBIS.L["Head"], "BIS") --Duplicitous Guise
 LBIS:AddItem(spec, "32235", LBIS.L["Head"], "Alt") --Cursed Vision of Sargeras
 LBIS:AddItem(spec, "34353", LBIS.L["Head"], "Alt") --Quad Deathblow X44 Goggles
 
-LBIS:AddItem(spec, "31030", LBIS.L["Shoulders"], "BIS") --Slayer's Shoulderpads
-LBIS:AddItem(spec, "31102", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Vanquisher
-LBIS:AddItem(spec, "34195", LBIS.L["Shoulders"], "Alt") --Shoulderpads of Vehemence
+LBIS:AddItem(spec, "31030", LBIS.L["Shoulder"], "BIS") --Slayer's Shoulderpads
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "34195", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Vehemence
 
 LBIS:AddItem(spec, "34241", LBIS.L["Back"], "BIS") --Cloak of Unforgivable Sin
 LBIS:AddItem(spec, "32323", LBIS.L["Back"], "Alt") --Shadowmoon Destroyer's Drape
@@ -17,14 +17,14 @@ LBIS:AddItem(spec, "34369", LBIS.L["Chest"], "BIS") --Carapace of Sun and Shadow
 LBIS:AddItem(spec, "31028", LBIS.L["Chest"], "Alt") --Slayer's Chestguard
 LBIS:AddItem(spec, "31090", LBIS.L["Chest"], "Alt") --Chestguard of the Forgotten Vanquisher
 
-LBIS:AddItem(spec, "34448", LBIS.L["Bracers"], "BIS") --Slayer's Bracers
-LBIS:AddItem(spec, "34852", LBIS.L["Bracers"], "BIS") --Bracers of the Forgotten Vanquisher
-LBIS:AddItem(spec, "32324", LBIS.L["Bracers"], "Alt") --Insidious Bands
+LBIS:AddItem(spec, "34448", LBIS.L["Wrist"], "BIS") --Slayer's Bracers
+LBIS:AddItem(spec, "34852", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Vanquisher
+LBIS:AddItem(spec, "32324", LBIS.L["Wrist"], "Alt") --Insidious Bands
 
-LBIS:AddItem(spec, "34370", LBIS.L["Gloves"], "BIS") --Gloves of Immortal Dusk
-LBIS:AddItem(spec, "34234", LBIS.L["Gloves"], "Alt") --Shadowed Gauntlets of Paroxysm
-LBIS:AddItem(spec, "31026", LBIS.L["Gloves"], "Alt") --Slayer's Handguards
-LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Vanquisher
+LBIS:AddItem(spec, "34370", LBIS.L["Hands"], "BIS") --Gloves of Immortal Dusk
+LBIS:AddItem(spec, "34234", LBIS.L["Hands"], "Alt") --Shadowed Gauntlets of Paroxysm
+LBIS:AddItem(spec, "31026", LBIS.L["Hands"], "Alt") --Slayer's Handguards
+LBIS:AddItem(spec, "31093", LBIS.L["Hands"], "Alt") --Gloves of the Forgotten Vanquisher
 
 LBIS:AddItem(spec, "34558", LBIS.L["Waist"], "BIS") --Slayer's Belt
 LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Vanquisher

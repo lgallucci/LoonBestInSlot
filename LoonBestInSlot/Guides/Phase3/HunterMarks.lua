@@ -8,14 +8,14 @@ LBIS:AddItem(spec, "32376", LBIS.L["Head"], "Alt") --Forest Prowler's Helm
 LBIS:AddItem(spec, "30141", LBIS.L["Head"], "Alt") --Rift Stalker Helm
 LBIS:AddItem(spec, "30244", LBIS.L["Head"], "Alt") --Helm of the Vanquished Hero
 
-LBIS:AddItem(spec, "31006", LBIS.L["Shoulders"], "BIS") --Gronnstalker's Spaulders
-LBIS:AddItem(spec, "31103", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Protector
-LBIS:AddItem(spec, "30143", LBIS.L["Shoulders"], "Alt") --Rift Stalker Mantle
-LBIS:AddItem(spec, "30250", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Vanquished Hero
-LBIS:AddItem(spec, "30892", LBIS.L["Shoulders"], "Alt") --Beast-tamer's Shoulders
-LBIS:AddItem(spec, "32264", LBIS.L["Shoulders"], "Alt") --Shoulders of the Hidden Predator
-LBIS:AddItem(spec, "32581", LBIS.L["Shoulders"], "Alt") --Swiftstrike Shoulders
-LBIS:AddItem(spec, "32575", LBIS.L["Shoulders"], "Alt") --Shoulders of Lightning Reflexes
+LBIS:AddItem(spec, "31006", LBIS.L["Shoulder"], "BIS") --Gronnstalker's Spaulders
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "30143", LBIS.L["Shoulder"], "Alt") --Rift Stalker Mantle
+LBIS:AddItem(spec, "30250", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Vanquished Hero
+LBIS:AddItem(spec, "30892", LBIS.L["Shoulder"], "Alt") --Beast-tamer's Shoulders
+LBIS:AddItem(spec, "32264", LBIS.L["Shoulder"], "Alt") --Shoulders of the Hidden Predator
+LBIS:AddItem(spec, "32581", LBIS.L["Shoulder"], "Alt") --Swiftstrike Shoulders
+LBIS:AddItem(spec, "32575", LBIS.L["Shoulder"], "Alt") --Shoulders of Lightning Reflexes
 
 LBIS:AddItem(spec, "29994", LBIS.L["Back"], "BIS") --Thalassian Wildercloak
 LBIS:AddItem(spec, "32323", LBIS.L["Back"], "BIS") --Shadowmoon Destroyer's Drape
@@ -25,15 +25,15 @@ LBIS:AddItem(spec, "31091", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotte
 LBIS:AddItem(spec, "30139", LBIS.L["Chest"], "Alt") --Rift Stalker Hauberk
 LBIS:AddItem(spec, "30238", LBIS.L["Chest"], "Alt") --Chestguard of the Vanquished Hero
 
-LBIS:AddItem(spec, "32324", LBIS.L["Bracers"], "BIS") --Insidious Bands
-LBIS:AddItem(spec, "29966", LBIS.L["Bracers"], "Alt") --Vambraces of Ending
-LBIS:AddItem(spec, "32574", LBIS.L["Bracers"], "Alt") --Bindings of Lightning Reflexes
-LBIS:AddItem(spec, "32580", LBIS.L["Bracers"], "Alt") --Swiftstrike Bracers
+LBIS:AddItem(spec, "32324", LBIS.L["Wrist"], "BIS") --Insidious Bands
+LBIS:AddItem(spec, "29966", LBIS.L["Wrist"], "Alt") --Vambraces of Ending
+LBIS:AddItem(spec, "32574", LBIS.L["Wrist"], "Alt") --Bindings of Lightning Reflexes
+LBIS:AddItem(spec, "32580", LBIS.L["Wrist"], "Alt") --Swiftstrike Bracers
 
-LBIS:AddItem(spec, "31001", LBIS.L["Gloves"], "BIS") --Gronnstalker's Gloves
-LBIS:AddItem(spec, "31094", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Protector
-LBIS:AddItem(spec, "30140", LBIS.L["Gloves"], "Alt") --Rift Stalker Gauntlets
-LBIS:AddItem(spec, "30241", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Hero
+LBIS:AddItem(spec, "31001", LBIS.L["Hands"], "BIS") --Gronnstalker's Gloves
+LBIS:AddItem(spec, "31094", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Protector
+LBIS:AddItem(spec, "30140", LBIS.L["Hands"], "Alt") --Rift Stalker Gauntlets
+LBIS:AddItem(spec, "30241", LBIS.L["Hands"], "Alt") --Gloves of the Vanquished Hero
 
 LBIS:AddItem(spec, "30879", LBIS.L["Waist"], "BIS") --Don Alejandro's Money Belt
 LBIS:AddItem(spec, "32346", LBIS.L["Waist"], "BIS") --Boneweave Girdle

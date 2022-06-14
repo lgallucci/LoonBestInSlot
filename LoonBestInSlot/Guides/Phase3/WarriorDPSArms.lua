@@ -7,10 +7,10 @@ LBIS:AddItem(spec, "31095", LBIS.L["Head"], "Alt") --Helm of the Forgotten Prote
 LBIS:AddItem(spec, "30120", LBIS.L["Head"], "Alt") --Destroyer Battle-Helm
 LBIS:AddItem(spec, "30243", LBIS.L["Head"], "Alt") --Helm of the Vanquished Defender
 
-LBIS:AddItem(spec, "30979", LBIS.L["Shoulders"], "BIS") --Onslaught Shoulderblades
-LBIS:AddItem(spec, "31103", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Protector
-LBIS:AddItem(spec, "32570", LBIS.L["Shoulders"], "BIS") --Swiftsteel Shoulders
-LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "Alt") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "30979", LBIS.L["Shoulder"], "BIS") --Onslaught Shoulderblades
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "32570", LBIS.L["Shoulder"], "BIS") --Swiftsteel Shoulders
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Stranger
 
 LBIS:AddItem(spec, "32323", LBIS.L["Back"], "BIS") --Shadowmoon Destroyer's Drape
 LBIS:AddItem(spec, "33122", LBIS.L["Back"], "BIS") --Cloak of Darkness
@@ -23,19 +23,19 @@ LBIS:AddItem(spec, "30118", LBIS.L["Chest"], "Alt") --Destroyer Breastplate
 LBIS:AddItem(spec, "30237", LBIS.L["Chest"], "Alt") --Chestguard of the Vanquished Defender
 LBIS:AddItem(spec, "30101", LBIS.L["Chest"], "Alt") --Bloodsea Brigand's Vest
 
-LBIS:AddItem(spec, "30863", LBIS.L["Bracers"], "BIS") --Deadly Cuffs
-LBIS:AddItem(spec, "32324", LBIS.L["Bracers"], "Alt") --Insidious Bands
-LBIS:AddItem(spec, "32574", LBIS.L["Bracers"], "BIS") --Bindings of Lightning Reflexes
-LBIS:AddItem(spec, "30057", LBIS.L["Bracers"], "Alt") --Bracers of Eradication
-LBIS:AddItem(spec, "28795", LBIS.L["Bracers"], "Alt") --Bladespire Warbands
-LBIS:AddItem(spec, "30861", LBIS.L["Bracers"], "Alt") --Furious Shackles
+LBIS:AddItem(spec, "30863", LBIS.L["Wrist"], "BIS") --Deadly Cuffs
+LBIS:AddItem(spec, "32324", LBIS.L["Wrist"], "Alt") --Insidious Bands
+LBIS:AddItem(spec, "32574", LBIS.L["Wrist"], "BIS") --Bindings of Lightning Reflexes
+LBIS:AddItem(spec, "30057", LBIS.L["Wrist"], "Alt") --Bracers of Eradication
+LBIS:AddItem(spec, "28795", LBIS.L["Wrist"], "Alt") --Bladespire Warbands
+LBIS:AddItem(spec, "30861", LBIS.L["Wrist"], "Alt") --Furious Shackles
 
-LBIS:AddItem(spec, "32278", LBIS.L["Gloves"], "BIS") --Grips of Silent Justice
-LBIS:AddItem(spec, "30969", LBIS.L["Gloves"], "Alt") --Onslaught Gauntlets
-LBIS:AddItem(spec, "31094", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Protector
-LBIS:AddItem(spec, "32608", LBIS.L["Gloves"], "Alt") --Pillager's Gauntlets
-LBIS:AddItem(spec, "28824", LBIS.L["Gloves"], "Alt") --Gauntlets of Martial Perfection
-LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "Alt") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "32278", LBIS.L["Hands"], "BIS") --Grips of Silent Justice
+LBIS:AddItem(spec, "30969", LBIS.L["Hands"], "Alt") --Onslaught Gauntlets
+LBIS:AddItem(spec, "31094", LBIS.L["Hands"], "Alt") --Gloves of the Forgotten Protector
+LBIS:AddItem(spec, "32608", LBIS.L["Hands"], "Alt") --Pillager's Gauntlets
+LBIS:AddItem(spec, "28824", LBIS.L["Hands"], "Alt") --Gauntlets of Martial Perfection
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "Alt") --Gloves of the Searing Grip
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 

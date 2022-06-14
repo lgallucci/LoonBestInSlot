@@ -9,13 +9,13 @@ LBIS:AddItem(spec, "34339", LBIS.L["Head"], "Transmute Alt") --Cowl of Light's P
 LBIS:AddItem(spec, "31040", LBIS.L["Head"], "Alt") --Thunderheart Headguard
 LBIS:AddItem(spec, "31096", LBIS.L["Head"], "Alt") --Helm of the Forgotten Vanquisher
 
-LBIS:AddItem(spec, "34210", LBIS.L["Shoulders"], "BIS") --Amice of the Convoker
-LBIS:AddItem(spec, "34391", LBIS.L["Shoulders"], "BIS") --Spaulders of Devastation
-LBIS:AddItem(spec, "34209", LBIS.L["Shoulders"], "Transmute BIS") --Spaulders of Reclamation
-LBIS:AddItem(spec, "31049", LBIS.L["Shoulders"], "BIS") --Thunderheart Shoulderpads
-LBIS:AddItem(spec, "31102", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Vanquisher
-LBIS:AddItem(spec, "34393", LBIS.L["Shoulders"], "Alt") --Shoulderpads of Knowledge's Pursuit
-LBIS:AddItem(spec, "34202", LBIS.L["Shoulders"], "Transmute Alt") --Shawl of Wonderment
+LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "BIS") --Amice of the Convoker
+LBIS:AddItem(spec, "34391", LBIS.L["Shoulder"], "BIS") --Spaulders of Devastation
+LBIS:AddItem(spec, "34209", LBIS.L["Shoulder"], "Transmute BIS") --Spaulders of Reclamation
+LBIS:AddItem(spec, "31049", LBIS.L["Shoulder"], "BIS") --Thunderheart Shoulderpads
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "34393", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Knowledge's Pursuit
+LBIS:AddItem(spec, "34202", LBIS.L["Shoulder"], "Transmute Alt") --Shawl of Wonderment
 
 LBIS:AddItem(spec, "34242", LBIS.L["Back"], "BIS") --Tattered Cape of Antonidas
 LBIS:AddItem(spec, "32331", LBIS.L["Back"], "Alt") --Cloak of the Illidari Council
@@ -31,18 +31,18 @@ LBIS:AddItem(spec, "31090", LBIS.L["Chest"], "Alt") --Chestguard of the Forgotte
 LBIS:AddItem(spec, "34398", LBIS.L["Chest"], "Alt") --Utopian Tunic of Elune
 LBIS:AddItem(spec, "34212", LBIS.L["Chest"], "Transmute Alt") --Sunglow Vest
 
-LBIS:AddItem(spec, "34446", LBIS.L["Bracers"], "BIS") --Thunderheart Bands
-LBIS:AddItem(spec, "34852", LBIS.L["Bracers"], "BIS") --Bracers of the Forgotten Vanquisher
-LBIS:AddItem(spec, "32586", LBIS.L["Bracers"], "Alt") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "34446", LBIS.L["Wrist"], "BIS") --Thunderheart Bands
+LBIS:AddItem(spec, "34852", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Vanquisher
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "Alt") --Bracers of Nimble Thought
 
-LBIS:AddItem(spec, "34344", LBIS.L["Gloves"], "BIS") --Handguards of Defiled Worlds
-LBIS:AddItem(spec, "34406", LBIS.L["Gloves"], "Alt") --Gloves of Tyri's Power
-LBIS:AddItem(spec, "34342", LBIS.L["Gloves"], "Transmute Alt") --Handguards of the Dawn
-LBIS:AddItem(spec, "34366", LBIS.L["Gloves"], "Alt") --Sunfire Handwraps
-LBIS:AddItem(spec, "34407", LBIS.L["Gloves"], "Alt") --Tranquil Moonlight Wraps
-LBIS:AddItem(spec, "34351", LBIS.L["Gloves"], "Transmute Alt") --Tranquil Majesty Wraps
-LBIS:AddItem(spec, "31035", LBIS.L["Gloves"], "Alt") --Thunderheart Handguards
-LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Vanquisher
+LBIS:AddItem(spec, "34344", LBIS.L["Hands"], "BIS") --Handguards of Defiled Worlds
+LBIS:AddItem(spec, "34406", LBIS.L["Hands"], "Alt") --Gloves of Tyri's Power
+LBIS:AddItem(spec, "34342", LBIS.L["Hands"], "Transmute Alt") --Handguards of the Dawn
+LBIS:AddItem(spec, "34366", LBIS.L["Hands"], "Alt") --Sunfire Handwraps
+LBIS:AddItem(spec, "34407", LBIS.L["Hands"], "Alt") --Tranquil Moonlight Wraps
+LBIS:AddItem(spec, "34351", LBIS.L["Hands"], "Transmute Alt") --Tranquil Majesty Wraps
+LBIS:AddItem(spec, "31035", LBIS.L["Hands"], "Alt") --Thunderheart Handguards
+LBIS:AddItem(spec, "31093", LBIS.L["Hands"], "Alt") --Gloves of the Forgotten Vanquisher
 
 LBIS:AddItem(spec, "34555", LBIS.L["Waist"], "BIS") --Thunderheart Cord
 LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Vanquisher

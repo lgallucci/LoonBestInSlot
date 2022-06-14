@@ -7,10 +7,10 @@ LBIS:AddItem(spec, "31037", LBIS.L["Head"], "Alt") --Thunderheart Helmet
 LBIS:AddItem(spec, "31096", LBIS.L["Head"], "Alt") --Helm of the Forgotten Vanquisher
 LBIS:AddItem(spec, "32329", LBIS.L["Head"], "Alt") --Cowl of Benevolence
 
-LBIS:AddItem(spec, "34209", LBIS.L["Shoulders"], "BIS") --Spaulders of Reclamation
-LBIS:AddItem(spec, "34202", LBIS.L["Shoulders"], "BIS") --Shawl of Wonderment
-LBIS:AddItem(spec, "31047", LBIS.L["Shoulders"], "Alt") --Thunderheart Spaulders
-LBIS:AddItem(spec, "31102", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "34209", LBIS.L["Shoulder"], "BIS") --Spaulders of Reclamation
+LBIS:AddItem(spec, "34202", LBIS.L["Shoulder"], "BIS") --Shawl of Wonderment
+LBIS:AddItem(spec, "31047", LBIS.L["Shoulder"], "Alt") --Thunderheart Spaulders
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Forgotten Vanquisher
 
 LBIS:AddItem(spec, "32337", LBIS.L["Back"], "BIS") --Shroud of Forgiveness
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
@@ -23,19 +23,19 @@ LBIS:AddItem(spec, "34371", LBIS.L["Chest"], "BIS") --Leather Chestguard of the 
 LBIS:AddItem(spec, "31041", LBIS.L["Chest"], "Alt") --Thunderheart Tunic
 LBIS:AddItem(spec, "31090", LBIS.L["Chest"], "Alt") --Chestguard of the Forgotten Vanquisher
 
-LBIS:AddItem(spec, "34445", LBIS.L["Bracers"], "BIS") --Thunderheart Bracers
-LBIS:AddItem(spec, "34852", LBIS.L["Bracers"], "BIS") --Bracers of the Forgotten Vanquisher
-LBIS:AddItem(spec, "30868", LBIS.L["Bracers"], "Alt") --Rejuvenating Bracers
-LBIS:AddItem(spec, "30871", LBIS.L["Bracers"], "Alt") --Bracers of Martyrdom
-LBIS:AddItem(spec, "32584", LBIS.L["Bracers"], "Alt") --Swiftheal Wraps
-LBIS:AddItem(spec, "32582", LBIS.L["Bracers"], "Alt") --Bracers of Renewed Life
-LBIS:AddItem(spec, "34602", LBIS.L["Bracers"], "Alt") --Eversong Cuffs
+LBIS:AddItem(spec, "34445", LBIS.L["Wrist"], "BIS") --Thunderheart Bracers
+LBIS:AddItem(spec, "34852", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Vanquisher
+LBIS:AddItem(spec, "30868", LBIS.L["Wrist"], "Alt") --Rejuvenating Bracers
+LBIS:AddItem(spec, "30871", LBIS.L["Wrist"], "Alt") --Bracers of Martyrdom
+LBIS:AddItem(spec, "32584", LBIS.L["Wrist"], "Alt") --Swiftheal Wraps
+LBIS:AddItem(spec, "32582", LBIS.L["Wrist"], "Alt") --Bracers of Renewed Life
+LBIS:AddItem(spec, "34602", LBIS.L["Wrist"], "Alt") --Eversong Cuffs
 
-LBIS:AddItem(spec, "34342", LBIS.L["Gloves"], "BIS") --Handguards of the Dawn
-LBIS:AddItem(spec, "34372", LBIS.L["Gloves"], "BIS") --Leather Gauntlets of the Sun
-LBIS:AddItem(spec, "34367", LBIS.L["Gloves"], "BIS") --Hands of Eternal Light
-LBIS:AddItem(spec, "34351", LBIS.L["Gloves"], "BIS") --Tranquil Majesty Wraps
-LBIS:AddItem(spec, "32328", LBIS.L["Gloves"], "Alt") --Botanist's Gloves of Growth
+LBIS:AddItem(spec, "34342", LBIS.L["Hands"], "BIS") --Handguards of the Dawn
+LBIS:AddItem(spec, "34372", LBIS.L["Hands"], "BIS") --Leather Gauntlets of the Sun
+LBIS:AddItem(spec, "34367", LBIS.L["Hands"], "BIS") --Hands of Eternal Light
+LBIS:AddItem(spec, "34351", LBIS.L["Hands"], "BIS") --Tranquil Majesty Wraps
+LBIS:AddItem(spec, "32328", LBIS.L["Hands"], "Alt") --Botanist's Gloves of Growth
 
 LBIS:AddItem(spec, "34554", LBIS.L["Waist"], "BIS") --Thunderheart Belt
 LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Vanquisher

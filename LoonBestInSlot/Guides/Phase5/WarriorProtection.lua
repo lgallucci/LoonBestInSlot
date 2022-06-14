@@ -6,11 +6,11 @@ LBIS:AddItem(spec, "34357", LBIS.L["Head"], "BIS Mit") --Hard Khorium Goggles
 LBIS:AddItem(spec, "35068", LBIS.L["Head"], "BIS Thrt") --Brutal Gladiator's Plate Helm
 LBIS:AddItem(spec, "34354", LBIS.L["Head"], "Alt Thrt") --Mayhem Projection Goggles
 
-LBIS:AddItem(spec, "35070", LBIS.L["Shoulders"], "BIS") --Brutal Gladiator's Plate Shoulders
-LBIS:AddItem(spec, "34388", LBIS.L["Shoulders"], "BIS Thrt") --Pauldrons of Berserking
-LBIS:AddItem(spec, "34192", LBIS.L["Shoulders"], "Transmute BIS Thrt") --Pauldrons of Perseverance
-LBIS:AddItem(spec, "30980", LBIS.L["Shoulders"], "Alt Mit") --Onslaught Shoulderguards
-LBIS:AddItem(spec, "31103", LBIS.L["Shoulders"], "Alt Mit") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "35070", LBIS.L["Shoulder"], "BIS") --Brutal Gladiator's Plate Shoulders
+LBIS:AddItem(spec, "34388", LBIS.L["Shoulder"], "BIS Thrt") --Pauldrons of Berserking
+LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "Transmute BIS Thrt") --Pauldrons of Perseverance
+LBIS:AddItem(spec, "30980", LBIS.L["Shoulder"], "Alt Mit") --Onslaught Shoulderguards
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "Alt Mit") --Pauldrons of the Forgotten Protector
 
 LBIS:AddItem(spec, "34190", LBIS.L["Back"], "BIS") --Crimson Paragon's Cover
 LBIS:AddItem(spec, "34010", LBIS.L["Back"], "Alt") --Pepe's Shroud of Pacification
@@ -23,15 +23,15 @@ LBIS:AddItem(spec, "34394", LBIS.L["Chest"], "BIS Mit") --Breastplate of Agony's
 LBIS:AddItem(spec, "30976", LBIS.L["Chest"], "Alt Mit") --Onslaught Chestguard
 LBIS:AddItem(spec, "31091", LBIS.L["Chest"], "Alt Mit") --Chestguard of the Forgotten Protector
 
-LBIS:AddItem(spec, "34442", LBIS.L["Bracers"], "BIS") --Onslaught Wristguards
-LBIS:AddItem(spec, "34851", LBIS.L["Bracers"], "BIS") --Bracers of the Forgotten Protector
-LBIS:AddItem(spec, "33516", LBIS.L["Bracers"], "Alt") --Bracers of the Ancient Phalanx
-LBIS:AddItem(spec, "32232", LBIS.L["Bracers"], "Alt Mit") --Eternium Shell Bracers
+LBIS:AddItem(spec, "34442", LBIS.L["Wrist"], "BIS") --Onslaught Wristguards
+LBIS:AddItem(spec, "34851", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Protector
+LBIS:AddItem(spec, "33516", LBIS.L["Wrist"], "Alt") --Bracers of the Ancient Phalanx
+LBIS:AddItem(spec, "32232", LBIS.L["Wrist"], "Alt Mit") --Eternium Shell Bracers
 
-LBIS:AddItem(spec, "32280", LBIS.L["Gloves"], "Alt") --Gauntlets of Enforcement
-LBIS:AddItem(spec, "34378", LBIS.L["Gloves"], "Alt") --Hard Khorium Battlefists
-LBIS:AddItem(spec, "34341", LBIS.L["Gloves"], "Alt") --Borderland Paingrips
-LBIS:AddItem(spec, "34352", LBIS.L["Gloves"], "BIS Mit") --Borderland Fortress Grips
+LBIS:AddItem(spec, "32280", LBIS.L["Hands"], "Alt") --Gauntlets of Enforcement
+LBIS:AddItem(spec, "34378", LBIS.L["Hands"], "Alt") --Hard Khorium Battlefists
+LBIS:AddItem(spec, "34341", LBIS.L["Hands"], "Alt") --Borderland Paingrips
+LBIS:AddItem(spec, "34352", LBIS.L["Hands"], "BIS Mit") --Borderland Fortress Grips
 
 LBIS:AddItem(spec, "34547", LBIS.L["Waist"], "BIS") --Onslaught Waistguard
 LBIS:AddItem(spec, "34854", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Protector

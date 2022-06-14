@@ -6,9 +6,9 @@ LBIS:AddItem(spec, "32329", LBIS.L["Head"], "BIS") --Cowl of Benevolence
 LBIS:AddItem(spec, "33463", LBIS.L["Head"], "Alt") --Hood of the Third Eye
 LBIS:AddItem(spec, "33356", LBIS.L["Head"], "Alt") --Helm of Natural Regeneration
 
-LBIS:AddItem(spec, "31047", LBIS.L["Shoulders"], "BIS") --Thunderheart Spaulders
-LBIS:AddItem(spec, "31102", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Vanquisher
-LBIS:AddItem(spec, "33287", LBIS.L["Shoulders"], "Alt") --Gnarled Ironwood Pauldrons
+LBIS:AddItem(spec, "31047", LBIS.L["Shoulder"], "BIS") --Thunderheart Spaulders
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "33287", LBIS.L["Shoulder"], "Alt") --Gnarled Ironwood Pauldrons
 
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
 LBIS:AddItem(spec, "32337", LBIS.L["Back"], "BIS") --Shroud of Forgiveness
@@ -18,15 +18,15 @@ LBIS:AddItem(spec, "31041", LBIS.L["Chest"], "BIS") --Thunderheart Tunic
 LBIS:AddItem(spec, "31090", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Vanquisher
 LBIS:AddItem(spec, "33203", LBIS.L["Chest"], "Alt") --Robes of Heavenly Purpose
 
-LBIS:AddItem(spec, "30868", LBIS.L["Bracers"], "BIS") --Rejuvenating Bracers
-LBIS:AddItem(spec, "30871", LBIS.L["Bracers"], "BIS") --Bracers of Martyrdom
-LBIS:AddItem(spec, "32584", LBIS.L["Bracers"], "BIS") --Swiftheal Wraps
-LBIS:AddItem(spec, "32582", LBIS.L["Bracers"], "BIS") --Bracers of Renewed Life
-LBIS:AddItem(spec, "33589", LBIS.L["Bracers"], "Alt") --Wristguards of Tranquil Thought
-LBIS:AddItem(spec, "33557", LBIS.L["Bracers"], "Alt") --Gargon's Bracers of Peaceful Slumber
+LBIS:AddItem(spec, "30868", LBIS.L["Wrist"], "BIS") --Rejuvenating Bracers
+LBIS:AddItem(spec, "30871", LBIS.L["Wrist"], "BIS") --Bracers of Martyrdom
+LBIS:AddItem(spec, "32584", LBIS.L["Wrist"], "BIS") --Swiftheal Wraps
+LBIS:AddItem(spec, "32582", LBIS.L["Wrist"], "BIS") --Bracers of Renewed Life
+LBIS:AddItem(spec, "33589", LBIS.L["Wrist"], "Alt") --Wristguards of Tranquil Thought
+LBIS:AddItem(spec, "33557", LBIS.L["Wrist"], "Alt") --Gargon's Bracers of Peaceful Slumber
 
-LBIS:AddItem(spec, "32328", LBIS.L["Gloves"], "BIS") --Botanist's Gloves of Growth
-LBIS:AddItem(spec, "33587", LBIS.L["Gloves"], "Alt") --Light-Blessed Bonds
+LBIS:AddItem(spec, "32328", LBIS.L["Hands"], "BIS") --Botanist's Gloves of Growth
+LBIS:AddItem(spec, "33587", LBIS.L["Hands"], "Alt") --Light-Blessed Bonds
 
 LBIS:AddItem(spec, "30895", LBIS.L["Waist"], "BIS") --Angelista's Sash
 LBIS:AddItem(spec, "32339", LBIS.L["Waist"], "BIS") --Belt of Primal Majesty

@@ -4,11 +4,11 @@ LBIS:AddItem(spec, "30141", LBIS.L["Head"], "BIS") --Rift Stalker Helm
 LBIS:AddItem(spec, "30244", LBIS.L["Head"], "BIS") --Helm of the Vanquished Hero
 LBIS:AddItem(spec, "28275", LBIS.L["Head"], "Alt") --Beast Lord Helm
 
-LBIS:AddItem(spec, "30143", LBIS.L["Shoulders"], "BIS") --Rift Stalker Mantle
-LBIS:AddItem(spec, "30250", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Hero
-LBIS:AddItem(spec, "27801", LBIS.L["Shoulders"], "Alt") --Beast Lord Mantle
-LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "Alt") --Shoulderpads of the Stranger
-LBIS:AddItem(spec, "30085", LBIS.L["Shoulders"], "Alt") --Mantle of the Tireless Tracker
+LBIS:AddItem(spec, "30143", LBIS.L["Shoulder"], "BIS") --Rift Stalker Mantle
+LBIS:AddItem(spec, "30250", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Hero
+LBIS:AddItem(spec, "27801", LBIS.L["Shoulder"], "Alt") --Beast Lord Mantle
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "30085", LBIS.L["Shoulder"], "Alt") --Mantle of the Tireless Tracker
 
 LBIS:AddItem(spec, "29994", LBIS.L["Back"], "BIS") --Thalassian Wildercloak
 LBIS:AddItem(spec, "28672", LBIS.L["Back"], "Alt") --Drape of the Dark Reavers
@@ -17,11 +17,11 @@ LBIS:AddItem(spec, "30139", LBIS.L["Chest"], "BIS") --Rift Stalker Hauberk
 LBIS:AddItem(spec, "30238", LBIS.L["Chest"], "BIS") --Chestguard of the Vanquished Hero
 LBIS:AddItem(spec, "28228", LBIS.L["Chest"], "Alt") --Beast Lord Cuirass
 
-LBIS:AddItem(spec, "29966", LBIS.L["Bracers"], "BIS") --Vambraces of Ending
-LBIS:AddItem(spec, "30026", LBIS.L["Bracers"], "Alt") --Bands of the Celestial Archer
+LBIS:AddItem(spec, "29966", LBIS.L["Wrist"], "BIS") --Vambraces of Ending
+LBIS:AddItem(spec, "30026", LBIS.L["Wrist"], "Alt") --Bands of the Celestial Archer
 
-LBIS:AddItem(spec, "28506", LBIS.L["Gloves"], "BIS") --Gloves of Dexterous Manipulation
-LBIS:AddItem(spec, "27474", LBIS.L["Gloves"], "Alt") --Beast Lord Handguards
+LBIS:AddItem(spec, "28506", LBIS.L["Hands"], "BIS") --Gloves of Dexterous Manipulation
+LBIS:AddItem(spec, "27474", LBIS.L["Hands"], "Alt") --Beast Lord Handguards
 
 LBIS:AddItem(spec, "30040", LBIS.L["Waist"], "BIS") --Belt of Deep Shadow
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "Alt") --Belt of One-Hundred Deaths

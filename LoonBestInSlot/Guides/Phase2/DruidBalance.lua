@@ -6,12 +6,12 @@ LBIS:AddItem(spec, "29986", LBIS.L["Head"], "Alt") --Cowl of the Grand Engineer
 LBIS:AddItem(spec, "32480", LBIS.L["Head"], "Alt") --Magnified Moon Specs
 LBIS:AddItem(spec, "24266", LBIS.L["Head"], "Alt") --Spellstrike Hood
 
-LBIS:AddItem(spec, "30235", LBIS.L["Shoulders"], "BIS") --Nordrassil Wrath-Mantle
-LBIS:AddItem(spec, "30249", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Defender
-LBIS:AddItem(spec, "30024", LBIS.L["Shoulders"], "Alt") --Mantle of the Elven Kings
-LBIS:AddItem(spec, "30079", LBIS.L["Shoulders"], "Alt") --Illidari Shoulderpads
-LBIS:AddItem(spec, "29095", LBIS.L["Shoulders"], "Alt") --Pauldrons of Malorne
-LBIS:AddItem(spec, "29764", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Fallen Defender
+LBIS:AddItem(spec, "30235", LBIS.L["Shoulder"], "BIS") --Nordrassil Wrath-Mantle
+LBIS:AddItem(spec, "30249", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Defender
+LBIS:AddItem(spec, "30024", LBIS.L["Shoulder"], "Alt") --Mantle of the Elven Kings
+LBIS:AddItem(spec, "30079", LBIS.L["Shoulder"], "Alt") --Illidari Shoulderpads
+LBIS:AddItem(spec, "29095", LBIS.L["Shoulder"], "Alt") --Pauldrons of Malorne
+LBIS:AddItem(spec, "29764", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Fallen Defender
 
 LBIS:AddItem(spec, "30735", LBIS.L["Back"], "BIS") --Ancient Spellcloak of the Highborne
 LBIS:AddItem(spec, "28797", LBIS.L["Back"], "BIS") --Brute Cloak of the Ogre-Magi
@@ -26,17 +26,17 @@ LBIS:AddItem(spec, "30056", LBIS.L["Chest"], "Alt") --Robe of Hateful Echoes
 LBIS:AddItem(spec, "29091", LBIS.L["Chest"], "Alt") --Chestpiece of Malorne
 LBIS:AddItem(spec, "29753", LBIS.L["Chest"], "Alt") --Chestguard of the Fallen Defender
 
-LBIS:AddItem(spec, "29918", LBIS.L["Bracers"], "BIS") --Mindstorm Wristbands
-LBIS:AddItem(spec, "29523", LBIS.L["Bracers"], "Alt") --Windhawk Bracers
-LBIS:AddItem(spec, "32655", LBIS.L["Bracers"], "Alt") --Crystalweave Bracers
-LBIS:AddItem(spec, "24250", LBIS.L["Bracers"], "Alt") --Bracers of Havok
+LBIS:AddItem(spec, "29918", LBIS.L["Wrist"], "BIS") --Mindstorm Wristbands
+LBIS:AddItem(spec, "29523", LBIS.L["Wrist"], "Alt") --Windhawk Bracers
+LBIS:AddItem(spec, "32655", LBIS.L["Wrist"], "Alt") --Crystalweave Bracers
+LBIS:AddItem(spec, "24250", LBIS.L["Wrist"], "Alt") --Bracers of Havok
 
-LBIS:AddItem(spec, "30232", LBIS.L["Gloves"], "BIS") --Nordrassil Gauntlets
-LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Defender
-LBIS:AddItem(spec, "30725", LBIS.L["Gloves"], "Alt") --Anger-Spark Gloves
-LBIS:AddItem(spec, "21847", LBIS.L["Gloves"], "Alt") --Spellfire Gloves
-LBIS:AddItem(spec, "28507", LBIS.L["Gloves"], "Alt") --Handwraps of Flowing Thought
-LBIS:AddItem(spec, "29987", LBIS.L["Gloves"], "Alt") --Gauntlets of the Sun King
+LBIS:AddItem(spec, "30232", LBIS.L["Hands"], "BIS") --Nordrassil Gauntlets
+LBIS:AddItem(spec, "30240", LBIS.L["Hands"], "BIS") --Gloves of the Vanquished Defender
+LBIS:AddItem(spec, "30725", LBIS.L["Hands"], "Alt") --Anger-Spark Gloves
+LBIS:AddItem(spec, "21847", LBIS.L["Hands"], "Alt") --Spellfire Gloves
+LBIS:AddItem(spec, "28507", LBIS.L["Hands"], "Alt") --Handwraps of Flowing Thought
+LBIS:AddItem(spec, "29987", LBIS.L["Hands"], "Alt") --Gauntlets of the Sun King
 
 LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
 LBIS:AddItem(spec, "30064", LBIS.L["Waist"], "Alt") --Cord of Screaming Terrors

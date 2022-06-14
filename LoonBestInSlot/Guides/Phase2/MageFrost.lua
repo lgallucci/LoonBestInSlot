@@ -5,11 +5,11 @@ LBIS:AddItem(spec, "29986", LBIS.L["Head"], "Alt") --Cowl of the Grand Engineer
 LBIS:AddItem(spec, "30206", LBIS.L["Head"], "Alt") --Cowl of Tirisfal
 LBIS:AddItem(spec, "30244", LBIS.L["Head"], "Alt") --Helm of the Vanquished Hero
 
-LBIS:AddItem(spec, "30210", LBIS.L["Shoulders"], "BIS") --Mantle of Tirisfal
-LBIS:AddItem(spec, "30250", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Hero
-LBIS:AddItem(spec, "30024", LBIS.L["Shoulders"], "Alt") --Mantle of the Elven Kings
-LBIS:AddItem(spec, "21869", LBIS.L["Shoulders"], "Alt") --Frozen Shadoweave Shoulders
-LBIS:AddItem(spec, "30079", LBIS.L["Shoulders"], "Alt") --Illidari Shoulderpads
+LBIS:AddItem(spec, "30210", LBIS.L["Shoulder"], "BIS") --Mantle of Tirisfal
+LBIS:AddItem(spec, "30250", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Hero
+LBIS:AddItem(spec, "30024", LBIS.L["Shoulder"], "Alt") --Mantle of the Elven Kings
+LBIS:AddItem(spec, "21869", LBIS.L["Shoulder"], "Alt") --Frozen Shadoweave Shoulders
+LBIS:AddItem(spec, "30079", LBIS.L["Shoulder"], "Alt") --Illidari Shoulderpads
 
 LBIS:AddItem(spec, "28766", LBIS.L["Back"], "BIS") --Ruby Drape of the Mysticant
 LBIS:AddItem(spec, "29992", LBIS.L["Back"], "Alt") --Royal Cloak of the Sunstriders
@@ -21,13 +21,13 @@ LBIS:AddItem(spec, "30196", LBIS.L["Chest"], "Alt") --Robes of Tirisfal
 LBIS:AddItem(spec, "30238", LBIS.L["Chest"], "Alt") --Chestguard of the Vanquished Hero
 LBIS:AddItem(spec, "30056", LBIS.L["Chest"], "Alt") --Robe of Hateful Echoes
 
-LBIS:AddItem(spec, "29918", LBIS.L["Bracers"], "BIS") --Mindstorm Wristbands
-LBIS:AddItem(spec, "24250", LBIS.L["Bracers"], "Alt") --Bracers of Havok
+LBIS:AddItem(spec, "29918", LBIS.L["Wrist"], "BIS") --Mindstorm Wristbands
+LBIS:AddItem(spec, "24250", LBIS.L["Wrist"], "Alt") --Bracers of Havok
 
-LBIS:AddItem(spec, "30725", LBIS.L["Gloves"], "BIS") --Anger-Spark Gloves
-LBIS:AddItem(spec, "29987", LBIS.L["Gloves"], "Alt") --Gauntlets of the Sun King
-LBIS:AddItem(spec, "30205", LBIS.L["Gloves"], "Alt") --Gloves of Tirisfal
-LBIS:AddItem(spec, "30241", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Hero
+LBIS:AddItem(spec, "30725", LBIS.L["Hands"], "BIS") --Anger-Spark Gloves
+LBIS:AddItem(spec, "29987", LBIS.L["Hands"], "Alt") --Gauntlets of the Sun King
+LBIS:AddItem(spec, "30205", LBIS.L["Hands"], "Alt") --Gloves of Tirisfal
+LBIS:AddItem(spec, "30241", LBIS.L["Hands"], "Alt") --Gloves of the Vanquished Hero
 
 LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
 LBIS:AddItem(spec, "30064", LBIS.L["Waist"], "Alt") --Cord of Screaming Terrors

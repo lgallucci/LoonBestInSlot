@@ -56,7 +56,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Bleeding Hollow Supply Crates"] = "피눈물 보급품 상자";
 --  LBIS.L["Blessings Deck"] = "";
   LBIS.L["Blood Guard Porung"] = "혈투사 포룽";
---  LBIS.L["Bracers"] = "";
 --  LBIS.L["Brewfest"] = "";
   LBIS.L["Bring Me The Egg!"] = "알을 가져와!";
   LBIS.L["Broggok"] = "브로고크";
@@ -134,7 +133,6 @@ if GetLocale() == "koKR" then
 --  LBIS.L["General Drakkisath's Demise - Marshal Maxwell/For The Horde!"] = "";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "가즈안";
---  LBIS.L["Gloves"] = "";
 --  LBIS.L["Gnomish Engineer"] = "";
   LBIS.L["Grand Warlock Nethekurse"] = "대흑마법사 네더쿠르스";
   LBIS.L["Grandmaster Vorpil"] = "단장 보르필";
@@ -142,9 +140,10 @@ if GetLocale() == "koKR" then
   LBIS.L["Gruul's Lair"] = "그룰의 둥지";
   LBIS.L["Gurok the Usurper"] = "강탈자 구로크";
   LBIS.L["Gurtogg Bloodboil"] = "구르토그 블러드보일";
---  LBIS.L["Hail,Commander!"] = "";
+  LBIS.L["Hail, Commander!"] = "지휘관이여!";
   LBIS.L["Halazzi"] = "할라지 <스라소니의 화신>";
 --  LBIS.L["Hallows Eve"] = "";
+  LBIS.L["Hands"] = "손";
   LBIS.L["Harbinger Skyriss"] = "선구자 스키리스";
   LBIS.L["Head"] = "머리";
   LBIS.L["Headless Horseman"] = "저주받은 기사";
@@ -296,7 +295,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Shattrath City"] = "샤트라스";
   LBIS.L["Shield"] = "방패";
   LBIS.L["Shirrak the Dead Watcher"] = "죽음의 감시인 쉴라크";
---  LBIS.L["Shoulders"] = "";
+  LBIS.L["Shoulder"] = "어깨";
 --  LBIS.L["Show Minimap Button:"] = "";
 --  LBIS.L["Show Tooltip:"] = "";
   LBIS.L["Showdown"] = "대결";
@@ -417,6 +416,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["World Drop"] = "";
   LBIS.L["Wrath-Scryer Soccothrates"] = "격노의 점술사 소코드라테스";
 --  LBIS.L["Wrath-Scryer Soccothrates and Zereketh the Unbound"] = "";
+  LBIS.L["Wrist"] = "손목";
   LBIS.L["Yor"] = "요르";
   LBIS.L["You're Hired!"] = "B.O.O.M의 일원!";
   LBIS.L["Zangarmarsh"] = "장가르 습지대";

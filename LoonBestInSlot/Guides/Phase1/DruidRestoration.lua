@@ -5,11 +5,11 @@ LBIS:AddItem(spec, "29086", LBIS.L["Head"], "BIS") --Crown of Malorne
 LBIS:AddItem(spec, "29761", LBIS.L["Head"], "BIS") --Helm of the Fallen Defender
 LBIS:AddItem(spec, "28803", LBIS.L["Head"], "Alt") --Cowl of Nature's Breath
 
-LBIS:AddItem(spec, "21874", LBIS.L["Shoulders"], "BIS") --Primal Mooncloth Shoulders
-LBIS:AddItem(spec, "29089", LBIS.L["Shoulders"], "BIS") --Shoulderguards of Malorne
-LBIS:AddItem(spec, "29764", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Defender
-LBIS:AddItem(spec, "28612", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Solace-Giver
-LBIS:AddItem(spec, "28647", LBIS.L["Shoulders"], "Alt") --Forest Wind Shoulderpads
+LBIS:AddItem(spec, "21874", LBIS.L["Shoulder"], "BIS") --Primal Mooncloth Shoulders
+LBIS:AddItem(spec, "29089", LBIS.L["Shoulder"], "BIS") --Shoulderguards of Malorne
+LBIS:AddItem(spec, "29764", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Defender
+LBIS:AddItem(spec, "28612", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Solace-Giver
+LBIS:AddItem(spec, "28647", LBIS.L["Shoulder"], "Alt") --Forest Wind Shoulderpads
 
 LBIS:AddItem(spec, "28765", LBIS.L["Back"], "BIS") --Stainless Cloak of the Pure Hearted
 LBIS:AddItem(spec, "31329", LBIS.L["Back"], "BIS") --Lifegiving Cloak
@@ -22,15 +22,15 @@ LBIS:AddItem(spec, "29087", LBIS.L["Chest"], "Alt") --Chestguard of Malorne
 LBIS:AddItem(spec, "29753", LBIS.L["Chest"], "Alt") --Chestguard of the Fallen Defender
 LBIS:AddItem(spec, "28600", LBIS.L["Chest"], "Alt") --Stonebough Jerkin
 
-LBIS:AddItem(spec, "29183", LBIS.L["Bracers"], "BIS") --Bindings of the Timewalker
-LBIS:AddItem(spec, "29523", LBIS.L["Bracers"], "BIS") --Windhawk Bracers
-LBIS:AddItem(spec, "28511", LBIS.L["Bracers"], "BIS") --Bands of Indwelling
+LBIS:AddItem(spec, "29183", LBIS.L["Wrist"], "BIS") --Bindings of the Timewalker
+LBIS:AddItem(spec, "29523", LBIS.L["Wrist"], "BIS") --Windhawk Bracers
+LBIS:AddItem(spec, "28511", LBIS.L["Wrist"], "BIS") --Bands of Indwelling
 
-LBIS:AddItem(spec, "28521", LBIS.L["Gloves"], "BIS") --Mitts of the Treemender
-LBIS:AddItem(spec, "28508", LBIS.L["Gloves"], "Alt") --Gloves of Saintly Blessings
-LBIS:AddItem(spec, "29090", LBIS.L["Gloves"], "Alt") --Handguards of Malorne
-LBIS:AddItem(spec, "29758", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Defender
-LBIS:AddItem(spec, "29506", LBIS.L["Gloves"], "Alt") --Gloves of the Living Touch
+LBIS:AddItem(spec, "28521", LBIS.L["Hands"], "BIS") --Mitts of the Treemender
+LBIS:AddItem(spec, "28508", LBIS.L["Hands"], "Alt") --Gloves of Saintly Blessings
+LBIS:AddItem(spec, "29090", LBIS.L["Hands"], "Alt") --Handguards of Malorne
+LBIS:AddItem(spec, "29758", LBIS.L["Hands"], "Alt") --Gloves of the Fallen Defender
+LBIS:AddItem(spec, "29506", LBIS.L["Hands"], "Alt") --Gloves of the Living Touch
 
 LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt
 LBIS:AddItem(spec, "28655", LBIS.L["Waist"], "Alt") --Cord of Nature's Sustenance

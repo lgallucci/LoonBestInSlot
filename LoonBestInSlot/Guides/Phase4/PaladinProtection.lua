@@ -5,9 +5,9 @@ LBIS:AddItem(spec, "30987", LBIS.L["Head"], "BIS Thrt") --Lightbringer Faceguard
 LBIS:AddItem(spec, "31097", LBIS.L["Head"], "BIS Thrt") --Helm of the Forgotten Conqueror
 LBIS:AddItem(spec, "33421", LBIS.L["Head"], "Alt Mit") --Battleworn Tuskguard
 
-LBIS:AddItem(spec, "30998", LBIS.L["Shoulders"], "BIS") --Lightbringer Shoulderguards
-LBIS:AddItem(spec, "31101", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Conqueror
-LBIS:AddItem(spec, "33481", LBIS.L["Shoulders"], "Alt") --Pauldrons of Stone Resolve
+LBIS:AddItem(spec, "30998", LBIS.L["Shoulder"], "BIS") --Lightbringer Shoulderguards
+LBIS:AddItem(spec, "31101", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Conqueror
+LBIS:AddItem(spec, "33481", LBIS.L["Shoulder"], "Alt") --Pauldrons of Stone Resolve
 
 LBIS:AddItem(spec, "34010", LBIS.L["Back"], "BIS") --Pepe's Shroud of Pacification
 LBIS:AddItem(spec, "33593", LBIS.L["Back"], "BIS Mit") --Slikk's Cloak of Placation
@@ -16,13 +16,13 @@ LBIS:AddItem(spec, "30991", LBIS.L["Chest"], "BIS") --Lightbringer Chestguard
 LBIS:AddItem(spec, "31089", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Conqueror
 LBIS:AddItem(spec, "33473", LBIS.L["Chest"], "Alt Mit") --Chestguard of the Warlord
 
-LBIS:AddItem(spec, "32279", LBIS.L["Bracers"], "BIS") --The Seeker's Wristguards
-LBIS:AddItem(spec, "32232", LBIS.L["Bracers"], "BIS Mit") --Eternium Shell Bracers
-LBIS:AddItem(spec, "33516", LBIS.L["Bracers"], "Alt Mit") --Bracers of the Ancient Phalanx
+LBIS:AddItem(spec, "32279", LBIS.L["Wrist"], "BIS") --The Seeker's Wristguards
+LBIS:AddItem(spec, "32232", LBIS.L["Wrist"], "BIS Mit") --Eternium Shell Bracers
+LBIS:AddItem(spec, "33516", LBIS.L["Wrist"], "Alt Mit") --Bracers of the Ancient Phalanx
 
-LBIS:AddItem(spec, "30985", LBIS.L["Gloves"], "BIS") --Lightbringer Handguards
-LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Conqueror
-LBIS:AddItem(spec, "33517", LBIS.L["Gloves"], "Alt Mit") --Bonefist Gauntlets
+LBIS:AddItem(spec, "30985", LBIS.L["Hands"], "BIS") --Lightbringer Handguards
+LBIS:AddItem(spec, "31092", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Conqueror
+LBIS:AddItem(spec, "33517", LBIS.L["Hands"], "Alt Mit") --Bonefist Gauntlets
 
 LBIS:AddItem(spec, "32342", LBIS.L["Waist"], "BIS") --Girdle of Mighty Resolve
 LBIS:AddItem(spec, "33524", LBIS.L["Waist"], "BIS Thrt") --Girdle of the Protector

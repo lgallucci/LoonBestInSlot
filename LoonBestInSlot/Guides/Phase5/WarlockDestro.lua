@@ -7,12 +7,12 @@ LBIS:AddItem(spec, "31097", LBIS.L["Head"], "Alt") --Helm of the Forgotten Conqu
 LBIS:AddItem(spec, "34405", LBIS.L["Head"], "Alt") --Helm of Arcane Purity
 LBIS:AddItem(spec, "34339", LBIS.L["Head"], "Transmute Alt") --Cowl of Light's Purity
 
-LBIS:AddItem(spec, "34210", LBIS.L["Shoulders"], "BIS") --Amice of the Convoker
-LBIS:AddItem(spec, "31054", LBIS.L["Shoulders"], "BIS") --Mantle of the Malefic
-LBIS:AddItem(spec, "31101", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Conqueror
-LBIS:AddItem(spec, "34393", LBIS.L["Shoulders"], "Alt") --Shoulderpads of Knowledge's Pursuit
-LBIS:AddItem(spec, "34202", LBIS.L["Shoulders"], "Transmute Alt") --Shawl of Wonderment
-LBIS:AddItem(spec, "34607", LBIS.L["Shoulders"], "Alt") --Fel-tinged Mantle
+LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "BIS") --Amice of the Convoker
+LBIS:AddItem(spec, "31054", LBIS.L["Shoulder"], "BIS") --Mantle of the Malefic
+LBIS:AddItem(spec, "31101", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Conqueror
+LBIS:AddItem(spec, "34393", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Knowledge's Pursuit
+LBIS:AddItem(spec, "34202", LBIS.L["Shoulder"], "Transmute Alt") --Shawl of Wonderment
+LBIS:AddItem(spec, "34607", LBIS.L["Shoulder"], "Alt") --Fel-tinged Mantle
 
 LBIS:AddItem(spec, "34242", LBIS.L["Back"], "BIS") --Tattered Cape of Antonidas
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "Alt") --Shroud of the Highborne
@@ -27,18 +27,18 @@ LBIS:AddItem(spec, "31089", LBIS.L["Chest"], "Alt") --Chestguard of the Forgotte
 LBIS:AddItem(spec, "34936", LBIS.L["Chest"], "Alt") --Tormented Demonsoul Robes
 LBIS:AddItem(spec, "34610", LBIS.L["Chest"], "Alt") --Scarlet Sin'dorei Robes
 
-LBIS:AddItem(spec, "34436", LBIS.L["Bracers"], "BIS") --Bracers of the Malefic
-LBIS:AddItem(spec, "34848", LBIS.L["Bracers"], "BIS") --Bracers of the Forgotten Conqueror
-LBIS:AddItem(spec, "32586", LBIS.L["Bracers"], "Alt") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "34436", LBIS.L["Wrist"], "BIS") --Bracers of the Malefic
+LBIS:AddItem(spec, "34848", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Conqueror
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "Alt") --Bracers of Nimble Thought
 
-LBIS:AddItem(spec, "34344", LBIS.L["Gloves"], "BIS") --Handguards of Defiled Worlds
-LBIS:AddItem(spec, "34406", LBIS.L["Gloves"], "Alt") --Gloves of Tyri's Power
-LBIS:AddItem(spec, "34342", LBIS.L["Gloves"], "Transmute Alt") --Handguards of the Dawn
-LBIS:AddItem(spec, "34366", LBIS.L["Gloves"], "Alt") --Sunfire Handwraps
-LBIS:AddItem(spec, "31050", LBIS.L["Gloves"], "Alt") --Gloves of the Malefic
-LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Conqueror
-LBIS:AddItem(spec, "34938", LBIS.L["Gloves"], "Alt") --Enslaved Doomguard Soulgrips
-LBIS:AddItem(spec, "34808", LBIS.L["Gloves"], "Alt") --Gloves of Arcane Acuity
+LBIS:AddItem(spec, "34344", LBIS.L["Hands"], "BIS") --Handguards of Defiled Worlds
+LBIS:AddItem(spec, "34406", LBIS.L["Hands"], "Alt") --Gloves of Tyri's Power
+LBIS:AddItem(spec, "34342", LBIS.L["Hands"], "Transmute Alt") --Handguards of the Dawn
+LBIS:AddItem(spec, "34366", LBIS.L["Hands"], "Alt") --Sunfire Handwraps
+LBIS:AddItem(spec, "31050", LBIS.L["Hands"], "Alt") --Gloves of the Malefic
+LBIS:AddItem(spec, "31092", LBIS.L["Hands"], "Alt") --Gloves of the Forgotten Conqueror
+LBIS:AddItem(spec, "34938", LBIS.L["Hands"], "Alt") --Enslaved Doomguard Soulgrips
+LBIS:AddItem(spec, "34808", LBIS.L["Hands"], "Alt") --Gloves of Arcane Acuity
 
 LBIS:AddItem(spec, "34541", LBIS.L["Waist"], "BIS") --Belt of the Malefic
 LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "Alt") --Belt of Blasting

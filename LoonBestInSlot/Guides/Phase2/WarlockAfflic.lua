@@ -7,12 +7,12 @@ LBIS:AddItem(spec, "28963", LBIS.L["Head"], "Alt") --Voidheart Crown
 LBIS:AddItem(spec, "29759", LBIS.L["Head"], "Alt") --Helm of the Fallen Hero
 LBIS:AddItem(spec, "29986", LBIS.L["Head"], "Alt") --Cowl of the Grand Engineer
 
-LBIS:AddItem(spec, "28967", LBIS.L["Shoulders"], "BIS") --Voidheart Mantle
-LBIS:AddItem(spec, "29762", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Hero
-LBIS:AddItem(spec, "30215", LBIS.L["Shoulders"], "Alt") --Mantle of the Corruptor
-LBIS:AddItem(spec, "30250", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Vanquished Hero
-LBIS:AddItem(spec, "30079", LBIS.L["Shoulders"], "Alt") --Illidari Shoulderpads
-LBIS:AddItem(spec, "30024", LBIS.L["Shoulders"], "Alt") --Mantle of the Elven Kings
+LBIS:AddItem(spec, "28967", LBIS.L["Shoulder"], "BIS") --Voidheart Mantle
+LBIS:AddItem(spec, "29762", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Hero
+LBIS:AddItem(spec, "30215", LBIS.L["Shoulder"], "Alt") --Mantle of the Corruptor
+LBIS:AddItem(spec, "30250", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Vanquished Hero
+LBIS:AddItem(spec, "30079", LBIS.L["Shoulder"], "Alt") --Illidari Shoulderpads
+LBIS:AddItem(spec, "30024", LBIS.L["Shoulder"], "Alt") --Mantle of the Elven Kings
 
 LBIS:AddItem(spec, "28766", LBIS.L["Back"], "BIS") --Ruby Drape of the Mysticant
 LBIS:AddItem(spec, "30735", LBIS.L["Back"], "BIS") --Ancient Spellcloak of the Highborne
@@ -25,16 +25,16 @@ LBIS:AddItem(spec, "30056", LBIS.L["Chest"], "Alt") --Robe of Hateful Echoes
 LBIS:AddItem(spec, "28964", LBIS.L["Chest"], "Alt") --Voidheart Robe
 LBIS:AddItem(spec, "29755", LBIS.L["Chest"], "Alt") --Chestguard of the Fallen Hero
 
-LBIS:AddItem(spec, "29918", LBIS.L["Bracers"], "BIS") --Mindstorm Wristbands
-LBIS:AddItem(spec, "32820", LBIS.L["Bracers"], "Alt") --Veteran's Silk Cuffs
-LBIS:AddItem(spec, "24250", LBIS.L["Bracers"], "Alt") --Bracers of Havok
+LBIS:AddItem(spec, "29918", LBIS.L["Wrist"], "BIS") --Mindstorm Wristbands
+LBIS:AddItem(spec, "32820", LBIS.L["Wrist"], "Alt") --Veteran's Silk Cuffs
+LBIS:AddItem(spec, "24250", LBIS.L["Wrist"], "Alt") --Bracers of Havok
 
-LBIS:AddItem(spec, "28968", LBIS.L["Gloves"], "BIS") --Voidheart Gloves
-LBIS:AddItem(spec, "29756", LBIS.L["Gloves"], "BIS") --Gloves of the Fallen Hero
-LBIS:AddItem(spec, "30725", LBIS.L["Gloves"], "BIS") --Anger-Spark Gloves
-LBIS:AddItem(spec, "29987", LBIS.L["Gloves"], "Alt") --Gauntlets of the Sun King
-LBIS:AddItem(spec, "30211", LBIS.L["Gloves"], "Alt") --Gloves of the Corruptor
-LBIS:AddItem(spec, "30241", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Hero
+LBIS:AddItem(spec, "28968", LBIS.L["Hands"], "BIS") --Voidheart Gloves
+LBIS:AddItem(spec, "29756", LBIS.L["Hands"], "BIS") --Gloves of the Fallen Hero
+LBIS:AddItem(spec, "30725", LBIS.L["Hands"], "BIS") --Anger-Spark Gloves
+LBIS:AddItem(spec, "29987", LBIS.L["Hands"], "Alt") --Gauntlets of the Sun King
+LBIS:AddItem(spec, "30211", LBIS.L["Hands"], "Alt") --Gloves of the Corruptor
+LBIS:AddItem(spec, "30241", LBIS.L["Hands"], "Alt") --Gloves of the Vanquished Hero
 
 LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
 LBIS:AddItem(spec, "30064", LBIS.L["Waist"], "Alt") --Cord of Screaming Terrors

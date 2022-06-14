@@ -4,10 +4,10 @@ LBIS:AddItem(spec, "32083", LBIS.L["Head"], "BIS Mit") --Faceguard of Determinat
 LBIS:AddItem(spec, "33697", LBIS.L["Head"], "BIS") --Vengeful Gladiator's Lamellar Helm
 LBIS:AddItem(spec, "32473", LBIS.L["Head"], "Alt") --Tankatronic Goggles
 
-LBIS:AddItem(spec, "33699", LBIS.L["Shoulders"], "BIS") --Vengeful Gladiator's Lamellar Shoulders
-LBIS:AddItem(spec, "27847", LBIS.L["Shoulders"], "Alt") --Fanblade Pauldrons
-LBIS:AddItem(spec, "27739", LBIS.L["Shoulders"], "Alt") --Spaulders of the Righteous
-LBIS:AddItem(spec, "30291", LBIS.L["Shoulders"], "Alt") --Nexus-Guard's Pauldrons
+LBIS:AddItem(spec, "33699", LBIS.L["Shoulder"], "BIS") --Vengeful Gladiator's Lamellar Shoulders
+LBIS:AddItem(spec, "27847", LBIS.L["Shoulder"], "Alt") --Fanblade Pauldrons
+LBIS:AddItem(spec, "27739", LBIS.L["Shoulder"], "Alt") --Spaulders of the Righteous
+LBIS:AddItem(spec, "30291", LBIS.L["Shoulder"], "Alt") --Nexus-Guard's Pauldrons
 
 LBIS:AddItem(spec, "33593", LBIS.L["Back"], "BIS") --Slikk's Cloak of Placation
 
@@ -16,13 +16,13 @@ LBIS:AddItem(spec, "34939", LBIS.L["Chest"], "BIS Mit") --Chestplate of Stoicism
 LBIS:AddItem(spec, "33522", LBIS.L["Chest"], "Alt") --Chestguard of the Stoic Guardian
 LBIS:AddItem(spec, "33695", LBIS.L["Chest"], "Alt") --Vengeful Gladiator's Lamellar Chestpiece
 
-LBIS:AddItem(spec, "33516", LBIS.L["Bracers"], "BIS") --Bracers of the Ancient Phalanx
-LBIS:AddItem(spec, "29252", LBIS.L["Bracers"], "Alt") --Bracers of Dignity
-LBIS:AddItem(spec, "23538", LBIS.L["Bracers"], "Alt") --Bracers of the Green Fortress
+LBIS:AddItem(spec, "33516", LBIS.L["Wrist"], "BIS") --Bracers of the Ancient Phalanx
+LBIS:AddItem(spec, "29252", LBIS.L["Wrist"], "Alt") --Bracers of Dignity
+LBIS:AddItem(spec, "23538", LBIS.L["Wrist"], "Alt") --Bracers of the Green Fortress
 
-LBIS:AddItem(spec, "33517", LBIS.L["Gloves"], "BIS") --Bonefist Gauntlets
-LBIS:AddItem(spec, "30741", LBIS.L["Gloves"], "BIS") --Topaz-Studded Battlegrips
-LBIS:AddItem(spec, "25788", LBIS.L["Gloves"], "Alt") --Dauntless Handguards
+LBIS:AddItem(spec, "33517", LBIS.L["Hands"], "BIS") --Bonefist Gauntlets
+LBIS:AddItem(spec, "30741", LBIS.L["Hands"], "BIS") --Topaz-Studded Battlegrips
+LBIS:AddItem(spec, "25788", LBIS.L["Hands"], "Alt") --Dauntless Handguards
 
 LBIS:AddItem(spec, "33524", LBIS.L["Waist"], "BIS") --Girdle of the Protector
 LBIS:AddItem(spec, "33279", LBIS.L["Waist"], "Alt") --Iron-tusk Girdle

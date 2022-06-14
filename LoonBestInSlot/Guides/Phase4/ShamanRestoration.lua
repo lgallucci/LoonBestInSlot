@@ -3,9 +3,9 @@ local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "4")
 LBIS:AddItem(spec, "31012", LBIS.L["Head"], "BIS") --Skyshatter Helmet
 LBIS:AddItem(spec, "31095", LBIS.L["Head"], "BIS") --Helm of the Forgotten Protector
 
-LBIS:AddItem(spec, "31022", LBIS.L["Shoulders"], "BIS") --Skyshatter Shoulderpads
-LBIS:AddItem(spec, "31103", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Protector
-LBIS:AddItem(spec, "33464", LBIS.L["Shoulders"], "Alt") --Hex Lord's Voodoo Pauldrons
+LBIS:AddItem(spec, "31022", LBIS.L["Shoulder"], "BIS") --Skyshatter Shoulderpads
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "33464", LBIS.L["Shoulder"], "Alt") --Hex Lord's Voodoo Pauldrons
 
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
 LBIS:AddItem(spec, "33592", LBIS.L["Back"], "Alt") --Cloak of Ancient Rituals
@@ -15,12 +15,12 @@ LBIS:AddItem(spec, "31016", LBIS.L["Chest"], "BIS") --Skyshatter Chestguard
 LBIS:AddItem(spec, "31091", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Protector
 LBIS:AddItem(spec, "33469", LBIS.L["Chest"], "Alt") --Hauberk of the Empire's Champion
 
-LBIS:AddItem(spec, "32577", LBIS.L["Bracers"], "BIS") --Living Earth Bindings
-LBIS:AddItem(spec, "32584", LBIS.L["Bracers"], "BIS") --Swiftheal Wraps
-LBIS:AddItem(spec, "32582", LBIS.L["Bracers"], "BIS") --Bracers of Renewed Life
+LBIS:AddItem(spec, "32577", LBIS.L["Wrist"], "BIS") --Living Earth Bindings
+LBIS:AddItem(spec, "32584", LBIS.L["Wrist"], "BIS") --Swiftheal Wraps
+LBIS:AddItem(spec, "32582", LBIS.L["Wrist"], "BIS") --Bracers of Renewed Life
 
-LBIS:AddItem(spec, "32328", LBIS.L["Gloves"], "BIS") --Botanist's Gloves of Growth
-LBIS:AddItem(spec, "33531", LBIS.L["Gloves"], "Alt") --Polished Waterscale Gloves
+LBIS:AddItem(spec, "32328", LBIS.L["Hands"], "BIS") --Botanist's Gloves of Growth
+LBIS:AddItem(spec, "33531", LBIS.L["Hands"], "Alt") --Polished Waterscale Gloves
 
 LBIS:AddItem(spec, "32258", LBIS.L["Waist"], "BIS") --Naturalist's Preserving Cinch
 LBIS:AddItem(spec, "32339", LBIS.L["Waist"], "BIS") --Belt of Primal Majesty

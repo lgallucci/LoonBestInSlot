@@ -7,10 +7,10 @@ LBIS:AddItem(spec, "35184", LBIS.L["Head"], "Alt") --Primal-Attuned Goggles
 LBIS:AddItem(spec, "31012", LBIS.L["Head"], "Alt") --Skyshatter Helmet
 LBIS:AddItem(spec, "31095", LBIS.L["Head"], "Alt") --Helm of the Forgotten Protector
 
-LBIS:AddItem(spec, "31022", LBIS.L["Shoulders"], "BIS") --Skyshatter Shoulderpads
-LBIS:AddItem(spec, "31103", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Protector
-LBIS:AddItem(spec, "34208", LBIS.L["Shoulders"], "Alt") --Equilibrium Epaulets
-LBIS:AddItem(spec, "34202", LBIS.L["Shoulders"], "Alt") --Shawl of Wonderment
+LBIS:AddItem(spec, "31022", LBIS.L["Shoulder"], "BIS") --Skyshatter Shoulderpads
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "34208", LBIS.L["Shoulder"], "Alt") --Equilibrium Epaulets
+LBIS:AddItem(spec, "34202", LBIS.L["Shoulder"], "Alt") --Shawl of Wonderment
 
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
 LBIS:AddItem(spec, "34242", LBIS.L["Back"], "BIS") --Tattered Cape of Antonidas
@@ -23,17 +23,17 @@ LBIS:AddItem(spec, "31016", LBIS.L["Chest"], "Alt") --Skyshatter Chestguard
 LBIS:AddItem(spec, "31091", LBIS.L["Chest"], "Alt") --Chestguard of the Forgotten Protector
 LBIS:AddItem(spec, "34930", LBIS.L["Chest"], "Alt") --Wave of Life Chestguard
 
-LBIS:AddItem(spec, "34438", LBIS.L["Bracers"], "BIS") --Skyshatter Bracers
-LBIS:AddItem(spec, "34851", LBIS.L["Bracers"], "BIS") --Bracers of the Forgotten Protector
-LBIS:AddItem(spec, "32577", LBIS.L["Bracers"], "Alt") --Living Earth Bindings
-LBIS:AddItem(spec, "32584", LBIS.L["Bracers"], "Alt") --Swiftheal Wraps
-LBIS:AddItem(spec, "32582", LBIS.L["Bracers"], "Alt") --Bracers of Renewed Life
+LBIS:AddItem(spec, "34438", LBIS.L["Wrist"], "BIS") --Skyshatter Bracers
+LBIS:AddItem(spec, "34851", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Protector
+LBIS:AddItem(spec, "32577", LBIS.L["Wrist"], "Alt") --Living Earth Bindings
+LBIS:AddItem(spec, "32584", LBIS.L["Wrist"], "Alt") --Swiftheal Wraps
+LBIS:AddItem(spec, "32582", LBIS.L["Wrist"], "Alt") --Bracers of Renewed Life
 
-LBIS:AddItem(spec, "32328", LBIS.L["Gloves"], "BIS") --Botanist's Gloves of Growth
-LBIS:AddItem(spec, "34372", LBIS.L["Gloves"], "BIS") --Leather Gauntlets of the Sun
-LBIS:AddItem(spec, "34409", LBIS.L["Gloves"], "BIS") --Gauntlets of the Ancient Frostwolf
-LBIS:AddItem(spec, "34350", LBIS.L["Gloves"], "Transmute BIS") --Gauntlets of the Ancient Shadowmoon
-LBIS:AddItem(spec, "34376", LBIS.L["Gloves"], "Alt") --Sun-Drenched Scale Gloves
+LBIS:AddItem(spec, "32328", LBIS.L["Hands"], "BIS") --Botanist's Gloves of Growth
+LBIS:AddItem(spec, "34372", LBIS.L["Hands"], "BIS") --Leather Gauntlets of the Sun
+LBIS:AddItem(spec, "34409", LBIS.L["Hands"], "BIS") --Gauntlets of the Ancient Frostwolf
+LBIS:AddItem(spec, "34350", LBIS.L["Hands"], "Transmute BIS") --Gauntlets of the Ancient Shadowmoon
+LBIS:AddItem(spec, "34376", LBIS.L["Hands"], "Alt") --Sun-Drenched Scale Gloves
 
 LBIS:AddItem(spec, "34543", LBIS.L["Waist"], "BIS") --Skyshatter Belt
 LBIS:AddItem(spec, "34854", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Protector

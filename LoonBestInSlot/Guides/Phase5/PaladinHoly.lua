@@ -7,10 +7,10 @@ LBIS:AddItem(spec, "35185", LBIS.L["Head"], "Alt") --Justicebringer 3000 Specs
 LBIS:AddItem(spec, "30988", LBIS.L["Head"], "Alt") --Lightbringer Greathelm
 LBIS:AddItem(spec, "31097", LBIS.L["Head"], "Alt") --Helm of the Forgotten Conqueror
 
-LBIS:AddItem(spec, "34193", LBIS.L["Shoulders"], "BIS") --Spaulders of the Thalassian Savior
-LBIS:AddItem(spec, "34208", LBIS.L["Shoulders"], "Alt") --Equilibrium Epaulets
-LBIS:AddItem(spec, "30996", LBIS.L["Shoulders"], "Alt") --Lightbringer Pauldrons
-LBIS:AddItem(spec, "31101", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Forgotten Conqueror
+LBIS:AddItem(spec, "34193", LBIS.L["Shoulder"], "BIS") --Spaulders of the Thalassian Savior
+LBIS:AddItem(spec, "34208", LBIS.L["Shoulder"], "Alt") --Equilibrium Epaulets
+LBIS:AddItem(spec, "30996", LBIS.L["Shoulder"], "Alt") --Lightbringer Pauldrons
+LBIS:AddItem(spec, "31101", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Forgotten Conqueror
 
 LBIS:AddItem(spec, "34205", LBIS.L["Back"], "BIS") --Shroud of Redeemed Souls
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "Alt") --Shroud of the Highborne
@@ -23,13 +23,13 @@ LBIS:AddItem(spec, "34216", LBIS.L["Chest"], "Transmute Alt") --Heroic Judicator
 LBIS:AddItem(spec, "30992", LBIS.L["Chest"], "Alt") --Lightbringer Chestpiece
 LBIS:AddItem(spec, "31089", LBIS.L["Chest"], "Alt") --Chestguard of the Forgotten Conqueror
 
-LBIS:AddItem(spec, "34432", LBIS.L["Bracers"], "BIS") --Lightbringer Bracers
-LBIS:AddItem(spec, "34848", LBIS.L["Bracers"], "BIS") --Bracers of the Forgotten Conqueror
-LBIS:AddItem(spec, "30862", LBIS.L["Bracers"], "Alt") --Blessed Adamantite Bracers
+LBIS:AddItem(spec, "34432", LBIS.L["Wrist"], "BIS") --Lightbringer Bracers
+LBIS:AddItem(spec, "34848", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Conqueror
+LBIS:AddItem(spec, "30862", LBIS.L["Wrist"], "Alt") --Blessed Adamantite Bracers
 
-LBIS:AddItem(spec, "34380", LBIS.L["Gloves"], "BIS") --Sunblessed Gauntlets
-LBIS:AddItem(spec, "34240", LBIS.L["Gloves"], "BIS") --Gauntlets of the Soothed Soul
-LBIS:AddItem(spec, "30112", LBIS.L["Gloves"], "Alt") --Glorious Gauntlets of Crestfall
+LBIS:AddItem(spec, "34380", LBIS.L["Hands"], "BIS") --Sunblessed Gauntlets
+LBIS:AddItem(spec, "34240", LBIS.L["Hands"], "BIS") --Gauntlets of the Soothed Soul
+LBIS:AddItem(spec, "30112", LBIS.L["Hands"], "Alt") --Glorious Gauntlets of Crestfall
 
 LBIS:AddItem(spec, "34487", LBIS.L["Waist"], "BIS") --Lightbringer Belt
 LBIS:AddItem(spec, "30897", LBIS.L["Waist"], "Alt") --Girdle of Hope

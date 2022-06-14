@@ -6,11 +6,11 @@ LBIS:AddItem(spec, "28413", LBIS.L["Head"], "Alt") --Hallowed Crown
 LBIS:AddItem(spec, "29174", LBIS.L["Head"], "Alt") --Watcher's Cowl
 LBIS:AddItem(spec, "31104", LBIS.L["Head"], "Alt") --Evoker's Helmet of Second Sight
 
-LBIS:AddItem(spec, "32585", LBIS.L["Shoulders"], "BIS") --Swiftheal Mantle
-LBIS:AddItem(spec, "21874", LBIS.L["Shoulders"], "Alt") --Primal Mooncloth Shoulders
-LBIS:AddItem(spec, "27775", LBIS.L["Shoulders"], "Alt") --Hallowed Pauldrons
-LBIS:AddItem(spec, "27433", LBIS.L["Shoulders"], "Alt") --Pauldrons of Sufferance
-LBIS:AddItem(spec, "28250", LBIS.L["Shoulders"], "Alt") --Vestia's Pauldrons of Inner Grace
+LBIS:AddItem(spec, "32585", LBIS.L["Shoulder"], "BIS") --Swiftheal Mantle
+LBIS:AddItem(spec, "21874", LBIS.L["Shoulder"], "Alt") --Primal Mooncloth Shoulders
+LBIS:AddItem(spec, "27775", LBIS.L["Shoulder"], "Alt") --Hallowed Pauldrons
+LBIS:AddItem(spec, "27433", LBIS.L["Shoulder"], "Alt") --Pauldrons of Sufferance
+LBIS:AddItem(spec, "28250", LBIS.L["Shoulder"], "Alt") --Vestia's Pauldrons of Inner Grace
 
 LBIS:AddItem(spec, "29354", LBIS.L["Back"], "BIS") --Light-Touched Stole of Altruism
 LBIS:AddItem(spec, "29375", LBIS.L["Back"], "Alt") --Bishop's Cloak
@@ -24,15 +24,15 @@ LBIS:AddItem(spec, "28230", LBIS.L["Chest"], "Alt") --Hallowed Garments
 LBIS:AddItem(spec, "24397", LBIS.L["Chest"], "Alt") --Raiments of Divine Authority
 LBIS:AddItem(spec, "27506", LBIS.L["Chest"], "Alt") --Robe of Effervescent Light
 
-LBIS:AddItem(spec, "32584", LBIS.L["Bracers"], "BIS") --Swiftheal Wraps
-LBIS:AddItem(spec, "29183", LBIS.L["Bracers"], "Alt") --Bindings of the Timewalker
-LBIS:AddItem(spec, "29249", LBIS.L["Bracers"], "Alt") --Bands of the Benevolent
-LBIS:AddItem(spec, "28174", LBIS.L["Bracers"], "Alt") --Shattrath Wraps
+LBIS:AddItem(spec, "32584", LBIS.L["Wrist"], "BIS") --Swiftheal Wraps
+LBIS:AddItem(spec, "29183", LBIS.L["Wrist"], "Alt") --Bindings of the Timewalker
+LBIS:AddItem(spec, "29249", LBIS.L["Wrist"], "Alt") --Bands of the Benevolent
+LBIS:AddItem(spec, "28174", LBIS.L["Wrist"], "Alt") --Shattrath Wraps
 
-LBIS:AddItem(spec, "27536", LBIS.L["Gloves"], "BIS") --Hallowed Handwraps
-LBIS:AddItem(spec, "24393", LBIS.L["Gloves"], "BIS") --Bloody Surgeon's Mitts
-LBIS:AddItem(spec, "28304", LBIS.L["Gloves"], "Alt") --Prismatic Mittens of Mending
-LBIS:AddItem(spec, "29315", LBIS.L["Gloves"], "Alt") --Gloves of Penitence
+LBIS:AddItem(spec, "27536", LBIS.L["Hands"], "BIS") --Hallowed Handwraps
+LBIS:AddItem(spec, "24393", LBIS.L["Hands"], "BIS") --Bloody Surgeon's Mitts
+LBIS:AddItem(spec, "28304", LBIS.L["Hands"], "Alt") --Prismatic Mittens of Mending
+LBIS:AddItem(spec, "29315", LBIS.L["Hands"], "Alt") --Gloves of Penitence
 
 LBIS:AddItem(spec, "30036", LBIS.L["Waist"], "BIS") --Belt of the Long Road
 LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "Alt") --Primal Mooncloth Belt

@@ -12,12 +12,12 @@ LBIS:AddItem(spec, "23519", LBIS.L["Head"], "Alt") --Felsteel Helm
 LBIS:AddItem(spec, "28180", LBIS.L["Head"], "Alt") --Myrmidon's Headdress
 LBIS:AddItem(spec, "27520", LBIS.L["Head"], "Alt") --Greathelm of the Unbreakable
 
-LBIS:AddItem(spec, "29070", LBIS.L["Shoulders"], "BIS") --Justicar Shoulderguards
-LBIS:AddItem(spec, "29763", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Champion
-LBIS:AddItem(spec, "28743", LBIS.L["Shoulders"], "Alt") --Mantle of Abrahmis
-LBIS:AddItem(spec, "27706", LBIS.L["Shoulders"], "Alt") --Gladiator's Lamellar Shoulders
-LBIS:AddItem(spec, "32073", LBIS.L["Shoulders"], "Alt") --Spaulders of Dementia
-LBIS:AddItem(spec, "30381", LBIS.L["Shoulders"], "Alt") --Kaylaan's Spaulders
+LBIS:AddItem(spec, "29070", LBIS.L["Shoulder"], "BIS") --Justicar Shoulderguards
+LBIS:AddItem(spec, "29763", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Champion
+LBIS:AddItem(spec, "28743", LBIS.L["Shoulder"], "Alt") --Mantle of Abrahmis
+LBIS:AddItem(spec, "27706", LBIS.L["Shoulder"], "Alt") --Gladiator's Lamellar Shoulders
+LBIS:AddItem(spec, "32073", LBIS.L["Shoulder"], "Alt") --Spaulders of Dementia
+LBIS:AddItem(spec, "30381", LBIS.L["Shoulder"], "Alt") --Kaylaan's Spaulders
 
 LBIS:AddItem(spec, "27804", LBIS.L["Back"], "BIS") --Devilshark Cape
 LBIS:AddItem(spec, "28660", LBIS.L["Back"], "Alt") --Gilded Thorium Cloak
@@ -37,25 +37,25 @@ LBIS:AddItem(spec, "29127", LBIS.L["Chest"], "Alt") --Vindicator's Hauberk
 LBIS:AddItem(spec, "23507", LBIS.L["Chest"], "Alt") --Adamantite Breastplate
 LBIS:AddItem(spec, "25819", LBIS.L["Chest"], "Alt") --Breastplate of the Warbringer
 
-LBIS:AddItem(spec, "29252", LBIS.L["Bracers"], "BIS") --Bracers of Dignity
-LBIS:AddItem(spec, "23538", LBIS.L["Bracers"], "BIS Mit") --Bracers of the Green Fortress
-LBIS:AddItem(spec, "28502", LBIS.L["Bracers"], "Alt") --Vambraces of Courage
-LBIS:AddItem(spec, "29463", LBIS.L["Bracers"], "Alt") --Amber Bands of the Aggressor
-LBIS:AddItem(spec, "28167", LBIS.L["Bracers"], "Alt") --Sha'tari Wrought Armguards
-LBIS:AddItem(spec, "27459", LBIS.L["Bracers"], "Alt") --Vambraces of Daring
-LBIS:AddItem(spec, "30400", LBIS.L["Bracers"], "Alt") --Thadell's Bracers
+LBIS:AddItem(spec, "29252", LBIS.L["Wrist"], "BIS") --Bracers of Dignity
+LBIS:AddItem(spec, "23538", LBIS.L["Wrist"], "BIS Mit") --Bracers of the Green Fortress
+LBIS:AddItem(spec, "28502", LBIS.L["Wrist"], "Alt") --Vambraces of Courage
+LBIS:AddItem(spec, "29463", LBIS.L["Wrist"], "Alt") --Amber Bands of the Aggressor
+LBIS:AddItem(spec, "28167", LBIS.L["Wrist"], "Alt") --Sha'tari Wrought Armguards
+LBIS:AddItem(spec, "27459", LBIS.L["Wrist"], "Alt") --Vambraces of Daring
+LBIS:AddItem(spec, "30400", LBIS.L["Wrist"], "Alt") --Thadell's Bracers
 
-LBIS:AddItem(spec, "29067", LBIS.L["Gloves"], "BIS") --Justicar Handguards
-LBIS:AddItem(spec, "29757", LBIS.L["Gloves"], "BIS") --Gloves of the Fallen Champion
-LBIS:AddItem(spec, "28518", LBIS.L["Gloves"], "BIS Mit") --Iron Gauntlets of the Maiden
-LBIS:AddItem(spec, "30741", LBIS.L["Gloves"], "Alt") --Topaz-Studded Battlegrips
-LBIS:AddItem(spec, "27703", LBIS.L["Gloves"], "Alt") --Gladiator's Lamellar Gauntlets
-LBIS:AddItem(spec, "32072", LBIS.L["Gloves"], "Alt") --Gauntlets of Dissension
-LBIS:AddItem(spec, "23532", LBIS.L["Gloves"], "Alt") --Gauntlets of the Iron Tower
-LBIS:AddItem(spec, "27535", LBIS.L["Gloves"], "Alt") --Gauntlets of the Righteous
-LBIS:AddItem(spec, "23517", LBIS.L["Gloves"], "Alt") --Felsteel Gloves
-LBIS:AddItem(spec, "28390", LBIS.L["Gloves"], "Alt") --Thatia's Self-Correcting Gauntlets
-LBIS:AddItem(spec, "29134", LBIS.L["Gloves"], "Alt") --Gauntlets of the Chosen
+LBIS:AddItem(spec, "29067", LBIS.L["Hands"], "BIS") --Justicar Handguards
+LBIS:AddItem(spec, "29757", LBIS.L["Hands"], "BIS") --Gloves of the Fallen Champion
+LBIS:AddItem(spec, "28518", LBIS.L["Hands"], "BIS Mit") --Iron Gauntlets of the Maiden
+LBIS:AddItem(spec, "30741", LBIS.L["Hands"], "Alt") --Topaz-Studded Battlegrips
+LBIS:AddItem(spec, "27703", LBIS.L["Hands"], "Alt") --Gladiator's Lamellar Gauntlets
+LBIS:AddItem(spec, "32072", LBIS.L["Hands"], "Alt") --Gauntlets of Dissension
+LBIS:AddItem(spec, "23532", LBIS.L["Hands"], "Alt") --Gauntlets of the Iron Tower
+LBIS:AddItem(spec, "27535", LBIS.L["Hands"], "Alt") --Gauntlets of the Righteous
+LBIS:AddItem(spec, "23517", LBIS.L["Hands"], "Alt") --Felsteel Gloves
+LBIS:AddItem(spec, "28390", LBIS.L["Hands"], "Alt") --Thatia's Self-Correcting Gauntlets
+LBIS:AddItem(spec, "29134", LBIS.L["Hands"], "Alt") --Gauntlets of the Chosen
 
 LBIS:AddItem(spec, "29253", LBIS.L["Waist"], "BIS") --Girdle of Valorous Deeds
 LBIS:AddItem(spec, "28566", LBIS.L["Waist"], "BIS Mit") --Crimson Girdle of the Indomitable

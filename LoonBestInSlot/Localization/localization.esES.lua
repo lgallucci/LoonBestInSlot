@@ -56,7 +56,6 @@ if GetLocale() == "esES" then
   LBIS.L["Bleeding Hollow Supply Crates"] = "Cajones de suministros Foso Sangrante";
   LBIS.L["Blessings Deck"] = "Cubierta de bendiciones";
   LBIS.L["Blood Guard Porung"] = "Guardia de sangre Porung";
-  LBIS.L["Bracers"] = "Brazales";
   LBIS.L["Brewfest"] = "Festival de la cerveza";
   LBIS.L["Bring Me The Egg!"] = "¡Tráeme el huevo!";
   LBIS.L["Broggok"] = "Broggok";
@@ -134,7 +133,6 @@ if GetLocale() == "esES" then
 --  LBIS.L["General Drakkisath's Demise - Marshal Maxwell/For The Horde!"] = "";
   LBIS.L["Gezzarak the Huntress"] = "Gezzarak la cazadora";
   LBIS.L["Ghaz'an"] = "Ghaz'an";
-  LBIS.L["Gloves"] = "Guantes";
   LBIS.L["Gnomish Engineer"] = "Ingeniero gnómico";
   LBIS.L["Grand Warlock Nethekurse"] = "Brujo supremo Malbisal";
   LBIS.L["Grandmaster Vorpil"] = "Maestro mayor Vorpil";
@@ -142,9 +140,10 @@ if GetLocale() == "esES" then
   LBIS.L["Gruul's Lair"] = "Guarida de Gruul";
   LBIS.L["Gurok the Usurper"] = "Gurok el Usurpador";
   LBIS.L["Gurtogg Bloodboil"] = "Gurtogg Sangre Hirviente";
---  LBIS.L["Hail,Commander!"] = "";
+  LBIS.L["Hail, Commander!"] = "¡Saludos, comandante!";
   LBIS.L["Halazzi"] = "Halazzi";
   LBIS.L["Hallows Eve"] = "Santifica víspera";
+  LBIS.L["Hands"] = "Guantes";
   LBIS.L["Harbinger Skyriss"] = "Presagista Cieloriss";
   LBIS.L["Head"] = "Cabeza";
   LBIS.L["Headless Horseman"] = "El Jinete decapitado";
@@ -296,7 +295,7 @@ if GetLocale() == "esES" then
   LBIS.L["Shattrath City"] = "Ciudad de Shattrath";
   LBIS.L["Shield"] = "Escudo";
   LBIS.L["Shirrak the Dead Watcher"] = "Shirrak el Vigía de los Muertos";
-  LBIS.L["Shoulders"] = "Espalda";
+  LBIS.L["Shoulder"] = "Espalda";
   LBIS.L["Show Minimap Button:"] = "Botón Mostrar minimapa:";
   LBIS.L["Show Tooltip:"] = "Mostrar Descripción Emergente:";
   LBIS.L["Showdown"] = "Enfrentamiento";
@@ -417,6 +416,7 @@ if GetLocale() == "esES" then
   LBIS.L["World Drop"] = "Gota mundial";
   LBIS.L["Wrath-Scryer Soccothrates"] = "Arúspice de cólera Soccothrates";
 --  LBIS.L["Wrath-Scryer Soccothrates and Zereketh the Unbound"] = "";
+  LBIS.L["Wrist"] = "Brazales";
   LBIS.L["Yor"] = "Yor";
   LBIS.L["You're Hired!"] = "¡Te contrato!";
   LBIS.L["Zangarmarsh"] = "Marisma de Zangar";

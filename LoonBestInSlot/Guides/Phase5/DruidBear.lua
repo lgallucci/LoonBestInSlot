@@ -4,11 +4,11 @@ LBIS:AddItem(spec, "34404", LBIS.L["Head"], "BIS") --Mask of the Fury Hunter
 LBIS:AddItem(spec, "34244", LBIS.L["Head"], "Transmute BIS") --Duplicitous Guise
 LBIS:AddItem(spec, "34999", LBIS.L["Head"], "Alt Thrt") --Brutal Gladiator's Dragonhide Helm
 
-LBIS:AddItem(spec, "34392", LBIS.L["Shoulders"], "BIS Mit") --Demontooth Shoulderpads
-LBIS:AddItem(spec, "34195", LBIS.L["Shoulders"], "Transmute BIS Mit") --Shoulderpads of Vehemence
-LBIS:AddItem(spec, "31048", LBIS.L["Shoulders"], "BIS Thrt") --Thunderheart Pauldrons
-LBIS:AddItem(spec, "31102", LBIS.L["Shoulders"], "BIS Thrt") --Pauldrons of the Forgotten Vanquisher
-LBIS:AddItem(spec, "35001", LBIS.L["Shoulders"], "Alt") --Brutal Gladiator's Dragonhide Spaulders
+LBIS:AddItem(spec, "34392", LBIS.L["Shoulder"], "BIS Mit") --Demontooth Shoulderpads
+LBIS:AddItem(spec, "34195", LBIS.L["Shoulder"], "Transmute BIS Mit") --Shoulderpads of Vehemence
+LBIS:AddItem(spec, "31048", LBIS.L["Shoulder"], "BIS Thrt") --Thunderheart Pauldrons
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "BIS Thrt") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "35001", LBIS.L["Shoulder"], "Alt") --Brutal Gladiator's Dragonhide Spaulders
 
 LBIS:AddItem(spec, "34190", LBIS.L["Back"], "BIS") --Crimson Paragon's Cover
 LBIS:AddItem(spec, "34241", LBIS.L["Back"], "Alt") --Cloak of Unforgivable Sin
@@ -21,17 +21,17 @@ LBIS:AddItem(spec, "35002", LBIS.L["Chest"], "Alt Mit") --Brutal Gladiator's Dra
 LBIS:AddItem(spec, "34397", LBIS.L["Chest"], "Alt Thrt") --Bladed Chaos Tunic
 LBIS:AddItem(spec, "34906", LBIS.L["Chest"], "Alt Mit") --Embrace of Everlasting Prowess
 
-LBIS:AddItem(spec, "34444", LBIS.L["Bracers"], "BIS") --Thunderheart Wristguards
-LBIS:AddItem(spec, "34852", LBIS.L["Bracers"], "BIS") --Bracers of the Forgotten Vanquisher
-LBIS:AddItem(spec, "35171", LBIS.L["Bracers"], "Alt Mit") --Guardian's Leather Bracers
-LBIS:AddItem(spec, "35167", LBIS.L["Bracers"], "Alt Thrt") --Guardian's Dragonhide Bracers
+LBIS:AddItem(spec, "34444", LBIS.L["Wrist"], "BIS") --Thunderheart Wristguards
+LBIS:AddItem(spec, "34852", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Vanquisher
+LBIS:AddItem(spec, "35171", LBIS.L["Wrist"], "Alt Mit") --Guardian's Leather Bracers
+LBIS:AddItem(spec, "35167", LBIS.L["Wrist"], "Alt Thrt") --Guardian's Dragonhide Bracers
 
-LBIS:AddItem(spec, "34408", LBIS.L["Gloves"], "BIS") --Gloves of the Forest Drifter
-LBIS:AddItem(spec, "34234", LBIS.L["Gloves"], "Transmute BIS") --Shadowed Gauntlets of Paroxysm
-LBIS:AddItem(spec, "34911", LBIS.L["Gloves"], "Alt Mit") --Handwraps of the Aggressor
-LBIS:AddItem(spec, "31034", LBIS.L["Gloves"], "Alt Mit") --Thunderheart Gauntlets
-LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "Alt Mit") --Gloves of the Forgotten Vanquisher
-LBIS:AddItem(spec, "34370", LBIS.L["Gloves"], "Alt Thrt") --Gloves of Immortal Dusk
+LBIS:AddItem(spec, "34408", LBIS.L["Hands"], "BIS") --Gloves of the Forest Drifter
+LBIS:AddItem(spec, "34234", LBIS.L["Hands"], "Transmute BIS") --Shadowed Gauntlets of Paroxysm
+LBIS:AddItem(spec, "34911", LBIS.L["Hands"], "Alt Mit") --Handwraps of the Aggressor
+LBIS:AddItem(spec, "31034", LBIS.L["Hands"], "Alt Mit") --Thunderheart Gauntlets
+LBIS:AddItem(spec, "31093", LBIS.L["Hands"], "Alt Mit") --Gloves of the Forgotten Vanquisher
+LBIS:AddItem(spec, "34370", LBIS.L["Hands"], "Alt Thrt") --Gloves of Immortal Dusk
 
 LBIS:AddItem(spec, "35156", LBIS.L["Waist"], "BIS Mit") --Guardian's Leather Belt
 LBIS:AddItem(spec, "34556", LBIS.L["Waist"], "BIS Thrt") --Thunderheart Waistguard

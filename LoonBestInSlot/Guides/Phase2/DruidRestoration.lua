@@ -7,12 +7,12 @@ LBIS:AddItem(spec, "29086", LBIS.L["Head"], "Alt") --Crown of Malorne
 LBIS:AddItem(spec, "29761", LBIS.L["Head"], "Alt") --Helm of the Fallen Defender
 LBIS:AddItem(spec, "24264", LBIS.L["Head"], "Alt") --Whitemend Hood
 
-LBIS:AddItem(spec, "30221", LBIS.L["Shoulders"], "BIS") --Nordrassil Life-Mantle
-LBIS:AddItem(spec, "30249", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Defender
-LBIS:AddItem(spec, "30111", LBIS.L["Shoulders"], "Alt") --Runetotem's Mantle
-LBIS:AddItem(spec, "21874", LBIS.L["Shoulders"], "Alt") --Primal Mooncloth Shoulders
-LBIS:AddItem(spec, "29089", LBIS.L["Shoulders"], "Alt") --Shoulderguards of Malorne
-LBIS:AddItem(spec, "29764", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Fallen Defender
+LBIS:AddItem(spec, "30221", LBIS.L["Shoulder"], "BIS") --Nordrassil Life-Mantle
+LBIS:AddItem(spec, "30249", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Defender
+LBIS:AddItem(spec, "30111", LBIS.L["Shoulder"], "Alt") --Runetotem's Mantle
+LBIS:AddItem(spec, "21874", LBIS.L["Shoulder"], "Alt") --Primal Mooncloth Shoulders
+LBIS:AddItem(spec, "29089", LBIS.L["Shoulder"], "Alt") --Shoulderguards of Malorne
+LBIS:AddItem(spec, "29764", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Fallen Defender
 
 LBIS:AddItem(spec, "29989", LBIS.L["Back"], "BIS") --Sunshower Light Cloak
 LBIS:AddItem(spec, "28765", LBIS.L["Back"], "Alt") --Stainless Cloak of the Pure Hearted
@@ -24,15 +24,15 @@ LBIS:AddItem(spec, "30237", LBIS.L["Chest"], "BIS") --Chestguard of the Vanquish
 LBIS:AddItem(spec, "21875", LBIS.L["Chest"], "Alt") --Primal Mooncloth Robe
 LBIS:AddItem(spec, "30075", LBIS.L["Chest"], "Alt") --Gnarled Chestpiece of the Ancients
 
-LBIS:AddItem(spec, "30062", LBIS.L["Bracers"], "BIS") --Grove-Bands of Remulos
-LBIS:AddItem(spec, "29523", LBIS.L["Bracers"], "Alt") --Windhawk Bracers
-LBIS:AddItem(spec, "29183", LBIS.L["Bracers"], "Alt") --Bindings of the Timewalker
-LBIS:AddItem(spec, "28511", LBIS.L["Bracers"], "Alt") --Bands of Indwelling
+LBIS:AddItem(spec, "30062", LBIS.L["Wrist"], "BIS") --Grove-Bands of Remulos
+LBIS:AddItem(spec, "29523", LBIS.L["Wrist"], "Alt") --Windhawk Bracers
+LBIS:AddItem(spec, "29183", LBIS.L["Wrist"], "Alt") --Bindings of the Timewalker
+LBIS:AddItem(spec, "28511", LBIS.L["Wrist"], "Alt") --Bands of Indwelling
 
-LBIS:AddItem(spec, "28521", LBIS.L["Gloves"], "BIS") --Mitts of the Treemender
-LBIS:AddItem(spec, "30217", LBIS.L["Gloves"], "Alt") --Nordrassil Gloves
-LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Defender
-LBIS:AddItem(spec, "30029", LBIS.L["Gloves"], "Alt") --Bark-Gloves of Ancient Wisdom
+LBIS:AddItem(spec, "28521", LBIS.L["Hands"], "BIS") --Mitts of the Treemender
+LBIS:AddItem(spec, "30217", LBIS.L["Hands"], "Alt") --Nordrassil Gloves
+LBIS:AddItem(spec, "30240", LBIS.L["Hands"], "Alt") --Gloves of the Vanquished Defender
+LBIS:AddItem(spec, "30029", LBIS.L["Hands"], "Alt") --Bark-Gloves of Ancient Wisdom
 
 LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt
 LBIS:AddItem(spec, "30036", LBIS.L["Waist"], "BIS") --Belt of the Long Road

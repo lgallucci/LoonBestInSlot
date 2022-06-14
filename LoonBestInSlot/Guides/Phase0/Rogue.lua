@@ -5,10 +5,10 @@ LBIS:AddItem(spec, "28224", LBIS.L["Head"], "Alt") --Wastewalker Helm
 LBIS:AddItem(spec, "32087", LBIS.L["Head"], "Alt") --Mask of the Deceiver
 LBIS:AddItem(spec, "28182", LBIS.L["Head"], "Alt") --Helm of the Claw
 
-LBIS:AddItem(spec, "27797", LBIS.L["Shoulders"], "BIS") --Wastewalker Shoulderpads
-LBIS:AddItem(spec, "25790", LBIS.L["Shoulders"], "Alt") --Expedition Scout's Epaulets
-LBIS:AddItem(spec, "29148", LBIS.L["Shoulders"], "Alt") --Blackened Leather Spaulders
-LBIS:AddItem(spec, "29147", LBIS.L["Shoulders"], "Alt") --Talbuk Hide Spaulders
+LBIS:AddItem(spec, "27797", LBIS.L["Shoulder"], "BIS") --Wastewalker Shoulderpads
+LBIS:AddItem(spec, "25790", LBIS.L["Shoulder"], "Alt") --Expedition Scout's Epaulets
+LBIS:AddItem(spec, "29148", LBIS.L["Shoulder"], "Alt") --Blackened Leather Spaulders
+LBIS:AddItem(spec, "29147", LBIS.L["Shoulder"], "Alt") --Talbuk Hide Spaulders
 
 LBIS:AddItem(spec, "24259", LBIS.L["Back"], "BIS") --Vengeance Wrap
 LBIS:AddItem(spec, "27878", LBIS.L["Back"], "Alt") --Auchenai Death Shroud
@@ -19,14 +19,14 @@ LBIS:AddItem(spec, "28264", LBIS.L["Chest"], "BIS") --Wastewalker Tunic
 LBIS:AddItem(spec, "29525", LBIS.L["Chest"], "BIS") --Primalstrike Vest
 LBIS:AddItem(spec, "30933", LBIS.L["Chest"], "Alt") --Hauberk of Karabor
 
-LBIS:AddItem(spec, "32647", LBIS.L["Bracers"], "BIS") --Shard-bound Bracers
-LBIS:AddItem(spec, "29246", LBIS.L["Bracers"], "Alt") --Nightfall Wristguards
-LBIS:AddItem(spec, "29527", LBIS.L["Bracers"], "Alt") --Primalstrike Bracers
-LBIS:AddItem(spec, "28171", LBIS.L["Bracers"], "Alt") --Spymistress's Wristguards
+LBIS:AddItem(spec, "32647", LBIS.L["Wrist"], "BIS") --Shard-bound Bracers
+LBIS:AddItem(spec, "29246", LBIS.L["Wrist"], "Alt") --Nightfall Wristguards
+LBIS:AddItem(spec, "29527", LBIS.L["Wrist"], "Alt") --Primalstrike Bracers
+LBIS:AddItem(spec, "28171", LBIS.L["Wrist"], "Alt") --Spymistress's Wristguards
 
-LBIS:AddItem(spec, "25685", LBIS.L["Gloves"], "BIS") --Fel Leather Gloves
-LBIS:AddItem(spec, "27531", LBIS.L["Gloves"], "BIS") --Wastewalker Gloves
-LBIS:AddItem(spec, "30003", LBIS.L["Gloves"], "Alt") --Gloves of the Nether-Stalker
+LBIS:AddItem(spec, "25685", LBIS.L["Hands"], "BIS") --Fel Leather Gloves
+LBIS:AddItem(spec, "27531", LBIS.L["Hands"], "BIS") --Wastewalker Gloves
+LBIS:AddItem(spec, "30003", LBIS.L["Hands"], "Alt") --Gloves of the Nether-Stalker
 
 LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "BIS") --Girdle of the Deathdealer
 LBIS:AddItem(spec, "29526", LBIS.L["Waist"], "BIS") --Primalstrike Belt

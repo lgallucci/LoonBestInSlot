@@ -2,9 +2,9 @@ local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement"], "4")
 
 LBIS:AddItem(spec, "32235", LBIS.L["Head"], "BIS") --Cursed Vision of Sargeras
 
-LBIS:AddItem(spec, "32581", LBIS.L["Shoulders"], "BIS") --Swiftstrike Shoulders
-LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "BIS") --Shoulderpads of the Stranger
-LBIS:AddItem(spec, "32575", LBIS.L["Shoulders"], "BIS") --Shoulders of Lightning Reflexes
+LBIS:AddItem(spec, "32581", LBIS.L["Shoulder"], "BIS") --Swiftstrike Shoulders
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "BIS") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "32575", LBIS.L["Shoulder"], "BIS") --Shoulders of Lightning Reflexes
 
 LBIS:AddItem(spec, "32323", LBIS.L["Back"], "BIS") --Shadowmoon Destroyer's Drape
 LBIS:AddItem(spec, "33590", LBIS.L["Back"], "Alt") --Cloak of Fiends
@@ -12,16 +12,16 @@ LBIS:AddItem(spec, "33484", LBIS.L["Back"], "Alt") --Dory's Embrace
 
 LBIS:AddItem(spec, "30905", LBIS.L["Chest"], "BIS") --Midnight Chestguard
 
-LBIS:AddItem(spec, "30863", LBIS.L["Bracers"], "BIS") --Deadly Cuffs
-LBIS:AddItem(spec, "32574", LBIS.L["Bracers"], "BIS") --Bindings of Lightning Reflexes
-LBIS:AddItem(spec, "32324", LBIS.L["Bracers"], "BIS") --Insidious Bands
-LBIS:AddItem(spec, "33540", LBIS.L["Bracers"], "Alt") --Master Assassin Wristwraps
-LBIS:AddItem(spec, "32251", LBIS.L["Bracers"], "Alt") --Wraps of Precise Flight
+LBIS:AddItem(spec, "30863", LBIS.L["Wrist"], "BIS") --Deadly Cuffs
+LBIS:AddItem(spec, "32574", LBIS.L["Wrist"], "BIS") --Bindings of Lightning Reflexes
+LBIS:AddItem(spec, "32324", LBIS.L["Wrist"], "BIS") --Insidious Bands
+LBIS:AddItem(spec, "33540", LBIS.L["Wrist"], "Alt") --Master Assassin Wristwraps
+LBIS:AddItem(spec, "32251", LBIS.L["Wrist"], "Alt") --Wraps of Precise Flight
 
-LBIS:AddItem(spec, "32347", LBIS.L["Gloves"], "BIS") --Grips of Damnation
-LBIS:AddItem(spec, "32234", LBIS.L["Gloves"], "BIS") --Fists of Mukoa
-LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "BIS") --Gloves of the Searing Grip
-LBIS:AddItem(spec, "33539", LBIS.L["Gloves"], "Alt") --Trickster's Stickyfingers
+LBIS:AddItem(spec, "32347", LBIS.L["Hands"], "BIS") --Grips of Damnation
+LBIS:AddItem(spec, "32234", LBIS.L["Hands"], "BIS") --Fists of Mukoa
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "BIS") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "33539", LBIS.L["Hands"], "Alt") --Trickster's Stickyfingers
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 

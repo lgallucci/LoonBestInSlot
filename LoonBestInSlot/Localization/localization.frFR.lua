@@ -56,7 +56,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Bleeding Hollow Supply Crates"] = "Les caisses de fournitures de l'Orbite-Sanglante";
 --  LBIS.L["Blessings Deck"] = "";
   LBIS.L["Blood Guard Porung"] = "Garde de sang Porung";
---  LBIS.L["Bracers"] = "";
 --  LBIS.L["Brewfest"] = "";
   LBIS.L["Bring Me The Egg!"] = "Rapportez-moi cet œuf !";
   LBIS.L["Broggok"] = "Broggok";
@@ -134,7 +133,6 @@ if GetLocale() == "frFR" then
 --  LBIS.L["General Drakkisath's Demise - Marshal Maxwell/For The Horde!"] = "";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "Ghaz'an";
---  LBIS.L["Gloves"] = "";
 --  LBIS.L["Gnomish Engineer"] = "";
   LBIS.L["Grand Warlock Nethekurse"] = "Grand démoniste Néanathème";
   LBIS.L["Grandmaster Vorpil"] = "Grand Maître Vorpil";
@@ -142,9 +140,10 @@ if GetLocale() == "frFR" then
   LBIS.L["Gruul's Lair"] = "Repaire de Gruul";
   LBIS.L["Gurok the Usurper"] = "Gurok l'Usurpateur";
   LBIS.L["Gurtogg Bloodboil"] = "Gurtogg Fièvresang";
---  LBIS.L["Hail,Commander!"] = "";
+  LBIS.L["Hail, Commander!"] = "Salut, commandant !";
   LBIS.L["Halazzi"] = "Halazzi";
 --  LBIS.L["Hallows Eve"] = "";
+  LBIS.L["Hands"] = "Mains";
   LBIS.L["Harbinger Skyriss"] = "Messager Cieuriss";
   LBIS.L["Head"] = "Tête";
   LBIS.L["Headless Horseman"] = "Cavalier sans tête";
@@ -296,7 +295,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Shattrath City"] = "Shattrath";
   LBIS.L["Shield"] = "Bouclier";
   LBIS.L["Shirrak the Dead Watcher"] = "Shirrak le Veillemort";
---  LBIS.L["Shoulders"] = "";
+  LBIS.L["Shoulder"] = "Epaule";
 --  LBIS.L["Show Minimap Button:"] = "";
 --  LBIS.L["Show Tooltip:"] = "";
   LBIS.L["Showdown"] = "Cartes sur table";
@@ -417,6 +416,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["World Drop"] = "";
   LBIS.L["Wrath-Scryer Soccothrates"] = "Scrute-courroux Soccothrates";
 --  LBIS.L["Wrath-Scryer Soccothrates and Zereketh the Unbound"] = "";
+  LBIS.L["Wrist"] = "Poignets";
   LBIS.L["Yor"] = "Yor";
   LBIS.L["You're Hired!"] = "On vous engage !";
   LBIS.L["Zangarmarsh"] = "Marécage de Zangar";

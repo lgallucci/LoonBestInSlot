@@ -8,14 +8,14 @@ LBIS:AddItem(spec, "29760", LBIS.L["Head"], "Alt") --Helm of the Fallen Champion
 LBIS:AddItem(spec, "30171", LBIS.L["Head"], "Alt") --Cataclysm Headpiece
 LBIS:AddItem(spec, "30242", LBIS.L["Head"], "Alt") --Helm of the Vanquished Champion
 
-LBIS:AddItem(spec, "31023", LBIS.L["Shoulders"], "BIS") --Skyshatter Mantle
-LBIS:AddItem(spec, "31103", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Protector
-LBIS:AddItem(spec, "32587", LBIS.L["Shoulders"], "BIS") --Mantle of Nimble Thought
-LBIS:AddItem(spec, "30884", LBIS.L["Shoulders"], "Alt") --Hatefury Mantle
-LBIS:AddItem(spec, "29037", LBIS.L["Shoulders"], "Alt") --Cyclone Shoulderguards
-LBIS:AddItem(spec, "29763", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Fallen Champion
-LBIS:AddItem(spec, "30173", LBIS.L["Shoulders"], "Alt") --Cataclysm Shoulderpads
-LBIS:AddItem(spec, "30248", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Vanquished Champion
+LBIS:AddItem(spec, "31023", LBIS.L["Shoulder"], "BIS") --Skyshatter Mantle
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "32587", LBIS.L["Shoulder"], "BIS") --Mantle of Nimble Thought
+LBIS:AddItem(spec, "30884", LBIS.L["Shoulder"], "Alt") --Hatefury Mantle
+LBIS:AddItem(spec, "29037", LBIS.L["Shoulder"], "Alt") --Cyclone Shoulderguards
+LBIS:AddItem(spec, "29763", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Fallen Champion
+LBIS:AddItem(spec, "30173", LBIS.L["Shoulder"], "Alt") --Cataclysm Shoulderpads
+LBIS:AddItem(spec, "30248", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Vanquished Champion
 
 LBIS:AddItem(spec, "32331", LBIS.L["Back"], "BIS") --Cloak of the Illidari Council
 LBIS:AddItem(spec, "28797", LBIS.L["Back"], "Alt") --Brute Cloak of the Ogre-Magi
@@ -27,16 +27,16 @@ LBIS:AddItem(spec, "30169", LBIS.L["Chest"], "Alt") --Cataclysm Chestpiece
 LBIS:AddItem(spec, "30236", LBIS.L["Chest"], "Alt") --Chestguard of the Vanquished Champion
 LBIS:AddItem(spec, "30107", LBIS.L["Chest"], "Alt") --Vestments of the Sea-Witch
 
-LBIS:AddItem(spec, "32586", LBIS.L["Bracers"], "BIS") --Bracers of Nimble Thought
-LBIS:AddItem(spec, "30870", LBIS.L["Bracers"], "Alt") --Cuffs of Devastation
-LBIS:AddItem(spec, "32259", LBIS.L["Bracers"], "Alt") --Bands of the Coming Storm
-LBIS:AddItem(spec, "29918", LBIS.L["Bracers"], "Alt") --Mindstorm Wristbands
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "BIS") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "30870", LBIS.L["Wrist"], "Alt") --Cuffs of Devastation
+LBIS:AddItem(spec, "32259", LBIS.L["Wrist"], "Alt") --Bands of the Coming Storm
+LBIS:AddItem(spec, "29918", LBIS.L["Wrist"], "Alt") --Mindstorm Wristbands
 
-LBIS:AddItem(spec, "31008", LBIS.L["Gloves"], "BIS") --Skyshatter Gauntlets
-LBIS:AddItem(spec, "31094", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Protector
-LBIS:AddItem(spec, "32328", LBIS.L["Gloves"], "Alt") --Botanist's Gloves of Growth
-LBIS:AddItem(spec, "32275", LBIS.L["Gloves"], "Alt") --Spiritwalker Gauntlets
-LBIS:AddItem(spec, "28780", LBIS.L["Gloves"], "Alt") --Soul-Eater's Handwraps
+LBIS:AddItem(spec, "31008", LBIS.L["Hands"], "BIS") --Skyshatter Gauntlets
+LBIS:AddItem(spec, "31094", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Protector
+LBIS:AddItem(spec, "32328", LBIS.L["Hands"], "Alt") --Botanist's Gloves of Growth
+LBIS:AddItem(spec, "32275", LBIS.L["Hands"], "Alt") --Spiritwalker Gauntlets
+LBIS:AddItem(spec, "28780", LBIS.L["Hands"], "Alt") --Soul-Eater's Handwraps
 
 LBIS:AddItem(spec, "32276", LBIS.L["Waist"], "BIS") --Flashfire Girdle
 LBIS:AddItem(spec, "32256", LBIS.L["Waist"], "Alt") --Waistwrap of Infinity

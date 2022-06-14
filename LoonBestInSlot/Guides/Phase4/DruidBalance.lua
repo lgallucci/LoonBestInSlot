@@ -4,9 +4,9 @@ LBIS:AddItem(spec, "31040", LBIS.L["Head"], "BIS") --Thunderheart Headguard
 LBIS:AddItem(spec, "31096", LBIS.L["Head"], "BIS") --Helm of the Forgotten Vanquisher
 LBIS:AddItem(spec, "33453", LBIS.L["Head"], "Alt") --Hood of Hexing
 
-LBIS:AddItem(spec, "31049", LBIS.L["Shoulders"], "BIS") --Thunderheart Shoulderpads
-LBIS:AddItem(spec, "31102", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Vanquisher
-LBIS:AddItem(spec, "33973", LBIS.L["Shoulders"], "Alt") --Pauldrons of Tribal Fury
+LBIS:AddItem(spec, "31049", LBIS.L["Shoulder"], "BIS") --Thunderheart Shoulderpads
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "33973", LBIS.L["Shoulder"], "Alt") --Pauldrons of Tribal Fury
 
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
 LBIS:AddItem(spec, "32331", LBIS.L["Back"], "BIS") --Cloak of the Illidari Council
@@ -16,15 +16,15 @@ LBIS:AddItem(spec, "31043", LBIS.L["Chest"], "BIS") --Thunderheart Vest
 LBIS:AddItem(spec, "31090", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Vanquisher
 LBIS:AddItem(spec, "33566", LBIS.L["Chest"], "Alt") --Blessed Elunite Coverings
 
-LBIS:AddItem(spec, "32586", LBIS.L["Bracers"], "BIS") --Bracers of Nimble Thought
-LBIS:AddItem(spec, "33285", LBIS.L["Bracers"], "Alt") --Fury of the Ursine
-LBIS:AddItem(spec, "33578", LBIS.L["Bracers"], "Alt") --Armwraps of the Kaldorei Protector
-LBIS:AddItem(spec, "33588", LBIS.L["Bracers"], "Alt") --Runed Spell-cuffs
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "BIS") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "33285", LBIS.L["Wrist"], "Alt") --Fury of the Ursine
+LBIS:AddItem(spec, "33578", LBIS.L["Wrist"], "Alt") --Armwraps of the Kaldorei Protector
+LBIS:AddItem(spec, "33588", LBIS.L["Wrist"], "Alt") --Runed Spell-cuffs
 
-LBIS:AddItem(spec, "31035", LBIS.L["Gloves"], "BIS") --Thunderheart Handguards
-LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Vanquisher
-LBIS:AddItem(spec, "33586", LBIS.L["Gloves"], "Alt") --Studious Wraps
-LBIS:AddItem(spec, "33974", LBIS.L["Gloves"], "Alt") --Grasp of the Moonkin
+LBIS:AddItem(spec, "31035", LBIS.L["Hands"], "BIS") --Thunderheart Handguards
+LBIS:AddItem(spec, "31093", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Vanquisher
+LBIS:AddItem(spec, "33586", LBIS.L["Hands"], "Alt") --Studious Wraps
+LBIS:AddItem(spec, "33974", LBIS.L["Hands"], "Alt") --Grasp of the Moonkin
 
 LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "BIS") --Anetheron's Noose
 LBIS:AddItem(spec, "33559", LBIS.L["Waist"], "Alt") --Starfire Waistband

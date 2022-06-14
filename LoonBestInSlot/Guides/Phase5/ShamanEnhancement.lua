@@ -5,12 +5,12 @@ LBIS:AddItem(spec, "34333", LBIS.L["Head"], "BIS") --Coif of Alleria
 LBIS:AddItem(spec, "32235", LBIS.L["Head"], "BIS") --Cursed Vision of Sargeras
 LBIS:AddItem(spec, "34356", LBIS.L["Head"], "Alt") --Surestrike Goggles v3.0
 
-LBIS:AddItem(spec, "34392", LBIS.L["Shoulders"], "BIS") --Demontooth Shoulderpads
-LBIS:AddItem(spec, "34195", LBIS.L["Shoulders"], "Transmute BIS") --Shoulderpads of Vehemence
-LBIS:AddItem(spec, "34194", LBIS.L["Shoulders"], "BIS") --Mantle of the Golden Forest
-LBIS:AddItem(spec, "32581", LBIS.L["Shoulders"], "Alt") --Swiftstrike Shoulders
-LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "Alt") --Shoulderpads of the Stranger
-LBIS:AddItem(spec, "32575", LBIS.L["Shoulders"], "Alt") --Shoulders of Lightning Reflexes
+LBIS:AddItem(spec, "34392", LBIS.L["Shoulder"], "BIS") --Demontooth Shoulderpads
+LBIS:AddItem(spec, "34195", LBIS.L["Shoulder"], "Transmute BIS") --Shoulderpads of Vehemence
+LBIS:AddItem(spec, "34194", LBIS.L["Shoulder"], "BIS") --Mantle of the Golden Forest
+LBIS:AddItem(spec, "32581", LBIS.L["Shoulder"], "Alt") --Swiftstrike Shoulders
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "32575", LBIS.L["Shoulder"], "Alt") --Shoulders of Lightning Reflexes
 
 LBIS:AddItem(spec, "34241", LBIS.L["Back"], "BIS") --Cloak of Unforgivable Sin
 LBIS:AddItem(spec, "32323", LBIS.L["Back"], "BIS") --Shadowmoon Destroyer's Drape
@@ -23,19 +23,19 @@ LBIS:AddItem(spec, "34228", LBIS.L["Chest"], "Alt") --Vicious Hawkstrider Hauber
 LBIS:AddItem(spec, "30905", LBIS.L["Chest"], "Alt") --Midnight Chestguard
 LBIS:AddItem(spec, "34927", LBIS.L["Chest"], "Alt") --Tunic of the Dark Hour
 
-LBIS:AddItem(spec, "34439", LBIS.L["Bracers"], "BIS") --Skyshatter Wristguards
-LBIS:AddItem(spec, "34851", LBIS.L["Bracers"], "BIS") --Bracers of the Forgotten Protector
-LBIS:AddItem(spec, "30863", LBIS.L["Bracers"], "Alt") --Deadly Cuffs
-LBIS:AddItem(spec, "32574", LBIS.L["Bracers"], "Alt") --Bindings of Lightning Reflexes
-LBIS:AddItem(spec, "32324", LBIS.L["Bracers"], "Alt") --Insidious Bands
+LBIS:AddItem(spec, "34439", LBIS.L["Wrist"], "BIS") --Skyshatter Wristguards
+LBIS:AddItem(spec, "34851", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Protector
+LBIS:AddItem(spec, "30863", LBIS.L["Wrist"], "Alt") --Deadly Cuffs
+LBIS:AddItem(spec, "32574", LBIS.L["Wrist"], "Alt") --Bindings of Lightning Reflexes
+LBIS:AddItem(spec, "32324", LBIS.L["Wrist"], "Alt") --Insidious Bands
 
-LBIS:AddItem(spec, "34343", LBIS.L["Gloves"], "BIS") --Thalassian Ranger Gauntlets
-LBIS:AddItem(spec, "34370", LBIS.L["Gloves"], "BIS") --Gloves of Immortal Dusk
-LBIS:AddItem(spec, "34234", LBIS.L["Gloves"], "Alt") --Shadowed Gauntlets of Paroxysm
-LBIS:AddItem(spec, "34374", LBIS.L["Gloves"], "Alt") --Fletcher's Gloves of the Phoenix
-LBIS:AddItem(spec, "32347", LBIS.L["Gloves"], "Alt") --Grips of Damnation
-LBIS:AddItem(spec, "32234", LBIS.L["Gloves"], "Alt") --Fists of Mukoa
-LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "Alt") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "34343", LBIS.L["Hands"], "BIS") --Thalassian Ranger Gauntlets
+LBIS:AddItem(spec, "34370", LBIS.L["Hands"], "BIS") --Gloves of Immortal Dusk
+LBIS:AddItem(spec, "34234", LBIS.L["Hands"], "Alt") --Shadowed Gauntlets of Paroxysm
+LBIS:AddItem(spec, "34374", LBIS.L["Hands"], "Alt") --Fletcher's Gloves of the Phoenix
+LBIS:AddItem(spec, "32347", LBIS.L["Hands"], "Alt") --Grips of Damnation
+LBIS:AddItem(spec, "32234", LBIS.L["Hands"], "Alt") --Fists of Mukoa
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "Alt") --Gloves of the Searing Grip
 
 LBIS:AddItem(spec, "34545", LBIS.L["Waist"], "BIS") --Skyshatter Girdle
 LBIS:AddItem(spec, "34854", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Protector

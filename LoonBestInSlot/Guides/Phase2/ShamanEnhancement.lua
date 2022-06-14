@@ -6,10 +6,10 @@ LBIS:AddItem(spec, "32474", LBIS.L["Head"], "Alt") --Surestrike Goggles v2.0
 LBIS:AddItem(spec, "29040", LBIS.L["Head"], "Alt") --Cyclone Helm
 LBIS:AddItem(spec, "29760", LBIS.L["Head"], "Alt") --Helm of the Fallen Champion
 
-LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "BIS") --Shoulderpads of the Stranger
-LBIS:AddItem(spec, "29043", LBIS.L["Shoulders"], "Alt") --Cyclone Shoulderplates
-LBIS:AddItem(spec, "29763", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Fallen Champion
-LBIS:AddItem(spec, "28755", LBIS.L["Shoulders"], "Alt") --Bladed Shoulderpads of the Merciless
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "BIS") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "29043", LBIS.L["Shoulder"], "Alt") --Cyclone Shoulderplates
+LBIS:AddItem(spec, "29763", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Fallen Champion
+LBIS:AddItem(spec, "28755", LBIS.L["Shoulder"], "Alt") --Bladed Shoulderpads of the Merciless
 
 LBIS:AddItem(spec, "29994", LBIS.L["Back"], "BIS") --Thalassian Wildercloak
 LBIS:AddItem(spec, "24259", LBIS.L["Back"], "Alt") --Vengeance Wrap
@@ -19,14 +19,14 @@ LBIS:AddItem(spec, "30236", LBIS.L["Chest"], "BIS") --Chestguard of the Vanquish
 LBIS:AddItem(spec, "29038", LBIS.L["Chest"], "Alt") --Cyclone Breastplate
 LBIS:AddItem(spec, "29754", LBIS.L["Chest"], "Alt") --Chestguard of the Fallen Champion
 
-LBIS:AddItem(spec, "30091", LBIS.L["Bracers"], "BIS") --True-Aim Stalker Bands
-LBIS:AddItem(spec, "29966", LBIS.L["Bracers"], "Alt") --Vambraces of Ending
-LBIS:AddItem(spec, "28514", LBIS.L["Bracers"], "Alt") --Bracers of Maliciousness
+LBIS:AddItem(spec, "30091", LBIS.L["Wrist"], "BIS") --True-Aim Stalker Bands
+LBIS:AddItem(spec, "29966", LBIS.L["Wrist"], "Alt") --Vambraces of Ending
+LBIS:AddItem(spec, "28514", LBIS.L["Wrist"], "Alt") --Bracers of Maliciousness
 
-LBIS:AddItem(spec, "30189", LBIS.L["Gloves"], "BIS") --Cataclysm Gauntlets
-LBIS:AddItem(spec, "30239", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Champion
-LBIS:AddItem(spec, "28776", LBIS.L["Gloves"], "Alt") --Liar's Tongue Gloves
-LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "Alt") --Grips of Deftness
+LBIS:AddItem(spec, "30189", LBIS.L["Hands"], "BIS") --Cataclysm Gauntlets
+LBIS:AddItem(spec, "30239", LBIS.L["Hands"], "BIS") --Gloves of the Vanquished Champion
+LBIS:AddItem(spec, "28776", LBIS.L["Hands"], "Alt") --Liar's Tongue Gloves
+LBIS:AddItem(spec, "30644", LBIS.L["Hands"], "Alt") --Grips of Deftness
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "Alt") --Gronn-Stitched Girdle

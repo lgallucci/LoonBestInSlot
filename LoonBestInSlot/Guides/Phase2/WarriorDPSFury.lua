@@ -8,14 +8,14 @@ LBIS:AddItem(spec, "29761", LBIS.L["Head"], "Alt") --Helm of the Fallen Defender
 LBIS:AddItem(spec, "32087", LBIS.L["Head"], "Alt") --Mask of the Deceiver
 LBIS:AddItem(spec, "29983", LBIS.L["Head"], "Alt") --Fel-Steel Warhelm
 
-LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "BIS") --Shoulderpads of the Stranger
-LBIS:AddItem(spec, "30122", LBIS.L["Shoulders"], "Alt") --Destroyer Shoulderblades
-LBIS:AddItem(spec, "30249", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Vanquished Defender
-LBIS:AddItem(spec, "30053", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Wardancer
-LBIS:AddItem(spec, "30740", LBIS.L["Shoulders"], "BIS") --Ripfiend Shoulderplates
-LBIS:AddItem(spec, "29023", LBIS.L["Shoulders"], "Alt") --Warbringer Shoulderplates
-LBIS:AddItem(spec, "29764", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Fallen Defender
-LBIS:AddItem(spec, "33173", LBIS.L["Shoulders"], "BIS") --Ragesteel Shoulders
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "BIS") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "30122", LBIS.L["Shoulder"], "Alt") --Destroyer Shoulderblades
+LBIS:AddItem(spec, "30249", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Vanquished Defender
+LBIS:AddItem(spec, "30053", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Wardancer
+LBIS:AddItem(spec, "30740", LBIS.L["Shoulder"], "BIS") --Ripfiend Shoulderplates
+LBIS:AddItem(spec, "29023", LBIS.L["Shoulder"], "Alt") --Warbringer Shoulderplates
+LBIS:AddItem(spec, "29764", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Fallen Defender
+LBIS:AddItem(spec, "33173", LBIS.L["Shoulder"], "BIS") --Ragesteel Shoulders
 
 LBIS:AddItem(spec, "30729", LBIS.L["Back"], "BIS") --Black-Iron Battlecloak
 LBIS:AddItem(spec, "24259", LBIS.L["Back"], "BIS") --Vengeance Wrap
@@ -30,15 +30,15 @@ LBIS:AddItem(spec, "30730", LBIS.L["Chest"], "Alt") --Terrorweave Tunic
 LBIS:AddItem(spec, "29019", LBIS.L["Chest"], "Alt") --Warbringer Breastplate
 LBIS:AddItem(spec, "29753", LBIS.L["Chest"], "Alt") --Chestguard of the Fallen Defender
 
-LBIS:AddItem(spec, "30057", LBIS.L["Bracers"], "BIS") --Bracers of Eradication
-LBIS:AddItem(spec, "28795", LBIS.L["Bracers"], "BIS") --Bladespire Warbands
-LBIS:AddItem(spec, "30091", LBIS.L["Bracers"], "Alt") --True-Aim Stalker Bands
+LBIS:AddItem(spec, "30057", LBIS.L["Wrist"], "BIS") --Bracers of Eradication
+LBIS:AddItem(spec, "28795", LBIS.L["Wrist"], "BIS") --Bladespire Warbands
+LBIS:AddItem(spec, "30091", LBIS.L["Wrist"], "Alt") --True-Aim Stalker Bands
 
-LBIS:AddItem(spec, "28824", LBIS.L["Gloves"], "BIS") --Gauntlets of Martial Perfection
-LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "BIS") --Gloves of the Searing Grip
-LBIS:AddItem(spec, "28776", LBIS.L["Gloves"], "Alt") --Liar's Tongue Gloves
-LBIS:AddItem(spec, "30119", LBIS.L["Gloves"], "Alt") --Destroyer Gauntlets
-LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Defender
+LBIS:AddItem(spec, "28824", LBIS.L["Hands"], "BIS") --Gauntlets of Martial Perfection
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "BIS") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "28776", LBIS.L["Hands"], "Alt") --Liar's Tongue Gloves
+LBIS:AddItem(spec, "30119", LBIS.L["Hands"], "Alt") --Destroyer Gauntlets
+LBIS:AddItem(spec, "30240", LBIS.L["Hands"], "Alt") --Gloves of the Vanquished Defender
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 LBIS:AddItem(spec, "30032", LBIS.L["Waist"], "Alt") --Red Belt of Battle

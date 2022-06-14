@@ -3,8 +3,8 @@ local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "4")
 LBIS:AddItem(spec, "30988", LBIS.L["Head"], "BIS") --Lightbringer Greathelm
 LBIS:AddItem(spec, "31097", LBIS.L["Head"], "BIS") --Helm of the Forgotten Conqueror
 
-LBIS:AddItem(spec, "30996", LBIS.L["Shoulders"], "BIS") --Lightbringer Pauldrons
-LBIS:AddItem(spec, "31101", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Conqueror
+LBIS:AddItem(spec, "30996", LBIS.L["Shoulder"], "BIS") --Lightbringer Pauldrons
+LBIS:AddItem(spec, "31101", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Conqueror
 
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
 LBIS:AddItem(spec, "34012", LBIS.L["Back"], "BIS") --Shroud of the Final Stand
@@ -13,9 +13,9 @@ LBIS:AddItem(spec, "33592", LBIS.L["Back"], "Alt") --Cloak of Ancient Rituals
 LBIS:AddItem(spec, "30992", LBIS.L["Chest"], "BIS") --Lightbringer Chestpiece
 LBIS:AddItem(spec, "31089", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Conqueror
 
-LBIS:AddItem(spec, "30862", LBIS.L["Bracers"], "BIS") --Blessed Adamantite Bracers
+LBIS:AddItem(spec, "30862", LBIS.L["Wrist"], "BIS") --Blessed Adamantite Bracers
 
-LBIS:AddItem(spec, "30112", LBIS.L["Gloves"], "BIS") --Glorious Gauntlets of Crestfall
+LBIS:AddItem(spec, "30112", LBIS.L["Hands"], "BIS") --Glorious Gauntlets of Crestfall
 
 LBIS:AddItem(spec, "30897", LBIS.L["Waist"], "BIS") --Girdle of Hope
 LBIS:AddItem(spec, "33446", LBIS.L["Waist"], "BIS") --Girdle of Stromgarde's Hope

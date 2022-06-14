@@ -7,11 +7,11 @@ LBIS:AddItem(spec, "32241", LBIS.L["Head"], "Alt") --Helm of Soothing Currents
 LBIS:AddItem(spec, "30136", LBIS.L["Head"], "Alt") --Crystalforge Greathelm
 LBIS:AddItem(spec, "30242", LBIS.L["Head"], "Alt") --Helm of the Vanquished Champion
 
-LBIS:AddItem(spec, "30996", LBIS.L["Shoulders"], "BIS") --Lightbringer Pauldrons
-LBIS:AddItem(spec, "31101", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Conqueror
-LBIS:AddItem(spec, "30878", LBIS.L["Shoulders"], "Alt") --Glimmering Steel Mantle
-LBIS:AddItem(spec, "30138", LBIS.L["Shoulders"], "Alt") --Crystalforge Pauldrons
-LBIS:AddItem(spec, "30248", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Vanquished Champion
+LBIS:AddItem(spec, "30996", LBIS.L["Shoulder"], "BIS") --Lightbringer Pauldrons
+LBIS:AddItem(spec, "31101", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Conqueror
+LBIS:AddItem(spec, "30878", LBIS.L["Shoulder"], "Alt") --Glimmering Steel Mantle
+LBIS:AddItem(spec, "30138", LBIS.L["Shoulder"], "Alt") --Crystalforge Pauldrons
+LBIS:AddItem(spec, "30248", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Vanquished Champion
 
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
 LBIS:AddItem(spec, "34012", LBIS.L["Back"], "BIS") --Shroud of the Final Stand
@@ -24,15 +24,15 @@ LBIS:AddItem(spec, "30904", LBIS.L["Chest"], "Alt") --Savior's Grasp
 LBIS:AddItem(spec, "30134", LBIS.L["Chest"], "Alt") --Crystalforge Chestpiece
 LBIS:AddItem(spec, "30236", LBIS.L["Chest"], "Alt") --Chestguard of the Vanquished Champion
 
-LBIS:AddItem(spec, "30862", LBIS.L["Bracers"], "BIS") --Blessed Adamantite Bracers
-LBIS:AddItem(spec, "30869", LBIS.L["Bracers"], "Alt") --Howling Wind Bracers
-LBIS:AddItem(spec, "32571", LBIS.L["Bracers"], "Alt") --Dawnsteel Bracers
-LBIS:AddItem(spec, "30047", LBIS.L["Bracers"], "Alt") --Blackfathom Warbands
+LBIS:AddItem(spec, "30862", LBIS.L["Wrist"], "BIS") --Blessed Adamantite Bracers
+LBIS:AddItem(spec, "30869", LBIS.L["Wrist"], "Alt") --Howling Wind Bracers
+LBIS:AddItem(spec, "32571", LBIS.L["Wrist"], "Alt") --Dawnsteel Bracers
+LBIS:AddItem(spec, "30047", LBIS.L["Wrist"], "Alt") --Blackfathom Warbands
 
-LBIS:AddItem(spec, "30112", LBIS.L["Gloves"], "BIS") --Glorious Gauntlets of Crestfall
-LBIS:AddItem(spec, "30983", LBIS.L["Gloves"], "Alt") --Lightbringer Gloves
-LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Conqueror
-LBIS:AddItem(spec, "32328", LBIS.L["Gloves"], "Alt") --Botanist's Gloves of Growth
+LBIS:AddItem(spec, "30112", LBIS.L["Hands"], "BIS") --Glorious Gauntlets of Crestfall
+LBIS:AddItem(spec, "30983", LBIS.L["Hands"], "Alt") --Lightbringer Gloves
+LBIS:AddItem(spec, "31092", LBIS.L["Hands"], "Alt") --Gloves of the Forgotten Conqueror
+LBIS:AddItem(spec, "32328", LBIS.L["Hands"], "Alt") --Botanist's Gloves of Growth
 
 LBIS:AddItem(spec, "30897", LBIS.L["Waist"], "BIS") --Girdle of Hope
 LBIS:AddItem(spec, "30030", LBIS.L["Waist"], "Alt") --Girdle of Fallen Stars

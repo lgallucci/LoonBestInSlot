@@ -56,7 +56,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Bleeding Hollow Supply Crates"] = "";
 --  LBIS.L["Blessings Deck"] = "";
   LBIS.L["Blood Guard Porung"] = "Guardia de sangre Porung";
---  LBIS.L["Bracers"] = "";
 --  LBIS.L["Brewfest"] = "";
 --  LBIS.L["Bring Me The Egg!"] = "";
   LBIS.L["Broggok"] = "Broggok";
@@ -134,7 +133,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["General Drakkisath's Demise - Marshal Maxwell/For The Horde!"] = "";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "Ghaz'an";
---  LBIS.L["Gloves"] = "";
 --  LBIS.L["Gnomish Engineer"] = "";
   LBIS.L["Grand Warlock Nethekurse"] = "Brujo supremo Malbisal";
   LBIS.L["Grandmaster Vorpil"] = "Gran maestro Vorpil";
@@ -142,9 +140,10 @@ if GetLocale() == "esMX" then
   LBIS.L["Gruul's Lair"] = "Guarida de Gruul";
 --  LBIS.L["Gurok the Usurper"] = "";
   LBIS.L["Gurtogg Bloodboil"] = "Gurtogg Sangre Hirviente";
---  LBIS.L["Hail,Commander!"] = "";
+--  LBIS.L["Hail, Commander!"] = "";
   LBIS.L["Halazzi"] = "Halazzi";
 --  LBIS.L["Hallows Eve"] = "";
+  LBIS.L["Hands"] = "Manos";
   LBIS.L["Harbinger Skyriss"] = "Presagista Cieloriss";
   LBIS.L["Head"] = "Cabeza";
   LBIS.L["Headless Horseman"] = "El Jinete decapitado";
@@ -296,7 +295,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Shattrath City"] = "Ciudad de Shattrath";
   LBIS.L["Shield"] = "Escudo";
   LBIS.L["Shirrak the Dead Watcher"] = "Shirrak el Vigía de los Muertos";
---  LBIS.L["Shoulders"] = "";
+  LBIS.L["Shoulder"] = "Hombros";
 --  LBIS.L["Show Minimap Button:"] = "";
 --  LBIS.L["Show Tooltip:"] = "";
 --  LBIS.L["Showdown"] = "";
@@ -417,6 +416,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["World Drop"] = "";
   LBIS.L["Wrath-Scryer Soccothrates"] = "Arúspice de cólera Soccothrates";
 --  LBIS.L["Wrath-Scryer Soccothrates and Zereketh the Unbound"] = "";
+  LBIS.L["Wrist"] = "Muñeca";
 --  LBIS.L["Yor"] = "";
 --  LBIS.L["You're Hired!"] = "";
   LBIS.L["Zangarmarsh"] = "Marisma de Zangar";

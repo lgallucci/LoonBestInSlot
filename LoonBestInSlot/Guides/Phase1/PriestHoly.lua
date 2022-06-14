@@ -4,10 +4,10 @@ LBIS:AddItem(spec, "29049", LBIS.L["Head"], "BIS") --Light-Collar of the Incarna
 LBIS:AddItem(spec, "29761", LBIS.L["Head"], "BIS") --Helm of the Fallen Defender
 LBIS:AddItem(spec, "28756", LBIS.L["Head"], "Alt") --Headdress of the High Potentate
 
-LBIS:AddItem(spec, "21874", LBIS.L["Shoulders"], "BIS") --Primal Mooncloth Shoulders
-LBIS:AddItem(spec, "29054", LBIS.L["Shoulders"], "BIS") --Light-Mantle of the Incarnate
-LBIS:AddItem(spec, "29764", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Defender
-LBIS:AddItem(spec, "28612", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Solace-Giver
+LBIS:AddItem(spec, "21874", LBIS.L["Shoulder"], "BIS") --Primal Mooncloth Shoulders
+LBIS:AddItem(spec, "29054", LBIS.L["Shoulder"], "BIS") --Light-Mantle of the Incarnate
+LBIS:AddItem(spec, "29764", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Defender
+LBIS:AddItem(spec, "28612", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Solace-Giver
 
 LBIS:AddItem(spec, "28765", LBIS.L["Back"], "BIS") --Stainless Cloak of the Pure Hearted
 LBIS:AddItem(spec, "29354", LBIS.L["Back"], "BIS") --Light-Touched Stole of Altruism
@@ -19,15 +19,15 @@ LBIS:AddItem(spec, "29050", LBIS.L["Chest"], "BIS") --Robes of the Incarnate
 LBIS:AddItem(spec, "29753", LBIS.L["Chest"], "BIS") --Chestguard of the Fallen Defender
 LBIS:AddItem(spec, "28578", LBIS.L["Chest"], "Alt") --Masquerade Gown
 
-LBIS:AddItem(spec, "29183", LBIS.L["Bracers"], "BIS") --Bindings of the Timewalker
-LBIS:AddItem(spec, "28511", LBIS.L["Bracers"], "BIS") --Bands of Indwelling
-LBIS:AddItem(spec, "29249", LBIS.L["Bracers"], "BIS") --Bands of the Benevolent
+LBIS:AddItem(spec, "29183", LBIS.L["Wrist"], "BIS") --Bindings of the Timewalker
+LBIS:AddItem(spec, "28511", LBIS.L["Wrist"], "BIS") --Bands of Indwelling
+LBIS:AddItem(spec, "29249", LBIS.L["Wrist"], "BIS") --Bands of the Benevolent
 
-LBIS:AddItem(spec, "28508", LBIS.L["Gloves"], "BIS") --Gloves of Saintly Blessings
-LBIS:AddItem(spec, "29055", LBIS.L["Gloves"], "Alt") --Handwraps of the Incarnate
-LBIS:AddItem(spec, "29758", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Defender
-LBIS:AddItem(spec, "24393", LBIS.L["Gloves"], "Alt") --Bloody Surgeon's Mitts
-LBIS:AddItem(spec, "27536", LBIS.L["Gloves"], "Alt") --Hallowed Handwraps
+LBIS:AddItem(spec, "28508", LBIS.L["Hands"], "BIS") --Gloves of Saintly Blessings
+LBIS:AddItem(spec, "29055", LBIS.L["Hands"], "Alt") --Handwraps of the Incarnate
+LBIS:AddItem(spec, "29758", LBIS.L["Hands"], "Alt") --Gloves of the Fallen Defender
+LBIS:AddItem(spec, "24393", LBIS.L["Hands"], "Alt") --Bloody Surgeon's Mitts
+LBIS:AddItem(spec, "27536", LBIS.L["Hands"], "Alt") --Hallowed Handwraps
 
 LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt
 LBIS:AddItem(spec, "28652", LBIS.L["Waist"], "BIS") --Cincture of Will

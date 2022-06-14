@@ -5,9 +5,9 @@ LBIS:AddItem(spec, "29761", LBIS.L["Head"], "BIS") --Helm of the Fallen Defender
 LBIS:AddItem(spec, "28796", LBIS.L["Head"], "BIS Thrt") --Malefic Mask of the Shadows
 LBIS:AddItem(spec, "28732", LBIS.L["Head"], "Alt Thrt") --Cowl of Defiance
 
-LBIS:AddItem(spec, "29100", LBIS.L["Shoulders"], "BIS") --Mantle of Malorne
-LBIS:AddItem(spec, "29764", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Defender
-LBIS:AddItem(spec, "28755", LBIS.L["Shoulders"], "Alt Thrt") --Bladed Shoulderpads of the Merciless
+LBIS:AddItem(spec, "29100", LBIS.L["Shoulder"], "BIS") --Mantle of Malorne
+LBIS:AddItem(spec, "29764", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Defender
+LBIS:AddItem(spec, "28755", LBIS.L["Shoulder"], "Alt Thrt") --Bladed Shoulderpads of the Merciless
 
 LBIS:AddItem(spec, "28660", LBIS.L["Back"], "BIS Mit") --Gilded Thorium Cloak
 LBIS:AddItem(spec, "28672", LBIS.L["Back"], "BIS Thrt") --Drape of the Dark Reavers
@@ -20,19 +20,19 @@ LBIS:AddItem(spec, "29753", LBIS.L["Chest"], "BIS") --Chestguard of the Fallen D
 LBIS:AddItem(spec, "28601", LBIS.L["Chest"], "Alt") --Chestguard of the Conniver
 LBIS:AddItem(spec, "25689", LBIS.L["Chest"], "Alt") --Heavy Clefthoof Vest
 
-LBIS:AddItem(spec, "28978", LBIS.L["Bracers"], "BIS") --Marshal's Dragonhide Bracers
-LBIS:AddItem(spec, "28445", LBIS.L["Bracers"], "BIS") --General's Dragonhide Bracers
-LBIS:AddItem(spec, "28988", LBIS.L["Bracers"], "BIS") --Marshal's Leather Bracers
-LBIS:AddItem(spec, "28424", LBIS.L["Bracers"], "BIS") --General's Leather Bracers
-LBIS:AddItem(spec, "30944", LBIS.L["Bracers"], "Alt") --Umberhowl's Collar
-LBIS:AddItem(spec, "28514", LBIS.L["Bracers"], "Alt") --Bracers of Maliciousness
-LBIS:AddItem(spec, "29246", LBIS.L["Bracers"], "Alt") --Nightfall Wristguards
+LBIS:AddItem(spec, "28978", LBIS.L["Wrist"], "BIS") --Marshal's Dragonhide Bracers
+LBIS:AddItem(spec, "28445", LBIS.L["Wrist"], "BIS") --General's Dragonhide Bracers
+LBIS:AddItem(spec, "28988", LBIS.L["Wrist"], "BIS") --Marshal's Leather Bracers
+LBIS:AddItem(spec, "28424", LBIS.L["Wrist"], "BIS") --General's Leather Bracers
+LBIS:AddItem(spec, "30944", LBIS.L["Wrist"], "Alt") --Umberhowl's Collar
+LBIS:AddItem(spec, "28514", LBIS.L["Wrist"], "Alt") --Bracers of Maliciousness
+LBIS:AddItem(spec, "29246", LBIS.L["Wrist"], "Alt") --Nightfall Wristguards
 
-LBIS:AddItem(spec, "29097", LBIS.L["Gloves"], "BIS Mit") --Gauntlets of Malorne
-LBIS:AddItem(spec, "29758", LBIS.L["Gloves"], "BIS Mit") --Gloves of the Fallen Defender
-LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "BIS Thrt") --Grips of Deftness
-LBIS:AddItem(spec, "28506", LBIS.L["Gloves"], "Alt") --Gloves of Dexterous Manipulation
-LBIS:AddItem(spec, "28776", LBIS.L["Gloves"], "Alt") --Liar's Tongue Gloves
+LBIS:AddItem(spec, "29097", LBIS.L["Hands"], "BIS Mit") --Gauntlets of Malorne
+LBIS:AddItem(spec, "29758", LBIS.L["Hands"], "BIS Mit") --Gloves of the Fallen Defender
+LBIS:AddItem(spec, "30644", LBIS.L["Hands"], "BIS Thrt") --Grips of Deftness
+LBIS:AddItem(spec, "28506", LBIS.L["Hands"], "Alt") --Gloves of Dexterous Manipulation
+LBIS:AddItem(spec, "28776", LBIS.L["Hands"], "Alt") --Liar's Tongue Gloves
 
 LBIS:AddItem(spec, "29264", LBIS.L["Waist"], "BIS Mit") --Tree-Mender's Belt
 LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "BIS Thrt") --Gronn-Stitched Girdle

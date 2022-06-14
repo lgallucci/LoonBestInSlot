@@ -3,9 +3,9 @@ local spec = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L[""], "4")
 LBIS:AddItem(spec, "32235", LBIS.L["Head"], "BIS") --Cursed Vision of Sargeras
 LBIS:AddItem(spec, "33479", LBIS.L["Head"], "Alt") --Grimgrin Faceguard
 
-LBIS:AddItem(spec, "31030", LBIS.L["Shoulders"], "BIS") --Slayer's Shoulderpads
-LBIS:AddItem(spec, "31102", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Vanquisher
-LBIS:AddItem(spec, "33300", LBIS.L["Shoulders"], "Alt") --Shoulderpads of Dancing Blades
+LBIS:AddItem(spec, "31030", LBIS.L["Shoulder"], "BIS") --Slayer's Shoulderpads
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "33300", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Dancing Blades
 
 LBIS:AddItem(spec, "32323", LBIS.L["Back"], "BIS") --Shadowmoon Destroyer's Drape
 LBIS:AddItem(spec, "33590", LBIS.L["Back"], "Alt") --Cloak of Fiends
@@ -15,12 +15,12 @@ LBIS:AddItem(spec, "31028", LBIS.L["Chest"], "BIS") --Slayer's Chestguard
 LBIS:AddItem(spec, "31090", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Vanquisher
 LBIS:AddItem(spec, "33329", LBIS.L["Chest"], "Alt") --Shadowtooth Trollskin Cuirass
 
-LBIS:AddItem(spec, "32324", LBIS.L["Bracers"], "BIS") --Insidious Bands
-LBIS:AddItem(spec, "33540", LBIS.L["Bracers"], "Alt") --Master Assassin Wristwraps
+LBIS:AddItem(spec, "32324", LBIS.L["Wrist"], "BIS") --Insidious Bands
+LBIS:AddItem(spec, "33540", LBIS.L["Wrist"], "Alt") --Master Assassin Wristwraps
 
-LBIS:AddItem(spec, "31026", LBIS.L["Gloves"], "BIS") --Slayer's Handguards
-LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Vanquisher
-LBIS:AddItem(spec, "33539", LBIS.L["Gloves"], "Alt") --Trickster's Stickyfingers
+LBIS:AddItem(spec, "31026", LBIS.L["Hands"], "BIS") --Slayer's Handguards
+LBIS:AddItem(spec, "31093", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Vanquisher
+LBIS:AddItem(spec, "33539", LBIS.L["Hands"], "Alt") --Trickster's Stickyfingers
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 LBIS:AddItem(spec, "33211", LBIS.L["Waist"], "Alt") --Bladeangel's Money Belt

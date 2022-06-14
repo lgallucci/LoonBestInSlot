@@ -2,8 +2,8 @@ local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "4")
 
 LBIS:AddItem(spec, "32235", LBIS.L["Head"], "BIS") --Cursed Vision of Sargeras
 
-LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "BIS") --Shoulderpads of the Stranger
-LBIS:AddItem(spec, "32581", LBIS.L["Shoulders"], "BIS") --Swiftstrike Shoulders
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "BIS") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "32581", LBIS.L["Shoulder"], "BIS") --Swiftstrike Shoulders
 
 LBIS:AddItem(spec, "33590", LBIS.L["Back"], "BIS") --Cloak of Fiends
 LBIS:AddItem(spec, "33122", LBIS.L["Back"], "Alt") --Cloak of Darkness
@@ -12,10 +12,10 @@ LBIS:AddItem(spec, "27878", LBIS.L["Back"], "Alt") --Auchenai Death Shroud
 
 LBIS:AddItem(spec, "30905", LBIS.L["Chest"], "BIS") --Midnight Chestguard
 
-LBIS:AddItem(spec, "32574", LBIS.L["Bracers"], "BIS") --Bindings of Lightning Reflexes
+LBIS:AddItem(spec, "32574", LBIS.L["Wrist"], "BIS") --Bindings of Lightning Reflexes
 
-LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "BIS") --Gloves of the Searing Grip
-LBIS:AddItem(spec, "32347", LBIS.L["Gloves"], "Alt") --Grips of Damnation
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "BIS") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "32347", LBIS.L["Hands"], "Alt") --Grips of Damnation
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 LBIS:AddItem(spec, "32265", LBIS.L["Waist"], "Alt") --Shadow-walker's Cord

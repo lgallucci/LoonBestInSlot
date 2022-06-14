@@ -6,11 +6,11 @@ LBIS:AddItem(spec, "34355", LBIS.L["Head"], "Alt") --Lightning Etched Specs
 LBIS:AddItem(spec, "31014", LBIS.L["Head"], "Alt") --Skyshatter Headguard
 LBIS:AddItem(spec, "31095", LBIS.L["Head"], "Alt") --Helm of the Forgotten Protector
 
-LBIS:AddItem(spec, "31023", LBIS.L["Shoulders"], "BIS") --Skyshatter Mantle
-LBIS:AddItem(spec, "31103", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Protector
-LBIS:AddItem(spec, "34210", LBIS.L["Shoulders"], "Alt") --Amice of the Convoker
-LBIS:AddItem(spec, "34390", LBIS.L["Shoulders"], "Alt") --Erupting Epaulets
-LBIS:AddItem(spec, "34208", LBIS.L["Shoulders"], "Transmute Alt") --Equilibrium Epaulets
+LBIS:AddItem(spec, "31023", LBIS.L["Shoulder"], "BIS") --Skyshatter Mantle
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "Alt") --Amice of the Convoker
+LBIS:AddItem(spec, "34390", LBIS.L["Shoulder"], "Alt") --Erupting Epaulets
+LBIS:AddItem(spec, "34208", LBIS.L["Shoulder"], "Transmute Alt") --Equilibrium Epaulets
 
 LBIS:AddItem(spec, "34242", LBIS.L["Back"], "BIS") --Tattered Cape of Antonidas
 LBIS:AddItem(spec, "32331", LBIS.L["Back"], "Alt") --Cloak of the Illidari Council
@@ -23,18 +23,18 @@ LBIS:AddItem(spec, "31017", LBIS.L["Chest"], "Alt") --Skyshatter Breastplate
 LBIS:AddItem(spec, "31091", LBIS.L["Chest"], "Alt") --Chestguard of the Forgotten Protector
 LBIS:AddItem(spec, "34933", LBIS.L["Chest"], "Alt") --Hauberk of Whirling Fury
 
-LBIS:AddItem(spec, "34437", LBIS.L["Bracers"], "BIS") --Skyshatter Bands
-LBIS:AddItem(spec, "34851", LBIS.L["Bracers"], "BIS") --Bracers of the Forgotten Protector
-LBIS:AddItem(spec, "32586", LBIS.L["Bracers"], "Alt") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "34437", LBIS.L["Wrist"], "BIS") --Skyshatter Bands
+LBIS:AddItem(spec, "34851", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Protector
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "Alt") --Bracers of Nimble Thought
 
-LBIS:AddItem(spec, "34350", LBIS.L["Gloves"], "BIS") --Gauntlets of the Ancient Shadowmoon
-LBIS:AddItem(spec, "34406", LBIS.L["Gloves"], "BIS") --Gloves of Tyri's Power
-LBIS:AddItem(spec, "34342", LBIS.L["Gloves"], "Transmute BIS") --Handguards of the Dawn
-LBIS:AddItem(spec, "34344", LBIS.L["Gloves"], "BIS") --Handguards of Defiled Worlds
-LBIS:AddItem(spec, "34366", LBIS.L["Gloves"], "Alt") --Sunfire Handwraps
-LBIS:AddItem(spec, "34938", LBIS.L["Gloves"], "Alt") --Enslaved Doomguard Soulgrips
-LBIS:AddItem(spec, "31008", LBIS.L["Gloves"], "Alt") --Skyshatter Gauntlets
-LBIS:AddItem(spec, "31094", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Protector
+LBIS:AddItem(spec, "34350", LBIS.L["Hands"], "BIS") --Gauntlets of the Ancient Shadowmoon
+LBIS:AddItem(spec, "34406", LBIS.L["Hands"], "BIS") --Gloves of Tyri's Power
+LBIS:AddItem(spec, "34342", LBIS.L["Hands"], "Transmute BIS") --Handguards of the Dawn
+LBIS:AddItem(spec, "34344", LBIS.L["Hands"], "BIS") --Handguards of Defiled Worlds
+LBIS:AddItem(spec, "34366", LBIS.L["Hands"], "Alt") --Sunfire Handwraps
+LBIS:AddItem(spec, "34938", LBIS.L["Hands"], "Alt") --Enslaved Doomguard Soulgrips
+LBIS:AddItem(spec, "31008", LBIS.L["Hands"], "Alt") --Skyshatter Gauntlets
+LBIS:AddItem(spec, "31094", LBIS.L["Hands"], "Alt") --Gloves of the Forgotten Protector
 
 LBIS:AddItem(spec, "34542", LBIS.L["Waist"], "BIS") --Skyshatter Cord
 LBIS:AddItem(spec, "34854", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Protector

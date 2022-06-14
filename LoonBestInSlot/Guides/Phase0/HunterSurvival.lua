@@ -7,11 +7,11 @@ LBIS:AddItem(spec, "31106", LBIS.L["Head"], "Alt") --Stalker's Helmet of Second 
 LBIS:AddItem(spec, "27414", LBIS.L["Head"], "Alt") --Mok'Nathal Beast-Mask
 LBIS:AddItem(spec, "32474", LBIS.L["Head"], "Alt") --Surestrike Goggles v2.0
 
-LBIS:AddItem(spec, "27801", LBIS.L["Shoulders"], "BIS") --Beast Lord Mantle
-LBIS:AddItem(spec, "25790", LBIS.L["Shoulders"], "Alt") --Expedition Scout's Epaulets
-LBIS:AddItem(spec, "22439", LBIS.L["Shoulders"], "Alt") --Cryptstalker Spaulders
-LBIS:AddItem(spec, "27797", LBIS.L["Shoulders"], "Alt") --Wastewalker Shoulderpads
-LBIS:AddItem(spec, "27434", LBIS.L["Shoulders"], "Alt") --Mantle of Perenolde
+LBIS:AddItem(spec, "27801", LBIS.L["Shoulder"], "BIS") --Beast Lord Mantle
+LBIS:AddItem(spec, "25790", LBIS.L["Shoulder"], "Alt") --Expedition Scout's Epaulets
+LBIS:AddItem(spec, "22439", LBIS.L["Shoulder"], "Alt") --Cryptstalker Spaulders
+LBIS:AddItem(spec, "27797", LBIS.L["Shoulder"], "Alt") --Wastewalker Shoulderpads
+LBIS:AddItem(spec, "27434", LBIS.L["Shoulder"], "Alt") --Mantle of Perenolde
 
 LBIS:AddItem(spec, "29382", LBIS.L["Back"], "BIS") --Blood Knight War Cloak
 LBIS:AddItem(spec, "24259", LBIS.L["Back"], "Alt") --Vengeance Wrap
@@ -24,17 +24,17 @@ LBIS:AddItem(spec, "29525", LBIS.L["Chest"], "Alt") --Primalstrike Vest
 LBIS:AddItem(spec, "30933", LBIS.L["Chest"], "Alt") --Hauberk of Karabor
 LBIS:AddItem(spec, "22436", LBIS.L["Chest"], "Alt") --Cryptstalker Tunic
 
-LBIS:AddItem(spec, "25697", LBIS.L["Bracers"], "BIS") --Felstalker Bracers
-LBIS:AddItem(spec, "29246", LBIS.L["Bracers"], "Alt") --Nightfall Wristguards
-LBIS:AddItem(spec, "29527", LBIS.L["Bracers"], "Alt") --Primalstrike Bracers
-LBIS:AddItem(spec, "22443", LBIS.L["Bracers"], "Alt") --Cryptstalker Wristguards
+LBIS:AddItem(spec, "25697", LBIS.L["Wrist"], "BIS") --Felstalker Bracers
+LBIS:AddItem(spec, "29246", LBIS.L["Wrist"], "Alt") --Nightfall Wristguards
+LBIS:AddItem(spec, "29527", LBIS.L["Wrist"], "Alt") --Primalstrike Bracers
+LBIS:AddItem(spec, "22443", LBIS.L["Wrist"], "Alt") --Cryptstalker Wristguards
 
-LBIS:AddItem(spec, "27474", LBIS.L["Gloves"], "BIS") --Beast Lord Handguards
-LBIS:AddItem(spec, "30951", LBIS.L["Gloves"], "Alt") --Ar'tor's Mainstay
-LBIS:AddItem(spec, "16463", LBIS.L["Gloves"], "Alt") --Marshal's Chain Grips
-LBIS:AddItem(spec, "16571", LBIS.L["Gloves"], "Alt") --General's Chain Gloves
-LBIS:AddItem(spec, "22441", LBIS.L["Gloves"], "Alt") --Cryptstalker Handguards
-LBIS:AddItem(spec, "30003", LBIS.L["Gloves"], "Alt") --Gloves of the Nether-Stalker
+LBIS:AddItem(spec, "27474", LBIS.L["Hands"], "BIS") --Beast Lord Handguards
+LBIS:AddItem(spec, "30951", LBIS.L["Hands"], "Alt") --Ar'tor's Mainstay
+LBIS:AddItem(spec, "16463", LBIS.L["Hands"], "Alt") --Marshal's Chain Grips
+LBIS:AddItem(spec, "16571", LBIS.L["Hands"], "Alt") --General's Chain Gloves
+LBIS:AddItem(spec, "22441", LBIS.L["Hands"], "Alt") --Cryptstalker Handguards
+LBIS:AddItem(spec, "30003", LBIS.L["Hands"], "Alt") --Gloves of the Nether-Stalker
 
 LBIS:AddItem(spec, "27760", LBIS.L["Waist"], "BIS") --Dunewind Sash
 LBIS:AddItem(spec, "29526", LBIS.L["Waist"], "Alt") --Primalstrike Belt

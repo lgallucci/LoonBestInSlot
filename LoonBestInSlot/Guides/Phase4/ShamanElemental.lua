@@ -3,10 +3,10 @@ local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental"], "4")
 LBIS:AddItem(spec, "31014", LBIS.L["Head"], "BIS") --Skyshatter Headguard
 LBIS:AddItem(spec, "31095", LBIS.L["Head"], "BIS") --Helm of the Forgotten Protector
 
-LBIS:AddItem(spec, "31023", LBIS.L["Shoulders"], "BIS") --Skyshatter Mantle
-LBIS:AddItem(spec, "31103", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Protector
-LBIS:AddItem(spec, "33970", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Furious Elements
-LBIS:AddItem(spec, "32587", LBIS.L["Shoulders"], "Alt") --Mantle of Nimble Thought
+LBIS:AddItem(spec, "31023", LBIS.L["Shoulder"], "BIS") --Skyshatter Mantle
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "33970", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Furious Elements
+LBIS:AddItem(spec, "32587", LBIS.L["Shoulder"], "Alt") --Mantle of Nimble Thought
 
 LBIS:AddItem(spec, "32331", LBIS.L["Back"], "BIS") --Cloak of the Illidari Council
 LBIS:AddItem(spec, "33591", LBIS.L["Back"], "Alt") --Shadowcaster's Drape
@@ -16,11 +16,11 @@ LBIS:AddItem(spec, "31017", LBIS.L["Chest"], "BIS") --Skyshatter Breastplate
 LBIS:AddItem(spec, "31091", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Protector
 LBIS:AddItem(spec, "33965", LBIS.L["Chest"], "Alt") --Hauberk of the Furious Elements
 
-LBIS:AddItem(spec, "32586", LBIS.L["Bracers"], "BIS") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "BIS") --Bracers of Nimble Thought
 
-LBIS:AddItem(spec, "31008", LBIS.L["Gloves"], "BIS") --Skyshatter Gauntlets
-LBIS:AddItem(spec, "31094", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Protector
-LBIS:AddItem(spec, "33586", LBIS.L["Gloves"], "Alt") --Studious Wraps
+LBIS:AddItem(spec, "31008", LBIS.L["Hands"], "BIS") --Skyshatter Gauntlets
+LBIS:AddItem(spec, "31094", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Protector
+LBIS:AddItem(spec, "33586", LBIS.L["Hands"], "Alt") --Studious Wraps
 
 LBIS:AddItem(spec, "32276", LBIS.L["Waist"], "BIS") --Flashfire Girdle
 LBIS:AddItem(spec, "30914", LBIS.L["Waist"], "Alt") --Belt of the Crescent Moon

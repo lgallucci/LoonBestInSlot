@@ -7,12 +7,12 @@ LBIS:AddItem(spec, "29098", LBIS.L["Head"], "Alt") --Stag-Helm of Malorne
 LBIS:AddItem(spec, "29761", LBIS.L["Head"], "Alt") --Helm of the Fallen Defender
 LBIS:AddItem(spec, "31968", LBIS.L["Head"], "Alt") --Merciless Gladiator's Dragonhide Helm
 
-LBIS:AddItem(spec, "30230", LBIS.L["Shoulders"], "BIS") --Nordrassil Feral-Mantle
-LBIS:AddItem(spec, "30249", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Defender
-LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "Alt") --Shoulderpads of the Stranger
-LBIS:AddItem(spec, "29100", LBIS.L["Shoulders"], "Alt") --Mantle of Malorne
-LBIS:AddItem(spec, "29764", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Fallen Defender
-LBIS:AddItem(spec, "31971", LBIS.L["Shoulders"], "Alt") --Merciless Gladiator's Dragonhide Spaulders
+LBIS:AddItem(spec, "30230", LBIS.L["Shoulder"], "BIS") --Nordrassil Feral-Mantle
+LBIS:AddItem(spec, "30249", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Defender
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "29100", LBIS.L["Shoulder"], "Alt") --Mantle of Malorne
+LBIS:AddItem(spec, "29764", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Fallen Defender
+LBIS:AddItem(spec, "31971", LBIS.L["Shoulder"], "Alt") --Merciless Gladiator's Dragonhide Spaulders
 
 LBIS:AddItem(spec, "28660", LBIS.L["Back"], "BIS Mit") --Gilded Thorium Cloak
 LBIS:AddItem(spec, "29994", LBIS.L["Back"], "BIS Thrt") --Thalassian Wildercloak
@@ -26,20 +26,20 @@ LBIS:AddItem(spec, "29753", LBIS.L["Chest"], "Alt") --Chestguard of the Fallen D
 LBIS:AddItem(spec, "31972", LBIS.L["Chest"], "Alt Mit") --Merciless Gladiator's Dragonhide Tunic
 LBIS:AddItem(spec, "30101", LBIS.L["Chest"], "Alt Thrt") --Bloodsea Brigand's Vest
 
-LBIS:AddItem(spec, "29966", LBIS.L["Bracers"], "BIS") --Vambraces of Ending
-LBIS:AddItem(spec, "32810", LBIS.L["Bracers"], "BIS Mit") --Veteran's Dragonhide Bracers
-LBIS:AddItem(spec, "28978", LBIS.L["Bracers"], "Alt") --Marshal's Dragonhide Bracers
-LBIS:AddItem(spec, "28445", LBIS.L["Bracers"], "Alt") --General's Dragonhide Bracers
-LBIS:AddItem(spec, "28988", LBIS.L["Bracers"], "Alt") --Marshal's Leather Bracers
-LBIS:AddItem(spec, "28424", LBIS.L["Bracers"], "Alt") --General's Leather Bracers
+LBIS:AddItem(spec, "29966", LBIS.L["Wrist"], "BIS") --Vambraces of Ending
+LBIS:AddItem(spec, "32810", LBIS.L["Wrist"], "BIS Mit") --Veteran's Dragonhide Bracers
+LBIS:AddItem(spec, "28978", LBIS.L["Wrist"], "Alt") --Marshal's Dragonhide Bracers
+LBIS:AddItem(spec, "28445", LBIS.L["Wrist"], "Alt") --General's Dragonhide Bracers
+LBIS:AddItem(spec, "28988", LBIS.L["Wrist"], "Alt") --Marshal's Leather Bracers
+LBIS:AddItem(spec, "28424", LBIS.L["Wrist"], "Alt") --General's Leather Bracers
 
-LBIS:AddItem(spec, "30223", LBIS.L["Gloves"], "BIS Mit") --Nordrassil Handgrips
-LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "BIS Mit") --Gloves of the Vanquished Defender
-LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "BIS Thrt") --Gloves of the Searing Grip
-LBIS:AddItem(spec, "29097", LBIS.L["Gloves"], "Alt Mit") --Gauntlets of Malorne
-LBIS:AddItem(spec, "29758", LBIS.L["Gloves"], "Alt Mit") --Gloves of the Fallen Defender
-LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "Alt Thrt") --Grips of Deftness
-LBIS:AddItem(spec, "31967", LBIS.L["Gloves"], "Alt") --Merciless Gladiator's Dragonhide Gloves
+LBIS:AddItem(spec, "30223", LBIS.L["Hands"], "BIS Mit") --Nordrassil Handgrips
+LBIS:AddItem(spec, "30240", LBIS.L["Hands"], "BIS Mit") --Gloves of the Vanquished Defender
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "BIS Thrt") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "29097", LBIS.L["Hands"], "Alt Mit") --Gauntlets of Malorne
+LBIS:AddItem(spec, "29758", LBIS.L["Hands"], "Alt Mit") --Gloves of the Fallen Defender
+LBIS:AddItem(spec, "30644", LBIS.L["Hands"], "Alt Thrt") --Grips of Deftness
+LBIS:AddItem(spec, "31967", LBIS.L["Hands"], "Alt") --Merciless Gladiator's Dragonhide Gloves
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 LBIS:AddItem(spec, "30042", LBIS.L["Waist"], "Alt") --Belt of Natural Power

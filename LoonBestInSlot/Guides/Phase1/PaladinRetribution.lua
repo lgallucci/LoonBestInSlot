@@ -5,11 +5,11 @@ LBIS:AddItem(spec, "29760", LBIS.L["Head"], "BIS") --Helm of the Fallen Champion
 LBIS:AddItem(spec, "27881", LBIS.L["Head"], "Alt") --Gladiator's Scaled Helm
 LBIS:AddItem(spec, "31105", LBIS.L["Head"], "Alt") --Overlord's Helmet of Second Sight
 
-LBIS:AddItem(spec, "29075", LBIS.L["Shoulders"], "BIS") --Justicar Shoulderplates
-LBIS:AddItem(spec, "29763", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Champion
-LBIS:AddItem(spec, "30740", LBIS.L["Shoulders"], "Alt") --Ripfiend Shoulderplates
-LBIS:AddItem(spec, "28755", LBIS.L["Shoulders"], "Alt") --Bladed Shoulderpads of the Merciless
-LBIS:AddItem(spec, "27883", LBIS.L["Shoulders"], "Alt") --Gladiator's Scaled Shoulders
+LBIS:AddItem(spec, "29075", LBIS.L["Shoulder"], "BIS") --Justicar Shoulderplates
+LBIS:AddItem(spec, "29763", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Champion
+LBIS:AddItem(spec, "30740", LBIS.L["Shoulder"], "Alt") --Ripfiend Shoulderplates
+LBIS:AddItem(spec, "28755", LBIS.L["Shoulder"], "Alt") --Bladed Shoulderpads of the Merciless
+LBIS:AddItem(spec, "27883", LBIS.L["Shoulder"], "Alt") --Gladiator's Scaled Shoulders
 
 LBIS:AddItem(spec, "33122", LBIS.L["Back"], "BIS") --Cloak of Darkness
 LBIS:AddItem(spec, "24259", LBIS.L["Back"], "Alt") --Vengeance Wrap
@@ -22,11 +22,11 @@ LBIS:AddItem(spec, "29515", LBIS.L["Chest"], "BIS") --Ebon Netherscale Breastpla
 LBIS:AddItem(spec, "29525", LBIS.L["Chest"], "Alt") --Primalstrike Vest
 LBIS:AddItem(spec, "28403", LBIS.L["Chest"], "BIS") --Doomplate Chestguard
 
-LBIS:AddItem(spec, "28795", LBIS.L["Bracers"], "BIS") --Bladespire Warbands
-LBIS:AddItem(spec, "23537", LBIS.L["Bracers"], "Alt") --Black Felsteel Bracers
+LBIS:AddItem(spec, "28795", LBIS.L["Wrist"], "BIS") --Bladespire Warbands
+LBIS:AddItem(spec, "23537", LBIS.L["Wrist"], "Alt") --Black Felsteel Bracers
 
-LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "BIS") --Grips of Deftness
-LBIS:AddItem(spec, "30341", LBIS.L["Gloves"], "Alt") --Flesh Handler's Gauntlets
+LBIS:AddItem(spec, "30644", LBIS.L["Hands"], "BIS") --Grips of Deftness
+LBIS:AddItem(spec, "30341", LBIS.L["Hands"], "Alt") --Flesh Handler's Gauntlets
 
 LBIS:AddItem(spec, "28779", LBIS.L["Waist"], "BIS") --Girdle of the Endless Pit
 LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "Alt") --Gronn-Stitched Girdle

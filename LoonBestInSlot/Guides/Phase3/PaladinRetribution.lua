@@ -7,10 +7,10 @@ LBIS:AddItem(spec, "30989", LBIS.L["Head"], "Alt") --Lightbringer War-Helm
 LBIS:AddItem(spec, "31097", LBIS.L["Head"], "Alt") --Helm of the Forgotten Conqueror
 LBIS:AddItem(spec, "32461", LBIS.L["Head"], "Alt") --Furious Gizmatic Goggles
 
-LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "BIS") --Shoulderpads of the Stranger
-LBIS:AddItem(spec, "32581", LBIS.L["Shoulders"], "BIS") --Swiftstrike Shoulders
-LBIS:AddItem(spec, "30997", LBIS.L["Shoulders"], "Alt") --Lightbringer Shoulderbraces
-LBIS:AddItem(spec, "31101", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Forgotten Conqueror
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "BIS") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "32581", LBIS.L["Shoulder"], "BIS") --Swiftstrike Shoulders
+LBIS:AddItem(spec, "30997", LBIS.L["Shoulder"], "Alt") --Lightbringer Shoulderbraces
+LBIS:AddItem(spec, "31101", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Forgotten Conqueror
 
 LBIS:AddItem(spec, "33122", LBIS.L["Back"], "BIS") --Cloak of Darkness
 LBIS:AddItem(spec, "30098", LBIS.L["Back"], "BIS") --Razor-Scale Battlecloak
@@ -23,13 +23,13 @@ LBIS:AddItem(spec, "30129", LBIS.L["Chest"], "Alt") --Crystalforge Breastplate
 LBIS:AddItem(spec, "30236", LBIS.L["Chest"], "Alt") --Chestguard of the Vanquished Champion
 LBIS:AddItem(spec, "33749", LBIS.L["Chest"], "Alt") --Vengeful Gladiator's Scaled Chestpiece
 
-LBIS:AddItem(spec, "32574", LBIS.L["Bracers"], "BIS") --Bindings of Lightning Reflexes
-LBIS:AddItem(spec, "32568", LBIS.L["Bracers"], "Alt") --Swiftsteel Bracers
-LBIS:AddItem(spec, "30057", LBIS.L["Bracers"], "Alt") --Bracers of Eradication
-LBIS:AddItem(spec, "33910", LBIS.L["Bracers"], "Alt") --Vindicator's Scaled Bracers
+LBIS:AddItem(spec, "32574", LBIS.L["Wrist"], "BIS") --Bindings of Lightning Reflexes
+LBIS:AddItem(spec, "32568", LBIS.L["Wrist"], "Alt") --Swiftsteel Bracers
+LBIS:AddItem(spec, "30057", LBIS.L["Wrist"], "Alt") --Bracers of Eradication
+LBIS:AddItem(spec, "33910", LBIS.L["Wrist"], "Alt") --Vindicator's Scaled Bracers
 
-LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "BIS") --Gloves of the Searing Grip
-LBIS:AddItem(spec, "32347", LBIS.L["Gloves"], "BIS") --Grips of Damnation
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "BIS") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "32347", LBIS.L["Hands"], "BIS") --Grips of Damnation
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 

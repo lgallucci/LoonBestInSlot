@@ -5,11 +5,11 @@ LBIS:AddItem(spec, "32087", LBIS.L["Head"], "BIS") --Mask of the Deceiver
 LBIS:AddItem(spec, "31105", LBIS.L["Head"], "BIS") --Overlord's Helmet of Second Sight
 LBIS:AddItem(spec, "28182", LBIS.L["Head"], "Alt") --Helm of the Claw
 
-LBIS:AddItem(spec, "33173", LBIS.L["Shoulders"], "BIS") --Ragesteel Shoulders
-LBIS:AddItem(spec, "27771", LBIS.L["Shoulders"], "BIS") --Doomplate Shoulderguards
-LBIS:AddItem(spec, "27434", LBIS.L["Shoulders"], "Alt") --Mantle of Perenolde
-LBIS:AddItem(spec, "28865", LBIS.L["Shoulders"], "Alt") --High Warlord's Scaled Shoulders
-LBIS:AddItem(spec, "28713", LBIS.L["Shoulders"], "Alt") --Grand Marshal's Scaled Shoulders
+LBIS:AddItem(spec, "33173", LBIS.L["Shoulder"], "BIS") --Ragesteel Shoulders
+LBIS:AddItem(spec, "27771", LBIS.L["Shoulder"], "BIS") --Doomplate Shoulderguards
+LBIS:AddItem(spec, "27434", LBIS.L["Shoulder"], "Alt") --Mantle of Perenolde
+LBIS:AddItem(spec, "28865", LBIS.L["Shoulder"], "Alt") --High Warlord's Scaled Shoulders
+LBIS:AddItem(spec, "28713", LBIS.L["Shoulder"], "Alt") --Grand Marshal's Scaled Shoulders
 
 LBIS:AddItem(spec, "24259", LBIS.L["Back"], "BIS") --Vengeance Wrap
 LBIS:AddItem(spec, "27878", LBIS.L["Back"], "BIS") --Auchenai Death Shroud
@@ -21,14 +21,14 @@ LBIS:AddItem(spec, "28403", LBIS.L["Chest"], "BIS") --Doomplate Chestguard
 LBIS:AddItem(spec, "24396", LBIS.L["Chest"], "Alt") --Vest of Vengeance
 LBIS:AddItem(spec, "31548", LBIS.L["Chest"], "Alt") --Blackened Chestplate
 
-LBIS:AddItem(spec, "23537", LBIS.L["Bracers"], "BIS") --Black Felsteel Bracers
-LBIS:AddItem(spec, "28646", LBIS.L["Bracers"], "Alt") --General's Scaled Bracers
-LBIS:AddItem(spec, "29517", LBIS.L["Bracers"], "Alt") --Ebon Netherscale Bracers
-LBIS:AddItem(spec, "27918", LBIS.L["Bracers"], "Alt") --Bands of Syth
+LBIS:AddItem(spec, "23537", LBIS.L["Wrist"], "BIS") --Black Felsteel Bracers
+LBIS:AddItem(spec, "28646", LBIS.L["Wrist"], "Alt") --General's Scaled Bracers
+LBIS:AddItem(spec, "29517", LBIS.L["Wrist"], "Alt") --Ebon Netherscale Bracers
+LBIS:AddItem(spec, "27918", LBIS.L["Wrist"], "Alt") --Bands of Syth
 
-LBIS:AddItem(spec, "30341", LBIS.L["Gloves"], "BIS") --Flesh Handler's Gauntlets
-LBIS:AddItem(spec, "18823", LBIS.L["Gloves"], "Alt") --Aged Core Leather Gloves
-LBIS:AddItem(spec, "29509", LBIS.L["Gloves"], "Alt") --Windstrike Gloves
+LBIS:AddItem(spec, "30341", LBIS.L["Hands"], "BIS") --Flesh Handler's Gauntlets
+LBIS:AddItem(spec, "18823", LBIS.L["Hands"], "Alt") --Aged Core Leather Gloves
+LBIS:AddItem(spec, "29509", LBIS.L["Hands"], "Alt") --Windstrike Gloves
 
 LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "BIS") --Girdle of the Deathdealer
 LBIS:AddItem(spec, "27755", LBIS.L["Waist"], "BIS") --Girdle of Gallantry

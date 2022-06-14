@@ -7,9 +7,9 @@ LBIS:AddItem(spec, "28415", LBIS.L["Head"], "Alt") --Hood of Oblivion
 LBIS:AddItem(spec, "28183", LBIS.L["Head"], "Alt") --Hydromancer's Headwrap
 LBIS:AddItem(spec, "28169", LBIS.L["Head"], "Alt") --Mag'hari Ritualist's Horns
 
-LBIS:AddItem(spec, "21869", LBIS.L["Shoulders"], "BIS") --Frozen Shadoweave Shoulders
-LBIS:AddItem(spec, "27778", LBIS.L["Shoulders"], "BIS") --Spaulders of Oblivion
-LBIS:AddItem(spec, "30925", LBIS.L["Shoulders"], "Alt") --Spaulders of the Torn-heart
+LBIS:AddItem(spec, "21869", LBIS.L["Shoulder"], "BIS") --Frozen Shadoweave Shoulders
+LBIS:AddItem(spec, "27778", LBIS.L["Shoulder"], "BIS") --Spaulders of Oblivion
+LBIS:AddItem(spec, "30925", LBIS.L["Shoulder"], "Alt") --Spaulders of the Torn-heart
 
 LBIS:AddItem(spec, "24252", LBIS.L["Back"], "Alt") --Cloak of the Black Void
 LBIS:AddItem(spec, "32541", LBIS.L["Back"], "Alt") --Terokk's Wisdom
@@ -20,19 +20,19 @@ LBIS:AddItem(spec, "31297", LBIS.L["Chest"], "Alt") --Robe of the Crimson Order
 LBIS:AddItem(spec, "29341", LBIS.L["Chest"], "Alt") --Auchenai Anchorite's Robe
 LBIS:AddItem(spec, "28342", LBIS.L["Chest"], "Alt") --Warp Infused Drape
 
-LBIS:AddItem(spec, "24250", LBIS.L["Bracers"], "Alt") --Bracers of Havok
-LBIS:AddItem(spec, "32655", LBIS.L["Bracers"], "Alt") --Crystalweave Bracers
-LBIS:AddItem(spec, "27746", LBIS.L["Bracers"], "Alt") --Arcanium Signet Bands
-LBIS:AddItem(spec, "28174", LBIS.L["Bracers"], "Alt") --Shattrath Wraps
-LBIS:AddItem(spec, "29240", LBIS.L["Bracers"], "Alt") --Bands of Negation
-LBIS:AddItem(spec, "27462", LBIS.L["Bracers"], "Alt") --Crimson Bracers of Gloom
+LBIS:AddItem(spec, "24250", LBIS.L["Wrist"], "Alt") --Bracers of Havok
+LBIS:AddItem(spec, "32655", LBIS.L["Wrist"], "Alt") --Crystalweave Bracers
+LBIS:AddItem(spec, "27746", LBIS.L["Wrist"], "Alt") --Arcanium Signet Bands
+LBIS:AddItem(spec, "28174", LBIS.L["Wrist"], "Alt") --Shattrath Wraps
+LBIS:AddItem(spec, "29240", LBIS.L["Wrist"], "Alt") --Bands of Negation
+LBIS:AddItem(spec, "27462", LBIS.L["Wrist"], "Alt") --Crimson Bracers of Gloom
 
-LBIS:AddItem(spec, "29317", LBIS.L["Gloves"], "Alt") --Tempest's Touch
-LBIS:AddItem(spec, "27889", LBIS.L["Gloves"], "Alt") --Jaedenfire Gloves of Annihilation
-LBIS:AddItem(spec, "21585", LBIS.L["Gloves"], "Alt") --Dark Storm Gauntlets
-LBIS:AddItem(spec, "19407", LBIS.L["Gloves"], "Alt") --Ebony Flame Gloves
-LBIS:AddItem(spec, "27493", LBIS.L["Gloves"], "Alt") --Gloves of the Deadwatcher
-LBIS:AddItem(spec, "27465", LBIS.L["Gloves"], "Alt") --Mana-Etched Gloves
+LBIS:AddItem(spec, "29317", LBIS.L["Hands"], "Alt") --Tempest's Touch
+LBIS:AddItem(spec, "27889", LBIS.L["Hands"], "Alt") --Jaedenfire Gloves of Annihilation
+LBIS:AddItem(spec, "21585", LBIS.L["Hands"], "Alt") --Dark Storm Gauntlets
+LBIS:AddItem(spec, "19407", LBIS.L["Hands"], "Alt") --Ebony Flame Gloves
+LBIS:AddItem(spec, "27493", LBIS.L["Hands"], "Alt") --Gloves of the Deadwatcher
+LBIS:AddItem(spec, "27465", LBIS.L["Hands"], "Alt") --Mana-Etched Gloves
 
 LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
 LBIS:AddItem(spec, "24256", LBIS.L["Waist"], "Alt") --Girdle of Ruination

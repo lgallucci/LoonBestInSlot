@@ -2,11 +2,11 @@ local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "2")
 
 LBIS:AddItem(spec, "8345", LBIS.L["Head"], "BIS") --Wolfshead Helm
 
-LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "BIS") --Shoulderpads of the Stranger
-LBIS:AddItem(spec, "29100", LBIS.L["Shoulders"], "BIS") --Mantle of Malorne
-LBIS:AddItem(spec, "29764", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Defender
-LBIS:AddItem(spec, "30230", LBIS.L["Shoulders"], "BIS") --Nordrassil Feral-Mantle
-LBIS:AddItem(spec, "30249", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Defender
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "BIS") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "29100", LBIS.L["Shoulder"], "BIS") --Mantle of Malorne
+LBIS:AddItem(spec, "29764", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Defender
+LBIS:AddItem(spec, "30230", LBIS.L["Shoulder"], "BIS") --Nordrassil Feral-Mantle
+LBIS:AddItem(spec, "30249", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Defender
 
 LBIS:AddItem(spec, "28672", LBIS.L["Back"], "BIS") --Drape of the Dark Reavers
 LBIS:AddItem(spec, "29994", LBIS.L["Back"], "BIS") --Thalassian Wildercloak
@@ -19,14 +19,14 @@ LBIS:AddItem(spec, "29753", LBIS.L["Chest"], "BIS") --Chestguard of the Fallen D
 LBIS:AddItem(spec, "30222", LBIS.L["Chest"], "BIS") --Nordrassil Chestplate
 LBIS:AddItem(spec, "30237", LBIS.L["Chest"], "BIS") --Chestguard of the Vanquished Defender
 
-LBIS:AddItem(spec, "29966", LBIS.L["Bracers"], "BIS") --Vambraces of Ending
-LBIS:AddItem(spec, "28171", LBIS.L["Bracers"], "Alt") --Spymistress's Wristguards
-LBIS:AddItem(spec, "32647", LBIS.L["Bracers"], "Alt") --Shard-bound Bracers
+LBIS:AddItem(spec, "29966", LBIS.L["Wrist"], "BIS") --Vambraces of Ending
+LBIS:AddItem(spec, "28171", LBIS.L["Wrist"], "Alt") --Spymistress's Wristguards
+LBIS:AddItem(spec, "32647", LBIS.L["Wrist"], "Alt") --Shard-bound Bracers
 
-LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "BIS") --Gloves of the Searing Grip
-LBIS:AddItem(spec, "30223", LBIS.L["Gloves"], "BIS") --Nordrassil Handgrips
-LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "BIS") --Gloves of the Vanquished Defender
-LBIS:AddItem(spec, "28506", LBIS.L["Gloves"], "Alt") --Gloves of Dexterous Manipulation
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "BIS") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "30223", LBIS.L["Hands"], "BIS") --Nordrassil Handgrips
+LBIS:AddItem(spec, "30240", LBIS.L["Hands"], "BIS") --Gloves of the Vanquished Defender
+LBIS:AddItem(spec, "28506", LBIS.L["Hands"], "Alt") --Gloves of Dexterous Manipulation
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 LBIS:AddItem(spec, "30040", LBIS.L["Waist"], "Alt") --Belt of Deep Shadow

@@ -5,10 +5,10 @@ LBIS:AddItem(spec, "29760", LBIS.L["Head"], "BIS") --Helm of the Fallen Champion
 LBIS:AddItem(spec, "28732", LBIS.L["Head"], "Alt") --Cowl of Defiance
 LBIS:AddItem(spec, "28796", LBIS.L["Head"], "Alt") --Malefic Mask of the Shadows
 
-LBIS:AddItem(spec, "27797", LBIS.L["Shoulders"], "BIS") --Wastewalker Shoulderpads
-LBIS:AddItem(spec, "29047", LBIS.L["Shoulders"], "Alt") --Netherblade Shoulderpads
-LBIS:AddItem(spec, "29763", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Fallen Champion
-LBIS:AddItem(spec, "28755", LBIS.L["Shoulders"], "Alt") --Bladed Shoulderpads of the Merciless
+LBIS:AddItem(spec, "27797", LBIS.L["Shoulder"], "BIS") --Wastewalker Shoulderpads
+LBIS:AddItem(spec, "29047", LBIS.L["Shoulder"], "Alt") --Netherblade Shoulderpads
+LBIS:AddItem(spec, "29763", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Fallen Champion
+LBIS:AddItem(spec, "28755", LBIS.L["Shoulder"], "Alt") --Bladed Shoulderpads of the Merciless
 
 LBIS:AddItem(spec, "28672", LBIS.L["Back"], "BIS") --Drape of the Dark Reavers
 LBIS:AddItem(spec, "24259", LBIS.L["Back"], "Alt") --Vengeance Wrap
@@ -19,13 +19,13 @@ LBIS:AddItem(spec, "29754", LBIS.L["Chest"], "BIS") --Chestguard of the Fallen C
 LBIS:AddItem(spec, "30730", LBIS.L["Chest"], "BIS") --Terrorweave Tunic
 LBIS:AddItem(spec, "28264", LBIS.L["Chest"], "Alt") --Wastewalker Tunic
 
-LBIS:AddItem(spec, "29246", LBIS.L["Bracers"], "BIS") --Nightfall Wristguards
+LBIS:AddItem(spec, "29246", LBIS.L["Wrist"], "BIS") --Nightfall Wristguards
 
-LBIS:AddItem(spec, "27531", LBIS.L["Gloves"], "BIS") --Wastewalker Gloves
-LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "BIS") --Grips of Deftness
-LBIS:AddItem(spec, "29048", LBIS.L["Gloves"], "Alt") --Netherblade Gloves
-LBIS:AddItem(spec, "29757", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Champion
-LBIS:AddItem(spec, "28506", LBIS.L["Gloves"], "Alt") --Gloves of Dexterous Manipulation
+LBIS:AddItem(spec, "27531", LBIS.L["Hands"], "BIS") --Wastewalker Gloves
+LBIS:AddItem(spec, "30644", LBIS.L["Hands"], "BIS") --Grips of Deftness
+LBIS:AddItem(spec, "29048", LBIS.L["Hands"], "Alt") --Netherblade Gloves
+LBIS:AddItem(spec, "29757", LBIS.L["Hands"], "Alt") --Gloves of the Fallen Champion
+LBIS:AddItem(spec, "28506", LBIS.L["Hands"], "Alt") --Gloves of Dexterous Manipulation
 
 LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "BIS") --Girdle of the Deathdealer
 LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "Alt") --Gronn-Stitched Girdle

@@ -8,12 +8,12 @@ LBIS:AddItem(spec, "29073", LBIS.L["Head"], "Alt") --Justicar Crown
 LBIS:AddItem(spec, "29760", LBIS.L["Head"], "Alt") --Helm of the Fallen Champion
 LBIS:AddItem(spec, "29983", LBIS.L["Head"], "Alt") --Fel-Steel Warhelm
 
-LBIS:AddItem(spec, "30055", LBIS.L["Shoulders"], "BIS") --Shoulderpads of the Stranger
-LBIS:AddItem(spec, "30133", LBIS.L["Shoulders"], "Alt") --Crystalforge Shoulderbraces
-LBIS:AddItem(spec, "30248", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Vanquished Champion
-LBIS:AddItem(spec, "29075", LBIS.L["Shoulders"], "Alt") --Justicar Shoulderplates
-LBIS:AddItem(spec, "29763", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Fallen Champion
-LBIS:AddItem(spec, "32043", LBIS.L["Shoulders"], "Alt") --Merciless Gladiator's Scaled Shoulders
+LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "BIS") --Shoulderpads of the Stranger
+LBIS:AddItem(spec, "30133", LBIS.L["Shoulder"], "Alt") --Crystalforge Shoulderbraces
+LBIS:AddItem(spec, "30248", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Vanquished Champion
+LBIS:AddItem(spec, "29075", LBIS.L["Shoulder"], "Alt") --Justicar Shoulderplates
+LBIS:AddItem(spec, "29763", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Fallen Champion
+LBIS:AddItem(spec, "32043", LBIS.L["Shoulder"], "Alt") --Merciless Gladiator's Scaled Shoulders
 
 LBIS:AddItem(spec, "30098", LBIS.L["Back"], "BIS") --Razor-Scale Battlecloak
 LBIS:AddItem(spec, "33122", LBIS.L["Back"], "Alt") --Cloak of Darkness
@@ -30,11 +30,11 @@ LBIS:AddItem(spec, "29071", LBIS.L["Chest"], "Alt") --Justicar Breastplate
 LBIS:AddItem(spec, "29754", LBIS.L["Chest"], "Alt") --Chestguard of the Fallen Champion
 LBIS:AddItem(spec, "32039", LBIS.L["Chest"], "Alt") --Merciless Gladiator's Scaled Chestpiece
 
-LBIS:AddItem(spec, "30057", LBIS.L["Bracers"], "BIS") --Bracers of Eradication
-LBIS:AddItem(spec, "28795", LBIS.L["Bracers"], "Alt") --Bladespire Warbands
+LBIS:AddItem(spec, "30057", LBIS.L["Wrist"], "BIS") --Bracers of Eradication
+LBIS:AddItem(spec, "28795", LBIS.L["Wrist"], "Alt") --Bladespire Warbands
 
-LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "BIS") --Gloves of the Searing Grip
-LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "Alt") --Grips of Deftness
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "BIS") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "30644", LBIS.L["Hands"], "Alt") --Grips of Deftness
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 LBIS:AddItem(spec, "28779", LBIS.L["Waist"], "Alt") --Girdle of the Endless Pit

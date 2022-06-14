@@ -10,12 +10,12 @@ LBIS:AddItem(spec, "28348", LBIS.L["Head"], "Alt") --Moonglade Cowl
 LBIS:AddItem(spec, "29174", LBIS.L["Head"], "Alt") --Watcher's Cowl
 LBIS:AddItem(spec, "29505", LBIS.L["Head"], "Alt") --Hood of Primal Life
 
-LBIS:AddItem(spec, "21874", LBIS.L["Shoulders"], "BIS") --Primal Mooncloth Shoulders
-LBIS:AddItem(spec, "31990", LBIS.L["Shoulders"], "Alt") --Merciless Gladiator's Kodohide Spaulders
-LBIS:AddItem(spec, "27775", LBIS.L["Shoulders"], "Alt") --Hallowed Pauldrons
-LBIS:AddItem(spec, "31378", LBIS.L["Shoulders"], "Alt") --Gladiator's Kodohide Spaulders
-LBIS:AddItem(spec, "27433", LBIS.L["Shoulders"], "Alt") --Pauldrons of Sufferance
-LBIS:AddItem(spec, "27737", LBIS.L["Shoulders"], "Alt") --Moonglade Shoulders
+LBIS:AddItem(spec, "21874", LBIS.L["Shoulder"], "BIS") --Primal Mooncloth Shoulders
+LBIS:AddItem(spec, "31990", LBIS.L["Shoulder"], "Alt") --Merciless Gladiator's Kodohide Spaulders
+LBIS:AddItem(spec, "27775", LBIS.L["Shoulder"], "Alt") --Hallowed Pauldrons
+LBIS:AddItem(spec, "31378", LBIS.L["Shoulder"], "Alt") --Gladiator's Kodohide Spaulders
+LBIS:AddItem(spec, "27433", LBIS.L["Shoulder"], "Alt") --Pauldrons of Sufferance
+LBIS:AddItem(spec, "27737", LBIS.L["Shoulder"], "Alt") --Moonglade Shoulders
 
 LBIS:AddItem(spec, "31329", LBIS.L["Back"], "BIS") --Lifegiving Cloak
 LBIS:AddItem(spec, "22960", LBIS.L["Back"], "BIS") --Cloak of Suturing
@@ -33,20 +33,20 @@ LBIS:AddItem(spec, "28202", LBIS.L["Chest"], "Alt") --Moonglade Robe
 LBIS:AddItem(spec, "27456", LBIS.L["Chest"], "Alt") --Raiments of Nature's Breath
 LBIS:AddItem(spec, "27506", LBIS.L["Chest"], "Alt") --Robe of Effervescent Light
 
-LBIS:AddItem(spec, "29183", LBIS.L["Bracers"], "BIS") --Bindings of the Timewalker
-LBIS:AddItem(spec, "29523", LBIS.L["Bracers"], "BIS") --Windhawk Bracers
-LBIS:AddItem(spec, "29249", LBIS.L["Bracers"], "Alt") --Bands of the Benevolent
-LBIS:AddItem(spec, "21604", LBIS.L["Bracers"], "Alt") --Bracelets of Royal Redemption
-LBIS:AddItem(spec, "27827", LBIS.L["Bracers"], "Alt") --Lucid Dream Bracers
-LBIS:AddItem(spec, "22495", LBIS.L["Bracers"], "Alt") --Dreamwalker Wristguards
+LBIS:AddItem(spec, "29183", LBIS.L["Wrist"], "BIS") --Bindings of the Timewalker
+LBIS:AddItem(spec, "29523", LBIS.L["Wrist"], "BIS") --Windhawk Bracers
+LBIS:AddItem(spec, "29249", LBIS.L["Wrist"], "Alt") --Bands of the Benevolent
+LBIS:AddItem(spec, "21604", LBIS.L["Wrist"], "Alt") --Bracelets of Royal Redemption
+LBIS:AddItem(spec, "27827", LBIS.L["Wrist"], "Alt") --Lucid Dream Bracers
+LBIS:AddItem(spec, "22495", LBIS.L["Wrist"], "Alt") --Dreamwalker Wristguards
 
-LBIS:AddItem(spec, "29506", LBIS.L["Gloves"], "BIS") --Gloves of the Living Touch
-LBIS:AddItem(spec, "31987", LBIS.L["Gloves"], "Alt") --Merciless Gladiator's Kodohide Gloves
-LBIS:AddItem(spec, "31375", LBIS.L["Gloves"], "Alt") --Gladiator's Kodohide Gloves
-LBIS:AddItem(spec, "24393", LBIS.L["Gloves"], "Alt") --Bloody Surgeon's Mitts
-LBIS:AddItem(spec, "25791", LBIS.L["Gloves"], "Alt") --Gloves of Preservation
-LBIS:AddItem(spec, "28268", LBIS.L["Gloves"], "Alt") --Natural Mender's Wraps
-LBIS:AddItem(spec, "29327", LBIS.L["Gloves"], "Alt") --Cryo-mitts
+LBIS:AddItem(spec, "29506", LBIS.L["Hands"], "BIS") --Gloves of the Living Touch
+LBIS:AddItem(spec, "31987", LBIS.L["Hands"], "Alt") --Merciless Gladiator's Kodohide Gloves
+LBIS:AddItem(spec, "31375", LBIS.L["Hands"], "Alt") --Gladiator's Kodohide Gloves
+LBIS:AddItem(spec, "24393", LBIS.L["Hands"], "Alt") --Bloody Surgeon's Mitts
+LBIS:AddItem(spec, "25791", LBIS.L["Hands"], "Alt") --Gloves of Preservation
+LBIS:AddItem(spec, "28268", LBIS.L["Hands"], "Alt") --Natural Mender's Wraps
+LBIS:AddItem(spec, "29327", LBIS.L["Hands"], "Alt") --Cryo-mitts
 
 LBIS:AddItem(spec, "30036", LBIS.L["Waist"], "BIS") --Belt of the Long Road
 LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt

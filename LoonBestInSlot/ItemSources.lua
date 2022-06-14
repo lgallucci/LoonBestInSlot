@@ -1714,7 +1714,7 @@ LBIS.ItemSources =
     [32832] = { Name = "Scout's Throwing Knives", SourceType = LBIS.L["Quest"], Source = LBIS.L["Terokk's Downfall"], SourceNumber = "", SourceLocation = LBIS.L["Terokkar Forest"] },
     [32837] = { Name = "Warglaive of Azzinoth", SourceType = LBIS.L["Drop"], Source = LBIS.L["Illidan Stormrage"], SourceNumber = "", SourceLocation = LBIS.L["Black Temple"] },
     [32838] = { Name = "Warglaive of Azzinoth", SourceType = LBIS.L["Drop"], Source = LBIS.L["Illidan Stormrage"], SourceNumber = "", SourceLocation = LBIS.L["Black Temple"] },
-    [32864] = { Name = "Commander's Badge", SourceType = LBIS.L["Quest"], Source = LBIS.L["Hail,Commander!"], SourceNumber = "", SourceLocation = LBIS.L["Shadowmoon Valley"] },
+    [32864] = { Name = "Commander's Badge", SourceType = LBIS.L["Quest"], Source = LBIS.L["Hail, Commander!"], SourceNumber = "", SourceLocation = LBIS.L["Shadowmoon Valley"] },
     [32866] = { Name = "Ascendant's Boots", SourceType = LBIS.L["Quest"], Source = LBIS.L["A Job Unfinished..."], SourceNumber = "", SourceLocation = LBIS.L["Shadowmoon Valley"] },
     [32872] = { Name = "Illidari Rod of Discipline", SourceType = LBIS.L["Quest"], Source = LBIS.L["Subdue the Subduer"], SourceNumber = "", SourceLocation = LBIS.L["Shadowmoon Valley"] },
     [32941] = { Name = "Corruptor's Signet", SourceType = LBIS.L["Quest"], Source = LBIS.L["Shartuul"], SourceNumber = "", SourceLocation = LBIS.L["Blade's Edge Mountains"] },

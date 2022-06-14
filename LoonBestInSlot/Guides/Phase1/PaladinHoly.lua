@@ -8,12 +8,12 @@ LBIS:AddItem(spec, "24264", LBIS.L["Head"], "Alt") --Whitemend Hood
 LBIS:AddItem(spec, "28803", LBIS.L["Head"], "Alt") --Cowl of Nature's Breath
 LBIS:AddItem(spec, "28756", LBIS.L["Head"], "Alt") --Headdress of the High Potentate
 
-LBIS:AddItem(spec, "29064", LBIS.L["Shoulders"], "BIS") --Justicar Pauldrons
-LBIS:AddItem(spec, "29763", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Champion
-LBIS:AddItem(spec, "21874", LBIS.L["Shoulders"], "Alt") --Primal Mooncloth Shoulders
-LBIS:AddItem(spec, "28631", LBIS.L["Shoulders"], "Alt") --Dragon-Quake Shoulderguards
-LBIS:AddItem(spec, "28666", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Justice-Seeker
-LBIS:AddItem(spec, "28647", LBIS.L["Shoulders"], "Alt") --Forest Wind Shoulderpads
+LBIS:AddItem(spec, "29064", LBIS.L["Shoulder"], "BIS") --Justicar Pauldrons
+LBIS:AddItem(spec, "29763", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Champion
+LBIS:AddItem(spec, "21874", LBIS.L["Shoulder"], "Alt") --Primal Mooncloth Shoulders
+LBIS:AddItem(spec, "28631", LBIS.L["Shoulder"], "Alt") --Dragon-Quake Shoulderguards
+LBIS:AddItem(spec, "28666", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Justice-Seeker
+LBIS:AddItem(spec, "28647", LBIS.L["Shoulder"], "Alt") --Forest Wind Shoulderpads
 
 LBIS:AddItem(spec, "31329", LBIS.L["Back"], "BIS") --Lifegiving Cloak
 LBIS:AddItem(spec, "28765", LBIS.L["Back"], "Alt") --Stainless Cloak of the Pure Hearted
@@ -25,19 +25,19 @@ LBIS:AddItem(spec, "21875", LBIS.L["Chest"], "Alt") --Primal Mooncloth Robe
 LBIS:AddItem(spec, "28662", LBIS.L["Chest"], "Alt") --Breastplate of the Lightbinder
 LBIS:AddItem(spec, "28735", LBIS.L["Chest"], "Alt") --Earthblood Chestguard
 
-LBIS:AddItem(spec, "29523", LBIS.L["Bracers"], "BIS") --Windhawk Bracers
-LBIS:AddItem(spec, "29183", LBIS.L["Bracers"], "BIS") --Bindings of the Timewalker
-LBIS:AddItem(spec, "23539", LBIS.L["Bracers"], "BIS") --Blessed Bracers
-LBIS:AddItem(spec, "28512", LBIS.L["Bracers"], "Alt") --Bracers of Justice
-LBIS:AddItem(spec, "28503", LBIS.L["Bracers"], "Alt") --Whirlwind Bracers
-LBIS:AddItem(spec, "28511", LBIS.L["Bracers"], "Alt") --Bands of Indwelling
+LBIS:AddItem(spec, "29523", LBIS.L["Wrist"], "BIS") --Windhawk Bracers
+LBIS:AddItem(spec, "29183", LBIS.L["Wrist"], "BIS") --Bindings of the Timewalker
+LBIS:AddItem(spec, "23539", LBIS.L["Wrist"], "BIS") --Blessed Bracers
+LBIS:AddItem(spec, "28512", LBIS.L["Wrist"], "Alt") --Bracers of Justice
+LBIS:AddItem(spec, "28503", LBIS.L["Wrist"], "Alt") --Whirlwind Bracers
+LBIS:AddItem(spec, "28511", LBIS.L["Wrist"], "Alt") --Bands of Indwelling
 
-LBIS:AddItem(spec, "28505", LBIS.L["Gloves"], "BIS") --Gauntlets of Renewed Hope
-LBIS:AddItem(spec, "28520", LBIS.L["Gloves"], "Alt") --Gloves of Centering
-LBIS:AddItem(spec, "28521", LBIS.L["Gloves"], "Alt") --Mitts of the Treemender
-LBIS:AddItem(spec, "29065", LBIS.L["Gloves"], "Alt") --Justicar Gloves
-LBIS:AddItem(spec, "29757", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Champion
-LBIS:AddItem(spec, "29506", LBIS.L["Gloves"], "Alt") --Gloves of the Living Touch
+LBIS:AddItem(spec, "28505", LBIS.L["Hands"], "BIS") --Gauntlets of Renewed Hope
+LBIS:AddItem(spec, "28520", LBIS.L["Hands"], "Alt") --Gloves of Centering
+LBIS:AddItem(spec, "28521", LBIS.L["Hands"], "Alt") --Mitts of the Treemender
+LBIS:AddItem(spec, "29065", LBIS.L["Hands"], "Alt") --Justicar Gloves
+LBIS:AddItem(spec, "29757", LBIS.L["Hands"], "Alt") --Gloves of the Fallen Champion
+LBIS:AddItem(spec, "29506", LBIS.L["Hands"], "Alt") --Gloves of the Living Touch
 
 LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt
 LBIS:AddItem(spec, "28733", LBIS.L["Waist"], "Alt") --Girdle of Truth

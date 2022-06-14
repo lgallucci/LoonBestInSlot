@@ -2,10 +2,10 @@ local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "1")
 
 LBIS:AddItem(spec, "8345", LBIS.L["Head"], "BIS") --Wolfshead Helm
 
-LBIS:AddItem(spec, "29100", LBIS.L["Shoulders"], "BIS") --Mantle of Malorne
-LBIS:AddItem(spec, "29764", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Defender
-LBIS:AddItem(spec, "27797", LBIS.L["Shoulders"], "Alt") --Wastewalker Shoulderpads
-LBIS:AddItem(spec, "28755", LBIS.L["Shoulders"], "Alt") --Bladed Shoulderpads of the Merciless
+LBIS:AddItem(spec, "29100", LBIS.L["Shoulder"], "BIS") --Mantle of Malorne
+LBIS:AddItem(spec, "29764", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Defender
+LBIS:AddItem(spec, "27797", LBIS.L["Shoulder"], "Alt") --Wastewalker Shoulderpads
+LBIS:AddItem(spec, "28755", LBIS.L["Shoulder"], "Alt") --Bladed Shoulderpads of the Merciless
 
 LBIS:AddItem(spec, "28672", LBIS.L["Back"], "BIS") --Drape of the Dark Reavers
 LBIS:AddItem(spec, "24259", LBIS.L["Back"], "BIS") --Vengeance Wrap
@@ -17,14 +17,14 @@ LBIS:AddItem(spec, "30730", LBIS.L["Chest"], "Alt") --Terrorweave Tunic
 LBIS:AddItem(spec, "28601", LBIS.L["Chest"], "Alt") --Chestguard of the Conniver
 LBIS:AddItem(spec, "29525", LBIS.L["Chest"], "Alt") --Primalstrike Vest
 
-LBIS:AddItem(spec, "29246", LBIS.L["Bracers"], "BIS") --Nightfall Wristguards
-LBIS:AddItem(spec, "28171", LBIS.L["Bracers"], "BIS") --Spymistress's Wristguards
-LBIS:AddItem(spec, "21602", LBIS.L["Bracers"], "BIS") --Qiraji Execution Bracers
+LBIS:AddItem(spec, "29246", LBIS.L["Wrist"], "BIS") --Nightfall Wristguards
+LBIS:AddItem(spec, "28171", LBIS.L["Wrist"], "BIS") --Spymistress's Wristguards
+LBIS:AddItem(spec, "21602", LBIS.L["Wrist"], "BIS") --Qiraji Execution Bracers
 
-LBIS:AddItem(spec, "28506", LBIS.L["Gloves"], "BIS") --Gloves of Dexterous Manipulation
-LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "Alt") --Grips of Deftness
-LBIS:AddItem(spec, "29507", LBIS.L["Gloves"], "Alt") --Windslayer Wraps
-LBIS:AddItem(spec, "27509", LBIS.L["Gloves"], "BIS") --Handgrips of Assassination
+LBIS:AddItem(spec, "28506", LBIS.L["Hands"], "BIS") --Gloves of Dexterous Manipulation
+LBIS:AddItem(spec, "30644", LBIS.L["Hands"], "Alt") --Grips of Deftness
+LBIS:AddItem(spec, "29507", LBIS.L["Hands"], "Alt") --Windslayer Wraps
+LBIS:AddItem(spec, "27509", LBIS.L["Hands"], "BIS") --Handgrips of Assassination
 
 LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "BIS") --Girdle of the Deathdealer
 LBIS:AddItem(spec, "28750", LBIS.L["Waist"], "BIS") --Girdle of Treachery

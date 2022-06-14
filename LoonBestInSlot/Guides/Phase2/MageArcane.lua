@@ -5,12 +5,12 @@ LBIS:AddItem(spec, "30244", LBIS.L["Head"], "BIS") --Helm of the Vanquished Hero
 LBIS:AddItem(spec, "29986", LBIS.L["Head"], "Alt") --Cowl of the Grand Engineer
 LBIS:AddItem(spec, "24266", LBIS.L["Head"], "Alt") --Spellstrike Hood
 
-LBIS:AddItem(spec, "30210", LBIS.L["Shoulders"], "BIS") --Mantle of Tirisfal
-LBIS:AddItem(spec, "30250", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Hero
-LBIS:AddItem(spec, "30079", LBIS.L["Shoulders"], "Alt") --Illidari Shoulderpads
-LBIS:AddItem(spec, "30024", LBIS.L["Shoulders"], "Alt") --Mantle of the Elven Kings
-LBIS:AddItem(spec, "29079", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Aldor
-LBIS:AddItem(spec, "29762", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Fallen Hero
+LBIS:AddItem(spec, "30210", LBIS.L["Shoulder"], "BIS") --Mantle of Tirisfal
+LBIS:AddItem(spec, "30250", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Hero
+LBIS:AddItem(spec, "30079", LBIS.L["Shoulder"], "Alt") --Illidari Shoulderpads
+LBIS:AddItem(spec, "30024", LBIS.L["Shoulder"], "Alt") --Mantle of the Elven Kings
+LBIS:AddItem(spec, "29079", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Aldor
+LBIS:AddItem(spec, "29762", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Fallen Hero
 
 LBIS:AddItem(spec, "29992", LBIS.L["Back"], "BIS") --Royal Cloak of the Sunstriders
 LBIS:AddItem(spec, "28766", LBIS.L["Back"], "BIS") --Ruby Drape of the Mysticant
@@ -22,14 +22,14 @@ LBIS:AddItem(spec, "30107", LBIS.L["Chest"], "Alt") --Vestments of the Sea-Witch
 LBIS:AddItem(spec, "21848", LBIS.L["Chest"], "Alt") --Spellfire Robe
 LBIS:AddItem(spec, "30056", LBIS.L["Chest"], "Alt") --Robe of Hateful Echoes
 
-LBIS:AddItem(spec, "29918", LBIS.L["Bracers"], "BIS") --Mindstorm Wristbands
-LBIS:AddItem(spec, "28411", LBIS.L["Bracers"], "Alt") --General's Silk Cuffs
-LBIS:AddItem(spec, "27462", LBIS.L["Bracers"], "Alt") --Crimson Bracers of Gloom
+LBIS:AddItem(spec, "29918", LBIS.L["Wrist"], "BIS") --Mindstorm Wristbands
+LBIS:AddItem(spec, "28411", LBIS.L["Wrist"], "Alt") --General's Silk Cuffs
+LBIS:AddItem(spec, "27462", LBIS.L["Wrist"], "Alt") --Crimson Bracers of Gloom
 
-LBIS:AddItem(spec, "29987", LBIS.L["Gloves"], "BIS") --Gauntlets of the Sun King
-LBIS:AddItem(spec, "30205", LBIS.L["Gloves"], "Alt") --Gloves of Tirisfal
-LBIS:AddItem(spec, "30241", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Hero
-LBIS:AddItem(spec, "21847", LBIS.L["Gloves"], "Alt") --Spellfire Gloves
+LBIS:AddItem(spec, "29987", LBIS.L["Hands"], "BIS") --Gauntlets of the Sun King
+LBIS:AddItem(spec, "30205", LBIS.L["Hands"], "Alt") --Gloves of Tirisfal
+LBIS:AddItem(spec, "30241", LBIS.L["Hands"], "Alt") --Gloves of the Vanquished Hero
+LBIS:AddItem(spec, "21847", LBIS.L["Hands"], "Alt") --Spellfire Gloves
 
 LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
 LBIS:AddItem(spec, "21846", LBIS.L["Waist"], "Alt") --Spellfire Belt

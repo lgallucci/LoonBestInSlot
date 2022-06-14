@@ -2,11 +2,11 @@ local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "0")
 
 LBIS:AddItem(spec, "8345", LBIS.L["Head"], "BIS") --Wolfshead Helm
 
-LBIS:AddItem(spec, "25790", LBIS.L["Shoulders"], "Alt") --Expedition Scout's Epaulets
-LBIS:AddItem(spec, "27434", LBIS.L["Shoulders"], "Alt") --Mantle of Perenolde
-LBIS:AddItem(spec, "27776", LBIS.L["Shoulders"], "Alt") --Shoulderpads of Assassination
-LBIS:AddItem(spec, "27797", LBIS.L["Shoulders"], "BIS") --Wastewalker Shoulderpads
-LBIS:AddItem(spec, "27995", LBIS.L["Shoulders"], "Alt") --Sun-Gilded Shouldercaps
+LBIS:AddItem(spec, "25790", LBIS.L["Shoulder"], "Alt") --Expedition Scout's Epaulets
+LBIS:AddItem(spec, "27434", LBIS.L["Shoulder"], "Alt") --Mantle of Perenolde
+LBIS:AddItem(spec, "27776", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Assassination
+LBIS:AddItem(spec, "27797", LBIS.L["Shoulder"], "BIS") --Wastewalker Shoulderpads
+LBIS:AddItem(spec, "27995", LBIS.L["Shoulder"], "Alt") --Sun-Gilded Shouldercaps
 
 LBIS:AddItem(spec, "31255", LBIS.L["Back"], "BIS") --Cloak of the Craft
 LBIS:AddItem(spec, "27878", LBIS.L["Back"], "Alt") --Auchenai Death Shroud
@@ -22,17 +22,17 @@ LBIS:AddItem(spec, "31972", LBIS.L["Chest"], "Alt") --Merciless Gladiator's Drag
 LBIS:AddItem(spec, "28264", LBIS.L["Chest"], "Alt") --Wastewalker Tunic
 LBIS:AddItem(spec, "29340", LBIS.L["Chest"], "Alt") --Auchenai Monk's Tunic
 
-LBIS:AddItem(spec, "32647", LBIS.L["Bracers"], "BIS") --Shard-bound Bracers
-LBIS:AddItem(spec, "28171", LBIS.L["Bracers"], "Alt") --Spymistress's Wristguards
-LBIS:AddItem(spec, "32814", LBIS.L["Bracers"], "Alt") --Veteran's Leather Bracers
-LBIS:AddItem(spec, "32810", LBIS.L["Bracers"], "Alt") --Veteran's Dragonhide Bracers
-LBIS:AddItem(spec, "29246", LBIS.L["Bracers"], "Alt") --Nightfall Wristguards
+LBIS:AddItem(spec, "32647", LBIS.L["Wrist"], "BIS") --Shard-bound Bracers
+LBIS:AddItem(spec, "28171", LBIS.L["Wrist"], "Alt") --Spymistress's Wristguards
+LBIS:AddItem(spec, "32814", LBIS.L["Wrist"], "Alt") --Veteran's Leather Bracers
+LBIS:AddItem(spec, "32810", LBIS.L["Wrist"], "Alt") --Veteran's Dragonhide Bracers
+LBIS:AddItem(spec, "29246", LBIS.L["Wrist"], "Alt") --Nightfall Wristguards
 
-LBIS:AddItem(spec, "28396", LBIS.L["Gloves"], "BIS") --Gloves of the Unbound
-LBIS:AddItem(spec, "29507", LBIS.L["Gloves"], "BIS") --Windslayer Wraps
-LBIS:AddItem(spec, "25685", LBIS.L["Gloves"], "Alt") --Fel Leather Gloves
-LBIS:AddItem(spec, "27509", LBIS.L["Gloves"], "Alt") --Handgrips of Assassination
-LBIS:AddItem(spec, "27531", LBIS.L["Gloves"], "Alt") --Wastewalker Gloves
+LBIS:AddItem(spec, "28396", LBIS.L["Hands"], "BIS") --Gloves of the Unbound
+LBIS:AddItem(spec, "29507", LBIS.L["Hands"], "BIS") --Windslayer Wraps
+LBIS:AddItem(spec, "25685", LBIS.L["Hands"], "Alt") --Fel Leather Gloves
+LBIS:AddItem(spec, "27509", LBIS.L["Hands"], "Alt") --Handgrips of Assassination
+LBIS:AddItem(spec, "27531", LBIS.L["Hands"], "Alt") --Wastewalker Gloves
 
 LBIS:AddItem(spec, "30372", LBIS.L["Waist"], "Alt") --Socrethar's Girdle
 LBIS:AddItem(spec, "31464", LBIS.L["Waist"], "Alt") --Naaru Belt of Precision

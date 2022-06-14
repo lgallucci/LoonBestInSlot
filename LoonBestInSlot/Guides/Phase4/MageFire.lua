@@ -2,8 +2,8 @@ local spec = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Fire"], "4")
 
 LBIS:AddItem(spec, "32525", LBIS.L["Head"], "BIS") --Cowl of the Illidari High Lord
 
-LBIS:AddItem(spec, "31059", LBIS.L["Shoulders"], "BIS") --Mantle of the Tempest
-LBIS:AddItem(spec, "31102", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "31059", LBIS.L["Shoulder"], "BIS") --Mantle of the Tempest
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Vanquisher
 
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
 LBIS:AddItem(spec, "33591", LBIS.L["Back"], "Alt") --Shadowcaster's Drape
@@ -13,12 +13,12 @@ LBIS:AddItem(spec, "31057", LBIS.L["Chest"], "BIS") --Robes of the Tempest
 LBIS:AddItem(spec, "31090", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Vanquisher
 LBIS:AddItem(spec, "33317", LBIS.L["Chest"], "Alt") --Robe of Departed Spirits
 
-LBIS:AddItem(spec, "32586", LBIS.L["Bracers"], "BIS") --Bracers of Nimble Thought
-LBIS:AddItem(spec, "33588", LBIS.L["Bracers"], "Alt") --Runed Spell-cuffs
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "BIS") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "33588", LBIS.L["Wrist"], "Alt") --Runed Spell-cuffs
 
-LBIS:AddItem(spec, "31055", LBIS.L["Gloves"], "BIS") --Gloves of the Tempest
-LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Vanquisher
-LBIS:AddItem(spec, "33586", LBIS.L["Gloves"], "Alt") --Studious Wraps
+LBIS:AddItem(spec, "31055", LBIS.L["Hands"], "BIS") --Gloves of the Tempest
+LBIS:AddItem(spec, "31093", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Vanquisher
+LBIS:AddItem(spec, "33586", LBIS.L["Hands"], "Alt") --Studious Wraps
 
 LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
 LBIS:AddItem(spec, "33291", LBIS.L["Waist"], "Alt") --Voodoo-woven Belt

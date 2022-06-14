@@ -2,8 +2,8 @@ local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "4")
 
 LBIS:AddItem(spec, "8345", LBIS.L["Head"], "BIS") --Wolfshead Helm
 
-LBIS:AddItem(spec, "31048", LBIS.L["Shoulders"], "BIS") --Thunderheart Pauldrons
-LBIS:AddItem(spec, "31102", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "31048", LBIS.L["Shoulder"], "BIS") --Thunderheart Pauldrons
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Vanquisher
 
 LBIS:AddItem(spec, "32323", LBIS.L["Back"], "BIS") --Shadowmoon Destroyer's Drape
 LBIS:AddItem(spec, "29994", LBIS.L["Back"], "BIS") --Thalassian Wildercloak
@@ -14,13 +14,13 @@ LBIS:AddItem(spec, "32252", LBIS.L["Chest"], "BIS") --Nether Shadow Tunic
 LBIS:AddItem(spec, "31042", LBIS.L["Chest"], "BIS") --Thunderheart Chestguard
 LBIS:AddItem(spec, "31090", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Vanquisher
 
-LBIS:AddItem(spec, "32324", LBIS.L["Bracers"], "BIS") --Insidious Bands
-LBIS:AddItem(spec, "33881", LBIS.L["Bracers"], "BIS") --Vindicator's Dragonhide Bracers
-LBIS:AddItem(spec, "33540", LBIS.L["Bracers"], "Alt") --Master Assassin Wristwraps
+LBIS:AddItem(spec, "32324", LBIS.L["Wrist"], "BIS") --Insidious Bands
+LBIS:AddItem(spec, "33881", LBIS.L["Wrist"], "BIS") --Vindicator's Dragonhide Bracers
+LBIS:AddItem(spec, "33540", LBIS.L["Wrist"], "Alt") --Master Assassin Wristwraps
 
-LBIS:AddItem(spec, "29947", LBIS.L["Gloves"], "BIS") --Gloves of the Searing Grip
-LBIS:AddItem(spec, "31034", LBIS.L["Gloves"], "BIS") --Thunderheart Gauntlets
-LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Vanquisher
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "BIS") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "31034", LBIS.L["Hands"], "BIS") --Thunderheart Gauntlets
+LBIS:AddItem(spec, "31093", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Vanquisher
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 LBIS:AddItem(spec, "33583", LBIS.L["Waist"], "Alt") --Waistguard of the Great Beast

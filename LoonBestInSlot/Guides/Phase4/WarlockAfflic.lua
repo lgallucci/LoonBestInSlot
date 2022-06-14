@@ -5,9 +5,9 @@ LBIS:AddItem(spec, "31097", LBIS.L["Head"], "BIS") --Helm of the Forgotten Conqu
 LBIS:AddItem(spec, "32525", LBIS.L["Head"], "Alt") --Cowl of the Illidari High Lord
 LBIS:AddItem(spec, "33453", LBIS.L["Head"], "Alt") --Hood of Hexing
 
-LBIS:AddItem(spec, "31054", LBIS.L["Shoulders"], "BIS") --Mantle of the Malefic
-LBIS:AddItem(spec, "31101", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Conqueror
-LBIS:AddItem(spec, "33489", LBIS.L["Shoulders"], "Alt") --Mantle of Ill Intent
+LBIS:AddItem(spec, "31054", LBIS.L["Shoulder"], "BIS") --Mantle of the Malefic
+LBIS:AddItem(spec, "31101", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Conqueror
+LBIS:AddItem(spec, "33489", LBIS.L["Shoulder"], "Alt") --Mantle of Ill Intent
 
 LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
 LBIS:AddItem(spec, "32590", LBIS.L["Back"], "Alt") --Nethervoid Cloak
@@ -21,13 +21,13 @@ LBIS:AddItem(spec, "31052", LBIS.L["Chest"], "BIS") --Robe of the Malefic
 LBIS:AddItem(spec, "31089", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Conqueror
 LBIS:AddItem(spec, "33317", LBIS.L["Chest"], "Alt") --Robe of Departed Spirits
 
-LBIS:AddItem(spec, "32586", LBIS.L["Bracers"], "BIS") --Bracers of Nimble Thought
-LBIS:AddItem(spec, "33588", LBIS.L["Bracers"], "Alt") --Runed Spell-cuffs
-LBIS:AddItem(spec, "33285", LBIS.L["Bracers"], "Alt") --Fury of the Ursine
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "BIS") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "33588", LBIS.L["Wrist"], "Alt") --Runed Spell-cuffs
+LBIS:AddItem(spec, "33285", LBIS.L["Wrist"], "Alt") --Fury of the Ursine
 
-LBIS:AddItem(spec, "31050", LBIS.L["Gloves"], "BIS") --Gloves of the Malefic
-LBIS:AddItem(spec, "31092", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Conqueror
-LBIS:AddItem(spec, "33586", LBIS.L["Gloves"], "Alt") --Studious Wraps
+LBIS:AddItem(spec, "31050", LBIS.L["Hands"], "BIS") --Gloves of the Malefic
+LBIS:AddItem(spec, "31092", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Conqueror
+LBIS:AddItem(spec, "33586", LBIS.L["Hands"], "Alt") --Studious Wraps
 
 LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
 LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "BIS") --Anetheron's Noose

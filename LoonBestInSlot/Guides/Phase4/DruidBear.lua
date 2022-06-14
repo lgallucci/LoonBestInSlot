@@ -6,8 +6,8 @@ LBIS:AddItem(spec, "31039", LBIS.L["Head"], "Alt") --Thunderheart Cover
 LBIS:AddItem(spec, "31096", LBIS.L["Head"], "Alt") --Helm of the Forgotten Vanquisher
 LBIS:AddItem(spec, "33479", LBIS.L["Head"], "Alt") --Grimgrin Faceguard
 
-LBIS:AddItem(spec, "31048", LBIS.L["Shoulders"], "BIS") --Thunderheart Pauldrons
-LBIS:AddItem(spec, "31102", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "31048", LBIS.L["Shoulder"], "BIS") --Thunderheart Pauldrons
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Vanquisher
 
 LBIS:AddItem(spec, "33593", LBIS.L["Back"], "BIS") --Slikk's Cloak of Placation
 LBIS:AddItem(spec, "33484", LBIS.L["Back"], "BIS Thrt") --Dory's Embrace
@@ -17,12 +17,12 @@ LBIS:AddItem(spec, "29994", LBIS.L["Back"], "Alt") --Thalassian Wildercloak
 LBIS:AddItem(spec, "31042", LBIS.L["Chest"], "BIS") --Thunderheart Chestguard
 LBIS:AddItem(spec, "31090", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Vanquisher
 
-LBIS:AddItem(spec, "32324", LBIS.L["Bracers"], "BIS") --Insidious Bands
-LBIS:AddItem(spec, "33881", LBIS.L["Bracers"], "BIS Mit") --Vindicator's Dragonhide Bracers
-LBIS:AddItem(spec, "33580", LBIS.L["Bracers"], "Alt") --Band of the Swift Paw
+LBIS:AddItem(spec, "32324", LBIS.L["Wrist"], "BIS") --Insidious Bands
+LBIS:AddItem(spec, "33881", LBIS.L["Wrist"], "BIS Mit") --Vindicator's Dragonhide Bracers
+LBIS:AddItem(spec, "33580", LBIS.L["Wrist"], "Alt") --Band of the Swift Paw
 
-LBIS:AddItem(spec, "31034", LBIS.L["Gloves"], "BIS") --Thunderheart Gauntlets
-LBIS:AddItem(spec, "31093", LBIS.L["Gloves"], "BIS") --Gloves of the Forgotten Vanquisher
+LBIS:AddItem(spec, "31034", LBIS.L["Hands"], "BIS") --Thunderheart Gauntlets
+LBIS:AddItem(spec, "31093", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Vanquisher
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 LBIS:AddItem(spec, "33583", LBIS.L["Waist"], "Alt") --Waistguard of the Great Beast

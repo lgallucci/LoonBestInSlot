@@ -335,11 +335,11 @@ end
 
 local itemSlotOrder = {}
 itemSlotOrder[LBIS.L["Head"]] = 0;
-itemSlotOrder[LBIS.L["Shoulders"]] = 1;
+itemSlotOrder[LBIS.L["Shoulder"]] = 1;
 itemSlotOrder[LBIS.L["Back"]] = 2;
 itemSlotOrder[LBIS.L["Chest"]] = 3;
-itemSlotOrder[LBIS.L["Bracers"]] = 4;
-itemSlotOrder[LBIS.L["Gloves"]] = 5;
+itemSlotOrder[LBIS.L["Wrist"]] = 4;
+itemSlotOrder[LBIS.L["Hands"]] = 5;
 itemSlotOrder[LBIS.L["Waist"]] = 6;
 itemSlotOrder[LBIS.L["Legs"]] = 7;
 itemSlotOrder[LBIS.L["Feet"]] = 8;
@@ -551,7 +551,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
         ['name']='slot',
         ['parent']=window,
         ['title']='Slot:',
-        ['items']= { LBIS.L["All"], LBIS.L["Head"], LBIS.L["Shoulders"], LBIS.L["Back"], LBIS.L["Chest"], LBIS.L["Bracers"], LBIS.L["Gloves"], LBIS.L["Waist"], LBIS.L["Legs"], LBIS.L["Feet"], LBIS.L["Neck"], LBIS.L["Ring"], LBIS.L["Trinket"], LBIS.L["Main Hand"], LBIS.L["Off Hand"], LBIS.L["Two-Hand"], LBIS.L["Shield"], LBIS.L["Ranged"], LBIS.L["Wand"], LBIS.L["Totem"], LBIS.L["Idol"], LBIS.L["Libram"]},        
+        ['items']= { LBIS.L["All"], LBIS.L["Head"], LBIS.L["Shoulder"], LBIS.L["Back"], LBIS.L["Chest"], LBIS.L["Wrist"], LBIS.L["Hands"], LBIS.L["Waist"], LBIS.L["Legs"], LBIS.L["Feet"], LBIS.L["Neck"], LBIS.L["Ring"], LBIS.L["Trinket"], LBIS.L["Main Hand"], LBIS.L["Off Hand"], LBIS.L["Two-Hand"], LBIS.L["Shield"], LBIS.L["Ranged"], LBIS.L["Wand"], LBIS.L["Totem"], LBIS.L["Idol"], LBIS.L["Libram"]},        
         ['defaultVal']=LBISSettings.SelectedSlot,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedSlot = dropdown_val;

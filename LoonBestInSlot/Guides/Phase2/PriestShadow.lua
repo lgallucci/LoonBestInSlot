@@ -6,10 +6,10 @@ LBIS:AddItem(spec, "30243", LBIS.L["Head"], "BIS") --Helm of the Vanquished Defe
 LBIS:AddItem(spec, "29986", LBIS.L["Head"], "Alt") --Cowl of the Grand Engineer
 LBIS:AddItem(spec, "24266", LBIS.L["Head"], "Alt") --Spellstrike Hood
 
-LBIS:AddItem(spec, "30163", LBIS.L["Shoulders"], "BIS") --Wings of the Avatar
-LBIS:AddItem(spec, "30249", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Vanquished Defender
-LBIS:AddItem(spec, "21869", LBIS.L["Shoulders"], "BIS") --Frozen Shadoweave Shoulders
-LBIS:AddItem(spec, "30079", LBIS.L["Shoulders"], "Alt") --Illidari Shoulderpads
+LBIS:AddItem(spec, "30163", LBIS.L["Shoulder"], "BIS") --Wings of the Avatar
+LBIS:AddItem(spec, "30249", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Defender
+LBIS:AddItem(spec, "21869", LBIS.L["Shoulder"], "BIS") --Frozen Shadoweave Shoulders
+LBIS:AddItem(spec, "30079", LBIS.L["Shoulder"], "Alt") --Illidari Shoulderpads
 
 LBIS:AddItem(spec, "29992", LBIS.L["Back"], "BIS") --Royal Cloak of the Sunstriders
 
@@ -19,12 +19,12 @@ LBIS:AddItem(spec, "30237", LBIS.L["Chest"], "Alt") --Chestguard of the Vanquish
 LBIS:AddItem(spec, "21871", LBIS.L["Chest"], "Alt") --Frozen Shadoweave Robe
 LBIS:AddItem(spec, "30056", LBIS.L["Chest"], "Alt") --Robe of Hateful Echoes
 
-LBIS:AddItem(spec, "29918", LBIS.L["Bracers"], "Alt") --Mindstorm Wristbands
+LBIS:AddItem(spec, "29918", LBIS.L["Wrist"], "Alt") --Mindstorm Wristbands
 
-LBIS:AddItem(spec, "28507", LBIS.L["Gloves"], "BIS") --Handwraps of Flowing Thought
-LBIS:AddItem(spec, "30160", LBIS.L["Gloves"], "Alt") --Handguards of the Avatar
-LBIS:AddItem(spec, "30240", LBIS.L["Gloves"], "Alt") --Gloves of the Vanquished Defender
-LBIS:AddItem(spec, "29987", LBIS.L["Gloves"], "Alt") --Gauntlets of the Sun King
+LBIS:AddItem(spec, "28507", LBIS.L["Hands"], "BIS") --Handwraps of Flowing Thought
+LBIS:AddItem(spec, "30160", LBIS.L["Hands"], "Alt") --Handguards of the Avatar
+LBIS:AddItem(spec, "30240", LBIS.L["Hands"], "Alt") --Gloves of the Vanquished Defender
+LBIS:AddItem(spec, "29987", LBIS.L["Hands"], "Alt") --Gauntlets of the Sun King
 
 LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
 LBIS:AddItem(spec, "30064", LBIS.L["Waist"], "Alt") --Cord of Screaming Terrors

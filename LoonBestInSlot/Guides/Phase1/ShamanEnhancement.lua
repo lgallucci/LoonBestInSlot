@@ -5,10 +5,10 @@ LBIS:AddItem(spec, "29760", LBIS.L["Head"], "BIS") --Helm of the Fallen Champion
 LBIS:AddItem(spec, "28732", LBIS.L["Head"], "Alt") --Cowl of Defiance
 LBIS:AddItem(spec, "28224", LBIS.L["Head"], "Alt") --Wastewalker Helm
 
-LBIS:AddItem(spec, "29043", LBIS.L["Shoulders"], "BIS") --Cyclone Shoulderplates
-LBIS:AddItem(spec, "29763", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Champion
-LBIS:AddItem(spec, "28755", LBIS.L["Shoulders"], "BIS") --Bladed Shoulderpads of the Merciless
-LBIS:AddItem(spec, "27797", LBIS.L["Shoulders"], "Alt") --Wastewalker Shoulderpads
+LBIS:AddItem(spec, "29043", LBIS.L["Shoulder"], "BIS") --Cyclone Shoulderplates
+LBIS:AddItem(spec, "29763", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Champion
+LBIS:AddItem(spec, "28755", LBIS.L["Shoulder"], "BIS") --Bladed Shoulderpads of the Merciless
+LBIS:AddItem(spec, "27797", LBIS.L["Shoulder"], "Alt") --Wastewalker Shoulderpads
 
 LBIS:AddItem(spec, "24259", LBIS.L["Back"], "BIS") --Vengeance Wrap
 LBIS:AddItem(spec, "28672", LBIS.L["Back"], "Alt") --Drape of the Dark Reavers
@@ -20,11 +20,11 @@ LBIS:AddItem(spec, "29525", LBIS.L["Chest"], "Alt") --Primalstrike Vest
 LBIS:AddItem(spec, "29515", LBIS.L["Chest"], "Alt") --Ebon Netherscale Breastplate
 LBIS:AddItem(spec, "25997", LBIS.L["Chest"], "Alt") --Gladiator's Linked Armor
 
-LBIS:AddItem(spec, "28514", LBIS.L["Bracers"], "BIS") --Bracers of Maliciousness
-LBIS:AddItem(spec, "29527", LBIS.L["Bracers"], "Alt") --Primalstrike Bracers
-LBIS:AddItem(spec, "29517", LBIS.L["Bracers"], "Alt") --Ebon Netherscale Bracers
+LBIS:AddItem(spec, "28514", LBIS.L["Wrist"], "BIS") --Bracers of Maliciousness
+LBIS:AddItem(spec, "29527", LBIS.L["Wrist"], "Alt") --Primalstrike Bracers
+LBIS:AddItem(spec, "29517", LBIS.L["Wrist"], "Alt") --Ebon Netherscale Bracers
 
-LBIS:AddItem(spec, "30644", LBIS.L["Gloves"], "BIS") --Grips of Deftness
+LBIS:AddItem(spec, "30644", LBIS.L["Hands"], "BIS") --Grips of Deftness
 
 LBIS:AddItem(spec, "28828", LBIS.L["Waist"], "BIS") --Gronn-Stitched Girdle
 LBIS:AddItem(spec, "29526", LBIS.L["Waist"], "Alt") --Primalstrike Belt

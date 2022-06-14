@@ -5,10 +5,10 @@ LBIS:AddItem(spec, "29760", LBIS.L["Head"], "BIS") --Helm of the Fallen Champion
 LBIS:AddItem(spec, "30728", LBIS.L["Head"], "Alt") --Fathom-Helm of the Deeps
 LBIS:AddItem(spec, "24264", LBIS.L["Head"], "Alt") --Whitemend Hood
 
-LBIS:AddItem(spec, "29031", LBIS.L["Shoulders"], "BIS") --Cyclone Shoulderpads
-LBIS:AddItem(spec, "29763", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Champion
-LBIS:AddItem(spec, "21874", LBIS.L["Shoulders"], "Alt") --Primal Mooncloth Shoulders
-LBIS:AddItem(spec, "28631", LBIS.L["Shoulders"], "Alt") --Dragon-Quake Shoulderguards
+LBIS:AddItem(spec, "29031", LBIS.L["Shoulder"], "BIS") --Cyclone Shoulderpads
+LBIS:AddItem(spec, "29763", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Champion
+LBIS:AddItem(spec, "21874", LBIS.L["Shoulder"], "Alt") --Primal Mooncloth Shoulders
+LBIS:AddItem(spec, "28631", LBIS.L["Shoulder"], "Alt") --Dragon-Quake Shoulderguards
 
 LBIS:AddItem(spec, "28765", LBIS.L["Back"], "BIS") --Stainless Cloak of the Pure Hearted
 LBIS:AddItem(spec, "31329", LBIS.L["Back"], "Alt") --Lifegiving Cloak
@@ -18,13 +18,13 @@ LBIS:AddItem(spec, "21875", LBIS.L["Chest"], "BIS") --Primal Mooncloth Robe
 LBIS:AddItem(spec, "29029", LBIS.L["Chest"], "Alt") --Cyclone Hauberk
 LBIS:AddItem(spec, "29754", LBIS.L["Chest"], "Alt") --Chestguard of the Fallen Champion
 
-LBIS:AddItem(spec, "29523", LBIS.L["Bracers"], "BIS") --Windhawk Bracers
-LBIS:AddItem(spec, "28503", LBIS.L["Bracers"], "Alt") --Whirlwind Bracers
+LBIS:AddItem(spec, "29523", LBIS.L["Wrist"], "BIS") --Windhawk Bracers
+LBIS:AddItem(spec, "28503", LBIS.L["Wrist"], "Alt") --Whirlwind Bracers
 
-LBIS:AddItem(spec, "28520", LBIS.L["Gloves"], "BIS") --Gloves of Centering
-LBIS:AddItem(spec, "28521", LBIS.L["Gloves"], "Alt") --Mitts of the Treemender
-LBIS:AddItem(spec, "29032", LBIS.L["Gloves"], "Alt") --Cyclone Gloves
-LBIS:AddItem(spec, "29757", LBIS.L["Gloves"], "Alt") --Gloves of the Fallen Champion
+LBIS:AddItem(spec, "28520", LBIS.L["Hands"], "BIS") --Gloves of Centering
+LBIS:AddItem(spec, "28521", LBIS.L["Hands"], "Alt") --Mitts of the Treemender
+LBIS:AddItem(spec, "29032", LBIS.L["Hands"], "Alt") --Cyclone Gloves
+LBIS:AddItem(spec, "29757", LBIS.L["Hands"], "Alt") --Gloves of the Fallen Champion
 
 LBIS:AddItem(spec, "29524", LBIS.L["Waist"], "BIS") --Windhawk Belt
 LBIS:AddItem(spec, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt

@@ -2,9 +2,9 @@ local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "4")
 
 LBIS:AddItem(spec, "32235", LBIS.L["Head"], "BIS") --Cursed Vision of Sargeras
 
-LBIS:AddItem(spec, "30979", LBIS.L["Shoulders"], "BIS") --Onslaught Shoulderblades
-LBIS:AddItem(spec, "31103", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Protector
-LBIS:AddItem(spec, "32570", LBIS.L["Shoulders"], "BIS") --Swiftsteel Shoulders
+LBIS:AddItem(spec, "30979", LBIS.L["Shoulder"], "BIS") --Onslaught Shoulderblades
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "32570", LBIS.L["Shoulder"], "BIS") --Swiftsteel Shoulders
 
 LBIS:AddItem(spec, "32323", LBIS.L["Back"], "BIS") --Shadowmoon Destroyer's Drape
 LBIS:AddItem(spec, "33484", LBIS.L["Back"], "BIS") --Dory's Embrace
@@ -13,12 +13,12 @@ LBIS:AddItem(spec, "33122", LBIS.L["Back"], "BIS") --Cloak of Darkness
 LBIS:AddItem(spec, "30975", LBIS.L["Chest"], "BIS") --Onslaught Breastplate
 LBIS:AddItem(spec, "31091", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Protector
 
-LBIS:AddItem(spec, "30863", LBIS.L["Bracers"], "BIS") --Deadly Cuffs
-LBIS:AddItem(spec, "32574", LBIS.L["Bracers"], "BIS") --Bindings of Lightning Reflexes
-LBIS:AddItem(spec, "33540", LBIS.L["Bracers"], "Alt") --Master Assassin Wristwraps
-LBIS:AddItem(spec, "33513", LBIS.L["Bracers"], "Alt") --Eternium Rage-shackles
+LBIS:AddItem(spec, "30863", LBIS.L["Wrist"], "BIS") --Deadly Cuffs
+LBIS:AddItem(spec, "32574", LBIS.L["Wrist"], "BIS") --Bindings of Lightning Reflexes
+LBIS:AddItem(spec, "33540", LBIS.L["Wrist"], "Alt") --Master Assassin Wristwraps
+LBIS:AddItem(spec, "33513", LBIS.L["Wrist"], "Alt") --Eternium Rage-shackles
 
-LBIS:AddItem(spec, "32278", LBIS.L["Gloves"], "BIS") --Grips of Silent Justice
+LBIS:AddItem(spec, "32278", LBIS.L["Hands"], "BIS") --Grips of Silent Justice
 
 LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
 LBIS:AddItem(spec, "33211", LBIS.L["Waist"], "Alt") --Bladeangel's Money Belt

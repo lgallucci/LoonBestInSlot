@@ -6,10 +6,10 @@ LBIS:AddItem(spec, "29068", LBIS.L["Head"], "Alt") --Justicar Faceguard
 LBIS:AddItem(spec, "29760", LBIS.L["Head"], "Alt") --Helm of the Fallen Champion
 LBIS:AddItem(spec, "32083", LBIS.L["Head"], "Alt Mit") --Faceguard of Determination
 
-LBIS:AddItem(spec, "29070", LBIS.L["Shoulders"], "BIS") --Justicar Shoulderguards
-LBIS:AddItem(spec, "29763", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Fallen Champion
-LBIS:AddItem(spec, "30127", LBIS.L["Shoulders"], "Alt") --Crystalforge Shoulderguards
-LBIS:AddItem(spec, "30248", LBIS.L["Shoulders"], "Alt") --Pauldrons of the Vanquished Champion
+LBIS:AddItem(spec, "29070", LBIS.L["Shoulder"], "BIS") --Justicar Shoulderguards
+LBIS:AddItem(spec, "29763", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Fallen Champion
+LBIS:AddItem(spec, "30127", LBIS.L["Shoulder"], "Alt") --Crystalforge Shoulderguards
+LBIS:AddItem(spec, "30248", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Vanquished Champion
 
 LBIS:AddItem(spec, "29925", LBIS.L["Back"], "BIS") --Phoenix-Wing Cloak
 LBIS:AddItem(spec, "27804", LBIS.L["Back"], "Alt") --Devilshark Cape
@@ -21,16 +21,16 @@ LBIS:AddItem(spec, "30236", LBIS.L["Chest"], "Alt") --Chestguard of the Vanquish
 LBIS:AddItem(spec, "28597", LBIS.L["Chest"], "Alt") --Panzar'Thar Breastplate
 LBIS:AddItem(spec, "28203", LBIS.L["Chest"], "Alt") --Breastplate of the Righteous
 
-LBIS:AddItem(spec, "32515", LBIS.L["Bracers"], "BIS Mit") --Wristguards of Determination
-LBIS:AddItem(spec, "29252", LBIS.L["Bracers"], "BIS Thrt") --Bracers of Dignity
-LBIS:AddItem(spec, "23538", LBIS.L["Bracers"], "Alt Mit") --Bracers of the Green Fortress
+LBIS:AddItem(spec, "32515", LBIS.L["Wrist"], "BIS Mit") --Wristguards of Determination
+LBIS:AddItem(spec, "29252", LBIS.L["Wrist"], "BIS Thrt") --Bracers of Dignity
+LBIS:AddItem(spec, "23538", LBIS.L["Wrist"], "Alt Mit") --Bracers of the Green Fortress
 
-LBIS:AddItem(spec, "29998", LBIS.L["Gloves"], "BIS Mit") --Royal Gauntlets of Silvermoon
-LBIS:AddItem(spec, "30124", LBIS.L["Gloves"], "BIS Thrt") --Crystalforge Handguards
-LBIS:AddItem(spec, "30239", LBIS.L["Gloves"], "BIS Thrt") --Gloves of the Vanquished Champion
-LBIS:AddItem(spec, "29067", LBIS.L["Gloves"], "Alt Thrt") --Justicar Handguards
-LBIS:AddItem(spec, "29757", LBIS.L["Gloves"], "Alt Thrt") --Gloves of the Fallen Champion
-LBIS:AddItem(spec, "28518", LBIS.L["Gloves"], "Alt Mit") --Iron Gauntlets of the Maiden
+LBIS:AddItem(spec, "29998", LBIS.L["Hands"], "BIS Mit") --Royal Gauntlets of Silvermoon
+LBIS:AddItem(spec, "30124", LBIS.L["Hands"], "BIS Thrt") --Crystalforge Handguards
+LBIS:AddItem(spec, "30239", LBIS.L["Hands"], "BIS Thrt") --Gloves of the Vanquished Champion
+LBIS:AddItem(spec, "29067", LBIS.L["Hands"], "Alt Thrt") --Justicar Handguards
+LBIS:AddItem(spec, "29757", LBIS.L["Hands"], "Alt Thrt") --Gloves of the Fallen Champion
+LBIS:AddItem(spec, "28518", LBIS.L["Hands"], "Alt Mit") --Iron Gauntlets of the Maiden
 
 LBIS:AddItem(spec, "30034", LBIS.L["Waist"], "BIS") --Belt of the Guardian
 LBIS:AddItem(spec, "30096", LBIS.L["Waist"], "BIS Mit") --Girdle of the Invulnerable

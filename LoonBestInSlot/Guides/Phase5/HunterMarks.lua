@@ -5,10 +5,10 @@ LBIS:AddItem(spec, "34244", LBIS.L["Head"], "BIS") --Duplicitous Guise
 LBIS:AddItem(spec, "32235", LBIS.L["Head"], "Alt") --Cursed Vision of Sargeras
 LBIS:AddItem(spec, "33666", LBIS.L["Head"], "Alt") --Vengeful Gladiator's Chain Helm
 
-LBIS:AddItem(spec, "31006", LBIS.L["Shoulders"], "BIS") --Gronnstalker's Spaulders
-LBIS:AddItem(spec, "31103", LBIS.L["Shoulders"], "BIS") --Pauldrons of the Forgotten Protector
-LBIS:AddItem(spec, "34194", LBIS.L["Shoulders"], "Alt") --Mantle of the Golden Forest
-LBIS:AddItem(spec, "34195", LBIS.L["Shoulders"], "Alt") --Shoulderpads of Vehemence
+LBIS:AddItem(spec, "31006", LBIS.L["Shoulder"], "BIS") --Gronnstalker's Spaulders
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "34194", LBIS.L["Shoulder"], "Alt") --Mantle of the Golden Forest
+LBIS:AddItem(spec, "34195", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Vehemence
 
 LBIS:AddItem(spec, "34241", LBIS.L["Back"], "BIS") --Cloak of Unforgivable Sin
 LBIS:AddItem(spec, "32323", LBIS.L["Back"], "Alt") --Shadowmoon Destroyer's Drape
@@ -21,16 +21,16 @@ LBIS:AddItem(spec, "34369", LBIS.L["Chest"], "Alt") --Carapace of Sun and Shadow
 LBIS:AddItem(spec, "31004", LBIS.L["Chest"], "Alt") --Gronnstalker's Chestguard
 LBIS:AddItem(spec, "31091", LBIS.L["Chest"], "Alt") --Chestguard of the Forgotten Protector
 
-LBIS:AddItem(spec, "34443", LBIS.L["Bracers"], "BIS") --Gronnstalker's Bracers
-LBIS:AddItem(spec, "34851", LBIS.L["Bracers"], "BIS") --Bracers of the Forgotten Protector
-LBIS:AddItem(spec, "32324", LBIS.L["Bracers"], "Alt") --Insidious Bands
-LBIS:AddItem(spec, "33540", LBIS.L["Bracers"], "Alt") --Master Assassin Wristwraps
-LBIS:AddItem(spec, "33529", LBIS.L["Bracers"], "Alt") --Steadying Bracers
+LBIS:AddItem(spec, "34443", LBIS.L["Wrist"], "BIS") --Gronnstalker's Bracers
+LBIS:AddItem(spec, "34851", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Protector
+LBIS:AddItem(spec, "32324", LBIS.L["Wrist"], "Alt") --Insidious Bands
+LBIS:AddItem(spec, "33540", LBIS.L["Wrist"], "Alt") --Master Assassin Wristwraps
+LBIS:AddItem(spec, "33529", LBIS.L["Wrist"], "Alt") --Steadying Bracers
 
-LBIS:AddItem(spec, "34370", LBIS.L["Gloves"], "BIS") --Gloves of Immortal Dusk
-LBIS:AddItem(spec, "34343", LBIS.L["Gloves"], "BIS") --Thalassian Ranger Gauntlets
-LBIS:AddItem(spec, "31001", LBIS.L["Gloves"], "Alt") --Gronnstalker's Gloves
-LBIS:AddItem(spec, "31094", LBIS.L["Gloves"], "Alt") --Gloves of the Forgotten Protector
+LBIS:AddItem(spec, "34370", LBIS.L["Hands"], "BIS") --Gloves of Immortal Dusk
+LBIS:AddItem(spec, "34343", LBIS.L["Hands"], "BIS") --Thalassian Ranger Gauntlets
+LBIS:AddItem(spec, "31001", LBIS.L["Hands"], "Alt") --Gronnstalker's Gloves
+LBIS:AddItem(spec, "31094", LBIS.L["Hands"], "Alt") --Gloves of the Forgotten Protector
 
 LBIS:AddItem(spec, "34549", LBIS.L["Waist"], "BIS") --Gronnstalker's Belt
 LBIS:AddItem(spec, "34854", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Protector
