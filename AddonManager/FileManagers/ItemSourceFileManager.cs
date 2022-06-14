@@ -49,7 +49,7 @@ public class ItemSourceFileManager
         foreach(var source in sources)
         {
             string sourceText = string.Empty, sourceLocation = string.Empty;
-            if (Int32.TryParse(source.Value.Source, out int value))
+            if (string.IsNullOrWhiteSpace(source.Value.Source) || Int32.TryParse(source.Value.Source, out int value))
                 sourceText = $"\"{source.Value.Source}\"";
             else
                 sourceText = $"LBIS.L[\"{source.Value.Source}\"]";
@@ -58,7 +58,6 @@ public class ItemSourceFileManager
                 sourceLocation = $"\"{source.Value.SourceLocation}\"";
             else
                 sourceLocation = $"LBIS.L[\"{source.Value.SourceLocation}\"]";
-
 
             itemSourceSB.AppendLine($"    [{source.Key}] = {{ " +
                     $"Name = \"{source.Value.Name}\", " +

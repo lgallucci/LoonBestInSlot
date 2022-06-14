@@ -125,7 +125,6 @@ public static class LocalizationFileManager
         }
 
         itemSources = System.IO.File.ReadAllLines(@$"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\Questie\{language}.lua");
-        bool foundStart = false;
         foreach (var line in itemSources)
         {
             if (!line.StartsWith("["))

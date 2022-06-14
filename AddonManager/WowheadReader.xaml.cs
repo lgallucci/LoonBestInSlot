@@ -17,9 +17,9 @@ public partial class WowheadReader : Window
     public class CsvLootTable
     {
         public int ItemId { get; set; }
-        public string ItemName { get; set; }
-        public string InstanceName { get; set; }
-        public string SourceName { get; set; }
+        public string ItemName { get; set; } = string.Empty;
+        public string InstanceName { get; set; } = string.Empty;
+        public string SourceName { get; set; } = string.Empty;
     }
 
     public WowheadReader()
@@ -33,7 +33,7 @@ public partial class WowheadReader : Window
         ConsoleOut.Text = string.Empty;
         var phaseNumber = Int32.Parse(txtPhase.Text.Replace("Phase", ""));
 
-        ConsoleOut.Text = await ImportClass(cmbSpec.SelectedValue.ToString(), phaseNumber);
+        ConsoleOut.Text = await ImportClass(cmbSpec.SelectedValue.ToString() ?? string.Empty, phaseNumber);
     }
 
     private async void ImportAll_Click(object sender, RoutedEventArgs e)
@@ -149,7 +149,7 @@ public partial class WowheadReader : Window
 
         if (specMapping != null)
         {
-            ConsoleOut.Text = await new WowheadGuideParser().ReadWowheadGuide(specMapping, cmbSpec.SelectedValue.ToString(), txtPhase.Text);
+            ConsoleOut.Text = await new WowheadGuideParser().ReadWowheadGuide(specMapping, cmbSpec.SelectedValue.ToString() ?? string.Empty, txtPhase.Text);
         }
         else
         {
@@ -179,7 +179,7 @@ public partial class WowheadReader : Window
                 }
 
                 Regex CSVParser = new Regex(",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))");
-                var values = CSVParser.Split(line);
+                var values = CSVParser.Split(line ?? string.Empty);
 
                 if (values != null)
                 {
@@ -188,9 +188,9 @@ public partial class WowheadReader : Window
                     if (csvLootTable.ContainsKey(itemId))
                     {
                         if (csvLootTable[itemId].InstanceName != values[0])
-                            csvLootTable[itemId].InstanceName += $" / {values[0]}";
+                            csvLootTable[itemId].InstanceName += $"/{values[0]}";
                         if (csvLootTable[itemId].SourceName != values[1])
-                            csvLootTable[itemId].SourceName += $" / {values[1]}";
+                            csvLootTable[itemId].SourceName += $"/{values[1]}";
                     }
                     else
                     {
@@ -255,7 +255,14 @@ public partial class WowheadReader : Window
                 sourceType = "Transmute";
             }
 
-            if (csvLootTable.ContainsKey(itemSource.Key))
+            if (itemSource.Value.SourceType == "Classic" || itemSource.Value.SourceType == "TBC")
+            {
+                itemSource.Value.SourceType = itemSource.Value.SourceType;
+                itemSource.Value.Source = "";
+                itemSource.Value.SourceNumber = "";
+                itemSource.Value.SourceLocation = "";
+            }
+            else if (csvLootTable.ContainsKey(itemSource.Key))
             {
                 var csvItem = csvLootTable[itemSource.Key];
                 itemSource.Value.SourceType = sourceType;

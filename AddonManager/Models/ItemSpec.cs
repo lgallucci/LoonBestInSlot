@@ -3,8 +3,8 @@
 public class ItemSpec
 {
     public int ItemId { get; set; }
-    public string Name { get; set; }
-    public string Slot { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public string Slot { get; set; } = string.Empty;
     private string _bisStatus = string.Empty;
     public string BisStatus
     {

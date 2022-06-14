@@ -59,18 +59,18 @@ public class WowheadGuideParser
     {
         var items = new Dictionary<int, ItemSpec>();
 
-        try
+        var doc = default(IHtmlDocument);
+        using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{spec}{phase}.html"))
         {
-            var doc = default(IHtmlDocument);
-            using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{spec}{phase}.html"))
-            {
-                var parser = new HtmlParser();
-                doc = await parser.ParseDocumentAsync(stream.BaseStream);
+            var parser = new HtmlParser();
+            doc = await parser.ParseDocumentAsync(stream.BaseStream);
 
-                LoopThroughMappings(doc, specMapping, (table, guideMapping) =>
+            LoopThroughMappings(doc, specMapping, (table, guideMapping) =>
+            {
+                var firstRow = false;
+                var tableRows = table?.FirstChild?.ChildNodes;
+                if (tableRows != null)
                 {
-                    var firstRow = false;
-                    var tableRows = table.FirstChild?.ChildNodes;
                     foreach (var tableRow in tableRows)
                     {
                         if (!firstRow || tableRow.NodeName != "TR")
@@ -115,7 +115,7 @@ public class WowheadGuideParser
                                         var bisStatus = tableRow?.ChildNodes[0].TextContent.Trim();
 
                                         bool skippedItem = false;
-                                        foreach(var excludedName in excludedItemNames)
+                                        foreach (var excludedName in excludedItemNames)
                                             if (child.NextSibling?.TextContent.Trim().EndsWith(excludedName) ?? false || itemName.EndsWith(excludedName))
                                                 skippedItem = true;
 
@@ -172,12 +172,8 @@ public class WowheadGuideParser
                             });
                         }
                     }
-                });
-            }
-        }
-        catch (Exception ex)
-        {
-            throw ex;
+                }
+            });
         }
         return items;
     }
@@ -210,7 +206,7 @@ public class WowheadGuideParser
         }
     }
 
-    public void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlTableElement, GuideMapping> action)
+    public void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlTableElement?, GuideMapping> action)
     {
         foreach (var guideMapping in specMapping.GuideMappings)
         {
