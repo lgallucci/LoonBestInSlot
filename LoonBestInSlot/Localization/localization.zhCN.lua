@@ -6,7 +6,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["A Personal Favor"] = "私人事务";
   LBIS.L["A Spirit Ally?"] = "灵魂之盟？";
   LBIS.L["Aeonus"] = "埃欧努斯";
---  LBIS.L["Aeonus and Temporus"] = "";
+  LBIS.L["Aeonus/Temporus"] = "埃欧努斯/坦普卢斯";
   LBIS.L["Affliction"] = "痛苦";
   LBIS.L["Ahune"] = "埃霍恩";
   LBIS.L["Akama's Promise"] = "阿卡玛的保证";
@@ -48,7 +48,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Beasts Deck"] = "";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Black Temple"] = "黑暗神殿";
---  LBIS.L["Black Temple and Hyjal Summit"] = "";
+  LBIS.L["Black Temple/Hyjal Summit"] = "黑暗神殿/海加尔峰";
   LBIS.L["Blackheart the Inciter"] = "煽动者布莱卡特";
   LBIS.L["Blacksmithing"] = "锻造";
   LBIS.L["Blade's Edge Mountains"] = "刀锋山";
@@ -62,7 +62,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Brother Against Brother"] = "兄弟反目";
   LBIS.L["Brutallus"] = "布鲁塔卢斯";
 --  LBIS.L["Brutallus - Sunwell Plateau"] = "";
---  LBIS.L["Brutallus and Eredar Twins"] = "";
+  LBIS.L["Brutallus/Eredar Twins"] = "布鲁塔卢斯/艾瑞达双子";
   LBIS.L["Building a Perimeter"] = "构筑能量壁障";
   LBIS.L["Cache of the Legion"] = "军团储藏室";
   LBIS.L["Captain Skarloc"] = "斯卡洛克上尉";
@@ -98,7 +98,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Down With Daellis"] = "达尔利斯之死";
   LBIS.L["Dr. Boom!"] = "砰砰博士！";
   LBIS.L["Dragonscale Leatherworking"] = "龙鳞制皮";
---  LBIS.L["Drill the Drillmaster/The Foot of the Citadel"] = "";
+  LBIS.L["Drill the Drillmaster/The Foot of the Citadel"] = "教官祖罗克/城墙之底";
 --  LBIS.L["Drop"] = "";
 --  LBIS.L["Dungeon Token"] = "";
   LBIS.L["Elemental"] = "元素";
@@ -121,7 +121,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Fel Embers"] = "邪能灰烬";
   LBIS.L["Felmyst"] = "菲米丝";
 --  LBIS.L["Felmyst - Sunwell Plateau"] = "";
---  LBIS.L["Felmyst and Eredar Twins"] = "";
+  LBIS.L["Felmyst/Eredar Twins"] = "菲米丝/艾瑞达双子";
   LBIS.L["Fire"] = "火焰";
   LBIS.L["Forge Camp: Annihilated"] = "扫荡铸魔营地";
   LBIS.L["Friendly"] = "友善";
@@ -130,7 +130,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Fury"] = "狂怒";
 --  LBIS.L["G'eras"] = "";
   LBIS.L["Gava'xi"] = "加瓦克希";
---  LBIS.L["General Drakkisath's Demise/For The Horde!"] = "";
+  LBIS.L["General Drakkisath's Demise/For The Horde!"] = "达基萨斯将军之死/为部落而战！";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "加兹安";
 --  LBIS.L["Gnomish Engineer"] = "";
@@ -182,7 +182,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Kael'thas Sunstrider"] = "凯尔萨斯·逐日者";
   LBIS.L["Kalecgos"] = "卡雷苟斯";
 --  LBIS.L["Kalecgos - Sunwell Plateau"] = "";
---  LBIS.L["Kalecgos and Eredar Twins"] = "";
+  LBIS.L["Kalecgos/Eredar Twins"] = "卡雷苟斯/艾瑞达双子";
   LBIS.L["Karazhan"] = "卡拉赞";
   LBIS.L["Kaz'rogal"] = "卡兹洛加";
   LBIS.L["Keepers of Time"] = "时光守护者";
@@ -231,7 +231,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Natural Remedies"] = "自然的治愈";
   LBIS.L["Neck"] = "颈部";
   LBIS.L["Nethermancer Sepethrea"] = "灵术师塞比瑟蕾";
---  LBIS.L["Nethermancer Sepethrea and Pathaleon the Calculator"] = "";
+  LBIS.L["Nethermancer Sepethrea/Pathaleon the Calculator"] = "灵术师塞比瑟蕾/计算者帕萨雷恩";
   LBIS.L["Netherspite"] = "虚空幽龙";
   LBIS.L["Netherstorm"] = "虚空风暴";
   LBIS.L["News of Victory"] = "胜利的消息";
@@ -246,7 +246,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Omor the Unscarred"] = "无疤者奥摩尔";
   LBIS.L["Opera Event"] = "歌剧院";
   LBIS.L["Overlord Gorefist"] = "戈尔费斯大王";
---  LBIS.L["Overlord/Cruel's Intentions"] = "";
+  LBIS.L["Overlord/Cruel's Intentions"] = "霸王/阿拉修斯的意图";
   LBIS.L["Pandemonius"] = "潘德莫努斯";
   LBIS.L["Pathaleon the Calculator"] = "计算者帕萨雷恩";
 --  LBIS.L["Phase 1"] = "";
@@ -296,7 +296,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Show Minimap Button:"] = "";
 --  LBIS.L["Show Tooltip:"] = "";
   LBIS.L["Showdown"] = "摊牌";
---  LBIS.L["Showdown - Baron Sablemane/Showdown"] = "";
+--  LBIS.L["Showdown - Baron Sablemane/Showdown"] = "/摊牌";
   LBIS.L["Shutting Down Manaforge Ara"] = "关闭法力熔炉：艾拉";
 --  LBIS.L["Smith Hauthaa"] = "";
   LBIS.L["Someone Else's Hard Work Pays Off"] = "别人的烂摊子";
@@ -326,7 +326,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Teron Gorefiend"] = "塔隆·血魔";
   LBIS.L["Teron Gorefiend, I am..."] = "我就是塔隆·血魔......";
   LBIS.L["The Aldor"] = "奥尔多";
---  LBIS.L["The Aldor/Scryers"] = "";
+--  LBIS.L["The Aldor/Scryers"] = "奥尔多/";
   LBIS.L["The Arcatraz"] = "禁魔监狱";
 --  LBIS.L["The Arcatraz (Heroic)"] = "";
   LBIS.L["The Black Morass"] = "黑色沼泽";
@@ -367,7 +367,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["The Soul Devices"] = "灵魂装置";
   LBIS.L["The Steamvault"] = "蒸汽地窟";
 --  LBIS.L["The Steamvault (Heroic)"] = "";
---  LBIS.L["The Terror of Marshlight Lake/Pursuing Terrorclaw"] = "";
+  LBIS.L["The Terror of Marshlight Lake/Pursuing Terrorclaw"] = "沼光湖的恐怖/猎杀恐爪";
   LBIS.L["The Ultimate Bloodsport"] = "终极挑战";
   LBIS.L["The Underbog"] = "幽暗沼泽";
 --  LBIS.L["The Underbog (Heroic)"] = "";
@@ -412,7 +412,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["World Bosses"] = "世界BOSS";
 --  LBIS.L["World Drop"] = "";
   LBIS.L["Wrath-Scryer Soccothrates"] = "天怒预言者苏克拉底";
---  LBIS.L["Wrath-Scryer Soccothrates and Zereketh the Unbound"] = "";
+  LBIS.L["Wrath-Scryer Soccothrates/Zereketh the Unbound"] = "天怒预言者苏克拉底/自由的瑟雷凯斯";
   LBIS.L["Wrist"] = "手腕";
   LBIS.L["Yor"] = "尤尔";
   LBIS.L["You're Hired!"] = "你被雇了！";

@@ -6,7 +6,7 @@ if GetLocale() == "esES" then
   LBIS.L["A Personal Favor"] = "Un pequeño favor";
   LBIS.L["A Spirit Ally?"] = "¿Un espíritu aliado?";
   LBIS.L["Aeonus"] = "Aeonus";
-  LBIS.L["Aeonus and Temporus"] = "Aeonus y Temporus";
+  LBIS.L["Aeonus/Temporus"] = "Aeonus/Temporus";
   LBIS.L["Affliction"] = "Aflicción";
   LBIS.L["Ahune"] = "Ahune";
   LBIS.L["Akama's Promise"] = "La promesa de Akama";
@@ -48,7 +48,7 @@ if GetLocale() == "esES" then
   LBIS.L["Beasts Deck"] = "Baraja Bestias";
   LBIS.L["BIS"] = "BIS";
   LBIS.L["Black Temple"] = "Templo Oscuro";
-  LBIS.L["Black Temple and Hyjal Summit"] = "Templo Oscuro y La Cima Hyjal";
+  LBIS.L["Black Temple/Hyjal Summit"] = "Templo Oscuro/La Cima Hyjal";
   LBIS.L["Blackheart the Inciter"] = "Negrozón el Incitador";
   LBIS.L["Blacksmithing"] = "Herrería";
   LBIS.L["Blade's Edge Mountains"] = "Montañas Filospada";
@@ -62,7 +62,7 @@ if GetLocale() == "esES" then
   LBIS.L["Brother Against Brother"] = "Hermano contra hermano";
   LBIS.L["Brutallus"] = "Brutallus";
   LBIS.L["Brutallus - Sunwell Plateau"] = "Brutallus - Meseta de La Fuente del Sol";
-  LBIS.L["Brutallus and Eredar Twins"] = "Brutallus y Gemelos Eredar";
+  LBIS.L["Brutallus/Eredar Twins"] = "Brutallus/Gemelos Eredar";
   LBIS.L["Building a Perimeter"] = "Construyendo un perímetro";
   LBIS.L["Cache of the Legion"] = "Alijo de la Legión";
   LBIS.L["Captain Skarloc"] = "Capitán Skarloc";
@@ -98,7 +98,7 @@ if GetLocale() == "esES" then
   LBIS.L["Down With Daellis"] = "Abajo con Daellis";
   LBIS.L["Dr. Boom!"] = "¡Dr. Bum!";
   LBIS.L["Dragonscale Leatherworking"] = "Peletería de escamas de dragón";
---  LBIS.L["Drill the Drillmaster/The Foot of the Citadel"] = "";
+  LBIS.L["Drill the Drillmaster/The Foot of the Citadel"] = "Acaba con el maestro de maniobras/El pie de la ciudadela";
   LBIS.L["Drop"] = "Soltar";
   LBIS.L["Dungeon Token"] = "Ficha de mazmorra";
   LBIS.L["Elemental"] = "Elemental";
@@ -121,7 +121,7 @@ if GetLocale() == "esES" then
   LBIS.L["Fel Embers"] = "Ascuas viles";
   LBIS.L["Felmyst"] = "Brumavil";
   LBIS.L["Felmyst - Sunwell Plateau"] = "Brumavil - Meseta de La Fuente del Sol";
-  LBIS.L["Felmyst and Eredar Twins"] = "Brumavil y Gemelos Eredar";
+  LBIS.L["Felmyst/Eredar Twins"] = "Brumavil/Gemelos Eredar";
   LBIS.L["Fire"] = "Fuego";
   LBIS.L["Forge Camp: Annihilated"] = "Campamento Forja: aniquilado";
   LBIS.L["Friendly"] = "Amistoso";
@@ -130,7 +130,7 @@ if GetLocale() == "esES" then
   LBIS.L["Fury"] = "Furia";
   LBIS.L["G'eras"] = "G'eras";
   LBIS.L["Gava'xi"] = "Gava'xi";
---  LBIS.L["General Drakkisath's Demise/For The Horde!"] = "";
+  LBIS.L["General Drakkisath's Demise/For The Horde!"] = "Muerte al general Drakkisath/¡Por la Horda!";
   LBIS.L["Gezzarak the Huntress"] = "Gezzarak la cazadora";
   LBIS.L["Ghaz'an"] = "Ghaz'an";
   LBIS.L["Gnomish Engineer"] = "Ingeniero gnómico";
@@ -182,7 +182,7 @@ if GetLocale() == "esES" then
   LBIS.L["Kael'thas Sunstrider"] = "Kael'thas Caminante del Sol";
   LBIS.L["Kalecgos"] = "Kalecgos";
   LBIS.L["Kalecgos - Sunwell Plateau"] = "Kalecgos - Meseta de La Fuente del Sol";
-  LBIS.L["Kalecgos and Eredar Twins"] = "Kalecgos y Gemelos Eredar";
+  LBIS.L["Kalecgos/Eredar Twins"] = "Kalecgos/Gemelos Eredar";
   LBIS.L["Karazhan"] = "Karazhan";
   LBIS.L["Kaz'rogal"] = "Kaz'rogal";
   LBIS.L["Keepers of Time"] = "Vigilantes del Tiempo";
@@ -231,7 +231,7 @@ if GetLocale() == "esES" then
   LBIS.L["Natural Remedies"] = "Remedios naturales";
   LBIS.L["Neck"] = "Cuello";
   LBIS.L["Nethermancer Sepethrea"] = "Abisálica Sepethrea";
-  LBIS.L["Nethermancer Sepethrea and Pathaleon the Calculator"] = "Abisálica Sepethrea y Panthaleon el Calculador";
+  LBIS.L["Nethermancer Sepethrea/Pathaleon the Calculator"] = "Abisálico Sepethrea/Panthaleon el Calculador";
   LBIS.L["Netherspite"] = "Rencor abisal";
   LBIS.L["Netherstorm"] = "Tormenta Abisal";
   LBIS.L["News of Victory"] = "Noticias victoriosas";
@@ -246,7 +246,7 @@ if GetLocale() == "esES" then
   LBIS.L["Omor the Unscarred"] = "Omor el Sinmarcas";
   LBIS.L["Opera Event"] = "Evento de la Ópera";
   LBIS.L["Overlord Gorefist"] = "Señor Supremo Puño Sajante";
---  LBIS.L["Overlord/Cruel's Intentions"] = "";
+  LBIS.L["Overlord/Cruel's Intentions"] = "Señor Supremo/Crueles intenciones";
   LBIS.L["Pandemonius"] = "Pandemonius";
   LBIS.L["Pathaleon the Calculator"] = "Panthaleon el Calculador";
   LBIS.L["Phase 1"] = "Fase 1";
@@ -296,7 +296,7 @@ if GetLocale() == "esES" then
   LBIS.L["Show Minimap Button:"] = "Botón Mostrar minimapa:";
   LBIS.L["Show Tooltip:"] = "Mostrar Descripción Emergente:";
   LBIS.L["Showdown"] = "Enfrentamiento";
---  LBIS.L["Showdown - Baron Sablemane/Showdown"] = "";
+--  LBIS.L["Showdown - Baron Sablemane/Showdown"] = "/Enfrentamiento";
   LBIS.L["Shutting Down Manaforge Ara"] = "El cierre de la Forja de Maná Ara";
 --  LBIS.L["Smith Hauthaa"] = "";
   LBIS.L["Someone Else's Hard Work Pays Off"] = "El trabajo duro de alguien más nos beneficia";
@@ -367,7 +367,7 @@ if GetLocale() == "esES" then
   LBIS.L["The Soul Devices"] = "Los dispositivos de almas";
   LBIS.L["The Steamvault"] = "La Cámara de Vapor";
   LBIS.L["The Steamvault (Heroic)"] = "La Cámara de Vapor (Heróico)";
---  LBIS.L["The Terror of Marshlight Lake/Pursuing Terrorclaw"] = "";
+  LBIS.L["The Terror of Marshlight Lake/Pursuing Terrorclaw"] = "El terror del Lago Luz Pantanosa/La persecución de Terrogarra";
   LBIS.L["The Ultimate Bloodsport"] = "El deporte sangriento definitivo";
   LBIS.L["The Underbog"] = "La Sotiénaga";
   LBIS.L["The Underbog (Heroic)"] = "La Sotiénaga (Heróico)";
@@ -412,7 +412,7 @@ if GetLocale() == "esES" then
   LBIS.L["World Bosses"] = "Jefes del mundo";
   LBIS.L["World Drop"] = "Gota mundial";
   LBIS.L["Wrath-Scryer Soccothrates"] = "Arúspice de cólera Soccothrates";
-  LBIS.L["Wrath-Scryer Soccothrates and Zereketh the Unbound"] = "Arúspice de cólera Soccothrates y Zereketh el Desatado";
+  LBIS.L["Wrath-Scryer Soccothrates/Zereketh the Unbound"] = "Arúspice de cólera Soccothrates/Zereketh el Desatado";
   LBIS.L["Wrist"] = "Brazales";
   LBIS.L["Yor"] = "Yor";
   LBIS.L["You're Hired!"] = "¡Te contrato!";

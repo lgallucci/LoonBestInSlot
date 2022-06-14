@@ -6,7 +6,7 @@ if GetLocale() == "frFR" then
   LBIS.L["A Personal Favor"] = "Une faveur personnelle";
   LBIS.L["A Spirit Ally?"] = "Un esprit allié ?";
   LBIS.L["Aeonus"] = "Aeonus";
---  LBIS.L["Aeonus and Temporus"] = "";
+  LBIS.L["Aeonus/Temporus"] = "Aeonus/Temporus";
   LBIS.L["Affliction"] = "Affliction";
   LBIS.L["Ahune"] = "Ahune";
   LBIS.L["Akama's Promise"] = "La promesse d'Akama";
@@ -48,7 +48,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Beasts Deck"] = "";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Black Temple"] = "Temple noir";
---  LBIS.L["Black Temple and Hyjal Summit"] = "";
+  LBIS.L["Black Temple/Hyjal Summit"] = "Temple noir/Sommet d’Hyjal";
   LBIS.L["Blackheart the Inciter"] = "Coeur-noir le Séditieux";
   LBIS.L["Blacksmithing"] = "Forge";
   LBIS.L["Blade's Edge Mountains"] = "Les Tranchantes";
@@ -62,7 +62,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Brother Against Brother"] = "Frère contre frère";
   LBIS.L["Brutallus"] = "Brutallus";
 --  LBIS.L["Brutallus - Sunwell Plateau"] = "";
---  LBIS.L["Brutallus and Eredar Twins"] = "";
+  LBIS.L["Brutallus/Eredar Twins"] = "Brutallus/Jumeaux érédars";
   LBIS.L["Building a Perimeter"] = "Établir un périmètre";
   LBIS.L["Cache of the Legion"] = "Cache de la Légion";
   LBIS.L["Captain Skarloc"] = "Capitaine Skarloc";
@@ -98,7 +98,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Down With Daellis"] = "Mort à Daellis";
   LBIS.L["Dr. Boom!"] = "Dr Boum !";
   LBIS.L["Dragonscale Leatherworking"] = "Travail du cuir d'écailles de dragon";
---  LBIS.L["Drill the Drillmaster/The Foot of the Citadel"] = "";
+  LBIS.L["Drill the Drillmaster/The Foot of the Citadel"] = "Détruisez le maître de manœuvre/Le pied de la citadelle";
 --  LBIS.L["Drop"] = "";
 --  LBIS.L["Dungeon Token"] = "";
   LBIS.L["Elemental"] = "Élémentaire";
@@ -121,7 +121,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Fel Embers"] = "Les gangrebraises";
   LBIS.L["Felmyst"] = "Gangrebrume";
   LBIS.L["Felmyst - Sunwell Plateau"] = "Gangrebrume - Plateau du Puits de soleil";
---  LBIS.L["Felmyst and Eredar Twins"] = "";
+  LBIS.L["Felmyst/Eredar Twins"] = "Gangrebrume/Jumeaux érédars";
   LBIS.L["Fire"] = "Feu";
   LBIS.L["Forge Camp: Annihilated"] = "Le camp de forge : Anéanti";
   LBIS.L["Friendly"] = "Amical";
@@ -130,7 +130,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Fury"] = "Fureur";
 --  LBIS.L["G'eras"] = "";
   LBIS.L["Gava'xi"] = "Gava'xi";
---  LBIS.L["General Drakkisath's Demise/For The Horde!"] = "";
+  LBIS.L["General Drakkisath's Demise/For The Horde!"] = "La reddition du général Drakkisath/Pour la Horde !";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "Ghaz'an";
 --  LBIS.L["Gnomish Engineer"] = "";
@@ -182,7 +182,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Kael'thas Sunstrider"] = "Kael'thas Haut-soleil";
   LBIS.L["Kalecgos"] = "Kalecgos";
 --  LBIS.L["Kalecgos - Sunwell Plateau"] = "";
---  LBIS.L["Kalecgos and Eredar Twins"] = "";
+  LBIS.L["Kalecgos/Eredar Twins"] = "Kalecgos/Jumeaux érédars";
   LBIS.L["Karazhan"] = "Karazhan";
   LBIS.L["Kaz'rogal"] = "Kaz'rogal";
   LBIS.L["Keepers of Time"] = "Gardiens du Temps";
@@ -231,7 +231,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Natural Remedies"] = "Remèdes naturels";
   LBIS.L["Neck"] = "Cou";
   LBIS.L["Nethermancer Sepethrea"] = "Néantomancienne Sepethrea";
---  LBIS.L["Nethermancer Sepethrea and Pathaleon the Calculator"] = "";
+  LBIS.L["Nethermancer Sepethrea/Pathaleon the Calculator"] = "Néantomancien Sepethrea/Pathaleon le Calculateur";
   LBIS.L["Netherspite"] = "Dédain-du-Néant";
   LBIS.L["Netherstorm"] = "Raz-de-Néant";
   LBIS.L["News of Victory"] = "Des nouvelles de la victoire";
@@ -246,7 +246,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Omor the Unscarred"] = "Omor l'Intouché";
   LBIS.L["Opera Event"] = "Evénement de l'opéra";
   LBIS.L["Overlord Gorefist"] = "Le suzerain Poing-sanglant";
---  LBIS.L["Overlord/Cruel's Intentions"] = "";
+  LBIS.L["Overlord/Cruel's Intentions"] = "Suzerain/Les Liaisons cruelles";
   LBIS.L["Pandemonius"] = "Pandemonius";
   LBIS.L["Pathaleon the Calculator"] = "Pathaleon le Calculateur";
 --  LBIS.L["Phase 1"] = "";
@@ -296,7 +296,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Show Minimap Button:"] = "";
 --  LBIS.L["Show Tooltip:"] = "";
   LBIS.L["Showdown"] = "Cartes sur table";
---  LBIS.L["Showdown - Baron Sablemane/Showdown"] = "";
+--  LBIS.L["Showdown - Baron Sablemane/Showdown"] = "/Cartes sur table";
   LBIS.L["Shutting Down Manaforge Ara"] = "Extinction de la manaforge Ara";
 --  LBIS.L["Smith Hauthaa"] = "";
   LBIS.L["Someone Else's Hard Work Pays Off"] = "Le dur labeur des autres";
@@ -326,7 +326,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Teron Gorefiend"] = "Teron Fielsang";
   LBIS.L["Teron Gorefiend, I am..."] = "Teron Fielsang, je suis...";
   LBIS.L["The Aldor"] = "L'Aldor";
---  LBIS.L["The Aldor/Scryers"] = "";
+--  LBIS.L["The Aldor/Scryers"] = "L'Aldor/";
   LBIS.L["The Arcatraz"] = "L’Arcatraz";
 --  LBIS.L["The Arcatraz (Heroic)"] = "";
   LBIS.L["The Black Morass"] = "Le Noir marécage";
@@ -367,7 +367,7 @@ if GetLocale() == "frFR" then
   LBIS.L["The Soul Devices"] = "Les machines à âmes";
   LBIS.L["The Steamvault"] = "Le caveau de la Vapeur";
 --  LBIS.L["The Steamvault (Heroic)"] = "";
---  LBIS.L["The Terror of Marshlight Lake/Pursuing Terrorclaw"] = "";
+  LBIS.L["The Terror of Marshlight Lake/Pursuing Terrorclaw"] = "La terreur du lac des furoles/À la poursuite de Griffe de terreur";
   LBIS.L["The Ultimate Bloodsport"] = "Le plus gros des gibiers";
   LBIS.L["The Underbog"] = "La Basse-tourbière";
 --  LBIS.L["The Underbog (Heroic)"] = "";
@@ -412,7 +412,7 @@ if GetLocale() == "frFR" then
   LBIS.L["World Bosses"] = "Boss Mondiaux";
 --  LBIS.L["World Drop"] = "";
   LBIS.L["Wrath-Scryer Soccothrates"] = "Scrute-courroux Soccothrates";
---  LBIS.L["Wrath-Scryer Soccothrates and Zereketh the Unbound"] = "";
+  LBIS.L["Wrath-Scryer Soccothrates/Zereketh the Unbound"] = "Scrute-courroux Soccothrates/Zereketh le Délié";
   LBIS.L["Wrist"] = "Poignets";
   LBIS.L["Yor"] = "Yor";
   LBIS.L["You're Hired!"] = "On vous engage !";

@@ -28,27 +28,43 @@ public static class LocalizationFileManager
         var localList = localizations.ToList();
         localList.Sort();
 
-        var localizedLanguages = new []{ "esES", "esMX", "deDE", "frFR", "ruRU", "zhCN", "koKR", "zhTW" };
+        var localizedLanguages = new[] { "esES", "esMX", "deDE", "frFR", "ruRU", "zhCN", "koKR", "zhTW" };
 
         foreach (var language in localizedLanguages)
         {
             var foundLocalization = FindLocalizations(language);
             var translatedLocalizations = GetExistingTranslations(language);
-            var fileText = $"if GetLocale() == \"{language}\" then\n"; 
-            
+            var fileText = $"if GetLocale() == \"{language}\" then\n";
+
             foreach (var localizeTerm in localList)
-            {                
+            {
                 if (translatedLocalizations.ContainsKey(localizeTerm))
                 {
                     fileText += translatedLocalizations[localizeTerm] + "\n";
-                } 
-                else if (foundLocalization.ContainsKey(localizeTerm))
-                {
-                    fileText += $"  LBIS.L[\"{localizeTerm}\"] = \"{foundLocalization[localizeTerm]}\";\n";
-                } 
+                }
                 else
                 {
-                    fileText += $"--  LBIS.L[\"{localizeTerm}\"] = \"\";\n";
+                    var lineText = string.Empty;
+                    var localizeSplit = localizeTerm.Split('/');
+                    var localizedString = string.Empty;
+                    bool skipFirst = false, foundAll = true;
+                    foreach (var localize in localizeSplit)
+                    {
+                        if (skipFirst)
+                            localizedString += "/";
+
+                        if (foundLocalization.ContainsKey(localize))
+                            localizedString += foundLocalization[localize];
+                        else
+                            foundAll = false;
+                        skipFirst = true;
+                    }
+
+                    lineText = $"  LBIS.L[\"{localizeTerm}\"] = \"{localizedString}\";\n";
+
+                    if (!foundAll)
+                        lineText = "--" + lineText;
+                    fileText += lineText;
                 }
             }
 
@@ -84,7 +100,7 @@ public static class LocalizationFileManager
         //Create Local Db
         string[] itemSources = System.IO.File.ReadAllLines($@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\Questie\tbcQuestDB.lua");
         var questNames = new Dictionary<int, string>();
-        foreach(var line in itemSources)
+        foreach (var line in itemSources)
         {
             if (!line.StartsWith("["))
                 continue;
@@ -234,7 +250,7 @@ public static class LocalizationFileManager
                 break;
         }
 
-       string[] itemSources = System.IO.File.ReadAllLines(alcPath);
+        string[] itemSources = System.IO.File.ReadAllLines(alcPath);
         foreach (var line in itemSources)
         {
             if (!line.StartsWith("	["))
@@ -328,7 +344,7 @@ public static class LocalizationFileManager
             if (!line.StartsWith("AL["))
                 continue;
 
-            AddStringToLocalization(ref localizations, line, 3);            
+            AddStringToLocalization(ref localizations, line, 3);
         }
     }
 
@@ -353,7 +369,7 @@ public static class LocalizationFileManager
 
         string[] itemSources = System.IO.File.ReadAllLines(@$"..\..\..\..\LoonBestInSlot\Localization\localization.{language}.lua");
         var lineCount = 0;
-        foreach(var line in itemSources)
+        foreach (var line in itemSources)
         {
             if (lineCount == 0 || line.StartsWith("--") || line == "end")
             {
@@ -363,7 +379,7 @@ public static class LocalizationFileManager
             var localizedString = string.Empty;
 
             var indexes = line.AllIndexesOf("LBIS.L[");
-            
+
             var position = indexes[0] + 8;
             while (position <= line.Length && line[position] != ']')
             {

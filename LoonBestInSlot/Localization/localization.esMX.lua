@@ -6,7 +6,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["A Personal Favor"] = "";
 --  LBIS.L["A Spirit Ally?"] = "";
   LBIS.L["Aeonus"] = "Aeonus";
---  LBIS.L["Aeonus and Temporus"] = "";
+  LBIS.L["Aeonus/Temporus"] = "Aeonus/Temporus";
   LBIS.L["Affliction"] = "Aflicción";
   LBIS.L["Ahune"] = "Ahune";
 --  LBIS.L["Akama's Promise"] = "";
@@ -48,7 +48,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Beasts Deck"] = "";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Black Temple"] = "Templo Oscuro";
---  LBIS.L["Black Temple and Hyjal Summit"] = "";
+  LBIS.L["Black Temple/Hyjal Summit"] = "Templo Oscuro/La Cima Hyjal";
   LBIS.L["Blackheart the Inciter"] = "Negrozón el Incitador";
   LBIS.L["Blacksmithing"] = "Herrería";
   LBIS.L["Blade's Edge Mountains"] = "Montañas Filospada";
@@ -62,7 +62,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Brother Against Brother"] = "";
   LBIS.L["Brutallus"] = "Brutallus";
 --  LBIS.L["Brutallus - Sunwell Plateau"] = "";
---  LBIS.L["Brutallus and Eredar Twins"] = "";
+  LBIS.L["Brutallus/Eredar Twins"] = "Brutallus/Gemelas eredar";
 --  LBIS.L["Building a Perimeter"] = "";
   LBIS.L["Cache of the Legion"] = "Alijo de la Legión";
   LBIS.L["Captain Skarloc"] = "Capitán Skarloc";
@@ -98,7 +98,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Down With Daellis"] = "";
 --  LBIS.L["Dr. Boom!"] = "";
   LBIS.L["Dragonscale Leatherworking"] = "Peletería dragontina";
---  LBIS.L["Drill the Drillmaster/The Foot of the Citadel"] = "";
+--  LBIS.L["Drill the Drillmaster/The Foot of the Citadel"] = "/";
 --  LBIS.L["Drop"] = "";
 --  LBIS.L["Dungeon Token"] = "";
   LBIS.L["Elemental"] = "Elemental";
@@ -121,7 +121,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Fel Embers"] = "";
   LBIS.L["Felmyst"] = "Brumavil";
 --  LBIS.L["Felmyst - Sunwell Plateau"] = "";
---  LBIS.L["Felmyst and Eredar Twins"] = "";
+  LBIS.L["Felmyst/Eredar Twins"] = "Brumavil/Gemelas eredar";
   LBIS.L["Fire"] = "Fuego";
 --  LBIS.L["Forge Camp: Annihilated"] = "";
   LBIS.L["Friendly"] = "Amistoso";
@@ -130,7 +130,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Fury"] = "Furia";
 --  LBIS.L["G'eras"] = "";
 --  LBIS.L["Gava'xi"] = "";
---  LBIS.L["General Drakkisath's Demise/For The Horde!"] = "";
+  LBIS.L["General Drakkisath's Demise/For The Horde!"] = "Muerte al general Drakkisath/¡Por la Horda!";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "Ghaz'an";
 --  LBIS.L["Gnomish Engineer"] = "";
@@ -182,7 +182,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Kael'thas Sunstrider"] = "Kael'thas Caminante del Sol";
   LBIS.L["Kalecgos"] = "Kalecgos";
 --  LBIS.L["Kalecgos - Sunwell Plateau"] = "";
---  LBIS.L["Kalecgos and Eredar Twins"] = "";
+  LBIS.L["Kalecgos/Eredar Twins"] = "Kalecgos/Gemelas eredar";
   LBIS.L["Karazhan"] = "Karazhan";
   LBIS.L["Kaz'rogal"] = "Kaz'rogal";
   LBIS.L["Keepers of Time"] = "Vigilantes del Tiempo";
@@ -231,7 +231,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Natural Remedies"] = "";
   LBIS.L["Neck"] = "Cuello";
   LBIS.L["Nethermancer Sepethrea"] = "Abisálica Sepethrea";
---  LBIS.L["Nethermancer Sepethrea and Pathaleon the Calculator"] = "";
+  LBIS.L["Nethermancer Sepethrea/Pathaleon the Calculator"] = "Abisálico Sepethrea/Panthaleon el Calculador";
   LBIS.L["Netherspite"] = "Rencor Abisal";
   LBIS.L["Netherstorm"] = "Tormenta Abisal";
 --  LBIS.L["News of Victory"] = "";
@@ -246,7 +246,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Omor the Unscarred"] = "Omor el Sinmarcas";
 --  LBIS.L["Opera Event"] = "";
 --  LBIS.L["Overlord Gorefist"] = "";
---  LBIS.L["Overlord/Cruel's Intentions"] = "";
+--  LBIS.L["Overlord/Cruel's Intentions"] = "/";
   LBIS.L["Pandemonius"] = "Pandemonius";
   LBIS.L["Pathaleon the Calculator"] = "Pathaleon el Calculador";
 --  LBIS.L["Phase 1"] = "";
@@ -296,7 +296,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Show Minimap Button:"] = "";
 --  LBIS.L["Show Tooltip:"] = "";
 --  LBIS.L["Showdown"] = "";
---  LBIS.L["Showdown - Baron Sablemane/Showdown"] = "";
+--  LBIS.L["Showdown - Baron Sablemane/Showdown"] = "/";
 --  LBIS.L["Shutting Down Manaforge Ara"] = "";
 --  LBIS.L["Smith Hauthaa"] = "";
 --  LBIS.L["Someone Else's Hard Work Pays Off"] = "";
@@ -326,7 +326,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Teron Gorefiend"] = "Teron Sanguino";
 --  LBIS.L["Teron Gorefiend, I am..."] = "";
   LBIS.L["The Aldor"] = "Los Aldor";
---  LBIS.L["The Aldor/Scryers"] = "";
+--  LBIS.L["The Aldor/Scryers"] = "Los Aldor/";
   LBIS.L["The Arcatraz"] = "El Arcatraz";
 --  LBIS.L["The Arcatraz (Heroic)"] = "";
   LBIS.L["The Black Morass"] = "La Ciénaga Negra";
@@ -367,7 +367,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["The Soul Devices"] = "";
   LBIS.L["The Steamvault"] = "La Cámara de Vapor";
 --  LBIS.L["The Steamvault (Heroic)"] = "";
---  LBIS.L["The Terror of Marshlight Lake/Pursuing Terrorclaw"] = "";
+--  LBIS.L["The Terror of Marshlight Lake/Pursuing Terrorclaw"] = "/";
 --  LBIS.L["The Ultimate Bloodsport"] = "";
   LBIS.L["The Underbog"] = "La Sotiénaga";
 --  LBIS.L["The Underbog (Heroic)"] = "";
@@ -412,7 +412,7 @@ if GetLocale() == "esMX" then
   LBIS.L["World Bosses"] = "Jefes del Mundo";
 --  LBIS.L["World Drop"] = "";
   LBIS.L["Wrath-Scryer Soccothrates"] = "Arúspice de cólera Soccothrates";
---  LBIS.L["Wrath-Scryer Soccothrates and Zereketh the Unbound"] = "";
+  LBIS.L["Wrath-Scryer Soccothrates/Zereketh the Unbound"] = "Arúspice de cólera Soccothrates/Zereketh el Desatado";
   LBIS.L["Wrist"] = "Muñeca";
 --  LBIS.L["Yor"] = "";
 --  LBIS.L["You're Hired!"] = "";
