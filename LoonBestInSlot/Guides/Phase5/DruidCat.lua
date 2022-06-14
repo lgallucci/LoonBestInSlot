@@ -72,11 +72,11 @@ LBIS:AddItem(spec, "30627", LBIS.L["Trinket"], "Alt") --Tsunami Talisman
 LBIS:AddItem(spec, "34428", LBIS.L["Trinket"], "Alt") --Steely Naaru Sliver
 LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "Alt") --Berserker's Call
 
-LBIS:AddItem(spec, "34198", LBIS.L["2H"], "BIS") --Stanchion of Primal Instinct
-LBIS:AddItem(spec, "35103", LBIS.L["2H"], "Alt") --Brutal Gladiator's Staff
-LBIS:AddItem(spec, "34898", LBIS.L["2H"], "Alt") --Staff of the Forest Lord
-LBIS:AddItem(spec, "33716", LBIS.L["2H"], "Alt") --Vengeful Gladiator's Staff
-LBIS:AddItem(spec, "33465", LBIS.L["2H"], "Alt") --Staff of Primal Fury
+LBIS:AddItem(spec, "34198", LBIS.L["Two-Hand"], "BIS") --Stanchion of Primal Instinct
+LBIS:AddItem(spec, "35103", LBIS.L["Two-Hand"], "Alt") --Brutal Gladiator's Staff
+LBIS:AddItem(spec, "34898", LBIS.L["Two-Hand"], "Alt") --Staff of the Forest Lord
+LBIS:AddItem(spec, "33716", LBIS.L["Two-Hand"], "Alt") --Vengeful Gladiator's Staff
+LBIS:AddItem(spec, "33465", LBIS.L["Two-Hand"], "Alt") --Staff of Primal Fury
 
 LBIS:AddItem(spec, "29390", LBIS.L["Idol"], "BIS") --Everbloom Idol
 LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "BIS") --Idol of the Raven Goddess

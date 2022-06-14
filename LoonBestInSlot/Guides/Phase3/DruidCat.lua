@@ -78,9 +78,9 @@ LBIS:AddItem(spec, "38287", LBIS.L["Trinket"], "BIS") --Empty Mug of Direbrew
 LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec, "32658", LBIS.L["Trinket"], "Alt") --Badge of Tenacity
 
-LBIS:AddItem(spec, "33716", LBIS.L["2H"], "BIS") --Vengeful Gladiator's Staff
-LBIS:AddItem(spec, "32014", LBIS.L["2H"], "Alt") --Merciless Gladiator's Maul
-LBIS:AddItem(spec, "30883", LBIS.L["2H"], "Alt") --Pillar of Ferocity
+LBIS:AddItem(spec, "33716", LBIS.L["Two-Hand"], "BIS") --Vengeful Gladiator's Staff
+LBIS:AddItem(spec, "32014", LBIS.L["Two-Hand"], "Alt") --Merciless Gladiator's Maul
+LBIS:AddItem(spec, "30883", LBIS.L["Two-Hand"], "Alt") --Pillar of Ferocity
 
 LBIS:AddItem(spec, "29390", LBIS.L["Idol"], "BIS") --Everbloom Idol
 LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "BIS") --Idol of the Raven Goddess

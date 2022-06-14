@@ -1,7 +1,6 @@
 if GetLocale() == "ruRU" then
 --  LBIS.L["# Gear best for:"] = "";
 --  LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "";
---  LBIS.L["2H"] = "";
   LBIS.L["A Fate Worse Than Death"] = "Участь хуже";
   LBIS.L["A Job Unfinished..."] = "Неоконченное дело";
   LBIS.L["A Personal Favor"] = "Личное одолжение";
@@ -31,7 +30,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Arena Vendor"] = "";
   LBIS.L["Arms"] = "Оружие";
   LBIS.L["Ashtongue Deathsworn"] = "Пеплоусты-служители";
---  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "";
+  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "Атиеш, большой посох Стража";
   LBIS.L["Attumen the Huntsman"] = "Ловчий Аттумен";
   LBIS.L["Auchenai Crypts"] = "Аукенайские гробницы";
 --  LBIS.L["Auchenai Crypts (Heroic)"] = "";
@@ -178,7 +177,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Illidan Stormrage"] = "Иллидан Ярость Бури";
   LBIS.L["Information Gathering"] = "Сбор информации";
   LBIS.L["Into the Heart of the Labyrinth"] = "В самом сердце Лабиринта";
---  LBIS.L["It's a Fel Reaver, But with Heart"] = "";
+  LBIS.L["It's a Fel Reaver, But with Heart"] = "Это сквернобот, но у него есть сердце!";
   LBIS.L["Jan'alai"] = "Джан'алай";
   LBIS.L["Jewelcrafting"] = "Ювелирное дело";
   LBIS.L["Kael'thas Sunstrider"] = "Кель'тас Солнечный Скиталец";
@@ -211,6 +210,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Magtheridon"] = "Магтеридон";
   LBIS.L["Magtheridon's Lair"] = "Логово Магтеридона";
   LBIS.L["Maiden of Virtue"] = "Благочестивая дева";
+  LBIS.L["Main Hand"] = "Правая рука";
   LBIS.L["Mana-Tombs"] = "Гробницы маны";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
   LBIS.L["Mark V is Alive!"] = "Робот модели V жив!";
@@ -225,7 +225,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Mechano-Lord Capacitus"] = "Механолорд Конденсарон";
   LBIS.L["Mekgineer Steamrigger"] = "Анжинер Паропуск";
   LBIS.L["Mennu the Betrayer"] = "Менну Предатель";
---  LBIS.L["Main Hand"] = "";
   LBIS.L["Moroes"] = "Мороуз";
   LBIS.L["Morogrim Tidewalker"] = "Морогрим Волноступ";
   LBIS.L["Mother Shahraz"] = "Матушка Шахраз";
@@ -245,8 +244,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["Nexus-Prince Shaffar"] = "Принц Шаффар";
   LBIS.L["Nightbane"] = "Ночная Погибель";
 --  LBIS.L["No longer available"] = "";
+  LBIS.L["Off Hand"] = "Левая рука";
   LBIS.L["Ogri'la"] = "Огри'ла";
---  LBIS.L["Off Hand"] = "";
   LBIS.L["Old Hillsbrad Foothills"] = "Старые предгорья Хилсбрада";
 --  LBIS.L["Old Hillsbrad Foothills (Heroic)"] = "";
   LBIS.L["Omor the Unscarred"] = "Омор Неодолимый";
@@ -330,7 +329,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Terokk's Legacy"] = "Наследство Терокка";
   LBIS.L["Terokkar Forest"] = "Лес Тероккар";
   LBIS.L["Teron Gorefiend"] = "Терон Кровожад";
---  LBIS.L["Teron Gorefiend, I am..."] = "";
+  LBIS.L["Teron Gorefiend, I am..."] = "Терон Кровожад, то есть я...";
   LBIS.L["The Aldor"] = "Алдоры";
 --  LBIS.L["The Aldor/Scryers"] = "";
   LBIS.L["The Arcatraz"] = "Аркатрац";
@@ -395,6 +394,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Trinket"] = "Аксессуар";
   LBIS.L["Turning Point"] = "Поворотная точка";
   LBIS.L["Turning the Tide"] = "Новый поворот событий";
+  LBIS.L["Two-Hand"] = "Двуручное";
 --  LBIS.L["undefined"] = "";
   LBIS.L["Undercutting the Competition"] = "Жестокая вещь – конкуренция";
   LBIS.L["Vanquish the Raven God"] = "Изгнание бога-ворона";

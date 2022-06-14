@@ -113,11 +113,11 @@ LBIS:AddItem(spec, "28216", LBIS.L["Main Hand"], "Alt") --Dathrohan's Ceremonial
 LBIS:AddItem(spec, "27538", LBIS.L["Main Hand"], "Alt") --Lightsworn Hammer
 LBIS:AddItem(spec, "31304", LBIS.L["Main Hand"], "Alt") --The Essence Focuser
 
-LBIS:AddItem(spec, "22632", LBIS.L["2H"], "BIS") --Atiesh, Greatstaff of the Guardian
-LBIS:AddItem(spec, "27791", LBIS.L["2H"], "BIS") --Serpentcrest Life-Staff
-LBIS:AddItem(spec, "29133", LBIS.L["2H"], "Alt") --Seer's Cane
-LBIS:AddItem(spec, "28033", LBIS.L["2H"], "Alt") --Epoch-Mender
-LBIS:AddItem(spec, "31289", LBIS.L["2H"], "Alt") --Staff of Divine Infusion
+LBIS:AddItem(spec, "22632", LBIS.L["Two-Hand"], "BIS") --Atiesh, Greatstaff of the Guardian
+LBIS:AddItem(spec, "27791", LBIS.L["Two-Hand"], "BIS") --Serpentcrest Life-Staff
+LBIS:AddItem(spec, "29133", LBIS.L["Two-Hand"], "Alt") --Seer's Cane
+LBIS:AddItem(spec, "28033", LBIS.L["Two-Hand"], "Alt") --Epoch-Mender
+LBIS:AddItem(spec, "31289", LBIS.L["Two-Hand"], "Alt") --Staff of Divine Infusion
 
 LBIS:AddItem(spec, "29274", LBIS.L["Off Hand"], "BIS") --Tears of Heaven
 LBIS:AddItem(spec, "29170", LBIS.L["Off Hand"], "BIS") --Windcaller's Orb

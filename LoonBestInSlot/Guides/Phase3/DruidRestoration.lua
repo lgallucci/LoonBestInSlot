@@ -81,9 +81,9 @@ LBIS:AddItem(spec, "33743", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's S
 LBIS:AddItem(spec, "30108", LBIS.L["Main Hand"], "Alt") --Lightfathom Scepter
 LBIS:AddItem(spec, "30918", LBIS.L["Main Hand"], "Alt") --Hammer of Atonement
 
-LBIS:AddItem(spec, "30908", LBIS.L["2H"], "BIS") --Apostle of Argus
-LBIS:AddItem(spec, "32344", LBIS.L["2H"], "Alt") --Staff of Immaculate Recovery
-LBIS:AddItem(spec, "29981", LBIS.L["2H"], "Alt") --Ethereum Life-Staff
+LBIS:AddItem(spec, "30908", LBIS.L["Two-Hand"], "BIS") --Apostle of Argus
+LBIS:AddItem(spec, "32344", LBIS.L["Two-Hand"], "Alt") --Staff of Immaculate Recovery
+LBIS:AddItem(spec, "29981", LBIS.L["Two-Hand"], "Alt") --Ethereum Life-Staff
 
 LBIS:AddItem(spec, "30911", LBIS.L["Off Hand"], "BIS") --Scepter of Purification
 LBIS:AddItem(spec, "29274", LBIS.L["Off Hand"], "Alt") --Tears of Heaven

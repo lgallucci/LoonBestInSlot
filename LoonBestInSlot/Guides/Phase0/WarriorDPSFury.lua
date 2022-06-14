@@ -72,11 +72,11 @@ LBIS:AddItem(spec, "29124", LBIS.L["Main Hand"], "Alt") --Vindicator's Brand
 LBIS:AddItem(spec, "23542", LBIS.L["Off Hand"], "Alt") --Fel Edged Battleaxe
 LBIS:AddItem(spec, "28189", LBIS.L["Off Hand"], "Alt") --Latro's Shifting Sword
 
-LBIS:AddItem(spec, "28429", LBIS.L["2H"], "BIS") --Lionheart Champion
-LBIS:AddItem(spec, "29356", LBIS.L["2H"], "Alt") --Quantum Blade
-LBIS:AddItem(spec, "28441", LBIS.L["2H"], "Alt") --Deep Thunder
-LBIS:AddItem(spec, "24550", LBIS.L["2H"], "Alt") --Gladiator's Greatsword
-LBIS:AddItem(spec, "28428", LBIS.L["2H"], "Alt") --Lionheart Blade
+LBIS:AddItem(spec, "28429", LBIS.L["Two-Hand"], "BIS") --Lionheart Champion
+LBIS:AddItem(spec, "29356", LBIS.L["Two-Hand"], "Alt") --Quantum Blade
+LBIS:AddItem(spec, "28441", LBIS.L["Two-Hand"], "Alt") --Deep Thunder
+LBIS:AddItem(spec, "24550", LBIS.L["Two-Hand"], "Alt") --Gladiator's Greatsword
+LBIS:AddItem(spec, "28428", LBIS.L["Two-Hand"], "Alt") --Lionheart Blade
 
 LBIS:AddItem(spec, "30279", LBIS.L["Ranged"], "BIS") --Mama's Insurance
 LBIS:AddItem(spec, "29152", LBIS.L["Ranged"], "Alt") --Marksman's Bow

@@ -57,10 +57,10 @@ LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
 LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "Alt") --Madness of the Betrayer
 
-LBIS:AddItem(spec, "32332", LBIS.L["2H"], "BIS") --Torch of the Damned
-LBIS:AddItem(spec, "30902", LBIS.L["2H"], "Alt") --Cataclysm's Edge
-LBIS:AddItem(spec, "33688", LBIS.L["2H"], "Alt") --Vengeful Gladiator's Greatsword
-LBIS:AddItem(spec, "28430", LBIS.L["2H"], "Alt") --Lionheart Executioner
-LBIS:AddItem(spec, "29993", LBIS.L["2H"], "Alt") --Twinblade of the Phoenix
+LBIS:AddItem(spec, "32332", LBIS.L["Two-Hand"], "BIS") --Torch of the Damned
+LBIS:AddItem(spec, "30902", LBIS.L["Two-Hand"], "Alt") --Cataclysm's Edge
+LBIS:AddItem(spec, "33688", LBIS.L["Two-Hand"], "Alt") --Vengeful Gladiator's Greatsword
+LBIS:AddItem(spec, "28430", LBIS.L["Two-Hand"], "Alt") --Lionheart Executioner
+LBIS:AddItem(spec, "29993", LBIS.L["Two-Hand"], "Alt") --Twinblade of the Phoenix
 
 LBIS:AddItem(spec, "27484", LBIS.L["Libram"], "BIS") --Libram of Avengement

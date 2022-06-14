@@ -83,9 +83,9 @@ LBIS:AddItem(spec, "35082", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Sal
 LBIS:AddItem(spec, "32500", LBIS.L["Main Hand"], "BIS") --Crystal Spire of Karabor
 LBIS:AddItem(spec, "34896", LBIS.L["Main Hand"], "Alt") --Gavel of Naaru Blessings
 
-LBIS:AddItem(spec, "34337", LBIS.L["2H"], "BIS") --Golden Staff of the Sin'dorei
-LBIS:AddItem(spec, "30908", LBIS.L["2H"], "Alt") --Apostle of Argus
-LBIS:AddItem(spec, "34608", LBIS.L["2H"], "Alt") --Rod of the Blazing Light
+LBIS:AddItem(spec, "34337", LBIS.L["Two-Hand"], "BIS") --Golden Staff of the Sin'dorei
+LBIS:AddItem(spec, "30908", LBIS.L["Two-Hand"], "Alt") --Apostle of Argus
+LBIS:AddItem(spec, "34608", LBIS.L["Two-Hand"], "Alt") --Rod of the Blazing Light
 
 LBIS:AddItem(spec, "34206", LBIS.L["Off Hand"], "BIS") --Book of Highborne Hymns
 LBIS:AddItem(spec, "30911", LBIS.L["Off Hand"], "BIS") --Scepter of Purification

@@ -133,13 +133,13 @@ LBIS:AddItem(spec, "29185", LBIS.L["Main Hand"], "Alt") --Continuum Blade
 LBIS:AddItem(spec, "24453", LBIS.L["Main Hand"], "Alt") --Zangartooth Shortblade
 LBIS:AddItem(spec, "31142", LBIS.L["Main Hand"], "Alt") --Blade of Trapped Knowledge
 
-LBIS:AddItem(spec, "22589", LBIS.L["2H"], "BIS") --Atiesh, Greatstaff of the Guardian
-LBIS:AddItem(spec, "29355", LBIS.L["2H"], "Alt") --Terokk's Shadowstaff
-LBIS:AddItem(spec, "29130", LBIS.L["2H"], "Alt") --Auchenai Staff
-LBIS:AddItem(spec, "28341", LBIS.L["2H"], "Alt") --Warpstaff of Arcanum
-LBIS:AddItem(spec, "27842", LBIS.L["2H"], "Alt") --Grand Scepter of the Nexus-Kings
-LBIS:AddItem(spec, "31308", LBIS.L["2H"], "Alt") --The Bringer of Death
-LBIS:AddItem(spec, "25760", LBIS.L["2H"], "Alt") --Battle Mage's Baton
+LBIS:AddItem(spec, "22589", LBIS.L["Two-Hand"], "BIS") --Atiesh, Greatstaff of the Guardian
+LBIS:AddItem(spec, "29355", LBIS.L["Two-Hand"], "Alt") --Terokk's Shadowstaff
+LBIS:AddItem(spec, "29130", LBIS.L["Two-Hand"], "Alt") --Auchenai Staff
+LBIS:AddItem(spec, "28341", LBIS.L["Two-Hand"], "Alt") --Warpstaff of Arcanum
+LBIS:AddItem(spec, "27842", LBIS.L["Two-Hand"], "Alt") --Grand Scepter of the Nexus-Kings
+LBIS:AddItem(spec, "31308", LBIS.L["Two-Hand"], "Alt") --The Bringer of Death
+LBIS:AddItem(spec, "25760", LBIS.L["Two-Hand"], "Alt") --Battle Mage's Baton
 
 LBIS:AddItem(spec, "29271", LBIS.L["Off Hand"], "BIS") --Talisman of Kalecgos
 LBIS:AddItem(spec, "32651", LBIS.L["Off Hand"], "Alt") --Crystal Orb of Enlightenment

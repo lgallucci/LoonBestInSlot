@@ -81,11 +81,11 @@ LBIS:AddItem(spec, "29372", LBIS.L["Off Hand"], "Alt") --Void-Talon
 LBIS:AddItem(spec, "23242", LBIS.L["Off Hand"], "Alt") --Claw of the Frost Wyrm
 LBIS:AddItem(spec, "29121", LBIS.L["Off Hand"], "Alt") --Guile of Khoraazi
 
-LBIS:AddItem(spec, "28435", LBIS.L["2H"], "BIS") --Mooncleaver
-LBIS:AddItem(spec, "27903", LBIS.L["2H"], "Alt") --Sonic Spear
-LBIS:AddItem(spec, "29356", LBIS.L["2H"], "Alt") --Quantum Blade
-LBIS:AddItem(spec, "23039", LBIS.L["2H"], "Alt") --The Eye of Nerub
-LBIS:AddItem(spec, "29329", LBIS.L["2H"], "Alt") --Terokk's Quill
+LBIS:AddItem(spec, "28435", LBIS.L["Two-Hand"], "BIS") --Mooncleaver
+LBIS:AddItem(spec, "27903", LBIS.L["Two-Hand"], "Alt") --Sonic Spear
+LBIS:AddItem(spec, "29356", LBIS.L["Two-Hand"], "Alt") --Quantum Blade
+LBIS:AddItem(spec, "23039", LBIS.L["Two-Hand"], "Alt") --The Eye of Nerub
+LBIS:AddItem(spec, "29329", LBIS.L["Two-Hand"], "Alt") --Terokk's Quill
 
 LBIS:AddItem(spec, "31986", LBIS.L["Ranged"], "BIS") --Merciless Gladiator's Crossbow of the Phoenix
 LBIS:AddItem(spec, "29351", LBIS.L["Ranged"], "Alt") --Wrathtide Longbow

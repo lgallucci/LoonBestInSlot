@@ -78,8 +78,8 @@ LBIS:AddItem(spec, "34429", LBIS.L["Trinket"], "BIS") --Shifting Naaru Sliver
 LBIS:AddItem(spec, "32483", LBIS.L["Trinket"], "BIS") --The Skull of Gul'dan
 LBIS:AddItem(spec, "33829", LBIS.L["Trinket"], "BIS") --Hex Shrunken Head
 
-LBIS:AddItem(spec, "34182", LBIS.L["2H"], "BIS") --Grand Magister's Staff of Torrents
-LBIS:AddItem(spec, "32374", LBIS.L["2H"], "Alt") --Zhar'doom, Greatstaff of the Devourer
+LBIS:AddItem(spec, "34182", LBIS.L["Two-Hand"], "BIS") --Grand Magister's Staff of Torrents
+LBIS:AddItem(spec, "32374", LBIS.L["Two-Hand"], "Alt") --Zhar'doom, Greatstaff of the Devourer
 
 LBIS:AddItem(spec, "34336", LBIS.L["Main Hand"], "BIS") --Sunflare
 LBIS:AddItem(spec, "30910", LBIS.L["Main Hand"], "Alt") --Tempest of Chaos

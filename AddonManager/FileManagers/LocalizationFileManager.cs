@@ -98,7 +98,7 @@ public static class LocalizationFileManager
             questIdString = questIdString.Trim();
 
             string questName = string.Empty;
-            while (position <= line.Length && line[position] != ',')
+            while (position <= line.Length && (line[position] != '\"' || line[position + 1] != ','))
             {
                 questName += line[position];
                 position++;
@@ -124,7 +124,7 @@ public static class LocalizationFileManager
             var questId = Int32.Parse(questIdString.Trim());
 
             string questName = string.Empty;
-            while (position <= line.Length && line[position] != ',')
+            while (position <= line.Length && (line[position] != '\"' || line[position + 1] != ','))
             {
                 questName += line[position];
                 position++;

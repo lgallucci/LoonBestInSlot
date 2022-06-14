@@ -93,9 +93,9 @@ LBIS:AddItem(spec, "34346", LBIS.L["Off Hand"], "Alt") --Mounting Vengeance
 LBIS:AddItem(spec, "33705", LBIS.L["Off Hand"], "Alt") --Vengeful Gladiator's Left Ripper
 LBIS:AddItem(spec, "30865", LBIS.L["Off Hand"], "Alt") --Tracker's Blade
 
-LBIS:AddItem(spec, "34183", LBIS.L["2H"], "BIS") --Shivering Felspine
-LBIS:AddItem(spec, "34247", LBIS.L["2H"], "Alt") --Apolyon, the Soul-Render
-LBIS:AddItem(spec, "32248", LBIS.L["2H"], "BIS") --Halberd of Desolation
+LBIS:AddItem(spec, "34183", LBIS.L["Two-Hand"], "BIS") --Shivering Felspine
+LBIS:AddItem(spec, "34247", LBIS.L["Two-Hand"], "Alt") --Apolyon, the Soul-Render
+LBIS:AddItem(spec, "32248", LBIS.L["Two-Hand"], "BIS") --Halberd of Desolation
 
 LBIS:AddItem(spec, "34334", LBIS.L["Ranged"], "BIS") --Thori'dal, the Stars' Fury
 LBIS:AddItem(spec, "34196", LBIS.L["Ranged"], "BIS") --Golden Bow of Quel'Thalas

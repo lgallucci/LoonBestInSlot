@@ -68,10 +68,10 @@ LBIS:AddItem(spec, "34428", LBIS.L["Trinket"], "Alt") --Steely Naaru Sliver
 LBIS:AddItem(spec, "34578", LBIS.L["Trinket"], "Alt") --Battlemaster's Determination
 LBIS:AddItem(spec, "34472", LBIS.L["Trinket"], "Alt") --Shard of Contempt
 
-LBIS:AddItem(spec, "30883", LBIS.L["2H"], "BIS Mit") --Pillar of Ferocity
-LBIS:AddItem(spec, "34198", LBIS.L["2H"], "BIS Thrt") --Stanchion of Primal Instinct
-LBIS:AddItem(spec, "35103", LBIS.L["2H"], "Alt Thrt") --Brutal Gladiator's Staff
-LBIS:AddItem(spec, "34898", LBIS.L["2H"], "Alt Thrt") --Staff of the Forest Lord
+LBIS:AddItem(spec, "30883", LBIS.L["Two-Hand"], "BIS Mit") --Pillar of Ferocity
+LBIS:AddItem(spec, "34198", LBIS.L["Two-Hand"], "BIS Thrt") --Stanchion of Primal Instinct
+LBIS:AddItem(spec, "35103", LBIS.L["Two-Hand"], "Alt Thrt") --Brutal Gladiator's Staff
+LBIS:AddItem(spec, "34898", LBIS.L["Two-Hand"], "Alt Thrt") --Staff of the Forest Lord
 
 LBIS:AddItem(spec, "33509", LBIS.L["Idol"], "BIS") --Idol of Terror
 LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "BIS") --Idol of the Raven Goddess

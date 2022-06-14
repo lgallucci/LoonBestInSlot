@@ -61,8 +61,8 @@ LBIS:AddItem(spec, "28584", LBIS.L["Main Hand"], "Alt") --Big Bad Wolf's Paw
 LBIS:AddItem(spec, "28572", LBIS.L["Off Hand"], "BIS") --Blade of the Unrequited
 LBIS:AddItem(spec, "28315", LBIS.L["Off Hand"], "Alt") --Stormreaver Warblades
 
-LBIS:AddItem(spec, "28435", LBIS.L["2H"], "BIS") --Mooncleaver
-LBIS:AddItem(spec, "28587", LBIS.L["2H"], "Alt") --Legacy
+LBIS:AddItem(spec, "28435", LBIS.L["Two-Hand"], "BIS") --Mooncleaver
+LBIS:AddItem(spec, "28587", LBIS.L["Two-Hand"], "Alt") --Legacy
 
 LBIS:AddItem(spec, "28772", LBIS.L["Ranged"], "BIS") --Sunfury Bow of the Phoenix
 LBIS:AddItem(spec, "30724", LBIS.L["Ranged"], "BIS") --Barrel-Blade Longrifle

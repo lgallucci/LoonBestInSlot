@@ -73,7 +73,7 @@ LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "BIS") --Talon of the Tempest
 LBIS:AddItem(spec, "30832", LBIS.L["Main Hand"], "Alt") --Gavel of Unearthed Secrets
 LBIS:AddItem(spec, "23554", LBIS.L["Main Hand"], "Alt") --Eternium Runed Blade
 
-LBIS:AddItem(spec, "28633", LBIS.L["2H"], "BIS") --Staff of Infinite Mysteries
+LBIS:AddItem(spec, "28633", LBIS.L["Two-Hand"], "BIS") --Staff of Infinite Mysteries
 
 LBIS:AddItem(spec, "29271", LBIS.L["Off Hand"], "BIS") --Talisman of Kalecgos
 LBIS:AddItem(spec, "28734", LBIS.L["Off Hand"], "BIS") --Jewel of Infinite Possibilities

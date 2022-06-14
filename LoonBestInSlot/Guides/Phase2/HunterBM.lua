@@ -70,9 +70,9 @@ LBIS:AddItem(spec, "29924", LBIS.L["Main Hand"], "Alt") --Netherbane
 LBIS:AddItem(spec, "29948", LBIS.L["Off Hand"], "BIS") --Claw of the Phoenix
 LBIS:AddItem(spec, "28572", LBIS.L["Off Hand"], "Alt") --Blade of the Unrequited
 
-LBIS:AddItem(spec, "29993", LBIS.L["2H"], "BIS") --Twinblade of the Phoenix
-LBIS:AddItem(spec, "28436", LBIS.L["2H"], "BIS") --Bloodmoon
-LBIS:AddItem(spec, "28435", LBIS.L["2H"], "Alt") --Mooncleaver
+LBIS:AddItem(spec, "29993", LBIS.L["Two-Hand"], "BIS") --Twinblade of the Phoenix
+LBIS:AddItem(spec, "28436", LBIS.L["Two-Hand"], "BIS") --Bloodmoon
+LBIS:AddItem(spec, "28435", LBIS.L["Two-Hand"], "Alt") --Mooncleaver
 
 LBIS:AddItem(spec, "30105", LBIS.L["Ranged"], "BIS") --Serpent Spine Longbow
 LBIS:AddItem(spec, "31986", LBIS.L["Ranged"], "BIS") --Merciless Gladiator's Crossbow of the Phoenix

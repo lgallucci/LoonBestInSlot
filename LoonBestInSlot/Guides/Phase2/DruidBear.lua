@@ -90,11 +90,11 @@ LBIS:AddItem(spec, "13503", LBIS.L["Trinket"], "Alt") --Alchemist's Stone
 LBIS:AddItem(spec, "19406", LBIS.L["Trinket"], "Alt") --Drake Fang Talisman
 LBIS:AddItem(spec, "29181", LBIS.L["Trinket"], "BIS Mit") --Timelapse Shard
 
-LBIS:AddItem(spec, "30021", LBIS.L["2H"], "BIS Mit") --Wildfury Greatstaff
-LBIS:AddItem(spec, "32014", LBIS.L["2H"], "BIS Thrt") --Merciless Gladiator's Maul
-LBIS:AddItem(spec, "28658", LBIS.L["2H"], "Alt") --Terestian's Stranglestaff
-LBIS:AddItem(spec, "28476", LBIS.L["2H"], "Alt") --Gladiator's Maul
-LBIS:AddItem(spec, "29171", LBIS.L["2H"], "Alt") --Earthwarden
+LBIS:AddItem(spec, "30021", LBIS.L["Two-Hand"], "BIS Mit") --Wildfury Greatstaff
+LBIS:AddItem(spec, "32014", LBIS.L["Two-Hand"], "BIS Thrt") --Merciless Gladiator's Maul
+LBIS:AddItem(spec, "28658", LBIS.L["Two-Hand"], "Alt") --Terestian's Stranglestaff
+LBIS:AddItem(spec, "28476", LBIS.L["Two-Hand"], "Alt") --Gladiator's Maul
+LBIS:AddItem(spec, "29171", LBIS.L["Two-Hand"], "Alt") --Earthwarden
 
 LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "BIS") --Idol of the Raven Goddess
 LBIS:AddItem(spec, "23198", LBIS.L["Idol"], "BIS") --Idol of Brutality

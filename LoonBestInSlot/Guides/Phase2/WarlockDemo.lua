@@ -76,9 +76,9 @@ LBIS:AddItem(spec, "28789", LBIS.L["Trinket"], "Alt") --Eye of Magtheridon
 LBIS:AddItem(spec, "29132", LBIS.L["Trinket"], "Alt") --Scryer's Bloodgem
 LBIS:AddItem(spec, "30626", LBIS.L["Trinket"], "Alt") --Sextant of Unstable Currents
 
-LBIS:AddItem(spec, "22630", LBIS.L["2H"], "BIS") --Atiesh, Greatstaff of the Guardian
-LBIS:AddItem(spec, "32055", LBIS.L["2H"], "Alt") --Merciless Gladiator's War Staff
-LBIS:AddItem(spec, "29988", LBIS.L["2H"], "Alt") --The Nexus Key
+LBIS:AddItem(spec, "22630", LBIS.L["Two-Hand"], "BIS") --Atiesh, Greatstaff of the Guardian
+LBIS:AddItem(spec, "32055", LBIS.L["Two-Hand"], "Alt") --Merciless Gladiator's War Staff
+LBIS:AddItem(spec, "29988", LBIS.L["Two-Hand"], "Alt") --The Nexus Key
 
 LBIS:AddItem(spec, "32053", LBIS.L["Main Hand"], "BIS") --Merciless Gladiator's Spellblade
 LBIS:AddItem(spec, "30095", LBIS.L["Main Hand"], "BIS") --Fang of the Leviathan

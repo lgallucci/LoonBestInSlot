@@ -73,8 +73,8 @@ LBIS:AddItem(spec, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Cresc
 LBIS:AddItem(spec, "38290", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
 LBIS:AddItem(spec, "31856", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Crusade
 
-LBIS:AddItem(spec, "32374", LBIS.L["2H"], "BIS") --Zhar'doom, Greatstaff of the Devourer
-LBIS:AddItem(spec, "22630", LBIS.L["2H"], "Alt") --Atiesh, Greatstaff of the Guardian
+LBIS:AddItem(spec, "32374", LBIS.L["Two-Hand"], "BIS") --Zhar'doom, Greatstaff of the Devourer
+LBIS:AddItem(spec, "22630", LBIS.L["Two-Hand"], "Alt") --Atiesh, Greatstaff of the Guardian
 
 LBIS:AddItem(spec, "30910", LBIS.L["Main Hand"], "BIS") --Tempest of Chaos
 LBIS:AddItem(spec, "33763", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Spellblade

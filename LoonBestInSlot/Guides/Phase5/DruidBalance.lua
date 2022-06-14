@@ -88,9 +88,9 @@ LBIS:AddItem(spec, "32237", LBIS.L["Main Hand"], "Alt") --The Maelstrom's Fury
 LBIS:AddItem(spec, "34009", LBIS.L["Main Hand"], "Alt") --Hammer of Judgement
 LBIS:AddItem(spec, "33354", LBIS.L["Main Hand"], "Alt") --Wub's Cursed Hexblade
 
-LBIS:AddItem(spec, "34182", LBIS.L["2H"], "BIS") --Grand Magister's Staff of Torrents
-LBIS:AddItem(spec, "32374", LBIS.L["2H"], "Alt") --Zhar'doom, Greatstaff of the Devourer
-LBIS:AddItem(spec, "34987", LBIS.L["2H"], "Alt") --Brutal Gladiator's Battle Staff
+LBIS:AddItem(spec, "34182", LBIS.L["Two-Hand"], "BIS") --Grand Magister's Staff of Torrents
+LBIS:AddItem(spec, "32374", LBIS.L["Two-Hand"], "Alt") --Zhar'doom, Greatstaff of the Devourer
+LBIS:AddItem(spec, "34987", LBIS.L["Two-Hand"], "Alt") --Brutal Gladiator's Battle Staff
 
 LBIS:AddItem(spec, "34179", LBIS.L["Off Hand"], "BIS") --Heart of the Pit
 LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "Alt") --Chronicle of Dark Secrets

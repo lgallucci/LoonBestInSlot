@@ -74,10 +74,10 @@ LBIS:AddItem(spec, "30627", LBIS.L["Trinket"], "BIS") --Tsunami Talisman
 LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
 LBIS:AddItem(spec, "30446", LBIS.L["Trinket"], "BIS") --Solarian's Sapphire
 
-LBIS:AddItem(spec, "29993", LBIS.L["2H"], "BIS") --Twinblade of the Phoenix
-LBIS:AddItem(spec, "28430", LBIS.L["2H"], "BIS") --Lionheart Executioner
-LBIS:AddItem(spec, "28436", LBIS.L["2H"], "Alt") --Bloodmoon
-LBIS:AddItem(spec, "31984", LBIS.L["2H"], "Alt") --Merciless Gladiator's Greatsword
+LBIS:AddItem(spec, "29993", LBIS.L["Two-Hand"], "BIS") --Twinblade of the Phoenix
+LBIS:AddItem(spec, "28430", LBIS.L["Two-Hand"], "BIS") --Lionheart Executioner
+LBIS:AddItem(spec, "28436", LBIS.L["Two-Hand"], "Alt") --Bloodmoon
+LBIS:AddItem(spec, "31984", LBIS.L["Two-Hand"], "Alt") --Merciless Gladiator's Greatsword
 
 LBIS:AddItem(spec, "30082", LBIS.L["Main Hand"], "BIS") --Talon of Azshara
 LBIS:AddItem(spec, "28439", LBIS.L["Main Hand"], "BIS") --Dragonstrike

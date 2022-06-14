@@ -71,9 +71,9 @@ LBIS:AddItem(spec, "23054", LBIS.L["Main Hand"], "Alt") --Gressil, Dawn of Ruin
 LBIS:AddItem(spec, "28729", LBIS.L["Off Hand"], "BIS") --Spiteblade
 LBIS:AddItem(spec, "30733", LBIS.L["Off Hand"], "BIS") --Hope Ender
 
-LBIS:AddItem(spec, "28429", LBIS.L["2H"], "BIS") --Lionheart Champion
-LBIS:AddItem(spec, "28573", LBIS.L["2H"], "Alt") --Despair
-LBIS:AddItem(spec, "28773", LBIS.L["2H"], "Alt") --Gorehowl
+LBIS:AddItem(spec, "28429", LBIS.L["Two-Hand"], "BIS") --Lionheart Champion
+LBIS:AddItem(spec, "28573", LBIS.L["Two-Hand"], "Alt") --Despair
+LBIS:AddItem(spec, "28773", LBIS.L["Two-Hand"], "Alt") --Gorehowl
 
 LBIS:AddItem(spec, "30724", LBIS.L["Ranged"], "BIS") --Barrel-Blade Longrifle
 LBIS:AddItem(spec, "28772", LBIS.L["Ranged"], "BIS") --Sunfury Bow of the Phoenix

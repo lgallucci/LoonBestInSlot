@@ -68,10 +68,10 @@ LBIS:AddItem(spec, "28288", LBIS.L["Trinket"], "Alt") --Abacus of Violent Odds
 LBIS:AddItem(spec, "38287", LBIS.L["Trinket"], "Alt") --Empty Mug of Direbrew
 LBIS:AddItem(spec, "30627", LBIS.L["Trinket"], "Alt") --Tsunami Talisman
 
-LBIS:AddItem(spec, "28430", LBIS.L["2H"], "BIS") --Lionheart Executioner
-LBIS:AddItem(spec, "29993", LBIS.L["2H"], "BIS") --Twinblade of the Phoenix
-LBIS:AddItem(spec, "28442", LBIS.L["2H"], "Alt") --Stormherald
-LBIS:AddItem(spec, "31984", LBIS.L["2H"], "Alt") --Merciless Gladiator's Greatsword
-LBIS:AddItem(spec, "30090", LBIS.L["2H"], "Alt") --World Breaker
+LBIS:AddItem(spec, "28430", LBIS.L["Two-Hand"], "BIS") --Lionheart Executioner
+LBIS:AddItem(spec, "29993", LBIS.L["Two-Hand"], "BIS") --Twinblade of the Phoenix
+LBIS:AddItem(spec, "28442", LBIS.L["Two-Hand"], "Alt") --Stormherald
+LBIS:AddItem(spec, "31984", LBIS.L["Two-Hand"], "Alt") --Merciless Gladiator's Greatsword
+LBIS:AddItem(spec, "30090", LBIS.L["Two-Hand"], "Alt") --World Breaker
 
 LBIS:AddItem(spec, "27484", LBIS.L["Libram"], "BIS") --Libram of Avengement

@@ -86,10 +86,10 @@ LBIS:AddItem(spec, "34009", LBIS.L["Main Hand"], "BIS") --Hammer of Judgement
 LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "Alt") --Talon of the Tempest
 LBIS:AddItem(spec, "28770", LBIS.L["Main Hand"], "Alt") --Nathrezim Mindblade
 
-LBIS:AddItem(spec, "32374", LBIS.L["2H"], "BIS") --Zhar'doom, Greatstaff of the Devourer
-LBIS:AddItem(spec, "34540", LBIS.L["2H"], "Alt") --Vengeful Gladiator's Battle Staff
-LBIS:AddItem(spec, "29988", LBIS.L["2H"], "Alt") --The Nexus Key
-LBIS:AddItem(spec, "33766", LBIS.L["2H"], "Alt") --Vengeful Gladiator's War Staff
+LBIS:AddItem(spec, "32374", LBIS.L["Two-Hand"], "BIS") --Zhar'doom, Greatstaff of the Devourer
+LBIS:AddItem(spec, "34540", LBIS.L["Two-Hand"], "Alt") --Vengeful Gladiator's Battle Staff
+LBIS:AddItem(spec, "29988", LBIS.L["Two-Hand"], "Alt") --The Nexus Key
+LBIS:AddItem(spec, "33766", LBIS.L["Two-Hand"], "Alt") --Vengeful Gladiator's War Staff
 
 LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "BIS") --Chronicle of Dark Secrets
 LBIS:AddItem(spec, "32361", LBIS.L["Off Hand"], "Alt") --Blind-Seers Icon

@@ -1,7 +1,6 @@
 if GetLocale() == "esES" then
   LBIS.L["# Gear best for:"] = "# Equipo mejor para:";
   LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "|cFF9CD6DEClick izquierdo|r: Abrir ventana del navegador";
-  LBIS.L["2H"] = "2H";
   LBIS.L["A Fate Worse Than Death"] = "Terrible destino";
   LBIS.L["A Job Unfinished..."] = "Un trabajo sin terminar...";
   LBIS.L["A Personal Favor"] = "Un pequeño favor";
@@ -31,7 +30,7 @@ if GetLocale() == "esES" then
   LBIS.L["Arena Vendor"] = "Vendedor de arena";
   LBIS.L["Arms"] = "Armas";
   LBIS.L["Ashtongue Deathsworn"] = "Juramorte Lengua de Ceniza";
---  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "";
+  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "Atiesh, el gran báculo del guardián";
   LBIS.L["Attumen the Huntsman"] = "Attumen el Montero";
   LBIS.L["Auchenai Crypts"] = "Criptas Auchenai";
   LBIS.L["Auchenai Crypts (Heroic)"] = "Criptas Auchenai (Heróico)";
@@ -178,7 +177,7 @@ if GetLocale() == "esES" then
   LBIS.L["Illidan Stormrage"] = "Illidan Tempestira";
   LBIS.L["Information Gathering"] = "Reuniendo pistas";
   LBIS.L["Into the Heart of the Labyrinth"] = "En el corazón del laberinto";
---  LBIS.L["It's a Fel Reaver, But with Heart"] = "";
+  LBIS.L["It's a Fel Reaver, But with Heart"] = "Es un atracador vil... pero con corazón";
   LBIS.L["Jan'alai"] = "Jan'alai";
   LBIS.L["Jewelcrafting"] = "Joyería";
   LBIS.L["Kael'thas Sunstrider"] = "Kael'thas Caminante del Sol";
@@ -211,6 +210,7 @@ if GetLocale() == "esES" then
   LBIS.L["Magtheridon"] = "Magtheridon";
   LBIS.L["Magtheridon's Lair"] = "Guarida de Magtheridon";
   LBIS.L["Maiden of Virtue"] = "Doncella de Virtud";
+  LBIS.L["Main Hand"] = "Mano Derecha";
   LBIS.L["Mana-Tombs"] = "Tumbas de Maná";
   LBIS.L["Mana-Tombs (Heroic)"] = "Tumbas de Maná (Heróico)";
   LBIS.L["Mark V is Alive!"] = "¡Mark V está vivo!";
@@ -225,7 +225,6 @@ if GetLocale() == "esES" then
   LBIS.L["Mechano-Lord Capacitus"] = "Lord-mecano Capacitus";
   LBIS.L["Mekgineer Steamrigger"] = "Mekigeniero Vaporino";
   LBIS.L["Mennu the Betrayer"] = "Mennu el Traidor";
---  LBIS.L["Main Hand"] = "MH";
   LBIS.L["Moroes"] = "Moroes";
   LBIS.L["Morogrim Tidewalker"] = "Morogrim Levantamareas";
   LBIS.L["Mother Shahraz"] = "Madre Shahraz";
@@ -245,8 +244,8 @@ if GetLocale() == "esES" then
   LBIS.L["Nexus-Prince Shaffar"] = "Príncipe-nexo Shaffar";
   LBIS.L["Nightbane"] = "Nocturno";
 --  LBIS.L["No longer available"] = "";
+  LBIS.L["Off Hand"] = "Mano Izquierda";
   LBIS.L["Ogri'la"] = "Ogri'la";
---  LBIS.L["Off Hand"] = "OH";
   LBIS.L["Old Hillsbrad Foothills"] = "Antiguas Laderas de Trabalomas";
   LBIS.L["Old Hillsbrad Foothills (Heroic)"] = "Antiguas Laderas de Trabalomas (Heróico)";
   LBIS.L["Omor the Unscarred"] = "Omor el Sinmarcas";
@@ -330,7 +329,7 @@ if GetLocale() == "esES" then
   LBIS.L["Terokk's Legacy"] = "El legado de Terokk";
   LBIS.L["Terokkar Forest"] = "Bosque de Terokkar";
   LBIS.L["Teron Gorefiend"] = "Teron Sanguino";
---  LBIS.L["Teron Gorefiend, I am..."] = "";
+  LBIS.L["Teron Gorefiend, I am..."] = "Yo, Teron Sanguino";
   LBIS.L["The Aldor"] = "Los Aldor";
   LBIS.L["The Aldor/Scryers"] = "Los Aldor/Arúspices";
   LBIS.L["The Arcatraz"] = "El Arcatraz";
@@ -395,6 +394,7 @@ if GetLocale() == "esES" then
   LBIS.L["Trinket"] = "Abalorio";
   LBIS.L["Turning Point"] = "Punto de inflexión";
   LBIS.L["Turning the Tide"] = "Girando las tornas";
+  LBIS.L["Two-Hand"] = "2H";
 --  LBIS.L["undefined"] = "";
   LBIS.L["Undercutting the Competition"] = "Eliminar a la competencia";
   LBIS.L["Vanquish the Raven God"] = "Derrota al Dios Cuervo";

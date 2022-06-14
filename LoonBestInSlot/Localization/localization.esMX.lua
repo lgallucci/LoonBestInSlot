@@ -1,7 +1,6 @@
 if GetLocale() == "esMX" then
 --  LBIS.L["# Gear best for:"] = "";
 --  LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "";
---  LBIS.L["2H"] = "";
 --  LBIS.L["A Fate Worse Than Death"] = "";
 --  LBIS.L["A Job Unfinished..."] = "";
 --  LBIS.L["A Personal Favor"] = "";
@@ -31,7 +30,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Arena Vendor"] = "";
   LBIS.L["Arms"] = "Armas";
   LBIS.L["Ashtongue Deathsworn"] = "Juramorte Lengua de ceniza";
---  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "";
+  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "Atiesh, el gran báculo del guardián";
   LBIS.L["Attumen the Huntsman"] = "Attumen el Montero";
   LBIS.L["Auchenai Crypts"] = "Criptas Auchenai";
 --  LBIS.L["Auchenai Crypts (Heroic)"] = "";
@@ -211,6 +210,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Magtheridon"] = "Magtheridon";
   LBIS.L["Magtheridon's Lair"] = "Guarida de Magtheridon";
   LBIS.L["Maiden of Virtue"] = "Doncella de Virtud";
+  LBIS.L["Main Hand"] = "Mano Derecha";
   LBIS.L["Mana-Tombs"] = "Tumbas de Maná";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
 --  LBIS.L["Mark V is Alive!"] = "";
@@ -225,7 +225,6 @@ if GetLocale() == "esMX" then
   LBIS.L["Mechano-Lord Capacitus"] = "Mecano-lord Capacitus";
   LBIS.L["Mekgineer Steamrigger"] = "Mekigeniero Vaporino";
   LBIS.L["Mennu the Betrayer"] = "Mennu el Traidor";
---  LBIS.L["Main Hand"] = "";
   LBIS.L["Moroes"] = "Moroes";
   LBIS.L["Morogrim Tidewalker"] = "Morogrim Levantamareas";
   LBIS.L["Mother Shahraz"] = "Madre Shahraz";
@@ -245,8 +244,8 @@ if GetLocale() == "esMX" then
   LBIS.L["Nexus-Prince Shaffar"] = "Príncipe-nexo Shaffar";
   LBIS.L["Nightbane"] = "Nocturno";
 --  LBIS.L["No longer available"] = "";
+  LBIS.L["Off Hand"] = "Mano Izquierda";
   LBIS.L["Ogri'la"] = "Ogri'la";
---  LBIS.L["Off Hand"] = "";
   LBIS.L["Old Hillsbrad Foothills"] = "Antiguas Laderas de Trabalomas";
 --  LBIS.L["Old Hillsbrad Foothills (Heroic)"] = "";
   LBIS.L["Omor the Unscarred"] = "Omor el Sinmarcas";
@@ -395,6 +394,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Trinket"] = "Abalorio";
 --  LBIS.L["Turning Point"] = "";
 --  LBIS.L["Turning the Tide"] = "";
+  LBIS.L["Two-Hand"] = "Dos Manos";
 --  LBIS.L["undefined"] = "";
 --  LBIS.L["Undercutting the Competition"] = "";
 --  LBIS.L["Vanquish the Raven God"] = "";

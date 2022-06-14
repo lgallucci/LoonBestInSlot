@@ -111,17 +111,17 @@ LBIS:AddItem(spec, "27770", LBIS.L["Trinket"], "Alt Mit") --Argussian Compass
 LBIS:AddItem(spec, "13966", LBIS.L["Trinket"], "Alt Mit") --Mark of Tyranny
 LBIS:AddItem(spec, "29181", LBIS.L["Trinket"], "Alt Mit") --Timelapse Shard
 
-LBIS:AddItem(spec, "29171", LBIS.L["2H"], "BIS") --Earthwarden
-LBIS:AddItem(spec, "32014", LBIS.L["2H"], "BIS") --Merciless Gladiator's Maul
-LBIS:AddItem(spec, "28476", LBIS.L["2H"], "Alt") --Gladiator's Maul
-LBIS:AddItem(spec, "29359", LBIS.L["2H"], "Alt") --Feral Staff of Lashing
-LBIS:AddItem(spec, "31334", LBIS.L["2H"], "Alt") --Staff of Natural Fury
-LBIS:AddItem(spec, "27757", LBIS.L["2H"], "Alt") --Greatstaff of the Leviathan
-LBIS:AddItem(spec, "27877", LBIS.L["2H"], "Alt") --Draenic Wildstaff
-LBIS:AddItem(spec, "28948", LBIS.L["2H"], "Alt") --Grand Marshal's Maul
-LBIS:AddItem(spec, "28919", LBIS.L["2H"], "Alt") --High Warlord's Maul
-LBIS:AddItem(spec, "30010", LBIS.L["2H"], "Alt") --Fleshling Simulation Staff
-LBIS:AddItem(spec, "28325", LBIS.L["2H"], "Alt") --Dreamer's Dragonstaff
+LBIS:AddItem(spec, "29171", LBIS.L["Two-Hand"], "BIS") --Earthwarden
+LBIS:AddItem(spec, "32014", LBIS.L["Two-Hand"], "BIS") --Merciless Gladiator's Maul
+LBIS:AddItem(spec, "28476", LBIS.L["Two-Hand"], "Alt") --Gladiator's Maul
+LBIS:AddItem(spec, "29359", LBIS.L["Two-Hand"], "Alt") --Feral Staff of Lashing
+LBIS:AddItem(spec, "31334", LBIS.L["Two-Hand"], "Alt") --Staff of Natural Fury
+LBIS:AddItem(spec, "27757", LBIS.L["Two-Hand"], "Alt") --Greatstaff of the Leviathan
+LBIS:AddItem(spec, "27877", LBIS.L["Two-Hand"], "Alt") --Draenic Wildstaff
+LBIS:AddItem(spec, "28948", LBIS.L["Two-Hand"], "Alt") --Grand Marshal's Maul
+LBIS:AddItem(spec, "28919", LBIS.L["Two-Hand"], "Alt") --High Warlord's Maul
+LBIS:AddItem(spec, "30010", LBIS.L["Two-Hand"], "Alt") --Fleshling Simulation Staff
+LBIS:AddItem(spec, "28325", LBIS.L["Two-Hand"], "Alt") --Dreamer's Dragonstaff
 
 LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "BIS") --Idol of the Raven Goddess
 LBIS:AddItem(spec, "23198", LBIS.L["Idol"], "BIS") --Idol of Brutality

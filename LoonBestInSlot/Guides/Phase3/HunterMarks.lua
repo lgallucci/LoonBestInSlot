@@ -79,9 +79,9 @@ LBIS:AddItem(spec, "33705", LBIS.L["Off Hand"], "BIS") --Vengeful Gladiator's Le
 LBIS:AddItem(spec, "30865", LBIS.L["Off Hand"], "Alt") --Tracker's Blade
 LBIS:AddItem(spec, "29948", LBIS.L["Off Hand"], "Alt") --Claw of the Phoenix
 
-LBIS:AddItem(spec, "29993", LBIS.L["2H"], "BIS") --Twinblade of the Phoenix
-LBIS:AddItem(spec, "32248", LBIS.L["2H"], "BIS") --Halberd of Desolation
-LBIS:AddItem(spec, "28436", LBIS.L["2H"], "Alt") --Bloodmoon
+LBIS:AddItem(spec, "29993", LBIS.L["Two-Hand"], "BIS") --Twinblade of the Phoenix
+LBIS:AddItem(spec, "32248", LBIS.L["Two-Hand"], "BIS") --Halberd of Desolation
+LBIS:AddItem(spec, "28436", LBIS.L["Two-Hand"], "Alt") --Bloodmoon
 
 LBIS:AddItem(spec, "30906", LBIS.L["Ranged"], "BIS") --Bristleblitz Striker
 LBIS:AddItem(spec, "34530", LBIS.L["Ranged"], "BIS") --Vengeful Gladiator's Rifle

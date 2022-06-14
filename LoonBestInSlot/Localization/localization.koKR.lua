@@ -1,7 +1,6 @@
 if GetLocale() == "koKR" then
 --  LBIS.L["# Gear best for:"] = "";
 --  LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "";
---  LBIS.L["2H"] = "";
   LBIS.L["A Fate Worse Than Death"] = "죽음보다 더한 운명";
   LBIS.L["A Job Unfinished..."] = "끝나지 않은 임무...";
   LBIS.L["A Personal Favor"] = "사적인 부탁";
@@ -31,7 +30,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Arena Vendor"] = "";
   LBIS.L["Arms"] = "무기";
   LBIS.L["Ashtongue Deathsworn"] = "잿빛혓바닥 결사단";
---  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "";
+  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "아티쉬, 수호자의 지팡이";
   LBIS.L["Attumen the Huntsman"] = "사냥꾼 어튜멘";
   LBIS.L["Auchenai Crypts"] = "아키나이 납골당";
 --  LBIS.L["Auchenai Crypts (Heroic)"] = "";
@@ -178,7 +177,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Illidan Stormrage"] = "일리단 스톰레이지";
   LBIS.L["Information Gathering"] = "정보 수집";
   LBIS.L["Into the Heart of the Labyrinth"] = "미궁의 심장부로";
---  LBIS.L["It's a Fel Reaver, But with Heart"] = "";
+  LBIS.L["It's a Fel Reaver, But with Heart"] = "심장이 뛰는 지옥절단기";
   LBIS.L["Jan'alai"] = "잔알라이 <용매의 화신>";
   LBIS.L["Jewelcrafting"] = "보석세공";
   LBIS.L["Kael'thas Sunstrider"] = "캘타스 선스트라이더 <블러드 엘프 군주>";
@@ -211,6 +210,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Magtheridon"] = "마그테리돈";
   LBIS.L["Magtheridon's Lair"] = "마그테리돈의 둥지";
   LBIS.L["Maiden of Virtue"] = "고결의 여신";
+  LBIS.L["Main Hand"] = "주장비";
   LBIS.L["Mana-Tombs"] = "마나 무덤";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
   LBIS.L["Mark V is Alive!"] = "막스 A. 밀리언 Mk. V 가동!";
@@ -225,7 +225,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Mechano-Lord Capacitus"] = "기계군주 캐퍼시투스";
   LBIS.L["Mekgineer Steamrigger"] = "기계공학자 스팀리거";
   LBIS.L["Mennu the Betrayer"] = "배반자 멘누";
---  LBIS.L["Main Hand"] = "";
   LBIS.L["Moroes"] = "모로스 <집사>";
   LBIS.L["Morogrim Tidewalker"] = "겅둥파도 모로그림";
   LBIS.L["Mother Shahraz"] = "대모 샤라즈";
@@ -245,8 +244,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Nexus-Prince Shaffar"] = "연합왕자 샤파르";
   LBIS.L["Nightbane"] = "파멸의 어둠";
 --  LBIS.L["No longer available"] = "";
+  LBIS.L["Off Hand"] = "보조장비";
   LBIS.L["Ogri'la"] = "오그릴라";
---  LBIS.L["Off Hand"] = "";
   LBIS.L["Old Hillsbrad Foothills"] = "옛 언덕마루 구릉지";
 --  LBIS.L["Old Hillsbrad Foothills (Heroic)"] = "";
   LBIS.L["Omor the Unscarred"] = "무적의 오모르";
@@ -330,7 +329,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Terokk's Legacy"] = "테로크의 유산";
   LBIS.L["Terokkar Forest"] = "테로카르 숲";
   LBIS.L["Teron Gorefiend"] = "테론 고어핀드";
---  LBIS.L["Teron Gorefiend, I am..."] = "";
+  LBIS.L["Teron Gorefiend, I am..."] = "테론 고어핀드의 정체";
   LBIS.L["The Aldor"] = "알도르 사제회";
 --  LBIS.L["The Aldor/Scryers"] = "";
   LBIS.L["The Arcatraz"] = "알카트라즈";
@@ -395,6 +394,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Trinket"] = "장신구";
   LBIS.L["Turning Point"] = "전세 역전";
   LBIS.L["Turning the Tide"] = "전황의 변화";
+  LBIS.L["Two-Hand"] = "양손";
 --  LBIS.L["undefined"] = "";
   LBIS.L["Undercutting the Competition"] = "경쟁자 처치";
   LBIS.L["Vanquish the Raven God"] = "무찌르자";

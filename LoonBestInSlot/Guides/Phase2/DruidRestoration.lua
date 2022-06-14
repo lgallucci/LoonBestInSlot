@@ -71,9 +71,9 @@ LBIS:AddItem(spec, "25634", LBIS.L["Trinket"], "Alt") --Oshu'gun Relic
 LBIS:AddItem(spec, "30108", LBIS.L["Main Hand"], "BIS") --Lightfathom Scepter
 LBIS:AddItem(spec, "28771", LBIS.L["Main Hand"], "Alt") --Light's Justice
 
-LBIS:AddItem(spec, "29981", LBIS.L["2H"], "BIS") --Ethereum Life-Staff
-LBIS:AddItem(spec, "30732", LBIS.L["2H"], "Alt") --Exodar Life-Staff
-LBIS:AddItem(spec, "28782", LBIS.L["2H"], "Alt") --Crystalheart Pulse-Staff
+LBIS:AddItem(spec, "29981", LBIS.L["Two-Hand"], "BIS") --Ethereum Life-Staff
+LBIS:AddItem(spec, "30732", LBIS.L["Two-Hand"], "Alt") --Exodar Life-Staff
+LBIS:AddItem(spec, "28782", LBIS.L["Two-Hand"], "Alt") --Crystalheart Pulse-Staff
 
 LBIS:AddItem(spec, "29274", LBIS.L["Off Hand"], "BIS") --Tears of Heaven
 LBIS:AddItem(spec, "29170", LBIS.L["Off Hand"], "BIS") --Windcaller's Orb

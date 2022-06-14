@@ -55,8 +55,8 @@ LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
 LBIS:AddItem(spec, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unraveller
 
-LBIS:AddItem(spec, "28658", LBIS.L["2H"], "BIS") --Terestian's Stranglestaff
-LBIS:AddItem(spec, "28476", LBIS.L["2H"], "BIS") --Gladiator's Maul
+LBIS:AddItem(spec, "28658", LBIS.L["Two-Hand"], "BIS") --Terestian's Stranglestaff
+LBIS:AddItem(spec, "28476", LBIS.L["Two-Hand"], "BIS") --Gladiator's Maul
 
 LBIS:AddItem(spec, "29390", LBIS.L["Idol"], "BIS") --Everbloom Idol
 LBIS:AddItem(spec, "28372", LBIS.L["Idol"], "BIS") --Idol of Feral Shadows

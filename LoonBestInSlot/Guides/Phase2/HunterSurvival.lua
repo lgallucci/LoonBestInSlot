@@ -57,9 +57,9 @@ LBIS:AddItem(spec, "27846", LBIS.L["Main Hand"], "BIS") --Claw of the Watcher
 LBIS:AddItem(spec, "29948", LBIS.L["Off Hand"], "BIS") --Claw of the Phoenix
 LBIS:AddItem(spec, "28572", LBIS.L["Off Hand"], "Alt") --Blade of the Unrequited
 
-LBIS:AddItem(spec, "29993", LBIS.L["2H"], "BIS") --Twinblade of the Phoenix
-LBIS:AddItem(spec, "28436", LBIS.L["2H"], "Alt") --Bloodmoon
-LBIS:AddItem(spec, "28587", LBIS.L["2H"], "Alt") --Legacy
+LBIS:AddItem(spec, "29993", LBIS.L["Two-Hand"], "BIS") --Twinblade of the Phoenix
+LBIS:AddItem(spec, "28436", LBIS.L["Two-Hand"], "Alt") --Bloodmoon
+LBIS:AddItem(spec, "28587", LBIS.L["Two-Hand"], "Alt") --Legacy
 
 LBIS:AddItem(spec, "30105", LBIS.L["Ranged"], "BIS") --Serpent Spine Longbow
 LBIS:AddItem(spec, "29949", LBIS.L["Ranged"], "Alt") --Arcanite Steam-Pistol

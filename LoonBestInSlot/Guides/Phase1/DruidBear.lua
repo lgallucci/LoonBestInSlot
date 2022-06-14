@@ -80,9 +80,9 @@ LBIS:AddItem(spec, "19406", LBIS.L["Trinket"], "BIS") --Drake Fang Talisman
 LBIS:AddItem(spec, "29181", LBIS.L["Trinket"], "BIS Mit") --Timelapse Shard
 LBIS:AddItem(spec, "31113", LBIS.L["Trinket"], "Alt Mit") --Violet Badge
 
-LBIS:AddItem(spec, "28658", LBIS.L["2H"], "BIS") --Terestian's Stranglestaff
-LBIS:AddItem(spec, "28476", LBIS.L["2H"], "BIS Mit") --Gladiator's Maul
-LBIS:AddItem(spec, "29171", LBIS.L["2H"], "BIS Mit") --Earthwarden
+LBIS:AddItem(spec, "28658", LBIS.L["Two-Hand"], "BIS") --Terestian's Stranglestaff
+LBIS:AddItem(spec, "28476", LBIS.L["Two-Hand"], "BIS Mit") --Gladiator's Maul
+LBIS:AddItem(spec, "29171", LBIS.L["Two-Hand"], "BIS Mit") --Earthwarden
 
 LBIS:AddItem(spec, "23198", LBIS.L["Idol"], "BIS") --Idol of Brutality
 LBIS:AddItem(spec, "28064", LBIS.L["Idol"], "BIS") --Idol of the Wild

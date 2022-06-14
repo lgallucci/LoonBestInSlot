@@ -71,8 +71,8 @@ LBIS:AddItem(spec, "30626", LBIS.L["Trinket"], "Alt") --Sextant of Unstable Curr
 LBIS:AddItem(spec, "30095", LBIS.L["Main Hand"], "BIS") --Fang of the Leviathan
 LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "Alt") --Talon of the Tempest
 
-LBIS:AddItem(spec, "29988", LBIS.L["2H"], "BIS") --The Nexus Key
-LBIS:AddItem(spec, "28633", LBIS.L["2H"], "Alt") --Staff of Infinite Mysteries
+LBIS:AddItem(spec, "29988", LBIS.L["Two-Hand"], "BIS") --The Nexus Key
+LBIS:AddItem(spec, "28633", LBIS.L["Two-Hand"], "Alt") --Staff of Infinite Mysteries
 
 LBIS:AddItem(spec, "30049", LBIS.L["Off Hand"], "BIS") --Fathomstone
 LBIS:AddItem(spec, "28734", LBIS.L["Off Hand"], "BIS") --Jewel of Infinite Possibilities

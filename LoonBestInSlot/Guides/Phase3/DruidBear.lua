@@ -84,10 +84,10 @@ LBIS:AddItem(spec, "34576", LBIS.L["Trinket"], "Alt Mit") --Battlemaster's Cruel
 LBIS:AddItem(spec, "31858", LBIS.L["Trinket"], "Alt Mit") --Darkmoon Card: Vengeance
 LBIS:AddItem(spec, "28579", LBIS.L["Trinket"], "Alt Thrt") --Romulo's Poison Vial
 
-LBIS:AddItem(spec, "30883", LBIS.L["2H"], "BIS") --Pillar of Ferocity
-LBIS:AddItem(spec, "33716", LBIS.L["2H"], "Alt Mit") --Vengeful Gladiator's Staff
-LBIS:AddItem(spec, "30021", LBIS.L["2H"], "Alt") --Wildfury Greatstaff
-LBIS:AddItem(spec, "32014", LBIS.L["2H"], "Alt") --Merciless Gladiator's Maul
+LBIS:AddItem(spec, "30883", LBIS.L["Two-Hand"], "BIS") --Pillar of Ferocity
+LBIS:AddItem(spec, "33716", LBIS.L["Two-Hand"], "Alt Mit") --Vengeful Gladiator's Staff
+LBIS:AddItem(spec, "30021", LBIS.L["Two-Hand"], "Alt") --Wildfury Greatstaff
+LBIS:AddItem(spec, "32014", LBIS.L["Two-Hand"], "Alt") --Merciless Gladiator's Maul
 
 LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "BIS") --Idol of the Raven Goddess
 LBIS:AddItem(spec, "32257", LBIS.L["Idol"], "BIS") --Idol of the White Stag

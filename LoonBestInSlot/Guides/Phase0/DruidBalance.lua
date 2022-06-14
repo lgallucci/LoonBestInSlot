@@ -134,16 +134,16 @@ LBIS:AddItem(spec, "27937", LBIS.L["Main Hand"], "Alt") --Sky Breaker
 LBIS:AddItem(spec, "27741", LBIS.L["Main Hand"], "Alt") --Bleeding Hollow Warhammer
 LBIS:AddItem(spec, "27868", LBIS.L["Main Hand"], "Alt") --Runesong Dagger
 
-LBIS:AddItem(spec, "32055", LBIS.L["2H"], "Alt") --Merciless Gladiator's War Staff
-LBIS:AddItem(spec, "24557", LBIS.L["2H"], "Alt") --Gladiator's War Staff
-LBIS:AddItem(spec, "35514", LBIS.L["2H"], "Alt") --Frostscythe of Lord Ahune
-LBIS:AddItem(spec, "29355", LBIS.L["2H"], "Alt") --Terokk's Shadowstaff
-LBIS:AddItem(spec, "27842", LBIS.L["2H"], "Alt") --Grand Scepter of the Nexus-Kings
-LBIS:AddItem(spec, "29130", LBIS.L["2H"], "Alt") --Auchenai Staff
-LBIS:AddItem(spec, "28935", LBIS.L["2H"], "Alt") --High Warlord's War Staff
-LBIS:AddItem(spec, "28341", LBIS.L["2H"], "Alt") --Warpstaff of Arcanum
-LBIS:AddItem(spec, "31308", LBIS.L["2H"], "Alt") --The Bringer of Death
-LBIS:AddItem(spec, "28188", LBIS.L["2H"], "Alt") --Bloodfire Greatstaff
+LBIS:AddItem(spec, "32055", LBIS.L["Two-Hand"], "Alt") --Merciless Gladiator's War Staff
+LBIS:AddItem(spec, "24557", LBIS.L["Two-Hand"], "Alt") --Gladiator's War Staff
+LBIS:AddItem(spec, "35514", LBIS.L["Two-Hand"], "Alt") --Frostscythe of Lord Ahune
+LBIS:AddItem(spec, "29355", LBIS.L["Two-Hand"], "Alt") --Terokk's Shadowstaff
+LBIS:AddItem(spec, "27842", LBIS.L["Two-Hand"], "Alt") --Grand Scepter of the Nexus-Kings
+LBIS:AddItem(spec, "29130", LBIS.L["Two-Hand"], "Alt") --Auchenai Staff
+LBIS:AddItem(spec, "28935", LBIS.L["Two-Hand"], "Alt") --High Warlord's War Staff
+LBIS:AddItem(spec, "28341", LBIS.L["Two-Hand"], "Alt") --Warpstaff of Arcanum
+LBIS:AddItem(spec, "31308", LBIS.L["Two-Hand"], "Alt") --The Bringer of Death
+LBIS:AddItem(spec, "28188", LBIS.L["Two-Hand"], "Alt") --Bloodfire Greatstaff
 
 LBIS:AddItem(spec, "29271", LBIS.L["Off Hand"], "BIS") --Talisman of Kalecgos
 LBIS:AddItem(spec, "29273", LBIS.L["Off Hand"], "Alt") --Khadgar's Knapsack

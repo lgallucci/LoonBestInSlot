@@ -1,7 +1,6 @@
 if GetLocale() == "deDE" then
 --  LBIS.L["# Gear best for:"] = "";
 --  LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "";
---  LBIS.L["2H"] = "";
   LBIS.L["A Fate Worse Than Death"] = "Schlimmer als der Tod";
   LBIS.L["A Job Unfinished..."] = "Eine unerledigte Aufgabe...";
   LBIS.L["A Personal Favor"] = "Ein persönlicher Gefallen";
@@ -31,7 +30,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Arena Vendor"] = "";
   LBIS.L["Arms"] = "Waffen";
   LBIS.L["Ashtongue Deathsworn"] = "Die Todeshörigen";
---  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "";
+  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "Atiesh, Hohestab des Wächters";
   LBIS.L["Attumen the Huntsman"] = "Attumen der Jäger";
   LBIS.L["Auchenai Crypts"] = "Auchenaikrypta";
 --  LBIS.L["Auchenai Crypts (Heroic)"] = "";
@@ -178,7 +177,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Illidan Stormrage"] = "Illidan Sturmgrimm";
   LBIS.L["Information Gathering"] = "Informationen sammeln";
   LBIS.L["Into the Heart of the Labyrinth"] = "In das Herz des Labyrinths";
---  LBIS.L["It's a Fel Reaver, But with Heart"] = "";
+  LBIS.L["It's a Fel Reaver, But with Heart"] = "Teufelshäscher mit Herz";
   LBIS.L["Jan'alai"] = "Jan'alai";
   LBIS.L["Jewelcrafting"] = "Juwelierskunst";
   LBIS.L["Kael'thas Sunstrider"] = "Kael'thas Sonnenwanderer";
@@ -211,6 +210,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Magtheridon"] = "Magtheridon";
   LBIS.L["Magtheridon's Lair"] = "Magtheridons Kammer";
   LBIS.L["Maiden of Virtue"] = "Tugendhafte Maid";
+  LBIS.L["Main Hand"] = "Waffenhand";
   LBIS.L["Mana-Tombs"] = "Managruft";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
   LBIS.L["Mark V is Alive!"] = "Nummer V lebt!";
@@ -225,7 +225,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Mechano-Lord Capacitus"] = "Mechanolord Kapazitus";
   LBIS.L["Mekgineer Steamrigger"] = "Robogenieur Dampfhammer";
   LBIS.L["Mennu the Betrayer"] = "Mennu der Verräter";
---  LBIS.L["Main Hand"] = "";
   LBIS.L["Moroes"] = "Moroes";
   LBIS.L["Morogrim Tidewalker"] = "Morogrim Gezeitenwandler";
   LBIS.L["Mother Shahraz"] = "Mutter Shahraz";
@@ -245,8 +244,8 @@ if GetLocale() == "deDE" then
   LBIS.L["Nexus-Prince Shaffar"] = "Nexusprinz Shaffar";
   LBIS.L["Nightbane"] = "Schrecken der Nacht";
 --  LBIS.L["No longer available"] = "";
+  LBIS.L["Off Hand"] = "Schildhand";
   LBIS.L["Ogri'la"] = "Ogri'la";
---  LBIS.L["Off Hand"] = "";
   LBIS.L["Old Hillsbrad Foothills"] = "Vorgebirge des Alten Hügellands";
 --  LBIS.L["Old Hillsbrad Foothills (Heroic)"] = "";
   LBIS.L["Omor the Unscarred"] = "Omor der Narbenlose";
@@ -330,7 +329,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Terokk's Legacy"] = "Terokks Erbe";
   LBIS.L["Terokkar Forest"] = "Wälder von Terokkar";
   LBIS.L["Teron Gorefiend"] = "Teron Blutschatten";
---  LBIS.L["Teron Gorefiend, I am..."] = "";
+  LBIS.L["Teron Gorefiend, I am..."] = "Ich bin Teron Blutschatten...";
   LBIS.L["The Aldor"] = "Die Aldor";
 --  LBIS.L["The Aldor/Scryers"] = "";
   LBIS.L["The Arcatraz"] = "Die Arkatraz";
@@ -395,6 +394,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Trinket"] = "Schmuck";
   LBIS.L["Turning Point"] = "Der Wendepunkt";
   LBIS.L["Turning the Tide"] = "Das Schicksal wenden";
+  LBIS.L["Two-Hand"] = "Zweihändig";
 --  LBIS.L["undefined"] = "";
   LBIS.L["Undercutting the Competition"] = "Die Konkurrenz untergraben";
   LBIS.L["Vanquish the Raven God"] = "Vernichtet den Rabengott";

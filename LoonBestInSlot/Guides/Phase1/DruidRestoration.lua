@@ -77,11 +77,11 @@ LBIS:AddItem(spec, "28522", LBIS.L["Main Hand"], "Alt") --Shard of the Virtuous
 LBIS:AddItem(spec, "23556", LBIS.L["Main Hand"], "Alt") --Hand of Eternity
 LBIS:AddItem(spec, "29353", LBIS.L["Main Hand"], "Alt") --Shockwave Truncheon
 
-LBIS:AddItem(spec, "30732", LBIS.L["2H"], "BIS") --Exodar Life-Staff
-LBIS:AddItem(spec, "28782", LBIS.L["2H"], "BIS") --Crystalheart Pulse-Staff
-LBIS:AddItem(spec, "28604", LBIS.L["2H"], "Alt") --Nightstaff of the Everliving
-LBIS:AddItem(spec, "22632", LBIS.L["2H"], "Alt") --Atiesh, Greatstaff of the Guardian
-LBIS:AddItem(spec, "27791", LBIS.L["2H"], "Alt") --Serpentcrest Life-Staff
+LBIS:AddItem(spec, "30732", LBIS.L["Two-Hand"], "BIS") --Exodar Life-Staff
+LBIS:AddItem(spec, "28782", LBIS.L["Two-Hand"], "BIS") --Crystalheart Pulse-Staff
+LBIS:AddItem(spec, "28604", LBIS.L["Two-Hand"], "Alt") --Nightstaff of the Everliving
+LBIS:AddItem(spec, "22632", LBIS.L["Two-Hand"], "Alt") --Atiesh, Greatstaff of the Guardian
+LBIS:AddItem(spec, "27791", LBIS.L["Two-Hand"], "Alt") --Serpentcrest Life-Staff
 
 LBIS:AddItem(spec, "29274", LBIS.L["Off Hand"], "BIS") --Tears of Heaven
 LBIS:AddItem(spec, "29170", LBIS.L["Off Hand"], "BIS") --Windcaller's Orb

@@ -59,8 +59,8 @@ LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "Alt Thrt") --Dragonspine Trophy
 LBIS:AddItem(spec, "32658", LBIS.L["Trinket"], "Alt Thrt") --Badge of Tenacity
 LBIS:AddItem(spec, "30627", LBIS.L["Trinket"], "Alt Thrt") --Tsunami Talisman
 
-LBIS:AddItem(spec, "30883", LBIS.L["2H"], "BIS") --Pillar of Ferocity
-LBIS:AddItem(spec, "33465", LBIS.L["2H"], "Alt") --Staff of Primal Fury
+LBIS:AddItem(spec, "30883", LBIS.L["Two-Hand"], "BIS") --Pillar of Ferocity
+LBIS:AddItem(spec, "33465", LBIS.L["Two-Hand"], "Alt") --Staff of Primal Fury
 
 LBIS:AddItem(spec, "33509", LBIS.L["Idol"], "BIS") --Idol of Terror
 LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "BIS") --Idol of the Raven Goddess

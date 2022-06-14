@@ -73,8 +73,8 @@ LBIS:AddItem(spec, "28802", LBIS.L["Main Hand"], "Alt") --Bloodmaw Magus-Blade
 LBIS:AddItem(spec, "28770", LBIS.L["Main Hand"], "Alt") --Nathrezim Mindblade
 LBIS:AddItem(spec, "23554", LBIS.L["Main Hand"], "Alt") --Eternium Runed Blade
 
-LBIS:AddItem(spec, "28633", LBIS.L["2H"], "BIS") --Staff of Infinite Mysteries
-LBIS:AddItem(spec, "22589", LBIS.L["2H"], "Alt") --Atiesh, Greatstaff of the Guardian
+LBIS:AddItem(spec, "28633", LBIS.L["Two-Hand"], "BIS") --Staff of Infinite Mysteries
+LBIS:AddItem(spec, "22589", LBIS.L["Two-Hand"], "Alt") --Atiesh, Greatstaff of the Guardian
 
 LBIS:AddItem(spec, "29269", LBIS.L["Off Hand"], "BIS") --Sapphiron's Wing Bone
 LBIS:AddItem(spec, "28734", LBIS.L["Off Hand"], "Alt") --Jewel of Infinite Possibilities

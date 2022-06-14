@@ -1,7 +1,6 @@
 if GetLocale() == "zhTW" then
 --  LBIS.L["# Gear best for:"] = "";
 --  LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "";
---  LBIS.L["2H"] = "";
   LBIS.L["A Fate Worse Than Death"] = "比死還糟的命運";
 --  LBIS.L["A Job Unfinished..."] = "";
   LBIS.L["A Personal Favor"] = "個人的喜好";
@@ -31,7 +30,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Arena Vendor"] = "";
   LBIS.L["Arms"] = "武器";
   LBIS.L["Ashtongue Deathsworn"] = "灰舌死亡誓言者";
---  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "";
+  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "阿泰絲,守護者之杖";
   LBIS.L["Attumen the Huntsman"] = "獵人阿圖曼";
   LBIS.L["Auchenai Crypts"] = "奧奇奈地穴";
 --  LBIS.L["Auchenai Crypts (Heroic)"] = "";
@@ -178,7 +177,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Illidan Stormrage"] = "伊利丹·怒風";
   LBIS.L["Information Gathering"] = "收集資訊";
   LBIS.L["Into the Heart of the Labyrinth"] = "進入迷宮的中心";
---  LBIS.L["It's a Fel Reaver, But with Heart"] = "";
+  LBIS.L["It's a Fel Reaver, But with Heart"] = "有心臟的惡魔搶奪者";
   LBIS.L["Jan'alai"] = "賈納雷";
   LBIS.L["Jewelcrafting"] = "珠寶設計";
   LBIS.L["Kael'thas Sunstrider"] = "凱爾薩斯逐日者";
@@ -211,6 +210,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Magtheridon"] = "瑪瑟里頓";
   LBIS.L["Magtheridon's Lair"] = "瑪瑟里頓的巢穴";
   LBIS.L["Maiden of Virtue"] = "貞潔聖女";
+  LBIS.L["Main Hand"] = "主手";
   LBIS.L["Mana-Tombs"] = "法力墓地";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
   LBIS.L["Mark V is Alive!"] = "充滿動力的馬克斯五號";
@@ -225,7 +225,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Mechano-Lord Capacitus"] = "機械領主卡帕希特斯";
   LBIS.L["Mekgineer Steamrigger"] = "機電師蒸汽操控者";
   LBIS.L["Mennu the Betrayer"] = "背叛者曼紐";
---  LBIS.L["Main Hand"] = "";
   LBIS.L["Moroes"] = "摩洛斯";
   LBIS.L["Morogrim Tidewalker"] = "莫洛葛利姆．潮行者";
   LBIS.L["Mother Shahraz"] = "薩拉茲女士";
@@ -245,8 +244,8 @@ if GetLocale() == "zhTW" then
   LBIS.L["Nexus-Prince Shaffar"] = "奈薩斯王子薩法爾";
   LBIS.L["Nightbane"] = "夜魘";
 --  LBIS.L["No longer available"] = "";
+  LBIS.L["Off Hand"] = "副手";
   LBIS.L["Ogri'la"] = "歐格利拉";
---  LBIS.L["Off Hand"] = "";
   LBIS.L["Old Hillsbrad Foothills"] = "希爾斯布萊德丘陵舊址";
 --  LBIS.L["Old Hillsbrad Foothills (Heroic)"] = "";
   LBIS.L["Omor the Unscarred"] = "無疤者歐瑪爾";
@@ -395,6 +394,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Trinket"] = "飾品";
   LBIS.L["Turning Point"] = "轉捩點";
   LBIS.L["Turning the Tide"] = "扭轉情勢";
+  LBIS.L["Two-Hand"] = "雙手";
 --  LBIS.L["undefined"] = "";
   LBIS.L["Undercutting the Competition"] = "暗殺競爭對手";
 --  LBIS.L["Vanquish the Raven God"] = "";

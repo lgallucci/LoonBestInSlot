@@ -74,11 +74,11 @@ LBIS:AddItem(spec, "34951", LBIS.L["Off Hand"], "Alt") --Vanir's Left Fist of Br
 LBIS:AddItem(spec, "34165", LBIS.L["Off Hand"], "Alt") --Fang of Kalecgos
 LBIS:AddItem(spec, "34346", LBIS.L["Off Hand"], "Alt") --Mounting Vengeance
 
-LBIS:AddItem(spec, "34183", LBIS.L["2H"], "BIS") --Shivering Felspine
-LBIS:AddItem(spec, "34247", LBIS.L["2H"], "BIS Mit") --Apolyon, the Soul-Render
-LBIS:AddItem(spec, "29993", LBIS.L["2H"], "Alt") --Twinblade of the Phoenix
-LBIS:AddItem(spec, "33492", LBIS.L["2H"], "Alt") --Trollbane
-LBIS:AddItem(spec, "32248", LBIS.L["2H"], "BIS") --Halberd of Desolation
+LBIS:AddItem(spec, "34183", LBIS.L["Two-Hand"], "BIS") --Shivering Felspine
+LBIS:AddItem(spec, "34247", LBIS.L["Two-Hand"], "BIS Mit") --Apolyon, the Soul-Render
+LBIS:AddItem(spec, "29993", LBIS.L["Two-Hand"], "Alt") --Twinblade of the Phoenix
+LBIS:AddItem(spec, "33492", LBIS.L["Two-Hand"], "Alt") --Trollbane
+LBIS:AddItem(spec, "32248", LBIS.L["Two-Hand"], "BIS") --Halberd of Desolation
 
 LBIS:AddItem(spec, "34334", LBIS.L["Ranged"], "BIS") --Thori'dal, the Stars' Fury
 LBIS:AddItem(spec, "34196", LBIS.L["Ranged"], "BIS") --Golden Bow of Quel'Thalas

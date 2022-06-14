@@ -82,7 +82,7 @@ LBIS:AddItem(spec, "29155", LBIS.L["Main Hand"], "Alt") --Stormcaller
 LBIS:AddItem(spec, "29153", LBIS.L["Main Hand"], "Alt") --Blade of the Archmage
 LBIS:AddItem(spec, "27905", LBIS.L["Main Hand"], "Alt") --Greatsword of Horrid Dreams
 
-LBIS:AddItem(spec, "22630", LBIS.L["2H"], "BIS") --Atiesh, Greatstaff of the Guardian
+LBIS:AddItem(spec, "22630", LBIS.L["Two-Hand"], "BIS") --Atiesh, Greatstaff of the Guardian
 
 LBIS:AddItem(spec, "29273", LBIS.L["Off Hand"], "BIS") --Khadgar's Knapsack
 LBIS:AddItem(spec, "29272", LBIS.L["Off Hand"], "Alt") --Orb of the Soul-Eater

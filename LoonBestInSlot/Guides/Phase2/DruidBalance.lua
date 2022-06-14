@@ -77,8 +77,8 @@ LBIS:AddItem(spec, "29179", LBIS.L["Trinket"], "Alt") --Xi'ri's Gift
 LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "BIS") --Talon of the Tempest
 LBIS:AddItem(spec, "28770", LBIS.L["Main Hand"], "BIS") --Nathrezim Mindblade
 
-LBIS:AddItem(spec, "29988", LBIS.L["2H"], "BIS") --The Nexus Key
-LBIS:AddItem(spec, "28633", LBIS.L["2H"], "Alt") --Staff of Infinite Mysteries
+LBIS:AddItem(spec, "29988", LBIS.L["Two-Hand"], "BIS") --The Nexus Key
+LBIS:AddItem(spec, "28633", LBIS.L["Two-Hand"], "Alt") --Staff of Infinite Mysteries
 
 LBIS:AddItem(spec, "30049", LBIS.L["Off Hand"], "BIS") --Fathomstone
 LBIS:AddItem(spec, "29271", LBIS.L["Off Hand"], "Alt") --Talisman of Kalecgos

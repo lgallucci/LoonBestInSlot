@@ -41,8 +41,8 @@ LBIS:AddItem(spec, "33389", LBIS.L["Main Hand"], "BIS") --Dagger of Bad Mojo
 LBIS:AddItem(spec, "30881", LBIS.L["Main Hand"], "Alt") --Blade of Infamy
 LBIS:AddItem(spec, "33495", LBIS.L["Main Hand"], "Alt") --Rage
 
-LBIS:AddItem(spec, "32248", LBIS.L["2H"], "BIS") --Halberd of Desolation
-LBIS:AddItem(spec, "33492", LBIS.L["2H"], "Alt") --Trollbane
+LBIS:AddItem(spec, "32248", LBIS.L["Two-Hand"], "BIS") --Halberd of Desolation
+LBIS:AddItem(spec, "33492", LBIS.L["Two-Hand"], "Alt") --Trollbane
 
 LBIS:AddItem(spec, "30906", LBIS.L["Ranged"], "BIS") --Bristleblitz Striker
 LBIS:AddItem(spec, "34530", LBIS.L["Ranged"], "BIS") --Vengeful Gladiator's Rifle

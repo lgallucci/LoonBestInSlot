@@ -69,10 +69,10 @@ LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "BIS") --Berserker's Call
 LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "Alt") --Madness of the Betrayer
 LBIS:AddItem(spec, "30627", LBIS.L["Trinket"], "Alt") --Tsunami Talisman
 
-LBIS:AddItem(spec, "34247", LBIS.L["2H"], "BIS") --Apolyon, the Soul-Render
-LBIS:AddItem(spec, "30902", LBIS.L["2H"], "BIS") --Cataclysm's Edge
-LBIS:AddItem(spec, "32348", LBIS.L["2H"], "BIS") --Soul Cleaver
-LBIS:AddItem(spec, "29993", LBIS.L["2H"], "BIS") --Twinblade of the Phoenix
+LBIS:AddItem(spec, "34247", LBIS.L["Two-Hand"], "BIS") --Apolyon, the Soul-Render
+LBIS:AddItem(spec, "30902", LBIS.L["Two-Hand"], "BIS") --Cataclysm's Edge
+LBIS:AddItem(spec, "32348", LBIS.L["Two-Hand"], "BIS") --Soul Cleaver
+LBIS:AddItem(spec, "29993", LBIS.L["Two-Hand"], "BIS") --Twinblade of the Phoenix
 
 LBIS:AddItem(spec, "32837", LBIS.L["Main Hand"], "BIS") --Warglaive of Azzinoth
 LBIS:AddItem(spec, "35101", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Slicer

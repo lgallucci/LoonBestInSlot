@@ -60,9 +60,9 @@ LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "Alt") --Dragonspine Trophy
 LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "Alt") --Berserker's Call
 LBIS:AddItem(spec, "35702", LBIS.L["Trinket"], "Alt") --Figurine - Shadowsong Panther
 
-LBIS:AddItem(spec, "34247", LBIS.L["2H"], "BIS") --Apolyon, the Soul-Render
-LBIS:AddItem(spec, "34183", LBIS.L["2H"], "BIS") --Shivering Felspine
-LBIS:AddItem(spec, "32332", LBIS.L["2H"], "BIS") --Torch of the Damned
-LBIS:AddItem(spec, "34891", LBIS.L["2H"], "Alt") --The Blade of Harbingers
+LBIS:AddItem(spec, "34247", LBIS.L["Two-Hand"], "BIS") --Apolyon, the Soul-Render
+LBIS:AddItem(spec, "34183", LBIS.L["Two-Hand"], "BIS") --Shivering Felspine
+LBIS:AddItem(spec, "32332", LBIS.L["Two-Hand"], "BIS") --Torch of the Damned
+LBIS:AddItem(spec, "34891", LBIS.L["Two-Hand"], "Alt") --The Blade of Harbingers
 
 LBIS:AddItem(spec, "27484", LBIS.L["Libram"], "BIS") --Libram of Avengement

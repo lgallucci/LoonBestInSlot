@@ -1,7 +1,6 @@
 if GetLocale() == "zhCN" then
 --  LBIS.L["# Gear best for:"] = "";
 --  LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "";
---  LBIS.L["2H"] = "";
   LBIS.L["A Fate Worse Than Death"] = "悲惨的命运";
   LBIS.L["A Job Unfinished..."] = "未完的工作……";
   LBIS.L["A Personal Favor"] = "私人事务";
@@ -31,7 +30,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Arena Vendor"] = "";
   LBIS.L["Arms"] = "武器";
   LBIS.L["Ashtongue Deathsworn"] = "灰舌死誓者";
---  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "";
+  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "埃提耶什，守护者的传说之杖";
   LBIS.L["Attumen the Huntsman"] = "猎手阿图门";
   LBIS.L["Auchenai Crypts"] = "奥金尼地穴";
 --  LBIS.L["Auchenai Crypts (Heroic)"] = "";
@@ -178,7 +177,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Illidan Stormrage"] = "伊利丹·怒风";
   LBIS.L["Information Gathering"] = "收集情报";
   LBIS.L["Into the Heart of the Labyrinth"] = "深入迷宫";
---  LBIS.L["It's a Fel Reaver, But with Heart"] = "";
+  LBIS.L["It's a Fel Reaver, But with Heart"] = "魔能机甲的心跳";
   LBIS.L["Jan'alai"] = "加亚莱";
   LBIS.L["Jewelcrafting"] = "珠宝加工";
   LBIS.L["Kael'thas Sunstrider"] = "凯尔萨斯·逐日者";
@@ -211,6 +210,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Magtheridon"] = "玛瑟里顿";
   LBIS.L["Magtheridon's Lair"] = "玛瑟里顿的巢穴";
   LBIS.L["Maiden of Virtue"] = "贞节圣女";
+  LBIS.L["Main Hand"] = "主手";
   LBIS.L["Mana-Tombs"] = "法力陵墓";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
   LBIS.L["Mark V is Alive!"] = "麦克斯米林V型活了！";
@@ -225,7 +225,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Mechano-Lord Capacitus"] = "机械领主卡帕西图斯";
   LBIS.L["Mekgineer Steamrigger"] = "机械师斯蒂里格";
   LBIS.L["Mennu the Betrayer"] = "背叛者门努";
---  LBIS.L["Main Hand"] = "";
   LBIS.L["Moroes"] = "莫罗斯";
   LBIS.L["Morogrim Tidewalker"] = "莫洛格里·踏潮者";
   LBIS.L["Mother Shahraz"] = "莎赫拉丝主母";
@@ -245,8 +244,8 @@ if GetLocale() == "zhCN" then
   LBIS.L["Nexus-Prince Shaffar"] = "节点亲王沙法尔";
   LBIS.L["Nightbane"] = "夜之魇";
 --  LBIS.L["No longer available"] = "";
+  LBIS.L["Off Hand"] = "副手";
   LBIS.L["Ogri'la"] = "奥格瑞拉";
---  LBIS.L["Off Hand"] = "";
   LBIS.L["Old Hillsbrad Foothills"] = "旧希尔斯布莱德丘陵";
 --  LBIS.L["Old Hillsbrad Foothills (Heroic)"] = "";
   LBIS.L["Omor the Unscarred"] = "无疤者奥摩尔";
@@ -330,7 +329,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Terokk's Legacy"] = "泰罗克的传说";
   LBIS.L["Terokkar Forest"] = "泰罗卡森林";
   LBIS.L["Teron Gorefiend"] = "塔隆·血魔";
---  LBIS.L["Teron Gorefiend, I am..."] = "";
+  LBIS.L["Teron Gorefiend, I am..."] = "我就是塔隆·血魔......";
   LBIS.L["The Aldor"] = "奥尔多";
 --  LBIS.L["The Aldor/Scryers"] = "";
   LBIS.L["The Arcatraz"] = "禁魔监狱";
@@ -395,6 +394,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Trinket"] = "饰品";
   LBIS.L["Turning Point"] = "转折点";
   LBIS.L["Turning the Tide"] = "扭转战局";
+  LBIS.L["Two-Hand"] = "双手";
 --  LBIS.L["undefined"] = "";
   LBIS.L["Undercutting the Competition"] = "扫除竞争者";
   LBIS.L["Vanquish the Raven God"] = "消灭乌鸦之神";

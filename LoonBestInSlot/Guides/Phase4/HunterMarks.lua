@@ -56,9 +56,9 @@ LBIS:AddItem(spec, "33705", LBIS.L["Off Hand"], "Alt") --Vengeful Gladiator's Le
 LBIS:AddItem(spec, "32269", LBIS.L["Off Hand"], "Alt") --Messenger of Fate
 LBIS:AddItem(spec, "32945", LBIS.L["Off Hand"], "Alt") --Fist of Molten Fury
 
-LBIS:AddItem(spec, "29993", LBIS.L["2H"], "BIS") --Twinblade of the Phoenix
-LBIS:AddItem(spec, "33492", LBIS.L["2H"], "BIS") --Trollbane
-LBIS:AddItem(spec, "32248", LBIS.L["2H"], "BIS") --Halberd of Desolation
+LBIS:AddItem(spec, "29993", LBIS.L["Two-Hand"], "BIS") --Twinblade of the Phoenix
+LBIS:AddItem(spec, "33492", LBIS.L["Two-Hand"], "BIS") --Trollbane
+LBIS:AddItem(spec, "32248", LBIS.L["Two-Hand"], "BIS") --Halberd of Desolation
 
 LBIS:AddItem(spec, "30906", LBIS.L["Ranged"], "BIS") --Bristleblitz Striker
 LBIS:AddItem(spec, "34530", LBIS.L["Ranged"], "BIS") --Vengeful Gladiator's Rifle

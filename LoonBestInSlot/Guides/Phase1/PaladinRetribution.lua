@@ -60,10 +60,10 @@ LBIS:AddItem(spec, "28288", LBIS.L["Trinket"], "BIS") --Abacus of Violent Odds
 LBIS:AddItem(spec, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unraveller
 LBIS:AddItem(spec, "28579", LBIS.L["Trinket"], "Alt") --Romulo's Poison Vial
 
-LBIS:AddItem(spec, "28429", LBIS.L["2H"], "BIS") --Lionheart Champion
-LBIS:AddItem(spec, "30722", LBIS.L["2H"], "Alt") --Ethereum Nexus-Reaver
-LBIS:AddItem(spec, "28441", LBIS.L["2H"], "Alt") --Deep Thunder
-LBIS:AddItem(spec, "28773", LBIS.L["2H"], "Alt") --Gorehowl
-LBIS:AddItem(spec, "24550", LBIS.L["2H"], "Alt") --Gladiator's Greatsword
+LBIS:AddItem(spec, "28429", LBIS.L["Two-Hand"], "BIS") --Lionheart Champion
+LBIS:AddItem(spec, "30722", LBIS.L["Two-Hand"], "Alt") --Ethereum Nexus-Reaver
+LBIS:AddItem(spec, "28441", LBIS.L["Two-Hand"], "Alt") --Deep Thunder
+LBIS:AddItem(spec, "28773", LBIS.L["Two-Hand"], "Alt") --Gorehowl
+LBIS:AddItem(spec, "24550", LBIS.L["Two-Hand"], "Alt") --Gladiator's Greatsword
 
 LBIS:AddItem(spec, "27484", LBIS.L["Libram"], "BIS") --Libram of Avengement

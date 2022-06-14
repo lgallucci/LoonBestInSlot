@@ -60,8 +60,8 @@ LBIS:AddItem(spec, "34580", LBIS.L["Trinket"], "Alt") --Battlemaster's Persevera
 LBIS:AddItem(spec, "32500", LBIS.L["Main Hand"], "BIS") --Crystal Spire of Karabor
 LBIS:AddItem(spec, "33468", LBIS.L["Main Hand"], "Alt") --Dark Blessing
 
-LBIS:AddItem(spec, "30908", LBIS.L["2H"], "BIS") --Apostle of Argus
-LBIS:AddItem(spec, "33490", LBIS.L["2H"], "Alt") --Staff of Dark Mending
+LBIS:AddItem(spec, "30908", LBIS.L["Two-Hand"], "BIS") --Apostle of Argus
+LBIS:AddItem(spec, "33490", LBIS.L["Two-Hand"], "Alt") --Staff of Dark Mending
 
 LBIS:AddItem(spec, "30911", LBIS.L["Off Hand"], "BIS") --Scepter of Purification
 

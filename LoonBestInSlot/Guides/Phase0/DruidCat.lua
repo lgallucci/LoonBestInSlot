@@ -77,16 +77,16 @@ LBIS:AddItem(spec, "19406", LBIS.L["Trinket"], "Alt") --Drake Fang Talisman
 LBIS:AddItem(spec, "29776", LBIS.L["Trinket"], "Alt") --Core of Ar'kelos
 LBIS:AddItem(spec, "28288", LBIS.L["Trinket"], "Alt") --Abacus of Violent Odds
 
-LBIS:AddItem(spec, "31334", LBIS.L["2H"], "Alt") --Staff of Natural Fury
-LBIS:AddItem(spec, "32014", LBIS.L["2H"], "BIS") --Merciless Gladiator's Maul
-LBIS:AddItem(spec, "28476", LBIS.L["2H"], "Alt") --Gladiator's Maul
-LBIS:AddItem(spec, "29359", LBIS.L["2H"], "Alt") --Feral Staff of Lashing
-LBIS:AddItem(spec, "29171", LBIS.L["2H"], "Alt") --Earthwarden
-LBIS:AddItem(spec, "27877", LBIS.L["2H"], "Alt") --Draenic Wildstaff
-LBIS:AddItem(spec, "28325", LBIS.L["2H"], "Alt") --Dreamer's Dragonstaff
-LBIS:AddItem(spec, "30010", LBIS.L["2H"], "Alt") --Fleshling Simulation Staff
-LBIS:AddItem(spec, "28948", LBIS.L["2H"], "Alt") --Grand Marshal's Maul
-LBIS:AddItem(spec, "28919", LBIS.L["2H"], "Alt") --High Warlord's Maul
+LBIS:AddItem(spec, "31334", LBIS.L["Two-Hand"], "Alt") --Staff of Natural Fury
+LBIS:AddItem(spec, "32014", LBIS.L["Two-Hand"], "BIS") --Merciless Gladiator's Maul
+LBIS:AddItem(spec, "28476", LBIS.L["Two-Hand"], "Alt") --Gladiator's Maul
+LBIS:AddItem(spec, "29359", LBIS.L["Two-Hand"], "Alt") --Feral Staff of Lashing
+LBIS:AddItem(spec, "29171", LBIS.L["Two-Hand"], "Alt") --Earthwarden
+LBIS:AddItem(spec, "27877", LBIS.L["Two-Hand"], "Alt") --Draenic Wildstaff
+LBIS:AddItem(spec, "28325", LBIS.L["Two-Hand"], "Alt") --Dreamer's Dragonstaff
+LBIS:AddItem(spec, "30010", LBIS.L["Two-Hand"], "Alt") --Fleshling Simulation Staff
+LBIS:AddItem(spec, "28948", LBIS.L["Two-Hand"], "Alt") --Grand Marshal's Maul
+LBIS:AddItem(spec, "28919", LBIS.L["Two-Hand"], "Alt") --High Warlord's Maul
 
 LBIS:AddItem(spec, "28372", LBIS.L["Idol"], "BIS") --Idol of Feral Shadows
 LBIS:AddItem(spec, "29390", LBIS.L["Idol"], "BIS") --Everbloom Idol

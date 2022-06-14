@@ -40,9 +40,9 @@ LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "BIS") --Madness of the Betrayer
 LBIS:AddItem(spec, "30627", LBIS.L["Trinket"], "BIS") --Tsunami Talisman
 LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "Alt") --Bloodlust Brooch
 
-LBIS:AddItem(spec, "30902", LBIS.L["2H"], "BIS") --Cataclysm's Edge
-LBIS:AddItem(spec, "32348", LBIS.L["2H"], "BIS") --Soul Cleaver
-LBIS:AddItem(spec, "29993", LBIS.L["2H"], "BIS") --Twinblade of the Phoenix
+LBIS:AddItem(spec, "30902", LBIS.L["Two-Hand"], "BIS") --Cataclysm's Edge
+LBIS:AddItem(spec, "32348", LBIS.L["Two-Hand"], "BIS") --Soul Cleaver
+LBIS:AddItem(spec, "29993", LBIS.L["Two-Hand"], "BIS") --Twinblade of the Phoenix
 
 LBIS:AddItem(spec, "32837", LBIS.L["Main Hand"], "BIS") --Warglaive of Azzinoth
 

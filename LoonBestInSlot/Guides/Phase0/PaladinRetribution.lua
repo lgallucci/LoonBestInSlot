@@ -65,13 +65,13 @@ LBIS:AddItem(spec, "23041", LBIS.L["Trinket"], "Alt") --Slayer's Crest
 LBIS:AddItem(spec, "19406", LBIS.L["Trinket"], "Alt") --Drake Fang Talisman
 LBIS:AddItem(spec, "29776", LBIS.L["Trinket"], "Alt") --Core of Ar'kelos
 
-LBIS:AddItem(spec, "28429", LBIS.L["2H"], "BIS") --Lionheart Champion
-LBIS:AddItem(spec, "28441", LBIS.L["2H"], "BIS") --Deep Thunder
-LBIS:AddItem(spec, "29356", LBIS.L["2H"], "Alt") --Quantum Blade
-LBIS:AddItem(spec, "31322", LBIS.L["2H"], "Alt") --The Hammer of Destiny
-LBIS:AddItem(spec, "23541", LBIS.L["2H"], "Alt") --Khorium Champion
-LBIS:AddItem(spec, "22798", LBIS.L["2H"], "Alt") --Might of Menethil
-LBIS:AddItem(spec, "27986", LBIS.L["2H"], "Alt") --Crow Wing Reaper
+LBIS:AddItem(spec, "28429", LBIS.L["Two-Hand"], "BIS") --Lionheart Champion
+LBIS:AddItem(spec, "28441", LBIS.L["Two-Hand"], "BIS") --Deep Thunder
+LBIS:AddItem(spec, "29356", LBIS.L["Two-Hand"], "Alt") --Quantum Blade
+LBIS:AddItem(spec, "31322", LBIS.L["Two-Hand"], "Alt") --The Hammer of Destiny
+LBIS:AddItem(spec, "23541", LBIS.L["Two-Hand"], "Alt") --Khorium Champion
+LBIS:AddItem(spec, "22798", LBIS.L["Two-Hand"], "Alt") --Might of Menethil
+LBIS:AddItem(spec, "27986", LBIS.L["Two-Hand"], "Alt") --Crow Wing Reaper
 
 LBIS:AddItem(spec, "27484", LBIS.L["Libram"], "BIS") --Libram of Avengement
 LBIS:AddItem(spec, "22401", LBIS.L["Libram"], "Alt") --Libram of Hope
