@@ -101,12 +101,12 @@ if GetLocale() == "esMX" then
   LBIS.L["Doomwalker"] = "Caminante del Destino";
 --  LBIS.L["Down with Daellis"] = "";
 --  LBIS.L["Dr. Boom!"] = "";
---  LBIS.L["Dragonscale Leatherworking"] = "";
+  LBIS.L["Dragonscale Leatherworking"] = "Peletería dragontina";
 --  LBIS.L["Drill the Drillmaster/The Foot of the Citadel"] = "";
 --  LBIS.L["Drop"] = "";
 --  LBIS.L["Dungeon Token"] = "";
   LBIS.L["Elemental"] = "Elemental";
---  LBIS.L["Elemental Leatherworking"] = "";
+  LBIS.L["Elemental Leatherworking"] = "Peletería elemental";
   LBIS.L["Engineering"] = "Ingeniería";
   LBIS.L["Enhancement"] = "Mejora";
 --  LBIS.L["Enraged Spirits of Air"] = "";
@@ -269,7 +269,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Prince Malchezaar"] = "Príncipe Malchezaar";
 --  LBIS.L["Profession"] = "";
   LBIS.L["Protection"] = "Protección";
---  LBIS.L["PvP"] = "";
+  LBIS.L["PvP"] = "JcJ";
 --  LBIS.L["PvP Vendor"] = "";
   LBIS.L["Quagmirran"] = "Quagmirran";
 --  LBIS.L["Quenching the Blade"] = "";
@@ -277,7 +277,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Rage Winterchill"] = "Ira Fríoinvierno";
   LBIS.L["Ranged"] = "Rango";
 --  LBIS.L["Reinforced Fel Iron Chest"] = "";
---  LBIS.L["Reputation"] = "";
+  LBIS.L["Reputation"] = "Reputación";
   LBIS.L["Restoration"] = "Recuperación";
   LBIS.L["Retribution"] = "Reprensión";
 --  LBIS.L["Return to Andormu"] = "";
@@ -398,7 +398,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
 --  LBIS.L["Trash Drop - Sunwell Plateau"] = "";
---  LBIS.L["Tribal Leatherworking"] = "";
+  LBIS.L["Tribal Leatherworking"] = "Peletería tribal";
   LBIS.L["Trinket"] = "Abalorio";
 --  LBIS.L["Turning Point"] = "";
 --  LBIS.L["Turning the Tide"] = "";
@@ -407,7 +407,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Vanquish the Raven God"] = "";
 --  LBIS.L["Varedis Must Be Stopped"] = "";
   LBIS.L["Vazruden the Herald"] = "Vazruden el Heraldo";
---  LBIS.L["Vendor"] = "";
+  LBIS.L["Vendor"] = "Vendedor";
   LBIS.L["Vexallus"] = "Vexallus";
   LBIS.L["Void Reaver"] = "Atracador del Vacío";
 --  LBIS.L["Voren'thal the Seer,Shattrath City"] = "";

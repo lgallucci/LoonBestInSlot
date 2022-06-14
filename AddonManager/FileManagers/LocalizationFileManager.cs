@@ -36,19 +36,19 @@ public static class LocalizationFileManager
             var translatedLocalizations = GetExistingTranslations(language);
             var fileText = $"if GetLocale() == \"{language}\" then\n"; 
             
-            foreach (var localization in localList)
-            {
-                if (translatedLocalizations.ContainsKey(localization))
+            foreach (var localizeTerm in localList)
+            {                
+                if (translatedLocalizations.ContainsKey(localizeTerm))
                 {
-                    fileText += translatedLocalizations[localization] + "\n";
+                    fileText += translatedLocalizations[localizeTerm] + "\n";
                 } 
-                else if (foundLocalization.ContainsKey(localization))
+                else if (foundLocalization.ContainsKey(localizeTerm))
                 {
-                    fileText += $"  LBIS.L[\"{localization}\"] = \"{foundLocalization[localization]}\";\n";
+                    fileText += $"  LBIS.L[\"{localizeTerm}\"] = \"{foundLocalization[localizeTerm]}\";\n";
                 } 
                 else
                 {
-                    fileText += $"--  LBIS.L[\"{localization}\"] = \"\";\n";
+                    fileText += $"--  LBIS.L[\"{localizeTerm}\"] = \"\";\n";
                 }
             }
 
@@ -62,107 +62,150 @@ public static class LocalizationFileManager
     {
         var localizations = new Dictionary<string, string>();
 
-        //Search in AtlasLootClassic
-        var alcPath = $@"E:\Blizzard\World of Warcraft\_classic_\Interface\Addons\AtlasLootClassic_DungeonsAndRaids\Locales\";
-        switch(language)
-        {
-            case "esES":
-                alcPath += "constants.es.lua";
-                break;
-            case "esMX":
-                alcPath += "constants.mx.lua";
-                break;
-            case "deDE":
-                alcPath += "constants.de.lua";
-                break;
-            case "frFR":
-                alcPath += "constants.fr.lua";
-                break;
-            case "ruRU":
-                alcPath += "constants.ru.lua";
-                break;
-            case "zhCN":
-                alcPath += "constants.cn.lua";
-                break;
-            case "koKR":
-                alcPath += "constants.kr.lua";
-                break;
-            case "zhTW":
-                alcPath += "constants.tw.lua";
-                break;
-        }
+        LocalizeFromAtlasLootClassic(ref localizations, language);
 
-        string[] itemSources = System.IO.File.ReadAllLines(alcPath);
+        LocalizeFromWIM(ref localizations, language);
+
+        LocalizeFromLibBabbleSubZone(ref localizations, language);
+
+        LocalizeFromLibBabbleBoss(ref localizations, language);
+
+        LocalizeFromLibBabbleFaction(ref localizations, language);
+
+        LocalizeFromLibBabbleInventory(ref localizations, language);
+
+        LocalizeFromQuestie(ref localizations, language);
+
+        return localizations;
+    }
+
+    private static void LocalizeFromQuestie(ref Dictionary<string, string> localizations, string language)
+    {
+        //Create Local Db
+        string[] itemSources = System.IO.File.ReadAllLines($@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\Questie\tbcQuestDB.lua");
+        var questNames = new Dictionary<int, string>();
         foreach(var line in itemSources)
         {
-            if (!line.StartsWith("AL["))
+            if (!line.StartsWith("["))
                 continue;
-
-            var localizedString = string.Empty;
-            var position = 3;
+            string questIdString = string.Empty;
+            var position = 1;
             while (position <= line.Length && line[position] != ']')
             {
-                localizedString += line[position];
+                questIdString += line[position];
                 position++;
             }
+            questIdString = questIdString.Trim();
 
-            var translation = line.Split("=")[1].Trim().Trim(',').Trim('\"');
-            localizations.Add(localizedString.Trim('\"'), translation);
+            string questName = string.Empty;
+            while (position <= line.Length && line[position] != ',')
+            {
+                questName += line[position];
+                position++;
+            }
+            questName = questName.Split("{")[1].Trim().Trim('\"');
+
+            questNames.Add(Int32.Parse(questIdString), questName);
         }
 
-        alcPath = @$"E:\Blizzard\World of Warcraft\_classic_\Interface\Addons\WIM\Localization\";
-        switch (language)
-        {
-            case "esES":
-                alcPath += "esES.lua";
-                break;
-            case "esMX":
-                alcPath += "esES.lua";
-                break;
-            case "deDE":
-                alcPath += "deDE.lua";
-                break;
-            case "frFR":
-                alcPath += "frFR.lua";
-                break;
-            case "ruRU":
-                alcPath += "ruRU.lua";
-                break;
-            case "zhCN":
-                alcPath += "zhCN.lua";
-                break;
-            case "koKR":
-                alcPath += "koKR.lua";
-                break;
-            case "zhTW":
-                alcPath += "zhTW.lua";
-                break;
-        }
-        itemSources = System.IO.File.ReadAllLines(alcPath);
+        itemSources = System.IO.File.ReadAllLines(@$"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\Questie\{language}.lua");
+        bool foundStart = false;
         foreach (var line in itemSources)
         {
-            if (!line.StartsWith("    [") && !line.StartsWith("	["))
+            if (!line.StartsWith("["))
                 continue;
-
-            var localizedString = string.Empty;
-            var position = 0;
-            if (line.StartsWith("    ["))
-                position = 5;
-            if (line.StartsWith("	["))
-                position = 2;
+            string questIdString = string.Empty;
+            var position = 1;
             while (position <= line.Length && line[position] != ']')
             {
-                localizedString += line[position];
+                questIdString += line[position];
                 position++;
             }
+            var questId = Int32.Parse(questIdString.Trim());
 
-            var translation = line.Split("=")[1].Trim().Trim(',').Trim('\"');
-            if (!localizations.ContainsKey(localizedString.Trim('\"')))
-                localizations.Add(localizedString.Trim('\"'), translation);
+            string questName = string.Empty;
+            while (position <= line.Length && line[position] != ',')
+            {
+                questName += line[position];
+                position++;
+            }
+            questName = questName.Split("{")[1].Trim().Trim('\"');
+
+            if (questNames.ContainsKey(questId) && !localizations.ContainsKey(questNames[questId]))
+                localizations[questNames[questId]] = questName;
         }
+    }
 
-        //Search in LibBabbleSubZone
-        alcPath = $@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-SubZone-3.0\";
+    private static void LocalizeFromLibBabbleInventory(ref Dictionary<string, string> localizations, string language)
+    {
+        string[] itemSources = System.IO.File.ReadAllLines($@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-Inventory-3.0\LibBabble-Inventory-3.0.lua");
+        bool foundStart = false;
+        foreach (var line in itemSources)
+        {
+            if (!foundStart && !line.StartsWith("elseif"))
+                continue;
+
+            if (foundStart && line.StartsWith("elseif"))
+                break;
+
+            if (line.StartsWith("elseif") && line.Contains(language))
+                foundStart = true;
+
+            if (!foundStart || !line.StartsWith("	["))
+                continue;
+
+            AddStringToLocalization(ref localizations, line, 2);
+        }
+    }
+
+    private static void LocalizeFromLibBabbleFaction(ref Dictionary<string, string> localizations, string language)
+    {
+        string[] itemSources = System.IO.File.ReadAllLines($@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-Faction-3.0\LibBabble-Faction-3.0.lua");
+        bool foundStart = false;
+        foreach (var line in itemSources)
+        {
+            if (!foundStart && !line.StartsWith("elseif"))
+                continue;
+
+            if (foundStart && line.StartsWith("elseif"))
+                break;
+
+            if (line.StartsWith("elseif") && line.Contains(language))
+                foundStart = true;
+
+            if (!foundStart || !line.StartsWith("	["))
+                continue;
+
+            AddStringToLocalization(ref localizations, line, 2);
+        }
+    }
+
+    private static void LocalizeFromLibBabbleBoss(ref Dictionary<string, string> localizations, string language)
+    {
+        string[] itemSources = System.IO.File.ReadAllLines($@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-Boss-3.0\LibBabble-Boss-3.0.lua");
+        var foundStart = false;
+        foreach (var line in itemSources)
+        {
+            if (!foundStart && !line.StartsWith("elseif"))
+                continue;
+
+            if (foundStart && line.StartsWith("elseif"))
+                break;
+
+            if (line.StartsWith("elseif") && line.Contains(language))
+                foundStart = true;
+
+            if (!foundStart || !line.StartsWith("	["))
+                continue;
+
+
+            AddStringToLocalization(ref localizations, line, 2);
+        }
+    }
+
+    private static void LocalizeFromLibBabbleSubZone(ref Dictionary<string, string> localizations, string language)
+    {
+        string alcPath = $@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-SubZone-3.0\";
         switch (language)
         {
             case "esES":
@@ -191,118 +234,117 @@ public static class LocalizationFileManager
                 break;
         }
 
-        itemSources = System.IO.File.ReadAllLines(alcPath);
+       string[] itemSources = System.IO.File.ReadAllLines(alcPath);
         foreach (var line in itemSources)
         {
             if (!line.StartsWith("	["))
                 continue;
 
-            var localizedString = string.Empty;
-            var position = 2;
-            while (position <= line.Length && line[position] != ']')
-            {
-                localizedString += line[position];
-                position++;
-            }
-
-            var translation = line.Split("=")[1].Trim().Trim(',').Trim('\"');
-            if (!localizations.ContainsKey(localizedString.Trim('\"')))
-                localizations.Add(localizedString.Trim('\"'), translation);
+            AddStringToLocalization(ref localizations, line, 2);
         }
+    }
 
-        //Search in LibBabbleBoss
-        alcPath = $@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-Boss-3.0\LibBabble-Boss-3.0.lua";
-        itemSources = System.IO.File.ReadAllLines(alcPath);
-        var foundStart = false;
+    private static void LocalizeFromWIM(ref Dictionary<string, string> localizations, string language)
+    {
+        string alcPath = @$"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\WIM\";
+        switch (language)
+        {
+            case "esES":
+                alcPath += "esES.lua";
+                break;
+            case "esMX":
+                alcPath += "esES.lua";
+                break;
+            case "deDE":
+                alcPath += "deDE.lua";
+                break;
+            case "frFR":
+                alcPath += "frFR.lua";
+                break;
+            case "ruRU":
+                alcPath += "ruRU.lua";
+                break;
+            case "zhCN":
+                alcPath += "zhCN.lua";
+                break;
+            case "koKR":
+                alcPath += "koKR.lua";
+                break;
+            case "zhTW":
+                alcPath += "zhTW.lua";
+                break;
+        }
+        string[] itemSources = System.IO.File.ReadAllLines(alcPath);
         foreach (var line in itemSources)
         {
-            if (!foundStart && !line.StartsWith("elseif"))
+            if (!line.StartsWith("    [") && !line.StartsWith("	["))
                 continue;
 
-            if (foundStart && line.StartsWith("elseif"))
+            if (line.StartsWith("    ["))
+                AddStringToLocalization(ref localizations, line, 5);
+            if (line.StartsWith("	["))
+                AddStringToLocalization(ref localizations, line, 2);
+        }
+    }
+
+    private static void LocalizeFromAtlasLootClassic(ref Dictionary<string, string> localizations, string language)
+    {
+        if (localizations == null)
+        {
+            localizations = new Dictionary<string, string>();
+        }
+        var alcPath = $@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\AtlasLootClassic\";
+        switch (language)
+        {
+            case "esES":
+                alcPath += "constants.es.lua";
                 break;
-
-            if (line.StartsWith("elseif") && line.Contains(language))
-                foundStart = true;
-
-            if (!foundStart || !line.StartsWith("	["))
-                continue;
-
-            var localizedString = string.Empty;
-            var position = 2;
-            while (position <= line.Length && line[position] != ']')
-            {
-                localizedString += line[position];
-                position++;
-            }
-
-            var translation = line.Split("=")[1].Trim().Trim(',').Trim('\"');
-            if (!localizations.ContainsKey(localizedString.Trim('\"')))
-                localizations.Add(localizedString.Trim('\"'), translation);
+            case "esMX":
+                alcPath += "constants.mx.lua";
+                break;
+            case "deDE":
+                alcPath += "constants.de.lua";
+                break;
+            case "frFR":
+                alcPath += "constants.fr.lua";
+                break;
+            case "ruRU":
+                alcPath += "constants.ru.lua";
+                break;
+            case "zhCN":
+                alcPath += "constants.cn.lua";
+                break;
+            case "koKR":
+                alcPath += "constants.kr.lua";
+                break;
+            case "zhTW":
+                alcPath += "constants.tw.lua";
+                break;
         }
 
-        //Search in LibBabbleFaction
-        alcPath = $@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-Faction-3.0\LibBabble-Faction-3.0.lua";
-        itemSources = System.IO.File.ReadAllLines(alcPath);
-        foundStart = false;
+        string[] itemSources = System.IO.File.ReadAllLines(alcPath);
         foreach (var line in itemSources)
         {
-            if (!foundStart && !line.StartsWith("elseif"))
+            if (!line.StartsWith("AL["))
                 continue;
 
-            if (foundStart && line.StartsWith("elseif"))
-                break;
-
-            if (line.StartsWith("elseif") && line.Contains(language))
-                foundStart = true;
-
-            if (!foundStart || !line.StartsWith("	["))
-                continue;
-
-            var localizedString = string.Empty;
-            var position = 2;
-            while (position <= line.Length && line[position] != ']')
-            {
-                localizedString += line[position];
-                position++;
-            }
-
-            var translation = line.Split("=")[1].Trim().Trim(',').Trim('\"');
-            if (!localizations.ContainsKey(localizedString.Trim('\"')))
-                localizations.Add(localizedString.Trim('\"'), translation);
+            AddStringToLocalization(ref localizations, line, 3);            
         }
+    }
 
-        alcPath = $@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-Inventory-3.0\LibBabble-Inventory-3.0.lua";
-        itemSources = System.IO.File.ReadAllLines(alcPath);
-        foundStart = false;
-        foreach (var line in itemSources)
+    private static void AddStringToLocalization(ref Dictionary<string, string> localizations, string line, int startPosition)
+    {
+        var localizedString = string.Empty;
+        var position = startPosition;
+        while (position <= line.Length && line[position] != ']')
         {
-            if (!foundStart && !line.StartsWith("elseif"))
-                continue;
-
-            if (foundStart && line.StartsWith("elseif"))
-                break;
-
-            if (line.StartsWith("elseif") && line.Contains(language))
-                foundStart = true;
-
-            if (!foundStart || !line.StartsWith("	["))
-                continue;
-
-            var localizedString = string.Empty;
-            var position = 2;
-            while (position <= line.Length && line[position] != ']')
-            {
-                localizedString += line[position];
-                position++;
-            }
-
-            var translation = line.Split("=")[1].Trim().Trim(',').Trim('\"');
-            if (!localizations.ContainsKey(localizedString.Trim('\"')))
-                localizations.Add(localizedString.Trim('\"'), translation);
+            localizedString += line[position];
+            position++;
         }
 
-        return localizations;
+        var translation = line.Split("=")[1].Trim().Trim(',').Trim('\"');
+        if (!localizations.ContainsKey(localizedString.Trim('\"')))
+            localizations.Add(localizedString.Trim('\"'), translation);
     }
 
     private static Dictionary<string, string> GetExistingTranslations(string language)
