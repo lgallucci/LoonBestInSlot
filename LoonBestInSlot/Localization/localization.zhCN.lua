@@ -48,7 +48,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Beasts Deck"] = "";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Black Temple"] = "黑暗神殿";
---  LBIS.L["Black Temple / Hyjal Summit"] = "";
+--  LBIS.L["Black Temple and Hyjal Summit"] = "";
   LBIS.L["Blackheart the Inciter"] = "煽动者布莱卡特";
   LBIS.L["Blacksmithing"] = "锻造";
   LBIS.L["Blade's Edge Mountains"] = "刀锋山";
@@ -62,7 +62,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Brother Against Brother"] = "兄弟反目";
   LBIS.L["Brutallus"] = "布鲁塔卢斯";
 --  LBIS.L["Brutallus - Sunwell Plateau"] = "";
---  LBIS.L["Brutallus / Eredar Twins"] = "";
+--  LBIS.L["Brutallus and Eredar Twins"] = "";
   LBIS.L["Building a Perimeter"] = "构筑能量壁障";
   LBIS.L["Cache of the Legion"] = "军团储藏室";
   LBIS.L["Captain Skarloc"] = "斯卡洛克上尉";
@@ -121,7 +121,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Fel Embers"] = "邪能灰烬";
   LBIS.L["Felmyst"] = "菲米丝";
 --  LBIS.L["Felmyst - Sunwell Plateau"] = "";
---  LBIS.L["Felmyst / Eredar Twins"] = "";
+--  LBIS.L["Felmyst and Eredar Twins"] = "";
   LBIS.L["Fire"] = "火焰";
   LBIS.L["Forge Camp: Annihilated"] = "扫荡铸魔营地";
   LBIS.L["Friendly"] = "友善";
@@ -130,7 +130,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Fury"] = "狂怒";
 --  LBIS.L["G'eras"] = "";
   LBIS.L["Gava'xi"] = "加瓦克希";
---  LBIS.L["General Drakkisath's Demise - Marshal Maxwell/For The Horde!"] = "";
+--  LBIS.L["General Drakkisath's Demise/For The Horde!"] = "";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "加兹安";
 --  LBIS.L["Gnomish Engineer"] = "";
@@ -151,7 +151,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Hellfire Ramparts"] = "地狱火城墙";
 --  LBIS.L["Hellfire Ramparts (Heroic)"] = "";
   LBIS.L["Hero of the Mag'har"] = "玛格汉的英雄";
---  LBIS.L["Hero of the Mag'har (Horde only)"] = "";
+--  LBIS.L["Hero of the Mag'har (Horde)"] = "";
   LBIS.L["Hex Lord Malacrass"] = "妖术领主玛拉卡斯";
   LBIS.L["High Astromancer Solarian"] = "大星术师索兰莉安";
   LBIS.L["High Botanist Freywinn"] = "高级植物学家弗雷温";
@@ -161,6 +161,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Holy"] = "神圣";
 --  LBIS.L["Honor"] = "";
   LBIS.L["Honor Hold"] = "荣耀堡";
+--  LBIS.L["Honor Hold Marks"] = "";
 --  LBIS.L["Honor, Alterac Valley Marks"] = "";
 --  LBIS.L["Honor, Arathi Basin Marks"] = "";
 --  LBIS.L["Honor, Eye of the Storm Marks"] = "";
@@ -181,7 +182,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Kael'thas Sunstrider"] = "凯尔萨斯·逐日者";
   LBIS.L["Kalecgos"] = "卡雷苟斯";
 --  LBIS.L["Kalecgos - Sunwell Plateau"] = "";
---  LBIS.L["Kalecgos / Eredar Twins"] = "";
+--  LBIS.L["Kalecgos and Eredar Twins"] = "";
   LBIS.L["Karazhan"] = "卡拉赞";
   LBIS.L["Kaz'rogal"] = "卡兹洛加";
   LBIS.L["Keepers of Time"] = "时光守护者";
@@ -212,14 +213,11 @@ if GetLocale() == "zhCN" then
   LBIS.L["Mana-Tombs"] = "法力陵墓";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
   LBIS.L["Mark V is Alive!"] = "麦克斯米林V型活了！";
---  LBIS.L["Marks of Honor Hold"] = "";
---  LBIS.L["Marks of Thrallmar"] = "";
   LBIS.L["Marksmanship"] = "射击";
 --  LBIS.L["Master Armorsmith"] = "";
 --  LBIS.L["Master Axesmith"] = "";
 --  LBIS.L["Master Hammersmith"] = "";
 --  LBIS.L["Master Swordsmith"] = "";
---  LBIS.L["Mechanar"] = "";
   LBIS.L["Mechano-Lord Capacitus"] = "机械领主卡帕西图斯";
   LBIS.L["Mekgineer Steamrigger"] = "机械师斯蒂里格";
   LBIS.L["Mennu the Betrayer"] = "背叛者门努";
@@ -236,7 +234,6 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Nethermancer Sepethrea and Pathaleon the Calculator"] = "";
   LBIS.L["Netherspite"] = "虚空幽龙";
   LBIS.L["Netherstorm"] = "虚空风暴";
---  LBIS.L["Netherstorm Arena Vendor"] = "";
   LBIS.L["News of Victory"] = "胜利的消息";
   LBIS.L["Nexus-King Salhadaar"] = "节点之王萨哈达尔";
   LBIS.L["Nexus-Prince Shaffar"] = "节点亲王沙法尔";
@@ -248,8 +245,8 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Old Hillsbrad Foothills (Heroic)"] = "";
   LBIS.L["Omor the Unscarred"] = "无疤者奥摩尔";
   LBIS.L["Opera Event"] = "歌剧院";
---  LBIS.L["Overlord / Cruel's Intentions"] = "";
   LBIS.L["Overlord Gorefist"] = "戈尔费斯大王";
+--  LBIS.L["Overlord/Cruel's Intentions"] = "";
   LBIS.L["Pandemonius"] = "潘德莫努斯";
   LBIS.L["Pathaleon the Calculator"] = "计算者帕萨雷恩";
 --  LBIS.L["Phase 1"] = "";
@@ -380,6 +377,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Thorngrin the Tender"] = "看管者索恩格林";
   LBIS.L["Thrall"] = "萨尔，杜隆坦之子";
   LBIS.L["Thrallmar"] = "萨尔玛";
+--  LBIS.L["Thrallmar Marks"] = "";
   LBIS.L["Thwart the Dark Conclave"] = "阻止黑暗教团";
 --  LBIS.L["Timed Event"] = "";
 --  LBIS.L["Token"] = "";
@@ -409,7 +407,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Warlord Kalithresh"] = "督军卡利瑟里斯";
   LBIS.L["Warp Splinter"] = "迁跃扭木";
   LBIS.L["Watchkeeper Gargolmar"] = "巡视者加戈玛";
---  LBIS.L["Weird Blades Edged Quest w/ Depleted Sword"] = "";
   LBIS.L["When the Cows Come Home"] = "奶牛回家";
   LBIS.L["Whispers of the Raven God"] = "乌鸦之神的低语";
   LBIS.L["World Bosses"] = "世界BOSS";

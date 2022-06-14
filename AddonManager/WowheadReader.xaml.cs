@@ -188,9 +188,9 @@ public partial class WowheadReader : Window
                     if (csvLootTable.ContainsKey(itemId))
                     {
                         if (csvLootTable[itemId].InstanceName != values[0])
-                            csvLootTable[itemId].InstanceName += $" / {values[0]}";
+                            csvLootTable[itemId].InstanceName += $" and {values[0]}";
                         if (csvLootTable[itemId].SourceName != values[1])
-                            csvLootTable[itemId].SourceName += $" / {values[1]}";
+                            csvLootTable[itemId].SourceName += $" and {values[1]}";
                     }
                     else
                     {

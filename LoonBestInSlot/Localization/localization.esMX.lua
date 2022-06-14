@@ -48,7 +48,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Beasts Deck"] = "";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Black Temple"] = "Templo Oscuro";
---  LBIS.L["Black Temple / Hyjal Summit"] = "";
+--  LBIS.L["Black Temple and Hyjal Summit"] = "";
   LBIS.L["Blackheart the Inciter"] = "Negrozón el Incitador";
   LBIS.L["Blacksmithing"] = "Herrería";
   LBIS.L["Blade's Edge Mountains"] = "Montañas Filospada";
@@ -62,7 +62,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Brother Against Brother"] = "";
   LBIS.L["Brutallus"] = "Brutallus";
 --  LBIS.L["Brutallus - Sunwell Plateau"] = "";
---  LBIS.L["Brutallus / Eredar Twins"] = "";
+--  LBIS.L["Brutallus and Eredar Twins"] = "";
 --  LBIS.L["Building a Perimeter"] = "";
   LBIS.L["Cache of the Legion"] = "Alijo de la Legión";
   LBIS.L["Captain Skarloc"] = "Capitán Skarloc";
@@ -121,7 +121,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Fel Embers"] = "";
   LBIS.L["Felmyst"] = "Brumavil";
 --  LBIS.L["Felmyst - Sunwell Plateau"] = "";
---  LBIS.L["Felmyst / Eredar Twins"] = "";
+--  LBIS.L["Felmyst and Eredar Twins"] = "";
   LBIS.L["Fire"] = "Fuego";
 --  LBIS.L["Forge Camp: Annihilated"] = "";
   LBIS.L["Friendly"] = "Amistoso";
@@ -130,7 +130,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Fury"] = "Furia";
 --  LBIS.L["G'eras"] = "";
 --  LBIS.L["Gava'xi"] = "";
---  LBIS.L["General Drakkisath's Demise - Marshal Maxwell/For The Horde!"] = "";
+--  LBIS.L["General Drakkisath's Demise/For The Horde!"] = "";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "Ghaz'an";
 --  LBIS.L["Gnomish Engineer"] = "";
@@ -151,7 +151,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Hellfire Ramparts"] = "Murallas del Fuego Infernal";
 --  LBIS.L["Hellfire Ramparts (Heroic)"] = "";
 --  LBIS.L["Hero of the Mag'har"] = "";
---  LBIS.L["Hero of the Mag'har (Horde only)"] = "";
+--  LBIS.L["Hero of the Mag'har (Horde)"] = "";
   LBIS.L["Hex Lord Malacrass"] = "Señor aojador Malacrass";
   LBIS.L["High Astromancer Solarian"] = "Gran astromante Solarian";
   LBIS.L["High Botanist Freywinn"] = "Gran botánico Freywinn";
@@ -161,6 +161,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Holy"] = "Sagrado";
 --  LBIS.L["Honor"] = "";
   LBIS.L["Honor Hold"] = "Bastión del Honor";
+--  LBIS.L["Honor Hold Marks"] = "";
 --  LBIS.L["Honor, Alterac Valley Marks"] = "";
 --  LBIS.L["Honor, Arathi Basin Marks"] = "";
 --  LBIS.L["Honor, Eye of the Storm Marks"] = "";
@@ -181,7 +182,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Kael'thas Sunstrider"] = "Kael'thas Caminante del Sol";
   LBIS.L["Kalecgos"] = "Kalecgos";
 --  LBIS.L["Kalecgos - Sunwell Plateau"] = "";
---  LBIS.L["Kalecgos / Eredar Twins"] = "";
+--  LBIS.L["Kalecgos and Eredar Twins"] = "";
   LBIS.L["Karazhan"] = "Karazhan";
   LBIS.L["Kaz'rogal"] = "Kaz'rogal";
   LBIS.L["Keepers of Time"] = "Vigilantes del Tiempo";
@@ -212,14 +213,11 @@ if GetLocale() == "esMX" then
   LBIS.L["Mana-Tombs"] = "Tumbas de Maná";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
 --  LBIS.L["Mark V is Alive!"] = "";
---  LBIS.L["Marks of Honor Hold"] = "";
---  LBIS.L["Marks of Thrallmar"] = "";
   LBIS.L["Marksmanship"] = "Puntería";
 --  LBIS.L["Master Armorsmith"] = "";
 --  LBIS.L["Master Axesmith"] = "";
 --  LBIS.L["Master Hammersmith"] = "";
 --  LBIS.L["Master Swordsmith"] = "";
---  LBIS.L["Mechanar"] = "";
   LBIS.L["Mechano-Lord Capacitus"] = "Mecano-lord Capacitus";
   LBIS.L["Mekgineer Steamrigger"] = "Mekigeniero Vaporino";
   LBIS.L["Mennu the Betrayer"] = "Mennu el Traidor";
@@ -236,7 +234,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Nethermancer Sepethrea and Pathaleon the Calculator"] = "";
   LBIS.L["Netherspite"] = "Rencor Abisal";
   LBIS.L["Netherstorm"] = "Tormenta Abisal";
---  LBIS.L["Netherstorm Arena Vendor"] = "";
 --  LBIS.L["News of Victory"] = "";
 --  LBIS.L["Nexus-King Salhadaar"] = "";
   LBIS.L["Nexus-Prince Shaffar"] = "Príncipe-nexo Shaffar";
@@ -248,8 +245,8 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Old Hillsbrad Foothills (Heroic)"] = "";
   LBIS.L["Omor the Unscarred"] = "Omor el Sinmarcas";
 --  LBIS.L["Opera Event"] = "";
---  LBIS.L["Overlord / Cruel's Intentions"] = "";
 --  LBIS.L["Overlord Gorefist"] = "";
+--  LBIS.L["Overlord/Cruel's Intentions"] = "";
   LBIS.L["Pandemonius"] = "Pandemonius";
   LBIS.L["Pathaleon the Calculator"] = "Pathaleon el Calculador";
 --  LBIS.L["Phase 1"] = "";
@@ -380,6 +377,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Thorngrin the Tender"] = "Thorngrin el Cuidador";
 --  LBIS.L["Thrall"] = "";
   LBIS.L["Thrallmar"] = "Thrallmar";
+--  LBIS.L["Thrallmar Marks"] = "";
 --  LBIS.L["Thwart the Dark Conclave"] = "";
 --  LBIS.L["Timed Event"] = "";
 --  LBIS.L["Token"] = "";
@@ -409,7 +407,6 @@ if GetLocale() == "esMX" then
   LBIS.L["Warlord Kalithresh"] = "Señor de la guerra Kalithresh";
   LBIS.L["Warp Splinter"] = "Disidente de distorsión";
   LBIS.L["Watchkeeper Gargolmar"] = "Guardián vigía Gargolmar";
---  LBIS.L["Weird Blades Edged Quest w/ Depleted Sword"] = "";
 --  LBIS.L["When the Cows Come Home"] = "";
 --  LBIS.L["Whispers of the Raven God"] = "";
   LBIS.L["World Bosses"] = "Jefes del Mundo";

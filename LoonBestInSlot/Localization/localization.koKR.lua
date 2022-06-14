@@ -48,7 +48,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Beasts Deck"] = "";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Black Temple"] = "검은 사원";
---  LBIS.L["Black Temple / Hyjal Summit"] = "";
+--  LBIS.L["Black Temple and Hyjal Summit"] = "";
   LBIS.L["Blackheart the Inciter"] = "선동자 검은심장";
   LBIS.L["Blacksmithing"] = "대장기술";
   LBIS.L["Blade's Edge Mountains"] = "칼날 산맥";
@@ -62,7 +62,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Brother Against Brother"] = "형제 간의 싸움";
   LBIS.L["Brutallus"] = "브루탈루스";
 --  LBIS.L["Brutallus - Sunwell Plateau"] = "";
---  LBIS.L["Brutallus / Eredar Twins"] = "";
+--  LBIS.L["Brutallus and Eredar Twins"] = "";
   LBIS.L["Building a Perimeter"] = "새로운 보호막 만들기";
   LBIS.L["Cache of the Legion"] = "군단 저장고";
   LBIS.L["Captain Skarloc"] = "경비대장 스칼록";
@@ -121,7 +121,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Fel Embers"] = "지옥의 불씨";
   LBIS.L["Felmyst"] = "지옥안개";
 --  LBIS.L["Felmyst - Sunwell Plateau"] = "";
---  LBIS.L["Felmyst / Eredar Twins"] = "";
+--  LBIS.L["Felmyst and Eredar Twins"] = "";
   LBIS.L["Fire"] = "true";
   LBIS.L["Forge Camp: Annihilated"] = "괴철로 기지 섬멸";
   LBIS.L["Friendly"] = "약간 우호적";
@@ -130,7 +130,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Fury"] = "true";
 --  LBIS.L["G'eras"] = "";
   LBIS.L["Gava'xi"] = "가바시";
---  LBIS.L["General Drakkisath's Demise - Marshal Maxwell/For The Horde!"] = "";
+--  LBIS.L["General Drakkisath's Demise/For The Horde!"] = "";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "가즈안";
 --  LBIS.L["Gnomish Engineer"] = "";
@@ -151,7 +151,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Hellfire Ramparts"] = "지옥불 성루";
 --  LBIS.L["Hellfire Ramparts (Heroic)"] = "";
 --  LBIS.L["Hero of the Mag'har"] = "";
---  LBIS.L["Hero of the Mag'har (Horde only)"] = "";
+--  LBIS.L["Hero of the Mag'har (Horde)"] = "";
   LBIS.L["Hex Lord Malacrass"] = "사술 군주 말라크라스";
   LBIS.L["High Astromancer Solarian"] = "고위 점성술사 솔라리안";
   LBIS.L["High Botanist Freywinn"] = "고위 식물학자 프레이윈";
@@ -161,6 +161,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Holy"] = "신성";
 --  LBIS.L["Honor"] = "";
   LBIS.L["Honor Hold"] = "명예의 요새";
+--  LBIS.L["Honor Hold Marks"] = "";
 --  LBIS.L["Honor, Alterac Valley Marks"] = "";
 --  LBIS.L["Honor, Arathi Basin Marks"] = "";
 --  LBIS.L["Honor, Eye of the Storm Marks"] = "";
@@ -181,7 +182,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Kael'thas Sunstrider"] = "캘타스 선스트라이더 <블러드 엘프 군주>";
   LBIS.L["Kalecgos"] = "칼렉고스";
 --  LBIS.L["Kalecgos - Sunwell Plateau"] = "";
---  LBIS.L["Kalecgos / Eredar Twins"] = "";
+--  LBIS.L["Kalecgos and Eredar Twins"] = "";
   LBIS.L["Karazhan"] = "카라잔";
   LBIS.L["Kaz'rogal"] = "카즈로갈";
   LBIS.L["Keepers of Time"] = "시간의 수호자";
@@ -212,14 +213,11 @@ if GetLocale() == "koKR" then
   LBIS.L["Mana-Tombs"] = "마나 무덤";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
   LBIS.L["Mark V is Alive!"] = "막스 A. 밀리언 Mk. V 가동!";
---  LBIS.L["Marks of Honor Hold"] = "";
---  LBIS.L["Marks of Thrallmar"] = "";
   LBIS.L["Marksmanship"] = "true";
 --  LBIS.L["Master Armorsmith"] = "";
 --  LBIS.L["Master Axesmith"] = "";
 --  LBIS.L["Master Hammersmith"] = "";
 --  LBIS.L["Master Swordsmith"] = "";
---  LBIS.L["Mechanar"] = "";
   LBIS.L["Mechano-Lord Capacitus"] = "기계군주 캐퍼시투스";
   LBIS.L["Mekgineer Steamrigger"] = "기계공학자 스팀리거";
   LBIS.L["Mennu the Betrayer"] = "배반자 멘누";
@@ -236,7 +234,6 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Nethermancer Sepethrea and Pathaleon the Calculator"] = "";
   LBIS.L["Netherspite"] = "황천의 원령";
   LBIS.L["Netherstorm"] = "황천의 폭풍";
---  LBIS.L["Netherstorm Arena Vendor"] = "";
   LBIS.L["News of Victory"] = "승리의 소식";
   LBIS.L["Nexus-King Salhadaar"] = "연합왕 살라다르";
   LBIS.L["Nexus-Prince Shaffar"] = "연합왕자 샤파르";
@@ -248,8 +245,8 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Old Hillsbrad Foothills (Heroic)"] = "";
   LBIS.L["Omor the Unscarred"] = "무적의 오모르";
   LBIS.L["Opera Event"] = "오페라 이벤트";
---  LBIS.L["Overlord / Cruel's Intentions"] = "";
   LBIS.L["Overlord Gorefist"] = "대군주 고어피스트";
+--  LBIS.L["Overlord/Cruel's Intentions"] = "";
   LBIS.L["Pandemonius"] = "팬더모니우스";
   LBIS.L["Pathaleon the Calculator"] = "철두철미한 파탈리온";
 --  LBIS.L["Phase 1"] = "";
@@ -380,6 +377,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Thorngrin the Tender"] = "감시인 쏜그린";
 --  LBIS.L["Thrall"] = "";
   LBIS.L["Thrallmar"] = "스랄마";
+--  LBIS.L["Thrallmar Marks"] = "";
   LBIS.L["Thwart the Dark Conclave"] = "암흑 비밀결사 저지";
 --  LBIS.L["Timed Event"] = "";
 --  LBIS.L["Token"] = "";
@@ -409,7 +407,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Warlord Kalithresh"] = "장군 칼리스레쉬";
   LBIS.L["Warp Splinter"] = "차원의 분리자";
   LBIS.L["Watchkeeper Gargolmar"] = "감시자 가르골마르";
---  LBIS.L["Weird Blades Edged Quest w/ Depleted Sword"] = "";
   LBIS.L["When the Cows Come Home"] = "집으로 돌아온 소";
   LBIS.L["Whispers of the Raven God"] = "까마귀 신의 속삭임";
   LBIS.L["World Bosses"] = "월드 보스";
