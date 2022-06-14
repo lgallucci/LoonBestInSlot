@@ -76,18 +76,18 @@ LBIS:AddItem(spec, "38288", LBIS.L["Trinket"], "BIS") --Direbrew Hops
 LBIS:AddItem(spec, "32496", LBIS.L["Trinket"], "BIS") --Memento of Tyrande
 LBIS:AddItem(spec, "32486", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Equilibrium
 
-LBIS:AddItem(spec, "32500", LBIS.L["MH"], "BIS") --Crystal Spire of Karabor
-LBIS:AddItem(spec, "33743", LBIS.L["MH"], "Alt") --Vengeful Gladiator's Salvation
-LBIS:AddItem(spec, "30108", LBIS.L["MH"], "Alt") --Lightfathom Scepter
-LBIS:AddItem(spec, "30918", LBIS.L["MH"], "Alt") --Hammer of Atonement
+LBIS:AddItem(spec, "32500", LBIS.L["Main Hand"], "BIS") --Crystal Spire of Karabor
+LBIS:AddItem(spec, "33743", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Salvation
+LBIS:AddItem(spec, "30108", LBIS.L["Main Hand"], "Alt") --Lightfathom Scepter
+LBIS:AddItem(spec, "30918", LBIS.L["Main Hand"], "Alt") --Hammer of Atonement
 
 LBIS:AddItem(spec, "30908", LBIS.L["2H"], "BIS") --Apostle of Argus
 LBIS:AddItem(spec, "32344", LBIS.L["2H"], "Alt") --Staff of Immaculate Recovery
 LBIS:AddItem(spec, "29981", LBIS.L["2H"], "Alt") --Ethereum Life-Staff
 
-LBIS:AddItem(spec, "30911", LBIS.L["OH"], "BIS") --Scepter of Purification
-LBIS:AddItem(spec, "29274", LBIS.L["OH"], "Alt") --Tears of Heaven
-LBIS:AddItem(spec, "32350", LBIS.L["OH"], "Alt") --Touch of Inspiration
-LBIS:AddItem(spec, "29170", LBIS.L["OH"], "Alt") --Windcaller's Orb
+LBIS:AddItem(spec, "30911", LBIS.L["Off Hand"], "BIS") --Scepter of Purification
+LBIS:AddItem(spec, "29274", LBIS.L["Off Hand"], "Alt") --Tears of Heaven
+LBIS:AddItem(spec, "32350", LBIS.L["Off Hand"], "Alt") --Touch of Inspiration
+LBIS:AddItem(spec, "29170", LBIS.L["Off Hand"], "Alt") --Windcaller's Orb
 
 LBIS:AddItem(spec, "27886", LBIS.L["Idol"], "BIS") --Idol of the Emerald Queen

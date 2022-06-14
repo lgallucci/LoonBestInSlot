@@ -36,14 +36,14 @@ LBIS:AddItem(spec, "32496", LBIS.L["Trinket"], "BIS") --Memento of Tyrande
 LBIS:AddItem(spec, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
 LBIS:AddItem(spec, "38288", LBIS.L["Trinket"], "BIS") --Direbrew Hops
 
-LBIS:AddItem(spec, "32500", LBIS.L["MH"], "BIS") --Crystal Spire of Karabor
-LBIS:AddItem(spec, "30918", LBIS.L["MH"], "BIS") --Hammer of Atonement
-LBIS:AddItem(spec, "33468", LBIS.L["MH"], "Alt") --Dark Blessing
+LBIS:AddItem(spec, "32500", LBIS.L["Main Hand"], "BIS") --Crystal Spire of Karabor
+LBIS:AddItem(spec, "30918", LBIS.L["Main Hand"], "BIS") --Hammer of Atonement
+LBIS:AddItem(spec, "33468", LBIS.L["Main Hand"], "Alt") --Dark Blessing
 
-LBIS:AddItem(spec, "32255", LBIS.L["OH"], "BIS") --Felstone Bulwark
-LBIS:AddItem(spec, "30882", LBIS.L["OH"], "BIS") --Bastion of Light
-LBIS:AddItem(spec, "30911", LBIS.L["OH"], "BIS") --Scepter of Purification
-LBIS:AddItem(spec, "33332", LBIS.L["OH"], "Alt") --Enamelled Disc of Mojo
+LBIS:AddItem(spec, "32255", LBIS.L["Off Hand"], "BIS") --Felstone Bulwark
+LBIS:AddItem(spec, "30882", LBIS.L["Off Hand"], "BIS") --Bastion of Light
+LBIS:AddItem(spec, "30911", LBIS.L["Off Hand"], "BIS") --Scepter of Purification
+LBIS:AddItem(spec, "33332", LBIS.L["Off Hand"], "Alt") --Enamelled Disc of Mojo
 
 LBIS:AddItem(spec, "28592", LBIS.L["Libram"], "BIS") --Libram of Souls Redeemed
 LBIS:AddItem(spec, "23006", LBIS.L["Libram"], "BIS") --Libram of Light

@@ -53,13 +53,13 @@ LBIS:AddItem(spec, "33829", LBIS.L["Trinket"], "BIS") --Hex Shrunken Head
 LBIS:AddItem(spec, "29370", LBIS.L["Trinket"], "Alt") --Icon of the Silver Crescent
 LBIS:AddItem(spec, "38290", LBIS.L["Trinket"], "Alt") --Dark Iron Smoking Pipe
 
-LBIS:AddItem(spec, "32374", LBIS.L["MH"], "BIS") --Zhar'doom, Greatstaff of the Devourer
-LBIS:AddItem(spec, "33354", LBIS.L["MH"], "Alt") --Wub's Cursed Hexblade
-LBIS:AddItem(spec, "33494", LBIS.L["MH"], "Alt") --Amani Divining Staff
+LBIS:AddItem(spec, "32374", LBIS.L["Main Hand"], "BIS") --Zhar'doom, Greatstaff of the Devourer
+LBIS:AddItem(spec, "33354", LBIS.L["Main Hand"], "Alt") --Wub's Cursed Hexblade
+LBIS:AddItem(spec, "33494", LBIS.L["Main Hand"], "Alt") --Amani Divining Staff
 
-LBIS:AddItem(spec, "30909", LBIS.L["OH"], "BIS") --Antonidas's Aegis of Rapt Concentration
-LBIS:AddItem(spec, "33334", LBIS.L["OH"], "BIS") --Fetish of the Primal Gods
-LBIS:AddItem(spec, "30872", LBIS.L["OH"], "Alt") --Chronicle of Dark Secrets
+LBIS:AddItem(spec, "30909", LBIS.L["Off Hand"], "BIS") --Antonidas's Aegis of Rapt Concentration
+LBIS:AddItem(spec, "33334", LBIS.L["Off Hand"], "BIS") --Fetish of the Primal Gods
+LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "Alt") --Chronicle of Dark Secrets
 
 LBIS:AddItem(spec, "32330", LBIS.L["Totem"], "BIS") --Totem of Ancestral Guidance
 LBIS:AddItem(spec, "33506", LBIS.L["Totem"], "BIS") --Skycall Totem

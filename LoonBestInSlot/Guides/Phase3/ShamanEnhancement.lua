@@ -71,20 +71,20 @@ LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec, "38287", LBIS.L["Trinket"], "BIS") --Empty Mug of Direbrew
 LBIS:AddItem(spec, "31856", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Crusade
 
-LBIS:AddItem(spec, "33669", LBIS.L["MH"], "BIS (All)") --Vengeful Gladiator's Cleaver
-LBIS:AddItem(spec, "32262", LBIS.L["MH"], "BIS (All)") --Syphon of the Nathrezim
-LBIS:AddItem(spec, "32946", LBIS.L["MH"], "Alt (MH)") --Claw of Molten Fury
-LBIS:AddItem(spec, "32944", LBIS.L["MH"], "Alt (MH)") --Talon of the Phoenix
-LBIS:AddItem(spec, "29996", LBIS.L["MH"], "Alt (OH)") --Rod of the Sun King
-LBIS:AddItem(spec, "28433", LBIS.L["MH"], "Alt (MH)") --Wicked Edge of the Planes
-LBIS:AddItem(spec, "32236", LBIS.L["MH"], "Alt (All)") --Rising Tide
-LBIS:AddItem(spec, "31965", LBIS.L["MH"], "Alt (All)") --Merciless Gladiator's Cleaver
-LBIS:AddItem(spec, "28439", LBIS.L["MH"], "Alt (MH)") --Dragonstrike
-LBIS:AddItem(spec, "29924", LBIS.L["MH"], "Alt (All)") --Netherbane
-LBIS:AddItem(spec, "28308", LBIS.L["MH"], "Alt (All)") --Gladiator's Cleaver
-LBIS:AddItem(spec, "28767", LBIS.L["MH"], "Alt (MH)") --The Decapitator
-LBIS:AddItem(spec, "27872", LBIS.L["MH"], "Alt (All)") --The Harvester of Souls
-LBIS:AddItem(spec, "28944", LBIS.L["MH"], "Alt (All)") --Grand Marshal's Cleaver
-LBIS:AddItem(spec, "28920", LBIS.L["MH"], "Alt (All)") --High Warlord's Cleaver
+LBIS:AddItem(spec, "33669", LBIS.L["Main Hand"], "BIS (All)") --Vengeful Gladiator's Cleaver
+LBIS:AddItem(spec, "32262", LBIS.L["Main Hand"], "BIS (All)") --Syphon of the Nathrezim
+LBIS:AddItem(spec, "32946", LBIS.L["Main Hand"], "Alt (MH)") --Claw of Molten Fury
+LBIS:AddItem(spec, "32944", LBIS.L["Main Hand"], "Alt (MH)") --Talon of the Phoenix
+LBIS:AddItem(spec, "29996", LBIS.L["Main Hand"], "Alt (OH)") --Rod of the Sun King
+LBIS:AddItem(spec, "28433", LBIS.L["Main Hand"], "Alt (MH)") --Wicked Edge of the Planes
+LBIS:AddItem(spec, "32236", LBIS.L["Main Hand"], "Alt (All)") --Rising Tide
+LBIS:AddItem(spec, "31965", LBIS.L["Main Hand"], "Alt (All)") --Merciless Gladiator's Cleaver
+LBIS:AddItem(spec, "28439", LBIS.L["Main Hand"], "Alt (MH)") --Dragonstrike
+LBIS:AddItem(spec, "29924", LBIS.L["Main Hand"], "Alt (All)") --Netherbane
+LBIS:AddItem(spec, "28308", LBIS.L["Main Hand"], "Alt (All)") --Gladiator's Cleaver
+LBIS:AddItem(spec, "28767", LBIS.L["Main Hand"], "Alt (MH)") --The Decapitator
+LBIS:AddItem(spec, "27872", LBIS.L["Main Hand"], "Alt (All)") --The Harvester of Souls
+LBIS:AddItem(spec, "28944", LBIS.L["Main Hand"], "Alt (All)") --Grand Marshal's Cleaver
+LBIS:AddItem(spec, "28920", LBIS.L["Main Hand"], "Alt (All)") --High Warlord's Cleaver
 
 LBIS:AddItem(spec, "27815", LBIS.L["Totem"], "BIS") --Totem of the Astral Winds

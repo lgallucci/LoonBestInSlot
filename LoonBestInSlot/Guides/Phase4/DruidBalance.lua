@@ -51,16 +51,16 @@ LBIS:AddItem(spec, "32483", LBIS.L["Trinket"], "BIS") --The Skull of Gul'dan
 LBIS:AddItem(spec, "33829", LBIS.L["Trinket"], "BIS") --Hex Shrunken Head
 LBIS:AddItem(spec, "32486", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Equilibrium
 
-LBIS:AddItem(spec, "32237", LBIS.L["MH"], "BIS") --The Maelstrom's Fury
-LBIS:AddItem(spec, "34009", LBIS.L["MH"], "BIS") --Hammer of Judgement
-LBIS:AddItem(spec, "33354", LBIS.L["MH"], "BIS") --Wub's Cursed Hexblade
-LBIS:AddItem(spec, "33283", LBIS.L["MH"], "Alt") --Amani Punisher
+LBIS:AddItem(spec, "32237", LBIS.L["Main Hand"], "BIS") --The Maelstrom's Fury
+LBIS:AddItem(spec, "34009", LBIS.L["Main Hand"], "BIS") --Hammer of Judgement
+LBIS:AddItem(spec, "33354", LBIS.L["Main Hand"], "BIS") --Wub's Cursed Hexblade
+LBIS:AddItem(spec, "33283", LBIS.L["Main Hand"], "Alt") --Amani Punisher
 
 LBIS:AddItem(spec, "32374", LBIS.L["2H"], "BIS") --Zhar'doom, Greatstaff of the Devourer
 LBIS:AddItem(spec, "33494", LBIS.L["2H"], "Alt") --Amani Divining Staff
 
-LBIS:AddItem(spec, "30872", LBIS.L["OH"], "BIS") --Chronicle of Dark Secrets
-LBIS:AddItem(spec, "33334", LBIS.L["OH"], "Alt") --Fetish of the Primal Gods
+LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "BIS") --Chronicle of Dark Secrets
+LBIS:AddItem(spec, "33334", LBIS.L["Off Hand"], "Alt") --Fetish of the Primal Gods
 
 LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "BIS") --Idol of the Raven Goddess
 LBIS:AddItem(spec, "27518", LBIS.L["Idol"], "BIS") --Ivory Idol of the Moongoddess

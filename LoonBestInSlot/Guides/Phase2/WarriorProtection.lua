@@ -64,12 +64,12 @@ LBIS:AddItem(spec, "23835", LBIS.L["Trinket"], "BIS Stam") --Gnomish Poultryizer
 LBIS:AddItem(spec, "30620", LBIS.L["Trinket"], "Alt Stam") --Spyglass of the Hidden Fleet
 LBIS:AddItem(spec, "28121", LBIS.L["Trinket"], "Alt Thrt") --Icon of Unyielding Courage
 
-LBIS:AddItem(spec, "30058", LBIS.L["MH"], "BIS") --Mallet of the Tides
-LBIS:AddItem(spec, "30103", LBIS.L["MH"], "Alt") --Fang of Vashj
-LBIS:AddItem(spec, "28427", LBIS.L["MH"], "Alt") --Blazefury
-LBIS:AddItem(spec, "29165", LBIS.L["MH"], "Alt") --Warbringer
-LBIS:AddItem(spec, "28749", LBIS.L["MH"], "Alt") --King's Defender
-LBIS:AddItem(spec, "29362", LBIS.L["MH"], "BIS Mit") --The Sun Eater
+LBIS:AddItem(spec, "30058", LBIS.L["Main Hand"], "BIS") --Mallet of the Tides
+LBIS:AddItem(spec, "30103", LBIS.L["Main Hand"], "Alt") --Fang of Vashj
+LBIS:AddItem(spec, "28427", LBIS.L["Main Hand"], "Alt") --Blazefury
+LBIS:AddItem(spec, "29165", LBIS.L["Main Hand"], "Alt") --Warbringer
+LBIS:AddItem(spec, "28749", LBIS.L["Main Hand"], "Alt") --King's Defender
+LBIS:AddItem(spec, "29362", LBIS.L["Main Hand"], "BIS Mit") --The Sun Eater
 
 LBIS:AddItem(spec, "28825", LBIS.L["Shield"], "BIS") --Aldori Legacy Defender
 LBIS:AddItem(spec, "32045", LBIS.L["Shield"], "Alt") --Merciless Gladiator's Shield Wall

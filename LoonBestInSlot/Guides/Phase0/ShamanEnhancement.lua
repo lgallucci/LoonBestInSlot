@@ -75,11 +75,11 @@ LBIS:AddItem(spec, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unravel
 LBIS:AddItem(spec, "25633", LBIS.L["Trinket"], "Alt") --Uniting Charm
 LBIS:AddItem(spec, "25628", LBIS.L["Trinket"], "Alt") --Ogre Mauler's Badge
 
-LBIS:AddItem(spec, "28308", LBIS.L["MH"], "BIS") --Gladiator's Cleaver
-LBIS:AddItem(spec, "28438", LBIS.L["MH"], "BIS (MH)") --Dragonmaw
-LBIS:AddItem(spec, "29348", LBIS.L["MH"], "Alt") --The Bladefist
-LBIS:AddItem(spec, "28392", LBIS.L["MH"], "Alt (MH)") --Reflex Blades
-LBIS:AddItem(spec, "27872", LBIS.L["MH"], "Alt") --The Harvester of Souls
-LBIS:AddItem(spec, "31139", LBIS.L["MH"], "Alt (OH)") --Fist of Reckoning
+LBIS:AddItem(spec, "28308", LBIS.L["Main Hand"], "BIS") --Gladiator's Cleaver
+LBIS:AddItem(spec, "28438", LBIS.L["Main Hand"], "BIS (MH)") --Dragonmaw
+LBIS:AddItem(spec, "29348", LBIS.L["Main Hand"], "Alt") --The Bladefist
+LBIS:AddItem(spec, "28392", LBIS.L["Main Hand"], "Alt (MH)") --Reflex Blades
+LBIS:AddItem(spec, "27872", LBIS.L["Main Hand"], "Alt") --The Harvester of Souls
+LBIS:AddItem(spec, "31139", LBIS.L["Main Hand"], "Alt (OH)") --Fist of Reckoning
 
 LBIS:AddItem(spec, "27815", LBIS.L["Totem"], "BIS") --Totem of the Astral Winds

@@ -57,17 +57,17 @@ LBIS:AddItem(spec, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
 LBIS:AddItem(spec, "28823", LBIS.L["Trinket"], "BIS") --Eye of Gruul
 LBIS:AddItem(spec, "19288", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Blue Dragon
 
-LBIS:AddItem(spec, "28771", LBIS.L["MH"], "BIS") --Light's Justice
-LBIS:AddItem(spec, "30732", LBIS.L["MH"], "BIS") --Exodar Life-Staff
-LBIS:AddItem(spec, "32451", LBIS.L["MH"], "BIS") --Gladiator's Salvation
-LBIS:AddItem(spec, "28522", LBIS.L["MH"], "Alt") --Shard of the Virtuous
-LBIS:AddItem(spec, "28782", LBIS.L["MH"], "Alt") --Crystalheart Pulse-Staff
-LBIS:AddItem(spec, "28604", LBIS.L["MH"], "Alt") --Nightstaff of the Everliving
+LBIS:AddItem(spec, "28771", LBIS.L["Main Hand"], "BIS") --Light's Justice
+LBIS:AddItem(spec, "30732", LBIS.L["Main Hand"], "BIS") --Exodar Life-Staff
+LBIS:AddItem(spec, "32451", LBIS.L["Main Hand"], "BIS") --Gladiator's Salvation
+LBIS:AddItem(spec, "28522", LBIS.L["Main Hand"], "Alt") --Shard of the Virtuous
+LBIS:AddItem(spec, "28782", LBIS.L["Main Hand"], "Alt") --Crystalheart Pulse-Staff
+LBIS:AddItem(spec, "28604", LBIS.L["Main Hand"], "Alt") --Nightstaff of the Everliving
 
-LBIS:AddItem(spec, "29170", LBIS.L["OH"], "BIS") --Windcaller's Orb
-LBIS:AddItem(spec, "29274", LBIS.L["OH"], "BIS") --Tears of Heaven
-LBIS:AddItem(spec, "28728", LBIS.L["OH"], "Alt") --Aran's Soothing Sapphire
-LBIS:AddItem(spec, "28525", LBIS.L["OH"], "Alt") --Signet of Unshakable Faith
+LBIS:AddItem(spec, "29170", LBIS.L["Off Hand"], "BIS") --Windcaller's Orb
+LBIS:AddItem(spec, "29274", LBIS.L["Off Hand"], "BIS") --Tears of Heaven
+LBIS:AddItem(spec, "28728", LBIS.L["Off Hand"], "Alt") --Aran's Soothing Sapphire
+LBIS:AddItem(spec, "28525", LBIS.L["Off Hand"], "Alt") --Signet of Unshakable Faith
 
 LBIS:AddItem(spec, "28588", LBIS.L["Wand"], "BIS") --Blue Diamond Witchwand
 LBIS:AddItem(spec, "27885", LBIS.L["Wand"], "Alt") --Soul-Wand of the Aldor

@@ -69,11 +69,11 @@ LBIS:AddItem(spec, "31113", LBIS.L["Trinket"], "Alt Mit") --Violet Badge
 LBIS:AddItem(spec, "28121", LBIS.L["Trinket"], "BIS Thrt") --Icon of Unyielding Courage
 LBIS:AddItem(spec, "28579", LBIS.L["Trinket"], "Alt Thrt") --Romulo's Poison Vial
 
-LBIS:AddItem(spec, "28749", LBIS.L["MH"], "BIS") --King's Defender
-LBIS:AddItem(spec, "28426", LBIS.L["MH"], "BIS") --Blazeguard
-LBIS:AddItem(spec, "29165", LBIS.L["MH"], "BIS") --Warbringer
-LBIS:AddItem(spec, "29362", LBIS.L["MH"], "BIS Mit") --The Sun Eater
-LBIS:AddItem(spec, "28189", LBIS.L["MH"], "BIS") --Latro's Shifting Sword
+LBIS:AddItem(spec, "28749", LBIS.L["Main Hand"], "BIS") --King's Defender
+LBIS:AddItem(spec, "28426", LBIS.L["Main Hand"], "BIS") --Blazeguard
+LBIS:AddItem(spec, "29165", LBIS.L["Main Hand"], "BIS") --Warbringer
+LBIS:AddItem(spec, "29362", LBIS.L["Main Hand"], "BIS Mit") --The Sun Eater
+LBIS:AddItem(spec, "28189", LBIS.L["Main Hand"], "BIS") --Latro's Shifting Sword
 
 LBIS:AddItem(spec, "28825", LBIS.L["Shield"], "BIS") --Aldori Legacy Defender
 LBIS:AddItem(spec, "28358", LBIS.L["Shield"], "Alt") --Gladiator's Shield Wall

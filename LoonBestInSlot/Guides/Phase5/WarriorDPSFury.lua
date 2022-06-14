@@ -67,15 +67,15 @@ LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "Alt") --Berserker's Call
 LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "Alt") --Madness of the Betrayer
 LBIS:AddItem(spec, "30627", LBIS.L["Trinket"], "Alt") --Tsunami Talisman
 
-LBIS:AddItem(spec, "32837", LBIS.L["MH"], "BIS") --Warglaive of Azzinoth
-LBIS:AddItem(spec, "35101", LBIS.L["MH"], "Alt") --Brutal Gladiator's Slicer
-LBIS:AddItem(spec, "34996", LBIS.L["MH"], "Alt") --Brutal Gladiator's Cleaver
-LBIS:AddItem(spec, "34214", LBIS.L["MH"], "Alt") --Muramasa
-LBIS:AddItem(spec, "34331", LBIS.L["MH"], "Alt") --Hand of the Deceiver
+LBIS:AddItem(spec, "32837", LBIS.L["Main Hand"], "BIS") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "35101", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Slicer
+LBIS:AddItem(spec, "34996", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Cleaver
+LBIS:AddItem(spec, "34214", LBIS.L["Main Hand"], "Alt") --Muramasa
+LBIS:AddItem(spec, "34331", LBIS.L["Main Hand"], "Alt") --Hand of the Deceiver
 
-LBIS:AddItem(spec, "32838", LBIS.L["OH"], "BIS") --Warglaive of Azzinoth
-LBIS:AddItem(spec, "34346", LBIS.L["OH"], "Alt") --Mounting Vengeance
-LBIS:AddItem(spec, "34164", LBIS.L["OH"], "Alt") --Dragonscale-Encrusted Longblade
+LBIS:AddItem(spec, "32838", LBIS.L["Off Hand"], "BIS") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "34346", LBIS.L["Off Hand"], "Alt") --Mounting Vengeance
+LBIS:AddItem(spec, "34164", LBIS.L["Off Hand"], "Alt") --Dragonscale-Encrusted Longblade
 
 LBIS:AddItem(spec, "34196", LBIS.L["Ranged"], "BIS") --Golden Bow of Quel'Thalas
 LBIS:AddItem(spec, "34892", LBIS.L["Ranged"], "BIS") --Crossbow of Relentless Strikes

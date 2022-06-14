@@ -72,15 +72,15 @@ LBIS:AddItem(spec, "28190", LBIS.L["Trinket"], "Alt") --Scarab of the Infinite C
 LBIS:AddItem(spec, "28590", LBIS.L["Trinket"], "Alt") --Ribbon of Sacrifice
 LBIS:AddItem(spec, "30841", LBIS.L["Trinket"], "Alt") --Lower City Prayerbook
 
-LBIS:AddItem(spec, "32500", LBIS.L["MH"], "BIS") --Crystal Spire of Karabor
-LBIS:AddItem(spec, "33743", LBIS.L["MH"], "Alt") --Vengeful Gladiator's Salvation
-LBIS:AddItem(spec, "30918", LBIS.L["MH"], "Alt") --Hammer of Atonement
-LBIS:AddItem(spec, "30108", LBIS.L["MH"], "Alt") --Lightfathom Scepter
+LBIS:AddItem(spec, "32500", LBIS.L["Main Hand"], "BIS") --Crystal Spire of Karabor
+LBIS:AddItem(spec, "33743", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Salvation
+LBIS:AddItem(spec, "30918", LBIS.L["Main Hand"], "Alt") --Hammer of Atonement
+LBIS:AddItem(spec, "30108", LBIS.L["Main Hand"], "Alt") --Lightfathom Scepter
 
-LBIS:AddItem(spec, "30882", LBIS.L["OH"], "BIS") --Bastion of Light
-LBIS:AddItem(spec, "32255", LBIS.L["OH"], "BIS") --Felstone Bulwark
-LBIS:AddItem(spec, "29458", LBIS.L["OH"], "Alt") --Aegis of the Vindicator
-LBIS:AddItem(spec, "33735", LBIS.L["OH"], "Alt") --Vengeful Gladiator's Redoubt
-LBIS:AddItem(spec, "33309", LBIS.L["OH"], "Alt") --Merciless Gladiator's Redoubt
+LBIS:AddItem(spec, "30882", LBIS.L["Off Hand"], "BIS") --Bastion of Light
+LBIS:AddItem(spec, "32255", LBIS.L["Off Hand"], "BIS") --Felstone Bulwark
+LBIS:AddItem(spec, "29458", LBIS.L["Off Hand"], "Alt") --Aegis of the Vindicator
+LBIS:AddItem(spec, "33735", LBIS.L["Off Hand"], "Alt") --Vengeful Gladiator's Redoubt
+LBIS:AddItem(spec, "33309", LBIS.L["Off Hand"], "Alt") --Merciless Gladiator's Redoubt
 
 LBIS:AddItem(spec, "28523", LBIS.L["Totem"], "BIS") --Totem of Healing Rains

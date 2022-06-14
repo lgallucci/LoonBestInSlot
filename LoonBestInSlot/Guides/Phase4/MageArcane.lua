@@ -53,15 +53,15 @@ LBIS:AddItem(spec, "33829", LBIS.L["Trinket"], "BIS") --Hex Shrunken Head
 LBIS:AddItem(spec, "32488", LBIS.L["Trinket"], "BIS") --Ashtongue Talisman of Insight
 LBIS:AddItem(spec, "30720", LBIS.L["Trinket"], "Alt") --Serpent-Coil Braid
 
-LBIS:AddItem(spec, "32374", LBIS.L["MH"], "BIS") --Zhar'doom, Greatstaff of the Devourer
-LBIS:AddItem(spec, "30910", LBIS.L["MH"], "BIS") --Tempest of Chaos
-LBIS:AddItem(spec, "33467", LBIS.L["MH"], "Alt") --Blade of Twisted Visions
-LBIS:AddItem(spec, "33354", LBIS.L["MH"], "Alt") --Wub's Cursed Hexblade
-LBIS:AddItem(spec, "33763", LBIS.L["MH"], "Alt") --Vengeful Gladiator's Spellblade
-LBIS:AddItem(spec, "32053", LBIS.L["MH"], "Alt") --Merciless Gladiator's Spellblade
+LBIS:AddItem(spec, "32374", LBIS.L["Main Hand"], "BIS") --Zhar'doom, Greatstaff of the Devourer
+LBIS:AddItem(spec, "30910", LBIS.L["Main Hand"], "BIS") --Tempest of Chaos
+LBIS:AddItem(spec, "33467", LBIS.L["Main Hand"], "Alt") --Blade of Twisted Visions
+LBIS:AddItem(spec, "33354", LBIS.L["Main Hand"], "Alt") --Wub's Cursed Hexblade
+LBIS:AddItem(spec, "33763", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Spellblade
+LBIS:AddItem(spec, "32053", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Spellblade
 
-LBIS:AddItem(spec, "30872", LBIS.L["OH"], "BIS") --Chronicle of Dark Secrets
-LBIS:AddItem(spec, "33334", LBIS.L["OH"], "BIS") --Fetish of the Primal Gods
+LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "BIS") --Chronicle of Dark Secrets
+LBIS:AddItem(spec, "33334", LBIS.L["Off Hand"], "BIS") --Fetish of the Primal Gods
 
 LBIS:AddItem(spec, "33192", LBIS.L["Wand"], "BIS") --Carved Witch Doctor's Stick
 LBIS:AddItem(spec, "28783", LBIS.L["Wand"], "Alt") --Eredar Wand of Obliteration

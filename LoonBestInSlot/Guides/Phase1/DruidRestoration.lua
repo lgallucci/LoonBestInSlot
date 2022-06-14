@@ -72,10 +72,10 @@ LBIS:AddItem(spec, "28590", LBIS.L["Trinket"], "Alt") --Ribbon of Sacrifice
 LBIS:AddItem(spec, "28727", LBIS.L["Trinket"], "Alt") --Pendant of the Violet Eye
 LBIS:AddItem(spec, "28823", LBIS.L["Trinket"], "Alt") --Eye of Gruul
 
-LBIS:AddItem(spec, "28771", LBIS.L["MH"], "BIS") --Light's Justice
-LBIS:AddItem(spec, "28522", LBIS.L["MH"], "Alt") --Shard of the Virtuous
-LBIS:AddItem(spec, "23556", LBIS.L["MH"], "Alt") --Hand of Eternity
-LBIS:AddItem(spec, "29353", LBIS.L["MH"], "Alt") --Shockwave Truncheon
+LBIS:AddItem(spec, "28771", LBIS.L["Main Hand"], "BIS") --Light's Justice
+LBIS:AddItem(spec, "28522", LBIS.L["Main Hand"], "Alt") --Shard of the Virtuous
+LBIS:AddItem(spec, "23556", LBIS.L["Main Hand"], "Alt") --Hand of Eternity
+LBIS:AddItem(spec, "29353", LBIS.L["Main Hand"], "Alt") --Shockwave Truncheon
 
 LBIS:AddItem(spec, "30732", LBIS.L["2H"], "BIS") --Exodar Life-Staff
 LBIS:AddItem(spec, "28782", LBIS.L["2H"], "BIS") --Crystalheart Pulse-Staff
@@ -83,9 +83,9 @@ LBIS:AddItem(spec, "28604", LBIS.L["2H"], "Alt") --Nightstaff of the Everliving
 LBIS:AddItem(spec, "22632", LBIS.L["2H"], "Alt") --Atiesh, Greatstaff of the Guardian
 LBIS:AddItem(spec, "27791", LBIS.L["2H"], "Alt") --Serpentcrest Life-Staff
 
-LBIS:AddItem(spec, "29274", LBIS.L["OH"], "BIS") --Tears of Heaven
-LBIS:AddItem(spec, "29170", LBIS.L["OH"], "BIS") --Windcaller's Orb
-LBIS:AddItem(spec, "28728", LBIS.L["OH"], "Alt") --Aran's Soothing Sapphire
-LBIS:AddItem(spec, "28525", LBIS.L["OH"], "Alt") --Signet of Unshakable Faith
+LBIS:AddItem(spec, "29274", LBIS.L["Off Hand"], "BIS") --Tears of Heaven
+LBIS:AddItem(spec, "29170", LBIS.L["Off Hand"], "BIS") --Windcaller's Orb
+LBIS:AddItem(spec, "28728", LBIS.L["Off Hand"], "Alt") --Aran's Soothing Sapphire
+LBIS:AddItem(spec, "28525", LBIS.L["Off Hand"], "Alt") --Signet of Unshakable Faith
 
 LBIS:AddItem(spec, "27886", LBIS.L["Idol"], "BIS") --Idol of the Emerald Queen

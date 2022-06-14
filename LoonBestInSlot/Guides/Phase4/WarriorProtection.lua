@@ -56,12 +56,12 @@ LBIS:AddItem(spec, "21670", LBIS.L["Trinket"], "Alt Thrt") --Badge of the Swarmg
 LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS Thrt") --Dragonspine Trophy
 LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "Alt Thrt") --Madness of the Betrayer
 
-LBIS:AddItem(spec, "32254", LBIS.L["MH"], "BIS") --The Brutalizer
-LBIS:AddItem(spec, "32369", LBIS.L["MH"], "BIS") --Blade of Savagery
-LBIS:AddItem(spec, "33214", LBIS.L["MH"], "Alt Thrt") --Akil'zon's Talonblade
-LBIS:AddItem(spec, "33476", LBIS.L["MH"], "Alt") --Cleaver of the Unforgiving
-LBIS:AddItem(spec, "30058", LBIS.L["MH"], "Alt") --Mallet of the Tides
-LBIS:AddItem(spec, "30874", LBIS.L["MH"], "BIS Mit") --The Unbreakable Will
+LBIS:AddItem(spec, "32254", LBIS.L["Main Hand"], "BIS") --The Brutalizer
+LBIS:AddItem(spec, "32369", LBIS.L["Main Hand"], "BIS") --Blade of Savagery
+LBIS:AddItem(spec, "33214", LBIS.L["Main Hand"], "Alt Thrt") --Akil'zon's Talonblade
+LBIS:AddItem(spec, "33476", LBIS.L["Main Hand"], "Alt") --Cleaver of the Unforgiving
+LBIS:AddItem(spec, "30058", LBIS.L["Main Hand"], "Alt") --Mallet of the Tides
+LBIS:AddItem(spec, "30874", LBIS.L["Main Hand"], "BIS Mit") --The Unbreakable Will
 
 LBIS:AddItem(spec, "32375", LBIS.L["Shield"], "BIS") --Bulwark of Azzinoth
 LBIS:AddItem(spec, "33326", LBIS.L["Shield"], "Alt") --Bulwark of the Amani Empire

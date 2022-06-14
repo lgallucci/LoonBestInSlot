@@ -67,14 +67,14 @@ LBIS:AddItem(spec, "28823", LBIS.L["Trinket"], "BIS") --Eye of Gruul
 LBIS:AddItem(spec, "19288", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Blue Dragon
 LBIS:AddItem(spec, "30665", LBIS.L["Trinket"], "Alt") --Earring of Soulful Meditation
 
-LBIS:AddItem(spec, "30108", LBIS.L["MH"], "BIS") --Lightfathom Scepter
-LBIS:AddItem(spec, "32964", LBIS.L["MH"], "BIS") --Merciless Gladiator's Salvation
-LBIS:AddItem(spec, "29981", LBIS.L["MH"], "Alt") --Ethereum Life-Staff
-LBIS:AddItem(spec, "28771", LBIS.L["MH"], "Alt") --Light's Justice
+LBIS:AddItem(spec, "30108", LBIS.L["Main Hand"], "BIS") --Lightfathom Scepter
+LBIS:AddItem(spec, "32964", LBIS.L["Main Hand"], "BIS") --Merciless Gladiator's Salvation
+LBIS:AddItem(spec, "29981", LBIS.L["Main Hand"], "Alt") --Ethereum Life-Staff
+LBIS:AddItem(spec, "28771", LBIS.L["Main Hand"], "Alt") --Light's Justice
 
-LBIS:AddItem(spec, "29923", LBIS.L["OH"], "BIS") --Talisman of the Sun King
-LBIS:AddItem(spec, "29170", LBIS.L["OH"], "Alt") --Windcaller's Orb
-LBIS:AddItem(spec, "29274", LBIS.L["OH"], "Alt") --Tears of Heaven
+LBIS:AddItem(spec, "29923", LBIS.L["Off Hand"], "BIS") --Talisman of the Sun King
+LBIS:AddItem(spec, "29170", LBIS.L["Off Hand"], "Alt") --Windcaller's Orb
+LBIS:AddItem(spec, "29274", LBIS.L["Off Hand"], "Alt") --Tears of Heaven
 
 LBIS:AddItem(spec, "30080", LBIS.L["Wand"], "BIS") --Luminescent Rod of the Naaru
 LBIS:AddItem(spec, "28588", LBIS.L["Wand"], "Alt") --Blue Diamond Witchwand

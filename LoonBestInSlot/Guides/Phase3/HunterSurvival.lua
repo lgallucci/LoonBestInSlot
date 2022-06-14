@@ -50,11 +50,11 @@ LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "BIS") --Madness of the Betrayer
 LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "Alt") --Bloodlust Brooch
 LBIS:AddItem(spec, "32487", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Swiftness
 
-LBIS:AddItem(spec, "30881", LBIS.L["MH"], "BIS") --Blade of Infamy
-LBIS:AddItem(spec, "29924", LBIS.L["MH"], "Alt") --Netherbane
-LBIS:AddItem(spec, "27846", LBIS.L["MH"], "Alt") --Claw of the Watcher
+LBIS:AddItem(spec, "30881", LBIS.L["Main Hand"], "BIS") --Blade of Infamy
+LBIS:AddItem(spec, "29924", LBIS.L["Main Hand"], "Alt") --Netherbane
+LBIS:AddItem(spec, "27846", LBIS.L["Main Hand"], "Alt") --Claw of the Watcher
 
-LBIS:AddItem(spec, "29948", LBIS.L["OH"], "Alt") --Claw of the Phoenix
+LBIS:AddItem(spec, "29948", LBIS.L["Off Hand"], "Alt") --Claw of the Phoenix
 
 LBIS:AddItem(spec, "32248", LBIS.L["2H"], "BIS") --Halberd of Desolation
 LBIS:AddItem(spec, "29993", LBIS.L["2H"], "Alt") --Twinblade of the Phoenix

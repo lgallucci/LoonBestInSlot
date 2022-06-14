@@ -63,14 +63,14 @@ LBIS:AddItem(spec, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unravel
 LBIS:AddItem(spec, "28288", LBIS.L["Trinket"], "Alt") --Abacus of Violent Odds
 LBIS:AddItem(spec, "23041", LBIS.L["Trinket"], "Alt") --Slayer's Crest
 
-LBIS:AddItem(spec, "28438", LBIS.L["MH"], "BIS") --Dragonmaw
-LBIS:AddItem(spec, "28437", LBIS.L["MH"], "Alt") --Drakefist Hammer
-LBIS:AddItem(spec, "28295", LBIS.L["MH"], "Alt") --Gladiator's Slicer
-LBIS:AddItem(spec, "27872", LBIS.L["MH"], "Alt") --The Harvester of Souls
-LBIS:AddItem(spec, "29124", LBIS.L["MH"], "Alt") --Vindicator's Brand
+LBIS:AddItem(spec, "28438", LBIS.L["Main Hand"], "BIS") --Dragonmaw
+LBIS:AddItem(spec, "28437", LBIS.L["Main Hand"], "Alt") --Drakefist Hammer
+LBIS:AddItem(spec, "28295", LBIS.L["Main Hand"], "Alt") --Gladiator's Slicer
+LBIS:AddItem(spec, "27872", LBIS.L["Main Hand"], "Alt") --The Harvester of Souls
+LBIS:AddItem(spec, "29124", LBIS.L["Main Hand"], "Alt") --Vindicator's Brand
 
-LBIS:AddItem(spec, "23542", LBIS.L["OH"], "Alt") --Fel Edged Battleaxe
-LBIS:AddItem(spec, "28189", LBIS.L["OH"], "Alt") --Latro's Shifting Sword
+LBIS:AddItem(spec, "23542", LBIS.L["Off Hand"], "Alt") --Fel Edged Battleaxe
+LBIS:AddItem(spec, "28189", LBIS.L["Off Hand"], "Alt") --Latro's Shifting Sword
 
 LBIS:AddItem(spec, "28429", LBIS.L["2H"], "BIS") --Lionheart Champion
 LBIS:AddItem(spec, "29356", LBIS.L["2H"], "Alt") --Quantum Blade

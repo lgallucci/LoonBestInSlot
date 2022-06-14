@@ -66,19 +66,19 @@ LBIS:AddItem(spec, "30450", LBIS.L["Trinket"], "BIS") --Warp-Spring Coil
 LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "Alt") --Madness of the Betrayer
 LBIS:AddItem(spec, "32492", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Lethality
 
-LBIS:AddItem(spec, "32837", LBIS.L["MH"], "BIS") --Warglaive of Azzinoth
-LBIS:AddItem(spec, "33762", LBIS.L["MH"], "Alt") --Vengeful Gladiator's Slicer
-LBIS:AddItem(spec, "30881", LBIS.L["MH"], "Alt") --Blade of Infamy
-LBIS:AddItem(spec, "30082", LBIS.L["MH"], "Alt") --Talon of Azshara
-LBIS:AddItem(spec, "32471", LBIS.L["MH"], "BIS Dagger") --Shard of Azzinoth
-LBIS:AddItem(spec, "33754", LBIS.L["MH"], "Alt Dagger") --Vengeful Gladiator's Shanker
+LBIS:AddItem(spec, "32837", LBIS.L["Main Hand"], "BIS") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "33762", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Slicer
+LBIS:AddItem(spec, "30881", LBIS.L["Main Hand"], "Alt") --Blade of Infamy
+LBIS:AddItem(spec, "30082", LBIS.L["Main Hand"], "Alt") --Talon of Azshara
+LBIS:AddItem(spec, "32471", LBIS.L["Main Hand"], "BIS Dagger") --Shard of Azzinoth
+LBIS:AddItem(spec, "33754", LBIS.L["Main Hand"], "Alt Dagger") --Vengeful Gladiator's Shanker
 
-LBIS:AddItem(spec, "32838", LBIS.L["OH"], "BIS") --Warglaive of Azzinoth
-LBIS:AddItem(spec, "32369", LBIS.L["OH"], "BIS") --Blade of Savagery
-LBIS:AddItem(spec, "33734", LBIS.L["OH"], "Alt") --Vengeful Gladiator's Quickblade
-LBIS:AddItem(spec, "32027", LBIS.L["OH"], "Alt") --Merciless Gladiator's Quickblade
-LBIS:AddItem(spec, "33756", LBIS.L["OH"], "BIS Dagger") --Vengeful Gladiator's Shiv
-LBIS:AddItem(spec, "30865", LBIS.L["OH"], "Alt Dagger") --Tracker's Blade
+LBIS:AddItem(spec, "32838", LBIS.L["Off Hand"], "BIS") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "32369", LBIS.L["Off Hand"], "BIS") --Blade of Savagery
+LBIS:AddItem(spec, "33734", LBIS.L["Off Hand"], "Alt") --Vengeful Gladiator's Quickblade
+LBIS:AddItem(spec, "32027", LBIS.L["Off Hand"], "Alt") --Merciless Gladiator's Quickblade
+LBIS:AddItem(spec, "33756", LBIS.L["Off Hand"], "BIS Dagger") --Vengeful Gladiator's Shiv
+LBIS:AddItem(spec, "30865", LBIS.L["Off Hand"], "Alt Dagger") --Tracker's Blade
 
 LBIS:AddItem(spec, "29949", LBIS.L["Ranged"], "BIS") --Arcanite Steam-Pistol
 LBIS:AddItem(spec, "32326", LBIS.L["Ranged"], "Alt") --Twisted Blades of Zarak

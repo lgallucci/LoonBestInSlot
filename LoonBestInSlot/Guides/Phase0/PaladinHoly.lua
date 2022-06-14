@@ -74,19 +74,19 @@ LBIS:AddItem(spec, "19395", LBIS.L["Trinket"], "Alt") --Rejuvenating Gem
 LBIS:AddItem(spec, "28190", LBIS.L["Trinket"], "Alt") --Scarab of the Infinite Cycle
 LBIS:AddItem(spec, "25634", LBIS.L["Trinket"], "Alt") --Oshu'gun Relic
 
-LBIS:AddItem(spec, "23556", LBIS.L["MH"], "BIS") --Hand of Eternity
-LBIS:AddItem(spec, "29353", LBIS.L["MH"], "BIS") --Shockwave Truncheon
-LBIS:AddItem(spec, "31342", LBIS.L["MH"], "Alt") --The Ancient Scepter of Sue-Min
-LBIS:AddItem(spec, "29175", LBIS.L["MH"], "Alt") --Gavel of Pure Light
-LBIS:AddItem(spec, "25759", LBIS.L["MH"], "Alt") --Mogor's Anointing Club
+LBIS:AddItem(spec, "23556", LBIS.L["Main Hand"], "BIS") --Hand of Eternity
+LBIS:AddItem(spec, "29353", LBIS.L["Main Hand"], "BIS") --Shockwave Truncheon
+LBIS:AddItem(spec, "31342", LBIS.L["Main Hand"], "Alt") --The Ancient Scepter of Sue-Min
+LBIS:AddItem(spec, "29175", LBIS.L["Main Hand"], "Alt") --Gavel of Pure Light
+LBIS:AddItem(spec, "25759", LBIS.L["Main Hand"], "Alt") --Mogor's Anointing Club
 
-LBIS:AddItem(spec, "29274", LBIS.L["OH"], "BIS") --Tears of Heaven
-LBIS:AddItem(spec, "22819", LBIS.L["OH"], "BIS") --Shield of Condemnation
-LBIS:AddItem(spec, "23048", LBIS.L["OH"], "Alt") --Sapphiron's Right Eye
-LBIS:AddItem(spec, "29170", LBIS.L["OH"], "Alt") --Windcaller's Orb
-LBIS:AddItem(spec, "27772", LBIS.L["OH"], "Alt") --Stormshield of Renewal
-LBIS:AddItem(spec, "27477", LBIS.L["OH"], "Alt") --Faol's Signet of Cleansing
-LBIS:AddItem(spec, "31493", LBIS.L["OH"], "Alt") --Netherwing Spiritualist's Charm
+LBIS:AddItem(spec, "29274", LBIS.L["Off Hand"], "BIS") --Tears of Heaven
+LBIS:AddItem(spec, "22819", LBIS.L["Off Hand"], "BIS") --Shield of Condemnation
+LBIS:AddItem(spec, "23048", LBIS.L["Off Hand"], "Alt") --Sapphiron's Right Eye
+LBIS:AddItem(spec, "29170", LBIS.L["Off Hand"], "Alt") --Windcaller's Orb
+LBIS:AddItem(spec, "27772", LBIS.L["Off Hand"], "Alt") --Stormshield of Renewal
+LBIS:AddItem(spec, "27477", LBIS.L["Off Hand"], "Alt") --Faol's Signet of Cleansing
+LBIS:AddItem(spec, "31493", LBIS.L["Off Hand"], "Alt") --Netherwing Spiritualist's Charm
 
 LBIS:AddItem(spec, "23006", LBIS.L["Libram"], "BIS") --Libram of Light
 LBIS:AddItem(spec, "28296", LBIS.L["Libram"], "Alt") --Libram of the Lightbringer

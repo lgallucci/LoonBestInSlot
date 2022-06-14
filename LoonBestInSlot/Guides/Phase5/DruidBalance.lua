@@ -79,22 +79,22 @@ LBIS:AddItem(spec, "33829", LBIS.L["Trinket"], "Alt") --Hex Shrunken Head
 LBIS:AddItem(spec, "35749", LBIS.L["Trinket"], "Alt") --Sorcerer's Alchemist Stone
 LBIS:AddItem(spec, "34470", LBIS.L["Trinket"], "Alt") --Timbal's Focusing Crystal
 
-LBIS:AddItem(spec, "34336", LBIS.L["MH"], "BIS") --Sunflare
-LBIS:AddItem(spec, "34176", LBIS.L["MH"], "Alt") --Reign of Misery
-LBIS:AddItem(spec, "35014", LBIS.L["MH"], "Alt") --Brutal Gladiator's Gavel
-LBIS:AddItem(spec, "35102", LBIS.L["MH"], "Alt") --Brutal Gladiator's Spellblade
-LBIS:AddItem(spec, "34895", LBIS.L["MH"], "Alt") --Scryer's Blade of Focus
-LBIS:AddItem(spec, "32237", LBIS.L["MH"], "Alt") --The Maelstrom's Fury
-LBIS:AddItem(spec, "34009", LBIS.L["MH"], "Alt") --Hammer of Judgement
-LBIS:AddItem(spec, "33354", LBIS.L["MH"], "Alt") --Wub's Cursed Hexblade
+LBIS:AddItem(spec, "34336", LBIS.L["Main Hand"], "BIS") --Sunflare
+LBIS:AddItem(spec, "34176", LBIS.L["Main Hand"], "Alt") --Reign of Misery
+LBIS:AddItem(spec, "35014", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Gavel
+LBIS:AddItem(spec, "35102", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Spellblade
+LBIS:AddItem(spec, "34895", LBIS.L["Main Hand"], "Alt") --Scryer's Blade of Focus
+LBIS:AddItem(spec, "32237", LBIS.L["Main Hand"], "Alt") --The Maelstrom's Fury
+LBIS:AddItem(spec, "34009", LBIS.L["Main Hand"], "Alt") --Hammer of Judgement
+LBIS:AddItem(spec, "33354", LBIS.L["Main Hand"], "Alt") --Wub's Cursed Hexblade
 
 LBIS:AddItem(spec, "34182", LBIS.L["2H"], "BIS") --Grand Magister's Staff of Torrents
 LBIS:AddItem(spec, "32374", LBIS.L["2H"], "Alt") --Zhar'doom, Greatstaff of the Devourer
 LBIS:AddItem(spec, "34987", LBIS.L["2H"], "Alt") --Brutal Gladiator's Battle Staff
 
-LBIS:AddItem(spec, "34179", LBIS.L["OH"], "BIS") --Heart of the Pit
-LBIS:AddItem(spec, "30872", LBIS.L["OH"], "Alt") --Chronicle of Dark Secrets
-LBIS:AddItem(spec, "35008", LBIS.L["OH"], "Alt") --Brutal Gladiator's Endgame
+LBIS:AddItem(spec, "34179", LBIS.L["Off Hand"], "BIS") --Heart of the Pit
+LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "Alt") --Chronicle of Dark Secrets
+LBIS:AddItem(spec, "35008", LBIS.L["Off Hand"], "Alt") --Brutal Gladiator's Endgame
 
 LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "BIS") --Idol of the Raven Goddess
 LBIS:AddItem(spec, "27518", LBIS.L["Idol"], "BIS") --Ivory Idol of the Moongoddess

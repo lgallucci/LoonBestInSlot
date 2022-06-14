@@ -73,15 +73,15 @@ LBIS:AddItem(spec, "28785", LBIS.L["Trinket"], "BIS") --The Lightning Capacitor
 LBIS:AddItem(spec, "33829", LBIS.L["Trinket"], "BIS") --Hex Shrunken Head
 LBIS:AddItem(spec, "35749", LBIS.L["Trinket"], "Alt") --Sorcerer's Alchemist Stone
 
-LBIS:AddItem(spec, "34336", LBIS.L["MH"], "BIS") --Sunflare
-LBIS:AddItem(spec, "34176", LBIS.L["MH"], "Alt") --Reign of Misery
-LBIS:AddItem(spec, "32374", LBIS.L["MH"], "Alt") --Zhar'doom, Greatstaff of the Devourer
-LBIS:AddItem(spec, "35014", LBIS.L["MH"], "Alt") --Brutal Gladiator's Gavel
-LBIS:AddItem(spec, "34895", LBIS.L["MH"], "Alt") --Scryer's Blade of Focus
+LBIS:AddItem(spec, "34336", LBIS.L["Main Hand"], "BIS") --Sunflare
+LBIS:AddItem(spec, "34176", LBIS.L["Main Hand"], "Alt") --Reign of Misery
+LBIS:AddItem(spec, "32374", LBIS.L["Main Hand"], "Alt") --Zhar'doom, Greatstaff of the Devourer
+LBIS:AddItem(spec, "35014", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Gavel
+LBIS:AddItem(spec, "34895", LBIS.L["Main Hand"], "Alt") --Scryer's Blade of Focus
 
-LBIS:AddItem(spec, "34179", LBIS.L["OH"], "BIS") --Heart of the Pit
-LBIS:AddItem(spec, "30909", LBIS.L["OH"], "Alt") --Antonidas's Aegis of Rapt Concentration
-LBIS:AddItem(spec, "33334", LBIS.L["OH"], "Alt") --Fetish of the Primal Gods
+LBIS:AddItem(spec, "34179", LBIS.L["Off Hand"], "BIS") --Heart of the Pit
+LBIS:AddItem(spec, "30909", LBIS.L["Off Hand"], "Alt") --Antonidas's Aegis of Rapt Concentration
+LBIS:AddItem(spec, "33334", LBIS.L["Off Hand"], "Alt") --Fetish of the Primal Gods
 
 LBIS:AddItem(spec, "32330", LBIS.L["Totem"], "BIS") --Totem of Ancestral Guidance
 LBIS:AddItem(spec, "33506", LBIS.L["Totem"], "BIS") --Skycall Totem

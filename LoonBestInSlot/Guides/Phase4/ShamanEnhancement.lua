@@ -48,10 +48,10 @@ LBIS:AddItem(spec, "32491", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Vi
 LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "Alt") --Bloodlust Brooch
 LBIS:AddItem(spec, "38287", LBIS.L["Trinket"], "Alt") --Empty Mug of Direbrew
 
-LBIS:AddItem(spec, "33669", LBIS.L["MH"], "BIS (All)") --Vengeful Gladiator's Cleaver
-LBIS:AddItem(spec, "32262", LBIS.L["MH"], "BIS (All)") --Syphon of the Nathrezim
-LBIS:AddItem(spec, "33495", LBIS.L["MH"], "Alt (MH)") --Rage
-LBIS:AddItem(spec, "33640", LBIS.L["MH"], "Alt (OH)") --Fury
+LBIS:AddItem(spec, "33669", LBIS.L["Main Hand"], "BIS (All)") --Vengeful Gladiator's Cleaver
+LBIS:AddItem(spec, "32262", LBIS.L["Main Hand"], "BIS (All)") --Syphon of the Nathrezim
+LBIS:AddItem(spec, "33495", LBIS.L["Main Hand"], "Alt (MH)") --Rage
+LBIS:AddItem(spec, "33640", LBIS.L["Main Hand"], "Alt (OH)") --Fury
 
 LBIS:AddItem(spec, "33507", LBIS.L["Totem"], "BIS") --Stonebreaker's Totem
 LBIS:AddItem(spec, "27815", LBIS.L["Totem"], "Alt") --Totem of the Astral Winds

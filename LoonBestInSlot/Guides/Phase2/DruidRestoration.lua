@@ -68,15 +68,15 @@ LBIS:AddItem(spec, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
 LBIS:AddItem(spec, "38288", LBIS.L["Trinket"], "BIS") --Direbrew Hops
 LBIS:AddItem(spec, "25634", LBIS.L["Trinket"], "Alt") --Oshu'gun Relic
 
-LBIS:AddItem(spec, "30108", LBIS.L["MH"], "BIS") --Lightfathom Scepter
-LBIS:AddItem(spec, "28771", LBIS.L["MH"], "Alt") --Light's Justice
+LBIS:AddItem(spec, "30108", LBIS.L["Main Hand"], "BIS") --Lightfathom Scepter
+LBIS:AddItem(spec, "28771", LBIS.L["Main Hand"], "Alt") --Light's Justice
 
 LBIS:AddItem(spec, "29981", LBIS.L["2H"], "BIS") --Ethereum Life-Staff
 LBIS:AddItem(spec, "30732", LBIS.L["2H"], "Alt") --Exodar Life-Staff
 LBIS:AddItem(spec, "28782", LBIS.L["2H"], "Alt") --Crystalheart Pulse-Staff
 
-LBIS:AddItem(spec, "29274", LBIS.L["OH"], "BIS") --Tears of Heaven
-LBIS:AddItem(spec, "29170", LBIS.L["OH"], "BIS") --Windcaller's Orb
-LBIS:AddItem(spec, "29923", LBIS.L["OH"], "Alt") --Talisman of the Sun King
+LBIS:AddItem(spec, "29274", LBIS.L["Off Hand"], "BIS") --Tears of Heaven
+LBIS:AddItem(spec, "29170", LBIS.L["Off Hand"], "BIS") --Windcaller's Orb
+LBIS:AddItem(spec, "29923", LBIS.L["Off Hand"], "Alt") --Talisman of the Sun King
 
 LBIS:AddItem(spec, "27886", LBIS.L["Idol"], "BIS") --Idol of the Emerald Queen

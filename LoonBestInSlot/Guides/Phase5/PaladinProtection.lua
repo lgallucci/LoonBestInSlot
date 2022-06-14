@@ -70,10 +70,10 @@ LBIS:AddItem(spec, "31858", LBIS.L["Trinket"], "Alt Stam") --Darkmoon Card: Veng
 LBIS:AddItem(spec, "32501", LBIS.L["Trinket"], "BIS") --Shadowmoon Insignia
 LBIS:AddItem(spec, "34428", LBIS.L["Trinket"], "Alt") --Steely Naaru Sliver
 
-LBIS:AddItem(spec, "35014", LBIS.L["MH"], "BIS") --Brutal Gladiator's Gavel
-LBIS:AddItem(spec, "30910", LBIS.L["MH"], "BIS") --Tempest of Chaos
-LBIS:AddItem(spec, "34176", LBIS.L["MH"], "Alt") --Reign of Misery
-LBIS:AddItem(spec, "33687", LBIS.L["MH"], "Alt") --Vengeful Gladiator's Gavel
+LBIS:AddItem(spec, "35014", LBIS.L["Main Hand"], "BIS") --Brutal Gladiator's Gavel
+LBIS:AddItem(spec, "30910", LBIS.L["Main Hand"], "BIS") --Tempest of Chaos
+LBIS:AddItem(spec, "34176", LBIS.L["Main Hand"], "Alt") --Reign of Misery
+LBIS:AddItem(spec, "33687", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Gavel
 
 LBIS:AddItem(spec, "29388", LBIS.L["Libram"], "BIS Mit") --Libram of Repentance
 LBIS:AddItem(spec, "32368", LBIS.L["Libram"], "BIS Mit") --Tome of the Lightbringer

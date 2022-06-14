@@ -45,11 +45,11 @@ LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "BIS") --Berserker's Call
 LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "Alt") --Madness of the Betrayer
 
-LBIS:AddItem(spec, "33389", LBIS.L["MH"], "BIS") --Dagger of Bad Mojo
-LBIS:AddItem(spec, "30901", LBIS.L["MH"], "Alt") --Boundless Agony
+LBIS:AddItem(spec, "33389", LBIS.L["Main Hand"], "BIS") --Dagger of Bad Mojo
+LBIS:AddItem(spec, "30901", LBIS.L["Main Hand"], "Alt") --Boundless Agony
 
-LBIS:AddItem(spec, "30881", LBIS.L["OH"], "Alt") --Blade of Infamy
-LBIS:AddItem(spec, "33705", LBIS.L["OH"], "Alt") --Vengeful Gladiator's Left Ripper
+LBIS:AddItem(spec, "30881", LBIS.L["Off Hand"], "Alt") --Blade of Infamy
+LBIS:AddItem(spec, "33705", LBIS.L["Off Hand"], "Alt") --Vengeful Gladiator's Left Ripper
 
 LBIS:AddItem(spec, "29993", LBIS.L["2H"], "BIS") --Twinblade of the Phoenix
 LBIS:AddItem(spec, "33492", LBIS.L["2H"], "BIS") --Trollbane

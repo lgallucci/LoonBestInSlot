@@ -74,16 +74,16 @@ LBIS:AddItem(spec, "28590", LBIS.L["Trinket"], "BIS") --Ribbon of Sacrifice
 LBIS:AddItem(spec, "23047", LBIS.L["Trinket"], "BIS") --Eye of the Dead
 LBIS:AddItem(spec, "30841", LBIS.L["Trinket"], "BIS") --Lower City Prayerbook
 
-LBIS:AddItem(spec, "28771", LBIS.L["MH"], "BIS") --Light's Justice
-LBIS:AddItem(spec, "32451", LBIS.L["MH"], "Alt") --Gladiator's Salvation
-LBIS:AddItem(spec, "28522", LBIS.L["MH"], "Alt") --Shard of the Virtuous
-LBIS:AddItem(spec, "23556", LBIS.L["MH"], "Alt") --Hand of Eternity
-LBIS:AddItem(spec, "29353", LBIS.L["MH"], "Alt") --Shockwave Truncheon
+LBIS:AddItem(spec, "28771", LBIS.L["Main Hand"], "BIS") --Light's Justice
+LBIS:AddItem(spec, "32451", LBIS.L["Main Hand"], "Alt") --Gladiator's Salvation
+LBIS:AddItem(spec, "28522", LBIS.L["Main Hand"], "Alt") --Shard of the Virtuous
+LBIS:AddItem(spec, "23556", LBIS.L["Main Hand"], "Alt") --Hand of Eternity
+LBIS:AddItem(spec, "29353", LBIS.L["Main Hand"], "Alt") --Shockwave Truncheon
 
-LBIS:AddItem(spec, "29458", LBIS.L["OH"], "BIS") --Aegis of the Vindicator
-LBIS:AddItem(spec, "28728", LBIS.L["OH"], "Alt") --Aran's Soothing Sapphire
-LBIS:AddItem(spec, "29274", LBIS.L["OH"], "Alt") --Tears of Heaven
-LBIS:AddItem(spec, "22819", LBIS.L["OH"], "Alt") --Shield of Condemnation
+LBIS:AddItem(spec, "29458", LBIS.L["Off Hand"], "BIS") --Aegis of the Vindicator
+LBIS:AddItem(spec, "28728", LBIS.L["Off Hand"], "Alt") --Aran's Soothing Sapphire
+LBIS:AddItem(spec, "29274", LBIS.L["Off Hand"], "Alt") --Tears of Heaven
+LBIS:AddItem(spec, "22819", LBIS.L["Off Hand"], "Alt") --Shield of Condemnation
 
 LBIS:AddItem(spec, "28592", LBIS.L["Libram"], "BIS") --Libram of Souls Redeemed
 LBIS:AddItem(spec, "23006", LBIS.L["Libram"], "Alt") --Libram of Light

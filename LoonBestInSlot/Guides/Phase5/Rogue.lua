@@ -57,19 +57,19 @@ LBIS:AddItem(spec, "30450", LBIS.L["Trinket"], "Alt") --Warp-Spring Coil
 LBIS:AddItem(spec, "34472", LBIS.L["Trinket"], "Alt") --Shard of Contempt
 LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "Alt") --Berserker's Call
 
-LBIS:AddItem(spec, "32837", LBIS.L["MH"], "BIS") --Warglaive of Azzinoth
-LBIS:AddItem(spec, "34331", LBIS.L["MH"], "Alt") --Hand of the Deceiver
-LBIS:AddItem(spec, "34214", LBIS.L["MH"], "Alt") --Muramasa
-LBIS:AddItem(spec, "35101", LBIS.L["MH"], "Alt") --Brutal Gladiator's Slicer
-LBIS:AddItem(spec, "34329", LBIS.L["MH"], "BIS Dagger") --Crux of the Apocalypse
-LBIS:AddItem(spec, "35093", LBIS.L["MH"], "Alt Dagger") --Brutal Gladiator's Shanker
+LBIS:AddItem(spec, "32837", LBIS.L["Main Hand"], "BIS") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "34331", LBIS.L["Main Hand"], "Alt") --Hand of the Deceiver
+LBIS:AddItem(spec, "34214", LBIS.L["Main Hand"], "Alt") --Muramasa
+LBIS:AddItem(spec, "35101", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Slicer
+LBIS:AddItem(spec, "34329", LBIS.L["Main Hand"], "BIS Dagger") --Crux of the Apocalypse
+LBIS:AddItem(spec, "35093", LBIS.L["Main Hand"], "Alt Dagger") --Brutal Gladiator's Shanker
 
-LBIS:AddItem(spec, "32838", LBIS.L["OH"], "BIS") --Warglaive of Azzinoth
-LBIS:AddItem(spec, "32369", LBIS.L["OH"], "Alt") --Blade of Savagery
-LBIS:AddItem(spec, "34164", LBIS.L["OH"], "Alt") --Dragonscale-Encrusted Longblade
-LBIS:AddItem(spec, "35072", LBIS.L["OH"], "Alt") --Brutal Gladiator's Quickblade
-LBIS:AddItem(spec, "34165", LBIS.L["OH"], "BIS Dagger") --Fang of Kalecgos
-LBIS:AddItem(spec, "35095", LBIS.L["OH"], "Alt Dagger") --Brutal Gladiator's Shiv
+LBIS:AddItem(spec, "32838", LBIS.L["Off Hand"], "BIS") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "32369", LBIS.L["Off Hand"], "Alt") --Blade of Savagery
+LBIS:AddItem(spec, "34164", LBIS.L["Off Hand"], "Alt") --Dragonscale-Encrusted Longblade
+LBIS:AddItem(spec, "35072", LBIS.L["Off Hand"], "Alt") --Brutal Gladiator's Quickblade
+LBIS:AddItem(spec, "34165", LBIS.L["Off Hand"], "BIS Dagger") --Fang of Kalecgos
+LBIS:AddItem(spec, "35095", LBIS.L["Off Hand"], "Alt Dagger") --Brutal Gladiator's Shiv
 
 LBIS:AddItem(spec, "34196", LBIS.L["Ranged"], "BIS") --Golden Bow of Quel'Thalas
 LBIS:AddItem(spec, "34334", LBIS.L["Ranged"], "BIS") --Thori'dal, the Stars' Fury

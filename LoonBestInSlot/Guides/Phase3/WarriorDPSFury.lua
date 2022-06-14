@@ -66,13 +66,13 @@ LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "BIS") --Madness of the Betrayer
 LBIS:AddItem(spec, "30627", LBIS.L["Trinket"], "BIS") --Tsunami Talisman
 LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "Alt") --Bloodlust Brooch
 
-LBIS:AddItem(spec, "32837", LBIS.L["MH"], "BIS") --Warglaive of Azzinoth
-LBIS:AddItem(spec, "33669", LBIS.L["MH"], "Alt") --Vengeful Gladiator's Cleaver
-LBIS:AddItem(spec, "33762", LBIS.L["MH"], "Alt") --Vengeful Gladiator's Slicer
-LBIS:AddItem(spec, "28439", LBIS.L["MH"], "Alt") --Dragonstrike
-LBIS:AddItem(spec, "30881", LBIS.L["MH"], "Alt") --Blade of Infamy
+LBIS:AddItem(spec, "32837", LBIS.L["Main Hand"], "BIS") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "33669", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Cleaver
+LBIS:AddItem(spec, "33762", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Slicer
+LBIS:AddItem(spec, "28439", LBIS.L["Main Hand"], "Alt") --Dragonstrike
+LBIS:AddItem(spec, "30881", LBIS.L["Main Hand"], "Alt") --Blade of Infamy
 
-LBIS:AddItem(spec, "32838", LBIS.L["OH"], "BIS") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "32838", LBIS.L["Off Hand"], "BIS") --Warglaive of Azzinoth
 
 LBIS:AddItem(spec, "32326", LBIS.L["Ranged"], "BIS") --Twisted Blades of Zarak
 LBIS:AddItem(spec, "30105", LBIS.L["Ranged"], "BIS") --Serpent Spine Longbow

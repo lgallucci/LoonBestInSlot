@@ -91,7 +91,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Dealing with the Overmaster"] = "Den Übermeister erledigen";
   LBIS.L["Deathblow to the Legion"] = "Todesstoß für die Legion";
   LBIS.L["Declawing Doomclaw"] = "Verdammnisklaue die Krallen stutzen";
---  LBIS.L["Defender Grashna,Shattrath City"] = "";
   LBIS.L["Demonology"] = "Dämonologie";
   LBIS.L["Destroy Naberius!"] = "Vernichtet Naberius!";
   LBIS.L["Destruction"] = "Zerstörung";
@@ -99,7 +98,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Dissension Amongst the Ranks..."] = "Zwietracht in den Rängen...";
   LBIS.L["Doom Lord Kazzak"] = "Verdammnislord Kazzak";
   LBIS.L["Doomwalker"] = "Verdammniswandler";
---  LBIS.L["Down with Daellis"] = "";
+  LBIS.L["Down With Daellis"] = "Nieder mit Daellis";
   LBIS.L["Dr. Boom!"] = "Dr. Bumm!";
   LBIS.L["Dragonscale Leatherworking"] = "Drachenlederverarbeitung";
 --  LBIS.L["Drill the Drillmaster/The Foot of the Citadel"] = "";
@@ -139,10 +138,8 @@ if GetLocale() == "deDE" then
   LBIS.L["Ghaz'an"] = "Ghaz'an";
 --  LBIS.L["Gloves"] = "";
 --  LBIS.L["Gnomish Engineer"] = "";
---  LBIS.L["Gordawg,Nagrand"] = "";
   LBIS.L["Grand Warlock Nethekurse"] = "Großhexenmeister Nethekurse";
   LBIS.L["Grandmaster Vorpil"] = "Großmeister Vorpil";
---  LBIS.L["Greatmother Geyah,Nagrand (Horde)"] = "";
   LBIS.L["Gruul the Dragonkiller"] = "Gruul der Drachenschlächter";
   LBIS.L["Gruul's Lair"] = "Gruuls Unterschlupf";
   LBIS.L["Gurok the Usurper"] = "Gurok der Thronräuber";
@@ -181,8 +178,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Illidan Stormrage"] = "Illidan Sturmgrimm";
   LBIS.L["Information Gathering"] = "Informationen sammeln";
   LBIS.L["Into the Heart of the Labyrinth"] = "In das Herz des Labyrinths";
---  LBIS.L["Ishanah,Shattrath City"] = "";
---  LBIS.L["It's a Fel Reaver,But with Heart"] = "";
+--  LBIS.L["It's a Fel Reaver, But with Heart"] = "";
   LBIS.L["Jan'alai"] = "Jan'alai";
   LBIS.L["Jewelcrafting"] = "Juwelierskunst";
   LBIS.L["Kael'thas Sunstrider"] = "Kael'thas Sonnenwanderer";
@@ -214,7 +210,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Magisters' Terrace"] = "Terrasse der Magister";
   LBIS.L["Magtheridon"] = "Magtheridon";
   LBIS.L["Magtheridon's Lair"] = "Magtheridons Kammer";
---  LBIS.L["Magus Zabraxis,Hellfire Peninsula"] = "";
   LBIS.L["Maiden of Virtue"] = "Tugendhafte Maid";
   LBIS.L["Mana-Tombs"] = "Managruft";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
@@ -230,12 +225,13 @@ if GetLocale() == "deDE" then
   LBIS.L["Mechano-Lord Capacitus"] = "Mechanolord Kapazitus";
   LBIS.L["Mekgineer Steamrigger"] = "Robogenieur Dampfhammer";
   LBIS.L["Mennu the Betrayer"] = "Mennu der Verräter";
---  LBIS.L["MH"] = "";
+--  LBIS.L["Main Hand"] = "";
   LBIS.L["Moroes"] = "Moroes";
   LBIS.L["Morogrim Tidewalker"] = "Morogrim Gezeitenwandler";
   LBIS.L["Mother Shahraz"] = "Mutter Shahraz";
   LBIS.L["Murmur"] = "Murmur";
   LBIS.L["Nagrand"] = "Nagrand";
+--  LBIS.L["Nagrand (Horde)"] = "";
   LBIS.L["Nalorakk"] = "Nalorakk";
   LBIS.L["Natural Remedies"] = "Natürliche Heilmittel";
   LBIS.L["Neck"] = "Hals";
@@ -250,7 +246,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Nightbane"] = "Schrecken der Nacht";
 --  LBIS.L["No longer available"] = "";
   LBIS.L["Ogri'la"] = "Ogri'la";
---  LBIS.L["OH"] = "";
+--  LBIS.L["Off Hand"] = "";
   LBIS.L["Old Hillsbrad Foothills"] = "Vorgebirge des Alten Hügellands";
 --  LBIS.L["Old Hillsbrad Foothills (Heroic)"] = "";
   LBIS.L["Omor the Unscarred"] = "Omor der Narbenlose";
@@ -282,7 +278,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Retribution"] = "Vergeltung";
   LBIS.L["Return to Andormu"] = "Rückkehr zu Andormu";
   LBIS.L["Revered"] = "Respektvoll";
---  LBIS.L["Rexxar,Blade's Edge Mountains"] = "";
   LBIS.L["Ring"] = "Finger";
   LBIS.L["Rokmar the Crackler"] = "Rokmar der Zerquetscher";
   LBIS.L["Securing the Celestial Ridge"] = "Den Sternensturz sichern";
@@ -316,7 +311,6 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Spellfire Tailoring"] = "";
 --  LBIS.L["Spirit Sage Gartok, Spirit Sage Zran"] = "";
 --  LBIS.L["Spirit Shard"] = "";
---  LBIS.L["Spy To'gun,Shadow Labyrinth"] = "";
   LBIS.L["Subdue the Subduer"] = "Unterdrückt den Unterdrücker";
   LBIS.L["Success!"] = "Erfolg!";
   LBIS.L["Sunwell Plateau"] = "Sonnenbrunnenplateau";
@@ -336,7 +330,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Terokk's Legacy"] = "Terokks Erbe";
   LBIS.L["Terokkar Forest"] = "Wälder von Terokkar";
   LBIS.L["Teron Gorefiend"] = "Teron Blutschatten";
---  LBIS.L["Teron Gorefiend,I am..."] = "";
+--  LBIS.L["Teron Gorefiend, I am..."] = "";
   LBIS.L["The Aldor"] = "Die Aldor";
 --  LBIS.L["The Aldor/Scryers"] = "";
   LBIS.L["The Arcatraz"] = "Die Arkatraz";
@@ -391,7 +385,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Thrallmar"] = "Thrallmar";
   LBIS.L["Thwart the Dark Conclave"] = "Dem Dunklen Rat in die Quere kommen";
 --  LBIS.L["Timed Event"] = "";
---  LBIS.L["Timeon,Blade's Edge Mountains"] = "";
 --  LBIS.L["Token"] = "";
   LBIS.L["Torgos!"] = "Torgos!";
   LBIS.L["Totem"] = "Totem";
@@ -410,16 +403,13 @@ if GetLocale() == "deDE" then
   LBIS.L["Vendor"] = "Händler";
   LBIS.L["Vexallus"] = "Vexallus";
   LBIS.L["Void Reaver"] = "Leerhäscher";
---  LBIS.L["Voren'thal the Seer,Shattrath City"] = "";
   LBIS.L["Wand"] = "Zauberstab";
   LBIS.L["Wanted: Annihilator Servo!"] = "Gesucht: Vernichter Servo!";
   LBIS.L["Warbringer O'mrogg"] = "Kriegshetzer O'mrogg";
   LBIS.L["Warchief Kargath Bladefist"] = "Kriegshäuptling Kargath Messerfaust";
   LBIS.L["Warlord Kalithresh"] = "Kriegsherr Kalithresh";
   LBIS.L["Warp Splinter"] = "Warpzweig";
---  LBIS.L["Watcher Jhang,Zangarmarsh"] = "";
   LBIS.L["Watchkeeper Gargolmar"] = "Wachhabender Gargolmar";
---  LBIS.L["Wazat,Nagrand"] = "";
 --  LBIS.L["Weird Blades Edged Quest w/ Depleted Sword"] = "";
   LBIS.L["When the Cows Come Home"] = "Almabtrieb";
   LBIS.L["Whispers of the Raven God"] = "Das Flüstern des Rabengottes";

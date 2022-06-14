@@ -66,11 +66,11 @@ LBIS:AddItem(spec, "28528", LBIS.L["Trinket"], "Alt") --Moroes' Lucky Pocket Wat
 LBIS:AddItem(spec, "34472", LBIS.L["Trinket"], "Alt Thrt") --Shard of Contempt
 LBIS:AddItem(spec, "34428", LBIS.L["Trinket"], "Alt Thrt") --Steely Naaru Sliver
 
-LBIS:AddItem(spec, "34164", LBIS.L["MH"], "BIS") --Dragonscale-Encrusted Longblade
-LBIS:AddItem(spec, "32254", LBIS.L["MH"], "Alt") --The Brutalizer
-LBIS:AddItem(spec, "32369", LBIS.L["MH"], "Alt") --Blade of Savagery
-LBIS:AddItem(spec, "34165", LBIS.L["MH"], "Alt") --Fang of Kalecgos
-LBIS:AddItem(spec, "30874", LBIS.L["MH"], "BIS Mit") --The Unbreakable Will
+LBIS:AddItem(spec, "34164", LBIS.L["Main Hand"], "BIS") --Dragonscale-Encrusted Longblade
+LBIS:AddItem(spec, "32254", LBIS.L["Main Hand"], "Alt") --The Brutalizer
+LBIS:AddItem(spec, "32369", LBIS.L["Main Hand"], "Alt") --Blade of Savagery
+LBIS:AddItem(spec, "34165", LBIS.L["Main Hand"], "Alt") --Fang of Kalecgos
+LBIS:AddItem(spec, "30874", LBIS.L["Main Hand"], "BIS Mit") --The Unbreakable Will
 
 LBIS:AddItem(spec, "34185", LBIS.L["Shield"], "BIS") --Sword Breaker's Bulwark
 LBIS:AddItem(spec, "32375", LBIS.L["Shield"], "Alt") --Bulwark of Azzinoth

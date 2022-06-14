@@ -56,17 +56,17 @@ LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
 LBIS:AddItem(spec, "28288", LBIS.L["Trinket"], "Alt") --Abacus of Violent Odds
 LBIS:AddItem(spec, "28579", LBIS.L["Trinket"], "Alt") --Romulo's Poison Vial
 
-LBIS:AddItem(spec, "28438", LBIS.L["MH"], "BIS") --Dragonmaw
-LBIS:AddItem(spec, "28295", LBIS.L["MH"], "BIS") --Gladiator's Slicer
-LBIS:AddItem(spec, "31332", LBIS.L["MH"], "BIS") --Blinkstrike
-LBIS:AddItem(spec, "28729", LBIS.L["MH"], "Alt") --Spiteblade
-LBIS:AddItem(spec, "30733", LBIS.L["MH"], "Alt") --Hope Ender
-LBIS:AddItem(spec, "28768", LBIS.L["MH"], "BIS Dagger") --Malchazeen
-LBIS:AddItem(spec, "28312", LBIS.L["MH"], "Alt Dagger") --Gladiator's Shanker
+LBIS:AddItem(spec, "28438", LBIS.L["Main Hand"], "BIS") --Dragonmaw
+LBIS:AddItem(spec, "28295", LBIS.L["Main Hand"], "BIS") --Gladiator's Slicer
+LBIS:AddItem(spec, "31332", LBIS.L["Main Hand"], "BIS") --Blinkstrike
+LBIS:AddItem(spec, "28729", LBIS.L["Main Hand"], "Alt") --Spiteblade
+LBIS:AddItem(spec, "30733", LBIS.L["Main Hand"], "Alt") --Hope Ender
+LBIS:AddItem(spec, "28768", LBIS.L["Main Hand"], "BIS Dagger") --Malchazeen
+LBIS:AddItem(spec, "28312", LBIS.L["Main Hand"], "Alt Dagger") --Gladiator's Shanker
 
-LBIS:AddItem(spec, "28307", LBIS.L["OH"], "BIS") --Gladiator's Quickblade
-LBIS:AddItem(spec, "28189", LBIS.L["OH"], "BIS") --Latro's Shifting Sword
-LBIS:AddItem(spec, "29275", LBIS.L["OH"], "BIS Dagger") --Searing Sunblade
+LBIS:AddItem(spec, "28307", LBIS.L["Off Hand"], "BIS") --Gladiator's Quickblade
+LBIS:AddItem(spec, "28189", LBIS.L["Off Hand"], "BIS") --Latro's Shifting Sword
+LBIS:AddItem(spec, "29275", LBIS.L["Off Hand"], "BIS Dagger") --Searing Sunblade
 
 LBIS:AddItem(spec, "29151", LBIS.L["Ranged"], "BIS") --Veteran's Musket
 LBIS:AddItem(spec, "29152", LBIS.L["Ranged"], "BIS") --Marksman's Bow

@@ -86,14 +86,14 @@ LBIS:AddItem(spec, "28121", LBIS.L["Trinket"], "BIS Thrt") --Icon of Unyielding 
 LBIS:AddItem(spec, "29387", LBIS.L["Trinket"], "Alt Thrt") --Gnomeregan Auto-Blocker 600
 LBIS:AddItem(spec, "19406", LBIS.L["Trinket"], "Alt Thrt") --Drake Fang Talisman
 
-LBIS:AddItem(spec, "28189", LBIS.L["MH"], "BIS Thrt") --Latro's Shifting Sword
-LBIS:AddItem(spec, "29165", LBIS.L["MH"], "BIS") --Warbringer
-LBIS:AddItem(spec, "29362", LBIS.L["MH"], "Alt") --The Sun Eater
-LBIS:AddItem(spec, "27980", LBIS.L["MH"], "Alt") --Terokk's Nightmace
-LBIS:AddItem(spec, "23577", LBIS.L["MH"], "Alt") --The Hungering Cold
-LBIS:AddItem(spec, "29156", LBIS.L["MH"], "Alt") --Honor's Call
-LBIS:AddItem(spec, "19019", LBIS.L["MH"], "Alt") --Thunderfury, Blessed Blade of the Windseeker
-LBIS:AddItem(spec, "31071", LBIS.L["MH"], "Alt") --Grom'tor's Charge
+LBIS:AddItem(spec, "28189", LBIS.L["Main Hand"], "BIS Thrt") --Latro's Shifting Sword
+LBIS:AddItem(spec, "29165", LBIS.L["Main Hand"], "BIS") --Warbringer
+LBIS:AddItem(spec, "29362", LBIS.L["Main Hand"], "Alt") --The Sun Eater
+LBIS:AddItem(spec, "27980", LBIS.L["Main Hand"], "Alt") --Terokk's Nightmace
+LBIS:AddItem(spec, "23577", LBIS.L["Main Hand"], "Alt") --The Hungering Cold
+LBIS:AddItem(spec, "29156", LBIS.L["Main Hand"], "Alt") --Honor's Call
+LBIS:AddItem(spec, "19019", LBIS.L["Main Hand"], "Alt") --Thunderfury, Blessed Blade of the Windseeker
+LBIS:AddItem(spec, "31071", LBIS.L["Main Hand"], "Alt") --Grom'tor's Charge
 
 LBIS:AddItem(spec, "29266", LBIS.L["Shield"], "BIS") --Azure-Shield of Coldarra
 LBIS:AddItem(spec, "29176", LBIS.L["Shield"], "BIS") --Crest of the Sha'tar

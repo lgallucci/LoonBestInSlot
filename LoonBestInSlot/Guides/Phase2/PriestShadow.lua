@@ -61,12 +61,12 @@ LBIS:AddItem(spec, "27683", LBIS.L["Trinket"], "BIS") --Quagmirran's Eye
 LBIS:AddItem(spec, "28789", LBIS.L["Trinket"], "BIS") --Eye of Magtheridon
 LBIS:AddItem(spec, "38290", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
 
-LBIS:AddItem(spec, "28770", LBIS.L["MH"], "BIS") --Nathrezim Mindblade
-LBIS:AddItem(spec, "33687", LBIS.L["MH"], "BIS") --Vengeful Gladiator's Gavel
-LBIS:AddItem(spec, "30723", LBIS.L["MH"], "BIS") --Talon of the Tempest
-LBIS:AddItem(spec, "29988", LBIS.L["MH"], "Alt") --The Nexus Key
+LBIS:AddItem(spec, "28770", LBIS.L["Main Hand"], "BIS") --Nathrezim Mindblade
+LBIS:AddItem(spec, "33687", LBIS.L["Main Hand"], "BIS") --Vengeful Gladiator's Gavel
+LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "BIS") --Talon of the Tempest
+LBIS:AddItem(spec, "29988", LBIS.L["Main Hand"], "Alt") --The Nexus Key
 
-LBIS:AddItem(spec, "29272", LBIS.L["OH"], "BIS") --Orb of the Soul-Eater
+LBIS:AddItem(spec, "29272", LBIS.L["Off Hand"], "BIS") --Orb of the Soul-Eater
 
 LBIS:AddItem(spec, "29982", LBIS.L["Wand"], "BIS") --Wand of the Forgotten Star
 LBIS:AddItem(spec, "32872", LBIS.L["Wand"], "Alt") --Illidari Rod of Discipline

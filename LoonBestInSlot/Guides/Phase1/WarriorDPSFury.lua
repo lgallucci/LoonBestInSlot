@@ -63,13 +63,13 @@ LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
 LBIS:AddItem(spec, "21670", LBIS.L["Trinket"], "Alt") --Badge of the Swarmguard
 
-LBIS:AddItem(spec, "28438", LBIS.L["MH"], "BIS") --Dragonmaw
-LBIS:AddItem(spec, "28657", LBIS.L["MH"], "Alt") --Fool's Bane
-LBIS:AddItem(spec, "28767", LBIS.L["MH"], "Alt") --The Decapitator
-LBIS:AddItem(spec, "23054", LBIS.L["MH"], "Alt") --Gressil, Dawn of Ruin
+LBIS:AddItem(spec, "28438", LBIS.L["Main Hand"], "BIS") --Dragonmaw
+LBIS:AddItem(spec, "28657", LBIS.L["Main Hand"], "Alt") --Fool's Bane
+LBIS:AddItem(spec, "28767", LBIS.L["Main Hand"], "Alt") --The Decapitator
+LBIS:AddItem(spec, "23054", LBIS.L["Main Hand"], "Alt") --Gressil, Dawn of Ruin
 
-LBIS:AddItem(spec, "28729", LBIS.L["OH"], "BIS") --Spiteblade
-LBIS:AddItem(spec, "30733", LBIS.L["OH"], "BIS") --Hope Ender
+LBIS:AddItem(spec, "28729", LBIS.L["Off Hand"], "BIS") --Spiteblade
+LBIS:AddItem(spec, "30733", LBIS.L["Off Hand"], "BIS") --Hope Ender
 
 LBIS:AddItem(spec, "28429", LBIS.L["2H"], "BIS") --Lionheart Champion
 LBIS:AddItem(spec, "28573", LBIS.L["2H"], "Alt") --Despair

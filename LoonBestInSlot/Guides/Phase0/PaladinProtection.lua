@@ -61,15 +61,15 @@ LBIS:AddItem(spec, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Cresc
 LBIS:AddItem(spec, "34579", LBIS.L["Trinket"], "Alt") --Battlemaster's Audacity
 LBIS:AddItem(spec, "35700", LBIS.L["Trinket"], "Alt") --Figurine - Crimson Serpent
 
-LBIS:AddItem(spec, "33687", LBIS.L["MH"], "BIS") --Vengeful Gladiator's Gavel
-LBIS:AddItem(spec, "34611", LBIS.L["MH"], "Alt") --Cudgel of Consecration
-LBIS:AddItem(spec, "29153", LBIS.L["MH"], "Alt") --Blade of the Archmage
-LBIS:AddItem(spec, "29155", LBIS.L["MH"], "Alt") --Stormcaller
-LBIS:AddItem(spec, "30832", LBIS.L["MH"], "Alt") --Gavel of Unearthed Secrets
-LBIS:AddItem(spec, "34670", LBIS.L["MH"], "Alt") --Seeker's Gavel
-LBIS:AddItem(spec, "31336", LBIS.L["MH"], "Alt") --Blade of Wizardry
-LBIS:AddItem(spec, "32660", LBIS.L["MH"], "Alt") --Crystalforged Sword
-LBIS:AddItem(spec, "29185", LBIS.L["MH"], "Alt") --Continuum Blade
+LBIS:AddItem(spec, "33687", LBIS.L["Main Hand"], "BIS") --Vengeful Gladiator's Gavel
+LBIS:AddItem(spec, "34611", LBIS.L["Main Hand"], "Alt") --Cudgel of Consecration
+LBIS:AddItem(spec, "29153", LBIS.L["Main Hand"], "Alt") --Blade of the Archmage
+LBIS:AddItem(spec, "29155", LBIS.L["Main Hand"], "Alt") --Stormcaller
+LBIS:AddItem(spec, "30832", LBIS.L["Main Hand"], "Alt") --Gavel of Unearthed Secrets
+LBIS:AddItem(spec, "34670", LBIS.L["Main Hand"], "Alt") --Seeker's Gavel
+LBIS:AddItem(spec, "31336", LBIS.L["Main Hand"], "Alt") --Blade of Wizardry
+LBIS:AddItem(spec, "32660", LBIS.L["Main Hand"], "Alt") --Crystalforged Sword
+LBIS:AddItem(spec, "29185", LBIS.L["Main Hand"], "Alt") --Continuum Blade
 
 LBIS:AddItem(spec, "29388", LBIS.L["Libram"], "Alt") --Libram of Repentance
 LBIS:AddItem(spec, "33504", LBIS.L["Libram"], "Alt") --Libram of Divine Purpose

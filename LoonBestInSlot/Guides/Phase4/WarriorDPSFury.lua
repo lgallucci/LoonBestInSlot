@@ -40,9 +40,9 @@ LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "BIS") --Berserker's Call
 LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "BIS") --Madness of the Betrayer
 LBIS:AddItem(spec, "30627", LBIS.L["Trinket"], "BIS") --Tsunami Talisman
 
-LBIS:AddItem(spec, "32837", LBIS.L["MH"], "BIS") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "32837", LBIS.L["Main Hand"], "BIS") --Warglaive of Azzinoth
 
-LBIS:AddItem(spec, "32838", LBIS.L["OH"], "BIS") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "32838", LBIS.L["Off Hand"], "BIS") --Warglaive of Azzinoth
 
 LBIS:AddItem(spec, "33474", LBIS.L["Ranged"], "BIS") --Ancient Amani Longbow
 LBIS:AddItem(spec, "32326", LBIS.L["Ranged"], "BIS") --Twisted Blades of Zarak

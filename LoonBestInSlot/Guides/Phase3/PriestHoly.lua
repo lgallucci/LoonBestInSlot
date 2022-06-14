@@ -71,17 +71,17 @@ LBIS:AddItem(spec, "28823", LBIS.L["Trinket"], "BIS") --Eye of Gruul
 LBIS:AddItem(spec, "19288", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Blue Dragon
 LBIS:AddItem(spec, "32490", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Acumen
 
-LBIS:AddItem(spec, "32500", LBIS.L["MH"], "BIS") --Crystal Spire of Karabor
-LBIS:AddItem(spec, "33743", LBIS.L["MH"], "Alt") --Vengeful Gladiator's Salvation
-LBIS:AddItem(spec, "30918", LBIS.L["MH"], "Alt") --Hammer of Atonement
-LBIS:AddItem(spec, "30108", LBIS.L["MH"], "Alt") --Lightfathom Scepter
-LBIS:AddItem(spec, "30908", LBIS.L["MH"], "Alt") --Apostle of Argus
-LBIS:AddItem(spec, "32964", LBIS.L["MH"], "Alt") --Merciless Gladiator's Salvation
-LBIS:AddItem(spec, "32344", LBIS.L["MH"], "Alt") --Staff of Immaculate Recovery
+LBIS:AddItem(spec, "32500", LBIS.L["Main Hand"], "BIS") --Crystal Spire of Karabor
+LBIS:AddItem(spec, "33743", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Salvation
+LBIS:AddItem(spec, "30918", LBIS.L["Main Hand"], "Alt") --Hammer of Atonement
+LBIS:AddItem(spec, "30108", LBIS.L["Main Hand"], "Alt") --Lightfathom Scepter
+LBIS:AddItem(spec, "30908", LBIS.L["Main Hand"], "Alt") --Apostle of Argus
+LBIS:AddItem(spec, "32964", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Salvation
+LBIS:AddItem(spec, "32344", LBIS.L["Main Hand"], "Alt") --Staff of Immaculate Recovery
 
-LBIS:AddItem(spec, "30911", LBIS.L["OH"], "BIS") --Scepter of Purification
-LBIS:AddItem(spec, "32350", LBIS.L["OH"], "Alt") --Touch of Inspiration
-LBIS:AddItem(spec, "29923", LBIS.L["OH"], "Alt") --Talisman of the Sun King
+LBIS:AddItem(spec, "30911", LBIS.L["Off Hand"], "BIS") --Scepter of Purification
+LBIS:AddItem(spec, "32350", LBIS.L["Off Hand"], "Alt") --Touch of Inspiration
+LBIS:AddItem(spec, "29923", LBIS.L["Off Hand"], "Alt") --Talisman of the Sun King
 
 LBIS:AddItem(spec, "32363", LBIS.L["Wand"], "BIS") --Naaru-Blessed Life Rod
 LBIS:AddItem(spec, "30080", LBIS.L["Wand"], "Alt") --Luminescent Rod of the Naaru

@@ -74,17 +74,17 @@ LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "BIS") --Madness of the Betrayer
 LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "Alt") --Bloodlust Brooch
 LBIS:AddItem(spec, "32487", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Swiftness
 
-LBIS:AddItem(spec, "30901", LBIS.L["MH"], "BIS") --Boundless Agony
-LBIS:AddItem(spec, "33737", LBIS.L["MH"], "Alt") --Vengeful Gladiator's Right Ripper
-LBIS:AddItem(spec, "32944", LBIS.L["MH"], "Alt") --Talon of the Phoenix
-LBIS:AddItem(spec, "32946", LBIS.L["MH"], "Alt") --Claw of Molten Fury
+LBIS:AddItem(spec, "30901", LBIS.L["Main Hand"], "BIS") --Boundless Agony
+LBIS:AddItem(spec, "33737", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Right Ripper
+LBIS:AddItem(spec, "32944", LBIS.L["Main Hand"], "Alt") --Talon of the Phoenix
+LBIS:AddItem(spec, "32946", LBIS.L["Main Hand"], "Alt") --Claw of Molten Fury
 
-LBIS:AddItem(spec, "30881", LBIS.L["OH"], "BIS") --Blade of Infamy
-LBIS:AddItem(spec, "33705", LBIS.L["OH"], "BIS") --Vengeful Gladiator's Left Ripper
-LBIS:AddItem(spec, "30865", LBIS.L["OH"], "Alt") --Tracker's Blade
-LBIS:AddItem(spec, "32269", LBIS.L["OH"], "Alt") --Messenger of Fate
-LBIS:AddItem(spec, "29948", LBIS.L["OH"], "Alt") --Claw of the Phoenix
-LBIS:AddItem(spec, "32945", LBIS.L["OH"], "Alt") --Fist of Molten Fury
+LBIS:AddItem(spec, "30881", LBIS.L["Off Hand"], "BIS") --Blade of Infamy
+LBIS:AddItem(spec, "33705", LBIS.L["Off Hand"], "BIS") --Vengeful Gladiator's Left Ripper
+LBIS:AddItem(spec, "30865", LBIS.L["Off Hand"], "Alt") --Tracker's Blade
+LBIS:AddItem(spec, "32269", LBIS.L["Off Hand"], "Alt") --Messenger of Fate
+LBIS:AddItem(spec, "29948", LBIS.L["Off Hand"], "Alt") --Claw of the Phoenix
+LBIS:AddItem(spec, "32945", LBIS.L["Off Hand"], "Alt") --Fist of Molten Fury
 
 LBIS:AddItem(spec, "29993", LBIS.L["2H"], "BIS") --Twinblade of the Phoenix
 LBIS:AddItem(spec, "32248", LBIS.L["2H"], "BIS") --Halberd of Desolation

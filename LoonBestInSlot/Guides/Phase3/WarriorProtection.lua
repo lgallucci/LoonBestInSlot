@@ -74,11 +74,11 @@ LBIS:AddItem(spec, "23835", LBIS.L["Trinket"], "Alt Stam") --Gnomish Poultryizer
 LBIS:AddItem(spec, "32501", LBIS.L["Trinket"], "Alt Mit") --Shadowmoon Insignia
 LBIS:AddItem(spec, "10725", LBIS.L["Trinket"], "Alt") --Gnomish Battle Chicken
 
-LBIS:AddItem(spec, "32254", LBIS.L["MH"], "BIS") --The Brutalizer
-LBIS:AddItem(spec, "32369", LBIS.L["MH"], "BIS") --Blade of Savagery
-LBIS:AddItem(spec, "32943", LBIS.L["MH"], "Alt") --Swiftsteel Bludgeon
-LBIS:AddItem(spec, "30874", LBIS.L["MH"], "BIS Mit") --The Unbreakable Will
-LBIS:AddItem(spec, "30058", LBIS.L["MH"], "Alt") --Mallet of the Tides
+LBIS:AddItem(spec, "32254", LBIS.L["Main Hand"], "BIS") --The Brutalizer
+LBIS:AddItem(spec, "32369", LBIS.L["Main Hand"], "BIS") --Blade of Savagery
+LBIS:AddItem(spec, "32943", LBIS.L["Main Hand"], "Alt") --Swiftsteel Bludgeon
+LBIS:AddItem(spec, "30874", LBIS.L["Main Hand"], "BIS Mit") --The Unbreakable Will
+LBIS:AddItem(spec, "30058", LBIS.L["Main Hand"], "Alt") --Mallet of the Tides
 
 LBIS:AddItem(spec, "32375", LBIS.L["Shield"], "BIS") --Bulwark of Azzinoth
 LBIS:AddItem(spec, "30889", LBIS.L["Shield"], "Alt") --Kaz'rogal's Hardened Heart

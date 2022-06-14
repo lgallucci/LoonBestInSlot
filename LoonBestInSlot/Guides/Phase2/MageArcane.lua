@@ -68,15 +68,15 @@ LBIS:AddItem(spec, "31856", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Crusade
 LBIS:AddItem(spec, "29132", LBIS.L["Trinket"], "Alt") --Scryer's Bloodgem
 LBIS:AddItem(spec, "30626", LBIS.L["Trinket"], "Alt") --Sextant of Unstable Currents
 
-LBIS:AddItem(spec, "30095", LBIS.L["MH"], "BIS") --Fang of the Leviathan
-LBIS:AddItem(spec, "30723", LBIS.L["MH"], "Alt") --Talon of the Tempest
+LBIS:AddItem(spec, "30095", LBIS.L["Main Hand"], "BIS") --Fang of the Leviathan
+LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "Alt") --Talon of the Tempest
 
 LBIS:AddItem(spec, "29988", LBIS.L["2H"], "BIS") --The Nexus Key
 LBIS:AddItem(spec, "28633", LBIS.L["2H"], "Alt") --Staff of Infinite Mysteries
 
-LBIS:AddItem(spec, "30049", LBIS.L["OH"], "BIS") --Fathomstone
-LBIS:AddItem(spec, "28734", LBIS.L["OH"], "BIS") --Jewel of Infinite Possibilities
-LBIS:AddItem(spec, "28603", LBIS.L["OH"], "Alt") --Talisman of Nightbane
+LBIS:AddItem(spec, "30049", LBIS.L["Off Hand"], "BIS") --Fathomstone
+LBIS:AddItem(spec, "28734", LBIS.L["Off Hand"], "BIS") --Jewel of Infinite Possibilities
+LBIS:AddItem(spec, "28603", LBIS.L["Off Hand"], "Alt") --Talisman of Nightbane
 
 LBIS:AddItem(spec, "28783", LBIS.L["Wand"], "BIS") --Eredar Wand of Obliteration
 LBIS:AddItem(spec, "28673", LBIS.L["Wand"], "BIS") --Tirisfal Wand of Ascendancy

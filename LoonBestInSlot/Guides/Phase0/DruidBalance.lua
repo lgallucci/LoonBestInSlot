@@ -122,17 +122,17 @@ LBIS:AddItem(spec, "25936", LBIS.L["Trinket"], "Alt") --Terokkar Tablet of Vim
 LBIS:AddItem(spec, "25620", LBIS.L["Trinket"], "Alt") --Ancient Crystal Talisman
 LBIS:AddItem(spec, "25619", LBIS.L["Trinket"], "Alt") --Glowing Crystal Insignia
 
-LBIS:AddItem(spec, "32963", LBIS.L["MH"], "Alt") --Merciless Gladiator's Gavel
-LBIS:AddItem(spec, "32053", LBIS.L["MH"], "Alt") --Merciless Gladiator's Spellblade
-LBIS:AddItem(spec, "23554", LBIS.L["MH"], "BIS") --Eternium Runed Blade
-LBIS:AddItem(spec, "30832", LBIS.L["MH"], "BIS") --Gavel of Unearthed Secrets
-LBIS:AddItem(spec, "28297", LBIS.L["MH"], "Alt") --Gladiator's Spellblade
-LBIS:AddItem(spec, "32450", LBIS.L["MH"], "Alt") --Gladiator's Gavel
-LBIS:AddItem(spec, "27543", LBIS.L["MH"], "Alt") --Starlight Dagger
-LBIS:AddItem(spec, "28931", LBIS.L["MH"], "Alt") --High Warlord's Spellblade
-LBIS:AddItem(spec, "27937", LBIS.L["MH"], "Alt") --Sky Breaker
-LBIS:AddItem(spec, "27741", LBIS.L["MH"], "Alt") --Bleeding Hollow Warhammer
-LBIS:AddItem(spec, "27868", LBIS.L["MH"], "Alt") --Runesong Dagger
+LBIS:AddItem(spec, "32963", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Gavel
+LBIS:AddItem(spec, "32053", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Spellblade
+LBIS:AddItem(spec, "23554", LBIS.L["Main Hand"], "BIS") --Eternium Runed Blade
+LBIS:AddItem(spec, "30832", LBIS.L["Main Hand"], "BIS") --Gavel of Unearthed Secrets
+LBIS:AddItem(spec, "28297", LBIS.L["Main Hand"], "Alt") --Gladiator's Spellblade
+LBIS:AddItem(spec, "32450", LBIS.L["Main Hand"], "Alt") --Gladiator's Gavel
+LBIS:AddItem(spec, "27543", LBIS.L["Main Hand"], "Alt") --Starlight Dagger
+LBIS:AddItem(spec, "28931", LBIS.L["Main Hand"], "Alt") --High Warlord's Spellblade
+LBIS:AddItem(spec, "27937", LBIS.L["Main Hand"], "Alt") --Sky Breaker
+LBIS:AddItem(spec, "27741", LBIS.L["Main Hand"], "Alt") --Bleeding Hollow Warhammer
+LBIS:AddItem(spec, "27868", LBIS.L["Main Hand"], "Alt") --Runesong Dagger
 
 LBIS:AddItem(spec, "32055", LBIS.L["2H"], "Alt") --Merciless Gladiator's War Staff
 LBIS:AddItem(spec, "24557", LBIS.L["2H"], "Alt") --Gladiator's War Staff
@@ -145,13 +145,13 @@ LBIS:AddItem(spec, "28341", LBIS.L["2H"], "Alt") --Warpstaff of Arcanum
 LBIS:AddItem(spec, "31308", LBIS.L["2H"], "Alt") --The Bringer of Death
 LBIS:AddItem(spec, "28188", LBIS.L["2H"], "Alt") --Bloodfire Greatstaff
 
-LBIS:AddItem(spec, "29271", LBIS.L["OH"], "BIS") --Talisman of Kalecgos
-LBIS:AddItem(spec, "29273", LBIS.L["OH"], "Alt") --Khadgar's Knapsack
-LBIS:AddItem(spec, "28412", LBIS.L["OH"], "Alt") --Lamp of Peaceful Radiance
-LBIS:AddItem(spec, "23049", LBIS.L["OH"], "Alt") --Sapphiron's Left Eye
-LBIS:AddItem(spec, "28187", LBIS.L["OH"], "Alt") --Star-Heart Lamp
-LBIS:AddItem(spec, "28260", LBIS.L["OH"], "Alt") --Manual of the Nethermancer
-LBIS:AddItem(spec, "29330", LBIS.L["OH"], "Alt") --The Saga of Terokk
+LBIS:AddItem(spec, "29271", LBIS.L["Off Hand"], "BIS") --Talisman of Kalecgos
+LBIS:AddItem(spec, "29273", LBIS.L["Off Hand"], "Alt") --Khadgar's Knapsack
+LBIS:AddItem(spec, "28412", LBIS.L["Off Hand"], "Alt") --Lamp of Peaceful Radiance
+LBIS:AddItem(spec, "23049", LBIS.L["Off Hand"], "Alt") --Sapphiron's Left Eye
+LBIS:AddItem(spec, "28187", LBIS.L["Off Hand"], "Alt") --Star-Heart Lamp
+LBIS:AddItem(spec, "28260", LBIS.L["Off Hand"], "Alt") --Manual of the Nethermancer
+LBIS:AddItem(spec, "29330", LBIS.L["Off Hand"], "Alt") --The Saga of Terokk
 
 LBIS:AddItem(spec, "27518", LBIS.L["Idol"], "BIS") --Ivory Idol of the Moongoddess
 LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "BIS") --Idol of the Raven Goddess

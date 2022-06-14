@@ -52,13 +52,13 @@ LBIS:AddItem(spec, "28785", LBIS.L["Trinket"], "BIS") --The Lightning Capacitor
 LBIS:AddItem(spec, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Crescent
 LBIS:AddItem(spec, "27683", LBIS.L["Trinket"], "Alt") --Quagmirran's Eye
 
-LBIS:AddItem(spec, "30723", LBIS.L["MH"], "BIS") --Talon of the Tempest
-LBIS:AddItem(spec, "28770", LBIS.L["MH"], "BIS") --Nathrezim Mindblade
-LBIS:AddItem(spec, "32450", LBIS.L["MH"], "Alt") --Gladiator's Gavel
+LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "BIS") --Talon of the Tempest
+LBIS:AddItem(spec, "28770", LBIS.L["Main Hand"], "BIS") --Nathrezim Mindblade
+LBIS:AddItem(spec, "32450", LBIS.L["Main Hand"], "Alt") --Gladiator's Gavel
 
-LBIS:AddItem(spec, "29273", LBIS.L["OH"], "BIS") --Khadgar's Knapsack
-LBIS:AddItem(spec, "29268", LBIS.L["OH"], "BIS") --Mazthoril Honor Shield
-LBIS:AddItem(spec, "28734", LBIS.L["OH"], "Alt") --Jewel of Infinite Possibilities
-LBIS:AddItem(spec, "28603", LBIS.L["OH"], "Alt") --Talisman of Nightbane
+LBIS:AddItem(spec, "29273", LBIS.L["Off Hand"], "BIS") --Khadgar's Knapsack
+LBIS:AddItem(spec, "29268", LBIS.L["Off Hand"], "BIS") --Mazthoril Honor Shield
+LBIS:AddItem(spec, "28734", LBIS.L["Off Hand"], "Alt") --Jewel of Infinite Possibilities
+LBIS:AddItem(spec, "28603", LBIS.L["Off Hand"], "Alt") --Talisman of Nightbane
 
 LBIS:AddItem(spec, "28248", LBIS.L["Totem"], "BIS") --Totem of the Void

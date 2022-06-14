@@ -123,16 +123,16 @@ LBIS:AddItem(spec, "28040", LBIS.L["Trinket"], "Alt") --Vengeance of the Illidar
 LBIS:AddItem(spec, "25620", LBIS.L["Trinket"], "Alt") --Ancient Crystal Talisman
 LBIS:AddItem(spec, "25619", LBIS.L["Trinket"], "Alt") --Glowing Crystal Insignia
 
-LBIS:AddItem(spec, "23554", LBIS.L["MH"], "BIS") --Eternium Runed Blade
-LBIS:AddItem(spec, "30787", LBIS.L["MH"], "Alt") --Illidari-Bane Mageblade
-LBIS:AddItem(spec, "29153", LBIS.L["MH"], "Alt") --Blade of the Archmage
-LBIS:AddItem(spec, "29155", LBIS.L["MH"], "Alt") --Stormcaller
-LBIS:AddItem(spec, "31336", LBIS.L["MH"], "Alt") --Blade of Wizardry
-LBIS:AddItem(spec, "27905", LBIS.L["MH"], "Alt") --Greatsword of Horrid Dreams
-LBIS:AddItem(spec, "27543", LBIS.L["MH"], "Alt") --Starlight Dagger
-LBIS:AddItem(spec, "29185", LBIS.L["MH"], "Alt") --Continuum Blade
-LBIS:AddItem(spec, "24453", LBIS.L["MH"], "Alt") --Zangartooth Shortblade
-LBIS:AddItem(spec, "31142", LBIS.L["MH"], "Alt") --Blade of Trapped Knowledge
+LBIS:AddItem(spec, "23554", LBIS.L["Main Hand"], "BIS") --Eternium Runed Blade
+LBIS:AddItem(spec, "30787", LBIS.L["Main Hand"], "Alt") --Illidari-Bane Mageblade
+LBIS:AddItem(spec, "29153", LBIS.L["Main Hand"], "Alt") --Blade of the Archmage
+LBIS:AddItem(spec, "29155", LBIS.L["Main Hand"], "Alt") --Stormcaller
+LBIS:AddItem(spec, "31336", LBIS.L["Main Hand"], "Alt") --Blade of Wizardry
+LBIS:AddItem(spec, "27905", LBIS.L["Main Hand"], "Alt") --Greatsword of Horrid Dreams
+LBIS:AddItem(spec, "27543", LBIS.L["Main Hand"], "Alt") --Starlight Dagger
+LBIS:AddItem(spec, "29185", LBIS.L["Main Hand"], "Alt") --Continuum Blade
+LBIS:AddItem(spec, "24453", LBIS.L["Main Hand"], "Alt") --Zangartooth Shortblade
+LBIS:AddItem(spec, "31142", LBIS.L["Main Hand"], "Alt") --Blade of Trapped Knowledge
 
 LBIS:AddItem(spec, "22589", LBIS.L["2H"], "BIS") --Atiesh, Greatstaff of the Guardian
 LBIS:AddItem(spec, "29355", LBIS.L["2H"], "Alt") --Terokk's Shadowstaff
@@ -142,15 +142,15 @@ LBIS:AddItem(spec, "27842", LBIS.L["2H"], "Alt") --Grand Scepter of the Nexus-Ki
 LBIS:AddItem(spec, "31308", LBIS.L["2H"], "Alt") --The Bringer of Death
 LBIS:AddItem(spec, "25760", LBIS.L["2H"], "Alt") --Battle Mage's Baton
 
-LBIS:AddItem(spec, "29270", LBIS.L["OH"], "BIS") --Flametongue Seal
-LBIS:AddItem(spec, "23049", LBIS.L["OH"], "Alt") --Sapphiron's Left Eye
-LBIS:AddItem(spec, "32651", LBIS.L["OH"], "Alt") --Crystal Orb of Enlightenment
-LBIS:AddItem(spec, "28412", LBIS.L["OH"], "Alt") --Lamp of Peaceful Radiance
-LBIS:AddItem(spec, "28187", LBIS.L["OH"], "Alt") --Star-Heart Lamp
-LBIS:AddItem(spec, "28260", LBIS.L["OH"], "Alt") --Manual of the Nethermancer
-LBIS:AddItem(spec, "27534", LBIS.L["OH"], "Alt") --Hortus' Seal of Brilliance
-LBIS:AddItem(spec, "31699", LBIS.L["OH"], "Alt") --Imbued Draenethyst Crystal
-LBIS:AddItem(spec, "31731", LBIS.L["OH"], "Alt") --Mekeda's Gift
+LBIS:AddItem(spec, "29270", LBIS.L["Off Hand"], "BIS") --Flametongue Seal
+LBIS:AddItem(spec, "23049", LBIS.L["Off Hand"], "Alt") --Sapphiron's Left Eye
+LBIS:AddItem(spec, "32651", LBIS.L["Off Hand"], "Alt") --Crystal Orb of Enlightenment
+LBIS:AddItem(spec, "28412", LBIS.L["Off Hand"], "Alt") --Lamp of Peaceful Radiance
+LBIS:AddItem(spec, "28187", LBIS.L["Off Hand"], "Alt") --Star-Heart Lamp
+LBIS:AddItem(spec, "28260", LBIS.L["Off Hand"], "Alt") --Manual of the Nethermancer
+LBIS:AddItem(spec, "27534", LBIS.L["Off Hand"], "Alt") --Hortus' Seal of Brilliance
+LBIS:AddItem(spec, "31699", LBIS.L["Off Hand"], "Alt") --Imbued Draenethyst Crystal
+LBIS:AddItem(spec, "31731", LBIS.L["Off Hand"], "Alt") --Mekeda's Gift
 
 LBIS:AddItem(spec, "22821", LBIS.L["Wand"], "BIS") --Doomfinger
 LBIS:AddItem(spec, "28386", LBIS.L["Wand"], "BIS") --Nether Core's Control Rod

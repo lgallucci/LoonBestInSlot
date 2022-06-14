@@ -66,11 +66,11 @@ LBIS:AddItem(spec, "32534", LBIS.L["Trinket"], "Alt") --Brooch of the Immortal K
 LBIS:AddItem(spec, "28789", LBIS.L["Trinket"], "Alt") --Eye of Magtheridon
 LBIS:AddItem(spec, "32489", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Zeal
 
-LBIS:AddItem(spec, "30910", LBIS.L["MH"], "BIS") --Tempest of Chaos
-LBIS:AddItem(spec, "33687", LBIS.L["MH"], "BIS") --Vengeful Gladiator's Gavel
-LBIS:AddItem(spec, "34009", LBIS.L["MH"], "Alt") --Hammer of Judgement
-LBIS:AddItem(spec, "32963", LBIS.L["MH"], "Alt") --Merciless Gladiator's Gavel
-LBIS:AddItem(spec, "30095", LBIS.L["MH"], "Alt") --Fang of the Leviathan
+LBIS:AddItem(spec, "30910", LBIS.L["Main Hand"], "BIS") --Tempest of Chaos
+LBIS:AddItem(spec, "33687", LBIS.L["Main Hand"], "BIS") --Vengeful Gladiator's Gavel
+LBIS:AddItem(spec, "34009", LBIS.L["Main Hand"], "Alt") --Hammer of Judgement
+LBIS:AddItem(spec, "32963", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Gavel
+LBIS:AddItem(spec, "30095", LBIS.L["Main Hand"], "Alt") --Fang of the Leviathan
 
 LBIS:AddItem(spec, "29388", LBIS.L["Libram"], "BIS Mit") --Libram of Repentance
 LBIS:AddItem(spec, "32368", LBIS.L["Libram"], "BIS Mit") --Tome of the Lightbringer

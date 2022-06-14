@@ -54,12 +54,12 @@ LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
 LBIS:AddItem(spec, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unraveller
 
-LBIS:AddItem(spec, "27846", LBIS.L["MH"], "BIS") --Claw of the Watcher
-LBIS:AddItem(spec, "28572", LBIS.L["MH"], "Alt") --Blade of the Unrequited
-LBIS:AddItem(spec, "28524", LBIS.L["MH"], "Alt") --Emerald Ripper
-LBIS:AddItem(spec, "28584", LBIS.L["MH"], "Alt") --Big Bad Wolf's Paw
+LBIS:AddItem(spec, "27846", LBIS.L["Main Hand"], "BIS") --Claw of the Watcher
+LBIS:AddItem(spec, "28572", LBIS.L["Main Hand"], "Alt") --Blade of the Unrequited
+LBIS:AddItem(spec, "28524", LBIS.L["Main Hand"], "Alt") --Emerald Ripper
+LBIS:AddItem(spec, "28584", LBIS.L["Main Hand"], "Alt") --Big Bad Wolf's Paw
 
-LBIS:AddItem(spec, "28315", LBIS.L["OH"], "BIS") --Stormreaver Warblades
+LBIS:AddItem(spec, "28315", LBIS.L["Off Hand"], "BIS") --Stormreaver Warblades
 
 LBIS:AddItem(spec, "28435", LBIS.L["2H"], "BIS") --Mooncleaver
 LBIS:AddItem(spec, "28587", LBIS.L["2H"], "Alt") --Legacy

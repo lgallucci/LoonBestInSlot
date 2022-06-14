@@ -82,13 +82,13 @@ LBIS:AddItem(spec, "22630", LBIS.L["2H"], "BIS") --Atiesh, Greatstaff of the Gua
 LBIS:AddItem(spec, "32055", LBIS.L["2H"], "Alt") --Merciless Gladiator's War Staff
 LBIS:AddItem(spec, "29988", LBIS.L["2H"], "Alt") --The Nexus Key
 
-LBIS:AddItem(spec, "32053", LBIS.L["MH"], "BIS") --Merciless Gladiator's Spellblade
-LBIS:AddItem(spec, "30095", LBIS.L["MH"], "BIS") --Fang of the Leviathan
-LBIS:AddItem(spec, "30723", LBIS.L["MH"], "BIS") --Talon of the Tempest
+LBIS:AddItem(spec, "32053", LBIS.L["Main Hand"], "BIS") --Merciless Gladiator's Spellblade
+LBIS:AddItem(spec, "30095", LBIS.L["Main Hand"], "BIS") --Fang of the Leviathan
+LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "BIS") --Talon of the Tempest
 
-LBIS:AddItem(spec, "30049", LBIS.L["OH"], "BIS") --Fathomstone
-LBIS:AddItem(spec, "29270", LBIS.L["OH"], "BIS") --Flametongue Seal
-LBIS:AddItem(spec, "29273", LBIS.L["OH"], "Alt") --Khadgar's Knapsack
+LBIS:AddItem(spec, "30049", LBIS.L["Off Hand"], "BIS") --Fathomstone
+LBIS:AddItem(spec, "29270", LBIS.L["Off Hand"], "BIS") --Flametongue Seal
+LBIS:AddItem(spec, "29273", LBIS.L["Off Hand"], "Alt") --Khadgar's Knapsack
 
 LBIS:AddItem(spec, "29982", LBIS.L["Wand"], "BIS") --Wand of the Forgotten Star
 LBIS:AddItem(spec, "28783", LBIS.L["Wand"], "Alt") --Eredar Wand of Obliteration

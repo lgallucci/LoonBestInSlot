@@ -91,7 +91,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Dealing with the Overmaster"] = "Покончить с Подчинителем";
   LBIS.L["Deathblow to the Legion"] = "Удар по Легиону";
   LBIS.L["Declawing Doomclaw"] = "Коготь Рока? Вырвать с мясом!";
---  LBIS.L["Defender Grashna,Shattrath City"] = "";
   LBIS.L["Demonology"] = "Демонология";
   LBIS.L["Destroy Naberius!"] = "Уничтожить Набериуса!";
   LBIS.L["Destruction"] = "Разрушение";
@@ -99,7 +98,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Dissension Amongst the Ranks..."] = "Удар исподтишка";
   LBIS.L["Doom Lord Kazzak"] = "Владыка судеб Каззак";
   LBIS.L["Doomwalker"] = "Судьболом";
---  LBIS.L["Down with Daellis"] = "";
+  LBIS.L["Down With Daellis"] = "Покончить с Даэллисом";
   LBIS.L["Dr. Boom!"] = "Доктор Бум!";
   LBIS.L["Dragonscale Leatherworking"] = "Кожевничество: чешуя драконов";
 --  LBIS.L["Drill the Drillmaster/The Foot of the Citadel"] = "";
@@ -139,10 +138,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["Ghaz'an"] = "Газ'ан";
 --  LBIS.L["Gloves"] = "";
 --  LBIS.L["Gnomish Engineer"] = "";
---  LBIS.L["Gordawg,Nagrand"] = "";
   LBIS.L["Grand Warlock Nethekurse"] = "Главный чернокнижник Пустоклят";
   LBIS.L["Grandmaster Vorpil"] = "Великий мастер Ворпил";
---  LBIS.L["Greatmother Geyah,Nagrand (Horde)"] = "";
   LBIS.L["Gruul the Dragonkiller"] = "Груул Драконобой";
   LBIS.L["Gruul's Lair"] = "Логово Груула";
   LBIS.L["Gurok the Usurper"] = "Гурок Узурпатор";
@@ -181,8 +178,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Illidan Stormrage"] = "Иллидан Ярость Бури";
   LBIS.L["Information Gathering"] = "Сбор информации";
   LBIS.L["Into the Heart of the Labyrinth"] = "В самом сердце Лабиринта";
---  LBIS.L["Ishanah,Shattrath City"] = "";
---  LBIS.L["It's a Fel Reaver,But with Heart"] = "";
+--  LBIS.L["It's a Fel Reaver, But with Heart"] = "";
   LBIS.L["Jan'alai"] = "Джан'алай";
   LBIS.L["Jewelcrafting"] = "Ювелирное дело";
   LBIS.L["Kael'thas Sunstrider"] = "Кель'тас Солнечный Скиталец";
@@ -214,7 +210,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Magisters' Terrace"] = "Терраса Магистров";
   LBIS.L["Magtheridon"] = "Магтеридон";
   LBIS.L["Magtheridon's Lair"] = "Логово Магтеридона";
---  LBIS.L["Magus Zabraxis,Hellfire Peninsula"] = "";
   LBIS.L["Maiden of Virtue"] = "Благочестивая дева";
   LBIS.L["Mana-Tombs"] = "Гробницы маны";
 --  LBIS.L["Mana-Tombs (Heroic)"] = "";
@@ -230,12 +225,13 @@ if GetLocale() == "ruRU" then
   LBIS.L["Mechano-Lord Capacitus"] = "Механолорд Конденсарон";
   LBIS.L["Mekgineer Steamrigger"] = "Анжинер Паропуск";
   LBIS.L["Mennu the Betrayer"] = "Менну Предатель";
---  LBIS.L["MH"] = "";
+--  LBIS.L["Main Hand"] = "";
   LBIS.L["Moroes"] = "Мороуз";
   LBIS.L["Morogrim Tidewalker"] = "Морогрим Волноступ";
   LBIS.L["Mother Shahraz"] = "Матушка Шахраз";
   LBIS.L["Murmur"] = "Бормотун";
   LBIS.L["Nagrand"] = "Награнд";
+--  LBIS.L["Nagrand (Horde)"] = "";
   LBIS.L["Nalorakk"] = "Налоракк";
   LBIS.L["Natural Remedies"] = "Целительная сила природы";
   LBIS.L["Neck"] = "Шея";
@@ -250,7 +246,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Nightbane"] = "Ночная Погибель";
 --  LBIS.L["No longer available"] = "";
   LBIS.L["Ogri'la"] = "Огри'ла";
---  LBIS.L["OH"] = "";
+--  LBIS.L["Off Hand"] = "";
   LBIS.L["Old Hillsbrad Foothills"] = "Старые предгорья Хилсбрада";
 --  LBIS.L["Old Hillsbrad Foothills (Heroic)"] = "";
   LBIS.L["Omor the Unscarred"] = "Омор Неодолимый";
@@ -282,7 +278,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Retribution"] = "Возмездие";
   LBIS.L["Return to Andormu"] = "Возвращение к Андорму";
   LBIS.L["Revered"] = "Почтение";
---  LBIS.L["Rexxar,Blade's Edge Mountains"] = "";
   LBIS.L["Ring"] = "Палец";
   LBIS.L["Rokmar the Crackler"] = "Рокмар Трескун";
   LBIS.L["Securing the Celestial Ridge"] = "Безопасность Небесной гряды";
@@ -316,7 +311,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Spellfire Tailoring"] = "";
 --  LBIS.L["Spirit Sage Gartok, Spirit Sage Zran"] = "";
 --  LBIS.L["Spirit Shard"] = "";
---  LBIS.L["Spy To'gun,Shadow Labyrinth"] = "";
   LBIS.L["Subdue the Subduer"] = "Покорить Покорителя";
   LBIS.L["Success!"] = "Готово!";
   LBIS.L["Sunwell Plateau"] = "Плато Солнечного Колодца";
@@ -336,7 +330,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Terokk's Legacy"] = "Наследство Терокка";
   LBIS.L["Terokkar Forest"] = "Лес Тероккар";
   LBIS.L["Teron Gorefiend"] = "Терон Кровожад";
---  LBIS.L["Teron Gorefiend,I am..."] = "";
+--  LBIS.L["Teron Gorefiend, I am..."] = "";
   LBIS.L["The Aldor"] = "Алдоры";
 --  LBIS.L["The Aldor/Scryers"] = "";
   LBIS.L["The Arcatraz"] = "Аркатрац";
@@ -391,7 +385,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Thrallmar"] = "Траллмар";
   LBIS.L["Thwart the Dark Conclave"] = "Крах темного конклава";
 --  LBIS.L["Timed Event"] = "";
---  LBIS.L["Timeon,Blade's Edge Mountains"] = "";
 --  LBIS.L["Token"] = "";
   LBIS.L["Torgos!"] = "Торгос!";
   LBIS.L["Totem"] = "Тотем";
@@ -410,16 +403,13 @@ if GetLocale() == "ruRU" then
   LBIS.L["Vendor"] = "Торговец";
   LBIS.L["Vexallus"] = "Вексалиус";
   LBIS.L["Void Reaver"] = "Страж Бездны";
---  LBIS.L["Voren'thal the Seer,Shattrath City"] = "";
   LBIS.L["Wand"] = "Жезл";
   LBIS.L["Wanted: Annihilator Servo!"] = "Разыскивается: аннигиляторный сервопривод!";
   LBIS.L["Warbringer O'mrogg"] = "О'мрогг Завоеватель";
   LBIS.L["Warchief Kargath Bladefist"] = "Вождь Каргат Острорук";
   LBIS.L["Warlord Kalithresh"] = "Полководец Калитреш";
   LBIS.L["Warp Splinter"] = "Узлодревень";
---  LBIS.L["Watcher Jhang,Zangarmarsh"] = "";
   LBIS.L["Watchkeeper Gargolmar"] = "Начальник стражи Гарголмар";
---  LBIS.L["Wazat,Nagrand"] = "";
 --  LBIS.L["Weird Blades Edged Quest w/ Depleted Sword"] = "";
   LBIS.L["When the Cows Come Home"] = "Когда коровы возвращаются домой";
   LBIS.L["Whispers of the Raven God"] = "Шепот Бога-ворона";

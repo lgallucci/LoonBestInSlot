@@ -69,15 +69,15 @@ LBIS:AddItem(spec, "19288", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Blue Drag
 LBIS:AddItem(spec, "35750", LBIS.L["Trinket"], "BIS") --Redeemer's Alchemist Stone
 LBIS:AddItem(spec, "34430", LBIS.L["Trinket"], "Alt") --Glimmering Naaru Sliver
 
-LBIS:AddItem(spec, "34335", LBIS.L["MH"], "BIS") --Hammer of Sanctification
-LBIS:AddItem(spec, "34337", LBIS.L["MH"], "BIS") --Golden Staff of the Sin'dorei
-LBIS:AddItem(spec, "32500", LBIS.L["MH"], "Alt") --Crystal Spire of Karabor
-LBIS:AddItem(spec, "34199", LBIS.L["MH"], "Alt") --Archon's Gavel
-LBIS:AddItem(spec, "35082", LBIS.L["MH"], "Alt") --Brutal Gladiator's Salvation
-LBIS:AddItem(spec, "34896", LBIS.L["MH"], "Alt") --Gavel of Naaru Blessings
+LBIS:AddItem(spec, "34335", LBIS.L["Main Hand"], "BIS") --Hammer of Sanctification
+LBIS:AddItem(spec, "34337", LBIS.L["Main Hand"], "BIS") --Golden Staff of the Sin'dorei
+LBIS:AddItem(spec, "32500", LBIS.L["Main Hand"], "Alt") --Crystal Spire of Karabor
+LBIS:AddItem(spec, "34199", LBIS.L["Main Hand"], "Alt") --Archon's Gavel
+LBIS:AddItem(spec, "35082", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Salvation
+LBIS:AddItem(spec, "34896", LBIS.L["Main Hand"], "Alt") --Gavel of Naaru Blessings
 
-LBIS:AddItem(spec, "34206", LBIS.L["OH"], "BIS") --Book of Highborne Hymns
-LBIS:AddItem(spec, "30911", LBIS.L["OH"], "Alt") --Scepter of Purification
+LBIS:AddItem(spec, "34206", LBIS.L["Off Hand"], "BIS") --Book of Highborne Hymns
+LBIS:AddItem(spec, "30911", LBIS.L["Off Hand"], "Alt") --Scepter of Purification
 
 LBIS:AddItem(spec, "34348", LBIS.L["Wand"], "BIS") --Wand of Cleansing Light
 LBIS:AddItem(spec, "32363", LBIS.L["Wand"], "Alt") --Naaru-Blessed Life Rod

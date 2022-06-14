@@ -59,11 +59,11 @@ LBIS:AddItem(spec, "28590", LBIS.L["Trinket"], "BIS") --Ribbon of Sacrifice
 LBIS:AddItem(spec, "23047", LBIS.L["Trinket"], "Alt") --Eye of the Dead
 LBIS:AddItem(spec, "30841", LBIS.L["Trinket"], "Alt") --Lower City Prayerbook
 
-LBIS:AddItem(spec, "30108", LBIS.L["MH"], "BIS") --Lightfathom Scepter
-LBIS:AddItem(spec, "28771", LBIS.L["MH"], "Alt") --Light's Justice
+LBIS:AddItem(spec, "30108", LBIS.L["Main Hand"], "BIS") --Lightfathom Scepter
+LBIS:AddItem(spec, "28771", LBIS.L["Main Hand"], "Alt") --Light's Justice
 
-LBIS:AddItem(spec, "29923", LBIS.L["OH"], "BIS") --Talisman of the Sun King
-LBIS:AddItem(spec, "29458", LBIS.L["OH"], "BIS") --Aegis of the Vindicator
-LBIS:AddItem(spec, "29267", LBIS.L["OH"], "Alt") --Light-Bearer's Faith Shield
+LBIS:AddItem(spec, "29923", LBIS.L["Off Hand"], "BIS") --Talisman of the Sun King
+LBIS:AddItem(spec, "29458", LBIS.L["Off Hand"], "BIS") --Aegis of the Vindicator
+LBIS:AddItem(spec, "29267", LBIS.L["Off Hand"], "Alt") --Light-Bearer's Faith Shield
 
 LBIS:AddItem(spec, "28592", LBIS.L["Libram"], "BIS") --Libram of Souls Redeemed

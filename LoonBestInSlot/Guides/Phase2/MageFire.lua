@@ -68,14 +68,14 @@ LBIS:AddItem(spec, "31856", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Crusade
 LBIS:AddItem(spec, "29132", LBIS.L["Trinket"], "Alt") --Scryer's Bloodgem
 LBIS:AddItem(spec, "30720", LBIS.L["Trinket"], "Alt") --Serpent-Coil Braid
 
-LBIS:AddItem(spec, "30095", LBIS.L["MH"], "BIS") --Fang of the Leviathan
-LBIS:AddItem(spec, "30723", LBIS.L["MH"], "Alt") --Talon of the Tempest
+LBIS:AddItem(spec, "30095", LBIS.L["Main Hand"], "BIS") --Fang of the Leviathan
+LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "Alt") --Talon of the Tempest
 
 LBIS:AddItem(spec, "29988", LBIS.L["2H"], "BIS") --The Nexus Key
 LBIS:AddItem(spec, "28633", LBIS.L["2H"], "Alt") --Staff of Infinite Mysteries
 
-LBIS:AddItem(spec, "29270", LBIS.L["OH"], "BIS") --Flametongue Seal
-LBIS:AddItem(spec, "30049", LBIS.L["OH"], "Alt") --Fathomstone
+LBIS:AddItem(spec, "29270", LBIS.L["Off Hand"], "BIS") --Flametongue Seal
+LBIS:AddItem(spec, "30049", LBIS.L["Off Hand"], "Alt") --Fathomstone
 
 LBIS:AddItem(spec, "29982", LBIS.L["Wand"], "BIS") --Wand of the Forgotten Star
 LBIS:AddItem(spec, "28783", LBIS.L["Wand"], "Alt") --Eredar Wand of Obliteration

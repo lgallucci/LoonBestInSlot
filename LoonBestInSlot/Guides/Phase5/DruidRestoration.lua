@@ -77,19 +77,19 @@ LBIS:AddItem(spec, "35750", LBIS.L["Trinket"], "BIS") --Redeemer's Alchemist Sto
 LBIS:AddItem(spec, "34430", LBIS.L["Trinket"], "BIS") --Glimmering Naaru Sliver
 LBIS:AddItem(spec, "32496", LBIS.L["Trinket"], "BIS") --Memento of Tyrande
 
-LBIS:AddItem(spec, "34335", LBIS.L["MH"], "BIS") --Hammer of Sanctification
-LBIS:AddItem(spec, "34199", LBIS.L["MH"], "Alt") --Archon's Gavel
-LBIS:AddItem(spec, "35082", LBIS.L["MH"], "Alt") --Brutal Gladiator's Salvation
-LBIS:AddItem(spec, "32500", LBIS.L["MH"], "BIS") --Crystal Spire of Karabor
-LBIS:AddItem(spec, "34896", LBIS.L["MH"], "Alt") --Gavel of Naaru Blessings
+LBIS:AddItem(spec, "34335", LBIS.L["Main Hand"], "BIS") --Hammer of Sanctification
+LBIS:AddItem(spec, "34199", LBIS.L["Main Hand"], "Alt") --Archon's Gavel
+LBIS:AddItem(spec, "35082", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Salvation
+LBIS:AddItem(spec, "32500", LBIS.L["Main Hand"], "BIS") --Crystal Spire of Karabor
+LBIS:AddItem(spec, "34896", LBIS.L["Main Hand"], "Alt") --Gavel of Naaru Blessings
 
 LBIS:AddItem(spec, "34337", LBIS.L["2H"], "BIS") --Golden Staff of the Sin'dorei
 LBIS:AddItem(spec, "30908", LBIS.L["2H"], "Alt") --Apostle of Argus
 LBIS:AddItem(spec, "34608", LBIS.L["2H"], "Alt") --Rod of the Blazing Light
 
-LBIS:AddItem(spec, "34206", LBIS.L["OH"], "BIS") --Book of Highborne Hymns
-LBIS:AddItem(spec, "30911", LBIS.L["OH"], "BIS") --Scepter of Purification
-LBIS:AddItem(spec, "35074", LBIS.L["OH"], "Alt") --Brutal Gladiator's Reprieve
+LBIS:AddItem(spec, "34206", LBIS.L["Off Hand"], "BIS") --Book of Highborne Hymns
+LBIS:AddItem(spec, "30911", LBIS.L["Off Hand"], "BIS") --Scepter of Purification
+LBIS:AddItem(spec, "35074", LBIS.L["Off Hand"], "Alt") --Brutal Gladiator's Reprieve
 
 LBIS:AddItem(spec, "27886", LBIS.L["Idol"], "BIS") --Idol of the Emerald Queen
 LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "BIS") --Idol of the Raven Goddess

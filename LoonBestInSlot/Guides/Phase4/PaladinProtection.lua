@@ -48,9 +48,9 @@ LBIS:AddItem(spec, "32501", LBIS.L["Trinket"], "BIS") --Shadowmoon Insignia
 LBIS:AddItem(spec, "33830", LBIS.L["Trinket"], "Alt") --Ancient Aqir Artifact
 LBIS:AddItem(spec, "33829", LBIS.L["Trinket"], "Alt") --Hex Shrunken Head
 
-LBIS:AddItem(spec, "30910", LBIS.L["MH"], "BIS") --Tempest of Chaos
-LBIS:AddItem(spec, "33687", LBIS.L["MH"], "BIS") --Vengeful Gladiator's Gavel
-LBIS:AddItem(spec, "33283", LBIS.L["MH"], "Alt") --Amani Punisher
+LBIS:AddItem(spec, "30910", LBIS.L["Main Hand"], "BIS") --Tempest of Chaos
+LBIS:AddItem(spec, "33687", LBIS.L["Main Hand"], "BIS") --Vengeful Gladiator's Gavel
+LBIS:AddItem(spec, "33283", LBIS.L["Main Hand"], "Alt") --Amani Punisher
 
 LBIS:AddItem(spec, "29388", LBIS.L["Libram"], "BIS Mit") --Libram of Repentance
 LBIS:AddItem(spec, "32368", LBIS.L["Libram"], "BIS Mit") --Tome of the Lightbringer

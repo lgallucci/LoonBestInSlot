@@ -76,16 +76,16 @@ LBIS:AddItem(spec, "31856", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Crusade
 LBIS:AddItem(spec, "32374", LBIS.L["2H"], "BIS") --Zhar'doom, Greatstaff of the Devourer
 LBIS:AddItem(spec, "22630", LBIS.L["2H"], "Alt") --Atiesh, Greatstaff of the Guardian
 
-LBIS:AddItem(spec, "30910", LBIS.L["MH"], "BIS") --Tempest of Chaos
-LBIS:AddItem(spec, "33763", LBIS.L["MH"], "Alt") --Vengeful Gladiator's Spellblade
-LBIS:AddItem(spec, "32237", LBIS.L["MH"], "Alt") --The Maelstrom's Fury
-LBIS:AddItem(spec, "32053", LBIS.L["MH"], "Alt") --Merciless Gladiator's Spellblade
-LBIS:AddItem(spec, "30095", LBIS.L["MH"], "Alt") --Fang of the Leviathan
-LBIS:AddItem(spec, "30723", LBIS.L["MH"], "Alt") --Talon of the Tempest
+LBIS:AddItem(spec, "30910", LBIS.L["Main Hand"], "BIS") --Tempest of Chaos
+LBIS:AddItem(spec, "33763", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Spellblade
+LBIS:AddItem(spec, "32237", LBIS.L["Main Hand"], "Alt") --The Maelstrom's Fury
+LBIS:AddItem(spec, "32053", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Spellblade
+LBIS:AddItem(spec, "30095", LBIS.L["Main Hand"], "Alt") --Fang of the Leviathan
+LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "Alt") --Talon of the Tempest
 
-LBIS:AddItem(spec, "30872", LBIS.L["OH"], "BIS") --Chronicle of Dark Secrets
-LBIS:AddItem(spec, "32361", LBIS.L["OH"], "Alt") --Blind-Seers Icon
-LBIS:AddItem(spec, "30049", LBIS.L["OH"], "Alt") --Fathomstone
+LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "BIS") --Chronicle of Dark Secrets
+LBIS:AddItem(spec, "32361", LBIS.L["Off Hand"], "Alt") --Blind-Seers Icon
+LBIS:AddItem(spec, "30049", LBIS.L["Off Hand"], "Alt") --Fathomstone
 
 LBIS:AddItem(spec, "29982", LBIS.L["Wand"], "BIS") --Wand of the Forgotten Star
 LBIS:AddItem(spec, "32343", LBIS.L["Wand"], "Alt") --Wand of Prismatic Focus

@@ -59,21 +59,21 @@ LBIS:AddItem(spec, "30450", LBIS.L["Trinket"], "BIS") --Warp-Spring Coil
 LBIS:AddItem(spec, "30627", LBIS.L["Trinket"], "Alt") --Tsunami Talisman
 LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "Alt") --Bloodlust Brooch
 
-LBIS:AddItem(spec, "30082", LBIS.L["MH"], "BIS") --Talon of Azshara
-LBIS:AddItem(spec, "28439", LBIS.L["MH"], "Alt") --Dragonstrike
-LBIS:AddItem(spec, "32052", LBIS.L["MH"], "Alt") --Merciless Gladiator's Slicer
-LBIS:AddItem(spec, "32944", LBIS.L["MH"], "Alt") --Talon of the Phoenix
-LBIS:AddItem(spec, "29996", LBIS.L["MH"], "Alt") --Rod of the Sun King
-LBIS:AddItem(spec, "28438", LBIS.L["MH"], "Alt") --Dragonmaw
-LBIS:AddItem(spec, "28295", LBIS.L["MH"], "Alt") --Gladiator's Slicer
-LBIS:AddItem(spec, "30103", LBIS.L["MH"], "BIS Dagger") --Fang of Vashj
-LBIS:AddItem(spec, "29962", LBIS.L["MH"], "Alt Dagger") --Heartrazor
+LBIS:AddItem(spec, "30082", LBIS.L["Main Hand"], "BIS") --Talon of Azshara
+LBIS:AddItem(spec, "28439", LBIS.L["Main Hand"], "Alt") --Dragonstrike
+LBIS:AddItem(spec, "32052", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Slicer
+LBIS:AddItem(spec, "32944", LBIS.L["Main Hand"], "Alt") --Talon of the Phoenix
+LBIS:AddItem(spec, "29996", LBIS.L["Main Hand"], "Alt") --Rod of the Sun King
+LBIS:AddItem(spec, "28438", LBIS.L["Main Hand"], "Alt") --Dragonmaw
+LBIS:AddItem(spec, "28295", LBIS.L["Main Hand"], "Alt") --Gladiator's Slicer
+LBIS:AddItem(spec, "30103", LBIS.L["Main Hand"], "BIS Dagger") --Fang of Vashj
+LBIS:AddItem(spec, "29962", LBIS.L["Main Hand"], "Alt Dagger") --Heartrazor
 
-LBIS:AddItem(spec, "32027", LBIS.L["OH"], "BIS") --Merciless Gladiator's Quickblade
-LBIS:AddItem(spec, "28307", LBIS.L["OH"], "Alt") --Gladiator's Quickblade
-LBIS:AddItem(spec, "28189", LBIS.L["OH"], "Alt") --Latro's Shifting Sword
-LBIS:AddItem(spec, "32046", LBIS.L["OH"], "BIS Dagger") --Merciless Gladiator's Shiv
-LBIS:AddItem(spec, "29275", LBIS.L["OH"], "Alt Dagger") --Searing Sunblade
+LBIS:AddItem(spec, "32027", LBIS.L["Off Hand"], "BIS") --Merciless Gladiator's Quickblade
+LBIS:AddItem(spec, "28307", LBIS.L["Off Hand"], "Alt") --Gladiator's Quickblade
+LBIS:AddItem(spec, "28189", LBIS.L["Off Hand"], "Alt") --Latro's Shifting Sword
+LBIS:AddItem(spec, "32046", LBIS.L["Off Hand"], "BIS Dagger") --Merciless Gladiator's Shiv
+LBIS:AddItem(spec, "29275", LBIS.L["Off Hand"], "Alt Dagger") --Searing Sunblade
 
 LBIS:AddItem(spec, "29949", LBIS.L["Ranged"], "BIS") --Arcanite Steam-Pistol
 LBIS:AddItem(spec, "29151", LBIS.L["Ranged"], "Alt") --Veteran's Musket

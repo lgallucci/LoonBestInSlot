@@ -42,14 +42,14 @@ LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec, "30450", LBIS.L["Trinket"], "BIS") --Warp-Spring Coil
 LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "BIS") --Berserker's Call
 
-LBIS:AddItem(spec, "32837", LBIS.L["MH"], "BIS") --Warglaive of Azzinoth
-LBIS:AddItem(spec, "33388", LBIS.L["MH"], "Alt") --Heartless
-LBIS:AddItem(spec, "32471", LBIS.L["MH"], "BIS Dagger") --Shard of Azzinoth
+LBIS:AddItem(spec, "32837", LBIS.L["Main Hand"], "BIS") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "33388", LBIS.L["Main Hand"], "Alt") --Heartless
+LBIS:AddItem(spec, "32471", LBIS.L["Main Hand"], "BIS Dagger") --Shard of Azzinoth
 
-LBIS:AddItem(spec, "32838", LBIS.L["OH"], "BIS") --Warglaive of Azzinoth
-LBIS:AddItem(spec, "32369", LBIS.L["OH"], "BIS") --Blade of Savagery
-LBIS:AddItem(spec, "33214", LBIS.L["OH"], "Alt") --Akil'zon's Talonblade
-LBIS:AddItem(spec, "33756", LBIS.L["OH"], "BIS Dagger") --Vengeful Gladiator's Shiv
+LBIS:AddItem(spec, "32838", LBIS.L["Off Hand"], "BIS") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "32369", LBIS.L["Off Hand"], "BIS") --Blade of Savagery
+LBIS:AddItem(spec, "33214", LBIS.L["Off Hand"], "Alt") --Akil'zon's Talonblade
+LBIS:AddItem(spec, "33756", LBIS.L["Off Hand"], "BIS Dagger") --Vengeful Gladiator's Shiv
 
 LBIS:AddItem(spec, "29949", LBIS.L["Ranged"], "BIS") --Arcanite Steam-Pistol
 LBIS:AddItem(spec, "33474", LBIS.L["Ranged"], "Alt") --Ancient Amani Longbow

@@ -89,20 +89,20 @@ LBIS:AddItem(spec, "27922", LBIS.L["Trinket"], "Alt") --Mark of Defiance
 LBIS:AddItem(spec, "27924", LBIS.L["Trinket"], "Alt") --Mark of Defiance
 LBIS:AddItem(spec, "38290", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
 
-LBIS:AddItem(spec, "30832", LBIS.L["MH"], "BIS") --Gavel of Unearthed Secrets
-LBIS:AddItem(spec, "23554", LBIS.L["MH"], "BIS") --Eternium Runed Blade
-LBIS:AddItem(spec, "30723", LBIS.L["MH"], "BIS") --Talon of the Tempest
-LBIS:AddItem(spec, "33687", LBIS.L["MH"], "BIS") --Vengeful Gladiator's Gavel
-LBIS:AddItem(spec, "32963", LBIS.L["MH"], "Alt") --Merciless Gladiator's Gavel
-LBIS:AddItem(spec, "32450", LBIS.L["MH"], "Alt") --Gladiator's Gavel
-LBIS:AddItem(spec, "27937", LBIS.L["MH"], "Alt") --Sky Breaker
-LBIS:AddItem(spec, "27543", LBIS.L["MH"], "Alt") --Starlight Dagger
-LBIS:AddItem(spec, "27868", LBIS.L["MH"], "Alt") --Runesong Dagger
-LBIS:AddItem(spec, "27741", LBIS.L["MH"], "Alt") --Bleeding Hollow Warhammer
+LBIS:AddItem(spec, "30832", LBIS.L["Main Hand"], "BIS") --Gavel of Unearthed Secrets
+LBIS:AddItem(spec, "23554", LBIS.L["Main Hand"], "BIS") --Eternium Runed Blade
+LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "BIS") --Talon of the Tempest
+LBIS:AddItem(spec, "33687", LBIS.L["Main Hand"], "BIS") --Vengeful Gladiator's Gavel
+LBIS:AddItem(spec, "32963", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Gavel
+LBIS:AddItem(spec, "32450", LBIS.L["Main Hand"], "Alt") --Gladiator's Gavel
+LBIS:AddItem(spec, "27937", LBIS.L["Main Hand"], "Alt") --Sky Breaker
+LBIS:AddItem(spec, "27543", LBIS.L["Main Hand"], "Alt") --Starlight Dagger
+LBIS:AddItem(spec, "27868", LBIS.L["Main Hand"], "Alt") --Runesong Dagger
+LBIS:AddItem(spec, "27741", LBIS.L["Main Hand"], "Alt") --Bleeding Hollow Warhammer
 
-LBIS:AddItem(spec, "29272", LBIS.L["OH"], "BIS") --Orb of the Soul-Eater
-LBIS:AddItem(spec, "29273", LBIS.L["OH"], "Alt") --Khadgar's Knapsack
-LBIS:AddItem(spec, "19309", LBIS.L["OH"], "Alt") --Tome of Shadow Force
+LBIS:AddItem(spec, "29272", LBIS.L["Off Hand"], "BIS") --Orb of the Soul-Eater
+LBIS:AddItem(spec, "29273", LBIS.L["Off Hand"], "Alt") --Khadgar's Knapsack
+LBIS:AddItem(spec, "19309", LBIS.L["Off Hand"], "Alt") --Tome of Shadow Force
 
 LBIS:AddItem(spec, "32872", LBIS.L["Wand"], "BIS") --Illidari Rod of Discipline
 LBIS:AddItem(spec, "29350", LBIS.L["Wand"], "Alt") --The Black Stalk

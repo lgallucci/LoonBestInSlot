@@ -50,14 +50,14 @@ LBIS:AddItem(spec, "29283", LBIS.L["Ring"], "Alt") --Violet Signet of the Master
 LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
 
-LBIS:AddItem(spec, "28313", LBIS.L["MH"], "BIS (MH)") --Gladiator's Right Ripper
-LBIS:AddItem(spec, "28308", LBIS.L["MH"], "BIS (All)") --Gladiator's Cleaver
-LBIS:AddItem(spec, "28767", LBIS.L["MH"], "BIS (MH)") --The Decapitator
-LBIS:AddItem(spec, "27872", LBIS.L["MH"], "BIS (OH)") --The Harvester of Souls
-LBIS:AddItem(spec, "28944", LBIS.L["MH"], "BIS (OH)") --Grand Marshal's Cleaver
-LBIS:AddItem(spec, "28920", LBIS.L["MH"], "BIS (OH)") --High Warlord's Cleaver
-LBIS:AddItem(spec, "28657", LBIS.L["MH"], "Alt") --Fool's Bane
-LBIS:AddItem(spec, "28438", LBIS.L["MH"], "Alt (MH)") --Dragonmaw
-LBIS:AddItem(spec, "28432", LBIS.L["MH"], "Alt (MH)") --Black Planar Edge
+LBIS:AddItem(spec, "28313", LBIS.L["Main Hand"], "BIS (MH)") --Gladiator's Right Ripper
+LBIS:AddItem(spec, "28308", LBIS.L["Main Hand"], "BIS (All)") --Gladiator's Cleaver
+LBIS:AddItem(spec, "28767", LBIS.L["Main Hand"], "BIS (MH)") --The Decapitator
+LBIS:AddItem(spec, "27872", LBIS.L["Main Hand"], "BIS (OH)") --The Harvester of Souls
+LBIS:AddItem(spec, "28944", LBIS.L["Main Hand"], "BIS (OH)") --Grand Marshal's Cleaver
+LBIS:AddItem(spec, "28920", LBIS.L["Main Hand"], "BIS (OH)") --High Warlord's Cleaver
+LBIS:AddItem(spec, "28657", LBIS.L["Main Hand"], "Alt") --Fool's Bane
+LBIS:AddItem(spec, "28438", LBIS.L["Main Hand"], "Alt (MH)") --Dragonmaw
+LBIS:AddItem(spec, "28432", LBIS.L["Main Hand"], "Alt (MH)") --Black Planar Edge
 
 LBIS:AddItem(spec, "27815", LBIS.L["Totem"], "BIS") --Totem of the Astral Winds

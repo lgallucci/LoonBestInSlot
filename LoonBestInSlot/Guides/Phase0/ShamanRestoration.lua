@@ -63,18 +63,18 @@ LBIS:AddItem(spec, "30841", LBIS.L["Trinket"], "Alt") --Lower City Prayerbook
 LBIS:AddItem(spec, "24390", LBIS.L["Trinket"], "Alt") --Auslese's Light Channeler
 LBIS:AddItem(spec, "25634", LBIS.L["Trinket"], "Alt") --Oshu'gun Relic
 
-LBIS:AddItem(spec, "32451", LBIS.L["MH"], "BIS") --Gladiator's Salvation
-LBIS:AddItem(spec, "23556", LBIS.L["MH"], "Alt") --Hand of Eternity
-LBIS:AddItem(spec, "29353", LBIS.L["MH"], "Alt") --Shockwave Truncheon
-LBIS:AddItem(spec, "31342", LBIS.L["MH"], "Alt") --The Ancient Scepter of Sue-Min
-LBIS:AddItem(spec, "29175", LBIS.L["MH"], "Alt") --Gavel of Pure Light
+LBIS:AddItem(spec, "32451", LBIS.L["Main Hand"], "BIS") --Gladiator's Salvation
+LBIS:AddItem(spec, "23556", LBIS.L["Main Hand"], "Alt") --Hand of Eternity
+LBIS:AddItem(spec, "29353", LBIS.L["Main Hand"], "Alt") --Shockwave Truncheon
+LBIS:AddItem(spec, "31342", LBIS.L["Main Hand"], "Alt") --The Ancient Scepter of Sue-Min
+LBIS:AddItem(spec, "29175", LBIS.L["Main Hand"], "Alt") --Gavel of Pure Light
 
-LBIS:AddItem(spec, "29267", LBIS.L["OH"], "BIS") --Light-Bearer's Faith Shield
-LBIS:AddItem(spec, "29274", LBIS.L["OH"], "Alt") --Tears of Heaven
-LBIS:AddItem(spec, "22819", LBIS.L["OH"], "Alt") --Shield of Condemnation
-LBIS:AddItem(spec, "27477", LBIS.L["OH"], "Alt") --Faol's Signet of Cleansing
-LBIS:AddItem(spec, "27772", LBIS.L["OH"], "Alt") --Stormshield of Renewal
-LBIS:AddItem(spec, "31292", LBIS.L["OH"], "Alt") --Crystal Pulse Shield
+LBIS:AddItem(spec, "29267", LBIS.L["Off Hand"], "BIS") --Light-Bearer's Faith Shield
+LBIS:AddItem(spec, "29274", LBIS.L["Off Hand"], "Alt") --Tears of Heaven
+LBIS:AddItem(spec, "22819", LBIS.L["Off Hand"], "Alt") --Shield of Condemnation
+LBIS:AddItem(spec, "27477", LBIS.L["Off Hand"], "Alt") --Faol's Signet of Cleansing
+LBIS:AddItem(spec, "27772", LBIS.L["Off Hand"], "Alt") --Stormshield of Renewal
+LBIS:AddItem(spec, "31292", LBIS.L["Off Hand"], "Alt") --Crystal Pulse Shield
 
 LBIS:AddItem(spec, "27544", LBIS.L["Totem"], "BIS") --Totem of Spontaneous Regrowth
 LBIS:AddItem(spec, "22396", LBIS.L["Totem"], "Alt") --Totem of Life

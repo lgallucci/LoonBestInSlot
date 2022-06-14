@@ -45,11 +45,11 @@ LBIS:AddItem(spec, "32483", LBIS.L["Trinket"], "BIS") --The Skull of Gul'dan
 LBIS:AddItem(spec, "33829", LBIS.L["Trinket"], "BIS") --Hex Shrunken Head
 LBIS:AddItem(spec, "32488", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Insight
 
-LBIS:AddItem(spec, "32374", LBIS.L["MH"], "BIS") --Zhar'doom, Greatstaff of the Devourer
-LBIS:AddItem(spec, "33467", LBIS.L["MH"], "Alt") --Blade of Twisted Visions
+LBIS:AddItem(spec, "32374", LBIS.L["Main Hand"], "BIS") --Zhar'doom, Greatstaff of the Devourer
+LBIS:AddItem(spec, "33467", LBIS.L["Main Hand"], "Alt") --Blade of Twisted Visions
 
-LBIS:AddItem(spec, "33334", LBIS.L["OH"], "BIS") --Fetish of the Primal Gods
-LBIS:AddItem(spec, "30872", LBIS.L["OH"], "Alt") --Chronicle of Dark Secrets
+LBIS:AddItem(spec, "33334", LBIS.L["Off Hand"], "BIS") --Fetish of the Primal Gods
+LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "Alt") --Chronicle of Dark Secrets
 
 LBIS:AddItem(spec, "33192", LBIS.L["Wand"], "BIS") --Carved Witch Doctor's Stick
 LBIS:AddItem(spec, "29982", LBIS.L["Wand"], "Alt") --Wand of the Forgotten Star

@@ -62,15 +62,15 @@ LBIS:AddItem(spec, "32483", LBIS.L["Trinket"], "BIS") --The Skull of Gul'dan
 LBIS:AddItem(spec, "32488", LBIS.L["Trinket"], "BIS") --Ashtongue Talisman of Insight
 LBIS:AddItem(spec, "29370", LBIS.L["Trinket"], "Alt") --Icon of the Silver Crescent
 
-LBIS:AddItem(spec, "32374", LBIS.L["MH"], "BIS") --Zhar'doom, Greatstaff of the Devourer
-LBIS:AddItem(spec, "30910", LBIS.L["MH"], "BIS") --Tempest of Chaos
-LBIS:AddItem(spec, "34540", LBIS.L["MH"], "Alt") --Vengeful Gladiator's Battle Staff
-LBIS:AddItem(spec, "32237", LBIS.L["MH"], "Alt") --The Maelstrom's Fury
-LBIS:AddItem(spec, "29988", LBIS.L["MH"], "Alt") --The Nexus Key
-LBIS:AddItem(spec, "32055", LBIS.L["MH"], "Alt") --Merciless Gladiator's War Staff
+LBIS:AddItem(spec, "32374", LBIS.L["Main Hand"], "BIS") --Zhar'doom, Greatstaff of the Devourer
+LBIS:AddItem(spec, "30910", LBIS.L["Main Hand"], "BIS") --Tempest of Chaos
+LBIS:AddItem(spec, "34540", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Battle Staff
+LBIS:AddItem(spec, "32237", LBIS.L["Main Hand"], "Alt") --The Maelstrom's Fury
+LBIS:AddItem(spec, "29988", LBIS.L["Main Hand"], "Alt") --The Nexus Key
+LBIS:AddItem(spec, "32055", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's War Staff
 
-LBIS:AddItem(spec, "30872", LBIS.L["OH"], "BIS") --Chronicle of Dark Secrets
-LBIS:AddItem(spec, "32361", LBIS.L["OH"], "Alt") --Blind-Seers Icon
+LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "BIS") --Chronicle of Dark Secrets
+LBIS:AddItem(spec, "32361", LBIS.L["Off Hand"], "Alt") --Blind-Seers Icon
 
 LBIS:AddItem(spec, "28783", LBIS.L["Wand"], "BIS") --Eredar Wand of Obliteration
 LBIS:AddItem(spec, "25808", LBIS.L["Wand"], "Alt") --Rod of Dire Shadows

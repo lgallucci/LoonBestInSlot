@@ -74,15 +74,15 @@ LBIS:AddItem(spec, "30902", LBIS.L["2H"], "BIS") --Cataclysm's Edge
 LBIS:AddItem(spec, "32348", LBIS.L["2H"], "BIS") --Soul Cleaver
 LBIS:AddItem(spec, "29993", LBIS.L["2H"], "BIS") --Twinblade of the Phoenix
 
-LBIS:AddItem(spec, "32837", LBIS.L["MH"], "BIS") --Warglaive of Azzinoth
-LBIS:AddItem(spec, "35101", LBIS.L["MH"], "Alt") --Brutal Gladiator's Slicer
-LBIS:AddItem(spec, "34996", LBIS.L["MH"], "Alt") --Brutal Gladiator's Cleaver
-LBIS:AddItem(spec, "34214", LBIS.L["MH"], "Alt") --Muramasa
-LBIS:AddItem(spec, "28439", LBIS.L["MH"], "Alt") --Dragonstrike
+LBIS:AddItem(spec, "32837", LBIS.L["Main Hand"], "BIS") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "35101", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Slicer
+LBIS:AddItem(spec, "34996", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Cleaver
+LBIS:AddItem(spec, "34214", LBIS.L["Main Hand"], "Alt") --Muramasa
+LBIS:AddItem(spec, "28439", LBIS.L["Main Hand"], "Alt") --Dragonstrike
 
-LBIS:AddItem(spec, "32838", LBIS.L["OH"], "BIS") --Warglaive of Azzinoth
-LBIS:AddItem(spec, "35072", LBIS.L["OH"], "Alt") --Brutal Gladiator's Quickblade
-LBIS:AddItem(spec, "34164", LBIS.L["OH"], "Alt") --Dragonscale-Encrusted Longblade
+LBIS:AddItem(spec, "32838", LBIS.L["Off Hand"], "BIS") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "35072", LBIS.L["Off Hand"], "Alt") --Brutal Gladiator's Quickblade
+LBIS:AddItem(spec, "34164", LBIS.L["Off Hand"], "Alt") --Dragonscale-Encrusted Longblade
 
 LBIS:AddItem(spec, "34196", LBIS.L["Ranged"], "BIS") --Golden Bow of Quel'Thalas
 LBIS:AddItem(spec, "34892", LBIS.L["Ranged"], "BIS") --Crossbow of Relentless Strikes

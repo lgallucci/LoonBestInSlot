@@ -102,16 +102,16 @@ LBIS:AddItem(spec, "30841", LBIS.L["Trinket"], "Alt") --Lower City Prayerbook
 LBIS:AddItem(spec, "28190", LBIS.L["Trinket"], "Alt") --Scarab of the Infinite Cycle
 LBIS:AddItem(spec, "24390", LBIS.L["Trinket"], "Alt") --Auslese's Light Channeler
 
-LBIS:AddItem(spec, "32964", LBIS.L["MH"], "Alt") --Merciless Gladiator's Salvation
-LBIS:AddItem(spec, "32451", LBIS.L["MH"], "Alt") --Gladiator's Salvation
-LBIS:AddItem(spec, "23556", LBIS.L["MH"], "BIS") --Hand of Eternity
-LBIS:AddItem(spec, "29353", LBIS.L["MH"], "BIS") --Shockwave Truncheon
-LBIS:AddItem(spec, "31342", LBIS.L["MH"], "Alt") --The Ancient Scepter of Sue-Min
-LBIS:AddItem(spec, "29175", LBIS.L["MH"], "Alt") --Gavel of Pure Light
-LBIS:AddItem(spec, "28257", LBIS.L["MH"], "Alt") --Hammer of the Penitent
-LBIS:AddItem(spec, "28216", LBIS.L["MH"], "Alt") --Dathrohan's Ceremonial Hammer
-LBIS:AddItem(spec, "27538", LBIS.L["MH"], "Alt") --Lightsworn Hammer
-LBIS:AddItem(spec, "31304", LBIS.L["MH"], "Alt") --The Essence Focuser
+LBIS:AddItem(spec, "32964", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Salvation
+LBIS:AddItem(spec, "32451", LBIS.L["Main Hand"], "Alt") --Gladiator's Salvation
+LBIS:AddItem(spec, "23556", LBIS.L["Main Hand"], "BIS") --Hand of Eternity
+LBIS:AddItem(spec, "29353", LBIS.L["Main Hand"], "BIS") --Shockwave Truncheon
+LBIS:AddItem(spec, "31342", LBIS.L["Main Hand"], "Alt") --The Ancient Scepter of Sue-Min
+LBIS:AddItem(spec, "29175", LBIS.L["Main Hand"], "Alt") --Gavel of Pure Light
+LBIS:AddItem(spec, "28257", LBIS.L["Main Hand"], "Alt") --Hammer of the Penitent
+LBIS:AddItem(spec, "28216", LBIS.L["Main Hand"], "Alt") --Dathrohan's Ceremonial Hammer
+LBIS:AddItem(spec, "27538", LBIS.L["Main Hand"], "Alt") --Lightsworn Hammer
+LBIS:AddItem(spec, "31304", LBIS.L["Main Hand"], "Alt") --The Essence Focuser
 
 LBIS:AddItem(spec, "22632", LBIS.L["2H"], "BIS") --Atiesh, Greatstaff of the Guardian
 LBIS:AddItem(spec, "27791", LBIS.L["2H"], "BIS") --Serpentcrest Life-Staff
@@ -119,16 +119,16 @@ LBIS:AddItem(spec, "29133", LBIS.L["2H"], "Alt") --Seer's Cane
 LBIS:AddItem(spec, "28033", LBIS.L["2H"], "Alt") --Epoch-Mender
 LBIS:AddItem(spec, "31289", LBIS.L["2H"], "Alt") --Staff of Divine Infusion
 
-LBIS:AddItem(spec, "29274", LBIS.L["OH"], "BIS") --Tears of Heaven
-LBIS:AddItem(spec, "29170", LBIS.L["OH"], "BIS") --Windcaller's Orb
-LBIS:AddItem(spec, "32961", LBIS.L["OH"], "Alt") --Merciless Gladiator's Reprieve
-LBIS:AddItem(spec, "23048", LBIS.L["OH"], "Alt") --Sapphiron's Right Eye
-LBIS:AddItem(spec, "23029", LBIS.L["OH"], "Alt") --Noth's Frigid Heart
-LBIS:AddItem(spec, "27477", LBIS.L["OH"], "Alt") --Faol's Signet of Cleansing
-LBIS:AddItem(spec, "27714", LBIS.L["OH"], "Alt") --Swamplight Lantern
-LBIS:AddItem(spec, "28213", LBIS.L["OH"], "Alt") --Lordaeron Medical Guide
-LBIS:AddItem(spec, "31493", LBIS.L["OH"], "Alt") --Netherwing Spiritualist's Charm
-LBIS:AddItem(spec, "28387", LBIS.L["OH"], "Alt") --Lamp of Peaceful Repose
+LBIS:AddItem(spec, "29274", LBIS.L["Off Hand"], "BIS") --Tears of Heaven
+LBIS:AddItem(spec, "29170", LBIS.L["Off Hand"], "BIS") --Windcaller's Orb
+LBIS:AddItem(spec, "32961", LBIS.L["Off Hand"], "Alt") --Merciless Gladiator's Reprieve
+LBIS:AddItem(spec, "23048", LBIS.L["Off Hand"], "Alt") --Sapphiron's Right Eye
+LBIS:AddItem(spec, "23029", LBIS.L["Off Hand"], "Alt") --Noth's Frigid Heart
+LBIS:AddItem(spec, "27477", LBIS.L["Off Hand"], "Alt") --Faol's Signet of Cleansing
+LBIS:AddItem(spec, "27714", LBIS.L["Off Hand"], "Alt") --Swamplight Lantern
+LBIS:AddItem(spec, "28213", LBIS.L["Off Hand"], "Alt") --Lordaeron Medical Guide
+LBIS:AddItem(spec, "31493", LBIS.L["Off Hand"], "Alt") --Netherwing Spiritualist's Charm
+LBIS:AddItem(spec, "28387", LBIS.L["Off Hand"], "Alt") --Lamp of Peaceful Repose
 
 LBIS:AddItem(spec, "27886", LBIS.L["Idol"], "BIS") --Idol of the Emerald Queen
 LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "Alt") --Idol of the Raven Goddess

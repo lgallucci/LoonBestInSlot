@@ -68,18 +68,18 @@ LBIS:AddItem(spec, "29132", LBIS.L["Trinket"], "BIS") --Scryer's Bloodgem
 LBIS:AddItem(spec, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Crescent
 LBIS:AddItem(spec, "30340", LBIS.L["Trinket"], "Alt") --Starkiller's Bauble
 
-LBIS:AddItem(spec, "30723", LBIS.L["MH"], "BIS") --Talon of the Tempest
-LBIS:AddItem(spec, "28802", LBIS.L["MH"], "Alt") --Bloodmaw Magus-Blade
-LBIS:AddItem(spec, "28770", LBIS.L["MH"], "Alt") --Nathrezim Mindblade
-LBIS:AddItem(spec, "23554", LBIS.L["MH"], "Alt") --Eternium Runed Blade
+LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "BIS") --Talon of the Tempest
+LBIS:AddItem(spec, "28802", LBIS.L["Main Hand"], "Alt") --Bloodmaw Magus-Blade
+LBIS:AddItem(spec, "28770", LBIS.L["Main Hand"], "Alt") --Nathrezim Mindblade
+LBIS:AddItem(spec, "23554", LBIS.L["Main Hand"], "Alt") --Eternium Runed Blade
 
 LBIS:AddItem(spec, "28633", LBIS.L["2H"], "BIS") --Staff of Infinite Mysteries
 LBIS:AddItem(spec, "22589", LBIS.L["2H"], "Alt") --Atiesh, Greatstaff of the Guardian
 
-LBIS:AddItem(spec, "29269", LBIS.L["OH"], "BIS") --Sapphiron's Wing Bone
-LBIS:AddItem(spec, "28734", LBIS.L["OH"], "Alt") --Jewel of Infinite Possibilities
-LBIS:AddItem(spec, "28781", LBIS.L["OH"], "Alt") --Karaborian Talisman
-LBIS:AddItem(spec, "28603", LBIS.L["OH"], "Alt") --Talisman of Nightbane
+LBIS:AddItem(spec, "29269", LBIS.L["Off Hand"], "BIS") --Sapphiron's Wing Bone
+LBIS:AddItem(spec, "28734", LBIS.L["Off Hand"], "Alt") --Jewel of Infinite Possibilities
+LBIS:AddItem(spec, "28781", LBIS.L["Off Hand"], "Alt") --Karaborian Talisman
+LBIS:AddItem(spec, "28603", LBIS.L["Off Hand"], "Alt") --Talisman of Nightbane
 
 LBIS:AddItem(spec, "28673", LBIS.L["Wand"], "BIS") --Tirisfal Wand of Ascendancy
 LBIS:AddItem(spec, "28783", LBIS.L["Wand"], "BIS") --Eredar Wand of Obliteration

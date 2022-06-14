@@ -63,12 +63,12 @@ LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
 LBIS:AddItem(spec, "30627", LBIS.L["Trinket"], "Alt") --Tsunami Talisman
 
-LBIS:AddItem(spec, "32944", LBIS.L["MH"], "BIS") --Talon of the Phoenix
-LBIS:AddItem(spec, "27846", LBIS.L["MH"], "Alt") --Claw of the Watcher
-LBIS:AddItem(spec, "29924", LBIS.L["MH"], "Alt") --Netherbane
+LBIS:AddItem(spec, "32944", LBIS.L["Main Hand"], "BIS") --Talon of the Phoenix
+LBIS:AddItem(spec, "27846", LBIS.L["Main Hand"], "Alt") --Claw of the Watcher
+LBIS:AddItem(spec, "29924", LBIS.L["Main Hand"], "Alt") --Netherbane
 
-LBIS:AddItem(spec, "29948", LBIS.L["OH"], "BIS") --Claw of the Phoenix
-LBIS:AddItem(spec, "28572", LBIS.L["OH"], "Alt") --Blade of the Unrequited
+LBIS:AddItem(spec, "29948", LBIS.L["Off Hand"], "BIS") --Claw of the Phoenix
+LBIS:AddItem(spec, "28572", LBIS.L["Off Hand"], "Alt") --Blade of the Unrequited
 
 LBIS:AddItem(spec, "29993", LBIS.L["2H"], "BIS") --Twinblade of the Phoenix
 LBIS:AddItem(spec, "28436", LBIS.L["2H"], "BIS") --Bloodmoon

@@ -135,20 +135,20 @@ LBIS:AddItem(spec, "19379", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
 LBIS:AddItem(spec, "18820", LBIS.L["Trinket"], "Alt Thrt") --Talisman of Ephemeral Power
 LBIS:AddItem(spec, "19950", LBIS.L["Trinket"], "Alt") --Zandalarian Hero Charm
 
-LBIS:AddItem(spec, "28802", LBIS.L["MH"], "BIS") --Bloodmaw Magus-Blade
-LBIS:AddItem(spec, "32450", LBIS.L["MH"], "BIS") --Gladiator's Gavel
-LBIS:AddItem(spec, "28749", LBIS.L["MH"], "Alt") --King's Defender
-LBIS:AddItem(spec, "30832", LBIS.L["MH"], "BIS") --Gavel of Unearthed Secrets
-LBIS:AddItem(spec, "29156", LBIS.L["MH"], "Alt") --Honor's Call
-LBIS:AddItem(spec, "29165", LBIS.L["MH"], "Alt") --Warbringer
-LBIS:AddItem(spec, "27899", LBIS.L["MH"], "Alt") --Mana Wrath
-LBIS:AddItem(spec, "27905", LBIS.L["MH"], "Alt") --Greatsword of Horrid Dreams
-LBIS:AddItem(spec, "22988", LBIS.L["MH"], "Alt") --The End of Dreams
-LBIS:AddItem(spec, "22807", LBIS.L["MH"], "Alt") --Wraith Blade
-LBIS:AddItem(spec, "19360", LBIS.L["MH"], "Alt") --Lok'amir il Romathis
-LBIS:AddItem(spec, "21622", LBIS.L["MH"], "Alt") --Sharpened Silithid Femur
-LBIS:AddItem(spec, "24361", LBIS.L["MH"], "Alt") --Spellfire Longsword
-LBIS:AddItem(spec, "24384", LBIS.L["MH"], "Alt") --Diamond-Core Sledgemace
+LBIS:AddItem(spec, "28802", LBIS.L["Main Hand"], "BIS") --Bloodmaw Magus-Blade
+LBIS:AddItem(spec, "32450", LBIS.L["Main Hand"], "BIS") --Gladiator's Gavel
+LBIS:AddItem(spec, "28749", LBIS.L["Main Hand"], "Alt") --King's Defender
+LBIS:AddItem(spec, "30832", LBIS.L["Main Hand"], "BIS") --Gavel of Unearthed Secrets
+LBIS:AddItem(spec, "29156", LBIS.L["Main Hand"], "Alt") --Honor's Call
+LBIS:AddItem(spec, "29165", LBIS.L["Main Hand"], "Alt") --Warbringer
+LBIS:AddItem(spec, "27899", LBIS.L["Main Hand"], "Alt") --Mana Wrath
+LBIS:AddItem(spec, "27905", LBIS.L["Main Hand"], "Alt") --Greatsword of Horrid Dreams
+LBIS:AddItem(spec, "22988", LBIS.L["Main Hand"], "Alt") --The End of Dreams
+LBIS:AddItem(spec, "22807", LBIS.L["Main Hand"], "Alt") --Wraith Blade
+LBIS:AddItem(spec, "19360", LBIS.L["Main Hand"], "Alt") --Lok'amir il Romathis
+LBIS:AddItem(spec, "21622", LBIS.L["Main Hand"], "Alt") --Sharpened Silithid Femur
+LBIS:AddItem(spec, "24361", LBIS.L["Main Hand"], "Alt") --Spellfire Longsword
+LBIS:AddItem(spec, "24384", LBIS.L["Main Hand"], "Alt") --Diamond-Core Sledgemace
 
 LBIS:AddItem(spec, "29388", LBIS.L["Libram"], "BIS") --Libram of Repentance
 LBIS:AddItem(spec, "22401", LBIS.L["Libram"], "Alt") --Libram of Hope

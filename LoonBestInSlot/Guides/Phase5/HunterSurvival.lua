@@ -77,21 +77,21 @@ LBIS:AddItem(spec, "34427", LBIS.L["Trinket"], "BIS") --Blackened Naaru Sliver
 LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "Alt") --Madness of the Betrayer
 
-LBIS:AddItem(spec, "34331", LBIS.L["MH"], "BIS") --Hand of the Deceiver
-LBIS:AddItem(spec, "34197", LBIS.L["MH"], "BIS") --Shiv of Exsanguination
-LBIS:AddItem(spec, "34329", LBIS.L["MH"], "Alt") --Crux of the Apocalypse
-LBIS:AddItem(spec, "34893", LBIS.L["MH"], "Alt") --Vanir's Right Fist of Brutality
-LBIS:AddItem(spec, "33389", LBIS.L["MH"], "Alt") --Dagger of Bad Mojo
-LBIS:AddItem(spec, "30901", LBIS.L["MH"], "Alt") --Boundless Agony
-LBIS:AddItem(spec, "33737", LBIS.L["MH"], "Alt") --Vengeful Gladiator's Right Ripper
-LBIS:AddItem(spec, "32944", LBIS.L["MH"], "Alt") --Talon of the Phoenix
+LBIS:AddItem(spec, "34331", LBIS.L["Main Hand"], "BIS") --Hand of the Deceiver
+LBIS:AddItem(spec, "34197", LBIS.L["Main Hand"], "BIS") --Shiv of Exsanguination
+LBIS:AddItem(spec, "34329", LBIS.L["Main Hand"], "Alt") --Crux of the Apocalypse
+LBIS:AddItem(spec, "34893", LBIS.L["Main Hand"], "Alt") --Vanir's Right Fist of Brutality
+LBIS:AddItem(spec, "33389", LBIS.L["Main Hand"], "Alt") --Dagger of Bad Mojo
+LBIS:AddItem(spec, "30901", LBIS.L["Main Hand"], "Alt") --Boundless Agony
+LBIS:AddItem(spec, "33737", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Right Ripper
+LBIS:AddItem(spec, "32944", LBIS.L["Main Hand"], "Alt") --Talon of the Phoenix
 
-LBIS:AddItem(spec, "34203", LBIS.L["OH"], "BIS") --Grip of Mannoroth
-LBIS:AddItem(spec, "34951", LBIS.L["OH"], "Alt") --Vanir's Left Fist of Brutality
-LBIS:AddItem(spec, "34165", LBIS.L["OH"], "Alt") --Fang of Kalecgos
-LBIS:AddItem(spec, "34346", LBIS.L["OH"], "Alt") --Mounting Vengeance
-LBIS:AddItem(spec, "33705", LBIS.L["OH"], "Alt") --Vengeful Gladiator's Left Ripper
-LBIS:AddItem(spec, "30865", LBIS.L["OH"], "Alt") --Tracker's Blade
+LBIS:AddItem(spec, "34203", LBIS.L["Off Hand"], "BIS") --Grip of Mannoroth
+LBIS:AddItem(spec, "34951", LBIS.L["Off Hand"], "Alt") --Vanir's Left Fist of Brutality
+LBIS:AddItem(spec, "34165", LBIS.L["Off Hand"], "Alt") --Fang of Kalecgos
+LBIS:AddItem(spec, "34346", LBIS.L["Off Hand"], "Alt") --Mounting Vengeance
+LBIS:AddItem(spec, "33705", LBIS.L["Off Hand"], "Alt") --Vengeful Gladiator's Left Ripper
+LBIS:AddItem(spec, "30865", LBIS.L["Off Hand"], "Alt") --Tracker's Blade
 
 LBIS:AddItem(spec, "34183", LBIS.L["2H"], "BIS") --Shivering Felspine
 LBIS:AddItem(spec, "34247", LBIS.L["2H"], "Alt") --Apolyon, the Soul-Render

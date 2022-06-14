@@ -59,19 +59,19 @@ LBIS:AddItem(spec, "22954", LBIS.L["Trinket"], "Alt") --Kiss of the Spider
 LBIS:AddItem(spec, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unraveller
 LBIS:AddItem(spec, "21670", LBIS.L["Trinket"], "Alt") --Badge of the Swarmguard
 
-LBIS:AddItem(spec, "32052", LBIS.L["MH"], "BIS") --Merciless Gladiator's Slicer
-LBIS:AddItem(spec, "28438", LBIS.L["MH"], "Alt") --Dragonmaw
-LBIS:AddItem(spec, "28295", LBIS.L["MH"], "Alt") --Gladiator's Slicer
-LBIS:AddItem(spec, "31332", LBIS.L["MH"], "Alt") --Blinkstrike
-LBIS:AddItem(spec, "29124", LBIS.L["MH"], "Alt") --Vindicator's Brand
-LBIS:AddItem(spec, "28312", LBIS.L["MH"], "BIS Dagger") --Gladiator's Shanker
-LBIS:AddItem(spec, "31331", LBIS.L["MH"], "Alt Dagger") --The Night Blade
+LBIS:AddItem(spec, "32052", LBIS.L["Main Hand"], "BIS") --Merciless Gladiator's Slicer
+LBIS:AddItem(spec, "28438", LBIS.L["Main Hand"], "Alt") --Dragonmaw
+LBIS:AddItem(spec, "28295", LBIS.L["Main Hand"], "Alt") --Gladiator's Slicer
+LBIS:AddItem(spec, "31332", LBIS.L["Main Hand"], "Alt") --Blinkstrike
+LBIS:AddItem(spec, "29124", LBIS.L["Main Hand"], "Alt") --Vindicator's Brand
+LBIS:AddItem(spec, "28312", LBIS.L["Main Hand"], "BIS Dagger") --Gladiator's Shanker
+LBIS:AddItem(spec, "31331", LBIS.L["Main Hand"], "Alt Dagger") --The Night Blade
 
-LBIS:AddItem(spec, "32027", LBIS.L["OH"], "BIS") --Merciless Gladiator's Quickblade
-LBIS:AddItem(spec, "28307", LBIS.L["OH"], "Alt") --Gladiator's Quickblade
-LBIS:AddItem(spec, "28189", LBIS.L["OH"], "Alt") --Latro's Shifting Sword
-LBIS:AddItem(spec, "29275", LBIS.L["OH"], "BIS Dagger") --Searing Sunblade
-LBIS:AddItem(spec, "28310", LBIS.L["OH"], "Alt Dagger") --Gladiator's Shiv
+LBIS:AddItem(spec, "32027", LBIS.L["Off Hand"], "BIS") --Merciless Gladiator's Quickblade
+LBIS:AddItem(spec, "28307", LBIS.L["Off Hand"], "Alt") --Gladiator's Quickblade
+LBIS:AddItem(spec, "28189", LBIS.L["Off Hand"], "Alt") --Latro's Shifting Sword
+LBIS:AddItem(spec, "29275", LBIS.L["Off Hand"], "BIS Dagger") --Searing Sunblade
+LBIS:AddItem(spec, "28310", LBIS.L["Off Hand"], "Alt Dagger") --Gladiator's Shiv
 
 LBIS:AddItem(spec, "29151", LBIS.L["Ranged"], "BIS") --Veteran's Musket
 LBIS:AddItem(spec, "29152", LBIS.L["Ranged"], "BIS") --Marksman's Bow

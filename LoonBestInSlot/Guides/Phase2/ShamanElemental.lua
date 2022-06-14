@@ -60,13 +60,13 @@ LBIS:AddItem(spec, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Cresc
 LBIS:AddItem(spec, "38290", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
 LBIS:AddItem(spec, "30626", LBIS.L["Trinket"], "Alt") --Sextant of Unstable Currents
 
-LBIS:AddItem(spec, "29988", LBIS.L["MH"], "BIS") --The Nexus Key
-LBIS:AddItem(spec, "32963", LBIS.L["MH"], "Alt") --Merciless Gladiator's Gavel
-LBIS:AddItem(spec, "30723", LBIS.L["MH"], "Alt") --Talon of the Tempest
-LBIS:AddItem(spec, "28770", LBIS.L["MH"], "Alt") --Nathrezim Mindblade
+LBIS:AddItem(spec, "29988", LBIS.L["Main Hand"], "BIS") --The Nexus Key
+LBIS:AddItem(spec, "32963", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Gavel
+LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "Alt") --Talon of the Tempest
+LBIS:AddItem(spec, "28770", LBIS.L["Main Hand"], "Alt") --Nathrezim Mindblade
 
-LBIS:AddItem(spec, "30049", LBIS.L["OH"], "BIS") --Fathomstone
-LBIS:AddItem(spec, "29268", LBIS.L["OH"], "Alt") --Mazthoril Honor Shield
-LBIS:AddItem(spec, "29273", LBIS.L["OH"], "Alt") --Khadgar's Knapsack
+LBIS:AddItem(spec, "30049", LBIS.L["Off Hand"], "BIS") --Fathomstone
+LBIS:AddItem(spec, "29268", LBIS.L["Off Hand"], "Alt") --Mazthoril Honor Shield
+LBIS:AddItem(spec, "29273", LBIS.L["Off Hand"], "Alt") --Khadgar's Knapsack
 
 LBIS:AddItem(spec, "28248", LBIS.L["Totem"], "BIS") --Totem of the Void

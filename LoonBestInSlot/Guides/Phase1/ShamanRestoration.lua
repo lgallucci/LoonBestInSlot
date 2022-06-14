@@ -54,13 +54,13 @@ LBIS:AddItem(spec, "31923", LBIS.L["Ring"], "Alt") --Band of the Crystalline Voi
 LBIS:AddItem(spec, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
 LBIS:AddItem(spec, "28190", LBIS.L["Trinket"], "BIS") --Scarab of the Infinite Cycle
 
-LBIS:AddItem(spec, "28771", LBIS.L["MH"], "BIS") --Light's Justice
-LBIS:AddItem(spec, "32451", LBIS.L["MH"], "Alt") --Gladiator's Salvation
-LBIS:AddItem(spec, "28522", LBIS.L["MH"], "Alt") --Shard of the Virtuous
+LBIS:AddItem(spec, "28771", LBIS.L["Main Hand"], "BIS") --Light's Justice
+LBIS:AddItem(spec, "32451", LBIS.L["Main Hand"], "Alt") --Gladiator's Salvation
+LBIS:AddItem(spec, "28522", LBIS.L["Main Hand"], "Alt") --Shard of the Virtuous
 
-LBIS:AddItem(spec, "29458", LBIS.L["OH"], "BIS") --Aegis of the Vindicator
-LBIS:AddItem(spec, "28728", LBIS.L["OH"], "Alt") --Aran's Soothing Sapphire
-LBIS:AddItem(spec, "28754", LBIS.L["OH"], "Alt") --Triptych Shield of the Ancients
+LBIS:AddItem(spec, "29458", LBIS.L["Off Hand"], "BIS") --Aegis of the Vindicator
+LBIS:AddItem(spec, "28728", LBIS.L["Off Hand"], "Alt") --Aran's Soothing Sapphire
+LBIS:AddItem(spec, "28754", LBIS.L["Off Hand"], "Alt") --Triptych Shield of the Ancients
 
 LBIS:AddItem(spec, "28523", LBIS.L["Totem"], "BIS") --Totem of Healing Rains
 LBIS:AddItem(spec, "27544", LBIS.L["Totem"], "Alt") --Totem of Spontaneous Regrowth

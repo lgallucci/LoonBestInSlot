@@ -79,21 +79,21 @@ LBIS:AddItem(spec, "29370", LBIS.L["Trinket"], "Alt") --Icon of the Silver Cresc
 LBIS:AddItem(spec, "38290", LBIS.L["Trinket"], "Alt") --Dark Iron Smoking Pipe
 LBIS:AddItem(spec, "27683", LBIS.L["Trinket"], "Alt") --Quagmirran's Eye
 
-LBIS:AddItem(spec, "33687", LBIS.L["MH"], "Alt") --Vengeful Gladiator's Gavel
-LBIS:AddItem(spec, "33763", LBIS.L["MH"], "Alt") --Vengeful Gladiator's Spellblade
-LBIS:AddItem(spec, "32237", LBIS.L["MH"], "BIS") --The Maelstrom's Fury
-LBIS:AddItem(spec, "34009", LBIS.L["MH"], "BIS") --Hammer of Judgement
-LBIS:AddItem(spec, "30723", LBIS.L["MH"], "Alt") --Talon of the Tempest
-LBIS:AddItem(spec, "28770", LBIS.L["MH"], "Alt") --Nathrezim Mindblade
+LBIS:AddItem(spec, "33687", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Gavel
+LBIS:AddItem(spec, "33763", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Spellblade
+LBIS:AddItem(spec, "32237", LBIS.L["Main Hand"], "BIS") --The Maelstrom's Fury
+LBIS:AddItem(spec, "34009", LBIS.L["Main Hand"], "BIS") --Hammer of Judgement
+LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "Alt") --Talon of the Tempest
+LBIS:AddItem(spec, "28770", LBIS.L["Main Hand"], "Alt") --Nathrezim Mindblade
 
 LBIS:AddItem(spec, "32374", LBIS.L["2H"], "BIS") --Zhar'doom, Greatstaff of the Devourer
 LBIS:AddItem(spec, "34540", LBIS.L["2H"], "Alt") --Vengeful Gladiator's Battle Staff
 LBIS:AddItem(spec, "29988", LBIS.L["2H"], "Alt") --The Nexus Key
 LBIS:AddItem(spec, "33766", LBIS.L["2H"], "Alt") --Vengeful Gladiator's War Staff
 
-LBIS:AddItem(spec, "30872", LBIS.L["OH"], "BIS") --Chronicle of Dark Secrets
-LBIS:AddItem(spec, "32361", LBIS.L["OH"], "Alt") --Blind-Seers Icon
-LBIS:AddItem(spec, "30049", LBIS.L["OH"], "Alt") --Fathomstone
+LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "BIS") --Chronicle of Dark Secrets
+LBIS:AddItem(spec, "32361", LBIS.L["Off Hand"], "Alt") --Blind-Seers Icon
+LBIS:AddItem(spec, "30049", LBIS.L["Off Hand"], "Alt") --Fathomstone
 
 LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "BIS") --Idol of the Raven Goddess
 LBIS:AddItem(spec, "27518", LBIS.L["Idol"], "BIS") --Ivory Idol of the Moongoddess

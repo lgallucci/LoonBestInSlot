@@ -80,18 +80,18 @@ LBIS:AddItem(spec, "34470", LBIS.L["Trinket"], "Alt") --Timbal's Focusing Crysta
 LBIS:AddItem(spec, "35749", LBIS.L["Trinket"], "Alt") --Sorcerer's Alchemist Stone
 LBIS:AddItem(spec, "38290", LBIS.L["Trinket"], "Alt") --Dark Iron Smoking Pipe
 
-LBIS:AddItem(spec, "34336", LBIS.L["MH"], "BIS") --Sunflare
-LBIS:AddItem(spec, "34176", LBIS.L["MH"], "Alt") --Reign of Misery
-LBIS:AddItem(spec, "35014", LBIS.L["MH"], "Alt") --Brutal Gladiator's Gavel
-LBIS:AddItem(spec, "35102", LBIS.L["MH"], "Alt") --Brutal Gladiator's Spellblade
-LBIS:AddItem(spec, "32374", LBIS.L["MH"], "Alt") --Zhar'doom, Greatstaff of the Devourer
-LBIS:AddItem(spec, "34895", LBIS.L["MH"], "Alt") --Scryer's Blade of Focus
-LBIS:AddItem(spec, "34182", LBIS.L["MH"], "Alt") --Grand Magister's Staff of Torrents
-LBIS:AddItem(spec, "34611", LBIS.L["MH"], "Alt") --Cudgel of Consecration
-LBIS:AddItem(spec, "34604", LBIS.L["MH"], "Alt") --Jaded Crystal Dagger
+LBIS:AddItem(spec, "34336", LBIS.L["Main Hand"], "BIS") --Sunflare
+LBIS:AddItem(spec, "34176", LBIS.L["Main Hand"], "Alt") --Reign of Misery
+LBIS:AddItem(spec, "35014", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Gavel
+LBIS:AddItem(spec, "35102", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Spellblade
+LBIS:AddItem(spec, "32374", LBIS.L["Main Hand"], "Alt") --Zhar'doom, Greatstaff of the Devourer
+LBIS:AddItem(spec, "34895", LBIS.L["Main Hand"], "Alt") --Scryer's Blade of Focus
+LBIS:AddItem(spec, "34182", LBIS.L["Main Hand"], "Alt") --Grand Magister's Staff of Torrents
+LBIS:AddItem(spec, "34611", LBIS.L["Main Hand"], "Alt") --Cudgel of Consecration
+LBIS:AddItem(spec, "34604", LBIS.L["Main Hand"], "Alt") --Jaded Crystal Dagger
 
-LBIS:AddItem(spec, "34179", LBIS.L["OH"], "BIS") --Heart of the Pit
-LBIS:AddItem(spec, "33334", LBIS.L["OH"], "Alt") --Fetish of the Primal Gods
+LBIS:AddItem(spec, "34179", LBIS.L["Off Hand"], "BIS") --Heart of the Pit
+LBIS:AddItem(spec, "33334", LBIS.L["Off Hand"], "Alt") --Fetish of the Primal Gods
 
 LBIS:AddItem(spec, "34347", LBIS.L["Wand"], "BIS") --Wand of the Demonsoul
 LBIS:AddItem(spec, "33192", LBIS.L["Wand"], "Alt") --Carved Witch Doctor's Stick

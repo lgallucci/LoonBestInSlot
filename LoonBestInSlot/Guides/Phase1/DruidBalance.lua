@@ -68,15 +68,15 @@ LBIS:AddItem(spec, "29132", LBIS.L["Trinket"], "BIS") --Scryer's Bloodgem
 LBIS:AddItem(spec, "19379", LBIS.L["Trinket"], "BIS") --Neltharion's Tear
 LBIS:AddItem(spec, "28789", LBIS.L["Trinket"], "Alt") --Eye of Magtheridon
 
-LBIS:AddItem(spec, "28770", LBIS.L["MH"], "BIS") --Nathrezim Mindblade
-LBIS:AddItem(spec, "30723", LBIS.L["MH"], "BIS") --Talon of the Tempest
-LBIS:AddItem(spec, "30832", LBIS.L["MH"], "Alt") --Gavel of Unearthed Secrets
-LBIS:AddItem(spec, "23554", LBIS.L["MH"], "Alt") --Eternium Runed Blade
+LBIS:AddItem(spec, "28770", LBIS.L["Main Hand"], "BIS") --Nathrezim Mindblade
+LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "BIS") --Talon of the Tempest
+LBIS:AddItem(spec, "30832", LBIS.L["Main Hand"], "Alt") --Gavel of Unearthed Secrets
+LBIS:AddItem(spec, "23554", LBIS.L["Main Hand"], "Alt") --Eternium Runed Blade
 
 LBIS:AddItem(spec, "28633", LBIS.L["2H"], "BIS") --Staff of Infinite Mysteries
 
-LBIS:AddItem(spec, "29271", LBIS.L["OH"], "BIS") --Talisman of Kalecgos
-LBIS:AddItem(spec, "28734", LBIS.L["OH"], "BIS") --Jewel of Infinite Possibilities
-LBIS:AddItem(spec, "28603", LBIS.L["OH"], "Alt") --Talisman of Nightbane
+LBIS:AddItem(spec, "29271", LBIS.L["Off Hand"], "BIS") --Talisman of Kalecgos
+LBIS:AddItem(spec, "28734", LBIS.L["Off Hand"], "BIS") --Jewel of Infinite Possibilities
+LBIS:AddItem(spec, "28603", LBIS.L["Off Hand"], "Alt") --Talisman of Nightbane
 
 LBIS:AddItem(spec, "27518", LBIS.L["Idol"], "BIS") --Ivory Idol of the Moongoddess

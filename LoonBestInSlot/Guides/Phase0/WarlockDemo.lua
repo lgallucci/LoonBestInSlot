@@ -76,18 +76,18 @@ LBIS:AddItem(spec, "29132", LBIS.L["Trinket"], "Alt") --Scryer's Bloodgem
 LBIS:AddItem(spec, "19379", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
 LBIS:AddItem(spec, "23046", LBIS.L["Trinket"], "Alt") --The Restrained Essence of Sapphiron
 
-LBIS:AddItem(spec, "31336", LBIS.L["MH"], "BIS") --Blade of Wizardry
-LBIS:AddItem(spec, "30787", LBIS.L["MH"], "Alt") --Illidari-Bane Mageblade
-LBIS:AddItem(spec, "29155", LBIS.L["MH"], "Alt") --Stormcaller
-LBIS:AddItem(spec, "29153", LBIS.L["MH"], "Alt") --Blade of the Archmage
-LBIS:AddItem(spec, "27905", LBIS.L["MH"], "Alt") --Greatsword of Horrid Dreams
+LBIS:AddItem(spec, "31336", LBIS.L["Main Hand"], "BIS") --Blade of Wizardry
+LBIS:AddItem(spec, "30787", LBIS.L["Main Hand"], "Alt") --Illidari-Bane Mageblade
+LBIS:AddItem(spec, "29155", LBIS.L["Main Hand"], "Alt") --Stormcaller
+LBIS:AddItem(spec, "29153", LBIS.L["Main Hand"], "Alt") --Blade of the Archmage
+LBIS:AddItem(spec, "27905", LBIS.L["Main Hand"], "Alt") --Greatsword of Horrid Dreams
 
 LBIS:AddItem(spec, "22630", LBIS.L["2H"], "BIS") --Atiesh, Greatstaff of the Guardian
 
-LBIS:AddItem(spec, "29273", LBIS.L["OH"], "BIS") --Khadgar's Knapsack
-LBIS:AddItem(spec, "29272", LBIS.L["OH"], "Alt") --Orb of the Soul-Eater
-LBIS:AddItem(spec, "28412", LBIS.L["OH"], "BIS") --Lamp of Peaceful Radiance
-LBIS:AddItem(spec, "23049", LBIS.L["OH"], "Alt") --Sapphiron's Left Eye
+LBIS:AddItem(spec, "29273", LBIS.L["Off Hand"], "BIS") --Khadgar's Knapsack
+LBIS:AddItem(spec, "29272", LBIS.L["Off Hand"], "Alt") --Orb of the Soul-Eater
+LBIS:AddItem(spec, "28412", LBIS.L["Off Hand"], "BIS") --Lamp of Peaceful Radiance
+LBIS:AddItem(spec, "23049", LBIS.L["Off Hand"], "Alt") --Sapphiron's Left Eye
 
 LBIS:AddItem(spec, "28386", LBIS.L["Wand"], "BIS") --Nether Core's Control Rod
 LBIS:AddItem(spec, "22821", LBIS.L["Wand"], "Alt") --Doomfinger

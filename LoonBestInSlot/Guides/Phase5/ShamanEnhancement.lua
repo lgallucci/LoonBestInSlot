@@ -72,12 +72,12 @@ LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "Alt") --Berserker's Call
 LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "Alt") --Madness of the Betrayer
 LBIS:AddItem(spec, "35702", LBIS.L["Trinket"], "Alt") --Figurine - Shadowsong Panther
 
-LBIS:AddItem(spec, "34331", LBIS.L["MH"], "BIS (MH)") --Hand of the Deceiver
-LBIS:AddItem(spec, "34346", LBIS.L["MH"], "BIS (OH)") --Mounting Vengeance
-LBIS:AddItem(spec, "34996", LBIS.L["MH"], "Alt (All)") --Brutal Gladiator's Cleaver
-LBIS:AddItem(spec, "33669", LBIS.L["MH"], "Alt (All)") --Vengeful Gladiator's Cleaver
-LBIS:AddItem(spec, "32262", LBIS.L["MH"], "Alt (All)") --Syphon of the Nathrezim
-LBIS:AddItem(spec, "34893", LBIS.L["MH"], "Alt (2.5 MH)") --Vanir's Right Fist of Brutality
-LBIS:AddItem(spec, "34951", LBIS.L["MH"], "Alt (2.5 OH)") --Vanir's Left Fist of Brutality
+LBIS:AddItem(spec, "34331", LBIS.L["Main Hand"], "BIS (MH)") --Hand of the Deceiver
+LBIS:AddItem(spec, "34346", LBIS.L["Main Hand"], "BIS (OH)") --Mounting Vengeance
+LBIS:AddItem(spec, "34996", LBIS.L["Main Hand"], "Alt (All)") --Brutal Gladiator's Cleaver
+LBIS:AddItem(spec, "33669", LBIS.L["Main Hand"], "Alt (All)") --Vengeful Gladiator's Cleaver
+LBIS:AddItem(spec, "32262", LBIS.L["Main Hand"], "Alt (All)") --Syphon of the Nathrezim
+LBIS:AddItem(spec, "34893", LBIS.L["Main Hand"], "Alt (2.5 MH)") --Vanir's Right Fist of Brutality
+LBIS:AddItem(spec, "34951", LBIS.L["Main Hand"], "Alt (2.5 OH)") --Vanir's Left Fist of Brutality
 
 LBIS:AddItem(spec, "33507", LBIS.L["Totem"], "BIS") --Stonebreaker's Totem

@@ -71,16 +71,16 @@ LBIS:AddItem(spec, "34430", LBIS.L["Trinket"], "BIS") --Glimmering Naaru Sliver
 LBIS:AddItem(spec, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
 LBIS:AddItem(spec, "38288", LBIS.L["Trinket"], "BIS") --Direbrew Hops
 
-LBIS:AddItem(spec, "34335", LBIS.L["MH"], "BIS") --Hammer of Sanctification
-LBIS:AddItem(spec, "34199", LBIS.L["MH"], "Alt") --Archon's Gavel
-LBIS:AddItem(spec, "32500", LBIS.L["MH"], "Alt") --Crystal Spire of Karabor
-LBIS:AddItem(spec, "35082", LBIS.L["MH"], "Alt") --Brutal Gladiator's Salvation
-LBIS:AddItem(spec, "34896", LBIS.L["MH"], "Alt") --Gavel of Naaru Blessings
+LBIS:AddItem(spec, "34335", LBIS.L["Main Hand"], "BIS") --Hammer of Sanctification
+LBIS:AddItem(spec, "34199", LBIS.L["Main Hand"], "Alt") --Archon's Gavel
+LBIS:AddItem(spec, "32500", LBIS.L["Main Hand"], "Alt") --Crystal Spire of Karabor
+LBIS:AddItem(spec, "35082", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Salvation
+LBIS:AddItem(spec, "34896", LBIS.L["Main Hand"], "Alt") --Gavel of Naaru Blessings
 
-LBIS:AddItem(spec, "34206", LBIS.L["OH"], "BIS") --Book of Highborne Hymns
-LBIS:AddItem(spec, "34231", LBIS.L["OH"], "BIS") --Aegis of Angelic Fortune
-LBIS:AddItem(spec, "30882", LBIS.L["OH"], "BIS") --Bastion of Light
-LBIS:AddItem(spec, "32255", LBIS.L["OH"], "BIS") --Felstone Bulwark
-LBIS:AddItem(spec, "33332", LBIS.L["OH"], "BIS") --Enamelled Disc of Mojo
+LBIS:AddItem(spec, "34206", LBIS.L["Off Hand"], "BIS") --Book of Highborne Hymns
+LBIS:AddItem(spec, "34231", LBIS.L["Off Hand"], "BIS") --Aegis of Angelic Fortune
+LBIS:AddItem(spec, "30882", LBIS.L["Off Hand"], "BIS") --Bastion of Light
+LBIS:AddItem(spec, "32255", LBIS.L["Off Hand"], "BIS") --Felstone Bulwark
+LBIS:AddItem(spec, "33332", LBIS.L["Off Hand"], "BIS") --Enamelled Disc of Mojo
 
 LBIS:AddItem(spec, "28523", LBIS.L["Totem"], "BIS") --Totem of Healing Rains

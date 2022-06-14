@@ -45,13 +45,13 @@ LBIS:AddItem(spec, "29370", LBIS.L["Trinket"], "Alt") --Icon of the Silver Cresc
 LBIS:AddItem(spec, "32490", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Acumen
 LBIS:AddItem(spec, "38290", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
 
-LBIS:AddItem(spec, "32374", LBIS.L["MH"], "BIS") --Zhar'doom, Greatstaff of the Devourer
-LBIS:AddItem(spec, "33283", LBIS.L["MH"], "Alt") --Amani Punisher
-LBIS:AddItem(spec, "33354", LBIS.L["MH"], "Alt") --Wub's Cursed Hexblade
-LBIS:AddItem(spec, "33494", LBIS.L["MH"], "Alt") --Amani Divining Staff
+LBIS:AddItem(spec, "32374", LBIS.L["Main Hand"], "BIS") --Zhar'doom, Greatstaff of the Devourer
+LBIS:AddItem(spec, "33283", LBIS.L["Main Hand"], "Alt") --Amani Punisher
+LBIS:AddItem(spec, "33354", LBIS.L["Main Hand"], "Alt") --Wub's Cursed Hexblade
+LBIS:AddItem(spec, "33494", LBIS.L["Main Hand"], "Alt") --Amani Divining Staff
 
-LBIS:AddItem(spec, "33334", LBIS.L["OH"], "BIS") --Fetish of the Primal Gods
-LBIS:AddItem(spec, "29272", LBIS.L["OH"], "Alt") --Orb of the Soul-Eater
+LBIS:AddItem(spec, "33334", LBIS.L["Off Hand"], "BIS") --Fetish of the Primal Gods
+LBIS:AddItem(spec, "29272", LBIS.L["Off Hand"], "Alt") --Orb of the Soul-Eater
 
 LBIS:AddItem(spec, "33192", LBIS.L["Wand"], "BIS") --Carved Witch Doctor's Stick
 LBIS:AddItem(spec, "29982", LBIS.L["Wand"], "Alt") --Wand of the Forgotten Star

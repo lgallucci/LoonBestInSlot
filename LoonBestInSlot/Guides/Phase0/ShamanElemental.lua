@@ -63,16 +63,16 @@ LBIS:AddItem(spec, "29132", LBIS.L["Trinket"], "Alt") --Scryer's Bloodgem
 LBIS:AddItem(spec, "28418", LBIS.L["Trinket"], "Alt") --Shiffar's Nexus-Horn
 LBIS:AddItem(spec, "19379", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
 
-LBIS:AddItem(spec, "32450", LBIS.L["MH"], "BIS") --Gladiator's Gavel
-LBIS:AddItem(spec, "23554", LBIS.L["MH"], "Alt") --Eternium Runed Blade
-LBIS:AddItem(spec, "30832", LBIS.L["MH"], "Alt") --Gavel of Unearthed Secrets
-LBIS:AddItem(spec, "27868", LBIS.L["MH"], "Alt") --Runesong Dagger
+LBIS:AddItem(spec, "32450", LBIS.L["Main Hand"], "BIS") --Gladiator's Gavel
+LBIS:AddItem(spec, "23554", LBIS.L["Main Hand"], "Alt") --Eternium Runed Blade
+LBIS:AddItem(spec, "30832", LBIS.L["Main Hand"], "Alt") --Gavel of Unearthed Secrets
+LBIS:AddItem(spec, "27868", LBIS.L["Main Hand"], "Alt") --Runesong Dagger
 
-LBIS:AddItem(spec, "29273", LBIS.L["OH"], "BIS") --Khadgar's Knapsack
-LBIS:AddItem(spec, "29268", LBIS.L["OH"], "BIS") --Mazthoril Honor Shield
-LBIS:AddItem(spec, "31287", LBIS.L["OH"], "Alt") --Draenei Honor Guard Shield
-LBIS:AddItem(spec, "23049", LBIS.L["OH"], "Alt") --Sapphiron's Left Eye
-LBIS:AddItem(spec, "28412", LBIS.L["OH"], "Alt") --Lamp of Peaceful Radiance
+LBIS:AddItem(spec, "29273", LBIS.L["Off Hand"], "BIS") --Khadgar's Knapsack
+LBIS:AddItem(spec, "29268", LBIS.L["Off Hand"], "BIS") --Mazthoril Honor Shield
+LBIS:AddItem(spec, "31287", LBIS.L["Off Hand"], "Alt") --Draenei Honor Guard Shield
+LBIS:AddItem(spec, "23049", LBIS.L["Off Hand"], "Alt") --Sapphiron's Left Eye
+LBIS:AddItem(spec, "28412", LBIS.L["Off Hand"], "Alt") --Lamp of Peaceful Radiance
 
 LBIS:AddItem(spec, "28248", LBIS.L["Totem"], "BIS") --Totem of the Void
 LBIS:AddItem(spec, "23199", LBIS.L["Totem"], "Alt") --Totem of the Storm

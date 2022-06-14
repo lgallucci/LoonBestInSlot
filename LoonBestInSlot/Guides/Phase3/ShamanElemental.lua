@@ -70,15 +70,15 @@ LBIS:AddItem(spec, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Cresc
 LBIS:AddItem(spec, "38290", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
 LBIS:AddItem(spec, "31856", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Crusade
 
-LBIS:AddItem(spec, "32374", LBIS.L["MH"], "BIS") --Zhar'doom, Greatstaff of the Devourer
-LBIS:AddItem(spec, "32237", LBIS.L["MH"], "Alt") --The Maelstrom's Fury
-LBIS:AddItem(spec, "33687", LBIS.L["MH"], "Alt") --Vengeful Gladiator's Gavel
-LBIS:AddItem(spec, "34009", LBIS.L["MH"], "Alt") --Hammer of Judgement
-LBIS:AddItem(spec, "29988", LBIS.L["MH"], "Alt") --The Nexus Key
+LBIS:AddItem(spec, "32374", LBIS.L["Main Hand"], "BIS") --Zhar'doom, Greatstaff of the Devourer
+LBIS:AddItem(spec, "32237", LBIS.L["Main Hand"], "Alt") --The Maelstrom's Fury
+LBIS:AddItem(spec, "33687", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Gavel
+LBIS:AddItem(spec, "34009", LBIS.L["Main Hand"], "Alt") --Hammer of Judgement
+LBIS:AddItem(spec, "29988", LBIS.L["Main Hand"], "Alt") --The Nexus Key
 
-LBIS:AddItem(spec, "30909", LBIS.L["OH"], "BIS") --Antonidas's Aegis of Rapt Concentration
-LBIS:AddItem(spec, "30872", LBIS.L["OH"], "BIS") --Chronicle of Dark Secrets
-LBIS:AddItem(spec, "30049", LBIS.L["OH"], "Alt") --Fathomstone
+LBIS:AddItem(spec, "30909", LBIS.L["Off Hand"], "BIS") --Antonidas's Aegis of Rapt Concentration
+LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "BIS") --Chronicle of Dark Secrets
+LBIS:AddItem(spec, "30049", LBIS.L["Off Hand"], "Alt") --Fathomstone
 
 LBIS:AddItem(spec, "32330", LBIS.L["Totem"], "BIS") --Totem of Ancestral Guidance
 LBIS:AddItem(spec, "28248", LBIS.L["Totem"], "Alt") --Totem of the Void

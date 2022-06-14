@@ -58,13 +58,13 @@ LBIS:AddItem(spec, "27683", LBIS.L["Trinket"], "BIS") --Quagmirran's Eye
 LBIS:AddItem(spec, "28789", LBIS.L["Trinket"], "BIS") --Eye of Magtheridon
 LBIS:AddItem(spec, "38290", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
 
-LBIS:AddItem(spec, "28770", LBIS.L["MH"], "BIS") --Nathrezim Mindblade
-LBIS:AddItem(spec, "30723", LBIS.L["MH"], "BIS") --Talon of the Tempest
-LBIS:AddItem(spec, "33687", LBIS.L["MH"], "BIS") --Vengeful Gladiator's Gavel
-LBIS:AddItem(spec, "30832", LBIS.L["MH"], "Alt") --Gavel of Unearthed Secrets
-LBIS:AddItem(spec, "23554", LBIS.L["MH"], "Alt") --Eternium Runed Blade
+LBIS:AddItem(spec, "28770", LBIS.L["Main Hand"], "BIS") --Nathrezim Mindblade
+LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "BIS") --Talon of the Tempest
+LBIS:AddItem(spec, "33687", LBIS.L["Main Hand"], "BIS") --Vengeful Gladiator's Gavel
+LBIS:AddItem(spec, "30832", LBIS.L["Main Hand"], "Alt") --Gavel of Unearthed Secrets
+LBIS:AddItem(spec, "23554", LBIS.L["Main Hand"], "Alt") --Eternium Runed Blade
 
-LBIS:AddItem(spec, "29272", LBIS.L["OH"], "BIS") --Orb of the Soul-Eater
+LBIS:AddItem(spec, "29272", LBIS.L["Off Hand"], "BIS") --Orb of the Soul-Eater
 
 LBIS:AddItem(spec, "32872", LBIS.L["Wand"], "BIS") --Illidari Rod of Discipline
 LBIS:AddItem(spec, "28673", LBIS.L["Wand"], "Alt") --Tirisfal Wand of Ascendancy

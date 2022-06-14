@@ -59,11 +59,11 @@ LBIS:AddItem(spec, "19288", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Blue Drag
 LBIS:AddItem(spec, "35326", LBIS.L["Trinket"], "Alt") --Battlemaster's Alacrity
 LBIS:AddItem(spec, "33828", LBIS.L["Trinket"], "Alt") --Tome of Diabolic Remedy
 
-LBIS:AddItem(spec, "32500", LBIS.L["MH"], "BIS") --Crystal Spire of Karabor
-LBIS:AddItem(spec, "33468", LBIS.L["MH"], "Alt") --Dark Blessing
+LBIS:AddItem(spec, "32500", LBIS.L["Main Hand"], "BIS") --Crystal Spire of Karabor
+LBIS:AddItem(spec, "33468", LBIS.L["Main Hand"], "Alt") --Dark Blessing
 
-LBIS:AddItem(spec, "30911", LBIS.L["OH"], "BIS") --Scepter of Purification
-LBIS:AddItem(spec, "33325", LBIS.L["OH"], "Alt") --Voodoo Shaker
+LBIS:AddItem(spec, "30911", LBIS.L["Off Hand"], "BIS") --Scepter of Purification
+LBIS:AddItem(spec, "33325", LBIS.L["Off Hand"], "Alt") --Voodoo Shaker
 
 LBIS:AddItem(spec, "32363", LBIS.L["Wand"], "BIS") --Naaru-Blessed Life Rod
 LBIS:AddItem(spec, "33192", LBIS.L["Wand"], "Alt") --Carved Witch Doctor's Stick

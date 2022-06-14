@@ -81,11 +81,11 @@ LBIS:AddItem(spec, "32534", LBIS.L["Trinket"], "BIS Mit") --Brooch of the Immort
 LBIS:AddItem(spec, "28789", LBIS.L["Trinket"], "BIS Thrt") --Eye of Magtheridon
 LBIS:AddItem(spec, "30447", LBIS.L["Trinket"], "Alt") --Tome of Fiery Redemption
 
-LBIS:AddItem(spec, "32963", LBIS.L["MH"], "BIS") --Merciless Gladiator's Gavel
-LBIS:AddItem(spec, "30095", LBIS.L["MH"], "BIS") --Fang of the Leviathan
-LBIS:AddItem(spec, "28802", LBIS.L["MH"], "Alt") --Bloodmaw Magus-Blade
-LBIS:AddItem(spec, "32450", LBIS.L["MH"], "BIS") --Gladiator's Gavel
-LBIS:AddItem(spec, "30832", LBIS.L["MH"], "Alt") --Gavel of Unearthed Secrets
+LBIS:AddItem(spec, "32963", LBIS.L["Main Hand"], "BIS") --Merciless Gladiator's Gavel
+LBIS:AddItem(spec, "30095", LBIS.L["Main Hand"], "BIS") --Fang of the Leviathan
+LBIS:AddItem(spec, "28802", LBIS.L["Main Hand"], "Alt") --Bloodmaw Magus-Blade
+LBIS:AddItem(spec, "32450", LBIS.L["Main Hand"], "BIS") --Gladiator's Gavel
+LBIS:AddItem(spec, "30832", LBIS.L["Main Hand"], "Alt") --Gavel of Unearthed Secrets
 
 LBIS:AddItem(spec, "29388", LBIS.L["Libram"], "BIS Mit") --Libram of Repentance
 LBIS:AddItem(spec, "27917", LBIS.L["Libram"], "BIS Thrt") --Libram of the Eternal Rest

@@ -58,15 +58,15 @@ LBIS:AddItem(spec, "29132", LBIS.L["Trinket"], "BIS") --Scryer's Bloodgem
 
 LBIS:AddItem(spec, "22630", LBIS.L["2H"], "BIS") --Atiesh, Greatstaff of the Guardian
 
-LBIS:AddItem(spec, "30723", LBIS.L["MH"], "BIS") --Talon of the Tempest
-LBIS:AddItem(spec, "28802", LBIS.L["MH"], "Alt") --Bloodmaw Magus-Blade
-LBIS:AddItem(spec, "28770", LBIS.L["MH"], "Alt") --Nathrezim Mindblade
-LBIS:AddItem(spec, "28297", LBIS.L["MH"], "Alt") --Gladiator's Spellblade
-LBIS:AddItem(spec, "31336", LBIS.L["MH"], "Alt") --Blade of Wizardry
-LBIS:AddItem(spec, "23554", LBIS.L["MH"], "Alt") --Eternium Runed Blade
+LBIS:AddItem(spec, "30723", LBIS.L["Main Hand"], "BIS") --Talon of the Tempest
+LBIS:AddItem(spec, "28802", LBIS.L["Main Hand"], "Alt") --Bloodmaw Magus-Blade
+LBIS:AddItem(spec, "28770", LBIS.L["Main Hand"], "Alt") --Nathrezim Mindblade
+LBIS:AddItem(spec, "28297", LBIS.L["Main Hand"], "Alt") --Gladiator's Spellblade
+LBIS:AddItem(spec, "31336", LBIS.L["Main Hand"], "Alt") --Blade of Wizardry
+LBIS:AddItem(spec, "23554", LBIS.L["Main Hand"], "Alt") --Eternium Runed Blade
 
-LBIS:AddItem(spec, "29273", LBIS.L["OH"], "BIS") --Khadgar's Knapsack
-LBIS:AddItem(spec, "28734", LBIS.L["OH"], "Alt") --Jewel of Infinite Possibilities
+LBIS:AddItem(spec, "29273", LBIS.L["Off Hand"], "BIS") --Khadgar's Knapsack
+LBIS:AddItem(spec, "28734", LBIS.L["Off Hand"], "Alt") --Jewel of Infinite Possibilities
 
 LBIS:AddItem(spec, "28673", LBIS.L["Wand"], "BIS") --Tirisfal Wand of Ascendancy
 LBIS:AddItem(spec, "29350", LBIS.L["Wand"], "BIS") --The Black Stalk

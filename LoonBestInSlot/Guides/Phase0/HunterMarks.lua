@@ -71,15 +71,15 @@ LBIS:AddItem(spec, "28288", LBIS.L["Trinket"], "Alt") --Abacus of Violent Odds
 LBIS:AddItem(spec, "21670", LBIS.L["Trinket"], "Alt") --Badge of the Swarmguard
 LBIS:AddItem(spec, "28041", LBIS.L["Trinket"], "Alt") --Bladefist's Breadth
 
-LBIS:AddItem(spec, "27846", LBIS.L["MH"], "BIS") --Claw of the Watcher
-LBIS:AddItem(spec, "30277", LBIS.L["MH"], "Alt") --Ripfang Paw
-LBIS:AddItem(spec, "21673", LBIS.L["MH"], "Alt") --Silithid Claw
-LBIS:AddItem(spec, "28263", LBIS.L["MH"], "Alt") --Stellaris
+LBIS:AddItem(spec, "27846", LBIS.L["Main Hand"], "BIS") --Claw of the Watcher
+LBIS:AddItem(spec, "30277", LBIS.L["Main Hand"], "Alt") --Ripfang Paw
+LBIS:AddItem(spec, "21673", LBIS.L["Main Hand"], "Alt") --Silithid Claw
+LBIS:AddItem(spec, "28263", LBIS.L["Main Hand"], "Alt") --Stellaris
 
-LBIS:AddItem(spec, "28315", LBIS.L["OH"], "BIS") --Stormreaver Warblades
-LBIS:AddItem(spec, "29372", LBIS.L["OH"], "Alt") --Void-Talon
-LBIS:AddItem(spec, "23242", LBIS.L["OH"], "Alt") --Claw of the Frost Wyrm
-LBIS:AddItem(spec, "29121", LBIS.L["OH"], "Alt") --Guile of Khoraazi
+LBIS:AddItem(spec, "28315", LBIS.L["Off Hand"], "BIS") --Stormreaver Warblades
+LBIS:AddItem(spec, "29372", LBIS.L["Off Hand"], "Alt") --Void-Talon
+LBIS:AddItem(spec, "23242", LBIS.L["Off Hand"], "Alt") --Claw of the Frost Wyrm
+LBIS:AddItem(spec, "29121", LBIS.L["Off Hand"], "Alt") --Guile of Khoraazi
 
 LBIS:AddItem(spec, "28435", LBIS.L["2H"], "BIS") --Mooncleaver
 LBIS:AddItem(spec, "27903", LBIS.L["2H"], "Alt") --Sonic Spear

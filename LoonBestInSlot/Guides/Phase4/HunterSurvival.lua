@@ -37,9 +37,9 @@ LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "BIS") --Madness of the Betrayer
 LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "Alt") --Berserker's Call
 
-LBIS:AddItem(spec, "33389", LBIS.L["MH"], "BIS") --Dagger of Bad Mojo
-LBIS:AddItem(spec, "30881", LBIS.L["MH"], "Alt") --Blade of Infamy
-LBIS:AddItem(spec, "33495", LBIS.L["MH"], "Alt") --Rage
+LBIS:AddItem(spec, "33389", LBIS.L["Main Hand"], "BIS") --Dagger of Bad Mojo
+LBIS:AddItem(spec, "30881", LBIS.L["Main Hand"], "Alt") --Blade of Infamy
+LBIS:AddItem(spec, "33495", LBIS.L["Main Hand"], "Alt") --Rage
 
 LBIS:AddItem(spec, "32248", LBIS.L["2H"], "BIS") --Halberd of Desolation
 LBIS:AddItem(spec, "33492", LBIS.L["2H"], "Alt") --Trollbane

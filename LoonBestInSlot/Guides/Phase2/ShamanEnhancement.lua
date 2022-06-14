@@ -57,16 +57,16 @@ LBIS:AddItem(spec, "38287", LBIS.L["Trinket"], "BIS") --Empty Mug of Direbrew
 LBIS:AddItem(spec, "23041", LBIS.L["Trinket"], "Alt") --Slayer's Crest
 LBIS:AddItem(spec, "30627", LBIS.L["Trinket"], "Alt") --Tsunami Talisman
 
-LBIS:AddItem(spec, "32944", LBIS.L["MH"], "BIS (MH)") --Talon of the Phoenix
-LBIS:AddItem(spec, "29996", LBIS.L["MH"], "BIS (All)") --Rod of the Sun King
-LBIS:AddItem(spec, "28433", LBIS.L["MH"], "BIS (MH)") --Wicked Edge of the Planes
-LBIS:AddItem(spec, "31965", LBIS.L["MH"], "BIS (All)") --Merciless Gladiator's Cleaver
-LBIS:AddItem(spec, "28439", LBIS.L["MH"], "BIS (MH)") --Dragonstrike
-LBIS:AddItem(spec, "29924", LBIS.L["MH"], "BIS (All)") --Netherbane
-LBIS:AddItem(spec, "28308", LBIS.L["MH"], "BIS (All)") --Gladiator's Cleaver
-LBIS:AddItem(spec, "28767", LBIS.L["MH"], "BIS (MH)") --The Decapitator
-LBIS:AddItem(spec, "27872", LBIS.L["MH"], "BIS (OH)") --The Harvester of Souls
-LBIS:AddItem(spec, "28944", LBIS.L["MH"], "BIS (OH)") --Grand Marshal's Cleaver
-LBIS:AddItem(spec, "28920", LBIS.L["MH"], "BIS (OH)") --High Warlord's Cleaver
+LBIS:AddItem(spec, "32944", LBIS.L["Main Hand"], "BIS (MH)") --Talon of the Phoenix
+LBIS:AddItem(spec, "29996", LBIS.L["Main Hand"], "BIS (All)") --Rod of the Sun King
+LBIS:AddItem(spec, "28433", LBIS.L["Main Hand"], "BIS (MH)") --Wicked Edge of the Planes
+LBIS:AddItem(spec, "31965", LBIS.L["Main Hand"], "BIS (All)") --Merciless Gladiator's Cleaver
+LBIS:AddItem(spec, "28439", LBIS.L["Main Hand"], "BIS (MH)") --Dragonstrike
+LBIS:AddItem(spec, "29924", LBIS.L["Main Hand"], "BIS (All)") --Netherbane
+LBIS:AddItem(spec, "28308", LBIS.L["Main Hand"], "BIS (All)") --Gladiator's Cleaver
+LBIS:AddItem(spec, "28767", LBIS.L["Main Hand"], "BIS (MH)") --The Decapitator
+LBIS:AddItem(spec, "27872", LBIS.L["Main Hand"], "BIS (OH)") --The Harvester of Souls
+LBIS:AddItem(spec, "28944", LBIS.L["Main Hand"], "BIS (OH)") --Grand Marshal's Cleaver
+LBIS:AddItem(spec, "28920", LBIS.L["Main Hand"], "BIS (OH)") --High Warlord's Cleaver
 
 LBIS:AddItem(spec, "27815", LBIS.L["Totem"], "BIS") --Totem of the Astral Winds
