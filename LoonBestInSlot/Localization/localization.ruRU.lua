@@ -18,11 +18,13 @@ if GetLocale() == "ruRU" then
   LBIS.L["Ally of the Netherwing"] = "Союзник Крыльев Пустоты";
   LBIS.L["Alterac Mountains"] = "Альтеракские горы";
 --  LBIS.L["Alterac Valley PvP Vendor"] = "";
+--  LBIS.L["Alterac Vally Marks"] = "";
   LBIS.L["Ambassador Hellmaw"] = "Посол Гиблочрев";
   LBIS.L["Anetheron"] = "Анетерон";
   LBIS.L["Anzu"] = "Анзу";
 --  LBIS.L["Apexis Crystal Infusion"] = "";
   LBIS.L["Ar'kelos the Guardian"] = "Страж Ар'келос";
+--  LBIS.L["Arathi Basin Marks"] = "";
   LBIS.L["Arcane"] = "Тайная магия";
   LBIS.L["Archimonde"] = "Архимонд";
   LBIS.L["Arconus the Insatiable"] = "Арконус Ненасытный";
@@ -116,6 +118,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Everything Will Be Alright"] = "Все будет в порядке";
   LBIS.L["Exalted"] = "Превознесение";
   LBIS.L["Exarch Maladaar"] = "Экзарх Маладаар";
+--  LBIS.L["Eye of the Storm Marks"] = "";
   LBIS.L["Fathom-Lord Karathress"] = "Повелитель глубин Каратресс";
   LBIS.L["Feet"] = "Ступни";
   LBIS.L["Fel Embers"] = "Угли Скверны";
@@ -162,10 +165,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Honor"] = "";
   LBIS.L["Honor Hold"] = "Оплот Чести";
 --  LBIS.L["Honor Hold Marks"] = "";
---  LBIS.L["Honor, Alterac Valley Marks"] = "";
---  LBIS.L["Honor, Arathi Basin Marks"] = "";
---  LBIS.L["Honor, Eye of the Storm Marks"] = "";
---  LBIS.L["Honor, Warsong Gulch Marks"] = "";
   LBIS.L["Honored"] = "Уважение";
   LBIS.L["How to Break Into the Arcatraz"] = "Как проникнуть в Аркатрац";
   LBIS.L["Hungarfen"] = "Топеглад";
@@ -302,7 +301,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Special Delivery to Shattrath City"] = "Специальный груз в город Шаттрат";
 --  LBIS.L["Spellfire Tailoring"] = "";
 --  LBIS.L["Spirit Sage Gartok/Spirit Sage Zran"] = "/";
---  LBIS.L["Spirit Shard"] = "";
+--  LBIS.L["Spirit Shards"] = "";
   LBIS.L["Subdue the Subduer"] = "Покорить Покорителя";
   LBIS.L["Success!"] = "Готово!";
   LBIS.L["Sunwell Plateau"] = "Плато Солнечного Колодца";
@@ -403,6 +402,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Warchief Kargath Bladefist"] = "Вождь Каргат Острорук";
   LBIS.L["Warlord Kalithresh"] = "Полководец Калитреш";
   LBIS.L["Warp Splinter"] = "Узлодревень";
+--  LBIS.L["Warsong Gulch Marks"] = "";
   LBIS.L["Watchkeeper Gargolmar"] = "Начальник стражи Гарголмар";
   LBIS.L["When the Cows Come Home"] = "Когда коровы возвращаются домой";
   LBIS.L["Whispers of the Raven God"] = "Шепот Бога-ворона";

@@ -18,11 +18,13 @@ if GetLocale() == "esES" then
   LBIS.L["Ally of the Netherwing"] = "Aliado del Ala Abisal";
   LBIS.L["Alterac Mountains"] = "Montañas de Alterac";
   LBIS.L["Alterac Valley PvP Vendor"] = "Vendedor del Valle de Alterac";
+  LBIS.L["Alterac Vally Marks"] = "Marcas del Valle de Alterac";
   LBIS.L["Ambassador Hellmaw"] = "Embajador Faucinferno";
   LBIS.L["Anetheron"] = "Anetheron";
   LBIS.L["Anzu"] = "Anzu";
   LBIS.L["Apexis Crystal Infusion"] = "Infusión de cristal de ápices";
   LBIS.L["Ar'kelos the Guardian"] = "Ar'kelos el Guardián";
+  LBIS.L["Arathi Basin Marks"] = "Marcas de la Cuenca de Arathi";
   LBIS.L["Arcane"] = "Arcano";
   LBIS.L["Archimonde"] = "Archimonde";
   LBIS.L["Arconus the Insatiable"] = "Arconus el Insaciable";
@@ -116,6 +118,7 @@ if GetLocale() == "esES" then
   LBIS.L["Everything Will Be Alright"] = "Todo irá bien";
   LBIS.L["Exalted"] = "Exaltado";
   LBIS.L["Exarch Maladaar"] = "Exarca Maladaar";
+  LBIS.L["Eye of the Storm Marks"] = "Marcas del ojo de la tormenta";
   LBIS.L["Fathom-Lord Karathress"] = "Señor de la profundidades Karathress";
   LBIS.L["Feet"] = "Pies";
   LBIS.L["Fel Embers"] = "Ascuas viles";
@@ -162,10 +165,6 @@ if GetLocale() == "esES" then
   LBIS.L["Honor"] = "Honor";
   LBIS.L["Honor Hold"] = "Bastión del Honor";
   LBIS.L["Honor Hold Marks"] = "Marcas de Bastión de Honor";
-  LBIS.L["Honor, Alterac Valley Marks"] = "Honor, Marcas del Valle de Alterac";
-  LBIS.L["Honor, Arathi Basin Marks"] = "Honor, Marcas de la Cuenca de Arathi";
-  LBIS.L["Honor, Eye of the Storm Marks"] = "Honor, Marcas del ojo de la tormenta";
-  LBIS.L["Honor, Warsong Gulch Marks"] = "Honor, Marcas de la Quebrada Grito de Guerra";
   LBIS.L["Honored"] = "Honorable";
   LBIS.L["How to Break Into the Arcatraz"] = "Cómo infiltrarse en El Arcatraz";
   LBIS.L["Hungarfen"] = "Panthambre";
@@ -302,7 +301,7 @@ if GetLocale() == "esES" then
   LBIS.L["Special Delivery to Shattrath City"] = "Una entrega especial a la Ciudad de Shattrath";
   LBIS.L["Spellfire Tailoring"] = "Sastrería de fuego de hechizo";
   LBIS.L["Spirit Sage Gartok/Spirit Sage Zran"] = "Espíritu de sabio Gartok/Espíritu de sabio Zran";
-  LBIS.L["Spirit Shard"] = "Fragmento de espíritu";
+  LBIS.L["Spirit Shards"] = "Fragmento de espíritu";
   LBIS.L["Subdue the Subduer"] = "Avasallar al Avasallador";
   LBIS.L["Success!"] = "¡Éxito!";
   LBIS.L["Sunwell Plateau"] = "Meseta de La Fuente del Sol";
@@ -403,6 +402,7 @@ if GetLocale() == "esES" then
   LBIS.L["Warchief Kargath Bladefist"] = "Jefe de Guerra Kargath Garrafilada";
   LBIS.L["Warlord Kalithresh"] = "Señor de la Guerra Kalithresh";
   LBIS.L["Warp Splinter"] = "Disidente de distorsión";
+  LBIS.L["Warsong Gulch Marks"] = "Marcas de la Quebrada Grito de Guerra";
   LBIS.L["Watchkeeper Gargolmar"] = "Guardián vigía Gargolmar";
   LBIS.L["When the Cows Come Home"] = "Cuando las vacas vuelven a casa";
   LBIS.L["Whispers of the Raven God"] = "Susurros del Dios Cuervo";

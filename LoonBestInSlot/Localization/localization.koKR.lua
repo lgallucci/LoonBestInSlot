@@ -18,11 +18,13 @@ if GetLocale() == "koKR" then
   LBIS.L["Ally of the Netherwing"] = "황천날개 용군단의 동맹";
   LBIS.L["Alterac Mountains"] = "알터랙 산맥";
 --  LBIS.L["Alterac Valley PvP Vendor"] = "";
+--  LBIS.L["Alterac Vally Marks"] = "";
   LBIS.L["Ambassador Hellmaw"] = "사자 지옥아귀";
   LBIS.L["Anetheron"] = "아네테론";
   LBIS.L["Anzu"] = "안주";
 --  LBIS.L["Apexis Crystal Infusion"] = "";
   LBIS.L["Ar'kelos the Guardian"] = "수호자 알켈로스";
+--  LBIS.L["Arathi Basin Marks"] = "";
   LBIS.L["Arcane"] = "비전";
   LBIS.L["Archimonde"] = "아키몬드";
   LBIS.L["Arconus the Insatiable"] = "탐욕의 아르코누스";
@@ -116,6 +118,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Everything Will Be Alright"] = "영혼의 자유를 위하여";
   LBIS.L["Exalted"] = "확고한 동맹";
   LBIS.L["Exarch Maladaar"] = "총독 말라다르";
+--  LBIS.L["Eye of the Storm Marks"] = "";
   LBIS.L["Fathom-Lord Karathress"] = "심연의 군주 카라드레스";
   LBIS.L["Feet"] = "발";
   LBIS.L["Fel Embers"] = "지옥의 불씨";
@@ -162,10 +165,6 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Honor"] = "";
   LBIS.L["Honor Hold"] = "명예의 요새";
 --  LBIS.L["Honor Hold Marks"] = "";
---  LBIS.L["Honor, Alterac Valley Marks"] = "";
---  LBIS.L["Honor, Arathi Basin Marks"] = "";
---  LBIS.L["Honor, Eye of the Storm Marks"] = "";
---  LBIS.L["Honor, Warsong Gulch Marks"] = "";
   LBIS.L["Honored"] = "우호적";
   LBIS.L["How to Break Into the Arcatraz"] = "알카트라즈에 잠입하는 방법";
   LBIS.L["Hungarfen"] = "헝가르펜";
@@ -302,7 +301,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Special Delivery to Shattrath City"] = "샤트라스로 특별 배달";
 --  LBIS.L["Spellfire Tailoring"] = "";
 --  LBIS.L["Spirit Sage Gartok/Spirit Sage Zran"] = "/";
---  LBIS.L["Spirit Shard"] = "";
+--  LBIS.L["Spirit Shards"] = "";
   LBIS.L["Subdue the Subduer"] = "정복자 제압";
   LBIS.L["Success!"] = "성공!";
   LBIS.L["Sunwell Plateau"] = "태양샘 고원";
@@ -403,6 +402,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Warchief Kargath Bladefist"] = "대족장 카르가스 블레이드피스트";
   LBIS.L["Warlord Kalithresh"] = "장군 칼리스레쉬";
   LBIS.L["Warp Splinter"] = "차원의 분리자";
+--  LBIS.L["Warsong Gulch Marks"] = "";
   LBIS.L["Watchkeeper Gargolmar"] = "감시자 가르골마르";
   LBIS.L["When the Cows Come Home"] = "집으로 돌아온 소";
   LBIS.L["Whispers of the Raven God"] = "까마귀 신의 속삭임";

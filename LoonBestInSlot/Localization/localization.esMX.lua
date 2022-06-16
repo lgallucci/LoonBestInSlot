@@ -18,11 +18,13 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Ally of the Netherwing"] = "";
   LBIS.L["Alterac Mountains"] = "Montañas de Alterac";
 --  LBIS.L["Alterac Valley PvP Vendor"] = "";
+--  LBIS.L["Alterac Vally Marks"] = "";
   LBIS.L["Ambassador Hellmaw"] = "Embajador Faucinferno";
   LBIS.L["Anetheron"] = "Anetheron";
   LBIS.L["Anzu"] = "Anzu";
 --  LBIS.L["Apexis Crystal Infusion"] = "";
 --  LBIS.L["Ar'kelos the Guardian"] = "";
+--  LBIS.L["Arathi Basin Marks"] = "";
   LBIS.L["Arcane"] = "Arcano";
   LBIS.L["Archimonde"] = "Archimonde";
 --  LBIS.L["Arconus the Insatiable"] = "";
@@ -116,6 +118,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Everything Will Be Alright"] = "";
   LBIS.L["Exalted"] = "Exaltado";
   LBIS.L["Exarch Maladaar"] = "Exarca Maladaar";
+--  LBIS.L["Eye of the Storm Marks"] = "";
   LBIS.L["Fathom-Lord Karathress"] = "Señor de las profundidades Karathress";
   LBIS.L["Feet"] = "Pies";
 --  LBIS.L["Fel Embers"] = "";
@@ -162,10 +165,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Honor"] = "";
   LBIS.L["Honor Hold"] = "Bastión del Honor";
 --  LBIS.L["Honor Hold Marks"] = "";
---  LBIS.L["Honor, Alterac Valley Marks"] = "";
---  LBIS.L["Honor, Arathi Basin Marks"] = "";
---  LBIS.L["Honor, Eye of the Storm Marks"] = "";
---  LBIS.L["Honor, Warsong Gulch Marks"] = "";
   LBIS.L["Honored"] = "Honorable";
 --  LBIS.L["How to Break Into the Arcatraz"] = "";
   LBIS.L["Hungarfen"] = "Panthambre";
@@ -302,7 +301,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Special Delivery to Shattrath City"] = "";
 --  LBIS.L["Spellfire Tailoring"] = "";
 --  LBIS.L["Spirit Sage Gartok/Spirit Sage Zran"] = "/";
---  LBIS.L["Spirit Shard"] = "";
+--  LBIS.L["Spirit Shards"] = "";
 --  LBIS.L["Subdue the Subduer"] = "";
 --  LBIS.L["Success!"] = "";
   LBIS.L["Sunwell Plateau"] = "Meseta de La Fuente del Sol";
@@ -403,6 +402,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Warchief Kargath Bladefist"] = "Jefe de Guerra Kargath Garrafilada";
   LBIS.L["Warlord Kalithresh"] = "Señor de la guerra Kalithresh";
   LBIS.L["Warp Splinter"] = "Disidente de distorsión";
+--  LBIS.L["Warsong Gulch Marks"] = "";
   LBIS.L["Watchkeeper Gargolmar"] = "Guardián vigía Gargolmar";
 --  LBIS.L["When the Cows Come Home"] = "";
 --  LBIS.L["Whispers of the Raven God"] = "";

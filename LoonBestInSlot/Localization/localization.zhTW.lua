@@ -18,11 +18,13 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Ally of the Netherwing"] = "";
   LBIS.L["Alterac Mountains"] = "奧特蘭克山脈";
 --  LBIS.L["Alterac Valley PvP Vendor"] = "";
+--  LBIS.L["Alterac Vally Marks"] = "";
   LBIS.L["Ambassador Hellmaw"] = "海爾瑪大使";
   LBIS.L["Anetheron"] = "安納賽隆";
   LBIS.L["Anzu"] = "安祖";
 --  LBIS.L["Apexis Crystal Infusion"] = "";
   LBIS.L["Ar'kelos the Guardian"] = "守護者阿其羅斯";
+--  LBIS.L["Arathi Basin Marks"] = "";
   LBIS.L["Arcane"] = "秘法";
   LBIS.L["Archimonde"] = "阿克蒙德";
   LBIS.L["Arconus the Insatiable"] = "貪求無厭的阿肯納斯";
@@ -116,6 +118,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Everything Will Be Alright"] = "一切都會很好";
   LBIS.L["Exalted"] = "崇拜";
   LBIS.L["Exarch Maladaar"] = "瑪拉達爾主教";
+--  LBIS.L["Eye of the Storm Marks"] = "";
   LBIS.L["Fathom-Lord Karathress"] = "深淵之王卡拉薩瑞斯";
   LBIS.L["Feet"] = "腳";
   LBIS.L["Fel Embers"] = "魔化餘燼";
@@ -162,10 +165,6 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Honor"] = "";
   LBIS.L["Honor Hold"] = "榮譽堡";
 --  LBIS.L["Honor Hold Marks"] = "";
---  LBIS.L["Honor, Alterac Valley Marks"] = "";
---  LBIS.L["Honor, Arathi Basin Marks"] = "";
---  LBIS.L["Honor, Eye of the Storm Marks"] = "";
---  LBIS.L["Honor, Warsong Gulch Marks"] = "";
   LBIS.L["Honored"] = "尊敬";
   LBIS.L["How to Break Into the Arcatraz"] = "闖入亞克崔茲的方法";
   LBIS.L["Hungarfen"] = "飢餓之牙";
@@ -302,7 +301,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Special Delivery to Shattrath City"] = "給撒塔斯城的特件";
 --  LBIS.L["Spellfire Tailoring"] = "";
 --  LBIS.L["Spirit Sage Gartok/Spirit Sage Zran"] = "/";
---  LBIS.L["Spirit Shard"] = "";
+--  LBIS.L["Spirit Shards"] = "";
 --  LBIS.L["Subdue the Subduer"] = "";
   LBIS.L["Success!"] = "成功!";
   LBIS.L["Sunwell Plateau"] = "太陽之井高地";
@@ -403,6 +402,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Warchief Kargath Bladefist"] = "大酋長卡加斯·刃拳";
   LBIS.L["Warlord Kalithresh"] = "督軍卡利斯瑞";
   LBIS.L["Warp Splinter"] = "扭曲分裂者";
+--  LBIS.L["Warsong Gulch Marks"] = "";
   LBIS.L["Watchkeeper Gargolmar"] = "看護者卡爾古瑪";
   LBIS.L["When the Cows Come Home"] = "母牛返家";
   LBIS.L["Whispers of the Raven God"] = "烏鴉神的秘密預言";

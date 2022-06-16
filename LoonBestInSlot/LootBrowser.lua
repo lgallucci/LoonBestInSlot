@@ -3,6 +3,8 @@ LBIS.BrowserWindow = {
     CompareTooltip = {}
 }
 
+local VendorPrice = AtlasLoot.Data.VendorPrice;
+
 local deleted_windows = {}
 function LBIS.BrowserWindow:OpenWindow()
     LBIS:BuildItemCache()
@@ -139,12 +141,11 @@ local function IsInZone(specItem)
 end
 
 local function IsNotInClassic(specItem)
-    if specItem.SelectedSourceType == LBIS.L["Classic"] then
+    if specItem.SourceType == LBIS.L["Classic"] then
         return false
     end
     return true;
 end
-
 
 local function SetTooltipOnButton(b, item)
     
@@ -176,6 +177,59 @@ local function SetTooltipOnButton(b, item)
             GameTooltip:Hide();
         end
     );
+end
+
+local alSources = {};
+alSources["honor"] = LBIS.L["Honor"];
+alSources["BoJ"] = LBIS.L["Badges of Justice"];
+alSources["SpiritShard"] = LBIS.L["Spirit Shards"];
+alSources["pvpArathi"] = LBIS.L["Arathi Basin Marks"];
+alSources["pvpWarsong"] = LBIS.L["Warsong Gulch Marks"];
+alSources["pvpAlterac"] = LBIS.L["Alterac Vally Marks"];
+alSources["pvpEye"] = LBIS.L["Eye of the Storm Marks"];
+alSources["arena"] = LBIS.L["Arena Points"];
+
+local function printSource(specItemSource, dl)
+
+    local text = "";
+
+    local sourceText = specItemSource.Source;
+    local sourceNumberText = specItemSource.SourceNumber;
+    local sourceLocationText = specItemSource.SourceLocation;
+
+    if VendorPrice ~= nil then
+        local vendorText = VendorPrice.GetVendorPriceForItem(specItemSource.ItemId);
+
+        if vendorText ~= nil then
+            local source1, source1Amount, source2, source2Amount, source3, source3Amount = strsplit(":", vendorText)
+
+            if source1 ~= nil && source1 ~= "" && alSources[source1] ~= nil then
+                sourceText = "AL!: "..alSources[source1].." ("..source1Amount..")"
+                sourceNumberText = "";
+                sourceLocationText = "";
+            end
+
+            if source2 ~= nil && source2 ~= "" && alSources[source2] ~= nil then
+                sourceText = sourceText..", "..alSources[source2].." ("..source2Amount..")"
+            end
+
+            if source3 ~= nil && source3 ~= "" && alSources[source3] ~= nil then
+                sourceText = sourceText..", "..alSources[source3].." ("..source3Amount..")"
+            end
+        end
+    end
+
+    text = sourceText;
+
+    if sourceNumberText ~= "" && then
+        text = text.." ("..sourceNumberText..")";    
+    end
+
+    if sourceLocationText ~= "" && then
+        text = text.." - "..sourceLocationText;    
+    end
+
+    dl:SetText(text);
 end
 
 local failedLoad = false;
@@ -262,14 +316,8 @@ local function createItemRow(specItem, specItemSource, point)
             d:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
 
             dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
-            if specItemSource.SourceLocation == "" then
-                if specItemSource.SourceNumber == "" then
-                    dl:SetText(specItemSource.Source);
-                else
-                    dl:SetText(specItemSource.Source.." ("..specItemSource.SourceNumber..")");
-                end                
-                dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
-            elseif specItemSource.SourceType == LBIS.L["Transmute"] then
+
+            if specItemSource.SourceType == LBIS.L["Transmute"] then
             
                 LBIS:GetItemInfo(tonumber(specItemSource.Source), function(transmuteItem)
 
@@ -289,11 +337,7 @@ local function createItemRow(specItem, specItemSource, point)
                 dl:SetText(specItemSource.SourceLocation);
                 dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
             else
-                if specItemSource.SourceNumber == "" then
-                    dl:SetText(specItemSource.Source.." - "..specItemSource.SourceLocation);
-                else
-                    dl:SetText(specItemSource.Source.." ("..specItemSource.SourceNumber..") - "..specItemSource.SourceLocation);
-                end
+                PrintSource(specItemSource, dl)
                 dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
             end      
 

@@ -18,11 +18,13 @@ if GetLocale() == "frFR" then
   LBIS.L["Ally of the Netherwing"] = "Allié du vol du Néant";
   LBIS.L["Alterac Mountains"] = "Montagnes d’Alterac";
 --  LBIS.L["Alterac Valley PvP Vendor"] = "";
+--  LBIS.L["Alterac Vally Marks"] = "";
   LBIS.L["Ambassador Hellmaw"] = "Ambassadeur Gueule-d'enfer";
   LBIS.L["Anetheron"] = "Anetheron";
   LBIS.L["Anzu"] = "Anzu";
 --  LBIS.L["Apexis Crystal Infusion"] = "";
   LBIS.L["Ar'kelos the Guardian"] = "Ar'kelos le Gardien";
+--  LBIS.L["Arathi Basin Marks"] = "";
   LBIS.L["Arcane"] = "Arcane";
   LBIS.L["Archimonde"] = "Archimonde";
   LBIS.L["Arconus the Insatiable"] = "Arconus l'Insatiable";
@@ -116,6 +118,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Everything Will Be Alright"] = "Tout va bien se passer";
   LBIS.L["Exalted"] = "Exalté";
   LBIS.L["Exarch Maladaar"] = "Exarque Maladaar";
+--  LBIS.L["Eye of the Storm Marks"] = "";
   LBIS.L["Fathom-Lord Karathress"] = "Seigneur des fonds Karathress";
   LBIS.L["Feet"] = "Pieds";
   LBIS.L["Fel Embers"] = "Les gangrebraises";
@@ -162,10 +165,6 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Honor"] = "";
   LBIS.L["Honor Hold"] = "Bastion de l’Honneur";
 --  LBIS.L["Honor Hold Marks"] = "";
---  LBIS.L["Honor, Alterac Valley Marks"] = "";
---  LBIS.L["Honor, Arathi Basin Marks"] = "";
---  LBIS.L["Honor, Eye of the Storm Marks"] = "";
---  LBIS.L["Honor, Warsong Gulch Marks"] = "";
   LBIS.L["Honored"] = "Honoré";
   LBIS.L["How to Break Into the Arcatraz"] = "Comment pénétrer dans l’Arcatraz";
   LBIS.L["Hungarfen"] = "Hungarfen";
@@ -302,7 +301,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Special Delivery to Shattrath City"] = "Livraison spéciale à Shattrath";
 --  LBIS.L["Spellfire Tailoring"] = "";
 --  LBIS.L["Spirit Sage Gartok/Spirit Sage Zran"] = "/";
---  LBIS.L["Spirit Shard"] = "";
+--  LBIS.L["Spirit Shards"] = "";
   LBIS.L["Subdue the Subduer"] = "Dominer le Dominateur";
   LBIS.L["Success!"] = "Victoire !";
   LBIS.L["Sunwell Plateau"] = "Plateau du Puits de soleil";
@@ -403,6 +402,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Warchief Kargath Bladefist"] = "Chef de guerre Kargath Lamepoing";
   LBIS.L["Warlord Kalithresh"] = "Seigneur de guerre Kalithresh";
   LBIS.L["Warp Splinter"] = "Brise-dimension";
+--  LBIS.L["Warsong Gulch Marks"] = "";
   LBIS.L["Watchkeeper Gargolmar"] = "Gardien des guetteurs Gargolmar";
   LBIS.L["When the Cows Come Home"] = "Marguerite rentre au pays";
   LBIS.L["Whispers of the Raven God"] = "Les murmures du dieu corbeau";
