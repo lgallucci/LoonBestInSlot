@@ -181,6 +181,8 @@ end
 
 local alSources = {};
 alSources["honor"] = LBIS.L["Honor"];
+alSources["honorA"] = LBIS.L["Honor"];
+alSources["honorH"] = LBIS.L["Honor"];
 alSources["BoJ"] = LBIS.L["Badges of Justice"];
 alSources["SpiritShard"] = LBIS.L["Spirit Shards"];
 alSources["pvpArathi"] = LBIS.L["Arathi Basin Marks"];
@@ -189,7 +191,7 @@ alSources["pvpAlterac"] = LBIS.L["Alterac Vally Marks"];
 alSources["pvpEye"] = LBIS.L["Eye of the Storm Marks"];
 alSources["arena"] = LBIS.L["Arena Points"];
 
-local function printSource(specItemSource, dl)
+local function printSource(itemId, specItemSource, dl)
 
     local text = "";
 
@@ -198,22 +200,21 @@ local function printSource(specItemSource, dl)
     local sourceLocationText = specItemSource.SourceLocation;
 
     if VendorPrice ~= nil then
-        local vendorText = VendorPrice.GetVendorPriceForItem(specItemSource.ItemId);
-
+        local vendorText = VendorPrice.GetVendorPriceForItem(tonumber(itemId));
+        
         if vendorText ~= nil then
             local source1, source1Amount, source2, source2Amount, source3, source3Amount = strsplit(":", vendorText)
 
-            if source1 ~= nil && source1 ~= "" && alSources[source1] ~= nil then
-                sourceText = "AL!: "..alSources[source1].." ("..source1Amount..")"
+            if source1 ~= nil and source1 ~= "" and alSources[source1] ~= nil then
+                sourceText = alSources[source1].." ("..source1Amount..")"
                 sourceNumberText = "";
-                sourceLocationText = "";
             end
 
-            if source2 ~= nil && source2 ~= "" && alSources[source2] ~= nil then
+            if source2 ~= nil and source2 ~= "" and alSources[source2] ~= nil then
                 sourceText = sourceText..", "..alSources[source2].." ("..source2Amount..")"
             end
 
-            if source3 ~= nil && source3 ~= "" && alSources[source3] ~= nil then
+            if source3 ~= nil and source3 ~= "" and alSources[source3] ~= nil then
                 sourceText = sourceText..", "..alSources[source3].." ("..source3Amount..")"
             end
         end
@@ -221,11 +222,11 @@ local function printSource(specItemSource, dl)
 
     text = sourceText;
 
-    if sourceNumberText ~= "" && then
+    if sourceNumberText ~= "" then
         text = text.." ("..sourceNumberText..")";    
     end
 
-    if sourceLocationText ~= "" && then
+    if sourceLocationText ~= "" then
         text = text.." - "..sourceLocationText;    
     end
 
@@ -238,7 +239,7 @@ local function createItemRow(specItem, specItemSource, point)
     local window = LBIS.BrowserWindow.Window;
     local spacing = 1;
     local alt_color = false;
-    local name = "frame_"..item.Id;
+    local name = "frame_"..specItem.Id;
     local f, t, l, b, d, dl = nil, nil, nil, nil, nil, nil, nil;
     local reusing = false;
     
@@ -254,7 +255,7 @@ local function createItemRow(specItem, specItemSource, point)
     end
     
     if not resuing then
-        f = CreateFrame("Frame", "frame_"..item.Id, window.Container);
+        f = CreateFrame("Frame", "frame_"..specItem.Id, window.Container);
 
         LBIS:GetItemInfo(specItem.Id, function(item)
             if item == nil or item.Id == nil or item.Link == nil or item.Type == nil then
@@ -337,7 +338,7 @@ local function createItemRow(specItem, specItemSource, point)
                 dl:SetText(specItemSource.SourceLocation);
                 dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
             else
-                PrintSource(specItemSource, dl)
+                printSource(specItem.Id, specItemSource, dl)
                 dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
             end      
 
