@@ -6,7 +6,7 @@ LBIS.Items = {};
 LBIS.SpecItems = {};
 LBIS.ItemCache = {};
 LBIS.AllItemsCached = false;
-LBIS.CurrentPhase = 4;
+LBIS.CurrentPhase = 5;
 LBIS.EventFrame = CreateFrame("FRAME",addonName.."Events")
 
 LBISSettings = LBISSettings or { SelectedSpec = "", SelectedSlot = LBIS.L["All"], SelectedPhase = LBIS.L["All"], SelectedSourceType = LBIS.L["All"], SelectedZone = LBIS.L["All"], minimap = { hide = false, minimapPos = 180}, ShowTooltip = true }
