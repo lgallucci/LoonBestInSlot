@@ -66,8 +66,8 @@ LBIS:AddItem(spec, "30910", LBIS.L["Main Hand"], "Alt") --Tempest of Chaos
 LBIS:AddItem(spec, "35102", LBIS.L["Main Hand"], "Alt") --Brutal Gladiator's Spellblade
 LBIS:AddItem(spec, "34895", LBIS.L["Main Hand"], "Alt") --Scryer's Blade of Focus
 
-LBIS:AddItem(spec, "34179", LBIS.L["Off Hand"], "BIS") --Heart of the Pit
-LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "Alt") --Chronicle of Dark Secrets
+LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "BIS") --Chronicle of Dark Secrets
+LBIS:AddItem(spec, "34179", LBIS.L["Off Hand"], "Alt") --Heart of the Pit
 
-LBIS:AddItem(spec, "34347", LBIS.L["Wand"], "Alt") --Wand of the Demonsoul
+LBIS:AddItem(spec, "34347", LBIS.L["Wand"], "BIS") --Wand of the Demonsoul
 LBIS:AddItem(spec, "29982", LBIS.L["Wand"], "Alt") --Wand of the Forgotten Star

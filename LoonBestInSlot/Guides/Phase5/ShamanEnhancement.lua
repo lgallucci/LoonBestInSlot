@@ -8,6 +8,8 @@ LBIS:AddItem(spec, "34356", LBIS.L["Head"], "Alt") --Surestrike Goggles v3.0
 LBIS:AddItem(spec, "34392", LBIS.L["Shoulder"], "BIS") --Demontooth Shoulderpads
 LBIS:AddItem(spec, "34195", LBIS.L["Shoulder"], "Transmute BIS") --Shoulderpads of Vehemence
 LBIS:AddItem(spec, "34194", LBIS.L["Shoulder"], "BIS") --Mantle of the Golden Forest
+LBIS:AddItem(spec, "31024", LBIS.L["Shoulder"], "Alt") --Skyshatter Pauldrons
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Forgotten Protector
 LBIS:AddItem(spec, "32581", LBIS.L["Shoulder"], "Alt") --Swiftstrike Shoulders
 LBIS:AddItem(spec, "30055", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Stranger
 LBIS:AddItem(spec, "32575", LBIS.L["Shoulder"], "Alt") --Shoulders of Lightning Reflexes

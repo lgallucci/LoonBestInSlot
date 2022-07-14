@@ -1343,6 +1343,7 @@ LBIS.ItemSources =
     [31020] = { Name = "Skyshatter Legguards", SourceType = LBIS.L["Drop"], Source = LBIS.L["The Illidari Council"], SourceNumber = "", SourceLocation = LBIS.L["Black Temple"] },
     [31022] = { Name = "Skyshatter Shoulderpads", SourceType = LBIS.L["Drop"], Source = LBIS.L["Mother Shahraz"], SourceNumber = "", SourceLocation = LBIS.L["Black Temple"] },
     [31023] = { Name = "Skyshatter Mantle", SourceType = LBIS.L["Drop"], Source = LBIS.L["Mother Shahraz"], SourceNumber = "", SourceLocation = LBIS.L["Black Temple"] },
+    [31024] = { Name = "Skyshatter Pauldrons", SourceType = LBIS.L["Drop"], Source = LBIS.L["Mother Shahraz"], SourceNumber = "", SourceLocation = LBIS.L["Black Temple"] },
     [31025] = { Name = "Idol of the Avenger", SourceType = LBIS.L["Quest"], Source = LBIS.L["News of Victory"], SourceNumber = "", SourceLocation = LBIS.L["Shadowmoon Valley"] },
     [31026] = { Name = "Slayer's Handguards", SourceType = LBIS.L["Drop"], Source = LBIS.L["Azgalor"], SourceNumber = "", SourceLocation = LBIS.L["Hyjal Summit"] },
     [31027] = { Name = "Slayer's Helm", SourceType = LBIS.L["Drop"], Source = LBIS.L["Archimonde"], SourceNumber = "", SourceLocation = LBIS.L["Hyjal Summit"] },

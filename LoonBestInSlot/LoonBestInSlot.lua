@@ -4,7 +4,7 @@ LBIS.ClassSpec = {};
 LBIS.SpecToName = {};
 LBIS.Items = {};
 LBIS.SpecItems = {};
-LBIS.ItemCache = {};
+LBIS.WowItemCache = {};
 LBIS.AllItemsCached = false;
 LBIS.CurrentPhase = 5;
 LBIS.EventFrame = CreateFrame("FRAME",addonName.."Events")
@@ -86,7 +86,6 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 		return
 	end
 	
-
 	if not LBIS.Items[id] then
 		LBIS.Items[id] = {}
 	end

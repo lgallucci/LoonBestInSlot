@@ -55,7 +55,7 @@ function LBIS:GetItemInfo(itemIdString, returnFunc)
         returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil });
     end
 
-    local cachedItem = LBIS.ItemCache[itemId];
+    local cachedItem = LBIS.WowItemCache[itemId];
 
     if cachedItem then
         returnFunc(cachedItem);
@@ -78,7 +78,7 @@ function LBIS:GetItemInfo(itemIdString, returnFunc)
             };
 
             if name then
-                LBIS.ItemCache[itemId] = newItem;
+                LBIS.WowItemCache[itemId] = newItem;
             end
             
             returnFunc(newItem);            

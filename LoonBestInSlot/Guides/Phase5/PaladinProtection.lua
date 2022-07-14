@@ -27,7 +27,8 @@ LBIS:AddItem(spec, "34939", LBIS.L["Chest"], "Alt Mit") --Chestplate of Stoicism
 
 LBIS:AddItem(spec, "34433", LBIS.L["Wrist"], "BIS") --Lightbringer Wristguards
 LBIS:AddItem(spec, "34848", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Conqueror
-LBIS:AddItem(spec, "32232", LBIS.L["Wrist"], "Alt Mit") --Eternium Shell Bracers
+LBIS:AddItem(spec, "32232", LBIS.L["Wrist"], "Alt") --Eternium Shell Bracers
+LBIS:AddItem(spec, "32279", LBIS.L["Wrist"], "Alt Mit") --The Seeker's Wristguards
 
 LBIS:AddItem(spec, "34352", LBIS.L["Hands"], "BIS Mit") --Borderland Fortress Grips
 LBIS:AddItem(spec, "30985", LBIS.L["Hands"], "BIS") --Lightbringer Handguards

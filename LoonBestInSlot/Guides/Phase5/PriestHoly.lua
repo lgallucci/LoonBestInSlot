@@ -36,12 +36,13 @@ LBIS:AddItem(spec, "31060", LBIS.L["Hands"], "Alt") --Gloves of Absolution
 LBIS:AddItem(spec, "31092", LBIS.L["Hands"], "Alt") --Gloves of the Forgotten Conqueror
 LBIS:AddItem(spec, "30151", LBIS.L["Hands"], "Alt") --Gloves of the Avatar
 LBIS:AddItem(spec, "30240", LBIS.L["Hands"], "Alt") --Gloves of the Vanquished Defender
+LBIS:AddItem(spec, "33587", LBIS.L["Hands"], "Alt") --Light-Blessed Bonds
 
 LBIS:AddItem(spec, "34527", LBIS.L["Waist"], "BIS") --Belt of Absolution
 LBIS:AddItem(spec, "30895", LBIS.L["Waist"], "Alt") --Angelista's Sash
 LBIS:AddItem(spec, "32519", LBIS.L["Waist"], "Alt") --Belt of Divine Guidance
 
-LBIS:AddItem(spec, "34170", LBIS.L["Legs"], "Alt") --Pantaloons of Calming Strife
+LBIS:AddItem(spec, "34170", LBIS.L["Legs"], "BIS") --Pantaloons of Calming Strife
 LBIS:AddItem(spec, "30912", LBIS.L["Legs"], "Alt") --Leggings of Eternity
 LBIS:AddItem(spec, "33585", LBIS.L["Legs"], "Alt") --Achromic Trousers of the Naaru
 LBIS:AddItem(spec, "34925", LBIS.L["Legs"], "Alt") --Adorned Supernal Legwraps
@@ -55,11 +56,13 @@ LBIS:AddItem(spec, "33281", LBIS.L["Neck"], "BIS") --Brooch of Nature's Mercy
 LBIS:AddItem(spec, "34360", LBIS.L["Neck"], "Alt") --Amulet of Flowing Life
 LBIS:AddItem(spec, "37929", LBIS.L["Neck"], "Alt") --Guardian's Pendant of Reprieve
 LBIS:AddItem(spec, "34184", LBIS.L["Neck"], "Alt") --Brooch of the Highborne
+LBIS:AddItem(spec, "34677", LBIS.L["Neck"], "Alt") --Shattered Sun Pendant of Restoration
 
 LBIS:AddItem(spec, "34363", LBIS.L["Ring"], "BIS") --Ring of Flowing Life
 LBIS:AddItem(spec, "32528", LBIS.L["Ring"], "BIS") --Blessed Band of Karabor
 LBIS:AddItem(spec, "34166", LBIS.L["Ring"], "Alt") --Band of Lucent Beams
 LBIS:AddItem(spec, "35733", LBIS.L["Ring"], "Alt") --Ring of Harmonic Beauty
+LBIS:AddItem(spec, "34625", LBIS.L["Ring"], "Alt") --Kharmaa's Ring of Fate
 
 LBIS:AddItem(spec, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
 LBIS:AddItem(spec, "38288", LBIS.L["Trinket"], "BIS") --Direbrew Hops
