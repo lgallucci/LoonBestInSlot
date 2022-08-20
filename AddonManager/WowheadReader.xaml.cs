@@ -13,8 +13,8 @@ public partial class WowheadReader : Window
     public string[] SpecList = {"DeathKnightBlood", "DeathKnightFrost", "DeathKnightUnholy", "DruidBalance", "DruidBear", "DruidCat", "DruidRestoration", 
                                 "HunterBM", "HunterMarks", "HunterSurvival", "MageFrost", "MageFire", "MageArcane", "PaladinHoly", "PaladinProtection", 
                                 "PaladinRetribution", "PriestHoly","PriestDiscipline", "PriestShadow", "RogueAssassination", "RogueSubtlety", "RogueCombat",
-                                "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAfflic", "WarlockDemo", "WarlockDestro", "WarriorDPSArms", 
-                                "WarriorDPSFury", "WarriorProtection"};
+                                "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAfflic", "WarlockDemo", "WarlockDestro", "WarriorArms", 
+                                "WarriorFury", "WarriorProtection"};
     public class CsvLootTable
     {
         public int ItemId { get; set; }
@@ -46,7 +46,7 @@ public partial class WowheadReader : Window
         foreach (string spec in SpecList)
         {
             var result = await ImportClass(spec, phaseNumber);
-            if (result.StartsWith("System.Exception"))
+            if (result.Contains("Exception"))
             {
                 ConsoleOut.Text += $"{spec} Failed!" + Environment.NewLine;
 

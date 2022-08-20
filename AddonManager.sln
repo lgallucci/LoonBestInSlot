@@ -61,6 +61,39 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Guides", "Guides", "{6685BD
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phase0", "Phase0", "{710C8787-27EB-44FA-9AF7-7337759EA054}"
+	ProjectSection(SolutionItems) = preProject
+		LoonBestInSlot\Guides\Phase0\DeathKnightBlood.lua = LoonBestInSlot\Guides\Phase0\DeathKnightBlood.lua
+		LoonBestInSlot\Guides\Phase0\DeathKnightFrost.lua = LoonBestInSlot\Guides\Phase0\DeathKnightFrost.lua
+		LoonBestInSlot\Guides\Phase0\DeathKnightUnholy.lua = LoonBestInSlot\Guides\Phase0\DeathKnightUnholy.lua
+		LoonBestInSlot\Guides\Phase0\DruidBalance.lua = LoonBestInSlot\Guides\Phase0\DruidBalance.lua
+		LoonBestInSlot\Guides\Phase0\DruidBear.lua = LoonBestInSlot\Guides\Phase0\DruidBear.lua
+		LoonBestInSlot\Guides\Phase0\DruidCat.lua = LoonBestInSlot\Guides\Phase0\DruidCat.lua
+		LoonBestInSlot\Guides\Phase0\DruidRestoration.lua = LoonBestInSlot\Guides\Phase0\DruidRestoration.lua
+		LoonBestInSlot\Guides\Phase0\HunterBM.lua = LoonBestInSlot\Guides\Phase0\HunterBM.lua
+		LoonBestInSlot\Guides\Phase0\HunterMarks.lua = LoonBestInSlot\Guides\Phase0\HunterMarks.lua
+		LoonBestInSlot\Guides\Phase0\HunterSurvival.lua = LoonBestInSlot\Guides\Phase0\HunterSurvival.lua
+		LoonBestInSlot\Guides\Phase0\MageArcane.lua = LoonBestInSlot\Guides\Phase0\MageArcane.lua
+		LoonBestInSlot\Guides\Phase0\MageFire.lua = LoonBestInSlot\Guides\Phase0\MageFire.lua
+		LoonBestInSlot\Guides\Phase0\MageFrost.lua = LoonBestInSlot\Guides\Phase0\MageFrost.lua
+		LoonBestInSlot\Guides\Phase0\PaladinHoly.lua = LoonBestInSlot\Guides\Phase0\PaladinHoly.lua
+		LoonBestInSlot\Guides\Phase0\PaladinProtection.lua = LoonBestInSlot\Guides\Phase0\PaladinProtection.lua
+		LoonBestInSlot\Guides\Phase0\PaladinRetribution.lua = LoonBestInSlot\Guides\Phase0\PaladinRetribution.lua
+		LoonBestInSlot\Guides\Phase0\PriestDiscipline.lua = LoonBestInSlot\Guides\Phase0\PriestDiscipline.lua
+		LoonBestInSlot\Guides\Phase0\PriestHoly.lua = LoonBestInSlot\Guides\Phase0\PriestHoly.lua
+		LoonBestInSlot\Guides\Phase0\PriestShadow.lua = LoonBestInSlot\Guides\Phase0\PriestShadow.lua
+		LoonBestInSlot\Guides\Phase0\RogueAssassination.lua = LoonBestInSlot\Guides\Phase0\RogueAssassination.lua
+		LoonBestInSlot\Guides\Phase0\RogueCombat.lua = LoonBestInSlot\Guides\Phase0\RogueCombat.lua
+		LoonBestInSlot\Guides\Phase0\RogueSubtlety.lua = LoonBestInSlot\Guides\Phase0\RogueSubtlety.lua
+		LoonBestInSlot\Guides\Phase0\ShamanElemental.lua = LoonBestInSlot\Guides\Phase0\ShamanElemental.lua
+		LoonBestInSlot\Guides\Phase0\ShamanEnhancement.lua = LoonBestInSlot\Guides\Phase0\ShamanEnhancement.lua
+		LoonBestInSlot\Guides\Phase0\ShamanRestoration.lua = LoonBestInSlot\Guides\Phase0\ShamanRestoration.lua
+		LoonBestInSlot\Guides\Phase0\WarlockAfflic.lua = LoonBestInSlot\Guides\Phase0\WarlockAfflic.lua
+		LoonBestInSlot\Guides\Phase0\WarlockDemo.lua = LoonBestInSlot\Guides\Phase0\WarlockDemo.lua
+		LoonBestInSlot\Guides\Phase0\WarlockDestro.lua = LoonBestInSlot\Guides\Phase0\WarlockDestro.lua
+		LoonBestInSlot\Guides\Phase0\WarriorDPSArms.lua = LoonBestInSlot\Guides\Phase0\WarriorDPSArms.lua
+		LoonBestInSlot\Guides\Phase0\WarriorDPSFury.lua = LoonBestInSlot\Guides\Phase0\WarriorDPSFury.lua
+		LoonBestInSlot\Guides\Phase0\WarriorProtection.lua = LoonBestInSlot\Guides\Phase0\WarriorProtection.lua
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phase1", "Phase1", "{D4DB39EB-F46D-4D10-B652-3880F4FE2507}"
 EndProject

@@ -69,17 +69,15 @@ public class WowheadGuideParser
                         var foundAnchor = false;
 
                         INode? itemChild = null;
-                        var rowChildCount = 0;
                         foreach (var rowChild in tableRow.ChildNodes)
                         {
                             if (rowChild.NodeType == NodeType.Element)
                             {
-                                if (rowChildCount == 1)
+                                if (rowChild.ChildNodes.Any(n => n.NodeName == "A" && ((IHtmlAnchorElement)n).PathName.Contains("/item=")))
                                 {
                                     itemChild = rowChild;
                                     break;
                                 }
-                                rowChildCount++;
                             }
                         }
 
