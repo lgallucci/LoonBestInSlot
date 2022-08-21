@@ -144,7 +144,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-unholy-death-knight-dps-phase-1", "Trinket"),
             new GuideMapping("#main-hand-weapons-for-unholy-death-knight-dps-phase-1", "Main Hand"),
             new GuideMapping("#off-hand-weapons-for-unholy-death-knight-dps-phase-1", "Off Hand"),
-            new GuideMapping("#sigils-for-unholy-death-knight-dps-phase-1", "Relic"),
+            new GuideMapping("#sigils-for-unholy-death-knight-dps-pre-raid", "Relic"),
         }));
 
         GuideMappings.Add(new ClassGuideMapping("DruidBalancePhase0", "Balance", "Druid", new List<GuideMapping>
@@ -320,6 +320,25 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows-for-marksmanship-hunter-dps-pre-raid", "Ranged")
         }));
 
+        GuideMappings.Add(new ClassGuideMapping("HunterMarksPhase1", "Marksmanship", "Hunter", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-marksmanship-hunter-dps-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-marksmanship-hunter-dps-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-marksmanship-hunter-dps-phase-1", "Back"),
+            new GuideMapping("#chest-for-marksmanship-hunter-dps-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-marksmanship-hunter-dps-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-marksmanship-hunter-dps-phase-1", "Hands"),
+            new GuideMapping("#waist-for-marksmanship-hunter-dps-phase-1", "Waist"),
+            new GuideMapping("#legs-for-marksmanship-hunter-dps-phase-1", "Legs"),
+            new GuideMapping("#feet-for-marksmanship-hunter-dps-phase-1", "Feet"),
+            new GuideMapping("#neck-for-marksmanship-hunter-dps-phase-1", "Neck"),
+            new GuideMapping("#rings-for-marksmanship-hunter-dps-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-marksmanship-hunter-dps-phase-1", "Trinket"),
+            new GuideMapping("#one-handed-weapons-for-marksmanship-hunter-dps-phase-1", "Main Hand"),
+            new GuideMapping("#two-hand-weapons-for-marksmanship-hunter-dps-phase-1", "Two Hand"),
+            new GuideMapping("#guns-and-bows-for-marksmanship-hunter-dps-phase-1", "Ranged")
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("HunterSurvivalPhase0", "Survival", "Hunter", new List<GuideMapping>
         {
             new GuideMapping("#head-for-survival-hunter-dps-pre-raid", "Head"),
@@ -337,6 +356,25 @@ public class ClassSpecGuideMappings
             new GuideMapping("#one-handed-weapons-for-survival-hunter-dps-pre-raid", "Main Hand"),
             new GuideMapping("#two-hand-weapons-for-survival-hunter-dps-pre-raid", "Two Hand"),
             new GuideMapping("#guns-and-bows-for-survival-hunter-dps-pre-raid", "Ranged")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("HunterSurvivalPhase1", "Survival", "Hunter", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-survival-hunter-dps-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-survival-hunter-dps-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-survival-hunter-dps-phase-1", "Back"),
+            new GuideMapping("#chest-for-survival-hunter-dps-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-survival-hunter-dps-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-marksmanship-hunter-dps-phase-1", "Hands"),
+            new GuideMapping("#waist-for-survival-hunter-dps-phase-1", "Waist"),
+            new GuideMapping("#legs-for-survival-hunter-dps-phase-1", "Legs"),
+            new GuideMapping("#feet-for-survival-hunter-dps-phase-1", "Feet"),
+            new GuideMapping("#neck-for-survival-hunter-dps-phase-1", "Neck"),
+            new GuideMapping("#rings-for-survival-hunter-dps-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-survival-hunter-dps-phase-1", "Trinket"),
+            new GuideMapping("#one-handed-weapons-for-survival-hunter-dps-phase-1", "Main Hand"),
+            new GuideMapping("#two-hand-weapons-for-survival-hunter-dps-phase-1", "Two Hand"),
+            new GuideMapping("#guns-and-bows-for-survival-hunter-dps-phase-1", "Ranged")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("MageFrostPhase0", "Frost", "Mage", new List<GuideMapping>
@@ -358,6 +396,25 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wands-for-frost-mage-dps-pre-raid", "Wand")
         }));
 
+        GuideMappings.Add(new ClassGuideMapping("MageFrostPhase1", "Frost", "Mage", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-frost-mage-dps-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-frost-mage-dps-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-frost-mage-dps-phase-1", "Back"),
+            new GuideMapping("#chest-for-frost-mage-dps-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-frost-mage-dps-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-frost-mage-dps-phase-1", "Hands"),
+            new GuideMapping("#waist-for-frost-mage-dps-phase-1", "Waist"),
+            new GuideMapping("#legs-for-frost-mage-dps-phase-1", "Legs"),
+            new GuideMapping("#feet-for-frost-mage-dps-phase-1", "Feet"),
+            new GuideMapping("#neck-for-frost-mage-dps-phase-1", "Neck"),
+            new GuideMapping("#rings-for-frost-mage-dps-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-frost-mage-dps-phase-1", "Trinket"),
+            new GuideMapping("#main-hand-and-two-handed-weapons-for-frost-mage-dps-phase-1", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-frost-mage-dps-phase-1", "Off Hand"),
+            new GuideMapping("#wands-for-frost-mage-dps-phase-1", "Wand")
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("MageFirePhase0", "Fire", "Mage", new List<GuideMapping>
         {
             new GuideMapping("#head-for-fire-mage-dps-pre-raid", "Head"),
@@ -375,6 +432,25 @@ public class ClassSpecGuideMappings
             new GuideMapping("#main-hand-and-two-handed-weapons-for-fire-mage-dps-pre-raid", "Main Hand"),
             new GuideMapping("#off-hand-weapons-for-fire-mage-dps-pre-raid", "Off Hand"),
             new GuideMapping("#wands-for-fire-mage-dps-pre-raid", "Wand")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("MageFirePhase1", "Fire", "Mage", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-fire-mage-dps-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-fire-mage-dps-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-fire-mage-dps-phase-1", "Back"),
+            new GuideMapping("#chest-for-fire-mage-dps-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-fire-mage-dps-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-fire-mage-dps-phase-1", "Hands"),
+            new GuideMapping("#waist-for-fire-mage-dps-phase-1", "Waist"),
+            new GuideMapping("#legs-for-fire-mage-dps-phase-1", "Legs"),
+            new GuideMapping("#feet-for-fire-mage-dps-phase-1", "Feet"),
+            new GuideMapping("#neck-for-fire-mage-dps-phase-1", "Neck"),
+            new GuideMapping("#rings-for-fire-mage-dps-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-fire-mage-dps-phase-1", "Trinket"),
+            new GuideMapping("#main-hand-and-two-handed-weapons-for-fire-mage-dps-phase-1", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-fire-mage-dps-phase-1", "Off Hand"),
+            new GuideMapping("#wands-for-fire-mage-dps-phase-1", "Wand")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("MageArcanePhase0", "Arcane", "Mage", new List<GuideMapping>
@@ -396,7 +472,45 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wands-for-arcane-mage-dps-pre-raid", "Wand")
         }));
 
+        GuideMappings.Add(new ClassGuideMapping("MageArcanePhase1", "Arcane", "Mage", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-arcane-mage-dps-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-arcane-mage-dps-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-arcane-mage-dps-phase-1", "Back"),
+            new GuideMapping("#chest-for-arcane-mage-dps-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-arcane-mage-dps-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-arcane-mage-dps-phase-1", "Hands"),
+            new GuideMapping("#waist-for-arcane-mage-dps-phase-1", "Waist"),
+            new GuideMapping("#legs-for-arcane-mage-dps-phase-1", "Legs"),
+            new GuideMapping("#feet-for-arcane-mage-dps-phase-1", "Feet"),
+            new GuideMapping("#neck-for-arcane-mage-dps-phase-1", "Neck"),
+            new GuideMapping("#rings-for-arcane-mage-dps-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-arcane-mage-dps-phase-1", "Trinket"),
+            new GuideMapping("#main-hand-and-two-handed-weapons-for-arcane-mage-dps-phase-1", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-arcane-mage-dps-phase-1", "Off Hand"),
+            new GuideMapping("#wands-for-arcane-mage-dps-phase-1", "Wand")
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("PaladinHolyPhase0", "Holy", "Paladin", new List<GuideMapping>
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulder"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrist", "Wrist"),
+            new GuideMapping("#hands", "Hands"),
+            new GuideMapping("#waist", "Waist"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("h3#weapons~h4", "Main Hand"),
+            new GuideMapping("#offhands-and-shields", "Off Hand"),
+            new GuideMapping("#librams", "Libram")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("PaladinHolyPhase1", "Holy", "Paladin", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulder"),
@@ -434,6 +548,25 @@ public class ClassSpecGuideMappings
             new GuideMapping("#librams-for-protection-paladin-tank-pre-raid", "Libram")
         }));
 
+        GuideMappings.Add(new ClassGuideMapping("PaladinProtectionPhase1", "Protection", "Paladin", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-protection-paladin-tank-pre-raid", "Head"),
+            new GuideMapping("#shoulders-for-protection-paladin-tank-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-protection-paladin-tank-phase-1", "Back"),
+            new GuideMapping("#chest-for-protection-paladin-tank-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-protection-paladin-tank-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-protection-paladin-tank-phase-1", "Hands"),
+            new GuideMapping("#waist-for-protection-paladin-tank-phase-1", "Waist"),
+            new GuideMapping("#legs-for-protection-paladin-tank-phase-1", "Legs"),
+            new GuideMapping("#feet-for-protection-paladin-tank-phase-1", "Feet"),
+            new GuideMapping("#neck-for-protection-paladin-tank-phase-1", "Neck"),
+            new GuideMapping("#rings-for-protection-paladin-tank-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-protection-paladin-tank-phase-1", "Trinket"),
+            new GuideMapping("#weapons-for-protection-paladin-tank-phase-1", "Main Hand"),
+            new GuideMapping("#shields-for-protection-paladin-tank-phase-1", "Shield"),
+            new GuideMapping("#librams-for-protection-paladin-tank-phase-1", "Libram")
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("PaladinRetributionPhase0", "Retribution", "Paladin", new List<GuideMapping>
         {
             new GuideMapping("#head-for-retribution-paladin-pre-raid", "Head"),
@@ -449,6 +582,24 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-retribution-paladin-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-retribution-paladin-pre-raid", "Trinket"),
             new GuideMapping("#two-hand-weapons-for-retribution-paladin-pre-raid", "Two Hand"),
+            new GuideMapping("#libram", "Libram")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("PaladinRetributionPhase1", "Retribution", "Paladin", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-retribution-paladin-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-retribution-paladin-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-retribution-paladin-phase-1", "Back"),
+            new GuideMapping("#chest-for-retribution-paladin-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-retribution-paladin-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-retribution-paladin-phase-1", "Hands"),
+            new GuideMapping("#waist-for-retribution-paladin-phase-1", "Waist"),
+            new GuideMapping("#legs-for-retribution-paladin-phase-1", "Legs"),
+            new GuideMapping("#feet-for-retribution-paladin-phase-1", "Feet"),
+            new GuideMapping("#neck-for-retribution-paladin-phase-1", "Neck"),
+            new GuideMapping("#rings-for-retribution-paladin-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-retribution-paladin-phase-1", "Trinket"),
+            new GuideMapping("#two-hand-weapons-for-retribution-paladin-phase-1", "Two Hand"),
             new GuideMapping("#libram", "Libram")
         }));
 
@@ -471,6 +622,25 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wands-for-holy-priest-healer-pre-raid", "Wand")
         }));
 
+        GuideMappings.Add(new ClassGuideMapping("PriestHolyPhase1", "Holy", "Priest", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-holy-priest-healer-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-holy-priest-healer-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-holy-priest-healer-phase-1", "Back"),
+            new GuideMapping("#chest-for-holy-priest-healer-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-holy-priest-healer-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-holy-priest-healer-phase-1", "Hands"),
+            new GuideMapping("#waist-for-holy-priest-healer-phase-1", "Waist"),
+            new GuideMapping("#legs-for-holy-priest-healer-phase-1", "Legs"),
+            new GuideMapping("#feet-for-holy-priest-healer-phase-1", "Feet"),
+            new GuideMapping("#neck-for-holy-priest-healer-phase-1", "Neck"),
+            new GuideMapping("#rings-for-holy-priest-healer-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-holy-priest-healer-phase-1", "Trinket"),
+            new GuideMapping("#main-and-two-handed-weapons-for-holy-priest-healer-phase-1", "Main Hand"),
+            new GuideMapping("#off-hands-for-holy-priest-healer-phase-1", "Off Hand"),
+            new GuideMapping("#wands-for-holy-priest-healer-phase-1", "Wand")
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("PriestDisciplinePhase0", "Discipline", "Priest", new List<GuideMapping>
         {
             new GuideMapping("#head-for-discipline-priest-healer-pre-raid", "Head"),
@@ -488,6 +658,25 @@ public class ClassSpecGuideMappings
             new GuideMapping("#main-and-two-handed-weapons-for-discipline-priest-healer-pre-raid", "Main Hand"),
             new GuideMapping("#off-hands-for-discipline-priest-healer-pre-raid", "Off Hand"),
             new GuideMapping("#wands-for-discipline-priest-healer-pre-raid", "Wand")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("PriestDisciplinePhase1", "Discipline", "Priest", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-discipline-priest-healer-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-discipline-priest-healer-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-discipline-priest-healer-phase-1", "Back"),
+            new GuideMapping("#chest-for-discipline-priest-healer-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-discipline-priest-healer-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-discipline-priest-healer-phase-1", "Hands"),
+            new GuideMapping("#waist-for-discipline-priest-healer-phase-1", "Waist"),
+            new GuideMapping("#legs-for-discipline-priest-healer-phase-1", "Legs"),
+            new GuideMapping("#feet-for-discipline-priest-healer-phase-1", "Feet"),
+            new GuideMapping("#neck-for-discipline-priest-healer-phase-1", "Neck"),
+            new GuideMapping("#rings-for-discipline-priest-healer-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-discipline-priest-healer-phase-1", "Trinket"),
+            new GuideMapping("#main-and-two-handed-weapons-for-discipline-priest-healer-phase-1", "Main Hand"),
+            new GuideMapping("#off-hands-for-discipline-priest-healer-phase-1", "Off Hand"),
+            new GuideMapping("#wands-for-discipline-priest-healer-phase-1", "Wand")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("PriestShadowPhase0", "Shadow", "Priest", new List<GuideMapping>
@@ -510,6 +699,26 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wands-for-shadow-priest-dps-pre-raid", "Wand")
         }));
 
+        GuideMappings.Add(new ClassGuideMapping("PriestShadowPhase1", "Shadow", "Priest", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-shadow-priest-dps-in-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-shadow-priest-dps-in-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-shadow-priest-dps-in-phase-1", "Back"),
+            new GuideMapping("#chest-for-shadow-priest-dps-in-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-shadow-priest-dps-in-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-shadow-priest-dps-in-phase-1", "Hands"),
+            new GuideMapping("#waist-for-shadow-priest-dps-in-phase-1", "Waist"),
+            new GuideMapping("#legs-for-shadow-priest-dps-in-phase-1", "Legs"),
+            new GuideMapping("#feet-for-shadow-priest-dps-in-phase-1", "Feet"),
+            new GuideMapping("#neck-for-shadow-priest-dps-in-phase-1", "Neck"),
+            new GuideMapping("#rings-for-shadow-priest-dps-in-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-shadow-priest-dps-in-phase-1", "Trinket"),
+            new GuideMapping("#main-hand-weapons-for-shadow-priest-dps-in-phase-1", "Main Hand"),
+            new GuideMapping("#off-hands-for-shadow-priest-dps-in-phase-1", "Off Hand"),
+            new GuideMapping("#two-handed-weapons-for-shadow-priest-dps-in-phase-1", "Two Hand"),
+            new GuideMapping("#wands-for-shadow-priest-dps-in-phase-1", "Wand")
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("RogueAssassinationPhase0", "Assassination", "Rogue", new List<GuideMapping>
         {
             new GuideMapping("#head-for-assassination-rogue-dps-pre-raid", "Head"),
@@ -528,6 +737,24 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows-for-assassination-rogue-dps-pre-raid", "Ranged")
         }));
 
+        GuideMappings.Add(new ClassGuideMapping("RogueAssassinationPhase1", "Assassination", "Rogue", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-assassination-rogue-dps-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-assassination-rogue-dps-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-assassination-rogue-dps-phase-1", "Back"),
+            new GuideMapping("#chest-for-assassination-rogue-dps-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-assassination-rogue-dps-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-assassination-rogue-dps-phase-1", "Hands"),
+            new GuideMapping("#waist-for-assassination-rogue-dps-phase-1", "Waist"),
+            new GuideMapping("#legs-for-assassination-rogue-dps-phase-1", "Legs"),
+            new GuideMapping("#feet-for-assassination-rogue-dps-phase-1", "Feet"),
+            new GuideMapping("#neck-for-assassination-rogue-dps-phase-1", "Neck"),
+            new GuideMapping("#rings-for-assassination-rogue-dps-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-assassination-rogue-dps-phase-1", "Trinket"),
+            new GuideMapping("#weapons-for-assassination-rogue-dps-phase-1", "Main Hand"),
+            new GuideMapping("#guns-and-bows-for-assassination-rogue-dps-phase-1", "Ranged")
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("RogueSubtletyPhase0", "Subtlety", "Rogue", new List<GuideMapping>
         {
             new GuideMapping("#head-for-subtlety-rogue-dps-pre-raid", "Head"),
@@ -544,6 +771,24 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-subtlety-rogue-dps-pre-raid", "Trinket"),
             new GuideMapping("#weapons-for-subtlety-rogue-dps-pre-raid", "Main Hand"),
             new GuideMapping("#guns-and-bows-for-subtlety-rogue-dps-pre-raid", "Ranged")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("RogueSubtletyPhase1", "Subtlety", "Rogue", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-subtlety-rogue-dps-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-subtlety-rogue-dps-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-subtlety-rogue-dps-phase-1", "Back"),
+            new GuideMapping("#chest-for-subtlety-rogue-dps-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-subtlety-rogue-dps-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-subtlety-rogue-dps-phase-1", "Hands"),
+            new GuideMapping("#waist-for-subtlety-rogue-dps-phase-1", "Waist"),
+            new GuideMapping("#legs-for-subtlety-rogue-dps-phase-1", "Legs"),
+            new GuideMapping("#feet-for-subtlety-rogue-dps-phase-1", "Feet"),
+            new GuideMapping("#neck-for-subtlety-rogue-dps-phase-1", "Neck"),
+            new GuideMapping("#rings-for-subtlety-rogue-dps-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-subtlety-rogue-dps-phase-1", "Trinket"),
+            new GuideMapping("#weapons-for-subtlety-rogue-dps-phase-1", "Main Hand"),
+            new GuideMapping("#guns-and-bows-for-subtlety-rogue-dps-phase-1", "Ranged")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("RogueCombatPhase0", "Combat", "Rogue", new List<GuideMapping>
@@ -565,6 +810,25 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows-for-combat-rogue-dps-pre-raid", "Ranged")
         }));
 
+        GuideMappings.Add(new ClassGuideMapping("RogueCombatPhase1", "Combat", "Rogue", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-combat-rogue-dps-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-combat-rogue-dps-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-combat-rogue-dps-phase-1", "Back"),
+            new GuideMapping("#chest-for-combat-rogue-dps-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-combat-rogue-dps-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-combat-rogue-dps-phase-1", "Hands"),
+            new GuideMapping("#waist-for-combat-rogue-dps-phase-1", "Waist"),
+            new GuideMapping("#legs-for-combat-rogue-dps-phase-1", "Legs"),
+            new GuideMapping("#feet-for-combat-rogue-dps-phase-1", "Feet"),
+            new GuideMapping("#neck-for-combat-rogue-dps-phase-1", "Neck"),
+            new GuideMapping("#rings-for-combat-rogue-dps-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-combat-rogue-dps-phase-1", "Trinket"),
+            new GuideMapping("#main-hand-weapons-for-combat-rogue-dps-phase-1", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-combat-rogue-dps-phase-1", "Off Hand"),
+            new GuideMapping("#guns-and-bows-for-combat-rogue-dps-phase-1", "Ranged")
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("ShamanElementalPhase0", "Elemental", "Shaman", new List<GuideMapping>
         {
             new GuideMapping("#head-for-elemental-shaman-dps-in-pre-raid", "Head"),
@@ -582,6 +846,25 @@ public class ClassSpecGuideMappings
             new GuideMapping("#weapons-for-elemental-shaman-dps-in-pre-raid", "Main Hand"),
             new GuideMapping("#shields-off-hands-for-elemental-shaman-dps-in-pre-raid", "Off Hand"),
             new GuideMapping("#totems-for-elemental-shaman-dps-in-pre-raid", "Totem")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("ShamanElementalPhase1", "Elemental", "Shaman", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-elemental-shaman-dps-in-phase-1", "Head"),
+            new GuideMapping("#shoulder-for-elemental-shaman-dps-in-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-elemental-shaman-dps-in-phase-1", "Back"),
+            new GuideMapping("#chest-for-elemental-shaman-dps-in-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-elemental-shaman-dps-in-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-elemental-shaman-dps-in-phase-1", "Hands"),
+            new GuideMapping("#waist-for-elemental-shaman-dps-in-phase-1", "Waist"),
+            new GuideMapping("#legs-for-elemental-shaman-dps-in-phase-1", "Legs"),
+            new GuideMapping("#feet-for-elemental-shaman-dps-in-phase-1", "Feet"),
+            new GuideMapping("#neck-for-elemental-shaman-dps-in-phase-1", "Neck"),
+            new GuideMapping("#finger-for-elemental-shaman-dps-in-phase-1", "Ring"),
+            new GuideMapping("#trinket-for-elemental-shaman-dps-in-phase-1", "Trinket"),
+            new GuideMapping("#weapons-for-elemental-shaman-dps-in-phase-1", "Main Hand"),
+            new GuideMapping("#shields-off-hands-for-elemental-shaman-dps-in-phase-1", "Off Hand"),
+            new GuideMapping("#totems-for-elemental-shaman-dps-in-phase-1", "Totem")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementPhase0", "Enhancement", "Shaman", new List<GuideMapping>
@@ -602,6 +885,24 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems-for-enhancement-shaman-dps-in-pre-raid", "Totem")
         }));
 
+        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementPhase1", "Enhancement", "Shaman", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-enhancement-shaman-dps-in-phase-1", "Head"),
+            new GuideMapping("#shoulder-for-enhancement-shaman-dps-in-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-enhancement-shaman-dps-in-phase-1", "Back"),
+            new GuideMapping("#chest-for-enhancement-shaman-dps-in-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-enhancement-shaman-dps-in-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-enhancement-shaman-dps-in-phase-1", "Hands"),
+            new GuideMapping("#waist-for-enhancement-shaman-dps-in-phase-1", "Waist"),
+            new GuideMapping("#legs-for-enhancement-shaman-dps-in-phase-1", "Legs"),
+            new GuideMapping("#feet-for-enhancement-shaman-dps-in-phase-1", "Feet"),
+            new GuideMapping("#neck-for-enhancement-shaman-dps-in-phase-1", "Neck"),
+            new GuideMapping("#finger-for-enhancement-shaman-dps-in-phase-1", "Ring"),
+            new GuideMapping("#trinket-for-enhancement-shaman-dps-in-phase-1", "Trinket"),
+            new GuideMapping("#weapons-for-enhancement-shaman-dps-in-phase-1", "Main Hand"),
+            new GuideMapping("#totems-for-enhancement-shaman-dps-in-phase-1", "Totem")
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("ShamanRestorationPhase0", "Restoration", "Shaman", new List<GuideMapping>
         {
             new GuideMapping("#head-for-restoration-shaman-healer-in-pre-raid", "Head"),
@@ -619,6 +920,25 @@ public class ClassSpecGuideMappings
             new GuideMapping("#weapons-for-restoration-shaman-healer-in-pre-raid", "Main Hand"),
             new GuideMapping("#shields-off-hands-for-restoration-shaman-healer-in-pre-raid", "Off Hand"),
             new GuideMapping("#totems-for-restoration-shaman-healer-in-pre-raid", "Totem")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("ShamanRestorationPhase1", "Restoration", "Shaman", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-restoration-shaman-healer-in-phase-1", "Head"),
+            new GuideMapping("#shoulder-for-restoration-shaman-healer-in-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-restoration-shaman-healer-in-phase-1", "Back"),
+            new GuideMapping("#chest-for-restoration-shaman-healer-in-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-restoration-shaman-healer-in-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-restoration-shaman-healer-in-phase-1", "Hands"),
+            new GuideMapping("#waist-for-restoration-shaman-healer-in-phase-1", "Waist"),
+            new GuideMapping("#legs-for-restoration-shaman-healer-in-phase-1", "Legs"),
+            new GuideMapping("#feet-for-restoration-shaman-healer-in-phase-1", "Feet"),
+            new GuideMapping("#neck-for-restoration-shaman-healer-in-phase-1", "Neck"),
+            new GuideMapping("#finger-for-restoration-shaman-healer-in-phase-1", "Ring"),
+            new GuideMapping("#trinket-for-restoration-shaman-healer-in-phase-1", "Trinket"),
+            new GuideMapping("#weapons-for-restoration-shaman-healer-in-phase-1", "Main Hand"),
+            new GuideMapping("#shields-off-hands-for-restoration-shaman-healer-in-phase-1", "Off Hand"),
+            new GuideMapping("#totems-for-restoration-shaman-healer-in-phase-1", "Totem")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("WarlockAfflic", "Affliction", "Warlock", new List<GuideMapping>

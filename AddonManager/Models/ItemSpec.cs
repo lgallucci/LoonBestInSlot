@@ -21,6 +21,7 @@ public class ItemSpec
         new (" -", ""),
         new ("BiS", "BIS"),
         new ("Bis", "BIS"),
+        new ("bis", "BIS"),
         new ("Recommended", "BIS"),
         new ("Best in slot", "BIS"),
         new ("Best", "BIS"),
@@ -69,6 +70,10 @@ public class ItemSpec
         new ("Avoidance", "Mit"),
         new ("P4", "Alt"),
         new ("Decent", "Alt"),
+        new ("Prebis", "Alt"),
+        new ("PreBIS", "Alt"),
+        new ("Strong", "Alt"),
+        new ("Strong ", "Alt"),
 
 
         new ("- Hit", ""),
@@ -164,7 +169,10 @@ public class ItemSpec
         new (" expertise", ""),
         new (" hit", ""),
         new (" haste", ""),
-
+        new (" Non-Orc", ""),
+        new (" Orc", ""),
+        new (" SS", ""),
+        new (" Morb", ""),
 
         new ("Alt Alt", "Alt"),
         new ("Temporary  Alt", "Alt"),
