@@ -75,7 +75,6 @@ public class ItemSpec
         new ("Strong", "Alt"),
         new ("Strong ", "Alt"),
 
-
         new ("- Hit", ""),
         new ("Hit", ""),
         new ("-PVP", ""),
@@ -173,6 +172,8 @@ public class ItemSpec
         new (" Orc", ""),
         new (" SS", ""),
         new (" Morb", ""),
+        new (" Belowcap", ""),
+        new (" Utility", ""),
 
         new ("Alt Alt", "Alt"),
         new ("Temporary  Alt", "Alt"),
@@ -187,6 +188,7 @@ public class ItemSpec
         new ("BIS / Alt", "BIS"),
         new ("BIS-", "BIS"),
         new ("Alt-", "Alt"),
+        new ("Alt  ", "Alt "),
     };
 
     private string ReplaceStatuses(string value)
