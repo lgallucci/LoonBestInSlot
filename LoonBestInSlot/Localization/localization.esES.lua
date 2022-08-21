@@ -386,7 +386,7 @@ if GetLocale() == "esES" then
   LBIS.L["Trinket"] = "Abalorio";
   LBIS.L["Turning Point"] = "Punto de inflexión";
   LBIS.L["Turning the Tide"] = "Girando las tornas";
-  LBIS.L["Two-Hand"] = "2H";
+  LBIS.L["Two Hand"] = "2H";
   LBIS.L["undefined"] = "indefinida";
   LBIS.L["Undercutting the Competition"] = "Eliminar a la competencia";
   LBIS.L["Vanquish the Raven God"] = "Derrota al Dios Cuervo";

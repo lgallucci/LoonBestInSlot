@@ -386,7 +386,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Trinket"] = "Abalorio";
 --  LBIS.L["Turning Point"] = "";
 --  LBIS.L["Turning the Tide"] = "";
-  LBIS.L["Two-Hand"] = "Dos Manos";
+  LBIS.L["Two Hand"] = "Dos Manos";
 --  LBIS.L["undefined"] = "";
 --  LBIS.L["Undercutting the Competition"] = "";
 --  LBIS.L["Vanquish the Raven God"] = "";

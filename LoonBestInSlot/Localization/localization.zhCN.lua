@@ -386,7 +386,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Trinket"] = "饰品";
   LBIS.L["Turning Point"] = "转折点";
   LBIS.L["Turning the Tide"] = "扭转战局";
-  LBIS.L["Two-Hand"] = "双手";
+  LBIS.L["Two Hand"] = "双手";
 --  LBIS.L["undefined"] = "";
   LBIS.L["Undercutting the Competition"] = "扫除竞争者";
   LBIS.L["Vanquish the Raven God"] = "消灭乌鸦之神";

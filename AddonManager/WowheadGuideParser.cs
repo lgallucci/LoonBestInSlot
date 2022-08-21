@@ -18,6 +18,18 @@ public class WowheadGuideParser
     private static readonly int[] excludedItemIds =
     {
         30684, //Ravager's Cuffs
+        30677, //Lurker's Belt
+        30682, //Glider's Sabatons
+        30686, //Ravager's Bands
+        30685, //Ravager's Wrist-Wraps
+        30676, //Lurker's Grasp
+        23206, //Mark of the Champion
+        23207, //Mark of the Champion
+        30675, //Lurker's Cord
+        30680, //Glider's Foot-Wraps
+        30681, //Glider's Boots
+        31201, //Illidari Cloak
+        24692, //Elementalist Bracelets
     };
 
     private Random _rand = new Random(DateTime.Now.Millisecond);

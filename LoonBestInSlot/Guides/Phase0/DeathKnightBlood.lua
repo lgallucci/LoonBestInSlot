@@ -59,10 +59,10 @@ LBIS:AddItem(spec, "40683", LBIS.L["Trinket"], "Alt") --Valor Medal of the First
 LBIS:AddItem(spec, "36993", LBIS.L["Trinket"], "Alt") --Seal of the Pantheon
 LBIS:AddItem(spec, "40767", LBIS.L["Trinket"], "Alt") --Sonic Booster
 
-LBIS:AddItem(spec, "41257", LBIS.L["Two-Hand"], "BIS") --Titansteel Destroyer
-LBIS:AddItem(spec, "43409", LBIS.L["Two-Hand"], "Alt") --Saliva Corroded Pike
-LBIS:AddItem(spec, "37653", LBIS.L["Two-Hand"], "Alt") --Sword of Justice
-LBIS:AddItem(spec, "43281", LBIS.L["Two-Hand"], "Alt") --Edge of Oblivion
+LBIS:AddItem(spec, "41257", LBIS.L["Two Hand"], "BIS") --Titansteel Destroyer
+LBIS:AddItem(spec, "43409", LBIS.L["Two Hand"], "Alt") --Saliva Corroded Pike
+LBIS:AddItem(spec, "37653", LBIS.L["Two Hand"], "Alt") --Sword of Justice
+LBIS:AddItem(spec, "43281", LBIS.L["Two Hand"], "Alt") --Edge of Oblivion
 
 LBIS:AddItem(spec, "37401", LBIS.L["Main Hand"], "BIS") --Red Sword of Courage
 LBIS:AddItem(spec, "41383", LBIS.L["Main Hand"], "BIS") --Titansteel Bonecrusher

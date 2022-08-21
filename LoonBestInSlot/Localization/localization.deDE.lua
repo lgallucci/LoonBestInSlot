@@ -386,7 +386,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Trinket"] = "Schmuck";
   LBIS.L["Turning Point"] = "Der Wendepunkt";
   LBIS.L["Turning the Tide"] = "Das Schicksal wenden";
-  LBIS.L["Two-Hand"] = "Zweihändig";
+  LBIS.L["Two Hand"] = "Zweihändig";
   LBIS.L["undefined"] = "undefinierte";
   LBIS.L["Undercutting the Competition"] = "Die Konkurrenz untergraben";
   LBIS.L["Vanquish the Raven God"] = "Vernichtet den Rabengott";

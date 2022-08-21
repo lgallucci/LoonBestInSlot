@@ -386,7 +386,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Trinket"] = "장신구";
   LBIS.L["Turning Point"] = "전세 역전";
   LBIS.L["Turning the Tide"] = "전황의 변화";
-  LBIS.L["Two-Hand"] = "양손";
+  LBIS.L["Two Hand"] = "양손";
 --  LBIS.L["undefined"] = "";
   LBIS.L["Undercutting the Competition"] = "경쟁자 처치";
   LBIS.L["Vanquish the Raven God"] = "무찌르자";

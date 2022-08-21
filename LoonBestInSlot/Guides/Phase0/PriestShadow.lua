@@ -159,12 +159,12 @@ LBIS:AddItem(spec, "37086", LBIS.L["Off Hand"], "Alt") --Tome of Salramm
 LBIS:AddItem(spec, "37051", LBIS.L["Off Hand"], "Alt") --Seal of Valgarde
 LBIS:AddItem(spec, "44023", LBIS.L["Off Hand"], "Alt") --Bonecaster's Endgame
 
-LBIS:AddItem(spec, "37360", LBIS.L["Two-Hand"], "BIS") --Staff of Draconic Combat
-LBIS:AddItem(spec, "37384", LBIS.L["Two-Hand"], "Alt") --Staff of Wayward Principles
-LBIS:AddItem(spec, "37617", LBIS.L["Two-Hand"], "Alt") --Staff of Sinister Claws
-LBIS:AddItem(spec, "37099", LBIS.L["Two-Hand"], "Alt") --Sempiternal Staff
-LBIS:AddItem(spec, "41821", LBIS.L["Two-Hand"], "Alt") --Chilly Slobberknocker
-LBIS:AddItem(spec, "44748", LBIS.L["Two-Hand"], "Alt") --Stave of Youthful Sorrow
+LBIS:AddItem(spec, "37360", LBIS.L["Two Hand"], "BIS") --Staff of Draconic Combat
+LBIS:AddItem(spec, "37384", LBIS.L["Two Hand"], "Alt") --Staff of Wayward Principles
+LBIS:AddItem(spec, "37617", LBIS.L["Two Hand"], "Alt") --Staff of Sinister Claws
+LBIS:AddItem(spec, "37099", LBIS.L["Two Hand"], "Alt") --Sempiternal Staff
+LBIS:AddItem(spec, "41821", LBIS.L["Two Hand"], "Alt") --Chilly Slobberknocker
+LBIS:AddItem(spec, "44748", LBIS.L["Two Hand"], "Alt") --Stave of Youthful Sorrow
 
 LBIS:AddItem(spec, "37238", LBIS.L["Wand"], "BIS") --Rod of the Fallen Monarch
 LBIS:AddItem(spec, "37177", LBIS.L["Wand"], "Alt") --Wand of the San'layn

@@ -386,7 +386,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Trinket"] = "Bijou";
   LBIS.L["Turning Point"] = "Un moment décisif";
   LBIS.L["Turning the Tide"] = "L'heure du tournant";
-  LBIS.L["Two-Hand"] = "Deux mains";
+  LBIS.L["Two Hand"] = "Deux mains";
 --  LBIS.L["undefined"] = "";
   LBIS.L["Undercutting the Competition"] = "Casser les prix";
   LBIS.L["Vanquish the Raven God"] = "Triompher du dieu corbeau";

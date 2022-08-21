@@ -74,11 +74,11 @@ LBIS:AddItem(spec, "44311", LBIS.L["Main Hand"], "Alt") --Avool's Sword of Jin
 LBIS:AddItem(spec, "44187", LBIS.L["Main Hand"], "Alt") --Fang of Truth
 LBIS:AddItem(spec, "37181", LBIS.L["Main Hand"], "Alt") --Dagger of Betrayal
 
-LBIS:AddItem(spec, "44249", LBIS.L["Two-Hand"], "BIS") --Runeblade of Demonstrable Power
-LBIS:AddItem(spec, "37848", LBIS.L["Two-Hand"], "Alt") --Lightning Giant Staff
-LBIS:AddItem(spec, "37883", LBIS.L["Two-Hand"], "Alt") --Staff of Trickery
-LBIS:AddItem(spec, "36962", LBIS.L["Two-Hand"], "Alt") --Wyrmclaw Battleaxe
-LBIS:AddItem(spec, "34198", LBIS.L["Two-Hand"], "Alt") --Stanchion of Primal Instinct
+LBIS:AddItem(spec, "44249", LBIS.L["Two Hand"], "BIS") --Runeblade of Demonstrable Power
+LBIS:AddItem(spec, "37848", LBIS.L["Two Hand"], "Alt") --Lightning Giant Staff
+LBIS:AddItem(spec, "37883", LBIS.L["Two Hand"], "Alt") --Staff of Trickery
+LBIS:AddItem(spec, "36962", LBIS.L["Two Hand"], "Alt") --Wyrmclaw Battleaxe
+LBIS:AddItem(spec, "34198", LBIS.L["Two Hand"], "Alt") --Stanchion of Primal Instinct
 
 LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "BIS") --Drake-Mounted Crossbow
 LBIS:AddItem(spec, "44504", LBIS.L["Ranged"], "BIS") --Nesingwary 4000

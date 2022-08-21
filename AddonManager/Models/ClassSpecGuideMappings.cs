@@ -47,7 +47,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#neck-for-blood-death-knight-tank-pre-raid", "Neck"),
             new GuideMapping("#rings-for-blood-death-knight-tank-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-blood-death-knight-tank-pre-raid", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "Two-Hand"),
+            new GuideMapping("h3#weapons~h4", "Two Hand"),
             new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
             new GuideMapping("#relics-for-blood-death-knight-tank-pre-raid", "Relic"),
         })); 
@@ -66,7 +66,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#neck-for-blood-death-knight-tank-phase-1", "Neck"),
             new GuideMapping("#rings-for-blood-death-knight-tank-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-blood-death-knight-tank-phase-1", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "Two-Hand"),
+            new GuideMapping("h3#weapons~h4", "Two Hand"),
             new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
             new GuideMapping("#relics-for-blood-death-knight-tank-phase-1", "Relic"),
         }));
@@ -86,7 +86,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-frost-death-knight-dps-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-frost-death-knight-dps-pre-raid", "Trinket"),
             new GuideMapping("h3#weapons~h4", "Main Hand"),
-            new GuideMapping("h3#weapons~h4~h4", "Two-Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Two Hand"),
             new GuideMapping("#sigils-for-frost-death-knight-dps-pre-raid", "Relic"),
         }));
 
@@ -105,7 +105,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-frost-death-knight-dps-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-frost-death-knight-dps-phase-1", "Trinket"),
             new GuideMapping("h3#weapons~h4", "Main Hand"),
-            new GuideMapping("h3#weapons~h4~h4", "Two-Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Two Hand"),
             new GuideMapping("#sigils-for-frost-death-knight-dps-phase-1", "Relic"),
         }));
 
@@ -124,7 +124,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-unholy-death-knight-dps-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-unholy-death-knight-dps-pre-raid", "Trinket"),
             new GuideMapping("h3#weapons~h4", "Main Hand"),
-            new GuideMapping("h3#weapons~h4~h4", "Two-Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Two Hand"),
             new GuideMapping("#sigils-for-unholy-death-knight-dps-pre-raid", "Relic"),
         }));
 
@@ -143,7 +143,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-unholy-death-knight-dps-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-unholy-death-knight-dps-phase-1", "Trinket"),
             new GuideMapping("h3#weapons~h4", "Main Hand"),
-            new GuideMapping("h3#weapons~h4~h4", "Two-Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Two Hand"),
             new GuideMapping("#sigils-for-unholy-death-knight-dps-phase-1", "Relic"),
         }));
 
@@ -162,7 +162,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-balance-druid-dps-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-balance-druid-dps-pre-raid", "Trinket"),
             new GuideMapping("#main-hand-weapons-for-balance-druid-dps-pre-raid", "Main Hand"),
-            new GuideMapping("#two-handed-weapons-for-balance-druid-dps-pre-raid", "Two-Hand"),
+            new GuideMapping("#two-handed-weapons-for-balance-druid-dps-pre-raid", "Two Hand"),
             new GuideMapping("#off-hand-weapons-for-balance-druid-dps-pre-raid", "Off Hand"),
             new GuideMapping("#idols-for-balance-druid-dps-pre-raid", "Idol")
         }));
@@ -182,7 +182,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-balance-druid-dps-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-balance-druid-dps-phase-1", "Trinket"),
             new GuideMapping("#main-hand-weapons-for-balance-druid-dps-phase-1", "Main Hand"),
-            new GuideMapping("#two-handed-weapons-for-balance-druid-dps-phase-1", "Two-Hand"),
+            new GuideMapping("#two-handed-weapons-for-balance-druid-dps-phase-1", "Two Hand"),
             new GuideMapping("#off-hand-weapons-for-balance-druid-dps-phase-1", "Off Hand"),
             new GuideMapping("#idols-for-balance-druid-dps-phase-1", "Idol")
         }));
@@ -201,7 +201,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#weapons~h4", "Two-Hand"),
+            new GuideMapping("#weapons~h4", "Two Hand"),
             new GuideMapping("#idols", "Idol")
         }));
 
@@ -219,7 +219,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#weapons~h4", "Two-Hand"),
+            new GuideMapping("#weapons~h4", "Two Hand"),
             new GuideMapping("#idols", "Idol")
         }));
 
@@ -238,7 +238,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-restoration-druid-healer-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-restoration-druid-healer-pre-raid", "Trinket"),
             new GuideMapping("#main-hand-weapons-for-restoration-druid-healer-pre-raid", "Main Hand"),
-            new GuideMapping("#two-handed-weapons-for-restoration-druid-healer-pre-raid", "Two-Hand"),
+            new GuideMapping("#two-handed-weapons-for-restoration-druid-healer-pre-raid", "Two Hand"),
             new GuideMapping("#off-hand-weapons-for-restoration-druid-healer-pre-raid", "Off Hand"),
             new GuideMapping("#idols-for-restoration-druid-healer-pre-raid", "Idol")
         }));
@@ -258,7 +258,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-restoration-druid-healer-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-restoration-druid-healer-phase-1", "Trinket"),
             new GuideMapping("#main-hand-weapons-for-restoration-druid-healer-phase-1", "Main Hand"),
-            new GuideMapping("#two-handed-weapons-for-restoration-druid-healer-phase-1", "Two-Hand"),
+            new GuideMapping("#two-handed-weapons-for-restoration-druid-healer-phase-1", "Two Hand"),
             new GuideMapping("#off-hand-weapons-for-restoration-druid-healer-phase-1", "Off Hand"),
             new GuideMapping("#idols-for-restoration-druid-healer-phase-1", "Idol")
         }));
@@ -278,7 +278,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-beast-mastery-hunter-dps-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-beast-mastery-hunter-dps-pre-raid", "Trinket"),
             new GuideMapping("#one-handed-weapons-for-beast-mastery-hunter-dps-pre-raid", "Main Hand"),
-            new GuideMapping("#two-hand-weapons-for-beast-mastery-hunter-dps-pre-raid", "Two-Hand"),
+            new GuideMapping("#two-hand-weapons-for-beast-mastery-hunter-dps-pre-raid", "Two Hand"),
             new GuideMapping("#guns-and-bows-for-beast-mastery-hunter-dps-pre-raid", "Ranged")
         }));
 
@@ -297,7 +297,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-beast-mastery-hunter-dps-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-beast-mastery-hunter-dps-phase-1", "Trinket"),
             new GuideMapping("#one-handed-weapons-for-beast-mastery-hunter-dps-phase-1", "Main Hand"),
-            new GuideMapping("#two-hand-weapons-for-beast-mastery-hunter-dps-phase-1", "Two-Hand"),
+            new GuideMapping("#two-hand-weapons-for-beast-mastery-hunter-dps-phase-1", "Two Hand"),
             new GuideMapping("#guns-and-bows-for-beast-mastery-hunter-dps-phase-1", "Ranged")
         }));
 
@@ -316,7 +316,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-marksmanship-hunter-dps-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-marksmanship-hunter-dps-pre-raid", "Trinket"),
             new GuideMapping("#one-handed-weapons-for-marksmanship-hunter-dps-pre-raid", "Main Hand"),
-            new GuideMapping("#two-hand-weapons-for-marksmanship-hunter-dps-pre-raid", "Two-Hand"),
+            new GuideMapping("#two-hand-weapons-for-marksmanship-hunter-dps-pre-raid", "Two Hand"),
             new GuideMapping("#guns-and-bows-for-marksmanship-hunter-dps-pre-raid", "Ranged")
         }));
 
@@ -335,7 +335,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-survival-hunter-dps-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-survival-hunter-dps-pre-raid", "Trinket"),
             new GuideMapping("#one-handed-weapons-for-survival-hunter-dps-pre-raid", "Main Hand"),
-            new GuideMapping("#two-hand-weapons-for-survival-hunter-dps-pre-raid", "Two-Hand"),
+            new GuideMapping("#two-hand-weapons-for-survival-hunter-dps-pre-raid", "Two Hand"),
             new GuideMapping("#guns-and-bows-for-survival-hunter-dps-pre-raid", "Ranged")
         }));
 
@@ -448,7 +448,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#neck-for-retribution-paladin-pre-raid", "Neck"),
             new GuideMapping("#rings-for-retribution-paladin-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-retribution-paladin-pre-raid", "Trinket"),
-            new GuideMapping("#two-hand-weapons-for-retribution-paladin-pre-raid", "Two-Hand"),
+            new GuideMapping("#two-hand-weapons-for-retribution-paladin-pre-raid", "Two Hand"),
             new GuideMapping("#libram", "Libram")
         }));
 
@@ -506,7 +506,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-shadow-priest-dps-pre-raid", "Trinket"),
             new GuideMapping("#main-hand-weapons-for-shadow-priest-dps-pre-raid", "Main Hand"),
             new GuideMapping("#off-hands-for-shadow-priest-dps-pre-raid", "Off Hand"),
-            new GuideMapping("#two-handed-weapons-for-shadow-priest-dps-pre-raid", "Two-Hand"),
+            new GuideMapping("#two-handed-weapons-for-shadow-priest-dps-pre-raid", "Two Hand"),
             new GuideMapping("#wands-for-shadow-priest-dps-pre-raid", "Wand")
         }));
 
@@ -635,7 +635,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "Two-Hand"),
+            new GuideMapping("h3#weapons~h4", "Two Hand"),
             new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
             new GuideMapping("#offhand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
@@ -655,7 +655,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "Two-Hand"),
+            new GuideMapping("h3#weapons~h4", "Two Hand"),
             new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
             new GuideMapping("#offhand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
@@ -675,7 +675,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#neck", "Neck"),
             new GuideMapping("#rings", "Ring"),
             new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "Two-Hand"),
+            new GuideMapping("h3#weapons~h4", "Two Hand"),
             new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
             new GuideMapping("#offhand", "Off Hand"),
             new GuideMapping("#wand", "Wand")
@@ -695,7 +695,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#neck-for-fury-warrior-dps-pre-raid", "Neck"),
             new GuideMapping("#rings-for-fury-warrior-dps-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-fury-warrior-dps-pre-raid", "Trinket"),
-            new GuideMapping("#two-handed-weapons-for-fury-warrior-dps-pre-raid", "Two-Hand"),
+            new GuideMapping("#two-handed-weapons-for-fury-warrior-dps-pre-raid", "Two Hand"),
             new GuideMapping("#ranged-weapons-for-fury-warrior-dps-pre-raid", "Ranged"),
         }));
 
@@ -713,7 +713,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#neck-for-arms-warrior-dps-pre-raid", "Neck"),
             new GuideMapping("#rings-for-arms-warrior-dps-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-arms-warrior-dps-pre-raid", "Trinket"),
-            new GuideMapping("#two-handed-weapons-for-arms-warrior-dps-pre-raid", "Two-Hand"),
+            new GuideMapping("#two-handed-weapons-for-arms-warrior-dps-pre-raid", "Two Hand"),
             new GuideMapping("#ranged-weapons-for-arms-warrior-dps-pre-raid", "Ranged"),
         }));
 

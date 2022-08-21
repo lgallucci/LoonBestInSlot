@@ -386,7 +386,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Trinket"] = "Аксессуар";
   LBIS.L["Turning Point"] = "Поворотная точка";
   LBIS.L["Turning the Tide"] = "Новый поворот событий";
-  LBIS.L["Two-Hand"] = "Двуручное";
+  LBIS.L["Two Hand"] = "Двуручное";
 --  LBIS.L["undefined"] = "";
   LBIS.L["Undercutting the Competition"] = "Жестокая вещь – конкуренция";
   LBIS.L["Vanquish the Raven God"] = "Изгнание бога-ворона";

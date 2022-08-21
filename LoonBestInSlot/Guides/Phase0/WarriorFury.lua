@@ -54,11 +54,11 @@ LBIS:AddItem(spec, "37166", LBIS.L["Trinket"], "BIS") --Sphere of Red Dragon's B
 LBIS:AddItem(spec, "37390", LBIS.L["Trinket"], "Alt") --Meteorite Whetstone
 LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "Alt") --Berserker's Call
 
-LBIS:AddItem(spec, "37852", LBIS.L["Two-Hand"], "BIS") --Colossal Skull-Clad Cleaver
-LBIS:AddItem(spec, "41257", LBIS.L["Two-Hand"], "BIS") --Titansteel Destroyer
-LBIS:AddItem(spec, "44249", LBIS.L["Two-Hand"], "BIS") --Runeblade of Demonstrable Power
-LBIS:AddItem(spec, "44244", LBIS.L["Two-Hand"], "BIS") --Argent Skeleton Crusher
-LBIS:AddItem(spec, "37653", LBIS.L["Two-Hand"], "BIS") --Sword of Justice
+LBIS:AddItem(spec, "37852", LBIS.L["Two Hand"], "BIS") --Colossal Skull-Clad Cleaver
+LBIS:AddItem(spec, "41257", LBIS.L["Two Hand"], "BIS") --Titansteel Destroyer
+LBIS:AddItem(spec, "44249", LBIS.L["Two Hand"], "BIS") --Runeblade of Demonstrable Power
+LBIS:AddItem(spec, "44244", LBIS.L["Two Hand"], "BIS") --Argent Skeleton Crusher
+LBIS:AddItem(spec, "37653", LBIS.L["Two Hand"], "BIS") --Sword of Justice
 
 LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "BIS") --Drake-Mounted Crossbow
 LBIS:AddItem(spec, "44504", LBIS.L["Ranged"], "Alt") --Nesingwary 4000

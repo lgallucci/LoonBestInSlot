@@ -58,12 +58,12 @@ LBIS:AddItem(spec, "34472", LBIS.L["Trinket"], "Alt") --Shard of Contempt
 LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "Alt") --Berserker's Call
 
 LBIS:AddItem(spec, "41383", LBIS.L["Main Hand"], "BIS") --Titansteel Bonecrusher
-LBIS:AddItem(spec, "41257", LBIS.L["Main Hand"], "BIS 2h") --Titansteel Destroyer
+LBIS:AddItem(spec, "41257", LBIS.L["Main Hand"], "BIS") --Titansteel Destroyer
 LBIS:AddItem(spec, "44250", LBIS.L["Main Hand"], "Alt") --Reaper of Dark Souls
-LBIS:AddItem(spec, "37852", LBIS.L["Main Hand"], "Alt 2h") --Colossal Skull-Clad Cleaver
+LBIS:AddItem(spec, "37852", LBIS.L["Main Hand"], "Alt") --Colossal Skull-Clad Cleaver
 LBIS:AddItem(spec, "37235", LBIS.L["Main Hand"], "Alt") --Crypt Lord's Deft Blade
 LBIS:AddItem(spec, "37871", LBIS.L["Main Hand"], "Alt") --The Key
 
-LBIS:AddItem(spec, "40703", LBIS.L["Two-Hand"], "BIS") --Grasscutter
+LBIS:AddItem(spec, "40703", LBIS.L["Two Hand"], "BIS") --Grasscutter
 
 LBIS:AddItem(spec, "40867", LBIS.L["Relic"], "BIS") --Sigil of the Wild Buck
