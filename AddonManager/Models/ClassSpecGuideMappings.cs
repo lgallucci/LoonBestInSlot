@@ -699,7 +699,43 @@ public class ClassSpecGuideMappings
             new GuideMapping("#ranged-weapons-for-fury-warrior-dps-pre-raid", "Ranged"),
         }));
 
+        GuideMappings.Add(new ClassGuideMapping("WarriorFuryPhase1", "Fury", "Warrior", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-fury-warrior-dps-pre-raid", "Head"),
+            new GuideMapping("#shoulders-for-fury-warrior-dps-pre-raid", "Shoulder"),
+            new GuideMapping("#back-for-fury-warrior-dps-pre-raid", "Back"),
+            new GuideMapping("#chest-for-fury-warrior-dps-pre-raid", "Chest"),
+            new GuideMapping("#wrist-for-fury-warrior-dps-pre-raid", "Wrist"),
+            new GuideMapping("#hands-for-fury-warrior-dps-pre-raid", "Hands"),
+            new GuideMapping("#waist-for-fury-warrior-dps-pre-raid", "Waist"),
+            new GuideMapping("#legs-for-fury-warrior-dps-pre-raid", "Legs"),
+            new GuideMapping("#feet-for-fury-warrior-dps-pre-raid", "Feet"),
+            new GuideMapping("#neck-for-fury-warrior-dps-pre-raid", "Neck"),
+            new GuideMapping("#rings-for-fury-warrior-dps-pre-raid", "Ring"),
+            new GuideMapping("#trinkets-for-fury-warrior-dps-pre-raid", "Trinket"),
+            new GuideMapping("#two-handed-weapons-for-fury-warrior-dps-pre-raid", "Two Hand"),
+            new GuideMapping("#ranged-weapons-for-fury-warrior-dps-pre-raid", "Ranged"),
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("WarriorArmsPhase0", "Arms", "Warrior", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-arms-warrior-dps-pre-raid", "Head"),
+            new GuideMapping("#shoulders-for-arms-warrior-dps-pre-raid", "Shoulder"),
+            new GuideMapping("#back-for-arms-warrior-dps-pre-raid", "Back"),
+            new GuideMapping("#chest-for-arms-warrior-dps-pre-raid", "Chest"),
+            new GuideMapping("#wrist-for-arms-warrior-dps-pre-raid", "Wrist"),
+            new GuideMapping("#hands-for-arms-warrior-dps-pre-raid", "Hands"),
+            new GuideMapping("#waist-for-arms-warrior-dps-pre-raid", "Waist"),
+            new GuideMapping("#legs-for-arms-warrior-dps-pre-raid", "Legs"),
+            new GuideMapping("#feet-for-arms-warrior-dps-pre-raid", "Feet"),
+            new GuideMapping("#neck-for-arms-warrior-dps-pre-raid", "Neck"),
+            new GuideMapping("#rings-for-arms-warrior-dps-pre-raid", "Ring"),
+            new GuideMapping("#trinkets-for-arms-warrior-dps-pre-raid", "Trinket"),
+            new GuideMapping("#two-handed-weapons-for-arms-warrior-dps-pre-raid", "Two Hand"),
+            new GuideMapping("#ranged-weapons-for-arms-warrior-dps-pre-raid", "Ranged"),
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("WarriorArmsPhase1", "Arms", "Warrior", new List<GuideMapping>
         {
             new GuideMapping("#head-for-arms-warrior-dps-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-arms-warrior-dps-pre-raid", "Shoulder"),
@@ -734,6 +770,25 @@ public class ClassSpecGuideMappings
             new GuideMapping("#one-handed-weapons-for-protection-warrior-tank-pre-raid", "Main Hand"),
             new GuideMapping("#shields-for-protection-warrior-tank-pre-raid", "Shield"),
             new GuideMapping("#guns-and-bows-for-protection-warrior-tank-pre-raid", "Ranged")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("WarriorProtectionPhase1", "Protection", "Warrior", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-protection-warrior-tank-in-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-protection-warrior-tank-in-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-protection-warrior-tank-in-phase-1", "Back"),
+            new GuideMapping("#chest-for-protection-warrior-tank-in-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-protection-warrior-tank-in-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-protection-warrior-tank-in-phase-1", "Hands"),
+            new GuideMapping("#waist-for-protection-warrior-tank-in-phase-1", "Waist"),
+            new GuideMapping("#legs-for-protection-warrior-tank-in-phase-1", "Legs"),
+            new GuideMapping("#feet-for-protection-warrior-tank-in-phase-1", "Feet"),
+            new GuideMapping("#neck-for-protection-warrior-tank-in-phase-1", "Neck"),
+            new GuideMapping("#rings-for-protection-warrior-tank-in-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-protection-warrior-tank-in-phase-1", "Trinket"),
+            new GuideMapping("#one-handed-weapons-for-protection-warrior-tank-in-phase-1", "Main Hand"),
+            new GuideMapping("#shields-for-protection-warrior-tank-in-phase-1", "Shield"),
+            new GuideMapping("#guns-and-bows-for-protection-warrior-tank-in-phase-1", "Ranged")
         }));
     }
 }
