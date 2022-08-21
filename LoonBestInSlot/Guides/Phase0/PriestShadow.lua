@@ -1,7 +1,7 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "0")
 
 LBIS:AddItem(spec, "42553", LBIS.L["Head"], "BIS") --Visage Liquification Goggles
-LBIS:AddItem(spec, "34340", LBIS.L["Head"], "Alt TBC") --Dark Conjuror's Collar
+LBIS:AddItem(spec, "34340", LBIS.L["Head"], "Alt") --Dark Conjuror's Collar
 LBIS:AddItem(spec, "37684", LBIS.L["Head"], "Alt") --Forgotten Shadow Hood
 LBIS:AddItem(spec, "37294", LBIS.L["Head"], "Alt") --Crown of Unbridled Magic
 LBIS:AddItem(spec, "41984", LBIS.L["Head"], "Alt") --Hat of Wintry Doom
@@ -10,7 +10,7 @@ LBIS:AddItem(spec, "42850", LBIS.L["Head"], "Alt") --Flamebringer's Crown
 LBIS:AddItem(spec, "37715", LBIS.L["Head"], "Alt") --Cowl of the Dire Troll
 LBIS:AddItem(spec, "44408", LBIS.L["Head"], "Alt") --Cowl of the Vindictive Captain
 
-LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "BIS TBC") --Amice of the Convoker
+LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "BIS") --Amice of the Convoker
 LBIS:AddItem(spec, "37673", LBIS.L["Shoulder"], "Alt") --Dark Runic Mantle
 LBIS:AddItem(spec, "37196", LBIS.L["Shoulder"], "Alt") --Runecaster's Mantle
 LBIS:AddItem(spec, "41550", LBIS.L["Shoulder"], "Alt") --Duskweave Shoulders
@@ -22,7 +22,7 @@ LBIS:AddItem(spec, "44378", LBIS.L["Shoulder"], "Alt") --Mantle of the Flesh Gia
 
 LBIS:AddItem(spec, "41610", LBIS.L["Back"], "BIS") --Deathchill Cloak
 LBIS:AddItem(spec, "37291", LBIS.L["Back"], "Alt") --Ancient Dragon Spirit Cape
-LBIS:AddItem(spec, "34242", LBIS.L["Back"], "Alt TBC") --Tattered Cape of Antonidas
+LBIS:AddItem(spec, "34242", LBIS.L["Back"], "Alt") --Tattered Cape of Antonidas
 LBIS:AddItem(spec, "37799", LBIS.L["Back"], "Alt") --Reanimator's Cloak
 LBIS:AddItem(spec, "37630", LBIS.L["Back"], "Alt") --Shroud of Moorabi
 LBIS:AddItem(spec, "45810", LBIS.L["Back"], "Alt") --Cloak of Crimson Snow
@@ -45,8 +45,8 @@ LBIS:AddItem(spec, "37851", LBIS.L["Chest"], "Alt") --Ornate Woolen Stola
 
 LBIS:AddItem(spec, "37361", LBIS.L["Wrist"], "BIS") --Cuffs of Winged Levitation
 LBIS:AddItem(spec, "37884", LBIS.L["Wrist"], "Alt") --Azure Cloth Bindings
-LBIS:AddItem(spec, "34435", LBIS.L["Wrist"], "Alt TBC") --Cuffs of Absolution
-LBIS:AddItem(spec, "34848", LBIS.L["Wrist"], "Alt TBC") --Bracers of the Forgotten Conqueror
+LBIS:AddItem(spec, "34435", LBIS.L["Wrist"], "Alt") --Cuffs of Absolution
+LBIS:AddItem(spec, "34848", LBIS.L["Wrist"], "Alt") --Bracers of the Forgotten Conqueror
 LBIS:AddItem(spec, "44200", LBIS.L["Wrist"], "Alt") --Ancestral Sinew Wristguards
 LBIS:AddItem(spec, "37725", LBIS.L["Wrist"], "Alt") --Savage Wound Wrap
 LBIS:AddItem(spec, "36945", LBIS.L["Wrist"], "Alt") --Verdisa's Cuffs of Dreaming
@@ -59,7 +59,7 @@ LBIS:AddItem(spec, "37172", LBIS.L["Hands"], "Alt") --Gloves of Glistening Runes
 LBIS:AddItem(spec, "42111", LBIS.L["Hands"], "Alt") --Ebonweave Gloves
 LBIS:AddItem(spec, "42113", LBIS.L["Hands"], "Alt") --Spellweave Gloves
 LBIS:AddItem(spec, "34366", LBIS.L["Hands"], "Alt") --Sunfire Handwraps
-LBIS:AddItem(spec, "34344", LBIS.L["Hands"], "Alt TBC") --Handguards of Defiled Worlds
+LBIS:AddItem(spec, "34344", LBIS.L["Hands"], "Alt") --Handguards of Defiled Worlds
 LBIS:AddItem(spec, "43287", LBIS.L["Hands"], "Alt") --Silken Bridge Handwraps
 LBIS:AddItem(spec, "37825", LBIS.L["Hands"], "Alt") --Traditionally Dyed Handguards
 LBIS:AddItem(spec, "37687", LBIS.L["Hands"], "Alt") --Gloves of Distorted Time
@@ -72,7 +72,7 @@ LBIS:AddItem(spec, "42790", LBIS.L["Hands"], "Alt") --K3 Surgeon's Gloves
 LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah
 LBIS:AddItem(spec, "37408", LBIS.L["Waist"], "Alt") --Girdle of Bane
 LBIS:AddItem(spec, "37242", LBIS.L["Waist"], "Alt") --Sash of the Servant
-LBIS:AddItem(spec, "34528", LBIS.L["Waist"], "Alt TBC") --Cord of Absolution
+LBIS:AddItem(spec, "34528", LBIS.L["Waist"], "Alt") --Cord of Absolution
 LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "Alt") --Belt of Blasting
 LBIS:AddItem(spec, "44302", LBIS.L["Waist"], "Alt") --Belt of Dark Mending
 LBIS:AddItem(spec, "37850", LBIS.L["Waist"], "Alt") --Flowing Sash of Order
@@ -85,7 +85,7 @@ LBIS:AddItem(spec, "41986", LBIS.L["Waist"], "Alt") --Deep Frozen Cord
 LBIS:AddItem(spec, "44104", LBIS.L["Waist"], "Alt") --Fishy Cinch
 LBIS:AddItem(spec, "39804", LBIS.L["Waist"], "Alt") --Braided Bat Sinew
 
-LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "BIS TBC") --Leggings of Calamity
+LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "BIS") --Leggings of Calamity
 LBIS:AddItem(spec, "37854", LBIS.L["Legs"], "Alt") --Woven Bracae Leggings
 LBIS:AddItem(spec, "37369", LBIS.L["Legs"], "Alt") --Sorrowgrave's Breeches
 LBIS:AddItem(spec, "37189", LBIS.L["Legs"], "Alt") --Breeches of the Caller
@@ -98,8 +98,8 @@ LBIS:AddItem(spec, "41553", LBIS.L["Legs"], "Alt") --Black Duskweave Leggings
 
 LBIS:AddItem(spec, "44202", LBIS.L["Feet"], "BIS") --Sandals of Crimson Fury
 LBIS:AddItem(spec, "37730", LBIS.L["Feet"], "Alt") --Cleric's Linen Shoes
-LBIS:AddItem(spec, "34563", LBIS.L["Feet"], "Alt TBC") --Treads of Absolution
-LBIS:AddItem(spec, "34856", LBIS.L["Feet"], "Alt TBC") --Boots of the Forgotten Conqueror
+LBIS:AddItem(spec, "34563", LBIS.L["Feet"], "Alt") --Treads of Absolution
+LBIS:AddItem(spec, "34856", LBIS.L["Feet"], "Alt") --Boots of the Forgotten Conqueror
 LBIS:AddItem(spec, "37218", LBIS.L["Feet"], "Alt") --Stone-Worn Footwraps
 LBIS:AddItem(spec, "36954", LBIS.L["Feet"], "Alt") --The Conjurer's Slippers
 LBIS:AddItem(spec, "37629", LBIS.L["Feet"], "Alt") --Slithering Slippers

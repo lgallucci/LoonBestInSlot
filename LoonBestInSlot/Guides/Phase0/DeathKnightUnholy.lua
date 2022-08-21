@@ -64,6 +64,6 @@ LBIS:AddItem(spec, "37852", LBIS.L["Main Hand"], "Alt") --Colossal Skull-Clad Cl
 LBIS:AddItem(spec, "37235", LBIS.L["Main Hand"], "Alt") --Crypt Lord's Deft Blade
 LBIS:AddItem(spec, "37871", LBIS.L["Main Hand"], "Alt") --The Key
 
-LBIS:AddItem(spec, "40703", LBIS.L["Two Hand"], "BIS") --Grasscutter
+LBIS:AddItem(spec, "40703", LBIS.L["Off Hand"], "BIS") --Grasscutter
 
 LBIS:AddItem(spec, "40867", LBIS.L["Relic"], "BIS") --Sigil of the Wild Buck

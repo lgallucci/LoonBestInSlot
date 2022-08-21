@@ -67,6 +67,8 @@ public class ItemSpec
         new ("P4 BIS", "Alt"),
         new ("BIS in Slot", "BIS"),
         new ("Avoidance", "Mit"),
+        new ("P4", "Alt"),
+        new ("Decent", "Alt"),
 
 
         new ("- Hit", ""),
@@ -152,7 +154,17 @@ public class ItemSpec
         new (" (below Armor cap)", ""),
         new (" (above Armor cap)", ""),
         new ("P5 ", ""),
-        new ("P4", "Alt"),
+        new (" 2h", ""),
+        new ("TBC ", ""),
+        new ("TBCC ", ""),
+        new (" TBC", ""),
+        new (" TBCC", ""),
+        new (" BoE", ""),
+        new ("BoE ", ""),
+        new (" expertise", ""),
+        new (" hit", ""),
+        new (" haste", ""),
+
 
         new ("Alt Alt", "Alt"),
         new ("Temporary  Alt", "Alt"),

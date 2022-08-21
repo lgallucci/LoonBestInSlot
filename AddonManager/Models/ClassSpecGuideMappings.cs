@@ -85,8 +85,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#neck-for-frost-death-knight-dps-pre-raid", "Neck"),
             new GuideMapping("#rings-for-frost-death-knight-dps-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-frost-death-knight-dps-pre-raid", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "Main Hand"),
-            new GuideMapping("h3#weapons~h4~h4", "Two Hand"),
+            new GuideMapping("#main-hand-weapons-for-frost-death-knight-dps-pre-raid", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-frost-death-knight-dps-pre-raid", "Off Hand"),
             new GuideMapping("#sigils-for-frost-death-knight-dps-pre-raid", "Relic"),
         }));
 
@@ -104,8 +104,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#neck-for-frost-death-knight-dps-phase-1", "Neck"),
             new GuideMapping("#rings-for-frost-death-knight-dps-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-frost-death-knight-dps-phase-1", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "Main Hand"),
-            new GuideMapping("h3#weapons~h4~h4", "Two Hand"),
+            new GuideMapping("#main-hand-weapons-for-frost-death-knight-dps-phase-1", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-frost-death-knight-dps-phase-1", "Off Hand"),
             new GuideMapping("#sigils-for-frost-death-knight-dps-phase-1", "Relic"),
         }));
 
@@ -123,8 +123,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#neck-for-unholy-death-knight-dps-pre-raid", "Neck"),
             new GuideMapping("#rings-for-unholy-death-knight-dps-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-unholy-death-knight-dps-pre-raid", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "Main Hand"),
-            new GuideMapping("h3#weapons~h4~h4", "Two Hand"),
+            new GuideMapping("#main-hand-weapons-for-unholy-death-knight-dps-pre-raid", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-unholy-death-knight-dps-pre-raid", "Off Hand"),
             new GuideMapping("#sigils-for-unholy-death-knight-dps-pre-raid", "Relic"),
         }));
 
@@ -142,8 +142,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#neck-for-unholy-death-knight-dps-phase-1", "Neck"),
             new GuideMapping("#rings-for-unholy-death-knight-dps-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-unholy-death-knight-dps-phase-1", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "Main Hand"),
-            new GuideMapping("h3#weapons~h4~h4", "Two Hand"),
+            new GuideMapping("#main-hand-weapons-for-unholy-death-knight-dps-phase-1", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-unholy-death-knight-dps-phase-1", "Off Hand"),
             new GuideMapping("#sigils-for-unholy-death-knight-dps-phase-1", "Relic"),
         }));
 
