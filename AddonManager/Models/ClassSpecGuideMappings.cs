@@ -205,7 +205,43 @@ public class ClassSpecGuideMappings
             new GuideMapping("#idols", "Idol")
         }));
 
+        GuideMappings.Add(new ClassGuideMapping("DruidCatPhase1", "Cat", "Druid", new List<GuideMapping>
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulder"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrist", "Wrist"),
+            new GuideMapping("#hands", "Hands"),
+            new GuideMapping("#waist", "Waist"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#weapons~h4", "Two Hand"),
+            new GuideMapping("#idols", "Idol")
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("DruidBearPhase0", "Bear", "Druid", new List<GuideMapping>
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulder"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrist", "Wrist"),
+            new GuideMapping("#hands", "Hands"),
+            new GuideMapping("#waist", "Waist"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("#weapons~h4", "Two Hand"),
+            new GuideMapping("#idols", "Idol")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("DruidBearPhase1", "Bear", "Druid", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulder"),
