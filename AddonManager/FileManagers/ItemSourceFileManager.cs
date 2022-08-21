@@ -4,11 +4,11 @@ namespace AddonManager.FileManagers;
 
 public class ItemSourceFileManager
 {
-    public SortedDictionary<int, ItemSource> ReadItemSources()
+    public SortedDictionary<int, ItemSource> ReadItemSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\ItemSources.lua")
     {
         SortedDictionary<int, ItemSource> items = new SortedDictionary<int, ItemSource>();
 
-        string[] itemSources = System.IO.File.ReadAllLines(@$"..\..\..\..\LoonBestInSlot\ItemSources.lua");
+        string[] itemSources = System.IO.File.ReadAllLines(sourcesFile);
 
         foreach (var itemSource in itemSources)
         {

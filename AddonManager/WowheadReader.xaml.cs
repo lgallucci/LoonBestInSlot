@@ -3,6 +3,7 @@ using System.Text.RegularExpressions;
 using System.Windows;
 using AddonManager.FileManagers;
 using AddonManager.Models;
+using Newtonsoft.Json;
 
 namespace AddonManager;
 /// <summary>
@@ -18,6 +19,7 @@ public partial class WowheadReader : Window
     public class CsvLootTable
     {
         public int ItemId { get; set; }
+        public string SourceType { get; set; } = "Drop";
         public string ItemName { get; set; } = string.Empty;
         public string InstanceName { get; set; } = string.Empty;
         public string SourceName { get; set; } = string.Empty;
@@ -167,40 +169,56 @@ public partial class WowheadReader : Window
         var csvLootTable = new Dictionary<int, CsvLootTable>();
         var readHeaderRow = false;
 
-        using (var streamReader = new StreamReader(@"..\..\..\burning-crusade-loot-table.csv"))
+        var oldSources = new ItemSourceFileManager().ReadItemSources(@"..\..\..\ItemDatabase\TBCItemSources.lua");
+
+        foreach(var oldSource in oldSources)
         {
-            while (!streamReader.EndOfStream)
+            csvLootTable.Add(oldSource.Key, new CsvLootTable
             {
-                var line = streamReader.ReadLine();
+                ItemId = oldSource.Key,
+                SourceType = oldSource.Value.SourceType,
+                ItemName = oldSource.Value.Name,
+                InstanceName = oldSource.Value.SourceLocation,
+                SourceName = oldSource.Value.Source
+            });
+        }
 
-                if (!readHeaderRow)
+        using (StreamReader r = new StreamReader(@"..\..\..\ItemDatabase\itemlist.json"))
+        {
+            string json = r.ReadToEnd();
+            List<JsonItem> items = JsonConvert.DeserializeObject<List<JsonItem>>(json);
+
+            foreach (var item in items)
+            {
+                if (csvLootTable.ContainsKey(item.ItemId))
                 {
-                    readHeaderRow = true;
-                    continue;
+                    if (csvLootTable[item.ItemId].InstanceName != item.Zone)
+                        csvLootTable[item.ItemId].InstanceName += $"/{item.Zone}";
+                    if (csvLootTable[item.ItemId].SourceName != item.AcquisitionName)
+                        csvLootTable[item.ItemId].SourceName += $"/{item.AcquisitionName}";
                 }
-
-                Regex CSVParser = new Regex(",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))");
-                var values = CSVParser.Split(line ?? string.Empty);
-
-                if (values != null)
+                else
                 {
-                    var itemId = Int32.Parse(values[4]);
-
-                    if (csvLootTable.ContainsKey(itemId))
+                    if (item.Acquisitions == "Boss")
                     {
-                        if (csvLootTable[itemId].InstanceName != values[0])
-                            csvLootTable[itemId].InstanceName += $"/{values[0]}";
-                        if (csvLootTable[itemId].SourceName != values[1])
-                            csvLootTable[itemId].SourceName += $"/{values[1]}";
-                    }
-                    else
-                    {
-                        csvLootTable.Add(itemId, new CsvLootTable
+                        csvLootTable.Add(item.ItemId, new CsvLootTable
                         {
-                            ItemId = itemId,
-                            ItemName = values[2],
-                            InstanceName = values[0],
-                            SourceName = values[1]
+                            ItemId = item.ItemId,
+                            SourceType = "Drop",
+                            ItemName = item.Name,
+                            InstanceName = item.Zone,
+                            SourceName = item.AcquisitionName,
+                        });
+                    }
+                    else if (item.Acquisitions == "Quest")
+                    {
+                        csvLootTable.Add(item.ItemId, new CsvLootTable
+                        {
+                            ItemId = item.ItemId,
+                            SourceType = "Quest",
+                            ItemName = item.Name,
+                            InstanceName = item.Zone,
+                            SourceName = item.AcquisitionName,
                         });
                     }
                 }
@@ -214,7 +232,7 @@ public partial class WowheadReader : Window
             {
                 tokenKeys.Add(tierPiece.Value.Item1);
             }
-            if (itemSources.ContainsKey(tierPiece.Key))
+            if (itemSources.ContainsKey(tierPiece.Key) && !csvLootTable.ContainsKey(tierPiece.Key))
             {
                 csvLootTable.Add(tierPiece.Key, new CsvLootTable
                 {
@@ -233,7 +251,7 @@ public partial class WowheadReader : Window
             {
                 transmuteKeys.Add(transmutePiece.Key);
             }
-            if (itemSources.ContainsKey(transmutePiece.Key) && csvLootTable.ContainsKey(transmutePiece.Value.Item1))
+            if (itemSources.ContainsKey(transmutePiece.Key) && csvLootTable.ContainsKey(transmutePiece.Value.Item1) && !csvLootTable.ContainsKey(transmutePiece.Key))
             {
                 csvLootTable.Add(transmutePiece.Key, new CsvLootTable
                 {
@@ -247,25 +265,19 @@ public partial class WowheadReader : Window
 
         foreach (var itemSource in itemSources)
         {
-            var sourceType = "Drop";
-            if (tokenKeys.Contains(itemSource.Key))
-            {
-                sourceType = "Token";
-            } else if (transmuteKeys.Contains(itemSource.Key))
-            {
-                sourceType = "Transmute";
-            }
-
-            if (itemSource.Value.SourceType == "Classic" || itemSource.Value.SourceType == "TBC")
-            {
-                itemSource.Value.SourceType = itemSource.Value.SourceType;
-                itemSource.Value.Source = "";
-                itemSource.Value.SourceNumber = "";
-                itemSource.Value.SourceLocation = "";
-            }
-            else if (csvLootTable.ContainsKey(itemSource.Key))
+            if (csvLootTable.ContainsKey(itemSource.Key))
             {
                 var csvItem = csvLootTable[itemSource.Key];
+                var sourceType = csvItem.SourceType;
+                if (tokenKeys.Contains(itemSource.Key))
+                {
+                    sourceType = "Token";
+                }
+                else if (transmuteKeys.Contains(itemSource.Key))
+                {
+                    sourceType = "Transmute";
+                }
+
                 itemSource.Value.SourceType = sourceType;
                 itemSource.Value.Source = csvItem.SourceName.Trim().Trim('"');
                 itemSource.Value.SourceNumber = "";
