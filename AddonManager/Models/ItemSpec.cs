@@ -174,6 +174,8 @@ public class ItemSpec
         new (" Morb", ""),
         new (" Belowcap", ""),
         new (" Utility", ""),
+        new (" 10-man", ""),
+        new (" 25-man", ""),
 
         new ("Alt Alt", "Alt"),
         new ("Temporary  Alt", "Alt"),

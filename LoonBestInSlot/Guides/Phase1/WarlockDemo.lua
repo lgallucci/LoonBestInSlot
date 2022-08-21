@@ -20,8 +20,8 @@ LBIS:AddItem(spec, "39284", LBIS.L["Shoulder"], "Alt") --Miasma Mantle
 LBIS:AddItem(spec, "37196", LBIS.L["Shoulder"], "Alt") --Runecaster's Mantle
 LBIS:AddItem(spec, "39499", LBIS.L["Shoulder"], "Alt") --Heroes' Plagueheart Shoulderpads
 
-LBIS:AddItem(spec, "40405", LBIS.L["Back"], "BISSupport") --Cape of the Unworthy Wizard
-LBIS:AddItem(spec, "44005", LBIS.L["Back"], "BISPersonal") --Pennant Cloak
+LBIS:AddItem(spec, "40405", LBIS.L["Back"], "BIS") --Cape of the Unworthy Wizard
+LBIS:AddItem(spec, "44005", LBIS.L["Back"], "BIS") --Pennant Cloak
 LBIS:AddItem(spec, "40723", LBIS.L["Back"], "Alt") --Disguise of the Kumiho
 LBIS:AddItem(spec, "40253", LBIS.L["Back"], "Alt") --Shawl of the Old Maid
 LBIS:AddItem(spec, "42066", LBIS.L["Back"], "Alt") --Deadly Gladiator's Cloak of Deliverance
@@ -56,15 +56,15 @@ LBIS:AddItem(spec, "39735", LBIS.L["Waist"], "Alt") --Belt of False Dignity
 LBIS:AddItem(spec, "41880", LBIS.L["Waist"], "Alt") --Deadly Gladiator's Cord of Salvation
 LBIS:AddItem(spec, "44309", LBIS.L["Waist"], "Alt") --Sash of Jordan
 LBIS:AddItem(spec, "40271", LBIS.L["Waist"], "Alt") --Sash of Solitude
-LBIS:AddItem(spec, "40301", LBIS.L["Waist"], "AltPersonal") --Cincture of Polarity
+LBIS:AddItem(spec, "40301", LBIS.L["Waist"], "Alt") --Cincture of Polarity
 LBIS:AddItem(spec, "39190", LBIS.L["Waist"], "Alt") --Agonal Sash
 LBIS:AddItem(spec, "37408", LBIS.L["Waist"], "Alt") --Girdle of Bane
 
-LBIS:AddItem(spec, "40398", LBIS.L["Legs"], "BISSupport") --Leggings of Mortal Arrogance
-LBIS:AddItem(spec, "40376", LBIS.L["Legs"], "BISBalanced") --Legwraps of the Defeated Dragon
+LBIS:AddItem(spec, "40398", LBIS.L["Legs"], "BIS") --Leggings of Mortal Arrogance
+LBIS:AddItem(spec, "40376", LBIS.L["Legs"], "BIS") --Legwraps of the Defeated Dragon
 LBIS:AddItem(spec, "40060", LBIS.L["Legs"], "Alt") --Distorted Limbs
 LBIS:AddItem(spec, "39408", LBIS.L["Legs"], "Alt") --Leggings of Sapphiron
-LBIS:AddItem(spec, "40560", LBIS.L["Legs"], "BISPersonal") --Leggings of the Wanton Spellcaster
+LBIS:AddItem(spec, "40560", LBIS.L["Legs"], "BIS") --Leggings of the Wanton Spellcaster
 LBIS:AddItem(spec, "39309", LBIS.L["Legs"], "Alt") --Leggings of the Instructor
 LBIS:AddItem(spec, "40422", LBIS.L["Legs"], "Alt") --Valorous Plagueheart Leggings
 
@@ -87,9 +87,9 @@ LBIS:AddItem(spec, "40374", LBIS.L["Neck"], "Alt") --Cosmic Lights
 LBIS:AddItem(spec, "42032", LBIS.L["Neck"], "Alt") --Deadly Gladiator's Pendant of Deliverance
 LBIS:AddItem(spec, "40680", LBIS.L["Neck"], "Alt") --Encircling Burnished Gold Chains
 
-LBIS:AddItem(spec, "40080", LBIS.L["Ring"], "BISSupport") --Lost Jewel
+LBIS:AddItem(spec, "40080", LBIS.L["Ring"], "BIS") --Lost Jewel
 LBIS:AddItem(spec, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
-LBIS:AddItem(spec, "40399", LBIS.L["Ring"], "BISPersonal") --Signet of Manifested Pain
+LBIS:AddItem(spec, "40399", LBIS.L["Ring"], "BIS") --Signet of Manifested Pain
 LBIS:AddItem(spec, "39250", LBIS.L["Ring"], "Alt") --Ring of Holy Cleansing
 LBIS:AddItem(spec, "39231", LBIS.L["Ring"], "Alt") --Timeworn Silken Band
 LBIS:AddItem(spec, "42644", LBIS.L["Ring"], "Alt") --Titanium Spellshock Ring
@@ -102,9 +102,9 @@ LBIS:AddItem(spec, "40585", LBIS.L["Ring"], "Alt") --Signet of the Kirin Tor
 LBIS:AddItem(spec, "40108", LBIS.L["Ring"], "Alt") --Seized Beauty
 
 LBIS:AddItem(spec, "40255", LBIS.L["Trinket"], "BIS") --Dying Curse
-LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "BISPersonal") --Illustration of the Dragon Soul
-LBIS:AddItem(spec, "40682", LBIS.L["Trinket"], "BISSupport") --Sundial of the Exiled
-LBIS:AddItem(spec, "49076", LBIS.L["Trinket"], "BISSupport") --Mithril Pocketwatch
+LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Dragon Soul
+LBIS:AddItem(spec, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exiled
+LBIS:AddItem(spec, "49076", LBIS.L["Trinket"], "BIS") --Mithril Pocketwatch
 LBIS:AddItem(spec, "42395", LBIS.L["Trinket"], "Alt") --Figurine - Twilight Serpent
 LBIS:AddItem(spec, "39229", LBIS.L["Trinket"], "Alt") --Embrace of the Spider
 

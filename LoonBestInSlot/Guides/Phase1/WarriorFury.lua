@@ -6,7 +6,7 @@ LBIS:AddItem(spec, "39605", LBIS.L["Head"], "Alt") --Heroes' Dreadnaught Helmet
 LBIS:AddItem(spec, "41386", LBIS.L["Head"], "Alt") --Spiked Titansteel Helm
 
 LBIS:AddItem(spec, "40530", LBIS.L["Shoulder"], "BIS") --Valorous Dreadnaught Shoulderplates
-LBIS:AddItem(spec, "40185", LBIS.L["Shoulder"], "BIS (Non Tier)") --Shoulderguards of Opportunity
+LBIS:AddItem(spec, "40185", LBIS.L["Shoulder"], "BIS") --Shoulderguards of Opportunity
 LBIS:AddItem(spec, "39608", LBIS.L["Shoulder"], "Alt") --Heroes' Dreadnaught Shoulderplates
 LBIS:AddItem(spec, "44195", LBIS.L["Shoulder"], "Alt") --Spaulders of the Giant Lords
 
@@ -44,13 +44,13 @@ LBIS:AddItem(spec, "40742", LBIS.L["Feet"], "Alt") --Bladed Steelboots
 
 LBIS:AddItem(spec, "44664", LBIS.L["Neck"], "BIS") --Favor of the Dragon Queen
 LBIS:AddItem(spec, "44659", LBIS.L["Neck"], "Alt") --Pendant of the Dragonsworn
-LBIS:AddItem(spec, "40065", LBIS.L["Neck"], "option") --Fool's Trial
+LBIS:AddItem(spec, "40065", LBIS.L["Neck"], "Alt") --Fool's Trial
 LBIS:AddItem(spec, "37397", LBIS.L["Neck"], "Alt") --Gold Amulet of Kings
 
 LBIS:AddItem(spec, "40717", LBIS.L["Ring"], "BIS") --Ring of Invincibility
 LBIS:AddItem(spec, "43993", LBIS.L["Ring"], "BIS") --Greatring of Collision
 LBIS:AddItem(spec, "40474", LBIS.L["Ring"], "Alt") --Surge Needle Ring
-LBIS:AddItem(spec, "40075", LBIS.L["Ring"], "Expertise Alt") --Ruthlessness
+LBIS:AddItem(spec, "40075", LBIS.L["Ring"], "Alt") --Ruthlessness
 LBIS:AddItem(spec, "37642", LBIS.L["Ring"], "BIS") --Hemorrhaging Circle
 
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
@@ -62,7 +62,7 @@ LBIS:AddItem(spec, "37166", LBIS.L["Trinket"], "BIS") --Sphere of Red Dragon's B
 
 LBIS:AddItem(spec, "40384", LBIS.L["Two Hand"], "BIS") --Betrayer of Humanity
 LBIS:AddItem(spec, "40406", LBIS.L["Two Hand"], "Alt") --Inevitable Defeat
-LBIS:AddItem(spec, "39417", LBIS.L["Two Hand"], "10M BIS") --Death's Bite
+LBIS:AddItem(spec, "39417", LBIS.L["Two Hand"], "BIS") --Death's Bite
 LBIS:AddItem(spec, "40343", LBIS.L["Two Hand"], "Alt") --Armageddon
 LBIS:AddItem(spec, "37852", LBIS.L["Two Hand"], "Alt") --Colossal Skull-Clad Cleaver
 

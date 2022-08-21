@@ -3,85 +3,85 @@ local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "1")
 LBIS:AddItem(spec, "40546", LBIS.L["Head"], "BIS") --Valorous Dreadnaught Greathelm
 LBIS:AddItem(spec, "44006", LBIS.L["Head"], "BIS Thrt") --Obsidian Greathelm
 LBIS:AddItem(spec, "40328", LBIS.L["Head"], "Alt") --Helm of Vital Protection
-LBIS:AddItem(spec, "39610", LBIS.L["Head"], "BIS 10-man") --Heroes' Dreadnaught Greathelm
+LBIS:AddItem(spec, "39610", LBIS.L["Head"], "BIS") --Heroes' Dreadnaught Greathelm
 LBIS:AddItem(spec, "42549", LBIS.L["Head"], "BIS") --Armored Titanium Goggles
 LBIS:AddItem(spec, "41387", LBIS.L["Head"], "BIS") --Tempered Titansteel Helm
 LBIS:AddItem(spec, "39395", LBIS.L["Head"], "Alt") --Thane's Tainted Greathelm
 
 LBIS:AddItem(spec, "39704", LBIS.L["Shoulder"], "BIS") --Pauldrons of Unnatural Death
-LBIS:AddItem(spec, "40548", LBIS.L["Shoulder"], "T7 25-man") --Valorous Dreadnaught Pauldrons
-LBIS:AddItem(spec, "44312", LBIS.L["Shoulder"], "Expensive") --Wapach's Spaulders of Solidarity
+LBIS:AddItem(spec, "40548", LBIS.L["Shoulder"], "Alt") --Valorous Dreadnaught Pauldrons
+LBIS:AddItem(spec, "44312", LBIS.L["Shoulder"], "Alt") --Wapach's Spaulders of Solidarity
 LBIS:AddItem(spec, "40334", LBIS.L["Shoulder"], "Alt") --Burdened Shoulderplates
-LBIS:AddItem(spec, "39267", LBIS.L["Shoulder"], "BIS 10-man") --Abomination Shoulderblades
-LBIS:AddItem(spec, "39613", LBIS.L["Shoulder"], "T7 10-man") --Heroes' Dreadnaught Pauldrons
+LBIS:AddItem(spec, "39267", LBIS.L["Shoulder"], "BIS") --Abomination Shoulderblades
+LBIS:AddItem(spec, "39613", LBIS.L["Shoulder"], "Alt") --Heroes' Dreadnaught Pauldrons
 
 LBIS:AddItem(spec, "40252", LBIS.L["Back"], "BIS") --Cloak of the Shadowed Sun
 LBIS:AddItem(spec, "40410", LBIS.L["Back"], "Alt") --Shadow of the Ghoul
 LBIS:AddItem(spec, "40722", LBIS.L["Back"], "Alt") --Platinum Mesh Cloak
-LBIS:AddItem(spec, "43988", LBIS.L["Back"], "BIS 10-man") --Gale-Proof Cloak
+LBIS:AddItem(spec, "43988", LBIS.L["Back"], "BIS") --Gale-Proof Cloak
 
 LBIS:AddItem(spec, "40544", LBIS.L["Chest"], "BIS") --Valorous Dreadnaught Breastplate
 LBIS:AddItem(spec, "44000", LBIS.L["Chest"], "Alt") --Dragonstorm Breastplate
-LBIS:AddItem(spec, "39767", LBIS.L["Chest"], "Enormous  Rating") --Undiminished Battleplate
-LBIS:AddItem(spec, "40203", LBIS.L["Chest"], "Def +") --Breastplate of Tormented Rage
-LBIS:AddItem(spec, "39398", LBIS.L["Chest"], "BIS 10-man") --Massive Skeletal Ribcage
+LBIS:AddItem(spec, "39767", LBIS.L["Chest"], "Alt") --Undiminished Battleplate
+LBIS:AddItem(spec, "40203", LBIS.L["Chest"], "Alt Mit") --Breastplate of Tormented Rage
+LBIS:AddItem(spec, "39398", LBIS.L["Chest"], "BIS") --Massive Skeletal Ribcage
 LBIS:AddItem(spec, "40279", LBIS.L["Chest"], "Alt") --Chestguard of the Exhausted
 LBIS:AddItem(spec, "39611", LBIS.L["Chest"], "BIS") --Heroes' Dreadnaught Breastplate
 
 LBIS:AddItem(spec, "39764", LBIS.L["Wrist"], "BIS") --Bindings of the Hapless Prey
 LBIS:AddItem(spec, "40734", LBIS.L["Wrist"], "Alt") --Bracers of Dalaran's Parapets
 LBIS:AddItem(spec, "40306", LBIS.L["Wrist"], "Alt") --Bracers of the Unholy Knight
-LBIS:AddItem(spec, "39467", LBIS.L["Wrist"], "BIS 10-man") --Minion Bracers
+LBIS:AddItem(spec, "39467", LBIS.L["Wrist"], "BIS") --Minion Bracers
 
 LBIS:AddItem(spec, "40545", LBIS.L["Hands"], "BIS") --Valorous Dreadnaught Handguards
 LBIS:AddItem(spec, "40188", LBIS.L["Hands"], "Alt") --Gauntlets of the Disobedient
 LBIS:AddItem(spec, "37645", LBIS.L["Hands"], "BIS") --Horn-Tipped Gauntlets
-LBIS:AddItem(spec, "39622", LBIS.L["Hands"], "BIS 10-man") --Heroes' Dreadnaught Handguards
+LBIS:AddItem(spec, "39622", LBIS.L["Hands"], "BIS") --Heroes' Dreadnaught Handguards
 LBIS:AddItem(spec, "39726", LBIS.L["Hands"], "Alt") --Callous-Hearted Gauntlets
 
 LBIS:AddItem(spec, "39759", LBIS.L["Waist"], "BIS") --Ablative Chitin Girdle
-LBIS:AddItem(spec, "39298", LBIS.L["Waist"], "BIS 10-man") --Waistguard of the Tutor
+LBIS:AddItem(spec, "39298", LBIS.L["Waist"], "BIS") --Waistguard of the Tutor
 LBIS:AddItem(spec, "40263", LBIS.L["Waist"], "Alt") --Fleshless Girdle
 
 LBIS:AddItem(spec, "40589", LBIS.L["Legs"], "BIS") --Legplates of Sovereignty
 LBIS:AddItem(spec, "40547", LBIS.L["Legs"], "Alt") --Valorous Dreadnaught Legguards
 LBIS:AddItem(spec, "40446", LBIS.L["Legs"], "Alt") --Dragon Brood Legguards
-LBIS:AddItem(spec, "39258", LBIS.L["Legs"], "BIS 10-man") --Legplates of Inescapable Death
+LBIS:AddItem(spec, "39258", LBIS.L["Legs"], "BIS") --Legplates of Inescapable Death
 LBIS:AddItem(spec, "40240", LBIS.L["Legs"], "Alt") --Greaves of Turbulence
-LBIS:AddItem(spec, "39612", LBIS.L["Legs"], "10-man T7") --Heroes' Dreadnaught Legguards
+LBIS:AddItem(spec, "39612", LBIS.L["Legs"], "Alt") --Heroes' Dreadnaught Legguards
 LBIS:AddItem(spec, "43500", LBIS.L["Legs"], "BIS") --Bolstered Legplates
 
 LBIS:AddItem(spec, "39717", LBIS.L["Feet"], "BIS") --Inexorable Sabatons
-LBIS:AddItem(spec, "40297", LBIS.L["Feet"], "Highest Mit") --Sabatons of Endurance
+LBIS:AddItem(spec, "40297", LBIS.L["Feet"], "Alt Mit") --Sabatons of Endurance
 LBIS:AddItem(spec, "40743", LBIS.L["Feet"], "Alt") --Kyzoc's Ground Stompers
-LBIS:AddItem(spec, "39234", LBIS.L["Feet"], "BIS 10-man") --Plague-Impervious Boots
+LBIS:AddItem(spec, "39234", LBIS.L["Feet"], "BIS") --Plague-Impervious Boots
 
 LBIS:AddItem(spec, "40387", LBIS.L["Neck"], "BIS") --Boundless Ambition
 LBIS:AddItem(spec, "44665", LBIS.L["Neck"], "Alt") --Nexus War Champion Beads
-LBIS:AddItem(spec, "42646", LBIS.L["Neck"], "Expensive") --Titanium Earthguard Chain
-LBIS:AddItem(spec, "39246", LBIS.L["Neck"], "BIS 10-man") --Amulet of Autopsy
+LBIS:AddItem(spec, "42646", LBIS.L["Neck"], "Alt") --Titanium Earthguard Chain
+LBIS:AddItem(spec, "39246", LBIS.L["Neck"], "BIS") --Amulet of Autopsy
 LBIS:AddItem(spec, "40069", LBIS.L["Neck"], "Alt") --Heritage
 LBIS:AddItem(spec, "44660", LBIS.L["Neck"], "Alt") --Drakescale Collar
 LBIS:AddItem(spec, "39470", LBIS.L["Neck"], "Alt") --Medallion of the Disgraced
 
 LBIS:AddItem(spec, "40370", LBIS.L["Ring"], "BIS") --Gatekeeper
-LBIS:AddItem(spec, "40718", LBIS.L["Ring"], "Highest Mit") --Signet of the Impregnable Fortress
+LBIS:AddItem(spec, "40718", LBIS.L["Ring"], "Alt Mit") --Signet of the Impregnable Fortress
 LBIS:AddItem(spec, "37784", LBIS.L["Ring"], "BIS") --Keystone Great-Ring
-LBIS:AddItem(spec, "40426", LBIS.L["Ring"], "BIS 10-man") --Signet of the Accord
+LBIS:AddItem(spec, "40426", LBIS.L["Ring"], "BIS") --Signet of the Accord
 LBIS:AddItem(spec, "34213", LBIS.L["Ring"], "Alt") --Ring of Hardened Resolve
 LBIS:AddItem(spec, "40107", LBIS.L["Ring"], "Alt") --Sand-Worn Band
 LBIS:AddItem(spec, "39141", LBIS.L["Ring"], "Alt") --Deflection Band
 
-LBIS:AddItem(spec, "49116", LBIS.L["Trinket"], "170 Stam") --Bitter Balebrew Charm
-LBIS:AddItem(spec, "49118", LBIS.L["Trinket"], "170 Stam") --Bubbling Brightbrew Charm
-LBIS:AddItem(spec, "40257", LBIS.L["Trinket"], "850 Armor + Dodge") --Defender's Code
-LBIS:AddItem(spec, "39292", LBIS.L["Trinket"], "84 Def + HP") --Repelling Charge
+LBIS:AddItem(spec, "49116", LBIS.L["Trinket"], "BIS Stam") --Bitter Balebrew Charm
+LBIS:AddItem(spec, "49118", LBIS.L["Trinket"], "BIS Stam") --Bubbling Brightbrew Charm
+LBIS:AddItem(spec, "40257", LBIS.L["Trinket"], "Alt Mit") --Defender's Code
+LBIS:AddItem(spec, "39292", LBIS.L["Trinket"], "Alt Mit") --Repelling Charge
 
-LBIS:AddItem(spec, "40402", LBIS.L["Main Hand"], "BIS Every Race") --Last Laugh
-LBIS:AddItem(spec, "40264", LBIS.L["Main Hand"], "Human &  Dwarf Equivalent") --Split Greathammer
-LBIS:AddItem(spec, "39344", LBIS.L["Main Hand"], "BIS 10-man") --Slayer of the Lifeless
+LBIS:AddItem(spec, "40402", LBIS.L["Main Hand"], "BIS") --Last Laugh
+LBIS:AddItem(spec, "40264", LBIS.L["Main Hand"], "BIS") --Split Greathammer
+LBIS:AddItem(spec, "39344", LBIS.L["Main Hand"], "BIS") --Slayer of the Lifeless
 LBIS:AddItem(spec, "37401", LBIS.L["Main Hand"], "BIS") --Red Sword of Courage
-LBIS:AddItem(spec, "40345", LBIS.L["Main Hand"], "Slow Alt") --Broken Promise
+LBIS:AddItem(spec, "40345", LBIS.L["Main Hand"], "Alt") --Broken Promise
 
 LBIS:AddItem(spec, "40400", LBIS.L["Shield"], "BIS") --Wall of Terror
 LBIS:AddItem(spec, "40475", LBIS.L["Shield"], "Alt") --Barricade of Eternity
