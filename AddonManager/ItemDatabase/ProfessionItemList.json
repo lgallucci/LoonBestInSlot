@@ -1,0 +1,2822 @@
+[
+    {
+        "name": "Indestructible Alchemist's Stone",
+        "ilvl": 200,
+        "rarity": "rare",
+        "bind": "bop",
+        "slot": "trinket",
+        "unique": true,
+        "primary_stats": {
+            "stamina": 75
+        },
+        "other_stats": {
+            "min_level": 75,
+            "requirement": "Alchemy (400)",
+            "materials": [
+                "Deadnettle (20)",
+                "Pygmy Oil (12)",
+                "Frost Lotus (1)"
+            ]
+        },
+        "secondary_stats": {
+            "dodge": 50,
+            "equip_1": "Increases the effect that healing and mana potions have on the wearer by 40%. This effect does not stack."
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Alchemy",
+        "sourceType": "Trainer (400)"
+    },
+    {
+        "name": "Mercurial Alchemist Stone",
+        "ilvl": 200,
+        "rarity": "rare",
+        "bind": "bop",
+        "slot": "trinket",
+        "unique": true,
+        "other_stats": {
+            "min_level": 75,
+            "requirement": "Alchemy (400)",
+            "materials": [
+                "Goldclover (20)",
+                "Eternal Life (2)",
+                "Frost Lotus (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 59,
+            "haste": 50,
+            "equip_1": "Increases the effect that healing and mana potions have on the wearer by 40%. This effect does not stack."
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Alchemy",
+        "sourceType": "Trainer (400)"
+    },
+    {
+        "name": "Mighty Alchemist's Stone",
+        "ilvl": 200,
+        "rarity": "rare",
+        "bind": "bop",
+        "slot": "trinket",
+        "unique": true,
+        "other_stats": {
+            "min_level": 75,
+            "requirement": "Alchemy (400)",
+            "materials": [
+                "Adder's Tongue (15)",
+                "Tiger Lily (15)",
+                "Frost Lotus (1)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 100,
+            "crit": 50,
+            "equip_1": "Increases the effect that healing and mana potions have on the wearer by 40%. This effect does not stack."
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Alchemy",
+        "sourceType": "Trainer (400)"
+    },
+    {
+        "name": "Spiked Titansteel Helm",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "head",
+        "type": "plate",
+        "unique": false,
+        "special_stats": {
+            "armor": 1821
+        },
+        "primary_stats": {
+            "strength": 97
+        },
+        "sockets": {
+            "socket_colors": [
+                "meta",
+                "blue"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "8 Critical Strike Rating"
+        },
+        "other_stats": {
+            "durability": 100,
+            "min_level": 80,
+            "materials": [
+                "Saronite Bar (4)",
+                "Titansteel Bar (4)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "crit": 44,
+            "hit": 60
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Spiked Titansteel Treads",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "feet",
+        "type": "plate",
+        "unique": false,
+        "special_stats": {
+            "armor": 1541
+        },
+        "primary_stats": {
+            "strength": 80,
+            "stamina": 67
+        },
+        "other_stats": {
+            "durability": 75,
+            "min_level": 80,
+            "materials": [
+                "Saronite Bar (4)",
+                "Titansteel Bar (3)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "crit": 35
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Tempered Titansteel Helm",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "head",
+        "type": "plate",
+        "unique": false,
+        "special_stats": {
+            "armor": 1821
+        },
+        "primary_stats": {
+            "strength": 61,
+            "stamina": 162
+        },
+        "sockets": {
+            "socket_colors": [
+                "meta",
+                "blue"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "8 Defense Rating"
+        },
+        "other_stats": {
+            "durability": 100,
+            "min_level": 80,
+            "materials": [
+                "Saronite Bar (4)",
+                "Titansteel Bar (4)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "defense": 46
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Tempered Titansteel Treads",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "feet",
+        "type": "plate",
+        "unique": false,
+        "special_stats": {
+            "armor": 1541
+        },
+        "primary_stats": {
+            "strength": 45,
+            "stamina": 120
+        },
+        "other_stats": {
+            "durability": 75,
+            "min_level": 80,
+            "materials": [
+                "Saronite Bar (4)",
+                "Titansteel Bar (3)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "defense": 35
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Titansteel Bonecrusher",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "bop",
+        "slot": "main hand",
+        "type": "mace",
+        "unique": false,
+        "special_stats": {
+            "weapon_damage": "251 - 467 Damage",
+            "weapon_speed": 2.5,
+            "weapon_dps": 143.6
+        },
+        "primary_stats": {
+            "stamina": 59
+        },
+        "other_stats": {
+            "durability": 105,
+            "min_level": 80,
+            "materials": [
+                "Saronite Bar (6)",
+                "Titansteel Bar (6)",
+                "Frozen Orb (2)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 140,
+            "expertise": 29
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Titansteel Destroyer",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "two-hand",
+        "type": "mace",
+        "unique": false,
+        "special_stats": {
+            "weapon_damage": "507 - 761 Damage",
+            "weapon_speed": 3.4,
+            "weapon_dps": 186.5
+        },
+        "primary_stats": {
+            "strength": 124,
+            "stamina": 105
+        },
+        "other_stats": {
+            "durability": 120,
+            "min_level": 80,
+            "materials": [
+                "Saronite Bar (8)",
+                "Titansteel Bar (8)",
+                "Frozen Orb (2)"
+            ]
+        },
+        "secondary_stats": {
+            "hit": 54,
+            "feral_attack_power": 1843
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Titansteel Guardian",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "main hand",
+        "type": "mace",
+        "unique": false,
+        "special_stats": {
+            "weapon_damage": "99 - 315 Damage",
+            "weapon_speed": 2.5,
+            "weapon_dps": 82.8
+        },
+        "primary_stats": {
+            "stamina": 58
+        },
+        "other_stats": {
+            "durability": 105,
+            "min_level": 80,
+            "materials": [
+                "Saronite Bar (6)",
+                "Titansteel Bar (6)",
+                "Frozen Orb (2)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 457,
+            "crit": 29
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Titansteel Shanker",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "one-hand",
+        "type": "dagger",
+        "unique": true,
+        "special_stats": {
+            "weapon_damage": "183 - 276 Damage",
+            "weapon_speed": 1.6,
+            "weapon_dps": 143.4
+        },
+        "primary_stats": {
+            "stamina": 45
+        },
+        "other_stats": {
+            "durability": 75,
+            "min_level": 80,
+            "materials": [
+                "Saronite Bar (6)",
+                "Titansteel Bar (6)",
+                "Frozen Orb (2)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 106,
+            "crit": 23
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Titansteel Shield Wall",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "off hand",
+        "type": "shield",
+        "unique": false,
+        "special_stats": {
+            "armor": 7530,
+            "block": 211
+        },
+        "primary_stats": {
+            "strength": 36,
+            "stamina": 69
+        },
+        "other_stats": {
+            "durability": 120,
+            "min_level": 80,
+            "materials": [
+                "Saronite Bar (4)",
+                "Titansteel Bar (3)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "defense": 64
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Titansteel Spellblade",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "main hand",
+        "type": "dagger",
+        "special_stats": {
+            "weapon_damage": "99 - 315 Damage",
+            "weapon_speed": 2.5,
+            "weapon_dps": 82.8
+        },
+        "primary_stats": {
+            "stamina": 34
+        },
+        "other_stats": {
+            "durability": 75,
+            "min_level": 80,
+            "materials": [
+                "Titansteel Bar (6)",
+                "Infinite Dust (6)",
+                "Frozen Orb (2)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 408,
+            "crit": 53,
+            "hit": 30
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Daunting Handguards",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "hands",
+        "type": "plate",
+        "unique": false,
+        "special_stats": {
+            "armor": 1308
+        },
+        "primary_stats": {
+            "strength": 30,
+            "stamina": 60
+        },
+        "other_stats": {
+            "durability": 45,
+            "min_level": 78,
+            "materials": [
+                "Saronite Bar (12)",
+                "Eternal Earth (1)"
+            ]
+        },
+        "secondary_stats": {
+            "defense": 71
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (420)"
+    },
+    {
+        "name": "Daunting Legplates",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "legs",
+        "type": "plate",
+        "unique": false,
+        "special_stats": {
+            "armor": 1831
+        },
+        "primary_stats": {
+            "strength": 54,
+            "stamina": 93
+        },
+        "other_stats": {
+            "durability": 100,
+            "min_level": 78,
+            "materials": [
+                "Saronite Bar (14)",
+                "Eternal Earth (1)"
+            ]
+        },
+        "secondary_stats": {
+            "defense": 88
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (425)"
+    },
+    {
+        "name": "Helm of Command",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "head",
+        "type": "plate",
+        "unique": false,
+        "special_stats": {
+            "armor": 1700
+        },
+        "primary_stats": {
+            "strength": 95
+        },
+        "other_stats": {
+            "durability": 80,
+            "min_level": 78,
+            "materials": [
+                "Saronite Bar (14)",
+                "Eternal Fire (1)"
+            ]
+        },
+        "secondary_stats": {
+            "haste": 41,
+            "crit": 55
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (425)"
+    },
+    {
+        "name": "Ornate Saronite Pauldrons",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "shoulder",
+        "type": "plate",
+        "unique": false,
+        "special_stats": {
+            "armor": 1570
+        },
+        "primary_stats": {
+            "intellect": 34,
+            "stamina": 51
+        },
+        "other_stats": {
+            "durability": 80,
+            "min_level": 78,
+            "materials": [
+                "Saronite Bar (12)",
+                "Eternal Water (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 60,
+            "crit": 34,
+            "resilience": 34
+        },
+        "set": "Ornate Saronite Battlegear",
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (420)"
+    },
+    {
+        "name": "Savage Saronite Bracers",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "wrist",
+        "type": "plate",
+        "unique": false,
+        "special_stats": {
+            "armor": 916
+        },
+        "primary_stats": {
+            "strength": 37,
+            "stamina": 48
+        },
+        "other_stats": {
+            "durability": 45,
+            "min_level": 78,
+            "materials": [
+                "Saronite Bar (12)",
+                "Eternal Air (1)"
+            ]
+        },
+        "secondary_stats": {
+            "crit": 24,
+            "resilience": 33
+        },
+        "set": "Savage Saronite Battlegear",
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (420)"
+    },
+    {
+        "name": "Savage Saronite Waistguard",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "waist",
+        "type": "plate",
+        "unique": false,
+        "special_stats": {
+            "armor": 1177
+        },
+        "primary_stats": {
+            "strength": 44,
+            "stamina": 40
+        },
+        "other_stats": {
+            "durability": 45,
+            "min_level": 78,
+            "materials": [
+                "Saronite Bar (12)",
+                "Eternal Water (1)"
+            ]
+        },
+        "secondary_stats": {
+            "crit": 43,
+            "resilience": 52
+        },
+        "set": "Savage Saronite Battlegear",
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (420)"
+    },
+    {
+        "name": "Savage Saronite Walkers",
+        "ilvl": 197,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "feet",
+        "type": "plate",
+        "unique": false,
+        "special_stats": {
+            "armor": 1439
+        },
+        "primary_stats": {
+            "strength": 27,
+            "stamina": 57
+        },
+        "other_stats": {
+            "durability": 65,
+            "min_level": 78,
+            "materials": [
+                "Saronite Bar (12)",
+                "Eternal Shadow (1)"
+            ]
+        },
+        "secondary_stats": {
+            "crit": 52,
+            "resilience": 47
+        },
+        "set": "Savage Saronite Battlegear",
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (420)"
+    },
+    {
+        "name": "Vengeance Bindings",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "wrist",
+        "type": "plate",
+        "unique": false,
+        "special_stats": {
+            "armor": 916
+        },
+        "primary_stats": {
+            "strength": 53
+        },
+        "other_stats": {
+            "durability": 45,
+            "min_level": 78,
+            "materials": [
+                "Saronite Bar (12)",
+                "Eternal Fire (1)"
+            ]
+        },
+        "secondary_stats": {
+            "crit": 30,
+            "hit": 23
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Blacksmithing",
+        "sourceType": "Trainer (420)"
+    },
+    {
+        "name": "Armor Plated Combat Shotgun",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "ranged",
+        "type": "gun",
+        "unique": false,
+        "special_stats": {
+            "weapon_damage": "181 - 337 Damage",
+            "weapon_speed": 2,
+            "weapon_dps": 129.5
+        },
+        "primary_stats": {
+            "stamina": 42
+        },
+        "sockets": {
+            "socket_colors": [
+                "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+        },
+        "other_stats": {
+            "durability": 90,
+            "min_level": 80,
+            "materials": [
+                "Titanium Bar (10)",
+                "Saronite Bar (20)",
+                "Eternal Air (15)",
+                "Eternal Water (15)",
+                "Frozen Orb (1)",
+                "Walnut Stock (1)"
+            ]
+        },
+        "secondary_stats": {
+            "hit": 18,
+            "defense": 21
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Engineering",
+        "sourceType": "Trainer (450)"
+    },
+    {
+        "name": "Armored Titanium Goggles",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "bop",
+        "slot": "head",
+        "type": "plate",
+        "unique": false,
+        "special_stats": {
+            "armor": 1821
+        },
+        "primary_stats": {
+            "strength": 73,
+            "stamina": 111
+        },
+        "sockets": {
+            "socket_colors": [
+                "meta",
+                "yellow"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "8 Expertise Rating"
+        },
+        "other_stats": {
+            "durability": 100,
+            "min_level": 72,
+            "requirement": "Engineering (400)",
+            "materials": [
+                "Titanium Bar (8)",
+                "Heavy Borean Leather (4)",
+                "Sky Sapphire (2)",
+                "Eternal Earth (4)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "expertise": 43,
+            "defense": 60,
+            "use_1": "Allows you to look far into the distance."
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Engineering",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Charged Titanium Specs",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "bop",
+        "slot": "head",
+        "type": "plate",
+        "unique": false,
+        "special_stats": {
+            "armor": 1821
+        },
+        "primary_stats": {
+            "strength": 75,
+            "stamina": 109
+        },
+        "sockets": {
+            "socket_colors": [
+                "meta",
+                "yellow"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "8 Critical Strike Rating"
+        },
+        "other_stats": {
+            "durability": 100,
+            "min_level": 72,
+            "requirement": "Engineering (400)",
+            "materials": [
+                "Titanium Bar (8)",
+                "Heavy Borean Leather (4)",
+                "Monarch Topaz (2)",
+                "Eternal Fire (4)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "crit": 72,
+            "use_1": "Allows you to look far into the distance."
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Engineering",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Electroflux Sight Enhancers",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "bop",
+        "slot": "head",
+        "type": "mail",
+        "unique": false,
+        "special_stats": {
+            "armor": 1019
+        },
+        "primary_stats": {
+            "intellect": 60,
+            "stamina": 55
+        },
+        "sockets": {
+            "socket_colors": [
+                "meta",
+                "yellow"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "8 Critical Strike Rating"
+        },
+        "other_stats": {
+            "durability": 85,
+            "min_level": 72,
+            "requirement": "Engineering (400)",
+            "materials": [
+                "Titanium Bar (8)",
+                "Heavy Borean Leather (4)",
+                "Autumn's Glow (2)",
+                "Eternal Air (4)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 87,
+            "crit": 73,
+            "use_1": "Allows you to look far into the distance."
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Engineering",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Greensight Gogs",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "bop",
+        "slot": "head",
+        "type": "leather",
+        "unique": false,
+        "special_stats": {
+            "armor": 458
+        },
+        "primary_stats": {
+            "intellect": 60,
+            "stamina": 55
+        },
+        "sockets": {
+            "socket_colors": [
+                "meta",
+                "yellow"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "8 Critical Strike Rating"
+        },
+        "other_stats": {
+            "durability": 70,
+            "min_level": 72,
+            "requirement": "Engineering (400)",
+            "materials": [
+                "Titanium Bar (8)",
+                "Heavy Borean Leather (4)",
+                "Forest Emerald (2)",
+                "Eternal Life (4)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 87,
+            "crit": 73,
+            "use_1": "Allows you to look far into the distance."
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Engineering",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Nesingwary 4000",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "ranged",
+        "type": "gun",
+        "unique": false,
+        "special_stats": {
+            "weapon_damage": "254 - 472 Damage",
+            "weapon_speed": 2.8,
+            "weapon_dps": 129.6
+        },
+        "sockets": {
+            "socket_colors": [
+                "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "8 Attack Power"
+        },
+        "other_stats": {
+            "durability": 90,
+            "min_level": 80,
+            "materials": [
+                "Titanium Bar (10)",
+                "Frozen Orb (1)",
+                "Eternal Fire (12)",
+                "Eternal Shadow (12)",
+                "Sun Scope (3)",
+                "Walnut Stock (1)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 78,
+            "crit": 21
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Engineering",
+        "sourceType": "Trainer (450)"
+    },
+    {
+        "name": "Truesight Ice Blinders",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "bop",
+        "slot": "head",
+        "type": "mail",
+        "unique": false,
+        "special_stats": {
+            "armor": 1019
+        },
+        "primary_stats": {
+            "agility": 74,
+            "intellect": 42,
+            "stamina": 90
+        },
+        "sockets": {
+            "socket_colors": [
+                "meta",
+                "yellow"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "8 Critical Strike Rating"
+        },
+        "other_stats": {
+            "durability": 85,
+            "min_level": 72,
+            "requirement": "Engineering (400)",
+            "materials": [
+                "Titanium Bar (8)",
+                "Heavy Borean Leather (4)",
+                "Twilight Opal (2)",
+                "Eternal Water (4)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 120,
+            "crit": 44,
+            "use_1": "Allows you to look far into the distance."
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Engineering",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Unbreakable Healing Amplifiers",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "bop",
+        "slot": "head",
+        "type": "plate",
+        "unique": false,
+        "special_stats": {
+            "armor": 1821
+        },
+        "primary_stats": {
+            "intellect": 60,
+            "stamina": 55
+        },
+        "sockets": {
+            "socket_colors": [
+                "meta",
+                "yellow"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "9 Spell Power"
+        },
+        "other_stats": {
+            "durability": 100,
+            "min_level": 72,
+            "requirement": "Engineering (400)",
+            "materials": [
+                "Titanium Bar (8)",
+                "Heavy Borean Leather (4)",
+                "Forest Emerald (2)",
+                "Eternal Earth (4)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 87,
+            "crit": 73,
+            "use_1": "Allows you to look far into the distance."
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Engineering",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Visage Liquification Goggles",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "bop",
+        "slot": "head",
+        "type": "cloth",
+        "unique": false,
+        "special_stats": {
+            "armor": 244
+        },
+        "primary_stats": {
+            "intellect": 60,
+            "stamina": 55
+        },
+        "sockets": {
+            "socket_colors": [
+                "meta",
+                "yellow"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "8 Critical Strike Rating"
+        },
+        "other_stats": {
+            "durability": 60,
+            "min_level": 72,
+            "requirement": "Engineering (400)",
+            "materials": [
+                "Titanium Bar (8)",
+                "Heavy Borean Leather (4)",
+                "Scarlet Ruby (2)",
+                "Eternal Shadow (4)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 87,
+            "crit": 73,
+            "use_1": "Allows you to look far into the distance."
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Engineering",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Weakness Spectralizers",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "bop",
+        "slot": "head",
+        "type": "leather",
+        "unique": false,
+        "special_stats": {
+            "armor": 458
+        },
+        "primary_stats": {
+            "agility": 73,
+            "stamina": 90
+        },
+        "sockets": {
+            "socket_colors": [
+                "meta",
+                "yellow"
+            ],
+            "meta": 1,
+            "sockets": 1
+        },
+        "other_stats": {
+            "durability": 70,
+            "min_level": 72,
+            "requirement": "Engineering (400)",
+            "materials": [
+                "Titanium Bar (8)",
+                "Heavy Borean Leather (4)",
+                "Scarlet Ruby (2)",
+                "Eternal Air (4)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 148,
+            "crit": 43,
+            "use_1": "Allows you to look far into the distance."
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Engineering",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Sonic Booster",
+        "ilvl": 167,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "trinket",
+        "unique": false,
+        "primary_stats": {
+            "stamina": 81
+        },
+        "other_stats": {
+            "requirement": "Engineering (390)",
+            "materials": [
+                "Froststeel Tube (2)",
+                "Overcharged Capacitor (4)",
+                "Handful of Cobalt Bolts (2)"
+            ]
+        },
+        "secondary_stats": {
+            "equip_1": "The noise made from melee combat sometimes causes Sonic Awareness, increasing your attack power by 430 for 10 sec. This effect can only occur once every minute."
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Engineering",
+        "sourceType": "Trainer (420)"
+    },
+
+    {
+        "name": "The 5 Ring",
+        "ilvl": 206,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "finger",
+        "unique": true,
+        "primary_stats": {
+            "stamina": 55
+        },
+        "other_stats": {
+            "min_level": 80
+        },
+        "secondary_stats": {
+            "crit": 55,
+            "hit": 55,
+            "lore": "This ring appears to have eaten the 3 and 4 rings."
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Fishing",
+        "sourceType": "Tiny Titanium Lockbox",
+        "drop_chance": 0.03
+    },
+    {
+        "name": "Titanium Earthguard Chain",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "neck",
+        "unique": false,
+        "special_stats": {
+            "armor": 350
+        },
+        "primary_stats": {
+            "strength": 49,
+            "stamina": 63
+        },
+        "sockets": {
+            "socket_colors": [
+                "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+        },
+        "other_stats": {
+            "min_level": 80,
+            "materials": [
+                "Titanium Bar (2)",
+                "Dragon's Eye (4)",
+                "Eternal Life (6)",
+                "Eternal Earth (6)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "defense": 34
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "BoP Pattern (440)"
+    },
+    {
+        "name": "Titanium Earthguard Ring",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "finger",
+        "unique": true,
+        "primary_stats": {
+            "strength": 50,
+            "stamina": 63
+        },
+        "sockets": {
+            "socket_colors": [
+                "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Defense Rating"
+        },
+        "other_stats": {
+            "min_level": 80,
+            "materials": [
+                "Titanium Bar (2)",
+                "Dragon's Eye (4)",
+                "Eternal Earth (4)",
+                "Eternal Life (4)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "defense": 25,
+            "dodge": 34
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "BoP Pattern (430)"
+    },
+    {
+        "name": "Titanium Impact Band",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "finger",
+        "unique": true,
+        "primary_stats": {
+            "agility": 33,
+            "stamina": 51
+        },
+        "sockets": {
+            "socket_colors": [
+                "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Armor Penetration Rating"
+        },
+        "other_stats": {
+            "min_level": 80,
+            "materials": [
+                "Titanium Bar (2)",
+                "Dragon's Eye (4)",
+                "Eternal Fire (4)",
+                "Eternal Shadow (4)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 84,
+            "armor_pen": 41
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "BoP Pattern (430)"
+    },
+    {
+        "name": "Titanium Impact Choker",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "neck",
+        "unique": false,
+        "primary_stats": {
+            "agility": 33,
+            "stamina": 51
+        },
+        "sockets": {
+            "socket_colors": [
+                "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+        },
+        "other_stats": {
+            "min_level": 80,
+            "materials": [
+                "Titanium Bar (2)",
+                "Dragon's Eye (4)",
+                "Eternal Air (6)",
+                "Eternal Fire (6)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 84,
+            "armor_pen": 42
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "BoP Pattern (440)"
+    },
+    {
+        "name": "Titanium Spellshock Necklace",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "neck",
+        "unique": false,
+        "primary_stats": {
+            "intellect": 36,
+            "stamina": 43
+        },
+        "sockets": {
+            "socket_colors": [
+                "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Intellect"
+        },
+        "other_stats": {
+            "min_level": 80,
+            "materials": [
+                "Titanium Bar (2)",
+                "Dragon's Eye (4)",
+                "Eternal Shadow (6)",
+                "Eternal Water (6)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 49,
+            "crit": 41
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "BoP Pattern (440)"
+    },
+    {
+        "name": "Titanium Spellshock Ring",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "finger",
+        "unique": true,
+        "primary_stats": {
+            "intellect": 33,
+            "stamina": 48
+        },
+        "sockets": {
+            "socket_colors": [
+                "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "5 Spell Power"
+        },
+        "other_stats": {
+            "min_level": 80,
+            "materials": [
+                "Titanium Bar (2)",
+                "Dragon's Eye (4)",
+                "Eternal Water (4)",
+                "Eternal Air (4)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 49,
+            "crit": 42
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "BoP Pattern (430)"
+    },
+    {
+        "name": "Blood Sun Necklace",
+        "ilvl": 175,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "neck",
+        "sockets": {
+            "socket_colors": [
+                "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "5 Spell Power"
+        },
+        "other_stats": {
+            "min_level": 75,
+            "materials": [
+                "Eternal Earth (1)",
+                "Bloodstone (1)",
+                "Sun Crystal (2)",
+                "Chalcedony (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 40,
+            "haste": 22,
+            "mp5": 15
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "Trainer (380)"
+    },
+    {
+        "name": "Emerald Choker",
+        "ilvl": 200,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "neck",
+        "unique": false,
+        "primary_stats": {
+            "stamina": 64
+        },
+        "other_stats": {
+            "min_level": 80,
+            "materials": [
+                "Titanium Bar (1)",
+                "Forest Emerald (3)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 86,
+            "crit": 28,
+            "resilience": 29
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "Trainer (420)"
+    },
+    {
+        "name": "Figurine - Monarch Crab",
+        "ilvl": 200,
+        "rarity": "rare",
+        "bind": "bop",
+        "slot": "trinket",
+        "unique": true,
+        "primary_stats": {
+            "stamina": 63
+        },
+        "sockets": {
+            "socket_colors": [
+                "blue",
+                "blue"
+            ],
+            "sockets": 2,
+            "socket_bonus": "9 Stamina"
+        },
+        "other_stats": {
+            "min_level": 75,
+            "requirement": "Jewelcrafting (400)",
+            "materials": [
+                "Titanium Bar (2)",
+                "Monarch Topaz (2)",
+                "Forest Emerald (1)"
+            ]
+        },
+        "secondary_stats": {
+            "use_1": "Increases dodge rating by 300 for 10 sec. (1 min cooldown)"
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "Trainer (400)"
+    },
+    {
+        "name": "Figurine - Ruby Hare",
+        "ilvl": 200,
+        "rarity": "rare",
+        "bind": "bop",
+        "slot": "trinket",
+        "unique": true,
+        "primary_stats": {
+            "stamina": 62
+        },
+        "sockets": {
+            "socket_colors": [
+                "red",
+                "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "9 Stamina"
+        },
+        "other_stats": {
+            "min_level": 75,
+            "requirement": "Jewelcrafting (400)",
+            "materials": [
+                "Titanium Bar (2)",
+                "Scarlet Ruby (2)",
+                "Autumn's Glow (1)"
+            ]
+        },
+        "secondary_stats": {
+            "use_1": "Increases speed by 30% for 6 sec. (3 min cooldown)"
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "Trainer (400)"
+    },
+    {
+        "name": "Figurine - Sapphire Owl",
+        "ilvl": 200,
+        "rarity": "rare",
+        "bind": "bop",
+        "slot": "trinket",
+        "unique": true,
+        "primary_stats": {
+            "intellect": 42
+        },
+        "sockets": {
+            "socket_colors": [
+                "blue",
+                "blue"
+            ],
+            "sockets": 2,
+            "socket_bonus": "2 mana per 5 sec."
+        },
+        "other_stats": {
+            "min_level": 75,
+            "requirement": "Jewelcrafting (400)",
+            "materials": [
+                "Titanium Bar (2)",
+                "Sky Sapphire (2)",
+                "Forest Emerald (1)"
+            ]
+        },
+        "secondary_stats": {
+            "use_1": "Restores 2340 mana over 12 sec. (5 min cooldown)"
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "Trainer (400)"
+    },
+    {
+        "name": "Figurine - Twilight Serpent",
+        "ilvl": 200,
+        "rarity": "rare",
+        "bind": "bop",
+        "slot": "trinket",
+        "unique": true,
+        "sockets": {
+            "socket_colors": [
+                "red",
+                "blue"
+            ],
+            "sockets": 2,
+            "socket_bonus": "7 Spell Power"
+        },
+        "other_stats": {
+            "min_level": 75,
+            "requirement": "Jewelcrafting (400)",
+            "materials": [
+                "Titanium Bar (2)",
+                "Twilight Opal (2)",
+                "Monarch Topaz (1)"
+            ]
+        },
+        "secondary_stats": {
+            "hit": 42,
+            "use_1": "Increases spell power by 292 for 20 sec. (2 min cooldown)"
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "Trainer (400)"
+    },
+    {
+        "name": "Ring of Earthen Might",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "finger",
+        "unique": true,
+        "special_stats": {
+            "armor": 350
+        },
+        "primary_stats": {
+            "strength": 38,
+            "stamina": 34
+        },
+        "sockets": {
+            "socket_colors": [
+                "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Strength"
+        },
+        "other_stats": {
+            "min_level": 78,
+            "materials": [
+                "Titanium Bar (2)",
+                "Eternal Earth (2)"
+            ]
+        },
+        "secondary_stats": {
+            "dodge": 26
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "BoP Pattern (420)"
+    },
+    {
+        "name": "Ring of Northern Tears",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "finger",
+        "unique": true,
+        "sockets": {
+            "socket_colors": [
+                "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Hit Rating"
+        },
+        "other_stats": {
+            "min_level": 78,
+            "materials": [
+                "Titanium Bar (2)",
+                "Eternal Water (1)",
+                "Northsea Pearl (4)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 36,
+            "crit": 39,
+            "hit": 31
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "BoP Pattern (420)"
+    },
+    {
+        "name": "Ring of Scarlet Shadows",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "finger",
+        "unique": true,
+        "sockets": {
+            "socket_colors": [
+                "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "8 Attack Power"
+        },
+        "other_stats": {
+            "min_level": 78,
+            "materials": [
+                "Titanium Bar (2)",
+                "Eternal Shadow (3)",
+                "Scarlet Ruby (1)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 60,
+            "crit": 31,
+            "hit": 38
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "BoP Pattern (420)"
+    },
+    {
+        "name": "Sky Sapphire Amulet",
+        "ilvl": 200,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "neck",
+        "unique": false,
+        "primary_stats": {
+            "intellect": 29,
+            "stamina": 42
+        },
+        "other_stats": {
+            "min_level": 80,
+            "materials": [
+                "Titanium Bar (2)",
+                "Sky Sapphire (2)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 50,
+            "crit": 28,
+            "resilience": 29
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Jewelcrafting",
+        "sourceType": "Trainer (420)"
+    },
+    {
+        "name": "Durable Nerubhide Cape",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "back",
+        "unique": false,
+        "special_stats": {
+            "armor": 150
+        },
+        "primary_stats": {
+            "strength": 41,
+            "stamina": 75
+        },
+        "other_stats": {
+            "min_level": 80,
+            "materials": [
+                "Arctic Fur (2)",
+                "Nerubian Chitin (40)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "expertise": 21,
+            "dodge": 49
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Earthgiving Boots",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "feet",
+        "type": "leather",
+        "unique": false,
+        "special_stats": {
+            "armor": 388
+        },
+        "primary_stats": {
+            "intellect": 48,
+            "stamina": 57,
+            "spirit": 66
+        },
+        "other_stats": {
+            "durability": 60,
+            "min_level": 80,
+            "materials": [
+                "Heavy Borean Leather (10)",
+                "Eternal Life (5)",
+                "Eternal Water (5)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 77
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "BoP Pattern (440)"
+    },
+    {
+        "name": "Earthgiving Legguards",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "legs",
+        "type": "leather",
+        "unique": false,
+        "special_stats": {
+            "armor": 494
+        },
+        "primary_stats": {
+            "intellect": 64,
+            "stamina": 78,
+            "spirit": 89
+        },
+        "other_stats": {
+            "durability": 90,
+            "min_level": 80,
+            "materials": [
+                "Heavy Borean Leather (12)",
+                "Eternal Life (6)",
+                "Eternal Water (6)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 105
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "BoP Pattern (440)"
+    },
+    {
+        "name": "Giantmaim Bracers",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "wrist",
+        "type": "mail",
+        "unique": false,
+        "special_stats": {
+            "armor": 549
+        },
+        "primary_stats": {
+            "agility": 50,
+            "intellect": 29,
+            "stamina": 43
+        },
+        "other_stats": {
+            "durability": 50,
+            "min_level": 80,
+            "materials": [
+                "Heavy Borean Leather (10)",
+                "Eternal Water (5)",
+                "Eternal Air (5)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 72,
+            "armor_pen": 36
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "BoP Pattern (440)"
+    },
+    {
+        "name": "Giantmaim Legguards",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "legs",
+        "type": "mail",
+        "unique": false,
+        "special_stats": {
+            "armor": 1097
+        },
+        "primary_stats": {
+            "agility": 90,
+            "intellect": 52,
+            "stamina": 63
+        },
+        "other_stats": {
+            "durability": 105,
+            "min_level": 80,
+            "materials": [
+                "Heavy Borean Leather (12)",
+                "Eternal Water (6)",
+                "Eternal Air (6)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 128,
+            "armor_pen": 59
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "BoP Pattern (440)"
+    },
+    {
+        "name": "Ice Striker's Cloak",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "back",
+        "unique": false,
+        "special_stats": {
+            "armor": 150
+        },
+        "primary_stats": {
+            "agility": 24,
+            "stamina": 75
+        },
+        "other_stats": {
+            "min_level": 80,
+            "materials": [
+                "Arctic Fur (2)",
+                "Eternal Fire (6)",
+                "Eternal Shadow (4)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 100,
+            "haste": 38
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Revenant's Breastplate",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "chest",
+        "type": "mail",
+        "unique": false,
+        "special_stats": {
+            "armor": 1254
+        },
+        "primary_stats": {
+            "intellect": 68,
+            "stamina": 68
+        },
+        "other_stats": {
+            "durability": 140,
+            "min_level": 80,
+            "materials": [
+                "Heavy Borean Leather (12)",
+                "Eternal Water (12)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 105,
+            "haste": 89
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "BoP Pattern (440)"
+    },
+    {
+        "name": "Revenant's Treads",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "feet",
+        "type": "mail",
+        "unique": false,
+        "special_stats": {
+            "armor": 862
+        },
+        "primary_stats": {
+            "intellect": 51,
+            "stamina": 49
+        },
+        "other_stats": {
+            "durability": 70,
+            "min_level": 80,
+            "materials": [
+                "Heavy Borean Leather (10)",
+                "Eternal Water (10)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 77,
+            "haste": 66
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "BoP Pattern (440)"
+    },
+    {
+        "name": "Trollwoven Girdle",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "waist",
+        "type": "leather",
+        "unique": false,
+        "special_stats": {
+            "armor": 317
+        },
+        "primary_stats": {
+            "agility": 66,
+            "stamina": 72
+        },
+        "other_stats": {
+            "durability": 40,
+            "min_level": 80,
+            "materials": [
+                "Heavy Borean Leather (10)",
+                "Eternal Fire (5)",
+                "Eternal Shadow (5)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 132,
+            "expertise": 38
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "BoP Pattern (440)"
+    },
+    {
+        "name": "Trollwoven Spaulders",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "shoulder",
+        "type": "leather",
+        "unique": false,
+        "special_stats": {
+            "armor": 423
+        },
+        "primary_stats": {
+            "agility": 72,
+            "stamina": 79
+        },
+        "other_stats": {
+            "durability": 70,
+            "min_level": 80,
+            "materials": [
+                "Heavy Borean Leather (10)",
+                "Eternal Fire (6)",
+                "Eternal Shadow (6)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 114,
+            "armor_pen": 28
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "BoP Pattern (440)"
+    },
+    {
+        "name": "Windripper Boots",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "bop",
+        "slot": "feet",
+        "type": "leather",
+        "unique": false,
+        "special_stats": {
+            "armor": 388
+        },
+        "primary_stats": {
+            "intellect": 48,
+            "stamina": 57
+        },
+        "other_stats": {
+            "durability": 60,
+            "min_level": 80,
+            "materials": [
+                "Heavy Borean Leather (10)",
+                "Eternal Air (5)",
+                "Eternal Water (5)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 77,
+            "crit": 66
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "BoP Pattern (440)"
+    },
+    {
+        "name": "Windripper Leggings",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "legs",
+        "type": "leather",
+        "unique": false,
+        "special_stats": {
+            "armor": 494
+        },
+        "primary_stats": {
+            "intellect": 64,
+            "stamina": 78
+        },
+        "other_stats": {
+            "durability": 90,
+            "min_level": 80,
+            "materials": [
+                "Heavy Borean Leather (12)",
+                "Eternal Air (6)",
+                "Eternal Water (6)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 105,
+            "crit": 89
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "BoP Pattern (440)"
+    },
+    {
+        "name": "Cloak of Tormented Skies",
+        "ilvl": 167,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "back",
+        "special_stats": {
+            "armor": 337
+        },
+        "primary_stats": {
+            "strength": 31,
+            "stamina": 48
+        },
+        "other_stats": {
+            "min_level": 75,
+            "materials": [
+                "Heavy Borean Leather (6)",
+                "Crystallized Air (5)",
+                "Crystallized Water (5)"
+            ]
+        },
+        "secondary_stats": {
+            "defense": 24
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "Trainer (405)"
+    },
+    {
+        "name": "Eaglebane Bracers",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "wrist",
+        "type": "mail",
+        "unique": false,
+        "special_stats": {
+            "armor": 512
+        },
+        "primary_stats": {
+            "agility": 41,
+            "intellect": 47,
+            "stamina": 39
+        },
+        "other_stats": {
+            "durability": 40,
+            "min_level": 78,
+            "materials": [
+                "Icy Dragonscale (40)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 64,
+            "hit": 34
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "Trainer (420)"
+    },
+    {
+        "name": "Eviscerator's Bindings",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "wrist",
+        "type": "leather",
+        "unique": false,
+        "special_stats": {
+            "armor": 230
+        },
+        "primary_stats": {
+            "agility": 39,
+            "stamina": 38
+        },
+        "other_stats": {
+            "durability": 35,
+            "min_level": 78,
+            "materials": [
+                "Heavy Borean Leather (8)",
+                "Eternal Air (1)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 50,
+            "crit": 26,
+            "resilience": 26
+        },
+        "set": "Eviscerator's Battlegear",
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "BoP Pattern (420)"
+    },
+    {
+        "name": "Eviscerator's Chestguard",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "chest",
+        "type": "leather",
+        "unique": false,
+        "special_stats": {
+            "armor": 527
+        },
+        "primary_stats": {
+            "agility": 69,
+            "stamina": 69
+        },
+        "other_stats": {
+            "durability": 100,
+            "min_level": 78,
+            "materials": [
+                "Heavy Borean Leather (12)",
+                "Eternal Air (1)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 92,
+            "crit": 46,
+            "resilience": 46
+        },
+        "set": "Eviscerator's Battlegear",
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "BoP Pattern (420)"
+    },
+    {
+        "name": "Eviscerator's Shoulderpads",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "shoulder",
+        "type": "leather",
+        "unique": false,
+        "special_stats": {
+            "armor": 395
+        },
+        "primary_stats": {
+            "agility": 51,
+            "stamina": 51
+        },
+        "other_stats": {
+            "durability": 60,
+            "min_level": 78,
+            "materials": [
+                "Heavy Borean Leather (10)",
+                "Eternal Air (1)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 68,
+            "crit": 34,
+            "resilience": 34
+        },
+        "set": "Eviscerator's Battlegear",
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "BoP Pattern (420)"
+    },
+    {
+        "name": "Jormscale Footpads",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "feet",
+        "type": "leather",
+        "unique": false,
+        "special_stats": {
+            "armor": 362
+        },
+        "primary_stats": {
+            "agility": 47,
+            "stamina": 61
+        },
+        "other_stats": {
+            "durability": 50,
+            "min_level": 78,
+            "materials": [
+                "Jormungar Scale (40)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 74,
+            "resilience": 43
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "Trainer (420)"
+    },
+    {
+        "name": "Leggings of Visceral Strikes",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "legs",
+        "type": "leather",
+        "unique": false,
+        "special_stats": {
+            "armor": 461
+        },
+        "primary_stats": {
+            "agility": 69,
+            "stamina": 60
+        },
+        "other_stats": {
+            "durability": 75,
+            "min_level": 78,
+            "materials": [
+                "Heavy Borean Leather (12)",
+                "Eternal Air (2)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 100,
+            "crit": 68
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "Trainer (425)"
+    },
+    {
+        "name": "Purehorn Spaulders",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "shoulder",
+        "type": "leather",
+        "unique": false,
+        "special_stats": {
+            "armor": 395
+        },
+        "primary_stats": {
+            "intellect": 38,
+            "stamina": 36
+        },
+        "other_stats": {
+            "durability": 60,
+            "min_level": 78,
+            "materials": [
+                "Nerubian Chitin (30)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 67,
+            "haste": 37
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "Trainer (420)"
+    },
+    {
+        "name": "Virulent Spaulders",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "shoulder",
+        "type": "mail",
+        "unique": false,
+        "special_stats": {
+            "armor": 878
+        },
+        "primary_stats": {
+            "agility": 38,
+            "intellect": 33,
+            "stamina": 48
+        },
+        "other_stats": {
+            "durability": 70,
+            "min_level": 78,
+            "materials": [
+                "Heavy Borean Leather (12)",
+                "Eternal Fire (2)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 94,
+            "crit": 34
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Leatherworking",
+        "sourceType": "Trainer (420)"
+    },
+    {
+        "name": "Deathchill Cloak",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "back",
+        "unique": false,
+        "special_stats": {
+            "armor": 150
+        },
+        "other_stats": {
+            "min_level": 80,
+            "materials": [
+                "Bolt of Imbued Frostweave (5)",
+                "Eternal Fire (6)",
+                "Eternal Shadow (4)",
+                "Siren's Tear (1)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 59,
+            "haste": 53,
+            "crit": 43
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Tailoring",
+        "sourceType": "BoP Pattern (420)"
+    },
+    {
+        "name": "Ebonweave Gloves",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "hands",
+        "type": "cloth",
+        "unique": false,
+        "special_stats": {
+            "armor": 188
+        },
+        "primary_stats": {
+            "intellect": 66,
+            "stamina": 49
+        },
+        "other_stats": {
+            "durability": 35,
+            "min_level": 80,
+            "materials": [
+                "Ebonweave (4)",
+                "Bolt of Imbued Frostweave (4)",
+                "Eternium Thread (1)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 77,
+            "hit": 51
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Tailoring",
+        "sourceType": "BoP Pattern (440)"
+    },
+    {
+        "name": "Ebonweave Robe",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "chest",
+        "type": "cloth",
+        "unique": false,
+        "special_stats": {
+            "armor": 300
+        },
+        "primary_stats": {
+            "intellect": 89,
+            "stamina": 67
+        },
+        "other_stats": {
+            "durability": 100,
+            "min_level": 80,
+            "materials": [
+                "Ebonweave (8)",
+                "Bolt of Imbued Frostweave (6)",
+                "Eternium Thread (1)",
+                "Frozen Orb"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 105,
+            "hit": 68
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Tailoring",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Spellweave Gloves",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "hands",
+        "type": "cloth",
+        "unique": false,
+        "special_stats": {
+            "armor": 188
+        },
+        "primary_stats": {
+            "intellect": 48,
+            "spirit": 39
+        },
+        "other_stats": {
+            "durability": 35,
+            "min_level": 80,
+            "materials": [
+                "Spellweave (4)",
+                "Bolt of Imbued Frostweave (4)",
+                "Eternium Thread (1)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 77,
+            "haste": 65
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Tailoring",
+        "sourceType": "Trainer (435)"
+    },
+    {
+        "name": "Spellweave Robe",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "chest",
+        "unique": false,
+        "special_stats": {
+            "armor": 300
+        },
+        "primary_stats": {
+            "intellect": 64,
+            "spirit": 52
+        },
+        "other_stats": {
+            "durability": 100,
+            "min_level": 80,
+            "materials": [
+                "Spellweave (8)",
+                "Bolt of Imbued Frostweave (6)",
+                "Eternium Thread (1)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 104,
+            "haste": 90
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Tailoring",
+        "sourceType": "Trainer (440)"
+    },
+    {
+        "name": "Wispcloak",
+        "ilvl": 200,
+        "rarity": "epic",
+        "bind": "boe",
+        "slot": "back",
+        "unique": false,
+        "special_stats": {
+            "armor": 150
+        },
+        "primary_stats": {
+            "intellect": 36,
+            "stamina": 43
+        },
+        "other_stats": {
+            "min_level": 80,
+            "materials": [
+                "Bolt of Imbued Frostweave (5)",
+                "Eternal Life (6)",
+                "Eternal Water (4)",
+                "Siren's Tear (1)",
+                "Frozen Orb (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 59,
+            "mp5": 25
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Tailoring",
+        "sourceType": "BoP Pattern (415)"
+    },
+    {
+        "name": "Black Duskweave Leggings",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "legs",
+        "type": "cloth",
+        "unique": false,
+        "special_stats": {
+            "armor": 245
+        },
+        "primary_stats": {
+            "intellect": 50,
+            "stamina": 60
+        },
+        "other_stats": {
+            "durability": 65,
+            "min_level": 78,
+            "materials": [
+                "Bolt of Imbued Frostweave (5)",
+                "Iceweb Spider Silk (2)",
+                "Eternium Thread (2)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 81,
+            "haste": 69
+        },
+        "set": "Duskweaver",
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Tailoring",
+        "sourceType": "Trainer (425)"
+    },
+    {
+        "name": "Black Duskweave Wristwraps",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "wrist",
+        "type": "cloth",
+        "unique": false,
+        "special_stats": {
+            "armor": 123
+        },
+        "primary_stats": {
+            "intellect": 27,
+            "stamina": 33
+        },
+        "other_stats": {
+            "durability": 30,
+            "min_level": 78,
+            "materials": [
+                "Bolt of Imbued Frostweave (4)",
+                "Iceweb Spider Silk (2)",
+                "Eternium Thread (2)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 46,
+            "haste": 38
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Tailoring",
+        "sourceType": "Trainer (415)"
+    },
+    {
+        "name": "Cloak of Crimson Snow",
+        "ilvl": 200,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "back",
+        "unique": false,
+        "special_stats": {
+            "armor": 145
+        },
+        "primary_stats": {
+            "intellect": 29,
+            "stamina": 42
+        },
+        "other_stats": {
+            "min_level": 80,
+            "materials": [
+                "Bolt of Imbued Frostweave (4)",
+                "Iceweb Spider Silk (4)",
+                "Eternal Shadow (4)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 50,
+            "crit": 28,
+            "resilience": 29
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Tailoring",
+        "sourceType": "Trainer (405)"
+    },
+    {
+        "name": "Frostguard Drape",
+        "ilvl": 200,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "back",
+        "unique": false,
+        "special_stats": {
+            "armor": 145
+        },
+        "primary_stats": {
+            "stamina": 64
+        },
+        "other_stats": {
+            "min_level": 80,
+            "materials": [
+                "Bolt of Imbued Frostweave (4)",
+                "Iceweb Spider Silk (4)",
+                "Eternal Earth (4)"
+            ]
+        },
+        "secondary_stats": {
+            "attack_power": 86,
+            "crit": 28,
+            "resilience": 29
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Tailoring",
+        "sourceType": "Trainer (400)"
+    },
+    {
+        "name": "Frostsavage Shoulders",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "shoulder",
+        "type": "cloth",
+        "unique": false,
+        "special_stats": {
+            "armor": 210
+        },
+        "primary_stats": {
+            "intellect": 34,
+            "stamina": 51
+        },
+        "other_stats": {
+            "durability": 50,
+            "min_level": 78,
+            "materials": [
+                "Bolt of Imbued Frostweave (3)",
+                "Crystallized Fire (4)",
+                "Crystallized Earth (4)",
+                "Eternium Thread (2)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 60,
+            "crit": 34,
+            "resilience": 34
+        },
+        "set": "Frostsavage Battlegear",
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Tailoring",
+        "sourceType": "Trainer (420)"
+    },
+    {
+        "name": "Hat of Wintry Doom",
+        "ilvl": 197,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "head",
+        "type": "cloth",
+        "unique": false,
+        "special_stats": {
+            "armor": 228
+        },
+        "primary_stats": {
+            "intellect": 46,
+            "stamina": 69
+        },
+        "sockets": {
+            "socket_colors": [
+                "meta",
+                "red"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "8 Intellect"
+        },
+        "other_stats": {
+            "durability": 50,
+            "min_level": 80,
+            "materials": [
+                "Ebonweave (1)",
+                "Bolt of Imbued Frostweave (6)",
+                "Iceweb Spider Silk (4)",
+                "Eternium Thread (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 53,
+            "hit": 44
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Tailoring",
+        "sourceType": "Trainer (425)"
+    },
+    {
+        "name": "Silky Iceshard Boots",
+        "ilvl": 187,
+        "rarity": "rare",
+        "bind": "boe",
+        "slot": "feet",
+        "type": "cloth",
+        "special_stats": {
+            "armor": 193
+        },
+        "primary_stats": {
+            "stamina": 76
+        },
+        "other_stats": {
+            "durability": 40,
+            "min_level": 80,
+            "materials": [
+                "Spellweave (1)",
+                "Bolt of Imbued Frostweave (5)",
+                "Heavy Borean Leather (2)",
+                "Iceweb Spider Silk (4)",
+                "Eternium Thread (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 60,
+            "haste": 29,
+            "crit": 37
+        },
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Tailoring",
+        "sourceType": "Trainer (420)"
+    },
+    {
+        "name": "Duskweave Shoulders",
+        "ilvl": 162,
+        "rarity": "uncommon",
+        "bind": "boe",
+        "slot": "shoulder",
+        "type": "cloth",
+        "special_stats": {
+            "armor": 148
+        },
+        "primary_stats": {
+            "intellect": 43
+        },
+        "other_stats": {
+            "durability": 45,
+            "min_level": 77,
+            "materials": [
+                "Bolt of Frostweave (10)",
+                "Eternium Thread (1)"
+            ]
+        },
+        "secondary_stats": {
+            "spell_power": 70,
+            "haste": 35
+        },
+        "set": "Duskweaver",
+        "phase": "Pre-Bis, T7, T8, T9, T10",
+        "source": "Tailoring",
+        "sourceType": "Trainer (410)"
+    }
+]

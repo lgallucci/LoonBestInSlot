@@ -20,4 +20,6 @@
     <PackageReference Include="Selenium.WebDriver" Version="4.1.0" />
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
 </Project>

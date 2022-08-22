@@ -20,6 +20,7 @@ public partial class WowheadReader : Window
     {
         public int ItemId { get; set; }
         public string SourceType { get; set; } = "Drop";
+        public string SourceNumber { get; set; } = string.Empty;
         public string ItemName { get; set; } = string.Empty;
         public string InstanceName { get; set; } = string.Empty;
         public string SourceName { get; set; } = string.Empty;
@@ -179,51 +180,13 @@ public partial class WowheadReader : Window
                 SourceType = oldSource.Value.SourceType,
                 ItemName = oldSource.Value.Name,
                 InstanceName = oldSource.Value.SourceLocation,
-                SourceName = oldSource.Value.Source
+                SourceName = oldSource.Value.Source,
+                SourceNumber = oldSource.Value.SourceNumber
             });
         }
 
-        using (StreamReader r = new StreamReader(@"..\..\..\ItemDatabase\itemlist.json"))
-        {
-            string json = r.ReadToEnd();
-            List<JsonItem> items = JsonConvert.DeserializeObject<List<JsonItem>>(json);
-
-            foreach (var item in items)
-            {
-                if (csvLootTable.ContainsKey(item.ItemId))
-                {
-                    if (csvLootTable[item.ItemId].InstanceName != item.Zone)
-                        csvLootTable[item.ItemId].InstanceName += $"/{item.Zone}";
-                    if (csvLootTable[item.ItemId].SourceName != item.AcquisitionName)
-                        csvLootTable[item.ItemId].SourceName += $"/{item.AcquisitionName}";
-                }
-                else
-                {
-                    if (item.Acquisitions == "Boss")
-                    {
-                        csvLootTable.Add(item.ItemId, new CsvLootTable
-                        {
-                            ItemId = item.ItemId,
-                            SourceType = "Drop",
-                            ItemName = item.Name,
-                            InstanceName = item.Zone,
-                            SourceName = item.AcquisitionName,
-                        });
-                    }
-                    else if (item.Acquisitions == "Quest")
-                    {
-                        csvLootTable.Add(item.ItemId, new CsvLootTable
-                        {
-                            ItemId = item.ItemId,
-                            SourceType = "Quest",
-                            ItemName = item.Name,
-                            InstanceName = item.Zone,
-                            SourceName = item.AcquisitionName,
-                        });
-                    }
-                }
-            }
-        }
+        GetDungeonItems(csvLootTable);
+        GetProfessionItems(csvLootTable, itemSources);
 
         var tokenKeys = new HashSet<int>();
         foreach (var tierPiece in TierPiecesAndTokens.TierPieces)
@@ -280,12 +243,84 @@ public partial class WowheadReader : Window
 
                 itemSource.Value.SourceType = sourceType;
                 itemSource.Value.Source = csvItem.SourceName.Trim().Trim('"');
-                itemSource.Value.SourceNumber = "";
+                itemSource.Value.SourceNumber = csvItem.SourceNumber.Trim().Trim('"');
                 itemSource.Value.SourceLocation = csvItem.InstanceName.Trim().Trim('"');
             }
         }
 
         new ItemSourceFileManager().WriteItemSources(itemSources);
+    }
+
+    private void GetDungeonItems(Dictionary<int, CsvLootTable> csvLootTable)
+    {
+        using (StreamReader r = new StreamReader(@"..\..\..\ItemDatabase\DungeonItemlist.json"))
+        {
+            string json = r.ReadToEnd();
+            List<DungeonItem> items = JsonConvert.DeserializeObject<List<DungeonItem>>(json);
+
+            foreach (var item in items)
+            {
+                if (csvLootTable.ContainsKey(item.ItemId))
+                {
+                    if (csvLootTable[item.ItemId].InstanceName != item.Zone)
+                        csvLootTable[item.ItemId].InstanceName += $"/{item.Zone}";
+                    if (csvLootTable[item.ItemId].SourceName != item.AcquisitionName)
+                        csvLootTable[item.ItemId].SourceName += $"/{item.AcquisitionName}";
+                }
+                else
+                {
+                    if (item.Acquisitions == "Boss")
+                    {
+                        csvLootTable.Add(item.ItemId, new CsvLootTable
+                        {
+                            ItemId = item.ItemId,
+                            SourceType = "Drop",
+                            ItemName = item.Name,
+                            InstanceName = item.Zone,
+                            SourceName = item.AcquisitionName,
+                        });
+                    }
+                    else if (item.Acquisitions == "Quest")
+                    {
+                        csvLootTable.Add(item.ItemId, new CsvLootTable
+                        {
+                            ItemId = item.ItemId,
+                            SourceType = "Quest",
+                            ItemName = item.Name,
+                            InstanceName = item.Zone,
+                            SourceName = item.AcquisitionName,
+                        });
+                    }
+                }
+            }
+        }
+    }
+
+    private void GetProfessionItems(Dictionary<int, CsvLootTable> csvLootTable, SortedDictionary<int, ItemSource> itemSources)
+    {
+        using (StreamReader r = new StreamReader(@"..\..\..\ItemDatabase\ProfessionItemlist.json"))
+        {
+            string json = r.ReadToEnd();
+            List<ProfessionItem> items = JsonConvert.DeserializeObject<List<ProfessionItem>>(json);
+
+            foreach (var item in items)
+            {
+                var itemSource = itemSources.FirstOrDefault(s => s.Value.Name == item.Name);
+                if (itemSource.Key > 0)
+                {
+                    var itemId = itemSource.Key;
+                    csvLootTable.Add(itemId, new CsvLootTable
+                    {
+                        ItemId = itemId,
+                        SourceType = "Profession",
+                        ItemName = item.Name,
+                        InstanceName = "",
+                        SourceName = item.Source,
+                        SourceNumber = item.SourceType.Split('(')[1].TrimEnd(')')
+                    });
+                }
+            }
+        }
     }
 
     private void Localize_Click(object sender, RoutedEventArgs e)
