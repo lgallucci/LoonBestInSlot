@@ -17016,6 +17016,545 @@
       "SourceType": "Drop",
       "SourceNumber": "",
       "SourceLocation": "Trial of the Grand Crusader (25)"
+    },
+    "49307": {
+      "Name": "Fluttering Sapphiron Drape",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49316": {
+      "Name": "Circlet of Transcendence",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49317": {
+      "Name": "Coronet of Transcendence",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49315": {
+      "Name": "Nemesis Skullcover",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49318": {
+      "Name": "Netherwind Hood",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49322": {
+      "Name": "Bloodfang Mask",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49327": {
+      "Name": "Stormrage Antlers",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49328": {
+      "Name": "Stormrage Helm",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49326": {
+      "Name": "Stormrage Hood",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49331": {
+      "Name": "Coif of Ten Storms",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49330": {
+      "Name": "Cowl of Ten Storms",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49329": {
+      "Name": "Gaze of Ten Storms",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49319": {
+      "Name": "Dragonstalker's Helmet",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49320": {
+      "Name": "Faceguard of Wrath",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49321": {
+      "Name": "Greathelm of Wrath",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49333": {
+      "Name": "Frostforged Helmet",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49332": {
+      "Name": "Frostforged Ringhelm",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49323": {
+      "Name": "Judgement Cover",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49325": {
+      "Name": "Judgement Helm",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49324": {
+      "Name": "Judgement Helmet",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49306": {
+      "Name": "Eskhandar's Choker",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49309": {
+      "Name": "Runed Ring of Binding",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49463": {
+      "Name": "Purified Shard of the Flame",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49310": {
+      "Name": "Purified Shard of the Scale",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49308": {
+      "Name": "Antique Cornerstone Grimoire",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49304": {
+      "Name": "Sharpened Fang of the Mystics",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49437": {
+      "Name": "Rusted Gutgore Ripper",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49298": {
+      "Name": "Glinting Azuresong Mageblade",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49303": {
+      "Name": "Gleaming Quel'Serrar",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49296": {
+      "Name": "Singed Vis'kag the Bloodletter",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49299": {
+      "Name": "Keen Obsidian Edged Blade",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49297": {
+      "Name": "Empowered Deathbringer",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49302": {
+      "Name": "Reclaimed Shadowstrike",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49301": {
+      "Name": "Reclaimed Thunderstrike",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49305": {
+      "Name": "Snub-Nose Blastershot Launcher",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49644": {
+      "Name": "Head of Onyxia",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49485": {
+      "Name": "Sparkling Onyxia Tooth Pendant",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49486": {
+      "Name": "Polished Dragonslayer's Signet",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49487": {
+      "Name": "Purified Onyxia Blood Talisman",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49295": {
+      "Name": "Enlarged Onyxia Hide Backpack",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49294": {
+      "Name": "Ashen Sack of Gems",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49636": {
+      "Name": "Reins of the Onyxian Drake",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (10)"
+    },
+    "49491": {
+      "Name": "Flowing Sapphiron Drape",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49482": {
+      "Name": "Aurora of Transcendence",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49483": {
+      "Name": "Halo of Transcendence",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49484": {
+      "Name": "Nemesis Skullcap",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49481": {
+      "Name": "Netherwind Crown",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49477": {
+      "Name": "Bloodfang Hood",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49472": {
+      "Name": "Stormrage Crown",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49473": {
+      "Name": "Stormrage Cover",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49471": {
+      "Name": "Stormrage Coverlet",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49469": {
+      "Name": "Crown of Ten Storms",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49468": {
+      "Name": "Helm of Ten Storms",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49470": {
+      "Name": "Helmet of Ten Storms",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49480": {
+      "Name": "Dragonstalker's Helm",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49479": {
+      "Name": "Helm of Wrath",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49478": {
+      "Name": "Helmet of Wrath",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49467": {
+      "Name": "Frostforged Greathelm",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49466": {
+      "Name": "Frostforged Helm",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49476": {
+      "Name": "Judgement Crown",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49475": {
+      "Name": "Judgement Heaume",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49474": {
+      "Name": "Judgement Hood",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49492": {
+      "Name": "Eskhandar's Links",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49489": {
+      "Name": "Signified Ring of Binding",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49464": {
+      "Name": "Shiny Shard of the Flame",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49488": {
+      "Name": "Shiny Shard of the Scale",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49490": {
+      "Name": "Antediluvian Cornerstone Grimoire",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49494": {
+      "Name": "Honed Fang of the Mystics",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49465": {
+      "Name": "Tarnished Gutgore Ripper",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49499": {
+      "Name": "Polished Azuresong Mageblade",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49495": {
+      "Name": "Burnished Quel'Serrar",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49501": {
+      "Name": "Tempered Vis'kag the Bloodletter",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49498": {
+      "Name": "Sharpened Obsidian Edged Blade",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49500": {
+      "Name": "Raging Deathbringer",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49496": {
+      "Name": "Reinforced Shadowstrike",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49497": {
+      "Name": "Reinforced Thunderstrike",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
+    },
+    "49493": {
+      "Name": "Rifled Blastershot Launcher",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Onyxia (25)"
     }
   }
 }
