@@ -305,6 +305,8 @@ local function createItemRow(specItem, specItemSource, point)
                 dtColor = "|cFFFFEF27";
             elseif specItemSource.SourceType == LBIS.L["Dungeon Token"] then
                 dtColor = "|cFFFF276D";
+            elseif specItemSource.SourceType == LBIS.L["Vendor"] then
+                dtColor = "|cFF43DC00";
             elseif specItemSource.SourceType == LBIS.L["PvP"] then
                 dtColor = "|cFFE52AED";
             elseif specItemSource.SourceType == LBIS.L["Transmute"] then
@@ -624,7 +626,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
         ['name']='source',
         ['parent']=window,
         ['title']='Source:',
-        ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Dungeon Token"], LBIS.L["Quest"], LBIS.L["PvP"], LBIS.L["Transmute"] },
+        ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Dungeon Token"], LBIS.L["Vendor"], LBIS.L["Quest"], LBIS.L["PvP"], LBIS.L["Transmute"] },
         ['defaultVal']= LBISSettings.SelectedSourceType,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedSourceType = dropdown_val;
