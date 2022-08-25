@@ -7,16 +7,17 @@
         mc:Ignorable="d"
         Title="WowheadReader" Height="768" Width="1024">
     <Grid>
-        <Button Content="Read" HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top" Click="Read_Click"/>
-        <Button Content="Import" HorizontalAlignment="Left" Margin="52,12,0,0" VerticalAlignment="Top" Click="Import_Click"/>
-        <Button Content="ImportAll" HorizontalAlignment="Left" Margin="104,12,0,0" VerticalAlignment="Top" Click="ImportAll_Click"/>
+        <Button Content="Import" HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top" Click="Import_Click"/>
+        <Button Content="ImportAll" HorizontalAlignment="Left" Margin="75,12,0,0" VerticalAlignment="Top" Click="ImportAll_Click"/>
         <ScrollViewer Margin="0,35,0,0" BorderBrush="Gray" BorderThickness="1">
-            <TextBox x:Name="ConsoleOut" TextWrapping="Wrap" />
+            <TextBox x:Name="ConsoleOut" TextWrapping="Wrap" IsEnabled="False" />
         </ScrollViewer>
-        <ComboBox x:Name="cmbSpec" HorizontalAlignment="Left" Margin="172,11,0,0" Text="DruidRestoration" VerticalAlignment="Top" Width="150"/>
-        <TextBox x:Name="txtPhase" HorizontalAlignment="Left" Margin="344,13,0,0" TextWrapping="Wrap" Text="Phase0" VerticalAlignment="Top" Width="82"/>
+        <ComboBox x:Name="cmbSpec" HorizontalAlignment="Left" Margin="150,11,0,0" Text="DruidRestoration" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="txtPhase" HorizontalAlignment="Left" Margin="314,13,0,0" TextWrapping="Wrap" Text="Phase0" VerticalAlignment="Top" Width="82"/>
 
         <Button Content="Localize" Margin="10,10,100,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Localize_Click"/>
         <Button Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Update_Click"/>
+
+        <Button Content="Converters" Margin="10,10,175,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Converters_Click"/>
     </Grid>
 </Window>

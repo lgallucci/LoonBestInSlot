@@ -338,6 +338,9 @@ internal class TierPiecesAndTokens
         { 34571 ,new (34858, "Boots of the Forgotten Vanquisher") }, //Thunderheart Boots
         { 34575 ,new (34858, "Boots of the Forgotten Vanquisher") }, //Slayer's Boots
         { 34574 ,new (34858, "Boots of the Forgotten Vanquisher") }  //Boots of the Tempest
+
+        //T7
+
     };
 
     public static readonly Dictionary<int, (int, string)> Transmutes = new Dictionary<int, (int, string)>() 

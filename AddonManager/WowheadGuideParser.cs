@@ -176,34 +176,6 @@ public class WowheadGuideParser
         return items;
     }
 
-    public async Task<string> ReadWowheadGuide(ClassGuideMapping specMapping, string spec, string phase)
-    {
-        var itemStringBuilder = new StringBuilder();
-
-        try
-        {
-            var doc = default(IHtmlDocument);
-            using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{spec}{phase}.html"))
-            {
-                var parser = new HtmlParser();
-                doc = await parser.ParseDocumentAsync(stream.BaseStream);
-
-                LoopThroughMappings(doc, specMapping, (tableElement, guideMapping) =>
-                {
-                    itemStringBuilder.AppendLine(guideMapping.SlotHtmlId);
-                    itemStringBuilder.AppendLine(tableElement?.OuterHtml);
-                    itemStringBuilder.AppendLine();
-                });
-
-                return itemStringBuilder.ToString();
-            }
-        }
-        catch (Exception ex)
-        {
-            return ex.ToString();
-        }
-    }
-
     public void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlTableElement?, GuideMapping> action)
     {
         foreach (var guideMapping in specMapping.GuideMappings)

@@ -1,9 +1,12 @@
 ﻿using System.IO;
 using System.Text.RegularExpressions;
 using System.Windows;
+using System.Windows.Controls;
 using AddonManager.FileManagers;
 using AddonManager.Models;
+using AngleSharp.Dom;
 using Newtonsoft.Json;
+using static AddonManager.WowheadReader;
 
 namespace AddonManager;
 /// <summary>
@@ -11,10 +14,10 @@ namespace AddonManager;
 /// </summary>
 public partial class WowheadReader : Window
 {
-    public string[] SpecList = {"DeathKnightBlood", "DeathKnightFrost", "DeathKnightUnholy", "DruidBalance", "DruidBear", "DruidCat", "DruidRestoration", 
-                                "HunterBM", "HunterMarks", "HunterSurvival", "MageFrost", "MageFire", "MageArcane", "PaladinHoly", "PaladinProtection", 
+    public string[] SpecList = {"DeathKnightBlood", "DeathKnightFrost", "DeathKnightUnholy", "DruidBalance", "DruidBear", "DruidCat", "DruidRestoration",
+                                "HunterBM", "HunterMarks", "HunterSurvival", "MageFrost", "MageFire", "MageArcane", "PaladinHoly", "PaladinProtection",
                                 "PaladinRetribution", "PriestHoly","PriestDiscipline", "PriestShadow", "RogueAssassination", "RogueSubtlety", "RogueCombat",
-                                "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAfflic", "WarlockDemo", "WarlockDestro", "WarriorArms", 
+                                "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAfflic", "WarlockDemo", "WarlockDestro", "WarriorArms",
                                 "WarriorFury", "WarriorProtection"};
     public class CsvLootTable
     {
@@ -145,34 +148,15 @@ public partial class WowheadReader : Window
         return oldItems;
     }
 
-    private async void Read_Click(object sender, RoutedEventArgs e)
-    {
-        ConsoleOut.Text = string.Empty;
-
-        var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == cmbSpec.SelectedValue.ToString());
-
-        if (specMapping != null)
-        {
-            ConsoleOut.Text = await new WowheadGuideParser().ReadWowheadGuide(specMapping, cmbSpec.SelectedValue.ToString() ?? string.Empty, txtPhase.Text);
-        }
-        else
-        {
-            ConsoleOut.Text = $"Couldn't find spec: {cmbSpec.SelectedValue.ToString()}";
-        }
-    }
-
     private void Update_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = string.Empty;
 
         var itemSources = new ItemSourceFileManager().ReadItemSources();
-
         var csvLootTable = new Dictionary<int, CsvLootTable>();
-        var readHeaderRow = false;
-
         var oldSources = new ItemSourceFileManager().ReadItemSources(@"..\..\..\ItemDatabase\TBCItemSources.lua");
 
-        foreach(var oldSource in oldSources)
+        foreach (var oldSource in oldSources)
         {
             csvLootTable.Add(oldSource.Key, new CsvLootTable
             {
@@ -185,8 +169,10 @@ public partial class WowheadReader : Window
             });
         }
 
-        GetDungeonItems(csvLootTable);
-        GetProfessionItems(csvLootTable, itemSources);
+        GetItems(csvLootTable, "DungeonItemList");
+        //GetProfessionItems(csvLootTable);
+        GetItems(csvLootTable, "RaidItemList");
+        GetItems(csvLootTable, "EmblemItemList");
 
         var tokenKeys = new HashSet<int>();
         foreach (var tierPiece in TierPiecesAndTokens.TierPieces)
@@ -251,80 +237,73 @@ public partial class WowheadReader : Window
         new ItemSourceFileManager().WriteItemSources(itemSources);
     }
 
-    private void GetDungeonItems(Dictionary<int, CsvLootTable> csvLootTable)
+    private void GetItems(Dictionary<int, CsvLootTable> csvLootTable, string fileName)
     {
-        using (StreamReader r = new StreamReader(@"..\..\..\ItemDatabase\DungeonItemlist.json"))
-        {
-            string json = r.ReadToEnd();
-            List<DungeonItem> items = JsonConvert.DeserializeObject<List<DungeonItem>>(json);
+        //Read file into dictionary
+        DatabaseItems dbItem;
+        var jsonFileString = File.ReadAllText(@$"..\..\..\ItemDatabase\{fileName}.json");
+        dbItem = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
 
-            foreach (var item in items)
+        AddToCsvLootTable(dbItem, csvLootTable);
+    }
+
+    private void AddToCsvLootTable(DatabaseItems dbItem, Dictionary<int, CsvLootTable> csvLootTable)
+    {
+        foreach (var item in dbItem.Items)
+        {
+            if (csvLootTable.ContainsKey(item.Key))
             {
-                if (csvLootTable.ContainsKey(item.ItemId))
+                if (csvLootTable[item.Key].InstanceName != item.Value.SourceLocation)
+                    csvLootTable[item.Key].InstanceName += $"/{item.Value.SourceLocation}";
+                if (csvLootTable[item.Key].SourceName != item.Value.Source)
+                    csvLootTable[item.Key].SourceName += $"/{item.Value.Source}";
+                if (csvLootTable[item.Key].SourceNumber != item.Value.SourceNumber)
+                    csvLootTable[item.Key].SourceNumber += $"/{item.Value.SourceNumber}";
+            }
+            else
+            {
+                csvLootTable.Add(item.Key, new CsvLootTable
                 {
-                    if (csvLootTable[item.ItemId].InstanceName != item.Zone)
-                        csvLootTable[item.ItemId].InstanceName += $"/{item.Zone}";
-                    if (csvLootTable[item.ItemId].SourceName != item.AcquisitionName)
-                        csvLootTable[item.ItemId].SourceName += $"/{item.AcquisitionName}";
-                }
-                else
-                {
-                    if (item.Acquisitions == "Boss")
-                    {
-                        csvLootTable.Add(item.ItemId, new CsvLootTable
-                        {
-                            ItemId = item.ItemId,
-                            SourceType = "Drop",
-                            ItemName = item.Name,
-                            InstanceName = item.Zone,
-                            SourceName = item.AcquisitionName,
-                        });
-                    }
-                    else if (item.Acquisitions == "Quest")
-                    {
-                        csvLootTable.Add(item.ItemId, new CsvLootTable
-                        {
-                            ItemId = item.ItemId,
-                            SourceType = "Quest",
-                            ItemName = item.Name,
-                            InstanceName = item.Zone,
-                            SourceName = item.AcquisitionName,
-                        });
-                    }
-                }
+                    ItemId = item.Key,
+                    SourceType = item.Value.SourceType,
+                    ItemName = item.Value.Name,
+                    InstanceName = item.Value.SourceLocation,
+                    SourceName = item.Value.Source,
+                    SourceNumber = item.Value.SourceNumber
+                });
             }
         }
     }
 
-    private void GetProfessionItems(Dictionary<int, CsvLootTable> csvLootTable, SortedDictionary<int, ItemSource> itemSources)
+    private void GetProfessionItems(Dictionary<int, CsvLootTable> csvLootTable)
     {
-        using (StreamReader r = new StreamReader(@"..\..\..\ItemDatabase\ProfessionItemlist.json"))
-        {
-            string json = r.ReadToEnd();
-            List<ProfessionItem> items = JsonConvert.DeserializeObject<List<ProfessionItem>>(json);
+        //Read file into dictionary
+        DatabaseItems dbItem;
+        var jsonFileString = File.ReadAllText(@$"..\..\..\ItemDatabase\ProfessionItemList.json");
+        dbItem = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
 
-            foreach (var item in items)
+        foreach (var item in dbItem.Items)
+        {
+            csvLootTable.Add(item.Key, new CsvLootTable
             {
-                var itemSource = itemSources.FirstOrDefault(s => s.Value.Name == item.Name);
-                if (itemSource.Key > 0)
-                {
-                    var itemId = itemSource.Key;
-                    csvLootTable.Add(itemId, new CsvLootTable
-                    {
-                        ItemId = itemId,
-                        SourceType = "Profession",
-                        ItemName = item.Name,
-                        InstanceName = "",
-                        SourceName = item.Source,
-                        SourceNumber = item.SourceType.Split('(')[1].TrimEnd(')')
-                    });
-                }
-            }
+                ItemId = item.Key,
+                SourceType = item.Value.SourceType,
+                ItemName = item.Value.Name,
+                InstanceName = "",
+                SourceName = item.Value.Source,
+                SourceNumber = item.Value.SourceNumber
+            });
         }
     }
 
     private void Localize_Click(object sender, RoutedEventArgs e)
     {
         LocalizationFileManager.WriteLocalizationFiles();
+    }
+
+    private void Converters_Click(object sender, RoutedEventArgs e)
+    {
+        var converters = new ConvertersWindow();
+        converters.Show();
     }
 }
