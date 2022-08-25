@@ -1,13 +1,17 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Arms"], "1")
 
 LBIS:AddItem(spec, "40528", LBIS.L["Head"], "BIS") --Valorous Dreadnaught Helmet
+LBIS:AddItem(spec, "40632", LBIS.L["Head"], "BIS") --Crown of the Lost Protector
 LBIS:AddItem(spec, "44006", LBIS.L["Head"], "Alt") --Obsidian Greathelm
 LBIS:AddItem(spec, "39605", LBIS.L["Head"], "Alt") --Heroes' Dreadnaught Helmet
+LBIS:AddItem(spec, "40617", LBIS.L["Head"], "Alt") --Helm of the Lost Protector
 LBIS:AddItem(spec, "41386", LBIS.L["Head"], "Alt") --Spiked Titansteel Helm
 
 LBIS:AddItem(spec, "40530", LBIS.L["Shoulder"], "BIS") --Valorous Dreadnaught Shoulderplates
+LBIS:AddItem(spec, "40638", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Protector
 LBIS:AddItem(spec, "40185", LBIS.L["Shoulder"], "BIS") --Shoulderguards of Opportunity
 LBIS:AddItem(spec, "39608", LBIS.L["Shoulder"], "Alt") --Heroes' Dreadnaught Shoulderplates
+LBIS:AddItem(spec, "40623", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Protector
 LBIS:AddItem(spec, "44195", LBIS.L["Shoulder"], "Alt") --Spaulders of the Giant Lords
 
 LBIS:AddItem(spec, "40403", LBIS.L["Back"], "BIS") --Drape of the Deadly Foe
@@ -16,7 +20,9 @@ LBIS:AddItem(spec, "39404", LBIS.L["Back"], "Alt") --Cloak of Mastery
 LBIS:AddItem(spec, "37647", LBIS.L["Back"], "Alt") --Cloak of Bloodied Waters
 
 LBIS:AddItem(spec, "40525", LBIS.L["Chest"], "BIS") --Valorous Dreadnaught Battleplate
+LBIS:AddItem(spec, "40626", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Protector
 LBIS:AddItem(spec, "39606", LBIS.L["Chest"], "BIS") --Heroes' Dreadnaught Battleplate
+LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Protector
 LBIS:AddItem(spec, "40365", LBIS.L["Chest"], "Alt") --Breastplate of Frozen Pain
 
 LBIS:AddItem(spec, "40330", LBIS.L["Wrist"], "BIS") --Bracers of Unrelenting Attack
@@ -25,6 +31,7 @@ LBIS:AddItem(spec, "41355", LBIS.L["Wrist"], "Alt") --Vengeance Bindings
 
 LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "BIS") --Frosted Adroit Handguards
 LBIS:AddItem(spec, "40527", LBIS.L["Hands"], "Alt") --Valorous Dreadnaught Gauntlets
+LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
 LBIS:AddItem(spec, "39609", LBIS.L["Hands"], "Alt") --Heroes' Dreadnaught Gauntlets
 LBIS:AddItem(spec, "40261", LBIS.L["Hands"], "Alt") --Crude Discolored Battlegrips
 
@@ -34,6 +41,7 @@ LBIS:AddItem(spec, "40278", LBIS.L["Waist"], "Alt") --Girdle of Chivalry
 LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "Alt") --Jorach's Crocolisk Skin Belt
 
 LBIS:AddItem(spec, "40529", LBIS.L["Legs"], "BIS") --Valorous Dreadnaught Legplates
+LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "BIS") --Leggings of the Lost Protector
 LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "BIS") --Leggings of the Honored
 LBIS:AddItem(spec, "40318", LBIS.L["Legs"], "Alt") --Legplates of Double Strikes
 LBIS:AddItem(spec, "43994", LBIS.L["Legs"], "Alt") --Belabored Legplates

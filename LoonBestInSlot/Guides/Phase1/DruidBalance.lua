@@ -1,7 +1,9 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "1")
 
 LBIS:AddItem(spec, "40467", LBIS.L["Head"], "BIS") --Valorous Dreamwalker Cover
+LBIS:AddItem(spec, "40633", LBIS.L["Head"], "BIS") --Crown of the Lost Vanquisher
 LBIS:AddItem(spec, "39545", LBIS.L["Head"], "Alt") --Heroes' Dreamwalker Cover
+LBIS:AddItem(spec, "40618", LBIS.L["Head"], "Alt") --Helm of the Lost Vanquisher
 LBIS:AddItem(spec, "40339", LBIS.L["Head"], "Alt") --Gothik's Cowl
 LBIS:AddItem(spec, "44007", LBIS.L["Head"], "Alt") --Headpiece of Reconciliation
 LBIS:AddItem(spec, "40562", LBIS.L["Head"], "Alt") --Hood of Rationality
@@ -9,7 +11,9 @@ LBIS:AddItem(spec, "39732", LBIS.L["Head"], "Alt") --Faerlina's Madness
 LBIS:AddItem(spec, "40287", LBIS.L["Head"], "Alt") --Cowl of Vanity
 
 LBIS:AddItem(spec, "40470", LBIS.L["Shoulder"], "BIS") --Valorous Dreamwalker Mantle
+LBIS:AddItem(spec, "40639", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Vanquisher
 LBIS:AddItem(spec, "39548", LBIS.L["Shoulder"], "Alt") --Heroes' Dreamwalker Mantle
+LBIS:AddItem(spec, "40624", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Vanquisher
 LBIS:AddItem(spec, "40286", LBIS.L["Shoulder"], "Alt") --Mantle of the Corrupted
 LBIS:AddItem(spec, "40351", LBIS.L["Shoulder"], "Alt") --Mantle of the Fatigued Sage
 LBIS:AddItem(spec, "40439", LBIS.L["Shoulder"], "Alt") --Mantle of the Eternal Sentinel
@@ -21,7 +25,9 @@ LBIS:AddItem(spec, "41610", LBIS.L["Back"], "Alt") --Deathchill Cloak
 LBIS:AddItem(spec, "40723", LBIS.L["Back"], "Alt") --Disguise of the Kumiho
 
 LBIS:AddItem(spec, "40469", LBIS.L["Chest"], "BIS") --Valorous Dreamwalker Vestments
+LBIS:AddItem(spec, "40627", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Vanquisher
 LBIS:AddItem(spec, "39547", LBIS.L["Chest"], "Alt") --Heroes' Dreamwalker Vestments
+LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Vanquisher
 LBIS:AddItem(spec, "40526", LBIS.L["Chest"], "Alt") --Gown of the Spell-Weaver
 LBIS:AddItem(spec, "40234", LBIS.L["Chest"], "Alt") --Heigan's Putrid Vestments
 LBIS:AddItem(spec, "44002", LBIS.L["Chest"], "BIS") --The Sanctum's Flowing Vestments
@@ -35,7 +41,9 @@ LBIS:AddItem(spec, "40741", LBIS.L["Wrist"], "Alt") --Cuffs of the Shadow Ascend
 LBIS:AddItem(spec, "39731", LBIS.L["Wrist"], "Alt") --Punctilious Bindings
 
 LBIS:AddItem(spec, "40466", LBIS.L["Hands"], "BIS") --Valorous Dreamwalker Gloves
+LBIS:AddItem(spec, "40630", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Vanquisher
 LBIS:AddItem(spec, "39544", LBIS.L["Hands"], "Alt") --Heroes' Dreamwalker Gloves
+LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "Alt") --Gloves of the Lost Vanquisher
 LBIS:AddItem(spec, "40380", LBIS.L["Hands"], "Alt") --Gloves of Grandeur
 LBIS:AddItem(spec, "39733", LBIS.L["Hands"], "Alt") --Gloves of Token Respect
 LBIS:AddItem(spec, "40197", LBIS.L["Hands"], "Alt") --Gloves of the Fallen Wizard
@@ -48,7 +56,9 @@ LBIS:AddItem(spec, "40341", LBIS.L["Waist"], "Alt") --Shackled Cinch
 
 LBIS:AddItem(spec, "40560", LBIS.L["Legs"], "BIS") --Leggings of the Wanton Spellcaster
 LBIS:AddItem(spec, "40468", LBIS.L["Legs"], "BIS") --Valorous Dreamwalker Trousers
+LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "BIS") --Leggings of the Lost Vanquisher
 LBIS:AddItem(spec, "39546", LBIS.L["Legs"], "Alt") --Heroes' Dreamwalker Trousers
+LBIS:AddItem(spec, "40621", LBIS.L["Legs"], "Alt") --Leggings of the Lost Vanquisher
 LBIS:AddItem(spec, "40379", LBIS.L["Legs"], "Alt") --Legguards of the Boneyard
 LBIS:AddItem(spec, "39720", LBIS.L["Legs"], "Alt") --Leggings of Atrophy
 LBIS:AddItem(spec, "40376", LBIS.L["Legs"], "Alt") --Legwraps of the Defeated Dragon

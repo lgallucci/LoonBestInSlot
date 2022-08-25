@@ -1,12 +1,15 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "1")
 
 LBIS:AddItem(spec, "40581", LBIS.L["Head"], "BIS") --Valorous Redemption Faceguard
+LBIS:AddItem(spec, "40631", LBIS.L["Head"], "BIS") --Crown of the Lost Conqueror
 LBIS:AddItem(spec, "40328", LBIS.L["Head"], "Alt") --Helm of Vital Protection
 LBIS:AddItem(spec, "39640", LBIS.L["Head"], "Alt Mit") --Heroes' Redemption Faceguard
+LBIS:AddItem(spec, "40616", LBIS.L["Head"], "Alt Mit") --Helm of the Lost Conqueror
 LBIS:AddItem(spec, "39395", LBIS.L["Head"], "Alt Mit") --Thane's Tainted Greathelm
 LBIS:AddItem(spec, "41387", LBIS.L["Head"], "Alt") --Tempered Titansteel Helm
 
 LBIS:AddItem(spec, "40584", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Shoulderguards
+LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 LBIS:AddItem(spec, "40334", LBIS.L["Shoulder"], "Alt") --Burdened Shoulderplates
 LBIS:AddItem(spec, "39704", LBIS.L["Shoulder"], "Alt Thrt") --Pauldrons of Unnatural Death
 LBIS:AddItem(spec, "39642", LBIS.L["Shoulder"], "Alt") --Heroes' Redemption Shoulderguards
@@ -18,8 +21,10 @@ LBIS:AddItem(spec, "39225", LBIS.L["Back"], "Alt Mit") --Cloak of Armed Strife
 LBIS:AddItem(spec, "43988", LBIS.L["Back"], "Alt") --Gale-Proof Cloak
 
 LBIS:AddItem(spec, "40579", LBIS.L["Chest"], "BIS Mit") --Valorous Redemption Breastplate
+LBIS:AddItem(spec, "40625", LBIS.L["Chest"], "BIS Mit") --Breastplate of the Lost Conqueror
 LBIS:AddItem(spec, "44000", LBIS.L["Chest"], "BIS Mit") --Dragonstorm Breastplate
 LBIS:AddItem(spec, "39638", LBIS.L["Chest"], "Alt Mit") --Heroes' Redemption Breastplate
+LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "Alt Mit") --Chestguard of the Lost Conqueror
 LBIS:AddItem(spec, "40279", LBIS.L["Chest"], "Alt Mit") --Chestguard of the Exhausted
 LBIS:AddItem(spec, "40203", LBIS.L["Chest"], "Alt") --Breastplate of Tormented Rage
 LBIS:AddItem(spec, "39398", LBIS.L["Chest"], "Alt") --Massive Skeletal Ribcage
@@ -30,8 +35,10 @@ LBIS:AddItem(spec, "40734", LBIS.L["Wrist"], "Alt") --Bracers of Dalaran's Parap
 LBIS:AddItem(spec, "39467", LBIS.L["Wrist"], "Alt Mit") --Minion Bracers
 
 LBIS:AddItem(spec, "40580", LBIS.L["Hands"], "BIS") --Valorous Redemption Handguards
+LBIS:AddItem(spec, "40628", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Conqueror
 LBIS:AddItem(spec, "39726", LBIS.L["Hands"], "BIS Mit") --Callous-Hearted Gauntlets
 LBIS:AddItem(spec, "40188", LBIS.L["Hands"], "BIS Mit") --Gauntlets of the Disobedient
+LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "Alt") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "39197", LBIS.L["Hands"], "Alt") --Gauntlets of the Master
 
 LBIS:AddItem(spec, "39759", LBIS.L["Waist"], "BIS") --Ablative Chitin Girdle
@@ -41,9 +48,11 @@ LBIS:AddItem(spec, "40689", LBIS.L["Waist"], "Alt Mit") --Waistguard of Living I
 
 LBIS:AddItem(spec, "40589", LBIS.L["Legs"], "BIS") --Legplates of Sovereignty
 LBIS:AddItem(spec, "40583", LBIS.L["Legs"], "Alt Mit") --Valorous Redemption Legguards
+LBIS:AddItem(spec, "40634", LBIS.L["Legs"], "Alt Mit") --Legplates of the Lost Conqueror
 LBIS:AddItem(spec, "40446", LBIS.L["Legs"], "Alt") --Dragon Brood Legguards
 LBIS:AddItem(spec, "39258", LBIS.L["Legs"], "Alt Mit") --Legplates of Inescapable Death
 LBIS:AddItem(spec, "39641", LBIS.L["Legs"], "Alt Mit") --Heroes' Redemption Legguards
+LBIS:AddItem(spec, "40619", LBIS.L["Legs"], "Alt Mit") --Leggings of the Lost Conqueror
 
 LBIS:AddItem(spec, "39717", LBIS.L["Feet"], "BIS Mit") --Inexorable Sabatons
 LBIS:AddItem(spec, "40297", LBIS.L["Feet"], "BIS") --Sabatons of Endurance
@@ -68,6 +77,8 @@ LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "BIS Stam") --Essence of Gossamer
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS Thrt") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "29387", LBIS.L["Trinket"], "Alt Mit") --Gnomeregan Auto-Blocker 600
 LBIS:AddItem(spec, "39292", LBIS.L["Trinket"], "Alt Mit") --Repelling Charge
+LBIS:AddItem(spec, "40683", LBIS.L["Trinket"], "Alt Mit") --Valor Medal of the First War
+LBIS:AddItem(spec, "40372", LBIS.L["Trinket"], "Alt Mit") --Rune of Repulsion
 
 LBIS:AddItem(spec, "40402", LBIS.L["Main Hand"], "BIS") --Last Laugh
 LBIS:AddItem(spec, "40345", LBIS.L["Main Hand"], "BIS") --Broken Promise

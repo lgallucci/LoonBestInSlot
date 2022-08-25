@@ -1,19 +1,23 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "1")
 
 LBIS:AddItem(spec, "40546", LBIS.L["Head"], "BIS") --Valorous Dreadnaught Greathelm
+LBIS:AddItem(spec, "40632", LBIS.L["Head"], "BIS") --Crown of the Lost Protector
 LBIS:AddItem(spec, "44006", LBIS.L["Head"], "BIS Thrt") --Obsidian Greathelm
 LBIS:AddItem(spec, "40328", LBIS.L["Head"], "Alt") --Helm of Vital Protection
 LBIS:AddItem(spec, "39610", LBIS.L["Head"], "BIS") --Heroes' Dreadnaught Greathelm
+LBIS:AddItem(spec, "40617", LBIS.L["Head"], "BIS") --Helm of the Lost Protector
 LBIS:AddItem(spec, "42549", LBIS.L["Head"], "BIS") --Armored Titanium Goggles
 LBIS:AddItem(spec, "41387", LBIS.L["Head"], "BIS") --Tempered Titansteel Helm
 LBIS:AddItem(spec, "39395", LBIS.L["Head"], "Alt") --Thane's Tainted Greathelm
 
 LBIS:AddItem(spec, "39704", LBIS.L["Shoulder"], "BIS") --Pauldrons of Unnatural Death
 LBIS:AddItem(spec, "40548", LBIS.L["Shoulder"], "Alt") --Valorous Dreadnaught Pauldrons
+LBIS:AddItem(spec, "40638", LBIS.L["Shoulder"], "Alt") --Mantle of the Lost Protector
 LBIS:AddItem(spec, "44312", LBIS.L["Shoulder"], "Alt") --Wapach's Spaulders of Solidarity
 LBIS:AddItem(spec, "40334", LBIS.L["Shoulder"], "Alt") --Burdened Shoulderplates
 LBIS:AddItem(spec, "39267", LBIS.L["Shoulder"], "BIS") --Abomination Shoulderblades
 LBIS:AddItem(spec, "39613", LBIS.L["Shoulder"], "Alt") --Heroes' Dreadnaught Pauldrons
+LBIS:AddItem(spec, "40623", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Protector
 
 LBIS:AddItem(spec, "40252", LBIS.L["Back"], "BIS") --Cloak of the Shadowed Sun
 LBIS:AddItem(spec, "40410", LBIS.L["Back"], "Alt") --Shadow of the Ghoul
@@ -21,12 +25,14 @@ LBIS:AddItem(spec, "40722", LBIS.L["Back"], "Alt") --Platinum Mesh Cloak
 LBIS:AddItem(spec, "43988", LBIS.L["Back"], "BIS") --Gale-Proof Cloak
 
 LBIS:AddItem(spec, "40544", LBIS.L["Chest"], "BIS") --Valorous Dreadnaught Breastplate
+LBIS:AddItem(spec, "40626", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Protector
 LBIS:AddItem(spec, "44000", LBIS.L["Chest"], "Alt") --Dragonstorm Breastplate
 LBIS:AddItem(spec, "39767", LBIS.L["Chest"], "Alt") --Undiminished Battleplate
 LBIS:AddItem(spec, "40203", LBIS.L["Chest"], "Alt Mit") --Breastplate of Tormented Rage
 LBIS:AddItem(spec, "39398", LBIS.L["Chest"], "BIS") --Massive Skeletal Ribcage
 LBIS:AddItem(spec, "40279", LBIS.L["Chest"], "Alt") --Chestguard of the Exhausted
 LBIS:AddItem(spec, "39611", LBIS.L["Chest"], "BIS") --Heroes' Dreadnaught Breastplate
+LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Protector
 
 LBIS:AddItem(spec, "39764", LBIS.L["Wrist"], "BIS") --Bindings of the Hapless Prey
 LBIS:AddItem(spec, "40734", LBIS.L["Wrist"], "Alt") --Bracers of Dalaran's Parapets
@@ -34,6 +40,7 @@ LBIS:AddItem(spec, "40306", LBIS.L["Wrist"], "Alt") --Bracers of the Unholy Knig
 LBIS:AddItem(spec, "39467", LBIS.L["Wrist"], "BIS") --Minion Bracers
 
 LBIS:AddItem(spec, "40545", LBIS.L["Hands"], "BIS") --Valorous Dreadnaught Handguards
+LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "BIS") --Gloves of the Lost Protector
 LBIS:AddItem(spec, "40188", LBIS.L["Hands"], "Alt") --Gauntlets of the Disobedient
 LBIS:AddItem(spec, "37645", LBIS.L["Hands"], "BIS") --Horn-Tipped Gauntlets
 LBIS:AddItem(spec, "39622", LBIS.L["Hands"], "BIS") --Heroes' Dreadnaught Handguards
@@ -45,10 +52,12 @@ LBIS:AddItem(spec, "40263", LBIS.L["Waist"], "Alt") --Fleshless Girdle
 
 LBIS:AddItem(spec, "40589", LBIS.L["Legs"], "BIS") --Legplates of Sovereignty
 LBIS:AddItem(spec, "40547", LBIS.L["Legs"], "Alt") --Valorous Dreadnaught Legguards
+LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "Alt") --Leggings of the Lost Protector
 LBIS:AddItem(spec, "40446", LBIS.L["Legs"], "Alt") --Dragon Brood Legguards
 LBIS:AddItem(spec, "39258", LBIS.L["Legs"], "BIS") --Legplates of Inescapable Death
 LBIS:AddItem(spec, "40240", LBIS.L["Legs"], "Alt") --Greaves of Turbulence
 LBIS:AddItem(spec, "39612", LBIS.L["Legs"], "Alt") --Heroes' Dreadnaught Legguards
+LBIS:AddItem(spec, "40620", LBIS.L["Legs"], "Alt") --Leggings of the Lost Protector
 LBIS:AddItem(spec, "43500", LBIS.L["Legs"], "BIS") --Bolstered Legplates
 
 LBIS:AddItem(spec, "39717", LBIS.L["Feet"], "BIS") --Inexorable Sabatons

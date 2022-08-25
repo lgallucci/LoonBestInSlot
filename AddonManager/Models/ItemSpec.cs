@@ -176,6 +176,8 @@ public class ItemSpec
         new (" Utility", ""),
         new (" 10-man", ""),
         new (" 25-man", ""),
+        new (" 2p Bonus", ""),
+        new (" 2p", ""),
 
         new ("Alt Alt", "Alt"),
         new ("Temporary  Alt", "Alt"),

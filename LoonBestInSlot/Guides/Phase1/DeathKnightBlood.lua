@@ -1,11 +1,13 @@
 local spec = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Blood"], "1")
 
 LBIS:AddItem(spec, "40565", LBIS.L["Head"], "BIS") --Valorous Scourgeborne Faceguard
+LBIS:AddItem(spec, "40633", LBIS.L["Head"], "BIS") --Crown of the Lost Vanquisher
 LBIS:AddItem(spec, "40328", LBIS.L["Head"], "Alt") --Helm of Vital Protection
 LBIS:AddItem(spec, "39395", LBIS.L["Head"], "Alt") --Thane's Tainted Greathelm
 
 LBIS:AddItem(spec, "39704", LBIS.L["Shoulder"], "BIS") --Pauldrons of Unnatural Death
 LBIS:AddItem(spec, "40568", LBIS.L["Shoulder"], "BIS") --Valorous Scourgeborne Pauldrons
+LBIS:AddItem(spec, "40639", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Vanquisher
 LBIS:AddItem(spec, "39267", LBIS.L["Shoulder"], "Alt") --Abomination Shoulderblades
 
 LBIS:AddItem(spec, "40252", LBIS.L["Back"], "BIS") --Cloak of the Shadowed Sun
@@ -13,6 +15,7 @@ LBIS:AddItem(spec, "40722", LBIS.L["Back"], "BIS") --Platinum Mesh Cloak
 LBIS:AddItem(spec, "43988", LBIS.L["Back"], "Alt") --Gale-Proof Cloak
 
 LBIS:AddItem(spec, "40559", LBIS.L["Chest"], "BIS") --Valorous Scourgeborne Chestguard
+LBIS:AddItem(spec, "40627", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Vanquisher
 LBIS:AddItem(spec, "44000", LBIS.L["Chest"], "Alt") --Dragonstorm Breastplate
 LBIS:AddItem(spec, "40203", LBIS.L["Chest"], "Alt") --Breastplate of Tormented Rage
 
@@ -21,13 +24,16 @@ LBIS:AddItem(spec, "40734", LBIS.L["Wrist"], "BIS") --Bracers of Dalaran's Parap
 LBIS:AddItem(spec, "39467", LBIS.L["Wrist"], "Alt") --Minion Bracers
 
 LBIS:AddItem(spec, "40563", LBIS.L["Hands"], "BIS") --Valorous Scourgeborne Handguards
+LBIS:AddItem(spec, "40630", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Vanquisher
 LBIS:AddItem(spec, "39726", LBIS.L["Hands"], "Alt") --Callous-Hearted Gauntlets
 LBIS:AddItem(spec, "39624", LBIS.L["Hands"], "Alt") --Heroes' Scourgeborne Handguards
+LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "Alt") --Gloves of the Lost Vanquisher
 
 LBIS:AddItem(spec, "39759", LBIS.L["Waist"], "BIS") --Ablative Chitin Girdle
 LBIS:AddItem(spec, "40689", LBIS.L["Waist"], "Alt") --Waistguard of Living Iron
 
 LBIS:AddItem(spec, "40567", LBIS.L["Legs"], "BIS") --Valorous Scourgeborne Legguards
+LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "BIS") --Leggings of the Lost Vanquisher
 LBIS:AddItem(spec, "40589", LBIS.L["Legs"], "Alt") --Legplates of Sovereignty
 LBIS:AddItem(spec, "40446", LBIS.L["Legs"], "Alt") --Dragon Brood Legguards
 

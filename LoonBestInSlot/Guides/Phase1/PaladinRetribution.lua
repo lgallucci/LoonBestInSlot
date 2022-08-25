@@ -1,10 +1,12 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "1")
 
 LBIS:AddItem(spec, "40576", LBIS.L["Head"], "BIS") --Valorous Redemption Helm
+LBIS:AddItem(spec, "40631", LBIS.L["Head"], "BIS") --Crown of the Lost Conqueror
 LBIS:AddItem(spec, "44006", LBIS.L["Head"], "Alt") --Obsidian Greathelm
 LBIS:AddItem(spec, "41386", LBIS.L["Head"], "Alt") --Spiked Titansteel Helm
 
 LBIS:AddItem(spec, "40578", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Shoulderplates
+LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 LBIS:AddItem(spec, "44003", LBIS.L["Shoulder"], "Alt") --Upstanding Spaulders
 LBIS:AddItem(spec, "43481", LBIS.L["Shoulder"], "Alt") --Trollwoven Spaulders
 LBIS:AddItem(spec, "34388", LBIS.L["Shoulder"], "BIS") --Pauldrons of Berserking
@@ -15,8 +17,10 @@ LBIS:AddItem(spec, "40721", LBIS.L["Back"], "Alt") --Hammerhead Sharkskin Cloak
 LBIS:AddItem(spec, "37647", LBIS.L["Back"], "Alt") --Cloak of Bloodied Waters
 
 LBIS:AddItem(spec, "40574", LBIS.L["Chest"], "BIS") --Valorous Redemption Chestpiece
+LBIS:AddItem(spec, "40625", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Conqueror
 LBIS:AddItem(spec, "40539", LBIS.L["Chest"], "BIS") --Chestguard of the Recluse
 LBIS:AddItem(spec, "39633", LBIS.L["Chest"], "Alt") --Heroes' Redemption Chestpiece
+LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Conqueror
 
 LBIS:AddItem(spec, "40186", LBIS.L["Wrist"], "BIS") --Thrusting Bands
 LBIS:AddItem(spec, "40330", LBIS.L["Wrist"], "Alt") --Bracers of Unrelenting Attack
@@ -24,7 +28,9 @@ LBIS:AddItem(spec, "41355", LBIS.L["Wrist"], "Alt") --Vengeance Bindings
 
 LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "BIS") --Frosted Adroit Handguards
 LBIS:AddItem(spec, "40575", LBIS.L["Hands"], "BIS") --Valorous Redemption Gauntlets
+LBIS:AddItem(spec, "40628", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Conqueror
 LBIS:AddItem(spec, "39634", LBIS.L["Hands"], "BIS") --Heroes' Redemption Gauntlets
+LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "BIS") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "34370", LBIS.L["Hands"], "BIS") --Gloves of Immortal Dusk
 
 LBIS:AddItem(spec, "40260", LBIS.L["Waist"], "BIS") --Belt of the Tortured
@@ -36,6 +42,7 @@ LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "Alt") --Belt of the Forgotten Vanq
 LBIS:AddItem(spec, "40688", LBIS.L["Waist"], "Alt") --Verdungo's Barbarian Cord
 
 LBIS:AddItem(spec, "40577", LBIS.L["Legs"], "BIS") --Valorous Redemption Legplates
+LBIS:AddItem(spec, "40634", LBIS.L["Legs"], "BIS") --Legplates of the Lost Conqueror
 LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "Alt") --Leggings of the Honored
 LBIS:AddItem(spec, "37193", LBIS.L["Legs"], "Alt") --Staggering Legplates
 
