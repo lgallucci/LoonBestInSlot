@@ -8343,6 +8343,321 @@
       "SourceType": "Drop",
       "SourceNumber": "",
       "SourceLocation": "Toravon the Ice Watcher (25)"
+    },
+    "40428": {
+      "Name": "Titan's Outlook",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "40427": {
+      "Name": "Circle of Arcane Streams",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "40426": {
+      "Name": "Signet of the Accord",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "40433": {
+      "Name": "Wyrmrest Band",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "40430": {
+      "Name": "Majestic Dragon Figurine",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "40429": {
+      "Name": "Crimson Steel",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "43345": {
+      "Name": "Dragon Hide Bag",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "43347": {
+      "Name": "Satchel of Spoils",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "43988": {
+      "Name": "Gale-Proof Cloak",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "43990": {
+      "Name": "Blade-Scarred Tunic",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "43991": {
+      "Name": "Legguards of Composure",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "43989": {
+      "Name": "Remembrance Girdle",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "43992": {
+      "Name": "Volitant Amulet",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "40613": {
+      "Name": "Gloves of the Lost Conqueror",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "40614": {
+      "Name": "Gloves of the Lost Protector",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "40615": {
+      "Name": "Gloves of the Lost Vanquisher",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "43995": {
+      "Name": "Enamored Cowl",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "43998": {
+      "Name": "Chestguard of Flagrant Prowess",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "43996": {
+      "Name": "Sabatons of Firmament",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "43994": {
+      "Name": "Belabored Legplates",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "43993": {
+      "Name": "Greatring of Collision",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "43986": {
+      "Name": "Reins of the Black Drake",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (10)"
+    },
+    "40437": {
+      "Name": "Concealment Shoulderpads",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "40439": {
+      "Name": "Mantle of the Eternal Sentinel",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "40451": {
+      "Name": "Hyaline Helm of the Sniper",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "40438": {
+      "Name": "Council Chamber Epaulets",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "40453": {
+      "Name": "Chestplate of the Great Aspects",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "40446": {
+      "Name": "Dragon Brood Legguards",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "40431": {
+      "Name": "Fury of the Five Flights",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "40432": {
+      "Name": "Illustration of the Dragon Soul",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "40455": {
+      "Name": "Staff of Restraint",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "43346": {
+      "Name": "Large Satchel of Spoils",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "40628": {
+      "Name": "Gauntlets of the Lost Conqueror",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "40629": {
+      "Name": "Gauntlets of the Lost Protector",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "40630": {
+      "Name": "Gauntlets of the Lost Vanquisher",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "44002": {
+      "Name": "The Sanctum's Flowing Vestments",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "44003": {
+      "Name": "Upstanding Spaulders",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "44004": {
+      "Name": "Bountiful Gauntlets",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "44000": {
+      "Name": "Dragonstorm Breastplate",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "44005": {
+      "Name": "Pennant Cloak",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "44008": {
+      "Name": "Unsullied Cuffs",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "44007": {
+      "Name": "Headpiece of Reconciliation",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "44011": {
+      "Name": "Leggings of the Honored",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "44006": {
+      "Name": "Obsidian Greathelm",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "43954": {
+      "Name": "Reins of the Twilight Drake",
+      "Source": "Sartharion",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Obsidian Sanctum (25)"
     }
   }
 }
