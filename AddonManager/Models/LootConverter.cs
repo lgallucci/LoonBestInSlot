@@ -112,6 +112,7 @@ public class RaidConverter : LootConverter
         var items = new DatabaseItems();
         jsonText = jsonText.Replace(@"\'", "'").Replace("\\\\\"", "\\\"");
         var obj = JsonConvert.DeserializeObject<dynamic>(jsonText);
+        var heroicTag = ((bool)obj.heroic) ? "Heroic " : "";
         foreach (var itemType in obj.raid10)
         {
             foreach (var item in itemType.Normal)
@@ -124,7 +125,7 @@ public class RaidConverter : LootConverter
                         Name = item[1].title,
                         SourceNumber = "",
                         Source = itemType.title,
-                        SourceLocation = $"{obj.title.ToString()} (10)",
+                        SourceLocation = $"{obj.title.ToString()} ({heroicTag}10)",
                         SourceType = "Drop"
                     });
                 }
@@ -142,7 +143,7 @@ public class RaidConverter : LootConverter
                         Name = item[1].title,
                         SourceNumber = "",
                         Source = itemType.title,
-                        SourceLocation = $"{obj.title.ToString()} (25)",
+                        SourceLocation = $"{obj.title.ToString()} ({heroicTag}25)",
                         SourceType = "Drop"
                     });
                 }

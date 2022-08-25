@@ -18457,7 +18457,7 @@
       "Source": "Sindragosa",
       "SourceType": "Drop",
       "SourceNumber": "",
-      "SourceLocation": "Icecrown Citadel (10)"
+      "SourceLocation": "Icecrown Citadel (10)/Icecrown Citadel (Heroic 25)"
     },
     "51779": {
       "Name": "Rimetooth Pendant",
@@ -18660,14 +18660,14 @@
       "Source": "Lord Marrowgar",
       "SourceType": "Drop",
       "SourceNumber": "",
-      "SourceLocation": "Icecrown Citadel (25)"
+      "SourceLocation": "Icecrown Citadel (25)/Icecrown Citadel (Heroic 25)"
     },
     "49908": {
       "Name": "Primordial Saronite",
-      "Source": "Lord Marrowgar",
+      "Source": "Lord Marrowgar/The Lich King",
       "SourceType": "Drop",
       "SourceNumber": "",
-      "SourceLocation": "Icecrown Citadel (25)"
+      "SourceLocation": "Icecrown Citadel (25)/Icecrown Citadel (Heroic 10)"
     },
     "49991": {
       "Name": "Shoulders of Mercy Killing",
@@ -18919,21 +18919,21 @@
       "Source": "Deathbringer Saurfang",
       "SourceType": "Drop",
       "SourceNumber": "",
-      "SourceLocation": "Icecrown Citadel (25)"
+      "SourceLocation": "Icecrown Citadel (25)/Icecrown Citadel (Heroic 10)"
     },
     "52026": {
       "Name": "Protector's Mark of Sanctification",
       "Source": "Deathbringer Saurfang",
       "SourceType": "Drop",
       "SourceNumber": "",
-      "SourceLocation": "Icecrown Citadel (25)"
+      "SourceLocation": "Icecrown Citadel (25)/Icecrown Citadel (Heroic 10)"
     },
     "52025": {
       "Name": "Vanquisher's Mark of Sanctification",
       "Source": "Deathbringer Saurfang",
       "SourceType": "Drop",
       "SourceNumber": "",
-      "SourceLocation": "Icecrown Citadel (25)"
+      "SourceLocation": "Icecrown Citadel (25)/Icecrown Citadel (Heroic 10)"
     },
     "50063": {
       "Name": "Lingering Illness",
@@ -19164,7 +19164,7 @@
       "Source": "Rotface",
       "SourceType": "Drop",
       "SourceNumber": "",
-      "SourceLocation": "Icecrown Citadel (25)"
+      "SourceLocation": "Icecrown Citadel (25)/Icecrown Citadel (Heroic 25)"
     },
     "50067": {
       "Name": "Astrylian's Sutured Cinch",
@@ -19599,6 +19599,1973 @@
       "SourceType": "Drop",
       "SourceNumber": "",
       "SourceLocation": "Icecrown Citadel (25)"
+    },
+    "51933": {
+      "Name": "Shawl of Nerubian Silk",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51930": {
+      "Name": "Cord of the Patronizing Practitioner",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51929": {
+      "Name": "Coldwraith Bracers",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51935": {
+      "Name": "Linked Scourge Vertebrae",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51928": {
+      "Name": "Corrupted Silverplate Leggings",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51931": {
+      "Name": "Ancient Skeletal Boots",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51934": {
+      "Name": "Marrowgar's Scratching Choker",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "50346": {
+      "Name": "Sliver of Pure Ice",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51932": {
+      "Name": "Frost Needle",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51936": {
+      "Name": "Citadel Enforcer's Claymore",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51938": {
+      "Name": "Bone Warden's Splitter",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51937": {
+      "Name": "Bonebreaker Scepter",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51918": {
+      "Name": "Bracers of Dark Blessings",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51921": {
+      "Name": "Sister's Handshrouds",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51923": {
+      "Name": "Chestguard of the Frigid Noose",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51925": {
+      "Name": "Soulthief's Braided Belt",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51920": {
+      "Name": "Boots of the Frozen Seed",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51926": {
+      "Name": "Handgrips of Frost and Sleet",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51919": {
+      "Name": "Deathspeaker Disciple's Belt",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51924": {
+      "Name": "Deathspeaker Zealot's Helm",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51917": {
+      "Name": "Ghoul Commander's Cuirass",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "50343": {
+      "Name": "Whispering Fanged Skull",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51922": {
+      "Name": "Scourgelord's Baton",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51927": {
+      "Name": "Njorndar Bone Bow",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51912": {
+      "Name": "Saronite Gargoyle Cloak",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51908": {
+      "Name": "Cord of Dark Suffering",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51906": {
+      "Name": "Ice-Reinforced Vrykul Helm",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51911": {
+      "Name": "Pauldrons of Lost Hope",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51914": {
+      "Name": "Icecrown Rampart Bracers",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51907": {
+      "Name": "Bracers of Pale Illumination",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51915": {
+      "Name": "Bone Drake's Enameled Boots",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51913": {
+      "Name": "Abomination's Bloody Ring",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "50345": {
+      "Name": "Muradin's Spyglass",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51910": {
+      "Name": "Midnight Sun",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51916": {
+      "Name": "Frost Giant's Cleaver",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51909": {
+      "Name": "Neverending Winter",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51896": {
+      "Name": "Thaumaturge's Crackling Cowl",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51899": {
+      "Name": "Icecrown Spire Sandals",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51904": {
+      "Name": "Scourge Stranglers",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51897": {
+      "Name": "Leggings of Unrelenting Blood",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51903": {
+      "Name": "Hauberk of a Thousand Cuts",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51902": {
+      "Name": "Blade-Scored Carapace",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51901": {
+      "Name": "Gargoyle Spit Bracers",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51895": {
+      "Name": "Deathforged Legplates",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51894": {
+      "Name": "Soulcleave Pendant",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51900": {
+      "Name": "Saurfang's Cold-Forged Band",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51905": {
+      "Name": "Ramaladni's Blade of Culling",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51898": {
+      "Name": "Mag'hari Chieftain's Staff",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51888": {
+      "Name": "Cloak of Many Skins",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51883": {
+      "Name": "Bloodstained Surgeon's Shoulderguards",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51882": {
+      "Name": "Kilt of Untreated Wounds",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51885": {
+      "Name": "Wrists of Septic Shock",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51889": {
+      "Name": "Plague-Soaked Leather Leggings",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51891": {
+      "Name": "Taldron's Long Neglected Boots",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51886": {
+      "Name": "Festergut's Gaseous Gloves",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51892": {
+      "Name": "Festering Fingerguards",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51890": {
+      "Name": "Precious's Putrid Collar",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51884": {
+      "Name": "Signet of Putrefaction",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51893": {
+      "Name": "Gutbuster",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51887": {
+      "Name": "Abracadaver",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51872": {
+      "Name": "Ether-Soaked Bracers",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51874": {
+      "Name": "Gloves of Broken Fingers",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51870": {
+      "Name": "Chestguard of the Failed Experiment",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51877": {
+      "Name": "Taldron's Short-Sighted Helm",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51873": {
+      "Name": "Shuffling Shoes",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51879": {
+      "Name": "Flesh-Shaper's Gurney Strap",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51871": {
+      "Name": "Choker of Filthy Diamonds",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51878": {
+      "Name": "Rotface's Rupturing Ring",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51876": {
+      "Name": "Abomination Knuckles",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51875": {
+      "Name": "Lockjaw",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51881": {
+      "Name": "Shaft of Glacial Ice",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51880": {
+      "Name": "Gluth's Fetching Knife",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51859": {
+      "Name": "Shoulders of Ruinous Senility",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51862": {
+      "Name": "Cauterized Cord",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51866": {
+      "Name": "Discarded Bag of Entrails",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51864": {
+      "Name": "Shoulderpads of the Morbid Ritual",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51860": {
+      "Name": "Rippling Flesh Kilt",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51865": {
+      "Name": "Scalpel-Sharpening Shoulderguards",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51861": {
+      "Name": "Chestplate of Septic Stitches",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51867": {
+      "Name": "Infected Choker",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51863": {
+      "Name": "Pendant of Split Veins",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "50344": {
+      "Name": "Unidentifiable Organ",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51868": {
+      "Name": "Flesh-Carving Scalpel",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51869": {
+      "Name": "The Facelifter",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51848": {
+      "Name": "Heartsick Mender's Cape",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51851": {
+      "Name": "Bloodsoul Raiment",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51850": {
+      "Name": "Pale Corpse Boots",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51856": {
+      "Name": "Taldaram's Soft Slippers",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51853": {
+      "Name": "Blood-Drinker's Girdle",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51847": {
+      "Name": "Spaulders of the Blood Princes",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51854": {
+      "Name": "Battle-Maiden's Legguards",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51849": {
+      "Name": "Cerise Coiled Ring",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51855": {
+      "Name": "Thrice Fanged Signet",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51858": {
+      "Name": "Soulbreaker",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51857": {
+      "Name": "Hersir's Greatspear",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51852": {
+      "Name": "Wand of Ruby Claret",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51837": {
+      "Name": "Cowl of Malefic Repose",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51839": {
+      "Name": "Shoulderpads of the Searing Kiss",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51841": {
+      "Name": "Ivory-Inlaid Leggings",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51840": {
+      "Name": "Chestguard of Siphoned Elements",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51844": {
+      "Name": "Throatrender Handguards",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51835": {
+      "Name": "Veincrusher Gauntlets",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51836": {
+      "Name": "Tightening Waistband",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51842": {
+      "Name": "Collar of Haughty Disdain",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51843": {
+      "Name": "Seal of the Twilight Queen",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51846": {
+      "Name": "Bloodsipper",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51845": {
+      "Name": "Stakethrower",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51838": {
+      "Name": "Lana'thel's Bloody Nail",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51826": {
+      "Name": "Lich Wrappings",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51823": {
+      "Name": "Leggings of the Refracted Mind",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51825": {
+      "Name": "Sister Svalna's Spangenhelm",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51830": {
+      "Name": "Skinned Whelp Shoulders",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51827": {
+      "Name": "Stormbringer Gloves",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51829": {
+      "Name": "Legguards of the Twisted Dream",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51824": {
+      "Name": "Emerald Saint's Spaulders",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51832": {
+      "Name": "Taiga Bindings",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51831": {
+      "Name": "Ironrope Belt of Ymirjar",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51833": {
+      "Name": "Oxheart",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51828": {
+      "Name": "Sister Svalna's Aether Staff",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51834": {
+      "Name": "Dreamhunter's Carbine",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51813": {
+      "Name": "Robes of Azure Downfall",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51820": {
+      "Name": "Vambraces of the Frost Wyrm Queen",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51814": {
+      "Name": "Icicle Shapers",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51811": {
+      "Name": "Shoulderguards of Crystalline Bone",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51818": {
+      "Name": "Wyrmwing Treads",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51821": {
+      "Name": "Etched Dragonbone Girdle",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51817": {
+      "Name": "Legplates of Aetheric Strife",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51816": {
+      "Name": "Scourge Fanged Stompers",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51822": {
+      "Name": "Rimetooth Pendant",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51819": {
+      "Name": "Splintershard",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51815": {
+      "Name": "Bleak Coldarra Carver",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51812": {
+      "Name": "Lost Pavise of the Blue Flight",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51941": {
+      "Name": "Pugius, Fist of Defiance",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51939": {
+      "Name": "Tel'thas, Dagger of the Blood King",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51942": {
+      "Name": "Stormfury, Black Blade of the Betrayer",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51947": {
+      "Name": "Troggbane, Axe of the Frostborne King",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51944": {
+      "Name": "Valius, Gavel of the Lightbringer",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51946": {
+      "Name": "Warmace of Menethil",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51943": {
+      "Name": "Halion, Staff of Forgotten Love",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51945": {
+      "Name": "Tainted Twig of Nordrassil",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "51940": {
+      "Name": "Windrunner's Heartseeker",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 10)"
+    },
+    "50613": {
+      "Name": "Crushing Coldwraith Belt",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50615": {
+      "Name": "Handguards of Winter's Respite",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50607": {
+      "Name": "Frostbitten Fur Boots",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50605": {
+      "Name": "Snowserpent Mail Helm",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50617": {
+      "Name": "Rusted Bonespike Pauldrons",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50606": {
+      "Name": "Gendarme's Cuirass",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50611": {
+      "Name": "Bracers of Dark Reckoning",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50612": {
+      "Name": "Legguards of Lost Hope",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50609": {
+      "Name": "Bone Sentinel's Amulet",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50604": {
+      "Name": "Band of the Bone Colossus",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50614": {
+      "Name": "Loop of the Endless Labyrinth",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50610": {
+      "Name": "Marrowgar's Frigid Eye",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50608": {
+      "Name": "Frozen Bonespike",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50709": {
+      "Name": "Bryntroll, the Bone Arbiter",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50616": {
+      "Name": "Bulwark of Smouldering Steel",
+      "Source": "Lord Marrowgar",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50643": {
+      "Name": "Shoulders of Mercy Killing",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50651": {
+      "Name": "The Lady's Brittle Bracers",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50646": {
+      "Name": "Cultist's Bloodsoaked Spaulders",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50649": {
+      "Name": "Deathwhisper Raiment",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50645": {
+      "Name": "Leggings of Northern Lights",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50652": {
+      "Name": "Necrophotic Greaves",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50640": {
+      "Name": "Broken Ram Skull Helm",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50650": {
+      "Name": "Fallen Lord's Handguards",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50639": {
+      "Name": "Blood-Soaked Saronite Stompers",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50647": {
+      "Name": "Ahn'kahar Onyx Neckguard",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50642": {
+      "Name": "Juggernaut Band",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50644": {
+      "Name": "Ring of Maddening Whispers",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50641": {
+      "Name": "Heartpierce",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50648": {
+      "Name": "Nibelung",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50638": {
+      "Name": "Zod's Repeating Longbow",
+      "Source": "Lady Deathwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50653": {
+      "Name": "Shadowvault Slayer's Cloak",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50661": {
+      "Name": "Corp'rethar Ceremonial Crown",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50663": {
+      "Name": "Gunship Captain's Mittens",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50656": {
+      "Name": "Ikfirus's Sack of Wonder",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50665": {
+      "Name": "Boots of Unnatural Growth",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50655": {
+      "Name": "Scourge Hunter's Vambraces",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50660": {
+      "Name": "Boneguard Commander's Pauldrons",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50659": {
+      "Name": "Polar Bear Claw Bracers",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50667": {
+      "Name": "Waistband of Righteous Fury",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50658": {
+      "Name": "Amulet of the Silent Eulogy",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50664": {
+      "Name": "Ring of Rapid Ascent",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50657": {
+      "Name": "Skeleton Lord's Circle",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50366": {
+      "Name": "Althor's Abacus",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50349": {
+      "Name": "Corpse Tongue Coin",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50654": {
+      "Name": "Scourgeborne Waraxe",
+      "Source": "Icecrown Gunship Battle",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50668": {
+      "Name": "Greatcloak of the Turned Champion",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50670": {
+      "Name": "Toskk's Maximized Wristguards",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50671": {
+      "Name": "Belt of the Blood Nova",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50363": {
+      "Name": "Deathbringer's Will",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50672": {
+      "Name": "Bloodvenom Blade",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "52030": {
+      "Name": "Conqueror's Mark of Sanctification",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "52029": {
+      "Name": "Protector's Mark of Sanctification",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "52028": {
+      "Name": "Vanquisher's Mark of Sanctification",
+      "Source": "Deathbringer Saurfang",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50702": {
+      "Name": "Lingering Illness",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50694": {
+      "Name": "Plaguebringer's Stained Pants",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50699": {
+      "Name": "Plague Scientist's Boots",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50697": {
+      "Name": "Gangrenous Leggings",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50696": {
+      "Name": "Leather of Stitched Scourge Parts",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50698": {
+      "Name": "Horrific Flesh Epaulets",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50689": {
+      "Name": "Carapace of Forgotten Kings",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50703": {
+      "Name": "Unclean Surgical Gloves",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50688": {
+      "Name": "Nerub'ar Stalker's Cord",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50701": {
+      "Name": "Faceplate of the Forgotten",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50690": {
+      "Name": "Fleshrending Gauntlets",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50691": {
+      "Name": "Belt of Broken Bones",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50700": {
+      "Name": "Holiday's Grace",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50693": {
+      "Name": "Might of Blight",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50692": {
+      "Name": "Black Bruise",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50695": {
+      "Name": "Distant Land",
+      "Source": "Festergut",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50677": {
+      "Name": "Winding Sheet",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50686": {
+      "Name": "Death Surgeon's Sleeves",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50679": {
+      "Name": "Helm of the Elder Moon",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50675": {
+      "Name": "Aldriana's Gloves of Secrecy",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50673": {
+      "Name": "Dual-Bladed Pauldrons",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50687": {
+      "Name": "Bloodsunder's Bracers",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50674": {
+      "Name": "Raging Behemoth's Shoulderplates",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50681": {
+      "Name": "Blightborne Warplate",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50680": {
+      "Name": "Rot-Resistant Breastplate",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50682": {
+      "Name": "Bile-Encrusted Medallion",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50678": {
+      "Name": "Seal of Many Mouths",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50348": {
+      "Name": "Dislodged Foreign Object",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50685": {
+      "Name": "Trauma",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50676": {
+      "Name": "Rib Spreader",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50684": {
+      "Name": "Corpse-Impaling Spike",
+      "Source": "Rotface",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50707": {
+      "Name": "Astrylian's Sutured Cinch",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50705": {
+      "Name": "Professor's Bloodied Smock",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50706": {
+      "Name": "Tiny Abomination in a Jar",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50708": {
+      "Name": "Last Word",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50704": {
+      "Name": "Rigormortis",
+      "Source": "Professor Putricide",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50718": {
+      "Name": "Royal Crimson Cloak",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50717": {
+      "Name": "Sanguine Silk Robes",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50722": {
+      "Name": "San'layn Ritualist Gloves",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50713": {
+      "Name": "Geistlord's Punishment Sack",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50715": {
+      "Name": "Shoulders of Frost-Tipped Thorns",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50723": {
+      "Name": "Mail of Crimson Coins",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50711": {
+      "Name": "Treads of the Wasteland",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50712": {
+      "Name": "Landsoul's Horned Greathelm",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50716": {
+      "Name": "Taldaram's Plated Fists",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50721": {
+      "Name": "Crypt Keeper's Bracers",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50720": {
+      "Name": "Incarnadine Band of Mending",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50714": {
+      "Name": "Valanar's Other Signet Ring",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50719": {
+      "Name": "Shadow Silk Spindle",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50710": {
+      "Name": "Keleseth's Seducer",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50603": {
+      "Name": "Cryptmaker",
+      "Source": "Blood Prince Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50724": {
+      "Name": "Blood Queen's Crimson Choker",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50728": {
+      "Name": "Lana'thel's Chain of Flagellation",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50726": {
+      "Name": "Bauble of True Blood",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50727": {
+      "Name": "Bloodfall",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50725": {
+      "Name": "Dying Light",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50729": {
+      "Name": "Icecrown Glacial Wall",
+      "Source": "Blood-Queen Lana'thel",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50628": {
+      "Name": "Frostbinder's Shredded Cape",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50629": {
+      "Name": "Robe of the Waking Nightmare",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50630": {
+      "Name": "Bracers of Eternal Dreaming",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50626": {
+      "Name": "Snowstorm Helm",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50619": {
+      "Name": "Anub'ar Stalker's Gloves",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50620": {
+      "Name": "Coldwraith Links",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50623": {
+      "Name": "Leggings of Dying Candles",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50624": {
+      "Name": "Scourge Reaver's Legplates",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50632": {
+      "Name": "Boots of the Funeral March",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50625": {
+      "Name": "Grinning Skull Greatboots",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50627": {
+      "Name": "Noose of Malachite",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50622": {
+      "Name": "Devium's Eternally Cold Ring",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50618": {
+      "Name": "Frostbrood Sapphire Ring",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50621": {
+      "Name": "Lungbreaker",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50631": {
+      "Name": "Nightmare Ender",
+      "Source": "Valithria Dreamwalker",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50633": {
+      "Name": "Sindragosa's Cruel Claw",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50636": {
+      "Name": "Memory of Malygos",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50365": {
+      "Name": "Phylactery of the Nameless Lich",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50364": {
+      "Name": "Sindragosa's Flawless Fang",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50635": {
+      "Name": "Sundial of Eternal Dusk",
+      "Source": "Sindragosa",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50736": {
+      "Name": "Heaven's Fall, Kryss of a Thousand Lies",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50732": {
+      "Name": "Bloodsurge, Kel'Thuzad's Blade of Agony",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50730": {
+      "Name": "Glorenzelg, High-Blade of the Silver Hand",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50737": {
+      "Name": "Havoc's Call, Blade of Lordaeron Kings",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50734": {
+      "Name": "Royal Scepter of Terenas II",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50738": {
+      "Name": "Mithrios, Bronzebeard's Legacy",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50735": {
+      "Name": "Oathbinder, Charge of the Ranger-General",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50731": {
+      "Name": "Archus, Greatstaff of Antonidas",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50733": {
+      "Name": "Fal'inrush, Defender of Quel'thalas",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
+    },
+    "50818": {
+      "Name": "Invincible's Reins",
+      "Source": "The Lich King",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Icecrown Citadel (Heroic 25)"
     }
   }
 }
