@@ -110,16 +110,16 @@ LBIS:AddItem(spec, "37371", LBIS.L["Ring"], "Alt") --Ring of the Frenzied Wolvar
 LBIS:AddItem(spec, "37232", LBIS.L["Ring"], "Alt") --Ring of the Traitor King
 LBIS:AddItem(spec, "37869", LBIS.L["Ring"], "Alt") --Globule Signet
 
-LBIS:AddItem(spec, "37111", LBIS.L["Trinket"], "Sustain 130 to 190 mp5, 75 spell power") --Soul Preserver
-LBIS:AddItem(spec, "44255", LBIS.L["Trinket"], "Sustain 130 mp5, 55 crit rating") --Darkmoon Card: Greatness
-LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "Sustain 110 mp5, 20.4 crit rating") --Figurine - Sapphire Owl
-LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "Sustain 51 mp5, 73 rating") --Spark of Life
-LBIS:AddItem(spec, "28823", LBIS.L["Trinket"], "Sustain 90 mp5, 23 spell power") --Eye of Gruul
-LBIS:AddItem(spec, "40685", LBIS.L["Trinket"], "98 spell power, 90 average rating") --The Egg of Mortal Essence
-LBIS:AddItem(spec, "49078", LBIS.L["Trinket"], "98 spell power, 90 average rating") --Ancient Pickled Egg
-LBIS:AddItem(spec, "37835", LBIS.L["Trinket"], "106 spell power, 30 mp5") --Je'Tze's Bell
-LBIS:AddItem(spec, "42988", LBIS.L["Trinket"], "100 spell power, 31 mp5") --Darkmoon Card: Illusion
-LBIS:AddItem(spec, "37660", LBIS.L["Trinket"], "93 spell power, 73 crit rating") --Forge Ember
+LBIS:AddItem(spec, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
+LBIS:AddItem(spec, "44255", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Greatness
+LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "Alt") --Figurine - Sapphire Owl
+LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "Alt") --Spark of Life
+LBIS:AddItem(spec, "28823", LBIS.L["Trinket"], "Alt") --Eye of Gruul
+LBIS:AddItem(spec, "40685", LBIS.L["Trinket"], "Alt") --The Egg of Mortal Essence
+LBIS:AddItem(spec, "49078", LBIS.L["Trinket"], "Alt") --Ancient Pickled Egg
+LBIS:AddItem(spec, "37835", LBIS.L["Trinket"], "BIS") --Je'Tze's Bell
+LBIS:AddItem(spec, "42988", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Illusion
+LBIS:AddItem(spec, "37660", LBIS.L["Trinket"], "Alt") --Forge Ember
 
 LBIS:AddItem(spec, "37360", LBIS.L["Main Hand"], "BIS") --Staff of Draconic Combat
 LBIS:AddItem(spec, "37169", LBIS.L["Main Hand"], "BIS") --War Mace of Unrequited Love
