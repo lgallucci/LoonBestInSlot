@@ -141,7 +141,7 @@ local function IsInZone(specItem)
 end
 
 local function IsNotInClassic(specItem)
-    if specItem.SourceType == LBIS.L["Classic"] then
+    if specItem.SourceType == LBIS.L["Legacy"] then
         return false
     end
     return true;

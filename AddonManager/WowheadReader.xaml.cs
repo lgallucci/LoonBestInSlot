@@ -161,7 +161,7 @@ public partial class WowheadReader : Window
             csvLootTable.Add(oldSource.Key, new CsvLootTable
             {
                 ItemId = oldSource.Key,
-                SourceType = oldSource.Value.SourceType,
+                SourceType = "Legacy",
                 ItemName = oldSource.Value.Name,
                 InstanceName = oldSource.Value.SourceLocation,
                 SourceName = oldSource.Value.Source,
@@ -218,7 +218,8 @@ public partial class WowheadReader : Window
             {
                 var csvItem = csvLootTable[itemSource.Key];
                 var sourceType = csvItem.SourceType;
-                if (tokenKeys.Contains(itemSource.Key))
+                if (sourceType == "Legacy") { }
+                else if (tokenKeys.Contains(itemSource.Key))
                 {
                     sourceType = "Token";
                 }
