@@ -8938,6 +8938,5669 @@
       "SourceType": "Drop",
       "SourceNumber": "",
       "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "45289": {
+      "Name": "Lifespark Visage",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45291": {
+      "Name": "Combustion Bracers",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45288": {
+      "Name": "Firestrider Chestguard",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45283": {
+      "Name": "Flamewatch Armguards",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45285": {
+      "Name": "Might of the Leviathan",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45292": {
+      "Name": "Energy Siphon",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45286": {
+      "Name": "Pyrite Infuser",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45284": {
+      "Name": "Kinetic Ripper",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45287": {
+      "Name": "Firesoul",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45282": {
+      "Name": "Ironsoul",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45293": {
+      "Name": "Handguards of Potent Cures",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45300": {
+      "Name": "Mantle of Fiery Vengeance",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45295": {
+      "Name": "Gilded Steel Legplates",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45297": {
+      "Name": "Shimmering Seal",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45296": {
+      "Name": "Twirling Blades",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45306": {
+      "Name": "Binding of the Dragon Matriarch",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45302": {
+      "Name": "Treads of the Invader",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45301": {
+      "Name": "Bracers of the Smothering Inferno",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45307": {
+      "Name": "Ironscale Leggings",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45299": {
+      "Name": "Dragonsteel Faceplate",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45305": {
+      "Name": "Breastplate of the Afterlife",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45304": {
+      "Name": "Stormtempered Girdle",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45303": {
+      "Name": "Band of Draconic Guile",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45308": {
+      "Name": "Eye of the Broodmother",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45298": {
+      "Name": "Razorscale Talon",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45317": {
+      "Name": "Shawl of the Caretaker",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45318": {
+      "Name": "Drape of Fuming Anger",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45312": {
+      "Name": "Gloves of Smoldering Touch",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45316": {
+      "Name": "Armbraces of the Vibrant Flame",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45321": {
+      "Name": "Pauldrons of Tempered Will",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45310": {
+      "Name": "Gauntlets of the Iron Furnace",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45313": {
+      "Name": "Furnace Stone",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45314": {
+      "Name": "Igniter Rod",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45311": {
+      "Name": "Relentless Edge",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45309": {
+      "Name": "Rifle of the Platinum Guard",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45694": {
+      "Name": "Conductive Cord",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45677": {
+      "Name": "Treacherous Shoulderpads",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45686": {
+      "Name": "Vest of the Glowing Crescent",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45687": {
+      "Name": "Helm of Veiled Energies",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45679": {
+      "Name": "Gloves of Taut Grip",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45676": {
+      "Name": "Chestplate of Vicious Potency",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45680": {
+      "Name": "Armbands of the Construct",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45675": {
+      "Name": "Power Enhancing Loop",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45685": {
+      "Name": "Plasma Foil",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45682": {
+      "Name": "Pulsing Spellshield",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45869": {
+      "Name": "Fluxing Energy Coils",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45867": {
+      "Name": "Breastplate of the Stoneshaper",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45871": {
+      "Name": "Seal of Ulduar",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45868": {
+      "Name": "Aesir's Edge",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45870": {
+      "Name": "Magnetized Projectile Emitter",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45322": {
+      "Name": "Cloak of the Iron Council",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45423": {
+      "Name": "Runetouch Wristwraps",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45324": {
+      "Name": "Leggings of Swift Reflexes",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45378": {
+      "Name": "Boots of the Petrified Forest",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45329": {
+      "Name": "Circlet of True Sight",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45333": {
+      "Name": "Belt of the Iron Servant",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45330": {
+      "Name": "Greaves of Iron Intensity",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45418": {
+      "Name": "Lady Maye's Sapphire Ring",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45332": {
+      "Name": "Stormtip",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45331": {
+      "Name": "Rune-Etched Nightblade",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45455": {
+      "Name": "Belt of the Crystal Tree",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45447": {
+      "Name": "Watchful Eye of Fate",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45456": {
+      "Name": "Loop of the Agile",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45449": {
+      "Name": "The Masticator",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45448": {
+      "Name": "Perilous Bite",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45506": {
+      "Name": "Archivum Data Disc",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45704": {
+      "Name": "Shawl of the Shattered Giant",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45701": {
+      "Name": "Greaves of the Earthbinder",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45697": {
+      "Name": "Shoulderguards of the Solemn Watch",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45698": {
+      "Name": "Sabatons of the Iron Watcher",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45696": {
+      "Name": "Mark of the Unyielding",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45699": {
+      "Name": "Pendant of the Piercing Glare",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45702": {
+      "Name": "Emerald Signet Ring",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45703": {
+      "Name": "Spark of Hope",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45700": {
+      "Name": "Stoneguard",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45695": {
+      "Name": "Spire of Withering Dreams",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46042": {
+      "Name": "Drape of the Messenger",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46045": {
+      "Name": "Pulsar Gloves",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46050": {
+      "Name": "Starlight Treads",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46043": {
+      "Name": "Gloves of the Endless Dark",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46049": {
+      "Name": "Zodiac Leggings",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46044": {
+      "Name": "Observer's Mantle",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46037": {
+      "Name": "Shoulderplates of the Celestial Watch",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46039": {
+      "Name": "Breastplate of the Timeless",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46041": {
+      "Name": "Starfall Girdle",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46047": {
+      "Name": "Pendant of the Somber Witness",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46040": {
+      "Name": "Strength of the Heavens",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46048": {
+      "Name": "Band of Lights",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46046": {
+      "Name": "Nebula Band",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46038": {
+      "Name": "Dark Matter",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46051": {
+      "Name": "Meteorite Crystal",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46052": {
+      "Name": "Reply-Code Alpha",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46320": {
+      "Name": "Drape of the Skyherald",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46321": {
+      "Name": "Sunglimmer Drape",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46322": {
+      "Name": "Brann's Sealing Ring",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46323": {
+      "Name": "Starshine Signet",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45832": {
+      "Name": "Mantle of the Preserver",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45865": {
+      "Name": "Raiments of the Corrupted",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45864": {
+      "Name": "Cover of the Keepers",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45709": {
+      "Name": "Nimble Climber's Belt",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45711": {
+      "Name": "Ironaya's Discarded Mantle",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45712": {
+      "Name": "Chestplate of Titanic Fury",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45708": {
+      "Name": "Archaedas' Lost Legplates",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45866": {
+      "Name": "Elemental Focus Stone",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45707": {
+      "Name": "Shieldwall of the Breaker",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45713": {
+      "Name": "Nurturing Touch",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45873": {
+      "Name": "Winter's Frigid Embrace",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45464": {
+      "Name": "Cowl of Icy Breaths",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45874": {
+      "Name": "Signet of Winter",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45458": {
+      "Name": "Stormedge",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45872": {
+      "Name": "Avalanche",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45650": {
+      "Name": "Leggings of the Wayward Conqueror",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45651": {
+      "Name": "Leggings of the Wayward Protector",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45652": {
+      "Name": "Leggings of the Wayward Vanquisher",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45888": {
+      "Name": "Bitter Cold Armguards",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45876": {
+      "Name": "Shiver",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45886": {
+      "Name": "Icecore Staff",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45887": {
+      "Name": "Ice Layered Barrier",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45877": {
+      "Name": "The Boreal Guard",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45786": {
+      "Name": "Hodir's Sigil",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45893": {
+      "Name": "Guise of the Midgard Serpent",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45927": {
+      "Name": "Handwraps of Resonance",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45894": {
+      "Name": "Leggings of Unstable Discharge",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45895": {
+      "Name": "Belt of the Blood Pit",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45892": {
+      "Name": "Legacy of Thunder",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45659": {
+      "Name": "Spaulders of the Wayward Conqueror",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45660": {
+      "Name": "Spaulders of the Wayward Protector",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45661": {
+      "Name": "Spaulders of the Wayward Vanquisher",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45928": {
+      "Name": "Gauntlets of the Thunder God",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45933": {
+      "Name": "Pendant of the Shallow Grave",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45931": {
+      "Name": "Mjolnir Runestone",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45929": {
+      "Name": "Sif's Remembrance",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45930": {
+      "Name": "Combatant's Bootblade",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45784": {
+      "Name": "Thorim's Sigil",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45940": {
+      "Name": "Tunic of the Limber Stalker",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45941": {
+      "Name": "Chestguard of the Lasher",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45935": {
+      "Name": "Ironbark Faceguard",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45936": {
+      "Name": "Legplates of Flourishing Resolve",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45934": {
+      "Name": "Unraveling Reach",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45644": {
+      "Name": "Gloves of the Wayward Conqueror",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45645": {
+      "Name": "Gloves of the Wayward Protector",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45646": {
+      "Name": "Gloves of the Wayward Vanquisher",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46110": {
+      "Name": "Alchemist's Cache",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45943": {
+      "Name": "Gloves of Whispering Winds",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45945": {
+      "Name": "Seed of Budding Carnage",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45946": {
+      "Name": "Fire Orchid Signet",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45947": {
+      "Name": "Serilas, Blood Blade of Invar One-Arm",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45294": {
+      "Name": "Petrified Ivy Sprig",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45788": {
+      "Name": "Freya's Sigil",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45973": {
+      "Name": "Stylish Power Cape",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45976": {
+      "Name": "Static Charge Handwraps",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45974": {
+      "Name": "Shoulderguards of Assimilation",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45975": {
+      "Name": "Cable of the Metrognome",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45972": {
+      "Name": "Pulse Baton",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45647": {
+      "Name": "Helm of the Wayward Conqueror",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45648": {
+      "Name": "Helm of the Wayward Protector",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45649": {
+      "Name": "Helm of the Wayward Vanquisher",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45993": {
+      "Name": "Mimiron's Flight Goggles",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45989": {
+      "Name": "Tempered Mercury Greaves",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45982": {
+      "Name": "Fused Alloy Legplates",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45988": {
+      "Name": "Greaves of the Iron Army",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45990": {
+      "Name": "Fusion Blade",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45787": {
+      "Name": "Mimiron's Sigil",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46014": {
+      "Name": "Saronite Animus Cloak",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46013": {
+      "Name": "Underworld Mantle",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46012": {
+      "Name": "Vestments of the Piercing Light",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46009": {
+      "Name": "Bindings of the Depths",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46346": {
+      "Name": "Boots of Unsettled Prey",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45997": {
+      "Name": "Gauntlets of the Wretched",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46008": {
+      "Name": "Choker of the Abyss",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46015": {
+      "Name": "Pendant of Endless Despair",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46010": {
+      "Name": "Darkstone Ring",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46011": {
+      "Name": "Shadowbite",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45996": {
+      "Name": "Hoperender",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46032": {
+      "Name": "Drape of the Faceless General",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46034": {
+      "Name": "Leggings of Profound Darkness",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46036": {
+      "Name": "Void Sabre",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46035": {
+      "Name": "Aesuga, Hand of the Ardent Champion",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46033": {
+      "Name": "Tortured Earth",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46030": {
+      "Name": "Treads of the Dragon Council",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46019": {
+      "Name": "Leggings of the Insatiable",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46028": {
+      "Name": "Faceguard of the Eyeless Horror",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46022": {
+      "Name": "Pendant of a Thousand Maws",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46021": {
+      "Name": "Royal Seal of King Llane",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46024": {
+      "Name": "Kingsbane",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46016": {
+      "Name": "Abaddon",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46031": {
+      "Name": "Touch of Madness",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46025": {
+      "Name": "Devotion",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46018": {
+      "Name": "Deliverance",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45635": {
+      "Name": "Chestguard of the Wayward Conqueror",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45636": {
+      "Name": "Chestguard of the Wayward Protector",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45637": {
+      "Name": "Chestguard of the Wayward Vanquisher",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46068": {
+      "Name": "Amice of Inconceivable Horror",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46095": {
+      "Name": "Soul-Devouring Cinch",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46096": {
+      "Name": "Signet of Soft Lament",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46097": {
+      "Name": "Caress of Insanity",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46067": {
+      "Name": "Hammer of Crushing Whispers",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46312": {
+      "Name": "Vanquished Clutches of Yogg-Saron",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46341": {
+      "Name": "Drape of the Spellweaver",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46347": {
+      "Name": "Cloak of the Dormant Blaze",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46344": {
+      "Name": "Iceshear Mantle",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46345": {
+      "Name": "Bracers of Righteous Reformation",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46340": {
+      "Name": "Adamant Handguards",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46343": {
+      "Name": "Fervor of the Protectorate",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46339": {
+      "Name": "Mimiron's Repeater",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46351": {
+      "Name": "Bloodcrush Cudgel",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46350": {
+      "Name": "Pillar of Fortitude",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46342": {
+      "Name": "Golemheart Longbow",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45089": {
+      "Name": "Plans: Battlelord's Plate Boots",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45088": {
+      "Name": "Plans: Belt of the Titans",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45092": {
+      "Name": "Plans: Indestructible Plate Girdle",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45090": {
+      "Name": "Plans: Plate Girdle of Righteousness",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45093": {
+      "Name": "Plans: Spiked Deathdealers",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46027": {
+      "Name": "Formula: Enchant Weapon - Blade Ward",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "46348": {
+      "Name": "Formula: Enchant Weapon - Blood Draining",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45100": {
+      "Name": "Pattern: Belt of Arctic Life",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45094": {
+      "Name": "Pattern: Belt of Dragons",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45096": {
+      "Name": "Pattern: Blue Belt of Chaos",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45095": {
+      "Name": "Pattern: Boots of Living Scale",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45101": {
+      "Name": "Pattern: Boots of Wintry Endurance",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45098": {
+      "Name": "Pattern: Death-warmed Belt",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45099": {
+      "Name": "Pattern: Footpads of Silence",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45097": {
+      "Name": "Pattern: Lightning Grounded Boots",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45104": {
+      "Name": "Pattern: Cord of the White Dawn",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45102": {
+      "Name": "Pattern: Sash of Ancient Power",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45105": {
+      "Name": "Pattern: Savior's Slippers",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45103": {
+      "Name": "Pattern: Spellslinger's Slippers",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45087": {
+      "Name": "Runed Orb",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (10)"
+    },
+    "45038": {
+      "Name": "Fragment of Val'anyr",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "46017": {
+      "Name": "Val'anyr, Hammer of Ancient Kings",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45117": {
+      "Name": "Constructor's Handwraps",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45119": {
+      "Name": "Embrace of the Leviathan",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45108": {
+      "Name": "Mechanist's Bindings",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45118": {
+      "Name": "Steamworker's Goggles",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45109": {
+      "Name": "Gloves of the Fiery Behemoth",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45107": {
+      "Name": "Iron Riveted War Helm",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45111": {
+      "Name": "Mimiron's Inferno Couplings",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45116": {
+      "Name": "Freya's Choker of Warding",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45113": {
+      "Name": "Glowing Ring of Reclamation",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45106": {
+      "Name": "Strength of the Automaton",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45112": {
+      "Name": "The Leviathan's Coil",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45115": {
+      "Name": "Leviathan Fueling Manual",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45114": {
+      "Name": "Steamcaller's Totem",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45110": {
+      "Name": "Titanguard",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45086": {
+      "Name": "Rising Sun",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45135": {
+      "Name": "Boots of Fiery Resolution",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45136": {
+      "Name": "Shoulderpads of Dormant Energies",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45134": {
+      "Name": "Plated Leggings of Ruination",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45133": {
+      "Name": "Pendant of Fiery Havoc",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45132": {
+      "Name": "Golden Saronite Dragon",
+      "Source": "Flame Leviathan",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45138": {
+      "Name": "Drape of the Drakerider",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45150": {
+      "Name": "Collar of the Wyrmhunter",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45146": {
+      "Name": "Shackles of the Odalisque",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45149": {
+      "Name": "Bracers of the Broodmother",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45141": {
+      "Name": "Proto-hide Leggings",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45151": {
+      "Name": "Belt of the Fallen Wyrm",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45143": {
+      "Name": "Saronite Mesh Legguards",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45140": {
+      "Name": "Razorscale Shoulderguards",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45139": {
+      "Name": "Dragonslayer's Brace",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45148": {
+      "Name": "Living Flame",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45510": {
+      "Name": "Libram of Discord",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45144": {
+      "Name": "Sigil of Deflection",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45142": {
+      "Name": "Remorse",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45147": {
+      "Name": "Guiding Star",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45137": {
+      "Name": "Veranus' Bane",
+      "Source": "Razorscale",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45186": {
+      "Name": "Soot-Covered Mantle",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45185": {
+      "Name": "Flamewrought Cinch",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45162": {
+      "Name": "Flamestalker Boots",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45164": {
+      "Name": "Helm of the Furnace Master",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45187": {
+      "Name": "Wristguards of the Firetender",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45167": {
+      "Name": "Lifeforge Breastplate",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45161": {
+      "Name": "Girdle of Embers",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45166": {
+      "Name": "Charred Saronite Greaves",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45157": {
+      "Name": "Cindershard Ring",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45168": {
+      "Name": "Pyrelight Circle",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45158": {
+      "Name": "Heart of Iron",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45169": {
+      "Name": "Totem of the Dancing Flame",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45165": {
+      "Name": "Worldcarver",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45171": {
+      "Name": "Intensity",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45170": {
+      "Name": "Scepter of Creation",
+      "Source": "Ignis the Furnace Master",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45253": {
+      "Name": "Mantle of Wavering Calm",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45258": {
+      "Name": "Sandals of Rash Temperament",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45260": {
+      "Name": "Boots of Hasty Revival",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45259": {
+      "Name": "Quartz-studded Harness",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45249": {
+      "Name": "Brass-lined Boots",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45251": {
+      "Name": "Shoulderplates of the Deconstructor",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45252": {
+      "Name": "Horologist's Wristguards",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45248": {
+      "Name": "Clockwork Legplates",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45250": {
+      "Name": "Crazed Construct Ring",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45247": {
+      "Name": "Signet of the Earthshaker",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45254": {
+      "Name": "Sigil of the Vengeful Heart",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45255": {
+      "Name": "Thunderfall Totem",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45246": {
+      "Name": "Golem-Shard Sticker",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45256": {
+      "Name": "Twisted Visage",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45257": {
+      "Name": "Quartz Crystal Wand",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45446": {
+      "Name": "Grasps of Reason",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45444": {
+      "Name": "Gloves of the Steady Hand",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45445": {
+      "Name": "Breastplate of the Devoted",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45443": {
+      "Name": "Charm of Meticulous Timing",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45442": {
+      "Name": "Sorthalis, Hammer of the Watchers",
+      "Source": "XT-002 Deconstructor",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45224": {
+      "Name": "Drape of the Lithe",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45240": {
+      "Name": "Raiments of the Iron Council",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45238": {
+      "Name": "Overload Legwraps",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45237": {
+      "Name": "Phaelia's Vestments of the Sprouting Seed",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45232": {
+      "Name": "Runed Ironhide Boots",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45227": {
+      "Name": "Iron-studded Mantle",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45239": {
+      "Name": "Runeshaper's Gloves",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45226": {
+      "Name": "Ancient Iron Heaume",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45225": {
+      "Name": "Steelbreaker's Embrace",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45228": {
+      "Name": "Handguards of the Enclave",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45193": {
+      "Name": "Insurmountable Fervor",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45236": {
+      "Name": "Unblinking Eye",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45235": {
+      "Name": "Radiant Seal",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45233": {
+      "Name": "Stormrune Edge",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45234": {
+      "Name": "Rapture",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45242": {
+      "Name": "Drape of Mortal Downfall",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45245": {
+      "Name": "Shoulderpads of the Intruder",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45244": {
+      "Name": "Greaves of Swift Vengeance",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45241": {
+      "Name": "Belt of Colossal Rage",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45243": {
+      "Name": "Sapphire Amulet of Renewal",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45607": {
+      "Name": "Fang of Oblivion",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45857": {
+      "Name": "Archivum Data Disc",
+      "Source": "The Iron Council",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45272": {
+      "Name": "Robes of the Umbral Brute",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45275": {
+      "Name": "Bracers of Unleashed Magic",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45273": {
+      "Name": "Handwraps of Plentiful Recovery",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45265": {
+      "Name": "Shoulderpads of the Monolith",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45274": {
+      "Name": "Leggings of the Stoneweaver",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45264": {
+      "Name": "Decimator's Armguards",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45269": {
+      "Name": "Unfaltering Armguards",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45268": {
+      "Name": "Gloves of the Pythonic Guardian",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45267": {
+      "Name": "Saronite Plated Legguards",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45262": {
+      "Name": "Necklace of Unerring Mettle",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45263": {
+      "Name": "Wrathstone",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45271": {
+      "Name": "Ironmender",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45270": {
+      "Name": "Idol of the Crying Wind",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45266": {
+      "Name": "Malice",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45261": {
+      "Name": "Giant's Bane",
+      "Source": "Kologarn",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45665": {
+      "Name": "Pharos Gloves",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45619": {
+      "Name": "Starwatcher's Binding",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45611": {
+      "Name": "Solar Bindings",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45616": {
+      "Name": "Star-beaded Clutch",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45610": {
+      "Name": "Boundless Gaze",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45615": {
+      "Name": "Planewalker Treads",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45594": {
+      "Name": "Legplates of the Endless Void",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45599": {
+      "Name": "Sabatons of Lifeless Night",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45617": {
+      "Name": "Cosmos",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45620": {
+      "Name": "Starshard Edge",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45612": {
+      "Name": "Constellus",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45613": {
+      "Name": "Dreambinder",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45587": {
+      "Name": "Bulwark of Algalon",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45570": {
+      "Name": "Skyforge Crossbow",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45609": {
+      "Name": "Comet's Trail",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "46053": {
+      "Name": "Reply-Code Alpha",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45588": {
+      "Name": "Drape of the Skyborn",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45618": {
+      "Name": "Sunglimmer Cloak",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45608": {
+      "Name": "Brann's Signet Ring",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45614": {
+      "Name": "Starshine Circle",
+      "Source": "Algalon the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45319": {
+      "Name": "Cloak of the Makers",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45435": {
+      "Name": "Cowl of the Absolute",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45441": {
+      "Name": "Sandals of the Ancient Keeper",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45439": {
+      "Name": "Unwavering Stare",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45325": {
+      "Name": "Gloves of the Stonereaper",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45440": {
+      "Name": "Amice of the Stoic Watch",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45320": {
+      "Name": "Shoulderplates of the Eternal",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45334": {
+      "Name": "Unbreakable Chestguard",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45434": {
+      "Name": "Greaves of the Rockmender",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45326": {
+      "Name": "Platinum Band of the Aesir",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45438": {
+      "Name": "Ring of the Faithful Servant",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45436": {
+      "Name": "Libram of the Resolute",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45437": {
+      "Name": "Runescribed Blade",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45315": {
+      "Name": "Stonerender",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45327": {
+      "Name": "Siren's Cry",
+      "Source": "Auriaya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45453": {
+      "Name": "Winter's Icy Embrace",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45454": {
+      "Name": "Frost-bound Chain Bracers",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45452": {
+      "Name": "Frostplate Greaves",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45451": {
+      "Name": "Frozen Loop",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45450": {
+      "Name": "Northern Barrier",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45632": {
+      "Name": "Breastplate of the Wayward Conqueror",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45633": {
+      "Name": "Breastplate of the Wayward Protector",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45634": {
+      "Name": "Breastplate of the Wayward Vanquisher",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45461": {
+      "Name": "Drape of Icy Intent",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45462": {
+      "Name": "Gloves of the Frozen Glade",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45460": {
+      "Name": "Bindings of Winter Gale",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45459": {
+      "Name": "Frigid Strength of Hodir",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45457": {
+      "Name": "Staff of Endless Winter",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45815": {
+      "Name": "Hodir's Sigil",
+      "Source": "Hodir",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45468": {
+      "Name": "Leggings of Lost Love",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45467": {
+      "Name": "Belt of the Betrayed",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45469": {
+      "Name": "Sif's Promise",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45466": {
+      "Name": "Scale of Fates",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45463": {
+      "Name": "Vulmir, the Northern Tempest",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45638": {
+      "Name": "Crown of the Wayward Conqueror",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45639": {
+      "Name": "Crown of the Wayward Protector",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45640": {
+      "Name": "Crown of the Wayward Vanquisher",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45473": {
+      "Name": "Embrace of the Gladiator",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45474": {
+      "Name": "Pauldrons of the Combatant",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45472": {
+      "Name": "Warhelm of the Champion",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45471": {
+      "Name": "Fate's Clutch",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45470": {
+      "Name": "Wisdom's Hold",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45817": {
+      "Name": "Thorim's Sigil",
+      "Source": "Thorim",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45483": {
+      "Name": "Boots of the Servant",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45482": {
+      "Name": "Leggings of the Lifetender",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45481": {
+      "Name": "Gauntlets of Ruthless Reprisal",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45480": {
+      "Name": "Nymph Heart Charm",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45479": {
+      "Name": "The Lifebinder",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45653": {
+      "Name": "Legplates of the Wayward Conqueror",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45654": {
+      "Name": "Legplates of the Wayward Protector",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45655": {
+      "Name": "Legplates of the Wayward Vanquisher",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45486": {
+      "Name": "Drape of the Sullen Goddess",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45488": {
+      "Name": "Leggings of the Enslaved Idol",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45487": {
+      "Name": "Handguards of Revitalization",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45485": {
+      "Name": "Bronze Pendant of the Vanir",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45484": {
+      "Name": "Bladetwister",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45814": {
+      "Name": "Freya's Sigil",
+      "Source": "Freya",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45493": {
+      "Name": "Asimov's Drape",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45492": {
+      "Name": "Malleable Steelweave Mantle",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45491": {
+      "Name": "Waistguard of the Creator",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45490": {
+      "Name": "Pandora's Plea",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45489": {
+      "Name": "Insanity's Grip",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45641": {
+      "Name": "Gauntlets of the Wayward Conqueror",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45642": {
+      "Name": "Gauntlets of the Wayward Protector",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45643": {
+      "Name": "Gauntlets of the Wayward Vanquisher",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45496": {
+      "Name": "Titanskin Cloak",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45497": {
+      "Name": "Crown of Luminescence",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45663": {
+      "Name": "Armbands of Bedlam",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45495": {
+      "Name": "Conductive Seal",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45494": {
+      "Name": "Delirium's Touch",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45816": {
+      "Name": "Mimiron's Sigil",
+      "Source": "Mimiron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45514": {
+      "Name": "Mantle of the Unknowing",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45508": {
+      "Name": "Belt of the Darkspeaker",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45512": {
+      "Name": "Grips of the Unbroken",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45504": {
+      "Name": "Darkcore Leggings",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45513": {
+      "Name": "Boots of the Forgotten Depths",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45502": {
+      "Name": "Helm of the Faceless",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45505": {
+      "Name": "Belt of Clinging Hope",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45501": {
+      "Name": "Boots of the Underdweller",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45503": {
+      "Name": "Metallic Loop of the Sufferer",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45515": {
+      "Name": "Ring of the Vacant Eye",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45507": {
+      "Name": "The General's Heart",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45509": {
+      "Name": "Idol of the Corruptor",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45145": {
+      "Name": "Libram of the Sacred Shield",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45498": {
+      "Name": "Lotrafen, Spear of the Damned",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45511": {
+      "Name": "Scepter of Lost Souls",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45520": {
+      "Name": "Handwraps of the Vigilant",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45519": {
+      "Name": "Vestments of the Blind Denizen",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45517": {
+      "Name": "Pendulum of Infinity",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45518": {
+      "Name": "Flare of the Heavens",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45516": {
+      "Name": "Voldrethar, Dark Blade of Oblivion",
+      "Source": "General Vezax",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45529": {
+      "Name": "Shawl of Haunted Memories",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45532": {
+      "Name": "Cowl of Dark Whispers",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45523": {
+      "Name": "Garona's Guise",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45524": {
+      "Name": "Chestguard of Insidious Intent",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45531": {
+      "Name": "Chestguard of the Fallen God",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45525": {
+      "Name": "Godbane Signet",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45530": {
+      "Name": "Sanity's Bond",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45522": {
+      "Name": "Blood of the Old God",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45527": {
+      "Name": "Soulscribe",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45521": {
+      "Name": "Earthshaper",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45656": {
+      "Name": "Mantle of the Wayward Conqueror",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45657": {
+      "Name": "Mantle of the Wayward Protector",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45658": {
+      "Name": "Mantle of the Wayward Vanquisher",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45537": {
+      "Name": "Treads of the False Oracle",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45536": {
+      "Name": "Legguards of Cunning Deception",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45534": {
+      "Name": "Seal of the Betrayed King",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45535": {
+      "Name": "Show of Faith",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45533": {
+      "Name": "Dark Edge of Depravity",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45693": {
+      "Name": "Mimiron's Head",
+      "Source": "Yogg-Saron",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45541": {
+      "Name": "Shroud of Alteration",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45549": {
+      "Name": "Grips of Chaos",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45547": {
+      "Name": "Relic Hunter's Cord",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45548": {
+      "Name": "Belt of the Sleeper",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45543": {
+      "Name": "Shoulders of Misfortune",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45544": {
+      "Name": "Leggings of the Tortured Earth",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45542": {
+      "Name": "Greaves of the Stonewarder",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45540": {
+      "Name": "Bladebearer's Signet",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45539": {
+      "Name": "Pendant of Focused Energies",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45538": {
+      "Name": "Titanstone Pendant",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "46138": {
+      "Name": "Idol of the Flourishing Life",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "45605": {
+      "Name": "Daschal's Bite",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Ulduar (25)"
+    },
+    "47617": {
+      "Name": "Icehowl Cinch",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47613": {
+      "Name": "Shoulderpads of the Glacial Wilds",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47608": {
+      "Name": "Acidmaw Boots",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47616": {
+      "Name": "Shoulderguards of the Spirit Walker",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47610": {
+      "Name": "Armbands of the Northern Stalker",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47611": {
+      "Name": "Dreadscale Armguards",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47609": {
+      "Name": "Gauntlets of Rising Anger",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47615": {
+      "Name": "Belt of the Frozen Reach",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47614": {
+      "Name": "Girdle of the Impaler",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47607": {
+      "Name": "Collar of Ceaseless Torment",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47578": {
+      "Name": "Carnivorous Band",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47612": {
+      "Name": "Rod of Imprisoned Souls",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47663": {
+      "Name": "Felspark Bindings",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47620": {
+      "Name": "Leggings of the Demonic Messenger",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47669": {
+      "Name": "Belt of the Winter Solstice",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47621": {
+      "Name": "Girdle of the Farseer",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "49235": {
+      "Name": "Boots of Tortured Space",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47683": {
+      "Name": "Sentinel Scouting Greaves",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47680": {
+      "Name": "Armguards of the Nether Lord",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47711": {
+      "Name": "Girdle of the Nether Champion",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47619": {
+      "Name": "Amulet of Binding Elements",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47679": {
+      "Name": "Endurance of the Infernal",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47618": {
+      "Name": "Firestorm Ring",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47703": {
+      "Name": "Planestalker Signet",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47676": {
+      "Name": "Dirk of the Night Watch",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47721": {
+      "Name": "Sandals of the Silver Magus",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47719": {
+      "Name": "Gloves of the Silver Assassin",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47718": {
+      "Name": "Helm of the Silver Ranger",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47717": {
+      "Name": "Faceplate of the Silver Champion",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47720": {
+      "Name": "Pauldrons of the Silver Defender",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47728": {
+      "Name": "Binding Light",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47727": {
+      "Name": "Fervor of the Frostborn",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47726": {
+      "Name": "Talisman of Volatile Power",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47725": {
+      "Name": "Victor's Call",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47724": {
+      "Name": "Blade of the Silver Disciple",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47745": {
+      "Name": "Gloves of Looming Shadow",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "49231": {
+      "Name": "Boots of the Grieving Soul",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47746": {
+      "Name": "Helm of the Snowy Grotto",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47739": {
+      "Name": "Armor of Shifting Shadows",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47744": {
+      "Name": "Gloves of the Azure Prophet",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47738": {
+      "Name": "Sabatons of the Lingering Vortex",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47747": {
+      "Name": "Darkbane Pendant",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47700": {
+      "Name": "Loop of the Twin Val'kyr",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47742": {
+      "Name": "Chalice of Benedictus",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47736": {
+      "Name": "Icefall Blade",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47737": {
+      "Name": "Reckoning",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47743": {
+      "Name": "Enlightenment",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47740": {
+      "Name": "The Diplomat",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47838": {
+      "Name": "Vestments of the Sleepless",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47837": {
+      "Name": "Cinch of the Undying",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47832": {
+      "Name": "Spaulders of the Snow Bandit",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47813": {
+      "Name": "Helmet of the Crypt Lord",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47829": {
+      "Name": "Pauldrons of the Timeless Hunter",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47811": {
+      "Name": "Chestguard of the Warden",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47836": {
+      "Name": "Legplates of the Immortal Spider",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47830": {
+      "Name": "Legplates of the Silver Hand",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47810": {
+      "Name": "Crusader's Glory",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47814": {
+      "Name": "Westfall Saber",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47808": {
+      "Name": "The Lion's Maw",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47809": {
+      "Name": "Argent Resolve",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47816": {
+      "Name": "The Grinder",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47834": {
+      "Name": "Fordragon Blades",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47815": {
+      "Name": "Cold Convergence",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47835": {
+      "Name": "Bulwark of the Royal Guard",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47812": {
+      "Name": "Vigilant Ward",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47741": {
+      "Name": "Baelgun's Heavy Crossbow",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47622": {
+      "Name": "Plans: Breastplate of the White Knight",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47623": {
+      "Name": "Plans: Saronite Swordbreakers",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47627": {
+      "Name": "Plans: Sunforged Bracers",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47626": {
+      "Name": "Plans: Sunforged Breastplate",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47624": {
+      "Name": "Plans: Titanium Razorplate",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47625": {
+      "Name": "Plans: Titanium Spikeguards",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47629": {
+      "Name": "Pattern: Black Chitin Bracers",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47635": {
+      "Name": "Pattern: Bracers of Swift Death",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47631": {
+      "Name": "Pattern: Crusader's Dragonscale Bracers",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47630": {
+      "Name": "Pattern: Crusader's Dragonscale Breastplate",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47628": {
+      "Name": "Pattern: Ensorcelled Nerubian Breastplate",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47634": {
+      "Name": "Pattern: Knightbane Carapace",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47632": {
+      "Name": "Pattern: Lunar Eclipse Robes",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47633": {
+      "Name": "Pattern: Moonshadow Armguards",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47654": {
+      "Name": "Pattern: Bejeweled Wizard's Bracers",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47655": {
+      "Name": "Pattern: Merlin's Robe",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47656": {
+      "Name": "Pattern: Royal Moonshroud Bracers",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47657": {
+      "Name": "Pattern: Royal Moonshroud Robe",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47556": {
+      "Name": "Crusader Orb",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "46970": {
+      "Name": "Drape of the Untamed Predator",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46976": {
+      "Name": "Shawl of the Refreshing Winds",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46992": {
+      "Name": "Flowing Vestments of Ascent",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46972": {
+      "Name": "Cord of the Tenebrous Mist",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46974": {
+      "Name": "Leggings of the Broken Beast",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46988": {
+      "Name": "Boots of the Unrelenting Storm",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46960": {
+      "Name": "Breastplate of Cruel Intent",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46990": {
+      "Name": "Belt of the Ice Burrower",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46962": {
+      "Name": "Chestplate of the Towering Monstrosity",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46961": {
+      "Name": "Boneshatter Armplates",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46985": {
+      "Name": "Boots of the Courageous",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47242": {
+      "Name": "Trophy of the Crusade",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46959": {
+      "Name": "Band of the Violent Temperment",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46979": {
+      "Name": "Blade of Tarasque",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46958": {
+      "Name": "Steel Bladebreaker",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46963": {
+      "Name": "Crystal Plated Vanguard",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47042": {
+      "Name": "Pride of the Eredar",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47051": {
+      "Name": "Leggings of the Soothing Touch",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47000": {
+      "Name": "Cuirass of Calamitous Fate",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47055": {
+      "Name": "Bracers of the Autumn Willow",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47056": {
+      "Name": "Bracers of Cloudy Omen",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46999": {
+      "Name": "Bloodbath Belt",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47057": {
+      "Name": "Legplates of Failing Light",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47052": {
+      "Name": "Legguards of Feverish Dedication",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46997": {
+      "Name": "Dawnbreaker Greaves",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47043": {
+      "Name": "Charge of the Demon Lord",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47223": {
+      "Name": "Ring of the Darkmender",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47041": {
+      "Name": "Solace of the Defeated",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47053": {
+      "Name": "Symbol of Transgression",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46996": {
+      "Name": "Lionhead Slasher",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "46994": {
+      "Name": "Talonstrike",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47089": {
+      "Name": "Cloak of Displacement",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47081": {
+      "Name": "Cord of Biting Cold",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47092": {
+      "Name": "Boots of the Mourning Widow",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47094": {
+      "Name": "Vestments of the Shattered Fellowship",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47071": {
+      "Name": "Treads of the Icewalker",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47073": {
+      "Name": "Bracers of the Untold Massacre",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47083": {
+      "Name": "Legguards of Concealed Hatred",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47090": {
+      "Name": "Boots of Tremoring Earth",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47082": {
+      "Name": "Chestplate of the Frostborn Hero",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47093": {
+      "Name": "Vambraces of the Broken Bond",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47072": {
+      "Name": "Girdle of Bloodied Scars",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47070": {
+      "Name": "Ring of Callous Aggression",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47080": {
+      "Name": "Satrina's Impeding Scarab",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47069": {
+      "Name": "Justicebringer",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47079": {
+      "Name": "Bastion of Purity",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47126": {
+      "Name": "Skyweaver Robes",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47141": {
+      "Name": "Bindings of Dark Essence",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47107": {
+      "Name": "Belt of the Merciless Killer",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47140": {
+      "Name": "Cord of Pale Thorns",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47106": {
+      "Name": "Sabatons of Ruthless Judgment",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47142": {
+      "Name": "Breastplate of the Frozen Lake",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47108": {
+      "Name": "Bracers of the Shieldmaiden",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47121": {
+      "Name": "Legguards of Ascension",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47116": {
+      "Name": "The Arbiter's Muse",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47105": {
+      "Name": "The Executioner's Malice",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47139": {
+      "Name": "Wail of the Val'kyr",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47115": {
+      "Name": "Death's Verdict",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47138": {
+      "Name": "Chalice of Searing Light",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47104": {
+      "Name": "Twin Spike",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47114": {
+      "Name": "Lupine Longstaff",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47225": {
+      "Name": "Maiden's Favor",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47183": {
+      "Name": "Strength of the Nerub",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47203": {
+      "Name": "Armbands of the Ashen Saint",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47235": {
+      "Name": "Gloves of the Lifeless Touch",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47187": {
+      "Name": "Leggings of the Deepening Void",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47194": {
+      "Name": "Footpads of the Icy Floe",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47151": {
+      "Name": "Bracers of Dark Determination",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47186": {
+      "Name": "Legwraps of the Awakening",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47204": {
+      "Name": "Chestguard of Flowing Elements",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47152": {
+      "Name": "Belt of Deathly Dominion",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47184": {
+      "Name": "Legguards of the Lurking Threat",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47234": {
+      "Name": "Gloves of Bitter Reprisal",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47195": {
+      "Name": "Belt of the Forgotten Martyr",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47150": {
+      "Name": "Greaves of the 7th Legion",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47054": {
+      "Name": "Band of Deplorable Violence",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47149": {
+      "Name": "Signet of the Traitor King",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47182": {
+      "Name": "Reign of the Unliving",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47148": {
+      "Name": "Stormpike Cleaver",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47193": {
+      "Name": "Misery's End",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47233": {
+      "Name": "Archon Glaive",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47855": {
+      "Name": "Icehowl Binding",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47857": {
+      "Name": "Pauldrons of the Glacial Wilds",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47853": {
+      "Name": "Acidmaw Treads",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47860": {
+      "Name": "Pauldrons of the Spirit Walker",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47850": {
+      "Name": "Bracers of the Northern Stalker",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47852": {
+      "Name": "Dreadscale Bracers",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47851": {
+      "Name": "Gauntlets of Mounting Anger",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47859": {
+      "Name": "Belt of the Impaler",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47858": {
+      "Name": "Girdle of the Frozen Reach",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47849": {
+      "Name": "Collar of Unending Torment",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47854": {
+      "Name": "Gormok's Band",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47856": {
+      "Name": "Scepter of Imprisoned Souls",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47861": {
+      "Name": "Felspark Bracers",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47865": {
+      "Name": "Legwraps of the Demonic Messenger",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47863": {
+      "Name": "Belt of the Bloodhoof Emissary",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47866": {
+      "Name": "Darkspear Ritual Binding",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "49236": {
+      "Name": "Sabatons of Tortured Space",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47867": {
+      "Name": "Warsong Poacher's Greaves",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47869": {
+      "Name": "Armplates of the Nether Lord",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47870": {
+      "Name": "Belt of the Nether Champion",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47872": {
+      "Name": "Fortitude of the Infernal",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47864": {
+      "Name": "Pendant of Binding Elements",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47862": {
+      "Name": "Firestorm Band",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47868": {
+      "Name": "Planestalker Band",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47871": {
+      "Name": "Orcish Deathblade",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47873": {
+      "Name": "Sunreaver Magus' Sandals",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47878": {
+      "Name": "Sunreaver Assassin's Gloves",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47875": {
+      "Name": "Sunreaver Ranger's Helm",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47876": {
+      "Name": "Sunreaver Champion's Faceplate",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47877": {
+      "Name": "Sunreaver Defender's Pauldrons",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47880": {
+      "Name": "Binding Stone",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47882": {
+      "Name": "Eitrigg's Oath",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47879": {
+      "Name": "Fetish of Volatile Power",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47881": {
+      "Name": "Vengeance of the Forsaken",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47874": {
+      "Name": "Sunreaver Disciple's Blade",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47889": {
+      "Name": "Looming Shadow Wraps",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "49232": {
+      "Name": "Sandals of the Grieving Soul",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47891": {
+      "Name": "Helm of the High Mesa",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47887": {
+      "Name": "Vest of Shifting Shadows",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47893": {
+      "Name": "Sen'jin Ritualist Gloves",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47885": {
+      "Name": "Greaves of the Lingering Vortex",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47890": {
+      "Name": "Darkbane Amulet",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47888": {
+      "Name": "Band of the Twin Val'kyr",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47913": {
+      "Name": "Lightbane Focus",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47886": {
+      "Name": "Nemesis Blade",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47884": {
+      "Name": "Edge of Agony",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47892": {
+      "Name": "Illumination",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47883": {
+      "Name": "Widebarrel Flintlock",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47906": {
+      "Name": "Robes of the Sleepless",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47909": {
+      "Name": "Belt of the Eternal",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47904": {
+      "Name": "Shoulderpads of the Snow Bandit",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47897": {
+      "Name": "Helm of the Crypt Lord",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47901": {
+      "Name": "Pauldrons of the Shadow Hunter",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47896": {
+      "Name": "Stoneskin Chestplate",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47902": {
+      "Name": "Legplates of Redeemed Blood",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47908": {
+      "Name": "Sunwalker Legguards",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47899": {
+      "Name": "Ardent Guard",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47903": {
+      "Name": "Forsaken Bonecarver",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47898": {
+      "Name": "Frostblade Hatchet",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47894": {
+      "Name": "Mace of the Earthborn Chieftain",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47905": {
+      "Name": "Blackhorn Bludgeon",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47911": {
+      "Name": "Anguish",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47900": {
+      "Name": "Perdition",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47910": {
+      "Name": "Aegis of the Coliseum",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47895": {
+      "Name": "Pride of the Kor'kron",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47907": {
+      "Name": "Darkmaw Crossbow",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47640": {
+      "Name": "Plans: Breastplate of the White Knight",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47641": {
+      "Name": "Plans: Saronite Swordbreakers",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47642": {
+      "Name": "Plans: Sunforged Bracers",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47643": {
+      "Name": "Plans: Sunforged Breastplate",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47644": {
+      "Name": "Plans: Titanium Razorplate",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47645": {
+      "Name": "Plans: Titanium Spikeguards",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47646": {
+      "Name": "Pattern: Black Chitin Bracers",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47647": {
+      "Name": "Pattern: Bracers of Swift Death",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47648": {
+      "Name": "Pattern: Crusader's Dragonscale Bracers",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47649": {
+      "Name": "Pattern: Crusader's Dragonscale Breastplate",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47650": {
+      "Name": "Pattern: Ensorcelled Nerubian Breastplate",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47651": {
+      "Name": "Pattern: Knightbane Carapace",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47652": {
+      "Name": "Pattern: Lunar Eclipse Robes",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47653": {
+      "Name": "Pattern: Moonshadow Armguards",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47639": {
+      "Name": "Pattern: Bejeweled Wizard's Bracers",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47638": {
+      "Name": "Pattern: Merlin's Robe",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47637": {
+      "Name": "Pattern: Royal Moonshroud Bracers",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47636": {
+      "Name": "Pattern: Royal Moonshroud Robe",
+      "Source": "Patterns/Plans",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "47257": {
+      "Name": "Cloak of the Untamed Predator",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47256": {
+      "Name": "Drape of the Refreshing Winds",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47264": {
+      "Name": "Flowing Robes of Ascent",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47258": {
+      "Name": "Belt of the Tenebrous Mist",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47259": {
+      "Name": "Legwraps of the Broken Beast",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47262": {
+      "Name": "Boots of the Harsh Winter",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47251": {
+      "Name": "Cuirass of Cruel Intent",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47265": {
+      "Name": "Binding of the Ice Burrower",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47254": {
+      "Name": "Hauberk of the Towering Monstrosity",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47253": {
+      "Name": "Boneshatter Vambraces",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47263": {
+      "Name": "Sabatons of the Courageous",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47252": {
+      "Name": "Ring of the Violent Temperament",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47261": {
+      "Name": "Barb of Tarasque",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47255": {
+      "Name": "Stygian Bladebreaker",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47260": {
+      "Name": "Forlorn Barrier",
+      "Source": "The Beasts of Northrend",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47275": {
+      "Name": "Pride of the Demon Lord",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47274": {
+      "Name": "Pants of the Soothing Touch",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47270": {
+      "Name": "Vest of Calamitous Fate",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47277": {
+      "Name": "Bindings of the Autumn Willow",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47280": {
+      "Name": "Wristwraps of Cloudy Omen",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47268": {
+      "Name": "Bloodbath Girdle",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47279": {
+      "Name": "Leggings of Failing Light",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47273": {
+      "Name": "Legplates of Feverish Dedication",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47269": {
+      "Name": "Dawnbreaker Sabatons",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47272": {
+      "Name": "Charge of the Eredar",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47278": {
+      "Name": "Circle of the Darkmender",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47271": {
+      "Name": "Solace of the Fallen",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47276": {
+      "Name": "Talisman of Heedless Sins",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47266": {
+      "Name": "Blood Fury",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47267": {
+      "Name": "Death's Head Crossbow",
+      "Source": "Lord Jaraxxus",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47291": {
+      "Name": "Shroud of Displacement",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47286": {
+      "Name": "Belt of Biting Cold",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47293": {
+      "Name": "Sandals of the Mourning Widow",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47292": {
+      "Name": "Robes of the Shattered Fellowship",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47284": {
+      "Name": "Icewalker Treads",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47281": {
+      "Name": "Bracers of the Silent Massacre",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47289": {
+      "Name": "Leggings of Concealed Hatred",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47295": {
+      "Name": "Sabatons of Tremoring Earth",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47288": {
+      "Name": "Chestplate of the Frostwolf Hero",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47294": {
+      "Name": "Bracers of the Broken Bond",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47283": {
+      "Name": "Belt of Bloodied Scars",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47282": {
+      "Name": "Band of Callous Aggression",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47290": {
+      "Name": "Juggernaut's Vitality",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47285": {
+      "Name": "Dual-blade Butcher",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47287": {
+      "Name": "Bastion of Resolve",
+      "Source": "Faction Champions",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47301": {
+      "Name": "Skyweaver Vestments",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47306": {
+      "Name": "Dark Essence Bindings",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47308": {
+      "Name": "Belt of Pale Thorns",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47299": {
+      "Name": "Belt of the Pitiless Killer",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47296": {
+      "Name": "Greaves of Ruthless Judgment",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47310": {
+      "Name": "Chestplate of the Frozen Lake",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47298": {
+      "Name": "Armguards of the Shieldmaiden",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47304": {
+      "Name": "Legplates of Ascension",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47307": {
+      "Name": "Cry of the Val'kyr",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47305": {
+      "Name": "Legionnaire's Gorget",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47297": {
+      "Name": "The Executioner's Vice",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47303": {
+      "Name": "Death's Choice",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47309": {
+      "Name": "Mystifying Charm",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47300": {
+      "Name": "Gouge of the Frigid Heart",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47302": {
+      "Name": "Twin's Pact",
+      "Source": "The Twin Val'kyr",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47328": {
+      "Name": "Maiden's Adoration",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47320": {
+      "Name": "Might of the Nerub",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47324": {
+      "Name": "Bindings of the Ashen Saint",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47326": {
+      "Name": "Handwraps of the Lifeless Touch",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47317": {
+      "Name": "Breeches of the Deepening Void",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47321": {
+      "Name": "Boots of the Icy Floe",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47313": {
+      "Name": "Armbands of Dark Determination",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47318": {
+      "Name": "Leggings of the Awakening",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47325": {
+      "Name": "Cuirass of Flowing Elements",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47311": {
+      "Name": "Waistguard of Deathly Dominion",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47319": {
+      "Name": "Leggings of the Lurking Threat",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47330": {
+      "Name": "Gauntlets of Bitter Reprisal",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47323": {
+      "Name": "Girdle of the Forgotten Martyr",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47312": {
+      "Name": "Greaves of the Saronite Citadel",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47315": {
+      "Name": "Band of the Traitor King",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47327": {
+      "Name": "Lurid Manifestation",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47316": {
+      "Name": "Reign of the Dead",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47314": {
+      "Name": "Hellscream Slicer",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47322": {
+      "Name": "Suffering's End",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
+    },
+    "47329": {
+      "Name": "Hellion Glaive",
+      "Source": "Anub'arak",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "Trial of the Crusader (25)"
     }
   }
 }
