@@ -863,10 +863,10 @@
     },
     "44569": {
       "Name": "Key to the Focusing Iris",
-      "Source": "Sapphiron",
+      "Source": "Sapphiron/Malygos",
       "SourceType": "Drop",
       "SourceNumber": "",
-      "SourceLocation": "Naxxramas (10)"
+      "SourceLocation": "Naxxramas (10)/The Eye of Eternity (10)"
     },
     "44582": {
       "Name": "Key to the Focusing Iris",
@@ -2487,10 +2487,10 @@
     },
     "44577": {
       "Name": "Heroic Key to the Focusing Iris",
-      "Source": "Sapphiron",
+      "Source": "Sapphiron/Malygos",
       "SourceType": "Drop",
       "SourceNumber": "",
-      "SourceLocation": "Naxxramas (25)"
+      "SourceLocation": "Naxxramas (25)/The Eye of Eternity (25)"
     },
     "44581": {
       "Name": "Heroic Key to the Focusing Iris",
@@ -8658,6 +8658,286 @@
       "SourceType": "Drop",
       "SourceNumber": "",
       "SourceLocation": "Obsidian Sanctum (25)"
+    },
+    "40526": {
+      "Name": "Gown of the Spell-Weaver",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "40519": {
+      "Name": "Footsteps of Malygos",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "40511": {
+      "Name": "Focusing Energy Epaulets",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "40486": {
+      "Name": "Necklace of the Glittering Chamber",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "40474": {
+      "Name": "Surge Needle Ring",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "40491": {
+      "Name": "Hailstorm",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "40488": {
+      "Name": "Ice Spire Scepter",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "40489": {
+      "Name": "Greatstaff of the Nexus",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "40497": {
+      "Name": "Black Ice",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "40475": {
+      "Name": "Barricade of Eternity",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "43952": {
+      "Name": "Reins of the Azure Drake",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "44650": {
+      "Name": "Heart of Magic",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "44658": {
+      "Name": "Chain of the Ancient Wyrm",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "44660": {
+      "Name": "Drakescale Collar",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "44659": {
+      "Name": "Pendant of the Dragonsworn",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "44657": {
+      "Name": "Torque of the Red Dragonflight",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (10)"
+    },
+    "40562": {
+      "Name": "Hood of Rationality",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40555": {
+      "Name": "Mantle of Dissemination",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40194": {
+      "Name": "Blanketing Robes of Snow",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40561": {
+      "Name": "Leash of Heedless Magic",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40560": {
+      "Name": "Leggings of the Wanton Spellcaster",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40558": {
+      "Name": "Arcanic Tramplers",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40594": {
+      "Name": "Spaulders of Catatonia",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40539": {
+      "Name": "Chestguard of the Recluse",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40541": {
+      "Name": "Frosted Adroit Handguards",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40566": {
+      "Name": "Unravelling Strands of Sanity",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40543": {
+      "Name": "Blue Aspect Helm",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40588": {
+      "Name": "Tunic of the Artifact Guardian",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40564": {
+      "Name": "Winter Spectacle Gloves",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40549": {
+      "Name": "Boots of the Renewed Flight",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40590": {
+      "Name": "Elevated Lair Pauldrons",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40589": {
+      "Name": "Legplates of Sovereignty",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40592": {
+      "Name": "Boots of Healing Energies",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40591": {
+      "Name": "Melancholy Sabatons",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40532": {
+      "Name": "Living Ice Crystals",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "40531": {
+      "Name": "Mark of Norgannon",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "44664": {
+      "Name": "Favor of the Dragon Queen",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "44662": {
+      "Name": "Life-Binder's Locket",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "44665": {
+      "Name": "Nexus War Champion Beads",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
+    },
+    "44661": {
+      "Name": "Wyrmrest Necklace of Power",
+      "Source": "Malygos",
+      "SourceType": "Drop",
+      "SourceNumber": "",
+      "SourceLocation": "The Eye of Eternity (25)"
     }
   }
 }
