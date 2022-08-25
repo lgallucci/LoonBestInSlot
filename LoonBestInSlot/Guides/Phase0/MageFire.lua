@@ -20,6 +20,7 @@ LBIS:AddItem(spec, "44167", LBIS.L["Back"], "Alt") --Shroud of Dedicated Researc
 LBIS:AddItem(spec, "44242", LBIS.L["Back"], "Alt") --Dark Soldier Cape
 
 LBIS:AddItem(spec, "39492", LBIS.L["Chest"], "BIS") --Heroes' Frostfire Robe
+LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Vanquisher
 LBIS:AddItem(spec, "42101", LBIS.L["Chest"], "Alt") --Ebonweave Robe
 
 LBIS:AddItem(spec, "37361", LBIS.L["Wrist"], "BIS") --Cuffs of Winged Levitation
@@ -30,6 +31,7 @@ LBIS:AddItem(spec, "37725", LBIS.L["Wrist"], "Alt") --Savage Wound Wrap
 LBIS:AddItem(spec, "44200", LBIS.L["Wrist"], "Alt") --Ancestral Sinew Wristguards
 
 LBIS:AddItem(spec, "39495", LBIS.L["Hands"], "BIS") --Heroes' Frostfire Gloves
+LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "BIS") --Gloves of the Lost Vanquisher
 LBIS:AddItem(spec, "42111", LBIS.L["Hands"], "Alt") --Ebonweave Gloves
 
 LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah

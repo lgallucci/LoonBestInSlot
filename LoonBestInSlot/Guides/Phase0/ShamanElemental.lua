@@ -19,6 +19,7 @@ LBIS:AddItem(spec, "34242", LBIS.L["Back"], "Alt") --Tattered Cape of Antonidas
 LBIS:AddItem(spec, "44167", LBIS.L["Back"], "Alt") --Shroud of Dedicated Research
 
 LBIS:AddItem(spec, "39592", LBIS.L["Chest"], "BIS") --Heroes' Earthshatter Hauberk
+LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Protector
 LBIS:AddItem(spec, "43461", LBIS.L["Chest"], "Alt") --Revenant's Breastplate
 LBIS:AddItem(spec, "43410", LBIS.L["Chest"], "Alt") --Moragg's Chestguard
 LBIS:AddItem(spec, "37256", LBIS.L["Chest"], "Alt") --Scaled Armor of Drakos
@@ -35,6 +36,7 @@ LBIS:AddItem(spec, "37725", LBIS.L["Wrist"], "Alt") --Savage Wound Wrap
 LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "Alt") --Bracers of Nimble Thought
 
 LBIS:AddItem(spec, "39593", LBIS.L["Hands"], "BIS") --Heroes' Earthshatter Gloves
+LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "BIS") --Gloves of the Lost Protector
 LBIS:AddItem(spec, "37623", LBIS.L["Hands"], "Alt") --Fiery Obelisk Handguards
 LBIS:AddItem(spec, "42113", LBIS.L["Hands"], "Alt") --Spellweave Gloves
 LBIS:AddItem(spec, "34344", LBIS.L["Hands"], "Alt") --Handguards of Defiled Worlds

@@ -16,6 +16,7 @@ LBIS:AddItem(spec, "37291", LBIS.L["Back"], "Alt") --Ancient Dragon Spirit Cape
 LBIS:AddItem(spec, "44167", LBIS.L["Back"], "Alt") --Shroud of Dedicated Research
 
 LBIS:AddItem(spec, "39492", LBIS.L["Chest"], "BIS") --Heroes' Frostfire Robe
+LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Vanquisher
 LBIS:AddItem(spec, "42101", LBIS.L["Chest"], "Alt") --Ebonweave Robe
 
 LBIS:AddItem(spec, "37361", LBIS.L["Wrist"], "BIS") --Cuffs of Winged Levitation
@@ -25,6 +26,7 @@ LBIS:AddItem(spec, "34447", LBIS.L["Wrist"], "Alt") --Bracers of the Tempest
 LBIS:AddItem(spec, "34852", LBIS.L["Wrist"], "Alt") --Bracers of the Forgotten Vanquisher
 
 LBIS:AddItem(spec, "39495", LBIS.L["Hands"], "BIS") --Heroes' Frostfire Gloves
+LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "BIS") --Gloves of the Lost Vanquisher
 LBIS:AddItem(spec, "39733", LBIS.L["Hands"], "BIS") --Gloves of Token Respect
 LBIS:AddItem(spec, "42111", LBIS.L["Hands"], "Alt") --Ebonweave Gloves
 

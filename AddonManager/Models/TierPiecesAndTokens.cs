@@ -337,13 +337,213 @@ internal class TierPiecesAndTokens
         { 34572 ,new (34858, "Boots of the Forgotten Vanquisher") }, //Thunderheart Footwraps
         { 34571 ,new (34858, "Boots of the Forgotten Vanquisher") }, //Thunderheart Boots
         { 34575 ,new (34858, "Boots of the Forgotten Vanquisher") }, //Slayer's Boots
-        { 34574 ,new (34858, "Boots of the Forgotten Vanquisher") }  //Boots of the Tempest
+        { 34574 ,new (34858, "Boots of the Forgotten Vanquisher") },  //Boots of the Tempest
 
         //T7
+        { 39531, new (40618, "Helm of the Lost Vanquisher")}, //Heroes' Dreamwalker Headpiece
+        { 39545, new (40618, "Helm of the Lost Vanquisher")}, //Heroes' Dreamwalker Cover
+        { 39553, new (40618, "Helm of the Lost Vanquisher")}, //Heroes' Dreamwalker Headguard
+        { 39561, new (40618, "Helm of the Lost Vanquisher")}, //Heroes' Bonescythe Helmet
+        { 39491, new (40618, "Helm of the Lost Vanquisher")}, //Heroes' Frostfire Circlet
+        { 39619, new (40618, "Helm of the Lost Vanquisher")}, //Heroes' Scourgeborne Helmet
+        { 39625, new (40618, "Helm of the Lost Vanquisher")}, //Heroes' Scourgeborne Faceguard
+        { 39542, new (40624, "Spaulders of the Lost Vanquisher")}, //Heroes' Dreamwalker Spaulders
+        { 39548, new (40624, "Spaulders of the Lost Vanquisher")}, //Heroes' Dreamwalker Mantle
+        { 39556, new (40624, "Spaulders of the Lost Vanquisher")}, //Heroes' Dreamwalker Shoulderpads
+        { 39565, new (40624, "Spaulders of the Lost Vanquisher")}, //Heroes' Bonescythe Pauldrons
+        { 39494, new (40624, "Spaulders of the Lost Vanquisher")}, //Heroes' Frostfire Shoulderpads
+        { 39621, new (40624, "Spaulders of the Lost Vanquisher")}, //Heroes' Scourgeborne Shoulderplates
+        { 39627, new (40624, "Spaulders of the Lost Vanquisher")}, //Heroes' Scourgeborne Pauldrons
+        { 39538, new (40612, "Chestguard of the Lost Vanquisher")}, //Heroes' Dreamwalker Robe
+        { 39547, new (40612, "Chestguard of the Lost Vanquisher")}, //Heroes' Dreamwalker Vestments
+        { 39554, new (40612, "Chestguard of the Lost Vanquisher")}, //Heroes' Dreamwalker Raiments
+        { 39558, new (40612, "Chestguard of the Lost Vanquisher")}, //Heroes' Bonescythe Breastplate
+        { 39492, new (40612, "Chestguard of the Lost Vanquisher")}, //Heroes' Frostfire Robe
+        { 39617, new (40612, "Chestguard of the Lost Vanquisher")}, //Heroes' Scourgeborne Battleplate
+        { 39623, new (40612, "Chestguard of the Lost Vanquisher")}, //Heroes' Scourgeborne Chestguard
+        { 39543, new (40615, "Gloves of the Lost Vanquisher")}, //Heroes' Dreamwalker Handguards
+        { 39544, new (40615, "Gloves of the Lost Vanquisher")}, //Heroes' Dreamwalker Gloves
+        { 39557, new (40615, "Gloves of the Lost Vanquisher")}, //Heroes' Dreamwalker Handgrips
+        { 39560, new (40615, "Gloves of the Lost Vanquisher")}, //Heroes' Bonescythe Gauntlets
+        { 39495, new (40615, "Gloves of the Lost Vanquisher")}, //Heroes' Frostfire Gloves
+        { 39618, new (40615, "Gloves of the Lost Vanquisher")}, //Heroes' Scourgeborne Gauntlets
+        { 39624, new (40615, "Gloves of the Lost Vanquisher")}, //Heroes' Scourgeborne Handguards
+        { 39539, new (40621, "Leggings of the Lost Vanquisher") }, //Heroes' Dreamwalker Leggings
+        { 39546, new (40621, "Leggings of the Lost Vanquisher") }, //Heroes' Dreamwalker Trousers
+        { 39555, new (40621, "Leggings of the Lost Vanquisher") }, //Heroes' Dreamwalker Legguards
+        { 39564, new (40621, "Leggings of the Lost Vanquisher") }, //Heroes' Bonescythe Legplates
+        { 39493, new (40621, "Leggings of the Lost Vanquisher") }, //Heroes' Frostfire Leggings
+        { 39620, new (40621, "Leggings of the Lost Vanquisher") }, //Heroes' Scourgeborne Legplates
+        { 39626, new (40621, "Leggings of the Lost Vanquisher") }, //Heroes' Scourgeborne Legguards
+        { 40461, new (40633, "Crown of the Lost Vanquisher")}, //Valorous Dreamwalker Headpiece
+        { 40467, new (40633, "Crown of the Lost Vanquisher")}, //Valorous Dreamwalker Cover
+        { 40473, new (40633, "Crown of the Lost Vanquisher")}, //Valorous Dreamwalker Headguard
+        { 40499, new (40633, "Crown of the Lost Vanquisher")}, //Valorous Bonescythe Helmet
+        { 40416, new (40633, "Crown of the Lost Vanquisher")}, //Valorous Frostfire Circlet
+        { 40554, new (40633, "Crown of the Lost Vanquisher")}, //Valorous Scourgeborne Helmet
+        { 40565, new (40633, "Crown of the Lost Vanquisher")}, //Valorous Scourgeborne Faceguard
+        { 40465, new (40639, "Mantle of the Lost Vanquisher")}, //Valorous Dreamwalker Spaulders
+        { 40470, new (40639, "Mantle of the Lost Vanquisher")}, //Valorous Dreamwalker Mantle
+        { 40494, new (40639, "Mantle of the Lost Vanquisher")}, //Valorous Dreamwalker Shoulderpads
+        { 40502, new (40639, "Mantle of the Lost Vanquisher")}, //Valorous Bonescythe Pauldrons
+        { 40419, new (40639, "Mantle of the Lost Vanquisher")}, //Valorous Frostfire Shoulderpads
+        { 40557, new (40639, "Mantle of the Lost Vanquisher")}, //Valorous Scourgeborne Shoulderplates
+        { 40568, new (40639, "Mantle of the Lost Vanquisher")}, //Valorous Scourgeborne Pauldrons
+        { 40463, new (40627, "Breastplate of the Lost Vanquisher")}, //Valorous Dreamwalker Robe
+        { 40469, new (40627, "Breastplate of the Lost Vanquisher")}, //Valorous Dreamwalker Vestments
+        { 40471, new (40627, "Breastplate of the Lost Vanquisher")}, //Valorous Dreamwalker Raiments
+        { 40495, new (40627, "Breastplate of the Lost Vanquisher")}, //Valorous Bonescythe Breastplate
+        { 40418, new (40627, "Breastplate of the Lost Vanquisher")}, //Valorous Frostfire Robe
+        { 40550, new (40627, "Breastplate of the Lost Vanquisher")}, //Valorous Scourgeborne Battleplate
+        { 40559, new (40627, "Breastplate of the Lost Vanquisher")}, //Valorous Scourgeborne Chestguard
+        { 40460, new (40630, "Gauntlets of the Lost Vanquisher")}, //Valorous Dreamwalker Handguards
+        { 40466, new (40630, "Gauntlets of the Lost Vanquisher")}, //Valorous Dreamwalker Gloves
+        { 40472, new (40630, "Gauntlets of the Lost Vanquisher")}, //Valorous Dreamwalker Handgrips
+        { 40496, new (40630, "Gauntlets of the Lost Vanquisher")}, //Valorous Bonescythe Gauntlets
+        { 40415, new (40630, "Gauntlets of the Lost Vanquisher")}, //Valorous Frostfire Gloves
+        { 40552, new (40630, "Gauntlets of the Lost Vanquisher")}, //Valorous Scourgeborne Gauntlets
+        { 40563, new (40630, "Gauntlets of the Lost Vanquisher")}, //Valorous Scourgeborne Handguards
+        { 40462, new (40636, "Leggings of the Lost Vanquisher") }, //Valorous Dreamwalker Leggings
+        { 40468, new (40636, "Leggings of the Lost Vanquisher") }, //Valorous Dreamwalker Trousers
+        { 40493, new (40636, "Leggings of the Lost Vanquisher") }, //Valorous Dreamwalker Legguards
+        { 40500, new (40636, "Leggings of the Lost Vanquisher") }, //Valorous Bonescythe Legplates
+        { 40417, new (40636, "Leggings of the Lost Vanquisher") }, //Valorous Frostfire Leggings
+        { 40556, new (40636, "Leggings of the Lost Vanquisher") }, //Valorous Scourgeborne Legplates
+        { 40567, new (40636, "Leggings of the Lost Vanquisher") }, //Valorous Scourgeborne Legguards
 
+        { 39496, new (40616, "Helm of the Lost Conqueror")}, //Heroes' Plagueheart Circlet
+        { 39514, new (40616, "Helm of the Lost Conqueror")}, //Heroes' Crown of Faith
+        { 39521, new (40616, "Helm of the Lost Conqueror")}, //Heroes' Circlet of Faith
+        { 39628, new (40616, "Helm of the Lost Conqueror")}, //Heroes' Redemption Headpiece
+        { 39635, new (40616, "Helm of the Lost Conqueror")}, //Heroes' Redemption Helm
+        { 39640, new (40616, "Helm of the Lost Conqueror")}, //Heroes' Redemption Faceguard
+        { 39499, new (40622, "Spaulders of the Lost Conqueror")}, //Heroes' Plagueheart Shoulderpads
+        { 39518, new (40622, "Spaulders of the Lost Conqueror")}, //Heroes' Shoulderpads of Faith
+        { 39529, new (40622, "Spaulders of the Lost Conqueror")}, //Heroes' Mantle of Faith
+        { 39631, new (40622, "Spaulders of the Lost Conqueror")}, //Heroes' Redemption Spaulders
+        { 39637, new (40622, "Spaulders of the Lost Conqueror")}, //Heroes' Redemption Shoulderplates
+        { 39642, new (40622, "Spaulders of the Lost Conqueror")}, //Heroes' Redemption Shoulderguards
+        { 39497, new (40610, "Chestguard of the Lost Conqueror")}, //Heroes' Plagueheart Robe
+        { 39515, new (40610, "Chestguard of the Lost Conqueror")}, //Heroes' Robe of Faith
+        { 39523, new (40610, "Chestguard of the Lost Conqueror")}, //Heroes' Raiments of Faith
+        { 39629, new (40610, "Chestguard of the Lost Conqueror")}, //Heroes' Redemption Tunic
+        { 39633, new (40610, "Chestguard of the Lost Conqueror")}, //Heroes' Redemption Chestpiece
+        { 39638, new (40610, "Chestguard of the Lost Conqueror")}, //Heroes' Redemption Breastplate
+        { 39500, new (40613, "Gloves of the Lost Conqueror")}, //Heroes' Plagueheart Gloves
+        { 39519, new (40613, "Gloves of the Lost Conqueror")}, //Heroes' Gloves of Faith
+        { 39530, new (40613, "Gloves of the Lost Conqueror")}, //Heroes' Handwraps of Faith
+        { 39632, new (40613, "Gloves of the Lost Conqueror")}, //Heroes' Redemption Gloves
+        { 39634, new (40613, "Gloves of the Lost Conqueror")}, //Heroes' Redemption Gauntlets
+        { 39639, new (40613, "Gloves of the Lost Conqueror")}, //Heroes' Redemption Handguards
+        { 39498, new (40619, "Leggings of the Lost Conqueror")}, //Heroes' Plagueheart Leggings
+        { 39517, new (40619, "Leggings of the Lost Conqueror")}, //Heroes' Leggings of Faith
+        { 39528, new (40619, "Leggings of the Lost Conqueror")}, //Heroes' Pants of Faith
+        { 39630, new (40619, "Leggings of the Lost Conqueror")}, //Heroes' Redemption Greaves
+        { 39636, new (40619, "Leggings of the Lost Conqueror")}, //Heroes' Redemption Legplates
+        { 39641, new (40619, "Leggings of the Lost Conqueror")}, //Heroes' Redemption Legguards        
+        { 40421, new (40631, "Crown of the Lost Conqueror")}, //Valorous Plagueheart Circlet
+        { 40447, new (40631, "Crown of the Lost Conqueror")}, //Valorous Crown of Faith
+        { 40456, new (40631, "Crown of the Lost Conqueror")}, //Valorous Circlet of Faith
+        { 40571, new (40631, "Crown of the Lost Conqueror")}, //Valorous Redemption Headpiece
+        { 40576, new (40631, "Crown of the Lost Conqueror")}, //Valorous Redemption Helm
+        { 40581, new (40631, "Crown of the Lost Conqueror")}, //Valorous Redemption Faceguard
+        { 40424, new (40622, "Mantle of the Lost Conqueror")}, //Valorous Plagueheart Shoulderpads
+        { 40450, new (40622, "Mantle of the Lost Conqueror")}, //Valorous Shoulderpads of Faith
+        { 40459, new (40622, "Mantle of the Lost Conqueror")}, //Valorous Mantle of Faith
+        { 40573, new (40622, "Mantle of the Lost Conqueror")}, //Valorous Redemption Spaulders
+        { 40578, new (40622, "Mantle of the Lost Conqueror")}, //Valorous Redemption Shoulderplates
+        { 40584, new (40622, "Mantle of the Lost Conqueror")}, //Valorous Redemption Shoulderguards
+        { 40423, new (40625, "Breastplate of the Lost Conqueror")}, //Valorous Plagueheart Robe
+        { 40449, new (40625, "Breastplate of the Lost Conqueror")}, //Valorous Robe of Faith
+        { 40458, new (40625, "Breastplate of the Lost Conqueror")}, //Valorous Raiments of Faith
+        { 40569, new (40625, "Breastplate of the Lost Conqueror")}, //Valorous Redemption Tunic
+        { 40574, new (40625, "Breastplate of the Lost Conqueror")}, //Valorous Redemption Chestpiece
+        { 40579, new (40625, "Breastplate of the Lost Conqueror")}, //Valorous Redemption Breastplate
+        { 40420, new (40628, "Gauntlets of the Lost Conqueror")}, //Valorous Plagueheart Gloves
+        { 40445, new (40628, "Gauntlets of the Lost Conqueror")}, //Valorous Gloves of Faith
+        { 40454, new (40628, "Gauntlets of the Lost Conqueror")}, //Valorous Handwraps of Faith
+        { 40570, new (40628, "Gauntlets of the Lost Conqueror")}, //Valorous Redemption Gloves
+        { 40575, new (40628, "Gauntlets of the Lost Conqueror")}, //Valorous Redemption Gauntlets
+        { 40580, new (40628, "Gauntlets of the Lost Conqueror")}, //Valorous Redemption Handguards
+        { 40422, new (40634, "Legplates of the Lost Conqueror")}, //Valorous Plagueheart Leggings
+        { 40448, new (40634, "Legplates of the Lost Conqueror")}, //Valorous Leggings of Faith
+        { 40457, new (40634, "Legplates of the Lost Conqueror")}, //Valorous Pants of Faith
+        { 40572, new (40634, "Legplates of the Lost Conqueror")}, //Valorous Redemption Greaves
+        { 40577, new (40634, "Legplates of the Lost Conqueror")}, //Valorous Redemption Legplates
+        { 40583, new (40634, "Legplates of the Lost Conqueror")}, //Valorous Redemption Legguards
+          
+        { 39605, new (40617, "Helm of the Lost Protector")}, //Heroes' Dreadnaught Helmet
+        { 39610, new (40617, "Helm of the Lost Protector")}, //Heroes' Dreadnaught Greathelm
+        { 39578, new (40617, "Helm of the Lost Protector")}, //Heroes' Cryptstalker Headpiece
+        { 39583, new (40617, "Helm of the Lost Protector")}, //Heroes' Earthshatter Headpiece
+        { 39594, new (40617, "Helm of the Lost Protector")}, //Heroes' Earthshatter Helm
+        { 39602, new (40617, "Helm of the Lost Protector")}, //Heroes' Earthshatter Faceguard
+        { 39608, new (40623, "Spaulders of the Lost Protector")}, //Heroes' Dreadnaught Shoulderplates
+        { 39613, new (40623, "Spaulders of the Lost Protector")}, //Heroes' Dreadnaught Pauldrons
+        { 39581, new (40623, "Spaulders of the Lost Protector")}, //Heroes' Cryptstalker Spaulders
+        { 39590, new (40623, "Spaulders of the Lost Protector")}, //Heroes' Earthshatter Spaulders
+        { 39596, new (40623, "Spaulders of the Lost Protector")}, //Heroes' Earthshatter Shoulderpads
+        { 39604, new (40623, "Spaulders of the Lost Protector")}, //Heroes' Earthshatter Shoulderguards
+        { 39606, new (40611, "Chestguard of the Lost Protector")}, //Heroes' Dreadnaught Battleplate
+        { 39611, new (40611, "Chestguard of the Lost Protector")}, //Heroes' Dreadnaught Breastplate
+        { 39579, new (40611, "Chestguard of the Lost Protector")}, //Heroes' Cryptstalker Tunic
+        { 39588, new (40611, "Chestguard of the Lost Protector")}, //Heroes' Earthshatter Tunic
+        { 39592, new (40611, "Chestguard of the Lost Protector")}, //Heroes' Earthshatter Hauberk
+        { 39597, new (40611, "Chestguard of the Lost Protector")}, //Heroes' Earthshatter Chestguard
+        { 39609, new (40614, "Gloves of the Lost Protector")}, //Heroes' Dreadnaught Gauntlets
+        { 39622, new (40614, "Gloves of the Lost Protector")}, //Heroes' Dreadnaught Handguards
+        { 39582, new (40614, "Gloves of the Lost Protector")}, //Heroes' Cryptstalker Handguards
+        { 39591, new (40614, "Gloves of the Lost Protector")}, //Heroes' Earthshatter Handguards
+        { 39593, new (40614, "Gloves of the Lost Protector")}, //Heroes' Earthshatter Gloves
+        { 39601, new (40614, "Gloves of the Lost Protector")}, //Heroes' Earthshatter Grips
+        { 39607, new (40620, "Leggings of the Lost Protector")}, //Heroes' Dreadnaught Legplates
+        { 39612, new (40620, "Leggings of the Lost Protector")}, //Heroes' Dreadnaught Legguards
+        { 39580, new (40620, "Leggings of the Lost Protector")}, //Heroes' Cryptstalker Legguards
+        { 39589, new (40620, "Leggings of the Lost Protector")}, //Heroes' Earthshatter Legguards
+        { 39595, new (40620, "Leggings of the Lost Protector")}, //Heroes' Earthshatter Kilt
+        { 39603, new (40620, "Leggings of the Lost Protector")}, //Heroes' Earthshatter War-Kilt
+        { 40528, new (40632, "Crown of the Lost Protector")}, //Valorous Dreadnaught Helmet
+        { 40546, new (40632, "Crown of the Lost Protector")}, //Valorous Dreadnaught Greathelm
+        { 40505, new (40632, "Crown of the Lost Protector")}, //Valorous Cryptstalker Headpiece
+        { 40510, new (40632, "Crown of the Lost Protector")}, //Valorous Earthshatter Headpiece
+        { 40516, new (40632, "Crown of the Lost Protector")}, //Valorous Earthshatter Helm
+        { 40521, new (40632, "Crown of the Lost Protector")}, //Valorous Earthshatter Faceguard
+        { 40530, new (40638, "Mantle of the Lost Protector")}, //Valorous Dreadnaught Shoulderplates
+        { 40548, new (40638, "Mantle of the Lost Protector")}, //Valorous Dreadnaught Pauldrons
+        { 40507, new (40638, "Mantle of the Lost Protector")}, //Valorous Cryptstalker Spaulders
+        { 40513, new (40638, "Mantle of the Lost Protector")}, //Valorous Earthshatter Spaulders
+        { 40518, new (40638, "Mantle of the Lost Protector")}, //Valorous Earthshatter Shoulderpads
+        { 40524, new (40638, "Mantle of the Lost Protector")}, //Valorous Earthshatter Shoulderguards
+        { 40525, new (40626, "Breastplate of the Lost Protector")}, //Valorous Dreadnaught Battleplate
+        { 40544, new (40626, "Breastplate of the Lost Protector")}, //Valorous Dreadnaught Breastplate
+        { 40508, new (40626, "Breastplate of the Lost Protector")}, //Valorous Cryptstalker Tunic
+        { 40503, new (40626, "Breastplate of the Lost Protector")}, //Valorous Earthshatter Tunic
+        { 40514, new (40626, "Breastplate of the Lost Protector")}, //Valorous Earthshatter Hauberk
+        { 40523, new (40626, "Breastplate of the Lost Protector")}, //Valorous Earthshatter Chestguard
+        { 40527, new (40614, "Gloves of the Lost Protector")}, //Valorous Dreadnaught Gauntlets
+        { 40545, new (40614, "Gloves of the Lost Protector")}, //Valorous Dreadnaught Handguards
+        { 40504, new (40614, "Gloves of the Lost Protector")}, //Valorous Cryptstalker Handguards
+        { 40509, new (40614, "Gloves of the Lost Protector")}, //Valorous Earthshatter Handguards
+        { 40515, new (40614, "Gloves of the Lost Protector")}, //Valorous Earthshatter Gloves
+        { 40520, new (40614, "Gloves of the Lost Protector")}, //Valorous Earthshatter Grips
+        { 40529, new (40635, "Leggings of the Lost Protector")}, //Valorous Dreadnaught Legplates
+        { 40547, new (40635, "Leggings of the Lost Protector")}, //Valorous Dreadnaught Legguards
+        { 40506, new (40635, "Leggings of the Lost Protector")}, //Valorous Cryptstalker Legguards
+        { 40512, new (40635, "Leggings of the Lost Protector")}, //Valorous Earthshatter Legguards
+        { 40517, new (40635, "Leggings of the Lost Protector")}, //Valorous Earthshatter Kilt
+        { 40522, new (40635, "Leggings of the Lost Protector")}, //Valorous Earthshatter War-Kilt
+
+        //T8
+        //{ , new (, "")}, //
+        
+        //T9
+        //{ , new (, "")}, //
+        
+        //T10
+        //{ , new (, "")}, //
     };
 
-    public static readonly Dictionary<int, (int, string)> Transmutes = new Dictionary<int, (int, string)>() 
+    public static readonly Dictionary<int, (int, string)> Transmutes = new Dictionary<int, (int, string)>()
     {
         { 34405, (34339, "Cowl of Light's Purity") }, //Helm of Arcane Purity
         { 34406, (34342, "Handguards of the Dawn") }, //Gloves of Tyri's Power

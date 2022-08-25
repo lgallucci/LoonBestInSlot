@@ -9,7 +9,7 @@ LBIS:AddItem(spec, "34243", LBIS.L["Head"], "Transmute Alt") --Helm of Burning R
 LBIS:AddItem(spec, "44040", LBIS.L["Head"], "Alt") --The Crusader's Resolution
 
 LBIS:AddItem(spec, "44312", LBIS.L["Shoulder"], "BIS") --Wapach's Spaulders of Solidarity
-LBIS:AddItem(spec, "34389", LBIS.L["Shoulder"], "BIS") --Spaulders of the Thalassian Mitender
+LBIS:AddItem(spec, "34389", LBIS.L["Shoulder"], "BIS") --Spaulders of the Thalassian Defender
 LBIS:AddItem(spec, "34193", LBIS.L["Shoulder"], "Transmute BIS") --Spaulders of the Thalassian Savior
 LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "BIS") --Pauldrons of Perseverance
 LBIS:AddItem(spec, "37635", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Colossus
@@ -22,6 +22,7 @@ LBIS:AddItem(spec, "37084", LBIS.L["Back"], "Alt") --Flowing Cloak of Command
 LBIS:AddItem(spec, "44188", LBIS.L["Back"], "Alt") --Cloak of Peaceful Resolutions
 
 LBIS:AddItem(spec, "39611", LBIS.L["Chest"], "BIS") --Heroes' Dreadnaught Breastplate
+LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Protector
 LBIS:AddItem(spec, "44198", LBIS.L["Chest"], "Alt") --Breastplate of the Solemn Council
 LBIS:AddItem(spec, "37722", LBIS.L["Chest"], "Alt") --Breastplate of Undeath
 LBIS:AddItem(spec, "37658", LBIS.L["Chest"], "Alt") --Sun-Emblazoned Chestplate
@@ -37,6 +38,7 @@ LBIS:AddItem(spec, "44341", LBIS.L["Wrist"], "Alt") --Bracers of Reverence
 
 LBIS:AddItem(spec, "37645", LBIS.L["Hands"], "BIS") --Horn-Tipped Gauntlets
 LBIS:AddItem(spec, "39622", LBIS.L["Hands"], "Alt") --Heroes' Dreadnaught Handguards
+LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
 LBIS:AddItem(spec, "44183", LBIS.L["Hands"], "Alt") --Fireproven Gauntlets
 LBIS:AddItem(spec, "37862", LBIS.L["Hands"], "Alt") --Gauntlets of the Water Revenant
 LBIS:AddItem(spec, "37671", LBIS.L["Hands"], "Alt") --Refined Ore Gloves
@@ -88,7 +90,7 @@ LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "Alt Stam") --Figurine - Monarch 
 LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "Alt Stam") --Essence of Gossamer
 LBIS:AddItem(spec, "42341", LBIS.L["Trinket"], "Alt Stam") --Figurine - Ruby Hare
 LBIS:AddItem(spec, "36993", LBIS.L["Trinket"], "Alt Mit") --Seal of the Pantheon
-LBIS:AddItem(spec, "44323", LBIS.L["Trinket"], "Alt") --Indestructible Alchemist's Stone
+LBIS:AddItem(spec, "44323", LBIS.L["Trinket"], "Alt Stam") --Indestructible Alchemist's Stone
 LBIS:AddItem(spec, "40767", LBIS.L["Trinket"], "Alt Stam") --Sonic Booster
 LBIS:AddItem(spec, "37638", LBIS.L["Trinket"], "Alt Mit") --Offering of Sacrifice
 

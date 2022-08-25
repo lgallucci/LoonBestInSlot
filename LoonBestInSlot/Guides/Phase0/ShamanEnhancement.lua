@@ -10,8 +10,8 @@ LBIS:AddItem(spec, "37373", LBIS.L["Shoulder"], "BIS") --Massive Spaulders of th
 LBIS:AddItem(spec, "43481", LBIS.L["Shoulder"], "Alt") --Trollwoven Spaulders
 LBIS:AddItem(spec, "37679", LBIS.L["Shoulder"], "Alt") --Spaulders of the Abomination
 LBIS:AddItem(spec, "44257", LBIS.L["Shoulder"], "Alt") --Spaulders of the Black Arrow
-LBIS:AddItem(spec, "31024", LBIS.L["Shoulder"], "Alt (4-set)") --Skyshatter Pauldrons
-LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "Alt (4-set)") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "31024", LBIS.L["Shoulder"], "Alt") --Skyshatter Pauldrons
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Forgotten Protector
 
 LBIS:AddItem(spec, "43566", LBIS.L["Back"], "BIS") --Ice Striker's Cloak
 LBIS:AddItem(spec, "37840", LBIS.L["Back"], "BIS") --Shroud of Reverberation
@@ -19,6 +19,7 @@ LBIS:AddItem(spec, "38614", LBIS.L["Back"], "Alt") --Embrace of Sorrow
 LBIS:AddItem(spec, "34241", LBIS.L["Back"], "Alt") --Cloak of Unforgivable Sin
 
 LBIS:AddItem(spec, "39597", LBIS.L["Chest"], "BIS") --Heroes' Earthshatter Chestguard
+LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Protector
 LBIS:AddItem(spec, "44295", LBIS.L["Chest"], "Alt") --Polished Regimental Hauberk
 LBIS:AddItem(spec, "37219", LBIS.L["Chest"], "Alt") --Custodian's Chestpiece
 LBIS:AddItem(spec, "37800", LBIS.L["Chest"], "Alt") --Aviary Guardsman's Hauberk
@@ -32,6 +33,7 @@ LBIS:AddItem(spec, "34439", LBIS.L["Wrist"], "Alt") --Skyshatter Wristguards
 LBIS:AddItem(spec, "34851", LBIS.L["Wrist"], "Alt") --Bracers of the Forgotten Protector
 
 LBIS:AddItem(spec, "39601", LBIS.L["Hands"], "BIS") --Heroes' Earthshatter Grips
+LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "BIS") --Gloves of the Lost Protector
 LBIS:AddItem(spec, "37409", LBIS.L["Hands"], "Alt") --Gilt-Edged Leather Gauntlets
 LBIS:AddItem(spec, "37886", LBIS.L["Hands"], "Alt") --Handgrips of the Savage Emissary
 LBIS:AddItem(spec, "37639", LBIS.L["Hands"], "Alt") --Grips of the Beast God

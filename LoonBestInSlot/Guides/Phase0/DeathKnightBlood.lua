@@ -14,6 +14,7 @@ LBIS:AddItem(spec, "37728", LBIS.L["Back"], "Alt") --Cloak of the Enemy
 LBIS:AddItem(spec, "44188", LBIS.L["Back"], "Alt") --Cloak of Peaceful Resolutions
 
 LBIS:AddItem(spec, "39623", LBIS.L["Chest"], "BIS") --Heroes' Scourgeborne Chestguard
+LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Vanquisher
 LBIS:AddItem(spec, "37658", LBIS.L["Chest"], "Alt") --Sun-Emblazoned Chestplate
 LBIS:AddItem(spec, "44198", LBIS.L["Chest"], "Alt") --Breastplate of the Solemn Council
 LBIS:AddItem(spec, "37735", LBIS.L["Chest"], "Alt") --Ziggurat Imprinted Chestguard
@@ -24,6 +25,7 @@ LBIS:AddItem(spec, "37040", LBIS.L["Wrist"], "Alt") --Svala's Bloodied Shackles
 LBIS:AddItem(spec, "44341", LBIS.L["Wrist"], "Alt") --Bracers of Reverence
 
 LBIS:AddItem(spec, "39624", LBIS.L["Hands"], "BIS") --Heroes' Scourgeborne Handguards
+LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "BIS") --Gloves of the Lost Vanquisher
 LBIS:AddItem(spec, "44183", LBIS.L["Hands"], "BIS") --Fireproven Gauntlets
 LBIS:AddItem(spec, "37645", LBIS.L["Hands"], "BIS") --Horn-Tipped Gauntlets
 LBIS:AddItem(spec, "37862", LBIS.L["Hands"], "Alt") --Gauntlets of the Water Revenant

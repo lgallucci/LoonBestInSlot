@@ -29,6 +29,7 @@ LBIS:AddItem(spec, "37048", LBIS.L["Back"], "Alt") --Shroud of Resurrection
 LBIS:AddItem(spec, "44027", LBIS.L["Back"], "Alt") --Bloodbane Shroud
 
 LBIS:AddItem(spec, "39515", LBIS.L["Chest"], "BIS") --Heroes' Robe of Faith
+LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
 LBIS:AddItem(spec, "44180", LBIS.L["Chest"], "BIS") --Robes of Crackling Flame
 LBIS:AddItem(spec, "37258", LBIS.L["Chest"], "Alt") --Drakewing Raiments
 LBIS:AddItem(spec, "42100", LBIS.L["Chest"], "Alt") --Moonshroud Robe
@@ -49,6 +50,7 @@ LBIS:AddItem(spec, "34848", LBIS.L["Wrist"], "Alt") --Bracers of the Forgotten C
 LBIS:AddItem(spec, "34435", LBIS.L["Wrist"], "Alt") --Cuffs of Absolution
 
 LBIS:AddItem(spec, "39519", LBIS.L["Hands"], "BIS") --Heroes' Gloves of Faith
+LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "BIS") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "42113", LBIS.L["Hands"], "Alt") --Spellweave Gloves
 LBIS:AddItem(spec, "37172", LBIS.L["Hands"], "BIS") --Gloves of Glistening Runes
 LBIS:AddItem(spec, "37825", LBIS.L["Hands"], "Alt") --Traditionally Dyed Handguards

@@ -22,6 +22,7 @@ LBIS:AddItem(spec, "37728", LBIS.L["Back"], "Alt") --Cloak of the Enemy
 LBIS:AddItem(spec, "44026", LBIS.L["Back"], "Alt") --Bloodbane's Resolve
 
 LBIS:AddItem(spec, "39638", LBIS.L["Chest"], "BIS") --Heroes' Redemption Breastplate
+LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
 LBIS:AddItem(spec, "44198", LBIS.L["Chest"], "Alt") --Breastplate of the Solemn Council
 LBIS:AddItem(spec, "43586", LBIS.L["Chest"], "Alt") --Icebane Chestguard
 LBIS:AddItem(spec, "37658", LBIS.L["Chest"], "Alt") --Sun-Emblazoned Chestplate
@@ -34,6 +35,7 @@ LBIS:AddItem(spec, "44341", LBIS.L["Wrist"], "Alt") --Bracers of Reverence
 
 LBIS:AddItem(spec, "44183", LBIS.L["Hands"], "BIS") --Fireproven Gauntlets
 LBIS:AddItem(spec, "39639", LBIS.L["Hands"], "Alt") --Heroes' Redemption Handguards
+LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "Alt") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "37645", LBIS.L["Hands"], "Alt") --Horn-Tipped Gauntlets
 LBIS:AddItem(spec, "37862", LBIS.L["Hands"], "Alt") --Gauntlets of the Water Revenant
 LBIS:AddItem(spec, "41357", LBIS.L["Hands"], "Alt") --Daunting Handguards

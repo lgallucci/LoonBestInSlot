@@ -15,6 +15,7 @@ LBIS:AddItem(spec, "37840", LBIS.L["Back"], "Alt") --Shroud of Reverberation
 LBIS:AddItem(spec, "44216", LBIS.L["Back"], "Alt") --Cloak of Holy Extermination
 
 LBIS:AddItem(spec, "39606", LBIS.L["Chest"], "BIS") --Heroes' Dreadnaught Battleplate
+LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Protector
 LBIS:AddItem(spec, "44303", LBIS.L["Chest"], "Alt") --Darkheart Chestguard
 LBIS:AddItem(spec, "37612", LBIS.L["Chest"], "Alt") --Bonegrinder Breastplate
 
@@ -23,6 +24,7 @@ LBIS:AddItem(spec, "44203", LBIS.L["Wrist"], "Alt") --Dragonfriend Bracers
 LBIS:AddItem(spec, "37853", LBIS.L["Wrist"], "Alt") --Advanced Tooled-Leather Bands
 
 LBIS:AddItem(spec, "39609", LBIS.L["Hands"], "BIS") --Heroes' Dreadnaught Gauntlets
+LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "BIS") --Gloves of the Lost Protector
 LBIS:AddItem(spec, "37363", LBIS.L["Hands"], "Alt") --Gauntlets of Dragon Wrath
 LBIS:AddItem(spec, "34341", LBIS.L["Hands"], "Alt") --Borderland Paingrips
 

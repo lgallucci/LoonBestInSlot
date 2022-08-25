@@ -37,6 +37,7 @@ LBIS:AddItem(spec, "42056", LBIS.L["Back"], "Alt") --Hateful Gladiator's Cloak o
 LBIS:AddItem(spec, "37291", LBIS.L["Back"], "Alt") --Ancient Dragon Spirit Cape
 
 LBIS:AddItem(spec, "39497", LBIS.L["Chest"], "BIS") --Heroes' Plagueheart Robe
+LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
 LBIS:AddItem(spec, "34364", LBIS.L["Chest"], "Alt") --Sunfire Robe
 LBIS:AddItem(spec, "42102", LBIS.L["Chest"], "Alt") --Spellweave Robe
 LBIS:AddItem(spec, "34399", LBIS.L["Chest"], "Alt") --Robes of Ghostly Hatred
@@ -66,6 +67,7 @@ LBIS:AddItem(spec, "37113", LBIS.L["Wrist"], "Alt") --Demonic Fabric Bands
 LBIS:AddItem(spec, "37172", LBIS.L["Hands"], "Alt") --Gloves of Glistening Runes
 LBIS:AddItem(spec, "42113", LBIS.L["Hands"], "Alt") --Spellweave Gloves
 LBIS:AddItem(spec, "39500", LBIS.L["Hands"], "BIS") --Heroes' Plagueheart Gloves
+LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "BIS") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "34344", LBIS.L["Hands"], "Alt") --Handguards of Defiled Worlds
 LBIS:AddItem(spec, "42111", LBIS.L["Hands"], "Alt") --Ebonweave Gloves
 LBIS:AddItem(spec, "34342", LBIS.L["Hands"], "Alt") --Handguards of the Dawn

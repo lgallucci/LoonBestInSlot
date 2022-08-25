@@ -15,6 +15,7 @@ LBIS:AddItem(spec, "34241", LBIS.L["Back"], "Alt") --Cloak of Unforgivable Sin
 LBIS:AddItem(spec, "37840", LBIS.L["Back"], "Alt") --Shroud of Reverberation
 
 LBIS:AddItem(spec, "39617", LBIS.L["Chest"], "BIS") --Heroes' Scourgeborne Battleplate
+LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Vanquisher
 LBIS:AddItem(spec, "34397", LBIS.L["Chest"], "Alt") --Bladed Chaos Tunic
 LBIS:AddItem(spec, "34211", LBIS.L["Chest"], "Transmute Alt") --Harness of Carnal Instinct
 LBIS:AddItem(spec, "37612", LBIS.L["Chest"], "Alt") --Bonegrinder Breastplate
@@ -24,6 +25,7 @@ LBIS:AddItem(spec, "37853", LBIS.L["Wrist"], "Alt") --Advanced Tooled-Leather Ba
 LBIS:AddItem(spec, "44203", LBIS.L["Wrist"], "Alt") --Dragonfriend Bracers
 
 LBIS:AddItem(spec, "39618", LBIS.L["Hands"], "BIS") --Heroes' Scourgeborne Gauntlets
+LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "BIS") --Gloves of the Lost Vanquisher
 LBIS:AddItem(spec, "37363", LBIS.L["Hands"], "Alt") --Gauntlets of Dragon Wrath
 LBIS:AddItem(spec, "34378", LBIS.L["Hands"], "Alt") --Hard Khorium Battlefists
 

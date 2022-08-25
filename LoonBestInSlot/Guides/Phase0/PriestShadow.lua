@@ -33,6 +33,7 @@ LBIS:AddItem(spec, "43283", LBIS.L["Back"], "Alt") --Subterranean Waterfall Shro
 LBIS:AddItem(spec, "40353", LBIS.L["Back"], "Alt") --Polished Protodrake Cloak
 
 LBIS:AddItem(spec, "39523", LBIS.L["Chest"], "BIS") --Heroes' Raiments of Faith
+LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
 LBIS:AddItem(spec, "42102", LBIS.L["Chest"], "Alt") --Spellweave Robe
 LBIS:AddItem(spec, "43401", LBIS.L["Chest"], "Alt") --Water-Drenched Robe
 LBIS:AddItem(spec, "42101", LBIS.L["Chest"], "Alt") --Ebonweave Robe
@@ -55,6 +56,7 @@ LBIS:AddItem(spec, "41555", LBIS.L["Wrist"], "Alt") --Black Duskweave Wristwraps
 LBIS:AddItem(spec, "44366", LBIS.L["Wrist"], "Alt") --Shameful Cuffs
 
 LBIS:AddItem(spec, "39530", LBIS.L["Hands"], "BIS") --Heroes' Handwraps of Faith
+LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "BIS") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "37172", LBIS.L["Hands"], "Alt") --Gloves of Glistening Runes
 LBIS:AddItem(spec, "42111", LBIS.L["Hands"], "Alt") --Ebonweave Gloves
 LBIS:AddItem(spec, "42113", LBIS.L["Hands"], "Alt") --Spellweave Gloves

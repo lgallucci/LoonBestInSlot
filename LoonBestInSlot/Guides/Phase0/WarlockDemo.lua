@@ -1,12 +1,12 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "0")
 
-LBIS:AddItem(spec, "37684", LBIS.L["Head"], "BISSupport") --Forgotten Shadow Hood
+LBIS:AddItem(spec, "37684", LBIS.L["Head"], "BIS") --Forgotten Shadow Hood
 LBIS:AddItem(spec, "34405", LBIS.L["Head"], "Alt") --Helm of Arcane Purity
 LBIS:AddItem(spec, "34339", LBIS.L["Head"], "Transmute Alt") --Cowl of Light's Purity
 LBIS:AddItem(spec, "37294", LBIS.L["Head"], "Alt") --Crown of Unbridled Magic
 LBIS:AddItem(spec, "44910", LBIS.L["Head"], "Alt") --Titan-Forged Hood of Dominance
 LBIS:AddItem(spec, "41991", LBIS.L["Head"], "Alt") --Hateful Gladiator's Felweave Cowl
-LBIS:AddItem(spec, "42553", LBIS.L["Head"], "BISPersonal") --Visage Liquification Goggles
+LBIS:AddItem(spec, "42553", LBIS.L["Head"], "BIS") --Visage Liquification Goggles
 LBIS:AddItem(spec, "34340", LBIS.L["Head"], "Alt") --Dark Conjuror's Collar
 LBIS:AddItem(spec, "37715", LBIS.L["Head"], "Alt") --Cowl of the Dire Troll
 LBIS:AddItem(spec, "41990", LBIS.L["Head"], "Alt") --Savage Gladiator's Felweave Cowl
@@ -19,7 +19,7 @@ LBIS:AddItem(spec, "41984", LBIS.L["Head"], "Alt") --Hat of Wintry Doom
 LBIS:AddItem(spec, "37196", LBIS.L["Shoulder"], "BIS") --Runecaster's Mantle
 LBIS:AddItem(spec, "34393", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Knowledge's Pursuit
 LBIS:AddItem(spec, "34202", LBIS.L["Shoulder"], "Transmute Alt") --Shawl of Wonderment
-LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "BISPersonal") --Amice of the Convoker
+LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "BIS") --Amice of the Convoker
 LBIS:AddItem(spec, "37691", LBIS.L["Shoulder"], "Alt") --Mantle of Deceit
 LBIS:AddItem(spec, "42009", LBIS.L["Shoulder"], "Alt") --Hateful Gladiator's Felweave Amice
 LBIS:AddItem(spec, "37673", LBIS.L["Shoulder"], "Alt") --Dark Runic Mantle
@@ -30,10 +30,10 @@ LBIS:AddItem(spec, "31101", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Forgot
 LBIS:AddItem(spec, "42008", LBIS.L["Shoulder"], "Alt") --Savage Gladiator's Felweave Amice
 LBIS:AddItem(spec, "37655", LBIS.L["Shoulder"], "Alt") --Mantle of the Tribunal
 
-LBIS:AddItem(spec, "37799", LBIS.L["Back"], "BISSupport") --Reanimator's Cloak
+LBIS:AddItem(spec, "37799", LBIS.L["Back"], "BIS") --Reanimator's Cloak
 LBIS:AddItem(spec, "42059", LBIS.L["Back"], "Alt") --Hateful Gladiator's Cloak of Deliverance
 LBIS:AddItem(spec, "43283", LBIS.L["Back"], "Alt") --Subterranean Waterfall Shroud
-LBIS:AddItem(spec, "41610", LBIS.L["Back"], "BISPersonal") --Deathchill Cloak
+LBIS:AddItem(spec, "41610", LBIS.L["Back"], "BIS") --Deathchill Cloak
 LBIS:AddItem(spec, "37630", LBIS.L["Back"], "Alt") --Shroud of Moorabi
 LBIS:AddItem(spec, "42057", LBIS.L["Back"], "Alt") --Hateful Gladiator's Cloak of Ascendancy
 LBIS:AddItem(spec, "34242", LBIS.L["Back"], "Alt") --Tattered Cape of Antonidas
@@ -43,6 +43,7 @@ LBIS:AddItem(spec, "37291", LBIS.L["Back"], "Alt") --Ancient Dragon Spirit Cape
 LBIS:AddItem(spec, "42056", LBIS.L["Back"], "Alt") --Hateful Gladiator's Cloak of Subjugation
 
 LBIS:AddItem(spec, "39497", LBIS.L["Chest"], "BIS") --Heroes' Plagueheart Robe
+LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
 LBIS:AddItem(spec, "42100", LBIS.L["Chest"], "Alt") --Moonshroud Robe
 LBIS:AddItem(spec, "34233", LBIS.L["Chest"], "Alt") --Robes of Faltered Light
 LBIS:AddItem(spec, "46065", LBIS.L["Chest"], "Alt") --Titan-Forged Raiment of Dominance
@@ -74,13 +75,14 @@ LBIS:AddItem(spec, "37687", LBIS.L["Hands"], "Alt") --Gloves of Distorted Time
 LBIS:AddItem(spec, "34406", LBIS.L["Hands"], "Alt") --Gloves of Tyri's Power
 LBIS:AddItem(spec, "37153", LBIS.L["Hands"], "Alt") --Gloves of the Crystal Gardener
 LBIS:AddItem(spec, "39500", LBIS.L["Hands"], "BIS") --Heroes' Plagueheart Gloves
+LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "BIS") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "34344", LBIS.L["Hands"], "Alt") --Handguards of Defiled Worlds
 LBIS:AddItem(spec, "42111", LBIS.L["Hands"], "Alt") --Ebonweave Gloves
 LBIS:AddItem(spec, "44256", LBIS.L["Hands"], "Alt") --Sterile Flesh-Handling Gloves
 LBIS:AddItem(spec, "42015", LBIS.L["Hands"], "Alt") --Hateful Gladiator's Felweave Handguards
 
-LBIS:AddItem(spec, "44309", LBIS.L["Waist"], "BISSupport") --Sash of Jordan
-LBIS:AddItem(spec, "37408", LBIS.L["Waist"], "BISBalanced") --Girdle of Bane
+LBIS:AddItem(spec, "44309", LBIS.L["Waist"], "BIS") --Sash of Jordan
+LBIS:AddItem(spec, "37408", LBIS.L["Waist"], "BIS") --Girdle of Bane
 LBIS:AddItem(spec, "37850", LBIS.L["Waist"], "Alt") --Flowing Sash of Order
 LBIS:AddItem(spec, "41877", LBIS.L["Waist"], "Alt") --Hateful Gladiator's Cord of Salvation
 LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "Alt") --Plush Sash of Guzbah
@@ -94,12 +96,12 @@ LBIS:AddItem(spec, "37637", LBIS.L["Waist"], "Alt") --Living Mojo Belt
 LBIS:AddItem(spec, "34541", LBIS.L["Waist"], "Alt") --Belt of the Malefic
 LBIS:AddItem(spec, "37680", LBIS.L["Waist"], "Alt") --Belt of Unified Souls
 
-LBIS:AddItem(spec, "34170", LBIS.L["Legs"], "BISSupport") --Pantaloons of Calming Strife
-LBIS:AddItem(spec, "34386", LBIS.L["Legs"], "BISPersonal") --Pantaloons of Growing Strife
+LBIS:AddItem(spec, "34170", LBIS.L["Legs"], "BIS") --Pantaloons of Calming Strife
+LBIS:AddItem(spec, "34386", LBIS.L["Legs"], "BIS") --Pantaloons of Growing Strife
 LBIS:AddItem(spec, "37189", LBIS.L["Legs"], "Alt") --Breeches of the Caller
 LBIS:AddItem(spec, "37876", LBIS.L["Legs"], "Alt") --Cyanigosa's Leggings
 LBIS:AddItem(spec, "37731", LBIS.L["Legs"], "Alt") --Opposed Stasis Leggings
-LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "BISPersonal") --Leggings of Calamity
+LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "BIS") --Leggings of Calamity
 LBIS:AddItem(spec, "42003", LBIS.L["Legs"], "Alt") --Hateful Gladiator's Felweave Trousers
 LBIS:AddItem(spec, "37854", LBIS.L["Legs"], "Alt") --Woven Bracae Leggings
 LBIS:AddItem(spec, "42002", LBIS.L["Legs"], "Alt") --Savage Gladiator's Felweave Trousers
@@ -118,19 +120,19 @@ LBIS:AddItem(spec, "41901", LBIS.L["Feet"], "Alt") --Hateful Gladiator's Slipper
 LBIS:AddItem(spec, "32239", LBIS.L["Feet"], "Alt") --Slippers of the Seacaller
 LBIS:AddItem(spec, "37730", LBIS.L["Feet"], "Alt") --Cleric's Linen Shoes
 
-LBIS:AddItem(spec, "40680", LBIS.L["Neck"], "BISSupport") --Encircling Burnished Gold Chains
+LBIS:AddItem(spec, "40680", LBIS.L["Neck"], "BIS") --Encircling Burnished Gold Chains
 LBIS:AddItem(spec, "42025", LBIS.L["Neck"], "Alt") --Hateful Gladiator's Pendant of Deliverance
-LBIS:AddItem(spec, "39472", LBIS.L["Neck"], "BISPersonal") --Chain of Latent Energies
+LBIS:AddItem(spec, "39472", LBIS.L["Neck"], "BIS") --Chain of Latent Energies
 LBIS:AddItem(spec, "42647", LBIS.L["Neck"], "Alt") --Titanium Spellshock Necklace
 LBIS:AddItem(spec, "37290", LBIS.L["Neck"], "Alt") --Dragon Prow Amulet
 LBIS:AddItem(spec, "37683", LBIS.L["Neck"], "Alt") --Necromancer's Amulet
 LBIS:AddItem(spec, "43404", LBIS.L["Neck"], "Alt") --Zuramat's Necklace
 LBIS:AddItem(spec, "42024", LBIS.L["Neck"], "Alt") --Hateful Gladiator's Pendant of Ascendancy
 
-LBIS:AddItem(spec, "44934", LBIS.L["Ring"], "BISSupport") --Loop of the Kirin Tor
+LBIS:AddItem(spec, "44934", LBIS.L["Ring"], "BIS") --Loop of the Kirin Tor
 LBIS:AddItem(spec, "42644", LBIS.L["Ring"], "BIS") --Titanium Spellshock Ring
 LBIS:AddItem(spec, "37732", LBIS.L["Ring"], "Alt") --Spectral Seal of the Prophet
-LBIS:AddItem(spec, "40585", LBIS.L["Ring"], "BISPersonal") --Signet of the Kirin Tor
+LBIS:AddItem(spec, "40585", LBIS.L["Ring"], "BIS") --Signet of the Kirin Tor
 LBIS:AddItem(spec, "37694", LBIS.L["Ring"], "Alt") --Band of Guile
 LBIS:AddItem(spec, "37192", LBIS.L["Ring"], "Alt") --Annhylde's Ring
 LBIS:AddItem(spec, "44283", LBIS.L["Ring"], "Alt") --Signet of Hopeful Light
@@ -174,9 +176,9 @@ LBIS:AddItem(spec, "37060", LBIS.L["Main Hand"], "Alt") --Jeweled Coronation Swo
 LBIS:AddItem(spec, "49227", LBIS.L["Main Hand"], "Alt") --Skoll's Fang
 LBIS:AddItem(spec, "34336", LBIS.L["Main Hand"], "Alt") --Sunflare
 
-LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "BISSupport") --Handbook of Obscure Remedies
+LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "BIS") --Handbook of Obscure Remedies
 LBIS:AddItem(spec, "44210", LBIS.L["Off Hand"], "Alt") --Faces of Doom
-LBIS:AddItem(spec, "40698", LBIS.L["Off Hand"], "BISPersonal") --Ward of the Violet Citadel
+LBIS:AddItem(spec, "40698", LBIS.L["Off Hand"], "BIS") --Ward of the Violet Citadel
 LBIS:AddItem(spec, "38322", LBIS.L["Off Hand"], "Alt") --Iron-bound Tome
 LBIS:AddItem(spec, "37889", LBIS.L["Off Hand"], "Alt") --Prison Manifest
 LBIS:AddItem(spec, "37086", LBIS.L["Off Hand"], "Alt") --Tome of Salramm

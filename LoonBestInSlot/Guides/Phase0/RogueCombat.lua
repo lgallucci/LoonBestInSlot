@@ -20,6 +20,7 @@ LBIS:AddItem(spec, "43566", LBIS.L["Back"], "Alt") --Ice Striker's Cloak
 LBIS:AddItem(spec, "37840", LBIS.L["Back"], "Alt") --Shroud of Reverberation
 
 LBIS:AddItem(spec, "39558", LBIS.L["Chest"], "BIS") --Heroes' Bonescythe Breastplate
+LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Vanquisher
 LBIS:AddItem(spec, "34369", LBIS.L["Chest"], "Alt") --Carapace of Sun and Shadow
 LBIS:AddItem(spec, "37219", LBIS.L["Chest"], "Alt") --Custodian's Chestpiece
 LBIS:AddItem(spec, "44303", LBIS.L["Chest"], "Alt") --Darkheart Chestguard
@@ -31,6 +32,7 @@ LBIS:AddItem(spec, "34448", LBIS.L["Wrist"], "Alt") --Slayer's Bracers
 LBIS:AddItem(spec, "34852", LBIS.L["Wrist"], "Alt") --Bracers of the Forgotten Vanquisher
 
 LBIS:AddItem(spec, "39560", LBIS.L["Hands"], "BIS") --Heroes' Bonescythe Gauntlets
+LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "BIS") --Gloves of the Lost Vanquisher
 LBIS:AddItem(spec, "37409", LBIS.L["Hands"], "Alt") --Gilt-Edged Leather Gauntlets
 LBIS:AddItem(spec, "34370", LBIS.L["Hands"], "Alt") --Gloves of Immortal Dusk
 LBIS:AddItem(spec, "37846", LBIS.L["Hands"], "Alt") --Charged-Bolt Grips
@@ -71,13 +73,13 @@ LBIS:AddItem(spec, "37166", LBIS.L["Trinket"], "Alt") --Sphere of Red Dragon's B
 LBIS:AddItem(spec, "43573", LBIS.L["Trinket"], "Alt") --Tears of Bitter Anguish
 
 LBIS:AddItem(spec, "43611", LBIS.L["Main Hand"], "BIS") --Krol Cleaver
-LBIS:AddItem(spec, "37693", LBIS.L["Main Hand"], "BIS Orc") --Greed
-LBIS:AddItem(spec, "32837", LBIS.L["Main Hand"], "Alt (Set)") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "37693", LBIS.L["Main Hand"], "BIS") --Greed
+LBIS:AddItem(spec, "32837", LBIS.L["Main Hand"], "Alt") --Warglaive of Azzinoth
 LBIS:AddItem(spec, "44250", LBIS.L["Main Hand"], "Alt") --Reaper of Dark Souls
 
 LBIS:AddItem(spec, "44311", LBIS.L["Off Hand"], "Alt") --Avool's Sword of Jin
 LBIS:AddItem(spec, "37856", LBIS.L["Off Hand"], "Alt") --Librarian's Paper Cutter
-LBIS:AddItem(spec, "32838", LBIS.L["Off Hand"], "Alt (Set)") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "32838", LBIS.L["Off Hand"], "Alt") --Warglaive of Azzinoth
 LBIS:AddItem(spec, "44187", LBIS.L["Off Hand"], "Alt") --Fang of Truth
 
 LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "BIS") --Drake-Mounted Crossbow
