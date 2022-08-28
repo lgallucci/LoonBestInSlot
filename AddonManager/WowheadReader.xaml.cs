@@ -1,12 +1,8 @@
 ﻿using System.IO;
-using System.Text.RegularExpressions;
 using System.Windows;
-using System.Windows.Controls;
 using AddonManager.FileManagers;
 using AddonManager.Models;
-using AngleSharp.Dom;
 using Newtonsoft.Json;
-using static AddonManager.WowheadReader;
 
 namespace AddonManager;
 /// <summary>
@@ -19,6 +15,7 @@ public partial class WowheadReader : Window
                                 "PaladinRetribution", "PriestHoly","PriestDiscipline", "PriestShadow", "RogueAssassination", "RogueSubtlety", "RogueCombat",
                                 "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAfflic", "WarlockDemo", "WarlockDestro", "WarriorArms",
                                 "WarriorFury", "WarriorProtection"};
+
     public class CsvLootTable
     {
         public int ItemId { get; set; }

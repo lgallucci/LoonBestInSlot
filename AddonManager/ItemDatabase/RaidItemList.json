@@ -3423,13 +3423,6 @@
       "SourceNumber": "",
       "SourceLocation": "Archavon the Stone Watcher (10)/Emalon the Storm Watcher (10)/Koralon the Flame Watcher (10)/Toravon the Ice Watcher (10)"
     },
-    "40752": {
-      "Name": "Emblem of Heroism",
-      "Source": "Archavon the Stone Watcher",
-      "SourceType": "Drop",
-      "SourceNumber": "",
-      "SourceLocation": "Archavon the Stone Watcher (10)"
-    },
     "40418": {
       "Name": "Valorous Frostfire Robe",
       "Source": "Archavon the Stone Watcher",
@@ -4164,13 +4157,6 @@
       "SourceType": "Drop",
       "SourceNumber": "",
       "SourceLocation": "Archavon the Stone Watcher (25)/Emalon the Storm Watcher (10)"
-    },
-    "40753": {
-      "Name": "Emblem of Valor",
-      "Source": "Archavon the Stone Watcher",
-      "SourceType": "Drop",
-      "SourceNumber": "",
-      "SourceLocation": "Archavon the Stone Watcher (25)"
     },
     "46131": {
       "Name": "Valorous Kirin Tor Gauntlets",

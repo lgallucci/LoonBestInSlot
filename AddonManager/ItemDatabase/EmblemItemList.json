@@ -804,13 +804,6 @@
       "SourceType": "Dungeon Token",
       "SourceNumber": "75",
       "SourceLocation": ""
-    },
-    "40752": {
-      "Name": "Emblem of Heroism",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "1",
-      "SourceLocation": ""
     }
   }
 }
