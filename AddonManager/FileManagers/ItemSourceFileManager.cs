@@ -1,4 +1,5 @@
-﻿using AddonManager.Models;
+﻿using System.Threading;
+using AddonManager.Models;
 
 namespace AddonManager.FileManagers;
 
@@ -40,6 +41,16 @@ public class ItemSourceFileManager
         return items;
     }
 
+    public SortedDictionary<int, GemSource> ReadGemSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\GemSources.lua")
+    {
+        throw new NotImplementedException();
+    }
+
+    public SortedDictionary<int, GemSource> ReadEnchantSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\EnchantSources.lua")
+    {
+        throw new NotImplementedException();
+    }
+
     public void WriteItemSources(SortedDictionary<int, ItemSource> sources)
     {
         StringBuilder itemSourceSB = new StringBuilder();
@@ -68,5 +79,15 @@ public class ItemSourceFileManager
         }
         itemSourceSB.AppendLine("}");
         System.IO.File.WriteAllText(Constants.AddonPath + "ItemSources.lua", itemSourceSB.ToString());
+    }
+
+    public void WriteGemSources(SortedDictionary<int, GemSource> sources)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void WriteEnchantSources(SortedDictionary<int, EnchantSource> sources)
+    {
+        throw new NotImplementedException();
     }
 }
