@@ -1,5 +1,37 @@
 ﻿<Ui xmlns="http://www.blizzard.com/wow/ui/">
 
+	<Script file="GemsAndEnchants\BloodDeathKnight.lua" />
+	<Script file="GemsAndEnchants\FrostDeathKnight.lua" />
+	<Script file="GemsAndEnchants\UnholyDeathKnight.lua" />
+	<Script file="GemsAndEnchants\DruidBalance.lua" />
+	<Script file="GemsAndEnchants\DruidBear.lua" />
+	<Script file="GemsAndEnchants\DruidCat.lua" />
+	<Script file="GemsAndEnchants\DruidRestoration.lua" />
+	<Script file="GemsAndEnchants\HunterBM.lua" />
+	<Script file="GemsAndEnchants\HunterMarks.lua" />
+	<Script file="GemsAndEnchants\HunterSurvival.lua" />
+	<Script file="GemsAndEnchants\MageFrost.lua" />
+	<Script file="GemsAndEnchants\MageFire.lua" />
+	<Script file="GemsAndEnchants\MageArcane.lua" />
+	<Script file="GemsAndEnchants\PaladinHoly.lua" />
+	<Script file="GemsAndEnchants\PaladinRetribution.lua" />
+	<Script file="GemsAndEnchants\PaladinProtection.lua" />
+	<Script file="GemsAndEnchants\PriestHoly.lua" />
+	<Script file="GemsAndEnchants\PriestDiscipline.lua" />
+	<Script file="GemsAndEnchants\PriestShadow.lua" />
+	<Script file="GemsAndEnchants\RogueAssassination.lua" />
+	<Script file="GemsAndEnchants\RogueSubtlety.lua" />
+	<Script file="GemsAndEnchants\RogueCombat.lua" />
+	<Script file="GemsAndEnchants\ShamanElemental.lua" />
+	<Script file="GemsAndEnchants\ShamanEnhancement.lua" />
+	<Script file="GemsAndEnchants\ShamanRestoration.lua" />
+	<Script file="GemsAndEnchants\WarlockAfflic.lua" />
+	<Script file="GemsAndEnchants\WarlockDemo.lua" />
+	<Script file="GemsAndEnchants\WarlockDestro.lua" />
+	<Script file="GemsAndEnchants\WarriorDPSFury.lua" />
+	<Script file="GemsAndEnchants\WarriorDPSArms.lua" />
+	<Script file="GemsAndEnchants\WarriorProtection.lua" />
+	
 	<Script file="Phase0\BloodDeathKnight.lua" />
 	<Script file="Phase0\FrostDeathKnight.lua" />
 	<Script file="Phase0\UnholyDeathKnight.lua" />

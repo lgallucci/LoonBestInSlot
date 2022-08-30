@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoonBestInSlot", "LoonBestI
 	ProjectSection(SolutionItems) = preProject
 		LoonBestInSlot\Common.lua = LoonBestInSlot\Common.lua
 		LoonBestInSlot\EnchantList.lua = LoonBestInSlot\EnchantList.lua
+		LoonBestInSlot\EnchantSources.lua = LoonBestInSlot\EnchantSources.lua
 		LoonBestInSlot\GemList.lua = LoonBestInSlot\GemList.lua
+		LoonBestInSlot\GemSources.lua = LoonBestInSlot\GemSources.lua
 		LoonBestInSlot\ItemList.lua = LoonBestInSlot\ItemList.lua
 		LoonBestInSlot\ItemSources.lua = LoonBestInSlot\ItemSources.lua
 		LoonBestInSlot\LoonBestInSlot.lua = LoonBestInSlot\LoonBestInSlot.lua
@@ -147,6 +149,41 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Localization", "Localizatio
 		LoonBestInSlot\Localization\localization.zhTW.lua = LoonBestInSlot\Localization\localization.zhTW.lua
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GemsAndEnchants", "GemsAndEnchants", "{BB82E965-D030-4ECA-9E97-DF33E4090AFB}"
+	ProjectSection(SolutionItems) = preProject
+		LoonBestInSlot\Guides\GemsAndEnchants\DeathKnightBlood.lua = LoonBestInSlot\Guides\GemsAndEnchants\DeathKnightBlood.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\DeathKnightFrost.lua = LoonBestInSlot\Guides\GemsAndEnchants\DeathKnightFrost.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\DeathKnightUnholy.lua = LoonBestInSlot\Guides\GemsAndEnchants\DeathKnightUnholy.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\DruidBalance.lua = LoonBestInSlot\Guides\GemsAndEnchants\DruidBalance.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\DruidBear.lua = LoonBestInSlot\Guides\GemsAndEnchants\DruidBear.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\DruidCat.lua = LoonBestInSlot\Guides\GemsAndEnchants\DruidCat.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\DruidRestoration.lua = LoonBestInSlot\Guides\GemsAndEnchants\DruidRestoration.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\HunterBM.lua = LoonBestInSlot\Guides\GemsAndEnchants\HunterBM.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\HunterMarks.lua = LoonBestInSlot\Guides\GemsAndEnchants\HunterMarks.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\HunterSurvival.lua = LoonBestInSlot\Guides\GemsAndEnchants\HunterSurvival.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\MageArcane.lua = LoonBestInSlot\Guides\GemsAndEnchants\MageArcane.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\MageFire.lua = LoonBestInSlot\Guides\GemsAndEnchants\MageFire.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\MageFrost.lua = LoonBestInSlot\Guides\GemsAndEnchants\MageFrost.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\PaladinHoly.lua = LoonBestInSlot\Guides\GemsAndEnchants\PaladinHoly.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\PaladinProtection.lua = LoonBestInSlot\Guides\GemsAndEnchants\PaladinProtection.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\PaladinRetribution.lua = LoonBestInSlot\Guides\GemsAndEnchants\PaladinRetribution.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\PriestDiscipline.lua = LoonBestInSlot\Guides\GemsAndEnchants\PriestDiscipline.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\PriestHoly.lua = LoonBestInSlot\Guides\GemsAndEnchants\PriestHoly.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\PriestShadow.lua = LoonBestInSlot\Guides\GemsAndEnchants\PriestShadow.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\RogueAssassination.lua = LoonBestInSlot\Guides\GemsAndEnchants\RogueAssassination.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\RogueCombat.lua = LoonBestInSlot\Guides\GemsAndEnchants\RogueCombat.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\RogueSubtlety.lua = LoonBestInSlot\Guides\GemsAndEnchants\RogueSubtlety.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\ShamanElemental.lua = LoonBestInSlot\Guides\GemsAndEnchants\ShamanElemental.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\ShamanEnhancement.lua = LoonBestInSlot\Guides\GemsAndEnchants\ShamanEnhancement.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\ShamanRestoration.lua = LoonBestInSlot\Guides\GemsAndEnchants\ShamanRestoration.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\WarlockAfflic.lua = LoonBestInSlot\Guides\GemsAndEnchants\WarlockAfflic.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\WarlockDemo.lua = LoonBestInSlot\Guides\GemsAndEnchants\WarlockDemo.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\WarlockDestro.lua = LoonBestInSlot\Guides\GemsAndEnchants\WarlockDestro.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\WarriorArms.lua = LoonBestInSlot\Guides\GemsAndEnchants\WarriorArms.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\WarriorFury.lua = LoonBestInSlot\Guides\GemsAndEnchants\WarriorFury.lua
+		LoonBestInSlot\Guides\GemsAndEnchants\WarriorProtection.lua = LoonBestInSlot\Guides\GemsAndEnchants\WarriorProtection.lua
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -170,6 +207,7 @@ Global
 		{710C8787-27EB-44FA-9AF7-7337759EA054} = {6685BDBB-9627-45A1-96D3-46D882F28A67}
 		{D4DB39EB-F46D-4D10-B652-3880F4FE2507} = {6685BDBB-9627-45A1-96D3-46D882F28A67}
 		{248C145B-5864-4FE2-80B1-42D3565F2193} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
+		{BB82E965-D030-4ECA-9E97-DF33E4090AFB} = {6685BDBB-9627-45A1-96D3-46D882F28A67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EC8A0A9-B7E7-48E2-9272-317A8A0C0916}

@@ -14,9 +14,12 @@ libs\LibExtraTip\Load.xml
 
 Localization\Localization.xml
 
+ItemSources.lua
+GemSources.lua
+EnchantSources.lua
+
 LoonBestInSlot.lua
 Common.lua
-ItemSources.lua
 Guides\Guides.xml
 UpdateTooltips.lua
 UserItemCache.lua

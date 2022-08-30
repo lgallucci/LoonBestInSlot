@@ -86,6 +86,41 @@ function LBIS:GetItemInfo(itemIdString, returnFunc)
     end           
 end
 
+
+function LBIS:GetSpellInfo(spellIdString, returnFunc)
+
+    local spellId = tonumber(spellIdString);
+
+    if not spellId or spellId <= 0 then
+        returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil });
+    end
+
+    local cachedSpell = LBIS.WowSpellCache[spellId];
+
+    if cachedSpell then
+        returnFunc(cachedSpell);
+    else
+        local spellCache = Spell:CreateFromSpellID(spellId)
+
+        spellCache:ContinueOnSpellLoad(function()
+            local name = spellCache:GetSpellName();
+            
+            local newSpell = {
+                Id = spellId,
+                Name = name,
+                SubText = spellCache:GetSpellSubtext(),
+                Texture = GetSpellTexture(spellId)
+            };
+
+            if name then
+                LBIS.WowSpellCache[spellId] = newSpell;
+            end
+            
+            returnFunc(newSpell);
+        end);
+    end           
+end
+
 local itemIsOnEnter = false;
 --- Opts:
 ---     name (string): Name of the dropdown (lowercase)
@@ -137,7 +172,7 @@ function LBIS:CreateDropdown(opts)
     return dropdown
 end
 
-function LBIS:SetTooltipOnButton(b, item)
+function LBIS:SetTooltipOnButton(b, item, isSpell)
     
     b:SetScript("OnClick", 
         function(self, button)
@@ -150,7 +185,11 @@ function LBIS:SetTooltipOnButton(b, item)
     b:SetScript("OnEnter", 
         function(self)
             GameTooltip:SetOwner(self, "ANCHOR_LEFT");
-            GameTooltip:SetItemByID(item.Id);
+            if isSpell == nil or isSpell == false then
+                GameTooltip:SetItemByID(item.Id);
+            else
+                GameTooltip:SetSpellByID(item.Id);
+            end
             GameTooltip:Show();
             itemIsOnEnter = true;
                 
@@ -178,6 +217,33 @@ function LBIS:RegisterTooltip()
             ShoppingTooltip2:Hide()
         end
     end);
+end
+
+
+function LBIS:spairs(t, order)
+
+    -- collect the keys
+    local keys = {}
+
+    if t ~= nil then
+        for k in pairs(t) do keys[#keys+1] = k end
+
+        -- if order function given, sort by it by passing the table and keys a, b,
+        -- otherwise just sort the keys 
+        if order then
+            table.sort(keys, function(a,b) return order(t, a, b) end)
+        else
+            table.sort(keys)
+        end    
+    end
+    -- return the iterator function
+    local i = 0
+    return function()
+        i = i + 1
+        if keys[i] then
+            return keys[i], t[keys[i]]
+        end
+    end
 end
 
 function LBIS:Dump(o)

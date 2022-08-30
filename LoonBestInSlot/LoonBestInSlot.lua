@@ -4,7 +4,12 @@ LBIS.ClassSpec = {};
 LBIS.SpecToName = {};
 LBIS.Items = {};
 LBIS.SpecItems = {};
+LBIS.Gems = {};
+LBIS.SpecGems = {};
+LBIS.Enchants = {};
+LBIS.SpecEnchants = {};
 LBIS.WowItemCache = {};
+LBIS.WowSpellCache = {};
 LBIS.AllItemsCached = false;
 LBIS.CurrentPhase = 5;
 LBIS.EventFrame = CreateFrame("FRAME",addonName.."Events")
@@ -131,8 +136,64 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 			end
 		end
 
-		LBIS.SpecItems[bisEntry.Id][tonumber(id)] = searchedItem		
+		LBIS.SpecItems[bisEntry.Id][tonumber(id)] = searchedItem;
 		LBIS.Items[id][bisEntry.Id] = searchedItem;
 	end
 
+end
+
+
+function LBIS:AddGem(bisEntry, id, designId)
+
+	if strlen(id) <= 0 then
+		return
+	end
+	
+	if not LBIS.Gems[id] then
+		LBIS.Gems[id] = {}
+	end	
+
+	local searchedItem = LBIS.Gems[id][bisEntry.Id];
+
+	if searchedItem == nil then
+		if bisEntry.Phase == "0" then
+			phase = "PreRaid";
+		else
+			phase = "Phase "..bisEntry.Phase;
+		end
+
+		searchedItem = { Id = id, DesignId = designId, Phase = phase }
+
+		if not LBIS.SpecGems[bisEntry.Id] then
+			LBIS.SpecGems[bisEntry.Id] = {}
+		end
+	end
+
+	LBIS.SpecGems[bisEntry.Id][tonumber(searchedItem.Id)] = searchedItem;
+	LBIS.Gems[id][bisEntry.Id] = searchedItem
+end
+
+function LBIS:AddEnchant(bisEntry, id, slot)
+
+	if strlen(id) <= 0 then
+		return
+	end
+	
+	if not LBIS.Enchants[id] then
+		LBIS.Enchants[id] = {}
+	end	
+
+	local searchedItem = LBIS.Enchants[id][bisEntry.Id];
+
+	if searchedItem == nil then
+
+		searchedItem = { Id = id, Slot = slot, Phase = bisEntry.Phase }
+
+		if not LBIS.SpecEnchants[bisEntry.Id] then
+			LBIS.SpecEnchants[bisEntry.Id] = {}
+		end
+	end
+
+	LBIS.SpecEnchants[bisEntry.Id][tonumber(searchedItem.Id)] = searchedItem;
+	LBIS.Enchants[id][bisEntry.Id] = searchedItem
 end

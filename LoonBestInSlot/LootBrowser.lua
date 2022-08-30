@@ -3,14 +3,13 @@ LBIS.BrowserWindow = {
     CompareTooltip = {}
 }
 
-local deleted_windows = {}
 function LBIS.BrowserWindow:OpenWindow()
     LBIS:BuildItemCache()
     if not LBIS.BrowserWindow.Window then
         LBIS.BrowserWindow:CreateBrowserWindow();
         LBIS.ItemList:Open();
     end
-    LBIS.BrowserWindow:UpdateItemsForSpec();
+    LBIS.BrowserWindow:RefreshItems();
     LBIS.BrowserWindow.Window:Show();
 end
 
@@ -19,22 +18,170 @@ function LBIS.BrowserWindow:ToggleWindow()
         LBIS.BrowserWindow.Window:Hide();
     else
         LBIS.BrowserWindow:OpenWindow();
-    end    
+    end
 end
 
 local open_tab = "ItemList";
-function LBIS.BrowserWindow:UpdateItemsForSpec()
+function LBIS.BrowserWindow:RefreshItems()
     if open_tab == "ItemList" then
         LBIS.ItemList:UpdateItems();
-    else if open_tab == "GemList" then
-    else if open_tab == "EnchantList" then
+    elseif open_tab == "GemList" then
+        LBIS.GemList:UpdateItems();
+    elseif open_tab == "EnchantList" then
+        LBIS.EnchantList:UpdateItems();
     end
+end
+
+local failedLoad = false;
+local deleted_windows = {};
+function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, point, rowFunc)
+    local window = LBIS.BrowserWindow.Window;
+    local spacing = 1;
+    local name = "frame_"..specItem.Id;
+    local f, l = nil, nil;
+    local reusing = false;
+    
+    -- attempting to reuse a previous child frame if it exists 
+    -- (which should include the previously created fontstring and button)
+    if(next(deleted_windows) ~= nil) then
+        for i=1, #deleted_windows do
+            if(name == deleted_windows[i]:GetName()) then
+                f = deleted_windows[i];
+                reusing = true;
+            end
+        end
+    end
+    
+    if not reusing then
+        f = CreateFrame("Frame", "frame_"..specItem.Id, window.Container);
+
+        rowFunc(f, specItem, specItemSource);
+        
+        l = f:CreateLine();
+        l:SetColorTexture(1,1,1,0.5);
+        l:SetThickness(1);
+        l:SetStartPoint("BOTTOMLEFT",5, 0);
+        l:SetEndPoint("BOTTOMRIGHT",-5, 0);
+    end
+    -- even if we are reusing, it may not be in the same order
+    f:SetSize(window.ScrollFrame:GetWidth(), 42);
+    f:ClearAllPoints();
+    f:SetPoint("TOPLEFT", window.Container, 0, point);
+    
+    point = point - (f:GetHeight()+spacing);
+    
+    LBIS.BrowserWindow.MaxHeight = LBIS.BrowserWindow.MaxHeight + (f:GetHeight()+spacing);
+
+    f:Show(); -- forcing a show since if we are reusing, the old child was previously hidden
+
+    return point;
+end
+
+function LBIS.BrowserWindow:UpdateItemsForSpec(rowFunc)
+            
+    if LBISSettings.SelectedSpec == "" then
+        return;
+    end
+
+    local window = LBIS.BrowserWindow.Window;
+    local point = -2;
+    local function clear_content(self)
+        for i=1, self:GetNumChildren() do
+        
+            local child = select(i, self:GetChildren());
+            
+            -- Saving a reference to our previous child frame so that we can reuse it later
+            if(not tContains(deleted_windows, child)) then 
+                tinsert(deleted_windows, child);
+            end
+            
+            child:Hide();
+        end
+    end
+
+    clear_content(window.Container);
+    
+    LBIS.BrowserWindow.MaxHeight = 0;
+    
+    window.ScrollFrame.content = nil;
+
+    local topl = window.Container:CreateLine();
+    topl:SetColorTexture(1,1,1,0.5);
+    topl:SetThickness(1);
+    topl:SetStartPoint("TOPLEFT",5, 0);
+    topl:SetEndPoint("TOPRIGHT",-5, 0);
+    
+    failedLoad = false;
+
+    rowFunc(point);
+
+    if failedLoad then
+        LBIS:Error("Failed to load one or more items into browser. Type /reload to attempt to fix", "");
+    end
+
+    window.Container:SetSize(window.ScrollFrame:GetWidth(), window.ScrollFrame:GetHeight());
+
+    if LBIS.BrowserWindow.MaxHeight-window.ScrollFrame:GetHeight() > 0 then
+        window.ScrollBar:SetMinMaxValues(0, (LBIS.BrowserWindow.MaxHeight-window.ScrollFrame:GetHeight()));
+        window.ScrollBar:Enable();
+    else
+        window.ScrollBar:SetMinMaxValues(0, 0);
+        window.ScrollBar:Disable();
+    end
+    window.ScrollFrame.content = window.Container;
+    window.ScrollFrame:SetScrollChild(window.Container);
+
+end
+
+function createTabs(window, content) 
+
+    local itemListTabButton = CreateFrame("Button", "ContainerTab1", window, "CharacterFrameTabButtonTemplate")
+    local itemListTabString = itemListTabButton:CreateFontString("ItemListTabText", "OVERLAY", "GameFontNormalSmall");
+    itemListTabString:SetPoint("CENTER", itemListTabButton, "CENTER", 0, 3);
+    itemListTabString:SetText(LBIS.L["Items"]);
+    itemListTabButton:SetPoint("CENTER", window, "BOTTOMLEFT", 60, -12);
+    itemListTabButton:SetScript("OnClick", function(self)
+        PanelTemplates_SetTab(content, 1);
+        open_tab = "ItemList";
+
+        LBIS.ItemList:Open();
+        LBIS.BrowserWindow:RefreshItems();
+    end);
+
+    local gemListTabButton = CreateFrame("Button", "ContainerTab2", window, "CharacterFrameTabButtonTemplate")
+    local gemListTabString = gemListTabButton:CreateFontString("GemListTabText", "OVERLAY", "GameFontNormalSmall");
+    gemListTabString:SetPoint("CENTER", gemListTabButton, "CENTER",  0, 3);
+    gemListTabString:SetText(LBIS.L["Gems"]);
+    gemListTabButton:SetPoint("LEFT", itemListTabButton, "RIGHT", -16, 0);
+    gemListTabButton:SetScript("OnClick", function(self)
+        PanelTemplates_SetTab(content, 2);
+        open_tab = "GemList";
+
+        LBIS.GemList:Open();
+        LBIS.BrowserWindow:RefreshItems();
+    end);
+
+    local enchantListTabButton = CreateFrame("Button", "ContainerTab3", window, "CharacterFrameTabButtonTemplate")
+    local enchantListTabString = enchantListTabButton:CreateFontString("EnchantListTabText", "OVERLAY", "GameFontNormalSmall");
+    enchantListTabString:SetPoint("CENTER", enchantListTabButton, "CENTER", 0, 3);
+    enchantListTabString:SetText(LBIS.L["Enchants"]);
+    enchantListTabButton:SetPoint("LEFT", gemListTabButton, "RIGHT", -16, 0);
+    enchantListTabButton:SetScript("OnClick", function(self)
+        PanelTemplates_SetTab(content, 3);
+        open_tab = "EnchantList";
+
+        LBIS.EnchantList:Open();
+        LBIS.BrowserWindow:RefreshItems();
+    end);
+
+    PanelTemplates_SetNumTabs(content, 3);
+    PanelTemplates_SetTab(content, 1);
 end
 
 function LBIS.BrowserWindow:CreateBrowserWindow()
     local step = 25;
 
-    local window = CreateFrame("Frame", "Roll Window", UIParent, "BasicFrameTemplateWithInset");
+    local window = CreateFrame("Frame", "LootBrowserWindow", UIParent, "BasicFrameTemplateWithInset");
     local scrollframe = CreateFrame("ScrollFrame", "ScrollFrame", window);
     local scrollbar = CreateFrame("Slider", "ScrollBar", scrollframe, "UIPanelScrollBarTemplate");
     local content = CreateFrame("Frame", "Container", scrollframe);
@@ -85,11 +232,67 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
         ['defaultVal']=LBISSettings.SelectedSpec,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedSpec = dropdown_val;
-            LBIS.BrowserWindow:UpdateItemsForSpec();
+            LBIS.BrowserWindow:RefreshItems();
         end
     }
-    local specDropDown = createDropdown(spec_opts);
+    local specDropDown = LBIS:CreateDropdown(spec_opts);
     specDropDown:SetPoint("TOPLEFT", window, 30, -28);    
+
+    local slot_opts = {
+        ['name']='slot',
+        ['parent']=window,
+        ['title']='Slot:',
+        ['items']= { LBIS.L["All"], LBIS.L["Head"], LBIS.L["Shoulder"], LBIS.L["Back"], LBIS.L["Chest"], LBIS.L["Wrist"], LBIS.L["Hands"], LBIS.L["Waist"], LBIS.L["Legs"], LBIS.L["Feet"], LBIS.L["Neck"], LBIS.L["Ring"], LBIS.L["Trinket"], LBIS.L["Main Hand"], LBIS.L["Off Hand"], LBIS.L["Two Hand"], LBIS.L["Shield"], LBIS.L["Ranged"], LBIS.L["Wand"], LBIS.L["Totem"], LBIS.L["Idol"], LBIS.L["Libram"], LBIS.L["Relic"]},        
+        ['defaultVal']=LBISSettings.SelectedSlot,
+        ['changeFunc']=function(dropdown_frame, dropdown_val)
+            LBISSettings.SelectedSlot = dropdown_val;
+            LBIS.BrowserWindow:RefreshItems()
+        end
+    }
+    local slotDropDown = LBIS:CreateDropdown(slot_opts);
+    slotDropDown:SetPoint("TOPLEFT", window, 200, -28);
+
+    local phase_opts = {
+        ['name']='phase',
+        ['parent']=window,
+        ['title']='Phase:',
+        ['items']= { LBIS.L["All"], LBIS.L["PreRaid"], LBIS.L["Phase 1"], LBIS.L["Phase 2"], LBIS.L["Phase 3"], LBIS.L["Phase 4"], LBIS.L["Phase 5"], "BIS" },
+        ['defaultVal']=LBISSettings.SelectedPhase,
+        ['changeFunc']=function(dropdown_frame, dropdown_val)
+            LBISSettings.SelectedPhase = dropdown_val;
+            LBIS.BrowserWindow:RefreshItems();
+        end
+    }
+    local slotDropDown = LBIS:CreateDropdown(phase_opts);
+    slotDropDown:SetPoint("TOPLEFT", window, 350, -28);
+
+    local source_opts = {
+        ['name']='source',
+        ['parent']=window,
+        ['title']='Source:',
+        ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Dungeon Token"], LBIS.L["Vendor"], LBIS.L["Quest"], LBIS.L["PvP"], LBIS.L["Transmute"] },
+        ['defaultVal']= LBISSettings.SelectedSourceType,
+        ['changeFunc']=function(dropdown_frame, dropdown_val)
+            LBISSettings.SelectedSourceType = dropdown_val;
+            LBIS.BrowserWindow:RefreshItems();
+        end
+    }
+    local slotDropDown = LBIS:CreateDropdown(source_opts);
+    slotDropDown:SetPoint("TOPLEFT", window, 475, -28);
+
+    local zone_opts = {
+        ['name']='zone',
+        ['parent']=window,
+        ['title']='Zone:',
+        ['items']= { LBIS.L["All"], LBIS.L["Karazhan"], LBIS.L["Gruul's Lair"], LBIS.L["Magtheridon's Lair"], LBIS.L["Serpentshrine Cavern"], LBIS.L["Tempest Keep"], LBIS.L["Hyjal Summit"], LBIS.L["Black Temple"], LBIS.L["Zul'Aman"], LBIS.L["Sunwell Plateau"]},
+        ['defaultVal']= LBISSettings.SelectedZone,
+        ['changeFunc']=function(dropdown_frame, dropdown_val)
+            LBISSettings.SelectedZone = dropdown_val;
+            LBIS.BrowserWindow:RefreshItems();
+        end
+    }
+    local slotDropDown = LBIS:CreateDropdown(zone_opts);
+    slotDropDown:SetPoint("TOPLEFT", window, 625, -28);
 
     local header = window:CreateFontString();
     header:SetFont("Fonts\\FRIZQT__.TTF", 12); -- Fonts\\ARIALN.TTF - Fonts\\SKURRI.TTF -  -
@@ -153,6 +356,8 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     window:SetScript("OnMouseWheel", UpdateScrollValue);
     window:SetScript("OnDragStart", function(self) self:StartMoving() end);
     window:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end);    
+
+    createTabs(window, content);
 
     LBIS.BrowserWindow.Window = window;
     LBIS.BrowserWindow.Window.ScrollFrame = scrollframe;
