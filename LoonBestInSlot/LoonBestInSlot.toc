@@ -23,3 +23,6 @@ UserItemCache.lua
 MinimapButton.lua
 
 LootBrowser.lua
+ItemList.lua
+GemList.lua
+EnchantList.lua
