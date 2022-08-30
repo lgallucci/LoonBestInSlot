@@ -15,7 +15,6 @@ public class ItemSpec
         }
     }
 
-
     public List<Tuple<string, string>> Replacements = new List<Tuple<string, string>>
     {
         new (" -", ""),

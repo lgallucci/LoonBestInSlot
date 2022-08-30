@@ -2236,5 +2236,5 @@ LBIS.ItemSources =
     [37929] = { Name = "Guardian's Pendant of Reprieve", SourceType = LBIS.L["PvP"], Source = "", SourceNumber = "", SourceLocation = LBIS.L["PvP Vendor"] },
     [38287] = { Name = "Empty Mug of Direbrew", SourceType = LBIS.L["Drop"], Source = LBIS.L["Coren Direbrew"], SourceNumber = "", SourceLocation = LBIS.L["Brewfest"] },
     [38288] = { Name = "Direbrew Hops", SourceType = LBIS.L["Drop"], Source = LBIS.L["Coren Direbrew"], SourceNumber = "", SourceLocation = LBIS.L["Brewfest"] },
-    [38290] = { Name = "Dark Iron Smoking Pipe", SourceType = LBIS.L["Drop"], Source = LBIS.L["Coren Direbrew"], SourceNumber = "", SourceLocation = LBIS.L["Brewfest"] },
+    [38290] = { Name = "Dark Iron Smoking Pipe", SourceType = LBIS.L["Drop"], Source = LBIS.L["Coren Direbrew"], SourceNumber = "", SourceLocation = LBIS.L["Brewfest"] }
 }

@@ -167,47 +167,13 @@ public partial class WowheadReader : Window
         }
 
         GetItems(csvLootTable, "DungeonItemList");
-        //GetProfessionItems(csvLootTable);
         GetItems(csvLootTable, "RaidItemList");
         GetItems(csvLootTable, "EmblemItemList");
 
-        var tokenKeys = new HashSet<int>();
-        foreach (var tierPiece in TierPiecesAndTokens.TierPieces)
-        {
-            if (!tokenKeys.Contains(tierPiece.Value.Item1))
-            {
-                tokenKeys.Add(tierPiece.Value.Item1);
-            }
-            if (itemSources.ContainsKey(tierPiece.Key) && !csvLootTable.ContainsKey(tierPiece.Key))
-            {
-                csvLootTable.Add(tierPiece.Key, new CsvLootTable
-                {
-                    ItemId = tierPiece.Key,
-                    ItemName = itemSources[tierPiece.Key].Name,
-                    InstanceName = csvLootTable[tierPiece.Value.Item1].InstanceName,
-                    SourceName = csvLootTable[tierPiece.Value.Item1].SourceName,
-                });
-            }
-        }
+        //UpdateProfessionItems(csvLootTable);
 
-        var transmuteKeys = new HashSet<int>();
-        foreach (var transmutePiece in TierPiecesAndTokens.Transmutes)
-        {
-            if (!transmuteKeys.Contains(transmutePiece.Key))
-            {
-                transmuteKeys.Add(transmutePiece.Key);
-            }
-            if (itemSources.ContainsKey(transmutePiece.Key) && csvLootTable.ContainsKey(transmutePiece.Value.Item1) && !csvLootTable.ContainsKey(transmutePiece.Key))
-            {
-                csvLootTable.Add(transmutePiece.Key, new CsvLootTable
-                {
-                    ItemId = transmutePiece.Key,
-                    ItemName = itemSources[transmutePiece.Key].Name,
-                    InstanceName = $"{csvLootTable[transmutePiece.Value.Item1].SourceName} - {csvLootTable[transmutePiece.Value.Item1].InstanceName}",
-                    SourceName = transmutePiece.Value.Item1.ToString(),
-                });
-            }
-        }
+        var tokenKeys = UpdateTierPieces(csvLootTable, itemSources);
+        var transmuteKeys = UpdateTransmuteKeys(csvLootTable, itemSources);
 
         foreach (var itemSource in itemSources)
         {
@@ -233,6 +199,57 @@ public partial class WowheadReader : Window
         }
 
         new ItemSourceFileManager().WriteItemSources(itemSources);
+    }
+
+    private void UpdateProfessionItems(Dictionary<int, CsvLootTable> csvLootTable)
+    {
+        GetItems(csvLootTable, "ProfessionItemList");
+    }
+
+    private HashSet<int> UpdateTransmuteKeys(Dictionary<int, CsvLootTable> csvLootTable, SortedDictionary<int, ItemSource> itemSources)
+    {
+        var transmuteKeys = new HashSet<int>();
+        foreach (var transmutePiece in TierPiecesAndTokens.Transmutes)
+        {
+            if (!transmuteKeys.Contains(transmutePiece.Key))
+            {
+                transmuteKeys.Add(transmutePiece.Key);
+            }
+            if (itemSources.ContainsKey(transmutePiece.Key) && csvLootTable.ContainsKey(transmutePiece.Value.Item1) && !csvLootTable.ContainsKey(transmutePiece.Key))
+            {
+                csvLootTable.Add(transmutePiece.Key, new CsvLootTable
+                {
+                    ItemId = transmutePiece.Key,
+                    ItemName = itemSources[transmutePiece.Key].Name,
+                    InstanceName = $"{csvLootTable[transmutePiece.Value.Item1].SourceName} - {csvLootTable[transmutePiece.Value.Item1].InstanceName}",
+                    SourceName = transmutePiece.Value.Item1.ToString(),
+                });
+            }
+        }
+        return transmuteKeys;
+    }
+
+    private HashSet<int> UpdateTierPieces(Dictionary<int, CsvLootTable> csvLootTable, SortedDictionary<int, ItemSource> itemSources)
+    {
+        var tokenKeys = new HashSet<int>();
+        foreach (var tierPiece in TierPiecesAndTokens.TierPieces)
+        {
+            if (!tokenKeys.Contains(tierPiece.Value.Item1))
+            {
+                tokenKeys.Add(tierPiece.Value.Item1);
+            }
+            if (itemSources.ContainsKey(tierPiece.Key) && !csvLootTable.ContainsKey(tierPiece.Key))
+            {
+                csvLootTable.Add(tierPiece.Key, new CsvLootTable
+                {
+                    ItemId = tierPiece.Key,
+                    ItemName = itemSources[tierPiece.Key].Name,
+                    InstanceName = csvLootTable[tierPiece.Value.Item1].InstanceName,
+                    SourceName = csvLootTable[tierPiece.Value.Item1].SourceName,
+                });
+            }
+        }
+        return tokenKeys;
     }
 
     private void GetItems(Dictionary<int, CsvLootTable> csvLootTable, string fileName)
