@@ -60,7 +60,7 @@ public class ItemSpecFileManager
     {
         var GAndESB = new StringBuilder();
 
-        var phaseNumber = Int32.Parse(phaseText.Replace("Phase", ""));
+        var phaseNumber = "0";//Int32.Parse(phaseText.Replace("Phase", ""));
 
         GAndESB.AppendLine($"local spec = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"{phaseNumber}\")");
 

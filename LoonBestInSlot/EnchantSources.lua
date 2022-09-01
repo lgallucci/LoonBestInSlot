@@ -48,6 +48,7 @@ LBIS.EnchantSources =
     [44509] = { Name = "Enchant Chest - Greater Mana Restoration", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "True" },
     [44528] = { Name = "Enchant Boots - Greater Fortitude", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "True" },
     [44529] = { Name = "Enchant Gloves - Major Agility", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "True" },
+    [44555] = { Name = "Enchant Bracers - Exceptional Intellect", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "True" },
     [44575] = { Name = "Enchant Bracers - Greater Assault", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "True" },
     [44584] = { Name = "Enchant Boots - Greater Vitality", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "True" },
     [44588] = { Name = "Enchant Chest - Exceptional Resilience", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "True" },
@@ -130,6 +131,7 @@ LBIS.EnchantSources =
     [62948] = { Name = "Enchant Staff - Greater Spellpower", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "True" },
     [63765] = { Name = "Springy Arachnoweave", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "True" },
     [63770] = { Name = "Reticulated Armor Webbing", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "True" },
+    [64579] = { Name = "Enchant Weapon - Blood Draining", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "True" },
     [67839] = { Name = "Mind Amplification Dish", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "True" },
     [70164] = { Name = "Rune of the Nerubian Carapace", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "True" },
 }

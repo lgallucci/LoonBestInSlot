@@ -180,6 +180,7 @@ public class ItemSpec
         new ("Support", ""),
         new ("Personal", ""),
         new ("Balanced", ""),
+        new (" Non-Engineer", ""),
 
         new ("Alt Alt", "Alt"),
         new ("Temporary  Alt", "Alt"),

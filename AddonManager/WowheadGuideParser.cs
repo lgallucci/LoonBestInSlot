@@ -2,6 +2,8 @@
 using System.Linq;
 using System.Net.Http;
 using System.Net.NetworkInformation;
+using System.Windows;
+using System.Xml.Linq;
 using AddonManager.Models;
 using AngleSharp;
 using AngleSharp.Dom;
@@ -185,12 +187,12 @@ public class WowheadGuideParser
                 }
                 else
                 {
-                    throw new Exception($"Failed to find table for {guideMapping.SlotHtmlId} after {elementCounter} hops");
+                    throw new Exception($"PARSE ERROR! Failed to find table for {guideMapping.SlotHtmlId} after {elementCounter} hops");
                 }
             }
             else
             {
-                throw new Exception($"Failed to find {guideMapping.SlotHtmlId}");
+                throw new Exception($"PARSE ERROR! Failed to find {guideMapping.SlotHtmlId}");
             }
         }
     }
@@ -210,31 +212,31 @@ public class WowheadGuideParser
                 var headerElement = doc.QuerySelector(heading.SlotHtmlId);
                 if (headerElement != null)
                 {
-                    foreach (var enchantItem in headerElement.FirstElementChild?.Children)
+                    RecursiveBoxSearch(headerElement, (boxElement) =>
                     {
-                        if (enchantItem is IHtmlAnchorElement)
+                        bool isSpell = false;
+                        if (((IHtmlAnchorElement)boxElement).PathName.Contains("/item="))
                         {
-                            bool isSpell = false;
-                            if (((IHtmlAnchorElement)enchantItem).PathName.Contains("/item="))
-                            {
-                                isSpell = false;
-                            }
-                            else if (((IHtmlAnchorElement)enchantItem).PathName.Contains("/spell="))
-                            {
-                                isSpell = true;
-                            }
-                            else
-                            {
-                                continue;
-                            }
+                            isSpell = false;
+                        }
+                        else if (((IHtmlAnchorElement)boxElement).PathName.Contains("/spell="))
+                        {
+                            isSpell = true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
 
-                            var item = ((IHtmlAnchorElement)enchantItem).PathName.Replace("/wotlk", "").Replace("/item=", "").Replace("/spell=", "");
-                            var itemIdIndex = item.IndexOf("/");
-                            if (itemIdIndex == -1)
-                                itemIdIndex = item.IndexOf("&");
+                        var item = ((IHtmlAnchorElement)boxElement).PathName.Replace("/wotlk", "").Replace("/item=", "").Replace("/spell=", "");
+                        var itemIdIndex = item.IndexOf("/");
+                        if (itemIdIndex == -1)
+                            itemIdIndex = item.IndexOf("&");
 
+                        if (itemIdIndex > -1)
+                        { 
                             item = item.Substring(0, itemIdIndex);
-                            var itemName = enchantItem.TextContent.Trim();
+                            var itemName = boxElement.TextContent.Trim();
                             var itemId = Int32.Parse(item);
 
                             if (heading.Slot == "Meta" || heading.Slot == "Gem")
@@ -257,15 +259,37 @@ public class WowheadGuideParser
                                     IsSpell = isSpell,
                                 });
                             }
+                            return true;
                         }
-                    }
+                        return false;
+                    });
                 }
                 else
                 {
                     throw new Exception($"Failed to find {heading.SlotHtmlId}{heading.Slot}");
                 }
             }
+
+
+            return (gems, enchants);
         }
-        return (gems, enchants);
+
+    }
+
+    private void RecursiveBoxSearch(IElement headerElement, Func<IElement, bool> action)
+    {
+        foreach (var boxElement in headerElement.Children)
+        {
+            if (boxElement is IHtmlAnchorElement)
+            {
+                bool goodAnchor = action(boxElement);
+                if (!goodAnchor)
+                    RecursiveBoxSearch(boxElement, action);
+            }
+            else
+            {
+                RecursiveBoxSearch(boxElement, action);
+            }
+        }
     }
 }

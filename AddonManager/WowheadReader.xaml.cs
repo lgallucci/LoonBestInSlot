@@ -61,10 +61,9 @@ public partial class WowheadReader : Window
                 specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == spec);
 
             var result = await ImportClass(specMapping, phaseNumber) + await ImportGemsAndEnchants(specMapping);
-            if (result.Contains("Exception"))
+            if (result.Contains("PARSE ERROR!"))
             {
                 ConsoleOut.Text += $"{spec} Failed!" + Environment.NewLine;
-
             }
             else
             {
@@ -125,7 +124,7 @@ public partial class WowheadReader : Window
         }
         catch (Exception ex)
         {
-            sb.AppendLine(ex.ToString());
+            sb.AppendLine($"PARSE ERROR! {ex.ToString()}");
         }
         return sb.ToString();
     }
@@ -177,12 +176,12 @@ public partial class WowheadReader : Window
             }
             else
             {
-                sb.AppendLine($"System.Exception: Couldn't find spec: {className}");
+                sb.AppendLine($"PARSE ERROR! Couldn't find spec: {className}");
             }
         }
         catch (Exception ex)
         {
-            sb.AppendLine(ex.ToString());
+            sb.AppendLine($"PARSE ERROR! {ex.ToString()}");
         }
         return sb.ToString();
     }
