@@ -13,6 +13,7 @@ LBIS:AddItem(spec, "39395", LBIS.L["Head"], "Alt") --Thane's Tainted Greathelm
 LBIS:AddItem(spec, "39704", LBIS.L["Shoulder"], "BIS") --Pauldrons of Unnatural Death
 LBIS:AddItem(spec, "40548", LBIS.L["Shoulder"], "Alt") --Valorous Dreadnaught Pauldrons
 LBIS:AddItem(spec, "40638", LBIS.L["Shoulder"], "Alt") --Mantle of the Lost Protector
+LBIS:AddItem(spec, "44312", LBIS.L["Shoulder"], "BIS") --Wapach's Spaulders of Solidarity
 LBIS:AddItem(spec, "40334", LBIS.L["Shoulder"], "Alt") --Burdened Shoulderplates
 LBIS:AddItem(spec, "39267", LBIS.L["Shoulder"], "BIS") --Abomination Shoulderblades
 LBIS:AddItem(spec, "39613", LBIS.L["Shoulder"], "Alt") --Heroes' Dreadnaught Pauldrons
@@ -66,6 +67,7 @@ LBIS:AddItem(spec, "39234", LBIS.L["Feet"], "BIS") --Plague-Impervious Boots
 
 LBIS:AddItem(spec, "40387", LBIS.L["Neck"], "BIS") --Boundless Ambition
 LBIS:AddItem(spec, "44665", LBIS.L["Neck"], "Alt") --Nexus War Champion Beads
+LBIS:AddItem(spec, "42646", LBIS.L["Neck"], "Alt") --Titanium Earthguard Chain
 LBIS:AddItem(spec, "39246", LBIS.L["Neck"], "BIS") --Amulet of Autopsy
 LBIS:AddItem(spec, "40069", LBIS.L["Neck"], "Alt") --Heritage
 LBIS:AddItem(spec, "44660", LBIS.L["Neck"], "Alt") --Drakescale Collar
@@ -79,9 +81,9 @@ LBIS:AddItem(spec, "34213", LBIS.L["Ring"], "Alt") --Ring of Hardened Resolve
 LBIS:AddItem(spec, "40107", LBIS.L["Ring"], "Alt") --Sand-Worn Band
 LBIS:AddItem(spec, "39141", LBIS.L["Ring"], "Alt") --Deflection Band
 
-LBIS:AddItem(spec, "49116", LBIS.L["Trinket"], "BIS Stam") --Bitter Balebrew Charm
-LBIS:AddItem(spec, "49118", LBIS.L["Trinket"], "BIS Stam") --Bubbling Brightbrew Charm
-LBIS:AddItem(spec, "40257", LBIS.L["Trinket"], "Alt Mit") --Defender's Code
+LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "BIS Stam") --Figurine - Monarch Crab
+LBIS:AddItem(spec, "40257", LBIS.L["Trinket"], "BIS Mit") --Defender's Code
+LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "Alt Mit") --Essence of Gossamer
 LBIS:AddItem(spec, "39292", LBIS.L["Trinket"], "Alt Mit") --Repelling Charge
 
 LBIS:AddItem(spec, "40402", LBIS.L["Main Hand"], "BIS") --Last Laugh

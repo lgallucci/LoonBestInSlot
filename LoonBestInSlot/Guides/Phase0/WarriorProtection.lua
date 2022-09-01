@@ -62,14 +62,14 @@ LBIS:AddItem(spec, "44240", LBIS.L["Legs"], "Alt") --Special Issue Legplates
 
 LBIS:AddItem(spec, "44895", LBIS.L["Feet"], "Alt") --Titan-Forged Greaves of Triumph
 LBIS:AddItem(spec, "40878", LBIS.L["Feet"], "Alt") --Hateful Gladiator's Greaves of Triumph
-LBIS:AddItem(spec, "41392", LBIS.L["Feet"], "Alt") --Tempered Titansteel Treads
-LBIS:AddItem(spec, "44201", LBIS.L["Feet"], "Alt Mit") --Sabatons of Draconic Vigor
+LBIS:AddItem(spec, "41392", LBIS.L["Feet"], "BIS") --Tempered Titansteel Treads
+LBIS:AddItem(spec, "44201", LBIS.L["Feet"], "BIS Mit") --Sabatons of Draconic Vigor
 LBIS:AddItem(spec, "44243", LBIS.L["Feet"], "Alt") --Toxin-Tempered Sabatons
 LBIS:AddItem(spec, "37082", LBIS.L["Feet"], "Alt") --Slaughterhouse Sabatons
 
 LBIS:AddItem(spec, "42646", LBIS.L["Neck"], "BIS") --Titanium Earthguard Chain
 LBIS:AddItem(spec, "40679", LBIS.L["Neck"], "Alt") --Chained Military Gorget
-LBIS:AddItem(spec, "37646", LBIS.L["Neck"], "Alt") --Burning Skull Pendant
+LBIS:AddItem(spec, "37646", LBIS.L["Neck"], "BIS") --Burning Skull Pendant
 LBIS:AddItem(spec, "43282", LBIS.L["Neck"], "Alt Mit") --Shadowseeker's Pendant
 LBIS:AddItem(spec, "37689", LBIS.L["Neck"], "Alt") --Pendant of the Nathrezim
 LBIS:AddItem(spec, "35680", LBIS.L["Neck"], "Alt Mit") --Amulet of Wills
@@ -84,10 +84,8 @@ LBIS:AddItem(spec, "42643", LBIS.L["Ring"], "Alt") --Titanium Earthguard Ring
 LBIS:AddItem(spec, "37186", LBIS.L["Ring"], "Alt") --Unsmashable Heavy Band
 LBIS:AddItem(spec, "38617", LBIS.L["Ring"], "Alt") --Woeful Band
 
-LBIS:AddItem(spec, "49116", LBIS.L["Trinket"], "BIS Stam") --Bitter Balebrew Charm
-LBIS:AddItem(spec, "49118", LBIS.L["Trinket"], "BIS Stam") --Bubbling Brightbrew Charm
-LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "Alt Stam") --Figurine - Monarch Crab
-LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "Alt Stam") --Essence of Gossamer
+LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "BIS Stam") --Figurine - Monarch Crab
+LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "BIS Stam") --Essence of Gossamer
 LBIS:AddItem(spec, "42341", LBIS.L["Trinket"], "Alt Stam") --Figurine - Ruby Hare
 LBIS:AddItem(spec, "36993", LBIS.L["Trinket"], "Alt Mit") --Seal of the Pantheon
 LBIS:AddItem(spec, "44323", LBIS.L["Trinket"], "Alt Stam") --Indestructible Alchemist's Stone
