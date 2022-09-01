@@ -194,10 +194,9 @@ public class WowheadGuideParser
         }
     }
 
-    internal async Task<(Dictionary<string, GemSpec>, Dictionary<string, EnchantSpec>)> ParseGemEnchantsWowheadGuide(ClassGuideMapping classGuide)
+    internal async Task<(Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>)> ParseGemEnchantsWowheadGuide(ClassGuideMapping classGuide)
     {
-
-        var gems = new Dictionary<string, GemSpec>();
+        var gems = new Dictionary<int, GemSpec>();
         var enchants = new Dictionary<string, EnchantSpec>();
         var doc = default(IHtmlDocument);
         using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{classGuide.ClassName.Replace(" ", "")}{classGuide.SpecName}GemsEnchants.html"))
@@ -239,7 +238,7 @@ public class WowheadGuideParser
 
                             if (heading.Slot == "Meta" || heading.Slot == "Gem")
                             {
-                                gems.Add(itemId.ToString(), new GemSpec
+                                gems.Add(itemId, new GemSpec
                                 {
                                     GemId = itemId,
                                     Name = itemName ?? "undefined",
@@ -261,7 +260,7 @@ public class WowheadGuideParser
                 }
                 else
                 {
-                    throw new Exception($"Failed to find {heading}");
+                    throw new Exception($"Failed to find {heading.SlotHtmlId}{heading.Slot}");
                 }
             }
         }

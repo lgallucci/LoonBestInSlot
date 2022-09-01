@@ -11,9 +11,9 @@ namespace AddonManager;
 public partial class WowheadReader : Window
 {
     public string[] SpecList = {"DeathKnightBlood", "DeathKnightFrost", "DeathKnightUnholy", "DruidBalance", "DruidBear", "DruidCat", "DruidRestoration",
-                                "HunterBM", "HunterMarks", "HunterSurvival", "MageFrost", "MageFire", "MageArcane", "PaladinHoly", "PaladinProtection",
+                                "HunterBeastMastery", "HunterMarksmanship", "HunterSurvival", "MageFrost", "MageFire", "MageArcane", "PaladinHoly", "PaladinProtection",
                                 "PaladinRetribution", "PriestHoly","PriestDiscipline", "PriestShadow", "RogueAssassination", "RogueSubtlety", "RogueCombat",
-                                "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAfflic", "WarlockDemo", "WarlockDestro", "WarriorArms",
+                                "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAffliction", "WarlockDemonology", "WarlockDestruction", "WarriorArms",
                                 "WarriorFury", "WarriorProtection"};
 
     public class CsvLootTable
@@ -73,17 +73,17 @@ public partial class WowheadReader : Window
         }
     }
 
-
     private async Task<string> ImportGemsAndEnchants(ClassGuideMapping classGuide)
     {
         var sb = new StringBuilder();
         try
         {
-            var className = $"{classGuide.ClassName.Replace(" ", "")}{classGuide.SpecName}";
+            var className = $"{classGuide.ClassName}{classGuide.SpecName}";
             var gemSources = new ItemSourceFileManager().ReadGemSources();
             var enchantSources = new ItemSourceFileManager().ReadEnchantSources();
-
-            var gemsEnchants = await new WowheadGuideParser().ParseGemEnchantsWowheadGuide(classGuide);
+            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == $"{className.Replace(" ", "")}GemEnchants");
+            
+            var gemsEnchants = await new WowheadGuideParser().ParseGemEnchantsWowheadGuide(specMapping);
 
             foreach (var gem in gemsEnchants.Item1)
             {
@@ -118,7 +118,7 @@ public partial class WowheadReader : Window
                 sb.AppendLine($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot} - {enchant.Value.IsSpell}");
             }
 
-            new ItemSpecFileManager().WriteGemAndEnchantSpec(Constants.AddonPath + $@"Guides\GemsAndEnchants\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, txtPhase.Text, gems, enchants);
+            new ItemSpecFileManager().WriteGemAndEnchantSpec(Constants.AddonPath + $@"Guides\GemsAndEnchants\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, txtPhase.Text, gemsEnchants.Item1, gemsEnchants.Item2);
 
             new ItemSourceFileManager().WriteGemSources(gemSources);
             new ItemSourceFileManager().WriteEnchantSources(enchantSources);
