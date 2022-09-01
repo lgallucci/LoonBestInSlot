@@ -22,7 +22,6 @@ LBIS:AddItem(spec, "40193", LBIS.L["Chest"], "Alt") --Tunic of Masked Suffering
 LBIS:AddItem(spec, "40503", LBIS.L["Chest"], "Alt") --Valorous Cryptstalker Tunic
 LBIS:AddItem(spec, "40626", LBIS.L["Chest"], "Alt") --Breastplate of the Lost Protector
 LBIS:AddItem(spec, "44295", LBIS.L["Chest"], "Alt") --Polished Regimental Hauberk
-LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Protector
 
 LBIS:AddItem(spec, "40282", LBIS.L["Wrist"], "BIS") --Slime Stream Bands
 LBIS:AddItem(spec, "40736", LBIS.L["Wrist"], "Alt") --Armguard of the Tower Archer
@@ -33,7 +32,6 @@ LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "BIS") --Frosted Adroit Handguards
 LBIS:AddItem(spec, "40262", LBIS.L["Hands"], "Alt") --Gloves of Calculated Risk
 LBIS:AddItem(spec, "39194", LBIS.L["Hands"], "Alt") --Rusted-Link Spiked Gauntlets
 LBIS:AddItem(spec, "37886", LBIS.L["Hands"], "Alt") --Handgrips of the Savage Emissary
-LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
 
 LBIS:AddItem(spec, "39762", LBIS.L["Waist"], "BIS") --Torn Web Wrapping
 LBIS:AddItem(spec, "40275", LBIS.L["Waist"], "Alt") --Depraved Linked Belt

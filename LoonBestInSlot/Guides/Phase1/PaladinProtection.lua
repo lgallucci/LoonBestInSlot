@@ -7,6 +7,7 @@ LBIS:AddItem(spec, "39640", LBIS.L["Head"], "Alt Mit") --Heroes' Redemption Face
 LBIS:AddItem(spec, "40616", LBIS.L["Head"], "Alt Mit") --Helm of the Lost Conqueror
 LBIS:AddItem(spec, "39395", LBIS.L["Head"], "Alt Mit") --Thane's Tainted Greathelm
 LBIS:AddItem(spec, "41387", LBIS.L["Head"], "Alt") --Tempered Titansteel Helm
+LBIS:AddItem(spec, "40366", LBIS.L["Head"], "Alt") --Platehelm of the Great Wyrm
 
 LBIS:AddItem(spec, "40584", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Shoulderguards
 LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
@@ -38,7 +39,6 @@ LBIS:AddItem(spec, "40580", LBIS.L["Hands"], "BIS") --Valorous Redemption Handgu
 LBIS:AddItem(spec, "40628", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Conqueror
 LBIS:AddItem(spec, "39726", LBIS.L["Hands"], "BIS Mit") --Callous-Hearted Gauntlets
 LBIS:AddItem(spec, "40188", LBIS.L["Hands"], "BIS Mit") --Gauntlets of the Disobedient
-LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "Alt") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "39197", LBIS.L["Hands"], "Alt") --Gauntlets of the Master
 
 LBIS:AddItem(spec, "39759", LBIS.L["Waist"], "BIS") --Ablative Chitin Girdle

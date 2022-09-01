@@ -13,7 +13,6 @@ LBIS:AddItem(spec, "39395", LBIS.L["Head"], "Alt") --Thane's Tainted Greathelm
 LBIS:AddItem(spec, "39704", LBIS.L["Shoulder"], "BIS") --Pauldrons of Unnatural Death
 LBIS:AddItem(spec, "40548", LBIS.L["Shoulder"], "Alt") --Valorous Dreadnaught Pauldrons
 LBIS:AddItem(spec, "40638", LBIS.L["Shoulder"], "Alt") --Mantle of the Lost Protector
-LBIS:AddItem(spec, "44312", LBIS.L["Shoulder"], "Alt") --Wapach's Spaulders of Solidarity
 LBIS:AddItem(spec, "40334", LBIS.L["Shoulder"], "Alt") --Burdened Shoulderplates
 LBIS:AddItem(spec, "39267", LBIS.L["Shoulder"], "BIS") --Abomination Shoulderblades
 LBIS:AddItem(spec, "39613", LBIS.L["Shoulder"], "Alt") --Heroes' Dreadnaught Pauldrons
@@ -28,7 +27,7 @@ LBIS:AddItem(spec, "40544", LBIS.L["Chest"], "BIS") --Valorous Dreadnaught Breas
 LBIS:AddItem(spec, "40626", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Protector
 LBIS:AddItem(spec, "44000", LBIS.L["Chest"], "Alt") --Dragonstorm Breastplate
 LBIS:AddItem(spec, "39767", LBIS.L["Chest"], "Alt") --Undiminished Battleplate
-LBIS:AddItem(spec, "40203", LBIS.L["Chest"], "Alt Mit") --Breastplate of Tormented Rage
+LBIS:AddItem(spec, "40203", LBIS.L["Chest"], "Alt") --Breastplate of Tormented Rage
 LBIS:AddItem(spec, "39398", LBIS.L["Chest"], "BIS") --Massive Skeletal Ribcage
 LBIS:AddItem(spec, "40279", LBIS.L["Chest"], "Alt") --Chestguard of the Exhausted
 LBIS:AddItem(spec, "39611", LBIS.L["Chest"], "BIS") --Heroes' Dreadnaught Breastplate
@@ -67,7 +66,6 @@ LBIS:AddItem(spec, "39234", LBIS.L["Feet"], "BIS") --Plague-Impervious Boots
 
 LBIS:AddItem(spec, "40387", LBIS.L["Neck"], "BIS") --Boundless Ambition
 LBIS:AddItem(spec, "44665", LBIS.L["Neck"], "Alt") --Nexus War Champion Beads
-LBIS:AddItem(spec, "42646", LBIS.L["Neck"], "Alt") --Titanium Earthguard Chain
 LBIS:AddItem(spec, "39246", LBIS.L["Neck"], "BIS") --Amulet of Autopsy
 LBIS:AddItem(spec, "40069", LBIS.L["Neck"], "Alt") --Heritage
 LBIS:AddItem(spec, "44660", LBIS.L["Neck"], "Alt") --Drakescale Collar
