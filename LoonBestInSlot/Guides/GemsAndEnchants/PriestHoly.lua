@@ -31,8 +31,8 @@ LBIS:AddGem(spec, "41602", LBIS.L["Legs"], "False") --Brilliant Spellthread
 
 LBIS:AddGem(spec, "41118", LBIS.L["Feet"], "False") --Nitro Boosts
 
-LBIS:AddGem(spec, "41118", LBIS.L["Main Hand"], "False") --Nitro Boosts
+LBIS:AddGem(spec, "60714", LBIS.L["Main Hand"], "True") --Enchant Weapon - Mighty Spellpower
+LBIS:AddGem(spec, "62948", LBIS.L["Main Hand"], "True") --Enchant Staff - Greater Spellpower
 
-LBIS:AddGem(spec, "60714", LBIS.L["Ring"], "True") --Enchant Weapon - Mighty Spellpower
-LBIS:AddGem(spec, "62948", LBIS.L["Ring"], "True") --Enchant Staff - Greater Spellpower
+LBIS:AddGem(spec, "44636", LBIS.L["Ring"], "True") --Enchant Ring - Greater Spellpower
 
