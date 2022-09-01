@@ -1348,13 +1348,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box", "Back"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box", "Chest"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box", "Wrist"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box", "Hands"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Waist"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Legs"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Off Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
+            new GuideMapping("h2#best-enchants~.box~.socket-prismatic>.box", "Hands"),
+            new GuideMapping("h2#best-enchants~.box~.socket-prismatic>.box~.socket-prismatic>.box", "Waist"),
+            new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box", "Legs"),
+            new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box", "Feet"),
+            new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box", "Main Hand"),
+            new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box~.box", "Off Hand"),
+            new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box~.box~.box", "Ring"),
         }));
 
         GuideMappings.Add(new ClassGuideMapping("ShamanElementalPhase0", "Elemental", "Shaman", new List<GuideMapping>
@@ -1407,12 +1407,12 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box", "Back"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box", "Chest"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box", "Wrist"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box", "Hands"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Waist"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Legs"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
+            new GuideMapping("h2#best-enchants~.box~.socket-prismatic>.box", "Hands"),
+            new GuideMapping("h2#best-enchants~.box~.socket-prismatic>.box~.socket-prismatic>.box", "Waist"),
+            new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box", "Legs"),
+            new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box", "Feet"),
+            new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box", "Main Hand"),
+            new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box~.box", "Ring"),
         }));
 
         GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementPhase0", "Enhancement", "Shaman", new List<GuideMapping>
@@ -1463,13 +1463,13 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box", "Back"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box", "Chest"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box", "Wrist"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box", "Hands"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Waist"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Legs"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Off Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
+            new GuideMapping("h2#best-enchants~.box~.socket-prismatic>.box", "Hands"),
+            new GuideMapping("h2#best-enchants~.box~.socket-prismatic>.box~.socket-prismatic>.box", "Waist"),
+            new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box", "Legs"),
+            new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box", "Feet"),
+            new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box", "Main Hand"),
+            new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box~.box", "Off Hand"),
+            new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box~.box~.box", "Ring"),
         }));
 
         GuideMappings.Add(new ClassGuideMapping("ShamanRestorationPhase0", "Restoration", "Shaman", new List<GuideMapping>
@@ -1512,10 +1512,10 @@ public class ClassSpecGuideMappings
 
         GuideMappings.Add(new ClassGuideMapping("WarlockAfflictionGemEnchants", "Affliction", "Warlock", new List<GuideMapping>
         {
-            new GuideMapping("h2#best-gems+.box", "Meta"),
-            new GuideMapping("h2#best-gems+.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems~.box", "Meta"),
+            new GuideMapping("h2#best-gems~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems~.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems~.box~.box~.box~.box", "Gem"),
 
             new GuideMapping("h2#best-enchants~.box", "Head"),
             new GuideMapping("h2#best-enchants~.box~.box", "Shoulder"),
@@ -1552,10 +1552,10 @@ public class ClassSpecGuideMappings
 
         GuideMappings.Add(new ClassGuideMapping("WarlockDemonologyGemEnchants", "Demonology", "Warlock", new List<GuideMapping>
         {
-            new GuideMapping("h2#best-gems+.box", "Meta"),
-            new GuideMapping("h2#best-gems+.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems~.box", "Meta"),
+            new GuideMapping("h2#best-gems~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems~.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems~.box~.box~.box~.box", "Gem"),
 
             new GuideMapping("h2#best-enchants~.box", "Head"),
             new GuideMapping("h2#best-enchants~.box~.box", "Shoulder"),
@@ -1592,10 +1592,10 @@ public class ClassSpecGuideMappings
 
         GuideMappings.Add(new ClassGuideMapping("WarlockDestructionGemEnchants", "Destruction", "Warlock", new List<GuideMapping>
         {
-            new GuideMapping("h2#best-gems+.box", "Meta"),
-            new GuideMapping("h2#best-gems+.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems~.box", "Meta"),
+            new GuideMapping("h2#best-gems~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems~.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems~.box~.box~.box~.box", "Gem"),
 
             new GuideMapping("h2#best-enchants~.box", "Head"),
             new GuideMapping("h2#best-enchants~.box~.box", "Shoulder"),

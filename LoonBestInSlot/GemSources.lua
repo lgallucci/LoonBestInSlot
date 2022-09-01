@@ -1,6 +1,7 @@
 LBIS.GemSources =
 {
     [32410] = { Name = "Thundering Skyfire Diamond", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
+    [34220] = { Name = "Chaotic Skyfire Diamond", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
     [36767] = { Name = "Solid Dragon's Eye", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
     [39996] = { Name = "Bold Scarlet Ruby", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
     [39997] = { Name = "Delicate Scarlet Ruby", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
@@ -14,8 +15,10 @@ LBIS.GemSources =
     [40017] = { Name = "Quick Autumn's Glow", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
     [40022] = { Name = "Sovereign Twilight Opal", DesignId = "-9999", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
     [40023] = { Name = "Shifting Twilight Opal", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
+    [40025] = { Name = "Glowing Twilight Opal", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
     [40026] = { Name = "Purified Twilight Opal", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
     [40027] = { Name = "Royal Twilight Opal", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
+    [40029] = { Name = "Balanced Twilight Opal", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
     [40031] = { Name = "Regal Twilight Opal", DesignId = "-9999", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
     [40034] = { Name = "Guardian's Twilight Opal", DesignId = "-9999", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
     [40037] = { Name = "Inscribed Monarch Topaz", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
@@ -54,6 +57,7 @@ LBIS.GemSources =
     [40167] = { Name = "Enduring Eye of Zul", DesignId = "-9999", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
     [41285] = { Name = "Chaotic Skyflare Diamond", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
     [41333] = { Name = "Ember Skyflare Diamond", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
+    [41376] = { Name = "Revitalizing Skyflare Diamond", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
     [41377] = { Name = "Effulgent Skyflare Diamond", DesignId = "41705", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
     [41380] = { Name = "Austere Earthsiege Diamond", DesignId = "41797", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },
     [41396] = { Name = "Eternal Earthsiege Diamond", DesignId = "0", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"] },

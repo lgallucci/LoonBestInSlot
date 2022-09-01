@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Linq;
 using System.Net.Http;
 using System.Net.NetworkInformation;
 using AddonManager.Models;
@@ -238,12 +239,13 @@ public class WowheadGuideParser
 
                             if (heading.Slot == "Meta" || heading.Slot == "Gem")
                             {
-                                gems.Add(itemId, new GemSpec
-                                {
-                                    GemId = itemId,
-                                    Name = itemName ?? "undefined",
-                                    IsMeta = heading.Slot == "Meta"
-                                });
+                                if (!gems.ContainsKey(itemId))
+                                    gems.Add(itemId, new GemSpec
+                                    {
+                                        GemId = itemId,
+                                        Name = itemName ?? "undefined",
+                                        IsMeta = heading.Slot == "Meta"
+                                    });
                             }
                             else
                             {
