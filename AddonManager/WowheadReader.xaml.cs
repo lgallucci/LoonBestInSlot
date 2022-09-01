@@ -91,6 +91,7 @@ public partial class WowheadReader : Window
                     gemSources.Add(gem.Value.GemId, new GemSource
                     {
                         GemId = gem.Value.GemId,
+                        DesignId = 99999,
                         Name = gem.Value.Name,
                         Source = "undefined",
                         SourceLocation = "undefined"
@@ -107,6 +108,7 @@ public partial class WowheadReader : Window
                     enchantSources.Add(enchant.Value.EnchantId, new EnchantSource
                     {
                         EnchantId = enchant.Value.EnchantId,
+                        DesignId = 99999,
                         Name = enchant.Value.Name,
                         Source = "undefined",
                         SourceLocation = "undefined",

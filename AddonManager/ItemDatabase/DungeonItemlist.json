@@ -231,13 +231,6 @@
       "SourceNumber": "",
       "SourceLocation": "Utgarde Pinnacle (Normal)"
     },
-    "41797": {
-      "Name": "Design: Austere Earthsiege Diamond",
-      "Source": "King Ymiron",
-      "SourceType": "Drop",
-      "SourceNumber": "",
-      "SourceLocation": "Utgarde Pinnacle (Normal)"
-    },
     "37408": {
       "Name": "Girdle of Bane",
       "Source": "King Ymiron",
@@ -524,14 +517,7 @@
       "SourceType": "Drop",
       "SourceNumber": "",
       "SourceLocation": "Utgarde Keep (Heroic)"
-    },
-    "41793": {
-      "Name": "Design: Fierce Monarch Topaz",
-      "Source": "Ingvar the Plunderer",
-      "SourceType": "Drop",
-      "SourceNumber": "",
-      "SourceLocation": "Utgarde Keep (Heroic)"
-    },
+    },    
     "35580": {
       "Name": "Skein Woven Mantle",
       "Source": "Trash Mobs",
@@ -819,13 +805,6 @@
       "SourceNumber": "",
       "SourceLocation": "The Nexus (Heroic)"
     },
-    "41794": {
-      "Name": "Design: Deadly Monarch Topaz",
-      "Source": "Keristrasza",
-      "SourceType": "Drop",
-      "SourceNumber": "",
-      "SourceLocation": "The Nexus (Heroic)"
-    },
     "36945": {
       "Name": "Verdisa's Cuffs of Dreaming",
       "Source": "Drakos the Interrogator",
@@ -1052,13 +1031,6 @@
     },
     "36975": {
       "Name": "Malygos' Favor",
-      "Source": "Ley-Guardian Eregos",
-      "SourceType": "Drop",
-      "SourceNumber": "",
-      "SourceLocation": "The Oculus (Normal)"
-    },
-    "41798": {
-      "Name": "Design: Bracing Earthsiege Diamond",
       "Source": "Ley-Guardian Eregos",
       "SourceType": "Drop",
       "SourceNumber": "",
@@ -1357,14 +1329,7 @@
       "SourceType": "Drop",
       "SourceNumber": "",
       "SourceLocation": "Azjol-Nerub (Heroic)"
-    },
-    "41796": {
-      "Name": "Design: Infused Twilight Opal",
-      "Source": "Anub'arak",
-      "SourceType": "Drop",
-      "SourceNumber": "",
-      "SourceLocation": "Azjol-Nerub (Heroic)"
-    },
+    },    
     "37243": {
       "Name": "Treasure Seeker's Belt",
       "Source": "Trash Mobs",
@@ -1638,13 +1603,6 @@
       "SourceNumber": "",
       "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic)"
     },
-    "41790": {
-      "Name": "Design: Precise Scarlet Ruby",
-      "Source": "Herald Volazj",
-      "SourceType": "Drop",
-      "SourceNumber": "",
-      "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic)"
-    },
     "35616": {
       "Name": "Spored Tendrils Spaulders",
       "Source": "Trash Mobs",
@@ -1871,13 +1829,6 @@
     },
     "37660": {
       "Name": "Forge Ember",
-      "Source": "Sjonnir The Ironshaper",
-      "SourceType": "Drop",
-      "SourceNumber": "",
-      "SourceLocation": "Halls of Stone (Heroic)"
-    },
-    "41792": {
-      "Name": "Design: Deft Monarch Topaz",
       "Source": "Sjonnir The Ironshaper",
       "SourceType": "Drop",
       "SourceNumber": "",
@@ -2137,13 +2088,6 @@
     },
     "36989": {
       "Name": "Ancient Measuring Rod",
-      "Source": "Loken",
-      "SourceType": "Drop",
-      "SourceNumber": "",
-      "SourceLocation": "Halls of Lightning (Normal)"
-    },
-    "41799": {
-      "Name": "Design: Eternal Earthsiege Diamond",
       "Source": "Loken",
       "SourceType": "Drop",
       "SourceNumber": "",
@@ -2466,13 +2410,6 @@
     },
     "37733": {
       "Name": "Mojo Masked Crusher",
-      "Source": "The Prophet Tharon'ja",
-      "SourceType": "Drop",
-      "SourceNumber": "",
-      "SourceLocation": "Drak'Tharon Keep (Heroic)"
-    },
-    "41795": {
-      "Name": "Design: Timeless Forest Emerald",
       "Source": "The Prophet Tharon'ja",
       "SourceType": "Drop",
       "SourceNumber": "",
@@ -2802,13 +2739,6 @@
     },
     "37873": {
       "Name": "Mark of the War Prisoner",
-      "Source": "Cyanigosa",
-      "SourceType": "Drop",
-      "SourceNumber": "",
-      "SourceLocation": "The Violet Hold (Heroic)"
-    },
-    "41791": {
-      "Name": "Design: Thick Autumn's Glow",
       "Source": "Cyanigosa",
       "SourceType": "Drop",
       "SourceNumber": "",

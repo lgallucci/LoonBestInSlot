@@ -383,5 +383,75 @@
         "SourceType": "Drop",
         "SourceNumber": "47606",
         "SourceLocation": "Trial of the Crusader (10)"
+    },
+    "41797": {
+        "Name": "Design: Austere Earthsiege Diamond",
+        "Source": "King Ymiron",
+        "SourceType": "Drop",
+        "SourceNumber": "41380",
+        "SourceLocation": "Utgarde Pinnacle (Normal)"
+    },
+    "41793": {
+        "Name": "Design: Fierce Monarch Topaz",
+        "Source": "Ingvar the Plunderer",
+        "SourceType": "Drop",
+        "SourceNumber": "",
+        "SourceLocation": "Utgarde Keep (Heroic)"
+    },
+    "41794": {
+        "Name": "Design: Deadly Monarch Topaz",
+        "Source": "Keristrasza",
+        "SourceType": "Drop",
+        "SourceNumber": "",
+        "SourceLocation": "The Nexus (Heroic)"
+    },
+    "41798": {
+        "Name": "Design: Bracing Earthsiege Diamond",
+        "Source": "Ley-Guardian Eregos",
+        "SourceType": "Drop",
+        "SourceNumber": "",
+        "SourceLocation": "The Oculus (Normal)"
+    },
+    "41796": {
+        "Name": "Design: Infused Twilight Opal",
+        "Source": "Anub'arak",
+        "SourceType": "Drop",
+        "SourceNumber": "",
+        "SourceLocation": "Azjol-Nerub (Heroic)"
+    },
+    "41790": {
+        "Name": "Design: Precise Scarlet Ruby",
+        "Source": "Herald Volazj",
+        "SourceType": "Drop",
+        "SourceNumber": "",
+        "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic)"
+    },
+    "41792": {
+        "Name": "Design: Deft Monarch Topaz",
+        "Source": "Sjonnir The Ironshaper",
+        "SourceType": "Drop",
+        "SourceNumber": "",
+        "SourceLocation": "Halls of Stone (Heroic)"
+    },
+    "41799": {
+        "Name": "Design: Eternal Earthsiege Diamond",
+        "Source": "Loken",
+        "SourceType": "Drop",
+        "SourceNumber": "",
+        "SourceLocation": "Halls of Lightning (Normal)"
+    },
+    "41795": {
+        "Name": "Design: Timeless Forest Emerald",
+        "Source": "The Prophet Tharon'ja",
+        "SourceType": "Drop",
+        "SourceNumber": "",
+        "SourceLocation": "Drak'Tharon Keep (Heroic)"
+    },
+    "41791": {
+        "Name": "Design: Thick Autumn's Glow",
+        "Source": "Cyanigosa",
+        "SourceType": "Drop",
+        "SourceNumber": "",
+        "SourceLocation": "The Violet Hold (Heroic)"
     }
 }

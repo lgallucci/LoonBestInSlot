@@ -99,13 +99,15 @@ public class ItemSourceFileManager
 
             var enchantId = Int32.Parse(enchantSource.Substring(openBracket, closeBracket - openBracket));
             var sourceSplit = enchantSource.Split("\"");
+            var designId = string.IsNullOrWhiteSpace(sourceSplit[3]) ? -1 : Int32.Parse(sourceSplit[3]);
             enchants.Add(enchantId, new EnchantSource
             {
                 EnchantId = enchantId,
+                DesignId = designId,
                 Name = sourceSplit[1],
-                Source = sourceSplit[3],
-                SourceLocation = sourceSplit[5],
-                IsSpell = bool.Parse(sourceSplit[7])
+                Source = sourceSplit[5],
+                SourceLocation = sourceSplit[7],
+                IsSpell = bool.Parse(sourceSplit[9])
             });
         }
 

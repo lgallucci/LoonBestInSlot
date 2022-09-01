@@ -22,6 +22,7 @@ public class GemSource
 public class EnchantSource
 {
     public int EnchantId { get; set; }
+    public int DesignId { get; set; }
     public string Name { get; set; } = string.Empty;
     public string Source { get; set; } = string.Empty;
     public string SourceLocation { get; set; } = string.Empty;
