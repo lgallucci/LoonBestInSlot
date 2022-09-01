@@ -194,6 +194,7 @@ public class ItemSourceFileManager
 
             itemSourceSB.AppendLine($"    [{source.Key}] = {{ " +
                     $"Name = \"{source.Value.Name}\", " +
+                    $"DesignId = \"{source.Value.DesignId}\", " +
                     $"Source = {sourceText}, " +
                     $"SourceLocation = {sourceLocation}, " +
                     $"IsSpell = \"{source.Value.IsSpell.ToString()}\" }},");
