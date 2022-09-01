@@ -205,3 +205,19 @@ public class ItemSpec
     }
 
 }
+
+public class GemSpec
+{
+    public int GemId { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public int DesignId { get; set; }
+    public bool IsMeta { get; set; }
+}
+
+public class EnchantSpec
+{
+    public int EnchantId { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public string Slot { get; set; } = String.Empty;
+    public bool IsSpell { get; set; }
+}

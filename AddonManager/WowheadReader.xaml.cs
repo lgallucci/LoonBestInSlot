@@ -36,8 +36,16 @@ public partial class WowheadReader : Window
     {
         ConsoleOut.Text = string.Empty;
         var phaseNumber = Int32.Parse(txtPhase.Text.Replace("Phase", ""));
+        var spec = cmbSpec.SelectedValue.ToString();
 
-        ConsoleOut.Text = await ImportClass(cmbSpec.SelectedValue.ToString() ?? string.Empty, phaseNumber);
+
+        var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == $"{spec}Phase{phaseNumber}");
+
+        if (specMapping == null)
+            specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == spec);
+
+        ConsoleOut.Text = await ImportClass(specMapping, phaseNumber) +
+            await ImportGemsAndEnchants(specMapping);
     }
 
     private async void ImportAll_Click(object sender, RoutedEventArgs e)
@@ -48,7 +56,12 @@ public partial class WowheadReader : Window
 
         foreach (string spec in SpecList)
         {
-            var result = await ImportClass(spec, phaseNumber);
+            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == $"{spec}Phase{phaseNumber}");
+
+            if (specMapping == null)
+                specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == spec);
+
+            var result = await ImportClass(specMapping, phaseNumber) + await ImportGemsAndEnchants(specMapping);
             if (result.Contains("Exception"))
             {
                 ConsoleOut.Text += $"{spec} Failed!" + Environment.NewLine;
@@ -61,21 +74,78 @@ public partial class WowheadReader : Window
         }
     }
 
-    private async Task<string> ImportClass(string className, int phaseNumber)
+
+    private async Task<string> ImportGemsAndEnchants(ClassGuideMapping classGuide)
+    {
+        var sb = new StringBuilder();
+        try
+        {
+            var className = $"{classGuide.ClassName}{classGuide.SpecName}";
+            var gemSources = new ItemSourceFileManager().ReadGemSources();
+            var enchantSources = new ItemSourceFileManager().ReadEnchantSources();
+
+            var gems = await new WowheadGuideParser().ParseGemWowheadGuide(classGuide);
+
+            foreach (var gem in gems)
+            {
+                if (!gemSources.ContainsKey(gem.Value.GemId) && gem.Value.GemId > 0)
+                {
+                    gemSources.Add(gem.Value.GemId, new GemSource
+                    {
+                        GemId = gem.Value.GemId,
+                        Name = gem.Value.Name,
+                        DesignId = gem.Value.DesignId,
+                        Source = "undefined",
+                        SourceLocation = "undefined"
+                    });
+                }
+
+                sb.AppendLine($"{gem.Value.GemId}: {gem.Value.Name} - {gem.Value.DesignId} - {gem.Value.IsMeta}");
+            }
+
+            var enchants = await new WowheadGuideParser().ParseEnchantsWowheadGuide(classGuide);
+
+            foreach (var enchant in enchants)
+            {
+                if (!enchantSources.ContainsKey(enchant.Value.EnchantId) && enchant.Value.EnchantId > 0)
+                {
+                    enchantSources.Add(enchant.Value.EnchantId, new EnchantSource
+                    {
+                        EnchantId = enchant.Value.EnchantId,
+                        Name = enchant.Value.Name,
+                        Source = "undefined",
+                        SourceLocation = "undefined",
+                        IsSpell = enchant.Value.IsSpell
+                    });
+                }
+
+                sb.AppendLine($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot} - {enchant.Value.IsSpell}");
+            }
+
+            new ItemSpecFileManager().WriteGemAndEnchantSpec(Constants.AddonPath + $@"Guides\GemsAndEnchants\{className}.lua", classGuide.ClassName, classGuide.SpecName, txtPhase.Text, gems, enchants);
+
+            new ItemSourceFileManager().WriteGemSources(gemSources);
+            new ItemSourceFileManager().WriteEnchantSources(enchantSources);
+        }
+        catch (Exception ex)
+        {
+            sb.AppendLine(ex.ToString());
+        }
+        return sb.ToString();
+    }
+
+    private async Task<string> ImportClass(ClassGuideMapping classGuide, int phaseNumber)
     {
         var sb = new StringBuilder();
         try
         {
             var itemSources = new ItemSourceFileManager().ReadItemSources();
 
-            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == $"{className}Phase{phaseNumber}");
+            var className = $"{classGuide.ClassName}{classGuide.SpecName}";
 
-            if (specMapping == null)
-                specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == className);
-
-            if (specMapping != null)
+            if (classGuide != null)
             {
-                var items = await new WowheadGuideParser().ParseWowheadGuide(specMapping, className, txtPhase.Text);
+                var items = await new WowheadGuideParser().ParseWowheadGuide(classGuide, className, txtPhase.Text);
 
                 var oldItems = ExcludeItemsFromPhaseGuide(items, phaseNumber, className);
 
@@ -105,7 +175,7 @@ public partial class WowheadReader : Window
                     }
                 }
 
-                new ItemSpecFileManager().WriteItemSpec(Constants.AddonPath + $@"Guides\Phase{phaseNumber}\{className}.lua", specMapping.ClassName, specMapping.SpecName, txtPhase.Text, items);
+                new ItemSpecFileManager().WriteItemSpec(Constants.AddonPath + $@"Guides\Phase{phaseNumber}\{className}.lua", classGuide.ClassName, classGuide.SpecName, txtPhase.Text, items);
 
                 new ItemSourceFileManager().WriteItemSources(itemSources);
             }

@@ -142,8 +142,7 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 
 end
 
-
-function LBIS:AddGem(bisEntry, id, designId)
+function LBIS:AddGem(bisEntry, id, designId, isMeta)
 
 	if strlen(id) <= 0 then
 		return
@@ -162,7 +161,7 @@ function LBIS:AddGem(bisEntry, id, designId)
 			phase = "Phase "..bisEntry.Phase;
 		end
 
-		searchedItem = { Id = id, DesignId = designId, Phase = phase }
+		searchedItem = { Id = id, Phase = phase, DesignId = designId, IsMeta = isMeta }
 
 		if not LBIS.SpecGems[bisEntry.Id] then
 			LBIS.SpecGems[bisEntry.Id] = {}

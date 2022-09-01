@@ -20,6 +20,6 @@
     <PackageReference Include="Selenium.WebDriver" Version="4.1.0" />
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties itemdatabase_4dungeonitemlist_1json__JsonSchema="https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-5.json" /></VisualStudio></ProjectExtensions>
 
 </Project>

@@ -55,4 +55,34 @@ public class ItemSpecFileManager
 
         return items;
     }
+
+    internal void WriteGemAndEnchantSpec(string path, string className, string specName, string phaseText, Dictionary<int, GemSpec> gems, Dictionary<int, EnchantSpec> enchants)
+    {
+        var GAndESB = new StringBuilder();
+
+        var phaseNumber = Int32.Parse(phaseText.Replace("Phase", ""));
+
+        GAndESB.AppendLine($"local spec = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"{phaseNumber}\")");
+
+        var previousSlot = "LBIS.L[\"Head\"]";
+        foreach (var gem in gems)
+        {
+            GAndESB.AppendLine($"LBIS:AddGem(spec, \"{gem.Value.GemId}\", \"{gem.Value.DesignId}\", \"{gem.Value.IsMeta.ToString()}\") --{gem.Value.Name}");
+        }
+        GAndESB.AppendLine();
+
+        foreach (var enchant in enchants)
+        {
+            if (previousSlot != enchant.Value.Slot)
+            {
+                previousSlot = enchant.Value.Slot;
+                GAndESB.AppendLine();
+            }
+
+            GAndESB.AppendLine($"LBIS:AddGem(spec, \"{enchant.Value.EnchantId}\", \"LBIS.L[{enchant.Value.Slot}]\", \"{enchant.Value.IsSpell.ToString()}\") --{enchant.Value.Name}");
+        }
+        GAndESB.AppendLine();
+
+        System.IO.File.WriteAllText(path, GAndESB.ToString());
+    }
 }
