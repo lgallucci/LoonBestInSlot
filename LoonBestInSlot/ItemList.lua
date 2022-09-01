@@ -24,6 +24,7 @@ itemSlotOrder[LBIS.L["Wand"]] = 17;
 itemSlotOrder[LBIS.L["Totem"]] = 18;
 itemSlotOrder[LBIS.L["Idol"]] = 19;
 itemSlotOrder[LBIS.L["Libram"]] = 20;
+itemSlotOrder[LBIS.L["Relic"]] = 21;
 
 local function itemSortFunction(table, k1, k2)
 

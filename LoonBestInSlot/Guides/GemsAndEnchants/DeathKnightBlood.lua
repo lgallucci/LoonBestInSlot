@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Blood"], "0")
+local spec = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "0")
 
 LBIS:AddGem(spec, "41380", "41797", "true")
 LBIS:AddGem(spec, "41377", "41705", "true")

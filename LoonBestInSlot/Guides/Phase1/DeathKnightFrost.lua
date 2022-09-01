@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Frost"], "1")
+local spec = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Frost"], "1")
 
 LBIS:AddItem(spec, "44006", LBIS.L["Head"], "BIS") --Obsidian Greathelm
 LBIS:AddItem(spec, "40554", LBIS.L["Head"], "Alt") --Valorous Scourgeborne Helmet

@@ -38,7 +38,6 @@ public partial class WowheadReader : Window
         var phaseNumber = Int32.Parse(txtPhase.Text.Replace("Phase", ""));
         var spec = cmbSpec.SelectedValue.ToString();
 
-
         var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == $"{spec}Phase{phaseNumber}");
 
         if (specMapping == null)
@@ -122,7 +121,7 @@ public partial class WowheadReader : Window
                 sb.AppendLine($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot} - {enchant.Value.IsSpell}");
             }
 
-            new ItemSpecFileManager().WriteGemAndEnchantSpec(Constants.AddonPath + $@"Guides\GemsAndEnchants\{className}.lua", classGuide.ClassName, classGuide.SpecName, txtPhase.Text, gems, enchants);
+            new ItemSpecFileManager().WriteGemAndEnchantSpec(Constants.AddonPath + $@"Guides\GemsAndEnchants\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, txtPhase.Text, gems, enchants);
 
             new ItemSourceFileManager().WriteGemSources(gemSources);
             new ItemSourceFileManager().WriteEnchantSources(enchantSources);
@@ -175,7 +174,7 @@ public partial class WowheadReader : Window
                     }
                 }
 
-                new ItemSpecFileManager().WriteItemSpec(Constants.AddonPath + $@"Guides\Phase{phaseNumber}\{className}.lua", classGuide.ClassName, classGuide.SpecName, txtPhase.Text, items);
+                new ItemSpecFileManager().WriteItemSpec(Constants.AddonPath + $@"Guides\Phase{phaseNumber}\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, txtPhase.Text, items);
 
                 new ItemSourceFileManager().WriteItemSources(itemSources);
             }
@@ -200,7 +199,7 @@ public partial class WowheadReader : Window
         {
             for (int i = 0; i <= oldPhaseNumber; i++)
             {
-                var phaseItems = new ItemSpecFileManager().ReadPhaseFromFile(Constants.AddonPath + $@"Guides\Phase{i}\{specName}.lua");
+                var phaseItems = new ItemSpecFileManager().ReadPhaseFromFile(Constants.AddonPath + $@"Guides\Phase{i}\{specName.Replace(" ", "")}.lua");
 
                 //TODO: VALIDATE FILE ONLY CONTAINS "BIS" AND "ALT" BIS STATUSES FIRST
 

@@ -1,8 +1,8 @@
 ﻿<Ui xmlns="http://www.blizzard.com/wow/ui/">
 
-	<Script file="GemsAndEnchants\BloodDeathKnight.lua" />
-	<Script file="GemsAndEnchants\FrostDeathKnight.lua" />
-	<Script file="GemsAndEnchants\UnholyDeathKnight.lua" />
+	<Script file="GemsAndEnchants\DeathKnightBlood.lua" />
+	<Script file="GemsAndEnchants\DeathKnightFrost.lua" />
+	<Script file="GemsAndEnchants\DeathKnightUnholy.lua" />
 	<Script file="GemsAndEnchants\DruidBalance.lua" />
 	<Script file="GemsAndEnchants\DruidBear.lua" />
 	<Script file="GemsAndEnchants\DruidCat.lua" />
@@ -28,13 +28,13 @@
 	<Script file="GemsAndEnchants\WarlockAfflic.lua" />
 	<Script file="GemsAndEnchants\WarlockDemo.lua" />
 	<Script file="GemsAndEnchants\WarlockDestro.lua" />
-	<Script file="GemsAndEnchants\WarriorDPSFury.lua" />
-	<Script file="GemsAndEnchants\WarriorDPSArms.lua" />
+	<Script file="GemsAndEnchants\WarriorFury.lua" />
+	<Script file="GemsAndEnchants\WarriorArms.lua" />
 	<Script file="GemsAndEnchants\WarriorProtection.lua" />
 	
-	<Script file="Phase0\BloodDeathKnight.lua" />
-	<Script file="Phase0\FrostDeathKnight.lua" />
-	<Script file="Phase0\UnholyDeathKnight.lua" />
+	<Script file="Phase0\DeathKnightBlood.lua" />
+	<Script file="Phase0\DeathKnightFrost.lua" />
+	<Script file="Phase0\DeathKnightUnholy.lua" />
 	<Script file="Phase0\DruidBalance.lua" />
 	<Script file="Phase0\DruidBear.lua" />
 	<Script file="Phase0\DruidCat.lua" />
@@ -60,13 +60,13 @@
 	<Script file="Phase0\WarlockAfflic.lua" />
 	<Script file="Phase0\WarlockDemo.lua" />
 	<Script file="Phase0\WarlockDestro.lua" />
-	<Script file="Phase0\WarriorDPSFury.lua" />
-	<Script file="Phase0\WarriorDPSArms.lua" />
+	<Script file="Phase0\WarriorFury.lua" />
+	<Script file="Phase0\WarriorArms.lua" />
 	<Script file="Phase0\WarriorProtection.lua" />
 
-	<Script file="Phase1\BloodDeathKnight.lua" />
-	<Script file="Phase1\FrostDeathKnight.lua" />
-	<Script file="Phase1\UnholyDeathKnight.lua" />
+	<Script file="Phase1\DeathKnightBlood.lua" />
+	<Script file="Phase1\DeathKnightFrost.lua" />
+	<Script file="Phase1\DeathKnightUnholy.lua" />
 	<Script file="Phase1\DruidBalance.lua" />
 	<Script file="Phase1\DruidBear.lua" />
 	<Script file="Phase1\DruidCat.lua" />
@@ -92,7 +92,7 @@
 	<Script file="Phase1\WarlockAfflic.lua" />
 	<Script file="Phase1\WarlockDemo.lua" />
 	<Script file="Phase1\WarlockDestro.lua" />
-	<Script file="Phase1\WarriorDPSFury.lua" />
-	<Script file="Phase1\WarriorDPSArms.lua" />
+	<Script file="Phase1\WarriorFury.lua" />
+	<Script file="Phase1\WarriorArms.lua" />
 	<Script file="Phase1\WarriorProtection.lua" />
 </Ui>

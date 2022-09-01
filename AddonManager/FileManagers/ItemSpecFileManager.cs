@@ -56,7 +56,7 @@ public class ItemSpecFileManager
         return items;
     }
 
-    internal void WriteGemAndEnchantSpec(string path, string className, string specName, string phaseText, Dictionary<int, GemSpec> gems, Dictionary<int, EnchantSpec> enchants)
+    internal void WriteGemAndEnchantSpec(string path, string className, string specName, string phaseText, Dictionary<int, GemSpec> gems, Dictionary<string, EnchantSpec> enchants)
     {
         var GAndESB = new StringBuilder();
 

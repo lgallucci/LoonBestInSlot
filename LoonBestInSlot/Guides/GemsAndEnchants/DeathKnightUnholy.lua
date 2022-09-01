@@ -1,1 +1,1 @@
-local spec = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Unholy"], "0")
+local spec = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Unholy"], "0")

@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Blood"], "1")
+local spec = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "1")
 
 LBIS:AddItem(spec, "40565", LBIS.L["Head"], "BIS") --Valorous Scourgeborne Faceguard
 LBIS:AddItem(spec, "40633", LBIS.L["Head"], "BIS") --Crown of the Lost Vanquisher

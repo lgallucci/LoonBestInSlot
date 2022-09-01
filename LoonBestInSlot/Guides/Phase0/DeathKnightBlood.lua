@@ -1,4 +1,4 @@
-local spec = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Blood"], "0")
+local spec = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "0")
 
 LBIS:AddItem(spec, "41387", LBIS.L["Head"], "BIS") --Tempered Titansteel Helm
 LBIS:AddItem(spec, "42549", LBIS.L["Head"], "Alt") --Armored Titanium Goggles

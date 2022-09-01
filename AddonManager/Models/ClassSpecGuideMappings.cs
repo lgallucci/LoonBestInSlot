@@ -33,7 +33,7 @@ public class ClassSpecGuideMappings
     {
         GuideMappings = new List<ClassGuideMapping>();
 
-        GuideMappings.Add(new ClassGuideMapping("DeathKnightBloodPhase0", "Blood", "DeathKnight", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("DeathKnightBloodPhase0", "Blood", "Death Knight", new List<GuideMapping>
         {           
             new GuideMapping("#head-for-blood-death-knight-tank-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-blood-death-knight-tank-pre-raid", "Shoulder"),
@@ -52,7 +52,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#relics-for-blood-death-knight-tank-pre-raid", "Relic"),
         })); 
 
-        GuideMappings.Add(new ClassGuideMapping("DeathKnightBloodPhase1", "Blood", "DeathKnight", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("DeathKnightBloodPhase1", "Blood", "Death Knight", new List<GuideMapping>
         {
             new GuideMapping("#head-for-blood-death-knight-tank-phase-1", "Head"),
             new GuideMapping("#shoulders-for-blood-death-knight-tank-phase-1", "Shoulder"),
@@ -71,7 +71,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#relics-for-blood-death-knight-tank-phase-1", "Relic"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DeathKnightFrostPhase0", "Frost", "DeathKnight", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("DeathKnightFrostPhase0", "Frost", "Death Knight", new List<GuideMapping>
         {           
             new GuideMapping("#head-for-frost-death-knight-dps-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-frost-death-knight-dps-pre-raid", "Shoulder"),
@@ -90,7 +90,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#sigils-for-frost-death-knight-dps-pre-raid", "Relic"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DeathKnightFrostPhase1", "Frost", "DeathKnight", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("DeathKnightFrostPhase1", "Frost", "Death Knight", new List<GuideMapping>
         {
             new GuideMapping("#head-for-frost-death-knight-dps-phase-1", "Head"),
             new GuideMapping("#shoulders-for-frost-death-knight-dps-phase-1", "Shoulder"),
@@ -109,7 +109,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#sigils-for-frost-death-knight-dps-phase-1", "Relic"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DeathKnightUnholyPhase0", "Unholy", "DeathKnight", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("DeathKnightUnholyPhase0", "Unholy", "Death Knight", new List<GuideMapping>
         {            
             new GuideMapping("#head-for-unholy-death-knight-dps-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-unholy-death-knight-dps-pre-raid", "Shoulder"),
@@ -128,7 +128,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#sigils-for-unholy-death-knight-dps-pre-raid", "Relic"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DeathKnightUnholyPhase1", "Unholy", "DeathKnight", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("DeathKnightUnholyPhase1", "Unholy", "Death Knight", new List<GuideMapping>
         {
             new GuideMapping("#head-for-unholy-death-knight-dps-phase-1", "Head"),
             new GuideMapping("#shoulders-for-unholy-death-knight-dps-phase-1", "Shoulder"),

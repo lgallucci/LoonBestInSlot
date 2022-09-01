@@ -63,11 +63,12 @@ public class ItemSourceFileManager
 
             var gemId = Int32.Parse(gemSource.Substring(openBracket, closeBracket - openBracket));
             var sourceSplit = gemSource.Split("\"");
+            var designId = string.IsNullOrWhiteSpace(sourceSplit[3]) ? -1 : Int32.Parse(sourceSplit[3]);
             gems.Add(gemId, new GemSource
             {
                 GemId = gemId,
                 Name = sourceSplit[1],
-                DesignId = Int32.Parse(sourceSplit[3]),
+                DesignId = designId,
                 Source = sourceSplit[5],
                 SourceLocation = sourceSplit[7]
             });
@@ -84,7 +85,7 @@ public class ItemSourceFileManager
 
         foreach (var enchantSource in enchantSources)
         {
-            if (enchantSource == "LBIS.enchantSources =" ||
+            if (enchantSource == "LBIS.EnchantSources =" ||
                 enchantSource == "{" ||
                 enchantSource == "}" ||
                 enchantSource == String.Empty ||
