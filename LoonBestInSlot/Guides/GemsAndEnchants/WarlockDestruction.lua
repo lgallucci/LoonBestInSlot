@@ -21,7 +21,7 @@ LBIS:AddGem(spec, "63765", LBIS.L["Back"], "True") --Springy Arachnoweave
 LBIS:AddGem(spec, "39003", LBIS.L["Back"], "False") --Scroll of Enchant Cloak - Greater Speed
 
 LBIS:AddGem(spec, "38928", LBIS.L["Chest"], "False") --Scroll of Enchant Chest - Major Spirit
-LBIS:AddGem(spec, "44465", LBIS.L["Chest"], "False") --Scroll of Enchant Chest - Powerful Stats
+LBIS:AddGem(spec, "60692", LBIS.L["Chest"], "False") --Scroll of Enchant Chest - Powerful Stats
 
 LBIS:AddGem(spec, "57691", LBIS.L["Wrist"], "True") --Fur Lining - Spell Power
 LBIS:AddGem(spec, "44470", LBIS.L["Wrist"], "False") --Scroll of Enchant Bracer - Superior Spellpower

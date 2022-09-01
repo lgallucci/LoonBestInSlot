@@ -60,7 +60,7 @@ LBIS:AddGem(spec, "41976", LBIS.L["Main Hand"], "False") --Titanium Weapon Chain
 
 LBIS:AddGem(spec, "44936", LBIS.L["Off Hand"], "False") --Titanium Plating
 LBIS:AddGem(spec, "34009", LBIS.L["Off Hand"], "True") --Enchant Shield - Major Stamina
-LBIS:AddGem(spec, "44489", LBIS.L["Off Hand"], "True") --Enchant Shield - Defense
+LBIS:AddGem(spec, "60692", LBIS.L["Off Hand"], "True") --Enchant Shield - Defense
 
 LBIS:AddGem(spec, "59636", LBIS.L["Ring"], "True") --Enchant Ring - Stamina
 LBIS:AddGem(spec, "44645", LBIS.L["Ring"], "True") --Enchant Ring - Assault

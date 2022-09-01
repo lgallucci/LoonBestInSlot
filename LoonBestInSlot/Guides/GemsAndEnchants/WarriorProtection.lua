@@ -45,7 +45,7 @@ LBIS:AddGem(spec, "64579", LBIS.L["Main Hand"], "True") --Enchant Weapon - Blood
 
 LBIS:AddGem(spec, "44936", LBIS.L["Off Hand"], "False") --Titanium Plating
 LBIS:AddGem(spec, "34009", LBIS.L["Off Hand"], "True") --Enchant Shield - Major Stamina
-LBIS:AddGem(spec, "44489", LBIS.L["Off Hand"], "True") --Enchant Shield - Defense
+LBIS:AddGem(spec, "60692", LBIS.L["Off Hand"], "True") --Enchant Shield - Defense
 
 LBIS:AddGem(spec, "41167", LBIS.L["Ranged"], "False") --Heartseeker Scope
 

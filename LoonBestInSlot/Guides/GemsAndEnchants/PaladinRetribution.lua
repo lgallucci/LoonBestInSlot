@@ -14,7 +14,7 @@ LBIS:AddGem(spec, "40022", "False") --Sovereign Twilight Opal
 
 
 LBIS:AddGem(spec, "44879", LBIS.L["Head"], "False") --Arcanum of the Stalwart Protector
-LBIS:AddGem(spec, "29192", LBIS.L["Head"], "False") --Mind Amplification Dish
+LBIS:AddGem(spec, "67799", LBIS.L["Head"], "False") --Mind Amplification Dish
 
 LBIS:AddGem(spec, "61117", LBIS.L["Shoulder"], "True") --Master's Inscription of the Axe
 LBIS:AddGem(spec, "44871", LBIS.L["Shoulder"], "False") --Greater Inscription of the Axe

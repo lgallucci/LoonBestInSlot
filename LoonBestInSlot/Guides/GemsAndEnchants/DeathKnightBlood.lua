@@ -28,13 +28,13 @@ LBIS:AddGem(spec, "44875", LBIS.L["Head"], "False") --Arcanum of the Savage Glad
 
 LBIS:AddGem(spec, "44957", LBIS.L["Shoulder"], "False") --Greater Inscription of the Gladiator
 
-LBIS:AddGem(spec, "44471", LBIS.L["Back"], "False") --Formula: Enchant Cloak - Mighty Armor
-LBIS:AddGem(spec, "37347", LBIS.L["Back"], "False") --Formula: Enchant Cloak - Titanweave
+LBIS:AddGem(spec, "47672", LBIS.L["Back"], "False") --Formula: Enchant Cloak - Mighty Armor
+LBIS:AddGem(spec, "44591", LBIS.L["Back"], "False") --Formula: Enchant Cloak - Titanweave
 LBIS:AddGem(spec, "60663", LBIS.L["Back"], "True") --Enchant Cloak - Major Agility
 
 LBIS:AddGem(spec, "50963", LBIS.L["Chest"], "True") --Heavy Borean Armor Kit
-LBIS:AddGem(spec, "44489", LBIS.L["Chest"], "False") --Formula: Enchant Chest - Powerful Stats
-LBIS:AddGem(spec, "37336", LBIS.L["Chest"], "False") --Formula: Enchant Chest - Greater Defense
+LBIS:AddGem(spec, "60692", LBIS.L["Chest"], "False") --Formula: Enchant Chest - Powerful Stats
+LBIS:AddGem(spec, "47766", LBIS.L["Chest"], "False") --Formula: Enchant Chest - Greater Defense
 
 LBIS:AddGem(spec, "44944", LBIS.L["Wrist"], "False") --Formula: Enchant Bracer - Major Stamina
 LBIS:AddGem(spec, "27914", LBIS.L["Wrist"], "True") --Enchant Bracer - Fortitude
