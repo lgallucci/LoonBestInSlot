@@ -35,7 +35,11 @@ public partial class WowheadReader : Window
     private async void Import_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = string.Empty;
-        var phaseNumber = Int32.Parse(txtPhase.Text.Replace("Phase", ""));
+
+        var phaseNumber = 0;
+        if (txtPhase.Text.Contains("Phase"))
+            phaseNumber = Int32.Parse(txtPhase.Text.Replace("Phase", ""));
+
         var spec = cmbSpec.SelectedValue.ToString();
 
         var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == $"{spec}Phase{phaseNumber}");
@@ -43,15 +47,19 @@ public partial class WowheadReader : Window
         if (specMapping == null)
             specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == spec);
 
-        ConsoleOut.Text = await ImportClass(specMapping, phaseNumber) +
-            await ImportGemsAndEnchants(specMapping);
+        if (txtPhase.Text == "Gems")
+            ConsoleOut.Text = await ImportGemsAndEnchants(specMapping);
+        else
+            ConsoleOut.Text = await ImportClass(specMapping, phaseNumber);
     }
 
     private async void ImportAll_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = string.Empty;
 
-        var phaseNumber = Int32.Parse(txtPhase.Text.Replace("Phase", ""));
+        var phaseNumber = 0;
+        if (txtPhase.Text.Contains("Phase"))
+            phaseNumber = Int32.Parse(txtPhase.Text.Replace("Phase", ""));
 
         foreach (string spec in SpecList)
         {
@@ -60,7 +68,12 @@ public partial class WowheadReader : Window
             if (specMapping == null)
                 specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == spec);
 
-            var result = await ImportClass(specMapping, phaseNumber) + await ImportGemsAndEnchants(specMapping);
+            string result = string.Empty;
+            if (txtPhase.Text == "Gems")
+                result = await ImportGemsAndEnchants(specMapping);
+            else
+                result = await ImportClass(specMapping, phaseNumber);
+            
             if (result.Contains("PARSE ERROR!"))
             {
                 ConsoleOut.Text += $"{spec} Failed!" + Environment.NewLine;
