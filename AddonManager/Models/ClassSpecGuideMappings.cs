@@ -33,6 +33,28 @@ public class ClassSpecGuideMappings
     {
         GuideMappings = new List<ClassGuideMapping>();
 
+        GuideMappings.Add(new ClassGuideMapping("DeathKnightBloodGemEnchants", "Blood", "Death Knight", new List<GuideMapping>
+        {
+            new GuideMapping("h3#meta-gems+.box", "Meta"),
+            new GuideMapping("h3#blue-gems+.box", "Gem"),
+            new GuideMapping("h3#purple-gems+.box", "Gem"),
+            new GuideMapping("h3#purple-gems+.box~.box", "Gem"),
+            new GuideMapping("h3#purple-gems+.box~.box~.box", "Gem"),
+            new GuideMapping("h3#green-gems+.box", "Gem"),
+            new GuideMapping("h3#green-gems+.box~.box", "Gem"),
+            new GuideMapping("h3#helm-enchants+.box", "Head"),
+            new GuideMapping("h3#shoulder-enchants+.box", "Shoulder"),
+            new GuideMapping("h3#cloak-enchants+.box", "Back"),
+            new GuideMapping("h3#chest-enchants+.box", "Chest"),
+            new GuideMapping("h3#bracer-enchants+.box", "Wrist"),
+            new GuideMapping("h3#glove-enchants+.box", "Hands"),
+            new GuideMapping("h3#leg-enchants+.box", "Legs"),
+            new GuideMapping("h3#boot-enchants+.box", "Feet"),
+            new GuideMapping("h3#runewords+.box", "Two Hand"),
+            new GuideMapping("h3#runewords+.box", "Main Hand"),
+            new GuideMapping("h3#runewords+.box~.box", "Main Hand"),
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("DeathKnightBloodPhase0", "Blood", "Death Knight", new List<GuideMapping>
         {           
             new GuideMapping("#head-for-blood-death-knight-tank-pre-raid", "Head"),

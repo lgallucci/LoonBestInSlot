@@ -83,9 +83,9 @@ public partial class WowheadReader : Window
             var gemSources = new ItemSourceFileManager().ReadGemSources();
             var enchantSources = new ItemSourceFileManager().ReadEnchantSources();
 
-            var gems = await new WowheadGuideParser().ParseGemWowheadGuide(classGuide);
+            var gemsEnchants = await new WowheadGuideParser().ParseGemEnchantsWowheadGuide(classGuide);
 
-            foreach (var gem in gems)
+            foreach (var gem in gemsEnchants.Item1)
             {
                 if (!gemSources.ContainsKey(gem.Value.GemId) && gem.Value.GemId > 0)
                 {
@@ -101,9 +101,7 @@ public partial class WowheadReader : Window
                 sb.AppendLine($"{gem.Value.GemId}: {gem.Value.Name} - {gem.Value.IsMeta}");
             }
 
-            var enchants = await new WowheadGuideParser().ParseEnchantsWowheadGuide(classGuide);
-
-            foreach (var enchant in enchants)
+            foreach (var enchant in gemsEnchants.Item2)
             {
                 if (!enchantSources.ContainsKey(enchant.Value.EnchantId) && enchant.Value.EnchantId > 0)
                 {

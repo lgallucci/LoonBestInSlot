@@ -48,6 +48,10 @@ local function createItemRow(f, specGem, specGemSource)
         
         LBIS:GetItemInfo(specGem.DesignId, function(designItem)
 
+            if designItem.Name == nil then
+                return;
+            end
+
             b2 = CreateFrame("Button", nil, f);
             b2:SetSize(32, 32);
             local bt2 = b2:CreateTexture();

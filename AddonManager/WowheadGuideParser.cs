@@ -194,69 +194,10 @@ public class WowheadGuideParser
         }
     }
 
-    internal async Task<Dictionary<int, GemSpec>> ParseGemWowheadGuide(ClassGuideMapping classGuide)
+    internal async Task<(Dictionary<string, GemSpec>, Dictionary<string, EnchantSpec>)> ParseGemEnchantsWowheadGuide(ClassGuideMapping classGuide)
     {
-        var headings = new List<string> { "#meta-gems", "#blue-gems", "#purple-gems", "#green-gems" };
 
-        var gems = new Dictionary<int, GemSpec>();
-        var doc = default(IHtmlDocument);
-        using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{classGuide.ClassName.Replace(" ", "")}{classGuide.SpecName}GemsEnchants.html"))
-        {
-            var parser = new HtmlParser();
-            doc = await parser.ParseDocumentAsync(stream.BaseStream);
-
-            foreach (var heading in headings)
-            {
-                var headerElement = doc.QuerySelector(heading);
-                if (headerElement != null)
-                {
-                    var gemBox = headerElement.NextElementSibling;
-                    while (!(gemBox is IHtmlHeadingElement))
-                    {
-                        if (((IElement)gemBox).ClassName == "box")
-                        {
-                            foreach (var gemItem in gemBox.FirstElementChild?.Children)
-                            {
-                                if (gemItem is IHtmlAnchorElement)
-                                {
-                                    if (((IHtmlAnchorElement)gemItem).PathName.Contains("/item=") || ((IHtmlAnchorElement)gemItem).PathName.Contains("/spell="))
-                                    {
-                                        var item = ((IHtmlAnchorElement)gemItem).PathName.Replace("/wotlk", "").Replace("/item=", "").Replace("/spell=", "");
-
-                                        var itemIdIndex = item.IndexOf("/");
-                                        if (itemIdIndex == -1)
-                                            itemIdIndex = item.IndexOf("&");
-
-                                        item = item.Substring(0, itemIdIndex);
-                                        var itemName = gemItem.TextContent.Trim();
-                                        var gemId = Int32.Parse(item);
-                                        gems.Add(gemId, new GemSpec
-                                        {
-                                            GemId = gemId,
-                                            Name = itemName ?? "undefined",
-                                            IsMeta = heading == "#meta-gems",
-                                        });
-                                    }
-                                }
-                            }
-                        }
-                        gemBox = gemBox.NextElementSibling;
-                    }
-                }
-                else
-                {
-                    throw new Exception($"Failed to find {heading}");
-                }
-            }
-            return gems;
-        }
-    }
-
-    internal async Task<Dictionary<string, EnchantSpec>> ParseEnchantsWowheadGuide(ClassGuideMapping classGuide)
-    {
-        var headings = new List<( string, string )> { ("#helm-enchants", "Head"), ("#shoulder-enchants", "Shoulder"), ("#cloak-enchants", "Back"), ("#chest-enchants", "Chest"), 
-            ("#bracer-enchants", "Wrist"), ("#glove-enchants", "Hands"), ("#leg-enchants", "Legs"), ("#boot-enchants", "Feet"), ("#runewords", "Two Hand") };
-
+        var gems = new Dictionary<string, GemSpec>();
         var enchants = new Dictionary<string, EnchantSpec>();
         var doc = default(IHtmlDocument);
         using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{classGuide.ClassName.Replace(" ", "")}{classGuide.SpecName}GemsEnchants.html"))
@@ -264,57 +205,58 @@ public class WowheadGuideParser
             var parser = new HtmlParser();
             doc = await parser.ParseDocumentAsync(stream.BaseStream);
 
-            foreach (var heading in headings)
+            foreach (var heading in classGuide.GuideMappings)
             {
-                var headerElement = doc.QuerySelector(heading.Item1);
+                var headerElement = doc.QuerySelector(heading.SlotHtmlId);
                 if (headerElement != null)
                 {
-                    var slot = heading.Item2;
-                    var enchantBox = headerElement.NextElementSibling;
-                    while (!(enchantBox is IHtmlHeadingElement))
+                    foreach (var enchantItem in headerElement.FirstElementChild?.Children)
                     {
-                        if (((IElement)enchantBox).ClassName == "box")
+                        if (enchantItem is IHtmlAnchorElement)
                         {
-                            foreach (var enchantItem in enchantBox.FirstElementChild?.Children)
+                            bool isSpell = false;
+                            if (((IHtmlAnchorElement)enchantItem).PathName.Contains("/item="))
                             {
-                                if (enchantItem is IHtmlAnchorElement)
+                                isSpell = false;
+                            }
+                            else if (((IHtmlAnchorElement)enchantItem).PathName.Contains("/spell="))
+                            {
+                                isSpell = true;
+                            }
+                            else
+                            {
+                                continue;
+                            }
+
+                            var item = ((IHtmlAnchorElement)enchantItem).PathName.Replace("/wotlk", "").Replace("/item=", "").Replace("/spell=", "");
+                            var itemIdIndex = item.IndexOf("/");
+                            if (itemIdIndex == -1)
+                                itemIdIndex = item.IndexOf("&");
+
+                            item = item.Substring(0, itemIdIndex);
+                            var itemName = enchantItem.TextContent.Trim();
+                            var itemId = Int32.Parse(item);
+
+                            if (heading.Slot == "Meta" || heading.Slot == "Gem")
+                            {
+                                gems.Add(itemId.ToString(), new GemSpec
                                 {
-                                    bool isSpell = false;
-                                    if (((IHtmlAnchorElement)enchantItem).PathName.Contains("/item="))
-                                    {
-                                        isSpell = false;
-                                    }
-                                    else if (((IHtmlAnchorElement)enchantItem).PathName.Contains("/spell="))
-                                    {
-                                        isSpell = true;
-                                    }
-                                    else
-                                    {
-                                        continue;
-                                    }
-
-                                    var item = ((IHtmlAnchorElement)enchantItem).PathName.Replace("/wotlk", "").Replace("/item=", "").Replace("/spell=", "");
-
-                                    var itemIdIndex = item.IndexOf("/");
-                                    if (itemIdIndex == -1)
-                                        itemIdIndex = item.IndexOf("&");
-
-                                    item = item.Substring(0, itemIdIndex);
-                                    var itemName = enchantItem.TextContent.Trim();
-                                    var enchantId = Int32.Parse(item);
-                                    enchants.Add(enchantId+slot, new EnchantSpec
-                                    {
-                                        EnchantId = enchantId,
-                                        Name = itemName ?? "undefined",
-                                        Slot = slot,
-                                        IsSpell = isSpell,
-                                    });
-                                }
+                                    GemId = itemId,
+                                    Name = itemName ?? "undefined",
+                                    IsMeta = heading.Slot == "Meta"
+                                });
+                            }
+                            else
+                            {
+                                enchants.Add(itemId + heading.Slot, new EnchantSpec
+                                {
+                                    EnchantId = itemId,
+                                    Name = itemName ?? "undefined",
+                                    Slot = heading.Slot,
+                                    IsSpell = isSpell,
+                                });
                             }
                         }
-                        enchantBox = enchantBox.NextElementSibling;
-                        if (slot == "Two Hand")
-                            slot = "Main Hand";
                     }
                 }
                 else
@@ -323,6 +265,6 @@ public class WowheadGuideParser
                 }
             }
         }
-        return enchants;
+        return (gems, enchants);
     }
 }
