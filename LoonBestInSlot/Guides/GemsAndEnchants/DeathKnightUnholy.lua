@@ -13,7 +13,6 @@ LBIS:AddGem(spec, "49110", "False") --Nightmare Tear
 LBIS:AddGem(spec, "42702", "False") --Enchanted Tear
 
 
-
 LBIS:AddGem(spec, "44879", LBIS.L["Head"], "False") --Arcanum of Torment
 
 LBIS:AddGem(spec, "44871", LBIS.L["Shoulder"], "False") --Greater Inscription of the Axe

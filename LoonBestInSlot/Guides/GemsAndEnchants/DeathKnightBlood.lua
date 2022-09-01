@@ -23,7 +23,6 @@ LBIS:AddGem(spec, "40088", "False") --Vivid Forest Emerald
 LBIS:AddGem(spec, "41481", "False") --Perfect Vivid Dark Jade
 
 
-
 LBIS:AddGem(spec, "44878", LBIS.L["Head"], "False") --Arcanum of the Stalwart Protector
 LBIS:AddGem(spec, "44875", LBIS.L["Head"], "False") --Arcanum of the Savage Gladiator
 
