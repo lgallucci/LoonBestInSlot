@@ -168,7 +168,7 @@ public class ItemSourceFileManager
                     $"SourceLocation = {sourceLocation} }},");
         }
         itemSourceSB.AppendLine("}");
-        System.IO.File.WriteAllText(Constants.AddonPath + "ItemSources.lua", itemSourceSB.ToString());
+        System.IO.File.WriteAllText(Constants.AddonPath + "GemSources.lua", itemSourceSB.ToString());
     }
 
     public void WriteEnchantSources(SortedDictionary<int, EnchantSource> sources)
@@ -197,6 +197,6 @@ public class ItemSourceFileManager
                     $"IsSpell = \"{source.Value.IsSpell.ToString()}\" }},");
         }
         itemSourceSB.AppendLine("}");
-        System.IO.File.WriteAllText(Constants.AddonPath + "ItemSources.lua", itemSourceSB.ToString());
+        System.IO.File.WriteAllText(Constants.AddonPath + "EnchantSources.lua", itemSourceSB.ToString());
     }
 }

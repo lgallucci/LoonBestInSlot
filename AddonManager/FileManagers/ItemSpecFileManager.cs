@@ -67,8 +67,9 @@ public class ItemSpecFileManager
         var previousSlot = "LBIS.L[\"Head\"]";
         foreach (var gem in gems)
         {
-            GAndESB.AppendLine($"LBIS:AddGem(spec, \"{gem.Value.GemId}\", \"{gem.Value.DesignId}\", \"{gem.Value.IsMeta.ToString()}\") --{gem.Value.Name}");
+            GAndESB.AppendLine($"LBIS:AddGem(spec, \"{gem.Value.GemId}\", \"{gem.Value.IsMeta.ToString()}\") --{gem.Value.Name}");
         }
+        GAndESB.AppendLine();
         GAndESB.AppendLine();
 
         foreach (var enchant in enchants)
@@ -79,7 +80,7 @@ public class ItemSpecFileManager
                 GAndESB.AppendLine();
             }
 
-            GAndESB.AppendLine($"LBIS:AddGem(spec, \"{enchant.Value.EnchantId}\", \"LBIS.L[{enchant.Value.Slot}]\", \"{enchant.Value.IsSpell.ToString()}\") --{enchant.Value.Name}");
+            GAndESB.AppendLine($"LBIS:AddGem(spec, \"{enchant.Value.EnchantId}\", LBIS.L[\"{enchant.Value.Slot}\"], \"{enchant.Value.IsSpell.ToString()}\") --{enchant.Value.Name}");
         }
         GAndESB.AppendLine();
 

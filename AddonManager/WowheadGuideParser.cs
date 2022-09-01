@@ -200,7 +200,7 @@ public class WowheadGuideParser
 
         var gems = new Dictionary<int, GemSpec>();
         var doc = default(IHtmlDocument);
-        using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{classGuide.ClassName}{classGuide.SpecName}GemsEnchants.html"))
+        using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{classGuide.ClassName.Replace(" ", "")}{classGuide.SpecName}GemsEnchants.html"))
         {
             var parser = new HtmlParser();
             doc = await parser.ParseDocumentAsync(stream.BaseStream);
@@ -234,7 +234,6 @@ public class WowheadGuideParser
                                         {
                                             GemId = gemId,
                                             Name = itemName ?? "undefined",
-                                            DesignId = -9999,
                                             IsMeta = heading == "#meta-gems",
                                         });
                                     }
@@ -260,7 +259,7 @@ public class WowheadGuideParser
 
         var enchants = new Dictionary<string, EnchantSpec>();
         var doc = default(IHtmlDocument);
-        using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{classGuide.ClassName}{classGuide.SpecName}GemsEnchants.html"))
+        using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{classGuide.ClassName.Replace(" ", "")}{classGuide.SpecName}GemsEnchants.html"))
         {
             var parser = new HtmlParser();
             doc = await parser.ParseDocumentAsync(stream.BaseStream);
@@ -270,6 +269,7 @@ public class WowheadGuideParser
                 var headerElement = doc.QuerySelector(heading.Item1);
                 if (headerElement != null)
                 {
+                    var slot = heading.Item2;
                     var enchantBox = headerElement.NextElementSibling;
                     while (!(enchantBox is IHtmlHeadingElement))
                     {
@@ -302,17 +302,19 @@ public class WowheadGuideParser
                                     item = item.Substring(0, itemIdIndex);
                                     var itemName = enchantItem.TextContent.Trim();
                                     var enchantId = Int32.Parse(item);
-                                    enchants.Add(enchantId+heading.Item2, new EnchantSpec
+                                    enchants.Add(enchantId+slot, new EnchantSpec
                                     {
                                         EnchantId = enchantId,
                                         Name = itemName ?? "undefined",
-                                        Slot = heading.Item2,
+                                        Slot = slot,
                                         IsSpell = isSpell,
                                     });
                                 }
                             }
                         }
                         enchantBox = enchantBox.NextElementSibling;
+                        if (slot == "Two Hand")
+                            slot = "Main Hand";
                     }
                 }
                 else

@@ -79,7 +79,7 @@ public partial class WowheadReader : Window
         var sb = new StringBuilder();
         try
         {
-            var className = $"{classGuide.ClassName}{classGuide.SpecName}";
+            var className = $"{classGuide.ClassName.Replace(" ", "")}{classGuide.SpecName}";
             var gemSources = new ItemSourceFileManager().ReadGemSources();
             var enchantSources = new ItemSourceFileManager().ReadEnchantSources();
 
@@ -93,13 +93,12 @@ public partial class WowheadReader : Window
                     {
                         GemId = gem.Value.GemId,
                         Name = gem.Value.Name,
-                        DesignId = gem.Value.DesignId,
                         Source = "undefined",
                         SourceLocation = "undefined"
                     });
                 }
 
-                sb.AppendLine($"{gem.Value.GemId}: {gem.Value.Name} - {gem.Value.DesignId} - {gem.Value.IsMeta}");
+                sb.AppendLine($"{gem.Value.GemId}: {gem.Value.Name} - {gem.Value.IsMeta}");
             }
 
             var enchants = await new WowheadGuideParser().ParseEnchantsWowheadGuide(classGuide);
@@ -140,7 +139,7 @@ public partial class WowheadReader : Window
         {
             var itemSources = new ItemSourceFileManager().ReadItemSources();
 
-            var className = $"{classGuide.ClassName}{classGuide.SpecName}";
+            var className = $"{classGuide.ClassName.Replace(" ", "")}{classGuide.SpecName}";
 
             if (classGuide != null)
             {

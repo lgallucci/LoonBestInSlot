@@ -210,7 +210,6 @@ public class GemSpec
 {
     public int GemId { get; set; }
     public string Name { get; set; } = string.Empty;
-    public int DesignId { get; set; }
     public bool IsMeta { get; set; }
 }
 
