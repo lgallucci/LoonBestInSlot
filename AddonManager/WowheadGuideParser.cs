@@ -44,7 +44,7 @@ public class WowheadGuideParser
         var items = new Dictionary<int, ItemSpec>();
 
         var doc = default(IHtmlDocument);
-        using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{spec}{phase}.html"))
+        using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{spec.Replace(" ", "")}{phase}.html"))
         {
             var parser = new HtmlParser();
             doc = await parser.ParseDocumentAsync(stream.BaseStream);
@@ -199,7 +199,7 @@ public class WowheadGuideParser
         var gems = new Dictionary<int, GemSpec>();
         var enchants = new Dictionary<string, EnchantSpec>();
         var doc = default(IHtmlDocument);
-        using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{classGuide.ClassName.Replace(" ", "")}{classGuide.SpecName}GemsEnchants.html"))
+        using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{classGuide.ClassName.Replace(" ", "")}{classGuide.SpecName.Replace(" ", "")}GemsEnchants.html"))
         {
             var parser = new HtmlParser();
             doc = await parser.ParseDocumentAsync(stream.BaseStream);

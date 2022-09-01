@@ -213,7 +213,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#sigils-for-unholy-death-knight-dps-pre-raid", "Relic"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DruidBalanceGemEnchants", "Balance", "Death Knight", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("DruidBalanceGemEnchants", "Balance", "Druid", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
