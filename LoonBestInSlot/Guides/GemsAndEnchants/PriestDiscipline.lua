@@ -31,7 +31,7 @@ LBIS:AddGem(spec, "54999", LBIS.L["Hands"], "True") --Hyperspeed Accelerators
 LBIS:AddGem(spec, "41604", LBIS.L["Legs"], "False") --Sapphire Spellthread
 LBIS:AddGem(spec, "41602", LBIS.L["Legs"], "False") --Brilliant Spellthread
 
-LBIS:AddGem(spec, "41118", LBIS.L["Feet"], "False") --Nitro Boosts
+LBIS:AddGem(spec, "54861", LBIS.L["Feet"], "False") --Nitro Boosts
 
 LBIS:AddGem(spec, "60714", LBIS.L["Two Hand"], "True") --Enchant Weapon - Mighty Spellpower
 LBIS:AddGem(spec, "62948", LBIS.L["Two Hand"], "True") --Enchant Staff - Greater Spellpower

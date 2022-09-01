@@ -36,7 +36,7 @@ LBIS:AddGem(spec, "38373", LBIS.L["Legs"], "False") --Frosthide Leg Armor
 LBIS:AddGem(spec, "38371", LBIS.L["Legs"], "False") --Jormungar Leg Armor
 
 LBIS:AddGem(spec, "47901", LBIS.L["Feet"], "True") --Enchant Boots - Tuskarr's Vitality
-LBIS:AddGem(spec, "41118", LBIS.L["Feet"], "False") --Nitro Boosts
+LBIS:AddGem(spec, "54861", LBIS.L["Feet"], "False") --Nitro Boosts
 
 LBIS:AddGem(spec, "59636", LBIS.L["Ring"], "True") --Enchant Ring - Stamina
 

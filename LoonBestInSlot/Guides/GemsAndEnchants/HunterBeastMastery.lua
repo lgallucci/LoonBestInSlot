@@ -32,7 +32,7 @@ LBIS:AddGem(spec, "44488", LBIS.L["Hands"], "True") --Enchant Gloves - Precision
 LBIS:AddGem(spec, "38374", LBIS.L["Legs"], "False") --Icescale Leg Armor
 LBIS:AddGem(spec, "38372", LBIS.L["Legs"], "False") --Nerubian Leg Armor
 
-LBIS:AddGem(spec, "41118", LBIS.L["Feet"], "False") --Nitro Boosts
+LBIS:AddGem(spec, "54861", LBIS.L["Feet"], "False") --Nitro Boosts
 LBIS:AddGem(spec, "44589", LBIS.L["Feet"], "True") --Enchant Boots - Superior Agility
 LBIS:AddGem(spec, "60623", LBIS.L["Feet"], "True") --Enchant Boots - Icewalker
 
