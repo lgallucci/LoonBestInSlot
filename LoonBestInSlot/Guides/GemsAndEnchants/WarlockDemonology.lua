@@ -21,7 +21,7 @@ LBIS:AddEnchant(spec, "63765", LBIS.L["Back"], "True") --Springy Arachnoweave
 LBIS:AddEnchant(spec, "47898", LBIS.L["Back"], "False") --Scroll of Enchant Cloak - Greater Speed
 
 LBIS:AddEnchant(spec, "33990", LBIS.L["Chest"], "False") --Scroll of Enchant Chest - Major Spirit
-LBIS:AddEnchant(spec, "44465", LBIS.L["Chest"], "False") --Scroll of Enchant Chest - Powerful Stats
+LBIS:AddEnchant(spec, "60692", LBIS.L["Chest"], "False") --Scroll of Enchant Chest - Powerful Stats
 
 LBIS:AddEnchant(spec, "57691", LBIS.L["Wrist"], "True") --Fur Lining - Spell Power
 LBIS:AddEnchant(spec, "60767", LBIS.L["Wrist"], "False") --Scroll of Enchant Bracer - Superior Spellpower

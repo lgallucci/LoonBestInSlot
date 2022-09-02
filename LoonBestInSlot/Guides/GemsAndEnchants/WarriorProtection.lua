@@ -28,7 +28,7 @@ LBIS:AddEnchant(spec, "47766", LBIS.L["Chest"], "True") --Enchant Chest - Greate
 LBIS:AddEnchant(spec, "62256", LBIS.L["Wrist"], "True") --Enchant Bracers - Major Stamina
 
 LBIS:AddEnchant(spec, "63770", LBIS.L["Hands"], "True") --Reticulated Armor Webbing
-LBIS:AddEnchant(spec, "34207", LBIS.L["Hands"], "False") --Glove Reinforcements
+LBIS:AddEnchant(spec, "44770", LBIS.L["Hands"], "False") --Glove Reinforcements
 LBIS:AddEnchant(spec, "50963", LBIS.L["Hands"], "False") --Heavy Borean Armor Kit
 LBIS:AddEnchant(spec, "44625", LBIS.L["Hands"], "True") --Enchant Gloves - Armsman
 

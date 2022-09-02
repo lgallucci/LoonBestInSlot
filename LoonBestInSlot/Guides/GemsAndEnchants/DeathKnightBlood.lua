@@ -34,14 +34,14 @@ LBIS:AddEnchant(spec, "60663", LBIS.L["Back"], "True") --Enchant Cloak - Major A
 
 LBIS:AddEnchant(spec, "50963", LBIS.L["Chest"], "True") --Heavy Borean Armor Kit
 LBIS:AddEnchant(spec, "60692", LBIS.L["Chest"], "False") --Formula: Enchant Chest - Powerful Stats
-LBIS:AddEnchant(spec, "37336", LBIS.L["Chest"], "False") --Formula: Enchant Chest - Greater Defense
+LBIS:AddEnchant(spec, "47766", LBIS.L["Chest"], "False") --Formula: Enchant Chest - Greater Defense
 
 LBIS:AddEnchant(spec, "62256", LBIS.L["Wrist"], "False") --Formula: Enchant Bracer - Major Stamina
 LBIS:AddEnchant(spec, "27914", LBIS.L["Wrist"], "True") --Enchant Bracer - Fortitude
-LBIS:AddEnchant(spec, "22530", LBIS.L["Wrist"], "False") --Formula: Enchant Bracer - Major Defense
+LBIS:AddEnchant(spec, "27906", LBIS.L["Wrist"], "False") --Formula: Enchant Bracer - Major Defense
 
 LBIS:AddEnchant(spec, "50963", LBIS.L["Hands"], "True") --Heavy Borean Armor Kit
-LBIS:AddEnchant(spec, "34207", LBIS.L["Hands"], "False") --Glove Reinforcements
+LBIS:AddEnchant(spec, "44770", LBIS.L["Hands"], "False") --Glove Reinforcements
 LBIS:AddEnchant(spec, "33994", LBIS.L["Hands"], "True") --Enchant Gloves - Precise Strikes
 LBIS:AddEnchant(spec, "44484", LBIS.L["Hands"], "True") --Enchant Gloves - Expertise
 LBIS:AddEnchant(spec, "44529", LBIS.L["Hands"], "True") --Enchant Gloves - Major Agility

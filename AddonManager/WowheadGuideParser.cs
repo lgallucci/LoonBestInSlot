@@ -19,6 +19,10 @@ public class WowheadGuideParser
 
     private Dictionary<int, int> _enchantSwaps = new Dictionary<int, int>()
     {
+        { 22530, 27906 }, //Enchant Bracer - Major Defense
+        { 34207, 44770 }, //Glove Reinforcements
+        { 37336, 47766 }, //Enchant Chest - Greater Defense
+        { 44465, 60692 }, //Enchant Chest - Powerful Stats
         { 37347, 44591 }, //Enchant Cloak - Titanweave
         { 38371, 50964 }, //Jormungar Leg Armor
         { 38372, 50966 }, //Nerubian Leg Armor
