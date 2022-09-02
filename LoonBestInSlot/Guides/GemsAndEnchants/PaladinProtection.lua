@@ -25,13 +25,13 @@ LBIS:AddGem(spec, "61119", LBIS.L["Shoulder"], "True") --Master's Inscription of
 LBIS:AddGem(spec, "50337", LBIS.L["Shoulder"], "False") --Greater Inscription of the Pinnacle
 LBIS:AddGem(spec, "50335", LBIS.L["Shoulder"], "False") --Greater Inscription of the Axe
 
-LBIS:AddGem(spec, "41111", LBIS.L["Back"], "False") --Flexweave Underlay
+LBIS:AddGem(spec, "55002", LBIS.L["Back"], "False") --Flexweave Underlay
 LBIS:AddGem(spec, "60663", LBIS.L["Back"], "True") --Enchant Cloak - Major Agility
 LBIS:AddGem(spec, "47672", LBIS.L["Back"], "True") --Enchant Cloak - Mighty Armor
 LBIS:AddGem(spec, "44591", LBIS.L["Back"], "True") --Enchant Cloak - Titanweave
 
 LBIS:AddGem(spec, "47900", LBIS.L["Chest"], "True") --Enchant Chest - Super Health
-LBIS:AddGem(spec, "38376", LBIS.L["Chest"], "False") --Heavy Borean Armor Kit
+LBIS:AddGem(spec, "50963", LBIS.L["Chest"], "False") --Heavy Borean Armor Kit
 LBIS:AddGem(spec, "60692", LBIS.L["Chest"], "True") --Enchant Chest - Powerful Stats
 LBIS:AddGem(spec, "47766", LBIS.L["Chest"], "True") --Enchant Chest - Greater Defense
 
@@ -44,12 +44,12 @@ LBIS:AddGem(spec, "44625", LBIS.L["Hands"], "True") --Enchant Gloves - Armsman
 LBIS:AddGem(spec, "44488", LBIS.L["Hands"], "True") --Enchant Gloves - Precision
 LBIS:AddGem(spec, "44484", LBIS.L["Hands"], "True") --Enchant Gloves - Expertise
 
-LBIS:AddGem(spec, "38373", LBIS.L["Legs"], "False") --Frosthide Leg Armor
+LBIS:AddGem(spec, "50965", LBIS.L["Legs"], "False") --Frosthide Leg Armor
 LBIS:AddGem(spec, "60583", LBIS.L["Legs"], "True") --Jormungar Leg Reinforcements
-LBIS:AddGem(spec, "38371", LBIS.L["Legs"], "False") --Jormungar Leg Armor
+LBIS:AddGem(spec, "50964", LBIS.L["Legs"], "False") --Jormungar Leg Armor
 
 LBIS:AddGem(spec, "44528", LBIS.L["Feet"], "True") --Enchant Boots - Greater Fortitude
-LBIS:AddGem(spec, "38376", LBIS.L["Feet"], "False") --Heavy Borean Armor Kit
+LBIS:AddGem(spec, "50963", LBIS.L["Feet"], "False") --Heavy Borean Armor Kit
 LBIS:AddGem(spec, "47901", LBIS.L["Feet"], "True") --Enchant Boots - Tuskarr's Vitality
 LBIS:AddGem(spec, "44589", LBIS.L["Feet"], "True") --Enchant Boots - Superior Agility
 

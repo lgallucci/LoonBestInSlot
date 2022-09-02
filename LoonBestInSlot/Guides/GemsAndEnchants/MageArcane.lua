@@ -29,9 +29,9 @@ LBIS:AddGem(spec, "44592", LBIS.L["Hands"], "True") --Enchant Gloves - Exception
 
 LBIS:AddGem(spec, "56039", LBIS.L["Legs"], "True") --Sanctified Spellthread
 LBIS:AddGem(spec, "41602", LBIS.L["Legs"], "False") --Brilliant Spellthread
-LBIS:AddGem(spec, "44963", LBIS.L["Legs"], "False") --Earthen Leg Armor
+LBIS:AddGem(spec, "62448", LBIS.L["Legs"], "False") --Earthen Leg Armor
 
-LBIS:AddGem(spec, "54861", LBIS.L["Feet"], "False") --Nitro Boosts
+LBIS:AddGem(spec, "55016", LBIS.L["Feet"], "False") --Nitro Boosts
 LBIS:AddGem(spec, "60623", LBIS.L["Feet"], "True") --Enchant Boots - Icewalker
 LBIS:AddGem(spec, "47901", LBIS.L["Feet"], "True") --Enchant Boots - Tuskarr's Vitality
 

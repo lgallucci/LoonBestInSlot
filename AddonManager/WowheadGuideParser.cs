@@ -1,9 +1,5 @@
 ﻿using System.IO;
-using System.Linq;
 using System.Net.Http;
-using System.Net.NetworkInformation;
-using System.Windows;
-using System.Xml.Linq;
 using AddonManager.Models;
 using AngleSharp;
 using AngleSharp.Dom;
@@ -20,6 +16,36 @@ public class WowheadGuideParser
     private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of the Tiger", "of Agility" };
 
     private Random _rand = new Random(DateTime.Now.Millisecond);
+
+    private Dictionary<int, int> _enchantSwaps = new Dictionary<int, int>()
+    {
+        { 37347, 44591 }, //Enchant Cloak - Titanweave
+        { 38371, 50964 }, //Jormungar Leg Armor
+        { 38372, 50966 }, //Nerubian Leg Armor
+        { 38373, 50965 }, //Frosthide Leg Armor
+        { 38374, 50967 }, //Icescale Leg Armor
+        { 38376, 50963 }, //Heavy Borean Armor Kit
+        { 38928, 33990 }, //Enchant Chest - Major Spirit
+        { 39003, 47898 }, //Enchant Cloak - Greater Speed
+        { 39006, 47901 }, //Enchant Boots - Tuskarr's Vitality
+        { 41093, 54999 }, //Hyperspeed Accelerators
+        { 41111, 55002 }, //Flexweave Underlay
+        { 41118, 55016 }, //Nitro Boosts
+        { 54861, 55016 }, //Nitro Boosts
+        { 43097, 57683 }, //Fur Lining - Attack Power
+        { 44467, 60714 }, //Enchant Weapon - Mighty Spellpower
+        { 44470, 60767 }, //Enchant Bracers - Superior Spellpower
+        { 44471, 47672 }, //Enchant Cloak - Mighty Armor
+        { 44489, 60692 }, //Enchant Chest - Powerful Stats
+        { 44944, 62256 }, //Enchant Bracers - Major Stamina
+        { 44963, 62448 }, //Earthen Leg Armor
+        { 45056, 62948 }  //Enchant Staff - Greater Spellpower}
+     };
+
+    private Dictionary<int, int> _gemSwaps = new Dictionary<int, int>()
+    {
+        { 55389, 41285 }, //Chaotic Skyflare Diamond
+    };
 
     class MyFormatter : IMarkupFormatter
     {
@@ -234,13 +260,16 @@ public class WowheadGuideParser
                             itemIdIndex = item.IndexOf("&");
 
                         if (itemIdIndex > -1)
-                        { 
+                        {
                             item = item.Substring(0, itemIdIndex);
                             var itemName = boxElement.TextContent.Trim();
                             var itemId = Int32.Parse(item);
 
                             if (heading.Slot == "Meta" || heading.Slot == "Gem")
                             {
+                                if (_gemSwaps.ContainsKey(itemId))
+                                    itemId = _gemSwaps[itemId];
+
                                 if (!gems.ContainsKey(itemId))
                                     gems.Add(itemId, new GemSpec
                                     {
@@ -251,6 +280,9 @@ public class WowheadGuideParser
                             }
                             else
                             {
+                                if (_enchantSwaps.ContainsKey(itemId))
+                                    itemId = _enchantSwaps[itemId];
+
                                 enchants.Add(itemId + heading.Slot, new EnchantSpec
                                 {
                                     EnchantId = itemId,

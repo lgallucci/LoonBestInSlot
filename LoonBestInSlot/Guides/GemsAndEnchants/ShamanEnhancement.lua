@@ -34,8 +34,8 @@ LBIS:AddGem(spec, "60668", LBIS.L["Hands"], "True") --Enchant Gloves - Crusher
 LBIS:AddGem(spec, "41611", LBIS.L["Waist"], "False") --Eternal Belt Buckle
 LBIS:AddGem(spec, "54793", LBIS.L["Waist"], "True") --Frag Belt
 
-LBIS:AddGem(spec, "38374", LBIS.L["Legs"], "False") --Icescale Leg Armor
-LBIS:AddGem(spec, "38372", LBIS.L["Legs"], "False") --Nerubian Leg Armor
+LBIS:AddGem(spec, "50967", LBIS.L["Legs"], "False") --Icescale Leg Armor
+LBIS:AddGem(spec, "50966", LBIS.L["Legs"], "False") --Nerubian Leg Armor
 
 LBIS:AddGem(spec, "55016", LBIS.L["Feet"], "True") --Nitro Boosts
 LBIS:AddGem(spec, "60623", LBIS.L["Feet"], "True") --Enchant Boots - Icewalker

@@ -34,9 +34,9 @@ LBIS:AddGem(spec, "60663", LBIS.L["Back"], "True") --Enchant Cloak - Major Agili
 
 LBIS:AddGem(spec, "50963", LBIS.L["Chest"], "True") --Heavy Borean Armor Kit
 LBIS:AddGem(spec, "60692", LBIS.L["Chest"], "False") --Formula: Enchant Chest - Powerful Stats
-LBIS:AddGem(spec, "47766", LBIS.L["Chest"], "False") --Formula: Enchant Chest - Greater Defense
+LBIS:AddGem(spec, "37336", LBIS.L["Chest"], "False") --Formula: Enchant Chest - Greater Defense
 
-LBIS:AddGem(spec, "44944", LBIS.L["Wrist"], "False") --Formula: Enchant Bracer - Major Stamina
+LBIS:AddGem(spec, "62256", LBIS.L["Wrist"], "False") --Formula: Enchant Bracer - Major Stamina
 LBIS:AddGem(spec, "27914", LBIS.L["Wrist"], "True") --Enchant Bracer - Fortitude
 LBIS:AddGem(spec, "22530", LBIS.L["Wrist"], "False") --Formula: Enchant Bracer - Major Defense
 
@@ -46,7 +46,7 @@ LBIS:AddGem(spec, "33994", LBIS.L["Hands"], "True") --Enchant Gloves - Precise S
 LBIS:AddGem(spec, "44484", LBIS.L["Hands"], "True") --Enchant Gloves - Expertise
 LBIS:AddGem(spec, "44529", LBIS.L["Hands"], "True") --Enchant Gloves - Major Agility
 
-LBIS:AddGem(spec, "38373", LBIS.L["Legs"], "False") --Frosthide Leg Armor
+LBIS:AddGem(spec, "50965", LBIS.L["Legs"], "False") --Frosthide Leg Armor
 
 LBIS:AddGem(spec, "47901", LBIS.L["Feet"], "True") --Enchant Boots - Tuskarr's Vitality
 LBIS:AddGem(spec, "44528", LBIS.L["Feet"], "True") --Enchant Boots - Greater Fortitude
