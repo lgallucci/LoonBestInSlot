@@ -15,35 +15,35 @@ LBIS:AddGem(spec, "49110", "False") --Nightmare Tear
 LBIS:AddGem(spec, "42702", "False") --Enchanted Tear
 
 
-LBIS:AddGem(spec, "50367", LBIS.L["Head"], "False") --Arcanum of Torment
+LBIS:AddEnchant(spec, "50367", LBIS.L["Head"], "False") --Arcanum of Torment
 
-LBIS:AddGem(spec, "61117", LBIS.L["Shoulder"], "True") --Master's Inscription of the Axe
-LBIS:AddGem(spec, "50335", LBIS.L["Shoulder"], "False") --Greater Inscription of the Axe
+LBIS:AddEnchant(spec, "61117", LBIS.L["Shoulder"], "True") --Master's Inscription of the Axe
+LBIS:AddEnchant(spec, "50335", LBIS.L["Shoulder"], "False") --Greater Inscription of the Axe
 
-LBIS:AddGem(spec, "55777", LBIS.L["Back"], "True") --Swordguard Embroidery
-LBIS:AddGem(spec, "55002", LBIS.L["Back"], "True") --Flexweave Underlay
-LBIS:AddGem(spec, "60663", LBIS.L["Back"], "True") --Enchant Cloak - Major Agility
+LBIS:AddEnchant(spec, "55777", LBIS.L["Back"], "True") --Swordguard Embroidery
+LBIS:AddEnchant(spec, "55002", LBIS.L["Back"], "True") --Flexweave Underlay
+LBIS:AddEnchant(spec, "60663", LBIS.L["Back"], "True") --Enchant Cloak - Major Agility
 
-LBIS:AddGem(spec, "60692", LBIS.L["Chest"], "True") --Enchant Chest - Powerful Stats
+LBIS:AddEnchant(spec, "60692", LBIS.L["Chest"], "True") --Enchant Chest - Powerful Stats
 
-LBIS:AddGem(spec, "57683", LBIS.L["Wrist"], "True") --Fur Lining - Attack Power
-LBIS:AddGem(spec, "44575", LBIS.L["Wrist"], "True") --Enchant Bracers - Greater Assault
+LBIS:AddEnchant(spec, "57683", LBIS.L["Wrist"], "True") --Fur Lining - Attack Power
+LBIS:AddEnchant(spec, "44575", LBIS.L["Wrist"], "True") --Enchant Bracers - Greater Assault
 
-LBIS:AddGem(spec, "54999", LBIS.L["Hands"], "True") --Hyperspeed Accelerators
-LBIS:AddGem(spec, "60668", LBIS.L["Hands"], "True") --Enchant Gloves - Crusher
+LBIS:AddEnchant(spec, "54999", LBIS.L["Hands"], "True") --Hyperspeed Accelerators
+LBIS:AddEnchant(spec, "60668", LBIS.L["Hands"], "True") --Enchant Gloves - Crusher
 
-LBIS:AddGem(spec, "50967", LBIS.L["Legs"], "False") --Icescale Leg Armor
-LBIS:AddGem(spec, "50966", LBIS.L["Legs"], "False") --Nerubian Leg Armor
+LBIS:AddEnchant(spec, "50967", LBIS.L["Legs"], "False") --Icescale Leg Armor
+LBIS:AddEnchant(spec, "50966", LBIS.L["Legs"], "False") --Nerubian Leg Armor
 
-LBIS:AddGem(spec, "55016", LBIS.L["Feet"], "True") --Nitro Boosts
-LBIS:AddGem(spec, "60623", LBIS.L["Feet"], "True") --Enchant Boots - Icewalker
+LBIS:AddEnchant(spec, "55016", LBIS.L["Feet"], "True") --Nitro Boosts
+LBIS:AddEnchant(spec, "60623", LBIS.L["Feet"], "True") --Enchant Boots - Icewalker
 
-LBIS:AddGem(spec, "59621", LBIS.L["Main Hand"], "True") --Enchant Weapon - Berserking
-LBIS:AddGem(spec, "27984", LBIS.L["Main Hand"], "True") --Enchant Weapon - Mongoose
+LBIS:AddEnchant(spec, "59621", LBIS.L["Main Hand"], "True") --Enchant Weapon - Berserking
+LBIS:AddEnchant(spec, "27984", LBIS.L["Main Hand"], "True") --Enchant Weapon - Mongoose
 
-LBIS:AddGem(spec, "41167", LBIS.L["Ranged"], "False") --Heartseeker Scope
-LBIS:AddGem(spec, "41146", LBIS.L["Ranged"], "False") --Sun Scope
-LBIS:AddGem(spec, "44739", LBIS.L["Ranged"], "False") --Diamond-cut Refractor Scope
+LBIS:AddEnchant(spec, "41167", LBIS.L["Ranged"], "False") --Heartseeker Scope
+LBIS:AddEnchant(spec, "41146", LBIS.L["Ranged"], "False") --Sun Scope
+LBIS:AddEnchant(spec, "44739", LBIS.L["Ranged"], "False") --Diamond-cut Refractor Scope
 
-LBIS:AddGem(spec, "44645", LBIS.L["Ring"], "True") --Enchant Ring - Assault
+LBIS:AddEnchant(spec, "44645", LBIS.L["Ring"], "True") --Enchant Ring - Assault
 

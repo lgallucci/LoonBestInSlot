@@ -1,5 +1,6 @@
 LBIS.EnchantSources =
 {
+    [22530] = { Name = "Formula: Enchant Bracer - Major Defense", DesignId = "99999", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "False" },
     [25080] = { Name = "Enchant Gloves - Superior Agility", DesignId = "99999", Source = LBIS.L["Alurmi"], SourceLocation = LBIS.L["Keepers of Time (Exalted)"], IsSpell = "True" },
     [27906] = { Name = "Enchant Bracer - Major Defense", DesignId = "22530", Source = LBIS.L["Ethereum Nullifier"], SourceLocation = LBIS.L["Netherstorm"], IsSpell = "True" },
     [27914] = { Name = "Enchant Bracer - Fortitude", DesignId = "99999", Source = LBIS.L["Coilfang Oracle"], SourceLocation = LBIS.L["The Steamvault"], IsSpell = "True" },
@@ -10,6 +11,8 @@ LBIS.EnchantSources =
     [33994] = { Name = "Enchant Gloves - Precise Strikes", DesignId = "99999", Source = LBIS.L["Fedryen Swiftspear"], SourceLocation = LBIS.L["Cenarion Expedition (Revered)"], IsSpell = "True" },
     [34007] = { Name = "Enchant Boots - Cat's Swiftness", DesignId = "99999", Source = LBIS.L["World Drop"], SourceLocation = "", IsSpell = "True" },
     [34009] = { Name = "Enchant Shield - Major Stamina", DesignId = "99999", Source = LBIS.L["Madame Ruby"], SourceLocation = LBIS.L["Shattrath City"], IsSpell = "True" },
+    [34207] = { Name = "Glove Reinforcements", DesignId = "99999", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "False" },
+    [37336] = { Name = "Formula: Enchant Chest - Greater Defense", DesignId = "99999", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "False" },
     [38979] = { Name = "Enchant Gloves - Exceptional Spellpower", DesignId = "99999", Source = LBIS.L["Grand Master Enchanting Trainer"], SourceLocation = "", IsSpell = "True" },
     [41146] = { Name = "Sun Scope", DesignId = "0", Source = LBIS.L["Grand Master Engineering Trainer"], SourceLocation = "", IsSpell = "False" },
     [41167] = { Name = "Heartseeker Scope", DesignId = "0", Source = LBIS.L["Grand Master Engineering Trainer"], SourceLocation = "", IsSpell = "False" },
@@ -23,6 +26,7 @@ LBIS.EnchantSources =
     [44129] = { Name = "Lesser Inscription of the Storm", DesignId = "99999", Source = LBIS.L["Lillehoff"], SourceLocation = LBIS.L["The Sons of Hodir (Honored)"], IsSpell = "False" },
     [44131] = { Name = "Lesser Inscription of the Axe", DesignId = "99999", Source = LBIS.L["Lillehoff"], SourceLocation = LBIS.L["The Sons of Hodir (Honored)"], IsSpell = "False" },
     [44133] = { Name = "Greater Inscription of the Axe", DesignId = "99999", Source = LBIS.L["Lillehoff"], SourceLocation = LBIS.L["The Sons of Hodir (Exalted)"], IsSpell = "False" },
+    [44465] = { Name = "Scroll of Enchant Chest - Powerful Stats", DesignId = "99999", Source = LBIS.L["undefined"], SourceLocation = LBIS.L["undefined"], IsSpell = "False" },
     [44484] = { Name = "Enchant Gloves - Expertise", DesignId = "99999", Source = LBIS.L["Grand Master Enchanting Trainer"], SourceLocation = "", IsSpell = "True" },
     [44488] = { Name = "Enchant Gloves - Precision", DesignId = "99999", Source = LBIS.L["Grand Master Enchanting Trainer"], SourceLocation = "", IsSpell = "True" },
     [44508] = { Name = "Enchant Boots - Greater Spirit", DesignId = "99999", Source = LBIS.L["Grand Master Enchanting Trainer"], SourceLocation = "", IsSpell = "True" },
@@ -50,7 +54,7 @@ LBIS.EnchantSources =
     [44877] = { Name = "Arcanum of Burning Mysteries", DesignId = "99999", Source = LBIS.L["Archmage Alvareaux"], SourceLocation = LBIS.L["Kirin Tor (Revered)"], IsSpell = "False" },
     [44878] = { Name = "Arcanum of the Stalwart Protector", DesignId = "99999", Source = LBIS.L["Veteran Crusader Aliocha Segard"], SourceLocation = LBIS.L["Argent Crusade (Revered)"], IsSpell = "False" },
     [44879] = { Name = "Arcanum of Torment", DesignId = "99999", Source = LBIS.L["Duchess Mynx"], SourceLocation = LBIS.L["Knights of the Ebon Blade (Revered)"], IsSpell = "False" },
-    [44936] = { Name = "Titanium Plating", DesignId = "99999", Source = LBIS.L["Grand Master Blacksmithing Trainer"], SourceLocation = "", IsSpell = "False" }, 
+    [44936] = { Name = "Titanium Plating", DesignId = "99999", Source = LBIS.L["Grand Master Blacksmithing Trainer"], SourceLocation = "", IsSpell = "False" },
     [44957] = { Name = "Greater Inscription of the Gladiator", DesignId = "99999", Source = LBIS.L["Accessories Quartermaster"], SourceLocation = LBIS.L["10000 Honor (PvP)"], IsSpell = "False" },
     [47672] = { Name = "Enchant Cloak - Mighty Armor", DesignId = "44471", Source = LBIS.L["Vanessa Sellers"], SourceLocation = LBIS.L["Dalaran"], IsSpell = "True" },
     [47766] = { Name = "Enchant Chest - Greater Defense", DesignId = "37336", Source = LBIS.L["Master Enchanting Trainer"], SourceLocation = "", IsSpell = "True" },
