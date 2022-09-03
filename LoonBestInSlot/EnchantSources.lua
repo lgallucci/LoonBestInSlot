@@ -62,7 +62,7 @@ LBIS.EnchantSources =
     [50367] = { Name = "Arcanum of Torment", DesignId = "0", Source = LBIS.L["Duchess Mynx"], SourceLocation = LBIS.L["Knights of the Ebon Blade (Revered)"], IsSpell = "False" },
     [50368] = { Name = "Arcanum of Burning Mysteries", DesignId = "0", Source = LBIS.L["Archmage Alvareaux"], SourceLocation = LBIS.L["Kirin Tor (Revered)"], IsSpell = "False" },
     [50369] = { Name = "Arcanum of the Stalwart Protector", DesignId = "0", Source = LBIS.L["Veteran Crusader Aliocha Segard"], SourceLocation = LBIS.L["Argent Crusade (Revered)"], IsSpell = "False" },
-    [50370] = { Name = "Arcanum of Blissful Mending", DesignId = "0", Source = LBIS.L["Cielstrasza"], SourceLocation = LBIS.L[" The Wyrmrest Accord (Revered)"], IsSpell = "False" },
+    [50370] = { Name = "Arcanum of Blissful Mending", DesignId = "0", Source = LBIS.L["Cielstrasza"], SourceLocation = LBIS.L["The Wyrmrest Accord (Revered)"], IsSpell = "False" },
     [50963] = { Name = "Heavy Borean Armor Kit", DesignId = "38376", Source = LBIS.L["Grand Master Leatherworking Trainer"], SourceLocation = "", IsSpell = "True" },
     [50964] = { Name = "Jormungar Leg Armor", DesignId = "38371", Source = LBIS.L["Grand Master Leatherworking Trainer"], SourceLocation = "", IsSpell = "True" },
     [50965] = { Name = "Frosthide Leg Armor", DesignId = "38373", Source = LBIS.L["Grand Master Leatherworking Trainer"], SourceLocation = "", IsSpell = "True" },
