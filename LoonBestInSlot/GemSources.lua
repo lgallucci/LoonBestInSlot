@@ -38,7 +38,7 @@ LBIS.GemSources =
     [40088] = { Name = "Vivid Forest Emerald", DesignId = "41698", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
     [40089] = { Name = "Enduring Forest Emerald", DesignId = "41697", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
     [40092] = { Name = "Seer's Forest Emerald", DesignId = "41699", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
-    [40102] = { Name = "Turbid Forest Emerald", DesignId = "41737", Source = LBIS.L["World Drop?"], SourceLocation = "" },
+    [40102] = { Name = "Turbid Forest Emerald", DesignId = "41737", Source = LBIS.L["World Drop"], SourceLocation = "" },
     [40112] = { Name = "Delicate Cardinal Ruby", DesignId = "46918", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [40113] = { Name = "Runed Cardinal Ruby", DesignId = "46916", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [40114] = { Name = "Bright Cardinal Ruby", DesignId = "46919", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },

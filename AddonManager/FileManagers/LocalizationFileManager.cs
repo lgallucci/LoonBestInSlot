@@ -48,15 +48,37 @@ public static class LocalizationFileManager
                     var localizeSplit = localizeTerm.Split('/');
                     var localizedString = string.Empty;
                     bool skipFirst = false, foundAll = true;
-                    foreach (var localize in localizeSplit)
+                    foreach (var localizeSlash in localizeSplit)
                     {
                         if (skipFirst)
                             localizedString += "/";
 
-                        if (foundLocalization.ContainsKey(localize))
-                            localizedString += foundLocalization[localize];
+                        var parenSplit = localizeSlash.Split("(");
+                        var mainTerm = parenSplit[0].Trim();
+                        if (Int32.TryParse(mainTerm, out int mainResult))
+                            localizedString += $" ({mainTerm})";
                         else
-                            foundAll = false;
+                        {
+                            if (foundLocalization.ContainsKey(mainTerm))
+                                localizedString += foundLocalization[mainTerm];
+                            else
+                                foundAll = false;
+                        }
+
+                        if (parenSplit.Length > 1)
+                        {
+                            var parenTerm = parenSplit[1].Replace(")", "");
+
+                            if (Int32.TryParse(parenTerm, out int parenResult))
+                                localizedString += $" ({parenTerm})";
+                            else
+                            {
+                                if (foundLocalization.ContainsKey(parenTerm))
+                                    localizedString += $" ({foundLocalization[parenTerm]})";
+                                else
+                                    foundAll = false;
+                            }
+                        }
                         skipFirst = true;
                     }
 
@@ -98,7 +120,7 @@ public static class LocalizationFileManager
     private static void LocalizeFromQuestie(ref Dictionary<string, string> localizations, string language)
     {
         //Create Local Db
-        string[] itemSources = System.IO.File.ReadAllLines($@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\Questie\tbcQuestDB.lua");
+        string[] itemSources = System.IO.File.ReadAllLines($@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\Questie\wotlkQuestDB.lua");
         var questNames = new Dictionary<int, string>();
         foreach (var line in itemSources)
         {
