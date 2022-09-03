@@ -41,21 +41,21 @@ LBIS:AddItem(spec, "44306", LBIS.L["Feet"], "BIS") --Death-Inured Sabatons
 LBIS:AddItem(spec, "43402", LBIS.L["Feet"], "Alt") --The Obliterator Greaves
 LBIS:AddItem(spec, "37367", LBIS.L["Feet"], "Alt") --Echoing Stompers
 
-LBIS:AddItem(spec, "37397", LBIS.L["Neck"], "BIS") --Gold Amulet of Kings
-LBIS:AddItem(spec, "42645", LBIS.L["Neck"], "Alt") --Titanium Impact Choker
+LBIS:AddItem(spec, "42645", LBIS.L["Neck"], "BIS") --Titanium Impact Choker
+LBIS:AddItem(spec, "37397", LBIS.L["Neck"], "Alt") --Gold Amulet of Kings
 LBIS:AddItem(spec, "37861", LBIS.L["Neck"], "Alt") --Necklace of Arcane Spheres
 
-LBIS:AddItem(spec, "37642", LBIS.L["Ring"], "BIS") --Hemorrhaging Circle
+LBIS:AddItem(spec, "42642", LBIS.L["Ring"], "BIS") --Titanium Impact Band
 LBIS:AddItem(spec, "44935", LBIS.L["Ring"], "BIS") --Ring of the Kirin Tor
+LBIS:AddItem(spec, "37642", LBIS.L["Ring"], "Alt") --Hemorrhaging Circle
 LBIS:AddItem(spec, "43251", LBIS.L["Ring"], "Alt") --Ring of Scarlet Shadows
-LBIS:AddItem(spec, "42642", LBIS.L["Ring"], "Alt") --Titanium Impact Band
 LBIS:AddItem(spec, "37624", LBIS.L["Ring"], "Alt") --Stained-Glass Shard Ring
 LBIS:AddItem(spec, "37151", LBIS.L["Ring"], "Alt") --Band of Frosted Thorns
 
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
-LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
+LBIS:AddItem(spec, "37390", LBIS.L["Trinket"], "BIS") --Meteorite Whetstone
 LBIS:AddItem(spec, "37723", LBIS.L["Trinket"], "Alt") --Incisor Fragment
-LBIS:AddItem(spec, "37390", LBIS.L["Trinket"], "Alt") --Meteorite Whetstone
+LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "Alt") --Mirror of Truth
 LBIS:AddItem(spec, "34472", LBIS.L["Trinket"], "Alt") --Shard of Contempt
 LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "Alt") --Berserker's Call
 

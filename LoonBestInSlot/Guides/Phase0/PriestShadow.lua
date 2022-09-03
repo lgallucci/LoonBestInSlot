@@ -1,5 +1,6 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "0")
 
+LBIS:AddItem(spec, "44909", LBIS.L["Head"], "BIS") --Titan-Forged Hood of Salvation
 LBIS:AddItem(spec, "42553", LBIS.L["Head"], "BIS") --Visage Liquification Goggles
 LBIS:AddItem(spec, "34340", LBIS.L["Head"], "Alt") --Dark Conjuror's Collar
 LBIS:AddItem(spec, "37684", LBIS.L["Head"], "Alt") --Forgotten Shadow Hood
@@ -32,9 +33,9 @@ LBIS:AddItem(spec, "44167", LBIS.L["Back"], "Alt") --Shroud of Dedicated Researc
 LBIS:AddItem(spec, "43283", LBIS.L["Back"], "Alt") --Subterranean Waterfall Shroud
 LBIS:AddItem(spec, "40353", LBIS.L["Back"], "Alt") --Polished Protodrake Cloak
 
+LBIS:AddItem(spec, "42102", LBIS.L["Chest"], "BIS") --Spellweave Robe
 LBIS:AddItem(spec, "39523", LBIS.L["Chest"], "BIS") --Heroes' Raiments of Faith
 LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
-LBIS:AddItem(spec, "42102", LBIS.L["Chest"], "Alt") --Spellweave Robe
 LBIS:AddItem(spec, "43401", LBIS.L["Chest"], "Alt") --Water-Drenched Robe
 LBIS:AddItem(spec, "42101", LBIS.L["Chest"], "Alt") --Ebonweave Robe
 LBIS:AddItem(spec, "37222", LBIS.L["Chest"], "Alt") --Egg Sac Robes
@@ -57,6 +58,7 @@ LBIS:AddItem(spec, "44366", LBIS.L["Wrist"], "Alt") --Shameful Cuffs
 
 LBIS:AddItem(spec, "39530", LBIS.L["Hands"], "BIS") --Heroes' Handwraps of Faith
 LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "BIS") --Gloves of the Lost Conqueror
+LBIS:AddItem(spec, "39733", LBIS.L["Hands"], "BIS") --Gloves of Token Respect
 LBIS:AddItem(spec, "37172", LBIS.L["Hands"], "Alt") --Gloves of Glistening Runes
 LBIS:AddItem(spec, "42111", LBIS.L["Hands"], "Alt") --Ebonweave Gloves
 LBIS:AddItem(spec, "42113", LBIS.L["Hands"], "Alt") --Spellweave Gloves
@@ -98,6 +100,7 @@ LBIS:AddItem(spec, "43375", LBIS.L["Legs"], "Alt") --Trousers of the Arakkoa
 LBIS:AddItem(spec, "42795", LBIS.L["Legs"], "Alt") --Leggings of Renewed Hope
 LBIS:AddItem(spec, "41553", LBIS.L["Legs"], "Alt") --Black Duskweave Leggings
 
+LBIS:AddItem(spec, "40558", LBIS.L["Feet"], "BIS") --Arcanic Tramplers
 LBIS:AddItem(spec, "44202", LBIS.L["Feet"], "BIS") --Sandals of Crimson Fury
 LBIS:AddItem(spec, "37730", LBIS.L["Feet"], "Alt") --Cleric's Linen Shoes
 LBIS:AddItem(spec, "34563", LBIS.L["Feet"], "Alt") --Treads of Absolution

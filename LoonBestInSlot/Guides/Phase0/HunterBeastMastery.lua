@@ -12,9 +12,10 @@ LBIS:AddItem(spec, "37373", LBIS.L["Shoulder"], "Alt") --Massive Spaulders of th
 LBIS:AddItem(spec, "37139", LBIS.L["Shoulder"], "Alt") --Spaulders of the Careless Thief
 LBIS:AddItem(spec, "34194", LBIS.L["Shoulder"], "Alt") --Mantle of the Golden Forest
 
-LBIS:AddItem(spec, "43566", LBIS.L["Back"], "BIS") --Ice Striker's Cloak
-LBIS:AddItem(spec, "43406", LBIS.L["Back"], "Alt") --Cloak of the Gushing Wound
+LBIS:AddItem(spec, "43406", LBIS.L["Back"], "BIS") --Cloak of the Gushing Wound
+LBIS:AddItem(spec, "43566", LBIS.L["Back"], "Alt") --Ice Striker's Cloak
 LBIS:AddItem(spec, "36947", LBIS.L["Back"], "Alt") --Centrifuge Core Cloak
+LBIS:AddItem(spec, "44216", LBIS.L["Back"], "Alt") --Cloak of Holy Extermination
 
 LBIS:AddItem(spec, "39579", LBIS.L["Chest"], "BIS") --Heroes' Cryptstalker Tunic
 LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Protector

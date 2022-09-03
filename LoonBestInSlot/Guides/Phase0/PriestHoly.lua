@@ -111,13 +111,12 @@ LBIS:AddItem(spec, "37232", LBIS.L["Ring"], "Alt") --Ring of the Traitor King
 LBIS:AddItem(spec, "37869", LBIS.L["Ring"], "Alt") --Globule Signet
 
 LBIS:AddItem(spec, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
-LBIS:AddItem(spec, "44255", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Greatness
-LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "Alt") --Figurine - Sapphire Owl
+LBIS:AddItem(spec, "44255", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
+LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "BIS") --Figurine - Sapphire Owl
 LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "Alt") --Spark of Life
 LBIS:AddItem(spec, "28823", LBIS.L["Trinket"], "Alt") --Eye of Gruul
 LBIS:AddItem(spec, "40685", LBIS.L["Trinket"], "Alt") --The Egg of Mortal Essence
-LBIS:AddItem(spec, "49078", LBIS.L["Trinket"], "Alt") --Ancient Pickled Egg
-LBIS:AddItem(spec, "37835", LBIS.L["Trinket"], "BIS") --Je'Tze's Bell
+LBIS:AddItem(spec, "37835", LBIS.L["Trinket"], "Alt") --Je'Tze's Bell
 LBIS:AddItem(spec, "42988", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Illusion
 LBIS:AddItem(spec, "37660", LBIS.L["Trinket"], "Alt") --Forge Ember
 

@@ -20,7 +20,8 @@ LBIS:AddItem(spec, "34397", LBIS.L["Chest"], "Alt") --Bladed Chaos Tunic
 LBIS:AddItem(spec, "34211", LBIS.L["Chest"], "Transmute Alt") --Harness of Carnal Instinct
 LBIS:AddItem(spec, "37612", LBIS.L["Chest"], "Alt") --Bonegrinder Breastplate
 
-LBIS:AddItem(spec, "41355", LBIS.L["Wrist"], "BIS") --Vengeance Bindings
+LBIS:AddItem(spec, "37668", LBIS.L["Wrist"], "BIS") --Bands of the Stoneforge
+LBIS:AddItem(spec, "41355", LBIS.L["Wrist"], "Alt") --Vengeance Bindings
 LBIS:AddItem(spec, "37853", LBIS.L["Wrist"], "Alt") --Advanced Tooled-Leather Bands
 LBIS:AddItem(spec, "44203", LBIS.L["Wrist"], "Alt") --Dragonfriend Bracers
 
@@ -37,18 +38,18 @@ LBIS:AddItem(spec, "37193", LBIS.L["Legs"], "BIS") --Staggering Legplates
 LBIS:AddItem(spec, "34180", LBIS.L["Legs"], "Alt") --Felfury Legplates
 LBIS:AddItem(spec, "44205", LBIS.L["Legs"], "Alt") --Legplates of Bloody Reprisal
 
-LBIS:AddItem(spec, "44306", LBIS.L["Feet"], "BIS") --Death-Inured Sabatons
-LBIS:AddItem(spec, "43402", LBIS.L["Feet"], "Alt") --The Obliterator Greaves
+LBIS:AddItem(spec, "43402", LBIS.L["Feet"], "BIS") --The Obliterator Greaves
+LBIS:AddItem(spec, "44306", LBIS.L["Feet"], "Alt") --Death-Inured Sabatons
 LBIS:AddItem(spec, "37367", LBIS.L["Feet"], "Alt") --Echoing Stompers
 
+LBIS:AddItem(spec, "42646", LBIS.L["Neck"], "BIS") --Titanium Earthguard Chain
 LBIS:AddItem(spec, "37397", LBIS.L["Neck"], "BIS") --Gold Amulet of Kings
-LBIS:AddItem(spec, "42645", LBIS.L["Neck"], "Alt") --Titanium Impact Choker
 LBIS:AddItem(spec, "37861", LBIS.L["Neck"], "Alt") --Necklace of Arcane Spheres
 
-LBIS:AddItem(spec, "37642", LBIS.L["Ring"], "BIS") --Hemorrhaging Circle
+LBIS:AddItem(spec, "42643", LBIS.L["Ring"], "BIS") --Titanium Earthguard Ring
 LBIS:AddItem(spec, "44935", LBIS.L["Ring"], "BIS") --Ring of the Kirin Tor
 LBIS:AddItem(spec, "43251", LBIS.L["Ring"], "Alt") --Ring of Scarlet Shadows
-LBIS:AddItem(spec, "42642", LBIS.L["Ring"], "Alt") --Titanium Impact Band
+LBIS:AddItem(spec, "37642", LBIS.L["Ring"], "Alt") --Hemorrhaging Circle
 LBIS:AddItem(spec, "37624", LBIS.L["Ring"], "Alt") --Stained-Glass Shard Ring
 LBIS:AddItem(spec, "37151", LBIS.L["Ring"], "Alt") --Band of Frosted Thorns
 
