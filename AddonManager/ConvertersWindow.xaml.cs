@@ -19,7 +19,7 @@ public partial class ConvertersWindow : Window
         cmbConvertType.Text = "EmblemConverter";
     }
 
-    private async void Convert_Click(object sender, RoutedEventArgs e)
+    private void Convert_Click(object sender, RoutedEventArgs e)
     {
         var converterType = cmbConvertType.SelectedValue.ToString();
 

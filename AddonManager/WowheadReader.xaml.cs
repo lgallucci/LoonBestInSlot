@@ -16,6 +16,8 @@ public partial class WowheadReader : Window
                                 "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAffliction", "WarlockDemonology", "WarlockDestruction", "WarriorArms",
                                 "WarriorFury", "WarriorProtection"};
 
+    public string[] PhaseList = { "Gems", "Phase0", "Phase1" };
+
     public class CsvLootTable
     {
         public int ItemId { get; set; }
@@ -30,6 +32,7 @@ public partial class WowheadReader : Window
     {
         InitializeComponent();
         cmbSpec.ItemsSource = SpecList;
+        cmbPhase.ItemsSource = PhaseList;
     }
 
     private async void Import_Click(object sender, RoutedEventArgs e)
@@ -37,8 +40,8 @@ public partial class WowheadReader : Window
         ConsoleOut.Text = string.Empty;
 
         var phaseNumber = 0;
-        if (txtPhase.Text.Contains("Phase"))
-            phaseNumber = Int32.Parse(txtPhase.Text.Replace("Phase", ""));
+        if (cmbPhase.SelectedValue.ToString().Contains("Phase"))
+            phaseNumber = Int32.Parse(cmbPhase.SelectedValue.ToString().Replace("Phase", ""));
 
         var spec = cmbSpec.SelectedValue.ToString();
 
@@ -47,7 +50,7 @@ public partial class WowheadReader : Window
         if (specMapping == null)
             specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == spec);
 
-        if (txtPhase.Text == "Gems")
+        if (cmbPhase.SelectedValue.ToString() == "Gems")
             ConsoleOut.Text = await ImportGemsAndEnchants(specMapping);
         else
             ConsoleOut.Text = await ImportClass(specMapping, phaseNumber);
@@ -58,8 +61,8 @@ public partial class WowheadReader : Window
         ConsoleOut.Text = string.Empty;
 
         var phaseNumber = 0;
-        if (txtPhase.Text.Contains("Phase"))
-            phaseNumber = Int32.Parse(txtPhase.Text.Replace("Phase", ""));
+        if (cmbPhase.SelectedValue.ToString().Contains("Phase"))
+            phaseNumber = Int32.Parse(cmbPhase.SelectedValue.ToString().Replace("Phase", ""));
 
         foreach (string spec in SpecList)
         {
@@ -69,7 +72,7 @@ public partial class WowheadReader : Window
                 specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == spec);
 
             string result = string.Empty;
-            if (txtPhase.Text == "Gems")
+            if (cmbPhase.SelectedValue.ToString() == "Gems")
                 result = await ImportGemsAndEnchants(specMapping);
             else
                 result = await ImportClass(specMapping, phaseNumber);
@@ -132,7 +135,7 @@ public partial class WowheadReader : Window
                 sb.AppendLine($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot}");
             }
 
-            new ItemSpecFileManager().WriteGemAndEnchantSpec(Constants.AddonPath + $@"Guides\GemsAndEnchants\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, txtPhase.Text, gemsEnchants.Item1, gemsEnchants.Item2);
+            new ItemSpecFileManager().WriteGemAndEnchantSpec(Constants.AddonPath + $@"Guides\GemsAndEnchants\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, cmbPhase.SelectedValue.ToString(), gemsEnchants.Item1, gemsEnchants.Item2);
 
             new ItemSourceFileManager().WriteGemSources(gemSources);
             new ItemSourceFileManager().WriteEnchantSources(enchantSources);
@@ -155,7 +158,7 @@ public partial class WowheadReader : Window
 
             if (classGuide != null)
             {
-                var items = await new WowheadGuideParser().ParseWowheadGuide(classGuide, className, txtPhase.Text);
+                var items = await new WowheadGuideParser().ParseWowheadGuide(classGuide, className, cmbPhase.SelectedValue.ToString());
 
                 var oldItems = ExcludeItemsFromPhaseGuide(items, phaseNumber, className);
 
@@ -185,7 +188,7 @@ public partial class WowheadReader : Window
                     }
                 }
 
-                new ItemSpecFileManager().WriteItemSpec(Constants.AddonPath + $@"Guides\Phase{phaseNumber}\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, txtPhase.Text, items);
+                new ItemSpecFileManager().WriteItemSpec(Constants.AddonPath + $@"Guides\Phase{phaseNumber}\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, cmbPhase.SelectedValue.ToString(), items);
 
                 new ItemSourceFileManager().WriteItemSources(itemSources);
             }

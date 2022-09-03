@@ -23,40 +23,40 @@ LBIS:AddGem(spec, "40088", "False") --Vivid Forest Emerald
 LBIS:AddGem(spec, "41481", "False") --Perfect Vivid Dark Jade
 
 
-LBIS:AddEnchant(spec, "44878", LBIS.L["Head"], "False") --Arcanum of the Stalwart Protector
-LBIS:AddEnchant(spec, "44875", LBIS.L["Head"], "False") --Arcanum of the Savage Gladiator
+LBIS:AddEnchant(spec, "44878", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
+LBIS:AddEnchant(spec, "44875", LBIS.L["Head"]) --Arcanum of the Savage Gladiator
 
-LBIS:AddEnchant(spec, "44957", LBIS.L["Shoulder"], "False") --Greater Inscription of the Gladiator
+LBIS:AddEnchant(spec, "44957", LBIS.L["Shoulder"]) --Greater Inscription of the Gladiator
 
-LBIS:AddEnchant(spec, "47672", LBIS.L["Back"], "False") --Formula: Enchant Cloak - Mighty Armor
-LBIS:AddEnchant(spec, "44591", LBIS.L["Back"], "False") --Formula: Enchant Cloak - Titanweave
-LBIS:AddEnchant(spec, "60663", LBIS.L["Back"], "True") --Enchant Cloak - Major Agility
+LBIS:AddEnchant(spec, "47672", LBIS.L["Back"]) --Formula: Enchant Cloak - Mighty Armor
+LBIS:AddEnchant(spec, "44591", LBIS.L["Back"]) --Formula: Enchant Cloak - Titanweave
+LBIS:AddEnchant(spec, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 
-LBIS:AddEnchant(spec, "50963", LBIS.L["Chest"], "True") --Heavy Borean Armor Kit
-LBIS:AddEnchant(spec, "60692", LBIS.L["Chest"], "False") --Formula: Enchant Chest - Powerful Stats
-LBIS:AddEnchant(spec, "47766", LBIS.L["Chest"], "False") --Formula: Enchant Chest - Greater Defense
+LBIS:AddEnchant(spec, "50963", LBIS.L["Chest"]) --Heavy Borean Armor Kit
+LBIS:AddEnchant(spec, "60692", LBIS.L["Chest"]) --Formula: Enchant Chest - Powerful Stats
+LBIS:AddEnchant(spec, "47766", LBIS.L["Chest"]) --Formula: Enchant Chest - Greater Defense
 
-LBIS:AddEnchant(spec, "62256", LBIS.L["Wrist"], "False") --Formula: Enchant Bracer - Major Stamina
-LBIS:AddEnchant(spec, "27914", LBIS.L["Wrist"], "True") --Enchant Bracer - Fortitude
-LBIS:AddEnchant(spec, "27906", LBIS.L["Wrist"], "False") --Formula: Enchant Bracer - Major Defense
+LBIS:AddEnchant(spec, "62256", LBIS.L["Wrist"]) --Formula: Enchant Bracer - Major Stamina
+LBIS:AddEnchant(spec, "27914", LBIS.L["Wrist"]) --Enchant Bracer - Fortitude
+LBIS:AddEnchant(spec, "27906", LBIS.L["Wrist"]) --Formula: Enchant Bracer - Major Defense
 
-LBIS:AddEnchant(spec, "50963", LBIS.L["Hands"], "True") --Heavy Borean Armor Kit
-LBIS:AddEnchant(spec, "44770", LBIS.L["Hands"], "False") --Glove Reinforcements
-LBIS:AddEnchant(spec, "33994", LBIS.L["Hands"], "True") --Enchant Gloves - Precise Strikes
-LBIS:AddEnchant(spec, "44484", LBIS.L["Hands"], "True") --Enchant Gloves - Expertise
-LBIS:AddEnchant(spec, "44529", LBIS.L["Hands"], "True") --Enchant Gloves - Major Agility
+LBIS:AddEnchant(spec, "50963", LBIS.L["Hands"]) --Heavy Borean Armor Kit
+LBIS:AddEnchant(spec, "44770", LBIS.L["Hands"]) --Glove Reinforcements
+LBIS:AddEnchant(spec, "33994", LBIS.L["Hands"]) --Enchant Gloves - Precise Strikes
+LBIS:AddEnchant(spec, "44484", LBIS.L["Hands"]) --Enchant Gloves - Expertise
+LBIS:AddEnchant(spec, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
 
-LBIS:AddEnchant(spec, "50965", LBIS.L["Legs"], "False") --Frosthide Leg Armor
+LBIS:AddEnchant(spec, "50965", LBIS.L["Legs"]) --Frosthide Leg Armor
 
-LBIS:AddEnchant(spec, "47901", LBIS.L["Feet"], "True") --Enchant Boots - Tuskarr's Vitality
-LBIS:AddEnchant(spec, "44528", LBIS.L["Feet"], "True") --Enchant Boots - Greater Fortitude
+LBIS:AddEnchant(spec, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
+LBIS:AddEnchant(spec, "44528", LBIS.L["Feet"]) --Enchant Boots - Greater Fortitude
 
-LBIS:AddEnchant(spec, "53344", LBIS.L["Two Hand"], "True") --Rune of the Fallen Crusader
-LBIS:AddEnchant(spec, "62158", LBIS.L["Two Hand"], "True") --Rune of the Stoneskin Gargoyle
-LBIS:AddEnchant(spec, "53323", LBIS.L["Two Hand"], "True") --Rune of Swordshattering
+LBIS:AddEnchant(spec, "53344", LBIS.L["Two Hand"]) --Rune of the Fallen Crusader
+LBIS:AddEnchant(spec, "62158", LBIS.L["Two Hand"]) --Rune of the Stoneskin Gargoyle
+LBIS:AddEnchant(spec, "53323", LBIS.L["Two Hand"]) --Rune of Swordshattering
 
-LBIS:AddEnchant(spec, "70164", LBIS.L["Main Hand"], "True") --Rune of the Nerubian Carapace
-LBIS:AddEnchant(spec, "54446", LBIS.L["Main Hand"], "True") --Rune of Swordbreaking
-LBIS:AddEnchant(spec, "53344", LBIS.L["Main Hand"], "True") --Rune of the Fallen Crusader
-LBIS:AddEnchant(spec, "53343", LBIS.L["Main Hand"], "True") --Rune of Razorice
+LBIS:AddEnchant(spec, "70164", LBIS.L["Main Hand"]) --Rune of the Nerubian Carapace
+LBIS:AddEnchant(spec, "54446", LBIS.L["Main Hand"]) --Rune of Swordbreaking
+LBIS:AddEnchant(spec, "53344", LBIS.L["Main Hand"]) --Rune of the Fallen Crusader
+LBIS:AddEnchant(spec, "53343", LBIS.L["Main Hand"]) --Rune of Razorice
 

@@ -12,8 +12,8 @@
         <ScrollViewer Margin="0,35,0,0" BorderBrush="Gray" BorderThickness="1">
             <TextBox x:Name="ConsoleOut" TextWrapping="Wrap" IsEnabled="False" />
         </ScrollViewer>
-        <ComboBox x:Name="cmbSpec" HorizontalAlignment="Left" Margin="150,11,0,0" Text="DruidRestoration" VerticalAlignment="Top" Width="150"/>
-        <TextBox x:Name="txtPhase" HorizontalAlignment="Left" Margin="314,13,0,0" TextWrapping="Wrap" Text="Phase0" VerticalAlignment="Top" Width="82"/>
+        <ComboBox x:Name="cmbSpec" HorizontalAlignment="Left" Margin="150,11,0,0" VerticalAlignment="Top" Width="150" />
+        <ComboBox x:Name="cmbPhase" HorizontalAlignment="Left" Margin="314,13,0,0" VerticalAlignment="Top" Width="82" SelectedIndex="0" />
 
         <Button Content="Localize" Margin="10,10,100,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Localize_Click"/>
         <Button Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Update_Click"/>
