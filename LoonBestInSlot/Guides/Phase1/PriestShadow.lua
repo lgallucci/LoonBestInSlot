@@ -11,10 +11,10 @@ LBIS:AddItem(spec, "39409", LBIS.L["Head"], "Alt") --Cowl of Winged Fear
 LBIS:AddItem(spec, "42553", LBIS.L["Head"], "Alt") --Visage Liquification Goggles
 LBIS:AddItem(spec, "39732", LBIS.L["Head"], "Alt") --Faerlina's Madness
 
-LBIS:AddItem(spec, "40459", LBIS.L["Shoulder"], "BIS") --Valorous Mantle of Faith
-LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
+LBIS:AddItem(spec, "40555", LBIS.L["Shoulder"], "BIS") --Mantle of Dissemination
+LBIS:AddItem(spec, "40459", LBIS.L["Shoulder"], "Alt") --Valorous Mantle of Faith
+LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "Alt") --Mantle of the Lost Conqueror
 LBIS:AddItem(spec, "40286", LBIS.L["Shoulder"], "Alt") --Mantle of the Corrupted
-LBIS:AddItem(spec, "40555", LBIS.L["Shoulder"], "Alt") --Mantle of Dissemination
 LBIS:AddItem(spec, "40351", LBIS.L["Shoulder"], "Alt") --Mantle of the Fatigued Sage
 LBIS:AddItem(spec, "39719", LBIS.L["Shoulder"], "Alt") --Mantle of the Locusts
 LBIS:AddItem(spec, "39284", LBIS.L["Shoulder"], "Alt") --Miasma Mantle
@@ -23,7 +23,8 @@ LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "Alt") --Amice of the Convoker
 LBIS:AddItem(spec, "40289", LBIS.L["Shoulder"], "Alt") --Sympathetic Amice
 LBIS:AddItem(spec, "39310", LBIS.L["Shoulder"], "Alt") --Mantle of the Extensive Mind
 
-LBIS:AddItem(spec, "40405", LBIS.L["Back"], "BIS") --Cape of the Unworthy Wizard
+LBIS:AddItem(spec, "44005", LBIS.L["Back"], "BIS") --Pennant Cloak
+LBIS:AddItem(spec, "40405", LBIS.L["Back"], "Alt") --Cape of the Unworthy Wizard
 LBIS:AddItem(spec, "41610", LBIS.L["Back"], "Alt") --Deathchill Cloak
 LBIS:AddItem(spec, "40251", LBIS.L["Back"], "Alt") --Shroud of Luminosity
 LBIS:AddItem(spec, "39415", LBIS.L["Back"], "Alt") --Shroud of the Citadel
@@ -42,8 +43,10 @@ LBIS:AddItem(spec, "40062", LBIS.L["Chest"], "Alt") --Digested Silken Robes
 LBIS:AddItem(spec, "39523", LBIS.L["Chest"], "Alt") --Heroes' Raiments of Faith
 LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Conqueror
 LBIS:AddItem(spec, "39396", LBIS.L["Chest"], "Alt") --Gown of Blaumeux
+LBIS:AddItem(spec, "42102", LBIS.L["Chest"], "Alt") --Spellweave Robe
 
-LBIS:AddItem(spec, "40198", LBIS.L["Wrist"], "BIS") --Bands of Impurity
+LBIS:AddItem(spec, "44008", LBIS.L["Wrist"], "BIS") --Unsullied Cuffs
+LBIS:AddItem(spec, "40198", LBIS.L["Wrist"], "Alt") --Bands of Impurity
 LBIS:AddItem(spec, "40325", LBIS.L["Wrist"], "Alt") --Bindings of the Expansive Mind
 LBIS:AddItem(spec, "39731", LBIS.L["Wrist"], "Alt") --Punctilious Bindings
 LBIS:AddItem(spec, "40740", LBIS.L["Wrist"], "Alt") --Wraps of the Astral Traveler
@@ -96,7 +99,8 @@ LBIS:AddItem(spec, "40236", LBIS.L["Feet"], "Alt") --Serene Echoes
 LBIS:AddItem(spec, "39254", LBIS.L["Feet"], "Alt") --Saltarello Shoes
 LBIS:AddItem(spec, "39273", LBIS.L["Feet"], "Alt") --Sullen Cloth Boots
 
-LBIS:AddItem(spec, "40374", LBIS.L["Neck"], "BIS") --Cosmic Lights
+LBIS:AddItem(spec, "44661", LBIS.L["Neck"], "BIS") --Wyrmrest Necklace of Power
+LBIS:AddItem(spec, "40374", LBIS.L["Neck"], "Alt") --Cosmic Lights
 LBIS:AddItem(spec, "40486", LBIS.L["Neck"], "Alt") --Necklace of the Glittering Chamber
 LBIS:AddItem(spec, "40427", LBIS.L["Neck"], "Alt") --Circle of Arcane Streams
 LBIS:AddItem(spec, "40064", LBIS.L["Neck"], "Alt") --Thunderstorm Amulet
@@ -107,8 +111,8 @@ LBIS:AddItem(spec, "39282", LBIS.L["Neck"], "Alt") --Bone-Linked Amulet
 LBIS:AddItem(spec, "39392", LBIS.L["Neck"], "Alt") --Veiled Amulet of Life
 
 LBIS:AddItem(spec, "40399", LBIS.L["Ring"], "BIS") --Signet of Manifested Pain
-LBIS:AddItem(spec, "40585", LBIS.L["Ring"], "BIS") --Signet of the Kirin Tor
-LBIS:AddItem(spec, "40719", LBIS.L["Ring"], "Alt") --Band of Channeled Magic
+LBIS:AddItem(spec, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
+LBIS:AddItem(spec, "40585", LBIS.L["Ring"], "Alt") --Signet of the Kirin Tor
 LBIS:AddItem(spec, "40080", LBIS.L["Ring"], "Alt") --Lost Jewel
 LBIS:AddItem(spec, "39389", LBIS.L["Ring"], "Alt") --Signet of the Malevolent
 LBIS:AddItem(spec, "39244", LBIS.L["Ring"], "Alt") --Ring of the Fated
@@ -122,10 +126,10 @@ LBIS:AddItem(spec, "39250", LBIS.L["Ring"], "Alt") --Ring of Holy Cleansing
 LBIS:AddItem(spec, "39231", LBIS.L["Ring"], "Alt") --Timeworn Silken Band
 
 LBIS:AddItem(spec, "40255", LBIS.L["Trinket"], "BIS") --Dying Curse
+LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Dragon Soul
 LBIS:AddItem(spec, "40373", LBIS.L["Trinket"], "BIS") --Extract of Necromantic Power
 LBIS:AddItem(spec, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spider
 LBIS:AddItem(spec, "40682", LBIS.L["Trinket"], "Alt") --Sundial of the Exiled
-LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "Alt") --Illustration of the Dragon Soul
 LBIS:AddItem(spec, "37873", LBIS.L["Trinket"], "Alt") --Mark of the War Prisoner
 LBIS:AddItem(spec, "42990", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Death
 

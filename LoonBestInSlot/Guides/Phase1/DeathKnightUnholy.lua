@@ -55,10 +55,9 @@ LBIS:AddItem(spec, "39421", LBIS.L["Neck"], "Alt") --Gem of Imprisoned Vassals
 
 LBIS:AddItem(spec, "40075", LBIS.L["Ring"], "BIS") --Ruthlessness
 LBIS:AddItem(spec, "39401", LBIS.L["Ring"], "BIS") --Circle of Death
-LBIS:AddItem(spec, "40074", LBIS.L["Ring"], "BIS") --Strong-Handed Ring
+LBIS:AddItem(spec, "40074", LBIS.L["Ring"], "Alt") --Strong-Handed Ring
 LBIS:AddItem(spec, "43993", LBIS.L["Ring"], "Alt") --Greatring of Collision
 LBIS:AddItem(spec, "44935", LBIS.L["Ring"], "Alt") --Ring of the Kirin Tor
-LBIS:AddItem(spec, "37642", LBIS.L["Ring"], "Alt") --Hemorrhaging Circle
 
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "37390", LBIS.L["Trinket"], "BIS") --Meteorite Whetstone

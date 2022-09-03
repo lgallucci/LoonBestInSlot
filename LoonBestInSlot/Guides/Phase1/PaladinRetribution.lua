@@ -3,12 +3,12 @@ local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "1")
 LBIS:AddItem(spec, "40576", LBIS.L["Head"], "BIS") --Valorous Redemption Helm
 LBIS:AddItem(spec, "40631", LBIS.L["Head"], "BIS") --Crown of the Lost Conqueror
 LBIS:AddItem(spec, "44006", LBIS.L["Head"], "Alt") --Obsidian Greathelm
-LBIS:AddItem(spec, "41386", LBIS.L["Head"], "Alt") --Spiked Titansteel Helm
+LBIS:AddItem(spec, "41386", LBIS.L["Head"], "Alt ") --Spiked Titansteel Helm
 
 LBIS:AddItem(spec, "40578", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Shoulderplates
 LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 LBIS:AddItem(spec, "44003", LBIS.L["Shoulder"], "Alt") --Upstanding Spaulders
-LBIS:AddItem(spec, "43481", LBIS.L["Shoulder"], "Alt") --Trollwoven Spaulders
+LBIS:AddItem(spec, "43481", LBIS.L["Shoulder"], "BIS") --Trollwoven Spaulders
 LBIS:AddItem(spec, "34388", LBIS.L["Shoulder"], "BIS") --Pauldrons of Berserking
 LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "Transmute BIS") --Pauldrons of Perseverance
 

@@ -101,7 +101,11 @@ LBIS:AddItem(spec, "39250", LBIS.L["Ring"], "Alt") --Ring of Holy Cleansing
 LBIS:AddItem(spec, "39407", LBIS.L["Ring"], "Alt") --Circle of Life
 LBIS:AddItem(spec, "44283", LBIS.L["Ring"], "Alt") --Signet of Hopeful Light
 
-LBIS:AddItem(spec, "40430", LBIS.L["Trinket"], "BIS") --Majestic Dragon Figurine
+LBIS:AddItem(spec, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
+LBIS:AddItem(spec, "44255", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
+LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "BIS") --Figurine - Sapphire Owl
+LBIS:AddItem(spec, "40382", LBIS.L["Trinket"], "Alt") --Soul of the Dead
+LBIS:AddItem(spec, "40430", LBIS.L["Trinket"], "Alt") --Majestic Dragon Figurine
 LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Dragon Soul
 
 LBIS:AddItem(spec, "40395", LBIS.L["Main Hand"], "BIS") --Torch of Holy Fire

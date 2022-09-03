@@ -5,13 +5,13 @@ LBIS:AddItem(spec, "40633", LBIS.L["Head"], "BIS") --Crown of the Lost Vanquishe
 LBIS:AddItem(spec, "40328", LBIS.L["Head"], "Alt") --Helm of Vital Protection
 LBIS:AddItem(spec, "39395", LBIS.L["Head"], "Alt") --Thane's Tainted Greathelm
 
-LBIS:AddItem(spec, "39704", LBIS.L["Shoulder"], "BIS") --Pauldrons of Unnatural Death
 LBIS:AddItem(spec, "40568", LBIS.L["Shoulder"], "BIS") --Valorous Scourgeborne Pauldrons
 LBIS:AddItem(spec, "40639", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Vanquisher
+LBIS:AddItem(spec, "39704", LBIS.L["Shoulder"], "Alt") --Pauldrons of Unnatural Death
 LBIS:AddItem(spec, "39267", LBIS.L["Shoulder"], "Alt") --Abomination Shoulderblades
 
 LBIS:AddItem(spec, "40252", LBIS.L["Back"], "BIS") --Cloak of the Shadowed Sun
-LBIS:AddItem(spec, "40722", LBIS.L["Back"], "BIS") --Platinum Mesh Cloak
+LBIS:AddItem(spec, "40722", LBIS.L["Back"], "Alt") --Platinum Mesh Cloak
 LBIS:AddItem(spec, "43988", LBIS.L["Back"], "Alt") --Gale-Proof Cloak
 
 LBIS:AddItem(spec, "40559", LBIS.L["Chest"], "BIS") --Valorous Scourgeborne Chestguard
@@ -20,7 +20,7 @@ LBIS:AddItem(spec, "44000", LBIS.L["Chest"], "Alt") --Dragonstorm Breastplate
 LBIS:AddItem(spec, "40203", LBIS.L["Chest"], "Alt") --Breastplate of Tormented Rage
 
 LBIS:AddItem(spec, "40306", LBIS.L["Wrist"], "BIS") --Bracers of the Unholy Knight
-LBIS:AddItem(spec, "40734", LBIS.L["Wrist"], "BIS") --Bracers of Dalaran's Parapets
+LBIS:AddItem(spec, "40734", LBIS.L["Wrist"], "Alt") --Bracers of Dalaran's Parapets
 LBIS:AddItem(spec, "39467", LBIS.L["Wrist"], "Alt") --Minion Bracers
 
 LBIS:AddItem(spec, "40563", LBIS.L["Hands"], "BIS") --Valorous Scourgeborne Handguards
@@ -32,9 +32,9 @@ LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "Alt") --Gloves of the Lost Vanquis
 LBIS:AddItem(spec, "39759", LBIS.L["Waist"], "BIS") --Ablative Chitin Girdle
 LBIS:AddItem(spec, "40689", LBIS.L["Waist"], "Alt") --Waistguard of Living Iron
 
-LBIS:AddItem(spec, "40567", LBIS.L["Legs"], "BIS") --Valorous Scourgeborne Legguards
-LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "BIS") --Leggings of the Lost Vanquisher
-LBIS:AddItem(spec, "40589", LBIS.L["Legs"], "Alt") --Legplates of Sovereignty
+LBIS:AddItem(spec, "40589", LBIS.L["Legs"], "BIS") --Legplates of Sovereignty
+LBIS:AddItem(spec, "40567", LBIS.L["Legs"], "Alt") --Valorous Scourgeborne Legguards
+LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "Alt") --Leggings of the Lost Vanquisher
 LBIS:AddItem(spec, "40446", LBIS.L["Legs"], "Alt") --Dragon Brood Legguards
 
 LBIS:AddItem(spec, "40297", LBIS.L["Feet"], "BIS") --Sabatons of Endurance
@@ -62,10 +62,10 @@ LBIS:AddItem(spec, "42332", LBIS.L["Two Hand"], "BIS") --Deadly Gladiator's Grea
 LBIS:AddItem(spec, "40406", LBIS.L["Two Hand"], "BIS") --Inevitable Defeat
 LBIS:AddItem(spec, "40384", LBIS.L["Two Hand"], "Alt") --Betrayer of Humanity
 
+LBIS:AddItem(spec, "40402", LBIS.L["Main Hand"], "BIS") --Last Laugh
 LBIS:AddItem(spec, "42208", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Cleaver
 LBIS:AddItem(spec, "42275", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Pummeler
 LBIS:AddItem(spec, "42285", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Slicer
-LBIS:AddItem(spec, "40402", LBIS.L["Main Hand"], "BIS") --Last Laugh
 LBIS:AddItem(spec, "40345", LBIS.L["Main Hand"], "BIS") --Broken Promise
 LBIS:AddItem(spec, "39344", LBIS.L["Main Hand"], "Alt") --Slayer of the Lifeless
 

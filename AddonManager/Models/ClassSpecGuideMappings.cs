@@ -210,7 +210,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-unholy-death-knight-dps-phase-1", "Trinket"),
             new GuideMapping("#main-hand-weapons-for-unholy-death-knight-dps-phase-1", "Main Hand"),
             new GuideMapping("#off-hand-weapons-for-unholy-death-knight-dps-phase-1", "Off Hand"),
-            new GuideMapping("#sigils-for-unholy-death-knight-dps-pre-raid", "Relic"),
+            new GuideMapping("#sigils-for-unholy-death-knight-dps-phase-1", "Relic"),
         }));
 
         GuideMappings.Add(new ClassGuideMapping("DruidBalanceGemEnchants", "Balance", "Druid", new List<GuideMapping>
@@ -613,7 +613,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#back-for-survival-hunter-dps-phase-1", "Back"),
             new GuideMapping("#chest-for-survival-hunter-dps-phase-1", "Chest"),
             new GuideMapping("#wrist-for-survival-hunter-dps-phase-1", "Wrist"),
-            new GuideMapping("#hands-for-survival-hunter-dps-phase-1", "Hands"),
+            new GuideMapping("#hands-for-marksmanship-hunter-dps-phase-1", "Hands"),
             new GuideMapping("#waist-for-survival-hunter-dps-phase-1", "Waist"),
             new GuideMapping("#legs-for-survival-hunter-dps-phase-1", "Legs"),
             new GuideMapping("#feet-for-survival-hunter-dps-phase-1", "Feet"),
@@ -1672,20 +1672,20 @@ public class ClassSpecGuideMappings
 
         GuideMappings.Add(new ClassGuideMapping("WarriorFuryPhase1", "Fury", "Warrior", new List<GuideMapping>
         {
-            new GuideMapping("#head-for-fury-warrior-dps-pre-raid", "Head"),
-            new GuideMapping("#shoulders-for-fury-warrior-dps-pre-raid", "Shoulder"),
-            new GuideMapping("#back-for-fury-warrior-dps-pre-raid", "Back"),
-            new GuideMapping("#chest-for-fury-warrior-dps-pre-raid", "Chest"),
-            new GuideMapping("#wrist-for-fury-warrior-dps-pre-raid", "Wrist"),
-            new GuideMapping("#hands-for-fury-warrior-dps-pre-raid", "Hands"),
-            new GuideMapping("#waist-for-fury-warrior-dps-pre-raid", "Waist"),
-            new GuideMapping("#legs-for-fury-warrior-dps-pre-raid", "Legs"),
-            new GuideMapping("#feet-for-fury-warrior-dps-pre-raid", "Feet"),
-            new GuideMapping("#neck-for-fury-warrior-dps-pre-raid", "Neck"),
-            new GuideMapping("#rings-for-fury-warrior-dps-pre-raid", "Ring"),
-            new GuideMapping("#trinkets-for-fury-warrior-dps-pre-raid", "Trinket"),
-            new GuideMapping("#two-handed-weapons-for-fury-warrior-dps-pre-raid", "Two Hand"),
-            new GuideMapping("#ranged-weapons-for-fury-warrior-dps-pre-raid", "Ranged"),
+            new GuideMapping("#head-for-fury-warrior-dps-in-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-fury-warrior-dps-in-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-fury-warrior-dps-in-phase-1", "Back"),
+            new GuideMapping("#chest-for-fury-warrior-dps-in-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-fury-warrior-dps-in-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-fury-warrior-dps-in-phase-1", "Hands"),
+            new GuideMapping("#waist-for-fury-warrior-dps-in-phase-1", "Waist"),
+            new GuideMapping("#legs-for-fury-warrior-dps-in-phase-1", "Legs"),
+            new GuideMapping("#feet-for-fury-warrior-dps-in-phase-1", "Feet"),
+            new GuideMapping("#neck-for-fury-warrior-dps-in-phase-1", "Neck"),
+            new GuideMapping("#rings-for-fury-warrior-dps-in-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-fury-warrior-dps-in-phase-1", "Trinket"),
+            new GuideMapping("#two-handed-weapons-for-fury-warrior-dps-in-phase-1", "Two Hand"),
+            new GuideMapping("#ranged-weapons-for-fury-warrior-dps-in-phase-1", "Ranged"),
         }));
 
         GuideMappings.Add(new ClassGuideMapping("WarriorArmsGemEnchants", "Arms", "Warrior", new List<GuideMapping>
