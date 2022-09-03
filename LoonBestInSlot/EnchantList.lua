@@ -62,6 +62,7 @@ end
 
 local function createItemRow(f, specEnchant, specEnchantSource)
 
+    local isSpell = specEnchantSource.IsSpell == "True";
     local function createItemRowInternal(f, item, specEnchant, specEnchantSource)
         local window = LBIS.BrowserWindow.Window;
         local b, t, dl = nil, nil, nil;
@@ -73,7 +74,7 @@ local function createItemRow(f, specEnchant, specEnchantSource)
         bt:SetTexture(item.Texture);
         b:SetPoint("TOPLEFT", f, 2, -5);
 
-        LBIS:SetTooltipOnButton(b, item, specEnchantSource.IsSpell == "true");
+        LBIS:SetTooltipOnButton(b, item, isSpell);
 
         t = f:CreateFontString(nil, nil, "GameFontNormal");
         t:SetText((item.Link or item.Name):gsub("[%[%]]", ""));
@@ -83,18 +84,45 @@ local function createItemRow(f, specEnchant, specEnchantSource)
         st:SetText(specEnchant.Slot);
         st:SetPoint("BOTTOMLEFT", b, "BOTTOMRIGHT", 2, 2);
         
-        d = f:CreateFontString(nil, nil, "GameFontNormal");
-        d:SetText(specEnchantSource.Source);
-        d:SetJustifyH("LEFT");
-        d:SetWidth(window.ScrollFrame:GetWidth() / 2);
-        d:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
+        if tonumber(specEnchantSource.DesignId) > 0 and tonumber(specEnchantSource.DesignId) < 99999 then
+            LBIS:GetItemInfo(specEnchantSource.DesignId, function(designItem)
 
-        dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
-        dl:SetText(specEnchantSource.SourceLocation);
-        dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
+                if designItem.Name == nil then
+                    return;
+                end
+
+                b2 = CreateFrame("Button", nil, f);
+                b2:SetSize(32, 32);
+                local bt2 = b2:CreateTexture();
+                bt2:SetAllPoints();
+                bt2:SetTexture(designItem.Texture);                                        
+                b2:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
+
+                LBIS:SetTooltipOnButton(b2, designItem);
+
+                d = f:CreateFontString(nil, nil, "GameFontNormal");
+                d:SetText(specEnchantSource.Source);
+                d:SetJustifyH("LEFT");
+                d:SetPoint("TOPLEFT", b2, "TOPRIGHT", 2, -2);
+
+                dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
+                dl:SetText(specEnchantSource.SourceLocation);
+                dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
+            end); 
+        else
+            d = f:CreateFontString(nil, nil, "GameFontNormal");
+            d:SetText(specEnchantSource.Source);
+            d:SetJustifyH("LEFT");
+            d:SetWidth(window.ScrollFrame:GetWidth() / 2);
+            d:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
+
+            dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
+            dl:SetText(specEnchantSource.SourceLocation);
+            dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
+        end
     end
 
-    if specEnchantSource.IsSpell == "true" then
+    if isSpell then
         LBIS:GetSpellInfo(specEnchant.Id, function(item)
             createItemRowInternal(f, item, specEnchant, specEnchantSource);
         end);

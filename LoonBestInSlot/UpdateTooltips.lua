@@ -13,11 +13,8 @@ local function buildExtraTip(tooltip, entry)
 	LibExtraTip:AddLine(tooltip,LBIS.L["# Gear best for:"],r,g,b,true)
 
 	local combinedTooltip = {};
-	local mageCount = 0;
-	local warriorDpsCount = 0;
-	local warlockCount = 0;
-	local hunterCount = 0;
-	local dkCount = 0;
+	local mageCount, warriorDpsCount, warlockCount = 0, 0, 0;
+	local hunterCount, dkCount, rogueCount = 0, 0, 0;
 
 	for k, v in pairs(entry) do
 		local classSpec = LBIS.ClassSpec[k]

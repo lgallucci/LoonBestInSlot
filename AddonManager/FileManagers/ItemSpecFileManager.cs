@@ -79,7 +79,7 @@ public class ItemSpecFileManager
                 GAndESB.AppendLine();
             }
 
-            GAndESB.AppendLine($"LBIS:AddEnchant(spec, \"{enchant.Value.EnchantId}\", LBIS.L[\"{enchant.Value.Slot}\"], \"{enchant.Value.IsSpell.ToString()}\") --{enchant.Value.Name}");
+            GAndESB.AppendLine($"LBIS:AddEnchant(spec, \"{enchant.Value.EnchantId}\", LBIS.L[\"{enchant.Value.Slot}\"]) --{enchant.Value.Name}");
         }
         GAndESB.AppendLine();
 

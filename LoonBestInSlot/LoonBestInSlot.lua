@@ -11,7 +11,7 @@ LBIS.SpecEnchants = {};
 LBIS.WowItemCache = {};
 LBIS.WowSpellCache = {};
 LBIS.AllItemsCached = false;
-LBIS.CurrentPhase = 5;
+LBIS.CurrentPhase = 1;
 LBIS.EventFrame = CreateFrame("FRAME",addonName.."Events")
 
 LBISSettings = LBISSettings or { SelectedSpec = "", SelectedSlot = LBIS.L["All"], SelectedPhase = LBIS.L["All"], SelectedSourceType = LBIS.L["All"], SelectedZone = LBIS.L["All"], minimap = { hide = false, minimapPos = 180}, ShowTooltip = true }

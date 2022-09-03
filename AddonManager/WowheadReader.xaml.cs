@@ -129,7 +129,7 @@ public partial class WowheadReader : Window
                     });
                 }
 
-                sb.AppendLine($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot} - {enchant.Value.IsSpell}");
+                sb.AppendLine($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot}");
             }
 
             new ItemSpecFileManager().WriteGemAndEnchantSpec(Constants.AddonPath + $@"Guides\GemsAndEnchants\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, txtPhase.Text, gemsEnchants.Item1, gemsEnchants.Item2);

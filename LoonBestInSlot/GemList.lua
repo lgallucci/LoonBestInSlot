@@ -24,7 +24,11 @@ local function itemSortFunction(table, k1, k2)
     local item1 = table[k1];
     local item2 = table[k2];
 
-    return item1.Phase > item2.Phase;
+    if item1.IsMeta == "True" then
+        return true;
+    else
+        return item1.Phase > item2.Phase;
+    end
 end
 
 local function createItemRow(f, specGem, specGemSource)
@@ -46,25 +50,27 @@ local function createItemRow(f, specGem, specGemSource)
         t:SetText((item.Link or item.Name):gsub("[%[%]]", ""));
         t:SetPoint("TOPLEFT", b, "TOPRIGHT", 2, -2);
         
-        LBIS:GetItemInfo(specGem.DesignId, function(designItem)
+        if tonumber(specGemSource.DesignId) > 0 and tonumber(specGemSource.DesignId) < 99999 then
+            LBIS:GetItemInfo(specGemSource.DesignId, function(designItem)
 
-            if designItem.Name == nil then
-                return;
-            end
+                if designItem.Name == nil then
+                    return;
+                end
 
-            b2 = CreateFrame("Button", nil, f);
-            b2:SetSize(32, 32);
-            local bt2 = b2:CreateTexture();
-            bt2:SetAllPoints();
-            bt2:SetTexture(designItem.Texture);                                        
-            b2:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
+                b2 = CreateFrame("Button", nil, f);
+                b2:SetSize(32, 32);
+                local bt2 = b2:CreateTexture();
+                bt2:SetAllPoints();
+                bt2:SetTexture(designItem.Texture);                                        
+                b2:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
 
-            LBIS:SetTooltipOnButton(b2, designItem);
+                LBIS:SetTooltipOnButton(b2, designItem);
         
-            t2 = f:CreateFontString(nil, nil, "GameFontNormal");
-            t2:SetText((designItem.Link or designItem.Name):gsub("[%[%]]", ""));
-            t2:SetPoint("TOPLEFT", b2, "TOPRIGHT", 2, -2);
-        end);
+                t2 = f:CreateFontString(nil, nil, "GameFontNormal");
+                t2:SetText((designItem.Link or designItem.Name):gsub("[%[%]]", ""));
+                t2:SetPoint("TOPLEFT", b2, "TOPRIGHT", 2, -2);
+            end); 
+        end
     end);
 end
 

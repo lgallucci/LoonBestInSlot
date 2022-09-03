@@ -37,7 +37,7 @@ local deleted_windows = {};
 function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, point, rowFunc)
     local window = LBIS.BrowserWindow.Window;
     local spacing = 1;
-    local name = "frame_"..specItem.Id;
+    local name = specItemSource.Name.."_frame_"..specItem.Id;
     local f, l = nil, nil;
     local reusing = false;
     
@@ -53,7 +53,7 @@ function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, point, rowFu
     end
     
     if not reusing then
-        f = CreateFrame("Frame", "frame_"..specItem.Id, window.Container);
+        f = CreateFrame("Frame", name, window.Container);
 
         rowFunc(f, specItem, specItemSource);
         
@@ -130,7 +130,6 @@ function LBIS.BrowserWindow:UpdateItemsForSpec(rowFunc)
     end
     window.ScrollFrame.content = window.Container;
     window.ScrollFrame:SetScrollChild(window.Container);
-
 end
 
 function createTabs(window, content) 
@@ -256,7 +255,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
         ['name']='phase',
         ['parent']=window,
         ['title']='Phase:',
-        ['items']= { LBIS.L["All"], LBIS.L["PreRaid"], LBIS.L["Phase 1"], LBIS.L["Phase 2"], LBIS.L["Phase 3"], LBIS.L["Phase 4"], LBIS.L["Phase 5"], "BIS" },
+        ['items']= { LBIS.L["All"], LBIS.L["PreRaid"], LBIS.L["Phase 1"], "BIS" },
         ['defaultVal']=LBISSettings.SelectedPhase,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedPhase = dropdown_val;

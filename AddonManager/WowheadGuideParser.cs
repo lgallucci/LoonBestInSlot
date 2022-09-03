@@ -29,12 +29,14 @@ public class WowheadGuideParser
         { 38373, 50965 }, //Frosthide Leg Armor
         { 38374, 50967 }, //Icescale Leg Armor
         { 38376, 50963 }, //Heavy Borean Armor Kit
+        { 38979, 44592 }, //Enchant Gloves - Exceptional Spellpower
         { 38928, 33990 }, //Enchant Chest - Major Spirit
         { 39003, 47898 }, //Enchant Cloak - Greater Speed
         { 39006, 47901 }, //Enchant Boots - Tuskarr's Vitality
         { 41093, 54999 }, //Hyperspeed Accelerators
         { 41111, 55002 }, //Flexweave Underlay
         { 41118, 55016 }, //Nitro Boosts
+        { 44936, 62202 }, //Titanium Plating
         { 54861, 55016 }, //Nitro Boosts
         { 43097, 57683 }, //Fur Lining - Attack Power
         { 44467, 60714 }, //Enchant Weapon - Mighty Spellpower
