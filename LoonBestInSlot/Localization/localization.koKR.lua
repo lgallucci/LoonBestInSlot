@@ -42,11 +42,11 @@ if GetLocale() == "koKR" then
   LBIS.L["Basic Chemistry"] = "기초 반응";
   LBIS.L["Battle at Valhalas: Final Challenge"] = "발할라스에서의 전투: 최후의 도전";
 --  LBIS.L["Bear"] = "";
-  LBIS.L["Beast Mastery"] = "true";
+  LBIS.L["Beast Mastery"] = "야수";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Black Temple"] = "검은 사원";
   LBIS.L["Blacksmithing"] = "대장기술";
-  LBIS.L["Blood"] = "true";
+  LBIS.L["Blood"] = "혈기";
   LBIS.L["Borean Tundra"] = "북풍의 땅";
 --  LBIS.L["Brewfest"] = "";
   LBIS.L["Brutallus"] = "브루탈루스";
@@ -61,7 +61,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Clipping Their Wings"] = "부러진 날개";
 --  LBIS.L["Coilfang Oracle"] = "";
 --  LBIS.L["Coilskar Siren"] = "";
-  LBIS.L["Combat"] = "true";
+  LBIS.L["Combat"] = "전투";
   LBIS.L["Commander Kolurg/Commander Stoutbeard"] = "사령관 콜루르그/사령관 스타우트비어드";
   LBIS.L["Coren Direbrew"] = "코렌 다이어브루";
 --  LBIS.L["Cot: Old Stratholme (Heroic)"] = " (영웅)";
@@ -76,8 +76,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Death to the Traitor King"] = "배신자 왕에게 죽음을";
   LBIS.L["Demolitionist Extraordinaire"] = "최고의 폭파병";
   LBIS.L["Demonology"] = "악마";
-  LBIS.L["Destruction"] = "true";
-  LBIS.L["Discipline"] = "true";
+  LBIS.L["Destruction"] = "파괴";
+  LBIS.L["Discipline"] = "수양";
   LBIS.L["Dragonblight"] = "용의 안식처";
 --  LBIS.L["Drak'tharon Keep (Heroic)"] = " (영웅)";
   LBIS.L["Drak'Tharon Keep (Heroic)"] = "드락타론 성채 (영웅)";
@@ -108,11 +108,11 @@ if GetLocale() == "koKR" then
   LBIS.L["Feet"] = "발";
   LBIS.L["Felmyst"] = "지옥안개";
   LBIS.L["Felmyst/Eredar Twins"] = "지옥안개/에레다르 쌍둥이";
-  LBIS.L["Fire"] = "true";
+  LBIS.L["Fire"] = "화염";
   LBIS.L["For Posterity"] = "후손을 위하여";
   LBIS.L["Frenzyheart Tribe"] = "광란심장 일족";
-  LBIS.L["Frost"] = "true";
-  LBIS.L["Fury"] = "true";
+  LBIS.L["Frost"] = "냉기";
+  LBIS.L["Fury"] = "분노";
 --  LBIS.L["G'eras"] = "";
   LBIS.L["Gal'darah"] = "갈다라";
 --  LBIS.L["Geen"] = "";
@@ -215,7 +215,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Mal'Ganis"] = "말가니스";
   LBIS.L["Malygos"] = "말리고스";
 --  LBIS.L["Mammoths - Storm Peaks"] = "";
-  LBIS.L["Marksmanship"] = "true";
+  LBIS.L["Marksmanship"] = "사격";
 --  LBIS.L["Master Enchanting Trainer"] = "";
 --  LBIS.L["Master Jewelcrafting Trainer"] = "";
 --  LBIS.L["Master Leatherworking Trainer"] = "";
@@ -267,7 +267,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Relic"] = "유물";
   LBIS.L["Reputation"] = "평판";
   LBIS.L["Restoration"] = "복원";
-  LBIS.L["Retribution"] = "true";
+  LBIS.L["Retribution"] = "징벌";
   LBIS.L["Return My Remains/Get Me Outa Here!"] = "유골 돌려주기/날 구해줘요!";
   LBIS.L["Revered"] = "매우 우호적";
   LBIS.L["Ring"] = "손가락";
@@ -277,7 +277,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Sartharion/Emblem of Heroism"] = "살타리온/";
 --  LBIS.L["Scribe Saalyn"] = "";
   LBIS.L["Serpentshrine Cavern"] = "불뱀 제단";
-  LBIS.L["Shadow"] = "true";
+  LBIS.L["Shadow"] = "암흑";
   LBIS.L["Shadowmoon Valley"] = "어둠달 골짜기";
   LBIS.L["Shattrath City"] = "샤트라스";
   LBIS.L["Shield"] = "방패";
@@ -290,9 +290,9 @@ if GetLocale() == "koKR" then
   LBIS.L["Skarvald the Constructor/Dalronn the Controller"] = "건축가 스카발드/감시자 달론";
   LBIS.L["Slad'ran"] = "슬라드란";
 --  LBIS.L["Spirit Shards"] = "";
-  LBIS.L["Subtlety"] = "true";
+  LBIS.L["Subtlety"] = "잠행";
   LBIS.L["Sunwell Plateau"] = "태양샘 고원";
-  LBIS.L["Survival"] = "true";
+  LBIS.L["Survival"] = "생존";
   LBIS.L["Svala Sorrowgrave"] = "스발라 소로우그레이브";
   LBIS.L["Tailoring"] = "재봉술";
 --  LBIS.L["TBC"] = "";
