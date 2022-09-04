@@ -20,7 +20,6 @@ public class WowheadGuideParser
 
     private Dictionary<int, int> _gemPhases = new Dictionary<int, int>()
     {
-        { 40034, 3 },
         { 40112, 3 },
         { 40113, 3 },
         { 40114, 3 },

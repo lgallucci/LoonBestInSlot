@@ -66,13 +66,14 @@ public class ItemSpecFileManager
         GAndESB.AppendLine($"local spec3 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"3\")");
         GAndESB.AppendLine($"local spec4 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"4\")");
 
-        string specString = "spec";
-
         GAndESB.AppendLine();
         foreach (var gem in gems)
         {
+            string specString = "spec";
+
             if (gem.Value.Phase > 0)
                 specString += gem.Value.Phase;
+
             GAndESB.AppendLine($"LBIS:AddGem({specString}, \"{gem.Value.GemId}\", \"{gem.Value.Quality}\", \"{gem.Value.IsMeta.ToString()}\") --{gem.Value.Name}");
         }
         GAndESB.AppendLine();
@@ -80,6 +81,8 @@ public class ItemSpecFileManager
         var previousSlot = "LBIS.L[\"Head\"]";
         foreach (var enchant in enchants)
         {
+            string specString = "spec";
+
             if (previousSlot != enchant.Value.Slot)
             {
                 previousSlot = enchant.Value.Slot;

@@ -5,13 +5,13 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "4")
 
 LBIS:AddGem(spec, "41285", "3", "True") --Chaotic Skyflare Diamond
-LBIS:AddGem(spec, "40113", "4", "False") --Runed Cardinal Ruby
+LBIS:AddGem(spec3, "40113", "4", "False") --Runed Cardinal Ruby
 LBIS:AddGem(spec, "39998", "3", "False") --Runed Scarlet Ruby
-LBIS:AddGem(spec, "40155", "4", "False") --Reckless Ametrine
+LBIS:AddGem(spec3, "40155", "4", "False") --Reckless Ametrine
 LBIS:AddGem(spec, "40051", "3", "False") --Reckless Monarch Topaz
-LBIS:AddGem(spec, "40153", "4", "False") --Veiled Ametrine
+LBIS:AddGem(spec3, "40153", "4", "False") --Veiled Ametrine
 LBIS:AddGem(spec, "40049", "3", "False") --Veiled Monarch Topaz
-LBIS:AddGem(spec, "40133", "4", "False") --Purified Dreadstone
+LBIS:AddGem(spec3, "40133", "4", "False") --Purified Dreadstone
 LBIS:AddGem(spec, "40026", "3", "False") --Purified Twilight Opal
 LBIS:AddGem(spec, "42144", "4", "False") --Runed Dragon's Eye
 
