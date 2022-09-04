@@ -1,16 +1,21 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Frost"], "0")
-LBIS:AddGem(spec, "41398", "True") --Relentless Earthsiege Diamond
-LBIS:AddGem(spec, "41285", "True") --Chaotic Skyflare Diamond
-LBIS:AddGem(spec, "32410", "True") --Thundering Skyfire Diamond
-LBIS:AddGem(spec, "39996", "False") --Bold Scarlet Ruby
-LBIS:AddGem(spec, "40003", "False") --Precise Scarlet Ruby
-LBIS:AddGem(spec, "39999", "False") --Bright Scarlet Ruby
-LBIS:AddGem(spec, "40014", "False") --Rigid Autumn's Glow
-LBIS:AddGem(spec, "40038", "False") --Etched Monarch Topaz
-LBIS:AddGem(spec, "40037", "False") --Inscribed Monarch Topaz
-LBIS:AddGem(spec, "40041", "False") --Fierce Monarch Topaz
-LBIS:AddGem(spec, "49110", "False") --Nightmare Tear
-LBIS:AddGem(spec, "42702", "False") --Enchanted Tear
+local spec1 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Frost"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Frost"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Frost"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Frost"], "4")
+
+LBIS:AddGem(spec, "41398", "3", "True") --Relentless Earthsiege Diamond
+LBIS:AddGem(spec, "41285", "3", "True") --Chaotic Skyflare Diamond
+LBIS:AddGem(spec, "32410", "3", "True") --Thundering Skyfire Diamond
+LBIS:AddGem(spec, "39996", "3", "False") --Bold Scarlet Ruby
+LBIS:AddGem(spec, "40003", "3", "False") --Precise Scarlet Ruby
+LBIS:AddGem(spec, "39999", "3", "False") --Bright Scarlet Ruby
+LBIS:AddGem(spec, "40014", "3", "False") --Rigid Autumn's Glow
+LBIS:AddGem(spec, "40038", "3", "False") --Etched Monarch Topaz
+LBIS:AddGem(spec, "40037", "3", "False") --Inscribed Monarch Topaz
+LBIS:AddGem(spec, "40041", "3", "False") --Fierce Monarch Topaz
+LBIS:AddGem(spec, "49110", "4", "False") --Nightmare Tear
+LBIS:AddGem(spec, "42702", "3", "False") --Enchanted Tear
 
 
 LBIS:AddEnchant(spec, "44879", LBIS.L["Head"]) --Arcanum of Torment

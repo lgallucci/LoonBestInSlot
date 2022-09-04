@@ -1,18 +1,23 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Combat"], "0")
-LBIS:AddGem(spec, "41398", "True") --Relentless Earthsiege Diamond
-LBIS:AddGem(spec, "41400", "True") --Thundering Skyflare Diamond
-LBIS:AddGem(spec, "40114", "False") --Bright Cardinal Ruby
-LBIS:AddGem(spec, "39999", "False") --Bright Scarlet Ruby
-LBIS:AddGem(spec, "40125", "False") --Rigid King's Amber
-LBIS:AddGem(spec, "40014", "False") --Rigid Autumn's Glow
-LBIS:AddGem(spec, "40162", "False") --Accurate Ametrine
-LBIS:AddGem(spec, "40157", "False") --Pristine Ametrine
-LBIS:AddGem(spec, "40159", "False") --Stark Ametrine
-LBIS:AddGem(spec, "40058", "False") --Accurate Monarch Topaz
-LBIS:AddGem(spec, "40053", "False") --Pristine Monarch Topaz
-LBIS:AddGem(spec, "40055", "False") --Stark Monarch Topaz
-LBIS:AddGem(spec, "49110", "False") --Nightmare Tear
-LBIS:AddGem(spec, "42702", "False") --Enchanted Tear
+local spec1 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Combat"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Combat"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Combat"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Combat"], "4")
+
+LBIS:AddGem(spec, "41398", "3", "True") --Relentless Earthsiege Diamond
+LBIS:AddGem(spec, "41400", "3", "True") --Thundering Skyflare Diamond
+LBIS:AddGem(spec, "40114", "4", "False") --Bright Cardinal Ruby
+LBIS:AddGem(spec, "39999", "3", "False") --Bright Scarlet Ruby
+LBIS:AddGem(spec, "40125", "4", "False") --Rigid King's Amber
+LBIS:AddGem(spec, "40014", "3", "False") --Rigid Autumn's Glow
+LBIS:AddGem(spec, "40162", "4", "False") --Accurate Ametrine
+LBIS:AddGem(spec, "40157", "4", "False") --Pristine Ametrine
+LBIS:AddGem(spec, "40159", "4", "False") --Stark Ametrine
+LBIS:AddGem(spec, "40058", "3", "False") --Accurate Monarch Topaz
+LBIS:AddGem(spec, "40053", "3", "False") --Pristine Monarch Topaz
+LBIS:AddGem(spec, "40055", "3", "False") --Stark Monarch Topaz
+LBIS:AddGem(spec, "49110", "4", "False") --Nightmare Tear
+LBIS:AddGem(spec, "42702", "3", "False") --Enchanted Tear
 
 
 LBIS:AddEnchant(spec, "50367", LBIS.L["Head"]) --Arcanum of Torment

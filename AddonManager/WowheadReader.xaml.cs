@@ -114,7 +114,7 @@ public partial class WowheadReader : Window
                     });
                 }
 
-                sb.AppendLine($"{gem.Value.GemId}: {gem.Value.Name} - {gem.Value.IsMeta}");
+                sb.AppendLine($"{gem.Value.GemId}: {gem.Value.Name} - {gem.Value.Quality} - {gem.Value.IsMeta}");
             }
 
             foreach (var enchant in gemsEnchants.Item2)
@@ -135,7 +135,7 @@ public partial class WowheadReader : Window
                 sb.AppendLine($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot}");
             }
 
-            new ItemSpecFileManager().WriteGemAndEnchantSpec(Constants.AddonPath + $@"Guides\GemsAndEnchants\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, cmbPhase.SelectedValue.ToString(), gemsEnchants.Item1, gemsEnchants.Item2);
+            new ItemSpecFileManager().WriteGemAndEnchantSpec(Constants.AddonPath + $@"Guides\GemsAndEnchants\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, gemsEnchants.Item1, gemsEnchants.Item2);
 
             new ItemSourceFileManager().WriteGemSources(gemSources);
             new ItemSourceFileManager().WriteEnchantSources(enchantSources);

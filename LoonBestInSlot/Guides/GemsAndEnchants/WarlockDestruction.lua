@@ -1,13 +1,18 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Destruction"], "0")
-LBIS:AddGem(spec, "41285", "True") --Chaotic Skyflare Diamond
-LBIS:AddGem(spec, "34220", "True") --Chaotic Skyfire Diamond
-LBIS:AddGem(spec, "42144", "False") --Runed Dragon's Eye
-LBIS:AddGem(spec, "40113", "False") --Runed Cardinal Ruby
-LBIS:AddGem(spec, "39998", "False") --Runed Scarlet Ruby
-LBIS:AddGem(spec, "40155", "False") --Reckless Ametrine
-LBIS:AddGem(spec, "40051", "False") --Reckless Monarch Topaz
-LBIS:AddGem(spec, "40133", "False") --Purified Dreadstone
-LBIS:AddGem(spec, "40026", "False") --Purified Twilight Opal
+local spec1 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Destruction"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Destruction"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Destruction"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Destruction"], "4")
+
+LBIS:AddGem(spec, "41285", "3", "True") --Chaotic Skyflare Diamond
+LBIS:AddGem(spec, "34220", "3", "True") --Chaotic Skyfire Diamond
+LBIS:AddGem(spec, "42144", "4", "False") --Runed Dragon's Eye
+LBIS:AddGem(spec, "40113", "4", "False") --Runed Cardinal Ruby
+LBIS:AddGem(spec, "39998", "3", "False") --Runed Scarlet Ruby
+LBIS:AddGem(spec, "40155", "4", "False") --Reckless Ametrine
+LBIS:AddGem(spec, "40051", "3", "False") --Reckless Monarch Topaz
+LBIS:AddGem(spec, "40133", "4", "False") --Purified Dreadstone
+LBIS:AddGem(spec, "40026", "3", "False") --Purified Twilight Opal
 
 
 LBIS:AddEnchant(spec, "50368", LBIS.L["Head"]) --Arcanum of Burning Mysteries

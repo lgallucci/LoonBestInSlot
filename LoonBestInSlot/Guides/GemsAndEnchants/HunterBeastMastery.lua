@@ -1,12 +1,17 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "0")
-LBIS:AddGem(spec, "41398", "True") --Relentless Earthsiege Diamond
-LBIS:AddGem(spec, "42143", "False") --Delicate Dragon's Eye
-LBIS:AddGem(spec, "39997", "False") --Delicate Scarlet Ruby
-LBIS:AddGem(spec, "40014", "False") --Rigid Autumn's Glow
-LBIS:AddGem(spec, "40044", "False") --Glinting Monarch Topaz
-LBIS:AddGem(spec, "40043", "False") --Deadly Monarch Topaz
-LBIS:AddGem(spec, "49110", "False") --Nightmare Tear
-LBIS:AddGem(spec, "42702", "False") --Enchanted Tear
+local spec1 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "4")
+
+LBIS:AddGem(spec, "41398", "3", "True") --Relentless Earthsiege Diamond
+LBIS:AddGem(spec, "42143", "4", "False") --Delicate Dragon's Eye
+LBIS:AddGem(spec, "39997", "3", "False") --Delicate Scarlet Ruby
+LBIS:AddGem(spec, "40014", "3", "False") --Rigid Autumn's Glow
+LBIS:AddGem(spec, "40044", "3", "False") --Glinting Monarch Topaz
+LBIS:AddGem(spec, "40043", "3", "False") --Deadly Monarch Topaz
+LBIS:AddGem(spec, "49110", "4", "False") --Nightmare Tear
+LBIS:AddGem(spec, "42702", "3", "False") --Enchanted Tear
 
 
 LBIS:AddEnchant(spec, "50367", LBIS.L["Head"]) --Arcanum of Torment

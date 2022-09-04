@@ -90,6 +90,10 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 	if strlen(id) <= 0 then
 		return
 	end
+
+	if LBIS.CurrentPhase < tonumber(bisEntry.Phase) then
+		return;
+	end
 	
 	if not LBIS.Items[id] then
 		LBIS.Items[id] = {}
@@ -142,10 +146,14 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 
 end
 
-function LBIS:AddGem(bisEntry, id, designId, isMeta)
+function LBIS:AddGem(bisEntry, id, quality, isMeta)
 
 	if strlen(id) <= 0 then
 		return
+	end
+
+	if LBIS.CurrentPhase < tonumber(bisEntry.Phase) then
+		return;
 	end
 	
 	if not LBIS.Gems[id] then
@@ -161,7 +169,7 @@ function LBIS:AddGem(bisEntry, id, designId, isMeta)
 			phase = "Phase "..bisEntry.Phase;
 		end
 
-		searchedItem = { Id = id, Phase = phase, DesignId = designId, IsMeta = isMeta }
+		searchedItem = { Id = id, Phase = phase, Quality = quality, IsMeta = isMeta }
 
 		if not LBIS.SpecGems[bisEntry.Id] then
 			LBIS.SpecGems[bisEntry.Id] = {}
@@ -176,6 +184,10 @@ function LBIS:AddEnchant(bisEntry, id, slot)
 
 	if strlen(id) <= 0 then
 		return
+	end
+
+	if LBIS.CurrentPhase < tonumber(bisEntry.Phase) then
+		return;
 	end
 	
 	if not LBIS.Enchants[id] then

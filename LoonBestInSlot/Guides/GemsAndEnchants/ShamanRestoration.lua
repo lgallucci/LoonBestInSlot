@@ -1,10 +1,15 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "0")
-LBIS:AddGem(spec, "41401", "True") --Insightful Earthsiege Diamond
-LBIS:AddGem(spec, "41376", "True") --Revitalizing Skyflare Diamond
-LBIS:AddGem(spec, "39998", "False") --Runed Scarlet Ruby
-LBIS:AddGem(spec, "40051", "False") --Reckless Monarch Topaz
-LBIS:AddGem(spec, "40017", "False") --Quick Autumn's Glow
-LBIS:AddGem(spec, "40027", "False") --Royal Twilight Opal
+local spec1 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "4")
+
+LBIS:AddGem(spec, "41401", "3", "True") --Insightful Earthsiege Diamond
+LBIS:AddGem(spec, "41376", "3", "True") --Revitalizing Skyflare Diamond
+LBIS:AddGem(spec, "39998", "3", "False") --Runed Scarlet Ruby
+LBIS:AddGem(spec, "40051", "3", "False") --Reckless Monarch Topaz
+LBIS:AddGem(spec, "40017", "3", "False") --Quick Autumn's Glow
+LBIS:AddGem(spec, "40027", "3", "False") --Royal Twilight Opal
 
 
 LBIS:AddEnchant(spec, "44877", LBIS.L["Head"]) --Arcanum of Burning Mysteries

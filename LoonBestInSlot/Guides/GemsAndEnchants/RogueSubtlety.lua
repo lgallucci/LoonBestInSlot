@@ -1,19 +1,24 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Subtlety"], "0")
-LBIS:AddGem(spec, "41398", "True") --Relentless Earthsiege Diamond
-LBIS:AddGem(spec, "41400", "True") --Thundering Skyflare Diamond
-LBIS:AddGem(spec, "40112", "False") --Delicate Cardinal Ruby
-LBIS:AddGem(spec, "39997", "False") --Delicate Scarlet Ruby
-LBIS:AddGem(spec, "40125", "False") --Rigid King's Amber
-LBIS:AddGem(spec, "40014", "False") --Rigid Autumn's Glow
-LBIS:AddGem(spec, "40162", "False") --Accurate Ametrine
-LBIS:AddGem(spec, "40150", "False") --Deft Ametrine
-LBIS:AddGem(spec, "40148", "False") --Glinting Ametrine
-LBIS:AddGem(spec, "40058", "False") --Accurate Monarch Topaz
-LBIS:AddGem(spec, "40046", "False") --Deft Monarch Topaz
-LBIS:AddGem(spec, "40044", "False") --Glinting Monarch Topaz
-LBIS:AddGem(spec, "49110", "False") --Nightmare Tear
-LBIS:AddGem(spec, "42702", "False") --Enchanted Tear
-LBIS:AddGem(spec, "40023", "False") --Shifting Twilight Opal
+local spec1 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Subtlety"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Subtlety"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Subtlety"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Subtlety"], "4")
+
+LBIS:AddGem(spec, "41398", "3", "True") --Relentless Earthsiege Diamond
+LBIS:AddGem(spec, "41400", "3", "True") --Thundering Skyflare Diamond
+LBIS:AddGem(spec, "40112", "4", "False") --Delicate Cardinal Ruby
+LBIS:AddGem(spec, "39997", "3", "False") --Delicate Scarlet Ruby
+LBIS:AddGem(spec, "40125", "4", "False") --Rigid King's Amber
+LBIS:AddGem(spec, "40014", "3", "False") --Rigid Autumn's Glow
+LBIS:AddGem(spec, "40162", "4", "False") --Accurate Ametrine
+LBIS:AddGem(spec, "40150", "4", "False") --Deft Ametrine
+LBIS:AddGem(spec, "40148", "4", "False") --Glinting Ametrine
+LBIS:AddGem(spec, "40058", "3", "False") --Accurate Monarch Topaz
+LBIS:AddGem(spec, "40046", "3", "False") --Deft Monarch Topaz
+LBIS:AddGem(spec, "40044", "3", "False") --Glinting Monarch Topaz
+LBIS:AddGem(spec, "49110", "4", "False") --Nightmare Tear
+LBIS:AddGem(spec, "42702", "3", "False") --Enchanted Tear
+LBIS:AddGem(spec, "40023", "3", "False") --Shifting Twilight Opal
 
 
 LBIS:AddEnchant(spec, "50367", LBIS.L["Head"]) --Arcanum of Torment

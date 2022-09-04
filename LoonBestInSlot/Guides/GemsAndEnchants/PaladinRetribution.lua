@@ -1,16 +1,21 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "0")
-LBIS:AddGem(spec, "41398", "True") --Relentless Earthsiege Diamond
-LBIS:AddGem(spec, "41285", "True") --Chaotic Skyflare Diamond
-LBIS:AddGem(spec, "42142", "False") --Bold Dragon's Eye
-LBIS:AddGem(spec, "40003", "False") --Precise Scarlet Ruby
-LBIS:AddGem(spec, "39996", "False") --Bold Scarlet Ruby
-LBIS:AddGem(spec, "40014", "False") --Rigid Autumn's Glow
-LBIS:AddGem(spec, "40037", "False") --Inscribed Monarch Topaz
-LBIS:AddGem(spec, "40038", "False") --Etched Monarch Topaz
-LBIS:AddGem(spec, "40058", "False") --Accurate Monarch Topaz
-LBIS:AddGem(spec, "49110", "False") --Nightmare Tear
-LBIS:AddGem(spec, "42702", "False") --Enchanted Tear
-LBIS:AddGem(spec, "40022", "False") --Sovereign Twilight Opal
+local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "4")
+
+LBIS:AddGem(spec, "41398", "3", "True") --Relentless Earthsiege Diamond
+LBIS:AddGem(spec, "41285", "0", "True") --Chaotic Skyflare Diamond
+LBIS:AddGem(spec, "42142", "4", "False") --Bold Dragon's Eye
+LBIS:AddGem(spec, "40003", "3", "False") --Precise Scarlet Ruby
+LBIS:AddGem(spec, "39996", "3", "False") --Bold Scarlet Ruby
+LBIS:AddGem(spec, "40014", "3", "False") --Rigid Autumn's Glow
+LBIS:AddGem(spec, "40037", "3", "False") --Inscribed Monarch Topaz
+LBIS:AddGem(spec, "40038", "3", "False") --Etched Monarch Topaz
+LBIS:AddGem(spec, "40058", "3", "False") --Accurate Monarch Topaz
+LBIS:AddGem(spec, "49110", "4", "False") --Nightmare Tear
+LBIS:AddGem(spec, "42702", "3", "False") --Enchanted Tear
+LBIS:AddGem(spec, "40022", "3", "False") --Sovereign Twilight Opal
 
 
 LBIS:AddEnchant(spec, "61117", LBIS.L["Shoulder"]) --Master's Inscription of the Axe

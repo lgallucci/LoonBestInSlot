@@ -1,33 +1,31 @@
 LBIS.GemList = {};
 
-local function IsInPhase(specGem)
-    if LBISSettings.SelectedPhase == LBIS.L["All"] then
-        return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["PreRaid"] and specGem.Phase == "PreRaid" then
-        return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 1"] and specGem.Phase == "Phase 1" then
-        return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 2"] and specGem.Phase == "Phase 2" then
-        return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 3"] and specGem.Phase == "Phase 3" then
-        return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 4"] and specGem.Phase == "Phase 4" then
-        return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 5"] and specGem.Phase == "Phase 5" then
-        return true;
-    end
-    return false;
-end
+--TODO: Hide Dropdowns not relevant to Gems
+--TODO: Show item sources for gems
+
 
 local function itemSortFunction(table, k1, k2)
 
     local item1 = table[k1];
     local item2 = table[k2];
 
+    local item1Score = 0;
+    local item2Score = 0;
+
     if item1.IsMeta == "True" then
-        return true;
+        item1Score = item1Score + 100;
+    end
+    if item2.IsMeta == "True" then
+        item2Score = item2Score + 100;
+    end
+
+    item1Score = item1Score + tonumber(item1.Quality);
+    item2Score = item2Score + tonumber(item2.Quality);
+
+    if item1Score == item2Score then
+        return item1.Id > item2.Id;
     else
-        return item1.Phase > item2.Phase;
+        return item1Score > item2Score
     end
 end
 
@@ -86,9 +84,7 @@ function LBIS.GemList:UpdateItems()
             if specGemSource == nil then
                 LBIS:Error("Missing gem source: ", specGem);
             else
-                if IsInPhase(specGem) then
-                    point = LBIS.BrowserWindow:CreateItemRow(specGem, specGemSource, point, createItemRow)
-                end
+                point = LBIS.BrowserWindow:CreateItemRow(specGem, specGemSource, point, createItemRow)
             end
         end
     end);

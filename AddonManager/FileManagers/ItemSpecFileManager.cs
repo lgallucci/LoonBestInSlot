@@ -22,7 +22,7 @@ public class ItemSpecFileManager
             }
             itemSB.AppendLine($"LBIS:AddItem(spec, \"{item.Value.ItemId}\", LBIS.L[\"{item.Value.Slot}\"], \"{item.Value.BisStatus}\") --{item.Value.Name}");
         }
-                
+
         System.IO.File.WriteAllText(path, itemSB.ToString());
     }
 
@@ -56,17 +56,24 @@ public class ItemSpecFileManager
         return items;
     }
 
-    internal void WriteGemAndEnchantSpec(string path, string className, string specName, string phaseText, Dictionary<int, GemSpec> gems, Dictionary<string, EnchantSpec> enchants)
+    internal void WriteGemAndEnchantSpec(string path, string className, string specName, Dictionary<int, GemSpec> gems, Dictionary<string, EnchantSpec> enchants)
     {
         var GAndESB = new StringBuilder();
 
-        var phaseNumber = "0";//Int32.Parse(phaseText.Replace("Phase", ""));
+        GAndESB.AppendLine($"local spec = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"0\")");
+        GAndESB.AppendLine($"local spec1 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"1\")");
+        GAndESB.AppendLine($"local spec2 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"2\")");
+        GAndESB.AppendLine($"local spec3 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"3\")");
+        GAndESB.AppendLine($"local spec4 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"4\")");
 
-        GAndESB.AppendLine($"local spec = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"{phaseNumber}\")");
+        string specString = "spec";
 
+        GAndESB.AppendLine();
         foreach (var gem in gems)
         {
-            GAndESB.AppendLine($"LBIS:AddGem(spec, \"{gem.Value.GemId}\", \"{gem.Value.IsMeta.ToString()}\") --{gem.Value.Name}");
+            if (gem.Value.Phase > 0)
+                specString += gem.Value.Phase;
+            GAndESB.AppendLine($"LBIS:AddGem({specString}, \"{gem.Value.GemId}\", \"{gem.Value.Quality}\", \"{gem.Value.IsMeta.ToString()}\") --{gem.Value.Name}");
         }
         GAndESB.AppendLine();
 
@@ -79,7 +86,7 @@ public class ItemSpecFileManager
                 GAndESB.AppendLine();
             }
 
-            GAndESB.AppendLine($"LBIS:AddEnchant(spec, \"{enchant.Value.EnchantId}\", LBIS.L[\"{enchant.Value.Slot}\"]) --{enchant.Value.Name}");
+            GAndESB.AppendLine($"LBIS:AddEnchant({specString}, \"{enchant.Value.EnchantId}\", LBIS.L[\"{enchant.Value.Slot}\"]) --{enchant.Value.Name}");
         }
         GAndESB.AppendLine();
 

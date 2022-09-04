@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Linq;
 using System.Net.Http;
 using AddonManager.Models;
 using AngleSharp;
@@ -16,6 +17,29 @@ public class WowheadGuideParser
     private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of the Tiger", "of Agility" };
 
     private Random _rand = new Random(DateTime.Now.Millisecond);
+
+    private Dictionary<int, int> _gemPhases = new Dictionary<int, int>()
+    {
+        { 40034, 3 },
+        { 40112, 3 },
+        { 40113, 3 },
+        { 40114, 3 },
+        { 40119, 3 },
+        { 40125, 3 },
+        { 40129, 3 },
+        { 40133, 3 },
+        { 40141, 3 },
+        { 40148, 3 },
+        { 40150, 3 },
+        { 40153, 3 },
+        { 40155, 3 },
+        { 40157, 3 },
+        { 40159, 3 },
+        { 40162, 3 },
+        { 40166, 3 },
+        { 40167, 3 },
+        { 45880, 3 }
+    };
 
     private Dictionary<int, int> _enchantSwaps = new Dictionary<int, int>()
     {
@@ -275,12 +299,23 @@ public class WowheadGuideParser
                             {
                                 if (_gemSwaps.ContainsKey(itemId))
                                     itemId = _gemSwaps[itemId];
+                                int itemQuality = 0;
+                                if (boxElement.ClassName.Contains("q1"))
+                                    itemQuality = 1;
+                                else if (boxElement.ClassName.Contains("q2"))
+                                    itemQuality = 2;
+                                else if (boxElement.ClassName.Contains("q3"))
+                                    itemQuality = 3;
+                                else if (boxElement.ClassName.Contains("q4"))
+                                    itemQuality = 4;
 
                                 if (!gems.ContainsKey(itemId))
                                     gems.Add(itemId, new GemSpec
                                     {
                                         GemId = itemId,
                                         Name = itemName ?? "undefined",
+                                        Phase = _gemPhases.ContainsKey(itemId) ? _gemPhases[itemId] : 0,
+                                        Quality = itemQuality,
                                         IsMeta = heading.Slot == "Meta"
                                     });
                             }

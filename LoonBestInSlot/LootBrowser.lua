@@ -282,8 +282,8 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     local zone_opts = {
         ['name']='zone',
         ['parent']=window,
-        ['title']='Zone:',
-        ['items']= { LBIS.L["All"], LBIS.L["Karazhan"], LBIS.L["Gruul's Lair"], LBIS.L["Magtheridon's Lair"], LBIS.L["Serpentshrine Cavern"], LBIS.L["Tempest Keep"], LBIS.L["Hyjal Summit"], LBIS.L["Black Temple"], LBIS.L["Zul'Aman"], LBIS.L["Sunwell Plateau"]},
+        ['title']='Raid:',
+        ['items']= { LBIS.L["All"], LBIS.L["Naxxramas"], LBIS.L["The Eye of Eternity"], LBIS.L["Vault of Archavon"], LBIS.L["Obsidian Sanctum"]},--, LBIS.L["Ulduar"], LBIS.L["Trial of the Crusader"], LBIS.L["Onyxia's Lair'"], LBIS.L["Icecrown Citadel"], LBIS.L["The Ruby Sanctum"]
         ['defaultVal']= LBISSettings.SelectedZone,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedZone = dropdown_val;

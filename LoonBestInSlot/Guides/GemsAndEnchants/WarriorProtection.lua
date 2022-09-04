@@ -1,14 +1,19 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "0")
-LBIS:AddGem(spec, "41380", "True") --Austere Earthsiege Diamond
-LBIS:AddGem(spec, "40008", "False") --Solid Sky Sapphire
-LBIS:AddGem(spec, "45880", "False") --Solid Stormjewel
-LBIS:AddGem(spec, "40034", "False") --Guardian's Twilight Opal
-LBIS:AddGem(spec, "49110", "False") --Nightmare Tear
-LBIS:AddGem(spec, "40141", "False") --Guardian's Dreadstone
-LBIS:AddGem(spec, "40089", "False") --Enduring Forest Emerald
-LBIS:AddGem(spec, "40167", "False") --Enduring Eye of Zul
-LBIS:AddGem(spec, "40088", "False") --Vivid Forest Emerald
-LBIS:AddGem(spec, "40166", "False") --Vivid Eye of Zul
+local spec1 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "4")
+
+LBIS:AddGem(spec, "41380", "3", "True") --Austere Earthsiege Diamond
+LBIS:AddGem(spec, "40008", "3", "False") --Solid Sky Sapphire
+LBIS:AddGem(spec, "45880", "4", "False") --Solid Stormjewel
+LBIS:AddGem(spec, "40034", "3", "False") --Guardian's Twilight Opal
+LBIS:AddGem(spec, "49110", "4", "False") --Nightmare Tear
+LBIS:AddGem(spec, "40141", "4", "False") --Guardian's Dreadstone
+LBIS:AddGem(spec, "40089", "3", "False") --Enduring Forest Emerald
+LBIS:AddGem(spec, "40167", "4", "False") --Enduring Eye of Zul
+LBIS:AddGem(spec, "40088", "3", "False") --Vivid Forest Emerald
+LBIS:AddGem(spec, "40166", "4", "False") --Vivid Eye of Zul
 
 
 LBIS:AddEnchant(spec, "50369", LBIS.L["Head"]) --Arcanum of the Stalwart Protector

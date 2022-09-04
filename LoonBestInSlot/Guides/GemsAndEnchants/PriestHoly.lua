@@ -1,10 +1,15 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "0")
-LBIS:AddGem(spec, "41401", "True") --Insightful Earthsiege Diamond
-LBIS:AddGem(spec, "49110", "False") --Nightmare Tear
-LBIS:AddGem(spec, "42148", "False") --Brilliant Dragon's Eye
-LBIS:AddGem(spec, "40012", "False") --Brilliant Autumn's Glow
-LBIS:AddGem(spec, "40092", "False") --Seer's Forest Emerald
-LBIS:AddGem(spec, "40047", "False") --Luminous Monarch Topaz
+local spec1 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "4")
+
+LBIS:AddGem(spec, "41401", "3", "True") --Insightful Earthsiege Diamond
+LBIS:AddGem(spec, "49110", "4", "False") --Nightmare Tear
+LBIS:AddGem(spec, "42148", "4", "False") --Brilliant Dragon's Eye
+LBIS:AddGem(spec, "40012", "3", "False") --Brilliant Autumn's Glow
+LBIS:AddGem(spec, "40092", "3", "False") --Seer's Forest Emerald
+LBIS:AddGem(spec, "40047", "3", "False") --Luminous Monarch Topaz
 
 
 LBIS:AddEnchant(spec, "50370", LBIS.L["Head"]) --Arcanum of Blissful Mending

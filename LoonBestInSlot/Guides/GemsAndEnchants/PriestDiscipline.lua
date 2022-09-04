@@ -1,10 +1,15 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Discipline"], "0")
-LBIS:AddGem(spec, "41401", "True") --Insightful Earthsiege Diamond
-LBIS:AddGem(spec, "41333", "True") --Ember Skyflare Diamond
-LBIS:AddGem(spec, "42144", "False") --Runed Dragon's Eye
-LBIS:AddGem(spec, "39998", "False") --Runed Scarlet Ruby
-LBIS:AddGem(spec, "40027", "False") --Royal Twilight Opal
-LBIS:AddGem(spec, "40047", "False") --Luminous Monarch Topaz
+local spec1 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Discipline"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Discipline"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Discipline"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Discipline"], "4")
+
+LBIS:AddGem(spec, "41401", "3", "True") --Insightful Earthsiege Diamond
+LBIS:AddGem(spec, "41333", "3", "True") --Ember Skyflare Diamond
+LBIS:AddGem(spec, "42144", "4", "False") --Runed Dragon's Eye
+LBIS:AddGem(spec, "39998", "3", "False") --Runed Scarlet Ruby
+LBIS:AddGem(spec, "40027", "3", "False") --Royal Twilight Opal
+LBIS:AddGem(spec, "40047", "3", "False") --Luminous Monarch Topaz
 
 
 LBIS:AddEnchant(spec, "50370", LBIS.L["Head"]) --Arcanum of Blissful Mending

@@ -1,20 +1,25 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "0")
-LBIS:AddGem(spec, "41380", "True") --Austere Earthsiege Diamond
-LBIS:AddGem(spec, "41396", "True") --Eternal Earthsiege Diamond
-LBIS:AddGem(spec, "41377", "True") --Effulgent Skyflare Diamond
-LBIS:AddGem(spec, "36767", "False") --Solid Dragon's Eye
-LBIS:AddGem(spec, "40008", "False") --Solid Sky Sapphire
-LBIS:AddGem(spec, "40089", "False") --Enduring Forest Emerald
-LBIS:AddGem(spec, "40102", "False") --Turbid Forest Emerald
-LBIS:AddGem(spec, "40088", "False") --Vivid Forest Emerald
-LBIS:AddGem(spec, "40031", "False") --Regal Twilight Opal
-LBIS:AddGem(spec, "40023", "False") --Shifting Twilight Opal
-LBIS:AddGem(spec, "40022", "False") --Sovereign Twilight Opal
-LBIS:AddGem(spec, "40034", "False") --Guardian's Twilight Opal
-LBIS:AddGem(spec, "42157", "False") --Thick Dragon's Eye
-LBIS:AddGem(spec, "42156", "False") --Rigid Dragon's Eye
-LBIS:AddGem(spec, "40015", "False") --Thick Autumn's Glow
-LBIS:AddGem(spec, "40014", "False") --Rigid Autumn's Glow
+local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "4")
+
+LBIS:AddGem(spec, "41380", "3", "True") --Austere Earthsiege Diamond
+LBIS:AddGem(spec, "41396", "3", "True") --Eternal Earthsiege Diamond
+LBIS:AddGem(spec, "41377", "3", "True") --Effulgent Skyflare Diamond
+LBIS:AddGem(spec, "36767", "4", "False") --Solid Dragon's Eye
+LBIS:AddGem(spec, "40008", "3", "False") --Solid Sky Sapphire
+LBIS:AddGem(spec, "40089", "3", "False") --Enduring Forest Emerald
+LBIS:AddGem(spec, "40102", "3", "False") --Turbid Forest Emerald
+LBIS:AddGem(spec, "40088", "3", "False") --Vivid Forest Emerald
+LBIS:AddGem(spec, "40031", "3", "False") --Regal Twilight Opal
+LBIS:AddGem(spec, "40023", "3", "False") --Shifting Twilight Opal
+LBIS:AddGem(spec, "40022", "3", "False") --Sovereign Twilight Opal
+LBIS:AddGem(spec, "40034", "3", "False") --Guardian's Twilight Opal
+LBIS:AddGem(spec, "42157", "4", "False") --Thick Dragon's Eye
+LBIS:AddGem(spec, "42156", "4", "False") --Rigid Dragon's Eye
+LBIS:AddGem(spec, "40015", "3", "False") --Thick Autumn's Glow
+LBIS:AddGem(spec, "40014", "3", "False") --Rigid Autumn's Glow
 
 
 LBIS:AddEnchant(spec, "50369", LBIS.L["Head"]) --Arcanum of the Stalwart Protector

@@ -1,13 +1,18 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "0")
-LBIS:AddGem(spec, "41285", "True") --Chaotic Skyflare Diamond
-LBIS:AddGem(spec, "39998", "False") --Runed Scarlet Ruby
-LBIS:AddGem(spec, "40048", "False") --Potent Monarch Topaz
-LBIS:AddGem(spec, "40051", "False") --Reckless Monarch Topaz
-LBIS:AddGem(spec, "40049", "False") --Veiled Monarch Topaz
-LBIS:AddGem(spec, "40014", "False") --Rigid Autumn's Glow
-LBIS:AddGem(spec, "40013", "False") --Smooth Autumn's Glow
-LBIS:AddGem(spec, "40017", "False") --Quick Autumn's Glow
-LBIS:AddGem(spec, "40026", "False") --Purified Twilight Opal
+local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "4")
+
+LBIS:AddGem(spec, "41285", "3", "True") --Chaotic Skyflare Diamond
+LBIS:AddGem(spec, "39998", "3", "False") --Runed Scarlet Ruby
+LBIS:AddGem(spec, "40048", "3", "False") --Potent Monarch Topaz
+LBIS:AddGem(spec, "40051", "3", "False") --Reckless Monarch Topaz
+LBIS:AddGem(spec, "40049", "3", "False") --Veiled Monarch Topaz
+LBIS:AddGem(spec, "40014", "3", "False") --Rigid Autumn's Glow
+LBIS:AddGem(spec, "40013", "3", "False") --Smooth Autumn's Glow
+LBIS:AddGem(spec, "40017", "3", "False") --Quick Autumn's Glow
+LBIS:AddGem(spec, "40026", "3", "False") --Purified Twilight Opal
 
 
 LBIS:AddEnchant(spec, "50368", LBIS.L["Head"]) --Arcanum of Burning Mysteries
