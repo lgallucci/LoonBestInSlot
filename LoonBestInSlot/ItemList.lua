@@ -296,9 +296,19 @@ local function createItemRow(f, specItem, specItemSource)
 end
 
 function LBIS.ItemList:UpdateItems()
+    
+    LBIS.BrowserWindow.Window.SlotDropDown:Show();
+    LBIS.BrowserWindow.Window.PhaseDropDown:Show();
+    LBIS.BrowserWindow.Window.SourceDropDown:Show();
+    LBIS.BrowserWindow.Window.RaidDropDown:Show();
+
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
         
         local specItems = LBIS.SpecItems[LBIS.SpecToName[LBISSettings.SelectedSpec]];
+               
+        if specItems == nil then
+            LBIS.BrowserWindow.Window.Unavailable:Show();
+        end
 
         for itemId, specItem in LBIS:spairs(specItems, itemSortFunction) do
             

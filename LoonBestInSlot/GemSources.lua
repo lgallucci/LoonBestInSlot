@@ -1,7 +1,7 @@
 LBIS.GemSources =
 {
     [32410] = { Name = "Thundering Skyfire Diamond", DesignId = "32411", Source = LBIS.L["World Drop"], SourceLocation = "" },
-    [34220] = { Name = "Chaotic Skyfire Diamond", DesignId = "34220", Source = LBIS.L["Coilskar Siren"], SourceLocation = LBIS.L["Shadowmoon Valley"] },
+    [34220] = { Name = "Chaotic Skyfire Diamond", DesignId = "34689", Source = LBIS.L["Coilskar Siren"], SourceLocation = LBIS.L["Shadowmoon Valley"] },
     [36767] = { Name = "Solid Dragon's Eye", DesignId = "42311", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
     [39996] = { Name = "Bold Scarlet Ruby", DesignId = "41576", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
     [39997] = { Name = "Delicate Scarlet Ruby", DesignId = "41577", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },

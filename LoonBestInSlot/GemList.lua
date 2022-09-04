@@ -1,7 +1,6 @@
 LBIS.GemList = {};
 
 --TODO: Hide Dropdowns not relevant to Gems
---TODO: Show item sources for gems
 
 
 local function itemSortFunction(table, k1, k2)
@@ -63,20 +62,45 @@ local function createItemRow(f, specGem, specGemSource)
                 b2:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
 
                 LBIS:SetTooltipOnButton(b2, designItem);
-        
-                t2 = f:CreateFontString(nil, nil, "GameFontNormal");
-                t2:SetText((designItem.Link or designItem.Name):gsub("[%[%]]", ""));
-                t2:SetPoint("TOPLEFT", b2, "TOPRIGHT", 2, -2);
+
+                d = f:CreateFontString(nil, nil, "GameFontNormal");
+                d:SetText(specGemSource.Source);
+                d:SetJustifyH("LEFT");
+                d:SetPoint("TOPLEFT", b2, "TOPRIGHT", 2, -2);
+
+                dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
+                dl:SetText(specGemSource.SourceLocation);
+                dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
             end); 
+        else
+            d = f:CreateFontString(nil, nil, "GameFontNormal");
+            d:SetText(specGemSource.Source);
+            d:SetJustifyH("LEFT");
+            d:SetWidth(window.ScrollFrame:GetWidth() / 2);
+            d:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
+
+            dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
+            dl:SetText(specGemSource.SourceLocation);
+            dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);            
         end
     end);
 end
 
 function LBIS.GemList:UpdateItems()
+
+    LBIS.BrowserWindow.Window.SlotDropDown:Hide();
+    LBIS.BrowserWindow.Window.PhaseDropDown:Hide();
+    LBIS.BrowserWindow.Window.SourceDropDown:Hide();
+    LBIS.BrowserWindow.Window.RaidDropDown:Hide();
+
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
 
         local specGems = LBIS.SpecGems[LBIS.SpecToName[LBISSettings.SelectedSpec]];
         
+        if specGems == nil then
+            LBIS.BrowserWindow.Window.Unavailable:Show();
+        end
+
         for gemId, specGem in LBIS:spairs(specGems, itemSortFunction) do
         
             local specGemSource = LBIS.GemSources[tonumber(specGem.Id)];

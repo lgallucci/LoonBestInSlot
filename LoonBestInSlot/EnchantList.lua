@@ -135,10 +135,20 @@ local function createItemRow(f, specEnchant, specEnchantSource)
 end
     
 function LBIS.EnchantList:UpdateItems()    
+
+    LBIS.BrowserWindow.Window.SlotDropDown:Show();
+    LBIS.BrowserWindow.Window.PhaseDropDown:Hide();
+    LBIS.BrowserWindow.Window.SourceDropDown:Hide();
+    LBIS.BrowserWindow.Window.RaidDropDown:Hide();
+
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
 
         local specEnchants = LBIS.SpecEnchants[LBIS.SpecToName[LBISSettings.SelectedSpec]];
-        
+                
+        if specEnchants == nil then
+            LBIS.BrowserWindow.Window.Unavailable:Show();
+        end
+
         for enchantId, specEnchant in LBIS:spairs(specEnchants, itemSortFunction) do
         
             local specEnchantSource = LBIS.EnchantSources[tonumber(specEnchant.Id)];

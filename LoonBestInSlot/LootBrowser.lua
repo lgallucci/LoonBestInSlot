@@ -83,6 +83,8 @@ function LBIS.BrowserWindow:UpdateItemsForSpec(rowFunc)
         return;
     end
 
+    LBIS.BrowserWindow.Window.Unavailable:Hide();
+
     local window = LBIS.BrowserWindow.Window;
     local point = -2;
     local function clear_content(self)
@@ -177,6 +179,94 @@ function createTabs(window, content)
     PanelTemplates_SetTab(content, 1);
 end
 
+function createDropDowns(window)
+    local getSpecList = function()
+        local specList = {};
+        for specId, spec in pairs(LBIS.ClassSpec) do
+
+            local specString = spec.Class;
+            if strlen(spec.Spec) > 0 then
+                specString = spec.Spec.." "..specString;
+            end
+            table.insert(specList, specString)
+            LBIS.SpecToName[specString] = specId;
+        end
+        table.sort(specList);
+        return specList;
+    end
+
+    local spec_opts = {
+        ['name']='spec',
+        ['parent']=window,
+        ['title']='Spec:',
+        ['items']= getSpecList(),
+        ['defaultVal']=LBISSettings.SelectedSpec,
+        ['changeFunc']=function(dropdown_frame, dropdown_val)
+            LBISSettings.SelectedSpec = dropdown_val;
+            LBIS.BrowserWindow:RefreshItems();
+        end
+    }
+    window.SpecDropDown = LBIS:CreateDropdown(spec_opts);
+    window.SpecDropDown:SetPoint("TOPLEFT", window, 30, -28);    
+
+    local slot_opts = {
+        ['name']='slot',
+        ['parent']=window,
+        ['title']='Slot:',
+        ['items']= { LBIS.L["All"], LBIS.L["Head"], LBIS.L["Shoulder"], LBIS.L["Back"], LBIS.L["Chest"], LBIS.L["Wrist"], LBIS.L["Hands"], LBIS.L["Waist"], LBIS.L["Legs"], LBIS.L["Feet"], LBIS.L["Neck"], LBIS.L["Ring"], LBIS.L["Trinket"], LBIS.L["Main Hand"], LBIS.L["Off Hand"], LBIS.L["Two Hand"], LBIS.L["Shield"], LBIS.L["Ranged"], LBIS.L["Wand"], LBIS.L["Totem"], LBIS.L["Idol"], LBIS.L["Libram"], LBIS.L["Relic"]},        
+        ['defaultVal']=LBISSettings.SelectedSlot,
+        ['changeFunc']=function(dropdown_frame, dropdown_val)
+            LBISSettings.SelectedSlot = dropdown_val;
+            LBIS.BrowserWindow:RefreshItems()
+        end
+    }
+    window.SlotDropDown = LBIS:CreateDropdown(slot_opts);
+    window.SlotDropDown:SetPoint("TOPLEFT", window, 200, -28);
+
+    local phase_opts = {
+        ['name']='phase',
+        ['parent']=window,
+        ['title']='Phase:',
+        ['items']= { LBIS.L["All"], LBIS.L["PreRaid"], LBIS.L["Phase 1"], "BIS" },
+        ['defaultVal']=LBISSettings.SelectedPhase,
+        ['changeFunc']=function(dropdown_frame, dropdown_val)
+            LBISSettings.SelectedPhase = dropdown_val;
+            LBIS.BrowserWindow:RefreshItems();
+        end
+    }
+    window.PhaseDropDown = LBIS:CreateDropdown(phase_opts);
+    window.PhaseDropDown:SetPoint("TOPLEFT", window, 350, -28);
+
+    local source_opts = {
+        ['name']='source',
+        ['parent']=window,
+        ['title']='Source:',
+        ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Dungeon Token"], LBIS.L["Vendor"], LBIS.L["Quest"], LBIS.L["PvP"], LBIS.L["Transmute"] },
+        ['defaultVal']= LBISSettings.SelectedSourceType,
+        ['changeFunc']=function(dropdown_frame, dropdown_val)
+            LBISSettings.SelectedSourceType = dropdown_val;
+            LBIS.BrowserWindow:RefreshItems();
+        end
+    }
+    window.SourceDropDown = LBIS:CreateDropdown(source_opts);
+    window.SourceDropDown:SetPoint("TOPLEFT", window, 475, -28);
+
+    local zone_opts = {
+        ['name']='zone',
+        ['parent']=window,
+        ['title']='Raid:',
+        ['items']= { LBIS.L["All"], LBIS.L["Naxxramas"], LBIS.L["The Eye of Eternity"], LBIS.L["Vault of Archavon"], LBIS.L["Obsidian Sanctum"]},--, LBIS.L["Ulduar"], LBIS.L["Trial of the Crusader"], LBIS.L["Onyxia's Lair'"], LBIS.L["Icecrown Citadel"], LBIS.L["The Ruby Sanctum"]
+        ['defaultVal']= LBISSettings.SelectedZone,
+        ['changeFunc']=function(dropdown_frame, dropdown_val)
+            LBISSettings.SelectedZone = dropdown_val;
+            LBIS.BrowserWindow:RefreshItems();
+        end
+    }
+    window.RaidDropDown = LBIS:CreateDropdown(zone_opts);
+    window.RaidDropDown:SetPoint("TOPLEFT", window, 625, -28);
+
+end
+
 function LBIS.BrowserWindow:CreateBrowserWindow()
     local step = 25;
 
@@ -208,90 +298,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
 
     window:RegisterForDrag("LeftButton");
 
-    local getSpecList = function()
-        local specList = {};
-        for specId, spec in pairs(LBIS.ClassSpec) do
-
-            local specString = spec.Class;
-            if strlen(spec.Spec) > 0 then
-                specString = spec.Spec.." "..specString;
-            end
-            table.insert(specList, specString)
-            LBIS.SpecToName[specString] = specId;
-        end
-        table.sort(specList);
-        return specList;
-    end
-
-    local spec_opts = {
-        ['name']='spec',
-        ['parent']=window,
-        ['title']='Spec:',
-        ['items']= getSpecList(),
-        ['defaultVal']=LBISSettings.SelectedSpec,
-        ['changeFunc']=function(dropdown_frame, dropdown_val)
-            LBISSettings.SelectedSpec = dropdown_val;
-            LBIS.BrowserWindow:RefreshItems();
-        end
-    }
-    local specDropDown = LBIS:CreateDropdown(spec_opts);
-    specDropDown:SetPoint("TOPLEFT", window, 30, -28);    
-
-    local slot_opts = {
-        ['name']='slot',
-        ['parent']=window,
-        ['title']='Slot:',
-        ['items']= { LBIS.L["All"], LBIS.L["Head"], LBIS.L["Shoulder"], LBIS.L["Back"], LBIS.L["Chest"], LBIS.L["Wrist"], LBIS.L["Hands"], LBIS.L["Waist"], LBIS.L["Legs"], LBIS.L["Feet"], LBIS.L["Neck"], LBIS.L["Ring"], LBIS.L["Trinket"], LBIS.L["Main Hand"], LBIS.L["Off Hand"], LBIS.L["Two Hand"], LBIS.L["Shield"], LBIS.L["Ranged"], LBIS.L["Wand"], LBIS.L["Totem"], LBIS.L["Idol"], LBIS.L["Libram"], LBIS.L["Relic"]},        
-        ['defaultVal']=LBISSettings.SelectedSlot,
-        ['changeFunc']=function(dropdown_frame, dropdown_val)
-            LBISSettings.SelectedSlot = dropdown_val;
-            LBIS.BrowserWindow:RefreshItems()
-        end
-    }
-    local slotDropDown = LBIS:CreateDropdown(slot_opts);
-    slotDropDown:SetPoint("TOPLEFT", window, 200, -28);
-
-    local phase_opts = {
-        ['name']='phase',
-        ['parent']=window,
-        ['title']='Phase:',
-        ['items']= { LBIS.L["All"], LBIS.L["PreRaid"], LBIS.L["Phase 1"], "BIS" },
-        ['defaultVal']=LBISSettings.SelectedPhase,
-        ['changeFunc']=function(dropdown_frame, dropdown_val)
-            LBISSettings.SelectedPhase = dropdown_val;
-            LBIS.BrowserWindow:RefreshItems();
-        end
-    }
-    local slotDropDown = LBIS:CreateDropdown(phase_opts);
-    slotDropDown:SetPoint("TOPLEFT", window, 350, -28);
-
-    local source_opts = {
-        ['name']='source',
-        ['parent']=window,
-        ['title']='Source:',
-        ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Dungeon Token"], LBIS.L["Vendor"], LBIS.L["Quest"], LBIS.L["PvP"], LBIS.L["Transmute"] },
-        ['defaultVal']= LBISSettings.SelectedSourceType,
-        ['changeFunc']=function(dropdown_frame, dropdown_val)
-            LBISSettings.SelectedSourceType = dropdown_val;
-            LBIS.BrowserWindow:RefreshItems();
-        end
-    }
-    local slotDropDown = LBIS:CreateDropdown(source_opts);
-    slotDropDown:SetPoint("TOPLEFT", window, 475, -28);
-
-    local zone_opts = {
-        ['name']='zone',
-        ['parent']=window,
-        ['title']='Raid:',
-        ['items']= { LBIS.L["All"], LBIS.L["Naxxramas"], LBIS.L["The Eye of Eternity"], LBIS.L["Vault of Archavon"], LBIS.L["Obsidian Sanctum"]},--, LBIS.L["Ulduar"], LBIS.L["Trial of the Crusader"], LBIS.L["Onyxia's Lair'"], LBIS.L["Icecrown Citadel"], LBIS.L["The Ruby Sanctum"]
-        ['defaultVal']= LBISSettings.SelectedZone,
-        ['changeFunc']=function(dropdown_frame, dropdown_val)
-            LBISSettings.SelectedZone = dropdown_val;
-            LBIS.BrowserWindow:RefreshItems();
-        end
-    }
-    local slotDropDown = LBIS:CreateDropdown(zone_opts);
-    slotDropDown:SetPoint("TOPLEFT", window, 625, -28);
+    createDropDowns(window);
 
     local header = window:CreateFontString();
     header:SetFont("Fonts\\FRIZQT__.TTF", 12); -- Fonts\\ARIALN.TTF - Fonts\\SKURRI.TTF -  -
@@ -357,11 +364,21 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     window:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end);    
 
     createTabs(window, content);
+    
+	local f = CreateFrame("Frame", name, content);				
+	t = f:CreateFontString(nil, nil, "GameFontNormal");
+	t:SetText("Wowhead Guide not available");
+	t:SetPoint("CENTER");				
+	f:SetSize(scrollframe:GetWidth(), scrollframe:GetHeight());
+	f:ClearAllPoints();
+	f:SetPoint("TOPLEFT", content, 0, point);
+    f:Hide();
 
     LBIS.BrowserWindow.Window = window;
     LBIS.BrowserWindow.Window.ScrollFrame = scrollframe;
     LBIS.BrowserWindow.Window.ScrollBar = scrollbar;
-    LBIS.BrowserWindow.Window.Container = content;
+    LBIS.BrowserWindow.Window.Container = content;    
+    LBIS.BrowserWindow.Window.Unavailable = f;
 
     LBIS:RegisterTooltip();
 
