@@ -85,6 +85,8 @@ public class WowheadGuideParser
         { "mit", "Mit" },
         { "def", "Mit" },
         { "armor", "Mit" },
+        { "dodge", "Mit" },
+        { "parry", "Mit" },
         { "threat", "Thrt" }
     };
 
