@@ -2,7 +2,7 @@ local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "0")
 
 LBIS:AddItem(spec, "41387", LBIS.L["Head"], "BIS") --Tempered Titansteel Helm
 LBIS:AddItem(spec, "42549", LBIS.L["Head"], "Alt") --Armored Titanium Goggles
-LBIS:AddItem(spec, "37633", LBIS.L["Head"], "Alt") --Ground Tremor Helm
+LBIS:AddItem(spec, "37633", LBIS.L["Head"], "BIS") --Ground Tremor Helm
 LBIS:AddItem(spec, "37135", LBIS.L["Head"], "Alt") --Arcane-Shielded Helm
 LBIS:AddItem(spec, "36969", LBIS.L["Head"], "Alt") --Helm of the Ley-Guardian
 LBIS:AddItem(spec, "34401", LBIS.L["Head"], "Alt") --Helm of Uther's Resolve
@@ -13,10 +13,10 @@ LBIS:AddItem(spec, "40673", LBIS.L["Head"], "Alt") --Tempered Saronite Helm
 LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "BIS") --Pauldrons of Perseverance
 LBIS:AddItem(spec, "37635", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Colossus
 LBIS:AddItem(spec, "37814", LBIS.L["Shoulder"], "Alt") --Iron Dwarf Smith Pauldrons
-LBIS:AddItem(spec, "40675", LBIS.L["Shoulder"], "BIS") --Tempered Saronite Shoulders
+LBIS:AddItem(spec, "40675", LBIS.L["Shoulder"], "Alt") --Tempered Saronite Shoulders
 LBIS:AddItem(spec, "44373", LBIS.L["Shoulder"], "Alt") --Pauldrons of Reconnaissance
 
-LBIS:AddItem(spec, "43565", LBIS.L["Back"], "BIS") --Durable Nerubhide Cape
+LBIS:AddItem(spec, "43565", LBIS.L["Back"], "Alt") --Durable Nerubhide Cape
 LBIS:AddItem(spec, "44188", LBIS.L["Back"], "Alt") --Cloak of Peaceful Resolutions
 LBIS:AddItem(spec, "37728", LBIS.L["Back"], "Alt") --Cloak of the Enemy
 LBIS:AddItem(spec, "44026", LBIS.L["Back"], "Alt") --Bloodbane's Resolve
@@ -28,7 +28,7 @@ LBIS:AddItem(spec, "43586", LBIS.L["Chest"], "Alt") --Icebane Chestguard
 LBIS:AddItem(spec, "37658", LBIS.L["Chest"], "Alt") --Sun-Emblazoned Chestplate
 LBIS:AddItem(spec, "37735", LBIS.L["Chest"], "Alt") --Ziggurat Imprinted Chestguard
 
-LBIS:AddItem(spec, "37620", LBIS.L["Wrist"], "BIS") --Bracers of the Herald
+LBIS:AddItem(spec, "37620", LBIS.L["Wrist"], "Alt") --Bracers of the Herald
 LBIS:AddItem(spec, "37682", LBIS.L["Wrist"], "Alt") --Bindings of Dark Will
 LBIS:AddItem(spec, "37040", LBIS.L["Wrist"], "Alt") --Svala's Bloodied Shackles
 LBIS:AddItem(spec, "44341", LBIS.L["Wrist"], "Alt") --Bracers of Reverence
@@ -49,7 +49,7 @@ LBIS:AddItem(spec, "37801", LBIS.L["Waist"], "Alt") --Waistguard of the Risen Kn
 
 LBIS:AddItem(spec, "43500", LBIS.L["Legs"], "BIS") --Bolstered Legplates
 LBIS:AddItem(spec, "37292", LBIS.L["Legs"], "Alt") --Ley-Guardian's Legguards
-LBIS:AddItem(spec, "44240", LBIS.L["Legs"], "BIS") --Special Issue Legplates
+LBIS:AddItem(spec, "44240", LBIS.L["Legs"], "Alt") --Special Issue Legplates
 LBIS:AddItem(spec, "34382", LBIS.L["Legs"], "Alt") --Judicator's Legguards
 LBIS:AddItem(spec, "34167", LBIS.L["Legs"], "Transmute BIS") --Legplates of the Holy Juggernaut
 LBIS:AddItem(spec, "37688", LBIS.L["Legs"], "Alt") --Legplates of the Infinite Drakonid

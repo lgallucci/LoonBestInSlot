@@ -82,14 +82,15 @@ LBIS:AddItem(spec, "43573", LBIS.L["Trinket"], "Alt") --Tears of Bitter Anguish
 LBIS:AddItem(spec, "34427", LBIS.L["Trinket"], "Alt") --Blackened Naaru Sliver
 LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "Alt") --Dragonspine Trophy
 
-LBIS:AddItem(spec, "45085", LBIS.L["Main Hand"], "BIS (2.5 MH)") --Titansteel Spellblade
-LBIS:AddItem(spec, "40704", LBIS.L["Main Hand"], "BIS (2.5 OH)") --Pride
-LBIS:AddItem(spec, "41384", LBIS.L["Main Hand"], "BIS (2.5 MH)") --Titansteel Guardian
-LBIS:AddItem(spec, "41383", LBIS.L["Main Hand"], "BIS (2.5 MH)") --Titansteel Bonecrusher
-LBIS:AddItem(spec, "37693", LBIS.L["Main Hand"], "Alt (MH)") --Greed
-LBIS:AddItem(spec, "37871", LBIS.L["Main Hand"], "Alt (OH)") --The Key
-LBIS:AddItem(spec, "34331", LBIS.L["Main Hand"], "Alt (MH)") --Hand of the Deceiver
-LBIS:AddItem(spec, "34346", LBIS.L["Main Hand"], "Alt (OH)") --Mounting Vengeance
+LBIS:AddItem(spec, "45085", LBIS.L["Main Hand"], "BIS") --Titansteel Spellblade
+LBIS:AddItem(spec, "41384", LBIS.L["Main Hand"], "BIS") --Titansteel Guardian
+LBIS:AddItem(spec, "41383", LBIS.L["Main Hand"], "BIS") --Titansteel Bonecrusher
+LBIS:AddItem(spec, "37693", LBIS.L["Main Hand"], "Alt") --Greed
+LBIS:AddItem(spec, "34331", LBIS.L["Main Hand"], "Alt") --Hand of the Deceiver
+
+LBIS:AddItem(spec, "40704", LBIS.L["Off Hand"], "BIS") --Pride
+LBIS:AddItem(spec, "37871", LBIS.L["Off Hand"], "Alt") --The Key
+LBIS:AddItem(spec, "34346", LBIS.L["Off Hand"], "Alt") --Mounting Vengeance
 
 LBIS:AddItem(spec, "40708", LBIS.L["Totem"], "BIS") --Totem of the Elemental Plane
 LBIS:AddItem(spec, "37575", LBIS.L["Totem"], "Alt") --Totem of the Tundra

@@ -1,7 +1,10 @@
 ﻿using System.IO;
+using System.Security;
 using System.Windows;
 using AddonManager.FileManagers;
 using AddonManager.Models;
+using AngleSharp.Dom;
+using AngleSharp.Html;
 using Newtonsoft.Json;
 using PuppeteerSharp;
 
@@ -116,7 +119,11 @@ public partial class WowheadReader : Window
                 else
                     result = await ImportClass(specMapping, phaseNumber);
 
-                ConsoleOut.Text += $"{spec} Completed!" + Environment.NewLine;
+                ConsoleOut.Text += $"{spec} Completed! - Verification Passed!" + Environment.NewLine;
+            }
+            catch (VerificationException vex)
+            {
+                ConsoleOut.Text += $"{spec} Completed! - Verification Failed! - {vex.Message.Substring(0, 150)}..." + Environment.NewLine;
             }
             catch (ParseException ex)
             {
@@ -188,9 +195,26 @@ public partial class WowheadReader : Window
         return sb.ToString();
     }
 
+    private bool VerifyGuide(Dictionary<int, ItemSpec> items)
+    {
+        bool verificationSucceeded = true;
+        var allowableWords = new string[] { "BIS", "Alt", "Transmute", "Stam", "Mit", "Thrt" };
+
+        foreach(var item in items)
+        {
+            foreach (var bisWord in item.Value.BisStatus.Split(" "))
+            {
+                if (bisWord != null && !allowableWords.Any((w) => w == bisWord))
+                    throw new VerificationException($"Spec ({item.Value.Name}) created with word ({bisWord})");
+            }
+        }
+        return verificationSucceeded;
+    }
+
     private async Task<string> ImportClass(ClassGuideMapping classGuide, int phaseNumber)
     {
         var sb = new StringBuilder();
+        var items = new Dictionary<int, ItemSpec>();
         try
         {
             var itemSources = new ItemSourceFileManager().ReadItemSources();
@@ -199,7 +223,7 @@ public partial class WowheadReader : Window
 
             if (classGuide != null)
             {
-                var items = await new WowheadGuideParser().ParseWowheadGuide(classGuide);
+                items = await new WowheadGuideParser().ParseWowheadGuide(classGuide);
 
                 var oldItems = ExcludeItemsFromPhaseGuide(items, phaseNumber, className);
 
@@ -242,6 +266,7 @@ public partial class WowheadReader : Window
         {
             throw new ParseException(ex.ToString(), ex);
         }
+        VerifyGuide(items);
         return sb.ToString();
     }
 

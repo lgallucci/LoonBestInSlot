@@ -20,6 +20,6 @@
         <Button x:Name="btnLocalize" IsEnabled="False" Content="Localize" Margin="10,10,100,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Localize_Click"/>
         <Button x:Name="btnRefreshItems" IsEnabled="False" Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Update_Click"/>
 
-        <Button x:Name="btnConverters" IsEnabled="False" Content="Converters" Margin="10,10,175,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Converters_Click"/>
+        <Button x:Name="btnConverters" IsEnabled="False" Content="Converters" Margin="10,10,155,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Converters_Click"/>
     </Grid>
 </Window>

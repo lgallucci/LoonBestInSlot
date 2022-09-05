@@ -72,7 +72,7 @@ LBIS:AddItem(spec, "40679", LBIS.L["Neck"], "Alt") --Chained Military Gorget
 LBIS:AddItem(spec, "37646", LBIS.L["Neck"], "Alt") --Burning Skull Pendant
 LBIS:AddItem(spec, "43282", LBIS.L["Neck"], "Alt Mit") --Shadowseeker's Pendant
 LBIS:AddItem(spec, "37689", LBIS.L["Neck"], "Alt") --Pendant of the Nathrezim
-LBIS:AddItem(spec, "35680", LBIS.L["Neck"], "Alt Mit") --Amulet of Wills
+LBIS:AddItem(spec, "35680", LBIS.L["Neck"], "Alt") --Amulet of Wills
 
 LBIS:AddItem(spec, "37784", LBIS.L["Ring"], "BIS Mit") --Keystone Great-Ring
 LBIS:AddItem(spec, "34213", LBIS.L["Ring"], "BIS") --Ring of Hardened Resolve
@@ -96,7 +96,7 @@ LBIS:AddItem(spec, "37401", LBIS.L["Main Hand"], "BIS") --Red Sword of Courage
 LBIS:AddItem(spec, "37260", LBIS.L["Main Hand"], "BIS") --Cloudstrider's Waraxe
 LBIS:AddItem(spec, "37179", LBIS.L["Main Hand"], "Alt Mit") --Infantry Assault Blade
 LBIS:AddItem(spec, "36984", LBIS.L["Main Hand"], "Alt Mit") --Eternally Folded Blade
-LBIS:AddItem(spec, "37255", LBIS.L["Main Hand"], "Alt Mit") --The Interrogator
+LBIS:AddItem(spec, "37255", LBIS.L["Main Hand"], "Alt") --The Interrogator
 LBIS:AddItem(spec, "44187", LBIS.L["Main Hand"], "Alt") --Fang of Truth
 LBIS:AddItem(spec, "44735", LBIS.L["Main Hand"], "Alt") --Crescent of Brooding Fury
 LBIS:AddItem(spec, "44734", LBIS.L["Main Hand"], "Alt") --Hammer of Quiet Mourning
