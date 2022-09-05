@@ -64,8 +64,8 @@ LBIS:AddItem(spec, "39720", LBIS.L["Legs"], "Alt") --Leggings of Atrophy
 LBIS:AddItem(spec, "40376", LBIS.L["Legs"], "Alt") --Legwraps of the Defeated Dragon
 LBIS:AddItem(spec, "40398", LBIS.L["Legs"], "Alt") --Leggings of Mortal Arrogance
 
-LBIS:AddItem(spec, "40558", LBIS.L["Feet"], "BIS") --Arcanic Tramplers
 LBIS:AddItem(spec, "40519", LBIS.L["Feet"], "BIS") --Footsteps of Malygos
+LBIS:AddItem(spec, "40558", LBIS.L["Feet"], "BIS") --Arcanic Tramplers
 LBIS:AddItem(spec, "40246", LBIS.L["Feet"], "Alt") --Boots of Impetuous Ideals
 LBIS:AddItem(spec, "40750", LBIS.L["Feet"], "Alt") --Xintor's Expeditionary Boots
 LBIS:AddItem(spec, "40409", LBIS.L["Feet"], "Alt") --Boots of the Escaped Captive
@@ -93,7 +93,6 @@ LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Drag
 LBIS:AddItem(spec, "39229", LBIS.L["Trinket"], "Alt") --Embrace of the Spider
 LBIS:AddItem(spec, "40373", LBIS.L["Trinket"], "Alt") --Extract of Necromantic Power
 LBIS:AddItem(spec, "37873", LBIS.L["Trinket"], "Alt") --Mark of the War Prisoner
-LBIS:AddItem(spec, "42395", LBIS.L["Trinket"], "Alt") --Figurine - Twilight Serpent
 LBIS:AddItem(spec, "40682", LBIS.L["Trinket"], "Alt") --Sundial of the Exiled
 LBIS:AddItem(spec, "49076", LBIS.L["Trinket"], "Alt") --Mithril Pocketwatch
 
@@ -111,8 +110,8 @@ LBIS:AddItem(spec, "40300", LBIS.L["Two Hand"], "Alt") --Spire of Sunset
 LBIS:AddItem(spec, "44420", LBIS.L["Two Hand"], "Alt") --Deadly Gladiator's Focus Staff
 LBIS:AddItem(spec, "40455", LBIS.L["Two Hand"], "Alt") --Staff of Restraint
 
+LBIS:AddItem(spec, "40192", LBIS.L["Off Hand"], "BIS") --Accursed Spine
 LBIS:AddItem(spec, "40273", LBIS.L["Off Hand"], "BIS") --Surplus Limb
-LBIS:AddItem(spec, "40192", LBIS.L["Off Hand"], "Alt") --Accursed Spine
 LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "Alt") --Matriarch's Spawn
 LBIS:AddItem(spec, "40698", LBIS.L["Off Hand"], "Alt") --Ward of the Violet Citadel
 LBIS:AddItem(spec, "39199", LBIS.L["Off Hand"], "Alt") --Watchful Eye

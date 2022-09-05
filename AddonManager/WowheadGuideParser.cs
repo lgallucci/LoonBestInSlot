@@ -84,6 +84,7 @@ public class WowheadGuideParser
         { "stam", "Stam" },
         { "mit", "Mit" },
         { "def", "Mit" },
+        { "armor", "Mit" },
         { "threat", "Thrt" }
     };
 

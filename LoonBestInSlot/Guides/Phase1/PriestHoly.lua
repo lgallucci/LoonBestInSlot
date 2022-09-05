@@ -91,7 +91,7 @@ LBIS:AddItem(spec, "40412", LBIS.L["Neck"], "Alt") --Ousted Bead Necklace
 LBIS:AddItem(spec, "39392", LBIS.L["Neck"], "Alt") --Veiled Amulet of Life
 
 LBIS:AddItem(spec, "40399", LBIS.L["Ring"], "BIS") --Signet of Manifested Pain
-LBIS:AddItem(spec, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
+LBIS:AddItem(spec, "40719", LBIS.L["Ring"], "Alt") --Band of Channeled Magic
 LBIS:AddItem(spec, "40375", LBIS.L["Ring"], "Alt") --Ring of Decaying Beauty
 LBIS:AddItem(spec, "40433", LBIS.L["Ring"], "Alt") --Wyrmrest Band
 LBIS:AddItem(spec, "40108", LBIS.L["Ring"], "Alt") --Seized Beauty
@@ -127,8 +127,8 @@ LBIS:AddItem(spec, "39311", LBIS.L["Off Hand"], "Alt") --Scepter of Murmuring Sp
 
 LBIS:AddItem(spec, "39426", LBIS.L["Wand"], "BIS") --Wand of the Archlich
 LBIS:AddItem(spec, "40245", LBIS.L["Wand"], "BIS") --Fading Glow
-LBIS:AddItem(spec, "40284", LBIS.L["Wand"], "Alt") --Plague Igniter
-LBIS:AddItem(spec, "40335", LBIS.L["Wand"], "Alt") --Touch of Horror
+LBIS:AddItem(spec, "40284", LBIS.L["Wand"], "BIS") --Plague Igniter
+LBIS:AddItem(spec, "40335", LBIS.L["Wand"], "BIS") --Touch of Horror
 LBIS:AddItem(spec, "39712", LBIS.L["Wand"], "Alt") --Gemmed Wand of the Nerubians
 LBIS:AddItem(spec, "39473", LBIS.L["Wand"], "Alt") --Contortion
 LBIS:AddItem(spec, "37619", LBIS.L["Wand"], "Alt") --Wand of Ahn'kahet

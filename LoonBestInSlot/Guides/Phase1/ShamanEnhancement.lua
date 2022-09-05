@@ -7,7 +7,7 @@ LBIS:AddItem(spec, "39602", LBIS.L["Head"], "Alt") --Heroes' Earthshatter Facegu
 LBIS:AddItem(spec, "40617", LBIS.L["Head"], "Alt") --Helm of the Lost Protector
 LBIS:AddItem(spec, "40451", LBIS.L["Head"], "Alt") --Hyaline Helm of the Sniper
 LBIS:AddItem(spec, "40329", LBIS.L["Head"], "Alt") --Hood of the Exodus
-LBIS:AddItem(spec, "42551", LBIS.L["Head"], "BIS") --Truesight Ice Blinders
+LBIS:AddItem(spec, "42551", LBIS.L["Head"], "Alt") --Truesight Ice Blinders
 
 LBIS:AddItem(spec, "40524", LBIS.L["Shoulder"], "BIS") --Valorous Earthshatter Shoulderguards
 LBIS:AddItem(spec, "40638", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Protector
@@ -71,7 +71,7 @@ LBIS:AddItem(spec, "39146", LBIS.L["Neck"], "Alt") --Collar of Dissolution
 LBIS:AddItem(spec, "40065", LBIS.L["Neck"], "Alt") --Fool's Trial
 LBIS:AddItem(spec, "44658", LBIS.L["Neck"], "Alt") --Chain of the Ancient Wyrm
 LBIS:AddItem(spec, "40369", LBIS.L["Neck"], "Alt") --Icy Blast Amulet
-LBIS:AddItem(spec, "40678", LBIS.L["Neck"], "BIS") --Pendant of the Outcast Hero
+LBIS:AddItem(spec, "40678", LBIS.L["Neck"], "Alt") --Pendant of the Outcast Hero
 
 LBIS:AddItem(spec, "40474", LBIS.L["Ring"], "BIS") --Surge Needle Ring
 LBIS:AddItem(spec, "40074", LBIS.L["Ring"], "BIS") --Strong-Handed Ring

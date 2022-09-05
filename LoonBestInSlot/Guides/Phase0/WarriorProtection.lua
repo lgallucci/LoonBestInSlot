@@ -90,7 +90,7 @@ LBIS:AddItem(spec, "42341", LBIS.L["Trinket"], "Alt Stam") --Figurine - Ruby Har
 LBIS:AddItem(spec, "36993", LBIS.L["Trinket"], "Alt Mit") --Seal of the Pantheon
 LBIS:AddItem(spec, "44323", LBIS.L["Trinket"], "Alt Stam") --Indestructible Alchemist's Stone
 LBIS:AddItem(spec, "40767", LBIS.L["Trinket"], "Alt Stam") --Sonic Booster
-LBIS:AddItem(spec, "37638", LBIS.L["Trinket"], "Alt") --Offering of Sacrifice
+LBIS:AddItem(spec, "37638", LBIS.L["Trinket"], "Alt Mit") --Offering of Sacrifice
 
 LBIS:AddItem(spec, "37401", LBIS.L["Main Hand"], "BIS") --Red Sword of Courage
 LBIS:AddItem(spec, "37260", LBIS.L["Main Hand"], "BIS") --Cloudstrider's Waraxe

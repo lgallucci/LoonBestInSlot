@@ -69,6 +69,10 @@ public partial class WowheadReader : Window
             else
                 ConsoleOut.Text = await ImportClass(specMapping, phaseNumber);
         }
+        catch (VerificationException vex)
+        {
+            ConsoleOut.Text += $"{spec} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}..." + Environment.NewLine;
+        }
         catch (ParseException ex)
         {
             ConsoleOut.Text += $"{spec} Failed! - {ex.Message.Substring(0, 150)}..." + Environment.NewLine;
@@ -113,7 +117,7 @@ public partial class WowheadReader : Window
             }
             catch (VerificationException vex)
             {
-                ConsoleOut.Text += $"{spec} Completed! - Verification Failed! - {vex.Message.Substring(0, 150)}..." + Environment.NewLine;
+                ConsoleOut.Text += $"{spec} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}..." + Environment.NewLine;
             }
             catch (ParseException ex)
             {

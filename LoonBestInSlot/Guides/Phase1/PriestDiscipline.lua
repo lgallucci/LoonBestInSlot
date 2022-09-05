@@ -35,9 +35,9 @@ LBIS:AddItem(spec, "40381", LBIS.L["Chest"], "BIS") --Sympathy
 LBIS:AddItem(spec, "40449", LBIS.L["Chest"], "Alt") --Valorous Robe of Faith
 LBIS:AddItem(spec, "40625", LBIS.L["Chest"], "Alt") --Breastplate of the Lost Conqueror
 LBIS:AddItem(spec, "40602", LBIS.L["Chest"], "Alt") --Robes of Mutation
-LBIS:AddItem(spec, "44002", LBIS.L["Chest"], "BIS") --The Sanctum's Flowing Vestments
-LBIS:AddItem(spec, "39515", LBIS.L["Chest"], "BIS") --Heroes' Robe of Faith
-LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
+LBIS:AddItem(spec, "44002", LBIS.L["Chest"], "Alt") --The Sanctum's Flowing Vestments
+LBIS:AddItem(spec, "39515", LBIS.L["Chest"], "Alt") --Heroes' Robe of Faith
+LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Conqueror
 
 LBIS:AddItem(spec, "44008", LBIS.L["Wrist"], "BIS") --Unsullied Cuffs
 LBIS:AddItem(spec, "40338", LBIS.L["Wrist"], "Alt") --Bindings of Yearning
@@ -49,7 +49,7 @@ LBIS:AddItem(spec, "40303", LBIS.L["Hands"], "BIS") --Wraps of the Persecuted
 LBIS:AddItem(spec, "40445", LBIS.L["Hands"], "BIS") --Valorous Gloves of Faith
 LBIS:AddItem(spec, "40628", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Conqueror
 LBIS:AddItem(spec, "40454", LBIS.L["Hands"], "BIS") --Valorous Handwraps of Faith
-LBIS:AddItem(spec, "39733", LBIS.L["Hands"], "BIS") --Gloves of Token Respect
+LBIS:AddItem(spec, "39733", LBIS.L["Hands"], "Alt") --Gloves of Token Respect
 LBIS:AddItem(spec, "37172", LBIS.L["Hands"], "Alt") --Gloves of Glistening Runes
 LBIS:AddItem(spec, "39519", LBIS.L["Hands"], "Alt") --Heroes' Gloves of Faith
 LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "Alt") --Gloves of the Lost Conqueror
@@ -93,8 +93,8 @@ LBIS:AddItem(spec, "43992", LBIS.L["Neck"], "Alt") --Volitant Amulet
 LBIS:AddItem(spec, "40681", LBIS.L["Neck"], "Alt") --Lattice Choker of Light
 
 LBIS:AddItem(spec, "40399", LBIS.L["Ring"], "BIS") --Signet of Manifested Pain
-LBIS:AddItem(spec, "40108", LBIS.L["Ring"], "BIS") --Seized Beauty
-LBIS:AddItem(spec, "40433", LBIS.L["Ring"], "BIS") --Wyrmrest Band
+LBIS:AddItem(spec, "40108", LBIS.L["Ring"], "Alt") --Seized Beauty
+LBIS:AddItem(spec, "40433", LBIS.L["Ring"], "Alt") --Wyrmrest Band
 LBIS:AddItem(spec, "40719", LBIS.L["Ring"], "Alt") --Band of Channeled Magic
 LBIS:AddItem(spec, "40720", LBIS.L["Ring"], "Alt") --Renewal of Life
 LBIS:AddItem(spec, "40375", LBIS.L["Ring"], "Alt") --Ring of Decaying Beauty
@@ -107,6 +107,8 @@ LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Drag
 LBIS:AddItem(spec, "40258", LBIS.L["Trinket"], "Alt") --Forethought Talisman
 LBIS:AddItem(spec, "37835", LBIS.L["Trinket"], "Alt") --Je'Tze's Bell
 LBIS:AddItem(spec, "42988", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Illusion
+LBIS:AddItem(spec, "44255", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
+LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "BIS") --Figurine - Sapphire Owl
 
 LBIS:AddItem(spec, "40395", LBIS.L["Main Hand"], "BIS") --Torch of Holy Fire
 LBIS:AddItem(spec, "40488", LBIS.L["Main Hand"], "Alt") --Ice Spire Scepter
@@ -122,7 +124,7 @@ LBIS:AddItem(spec, "39281", LBIS.L["Main Hand"], "Alt") --Infection Repulser
 LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "BIS") --Matriarch's Spawn
 LBIS:AddItem(spec, "40350", LBIS.L["Off Hand"], "BIS") --Urn of Lost Memories
 LBIS:AddItem(spec, "40192", LBIS.L["Off Hand"], "BIS") --Accursed Spine
-LBIS:AddItem(spec, "44210", LBIS.L["Off Hand"], "BIS") --Faces of Doom
+LBIS:AddItem(spec, "44210", LBIS.L["Off Hand"], "Alt") --Faces of Doom
 LBIS:AddItem(spec, "39311", LBIS.L["Off Hand"], "Alt") --Scepter of Murmuring Spirits
 LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "Alt") --Handbook of Obscure Remedies
 

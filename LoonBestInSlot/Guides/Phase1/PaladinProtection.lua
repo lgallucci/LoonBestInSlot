@@ -5,7 +5,7 @@ LBIS:AddItem(spec, "40631", LBIS.L["Head"], "BIS") --Crown of the Lost Conqueror
 LBIS:AddItem(spec, "40328", LBIS.L["Head"], "Alt") --Helm of Vital Protection
 LBIS:AddItem(spec, "39640", LBIS.L["Head"], "Alt Mit") --Heroes' Redemption Faceguard
 LBIS:AddItem(spec, "40616", LBIS.L["Head"], "Alt Mit") --Helm of the Lost Conqueror
-LBIS:AddItem(spec, "39395", LBIS.L["Head"], "Alt Mit") --Thane's Tainted Greathelm
+LBIS:AddItem(spec, "39395", LBIS.L["Head"], "Alt") --Thane's Tainted Greathelm
 LBIS:AddItem(spec, "41387", LBIS.L["Head"], "Alt") --Tempered Titansteel Helm
 LBIS:AddItem(spec, "40366", LBIS.L["Head"], "Alt") --Platehelm of the Great Wyrm
 
@@ -23,7 +23,7 @@ LBIS:AddItem(spec, "43988", LBIS.L["Back"], "Alt") --Gale-Proof Cloak
 
 LBIS:AddItem(spec, "40579", LBIS.L["Chest"], "BIS Mit") --Valorous Redemption Breastplate
 LBIS:AddItem(spec, "40625", LBIS.L["Chest"], "BIS Mit") --Breastplate of the Lost Conqueror
-LBIS:AddItem(spec, "44000", LBIS.L["Chest"], "BIS Mit") --Dragonstorm Breastplate
+LBIS:AddItem(spec, "44000", LBIS.L["Chest"], "BIS") --Dragonstorm Breastplate
 LBIS:AddItem(spec, "39638", LBIS.L["Chest"], "Alt Mit") --Heroes' Redemption Breastplate
 LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "Alt Mit") --Chestguard of the Lost Conqueror
 LBIS:AddItem(spec, "40279", LBIS.L["Chest"], "Alt Mit") --Chestguard of the Exhausted
@@ -31,20 +31,20 @@ LBIS:AddItem(spec, "40203", LBIS.L["Chest"], "Alt") --Breastplate of Tormented R
 LBIS:AddItem(spec, "39398", LBIS.L["Chest"], "Alt") --Massive Skeletal Ribcage
 
 LBIS:AddItem(spec, "39764", LBIS.L["Wrist"], "BIS Mit") --Bindings of the Hapless Prey
-LBIS:AddItem(spec, "40306", LBIS.L["Wrist"], "BIS Mit") --Bracers of the Unholy Knight
+LBIS:AddItem(spec, "40306", LBIS.L["Wrist"], "BIS") --Bracers of the Unholy Knight
 LBIS:AddItem(spec, "40734", LBIS.L["Wrist"], "Alt") --Bracers of Dalaran's Parapets
-LBIS:AddItem(spec, "39467", LBIS.L["Wrist"], "Alt Mit") --Minion Bracers
+LBIS:AddItem(spec, "39467", LBIS.L["Wrist"], "Alt") --Minion Bracers
 
 LBIS:AddItem(spec, "40580", LBIS.L["Hands"], "BIS") --Valorous Redemption Handguards
 LBIS:AddItem(spec, "40628", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Conqueror
-LBIS:AddItem(spec, "39726", LBIS.L["Hands"], "BIS Mit") --Callous-Hearted Gauntlets
+LBIS:AddItem(spec, "39726", LBIS.L["Hands"], "BIS") --Callous-Hearted Gauntlets
 LBIS:AddItem(spec, "40188", LBIS.L["Hands"], "BIS Mit") --Gauntlets of the Disobedient
 LBIS:AddItem(spec, "39197", LBIS.L["Hands"], "Alt") --Gauntlets of the Master
 
 LBIS:AddItem(spec, "39759", LBIS.L["Waist"], "BIS") --Ablative Chitin Girdle
 LBIS:AddItem(spec, "39298", LBIS.L["Waist"], "BIS Mit") --Waistguard of the Tutor
-LBIS:AddItem(spec, "40263", LBIS.L["Waist"], "BIS Mit") --Fleshless Girdle
-LBIS:AddItem(spec, "40689", LBIS.L["Waist"], "Alt Mit") --Waistguard of Living Iron
+LBIS:AddItem(spec, "40263", LBIS.L["Waist"], "BIS") --Fleshless Girdle
+LBIS:AddItem(spec, "40689", LBIS.L["Waist"], "Alt") --Waistguard of Living Iron
 
 LBIS:AddItem(spec, "40589", LBIS.L["Legs"], "BIS") --Legplates of Sovereignty
 LBIS:AddItem(spec, "40583", LBIS.L["Legs"], "Alt Mit") --Valorous Redemption Legguards
@@ -56,16 +56,16 @@ LBIS:AddItem(spec, "40619", LBIS.L["Legs"], "Alt Mit") --Leggings of the Lost Co
 
 LBIS:AddItem(spec, "39717", LBIS.L["Feet"], "BIS Mit") --Inexorable Sabatons
 LBIS:AddItem(spec, "40297", LBIS.L["Feet"], "BIS") --Sabatons of Endurance
-LBIS:AddItem(spec, "40743", LBIS.L["Feet"], "BIS Mit") --Kyzoc's Ground Stompers
-LBIS:AddItem(spec, "39234", LBIS.L["Feet"], "Alt Mit") --Plague-Impervious Boots
+LBIS:AddItem(spec, "40743", LBIS.L["Feet"], "BIS") --Kyzoc's Ground Stompers
+LBIS:AddItem(spec, "39234", LBIS.L["Feet"], "Alt") --Plague-Impervious Boots
 
 LBIS:AddItem(spec, "44665", LBIS.L["Neck"], "BIS") --Nexus War Champion Beads
 LBIS:AddItem(spec, "40387", LBIS.L["Neck"], "Alt Mit") --Boundless Ambition
 LBIS:AddItem(spec, "39470", LBIS.L["Neck"], "Alt Mit") --Medallion of the Disgraced
-LBIS:AddItem(spec, "44660", LBIS.L["Neck"], "Alt Mit") --Drakescale Collar
+LBIS:AddItem(spec, "44660", LBIS.L["Neck"], "Alt") --Drakescale Collar
 LBIS:AddItem(spec, "40069", LBIS.L["Neck"], "Alt") --Heritage
 
-LBIS:AddItem(spec, "40107", LBIS.L["Ring"], "Alt Mit") --Sand-Worn Band
+LBIS:AddItem(spec, "40107", LBIS.L["Ring"], "Alt") --Sand-Worn Band
 LBIS:AddItem(spec, "40370", LBIS.L["Ring"], "Alt Mit") --Gatekeeper
 LBIS:AddItem(spec, "40718", LBIS.L["Ring"], "Alt Thrt") --Signet of the Impregnable Fortress
 LBIS:AddItem(spec, "34213", LBIS.L["Ring"], "BIS") --Ring of Hardened Resolve
@@ -87,5 +87,5 @@ LBIS:AddItem(spec, "39344", LBIS.L["Main Hand"], "Alt") --Slayer of the Lifeless
 
 LBIS:AddItem(spec, "40400", LBIS.L["Shield"], "BIS") --Wall of Terror
 LBIS:AddItem(spec, "39276", LBIS.L["Shield"], "Mit") --The Skull of Ruin
-LBIS:AddItem(spec, "40266", LBIS.L["Shield"], "Alt Mit") --Hero's Surrender
+LBIS:AddItem(spec, "40266", LBIS.L["Shield"], "Alt") --Hero's Surrender
 LBIS:AddItem(spec, "40475", LBIS.L["Shield"], "Alt Thrt") --Barricade of Eternity
