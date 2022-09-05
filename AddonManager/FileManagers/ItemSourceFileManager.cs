@@ -3,9 +3,9 @@ using AddonManager.Models;
 
 namespace AddonManager.FileManagers;
 
-public class ItemSourceFileManager
+public static class ItemSourceFileManager
 {
-    public SortedDictionary<int, ItemSource> ReadItemSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\ItemSources.lua")
+    public static SortedDictionary<int, ItemSource> ReadItemSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\ItemSources.lua")
     {
         SortedDictionary<int, ItemSource> items = new SortedDictionary<int, ItemSource>();
 
@@ -41,7 +41,7 @@ public class ItemSourceFileManager
         return items;
     }
 
-    public SortedDictionary<int, GemSource> ReadGemSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\GemSources.lua")
+    public static SortedDictionary<int, GemSource> ReadGemSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\GemSources.lua")
     {
         SortedDictionary<int, GemSource> gems = new SortedDictionary<int, GemSource>();
 
@@ -77,7 +77,7 @@ public class ItemSourceFileManager
         return gems;
     }
 
-    public SortedDictionary<int, EnchantSource> ReadEnchantSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\EnchantSources.lua")
+    public static SortedDictionary<int, EnchantSource> ReadEnchantSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\EnchantSources.lua")
     {
         SortedDictionary<int, EnchantSource> enchants = new SortedDictionary<int, EnchantSource>();
 
@@ -114,7 +114,7 @@ public class ItemSourceFileManager
         return enchants;
     }
 
-    public void WriteItemSources(SortedDictionary<int, ItemSource> sources)
+    public static void WriteItemSources(SortedDictionary<int, ItemSource> sources)
     {
         StringBuilder itemSourceSB = new StringBuilder();
 
@@ -144,7 +144,7 @@ public class ItemSourceFileManager
         System.IO.File.WriteAllText(Constants.AddonPath + "ItemSources.lua", itemSourceSB.ToString());
     }
 
-    public void WriteGemSources(SortedDictionary<int, GemSource> sources)
+    public static void WriteGemSources(SortedDictionary<int, GemSource> sources)
     {
         StringBuilder itemSourceSB = new StringBuilder();
 
@@ -173,7 +173,7 @@ public class ItemSourceFileManager
         System.IO.File.WriteAllText(Constants.AddonPath + "GemSources.lua", itemSourceSB.ToString());
     }
 
-    public void WriteEnchantSources(SortedDictionary<int, EnchantSource> sources)
+    public static void WriteEnchantSources(SortedDictionary<int, EnchantSource> sources)
     {
         StringBuilder itemSourceSB = new StringBuilder();
 

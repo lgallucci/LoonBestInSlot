@@ -5,21 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AddonManager"
         mc:Ignorable="d"
-        Title="WowheadReader" Height="768" Width="1024"
-        Loaded="Window_Loaded">
+        Title="WowheadReader" Height="768" Width="1024">
     <Grid>
-        <Button x:Name="btnImport" IsEnabled="False" Content="Import" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="Import_Click"/>
-        <Button x:Name="btnImportAll" IsEnabled="False" Content="ImportAll" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Click="ImportAll_Click"/>
+        <Button x:Name="btnImport" Content="Import" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="Import_Click"/>
+        <Button x:Name="btnImportAll" Content="ImportAll" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Click="ImportAll_Click"/>
         <ScrollViewer Margin="0,35,0,0" BorderBrush="Gray" BorderThickness="1">
-            <TextBox x:Name="ConsoleOut" TextWrapping="Wrap" IsEnabled="False" />
+            <TextBox x:Name="ConsoleOut" TextWrapping="Wrap" />
         </ScrollViewer>
         <ComboBox x:Name="cmbSpec" HorizontalAlignment="Left" Margin="150,9,0,0" VerticalAlignment="Top" Width="150" SelectedIndex="0" />
         <ComboBox x:Name="cmbPhase" HorizontalAlignment="Left" Margin="314,9,0,0" VerticalAlignment="Top" Width="125" SelectedIndex="0" />
-        <Button x:Name="btnCancel" IsEnabled="False" Content="Cancel" HorizontalAlignment="Left" Margin="450,10,0,10" VerticalAlignment="Top" Click="Cancel_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="450,10,0,10" VerticalAlignment="Top" Click="Cancel_Click"/>
 
-        <Button x:Name="btnLocalize" IsEnabled="False" Content="Localize" Margin="10,10,100,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Localize_Click"/>
-        <Button x:Name="btnRefreshItems" IsEnabled="False" Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Update_Click"/>
+        <Button x:Name="btnLocalize" Content="Localize" Margin="10,10,100,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Localize_Click"/>
+        <Button x:Name="btnRefreshItems" Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Update_Click"/>
 
-        <Button x:Name="btnConverters" IsEnabled="False" Content="Converters" Margin="10,10,155,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Converters_Click"/>
+        <Button x:Name="btnConverters" Content="Converters" Margin="10,10,155,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Converters_Click"/>
+        <Button x:Name="btnVerify" Content="Verify" Margin="10,10,225,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Verify_Click"/>
     </Grid>
 </Window>

@@ -43,16 +43,6 @@ public partial class WowheadReader : Window
         cmbPhase.ItemsSource = PhaseList;
     }
 
-    private async void Window_Loaded(object sender, RoutedEventArgs e)
-    {
-        btnImport.IsEnabled = true;
-        btnImportAll.IsEnabled = true;
-        btnLocalize.IsEnabled = true;
-        btnRefreshItems.IsEnabled = true;
-        btnConverters.IsEnabled = true;
-        btnCancel.IsEnabled = true;
-    }
-
     private async void Import_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = string.Empty;
@@ -133,6 +123,38 @@ public partial class WowheadReader : Window
         ConsoleOut.Text += $"Done!" + Environment.NewLine;
     }
 
+    private void Verify_Click(object sender, RoutedEventArgs e)
+    {
+        ConsoleOut.Text = string.Empty;
+        foreach (string spec in SpecList)
+        {
+            try
+            {
+                var phaseString = cmbPhase.SelectedValue.ToString();
+
+                if (phaseString == "GemsEnchants")
+                {
+                    ConsoleOut.Text = "Can't verify Gems";
+                    return;
+                }
+
+                var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}"
+                    && gm.Phase == phaseString);
+
+                var items = ItemSpecFileManager.ReadPhaseFromFile(Constants.AddonPath + $@"Guides\Phase{phaseString.Replace("Phase", "")}\{specMapping.ClassName.Replace(" ", "")}{specMapping.SpecName.Replace(" ", "")}.lua");
+
+                VerifyGuide(items);
+
+                ConsoleOut.Text += $"{spec} Completed! - Verification Passed!" + Environment.NewLine;
+            }
+            catch (VerificationException vex)
+            {
+                ConsoleOut.Text += $"{spec} Completed! - Verification Failed! - {vex.Message}..." + Environment.NewLine;
+            }
+        }
+    }
+
+
     private void Cancel_Click(object sender, RoutedEventArgs e)
     {
         _importIsCanceled = true;
@@ -144,8 +166,8 @@ public partial class WowheadReader : Window
         try
         {
             var className = $"{classGuide.ClassName}{classGuide.SpecName}";
-            var gemSources = new ItemSourceFileManager().ReadGemSources();
-            var enchantSources = new ItemSourceFileManager().ReadEnchantSources();
+            var gemSources = ItemSourceFileManager.ReadGemSources();
+            var enchantSources = ItemSourceFileManager.ReadEnchantSources();
             var gemsEnchants = await new WowheadGuideParser().ParseGemEnchantsWowheadGuide(classGuide);
 
             foreach (var gem in gemsEnchants.Item1)
@@ -183,10 +205,10 @@ public partial class WowheadReader : Window
                 sb.AppendLine($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot}");
             }
 
-            new ItemSpecFileManager().WriteGemAndEnchantSpec(Constants.AddonPath + $@"Guides\GemsAndEnchants\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, gemsEnchants.Item1, gemsEnchants.Item2);
+            ItemSpecFileManager.WriteGemAndEnchantSpec(Constants.AddonPath + $@"Guides\GemsAndEnchants\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, gemsEnchants.Item1, gemsEnchants.Item2);
 
-            new ItemSourceFileManager().WriteGemSources(gemSources);
-            new ItemSourceFileManager().WriteEnchantSources(enchantSources);
+            ItemSourceFileManager.WriteGemSources(gemSources);
+            ItemSourceFileManager.WriteEnchantSources(enchantSources);
         }
         catch (Exception ex)
         {
@@ -200,7 +222,7 @@ public partial class WowheadReader : Window
         bool verificationSucceeded = true;
         var allowableWords = new string[] { "BIS", "Alt", "Transmute", "Stam", "Mit", "Thrt" };
 
-        foreach(var item in items)
+        foreach (var item in items)
         {
             foreach (var bisWord in item.Value.BisStatus.Split(" "))
             {
@@ -217,7 +239,7 @@ public partial class WowheadReader : Window
         var items = new Dictionary<int, ItemSpec>();
         try
         {
-            var itemSources = new ItemSourceFileManager().ReadItemSources();
+            var itemSources = ItemSourceFileManager.ReadItemSources();
 
             var className = $"{classGuide.ClassName.Replace(" ", "")}{classGuide.SpecName}";
 
@@ -253,9 +275,9 @@ public partial class WowheadReader : Window
                     }
                 }
 
-                new ItemSpecFileManager().WriteItemSpec(Constants.AddonPath + $@"Guides\Phase{phaseNumber}\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, cmbPhase.SelectedValue.ToString(), items);
+                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"Guides\Phase{phaseNumber}\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, cmbPhase.SelectedValue.ToString(), items);
 
-                new ItemSourceFileManager().WriteItemSources(itemSources);
+                ItemSourceFileManager.WriteItemSources(itemSources);
             }
             else
             {
@@ -279,7 +301,7 @@ public partial class WowheadReader : Window
         {
             for (int i = 0; i <= oldPhaseNumber; i++)
             {
-                var phaseItems = new ItemSpecFileManager().ReadPhaseFromFile(Constants.AddonPath + $@"Guides\Phase{i}\{specName.Replace(" ", "")}.lua");
+                var phaseItems = ItemSpecFileManager.ReadPhaseFromFile(Constants.AddonPath + $@"Guides\Phase{i}\{specName.Replace(" ", "")}.lua");
 
                 //TODO: VALIDATE FILE ONLY CONTAINS "BIS" AND "ALT" BIS STATUSES FIRST
 
@@ -298,9 +320,9 @@ public partial class WowheadReader : Window
     {
         ConsoleOut.Text = string.Empty;
 
-        var itemSources = new ItemSourceFileManager().ReadItemSources();
+        var itemSources = ItemSourceFileManager.ReadItemSources();
         var csvLootTable = new Dictionary<int, CsvLootTable>();
-        var oldSources = new ItemSourceFileManager().ReadItemSources(@"..\..\..\ItemDatabase\TBCItemSources.lua");
+        var oldSources = ItemSourceFileManager.ReadItemSources(@"..\..\..\ItemDatabase\TBCItemSources.lua");
 
         foreach (var oldSource in oldSources)
         {
@@ -347,7 +369,7 @@ public partial class WowheadReader : Window
             }
         }
 
-        new ItemSourceFileManager().WriteItemSources(itemSources);
+        ItemSourceFileManager.WriteItemSources(itemSources);
     }
 
     private void UpdateProfessionItems(Dictionary<int, CsvLootTable> csvLootTable)

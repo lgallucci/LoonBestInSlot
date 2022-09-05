@@ -86,11 +86,11 @@ LBIS:AddItem(spec, "36984", LBIS.L["Main Hand"], "Alt") --Eternally Folded Blade
 LBIS:AddItem(spec, "44734", LBIS.L["Main Hand"], "Alt") --Hammer of Quiet Mourning
 
 LBIS:AddItem(spec, "40701", LBIS.L["Shield"], "BIS") --Crygil's Discarded Plate Panel
-LBIS:AddItem(spec, "42508", LBIS.L["Shield"], "BoE") --Titansteel Shield Wall
+LBIS:AddItem(spec, "42508", LBIS.L["Shield"], "Alt") --Titansteel Shield Wall
 LBIS:AddItem(spec, "43085", LBIS.L["Shield"], "Alt") --Royal Crest of Lordaeron
 LBIS:AddItem(spec, "37162", LBIS.L["Shield"], "Alt") --Bulwark of the Noble Protector
 LBIS:AddItem(spec, "37107", LBIS.L["Shield"], "Alt") --Leeka's Shield
-LBIS:AddItem(spec, "41113", LBIS.L["Shield"], "BoE") --Saronite Bulwark
+LBIS:AddItem(spec, "41113", LBIS.L["Shield"], "Alt") --Saronite Bulwark
 LBIS:AddItem(spec, "35642", LBIS.L["Shield"], "Alt") --Riot Shield
 
 LBIS:AddItem(spec, "40707", LBIS.L["Libram"], "Alt") --Libram of Obstruction

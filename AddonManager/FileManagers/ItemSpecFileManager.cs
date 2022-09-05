@@ -2,9 +2,9 @@
 
 namespace AddonManager.FileManagers;
 
-public class ItemSpecFileManager
+public static class ItemSpecFileManager
 {
-    internal void WriteItemSpec(string path, string className, string specName, string phaseText, Dictionary<int, ItemSpec> items)
+    internal static void WriteItemSpec(string path, string className, string specName, string phaseText, Dictionary<int, ItemSpec> items)
     {
         var itemSB = new StringBuilder();
 
@@ -26,7 +26,7 @@ public class ItemSpecFileManager
         System.IO.File.WriteAllText(path, itemSB.ToString());
     }
 
-    internal Dictionary<int, ItemSpec> ReadPhaseFromFile(string path)
+    internal static Dictionary<int, ItemSpec> ReadPhaseFromFile(string path)
     {
         Dictionary<int, ItemSpec> items = new Dictionary<int, ItemSpec>();
 
@@ -56,7 +56,7 @@ public class ItemSpecFileManager
         return items;
     }
 
-    internal void WriteGemAndEnchantSpec(string path, string className, string specName, Dictionary<int, GemSpec> gems, Dictionary<string, EnchantSpec> enchants)
+    internal static void WriteGemAndEnchantSpec(string path, string className, string specName, Dictionary<int, GemSpec> gems, Dictionary<string, EnchantSpec> enchants)
     {
         var GAndESB = new StringBuilder();
 
