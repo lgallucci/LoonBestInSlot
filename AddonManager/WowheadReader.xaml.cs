@@ -331,7 +331,7 @@ public partial class WowheadReader : Window
                                 Name = item.Value.Name,
                                 SourceType = "undefined",
                                 Source = "undefined",
-                                SourceNumber = "",
+                                SourceNumber = "0",
                                 SourceLocation = "undefined"
                             });
                         }
