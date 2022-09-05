@@ -79,6 +79,15 @@ public class WowheadGuideParser
         { 55389, 41285 }, //Chaotic Skyflare Diamond
     };
 
+    private Dictionary<string, string> _tankAltTextSwaps = new Dictionary<string, string>()
+    {
+        { "Stam", "Stam" },
+        { "Mit", "Mit" },
+        { "Def", "Mit" },
+        { "Thrt", "Thrt" },
+        { "Threat", "Thrt" }
+    };
+
     class MyFormatter : IMarkupFormatter
     {
         public string CloseTag(IElement element, bool selfClosing)
@@ -144,7 +153,7 @@ public class WowheadGuideParser
                         var bisStatus = GetBisStatus(tableRow, isTierList);
 
                         if (itemChild != null)
-                            ParseItemCell(itemChild, bisStatus, guideMapping.Slot, items);    
+                            ParseItemCell(itemChild, bisStatus, guideMapping.Slot, items);
                     }
                 }
             });
@@ -154,10 +163,20 @@ public class WowheadGuideParser
 
     private string GetBisStatus(INode tableRow, bool isTierList)
     {
+        var bisText = string.Empty;
         if (isTierList)
-            return tableRow?.ChildNodes[1].TextContent.Trim().Contains("S") ?? false ? "BIS" : "Alt";
+            bisText = tableRow?.ChildNodes[1].TextContent.Trim().Contains("S") ?? false ? "BIS" : "Alt";
         else
-            return tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
+            bisText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
+
+        var altText = string.Empty;
+        foreach (var tankSwap in _tankAltTextSwaps)
+            if (tableRow?.ChildNodes[0].TextContent.Contains(tankSwap.Key) ?? false)
+            {
+                altText = $" {tankSwap.Value}";
+                break;
+            }
+        return bisText + altText;
     }
 
     private void ParseItemCell(INode itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items)
