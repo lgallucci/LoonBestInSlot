@@ -408,6 +408,7 @@ public partial class WowheadReader : Window
                     ItemName = itemSources[transmutePiece.Key].Name,
                     InstanceName = $"{csvLootTable[transmutePiece.Value.Item1].SourceName} - {csvLootTable[transmutePiece.Value.Item1].InstanceName}",
                     SourceName = transmutePiece.Value.Item1.ToString(),
+                    SourceNumber = csvLootTable[transmutePiece.Key].SourceNumber
                 });
             }
         }
@@ -431,6 +432,7 @@ public partial class WowheadReader : Window
                     ItemName = itemSources[tierPiece.Key].Name,
                     InstanceName = csvLootTable[tierPiece.Value.Item1].InstanceName,
                     SourceName = csvLootTable[tierPiece.Value.Item1].SourceName,
+                    SourceNumber = csvLootTable[tierPiece.Value.Item1].SourceNumber
                 });
             }
         }
