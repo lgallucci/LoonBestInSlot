@@ -1,8 +1,8 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "0")
 
 LBIS:AddItem(spec, "41387", LBIS.L["Head"], "BIS") --Tempered Titansteel Helm
-LBIS:AddItem(spec, "42549", LBIS.L["Head"], "Alt") --Armored Titanium Goggles
-LBIS:AddItem(spec, "37633", LBIS.L["Head"], "BIS") --Ground Tremor Helm
+LBIS:AddItem(spec, "42549", LBIS.L["Head"], "BoP") --Armored Titanium Goggles
+LBIS:AddItem(spec, "37633", LBIS.L["Head"], "BIS drop") --Ground Tremor Helm
 LBIS:AddItem(spec, "37135", LBIS.L["Head"], "Alt") --Arcane-Shielded Helm
 LBIS:AddItem(spec, "36969", LBIS.L["Head"], "Alt") --Helm of the Ley-Guardian
 LBIS:AddItem(spec, "34401", LBIS.L["Head"], "BIS") --Helm of Uther's Resolve
@@ -34,8 +34,8 @@ LBIS:AddItem(spec, "37040", LBIS.L["Wrist"], "Alt") --Svala's Bloodied Shackles
 LBIS:AddItem(spec, "44341", LBIS.L["Wrist"], "Alt") --Bracers of Reverence
 
 LBIS:AddItem(spec, "44183", LBIS.L["Hands"], "BIS") --Fireproven Gauntlets
-LBIS:AddItem(spec, "39639", LBIS.L["Hands"], "Alt") --Heroes' Redemption Handguards
-LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "Alt") --Gloves of the Lost Conqueror
+LBIS:AddItem(spec, "39639", LBIS.L["Hands"], "Alt best") --Heroes' Redemption Handguards
+LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "Alt best") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "37645", LBIS.L["Hands"], "Alt") --Horn-Tipped Gauntlets
 LBIS:AddItem(spec, "37862", LBIS.L["Hands"], "Alt") --Gauntlets of the Water Revenant
 LBIS:AddItem(spec, "41357", LBIS.L["Hands"], "Alt") --Daunting Handguards
@@ -58,8 +58,8 @@ LBIS:AddItem(spec, "44243", LBIS.L["Feet"], "BIS") --Toxin-Tempered Sabatons
 LBIS:AddItem(spec, "37082", LBIS.L["Feet"], "Alt") --Slaughterhouse Sabatons
 LBIS:AddItem(spec, "44201", LBIS.L["Feet"], "Alt") --Sabatons of Draconic Vigor
 LBIS:AddItem(spec, "37618", LBIS.L["Feet"], "Alt") --Greaves of Ancient Evil
-LBIS:AddItem(spec, "43588", LBIS.L["Feet"], "Alt") --Icebane Treads
-LBIS:AddItem(spec, "41392", LBIS.L["Feet"], "Alt") --Tempered Titansteel Treads
+LBIS:AddItem(spec, "43588", LBIS.L["Feet"], "Optonal") --Icebane Treads
+LBIS:AddItem(spec, "41392", LBIS.L["Feet"], "Optonal") --Tempered Titansteel Treads
 
 LBIS:AddItem(spec, "40679", LBIS.L["Neck"], "BIS") --Chained Military Gorget
 LBIS:AddItem(spec, "42646", LBIS.L["Neck"], "Alt") --Titanium Earthguard Chain
@@ -73,7 +73,7 @@ LBIS:AddItem(spec, "37257", LBIS.L["Ring"], "Alt") --Band of Torture
 LBIS:AddItem(spec, "44337", LBIS.L["Ring"], "Alt") --Staunch Signet
 LBIS:AddItem(spec, "43179", LBIS.L["Ring"], "Alt") --Solid Platinum Band
 
-LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "BIS Stam") --Figurine - Monarch Crab
+LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "BIS Stam & on use") --Figurine - Monarch Crab
 LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "Alt Stam") --Essence of Gossamer
 LBIS:AddItem(spec, "42341", LBIS.L["Trinket"], "Alt Stam") --Figurine - Ruby Hare
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "Alt Thrt") --Darkmoon Card: Greatness
@@ -86,11 +86,11 @@ LBIS:AddItem(spec, "36984", LBIS.L["Main Hand"], "Alt") --Eternally Folded Blade
 LBIS:AddItem(spec, "44734", LBIS.L["Main Hand"], "Alt") --Hammer of Quiet Mourning
 
 LBIS:AddItem(spec, "40701", LBIS.L["Shield"], "BIS") --Crygil's Discarded Plate Panel
-LBIS:AddItem(spec, "42508", LBIS.L["Shield"], "Alt") --Titansteel Shield Wall
+LBIS:AddItem(spec, "42508", LBIS.L["Shield"], "BoE") --Titansteel Shield Wall
 LBIS:AddItem(spec, "43085", LBIS.L["Shield"], "Alt") --Royal Crest of Lordaeron
 LBIS:AddItem(spec, "37162", LBIS.L["Shield"], "Alt") --Bulwark of the Noble Protector
 LBIS:AddItem(spec, "37107", LBIS.L["Shield"], "Alt") --Leeka's Shield
-LBIS:AddItem(spec, "41113", LBIS.L["Shield"], "Alt") --Saronite Bulwark
+LBIS:AddItem(spec, "41113", LBIS.L["Shield"], "BoE") --Saronite Bulwark
 LBIS:AddItem(spec, "35642", LBIS.L["Shield"], "Alt") --Riot Shield
 
 LBIS:AddItem(spec, "40707", LBIS.L["Libram"], "Alt") --Libram of Obstruction

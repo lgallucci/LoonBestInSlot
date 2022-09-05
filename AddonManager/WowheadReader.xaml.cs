@@ -3,6 +3,7 @@ using System.Windows;
 using AddonManager.FileManagers;
 using AddonManager.Models;
 using Newtonsoft.Json;
+using PuppeteerSharp;
 
 namespace AddonManager;
 /// <summary>
@@ -16,7 +17,9 @@ public partial class WowheadReader : Window
                                 "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAffliction", "WarlockDemonology", "WarlockDestruction", "WarriorArms",
                                 "WarriorFury", "WarriorProtection"};
 
-    public string[] PhaseList = { "Gems", "Phase0", "Phase1" };
+    public string[] PhaseList = { "GemsEnchants", "Phase0", "Phase1" };
+
+    public static Browser? Browser { get; set; }
 
     public class CsvLootTable
     {
@@ -35,57 +38,82 @@ public partial class WowheadReader : Window
         cmbPhase.ItemsSource = PhaseList;
     }
 
+    private async void Window_Loaded(object sender, RoutedEventArgs e)
+    {
+        btnImport.IsEnabled = true;
+        btnImportAll.IsEnabled = true;
+        btnLocalize.IsEnabled = true;
+        btnRefreshItems.IsEnabled = true;
+        btnConverters.IsEnabled = true;
+    }
+
     private async void Import_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = string.Empty;
 
+        var phaseString = cmbPhase.SelectedValue.ToString();
         var phaseNumber = 0;
-        if (cmbPhase.SelectedValue.ToString().Contains("Phase"))
-            phaseNumber = Int32.Parse(cmbPhase.SelectedValue.ToString().Replace("Phase", ""));
+        if (phaseString.Contains("Phase"))
+            phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
 
         var spec = cmbSpec.SelectedValue.ToString();
 
-        var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == $"{spec}Phase{phaseNumber}");
+        var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == phaseString);
 
         if (specMapping == null)
-            specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == spec);
+        {
+            ConsoleOut.Text = $"ERROR! Can't find class / spec / phase: {spec}, {phaseString}";
+            return;
+        }
 
-        if (cmbPhase.SelectedValue.ToString() == "Gems")
-            ConsoleOut.Text = await ImportGemsAndEnchants(specMapping);
-        else
-            ConsoleOut.Text = await ImportClass(specMapping, phaseNumber);
+        try
+        {
+            if (phaseString == "GemsEnchants")
+                ConsoleOut.Text = await ImportGemsAndEnchants(specMapping);
+            else
+                ConsoleOut.Text = await ImportClass(specMapping, phaseNumber);
+        }
+        catch (ParseException ex)
+        {
+            ConsoleOut.Text += $"{spec} Failed! - {ex.Message.Substring(0, 150)}..." + Environment.NewLine;
+        }
     }
 
     private async void ImportAll_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = string.Empty;
 
+        var phaseString = cmbPhase.SelectedValue.ToString();
         var phaseNumber = 0;
-        if (cmbPhase.SelectedValue.ToString().Contains("Phase"))
-            phaseNumber = Int32.Parse(cmbPhase.SelectedValue.ToString().Replace("Phase", ""));
+        if (phaseString.Contains("Phase"))
+            phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
 
         foreach (string spec in SpecList)
         {
-            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == $"{spec}Phase{phaseNumber}");
-
-            if (specMapping == null)
-                specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == spec);
-
-            string result = string.Empty;
-            if (cmbPhase.SelectedValue.ToString() == "Gems")
-                result = await ImportGemsAndEnchants(specMapping);
-            else
-                result = await ImportClass(specMapping, phaseNumber);
-            
-            if (result.Contains("PARSE ERROR!"))
+            try
             {
-                ConsoleOut.Text += $"{spec} Failed!" + Environment.NewLine;
-            }
-            else
-            {
+                var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == phaseString);
+
+                if (specMapping == null)
+                {
+                    ConsoleOut.Text += $"{spec} Failed! - Can't find Spec!" + Environment.NewLine;
+                    continue;
+                }
+
+                string result = string.Empty;
+                if (phaseString == "GemsEnchants")
+                    result = await ImportGemsAndEnchants(specMapping);
+                else
+                    result = await ImportClass(specMapping, phaseNumber);
+
                 ConsoleOut.Text += $"{spec} Completed!" + Environment.NewLine;
             }
+            catch (ParseException ex)
+            {
+                ConsoleOut.Text += $"{spec} Failed! - {ex.Message.Substring(0, 150)}..." + Environment.NewLine;
+            }
         }
+        ConsoleOut.Text += $"Done!" + Environment.NewLine;
     }
 
     private async Task<string> ImportGemsAndEnchants(ClassGuideMapping classGuide)
@@ -96,9 +124,7 @@ public partial class WowheadReader : Window
             var className = $"{classGuide.ClassName}{classGuide.SpecName}";
             var gemSources = new ItemSourceFileManager().ReadGemSources();
             var enchantSources = new ItemSourceFileManager().ReadEnchantSources();
-            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => gm.FileName == $"{className.Replace(" ", "")}GemEnchants");
-            
-            var gemsEnchants = await new WowheadGuideParser().ParseGemEnchantsWowheadGuide(specMapping);
+            var gemsEnchants = await new WowheadGuideParser().ParseGemEnchantsWowheadGuide(classGuide);
 
             foreach (var gem in gemsEnchants.Item1)
             {
@@ -142,7 +168,7 @@ public partial class WowheadReader : Window
         }
         catch (Exception ex)
         {
-            sb.AppendLine($"PARSE ERROR! {ex.ToString()}");
+            throw new ParseException(ex.ToString(), ex);
         }
         return sb.ToString();
     }
@@ -158,7 +184,7 @@ public partial class WowheadReader : Window
 
             if (classGuide != null)
             {
-                var items = await new WowheadGuideParser().ParseWowheadGuide(classGuide, className, cmbPhase.SelectedValue.ToString());
+                var items = await new WowheadGuideParser().ParseWowheadGuide(classGuide);
 
                 var oldItems = ExcludeItemsFromPhaseGuide(items, phaseNumber, className);
 
@@ -194,12 +220,12 @@ public partial class WowheadReader : Window
             }
             else
             {
-                sb.AppendLine($"PARSE ERROR! Couldn't find spec: {className}");
+                throw new ParseException($"Couldn't find spec: {className}");
             }
         }
         catch (Exception ex)
         {
-            sb.AppendLine($"PARSE ERROR! {ex.ToString()}");
+            throw new ParseException(ex.ToString(), ex);
         }
         return sb.ToString();
     }

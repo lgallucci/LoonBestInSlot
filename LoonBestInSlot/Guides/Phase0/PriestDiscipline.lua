@@ -72,10 +72,10 @@ LBIS:AddItem(spec, "37289", LBIS.L["Waist"], "Alt") --Sash of Phantasmal Images
 LBIS:AddItem(spec, "37622", LBIS.L["Legs"], "BIS") --Skirt of the Old Kingdom
 LBIS:AddItem(spec, "37189", LBIS.L["Legs"], "BIS") --Breeches of the Caller
 LBIS:AddItem(spec, "37854", LBIS.L["Legs"], "Alt") --Woven Bracae Leggings
-LBIS:AddItem(spec, "37369", LBIS.L["Legs"], "Alt") --Sorrowgrave's Breeches
 LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "Alt") --Leggings of Calamity
 LBIS:AddItem(spec, "34386", LBIS.L["Legs"], "Alt") --Pantaloons of Growing Strife
 LBIS:AddItem(spec, "34170", LBIS.L["Legs"], "Transmute Alt") --Pantaloons of Calming Strife
+LBIS:AddItem(spec, "37369", LBIS.L["Legs"], "Alt") --Sorrowgrave's Breeches
 LBIS:AddItem(spec, "43313", LBIS.L["Legs"], "Alt") --Leggings of the Ruins Dweller
 
 LBIS:AddItem(spec, "44202", LBIS.L["Feet"], "BIS") --Sandals of Crimson Fury
@@ -90,8 +90,8 @@ LBIS:AddItem(spec, "34563", LBIS.L["Feet"], "Alt") --Treads of Absolution
 
 LBIS:AddItem(spec, "24116", LBIS.L["Neck"], "BIS") --Eye of the Night
 LBIS:AddItem(spec, "24121", LBIS.L["Neck"], "BIS") --Chain of the Twilight Owl
-LBIS:AddItem(spec, "40681", LBIS.L["Neck"], "BIS") --Lattice Choker of Light
-LBIS:AddItem(spec, "42647", LBIS.L["Neck"], "BIS") --Titanium Spellshock Necklace
+LBIS:AddItem(spec, "40681", LBIS.L["Neck"], "BIS eration") --Lattice Choker of Light
+LBIS:AddItem(spec, "42647", LBIS.L["Neck"], "BIS Spell Power") --Titanium Spellshock Necklace
 LBIS:AddItem(spec, "39472", LBIS.L["Neck"], "Alt") --Chain of Latent Energies
 LBIS:AddItem(spec, "40680", LBIS.L["Neck"], "Alt") --Encircling Burnished Gold Chains
 LBIS:AddItem(spec, "37683", LBIS.L["Neck"], "Alt") --Necromancer's Amulet
@@ -107,14 +107,14 @@ LBIS:AddItem(spec, "37232", LBIS.L["Ring"], "Alt") --Ring of the Traitor King
 LBIS:AddItem(spec, "37869", LBIS.L["Ring"], "Alt") --Globule Signet
 LBIS:AddItem(spec, "37732", LBIS.L["Ring"], "Alt") --Spectral Seal of the Prophet
 
-LBIS:AddItem(spec, "37835", LBIS.L["Trinket"], "BIS") --Je'Tze's Bell
-LBIS:AddItem(spec, "42988", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Illusion
-LBIS:AddItem(spec, "42132", LBIS.L["Trinket"], "Alt") --Battlemaster's Bravery
-LBIS:AddItem(spec, "40685", LBIS.L["Trinket"], "Alt") --The Egg of Mortal Essence
-LBIS:AddItem(spec, "37660", LBIS.L["Trinket"], "Alt") --Forge Ember
-LBIS:AddItem(spec, "44255", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Greatness
-LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "Alt") --Figurine - Sapphire Owl
-LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "Alt") --Spark of Life
+LBIS:AddItem(spec, "37835", LBIS.L["Trinket"], "106 static spell power, 30 mp5") --Je'Tze's Bell
+LBIS:AddItem(spec, "42988", LBIS.L["Trinket"], "static 100 spell power, 1500 mana per use") --Darkmoon Card: Illusion
+LBIS:AddItem(spec, "42132", LBIS.L["Trinket"], "111 static spell power, survivability on-use") --Battlemaster's Bravery
+LBIS:AddItem(spec, "40685", LBIS.L["Trinket"], "98 static spell power, HoT proc") --The Egg of Mortal Essence
+LBIS:AddItem(spec, "37660", LBIS.L["Trinket"], "93 average spell power, 73 crit rating") --Forge Ember
+LBIS:AddItem(spec, "44255", LBIS.L["Trinket"], "Sustain 121 mp5, 63.1 crit rating") --Darkmoon Card: Greatness
+LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "Sustain 115 mp5, 20.4 crit rating") --Figurine - Sapphire Owl
+LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "Sustain 51 mp5, 73 rating") --Spark of Life
 
 LBIS:AddItem(spec, "37169", LBIS.L["Main Hand"], "BIS") --War Mace of Unrequited Love
 LBIS:AddItem(spec, "37360", LBIS.L["Main Hand"], "BIS") --Staff of Draconic Combat

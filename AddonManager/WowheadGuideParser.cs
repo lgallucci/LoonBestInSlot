@@ -1,12 +1,14 @@
 ﻿using System.IO;
 using System.Linq;
 using System.Net.Http;
+using System.Windows.Controls;
 using AddonManager.Models;
 using AngleSharp;
 using AngleSharp.Dom;
 using AngleSharp.Html;
 using AngleSharp.Html.Dom;
 using AngleSharp.Html.Parser;
+using PuppeteerSharp;
 
 namespace AddonManager;
 
@@ -97,17 +99,17 @@ public class WowheadGuideParser
         public string Text(ICharacterData text) => text.Data;// + "\n";
     }
 
-    public async Task<Dictionary<int, ItemSpec>> ParseWowheadGuide(ClassGuideMapping specMapping, string spec, string phase)
+    public async Task<Dictionary<int, ItemSpec>> ParseWowheadGuide(ClassGuideMapping classGuide)
     {
         var items = new Dictionary<int, ItemSpec>();
 
-        var doc = default(IHtmlDocument);
-        using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{spec.Replace(" ", "")}{phase}.html"))
+        await LoadFromWebPage(classGuide.WebAddress, async (content) =>
         {
+            var doc = default(IHtmlDocument);
             var parser = new HtmlParser();
-            doc = await parser.ParseDocumentAsync(stream.BaseStream);
+            doc = await parser.ParseDocumentAsync(content);
 
-            LoopThroughMappings(doc, specMapping, (table, guideMapping) =>
+            LoopThroughMappings(doc, classGuide, (table, guideMapping) =>
             {
                 var firstRow = false;
                 var tableRows = table?.FirstChild?.ChildNodes;
@@ -214,7 +216,7 @@ public class WowheadGuideParser
                     }
                 }
             });
-        }
+        });
         return items;
     }
 
@@ -242,13 +244,31 @@ public class WowheadGuideParser
                 }
                 else
                 {
-                    throw new Exception($"PARSE ERROR! Failed to find table for {guideMapping.SlotHtmlId} after {elementCounter} hops");
+                    throw new ParseException($"Failed to find table for {guideMapping.SlotHtmlId} after {elementCounter} hops");
                 }
             }
             else
             {
-                throw new Exception($"PARSE ERROR! Failed to find {guideMapping.SlotHtmlId}");
+                throw new ParseException($"Failed to find {guideMapping.SlotHtmlId}");
             }
+        }
+    }
+
+    internal async Task LoadFromWebPage(string pageAddress, Func<string, Task> func)
+    {
+        await new BrowserFetcher().DownloadAsync();
+        using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
+        {
+            Headless = true
+        }))
+        {
+            var page = await browser.NewPageAsync();
+            page.DefaultTimeout = 0; // or you can set this as 0
+            await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
+            var content = await page.GetContentAsync();
+
+            Console.WriteLine(content);
+            await func(content);
         }
     }
 
@@ -256,11 +276,12 @@ public class WowheadGuideParser
     {
         var gems = new Dictionary<int, GemSpec>();
         var enchants = new Dictionary<string, EnchantSpec>();
-        var doc = default(IHtmlDocument);
-        using (var stream = new StreamReader($@"..\..\..\WowheadGuideHtml\{classGuide.ClassName.Replace(" ", "")}{classGuide.SpecName.Replace(" ", "")}GemsEnchants.html"))
+
+        await LoadFromWebPage(classGuide.WebAddress, async (content) =>
         {
             var parser = new HtmlParser();
-            doc = await parser.ParseDocumentAsync(stream.BaseStream);
+            var doc = default(IHtmlDocument);
+            doc = await parser.ParseDocumentAsync(content);
 
             foreach (var heading in classGuide.GuideMappings)
             {
@@ -341,10 +362,9 @@ public class WowheadGuideParser
                     throw new Exception($"Failed to find {heading.SlotHtmlId}{heading.Slot}");
                 }
             }
+        });
 
-
-            return (gems, enchants);
-        }
+        return (gems, enchants);
 
     }
 

@@ -25,9 +25,9 @@ LBIS:AddItem(spec, "37236", LBIS.L["Chest"], "Alt") --Insect Vestments
 LBIS:AddItem(spec, "37258", LBIS.L["Chest"], "Alt") --Drakewing Raiments
 LBIS:AddItem(spec, "44180", LBIS.L["Chest"], "Alt") --Robes of Crackling Flame
 
-LBIS:AddItem(spec, "37884", LBIS.L["Wrist"], "BIS") --Azure Cloth Bindings
+LBIS:AddItem(spec, "37361", LBIS.L["Wrist"], "BIS") --Cuffs of Winged Levitation
+LBIS:AddItem(spec, "37884", LBIS.L["Wrist"], "Alt") --Azure Cloth Bindings
 LBIS:AddItem(spec, "37696", LBIS.L["Wrist"], "Alt") --Plague-Infected Bracers
-LBIS:AddItem(spec, "37361", LBIS.L["Wrist"], "Alt") --Cuffs of Winged Levitation
 LBIS:AddItem(spec, "37634", LBIS.L["Wrist"], "Alt") --Bracers of the Divine Elemental
 LBIS:AddItem(spec, "37725", LBIS.L["Wrist"], "Alt") --Savage Wound Wrap
 LBIS:AddItem(spec, "44200", LBIS.L["Wrist"], "Alt") --Ancestral Sinew Wristguards
@@ -38,8 +38,8 @@ LBIS:AddItem(spec, "42111", LBIS.L["Hands"], "Alt") --Ebonweave Gloves
 LBIS:AddItem(spec, "37261", LBIS.L["Hands"], "Alt") --Gloves of Radiant Light
 LBIS:AddItem(spec, "43287", LBIS.L["Hands"], "Alt") --Silken Bridge Handwraps
 
-LBIS:AddItem(spec, "44181", LBIS.L["Waist"], "BIS") --Ghostflicker Waistband
 LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah
+LBIS:AddItem(spec, "44181", LBIS.L["Waist"], "BIS") --Ghostflicker Waistband
 LBIS:AddItem(spec, "37408", LBIS.L["Waist"], "Alt") --Girdle of Bane
 LBIS:AddItem(spec, "37643", LBIS.L["Waist"], "Alt") --Sash of Blood Removal
 LBIS:AddItem(spec, "37850", LBIS.L["Waist"], "Alt") --Flowing Sash of Order
@@ -75,8 +75,8 @@ LBIS:AddItem(spec, "43408", LBIS.L["Ring"], "Alt") --Solitaire of Reflecting Bea
 LBIS:AddItem(spec, "37371", LBIS.L["Ring"], "Alt") --Ring of the Frenzied Wolvar
 
 LBIS:AddItem(spec, "37873", LBIS.L["Trinket"], "BIS") --Mark of the War Prisoner
-LBIS:AddItem(spec, "42395", LBIS.L["Trinket"], "BIS") --Figurine - Twilight Serpent
 LBIS:AddItem(spec, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exiled
+LBIS:AddItem(spec, "42395", LBIS.L["Trinket"], "Alt") --Figurine - Twilight Serpent
 LBIS:AddItem(spec, "37835", LBIS.L["Trinket"], "Alt") --Je'Tze's Bell
 LBIS:AddItem(spec, "42988", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Illusion
 LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "Alt") --Spark of Life
@@ -84,8 +84,8 @@ LBIS:AddItem(spec, "44322", LBIS.L["Trinket"], "Alt") --Mercurial Alchemist Ston
 LBIS:AddItem(spec, "36972", LBIS.L["Trinket"], "Alt") --Tome of Arcane Phenomena
 LBIS:AddItem(spec, "38765", LBIS.L["Trinket"], "Alt") --Rune of Infinite Power
 
-LBIS:AddItem(spec, "41384", LBIS.L["Main Hand"], "BIS") --Titansteel Guardian
-LBIS:AddItem(spec, "45085", LBIS.L["Main Hand"], "Alt") --Titansteel Spellblade
+LBIS:AddItem(spec, "45085", LBIS.L["Main Hand"], "BIS") --Titansteel Spellblade
+LBIS:AddItem(spec, "41384", LBIS.L["Main Hand"], "Alt") --Titansteel Guardian
 LBIS:AddItem(spec, "37169", LBIS.L["Main Hand"], "Alt") --War Mace of Unrequited Love
 LBIS:AddItem(spec, "44173", LBIS.L["Main Hand"], "Alt") --Flameheart Spell Scalpel
 LBIS:AddItem(spec, "44199", LBIS.L["Main Hand"], "Alt") --Gavel of the Brewing Storm

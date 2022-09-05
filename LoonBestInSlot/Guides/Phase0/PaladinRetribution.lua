@@ -42,7 +42,7 @@ LBIS:AddItem(spec, "44179", LBIS.L["Legs"], "Alt") --Mind-Expanding Leggings
 LBIS:AddItem(spec, "37644", LBIS.L["Legs"], "Alt") --Gored Hide Legguards
 
 LBIS:AddItem(spec, "44297", LBIS.L["Feet"], "BIS") --Boots of the Neverending Path
-LBIS:AddItem(spec, "37666", LBIS.L["Feet"], "Alt") --Boots of the Whirling Mist
+LBIS:AddItem(spec, "37666", LBIS.L["Feet"], "Alt less good.") --Boots of the Whirling Mist
 LBIS:AddItem(spec, "34561", LBIS.L["Feet"], "Alt") --Lightbringer Boots
 LBIS:AddItem(spec, "34856", LBIS.L["Feet"], "Alt") --Boots of the Forgotten Conqueror
 
@@ -61,10 +61,10 @@ LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
 LBIS:AddItem(spec, "42418", LBIS.L["Trinket"], "Alt") --Figurine - Emerald Boar
 LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "Alt") --Berserker's Call
 
-LBIS:AddItem(spec, "37852", LBIS.L["Two Hand"], "BIS") --Colossal Skull-Clad Cleaver
-LBIS:AddItem(spec, "41257", LBIS.L["Two Hand"], "BIS") --Titansteel Destroyer
+LBIS:AddItem(spec, "37852", LBIS.L["Two Hand"], "BIS non") --Colossal Skull-Clad Cleaver
+LBIS:AddItem(spec, "41257", LBIS.L["Two Hand"], "BIS (hit)") --Titansteel Destroyer
 LBIS:AddItem(spec, "37653", LBIS.L["Two Hand"], "Alt") --Sword of Justice
 
 LBIS:AddItem(spec, "37574", LBIS.L["Libram"], "BIS") --Libram of Furious Blows
-LBIS:AddItem(spec, "33503", LBIS.L["Libram"], "BIS") --Libram of Divine Judgement
+LBIS:AddItem(spec, "33503", LBIS.L["Libram"], "BIS Cleave (TBC)") --Libram of Divine Judgement
 LBIS:AddItem(spec, "27484", LBIS.L["Libram"], "Alt") --Libram of Avengement

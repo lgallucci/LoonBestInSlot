@@ -74,12 +74,12 @@ LBIS:AddItem(spec, "43573", LBIS.L["Trinket"], "Alt") --Tears of Bitter Anguish
 
 LBIS:AddItem(spec, "43611", LBIS.L["Main Hand"], "BIS") --Krol Cleaver
 LBIS:AddItem(spec, "37693", LBIS.L["Main Hand"], "BIS") --Greed
-LBIS:AddItem(spec, "32837", LBIS.L["Main Hand"], "Alt") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "32837", LBIS.L["Main Hand"], "Alt (Set)") --Warglaive of Azzinoth
 LBIS:AddItem(spec, "44250", LBIS.L["Main Hand"], "Alt") --Reaper of Dark Souls
 
 LBIS:AddItem(spec, "44311", LBIS.L["Off Hand"], "Alt") --Avool's Sword of Jin
 LBIS:AddItem(spec, "37856", LBIS.L["Off Hand"], "Alt") --Librarian's Paper Cutter
-LBIS:AddItem(spec, "32838", LBIS.L["Off Hand"], "Alt") --Warglaive of Azzinoth
+LBIS:AddItem(spec, "32838", LBIS.L["Off Hand"], "Alt (Set)") --Warglaive of Azzinoth
 LBIS:AddItem(spec, "44187", LBIS.L["Off Hand"], "Alt") --Fang of Truth
 
 LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "BIS") --Drake-Mounted Crossbow

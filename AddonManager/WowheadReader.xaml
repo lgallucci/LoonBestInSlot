@@ -5,19 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AddonManager"
         mc:Ignorable="d"
-        Title="WowheadReader" Height="768" Width="1024">
+        Title="WowheadReader" Height="768" Width="1024"
+        Loaded="Window_Loaded">
     <Grid>
-        <Button Content="Import" HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top" Click="Import_Click"/>
-        <Button Content="ImportAll" HorizontalAlignment="Left" Margin="75,12,0,0" VerticalAlignment="Top" Click="ImportAll_Click"/>
+        <Button x:Name="btnImport" IsEnabled="False" Content="Import" HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top" Click="Import_Click"/>
+        <Button x:Name="btnImportAll" IsEnabled="False" Content="ImportAll" HorizontalAlignment="Left" Margin="75,12,0,0" VerticalAlignment="Top" Click="ImportAll_Click"/>
         <ScrollViewer Margin="0,35,0,0" BorderBrush="Gray" BorderThickness="1">
             <TextBox x:Name="ConsoleOut" TextWrapping="Wrap" IsEnabled="False" />
         </ScrollViewer>
         <ComboBox x:Name="cmbSpec" HorizontalAlignment="Left" Margin="150,11,0,0" VerticalAlignment="Top" Width="150" SelectedIndex="0" />
-        <ComboBox x:Name="cmbPhase" HorizontalAlignment="Left" Margin="314,13,0,0" VerticalAlignment="Top" Width="82" SelectedIndex="0" />
+        <ComboBox x:Name="cmbPhase" HorizontalAlignment="Left" Margin="314,11,0,0" VerticalAlignment="Top" Width="125" SelectedIndex="0" />
 
-        <Button Content="Localize" Margin="10,10,100,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Localize_Click"/>
-        <Button Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Update_Click"/>
+        <Button x:Name="btnLocalize" IsEnabled="False" Content="Localize" Margin="10,10,100,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Localize_Click"/>
+        <Button x:Name="btnRefreshItems" IsEnabled="False" Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Update_Click"/>
 
-        <Button Content="Converters" Margin="10,10,175,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Converters_Click"/>
+        <Button x:Name="btnConverters" IsEnabled="False" Content="Converters" Margin="10,10,175,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Converters_Click"/>
     </Grid>
 </Window>

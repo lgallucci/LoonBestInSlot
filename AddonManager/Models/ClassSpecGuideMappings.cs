@@ -1,17 +1,19 @@
 ﻿namespace AddonManager.Models;
 public class ClassGuideMapping
 {
-    public ClassGuideMapping(string fileName, string specName, string className, List<GuideMapping> guideMappings)
+    public ClassGuideMapping(string webAddress, string specName, string className, string phase, List<GuideMapping> guideMappings)
     {
-        FileName = fileName; 
+        WebAddress = webAddress;
         SpecName = specName;
         ClassName = className;
+        Phase = phase;
         GuideMappings = guideMappings;
     }
 
-    public string FileName { get; set; }
+    public string WebAddress { get; set; }
     public string SpecName { get; set; }
     public string ClassName { get; set; }
+    public string Phase { get; set; }
     public List<GuideMapping> GuideMappings { get; set; }
 }
 
@@ -33,7 +35,9 @@ public class ClassSpecGuideMappings
     {
         GuideMappings = new List<ClassGuideMapping>();
 
-        GuideMappings.Add(new ClassGuideMapping("DeathKnightBloodGemEnchants", "Blood", "Death Knight", new List<GuideMapping>
+        #region Blood DK
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/blood-death-knight-tank-enchants-gems",
+            "Blood", "Death Knight", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h3#meta-gems+.box", "Meta"),
             new GuideMapping("h3#blue-gems+.box", "Gem"),
@@ -55,8 +59,9 @@ public class ClassSpecGuideMappings
             new GuideMapping("h3#runewords+.box~.box~.box", "Main Hand"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DeathKnightBloodPhase0", "Blood", "Death Knight", new List<GuideMapping>
-        {           
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/blood-death-knight-tank-best-in-slot-gear-pre-raid",
+            "Blood", "Death Knight", "Phase0", new List<GuideMapping>
+        {
             new GuideMapping("#head-for-blood-death-knight-tank-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-blood-death-knight-tank-pre-raid", "Shoulder"),
             new GuideMapping("#back-for-blood-death-knight-tank-pre-raid", "Back"),
@@ -72,9 +77,10 @@ public class ClassSpecGuideMappings
             new GuideMapping("h3#weapons~h4", "Two Hand"),
             new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
             new GuideMapping("#relics-for-blood-death-knight-tank-pre-raid", "Relic"),
-        })); 
+        }));
 
-        GuideMappings.Add(new ClassGuideMapping("DeathKnightBloodPhase1", "Blood", "Death Knight", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/blood-death-knight-tank-best-in-slot-gear-phase-1",
+            "Blood", "Death Knight", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-blood-death-knight-tank-phase-1", "Head"),
             new GuideMapping("#shoulders-for-blood-death-knight-tank-phase-1", "Shoulder"),
@@ -92,8 +98,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
             new GuideMapping("#relics-for-blood-death-knight-tank-phase-1", "Relic"),
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("DeathKnightFrostGemEnchants", "Frost", "Death Knight", new List<GuideMapping>
+        #region Frost DK
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/frost-death-knight-dps-enchants-gems",
+            "Frost", "Death Knight", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -115,8 +124,9 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DeathKnightFrostPhase0", "Frost", "Death Knight", new List<GuideMapping>
-        {           
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/frost-death-knight-dps-best-in-slot-gear-pre-raid",
+            "Frost", "Death Knight", "Phase0", new List<GuideMapping>
+        {
             new GuideMapping("#head-for-frost-death-knight-dps-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-frost-death-knight-dps-pre-raid", "Shoulder"),
             new GuideMapping("#back-for-frost-death-knight-dps-pre-raid", "Back"),
@@ -134,7 +144,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#sigils-for-frost-death-knight-dps-pre-raid", "Relic"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DeathKnightFrostPhase1", "Frost", "Death Knight", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/frost-death-knight-dps-best-in-slot-gear-phase-1",
+            "Frost", "Death Knight", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-frost-death-knight-dps-phase-1", "Head"),
             new GuideMapping("#shoulders-for-frost-death-knight-dps-phase-1", "Shoulder"),
@@ -152,8 +163,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#off-hand-weapons-for-frost-death-knight-dps-phase-1", "Off Hand"),
             new GuideMapping("#sigils-for-frost-death-knight-dps-phase-1", "Relic"),
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("DeathKnightUnholyGemEnchants", "Unholy", "Death Knight", new List<GuideMapping>
+        #region Unholy DK
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/unholy-death-knight-dps-enchants-gems",
+            "Unholy", "Death Knight", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -175,8 +189,9 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DeathKnightUnholyPhase0", "Unholy", "Death Knight", new List<GuideMapping>
-        {            
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/unholy-death-knight-dps-best-in-slot-gear-pre-raid",
+            "Unholy", "Death Knight", "Phase0", new List<GuideMapping>
+        {
             new GuideMapping("#head-for-unholy-death-knight-dps-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-unholy-death-knight-dps-pre-raid", "Shoulder"),
             new GuideMapping("#back-for-unholy-death-knight-dps-pre-raid", "Back"),
@@ -194,7 +209,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#sigils-for-unholy-death-knight-dps-pre-raid", "Relic"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DeathKnightUnholyPhase1", "Unholy", "Death Knight", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/unholy-death-knight-dps-best-in-slot-gear-phase-1",
+            "Unholy", "Death Knight", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-unholy-death-knight-dps-phase-1", "Head"),
             new GuideMapping("#shoulders-for-unholy-death-knight-dps-phase-1", "Shoulder"),
@@ -212,8 +228,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#off-hand-weapons-for-unholy-death-knight-dps-phase-1", "Off Hand"),
             new GuideMapping("#sigils-for-unholy-death-knight-dps-phase-1", "Relic"),
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("DruidBalanceGemEnchants", "Balance", "Druid", new List<GuideMapping>
+        #region Balance Druid
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/balance-druid-dps-enchants-gems",
+            "Balance", "Druid", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -233,7 +252,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DruidBalancePhase0", "Balance", "Druid", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/balance-druid-dps-best-in-slot-gear-pre-raid",
+            "Balance", "Druid", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-balance-druid-dps-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-balance-druid-dps-pre-raid", "Shoulder"),
@@ -253,7 +273,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#idols-for-balance-druid-dps-pre-raid", "Idol")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DruidBalancePhase1", "Balance", "Druid", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/balance-druid-dps-best-in-slot-gear-phase-1",
+            "Balance", "Druid", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-balance-druid-dps-phase-1", "Head"),
             new GuideMapping("#shoulders-for-balance-druid-dps-phase-1", "Shoulder"),
@@ -272,8 +293,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#off-hand-weapons-for-balance-druid-dps-phase-1", "Off Hand"),
             new GuideMapping("#idols-for-balance-druid-dps-phase-1", "Idol")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("DruidCatGemEnchants", "Cat", "Druid", new List<GuideMapping>
+        #region Cat Druid
+        GuideMappings.Add(new ClassGuideMapping("",
+            "Cat", "Druid", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -293,7 +317,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DruidCatPhase0", "Cat", "Druid", new List<GuideMapping> 
+        GuideMappings.Add(new ClassGuideMapping("",
+            "Cat", "Druid", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulder"),
@@ -311,7 +336,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#idols", "Idol")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DruidCatPhase1", "Cat", "Druid", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("",
+            "Cat", "Druid", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulder"),
@@ -328,8 +354,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#weapons~h4", "Two Hand"),
             new GuideMapping("#idols", "Idol")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("DruidBearGemEnchants", "Bear", "Druid", new List<GuideMapping>
+        #region Bear Druid
+        GuideMappings.Add(new ClassGuideMapping("",
+            "Bear", "Druid", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -349,7 +378,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DruidBearPhase0", "Bear", "Druid", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("",
+            "Bear", "Druid", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulder"),
@@ -367,7 +397,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#idols", "Idol")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DruidBearPhase1", "Bear", "Druid", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("",
+            "Bear", "Druid", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulder"),
@@ -384,8 +415,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#weapons~h4", "Two Hand"),
             new GuideMapping("#idols", "Idol")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("DruidRestorationGemEnchants", "Restoration", "Druid", new List<GuideMapping>
+        #region Resto Druid
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/restoration-druid-healer-enchants-gems",
+            "Restoration", "Druid", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -405,7 +439,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DruidRestorationPhase0", "Restoration", "Druid", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/restoration-druid-healer-best-in-slot-gear-pre-raid",
+            "Restoration", "Druid", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-restoration-druid-healer-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-restoration-druid-healer-pre-raid", "Shoulder"),
@@ -425,7 +460,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#idols-for-restoration-druid-healer-pre-raid", "Idol")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("DruidRestorationPhase1", "Restoration", "Druid", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/restoration-druid-healer-best-in-slot-gear-phase-1",
+            "Restoration", "Druid", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-restoration-druid-healer-phase-1", "Head"),
             new GuideMapping("#shoulders-for-restoration-druid-healer-phase-1", "Shoulder"),
@@ -444,8 +480,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#off-hand-weapons-for-restoration-druid-healer-phase-1", "Off Hand"),
             new GuideMapping("#idols-for-restoration-druid-healer-phase-1", "Idol")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("HunterBeastMasteryGemEnchants", "Beast Mastery", "Hunter", new List<GuideMapping>
+        #region BM Hunter
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/beast-mastery-hunter-dps-enchants-gems",
+            "Beast Mastery", "Hunter", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -467,7 +506,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("HunterBeastMasteryPhase0", "Beast Mastery", "Hunter", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/beast-mastery-hunter-dps-best-in-slot-gear-pre-raid",
+            "Beast Mastery", "Hunter", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-beast-mastery-hunter-dps-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-beast-mastery-hunter-dps-pre-raid", "Shoulder"),
@@ -486,7 +526,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows-for-beast-mastery-hunter-dps-pre-raid", "Ranged")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("HunterBeastMasteryPhase1", "Beast Mastery", "Hunter", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/beast-mastery-hunter-dps-best-in-slot-gear-phase-1",
+            "Beast Mastery", "Hunter", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-beast-mastery-hunter-dps-phase-1", "Head"),
             new GuideMapping("#shoulders-for-beast-mastery-hunter-dps-phase-1", "Shoulder"),
@@ -504,8 +545,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#two-hand-weapons-for-beast-mastery-hunter-dps-phase-1", "Two Hand"),
             new GuideMapping("#guns-and-bows-for-beast-mastery-hunter-dps-phase-1", "Ranged")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("HunterMarksmanshipGemEnchants", "Marksmanship", "Hunter", new List<GuideMapping>
+        #region Marks Hunter
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/marksmanship-hunter-dps-enchants-gems",
+            "Marksmanship", "Hunter", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -527,7 +571,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("HunterMarksmanshipPhase0", "Marksmanship", "Hunter", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/marksmanship-hunter-dps-best-in-slot-gear-pre-raid",
+            "Marksmanship", "Hunter", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-marksmanship-hunter-dps-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-marksmanship-hunter-dps-pre-raid", "Shoulder"),
@@ -546,7 +591,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows-for-marksmanship-hunter-dps-pre-raid", "Ranged")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("HunterMarksmanshipPhase1", "Marksmanship", "Hunter", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/marksmanship-hunter-dps-best-in-slot-gear-phase-1",
+            "Marksmanship", "Hunter", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-marksmanship-hunter-dps-phase-1", "Head"),
             new GuideMapping("#shoulders-for-marksmanship-hunter-dps-phase-1", "Shoulder"),
@@ -564,8 +610,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#two-hand-weapons-for-marksmanship-hunter-dps-phase-1", "Two Hand"),
             new GuideMapping("#guns-and-bows-for-marksmanship-hunter-dps-phase-1", "Ranged")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("HunterSurvivalGemEnchants", "Survival", "Hunter", new List<GuideMapping>
+        #region Survival Hunter
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/survival-hunter-dps-enchants-gems",
+            "Survival", "Hunter", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -587,7 +636,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("HunterSurvivalPhase0", "Survival", "Hunter", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/survival-hunter-dps-best-in-slot-gear-pre-raid",
+            "Survival", "Hunter", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-survival-hunter-dps-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-survival-hunter-dps-pre-raid", "Shoulder"),
@@ -606,7 +656,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows-for-survival-hunter-dps-pre-raid", "Ranged")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("HunterSurvivalPhase1", "Survival", "Hunter", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/survival-hunter-dps-best-in-slot-gear-phase-1",
+            "Survival", "Hunter", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-survival-hunter-dps-phase-1", "Head"),
             new GuideMapping("#shoulders-for-survival-hunter-dps-phase-1", "Shoulder"),
@@ -624,8 +675,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#two-hand-weapons-for-survival-hunter-dps-phase-1", "Two Hand"),
             new GuideMapping("#guns-and-bows-for-survival-hunter-dps-phase-1", "Ranged")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("MageFrostGemEnchants", "Frost", "Mage", new List<GuideMapping>
+        #region Arcane Mage
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/arcane-mage-dps-enchants-gems",
+            "Arcane", "Mage", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -648,129 +702,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("MageFrostPhase0", "Frost", "Mage", new List<GuideMapping>
-        {
-            new GuideMapping("#head-for-frost-mage-dps-pre-raid", "Head"),
-            new GuideMapping("#shoulders-for-frost-mage-dps-pre-raid", "Shoulder"),
-            new GuideMapping("#back-for-frost-mage-dps-pre-raid", "Back"),
-            new GuideMapping("#chest-for-frost-mage-dps-pre-raid", "Chest"),
-            new GuideMapping("#wrist-for-frost-mage-dps-pre-raid", "Wrist"),
-            new GuideMapping("#hands-for-frost-mage-dps-pre-raid", "Hands"),
-            new GuideMapping("#waist-for-frost-mage-dps-pre-raid", "Waist"),
-            new GuideMapping("#legs-for-frost-mage-dps-pre-raid", "Legs"),
-            new GuideMapping("#feet-for-frost-mage-dps-pre-raid", "Feet"),
-            new GuideMapping("#neck-for-frost-mage-dps-pre-raid", "Neck"),
-            new GuideMapping("#rings-for-frost-mage-dps-pre-raid", "Ring"),
-            new GuideMapping("#trinkets-for-frost-mage-dps-pre-raid", "Trinket"),
-            new GuideMapping("#main-hand-and-two-handed-weapons-for-frost-mage-dps-pre-raid", "Main Hand"),
-            new GuideMapping("#off-hand-weapons-for-frost-mage-dps-pre-raid", "Off Hand"),
-            new GuideMapping("#wands-for-frost-mage-dps-pre-raid", "Wand")
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("MageFrostPhase1", "Frost", "Mage", new List<GuideMapping>
-        {
-            new GuideMapping("#head-for-frost-mage-dps-phase-1", "Head"),
-            new GuideMapping("#shoulders-for-frost-mage-dps-phase-1", "Shoulder"),
-            new GuideMapping("#back-for-frost-mage-dps-phase-1", "Back"),
-            new GuideMapping("#chest-for-frost-mage-dps-phase-1", "Chest"),
-            new GuideMapping("#wrist-for-frost-mage-dps-phase-1", "Wrist"),
-            new GuideMapping("#hands-for-frost-mage-dps-phase-1", "Hands"),
-            new GuideMapping("#waist-for-frost-mage-dps-phase-1", "Waist"),
-            new GuideMapping("#legs-for-frost-mage-dps-phase-1", "Legs"),
-            new GuideMapping("#feet-for-frost-mage-dps-phase-1", "Feet"),
-            new GuideMapping("#neck-for-frost-mage-dps-phase-1", "Neck"),
-            new GuideMapping("#rings-for-frost-mage-dps-phase-1", "Ring"),
-            new GuideMapping("#trinkets-for-frost-mage-dps-phase-1", "Trinket"),
-            new GuideMapping("#main-hand-and-two-handed-weapons-for-frost-mage-dps-phase-1", "Main Hand"),
-            new GuideMapping("#off-hand-weapons-for-frost-mage-dps-phase-1", "Off Hand"),
-            new GuideMapping("#wands-for-frost-mage-dps-phase-1", "Wand")
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("MageFireGemEnchants", "Fire", "Mage", new List<GuideMapping>
-        {
-            new GuideMapping("h2#best-gems+.box", "Meta"),
-            new GuideMapping("h2#best-gems+.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box~.box~.box", "Gem"),
-
-            new GuideMapping("h2#best-enchants~.box", "Head"),
-            new GuideMapping("h2#best-enchants~.box~.box", "Shoulder"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box", "Back"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box", "Chest"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box", "Waist"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box", "Wrist"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Hands"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Legs"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("MageFirePhase0", "Fire", "Mage", new List<GuideMapping>
-        {
-            new GuideMapping("#head-for-fire-mage-dps-pre-raid", "Head"),
-            new GuideMapping("#shoulders-for-fire-mage-dps-pre-raid", "Shoulder"),
-            new GuideMapping("#back-for-fire-mage-dps-pre-raid", "Back"),
-            new GuideMapping("#chest-for-fire-mage-dps-pre-raid", "Chest"),
-            new GuideMapping("#wrist-for-fire-mage-dps-pre-raid", "Wrist"),
-            new GuideMapping("#hands-for-fire-mage-dps-pre-raid", "Hands"),
-            new GuideMapping("#waist-for-fire-mage-dps-pre-raid", "Waist"),
-            new GuideMapping("#legs-for-fire-mage-dps-pre-raid", "Legs"),
-            new GuideMapping("#feet-for-fire-mage-dps-pre-raid", "Feet"),
-            new GuideMapping("#neck-for-fire-mage-dps-pre-raid", "Neck"),
-            new GuideMapping("#rings-for-fire-mage-dps-pre-raid", "Ring"),
-            new GuideMapping("#trinkets-for-fire-mage-dps-pre-raid", "Trinket"),
-            new GuideMapping("#main-hand-and-two-handed-weapons-for-fire-mage-dps-pre-raid", "Main Hand"),
-            new GuideMapping("#off-hand-weapons-for-fire-mage-dps-pre-raid", "Off Hand"),
-            new GuideMapping("#wands-for-fire-mage-dps-pre-raid", "Wand")
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("MageFirePhase1", "Fire", "Mage", new List<GuideMapping>
-        {
-            new GuideMapping("#head-for-fire-mage-dps-phase-1", "Head"),
-            new GuideMapping("#shoulders-for-fire-mage-dps-phase-1", "Shoulder"),
-            new GuideMapping("#back-for-fire-mage-dps-phase-1", "Back"),
-            new GuideMapping("#chest-for-fire-mage-dps-phase-1", "Chest"),
-            new GuideMapping("#wrist-for-fire-mage-dps-phase-1", "Wrist"),
-            new GuideMapping("#hands-for-fire-mage-dps-phase-1", "Hands"),
-            new GuideMapping("#waist-for-fire-mage-dps-phase-1", "Waist"),
-            new GuideMapping("#legs-for-fire-mage-dps-phase-1", "Legs"),
-            new GuideMapping("#feet-for-fire-mage-dps-phase-1", "Feet"),
-            new GuideMapping("#neck-for-fire-mage-dps-phase-1", "Neck"),
-            new GuideMapping("#rings-for-fire-mage-dps-phase-1", "Ring"),
-            new GuideMapping("#trinkets-for-fire-mage-dps-phase-1", "Trinket"),
-            new GuideMapping("#main-hand-and-two-handed-weapons-for-fire-mage-dps-phase-1", "Main Hand"),
-            new GuideMapping("#off-hand-weapons-for-fire-mage-dps-phase-1", "Off Hand"),
-            new GuideMapping("#wands-for-fire-mage-dps-phase-1", "Wand")
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("MageArcaneGemEnchants", "Arcane", "Mage", new List<GuideMapping>
-        {
-            new GuideMapping("h2#best-gems+.box", "Meta"),
-            new GuideMapping("h2#best-gems+.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box~.box~.box", "Gem"),
-
-            new GuideMapping("h2#best-enchants~.box", "Head"),
-            new GuideMapping("h2#best-enchants~.box~.box", "Shoulder"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box", "Back"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box", "Chest"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box", "Waist"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box", "Wrist"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Hands"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Legs"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("MageArcanePhase0", "Arcane", "Mage", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/arcane-mage-dps-best-in-slot-gear-pre-raid",
+            "Arcane", "Mage", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-arcane-mage-dps-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-arcane-mage-dps-pre-raid", "Shoulder"),
@@ -789,7 +722,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wands-for-arcane-mage-dps-pre-raid", "Wand")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("MageArcanePhase1", "Arcane", "Mage", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/arcane-mage-dps-best-in-slot-gear-phase-1",
+            "Arcane", "Mage", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-arcane-mage-dps-phase-1", "Head"),
             new GuideMapping("#shoulders-for-arcane-mage-dps-phase-1", "Shoulder"),
@@ -807,8 +741,143 @@ public class ClassSpecGuideMappings
             new GuideMapping("#off-hand-weapons-for-arcane-mage-dps-phase-1", "Off Hand"),
             new GuideMapping("#wands-for-arcane-mage-dps-phase-1", "Wand")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinHolyGemEnchants", "Holy", "Paladin", new List<GuideMapping>
+        #region Fire Mage
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/fire-mage-dps-enchants-gems",
+            "Fire", "Mage", "GemsEnchants", new List<GuideMapping>
+        {
+            new GuideMapping("h2#best-gems+.box", "Meta"),
+            new GuideMapping("h2#best-gems+.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box~.box~.box", "Gem"),
+
+            new GuideMapping("h2#best-enchants~.box", "Head"),
+            new GuideMapping("h2#best-enchants~.box~.box", "Shoulder"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box", "Back"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box", "Chest"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box", "Waist"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box", "Wrist"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Hands"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Legs"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/fire-mage-dps-best-in-slot-gear-pre-raid",
+            "Fire", "Mage", "Phase0", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-fire-mage-dps-pre-raid", "Head"),
+            new GuideMapping("#shoulders-for-fire-mage-dps-pre-raid", "Shoulder"),
+            new GuideMapping("#back-for-fire-mage-dps-pre-raid", "Back"),
+            new GuideMapping("#chest-for-fire-mage-dps-pre-raid", "Chest"),
+            new GuideMapping("#wrist-for-fire-mage-dps-pre-raid", "Wrist"),
+            new GuideMapping("#hands-for-fire-mage-dps-pre-raid", "Hands"),
+            new GuideMapping("#waist-for-fire-mage-dps-pre-raid", "Waist"),
+            new GuideMapping("#legs-for-fire-mage-dps-pre-raid", "Legs"),
+            new GuideMapping("#feet-for-fire-mage-dps-pre-raid", "Feet"),
+            new GuideMapping("#neck-for-fire-mage-dps-pre-raid", "Neck"),
+            new GuideMapping("#rings-for-fire-mage-dps-pre-raid", "Ring"),
+            new GuideMapping("#trinkets-for-fire-mage-dps-pre-raid", "Trinket"),
+            new GuideMapping("#main-hand-and-two-handed-weapons-for-fire-mage-dps-pre-raid", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-fire-mage-dps-pre-raid", "Off Hand"),
+            new GuideMapping("#wands-for-fire-mage-dps-pre-raid", "Wand")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/fire-mage-dps-best-in-slot-gear-phase-1",
+            "Fire", "Mage", "Phase1", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-fire-mage-dps-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-fire-mage-dps-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-fire-mage-dps-phase-1", "Back"),
+            new GuideMapping("#chest-for-fire-mage-dps-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-fire-mage-dps-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-fire-mage-dps-phase-1", "Hands"),
+            new GuideMapping("#waist-for-fire-mage-dps-phase-1", "Waist"),
+            new GuideMapping("#legs-for-fire-mage-dps-phase-1", "Legs"),
+            new GuideMapping("#feet-for-fire-mage-dps-phase-1", "Feet"),
+            new GuideMapping("#neck-for-fire-mage-dps-phase-1", "Neck"),
+            new GuideMapping("#rings-for-fire-mage-dps-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-fire-mage-dps-phase-1", "Trinket"),
+            new GuideMapping("#main-hand-and-two-handed-weapons-for-fire-mage-dps-phase-1", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-fire-mage-dps-phase-1", "Off Hand"),
+            new GuideMapping("#wands-for-fire-mage-dps-phase-1", "Wand")
+        }));
+        #endregion
+
+        #region Frost Mage
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/frost-mage-dps-enchants-gems",
+            "Frost", "Mage", "GemsEnchants", new List<GuideMapping>
+        {
+            new GuideMapping("h2#best-gems+.box", "Meta"),
+            new GuideMapping("h2#best-gems+.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box~.box~.box", "Gem"),
+
+            new GuideMapping("h2#best-enchants~.box", "Head"),
+            new GuideMapping("h2#best-enchants~.box~.box", "Shoulder"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box", "Back"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box", "Chest"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box", "Waist"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box", "Wrist"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Hands"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Legs"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/frost-mage-dps-best-in-slot-gear-pre-raid",
+            "Frost", "Mage", "Phase0", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-frost-mage-dps-pre-raid", "Head"),
+            new GuideMapping("#shoulders-for-frost-mage-dps-pre-raid", "Shoulder"),
+            new GuideMapping("#back-for-frost-mage-dps-pre-raid", "Back"),
+            new GuideMapping("#chest-for-frost-mage-dps-pre-raid", "Chest"),
+            new GuideMapping("#wrist-for-frost-mage-dps-pre-raid", "Wrist"),
+            new GuideMapping("#hands-for-frost-mage-dps-pre-raid", "Hands"),
+            new GuideMapping("#waist-for-frost-mage-dps-pre-raid", "Waist"),
+            new GuideMapping("#legs-for-frost-mage-dps-pre-raid", "Legs"),
+            new GuideMapping("#feet-for-frost-mage-dps-pre-raid", "Feet"),
+            new GuideMapping("#neck-for-frost-mage-dps-pre-raid", "Neck"),
+            new GuideMapping("#rings-for-frost-mage-dps-pre-raid", "Ring"),
+            new GuideMapping("#trinkets-for-frost-mage-dps-pre-raid", "Trinket"),
+            new GuideMapping("#main-hand-and-two-handed-weapons-for-frost-mage-dps-pre-raid", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-frost-mage-dps-pre-raid", "Off Hand"),
+            new GuideMapping("#wands-for-frost-mage-dps-pre-raid", "Wand")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/frost-mage-dps-best-in-slot-gear-phase-1",
+            "Frost", "Mage", "Phase1", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-frost-mage-dps-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-frost-mage-dps-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-frost-mage-dps-phase-1", "Back"),
+            new GuideMapping("#chest-for-frost-mage-dps-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-frost-mage-dps-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-frost-mage-dps-phase-1", "Hands"),
+            new GuideMapping("#waist-for-frost-mage-dps-phase-1", "Waist"),
+            new GuideMapping("#legs-for-frost-mage-dps-phase-1", "Legs"),
+            new GuideMapping("#feet-for-frost-mage-dps-phase-1", "Feet"),
+            new GuideMapping("#neck-for-frost-mage-dps-phase-1", "Neck"),
+            new GuideMapping("#rings-for-frost-mage-dps-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-frost-mage-dps-phase-1", "Trinket"),
+            new GuideMapping("#main-hand-and-two-handed-weapons-for-frost-mage-dps-phase-1", "Main Hand"),
+            new GuideMapping("#off-hand-weapons-for-frost-mage-dps-phase-1", "Off Hand"),
+            new GuideMapping("#wands-for-frost-mage-dps-phase-1", "Wand")
+        }));
+        #endregion
+
+        #region Holy Paladin
+        GuideMappings.Add(new ClassGuideMapping("",
+            "Holy", "Paladin", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -828,7 +897,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinHolyPhase0", "Holy", "Paladin", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("",
+            "Holy", "Paladin", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulder"),
@@ -847,7 +917,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#librams", "Libram")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinHolyPhase1", "Holy", "Paladin", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("",
+            "Holy", "Paladin", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulder"),
@@ -865,8 +936,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#offhands-and-shields", "Off Hand"),
             new GuideMapping("#librams", "Libram")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinProtectionGemEnchants", "Protection", "Paladin", new List<GuideMapping>
+        #region Prot Paladin
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/protection-paladin-tank-enchants-gems",
+            "Protection", "Paladin", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -887,7 +961,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinProtectionPhase0", "Protection", "Paladin", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/protection-paladin-tank-best-in-slot-gear-pre-raid",
+            "Protection", "Paladin", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-protection-paladin-tank-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-protection-paladin-tank-pre-raid", "Shoulder"),
@@ -906,7 +981,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#librams-for-protection-paladin-tank-pre-raid", "Libram")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinProtectionPhase1", "Protection", "Paladin", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/protection-paladin-tank-best-in-slot-gear-phase-1",
+            "Protection", "Paladin", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-protection-paladin-tank-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-protection-paladin-tank-phase-1", "Shoulder"),
@@ -924,8 +1000,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#shields-for-protection-paladin-tank-phase-1", "Shield"),
             new GuideMapping("#librams-for-protection-paladin-tank-phase-1", "Libram")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinRetributionGemEnchants", "Retribution", "Paladin", new List<GuideMapping>
+        #region Ret Paladin
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/retribution-paladin-dps-enchants-gems",
+            "Retribution", "Paladin", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -945,7 +1024,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinRetributionPhase0", "Retribution", "Paladin", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/retribution-paladin-dps-best-in-slot-gear-pre-raid",
+            "Retribution", "Paladin", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-retribution-paladin-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-retribution-paladin-pre-raid", "Shoulder"),
@@ -963,7 +1043,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#libram", "Libram")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PaladinRetributionPhase1", "Retribution", "Paladin", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/retribution-paladin-dps-best-in-slot-gear-phase-1",
+            "Retribution", "Paladin", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-retribution-paladin-phase-1", "Head"),
             new GuideMapping("#shoulders-for-retribution-paladin-phase-1", "Shoulder"),
@@ -980,8 +1061,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#two-hand-weapons-for-retribution-paladin-phase-1", "Two Hand"),
             new GuideMapping("#libram", "Libram")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("PriestHolyGemEnchants", "Holy", "Priest", new List<GuideMapping>
+        #region Holy Priest
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/holy-priest-healer-enchants-gems",
+            "Holy", "Priest", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -1003,8 +1087,9 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PriestHolyPhase0", "Holy", "Priest", new List<GuideMapping>
-        {        
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/holy-priest-healer-best-in-slot-gear-pre-raid",
+            "Holy", "Priest", "Phase0", new List<GuideMapping>
+        {
             new GuideMapping("#head-for-holy-priest-healer-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-holy-priest-healer-pre-raid", "Shoulder"),
             new GuideMapping("#back-for-holy-priest-healer-pre-raid", "Back"),
@@ -1022,7 +1107,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wands-for-holy-priest-healer-pre-raid", "Wand")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PriestHolyPhase1", "Holy", "Priest", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/holy-priest-healer-best-in-slot-gear-phase-1",
+            "Holy", "Priest", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-holy-priest-healer-phase-1", "Head"),
             new GuideMapping("#shoulders-for-holy-priest-healer-phase-1", "Shoulder"),
@@ -1040,8 +1126,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#off-hands-for-holy-priest-healer-phase-1", "Off Hand"),
             new GuideMapping("#wands-for-holy-priest-healer-phase-1", "Wand")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("PriestDisciplineGemEnchants", "Discipline", "Priest", new List<GuideMapping>
+        #region Disc Priest
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/discipline-priest-healer-enchants-gems",
+            "Discipline", "Priest", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -1062,7 +1151,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PriestDisciplinePhase0", "Discipline", "Priest", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/discipline-priest-healer-best-in-slot-gear-pre-raid",
+            "Discipline", "Priest", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-discipline-priest-healer-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-discipline-priest-healer-pre-raid", "Shoulder"),
@@ -1081,7 +1171,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wands-for-discipline-priest-healer-pre-raid", "Wand")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PriestDisciplinePhase1", "Discipline", "Priest", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/discipline-priest-healer-best-in-slot-gear-phase-1",
+            "Discipline", "Priest", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-discipline-priest-healer-phase-1", "Head"),
             new GuideMapping("#shoulders-for-discipline-priest-healer-phase-1", "Shoulder"),
@@ -1099,8 +1190,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#off-hands-for-discipline-priest-healer-phase-1", "Off Hand"),
             new GuideMapping("#wands-for-discipline-priest-healer-phase-1", "Wand")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("PriestShadowGemEnchants", "Shadow", "Priest", new List<GuideMapping>
+        #region Shadow Priest
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/shadow-priest-dps-enchants-gems",
+            "Shadow", "Priest", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -1123,7 +1217,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PriestShadowPhase0", "Shadow", "Priest", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/shadow-priest-dps-best-in-slot-gear-pre-raid",
+            "Shadow", "Priest", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-shadow-priest-dps-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-shadow-priest-dps-pre-raid", "Shoulder"),
@@ -1143,7 +1238,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wands-for-shadow-priest-dps-pre-raid", "Wand")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("PriestShadowPhase1", "Shadow", "Priest", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/shadow-priest-dps-best-in-slot-gear-phase-1",
+            "Shadow", "Priest", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-shadow-priest-dps-in-phase-1", "Head"),
             new GuideMapping("#shoulders-for-shadow-priest-dps-in-phase-1", "Shoulder"),
@@ -1162,8 +1258,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#two-handed-weapons-for-shadow-priest-dps-in-phase-1", "Two Hand"),
             new GuideMapping("#wands-for-shadow-priest-dps-in-phase-1", "Wand")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("RogueAssassinationGemEnchants", "Assassination", "Rogue", new List<GuideMapping>
+        #region Assassination Rogue
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/assassination-rogue-dps-enchants-gems",
+            "Assassination", "Rogue", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -1184,7 +1283,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("RogueAssassinationPhase0", "Assassination", "Rogue", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/assassination-rogue-dps-best-in-slot-gear-pre-raid",
+            "Assassination", "Rogue", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-assassination-rogue-dps-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-assassination-rogue-dps-pre-raid", "Shoulder"),
@@ -1202,7 +1302,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows-for-assassination-rogue-dps-pre-raid", "Ranged")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("RogueAssassinationPhase1", "Assassination", "Rogue", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/assassination-rogue-dps-best-in-slot-gear-phase-1",
+            "Assassination", "Rogue", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-assassination-rogue-dps-phase-1", "Head"),
             new GuideMapping("#shoulders-for-assassination-rogue-dps-phase-1", "Shoulder"),
@@ -1219,8 +1320,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#weapons-for-assassination-rogue-dps-phase-1", "Main Hand"),
             new GuideMapping("#guns-and-bows-for-assassination-rogue-dps-phase-1", "Ranged")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("RogueSubtletyGemEnchants", "Subtlety", "Rogue", new List<GuideMapping>
+        #region Combat Rogue
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/combat-rogue-dps-enchants-gems",
+            "Combat", "Rogue", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -1241,64 +1345,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("RogueSubtletyPhase0", "Subtlety", "Rogue", new List<GuideMapping>
-        {
-            new GuideMapping("#head-for-subtlety-rogue-dps-pre-raid", "Head"),
-            new GuideMapping("#shoulders-for-subtlety-rogue-dps-pre-raid", "Shoulder"),
-            new GuideMapping("#back-for-subtlety-rogue-dps-pre-raid", "Back"),
-            new GuideMapping("#chest-for-subtlety-rogue-dps-pre-raid", "Chest"),
-            new GuideMapping("#wrist-for-subtlety-rogue-dps-pre-raid", "Wrist"),
-            new GuideMapping("#hands-for-subtlety-rogue-dps-pre-raid", "Hands"),
-            new GuideMapping("#waist-for-subtlety-rogue-dps-pre-raid", "Waist"),
-            new GuideMapping("#legs-for-subtlety-rogue-dps-pre-raid", "Legs"),
-            new GuideMapping("#feet-for-subtlety-rogue-dps-pre-raid", "Feet"),
-            new GuideMapping("#neck-for-subtlety-rogue-dps-pre-raid", "Neck"),
-            new GuideMapping("#rings-for-subtlety-rogue-dps-pre-raid", "Ring"),
-            new GuideMapping("#trinkets-for-subtlety-rogue-dps-pre-raid", "Trinket"),
-            new GuideMapping("#weapons-for-subtlety-rogue-dps-pre-raid", "Main Hand"),
-            new GuideMapping("#guns-and-bows-for-subtlety-rogue-dps-pre-raid", "Ranged")
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("RogueSubtletyPhase1", "Subtlety", "Rogue", new List<GuideMapping>
-        {
-            new GuideMapping("#head-for-subtlety-rogue-dps-phase-1", "Head"),
-            new GuideMapping("#shoulders-for-subtlety-rogue-dps-phase-1", "Shoulder"),
-            new GuideMapping("#back-for-subtlety-rogue-dps-phase-1", "Back"),
-            new GuideMapping("#chest-for-subtlety-rogue-dps-phase-1", "Chest"),
-            new GuideMapping("#wrist-for-subtlety-rogue-dps-phase-1", "Wrist"),
-            new GuideMapping("#hands-for-subtlety-rogue-dps-phase-1", "Hands"),
-            new GuideMapping("#waist-for-subtlety-rogue-dps-phase-1", "Waist"),
-            new GuideMapping("#legs-for-subtlety-rogue-dps-phase-1", "Legs"),
-            new GuideMapping("#feet-for-subtlety-rogue-dps-phase-1", "Feet"),
-            new GuideMapping("#neck-for-subtlety-rogue-dps-phase-1", "Neck"),
-            new GuideMapping("#rings-for-subtlety-rogue-dps-phase-1", "Ring"),
-            new GuideMapping("#trinkets-for-subtlety-rogue-dps-phase-1", "Trinket"),
-            new GuideMapping("#weapons-for-subtlety-rogue-dps-phase-1", "Main Hand"),
-            new GuideMapping("#guns-and-bows-for-subtlety-rogue-dps-phase-1", "Ranged")
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("RogueCombatGemEnchants", "Combat", "Rogue", new List<GuideMapping>
-        {
-            new GuideMapping("h2#best-gems+.box", "Meta"),
-            new GuideMapping("h2#best-gems+.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box", "Gem"),
-
-            new GuideMapping("h2#best-enchants~.box", "Head"),
-            new GuideMapping("h2#best-enchants~.box~.box", "Shoulder"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box", "Back"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box", "Chest"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box", "Wrist"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box", "Hands"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Legs"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("RogueCombatPhase0", "Combat", "Rogue", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/combat-rogue-dps-best-in-slot-gear-pre-raid",
+            "Combat", "Rogue", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-combat-rogue-dps-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-combat-rogue-dps-pre-raid", "Shoulder"),
@@ -1317,7 +1365,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows-for-combat-rogue-dps-pre-raid", "Ranged")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("RogueCombatPhase1", "Combat", "Rogue", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/combat-rogue-dps-best-in-slot-gear-phase-1",
+            "Combat", "Rogue", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-combat-rogue-dps-phase-1", "Head"),
             new GuideMapping("#shoulders-for-combat-rogue-dps-phase-1", "Shoulder"),
@@ -1335,8 +1384,73 @@ public class ClassSpecGuideMappings
             new GuideMapping("#off-hand-weapons-for-combat-rogue-dps-phase-1", "Off Hand"),
             new GuideMapping("#guns-and-bows-for-combat-rogue-dps-phase-1", "Ranged")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanElementalGemEnchants", "Elemental", "Shaman", new List<GuideMapping>
+        #region Subtlety Rogue
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/subtlety-rogue-dps-enchants-gems",
+            "Subtlety", "Rogue", "GemsEnchants", new List<GuideMapping>
+        {
+            new GuideMapping("h2#best-gems+.box", "Meta"),
+            new GuideMapping("h2#best-gems+.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box", "Gem"),
+
+            new GuideMapping("h2#best-enchants~.box", "Head"),
+            new GuideMapping("h2#best-enchants~.box~.box", "Shoulder"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box", "Back"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box", "Chest"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box", "Wrist"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box", "Hands"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Legs"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/subtlety-rogue-dps-best-in-slot-gear-pre-raid",
+            "Subtlety", "Rogue", "Phase0", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-subtlety-rogue-dps-pre-raid", "Head"),
+            new GuideMapping("#shoulders-for-subtlety-rogue-dps-pre-raid", "Shoulder"),
+            new GuideMapping("#back-for-subtlety-rogue-dps-pre-raid", "Back"),
+            new GuideMapping("#chest-for-subtlety-rogue-dps-pre-raid", "Chest"),
+            new GuideMapping("#wrist-for-subtlety-rogue-dps-pre-raid", "Wrist"),
+            new GuideMapping("#hands-for-subtlety-rogue-dps-pre-raid", "Hands"),
+            new GuideMapping("#waist-for-subtlety-rogue-dps-pre-raid", "Waist"),
+            new GuideMapping("#legs-for-subtlety-rogue-dps-pre-raid", "Legs"),
+            new GuideMapping("#feet-for-subtlety-rogue-dps-pre-raid", "Feet"),
+            new GuideMapping("#neck-for-subtlety-rogue-dps-pre-raid", "Neck"),
+            new GuideMapping("#rings-for-subtlety-rogue-dps-pre-raid", "Ring"),
+            new GuideMapping("#trinkets-for-subtlety-rogue-dps-pre-raid", "Trinket"),
+            new GuideMapping("#weapons-for-subtlety-rogue-dps-pre-raid", "Main Hand"),
+            new GuideMapping("#guns-and-bows-for-subtlety-rogue-dps-pre-raid", "Ranged")
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/subtlety-rogue-dps-best-in-slot-gear-phase-1",
+            "Subtlety", "Rogue", "Phase1", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-subtlety-rogue-dps-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-subtlety-rogue-dps-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-subtlety-rogue-dps-phase-1", "Back"),
+            new GuideMapping("#chest-for-subtlety-rogue-dps-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-subtlety-rogue-dps-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-subtlety-rogue-dps-phase-1", "Hands"),
+            new GuideMapping("#waist-for-subtlety-rogue-dps-phase-1", "Waist"),
+            new GuideMapping("#legs-for-subtlety-rogue-dps-phase-1", "Legs"),
+            new GuideMapping("#feet-for-subtlety-rogue-dps-phase-1", "Feet"),
+            new GuideMapping("#neck-for-subtlety-rogue-dps-phase-1", "Neck"),
+            new GuideMapping("#rings-for-subtlety-rogue-dps-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-subtlety-rogue-dps-phase-1", "Trinket"),
+            new GuideMapping("#weapons-for-subtlety-rogue-dps-phase-1", "Main Hand"),
+            new GuideMapping("#guns-and-bows-for-subtlety-rogue-dps-phase-1", "Ranged")
+        }));
+        #endregion
+
+        #region Elemental Shaman
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/elemental-shaman-dps-enchants-gems",
+            "Elemental", "Shaman", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -1357,7 +1471,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanElementalPhase0", "Elemental", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/elemental-shaman-dps-best-in-slot-gear-pre-raid",
+            "Elemental", "Shaman", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-elemental-shaman-dps-in-pre-raid", "Head"),
             new GuideMapping("#shoulder-for-elemental-shaman-dps-in-pre-raid", "Shoulder"),
@@ -1376,7 +1491,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems-for-elemental-shaman-dps-in-pre-raid", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanElementalPhase1", "Elemental", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/elemental-shaman-dps-best-in-slot-gear-phase-1",
+            "Elemental", "Shaman", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-elemental-shaman-dps-in-phase-1", "Head"),
             new GuideMapping("#shoulder-for-elemental-shaman-dps-in-phase-1", "Shoulder"),
@@ -1394,8 +1510,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#shields-off-hands-for-elemental-shaman-dps-in-phase-1", "Off Hand"),
             new GuideMapping("#totems-for-elemental-shaman-dps-in-phase-1", "Totem")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementGemEnchants", "Enhancement", "Shaman", new List<GuideMapping>
+        #region Enhancement Shaman
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/enhancement-shaman-dps-enchants-gems",
+            "Enhancement", "Shaman", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -1415,7 +1534,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementPhase0", "Enhancement", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/enhancement-shaman-dps-best-in-slot-gear-pre-raid",
+            "Enhancement", "Shaman", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-enhancement-shaman-dps-in-pre-raid", "Head"),
             new GuideMapping("#shoulder-for-enhancement-shaman-dps-in-pre-raid", "Shoulder"),
@@ -1433,7 +1553,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems-for-enhancement-shaman-dps-in-pre-raid", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanEnhancementPhase1", "Enhancement", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/enhancement-shaman-dps-best-in-slot-gear-phase-1",
+            "Enhancement", "Shaman", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-enhancement-shaman-dps-in-phase-1", "Head"),
             new GuideMapping("#shoulder-for-enhancement-shaman-dps-in-phase-1", "Shoulder"),
@@ -1450,8 +1571,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#weapons-for-enhancement-shaman-dps-in-phase-1", "Main Hand"),
             new GuideMapping("#totems-for-enhancement-shaman-dps-in-phase-1", "Totem")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanRestorationGemEnchants", "Restoration", "Shaman", new List<GuideMapping>
+        #region Resto Shaman
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/restoration-shaman-healer-enchants-gems",
+            "Restoration", "Shaman", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -1472,7 +1596,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanRestorationPhase0", "Restoration", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/restoration-shaman-healer-best-in-slot-gear-pre-raid",
+            "Restoration", "Shaman", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-restoration-shaman-healer-in-pre-raid", "Head"),
             new GuideMapping("#shoulder-for-restoration-shaman-healer-in-pre-raid", "Shoulder"),
@@ -1491,7 +1616,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#totems-for-restoration-shaman-healer-in-pre-raid", "Totem")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("ShamanRestorationPhase1", "Restoration", "Shaman", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/restoration-shaman-healer-best-in-slot-gear-phase-1",
+            "Restoration", "Shaman", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-restoration-shaman-healer-in-phase-1", "Head"),
             new GuideMapping("#shoulder-for-restoration-shaman-healer-in-phase-1", "Shoulder"),
@@ -1509,8 +1635,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#shields-off-hands-for-restoration-shaman-healer-in-phase-1", "Off Hand"),
             new GuideMapping("#totems-for-restoration-shaman-healer-in-phase-1", "Totem")
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("WarlockAfflictionGemEnchants", "Affliction", "Warlock", new List<GuideMapping>
+        #region Affliction Warlock
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/affliction-warlock-dps-enchants-gems",
+            "Affliction", "Warlock", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems~.box", "Meta"),
             new GuideMapping("h2#best-gems~.box~.box", "Gem"),
@@ -1530,7 +1659,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarlockAffliction", "Affliction", "Warlock", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/affliction-warlock-dps-best-in-slot-gear-pre-raid",
+            "Affliction", "Warlock", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulder"),
@@ -1550,7 +1680,31 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wand", "Wand")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarlockDemonologyGemEnchants", "Demonology", "Warlock", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/affliction-warlock-dps-best-in-slot-gear-phase-1",
+            "Affliction", "Warlock", "Phase1", new List<GuideMapping>
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulder"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrist", "Wrist"),
+            new GuideMapping("#hands", "Hands"),
+            new GuideMapping("#waist", "Waist"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("h3#weapons~h4", "Two Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
+            new GuideMapping("#offhand", "Off Hand"),
+            new GuideMapping("#wand", "Wand")
+        }));
+        #endregion
+
+        #region Demonology Warlock
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/demonology-warlock-dps-enchants-gems",
+            "Demonology", "Warlock", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems~.box", "Meta"),
             new GuideMapping("h2#best-gems~.box~.box", "Gem"),
@@ -1570,7 +1724,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarlockDemonology", "Demonology", "Warlock", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/demonology-warlock-dps-best-in-slot-gear-pre-raid",
+            "Demonology", "Warlock", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulder"),
@@ -1590,7 +1745,31 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wand", "Wand")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarlockDestructionGemEnchants", "Destruction", "Warlock", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/demonology-warlock-dps-best-in-slot-gear-phase-1",
+            "Demonology", "Warlock", "Phase1", new List<GuideMapping>
+        {
+                    new GuideMapping("#head", "Head"),
+                    new GuideMapping("#shoulders", "Shoulder"),
+                    new GuideMapping("#back", "Back"),
+                    new GuideMapping("#chest", "Chest"),
+                    new GuideMapping("#wrist", "Wrist"),
+                    new GuideMapping("#hands", "Hands"),
+                    new GuideMapping("#waist", "Waist"),
+                    new GuideMapping("#legs", "Legs"),
+                    new GuideMapping("#feet", "Feet"),
+                    new GuideMapping("#neck", "Neck"),
+                    new GuideMapping("#rings", "Ring"),
+                    new GuideMapping("#trinkets", "Trinket"),
+                    new GuideMapping("h3#weapons~h4", "Two Hand"),
+                    new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
+                    new GuideMapping("#offhand", "Off Hand"),
+                    new GuideMapping("#wand", "Wand")
+        }));
+        #endregion
+
+        #region Destruction Warlock
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/destruction-warlock-dps-enchants-gems",
+            "Destruction", "Warlock", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems~.box", "Meta"),
             new GuideMapping("h2#best-gems~.box~.box", "Gem"),
@@ -1610,7 +1789,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarlockDestruction", "Destruction", "Warlock", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/destruction-warlock-dps-best-in-slot-gear-pre-raid", 
+            "Destruction", "Warlock", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
             new GuideMapping("#shoulders", "Shoulder"),
@@ -1630,7 +1810,31 @@ public class ClassSpecGuideMappings
             new GuideMapping("#wand", "Wand")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorFuryGemEnchants", "Fury", "Warrior", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/destruction-warlock-dps-best-in-slot-gear-phase-1",
+            "Destruction", "Warlock", "Phase1", new List<GuideMapping>
+        {
+            new GuideMapping("#head", "Head"),
+            new GuideMapping("#shoulders", "Shoulder"),
+            new GuideMapping("#back", "Back"),
+            new GuideMapping("#chest", "Chest"),
+            new GuideMapping("#wrist", "Wrist"),
+            new GuideMapping("#hands", "Hands"),
+            new GuideMapping("#waist", "Waist"),
+            new GuideMapping("#legs", "Legs"),
+            new GuideMapping("#feet", "Feet"),
+            new GuideMapping("#neck", "Neck"),
+            new GuideMapping("#rings", "Ring"),
+            new GuideMapping("#trinkets", "Trinket"),
+            new GuideMapping("h3#weapons~h4", "Two Hand"),
+            new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
+            new GuideMapping("#offhand", "Off Hand"),
+            new GuideMapping("#wand", "Wand")
+        }));
+        #endregion
+
+        #region Arms Warrior
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/arms-warrior-dps-enchants-gems",
+            "Arms", "Warrior", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -1652,7 +1856,71 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorFuryPhase0", "Fury", "Warrior", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/arms-warrior-dps-best-in-slot-gear-pre-raid",
+            "Arms", "Warrior", "Phase0", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-arms-warrior-dps-pre-raid", "Head"),
+            new GuideMapping("#shoulders-for-arms-warrior-dps-pre-raid", "Shoulder"),
+            new GuideMapping("#back-for-arms-warrior-dps-pre-raid", "Back"),
+            new GuideMapping("#chest-for-arms-warrior-dps-pre-raid", "Chest"),
+            new GuideMapping("#wrist-for-arms-warrior-dps-pre-raid", "Wrist"),
+            new GuideMapping("#hands-for-arms-warrior-dps-pre-raid", "Hands"),
+            new GuideMapping("#waist-for-arms-warrior-dps-pre-raid", "Waist"),
+            new GuideMapping("#legs-for-arms-warrior-dps-pre-raid", "Legs"),
+            new GuideMapping("#feet-for-arms-warrior-dps-pre-raid", "Feet"),
+            new GuideMapping("#neck-for-arms-warrior-dps-pre-raid", "Neck"),
+            new GuideMapping("#rings-for-arms-warrior-dps-pre-raid", "Ring"),
+            new GuideMapping("#trinkets-for-arms-warrior-dps-pre-raid", "Trinket"),
+            new GuideMapping("#two-handed-weapons-for-arms-warrior-dps-pre-raid", "Two Hand"),
+            new GuideMapping("#ranged-weapons-for-arms-warrior-dps-pre-raid", "Ranged"),
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/arms-warrior-dps-best-in-slot-gear-phase-1",
+            "Arms", "Warrior", "Phase1", new List<GuideMapping>
+        {
+            new GuideMapping("#head-for-arms-warrior-dps-pre-raid", "Head"),
+            new GuideMapping("#shoulders-for-arms-warrior-dps-pre-raid", "Shoulder"),
+            new GuideMapping("#back-for-arms-warrior-dps-pre-raid", "Back"),
+            new GuideMapping("#chest-for-arms-warrior-dps-pre-raid", "Chest"),
+            new GuideMapping("#wrist-for-arms-warrior-dps-pre-raid", "Wrist"),
+            new GuideMapping("#hands-for-arms-warrior-dps-pre-raid", "Hands"),
+            new GuideMapping("#waist-for-arms-warrior-dps-pre-raid", "Waist"),
+            new GuideMapping("#legs-for-arms-warrior-dps-pre-raid", "Legs"),
+            new GuideMapping("#feet-for-arms-warrior-dps-pre-raid", "Feet"),
+            new GuideMapping("#neck-for-arms-warrior-dps-pre-raid", "Neck"),
+            new GuideMapping("#rings-for-arms-warrior-dps-pre-raid", "Ring"),
+            new GuideMapping("#trinkets-for-arms-warrior-dps-pre-raid", "Trinket"),
+            new GuideMapping("#two-handed-weapons-for-arms-warrior-dps-pre-raid", "Two Hand"),
+            new GuideMapping("#ranged-weapons-for-arms-warrior-dps-pre-raid", "Ranged"),
+        }));
+        #endregion
+
+        #region Fury Warrior
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/fury-warrior-dps-enchants-gems", 
+            "Fury", "Warrior", "GemsEnchants", new List<GuideMapping>
+        {
+            new GuideMapping("h2#best-gems+.box", "Meta"),
+            new GuideMapping("h2#best-gems+.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box", "Gem"),
+
+            new GuideMapping("h2#best-enchants~.box", "Head"),
+            new GuideMapping("h2#best-enchants~.box~.box", "Shoulder"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box", "Back"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box", "Chest"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box", "Wrist"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box", "Hands"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Waist"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Legs"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/fury-warrior-dps-best-in-slot-gear-pre-raid", 
+            "Fury", "Warrior", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-fury-warrior-dps-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-fury-warrior-dps-pre-raid", "Shoulder"),
@@ -1670,7 +1938,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#ranged-weapons-for-fury-warrior-dps-pre-raid", "Ranged"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorFuryPhase1", "Fury", "Warrior", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/fury-warrior-dps-best-in-slot-gear-phase-1", 
+            "Fury", "Warrior", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-fury-warrior-dps-in-phase-1", "Head"),
             new GuideMapping("#shoulders-for-fury-warrior-dps-in-phase-1", "Shoulder"),
@@ -1687,66 +1956,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("#two-handed-weapons-for-fury-warrior-dps-in-phase-1", "Two Hand"),
             new GuideMapping("#ranged-weapons-for-fury-warrior-dps-in-phase-1", "Ranged"),
         }));
+        #endregion
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorArmsGemEnchants", "Arms", "Warrior", new List<GuideMapping>
-        {
-            new GuideMapping("h2#best-gems+.box", "Meta"),
-            new GuideMapping("h2#best-gems+.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box", "Gem"),
-
-            new GuideMapping("h2#best-enchants~.box", "Head"),
-            new GuideMapping("h2#best-enchants~.box~.box", "Shoulder"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box", "Back"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box", "Chest"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box", "Wrist"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box", "Hands"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Waist"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Legs"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("WarriorArmsPhase0", "Arms", "Warrior", new List<GuideMapping>
-        {
-            new GuideMapping("#head-for-arms-warrior-dps-pre-raid", "Head"),
-            new GuideMapping("#shoulders-for-arms-warrior-dps-pre-raid", "Shoulder"),
-            new GuideMapping("#back-for-arms-warrior-dps-pre-raid", "Back"),
-            new GuideMapping("#chest-for-arms-warrior-dps-pre-raid", "Chest"),
-            new GuideMapping("#wrist-for-arms-warrior-dps-pre-raid", "Wrist"),
-            new GuideMapping("#hands-for-arms-warrior-dps-pre-raid", "Hands"),
-            new GuideMapping("#waist-for-arms-warrior-dps-pre-raid", "Waist"),
-            new GuideMapping("#legs-for-arms-warrior-dps-pre-raid", "Legs"),
-            new GuideMapping("#feet-for-arms-warrior-dps-pre-raid", "Feet"),
-            new GuideMapping("#neck-for-arms-warrior-dps-pre-raid", "Neck"),
-            new GuideMapping("#rings-for-arms-warrior-dps-pre-raid", "Ring"),
-            new GuideMapping("#trinkets-for-arms-warrior-dps-pre-raid", "Trinket"),
-            new GuideMapping("#two-handed-weapons-for-arms-warrior-dps-pre-raid", "Two Hand"),
-            new GuideMapping("#ranged-weapons-for-arms-warrior-dps-pre-raid", "Ranged"),
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("WarriorArmsPhase1", "Arms", "Warrior", new List<GuideMapping>
-        {
-            new GuideMapping("#head-for-arms-warrior-dps-pre-raid", "Head"),
-            new GuideMapping("#shoulders-for-arms-warrior-dps-pre-raid", "Shoulder"),
-            new GuideMapping("#back-for-arms-warrior-dps-pre-raid", "Back"),
-            new GuideMapping("#chest-for-arms-warrior-dps-pre-raid", "Chest"),
-            new GuideMapping("#wrist-for-arms-warrior-dps-pre-raid", "Wrist"),
-            new GuideMapping("#hands-for-arms-warrior-dps-pre-raid", "Hands"),
-            new GuideMapping("#waist-for-arms-warrior-dps-pre-raid", "Waist"),
-            new GuideMapping("#legs-for-arms-warrior-dps-pre-raid", "Legs"),
-            new GuideMapping("#feet-for-arms-warrior-dps-pre-raid", "Feet"),
-            new GuideMapping("#neck-for-arms-warrior-dps-pre-raid", "Neck"),
-            new GuideMapping("#rings-for-arms-warrior-dps-pre-raid", "Ring"),
-            new GuideMapping("#trinkets-for-arms-warrior-dps-pre-raid", "Trinket"),
-            new GuideMapping("#two-handed-weapons-for-arms-warrior-dps-pre-raid", "Two Hand"),
-            new GuideMapping("#ranged-weapons-for-arms-warrior-dps-pre-raid", "Ranged"),
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("WarriorProtectionGemEnchants", "Protection", "Warrior", new List<GuideMapping>
+        #region Prot Warrior
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/protection-warrior-tank-enchants-gems", 
+            "Protection", "Warrior", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
@@ -1767,7 +1981,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorProtectionPhase0", "Protection", "Warrior", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/protection-warrior-tank-best-in-slot-gear-pre-raid",
+            "Protection", "Warrior", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-protection-warrior-tank-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-protection-warrior-tank-pre-raid", "Shoulder"),
@@ -1786,7 +2001,8 @@ public class ClassSpecGuideMappings
             new GuideMapping("#guns-and-bows-for-protection-warrior-tank-pre-raid", "Ranged")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("WarriorProtectionPhase1", "Protection", "Warrior", new List<GuideMapping>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/protection-warrior-tank-best-in-slot-gear-phase-1", 
+            "Protection", "Warrior", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head-for-protection-warrior-tank-in-phase-1", "Head"),
             new GuideMapping("#shoulders-for-protection-warrior-tank-in-phase-1", "Shoulder"),
@@ -1804,5 +2020,6 @@ public class ClassSpecGuideMappings
             new GuideMapping("#shields-for-protection-warrior-tank-in-phase-1", "Shield"),
             new GuideMapping("#guns-and-bows-for-protection-warrior-tank-in-phase-1", "Ranged")
         }));
+        #endregion
     }
 }
