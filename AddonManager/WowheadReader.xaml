@@ -15,6 +15,7 @@
         </ScrollViewer>
         <ComboBox x:Name="cmbSpec" HorizontalAlignment="Left" Margin="150,11,0,0" VerticalAlignment="Top" Width="150" SelectedIndex="0" />
         <ComboBox x:Name="cmbPhase" HorizontalAlignment="Left" Margin="314,11,0,0" VerticalAlignment="Top" Width="125" SelectedIndex="0" />
+        <Button x:Name="btnCancel" IsEnabled="False" Content="Cancel" Margin="10,10,450,10" VerticalAlignment="Top" Click="Cancel_Click"/>
 
         <Button x:Name="btnLocalize" IsEnabled="False" Content="Localize" Margin="10,10,100,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Localize_Click"/>
         <Button x:Name="btnRefreshItems" IsEnabled="False" Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Update_Click"/>

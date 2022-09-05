@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Net.Http;
 using System.Windows.Controls;
+using System.Windows.Documents;
 using AddonManager.Models;
 using AngleSharp;
 using AngleSharp.Dom;
@@ -115,10 +116,13 @@ public class WowheadGuideParser
                 var tableRows = table?.FirstChild?.ChildNodes;
                 if (tableRows != null)
                 {
+                    bool isTierList = false;
                     foreach (var tableRow in tableRows)
                     {
                         if (!firstRow || tableRow.NodeName != "TR")
                         {
+                            if (tableRow.TextContent.Contains("Priority") && tableRow.TextContent.Contains("Rank"))
+                                isTierList = true;
                             firstRow = true;
                             continue;
                         }
@@ -137,87 +141,101 @@ public class WowheadGuideParser
                             }
                         }
 
+                        var bisStatus = GetBisStatus(tableRow, isTierList);
+
                         if (itemChild != null)
-                            foreach (var child in itemChild.ChildNodes)
-                            {
-                                if (child is IHtmlAnchorElement)
-                                {
-                                    foundAnchor = true;
-
-                                    if (((IHtmlAnchorElement)child).PathName.Contains("/item="))
-                                    {
-                                        var item = ((IHtmlAnchorElement)child).PathName.Replace("/wotlk", "").Replace("/item=", "");
-
-                                        var itemIdIndex = item.IndexOf("/");
-                                        if (itemIdIndex == -1)
-                                            itemIdIndex = item.IndexOf("&");
-
-                                        item = item.Substring(0, itemIdIndex);
-                                        var itemName = child.TextContent.Trim();
-                                        var bisStatus = tableRow?.ChildNodes[0].TextContent.Trim();
-
-                                        bool skippedItem = false;
-                                        foreach (var excludedName in excludedItemNames)
-                                            if (child.NextSibling?.TextContent.Trim().EndsWith(excludedName) ?? false || itemName.EndsWith(excludedName))
-                                                skippedItem = true;
-
-                                        if (!skippedItem)
-                                        {
-                                            int itemId = -99999;
-                                            Int32.TryParse(item, out itemId);
-                                            if (!items.ContainsKey(itemId))
-                                            {
-                                                items.Add(itemId, new ItemSpec
-                                                {
-                                                    ItemId = itemId,
-                                                    Name = itemName ?? "undefined",
-                                                    BisStatus = bisStatus ?? "undefined",
-                                                    Slot = guideMapping.Slot
-                                                });
-
-                                                if (TierPiecesAndTokens.TierPieces.ContainsKey(itemId) && !items.ContainsKey(TierPiecesAndTokens.TierPieces[itemId].Item1))
-                                                {
-                                                    items.Add(TierPiecesAndTokens.TierPieces[itemId].Item1, new ItemSpec
-                                                    {
-                                                        ItemId = TierPiecesAndTokens.TierPieces[itemId].Item1,
-                                                        Name = TierPiecesAndTokens.TierPieces[itemId].Item2,
-                                                        BisStatus = bisStatus ?? "undefined",
-                                                        Slot = guideMapping.Slot
-                                                    });
-                                                }
-
-                                                if (TierPiecesAndTokens.Transmutes.ContainsKey(itemId) && !items.ContainsKey(TierPiecesAndTokens.Transmutes[itemId].Item1))
-                                                {
-                                                    items.Add(TierPiecesAndTokens.Transmutes[itemId].Item1, new ItemSpec
-                                                    {
-                                                        ItemId = TierPiecesAndTokens.Transmutes[itemId].Item1,
-                                                        Name = TierPiecesAndTokens.Transmutes[itemId].Item2,
-                                                        BisStatus = "Transmute " + bisStatus ?? "undefined",
-                                                        Slot = guideMapping.Slot
-                                                    });
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-
-                        if (!foundAnchor)
-                        {
-                            var itemId = -1 * _rand.Next(10000, 99999);
-                            items.Add(itemId, new ItemSpec
-                            {
-                                ItemId = itemId,
-                                Name = "undefined",
-                                BisStatus = "undefined",
-                                Slot = guideMapping.Slot
-                            });
-                        }
+                            ParseItemCell(itemChild, bisStatus, guideMapping.Slot, items);    
                     }
                 }
             });
         });
         return items;
+    }
+
+    private string GetBisStatus(INode tableRow, bool isTierList)
+    {
+        if (isTierList)
+            return tableRow?.ChildNodes[1].TextContent.Trim().Contains("S") ?? false ? "BIS" : "Alt";
+        else
+            return tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
+    }
+
+    private void ParseItemCell(INode itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items)
+    {
+        bool foundAnchor = false;
+        foreach (var child in itemChild.ChildNodes)
+        {
+            if (child is IHtmlAnchorElement)
+            {
+                foundAnchor = true;
+
+                if (((IHtmlAnchorElement)child).PathName.Contains("/item="))
+                {
+                    var item = ((IHtmlAnchorElement)child).PathName.Replace("/wotlk", "").Replace("/item=", "");
+
+                    var itemIdIndex = item.IndexOf("/");
+                    if (itemIdIndex == -1)
+                        itemIdIndex = item.IndexOf("&");
+
+                    item = item.Substring(0, itemIdIndex);
+                    var itemName = child.TextContent.Trim();
+
+                    bool skippedItem = false;
+                    foreach (var excludedName in excludedItemNames)
+                        if (child.NextSibling?.TextContent.Trim().EndsWith(excludedName) ?? false || itemName.EndsWith(excludedName))
+                            skippedItem = true;
+
+                    if (!skippedItem)
+                    {
+                        int itemId = -99999;
+                        Int32.TryParse(item, out itemId);
+                        if (!items.ContainsKey(itemId))
+                        {
+                            items.Add(itemId, new ItemSpec
+                            {
+                                ItemId = itemId,
+                                Name = itemName ?? "undefined",
+                                BisStatus = bisStatus ?? "undefined",
+                                Slot = slot
+                            });
+
+                            if (TierPiecesAndTokens.TierPieces.ContainsKey(itemId) && !items.ContainsKey(TierPiecesAndTokens.TierPieces[itemId].Item1))
+                            {
+                                items.Add(TierPiecesAndTokens.TierPieces[itemId].Item1, new ItemSpec
+                                {
+                                    ItemId = TierPiecesAndTokens.TierPieces[itemId].Item1,
+                                    Name = TierPiecesAndTokens.TierPieces[itemId].Item2,
+                                    BisStatus = bisStatus ?? "undefined",
+                                    Slot = slot
+                                });
+                            }
+
+                            if (TierPiecesAndTokens.Transmutes.ContainsKey(itemId) && !items.ContainsKey(TierPiecesAndTokens.Transmutes[itemId].Item1))
+                            {
+                                items.Add(TierPiecesAndTokens.Transmutes[itemId].Item1, new ItemSpec
+                                {
+                                    ItemId = TierPiecesAndTokens.Transmutes[itemId].Item1,
+                                    Name = TierPiecesAndTokens.Transmutes[itemId].Item2,
+                                    BisStatus = "Transmute " + bisStatus ?? "undefined",
+                                    Slot = slot
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        if (!foundAnchor)
+        {
+            var itemId = -1 * _rand.Next(10000, 99999);
+            items.Add(itemId, new ItemSpec
+            {
+                ItemId = itemId,
+                Name = "undefined",
+                BisStatus = "undefined",
+                Slot = slot
+            });
+        }
     }
 
     public void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlTableElement?, GuideMapping> action)

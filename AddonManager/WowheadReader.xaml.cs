@@ -21,6 +21,8 @@ public partial class WowheadReader : Window
 
     public static Browser? Browser { get; set; }
 
+    private bool _importIsCanceled;
+
     public class CsvLootTable
     {
         public int ItemId { get; set; }
@@ -92,6 +94,13 @@ public partial class WowheadReader : Window
         {
             try
             {
+                if (_importIsCanceled)
+                {
+                    ConsoleOut.Text += $"Import Canceled!" + Environment.NewLine;
+                    _importIsCanceled = false;
+                    return;
+                }
+
                 var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == phaseString);
 
                 if (specMapping == null)
@@ -114,6 +123,11 @@ public partial class WowheadReader : Window
             }
         }
         ConsoleOut.Text += $"Done!" + Environment.NewLine;
+    }
+
+    private void Cancel_Click(object sender, RoutedEventArgs e)
+    {
+        _importIsCanceled = true;
     }
 
     private async Task<string> ImportGemsAndEnchants(ClassGuideMapping classGuide)
