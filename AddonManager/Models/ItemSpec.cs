@@ -181,6 +181,8 @@ public class ItemSpec
         new ("Personal", ""),
         new ("Balanced", ""),
         new (" Non-Engineer", ""),
+        new (" (Set)", ""),
+        new (" (4-set)", ""),
 
         new ("Alt Alt", "Alt"),
         new ("Temporary  Alt", "Alt"),

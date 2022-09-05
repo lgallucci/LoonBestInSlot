@@ -92,7 +92,7 @@ LBIS:AddItem(spec, "36954", LBIS.L["Feet"], "Alt") --The Conjurer's Slippers
 
 LBIS:AddItem(spec, "24116", LBIS.L["Neck"], "BIS") --Eye of the Night
 LBIS:AddItem(spec, "24121", LBIS.L["Neck"], "BIS") --Chain of the Twilight Owl
-LBIS:AddItem(spec, "40681", LBIS.L["Neck"], "BIS eration") --Lattice Choker of Light
+LBIS:AddItem(spec, "40681", LBIS.L["Neck"], "BIS") --Lattice Choker of Light
 LBIS:AddItem(spec, "42647", LBIS.L["Neck"], "BIS") --Titanium Spellshock Necklace
 LBIS:AddItem(spec, "37683", LBIS.L["Neck"], "Alt") --Necromancer's Amulet
 LBIS:AddItem(spec, "40680", LBIS.L["Neck"], "Alt") --Encircling Burnished Gold Chains
@@ -110,15 +110,15 @@ LBIS:AddItem(spec, "37371", LBIS.L["Ring"], "Alt") --Ring of the Frenzied Wolvar
 LBIS:AddItem(spec, "37232", LBIS.L["Ring"], "Alt") --Ring of the Traitor King
 LBIS:AddItem(spec, "37869", LBIS.L["Ring"], "Alt") --Globule Signet
 
-LBIS:AddItem(spec, "37111", LBIS.L["Trinket"], "Sustain 130 to 190 mp5, 75 static spell power") --Soul Preserver
-LBIS:AddItem(spec, "44255", LBIS.L["Trinket"], "Sustain 130 mp5, 55 crit rating") --Darkmoon Card: Greatness
-LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "Sustain 110 mp5, 20.4 crit rating") --Figurine - Sapphire Owl
-LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "Sustain 51 mp5, 73 rating") --Spark of Life
-LBIS:AddItem(spec, "28823", LBIS.L["Trinket"], "Sustain 90 mp5, 23 static spell power") --Eye of Gruul
-LBIS:AddItem(spec, "40685", LBIS.L["Trinket"], "98 static spell power, 90 average rating") --The Egg of Mortal Essence
-LBIS:AddItem(spec, "37835", LBIS.L["Trinket"], "106 static spell power, 30 mp5") --Je'Tze's Bell
-LBIS:AddItem(spec, "42988", LBIS.L["Trinket"], "100 static spell power, 1500 mana per use") --Darkmoon Card: Illusion
-LBIS:AddItem(spec, "37660", LBIS.L["Trinket"], "93 average spell power, 73 crit rating") --Forge Ember
+LBIS:AddItem(spec, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
+LBIS:AddItem(spec, "44255", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
+LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "BIS") --Figurine - Sapphire Owl
+LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "Alt") --Spark of Life
+LBIS:AddItem(spec, "28823", LBIS.L["Trinket"], "Alt") --Eye of Gruul
+LBIS:AddItem(spec, "40685", LBIS.L["Trinket"], "Alt") --The Egg of Mortal Essence
+LBIS:AddItem(spec, "37835", LBIS.L["Trinket"], "Alt") --Je'Tze's Bell
+LBIS:AddItem(spec, "42988", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Illusion
+LBIS:AddItem(spec, "37660", LBIS.L["Trinket"], "Alt") --Forge Ember
 
 LBIS:AddItem(spec, "37360", LBIS.L["Main Hand"], "BIS") --Staff of Draconic Combat
 LBIS:AddItem(spec, "37169", LBIS.L["Main Hand"], "BIS") --War Mace of Unrequited Love
