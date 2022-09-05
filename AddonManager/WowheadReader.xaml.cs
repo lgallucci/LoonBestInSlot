@@ -158,10 +158,76 @@ public partial class WowheadReader : Window
         }
     }
 
-
     private void Cancel_Click(object sender, RoutedEventArgs e)
     {
         _importIsCanceled = true;
+    }
+
+    private void Localize_Click(object sender, RoutedEventArgs e)
+    {
+        LocalizationFileManager.WriteLocalizationFiles();
+    }
+
+    private void Converters_Click(object sender, RoutedEventArgs e)
+    {
+        var converters = new ConvertersWindow();
+        converters.Show();
+    }
+
+    private void Update_Click(object sender, RoutedEventArgs e)
+    {
+        ConsoleOut.Text = string.Empty;
+
+        var itemSources = ItemSourceFileManager.ReadItemSources();
+        var csvLootTable = new Dictionary<int, CsvLootTable>();
+        var oldSources = ItemSourceFileManager.ReadItemSources(@"..\..\..\ItemDatabase\TBCItemSources.lua");
+
+        foreach (var oldSource in oldSources)
+        {
+            csvLootTable.Add(oldSource.Key, new CsvLootTable
+            {
+                ItemId = oldSource.Key,
+                SourceType = "Legacy",
+                ItemName = oldSource.Value.Name,
+                InstanceName = oldSource.Value.SourceLocation,
+                SourceName = oldSource.Value.Source,
+                SourceNumber = oldSource.Value.SourceNumber
+            });
+        }
+
+        GetItems(csvLootTable, "DungeonItemList");
+        GetItems(csvLootTable, "RaidItemList");
+        GetItems(csvLootTable, "EmblemItemList");
+
+        //UpdateProfessionItems(csvLootTable);
+
+        var tokenKeys = UpdateTierPieces(csvLootTable, itemSources);
+        var transmuteKeys = UpdateTransmuteKeys(csvLootTable, itemSources);
+
+        foreach (var itemSource in itemSources)
+        {
+            if (csvLootTable.ContainsKey(itemSource.Key))
+            {
+                var csvItem = csvLootTable[itemSource.Key];
+                var sourceType = csvItem.SourceType;
+                if (sourceType == "Legacy") { }
+                else if (tokenKeys.Contains(itemSource.Key))
+                {
+                    sourceType = "Token";
+                }
+                else if (transmuteKeys.Contains(itemSource.Key))
+                {
+                    sourceType = "Transmute";
+                }
+
+                itemSource.Value.SourceType = sourceType;
+                itemSource.Value.Source = csvItem.SourceName.Trim().Trim('"');
+                itemSource.Value.SourceNumber = csvItem.SourceNumber.Trim().Trim('"');
+                itemSource.Value.SourceLocation = csvItem.InstanceName.Trim().Trim('"');
+            }
+        }
+
+        ItemSourceFileManager.WriteItemSources(itemSources);
     }
 
     private async Task<string> ImportGemsAndEnchants(ClassGuideMapping classGuide)
@@ -320,62 +386,6 @@ public partial class WowheadReader : Window
         return oldItems;
     }
 
-    private void Update_Click(object sender, RoutedEventArgs e)
-    {
-        ConsoleOut.Text = string.Empty;
-
-        var itemSources = ItemSourceFileManager.ReadItemSources();
-        var csvLootTable = new Dictionary<int, CsvLootTable>();
-        var oldSources = ItemSourceFileManager.ReadItemSources(@"..\..\..\ItemDatabase\TBCItemSources.lua");
-
-        foreach (var oldSource in oldSources)
-        {
-            csvLootTable.Add(oldSource.Key, new CsvLootTable
-            {
-                ItemId = oldSource.Key,
-                SourceType = "Legacy",
-                ItemName = oldSource.Value.Name,
-                InstanceName = oldSource.Value.SourceLocation,
-                SourceName = oldSource.Value.Source,
-                SourceNumber = oldSource.Value.SourceNumber
-            });
-        }
-
-        GetItems(csvLootTable, "DungeonItemList");
-        GetItems(csvLootTable, "RaidItemList");
-        GetItems(csvLootTable, "EmblemItemList");
-
-        //UpdateProfessionItems(csvLootTable);
-
-        var tokenKeys = UpdateTierPieces(csvLootTable, itemSources);
-        var transmuteKeys = UpdateTransmuteKeys(csvLootTable, itemSources);
-
-        foreach (var itemSource in itemSources)
-        {
-            if (csvLootTable.ContainsKey(itemSource.Key))
-            {
-                var csvItem = csvLootTable[itemSource.Key];
-                var sourceType = csvItem.SourceType;
-                if (sourceType == "Legacy") { }
-                else if (tokenKeys.Contains(itemSource.Key))
-                {
-                    sourceType = "Token";
-                }
-                else if (transmuteKeys.Contains(itemSource.Key))
-                {
-                    sourceType = "Transmute";
-                }
-
-                itemSource.Value.SourceType = sourceType;
-                itemSource.Value.Source = csvItem.SourceName.Trim().Trim('"');
-                itemSource.Value.SourceNumber = csvItem.SourceNumber.Trim().Trim('"');
-                itemSource.Value.SourceLocation = csvItem.InstanceName.Trim().Trim('"');
-            }
-        }
-
-        ItemSourceFileManager.WriteItemSources(itemSources);
-    }
-
     private void UpdateProfessionItems(Dictionary<int, CsvLootTable> csvLootTable)
     {
         GetItems(csvLootTable, "ProfessionItemList");
@@ -486,14 +496,4 @@ public partial class WowheadReader : Window
         }
     }
 
-    private void Localize_Click(object sender, RoutedEventArgs e)
-    {
-        LocalizationFileManager.WriteLocalizationFiles();
-    }
-
-    private void Converters_Click(object sender, RoutedEventArgs e)
-    {
-        var converters = new ConvertersWindow();
-        converters.Show();
-    }
 }

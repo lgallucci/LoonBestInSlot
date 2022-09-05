@@ -75,7 +75,7 @@ public class DungeonConverter : LootConverter
                     items.Items.TryAdd(id, new DatabaseItem
                     {
                         Name = item[1].title,
-                        SourceNumber = "",
+                        SourceNumber = "0",
                         Source = itemType.title,
                         SourceLocation = $"{obj.title.ToString()} (Normal)",
                         SourceType = "Drop"
@@ -91,7 +91,7 @@ public class DungeonConverter : LootConverter
                     items.Items.TryAdd(id, new DatabaseItem
                     {
                         Name = item[1].title,
-                        SourceNumber = "",
+                        SourceNumber = "0",
                         Source = itemType.title,
                         SourceLocation = $"{obj.title.ToString()} (Heroic)",
                         SourceType = "Drop"
@@ -123,7 +123,7 @@ public class RaidConverter : LootConverter
                     items.Items.TryAdd(id, new DatabaseItem
                     {
                         Name = item[1].title,
-                        SourceNumber = "",
+                        SourceNumber = "0",
                         Source = itemType.title,
                         SourceLocation = $"{obj.title.ToString()} ({heroicTag}10)",
                         SourceType = "Drop"
@@ -141,7 +141,7 @@ public class RaidConverter : LootConverter
                     items.Items.TryAdd(id, new DatabaseItem
                     {
                         Name = item[1].title,
-                        SourceNumber = "",
+                        SourceNumber = "0",
                         Source = itemType.title,
                         SourceLocation = $"{obj.title.ToString()} ({heroicTag}25)",
                         SourceType = "Drop"
