@@ -81,11 +81,10 @@ public class WowheadGuideParser
 
     private Dictionary<string, string> _tankAltTextSwaps = new Dictionary<string, string>()
     {
-        { "Stam", "Stam" },
-        { "Mit", "Mit" },
-        { "Def", "Mit" },
-        { "Thrt", "Thrt" },
-        { "Threat", "Thrt" }
+        { "stam", "Stam" },
+        { "mit", "Mit" },
+        { "def", "Mit" },
+        { "threat", "Thrt" }
     };
 
     class MyFormatter : IMarkupFormatter
@@ -171,7 +170,8 @@ public class WowheadGuideParser
 
         var altText = string.Empty;
         foreach (var tankSwap in _tankAltTextSwaps)
-            if (tableRow?.ChildNodes[0].TextContent.Contains(tankSwap.Key) ?? false)
+            if ((!tableRow?.ChildNodes[0].TextContent.ToLower().Contains("no") ?? false) && 
+                (tableRow?.ChildNodes[0].TextContent.ToLower().Contains(tankSwap.Key) ?? false))
             {
                 altText = $" {tankSwap.Value}";
                 break;
