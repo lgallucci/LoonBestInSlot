@@ -121,7 +121,7 @@ public class WowheadGuideParser
                     {
                         if (!firstRow || tableRow.NodeName != "TR")
                         {
-                            if (tableRow.TextContent.Contains("Priority") && tableRow.TextContent.Contains("Rank"))
+                            if (tableRow.ChildNodes[1].TextContent.Contains("Rank"))
                                 isTierList = true;
                             firstRow = true;
                             continue;

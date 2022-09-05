@@ -47,12 +47,13 @@ public partial class WowheadReader : Window
         btnLocalize.IsEnabled = true;
         btnRefreshItems.IsEnabled = true;
         btnConverters.IsEnabled = true;
+        btnCancel.IsEnabled = true;
     }
 
     private async void Import_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = string.Empty;
-
+        _importIsCanceled = false;
         var phaseString = cmbPhase.SelectedValue.ToString();
         var phaseNumber = 0;
         if (phaseString.Contains("Phase"))
@@ -84,7 +85,7 @@ public partial class WowheadReader : Window
     private async void ImportAll_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = string.Empty;
-
+        _importIsCanceled = false;
         var phaseString = cmbPhase.SelectedValue.ToString();
         var phaseNumber = 0;
         if (phaseString.Contains("Phase"))

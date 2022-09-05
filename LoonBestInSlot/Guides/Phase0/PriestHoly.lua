@@ -1,7 +1,7 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "0")
 
 LBIS:AddItem(spec, "42553", LBIS.L["Head"], "BIS") --Visage Liquification Goggles
-LBIS:AddItem(spec, "37294", LBIS.L["Head"], "BIS") --Crown of Unbridled Magic
+LBIS:AddItem(spec, "37294", LBIS.L["Head"], "Alt") --Crown of Unbridled Magic
 LBIS:AddItem(spec, "37684", LBIS.L["Head"], "Alt") --Forgotten Shadow Hood
 LBIS:AddItem(spec, "34339", LBIS.L["Head"], "Alt") --Cowl of Light's Purity
 LBIS:AddItem(spec, "34340", LBIS.L["Head"], "Alt") --Dark Conjuror's Collar
@@ -64,7 +64,7 @@ LBIS:AddItem(spec, "37843", LBIS.L["Hands"], "Alt") --Giant-Hair Woven Gloves
 LBIS:AddItem(spec, "40697", LBIS.L["Waist"], "BIS") --Elegant Temple Gardens' Girdle
 LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "Alt") --Plush Sash of Guzbah
 LBIS:AddItem(spec, "44302", LBIS.L["Waist"], "Alt") --Belt of Dark Mending
-LBIS:AddItem(spec, "37242", LBIS.L["Waist"], "BIS") --Sash of the Servant
+LBIS:AddItem(spec, "37242", LBIS.L["Waist"], "Alt") --Sash of the Servant
 LBIS:AddItem(spec, "37637", LBIS.L["Waist"], "Alt") --Living Mojo Belt
 LBIS:AddItem(spec, "37408", LBIS.L["Waist"], "Alt") --Girdle of Bane
 LBIS:AddItem(spec, "37850", LBIS.L["Waist"], "Alt") --Flowing Sash of Order
@@ -81,8 +81,8 @@ LBIS:AddItem(spec, "34170", LBIS.L["Legs"], "Transmute Alt") --Pantaloons of Cal
 LBIS:AddItem(spec, "37369", LBIS.L["Legs"], "Alt") --Sorrowgrave's Breeches
 
 LBIS:AddItem(spec, "44202", LBIS.L["Feet"], "BIS") --Sandals of Crimson Fury
-LBIS:AddItem(spec, "37730", LBIS.L["Feet"], "BIS") --Cleric's Linen Shoes
-LBIS:AddItem(spec, "37867", LBIS.L["Feet"], "BIS") --Footwraps of Teleportation
+LBIS:AddItem(spec, "37730", LBIS.L["Feet"], "Alt") --Cleric's Linen Shoes
+LBIS:AddItem(spec, "37867", LBIS.L["Feet"], "Alt") --Footwraps of Teleportation
 LBIS:AddItem(spec, "37218", LBIS.L["Feet"], "Alt") --Stone-Worn Footwraps
 LBIS:AddItem(spec, "34562", LBIS.L["Feet"], "Alt") --Boots of Absolution
 LBIS:AddItem(spec, "34856", LBIS.L["Feet"], "Alt") --Boots of the Forgotten Conqueror
@@ -122,7 +122,7 @@ LBIS:AddItem(spec, "37660", LBIS.L["Trinket"], "Alt") --Forge Ember
 
 LBIS:AddItem(spec, "37360", LBIS.L["Main Hand"], "BIS") --Staff of Draconic Combat
 LBIS:AddItem(spec, "37169", LBIS.L["Main Hand"], "BIS") --War Mace of Unrequited Love
-LBIS:AddItem(spec, "41384", LBIS.L["Main Hand"], "BIS") --Titansteel Guardian
+LBIS:AddItem(spec, "41384", LBIS.L["Main Hand"], "Alt") --Titansteel Guardian
 LBIS:AddItem(spec, "37377", LBIS.L["Main Hand"], "Alt") --Netherbreath Spellblade
 LBIS:AddItem(spec, "44199", LBIS.L["Main Hand"], "Alt") --Gavel of the Brewing Storm
 LBIS:AddItem(spec, "45085", LBIS.L["Main Hand"], "Alt") --Titansteel Spellblade
