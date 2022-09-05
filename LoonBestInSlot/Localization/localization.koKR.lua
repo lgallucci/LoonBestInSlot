@@ -159,6 +159,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Honored"] = "우호적";
   LBIS.L["Hyjal Summit"] = "하이잘 정상";
   LBIS.L["Icecrown"] = "얼음왕관";
+  LBIS.L["Icecrown Citadel"] = "얼음왕관 성채";
   LBIS.L["Ichoron"] = "이코론";
   LBIS.L["Idol"] = "우상";
   LBIS.L["Illidan Stormrage"] = "일리단 스톰레이지";
@@ -209,7 +210,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Maexxna"] = "맥스나";
   LBIS.L["Mage-Lord Urom"] = "마법사 군주 우롬";
   LBIS.L["Magisters' Terrace"] = "마법학자의 정원";
-  LBIS.L["Magtheridon's Lair"] = "마그테리돈의 둥지";
   LBIS.L["Maiden of Grief"] = "고뇌의 마녀";
   LBIS.L["Main Hand"] = "주장비";
   LBIS.L["Mal'Ganis"] = "말가니스";
@@ -226,6 +226,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Mother Shahraz"] = "대모 샤라즈";
   LBIS.L["Mystery of the Infinite, Redux"] = "돌아온 무한의 비밀";
   LBIS.L["Nagrand"] = "나그란드";
+  LBIS.L["Naxxramas"] = "낙스라마스";
   LBIS.L["Naxxramas (10)"] = "낙스라마스 (10)";
 --  LBIS.L["Naxxramas (10)/Emblem Vendor"] = "낙스라마스 (10)/";
   LBIS.L["Naxxramas (25)"] = "낙스라마스 (25)";
@@ -235,11 +236,13 @@ if GetLocale() == "koKR" then
   LBIS.L["Noth the Plaguebringer"] = "역병술사 노스";
   LBIS.L["Noth the Plaguebringer/Gluth"] = "역병술사 노스/글루스";
   LBIS.L["Novos the Summoner"] = "소환사 노보스";
+--  LBIS.L["Obsidian Sanctum"] = "";
 --  LBIS.L["Obsidian Sanctum (10)"] = " (10)";
 --  LBIS.L["Obsidian Sanctum (10)/Emblem Vendor"] = " (10)/";
 --  LBIS.L["Obsidian Sanctum (25)"] = " (25)";
   LBIS.L["Off Hand"] = "보조장비";
   LBIS.L["One of a Kind"] = "증거를 찾아라";
+--  LBIS.L["Onyxia's Lair'"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "정원사 오르모로크";
   LBIS.L["Patchwerk"] = "패치워크";
 --  LBIS.L["Patchwerk/Emblem of Valor"] = "패치워크/";
@@ -296,7 +299,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Svala Sorrowgrave"] = "스발라 소로우그레이브";
   LBIS.L["Tailoring"] = "재봉술";
 --  LBIS.L["TBC"] = "";
-  LBIS.L["Tempest Keep"] = "폭풍우 요새";
   LBIS.L["Teron Gorefiend"] = "테론 고어핀드";
   LBIS.L["Thaddius"] = "타디우스";
   LBIS.L["The Admiral Revealed"] = "총사령관과 결판 내기";
@@ -307,6 +309,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["The Cleansing Of Jintha'kalar'"] = "";
   LBIS.L["The Crusaders' Pinnacle"] = "십자군 봉우리";
   LBIS.L["The Drakkensryd"] = "드라켄스리드";
+  LBIS.L["The Eye of Eternity"] = "영원의 눈";
   LBIS.L["The Eye of Eternity (10)"] = "영원의 눈 (10)";
   LBIS.L["The Eye of Eternity (25)"] = "영원의 눈 (25)";
 --  LBIS.L["The Fate of Bloodbane"] = "";
@@ -325,6 +328,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Oracles (Friendly)"] = "점쟁이 조합 (약간 우호적)";
   LBIS.L["The Prophet Tharon'ja"] = "예언자 타론자";
   LBIS.L["The Reckoning"] = "심판";
+  LBIS.L["The Ruby Sanctum"] = "루비 성소";
   LBIS.L["The Scale of the Sands"] = "시간의 중재자";
   LBIS.L["The Shattered Halls"] = "으스러진 손의 전당";
   LBIS.L["The Sons of Hodir"] = "호디르의 후예";
@@ -349,6 +353,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
   LBIS.L["Trash Mobs"] = "일반몹";
+  LBIS.L["Trial of the Crusader"] = "십자군의 시험장";
   LBIS.L["Trinket"] = "장신구";
   LBIS.L["Trollgore"] = "송곳아귀";
   LBIS.L["Two Hand"] = "양손";
@@ -363,6 +368,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Vanessa Sellers"] = "";
   LBIS.L["Vanquish the Raven God"] = "무찌르자";
   LBIS.L["Varos Cloudstrider"] = "바로스 클라우드스트라이더";
+  LBIS.L["Vault of Archavon"] = "아카본 석실";
   LBIS.L["Vendor"] = "상인";
   LBIS.L["Vengeance Be Mine!"] = "복수는 나의 것!";
 --  LBIS.L["Veteran Crusader Aliocha Segard"] = "";

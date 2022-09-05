@@ -159,6 +159,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Honored"] = "尊敬";
   LBIS.L["Hyjal Summit"] = "海加尔峰";
   LBIS.L["Icecrown"] = "冰冠冰川";
+  LBIS.L["Icecrown Citadel"] = "冰冠堡垒";
   LBIS.L["Ichoron"] = "艾库隆";
   LBIS.L["Idol"] = "神像";
   LBIS.L["Illidan Stormrage"] = "伊利丹·怒风";
@@ -209,7 +210,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Maexxna"] = "迈克斯纳";
   LBIS.L["Mage-Lord Urom"] = "法师领主伊洛姆";
   LBIS.L["Magisters' Terrace"] = "魔导师平台";
-  LBIS.L["Magtheridon's Lair"] = "玛瑟里顿的巢穴";
   LBIS.L["Maiden of Grief"] = "悲伤圣女";
   LBIS.L["Main Hand"] = "主手";
   LBIS.L["Mal'Ganis"] = "玛尔加尼斯";
@@ -226,6 +226,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Mother Shahraz"] = "莎赫拉丝主母";
   LBIS.L["Mystery of the Infinite, Redux"] = "永恒之龙的秘密，再来一次";
   LBIS.L["Nagrand"] = "纳格兰";
+  LBIS.L["Naxxramas"] = "纳克萨玛斯";
   LBIS.L["Naxxramas (10)"] = "纳克萨玛斯 (10)";
 --  LBIS.L["Naxxramas (10)/Emblem Vendor"] = "纳克萨玛斯 (10)/";
   LBIS.L["Naxxramas (25)"] = "纳克萨玛斯 (25)";
@@ -235,11 +236,13 @@ if GetLocale() == "zhCN" then
   LBIS.L["Noth the Plaguebringer"] = "瘟疫使者诺斯";
   LBIS.L["Noth the Plaguebringer/Gluth"] = "瘟疫使者诺斯/格拉斯";
   LBIS.L["Novos the Summoner"] = "召唤者诺沃斯";
+--  LBIS.L["Obsidian Sanctum"] = "";
 --  LBIS.L["Obsidian Sanctum (10)"] = " (10)";
 --  LBIS.L["Obsidian Sanctum (10)/Emblem Vendor"] = " (10)/";
 --  LBIS.L["Obsidian Sanctum (25)"] = " (25)";
   LBIS.L["Off Hand"] = "副手";
   LBIS.L["One of a Kind"] = "集结的信号";
+--  LBIS.L["Onyxia's Lair'"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "塑树者奥莫洛克";
   LBIS.L["Patchwerk"] = "帕奇维克";
 --  LBIS.L["Patchwerk/Emblem of Valor"] = "帕奇维克/";
@@ -296,7 +299,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Svala Sorrowgrave"] = "席瓦拉·索格蕾";
   LBIS.L["Tailoring"] = "裁缝";
 --  LBIS.L["TBC"] = "";
-  LBIS.L["Tempest Keep"] = "风暴要塞";
   LBIS.L["Teron Gorefiend"] = "塔隆·血魔";
   LBIS.L["Thaddius"] = "塔迪乌斯";
   LBIS.L["The Admiral Revealed"] = "元帅的下落";
@@ -307,6 +309,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["The Cleansing Of Jintha'kalar'"] = "";
   LBIS.L["The Crusaders' Pinnacle"] = "北伐军之峰";
   LBIS.L["The Drakkensryd"] = "驭龙赛";
+  LBIS.L["The Eye of Eternity"] = "永恒之眼";
   LBIS.L["The Eye of Eternity (10)"] = "永恒之眼 (10)";
   LBIS.L["The Eye of Eternity (25)"] = "永恒之眼 (25)";
 --  LBIS.L["The Fate of Bloodbane"] = "";
@@ -325,6 +328,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["The Oracles (Friendly)"] = "神谕者 (友善)";
   LBIS.L["The Prophet Tharon'ja"] = "先知萨隆亚";
   LBIS.L["The Reckoning"] = "典狱长的报复";
+  LBIS.L["The Ruby Sanctum"] = "红玉圣殿";
   LBIS.L["The Scale of the Sands"] = "流沙之鳞";
   LBIS.L["The Shattered Halls"] = "破碎大厅";
   LBIS.L["The Sons of Hodir"] = "霍迪尔之子";
@@ -349,6 +353,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
   LBIS.L["Trash Mobs"] = "小怪";
+  LBIS.L["Trial of the Crusader"] = "十字军的试炼";
   LBIS.L["Trinket"] = "饰品";
   LBIS.L["Trollgore"] = "托尔戈";
   LBIS.L["Two Hand"] = "双手";
@@ -363,6 +368,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Vanessa Sellers"] = "";
   LBIS.L["Vanquish the Raven God"] = "消灭乌鸦之神";
   LBIS.L["Varos Cloudstrider"] = "瓦尔洛斯·云击";
+  LBIS.L["Vault of Archavon"] = "阿尔卡冯的宝库";
   LBIS.L["Vendor"] = "商人";
   LBIS.L["Vengeance Be Mine!"] = "我要复仇！";
 --  LBIS.L["Veteran Crusader Aliocha Segard"] = "";

@@ -159,6 +159,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Honored"] = "Honoré";
   LBIS.L["Hyjal Summit"] = "Sommet d’Hyjal";
   LBIS.L["Icecrown"] = "La Couronne de glace";
+  LBIS.L["Icecrown Citadel"] = "Citadelle de la Couronne de glace";
   LBIS.L["Ichoron"] = "Ichoron";
   LBIS.L["Idol"] = "Idole";
   LBIS.L["Illidan Stormrage"] = "Illidan Hurlorage";
@@ -209,7 +210,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Maexxna"] = "Maexxna";
   LBIS.L["Mage-Lord Urom"] = "Seigneur-mage Urom";
   LBIS.L["Magisters' Terrace"] = "Terrasse des Magistères";
-  LBIS.L["Magtheridon's Lair"] = "Le repaire de Magtheridon";
   LBIS.L["Maiden of Grief"] = "Damoiselle de peine";
   LBIS.L["Main Hand"] = "Main droite";
   LBIS.L["Mal'Ganis"] = "Mal'Ganis";
@@ -226,6 +226,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Mother Shahraz"] = "Mère Shahraz";
   LBIS.L["Mystery of the Infinite, Redux"] = "Mystère de l'infini, le retour";
   LBIS.L["Nagrand"] = "Nagrand";
+  LBIS.L["Naxxramas"] = "Naxxramas";
   LBIS.L["Naxxramas (10)"] = "Naxxramas (10)";
 --  LBIS.L["Naxxramas (10)/Emblem Vendor"] = "Naxxramas (10)/";
   LBIS.L["Naxxramas (25)"] = "Naxxramas (25)";
@@ -235,11 +236,13 @@ if GetLocale() == "frFR" then
   LBIS.L["Noth the Plaguebringer"] = "Noth le Porte-peste";
   LBIS.L["Noth the Plaguebringer/Gluth"] = "Noth le Porte-peste/Gluth";
   LBIS.L["Novos the Summoner"] = "Novos l'Invocateur";
+--  LBIS.L["Obsidian Sanctum"] = "";
 --  LBIS.L["Obsidian Sanctum (10)"] = " (10)";
 --  LBIS.L["Obsidian Sanctum (10)/Emblem Vendor"] = " (10)/";
 --  LBIS.L["Obsidian Sanctum (25)"] = " (25)";
   LBIS.L["Off Hand"] = "Main gauche";
   LBIS.L["One of a Kind"] = "Un spécimen unique";
+--  LBIS.L["Onyxia's Lair'"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "Ormorok le Sculpte-arbre";
   LBIS.L["Patchwerk"] = "Le Recousu";
 --  LBIS.L["Patchwerk/Emblem of Valor"] = "Le Recousu/";
@@ -296,7 +299,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Svala Sorrowgrave"] = "Svala Tristetombe";
   LBIS.L["Tailoring"] = "Couture";
 --  LBIS.L["TBC"] = "";
-  LBIS.L["Tempest Keep"] = "Donjon de la Tempête";
   LBIS.L["Teron Gorefiend"] = "Teron Fielsang";
   LBIS.L["Thaddius"] = "Thaddius";
   LBIS.L["The Admiral Revealed"] = "L'amiral à découvert";
@@ -307,6 +309,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["The Cleansing Of Jintha'kalar'"] = "";
   LBIS.L["The Crusaders' Pinnacle"] = "La cime des Croisés";
   LBIS.L["The Drakkensryd"] = "Le Drakkensryd";
+  LBIS.L["The Eye of Eternity"] = "L’Œil de l’éternité";
   LBIS.L["The Eye of Eternity (10)"] = "L’Œil de l’éternité (10)";
   LBIS.L["The Eye of Eternity (25)"] = "L’Œil de l’éternité (25)";
 --  LBIS.L["The Fate of Bloodbane"] = "";
@@ -325,6 +328,7 @@ if GetLocale() == "frFR" then
   LBIS.L["The Oracles (Friendly)"] = "Oracles (Amical)";
   LBIS.L["The Prophet Tharon'ja"] = "Le prophète Tharon'ja";
   LBIS.L["The Reckoning"] = "Le châtiment";
+  LBIS.L["The Ruby Sanctum"] = "Le sanctum Rubis";
   LBIS.L["The Scale of the Sands"] = "Balance des sables";
   LBIS.L["The Shattered Halls"] = "Les salles Brisées";
   LBIS.L["The Sons of Hodir"] = "Fils de Hodir";
@@ -349,6 +353,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
   LBIS.L["Trash Mobs"] = "Ennemis communs";
+  LBIS.L["Trial of the Crusader"] = "L’épreuve du croisé";
   LBIS.L["Trinket"] = "Bijou";
   LBIS.L["Trollgore"] = "Trollétripe";
   LBIS.L["Two Hand"] = "Deux mains";
@@ -363,6 +368,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Vanessa Sellers"] = "";
   LBIS.L["Vanquish the Raven God"] = "Triompher du dieu corbeau";
   LBIS.L["Varos Cloudstrider"] = "Varos Arpentenuée";
+  LBIS.L["Vault of Archavon"] = "Caveau d’Archavon";
   LBIS.L["Vendor"] = "Vendeur";
   LBIS.L["Vengeance Be Mine!"] = "La vengeance sera mienne !";
 --  LBIS.L["Veteran Crusader Aliocha Segard"] = "";
