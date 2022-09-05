@@ -228,9 +228,9 @@ if GetLocale() == "ruRU" then
   LBIS.L["Nagrand"] = "Награнд";
   LBIS.L["Naxxramas"] = "Наксрамас";
   LBIS.L["Naxxramas (10)"] = "Наксрамас (10)";
---  LBIS.L["Naxxramas (10)/Emblem Vendor"] = "Наксрамас (10)/";
+--  LBIS.L["Naxxramas (10)/"] = "Наксрамас (10)/";
   LBIS.L["Naxxramas (25)"] = "Наксрамас (25)";
---  LBIS.L["Naxxramas (25)/Emblem Vendor"] = "Наксрамас (25)/";
+--  LBIS.L["Naxxramas (25)/"] = "Наксрамас (25)/";
   LBIS.L["Neck"] = "Шея";
   LBIS.L["Netherstorm"] = "Пустоверть";
   LBIS.L["Noth the Plaguebringer"] = "Нот Чумной";
@@ -238,7 +238,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Novos the Summoner"] = "Новос Призыватель";
 --  LBIS.L["Obsidian Sanctum"] = "";
 --  LBIS.L["Obsidian Sanctum (10)"] = " (10)";
---  LBIS.L["Obsidian Sanctum (10)/Emblem Vendor"] = " (10)/";
+--  LBIS.L["Obsidian Sanctum (10)/"] = " (10)/";
 --  LBIS.L["Obsidian Sanctum (25)"] = " (25)";
   LBIS.L["Off Hand"] = "Левая рука";
   LBIS.L["One of a Kind"] = "Единственный в своем роде";

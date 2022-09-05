@@ -228,9 +228,9 @@ if GetLocale() == "zhTW" then
   LBIS.L["Nagrand"] = "納葛蘭";
   LBIS.L["Naxxramas"] = "納克薩瑪斯";
   LBIS.L["Naxxramas (10)"] = "納克薩瑪斯 (10)";
---  LBIS.L["Naxxramas (10)/Emblem Vendor"] = "納克薩瑪斯 (10)/";
+--  LBIS.L["Naxxramas (10)/"] = "納克薩瑪斯 (10)/";
   LBIS.L["Naxxramas (25)"] = "納克薩瑪斯 (25)";
---  LBIS.L["Naxxramas (25)/Emblem Vendor"] = "納克薩瑪斯 (25)/";
+--  LBIS.L["Naxxramas (25)/"] = "納克薩瑪斯 (25)/";
   LBIS.L["Neck"] = "頸部";
   LBIS.L["Netherstorm"] = "虛空風暴";
   LBIS.L["Noth the Plaguebringer"] = "『瘟疫使者』諾斯";
@@ -238,7 +238,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Novos the Summoner"] = "『召喚者』諾沃司";
 --  LBIS.L["Obsidian Sanctum"] = "";
 --  LBIS.L["Obsidian Sanctum (10)"] = " (10)";
---  LBIS.L["Obsidian Sanctum (10)/Emblem Vendor"] = " (10)/";
+--  LBIS.L["Obsidian Sanctum (10)/"] = " (10)/";
 --  LBIS.L["Obsidian Sanctum (25)"] = " (25)";
   LBIS.L["Off Hand"] = "副手";
   LBIS.L["One of a Kind"] = "獨一無二";

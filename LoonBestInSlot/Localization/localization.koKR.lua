@@ -228,9 +228,9 @@ if GetLocale() == "koKR" then
   LBIS.L["Nagrand"] = "나그란드";
   LBIS.L["Naxxramas"] = "낙스라마스";
   LBIS.L["Naxxramas (10)"] = "낙스라마스 (10)";
---  LBIS.L["Naxxramas (10)/Emblem Vendor"] = "낙스라마스 (10)/";
+--  LBIS.L["Naxxramas (10)/"] = "낙스라마스 (10)/";
   LBIS.L["Naxxramas (25)"] = "낙스라마스 (25)";
---  LBIS.L["Naxxramas (25)/Emblem Vendor"] = "낙스라마스 (25)/";
+--  LBIS.L["Naxxramas (25)/"] = "낙스라마스 (25)/";
   LBIS.L["Neck"] = "목";
   LBIS.L["Netherstorm"] = "황천의 폭풍";
   LBIS.L["Noth the Plaguebringer"] = "역병술사 노스";
@@ -238,7 +238,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Novos the Summoner"] = "소환사 노보스";
 --  LBIS.L["Obsidian Sanctum"] = "";
 --  LBIS.L["Obsidian Sanctum (10)"] = " (10)";
---  LBIS.L["Obsidian Sanctum (10)/Emblem Vendor"] = " (10)/";
+--  LBIS.L["Obsidian Sanctum (10)/"] = " (10)/";
 --  LBIS.L["Obsidian Sanctum (25)"] = " (25)";
   LBIS.L["Off Hand"] = "보조장비";
   LBIS.L["One of a Kind"] = "증거를 찾아라";

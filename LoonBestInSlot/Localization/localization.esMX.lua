@@ -228,9 +228,9 @@ if GetLocale() == "esMX" then
   LBIS.L["Nagrand"] = "Nagrand";
   LBIS.L["Naxxramas"] = "Naxxramas";
   LBIS.L["Naxxramas (10)"] = "Naxxramas (10)";
---  LBIS.L["Naxxramas (10)/Emblem Vendor"] = "Naxxramas (10)/";
+--  LBIS.L["Naxxramas (10)/"] = "Naxxramas (10)/";
   LBIS.L["Naxxramas (25)"] = "Naxxramas (25)";
---  LBIS.L["Naxxramas (25)/Emblem Vendor"] = "Naxxramas (25)/";
+--  LBIS.L["Naxxramas (25)/"] = "Naxxramas (25)/";
   LBIS.L["Neck"] = "Cuello";
   LBIS.L["Netherstorm"] = "Tormenta Abisal";
   LBIS.L["Noth the Plaguebringer"] = "Noth el Pesteador";
@@ -238,7 +238,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Novos the Summoner"] = "Novos el Invocador";
 --  LBIS.L["Obsidian Sanctum"] = "";
 --  LBIS.L["Obsidian Sanctum (10)"] = " (10)";
---  LBIS.L["Obsidian Sanctum (10)/Emblem Vendor"] = " (10)/";
+--  LBIS.L["Obsidian Sanctum (10)/"] = " (10)/";
 --  LBIS.L["Obsidian Sanctum (25)"] = " (25)";
   LBIS.L["Off Hand"] = "Mano Izquierda";
   LBIS.L["One of a Kind"] = "Único";
