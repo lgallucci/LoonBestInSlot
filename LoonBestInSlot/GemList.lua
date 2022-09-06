@@ -1,8 +1,5 @@
 LBIS.GemList = {};
 
---TODO: Hide Dropdowns not relevant to Gems
-
-
 local function itemSortFunction(table, k1, k2)
 
     local item1 = table[k1];

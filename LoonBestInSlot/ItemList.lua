@@ -3,6 +3,7 @@ LBIS.ItemList = {};
 local VendorPrice = AtlasLoot.Data.VendorPrice;
 --TODO: Show Profession Icon & Tooltip so you can see mats
 --TODO: Show Guild members with each pattern (PIE IN THE SKY)
+--TODO: Fix Gluth Item Sources (He Seems to drop all tier pieces)
 local itemSlotOrder = {}
 itemSlotOrder[LBIS.L["Head"]] = 0;
 itemSlotOrder[LBIS.L["Shoulder"]] = 1;
@@ -74,6 +75,27 @@ alSources["pvpAlterac"] = LBIS.L["Alterac Vally Marks"];
 alSources["pvpEye"] = LBIS.L["Eye of the Storm Marks"];
 alSources["arena"] = LBIS.L["Arena Points"];
 
+local function getVendorText(vendorText, sourceLocationText)
+    local source1, source1Amount, source2, source2Amount, source3, source3Amount = strsplit(":", vendorText)
+
+    if source1 ~= nil and source1 ~= "" and alSources[source1] ~= nil then
+        sourceText = alSources[source1].." ("..source1Amount..")"
+        sourceNumberText = "";
+    end
+
+    if source2 ~= nil and source2 ~= "" and alSources[source2] ~= nil then
+        sourceText = sourceText..", "..alSources[source2].." ("..source2Amount..")"
+    end
+
+    if source3 ~= nil and source3 ~= "" and alSources[source3] ~= nil then
+        sourceText = sourceText..", "..alSources[source3].." ("..source3Amount..")"
+    end	
+	
+    if sourceLocationText ~= "" then
+        sourceText = sourceText.." - "..sourceLocationText;    
+    end
+end
+
 local function printSource(itemId, specItemSource, dl)
 
     local text = "";
@@ -86,33 +108,39 @@ local function printSource(itemId, specItemSource, dl)
         local vendorText = VendorPrice.GetVendorPriceForItem(tonumber(itemId));
         
         if vendorText ~= nil then
-            local source1, source1Amount, source2, source2Amount, source3, source3Amount = strsplit(":", vendorText)
-
-            if source1 ~= nil and source1 ~= "" and alSources[source1] ~= nil then
-                sourceText = alSources[source1].." ("..source1Amount..")"
-                sourceNumberText = "";
-            end
-
-            if source2 ~= nil and source2 ~= "" and alSources[source2] ~= nil then
-                sourceText = sourceText..", "..alSources[source2].." ("..source2Amount..")"
-            end
-
-            if source3 ~= nil and source3 ~= "" and alSources[source3] ~= nil then
-                sourceText = sourceText..", "..alSources[source3].." ("..source3Amount..")"
-            end
+            dl:SetText(getVendorText(vendorText, sourceLocationText))
+			return
         end
     end
 
-    text = sourceText;
+    local sourceText1, sourceText2, sourceText3 = strsplit("/", sourceText);
+    local sourceNumberText1, sourceNumberText2, sourceNumberText3 = strsplit("/", sourceNumberText);
+    local sourceLocationText1, sourceLocationText2, sourceLocationText3 = strsplit("/", sourceLocationText);
 
-    if sourceNumberText ~= "" then
-        text = text.." ("..sourceNumberText..")";    
+    if sourceText1 ~= nil and sourceText1 ~= "" then
+		text = sourceText1;	
+		if sourceNumberText1 == "" or tonumber(sourceNumberText1) > 0 then
+			text = text.." ("..sourceNumberText1..")";
+        end
+        text = text.." - "..sourceLocationText1;
     end
 
-    if sourceLocationText ~= "" then
-        text = text.." - "..sourceLocationText;    
+    if sourceText2 ~= nil and sourceText2 ~= "" then
+		text = text.."\n"..sourceText2;	
+		if sourceNumberText2 == "" or tonumber(sourceNumberText2) > 0 then
+			text = text.." ("..sourceNumberText2..")";
+        end
+        text = text.." - "..sourceLocationText2;
     end
 
+    if sourceText3 ~= nil and sourceText3 ~= "" then
+		text = text.."\n"..sourceText3;	
+		if sourceNumberText3 == "" or tonumber(sourceNumberText3) > 0 then
+			text = text.." ("..sourceNumberText3..")";
+        end
+        text = text.." - "..sourceLocationText3;
+    end
+	
     dl:SetText(text);
 end
 
@@ -278,6 +306,7 @@ local function createItemRow(f, specItem, specItemSource)
             printSource(specItem.Id, specItemSource, dl)
             dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
         end      
+        dl:SetJustifyH("LEFT");
 
         local userItemCache = LBIS.UserItems[item.Id];
         if userItemCache then

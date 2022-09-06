@@ -64,7 +64,7 @@ function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, point, rowFu
         l:SetEndPoint("BOTTOMRIGHT",-5, 0);
     end
     -- even if we are reusing, it may not be in the same order
-    f:SetSize(window.ScrollFrame:GetWidth(), 42);
+    f:SetSize(window.ScrollFrame:GetWidth(), 46);
     f:ClearAllPoints();
     f:SetPoint("TOPLEFT", window.Container, 0, point);
     
@@ -315,7 +315,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     scrollframe:SetPoint("BOTTOMRIGHT", -25, 28);
 
     scrollbar:SetPoint("TOPLEFT", window, "TOPRIGHT", -22, -78);
-    scrollbar:SetPoint("BOTTOMLEFT", window, "BOTTOMRIGHT", 22, 42);
+    scrollbar:SetPoint("BOTTOMLEFT", window, "BOTTOMRIGHT", 22, 46);
     scrollbar:SetMinMaxValues(0,0);
     scrollbar:SetWidth(16);
     scrollbar:SetValue(0);

@@ -1,5 +1,4 @@
 LBIS.EnchantList = {};
---TODO: Hide Dropdowns not relevant to Enchants
 
 local itemSlotOrder = {}
 itemSlotOrder[LBIS.L["Head"]] = 0;
