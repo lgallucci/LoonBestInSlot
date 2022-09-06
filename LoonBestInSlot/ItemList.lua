@@ -119,26 +119,32 @@ local function printSource(itemId, specItemSource, dl)
 
     if sourceText1 ~= nil and sourceText1 ~= "" then
 		text = sourceText1;	
-		if sourceNumberText1 == "" or tonumber(sourceNumberText1) > 0 then
+		if sourceNumberText1 ~= "" and sourceNumberText1 ~= "0" then
 			text = text.." ("..sourceNumberText1..")";
         end
-        text = text.." - "..sourceLocationText1;
+        if sourceLocationText1 ~= nil and sourceLocationText1 ~= "" then
+            text = text.." - "..sourceLocationText1;
+        end
     end
 
     if sourceText2 ~= nil and sourceText2 ~= "" then
 		text = text.."\n"..sourceText2;	
-		if sourceNumberText2 == "" or tonumber(sourceNumberText2) > 0 then
+		if sourceNumberText2 ~= "" and sourceNumberText2 ~= "0" then
 			text = text.." ("..sourceNumberText2..")";
         end
-        text = text.." - "..sourceLocationText2;
+        if sourceLocationText2 ~= nil and sourceLocationText2 ~= "" then
+            text = text.." - "..sourceLocationText2;
+        end
     end
 
     if sourceText3 ~= nil and sourceText3 ~= "" then
 		text = text.."\n"..sourceText3;	
-		if sourceNumberText3 == "" or tonumber(sourceNumberText3) > 0 then
+		if sourceNumberText3 ~= "" and sourceNumberText3 ~= "0" then
 			text = text.." ("..sourceNumberText3..")";
         end
-        text = text.." - "..sourceLocationText3;
+        if sourceLocationText3 ~= nil and sourceLocationText3 ~= "" then
+            text = text.." - "..sourceLocationText3;
+        end
     end
 	
     dl:SetText(text);
@@ -194,7 +200,7 @@ end
 local function IsInSource(specItem)
     if LBISSettings.SelectedSourceType == LBIS.L["All"] then
         return true;
-    elseif LBISSettings.SelectedSourceType == specItem.SourceType then
+    elseif strfind(specItem.SourceType, LBISSettings.SelectedSourceType) ~= nil then
         return true;
     end
     return false;
@@ -214,6 +220,41 @@ local function IsNotInClassic(specItem)
         return false
     end
     return true;
+end
+
+local function createSourceTypeText(specItemSource)
+
+    local function getSourceColor(sourceType)
+        if sourceType == LBIS.L["Profession"] then
+            return "|cFF33ADFF";
+        elseif sourceType == LBIS.L["Reputation"] then
+            return "|cFF23E4C4";
+        elseif sourceType == LBIS.L["Quest"] then
+            return "|cFFFFEF27";
+        elseif sourceType == LBIS.L["Dungeon Token"] then
+            return "|cFFFF276D";
+        elseif sourceType == LBIS.L["Vendor"] then
+            return "|cFF43DC00";
+        elseif sourceType == LBIS.L["PvP"] then
+            return "|cFFE52AED";
+        elseif sourceType == LBIS.L["Transmute"] then
+            return "|cFFFC6A03";
+        else
+            return "|cFF7727FF";
+        end
+    end
+
+    local sourceType1, sourceType2 = strsplit("/", specItemSource.SourceType)    
+
+    --Create Drop Text
+    local dtColor = getSourceColor(sourceType1);
+    local text = dtColor..sourceType1;
+
+    if sourceType2 ~= nil then
+        dtColor = getSourceColor(sourceType2);
+        text = text.."|cFFFFD100/"..dtColor..sourceType2;
+    end
+	return text;
 end
 
 local function createItemRow(f, specItem, specItemSource)
@@ -258,28 +299,11 @@ local function createItemRow(f, specItem, specItemSource)
         end
         pt:SetPoint("TOPLEFT", t, "TOPRIGHT", 4, 4);
 
-        --Create Drop Text
-        local dtColor = "|cFF7727FF";
-        if specItemSource.SourceType == LBIS.L["Profession"] then
-            dtColor = "|cFF33ADFF";
-        elseif specItemSource.SourceType == LBIS.L["Reputation"] then
-            dtColor = "|cFF23E4C4";
-        elseif specItemSource.SourceType == LBIS.L["Quest"] then
-            dtColor = "|cFFFFEF27";
-        elseif specItemSource.SourceType == LBIS.L["Dungeon Token"] then
-            dtColor = "|cFFFF276D";
-        elseif specItemSource.SourceType == LBIS.L["Vendor"] then
-            dtColor = "|cFF43DC00";
-        elseif specItemSource.SourceType == LBIS.L["PvP"] then
-            dtColor = "|cFFE52AED";
-        elseif specItemSource.SourceType == LBIS.L["Transmute"] then
-            dtColor = "|cFFFC6A03";
-        end
-        d = f:CreateFontString(nil, nil, "GameFontNormal");
-        d:SetText(dtColor..specItemSource.SourceType);
-        d:SetJustifyH("LEFT");
-        d:SetWidth(window.ScrollFrame:GetWidth() / 2);
-        d:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
+		d = f:CreateFontString(nil, nil, "GameFontNormal");
+		d:SetText(createSourceTypeText(specItemSource));
+		d:SetJustifyH("LEFT");
+		d:SetWidth(window.ScrollFrame:GetWidth() / 2);
+		d:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
 
         dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
 

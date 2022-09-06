@@ -1073,56 +1073,56 @@
     },
     "40071": {
       "Name": "Chains of Adoration",
-      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40065": {
       "Name": "Fool's Trial",
-      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40069": {
       "Name": "Heritage",
-      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40064": {
       "Name": "Thunderstorm Amulet",
-      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40080": {
       "Name": "Lost Jewel",
-      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40075": {
       "Name": "Ruthlessness",
-      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40107": {
       "Name": "Sand-Worn Band",
-      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40074": {
       "Name": "Strong-Handed Ring",
-      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
@@ -1171,35 +1171,35 @@
     },
     "40250": {
       "Name": "Aged Winter Cloak",
-      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40254": {
       "Name": "Cloak of Averted Crisis",
-      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40252": {
       "Name": "Cloak of the Shadowed Sun",
-      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40253": {
       "Name": "Shawl of the Old Maid",
-      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40251": {
       "Name": "Shroud of Luminosity",
-      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
@@ -1297,28 +1297,28 @@
     },
     "40257": {
       "Name": "Defender's Code",
-      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40255": {
       "Name": "Dying Curse",
-      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40258": {
       "Name": "Forethought Talisman",
-      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40256": {
       "Name": "Grim Toll",
-      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
@@ -12679,7 +12679,7 @@
     },
     "47242": {
       "Name": "Trophy of the Crusade",
-      "Source": "The Beasts of Northrend/Tribute Run",
+      "Source": "The Beasts of Northrend/Tribute Run/The Beasts of Northrend & Lord Jaraxxus & Faction Champions & The Twin Val'kyr & Anub'arak",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Trial of the Crusader (25)/Trial of the Grand Crusader (10)"
