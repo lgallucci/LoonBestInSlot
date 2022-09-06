@@ -2,7 +2,7 @@
   "Items": {
     "39272": {
       "Name": "Drape of Surgery",
-      "Source": "Patchwerk",
+      "Source": "Patchwerk & Gluth",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
@@ -65,7 +65,7 @@
     },
     "39284": {
       "Name": "Miasma Mantle",
-      "Source": "Grobbulus",
+      "Source": "Grobbulus & Gluth",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
@@ -86,7 +86,7 @@
     },
     "39279": {
       "Name": "Blistered Belt of Decay",
-      "Source": "Grobbulus",
+      "Source": "Grobbulus & Gluth",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
@@ -121,7 +121,7 @@
     },
     "39281": {
       "Name": "Infection Repulser",
-      "Source": "Grobbulus",
+      "Source": "Grobbulus & Gluth",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
@@ -135,196 +135,196 @@
     },
     "39396": {
       "Name": "Gown of Blaumeux",
-      "Source": "Gluth",
+      "Source": "Gluth & The Four Horsemen",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39309": {
       "Name": "Leggings of the Instructor",
-      "Source": "Gluth",
+      "Source": "Gluth & Instructor Razuvious",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39237": {
       "Name": "Spaulders of Resumed Battle",
-      "Source": "Noth the Plaguebringer/Gluth",
+      "Source": "Gluth & Noth the Plaguebringer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39191": {
       "Name": "Splint-Bound Leggings",
-      "Source": "Gluth",
+      "Source": "Gluth & Anub'Rekhan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39215": {
       "Name": "Boots of the Follower",
-      "Source": "Gluth",
+      "Source": "Gluth & Grand Widow Faerlina",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39294": {
       "Name": "Arc-Scorched Helmet",
-      "Source": "Gluth",
+      "Source": "Gluth & Thaddius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39248": {
       "Name": "Tunic of the Lost Pack",
-      "Source": "Gluth",
+      "Source": "Gluth & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39194": {
       "Name": "Rusted-Link Spiked Gauntlets",
-      "Source": "Gluth",
+      "Source": "Gluth & Grand Widow Faerlina",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39251": {
       "Name": "Necrogenic Belt",
-      "Source": "Gluth",
+      "Source": "Gluth & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39379": {
       "Name": "Spectral Rider's Girdle",
-      "Source": "Gluth",
+      "Source": "Gluth & Gothik the Harvester",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39188": {
       "Name": "Chivalric Chestguard",
-      "Source": "Gluth",
+      "Source": "Gluth & Anub'Rekhan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39345": {
       "Name": "Girdle of the Ascended Phantom",
-      "Source": "Gluth",
+      "Source": "Gluth & Gothik the Harvester",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39146": {
       "Name": "Collar of Dissolution",
-      "Source": "Gluth",
+      "Source": "Gluth & Anub'Rekhan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39232": {
       "Name": "Pendant of Lost Vocations",
-      "Source": "Gluth",
+      "Source": "Gluth & Maexxna",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39193": {
       "Name": "Band of Neglected Pleas",
-      "Source": "Gluth",
+      "Source": "Gluth & Anub'Rekhan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39388": {
       "Name": "Spirit-World Glass",
-      "Source": "Gluth",
+      "Source": "Gluth & Gothik the Harvester",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39200": {
       "Name": "Grieving Spellblade",
-      "Source": "Gluth",
+      "Source": "Gluth & Grand Widow Faerlina",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39344": {
       "Name": "Slayer of the Lifeless",
-      "Source": "Gluth",
+      "Source": "Gluth & Gothik the Harvester",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "39394": {
       "Name": "Charmed Cierge",
-      "Source": "Gluth",
+      "Source": "Gluth & The Four Horsemen",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "40622": {
       "Name": "Spaulders of the Lost Conqueror",
-      "Source": "Gluth",
+      "Source": "Gluth & Loatheb",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "40623": {
       "Name": "Spaulders of the Lost Protector",
-      "Source": "Gluth",
+      "Source": "Gluth & Loatheb",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "40624": {
       "Name": "Spaulders of the Lost Vanquisher",
-      "Source": "Gluth",
+      "Source": "Gluth & Loatheb",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "40610": {
       "Name": "Chestguard of the Lost Conqueror",
-      "Source": "Gluth",
+      "Source": "Gluth & The Four Horsemen",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "40611": {
       "Name": "Chestguard of the Lost Protector",
-      "Source": "Gluth",
+      "Source": "Gluth & The Four Horsemen",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "40612": {
       "Name": "Chestguard of the Lost Vanquisher",
-      "Source": "Gluth",
+      "Source": "Gluth & The Four Horsemen",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "40619": {
       "Name": "Leggings of the Lost Conqueror",
-      "Source": "Gluth",
+      "Source": "Gluth & Thaddius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "40620": {
       "Name": "Leggings of the Lost Protector",
-      "Source": "Gluth",
+      "Source": "Gluth & Thaddius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
     },
     "40621": {
       "Name": "Leggings of the Lost Vanquisher",
-      "Source": "Gluth",
+      "Source": "Gluth & Thaddius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (10)"
@@ -1024,14 +1024,14 @@
     },
     "40260": {
       "Name": "Belt of the Tortured",
-      "Source": "Patchwerk",
+      "Source": "Patchwerk & Gluth",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40270": {
       "Name": "Boots of Septic Wounds",
-      "Source": "Patchwerk",
+      "Source": "Patchwerk & Gluth",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
@@ -1066,63 +1066,63 @@
     },
     "40259": {
       "Name": "Waistguard of Divine Grace",
-      "Source": "Patchwerk",
+      "Source": "Patchwerk & Gluth",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40071": {
       "Name": "Chains of Adoration",
-      "Source": "Patchwerk",
+      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40065": {
       "Name": "Fool's Trial",
-      "Source": "Patchwerk",
+      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40069": {
       "Name": "Heritage",
-      "Source": "Patchwerk",
+      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40064": {
       "Name": "Thunderstorm Amulet",
-      "Source": "Patchwerk",
+      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40080": {
       "Name": "Lost Jewel",
-      "Source": "Patchwerk",
+      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40075": {
       "Name": "Ruthlessness",
-      "Source": "Patchwerk",
+      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40107": {
       "Name": "Sand-Worn Band",
-      "Source": "Patchwerk",
+      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40074": {
       "Name": "Strong-Handed Ring",
-      "Source": "Patchwerk",
+      "Source": "Patchwerk & Anub'Rekhan & Grand Widow Faerlina & Instructor Razuvious & Noth the Plaguebringer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
@@ -1164,42 +1164,42 @@
     },
     "40265": {
       "Name": "Arrowsong",
-      "Source": "Patchwerk",
+      "Source": "Patchwerk & Gluth",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40250": {
       "Name": "Aged Winter Cloak",
-      "Source": "Grobbulus",
+      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40254": {
       "Name": "Cloak of Averted Crisis",
-      "Source": "Grobbulus",
+      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40252": {
       "Name": "Cloak of the Shadowed Sun",
-      "Source": "Grobbulus",
+      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40253": {
       "Name": "Shawl of the Old Maid",
-      "Source": "Grobbulus",
+      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40251": {
       "Name": "Shroud of Luminosity",
-      "Source": "Grobbulus",
+      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
@@ -1227,7 +1227,7 @@
     },
     "40289": {
       "Name": "Sympathetic Amice",
-      "Source": "Grobbulus",
+      "Source": "Grobbulus & Gluth",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
@@ -1297,42 +1297,42 @@
     },
     "40257": {
       "Name": "Defender's Code",
-      "Source": "Grobbulus",
+      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40255": {
       "Name": "Dying Curse",
-      "Source": "Grobbulus",
+      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40258": {
       "Name": "Forethought Talisman",
-      "Source": "Grobbulus",
+      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40256": {
       "Name": "Grim Toll",
-      "Source": "Grobbulus",
+      "Source": "Grobbulus & Maexxna & Gothik the Harvester & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40281": {
       "Name": "Twilight Mist",
-      "Source": "Grobbulus",
+      "Source": "Grobbulus & Gluth",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40280": {
       "Name": "Origin of Nightmares",
-      "Source": "Grobbulus",
+      "Source": "Grobbulus & Gluth",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
@@ -1346,280 +1346,280 @@
     },
     "40247": {
       "Name": "Cowl of Innocent Delight",
-      "Source": "Gluth",
+      "Source": "Gluth & Loatheb",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40602": {
       "Name": "Robes of Mutation",
-      "Source": "Gluth",
+      "Source": "Gluth & Noth the Plaguebringer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "39733": {
       "Name": "Gloves of Token Respect",
-      "Source": "Gluth",
+      "Source": "Gluth & Grand Widow Faerlina",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40303": {
       "Name": "Wraps of the Persecuted",
-      "Source": "Gluth",
+      "Source": "Gluth & Thaddius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40326": {
       "Name": "Boots of Forlorn Wishes",
-      "Source": "Gluth",
+      "Source": "Gluth & Instructor Razuvious",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40296": {
       "Name": "Cover of Silence",
-      "Source": "Gluth",
+      "Source": "Gluth & Thaddius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "39768": {
       "Name": "Cowl of the Perished",
-      "Source": "Gluth",
+      "Source": "Gluth & Maexxna",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40319": {
       "Name": "Chestpiece of Suspicion",
-      "Source": "Gluth",
+      "Source": "Gluth & Instructor Razuvious",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40205": {
       "Name": "Stalk-Skin Belt",
-      "Source": "Gluth",
+      "Source": "Gluth & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40193": {
       "Name": "Tunic of Masked Suffering",
-      "Source": "Gluth",
+      "Source": "Gluth & Noth the Plaguebringer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40209": {
       "Name": "Bindings of the Decrepit",
-      "Source": "Gluth",
+      "Source": "Gluth & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40302": {
       "Name": "Benefactor's Gauntlets",
-      "Source": "Gluth",
+      "Source": "Gluth & Thaddius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "39718": {
       "Name": "Corpse Scarab Handguards",
-      "Source": "Gluth",
+      "Source": "Gluth & Anub'Rekhan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40242": {
       "Name": "Grotesque Handgrips",
-      "Source": "Gluth",
+      "Source": "Gluth & Loatheb",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "39760": {
       "Name": "Helm of Diminished Pride",
-      "Source": "Gluth",
+      "Source": "Gluth & Maexxna",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40185": {
       "Name": "Shoulderguards of Opportunity",
-      "Source": "Gluth",
+      "Source": "Gluth & Noth the Plaguebringer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40203": {
       "Name": "Breastplate of Tormented Rage",
-      "Source": "Gluth",
+      "Source": "Gluth & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40332": {
       "Name": "Abetment Bracers",
-      "Source": "Gluth",
+      "Source": "Gluth & Gothik the Harvester",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40188": {
       "Name": "Gauntlets of the Disobedient",
-      "Source": "Gluth",
+      "Source": "Gluth & Noth the Plaguebringer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40204": {
       "Name": "Legguards of the Apostle",
-      "Source": "Gluth",
+      "Source": "Gluth & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "39717": {
       "Name": "Inexorable Sabatons",
-      "Source": "Gluth",
+      "Source": "Gluth & Anub'Rekhan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40206": {
       "Name": "Iron-Spring Jumpers",
-      "Source": "Gluth",
+      "Source": "Gluth & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40297": {
       "Name": "Sabatons of Endurance",
-      "Source": "Gluth",
+      "Source": "Gluth & Thaddius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40350": {
       "Name": "Urn of Lost Memories",
-      "Source": "Gluth",
+      "Source": "Gluth & The Four Horsemen",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40191": {
       "Name": "Libram of Radiance",
-      "Source": "Gluth",
+      "Source": "Gluth & Noth the Plaguebringer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "39714": {
       "Name": "Webbed Death",
-      "Source": "Gluth",
+      "Source": "Gluth & Anub'Rekhan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "39730": {
       "Name": "Widow's Fury",
-      "Source": "Gluth",
+      "Source": "Gluth & Grand Widow Faerlina",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40343": {
       "Name": "Armageddon",
-      "Source": "Gluth",
+      "Source": "Gluth & The Four Horsemen",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40239": {
       "Name": "The Hand of Nerub",
-      "Source": "Gluth",
+      "Source": "Gluth & Loatheb",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "39716": {
       "Name": "Shield of Assimilation",
-      "Source": "Gluth",
+      "Source": "Gluth & Anub'Rekhan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40346": {
       "Name": "Final Voyage",
-      "Source": "Gluth",
+      "Source": "Gluth & The Four Horsemen",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40637": {
       "Name": "Mantle of the Lost Conqueror",
-      "Source": "Gluth",
+      "Source": "Gluth & Loatheb",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40638": {
       "Name": "Mantle of the Lost Protector",
-      "Source": "Gluth",
+      "Source": "Gluth & Loatheb",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40639": {
       "Name": "Mantle of the Lost Vanquisher",
-      "Source": "Gluth",
+      "Source": "Gluth & Loatheb",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40625": {
       "Name": "Breastplate of the Lost Conqueror",
-      "Source": "Gluth",
+      "Source": "Gluth & The Four Horsemen",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40626": {
       "Name": "Breastplate of the Lost Protector",
-      "Source": "Gluth",
+      "Source": "Gluth & The Four Horsemen",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40627": {
       "Name": "Breastplate of the Lost Vanquisher",
-      "Source": "Gluth",
+      "Source": "Gluth & The Four Horsemen",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40634": {
       "Name": "Legplates of the Lost Conqueror",
-      "Source": "Gluth",
+      "Source": "Gluth & Thaddius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40635": {
       "Name": "Legplates of the Lost Protector",
-      "Source": "Gluth",
+      "Source": "Gluth & Thaddius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
     },
     "40636": {
       "Name": "Legplates of the Lost Vanquisher",
-      "Source": "Gluth",
+      "Source": "Gluth & Thaddius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
@@ -1731,7 +1731,7 @@
     },
     "40208": {
       "Name": "Cryptfiend's Bite",
-      "Source": "Anub'Rekhan",
+      "Source": "Anub'Rekhan & Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas (25)"
@@ -10381,7 +10381,6 @@
       "SourceNumber": "0",
       "SourceLocation": "Ulduar (10)"
     },
-    
     "45038": {
       "Name": "Fragment of Val'anyr",
       "Source": "Flame Leviathan",
@@ -12601,7 +12600,6 @@
       "SourceNumber": "0",
       "SourceLocation": "Trial of the Crusader (10)"
     },
-    
     "46970": {
       "Name": "Drape of the Untamed Predator",
       "Source": "The Beasts of Northrend",
@@ -13631,7 +13629,6 @@
       "SourceNumber": "0",
       "SourceLocation": "Trial of the Crusader (10)"
     },
-    
     "47257": {
       "Name": "Cloak of the Untamed Predator",
       "Source": "The Beasts of Northrend",

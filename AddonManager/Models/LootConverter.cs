@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using AngleSharp.Dom;
+using Newtonsoft.Json;
 using static AddonManager.Models.EmblemConverter;
 using static AddonManager.WowheadReader;
 
@@ -120,14 +121,22 @@ public class RaidConverter : LootConverter
                 int id = item[1].id ?? 0;
                 if (id > 0)
                 {
-                    items.Items.TryAdd(id, new DatabaseItem
+                    if (items.Items.ContainsKey(id))
                     {
-                        Name = item[1].title,
-                        SourceNumber = "0",
-                        Source = itemType.title,
-                        SourceLocation = $"{obj.title.ToString()} ({heroicTag}10)",
-                        SourceType = "Drop"
-                    });
+                        if (items.Items[id].Source != itemType.title.ToString())
+                            items.Items[id].Source += $" & {itemType.title}";
+                    }
+                    else
+                    {
+                        items.Items.TryAdd(id, new DatabaseItem
+                        {
+                            Name = item[1].title,
+                            SourceNumber = "0",
+                            Source = itemType.title,
+                            SourceLocation = $"{obj.title.ToString()} ({heroicTag}10)",
+                            SourceType = "Drop"
+                        });
+                    }
                 }
             }
         }
@@ -138,14 +147,22 @@ public class RaidConverter : LootConverter
                 int id = item[1].id ?? 0;
                 if (id > 0)
                 {
-                    items.Items.TryAdd(id, new DatabaseItem
+                    if (items.Items.ContainsKey(id))
                     {
-                        Name = item[1].title,
-                        SourceNumber = "0",
-                        Source = itemType.title,
-                        SourceLocation = $"{obj.title.ToString()} ({heroicTag}25)",
-                        SourceType = "Drop"
-                    });
+                        if (items.Items[id].Source != itemType.title.ToString())
+                            items.Items[id].Source += $" & {itemType.title}";
+                    }
+                    else
+                    {
+                        items.Items.TryAdd(id, new DatabaseItem
+                        {
+                            Name = item[1].title,
+                            SourceNumber = "0",
+                            Source = itemType.title,
+                            SourceLocation = $"{obj.title.ToString()} ({heroicTag}25)",
+                            SourceType = "Drop"
+                        });
+                    }
                 }
             }
         }
