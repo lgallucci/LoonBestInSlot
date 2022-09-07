@@ -3,6 +3,7 @@ LBIS.EnchantSources =
     [25080] = { Name = "Enchant Gloves - Superior Agility", DesignId = "33152", Source = LBIS.L["Alurmi"], SourceLocation = LBIS.L["Keepers of Time (Exalted)"], IsSpell = "True" },
     [27906] = { Name = "Enchant Bracer - Major Defense", DesignId = "22530", Source = LBIS.L["Ethereum Nullifier"], SourceLocation = LBIS.L["Netherstorm"], IsSpell = "True" },
     [27914] = { Name = "Enchant Bracer - Fortitude", DesignId = "22533", Source = LBIS.L["Coilfang Oracle"], SourceLocation = LBIS.L["The Steamvault"], IsSpell = "True" },
+    [27968] = { Name = "Enchant Weapon - Major Intellect", DesignId = "22551", Source = LBIS.L["Sunfury Researcher"], SourceLocation = LBIS.L["Netherstorm"], IsSpell = "True" },
     [27984] = { Name = "Enchant Weapon - Mongoose", DesignId = "22559", Source = LBIS.L["Moroes"], SourceLocation = LBIS.L["Karazhan"], IsSpell = "True" },
     [28888] = { Name = "Greater Inscription of Vengeance", DesignId = "0", Source = LBIS.L["Scribe Saalyn"], SourceLocation = LBIS.L["The Aldor (Exalted)"], IsSpell = "False" },
     [29192] = { Name = "Arcanum of Ferocity", DesignId = "0", Source = LBIS.L["Fedryen Swiftspear"], SourceLocation = LBIS.L["Cenarion Expedition (Revered)"], IsSpell = "False" },

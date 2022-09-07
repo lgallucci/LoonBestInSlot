@@ -68,6 +68,8 @@ public partial class WowheadReader : Window
                 ConsoleOut.Text = await ImportGemsAndEnchants(specMapping);
             else
                 ConsoleOut.Text = await ImportClass(specMapping, phaseNumber);
+
+            ConsoleOut.Text += $"{spec} Completed! - Verification Passed!" + Environment.NewLine;
         }
         catch (VerificationException vex)
         {
@@ -459,6 +461,8 @@ public partial class WowheadReader : Window
                     csvLootTable[item.Key].SourceName += $"/{item.Value.Source}";
                 if (csvLootTable[item.Key].SourceNumber != item.Value.SourceNumber)
                     csvLootTable[item.Key].SourceNumber += $"/{item.Value.SourceNumber}";
+                if (csvLootTable[item.Key].SourceType != item.Value.SourceType)
+                    csvLootTable[item.Key].SourceType += $"/{item.Value.SourceType}";
             }
             else
             {

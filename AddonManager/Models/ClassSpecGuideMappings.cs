@@ -876,65 +876,66 @@ public class ClassSpecGuideMappings
         #endregion
 
         #region Holy Paladin
-        GuideMappings.Add(new ClassGuideMapping("",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/holy-paladin-healer-enchants-gems",
             "Holy", "Paladin", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
             new GuideMapping("h2#best-gems+.box~.box~.box", "Gem"),
             new GuideMapping("h2#best-gems+.box~.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box", "Gem"),
 
             new GuideMapping("h2#best-enchants~.box", "Head"),
             new GuideMapping("h2#best-enchants~.box~.box", "Shoulder"),
             new GuideMapping("h2#best-enchants~.box~.box~.box", "Back"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box", "Chest"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box", "Wrist"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box", "Hands"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Legs"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box", "Waist"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box", "Wrist"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Hands"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Legs"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Shield"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/holy-paladin-healer-best-in-slot-gear-pre-raid",
             "Holy", "Paladin", "Phase0", new List<GuideMapping>
         {
-            new GuideMapping("#head", "Head"),
-            new GuideMapping("#shoulders", "Shoulder"),
-            new GuideMapping("#back", "Back"),
-            new GuideMapping("#chest", "Chest"),
-            new GuideMapping("#wrist", "Wrist"),
-            new GuideMapping("#hands", "Hands"),
-            new GuideMapping("#waist", "Waist"),
-            new GuideMapping("#legs", "Legs"),
-            new GuideMapping("#feet", "Feet"),
-            new GuideMapping("#neck", "Neck"),
-            new GuideMapping("#rings", "Ring"),
-            new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "Main Hand"),
-            new GuideMapping("#offhands-and-shields", "Off Hand"),
-            new GuideMapping("#librams", "Libram")
+            new GuideMapping("#head-for-holy-paladin-healer-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-holy-paladin-healer-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-holy-paladin-healer-phase-1", "Back"),
+            new GuideMapping("#chest-for-holy-paladin-healer-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-holy-paladin-healer-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-holy-paladin-healer-phase-1", "Hands"),
+            new GuideMapping("#waist-for-holy-paladin-healer-phase-1", "Waist"),
+            new GuideMapping("#legs-for-holy-paladin-healer-phase-1", "Legs"),
+            new GuideMapping("#feet-for-holy-paladin-healer-phase-1", "Feet"),
+            new GuideMapping("#neck-for-holy-paladin-healer-phase-1", "Neck"),
+            new GuideMapping("#rings-for-holy-paladin-healer-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-holy-paladin-healer-phase-1", "Trinket"),
+            new GuideMapping("#main-hand-weapons-for-holy-paladin-healer-phase-1", "Main Hand"),
+            new GuideMapping("#shields-and-off-hands-for-holy-paladin-healer-phase-1", "Off Hand"),
+            new GuideMapping("#librams-for-holy-paladin-healer-phase-1", "Libram")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/holy-paladin-healer-best-in-slot-gear-phase-1",
             "Holy", "Paladin", "Phase1", new List<GuideMapping>
         {
-            new GuideMapping("#head", "Head"),
-            new GuideMapping("#shoulders", "Shoulder"),
-            new GuideMapping("#back", "Back"),
-            new GuideMapping("#chest", "Chest"),
-            new GuideMapping("#wrist", "Wrist"),
-            new GuideMapping("#hands", "Hands"),
-            new GuideMapping("#waist", "Waist"),
-            new GuideMapping("#legs", "Legs"),
-            new GuideMapping("#feet", "Feet"),
-            new GuideMapping("#neck", "Neck"),
-            new GuideMapping("#rings", "Ring"),
-            new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("h3#weapons~h4", "Main Hand"),
-            new GuideMapping("#offhands-and-shields", "Off Hand"),
-            new GuideMapping("#librams", "Libram")
+            new GuideMapping("#head-for-holy-paladin-healer-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-holy-paladin-healer-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-holy-paladin-healer-phase-1", "Back"),
+            new GuideMapping("#chest-for-holy-paladin-healer-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-holy-paladin-healer-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-holy-paladin-healer-phase-1", "Hands"),
+            new GuideMapping("#waist-for-holy-paladin-healer-phase-1", "Waist"),
+            new GuideMapping("#legs-for-holy-paladin-healer-phase-1", "Legs"),
+            new GuideMapping("#feet-for-holy-paladin-healer-phase-1", "Feet"),
+            new GuideMapping("#neck-for-holy-paladin-healer-phase-1", "Neck"),
+            new GuideMapping("#rings-for-holy-paladin-healer-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-holy-paladin-healer-phase-1", "Trinket"),
+            new GuideMapping("#main-hand-weapons-for-holy-paladin-healer-phase-1", "Main Hand"),
+            new GuideMapping("#shields-and-off-hands-for-holy-paladin-healer-phase-1", "Off Hand"),
+            new GuideMapping("#librams-for-holy-paladin-healer-phase-1", "Libram")
         }));
         #endregion
 
