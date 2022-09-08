@@ -2791,315 +2791,315 @@
             "Source": "LBIS.L[\"Meathook\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37082": {
             "Name": "Slaughterhouse Sabatons",
             "Source": "LBIS.L[\"Meathook\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37079": {
             "Name": "Enchanted Wire Stitching",
             "Source": "LBIS.L[\"Meathook\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37081": {
             "Name": "Meathook's Slicer",
             "Source": "LBIS.L[\"Meathook\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37680": {
             "Name": "Belt of Unified Souls",
             "Source": "LBIS.L[\"Meathook\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37678": {
             "Name": "Bile-Cured Gloves",
             "Source": "LBIS.L[\"Meathook\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37679": {
             "Name": "Spaulders of the Abomination",
             "Source": "LBIS.L[\"Meathook\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37675": {
             "Name": "Legplates of Steel Implants",
             "Source": "LBIS.L[\"Meathook\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37084": {
             "Name": "Flowing Cloak of Command",
             "Source": "LBIS.L[\"Salramm the Fleshcrafter\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37095": {
             "Name": "Waistband of the Thuzadin",
             "Source": "LBIS.L[\"Salramm the Fleshcrafter\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37088": {
             "Name": "Spiked Metal Cilice",
             "Source": "LBIS.L[\"Salramm the Fleshcrafter\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37086": {
             "Name": "Tome of Salramm",
             "Source": "LBIS.L[\"Salramm the Fleshcrafter\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37684": {
             "Name": "Forgotten Shadow Hood",
             "Source": "LBIS.L[\"Salramm the Fleshcrafter\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37682": {
             "Name": "Bindings of Dark Will",
             "Source": "LBIS.L[\"Salramm the Fleshcrafter\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37683": {
             "Name": "Necromancer's Amulet",
             "Source": "LBIS.L[\"Salramm the Fleshcrafter\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37681": {
             "Name": "Gavel of the Fleshcrafter",
             "Source": "LBIS.L[\"Salramm the Fleshcrafter\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37106": {
             "Name": "Ouroboros Belt",
             "Source": "LBIS.L[\"Chrono-Lord Epoch\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37105": {
             "Name": "Treads of Altered History",
             "Source": "LBIS.L[\"Chrono-Lord Epoch\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37096": {
             "Name": "Necklace of the Chrono-Lord",
             "Source": "LBIS.L[\"Chrono-Lord Epoch\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37099": {
             "Name": "Sempiternal Staff",
             "Source": "LBIS.L[\"Chrono-Lord Epoch\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37687": {
             "Name": "Gloves of Distorted Time",
             "Source": "LBIS.L[\"Chrono-Lord Epoch\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37686": {
             "Name": "Cracked Epoch Grasps",
             "Source": "LBIS.L[\"Chrono-Lord Epoch\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37688": {
             "Name": "Legplates of the Infinite Drakonid",
             "Source": "LBIS.L[\"Chrono-Lord Epoch\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37685": {
             "Name": "Mobius Band",
             "Source": "LBIS.L[\"Chrono-Lord Epoch\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "43951": {
             "Name": "Reins of the Bronze Drake",
             "Source": "LBIS.L[\"Infinite Corruptor\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37113": {
             "Name": "Demonic Fabric Bands",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37114": {
             "Name": "Gloves of Northern Lordaeron",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37110": {
             "Name": "Gauntlets of Dark Conversion",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37109": {
             "Name": "Discarded Silver Hand Spaulders",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37111": {
             "Name": "Soul Preserver",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37108": {
             "Name": "Dreadlord's Blade",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37112": {
             "Name": "Beguiling Scepter",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37107": {
             "Name": "Leeka's Shield",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37696": {
             "Name": "Plague-Infected Bracers",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37695": {
             "Name": "Legguards of Nature's Power",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37694": {
             "Name": "Band of Guile",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37693": {
             "Name": "Greed",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "43085": {
             "Name": "Royal Crest of Lordaeron",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37691": {
             "Name": "Mantle of Deceit",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37690": {
             "Name": "Pauldrons of Destiny",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37689": {
             "Name": "Pendant of the Nathrezim",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37692": {
             "Name": "Pierce's Pistol",
             "Source": "LBIS.L[\"Mal'Ganis\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Heroic)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Heroic)\"]"
         },
         "37117": {
             "Name": "King's Square Bracers",
             "Source": "LBIS.L[\"Trash Mobs\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37116": {
             "Name": "Epaulets of Market Row",
             "Source": "LBIS.L[\"Trash Mobs\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "37115": {
             "Name": "Crusader's Square Pauldrons",
             "Source": "LBIS.L[\"Trash Mobs\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
             "SourceNumber": "0",
-            "SourceLocation": "LBIS.L[\"Cot: Old Stratholme (Normal)\"]"
+            "SourceLocation": "LBIS.L[\"The Culling of Stratholme (Normal)\"]"
         },
         "35584": {
             "Name": "Embroidered Gown of Zul'Drak",
