@@ -43,7 +43,7 @@ LBIS.ItemSources =
     [33497] = { Name = "Mana Attuned Band", SourceType = LBIS.L["Legacy"], Source = LBIS.L["Timed Event"], SourceNumber = "0", SourceLocation = LBIS.L["Zul'Aman"] },
     [33503] = { Name = "Libram of Divine Judgement", SourceType = LBIS.L["Legacy"], Source = LBIS.L["Badges of Justice"], SourceNumber = "20", SourceLocation = LBIS.L["G'eras"] },
     [33507] = { Name = "Stonebreaker's Totem", SourceType = LBIS.L["Legacy"], Source = LBIS.L["Badges of Justice"], SourceNumber = "20", SourceLocation = LBIS.L["G'eras"] },
-    [33508] = { Name = "Idol of Budding Life", SourceType = LBIS.L["TBC"], Source = LBIS.L["Badges of Justice"], SourceNumber = "20", SourceLocation = LBIS.L["G'eras"] },
+    [33508] = { Name = "Idol of Budding Life", SourceType = LBIS.L["Legacy"], Source = LBIS.L["Badges of Justice"], SourceNumber = "20", SourceLocation = LBIS.L["G'eras"] },
     [33829] = { Name = "Hex Shrunken Head", SourceType = LBIS.L["Legacy"], Source = LBIS.L["Hex Lord Malacrass"], SourceNumber = "0", SourceLocation = LBIS.L["Zul'Aman"] },
     [33831] = { Name = "Berserker's Call", SourceType = LBIS.L["Legacy"], Source = LBIS.L["Zul'jin"], SourceNumber = "0", SourceLocation = LBIS.L["Zul'Aman"] },
     [34167] = { Name = "Legplates of the Holy Juggernaut", SourceType = LBIS.L["Legacy"], Source = LBIS.L["Kalecgos"], SourceNumber = "0", SourceLocation = LBIS.L["Sunwell Plateau"] },
