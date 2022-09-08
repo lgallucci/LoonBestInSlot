@@ -41,7 +41,7 @@ public static class ItemSourceFileManager
         return items;
     }
 
-    public static SortedDictionary<int, ItemSource> ReadTBCItemSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\TBCItemSources.lua")
+    public static SortedDictionary<int, ItemSource> ReadTBCItemSources(string sourcesFile = @$"..\..\..\..\AddonManager\ItemDatabase\TBCItemSources.lua")
     {
         SortedDictionary<int, ItemSource> items = new SortedDictionary<int, ItemSource>();
 
@@ -166,7 +166,7 @@ public static class ItemSourceFileManager
 
             itemSourceSB.AppendLine($"    [{source.Key}] = {{ " +
                     $"Name = \"{source.Value.Name}\", " +
-                    $"SourceType = LBIS.L[\"{source.Value.SourceType}\"], " +
+                    $"SourceType = {source.Value.SourceType}, " +
                     $"Source = {source.Value.Source}, " +
                     $"SourceNumber = \"{source.Value.SourceNumber}\", " +
                     $"SourceLocation = {sourceLocation} }},");
