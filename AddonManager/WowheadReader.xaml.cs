@@ -189,7 +189,7 @@ public partial class WowheadReader : Window
             csvLootTable.Add(oldSource.Key, new CsvLootTable
             {
                 ItemId = oldSource.Key,
-                SourceType = "LBIS.L[\"Legacy\"]",
+                SourceType = "Legacy",
                 ItemName = oldSource.Value.Name,
                 InstanceName = oldSource.Value.SourceLocation,
                 SourceName = oldSource.Value.Source,
@@ -212,14 +212,14 @@ public partial class WowheadReader : Window
             {
                 var csvItem = csvLootTable[itemSource.Key];
                 var sourceType = csvItem.SourceType;
-                if (sourceType == "LBIS.L[\"Legacy\"]") { }
+                if (sourceType == "Legacy") { }
                 else if (tokenKeys.Contains(itemSource.Key))
                 {
-                    sourceType = "LBIS.L[\"Token\"]";
+                    sourceType = "Token";
                 }
                 else if (transmuteKeys.Contains(itemSource.Key))
                 {
-                    sourceType = "LBIS.L[\"Transmute\"]";
+                    sourceType = "Transmute";
                 }
 
                 itemSource.Value.SourceType = sourceType;
@@ -460,7 +460,7 @@ public partial class WowheadReader : Window
                 if (csvLootTable[item.Key].InstanceName != item.Value.SourceLocation)
                     csvLootTable[item.Key].InstanceName += $"/{item.Value.SourceLocation}";
                 if (csvLootTable[item.Key].SourceName != item.Value.Source)
-                    csvLootTable[item.Key].SourceName += $"/{item.Value.Source}";
+                    csvLootTable[item.Key].SourceName += $"..\"/\"..{item.Value.Source}";
                 if (csvLootTable[item.Key].SourceNumber != item.Value.SourceNumber)
                     csvLootTable[item.Key].SourceNumber += $"/{item.Value.SourceNumber}";
                 if (csvLootTable[item.Key].SourceType != item.Value.SourceType)

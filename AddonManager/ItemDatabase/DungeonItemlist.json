@@ -2494,35 +2494,35 @@
         },
         "43353": {
             "Name": "Void Sentry Legplates",
-            "Source": "Zuramat the Obliterator",
+            "Source": "LBIS.L[\"Zuramat the Obliterator\"]",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Violet Hold (Normal)"
         },
         "43358": {
             "Name": "Pendant of Shadow Beams",
-            "Source": "Zuramat the Obliterator",
+            "Source": "LBIS.L[\"Zuramat the Obliterator\"]",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Violet Hold (Normal)"
         },
         "43403": {
             "Name": "Shroud of Darkness",
-            "Source": "Zuramat the Obliterator",
+            "Source": "LBIS.L[\"Zuramat the Obliterator\"]",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Violet Hold (Heroic)"
         },
         "43402": {
             "Name": "The Obliterator Greaves",
-            "Source": "Zuramat the Obliterator",
+            "Source": "LBIS.L[\"Zuramat the Obliterator\"]",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Violet Hold (Heroic)"
         },
         "43404": {
             "Name": "Zuramat's Necklace",
-            "Source": "Zuramat the Obliterator",
+            "Source": "LBIS.L[\"Zuramat the Obliterator\"]",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Violet Hold (Heroic)"
@@ -2620,7 +2620,7 @@
         },
         "43408": {
             "Name": "Solitaire of Reflecting Beams",
-            "Source": "LBIS.L[\"LBIS.L[\"Moragg\"]",
+            "Source": "LBIS.L[\"Moragg\"]",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Violet Hold (Heroic)"
