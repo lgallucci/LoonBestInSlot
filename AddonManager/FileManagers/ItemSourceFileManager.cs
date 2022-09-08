@@ -41,6 +41,42 @@ public static class ItemSourceFileManager
         return items;
     }
 
+    public static SortedDictionary<int, ItemSource> ReadTBCItemSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\TBCItemSources.lua")
+    {
+        SortedDictionary<int, ItemSource> items = new SortedDictionary<int, ItemSource>();
+
+        string[] itemSources = System.IO.File.ReadAllLines(sourcesFile);
+
+        foreach (var itemSource in itemSources)
+        {
+            if (itemSource == "LBIS.ItemSources =" ||
+                itemSource == "{" ||
+                itemSource == "}" ||
+                itemSource == String.Empty ||
+                itemSource.Trim().StartsWith("--"))
+            {
+                continue;
+            }
+
+            var openBracket = itemSource.IndexOf("[") + 1;
+            var closeBracket = itemSource.IndexOf("]");
+
+            var itemId = Int32.Parse(itemSource.Substring(openBracket, closeBracket - openBracket));
+            var sourceSplit = itemSource.Split("\"");
+            items.Add(itemId, new ItemSource
+            {
+                ItemId = itemId,
+                Name = sourceSplit[1],
+                SourceType = sourceSplit[3],
+                Source = $"LBIS.L[\"{sourceSplit[5]}\"]",
+                SourceNumber = sourceSplit[7],
+                SourceLocation = sourceSplit[9]
+            });
+        }
+
+        return items;
+    }
+
     public static SortedDictionary<int, GemSource> ReadGemSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\GemSources.lua")
     {
         SortedDictionary<int, GemSource> gems = new SortedDictionary<int, GemSource>();
@@ -122,12 +158,7 @@ public static class ItemSourceFileManager
         itemSourceSB.AppendLine("{");
         foreach (var source in sources)
         {
-            string sourceText = string.Empty, sourceLocation = string.Empty;
-            if (string.IsNullOrWhiteSpace(source.Value.Source) || Int32.TryParse(source.Value.Source, out int value))
-                sourceText = $"\"{source.Value.Source}\"";
-            else
-                sourceText = $"LBIS.L[\"{source.Value.Source}\"]";
-
+            string sourceLocation;
             if (string.IsNullOrWhiteSpace(source.Value.SourceLocation) || Int32.TryParse(source.Value.SourceLocation, out int value2))
                 sourceLocation = $"\"{source.Value.SourceLocation}\"";
             else
@@ -136,7 +167,7 @@ public static class ItemSourceFileManager
             itemSourceSB.AppendLine($"    [{source.Key}] = {{ " +
                     $"Name = \"{source.Value.Name}\", " +
                     $"SourceType = LBIS.L[\"{source.Value.SourceType}\"], " +
-                    $"Source = {sourceText}, " +
+                    $"Source = {source.Value.Source}, " +
                     $"SourceNumber = \"{source.Value.SourceNumber}\", " +
                     $"SourceLocation = {sourceLocation} }},");
         }

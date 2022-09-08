@@ -182,7 +182,7 @@ public partial class WowheadReader : Window
 
         var itemSources = ItemSourceFileManager.ReadItemSources();
         var csvLootTable = new Dictionary<int, CsvLootTable>();
-        var oldSources = ItemSourceFileManager.ReadItemSources(@"..\..\..\ItemDatabase\TBCItemSources.lua");
+        var oldSources = ItemSourceFileManager.ReadTBCItemSources();
 
         foreach (var oldSource in oldSources)
         {

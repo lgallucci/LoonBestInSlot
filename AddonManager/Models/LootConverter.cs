@@ -124,7 +124,7 @@ public class RaidConverter : LootConverter
                     if (items.Items.ContainsKey(id))
                     {
                         if (items.Items[id].Source != itemType.title.ToString())
-                            items.Items[id].Source += $" & {itemType.title}";
+                            items.Items[id].Source += $"..\" & \"..LBIS.L[\"{itemType.title}\"]";
                     }
                     else
                     {
@@ -132,7 +132,7 @@ public class RaidConverter : LootConverter
                         {
                             Name = item[1].title,
                             SourceNumber = "0",
-                            Source = itemType.title,
+                            Source = $"LBIS.L[\"{itemType.title}\"]",
                             SourceLocation = $"{obj.title.ToString()} ({heroicTag}10)",
                             SourceType = "Drop"
                         });

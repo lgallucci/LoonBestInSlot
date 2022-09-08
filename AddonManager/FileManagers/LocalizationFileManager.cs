@@ -45,13 +45,26 @@ public static class LocalizationFileManager
                 else
                 {
                     var lineText = string.Empty;
-                    var localizeSplit = localizeTerm.Split('/');
+                    var slashSplit = false;
+                    var ampersandSplit = false;
+
+                    slashSplit = localizeTerm.Contains("/");
+                    ampersandSplit = localizeTerm.Contains("&");
+
+                    string[] localizeSplit;
+                    if (slashSplit)
+                        localizeSplit = localizeTerm.Split('/');
+                    else
+                        localizeSplit = localizeTerm.Split('&');
+
                     var localizedString = string.Empty;
                     bool skipFirst = false, foundAll = true;
                     foreach (var localizeSlash in localizeSplit)
                     {
-                        if (skipFirst)
+                        if (skipFirst && slashSplit)
                             localizedString += "/";
+                        else if(skipFirst)
+                            localizedString += " & ";
 
                         var parenSplit = localizeSlash.Split("(");
                         var mainTerm = parenSplit[0].Trim();
