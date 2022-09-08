@@ -29,7 +29,7 @@ public partial class WowheadReader : Window
     public class CsvLootTable
     {
         public int ItemId { get; set; }
-        public string SourceType { get; set; } = "Drop";
+        public string SourceType { get; set; } = string.Empty;
         public string SourceNumber { get; set; } = string.Empty;
         public string ItemName { get; set; } = string.Empty;
         public string InstanceName { get; set; } = string.Empty;
@@ -407,6 +407,7 @@ public partial class WowheadReader : Window
                     ItemId = transmutePiece.Key,
                     ItemName = itemSources[transmutePiece.Key].Name,
                     InstanceName = $"{csvLootTable[transmutePiece.Value.Item1].SourceName} - {csvLootTable[transmutePiece.Value.Item1].InstanceName}",
+                    SourceType = csvLootTable[transmutePiece.Key].SourceType,
                     SourceName = transmutePiece.Value.Item1.ToString(),
                     SourceNumber = csvLootTable[transmutePiece.Key].SourceNumber
                 });
@@ -431,6 +432,7 @@ public partial class WowheadReader : Window
                     ItemId = tierPiece.Key,
                     ItemName = itemSources[tierPiece.Key].Name,
                     InstanceName = csvLootTable[tierPiece.Value.Item1].InstanceName,
+                    SourceType = csvLootTable[tierPiece.Value.Item1].SourceType,
                     SourceName = csvLootTable[tierPiece.Value.Item1].SourceName,
                     SourceNumber = csvLootTable[tierPiece.Value.Item1].SourceNumber
                 });
