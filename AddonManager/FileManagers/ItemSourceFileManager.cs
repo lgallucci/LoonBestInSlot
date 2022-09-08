@@ -1,4 +1,5 @@
 ﻿using System.Threading;
+using System.Xml.Linq;
 using AddonManager.Models;
 
 namespace AddonManager.FileManagers;
@@ -26,19 +27,36 @@ public static class ItemSourceFileManager
             var closeBracket = itemSource.IndexOf("]");
 
             var itemId = Int32.Parse(itemSource.Substring(openBracket, closeBracket - openBracket));
-            var sourceSplit = itemSource.Split("\"");
-            items.Add(itemId, new ItemSource
-            {
-                ItemId = itemId,
-                Name = sourceSplit[1],
-                SourceType = sourceSplit[3],
-                Source = sourceSplit[5],
-                SourceNumber = sourceSplit[7],
-                SourceLocation = sourceSplit[9]
-            });
+
+            items.Add(itemId, SplitItemLine(itemId, itemSource));
         }
 
         return items;
+    }
+
+    private static ItemSource SplitItemLine(int itemId, string itemSource)
+    {
+        var nameIndex = itemSource.IndexOf("Name =");
+        var sourceTypeIndex = itemSource.IndexOf("SourceType =");
+        var sourceIndex = itemSource.IndexOf("Source =");
+        var sourceNumberIndex = itemSource.IndexOf("SourceNumber =");
+        var sourceLocationIndex = itemSource.IndexOf("SourceLocation =");
+
+        var name = itemSource.Substring(nameIndex, sourceTypeIndex - nameIndex).Split("=")[1].Trim().Trim(',').Trim('"');
+        var sourceType = itemSource.Substring(sourceTypeIndex, sourceIndex - sourceTypeIndex).Split("=")[1].Trim().Trim(',').Trim('"'); ;
+        var source = itemSource.Substring(sourceIndex, sourceNumberIndex - sourceIndex).Split("=")[1].Trim().Trim(',').Trim('"'); ;
+        var sourceNumber = itemSource.Substring(sourceNumberIndex, sourceLocationIndex - sourceNumberIndex).Split("=")[1].Trim().Trim(',').Trim('"');
+        var sourceLocation = itemSource.Substring(sourceLocationIndex, itemSource.Length - sourceLocationIndex - 3).Split("=")[1].Trim().Trim('"');
+
+        return new ItemSource
+        {
+            ItemId = itemId,
+            Name = name,
+            SourceType = sourceType,
+            Source = source,
+            SourceNumber = sourceNumber,
+            SourceLocation = sourceLocation
+        };
     }
 
     public static SortedDictionary<int, ItemSource> ReadTBCItemSources(string sourcesFile = @$"..\..\..\..\AddonManager\ItemDatabase\TBCItemSources.lua")
@@ -63,12 +81,17 @@ public static class ItemSourceFileManager
 
             var itemId = Int32.Parse(itemSource.Substring(openBracket, closeBracket - openBracket));
             var sourceSplit = itemSource.Split("\"");
+
+            var sourceText = $"\"{sourceSplit[5]}\"";
+            if (!Int32.TryParse(sourceSplit[5], out int result))
+                sourceText = $"LBIS.L[\"{sourceSplit[5]}\"]";
+
             items.Add(itemId, new ItemSource
             {
                 ItemId = itemId,
                 Name = sourceSplit[1],
                 SourceType = sourceSplit[3],
-                Source = $"LBIS.L[\"{sourceSplit[5]}\"]",
+                Source = sourceText,
                 SourceNumber = sourceSplit[7],
                 SourceLocation = sourceSplit[9]
             });
@@ -159,14 +182,24 @@ public static class ItemSourceFileManager
         foreach (var source in sources)
         {
             string sourceLocation;
-            if (string.IsNullOrWhiteSpace(source.Value.SourceLocation) || Int32.TryParse(source.Value.SourceLocation, out int value2))
+            if (source.Value.SourceLocation.StartsWith("LBIS.L["))
+                sourceLocation = $"{source.Value.SourceLocation}";
+            else if (string.IsNullOrWhiteSpace(source.Value.SourceLocation) || 
+                Int32.TryParse(source.Value.SourceLocation, out int value2))
                 sourceLocation = $"\"{source.Value.SourceLocation}\"";
             else
                 sourceLocation = $"LBIS.L[\"{source.Value.SourceLocation}\"]";
 
+            string sourceType;
+            if (source.Value.SourceType.StartsWith("LBIS.L["))
+                sourceType = $"{source.Value.SourceType}";
+            else 
+                sourceType = $"LBIS.L[\"{source.Value.SourceType}\"]";
+
+
             itemSourceSB.AppendLine($"    [{source.Key}] = {{ " +
                     $"Name = \"{source.Value.Name}\", " +
-                    $"SourceType = {source.Value.SourceType}, " +
+                    $"SourceType = {sourceType}, " +
                     $"Source = {source.Value.Source}, " +
                     $"SourceNumber = \"{source.Value.SourceNumber}\", " +
                     $"SourceLocation = {sourceLocation} }},");

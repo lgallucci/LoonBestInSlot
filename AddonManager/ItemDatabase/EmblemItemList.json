@@ -3,807 +3,807 @@
     "40697": {
       "Name": "Elegant Temple Gardens' Girdle",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40696": {
       "Name": "Plush Sash of Guzbah",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40694": {
       "Name": "Jorach's Crocolisk Skin Belt",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40695": {
       "Name": "Vine Belt of the Woodland Dryad",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40693": {
       "Name": "Beadwork Belt of Shamanic Vision",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40692": {
       "Name": "Vereesa's Silver Chain Belt",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40691": {
       "Name": "Magroth's Meditative Cincture",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40688": {
       "Name": "Verdungo's Barbarian Cord",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40689": {
       "Name": "Waistguard of Living Iron",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40704": {
       "Name": "Pride",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "50",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40702": {
       "Name": "Rolfsen's Ripper",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "50",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40703": {
       "Name": "Grasscutter",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "50",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40716": {
       "Name": "Lillehoff's Winged Blades",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40701": {
       "Name": "Crygil's Discarded Plate Panel",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "35",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40700": {
       "Name": "Protective Barricade of the Light",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "35",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40699": {
       "Name": "Handbook of Obscure Remedies",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40698": {
       "Name": "Ward of the Violet Citadel",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40711": {
       "Name": "Idol of Lush Moss",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40712": {
       "Name": "Idol of Steadfast Renewal",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40713": {
       "Name": "Idol of the Ravenous Beast",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40707": {
       "Name": "Libram of Obstruction",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40706": {
       "Name": "Libram of Reciprocation",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40705": {
       "Name": "Libram of Renewal",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40715": {
       "Name": "Sigil of Haunted Dreams",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40714": {
       "Name": "Sigil of the Unfaltering Knight",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40709": {
       "Name": "Totem of Forest Growth",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40710": {
       "Name": "Totem of Splintering",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40708": {
       "Name": "Totem of the Elemental Plane",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40679": {
       "Name": "Chained Military Gorget",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40680": {
       "Name": "Encircling Burnished Gold Chains",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40681": {
       "Name": "Lattice Choker of Light",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40678": {
       "Name": "Pendant of the Outcast Hero",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40684": {
       "Name": "Mirror of Truth",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40682": {
       "Name": "Sundial of the Exiled",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40685": {
       "Name": "The Egg of Mortal Essence",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40683": {
       "Name": "Valor Medal of the First War",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40610": {
       "Name": "Chestguard of the Lost Conqueror",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "80",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40611": {
       "Name": "Chestguard of the Lost Protector",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "80",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40612": {
       "Name": "Chestguard of the Lost Vanquisher",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "80",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40613": {
       "Name": "Gloves of the Lost Conqueror",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40614": {
       "Name": "Gloves of the Lost Protector",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40615": {
       "Name": "Gloves of the Lost Vanquisher",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "44230": {
       "Name": "Reins of the Wooly Mammoth",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "200",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "44231": {
       "Name": "Reins of the Wooly Mammoth",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "200",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "43102": {
       "Name": "Frozen Orb",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "10",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "36919": {
       "Name": "Cardinal Ruby",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "20",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "36922": {
       "Name": "King's Amber",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "20",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "36925": {
       "Name": "Majestic Zircon",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "20",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "36931": {
       "Name": "Ametrine",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "10",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "36928": {
       "Name": "Dreadstone",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "10",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "36934": {
       "Name": "Eye of Zul",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "10",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "42985": {
       "Name": "Tattered Dreadmist Mantle",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "42984": {
       "Name": "Preened Ironfeather Shoulders",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "42952": {
       "Name": "Stained Shadowcraft Spaulders",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "42950": {
       "Name": "Champion Herod's Shoulder",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "42951": {
       "Name": "Mystical Pauldrons of Elements",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "42949": {
       "Name": "Polished Spaulders of Valor",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "48691": {
       "Name": "Tattered Dreadmist Robe",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "48687": {
       "Name": "Preened Ironfeather Breastplate",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "48689": {
       "Name": "Stained Shadowcraft Tunic",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "48677": {
       "Name": "Champion's Deathdealer Breastplate",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "48683": {
       "Name": "Mystical Vest of Elements",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "48685": {
       "Name": "Polished Breastplate of Valor",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "42992": {
       "Name": "Discerning Eye of the Beast",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "50",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "42991": {
       "Name": "Swift Hand of Justice",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "50",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "42944": {
       "Name": "Balanced Heartseeker",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "42945": {
       "Name": "Venerable Dal'Rend's Sacred Charge",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "42943": {
       "Name": "Bloodied Arcanite Reaper",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "65",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "42948": {
       "Name": "Devout Aurastone Hammer",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "50",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "48716": {
       "Name": "Venerable Mass of McGowan",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "48718": {
       "Name": "Repurposed Lava Dredger",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "65",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "42947": {
       "Name": "Dignified Headmaster's Charge",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "65",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "42946": {
       "Name": "Charmed Ancient Bone Bow",
       "Source": "LBIS.L[\"Emblem of Heroism\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "65",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40741": {
       "Name": "Cuffs of the Shadow Ascendant",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40740": {
       "Name": "Wraps of the Astral Traveler",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40751": {
       "Name": "Slippers of the Holy Light",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40750": {
       "Name": "Xintor's Expeditionary Boots",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40739": {
       "Name": "Bands of the Great Tree",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40738": {
       "Name": "Wristwraps of the Cutthroat",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40748": {
       "Name": "Boots of Captain Ellis",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40749": {
       "Name": "Rainey's Chewed Boots",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40736": {
       "Name": "Armguard of the Tower Archer",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40737": {
       "Name": "Pigmented Clan Bindings",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40746": {
       "Name": "Pack-Ice Striders",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40747": {
       "Name": "Treads of Coastal Wandering",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40734": {
       "Name": "Bracers of Dalaran's Parapets",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40733": {
       "Name": "Wristbands of the Sentinel Huntress",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40735": {
       "Name": "Zartson's Jungle Vambraces",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40742": {
       "Name": "Bladed Steelboots",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40743": {
       "Name": "Kyzoc's Ground Stompers",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40745": {
       "Name": "Sabatons of Rapid Recovery",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40724": {
       "Name": "Cloak of Kea Feathers",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40723": {
       "Name": "Disguise of the Kumiho",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40722": {
       "Name": "Platinum Mesh Cloak",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40721": {
       "Name": "Hammerhead Sharkskin Cloak",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40719": {
       "Name": "Band of Channeled Magic",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40720": {
       "Name": "Renewal of Life",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40717": {
       "Name": "Ring of Invincibility",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40718": {
       "Name": "Signet of the Impregnable Fortress",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40342": {
       "Name": "Idol of Awakening",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40321": {
       "Name": "Idol of the Shooting Star",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "39757": {
       "Name": "Idol of Worship",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40191": {
       "Name": "Libram of Radiance",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40337": {
         "Name": "Libram of Resurgence",
         "Source": "LBIS.L[\"Emblem of Valor\"]",
-        "SourceType": "Dungeon Token",
+        "SourceType": "LBIS.L[\"Dungeon Token\"]",
         "SourceNumber": "25",
-        "SourceLocation": "Emblem Vendor"
+        "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40268": {
         "Name": "Libram of Tolerance",
         "Source": "LBIS.L[\"Emblem of Valor\"]",
-        "SourceType": "Dungeon Token",
+        "SourceType": "LBIS.L[\"Dungeon Token\"]",
         "SourceNumber": "25",
-        "SourceLocation": "Emblem Vendor"
+        "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40207": {
       "Name": "Sigil of Awareness",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40322": {
       "Name": "Totem of Dueling",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40267": {
       "Name": "Totem of Hex",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "39728": {
       "Name": "Totem of Misery",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40637": {
       "Name": "Mantle of the Lost Conqueror",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40638": {
       "Name": "Mantle of the Lost Protector",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40639": {
       "Name": "Mantle of the Lost Vanquisher",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40634": {
       "Name": "Legplates of the Lost Conqueror",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "75",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40635": {
       "Name": "Legplates of the Lost Protector",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "75",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     },
     "40636": {
       "Name": "Legplates of the Lost Vanquisher",
       "Source": "LBIS.L[\"Emblem of Valor\"]",
-      "SourceType": "Dungeon Token",
+      "SourceType": "LBIS.L[\"Dungeon Token\"]",
       "SourceNumber": "75",
-      "SourceLocation": "Emblem Vendor"
+      "SourceLocation": "LBIS.L[\"Emblem Vendor\"]"
     }
   }
 }

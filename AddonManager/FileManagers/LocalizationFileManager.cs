@@ -45,28 +45,28 @@ public static class LocalizationFileManager
                 else
                 {
                     var lineText = string.Empty;
-                    var slashSplit = false;
-                    var ampersandSplit = false;
+                    //var slashSplit = false;
+                    //var ampersandSplit = false;
 
-                    slashSplit = localizeTerm.Contains("/");
-                    ampersandSplit = localizeTerm.Contains("&");
+                    //slashSplit = localizeTerm.Contains("/");
+                    //ampersandSplit = localizeTerm.Contains("&");
 
-                    string[] localizeSplit;
-                    if (slashSplit)
-                        localizeSplit = localizeTerm.Split('/');
-                    else
-                        localizeSplit = localizeTerm.Split('&');
+                    //string[] localizeSplit;
+                    //if (slashSplit)
+                    //    localizeSplit = localizeTerm.Split('/');
+                    //else
+                    //    localizeSplit = localizeTerm.Split('&');
 
                     var localizedString = string.Empty;
                     bool skipFirst = false, foundAll = true;
-                    foreach (var localizeSlash in localizeSplit)
-                    {
-                        if (skipFirst && slashSplit)
-                            localizedString += "/";
-                        else if(skipFirst)
-                            localizedString += " & ";
+                    //foreach (var localizeSlash in localizeSplit)
+                    //{
+                    //    if (skipFirst && slashSplit)
+                    //        localizedString += "/";
+                    //    else if(skipFirst)
+                    //        localizedString += " & ";
 
-                        var parenSplit = localizeSlash.Split("(");
+                        var parenSplit = localizeTerm.Split("(");
                         var mainTerm = parenSplit[0].Trim();
                         if (Int32.TryParse(mainTerm, out int mainResult))
                             localizedString += $" ({mainTerm})";
@@ -92,8 +92,8 @@ public static class LocalizationFileManager
                                     foundAll = false;
                             }
                         }
-                        skipFirst = true;
-                    }
+                        //skipFirst = true;
+                    //}
 
                     lineText = $"  LBIS.L[\"{localizeTerm}\"] = \"{localizedString}\";\n";
 

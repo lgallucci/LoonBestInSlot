@@ -189,11 +189,11 @@ public partial class WowheadReader : Window
             csvLootTable.Add(oldSource.Key, new CsvLootTable
             {
                 ItemId = oldSource.Key,
-                SourceType = "LBIS.L[\"Legacy\"]",
-                ItemName = oldSource.Value.Name,
-                InstanceName = oldSource.Value.SourceLocation,
-                SourceName = oldSource.Value.Source,
-                SourceNumber = oldSource.Value.SourceNumber
+                SourceType = "Legacy",
+                ItemName = "",
+                InstanceName = "",
+                SourceName = "\"\"",
+                SourceNumber = ""
             });
         }
 
@@ -212,18 +212,18 @@ public partial class WowheadReader : Window
             {
                 var csvItem = csvLootTable[itemSource.Key];
                 var sourceType = csvItem.SourceType;
-                if (sourceType == "LBIS.L[\"Legacy\"]") { }
+                if (sourceType == "Legacy") { }
                 else if (tokenKeys.Contains(itemSource.Key))
                 {
-                    sourceType = "LBIS.L[\"Token\"]";
+                    sourceType = "Token";
                 }
                 else if (transmuteKeys.Contains(itemSource.Key))
                 {
-                    sourceType = "LBIS.L[\"Transmute\"]";
+                    sourceType = "Transmute";
                 }
 
                 itemSource.Value.SourceType = sourceType;
-                itemSource.Value.Source = csvItem.SourceName.Trim().Trim('"');
+                itemSource.Value.Source = csvItem.SourceName.Trim();
                 itemSource.Value.SourceNumber = csvItem.SourceNumber.Trim().Trim('"');
                 itemSource.Value.SourceLocation = csvItem.InstanceName.Trim().Trim('"');
             }
@@ -458,13 +458,13 @@ public partial class WowheadReader : Window
             if (csvLootTable.ContainsKey(item.Key))
             {
                 if (csvLootTable[item.Key].InstanceName != item.Value.SourceLocation)
-                    csvLootTable[item.Key].InstanceName += $"/{item.Value.SourceLocation}";
+                    csvLootTable[item.Key].InstanceName += $"..\"/\"..{item.Value.SourceLocation}";
                 if (csvLootTable[item.Key].SourceName != item.Value.Source)
-                    csvLootTable[item.Key].SourceName += $"/{item.Value.Source}";
+                    csvLootTable[item.Key].SourceName += $"..\"/\"..{item.Value.Source}";
                 if (csvLootTable[item.Key].SourceNumber != item.Value.SourceNumber)
                     csvLootTable[item.Key].SourceNumber += $"/{item.Value.SourceNumber}";
                 if (csvLootTable[item.Key].SourceType != item.Value.SourceType)
-                    csvLootTable[item.Key].SourceType += $"/{item.Value.SourceType}";
+                    csvLootTable[item.Key].SourceType += $"..\"/\"..{item.Value.SourceType}";
             }
             else
             {
