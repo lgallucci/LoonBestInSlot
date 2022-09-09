@@ -43,7 +43,7 @@ LBIS.ItemSources =
     [33497] = { Name = "Mana Attuned Band", SourceType = LBIS.L["Legacy"], Source = "", SourceNumber = "", SourceLocation = "" },
     [33503] = { Name = "Libram of Divine Judgement", SourceType = LBIS.L["Legacy"], Source = "", SourceNumber = "", SourceLocation = "" },
     [33507] = { Name = "Stonebreaker's Totem", SourceType = LBIS.L["Legacy"], Source = "", SourceNumber = "", SourceLocation = "" },
-    [33508] = { Name = "Idol of Budding Life", SourceType = LBIS.L["Legacy"], Source = ], SourceNumber = "", SourceLocation = LBIS.L["]"] },
+    [33508] = { Name = "Idol of Budding Life", SourceType = LBIS.L["Legacy"], Source = "", SourceNumber = "", SourceLocation = "" },
     [33829] = { Name = "Hex Shrunken Head", SourceType = LBIS.L["Legacy"], Source = "", SourceNumber = "", SourceLocation = "" },
     [33831] = { Name = "Berserker's Call", SourceType = LBIS.L["Legacy"], Source = "", SourceNumber = "", SourceLocation = "" },
     [34167] = { Name = "Legplates of the Holy Juggernaut", SourceType = LBIS.L["Legacy"], Source = "", SourceNumber = "", SourceLocation = "" },
