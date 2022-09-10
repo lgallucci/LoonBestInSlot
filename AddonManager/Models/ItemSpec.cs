@@ -174,7 +174,9 @@ public class ItemSpec
         new ("(4-set)", ""),
         new ("non-tier", ""),
         new ("non", ""),
-
+        new ("(Non Tier)", ""),
+        new ("ilvl", ""),
+        new ("Tier", ""),
 
         new ("Mitigation", ""),
         new ("Avoidance", ""),

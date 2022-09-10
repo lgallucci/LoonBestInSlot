@@ -75,5 +75,5 @@ LBIS:AddItem(spec, "37852", LBIS.L["Two Hand"], "Alt") --Colossal Skull-Clad Cle
 LBIS:AddItem(spec, "41257", LBIS.L["Two Hand"], "Alt") --Titansteel Destroyer
 
 LBIS:AddItem(spec, "42852", LBIS.L["Libram"], "BIS") --Deadly Gladiator's Libram of Fortitude
-LBIS:AddItem(spec, "33503", LBIS.L["Libram"], "BIS") --Libram of Divine Judgement
 LBIS:AddItem(spec, "37574", LBIS.L["Libram"], "Alt") --Libram of Furious Blows
+LBIS:AddItem(spec, "33503", LBIS.L["Libram"], "Alt") --Libram of Divine Judgement

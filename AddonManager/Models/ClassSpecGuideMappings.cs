@@ -296,7 +296,7 @@ public class ClassSpecGuideMappings
         #endregion
 
         #region Cat Druid
-        GuideMappings.Add(new ClassGuideMapping("",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/feral-druid-dps-enchants-gems",
             "Cat", "Druid", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
@@ -317,7 +317,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/feral-druid-dps-best-in-slot-gear-pre-raid",
             "Cat", "Druid", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
@@ -336,7 +336,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#idols", "Idol")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/feral-druid-dps-best-in-slot-gear-phase-1",
             "Cat", "Druid", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
@@ -357,7 +357,7 @@ public class ClassSpecGuideMappings
         #endregion
 
         #region Bear Druid
-        GuideMappings.Add(new ClassGuideMapping("",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/feral-druid-tank-enchants-gems",
             "Bear", "Druid", "GemsEnchants", new List<GuideMapping>
         {
             new GuideMapping("h2#best-gems+.box", "Meta"),
@@ -378,7 +378,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/feral-druid-tank-best-in-slot-gear-pre-raid",
             "Bear", "Druid", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
@@ -397,7 +397,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#idols", "Idol")
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/feral-druid-tank-best-in-slot-gear-phase-1",
             "Bear", "Druid", "Phase1", new List<GuideMapping>
         {
             new GuideMapping("#head", "Head"),
