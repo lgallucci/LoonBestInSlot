@@ -196,11 +196,12 @@ public static class ItemSourceFileManager
             else 
                 sourceType = $"LBIS.L[\"{source.Value.SourceType}\"]";
 
+            var sourceText = string.IsNullOrWhiteSpace(source.Value.Source) ? "\"\"" : source.Value.Source;
 
             itemSourceSB.AppendLine($"    [{source.Key}] = {{ " +
                     $"Name = \"{source.Value.Name}\", " +
                     $"SourceType = {sourceType}, " +
-                    $"Source = {source.Value.Source}, " +
+                    $"Source = {sourceText}, " +
                     $"SourceNumber = \"{source.Value.SourceNumber}\", " +
                     $"SourceLocation = {sourceLocation} }},");
         }

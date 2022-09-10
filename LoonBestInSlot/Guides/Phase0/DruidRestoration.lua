@@ -76,9 +76,9 @@ LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "BIS") --Spark of Life
 LBIS:AddItem(spec, "44322", LBIS.L["Trinket"], "Alt") --Mercurial Alchemist Stone
 LBIS:AddItem(spec, "37835", LBIS.L["Trinket"], "Alt") --Je'Tze's Bell
 LBIS:AddItem(spec, "42988", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Illusion
+LBIS:AddItem(spec, "44254", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "49078", LBIS.L["Trinket"], "Alt") --Ancient Pickled Egg
 LBIS:AddItem(spec, "40685", LBIS.L["Trinket"], "Alt") --The Egg of Mortal Essence
-LBIS:AddItem(spec, "36972", LBIS.L["Trinket"], "Alt") --Tome of Arcane Phenomena
 
 LBIS:AddItem(spec, "37169", LBIS.L["Main Hand"], "BIS") --War Mace of Unrequited Love
 LBIS:AddItem(spec, "41384", LBIS.L["Main Hand"], "BIS") --Titansteel Guardian
@@ -97,3 +97,4 @@ LBIS:AddItem(spec, "44210", LBIS.L["Off Hand"], "Alt") --Faces of Doom
 
 LBIS:AddItem(spec, "33508", LBIS.L["Idol"], "BIS") --Idol of Budding Life
 LBIS:AddItem(spec, "25643", LBIS.L["Idol"], "Alt") --Harold's Rejuvenating Broach
+LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "Alt") --Idol of the Raven Goddess

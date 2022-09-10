@@ -14,6 +14,7 @@ LBIS:AddItem(spec, "34194", LBIS.L["Shoulder"], "Alt") --Mantle of the Golden Fo
 
 LBIS:AddItem(spec, "43406", LBIS.L["Back"], "BIS") --Cloak of the Gushing Wound
 LBIS:AddItem(spec, "43566", LBIS.L["Back"], "Alt") --Ice Striker's Cloak
+LBIS:AddItem(spec, "34241", LBIS.L["Back"], "Alt") --Cloak of Unforgivable Sin
 LBIS:AddItem(spec, "36947", LBIS.L["Back"], "Alt") --Centrifuge Core Cloak
 LBIS:AddItem(spec, "44216", LBIS.L["Back"], "Alt") --Cloak of Holy Extermination
 

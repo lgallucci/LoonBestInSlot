@@ -32,8 +32,7 @@ LBIS:AddItem(spec, "34370", LBIS.L["Hands"], "BIS") --Gloves of Immortal Dusk
 LBIS:AddItem(spec, "37363", LBIS.L["Hands"], "Alt") --Gauntlets of Dragon Wrath
 
 LBIS:AddItem(spec, "40692", LBIS.L["Waist"], "BIS") --Vereesa's Silver Chain Belt
-LBIS:AddItem(spec, "34558", LBIS.L["Waist"], "BIS") --Slayer's Belt
-LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Vanquisher
+LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "BIS") --Jorach's Crocolisk Skin Belt
 LBIS:AddItem(spec, "40688", LBIS.L["Waist"], "BIS") --Verdungo's Barbarian Cord
 LBIS:AddItem(spec, "34485", LBIS.L["Waist"], "Alt") --Lightbringer Girdle
 
