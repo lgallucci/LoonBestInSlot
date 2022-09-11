@@ -65,10 +65,9 @@ LBIS:AddItem(spec, "39470", LBIS.L["Neck"], "Alt Mit") --Medallion of the Disgra
 LBIS:AddItem(spec, "44660", LBIS.L["Neck"], "Alt") --Drakescale Collar
 LBIS:AddItem(spec, "40069", LBIS.L["Neck"], "Alt") --Heritage
 
-LBIS:AddItem(spec, "40107", LBIS.L["Ring"], "Alt") --Sand-Worn Band
-LBIS:AddItem(spec, "40370", LBIS.L["Ring"], "Alt Mit") --Gatekeeper
+LBIS:AddItem(spec, "40107", LBIS.L["Ring"], "BIS") --Sand-Worn Band
+LBIS:AddItem(spec, "40370", LBIS.L["Ring"], "BIS Mit") --Gatekeeper
 LBIS:AddItem(spec, "40718", LBIS.L["Ring"], "Alt Thrt") --Signet of the Impregnable Fortress
-LBIS:AddItem(spec, "34213", LBIS.L["Ring"], "BIS") --Ring of Hardened Resolve
 LBIS:AddItem(spec, "40426", LBIS.L["Ring"], "Alt") --Signet of the Accord
 LBIS:AddItem(spec, "39141", LBIS.L["Ring"], "Alt") --Deflection Band
 
