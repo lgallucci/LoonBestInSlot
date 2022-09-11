@@ -60,10 +60,11 @@ LBIS:AddItem(spec, "37723", LBIS.L["Trinket"], "Alt") --Incisor Fragment
 LBIS:AddItem(spec, "34472", LBIS.L["Trinket"], "Alt") --Shard of Contempt
 LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "Alt") --Berserker's Call
 
+LBIS:AddItem(spec, "41257", LBIS.L["Two Hand"], "BIS") --Titansteel Destroyer
+LBIS:AddItem(spec, "37852", LBIS.L["Two Hand"], "Alt") --Colossal Skull-Clad Cleaver
+
 LBIS:AddItem(spec, "41383", LBIS.L["Main Hand"], "BIS") --Titansteel Bonecrusher
-LBIS:AddItem(spec, "41257", LBIS.L["Main Hand"], "BIS") --Titansteel Destroyer
 LBIS:AddItem(spec, "44250", LBIS.L["Main Hand"], "Alt") --Reaper of Dark Souls
-LBIS:AddItem(spec, "37852", LBIS.L["Main Hand"], "Alt") --Colossal Skull-Clad Cleaver
 LBIS:AddItem(spec, "37235", LBIS.L["Main Hand"], "Alt") --Crypt Lord's Deft Blade
 LBIS:AddItem(spec, "37871", LBIS.L["Main Hand"], "Alt") --The Key
 
