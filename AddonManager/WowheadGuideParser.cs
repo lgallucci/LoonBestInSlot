@@ -1,8 +1,4 @@
-﻿using System.IO;
-using System.Linq;
-using System.Net.Http;
-using System.Windows.Controls;
-using System.Windows.Documents;
+﻿using System.Net.Http;
 using AddonManager.Models;
 using AngleSharp;
 using AngleSharp.Dom;
@@ -181,7 +177,7 @@ public class WowheadGuideParser
                 altText = $" {tankSwap.Value}";
                 break;
             }
-        return bisText + altText;
+        return bisText.Trim() + altText;
     }
 
     private void ParseItemCell(INode itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items)

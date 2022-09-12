@@ -31,7 +31,6 @@ LBIS:AddItem(spec, "40575", LBIS.L["Hands"], "Alt") --Valorous Redemption Gauntl
 LBIS:AddItem(spec, "40628", LBIS.L["Hands"], "Alt") --Gauntlets of the Lost Conqueror
 LBIS:AddItem(spec, "39634", LBIS.L["Hands"], "Alt") --Heroes' Redemption Gauntlets
 LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "Alt") --Gloves of the Lost Conqueror
-LBIS:AddItem(spec, "34370", LBIS.L["Hands"], "Alt") --Gloves of Immortal Dusk
 
 LBIS:AddItem(spec, "40278", LBIS.L["Waist"], "BIS") --Girdle of Chivalry
 LBIS:AddItem(spec, "40205", LBIS.L["Waist"], "BIS") --Stalk-Skin Belt
