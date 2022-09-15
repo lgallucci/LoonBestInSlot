@@ -74,8 +74,12 @@ alSources["pvpWarsong"] = LBIS.L["Warsong Gulch Marks"];
 alSources["pvpAlterac"] = LBIS.L["Alterac Vally Marks"];
 alSources["pvpEye"] = LBIS.L["Eye of the Storm Marks"];
 alSources["arena"] = LBIS.L["Arena Points"];
+alSources["EmblemOfValor"] = LBIS.L["Emblem of Valor"];
+alSources["EmblemOfHeroism"] = LBIS.L["Emblem of Heroism"];
+
 
 local function getVendorText(vendorText, sourceLocationText)
+    local sourceText;
     local source1, source1Amount, source2, source2Amount, source3, source3Amount = strsplit(":", vendorText)
 
     if source1 ~= nil and source1 ~= "" and alSources[source1] ~= nil then
@@ -94,6 +98,7 @@ local function getVendorText(vendorText, sourceLocationText)
     if sourceLocationText ~= "" then
         sourceText = sourceText.." - "..sourceLocationText;    
     end
+    return sourceText;
 end
 
 local function printSource(itemId, specItemSource, dl)
@@ -104,14 +109,14 @@ local function printSource(itemId, specItemSource, dl)
     local sourceNumberText = specItemSource.SourceNumber;
     local sourceLocationText = specItemSource.SourceLocation;
 
-    if VendorPrice ~= nil then
-        local vendorText = VendorPrice.GetVendorPriceForItem(tonumber(itemId));
+    --if VendorPrice ~= nil then
+    --    local vendorText = VendorPrice.GetVendorPriceForItem(tonumber(itemId));
         
-        if vendorText ~= nil then
-            dl:SetText(getVendorText(vendorText, sourceLocationText))
-			return
-        end
-    end
+    --    if vendorText ~= nil then
+    --        dl:SetText(getVendorText(vendorText, sourceLocationText))
+	--		return
+    --    end
+    --end
 
     local sourceText1, sourceText2, sourceText3 = strsplit("/", sourceText);
     local sourceNumberText1, sourceNumberText2, sourceNumberText3 = strsplit("/", sourceNumberText);
