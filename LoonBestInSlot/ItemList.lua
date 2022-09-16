@@ -267,7 +267,7 @@ local function createItemRow(f, specItem, specItemSource)
     LBIS:GetItemInfo(specItem.Id, function(item)
         local t, b, d, dl = nil, nil, nil, nil;
         local window = LBIS.BrowserWindow.Window;
-                            
+
         if item == nil or item.Id == nil or item.Link == nil or item.Type == nil then
             LBIS:Error("Failed Load: "..specItem.Id);
             failedLoad = true;

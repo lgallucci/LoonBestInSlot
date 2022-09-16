@@ -37,7 +37,7 @@ local deleted_windows = {};
 function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, point, rowFunc)
     local window = LBIS.BrowserWindow.Window;
     local spacing = 1;
-    local name = specItemSource.Name.."_frame_"..specItem.Id;
+    local name = LBISSettings.SelectedSpec.."_"..specItemSource.Name.."_"..specItem.Id;
     local f, l = nil, nil;
     local reusing = false;
     
@@ -52,7 +52,7 @@ function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, point, rowFu
         end
     end
     
-    if not reusing then
+    if not reusing then        
         f = CreateFrame("Frame", name, window.Container);
 
         rowFunc(f, specItem, specItemSource);
