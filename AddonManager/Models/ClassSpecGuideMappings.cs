@@ -304,6 +304,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-gems+.box~.box~.box", "Gem"),
             new GuideMapping("h2#best-gems+.box~.box~.box~.box", "Gem"),
             new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box", "Gem"),
+            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box~.box", "Gem"),
 
             new GuideMapping("h2#best-enchants~.box", "Head"),
             new GuideMapping("h2#best-enchants~.box~.box", "Shoulder"),
@@ -320,39 +321,39 @@ public class ClassSpecGuideMappings
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/feral-druid-dps-best-in-slot-gear-pre-raid",
             "Cat", "Druid", "Phase0", new List<GuideMapping>
         {
-            new GuideMapping("#head", "Head"),
-            new GuideMapping("#shoulders", "Shoulder"),
-            new GuideMapping("#back", "Back"),
-            new GuideMapping("#chest", "Chest"),
-            new GuideMapping("#wrist", "Wrist"),
-            new GuideMapping("#hands", "Hands"),
-            new GuideMapping("#waist", "Waist"),
-            new GuideMapping("#legs", "Legs"),
-            new GuideMapping("#feet", "Feet"),
-            new GuideMapping("#neck", "Neck"),
-            new GuideMapping("#rings", "Ring"),
-            new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#weapons~h4", "Two Hand"),
-            new GuideMapping("#idols", "Idol")
+            new GuideMapping("#head-for-feral-druid-dps-pre-raid", "Head"),
+            new GuideMapping("#shoulders-for-feral-druid-dps-pre-raid", "Shoulder"),
+            new GuideMapping("#back-for-feral-druid-dps-pre-raid", "Back"),
+            new GuideMapping("#chest-for-feral-druid-dps-pre-raid", "Chest"),
+            new GuideMapping("#wrist-for-feral-druid-dps-pre-raid", "Wrist"),
+            new GuideMapping("#hands-for-feral-druid-dps-pre-raid", "Hands"),
+            new GuideMapping("#waist-for-feral-druid-dps-pre-raid", "Waist"),
+            new GuideMapping("#legs-for-feral-druid-dps-pre-raid", "Legs"),
+            new GuideMapping("#feet-for-feral-druid-dps-pre-raid", "Feet"),
+            new GuideMapping("#neck-for-feral-druid-dps-pre-raid", "Neck"),
+            new GuideMapping("#rings-for-feral-druid-dps-pre-raid", "Ring"),
+            new GuideMapping("#trinkets-for-feral-druid-dps-pre-raid", "Trinket"),
+            new GuideMapping("#weapons-for-feral-druid-dps-pre-raid", "Two Hand"),
+            new GuideMapping("#idols-for-feral-druid-dps-pre-raid", "Idol")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/feral-druid-dps-best-in-slot-gear-phase-1",
             "Cat", "Druid", "Phase1", new List<GuideMapping>
         {
-            new GuideMapping("#head", "Head"),
-            new GuideMapping("#shoulders", "Shoulder"),
-            new GuideMapping("#back", "Back"),
-            new GuideMapping("#chest", "Chest"),
-            new GuideMapping("#wrist", "Wrist"),
-            new GuideMapping("#hands", "Hands"),
-            new GuideMapping("#waist", "Waist"),
-            new GuideMapping("#legs", "Legs"),
-            new GuideMapping("#feet", "Feet"),
-            new GuideMapping("#neck", "Neck"),
-            new GuideMapping("#rings", "Ring"),
-            new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#weapons~h4", "Two Hand"),
-            new GuideMapping("#idols", "Idol")
+            new GuideMapping("#head-for-feral-druid-dps-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-feral-druid-dps-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-feral-druid-dps-phase-1", "Back"),
+            new GuideMapping("#chest-for-feral-druid-dps-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-feral-druid-dps-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-feral-druid-dps-phase-1", "Hands"),
+            new GuideMapping("#waist-for-feral-druid-dps-phase-1", "Waist"),
+            new GuideMapping("#legs-for-feral-druid-dps-phase-1", "Legs"),
+            new GuideMapping("#feet-for-feral-druid-dps-phase-1", "Feet"),
+            new GuideMapping("#neck-for-feral-druid-dps-phase-1", "Neck"),
+            new GuideMapping("#rings-for-feral-druid-dps-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-feral-druid-dps-phase-1", "Trinket"),
+            new GuideMapping("#weapons-for-feral-druid-dps-phase-1", "Two Hand"),
+            new GuideMapping("#idols-for-feral-druid-dps-phase-1", "Idol")
         }));
         #endregion
 
@@ -381,39 +382,39 @@ public class ClassSpecGuideMappings
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/feral-druid-tank-best-in-slot-gear-pre-raid",
             "Bear", "Druid", "Phase0", new List<GuideMapping>
         {
-            new GuideMapping("#head", "Head"),
-            new GuideMapping("#shoulders", "Shoulder"),
-            new GuideMapping("#back", "Back"),
-            new GuideMapping("#chest", "Chest"),
-            new GuideMapping("#wrist", "Wrist"),
-            new GuideMapping("#hands", "Hands"),
-            new GuideMapping("#waist", "Waist"),
-            new GuideMapping("#legs", "Legs"),
-            new GuideMapping("#feet", "Feet"),
-            new GuideMapping("#neck", "Neck"),
-            new GuideMapping("#rings", "Ring"),
-            new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#weapons~h4", "Two Hand"),
-            new GuideMapping("#idols", "Idol")
+            new GuideMapping("#head-for-feral-druid-dps-pre-raid", "Head"),
+            new GuideMapping("#shoulders-for-feral-druid-tank-pre-raid", "Shoulder"),
+            new GuideMapping("#back-for-feral-druid-tank-pre-raid", "Back"),
+            new GuideMapping("#chest-for-feral-druid-tank-pre-raid", "Chest"),
+            new GuideMapping("#wrist-for-feral-druid-tank-pre-raid", "Wrist"),
+            new GuideMapping("#hands-for-feral-druid-tank-pre-raid", "Hands"),
+            new GuideMapping("#waist-for-feral-druid-tank-pre-raid", "Waist"),
+            new GuideMapping("#legs-for-feral-druid-tank-pre-raid", "Legs"),
+            new GuideMapping("#feet-for-feral-druid-tank-pre-raid", "Feet"),
+            new GuideMapping("#neck-for-feral-druid-tank-pre-raid", "Neck"),
+            new GuideMapping("#rings-for-feral-druid-tank-pre-raid", "Ring"),
+            new GuideMapping("#trinkets-for-feral-druid-tank-pre-raid", "Trinket"),
+            new GuideMapping("#weapons-for-feral-druid-tank-pre-raid", "Two Hand"),
+            new GuideMapping("#idols-for-feral-druid-tank-pre-raid", "Idol")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/feral-druid-tank-best-in-slot-gear-phase-1",
             "Bear", "Druid", "Phase1", new List<GuideMapping>
         {
-            new GuideMapping("#head", "Head"),
-            new GuideMapping("#shoulders", "Shoulder"),
-            new GuideMapping("#back", "Back"),
-            new GuideMapping("#chest", "Chest"),
-            new GuideMapping("#wrist", "Wrist"),
-            new GuideMapping("#hands", "Hands"),
-            new GuideMapping("#waist", "Waist"),
-            new GuideMapping("#legs", "Legs"),
-            new GuideMapping("#feet", "Feet"),
-            new GuideMapping("#neck", "Neck"),
-            new GuideMapping("#rings", "Ring"),
-            new GuideMapping("#trinkets", "Trinket"),
-            new GuideMapping("#weapons~h4", "Two Hand"),
-            new GuideMapping("#idols", "Idol")
+            new GuideMapping("#head-for-feral-druid-tank-phase-1", "Head"),
+            new GuideMapping("#shoulders-for-feral-druid-tank-phase-1", "Shoulder"),
+            new GuideMapping("#back-for-feral-druid-tank-phase-1", "Back"),
+            new GuideMapping("#chest-for-feral-druid-tank-phase-1", "Chest"),
+            new GuideMapping("#wrist-for-feral-druid-tank-phase-1", "Wrist"),
+            new GuideMapping("#hands-for-feral-druid-tank-phase-1", "Hands"),
+            new GuideMapping("#waist-for-feral-druid-tank-phase-1", "Waist"),
+            new GuideMapping("#legs-for-feral-druid-tank-phase-1", "Legs"),
+            new GuideMapping("#feet-for-feral-druid-tank-phase-1", "Feet"),
+            new GuideMapping("#neck-for-feral-druid-tank-phase-1", "Neck"),
+            new GuideMapping("#rings-for-feral-druid-tank-phase-1", "Ring"),
+            new GuideMapping("#trinkets-for-feral-druid-tank-phase-1", "Trinket"),
+            new GuideMapping("#weapons-for-feral-druid-tank-phase-1", "Two Hand"),
+            new GuideMapping("#idols-for-feral-druid-tank-phase-1", "Idol")
         }));
         #endregion
 

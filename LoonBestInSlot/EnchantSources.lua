@@ -1,5 +1,6 @@
 LBIS.EnchantSources =
 {
+    [25072] = { Name = "Enchant Gloves - Threat", DesignId = "33153", Source = LBIS.L["Almaador"], SourceLocation = LBIS.L["The Sha'tar (Exalted)"], IsSpell = "True" },
     [25080] = { Name = "Enchant Gloves - Superior Agility", DesignId = "33152", Source = LBIS.L["Alurmi"], SourceLocation = LBIS.L["Keepers of Time (Exalted)"], IsSpell = "True" },
     [27906] = { Name = "Enchant Bracer - Major Defense", DesignId = "22530", Source = LBIS.L["Ethereum Nullifier"], SourceLocation = LBIS.L["Netherstorm"], IsSpell = "True" },
     [27914] = { Name = "Enchant Bracer - Fortitude", DesignId = "22533", Source = LBIS.L["Coilfang Oracle"], SourceLocation = LBIS.L["The Steamvault"], IsSpell = "True" },
@@ -23,6 +24,7 @@ LBIS.EnchantSources =
     [44129] = { Name = "Lesser Inscription of the Storm", DesignId = "0", Source = LBIS.L["Lillehoff"], SourceLocation = LBIS.L["The Sons of Hodir (Honored)"], IsSpell = "False" },
     [44131] = { Name = "Lesser Inscription of the Axe", DesignId = "0", Source = LBIS.L["Lillehoff"], SourceLocation = LBIS.L["The Sons of Hodir (Honored)"], IsSpell = "False" },
     [44133] = { Name = "Greater Inscription of the Axe", DesignId = "0", Source = LBIS.L["Lillehoff"], SourceLocation = LBIS.L["The Sons of Hodir (Exalted)"], IsSpell = "False" },
+    [44149] = { Name = "Arcanum of Torment", DesignId = "0", Source = LBIS.L["Duchess Mynx"], SourceLocation = LBIS.L["Knights of the Ebon Blade (Revered)"], IsSpell = "False" },
     [44484] = { Name = "Enchant Gloves - Expertise", DesignId = "0", Source = LBIS.L["Grand Master Enchanting Trainer"], SourceLocation = "", IsSpell = "True" },
     [44488] = { Name = "Enchant Gloves - Precision", DesignId = "0", Source = LBIS.L["Grand Master Enchanting Trainer"], SourceLocation = "", IsSpell = "True" },
     [44508] = { Name = "Enchant Boots - Greater Spirit", DesignId = "0", Source = LBIS.L["Grand Master Enchanting Trainer"], SourceLocation = "", IsSpell = "True" },
