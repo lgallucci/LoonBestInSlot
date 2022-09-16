@@ -40,7 +40,7 @@ LBIS:AddItem(spec, "40362", LBIS.L["Hands"], "Alt") --Gloves of Fast Reactions
 LBIS:AddItem(spec, "39727", LBIS.L["Hands"], "Alt") --Dislocating Handguards
 LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "Alt") --Frosted Adroit Handguards
 
-LBIS:AddItem(spec, "43591", LBIS.L["Waist"], "BIS") --Polar Cord
+LBIS:AddItem(spec, "43591", LBIS.L["Waist"], "BIS Mit") --Polar Cord
 LBIS:AddItem(spec, "40260", LBIS.L["Waist"], "BIS Thrt") --Belt of the Tortured
 LBIS:AddItem(spec, "41831", LBIS.L["Waist"], "Alt") --Deadly Gladiator's Belt of Triumph
 LBIS:AddItem(spec, "37194", LBIS.L["Waist"], "Alt") --Sharp-Barbed Leather Belt
@@ -67,21 +67,21 @@ LBIS:AddItem(spec, "42646", LBIS.L["Neck"], "Alt") --Titanium Earthguard Chain
 LBIS:AddItem(spec, "39246", LBIS.L["Neck"], "Alt") --Amulet of Autopsy
 
 LBIS:AddItem(spec, "40370", LBIS.L["Ring"], "BIS") --Gatekeeper
-LBIS:AddItem(spec, "37784", LBIS.L["Ring"], "BIS") --Keystone Great-Ring
+LBIS:AddItem(spec, "37784", LBIS.L["Ring"], "BIS Mit") --Keystone Great-Ring
 LBIS:AddItem(spec, "43993", LBIS.L["Ring"], "BIS Thrt") --Greatring of Collision
-LBIS:AddItem(spec, "40718", LBIS.L["Ring"], "Alt") --Signet of the Impregnable Fortress
+LBIS:AddItem(spec, "40718", LBIS.L["Ring"], "Alt Mit") --Signet of the Impregnable Fortress
 LBIS:AddItem(spec, "40074", LBIS.L["Ring"], "Alt Thrt") --Strong-Handed Ring
-LBIS:AddItem(spec, "43582", LBIS.L["Ring"], "Alt") --Titanium Frostguard Ring
+LBIS:AddItem(spec, "43582", LBIS.L["Ring"], "Alt Mit") --Titanium Frostguard Ring
 LBIS:AddItem(spec, "40717", LBIS.L["Ring"], "Alt Thrt") --Ring of Invincibility
 
-LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "BIS") --Figurine - Monarch Crab
-LBIS:AddItem(spec, "44253", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
+LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "BIS Mit") --Figurine - Monarch Crab
+LBIS:AddItem(spec, "44253", LBIS.L["Trinket"], "BIS Mit") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS Thrt") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "40767", LBIS.L["Trinket"], "BIS Thrt") --Sonic Booster
 LBIS:AddItem(spec, "42341", LBIS.L["Trinket"], "BIS") --Figurine - Ruby Hare
 LBIS:AddItem(spec, "40257", LBIS.L["Trinket"], "Alt") --Defender's Code
 
-LBIS:AddItem(spec, "40280", LBIS.L["Two Hand"], "BIS") --Origin of Nightmares
+LBIS:AddItem(spec, "40280", LBIS.L["Two Hand"], "BIS Mit") --Origin of Nightmares
 LBIS:AddItem(spec, "40388", LBIS.L["Two Hand"], "BIS Thrt") --Journey's End
 LBIS:AddItem(spec, "40233", LBIS.L["Two Hand"], "Alt") --The Undeath Carrier
 LBIS:AddItem(spec, "39422", LBIS.L["Two Hand"], "Alt") --Staff of the Plaguehound

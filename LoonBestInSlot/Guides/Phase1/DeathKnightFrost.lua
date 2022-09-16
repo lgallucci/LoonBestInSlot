@@ -62,8 +62,8 @@ LBIS:AddItem(spec, "44935", LBIS.L["Ring"], "Alt") --Ring of the Kirin Tor
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "40431", LBIS.L["Trinket"], "BIS") --Fury of the Five Flights
 LBIS:AddItem(spec, "40256", LBIS.L["Trinket"], "BIS") --Grim Toll
+LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "Alt") --Mirror of Truth
 LBIS:AddItem(spec, "39257", LBIS.L["Trinket"], "Alt") --Loatheb's Shadow
-LBIS:AddItem(spec, "37390", LBIS.L["Trinket"], "Alt") --Meteorite Whetstone
 
 LBIS:AddItem(spec, "40189", LBIS.L["Main Hand"], "BIS") --Angry Dread
 LBIS:AddItem(spec, "42208", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Cleaver
