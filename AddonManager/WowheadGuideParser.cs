@@ -13,7 +13,7 @@ public class WowheadGuideParser
 {
     public static HttpClient httpClient = new HttpClient();
 
-    private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of the Tiger", "of Agility" };
+    private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of the Tiger", "of Agility", "of the Squire" };
 
     private Random _rand = new Random(DateTime.Now.Millisecond);
 
@@ -202,7 +202,9 @@ public class WowheadGuideParser
 
                     bool skippedItem = false;
                     foreach (var excludedName in excludedItemNames)
-                        if (child.NextSibling?.TextContent.Trim().EndsWith(excludedName) ?? false || itemName.EndsWith(excludedName))
+                        if ((child.NextSibling?.TextContent.Trim().EndsWith(excludedName) ?? false) || 
+                            (child.NextSibling?.NextSibling?.TextContent.Trim().EndsWith(excludedName) ?? false) || 
+                            itemName.EndsWith(excludedName))
                             skippedItem = true;
 
                     if (!skippedItem)

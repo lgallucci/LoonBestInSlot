@@ -10,6 +10,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Alchemy"] = "鍊金術";
 --  LBIS.L["All"] = "";
   LBIS.L["Alliance Vanguard/Horde Expedition (Revered)"] = "聯盟先鋒/部落遠征軍 (崇敬)";
+--  LBIS.L["Almaador"] = "";
 --  LBIS.L["Alterac Vally Marks"] = "";
 --  LBIS.L["Alurmi"] = "";
 --  LBIS.L["Amal'thazad"] = "";
@@ -94,6 +95,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Fedryen Swiftspear"] = "";
   LBIS.L["Feet"] = "腳";
   LBIS.L["Fire"] = "火焰";
+  LBIS.L["Fishing"] = "釣魚";
   LBIS.L["For Posterity"] = "為了後代子孫";
   LBIS.L["Frenzyheart Tribe"] = "狂心部族";
   LBIS.L["Frost"] = "冰霜";
@@ -187,6 +189,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Moorabi"] = "慕拉比";
   LBIS.L["Moragg"] = "摩拉革";
   LBIS.L["Moroes"] = "摩洛斯";
+  LBIS.L["My Old Enemy"] = "我的宿敵";
   LBIS.L["Mystery of the Infinite, Redux"] = "恆龍之謎，復甦";
   LBIS.L["Naxxramas"] = "納克薩瑪斯";
   LBIS.L["Naxxramas (10)"] = "納克薩瑪斯 (10)";
@@ -263,6 +266,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["The Eye of Eternity (25)"] = "永恆之眼 (25)";
 --  LBIS.L["The Fate of Bloodbane"] = "";
 --  LBIS.L["The Flesh Giant Champion"] = "";
+  LBIS.L["The Forsaken Blight"] = "被遺忘者荒疫";
   LBIS.L["The Four Horsemen"] = "四騎士";
   LBIS.L["The Gifts of Loken"] = "洛肯的賜禮";
 --  LBIS.L["The Kalu'ak'"] = "";
@@ -279,6 +283,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["The Prophet Tharon'ja"] = "預言者薩隆杰";
   LBIS.L["The Reckoning"] = "終末交鋒";
   LBIS.L["The Ruby Sanctum"] = "晶紅聖所";
+  LBIS.L["The Sha'tar (Exalted)"] = "薩塔 (崇拜)";
   LBIS.L["The Sons of Hodir"] = "霍迪爾之子";
   LBIS.L["The Sons of Hodir (Exalted)"] = "霍迪爾之子 (崇拜)";
   LBIS.L["The Sons of Hodir (Honored)"] = "霍迪爾之子 (尊敬)";
@@ -293,6 +298,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["They Took Our Men!"] = "他們把男人抓走了!";
 --  LBIS.L["Tiffany Cartier"] = "";
 --  LBIS.L["Timothy Jones"] = "";
+--  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
 --  LBIS.L["Token"] = "";
   LBIS.L["Totem"] = "圖騰";

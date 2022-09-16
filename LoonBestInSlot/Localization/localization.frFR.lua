@@ -10,6 +10,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Alchemy"] = "Alchimie";
 --  LBIS.L["All"] = "";
   LBIS.L["Alliance Vanguard/Horde Expedition (Revered)"] = "Avant-garde de l'Alliance/Expédition de la Horde (Révéré)";
+--  LBIS.L["Almaador"] = "";
 --  LBIS.L["Alterac Vally Marks"] = "";
 --  LBIS.L["Alurmi"] = "";
 --  LBIS.L["Amal'thazad"] = "";
@@ -94,6 +95,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Fedryen Swiftspear"] = "";
   LBIS.L["Feet"] = "Pieds";
   LBIS.L["Fire"] = "Feu";
+  LBIS.L["Fishing"] = "Pêche";
   LBIS.L["For Posterity"] = "Pour la postérité";
   LBIS.L["Frenzyheart Tribe"] = "Tribu Frénécœur";
   LBIS.L["Frost"] = "Givre";
@@ -187,6 +189,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Moorabi"] = "Moorabi";
   LBIS.L["Moragg"] = "Moragg";
   LBIS.L["Moroes"] = "Moroes";
+  LBIS.L["My Old Enemy"] = "Ma vieille ennemie";
   LBIS.L["Mystery of the Infinite, Redux"] = "Mystère de l'infini, le retour";
   LBIS.L["Naxxramas"] = "Naxxramas";
   LBIS.L["Naxxramas (10)"] = "Naxxramas (10)";
@@ -263,6 +266,7 @@ if GetLocale() == "frFR" then
   LBIS.L["The Eye of Eternity (25)"] = "L’Œil de l’éternité (25)";
 --  LBIS.L["The Fate of Bloodbane"] = "";
 --  LBIS.L["The Flesh Giant Champion"] = "";
+  LBIS.L["The Forsaken Blight"] = "La flétrissure des Réprouvés";
   LBIS.L["The Four Horsemen"] = "Les quatre cavaliers";
   LBIS.L["The Gifts of Loken"] = "Les cadeaux de Loken";
 --  LBIS.L["The Kalu'ak'"] = "";
@@ -279,6 +283,7 @@ if GetLocale() == "frFR" then
   LBIS.L["The Prophet Tharon'ja"] = "Le prophète Tharon'ja";
   LBIS.L["The Reckoning"] = "Le châtiment";
   LBIS.L["The Ruby Sanctum"] = "Le sanctum Rubis";
+  LBIS.L["The Sha'tar (Exalted)"] = "Sha'tar (Exalté)";
   LBIS.L["The Sons of Hodir"] = "Fils de Hodir";
   LBIS.L["The Sons of Hodir (Exalted)"] = "Fils de Hodir (Exalté)";
   LBIS.L["The Sons of Hodir (Honored)"] = "Fils de Hodir (Honoré)";
@@ -293,6 +298,7 @@ if GetLocale() == "frFR" then
   LBIS.L["They Took Our Men!"] = "Elles ont pris nos hommes !";
 --  LBIS.L["Tiffany Cartier"] = "";
 --  LBIS.L["Timothy Jones"] = "";
+--  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
 --  LBIS.L["Token"] = "";
   LBIS.L["Totem"] = "Totem";

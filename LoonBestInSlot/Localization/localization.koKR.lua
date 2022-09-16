@@ -10,6 +10,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Alchemy"] = "연금술";
 --  LBIS.L["All"] = "";
   LBIS.L["Alliance Vanguard/Horde Expedition (Revered)"] = "얼라이언스 선봉대/호드 원정대 (매우 우호적)";
+--  LBIS.L["Almaador"] = "";
 --  LBIS.L["Alterac Vally Marks"] = "";
 --  LBIS.L["Alurmi"] = "";
 --  LBIS.L["Amal'thazad"] = "";
@@ -94,6 +95,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Fedryen Swiftspear"] = "";
   LBIS.L["Feet"] = "발";
   LBIS.L["Fire"] = "화염";
+  LBIS.L["Fishing"] = "낚시";
   LBIS.L["For Posterity"] = "후손을 위하여";
   LBIS.L["Frenzyheart Tribe"] = "광란심장 일족";
   LBIS.L["Frost"] = "냉기";
@@ -187,6 +189,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Moorabi"] = "무라비";
   LBIS.L["Moragg"] = "모라그";
   LBIS.L["Moroes"] = "모로스 <집사>";
+  LBIS.L["My Old Enemy"] = "오랜 적수";
   LBIS.L["Mystery of the Infinite, Redux"] = "돌아온 무한의 비밀";
   LBIS.L["Naxxramas"] = "낙스라마스";
   LBIS.L["Naxxramas (10)"] = "낙스라마스 (10)";
@@ -263,6 +266,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Eye of Eternity (25)"] = "영원의 눈 (25)";
 --  LBIS.L["The Fate of Bloodbane"] = "";
 --  LBIS.L["The Flesh Giant Champion"] = "";
+  LBIS.L["The Forsaken Blight"] = "포세이큰 파멸의 역병";
   LBIS.L["The Four Horsemen"] = "4인의 기병대";
   LBIS.L["The Gifts of Loken"] = "로켄의 선물";
 --  LBIS.L["The Kalu'ak'"] = "";
@@ -279,6 +283,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Prophet Tharon'ja"] = "예언자 타론자";
   LBIS.L["The Reckoning"] = "심판";
   LBIS.L["The Ruby Sanctum"] = "루비 성소";
+  LBIS.L["The Sha'tar (Exalted)"] = "샤타르 (확고한 동맹)";
   LBIS.L["The Sons of Hodir"] = "호디르의 후예";
   LBIS.L["The Sons of Hodir (Exalted)"] = "호디르의 후예 (확고한 동맹)";
   LBIS.L["The Sons of Hodir (Honored)"] = "호디르의 후예 (우호적)";
@@ -293,6 +298,7 @@ if GetLocale() == "koKR" then
   LBIS.L["They Took Our Men!"] = "남자가 모자라!";
 --  LBIS.L["Tiffany Cartier"] = "";
 --  LBIS.L["Timothy Jones"] = "";
+--  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
 --  LBIS.L["Token"] = "";
   LBIS.L["Totem"] = "토템";
