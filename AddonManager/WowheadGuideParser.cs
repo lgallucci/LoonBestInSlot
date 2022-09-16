@@ -80,7 +80,7 @@ public class WowheadGuideParser
     private Dictionary<string, string> _tankAltTextSwaps = new Dictionary<string, string>()
     {
         { "stam", "Stam" },
-        { "mit", "Mit" },
+        { "mitigation", "Mit" },
         { "def", "Mit" },
         { "armor", "Mit" },
         { "dodge", "Mit" },

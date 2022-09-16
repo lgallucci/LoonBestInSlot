@@ -3,7 +3,6 @@ local spec = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Frost"], "0")
 LBIS:AddItem(spec, "41386", LBIS.L["Head"], "BIS") --Spiked Titansteel Helm
 LBIS:AddItem(spec, "42552", LBIS.L["Head"], "Alt") --Charged Titanium Specs
 LBIS:AddItem(spec, "37237", LBIS.L["Head"], "Alt") --Chitin Shell Greathelm
-LBIS:AddItem(spec, "37293", LBIS.L["Head"], "Alt") --Mask of the Watcher
 
 LBIS:AddItem(spec, "34388", LBIS.L["Shoulder"], "BIS") --Pauldrons of Berserking
 LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "Transmute BIS") --Pauldrons of Perseverance
@@ -53,9 +52,9 @@ LBIS:AddItem(spec, "37624", LBIS.L["Ring"], "Alt") --Stained-Glass Shard Ring
 LBIS:AddItem(spec, "37151", LBIS.L["Ring"], "Alt") --Band of Frosted Thorns
 
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
-LBIS:AddItem(spec, "37390", LBIS.L["Trinket"], "BIS") --Meteorite Whetstone
+LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
+LBIS:AddItem(spec, "37390", LBIS.L["Trinket"], "Alt") --Meteorite Whetstone
 LBIS:AddItem(spec, "37723", LBIS.L["Trinket"], "Alt") --Incisor Fragment
-LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "Alt") --Mirror of Truth
 LBIS:AddItem(spec, "34472", LBIS.L["Trinket"], "Alt") --Shard of Contempt
 LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "Alt") --Berserker's Call
 

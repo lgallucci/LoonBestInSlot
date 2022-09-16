@@ -1,4 +1,6 @@
-﻿namespace AddonManager.Models;
+﻿using System.Runtime.Intrinsics.X86;
+
+namespace AddonManager.Models;
 
 public class ItemSpec
 {
@@ -18,6 +20,13 @@ public class ItemSpec
     public List<Tuple<string, string>> Replacements = new List<Tuple<string, string>>
     {
         new ("-", ""),
+        new (".", ""),
+        new ("(", ""),
+        new (")", ""),
+        new ("&", ""),
+        new ("4", ""),
+        new ("26", ""),
+        new ("25", ""),
         new ("bis", "BIS"),
         new ("Recommended", "BIS"),
         new ("Best in slot", "BIS"),
@@ -84,13 +93,13 @@ public class ItemSpec
         new ("above", ""),
         new ("below", ""),
         new ("cap", ""),
+        new ("less", ""),
+        new ("cleave", ""),
+        new ("on", ""),
+        new ("use", ""),
 
         new ("ss", ""),
 
-        new ("( )", ""),
-        new ("()", ""),
-
-        new ("Mit", ""),
         new ("Mitigation", ""),
         new ("Avoidance", ""),
         new ("Threat", ""),
@@ -100,6 +109,7 @@ public class ItemSpec
         new ("alt bis", "Alt"),
         new ("bis alt", "BIS"),
         new ("alt alt", "Alt"),
+        new ("mit alt", "Alt Mit"),
         new ("alt  ", "Alt "),
     };
 
