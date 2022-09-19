@@ -38,6 +38,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Battle at Valhalas: Final Challenge"] = "英靈殿之戰:最後的挑戰";
 --  LBIS.L["Bear"] = "";
   LBIS.L["Beast Mastery"] = "野獸控制";
+  LBIS.L["Betrayal"] = "背叛";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Blacksmithing"] = "鍛造";
   LBIS.L["Blood"] = "血魄";

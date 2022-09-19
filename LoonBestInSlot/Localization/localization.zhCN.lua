@@ -38,6 +38,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Battle at Valhalas: Final Challenge"] = "瓦哈拉斯之战：终极挑战";
 --  LBIS.L["Bear"] = "";
   LBIS.L["Beast Mastery"] = "野兽控制";
+  LBIS.L["Betrayal"] = "背叛";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Blacksmithing"] = "锻造";
   LBIS.L["Blood"] = "鲜血";

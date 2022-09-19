@@ -38,6 +38,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Battle at Valhalas: Final Challenge"] = "Du rififi au Valhalas : l'ultime défi";
 --  LBIS.L["Bear"] = "";
   LBIS.L["Beast Mastery"] = "Maîtrise des bêtes";
+  LBIS.L["Betrayal"] = "Trahison";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Blacksmithing"] = "Forge";
   LBIS.L["Blood"] = "Sang";
