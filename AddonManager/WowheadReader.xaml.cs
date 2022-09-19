@@ -468,10 +468,9 @@ public partial class WowheadReader : Window
                             csvLootTable[item.Key].InstanceName += $"..\"/\"..{tokenItem.SourceLocation}";
                         if (csvLootTable[item.Key].SourceName != tokenItem.Source)
                             csvLootTable[item.Key].SourceName += $"..\"/\"..{tokenItem.Source}";
-                        if (csvLootTable[item.Key].SourceNumber != tokenItem.SourceNumber)
-                            csvLootTable[item.Key].SourceNumber += $"/{tokenItem.SourceNumber}";
                         if (csvLootTable[item.Key].SourceType != tokenItem.SourceType)
                             csvLootTable[item.Key].SourceType += $"..\"/\"..{tokenItem.SourceType}";
+                        csvLootTable[item.Key].SourceNumber += $"/{tokenItem.SourceNumber}";
                     }
                     else
                     {
@@ -494,10 +493,9 @@ public partial class WowheadReader : Window
                     csvLootTable[item.Key].InstanceName += $"..\"/\"..{item.Value.SourceLocation}";
                 if (csvLootTable[item.Key].SourceName != item.Value.Source)
                     csvLootTable[item.Key].SourceName += $"..\"/\"..{item.Value.Source}";
-                if (csvLootTable[item.Key].SourceNumber != item.Value.SourceNumber)
-                    csvLootTable[item.Key].SourceNumber += $"/{item.Value.SourceNumber}";
                 if (csvLootTable[item.Key].SourceType != item.Value.SourceType)
                     csvLootTable[item.Key].SourceType += $"..\"/\"..{item.Value.SourceType}";
+                csvLootTable[item.Key].SourceNumber += $"/{item.Value.SourceNumber}";
             }
             else
             {

@@ -1,9 +1,7 @@
 LBIS.ItemList = {};
 
 local VendorPrice = AtlasLoot.Data.VendorPrice;
---TODO: Show Profession Icon & Tooltip so you can see mats
 --TODO: Show Guild members with each pattern (PIE IN THE SKY)
---TODO: Fix Gluth Item Sources (He Seems to drop all tier pieces)
 local itemSlotOrder = {}
 itemSlotOrder[LBIS.L["Head"]] = 0;
 itemSlotOrder[LBIS.L["Shoulder"]] = 1;
