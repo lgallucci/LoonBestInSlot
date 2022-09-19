@@ -3686,14 +3686,14 @@
             "Name": "Deadly Gladiator's Dragonhide Gloves",
             "Source": "LBIS.L[\"Archavon the Stone Watcher\"]..\"/\"..LBIS.L[\"Emalon the Storm Watcher\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "LBIS.L[\"Vault of Archavon (25)\"]..\"/\"..LBIS.L[\"Vault of Archavon (10)\"]"
         },
         "41666": {
             "Name": "Deadly Gladiator's Dragonhide Legguards",
             "Source": "LBIS.L[\"Archavon the Stone Watcher\"]..\"/\"..LBIS.L[\"Emalon the Storm Watcher\"]",
             "SourceType": "LBIS.L[\"Drop\"]",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "LBIS.L[\"Vault of Archavon (25)\"]..\"/\"..LBIS.L[\"Vault of Archavon (10)\"]"
         },
         "41309": {
