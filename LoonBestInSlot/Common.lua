@@ -177,7 +177,11 @@ function LBIS:SetTooltipOnButton(b, item, isSpell)
     b:SetScript("OnClick", 
         function(self, button)
             if button == "LeftButton" then
-                HandleModifiedItemClick(item.Link);
+                if isSpell then
+                    HandleModifiedItemClick(GetSpellLink(item.Id));
+                else
+                    HandleModifiedItemClick(item.Link);
+                end
             end
         end
     );

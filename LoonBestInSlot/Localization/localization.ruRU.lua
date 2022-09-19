@@ -191,6 +191,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Moroes"] = "Мороуз";
   LBIS.L["My Old Enemy"] = "Мой старый враг";
   LBIS.L["Mystery of the Infinite, Redux"] = "Тайна бесконечности, мания преследования";
+--  LBIS.L["Nascent Val'kyr"] = "";
   LBIS.L["Naxxramas"] = "Наксрамас";
   LBIS.L["Naxxramas (10)"] = "Наксрамас (10)";
   LBIS.L["Naxxramas (25)"] = "Наксрамас (25)";
@@ -334,7 +335,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Wintergrasp Marks"] = "";
 --  LBIS.L["Wintergrasp Quartermaster"] = "";
 --  LBIS.L["World Drop"] = "";
---  LBIS.L["World Drop (Nascent Val'kyr)"] = "";
 --  LBIS.L["World Drop (Skoll)"] = "";
   LBIS.L["Wrist"] = "Запястья";
   LBIS.L["Xevozz"] = "Ксевозз";

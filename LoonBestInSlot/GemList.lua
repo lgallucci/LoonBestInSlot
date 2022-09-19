@@ -1,5 +1,5 @@
 LBIS.GemList = {};
-
+--TODO: Show profession only items
 local function itemSortFunction(table, k1, k2)
 
     local item1 = table[k1];

@@ -191,6 +191,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Moroes"] = "Moroes";
   LBIS.L["My Old Enemy"] = "Ma vieille ennemie";
   LBIS.L["Mystery of the Infinite, Redux"] = "Mystère de l'infini, le retour";
+--  LBIS.L["Nascent Val'kyr"] = "";
   LBIS.L["Naxxramas"] = "Naxxramas";
   LBIS.L["Naxxramas (10)"] = "Naxxramas (10)";
   LBIS.L["Naxxramas (25)"] = "Naxxramas (25)";
@@ -334,7 +335,6 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Wintergrasp Marks"] = "";
 --  LBIS.L["Wintergrasp Quartermaster"] = "";
 --  LBIS.L["World Drop"] = "";
---  LBIS.L["World Drop (Nascent Val'kyr)"] = "";
 --  LBIS.L["World Drop (Skoll)"] = "";
   LBIS.L["Wrist"] = "Poignets";
   LBIS.L["Xevozz"] = "Xevozz";

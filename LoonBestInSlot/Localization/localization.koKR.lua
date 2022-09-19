@@ -191,6 +191,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Moroes"] = "모로스 <집사>";
   LBIS.L["My Old Enemy"] = "오랜 적수";
   LBIS.L["Mystery of the Infinite, Redux"] = "돌아온 무한의 비밀";
+--  LBIS.L["Nascent Val'kyr"] = "";
   LBIS.L["Naxxramas"] = "낙스라마스";
   LBIS.L["Naxxramas (10)"] = "낙스라마스 (10)";
   LBIS.L["Naxxramas (25)"] = "낙스라마스 (25)";
@@ -334,7 +335,6 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Wintergrasp Marks"] = "";
 --  LBIS.L["Wintergrasp Quartermaster"] = "";
 --  LBIS.L["World Drop"] = "";
---  LBIS.L["World Drop (Nascent Val'kyr)"] = "";
 --  LBIS.L["World Drop (Skoll)"] = "";
   LBIS.L["Wrist"] = "손목";
   LBIS.L["Xevozz"] = "제보즈";

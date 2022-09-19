@@ -191,6 +191,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Moroes"] = "莫罗斯";
   LBIS.L["My Old Enemy"] = "我的老对手";
   LBIS.L["Mystery of the Infinite, Redux"] = "永恒之龙的秘密，再来一次";
+--  LBIS.L["Nascent Val'kyr"] = "";
   LBIS.L["Naxxramas"] = "纳克萨玛斯";
   LBIS.L["Naxxramas (10)"] = "纳克萨玛斯 (10)";
   LBIS.L["Naxxramas (25)"] = "纳克萨玛斯 (25)";
@@ -334,7 +335,6 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Wintergrasp Marks"] = "";
 --  LBIS.L["Wintergrasp Quartermaster"] = "";
 --  LBIS.L["World Drop"] = "";
---  LBIS.L["World Drop (Nascent Val'kyr)"] = "";
 --  LBIS.L["World Drop (Skoll)"] = "";
   LBIS.L["Wrist"] = "手腕";
   LBIS.L["Xevozz"] = "谢沃兹";

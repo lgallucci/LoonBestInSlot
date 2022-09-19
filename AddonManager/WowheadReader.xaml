@@ -17,7 +17,7 @@
         <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="450,10,0,10" VerticalAlignment="Top" Click="Cancel_Click"/>
 
         <Button x:Name="btnLocalize" Content="Localize" Margin="10,10,90,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Localize_Click"/>
-        <Button x:Name="btnRefreshItems" Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Update_Click"/>
+        <Button x:Name="btnRefreshItems" Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Refresh_Click"/>
 
         <Button x:Name="btnConverters" Content="Converters" Margin="10,10,145,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Converters_Click"/>
         <Button x:Name="btnVerify" Content="Verify" Margin="10,10,215,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Verify_Click"/>

@@ -15,7 +15,7 @@ namespace AddonManager;
 public partial class WowheadReader : Window
 {
     public string[] SpecList = {"DeathKnightBlood", "DeathKnightFrost", "DeathKnightUnholy", "DruidBalance", "DruidBear", "DruidCat", "DruidRestoration",
-                                "HunterBeastMastery", "HunterMarksmanship", "HunterSurvival", "MageFrost", "MageFire", "MageArcane", "PaladinHoly", "PaladinProtection",
+                                "HunterBeastMastery", "HunterMarksmanship", "HunterSurvival", "MageArcane", "MageFrost", "MageFire", "PaladinHoly", "PaladinProtection",
                                 "PaladinRetribution", "PriestHoly","PriestDiscipline", "PriestShadow", "RogueAssassination", "RogueSubtlety", "RogueCombat",
                                 "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAffliction", "WarlockDemonology", "WarlockDestruction", "WarriorArms",
                                 "WarriorFury", "WarriorProtection"};
@@ -176,7 +176,7 @@ public partial class WowheadReader : Window
         converters.Show();
     }
 
-    private void Update_Click(object sender, RoutedEventArgs e)
+    private void Refresh_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = string.Empty;
 
@@ -455,6 +455,39 @@ public partial class WowheadReader : Window
     {
         foreach (var item in dbItem.Items)
         {
+            bool foundTierPiece = TierPiecesAndTokens.TierPieces.TryGetValue(item.Key, out (int, String) tierPiece);
+
+            if (foundTierPiece)
+            {
+                bool foundTiertoken = dbItem.Items.TryGetValue(tierPiece.Item1, out DatabaseItem? tokenItem);
+                if (foundTiertoken)
+                {
+                    if (csvLootTable.ContainsKey(item.Key))
+                    {
+                        if (csvLootTable[item.Key].InstanceName != tokenItem.SourceLocation)
+                            csvLootTable[item.Key].InstanceName += $"..\"/\"..{tokenItem.SourceLocation}";
+                        if (csvLootTable[item.Key].SourceName != tokenItem.Source)
+                            csvLootTable[item.Key].SourceName += $"..\"/\"..{tokenItem.Source}";
+                        if (csvLootTable[item.Key].SourceNumber != tokenItem.SourceNumber)
+                            csvLootTable[item.Key].SourceNumber += $"/{tokenItem.SourceNumber}";
+                        if (csvLootTable[item.Key].SourceType != tokenItem.SourceType)
+                            csvLootTable[item.Key].SourceType += $"..\"/\"..{tokenItem.SourceType}";
+                    }
+                    else
+                    {
+                        csvLootTable.Add(item.Key, new CsvLootTable
+                        {
+                            ItemId = item.Key,
+                            SourceType = tokenItem.SourceType,
+                            ItemName = tokenItem.Name,
+                            InstanceName = tokenItem.SourceLocation,
+                            SourceName = tokenItem.Source,
+                            SourceNumber = tokenItem.SourceNumber
+                        });
+                    }
+                }
+            }
+
             if (csvLootTable.ContainsKey(item.Key))
             {
                 if (csvLootTable[item.Key].InstanceName != item.Value.SourceLocation)

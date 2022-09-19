@@ -1,5 +1,5 @@
 LBIS.EnchantList = {};
-
+--TODO: Show profession only items
 local itemSlotOrder = {}
 itemSlotOrder[LBIS.L["Head"]] = 0;
 itemSlotOrder[LBIS.L["Shoulder"]] = 1;
