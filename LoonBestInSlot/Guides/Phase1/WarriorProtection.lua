@@ -66,7 +66,6 @@ LBIS:AddItem(spec, "39234", LBIS.L["Feet"], "Alt") --Plague-Impervious Boots
 
 LBIS:AddItem(spec, "40387", LBIS.L["Neck"], "BIS") --Boundless Ambition
 LBIS:AddItem(spec, "44665", LBIS.L["Neck"], "Alt") --Nexus War Champion Beads
-LBIS:AddItem(spec, "42646", LBIS.L["Neck"], "Alt") --Titanium Earthguard Chain
 LBIS:AddItem(spec, "39246", LBIS.L["Neck"], "Alt") --Amulet of Autopsy
 LBIS:AddItem(spec, "40069", LBIS.L["Neck"], "Alt") --Heritage
 LBIS:AddItem(spec, "44660", LBIS.L["Neck"], "Alt") --Drakescale Collar
@@ -74,7 +73,6 @@ LBIS:AddItem(spec, "39470", LBIS.L["Neck"], "Alt") --Medallion of the Disgraced
 
 LBIS:AddItem(spec, "40370", LBIS.L["Ring"], "BIS") --Gatekeeper
 LBIS:AddItem(spec, "40718", LBIS.L["Ring"], "Alt Mit") --Signet of the Impregnable Fortress
-LBIS:AddItem(spec, "37784", LBIS.L["Ring"], "Alt") --Keystone Great-Ring
 LBIS:AddItem(spec, "40426", LBIS.L["Ring"], "Alt") --Signet of the Accord
 LBIS:AddItem(spec, "34213", LBIS.L["Ring"], "Alt") --Ring of Hardened Resolve
 LBIS:AddItem(spec, "40107", LBIS.L["Ring"], "Alt") --Sand-Worn Band
@@ -96,3 +94,4 @@ LBIS:AddItem(spec, "40266", LBIS.L["Shield"], "Alt") --Hero's Surrender
 LBIS:AddItem(spec, "39276", LBIS.L["Shield"], "Alt") --The Skull of Ruin
 
 LBIS:AddItem(spec, "41168", LBIS.L["Ranged"], "BIS") --Armor Plated Combat Shotgun
+LBIS:AddItem(spec, "35590", LBIS.L["Ranged"], "Alt") --Drakkari Hunting Bow
