@@ -47,6 +47,7 @@ LBIS.GemSources =
     [40119] = { Name = "Solid Majestic Zircon", DesignId = "46924", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [40123] = { Name = "Brilliant King's Amber", DesignId = "46930", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [40125] = { Name = "Rigid King's Amber", DesignId = "46928", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
+    [40126] = { Name = "Thick King's Amber", DesignId = "46931", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [40128] = { Name = "Quick King's Amber", DesignId = "46933", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [40129] = { Name = "Sovereign Dreadstone", DesignId = "46935", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [40133] = { Name = "Purified Dreadstone", DesignId = "46937", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },

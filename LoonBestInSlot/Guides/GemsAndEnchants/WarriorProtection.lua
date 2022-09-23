@@ -10,7 +10,10 @@ LBIS:AddGem(spec3, "45880", "4", "False") --Solid Stormjewel
 LBIS:AddGem(spec, "40034", "3", "False") --Guardian's Twilight Opal
 LBIS:AddGem(spec, "49110", "4", "False") --Nightmare Tear
 LBIS:AddGem(spec3, "40141", "4", "False") --Guardian's Dreadstone
+LBIS:AddGem(spec, "42702", "3", "False") --Enchanted Tear
+LBIS:AddGem(spec, "40015", "3", "False") --Thick Autumn's Glow
 LBIS:AddGem(spec, "40089", "3", "False") --Enduring Forest Emerald
+LBIS:AddGem(spec3, "40126", "4", "False") --Thick King's Amber
 LBIS:AddGem(spec3, "40167", "4", "False") --Enduring Eye of Zul
 LBIS:AddGem(spec, "40088", "3", "False") --Vivid Forest Emerald
 LBIS:AddGem(spec3, "40166", "4", "False") --Vivid Eye of Zul
@@ -23,18 +26,17 @@ LBIS:AddEnchant(spec, "44957", LBIS.L["Shoulder"]) --Greater Inscription of the 
 
 LBIS:AddEnchant(spec, "55002", LBIS.L["Back"]) --Flexweave Underlay
 LBIS:AddEnchant(spec, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
-LBIS:AddEnchant(spec, "47672", LBIS.L["Back"]) --Enchant Cloak - Mighty Armor
 LBIS:AddEnchant(spec, "44591", LBIS.L["Back"]) --Enchant Cloak - Titanweave
 
 LBIS:AddEnchant(spec, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
-LBIS:AddEnchant(spec, "47900", LBIS.L["Chest"]) --Enchant Chest - Super Health
 LBIS:AddEnchant(spec, "47766", LBIS.L["Chest"]) --Enchant Chest - Greater Defense
 
 LBIS:AddEnchant(spec, "62256", LBIS.L["Wrist"]) --Enchant Bracers - Major Stamina
 
 LBIS:AddEnchant(spec, "63770", LBIS.L["Hands"]) --Reticulated Armor Webbing
-LBIS:AddEnchant(spec, "44770", LBIS.L["Hands"]) --Glove Reinforcements
+LBIS:AddEnchant(spec, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
 LBIS:AddEnchant(spec, "50963", LBIS.L["Hands"]) --Heavy Borean Armor Kit
+LBIS:AddEnchant(spec, "44488", LBIS.L["Hands"]) --Enchant Gloves - Precision
 LBIS:AddEnchant(spec, "44625", LBIS.L["Hands"]) --Enchant Gloves - Armsman
 
 LBIS:AddEnchant(spec, "50965", LBIS.L["Legs"]) --Frosthide Leg Armor
@@ -45,8 +47,8 @@ LBIS:AddEnchant(spec, "55016", LBIS.L["Feet"]) --Nitro Boosts
 
 LBIS:AddEnchant(spec, "59636", LBIS.L["Ring"]) --Enchant Ring - Stamina
 
+LBIS:AddEnchant(spec, "59619", LBIS.L["Main Hand"]) --Enchant Weapon - Accuracy
 LBIS:AddEnchant(spec, "27984", LBIS.L["Main Hand"]) --Enchant Weapon - Mongoose
-LBIS:AddEnchant(spec, "64579", LBIS.L["Main Hand"]) --Enchant Weapon - Blood Draining
 
 LBIS:AddEnchant(spec, "62202", LBIS.L["Off Hand"]) --Titanium Plating
 LBIS:AddEnchant(spec, "34009", LBIS.L["Off Hand"]) --Enchant Shield - Major Stamina

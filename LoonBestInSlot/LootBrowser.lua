@@ -41,6 +41,7 @@ function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, point, rowFu
     local f, l = nil, nil;
     local reusing = false;
     
+    --TODO: MAKE THIS FASTER WHEN THERES TONS OF FRAMES !
     -- attempting to reuse a previous child frame if it exists 
     -- (which should include the previously created fontstring and button)
     if(next(deleted_windows) ~= nil) then

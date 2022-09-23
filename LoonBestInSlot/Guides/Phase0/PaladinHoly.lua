@@ -58,10 +58,12 @@ LBIS:AddItem(spec, "40585", LBIS.L["Ring"], "Alt") --Signet of the Kirin Tor
 LBIS:AddItem(spec, "37694", LBIS.L["Ring"], "Alt") --Band of Guile
 LBIS:AddItem(spec, "37192", LBIS.L["Ring"], "Alt") --Annhylde's Ring
 
-LBIS:AddItem(spec, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
 LBIS:AddItem(spec, "44255", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
+LBIS:AddItem(spec, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
 LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "Alt") --Figurine - Sapphire Owl
 LBIS:AddItem(spec, "28823", LBIS.L["Trinket"], "Alt") --Eye of Gruul
+LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "Alt") --Spark of Life
+LBIS:AddItem(spec, "44322", LBIS.L["Trinket"], "Alt") --Mercurial Alchemist Stone
 
 LBIS:AddItem(spec, "37169", LBIS.L["Main Hand"], "BIS") --War Mace of Unrequited Love
 LBIS:AddItem(spec, "41384", LBIS.L["Main Hand"], "Alt") --Titansteel Guardian

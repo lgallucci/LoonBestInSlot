@@ -20,7 +20,7 @@ LBIS:AddItem(spec, "44303", LBIS.L["Chest"], "Alt") --Darkheart Chestguard
 LBIS:AddItem(spec, "37612", LBIS.L["Chest"], "Alt") --Bonegrinder Breastplate
 
 LBIS:AddItem(spec, "41355", LBIS.L["Wrist"], "BIS") --Vengeance Bindings
-LBIS:AddItem(spec, "44203", LBIS.L["Wrist"], "Alt") --Dragonfriend Bracers
+LBIS:AddItem(spec, "44203", LBIS.L["Wrist"], "BIS") --Dragonfriend Bracers
 LBIS:AddItem(spec, "37853", LBIS.L["Wrist"], "Alt") --Advanced Tooled-Leather Bands
 
 LBIS:AddItem(spec, "39609", LBIS.L["Hands"], "BIS") --Heroes' Dreadnaught Gauntlets

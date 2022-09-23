@@ -102,12 +102,14 @@ public class ItemSpec
         new ("on", ""),
         new ("use", ""),
         new ("low", ""),
+        new ("without", ""),
         new ("with", ""),
         new ("up", ""),
 
         new ("2.5", ""),
         new ("2.6", ""),
         new ("4", ""),
+        new ("7", ""),
 
         new ("alt bis", "Alt"),
         new ("bis alt", "BIS"),

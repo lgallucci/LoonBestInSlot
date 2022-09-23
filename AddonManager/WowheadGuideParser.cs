@@ -25,6 +25,7 @@ public class WowheadGuideParser
         { 40119, 3 },
         { 40123, 3 },
         { 40125, 3 },
+        { 40126, 3 },
         { 40128, 3 },
         { 40129, 3 },
         { 40133, 3 },
@@ -39,6 +40,7 @@ public class WowheadGuideParser
         { 40166, 3 },
         { 40167, 3 },
         { 45880, 3 }
+
     };
 
     private Dictionary<int, int> _enchantSwaps = new Dictionary<int, int>()

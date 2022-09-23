@@ -18,10 +18,10 @@ LBIS:AddItem(spec, "34241", LBIS.L["Back"], "Alt") --Cloak of Unforgivable Sin
 LBIS:AddItem(spec, "36947", LBIS.L["Back"], "Alt") --Centrifuge Core Cloak
 LBIS:AddItem(spec, "44216", LBIS.L["Back"], "Alt") --Cloak of Holy Extermination
 
-LBIS:AddItem(spec, "44295", LBIS.L["Chest"], "BIS") --Polished Regimental Hauberk
+LBIS:AddItem(spec, "39579", LBIS.L["Chest"], "BIS") --Heroes' Cryptstalker Tunic
+LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Protector
+LBIS:AddItem(spec, "44295", LBIS.L["Chest"], "Alt") --Polished Regimental Hauberk
 LBIS:AddItem(spec, "37144", LBIS.L["Chest"], "Alt") --Hauberk of the Arcane Wraith
-LBIS:AddItem(spec, "39579", LBIS.L["Chest"], "Alt") --Heroes' Cryptstalker Tunic
-LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Protector
 LBIS:AddItem(spec, "37800", LBIS.L["Chest"], "Alt") --Aviary Guardsman's Hauberk
 LBIS:AddItem(spec, "37165", LBIS.L["Chest"], "Alt") --Crystal-Infused Tunic
 
@@ -31,9 +31,9 @@ LBIS:AddItem(spec, "43131", LBIS.L["Wrist"], "Alt") --Eaglebane Bracers
 LBIS:AddItem(spec, "40490", LBIS.L["Wrist"], "Alt") --Necromantic Wristguards
 LBIS:AddItem(spec, "37656", LBIS.L["Wrist"], "Alt") --Raging Construct Bands
 
-LBIS:AddItem(spec, "37886", LBIS.L["Hands"], "BIS") --Handgrips of the Savage Emissary
-LBIS:AddItem(spec, "39582", LBIS.L["Hands"], "Alt") --Heroes' Cryptstalker Handguards
-LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
+LBIS:AddItem(spec, "39582", LBIS.L["Hands"], "BIS") --Heroes' Cryptstalker Handguards
+LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "BIS") --Gloves of the Lost Protector
+LBIS:AddItem(spec, "37886", LBIS.L["Hands"], "Alt") --Handgrips of the Savage Emissary
 LBIS:AddItem(spec, "37639", LBIS.L["Hands"], "Alt") --Grips of the Beast God
 LBIS:AddItem(spec, "37614", LBIS.L["Hands"], "Alt") --Gauntlets of the Plundering Geist
 
