@@ -69,8 +69,9 @@ LBIS:AddItem(spec, "44283", LBIS.L["Ring"], "Alt") --Signet of Hopeful Light
 LBIS:AddItem(spec, "40719", LBIS.L["Ring"], "Alt") --Band of Channeled Magic
 LBIS:AddItem(spec, "40720", LBIS.L["Ring"], "Alt") --Renewal of Life
 
-LBIS:AddItem(spec, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
 LBIS:AddItem(spec, "44255", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
+LBIS:AddItem(spec, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
+LBIS:AddItem(spec, "40382", LBIS.L["Trinket"], "Alt") --Soul of the Dead
 
 LBIS:AddItem(spec, "40395", LBIS.L["Main Hand"], "BIS") --Torch of Holy Fire
 LBIS:AddItem(spec, "40396", LBIS.L["Main Hand"], "BIS") --The Turning Tide
