@@ -1,7 +1,8 @@
 LBIS.ItemList = {};
 
-local VendorPrice = AtlasLoot.Data.VendorPrice;
+--local VendorPrice = AtlasLoot.Data.VendorPrice;
 --TODO: Show Guild members with each pattern (PIE IN THE SKY)
+--TODO: Fix atlasloot integration
 local itemSlotOrder = {}
 itemSlotOrder[LBIS.L["Head"]] = 0;
 itemSlotOrder[LBIS.L["Shoulder"]] = 1;

@@ -95,6 +95,7 @@ public class ItemSpec
         new ("below", ""),
         new ("cleave", ""),
         new ("less", ""),
+        new ("place", ""),
         new ("ss", ""),
         new ("to", ""),
         new ("for", ""),
