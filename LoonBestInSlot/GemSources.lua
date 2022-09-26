@@ -37,6 +37,7 @@ LBIS.GemSources =
     [40058] = { Name = "Accurate Monarch Topaz", DesignId = "41818", Source = LBIS.L["World Drop"], SourceLocation = LBIS.L["Mammoths - Storm Peaks"] },
     [40088] = { Name = "Vivid Forest Emerald", DesignId = "41698", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
     [40089] = { Name = "Enduring Forest Emerald", DesignId = "41697", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
+    [40090] = { Name = "Steady Forest Emerald", DesignId = "41738", Source = LBIS.L["Wintergrasp Quartermaster"], SourceLocation = LBIS.L["Wintergrasp"] },
     [40091] = { Name = "Forceful Forest Emerald", DesignId = "41693", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
     [40092] = { Name = "Seer's Forest Emerald", DesignId = "41699", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
     [40094] = { Name = "Dazzling Forest Emerald", DesignId = "0", Source = LBIS.L["Master Jewelcrafting Trainer"], SourceLocation = "" },

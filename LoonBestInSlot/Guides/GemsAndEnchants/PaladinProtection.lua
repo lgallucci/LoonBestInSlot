@@ -10,7 +10,7 @@ LBIS:AddGem(spec, "41377", "3", "True") --Effulgent Skyflare Diamond
 LBIS:AddGem(spec, "36767", "4", "False") --Solid Dragon's Eye
 LBIS:AddGem(spec, "40008", "3", "False") --Solid Sky Sapphire
 LBIS:AddGem(spec, "40089", "3", "False") --Enduring Forest Emerald
-LBIS:AddGem(spec, "40102", "3", "False") --Turbid Forest Emerald
+LBIS:AddGem(spec, "40090", "3", "False") --Steady Forest Emerald
 LBIS:AddGem(spec, "40088", "3", "False") --Vivid Forest Emerald
 LBIS:AddGem(spec, "40031", "3", "False") --Regal Twilight Opal
 LBIS:AddGem(spec, "40023", "3", "False") --Shifting Twilight Opal
