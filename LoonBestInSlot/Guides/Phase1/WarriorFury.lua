@@ -19,6 +19,7 @@ LBIS:AddItem(spec, "40250", LBIS.L["Back"], "BIS") --Aged Winter Cloak
 LBIS:AddItem(spec, "39404", LBIS.L["Back"], "Alt") --Cloak of Mastery
 LBIS:AddItem(spec, "37647", LBIS.L["Back"], "Alt") --Cloak of Bloodied Waters
 
+LBIS:AddItem(spec, "40539", LBIS.L["Chest"], "BIS") --Chestguard of the Recluse
 LBIS:AddItem(spec, "40525", LBIS.L["Chest"], "BIS") --Valorous Dreadnaught Battleplate
 LBIS:AddItem(spec, "40626", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Protector
 LBIS:AddItem(spec, "39606", LBIS.L["Chest"], "BIS") --Heroes' Dreadnaught Battleplate

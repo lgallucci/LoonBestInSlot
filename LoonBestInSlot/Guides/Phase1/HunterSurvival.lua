@@ -42,6 +42,7 @@ LBIS:AddItem(spec, "37407", LBIS.L["Waist"], "Alt") --Sovereign's Belt
 LBIS:AddItem(spec, "37648", LBIS.L["Waist"], "Alt") --Belt of Tasseled Lanterns
 
 LBIS:AddItem(spec, "40331", LBIS.L["Legs"], "BIS") --Leggings of Failed Escape
+LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "BIS") --Leggings of the Honored
 LBIS:AddItem(spec, "40201", LBIS.L["Legs"], "Alt") --Leggings of Colossal Strides
 LBIS:AddItem(spec, "37669", LBIS.L["Legs"], "Alt") --Leggings of the Stone Halls
 
