@@ -333,6 +333,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Wand"] = "마법봉";
   LBIS.L["Wanted: Ragemane's Flipper"] = "현상 수배: 맹위갈기의 물갈퀴";
 --  LBIS.L["Warsong Gulch Marks"] = "";
+  LBIS.L["Wintergrasp"] = "겨울손아귀 호수";
 --  LBIS.L["Wintergrasp Marks"] = "";
 --  LBIS.L["Wintergrasp Quartermaster"] = "";
 --  LBIS.L["World Drop"] = "";

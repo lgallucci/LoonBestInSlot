@@ -333,6 +333,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Wand"] = "Zauberstab";
   LBIS.L["Wanted: Ragemane's Flipper"] = "Gesucht: Rachmähnes Flosse";
   LBIS.L["Warsong Gulch Marks"] = "Spuren der Kriegshymnenschlucht";
+  LBIS.L["Wintergrasp"] = "Tausendwinter";
 --  LBIS.L["Wintergrasp Marks"] = "";
 --  LBIS.L["Wintergrasp Quartermaster"] = "";
   LBIS.L["World Drop"] = "Welttropfen";

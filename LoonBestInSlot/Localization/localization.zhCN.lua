@@ -333,6 +333,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Wand"] = "魔杖";
   LBIS.L["Wanted: Ragemane's Flipper"] = "悬赏：怒鬃的鳍肢";
 --  LBIS.L["Warsong Gulch Marks"] = "";
+  LBIS.L["Wintergrasp"] = "冬拥湖";
 --  LBIS.L["Wintergrasp Marks"] = "";
 --  LBIS.L["Wintergrasp Quartermaster"] = "";
 --  LBIS.L["World Drop"] = "";

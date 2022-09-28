@@ -333,6 +333,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Wand"] = "Жезл";
   LBIS.L["Wanted: Ragemane's Flipper"] = "Плавник Ярогрива";
 --  LBIS.L["Warsong Gulch Marks"] = "";
+  LBIS.L["Wintergrasp"] = "Озеро Ледяных Оков";
 --  LBIS.L["Wintergrasp Marks"] = "";
 --  LBIS.L["Wintergrasp Quartermaster"] = "";
 --  LBIS.L["World Drop"] = "";

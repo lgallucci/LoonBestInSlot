@@ -333,6 +333,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Wand"] = "Baguette";
   LBIS.L["Wanted: Ragemane's Flipper"] = "Avis de recherche : Nageoire de Crin-de-rage";
 --  LBIS.L["Warsong Gulch Marks"] = "";
+  LBIS.L["Wintergrasp"] = "Joug-d’Hiver";
 --  LBIS.L["Wintergrasp Marks"] = "";
 --  LBIS.L["Wintergrasp Quartermaster"] = "";
 --  LBIS.L["World Drop"] = "";

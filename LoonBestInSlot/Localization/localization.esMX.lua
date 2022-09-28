@@ -333,6 +333,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Wand"] = "Varita";
   LBIS.L["Wanted: Ragemane's Flipper"] = "Se busca: Aleta de Crines de Ira";
 --  LBIS.L["Warsong Gulch Marks"] = "";
+  LBIS.L["Wintergrasp"] = "Conquista del Invierno";
 --  LBIS.L["Wintergrasp Marks"] = "";
 --  LBIS.L["Wintergrasp Quartermaster"] = "";
 --  LBIS.L["World Drop"] = "";
