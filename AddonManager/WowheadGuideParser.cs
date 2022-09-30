@@ -376,7 +376,7 @@ public class WowheadGuideParser
                                     {
                                         GemId = itemId,
                                         Name = itemName ?? "undefined",
-                                        Phase = _gemPhases.ContainsKey(itemId) ? _gemPhases[itemId] : 0,
+                                        Phase = _gemPhases.ContainsKey(itemId) ? _gemPhases[itemId] : 1,
                                         Quality = itemQuality,
                                         IsMeta = heading.Slot == "Meta"
                                     });

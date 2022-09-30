@@ -60,7 +60,6 @@ public static class ItemSpecFileManager
     {
         var GAndESB = new StringBuilder();
 
-        GAndESB.AppendLine($"local spec = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"0\")");
         GAndESB.AppendLine($"local spec1 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"1\")");
         GAndESB.AppendLine($"local spec2 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"2\")");
         GAndESB.AppendLine($"local spec3 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"3\")");
@@ -81,7 +80,7 @@ public static class ItemSpecFileManager
         var previousSlot = "LBIS.L[\"Head\"]";
         foreach (var enchant in enchants)
         {
-            string specString = "spec";
+            string specString = "spec1";
 
             if (previousSlot != enchant.Value.Slot)
             {

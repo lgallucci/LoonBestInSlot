@@ -10,7 +10,7 @@ end
 local function buildExtraTip(tooltip, entry)
     local r,g,b = .9,.8,.5
     LibExtraTip:AddLine(tooltip," ",r,g,b,true)
-	LibExtraTip:AddLine(tooltip,LBIS.L["# Gear best for:"],r,g,b,true)
+	LibExtraTip:AddLine(tooltip,LBIS.L["# Best for:"],r,g,b,true)
 
 	local combinedTooltip = {};
 	local mageCount, warriorDpsCount, warlockCount = 0, 0, 0;
