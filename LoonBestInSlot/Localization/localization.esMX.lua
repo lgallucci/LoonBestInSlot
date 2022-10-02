@@ -1,5 +1,5 @@
 if GetLocale() == "esMX" then
---  LBIS.L["# Gear best for:"] = "";
+  LBIS.L["# Best for:"] = "# Mejor para";
 --  LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "";
 --  LBIS.L["10000 Honor (PvP)"] = " (JcJ)";
   LBIS.L["A Wing and a Prayer"] = "Un ala y una oración";

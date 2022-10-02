@@ -1,5 +1,5 @@
 if GetLocale() == "ruRU" then
---  LBIS.L["# Gear best for:"] = "";
+  LBIS.L["# Best for:"] = "# Лучшее для";
 --  LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "";
 --  LBIS.L["10000 Honor (PvP)"] = " (PvP)";
   LBIS.L["A Wing and a Prayer"] = "Высокие ставки";

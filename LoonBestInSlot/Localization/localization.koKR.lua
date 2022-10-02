@@ -1,5 +1,5 @@
 if GetLocale() == "koKR" then
---  LBIS.L["# Gear best for:"] = "";
+  LBIS.L["# Best for:"] = "# 최고";
 --  LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "";
 --  LBIS.L["10000 Honor (PvP)"] = " (PvP)";
   LBIS.L["A Wing and a Prayer"] = "기도는 날개를 타고";

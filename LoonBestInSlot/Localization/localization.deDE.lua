@@ -1,5 +1,5 @@
 if GetLocale() == "deDE" then
-  LBIS.L["# Gear best for:"] = "# Ausrüstung am besten für:";
+  LBIS.L["# Best for:"] = "# Beste für";
   LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "|cFF9CD6DELinks Klick|r: Browserfenster öffnen";
 --  LBIS.L["10000 Honor (PvP)"] = " (PvP)";
   LBIS.L["A Wing and a Prayer"] = "Schlacht in den Wolken";
