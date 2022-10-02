@@ -123,17 +123,12 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 			searchedItem.Bis = bis;
 		end
 
-		if searchedItem.Phase == "0" then
+		local firstNumber, lastNumber = LBIS:GetPhaseNumbers(searchedItem.Phase);
+
+		if tonumber(bisEntry.Phase) > tonumber(lastNumber) then
+			searchedItem.Phase = firstNumber..">"..bisEntry.Phase;
+		else
 			searchedItem.Phase = bisEntry.Phase;
-		else 
-
-			local firstNumber, lastNumber = LBIS:GetPhaseNumbers(searchedItem.Phase);
-
-			if tonumber(bisEntry.Phase) > tonumber(lastNumber) then
-				searchedItem.Phase = firstNumber..">"..bisEntry.Phase;
-			else
-				searchedItem.Phase = bisEntry.Phase;
-			end
 		end
 	end
 

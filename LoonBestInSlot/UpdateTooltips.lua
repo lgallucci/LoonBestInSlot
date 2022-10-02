@@ -80,11 +80,9 @@ local function buildExtraTip(tooltip, entry)
         if v.Phase == "0" then
             LibExtraTip:AddDoubleLine(tooltip, classfontstring .. " " .. v.Class .. " " .. v.Spec, v.Bis, color.r, color.g, color.b, color.r, color.g, color.b, true)
         else
-            LibExtraTip:AddDoubleLine(tooltip, classfontstring .. " " .. v.Class .. " " .. v.Spec, v.Bis.." "..v.Phase, color.r, color.g, color.b, color.r, color.g, color.b, true)
-        end
-		
-	end
-	
+            LibExtraTip:AddDoubleLine(tooltip, classfontstring .. " " .. v.Class .. " " .. v.Spec, v.Bis.." "..string.gsub(v.Phase, "0", "P"), color.r, color.g, color.b, color.r, color.g, color.b, true)
+        end		
+	end	
 end
 
 local function onTooltipSetItem(tooltip, itemLink, quantity)

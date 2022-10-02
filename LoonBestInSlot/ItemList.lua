@@ -183,7 +183,7 @@ local function IsInPhase(specItem, specItemSource)
         return false;
     elseif LBISSettings.SelectedPhase == LBIS.L["All"] and specItem.Phase ~= "0" then
         return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["PreRaid"] and specItem.Phase == "0" then
+    elseif LBISSettings.SelectedPhase == LBIS.L["PreRaid"] and FindInPhase(specItem.Phase, "0") then
         return true;
     elseif LBISSettings.SelectedPhase == LBIS.L["Phase 1"] and FindInPhase(specItem.Phase, "1") then
         return true;
@@ -299,7 +299,7 @@ local function createItemRow(f, specItem, specItemSource)
         if specItem.Phase == "0" then
             pt:SetText("("..specItem.Bis..")");
         else
-            pt:SetText("("..specItem.Bis.." "..specItem.Phase..")");
+            pt:SetText("("..specItem.Bis.." "..string.gsub(specItem.Phase, "0", "PreRaid")..")");
         end
         pt:SetPoint("TOPLEFT", t, "TOPRIGHT", 4, 4);
 
