@@ -9,12 +9,6 @@ function LBIS:PreCacheItems()
             LBIS:CacheItem(itemId);
         end
     end
-
-    for spellId, _ in pairs(LBIS.Spells) do
-        if spellId and spellId ~= 0 then
-            LBIS:CacheSpell(spellId);
-        end
-    end
     return LBIS.AllItemsCached;
 end
 
@@ -30,22 +24,6 @@ function LBIS:ReCacheItem(itemId)
     LBIS:GetItemInfo(itemId, function(cacheItem)
         if not cacheItem or cacheItem.Name == nil then
             LBIS:Error("Failed to cache ("..itemId.."): ", cacheItem);
-        end
-    end);
-end
-
-function LBIS:CacheSpell(spellId)
-    LBIS:GetSpellInfo(spellId, function(cacheSpell)
-        if not cacheSpell or cacheSpell.Name == nil then
-            LBIS:ReCacheSpell(spellId)
-        end
-    end);
-end
-
-function LBIS:ReCacheSpell(spellId)
-    LBIS:GetSpellInfo(spellId, function(cacheSpell)
-        if not cacheSpell or cacheSpell.Name == nil then
-            LBIS:Error("Failed to cache ("..spellId.."): ", cacheSpell);
         end
     end);
 end

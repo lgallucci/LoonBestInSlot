@@ -38,12 +38,6 @@ local function itemSortFunction(table, k1, k2)
         item2Score = item2Score +  1000;
     end
 
-    local _, lastNumber1 = LBIS:GetPhaseNumbers(item1.Phase)
-    local _, lastNumber2 = LBIS:GetPhaseNumbers(item2.Phase)
-
-    item1Score = item1Score + lastNumber1;
-    item2Score = item2Score + lastNumber2;
-
     if item1Score == item2Score then
         return item1.Id > item2.Id;
     else

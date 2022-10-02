@@ -146,11 +146,11 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 		LBIS:Error("Couldn't find item source for: ", id);
 	end
 
-	if itemSource.SourceType == LBIS.L["Profession"] and tonumber(itemSource.SourceLocation) ~= nil and tonumber(itemSource.SourceLocation) > 0 then	
-		if not LBIS.Spells[itemSource.SourceLocation] then
-			LBIS.Spells[itemSource.SourceLocation] = {}
+	if itemSource.SourceType == LBIS.L["Profession"] and tonumber(itemSource.SourceNumber) ~= nil and tonumber(itemSource.SourceNumber) > 0 then	
+		if not LBIS.Items[itemSource.SourceNumber] then
+			LBIS.Items[itemSource.SourceNumber] = {}
 		end			
-		LBIS.Spells[itemSource.SourceLocation][bisEntry.Id] = item
+		LBIS.Items[itemSource.SourceNumber][bisEntry.Id] = searchedItem
 	end
 
 end
@@ -218,7 +218,7 @@ function LBIS:AddEnchant(bisEntry, id, slot)
 			LBIS.Items[id] = {}
 		end
 
-		LBIS.Items[id][bisEntry.Id] = { Id = id, Slot = slot, Phase = bisEntry.Phase, Bis = "" }		
+		LBIS.Items[id][bisEntry.Id] = { Id = id, Slot = slot, Phase = "", Bis = "" }		
 	else
 		if not LBIS.Spells[id] then
 			LBIS.Spells[id] = {}

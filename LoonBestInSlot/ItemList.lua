@@ -341,7 +341,7 @@ local function createItemRow(f, specItem, specItemSource)
                 tb:SetPoint("BOTTOMLEFT", dl, "BOTTOMRIGHT", 5, -2);
                 LBIS:SetTooltipOnButton(tb, professionSpell, true);
                 
-                dl:SetText(specItemSource.Source.."("..specItemSource.SourceNumber..")");
+                dl:SetText(specItemSource.Source);
                 dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
             end);
         else
