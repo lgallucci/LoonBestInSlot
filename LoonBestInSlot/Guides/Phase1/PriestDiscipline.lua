@@ -29,6 +29,7 @@ LBIS:AddItem(spec, "40253", LBIS.L["Back"], "Alt") --Shawl of the Old Maid
 LBIS:AddItem(spec, "40251", LBIS.L["Back"], "Alt") --Shroud of Luminosity
 LBIS:AddItem(spec, "40723", LBIS.L["Back"], "Alt") --Disguise of the Kumiho
 LBIS:AddItem(spec, "41609", LBIS.L["Back"], "Alt") --Wispcloak
+LBIS:AddItem(spec, "42065", LBIS.L["Back"], "Alt") --Deadly Gladiator's Cloak of Salvation
 
 LBIS:AddItem(spec, "40194", LBIS.L["Chest"], "BIS") --Blanketing Robes of Snow
 LBIS:AddItem(spec, "40381", LBIS.L["Chest"], "BIS") --Sympathy
@@ -117,8 +118,8 @@ LBIS:AddItem(spec, "40300", LBIS.L["Main Hand"], "Alt") --Spire of Sunset
 LBIS:AddItem(spec, "40244", LBIS.L["Main Hand"], "Alt") --The Impossible Dream
 LBIS:AddItem(spec, "39424", LBIS.L["Main Hand"], "Alt") --The Soulblade
 LBIS:AddItem(spec, "40455", LBIS.L["Main Hand"], "Alt") --Staff of Restraint
-LBIS:AddItem(spec, "37360", LBIS.L["Main Hand"], "Alt") --Staff of Draconic Combat
 LBIS:AddItem(spec, "37169", LBIS.L["Main Hand"], "Alt") --War Mace of Unrequited Love
+LBIS:AddItem(spec, "41384", LBIS.L["Main Hand"], "Alt") --Titansteel Guardian
 LBIS:AddItem(spec, "39281", LBIS.L["Main Hand"], "Alt") --Infection Repulser
 
 LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "BIS") --Matriarch's Spawn
