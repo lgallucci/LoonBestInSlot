@@ -222,7 +222,7 @@ function createDropDowns(window)
         end
     }
     window.SlotDropDown = LBIS:CreateDropdown(slot_opts);
-    window.SlotDropDown:SetPoint("TOPLEFT", window, 200, -28);
+    window.SlotDropDown:SetPoint("TOPLEFT", window, 210, -28);
 
     local phase_opts = {
         ['name']='phase',
