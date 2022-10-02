@@ -1,6 +1,7 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "0")
 
 LBIS:AddItem(spec, "42553", LBIS.L["Head"], "BIS") --Visage Liquification Goggles
+LBIS:AddItem(spec, "44909", LBIS.L["Head"], "Alt") --Titan-Forged Hood of Salvation
 LBIS:AddItem(spec, "37294", LBIS.L["Head"], "Alt") --Crown of Unbridled Magic
 LBIS:AddItem(spec, "34340", LBIS.L["Head"], "Alt") --Dark Conjuror's Collar
 LBIS:AddItem(spec, "34339", LBIS.L["Head"], "Alt") --Cowl of Light's Purity
@@ -11,6 +12,7 @@ LBIS:AddItem(spec, "37196", LBIS.L["Shoulder"], "Alt") --Runecaster's Mantle
 LBIS:AddItem(spec, "37655", LBIS.L["Shoulder"], "Alt") --Mantle of the Tribunal
 
 LBIS:AddItem(spec, "41610", LBIS.L["Back"], "BIS") --Deathchill Cloak
+LBIS:AddItem(spec, "42063", LBIS.L["Back"], "Alt") --Deadly Gladiator's Cloak of Subjugation
 LBIS:AddItem(spec, "34242", LBIS.L["Back"], "Alt") --Tattered Cape of Antonidas
 LBIS:AddItem(spec, "37291", LBIS.L["Back"], "Alt") --Ancient Dragon Spirit Cape
 LBIS:AddItem(spec, "44167", LBIS.L["Back"], "Alt") --Shroud of Dedicated Research
@@ -47,6 +49,7 @@ LBIS:AddItem(spec, "34858", LBIS.L["Feet"], "Alt") --Boots of the Forgotten Vanq
 
 LBIS:AddItem(spec, "39472", LBIS.L["Neck"], "BIS") --Chain of Latent Energies
 LBIS:AddItem(spec, "40680", LBIS.L["Neck"], "Alt") --Encircling Burnished Gold Chains
+LBIS:AddItem(spec, "42030", LBIS.L["Neck"], "Alt") --Deadly Gladiator's Pendant of Ascendancy
 LBIS:AddItem(spec, "42647", LBIS.L["Neck"], "Alt") --Titanium Spellshock Necklace
 
 LBIS:AddItem(spec, "40585", LBIS.L["Ring"], "BIS") --Signet of the Kirin Tor

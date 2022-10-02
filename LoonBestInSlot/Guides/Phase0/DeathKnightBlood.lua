@@ -49,8 +49,8 @@ LBIS:AddItem(spec, "37689", LBIS.L["Neck"], "Alt") --Pendant of the Nathrezim
 
 LBIS:AddItem(spec, "42643", LBIS.L["Ring"], "BIS") --Titanium Earthguard Ring
 LBIS:AddItem(spec, "40718", LBIS.L["Ring"], "BIS") --Signet of the Impregnable Fortress
-LBIS:AddItem(spec, "37784", LBIS.L["Ring"], "Alt") --Keystone Great-Ring
-LBIS:AddItem(spec, "37257", LBIS.L["Ring"], "Alt") --Band of Torture
+LBIS:AddItem(spec, "37784", LBIS.L["Ring"], "BIS") --Keystone Great-Ring
+LBIS:AddItem(spec, "37257", LBIS.L["Ring"], "BIS") --Band of Torture
 LBIS:AddItem(spec, "37591", LBIS.L["Ring"], "Alt") --Nerubian Shield Ring
 LBIS:AddItem(spec, "38617", LBIS.L["Ring"], "Alt") --Woeful Band
 LBIS:AddItem(spec, "36961", LBIS.L["Ring"], "Alt") --Dragonflight Great-Ring
@@ -75,8 +75,8 @@ LBIS:AddItem(spec, "41383", LBIS.L["Main Hand"], "BIS") --Titansteel Bonecrusher
 LBIS:AddItem(spec, "42208", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Cleaver
 LBIS:AddItem(spec, "42275", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Pummeler
 LBIS:AddItem(spec, "42285", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Slicer
-LBIS:AddItem(spec, "37260", LBIS.L["Main Hand"], "Alt") --Cloudstrider's Waraxe
-LBIS:AddItem(spec, "37179", LBIS.L["Main Hand"], "Alt") --Infantry Assault Blade
+LBIS:AddItem(spec, "37260", LBIS.L["Main Hand"], "BIS") --Cloudstrider's Waraxe
+LBIS:AddItem(spec, "37179", LBIS.L["Main Hand"], "BIS") --Infantry Assault Blade
 
 LBIS:AddItem(spec, "40714", LBIS.L["Relic"], "BIS") --Sigil of the Unfaltering Knight
 LBIS:AddItem(spec, "40822", LBIS.L["Relic"], "BIS") --Sigil of the Frozen Conscience

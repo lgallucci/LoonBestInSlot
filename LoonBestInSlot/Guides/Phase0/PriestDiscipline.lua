@@ -19,6 +19,8 @@ LBIS:AddItem(spec, "37655", LBIS.L["Shoulder"], "Alt") --Mantle of the Tribunal
 LBIS:AddItem(spec, "36982", LBIS.L["Shoulder"], "Alt") --Mantle of Electrical Charges
 
 LBIS:AddItem(spec, "41609", LBIS.L["Back"], "BIS") --Wispcloak
+LBIS:AddItem(spec, "42065", LBIS.L["Back"], "BIS") --Deadly Gladiator's Cloak of Salvation
+LBIS:AddItem(spec, "42062", LBIS.L["Back"], "BIS") --Deadly Gladiator's Cloak of Dominance
 LBIS:AddItem(spec, "37630", LBIS.L["Back"], "Alt") --Shroud of Moorabi
 LBIS:AddItem(spec, "37799", LBIS.L["Back"], "Alt") --Reanimator's Cloak
 LBIS:AddItem(spec, "34242", LBIS.L["Back"], "Alt") --Tattered Cape of Antonidas
@@ -43,6 +45,8 @@ LBIS:AddItem(spec, "37361", LBIS.L["Wrist"], "BIS") --Cuffs of Winged Levitation
 LBIS:AddItem(spec, "37884", LBIS.L["Wrist"], "BIS") --Azure Cloth Bindings
 LBIS:AddItem(spec, "37613", LBIS.L["Wrist"], "BIS") --Flame Sphere Bindings
 LBIS:AddItem(spec, "44200", LBIS.L["Wrist"], "BIS") --Ancestral Sinew Wristguards
+LBIS:AddItem(spec, "41908", LBIS.L["Wrist"], "Alt") --Deadly Gladiator's Cuffs of Dominance
+LBIS:AddItem(spec, "41892", LBIS.L["Wrist"], "Alt") --Deadly Gladiator's Cuffs of Salvation
 LBIS:AddItem(spec, "37725", LBIS.L["Wrist"], "Alt") --Savage Wound Wrap
 LBIS:AddItem(spec, "36945", LBIS.L["Wrist"], "Alt") --Verdisa's Cuffs of Dreaming
 LBIS:AddItem(spec, "34434", LBIS.L["Wrist"], "Alt") --Bracers of Absolution
@@ -92,6 +96,7 @@ LBIS:AddItem(spec, "24116", LBIS.L["Neck"], "BIS") --Eye of the Night
 LBIS:AddItem(spec, "24121", LBIS.L["Neck"], "BIS") --Chain of the Twilight Owl
 LBIS:AddItem(spec, "40681", LBIS.L["Neck"], "BIS") --Lattice Choker of Light
 LBIS:AddItem(spec, "42647", LBIS.L["Neck"], "BIS") --Titanium Spellshock Necklace
+LBIS:AddItem(spec, "42033", LBIS.L["Neck"], "Alt") --Deadly Gladiator's Pendant of Salvation
 LBIS:AddItem(spec, "39472", LBIS.L["Neck"], "Alt") --Chain of Latent Energies
 LBIS:AddItem(spec, "40680", LBIS.L["Neck"], "Alt") --Encircling Burnished Gold Chains
 LBIS:AddItem(spec, "37683", LBIS.L["Neck"], "Alt") --Necromancer's Amulet
@@ -117,9 +122,9 @@ LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "BIS") --Figurine - Sapphire Owl
 LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "Alt") --Spark of Life
 
 LBIS:AddItem(spec, "37169", LBIS.L["Main Hand"], "BIS") --War Mace of Unrequited Love
-LBIS:AddItem(spec, "37360", LBIS.L["Main Hand"], "BIS") --Staff of Draconic Combat
 LBIS:AddItem(spec, "41384", LBIS.L["Main Hand"], "BIS") --Titansteel Guardian
 LBIS:AddItem(spec, "45085", LBIS.L["Main Hand"], "Alt") --Titansteel Spellblade
+LBIS:AddItem(spec, "37360", LBIS.L["Main Hand"], "Alt") --Staff of Draconic Combat
 LBIS:AddItem(spec, "37377", LBIS.L["Main Hand"], "Alt") --Netherbreath Spellblade
 LBIS:AddItem(spec, "37681", LBIS.L["Main Hand"], "Alt") --Gavel of the Fleshcrafter
 LBIS:AddItem(spec, "44199", LBIS.L["Main Hand"], "Alt") --Gavel of the Brewing Storm
