@@ -1803,6 +1803,7 @@ LBIS.ItemSources =
     [33505] = { Name = "Totem of Living Water", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Badges of Justice"], SourceNumber = "20", SourceLocation = LBIS.L["G'eras"] },
     [33506] = { Name = "Skycall Totem", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Badges of Justice"], SourceNumber = "20", SourceLocation = LBIS.L["G'eras"] },
     [33507] = { Name = "Stonebreaker's Totem", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Badges of Justice"], SourceNumber = "20", SourceLocation = LBIS.L["G'eras"] },
+    [33508] = { Name = "Idol of Budding Life", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Badges of Justice"], SourceNumber = "20", SourceLocation = LBIS.L["G'eras"] },
     [33509] = { Name = "Idol of Terror", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Badges of Justice"], SourceNumber = "20", SourceLocation = LBIS.L["G'eras"] },
     [33510] = { Name = "Idol of the Unseen Moon", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Badges of Justice"], SourceNumber = "20", SourceLocation = LBIS.L["G'eras"] },
     [33513] = { Name = "Eternium Rage-shackles", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Badges of Justice"], SourceNumber = "35", SourceLocation = LBIS.L["G'eras"] },

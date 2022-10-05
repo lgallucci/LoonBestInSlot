@@ -65,7 +65,14 @@ function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, point, rowFu
         l:SetEndPoint("BOTTOMRIGHT",-5, 0);
     end
     -- even if we are reusing, it may not be in the same order
-    f:SetSize(window.ScrollFrame:GetWidth(), 46);
+    local _, count = string.gsub(specItemSource.Source, "/", "")
+    if count > 1 then
+        count = count - 1;
+    else 
+        count = 0;
+    end if
+    local rowHeight = 46 + (count * 10)
+    f:SetSize(window.ScrollFrame:GetWidth(), rowHeight);
     f:ClearAllPoints();
     f:SetPoint("TOPLEFT", window.Container, 0, point);
     

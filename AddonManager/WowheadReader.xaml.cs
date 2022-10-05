@@ -7,6 +7,7 @@ using AngleSharp.Dom;
 using AngleSharp.Html;
 using Newtonsoft.Json;
 using PuppeteerSharp;
+using static AddonManager.WowheadReader;
 
 namespace AddonManager;
 /// <summary>
@@ -26,15 +27,30 @@ public partial class WowheadReader : Window
 
     private bool _importIsCanceled;
 
+    public class ImportItemSource
+    {
+        public string SourceType { get; set; } = string.Empty;
+        public string Source { get; set; } = string.Empty;
+        public string SourceNumber { get; set; } = string.Empty;
+        public string SourceLocation { get; set; } = string.Empty;
+    }
+
     public class CsvLootTable
     {
         public int ItemId { get; set; }
-        public string SourceType { get; set; } = string.Empty;
-        public string SourceNumber { get; set; } = string.Empty;
-        public string ItemName { get; set; } = string.Empty;
-        public string InstanceName { get; set; } = string.Empty;
-        public string SourceName { get; set; } = string.Empty;
+        public List<ImportItemSource> ItemSource { get; private set; } = new List<ImportItemSource>();
+        public string Name { get; set; } = string.Empty;
+        public bool IsLegacy { get; set; }
+
+        internal void AddItem(ImportItemSource importItemSource)
+        {
+            if (!ItemSource.Any(i => i.Source == importItemSource.Source))
+            {
+                ItemSource.Add(importItemSource);
+            }
+        }
     }
+
 
     public WowheadReader()
     {
@@ -189,17 +205,22 @@ public partial class WowheadReader : Window
             csvLootTable.Add(oldSource.Key, new CsvLootTable
             {
                 ItemId = oldSource.Key,
-                SourceType = "Legacy",
-                ItemName = "",
-                InstanceName = "",
-                SourceName = "\"\"",
-                SourceNumber = ""
+                Name = "",
+                IsLegacy = true,
+                ItemSource = { new ImportItemSource
+                {
+                    SourceType = oldSource.Value.SourceType,
+                    Source = oldSource.Value.Source,
+                    SourceNumber = oldSource.Value.SourceNumber,
+                    SourceLocation = oldSource.Value.SourceLocation,
+                } }
             });
         }
 
         GetItems(csvLootTable, "DungeonItemList");
         GetItems(csvLootTable, "RaidItemList");
         GetItems(csvLootTable, "EmblemItemList");
+        //GetItems(csvLootTable, "PvPItemList");
 
         //UpdateProfessionItems(csvLootTable);
 
@@ -210,26 +231,77 @@ public partial class WowheadReader : Window
         {
             if (csvLootTable.ContainsKey(itemSource.Key))
             {
+                //TODO ADD THE LBIS.L HERE AND NOWHERE ELSE !
                 var csvItem = csvLootTable[itemSource.Key];
-                var sourceType = csvItem.SourceType;
-                if (sourceType == "Legacy") { }
-                else if (tokenKeys.Contains(itemSource.Key))
+                if (csvItem.IsLegacy)
                 {
-                    sourceType = "Token";
+                    itemSource.Value.SourceType = "LBIS.L[\"Legacy\"]";
+                    itemSource.Value.Source = "\"\""; //string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.Source)));
+                    itemSource.Value.SourceNumber = ""; //string.Join("/", csvItem.ItemSource.Select(s => s.SourceNumber));
+                    itemSource.Value.SourceLocation = "\"\""; //string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
                 }
-                else if (transmuteKeys.Contains(itemSource.Key))
+                else
                 {
-                    sourceType = "Transmute";
+                    itemSource.Value.SourceType = string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceType)).Distinct());
+                    itemSource.Value.Source = string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.Source)));
+                    itemSource.Value.SourceNumber = string.Join("/", csvItem.ItemSource.Select(s => s.SourceNumber));
+                    itemSource.Value.SourceLocation = string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
+
+                    if (tokenKeys.Contains(itemSource.Key))
+                    {
+                        itemSource.Value.SourceType = "LBIS.L[\"Token\"]";
+                    }
+                    else if (transmuteKeys.Contains(itemSource.Key))
+                    {
+                        itemSource.Value.SourceType = "LBIS.L[\"Transmute\"]";
+                    }
                 }
 
-                itemSource.Value.SourceType = sourceType;
-                itemSource.Value.Source = csvItem.SourceName.Trim();
-                itemSource.Value.SourceNumber = csvItem.SourceNumber.Trim().Trim('"');
-                itemSource.Value.SourceLocation = csvItem.InstanceName.Trim().Trim('"');
             }
         }
 
         ItemSourceFileManager.WriteItemSources(itemSources);
+    }
+
+    private string? AddLocalizeText(string source)
+    {
+        if (string.IsNullOrWhiteSpace(source))
+            return "\"\"";
+        else if (Int32.TryParse(source, out int result))
+            return $"\"{source}\"";
+
+        StringBuilder sb = new StringBuilder();
+        if (source.Contains("&"))
+        {
+            var stringSplit = source.Split('&');
+
+            var first = true;
+            foreach (var split in stringSplit)
+            {
+                if (first != true)
+                    sb.Append("..\" & \"..");
+
+                sb.Append($"LBIS.L[\"{split.Trim()}\"]");
+
+                first = false;
+            }
+        }
+        else
+        {
+            var stringSplit = source.Split('/');
+            var first = true;
+            foreach (var split in stringSplit)
+            {
+                if (first != true)
+                    sb.Append("..\"/\"..");
+
+                sb.Append($"LBIS.L[\"{split.Trim()}\"]");
+
+                first = false;
+            }
+        }
+
+        return sb.ToString();
     }
 
     private async Task<string> ImportGemsAndEnchants(ClassGuideMapping classGuide)
@@ -402,15 +474,22 @@ public partial class WowheadReader : Window
             }
             if (itemSources.ContainsKey(transmutePiece.Key) && csvLootTable.ContainsKey(transmutePiece.Value.Item1) && !csvLootTable.ContainsKey(transmutePiece.Key))
             {
-                csvLootTable.Add(transmutePiece.Key, new CsvLootTable
+                var newLootTable = new CsvLootTable
                 {
                     ItemId = transmutePiece.Key,
-                    ItemName = itemSources[transmutePiece.Key].Name,
-                    InstanceName = $"{csvLootTable[transmutePiece.Value.Item1].SourceName} - {csvLootTable[transmutePiece.Value.Item1].InstanceName}",
-                    SourceType = csvLootTable[transmutePiece.Key].SourceType,
-                    SourceName = transmutePiece.Value.Item1.ToString(),
-                    SourceNumber = csvLootTable[transmutePiece.Key].SourceNumber
-                });
+                    Name = itemSources[transmutePiece.Key].Name
+                };
+                foreach (var source in csvLootTable[transmutePiece.Value.Item1].ItemSource)
+                {
+                    newLootTable.AddItem(new ImportItemSource
+                    {
+                        SourceType = source.SourceType,
+                        Source = transmutePiece.Value.Item1.ToString(),
+                        SourceNumber = source.SourceNumber,
+                        SourceLocation = $"{source.Source} - {source.SourceLocation}"
+                    });
+                }
+                csvLootTable.Add(transmutePiece.Key, newLootTable);
             }
         }
         return transmuteKeys;
@@ -425,17 +504,43 @@ public partial class WowheadReader : Window
             {
                 tokenKeys.Add(tierPiece.Value.Item1);
             }
-            if (itemSources.ContainsKey(tierPiece.Key) && !csvLootTable.ContainsKey(tierPiece.Key))
+            if (itemSources.ContainsKey(tierPiece.Key))
             {
-                csvLootTable.Add(tierPiece.Key, new CsvLootTable
+                if (csvLootTable.ContainsKey(tierPiece.Key))
                 {
-                    ItemId = tierPiece.Key,
-                    ItemName = itemSources[tierPiece.Key].Name,
-                    InstanceName = csvLootTable[tierPiece.Value.Item1].InstanceName,
-                    SourceType = csvLootTable[tierPiece.Value.Item1].SourceType,
-                    SourceName = csvLootTable[tierPiece.Value.Item1].SourceName,
-                    SourceNumber = csvLootTable[tierPiece.Value.Item1].SourceNumber
-                });
+                    if (!csvLootTable[tierPiece.Key].IsLegacy)
+                    {
+                        foreach (var source in csvLootTable[tierPiece.Value.Item1].ItemSource)
+                        {
+                            csvLootTable[tierPiece.Key].AddItem(new ImportItemSource
+                            {
+                                SourceType = source.SourceType,
+                                Source = source.Source,
+                                SourceNumber = source.SourceNumber,
+                                SourceLocation = source.SourceLocation
+                            });
+                        }
+                    }
+                }
+                else
+                {
+                    var newLootTable = new CsvLootTable
+                    {
+                        ItemId = tierPiece.Key,
+                        Name = itemSources[tierPiece.Key].Name
+                    };
+                    foreach (var source in csvLootTable[tierPiece.Value.Item1].ItemSource)
+                    {
+                        newLootTable.AddItem(new ImportItemSource
+                        {
+                            SourceType = source.SourceType,
+                            Source = source.Source,
+                            SourceNumber = source.SourceNumber,
+                            SourceLocation = source.SourceLocation
+                        });
+                    }
+                    csvLootTable.Add(tierPiece.Key, newLootTable);
+                }
             }
         }
         return tokenKeys;
@@ -455,82 +560,31 @@ public partial class WowheadReader : Window
     {
         foreach (var item in dbItem.Items)
         {
-            bool foundTierPiece = TierPiecesAndTokens.TierPieces.TryGetValue(item.Key, out (int, String) tierPiece);
-
-            if (foundTierPiece)
-            {
-                bool foundTiertoken = dbItem.Items.TryGetValue(tierPiece.Item1, out DatabaseItem? tokenItem);
-                if (foundTiertoken)
-                {
-                    if (csvLootTable.ContainsKey(item.Key))
-                    {
-                        if (csvLootTable[item.Key].InstanceName != tokenItem.SourceLocation)
-                            csvLootTable[item.Key].InstanceName += $"..\"/\"..{tokenItem.SourceLocation}";
-                        if (csvLootTable[item.Key].SourceName != tokenItem.Source)
-                            csvLootTable[item.Key].SourceName += $"..\"/\"..{tokenItem.Source}";
-                        if (csvLootTable[item.Key].SourceType != tokenItem.SourceType)
-                            csvLootTable[item.Key].SourceType += $"..\"/\"..{tokenItem.SourceType}";
-                        csvLootTable[item.Key].SourceNumber += $"/{tokenItem.SourceNumber}";
-                    }
-                    else
-                    {
-                        csvLootTable.Add(item.Key, new CsvLootTable
-                        {
-                            ItemId = item.Key,
-                            SourceType = tokenItem.SourceType,
-                            ItemName = tokenItem.Name,
-                            InstanceName = tokenItem.SourceLocation,
-                            SourceName = tokenItem.Source,
-                            SourceNumber = tokenItem.SourceNumber
-                        });
-                    }
-                }
-            }
-
             if (csvLootTable.ContainsKey(item.Key))
             {
-                if (csvLootTable[item.Key].InstanceName != item.Value.SourceLocation)
-                    csvLootTable[item.Key].InstanceName += $"..\"/\"..{item.Value.SourceLocation}";
-                if (csvLootTable[item.Key].SourceName != item.Value.Source)
-                    csvLootTable[item.Key].SourceName += $"..\"/\"..{item.Value.Source}";
-                if (csvLootTable[item.Key].SourceType != item.Value.SourceType)
-                    csvLootTable[item.Key].SourceType += $"..\"/\"..{item.Value.SourceType}";
-                csvLootTable[item.Key].SourceNumber += $"/{item.Value.SourceNumber}";
+                csvLootTable[item.Key].AddItem(new ImportItemSource
+                {
+                    SourceType = item.Value.SourceType,
+                    Source = item.Value.Source,
+                    SourceNumber = item.Value.SourceNumber,
+                    SourceLocation = item.Value.SourceLocation
+                });
             }
             else
             {
                 csvLootTable.Add(item.Key, new CsvLootTable
                 {
                     ItemId = item.Key,
-                    SourceType = item.Value.SourceType,
-                    ItemName = item.Value.Name,
-                    InstanceName = item.Value.SourceLocation,
-                    SourceName = item.Value.Source,
-                    SourceNumber = item.Value.SourceNumber
+                    Name = item.Value.Name,
+                    ItemSource = { new ImportItemSource
+                    {
+                        SourceType = item.Value.SourceType ,
+                        SourceLocation =item.Value.SourceLocation ,
+                        Source =  item.Value.Source,
+                        SourceNumber = item.Value.SourceNumber
+                    } }
                 });
             }
         }
     }
-
-    private void GetProfessionItems(Dictionary<int, CsvLootTable> csvLootTable)
-    {
-        //Read file into dictionary
-        DatabaseItems dbItem;
-        var jsonFileString = File.ReadAllText(@$"..\..\..\ItemDatabase\ProfessionItemList.json");
-        dbItem = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
-
-        foreach (var item in dbItem.Items)
-        {
-            csvLootTable.Add(item.Key, new CsvLootTable
-            {
-                ItemId = item.Key,
-                SourceType = item.Value.SourceType,
-                ItemName = item.Value.Name,
-                InstanceName = "",
-                SourceName = item.Value.Source,
-                SourceNumber = item.Value.SourceNumber
-            });
-        }
-    }
-
 }
