@@ -256,7 +256,6 @@ public partial class WowheadReader : Window
                         itemSource.Value.SourceType = "LBIS.L[\"Transmute\"]";
                     }
                 }
-
             }
         }
 

@@ -1,6 +1,7 @@
 ﻿using System.Threading;
 using System.Xml.Linq;
 using AddonManager.Models;
+using AngleSharp.Dom;
 
 namespace AddonManager.FileManagers;
 
@@ -127,19 +128,43 @@ public static class ItemSourceFileManager
             var closeBracket = gemSource.IndexOf("]");
 
             var gemId = Int32.Parse(gemSource.Substring(openBracket, closeBracket - openBracket));
-            var sourceSplit = gemSource.Split("\"");
-            var designId = string.IsNullOrWhiteSpace(sourceSplit[3]) ? -1 : Int32.Parse(sourceSplit[3]);
-            gems.Add(gemId, new GemSource
-            {
-                GemId = gemId,
-                Name = sourceSplit[1],
-                DesignId = designId,
-                Source = sourceSplit[5],
-                SourceLocation = sourceSplit[7]
-            });
+
+            gems.Add(gemId, SplitGemLine(gemId, gemSource));
         }
 
         return gems;
+    }
+
+    private static GemSource SplitGemLine(int gemId, string gemSource)
+    {
+        var nameIndex = gemSource.IndexOf("Name =");
+        var designIndex = gemSource.IndexOf("DesignId =");
+        var sourceIndex = gemSource.IndexOf("Source =");
+        var sourceLocationIndex = gemSource.IndexOf("SourceLocation =");
+
+        var name = gemSource.Substring(nameIndex, designIndex - nameIndex).Split("=")[1].Trim().Trim(',').Trim('"');
+        var designId = gemSource.Substring(designIndex, sourceIndex - designIndex).Split("=")[1].Trim().Trim(',').Trim('"');
+        var source = gemSource.Substring(sourceIndex, sourceLocationIndex - sourceIndex).Split("=")[1].Trim().Trim(',').Trim('"'); ;
+        var sourceLocation = gemSource.Substring(sourceLocationIndex, gemSource.Length - sourceLocationIndex - 3).Split("=")[1].Trim().Trim('"');
+
+        if (string.IsNullOrWhiteSpace(source))
+            source = "\"\"";
+        else if (Int32.TryParse(source, out int result))
+            source = $"\"{source}\"";
+
+        if (string.IsNullOrWhiteSpace(sourceLocation))
+            sourceLocation = "\"\"";
+        else if (Int32.TryParse(sourceLocation, out int result))
+            sourceLocation = $"\"{sourceLocation}\"";
+
+        return new GemSource
+        {
+            GemId = gemId,
+            Name = name,
+            DesignId = Int32.Parse(designId),
+            Source = source,
+            SourceLocation = sourceLocation
+        };
     }
 
     public static SortedDictionary<int, EnchantSource> ReadEnchantSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\EnchantSources.lua")
@@ -163,20 +188,46 @@ public static class ItemSourceFileManager
             var closeBracket = enchantSource.IndexOf("]");
 
             var enchantId = Int32.Parse(enchantSource.Substring(openBracket, closeBracket - openBracket));
-            var sourceSplit = enchantSource.Split("\"");
-            var designId = string.IsNullOrWhiteSpace(sourceSplit[3]) ? -1 : Int32.Parse(sourceSplit[3]);
-            enchants.Add(enchantId, new EnchantSource
-            {
-                EnchantId = enchantId,
-                DesignId = designId,
-                Name = sourceSplit[1],
-                Source = sourceSplit[5],
-                SourceLocation = sourceSplit[7],
-                IsSpell = bool.Parse(sourceSplit[9])
-            });
+
+            enchants.Add(enchantId, SplitEnchantLine(enchantId, enchantSource));
         }
 
         return enchants;
+    }
+
+    private static EnchantSource SplitEnchantLine(int enchantId, string enchantSource)
+    {
+        var nameIndex = enchantSource.IndexOf("Name =");
+        var designIndex = enchantSource.IndexOf("DesignId =");
+        var sourceIndex = enchantSource.IndexOf("Source =");
+        var sourceLocationIndex = enchantSource.IndexOf("SourceLocation =");
+        var isSpellIndex = enchantSource.IndexOf("IsSpell =");
+
+        var name = enchantSource.Substring(nameIndex, designIndex - nameIndex).Split("=")[1].Trim().Trim(',').Trim('"');
+        var designId = enchantSource.Substring(designIndex, sourceIndex - designIndex).Split("=")[1].Trim().Trim(',').Trim('"');
+        var source = enchantSource.Substring(sourceIndex, sourceLocationIndex - sourceIndex).Split("=")[1].Trim().Trim(',').Trim('"'); ;
+        var sourceLocation = enchantSource.Substring(sourceLocationIndex, isSpellIndex - sourceLocationIndex).Split("=")[1].Trim().Trim(',').Trim('"');
+        var isSpell = enchantSource.Substring(isSpellIndex, enchantSource.Length - isSpellIndex - 3).Split("=")[1].Trim().Trim('"');
+
+        if (string.IsNullOrWhiteSpace(source))
+            source = "\"\"";
+        else if (Int32.TryParse(source, out int result))
+            source = $"\"{source}\"";
+
+        if (string.IsNullOrWhiteSpace(sourceLocation))
+            sourceLocation = "\"\"";
+        else if (Int32.TryParse(sourceLocation, out int result))
+            sourceLocation = $"\"{sourceLocation}\"";
+
+        return new EnchantSource
+        {
+            EnchantId = enchantId,
+            Name = name,
+            DesignId = Int32.Parse(designId),
+            Source = source,
+            SourceLocation = sourceLocation,
+            IsSpell = bool.Parse(isSpell)
+        };
     }
 
     public static void WriteItemSources(SortedDictionary<int, ItemSource> sources)
