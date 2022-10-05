@@ -1,13 +1,15 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "0")
 
 LBIS:AddItem(spec, "42553", LBIS.L["Head"], "BIS") --Visage Liquification Goggles
+LBIS:AddItem(spec, "30206", LBIS.L["Head"], "BIS") --Cowl of Tirisfal
+LBIS:AddItem(spec, "30244", LBIS.L["Head"], "BIS") --Helm of the Vanquished Hero
 LBIS:AddItem(spec, "44909", LBIS.L["Head"], "Alt") --Titan-Forged Hood of Salvation
 LBIS:AddItem(spec, "37294", LBIS.L["Head"], "Alt") --Crown of Unbridled Magic
-LBIS:AddItem(spec, "34340", LBIS.L["Head"], "Alt") --Dark Conjuror's Collar
-LBIS:AddItem(spec, "34339", LBIS.L["Head"], "Alt") --Cowl of Light's Purity
 
 LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "BIS") --Amice of the Convoker
-LBIS:AddItem(spec, "37673", LBIS.L["Shoulder"], "BIS") --Dark Runic Mantle
+LBIS:AddItem(spec, "30210", LBIS.L["Shoulder"], "BIS") --Mantle of Tirisfal
+LBIS:AddItem(spec, "30250", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Hero
+LBIS:AddItem(spec, "37673", LBIS.L["Shoulder"], "Alt") --Dark Runic Mantle
 LBIS:AddItem(spec, "37196", LBIS.L["Shoulder"], "Alt") --Runecaster's Mantle
 LBIS:AddItem(spec, "37655", LBIS.L["Shoulder"], "Alt") --Mantle of the Tribunal
 
@@ -70,7 +72,7 @@ LBIS:AddItem(spec, "44173", LBIS.L["Main Hand"], "Alt") --Flameheart Spell Scalp
 LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "BIS") --Handbook of Obscure Remedies
 LBIS:AddItem(spec, "40698", LBIS.L["Off Hand"], "Alt") --Ward of the Violet Citadel
 
+LBIS:AddItem(spec, "34347", LBIS.L["Wand"], "BIS") --Wand of the Demonsoul
+LBIS:AddItem(spec, "34348", LBIS.L["Wand"], "Alt") --Wand of Cleansing Light
 LBIS:AddItem(spec, "37238", LBIS.L["Wand"], "Alt") --Rod of the Fallen Monarch
 LBIS:AddItem(spec, "37619", LBIS.L["Wand"], "Alt") --Wand of Ahn'kahet
-LBIS:AddItem(spec, "34347", LBIS.L["Wand"], "Alt") --Wand of the Demonsoul
-LBIS:AddItem(spec, "34348", LBIS.L["Wand"], "Alt") --Wand of Cleansing Light

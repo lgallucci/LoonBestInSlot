@@ -22,6 +22,10 @@ LBIS:AddItem(spec, "42842", LBIS.L["Shoulder"], "Alt") --Fur-Lined Shoulder Warm
 LBIS:AddItem(spec, "44378", LBIS.L["Shoulder"], "Alt") --Mantle of the Flesh Giant
 
 LBIS:AddItem(spec, "41610", LBIS.L["Back"], "BIS") --Deathchill Cloak
+LBIS:AddItem(spec, "42064", LBIS.L["Back"], "Alt") --Deadly Gladiator's Cloak of Ascendancy
+LBIS:AddItem(spec, "42063", LBIS.L["Back"], "Alt") --Deadly Gladiator's Cloak of Subjugation
+LBIS:AddItem(spec, "42062", LBIS.L["Back"], "Alt") --Deadly Gladiator's Cloak of Dominance
+LBIS:AddItem(spec, "42066", LBIS.L["Back"], "Alt") --Deadly Gladiator's Cloak of Deliverance
 LBIS:AddItem(spec, "37291", LBIS.L["Back"], "Alt") --Ancient Dragon Spirit Cape
 LBIS:AddItem(spec, "34242", LBIS.L["Back"], "Alt") --Tattered Cape of Antonidas
 LBIS:AddItem(spec, "37799", LBIS.L["Back"], "Alt") --Reanimator's Cloak
@@ -47,6 +51,8 @@ LBIS:AddItem(spec, "37851", LBIS.L["Chest"], "Alt") --Ornate Woolen Stola
 
 LBIS:AddItem(spec, "37361", LBIS.L["Wrist"], "BIS") --Cuffs of Winged Levitation
 LBIS:AddItem(spec, "37884", LBIS.L["Wrist"], "Alt") --Azure Cloth Bindings
+LBIS:AddItem(spec, "41892", LBIS.L["Wrist"], "Alt") --Deadly Gladiator's Cuffs of Salvation
+LBIS:AddItem(spec, "41908", LBIS.L["Wrist"], "Alt") --Deadly Gladiator's Cuffs of Dominance
 LBIS:AddItem(spec, "34435", LBIS.L["Wrist"], "Alt") --Cuffs of Absolution
 LBIS:AddItem(spec, "34848", LBIS.L["Wrist"], "Alt") --Bracers of the Forgotten Conqueror
 LBIS:AddItem(spec, "44200", LBIS.L["Wrist"], "Alt") --Ancestral Sinew Wristguards
@@ -117,6 +123,10 @@ LBIS:AddItem(spec, "44358", LBIS.L["Feet"], "Alt") --Kilix's Silk Slippers
 LBIS:AddItem(spec, "39472", LBIS.L["Neck"], "BIS") --Chain of Latent Energies
 LBIS:AddItem(spec, "40680", LBIS.L["Neck"], "Alt") --Encircling Burnished Gold Chains
 LBIS:AddItem(spec, "42647", LBIS.L["Neck"], "Alt") --Titanium Spellshock Necklace
+LBIS:AddItem(spec, "42030", LBIS.L["Neck"], "Alt") --Deadly Gladiator's Pendant of Ascendancy
+LBIS:AddItem(spec, "42031", LBIS.L["Neck"], "Alt") --Deadly Gladiator's Pendant of Subjugation
+LBIS:AddItem(spec, "42029", LBIS.L["Neck"], "Alt") --Deadly Gladiator's Pendant of Dominance
+LBIS:AddItem(spec, "42032", LBIS.L["Neck"], "Alt") --Deadly Gladiator's Pendant of Deliverance
 LBIS:AddItem(spec, "37595", LBIS.L["Neck"], "Alt") --Necklace of Taldaram
 LBIS:AddItem(spec, "44017", LBIS.L["Neck"], "Alt") --Emeline's Locket
 LBIS:AddItem(spec, "43285", LBIS.L["Neck"], "Alt") --Amulet of the Spell Flinger
@@ -126,9 +136,11 @@ LBIS:AddItem(spec, "43404", LBIS.L["Neck"], "Alt") --Zuramat's Necklace
 
 LBIS:AddItem(spec, "40585", LBIS.L["Ring"], "BIS") --Signet of the Kirin Tor
 LBIS:AddItem(spec, "42644", LBIS.L["Ring"], "BIS") --Titanium Spellshock Ring
+LBIS:AddItem(spec, "42114", LBIS.L["Ring"], "Alt") --Deadly Gladiator's Band of Ascendancy
 LBIS:AddItem(spec, "37694", LBIS.L["Ring"], "Alt") --Band of Guile
 LBIS:AddItem(spec, "37192", LBIS.L["Ring"], "Alt") --Annhylde's Ring
 LBIS:AddItem(spec, "44283", LBIS.L["Ring"], "Alt") --Signet of Hopeful Light
+LBIS:AddItem(spec, "42110", LBIS.L["Ring"], "Alt") --Hateful Gladiator's Band of Dominance
 LBIS:AddItem(spec, "37371", LBIS.L["Ring"], "Alt") --Ring of the Frenzied Wolvar
 LBIS:AddItem(spec, "37232", LBIS.L["Ring"], "Alt") --Ring of the Traitor King
 LBIS:AddItem(spec, "37651", LBIS.L["Ring"], "Alt") --The Prospector's Prize
@@ -136,14 +148,15 @@ LBIS:AddItem(spec, "37869", LBIS.L["Ring"], "Alt") --Globule Signet
 LBIS:AddItem(spec, "43253", LBIS.L["Ring"], "Alt") --Ring of Northern Tears
 LBIS:AddItem(spec, "39474", LBIS.L["Ring"], "Alt") --Ring of Devoted Promises
 
-LBIS:AddItem(spec, "42990", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Death
 LBIS:AddItem(spec, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exiled
 LBIS:AddItem(spec, "37873", LBIS.L["Trinket"], "BIS") --Mark of the War Prisoner
 LBIS:AddItem(spec, "42395", LBIS.L["Trinket"], "Alt") --Figurine - Twilight Serpent
+LBIS:AddItem(spec, "37835", LBIS.L["Trinket"], "Alt") --Je'Tze's Bell
 LBIS:AddItem(spec, "37264", LBIS.L["Trinket"], "Alt") --Pendulum of Telluric Currents
 LBIS:AddItem(spec, "44254", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "37660", LBIS.L["Trinket"], "Alt") --Forge Ember
 LBIS:AddItem(spec, "36972", LBIS.L["Trinket"], "Alt") --Tome of Arcane Phenomena
+LBIS:AddItem(spec, "42990", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Death
 LBIS:AddItem(spec, "44013", LBIS.L["Trinket"], "Alt") --Cannoneer's Fuselighter
 LBIS:AddItem(spec, "44322", LBIS.L["Trinket"], "Alt") --Mercurial Alchemist Stone
 
@@ -173,7 +186,6 @@ LBIS:AddItem(spec, "44748", LBIS.L["Two Hand"], "Alt") --Stave of Youthful Sorro
 
 LBIS:AddItem(spec, "37238", LBIS.L["Wand"], "BIS") --Rod of the Fallen Monarch
 LBIS:AddItem(spec, "37177", LBIS.L["Wand"], "Alt") --Wand of the San'layn
-LBIS:AddItem(spec, "37619", LBIS.L["Wand"], "Alt") --Wand of Ahn'kahet
 LBIS:AddItem(spec, "37626", LBIS.L["Wand"], "Alt") --Wand of Sseratus
 LBIS:AddItem(spec, "44108", LBIS.L["Wand"], "Alt") --Shinygem Rod
 LBIS:AddItem(spec, "35617", LBIS.L["Wand"], "Alt") --Wand of Shimmering Scales

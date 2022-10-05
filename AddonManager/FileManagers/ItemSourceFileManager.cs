@@ -48,6 +48,11 @@ public static class ItemSourceFileManager
         var sourceNumber = itemSource.Substring(sourceNumberIndex, sourceLocationIndex - sourceNumberIndex).Split("=")[1].Trim().Trim(',').Trim('"');
         var sourceLocation = itemSource.Substring(sourceLocationIndex, itemSource.Length - sourceLocationIndex - 3).Split("=")[1].Trim().Trim('"');
 
+        if (string.IsNullOrWhiteSpace(source))
+            source = "\"\"";
+        else if (Int32.TryParse(source, out int result))
+            source = $"\"{source}\"";
+
         if (string.IsNullOrWhiteSpace(sourceLocation))
             sourceLocation = "\"\"";
         else if (Int32.TryParse(sourceLocation, out int result))

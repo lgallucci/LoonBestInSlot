@@ -85,7 +85,7 @@ LBIS:AddItem(spec, "37401", LBIS.L["Main Hand"], "Alt") --Red Sword of Courage
 LBIS:AddItem(spec, "39344", LBIS.L["Main Hand"], "Alt") --Slayer of the Lifeless
 
 LBIS:AddItem(spec, "40400", LBIS.L["Shield"], "BIS") --Wall of Terror
-LBIS:AddItem(spec, "39276", LBIS.L["Shield"], "Mit") --The Skull of Ruin
+LBIS:AddItem(spec, "39276", LBIS.L["Shield"], "Alt Mit") --The Skull of Ruin
 LBIS:AddItem(spec, "40266", LBIS.L["Shield"], "Alt") --Hero's Surrender
 LBIS:AddItem(spec, "40475", LBIS.L["Shield"], "Alt Thrt") --Barricade of Eternity
 

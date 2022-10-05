@@ -1,6 +1,5 @@
 if GetLocale() == "deDE" then
   LBIS.L["# Best for:"] = "# Beste für";
-  LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "|cFF9CD6DELinks Klick|r: Browserfenster öffnen";
 --  LBIS.L["10000 Honor (PvP)"] = " (PvP)";
   LBIS.L["A Wing and a Prayer"] = "Schlacht in den Wolken";
 --  LBIS.L["Accessories Quartermaster"] = "";
@@ -68,6 +67,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Death to the Traitor King"] = "Tod dem Verräterkönig";
   LBIS.L["Demolitionist Extraordinaire"] = "Explosive Stimmung";
   LBIS.L["Demonology"] = "Dämonologie";
+--  LBIS.L["Deselect"] = "";
   LBIS.L["Destruction"] = "Zerstörung";
   LBIS.L["Discipline"] = "Disziplin";
   LBIS.L["Dragonblight"] = "Die Drachenöde";
@@ -165,6 +165,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Krystallus"] = "Krystallus";
   LBIS.L["Lavanthor"] = "Lavanthor";
   LBIS.L["Leatherworking"] = "Lederverarbeitung";
+--  LBIS.L["Left-Click"] = "";
 --  LBIS.L["Legacy"] = "";
   LBIS.L["Legs"] = "Beine";
   LBIS.L["Ley-Guardian Eregos"] = "Leywächter Eregos";
@@ -204,6 +205,8 @@ if GetLocale() == "deDE" then
   LBIS.L["Off Hand"] = "Schildhand";
   LBIS.L["One of a Kind"] = "Einzigartig";
 --  LBIS.L["Onyxia's Lair'"] = "";
+  LBIS.L["Open Browser Window"] = "Browserfenster öffnen";
+--  LBIS.L["Open Settings"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "Ormorok der Baumformer";
   LBIS.L["Patchwerk"] = "Flickwerk";
   LBIS.L["Phase 1"] = "Phase 1";
@@ -230,19 +233,22 @@ if GetLocale() == "deDE" then
   LBIS.L["Retribution"] = "Vergeltung";
   LBIS.L["Return My Remains"] = "Bringt meine Überreste zurück";
   LBIS.L["Revered"] = "Respektvoll";
+--  LBIS.L["Right-Click"] = "";
   LBIS.L["Ring"] = "Finger";
   LBIS.L["Salramm the Fleshcrafter"] = "Salramm der Fleischformer";
   LBIS.L["Sapphiron"] = "Saphiron";
   LBIS.L["Sartharion"] = "Sartharion";
 --  LBIS.L["Scribe Saalyn"] = "";
+--  LBIS.L["Select"] = "";
+  LBIS.L["Settings"] = "Einstellungen";
   LBIS.L["Shadow"] = "Schatten";
   LBIS.L["Shadowmoon Valley"] = "Schattenmondtal";
   LBIS.L["Shattrath City"] = "Shattrath";
   LBIS.L["Shield"] = "Schild";
   LBIS.L["Sholazar Basin"] = "Das Sholazarbecken";
   LBIS.L["Shoulder"] = "Schulter";
-  LBIS.L["Show Minimap Button:"] = "Schaltfläche Minikarte anzeigen:";
-  LBIS.L["Show Tooltip:"] = "Kurzinfo anzeigen:";
+  LBIS.L["Show Minimap Button"] = "Schaltfläche Minikarte anzeigen";
+  LBIS.L["Show Tooltip"] = "Kurzinfo anzeigen";
   LBIS.L["Sjonnir The Ironshaper"] = "Sjonnir der Eisenformer";
   LBIS.L["Skadi the Ruthless"] = "Skadi der Skrupellose";
   LBIS.L["Skarvald the Constructor"] = "Skarvald der Konstrukteur";

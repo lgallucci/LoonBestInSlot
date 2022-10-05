@@ -1,6 +1,5 @@
 if GetLocale() == "koKR" then
   LBIS.L["# Best for:"] = "# 최고";
---  LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "";
 --  LBIS.L["10000 Honor (PvP)"] = " (PvP)";
   LBIS.L["A Wing and a Prayer"] = "기도는 날개를 타고";
 --  LBIS.L["Accessories Quartermaster"] = "";
@@ -68,6 +67,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Death to the Traitor King"] = "배신자 왕에게 죽음을";
   LBIS.L["Demolitionist Extraordinaire"] = "최고의 폭파병";
   LBIS.L["Demonology"] = "악마";
+--  LBIS.L["Deselect"] = "";
   LBIS.L["Destruction"] = "파괴";
   LBIS.L["Discipline"] = "수양";
   LBIS.L["Dragonblight"] = "용의 안식처";
@@ -165,6 +165,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Krystallus"] = "크리스탈루스";
   LBIS.L["Lavanthor"] = "라반토르";
   LBIS.L["Leatherworking"] = "가죽세공";
+--  LBIS.L["Left-Click"] = "";
 --  LBIS.L["Legacy"] = "";
   LBIS.L["Legs"] = "다리";
   LBIS.L["Ley-Guardian Eregos"] = "지맥 수호자 에레고스";
@@ -204,6 +205,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Off Hand"] = "보조장비";
   LBIS.L["One of a Kind"] = "증거를 찾아라";
 --  LBIS.L["Onyxia's Lair'"] = "";
+--  LBIS.L["Open Browser Window"] = "";
+--  LBIS.L["Open Settings"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "정원사 오르모로크";
   LBIS.L["Patchwerk"] = "패치워크";
 --  LBIS.L["Phase 1"] = "";
@@ -230,19 +233,22 @@ if GetLocale() == "koKR" then
   LBIS.L["Retribution"] = "징벌";
   LBIS.L["Return My Remains"] = "유골 돌려주기";
   LBIS.L["Revered"] = "매우 우호적";
+--  LBIS.L["Right-Click"] = "";
   LBIS.L["Ring"] = "손가락";
   LBIS.L["Salramm the Fleshcrafter"] = "살덩이창조자 살람";
   LBIS.L["Sapphiron"] = "사피론";
   LBIS.L["Sartharion"] = "살타리온";
 --  LBIS.L["Scribe Saalyn"] = "";
+--  LBIS.L["Select"] = "";
+  LBIS.L["Settings"] = "설정";
   LBIS.L["Shadow"] = "암흑";
   LBIS.L["Shadowmoon Valley"] = "어둠달 골짜기";
   LBIS.L["Shattrath City"] = "샤트라스";
   LBIS.L["Shield"] = "방패";
   LBIS.L["Sholazar Basin"] = "숄라자르 분지";
   LBIS.L["Shoulder"] = "어깨";
---  LBIS.L["Show Minimap Button:"] = "";
---  LBIS.L["Show Tooltip:"] = "";
+--  LBIS.L["Show Minimap Button"] = "";
+--  LBIS.L["Show Tooltip"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "무쇠구체자 쇼니르";
   LBIS.L["Skadi the Ruthless"] = "학살자 스카디";
   LBIS.L["Skarvald the Constructor"] = "건축가 스카발드";

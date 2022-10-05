@@ -1,6 +1,5 @@
 if GetLocale() == "zhTW" then
   LBIS.L["# Best for:"] = "# 最适合";
---  LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "";
 --  LBIS.L["10000 Honor (PvP)"] = " (PvP)";
   LBIS.L["A Wing and a Prayer"] = "飛翼與祈禱";
 --  LBIS.L["Accessories Quartermaster"] = "";
@@ -68,6 +67,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Death to the Traitor King"] = "狙殺逆王";
   LBIS.L["Demolitionist Extraordinaire"] = "傑出的爆破專家";
   LBIS.L["Demonology"] = "惡魔學識";
+--  LBIS.L["Deselect"] = "";
   LBIS.L["Destruction"] = "毀滅";
   LBIS.L["Discipline"] = "戒律";
   LBIS.L["Dragonblight"] = "龍骨荒野";
@@ -165,6 +165,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Krystallus"] = "克利斯托魯斯";
   LBIS.L["Lavanthor"] = "拉方索";
   LBIS.L["Leatherworking"] = "製皮";
+--  LBIS.L["Left-Click"] = "";
 --  LBIS.L["Legacy"] = "";
   LBIS.L["Legs"] = "腿部";
   LBIS.L["Ley-Guardian Eregos"] = "地脈守護者伊瑞茍斯";
@@ -204,6 +205,8 @@ if GetLocale() == "zhTW" then
   LBIS.L["Off Hand"] = "副手";
   LBIS.L["One of a Kind"] = "獨一無二";
 --  LBIS.L["Onyxia's Lair'"] = "";
+--  LBIS.L["Open Browser Window"] = "";
+--  LBIS.L["Open Settings"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "『塑樹者』歐爾莫洛克";
   LBIS.L["Patchwerk"] = "縫補者";
 --  LBIS.L["Phase 1"] = "";
@@ -230,19 +233,22 @@ if GetLocale() == "zhTW" then
   LBIS.L["Retribution"] = "懲戒";
   LBIS.L["Return My Remains"] = "交回我的殘骸";
   LBIS.L["Revered"] = "崇敬";
+--  LBIS.L["Right-Click"] = "";
   LBIS.L["Ring"] = "手指";
   LBIS.L["Salramm the Fleshcrafter"] = "『血肉工匠』塞歐朗姆";
   LBIS.L["Sapphiron"] = "薩菲隆";
   LBIS.L["Sartharion"] = "撒爾薩里安";
 --  LBIS.L["Scribe Saalyn"] = "";
+--  LBIS.L["Select"] = "";
+  LBIS.L["Settings"] = "設定";
   LBIS.L["Shadow"] = "暗影";
   LBIS.L["Shadowmoon Valley"] = "影月谷";
   LBIS.L["Shattrath City"] = "撒塔斯城";
   LBIS.L["Shield"] = "盾牌";
   LBIS.L["Sholazar Basin"] = "休拉薩盆地";
   LBIS.L["Shoulder"] = "肩部";
---  LBIS.L["Show Minimap Button:"] = "";
---  LBIS.L["Show Tooltip:"] = "";
+--  LBIS.L["Show Minimap Button"] = "";
+--  LBIS.L["Show Tooltip"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "『塑鐵者』斯雍尼爾";
   LBIS.L["Skadi the Ruthless"] = "無情的斯卡迪";
   LBIS.L["Skarvald the Constructor"] = "『建造者』史卡沃";

@@ -49,8 +49,8 @@ LBIS:AddItem(spec, "40591", LBIS.L["Feet"], "BIS") --Melancholy Sabatons
 LBIS:AddItem(spec, "39706", LBIS.L["Feet"], "BIS") --Sabatons of Sudden Reprisal
 LBIS:AddItem(spec, "40206", LBIS.L["Feet"], "Alt") --Iron-Spring Jumpers
 
-LBIS:AddItem(spec, "44664", LBIS.L["Neck"], "BIS") --Favor of the Dragon Queen
-LBIS:AddItem(spec, "44659", LBIS.L["Neck"], "Alt") --Pendant of the Dragonsworn
+LBIS:AddItem(spec, "44665", LBIS.L["Neck"], "BIS") --Nexus War Champion Beads
+LBIS:AddItem(spec, "44660", LBIS.L["Neck"], "Alt") --Drakescale Collar
 LBIS:AddItem(spec, "39421", LBIS.L["Neck"], "Alt") --Gem of Imprisoned Vassals
 
 LBIS:AddItem(spec, "40075", LBIS.L["Ring"], "BIS") --Ruthlessness

@@ -45,9 +45,9 @@ LBIS:AddItem(spec, "40678", LBIS.L["Neck"], "BIS") --Pendant of the Outcast Hero
 LBIS:AddItem(spec, "37397", LBIS.L["Neck"], "BIS") --Gold Amulet of Kings
 
 LBIS:AddItem(spec, "37642", LBIS.L["Ring"], "BIS") --Hemorrhaging Circle
+LBIS:AddItem(spec, "44935", LBIS.L["Ring"], "BIS") --Ring of the Kirin Tor
+LBIS:AddItem(spec, "42642", LBIS.L["Ring"], "BIS") --Titanium Impact Band
 LBIS:AddItem(spec, "43251", LBIS.L["Ring"], "Alt") --Ring of Scarlet Shadows
-LBIS:AddItem(spec, "42642", LBIS.L["Ring"], "Alt") --Titanium Impact Band
-LBIS:AddItem(spec, "44935", LBIS.L["Ring"], "Alt") --Ring of the Kirin Tor
 LBIS:AddItem(spec, "37151", LBIS.L["Ring"], "Alt") --Band of Frosted Thorns
 
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness

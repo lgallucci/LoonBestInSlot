@@ -131,7 +131,6 @@ LBIS:AddItem(spec, "40373", LBIS.L["Trinket"], "BIS") --Extract of Necromantic P
 LBIS:AddItem(spec, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spider
 LBIS:AddItem(spec, "40682", LBIS.L["Trinket"], "Alt") --Sundial of the Exiled
 LBIS:AddItem(spec, "37873", LBIS.L["Trinket"], "Alt") --Mark of the War Prisoner
-LBIS:AddItem(spec, "42990", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Death
 
 LBIS:AddItem(spec, "40395", LBIS.L["Main Hand"], "BIS") --Torch of Holy Fire
 LBIS:AddItem(spec, "39424", LBIS.L["Main Hand"], "Alt") --The Soulblade
