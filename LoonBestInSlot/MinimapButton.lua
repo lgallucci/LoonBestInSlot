@@ -6,24 +6,28 @@ function LBIS:RegisterMiniMap()
     if LDB then
   
         local databroker = LDB:NewDataObject ("LoonBestInSlot", {
-        type = "data source",
-        icon = "Interface\\AddOns\\LoonBestInSlot\\Icons\\loon",
-        text = "0",
+            type = "data source",
+            icon = "Interface\\AddOns\\LoonBestInSlot\\Icons\\loon",
+            text = "0",
         
-        HotCornerIgnore = true,
+            HotCornerIgnore = true,
         
-        OnClick = function (self, button)
+            OnClick = function (self, button)
         
-            if button == "LeftButton" then 
-                LBIS.BrowserWindow:ToggleWindow()
-            end
+                if button == "LeftButton" then 
+                    LBIS.BrowserWindow:ToggleWindow()
+                elseif button == "RightButton" then
+		            InterfaceOptionsFrame_Show()
+		            InterfaceOptionsFrame_OpenToCategory("Loon Best In Slot")
+                end
 
-        end,
+            end,
 
-        OnTooltipShow = function (tooltip)
-            tooltip:AddLine (LBIS.L["Loon Best In Slot"]);
-            tooltip:AddLine(LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"]);
-        end,
+            OnTooltipShow = function (tooltip)
+                tooltip:AddLine (LBIS.L["Loon Best In Slot"]);
+                tooltip:AddLine("|cFF9CD6DE"..LBIS.L["Left-Click"].."|r: "..LBIS.L["Open Browser Window"]);
+                tooltip:AddLine("|cFF9CD6DE"..LBIS.L["Right-Click"].."|r: "..LBIS.L["Open Settings"]);
+            end,
         })
         
         if (databroker and not LBISButton:IsRegistered ("LoonBestInSlot")) then

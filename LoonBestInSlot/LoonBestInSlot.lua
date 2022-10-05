@@ -13,14 +13,15 @@ LBIS.AllItemsCached = false;
 LBIS.CurrentPhase = 1;
 LBIS.EventFrame = CreateFrame("FRAME",addonName.."Events")
 
-LBISSettings = LBISSettings or { SelectedSpec = "", SelectedSlot = LBIS.L["All"], SelectedPhase = LBIS.L["All"], SelectedSourceType = LBIS.L["All"], SelectedZone = LBIS.L["All"], minimap = { hide = false, minimapPos = 180}, ShowTooltip = true }
-
 SLASH_LOONBESTINSLOT1 = '/bis'
 SlashCmdList["LOONBESTINSLOT"] = function(command)
 	command = command:lower()
     
 	if command == "" then
 		LBIS.BrowserWindow:OpenWindow()
+	elseif command == "settings"	then
+		InterfaceOptionsFrame_Show()
+		InterfaceOptionsFrame_OpenToCategory("Loon Best In Slot")
 	end
 end
 
@@ -30,6 +31,7 @@ function LBIS:Startup()
 		LBISSettings.ShowTooltip = true;
 	end
 
+	LBIS:CreateSettings();
 	LBIS:RegisterMiniMap();
     LBIS:PreCacheItems();
 end
@@ -77,7 +79,7 @@ function LBIS:RegisterSpec(class, spec, phase)
 		Phase = phase
 	}
 	
-	classSpec.Id = class..spec
+	classSpec.Id = spec..class
 
     LBIS.ClassSpec[classSpec.Id] = classSpec
 

@@ -8,9 +8,6 @@ local function iconOffset(col, row)
 end
 
 local function buildExtraTip(tooltip, entry)
-    local r,g,b = .9,.8,.5
-    LibExtraTip:AddLine(tooltip," ",r,g,b,true)
-	LibExtraTip:AddLine(tooltip,LBIS.L["# Best for:"],r,g,b,true)
 
 	local combinedTooltip = {};
 	local mageCount, warriorDpsCount, warlockCount = 0, 0, 0;
@@ -44,31 +41,39 @@ local function buildExtraTip(tooltip, entry)
 	end
 
 	for k, v in pairs(entry) do
-		local classSpec = LBIS.ClassSpec[k]
-		local foundMatch = false;
+		if LBISSettings.Tooltip[k] then
+			local classSpec = LBIS.ClassSpec[k]
+			local foundMatch = false;
 
-		for _, ttItem in pairs(combinedTooltip) do
-			if (ttItem.Class == LBIS.L["Warrior"] and warriorDpsCount == 2) or 
-			   (ttItem.Class == LBIS.L["Warlock"] and warlockCount == 3) or 
-			   (ttItem.Class == LBIS.L["Mage"] and mageCount == 3) or
-			   (ttItem.Class == LBIS.L["Hunter"] and hunterCount == 3) or
-			   (ttItem.Class == LBIS.L["Death Knight"] and dkCount == 3) or
-			   (ttItem.Class == LBIS.L["Rogue"] and rogueCount == 3) then
-				if classSpec.Class == ttItem.Class and v.Bis == ttItem.Bis and v.Phase == ttItem.Phase then
-					foundMatch = true;
-					if ttItem.Class == LBIS.L["Warrior"] and (ttItem.Spec == LBIS.L["Fury"] or ttItem.Spec == LBIS.L["Arms"]) then
-						ttItem.Spec = "DPS";
-					else
-						ttItem.Spec = "";
+			for _, ttItem in pairs(combinedTooltip) do
+				if (ttItem.Class == LBIS.L["Warrior"] and warriorDpsCount == 2) or 
+				   (ttItem.Class == LBIS.L["Warlock"] and warlockCount == 3) or 
+				   (ttItem.Class == LBIS.L["Mage"] and mageCount == 3) or
+				   (ttItem.Class == LBIS.L["Hunter"] and hunterCount == 3) or
+				   (ttItem.Class == LBIS.L["Death Knight"] and dkCount == 3) or
+				   (ttItem.Class == LBIS.L["Rogue"] and rogueCount == 3) then
+					if classSpec.Class == ttItem.Class and v.Bis == ttItem.Bis and v.Phase == ttItem.Phase then
+						foundMatch = true;
+						if ttItem.Class == LBIS.L["Warrior"] and (ttItem.Spec == LBIS.L["Fury"] or ttItem.Spec == LBIS.L["Arms"]) then
+							ttItem.Spec = "DPS";
+						else
+							ttItem.Spec = "";
+						end
 					end
 				end
 			end
-		end
 
-		if not foundMatch then
-			table.insert(combinedTooltip, { Class = classSpec.Class, Spec = classSpec.Spec, Bis = v.Bis, Phase = v.Phase })
+			if not foundMatch then
+				table.insert(combinedTooltip, { Class = classSpec.Class, Spec = classSpec.Spec, Bis = v.Bis, Phase = v.Phase })
+			end
+		
 		end
-
+	end
+	
+	if #combinedTooltip then
+		local r,g,b = .9,.8,.5
+		LibExtraTip:AddLine(tooltip," ",r,g,b,true)
+		LibExtraTip:AddLine(tooltip,LBIS.L["# Best for:"],r,g,b,true)
 	end
 
 	for k, v in pairs(combinedTooltip) do
@@ -85,13 +90,14 @@ local function buildExtraTip(tooltip, entry)
 	end	
 end
 
+
 local function onTooltipSetItem(tooltip, itemLink, quantity)
     if not itemLink then return end
     
 	local itemString = string.match(itemLink, "item[%-?%d:]+")
 	local itemId = ({ strsplit(":", itemString) })[2]
 
-	if LBIS.Items[itemId] and LBISSettings.ShowTooltip then
+	if LBIS.Items[itemId] then
 		buildExtraTip(tooltip, LBIS.Items[itemId])
 	end
 end  

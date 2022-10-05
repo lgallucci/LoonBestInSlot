@@ -18,6 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoonBestInSlot", "LoonBestI
 		LoonBestInSlot\LoonBestInSlot.toc = LoonBestInSlot\LoonBestInSlot.toc
 		LoonBestInSlot\LootBrowser.lua = LoonBestInSlot\LootBrowser.lua
 		LoonBestInSlot\MinimapButton.lua = LoonBestInSlot\MinimapButton.lua
+		LoonBestInSlot\Settings.lua = LoonBestInSlot\Settings.lua
 		LoonBestInSlot\UpdateTooltips.lua = LoonBestInSlot\UpdateTooltips.lua
 		LoonBestInSlot\UserItemCache.lua = LoonBestInSlot\UserItemCache.lua
 	EndProjectSection
@@ -184,6 +185,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GemsAndEnchants", "GemsAndE
 		LoonBestInSlot\Guides\GemsAndEnchants\WarriorProtection.lua = LoonBestInSlot\Guides\GemsAndEnchants\WarriorProtection.lua
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AceConfig-3.0", "AceConfig-3.0", "{D120DA08-F676-42B9-8098-2932FCCC9423}"
+	ProjectSection(SolutionItems) = preProject
+		LoonBestInSlot\libs\AceConfig-3.0\AceConfig-3.0.lua = LoonBestInSlot\libs\AceConfig-3.0\AceConfig-3.0.lua
+		LoonBestInSlot\libs\AceConfig-3.0\AceConfig-3.0.xml = LoonBestInSlot\libs\AceConfig-3.0\AceConfig-3.0.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AceConfigCmd-3.0", "AceConfigCmd-3.0", "{79943468-39CC-47B8-9BA2-D1BEB1481B22}"
+	ProjectSection(SolutionItems) = preProject
+		LoonBestInSlot\libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua = LoonBestInSlot\libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua
+		LoonBestInSlot\libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.xml = LoonBestInSlot\libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AceConfigRegistry-3.0", "AceConfigRegistry-3.0", "{CB13DF8E-3A51-4230-B18B-153DB7041023}"
+	ProjectSection(SolutionItems) = preProject
+		LoonBestInSlot\libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua = LoonBestInSlot\libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua
+		LoonBestInSlot\libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.xml = LoonBestInSlot\libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AceConfigDialog-3.0", "AceConfigDialog-3.0", "{FC51EBBB-FB32-4E7E-8104-05302B1A927A}"
+	ProjectSection(SolutionItems) = preProject
+		LoonBestInSlot\libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua = LoonBestInSlot\libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua
+		LoonBestInSlot\libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.xml = LoonBestInSlot\libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -208,6 +233,10 @@ Global
 		{D4DB39EB-F46D-4D10-B652-3880F4FE2507} = {6685BDBB-9627-45A1-96D3-46D882F28A67}
 		{248C145B-5864-4FE2-80B1-42D3565F2193} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
 		{BB82E965-D030-4ECA-9E97-DF33E4090AFB} = {6685BDBB-9627-45A1-96D3-46D882F28A67}
+		{D120DA08-F676-42B9-8098-2932FCCC9423} = {5D7B4E6E-0F3B-4D5C-B6FE-1447C37D766C}
+		{79943468-39CC-47B8-9BA2-D1BEB1481B22} = {D120DA08-F676-42B9-8098-2932FCCC9423}
+		{CB13DF8E-3A51-4230-B18B-153DB7041023} = {D120DA08-F676-42B9-8098-2932FCCC9423}
+		{FC51EBBB-FB32-4E7E-8104-05302B1A927A} = {D120DA08-F676-42B9-8098-2932FCCC9423}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EC8A0A9-B7E7-48E2-9272-317A8A0C0916}
