@@ -62,7 +62,7 @@ local lbis_options = {
 			desc = LBIS.L["Show Minimap Button"],
 			get = function(info) return not LBISSettings.minimap.hide end,
 			set = function(info, val)
-					LBISSettings.minimap.hide = not val
+					LBIS:ShowHideMiniMap(not val)
 				end,
 			width = 2.5,
 			order = 2,
