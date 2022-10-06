@@ -40,6 +40,7 @@ local function buildExtraTip(tooltip, entry)
 		end
 	end
 
+	local showTooltip = false;
 	for k, v in pairs(entry) do
 		if LBISSettings.Tooltip[k] then
 			local classSpec = LBIS.ClassSpec[k]
@@ -65,12 +66,13 @@ local function buildExtraTip(tooltip, entry)
 
 			if not foundMatch then
 				table.insert(combinedTooltip, { Class = classSpec.Class, Spec = classSpec.Spec, Bis = v.Bis, Phase = v.Phase })
+				showTooltip = true;
 			end
 		
 		end
 	end
-	
-	if #combinedTooltip then
+
+	if showTooltip then
 		local r,g,b = .9,.8,.5
 		LibExtraTip:AddLine(tooltip," ",r,g,b,true)
 		LibExtraTip:AddLine(tooltip,LBIS.L["# Best for:"],r,g,b,true)
