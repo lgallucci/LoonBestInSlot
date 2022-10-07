@@ -559,30 +559,37 @@ public partial class WowheadReader : Window
     {
         foreach (var item in dbItem.Items)
         {
-            if (csvLootTable.ContainsKey(item.Key))
+            var sourceSplit = item.Value.Source.Split("/");
+            var sourceNumberSplit = item.Value.SourceNumber.Split("/");
+            var sourceLocationSplit = item.Value.SourceLocation.Split("/");
+
+            for (int i = 0; i < sourceSplit.Length; i++)
             {
-                csvLootTable[item.Key].AddItem(new ImportItemSource
+                if (csvLootTable.ContainsKey(item.Key))
                 {
-                    SourceType = item.Value.SourceType,
-                    Source = item.Value.Source,
-                    SourceNumber = item.Value.SourceNumber,
-                    SourceLocation = item.Value.SourceLocation
-                });
-            }
-            else
-            {
-                csvLootTable.Add(item.Key, new CsvLootTable
-                {
-                    ItemId = item.Key,
-                    Name = item.Value.Name,
-                    ItemSource = { new ImportItemSource
+                    csvLootTable[item.Key].AddItem(new ImportItemSource
                     {
-                        SourceType = item.Value.SourceType ,
-                        SourceLocation =item.Value.SourceLocation ,
-                        Source =  item.Value.Source,
-                        SourceNumber = item.Value.SourceNumber
-                    } }
-                });
+                        SourceType = item.Value.SourceType,
+                        Source = sourceSplit[i],
+                        SourceNumber = sourceNumberSplit[i],
+                        SourceLocation = sourceLocationSplit[i]
+                    });
+                }
+                else
+                {
+                    csvLootTable.Add(item.Key, new CsvLootTable
+                    {
+                        ItemId = item.Key,
+                        Name = item.Value.Name,
+                        ItemSource = { new ImportItemSource
+                        {
+                            SourceType = item.Value.SourceType,
+                            Source = sourceSplit[i],
+                            SourceNumber = sourceNumberSplit[i],
+                            SourceLocation = sourceLocationSplit[i]
+                        } }
+                    });
+                }
             }
         }
     }
