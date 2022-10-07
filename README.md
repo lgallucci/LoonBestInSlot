@@ -1,7 +1,7 @@
 # LoonBestInSlot
 Loon Best in Slot addon for WOW WOTLK Classic
 
-Features
+## Features
 
 Wowhead BIS guides integrated in game
 Toggleable minimap button and tooltip integration
@@ -10,6 +10,6 @@ Fully functional loot browser that allows filtering by class / spec / phase / sl
 Show recommended gems and enchants for your class and spec
 Loot browser will show you any item you are currently wearing or is in your bags.  With bagnon installed will also show what's in your bank.
 
-Slash Commands
+## Slash Commands
 
 /bis - Opens the loot browser window
