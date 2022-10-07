@@ -11,4 +11,5 @@ Show recommended gems and enchants for your class and spec
 Loot browser will show you any item you are currently wearing or is in your bags.  With bagnon installed will also show what's in your bank.
 
 Slash Commands
+
 /bis - Opens the loot browser window
