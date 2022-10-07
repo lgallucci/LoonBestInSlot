@@ -5,6 +5,7 @@ LBIS:AddItem(spec, "34405", LBIS.L["Head"], "Alt") --Helm of Arcane Purity
 LBIS:AddItem(spec, "34339", LBIS.L["Head"], "Transmute Alt") --Cowl of Light's Purity
 LBIS:AddItem(spec, "37294", LBIS.L["Head"], "Alt") --Crown of Unbridled Magic
 LBIS:AddItem(spec, "44910", LBIS.L["Head"], "Alt") --Titan-Forged Hood of Dominance
+LBIS:AddItem(spec, "44909", LBIS.L["Head"], "Alt") --Titan-Forged Hood of Salvation
 LBIS:AddItem(spec, "41991", LBIS.L["Head"], "Alt") --Hateful Gladiator's Felweave Cowl
 LBIS:AddItem(spec, "42553", LBIS.L["Head"], "BIS") --Visage Liquification Goggles
 LBIS:AddItem(spec, "34340", LBIS.L["Head"], "Alt") --Dark Conjuror's Collar

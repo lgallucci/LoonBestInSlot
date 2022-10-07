@@ -1,6 +1,7 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "0")
 
 LBIS:AddItem(spec, "42553", LBIS.L["Head"], "BIS") --Visage Liquification Goggles
+LBIS:AddItem(spec, "44909", LBIS.L["Head"], "BIS") --Titan-Forged Hood of Salvation
 LBIS:AddItem(spec, "34339", LBIS.L["Head"], "BIS") --Cowl of Light's Purity
 LBIS:AddItem(spec, "37684", LBIS.L["Head"], "BIS") --Forgotten Shadow Hood
 LBIS:AddItem(spec, "34340", LBIS.L["Head"], "Alt") --Dark Conjuror's Collar

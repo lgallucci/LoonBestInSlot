@@ -88,9 +88,10 @@ LBIS:AddItem(spec, "37591", LBIS.L["Ring"], "Alt Mit") --Nerubian Shield Ring
 LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "BIS Stam") --Figurine - Monarch Crab
 LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "Alt Stam") --Essence of Gossamer
 LBIS:AddItem(spec, "42341", LBIS.L["Trinket"], "Alt Stam") --Figurine - Ruby Hare
+LBIS:AddItem(spec, "37872", LBIS.L["Trinket"], "Alt") --Lavanthor's Talisman
 LBIS:AddItem(spec, "29387", LBIS.L["Trinket"], "Alt") --Gnomeregan Auto-Blocker 600
 LBIS:AddItem(spec, "38289", LBIS.L["Trinket"], "Alt") --Coren's Lucky Coin
-LBIS:AddItem(spec, "37166", LBIS.L["Trinket"], "Alt Thrt") --Sphere of Red Dragon's Blood
+LBIS:AddItem(spec, "37166", LBIS.L["Trinket"], "Alt") --Sphere of Red Dragon's Blood
 LBIS:AddItem(spec, "36993", LBIS.L["Trinket"], "Alt Mit") --Seal of the Pantheon
 LBIS:AddItem(spec, "44323", LBIS.L["Trinket"], "Alt Stam") --Indestructible Alchemist's Stone
 LBIS:AddItem(spec, "40767", LBIS.L["Trinket"], "Alt Stam") --Sonic Booster

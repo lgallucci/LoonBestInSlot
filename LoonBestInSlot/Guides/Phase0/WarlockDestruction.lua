@@ -8,6 +8,7 @@ LBIS:AddItem(spec, "41991", LBIS.L["Head"], "Alt") --Hateful Gladiator's Felweav
 LBIS:AddItem(spec, "37684", LBIS.L["Head"], "Alt") --Forgotten Shadow Hood
 LBIS:AddItem(spec, "34340", LBIS.L["Head"], "Alt") --Dark Conjuror's Collar
 LBIS:AddItem(spec, "37294", LBIS.L["Head"], "Alt") --Crown of Unbridled Magic
+LBIS:AddItem(spec, "44909", LBIS.L["Head"], "Alt") --Titan-Forged Hood of Salvation
 LBIS:AddItem(spec, "32525", LBIS.L["Head"], "Alt") --Cowl of the Illidari High Lord
 LBIS:AddItem(spec, "31051", LBIS.L["Head"], "Alt") --Hood of the Malefic
 LBIS:AddItem(spec, "31097", LBIS.L["Head"], "Alt") --Helm of the Forgotten Conqueror
