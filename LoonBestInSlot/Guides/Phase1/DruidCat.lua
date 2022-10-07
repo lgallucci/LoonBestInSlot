@@ -49,7 +49,7 @@ LBIS:AddItem(spec, "39279", LBIS.L["Waist"], "Alt") --Blistered Belt of Decay
 
 LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "BIS") --Leggings of the Honored
 LBIS:AddItem(spec, "40493", LBIS.L["Legs"], "Alt") --Valorous Dreamwalker Legguards
-LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "Alt") --Leggings of the Lost Vanquisher
+LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "Alt") --Legplates of the Lost Vanquisher
 LBIS:AddItem(spec, "39761", LBIS.L["Legs"], "Alt") --Infectious Skitterer Leggings
 LBIS:AddItem(spec, "40333", LBIS.L["Legs"], "Alt") --Leggings of Fleeting Moments
 LBIS:AddItem(spec, "39224", LBIS.L["Legs"], "Alt") --Leggings of Discord

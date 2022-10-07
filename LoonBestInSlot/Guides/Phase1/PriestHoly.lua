@@ -12,11 +12,12 @@ LBIS:AddItem(spec, "40339", LBIS.L["Head"], "Alt") --Gothik's Cowl
 
 LBIS:AddItem(spec, "40555", LBIS.L["Shoulder"], "BIS") --Mantle of Dissemination
 LBIS:AddItem(spec, "40450", LBIS.L["Shoulder"], "BIS") --Valorous Shoulderpads of Faith
-LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
+LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 LBIS:AddItem(spec, "39719", LBIS.L["Shoulder"], "Alt") --Mantle of the Locusts
 LBIS:AddItem(spec, "40289", LBIS.L["Shoulder"], "Alt") --Sympathetic Amice
 LBIS:AddItem(spec, "40459", LBIS.L["Shoulder"], "Alt") --Valorous Mantle of Faith
 LBIS:AddItem(spec, "39518", LBIS.L["Shoulder"], "Alt") --Heroes' Shoulderpads of Faith
+LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Conqueror
 LBIS:AddItem(spec, "39310", LBIS.L["Shoulder"], "Alt") --Mantle of the Extensive Mind
 LBIS:AddItem(spec, "40351", LBIS.L["Shoulder"], "Alt") --Mantle of the Fatigued Sage
 

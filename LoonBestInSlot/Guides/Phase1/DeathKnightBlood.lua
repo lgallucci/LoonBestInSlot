@@ -34,7 +34,7 @@ LBIS:AddItem(spec, "40689", LBIS.L["Waist"], "Alt") --Waistguard of Living Iron
 
 LBIS:AddItem(spec, "40589", LBIS.L["Legs"], "BIS") --Legplates of Sovereignty
 LBIS:AddItem(spec, "40567", LBIS.L["Legs"], "Alt") --Valorous Scourgeborne Legguards
-LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "Alt") --Leggings of the Lost Vanquisher
+LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "Alt") --Legplates of the Lost Vanquisher
 LBIS:AddItem(spec, "40446", LBIS.L["Legs"], "Alt") --Dragon Brood Legguards
 
 LBIS:AddItem(spec, "40297", LBIS.L["Feet"], "BIS") --Sabatons of Endurance

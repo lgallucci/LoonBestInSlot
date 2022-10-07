@@ -34,9 +34,10 @@ LBIS:AddItem(spec, "37788", LBIS.L["Wrist"], "Alt") --Limb Regeneration Bracers
 LBIS:AddItem(spec, "37884", LBIS.L["Wrist"], "Alt") --Azure Cloth Bindings
 
 LBIS:AddItem(spec, "40515", LBIS.L["Hands"], "BIS") --Valorous Earthshatter Gloves
-LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "BIS") --Gloves of the Lost Protector
+LBIS:AddItem(spec, "40629", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Protector
 LBIS:AddItem(spec, "40302", LBIS.L["Hands"], "BIS") --Benefactor's Gauntlets
 LBIS:AddItem(spec, "39593", LBIS.L["Hands"], "Alt") --Heroes' Earthshatter Gloves
+LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
 LBIS:AddItem(spec, "40380", LBIS.L["Hands"], "Alt") --Gloves of Grandeur
 LBIS:AddItem(spec, "39243", LBIS.L["Hands"], "Alt") --Handgrips of the Foredoomed
 
@@ -48,7 +49,7 @@ LBIS:AddItem(spec, "40560", LBIS.L["Legs"], "BIS") --Leggings of the Wanton Spel
 LBIS:AddItem(spec, "40352", LBIS.L["Legs"], "Alt") --Leggings of Voracious Shadows
 LBIS:AddItem(spec, "39720", LBIS.L["Legs"], "Alt") --Leggings of Atrophy
 LBIS:AddItem(spec, "40517", LBIS.L["Legs"], "Alt") --Valorous Earthshatter Kilt
-LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "Alt") --Leggings of the Lost Protector
+LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "Alt") --Legplates of the Lost Protector
 LBIS:AddItem(spec, "39595", LBIS.L["Legs"], "Alt") --Heroes' Earthshatter Kilt
 LBIS:AddItem(spec, "40620", LBIS.L["Legs"], "Alt") --Leggings of the Lost Protector
 

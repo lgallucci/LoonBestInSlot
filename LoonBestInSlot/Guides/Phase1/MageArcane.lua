@@ -40,7 +40,7 @@ LBIS:AddItem(spec, "40301", LBIS.L["Waist"], "Alt") --Cincture of Polarity
 LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "Alt") --Plush Sash of Guzbah
 
 LBIS:AddItem(spec, "40417", LBIS.L["Legs"], "BIS") --Valorous Frostfire Leggings
-LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "BIS") --Leggings of the Lost Vanquisher
+LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "BIS") --Legplates of the Lost Vanquisher
 LBIS:AddItem(spec, "40398", LBIS.L["Legs"], "Alt") --Leggings of Mortal Arrogance
 LBIS:AddItem(spec, "39493", LBIS.L["Legs"], "Alt") --Heroes' Frostfire Leggings
 LBIS:AddItem(spec, "40621", LBIS.L["Legs"], "Alt") --Leggings of the Lost Vanquisher

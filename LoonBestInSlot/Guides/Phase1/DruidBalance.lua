@@ -56,7 +56,7 @@ LBIS:AddItem(spec, "40341", LBIS.L["Waist"], "Alt") --Shackled Cinch
 
 LBIS:AddItem(spec, "40560", LBIS.L["Legs"], "BIS") --Leggings of the Wanton Spellcaster
 LBIS:AddItem(spec, "40468", LBIS.L["Legs"], "BIS") --Valorous Dreamwalker Trousers
-LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "BIS") --Leggings of the Lost Vanquisher
+LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "BIS") --Legplates of the Lost Vanquisher
 LBIS:AddItem(spec, "39546", LBIS.L["Legs"], "Alt") --Heroes' Dreamwalker Trousers
 LBIS:AddItem(spec, "40621", LBIS.L["Legs"], "Alt") --Leggings of the Lost Vanquisher
 LBIS:AddItem(spec, "40379", LBIS.L["Legs"], "Alt") --Legguards of the Boneyard

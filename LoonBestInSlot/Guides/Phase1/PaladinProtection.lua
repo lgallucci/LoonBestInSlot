@@ -10,10 +10,11 @@ LBIS:AddItem(spec, "41387", LBIS.L["Head"], "Alt") --Tempered Titansteel Helm
 LBIS:AddItem(spec, "40366", LBIS.L["Head"], "Alt") --Platehelm of the Great Wyrm
 
 LBIS:AddItem(spec, "40584", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Shoulderguards
-LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
+LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 LBIS:AddItem(spec, "40334", LBIS.L["Shoulder"], "Alt") --Burdened Shoulderplates
 LBIS:AddItem(spec, "39704", LBIS.L["Shoulder"], "Alt Thrt") --Pauldrons of Unnatural Death
 LBIS:AddItem(spec, "39642", LBIS.L["Shoulder"], "Alt") --Heroes' Redemption Shoulderguards
+LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Conqueror
 
 LBIS:AddItem(spec, "40722", LBIS.L["Back"], "BIS") --Platinum Mesh Cloak
 LBIS:AddItem(spec, "40410", LBIS.L["Back"], "Alt Mit") --Shadow of the Ghoul
@@ -74,13 +75,13 @@ LBIS:AddItem(spec, "39141", LBIS.L["Ring"], "Alt") --Deflection Band
 LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "BIS Stam") --Figurine - Monarch Crab
 LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "BIS Stam") --Essence of Gossamer
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS Thrt") --Darkmoon Card: Greatness
-LBIS:AddItem(spec, "29387", LBIS.L["Trinket"], "Alt Mit") --Gnomeregan Auto-Blocker 600
+LBIS:AddItem(spec, "29387", LBIS.L["Trinket"], "Mit") --Gnomeregan Auto-Blocker 600
 LBIS:AddItem(spec, "39292", LBIS.L["Trinket"], "Alt Mit") --Repelling Charge
 LBIS:AddItem(spec, "40683", LBIS.L["Trinket"], "Alt Mit") --Valor Medal of the First War
 LBIS:AddItem(spec, "40372", LBIS.L["Trinket"], "Alt Mit") --Rune of Repulsion
 
-LBIS:AddItem(spec, "40402", LBIS.L["Main Hand"], "BIS") --Last Laugh
-LBIS:AddItem(spec, "40345", LBIS.L["Main Hand"], "BIS") --Broken Promise
+LBIS:AddItem(spec, "40402", LBIS.L["Main Hand"], "BIS Mit") --Last Laugh
+LBIS:AddItem(spec, "40345", LBIS.L["Main Hand"], "BIS Thrt") --Broken Promise
 LBIS:AddItem(spec, "37401", LBIS.L["Main Hand"], "Alt") --Red Sword of Courage
 LBIS:AddItem(spec, "39344", LBIS.L["Main Hand"], "Alt") --Slayer of the Lifeless
 

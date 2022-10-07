@@ -62,7 +62,7 @@ LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "BIS") --Leggings of the Honored
 LBIS:AddItem(spec, "39224", LBIS.L["Legs"], "Alt") --Leggings of Discord
 LBIS:AddItem(spec, "39761", LBIS.L["Legs"], "Alt") --Infectious Skitterer Leggings
 LBIS:AddItem(spec, "40500", LBIS.L["Legs"], "Alt") --Valorous Bonescythe Legplates
-LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "Alt") --Leggings of the Lost Vanquisher
+LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "Alt") --Legplates of the Lost Vanquisher
 LBIS:AddItem(spec, "40333", LBIS.L["Legs"], "Alt") --Leggings of Fleeting Moments
 LBIS:AddItem(spec, "39564", LBIS.L["Legs"], "Alt") --Heroes' Bonescythe Legplates
 LBIS:AddItem(spec, "40621", LBIS.L["Legs"], "Alt") --Leggings of the Lost Vanquisher

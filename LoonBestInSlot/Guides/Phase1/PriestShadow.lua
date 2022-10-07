@@ -13,12 +13,13 @@ LBIS:AddItem(spec, "39732", LBIS.L["Head"], "Alt") --Faerlina's Madness
 
 LBIS:AddItem(spec, "40555", LBIS.L["Shoulder"], "BIS") --Mantle of Dissemination
 LBIS:AddItem(spec, "40459", LBIS.L["Shoulder"], "Alt") --Valorous Mantle of Faith
-LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "Alt") --Mantle of the Lost Conqueror
+LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "Alt") --Mantle of the Lost Conqueror
 LBIS:AddItem(spec, "40286", LBIS.L["Shoulder"], "Alt") --Mantle of the Corrupted
 LBIS:AddItem(spec, "40351", LBIS.L["Shoulder"], "Alt") --Mantle of the Fatigued Sage
 LBIS:AddItem(spec, "39719", LBIS.L["Shoulder"], "Alt") --Mantle of the Locusts
 LBIS:AddItem(spec, "39284", LBIS.L["Shoulder"], "Alt") --Miasma Mantle
 LBIS:AddItem(spec, "39529", LBIS.L["Shoulder"], "Alt") --Heroes' Mantle of Faith
+LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Conqueror
 LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "Alt") --Amice of the Convoker
 LBIS:AddItem(spec, "40289", LBIS.L["Shoulder"], "Alt") --Sympathetic Amice
 LBIS:AddItem(spec, "39310", LBIS.L["Shoulder"], "Alt") --Mantle of the Extensive Mind

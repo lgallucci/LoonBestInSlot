@@ -13,12 +13,13 @@ LBIS:AddItem(spec, "39409", LBIS.L["Head"], "Alt") --Cowl of Winged Fear
 LBIS:AddItem(spec, "42553", LBIS.L["Head"], "Alt") --Visage Liquification Goggles
 
 LBIS:AddItem(spec, "40424", LBIS.L["Shoulder"], "BIS") --Valorous Plagueheart Shoulderpads
-LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
+LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 LBIS:AddItem(spec, "39719", LBIS.L["Shoulder"], "Alt") --Mantle of the Locusts
 LBIS:AddItem(spec, "40286", LBIS.L["Shoulder"], "Alt") --Mantle of the Corrupted
 LBIS:AddItem(spec, "40555", LBIS.L["Shoulder"], "Alt") --Mantle of Dissemination
 LBIS:AddItem(spec, "40351", LBIS.L["Shoulder"], "Alt") --Mantle of the Fatigued Sage
 LBIS:AddItem(spec, "39499", LBIS.L["Shoulder"], "Alt") --Heroes' Plagueheart Shoulderpads
+LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Conqueror
 
 LBIS:AddItem(spec, "44005", LBIS.L["Back"], "BIS") --Pennant Cloak
 LBIS:AddItem(spec, "40405", LBIS.L["Back"], "Alt") --Cape of the Unworthy Wizard

@@ -45,8 +45,9 @@ LBIS:AddItem(spec, "37884", LBIS.L["Wrist"], "Alt") --Azure Cloth Bindings
 
 LBIS:AddItem(spec, "40564", LBIS.L["Hands"], "BIS") --Winter Spectacle Gloves
 LBIS:AddItem(spec, "40509", LBIS.L["Hands"], "Alt") --Valorous Earthshatter Handguards
-LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
+LBIS:AddItem(spec, "40629", LBIS.L["Hands"], "Alt") --Gauntlets of the Lost Protector
 LBIS:AddItem(spec, "39591", LBIS.L["Hands"], "Alt") --Heroes' Earthshatter Handguards
+LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
 LBIS:AddItem(spec, "39718", LBIS.L["Hands"], "Alt") --Corpse Scarab Handguards
 LBIS:AddItem(spec, "40303", LBIS.L["Hands"], "Alt") --Wraps of the Persecuted
 LBIS:AddItem(spec, "40302", LBIS.L["Hands"], "Alt") --Benefactor's Gauntlets
@@ -58,7 +59,7 @@ LBIS:AddItem(spec, "39721", LBIS.L["Waist"], "BIS") --Sash of the Parlor
 LBIS:AddItem(spec, "40693", LBIS.L["Waist"], "Alt") --Beadwork Belt of Shamanic Vision
 
 LBIS:AddItem(spec, "40512", LBIS.L["Legs"], "BIS") --Valorous Earthshatter Legguards
-LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "BIS") --Leggings of the Lost Protector
+LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "BIS") --Legplates of the Lost Protector
 LBIS:AddItem(spec, "39589", LBIS.L["Legs"], "Alt") --Heroes' Earthshatter Legguards
 LBIS:AddItem(spec, "40620", LBIS.L["Legs"], "Alt") --Leggings of the Lost Protector
 LBIS:AddItem(spec, "40352", LBIS.L["Legs"], "Alt") --Leggings of Voracious Shadows

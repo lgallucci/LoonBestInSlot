@@ -32,10 +32,11 @@ LBIS:AddItem(spec, "37170", LBIS.L["Wrist"], "Alt") --Interwoven Scale Bracers
 
 LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "BIS") --Frosted Adroit Handguards
 LBIS:AddItem(spec, "40504", LBIS.L["Hands"], "Alt") --Valorous Cryptstalker Handguards
-LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
+LBIS:AddItem(spec, "40629", LBIS.L["Hands"], "Alt") --Gauntlets of the Lost Protector
 LBIS:AddItem(spec, "40262", LBIS.L["Hands"], "Alt") --Gloves of Calculated Risk
 LBIS:AddItem(spec, "39194", LBIS.L["Hands"], "Alt") --Rusted-Link Spiked Gauntlets
 LBIS:AddItem(spec, "39582", LBIS.L["Hands"], "Alt") --Heroes' Cryptstalker Handguards
+LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
 
 LBIS:AddItem(spec, "40275", LBIS.L["Waist"], "BIS") --Depraved Linked Belt
 LBIS:AddItem(spec, "39762", LBIS.L["Waist"], "Alt") --Torn Web Wrapping
@@ -44,7 +45,7 @@ LBIS:AddItem(spec, "37407", LBIS.L["Waist"], "Alt") --Sovereign's Belt
 LBIS:AddItem(spec, "37648", LBIS.L["Waist"], "Alt") --Belt of Tasseled Lanterns
 
 LBIS:AddItem(spec, "40506", LBIS.L["Legs"], "BIS") --Valorous Cryptstalker Legguards
-LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "BIS") --Leggings of the Lost Protector
+LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "BIS") --Legplates of the Lost Protector
 LBIS:AddItem(spec, "40331", LBIS.L["Legs"], "Alt") --Leggings of Failed Escape
 LBIS:AddItem(spec, "40201", LBIS.L["Legs"], "Alt") --Leggings of Colossal Strides
 LBIS:AddItem(spec, "37669", LBIS.L["Legs"], "Alt") --Leggings of the Stone Halls

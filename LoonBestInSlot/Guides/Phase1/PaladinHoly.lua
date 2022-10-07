@@ -8,7 +8,7 @@ LBIS:AddItem(spec, "40631", LBIS.L["Head"], "Alt") --Crown of the Lost Conqueror
 LBIS:AddItem(spec, "39295", LBIS.L["Head"], "Alt") --Cowl of Sheet Lightning
 
 LBIS:AddItem(spec, "40573", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Spaulders
-LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
+LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 LBIS:AddItem(spec, "40590", LBIS.L["Shoulder"], "Alt") --Elevated Lair Pauldrons
 LBIS:AddItem(spec, "40377", LBIS.L["Shoulder"], "Alt") --Noble Birthright Pauldrons
 

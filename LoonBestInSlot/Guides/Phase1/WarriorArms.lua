@@ -19,20 +19,23 @@ LBIS:AddItem(spec, "40250", LBIS.L["Back"], "BIS") --Aged Winter Cloak
 LBIS:AddItem(spec, "39404", LBIS.L["Back"], "Alt") --Cloak of Mastery
 LBIS:AddItem(spec, "37647", LBIS.L["Back"], "Alt") --Cloak of Bloodied Waters
 
-LBIS:AddItem(spec, "40525", LBIS.L["Chest"], "BIS") --Valorous Dreadnaught Battleplate
-LBIS:AddItem(spec, "40626", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Protector
+LBIS:AddItem(spec, "40539", LBIS.L["Chest"], "BIS") --Chestguard of the Recluse
+LBIS:AddItem(spec, "40525", LBIS.L["Chest"], "Alt") --Valorous Dreadnaught Battleplate
+LBIS:AddItem(spec, "40626", LBIS.L["Chest"], "Alt") --Breastplate of the Lost Protector
 LBIS:AddItem(spec, "39606", LBIS.L["Chest"], "BIS") --Heroes' Dreadnaught Battleplate
 LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Protector
 LBIS:AddItem(spec, "40365", LBIS.L["Chest"], "Alt") --Breastplate of Frozen Pain
 
 LBIS:AddItem(spec, "40330", LBIS.L["Wrist"], "BIS") --Bracers of Unrelenting Attack
 LBIS:AddItem(spec, "40733", LBIS.L["Wrist"], "Alt") --Wristbands of the Sentinel Huntress
+LBIS:AddItem(spec, "39765", LBIS.L["Wrist"], "Alt") --Sinner's Bindings
 LBIS:AddItem(spec, "41355", LBIS.L["Wrist"], "Alt") --Vengeance Bindings
 
 LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "BIS") --Frosted Adroit Handguards
 LBIS:AddItem(spec, "40527", LBIS.L["Hands"], "Alt") --Valorous Dreadnaught Gauntlets
-LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
+LBIS:AddItem(spec, "40629", LBIS.L["Hands"], "Alt") --Gauntlets of the Lost Protector
 LBIS:AddItem(spec, "39609", LBIS.L["Hands"], "Alt") --Heroes' Dreadnaught Gauntlets
+LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
 LBIS:AddItem(spec, "40261", LBIS.L["Hands"], "Alt") --Crude Discolored Battlegrips
 
 LBIS:AddItem(spec, "40317", LBIS.L["Waist"], "BIS") --Girdle of Razuvious
@@ -40,10 +43,10 @@ LBIS:AddItem(spec, "40260", LBIS.L["Waist"], "Alt") --Belt of the Tortured
 LBIS:AddItem(spec, "40278", LBIS.L["Waist"], "Alt") --Girdle of Chivalry
 LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "Alt") --Jorach's Crocolisk Skin Belt
 
+LBIS:AddItem(spec, "40318", LBIS.L["Legs"], "BIS") --Legplates of Double Strikes
 LBIS:AddItem(spec, "40529", LBIS.L["Legs"], "BIS") --Valorous Dreadnaught Legplates
-LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "BIS") --Leggings of the Lost Protector
-LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "BIS") --Leggings of the Honored
-LBIS:AddItem(spec, "40318", LBIS.L["Legs"], "Alt") --Legplates of Double Strikes
+LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "BIS") --Legplates of the Lost Protector
+LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "Alt") --Leggings of the Honored
 LBIS:AddItem(spec, "43994", LBIS.L["Legs"], "Alt") --Belabored Legplates
 
 LBIS:AddItem(spec, "40591", LBIS.L["Feet"], "BIS") --Melancholy Sabatons
@@ -62,8 +65,8 @@ LBIS:AddItem(spec, "40075", LBIS.L["Ring"], "Alt") --Ruthlessness
 LBIS:AddItem(spec, "37642", LBIS.L["Ring"], "BIS") --Hemorrhaging Circle
 
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
-LBIS:AddItem(spec, "40431", LBIS.L["Trinket"], "BIS") --Fury of the Five Flights
 LBIS:AddItem(spec, "40256", LBIS.L["Trinket"], "BIS") --Grim Toll
+LBIS:AddItem(spec, "40431", LBIS.L["Trinket"], "Alt") --Fury of the Five Flights
 LBIS:AddItem(spec, "39257", LBIS.L["Trinket"], "BIS") --Loatheb's Shadow
 LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
 LBIS:AddItem(spec, "37166", LBIS.L["Trinket"], "BIS") --Sphere of Red Dragon's Blood

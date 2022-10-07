@@ -39,7 +39,7 @@ LBIS:AddItem(spec, "40317", LBIS.L["Waist"], "Alt") --Girdle of Razuvious
 LBIS:AddItem(spec, "40688", LBIS.L["Waist"], "Alt") --Verdungo's Barbarian Cord
 
 LBIS:AddItem(spec, "40556", LBIS.L["Legs"], "BIS") --Valorous Scourgeborne Legplates
-LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "BIS") --Leggings of the Lost Vanquisher
+LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "BIS") --Legplates of the Lost Vanquisher
 LBIS:AddItem(spec, "39620", LBIS.L["Legs"], "BIS") --Heroes' Scourgeborne Legplates
 LBIS:AddItem(spec, "40621", LBIS.L["Legs"], "BIS") --Leggings of the Lost Vanquisher
 LBIS:AddItem(spec, "40294", LBIS.L["Legs"], "BIS") --Riveted Abomination Leggings

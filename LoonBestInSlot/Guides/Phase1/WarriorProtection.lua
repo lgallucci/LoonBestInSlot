@@ -38,10 +38,11 @@ LBIS:AddItem(spec, "40306", LBIS.L["Wrist"], "Alt Mit") --Bracers of the Unholy 
 LBIS:AddItem(spec, "39467", LBIS.L["Wrist"], "Alt") --Minion Bracers
 
 LBIS:AddItem(spec, "40545", LBIS.L["Hands"], "BIS") --Valorous Dreadnaught Handguards
-LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "BIS") --Gloves of the Lost Protector
+LBIS:AddItem(spec, "40629", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Protector
 LBIS:AddItem(spec, "40188", LBIS.L["Hands"], "Alt") --Gauntlets of the Disobedient
 LBIS:AddItem(spec, "39726", LBIS.L["Hands"], "Alt Mit") --Callous-Hearted Gauntlets
 LBIS:AddItem(spec, "39622", LBIS.L["Hands"], "Alt") --Heroes' Dreadnaught Handguards
+LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
 
 LBIS:AddItem(spec, "39759", LBIS.L["Waist"], "BIS") --Ablative Chitin Girdle
 LBIS:AddItem(spec, "39298", LBIS.L["Waist"], "Alt") --Waistguard of the Tutor
@@ -50,7 +51,7 @@ LBIS:AddItem(spec, "40263", LBIS.L["Waist"], "Alt") --Fleshless Girdle
 LBIS:AddItem(spec, "40589", LBIS.L["Legs"], "BIS") --Legplates of Sovereignty
 LBIS:AddItem(spec, "40446", LBIS.L["Legs"], "Alt") --Dragon Brood Legguards
 LBIS:AddItem(spec, "40547", LBIS.L["Legs"], "Alt Mit") --Valorous Dreadnaught Legguards
-LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "Alt Mit") --Leggings of the Lost Protector
+LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "Alt Mit") --Legplates of the Lost Protector
 LBIS:AddItem(spec, "39258", LBIS.L["Legs"], "Alt") --Legplates of Inescapable Death
 LBIS:AddItem(spec, "40240", LBIS.L["Legs"], "Alt") --Greaves of Turbulence
 LBIS:AddItem(spec, "39612", LBIS.L["Legs"], "Alt") --Heroes' Dreadnaught Legguards
