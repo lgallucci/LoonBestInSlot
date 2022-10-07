@@ -1,59 +1,100 @@
-﻿using System.Xml.Linq;
-using AngleSharp.Dom;
-using AngleSharp.Html.Dom;
-using AngleSharp.Html.Parser;
+﻿using System.IO;
 using Newtonsoft.Json;
-using static System.Net.WebRequestMethods;
-using static AddonManager.Models.EmblemConverter;
-using static AddonManager.WowheadReader;
+using AngleSharp.Html.Dom;
+using System.Xml.Linq;
 
 namespace AddonManager.Models;
 public abstract class LootConverter
 {
-    public virtual async Task<DatabaseItems> Convert(string jsonText)
+    public virtual async Task Convert(string jsonText)
     {
-        return await InnerConvert(jsonText);
+        var jsonFileString = File.ReadAllText(@$"..\..\..\ItemDatabase\{FileName}.json");
+        DatabaseItems dbItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
+
+        //write dictionary to file
+        File.WriteAllText(@$"..\..\..\ItemDatabase\{FileName}.json", JsonConvert.SerializeObject(await InnerConvert(dbItems, jsonText), Formatting.Indented));
     }
 
     internal abstract string FileName { get; }
-    internal abstract Task<DatabaseItems> InnerConvert(string jsonText);
+    internal abstract Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText);
 }
 
 public class EmblemConverter : LootConverter
 {
     internal override string FileName { get => "EmblemItemList"; }
 
-    internal override Task<DatabaseItems> InnerConvert(string jsonText)
+    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
     {
-        var items = new DatabaseItems();
-        jsonText = jsonText.Replace(@"\'", "'").Replace("\\\\\"", "\\\"");
-        var obj = JsonConvert.DeserializeObject<dynamic>(jsonText);
-        foreach (var itemType in obj.boss)
+        items.Items.Clear();
+        var pvpVendors = new List<string>
         {
-            foreach (var item in itemType.Normal)
+            @"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne",
+            @"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne#sells;50",
+            @"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne#sells;100",
+            @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin",
+            @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;50",
+            @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;100",
+            @"https://www.wowhead.com/wotlk/npc=29529/ninsianna"
+        };
+
+        await Common.ReadWowheadItemList(pvpVendors, (row, itemId, itemName) =>
+        {
+            var success = false;
+            var currencySource = "";
+            var currencyNumber = "";
+            var currencySourceLocation = "";
+
+            Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
             {
-                int id = item[1].id ?? 0;
-                if (id > 0)
+                if (success) return true;
+
+                var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/wotlk", "").Replace("/currency=", "");
+
+                var currencyIdIndex = item.IndexOf("/");
+                if (currencyIdIndex == -1)
+                    currencyIdIndex = item.IndexOf("&");
+
+                if (currencyIdIndex > -1)
                 {
-                    items.Items.TryAdd(id, new DatabaseItem
+                    item = item.Substring(0, currencyIdIndex);
+
+                    success = Int32.TryParse(item, out var currencyInteger);
+
+                    if (success)
                     {
-                        Name = item[1].title,
-                        SourceNumber = item[1].subtitle.ToString().Split(">")[1].Split("<")[0],
-                        Source = obj.title.ToString().Replace(" Rewards", ""),
-                        SourceLocation = "",
-                        SourceType = "Dungeon Token"
-                    });
+                        currencySource = item == "101" ? "Emblem of Heroism" : "Emblem of Valor";
+                        currencyNumber = anchorObject.TextContent;
+                        if (item == "101")
+                            currencySourceLocation = "Emblem Vendor";
+                        else
+                            currencySourceLocation = "Emblem Vendor";
+                    }
                 }
+                return success;
+            });
+
+            if (items.Items.ContainsKey(itemId))
+            {
+                items.Items.Remove(itemId);
             }
-        }
-        return Task.FromResult(items);
+            var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
+            {
+                Name = itemName,
+                SourceNumber = currencyNumber,
+                Source = currencySource,
+                SourceLocation = currencySourceLocation,
+                SourceType = "Dungeon Token"
+            });
+        });
+
+        return items;
     }
 }
 
 public class ProfessionConverter : LootConverter
 {
     internal override string FileName { get => "ProfessionItemList"; }
-    internal override Task<DatabaseItems> InnerConvert(string jsonText)
+    internal override Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
     {
         var obj = JsonConvert.DeserializeObject<dynamic>(jsonText);
 
@@ -64,9 +105,8 @@ public class ProfessionConverter : LootConverter
 public class DungeonConverter : LootConverter
 {
     internal override string FileName { get => "DungeonItemList"; }
-    internal override Task<DatabaseItems> InnerConvert(string jsonText)
+    internal override Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
     {
-        var items = new DatabaseItems();
         jsonText = jsonText.Replace(@"\'", "'").Replace("\\\\\"", "\\\"");
         var obj = JsonConvert.DeserializeObject<dynamic>(jsonText);
         foreach (var itemType in obj.boss)
@@ -110,9 +150,8 @@ public class DungeonConverter : LootConverter
 public class RaidConverter : LootConverter
 {
     internal override string FileName { get => "RaidItemList"; }
-    internal override Task<DatabaseItems> InnerConvert(string jsonText)
+    internal override Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
     {
-        var items = new DatabaseItems();
         jsonText = jsonText.Replace(@"\'", "'").Replace("\\\\\"", "\\\"");
         var obj = JsonConvert.DeserializeObject<dynamic>(jsonText);
         var heroicTag = ((bool)obj.heroic) ? "Heroic " : "";
@@ -176,9 +215,9 @@ public class PvPConverter : LootConverter
 {
     internal override string FileName { get => "PvPItemList"; }
 
-    internal override async Task<DatabaseItems> InnerConvert(string jsonText)
+    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
     {
-        var items = new DatabaseItems();
+        items.Items.Clear();
         var pvpVendors = new List<string>
         {
             @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia",
@@ -189,102 +228,71 @@ public class PvPConverter : LootConverter
             @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord",
             @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;50",
             @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;100",
+            @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom",
+            @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;50",
             @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe",
             @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;50"
         };
 
-        foreach (var pvpVendor in pvpVendors)
+        await Common.ReadWowheadItemList(pvpVendors, (row, itemId, itemName) =>
         {
-            await Common.LoadFromWebPage(pvpVendor, async (content) =>
+            var success = false;
+            var currencySource = "";
+            var currencyNumber = "";
+            var currencySourceLocation = "";
+
+            Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
             {
-                var parser = new HtmlParser();
-                var doc = default(IHtmlDocument);
-                doc = await parser.ParseDocumentAsync(content);
+                var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/wotlk", "").Replace("/currency=", "");
 
-                var rowElements = doc.QuerySelectorAll("#tab-sells .listview-mode-default .listview-row");
-                if (rowElements != null && rowElements.Length > 0)
+                var currencyIdIndex = item.IndexOf("/");
+                if (currencyIdIndex == -1)
+                    currencyIdIndex = item.IndexOf("&");
+
+                if (currencyIdIndex > -1)
                 {
-                    foreach (var row in rowElements)
+                    item = item.Substring(0, currencyIdIndex);
+
+                    success = Int32.TryParse(item, out var currencyInteger);
+
+                    if (success)
                     {
-                        var success = false;
-                        var itemId = 0; // Get ItemId from Row
-                        var itemName = "";
-
-                        Common.RecursiveBoxSearch(row.Children[2], (anchorObject) =>
+                        if (!string.IsNullOrWhiteSpace(currencySource))
                         {
-                            if (success) return true;
-
-                            var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/wotlk", "").Replace("/item=", "").Replace("/spell=", "");
-                            itemName = anchorObject.TextContent;
-
-                            var itemIdIndex = item.IndexOf("/");
-                            if (itemIdIndex == -1)
-                                itemIdIndex = item.IndexOf("&");
-
-                            if (itemIdIndex > -1)
-                            {
-                                item = item.Substring(0, itemIdIndex);
-
-                                success = Int32.TryParse(item, out itemId);
-                            }
-                            return success;
-                        });
-
-                        success = false;
-                        var currencySource = "";
-                        var currencyNumber = "";
-                        var currencySourceLocation = "";
-
-                        Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
-                        {
-                            var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/wotlk", "").Replace("/currency=", "");
-                            currencyNumber = anchorObject.TextContent;
-
-                            var currencyIdIndex = item.IndexOf("/");
-                            if (currencyIdIndex == -1)
-                                currencyIdIndex = item.IndexOf("&");
-
-                            if (currencyIdIndex > -1)
-                            {
-                                item = item.Substring(0, currencyIdIndex);
-
-                                success = Int32.TryParse(item, out var currencyInteger);
-
-                                if (success)
-                                {
-                                    if (!string.IsNullOrWhiteSpace(currencySource))
-                                    {
-                                        currencySource += " & ";
-                                        currencyNumber += " & ";
-                                    }
-                                    currencySource += item == "1901" ? "Honor Points" : "Arena Points";
-                                    currencyNumber += " & ";
-                                    if (currencySource.Contains("Arena"))
-                                        currencySourceLocation = "Arena Vendor";
-                                    else
-                                        currencySourceLocation = "PvP Vendor";
-                                }
-
-                            }
-                            return success;
-                        });
-
-                        if (items.Items.ContainsKey(itemId))
-                        {
-                            items.Items.Remove(itemId);
+                            currencySource += " & ";
+                            currencyNumber += " & ";
                         }
-                        var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
-                        {
-                            Name = itemName,
-                            SourceNumber = currencyNumber,
-                            Source = currencySource,
-                            SourceLocation = currencySourceLocation,
-                            SourceType = "PvP"
-                        });
+                        currencySource += item == "1901" ? "Honor Points" : "Arena Points";
+                        currencyNumber += anchorObject.TextContent;
+                        if (currencySource.Contains("Arena"))
+                            currencySourceLocation = "Arena Vendor";
+                        else
+                            currencySourceLocation = "PvP Vendor";
                     }
+
                 }
+                return success;
             });
-        }
+
+            if (items.Items.ContainsKey(itemId))
+            {
+                items.Items[itemId].SourceNumber += "/" + currencyNumber;
+                items.Items[itemId].Source += "/" + currencySource;
+                items.Items[itemId].SourceLocation += "/" + currencySourceLocation;
+            }
+            else
+            {
+                var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
+                {
+                    Name = itemName,
+                    SourceNumber = currencyNumber,
+                    Source = currencySource,
+                    SourceLocation = currencySourceLocation,
+                    SourceType = "PvP"
+                });
+            }
+        });
+
         return items;
     }
 }

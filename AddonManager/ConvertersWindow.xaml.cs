@@ -1,7 +1,5 @@
 ﻿using System.Windows;
 using AddonManager.Models;
-using System.IO;
-using Newtonsoft.Json;
 
 namespace AddonManager;
 /// <summary>
@@ -48,16 +46,7 @@ public partial class ConvertersWindow : Window
         }
 
         //Read file into dictionary
-        DatabaseItems dbItem;
-        var jsonFileString = File.ReadAllText(@$"..\..\..\ItemDatabase\{converter.FileName}.json");
-        dbItem = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
-
-        //run converter from dictionary
-        var convertedDbItem = await converter.Convert(txtJsonToParse.Text);
-        dbItem.AddItems(convertedDbItem);
-
-        //write dictionary to file
-        File.WriteAllText(@$"..\..\..\ItemDatabase\{converter.FileName}.json", JsonConvert.SerializeObject(dbItem, Formatting.Indented));
+        await converter.Convert(txtJsonToParse.Text);
 
         lblStatus.Content = "Done!";
     }
