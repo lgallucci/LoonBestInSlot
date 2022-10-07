@@ -1,7 +1,5 @@
 if GetLocale() == "koKR" then
   LBIS.L["# Best for:"] = "# BIS 직업:";
-  LBIS.L["# Gear best for:"] = "# 장비 BIS 직업:";
-  LBIS.L["|cFF9CD6DELeft-Click|r: Open Browser Window"] = "마우스 왼쪽 클릭으로 창 열기";
   LBIS.L["10000 Honor (PvP)"] = "10000 명예 점수 (PvP)";
   LBIS.L["A Wing and a Prayer"] = "기도는 날개를 타고";
   LBIS.L["Accessories Quartermaster"] = "보급품 병참장교";
