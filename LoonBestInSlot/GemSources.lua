@@ -77,7 +77,7 @@ LBIS.GemSources =
     [41400] = { Name = "Thundering Skyflare Diamond", DesignId = "41787", Source = LBIS.L["World Drop"], SourceLocation = "" },
     [41401] = { Name = "Insightful Earthsiege Diamond", DesignId = "41708", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
     [41432] = { Name = "Perfect Bold Bloodstone", DesignId = "0", Source = LBIS.L["Master Jewelcrafting Trainer"], SourceLocation = "" },
-    [41436] = { Name = "Perfect Fractured Bloodstone",  DesignId = "0", Source = LBIS.L["Master Jewelcrafting Trainer"], SourceLocation = "" },
+    [41436] = { Name = "Perfect Fractured Bloodstone", DesignId = "0", Source = LBIS.L["Master Jewelcrafting Trainer"], SourceLocation = "" },
     [41441] = { Name = "Perfect Solid Chalcedony", DesignId = "0", Source = LBIS.L["Master Jewelcrafting Trainer"], SourceLocation = "" },
     [41453] = { Name = "Perfect Guardian's Shadow Crystal", DesignId = "0", Source = LBIS.L["Master Jewelcrafting Trainer"], SourceLocation = "" },
     [41458] = { Name = "Perfect Regal Shadow Crystal", DesignId = "0", Source = LBIS.L["Master Jewelcrafting Trainer"], SourceLocation = "" },

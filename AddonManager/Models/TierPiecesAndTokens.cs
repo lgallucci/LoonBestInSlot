@@ -403,13 +403,13 @@ internal class TierPiecesAndTokens
         { 40415, new (40630, "Gauntlets of the Lost Vanquisher")}, //Valorous Frostfire Gloves
         { 40552, new (40630, "Gauntlets of the Lost Vanquisher")}, //Valorous Scourgeborne Gauntlets
         { 40563, new (40630, "Gauntlets of the Lost Vanquisher")}, //Valorous Scourgeborne Handguards
-        { 40462, new (40636, "Leggings of the Lost Vanquisher") }, //Valorous Dreamwalker Leggings
-        { 40468, new (40636, "Leggings of the Lost Vanquisher") }, //Valorous Dreamwalker Trousers
-        { 40493, new (40636, "Leggings of the Lost Vanquisher") }, //Valorous Dreamwalker Legguards
-        { 40500, new (40636, "Leggings of the Lost Vanquisher") }, //Valorous Bonescythe Legplates
-        { 40417, new (40636, "Leggings of the Lost Vanquisher") }, //Valorous Frostfire Leggings
-        { 40556, new (40636, "Leggings of the Lost Vanquisher") }, //Valorous Scourgeborne Legplates
-        { 40567, new (40636, "Leggings of the Lost Vanquisher") }, //Valorous Scourgeborne Legguards
+        { 40462, new (40636, "Legplates of the Lost Vanquisher") }, //Valorous Dreamwalker Leggings
+        { 40468, new (40636, "Legplates of the Lost Vanquisher") }, //Valorous Dreamwalker Trousers
+        { 40493, new (40636, "Legplates of the Lost Vanquisher") }, //Valorous Dreamwalker Legguards
+        { 40500, new (40636, "Legplates of the Lost Vanquisher") }, //Valorous Bonescythe Legplates
+        { 40417, new (40636, "Legplates of the Lost Vanquisher") }, //Valorous Frostfire Leggings
+        { 40556, new (40636, "Legplates of the Lost Vanquisher") }, //Valorous Scourgeborne Legplates
+        { 40567, new (40636, "Legplates of the Lost Vanquisher") }, //Valorous Scourgeborne Legguards
 
         { 39496, new (40616, "Helm of the Lost Conqueror")}, //Heroes' Plagueheart Circlet
         { 39514, new (40616, "Helm of the Lost Conqueror")}, //Heroes' Crown of Faith
@@ -447,12 +447,12 @@ internal class TierPiecesAndTokens
         { 40571, new (40631, "Crown of the Lost Conqueror")}, //Valorous Redemption Headpiece
         { 40576, new (40631, "Crown of the Lost Conqueror")}, //Valorous Redemption Helm
         { 40581, new (40631, "Crown of the Lost Conqueror")}, //Valorous Redemption Faceguard
-        { 40424, new (40622, "Mantle of the Lost Conqueror")}, //Valorous Plagueheart Shoulderpads
-        { 40450, new (40622, "Mantle of the Lost Conqueror")}, //Valorous Shoulderpads of Faith
-        { 40459, new (40622, "Mantle of the Lost Conqueror")}, //Valorous Mantle of Faith
-        { 40573, new (40622, "Mantle of the Lost Conqueror")}, //Valorous Redemption Spaulders
-        { 40578, new (40622, "Mantle of the Lost Conqueror")}, //Valorous Redemption Shoulderplates
-        { 40584, new (40622, "Mantle of the Lost Conqueror")}, //Valorous Redemption Shoulderguards
+        { 40424, new (40637, "Mantle of the Lost Conqueror")}, //Valorous Plagueheart Shoulderpads
+        { 40450, new (40637, "Mantle of the Lost Conqueror")}, //Valorous Shoulderpads of Faith
+        { 40459, new (40637, "Mantle of the Lost Conqueror")}, //Valorous Mantle of Faith
+        { 40573, new (40637, "Mantle of the Lost Conqueror")}, //Valorous Redemption Spaulders
+        { 40578, new (40637, "Mantle of the Lost Conqueror")}, //Valorous Redemption Shoulderplates
+        { 40584, new (40637, "Mantle of the Lost Conqueror")}, //Valorous Redemption Shoulderguards
         { 40423, new (40625, "Breastplate of the Lost Conqueror")}, //Valorous Plagueheart Robe
         { 40449, new (40625, "Breastplate of the Lost Conqueror")}, //Valorous Robe of Faith
         { 40458, new (40625, "Breastplate of the Lost Conqueror")}, //Valorous Raiments of Faith
@@ -520,18 +520,18 @@ internal class TierPiecesAndTokens
         { 40503, new (40626, "Breastplate of the Lost Protector")}, //Valorous Earthshatter Tunic
         { 40514, new (40626, "Breastplate of the Lost Protector")}, //Valorous Earthshatter Hauberk
         { 40523, new (40626, "Breastplate of the Lost Protector")}, //Valorous Earthshatter Chestguard
-        { 40527, new (40614, "Gloves of the Lost Protector")}, //Valorous Dreadnaught Gauntlets
-        { 40545, new (40614, "Gloves of the Lost Protector")}, //Valorous Dreadnaught Handguards
-        { 40504, new (40614, "Gloves of the Lost Protector")}, //Valorous Cryptstalker Handguards
-        { 40509, new (40614, "Gloves of the Lost Protector")}, //Valorous Earthshatter Handguards
-        { 40515, new (40614, "Gloves of the Lost Protector")}, //Valorous Earthshatter Gloves
-        { 40520, new (40614, "Gloves of the Lost Protector")}, //Valorous Earthshatter Grips
-        { 40529, new (40635, "Leggings of the Lost Protector")}, //Valorous Dreadnaught Legplates
-        { 40547, new (40635, "Leggings of the Lost Protector")}, //Valorous Dreadnaught Legguards
-        { 40506, new (40635, "Leggings of the Lost Protector")}, //Valorous Cryptstalker Legguards
-        { 40512, new (40635, "Leggings of the Lost Protector")}, //Valorous Earthshatter Legguards
-        { 40517, new (40635, "Leggings of the Lost Protector")}, //Valorous Earthshatter Kilt
-        { 40522, new (40635, "Leggings of the Lost Protector")}, //Valorous Earthshatter War-Kilt
+        { 40527, new (40629, "Gauntlets of the Lost Protector")}, //Valorous Dreadnaught Gauntlets
+        { 40545, new (40629, "Gauntlets of the Lost Protector")}, //Valorous Dreadnaught Handguards
+        { 40504, new (40629, "Gauntlets of the Lost Protector")}, //Valorous Cryptstalker Handguards
+        { 40509, new (40629, "Gauntlets of the Lost Protector")}, //Valorous Earthshatter Handguards
+        { 40515, new (40629, "Gauntlets of the Lost Protector")}, //Valorous Earthshatter Gloves
+        { 40520, new (40629, "Gauntlets of the Lost Protector")}, //Valorous Earthshatter Grips
+        { 40529, new (40635, "Legplates of the Lost Protector")}, //Valorous Dreadnaught Legplates
+        { 40547, new (40635, "Legplates of the Lost Protector")}, //Valorous Dreadnaught Legguards
+        { 40506, new (40635, "Legplates of the Lost Protector")}, //Valorous Cryptstalker Legguards
+        { 40512, new (40635, "Legplates of the Lost Protector")}, //Valorous Earthshatter Legguards
+        { 40517, new (40635, "Legplates of the Lost Protector")}, //Valorous Earthshatter Kilt
+        { 40522, new (40635, "Legplates of the Lost Protector")}, //Valorous Earthshatter War-Kilt
 
         //T8
         //{ , new (, "")}, //
