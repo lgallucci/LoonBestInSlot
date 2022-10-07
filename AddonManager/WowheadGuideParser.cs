@@ -5,7 +5,6 @@ using AngleSharp.Dom;
 using AngleSharp.Html;
 using AngleSharp.Html.Dom;
 using AngleSharp.Html.Parser;
-using PuppeteerSharp;
 
 namespace AddonManager;
 
@@ -115,7 +114,7 @@ public class WowheadGuideParser
     {
         var items = new Dictionary<int, ItemSpec>();
 
-        await LoadFromWebPage(classGuide.WebAddress, async (content) =>
+        await Common.LoadFromWebPage(classGuide.WebAddress, async (content) =>
         {
             var doc = default(IHtmlDocument);
             var parser = new HtmlParser();
@@ -296,30 +295,12 @@ public class WowheadGuideParser
         }
     }
 
-    internal async Task LoadFromWebPage(string pageAddress, Func<string, Task> func)
-    {
-        await new BrowserFetcher().DownloadAsync();
-        using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
-        {
-            Headless = true
-        }))
-        {
-            var page = await browser.NewPageAsync();
-            page.DefaultTimeout = 0; // or you can set this as 0
-            await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
-            var content = await page.GetContentAsync();
-
-            Console.WriteLine(content);
-            await func(content);
-        }
-    }
-
     internal async Task<(Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>)> ParseGemEnchantsWowheadGuide(ClassGuideMapping classGuide)
     {
         var gems = new Dictionary<int, GemSpec>();
         var enchants = new Dictionary<string, EnchantSpec>();
 
-        await LoadFromWebPage(classGuide.WebAddress, async (content) =>
+        await Common.LoadFromWebPage(classGuide.WebAddress, async (content) =>
         {
             var parser = new HtmlParser();
             var doc = default(IHtmlDocument);
@@ -330,7 +311,7 @@ public class WowheadGuideParser
                 var headerElement = doc.QuerySelector(heading.SlotHtmlId);
                 if (headerElement != null)
                 {
-                    RecursiveBoxSearch(headerElement, (boxElement) =>
+                    Common.RecursiveBoxSearch(headerElement, (boxElement) =>
                     {
                         bool isSpell = false;
                         if (((IHtmlAnchorElement)boxElement).PathName.Contains("/item="))
@@ -408,22 +389,5 @@ public class WowheadGuideParser
 
         return (gems, enchants);
 
-    }
-
-    private void RecursiveBoxSearch(IElement headerElement, Func<IElement, bool> action)
-    {
-        foreach (var boxElement in headerElement.Children)
-        {
-            if (boxElement is IHtmlAnchorElement)
-            {
-                bool goodAnchor = action(boxElement);
-                if (!goodAnchor)
-                    RecursiveBoxSearch(boxElement, action);
-            }
-            else
-            {
-                RecursiveBoxSearch(boxElement, action);
-            }
-        }
     }
 }

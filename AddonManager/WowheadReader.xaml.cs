@@ -220,7 +220,7 @@ public partial class WowheadReader : Window
         GetItems(csvLootTable, "DungeonItemList");
         GetItems(csvLootTable, "RaidItemList");
         GetItems(csvLootTable, "EmblemItemList");
-        //GetItems(csvLootTable, "PvPItemList");
+        GetItems(csvLootTable, "PvPItemList");
 
         //UpdateProfessionItems(csvLootTable);
 

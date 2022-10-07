@@ -9,7 +9,7 @@ namespace AddonManager;
 /// </summary>
 public partial class ConvertersWindow : Window
 {
-    public string[] ConverterList = { "EmblemConverter", "ProfessionConverter", "DungeonConverter", "RaidConverter" };
+    public string[] ConverterList = { "EmblemConverter", "ProfessionConverter", "DungeonConverter", "RaidConverter", "PvPConverter" };
 
     public ConvertersWindow()
     {
@@ -19,9 +19,10 @@ public partial class ConvertersWindow : Window
         cmbConvertType.Text = "EmblemConverter";
     }
 
-    private void Convert_Click(object sender, RoutedEventArgs e)
+    private async void Convert_Click(object sender, RoutedEventArgs e)
     {
         var converterType = cmbConvertType.SelectedValue.ToString();
+        lblStatus.Content = "Processing...";
 
         LootConverter converter;
         switch (converterType)
@@ -38,6 +39,9 @@ public partial class ConvertersWindow : Window
             case "RaidConverter":
                 converter = new RaidConverter();
                 break;
+            case "PvPConverter":
+                converter = new PvPConverter();
+                break;
             default:
                 txtJsonToParse.Text = "Choose a converter !";
                 return;
@@ -49,11 +53,12 @@ public partial class ConvertersWindow : Window
         dbItem = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
 
         //run converter from dictionary
-        var convertedDbItem = converter.Convert(txtJsonToParse.Text);
+        var convertedDbItem = await converter.Convert(txtJsonToParse.Text);
         dbItem.AddItems(convertedDbItem);
 
         //write dictionary to file
         File.WriteAllText(@$"..\..\..\ItemDatabase\{converter.FileName}.json", JsonConvert.SerializeObject(dbItem, Formatting.Indented));
 
+        lblStatus.Content = "Done!";
     }
 }
