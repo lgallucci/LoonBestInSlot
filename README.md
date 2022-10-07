@@ -13,3 +13,6 @@ Loot browser will show you any item you are currently wearing or is in your bags
 ## Slash Commands
 
 /bis - Opens the loot browser window
+
+
+sxfdgsj
