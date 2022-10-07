@@ -14,5 +14,3 @@ Loot browser will show you any item you are currently wearing or is in your bags
 
 /bis - Opens the loot browser window
 
-
-sxfdgsj
