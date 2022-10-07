@@ -134,7 +134,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Heigan the Unclean"] = "肮脏的希尔盖";
   LBIS.L["Herald Volazj"] = "传令官沃拉兹";
   LBIS.L["Holy"] = "神圣";
---  LBIS.L["Honor"] = "";
+--  LBIS.L["Honor Points"] = "";
   LBIS.L["Honored"] = "尊敬";
   LBIS.L["Icecrown"] = "冰冠冰川";
   LBIS.L["Icecrown Citadel"] = "冰冠堡垒";

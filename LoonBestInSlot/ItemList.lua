@@ -63,9 +63,9 @@ local function itemSortFunction(table, k1, k2)
 end
 
 local alSources = {};
-alSources["honor"] = LBIS.L["Honor"];
-alSources["honorA"] = LBIS.L["Honor"];
-alSources["honorH"] = LBIS.L["Honor"];
+alSources["honor"] = LBIS.L["Honor Points"];
+alSources["honorA"] = LBIS.L["Honor Points"];
+alSources["honorH"] = LBIS.L["Honor Points"];
 alSources["BoJ"] = LBIS.L["Badges of Justice"];
 alSources["SpiritShard"] = LBIS.L["Spirit Shards"];
 alSources["pvpArathi"] = LBIS.L["Arathi Basin Marks"];

@@ -134,7 +134,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Heigan the Unclean"] = "Heigan der Unreine";
   LBIS.L["Herald Volazj"] = "Herold Volazj";
   LBIS.L["Holy"] = "Heilig";
-  LBIS.L["Honor"] = "Ehren";
+--  LBIS.L["Honor Points"] = "";
   LBIS.L["Honored"] = "Wohlwollend";
   LBIS.L["Icecrown"] = "Eiskrone";
   LBIS.L["Icecrown Citadel"] = "Die Eiskronenzitadelle";

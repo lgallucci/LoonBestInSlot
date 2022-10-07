@@ -134,7 +134,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Heigan the Unclean"] = "Heigan el Impuro";
   LBIS.L["Herald Volazj"] = "Heraldo Volazj";
   LBIS.L["Holy"] = "Sagrado";
---  LBIS.L["Honor"] = "";
+--  LBIS.L["Honor Points"] = "";
   LBIS.L["Honored"] = "Honorable";
   LBIS.L["Icecrown"] = "Corona de Hielo";
   LBIS.L["Icecrown Citadel"] = "Ciudadela de la Corona de Hielo";

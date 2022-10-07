@@ -134,7 +134,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Heigan the Unclean"] = "Хейган Нечистивый";
   LBIS.L["Herald Volazj"] = "Глашатай Волаж";
   LBIS.L["Holy"] = "Свет";
---  LBIS.L["Honor"] = "";
+--  LBIS.L["Honor Points"] = "";
   LBIS.L["Honored"] = "Уважение";
   LBIS.L["Icecrown"] = "Ледяная Корона";
   LBIS.L["Icecrown Citadel"] = "Цитадель Ледяной Короны";
