@@ -276,9 +276,12 @@ public class PvPConverter : LootConverter
 
             if (items.Items.ContainsKey(itemId))
             {
-                items.Items[itemId].SourceNumber += "/" + currencyNumber;
-                items.Items[itemId].Source += "/" + currencySource;
-                items.Items[itemId].SourceLocation += "/" + currencySourceLocation;
+                if (items.Items[itemId].Source != currencySource)
+                {
+                    items.Items[itemId].SourceNumber += "/" + currencyNumber;
+                    items.Items[itemId].Source += "/" + currencySource;
+                    items.Items[itemId].SourceLocation += "/" + currencySourceLocation;
+                }
             }
             else
             {

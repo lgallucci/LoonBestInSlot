@@ -861,13 +861,6 @@
             "SourceNumber": "0",
             "SourceLocation": "Naxxramas (10)"
         },
-        "44569": {
-            "Name": "Key to the Focusing Iris",
-            "Source": "Sapphiron/Malygos",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Naxxramas (10)/The Eye of Eternity (10)"
-        },
         "44582": {
             "Name": "Key to the Focusing Iris",
             "Source": "Sapphiron",
@@ -2485,13 +2478,6 @@
             "SourceNumber": "0",
             "SourceLocation": "Naxxramas (25)"
         },
-        "44577": {
-            "Name": "Heroic Key to the Focusing Iris",
-            "Source": "Sapphiron/Malygos",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Naxxramas (25)/The Eye of Eternity (25)"
-        },
         "44581": {
             "Name": "Heroic Key to the Focusing Iris",
             "Source": "Sapphiron",
@@ -3504,14 +3490,14 @@
             "Name": "Deadly Gladiator's Mooncloth Gloves",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41863": {
             "Name": "Deadly Gladiator's Mooncloth Leggings",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41920": {
@@ -3525,14 +3511,14 @@
             "Name": "Deadly Gladiator's Satin Gloves",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41926": {
             "Name": "Deadly Gladiator's Satin Leggings",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40423": {
@@ -3567,14 +3553,14 @@
             "Name": "Deadly Gladiator's Felweave Handguards",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42004": {
             "Name": "Deadly Gladiator's Felweave Trousers",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40469": {
@@ -3651,14 +3637,14 @@
             "Name": "Deadly Gladiator's Wyrmhide Gloves",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41303": {
             "Name": "Deadly Gladiator's Wyrmhide Legguards",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41660": {
@@ -3693,14 +3679,14 @@
             "Name": "Deadly Gladiator's Kodohide Gloves",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41297": {
             "Name": "Deadly Gladiator's Kodohide Legguards",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40495": {
@@ -3735,14 +3721,14 @@
             "Name": "Deadly Gladiator's Leather Gloves",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41654": {
             "Name": "Deadly Gladiator's Leather Legguards",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40503": {
@@ -3777,14 +3763,14 @@
             "Name": "Deadly Gladiator's Chain Gauntlets",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41204": {
             "Name": "Deadly Gladiator's Chain Leggings",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40514": {
@@ -3861,14 +3847,14 @@
             "Name": "Deadly Gladiator's Mail Gauntlets",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41032": {
             "Name": "Deadly Gladiator's Mail Leggings",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41080": {
@@ -3882,14 +3868,14 @@
             "Name": "Deadly Gladiator's Linked Gauntlets",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41198": {
             "Name": "Deadly Gladiator's Linked Leggings",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40990": {
@@ -3903,14 +3889,14 @@
             "Name": "Deadly Gladiator's Ringmail Gauntlets",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41026": {
             "Name": "Deadly Gladiator's Ringmail Leggings",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40550": {
@@ -3966,14 +3952,14 @@
             "Name": "Deadly Gladiator's Dreadplate Gauntlets",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40845": {
             "Name": "Deadly Gladiator's Dreadplate Legguards",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40569": {
@@ -4050,14 +4036,14 @@
             "Name": "Deadly Gladiator's Ornamented Gloves",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40938": {
             "Name": "Deadly Gladiator's Ornamented Legplates",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40785": {
@@ -4071,14 +4057,14 @@
             "Name": "Deadly Gladiator's Scaled Gauntlets",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40846": {
             "Name": "Deadly Gladiator's Scaled Legguards",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40525": {
@@ -4134,14 +4120,14 @@
             "Name": "Deadly Gladiator's Plate Gauntlets",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40844": {
             "Name": "Deadly Gladiator's Plate Legguards",
             "Source": "Archavon the Stone Watcher/Emalon the Storm Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "46131": {
@@ -4757,14 +4743,14 @@
             "Name": "Furious Gladiator's Silk Handguards",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41959": {
             "Name": "Furious Gladiator's Silk Trousers",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "46188": {
@@ -4799,28 +4785,28 @@
             "Name": "Furious Gladiator's Mooncloth Gloves",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41864": {
             "Name": "Furious Gladiator's Mooncloth Leggings",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41940": {
             "Name": "Furious Gladiator's Satin Gloves",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41927": {
             "Name": "Furious Gladiator's Satin Leggings",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "46135": {
@@ -4841,14 +4827,14 @@
             "Name": "Furious Gladiator's Felweave Handguards",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42005": {
             "Name": "Furious Gladiator's Felweave Trousers",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "46189": {
@@ -4897,42 +4883,42 @@
             "Name": "Furious Gladiator's Wyrmhide Gloves",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41304": {
             "Name": "Furious Gladiator's Wyrmhide Legguards",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41773": {
             "Name": "Furious Gladiator's Dragonhide Gloves",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41667": {
             "Name": "Furious Gladiator's Dragonhide Legguards",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41287": {
             "Name": "Furious Gladiator's Kodohide Gloves",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41298": {
             "Name": "Furious Gladiator's Kodohide Legguards",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "46124": {
@@ -4953,14 +4939,14 @@
             "Name": "Furious Gladiator's Leather Gloves",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41655": {
             "Name": "Furious Gladiator's Leather Legguards",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "46142": {
@@ -4981,14 +4967,14 @@
             "Name": "Furious Gladiator's Chain Gauntlets",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41205": {
             "Name": "Furious Gladiator's Chain Leggings",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "46207": {
@@ -5037,42 +5023,42 @@
             "Name": "Furious Gladiator's Mail Gauntlets",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41033": {
             "Name": "Furious Gladiator's Mail Leggings",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41137": {
             "Name": "Furious Gladiator's Linked Gauntlets",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41199": {
             "Name": "Furious Gladiator's Linked Leggings",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41001": {
             "Name": "Furious Gladiator's Ringmail Gauntlets",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41027": {
             "Name": "Furious Gladiator's Ringmail Leggings",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "46113": {
@@ -5107,14 +5093,14 @@
             "Name": "Furious Gladiator's Dreadplate Gauntlets",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40848": {
             "Name": "Furious Gladiator's Dreadplate Legguards",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "46179": {
@@ -5163,28 +5149,28 @@
             "Name": "Furious Gladiator's Ornamented Gloves",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40939": {
             "Name": "Furious Gladiator's Ornamented Legplates",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40808": {
             "Name": "Furious Gladiator's Scaled Gauntlets",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40849": {
             "Name": "Furious Gladiator's Scaled Legguards",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "46148": {
@@ -5219,343 +5205,343 @@
             "Name": "Furious Gladiator's Plate Gauntlets",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40847": {
             "Name": "Furious Gladiator's Plate Legguards",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41909": {
             "Name": "Furious Gladiator's Cuffs of Dominance",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41898": {
             "Name": "Furious Gladiator's Cord of Dominance",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41903": {
             "Name": "Furious Gladiator's Slippers of Dominance",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41893": {
             "Name": "Furious Gladiator's Cuffs of Salvation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41881": {
             "Name": "Furious Gladiator's Cord of Salvation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41885": {
             "Name": "Furious Gladiator's Slippers of Salvation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41640": {
             "Name": "Furious Gladiator's Armwraps of Dominance",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41630": {
             "Name": "Furious Gladiator's Belt of Dominance",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41635": {
             "Name": "Furious Gladiator's Boots of Dominance",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41625": {
             "Name": "Furious Gladiator's Armwraps of Salvation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41617": {
             "Name": "Furious Gladiator's Belt of Salvation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41621": {
             "Name": "Furious Gladiator's Boots of Salvation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41840": {
             "Name": "Furious Gladiator's Armwraps of Triumph",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41832": {
             "Name": "Furious Gladiator's Belt of Triumph",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41836": {
             "Name": "Furious Gladiator's Boots of Triumph",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41065": {
             "Name": "Furious Gladiator's Wristguards of Dominance",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41070": {
             "Name": "Furious Gladiator's Waistguard of Dominance",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41075": {
             "Name": "Furious Gladiator's Sabatons of Dominance",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41060": {
             "Name": "Furious Gladiator's Wristguards of Salvation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41051": {
             "Name": "Furious Gladiator's Waistguard of Salvation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41055": {
             "Name": "Furious Gladiator's Sabatons of Salvation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41225": {
             "Name": "Furious Gladiator's Wristguards of Triumph",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41235": {
             "Name": "Furious Gladiator's Waistguard of Triumph",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41230": {
             "Name": "Furious Gladiator's Sabatons of Triumph",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40983": {
             "Name": "Furious Gladiator's Bracers of Salvation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40976": {
             "Name": "Furious Gladiator's Girdle of Salvation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40977": {
             "Name": "Furious Gladiator's Greaves of Salvation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40889": {
             "Name": "Furious Gladiator's Bracers of Triumph",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40881": {
             "Name": "Furious Gladiator's Girdle of Triumph",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40882": {
             "Name": "Furious Gladiator's Greaves of Triumph",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42071": {
             "Name": "Furious Gladiator's Cloak of Ascendancy",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42073": {
             "Name": "Furious Gladiator's Cloak of Deliverance",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42069": {
             "Name": "Furious Gladiator's Cloak of Dominance",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42072": {
             "Name": "Furious Gladiator's Cloak of Salvation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42070": {
             "Name": "Furious Gladiator's Cloak of Subjugation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42074": {
             "Name": "Furious Gladiator's Cloak of Triumph",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42075": {
             "Name": "Furious Gladiator's Cloak of Victory",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42037": {
             "Name": "Furious Gladiator's Pendant of Ascendancy",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42039": {
             "Name": "Furious Gladiator's Pendant of Deliverance",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42036": {
             "Name": "Furious Gladiator's Pendant of Dominance",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42040": {
             "Name": "Furious Gladiator's Pendant of Salvation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42038": {
             "Name": "Furious Gladiator's Pendant of Subjugation",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "46373": {
             "Name": "Furious Gladiator's Pendant of Sundering",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42034": {
             "Name": "Furious Gladiator's Pendant of Triumph",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42035": {
             "Name": "Furious Gladiator's Pendant of Victory",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42116": {
             "Name": "Furious Gladiator's Band of Dominance",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42117": {
             "Name": "Furious Gladiator's Band of Triumph",
             "Source": "Emalon the Storm Watcher/Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "47752": {
@@ -5849,14 +5835,14 @@
             "Name": "Relentless Gladiator's Silk Handguards",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41960": {
             "Name": "Relentless Gladiator's Silk Trousers",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "47983": {
@@ -5891,28 +5877,28 @@
             "Name": "Relentless Gladiator's Mooncloth Gloves",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41865": {
             "Name": "Relentless Gladiator's Mooncloth Leggings",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41941": {
             "Name": "Relentless Gladiator's Satin Gloves",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41928": {
             "Name": "Relentless Gladiator's Satin Leggings",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "47782": {
@@ -5933,14 +5919,14 @@
             "Name": "Relentless Gladiator's Felweave Handguards",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42006": {
             "Name": "Relentless Gladiator's Felweave Trousers",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "48163": {
@@ -5989,42 +5975,42 @@
             "Name": "Relentless Gladiator's Wyrmhide Gloves",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41305": {
             "Name": "Relentless Gladiator's Wyrmhide Legguards",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41774": {
             "Name": "Relentless Gladiator's Dragonhide Gloves",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41668": {
             "Name": "Relentless Gladiator's Dragonhide Legguards",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41288": {
             "Name": "Relentless Gladiator's Kodohide Gloves",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41299": {
             "Name": "Relentless Gladiator's Kodohide Legguards",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "48224": {
@@ -6045,14 +6031,14 @@
             "Name": "Relentless Gladiator's Leather Gloves",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41656": {
             "Name": "Relentless Gladiator's Leather Legguards",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "48256": {
@@ -6073,14 +6059,14 @@
             "Name": "Relentless Gladiator's Chain Gauntlets",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41206": {
             "Name": "Relentless Gladiator's Chain Leggings",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "48317": {
@@ -6129,42 +6115,42 @@
             "Name": "Relentless Gladiator's Mail Gauntlets",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41034": {
             "Name": "Relentless Gladiator's Mail Leggings",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41138": {
             "Name": "Relentless Gladiator's Linked Gauntlets",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41200": {
             "Name": "Relentless Gladiator's Linked Leggings",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41002": {
             "Name": "Relentless Gladiator's Ringmail Gauntlets",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41028": {
             "Name": "Relentless Gladiator's Ringmail Leggings",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "48482": {
@@ -6199,21 +6185,21 @@
             "Name": "Relentless Gladiator's Dreadplate Gauntlets",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40851": {
             "Name": "Relentless Gladiator's Dreadplate Legguards",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "48576": {
             "Name": "Turalyon's Gloves of Triumph",
             "Source": "Koralon the Flame Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)"
         },
         "48578": {
@@ -6255,28 +6241,28 @@
             "Name": "Relentless Gladiator's Ornamented Gloves",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40940": {
             "Name": "Relentless Gladiator's Ornamented Legplates",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40812": {
             "Name": "Relentless Gladiator's Scaled Gauntlets",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40852": {
             "Name": "Relentless Gladiator's Scaled Legguards",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "48377": {
@@ -6311,364 +6297,364 @@
             "Name": "Relentless Gladiator's Plate Gauntlets",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40850": {
             "Name": "Relentless Gladiator's Plate Legguards",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41910": {
             "Name": "Relentless Gladiator's Cuffs of Dominance",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41899": {
             "Name": "Relentless Gladiator's Cord of Dominance",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41904": {
             "Name": "Relentless Gladiator's Treads of Dominance",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41894": {
             "Name": "Relentless Gladiator's Cuffs of Salvation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41882": {
             "Name": "Relentless Gladiator's Cord of Salvation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41886": {
             "Name": "Relentless Gladiator's Treads of Salvation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "49181": {
             "Name": "Relentless Gladiator's Cuffs of Alacrity",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "49179": {
             "Name": "Relentless Gladiator's Cord of Alacrity",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "49183": {
             "Name": "Relentless Gladiator's Treads of Alacrity",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41641": {
             "Name": "Relentless Gladiator's Armwraps of Dominance",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41631": {
             "Name": "Relentless Gladiator's Belt of Dominance",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41636": {
             "Name": "Relentless Gladiator's Boots of Dominance",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41626": {
             "Name": "Relentless Gladiator's Armwraps of Salvation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41618": {
             "Name": "Relentless Gladiator's Belt of Salvation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41622": {
             "Name": "Relentless Gladiator's Boots of Salvation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41841": {
             "Name": "Relentless Gladiator's Armwraps of Triumph",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41833": {
             "Name": "Relentless Gladiator's Belt of Triumph",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41837": {
             "Name": "Relentless Gladiator's Boots of Triumph",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41066": {
             "Name": "Relentless Gladiator's Wristguards of Dominance",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41071": {
             "Name": "Relentless Gladiator's Waistguard of Dominance",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41076": {
             "Name": "Relentless Gladiator's Sabatons of Dominance",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41061": {
             "Name": "Relentless Gladiator's Wristguards of Salvation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41052": {
             "Name": "Relentless Gladiator's Waistguard of Salvation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41056": {
             "Name": "Relentless Gladiator's Sabatons of Salvation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41226": {
             "Name": "Relentless Gladiator's Wristguards of Triumph",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41236": {
             "Name": "Relentless Gladiator's Waistguard of Triumph",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "41231": {
             "Name": "Relentless Gladiator's Sabatons of Triumph",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40984": {
             "Name": "Relentless Gladiator's Bracers of Salvation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40978": {
             "Name": "Relentless Gladiator's Girdle of Salvation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40979": {
             "Name": "Relentless Gladiator's Greaves of Salvation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40890": {
             "Name": "Relentless Gladiator's Bracers of Triumph",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40883": {
             "Name": "Relentless Gladiator's Girdle of Triumph",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "40884": {
             "Name": "Relentless Gladiator's Greaves of Triumph",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42078": {
             "Name": "Relentless Gladiator's Cloak of Ascendancy",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42080": {
             "Name": "Relentless Gladiator's Cloak of Deliverance",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42076": {
             "Name": "Relentless Gladiator's Cloak of Dominance",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42079": {
             "Name": "Relentless Gladiator's Cloak of Salvation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42077": {
             "Name": "Relentless Gladiator's Cloak of Subjugation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42081": {
             "Name": "Relentless Gladiator's Cloak of Triumph",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42082": {
             "Name": "Relentless Gladiator's Cloak of Victory",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42044": {
             "Name": "Relentless Gladiator's Pendant of Ascendancy",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42046": {
             "Name": "Relentless Gladiator's Pendant of Deliverance",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42043": {
             "Name": "Relentless Gladiator's Pendant of Dominance",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42047": {
             "Name": "Relentless Gladiator's Pendant of Salvation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42045": {
             "Name": "Relentless Gladiator's Pendant of Subjugation",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "46374": {
             "Name": "Relentless Gladiator's Pendant of Sundering",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42041": {
             "Name": "Relentless Gladiator's Pendant of Triumph",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42042": {
             "Name": "Relentless Gladiator's Pendant of Victory",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42118": {
             "Name": "Relentless Gladiator's Band of Ascendancy",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "42119": {
             "Name": "Relentless Gladiator's Band of Victory",
             "Source": "Koralon the Flame Watcher/Toravon the Ice Watcher",
             "SourceType": "Drop",
-            "SourceNumber": "0",
+            "SourceNumber": "0/0",
             "SourceLocation": "Vault of Archavon (25)/Vault of Archavon (10)"
         },
         "47773": {
@@ -12663,13 +12649,6 @@
             "SourceNumber": "0",
             "SourceLocation": "Trial of the Crusader (25)"
         },
-        "47242": {
-            "Name": "Trophy of the Crusade",
-            "Source": "The Beasts of Northrend/Tribute Run/The Beasts of Northrend & Lord Jaraxxus & Faction Champions & The Twin Val'kyr & Anub'arak",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Trial of the Crusader (25)/Trial of the Grand Crusader (10)"
-        },
         "46959": {
             "Name": "Band of the Violent Temperment",
             "Source": "The Beasts of Northrend",
@@ -18025,13 +18004,6 @@
             "SourceNumber": "0",
             "SourceLocation": "Icecrown Citadel (10)"
         },
-        "51026": {
-            "Name": "Crystalline Essence of Sindragosa",
-            "Source": "Sindragosa",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Icecrown Citadel (10)/Icecrown Citadel (Heroic 25)"
-        },
         "51779": {
             "Name": "Rimetooth Pendant",
             "Source": "Sindragosa",
@@ -18227,20 +18199,6 @@
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Icecrown Citadel (25)"
-        },
-        "50274": {
-            "Name": "Shadowfrost Shard",
-            "Source": "Lord Marrowgar",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Icecrown Citadel (25)/Icecrown Citadel (Heroic 25)"
-        },
-        "49908": {
-            "Name": "Primordial Saronite",
-            "Source": "Lord Marrowgar/The Lich King",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Icecrown Citadel (25)/Icecrown Citadel (Heroic 10)"
         },
         "49991": {
             "Name": "Shoulders of Mercy Killing",
@@ -18487,27 +18445,6 @@
             "SourceNumber": "0",
             "SourceLocation": "Icecrown Citadel (25)"
         },
-        "52027": {
-            "Name": "Conqueror's Mark of Sanctification",
-            "Source": "Deathbringer Saurfang",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Icecrown Citadel (25)/Icecrown Citadel (Heroic 10)"
-        },
-        "52026": {
-            "Name": "Protector's Mark of Sanctification",
-            "Source": "Deathbringer Saurfang",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Icecrown Citadel (25)/Icecrown Citadel (Heroic 10)"
-        },
-        "52025": {
-            "Name": "Vanquisher's Mark of Sanctification",
-            "Source": "Deathbringer Saurfang",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Icecrown Citadel (25)/Icecrown Citadel (Heroic 10)"
-        },
         "50063": {
             "Name": "Lingering Illness",
             "Source": "Festergut",
@@ -18731,13 +18668,6 @@
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Icecrown Citadel (25)"
-        },
-        "50231": {
-            "Name": "Rotface's Acidic Blood",
-            "Source": "Rotface",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Icecrown Citadel (25)/Icecrown Citadel (Heroic 25)"
         },
         "50067": {
             "Name": "Astrylian's Sutured Cinch",

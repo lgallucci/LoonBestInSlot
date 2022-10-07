@@ -380,423 +380,423 @@
     },
     "40778": {
       "Name": "Savage Gladiator's Plate Chestpiece",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40779": {
       "Name": "Savage Gladiator's Dreadplate Chestpiece",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40780": {
       "Name": "Savage Gladiator's Scaled Chestpiece",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40797": {
       "Name": "Savage Gladiator's Plate Gauntlets",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/7200 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40798": {
       "Name": "Savage Gladiator's Scaled Gauntlets",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/7200 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40799": {
       "Name": "Savage Gladiator's Dreadplate Gauntlets",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/7200 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40816": {
       "Name": "Savage Gladiator's Plate Helm",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40817": {
       "Name": "Savage Gladiator's Dreadplate Helm",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40818": {
       "Name": "Savage Gladiator's Scaled Helm",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40836": {
       "Name": "Savage Gladiator's Plate Legguards",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40837": {
       "Name": "Savage Gladiator's Dreadplate Legguards",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40838": {
       "Name": "Savage Gladiator's Scaled Legguards",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40856": {
       "Name": "Savage Gladiator's Plate Shoulders",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/9600 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40857": {
       "Name": "Savage Gladiator's Dreadplate Shoulders",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/9600 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40858": {
       "Name": "Savage Gladiator's Scaled Shoulders",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/9600 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40898": {
       "Name": "Savage Gladiator's Ornamented Chestguard",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40918": {
       "Name": "Savage Gladiator's Ornamented Gloves",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/7200 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40930": {
       "Name": "Savage Gladiator's Ornamented Headcover",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40936": {
       "Name": "Savage Gladiator's Ornamented Legplates",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40960": {
       "Name": "Savage Gladiator's Ornamented Spaulders",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/9600 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40986": {
       "Name": "Savage Gladiator's Ringmail Armor",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40987": {
       "Name": "Savage Gladiator's Mail Armor",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40998": {
       "Name": "Savage Gladiator's Ringmail Gauntlets",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/7200 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41004": {
       "Name": "Savage Gladiator's Mail Gauntlets",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/7200 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41010": {
       "Name": "Savage Gladiator's Ringmail Helm",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41016": {
       "Name": "Savage Gladiator's Mail Helm",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41023": {
       "Name": "Savage Gladiator's Ringmail Leggings",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41024": {
       "Name": "Savage Gladiator's Ringmail Spaulders",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/9600 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41030": {
       "Name": "Savage Gladiator's Mail Leggings",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41041": {
       "Name": "Savage Gladiator's Mail Spaulders",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/9600 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41078": {
       "Name": "Savage Gladiator's Linked Armor",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41084": {
       "Name": "Savage Gladiator's Chain Armor",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41134": {
       "Name": "Savage Gladiator's Linked Gauntlets",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/7200 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41140": {
       "Name": "Savage Gladiator's Chain Gauntlets",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/7200 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41148": {
       "Name": "Savage Gladiator's Linked Helm",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41154": {
       "Name": "Savage Gladiator's Chain Helm",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41160": {
       "Name": "Savage Gladiator's Linked Leggings",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41202": {
       "Name": "Savage Gladiator's Chain Leggings",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41208": {
       "Name": "Savage Gladiator's Linked Spaulders",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/9600 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41214": {
       "Name": "Savage Gladiator's Chain Spaulders",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/9600 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41268": {
       "Name": "Savage Gladiator's Kodohide Gloves",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/7200 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41269": {
       "Name": "Savage Gladiator's Kodohide Helm",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41270": {
       "Name": "Savage Gladiator's Kodohide Legguards",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41271": {
       "Name": "Savage Gladiator's Kodohide Spaulders",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/9600 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41272": {
       "Name": "Savage Gladiator's Kodohide Robes",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41278": {
       "Name": "Savage Gladiator's Wyrmhide Spaulders",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/9600 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41290": {
       "Name": "Savage Gladiator's Wyrmhide Gloves",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/7200 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41301": {
       "Name": "Savage Gladiator's Wyrmhide Legguards",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41313": {
       "Name": "Savage Gladiator's Wyrmhide Robes",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41324": {
       "Name": "Savage Gladiator's Wyrmhide Helm",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41643": {
       "Name": "Savage Gladiator's Leather Gloves",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/7200 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41644": {
       "Name": "Savage Gladiator's Leather Helm",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41645": {
       "Name": "Savage Gladiator's Leather Legguards",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41646": {
       "Name": "Savage Gladiator's Leather Spaulders",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/9600 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41647": {
       "Name": "Savage Gladiator's Leather Tunic",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41658": {
       "Name": "Savage Gladiator's Dragonhide Robes",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41664": {
       "Name": "Savage Gladiator's Dragonhide Legguards",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41675": {
       "Name": "Savage Gladiator's Dragonhide Helm",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41712": {
       "Name": "Savage Gladiator's Dragonhide Spaulders",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/9600 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41770": {
       "Name": "Savage Gladiator's Dragonhide Gloves",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/7200 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41847": {
       "Name": "Savage Gladiator's Mooncloth Gloves",
@@ -870,73 +870,73 @@
     },
     "41943": {
       "Name": "Savage Gladiator's Silk Cowl",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41949": {
       "Name": "Savage Gladiator's Silk Raiment",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41956": {
       "Name": "Savage Gladiator's Silk Trousers",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41962": {
       "Name": "Savage Gladiator's Silk Amice",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/9600 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41968": {
       "Name": "Savage Gladiator's Silk Handguards",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/7200 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41990": {
       "Name": "Savage Gladiator's Felweave Cowl",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41996": {
       "Name": "Savage Gladiator's Felweave Raiment",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "42002": {
       "Name": "Savage Gladiator's Felweave Trousers",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "60000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "60000/12000 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "42008": {
       "Name": "Savage Gladiator's Felweave Amice",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/9600 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "42014": {
       "Name": "Savage Gladiator's Felweave Handguards",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "50000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "50000/7200 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "40877": {
       "Name": "Hateful Gladiator's Girdle of Triumph",
@@ -2140,6 +2140,566 @@
       "Source": "Arena Points",
       "SourceType": "PvP",
       "SourceNumber": "100",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40781": {
+      "Name": "Hateful Gladiator's Dreadplate Chestpiece",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40782": {
+      "Name": "Hateful Gladiator's Scaled Chestpiece",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40783": {
+      "Name": "Hateful Gladiator's Plate Chestpiece",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40801": {
+      "Name": "Hateful Gladiator's Plate Gauntlets",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40802": {
+      "Name": "Hateful Gladiator's Scaled Gauntlets",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40803": {
+      "Name": "Hateful Gladiator's Dreadplate Gauntlets",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40819": {
+      "Name": "Hateful Gladiator's Plate Helm",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40820": {
+      "Name": "Hateful Gladiator's Dreadplate Helm",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40821": {
+      "Name": "Hateful Gladiator's Scaled Helm",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40840": {
+      "Name": "Hateful Gladiator's Plate Legguards",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40841": {
+      "Name": "Hateful Gladiator's Dreadplate Legguards",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40842": {
+      "Name": "Hateful Gladiator's Scaled Legguards",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40859": {
+      "Name": "Hateful Gladiator's Plate Shoulders",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40860": {
+      "Name": "Hateful Gladiator's Dreadplate Shoulders",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40861": {
+      "Name": "Hateful Gladiator's Scaled Shoulders",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40904": {
+      "Name": "Hateful Gladiator's Ornamented Chestguard",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40925": {
+      "Name": "Hateful Gladiator's Ornamented Gloves",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40931": {
+      "Name": "Hateful Gladiator's Ornamented Headcover",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40937": {
+      "Name": "Hateful Gladiator's Ornamented Legplates",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40961": {
+      "Name": "Hateful Gladiator's Ornamented Spaulders",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40988": {
+      "Name": "Hateful Gladiator's Ringmail Armor",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40989": {
+      "Name": "Hateful Gladiator's Mail Armor",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "40999": {
+      "Name": "Hateful Gladiator's Ringmail Gauntlets",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41005": {
+      "Name": "Hateful Gladiator's Mail Gauntlets",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41011": {
+      "Name": "Hateful Gladiator's Ringmail Helm",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41017": {
+      "Name": "Hateful Gladiator's Mail Helm",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41025": {
+      "Name": "Hateful Gladiator's Ringmail Leggings",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41031": {
+      "Name": "Hateful Gladiator's Mail Leggings",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41036": {
+      "Name": "Hateful Gladiator's Ringmail Spaulders",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41042": {
+      "Name": "Hateful Gladiator's Mail Spaulders",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41079": {
+      "Name": "Hateful Gladiator's Linked Armor",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41085": {
+      "Name": "Hateful Gladiator's Chain Armor",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41135": {
+      "Name": "Hateful Gladiator's Linked Gauntlets",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41141": {
+      "Name": "Hateful Gladiator's Chain Gauntlets",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41149": {
+      "Name": "Hateful Gladiator's Linked Helm",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41155": {
+      "Name": "Hateful Gladiator's Chain Helm",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41162": {
+      "Name": "Hateful Gladiator's Linked Leggings",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41203": {
+      "Name": "Hateful Gladiator's Chain Leggings",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41209": {
+      "Name": "Hateful Gladiator's Linked Spaulders",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41215": {
+      "Name": "Hateful Gladiator's Chain Spaulders",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41273": {
+      "Name": "Hateful Gladiator's Kodohide Spaulders",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41279": {
+      "Name": "Hateful Gladiator's Wyrmhide Spaulders",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41284": {
+      "Name": "Hateful Gladiator's Kodohide Gloves",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41291": {
+      "Name": "Hateful Gladiator's Wyrmhide Gloves",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41296": {
+      "Name": "Hateful Gladiator's Kodohide Legguards",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41302": {
+      "Name": "Hateful Gladiator's Wyrmhide Legguards",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41308": {
+      "Name": "Hateful Gladiator's Kodohide Robes",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41314": {
+      "Name": "Hateful Gladiator's Wyrmhide Robes",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41319": {
+      "Name": "Hateful Gladiator's Kodohide Helm",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41325": {
+      "Name": "Hateful Gladiator's Wyrmhide Helm",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41648": {
+      "Name": "Hateful Gladiator's Leather Tunic",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41653": {
+      "Name": "Hateful Gladiator's Leather Legguards",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41659": {
+      "Name": "Hateful Gladiator's Dragonhide Robes",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41665": {
+      "Name": "Hateful Gladiator's Dragonhide Legguards",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41670": {
+      "Name": "Hateful Gladiator's Leather Helm",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41676": {
+      "Name": "Hateful Gladiator's Dragonhide Helm",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41681": {
+      "Name": "Hateful Gladiator's Leather Spaulders",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41713": {
+      "Name": "Hateful Gladiator's Dragonhide Spaulders",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41765": {
+      "Name": "Hateful Gladiator's Leather Gloves",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41771": {
+      "Name": "Hateful Gladiator's Dragonhide Gloves",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41852": {
+      "Name": "Hateful Gladiator's Mooncloth Hood",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41857": {
+      "Name": "Hateful Gladiator's Mooncloth Robe",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41862": {
+      "Name": "Hateful Gladiator's Mooncloth Leggings",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41867": {
+      "Name": "Hateful Gladiator's Mooncloth Mantle",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41872": {
+      "Name": "Hateful Gladiator's Mooncloth Gloves",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41913": {
+      "Name": "Hateful Gladiator's Satin Hood",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41919": {
+      "Name": "Hateful Gladiator's Satin Robe",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41925": {
+      "Name": "Hateful Gladiator's Satin Leggings",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41931": {
+      "Name": "Hateful Gladiator's Satin Mantle",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41938": {
+      "Name": "Hateful Gladiator's Satin Gloves",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41944": {
+      "Name": "Hateful Gladiator's Silk Cowl",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41950": {
+      "Name": "Hateful Gladiator's Silk Raiment",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41957": {
+      "Name": "Hateful Gladiator's Silk Trousers",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41963": {
+      "Name": "Hateful Gladiator's Silk Amice",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41969": {
+      "Name": "Hateful Gladiator's Silk Handguards",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "41991": {
+      "Name": "Hateful Gladiator's Felweave Cowl",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42001": {
+      "Name": "Hateful Gladiator's Felweave Raiment",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42003": {
+      "Name": "Hateful Gladiator's Felweave Trousers",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "12000 & 700",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42009": {
+      "Name": "Hateful Gladiator's Felweave Amice",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9600 & 550",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42015": {
+      "Name": "Hateful Gladiator's Felweave Handguards",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7200 & 400",
       "SourceLocation": "Arena Vendor"
     }
   }
