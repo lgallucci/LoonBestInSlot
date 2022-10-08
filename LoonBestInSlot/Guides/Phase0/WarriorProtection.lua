@@ -65,8 +65,8 @@ LBIS:AddItem(spec, "37082", LBIS.L["Feet"], "Alt") --Slaughterhouse Sabatons
 LBIS:AddItem(spec, "44243", LBIS.L["Feet"], "Alt") --Toxin-Tempered Sabatons
 LBIS:AddItem(spec, "44201", LBIS.L["Feet"], "Alt Mit") --Sabatons of Draconic Vigor
 
-LBIS:AddItem(spec, "37646", LBIS.L["Neck"], "Alt") --Burning Skull Pendant
-LBIS:AddItem(spec, "40679", LBIS.L["Neck"], "Alt") --Chained Military Gorget
+LBIS:AddItem(spec, "37646", LBIS.L["Neck"], "BIS") --Burning Skull Pendant
+LBIS:AddItem(spec, "40679", LBIS.L["Neck"], "BIS") --Chained Military Gorget
 LBIS:AddItem(spec, "42646", LBIS.L["Neck"], "Alt") --Titanium Earthguard Chain
 LBIS:AddItem(spec, "43282", LBIS.L["Neck"], "Alt Mit") --Shadowseeker's Pendant
 LBIS:AddItem(spec, "37689", LBIS.L["Neck"], "Alt") --Pendant of the Nathrezim

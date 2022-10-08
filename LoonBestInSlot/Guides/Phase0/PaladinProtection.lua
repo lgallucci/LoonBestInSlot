@@ -17,7 +17,7 @@ LBIS:AddItem(spec, "37635", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Coloss
 LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "Alt") --Pauldrons of Perseverance
 LBIS:AddItem(spec, "37814", LBIS.L["Shoulder"], "Alt") --Iron Dwarf Smith Pauldrons
 
-LBIS:AddItem(spec, "43565", LBIS.L["Back"], "Alt") --Durable Nerubhide Cape
+LBIS:AddItem(spec, "43565", LBIS.L["Back"], "BIS") --Durable Nerubhide Cape
 LBIS:AddItem(spec, "42068", LBIS.L["Back"], "Alt") --Deadly Gladiator's Cloak of Victory
 LBIS:AddItem(spec, "44188", LBIS.L["Back"], "Alt") --Cloak of Peaceful Resolutions
 LBIS:AddItem(spec, "37728", LBIS.L["Back"], "Alt") --Cloak of the Enemy
