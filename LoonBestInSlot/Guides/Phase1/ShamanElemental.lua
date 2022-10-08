@@ -8,20 +8,20 @@ LBIS:AddItem(spec, "40339", LBIS.L["Head"], "Alt") --Gothik's Cowl
 LBIS:AddItem(spec, "39405", LBIS.L["Head"], "Alt") --Helmet of the Inner Sanctum
 LBIS:AddItem(spec, "42555", LBIS.L["Head"], "Alt") --Electroflux Sight Enhancers
 
-LBIS:AddItem(spec, "40518", LBIS.L["Shoulder"], "BIS") --Valorous Earthshatter Shoulderpads
 LBIS:AddItem(spec, "40638", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Protector
+LBIS:AddItem(spec, "40518", LBIS.L["Shoulder"], "BIS") --Valorous Earthshatter Shoulderpads
 LBIS:AddItem(spec, "39596", LBIS.L["Shoulder"], "Alt") --Heroes' Earthshatter Shoulderpads
 LBIS:AddItem(spec, "40623", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Protector
 LBIS:AddItem(spec, "40439", LBIS.L["Shoulder"], "Alt") --Mantle of the Eternal Sentinel
 LBIS:AddItem(spec, "40286", LBIS.L["Shoulder"], "Alt") --Mantle of the Corrupted
 
 LBIS:AddItem(spec, "44005", LBIS.L["Back"], "BIS") --Pennant Cloak
-LBIS:AddItem(spec, "41610", LBIS.L["Back"], "Alt") --Deathchill Cloak
 LBIS:AddItem(spec, "40251", LBIS.L["Back"], "Alt") --Shroud of Luminosity
+LBIS:AddItem(spec, "41610", LBIS.L["Back"], "Alt") --Deathchill Cloak
 LBIS:AddItem(spec, "39415", LBIS.L["Back"], "Alt") --Shroud of the Citadel
 
-LBIS:AddItem(spec, "40514", LBIS.L["Chest"], "BIS") --Valorous Earthshatter Hauberk
 LBIS:AddItem(spec, "40626", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Protector
+LBIS:AddItem(spec, "40514", LBIS.L["Chest"], "BIS") --Valorous Earthshatter Hauberk
 LBIS:AddItem(spec, "39592", LBIS.L["Chest"], "Alt") --Heroes' Earthshatter Hauberk
 LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Protector
 LBIS:AddItem(spec, "40283", LBIS.L["Chest"], "Alt") --Fallout Impervious Tunic
@@ -30,8 +30,8 @@ LBIS:AddItem(spec, "40234", LBIS.L["Chest"], "Alt") --Heigan's Putrid Vestments
 
 LBIS:AddItem(spec, "40324", LBIS.L["Wrist"], "BIS") --Bands of Mutual Respect
 LBIS:AddItem(spec, "40325", LBIS.L["Wrist"], "BIS") --Bindings of the Expansive Mind
-LBIS:AddItem(spec, "37788", LBIS.L["Wrist"], "Alt") --Limb Regeneration Bracers
 LBIS:AddItem(spec, "37884", LBIS.L["Wrist"], "Alt") --Azure Cloth Bindings
+LBIS:AddItem(spec, "37788", LBIS.L["Wrist"], "Alt") --Limb Regeneration Bracers
 
 LBIS:AddItem(spec, "40515", LBIS.L["Hands"], "BIS") --Valorous Earthshatter Gloves
 LBIS:AddItem(spec, "40629", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Protector
@@ -53,9 +53,9 @@ LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "Alt") --Legplates of the Lost Prote
 LBIS:AddItem(spec, "39595", LBIS.L["Legs"], "Alt") --Heroes' Earthshatter Kilt
 LBIS:AddItem(spec, "40620", LBIS.L["Legs"], "Alt") --Leggings of the Lost Protector
 
-LBIS:AddItem(spec, "40519", LBIS.L["Feet"], "BIS") --Footsteps of Malygos
 LBIS:AddItem(spec, "40237", LBIS.L["Feet"], "BIS") --Eruption-Scarred Boots
 LBIS:AddItem(spec, "40246", LBIS.L["Feet"], "BIS") --Boots of Impetuous Ideals
+LBIS:AddItem(spec, "40519", LBIS.L["Feet"], "BIS") --Footsteps of Malygos
 LBIS:AddItem(spec, "43469", LBIS.L["Feet"], "Alt") --Revenant's Treads
 
 LBIS:AddItem(spec, "44661", LBIS.L["Neck"], "BIS") --Wyrmrest Necklace of Power
@@ -66,10 +66,10 @@ LBIS:AddItem(spec, "42647", LBIS.L["Neck"], "Alt") --Titanium Spellshock Necklac
 
 LBIS:AddItem(spec, "40399", LBIS.L["Ring"], "BIS") --Signet of Manifested Pain
 LBIS:AddItem(spec, "39389", LBIS.L["Ring"], "BIS") --Signet of the Malevolent
+LBIS:AddItem(spec, "43253", LBIS.L["Ring"], "Alt") --Ring of Northern Tears
+LBIS:AddItem(spec, "42644", LBIS.L["Ring"], "Alt") --Titanium Spellshock Ring
 LBIS:AddItem(spec, "40585", LBIS.L["Ring"], "Alt") --Signet of the Kirin Tor
 LBIS:AddItem(spec, "39244", LBIS.L["Ring"], "Alt") --Ring of the Fated
-LBIS:AddItem(spec, "42644", LBIS.L["Ring"], "Alt") --Titanium Spellshock Ring
-LBIS:AddItem(spec, "43253", LBIS.L["Ring"], "Alt") --Ring of Northern Tears
 
 LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Dragon Soul
 LBIS:AddItem(spec, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spider
@@ -78,8 +78,8 @@ LBIS:AddItem(spec, "37873", LBIS.L["Trinket"], "Alt") --Mark of the War Prisoner
 LBIS:AddItem(spec, "42395", LBIS.L["Trinket"], "Alt") --Figurine - Twilight Serpent
 
 LBIS:AddItem(spec, "40395", LBIS.L["Main Hand"], "BIS") --Torch of Holy Fire
-LBIS:AddItem(spec, "39763", LBIS.L["Main Hand"], "Alt") --Wraith Strike
 LBIS:AddItem(spec, "39423", LBIS.L["Main Hand"], "Alt") --Hammer of the Astral Plane
+LBIS:AddItem(spec, "39763", LBIS.L["Main Hand"], "Alt") --Wraith Strike
 LBIS:AddItem(spec, "41384", LBIS.L["Main Hand"], "Alt") --Titansteel Guardian
 LBIS:AddItem(spec, "45085", LBIS.L["Main Hand"], "Alt") --Titansteel Spellblade
 

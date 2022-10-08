@@ -16,8 +16,8 @@ LBIS:AddItem(spec, "43988", LBIS.L["Back"], "Alt") --Gale-Proof Cloak
 
 LBIS:AddItem(spec, "40559", LBIS.L["Chest"], "BIS") --Valorous Scourgeborne Chestguard
 LBIS:AddItem(spec, "40627", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Vanquisher
-LBIS:AddItem(spec, "44000", LBIS.L["Chest"], "Alt") --Dragonstorm Breastplate
 LBIS:AddItem(spec, "40203", LBIS.L["Chest"], "Alt") --Breastplate of Tormented Rage
+LBIS:AddItem(spec, "44000", LBIS.L["Chest"], "Alt") --Dragonstorm Breastplate
 
 LBIS:AddItem(spec, "40306", LBIS.L["Wrist"], "BIS") --Bracers of the Unholy Knight
 LBIS:AddItem(spec, "40734", LBIS.L["Wrist"], "Alt") --Bracers of Dalaran's Parapets
@@ -33,9 +33,9 @@ LBIS:AddItem(spec, "39759", LBIS.L["Waist"], "BIS") --Ablative Chitin Girdle
 LBIS:AddItem(spec, "40689", LBIS.L["Waist"], "Alt") --Waistguard of Living Iron
 
 LBIS:AddItem(spec, "40589", LBIS.L["Legs"], "BIS") --Legplates of Sovereignty
-LBIS:AddItem(spec, "40567", LBIS.L["Legs"], "Alt") --Valorous Scourgeborne Legguards
 LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "Alt") --Legplates of the Lost Vanquisher
 LBIS:AddItem(spec, "40446", LBIS.L["Legs"], "Alt") --Dragon Brood Legguards
+LBIS:AddItem(spec, "40567", LBIS.L["Legs"], "Alt") --Valorous Scourgeborne Legguards
 
 LBIS:AddItem(spec, "40297", LBIS.L["Feet"], "BIS") --Sabatons of Endurance
 LBIS:AddItem(spec, "40743", LBIS.L["Feet"], "Alt") --Kyzoc's Ground Stompers
@@ -52,9 +52,9 @@ LBIS:AddItem(spec, "39141", LBIS.L["Ring"], "Alt") --Deflection Band
 LBIS:AddItem(spec, "40426", LBIS.L["Ring"], "Alt") --Signet of the Accord
 LBIS:AddItem(spec, "42643", LBIS.L["Ring"], "Alt") --Titanium Earthguard Ring
 
-LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "BIS") --Figurine - Monarch Crab
 LBIS:AddItem(spec, "42341", LBIS.L["Trinket"], "BIS") --Figurine - Ruby Hare
 LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "BIS") --Essence of Gossamer
+LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "BIS") --Figurine - Monarch Crab
 
 LBIS:AddItem(spec, "42322", LBIS.L["Two Hand"], "BIS") --Deadly Gladiator's Bonegrinder
 LBIS:AddItem(spec, "42317", LBIS.L["Two Hand"], "BIS") --Deadly Gladiator's Decapitator
@@ -69,6 +69,6 @@ LBIS:AddItem(spec, "42285", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Sli
 LBIS:AddItem(spec, "40345", LBIS.L["Main Hand"], "BIS") --Broken Promise
 LBIS:AddItem(spec, "39344", LBIS.L["Main Hand"], "Alt") --Slayer of the Lifeless
 
-LBIS:AddItem(spec, "40714", LBIS.L["Relic"], "BIS") --Sigil of the Unfaltering Knight
 LBIS:AddItem(spec, "40822", LBIS.L["Relic"], "BIS") --Sigil of the Frozen Conscience
+LBIS:AddItem(spec, "40714", LBIS.L["Relic"], "BIS") --Sigil of the Unfaltering Knight
 LBIS:AddItem(spec, "40207", LBIS.L["Relic"], "Alt") --Sigil of Awareness
