@@ -2,8 +2,37 @@
 
 namespace AddonManager.Models;
 
-public class ItemSpec
+public class ItemSpec : IComparable<ItemSpec>
 {
+    private Dictionary<string, int> _sortOrder = new Dictionary<string, int> { { "Head", 0 }, { "Shoulder", 1}, { "Back", 2}, { "Chest", 3}, { "Wrist", 4},
+        { "Hands", 5}, { "Waist", 6}, { "Legs", 7}, { "Feet", 8}, { "Neck", 9}, { "Ring", 10}, { "Trinket", 11}, { "Two Hand", 12}, { "Main Hand", 13}, 
+        { "Off Hand", 14 }, { "Shield", 15}, { "Ranged", 16}, { "Wand", 17}, { "Totem", 18}, { "Idol", 19}, { "Libram", 20}, { "Relic", 21} };
+
+    public int CompareTo(ItemSpec? other)
+    {
+        if (other == null)
+            return -1;
+        
+        if (_sortOrder[this.Slot] < other._sortOrder[other.Slot])
+        {
+            return -1;
+        }
+        else if (_sortOrder[this.Slot] > other._sortOrder[other.Slot])
+        {
+            return 1;
+        }
+        else
+        {
+            if (other.BisStatus.Contains("BIS") && !this.BisStatus.Contains("BIS"))
+                return 1;
+            else if (this.BisStatus.Contains("BIS") && !other.BisStatus.Contains("BIS"))
+                return -1;
+            else
+                return 0;
+        }
+
+    }
+
     public int ItemId { get; set; }
     public string Name { get; set; } = string.Empty;
     public string Slot { get; set; } = string.Empty;
@@ -23,6 +52,7 @@ public class ItemSpec
         new (".", ""),
         new ("(", ""),
         new (")", ""),
+        new ("/", ""),
         new ("&", ""),
         new ("t4", ""),
         new ("T6", ""),
@@ -84,6 +114,7 @@ public class ItemSpec
         new ("10m", ""),
         new ("skewed", ""),
         new ("individually", ""),
+        new ("wintergrasp", ""),
         new ("when", ""),
         new ("capped", ""),
         new ("utility", ""),
@@ -106,6 +137,9 @@ public class ItemSpec
         new ("without", ""),
         new ("with", ""),
         new ("up", ""),
+        new ("2h", ""),
+        new ("mh", ""),
+        new ("oh", ""),
 
         new ("2.5", ""),
         new ("2.6", ""),

@@ -154,12 +154,22 @@ public class WowheadGuideParser
                         var bisStatus = GetBisStatus(tableRow, isTierList);
 
                         if (itemChild != null)
-                            ParseItemCell(itemChild, bisStatus, guideMapping.Slot, items);
+                            ParseItemCell(itemChild, bisStatus, GetSlot(guideMapping.Slot, bisStatus), items);
                     }
                 }
             });
         });
         return items;
+    }
+
+    private string GetSlot(string slot, string bisStatus)
+    {
+        if (slot == "Main Hand" && bisStatus.ToUpper().Contains("OH") && !bisStatus.Contains("MH"))
+            return "Off Hand";
+        else if (slot == "Main Hand" && bisStatus.ToUpper().Contains("2H") && !bisStatus.Contains("MH"))
+            return "Two Hand";
+
+        return slot;
     }
 
     private string GetBisStatus(INode tableRow, bool isTierList)

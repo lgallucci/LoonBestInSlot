@@ -1,10 +1,11 @@
 ﻿using AddonManager.Models;
+using System.Linq;
 
 namespace AddonManager.FileManagers;
 
 public static class ItemSpecFileManager
 {
-    internal static void WriteItemSpec(string path, string className, string specName, string phaseText, Dictionary<int, ItemSpec> items)
+    internal static void WriteItemSpec(string path, string className, string specName, string phaseText, List<ItemSpec> items)
     {
         var itemSB = new StringBuilder();
 
@@ -12,15 +13,17 @@ public static class ItemSpecFileManager
 
         itemSB.AppendLine($"local spec = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"{phaseNumber}\")");
 
+        items.Sort();
+
         var previousSlot = "LBIS.L[\"Head\"]";
         foreach (var item in items)
         {
-            if (previousSlot != item.Value.Slot)
+            if (previousSlot != item.Slot)
             {
-                previousSlot = item.Value.Slot;
+                previousSlot = item.Slot;
                 itemSB.AppendLine();
             }
-            itemSB.AppendLine($"LBIS:AddItem(spec, \"{item.Value.ItemId}\", LBIS.L[\"{item.Value.Slot}\"], \"{item.Value.BisStatus}\") --{item.Value.Name}");
+            itemSB.AppendLine($"LBIS:AddItem(spec, \"{item.ItemId}\", LBIS.L[\"{item.Slot}\"], \"{item.BisStatus}\") --{item.Name}");
         }
 
         System.IO.File.WriteAllText(path, itemSB.ToString());

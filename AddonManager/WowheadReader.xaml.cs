@@ -418,7 +418,7 @@ public partial class WowheadReader : Window
                     }
                 }
 
-                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"Guides\Phase{phaseNumber}\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, cmbPhase.SelectedValue.ToString(), items);
+                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"Guides\Phase{phaseNumber}\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, cmbPhase.SelectedValue.ToString(), items.Values.ToList());
 
                 ItemSourceFileManager.WriteItemSources(itemSources);
             }

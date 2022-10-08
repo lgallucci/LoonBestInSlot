@@ -20,18 +20,18 @@ LBIS:AddItem(spec, "34241", LBIS.L["Back"], "Alt") --Cloak of Unforgivable Sin
 LBIS:AddItem(spec, "43566", LBIS.L["Back"], "Alt") --Ice Striker's Cloak
 LBIS:AddItem(spec, "37840", LBIS.L["Back"], "Alt") --Shroud of Reverberation
 
-LBIS:AddItem(spec, "39558", LBIS.L["Chest"], "BIS") --Heroes' Bonescythe Breastplate
 LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Vanquisher
+LBIS:AddItem(spec, "39558", LBIS.L["Chest"], "BIS") --Heroes' Bonescythe Breastplate
 LBIS:AddItem(spec, "44303", LBIS.L["Chest"], "Alt") --Darkheart Chestguard
 LBIS:AddItem(spec, "37219", LBIS.L["Chest"], "Alt") --Custodian's Chestpiece
 LBIS:AddItem(spec, "37165", LBIS.L["Chest"], "Alt") --Crystal-Infused Tunic
 LBIS:AddItem(spec, "34369", LBIS.L["Chest"], "Alt") --Carapace of Sun and Shadow
 
 LBIS:AddItem(spec, "44203", LBIS.L["Wrist"], "BIS") --Dragonfriend Bracers
-LBIS:AddItem(spec, "37366", LBIS.L["Wrist"], "Alt") --Drake-Champion's Bracers
-LBIS:AddItem(spec, "37853", LBIS.L["Wrist"], "Alt") --Advanced Tooled-Leather Bands
 LBIS:AddItem(spec, "34448", LBIS.L["Wrist"], "Alt") --Slayer's Bracers
 LBIS:AddItem(spec, "34852", LBIS.L["Wrist"], "Alt") --Bracers of the Forgotten Vanquisher
+LBIS:AddItem(spec, "37366", LBIS.L["Wrist"], "Alt") --Drake-Champion's Bracers
+LBIS:AddItem(spec, "37853", LBIS.L["Wrist"], "Alt") --Advanced Tooled-Leather Bands
 
 LBIS:AddItem(spec, "39560", LBIS.L["Hands"], "BIS") --Heroes' Bonescythe Gauntlets
 LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "BIS") --Gloves of the Lost Vanquisher
@@ -40,11 +40,11 @@ LBIS:AddItem(spec, "34370", LBIS.L["Hands"], "Alt") --Gloves of Immortal Dusk
 LBIS:AddItem(spec, "37846", LBIS.L["Hands"], "Alt") --Charged-Bolt Grips
 
 LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "BIS") --Jorach's Crocolisk Skin Belt
-LBIS:AddItem(spec, "37194", LBIS.L["Waist"], "Alt") --Sharp-Barbed Leather Belt
-LBIS:AddItem(spec, "43484", LBIS.L["Waist"], "Alt") --Trollwoven Girdle
+LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "Alt") --Belt of the Forgotten Vanquisher
 LBIS:AddItem(spec, "37243", LBIS.L["Waist"], "Alt") --Treasure Seeker's Belt
 LBIS:AddItem(spec, "34558", LBIS.L["Waist"], "Alt") --Slayer's Belt
-LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "Alt") --Belt of the Forgotten Vanquisher
+LBIS:AddItem(spec, "37194", LBIS.L["Waist"], "Alt") --Sharp-Barbed Leather Belt
+LBIS:AddItem(spec, "43484", LBIS.L["Waist"], "Alt") --Trollwoven Girdle
 
 LBIS:AddItem(spec, "37644", LBIS.L["Legs"], "BIS") --Gored Hide Legguards
 LBIS:AddItem(spec, "34188", LBIS.L["Legs"], "Alt") --Leggings of the Immortal Night
@@ -62,10 +62,10 @@ LBIS:AddItem(spec, "37861", LBIS.L["Neck"], "Alt") --Necklace of Arcane Spheres
 
 LBIS:AddItem(spec, "37642", LBIS.L["Ring"], "BIS") --Hemorrhaging Circle
 LBIS:AddItem(spec, "40586", LBIS.L["Ring"], "BIS") --Band of the Kirin Tor
+LBIS:AddItem(spec, "43251", LBIS.L["Ring"], "Alt") --Ring of Scarlet Shadows
+LBIS:AddItem(spec, "37685", LBIS.L["Ring"], "Alt") --Mobius Band
 LBIS:AddItem(spec, "44308", LBIS.L["Ring"], "Alt") --Signet of Edward the Odd
 LBIS:AddItem(spec, "42642", LBIS.L["Ring"], "Alt") --Titanium Impact Band
-LBIS:AddItem(spec, "37685", LBIS.L["Ring"], "Alt") --Mobius Band
-LBIS:AddItem(spec, "43251", LBIS.L["Ring"], "Alt") --Ring of Scarlet Shadows
 
 LBIS:AddItem(spec, "44253", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
@@ -76,15 +76,15 @@ LBIS:AddItem(spec, "43573", LBIS.L["Trinket"], "Alt") --Tears of Bitter Anguish
 
 LBIS:AddItem(spec, "37667", LBIS.L["Main Hand"], "BIS") --The Fleshshaper
 LBIS:AddItem(spec, "37856", LBIS.L["Main Hand"], "BIS") --Librarian's Paper Cutter
-LBIS:AddItem(spec, "44310", LBIS.L["Main Hand"], "Alt") --Namlak's Supernumerary Sticker
-LBIS:AddItem(spec, "44193", LBIS.L["Main Hand"], "Alt") --Broken Stalactite
-LBIS:AddItem(spec, "42435", LBIS.L["Main Hand"], "Alt") --Titansteel Shanker
-LBIS:AddItem(spec, "37181", LBIS.L["Main Hand"], "Alt") --Dagger of Betrayal
-LBIS:AddItem(spec, "37037", LBIS.L["Main Hand"], "Alt") --Ritualistic Athame
 LBIS:AddItem(spec, "44166", LBIS.L["Main Hand"], "Alt") --Lightblade Rivener
+LBIS:AddItem(spec, "37037", LBIS.L["Main Hand"], "Alt") --Ritualistic Athame
+LBIS:AddItem(spec, "37181", LBIS.L["Main Hand"], "Alt") --Dagger of Betrayal
 LBIS:AddItem(spec, "36944", LBIS.L["Main Hand"], "Alt") --Lifeblade of Belgaristrasz
+LBIS:AddItem(spec, "44193", LBIS.L["Main Hand"], "Alt") --Broken Stalactite
+LBIS:AddItem(spec, "44310", LBIS.L["Main Hand"], "Alt") --Namlak's Supernumerary Sticker
+LBIS:AddItem(spec, "42435", LBIS.L["Main Hand"], "Alt") --Titansteel Shanker
 
-LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "BIS") --Drake-Mounted Crossbow
 LBIS:AddItem(spec, "44504", LBIS.L["Ranged"], "BIS") --Nesingwary 4000
 LBIS:AddItem(spec, "43612", LBIS.L["Ranged"], "BIS") --Spineslicer
+LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "BIS") --Drake-Mounted Crossbow
 LBIS:AddItem(spec, "43284", LBIS.L["Ranged"], "Alt") --Amanitar Skullbow
