@@ -77,7 +77,8 @@ LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "BIS Stam") --Essence of Gossamer
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS Thrt") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "40257", LBIS.L["Trinket"], "Alt Mit") --Defender's Code
 LBIS:AddItem(spec, "29387", LBIS.L["Trinket"], "Alt Mit") --Gnomeregan Auto-Blocker 600
-LBIS:AddItem(spec, "39292", LBIS.L["Trinket"], "Alt Mit") --Valor Medal of the First War
+LBIS:AddItem(spec, "39292", LBIS.L["Trinket"], "Alt Mit") --Repelling Charge
+LBIS:AddItem(spec, "40683", LBIS.L["Trinket"], "Alt Mit") --Valor Medal of the First War
 LBIS:AddItem(spec, "40372", LBIS.L["Trinket"], "Alt Mit") --Rune of Repulsion
 
 LBIS:AddItem(spec, "40402", LBIS.L["Main Hand"], "BIS Mit") --Last Laugh
