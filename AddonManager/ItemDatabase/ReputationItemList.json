@@ -1,0 +1,1180 @@
+{
+  "Items": {
+    "44074": {
+      "Name": "Oracle Talisman of Ablution",
+      "Source": "The Oracles",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44104": {
+      "Name": "Fishy Cinch",
+      "Source": "The Oracles",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44106": {
+      "Name": "Glitterscale Wrap",
+      "Source": "The Oracles",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44108": {
+      "Name": "Shinygem Rod",
+      "Source": "The Oracles",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44109": {
+      "Name": "Toothslice Helm",
+      "Source": "The Oracles",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44110": {
+      "Name": "Sharkjaw Cap",
+      "Source": "The Oracles",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44111": {
+      "Name": "Gold Star Spaulders",
+      "Source": "The Oracles",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44112": {
+      "Name": "Glimmershell Shoulder Protectors",
+      "Source": "The Oracles",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44071": {
+      "Name": "Slow-Roasted Eel",
+      "Source": "The Oracles",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "41724": {
+      "Name": "Design: Sundered Forest Emerald",
+      "Source": "The Oracles",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "41567": {
+      "Name": "Design: Vivid Dark Jade",
+      "Source": "The Oracles",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly"
+    },
+    "39878": {
+      "Name": "Mysterious Egg",
+      "Source": "The Oracles",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44065": {
+      "Name": "Oracle Secret Solution",
+      "Source": "The Oracles",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly"
+    },
+    "44073": {
+      "Name": "Frenzyheart Insignia of Fury",
+      "Source": "Frenzyheart Tribe",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44116": {
+      "Name": "Muddied Crimson Gloves",
+      "Source": "Frenzyheart Tribe",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44118": {
+      "Name": "Stolen Vrykul Harpoon",
+      "Source": "Frenzyheart Tribe",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44120": {
+      "Name": "Giant-Sized Gauntlets",
+      "Source": "Frenzyheart Tribe",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44121": {
+      "Name": "Sparkly Shiny Gloves",
+      "Source": "Frenzyheart Tribe",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44122": {
+      "Name": "Scavenged Feathery Leggings",
+      "Source": "Frenzyheart Tribe",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44123": {
+      "Name": "Discarded Titanium Legplates",
+      "Source": "Frenzyheart Tribe",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44117": {
+      "Name": "Azure Strappy Pants",
+      "Source": "Frenzyheart Tribe",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44072": {
+      "Name": "Roasted Mystery Beast",
+      "Source": "Frenzyheart Tribe",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly"
+    },
+    "41723": {
+      "Name": "Design: Jagged Forest Emerald",
+      "Source": "Frenzyheart Tribe",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "41561": {
+      "Name": "Design: Reckless Huge Citrine",
+      "Source": "Frenzyheart Tribe",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly"
+    },
+    "44064": {
+      "Name": "Nepeta Leaf",
+      "Source": "Frenzyheart Tribe",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly"
+    },
+    "44717": {
+      "Name": "Disgusting Jar",
+      "Source": "Frenzyheart Tribe",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44192": {
+      "Name": "Stalactite Chopper",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44193": {
+      "Name": "Broken Stalactite",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44194": {
+      "Name": "Giant-Friend Kilt",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44195": {
+      "Name": "Spaulders of the Giant Lords",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44189": {
+      "Name": "Giant Ring Belt",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44190": {
+      "Name": "Spaulders of Frozen Knives",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "41720": {
+      "Name": "Design: Smooth Autumn's Glow",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44129": {
+      "Name": "Lesser Inscription of the Storm ",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44130": {
+      "Name": "Lesser Inscription of the Crag",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44131": {
+      "Name": "Lesser Inscription of the Axe",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44132": {
+      "Name": "Lesser Inscription of the Pinnacle",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44133": {
+      "Name": "Greater Inscription of the Axe",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": ""
+    },
+    "44134": {
+      "Name": "Greater Inscription of the Crag",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": ""
+    },
+    "44135": {
+      "Name": "Greater Inscription of the Storm",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": ""
+    },
+    "44136": {
+      "Name": "Greater Inscription of the Pinnacle",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": ""
+    },
+    "44137": {
+      "Name": "Arcanum of the Frosty Soul",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "50335": {
+      "Name": "Greater Inscription of the Axe",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "50336": {
+      "Name": "Greater Inscription of the Crag",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "50337": {
+      "Name": "Greater Inscription of the Pinnacle",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "50338": {
+      "Name": "Greater Inscription of the Storm",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "42184": {
+      "Name": "Pattern: Glacial Bag",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44510": {
+      "Name": "Pattern: Mammoth Mining Bag",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "43958": {
+      "Name": "Reins of the Ice Mammoth",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "43961": {
+      "Name": "Reins of the Grand Ice Mammoth",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44080": {
+      "Name": "Reins of the Ice Mammoth",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44086": {
+      "Name": "Reins of the Grand Ice Mammoth",
+      "Source": "The Sons of Hodir",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44050": {
+      "Name": "Mastercraft Kalu'ak Fishing Pole",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44051": {
+      "Name": "Traditional Flensing Knife",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44052": {
+      "Name": "Totemic Purification Rod",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44053": {
+      "Name": "Whale-Stick Harpoon",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44054": {
+      "Name": "Whale-Skin Breastplate",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44055": {
+      "Name": "Whale-Skin Vest",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44057": {
+      "Name": "Ivory-Reinforced Chestguard",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44058": {
+      "Name": "Whalebone Carapace",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44059": {
+      "Name": "Cuttlefish Scale Breastplate",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44060": {
+      "Name": "Cuttlefish Tooth Ringmail",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44061": {
+      "Name": "Pigment-Stained Robes",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44062": {
+      "Name": "Turtle-Minders Robe",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44049": {
+      "Name": "Freshly-Speared Emperor Salmon",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly"
+    },
+    "45774": {
+      "Name": "Pattern: Emerald Bag",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44509": {
+      "Name": "Pattern: Trapper's Traveling Pack",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44511": {
+      "Name": "Pattern: Dragonscale Ammo Pouch",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "41568": {
+      "Name": "Design: Seer's Dark Jade",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly"
+    },
+    "41574": {
+      "Name": "Design: Defender's Shadow Crystal",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44723": {
+      "Name": "Nurtured Penguin Egg",
+      "Source": "The Kalu'ak",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44198": {
+      "Name": "Breastplate of the Solemn Council",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44199": {
+      "Name": "Gavel of the Brewing Storm",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44200": {
+      "Name": "Ancestral Sinew Wristguards",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44201": {
+      "Name": "Sabatons of Draconic Vigor",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44202": {
+      "Name": "Sandals of Crimson Fury",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44203": {
+      "Name": "Dragonfriend Bracers",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44204": {
+      "Name": "Grips of Fierce Pronouncements",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44205": {
+      "Name": "Legplates of Bloody Reprisal",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44187": {
+      "Name": "Fang of Truth",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44188": {
+      "Name": "Cloak of Peaceful Resolutions",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44196": {
+      "Name": "Sash of the Wizened Wyrm",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44197": {
+      "Name": "Bracers of Accorded Courtesy",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "41722": {
+      "Name": "Design: Glimmering Monarch Topaz",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44140": {
+      "Name": "Arcanum of the Eclipsed Moon",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44152": {
+      "Name": "Arcanum of Blissful Mending",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": ""
+    },
+    "50370": {
+      "Name": "Arcanum of Blissful Mending",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "42185": {
+      "Name": "Pattern: Mysterious Bag",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "43156": {
+      "Name": "Tabard of the Wyrmrest Accord",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly"
+    },
+    "43955": {
+      "Name": "Reins of the Red Drake",
+      "Source": "The Wyrmrest Accord",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44249": {
+      "Name": "Runeblade of Demonstrable Power",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44250": {
+      "Name": "Reaper of Dark Souls",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44256": {
+      "Name": "Sterile Flesh-Handling Gloves",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44257": {
+      "Name": "Spaulders of the Black Arrow",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44258": {
+      "Name": "Wound-Binder's Wristguards",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44302": {
+      "Name": "Belt of Dark Mending",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44303": {
+      "Name": "Darkheart Chestguard",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44305": {
+      "Name": "Kilt of Dark Mercy",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44306": {
+      "Name": "Death-Inured Sabatons",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44241": {
+      "Name": "Unholy Persuader",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44242": {
+      "Name": "Dark Soldier Cape",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44243": {
+      "Name": "Toxin-Tempered Sabatons",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "41721": {
+      "Name": "Design: Wicked Monarch Topaz",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "41725": {
+      "Name": "Design: Glowing Twilight Opal",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44138": {
+      "Name": "Arcanum of Toxic Warding",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44149": {
+      "Name": "Arcanum of Torment",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": ""
+    },
+    "50367": {
+      "Name": "Arcanum of Torment",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "42183": {
+      "Name": "Pattern: Abyssal Bag",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "43155": {
+      "Name": "Tabard of the Ebon Blade",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly"
+    },
+    "44512": {
+      "Name": "Pattern: Nerubian Reinforced Quiver",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "41562": {
+      "Name": "Design: Deadly Huge Citrine",
+      "Source": "Knights of the Ebon Blade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly"
+    },
+    "44173": {
+      "Name": "Flameheart Spell Scalpel",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44174": {
+      "Name": "Stave of Shrouded Mysteries",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44176": {
+      "Name": "Girdle of the Warrior Magi",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44179": {
+      "Name": "Mind-Expanding Leggings",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44180": {
+      "Name": "Robes of Crackling Flame",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44181": {
+      "Name": "Ghostflicker Waistband",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44182": {
+      "Name": "Boots of Twinkling Stars",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44183": {
+      "Name": "Fireproven Gauntlets",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44166": {
+      "Name": "Lightblade Rivener",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44167": {
+      "Name": "Shroud of Dedicated Research",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44170": {
+      "Name": "Helm of the Majestic Stag",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44171": {
+      "Name": "Spaulders of Grounded Lightning",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "41718": {
+      "Name": "Design: Runed Scarlet Ruby",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44141": {
+      "Name": "Arcanum of the Flame's Soul",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44159": {
+      "Name": "Arcanum of Burning Mysteries",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": ""
+    },
+    "50368": {
+      "Name": "Arcanum of Burning Mysteries",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "42188": {
+      "Name": "Pattern: Sapphire Spellthread",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "43157": {
+      "Name": "Tabard of the Kirin Tor",
+      "Source": "Kirin Tor",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly"
+    },
+    "44244": {
+      "Name": "Argent Skeleton Crusher",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44245": {
+      "Name": "Zombie Sweeper Shotgun",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44247": {
+      "Name": "Fang-Deflecting Faceguard",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44248": {
+      "Name": "Battle Mender's Helm",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44283": {
+      "Name": "Signet of Hopeful Light",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44295": {
+      "Name": "Polished Regimental Hauberk",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44296": {
+      "Name": "Helm of Purified Thoughts",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44297": {
+      "Name": "Boots of the Neverending Path",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44214": {
+      "Name": "Purifying Torch",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44216": {
+      "Name": "Cloak of Holy Extermination",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44239": {
+      "Name": "Standard Issue Legguards",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44240": {
+      "Name": "Special Issue Legplates",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "41726": {
+      "Name": "Design: Guardian's Twilight Opal",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44139": {
+      "Name": "Arcanum of the Fleeing Shadow",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored"
+    },
+    "44150": {
+      "Name": "Arcanum of the Stalwart Protector",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": ""
+    },
+    "50369": {
+      "Name": "Arcanum of the Stalwart Protector",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "42187": {
+      "Name": "Pattern: Brilliant Spellthread",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "43154": {
+      "Name": "Tabard of the Argent Crusade",
+      "Source": "Argent Crusade",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly"
+    },
+    "38452": {
+      "Name": "Bulwark of the Warchief",
+      "Source": "Horde Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "38454": {
+      "Name": "Warsong Punisher",
+      "Source": "Horde Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "38456": {
+      "Name": "Sin'dorei Recurve Bow",
+      "Source": "Horde Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "38458": {
+      "Name": "Darkspear Orb",
+      "Source": "Horde Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "38460": {
+      "Name": "Charged Wand of the Cleft",
+      "Source": "Horde Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "38461": {
+      "Name": "Warsong Shanker",
+      "Source": "Horde Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "38462": {
+      "Name": "Warsong Stormshield ",
+      "Source": "Horde Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44502": {
+      "Name": "Schematic: Mechano-hog",
+      "Source": "Horde Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44702": {
+      "Name": "Arcanum of the Savage Gladiator",
+      "Source": "Horde Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": ""
+    },
+    "44938": {
+      "Name": "Plans: Titanium Plating",
+      "Source": "Horde Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "50373": {
+      "Name": "Arcanum of the Savage Gladiator",
+      "Source": "Horde Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "38453": {
+      "Name": "Shield of the Lion-hearted",
+      "Source": "Alliance Vanguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "38455": {
+      "Name": "Hammer of the Alliance Vanguard",
+      "Source": "Alliance Vanguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "38457": {
+      "Name": "Sawed-off Hand Cannon",
+      "Source": "Alliance Vanguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "38459": {
+      "Name": "Orb of the Eastern Kingdoms",
+      "Source": "Alliance Vanguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "38463": {
+      "Name": "Lordaeron's Resolve ",
+      "Source": "Alliance Vanguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "38464": {
+      "Name": "Gnomish Magician's Quill",
+      "Source": "Alliance Vanguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "38465": {
+      "Name": "Vanguard Soldier's Dagger",
+      "Source": "Alliance Vanguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
+    "44503": {
+      "Name": "Schematic: Mekgineer's Chopper",
+      "Source": "Alliance Vanguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "44937": {
+      "Name": "Plans: Titanium Plating",
+      "Source": "Alliance Vanguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    },
+    "50372": {
+      "Name": "Arcanum of the Savage Gladiator",
+      "Source": "Alliance Vanguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted"
+    }
+  }
+}

@@ -51,39 +51,44 @@ internal static class Common
                 var doc = default(IHtmlDocument);
                 doc = await parser.ParseDocumentAsync(content);
 
-                var rowElements = doc.QuerySelectorAll("#tab-sells .listview-mode-default .listview-row");
-                if (rowElements != null && rowElements.Length > 0)
-                {
-                    foreach (var row in rowElements)
-                    {
-                        var success = false;
-                        var itemId = 0; // Get ItemId from Row
-                        var itemName = "";
-
-                        RecursiveBoxSearch(row.Children[2], (anchorObject) =>
-                        {
-                            if (success) return true;
-
-                            var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/wotlk", "").Replace("/item=", "").Replace("/spell=", "");
-                            itemName = anchorObject.TextContent;
-
-                            var itemIdIndex = item.IndexOf("/");
-                            if (itemIdIndex == -1)
-                                itemIdIndex = item.IndexOf("&");
-
-                            if (itemIdIndex > -1)
-                            {
-                                item = item.Substring(0, itemIdIndex);
-
-                                success = Int32.TryParse(item, out itemId);
-                            }
-                            return success;
-                        });
-
-                        func(row, itemId, itemName);
-                    }
-                }
+                ReadWowheadItemList(doc, func);
             });
+        }
+    }
+
+    internal static void ReadWowheadItemList(IHtmlDocument doc, Action<IElement, int, string> func)
+    {
+        var rowElements = doc.QuerySelectorAll("#tab-sells .listview-mode-default .listview-row");
+        if (rowElements != null && rowElements.Length > 0)
+        {
+            foreach (var row in rowElements)
+            {
+                var success = false;
+                var itemId = 0; // Get ItemId from Row
+                var itemName = "";
+
+                RecursiveBoxSearch(row.Children[2], (anchorObject) =>
+                {
+                    if (success) return true;
+
+                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/wotlk", "").Replace("/item=", "").Replace("/spell=", "");
+                    itemName = anchorObject.TextContent;
+
+                    var itemIdIndex = item.IndexOf("/");
+                    if (itemIdIndex == -1)
+                        itemIdIndex = item.IndexOf("&");
+
+                    if (itemIdIndex > -1)
+                    {
+                        item = item.Substring(0, itemIdIndex);
+
+                        success = Int32.TryParse(item, out itemId);
+                    }
+                    return success;
+                });
+
+                func(row, itemId, itemName);
+            }
         }
     }
 }

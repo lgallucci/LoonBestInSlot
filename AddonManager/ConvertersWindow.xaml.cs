@@ -7,7 +7,7 @@ namespace AddonManager;
 /// </summary>
 public partial class ConvertersWindow : Window
 {
-    public string[] ConverterList = { "EmblemConverter", "ProfessionConverter", "DungeonConverter", "RaidConverter", "PvPConverter" };
+    public string[] ConverterList = { "EmblemConverter", "ProfessionConverter", "DungeonConverter", "RaidConverter", "PvPConverter", "ReputationConverter" };
 
     public ConvertersWindow()
     {
@@ -39,6 +39,9 @@ public partial class ConvertersWindow : Window
                 break;
             case "PvPConverter":
                 converter = new PvPConverter();
+                break;
+            case "ReputationConverter":
+                converter = new ReputationConverter();
                 break;
             default:
                 txtJsonToParse.Text = "Choose a converter !";
