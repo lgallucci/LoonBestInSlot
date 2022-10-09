@@ -1268,7 +1268,7 @@ LBIS.ItemSources =
     [44182] = { Name = "Boots of Twinkling Stars", SourceType = LBIS.L["Reputation"], Source = LBIS.L["Kirin Tor"], SourceNumber = "0", SourceLocation = LBIS.L["Exalted"] },
     [44183] = { Name = "Fireproven Gauntlets", SourceType = LBIS.L["Reputation"], Source = LBIS.L["Kirin Tor"], SourceNumber = "0", SourceLocation = LBIS.L["Exalted"] },
     [44187] = { Name = "Fang of Truth", SourceType = LBIS.L["Reputation"], Source = LBIS.L["The Wyrmrest Accord"], SourceNumber = "0", SourceLocation = LBIS.L["Honored"] },
-    [44188] = { Name = "Cloak of Peaceful Resolutions", SourceType = LBIS.L["Reputation"], Source = LBIS.L["The Sons of Hodir"], SourceNumber = "0", SourceLocation = LBIS.L["Honored"] },
+    [44188] = { Name = "Cloak of Peaceful Resolutions", SourceType = LBIS.L["Reputation"], Source = LBIS.L["The Wyrmrest Accord"], SourceNumber = "0", SourceLocation = LBIS.L["Honored"] },
     [44193] = { Name = "Broken Stalactite", SourceType = LBIS.L["Reputation"], Source = LBIS.L["The Sons of Hodir"], SourceNumber = "0", SourceLocation = LBIS.L["Revered"] },
     [44194] = { Name = "Giant-Friend Kilt", SourceType = LBIS.L["Reputation"], Source = LBIS.L["The Sons of Hodir"], SourceNumber = "0", SourceLocation = LBIS.L["Revered"] },
     [44195] = { Name = "Spaulders of the Giant Lords", SourceType = LBIS.L["Reputation"], Source = LBIS.L["The Sons of Hodir"], SourceNumber = "0", SourceLocation = LBIS.L["Revered"] },
