@@ -26,27 +26,30 @@ LBIS:AddItem(spec, "40525", LBIS.L["Chest"], "BIS") --Valorous Dreadnaught Battl
 LBIS:AddItem(spec, "40626", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Protector
 LBIS:AddItem(spec, "40365", LBIS.L["Chest"], "Alt") --Breastplate of Frozen Pain
 
+LBIS:AddItem(spec, "39765", LBIS.L["Wrist"], "BIS") --Sinner's Bindings
 LBIS:AddItem(spec, "40330", LBIS.L["Wrist"], "BIS") --Bracers of Unrelenting Attack
 LBIS:AddItem(spec, "40733", LBIS.L["Wrist"], "Alt") --Wristbands of the Sentinel Huntress
 LBIS:AddItem(spec, "41355", LBIS.L["Wrist"], "Alt") --Vengeance Bindings
 
 LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "BIS") --Frosted Adroit Handguards
+LBIS:AddItem(spec, "40261", LBIS.L["Hands"], "Alt") --Crude Discolored Battlegrips
 LBIS:AddItem(spec, "40527", LBIS.L["Hands"], "Alt") --Valorous Dreadnaught Gauntlets
 LBIS:AddItem(spec, "40629", LBIS.L["Hands"], "Alt") --Gauntlets of the Lost Protector
 LBIS:AddItem(spec, "39609", LBIS.L["Hands"], "Alt") --Heroes' Dreadnaught Gauntlets
 LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
-LBIS:AddItem(spec, "40261", LBIS.L["Hands"], "Alt") --Crude Discolored Battlegrips
+LBIS:AddItem(spec, "40347", LBIS.L["Hands"], "Alt") --Zeliek's Gauntlets
 
 LBIS:AddItem(spec, "40317", LBIS.L["Waist"], "BIS") --Girdle of Razuvious
-LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "Alt") --Jorach's Crocolisk Skin Belt
+LBIS:AddItem(spec, "40205", LBIS.L["Waist"], "BIS") --Stalk-Skin Belt
 LBIS:AddItem(spec, "40260", LBIS.L["Waist"], "Alt") --Belt of the Tortured
 LBIS:AddItem(spec, "40278", LBIS.L["Waist"], "Alt") --Girdle of Chivalry
+LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "Alt") --Jorach's Crocolisk Skin Belt
 
-LBIS:AddItem(spec, "40529", LBIS.L["Legs"], "BIS") --Valorous Dreadnaught Legplates
-LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "BIS") --Legplates of the Lost Protector
+LBIS:AddItem(spec, "40318", LBIS.L["Legs"], "BIS") --Legplates of Double Strikes
 LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "BIS") --Leggings of the Honored
-LBIS:AddItem(spec, "40318", LBIS.L["Legs"], "Alt") --Legplates of Double Strikes
 LBIS:AddItem(spec, "43994", LBIS.L["Legs"], "Alt") --Belabored Legplates
+LBIS:AddItem(spec, "40529", LBIS.L["Legs"], "Alt") --Valorous Dreadnaught Legplates
+LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "Alt") --Legplates of the Lost Protector
 
 LBIS:AddItem(spec, "40591", LBIS.L["Feet"], "BIS") --Melancholy Sabatons
 LBIS:AddItem(spec, "40206", LBIS.L["Feet"], "Alt") --Iron-Spring Jumpers
@@ -57,18 +60,18 @@ LBIS:AddItem(spec, "44659", LBIS.L["Neck"], "Alt") --Pendant of the Dragonsworn
 LBIS:AddItem(spec, "40065", LBIS.L["Neck"], "Alt") --Fool's Trial
 LBIS:AddItem(spec, "37397", LBIS.L["Neck"], "Alt") --Gold Amulet of Kings
 
+LBIS:AddItem(spec, "37642", LBIS.L["Ring"], "BIS") --Hemorrhaging Circle
 LBIS:AddItem(spec, "43993", LBIS.L["Ring"], "BIS") --Greatring of Collision
 LBIS:AddItem(spec, "40717", LBIS.L["Ring"], "BIS") --Ring of Invincibility
-LBIS:AddItem(spec, "37642", LBIS.L["Ring"], "BIS") --Hemorrhaging Circle
-LBIS:AddItem(spec, "40474", LBIS.L["Ring"], "Alt") --Surge Needle Ring
 LBIS:AddItem(spec, "40075", LBIS.L["Ring"], "Alt") --Ruthlessness
+LBIS:AddItem(spec, "40474", LBIS.L["Ring"], "Alt") --Surge Needle Ring
 
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
-LBIS:AddItem(spec, "40431", LBIS.L["Trinket"], "BIS") --Fury of the Five Flights
 LBIS:AddItem(spec, "40256", LBIS.L["Trinket"], "BIS") --Grim Toll
-LBIS:AddItem(spec, "39257", LBIS.L["Trinket"], "BIS") --Loatheb's Shadow
-LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
-LBIS:AddItem(spec, "37166", LBIS.L["Trinket"], "BIS") --Sphere of Red Dragon's Blood
+LBIS:AddItem(spec, "40431", LBIS.L["Trinket"], "BIS") --Fury of the Five Flights
+LBIS:AddItem(spec, "39257", LBIS.L["Trinket"], "Alt") --Loatheb's Shadow
+LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "Alt") --Mirror of Truth
+LBIS:AddItem(spec, "37166", LBIS.L["Trinket"], "Alt") --Sphere of Red Dragon's Blood
 
 LBIS:AddItem(spec, "40384", LBIS.L["Two Hand"], "BIS") --Betrayer of Humanity
 LBIS:AddItem(spec, "39417", LBIS.L["Two Hand"], "BIS") --Death's Bite

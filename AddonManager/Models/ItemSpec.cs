@@ -115,6 +115,7 @@ public class ItemSpec : IComparable<ItemSpec>
         new ("skewed", ""),
         new ("individually", ""),
         new ("wintergrasp", ""),
+        new ("trapweaving", ""),
         new ("when", ""),
         new ("capped", ""),
         new ("utility", ""),

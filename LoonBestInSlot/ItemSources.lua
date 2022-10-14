@@ -826,6 +826,7 @@ LBIS.ItemSources =
     [40424] = { Name = "Valorous Plagueheart Shoulderpads", SourceType = LBIS.L["Drop"].."/"..LBIS.L["Dungeon Token"], Source = LBIS.L["Gluth"].." & "..LBIS.L["Loatheb"].."/"..LBIS.L["Emblem of Valor"], SourceNumber = "0/60", SourceLocation = LBIS.L["Naxxramas (25)"].."/"..LBIS.L["Emblem Vendor"] },
     [40426] = { Name = "Signet of the Accord", SourceType = LBIS.L["Drop"], Source = LBIS.L["Sartharion"], SourceNumber = "0", SourceLocation = LBIS.L["The Obsidian Sanctum (10)"] },
     [40427] = { Name = "Circle of Arcane Streams", SourceType = LBIS.L["Drop"], Source = LBIS.L["Sartharion"], SourceNumber = "0", SourceLocation = LBIS.L["The Obsidian Sanctum (10)"] },
+    [40429] = { Name = "Crimson Steel", SourceType = LBIS.L["Drop"], Source = LBIS.L["Sartharion"], SourceNumber = "0", SourceLocation = LBIS.L["The Obsidian Sanctum (10)"] },
     [40430] = { Name = "Majestic Dragon Figurine", SourceType = LBIS.L["Drop"], Source = LBIS.L["Sartharion"], SourceNumber = "0", SourceLocation = LBIS.L["The Obsidian Sanctum (10)"] },
     [40431] = { Name = "Fury of the Five Flights", SourceType = LBIS.L["Drop"], Source = LBIS.L["Sartharion"], SourceNumber = "0", SourceLocation = LBIS.L["The Obsidian Sanctum (25)"] },
     [40432] = { Name = "Illustration of the Dragon Soul", SourceType = LBIS.L["Drop"], Source = LBIS.L["Sartharion"], SourceNumber = "0", SourceLocation = LBIS.L["The Obsidian Sanctum (25)"] },
