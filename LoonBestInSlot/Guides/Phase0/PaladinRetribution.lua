@@ -5,8 +5,8 @@ LBIS:AddItem(spec, "42552", LBIS.L["Head"], "Alt") --Charged Titanium Specs
 LBIS:AddItem(spec, "37237", LBIS.L["Head"], "Alt") --Chitin Shell Greathelm
 
 LBIS:AddItem(spec, "43481", LBIS.L["Shoulder"], "BIS") --Trollwoven Spaulders
-LBIS:AddItem(spec, "34388", LBIS.L["Shoulder"], "BIS") --Pauldrons of Berserking
-LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "Transmute BIS") --Pauldrons of Perseverance
+LBIS:AddItem(spec, "34388", LBIS.L["Shoulder"], "Alt") --Pauldrons of Berserking
+LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "Transmute Alt") --Pauldrons of Perseverance
 LBIS:AddItem(spec, "37139", LBIS.L["Shoulder"], "Alt") --Spaulders of the Careless Thief
 LBIS:AddItem(spec, "37679", LBIS.L["Shoulder"], "Alt") --Spaulders of the Abomination
 
