@@ -14,8 +14,8 @@ LBIS:AddItem(spec, "37647", LBIS.L["Back"], "BIS") --Cloak of Bloodied Waters
 LBIS:AddItem(spec, "37840", LBIS.L["Back"], "Alt") --Shroud of Reverberation
 LBIS:AddItem(spec, "44216", LBIS.L["Back"], "Alt") --Cloak of Holy Extermination
 
-LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Protector
 LBIS:AddItem(spec, "39606", LBIS.L["Chest"], "BIS") --Heroes' Dreadnaught Battleplate
+LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Protector
 LBIS:AddItem(spec, "44303", LBIS.L["Chest"], "Alt") --Darkheart Chestguard
 LBIS:AddItem(spec, "37612", LBIS.L["Chest"], "Alt") --Bonegrinder Breastplate
 
@@ -29,11 +29,11 @@ LBIS:AddItem(spec, "37363", LBIS.L["Hands"], "Alt") --Gauntlets of Dragon Wrath
 LBIS:AddItem(spec, "34341", LBIS.L["Hands"], "Alt") --Borderland Paingrips
 
 LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "BIS") --Jorach's Crocolisk Skin Belt
-LBIS:AddItem(spec, "37194", LBIS.L["Waist"], "Alt") --Sharp-Barbed Leather Belt
 LBIS:AddItem(spec, "37171", LBIS.L["Waist"], "Alt") --Flame-Bathed Steel Girdle
+LBIS:AddItem(spec, "37194", LBIS.L["Waist"], "Alt") --Sharp-Barbed Leather Belt
 
-LBIS:AddItem(spec, "44205", LBIS.L["Legs"], "BIS") --Legplates of Bloody Reprisal
 LBIS:AddItem(spec, "37193", LBIS.L["Legs"], "BIS") --Staggering Legplates
+LBIS:AddItem(spec, "44205", LBIS.L["Legs"], "BIS") --Legplates of Bloody Reprisal
 LBIS:AddItem(spec, "34180", LBIS.L["Legs"], "Alt") --Felfury Legplates
 
 LBIS:AddItem(spec, "44306", LBIS.L["Feet"], "BIS") --Death-Inured Sabatons
@@ -47,8 +47,8 @@ LBIS:AddItem(spec, "37397", LBIS.L["Neck"], "BIS") --Gold Amulet of Kings
 LBIS:AddItem(spec, "37642", LBIS.L["Ring"], "BIS") --Hemorrhaging Circle
 LBIS:AddItem(spec, "44935", LBIS.L["Ring"], "BIS") --Ring of the Kirin Tor
 LBIS:AddItem(spec, "42642", LBIS.L["Ring"], "BIS") --Titanium Impact Band
-LBIS:AddItem(spec, "37151", LBIS.L["Ring"], "Alt") --Band of Frosted Thorns
 LBIS:AddItem(spec, "43251", LBIS.L["Ring"], "Alt") --Ring of Scarlet Shadows
+LBIS:AddItem(spec, "37151", LBIS.L["Ring"], "Alt") --Band of Frosted Thorns
 
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth

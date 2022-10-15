@@ -382,7 +382,7 @@ public class ClassSpecGuideMappings
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/feral-druid-tank-best-in-slot-gear-pre-raid",
             "Bear", "Druid", "Phase0", new List<GuideMapping>
         {
-            new GuideMapping("#head-for-feral-druid-dps-pre-raid", "Head"),
+            new GuideMapping("#head-for-feral-druid-tank-pre-raid", "Head"),
             new GuideMapping("#shoulders-for-feral-druid-tank-pre-raid", "Shoulder"),
             new GuideMapping("#back-for-feral-druid-tank-pre-raid", "Back"),
             new GuideMapping("#chest-for-feral-druid-tank-pre-raid", "Chest"),

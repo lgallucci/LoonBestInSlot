@@ -81,6 +81,8 @@ public class ItemSpec : IComparable<ItemSpec>
         new ("easy", "Alt"),
         new ("alternative", "Alt"),
         new ("second", "Alt"),
+        new ("reward", "Alt"),
+        new ("emergency", "Alt"),
 
         new ("Mitigation", ""),
         new ("Avoidance", ""),
@@ -130,6 +132,8 @@ public class ItemSpec : IComparable<ItemSpec>
         new ("cleave", ""),
         new ("less", ""),
         new ("place", ""),
+        new ("usage", ""),
+        new ("only", ""),
         new ("ss", ""),
         new ("to", ""),
         new ("for", ""),
