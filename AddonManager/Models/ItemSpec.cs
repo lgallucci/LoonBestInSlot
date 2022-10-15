@@ -28,9 +28,10 @@ public class ItemSpec : IComparable<ItemSpec>
             else if (this.BisStatus.Contains("BIS") && !other.BisStatus.Contains("BIS"))
                 return -1;
             else
-                return 0;
+            {
+                return this.ItemOrder < other.ItemOrder ? -1 : 1;
+            }
         }
-
     }
 
     public int ItemId { get; set; }
@@ -45,6 +46,7 @@ public class ItemSpec : IComparable<ItemSpec>
             _bisStatus = ReplaceStatuses(value);
         }
     }
+    public int ItemOrder { get; set; }
 
     public List<Tuple<string, string>> Replacements = new List<Tuple<string, string>>
     {

@@ -122,6 +122,7 @@ public class WowheadGuideParser
 
             LoopThroughMappings(doc, classGuide, (table, guideMapping) =>
             {
+                var itemOrderIndex = 0;
                 var firstRow = false;
                 var tableRows = table?.FirstChild?.ChildNodes;
                 if (tableRows != null)
@@ -154,7 +155,9 @@ public class WowheadGuideParser
                         var bisStatus = GetBisStatus(tableRow, isTierList);
 
                         if (itemChild != null)
-                            ParseItemCell(itemChild, bisStatus, GetSlot(guideMapping.Slot, bisStatus), items);
+                            ParseItemCell(itemChild, bisStatus, GetSlot(guideMapping.Slot, bisStatus), items, itemOrderIndex);
+
+                        itemOrderIndex++;
                     }
                 }
             });
@@ -191,7 +194,7 @@ public class WowheadGuideParser
         return bisText.Trim() + altText;
     }
 
-    private void ParseItemCell(INode itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items)
+    private void ParseItemCell(INode itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items, int itemOrderIndex)
     {
         bool foundAnchor = false;
         foreach (var child in itemChild.ChildNodes)
@@ -229,7 +232,8 @@ public class WowheadGuideParser
                                 ItemId = itemId,
                                 Name = itemName ?? "undefined",
                                 BisStatus = bisStatus ?? "undefined",
-                                Slot = slot
+                                Slot = slot,
+                                ItemOrder = itemOrderIndex
                             });
 
                             if (TierPiecesAndTokens.TierPieces.ContainsKey(itemId) && !items.ContainsKey(TierPiecesAndTokens.TierPieces[itemId].Item1))
@@ -239,7 +243,8 @@ public class WowheadGuideParser
                                     ItemId = TierPiecesAndTokens.TierPieces[itemId].Item1,
                                     Name = TierPiecesAndTokens.TierPieces[itemId].Item2,
                                     BisStatus = bisStatus ?? "undefined",
-                                    Slot = slot
+                                    Slot = slot,
+                                    ItemOrder = itemOrderIndex
                                 });
                             }
 
@@ -250,7 +255,8 @@ public class WowheadGuideParser
                                     ItemId = TierPiecesAndTokens.Transmutes[itemId].Item1,
                                     Name = TierPiecesAndTokens.Transmutes[itemId].Item2,
                                     BisStatus = "Transmute " + bisStatus ?? "undefined",
-                                    Slot = slot
+                                    Slot = slot,
+                                    ItemOrder = itemOrderIndex
                                 });
                             }
                         }
@@ -266,7 +272,8 @@ public class WowheadGuideParser
                 ItemId = itemId,
                 Name = "undefined",
                 BisStatus = "undefined",
-                Slot = slot
+                Slot = slot,
+                ItemOrder = itemOrderIndex
             });
         }
     }
