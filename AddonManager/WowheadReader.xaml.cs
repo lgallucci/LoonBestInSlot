@@ -364,14 +364,25 @@ public partial class WowheadReader : Window
     private bool VerifyGuide(Dictionary<int, ItemSpec> items)
     {
         bool verificationSucceeded = true;
-        var allowableWords = new string[] { "BIS", "Alt", "Transmute", "Stam", "Mit", "Thrt" };
+        var requiredWords = new string[] { "BIS", "Alt" };
+        var allowableWords = new string[] { "Transmute", "Stam", "Mit", "Thrt" };
 
         foreach (var item in items)
         {
+            var firstWord = true;
             foreach (var bisWord in item.Value.BisStatus.Split(" "))
             {
-                if (bisWord != null && !allowableWords.Any((w) => w == bisWord))
-                    throw new VerificationException($"Spec ({item.Value.Name}) created with word ({bisWord})");
+                if (firstWord)
+                {
+                    if (bisWord != null && !requiredWords.Any((w) => w == bisWord))
+                        throw new VerificationException($"Spec ({item.Value.Name}) created with word ({bisWord})");
+                    firstWord = false;
+                }
+                else
+                {
+                    if (bisWord != null && !allowableWords.Any((w) => w == bisWord))
+                        throw new VerificationException($"Spec ({item.Value.Name}) created with word ({bisWord})");
+                }
             }
         }
         return verificationSucceeded;

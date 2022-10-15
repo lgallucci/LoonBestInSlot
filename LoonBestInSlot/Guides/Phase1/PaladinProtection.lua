@@ -12,7 +12,7 @@ LBIS:AddItem(spec, "40366", LBIS.L["Head"], "Alt") --Platehelm of the Great Wyrm
 LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 LBIS:AddItem(spec, "40584", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Shoulderguards
 LBIS:AddItem(spec, "40334", LBIS.L["Shoulder"], "Alt") --Burdened Shoulderplates
-LBIS:AddItem(spec, "39704", LBIS.L["Shoulder"], "Thrt") --Pauldrons of Unnatural Death
+LBIS:AddItem(spec, "39704", LBIS.L["Shoulder"], "Alt Thrt") --Pauldrons of Unnatural Death
 LBIS:AddItem(spec, "39642", LBIS.L["Shoulder"], "Alt") --Heroes' Redemption Shoulderguards
 LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Conqueror
 

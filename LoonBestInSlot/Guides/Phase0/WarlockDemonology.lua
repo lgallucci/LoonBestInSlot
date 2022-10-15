@@ -3,7 +3,7 @@ local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "0")
 LBIS:AddItem(spec, "37684", LBIS.L["Head"], "BIS") --Forgotten Shadow Hood
 LBIS:AddItem(spec, "42553", LBIS.L["Head"], "BIS") --Visage Liquification Goggles
 LBIS:AddItem(spec, "34405", LBIS.L["Head"], "Alt") --Helm of Arcane Purity
-LBIS:AddItem(spec, "34339", LBIS.L["Head"], "Transmute Alt") --Cowl of Light's Purity
+LBIS:AddItem(spec, "34339", LBIS.L["Head"], "Alt Transmute") --Cowl of Light's Purity
 LBIS:AddItem(spec, "37294", LBIS.L["Head"], "Alt") --Crown of Unbridled Magic
 LBIS:AddItem(spec, "44910", LBIS.L["Head"], "Alt") --Titan-Forged Hood of Dominance
 LBIS:AddItem(spec, "44909", LBIS.L["Head"], "Alt") --Titan-Forged Hood of Salvation
@@ -20,7 +20,7 @@ LBIS:AddItem(spec, "41984", LBIS.L["Head"], "Alt") --Hat of Wintry Doom
 LBIS:AddItem(spec, "37196", LBIS.L["Shoulder"], "BIS") --Runecaster's Mantle
 LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "BIS") --Amice of the Convoker
 LBIS:AddItem(spec, "34393", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Knowledge's Pursuit
-LBIS:AddItem(spec, "34202", LBIS.L["Shoulder"], "Transmute Alt") --Shawl of Wonderment
+LBIS:AddItem(spec, "34202", LBIS.L["Shoulder"], "Alt Transmute") --Shawl of Wonderment
 LBIS:AddItem(spec, "37691", LBIS.L["Shoulder"], "Alt") --Mantle of Deceit
 LBIS:AddItem(spec, "42009", LBIS.L["Shoulder"], "Alt") --Hateful Gladiator's Felweave Amice
 LBIS:AddItem(spec, "37673", LBIS.L["Shoulder"], "Alt") --Dark Runic Mantle

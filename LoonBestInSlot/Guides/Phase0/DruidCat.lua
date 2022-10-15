@@ -12,7 +12,7 @@ LBIS:AddItem(spec, "37139", LBIS.L["Shoulder"], "Alt") --Spaulders of the Carele
 LBIS:AddItem(spec, "31048", LBIS.L["Shoulder"], "Alt") --Thunderheart Pauldrons
 LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Forgotten Vanquisher
 LBIS:AddItem(spec, "34392", LBIS.L["Shoulder"], "Alt") --Demontooth Shoulderpads
-LBIS:AddItem(spec, "34195", LBIS.L["Shoulder"], "Transmute Alt") --Shoulderpads of Vehemence
+LBIS:AddItem(spec, "34195", LBIS.L["Shoulder"], "Alt Transmute") --Shoulderpads of Vehemence
 LBIS:AddItem(spec, "37593", LBIS.L["Shoulder"], "Alt") --Sprinting Shoulderpads
 
 LBIS:AddItem(spec, "43406", LBIS.L["Back"], "BIS") --Cloak of the Gushing Wound

@@ -254,7 +254,7 @@ public class WowheadGuideParser
                                 {
                                     ItemId = TierPiecesAndTokens.Transmutes[itemId].Item1,
                                     Name = TierPiecesAndTokens.Transmutes[itemId].Item2,
-                                    BisStatus = "Transmute " + bisStatus ?? "undefined",
+                                    BisStatus = bisStatus ?? "undefined" + " Transmute",
                                     Slot = slot,
                                     ItemOrder = itemOrderIndex
                                 });

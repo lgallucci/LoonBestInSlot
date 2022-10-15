@@ -3,7 +3,7 @@ local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Destruction"], "0")
 LBIS:AddItem(spec, "42553", LBIS.L["Head"], "BIS") --Visage Liquification Goggles
 LBIS:AddItem(spec, "44910", LBIS.L["Head"], "Alt") --Titan-Forged Hood of Dominance
 LBIS:AddItem(spec, "34405", LBIS.L["Head"], "Alt") --Helm of Arcane Purity
-LBIS:AddItem(spec, "34339", LBIS.L["Head"], "Transmute Alt") --Cowl of Light's Purity
+LBIS:AddItem(spec, "34339", LBIS.L["Head"], "Alt Transmute") --Cowl of Light's Purity
 LBIS:AddItem(spec, "41991", LBIS.L["Head"], "Alt") --Hateful Gladiator's Felweave Cowl
 LBIS:AddItem(spec, "37684", LBIS.L["Head"], "Alt") --Forgotten Shadow Hood
 LBIS:AddItem(spec, "34340", LBIS.L["Head"], "Alt") --Dark Conjuror's Collar
@@ -16,7 +16,7 @@ LBIS:AddItem(spec, "41984", LBIS.L["Head"], "Alt") --Hat of Wintry Doom
 
 LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "BIS") --Amice of the Convoker
 LBIS:AddItem(spec, "34393", LBIS.L["Shoulder"], "BIS") --Shoulderpads of Knowledge's Pursuit
-LBIS:AddItem(spec, "34202", LBIS.L["Shoulder"], "Transmute BIS") --Shawl of Wonderment
+LBIS:AddItem(spec, "34202", LBIS.L["Shoulder"], "BIS Transmute") --Shawl of Wonderment
 LBIS:AddItem(spec, "37196", LBIS.L["Shoulder"], "Alt") --Runecaster's Mantle
 LBIS:AddItem(spec, "42009", LBIS.L["Shoulder"], "Alt") --Hateful Gladiator's Felweave Amice
 LBIS:AddItem(spec, "31054", LBIS.L["Shoulder"], "Alt") --Mantle of the Malefic
@@ -46,7 +46,7 @@ LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Con
 LBIS:AddItem(spec, "34364", LBIS.L["Chest"], "Alt") --Sunfire Robe
 LBIS:AddItem(spec, "42102", LBIS.L["Chest"], "Alt") --Spellweave Robe
 LBIS:AddItem(spec, "34399", LBIS.L["Chest"], "Alt") --Robes of Ghostly Hatred
-LBIS:AddItem(spec, "34233", LBIS.L["Chest"], "Transmute Alt") --Robes of Faltered Light
+LBIS:AddItem(spec, "34233", LBIS.L["Chest"], "Alt Transmute") --Robes of Faltered Light
 LBIS:AddItem(spec, "42101", LBIS.L["Chest"], "Alt") --Ebonweave Robe
 LBIS:AddItem(spec, "43401", LBIS.L["Chest"], "Alt") --Water-Drenched Robe
 LBIS:AddItem(spec, "34232", LBIS.L["Chest"], "Alt") --Fel Conquerer Raiments
