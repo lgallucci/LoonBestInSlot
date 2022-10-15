@@ -16,10 +16,10 @@ LBIS:AddItem(spec, "40403", LBIS.L["Back"], "BIS") --Drape of the Deadly Foe
 LBIS:AddItem(spec, "40250", LBIS.L["Back"], "Alt") --Aged Winter Cloak
 LBIS:AddItem(spec, "39297", LBIS.L["Back"], "Alt") --Cloak of Darkening
 
-LBIS:AddItem(spec, "39617", LBIS.L["Chest"], "BIS") --Heroes' Scourgeborne Battleplate
-LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Vanquisher
 LBIS:AddItem(spec, "40550", LBIS.L["Chest"], "BIS") --Valorous Scourgeborne Battleplate
 LBIS:AddItem(spec, "40627", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Vanquisher
+LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Vanquisher
+LBIS:AddItem(spec, "39617", LBIS.L["Chest"], "BIS") --Heroes' Scourgeborne Battleplate
 LBIS:AddItem(spec, "40539", LBIS.L["Chest"], "Alt") --Chestguard of the Recluse
 LBIS:AddItem(spec, "40365", LBIS.L["Chest"], "Alt") --Breastplate of Frozen Pain
 
@@ -27,22 +27,22 @@ LBIS:AddItem(spec, "40330", LBIS.L["Wrist"], "BIS") --Bracers of Unrelenting Att
 LBIS:AddItem(spec, "39729", LBIS.L["Wrist"], "Alt") --Bracers of the Tyrant
 LBIS:AddItem(spec, "39195", LBIS.L["Wrist"], "Alt") --Bracers of Lost Sentiments
 
-LBIS:AddItem(spec, "40347", LBIS.L["Hands"], "BIS") --Zeliek's Gauntlets
-LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "BIS") --Gloves of the Lost Vanquisher
-LBIS:AddItem(spec, "40630", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Vanquisher
 LBIS:AddItem(spec, "40552", LBIS.L["Hands"], "BIS") --Valorous Scourgeborne Gauntlets
+LBIS:AddItem(spec, "40630", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Vanquisher
 LBIS:AddItem(spec, "39618", LBIS.L["Hands"], "BIS") --Heroes' Scourgeborne Gauntlets
+LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "BIS") --Gloves of the Lost Vanquisher
+LBIS:AddItem(spec, "40347", LBIS.L["Hands"], "BIS") --Zeliek's Gauntlets
 LBIS:AddItem(spec, "40261", LBIS.L["Hands"], "Alt") --Crude Discolored Battlegrips
 
 LBIS:AddItem(spec, "40278", LBIS.L["Waist"], "BIS") --Girdle of Chivalry
 LBIS:AddItem(spec, "40317", LBIS.L["Waist"], "Alt") --Girdle of Razuvious
 LBIS:AddItem(spec, "40688", LBIS.L["Waist"], "Alt") --Verdungo's Barbarian Cord
 
-LBIS:AddItem(spec, "40294", LBIS.L["Legs"], "BIS") --Riveted Abomination Leggings
-LBIS:AddItem(spec, "40621", LBIS.L["Legs"], "BIS") --Leggings of the Lost Vanquisher
-LBIS:AddItem(spec, "40556", LBIS.L["Legs"], "BIS") --Valorous Scourgeborne Legplates
 LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "BIS") --Legplates of the Lost Vanquisher
+LBIS:AddItem(spec, "40556", LBIS.L["Legs"], "BIS") --Valorous Scourgeborne Legplates
 LBIS:AddItem(spec, "39620", LBIS.L["Legs"], "BIS") --Heroes' Scourgeborne Legplates
+LBIS:AddItem(spec, "40621", LBIS.L["Legs"], "BIS") --Leggings of the Lost Vanquisher
+LBIS:AddItem(spec, "40294", LBIS.L["Legs"], "BIS") --Riveted Abomination Leggings
 LBIS:AddItem(spec, "40318", LBIS.L["Legs"], "Alt") --Legplates of Double Strikes
 
 LBIS:AddItem(spec, "40591", LBIS.L["Feet"], "BIS") --Melancholy Sabatons
@@ -59,8 +59,8 @@ LBIS:AddItem(spec, "40074", LBIS.L["Ring"], "Alt") --Strong-Handed Ring
 LBIS:AddItem(spec, "43993", LBIS.L["Ring"], "Alt") --Greatring of Collision
 LBIS:AddItem(spec, "44935", LBIS.L["Ring"], "Alt") --Ring of the Kirin Tor
 
-LBIS:AddItem(spec, "37390", LBIS.L["Trinket"], "BIS") --Meteorite Whetstone
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
+LBIS:AddItem(spec, "37390", LBIS.L["Trinket"], "BIS") --Meteorite Whetstone
 LBIS:AddItem(spec, "40256", LBIS.L["Trinket"], "Alt") --Grim Toll
 LBIS:AddItem(spec, "40431", LBIS.L["Trinket"], "Alt") --Fury of the Five Flights
 LBIS:AddItem(spec, "39257", LBIS.L["Trinket"], "Alt") --Loatheb's Shadow

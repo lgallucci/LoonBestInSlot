@@ -15,8 +15,8 @@ LBIS:AddItem(spec, "39719", LBIS.L["Shoulder"], "Alt") --Mantle of the Locusts
 LBIS:AddItem(spec, "40286", LBIS.L["Shoulder"], "Alt") --Mantle of the Corrupted
 
 LBIS:AddItem(spec, "44005", LBIS.L["Back"], "BIS") --Pennant Cloak
-LBIS:AddItem(spec, "41610", LBIS.L["Back"], "Alt") --Deathchill Cloak
 LBIS:AddItem(spec, "40723", LBIS.L["Back"], "Alt") --Disguise of the Kumiho
+LBIS:AddItem(spec, "41610", LBIS.L["Back"], "Alt") --Deathchill Cloak
 
 LBIS:AddItem(spec, "40418", LBIS.L["Chest"], "BIS") --Valorous Frostfire Robe
 LBIS:AddItem(spec, "40627", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Vanquisher
@@ -54,8 +54,8 @@ LBIS:AddItem(spec, "39472", LBIS.L["Neck"], "Alt") --Chain of Latent Energies
 
 LBIS:AddItem(spec, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
 LBIS:AddItem(spec, "40399", LBIS.L["Ring"], "BIS") --Signet of Manifested Pain
-LBIS:AddItem(spec, "37694", LBIS.L["Ring"], "Alt") --Band of Guile
 LBIS:AddItem(spec, "40585", LBIS.L["Ring"], "Alt") --Signet of the Kirin Tor
+LBIS:AddItem(spec, "37694", LBIS.L["Ring"], "Alt") --Band of Guile
 
 LBIS:AddItem(spec, "40255", LBIS.L["Trinket"], "BIS") --Dying Curse
 LBIS:AddItem(spec, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spider

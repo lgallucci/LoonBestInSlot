@@ -48,9 +48,9 @@ LBIS:AddItem(spec, "39472", LBIS.L["Neck"], "Alt") --Chain of Latent Energies
 
 LBIS:AddItem(spec, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
 LBIS:AddItem(spec, "40399", LBIS.L["Ring"], "BIS") --Signet of Manifested Pain
-LBIS:AddItem(spec, "42644", LBIS.L["Ring"], "Alt") --Titanium Spellshock Ring
-LBIS:AddItem(spec, "40585", LBIS.L["Ring"], "Alt") --Signet of the Kirin Tor
 LBIS:AddItem(spec, "40080", LBIS.L["Ring"], "Alt") --Lost Jewel
+LBIS:AddItem(spec, "40585", LBIS.L["Ring"], "Alt") --Signet of the Kirin Tor
+LBIS:AddItem(spec, "42644", LBIS.L["Ring"], "Alt") --Titanium Spellshock Ring
 
 LBIS:AddItem(spec, "40255", LBIS.L["Trinket"], "BIS") --Dying Curse
 LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Dragon Soul
