@@ -8701,34 +8701,6 @@
             "SourceNumber": "0",
             "SourceLocation": "The Eye of Eternity (10)"
         },
-        "44658": {
-            "Name": "Chain of the Ancient Wyrm",
-            "Source": "Malygos",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (10)"
-        },
-        "44660": {
-            "Name": "Drakescale Collar",
-            "Source": "Malygos",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (10)"
-        },
-        "44659": {
-            "Name": "Pendant of the Dragonsworn",
-            "Source": "Malygos",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (10)"
-        },
-        "44657": {
-            "Name": "Torque of the Red Dragonflight",
-            "Source": "Malygos",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (10)"
-        },
         "40562": {
             "Name": "Hood of Rationality",
             "Source": "Malygos",
@@ -8864,34 +8836,6 @@
         },
         "40531": {
             "Name": "Mark of Norgannon",
-            "Source": "Malygos",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
-        },
-        "44664": {
-            "Name": "Favor of the Dragon Queen",
-            "Source": "Malygos",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
-        },
-        "44662": {
-            "Name": "Life-Binder's Locket",
-            "Source": "Malygos",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
-        },
-        "44665": {
-            "Name": "Nexus War Champion Beads",
-            "Source": "Malygos",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
-        },
-        "44661": {
-            "Name": "Wyrmrest Necklace of Power",
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",

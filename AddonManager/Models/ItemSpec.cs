@@ -83,6 +83,7 @@ public class ItemSpec : IComparable<ItemSpec>
         new ("second", "Alt"),
         new ("reward", "Alt"),
         new ("emergency", "Alt"),
+        new ("bad", "Alt"),
 
         new ("Mitigation", ""),
         new ("Avoidance", ""),

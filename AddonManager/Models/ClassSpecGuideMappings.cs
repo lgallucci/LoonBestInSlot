@@ -665,7 +665,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#back-for-survival-hunter-dps-phase-1", "Back"),
             new GuideMapping("#chest-for-survival-hunter-dps-phase-1", "Chest"),
             new GuideMapping("#wrist-for-survival-hunter-dps-phase-1", "Wrist"),
-            new GuideMapping("#hands-for-marksmanship-hunter-dps-phase-1", "Hands"),
+            new GuideMapping("#hands-for-survival-hunter-dps-phase-1", "Hands"),
             new GuideMapping("#waist-for-survival-hunter-dps-phase-1", "Waist"),
             new GuideMapping("#legs-for-survival-hunter-dps-phase-1", "Legs"),
             new GuideMapping("#feet-for-survival-hunter-dps-phase-1", "Feet"),
