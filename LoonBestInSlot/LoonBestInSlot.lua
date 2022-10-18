@@ -14,6 +14,7 @@ LBIS.CurrentPhase = 1;
 LBIS.EventFrame = CreateFrame("FRAME",addonName.."Events")
 
 SLASH_LOONBESTINSLOT1 = '/bis'
+SLASH_LOONBESTINSLOT2 = '/비스'
 SlashCmdList["LOONBESTINSLOT"] = function(command)
 	command = command:lower()
     
