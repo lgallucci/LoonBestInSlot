@@ -35,7 +35,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Banshee's Revenge"] = "Rache der Banshee";
   LBIS.L["Basic Chemistry"] = "Grundkenntnisse der Chemie";
   LBIS.L["Battle at Valhalas: Final Challenge"] = "Kampf bei Valhalas: Letzte Herausforderung";
-  LBIS.L["Bear"] = "Tragen";
+  LBIS.L["Bear"] = "Bär";
   LBIS.L["Beast Mastery"] = "Tierherrschaft";
   LBIS.L["Betrayal"] = "Verrat";
   LBIS.L["BIS"] = "BIS";
