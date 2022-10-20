@@ -70,7 +70,14 @@ public class WowheadGuideParser
         { 44489, 60692 }, //Enchant Chest - Powerful Stats
         { 44944, 62256 }, //Enchant Bracers - Major Stamina
         { 44963, 62448 }, //Earthen Leg Armor
-        { 45056, 62948 }  //Enchant Staff - Greater Spellpower}
+        { 45056, 62948 }, //Enchant Staff - Greater Spellpower
+        { 44879, 44149 }, //Arcanum of Torment
+        { 50367, 44149 }, //Arcanum of Torment
+        { 44877, 50368 }, //Arcanum of Burning Mysteries
+        { 44878, 50369 }, //Arcanum of the Stalwart Protector
+        { 44876, 50370 }, //Arcanum of Blissful Mending
+        { 44871, 50335 }, //Greater Inscription of the Axe
+        { 44133, 50335 }, //Greater Inscription of the Axe
      };
 
     private Dictionary<int, int> _gemSwaps = new Dictionary<int, int>()
