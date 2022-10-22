@@ -189,7 +189,7 @@ public static class ItemSourceFileManager
 
             var enchantId = Int32.Parse(enchantSource.Substring(openBracket, closeBracket - openBracket));
 
-            enchants.Add(enchantId, SplitEnchantLine(enchantId, enchantSource));
+            enchants.Add(enchantId, SplitEnchantLine(enchantId, enchantSource.Trim()));
         }
 
         return enchants;

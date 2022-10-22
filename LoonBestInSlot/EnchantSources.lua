@@ -22,7 +22,7 @@ LBIS.EnchantSources =
     [41976] = { Name = "Titanium Weapon Chain", DesignId = "0", Source = LBIS.L["Grand Master Blacksmithing Trainer"], SourceLocation = "", IsSpell = "False" },
     [44075] = { Name = "Arcanum of Dominance", DesignId = "0", Source = LBIS.L["Quartermasters"], SourceLocation = LBIS.L["Alliance Vanguard/Horde Expedition (Revered)"], IsSpell = "False" },
     [44129] = { Name = "Lesser Inscription of the Storm", DesignId = "0", Source = LBIS.L["Lillehoff"], SourceLocation = LBIS.L["The Sons of Hodir (Honored)"], IsSpell = "False" },
-    [44131] = { Name = "Lesser Inscription of the Axe", DesignId = "0", Source = LBIS.L["Lillehoff"], SourceLocation = LBIS.L["The Sons of Hodir (Honored)"], IsSpell = "False" },    
+    [44131] = { Name = "Lesser Inscription of the Axe", DesignId = "0", Source = LBIS.L["Lillehoff"], SourceLocation = LBIS.L["The Sons of Hodir (Honored)"], IsSpell = "False" },
     [44149] = { Name = "Arcanum of Torment", DesignId = "0", Source = LBIS.L["Duchess Mynx"], SourceLocation = LBIS.L["Knights of the Ebon Blade (Revered)"], IsSpell = "False" },
     [44484] = { Name = "Enchant Gloves - Expertise", DesignId = "0", Source = LBIS.L["Grand Master Enchanting Trainer"], SourceLocation = "", IsSpell = "True" },
     [44488] = { Name = "Enchant Gloves - Precision", DesignId = "0", Source = LBIS.L["Grand Master Enchanting Trainer"], SourceLocation = "", IsSpell = "True" },
