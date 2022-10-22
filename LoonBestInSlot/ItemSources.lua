@@ -1358,5 +1358,6 @@ LBIS.ItemSources =
     [49078] = { Name = "Ancient Pickled Egg", SourceType = LBIS.L["Drop"], Source = LBIS.L["Coren Direbrew"], SourceNumber = "0", SourceLocation = LBIS.L["Brewfest"] },
     [49116] = { Name = "Bitter Balebrew Charm", SourceType = LBIS.L["Drop"], Source = LBIS.L["Coren Direbrew"], SourceNumber = "0", SourceLocation = LBIS.L["Brewfest"] },
     [49118] = { Name = "Bubbling Brightbrew Charm", SourceType = LBIS.L["Drop"], Source = LBIS.L["Coren Direbrew"], SourceNumber = "0", SourceLocation = LBIS.L["Brewfest"] },
+    [49123] = { Name = "The Horseman's Seal", SourceType = LBIS.L["Drop"], Source = LBIS.L["Headless Horseman"], SourceNumber = "0", SourceLocation = LBIS.L["Hallow's End"] },
     [49227] = { Name = "Skoll's Fang", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop (Skoll)"], SourceNumber = "0", SourceLocation = LBIS.L["The Storm Peaks"] },
 }
