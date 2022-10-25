@@ -800,73 +800,73 @@
     },
     "41847": {
       "Name": "Savage Gladiator's Mooncloth Gloves",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "35000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "35000/5040 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41848": {
       "Name": "Savage Gladiator's Mooncloth Hood",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "42000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "42000/8400 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41849": {
       "Name": "Savage Gladiator's Mooncloth Leggings",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "42000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "42000/8400 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41850": {
       "Name": "Savage Gladiator's Mooncloth Mantle",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "35000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "35000/6720 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41851": {
       "Name": "Savage Gladiator's Mooncloth Robe",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "42000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "42000/8400 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41912": {
       "Name": "Savage Gladiator's Satin Hood",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "42000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "42000/8400 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41918": {
       "Name": "Savage Gladiator's Satin Robe",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "42000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "42000/8400 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41924": {
       "Name": "Savage Gladiator's Satin Leggings",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "42000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "42000/8400 & 350",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41930": {
       "Name": "Savage Gladiator's Satin Mantle",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "35000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "35000/6720 & 275",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41937": {
       "Name": "Savage Gladiator's Satin Gloves",
-      "Source": "Honor Points",
+      "Source": "Honor Points/Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "35000",
-      "SourceLocation": "PvP Vendor"
+      "SourceNumber": "35000/5040 & 200",
+      "SourceLocation": "PvP Vendor/Arena Vendor"
     },
     "41943": {
       "Name": "Savage Gladiator's Silk Cowl",
@@ -2135,11 +2135,116 @@
       "SourceNumber": "4500",
       "SourceLocation": "Arena Vendor"
     },
+    "201993": {
+      "Name": "Deadly Gladiator's Tabard",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "550",
+      "SourceLocation": "Arena Vendor"
+    },
     "45706": {
       "Name": "Commendation of Bravery",
       "Source": "Arena Points",
       "SourceType": "PvP",
       "SourceNumber": "100",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42214": {
+      "Name": "Savage Gladiator's Waraxe",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 175",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42444": {
+      "Name": "Savage Gladiator's War Edge",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 175",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42448": {
+      "Name": "Savage Gladiator's Touch of Defeat",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 175",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42511": {
+      "Name": "Savage Gladiator's Baton of Light",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 175",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42517": {
+      "Name": "Savage Gladiator's Piercing Touch",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 175",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42574": {
+      "Name": "Savage Gladiator's Idol of Resolve",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 175",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42575": {
+      "Name": "Savage Gladiator's Idol of Steadfastness",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 175",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42576": {
+      "Name": "Savage Gladiator's Idol of Tenacity",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 175",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42593": {
+      "Name": "Savage Gladiator's Totem of Indomitability",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 175",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42594": {
+      "Name": "Savage Gladiator's Totem of Survival",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 175",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42595": {
+      "Name": "Savage Gladiator's Totem of the Third Wind",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 175",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42611": {
+      "Name": "Savage Gladiator's Libram of Fortitude",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 175",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42612": {
+      "Name": "Savage Gladiator's Libram of Justice",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 175",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42618": {
+      "Name": "Savage Gladiator's Sigil of Strife",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 175",
       "SourceLocation": "Arena Vendor"
     },
     "40781": {
@@ -2700,6 +2805,104 @@
       "Source": "Honor Points & Arena Points",
       "SourceType": "PvP",
       "SourceNumber": "5040 & 400",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42236": {
+      "Name": "Hateful Gladiator's Waraxe",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 350",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42449": {
+      "Name": "Hateful Gladiator's War Edge",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 350",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42501": {
+      "Name": "Hateful Gladiator's Touch of Defeat",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 350",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42512": {
+      "Name": "Hateful Gladiator's Baton of Light",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 350",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42518": {
+      "Name": "Hateful Gladiator's Piercing Touch",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 350",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42577": {
+      "Name": "Hateful Gladiator's Idol of Tenacity",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 350",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42582": {
+      "Name": "Hateful Gladiator's Idol of Steadfastness",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 350",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42587": {
+      "Name": "Hateful Gladiator's Idol of Resolve",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 350",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42596": {
+      "Name": "Hateful Gladiator's Totem of the Third Wind",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 350",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42601": {
+      "Name": "Hateful Gladiator's Totem of Survival",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 350",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42606": {
+      "Name": "Hateful Gladiator's Totem of Indomitability",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 350",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42613": {
+      "Name": "Hateful Gladiator's Libram of Justice",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 350",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42619": {
+      "Name": "Hateful Gladiator's Sigil of Strife",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 350",
+      "SourceLocation": "Arena Vendor"
+    },
+    "42851": {
+      "Name": "Hateful Gladiator's Libram of Fortitude",
+      "Source": "Honor Points & Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4480 & 350",
       "SourceLocation": "Arena Vendor"
     }
   }

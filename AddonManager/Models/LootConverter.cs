@@ -267,10 +267,6 @@ public class PvPConverter : LootConverter
                         currencySource += currentSource;
 
                         var currencyAmount = int.Parse(anchorObject.TextContent);
-                        if (currencySource == "Honor Points")
-                        {
-                            currencyAmount = (int)Math.Floor(currencyAmount * .7);
-                        }
                         currencyNumber += currencyAmount.ToString();
                         if (currencySource.Contains("Arena"))
                             currencySourceLocation = "Arena Vendor";
