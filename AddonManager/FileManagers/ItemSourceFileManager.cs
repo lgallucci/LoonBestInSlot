@@ -199,12 +199,14 @@ public static class ItemSourceFileManager
     {
         var nameIndex = enchantSource.IndexOf("Name =");
         var designIndex = enchantSource.IndexOf("DesignId =");
+        var scrollIndex = enchantSource.IndexOf("ScrollId =");
         var sourceIndex = enchantSource.IndexOf("Source =");
         var sourceLocationIndex = enchantSource.IndexOf("SourceLocation =");
         var isSpellIndex = enchantSource.IndexOf("IsSpell =");
 
         var name = enchantSource.Substring(nameIndex, designIndex - nameIndex).Split("=")[1].Trim().Trim(',').Trim('"');
-        var designId = enchantSource.Substring(designIndex, sourceIndex - designIndex).Split("=")[1].Trim().Trim(',').Trim('"');
+        var designId = enchantSource.Substring(designIndex, scrollIndex - designIndex).Split("=")[1].Trim().Trim(',').Trim('"');
+        var scrollId = enchantSource.Substring(scrollIndex, sourceIndex - scrollIndex).Split("=")[1].Trim().Trim(',').Trim('"');
         var source = enchantSource.Substring(sourceIndex, sourceLocationIndex - sourceIndex).Split("=")[1].Trim().Trim(',').Trim('"'); ;
         var sourceLocation = enchantSource.Substring(sourceLocationIndex, isSpellIndex - sourceLocationIndex).Split("=")[1].Trim().Trim(',').Trim('"');
         var isSpell = enchantSource.Substring(isSpellIndex, enchantSource.Length - isSpellIndex - 3).Split("=")[1].Trim().Trim('"');
@@ -224,6 +226,7 @@ public static class ItemSourceFileManager
             EnchantId = enchantId,
             Name = name,
             DesignId = Int32.Parse(designId),
+            ScrollId = Int32.Parse(scrollId),
             Source = source,
             SourceLocation = sourceLocation,
             IsSpell = bool.Parse(isSpell)
@@ -278,6 +281,7 @@ public static class ItemSourceFileManager
             itemSourceSB.AppendLine($"    [{source.Key}] = {{ " +
                     $"Name = \"{source.Value.Name}\", " +
                     $"DesignId = \"{source.Value.DesignId}\", " +
+                    $"ScrollId = \"{source.Value.ScrollId}\", " +
                     $"Source = {source.Value.Source}, " +
                     $"SourceLocation = {source.Value.SourceLocation}, " +
                     $"IsSpell = \"{source.Value.IsSpell.ToString()}\" }},");

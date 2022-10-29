@@ -235,5 +235,13 @@ function LBIS:AddEnchant(bisEntry, id, slot)
 		LBIS.Items[enchantSource.DesignId][bisEntry.Id] = item;
 	end	
 
+	if tonumber(enchantSource.ScrollId) > 0 then
+		if not LBIS.Items[enchantSource.ScrollId] then
+			LBIS.Items[enchantSource.ScrollId] = {}
+		end
+
+		LBIS.Items[enchantSource.ScrollId][bisEntry.Id] = item;
+	end	
+
 	LBIS.SpecEnchants[bisEntry.Id][tonumber(item.Id)] = item;
 end
