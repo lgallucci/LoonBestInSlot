@@ -91,5 +91,5 @@ LBIS:AddItem(spec, "37190", LBIS.L["Two Hand"], "Alt") --Enraged Feral Staff
 LBIS:AddItem(spec, "43409", LBIS.L["Two Hand"], "Alt") --Saliva Corroded Pike
 LBIS:AddItem(spec, "44174", LBIS.L["Two Hand"], "Alt") --Stave of Shrouded Mysteries
 
-LBIS:AddItem(spec, "38365", LBIS.L["Idol"], "BIS") --Idol of Perspicacious Attacks
-LBIS:AddItem(spec, "33509", LBIS.L["Idol"], "Alt") --Idol of Terror
+LBIS:AddItem(spec, "38365", LBIS.L["Ranged/Relic"], "BIS") --Idol of Perspicacious Attacks
+LBIS:AddItem(spec, "33509", LBIS.L["Ranged/Relic"], "Alt") --Idol of Terror

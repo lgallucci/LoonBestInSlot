@@ -101,7 +101,7 @@ LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "Alt") --Handbook of Obscure Rem
 LBIS:AddItem(spec, "44210", LBIS.L["Off Hand"], "Alt") --Faces of Doom
 LBIS:AddItem(spec, "37718", LBIS.L["Off Hand"], "Alt") --Temple Crystal Fragment
 
-LBIS:AddItem(spec, "40712", LBIS.L["Idol"], "BIS") --Idol of Steadfast Renewal
-LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "Alt") --Idol of the Raven Goddess
-LBIS:AddItem(spec, "27518", LBIS.L["Idol"], "Alt") --Ivory Idol of the Moongoddess
-LBIS:AddItem(spec, "38360", LBIS.L["Idol"], "Alt") --Idol of Arcane Terror
+LBIS:AddItem(spec, "40712", LBIS.L["Ranged/Relic"], "BIS") --Idol of Steadfast Renewal
+LBIS:AddItem(spec, "32387", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Raven Goddess
+LBIS:AddItem(spec, "27518", LBIS.L["Ranged/Relic"], "Alt") --Ivory Idol of the Moongoddess
+LBIS:AddItem(spec, "38360", LBIS.L["Ranged/Relic"], "Alt") --Idol of Arcane Terror

@@ -63,5 +63,5 @@ LBIS:AddItem(spec, "44250", LBIS.L["Main Hand"], "Alt") --Reaper of Dark Souls
 LBIS:AddItem(spec, "37235", LBIS.L["Main Hand"], "Alt") --Crypt Lord's Deft Blade
 LBIS:AddItem(spec, "37871", LBIS.L["Main Hand"], "Alt") --The Key
 
-LBIS:AddItem(spec, "40715", LBIS.L["Relic"], "BIS") --Sigil of Haunted Dreams
-LBIS:AddItem(spec, "39208", LBIS.L["Relic"], "Alt") --Sigil of the Dark Rider
+LBIS:AddItem(spec, "40715", LBIS.L["Ranged/Relic"], "BIS") --Sigil of Haunted Dreams
+LBIS:AddItem(spec, "39208", LBIS.L["Ranged/Relic"], "Alt") --Sigil of the Dark Rider

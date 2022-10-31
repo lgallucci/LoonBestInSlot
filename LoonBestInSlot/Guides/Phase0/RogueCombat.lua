@@ -82,7 +82,7 @@ LBIS:AddItem(spec, "37856", LBIS.L["Off Hand"], "Alt") --Librarian's Paper Cutte
 LBIS:AddItem(spec, "32838", LBIS.L["Off Hand"], "Alt") --Warglaive of Azzinoth
 LBIS:AddItem(spec, "44187", LBIS.L["Off Hand"], "Alt") --Fang of Truth
 
-LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "BIS") --Drake-Mounted Crossbow
-LBIS:AddItem(spec, "44504", LBIS.L["Ranged"], "BIS") --Nesingwary 4000
-LBIS:AddItem(spec, "43612", LBIS.L["Ranged"], "BIS") --Spineslicer
-LBIS:AddItem(spec, "43284", LBIS.L["Ranged"], "Alt") --Amanitar Skullbow
+LBIS:AddItem(spec, "37191", LBIS.L["Ranged/Relic"], "BIS") --Drake-Mounted Crossbow
+LBIS:AddItem(spec, "44504", LBIS.L["Ranged/Relic"], "BIS") --Nesingwary 4000
+LBIS:AddItem(spec, "43612", LBIS.L["Ranged/Relic"], "BIS") --Spineslicer
+LBIS:AddItem(spec, "43284", LBIS.L["Ranged/Relic"], "Alt") --Amanitar Skullbow

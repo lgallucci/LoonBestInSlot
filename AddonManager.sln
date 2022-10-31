@@ -18,6 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoonBestInSlot", "LoonBestI
 		LoonBestInSlot\LoonBestInSlot.toc = LoonBestInSlot\LoonBestInSlot.toc
 		LoonBestInSlot\LootBrowser.lua = LoonBestInSlot\LootBrowser.lua
 		LoonBestInSlot\MinimapButton.lua = LoonBestInSlot\MinimapButton.lua
+		LoonBestInSlot\PriorityList.lua = LoonBestInSlot\PriorityList.lua
 		LoonBestInSlot\Settings.lua = LoonBestInSlot\Settings.lua
 		LoonBestInSlot\UpdateTooltips.lua = LoonBestInSlot\UpdateTooltips.lua
 		LoonBestInSlot\UserItemCache.lua = LoonBestInSlot\UserItemCache.lua

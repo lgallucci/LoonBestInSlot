@@ -93,6 +93,6 @@ LBIS:AddItem(spec, "40704", LBIS.L["Off Hand"], "BIS") --Pride
 LBIS:AddItem(spec, "37871", LBIS.L["Off Hand"], "Alt") --The Key
 LBIS:AddItem(spec, "34346", LBIS.L["Off Hand"], "Alt") --Mounting Vengeance
 
-LBIS:AddItem(spec, "40708", LBIS.L["Totem"], "BIS") --Totem of the Elemental Plane
-LBIS:AddItem(spec, "37575", LBIS.L["Totem"], "Alt") --Totem of the Tundra
-LBIS:AddItem(spec, "33507", LBIS.L["Totem"], "Alt") --Stonebreaker's Totem
+LBIS:AddItem(spec, "40708", LBIS.L["Ranged/Relic"], "BIS") --Totem of the Elemental Plane
+LBIS:AddItem(spec, "37575", LBIS.L["Ranged/Relic"], "Alt") --Totem of the Tundra
+LBIS:AddItem(spec, "33507", LBIS.L["Ranged/Relic"], "Alt") --Stonebreaker's Totem

@@ -95,6 +95,6 @@ LBIS:AddItem(spec, "37718", LBIS.L["Off Hand"], "Alt") --Temple Crystal Fragment
 LBIS:AddItem(spec, "37051", LBIS.L["Off Hand"], "Alt") --Seal of Valgarde
 LBIS:AddItem(spec, "44210", LBIS.L["Off Hand"], "Alt") --Faces of Doom
 
-LBIS:AddItem(spec, "33508", LBIS.L["Idol"], "BIS") --Idol of Budding Life
-LBIS:AddItem(spec, "25643", LBIS.L["Idol"], "Alt") --Harold's Rejuvenating Broach
-LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "Alt") --Idol of the Raven Goddess
+LBIS:AddItem(spec, "33508", LBIS.L["Ranged/Relic"], "BIS") --Idol of Budding Life
+LBIS:AddItem(spec, "25643", LBIS.L["Ranged/Relic"], "Alt") --Harold's Rejuvenating Broach
+LBIS:AddItem(spec, "32387", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Raven Goddess

@@ -84,8 +84,8 @@ LBIS:AddItem(spec, "44311", LBIS.L["Main Hand"], "Alt") --Avool's Sword of Jin
 LBIS:AddItem(spec, "44187", LBIS.L["Main Hand"], "Alt") --Fang of Truth
 LBIS:AddItem(spec, "37181", LBIS.L["Main Hand"], "Alt") --Dagger of Betrayal
 
-LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "BIS") --Drake-Mounted Crossbow
-LBIS:AddItem(spec, "44504", LBIS.L["Ranged"], "BIS") --Nesingwary 4000
-LBIS:AddItem(spec, "43284", LBIS.L["Ranged"], "Alt") --Amanitar Skullbow
-LBIS:AddItem(spec, "37692", LBIS.L["Ranged"], "Alt") --Pierce's Pistol
-LBIS:AddItem(spec, "34334", LBIS.L["Ranged"], "Alt") --Thori'dal, the Stars' Fury
+LBIS:AddItem(spec, "37191", LBIS.L["Ranged/Relic"], "BIS") --Drake-Mounted Crossbow
+LBIS:AddItem(spec, "44504", LBIS.L["Ranged/Relic"], "BIS") --Nesingwary 4000
+LBIS:AddItem(spec, "43284", LBIS.L["Ranged/Relic"], "Alt") --Amanitar Skullbow
+LBIS:AddItem(spec, "37692", LBIS.L["Ranged/Relic"], "Alt") --Pierce's Pistol
+LBIS:AddItem(spec, "34334", LBIS.L["Ranged/Relic"], "Alt") --Thori'dal, the Stars' Fury

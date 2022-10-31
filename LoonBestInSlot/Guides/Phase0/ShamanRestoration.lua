@@ -97,5 +97,5 @@ LBIS:AddItem(spec, "37061", LBIS.L["Off Hand"], "Alt") --Tor's Crest
 LBIS:AddItem(spec, "34206", LBIS.L["Off Hand"], "Alt") --Book of Highborne Hymns
 LBIS:AddItem(spec, "34231", LBIS.L["Off Hand"], "Alt") --Aegis of Angelic Fortune
 
-LBIS:AddItem(spec, "40709", LBIS.L["Totem"], "BIS") --Totem of Forest Growth
-LBIS:AddItem(spec, "38368", LBIS.L["Totem"], "Alt") --Totem of the Bay
+LBIS:AddItem(spec, "40709", LBIS.L["Ranged/Relic"], "BIS") --Totem of Forest Growth
+LBIS:AddItem(spec, "38368", LBIS.L["Ranged/Relic"], "Alt") --Totem of the Bay

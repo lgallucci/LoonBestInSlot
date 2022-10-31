@@ -76,7 +76,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-blood-death-knight-tank-pre-raid", "Trinket"),
             new GuideMapping("h3#weapons~h4", "Two Hand"),
             new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
-            new GuideMapping("#relics-for-blood-death-knight-tank-pre-raid", "Relic"),
+            new GuideMapping("#relics-for-blood-death-knight-tank-pre-raid", "Ranged/Relic"),
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/blood-death-knight-tank-best-in-slot-gear-phase-1",
@@ -96,7 +96,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-blood-death-knight-tank-phase-1", "Trinket"),
             new GuideMapping("h3#weapons~h4", "Two Hand"),
             new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
-            new GuideMapping("#relics-for-blood-death-knight-tank-phase-1", "Relic"),
+            new GuideMapping("#relics-for-blood-death-knight-tank-phase-1", "Ranged/Relic"),
         }));
         #endregion
 
@@ -141,7 +141,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-frost-death-knight-dps-pre-raid", "Trinket"),
             new GuideMapping("#main-hand-weapons-for-frost-death-knight-dps-pre-raid", "Main Hand"),
             new GuideMapping("#off-hand-weapons-for-frost-death-knight-dps-pre-raid", "Off Hand"),
-            new GuideMapping("#sigils-for-frost-death-knight-dps-pre-raid", "Relic"),
+            new GuideMapping("#sigils-for-frost-death-knight-dps-pre-raid", "Ranged/Relic"),
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/frost-death-knight-dps-best-in-slot-gear-phase-1",
@@ -161,7 +161,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-frost-death-knight-dps-phase-1", "Trinket"),
             new GuideMapping("#main-hand-weapons-for-frost-death-knight-dps-phase-1", "Main Hand"),
             new GuideMapping("#off-hand-weapons-for-frost-death-knight-dps-phase-1", "Off Hand"),
-            new GuideMapping("#sigils-for-frost-death-knight-dps-phase-1", "Relic"),
+            new GuideMapping("#sigils-for-frost-death-knight-dps-phase-1", "Ranged/Relic"),
         }));
         #endregion
 
@@ -206,7 +206,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-unholy-death-knight-dps-pre-raid", "Trinket"),
             new GuideMapping("#main-hand-weapons-for-unholy-death-knight-dps-pre-raid", "Main Hand"),
             new GuideMapping("#off-hand-weapons-for-unholy-death-knight-dps-pre-raid", "Off Hand"),
-            new GuideMapping("#sigils-for-unholy-death-knight-dps-pre-raid", "Relic"),
+            new GuideMapping("#sigils-for-unholy-death-knight-dps-pre-raid", "Ranged/Relic"),
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/unholy-death-knight-dps-best-in-slot-gear-phase-1",
@@ -226,7 +226,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-unholy-death-knight-dps-phase-1", "Trinket"),
             new GuideMapping("#main-hand-weapons-for-unholy-death-knight-dps-phase-1", "Main Hand"),
             new GuideMapping("#off-hand-weapons-for-unholy-death-knight-dps-phase-1", "Off Hand"),
-            new GuideMapping("#sigils-for-unholy-death-knight-dps-phase-1", "Relic"),
+            new GuideMapping("#sigils-for-unholy-death-knight-dps-phase-1", "Ranged/Relic"),
         }));
         #endregion
 
@@ -270,7 +270,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#main-hand-weapons-for-balance-druid-dps-pre-raid", "Main Hand"),
             new GuideMapping("#two-handed-weapons-for-balance-druid-dps-pre-raid", "Two Hand"),
             new GuideMapping("#off-hand-weapons-for-balance-druid-dps-pre-raid", "Off Hand"),
-            new GuideMapping("#idols-for-balance-druid-dps-pre-raid", "Idol")
+            new GuideMapping("#idols-for-balance-druid-dps-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/balance-druid-dps-best-in-slot-gear-phase-1",
@@ -291,7 +291,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#main-hand-weapons-for-balance-druid-dps-phase-1", "Main Hand"),
             new GuideMapping("#two-handed-weapons-for-balance-druid-dps-phase-1", "Two Hand"),
             new GuideMapping("#off-hand-weapons-for-balance-druid-dps-phase-1", "Off Hand"),
-            new GuideMapping("#idols-for-balance-druid-dps-phase-1", "Idol")
+            new GuideMapping("#idols-for-balance-druid-dps-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -334,7 +334,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-feral-druid-dps-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-feral-druid-dps-pre-raid", "Trinket"),
             new GuideMapping("#weapons-for-feral-druid-dps-pre-raid", "Two Hand"),
-            new GuideMapping("#idols-for-feral-druid-dps-pre-raid", "Idol")
+            new GuideMapping("#idols-for-feral-druid-dps-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/feral-druid-dps-best-in-slot-gear-phase-1",
@@ -353,7 +353,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-feral-druid-dps-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-feral-druid-dps-phase-1", "Trinket"),
             new GuideMapping("#weapons-for-feral-druid-dps-phase-1", "Two Hand"),
-            new GuideMapping("#idols-for-feral-druid-dps-phase-1", "Idol")
+            new GuideMapping("#idols-for-feral-druid-dps-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -395,7 +395,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-feral-druid-tank-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-feral-druid-tank-pre-raid", "Trinket"),
             new GuideMapping("#weapons-for-feral-druid-tank-pre-raid", "Two Hand"),
-            new GuideMapping("#idols-for-feral-druid-tank-pre-raid", "Idol")
+            new GuideMapping("#idols-for-feral-druid-tank-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/feral-druid-tank-best-in-slot-gear-phase-1",
@@ -414,7 +414,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-feral-druid-tank-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-feral-druid-tank-phase-1", "Trinket"),
             new GuideMapping("#weapons-for-feral-druid-tank-phase-1", "Two Hand"),
-            new GuideMapping("#idols-for-feral-druid-tank-phase-1", "Idol")
+            new GuideMapping("#idols-for-feral-druid-tank-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -458,7 +458,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#main-hand-weapons-for-restoration-druid-healer-pre-raid", "Main Hand"),
             new GuideMapping("#two-handed-weapons-for-restoration-druid-healer-pre-raid", "Two Hand"),
             new GuideMapping("#off-hand-weapons-for-restoration-druid-healer-pre-raid", "Off Hand"),
-            new GuideMapping("#idols-for-restoration-druid-healer-pre-raid", "Idol")
+            new GuideMapping("#idols-for-restoration-druid-healer-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/restoration-druid-healer-best-in-slot-gear-phase-1",
@@ -479,7 +479,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#main-hand-weapons-for-restoration-druid-healer-phase-1", "Main Hand"),
             new GuideMapping("#two-handed-weapons-for-restoration-druid-healer-phase-1", "Two Hand"),
             new GuideMapping("#off-hand-weapons-for-restoration-druid-healer-phase-1", "Off Hand"),
-            new GuideMapping("#idols-for-restoration-druid-healer-phase-1", "Idol")
+            new GuideMapping("#idols-for-restoration-druid-healer-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -503,7 +503,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Two Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged/Relic"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
@@ -524,7 +524,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-beast-mastery-hunter-dps-pre-raid", "Trinket"),
             new GuideMapping("#one-handed-weapons-for-beast-mastery-hunter-dps-pre-raid", "Main Hand"),
             new GuideMapping("#two-hand-weapons-for-beast-mastery-hunter-dps-pre-raid", "Two Hand"),
-            new GuideMapping("#guns-and-bows-for-beast-mastery-hunter-dps-pre-raid", "Ranged")
+            new GuideMapping("#guns-and-bows-for-beast-mastery-hunter-dps-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/beast-mastery-hunter-dps-best-in-slot-gear-phase-1",
@@ -544,7 +544,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-beast-mastery-hunter-dps-phase-1", "Trinket"),
             new GuideMapping("#one-handed-weapons-for-beast-mastery-hunter-dps-phase-1", "Main Hand"),
             new GuideMapping("#two-hand-weapons-for-beast-mastery-hunter-dps-phase-1", "Two Hand"),
-            new GuideMapping("#guns-and-bows-for-beast-mastery-hunter-dps-phase-1", "Ranged")
+            new GuideMapping("#guns-and-bows-for-beast-mastery-hunter-dps-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -568,7 +568,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Two Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged/Relic"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
@@ -589,7 +589,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-marksmanship-hunter-dps-pre-raid", "Trinket"),
             new GuideMapping("#one-handed-weapons-for-marksmanship-hunter-dps-pre-raid", "Main Hand"),
             new GuideMapping("#two-hand-weapons-for-marksmanship-hunter-dps-pre-raid", "Two Hand"),
-            new GuideMapping("#guns-and-bows-for-marksmanship-hunter-dps-pre-raid", "Ranged")
+            new GuideMapping("#guns-and-bows-for-marksmanship-hunter-dps-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/marksmanship-hunter-dps-best-in-slot-gear-phase-1",
@@ -609,7 +609,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-marksmanship-hunter-dps-phase-1", "Trinket"),
             new GuideMapping("#one-handed-weapons-for-marksmanship-hunter-dps-phase-1", "Main Hand"),
             new GuideMapping("#two-hand-weapons-for-marksmanship-hunter-dps-phase-1", "Two Hand"),
-            new GuideMapping("#guns-and-bows-for-marksmanship-hunter-dps-phase-1", "Ranged")
+            new GuideMapping("#guns-and-bows-for-marksmanship-hunter-dps-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -633,7 +633,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Two Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged/Relic"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
@@ -654,7 +654,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-survival-hunter-dps-pre-raid", "Trinket"),
             new GuideMapping("#one-handed-weapons-for-survival-hunter-dps-pre-raid", "Main Hand"),
             new GuideMapping("#two-hand-weapons-for-survival-hunter-dps-pre-raid", "Two Hand"),
-            new GuideMapping("#guns-and-bows-for-survival-hunter-dps-pre-raid", "Ranged")
+            new GuideMapping("#guns-and-bows-for-survival-hunter-dps-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/survival-hunter-dps-best-in-slot-gear-phase-1",
@@ -674,7 +674,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-survival-hunter-dps-phase-1", "Trinket"),
             new GuideMapping("#one-handed-weapons-for-survival-hunter-dps-phase-1", "Main Hand"),
             new GuideMapping("#two-hand-weapons-for-survival-hunter-dps-phase-1", "Two Hand"),
-            new GuideMapping("#guns-and-bows-for-survival-hunter-dps-phase-1", "Ranged")
+            new GuideMapping("#guns-and-bows-for-survival-hunter-dps-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -720,7 +720,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-arcane-mage-dps-pre-raid", "Trinket"),
             new GuideMapping("#main-hand-and-two-handed-weapons-for-arcane-mage-dps-pre-raid", "Main Hand"),
             new GuideMapping("#off-hand-weapons-for-arcane-mage-dps-pre-raid", "Off Hand"),
-            new GuideMapping("#wands-for-arcane-mage-dps-pre-raid", "Wand")
+            new GuideMapping("#wands-for-arcane-mage-dps-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/arcane-mage-dps-best-in-slot-gear-phase-1",
@@ -740,7 +740,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-arcane-mage-dps-phase-1", "Trinket"),
             new GuideMapping("#main-hand-and-two-handed-weapons-for-arcane-mage-dps-phase-1", "Main Hand"),
             new GuideMapping("#off-hand-weapons-for-arcane-mage-dps-phase-1", "Off Hand"),
-            new GuideMapping("#wands-for-arcane-mage-dps-phase-1", "Wand")
+            new GuideMapping("#wands-for-arcane-mage-dps-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -786,7 +786,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-fire-mage-dps-pre-raid", "Trinket"),
             new GuideMapping("#main-hand-and-two-handed-weapons-for-fire-mage-dps-pre-raid", "Main Hand"),
             new GuideMapping("#off-hand-weapons-for-fire-mage-dps-pre-raid", "Off Hand"),
-            new GuideMapping("#wands-for-fire-mage-dps-pre-raid", "Wand")
+            new GuideMapping("#wands-for-fire-mage-dps-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/fire-mage-dps-best-in-slot-gear-phase-1",
@@ -806,7 +806,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-fire-mage-dps-phase-1", "Trinket"),
             new GuideMapping("#main-hand-and-two-handed-weapons-for-fire-mage-dps-phase-1", "Main Hand"),
             new GuideMapping("#off-hand-weapons-for-fire-mage-dps-phase-1", "Off Hand"),
-            new GuideMapping("#wands-for-fire-mage-dps-phase-1", "Wand")
+            new GuideMapping("#wands-for-fire-mage-dps-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -852,7 +852,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-frost-mage-dps-pre-raid", "Trinket"),
             new GuideMapping("#main-hand-and-two-handed-weapons-for-frost-mage-dps-pre-raid", "Main Hand"),
             new GuideMapping("#off-hand-weapons-for-frost-mage-dps-pre-raid", "Off Hand"),
-            new GuideMapping("#wands-for-frost-mage-dps-pre-raid", "Wand")
+            new GuideMapping("#wands-for-frost-mage-dps-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/frost-mage-dps-best-in-slot-gear-phase-1",
@@ -872,7 +872,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-frost-mage-dps-phase-1", "Trinket"),
             new GuideMapping("#main-hand-and-two-handed-weapons-for-frost-mage-dps-phase-1", "Main Hand"),
             new GuideMapping("#off-hand-weapons-for-frost-mage-dps-phase-1", "Off Hand"),
-            new GuideMapping("#wands-for-frost-mage-dps-phase-1", "Wand")
+            new GuideMapping("#wands-for-frost-mage-dps-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -916,7 +916,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-holy-paladin-healer-phase-1", "Trinket"),
             new GuideMapping("#main-hand-weapons-for-holy-paladin-healer-phase-1", "Main Hand"),
             new GuideMapping("#shields-and-off-hands-for-holy-paladin-healer-phase-1", "Off Hand"),
-            new GuideMapping("#librams-for-holy-paladin-healer-phase-1", "Libram")
+            new GuideMapping("#librams-for-holy-paladin-healer-phase-1", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/holy-paladin-healer-best-in-slot-gear-phase-1",
@@ -936,7 +936,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-holy-paladin-healer-phase-1", "Trinket"),
             new GuideMapping("#main-hand-weapons-for-holy-paladin-healer-phase-1", "Main Hand"),
             new GuideMapping("#shields-and-off-hands-for-holy-paladin-healer-phase-1", "Off Hand"),
-            new GuideMapping("#librams-for-holy-paladin-healer-phase-1", "Libram")
+            new GuideMapping("#librams-for-holy-paladin-healer-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -980,7 +980,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-protection-paladin-tank-pre-raid", "Trinket"),
             new GuideMapping("#weapons-for-protection-paladin-tank-pre-raid", "Main Hand"),
             new GuideMapping("#shields-for-protection-paladin-tank-pre-raid", "Shield"),
-            new GuideMapping("#librams-for-protection-paladin-tank-pre-raid", "Libram")
+            new GuideMapping("#librams-for-protection-paladin-tank-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/protection-paladin-tank-best-in-slot-gear-phase-1",
@@ -1000,7 +1000,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-protection-paladin-tank-phase-1", "Trinket"),
             new GuideMapping("#weapons-for-protection-paladin-tank-phase-1", "Main Hand"),
             new GuideMapping("#shields-for-protection-paladin-tank-phase-1", "Shield"),
-            new GuideMapping("#librams-for-protection-paladin-tank-phase-1", "Libram")
+            new GuideMapping("#librams-for-protection-paladin-tank-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -1042,7 +1042,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-retribution-paladin-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-retribution-paladin-pre-raid", "Trinket"),
             new GuideMapping("#two-hand-weapons-for-retribution-paladin-pre-raid", "Two Hand"),
-            new GuideMapping("#libram", "Libram")
+            new GuideMapping("#libram", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/retribution-paladin-dps-best-in-slot-gear-phase-1",
@@ -1061,7 +1061,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-retribution-paladin-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-retribution-paladin-phase-1", "Trinket"),
             new GuideMapping("#two-hand-weapons-for-retribution-paladin-phase-1", "Two Hand"),
-            new GuideMapping("#libram", "Libram")
+            new GuideMapping("#libram", "Ranged/Relic")
         }));
         #endregion
 
@@ -1105,7 +1105,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-holy-priest-healer-pre-raid", "Trinket"),
             new GuideMapping("#main-and-two-handed-weapons-for-holy-priest-healer-pre-raid", "Main Hand"),
             new GuideMapping("#off-hands-for-holy-priest-healer-pre-raid", "Off Hand"),
-            new GuideMapping("#wands-for-holy-priest-healer-pre-raid", "Wand")
+            new GuideMapping("#wands-for-holy-priest-healer-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/holy-priest-healer-best-in-slot-gear-phase-1",
@@ -1125,7 +1125,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-holy-priest-healer-phase-1", "Trinket"),
             new GuideMapping("#main-and-two-handed-weapons-for-holy-priest-healer-phase-1", "Main Hand"),
             new GuideMapping("#off-hands-for-holy-priest-healer-phase-1", "Off Hand"),
-            new GuideMapping("#wands-for-holy-priest-healer-phase-1", "Wand")
+            new GuideMapping("#wands-for-holy-priest-healer-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -1169,7 +1169,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-discipline-priest-healer-pre-raid", "Trinket"),
             new GuideMapping("#main-and-two-handed-weapons-for-discipline-priest-healer-pre-raid", "Main Hand"),
             new GuideMapping("#off-hands-for-discipline-priest-healer-pre-raid", "Off Hand"),
-            new GuideMapping("#wands-for-discipline-priest-healer-pre-raid", "Wand")
+            new GuideMapping("#wands-for-discipline-priest-healer-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/discipline-priest-healer-best-in-slot-gear-phase-1",
@@ -1189,7 +1189,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-discipline-priest-healer-phase-1", "Trinket"),
             new GuideMapping("#main-and-two-handed-weapons-for-discipline-priest-healer-phase-1", "Main Hand"),
             new GuideMapping("#off-hands-for-discipline-priest-healer-phase-1", "Off Hand"),
-            new GuideMapping("#wands-for-discipline-priest-healer-phase-1", "Wand")
+            new GuideMapping("#wands-for-discipline-priest-healer-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -1236,7 +1236,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#main-hand-weapons-for-shadow-priest-dps-pre-raid", "Main Hand"),
             new GuideMapping("#off-hands-for-shadow-priest-dps-pre-raid", "Off Hand"),
             new GuideMapping("#two-handed-weapons-for-shadow-priest-dps-pre-raid", "Two Hand"),
-            new GuideMapping("#wands-for-shadow-priest-dps-pre-raid", "Wand")
+            new GuideMapping("#wands-for-shadow-priest-dps-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/shadow-priest-dps-best-in-slot-gear-phase-1",
@@ -1257,7 +1257,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#main-hand-weapons-for-shadow-priest-dps-in-phase-1", "Main Hand"),
             new GuideMapping("#off-hands-for-shadow-priest-dps-in-phase-1", "Off Hand"),
             new GuideMapping("#two-handed-weapons-for-shadow-priest-dps-in-phase-1", "Two Hand"),
-            new GuideMapping("#wands-for-shadow-priest-dps-in-phase-1", "Wand")
+            new GuideMapping("#wands-for-shadow-priest-dps-in-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -1280,7 +1280,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Legs"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged/Relic"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
@@ -1300,7 +1300,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-assassination-rogue-dps-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-assassination-rogue-dps-pre-raid", "Trinket"),
             new GuideMapping("#weapons-for-assassination-rogue-dps-pre-raid", "Main Hand"),
-            new GuideMapping("#guns-and-bows-for-assassination-rogue-dps-pre-raid", "Ranged")
+            new GuideMapping("#guns-and-bows-for-assassination-rogue-dps-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/assassination-rogue-dps-best-in-slot-gear-phase-1",
@@ -1319,7 +1319,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-assassination-rogue-dps-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-assassination-rogue-dps-phase-1", "Trinket"),
             new GuideMapping("#weapons-for-assassination-rogue-dps-phase-1", "Main Hand"),
-            new GuideMapping("#guns-and-bows-for-assassination-rogue-dps-phase-1", "Ranged")
+            new GuideMapping("#guns-and-bows-for-assassination-rogue-dps-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -1342,7 +1342,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Legs"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged/Relic"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
@@ -1363,7 +1363,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-combat-rogue-dps-pre-raid", "Trinket"),
             new GuideMapping("#main-hand-weapons-for-combat-rogue-dps-pre-raid", "Main Hand"),
             new GuideMapping("#off-hand-weapons-for-combat-rogue-dps-pre-raid", "Off Hand"),
-            new GuideMapping("#guns-and-bows-for-combat-rogue-dps-pre-raid", "Ranged")
+            new GuideMapping("#guns-and-bows-for-combat-rogue-dps-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/combat-rogue-dps-best-in-slot-gear-phase-1",
@@ -1383,7 +1383,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-combat-rogue-dps-phase-1", "Trinket"),
             new GuideMapping("#main-hand-weapons-for-combat-rogue-dps-phase-1", "Main Hand"),
             new GuideMapping("#off-hand-weapons-for-combat-rogue-dps-phase-1", "Off Hand"),
-            new GuideMapping("#guns-and-bows-for-combat-rogue-dps-phase-1", "Ranged")
+            new GuideMapping("#guns-and-bows-for-combat-rogue-dps-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -1406,7 +1406,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Legs"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged/Relic"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
@@ -1426,7 +1426,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-subtlety-rogue-dps-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-subtlety-rogue-dps-pre-raid", "Trinket"),
             new GuideMapping("#weapons-for-subtlety-rogue-dps-pre-raid", "Main Hand"),
-            new GuideMapping("#guns-and-bows-for-subtlety-rogue-dps-pre-raid", "Ranged")
+            new GuideMapping("#guns-and-bows-for-subtlety-rogue-dps-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/subtlety-rogue-dps-best-in-slot-gear-phase-1",
@@ -1445,7 +1445,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-subtlety-rogue-dps-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-subtlety-rogue-dps-phase-1", "Trinket"),
             new GuideMapping("#weapons-for-subtlety-rogue-dps-phase-1", "Main Hand"),
-            new GuideMapping("#guns-and-bows-for-subtlety-rogue-dps-phase-1", "Ranged")
+            new GuideMapping("#guns-and-bows-for-subtlety-rogue-dps-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -1489,7 +1489,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinket-for-elemental-shaman-dps-in-pre-raid", "Trinket"),
             new GuideMapping("#weapons-for-elemental-shaman-dps-in-pre-raid", "Main Hand"),
             new GuideMapping("#shields-off-hands-for-elemental-shaman-dps-in-pre-raid", "Off Hand"),
-            new GuideMapping("#totems-for-elemental-shaman-dps-in-pre-raid", "Totem")
+            new GuideMapping("#totems-for-elemental-shaman-dps-in-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/elemental-shaman-dps-best-in-slot-gear-phase-1",
@@ -1509,7 +1509,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinket-for-elemental-shaman-dps-in-phase-1", "Trinket"),
             new GuideMapping("#weapons-for-elemental-shaman-dps-in-phase-1", "Main Hand"),
             new GuideMapping("#shields-off-hands-for-elemental-shaman-dps-in-phase-1", "Off Hand"),
-            new GuideMapping("#totems-for-elemental-shaman-dps-in-phase-1", "Totem")
+            new GuideMapping("#totems-for-elemental-shaman-dps-in-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -1551,7 +1551,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#finger-for-enhancement-shaman-dps-in-pre-raid", "Ring"),
             new GuideMapping("#trinket-for-enhancement-shaman-dps-in-pre-raid", "Trinket"),
             new GuideMapping("#weapons-for-enhancement-shaman-dps-in-pre-raid", "Main Hand"),
-            new GuideMapping("#totems-for-enhancement-shaman-dps-in-pre-raid", "Totem")
+            new GuideMapping("#totems-for-enhancement-shaman-dps-in-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/enhancement-shaman-dps-best-in-slot-gear-phase-1",
@@ -1570,7 +1570,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#finger-for-enhancement-shaman-dps-in-phase-1", "Ring"),
             new GuideMapping("#trinket-for-enhancement-shaman-dps-in-phase-1", "Trinket"),
             new GuideMapping("#weapons-for-enhancement-shaman-dps-in-phase-1", "Main Hand"),
-            new GuideMapping("#totems-for-enhancement-shaman-dps-in-phase-1", "Totem")
+            new GuideMapping("#totems-for-enhancement-shaman-dps-in-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -1614,7 +1614,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinket-for-restoration-shaman-healer-in-pre-raid", "Trinket"),
             new GuideMapping("#weapons-for-restoration-shaman-healer-in-pre-raid", "Main Hand"),
             new GuideMapping("#shields-off-hands-for-restoration-shaman-healer-in-pre-raid", "Off Hand"),
-            new GuideMapping("#totems-for-restoration-shaman-healer-in-pre-raid", "Totem")
+            new GuideMapping("#totems-for-restoration-shaman-healer-in-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/restoration-shaman-healer-best-in-slot-gear-phase-1",
@@ -1634,7 +1634,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinket-for-restoration-shaman-healer-in-phase-1", "Trinket"),
             new GuideMapping("#weapons-for-restoration-shaman-healer-in-phase-1", "Main Hand"),
             new GuideMapping("#shields-off-hands-for-restoration-shaman-healer-in-phase-1", "Off Hand"),
-            new GuideMapping("#totems-for-restoration-shaman-healer-in-phase-1", "Totem")
+            new GuideMapping("#totems-for-restoration-shaman-healer-in-phase-1", "Ranged/Relic")
         }));
         #endregion
 
@@ -1678,7 +1678,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h3#weapons~h4", "Two Hand"),
             new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
             new GuideMapping("#offhand", "Off Hand"),
-            new GuideMapping("#wand", "Wand")
+            new GuideMapping("#wand", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/affliction-warlock-dps-best-in-slot-gear-phase-1",
@@ -1699,7 +1699,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h3#weapons~h4", "Two Hand"),
             new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
             new GuideMapping("#offhand", "Off Hand"),
-            new GuideMapping("#wand", "Wand")
+            new GuideMapping("#wand", "Ranged/Relic")
         }));
         #endregion
 
@@ -1743,7 +1743,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h3#weapons~h4", "Two Hand"),
             new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
             new GuideMapping("#offhand", "Off Hand"),
-            new GuideMapping("#wand", "Wand")
+            new GuideMapping("#wand", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/demonology-warlock-dps-best-in-slot-gear-phase-1",
@@ -1764,7 +1764,7 @@ public class ClassSpecGuideMappings
                     new GuideMapping("h3#weapons~h4", "Two Hand"),
                     new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
                     new GuideMapping("#offhand", "Off Hand"),
-                    new GuideMapping("#wand", "Wand")
+                    new GuideMapping("#wand", "Ranged/Relic")
         }));
         #endregion
 
@@ -1808,7 +1808,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h3#weapons~h4", "Two Hand"),
             new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
             new GuideMapping("#offhand", "Off Hand"),
-            new GuideMapping("#wand", "Wand")
+            new GuideMapping("#wand", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/destruction-warlock-dps-best-in-slot-gear-phase-1",
@@ -1829,7 +1829,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h3#weapons~h4", "Two Hand"),
             new GuideMapping("h3#weapons~h4~h4", "Main Hand"),
             new GuideMapping("#offhand", "Off Hand"),
-            new GuideMapping("#wand", "Wand")
+            new GuideMapping("#wand", "Ranged/Relic")
         }));
         #endregion
 
@@ -1853,7 +1853,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Legs"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged/Relic"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
@@ -1873,7 +1873,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-arms-warrior-dps-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-arms-warrior-dps-pre-raid", "Trinket"),
             new GuideMapping("#two-handed-weapons-for-arms-warrior-dps-pre-raid", "Two Hand"),
-            new GuideMapping("#ranged-weapons-for-arms-warrior-dps-pre-raid", "Ranged"),
+            new GuideMapping("#ranged-weapons-for-arms-warrior-dps-pre-raid", "Ranged/Relic"),
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/arms-warrior-dps-best-in-slot-gear-phase-1",
@@ -1892,7 +1892,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-arms-warrior-dps-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-arms-warrior-dps-phase-1", "Trinket"),
             new GuideMapping("#two-handed-weapons-for-arms-warrior-dps-phase-1", "Two Hand"),
-            new GuideMapping("#ranged-weapons-for-arms-warrior-dps-phase-1", "Ranged"),
+            new GuideMapping("#ranged-weapons-for-arms-warrior-dps-phase-1", "Ranged/Relic"),
         }));
         #endregion
 
@@ -1916,7 +1916,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Legs"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged/Relic"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
@@ -1936,7 +1936,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-fury-warrior-dps-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-fury-warrior-dps-pre-raid", "Trinket"),
             new GuideMapping("#two-handed-weapons-for-fury-warrior-dps-pre-raid", "Two Hand"),
-            new GuideMapping("#ranged-weapons-for-fury-warrior-dps-pre-raid", "Ranged"),
+            new GuideMapping("#ranged-weapons-for-fury-warrior-dps-pre-raid", "Ranged/Relic"),
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/fury-warrior-dps-best-in-slot-gear-phase-1", 
@@ -1955,7 +1955,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-fury-warrior-dps-in-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-fury-warrior-dps-in-phase-1", "Trinket"),
             new GuideMapping("#two-handed-weapons-for-fury-warrior-dps-in-phase-1", "Two Hand"),
-            new GuideMapping("#ranged-weapons-for-fury-warrior-dps-in-phase-1", "Ranged"),
+            new GuideMapping("#ranged-weapons-for-fury-warrior-dps-in-phase-1", "Ranged/Relic"),
         }));
         #endregion
 
@@ -1979,7 +1979,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Off Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ranged/Relic"),
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/protection-warrior-tank-best-in-slot-gear-pre-raid",
@@ -1999,7 +1999,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-protection-warrior-tank-pre-raid", "Trinket"),
             new GuideMapping("#one-handed-weapons-for-protection-warrior-tank-pre-raid", "Main Hand"),
             new GuideMapping("#shields-for-protection-warrior-tank-pre-raid", "Shield"),
-            new GuideMapping("#guns-and-bows-for-protection-warrior-tank-pre-raid", "Ranged")
+            new GuideMapping("#guns-and-bows-for-protection-warrior-tank-pre-raid", "Ranged/Relic")
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/protection-warrior-tank-best-in-slot-gear-phase-1", 
@@ -2019,7 +2019,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#trinkets-for-protection-warrior-tank-in-phase-1", "Trinket"),
             new GuideMapping("#one-handed-weapons-for-protection-warrior-tank-in-phase-1", "Main Hand"),
             new GuideMapping("#shields-for-protection-warrior-tank-in-phase-1", "Shield"),
-            new GuideMapping("#guns-and-bows-for-protection-warrior-tank-in-phase-1", "Ranged")
+            new GuideMapping("#guns-and-bows-for-protection-warrior-tank-in-phase-1", "Ranged/Relic")
         }));
         #endregion
     }

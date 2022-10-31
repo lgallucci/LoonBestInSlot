@@ -84,7 +84,7 @@ LBIS:AddItem(spec, "37037", LBIS.L["Main Hand"], "Alt") --Ritualistic Athame
 LBIS:AddItem(spec, "44166", LBIS.L["Main Hand"], "Alt") --Lightblade Rivener
 LBIS:AddItem(spec, "36944", LBIS.L["Main Hand"], "Alt") --Lifeblade of Belgaristrasz
 
-LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "BIS") --Drake-Mounted Crossbow
-LBIS:AddItem(spec, "44504", LBIS.L["Ranged"], "BIS") --Nesingwary 4000
-LBIS:AddItem(spec, "43612", LBIS.L["Ranged"], "BIS") --Spineslicer
-LBIS:AddItem(spec, "43284", LBIS.L["Ranged"], "Alt") --Amanitar Skullbow
+LBIS:AddItem(spec, "37191", LBIS.L["Ranged/Relic"], "BIS") --Drake-Mounted Crossbow
+LBIS:AddItem(spec, "44504", LBIS.L["Ranged/Relic"], "BIS") --Nesingwary 4000
+LBIS:AddItem(spec, "43612", LBIS.L["Ranged/Relic"], "BIS") --Spineslicer
+LBIS:AddItem(spec, "43284", LBIS.L["Ranged/Relic"], "Alt") --Amanitar Skullbow

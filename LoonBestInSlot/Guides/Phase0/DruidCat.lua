@@ -94,5 +94,5 @@ LBIS:AddItem(spec, "37848", LBIS.L["Two Hand"], "Alt") --Lightning Giant Staff
 LBIS:AddItem(spec, "37733", LBIS.L["Two Hand"], "Alt") --Mojo Masked Crusher
 LBIS:AddItem(spec, "43409", LBIS.L["Two Hand"], "Alt") --Saliva Corroded Pike
 
-LBIS:AddItem(spec, "40713", LBIS.L["Idol"], "BIS") --Idol of the Ravenous Beast
-LBIS:AddItem(spec, "38295", LBIS.L["Idol"], "Alt") --Idol of the Wastes
+LBIS:AddItem(spec, "40713", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Ravenous Beast
+LBIS:AddItem(spec, "38295", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Wastes

@@ -73,6 +73,6 @@ LBIS:AddItem(spec, "37721", LBIS.L["Main Hand"], "Alt") --Cursed Lich Blade
 LBIS:AddItem(spec, "40698", LBIS.L["Off Hand"], "BIS") --Ward of the Violet Citadel
 LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "Alt") --Handbook of Obscure Remedies
 
-LBIS:AddItem(spec, "37177", LBIS.L["Wand"], "BIS") --Wand of the San'layn
-LBIS:AddItem(spec, "34348", LBIS.L["Wand"], "Alt") --Wand of Cleansing Light
-LBIS:AddItem(spec, "34347", LBIS.L["Wand"], "Alt") --Wand of the Demonsoul
+LBIS:AddItem(spec, "37177", LBIS.L["Ranged/Relic"], "BIS") --Wand of the San'layn
+LBIS:AddItem(spec, "34348", LBIS.L["Ranged/Relic"], "Alt") --Wand of Cleansing Light
+LBIS:AddItem(spec, "34347", LBIS.L["Ranged/Relic"], "Alt") --Wand of the Demonsoul

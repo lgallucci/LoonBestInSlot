@@ -61,6 +61,6 @@ LBIS:AddItem(spec, "43409", LBIS.L["Two Hand"], "BIS") --Saliva Corroded Pike
 LBIS:AddItem(spec, "43281", LBIS.L["Two Hand"], "BIS") --Edge of Oblivion
 LBIS:AddItem(spec, "37653", LBIS.L["Two Hand"], "Alt") --Sword of Justice
 
-LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "BIS") --Drake-Mounted Crossbow
-LBIS:AddItem(spec, "44504", LBIS.L["Ranged"], "Alt") --Nesingwary 4000
-LBIS:AddItem(spec, "44245", LBIS.L["Ranged"], "Alt") --Zombie Sweeper Shotgun
+LBIS:AddItem(spec, "37191", LBIS.L["Ranged/Relic"], "BIS") --Drake-Mounted Crossbow
+LBIS:AddItem(spec, "44504", LBIS.L["Ranged/Relic"], "Alt") --Nesingwary 4000
+LBIS:AddItem(spec, "44245", LBIS.L["Ranged/Relic"], "Alt") --Zombie Sweeper Shotgun

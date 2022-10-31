@@ -20,12 +20,7 @@ itemSlotOrder[LBIS.L["Main Hand"]] = 12;
 itemSlotOrder[LBIS.L["Off Hand"]] = 13;
 itemSlotOrder[LBIS.L["Two Hand"]] = 14;
 itemSlotOrder[LBIS.L["Shield"]] = 15;
-itemSlotOrder[LBIS.L["Ranged"]] = 16;
-itemSlotOrder[LBIS.L["Wand"]] = 17;
-itemSlotOrder[LBIS.L["Totem"]] = 18;
-itemSlotOrder[LBIS.L["Idol"]] = 19;
-itemSlotOrder[LBIS.L["Libram"]] = 20;
-itemSlotOrder[LBIS.L["Relic"]] = 21;
+itemSlotOrder[LBIS.L["Ranged/Relic"]] = 16;
 
 local function itemSortFunction(table, k1, k2)
 

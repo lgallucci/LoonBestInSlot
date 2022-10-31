@@ -78,6 +78,6 @@ LBIS:AddItem(spec, "42285", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Sli
 LBIS:AddItem(spec, "37260", LBIS.L["Main Hand"], "BIS") --Cloudstrider's Waraxe
 LBIS:AddItem(spec, "37179", LBIS.L["Main Hand"], "BIS") --Infantry Assault Blade
 
-LBIS:AddItem(spec, "40714", LBIS.L["Relic"], "BIS") --Sigil of the Unfaltering Knight
-LBIS:AddItem(spec, "40822", LBIS.L["Relic"], "BIS") --Sigil of the Frozen Conscience
-LBIS:AddItem(spec, "40715", LBIS.L["Relic"], "Alt") --Sigil of Haunted Dreams
+LBIS:AddItem(spec, "40714", LBIS.L["Ranged/Relic"], "BIS") --Sigil of the Unfaltering Knight
+LBIS:AddItem(spec, "40822", LBIS.L["Ranged/Relic"], "BIS") --Sigil of the Frozen Conscience
+LBIS:AddItem(spec, "40715", LBIS.L["Ranged/Relic"], "Alt") --Sigil of Haunted Dreams

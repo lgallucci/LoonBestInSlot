@@ -76,4 +76,4 @@ LBIS:AddItem(spec, "40700", LBIS.L["Off Hand"], "BIS") --Protective Barricade of
 LBIS:AddItem(spec, "44210", LBIS.L["Off Hand"], "Alt") --Faces of Doom
 LBIS:AddItem(spec, "37718", LBIS.L["Off Hand"], "Alt") --Temple Crystal Fragment
 
-LBIS:AddItem(spec, "40705", LBIS.L["Libram"], "BIS") --Libram of Renewal
+LBIS:AddItem(spec, "40705", LBIS.L["Ranged/Relic"], "BIS") --Libram of Renewal

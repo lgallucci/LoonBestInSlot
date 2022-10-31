@@ -116,10 +116,10 @@ LBIS:AddItem(spec, "37107", LBIS.L["Shield"], "Alt") --Leeka's Shield
 LBIS:AddItem(spec, "34185", LBIS.L["Shield"], "Alt") --Sword Breaker's Bulwark
 LBIS:AddItem(spec, "41113", LBIS.L["Shield"], "Alt") --Saronite Bulwark
 
-LBIS:AddItem(spec, "41168", LBIS.L["Ranged"], "BIS") --Armor Plated Combat Shotgun
-LBIS:AddItem(spec, "44118", LBIS.L["Ranged"], "Alt") --Stolen Vrykul Harpoon
-LBIS:AddItem(spec, "40716", LBIS.L["Ranged"], "Alt") --Lillehoff's Winged Blades
-LBIS:AddItem(spec, "43284", LBIS.L["Ranged"], "Alt") --Amanitar Skullbow
-LBIS:AddItem(spec, "37615", LBIS.L["Ranged"], "Alt") --Titanium Compound Bow
-LBIS:AddItem(spec, "43187", LBIS.L["Ranged"], "Alt Mit") --Weighted Throwing Axe
-LBIS:AddItem(spec, "42863", LBIS.L["Ranged"], "Alt") --Sharpened Hyldnir Harpoon
+LBIS:AddItem(spec, "41168", LBIS.L["Ranged/Relic"], "BIS") --Armor Plated Combat Shotgun
+LBIS:AddItem(spec, "44118", LBIS.L["Ranged/Relic"], "Alt") --Stolen Vrykul Harpoon
+LBIS:AddItem(spec, "40716", LBIS.L["Ranged/Relic"], "Alt") --Lillehoff's Winged Blades
+LBIS:AddItem(spec, "43284", LBIS.L["Ranged/Relic"], "Alt") --Amanitar Skullbow
+LBIS:AddItem(spec, "37615", LBIS.L["Ranged/Relic"], "Alt") --Titanium Compound Bow
+LBIS:AddItem(spec, "43187", LBIS.L["Ranged/Relic"], "Alt Mit") --Weighted Throwing Axe
+LBIS:AddItem(spec, "42863", LBIS.L["Ranged/Relic"], "Alt") --Sharpened Hyldnir Harpoon

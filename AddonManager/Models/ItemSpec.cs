@@ -6,7 +6,7 @@ public class ItemSpec : IComparable<ItemSpec>
 {
     private Dictionary<string, int> _sortOrder = new Dictionary<string, int> { { "Head", 0 }, { "Shoulder", 1}, { "Back", 2}, { "Chest", 3}, { "Wrist", 4},
         { "Hands", 5}, { "Waist", 6}, { "Legs", 7}, { "Feet", 8}, { "Neck", 9}, { "Ring", 10}, { "Trinket", 11}, { "Two Hand", 12}, { "Main Hand", 13}, 
-        { "Off Hand", 14 }, { "Shield", 15}, { "Ranged", 16}, { "Wand", 17}, { "Totem", 18}, { "Idol", 19}, { "Libram", 20}, { "Relic", 21} };
+        { "Off Hand", 14 }, { "Shield", 15}, { "Ranged/Relic", 16} };
 
     public int CompareTo(ItemSpec? other)
     {

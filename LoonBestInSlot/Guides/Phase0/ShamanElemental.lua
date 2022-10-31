@@ -96,5 +96,5 @@ LBIS:AddItem(spec, "37061", LBIS.L["Off Hand"], "Alt") --Tor's Crest
 LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "Alt") --Chronicle of Dark Secrets
 LBIS:AddItem(spec, "34179", LBIS.L["Off Hand"], "Alt") --Heart of the Pit
 
-LBIS:AddItem(spec, "40708", LBIS.L["Totem"], "BIS") --Totem of the Elemental Plane
-LBIS:AddItem(spec, "32330", LBIS.L["Totem"], "Alt") --Totem of Ancestral Guidance
+LBIS:AddItem(spec, "40708", LBIS.L["Ranged/Relic"], "BIS") --Totem of the Elemental Plane
+LBIS:AddItem(spec, "32330", LBIS.L["Ranged/Relic"], "Alt") --Totem of Ancestral Guidance

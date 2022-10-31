@@ -140,11 +140,11 @@ LBIS:AddItem(spec, "37051", LBIS.L["Off Hand"], "Alt") --Seal of Valgarde
 LBIS:AddItem(spec, "37134", LBIS.L["Off Hand"], "Alt") --Telestra's Journal
 LBIS:AddItem(spec, "37086", LBIS.L["Off Hand"], "Alt") --Tome of Salramm
 
-LBIS:AddItem(spec, "34348", LBIS.L["Wand"], "BIS") --Wand of Cleansing Light
-LBIS:AddItem(spec, "34347", LBIS.L["Wand"], "BIS") --Wand of the Demonsoul
-LBIS:AddItem(spec, "37238", LBIS.L["Wand"], "BIS") --Rod of the Fallen Monarch
-LBIS:AddItem(spec, "37619", LBIS.L["Wand"], "Alt") --Wand of Ahn'kahet
-LBIS:AddItem(spec, "37626", LBIS.L["Wand"], "Alt") --Wand of Sseratus
-LBIS:AddItem(spec, "36989", LBIS.L["Wand"], "Alt") --Ancient Measuring Rod
-LBIS:AddItem(spec, "33192", LBIS.L["Wand"], "Alt") --Carved Witch Doctor's Stick
-LBIS:AddItem(spec, "43186", LBIS.L["Wand"], "Alt") --Iceshrieker's Touch
+LBIS:AddItem(spec, "34348", LBIS.L["Ranged/Relic"], "BIS") --Wand of Cleansing Light
+LBIS:AddItem(spec, "34347", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Demonsoul
+LBIS:AddItem(spec, "37238", LBIS.L["Ranged/Relic"], "BIS") --Rod of the Fallen Monarch
+LBIS:AddItem(spec, "37619", LBIS.L["Ranged/Relic"], "Alt") --Wand of Ahn'kahet
+LBIS:AddItem(spec, "37626", LBIS.L["Ranged/Relic"], "Alt") --Wand of Sseratus
+LBIS:AddItem(spec, "36989", LBIS.L["Ranged/Relic"], "Alt") --Ancient Measuring Rod
+LBIS:AddItem(spec, "33192", LBIS.L["Ranged/Relic"], "Alt") --Carved Witch Doctor's Stick
+LBIS:AddItem(spec, "43186", LBIS.L["Ranged/Relic"], "Alt") --Iceshrieker's Touch

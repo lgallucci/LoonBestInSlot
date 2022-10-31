@@ -184,10 +184,10 @@ LBIS:AddItem(spec, "37086", LBIS.L["Off Hand"], "Alt") --Tome of Salramm
 LBIS:AddItem(spec, "37051", LBIS.L["Off Hand"], "Alt") --Seal of Valgarde
 LBIS:AddItem(spec, "44023", LBIS.L["Off Hand"], "Alt") --Bonecaster's Endgame
 
-LBIS:AddItem(spec, "37238", LBIS.L["Wand"], "BIS") --Rod of the Fallen Monarch
-LBIS:AddItem(spec, "37177", LBIS.L["Wand"], "Alt") --Wand of the San'layn
-LBIS:AddItem(spec, "37626", LBIS.L["Wand"], "Alt") --Wand of Sseratus
-LBIS:AddItem(spec, "44108", LBIS.L["Wand"], "Alt") --Shinygem Rod
-LBIS:AddItem(spec, "35617", LBIS.L["Wand"], "Alt") --Wand of Shimmering Scales
-LBIS:AddItem(spec, "38206", LBIS.L["Wand"], "Alt") --Wand of Blinding Light
-LBIS:AddItem(spec, "43186", LBIS.L["Wand"], "Alt") --Iceshrieker's Touch
+LBIS:AddItem(spec, "37238", LBIS.L["Ranged/Relic"], "BIS") --Rod of the Fallen Monarch
+LBIS:AddItem(spec, "37177", LBIS.L["Ranged/Relic"], "Alt") --Wand of the San'layn
+LBIS:AddItem(spec, "37626", LBIS.L["Ranged/Relic"], "Alt") --Wand of Sseratus
+LBIS:AddItem(spec, "44108", LBIS.L["Ranged/Relic"], "Alt") --Shinygem Rod
+LBIS:AddItem(spec, "35617", LBIS.L["Ranged/Relic"], "Alt") --Wand of Shimmering Scales
+LBIS:AddItem(spec, "38206", LBIS.L["Ranged/Relic"], "Alt") --Wand of Blinding Light
+LBIS:AddItem(spec, "43186", LBIS.L["Ranged/Relic"], "Alt") --Iceshrieker's Touch

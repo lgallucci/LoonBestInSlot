@@ -70,4 +70,4 @@ LBIS:AddItem(spec, "37871", LBIS.L["Main Hand"], "Alt") --The Key
 
 LBIS:AddItem(spec, "40703", LBIS.L["Off Hand"], "BIS") --Grasscutter
 
-LBIS:AddItem(spec, "40867", LBIS.L["Relic"], "BIS") --Sigil of the Wild Buck
+LBIS:AddItem(spec, "40867", LBIS.L["Ranged/Relic"], "BIS") --Sigil of the Wild Buck
