@@ -343,7 +343,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Wintergrasp Marks"] = "";
 --  LBIS.L["Wintergrasp Quartermaster"] = "";
   LBIS.L["World Drop"] = "Welt Drop";
---  LBIS.L["World Drop (Skoll)"] = "";
+  LBIS.L["World Drop (Skoll)"] = "Welt Drop (Skoll)";
   LBIS.L["Wrist"] = "Handgelenke";
   LBIS.L["Xevozz"] = "Xevozz";
   LBIS.L["Zul'Drak"] = "Zul'Drak";

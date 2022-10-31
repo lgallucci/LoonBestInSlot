@@ -3395,20 +3395,6 @@
             "SourceNumber": "0",
             "SourceLocation": "Vault of Archavon (10)"
         },
-        "43959": {
-            "Name": "Reins of the Grand Black War Mammoth",
-            "Source": "All Bosses",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Vault of Archavon (10)"
-        },
-        "44083": {
-            "Name": "Reins of the Grand Black War Mammoth",
-            "Source": "All Bosses",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Vault of Archavon (10)"
-        },
         "40418": {
             "Name": "Valorous Frostfire Robe",
             "Source": "Archavon the Stone Watcher",
@@ -8449,13 +8435,6 @@
             "SourceNumber": "0",
             "SourceLocation": "The Obsidian Sanctum (10)"
         },
-        "43986": {
-            "Name": "Reins of the Black Drake",
-            "Source": "Sartharion",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "The Obsidian Sanctum (10)"
-        },
         "40437": {
             "Name": "Concealment Shoulderpads",
             "Source": "Sartharion",
@@ -8610,13 +8589,6 @@
             "SourceNumber": "0",
             "SourceLocation": "The Obsidian Sanctum (25)"
         },
-        "43954": {
-            "Name": "Reins of the Twilight Drake",
-            "Source": "Sartharion",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "The Obsidian Sanctum (25)"
-        },
         "40526": {
             "Name": "Gown of the Spell-Weaver",
             "Source": "Malygos",
@@ -8682,13 +8654,6 @@
         },
         "40475": {
             "Name": "Barricade of Eternity",
-            "Source": "Malygos",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (10)"
-        },
-        "43952": {
-            "Name": "Reins of the Azure Drake",
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
@@ -16795,13 +16760,6 @@
         },
         "49294": {
             "Name": "Ashen Sack of Gems",
-            "Source": "Onyxia",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Onyxia (10)"
-        },
-        "49636": {
-            "Name": "Reins of the Onyxian Drake",
             "Source": "Onyxia",
             "SourceType": "Drop",
             "SourceNumber": "0",

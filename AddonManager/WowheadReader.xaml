@@ -21,5 +21,6 @@
 
         <Button x:Name="btnConverters" Content="Converters" Margin="10,10,145,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Converters_Click"/>
         <Button x:Name="btnVerify" Content="Verify" Margin="10,10,215,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Verify_Click"/>
+        <Button x:Name="btnTemp" Content="Temp" Margin="10,10,260,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Temp_Click"/>
     </Grid>
 </Window>

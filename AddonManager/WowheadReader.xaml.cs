@@ -147,7 +147,7 @@ public partial class WowheadReader : Window
 
     private void Verify_Click(object sender, RoutedEventArgs e)
     {
-        ConsoleOut.Text = string.Empty;
+        ConsoleOut.Text = "Verifying Guides...";
         foreach (string spec in SpecList)
         {
             try
@@ -183,7 +183,9 @@ public partial class WowheadReader : Window
 
     private void Localize_Click(object sender, RoutedEventArgs e)
     {
+        ConsoleOut.Text = "Localizing Addon...";
         LocalizationFileManager.WriteLocalizationFiles();
+        ConsoleOut.Text = "Localize Complete!";
     }
 
     private void Converters_Click(object sender, RoutedEventArgs e)
@@ -194,7 +196,7 @@ public partial class WowheadReader : Window
 
     private void Refresh_Click(object sender, RoutedEventArgs e)
     {
-        ConsoleOut.Text = string.Empty;
+        ConsoleOut.Text = "Refreshing Items...";
 
         var itemSources = ItemSourceFileManager.ReadItemSources();
         var csvLootTable = new Dictionary<int, CsvLootTable>();
@@ -261,6 +263,68 @@ public partial class WowheadReader : Window
         }
 
         ItemSourceFileManager.WriteItemSources(itemSources);
+        ConsoleOut.Text = "Items Refreshed";
+    }
+
+    private void Temp_Click(object sender, RoutedEventArgs e)
+    {
+        ConsoleOut.Text = "Adding Phase 1 items to ItemSource...";
+
+        //Read file into dictionary
+        DatabaseItems dbItem;
+        var jsonFileString = File.ReadAllText(@$"..\..\..\ItemDatabase\RaidItemList.json");
+        dbItem = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
+
+        var itemSources = ItemSourceFileManager.ReadItemSources();
+
+        foreach (var db in dbItem.Items)
+        {
+            if (!itemSources.ContainsKey(db.Key) && IsInPhase(1, db.Value.SourceLocation))
+            {
+                itemSources.Add(db.Key, new ItemSource
+                {
+                    ItemId = db.Key,
+                    Name = db.Value.Name,
+                    SourceType = "undefined",
+                    Source = "undefined",
+                    SourceNumber = "0",
+                    SourceLocation = "undefined"
+                });
+            }
+        }
+
+        ItemSourceFileManager.WriteItemSources(itemSources);
+
+        ConsoleOut.Text = "Phase 1 items Added to ItemSource!";
+    }
+
+    private bool IsInPhase(int phase, string raidName)
+    {
+        List<string> phaseRaids;
+        switch(phase)
+        {
+            case 1:
+                phaseRaids = new List<string> { "Naxxramas", "Vault of Archavon", "The Obsidian Sanctum", "The Eye of Eternity" };
+                break;
+            case 2:
+                phaseRaids = new List<string> { "Naxxramas", "Vault of Archavon", "The Obsidian Sanctum", "The Eye of Eternity", "Ulduar" };
+                break;
+            case 3:
+                phaseRaids = new List<string> { "Naxxramas", "Vault of Archavon", "The Obsidian Sanctum", "The Eye of Eternity", "Ulduar", 
+                    "Trial of the Crusader", "Trial of the Grand Crusader", "Onyxia" };
+                break;
+            case 4:
+                phaseRaids = new List<string> { "Naxxramas", "Vault of Archavon", "The Obsidian Sanctum", "The Eye of Eternity", "Ulduar",
+                    "Trial of the Crusader", "Trial of the Grand Crusader", "Onyxia", "Icecrown Citadel" };
+                break;
+            default:
+                phaseRaids = new List<string> { "Naxxramas", "Vault of Archavon", "The Obsidian Sanctum", "The Eye of Eternity", "Ulduar",
+                    "Trial of the Crusader", "Trial of the Grand Crusader", "Onyxia", "Icecrown Citadel", "Ruby Sanctum" };
+                break;
+        }
+
+        return phaseRaids.Contains(raidName);
+
     }
 
     private string? AddLocalizeText(string source)
