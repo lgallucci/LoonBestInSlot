@@ -79,8 +79,8 @@ LBIS:AddItem(spec, "40343", LBIS.L["Two Hand"], "Alt") --Armageddon
 LBIS:AddItem(spec, "37852", LBIS.L["Two Hand"], "Alt") --Colossal Skull-Clad Cleaver
 LBIS:AddItem(spec, "41257", LBIS.L["Two Hand"], "Alt") --Titansteel Destroyer
 
-LBIS:AddItem(spec, "42852", LBIS.L["Libram"], "BIS") --Deadly Gladiator's Libram of Fortitude
-LBIS:AddItem(spec, "33503", LBIS.L["Libram"], "BIS") --Libram of Divine Judgement
-LBIS:AddItem(spec, "42851", LBIS.L["Libram"], "Alt") --Hateful Gladiator's Libram of Fortitude
-LBIS:AddItem(spec, "42611", LBIS.L["Libram"], "Alt") --Savage Gladiator's Libram of Fortitude
-LBIS:AddItem(spec, "37574", LBIS.L["Libram"], "Alt") --Libram of Furious Blows
+LBIS:AddItem(spec, "42852", LBIS.L["Ranged/Relic"], "BIS") --Deadly Gladiator's Libram of Fortitude
+LBIS:AddItem(spec, "33503", LBIS.L["Ranged/Relic"], "BIS") --Libram of Divine Judgement
+LBIS:AddItem(spec, "42851", LBIS.L["Ranged/Relic"], "Alt") --Hateful Gladiator's Libram of Fortitude
+LBIS:AddItem(spec, "42611", LBIS.L["Ranged/Relic"], "Alt") --Savage Gladiator's Libram of Fortitude
+LBIS:AddItem(spec, "37574", LBIS.L["Ranged/Relic"], "Alt") --Libram of Furious Blows

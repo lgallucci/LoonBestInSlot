@@ -111,5 +111,5 @@ LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "BIS") --Matriarch's Spawn
 LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "Alt") --Handbook of Obscure Remedies
 LBIS:AddItem(spec, "40273", LBIS.L["Off Hand"], "Alt") --Surplus Limb
 
-LBIS:AddItem(spec, "40342", LBIS.L["Idol"], "BIS") --Idol of Awakening
-LBIS:AddItem(spec, "33508", LBIS.L["Idol"], "Alt") --Idol of Budding Life
+LBIS:AddItem(spec, "40342", LBIS.L["Ranged/Relic"], "BIS") --Idol of Awakening
+LBIS:AddItem(spec, "33508", LBIS.L["Ranged/Relic"], "Alt") --Idol of Budding Life

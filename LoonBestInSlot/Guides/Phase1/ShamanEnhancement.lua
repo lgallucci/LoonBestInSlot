@@ -99,5 +99,5 @@ LBIS:AddItem(spec, "41383", LBIS.L["Main Hand"], "Alt") --Titansteel Bonecrusher
 LBIS:AddItem(spec, "39468", LBIS.L["Off Hand"], "BIS") --The Stray
 LBIS:AddItem(spec, "40704", LBIS.L["Off Hand"], "Alt") --Pride
 
-LBIS:AddItem(spec, "40322", LBIS.L["Totem"], "BIS") --Totem of Dueling
-LBIS:AddItem(spec, "40708", LBIS.L["Totem"], "Alt") --Totem of the Elemental Plane
+LBIS:AddItem(spec, "40322", LBIS.L["Ranged/Relic"], "BIS") --Totem of Dueling
+LBIS:AddItem(spec, "40708", LBIS.L["Ranged/Relic"], "Alt") --Totem of the Elemental Plane

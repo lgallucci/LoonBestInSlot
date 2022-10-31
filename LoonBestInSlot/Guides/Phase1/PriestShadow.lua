@@ -162,10 +162,10 @@ LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "Alt") --Matriarch's Spawn
 LBIS:AddItem(spec, "40192", LBIS.L["Off Hand"], "Alt") --Accursed Spine
 LBIS:AddItem(spec, "39199", LBIS.L["Off Hand"], "Alt") --Watchful Eye
 
-LBIS:AddItem(spec, "39712", LBIS.L["Wand"], "BIS") --Gemmed Wand of the Nerubians
-LBIS:AddItem(spec, "40284", LBIS.L["Wand"], "Alt") --Plague Igniter
-LBIS:AddItem(spec, "40335", LBIS.L["Wand"], "Alt") --Touch of Horror
-LBIS:AddItem(spec, "39426", LBIS.L["Wand"], "Alt") --Wand of the Archlich
-LBIS:AddItem(spec, "37238", LBIS.L["Wand"], "Alt") --Rod of the Fallen Monarch
-LBIS:AddItem(spec, "40245", LBIS.L["Wand"], "Alt") --Fading Glow
-LBIS:AddItem(spec, "39473", LBIS.L["Wand"], "Alt") --Contortion
+LBIS:AddItem(spec, "39712", LBIS.L["Ranged/Relic"], "BIS") --Gemmed Wand of the Nerubians
+LBIS:AddItem(spec, "40284", LBIS.L["Ranged/Relic"], "Alt") --Plague Igniter
+LBIS:AddItem(spec, "40335", LBIS.L["Ranged/Relic"], "Alt") --Touch of Horror
+LBIS:AddItem(spec, "39426", LBIS.L["Ranged/Relic"], "Alt") --Wand of the Archlich
+LBIS:AddItem(spec, "37238", LBIS.L["Ranged/Relic"], "Alt") --Rod of the Fallen Monarch
+LBIS:AddItem(spec, "40245", LBIS.L["Ranged/Relic"], "Alt") --Fading Glow
+LBIS:AddItem(spec, "39473", LBIS.L["Ranged/Relic"], "Alt") --Contortion

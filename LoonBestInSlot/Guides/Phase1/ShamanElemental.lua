@@ -90,5 +90,5 @@ LBIS:AddItem(spec, "39233", LBIS.L["Off Hand"], "Alt") --Aegis of Damnation
 LBIS:AddItem(spec, "40273", LBIS.L["Off Hand"], "Alt") --Surplus Limb
 LBIS:AddItem(spec, "40698", LBIS.L["Off Hand"], "Alt") --Ward of the Violet Citadel
 
-LBIS:AddItem(spec, "40267", LBIS.L["Totem"], "BIS") --Totem of Hex
-LBIS:AddItem(spec, "40708", LBIS.L["Totem"], "Alt") --Totem of the Elemental Plane
+LBIS:AddItem(spec, "40267", LBIS.L["Ranged/Relic"], "BIS") --Totem of Hex
+LBIS:AddItem(spec, "40708", LBIS.L["Ranged/Relic"], "Alt") --Totem of the Elemental Plane

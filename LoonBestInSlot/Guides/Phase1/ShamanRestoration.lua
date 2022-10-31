@@ -102,4 +102,4 @@ LBIS:AddItem(spec, "39716", LBIS.L["Off Hand"], "Alt") --Shield of Assimilation
 LBIS:AddItem(spec, "39233", LBIS.L["Off Hand"], "Alt") --Aegis of Damnation
 LBIS:AddItem(spec, "40700", LBIS.L["Off Hand"], "Alt") --Protective Barricade of the Light
 
-LBIS:AddItem(spec, "40709", LBIS.L["Totem"], "BIS") --Totem of Forest Growth
+LBIS:AddItem(spec, "40709", LBIS.L["Ranged/Relic"], "BIS") --Totem of Forest Growth

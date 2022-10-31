@@ -81,9 +81,9 @@ LBIS:AddItem(spec, "40386", LBIS.L["Main Hand"], "BIS") --Sinister Revenge
 LBIS:AddItem(spec, "37235", LBIS.L["Main Hand"], "Alt") --Crypt Lord's Deft Blade
 LBIS:AddItem(spec, "37871", LBIS.L["Main Hand"], "Alt") --The Key
 
-LBIS:AddItem(spec, "40385", LBIS.L["Ranged"], "BIS") --Envoy of Mortality
-LBIS:AddItem(spec, "40265", LBIS.L["Ranged"], "Alt") --Arrowsong
-LBIS:AddItem(spec, "39419", LBIS.L["Ranged"], "Alt") --Nerubian Conquerer
-LBIS:AddItem(spec, "40346", LBIS.L["Ranged"], "Alt") --Final Voyage
-LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "Alt") --Drake-Mounted Crossbow
-LBIS:AddItem(spec, "44504", LBIS.L["Ranged"], "Alt") --Nesingwary 4000
+LBIS:AddItem(spec, "40385", LBIS.L["Ranged/Relic"], "BIS") --Envoy of Mortality
+LBIS:AddItem(spec, "40265", LBIS.L["Ranged/Relic"], "Alt") --Arrowsong
+LBIS:AddItem(spec, "39419", LBIS.L["Ranged/Relic"], "Alt") --Nerubian Conquerer
+LBIS:AddItem(spec, "40346", LBIS.L["Ranged/Relic"], "Alt") --Final Voyage
+LBIS:AddItem(spec, "37191", LBIS.L["Ranged/Relic"], "Alt") --Drake-Mounted Crossbow
+LBIS:AddItem(spec, "44504", LBIS.L["Ranged/Relic"], "Alt") --Nesingwary 4000

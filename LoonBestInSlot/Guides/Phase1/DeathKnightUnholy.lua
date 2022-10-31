@@ -76,6 +76,6 @@ LBIS:AddItem(spec, "39291", LBIS.L["Main Hand"], "Alt") --Torment of the Banishe
 
 LBIS:AddItem(spec, "40491", LBIS.L["Off Hand"], "BIS") --Hailstorm
 
-LBIS:AddItem(spec, "42620", LBIS.L["Relic"], "BIS") --Deadly Gladiator's Sigil of Strife
-LBIS:AddItem(spec, "40207", LBIS.L["Relic"], "BIS") --Sigil of Awareness
-LBIS:AddItem(spec, "40867", LBIS.L["Relic"], "Alt") --Sigil of the Wild Buck
+LBIS:AddItem(spec, "42620", LBIS.L["Ranged/Relic"], "BIS") --Deadly Gladiator's Sigil of Strife
+LBIS:AddItem(spec, "40207", LBIS.L["Ranged/Relic"], "BIS") --Sigil of Awareness
+LBIS:AddItem(spec, "40867", LBIS.L["Ranged/Relic"], "Alt") --Sigil of the Wild Buck

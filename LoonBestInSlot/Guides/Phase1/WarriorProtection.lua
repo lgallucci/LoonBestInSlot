@@ -91,4 +91,4 @@ LBIS:AddItem(spec, "40475", LBIS.L["Shield"], "Alt") --Barricade of Eternity
 LBIS:AddItem(spec, "40266", LBIS.L["Shield"], "Alt") --Hero's Surrender
 LBIS:AddItem(spec, "39276", LBIS.L["Shield"], "Alt") --The Skull of Ruin
 
-LBIS:AddItem(spec, "41168", LBIS.L["Ranged"], "BIS") --Armor Plated Combat Shotgun
+LBIS:AddItem(spec, "41168", LBIS.L["Ranged/Relic"], "BIS") --Armor Plated Combat Shotgun

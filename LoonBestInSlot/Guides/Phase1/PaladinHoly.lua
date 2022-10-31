@@ -88,4 +88,4 @@ LBIS:AddItem(spec, "40401", LBIS.L["Off Hand"], "BIS") --Voice of Reason
 LBIS:AddItem(spec, "39716", LBIS.L["Off Hand"], "Alt") --Shield of Assimilation
 LBIS:AddItem(spec, "39233", LBIS.L["Off Hand"], "Alt") --Aegis of Damnation
 
-LBIS:AddItem(spec, "40705", LBIS.L["Libram"], "BIS") --Libram of Renewal
+LBIS:AddItem(spec, "40705", LBIS.L["Ranged/Relic"], "BIS") --Libram of Renewal

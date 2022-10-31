@@ -71,5 +71,5 @@ LBIS:AddItem(spec, "40407", LBIS.L["Main Hand"], "Alt") --Silent Crusader
 LBIS:AddItem(spec, "40345", LBIS.L["Main Hand"], "Alt") --Broken Promise
 LBIS:AddItem(spec, "39291", LBIS.L["Main Hand"], "Alt") --Torment of the Banished
 
-LBIS:AddItem(spec, "40207", LBIS.L["Relic"], "BIS") --Sigil of Awareness
-LBIS:AddItem(spec, "40715", LBIS.L["Relic"], "Alt") --Sigil of Haunted Dreams
+LBIS:AddItem(spec, "40207", LBIS.L["Ranged/Relic"], "BIS") --Sigil of Awareness
+LBIS:AddItem(spec, "40715", LBIS.L["Ranged/Relic"], "Alt") --Sigil of Haunted Dreams

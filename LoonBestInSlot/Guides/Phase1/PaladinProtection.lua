@@ -91,4 +91,4 @@ LBIS:AddItem(spec, "39276", LBIS.L["Shield"], "Alt Mit") --The Skull of Ruin
 LBIS:AddItem(spec, "40266", LBIS.L["Shield"], "Alt") --Hero's Surrender
 LBIS:AddItem(spec, "40475", LBIS.L["Shield"], "Alt Thrt") --Barricade of Eternity
 
-LBIS:AddItem(spec, "40707", LBIS.L["Libram"], "BIS") --Libram of Obstruction
+LBIS:AddItem(spec, "40707", LBIS.L["Ranged/Relic"], "BIS") --Libram of Obstruction

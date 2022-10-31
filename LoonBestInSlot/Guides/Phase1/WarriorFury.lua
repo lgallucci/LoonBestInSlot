@@ -79,6 +79,6 @@ LBIS:AddItem(spec, "40406", LBIS.L["Two Hand"], "Alt") --Inevitable Defeat
 LBIS:AddItem(spec, "40343", LBIS.L["Two Hand"], "Alt") --Armageddon
 LBIS:AddItem(spec, "37852", LBIS.L["Two Hand"], "Alt") --Colossal Skull-Clad Cleaver
 
-LBIS:AddItem(spec, "40385", LBIS.L["Ranged"], "BIS") --Envoy of Mortality
-LBIS:AddItem(spec, "40190", LBIS.L["Ranged"], "Alt") --Spinning Fate
-LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "Alt") --Drake-Mounted Crossbow
+LBIS:AddItem(spec, "40385", LBIS.L["Ranged/Relic"], "BIS") --Envoy of Mortality
+LBIS:AddItem(spec, "40190", LBIS.L["Ranged/Relic"], "Alt") --Spinning Fate
+LBIS:AddItem(spec, "37191", LBIS.L["Ranged/Relic"], "Alt") --Drake-Mounted Crossbow

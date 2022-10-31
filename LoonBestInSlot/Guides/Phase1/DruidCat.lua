@@ -89,5 +89,5 @@ LBIS:AddItem(spec, "40406", LBIS.L["Two Hand"], "Alt") --Inevitable Defeat
 LBIS:AddItem(spec, "40208", LBIS.L["Two Hand"], "Alt") --Cryptfiend's Bite
 LBIS:AddItem(spec, "39758", LBIS.L["Two Hand"], "Alt") --The Jawbone
 
-LBIS:AddItem(spec, "39757", LBIS.L["Idol"], "BIS") --Idol of Worship
-LBIS:AddItem(spec, "40713", LBIS.L["Idol"], "Alt") --Idol of the Ravenous Beast
+LBIS:AddItem(spec, "39757", LBIS.L["Ranged/Relic"], "BIS") --Idol of Worship
+LBIS:AddItem(spec, "40713", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Ravenous Beast

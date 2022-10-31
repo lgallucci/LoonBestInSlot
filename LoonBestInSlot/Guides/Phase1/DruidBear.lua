@@ -88,4 +88,4 @@ LBIS:AddItem(spec, "40233", LBIS.L["Two Hand"], "Alt") --The Undeath Carrier
 LBIS:AddItem(spec, "39422", LBIS.L["Two Hand"], "Alt") --Staff of the Plaguehound
 LBIS:AddItem(spec, "40406", LBIS.L["Two Hand"], "Alt") --Inevitable Defeat
 
-LBIS:AddItem(spec, "38365", LBIS.L["Idol"], "BIS") --Idol of Perspicacious Attacks
+LBIS:AddItem(spec, "38365", LBIS.L["Ranged/Relic"], "BIS") --Idol of Perspicacious Attacks

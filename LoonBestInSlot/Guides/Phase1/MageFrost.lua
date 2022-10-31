@@ -68,5 +68,5 @@ LBIS:AddItem(spec, "40273", LBIS.L["Off Hand"], "BIS") --Surplus Limb
 LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "Alt") --Matriarch's Spawn
 LBIS:AddItem(spec, "40698", LBIS.L["Off Hand"], "Alt") --Ward of the Violet Citadel
 
-LBIS:AddItem(spec, "39712", LBIS.L["Wand"], "BIS") --Gemmed Wand of the Nerubians
-LBIS:AddItem(spec, "39426", LBIS.L["Wand"], "BIS") --Wand of the Archlich
+LBIS:AddItem(spec, "39712", LBIS.L["Ranged/Relic"], "BIS") --Gemmed Wand of the Nerubians
+LBIS:AddItem(spec, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlich
