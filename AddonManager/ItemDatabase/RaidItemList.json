@@ -861,13 +861,6 @@
             "SourceNumber": "0",
             "SourceLocation": "Naxxramas (10)"
         },
-        "44582": {
-            "Name": "Key to the Focusing Iris",
-            "Source": "Sapphiron",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Naxxramas (10)"
-        },
         "39425": {
             "Name": "Cloak of the Dying",
             "Source": "Kel'Thuzad",
@@ -2473,13 +2466,6 @@
         },
         "40368": {
             "Name": "Murder",
-            "Source": "Sapphiron",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Naxxramas (25)"
-        },
-        "44581": {
-            "Name": "Heroic Key to the Focusing Iris",
             "Source": "Sapphiron",
             "SourceType": "Drop",
             "SourceNumber": "0",
@@ -8330,20 +8316,6 @@
             "SourceNumber": "0",
             "SourceLocation": "The Obsidian Sanctum (10)"
         },
-        "43345": {
-            "Name": "Dragon Hide Bag",
-            "Source": "Sartharion",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "The Obsidian Sanctum (10)"
-        },
-        "43347": {
-            "Name": "Satchel of Spoils",
-            "Source": "Sartharion",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "The Obsidian Sanctum (10)"
-        },
         "43988": {
             "Name": "Gale-Proof Cloak",
             "Source": "Sartharion",
@@ -8498,13 +8470,6 @@
             "SourceNumber": "0",
             "SourceLocation": "The Obsidian Sanctum (25)"
         },
-        "43346": {
-            "Name": "Large Satchel of Spoils",
-            "Source": "Sartharion",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "The Obsidian Sanctum (25)"
-        },
         "40628": {
             "Name": "Gauntlets of the Lost Conqueror",
             "Source": "Sartharion",
@@ -8654,13 +8619,6 @@
         },
         "40475": {
             "Name": "Barricade of Eternity",
-            "Source": "Malygos",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (10)"
-        },
-        "44650": {
-            "Name": "Heart of Magic",
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",

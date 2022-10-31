@@ -22,23 +22,24 @@ public abstract class LootConverter
 
 public class EmblemConverter : LootConverter
 {
+    private List<string> wowheadUriList = new List<string>
+    {
+        @"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne",
+        @"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne#sells;100",
+        @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin",
+        @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;100",
+        @"https://www.wowhead.com/wotlk/npc=29529/ninsianna"
+    };
+
     internal override string FileName { get => "EmblemItemList"; }
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
     {
         items.Items.Clear();
-        var pvpVendors = new List<string>
-        {
-            @"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne",
-            @"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne#sells;50",
-            @"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne#sells;100",
-            @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin",
-            @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;50",
-            @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;100",
-            @"https://www.wowhead.com/wotlk/npc=29529/ninsianna"
-        };
 
-        await Common.ReadWowheadItemList(pvpVendors, (row, itemId, itemName) =>
+        await Common.ReadWowheadItemList(wowheadUriList, (row, itemId, itemName) =>
         {
             var success = false;
             var currencySource = "";
@@ -214,12 +215,7 @@ public class RaidConverter : LootConverter
 
 public class PvPConverter : LootConverter
 {
-    internal override string FileName { get => "PvPItemList"; }
-
-    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
-    {
-        items.Items.Clear();
-        var pvpVendors = new List<string>
+    private List<string> wowheadUriList = new List<string>
         {
             @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia",
             @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;50",
@@ -235,7 +231,13 @@ public class PvPConverter : LootConverter
             @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;50"
         };
 
-        await Common.ReadWowheadItemList(pvpVendors, (row, itemId, itemName) =>
+    internal override string FileName { get => "PvPItemList"; }
+
+    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
+    {
+        items.Items.Clear();
+
+        await Common.ReadWowheadItemList(wowheadUriList, (row, itemId, itemName) =>
         {
             var success = false;
             var currencySource = "";
@@ -306,13 +308,7 @@ public class PvPConverter : LootConverter
 
 public class ReputationConverter : LootConverter
 {
-
-    internal override string FileName { get => "ReputationItemList"; }
-
-    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
-    {
-        items.Items.Clear();
-        var repVendors = new List<(string, string)>
+    private List<(string, string)> wowheadUriList = new List<(string, string)>
         {
             (@"https://www.wowhead.com/wotlk/npc=31910/geen", "The Oracles"),
             (@"https://www.wowhead.com/wotlk/npc=31911/tanak", "Frenzyheart Tribe"),
@@ -326,7 +322,13 @@ public class ReputationConverter : LootConverter
             (@"https://www.wowhead.com/wotlk/npc=32773/logistics-officer-brighton", "Alliance Vanguard")
         };
 
-        foreach (var repVendor in repVendors)
+    internal override string FileName { get => "ReputationItemList"; }
+
+    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
+    {
+        items.Items.Clear();
+
+        foreach (var repVendor in wowheadUriList)
         {
             await Common.LoadFromWebPage(repVendor.Item1, async (content) =>
             {
