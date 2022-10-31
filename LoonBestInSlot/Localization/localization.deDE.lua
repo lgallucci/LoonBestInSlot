@@ -142,7 +142,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Icecrown"] = "Eiskrone";
   LBIS.L["Icecrown Citadel"] = "Die Eiskronenzitadelle";
   LBIS.L["Ichoron"] = "Ichoron";
-  LBIS.L["Idol"] = "Götze";
   LBIS.L["Ingvar the Plunderer"] = "Ingvar der Brandschatzer";
   LBIS.L["Inscription"] = "Inschriftenkunde";
   LBIS.L["Instructor Razuvious"] = "Instrukteur Razuvious";
@@ -173,7 +172,6 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Legacy"] = "";
   LBIS.L["Legs"] = "Beine";
   LBIS.L["Ley-Guardian Eregos"] = "Leywächter Eregos";
-  LBIS.L["Libram"] = "Buchband";
 --  LBIS.L["Lillehoff"] = "";
   LBIS.L["Loatheb"] = "Loatheb";
   LBIS.L["Loken"] = "Loken";
@@ -229,7 +227,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Quartermasters"] = "";
   LBIS.L["Quest"] = "Quest";
   LBIS.L["Ranged"] = "Distanz";
-  LBIS.L["Relic"] = "Relikt";
+  LBIS.L["Ranged/Relic"] = "Distanz/Relikt";
   LBIS.L["Reputation"] = "Ruf";
   LBIS.L["Restoration"] = "Wiederherstellung";
   LBIS.L["Retribution"] = "Vergeltung";
@@ -310,7 +308,6 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
   LBIS.L["Token"] = "Token";
-  LBIS.L["Totem"] = "Totem";
   LBIS.L["Transmute"] = "Transmutieren";
   LBIS.L["Trash Drop"] = "Trash Drop";
   LBIS.L["Trash Mobs"] = "Trash Mobs";
@@ -336,7 +333,6 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Veteran Crusader Aliocha Segard"] = "";
   LBIS.L["Volkhan"] = "Volkhan";
   LBIS.L["Waist"] = "Taille";
-  LBIS.L["Wand"] = "Zauberstab";
   LBIS.L["Wanted: Ragemane's Flipper"] = "Gesucht: Rachmähnes Flosse";
   LBIS.L["Warsong Gulch Marks"] = "Spuren der Kriegshymnenschlucht";
   LBIS.L["Wintergrasp"] = "Tausendwinter";

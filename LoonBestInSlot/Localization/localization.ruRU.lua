@@ -142,7 +142,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Icecrown"] = "Ледяная Корона";
   LBIS.L["Icecrown Citadel"] = "Цитадель Ледяной Короны";
   LBIS.L["Ichoron"] = "Гнойрон";
-  LBIS.L["Idol"] = "Идол";
   LBIS.L["Ingvar the Plunderer"] = "Ингвар Расхититель";
   LBIS.L["Inscription"] = "Начертание";
   LBIS.L["Instructor Razuvious"] = "Инструктор Разувиус";
@@ -173,7 +172,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Legacy"] = "";
   LBIS.L["Legs"] = "Ноги";
   LBIS.L["Ley-Guardian Eregos"] = "Хранитель энергии Эрегос";
-  LBIS.L["Libram"] = "Манускрипт";
 --  LBIS.L["Lillehoff"] = "";
   LBIS.L["Loatheb"] = "Лотхиб";
   LBIS.L["Loken"] = "Локен";
@@ -229,7 +227,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Quartermasters"] = "";
   LBIS.L["Quest"] = "Задания";
   LBIS.L["Ranged"] = "Для оружия дальнего боя";
-  LBIS.L["Relic"] = "Реликвия";
+  LBIS.L["Ranged/Relic"] = "Для оружия дальнего боя/Реликвия";
   LBIS.L["Reputation"] = "Репутация";
   LBIS.L["Restoration"] = "Исцеление";
   LBIS.L["Retribution"] = "Возмездие";
@@ -310,7 +308,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
 --  LBIS.L["Token"] = "";
-  LBIS.L["Totem"] = "Тотем";
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
   LBIS.L["Trash Mobs"] = "Трешовые монстры";
@@ -336,7 +333,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Veteran Crusader Aliocha Segard"] = "";
   LBIS.L["Volkhan"] = "Волхан";
   LBIS.L["Waist"] = "Пояс";
-  LBIS.L["Wand"] = "Жезл";
   LBIS.L["Wanted: Ragemane's Flipper"] = "Плавник Ярогрива";
 --  LBIS.L["Warsong Gulch Marks"] = "";
   LBIS.L["Wintergrasp"] = "Озеро Ледяных Оков";
