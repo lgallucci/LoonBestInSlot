@@ -3,7 +3,7 @@
 ## Notes: 
 ## OptionalDeps: LibExtraTip
 ## SavedVariablesPerCharacter: LBISSettings
-## Version: 4.0.0
+## Version: 4.4.0
 
 libs\LibStub.lua
 libs\CallbackHandler-1.0.lua
@@ -32,3 +32,4 @@ LootBrowser.lua
 ItemList.lua
 GemList.lua
 EnchantList.lua
+PriorityList.lua

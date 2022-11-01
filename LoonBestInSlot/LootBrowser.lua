@@ -3,11 +3,12 @@ LBIS.BrowserWindow = {
     CompareTooltip = {}
 }
 
-function LBIS.BrowserWindow:OpenWindow()
+function LBIS.BrowserWindow:OpenWindow(tabName)
     LBIS:BuildItemCache()
     if not LBIS.BrowserWindow.Window then
         LBIS.BrowserWindow:CreateBrowserWindow();
     end
+    open_tab = tabName;
     LBIS.BrowserWindow:RefreshItems();
     LBIS.BrowserWindow.Window:Show();
 end
@@ -27,16 +28,18 @@ function LBIS.BrowserWindow:RefreshItems()
     elseif open_tab == "GemList" then
         LBIS.GemList:UpdateItems();
     elseif open_tab == "EnchantList" then
-        LBIS.EnchantList:UpdateItems();
+        LBIS.EnchantList:UpdateItems();        
+    elseif open_tab == "PriorityList" then
+        LBIS.PriorityList:UpdateItems();
     end
 end
 
 local failedLoad = false;
 local deleted_windows = {};
-function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, point, rowFunc)
+function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, frameName, point, rowFunc)
     local window = LBIS.BrowserWindow.Window;
     local spacing = 1;
-    local name = LBISSettings.SelectedSpec.."_"..specItemSource.Name.."_"..specItem.Id;
+    local name = frameName;
     local f, l = nil, nil;
     local reusing = false;
     
@@ -55,23 +58,16 @@ function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, point, rowFu
     if not reusing then        
         f = CreateFrame("Frame", name, window.Container);
 
-        rowFunc(f, specItem, specItemSource);
+        local rowHeight = rowFunc(f, specItem, specItemSource);
         
         l = f:CreateLine();
         l:SetColorTexture(1,1,1,0.5);
         l:SetThickness(1);
         l:SetStartPoint("BOTTOMLEFT",5, 0);
         l:SetEndPoint("BOTTOMRIGHT",-5, 0);
+        f:SetSize(window.ScrollFrame:GetWidth(), rowHeight);
     end
-    -- even if we are reusing, it may not be in the same order
-    local _, count = string.gsub(specItemSource.Source, "/", "")
-    if count > 1 then
-        count = count - 1;
-    else 
-        count = 0;
-    end
-    local rowHeight = (46 + (count * 10));
-    f:SetSize(window.ScrollFrame:GetWidth(), rowHeight);
+
     f:ClearAllPoints();
     f:SetPoint("TOPLEFT", window.Container, 0, point);
     
@@ -179,7 +175,19 @@ function createTabs(window, content)
         LBIS.BrowserWindow:RefreshItems();
     end);
 
-    PanelTemplates_SetNumTabs(content, 3);
+    local priorityListTabButton = CreateFrame("Button", "ContainerTab4", window, "CharacterFrameTabButtonTemplate")
+    local priorityListTabString = priorityListTabButton:CreateFontString("PriorityListTabText", "OVERLAY", "GameFontNormalSmall");
+    priorityListTabString:SetPoint("CENTER", priorityListTabButton, "CENTER", 0, 3);
+    priorityListTabString:SetText(LBIS.L["Priority"]);
+    priorityListTabButton:SetPoint("LEFT", enchantListTabButton, "RIGHT", -16, 0);
+    priorityListTabButton:SetScript("OnClick", function(self)
+        PanelTemplates_SetTab(content, 4);
+        open_tab = "PriorityList";
+
+        LBIS.BrowserWindow:RefreshItems();
+    end);
+
+    PanelTemplates_SetNumTabs(content, 4);
     PanelTemplates_SetTab(content, 1);
 end
 

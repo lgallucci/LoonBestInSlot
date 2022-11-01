@@ -71,7 +71,6 @@ alSources["arena"] = LBIS.L["Arena Points"];
 alSources["EmblemOfValor"] = LBIS.L["Emblem of Valor"];
 alSources["EmblemOfHeroism"] = LBIS.L["Emblem of Heroism"];
 
-
 local function getVendorText(vendorText, sourceLocationText)
     local sourceText;
     local source1, source1Amount, source2, source2Amount, source3, source3Amount = strsplit(":", vendorText)
@@ -359,6 +358,15 @@ local function createItemRow(f, specItem, specItemSource)
             ot:SetPoint("TOPRIGHT", -2, -6);
         end
     end);
+
+    -- even if we are reusing, it may not be in the same order
+    local _, count = string.gsub(specItemSource.Source, "/", "")
+    if count > 1 then
+        count = count - 1;
+    else 
+        count = 0;
+    end
+    return (46 + (count * 10));
 end
 
 function LBIS.ItemList:UpdateItems()
@@ -384,7 +392,7 @@ function LBIS.ItemList:UpdateItems()
                 LBIS:Error("Missing item source: ", specItem);
             else
                 if IsInSlot(specItem) and IsInPhase(specItem, specItemSource) and IsInSource(specItemSource) and IsInZone(specItemSource) and IsNotInClassic(specItemSource) then
-                    point = LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, point, createItemRow);
+                    point = LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, LBISSettings.SelectedSpec.."_"..specItemSource.Name.."_"..specItem.Id, point, createItemRow);
                 end
             end
         end

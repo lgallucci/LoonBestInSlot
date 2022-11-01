@@ -48,23 +48,23 @@ LBISSettingsDefault =
 		[LBIS.L["Phase 1"]] = true
 	},
 	PriorityList = {
-		LBIS.L["Head"] = {},
-		LBIS.L["Shoulder"] = {},
-		LBIS.L["Back"] = {},
-		LBIS.L["Chest"] = {},
-		LBIS.L["Wrist"] = {},
-		LBIS.L["Hands"] = {},
-		LBIS.L["Waist"] = {},
-		LBIS.L["Legs"] = {},
-		LBIS.L["Feet"] = {},
-		LBIS.L["Neck"] = {},
-		LBIS.L["Ring"] = {},
-		LBIS.L["Trinket"] = {},
-		LBIS.L["Main Hand"] = {},
-		LBIS.L["Off Hand"] = {},
-		LBIS.L["Two Hand"] = {},
-		LBIS.L["Shield"] = {},
-		LBIS.L["Ranged/Relic"] = {}
+		[LBIS.L["Head"]] = {},
+		[LBIS.L["Shoulder"]] = {},
+		[LBIS.L["Back"]] = {},
+		[LBIS.L["Chest"]] = {},
+		[LBIS.L["Wrist"]] = {},
+		[LBIS.L["Hands"]] = {},
+		[LBIS.L["Waist"]] = {},
+		[LBIS.L["Legs"]] = {},
+		[LBIS.L["Feet"]] = {},
+		[LBIS.L["Neck"]] = {},
+		[LBIS.L["Ring"]] = {},
+		[LBIS.L["Trinket"]] = {},
+		[LBIS.L["Main Hand"]] = {},
+		[LBIS.L["Off Hand"]] = {},
+		[LBIS.L["Two Hand"]] = {},
+		[LBIS.L["Shield"]] = {},
+		[LBIS.L["Ranged/Relic"]] = {}
 	}
 };
 

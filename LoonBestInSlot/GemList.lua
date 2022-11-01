@@ -81,6 +81,15 @@ local function createItemRow(f, specGem, specGemSource)
             dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);            
         end
     end);
+    
+    -- even if we are reusing, it may not be in the same order
+    local _, count = string.gsub(specGemSource.Source, "/", "")
+    if count > 1 then
+        count = count - 1;
+    else 
+        count = 0;
+    end
+    return (46 + (count * 10));
 end
 
 function LBIS.GemList:UpdateItems()
@@ -105,7 +114,7 @@ function LBIS.GemList:UpdateItems()
             if specGemSource == nil then
                 LBIS:Error("Missing gem source: ", specGem);
             else
-                point = LBIS.BrowserWindow:CreateItemRow(specGem, specGemSource, point, createItemRow)
+                point = LBIS.BrowserWindow:CreateItemRow(specGem, specGemSource, LBISSettings.SelectedSpec.."_"..specGemSource.Name.."_"..specGem.Id, point, createItemRow)
             end
         end
     end);

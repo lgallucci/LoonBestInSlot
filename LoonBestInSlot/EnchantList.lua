@@ -121,6 +121,15 @@ local function createItemRow(f, specEnchant, specEnchantSource)
             createItemRowInternal(f, item, specEnchant, specEnchantSource);
         end);
     end
+            
+    -- even if we are reusing, it may not be in the same order
+    local _, count = string.gsub(specEnchantSource.Source, "/", "")
+    if count > 1 then
+        count = count - 1;
+    else 
+        count = 0;
+    end
+    return (46 + (count * 10));
 end
     
 function LBIS.EnchantList:UpdateItems()    
@@ -146,7 +155,7 @@ function LBIS.EnchantList:UpdateItems()
                 LBIS:Error("Missing Enchant source: ", specEnchant);
             else
                 if IsInSlot(specEnchant) then
-                    point = LBIS.BrowserWindow:CreateItemRow(specEnchant, specEnchantSource, point, createItemRow)
+                    point = LBIS.BrowserWindow:CreateItemRow(specEnchant, specEnchantSource, LBISSettings.SelectedSpec.."_"..specEnchantSource.Name.."_"..specEnchant.Id, point, createItemRow)
                 end
             end
         end

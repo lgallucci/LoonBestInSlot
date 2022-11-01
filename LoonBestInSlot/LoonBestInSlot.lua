@@ -20,6 +20,8 @@ SlashCmdList["LOONBESTINSLOT"] = function(command)
     
 	if command == "" then
 		LBIS.BrowserWindow:OpenWindow()
+	elseif command == "priority" then
+		LBIS.BrowserWindow:OpenWindow("PriorityList")
 	elseif command == "settings"	then
 		InterfaceOptionsFrame_Show()
 		InterfaceOptionsFrame_OpenToCategory("Loon Best In Slot")
