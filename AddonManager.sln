@@ -26,9 +26,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoonBestInSlot", "LoonBestI
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Icons", "Icons", "{6CCD2B99-F189-4674-A1A1-9B8BB8954ECD}"
 	ProjectSection(SolutionItems) = preProject
+		LoonBestInSlot\Icons\arrowright.tga = LoonBestInSlot\Icons\arrowright.tga
 		LoonBestInSlot\Icons\bag.tga = LoonBestInSlot\Icons\bag.tga
+		LoonBestInSlot\Icons\arrowleft.tga = LoonBestInSlot\Icons\arrowleft.tga
 		LoonBestInSlot\Icons\bank.tga = LoonBestInSlot\Icons\bank.tga
 		LoonBestInSlot\Icons\checkmark.tga = LoonBestInSlot\Icons\checkmark.tga
+		LoonBestInSlot\Icons\delete.tga = LoonBestInSlot\Icons\delete.tga
 		LoonBestInSlot\Icons\loon.tga = LoonBestInSlot\Icons\loon.tga
 	EndProjectSection
 EndProject

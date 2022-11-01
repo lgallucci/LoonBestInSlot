@@ -6,6 +6,7 @@ LBISSettingsDefault =
 	SelectedSourceType = LBIS.L["All"], 
 	SelectedZone = LBIS.L["All"], 
 	SelectedZoneNumber = LBIS.L["All"],
+	ShowPriority = false,
 	minimap = { 
 		hide = false, 
 		minimapPos = 180
@@ -48,6 +49,7 @@ LBISSettingsDefault =
 		[LBIS.L["Phase 1"]] = true
 	},
 	PriorityList = {
+		--TODO: Need to add spec here!
 		[LBIS.L["Head"]] = {},
 		[LBIS.L["Shoulder"]] = {},
 		[LBIS.L["Back"]] = {},
@@ -459,7 +461,7 @@ local lbis_options = {
 		},
 		spacer2 = {
 			type = "header",
-			name = LBIS.L["Show Tooltip"],
+			name = "",
 			width = "full",
 			order = 39,
 		},
@@ -480,6 +482,21 @@ local lbis_options = {
 			set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 1"]] = val end,
 			width = 1.1,
 			order = 41,
+		},
+		spacer2 = {
+			type = "header",
+			name = "",
+			width = "full",
+			order = 42,
+		},
+		show = {
+			type = "toggle",
+			name = LBIS.L["Show Priority"],
+			desc = LBIS.L["Show Priority"],
+			get = function(info) return LBISSettings.ShowPriority end,
+			set = function(info, val) LBISSettings.ShowPriority = val end,
+			width = 1.1,
+			order = 43,
 		},
 	}
 };

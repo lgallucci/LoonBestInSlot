@@ -16,7 +16,7 @@ itemSlotOrder[LBIS.L["Trinket"]] = 11;
 itemSlotOrder[LBIS.L["Main Hand"]] = 12;
 itemSlotOrder[LBIS.L["Off Hand"]] = 13;
 itemSlotOrder[LBIS.L["Two Hand"]] = 14;
-itemSlotOrder[LBIS.L["Off Hand"]] = 15;
+itemSlotOrder[LBIS.L["Shield"]] = 15;
 itemSlotOrder[LBIS.L["Ranged/Relic"]] = 16;
 
 local function itemSortFunction(table, k1, k2)
@@ -45,11 +45,8 @@ local function createPriorityRow(f, slot, itemList)
     local itemCount = 1;
     for orderId, itemId in pairs(itemList) do
 
-        print("ItemId: "..itemId);
-
         LBIS:GetItemInfo(itemId, function(item)
-
-            local b, t2 = nil;
+            local b, bLeft, bRight, bDelete, t2 = nil;
 
             if item == nil or item.Id == nil or item.Link == nil or item.Type == nil then
                 LBIS:Error("Failed Load: "..itemId);
@@ -61,8 +58,29 @@ local function createPriorityRow(f, slot, itemList)
             local bt = b:CreateTexture();
             bt:SetAllPoints();
             bt:SetTexture(item.Texture);
-            b:SetPoint("TOPLEFT", f, 50 + (itemCount * 65), -5);
+            b:SetPoint("TOPLEFT", f, 50 + (itemCount * 85), -5);
             LBIS:SetTooltipOnButton(b, item);
+                        
+            bLeft = CreateFrame("Button", nil, f);
+            bLeft:SetSize(12, 12);
+            local btLeft = bLeft:CreateTexture("bLeft", "ARTWORK");
+            btLeft:SetAllPoints(bLeft);
+            btLeft:SetTexture("Interface/AddOns/LoonBestInSlot/Icons/arrowleft.tga");
+            bLeft:SetPoint("TOPLEFT", b, "TOPRIGHT", 1, 0);
+
+            bRight = CreateFrame("Button", nil, f);
+            bRight:SetSize(12, 12);
+            local btRight = bRight:CreateTexture("bRight", "ARTWORK");
+            btRight:SetAllPoints(bRight);
+            btRight:SetTexture("Interface/AddOns/LoonBestInSlot/Icons/arrowright.tga");
+            bRight:SetPoint("TOPLEFT", bLeft, "BOTTOMLEFT", 0, 0);
+
+            bDelete = CreateFrame("Button", nil, f);
+            bDelete:SetSize(12, 12);
+            local btDelete = bDelete:CreateTexture("bDelete", "ARTWORK");
+            btDelete:SetAllPoints(bDelete);
+            btDelete:SetTexture("Interface/AddOns/LoonBestInSlot/Icons/delete.tga");
+            bDelete:SetPoint("TOPLEFT", bRight, "BOTTOMLEFT", 0, 0);
 
             t2 = f:CreateFontString(nil, nil, "GameFontNormal");
             t2:SetText(itemCount..": ");

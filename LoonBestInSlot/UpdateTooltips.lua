@@ -88,7 +88,6 @@ local function buildExtraTip(tooltip, entry)
 				table.insert(combinedTooltip, { Class = classSpec.Class, Spec = classSpec.Spec, Bis = v.Bis, Phase = v.Phase })
 				showTooltip = true;
 			end
-		
 		end
 	end
 
@@ -108,8 +107,8 @@ local function buildExtraTip(tooltip, entry)
             LibExtraTip:AddDoubleLine(tooltip, classfontstring .. " " .. v.Class .. " " .. v.Spec, v.Bis, color.r, color.g, color.b, color.r, color.g, color.b, true)
         else
             LibExtraTip:AddDoubleLine(tooltip, classfontstring .. " " .. v.Class .. " " .. v.Spec, v.Bis.." "..string.gsub(v.Phase, "0", "P"), color.r, color.g, color.b, color.r, color.g, color.b, true)
-        end		
-	end	
+        end
+	end
 end
 
 local function onTooltipSetItem(tooltip, itemLink, quantity)
