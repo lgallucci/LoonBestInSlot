@@ -486,24 +486,7 @@ public partial class WowheadReader : Window
 
                 foreach (var item in items)
                 {
-                    if (!oldItems.ContainsKey(item.Value.ItemId) || oldItems[item.Value.ItemId].BisStatus.Contains("BIS") || item.Value.BisStatus.Contains("BIS"))
-                    {
-                        if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
-                        {
-                            itemSources.Add(item.Value.ItemId, new ItemSource
-                            {
-                                ItemId = item.Value.ItemId,
-                                Name = item.Value.Name,
-                                SourceType = "undefined",
-                                Source = "undefined",
-                                SourceNumber = "0",
-                                SourceLocation = "undefined"
-                            });
-                        }
-
-                        sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
-                    }
-                    else if (items.Count(i => i.Value.Slot == item.Value.Slot) == 1)
+                    if (items.Count(i => i.Value.Slot == item.Value.Slot) == 1)
                     {
                         if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
                         {
@@ -521,6 +504,23 @@ public partial class WowheadReader : Window
 
                         sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
                     }
+                    else if (!oldItems.ContainsKey(item.Value.ItemId) || oldItems[item.Value.ItemId].BisStatus.Contains("BIS") || item.Value.BisStatus.Contains("BIS"))
+                    {
+                        if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
+                        {
+                            itemSources.Add(item.Value.ItemId, new ItemSource
+                            {
+                                ItemId = item.Value.ItemId,
+                                Name = item.Value.Name,
+                                SourceType = "undefined",
+                                Source = "undefined",
+                                SourceNumber = "0",
+                                SourceLocation = "undefined"
+                            });
+                        }
+
+                        sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
+                    }                        
                     else
                     {
                         items.Remove(item.Value.ItemId);
