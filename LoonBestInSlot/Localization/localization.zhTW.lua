@@ -219,6 +219,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["PreRaid"] = "";
   LBIS.L["Prince Keleseth"] = "凱雷希斯親王";
   LBIS.L["Prince Taldaram"] = "泰爾達朗親王";
+--  LBIS.L["Priority"] = "";
 --  LBIS.L["Profession"] = "";
   LBIS.L["Protection"] = "防護";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
@@ -226,7 +227,6 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["PvP Vendor"] = "";
 --  LBIS.L["Quartermasters"] = "";
   LBIS.L["Quest"] = "任務";
-  LBIS.L["Ranged"] = "遠程";
   LBIS.L["Ranged/Relic"] = "遠程/聖物";
 --  LBIS.L["Reputation"] = "";
   LBIS.L["Restoration"] = "恢復";
@@ -244,7 +244,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Shadow"] = "暗影";
   LBIS.L["Shadowmoon Valley"] = "影月谷";
   LBIS.L["Shattrath City"] = "撒塔斯城";
-  LBIS.L["Shield"] = "盾牌";
   LBIS.L["Sholazar Basin"] = "休拉薩盆地";
   LBIS.L["Shoulder"] = "肩部";
 --  LBIS.L["Show Minimap Button"] = "";

@@ -219,6 +219,7 @@ if GetLocale() == "esES" then
   LBIS.L["PreRaid"] = "Pre Banda";
   LBIS.L["Prince Keleseth"] = "Príncipe Keleseth";
   LBIS.L["Prince Taldaram"] = "Príncipe Taldaram";
+--  LBIS.L["Priority"] = "";
   LBIS.L["Profession"] = "Profession";
   LBIS.L["Protection"] = "Protección";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
@@ -226,7 +227,6 @@ if GetLocale() == "esES" then
   LBIS.L["PvP Vendor"] = "Proveedor JcJ";
 --  LBIS.L["Quartermasters"] = "";
   LBIS.L["Quest"] = "Misión";
-  LBIS.L["Ranged"] = "Rango";
   LBIS.L["Ranged/Relic"] = "Rango/Reliquia";
   LBIS.L["Reputation"] = "Reputación";
   LBIS.L["Restoration"] = "Recuperación";
@@ -244,7 +244,6 @@ if GetLocale() == "esES" then
   LBIS.L["Shadow"] = "Sombra";
   LBIS.L["Shadowmoon Valley"] = "Valle Sombraluna";
   LBIS.L["Shattrath City"] = "Ciudad de Shattrath";
-  LBIS.L["Shield"] = "Escudo";
   LBIS.L["Sholazar Basin"] = "Cuenca de Sholazar";
   LBIS.L["Shoulder"] = "Espalda";
   LBIS.L["Show Minimap Button"] = "Botón Mostrar minimapa";

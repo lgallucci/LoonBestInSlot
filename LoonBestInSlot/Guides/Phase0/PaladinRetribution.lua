@@ -65,5 +65,5 @@ LBIS:AddItem(spec, "41257", LBIS.L["Two Hand"], "BIS") --Titansteel Destroyer
 LBIS:AddItem(spec, "37653", LBIS.L["Two Hand"], "Alt") --Sword of Justice
 
 LBIS:AddItem(spec, "37574", LBIS.L["Ranged/Relic"], "BIS") --Libram of Furious Blows
-LBIS:AddItem(spec, "33503", LBIS.L["Ranged/Relic"], "BIS") --Libram of Divine Judgement
+LBIS:AddItem(spec, "33503", LBIS.L["Ranged/Relic"], "Alt") --Libram of Divine Judgement
 LBIS:AddItem(spec, "27484", LBIS.L["Ranged/Relic"], "Alt") --Libram of Avengement

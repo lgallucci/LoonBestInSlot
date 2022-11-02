@@ -37,8 +37,8 @@ LBIS:AddItem(spec, "37040", LBIS.L["Wrist"], "Alt") --Svala's Bloodied Shackles
 LBIS:AddItem(spec, "44341", LBIS.L["Wrist"], "Alt") --Bracers of Reverence
 
 LBIS:AddItem(spec, "44183", LBIS.L["Hands"], "BIS") --Fireproven Gauntlets
-LBIS:AddItem(spec, "39639", LBIS.L["Hands"], "Alt") --Heroes' Redemption Handguards
-LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "Alt") --Gloves of the Lost Conqueror
+LBIS:AddItem(spec, "39639", LBIS.L["Hands"], "BIS") --Heroes' Redemption Handguards
+LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "BIS") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "37645", LBIS.L["Hands"], "Alt") --Horn-Tipped Gauntlets
 LBIS:AddItem(spec, "37862", LBIS.L["Hands"], "Alt") --Gauntlets of the Water Revenant
 LBIS:AddItem(spec, "41357", LBIS.L["Hands"], "Alt") --Daunting Handguards

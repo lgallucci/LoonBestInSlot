@@ -11,7 +11,7 @@ LBIS:AddItem(spec, "42850", LBIS.L["Head"], "Alt") --Flamebringer's Crown
 LBIS:AddItem(spec, "37715", LBIS.L["Head"], "Alt") --Cowl of the Dire Troll
 LBIS:AddItem(spec, "44408", LBIS.L["Head"], "Alt") --Cowl of the Vindictive Captain
 
-LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "BIS") --Amice of the Convoker
+LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "Alt") --Amice of the Convoker
 LBIS:AddItem(spec, "37673", LBIS.L["Shoulder"], "Alt") --Dark Runic Mantle
 LBIS:AddItem(spec, "37196", LBIS.L["Shoulder"], "Alt") --Runecaster's Mantle
 LBIS:AddItem(spec, "41550", LBIS.L["Shoulder"], "Alt") --Duskweave Shoulders
@@ -95,7 +95,7 @@ LBIS:AddItem(spec, "41986", LBIS.L["Waist"], "Alt") --Deep Frozen Cord
 LBIS:AddItem(spec, "44104", LBIS.L["Waist"], "Alt") --Fishy Cinch
 LBIS:AddItem(spec, "39804", LBIS.L["Waist"], "Alt") --Braided Bat Sinew
 
-LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "BIS") --Leggings of Calamity
+LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "Alt") --Leggings of Calamity
 LBIS:AddItem(spec, "37854", LBIS.L["Legs"], "Alt") --Woven Bracae Leggings
 LBIS:AddItem(spec, "37369", LBIS.L["Legs"], "Alt") --Sorrowgrave's Breeches
 LBIS:AddItem(spec, "37189", LBIS.L["Legs"], "Alt") --Breeches of the Caller

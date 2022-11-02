@@ -219,6 +219,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["PreRaid"] = "";
   LBIS.L["Prince Keleseth"] = "Принц Келесет";
   LBIS.L["Prince Taldaram"] = "Принц Талдарам";
+--  LBIS.L["Priority"] = "";
 --  LBIS.L["Profession"] = "";
   LBIS.L["Protection"] = "Защита";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
@@ -226,7 +227,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["PvP Vendor"] = "";
 --  LBIS.L["Quartermasters"] = "";
   LBIS.L["Quest"] = "Задания";
-  LBIS.L["Ranged"] = "Для оружия дальнего боя";
   LBIS.L["Ranged/Relic"] = "Для оружия дальнего боя/Реликвия";
   LBIS.L["Reputation"] = "Репутация";
   LBIS.L["Restoration"] = "Исцеление";
@@ -244,7 +244,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Shadow"] = "Темная магия";
   LBIS.L["Shadowmoon Valley"] = "Долина Призрачной Луны";
   LBIS.L["Shattrath City"] = "Шаттрат";
-  LBIS.L["Shield"] = "Щит";
   LBIS.L["Sholazar Basin"] = "Низина Шолазар";
   LBIS.L["Shoulder"] = "Плечо";
 --  LBIS.L["Show Minimap Button"] = "";

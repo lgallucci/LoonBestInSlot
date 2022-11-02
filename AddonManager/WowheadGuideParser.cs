@@ -93,6 +93,7 @@ public class WowheadGuideParser
         { "armor", "Mit" },
         { "dodge", "Mit" },
         { "parry", "Mit" },
+        { "mit", "Mit" },
         { "threat", "Thrt" }
     };
 
@@ -158,11 +159,16 @@ public class WowheadGuideParser
                                 }
                             }
                         }
+                        string htmlBisText = string.Empty, rankText = string.Empty;
+                        if (isTierList)
+                            rankText = tableRow?.ChildNodes[1].TextContent.Trim() ?? string.Empty;
 
-                        var bisStatus = GetBisStatus(tableRow, isTierList);
+                        htmlBisText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
+
+                        var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList);
 
                         if (itemChild != null)
-                            ParseItemCell(itemChild, bisStatus, GetSlot(guideMapping.Slot, bisStatus), items, itemOrderIndex);
+                            ParseItemCell(itemChild, bisStatus, GetSlot(guideMapping.Slot, htmlBisText), items, itemOrderIndex);
 
                         itemOrderIndex++;
                     }
@@ -182,18 +188,29 @@ public class WowheadGuideParser
         return slot;
     }
 
-    private string GetBisStatus(INode tableRow, bool isTierList)
+    private string GetBisStatus(string htmlBisText, string rankText, bool isTierList)
     {
         var bisText = string.Empty;
         if (isTierList)
-            bisText = tableRow?.ChildNodes[1].TextContent.Trim().Contains("S") ?? false ? "BIS" : "Alt";
+        {
+            bisText = rankText.Contains("S") ? "BIS" : "Alt";
+        }
         else
-            bisText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
+        {
+            if (htmlBisText?.ToLower().Contains("tbc") ?? false)
+            {
+                bisText = "Alt";
+            }
+            else
+            {
+                bisText = new List<string> { "bis", "recommended", "best in slot", "best" }.Any(s => htmlBisText?.ToLower().Contains(s) ?? false) ? "BIS" : "Alt";
+            }
+        }
 
         var altText = string.Empty;
         foreach (var tankSwap in _tankAltTextSwaps)
-            if ((!tableRow?.ChildNodes[0].TextContent.ToLower().Contains("no") ?? false) && 
-                (tableRow?.ChildNodes[0].TextContent.ToLower().Contains(tankSwap.Key) ?? false))
+            if ((!htmlBisText?.ToLower().Contains("no") ?? false) && 
+                (htmlBisText?.ToLower().Contains(tankSwap.Key) ?? false))
             {
                 altText = $" {tankSwap.Value}";
                 break;
