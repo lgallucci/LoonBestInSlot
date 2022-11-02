@@ -63,7 +63,6 @@ LBISSettingsDefault =
 		[LBIS.L["Main Hand"]] = {},
 		[LBIS.L["Off Hand"]] = {},
 		[LBIS.L["Two Hand"]] = {},
-		[LBIS.L["Shield"]] = {},
 		[LBIS.L["Ranged/Relic"]] = {}
 	}
 };

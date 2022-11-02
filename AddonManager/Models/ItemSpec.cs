@@ -4,15 +4,15 @@ namespace AddonManager.Models;
 
 public class ItemSpec : IComparable<ItemSpec>
 {
-    private Dictionary<string, int> _sortOrder = new Dictionary<string, int> { { "Head", 0 }, { "Shoulder", 1}, { "Back", 2}, { "Chest", 3}, { "Wrist", 4},
-        { "Hands", 5}, { "Waist", 6}, { "Legs", 7}, { "Feet", 8}, { "Neck", 9}, { "Ring", 10}, { "Trinket", 11}, { "Two Hand", 12}, { "Main Hand", 13}, 
-        { "Off Hand", 14 }, { "Shield", 15}, { "Ranged/Relic", 16} };
+    private Dictionary<string, int> _sortOrder = new Dictionary<string, int> { { "Head", 0 }, { "Shoulder", 1 }, { "Back", 2 }, { "Chest", 3 }, { "Wrist", 4 },
+        { "Hands", 5 }, { "Waist", 6 }, { "Legs", 7 }, { "Feet", 8 }, { "Neck", 9 }, { "Ring", 10 }, { "Trinket", 11 },  { "Main Hand", 12 }, { "Off Hand", 13 },
+        { "Two Hand", 14 }, { "Ranged/Relic", 15 } };
 
     public int CompareTo(ItemSpec? other)
     {
         if (other == null)
             return -1;
-        
+
         if (_sortOrder[this.Slot] < other._sortOrder[other.Slot])
         {
             return -1;
@@ -40,7 +40,7 @@ public class ItemSpec : IComparable<ItemSpec>
     private string _bisStatus = string.Empty;
     public string BisStatus
     {
-        get { return _bisStatus; } 
+        get { return _bisStatus; }
         set
         {
             _bisStatus = ReplaceStatuses(value);

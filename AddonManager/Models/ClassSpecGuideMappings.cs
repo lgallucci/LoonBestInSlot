@@ -895,7 +895,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Legs"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Shield"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Off Hand"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
@@ -979,7 +979,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-protection-paladin-tank-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-protection-paladin-tank-pre-raid", "Trinket"),
             new GuideMapping("#weapons-for-protection-paladin-tank-pre-raid", "Main Hand"),
-            new GuideMapping("#shields-for-protection-paladin-tank-pre-raid", "Shield"),
+            new GuideMapping("#shields-for-protection-paladin-tank-pre-raid", "Off Hand"),
             new GuideMapping("#librams-for-protection-paladin-tank-pre-raid", "Ranged/Relic")
         }));
 
@@ -999,7 +999,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-protection-paladin-tank-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-protection-paladin-tank-phase-1", "Trinket"),
             new GuideMapping("#weapons-for-protection-paladin-tank-phase-1", "Main Hand"),
-            new GuideMapping("#shields-for-protection-paladin-tank-phase-1", "Shield"),
+            new GuideMapping("#shields-for-protection-paladin-tank-phase-1", "Off Hand"),
             new GuideMapping("#librams-for-protection-paladin-tank-phase-1", "Ranged/Relic")
         }));
         #endregion
@@ -1998,7 +1998,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-protection-warrior-tank-pre-raid", "Ring"),
             new GuideMapping("#trinkets-for-protection-warrior-tank-pre-raid", "Trinket"),
             new GuideMapping("#one-handed-weapons-for-protection-warrior-tank-pre-raid", "Main Hand"),
-            new GuideMapping("#shields-for-protection-warrior-tank-pre-raid", "Shield"),
+            new GuideMapping("#shields-for-protection-warrior-tank-pre-raid", "Off Hand"),
             new GuideMapping("#guns-and-bows-for-protection-warrior-tank-pre-raid", "Ranged/Relic")
         }));
 
@@ -2018,7 +2018,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("#rings-for-protection-warrior-tank-in-phase-1", "Ring"),
             new GuideMapping("#trinkets-for-protection-warrior-tank-in-phase-1", "Trinket"),
             new GuideMapping("#one-handed-weapons-for-protection-warrior-tank-in-phase-1", "Main Hand"),
-            new GuideMapping("#shields-for-protection-warrior-tank-in-phase-1", "Shield"),
+            new GuideMapping("#shields-for-protection-warrior-tank-in-phase-1", "Off Hand"),
             new GuideMapping("#guns-and-bows-for-protection-warrior-tank-in-phase-1", "Ranged/Relic")
         }));
         #endregion
