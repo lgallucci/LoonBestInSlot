@@ -62,21 +62,21 @@ LBIS:AddItem(spec, "40683", LBIS.L["Trinket"], "Alt") --Valor Medal of the First
 LBIS:AddItem(spec, "36993", LBIS.L["Trinket"], "Alt") --Seal of the Pantheon
 LBIS:AddItem(spec, "40767", LBIS.L["Trinket"], "Alt") --Sonic Booster
 
-LBIS:AddItem(spec, "42332", LBIS.L["Two Hand"], "BIS") --Deadly Gladiator's Greatsword
+LBIS:AddItem(spec, "37401", LBIS.L["Main Hand"], "BIS") --Red Sword of Courage
+LBIS:AddItem(spec, "41383", LBIS.L["Main Hand"], "BIS") --Titansteel Bonecrusher
+LBIS:AddItem(spec, "42285", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Slicer
+LBIS:AddItem(spec, "42275", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Pummeler
+LBIS:AddItem(spec, "42208", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Cleaver
+LBIS:AddItem(spec, "37260", LBIS.L["Main Hand"], "BIS") --Cloudstrider's Waraxe
+LBIS:AddItem(spec, "37179", LBIS.L["Main Hand"], "BIS") --Infantry Assault Blade
+
 LBIS:AddItem(spec, "42317", LBIS.L["Two Hand"], "BIS") --Deadly Gladiator's Decapitator
+LBIS:AddItem(spec, "42332", LBIS.L["Two Hand"], "BIS") --Deadly Gladiator's Greatsword
 LBIS:AddItem(spec, "42322", LBIS.L["Two Hand"], "BIS") --Deadly Gladiator's Bonegrinder
 LBIS:AddItem(spec, "41257", LBIS.L["Two Hand"], "BIS") --Titansteel Destroyer
 LBIS:AddItem(spec, "43409", LBIS.L["Two Hand"], "BIS") --Saliva Corroded Pike
 LBIS:AddItem(spec, "37653", LBIS.L["Two Hand"], "Alt") --Sword of Justice
 LBIS:AddItem(spec, "43281", LBIS.L["Two Hand"], "Alt") --Edge of Oblivion
-
-LBIS:AddItem(spec, "37401", LBIS.L["Main Hand"], "BIS") --Red Sword of Courage
-LBIS:AddItem(spec, "41383", LBIS.L["Main Hand"], "BIS") --Titansteel Bonecrusher
-LBIS:AddItem(spec, "42208", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Cleaver
-LBIS:AddItem(spec, "42275", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Pummeler
-LBIS:AddItem(spec, "42285", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Slicer
-LBIS:AddItem(spec, "37260", LBIS.L["Main Hand"], "BIS") --Cloudstrider's Waraxe
-LBIS:AddItem(spec, "37179", LBIS.L["Main Hand"], "BIS") --Infantry Assault Blade
 
 LBIS:AddItem(spec, "40714", LBIS.L["Ranged/Relic"], "BIS") --Sigil of the Unfaltering Knight
 LBIS:AddItem(spec, "40822", LBIS.L["Ranged/Relic"], "BIS") --Sigil of the Frozen Conscience
