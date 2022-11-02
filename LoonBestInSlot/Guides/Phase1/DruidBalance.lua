@@ -96,12 +96,6 @@ LBIS:AddItem(spec, "37873", LBIS.L["Trinket"], "Alt") --Mark of the War Prisoner
 LBIS:AddItem(spec, "40682", LBIS.L["Trinket"], "Alt") --Sundial of the Exiled
 LBIS:AddItem(spec, "49076", LBIS.L["Trinket"], "Alt") --Mithril Pocketwatch
 
-LBIS:AddItem(spec, "40348", LBIS.L["Two Hand"], "BIS") --Damnation
-LBIS:AddItem(spec, "40489", LBIS.L["Two Hand"], "BIS") --Greatstaff of the Nexus
-LBIS:AddItem(spec, "40300", LBIS.L["Two Hand"], "Alt") --Spire of Sunset
-LBIS:AddItem(spec, "44420", LBIS.L["Two Hand"], "Alt") --Deadly Gladiator's Focus Staff
-LBIS:AddItem(spec, "40455", LBIS.L["Two Hand"], "Alt") --Staff of Restraint
-
 LBIS:AddItem(spec, "40395", LBIS.L["Main Hand"], "BIS") --Torch of Holy Fire
 LBIS:AddItem(spec, "40408", LBIS.L["Main Hand"], "Alt") --Haunting Call
 LBIS:AddItem(spec, "39763", LBIS.L["Main Hand"], "Alt") --Wraith Strike
@@ -115,6 +109,12 @@ LBIS:AddItem(spec, "40273", LBIS.L["Off Hand"], "BIS") --Surplus Limb
 LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "Alt") --Matriarch's Spawn
 LBIS:AddItem(spec, "40698", LBIS.L["Off Hand"], "Alt") --Ward of the Violet Citadel
 LBIS:AddItem(spec, "39199", LBIS.L["Off Hand"], "Alt") --Watchful Eye
+
+LBIS:AddItem(spec, "40348", LBIS.L["Two Hand"], "BIS") --Damnation
+LBIS:AddItem(spec, "40489", LBIS.L["Two Hand"], "BIS") --Greatstaff of the Nexus
+LBIS:AddItem(spec, "40300", LBIS.L["Two Hand"], "Alt") --Spire of Sunset
+LBIS:AddItem(spec, "44420", LBIS.L["Two Hand"], "Alt") --Deadly Gladiator's Focus Staff
+LBIS:AddItem(spec, "40455", LBIS.L["Two Hand"], "Alt") --Staff of Restraint
 
 LBIS:AddItem(spec, "40321", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Shooting Star
 LBIS:AddItem(spec, "40712", LBIS.L["Ranged/Relic"], "Alt") --Idol of Steadfast Renewal

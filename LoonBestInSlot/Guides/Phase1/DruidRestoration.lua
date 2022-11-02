@@ -94,12 +94,6 @@ LBIS:AddItem(spec, "40255", LBIS.L["Trinket"], "Alt") --Dying Curse
 LBIS:AddItem(spec, "40258", LBIS.L["Trinket"], "Alt") --Forethought Talisman
 LBIS:AddItem(spec, "39229", LBIS.L["Trinket"], "Alt") --Embrace of the Spider
 
-LBIS:AddItem(spec, "40300", LBIS.L["Two Hand"], "BIS") --Spire of Sunset
-LBIS:AddItem(spec, "40489", LBIS.L["Two Hand"], "Alt") --Greatstaff of the Nexus
-LBIS:AddItem(spec, "44419", LBIS.L["Two Hand"], "Alt") --Deadly Gladiator's War Staff
-LBIS:AddItem(spec, "39394", LBIS.L["Two Hand"], "Alt") --Charmed Cierge
-LBIS:AddItem(spec, "37360", LBIS.L["Two Hand"], "Alt") --Staff of Draconic Combat
-
 LBIS:AddItem(spec, "40395", LBIS.L["Main Hand"], "BIS") --Torch of Holy Fire
 LBIS:AddItem(spec, "40488", LBIS.L["Main Hand"], "Alt") --Ice Spire Scepter
 LBIS:AddItem(spec, "39763", LBIS.L["Main Hand"], "Alt") --Wraith Strike
@@ -110,6 +104,12 @@ LBIS:AddItem(spec, "40244", LBIS.L["Main Hand"], "Alt") --The Impossible Dream
 LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "BIS") --Matriarch's Spawn
 LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "Alt") --Handbook of Obscure Remedies
 LBIS:AddItem(spec, "40273", LBIS.L["Off Hand"], "Alt") --Surplus Limb
+
+LBIS:AddItem(spec, "40300", LBIS.L["Two Hand"], "BIS") --Spire of Sunset
+LBIS:AddItem(spec, "40489", LBIS.L["Two Hand"], "Alt") --Greatstaff of the Nexus
+LBIS:AddItem(spec, "44419", LBIS.L["Two Hand"], "Alt") --Deadly Gladiator's War Staff
+LBIS:AddItem(spec, "39394", LBIS.L["Two Hand"], "Alt") --Charmed Cierge
+LBIS:AddItem(spec, "37360", LBIS.L["Two Hand"], "Alt") --Staff of Draconic Combat
 
 LBIS:AddItem(spec, "40342", LBIS.L["Ranged/Relic"], "BIS") --Idol of Awakening
 LBIS:AddItem(spec, "33508", LBIS.L["Ranged/Relic"], "Alt") --Idol of Budding Life

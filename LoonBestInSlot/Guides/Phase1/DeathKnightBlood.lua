@@ -56,18 +56,18 @@ LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "BIS") --Figurine - Monarch Crab
 LBIS:AddItem(spec, "42341", LBIS.L["Trinket"], "BIS") --Figurine - Ruby Hare
 LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "BIS") --Essence of Gossamer
 
-LBIS:AddItem(spec, "42322", LBIS.L["Two Hand"], "BIS") --Deadly Gladiator's Bonegrinder
-LBIS:AddItem(spec, "42317", LBIS.L["Two Hand"], "BIS") --Deadly Gladiator's Decapitator
-LBIS:AddItem(spec, "42332", LBIS.L["Two Hand"], "BIS") --Deadly Gladiator's Greatsword
-LBIS:AddItem(spec, "40406", LBIS.L["Two Hand"], "BIS") --Inevitable Defeat
-LBIS:AddItem(spec, "40384", LBIS.L["Two Hand"], "Alt") --Betrayer of Humanity
-
 LBIS:AddItem(spec, "40402", LBIS.L["Main Hand"], "BIS") --Last Laugh
 LBIS:AddItem(spec, "42208", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Cleaver
 LBIS:AddItem(spec, "42275", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Pummeler
 LBIS:AddItem(spec, "42285", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Slicer
 LBIS:AddItem(spec, "40345", LBIS.L["Main Hand"], "BIS") --Broken Promise
 LBIS:AddItem(spec, "39344", LBIS.L["Main Hand"], "Alt") --Slayer of the Lifeless
+
+LBIS:AddItem(spec, "42322", LBIS.L["Two Hand"], "BIS") --Deadly Gladiator's Bonegrinder
+LBIS:AddItem(spec, "42317", LBIS.L["Two Hand"], "BIS") --Deadly Gladiator's Decapitator
+LBIS:AddItem(spec, "42332", LBIS.L["Two Hand"], "BIS") --Deadly Gladiator's Greatsword
+LBIS:AddItem(spec, "40406", LBIS.L["Two Hand"], "BIS") --Inevitable Defeat
+LBIS:AddItem(spec, "40384", LBIS.L["Two Hand"], "Alt") --Betrayer of Humanity
 
 LBIS:AddItem(spec, "40714", LBIS.L["Ranged/Relic"], "BIS") --Sigil of the Unfaltering Knight
 LBIS:AddItem(spec, "40822", LBIS.L["Ranged/Relic"], "BIS") --Sigil of the Frozen Conscience

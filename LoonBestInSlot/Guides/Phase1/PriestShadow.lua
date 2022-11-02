@@ -138,14 +138,6 @@ LBIS:AddItem(spec, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spider
 LBIS:AddItem(spec, "40682", LBIS.L["Trinket"], "Alt") --Sundial of the Exiled
 LBIS:AddItem(spec, "37873", LBIS.L["Trinket"], "Alt") --Mark of the War Prisoner
 
-LBIS:AddItem(spec, "40489", LBIS.L["Two Hand"], "BIS") --Greatstaff of the Nexus
-LBIS:AddItem(spec, "40348", LBIS.L["Two Hand"], "Alt") --Damnation
-LBIS:AddItem(spec, "40455", LBIS.L["Two Hand"], "Alt") --Staff of Restraint
-LBIS:AddItem(spec, "40300", LBIS.L["Two Hand"], "Alt") --Spire of Sunset
-LBIS:AddItem(spec, "39256", LBIS.L["Two Hand"], "Alt") --Sulfur Stave
-LBIS:AddItem(spec, "39394", LBIS.L["Two Hand"], "Alt") --Charmed Cierge
-LBIS:AddItem(spec, "37360", LBIS.L["Two Hand"], "Alt") --Staff of Draconic Combat
-
 LBIS:AddItem(spec, "40395", LBIS.L["Main Hand"], "BIS") --Torch of Holy Fire
 LBIS:AddItem(spec, "39424", LBIS.L["Main Hand"], "Alt") --The Soulblade
 LBIS:AddItem(spec, "40408", LBIS.L["Main Hand"], "Alt") --Haunting Call
@@ -161,6 +153,14 @@ LBIS:AddItem(spec, "40698", LBIS.L["Off Hand"], "Alt") --Ward of the Violet Cita
 LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "Alt") --Matriarch's Spawn
 LBIS:AddItem(spec, "40192", LBIS.L["Off Hand"], "Alt") --Accursed Spine
 LBIS:AddItem(spec, "39199", LBIS.L["Off Hand"], "Alt") --Watchful Eye
+
+LBIS:AddItem(spec, "40489", LBIS.L["Two Hand"], "BIS") --Greatstaff of the Nexus
+LBIS:AddItem(spec, "40348", LBIS.L["Two Hand"], "Alt") --Damnation
+LBIS:AddItem(spec, "40455", LBIS.L["Two Hand"], "Alt") --Staff of Restraint
+LBIS:AddItem(spec, "40300", LBIS.L["Two Hand"], "Alt") --Spire of Sunset
+LBIS:AddItem(spec, "39256", LBIS.L["Two Hand"], "Alt") --Sulfur Stave
+LBIS:AddItem(spec, "39394", LBIS.L["Two Hand"], "Alt") --Charmed Cierge
+LBIS:AddItem(spec, "37360", LBIS.L["Two Hand"], "Alt") --Staff of Draconic Combat
 
 LBIS:AddItem(spec, "39712", LBIS.L["Ranged/Relic"], "BIS") --Gemmed Wand of the Nerubians
 LBIS:AddItem(spec, "40284", LBIS.L["Ranged/Relic"], "Alt") --Plague Igniter
