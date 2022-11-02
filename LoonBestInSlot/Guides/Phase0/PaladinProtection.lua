@@ -102,4 +102,4 @@ LBIS:AddItem(spec, "37107", LBIS.L["Off Hand"], "Alt") --Leeka's Shield
 LBIS:AddItem(spec, "41113", LBIS.L["Off Hand"], "Alt") --Saronite Bulwark
 LBIS:AddItem(spec, "35642", LBIS.L["Off Hand"], "Alt") --Riot Shield
 
-LBIS:AddItem(spec, "40707", LBIS.L["Ranged/Relic"], "Alt") --Libram of Obstruction
+LBIS:AddItem(spec, "40707", LBIS.L["Ranged/Relic"], "BIS") --Libram of Obstruction

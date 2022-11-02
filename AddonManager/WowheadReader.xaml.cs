@@ -518,6 +518,8 @@ public partial class WowheadReader : Window
                             });
                         }
                         item.Value.BisStatus = "BIS";
+
+                        sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
                     }
                     else
                     {
