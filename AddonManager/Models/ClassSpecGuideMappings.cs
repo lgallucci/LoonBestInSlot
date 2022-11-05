@@ -246,10 +246,11 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box", "Chest"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box", "Wrist"),
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box", "Hands"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Legs"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
-            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box", "Waist"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box", "Legs"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Feet"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Main Hand"),
+            new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/balance-druid-dps-best-in-slot-gear-pre-raid",

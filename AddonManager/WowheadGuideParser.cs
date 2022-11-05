@@ -38,7 +38,7 @@ public class WowheadGuideParser
         { 40162, 3 },
         { 40166, 3 },
         { 40167, 3 },
-        { 45880, 3 }
+        { 45880, 3 },
 
     };
 
@@ -78,6 +78,7 @@ public class WowheadGuideParser
         { 44876, 50370 }, //Arcanum of Blissful Mending
         { 44871, 50335 }, //Greater Inscription of the Axe
         { 44133, 50335 }, //Greater Inscription of the Axe
+        { 55656, 41611 } //Eternal Belt Buckle
      };
 
     private Dictionary<int, int> _gemSwaps = new Dictionary<int, int>()

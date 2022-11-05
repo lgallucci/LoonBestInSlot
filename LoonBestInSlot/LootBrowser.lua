@@ -175,17 +175,17 @@ function createTabs(window, content)
         LBIS.BrowserWindow:RefreshItems();
     end);
 
-    --local priorityListTabButton = CreateFrame("Button", "ContainerTab4", window, "CharacterFrameTabButtonTemplate")
-    --local priorityListTabString = priorityListTabButton:CreateFontString("PriorityListTabText", "OVERLAY", "GameFontNormalSmall");
-    --priorityListTabString:SetPoint("CENTER", priorityListTabButton, "CENTER", 0, 3);
-    --priorityListTabString:SetText(LBIS.L["Priority"]);
-    --priorityListTabButton:SetPoint("LEFT", enchantListTabButton, "RIGHT", -16, 0);
-    --priorityListTabButton:SetScript("OnClick", function(self)
-    --    PanelTemplates_SetTab(content, 4);
-    --    open_tab = "PriorityList";
-    --
-    --    LBIS.BrowserWindow:RefreshItems();
-    --end);
+--    local priorityListTabButton = CreateFrame("Button", "ContainerTab4", window, "CharacterFrameTabButtonTemplate")
+--    local priorityListTabString = priorityListTabButton:CreateFontString("PriorityListTabText", "OVERLAY", "GameFontNormalSmall");
+--    priorityListTabString:SetPoint("CENTER", priorityListTabButton, "CENTER", 0, 3);
+--    priorityListTabString:SetText(LBIS.L["Priority"]);
+--    priorityListTabButton:SetPoint("LEFT", enchantListTabButton, "RIGHT", -16, 0);
+--    priorityListTabButton:SetScript("OnClick", function(self)
+--        PanelTemplates_SetTab(content, 4);
+--        open_tab = "PriorityList";
+--    
+--        LBIS.BrowserWindow:RefreshItems();
+--    end);
     
     PanelTemplates_SetNumTabs(content, 3);
     --PanelTemplates_SetNumTabs(content, 4);
