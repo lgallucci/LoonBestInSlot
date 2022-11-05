@@ -1266,6 +1266,7 @@ LBIS.ItemSources =
     [42115] = { Name = "Deadly Gladiator's Band of Victory", SourceType = LBIS.L["Drop"].."/"..LBIS.L["PvP"], Source = LBIS.L["Emalon the Storm Watcher"].."/"..LBIS.L["Honor Points"], SourceNumber = "0/33180", SourceLocation = LBIS.L["Vault of Archavon (10)"].."/"..LBIS.L["PvP Vendor"] },
     [42132] = { Name = "Battlemaster's Bravery", SourceType = LBIS.L["PvP"], Source = LBIS.L["Honor Points"], SourceNumber = "43400", SourceLocation = LBIS.L["PvP Vendor"] },
     [42208] = { Name = "Deadly Gladiator's Cleaver", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Points"], SourceNumber = "3150", SourceLocation = LBIS.L["Arena Vendor"] },
+    [42232] = { Name = "Deadly Gladiator's Chopper", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Points"], SourceNumber = "1350", SourceLocation = LBIS.L["Arena Vendor"] },
     [42248] = { Name = "Deadly Gladiator's Shiv", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Points"], SourceNumber = "1350", SourceLocation = LBIS.L["Arena Vendor"] },
     [42275] = { Name = "Deadly Gladiator's Pummeler", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Points"], SourceNumber = "3150", SourceLocation = LBIS.L["Arena Vendor"] },
     [42285] = { Name = "Deadly Gladiator's Slicer", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Points"], SourceNumber = "3150", SourceLocation = LBIS.L["Arena Vendor"] },
