@@ -37,8 +37,8 @@ LBIS:AddItem(spec, "37040", LBIS.L["Wrist"], "Alt") --Svala's Bloodied Shackles
 LBIS:AddItem(spec, "44341", LBIS.L["Wrist"], "Alt") --Bracers of Reverence
 
 LBIS:AddItem(spec, "44183", LBIS.L["Hands"], "BIS") --Fireproven Gauntlets
-LBIS:AddItem(spec, "39639", LBIS.L["Hands"], "Alt") --Heroes' Redemption Handguards
-LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "Alt") --Gloves of the Lost Conqueror
+LBIS:AddItem(spec, "39639", LBIS.L["Hands"], "BIS") --Heroes' Redemption Handguards
+LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "BIS") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "37645", LBIS.L["Hands"], "Alt") --Horn-Tipped Gauntlets
 LBIS:AddItem(spec, "37862", LBIS.L["Hands"], "Alt") --Gauntlets of the Water Revenant
 LBIS:AddItem(spec, "41357", LBIS.L["Hands"], "Alt") --Daunting Handguards
@@ -94,12 +94,12 @@ LBIS:AddItem(spec, "37260", LBIS.L["Main Hand"], "Alt") --Cloudstrider's Waraxe
 LBIS:AddItem(spec, "36984", LBIS.L["Main Hand"], "Alt") --Eternally Folded Blade
 LBIS:AddItem(spec, "44734", LBIS.L["Main Hand"], "Alt") --Hammer of Quiet Mourning
 
-LBIS:AddItem(spec, "40701", LBIS.L["Shield"], "BIS") --Crygil's Discarded Plate Panel
-LBIS:AddItem(spec, "42508", LBIS.L["Shield"], "Alt") --Titansteel Shield Wall
-LBIS:AddItem(spec, "43085", LBIS.L["Shield"], "Alt Mit") --Royal Crest of Lordaeron
-LBIS:AddItem(spec, "37162", LBIS.L["Shield"], "Alt") --Bulwark of the Noble Protector
-LBIS:AddItem(spec, "37107", LBIS.L["Shield"], "Alt") --Leeka's Shield
-LBIS:AddItem(spec, "41113", LBIS.L["Shield"], "Alt") --Saronite Bulwark
-LBIS:AddItem(spec, "35642", LBIS.L["Shield"], "Alt") --Riot Shield
+LBIS:AddItem(spec, "40701", LBIS.L["Off Hand"], "BIS") --Crygil's Discarded Plate Panel
+LBIS:AddItem(spec, "42508", LBIS.L["Off Hand"], "Alt") --Titansteel Shield Wall
+LBIS:AddItem(spec, "43085", LBIS.L["Off Hand"], "Alt Mit") --Royal Crest of Lordaeron
+LBIS:AddItem(spec, "37162", LBIS.L["Off Hand"], "Alt") --Bulwark of the Noble Protector
+LBIS:AddItem(spec, "37107", LBIS.L["Off Hand"], "Alt") --Leeka's Shield
+LBIS:AddItem(spec, "41113", LBIS.L["Off Hand"], "Alt") --Saronite Bulwark
+LBIS:AddItem(spec, "35642", LBIS.L["Off Hand"], "Alt") --Riot Shield
 
-LBIS:AddItem(spec, "40707", LBIS.L["Ranged/Relic"], "Alt") --Libram of Obstruction
+LBIS:AddItem(spec, "40707", LBIS.L["Ranged/Relic"], "BIS") --Libram of Obstruction

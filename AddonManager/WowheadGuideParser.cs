@@ -38,7 +38,7 @@ public class WowheadGuideParser
         { 40162, 3 },
         { 40166, 3 },
         { 40167, 3 },
-        { 45880, 3 }
+        { 45880, 3 },
 
     };
 
@@ -78,6 +78,7 @@ public class WowheadGuideParser
         { 44876, 50370 }, //Arcanum of Blissful Mending
         { 44871, 50335 }, //Greater Inscription of the Axe
         { 44133, 50335 }, //Greater Inscription of the Axe
+        { 55656, 41611 } //Eternal Belt Buckle
      };
 
     private Dictionary<int, int> _gemSwaps = new Dictionary<int, int>()
@@ -93,6 +94,7 @@ public class WowheadGuideParser
         { "armor", "Mit" },
         { "dodge", "Mit" },
         { "parry", "Mit" },
+        { "mit", "Mit" },
         { "threat", "Thrt" }
     };
 
@@ -158,11 +160,16 @@ public class WowheadGuideParser
                                 }
                             }
                         }
+                        string htmlBisText = string.Empty, rankText = string.Empty;
+                        if (isTierList)
+                            rankText = tableRow?.ChildNodes[1].TextContent.Trim() ?? string.Empty;
 
-                        var bisStatus = GetBisStatus(tableRow, isTierList);
+                        htmlBisText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
+
+                        var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList);
 
                         if (itemChild != null)
-                            ParseItemCell(itemChild, bisStatus, GetSlot(guideMapping.Slot, bisStatus), items, itemOrderIndex);
+                            ParseItemCell(itemChild, bisStatus, GetSlot(guideMapping.Slot, htmlBisText), items, itemOrderIndex);
 
                         itemOrderIndex++;
                     }
@@ -182,18 +189,29 @@ public class WowheadGuideParser
         return slot;
     }
 
-    private string GetBisStatus(INode tableRow, bool isTierList)
+    private string GetBisStatus(string htmlBisText, string rankText, bool isTierList)
     {
         var bisText = string.Empty;
         if (isTierList)
-            bisText = tableRow?.ChildNodes[1].TextContent.Trim().Contains("S") ?? false ? "BIS" : "Alt";
+        {
+            bisText = rankText.Contains("S") ? "BIS" : "Alt";
+        }
         else
-            bisText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
+        {
+            if (new List<string> { "prebis", "tbc", "pre-raid", "pre-bis" }.Any(s => htmlBisText?.ToLower().Contains(s) ?? false))
+            {
+                bisText = "Alt";
+            }
+            else
+            {
+                bisText = new List<string> { "bis", "recommended", "best in slot", "best" }.Any(s => htmlBisText?.ToLower().Contains(s) ?? false) ? "BIS" : "Alt";
+            }
+        }
 
         var altText = string.Empty;
         foreach (var tankSwap in _tankAltTextSwaps)
-            if ((!tableRow?.ChildNodes[0].TextContent.ToLower().Contains("no") ?? false) && 
-                (tableRow?.ChildNodes[0].TextContent.ToLower().Contains(tankSwap.Key) ?? false))
+            if ((!htmlBisText?.ToLower().Contains("no") ?? false) && 
+                (htmlBisText?.ToLower().Contains(tankSwap.Key) ?? false))
             {
                 altText = $" {tankSwap.Value}";
                 break;

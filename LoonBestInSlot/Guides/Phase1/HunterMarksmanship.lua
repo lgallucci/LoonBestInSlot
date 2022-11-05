@@ -76,16 +76,16 @@ LBIS:AddItem(spec, "40431", LBIS.L["Trinket"], "Alt") --Fury of the Five Flights
 LBIS:AddItem(spec, "39257", LBIS.L["Trinket"], "Alt") --Loatheb's Shadow
 LBIS:AddItem(spec, "40371", LBIS.L["Trinket"], "Alt") --Bandit's Insignia
 
+LBIS:AddItem(spec, "39714", LBIS.L["Main Hand"], "BIS") --Webbed Death
+LBIS:AddItem(spec, "40386", LBIS.L["Main Hand"], "BIS") --Sinister Revenge
+LBIS:AddItem(spec, "37235", LBIS.L["Main Hand"], "Alt") --Crypt Lord's Deft Blade
+LBIS:AddItem(spec, "37871", LBIS.L["Main Hand"], "Alt") --The Key
+
 LBIS:AddItem(spec, "40388", LBIS.L["Two Hand"], "BIS") --Journey's End
 LBIS:AddItem(spec, "40384", LBIS.L["Two Hand"], "Alt") --Betrayer of Humanity
 LBIS:AddItem(spec, "40208", LBIS.L["Two Hand"], "Alt") --Cryptfiend's Bite
 LBIS:AddItem(spec, "40497", LBIS.L["Two Hand"], "Alt") --Black Ice
 LBIS:AddItem(spec, "44249", LBIS.L["Two Hand"], "Alt") --Runeblade of Demonstrable Power
-
-LBIS:AddItem(spec, "39714", LBIS.L["Main Hand"], "BIS") --Webbed Death
-LBIS:AddItem(spec, "40386", LBIS.L["Main Hand"], "BIS") --Sinister Revenge
-LBIS:AddItem(spec, "37235", LBIS.L["Main Hand"], "Alt") --Crypt Lord's Deft Blade
-LBIS:AddItem(spec, "37871", LBIS.L["Main Hand"], "Alt") --The Key
 
 LBIS:AddItem(spec, "40385", LBIS.L["Ranged/Relic"], "BIS") --Envoy of Mortality
 LBIS:AddItem(spec, "40265", LBIS.L["Ranged/Relic"], "Alt") --Arrowsong

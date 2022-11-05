@@ -108,11 +108,6 @@ LBIS:AddItem(spec, "49076", LBIS.L["Trinket"], "Alt") --Mithril Pocketwatch
 LBIS:AddItem(spec, "42395", LBIS.L["Trinket"], "Alt") --Figurine - Twilight Serpent
 LBIS:AddItem(spec, "39229", LBIS.L["Trinket"], "Alt") --Embrace of the Spider
 
-LBIS:AddItem(spec, "40489", LBIS.L["Two Hand"], "Alt") --Greatstaff of the Nexus
-LBIS:AddItem(spec, "40348", LBIS.L["Two Hand"], "Alt") --Damnation
-LBIS:AddItem(spec, "40455", LBIS.L["Two Hand"], "Alt") --Staff of Restraint
-LBIS:AddItem(spec, "40300", LBIS.L["Two Hand"], "Alt") --Spire of Sunset
-
 LBIS:AddItem(spec, "40396", LBIS.L["Main Hand"], "BIS") --The Turning Tide
 LBIS:AddItem(spec, "40408", LBIS.L["Main Hand"], "Alt") --Haunting Call
 LBIS:AddItem(spec, "39424", LBIS.L["Main Hand"], "Alt") --The Soulblade
@@ -126,6 +121,11 @@ LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "Alt") --Matriarch's Spawn
 LBIS:AddItem(spec, "39199", LBIS.L["Off Hand"], "Alt") --Watchful Eye
 LBIS:AddItem(spec, "40350", LBIS.L["Off Hand"], "Alt") --Urn of Lost Memories
 LBIS:AddItem(spec, "42525", LBIS.L["Off Hand"], "Alt") --Deadly Gladiator's Endgame
+
+LBIS:AddItem(spec, "40489", LBIS.L["Two Hand"], "Alt") --Greatstaff of the Nexus
+LBIS:AddItem(spec, "40348", LBIS.L["Two Hand"], "Alt") --Damnation
+LBIS:AddItem(spec, "40455", LBIS.L["Two Hand"], "Alt") --Staff of Restraint
+LBIS:AddItem(spec, "40300", LBIS.L["Two Hand"], "Alt") --Spire of Sunset
 
 LBIS:AddItem(spec, "39712", LBIS.L["Ranged/Relic"], "BIS") --Gemmed Wand of the Nerubians
 LBIS:AddItem(spec, "40284", LBIS.L["Ranged/Relic"], "BIS") --Plague Igniter

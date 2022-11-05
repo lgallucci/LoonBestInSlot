@@ -13,12 +13,15 @@ LBIS:AddItem(spec, "37196", LBIS.L["Shoulder"], "Alt") --Runecaster's Mantle
 LBIS:AddItem(spec, "43258", LBIS.L["Shoulder"], "Alt") --Purehorn Spaulders
 
 LBIS:AddItem(spec, "41610", LBIS.L["Back"], "BIS") --Deathchill Cloak
+LBIS:AddItem(spec, "40353", LBIS.L["Back"], "Alt") --Polished Protodrake Cloak
 LBIS:AddItem(spec, "37291", LBIS.L["Back"], "Alt") --Ancient Dragon Spirit Cape
 LBIS:AddItem(spec, "36983", LBIS.L["Back"], "Alt") --Cape of Seething Steam
 LBIS:AddItem(spec, "44242", LBIS.L["Back"], "Alt") --Dark Soldier Cape
 LBIS:AddItem(spec, "44167", LBIS.L["Back"], "Alt") --Shroud of Dedicated Research
 
-LBIS:AddItem(spec, "42102", LBIS.L["Chest"], "BIS") --Spellweave Robe
+LBIS:AddItem(spec, "39547", LBIS.L["Chest"], "BIS") --Heroes' Dreamwalker Vestments
+LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Vanquisher
+LBIS:AddItem(spec, "42102", LBIS.L["Chest"], "Alt") --Spellweave Robe
 LBIS:AddItem(spec, "42101", LBIS.L["Chest"], "Alt") --Ebonweave Robe
 LBIS:AddItem(spec, "43401", LBIS.L["Chest"], "Alt") --Water-Drenched Robe
 LBIS:AddItem(spec, "37236", LBIS.L["Chest"], "Alt") --Insect Vestments
@@ -32,7 +35,9 @@ LBIS:AddItem(spec, "37634", LBIS.L["Wrist"], "Alt") --Bracers of the Divine Elem
 LBIS:AddItem(spec, "37725", LBIS.L["Wrist"], "Alt") --Savage Wound Wrap
 LBIS:AddItem(spec, "44200", LBIS.L["Wrist"], "Alt") --Ancestral Sinew Wristguards
 
-LBIS:AddItem(spec, "37172", LBIS.L["Hands"], "BIS") --Gloves of Glistening Runes
+LBIS:AddItem(spec, "39544", LBIS.L["Hands"], "BIS") --Heroes' Dreamwalker Gloves
+LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "BIS") --Gloves of the Lost Vanquisher
+LBIS:AddItem(spec, "37172", LBIS.L["Hands"], "Alt") --Gloves of Glistening Runes
 LBIS:AddItem(spec, "42113", LBIS.L["Hands"], "Alt") --Spellweave Gloves
 LBIS:AddItem(spec, "42111", LBIS.L["Hands"], "Alt") --Ebonweave Gloves
 LBIS:AddItem(spec, "37261", LBIS.L["Hands"], "Alt") --Gloves of Radiant Light
@@ -45,6 +50,7 @@ LBIS:AddItem(spec, "37643", LBIS.L["Waist"], "Alt") --Sash of Blood Removal
 LBIS:AddItem(spec, "37850", LBIS.L["Waist"], "Alt") --Flowing Sash of Order
 LBIS:AddItem(spec, "40695", LBIS.L["Waist"], "Alt") --Vine Belt of the Woodland Dryad
 LBIS:AddItem(spec, "44302", LBIS.L["Waist"], "Alt") --Belt of Dark Mending
+LBIS:AddItem(spec, "37242", LBIS.L["Waist"], "Alt") --Sash of the Servant
 
 LBIS:AddItem(spec, "37791", LBIS.L["Legs"], "BIS") --Leggings of the Winged Serpent
 LBIS:AddItem(spec, "37854", LBIS.L["Legs"], "BIS") --Woven Bracae Leggings
@@ -77,16 +83,13 @@ LBIS:AddItem(spec, "37371", LBIS.L["Ring"], "Alt") --Ring of the Frenzied Wolvar
 LBIS:AddItem(spec, "37873", LBIS.L["Trinket"], "BIS") --Mark of the War Prisoner
 LBIS:AddItem(spec, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exiled
 LBIS:AddItem(spec, "42395", LBIS.L["Trinket"], "Alt") --Figurine - Twilight Serpent
+LBIS:AddItem(spec, "37660", LBIS.L["Trinket"], "Alt") --Forge Ember
 LBIS:AddItem(spec, "37835", LBIS.L["Trinket"], "Alt") --Je'Tze's Bell
 LBIS:AddItem(spec, "42988", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Illusion
 LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "Alt") --Spark of Life
 LBIS:AddItem(spec, "44322", LBIS.L["Trinket"], "Alt") --Mercurial Alchemist Stone
 LBIS:AddItem(spec, "36972", LBIS.L["Trinket"], "Alt") --Tome of Arcane Phenomena
 LBIS:AddItem(spec, "38765", LBIS.L["Trinket"], "Alt") --Rune of Infinite Power
-
-LBIS:AddItem(spec, "37360", LBIS.L["Two Hand"], "BIS") --Staff of Draconic Combat
-LBIS:AddItem(spec, "37384", LBIS.L["Two Hand"], "Alt") --Staff of Wayward Principles
-LBIS:AddItem(spec, "37617", LBIS.L["Two Hand"], "Alt") --Staff of Sinister Claws
 
 LBIS:AddItem(spec, "45085", LBIS.L["Main Hand"], "BIS") --Titansteel Spellblade
 LBIS:AddItem(spec, "41384", LBIS.L["Main Hand"], "Alt") --Titansteel Guardian
@@ -100,6 +103,10 @@ LBIS:AddItem(spec, "37134", LBIS.L["Off Hand"], "Alt") --Telestra's Journal
 LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "Alt") --Handbook of Obscure Remedies
 LBIS:AddItem(spec, "44210", LBIS.L["Off Hand"], "Alt") --Faces of Doom
 LBIS:AddItem(spec, "37718", LBIS.L["Off Hand"], "Alt") --Temple Crystal Fragment
+
+LBIS:AddItem(spec, "37360", LBIS.L["Two Hand"], "BIS") --Staff of Draconic Combat
+LBIS:AddItem(spec, "37384", LBIS.L["Two Hand"], "Alt") --Staff of Wayward Principles
+LBIS:AddItem(spec, "37617", LBIS.L["Two Hand"], "Alt") --Staff of Sinister Claws
 
 LBIS:AddItem(spec, "40712", LBIS.L["Ranged/Relic"], "BIS") --Idol of Steadfast Renewal
 LBIS:AddItem(spec, "32387", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Raven Goddess

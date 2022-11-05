@@ -8,8 +8,6 @@ LBIS:AddItem(spec, "49126", LBIS.L["Head"], "Alt") --The Horseman's Horrific Hel
 
 LBIS:AddItem(spec, "40578", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Shoulderplates
 LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
-LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "BIS Transmute") --Pauldrons of Perseverance
-LBIS:AddItem(spec, "34388", LBIS.L["Shoulder"], "Alt") --Pauldrons of Berserking
 LBIS:AddItem(spec, "44003", LBIS.L["Shoulder"], "Alt") --Upstanding Spaulders
 LBIS:AddItem(spec, "43481", LBIS.L["Shoulder"], "Alt") --Trollwoven Spaulders
 
@@ -31,8 +29,8 @@ LBIS:AddItem(spec, "41355", LBIS.L["Wrist"], "Alt") --Vengeance Bindings
 LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "BIS") --Frosted Adroit Handguards
 LBIS:AddItem(spec, "40575", LBIS.L["Hands"], "Alt") --Valorous Redemption Gauntlets
 LBIS:AddItem(spec, "40628", LBIS.L["Hands"], "Alt") --Gauntlets of the Lost Conqueror
-LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "Alt") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "39634", LBIS.L["Hands"], "Alt") --Heroes' Redemption Gauntlets
+LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "Alt") --Gloves of the Lost Conqueror
 
 LBIS:AddItem(spec, "40278", LBIS.L["Waist"], "BIS") --Girdle of Chivalry
 LBIS:AddItem(spec, "40205", LBIS.L["Waist"], "BIS") --Stalk-Skin Belt
@@ -43,8 +41,8 @@ LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "Alt") --Jorach's Crocolisk Skin Be
 LBIS:AddItem(spec, "40688", LBIS.L["Waist"], "Alt") --Verdungo's Barbarian Cord
 
 LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "BIS") --Leggings of the Honored
-LBIS:AddItem(spec, "40577", LBIS.L["Legs"], "BIS") --Valorous Redemption Legplates
 LBIS:AddItem(spec, "40634", LBIS.L["Legs"], "BIS") --Legplates of the Lost Conqueror
+LBIS:AddItem(spec, "40577", LBIS.L["Legs"], "BIS") --Valorous Redemption Legplates
 LBIS:AddItem(spec, "40294", LBIS.L["Legs"], "Alt") --Riveted Abomination Leggings
 LBIS:AddItem(spec, "37193", LBIS.L["Legs"], "Alt") --Staggering Legplates
 
@@ -68,7 +66,7 @@ LBIS:AddItem(spec, "44935", LBIS.L["Ring"], "Alt") --Ring of the Kirin Tor
 
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "40431", LBIS.L["Trinket"], "BIS") --Fury of the Five Flights
-LBIS:AddItem(spec, "40371", LBIS.L["Trinket"], "Alt") --Bandit's Insignia
+LBIS:AddItem(spec, "40371", LBIS.L["Trinket"], "BIS") --Bandit's Insignia
 LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "Alt") --Mirror of Truth
 LBIS:AddItem(spec, "37166", LBIS.L["Trinket"], "Alt") --Sphere of Red Dragon's Blood
 
@@ -80,7 +78,7 @@ LBIS:AddItem(spec, "37852", LBIS.L["Two Hand"], "Alt") --Colossal Skull-Clad Cle
 LBIS:AddItem(spec, "41257", LBIS.L["Two Hand"], "Alt") --Titansteel Destroyer
 
 LBIS:AddItem(spec, "42852", LBIS.L["Ranged/Relic"], "BIS") --Deadly Gladiator's Libram of Fortitude
-LBIS:AddItem(spec, "33503", LBIS.L["Ranged/Relic"], "BIS") --Libram of Divine Judgement
 LBIS:AddItem(spec, "42851", LBIS.L["Ranged/Relic"], "Alt") --Hateful Gladiator's Libram of Fortitude
 LBIS:AddItem(spec, "42611", LBIS.L["Ranged/Relic"], "Alt") --Savage Gladiator's Libram of Fortitude
 LBIS:AddItem(spec, "37574", LBIS.L["Ranged/Relic"], "Alt") --Libram of Furious Blows
+LBIS:AddItem(spec, "40191", LBIS.L["Ranged/Relic"], "Alt") --Libram of Radiance

@@ -183,10 +183,10 @@ function createTabs(window, content)
     priorityListTabButton:SetScript("OnClick", function(self)
         PanelTemplates_SetTab(content, 4);
         open_tab = "PriorityList";
-
+    
         LBIS.BrowserWindow:RefreshItems();
     end);
-
+    
     PanelTemplates_SetNumTabs(content, 4);
     PanelTemplates_SetTab(content, 1);
 end
@@ -225,7 +225,7 @@ function createDropDowns(window)
         ['name']='slot',
         ['parent']=window,
         ['title']='Slot:',
-        ['items']= { LBIS.L["All"], LBIS.L["Head"], LBIS.L["Shoulder"], LBIS.L["Back"], LBIS.L["Chest"], LBIS.L["Wrist"], LBIS.L["Hands"], LBIS.L["Waist"], LBIS.L["Legs"], LBIS.L["Feet"], LBIS.L["Neck"], LBIS.L["Ring"], LBIS.L["Trinket"], LBIS.L["Main Hand"], LBIS.L["Off Hand"], LBIS.L["Two Hand"], LBIS.L["Shield"], LBIS.L["Ranged/Relic"] },        
+        ['items']= { LBIS.L["All"], LBIS.L["Head"], LBIS.L["Shoulder"], LBIS.L["Back"], LBIS.L["Chest"], LBIS.L["Wrist"], LBIS.L["Hands"], LBIS.L["Waist"], LBIS.L["Legs"], LBIS.L["Feet"], LBIS.L["Neck"], LBIS.L["Ring"], LBIS.L["Trinket"], LBIS.L["Main Hand"], LBIS.L["Off Hand"], LBIS.L["Two Hand"], LBIS.L["Ranged/Relic"] },        
         ['defaultVal']=LBISSettings.SelectedSlot,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedSlot = dropdown_val;

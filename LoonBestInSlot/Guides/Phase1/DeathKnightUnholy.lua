@@ -65,8 +65,6 @@ LBIS:AddItem(spec, "40256", LBIS.L["Trinket"], "Alt") --Grim Toll
 LBIS:AddItem(spec, "40431", LBIS.L["Trinket"], "Alt") --Fury of the Five Flights
 LBIS:AddItem(spec, "39257", LBIS.L["Trinket"], "Alt") --Loatheb's Shadow
 
-LBIS:AddItem(spec, "40384", LBIS.L["Two Hand"], "BIS") --Betrayer of Humanity
-
 LBIS:AddItem(spec, "40402", LBIS.L["Main Hand"], "BIS") --Last Laugh
 LBIS:AddItem(spec, "40189", LBIS.L["Main Hand"], "BIS") --Angry Dread
 LBIS:AddItem(spec, "42208", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Cleaver
@@ -75,6 +73,8 @@ LBIS:AddItem(spec, "40345", LBIS.L["Main Hand"], "Alt") --Broken Promise
 LBIS:AddItem(spec, "39291", LBIS.L["Main Hand"], "Alt") --Torment of the Banished
 
 LBIS:AddItem(spec, "40491", LBIS.L["Off Hand"], "BIS") --Hailstorm
+
+LBIS:AddItem(spec, "40384", LBIS.L["Two Hand"], "BIS") --Betrayer of Humanity
 
 LBIS:AddItem(spec, "42620", LBIS.L["Ranged/Relic"], "BIS") --Deadly Gladiator's Sigil of Strife
 LBIS:AddItem(spec, "40207", LBIS.L["Ranged/Relic"], "BIS") --Sigil of Awareness
