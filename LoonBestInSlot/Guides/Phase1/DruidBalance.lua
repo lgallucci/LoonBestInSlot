@@ -7,7 +7,6 @@ LBIS:AddItem(spec, "40618", LBIS.L["Head"], "Alt") --Helm of the Lost Vanquisher
 LBIS:AddItem(spec, "40339", LBIS.L["Head"], "Alt") --Gothik's Cowl
 LBIS:AddItem(spec, "44007", LBIS.L["Head"], "Alt") --Headpiece of Reconciliation
 LBIS:AddItem(spec, "40562", LBIS.L["Head"], "Alt") --Hood of Rationality
-LBIS:AddItem(spec, "39732", LBIS.L["Head"], "Alt") --Faerlina's Madness
 LBIS:AddItem(spec, "40287", LBIS.L["Head"], "Alt") --Cowl of Vanity
 
 LBIS:AddItem(spec, "40470", LBIS.L["Shoulder"], "BIS") --Valorous Dreamwalker Mantle
@@ -34,7 +33,7 @@ LBIS:AddItem(spec, "44002", LBIS.L["Chest"], "Alt") --The Sanctum's Flowing Vest
 LBIS:AddItem(spec, "39396", LBIS.L["Chest"], "Alt") --Gown of Blaumeux
 
 LBIS:AddItem(spec, "44008", LBIS.L["Wrist"], "BIS") --Unsullied Cuffs
-LBIS:AddItem(spec, "40325", LBIS.L["Wrist"], "Alt") --Bindings of the Expansive Mind
+LBIS:AddItem(spec, "40325", LBIS.L["Wrist"], "BIS") --Bindings of the Expansive Mind
 LBIS:AddItem(spec, "40323", LBIS.L["Wrist"], "Alt") --Esteemed Bindings
 LBIS:AddItem(spec, "40740", LBIS.L["Wrist"], "Alt") --Wraps of the Astral Traveler
 LBIS:AddItem(spec, "40741", LBIS.L["Wrist"], "Alt") --Cuffs of the Shadow Ascendant
@@ -56,9 +55,9 @@ LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "Alt") --Plush Sash of Guzbah
 LBIS:AddItem(spec, "40341", LBIS.L["Waist"], "Alt") --Shackled Cinch
 
 LBIS:AddItem(spec, "40560", LBIS.L["Legs"], "BIS") --Leggings of the Wanton Spellcaster
-LBIS:AddItem(spec, "40468", LBIS.L["Legs"], "BIS") --Valorous Dreamwalker Trousers
-LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "BIS") --Legplates of the Lost Vanquisher
-LBIS:AddItem(spec, "40398", LBIS.L["Legs"], "Alt") --Leggings of Mortal Arrogance
+LBIS:AddItem(spec, "40398", LBIS.L["Legs"], "BIS") --Leggings of Mortal Arrogance
+LBIS:AddItem(spec, "40468", LBIS.L["Legs"], "Alt") --Valorous Dreamwalker Trousers
+LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "Alt") --Legplates of the Lost Vanquisher
 LBIS:AddItem(spec, "40621", LBIS.L["Legs"], "Alt") --Leggings of the Lost Vanquisher
 LBIS:AddItem(spec, "39546", LBIS.L["Legs"], "Alt") --Heroes' Dreamwalker Trousers
 LBIS:AddItem(spec, "40379", LBIS.L["Legs"], "Alt") --Legguards of the Boneyard

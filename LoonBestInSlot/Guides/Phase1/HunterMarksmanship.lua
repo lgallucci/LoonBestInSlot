@@ -16,7 +16,6 @@ LBIS:AddItem(spec, "40403", LBIS.L["Back"], "BIS") --Drape of the Deadly Foe
 LBIS:AddItem(spec, "40721", LBIS.L["Back"], "Alt") --Hammerhead Sharkskin Cloak
 LBIS:AddItem(spec, "39404", LBIS.L["Back"], "Alt") --Cloak of Mastery
 LBIS:AddItem(spec, "43566", LBIS.L["Back"], "Alt") --Ice Striker's Cloak
-LBIS:AddItem(spec, "43406", LBIS.L["Back"], "Alt") --Cloak of the Gushing Wound
 
 LBIS:AddItem(spec, "43998", LBIS.L["Chest"], "BIS") --Chestguard of Flagrant Prowess
 LBIS:AddItem(spec, "40193", LBIS.L["Chest"], "Alt") --Tunic of Masked Suffering
@@ -42,7 +41,6 @@ LBIS:AddItem(spec, "40275", LBIS.L["Waist"], "BIS") --Depraved Linked Belt
 LBIS:AddItem(spec, "39762", LBIS.L["Waist"], "Alt") --Torn Web Wrapping
 LBIS:AddItem(spec, "39379", LBIS.L["Waist"], "Alt") --Spectral Rider's Girdle
 LBIS:AddItem(spec, "37407", LBIS.L["Waist"], "Alt") --Sovereign's Belt
-LBIS:AddItem(spec, "37648", LBIS.L["Waist"], "Alt") --Belt of Tasseled Lanterns
 
 LBIS:AddItem(spec, "40506", LBIS.L["Legs"], "BIS") --Valorous Cryptstalker Legguards
 LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "BIS") --Legplates of the Lost Protector
@@ -59,7 +57,6 @@ LBIS:AddItem(spec, "44664", LBIS.L["Neck"], "BIS") --Favor of the Dragon Queen
 LBIS:AddItem(spec, "44659", LBIS.L["Neck"], "Alt") --Pendant of the Dragonsworn
 LBIS:AddItem(spec, "40065", LBIS.L["Neck"], "Alt") --Fool's Trial
 LBIS:AddItem(spec, "39421", LBIS.L["Neck"], "Alt") --Gem of Imprisoned Vassals
-LBIS:AddItem(spec, "42645", LBIS.L["Neck"], "Alt") --Titanium Impact Choker
 
 LBIS:AddItem(spec, "40074", LBIS.L["Ring"], "BIS") --Strong-Handed Ring
 LBIS:AddItem(spec, "40474", LBIS.L["Ring"], "BIS") --Surge Needle Ring
@@ -82,9 +79,9 @@ LBIS:AddItem(spec, "37235", LBIS.L["Main Hand"], "Alt") --Crypt Lord's Deft Blad
 LBIS:AddItem(spec, "37871", LBIS.L["Main Hand"], "Alt") --The Key
 
 LBIS:AddItem(spec, "40388", LBIS.L["Two Hand"], "BIS") --Journey's End
+LBIS:AddItem(spec, "40497", LBIS.L["Two Hand"], "BIS") --Black Ice
 LBIS:AddItem(spec, "40384", LBIS.L["Two Hand"], "Alt") --Betrayer of Humanity
 LBIS:AddItem(spec, "40208", LBIS.L["Two Hand"], "Alt") --Cryptfiend's Bite
-LBIS:AddItem(spec, "40497", LBIS.L["Two Hand"], "Alt") --Black Ice
 LBIS:AddItem(spec, "44249", LBIS.L["Two Hand"], "Alt") --Runeblade of Demonstrable Power
 
 LBIS:AddItem(spec, "40385", LBIS.L["Ranged/Relic"], "BIS") --Envoy of Mortality
@@ -92,4 +89,3 @@ LBIS:AddItem(spec, "40265", LBIS.L["Ranged/Relic"], "Alt") --Arrowsong
 LBIS:AddItem(spec, "39419", LBIS.L["Ranged/Relic"], "Alt") --Nerubian Conquerer
 LBIS:AddItem(spec, "40346", LBIS.L["Ranged/Relic"], "Alt") --Final Voyage
 LBIS:AddItem(spec, "37191", LBIS.L["Ranged/Relic"], "Alt") --Drake-Mounted Crossbow
-LBIS:AddItem(spec, "44504", LBIS.L["Ranged/Relic"], "Alt") --Nesingwary 4000

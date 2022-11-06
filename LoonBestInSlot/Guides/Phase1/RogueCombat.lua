@@ -50,10 +50,10 @@ LBIS:AddItem(spec, "39299", LBIS.L["Hands"], "Alt") --Rapid Attack Gloves
 LBIS:AddItem(spec, "39560", LBIS.L["Hands"], "Alt") --Heroes' Bonescythe Gauntlets
 LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "Alt") --Gloves of the Lost Vanquisher
 
+LBIS:AddItem(spec, "40205", LBIS.L["Waist"], "BIS") --Stalk-Skin Belt
+LBIS:AddItem(spec, "40260", LBIS.L["Waist"], "BIS") --Belt of the Tortured
 LBIS:AddItem(spec, "34558", LBIS.L["Waist"], "BIS") --Slayer's Belt
 LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Vanquisher
-LBIS:AddItem(spec, "40260", LBIS.L["Waist"], "BIS") --Belt of the Tortured
-LBIS:AddItem(spec, "40205", LBIS.L["Waist"], "Alt") --Stalk-Skin Belt
 LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "Alt") --Jorach's Crocolisk Skin Belt
 LBIS:AddItem(spec, "39279", LBIS.L["Waist"], "Alt") --Blistered Belt of Decay
 
