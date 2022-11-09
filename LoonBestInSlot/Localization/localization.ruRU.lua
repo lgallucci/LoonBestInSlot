@@ -247,6 +247,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Sholazar Basin"] = "Низина Шолазар";
   LBIS.L["Shoulder"] = "Плечо";
 --  LBIS.L["Show Minimap Button"] = "";
+--  LBIS.L["Show Priority"] = "";
 --  LBIS.L["Show Tooltip"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "Сьоннир Литейщик";
   LBIS.L["Skadi the Ruthless"] = "Скади Безжалостный";

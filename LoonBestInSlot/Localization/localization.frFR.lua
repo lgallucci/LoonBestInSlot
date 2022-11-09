@@ -247,6 +247,7 @@ LBIS.L["# Best for:"] = "# Meilleur pour";
   LBIS.L["Sholazar Basin"] = "Bassin de Sholazar";
   LBIS.L["Shoulder"] = "Epaule";
 --  LBIS.L["Show Minimap Button"] = "";
+--  LBIS.L["Show Priority"] = "";
 --  LBIS.L["Show Tooltip"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "Sjonnir le Sculptefer";
   LBIS.L["Skadi the Ruthless"] = "Skadi le Brutal";

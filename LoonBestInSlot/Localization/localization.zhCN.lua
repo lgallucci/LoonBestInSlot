@@ -247,6 +247,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Sholazar Basin"] = "索拉查盆地";
   LBIS.L["Shoulder"] = "肩部";
 --  LBIS.L["Show Minimap Button"] = "";
+--  LBIS.L["Show Priority"] = "";
 --  LBIS.L["Show Tooltip"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "塑铁者斯约尼尔";
   LBIS.L["Skadi the Ruthless"] = "残忍的斯卡迪";

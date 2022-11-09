@@ -247,6 +247,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Sholazar Basin"] = "Cuenca de Sholazar";
   LBIS.L["Shoulder"] = "Hombros";
 --  LBIS.L["Show Minimap Button"] = "";
+--  LBIS.L["Show Priority"] = "";
 --  LBIS.L["Show Tooltip"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "Sjonnir el Afilador";
   LBIS.L["Skadi the Ruthless"] = "Skadi el Despiadado";

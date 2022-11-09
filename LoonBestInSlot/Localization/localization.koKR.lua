@@ -247,6 +247,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Sholazar Basin"] = "숄라자르 분지";
   LBIS.L["Shoulder"] = "어깨";
   LBIS.L["Show Minimap Button"] = "미니맵 버튼 보이기";
+--  LBIS.L["Show Priority"] = "";
   LBIS.L["Show Tooltip"] = "직업 툴팁 표시";
   LBIS.L["Sjonnir The Ironshaper"] = "무쇠구체자 쇼니르";
   LBIS.L["Skadi the Ruthless"] = "학살자 스카디";
