@@ -1162,6 +1162,13 @@
       "SourceNumber": "0",
       "SourceLocation": "Exalted"
     },
+    "44701": {
+      "Name": "Arcanum of the Savage Gladiator",
+      "Source": "Alliance Vanguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered"
+    },
     "44937": {
       "Name": "Plans: Titanium Plating",
       "Source": "Alliance Vanguard",
