@@ -30,10 +30,6 @@ end
 
 function LBIS:Startup()
 
-	if LBISSettings.ShowTooltip == nil then
-		LBISSettings.ShowTooltip = true;
-	end
-
 	LBIS:CreateSettings();
 	LBIS:RegisterMiniMap();
     LBIS:PreCacheItems();
