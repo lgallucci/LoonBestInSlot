@@ -4,6 +4,7 @@ LBIS:AddItem(spec, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec, "40339", LBIS.L["Head"], "Alt") --Gothik's Cowl
 LBIS:AddItem(spec, "40456", LBIS.L["Head"], "Alt") --Valorous Circlet of Faith
 LBIS:AddItem(spec, "40631", LBIS.L["Head"], "Alt") --Crown of the Lost Conqueror
+LBIS:AddItem(spec, "40447", LBIS.L["Head"], "Alt") --Valorous Crown of Faith
 LBIS:AddItem(spec, "43995", LBIS.L["Head"], "Alt") --Enamored Cowl
 LBIS:AddItem(spec, "40287", LBIS.L["Head"], "Alt") --Cowl of Vanity
 LBIS:AddItem(spec, "39521", LBIS.L["Head"], "Alt") --Heroes' Circlet of Faith
@@ -131,10 +132,10 @@ LBIS:AddItem(spec, "39231", LBIS.L["Ring"], "Alt") --Timeworn Silken Band
 
 LBIS:AddItem(spec, "40255", LBIS.L["Trinket"], "BIS") --Dying Curse
 LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Dragon Soul
-LBIS:AddItem(spec, "40373", LBIS.L["Trinket"], "BIS") --Extract of Necromantic Power
 LBIS:AddItem(spec, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spider
 LBIS:AddItem(spec, "40682", LBIS.L["Trinket"], "Alt") --Sundial of the Exiled
 LBIS:AddItem(spec, "37873", LBIS.L["Trinket"], "Alt") --Mark of the War Prisoner
+LBIS:AddItem(spec, "40373", LBIS.L["Trinket"], "Alt") --Extract of Necromantic Power
 
 LBIS:AddItem(spec, "40395", LBIS.L["Main Hand"], "BIS") --Torch of Holy Fire
 LBIS:AddItem(spec, "39424", LBIS.L["Main Hand"], "Alt") --The Soulblade

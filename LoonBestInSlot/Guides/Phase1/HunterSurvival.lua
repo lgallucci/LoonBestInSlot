@@ -13,6 +13,7 @@ LBIS:AddItem(spec, "40315", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Secret 
 LBIS:AddItem(spec, "37679", LBIS.L["Shoulder"], "Alt") --Spaulders of the Abomination
 
 LBIS:AddItem(spec, "40403", LBIS.L["Back"], "BIS") --Drape of the Deadly Foe
+LBIS:AddItem(spec, "40250", LBIS.L["Back"], "Alt") --Aged Winter Cloak
 LBIS:AddItem(spec, "40721", LBIS.L["Back"], "Alt") --Hammerhead Sharkskin Cloak
 LBIS:AddItem(spec, "39404", LBIS.L["Back"], "Alt") --Cloak of Mastery
 
@@ -52,6 +53,7 @@ LBIS:AddItem(spec, "40367", LBIS.L["Feet"], "Alt") --Boots of the Great Construc
 LBIS:AddItem(spec, "37167", LBIS.L["Feet"], "Alt") --Dragon Slayer's Sabatons
 
 LBIS:AddItem(spec, "44664", LBIS.L["Neck"], "BIS") --Favor of the Dragon Queen
+LBIS:AddItem(spec, "44659", LBIS.L["Neck"], "Alt") --Pendant of the Dragonsworn
 LBIS:AddItem(spec, "40065", LBIS.L["Neck"], "Alt") --Fool's Trial
 LBIS:AddItem(spec, "39421", LBIS.L["Neck"], "Alt") --Gem of Imprisoned Vassals
 LBIS:AddItem(spec, "40678", LBIS.L["Neck"], "Alt") --Pendant of the Outcast Hero
@@ -78,6 +80,8 @@ LBIS:AddItem(spec, "40388", LBIS.L["Two Hand"], "BIS") --Journey's End
 LBIS:AddItem(spec, "40497", LBIS.L["Two Hand"], "BIS") --Black Ice
 LBIS:AddItem(spec, "40384", LBIS.L["Two Hand"], "Alt") --Betrayer of Humanity
 LBIS:AddItem(spec, "40208", LBIS.L["Two Hand"], "Alt") --Cryptfiend's Bite
+LBIS:AddItem(spec, "39393", LBIS.L["Two Hand"], "Alt") --Claymore of Ancient Power
+LBIS:AddItem(spec, "39221", LBIS.L["Two Hand"], "Alt") --Wraith Spear
 LBIS:AddItem(spec, "37883", LBIS.L["Two Hand"], "Alt") --Staff of Trickery
 
 LBIS:AddItem(spec, "40385", LBIS.L["Ranged/Relic"], "BIS") --Envoy of Mortality

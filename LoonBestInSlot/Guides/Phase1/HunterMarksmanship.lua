@@ -13,6 +13,7 @@ LBIS:AddItem(spec, "40315", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Secret 
 LBIS:AddItem(spec, "37373", LBIS.L["Shoulder"], "Alt") --Massive Spaulders of the Jormungar
 
 LBIS:AddItem(spec, "40403", LBIS.L["Back"], "BIS") --Drape of the Deadly Foe
+LBIS:AddItem(spec, "40250", LBIS.L["Back"], "Alt") --Aged Winter Cloak
 LBIS:AddItem(spec, "40721", LBIS.L["Back"], "Alt") --Hammerhead Sharkskin Cloak
 LBIS:AddItem(spec, "39404", LBIS.L["Back"], "Alt") --Cloak of Mastery
 LBIS:AddItem(spec, "43566", LBIS.L["Back"], "Alt") --Ice Striker's Cloak
@@ -21,8 +22,8 @@ LBIS:AddItem(spec, "43998", LBIS.L["Chest"], "BIS") --Chestguard of Flagrant Pro
 LBIS:AddItem(spec, "40193", LBIS.L["Chest"], "Alt") --Tunic of Masked Suffering
 LBIS:AddItem(spec, "40503", LBIS.L["Chest"], "Alt") --Valorous Cryptstalker Tunic
 LBIS:AddItem(spec, "40626", LBIS.L["Chest"], "Alt") --Breastplate of the Lost Protector
-LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Protector
 LBIS:AddItem(spec, "39579", LBIS.L["Chest"], "Alt") --Heroes' Cryptstalker Tunic
+LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Protector
 
 LBIS:AddItem(spec, "40282", LBIS.L["Wrist"], "BIS") --Slime Stream Bands
 LBIS:AddItem(spec, "40736", LBIS.L["Wrist"], "Alt") --Armguard of the Tower Archer
@@ -82,6 +83,8 @@ LBIS:AddItem(spec, "40388", LBIS.L["Two Hand"], "BIS") --Journey's End
 LBIS:AddItem(spec, "40497", LBIS.L["Two Hand"], "BIS") --Black Ice
 LBIS:AddItem(spec, "40384", LBIS.L["Two Hand"], "Alt") --Betrayer of Humanity
 LBIS:AddItem(spec, "40208", LBIS.L["Two Hand"], "Alt") --Cryptfiend's Bite
+LBIS:AddItem(spec, "39393", LBIS.L["Two Hand"], "Alt") --Claymore of Ancient Power
+LBIS:AddItem(spec, "39221", LBIS.L["Two Hand"], "Alt") --Wraith Spear
 LBIS:AddItem(spec, "44249", LBIS.L["Two Hand"], "Alt") --Runeblade of Demonstrable Power
 
 LBIS:AddItem(spec, "40385", LBIS.L["Ranged/Relic"], "BIS") --Envoy of Mortality

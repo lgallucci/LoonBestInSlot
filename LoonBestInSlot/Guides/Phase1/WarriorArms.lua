@@ -51,6 +51,7 @@ LBIS:AddItem(spec, "43994", LBIS.L["Legs"], "Alt") --Belabored Legplates
 
 LBIS:AddItem(spec, "40591", LBIS.L["Feet"], "BIS") --Melancholy Sabatons
 LBIS:AddItem(spec, "40206", LBIS.L["Feet"], "Alt") --Iron-Spring Jumpers
+LBIS:AddItem(spec, "39706", LBIS.L["Feet"], "Alt") --Sabatons of Sudden Reprisal
 LBIS:AddItem(spec, "40742", LBIS.L["Feet"], "Alt") --Bladed Steelboots
 
 LBIS:AddItem(spec, "44664", LBIS.L["Neck"], "BIS") --Favor of the Dragon Queen
@@ -60,16 +61,16 @@ LBIS:AddItem(spec, "37397", LBIS.L["Neck"], "Alt") --Gold Amulet of Kings
 
 LBIS:AddItem(spec, "40717", LBIS.L["Ring"], "BIS") --Ring of Invincibility
 LBIS:AddItem(spec, "43993", LBIS.L["Ring"], "BIS") --Greatring of Collision
-LBIS:AddItem(spec, "37642", LBIS.L["Ring"], "BIS") --Hemorrhaging Circle
 LBIS:AddItem(spec, "40474", LBIS.L["Ring"], "Alt") --Surge Needle Ring
 LBIS:AddItem(spec, "40075", LBIS.L["Ring"], "Alt") --Ruthlessness
+LBIS:AddItem(spec, "37642", LBIS.L["Ring"], "Alt") --Hemorrhaging Circle
 
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "40256", LBIS.L["Trinket"], "BIS") --Grim Toll
-LBIS:AddItem(spec, "39257", LBIS.L["Trinket"], "BIS") --Loatheb's Shadow
-LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
-LBIS:AddItem(spec, "37166", LBIS.L["Trinket"], "BIS") --Sphere of Red Dragon's Blood
 LBIS:AddItem(spec, "40431", LBIS.L["Trinket"], "Alt") --Fury of the Five Flights
+LBIS:AddItem(spec, "39257", LBIS.L["Trinket"], "Alt") --Loatheb's Shadow
+LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "Alt") --Mirror of Truth
+LBIS:AddItem(spec, "37166", LBIS.L["Trinket"], "Alt") --Sphere of Red Dragon's Blood
 
 LBIS:AddItem(spec, "40384", LBIS.L["Two Hand"], "BIS") --Betrayer of Humanity
 LBIS:AddItem(spec, "39417", LBIS.L["Two Hand"], "BIS") --Death's Bite
@@ -79,4 +80,5 @@ LBIS:AddItem(spec, "37852", LBIS.L["Two Hand"], "Alt") --Colossal Skull-Clad Cle
 
 LBIS:AddItem(spec, "40385", LBIS.L["Ranged/Relic"], "BIS") --Envoy of Mortality
 LBIS:AddItem(spec, "40190", LBIS.L["Ranged/Relic"], "Alt") --Spinning Fate
+LBIS:AddItem(spec, "39419", LBIS.L["Ranged/Relic"], "Alt") --Nerubian Conquerer
 LBIS:AddItem(spec, "37191", LBIS.L["Ranged/Relic"], "Alt") --Drake-Mounted Crossbow
