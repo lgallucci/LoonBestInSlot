@@ -22,7 +22,14 @@ function LBIS.BrowserWindow:ToggleWindow()
 end
 
 local open_tab = "ItemList";
-function LBIS.BrowserWindow:RefreshItems()
+function LBIS.BrowserWindow:RefreshItems()    
+
+    if LBISSettings.ShowPriority then
+        priorityListTabButton:Hide()
+    else
+        priorityListTabButton:Show()
+    end
+
     if open_tab == "ItemList" then
         LBIS.ItemList:UpdateItems();
     elseif open_tab == "GemList" then
@@ -137,6 +144,7 @@ function LBIS.BrowserWindow:UpdateItemsForSpec(rowFunc)
     window.ScrollFrame:SetScrollChild(window.Container);
 end
 
+local priorityListTabButton;
 function createTabs(window, content) 
 
     local itemListTabButton = CreateFrame("Button", "ContainerTab1", window, "CharacterFrameTabButtonTemplate")
@@ -175,7 +183,8 @@ function createTabs(window, content)
         LBIS.BrowserWindow:RefreshItems();
     end);
 
-    local priorityListTabButton = CreateFrame("Button", "ContainerTab4", window, "CharacterFrameTabButtonTemplate")
+
+    priorityListTabButton = CreateFrame("Button", "ContainerTab4", window, "CharacterFrameTabButtonTemplate")
     local priorityListTabString = priorityListTabButton:CreateFontString("PriorityListTabText", "OVERLAY", "GameFontNormalSmall");
     priorityListTabString:SetPoint("CENTER", priorityListTabButton, "CENTER", 0, 3);
     priorityListTabString:SetText(LBIS.L["Priority"]);
@@ -186,7 +195,7 @@ function createTabs(window, content)
     
         LBIS.BrowserWindow:RefreshItems();
     end);
-    
+
     PanelTemplates_SetNumTabs(content, 4);
     PanelTemplates_SetTab(content, 1);
 end
@@ -219,7 +228,7 @@ function createDropDowns(window)
         end
     }
     window.SpecDropDown = LBIS:CreateDropdown(spec_opts);
-    window.SpecDropDown:SetPoint("TOPLEFT", window, 30, -28);      
+    window.SpecDropDown:SetPoint("TOPLEFT", window, 20, -28);      
 
     local slot_opts = {
         ['name']='slot',
@@ -233,7 +242,7 @@ function createDropDowns(window)
         end
     }
     window.SlotDropDown = LBIS:CreateDropdown(slot_opts);
-    window.SlotDropDown:SetPoint("TOPLEFT", window, 210, -28);
+    window.SlotDropDown:SetPoint("TOPLEFT", window, 200, -28);
 
     local phase_opts = {
         ['name']='phase',
@@ -247,7 +256,7 @@ function createDropDowns(window)
         end
     }
     window.PhaseDropDown = LBIS:CreateDropdown(phase_opts);
-    window.PhaseDropDown:SetPoint("TOPLEFT", window, 350, -28);
+    window.PhaseDropDown:SetPoint("TOPLEFT", window, 340, -28);
 
     local source_opts = {
         ['name']='source',
@@ -261,7 +270,7 @@ function createDropDowns(window)
         end
     }
     window.SourceDropDown = LBIS:CreateDropdown(source_opts);
-    window.SourceDropDown:SetPoint("TOPLEFT", window, 475, -28);
+    window.SourceDropDown:SetPoint("TOPLEFT", window, 455, -28);
 
     local zone_opts = {
         ['name']='zone',
@@ -277,7 +286,7 @@ function createDropDowns(window)
         end
     }
     window.RaidDropDown = LBIS:CreateDropdown(zone_opts);
-    window.RaidDropDown:SetPoint("TOPLEFT", window, 625, -28);
+    window.RaidDropDown:SetPoint("TOPLEFT", window, 600, -28);
 
 end
 

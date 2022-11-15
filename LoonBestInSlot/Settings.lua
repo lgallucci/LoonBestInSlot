@@ -53,7 +53,6 @@ LBISSettingsDefault =
 		--[LBIS.L["Phase 5"]] = true
 	},
 	PriorityList = {
-		--TODO: Need to add spec here!
 		[LBIS.L["Head"]] = {},
 		[LBIS.L["Shoulder"]] = {},
 		[LBIS.L["Back"]] = {},

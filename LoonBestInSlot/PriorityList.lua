@@ -33,66 +33,171 @@ local function itemSortFunction(table, k1, k2)
     return item1Score > item2Score
 end
 
-local function createPriorityRow(f, slot, itemList)
+local function assignItemsToFrame(f, itemList)
 
-    local t, eb = nil, nil;
-    local window = LBIS.BrowserWindow.Window;
-            
-    t = f:CreateFontString(nil, nil, "GameFontNormal");
-    t:SetText(slot..":");
-    t:SetPoint("LEFT", f, "LEFT", 10, 0);
     local itemCount = 1;
+    local totalItems = getn(itemList);
+    
     for orderId, itemId in pairs(itemList) do
 
         LBIS:GetItemInfo(itemId, function(item)
-            local b, bLeft, bRight, bDelete, t2 = nil;
 
             if item == nil or item.Id == nil or item.Link == nil or item.Type == nil then
                 LBIS:Error("Failed Load: "..itemId);
                 failedLoad = true;
             end
 
-            b = CreateFrame("Button", nil, f);
-            b:SetSize(32, 32);
-            local bt = b:CreateTexture();
-            bt:SetAllPoints();
-            bt:SetTexture(item.Texture);
-            b:SetPoint("TOPLEFT", f, 50 + (itemCount * 85), -5);
-            LBIS:SetTooltipOnButton(b, item);
+            f.PriorityButtons[itemCount].ItemButton:SetNormalTexture(item.Texture);
+            LBIS:SetTooltipOnButton(f.PriorityButtons[itemCount].ItemButton, item);
                         
-            bLeft = CreateFrame("Button", nil, f);
-            bLeft:SetSize(12, 12);
-            local btLeft = bLeft:CreateTexture("bLeft", "ARTWORK");
-            btLeft:SetAllPoints(bLeft);
-            btLeft:SetTexture("Interface/AddOns/LoonBestInSlot/Icons/arrowleft.tga");
-            bLeft:SetPoint("TOPLEFT", b, "TOPRIGHT", 1, 0);
+            if itemCount == 1 then
+                f.PriorityButtons[itemCount].LeftButton:Disable();
+            else                
+                f.PriorityButtons[itemCount].LeftButton:Enable();
+            end
 
-            bRight = CreateFrame("Button", nil, f);
-            bRight:SetSize(12, 12);
-            local btRight = bRight:CreateTexture("bRight", "ARTWORK");
-            btRight:SetAllPoints(bRight);
-            btRight:SetTexture("Interface/AddOns/LoonBestInSlot/Icons/arrowright.tga");
-            bRight:SetPoint("TOPLEFT", bLeft, "BOTTOMLEFT", 0, 0);
-
-            bDelete = CreateFrame("Button", nil, f);
-            bDelete:SetSize(12, 12);
-            local btDelete = bDelete:CreateTexture("bDelete", "ARTWORK");
-            btDelete:SetAllPoints(bDelete);
-            btDelete:SetTexture("Interface/AddOns/LoonBestInSlot/Icons/delete.tga");
-            bDelete:SetPoint("TOPLEFT", bRight, "BOTTOMLEFT", 0, 0);
-
-            t2 = f:CreateFontString(nil, nil, "GameFontNormal");
-            t2:SetText(itemCount..": ");
-            t2:SetPoint("RIGHT", b, "LEFT", -5, 0);
+            if itemCount == totalItems then
+                f.PriorityButtons[itemCount].RightButton:Disable();
+            else                
+                f.PriorityButtons[itemCount].RightButton:Enable();
+            end
 
         end);
+
+        f.PriorityButtons[itemCount]:ShowButtons();
+
         itemCount = itemCount + 1;
+
     end
 
-    eb = CreateFrame("Button", nil, f, "ItemButtonTemplate");
+    for i = itemCount,6 do     
+        f.PriorityButtons[i]:HideButtons();
+    end
+end
+
+local function createPriorityRow(f, slot, itemList)
+
+    local t, editFrame, eb = nil, nil, nil;
+    local window = LBIS.BrowserWindow.Window;
+            
+    t = f:CreateFontString(nil, nil, "GameFontNormal");
+    t:SetText(slot..":");
+    t:SetPoint("LEFT", f, "LEFT", 10, 0);
+        
+    f.PriorityButtons = {};
+
+    for i=1,6 do
+
+        local b, bLeft, bRight, bDelete,  t2 = nil, nil, nil, nil, nil;
+        b = CreateFrame("Button", nil, f);
+        b:SetSize(32, 32);
+        b:SetPoint("TOPLEFT", f, 50 + (i * 85), -5);
+        b:Hide();
+
+        bLeft = CreateFrame("Button", nil, f);
+        bLeft:SetSize(12, 12);
+        bLeft:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowleft.tga");
+        bLeft:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowleft_down.tga");
+        bLeft:SetDisabledTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowleft_dis.tga");
+        bLeft:SetPoint("TOPLEFT", b, "TOPRIGHT", 2, 0);
+        bLeft:SetScript("OnClick", 
+            function(self, button)
+                if button == "LeftButton" then
+                    itemList[i], itemList[i-1] = itemList[i-1], itemList[i]
+                    assignItemsToFrame(f, itemList);
+                end
+            end
+        );
+        bLeft:Hide();
+                    
+        bRight = CreateFrame("Button", nil, f);
+        bRight:SetSize(12, 12);
+        bRight:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowright.tga");
+        bRight:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowright_down.tga")
+        bRight:SetDisabledTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowright_dis.tga");
+        bRight:SetPoint("TOPLEFT", bLeft, "BOTTOMLEFT", 0, 0);
+        bRight:SetScript("OnClick", 
+            function(self, button)
+                if button == "LeftButton" then
+                    itemList[i], itemList[i+1] = itemList[i+1], itemList[i]
+                    assignItemsToFrame(f, itemList);
+                end
+            end
+        );
+        bRight:Hide();
+
+        bDelete = CreateFrame("Button", nil, f);    
+        bDelete:SetSize(12, 12);
+        bDelete:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\delete.tga");
+        bDelete:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\delete_down.tga")
+        bDelete:SetPoint("TOPLEFT", bRight, "BOTTOMLEFT", 0, 0);
+        bDelete:SetScript("OnClick", 
+            function(self, button)
+                if button == "LeftButton" then
+                    f.AddButton:Enable();
+                    table.remove(itemList, i);
+                    assignItemsToFrame(f, itemList);
+                end
+            end
+        );
+        bDelete:Hide();
+        
+        t2 = f:CreateFontString(nil, nil, "GameFontNormal");
+        t2:SetText(i..": ");
+        t2:SetPoint("RIGHT", b, "LEFT", -5, 0);
+        t2:Hide();
+
+        f.PriorityButtons[i] = { ItemButton = b, LeftButton = bLeft, RightButton = bRight, 
+        ShowButtons = function() 
+            b:Show();bLeft:Show();bRight:Show();bDelete:Show();t2:Show();
+        end,
+        HideButtons = function()
+            b:Hide();bLeft:Hide();bRight:Hide();bDelete:Hide();t2:Hide();
+        end}
+    end
+
+    --TODO: Break out UI for searching for button
+    --TODO: Reskin add button
+    --TODO: Disable when list is full
+    eb = CreateFrame("Button", nil, f);
     eb:SetPoint("RIGHT", f, "RIGHT", -10, 0)
-    eb:SetText("Edit");
-    eb:SetNormalFontObject("GameFontNormalSmall");
+    eb:SetSize(32, 32);
+    eb:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\add.tga");
+    eb:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\add_down.tga")
+    eb:SetDisabledTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\add_dis.tga");
+    eb:SetScript("OnClick", 
+        function(self, button)
+            if button == "LeftButton" then
+                local editText = tonumber(editFrame:GetText());
+
+                if editText ~= nil and getn(itemList) < 6 then
+                --TODO: Does the list already contain item?
+                    table.insert(itemList, editText)
+                    assignItemsToFrame(f, itemList);
+                end
+
+                if getn(itemList) >= 6 then
+                    self:Disable();
+                end
+            end
+        end
+    );
+    
+    if getn(itemList) >= 6 then
+        eb:Disable();
+    end
+
+    f.AddButton = eb;
+        
+    editFrame = CreateFrame("EditBox", nil, f, "InputBoxTemplate");
+    editFrame:SetPoint("RIGHT", eb, "LEFT", -10, 0)
+    editFrame:SetWidth(60);
+    editFrame:SetHeight(25);
+    editFrame:SetMovable(false);
+    editFrame:SetAutoFocus(false);
+    editFrame:SetMaxLetters(6);
+
+    assignItemsToFrame(f, itemList);
 
     return 46;
 
