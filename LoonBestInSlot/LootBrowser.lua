@@ -21,13 +21,15 @@ function LBIS.BrowserWindow:ToggleWindow()
     end
 end
 
+
+local priorityListTabButton;
 local open_tab = "ItemList";
 function LBIS.BrowserWindow:RefreshItems()    
 
     if LBISSettings.ShowPriority then
-        priorityListTabButton:Hide()
-    else
         priorityListTabButton:Show()
+    else
+        priorityListTabButton:Hide()
     end
 
     if open_tab == "ItemList" then
@@ -144,7 +146,6 @@ function LBIS.BrowserWindow:UpdateItemsForSpec(rowFunc)
     window.ScrollFrame:SetScrollChild(window.Container);
 end
 
-local priorityListTabButton;
 function createTabs(window, content) 
 
     local itemListTabButton = CreateFrame("Button", "ContainerTab1", window, "CharacterFrameTabButtonTemplate")
@@ -262,7 +263,7 @@ function createDropDowns(window)
         ['name']='source',
         ['parent']=window,
         ['title']='Source:',
-        ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Dungeon Token"], LBIS.L["Vendor"], LBIS.L["Quest"], LBIS.L["PvP"], LBIS.L["Transmute"] },
+        ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Dungeon Token"], LBIS.L["Vendor"], LBIS.L["Quest"], LBIS.L["PvP"] },
         ['defaultVal']= LBISSettings.SelectedSourceType,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedSourceType = dropdown_val;
@@ -277,8 +278,11 @@ function createDropDowns(window)
         ['parent']=window,
         ['title']='Raid:',
         ['items']= { LBIS.L["All"], LBIS.L["Naxxramas (10)"], LBIS.L["Naxxramas (25)"], LBIS.L["The Eye of Eternity (10)"], LBIS.L["The Eye of Eternity (25)"], 
-        LBIS.L["Vault of Archavon (10)"], LBIS.L["Vault of Archavon (25)"], LBIS.L["The Obsidian Sanctum (10)"], LBIS.L["The Obsidian Sanctum (25)"]},
-        --, LBIS.L["Ulduar"], LBIS.L["Trial of the Crusader"], LBIS.L["Onyxia's Lair'"], LBIS.L["Icecrown Citadel"], LBIS.L["The Ruby Sanctum"]
+            LBIS.L["Vault of Archavon (10)"], LBIS.L["Vault of Archavon (25)"], LBIS.L["The Obsidian Sanctum (10)"], LBIS.L["The Obsidian Sanctum (25)"]},
+            --LBIS.L["Ulduar (10)"], LBIS.L["Ulduar (25)"], 
+            --LBIS.L["Trial of the Crusader (10)"], LBIS.L["Trial of the Crusader (25)"], LBIS.L["Onyxia's Lair (10)"], LBIS.L["Onyxia's Lair (25)"], 
+            --LBIS.L["Icecrown Citadel (10)"], LBIS.L["Icecrown Citadel (25)"],
+            --LBIS.L["The Ruby Sanctum (10)"], LBIS.L["The Ruby Sanctum (25)"]},
         ['defaultVal']= LBISSettings.SelectedZone,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedZone = dropdown_val;
