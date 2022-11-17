@@ -83,7 +83,7 @@ end
 
 local function createPriorityRow(f, slot, itemList)
 
-    local t, editFrame, eb = nil, nil, nil;
+    local t, et, editFrame, eb = nil, nil, nil, nil;
     local window = LBIS.BrowserWindow.Window;
             
     t = f:CreateFontString(nil, nil, "GameFontNormal");
@@ -190,7 +190,7 @@ local function createPriorityRow(f, slot, itemList)
             end
         end
     );
-    
+
     if getn(itemList) >= 6 then
         eb:Disable();
     end
@@ -204,6 +204,10 @@ local function createPriorityRow(f, slot, itemList)
     editFrame:SetMovable(false);
     editFrame:SetAutoFocus(false);
     editFrame:SetMaxLetters(6);
+        
+    et = f:CreateFontString(nil, nil, "GameFontNormal");
+    et:SetText("Item Id");
+    et:SetPoint("RIGHT", editFrame, "RIGHT", -10, 0);    
 
     assignItemsToFrame(f, itemList);
 
