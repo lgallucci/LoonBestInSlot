@@ -21,7 +21,6 @@ function LBIS.BrowserWindow:ToggleWindow()
     end
 end
 
-
 local priorityListTabButton;
 local open_tab = "ItemList";
 function LBIS.BrowserWindow:RefreshItems()    

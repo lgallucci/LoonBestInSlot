@@ -74,7 +74,7 @@ local function createItemRow(f, specEnchant, specEnchantSource)
         st:SetPoint("BOTTOMLEFT", b, "BOTTOMRIGHT", 2, 2);
         
         if tonumber(specEnchantSource.DesignId) > 0 and tonumber(specEnchantSource.DesignId) < 99999 then
-            LBIS:GetItemInfo(specEnchantSource.DesignId, function(designItem)
+            LBIS:GetItemInfo(tonumber(specEnchantSource.DesignId), function(designItem)
 
                 if designItem.Name == nil then
                     return;
@@ -148,7 +148,7 @@ function LBIS.EnchantList:UpdateItems()
 
         for enchantId, specEnchant in LBIS:spairs(specEnchants, itemSortFunction) do
         
-            local specEnchantSource = LBIS.EnchantSources[tonumber(specEnchant.Id)];
+            local specEnchantSource = LBIS.EnchantSources[specEnchant.Id];
     
             if specEnchantSource == nil then
                 LBIS:Error("Missing Enchant source: ", specEnchant);

@@ -101,15 +101,6 @@ local function printSource(itemId, specItemSource, dl)
     local sourceNumberText = specItemSource.SourceNumber;
     local sourceLocationText = specItemSource.SourceLocation;
 
-    --if VendorPrice ~= nil then
-    --    local vendorText = VendorPrice.GetVendorPriceForItem(tonumber(itemId));
-        
-    --    if vendorText ~= nil then
-    --        dl:SetText(getVendorText(vendorText, sourceLocationText))
-	--		return
-    --    end
-    --end
-
     local sourceText1, sourceText2, sourceText3 = strsplit("/", sourceText);
     local sourceNumberText1, sourceNumberText2, sourceNumberText3 = strsplit("/", sourceNumberText);
     local sourceLocationText1, sourceLocationText2, sourceLocationText3 = strsplit("/", sourceLocationText);
@@ -378,14 +369,14 @@ function LBIS.ItemList:UpdateItems()
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
         
         local specItems = LBIS.SpecItems[LBIS.SpecToName[LBISSettings.SelectedSpec]];
-               
+        
         if specItems == nil then
             LBIS.BrowserWindow.Window.Unavailable:Show();
         end
 
         for itemId, specItem in LBIS:spairs(specItems, itemSortFunction) do
             
-            local specItemSource = LBIS.ItemSources[tonumber(specItem.Id)];
+            local specItemSource = LBIS.ItemSources[specItem.Id];
 
             if specItemSource == nil then
                 LBIS:Error("Missing item source: ", specItem);

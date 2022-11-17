@@ -45,7 +45,7 @@ local function createItemRow(f, specGem, specGemSource)
         t:SetPoint("TOPLEFT", b, "TOPRIGHT", 2, -2);
         
         if tonumber(specGemSource.DesignId) > 0 and tonumber(specGemSource.DesignId) < 99999 then
-            LBIS:GetItemInfo(specGemSource.DesignId, function(designItem)
+            LBIS:GetItemInfo(tonumber(specGemSource.DesignId), function(designItem)
 
                 if designItem.Name == nil then
                     return;
@@ -109,7 +109,7 @@ function LBIS.GemList:UpdateItems()
 
         for gemId, specGem in LBIS:spairs(specGems, itemSortFunction) do
         
-            local specGemSource = LBIS.GemSources[tonumber(specGem.Id)];
+            local specGemSource = LBIS.GemSources[specGem.Id];
     
             if specGemSource == nil then
                 LBIS:Error("Missing gem source: ", specGem);

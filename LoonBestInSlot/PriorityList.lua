@@ -1,4 +1,5 @@
 LBIS.PriorityList = {};
+LBIS.PriorityList.Items = {};
 
 local itemSlotOrder = {}
 itemSlotOrder[LBIS.L["Head"]] = 0;
@@ -66,8 +67,13 @@ local function assignItemsToFrame(f, itemList)
 
         f.PriorityButtons[itemCount]:ShowButtons();
 
-        itemCount = itemCount + 1;
+        if LBIS.PriorityList.Items[itemId] == nil then
+            LBIS.PriorityList.Items[itemId] = {};
+        end
 
+        LBIS.PriorityList.Items[itemId][LBIS.SpecToName[LBISSettings.SelectedSpec]] = itemCount;
+        
+        itemCount = itemCount + 1;
     end
 
     for i = itemCount,6 do     
@@ -103,7 +109,7 @@ local function createPriorityRow(f, slot, itemList)
         bLeft:SetScript("OnClick", 
             function(self, button)
                 if button == "LeftButton" then
-                    itemList[i], itemList[i-1] = itemList[i-1], itemList[i]
+                    itemList[i], itemList[i-1] = itemList[i-1], itemList[i]                    
                     assignItemsToFrame(f, itemList);
                 end
             end
@@ -135,7 +141,9 @@ local function createPriorityRow(f, slot, itemList)
             function(self, button)
                 if button == "LeftButton" then
                     f.AddButton:Enable();
+                    local itemId = itemList[i];
                     table.remove(itemList, i);
+                    LBIS.PriorityList.Items[itemId][LBIS.SpecToName[LBISSettings.SelectedSpec]] = nil;
                     assignItemsToFrame(f, itemList);
                 end
             end
@@ -203,6 +211,25 @@ local function createPriorityRow(f, slot, itemList)
 
 end
 
+local defaultPriorityList = {
+	[LBIS.L["Head"]] = {},
+	[LBIS.L["Shoulder"]] = {},
+	[LBIS.L["Back"]] = {},
+	[LBIS.L["Chest"]] = {},
+	[LBIS.L["Wrist"]] = {},
+	[LBIS.L["Hands"]] = {},
+	[LBIS.L["Waist"]] = {},
+	[LBIS.L["Legs"]] = {},
+	[LBIS.L["Feet"]] = {},
+	[LBIS.L["Neck"]] = {},
+	[LBIS.L["Ring"]] = {},
+	[LBIS.L["Trinket"]] = {},
+	[LBIS.L["Main Hand"]] = {},
+	[LBIS.L["Off Hand"]] = {},
+	[LBIS.L["Two Hand"]] = {},
+	[LBIS.L["Ranged/Relic"]] = {}
+};
+
 function LBIS.PriorityList:UpdateItems()    
 
     LBIS.BrowserWindow.Window.SlotDropDown:Hide();
@@ -211,10 +238,17 @@ function LBIS.PriorityList:UpdateItems()
     LBIS.BrowserWindow.Window.RaidDropDown:Hide();
 
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
+        
+        local savedPriorityList = LBISSettings.PriorityList[LBIS.SpecToName[LBISSettings.SelectedSpec]];
 
-        for slot, itemList in LBIS:spairs(LBISSettings.PriorityList, itemSortFunction) do
+        if savedPriorityList == nil then
+            LBISSettings.PriorityList[LBIS.SpecToName[LBISSettings.SelectedSpec]] = defaultPriorityList;
+            savedPriorityList = defaultPriorityList;
+        end
+
+        for slot, itemList in LBIS:spairs(savedPriorityList, itemSortFunction) do
             
-            point = LBIS.BrowserWindow:CreateItemRow(slot, itemList, "Priority"..slot, point, createPriorityRow);
+            point = LBIS.BrowserWindow:CreateItemRow(slot, itemList, "Priority"..LBISSettings.SelectedSpec..slot, point, createPriorityRow);
 
         end
 

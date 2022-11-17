@@ -53,22 +53,6 @@ LBISSettingsDefault =
 		--[LBIS.L["Phase 5"]] = true
 	},
 	PriorityList = {
-		[LBIS.L["Head"]] = {},
-		[LBIS.L["Shoulder"]] = {},
-		[LBIS.L["Back"]] = {},
-		[LBIS.L["Chest"]] = {},
-		[LBIS.L["Wrist"]] = {},
-		[LBIS.L["Hands"]] = {},
-		[LBIS.L["Waist"]] = {},
-		[LBIS.L["Legs"]] = {},
-		[LBIS.L["Feet"]] = {},
-		[LBIS.L["Neck"]] = {},
-		[LBIS.L["Ring"]] = {},
-		[LBIS.L["Trinket"]] = {},
-		[LBIS.L["Main Hand"]] = {},
-		[LBIS.L["Off Hand"]] = {},
-		[LBIS.L["Two Hand"]] = {},
-		[LBIS.L["Ranged/Relic"]] = {}
 	}
 };
 
@@ -493,8 +477,8 @@ local lbis_options = {
 		},
 		show = {
 			type = "toggle",
-			name = LBIS.L["Show Priority"],
-			desc = LBIS.L["Show Priority"],
+			name = "*BETA*:"..LBIS.L["Show Priority"],
+			desc = "*BETA*:"..LBIS.L["Show Priority"],
 			get = function(info) return LBISSettings.ShowPriority end,
 			set = function(info, val) LBISSettings.ShowPriority = val end,
 			width = 1.1,

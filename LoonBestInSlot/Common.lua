@@ -3,6 +3,22 @@ function LBIS:PreCacheItems()
 
     LBIS.AllItemsCached = true;
 
+    for prioSpec in pairs(LBISSettings.PriorityList) do
+        for prioSlot in pairs(LBISSettings.PriorityList[prioSpec]) do
+            local itemCount = 1;
+            for _, itemId in pairs(LBISSettings.PriorityList[prioSpec][prioSlot]) do                
+                LBIS:Error("Caching ("..prioSpec..") ("..prioSlot..") ("..itemId.."): ", itemCount);
+
+                if LBIS.PriorityList.Items[itemId] == nil then
+                    LBIS.PriorityList.Items[itemId] = {};
+                end
+
+                LBIS.PriorityList.Items[itemId][prioSpec] = itemCount;
+                itemCount = itemCount + 1;
+            end
+        end
+    end
+
     for itemId, _ in pairs(LBIS.Items) do
 
         if itemId and itemId ~= 0 then
@@ -47,9 +63,7 @@ function LBIS:TableLength(T)
   return count
 end
 
-function LBIS:GetItemInfo(itemIdString, returnFunc)
-
-    local itemId = tonumber(itemIdString);
+function LBIS:GetItemInfo(itemId, returnFunc)
 
     if not itemId or itemId <= 0 then
         returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil });
@@ -87,9 +101,7 @@ function LBIS:GetItemInfo(itemIdString, returnFunc)
 end
 
 
-function LBIS:GetSpellInfo(spellIdString, returnFunc)
-
-    local spellId = tonumber(spellIdString);
+function LBIS:GetSpellInfo(spellId, returnFunc)
 
     if not spellId or spellId <= 0 then
         returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil });
