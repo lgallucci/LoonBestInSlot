@@ -3,7 +3,7 @@
 namespace AddonManager.Models;
 public class DatabaseItems
 {
-    public Dictionary<int, DatabaseItem> Items { get; set; } = new Dictionary<int, DatabaseItem>();
+    public SortedDictionary<int, DatabaseItem> Items { get; set; } = new SortedDictionary<int, DatabaseItem>();
 
     public void AddItems(DatabaseItems convertedDbItem)
     {
