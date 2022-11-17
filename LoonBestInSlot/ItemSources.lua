@@ -437,6 +437,7 @@ LBIS.ItemSources =
     [38322] = { Name = "Iron-bound Tome", SourceType = LBIS.L["Profession"], Source = LBIS.L["Inscription"], SourceNumber = "0", SourceLocation = "59497" },
     [38360] = { Name = "Idol of Arcane Terror", SourceType = LBIS.L["Vendor"], Source = LBIS.L["Purkom (Venture Cove)"], SourceNumber = "30V", SourceLocation = LBIS.L["Grizzly Hills"] },
     [38365] = { Name = "Idol of Perspicacious Attacks", SourceType = LBIS.L["Vendor"], Source = LBIS.L["Purkom (Venture Cove)"], SourceNumber = "30V", SourceLocation = LBIS.L["Grizzly Hills"] },
+    [38366] = { Name = "Idol of Pure Thoughts", SourceType = LBIS.L["Vendor"], Source = LBIS.L["Purkom (Venture Cove)"], SourceNumber = "30V", SourceLocation = LBIS.L["Grizzly Hills"] },
     [38368] = { Name = "Totem of the Bay", SourceType = LBIS.L["Vendor"], Source = LBIS.L["Purkom (Venture Cove)"], SourceNumber = "30V", SourceLocation = LBIS.L["Grizzly Hills"] },
     [38614] = { Name = "Embrace of Sorrow", SourceType = LBIS.L["Drop"], Source = LBIS.L["Maiden of Grief"], SourceNumber = "0", SourceLocation = LBIS.L["Halls of Stone (Normal)"] },
     [38617] = { Name = "Woeful Band", SourceType = LBIS.L["Drop"], Source = LBIS.L["Maiden of Grief"], SourceNumber = "0", SourceLocation = LBIS.L["Halls of Stone (Heroic)"] },

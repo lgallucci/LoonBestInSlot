@@ -1,7 +1,6 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Restoration"], "0")
 
 LBIS:AddItem(spec, "37149", LBIS.L["Head"], "BIS") --Helm of Anomalus
-LBIS:AddItem(spec, "36948", LBIS.L["Head"], "Alt") --Horned Helm of Varos
 LBIS:AddItem(spec, "37684", LBIS.L["Head"], "Alt") --Forgotten Shadow Hood
 LBIS:AddItem(spec, "37294", LBIS.L["Head"], "Alt") --Crown of Unbridled Magic
 
@@ -97,4 +96,5 @@ LBIS:AddItem(spec, "37617", LBIS.L["Two Hand"], "Alt") --Staff of Sinister Claws
 
 LBIS:AddItem(spec, "33508", LBIS.L["Ranged/Relic"], "BIS") --Idol of Budding Life
 LBIS:AddItem(spec, "25643", LBIS.L["Ranged/Relic"], "Alt") --Harold's Rejuvenating Broach
+LBIS:AddItem(spec, "38366", LBIS.L["Ranged/Relic"], "Alt") --Idol of Pure Thoughts
 LBIS:AddItem(spec, "32387", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Raven Goddess
