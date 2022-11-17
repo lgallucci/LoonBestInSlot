@@ -3,10 +3,10 @@ function LBIS:PreCacheItems()
 
     LBIS.AllItemsCached = true;
 
-    for prioSpec in pairs(LBISSettings.PriorityList) do
-        for prioSlot in pairs(LBISSettings.PriorityList[prioSpec]) do
+    for prioSpec in pairs(LBISPrioritySettings) do
+        for prioSlot in pairs(LBISPrioritySettings[prioSpec]) do
             local itemCount = 1;
-            for _, itemId in pairs(LBISSettings.PriorityList[prioSpec][prioSlot]) do                
+            for _, itemId in pairs(LBISPrioritySettings[prioSpec][prioSlot]) do                
                 LBIS:Error("Caching ("..prioSpec..") ("..prioSlot..") ("..itemId.."): ", itemCount);
 
                 if LBIS.PriorityList.Items[itemId] == nil then

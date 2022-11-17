@@ -506,6 +506,7 @@ end
 function LBIS:CreateSettings()
 
 	LBISSettings = CopyDefaults(LBISSettingsDefault, LBISSettings);
+	LBISPrioritySettings = LBISPrioritySettings or {};
 
 	LibStub("AceConfig-3.0"):RegisterOptionsTable("Loon Best In Slot", lbis_options, nil)
 	LibStub("AceConfigDialog-3.0"):AddToBlizOptions("Loon Best In Slot"):SetParent(InterfaceOptionsFramePanelContainer)

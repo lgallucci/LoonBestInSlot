@@ -154,7 +154,6 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 		end			
 		LBIS.Items[tonumber(itemSource.SourceNumber)][bisEntry.Id] = searchedItem
 	end
-
 end
 
 function LBIS:AddGem(bisEntry, id, quality, isMeta)

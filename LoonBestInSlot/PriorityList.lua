@@ -164,6 +164,17 @@ local function createPriorityRow(f, slot, itemList)
         end}
     end
 
+    local function has_value (tab, val)
+        for index, value in ipairs(tab) do
+            -- We grab the first index of our sub-table instead
+            if value[1] == val then
+                return true
+            end
+        end
+
+        return false
+    end
+
     --TODO: Break out UI for searching for button
     --TODO: Reskin add button
     --TODO: Disable when list is full
@@ -178,9 +189,9 @@ local function createPriorityRow(f, slot, itemList)
             if button == "LeftButton" then
                 local editText = tonumber(editFrame:GetText());
 
-                if editText ~= nil and getn(itemList) < 6 then
-                --TODO: Does the list already contain item?
+                if editText ~= nil and getn(itemList) < 6 and not has_value(itemList, editText) then
                     table.insert(itemList, editText)
+                    editFrame:SetText("");
                     assignItemsToFrame(f, itemList);
                 end
 
@@ -243,10 +254,10 @@ function LBIS.PriorityList:UpdateItems()
 
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
         
-        local savedPriorityList = LBISSettings.PriorityList[LBIS.SpecToName[LBISSettings.SelectedSpec]];
+        local savedPriorityList = LBISPrioritySettings[LBIS.SpecToName[LBISSettings.SelectedSpec]];
 
         if savedPriorityList == nil then
-            LBISSettings.PriorityList[LBIS.SpecToName[LBISSettings.SelectedSpec]] = defaultPriorityList;
+            LBISPrioritySettings[LBIS.SpecToName[LBISSettings.SelectedSpec]] = defaultPriorityList;
             savedPriorityList = defaultPriorityList;
         end
 
