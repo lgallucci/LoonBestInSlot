@@ -7,7 +7,6 @@ function LBIS:PreCacheItems()
         for prioSlot in pairs(LBISPrioritySettings[prioSpec]) do
             local itemCount = 1;
             for _, itemId in pairs(LBISPrioritySettings[prioSpec][prioSlot]) do                
-                LBIS:Error("Caching ("..prioSpec..") ("..prioSlot..") ("..itemId.."): ", itemCount);
 
                 if LBIS.PriorityList.Items[itemId] == nil then
                     LBIS.PriorityList.Items[itemId] = {};
