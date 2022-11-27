@@ -227,7 +227,7 @@ function createDropDowns(window)
             LBIS.BrowserWindow:RefreshItems();
         end
     }
-    window.SpecDropDown = LBIS:CreateDropdown(spec_opts);
+    window.SpecDropDown = LBIS:CreateDropdown(spec_opts, 140);
     window.SpecDropDown:SetPoint("TOPLEFT", window, 20, -28);      
 
     local slot_opts = {
@@ -241,7 +241,7 @@ function createDropDowns(window)
             LBIS.BrowserWindow:RefreshItems()
         end
     }
-    window.SlotDropDown = LBIS:CreateDropdown(slot_opts);
+    window.SlotDropDown = LBIS:CreateDropdown(slot_opts, 150);
     window.SlotDropDown:SetPoint("TOPLEFT", window, 200, -28);
 
     local phase_opts = {
@@ -255,7 +255,7 @@ function createDropDowns(window)
             LBIS.BrowserWindow:RefreshItems();
         end
     }
-    window.PhaseDropDown = LBIS:CreateDropdown(phase_opts);
+    window.PhaseDropDown = LBIS:CreateDropdown(phase_opts, 115);
     window.PhaseDropDown:SetPoint("TOPLEFT", window, 340, -28);
 
     local source_opts = {
@@ -269,7 +269,7 @@ function createDropDowns(window)
             LBIS.BrowserWindow:RefreshItems();
         end
     }
-    window.SourceDropDown = LBIS:CreateDropdown(source_opts);
+    window.SourceDropDown = LBIS:CreateDropdown(source_opts, 155);
     window.SourceDropDown:SetPoint("TOPLEFT", window, 455, -28);
 
     local zone_opts = {
@@ -288,7 +288,7 @@ function createDropDowns(window)
             LBIS.BrowserWindow:RefreshItems();
         end
     }
-    window.RaidDropDown = LBIS:CreateDropdown(zone_opts);
+    window.RaidDropDown = LBIS:CreateDropdown(zone_opts, 160);
     window.RaidDropDown:SetPoint("TOPLEFT", window, 600, -28);
 
 end
