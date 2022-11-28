@@ -39,7 +39,6 @@ public class WowheadGuideParser
         { 40166, 3 },
         { 40167, 3 },
         { 45880, 3 },
-
     };
 
     private Dictionary<int, int> _enchantSwaps = new Dictionary<int, int>()
@@ -78,7 +77,7 @@ public class WowheadGuideParser
         { 44876, 50370 }, //Arcanum of Blissful Mending
         { 44871, 50335 }, //Greater Inscription of the Axe
         { 44133, 50335 }, //Greater Inscription of the Axe
-        { 55656, 41611 } //Eternal Belt Buckle
+        { 55656, 41611 }  //Eternal Belt Buckle
      };
 
     private Dictionary<int, int> _gemSwaps = new Dictionary<int, int>()
@@ -111,12 +110,12 @@ public class WowheadGuideParser
 
             return closeTag;
         }
-        public string Comment(IComment comment) => HtmlMarkupFormatter.Instance.Comment(comment);// + "\n";
-        public string Doctype(IDocumentType doctype) => HtmlMarkupFormatter.Instance.Doctype(doctype);//+ "\n";
-        public string LiteralText(ICharacterData text) => HtmlMarkupFormatter.Instance.LiteralText(text);// + "\n";
-        public string OpenTag(IElement element, bool selfClosing) => HtmlMarkupFormatter.Instance.OpenTag(element, selfClosing);// + "\n";
-        public string Processing(IProcessingInstruction processing) => HtmlMarkupFormatter.Instance.Processing(processing);// + "\n";
-        public string Text(ICharacterData text) => text.Data;// + "\n";
+        public string Comment(IComment comment) => HtmlMarkupFormatter.Instance.Comment(comment);
+        public string Doctype(IDocumentType doctype) => HtmlMarkupFormatter.Instance.Doctype(doctype);
+        public string LiteralText(ICharacterData text) => HtmlMarkupFormatter.Instance.LiteralText(text);
+        public string OpenTag(IElement element, bool selfClosing) => HtmlMarkupFormatter.Instance.OpenTag(element, selfClosing);
+        public string Processing(IProcessingInstruction processing) => HtmlMarkupFormatter.Instance.Processing(processing);
+        public string Text(ICharacterData text) => text.Data;
     }
 
     public async Task<Dictionary<int, ItemSpec>> ParseWowheadGuide(ClassGuideMapping classGuide)
@@ -311,7 +310,6 @@ public class WowheadGuideParser
 
             if (headerElement != null)
             {
-
                 var nextSibling = headerElement.NextSibling;
                 int elementCounter = 0;
                 while (nextSibling != null && (nextSibling is not IHtmlTableElement || nextSibling is IHtmlHeadingElement))

@@ -370,7 +370,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
 	t:SetPoint("CENTER");				
 	f:SetSize(scrollframe:GetWidth(), scrollframe:GetHeight());
 	f:ClearAllPoints();
-	f:SetPoint("TOPLEFT", content, 0, point);
+	f:SetPoint("TOPLEFT", content, 0, 0);
     f:Hide();
 
     LBIS.BrowserWindow.Window = window;
@@ -378,6 +378,11 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     LBIS.BrowserWindow.Window.ScrollBar = scrollbar;
     LBIS.BrowserWindow.Window.Container = content;    
     LBIS.BrowserWindow.Window.Unavailable = f;
+
+    LBIS.ItemList:Create();
+    LBIS.GemList:Create();
+    LBIS.EnchantList:Create();
+    LBIS.PriorityList:Create();
 
     LBIS:RegisterTooltip();
 

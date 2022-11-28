@@ -32,6 +32,7 @@ function LBIS:CacheItem(itemId)
         if not cacheItem or cacheItem.Name == nil then
             LBIS:ReCacheItem(itemId)
         end
+        --TODO: Cache Names of items
     end);
 end
 
@@ -40,6 +41,7 @@ function LBIS:ReCacheItem(itemId)
         if not cacheItem or cacheItem.Name == nil then
             LBIS:Error("Failed to cache ("..itemId.."): ", cacheItem);
         end
+        --TODO: Cache Names of items
     end);
 end
 

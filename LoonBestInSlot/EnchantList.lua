@@ -160,3 +160,6 @@ function LBIS.EnchantList:UpdateItems()
         end
     end);
 end
+
+function LBIS.EnchantList:Create()
+end
