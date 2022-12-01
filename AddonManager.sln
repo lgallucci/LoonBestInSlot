@@ -51,23 +51,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{5D7B4E6E-0
 		LoonBestInSlot\libs\LibStub.lua = LoonBestInSlot\libs\LibStub.lua
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibExtraTip", "LibExtraTip", "{D5FED119-E194-43B0-A4AD-5A6B42A07CE8}"
-	ProjectSection(SolutionItems) = preProject
-		LoonBestInSlot\libs\LibExtraTip\API.html = LoonBestInSlot\libs\LibExtraTip\API.html
-		LoonBestInSlot\libs\LibExtraTip\API.txt = LoonBestInSlot\libs\LibExtraTip\API.txt
-		LoonBestInSlot\libs\LibExtraTip\LibExtraTip.lua = LoonBestInSlot\libs\LibExtraTip\LibExtraTip.lua
-		LoonBestInSlot\libs\LibExtraTip\LibExtraTip.toc = LoonBestInSlot\libs\LibExtraTip\LibExtraTip.toc
-		LoonBestInSlot\libs\LibExtraTip\LibMoneyFrame.lua = LoonBestInSlot\libs\LibExtraTip\LibMoneyFrame.lua
-		LoonBestInSlot\libs\LibExtraTip\Load.xml = LoonBestInSlot\libs\LibExtraTip\Load.xml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Support", "Support", "{F190ACBF-2A49-4D83-9F69-7E521FBA2016}"
-	ProjectSection(SolutionItems) = preProject
-		LoonBestInSlot\libs\LibExtraTip\Support\LibRevision.lua = LoonBestInSlot\libs\LibExtraTip\Support\LibRevision.lua
-		LoonBestInSlot\libs\LibExtraTip\Support\LibStub.lua = LoonBestInSlot\libs\LibExtraTip\Support\LibStub.lua
-		LoonBestInSlot\libs\LibExtraTip\Support\Load.xml = LoonBestInSlot\libs\LibExtraTip\Support\Load.xml
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC3ACBDB-76F6-40AD-80DF-68EE0D68E129}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.md = Readme.md
@@ -270,8 +253,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6CCD2B99-F189-4674-A1A1-9B8BB8954ECD} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
 		{5D7B4E6E-0F3B-4D5C-B6FE-1447C37D766C} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
-		{D5FED119-E194-43B0-A4AD-5A6B42A07CE8} = {5D7B4E6E-0F3B-4D5C-B6FE-1447C37D766C}
-		{F190ACBF-2A49-4D83-9F69-7E521FBA2016} = {D5FED119-E194-43B0-A4AD-5A6B42A07CE8}
 		{6685BDBB-9627-45A1-96D3-46D882F28A67} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
 		{710C8787-27EB-44FA-9AF7-7337759EA054} = {6685BDBB-9627-45A1-96D3-46D882F28A67}
 		{D4DB39EB-F46D-4D10-B652-3880F4FE2507} = {6685BDBB-9627-45A1-96D3-46D882F28A67}

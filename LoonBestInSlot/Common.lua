@@ -67,7 +67,7 @@ end
 function LBIS:GetItemInfo(itemId, returnFunc)
 
     if not itemId or itemId <= 0 then
-        returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil });
+        returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil, Class = nil });
     end
 
     local cachedItem = LBIS.WowItemCache[itemId];
@@ -78,7 +78,7 @@ function LBIS:GetItemInfo(itemId, returnFunc)
         local itemCache = Item:CreateFromItemID(itemId)
 
         itemCache:ContinueOnItemLoad(function()
-            local itemId, itemType, subType = GetItemInfoInstant(itemId)
+            local itemId, itemType, subType, _, _, classId = GetItemInfoInstant(itemId)
 
             local name = itemCache:GetItemName();
             
@@ -90,6 +90,7 @@ function LBIS:GetItemInfo(itemId, returnFunc)
                 Type = itemType,
                 SubType = subType,
                 Texture = itemCache:GetItemIcon(),
+                Class = classId
             };
 
             if name then
@@ -236,7 +237,6 @@ function LBIS:RegisterTooltip()
         end
     end);
 end
-
 
 function LBIS:spairs(t, order)
 

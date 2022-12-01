@@ -252,6 +252,9 @@ function LBIS.PriorityList:UpdateItems()
 
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
         
+        --LBIS.BrowserWindow.Window.SearchFrame:Show();
+        --LBIS.BrowserWindow.Window.ScrollBar:Disable();
+
         local savedPriorityList = LBISPrioritySettings[LBIS.SpecToName[LBISSettings.SelectedSpec]];
 
         if savedPriorityList == nil then
@@ -266,24 +269,4 @@ function LBIS.PriorityList:UpdateItems()
         end
 
     end);
-end
-
-function LBIS.PriorityList:Create()
-
-    local content = LBIS.BrowserWindow.Window.Container;
-    local scrollframe = LBIS.BrowserWindow.Window.ScrollFrame;
-
-    local f = CreateFrame("Frame", "PrioritySearch", content);
-    --f.texture = f:CreateTexture();
-    --f.texture:SetAllPoints(f);
-    --f.texture:SetVertexColor(1,1,1,.75);
-	t = f:CreateFontString(nil, nil, "GameFontNormal");
-	t:SetText("asdgfadfhasdfhasdfh");
-	t:SetPoint("CENTER", 10, 10);
-	f:SetSize(scrollframe:GetWidth(), scrollframe:GetHeight());
-	f:ClearAllPoints();
-	f:SetPoint("TOPLEFT", content, 0, 0);
-    --f:Hide();
-
-    LBIS.PriorityList.SearchFrame = f;
 end

@@ -119,6 +119,3 @@ function LBIS.GemList:UpdateItems()
         end
     end);
 end
-
-function LBIS.GemList:Create()
-end

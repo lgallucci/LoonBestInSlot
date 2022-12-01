@@ -388,6 +388,3 @@ function LBIS.ItemList:UpdateItems()
         end
     end);
 end
-
-function LBIS.ItemList:Create()
-end

@@ -1,4 +1,3 @@
-local LibExtraTip = LibStub("LibExtraTip-1")
 local iconpath = "Interface\\GLUES\\CHARACTERCREATE\\UI-CharacterCreate-Classes"
 local iconCutoff = 6
 
@@ -25,7 +24,7 @@ local function isInEnabledPhase(phaseText)
 	return showTooltip;
 end
 
-local function buildItemTooltip(tooltip, entry, combinedTooltip, foundPriority)
+local function buildCombinedTooltip(entry, combinedTooltip, foundPriority)
 
 	local mageCount, warriorDpsCount, warlockCount = 0, 0, 0;
 	local hunterCount, dkCount, rogueCount = 0, 0, 0;
@@ -89,7 +88,7 @@ local function buildItemTooltip(tooltip, entry, combinedTooltip, foundPriority)
 	end
 end
 
-local function buildPriorityTooltip(tooltip, priorityEntry, combinedTooltip)
+local function buildPriorityTooltip(priorityEntry, combinedTooltip)
 
 	local foundPriority = {}
 	local showTooltip = false;
@@ -99,33 +98,19 @@ local function buildPriorityTooltip(tooltip, priorityEntry, combinedTooltip)
 			local classSpec = LBIS.ClassSpec[k]
 			foundPriority[k] = true;
 				
-			table.insert(combinedTooltip, { Class = classSpec.Class, Spec = classSpec.Spec, Bis = "PRIORITY", Phase = "#"..v })
+			table.insert(combinedTooltip, { Class = classSpec.Class, Spec = classSpec.Spec, Bis = "Priority", Phase = "#"..v })
 		end
 	end
 
 	return foundPriority;
 end
-
-local function onTooltipSetItem(tooltip, itemLink, quantity)
-    if not itemLink then return end
     
-	local combinedTooltip = {};
-	local itemString = string.match(itemLink, "item[%-?%d:]+")
-	local itemId = tonumber(({ strsplit(":", itemString) })[2])
-	
-	local foundPriority = {};
-	if LBIS.PriorityList.Items[itemId] then
-		foundPriority = buildPriorityTooltip(tooltip, LBIS.PriorityList.Items[itemId], combinedTooltip)
-	end
-
-	if LBIS.Items[itemId] then
-		buildItemTooltip(tooltip, LBIS.Items[itemId], combinedTooltip, foundPriority)
-	end
+local function buildTooltip(tooltip, combinedTooltip)
 
 	if #combinedTooltip > 0 then
 		local r,g,b = .9,.8,.5
-		LibExtraTip:AddLine(tooltip," ",r,g,b,true)
-		LibExtraTip:AddLine(tooltip,LBIS.L["# Best for:"],r,g,b,true)
+		tooltip:AddLine(" ",r,g,b,true)
+		tooltip:AddLine(LBIS.L["# Best for:"],r,g,b,true)
 	end
 
 	for k, v in pairs(combinedTooltip) do
@@ -135,18 +120,71 @@ local function onTooltipSetItem(tooltip, itemLink, quantity)
 		local classfontstring = "|T" .. iconpath .. ":14:14:::256:256:" .. iconOffset(coords[1] * 4, coords[3] * 4) .. "|t"
 		
         if v.Phase == "0" then
-            LibExtraTip:AddDoubleLine(tooltip, classfontstring .. " " .. v.Class .. " " .. v.Spec, v.Bis, color.r, color.g, color.b, color.r, color.g, color.b, true)
+            tooltip:AddDoubleLine(classfontstring .. " " .. v.Class .. " " .. v.Spec, v.Bis, color.r, color.g, color.b, color.r, color.g, color.b, true)
         else
-            LibExtraTip:AddDoubleLine(tooltip, classfontstring .. " " .. v.Class .. " " .. v.Spec, v.Bis.." "..string.gsub(v.Phase, "0", "P"), color.r, color.g, color.b, color.r, color.g, color.b, true)
+            tooltip:AddDoubleLine(classfontstring .. " " .. v.Class .. " " .. v.Spec, v.Bis.." "..string.gsub(v.Phase, "0", "P"), color.r, color.g, color.b, color.r, color.g, color.b, true)
         end
 	end
 end
 
+local function CheckRecipe(tt, classID)
+	if classID == Enum.ItemClass.Recipe then
+		tt.isFirstMoneyLine = not tt.isFirstMoneyLine
+		return tt.isFirstMoneyLine
+	end
+end
+
+local function onTooltipSetItem(tooltip, ...)
+
+	local _, itemLink = tooltip:GetItem()
+    if not itemLink then return end
+	local itemString = string.match(itemLink, "item[%-?%d:]+")
+	local itemId = tonumber(({ strsplit(":", itemString) })[2])
+
+	LBIS:GetItemInfo(itemId, function(item)
+		local combinedTooltip = {};
+		local foundPriority = {};
+
+		print("class: "..item.Class)
+		if CheckRecipe(tooltip, item.Class) then
+			return;
+		end
+
+		if LBIS.PriorityList.Items[itemId] then
+			foundPriority = buildPriorityTooltip(LBIS.PriorityList.Items[itemId], combinedTooltip)
+		end
+
+		if LBIS.Items[itemId] then
+			buildCombinedTooltip(LBIS.Items[itemId], combinedTooltip, foundPriority)
+		end
+
+		buildTooltip(tooltip, combinedTooltip);
+	end)
+end
+
+local function onTooltipSetSpell(tooltip, ...)
+
+	local _, spellId = tooltip:GetSpell()
+    if not spellId then return end
+
+	local combinedTooltip = {};
+
+	if LBIS.Spells[spellId] then
+		buildCombinedTooltip(LBIS.Spells[spellId], combinedTooltip, {})
+	end
+
+	buildTooltip(tooltip, combinedTooltip);
+end
+
 LBIS:RegisterEvent("PLAYER_ENTERING_WORLD" , function ()
 	LBIS.EventFrame:UnregisterEvent("PLAYER_ENTERING_WORLD")
-	LibExtraTip:AddCallback({type = "item", callback = onTooltipSetItem, allevents = true})
-	LibExtraTip:RegisterTooltip(GameTooltip)
-	LibExtraTip:RegisterTooltip(ItemRefTooltip)
+
+	GameTooltip:HookScript("OnTooltipSetItem", onTooltipSetItem);
+	--GameTooltip:HookScript("OnTooltipSetSpell", onTooltipSetSpell);
+	ItemRefTooltip:HookScript("OnTooltipSetItem", onTooltipSetItem);
+	--ItemRefTooltip:HookScript("OnTooltipSetSpell", onTooltipSetSpell);
+	ShoppingTooltip1:HookScript("OnTooltipSetItem", onTooltipSetItem);
+	--ShoppingTooltip2:HookScript("OnTooltipSetItem", onTooltipSetSpell);
 
     LBIS:Startup();
 end);
