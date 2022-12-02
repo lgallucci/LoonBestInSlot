@@ -56,6 +56,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Commander Kolurg"] = "사령관 콜루르그";
   LBIS.L["Commander Stoutbeard"] = "사령관 스타우트비어드";
   LBIS.L["Coren Direbrew"] = "코렌 다이어브루";
+--  LBIS.L["Custom"] = "";
   LBIS.L["Cyanigosa"] = "시아니고사";
   LBIS.L["Daily Fishing Quest"] = "낚시 퀘스트 (일일)";
   LBIS.L["Dalaran"] = "달라란";
@@ -140,7 +141,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Honor Points"] = "명예 점수";
   LBIS.L["Honored"] = "우호적";
   LBIS.L["Icecrown"] = "얼음왕관";
-  LBIS.L["Icecrown Citadel"] = "얼음왕관 성채";
+  LBIS.L["Icecrown Citadel (10)"] = "얼음왕관 성채 (10)";
+  LBIS.L["Icecrown Citadel (25)"] = "얼음왕관 성채 (25)";
   LBIS.L["Ichoron"] = "이코론";
   LBIS.L["Ingvar the Plunderer"] = "약탈자 잉그바르";
   LBIS.L["Inscription"] = "주문각인";
@@ -204,7 +206,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Novos the Summoner"] = "소환사 노보스";
   LBIS.L["Off Hand"] = "보조장비";
   LBIS.L["One of a Kind"] = "증거를 찾아라";
-  LBIS.L["Onyxia's Lair'"] = "오닉시아의 둥지";
+  LBIS.L["Onyxia's Lair (10)"] = "오닉시아의 둥지 (10)";
+  LBIS.L["Onyxia's Lair (25)"] = "오닉시아의 둥지 (25)";
   LBIS.L["Open Browser Window"] = "창 열기";
   LBIS.L["Open Settings"] = "설정 창 열기";
   LBIS.L["Ormorok the Tree-Shaper"] = "정원사 오르모로크";
@@ -219,7 +222,6 @@ if GetLocale() == "koKR" then
   LBIS.L["PreRaid"] = "레이드 이전";
   LBIS.L["Prince Keleseth"] = "공작 켈레세스";
   LBIS.L["Prince Taldaram"] = "공작 탈다람";
---  LBIS.L["Custom"] = "";
   LBIS.L["Profession"] = "전문 기술";
   LBIS.L["Protection"] = "방어/보호";
   LBIS.L["Purkom (Venture Cove)"] = "푸르콤 <투자개발회사 주화 교환원>";
@@ -246,8 +248,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Shattrath City"] = "샤트라스";
   LBIS.L["Sholazar Basin"] = "숄라자르 분지";
   LBIS.L["Shoulder"] = "어깨";
-  LBIS.L["Show Minimap Button"] = "미니맵 버튼 보이기";
 --  LBIS.L["Show Custom"] = "";
+  LBIS.L["Show Minimap Button"] = "미니맵 버튼 보이기";
   LBIS.L["Show Tooltip"] = "직업 툴팁 표시";
   LBIS.L["Sjonnir The Ironshaper"] = "무쇠구체자 쇼니르";
   LBIS.L["Skadi the Ruthless"] = "학살자 스카디";
@@ -289,7 +291,8 @@ if GetLocale() == "koKR" then
   LBIS.L["The Oracles (Friendly)"] = "점쟁이 조합 (약간 우호적)";
   LBIS.L["The Prophet Tharon'ja"] = "예언자 타론자";
   LBIS.L["The Reckoning"] = "심판";
-  LBIS.L["The Ruby Sanctum"] = "루비 성소";
+  LBIS.L["The Ruby Sanctum (10)"] = "루비 성소 (10)";
+  LBIS.L["The Ruby Sanctum (25)"] = "루비 성소 (25)";
   LBIS.L["The Sha'tar (Exalted)"] = "샤타르 (확고한 동맹)";
   LBIS.L["The Sons of Hodir"] = "호디르의 후예";
   LBIS.L["The Sons of Hodir (Exalted)"] = "호디르의 후예 (확고한 동맹)";
@@ -311,11 +314,14 @@ if GetLocale() == "koKR" then
   LBIS.L["Transmute"] = "변환식";
   LBIS.L["Trash Drop"] = "일반 드롭";
   LBIS.L["Trash Mobs"] = "일반몹";
-  LBIS.L["Trial of the Crusader"] = "십자군의 시험장";
+  LBIS.L["Trial of the Crusader (10)"] = "십자군의 시험장 (10)";
+  LBIS.L["Trial of the Crusader (25)"] = "십자군의 시험장 (25)";
   LBIS.L["Trinket"] = "장신구";
   LBIS.L["Trollgore"] = "송곳아귀";
   LBIS.L["Two Hand"] = "양손";
   LBIS.L["Ulduar"] = "울두아르";
+  LBIS.L["Ulduar (10)"] = "울두아르 (10)";
+  LBIS.L["Ulduar (25)"] = "울두아르 (25)";
   LBIS.L["Unholy"] = "부정";
   LBIS.L["Utgarde Keep (Heroic)"] = "우트가드 성채 (영웅)";
   LBIS.L["Utgarde Keep (Normal)"] = "우트가드 성채 (일반)";

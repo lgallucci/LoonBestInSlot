@@ -56,6 +56,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Commander Kolurg"] = "指揮官寇勒格";
   LBIS.L["Commander Stoutbeard"] = "指揮官厚鬚";
   LBIS.L["Coren Direbrew"] = "寇仁·恐酒";
+--  LBIS.L["Custom"] = "";
   LBIS.L["Cyanigosa"] = "霞妮苟莎";
 --  LBIS.L["Daily Fishing Quest"] = "";
   LBIS.L["Dalaran"] = "達拉然";
@@ -140,7 +141,8 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Honor Points"] = "";
   LBIS.L["Honored"] = "尊敬";
   LBIS.L["Icecrown"] = "寒冰皇冠";
-  LBIS.L["Icecrown Citadel"] = "冰冠城塞";
+  LBIS.L["Icecrown Citadel (10)"] = "冰冠城塞 (10)";
+  LBIS.L["Icecrown Citadel (25)"] = "冰冠城塞 (25)";
   LBIS.L["Ichoron"] = "艾克膿";
   LBIS.L["Ingvar the Plunderer"] = "『盜掠者』因格瓦";
   LBIS.L["Inscription"] = "銘文學";
@@ -204,7 +206,8 @@ if GetLocale() == "zhTW" then
   LBIS.L["Novos the Summoner"] = "『召喚者』諾沃司";
   LBIS.L["Off Hand"] = "副手";
   LBIS.L["One of a Kind"] = "獨一無二";
---  LBIS.L["Onyxia's Lair'"] = "";
+  LBIS.L["Onyxia's Lair (10)"] = "奧妮克希亞的巢穴 (10)";
+  LBIS.L["Onyxia's Lair (25)"] = "奧妮克希亞的巢穴 (25)";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "『塑樹者』歐爾莫洛克";
@@ -219,7 +222,6 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["PreRaid"] = "";
   LBIS.L["Prince Keleseth"] = "凱雷希斯親王";
   LBIS.L["Prince Taldaram"] = "泰爾達朗親王";
---  LBIS.L["Custom"] = "";
 --  LBIS.L["Profession"] = "";
   LBIS.L["Protection"] = "防護";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
@@ -246,8 +248,8 @@ if GetLocale() == "zhTW" then
   LBIS.L["Shattrath City"] = "撒塔斯城";
   LBIS.L["Sholazar Basin"] = "休拉薩盆地";
   LBIS.L["Shoulder"] = "肩部";
---  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Custom"] = "";
+--  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "『塑鐵者』斯雍尼爾";
   LBIS.L["Skadi the Ruthless"] = "無情的斯卡迪";
@@ -289,7 +291,8 @@ if GetLocale() == "zhTW" then
   LBIS.L["The Oracles (Friendly)"] = "神諭者 (友方)";
   LBIS.L["The Prophet Tharon'ja"] = "預言者薩隆杰";
   LBIS.L["The Reckoning"] = "終末交鋒";
-  LBIS.L["The Ruby Sanctum"] = "晶紅聖所";
+  LBIS.L["The Ruby Sanctum (10)"] = "晶紅聖所 (10)";
+  LBIS.L["The Ruby Sanctum (25)"] = "晶紅聖所 (25)";
   LBIS.L["The Sha'tar (Exalted)"] = "薩塔 (崇拜)";
   LBIS.L["The Sons of Hodir"] = "霍迪爾之子";
   LBIS.L["The Sons of Hodir (Exalted)"] = "霍迪爾之子 (崇拜)";
@@ -311,11 +314,14 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
   LBIS.L["Trash Mobs"] = "小怪";
-  LBIS.L["Trial of the Crusader"] = "十字軍試煉";
+  LBIS.L["Trial of the Crusader (10)"] = "十字軍試煉 (10)";
+  LBIS.L["Trial of the Crusader (25)"] = "十字軍試煉 (25)";
   LBIS.L["Trinket"] = "飾品";
   LBIS.L["Trollgore"] = "血角食人妖";
   LBIS.L["Two Hand"] = "雙手";
   LBIS.L["Ulduar"] = "奧杜亞";
+  LBIS.L["Ulduar (10)"] = "奧杜亞 (10)";
+  LBIS.L["Ulduar (25)"] = "奧杜亞 (25)";
   LBIS.L["Unholy"] = "穢邪";
   LBIS.L["Utgarde Keep (Heroic)"] = "俄特加德要塞 (英雄)";
   LBIS.L["Utgarde Keep (Normal)"] = "俄特加德要塞 (一般)";

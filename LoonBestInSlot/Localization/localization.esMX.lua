@@ -56,6 +56,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Commander Kolurg"] = "Comandante Kolurg";
   LBIS.L["Commander Stoutbeard"] = "Comandante Barbarrecia";
   LBIS.L["Coren Direbrew"] = "Coren Cerveza Temible";
+--  LBIS.L["Custom"] = "";
   LBIS.L["Cyanigosa"] = "Cyanigosa";
 --  LBIS.L["Daily Fishing Quest"] = "";
   LBIS.L["Dalaran"] = "Dalaran";
@@ -140,7 +141,8 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Honor Points"] = "";
   LBIS.L["Honored"] = "Honorable";
   LBIS.L["Icecrown"] = "Corona de Hielo";
-  LBIS.L["Icecrown Citadel"] = "Ciudadela de la Corona de Hielo";
+  LBIS.L["Icecrown Citadel (10)"] = "Ciudadela de la Corona de Hielo (10)";
+  LBIS.L["Icecrown Citadel (25)"] = "Ciudadela de la Corona de Hielo (25)";
   LBIS.L["Ichoron"] = "Ícoron";
   LBIS.L["Ingvar the Plunderer"] = "Ingvar the Plunderer";
   LBIS.L["Inscription"] = "Inscripción";
@@ -204,7 +206,8 @@ if GetLocale() == "esMX" then
   LBIS.L["Novos the Summoner"] = "Novos el Invocador";
   LBIS.L["Off Hand"] = "Mano Izquierda";
   LBIS.L["One of a Kind"] = "Único";
---  LBIS.L["Onyxia's Lair'"] = "";
+  LBIS.L["Onyxia's Lair (10)"] = "Guarida de Onyxia (10)";
+  LBIS.L["Onyxia's Lair (25)"] = "Guarida de Onyxia (25)";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "Ormorok el cortador de árboles";
@@ -219,7 +222,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["PreRaid"] = "";
   LBIS.L["Prince Keleseth"] = "Príncipe Keleseth";
   LBIS.L["Prince Taldaram"] = "Príncipe Taldaram";
---  LBIS.L["Custom"] = "";
 --  LBIS.L["Profession"] = "";
   LBIS.L["Protection"] = "Protección";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
@@ -246,8 +248,8 @@ if GetLocale() == "esMX" then
   LBIS.L["Shattrath City"] = "Ciudad de Shattrath";
   LBIS.L["Sholazar Basin"] = "Cuenca de Sholazar";
   LBIS.L["Shoulder"] = "Hombros";
---  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Custom"] = "";
+--  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "Sjonnir el Afilador";
   LBIS.L["Skadi the Ruthless"] = "Skadi el Despiadado";
@@ -289,7 +291,8 @@ if GetLocale() == "esMX" then
   LBIS.L["The Oracles (Friendly)"] = "Los Oráculos (Amistoso)";
   LBIS.L["The Prophet Tharon'ja"] = "El profeta Tharon'ja";
   LBIS.L["The Reckoning"] = "Hora de la verdad";
-  LBIS.L["The Ruby Sanctum"] = "El Sagrario Rubí";
+  LBIS.L["The Ruby Sanctum (10)"] = "El Sagrario Rubí (10)";
+  LBIS.L["The Ruby Sanctum (25)"] = "El Sagrario Rubí (25)";
   LBIS.L["The Sha'tar (Exalted)"] = "Los Sha'tar (Exaltado)";
   LBIS.L["The Sons of Hodir"] = "Los Hijos de Hodir";
   LBIS.L["The Sons of Hodir (Exalted)"] = "Los Hijos de Hodir (Exaltado)";
@@ -311,11 +314,14 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
   LBIS.L["Trash Mobs"] = "Bichos";
-  LBIS.L["Trial of the Crusader"] = "Prueba del Cruzado";
+  LBIS.L["Trial of the Crusader (10)"] = "Prueba del Cruzado (10)";
+  LBIS.L["Trial of the Crusader (25)"] = "Prueba del Cruzado (25)";
   LBIS.L["Trinket"] = "Abalorio";
   LBIS.L["Trollgore"] = "Cuernotrol";
   LBIS.L["Two Hand"] = "Dos Manos";
   LBIS.L["Ulduar"] = "Ulduar";
+  LBIS.L["Ulduar (10)"] = "Ulduar (10)";
+  LBIS.L["Ulduar (25)"] = "Ulduar (25)";
   LBIS.L["Unholy"] = "Profano";
   LBIS.L["Utgarde Keep (Heroic)"] = "Fortaleza de Utgarde (Heroico)";
   LBIS.L["Utgarde Keep (Normal)"] = "Fortaleza de Utgarde (Normal)";
