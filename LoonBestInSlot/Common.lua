@@ -3,16 +3,16 @@ function LBIS:PreCacheItems()
 
     LBIS.AllItemsCached = true;
 
-    for prioSpec in pairs(LBISPrioritySettings) do
-        for prioSlot in pairs(LBISPrioritySettings[prioSpec]) do
+    for prioSpec in pairs(LBISCustomSettings) do
+        for prioSlot in pairs(LBISCustomSettings[prioSpec]) do
             local itemCount = 1;
-            for _, itemId in pairs(LBISPrioritySettings[prioSpec][prioSlot]) do                
+            for _, itemId in pairs(LBISCustomSettings[prioSpec][prioSlot]) do                
 
-                if LBIS.PriorityList.Items[itemId] == nil then
-                    LBIS.PriorityList.Items[itemId] = {};
+                if LBIS.CustomList.Items[itemId] == nil then
+                    LBIS.CustomList.Items[itemId] = {};
                 end
 
-                LBIS.PriorityList.Items[itemId][prioSpec] = itemCount;
+                LBIS.CustomList.Items[itemId][prioSpec] = itemCount;
                 itemCount = itemCount + 1;
             end
         end

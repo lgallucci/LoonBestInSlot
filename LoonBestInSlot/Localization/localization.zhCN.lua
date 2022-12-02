@@ -219,7 +219,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["PreRaid"] = "";
   LBIS.L["Prince Keleseth"] = "凯雷塞斯王子";
   LBIS.L["Prince Taldaram"] = "塔达拉姆王子";
---  LBIS.L["Priority"] = "";
+--  LBIS.L["Custom"] = "";
 --  LBIS.L["Profession"] = "";
   LBIS.L["Protection"] = "防护";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
@@ -247,7 +247,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Sholazar Basin"] = "索拉查盆地";
   LBIS.L["Shoulder"] = "肩部";
 --  LBIS.L["Show Minimap Button"] = "";
---  LBIS.L["Show Priority"] = "";
+--  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Tooltip"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "塑铁者斯约尼尔";
   LBIS.L["Skadi the Ruthless"] = "残忍的斯卡迪";

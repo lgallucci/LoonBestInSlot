@@ -219,7 +219,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["PreRaid"] = "";
   LBIS.L["Prince Keleseth"] = "Принц Келесет";
   LBIS.L["Prince Taldaram"] = "Принц Талдарам";
---  LBIS.L["Priority"] = "";
+--  LBIS.L["Custom"] = "";
 --  LBIS.L["Profession"] = "";
   LBIS.L["Protection"] = "Защита";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
@@ -247,7 +247,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Sholazar Basin"] = "Низина Шолазар";
   LBIS.L["Shoulder"] = "Плечо";
 --  LBIS.L["Show Minimap Button"] = "";
---  LBIS.L["Show Priority"] = "";
+--  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Tooltip"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "Сьоннир Литейщик";
   LBIS.L["Skadi the Ruthless"] = "Скади Безжалостный";

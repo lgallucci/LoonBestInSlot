@@ -24,13 +24,13 @@ local function isInEnabledPhase(phaseText)
 	return showTooltip;
 end
 
-local function buildCombinedTooltip(entry, combinedTooltip, foundPriority)
+local function buildCombinedTooltip(entry, combinedTooltip, foundCustom)
 
 	local mageCount, warriorDpsCount, warlockCount = 0, 0, 0;
 	local hunterCount, dkCount, rogueCount = 0, 0, 0;
 
 	for k, v in pairs(entry) do
-		if LBISSettings.Tooltip[k] and isInEnabledPhase(v.PhaseList) and foundPriority[k] == nil then
+		if LBISSettings.Tooltip[k] and isInEnabledPhase(v.PhaseList) and foundCustom[k] == nil then
 			local classSpec = LBIS.ClassSpec[k]
 			if classSpec.Class == LBIS.L["Warrior"] and (classSpec.Spec == LBIS.L["Fury"] or classSpec.Spec == LBIS.L["Arms"]) then
 				warriorDpsCount = warriorDpsCount + 1;
@@ -59,7 +59,7 @@ local function buildCombinedTooltip(entry, combinedTooltip, foundPriority)
 	end
 	
 	for k, v in pairs(entry) do
-		if LBISSettings.Tooltip[k] and isInEnabledPhase(v.PhaseList) and foundPriority[k] == nil then
+		if LBISSettings.Tooltip[k] and isInEnabledPhase(v.PhaseList) and foundCustom[k] == nil then
 			local classSpec = LBIS.ClassSpec[k]
 			local foundMatch = false;
 
@@ -88,21 +88,21 @@ local function buildCombinedTooltip(entry, combinedTooltip, foundPriority)
 	end
 end
 
-local function buildPriorityTooltip(priorityEntry, combinedTooltip)
+local function buildCustomTooltip(priorityEntry, combinedTooltip)
 
-	local foundPriority = {}
+	local foundCustom = {}
 	local showTooltip = false;
-	if LBISSettings.ShowPriority and priorityEntry ~= nil then
+	if LBISSettings.ShowCustom and priorityEntry ~= nil then
 		for k, v in pairs(priorityEntry) do
 		
 			local classSpec = LBIS.ClassSpec[k]
-			foundPriority[k] = true;
+			foundCustom[k] = true;
 				
-			table.insert(combinedTooltip, { Class = classSpec.Class, Spec = classSpec.Spec, Bis = "Priority", Phase = "#"..v })
+			table.insert(combinedTooltip, { Class = classSpec.Class, Spec = classSpec.Spec, Bis = "Custom", Phase = "#"..v })
 		end
 	end
 
-	return foundPriority;
+	return foundCustom;
 end
     
 local function buildTooltip(tooltip, combinedTooltip)
@@ -143,19 +143,18 @@ local function onTooltipSetItem(tooltip, ...)
 
 	LBIS:GetItemInfo(itemId, function(item)
 		local combinedTooltip = {};
-		local foundPriority = {};
+		local foundCustom = {};
 
-		print("class: "..item.Class)
 		if CheckRecipe(tooltip, item.Class) then
 			return;
 		end
 
-		if LBIS.PriorityList.Items[itemId] then
-			foundPriority = buildPriorityTooltip(LBIS.PriorityList.Items[itemId], combinedTooltip)
+		if LBIS.CustomList.Items[itemId] then
+			foundCustom = buildCustomTooltip(LBIS.CustomList.Items[itemId], combinedTooltip)
 		end
 
 		if LBIS.Items[itemId] then
-			buildCombinedTooltip(LBIS.Items[itemId], combinedTooltip, foundPriority)
+			buildCombinedTooltip(LBIS.Items[itemId], combinedTooltip, foundCustom)
 		end
 
 		buildTooltip(tooltip, combinedTooltip);
@@ -176,15 +175,45 @@ local function onTooltipSetSpell(tooltip, ...)
 	buildTooltip(tooltip, combinedTooltip);
 end
 
+local hookStore = {};
+local function hookScript(tip, script, prehook)
+	if not hookStore[tip] then hookStore[tip] = {} end
+	local control
+	-- check for existing hook
+	control = hookStore[tip][script]
+	if control then
+		control[1] = prehook or control[1]
+		return
+	end
+	-- prepare upvalues
+	local orig = tip:GetScript(script)
+	control = {prehook}
+	hookStore[tip][script] = control
+	-- install hook stub
+	local stub = function(...)
+		local h
+		-- prehook
+		h = control[1]
+		if h then h(...) end
+		-- original hook
+		if orig then orig(...) end
+	end
+	tip:SetScript(script, stub)
+end
+
+local function registerTooltip(tooltip)
+
+	hookScript(tooltip, "OnTooltipSetItem", onTooltipSetItem);
+	hookScript(tooltip, "OnTooltipSetSpell", onTooltipSetSpell);
+
+end
+
 LBIS:RegisterEvent("PLAYER_ENTERING_WORLD" , function ()
 	LBIS.EventFrame:UnregisterEvent("PLAYER_ENTERING_WORLD")
 
-	GameTooltip:HookScript("OnTooltipSetItem", onTooltipSetItem);
-	--GameTooltip:HookScript("OnTooltipSetSpell", onTooltipSetSpell);
-	ItemRefTooltip:HookScript("OnTooltipSetItem", onTooltipSetItem);
-	--ItemRefTooltip:HookScript("OnTooltipSetSpell", onTooltipSetSpell);
-	ShoppingTooltip1:HookScript("OnTooltipSetItem", onTooltipSetItem);
-	--ShoppingTooltip2:HookScript("OnTooltipSetItem", onTooltipSetSpell);
+	registerTooltip(GameTooltip);
+	registerTooltip(ItemRefTooltip);
+	registerTooltip(ShoppingTooltip1);
 
     LBIS:Startup();
 end);

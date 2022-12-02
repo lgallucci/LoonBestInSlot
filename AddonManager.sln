@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoonBestInSlot", "LoonBestInSlot", "{FD14C287-3398-46A3-BCC5-F8C68903B6ED}"
 	ProjectSection(SolutionItems) = preProject
 		LoonBestInSlot\Common.lua = LoonBestInSlot\Common.lua
+		LoonBestInSlot\CustomList.lua = LoonBestInSlot\CustomList.lua
 		LoonBestInSlot\EnchantList.lua = LoonBestInSlot\EnchantList.lua
 		LoonBestInSlot\EnchantSources.lua = LoonBestInSlot\EnchantSources.lua
 		LoonBestInSlot\GemList.lua = LoonBestInSlot\GemList.lua
@@ -18,7 +19,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoonBestInSlot", "LoonBestI
 		LoonBestInSlot\LoonBestInSlot.toc = LoonBestInSlot\LoonBestInSlot.toc
 		LoonBestInSlot\LootBrowser.lua = LoonBestInSlot\LootBrowser.lua
 		LoonBestInSlot\MinimapButton.lua = LoonBestInSlot\MinimapButton.lua
-		LoonBestInSlot\PriorityList.lua = LoonBestInSlot\PriorityList.lua
 		LoonBestInSlot\Settings.lua = LoonBestInSlot\Settings.lua
 		LoonBestInSlot\UpdateTooltips.lua = LoonBestInSlot\UpdateTooltips.lua
 		LoonBestInSlot\UserItemCache.lua = LoonBestInSlot\UserItemCache.lua

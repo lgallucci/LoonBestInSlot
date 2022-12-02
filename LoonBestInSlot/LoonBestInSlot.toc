@@ -2,7 +2,7 @@
 ## Title: Loon Best In Slot
 ## Notes: 
 ## OptionalDeps: LibExtraTip
-## SavedVariables: LBISPrioritySettings
+## SavedVariables: LBISCustomSettings
 ## SavedVariablesPerCharacter: LBISSettings
 ## Version: 4.4.0
 
@@ -32,4 +32,4 @@ LootBrowser.lua
 ItemList.lua
 GemList.lua
 EnchantList.lua
-PriorityList.lua
+CustomList.lua

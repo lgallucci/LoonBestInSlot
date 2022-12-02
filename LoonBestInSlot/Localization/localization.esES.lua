@@ -219,7 +219,7 @@ if GetLocale() == "esES" then
   LBIS.L["PreRaid"] = "Pre Banda";
   LBIS.L["Prince Keleseth"] = "Príncipe Keleseth";
   LBIS.L["Prince Taldaram"] = "Príncipe Taldaram";
---  LBIS.L["Priority"] = "";
+--  LBIS.L["Custom"] = "";
   LBIS.L["Profession"] = "Profession";
   LBIS.L["Protection"] = "Protección";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
@@ -247,7 +247,7 @@ if GetLocale() == "esES" then
   LBIS.L["Sholazar Basin"] = "Cuenca de Sholazar";
   LBIS.L["Shoulder"] = "Espalda";
   LBIS.L["Show Minimap Button"] = "Botón Mostrar minimapa";
---  LBIS.L["Show Priority"] = "";
+--  LBIS.L["Show Custom"] = "";
   LBIS.L["Show Tooltip"] = "Mostrar Descripción Emergente";
   LBIS.L["Sjonnir The Ironshaper"] = "Sjonnir el afilador";
   LBIS.L["Skadi the Ruthless"] = "Skadi el Despiadado";

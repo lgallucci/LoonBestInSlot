@@ -25,7 +25,7 @@ local priorityListTabButton;
 local open_tab = "ItemList";
 function LBIS.BrowserWindow:RefreshItems()    
 
-    if LBISSettings.ShowPriority then
+    if LBISSettings.ShowCustom then
         priorityListTabButton:Show()
     else
         priorityListTabButton:Hide()
@@ -37,8 +37,8 @@ function LBIS.BrowserWindow:RefreshItems()
         LBIS.GemList:UpdateItems();
     elseif open_tab == "EnchantList" then
         LBIS.EnchantList:UpdateItems();        
-    elseif open_tab == "PriorityList" then
-        LBIS.PriorityList:UpdateItems();
+    elseif open_tab == "CustomList" then
+        LBIS.CustomList:UpdateItems();
     end
 end
 
@@ -186,13 +186,13 @@ function createTabs(window, content)
 
 
     priorityListTabButton = CreateFrame("Button", "ContainerTab4", window, "CharacterFrameTabButtonTemplate")
-    local priorityListTabString = priorityListTabButton:CreateFontString("PriorityListTabText", "OVERLAY", "GameFontNormalSmall");
+    local priorityListTabString = priorityListTabButton:CreateFontString("CustomListTabText", "OVERLAY", "GameFontNormalSmall");
     priorityListTabString:SetPoint("CENTER", priorityListTabButton, "CENTER", 0, 3);
-    priorityListTabString:SetText(LBIS.L["Priority"]);
+    priorityListTabString:SetText(LBIS.L["Custom"]);
     priorityListTabButton:SetPoint("LEFT", enchantListTabButton, "RIGHT", -16, 0);
     priorityListTabButton:SetScript("OnClick", function(self)
         PanelTemplates_SetTab(content, 4);
-        open_tab = "PriorityList";
+        open_tab = "CustomList";
     
         LBIS.BrowserWindow:RefreshItems();
     end);

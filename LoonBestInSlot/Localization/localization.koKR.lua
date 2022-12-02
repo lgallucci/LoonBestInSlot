@@ -219,7 +219,7 @@ if GetLocale() == "koKR" then
   LBIS.L["PreRaid"] = "레이드 이전";
   LBIS.L["Prince Keleseth"] = "공작 켈레세스";
   LBIS.L["Prince Taldaram"] = "공작 탈다람";
---  LBIS.L["Priority"] = "";
+--  LBIS.L["Custom"] = "";
   LBIS.L["Profession"] = "전문 기술";
   LBIS.L["Protection"] = "방어/보호";
   LBIS.L["Purkom (Venture Cove)"] = "푸르콤 <투자개발회사 주화 교환원>";
@@ -247,7 +247,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Sholazar Basin"] = "숄라자르 분지";
   LBIS.L["Shoulder"] = "어깨";
   LBIS.L["Show Minimap Button"] = "미니맵 버튼 보이기";
---  LBIS.L["Show Priority"] = "";
+--  LBIS.L["Show Custom"] = "";
   LBIS.L["Show Tooltip"] = "직업 툴팁 표시";
   LBIS.L["Sjonnir The Ironshaper"] = "무쇠구체자 쇼니르";
   LBIS.L["Skadi the Ruthless"] = "학살자 스카디";
