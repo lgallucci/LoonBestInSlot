@@ -94,7 +94,7 @@ function LBIS.BrowserWindow:UpdateItemsForSpec(rowFunc)
         return;
     end
 
-    LBIS.BrowserWindow.Window.SearchFrame:Hide();
+    LBIS.SearchFrame:HideSearchFrame();
     LBIS.BrowserWindow.Window.Unavailable:Hide();
 
     local window = LBIS.BrowserWindow.Window;
@@ -305,6 +305,9 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
 	tinsert(UISpecialFrames, windowName)	-- allow ESC close
 
     local function UpdateScrollValue(self, delta)
+        if not scrollbar:IsEnabled() then
+            return;
+        end
         if(delta == 1 and scrollbar:GetValue() >= 0) then
             if(scrollbar:GetValue()-step < 0) then
                 scrollbar:SetValue(0);
@@ -365,7 +368,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
 
     createTabs(window, content);
 
-    local f = CreateFrame("Frame", name, content);				
+    local f = CreateFrame("Frame", nil, content);				
 	t = f:CreateFontString(nil, nil, "GameFontNormal");
 	t:SetText("Wowhead Guide not available");
 	t:SetPoint("CENTER");				
@@ -374,23 +377,13 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
 	f:SetPoint("TOPLEFT", content, 0, 0);
     f:Hide();
 
-	local f2 = CreateFrame("Frame", nil, content, "BackdropTemplate");
-    f2:SetBackdrop({
-        bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
-        tile = true
-    })
-    f2:SetBackdropColor(1, .5, .5, .5);
-	f2:SetSize(scrollframe:GetWidth(), scrollframe:GetHeight());
-	f2:ClearAllPoints();
-	f2:SetPoint("TOPLEFT", content, 0, 0);
-    f2:Hide();
-
     LBIS.BrowserWindow.Window = window;
     LBIS.BrowserWindow.Window.ScrollFrame = scrollframe;
     LBIS.BrowserWindow.Window.ScrollBar = scrollbar;
     LBIS.BrowserWindow.Window.Container = content;
     LBIS.BrowserWindow.Window.Unavailable = f;
-    LBIS.BrowserWindow.Window.SearchFrame = f2;
+
+    LBIS.SearchFrame:CreateSearch();
 
     LBIS:RegisterTooltip();
 

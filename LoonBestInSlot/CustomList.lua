@@ -175,9 +175,6 @@ local function createCustomRow(f, slot, itemList)
         return false
     end
 
-    --TODO: Break out UI for searching for button
-    --TODO: Reskin add button
-    --TODO: Disable when list is full
     eb = CreateFrame("Button", nil, f);
     eb:SetPoint("RIGHT", f, "RIGHT", -10, 0)
     eb:SetSize(32, 32);
@@ -187,13 +184,16 @@ local function createCustomRow(f, slot, itemList)
     eb:SetScript("OnClick", 
         function(self, button)
             if button == "LeftButton" then
-                local editText = tonumber(editFrame:GetText());
+                
+                LBIS.SearchFrame:ShowSearchFrame();
+
+                --[[local editText = tonumber(editFrame:GetText());
 
                 if editText ~= nil and getn(itemList) < 6 and not has_value(itemList, editText) then
                     table.insert(itemList, editText)
                     editFrame:SetText("");
                     assignItemsToFrame(f, itemList);
-                end
+                end]]
 
                 if getn(itemList) >= 6 then
                     self:Disable();
@@ -206,19 +206,7 @@ local function createCustomRow(f, slot, itemList)
         eb:Disable();
     end
 
-    f.AddButton = eb;
-        
-    editFrame = CreateFrame("EditBox", nil, f, "InputBoxTemplate");
-    editFrame:SetPoint("RIGHT", eb, "LEFT", -10, 0)
-    editFrame:SetWidth(60);
-    editFrame:SetHeight(25);
-    editFrame:SetMovable(false);
-    editFrame:SetAutoFocus(false);
-    editFrame:SetMaxLetters(6);
-        
-    et = f:CreateFontString(nil, nil, "GameFontNormal");
-    et:SetText("Item Id");
-    et:SetPoint("RIGHT", editFrame, "RIGHT", -10, 0);    
+    f.AddButton = eb;        
 
     assignItemsToFrame(f, itemList);
 
@@ -250,10 +238,7 @@ function LBIS.CustomList:UpdateItems()
     LBIS.BrowserWindow.Window.SourceDropDown:Hide();
     LBIS.BrowserWindow.Window.RaidDropDown:Hide();
 
-    LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
-        
-        --LBIS.BrowserWindow.Window.SearchFrame:Show();
-        --LBIS.BrowserWindow.Window.ScrollBar:Disable();
+    LBIS.BrowserWindow:UpdateItemsForSpec(function(point)        
 
         local savedCustomList = LBISCustomSettings[LBIS.SpecToName[LBISSettings.SelectedSpec]];
 

@@ -33,3 +33,4 @@ ItemList.lua
 GemList.lua
 EnchantList.lua
 CustomList.lua
+SearchFrame.lua

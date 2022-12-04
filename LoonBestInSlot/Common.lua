@@ -33,6 +33,7 @@ function LBIS:CacheItem(itemId)
             LBIS:ReCacheItem(itemId)
         end
         --TODO: Cache Names of items
+        --TODO: Save cached items locally so we don't have to do this ?
     end);
 end
 
@@ -42,6 +43,7 @@ function LBIS:ReCacheItem(itemId)
             LBIS:Error("Failed to cache ("..itemId.."): ", cacheItem);
         end
         --TODO: Cache Names of items
+        --TODO: Save cached items locally so we don't have to do this ?
     end);
 end
 
