@@ -146,7 +146,7 @@ function LBIS.BrowserWindow:UpdateItemsForSpec(rowFunc)
     window.ScrollFrame:SetScrollChild(window.Container);
 end
 
-function createTabs(window, content) 
+local function createTabs(window, content) 
 
     local itemListTabButton = CreateFrame("Button", "ContainerTab1", window, "CharacterFrameTabButtonTemplate")
     local itemListTabString = itemListTabButton:CreateFontString("ItemListTabText", "OVERLAY", "GameFontNormalSmall");
@@ -201,7 +201,7 @@ function createTabs(window, content)
     PanelTemplates_SetTab(content, 1);
 end
 
-function createDropDowns(window)
+local function createDropDowns(window)
     local getSpecList = function()
         local specList = {};
         for specId, spec in pairs(LBIS.ClassSpec) do
@@ -216,7 +216,7 @@ function createDropDowns(window)
         table.sort(specList);
         return specList;
     end
-
+    
     local spec_opts = {
         ['name']='spec',
         ['parent']=window,
@@ -229,7 +229,7 @@ function createDropDowns(window)
         end
     }
     window.SpecDropDown = LBIS:CreateDropdown(spec_opts, 140);
-    window.SpecDropDown:SetPoint("TOPLEFT", window, 20, -28);      
+    window.SpecDropDown:SetPoint("TOPLEFT", window, 15, -28);
 
     local slot_opts = {
         ['name']='slot',
@@ -242,8 +242,8 @@ function createDropDowns(window)
             LBIS.BrowserWindow:RefreshItems()
         end
     }
-    window.SlotDropDown = LBIS:CreateDropdown(slot_opts, 150);
-    window.SlotDropDown:SetPoint("TOPLEFT", window, 200, -28);
+    window.SlotDropDown = LBIS:CreateDropdown(slot_opts, 90);
+    window.SlotDropDown:SetPoint("TOPLEFT", window, 195, -28);
 
     local phase_opts = {
         ['name']='phase',
@@ -256,8 +256,8 @@ function createDropDowns(window)
             LBIS.BrowserWindow:RefreshItems();
         end
     }
-    window.PhaseDropDown = LBIS:CreateDropdown(phase_opts, 115);
-    window.PhaseDropDown:SetPoint("TOPLEFT", window, 340, -28);
+    window.PhaseDropDown = LBIS:CreateDropdown(phase_opts, 70);
+    window.PhaseDropDown:SetPoint("TOPLEFT", window, 330, -28);
 
     local source_opts = {
         ['name']='source',
@@ -270,8 +270,8 @@ function createDropDowns(window)
             LBIS.BrowserWindow:RefreshItems();
         end
     }
-    window.SourceDropDown = LBIS:CreateDropdown(source_opts, 155);
-    window.SourceDropDown:SetPoint("TOPLEFT", window, 455, -28);
+    window.SourceDropDown = LBIS:CreateDropdown(source_opts, 110);
+    window.SourceDropDown:SetPoint("TOPLEFT", window, 450, -28);
 
     local zone_opts = {
         ['name']='zone',
@@ -345,8 +345,8 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     scrollframe:SetPoint("TOPLEFT", 10, -60);
     scrollframe:SetPoint("BOTTOMRIGHT", -25, 10);
 
-    scrollbar:SetPoint("TOPLEFT", window, "TOPRIGHT", -22, -78);
-    scrollbar:SetPoint("BOTTOMLEFT", window, "BOTTOMRIGHT", 22, 20);
+    scrollbar:SetPoint("TOPLEFT", window, "TOPRIGHT", -25, -75);
+    scrollbar:SetPoint("BOTTOMLEFT", window, "BOTTOMRIGHT", 25, 25);
     scrollbar:SetMinMaxValues(0,0);
     scrollbar:SetWidth(16);
     scrollbar:SetValue(0);

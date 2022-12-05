@@ -83,7 +83,7 @@ end
 
 local function createCustomRow(f, slot, itemList)
 
-    local t, et, eb = nil, nil, nil, nil;
+    local t, et, editFrame, eb = nil, nil, nil, nil;
     local window = LBIS.BrowserWindow.Window;
             
     t = f:CreateFontString(nil, nil, "GameFontNormal");
@@ -164,17 +164,6 @@ local function createCustomRow(f, slot, itemList)
         end}
     end
 
-    local function has_value (tab, val)
-        for index, value in ipairs(tab) do
-            -- We grab the first index of our sub-table instead
-            if value[1] == val then
-                return true
-            end
-        end
-
-        return false
-    end
-
     eb = CreateFrame("Button", nil, f);
     eb:SetPoint("RIGHT", f, "RIGHT", -10, 0)
     eb:SetSize(32, 32);
@@ -183,21 +172,8 @@ local function createCustomRow(f, slot, itemList)
     eb:SetDisabledTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\add_dis.tga");
     eb:SetScript("OnClick", 
         function(self, button)
-            if button == "LeftButton" then
-                
-                LBIS.SearchFrame:ShowSearchFrame();
-
-                --[[local editText = tonumber(editFrame:GetText());
-
-                if editText ~= nil and getn(itemList) < 6 and not has_value(itemList, editText) then
-                    table.insert(itemList, editText)
-                    editFrame:SetText("");
-                    assignItemsToFrame(f, itemList);
-                end]]
-
-                if getn(itemList) >= 6 then
-                    self:Disable();
-                end
+            if button == "LeftButton" then                
+                LBIS.SearchFrame:ShowSearchFrame(slot);
             end
         end
     );
@@ -240,10 +216,16 @@ function LBIS.CustomList:UpdateItems()
 
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)        
 
-        local savedCustomList = LBISCustomSettings[LBIS.SpecToName[LBISSettings.SelectedSpec]];
+        local selectedSpec = LBIS.SpecToName[LBISSettings.SelectedSpec];
+
+        if selectedSpec == nil then
+            return;
+        end
+
+        local savedCustomList = LBISCustomSettings[selectedSpec];
 
         if savedCustomList == nil then
-            LBISCustomSettings[LBIS.SpecToName[LBISSettings.SelectedSpec]] = defaultCustomList;
+            LBISCustomSettings[selectedSpec] = defaultCustomList;
             savedCustomList = defaultCustomList;
         end
 

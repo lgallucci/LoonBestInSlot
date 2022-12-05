@@ -33,7 +33,7 @@ function LBIS:CacheItem(itemId)
             LBIS:ReCacheItem(itemId)
         end
         --TODO: Cache Names of items
-        --TODO: Save cached items locally so we don't have to do this ?
+        --TODO: Save cached items locally so we don't have to do this every time ?
     end);
 end
 
@@ -43,7 +43,7 @@ function LBIS:ReCacheItem(itemId)
             LBIS:Error("Failed to cache ("..itemId.."): ", cacheItem);
         end
         --TODO: Cache Names of items
-        --TODO: Save cached items locally so we don't have to do this ?
+        --TODO: Save cached items locally so we don't have to do this every time ?
     end);
 end
 
@@ -137,58 +137,50 @@ function LBIS:GetSpellInfo(spellId, returnFunc)
     end           
 end
 
-local itemIsOnEnter = false;
+local LibDD = LibStub:GetLibrary("LibUIDropDownMenu-4.0")
 --- Opts:
 ---     name (string): Name of the dropdown (lowercase)
 ---     parent (Frame): Parent frame of the dropdown.
 ---     items (Table): String table of the dropdown options.
 ---     defaultVal (String): String value for the dropdown to default to (empty otherwise).
 ---     changeFunc (Function): A custom function to be called, after selecting a dropdown option.
-function LBIS:CreateDropdown(opts, width_override)
+function LBIS:CreateDropdown(opts, width)
     local dropdown_name = '$parent_' .. opts['name'] .. '_dropdown'
     local menu_items = opts['items'] or {}
     local title_text = opts['title'] or ''
-    local dropdown_width = 0
-    width_override = width_override or 9999;
     local default_val = opts['defaultVal'] or ''
     local change_func = opts['changeFunc'] or function (dropdown_val) end
 
-    local dropdown = CreateFrame("Frame", dropdown_name, opts['parent'], 'UIDropDownMenuTemplate')
-    local dd_title = dropdown:CreateFontString(dropdown, 'OVERLAY', 'GameFontNormalSmall')
+    local dropdown = LibDD:Create_UIDropDownMenu(dropdown_name, opts['parent'])
 
-    for _, item in pairs(menu_items) do -- Sets the dropdown width to the largest item string width.
-        dd_title:SetText(item)
-        local text_width = dd_title:GetStringWidth() + 20
-        if text_width > dropdown_width and text_width <= width_override then
-            dropdown_width = text_width
-        end
-    end
-
-    UIDropDownMenu_SetWidth(dropdown, dropdown_width)
-    UIDropDownMenu_SetText(dropdown, default_val)
-    dd_title:SetText(title_text)
-    dd_title:SetPoint("TOPLEFT", (-1 * dd_title:GetStringWidth()) + 20, -8)
-
-    UIDropDownMenu_Initialize(dropdown, function(self, level, _)
-        local info = UIDropDownMenu_CreateInfo()
+    LibDD:UIDropDownMenu_Initialize(dropdown, function(self, level, _)
+        local info = LibDD:UIDropDownMenu_CreateInfo()
         for key, val in pairs(menu_items) do
             info.text = val;
             info.checked = false
-            info.menuList= key
-            info.hasArrow = false
+            info.isNotRadio = true;
+            info.noClickSound = true
             info.func = function(b)
-                UIDropDownMenu_SetSelectedValue(dropdown, b.value, b.value)
-                UIDropDownMenu_SetText(dropdown, b.value)
-                b.checked = true
+                LibDD:UIDropDownMenu_SetSelectedValue(dropdown, b.value, b.value)
+                LibDD:UIDropDownMenu_SetText(dropdown, b.value)
+                info.checked = true
                 change_func(dropdown, b.value)
             end
-            UIDropDownMenu_AddButton(info)
+            LibDD:UIDropDownMenu_AddButton(info)
         end
     end)
+
+    LibDD:UIDropDownMenu_SetText(dropdown, default_val)
+    LibDD:UIDropDownMenu_SetWidth(dropdown, width, 0)
+
+    local dd_title = dropdown:CreateFontString(dropdown, 'OVERLAY', 'GameFontNormalSmall')
+    dd_title:SetText(title_text)
+    dd_title:SetPoint("TOPLEFT", (-1 * dd_title:GetStringWidth()) + 20, -8)
 
     return dropdown
 end
 
+local itemIsOnEnter = false;
 function LBIS:SetTooltipOnButton(b, item, isSpell)
     
     b:SetScript("OnClick", 

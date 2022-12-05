@@ -8,16 +8,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoonBestInSlot", "LoonBestInSlot", "{FD14C287-3398-46A3-BCC5-F8C68903B6ED}"
 	ProjectSection(SolutionItems) = preProject
 		LoonBestInSlot\Common.lua = LoonBestInSlot\Common.lua
-		LoonBestInSlot\CustomList.lua = LoonBestInSlot\CustomList.lua
-		LoonBestInSlot\EnchantList.lua = LoonBestInSlot\EnchantList.lua
 		LoonBestInSlot\EnchantSources.lua = LoonBestInSlot\EnchantSources.lua
-		LoonBestInSlot\GemList.lua = LoonBestInSlot\GemList.lua
 		LoonBestInSlot\GemSources.lua = LoonBestInSlot\GemSources.lua
-		LoonBestInSlot\ItemList.lua = LoonBestInSlot\ItemList.lua
 		LoonBestInSlot\ItemSources.lua = LoonBestInSlot\ItemSources.lua
 		LoonBestInSlot\LoonBestInSlot.lua = LoonBestInSlot\LoonBestInSlot.lua
 		LoonBestInSlot\LoonBestInSlot.toc = LoonBestInSlot\LoonBestInSlot.toc
-		LoonBestInSlot\LootBrowser.lua = LoonBestInSlot\LootBrowser.lua
 		LoonBestInSlot\MinimapButton.lua = LoonBestInSlot\MinimapButton.lua
 		LoonBestInSlot\Settings.lua = LoonBestInSlot\Settings.lua
 		LoonBestInSlot\UpdateTooltips.lua = LoonBestInSlot\UpdateTooltips.lua
@@ -254,6 +249,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E64D2CE7-C8D7-
 		LoonBestInSlot\UI\SearchFrame.lua = LoonBestInSlot\UI\SearchFrame.lua
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibUIDropDownMenu", "LibUIDropDownMenu", "{174CB7EB-7975-4A61-BFDD-3CED6D04FA17}"
+	ProjectSection(SolutionItems) = preProject
+		LoonBestInSlot\libs\LibUIDropDownMenu\LibEasyMenu.lua = LoonBestInSlot\libs\LibUIDropDownMenu\LibEasyMenu.lua
+		LoonBestInSlot\libs\LibUIDropDownMenu\LibUIDropDownMenu.lua = LoonBestInSlot\libs\LibUIDropDownMenu\LibUIDropDownMenu.lua
+		LoonBestInSlot\libs\LibUIDropDownMenu\LibUIDropDownMenu.xml = LoonBestInSlot\libs\LibUIDropDownMenu\LibUIDropDownMenu.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -283,6 +285,7 @@ Global
 		{C2DDEA46-AE91-4617-BFB1-CD3EC89F76AE} = {5D7B4E6E-0F3B-4D5C-B6FE-1447C37D766C}
 		{91BDD1B3-FDA7-4D71-BCA5-E4DCE65DEA86} = {C2DDEA46-AE91-4617-BFB1-CD3EC89F76AE}
 		{E64D2CE7-C8D7-4DBE-9EE0-54BACA0579CC} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
+		{174CB7EB-7975-4A61-BFDD-3CED6D04FA17} = {5D7B4E6E-0F3B-4D5C-B6FE-1447C37D766C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EC8A0A9-B7E7-48E2-9272-317A8A0C0916}

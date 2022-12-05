@@ -56,7 +56,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Commander Kolurg"] = "Командир Колург";
   LBIS.L["Commander Stoutbeard"] = "Командир Пивобород";
   LBIS.L["Coren Direbrew"] = "Корен Худовар";
---  LBIS.L["Custom"] = "";
   LBIS.L["Cyanigosa"] = "Синигоса";
 --  LBIS.L["Daily Fishing Quest"] = "";
   LBIS.L["Dalaran"] = "Даларан";
@@ -141,8 +140,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Honor Points"] = "";
   LBIS.L["Honored"] = "Уважение";
   LBIS.L["Icecrown"] = "Ледяная Корона";
-  LBIS.L["Icecrown Citadel (10)"] = "Цитадель Ледяной Короны (10)";
-  LBIS.L["Icecrown Citadel (25)"] = "Цитадель Ледяной Короны (25)";
+  LBIS.L["Icecrown Citadel"] = "Цитадель Ледяной Короны";
   LBIS.L["Ichoron"] = "Гнойрон";
   LBIS.L["Ingvar the Plunderer"] = "Ингвар Расхититель";
   LBIS.L["Inscription"] = "Начертание";
@@ -206,8 +204,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Novos the Summoner"] = "Новос Призыватель";
   LBIS.L["Off Hand"] = "Левая рука";
   LBIS.L["One of a Kind"] = "Единственный в своем роде";
-  LBIS.L["Onyxia's Lair (10)"] = "Логово Ониксии (10)";
-  LBIS.L["Onyxia's Lair (25)"] = "Логово Ониксии (25)";
+--  LBIS.L["Onyxia's Lair'"] = "";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "Орморок Воспитатель Дерев";
@@ -222,6 +219,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["PreRaid"] = "";
   LBIS.L["Prince Keleseth"] = "Принц Келесет";
   LBIS.L["Prince Taldaram"] = "Принц Талдарам";
+--  LBIS.L["Custom"] = "";
 --  LBIS.L["Profession"] = "";
   LBIS.L["Protection"] = "Защита";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
@@ -248,8 +246,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["Shattrath City"] = "Шаттрат";
   LBIS.L["Sholazar Basin"] = "Низина Шолазар";
   LBIS.L["Shoulder"] = "Плечо";
---  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Minimap Button"] = "";
+--  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Tooltip"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "Сьоннир Литейщик";
   LBIS.L["Skadi the Ruthless"] = "Скади Безжалостный";
@@ -291,8 +289,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Oracles (Friendly)"] = "Оракулы (Дружелюбие)";
   LBIS.L["The Prophet Tharon'ja"] = "Пророк Тарон'джа";
   LBIS.L["The Reckoning"] = "Расплата";
-  LBIS.L["The Ruby Sanctum (10)"] = "Рубиновое святилище (10)";
-  LBIS.L["The Ruby Sanctum (25)"] = "Рубиновое святилище (25)";
+  LBIS.L["The Ruby Sanctum"] = "Рубиновое святилище";
   LBIS.L["The Sha'tar (Exalted)"] = "Ша'тар (Превознесение)";
   LBIS.L["The Sons of Hodir"] = "Сыны Ходира";
   LBIS.L["The Sons of Hodir (Exalted)"] = "Сыны Ходира (Превознесение)";
@@ -314,14 +311,11 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
   LBIS.L["Trash Mobs"] = "Трешовые монстры";
-  LBIS.L["Trial of the Crusader (10)"] = "Испытание крестоносца (10)";
-  LBIS.L["Trial of the Crusader (25)"] = "Испытание крестоносца (25)";
+  LBIS.L["Trial of the Crusader"] = "Испытание крестоносца";
   LBIS.L["Trinket"] = "Аксессуар";
   LBIS.L["Trollgore"] = "Кровотролль";
   LBIS.L["Two Hand"] = "Двуручное";
   LBIS.L["Ulduar"] = "Ульдуар";
-  LBIS.L["Ulduar (10)"] = "Ульдуар (10)";
-  LBIS.L["Ulduar (25)"] = "Ульдуар (25)";
   LBIS.L["Unholy"] = "Нечестивость";
   LBIS.L["Utgarde Keep (Heroic)"] = "Крепость Утгард (Героический)";
   LBIS.L["Utgarde Keep (Normal)"] = "Крепость Утгард (Обычный)";
