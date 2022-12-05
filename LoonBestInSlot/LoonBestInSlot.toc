@@ -28,9 +28,9 @@ UpdateTooltips.lua
 UserItemCache.lua
 MinimapButton.lua
 
-LootBrowser.lua
-ItemList.lua
-GemList.lua
-EnchantList.lua
-CustomList.lua
-SearchFrame.lua
+UI\LootBrowser.lua
+UI\ItemList.lua
+UI\GemList.lua
+UI\EnchantList.lua
+UI\CustomList.lua
+UI\SearchFrame.lua

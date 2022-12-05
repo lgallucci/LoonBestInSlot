@@ -83,7 +83,7 @@ end
 
 local function createCustomRow(f, slot, itemList)
 
-    local t, et, editFrame, eb = nil, nil, nil, nil;
+    local t, et, eb = nil, nil, nil, nil;
     local window = LBIS.BrowserWindow.Window;
             
     t = f:CreateFontString(nil, nil, "GameFontNormal");

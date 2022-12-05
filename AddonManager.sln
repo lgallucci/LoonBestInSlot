@@ -29,15 +29,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Icons", "Icons", "{6CCD2B99
 		LoonBestInSlot\Icons\add.tga = LoonBestInSlot\Icons\add.tga
 		LoonBestInSlot\Icons\add_dis.tga = LoonBestInSlot\Icons\add_dis.tga
 		LoonBestInSlot\Icons\add_down.tga = LoonBestInSlot\Icons\add_down.tga
+		LoonBestInSlot\Icons\arrowdown.tga = LoonBestInSlot\Icons\arrowdown.tga
+		LoonBestInSlot\Icons\arrowdown_dis.tga = LoonBestInSlot\Icons\arrowdown_dis.tga
+		LoonBestInSlot\Icons\arrowdown_down.tga = LoonBestInSlot\Icons\arrowdown_down.tga
 		LoonBestInSlot\Icons\arrowleft.tga = LoonBestInSlot\Icons\arrowleft.tga
 		LoonBestInSlot\Icons\arrowleft_dis.tga = LoonBestInSlot\Icons\arrowleft_dis.tga
 		LoonBestInSlot\Icons\arrowleft_down.tga = LoonBestInSlot\Icons\arrowleft_down.tga
 		LoonBestInSlot\Icons\arrowright.tga = LoonBestInSlot\Icons\arrowright.tga
 		LoonBestInSlot\Icons\arrowright_dis.tga = LoonBestInSlot\Icons\arrowright_dis.tga
 		LoonBestInSlot\Icons\arrowright_down.tga = LoonBestInSlot\Icons\arrowright_down.tga
+		LoonBestInSlot\Icons\arrowup.tga = LoonBestInSlot\Icons\arrowup.tga
+		LoonBestInSlot\Icons\arrowup_dis.tga = LoonBestInSlot\Icons\arrowup_dis.tga
+		LoonBestInSlot\Icons\arrowup_down.tga = LoonBestInSlot\Icons\arrowup_down.tga
 		LoonBestInSlot\Icons\bag.tga = LoonBestInSlot\Icons\bag.tga
 		LoonBestInSlot\Icons\bank.tga = LoonBestInSlot\Icons\bank.tga
 		LoonBestInSlot\Icons\checkmark.tga = LoonBestInSlot\Icons\checkmark.tga
+		LoonBestInSlot\Icons\close.tga = LoonBestInSlot\Icons\close.tga
+		LoonBestInSlot\Icons\close_down.tga = LoonBestInSlot\Icons\close_down.tga
 		LoonBestInSlot\Icons\delete.tga = LoonBestInSlot\Icons\delete.tga
 		LoonBestInSlot\Icons\delete_down.tga = LoonBestInSlot\Icons\delete_down.tga
 		LoonBestInSlot\Icons\loon.tga = LoonBestInSlot\Icons\loon.tga
@@ -236,6 +244,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "widget", "widget", "{91BDD1
 		LoonBestInSlot\libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua = LoonBestInSlot\libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E64D2CE7-C8D7-4DBE-9EE0-54BACA0579CC}"
+	ProjectSection(SolutionItems) = preProject
+		LoonBestInSlot\UI\CustomList.lua = LoonBestInSlot\UI\CustomList.lua
+		LoonBestInSlot\UI\EnchantList.lua = LoonBestInSlot\UI\EnchantList.lua
+		LoonBestInSlot\UI\GemList.lua = LoonBestInSlot\UI\GemList.lua
+		LoonBestInSlot\UI\ItemList.lua = LoonBestInSlot\UI\ItemList.lua
+		LoonBestInSlot\UI\LootBrowser.lua = LoonBestInSlot\UI\LootBrowser.lua
+		LoonBestInSlot\UI\SearchFrame.lua = LoonBestInSlot\UI\SearchFrame.lua
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -264,6 +282,7 @@ Global
 		{FC51EBBB-FB32-4E7E-8104-05302B1A927A} = {D120DA08-F676-42B9-8098-2932FCCC9423}
 		{C2DDEA46-AE91-4617-BFB1-CD3EC89F76AE} = {5D7B4E6E-0F3B-4D5C-B6FE-1447C37D766C}
 		{91BDD1B3-FDA7-4D71-BCA5-E4DCE65DEA86} = {C2DDEA46-AE91-4617-BFB1-CD3EC89F76AE}
+		{E64D2CE7-C8D7-4DBE-9EE0-54BACA0579CC} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EC8A0A9-B7E7-48E2-9272-317A8A0C0916}
