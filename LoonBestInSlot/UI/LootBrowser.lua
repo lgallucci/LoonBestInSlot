@@ -152,7 +152,7 @@ local function createTabs(window, content)
     local itemListTabString = itemListTabButton:CreateFontString("ItemListTabText", "OVERLAY", "GameFontNormalSmall");
     itemListTabString:SetPoint("CENTER", itemListTabButton, "CENTER", 0, 3);
     itemListTabString:SetText(LBIS.L["Items"]);
-    itemListTabButton:SetPoint("CENTER", window, "BOTTOMLEFT", 60, -12);
+    itemListTabButton:SetPoint("CENTER", window, "BOTTOMLEFT", 60, -15);
     itemListTabButton:SetScript("OnClick", function(self)
         PanelTemplates_SetTab(content, 1);
         open_tab = "ItemList";
@@ -297,7 +297,16 @@ end
 function LBIS.BrowserWindow:CreateBrowserWindow()
     local step = 25;
     local windowName = "LootBrowserWindow";
-    local window = CreateFrame("Frame", windowName, UIParent, "BasicFrameTemplateWithInset");
+    local window = CreateFrame("Frame", windowName, UIParent, "InsetFrameTemplate");
+    local windowCloseButton = CreateFrame("Button", windowName.."CloseButton", window)
+    windowCloseButton:SetPoint("TOPRIGHT", window, "TOPRIGHT", 0, 0)
+    windowCloseButton:SetSize(32, 32);
+    windowCloseButton:SetNormalTexture("Interface\\Buttons\\UI-Panel-MinimizeButton-Up");
+    windowCloseButton:SetPushedTexture("Interface\\Buttons\\UI-Panel-MinimizeButton-Down")
+    windowCloseButton:SetScript("OnClick", function(self)
+        window:Hide();
+    end);
+    
     local scrollframe = CreateFrame("ScrollFrame", "ScrollFrame", window);
     local scrollbar = CreateFrame("Slider", "ScrollBar", scrollframe, "UIPanelScrollBarTemplate");
     local content = CreateFrame("Frame", "Container", scrollframe);
@@ -345,8 +354,8 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     scrollframe:SetPoint("TOPLEFT", 10, -60);
     scrollframe:SetPoint("BOTTOMRIGHT", -25, 10);
 
-    scrollbar:SetPoint("TOPLEFT", window, "TOPRIGHT", -25, -75);
-    scrollbar:SetPoint("BOTTOMLEFT", window, "BOTTOMRIGHT", 25, 25);
+    scrollbar:SetPoint("TOPLEFT", window, "TOPRIGHT", -22, -75);
+    scrollbar:SetPoint("BOTTOMLEFT", window, "BOTTOMRIGHT", 22, 20);
     scrollbar:SetMinMaxValues(0,0);
     scrollbar:SetWidth(16);
     scrollbar:SetValue(0);

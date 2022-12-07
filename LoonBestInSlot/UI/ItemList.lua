@@ -278,13 +278,13 @@ local function createItemRow(f, specItem, specItemSource)
         st:SetText(type);
         st:SetPoint("BOTTOMLEFT", b, "BOTTOMRIGHT", 2, 2);
 
-        local pt = f:CreateFontString(nil, nil, "GameFontNormalLarge");
+        local pt = f:CreateFontString(nil, nil, "GameFontNormal");
         if specItem.Phase == "0" then
             pt:SetText("("..specItem.Bis..")");
         else
             pt:SetText("("..specItem.Bis.." "..string.gsub(specItem.Phase, "0", "PreRaid")..")");
         end
-        pt:SetPoint("TOPLEFT", t, "TOPRIGHT", 4, 4);
+        pt:SetPoint("TOPLEFT", t, "TOPRIGHT", 4, 0);
 
 		d = f:CreateFontString(nil, nil, "GameFontNormal");
 		d:SetText(createSourceTypeText(specItemSource));
