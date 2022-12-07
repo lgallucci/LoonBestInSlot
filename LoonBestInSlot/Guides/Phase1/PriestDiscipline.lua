@@ -135,11 +135,11 @@ LBIS:AddItem(spec, "39311", LBIS.L["Off Hand"], "Alt") --Scepter of Murmuring Sp
 LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "Alt") --Handbook of Obscure Remedies
 
 LBIS:AddItem(spec, "40245", LBIS.L["Ranged/Relic"], "BIS") --Fading Glow
-LBIS:AddItem(spec, "34348", LBIS.L["Ranged/Relic"], "BIS") --Wand of Cleansing Light
-LBIS:AddItem(spec, "34347", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Demonsoul
+LBIS:AddItem(spec, "40284", LBIS.L["Ranged/Relic"], "BIS") --Plague Igniter
+LBIS:AddItem(spec, "40335", LBIS.L["Ranged/Relic"], "BIS") --Touch of Horror
 LBIS:AddItem(spec, "39426", LBIS.L["Ranged/Relic"], "Alt") --Wand of the Archlich
-LBIS:AddItem(spec, "40335", LBIS.L["Ranged/Relic"], "Alt") --Touch of Horror
-LBIS:AddItem(spec, "40284", LBIS.L["Ranged/Relic"], "Alt") --Plague Igniter
+LBIS:AddItem(spec, "34348", LBIS.L["Ranged/Relic"], "Alt") --Wand of Cleansing Light
+LBIS:AddItem(spec, "34347", LBIS.L["Ranged/Relic"], "Alt") --Wand of the Demonsoul
 LBIS:AddItem(spec, "39712", LBIS.L["Ranged/Relic"], "Alt") --Gemmed Wand of the Nerubians
 LBIS:AddItem(spec, "39473", LBIS.L["Ranged/Relic"], "Alt") --Contortion
 LBIS:AddItem(spec, "37238", LBIS.L["Ranged/Relic"], "Alt") --Rod of the Fallen Monarch

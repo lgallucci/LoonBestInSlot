@@ -11,7 +11,6 @@ function LBIS.SearchFrame:ShowSearchFrame(slot, itemList)
     LBIS.BrowserWindow.Window.Container:Hide();
 
     LBIS.SearchFrame.Frame.SearchLabel:SetText("Search for items to add to "..slot.." list:");
-
     LBIS.SearchFrame.Frame:Show();
 end
 
@@ -24,6 +23,36 @@ local function has_value (tab, val)
     end
 
     return false
+end
+
+local function HandleTextChanged(editBox, isUserInput)
+
+   --[[ if not isUserInput then
+        return
+      end
+    
+      -- If it's potentially a secure command, abort to avoid runtime taint
+      if string.byte(editBox:GetText() or '') == string.byte('/') then
+        self.buttonMenu:Hide()
+        return
+      end
+    
+      local searchTerm = self:_GetEditBoxSearchTerm(editBox)
+    
+      if util.IsNilOrEmpty(searchTerm) then
+        -- Save the cursor position for when the search was initiated
+        self.initialCursorOffsetX = searchTerm == '' and self.editBoxCursorOffsets[editBox] or nil
+        self.buttonMenu:Hide()
+        return
+      end
+    
+      self.activeCompletionSource:QueryAsync(searchTerm, function(entries)
+        self:_OnQueryComplete(editBox, entries, {
+          searchTerm = searchTerm,
+          cursorOffsetX = self.initialCursorOffsetX or self.editBoxCursorOffsets[editBox],
+        })
+      end)]]
+
 end
 
 function LBIS.SearchFrame:CreateSearch()
@@ -48,7 +77,8 @@ function LBIS.SearchFrame:CreateSearch()
     eb:SetWidth(600);
     eb:SetHeight(25);
     eb:SetMovable(false);
-    eb:SetAutoFocus(false);
+    eb:SetAutoFocus(true);
+    eb:SetScript("OnTextChanged", HandleTextChanged)
     eb:SetMaxLetters(6);
 
     local fl = f:CreateFontString(nil, nil, "GameFontNormal");
