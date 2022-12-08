@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AddonManager.Ui (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "AddonManager.Ui (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

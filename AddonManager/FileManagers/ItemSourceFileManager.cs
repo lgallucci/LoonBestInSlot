@@ -1,4 +1,5 @@
-﻿using System.Threading;
+﻿using System.Reflection.Metadata;
+using System.Threading;
 using System.Xml.Linq;
 using AddonManager.Models;
 using AngleSharp.Dom;
@@ -7,11 +8,11 @@ namespace AddonManager.FileManagers;
 
 public static class ItemSourceFileManager
 {
-    public static SortedDictionary<int, ItemSource> ReadItemSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\ItemSources.lua")
+    public static SortedDictionary<int, ItemSource> ReadItemSources()
     {
         SortedDictionary<int, ItemSource> items = new SortedDictionary<int, ItemSource>();
 
-        string[] itemSources = System.IO.File.ReadAllLines(sourcesFile);
+        string[] itemSources = System.IO.File.ReadAllLines(@$"{Constants.AddonPath}\ItemSources.lua");
 
         foreach (var itemSource in itemSources)
         {
@@ -70,11 +71,11 @@ public static class ItemSourceFileManager
         };
     }
 
-    public static SortedDictionary<int, ItemSource> ReadTBCItemSources(string sourcesFile = @$"..\..\..\..\AddonManager\ItemDatabase\TBCItemSources.lua")
+    public static SortedDictionary<int, ItemSource> ReadTBCItemSources()
     {
         SortedDictionary<int, ItemSource> items = new SortedDictionary<int, ItemSource>();
 
-        string[] itemSources = System.IO.File.ReadAllLines(sourcesFile);
+        string[] itemSources = System.IO.File.ReadAllLines(@$"{Constants.ItemDbPath}\TBCItemSources.lua");
 
         foreach (var itemSource in itemSources)
         {
@@ -107,11 +108,11 @@ public static class ItemSourceFileManager
         return items;
     }
 
-    public static SortedDictionary<int, GemSource> ReadGemSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\GemSources.lua")
+    public static SortedDictionary<int, GemSource> ReadGemSources()
     {
         SortedDictionary<int, GemSource> gems = new SortedDictionary<int, GemSource>();
 
-        string[] gemSources = System.IO.File.ReadAllLines(sourcesFile);
+        string[] gemSources = System.IO.File.ReadAllLines($@"{Constants.AddonPath}\GemSources.lua");
 
         foreach (var gemSource in gemSources)
         {
@@ -167,11 +168,11 @@ public static class ItemSourceFileManager
         };
     }
 
-    public static SortedDictionary<int, EnchantSource> ReadEnchantSources(string sourcesFile = @$"..\..\..\..\LoonBestInSlot\EnchantSources.lua")
+    public static SortedDictionary<int, EnchantSource> ReadEnchantSources()
     {
         SortedDictionary<int, EnchantSource> enchants = new SortedDictionary<int, EnchantSource>();
 
-        string[] enchantSources = System.IO.File.ReadAllLines(sourcesFile);
+        string[] enchantSources = System.IO.File.ReadAllLines($@"{Constants.AddonPath}\EnchantSources.lua");
 
         foreach (var enchantSource in enchantSources)
         {
@@ -249,7 +250,7 @@ public static class ItemSourceFileManager
                     $"SourceLocation = {source.Value.SourceLocation} }},");
         }
         itemSourceSB.AppendLine("}");
-        System.IO.File.WriteAllText(Constants.AddonPath + "ItemSources.lua", itemSourceSB.ToString());
+        System.IO.File.WriteAllText(Constants.AddonPath + "\\ItemSources.lua", itemSourceSB.ToString());
     }
 
     public static void WriteGemSources(SortedDictionary<int, GemSource> sources)
@@ -267,7 +268,7 @@ public static class ItemSourceFileManager
                     $"SourceLocation = {source.Value.SourceLocation} }},");
         }
         itemSourceSB.AppendLine("}");
-        System.IO.File.WriteAllText(Constants.AddonPath + "GemSources.lua", itemSourceSB.ToString());
+        System.IO.File.WriteAllText(Constants.AddonPath + "\\GemSources.lua", itemSourceSB.ToString());
     }
 
     public static void WriteEnchantSources(SortedDictionary<int, EnchantSource> sources)
@@ -287,6 +288,6 @@ public static class ItemSourceFileManager
                     $"IsSpell = \"{source.Value.IsSpell.ToString()}\" }},");
         }
         itemSourceSB.AppendLine("}");
-        System.IO.File.WriteAllText(Constants.AddonPath + "EnchantSources.lua", itemSourceSB.ToString());
+        System.IO.File.WriteAllText(Constants.AddonPath + "\\EnchantSources.lua", itemSourceSB.ToString());
     }
 }

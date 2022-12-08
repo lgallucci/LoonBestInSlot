@@ -6,5 +6,7 @@ global using System.Threading.Tasks;
 
 public static class Constants
 {
-    public static string AddonPath = @$"..\..\..\..\LoonBestInSlot\";
+    public static string AddonPath = @$"..\..\..\..\..\..\LoonBestInSlot";
+
+    public static string ItemDbPath = @$"..\..\..\..\..\..\AddonManager\ItemDatabase";
 }

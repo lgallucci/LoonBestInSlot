@@ -1,0 +1,22 @@
+<!-- Copyright (c) Microsoft Corporation and Contributors. -->
+<!-- Licensed under the MIT License. -->
+
+<Page
+    x:Class="AddonManager.Ui.Importer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AddonManager.Ui"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Content="Convert" HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top" Click="Convert_Click"/>
+        <ComboBox x:Name="cmbConvertType" HorizontalAlignment="Left" Margin="75,11,0,0" Text="EmblemConverter" VerticalAlignment="Top" Width="150"/>
+        <TextBlock x:Name="lblStatus" HorizontalAlignment="Left" Margin="255,8,0,0" Width="150" Text="Ready !"/>
+        <ScrollViewer Margin="0,35,0,0" BorderBrush="Gray" BorderThickness="1">
+            <TextBox x:Name="txtJsonToParse" TextWrapping="Wrap" />
+        </ScrollViewer>
+    </Grid>
+</Page>

@@ -1,26 +1,46 @@
-﻿using System.Windows;
-using AddonManager.Models;
+// Copyright (c) Microsoft Corporation and Contributors.
+// Licensed under the MIT License.
 
-namespace AddonManager;
+using AddonManager.Models;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Navigation;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.Foundation;
+using Windows.Foundation.Collections;
+
+// To learn more about WinUI, the WinUI project structure,
+// and more about our project templates, see: http://aka.ms/winui-project-info.
+
+namespace AddonManager.Ui;
 /// <summary>
-/// Interaction logic for ConvertersWindow.xaml
+/// An empty page that can be used on its own or navigated to within a Frame.
 /// </summary>
-public partial class ConvertersWindow : Window
+public sealed partial class Importer : Page
 {
     public string[] ConverterList = { "EmblemConverter", "ProfessionConverter", "DungeonConverter", "RaidConverter", "PvPConverter", "ReputationConverter" };
 
-    public ConvertersWindow()
+    public Importer()
     {
-        InitializeComponent();
+        this.InitializeComponent();
 
         cmbConvertType.ItemsSource = ConverterList;
         cmbConvertType.Text = "EmblemConverter";
     }
 
+
     private async void Convert_Click(object sender, RoutedEventArgs e)
     {
         var converterType = cmbConvertType.SelectedValue.ToString();
-        lblStatus.Content = "Processing...";
+        lblStatus.Text = "Processing...";
 
         LootConverter converter;
         switch (converterType)
@@ -51,6 +71,6 @@ public partial class ConvertersWindow : Window
         //Read file into dictionary
         await converter.Convert(txtJsonToParse.Text);
 
-        lblStatus.Content = "Done!";
+        lblStatus.Text = "Done!";
     }
 }
