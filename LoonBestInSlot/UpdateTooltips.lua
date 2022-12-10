@@ -26,65 +26,29 @@ end
 
 local function buildCombinedTooltip(entry, combinedTooltip, foundCustom)
 
-	local mageCount, warriorDpsCount, warlockCount = 0, 0, 0;
-	local hunterCount, dkCount, rogueCount = 0, 0, 0;
+	local classCount = {};
+	local combinedSpecs = {};
 
 	for k, v in pairs(entry) do
 		if LBISSettings.Tooltip[k] and isInEnabledPhase(v.PhaseList) and foundCustom[k] == nil then
 			local classSpec = LBIS.ClassSpec[k]
-			if classSpec.Class == LBIS.L["Warrior"] and (classSpec.Spec == LBIS.L["Fury"] or classSpec.Spec == LBIS.L["Arms"]) then
-				warriorDpsCount = warriorDpsCount + 1;
-			end
 
-			if classSpec.Class == LBIS.L["Warlock"] then
-				warlockCount = warlockCount + 1;
-			end
-
-			if classSpec.Class == LBIS.L["Mage"] then
-				mageCount = mageCount + 1;
-			end
-
-			if classSpec.Class == LBIS.L["Hunter"] then
-				hunterCount = hunterCount + 1;
-			end
-
-			if classSpec.Class == LBIS.L["Death Knight"] then
-				dkCount = dkCount + 1;
-			end
-		
-			if classSpec.Class == LBIS.L["Rogue"] then
-				rogueCount = rogueCount + 1;
+			classCount[classSpec.Class..v.Bis..v.Phase] = (classCount[classSpec.Class..v.Bis..v.Phase] or 0) + 1;
+			if (combinedSpecs[classSpec.Class..v.Bis..v.Phase] == nil) then
+				combinedSpecs[classSpec.Class..v.Bis..v.Phase] = { Class = classSpec.Class, Spec = classSpec.Spec, Bis = v.Bis, Phase = v.Phase }
+			else				
+				combinedSpecs[classSpec.Class..v.Bis..v.Phase].Spec = combinedSpecs[classSpec.Class..v.Bis..v.Phase].Spec..", "..classSpec.Spec;
 			end
 		end
 	end
 	
-	for k, v in pairs(entry) do
-		if LBISSettings.Tooltip[k] and isInEnabledPhase(v.PhaseList) and foundCustom[k] == nil then
-			local classSpec = LBIS.ClassSpec[k]
-			local foundMatch = false;
-
-			for _, ttItem in pairs(combinedTooltip) do
-				if (ttItem.Class == LBIS.L["Warrior"] and warriorDpsCount == 2) or 
-				   (ttItem.Class == LBIS.L["Warlock"] and warlockCount == 3) or 
-				   (ttItem.Class == LBIS.L["Mage"] and mageCount == 3) or
-				   (ttItem.Class == LBIS.L["Hunter"] and hunterCount == 3) or
-				   (ttItem.Class == LBIS.L["Death Knight"] and dkCount == 3) or
-				   (ttItem.Class == LBIS.L["Rogue"] and rogueCount == 3) then
-					if classSpec.Class == ttItem.Class and v.Bis == ttItem.Bis and v.Phase == ttItem.Phase then
-						foundMatch = true;
-						if ttItem.Class == LBIS.L["Warrior"] and (ttItem.Spec == LBIS.L["Fury"] or ttItem.Spec == LBIS.L["Arms"]) then
-							ttItem.Spec = "DPS";
-						else
-							ttItem.Spec = "";
-						end
-					end
-				end
-			end
-
-			if not foundMatch then
-				table.insert(combinedTooltip, { Class = classSpec.Class, Spec = classSpec.Spec, Bis = v.Bis, Phase = v.Phase })
-			end
+	for _, v in pairs(combinedSpecs) do
+		if (v.Class ~= "Druid" and classCount[v.Class..v.Bis..v.Phase] == 3) then
+			v.Spec = "";
+		elseif (v.Class == "Druid" and classCount[v.Class..v.Bis..v.Phase] == 4) then
+			v.Spec = "";
 		end
+		table.insert(combinedTooltip, { Class = v.Class, Spec = v.Spec, Bis = v.Bis, Phase = v.Phase })
 	end
 end
 
@@ -104,7 +68,7 @@ local function buildCustomTooltip(priorityEntry, combinedTooltip)
 
 	return foundCustom;
 end
-    
+
 local function buildTooltip(tooltip, combinedTooltip)
 
 	if #combinedTooltip > 0 then

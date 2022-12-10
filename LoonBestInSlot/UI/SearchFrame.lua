@@ -9,7 +9,8 @@ end
 function LBIS.SearchFrame:ShowSearchFrame(slot, itemList)
     LBIS.BrowserWindow.Window.ScrollBar:Disable();
     LBIS.BrowserWindow.Window.Container:Hide();
-
+    clearAll();
+    showCustomList(itemList);
     LBIS.SearchFrame.Frame.SearchLabel:SetText("Search for items to add to "..slot.." list:");
     LBIS.SearchFrame.Frame:Show();
 end
@@ -24,6 +25,122 @@ local function has_value (tab, val)
 
     return false
 end
+
+function showCustomList(itemList)
+    
+    --TODO CREATE LIST OF ITEMS IN THAT SLOT
+    --TODO CREATE BUTTONS TO MOVE/REMOVE ITEMS FROM LIST
+    
+    local itemCount = 1;
+    local totalItems = getn(itemList);
+    local f = LBIS.SearchFrame.Frame.ItemListFrame;
+    for orderId, itemId in pairs(itemList) do
+
+        LBIS:GetItemInfo(itemId, function(item)
+
+            if item == nil or item.Id == nil or item.Link == nil or item.Type == nil then
+                LBIS:Error("Failed Load: "..itemId);
+                failedLoad = true;
+            end
+
+            f.CustomButtons[itemCount].ItemButton:SetNormalTexture(item.Texture);
+            LBIS:SetTooltipOnButton(f.CustomButtons[itemCount].ItemButton, item);
+            f.CustomButtons[itemCount].LeftButton:SetScript("OnClick", function(self, button)
+                if button == "LeftButton" then
+                    itemList[itemCount], itemList[itemCount-1] = itemList[itemCount-1], itemList[itemCount]                    
+                    showCustomList(itemList);
+                end
+            end);
+            f.CustomButtons[itemCount].RightButton:SetScript("OnClick", function(self, button)
+                if button == "LeftButton" then
+                    itemList[itemCount], itemList[itemCount+1] = itemList[itemCount+1], itemList[itemCount]
+                    showCustomList(itemList);
+                end
+            end);
+            f.CustomButtons[itemCount].DeleteButton:SetScript("OnClick", function(self, button)
+                if button == "LeftButton" then
+                    f.AddButton:Enable();
+                    local itemId = itemList[itemCount];
+                    table.remove(itemList, itemCount);
+                    LBIS.CustomList.Items[itemId][LBIS.SpecToName[LBISSettings.SelectedSpec]] = nil;
+                    showCustomList(itemList);
+                end
+            end);
+
+            if itemCount == 1 then
+                f.CustomButtons[itemCount].LeftButton:Disable();
+            else                
+                f.CustomButtons[itemCount].LeftButton:Enable();
+            end
+
+            if itemCount == totalItems then
+                f.CustomButtons[itemCount].RightButton:Disable();
+            else                
+                f.CustomButtons[itemCount].RightButton:Enable();
+            end
+
+        end);
+
+        f.CustomButtons[itemCount]:ShowButtons();
+
+        if LBIS.CustomList.Items[itemId] == nil then
+            LBIS.CustomList.Items[itemId] = {};
+        end
+
+        LBIS.CustomList.Items[itemId][LBIS.SpecToName[LBISSettings.SelectedSpec]] = itemCount;
+        
+        itemCount = itemCount + 1;
+    end
+
+    for i = itemCount,6 do    
+        f.CustomButtons[i]:HideButtons();
+    end
+    
+end
+
+function selectButton(buttonIndex)
+    local ac = LBIS.SearchFrame.Frame.AutoCompleteMenu;
+    assert(buttonIndex == nil or buttonIndex >= 1 and buttonIndex <= ac.buttonCount,
+           'Button index is out of bounds')
+
+    local previousButton = ac.buttons[ac.selectedButtonIndex]
+    local selectedButton = ac.buttons[buttonIndex]
+
+    if previousButton ~= nil then
+        previousButton:UnlockHighlight()
+
+        -- if GameTooltip:GetOwner() == previousButton then
+        --     GameTooltip:Hide()
+        -- end
+    end
+
+    if selectedButton ~= nil then
+      selectedButton:LockHighlight()
+      selectedButton:ShowTooltip()
+    end
+
+    ac.selectedButtonIndex = buttonIndex
+end
+
+function isEmpty()
+    return LBIS.SearchFrame.Frame.AutoCompleteMenu.buttonCount == 0
+end
+
+function clearAll()
+    local ac = LBIS.SearchFrame.Frame.AutoCompleteMenu;
+    if isEmpty() then
+      return
+    end
+
+    selectButton(nil)
+
+    for i = 1, ac.buttonCount do
+        ac.buttons[i]:Hide()
+    end
+
+    ac.buttonCount = 0
+    ac:SetHeight(ac.baseHeight);
+  end
 
 local function createButton()
     local ac = LBIS.SearchFrame.Frame.AutoCompleteMenu;
@@ -67,6 +184,10 @@ end
 local function addButton(text)
     local ac = LBIS.SearchFrame.Frame.AutoCompleteMenu;
     
+    if ac.buttonCount > 5 then
+        clearAll();
+    end
+
     ac.buttonCount = ac.buttonCount + 1
 
     if ac.buttons[ac.buttonCount] == nil then
@@ -77,10 +198,6 @@ local function addButton(text)
     local button = ac.buttons[ac.buttonCount]
     button:SetText(text)
     button:Show();
-
-    if ac.buttonCount > 5 then
-        ac.buttonCount = 0;
-    end
 
     ac:SetHeight(ac.baseHeight + button:GetHeight() * ac.buttonCount)
     ac:SetWidth(595)
@@ -120,9 +237,79 @@ local function HandleTextChanged(editBox, isUserInput)
         debounceTimer:Cancel();
     end
     debounceTimer = C_Timer.NewTimer(0.5, function() 
-        addButton(editBox:GetText());
+        local text = editBox:GetText();
+        if (#text > 0) then
+            addButton(text);
+        end
     end)
       
+end
+
+function createCustomList(f)
+
+    local itemf = CreateFrame('Frame', nil, f, 'BackdropTemplate')
+
+    itemf:SetBackdrop({
+            bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
+            edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+            tile = 1,
+            tileSize = 10,
+            edgeSize = 10,
+            insets = { left = 3, right = 3, top = 3, bottom = 3 },
+          });
+        
+    itemf:SetBackdropBorderColor(TOOLTIP_DEFAULT_COLOR.r, TOOLTIP_DEFAULT_COLOR.g, TOOLTIP_DEFAULT_COLOR.b, 1)
+    itemf:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b, 1)
+    itemf:SetPoint('TOP', f, 'CENTER', 0, 75);
+    itemf:SetSize(700, 300);
+    itemf.CustomButtons = {};
+
+    for i=1,6 do
+
+        local b, bLeft, bRight, bDelete, t2 = nil, nil, nil, nil, nil;
+        b = CreateFrame("Button", nil, itemf);
+        b:SetSize(32, 32);
+        b:SetPoint("TOPLEFT", itemf, 50 + (i * 85), -5);
+        b:Hide();
+
+        bLeft = CreateFrame("Button", nil, itemf);
+        bLeft:SetSize(12, 12);
+        bLeft:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowup.tga");
+        bLeft:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowup_down.tga");
+        bLeft:SetDisabledTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowup_dis.tga");
+        bLeft:SetPoint("TOPLEFT", b, "TOPRIGHT", 2, 0);
+        bLeft:Hide();
+                    
+        bRight = CreateFrame("Button", nil, itemf);
+        bRight:SetSize(12, 12);
+        bRight:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowdown.tga");
+        bRight:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowdown_down.tga")
+        bRight:SetDisabledTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowdown_dis.tga");
+        bRight:SetPoint("TOPLEFT", bLeft, "BOTTOMLEFT", 0, 0);
+        bRight:Hide();
+
+        bDelete = CreateFrame("Button", nil, itemf);
+        bDelete:SetSize(12, 12);
+        bDelete:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\delete.tga");
+        bDelete:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\delete_down.tga")
+        bDelete:SetPoint("TOPLEFT", bRight, "BOTTOMLEFT", 0, 0);
+        bDelete:Hide();
+        
+        t2 = itemf:CreateFontString(nil, nil, "GameFontNormal");
+        t2:SetText(i..": ");
+        t2:SetPoint("RIGHT", b, "LEFT", -5, 0);
+        t2:Hide();
+
+        itemf.CustomButtons[i] = { ItemButton = b, LeftButton = bLeft, RightButton = bRight, DeleteButton = bDelete,
+        ShowButtons = function() 
+            b:Show();bLeft:Show();bRight:Show();bDelete:Show();t2:Show();
+        end,
+        HideButtons = function()
+            b:Hide();bLeft:Hide();bRight:Hide();bDelete:Hide();t2:Hide();
+        end}
+    end
+
+    return itemf;
 end
 
 function LBIS.SearchFrame:CreateSearch()
@@ -167,10 +354,7 @@ function LBIS.SearchFrame:CreateSearch()
         end
     );
 
-    --TODO CREATE AUTOCOMPLETE ITEM LIST BOX
     local ac = CreateFrame('Frame', nil, f, 'BackdropTemplate')
-    --ac:SetFrameLevel(10)
-    --ac:Hide()
     ac:SetBackdrop({
         bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
         edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
@@ -195,11 +379,11 @@ function LBIS.SearchFrame:CreateSearch()
     local acf = ac:CreateFontString(nil, nil, "GameFontDisableSmall");
     acf:SetText("PRESS_TAB");
     acf:SetPoint("BOTTOMLEFT", 15, 10);
-
-    --TODO CREATE LIST OF ITEMS IN THAT SLOT
-    --TODO CREATE BUTTONS TO MOVE/REMOVE ITEMS FROM LIST
-
+    
+    local cf = createCustomList(f);
+    
     LBIS.SearchFrame.Frame = f;
+    LBIS.SearchFrame.Frame.ItemListFrame = cf;
     LBIS.SearchFrame.Frame.SearchLabel = fl;
     LBIS.SearchFrame.Frame.SearchBox = eb;
     LBIS.SearchFrame.Frame.AutoCompleteMenu = ac;

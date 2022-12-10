@@ -37,8 +37,7 @@ end
 local function assignItemsToFrame(f, itemList)
 
     local itemCount = 1;
-    local totalItems = getn(itemList);
-    
+
     for orderId, itemId in pairs(itemList) do
 
         LBIS:GetItemInfo(itemId, function(item)
@@ -51,18 +50,6 @@ local function assignItemsToFrame(f, itemList)
             f.CustomButtons[itemCount].ItemButton:SetNormalTexture(item.Texture);
             LBIS:SetTooltipOnButton(f.CustomButtons[itemCount].ItemButton, item);
                         
-            if itemCount == 1 then
-                f.CustomButtons[itemCount].LeftButton:Disable();
-            else                
-                f.CustomButtons[itemCount].LeftButton:Enable();
-            end
-
-            if itemCount == totalItems then
-                f.CustomButtons[itemCount].RightButton:Disable();
-            else                
-                f.CustomButtons[itemCount].RightButton:Enable();
-            end
-
         end);
 
         f.CustomButtons[itemCount]:ShowButtons();
@@ -83,8 +70,7 @@ end
 
 local function createCustomRow(f, slot, itemList)
 
-    local t, et, editFrame, eb = nil, nil, nil, nil;
-    local window = LBIS.BrowserWindow.Window;
+    local t, eb = nil, nil;
             
     t = f:CreateFontString(nil, nil, "GameFontNormal");
     t:SetText(slot..":");
@@ -94,95 +80,38 @@ local function createCustomRow(f, slot, itemList)
 
     for i=1,6 do
 
-        local b, bLeft, bRight, bDelete,  t2 = nil, nil, nil, nil, nil;
+        local b, t2 = nil, nil;
         b = CreateFrame("Button", nil, f);
         b:SetSize(32, 32);
         b:SetPoint("TOPLEFT", f, 50 + (i * 85), -5);
         b:Hide();
-
-        bLeft = CreateFrame("Button", nil, f);
-        bLeft:SetSize(12, 12);
-        bLeft:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowleft.tga");
-        bLeft:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowleft_down.tga");
-        bLeft:SetDisabledTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowleft_dis.tga");
-        bLeft:SetPoint("TOPLEFT", b, "TOPRIGHT", 2, 0);
-        bLeft:SetScript("OnClick", 
-            function(self, button)
-                if button == "LeftButton" then
-                    itemList[i], itemList[i-1] = itemList[i-1], itemList[i]                    
-                    assignItemsToFrame(f, itemList);
-                end
-            end
-        );
-        bLeft:Hide();
-                    
-        bRight = CreateFrame("Button", nil, f);
-        bRight:SetSize(12, 12);
-        bRight:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowright.tga");
-        bRight:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowright_down.tga")
-        bRight:SetDisabledTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowright_dis.tga");
-        bRight:SetPoint("TOPLEFT", bLeft, "BOTTOMLEFT", 0, 0);
-        bRight:SetScript("OnClick", 
-            function(self, button)
-                if button == "LeftButton" then
-                    itemList[i], itemList[i+1] = itemList[i+1], itemList[i]
-                    assignItemsToFrame(f, itemList);
-                end
-            end
-        );
-        bRight:Hide();
-
-        bDelete = CreateFrame("Button", nil, f);    
-        bDelete:SetSize(12, 12);
-        bDelete:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\delete.tga");
-        bDelete:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\delete_down.tga")
-        bDelete:SetPoint("TOPLEFT", bRight, "BOTTOMLEFT", 0, 0);
-        bDelete:SetScript("OnClick", 
-            function(self, button)
-                if button == "LeftButton" then
-                    f.AddButton:Enable();
-                    local itemId = itemList[i];
-                    table.remove(itemList, i);
-                    LBIS.CustomList.Items[itemId][LBIS.SpecToName[LBISSettings.SelectedSpec]] = nil;
-                    assignItemsToFrame(f, itemList);
-                end
-            end
-        );
-        bDelete:Hide();
         
         t2 = f:CreateFontString(nil, nil, "GameFontNormal");
         t2:SetText(i..": ");
         t2:SetPoint("RIGHT", b, "LEFT", -5, 0);
         t2:Hide();
 
-        f.CustomButtons[i] = { ItemButton = b, LeftButton = bLeft, RightButton = bRight, 
+        f.CustomButtons[i] = { ItemButton = b, 
         ShowButtons = function() 
-            b:Show();bLeft:Show();bRight:Show();bDelete:Show();t2:Show();
+            b:Show();t2:Show();
         end,
         HideButtons = function()
-            b:Hide();bLeft:Hide();bRight:Hide();bDelete:Hide();t2:Hide();
+            b:Hide();t2:Hide();
         end}
     end
 
     eb = CreateFrame("Button", nil, f);
     eb:SetPoint("RIGHT", f, "RIGHT", -10, 0)
     eb:SetSize(32, 32);
-    eb:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\add.tga");
-    eb:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\add_down.tga")
-    eb:SetDisabledTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\add_dis.tga");
+    eb:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\edit.tga");
+    eb:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\edit_down.tga")
     eb:SetScript("OnClick", 
         function(self, button)
             if button == "LeftButton" then                
-                LBIS.SearchFrame:ShowSearchFrame(slot);
+                LBIS.SearchFrame:ShowSearchFrame(slot, itemList);
             end
         end
     );
-
-    if getn(itemList) >= 6 then
-        eb:Disable();
-    end
-
-    f.AddButton = eb;        
 
     assignItemsToFrame(f, itemList);
 
