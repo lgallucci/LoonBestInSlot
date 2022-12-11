@@ -703,7 +703,6 @@ AceGUI:RegisterLayout("Flow",
 			-- That was moving all widgets half the widgets size down, is that intended?
 			-- Actually, it seems to be neccessary for many cases, we'll leave it in for now.
 			-- If widgets seem to anchor weirdly with this, provide a valid alignoffset for them.
-			-- TODO: Investigate moar!
 			frameoffset = child.alignoffset or (frameheight / 2)
 
 			if child.width == "relative" then

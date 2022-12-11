@@ -2,7 +2,7 @@
 ## Title: Loon Best In Slot
 ## Notes: 
 ## OptionalDeps: LibExtraTip
-## SavedVariables: LBISCustomSettings
+## SavedVariables: LBISServerSettings
 ## SavedVariablesPerCharacter: LBISSettings
 ## Version: 4.4.0
 

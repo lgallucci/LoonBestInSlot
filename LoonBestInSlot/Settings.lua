@@ -51,10 +51,15 @@ LBISSettingsDefault =
 		--[LBIS.L["Phase 3"]] = true,
 		--[LBIS.L["Phase 4"]] = true,
 		--[LBIS.L["Phase 5"]] = true
-	},
-	CustomList = {
 	}
 };
+
+LBISServerSettingsDefault = 
+{
+	ItemCache = {},
+	CustomList = {},
+	LastCacheDate = nil,
+}
 
 local lbis_options = {
 	name = "Loon Best In Slot",
@@ -506,7 +511,7 @@ end
 function LBIS:CreateSettings()
 
 	LBISSettings = CopyDefaults(LBISSettingsDefault, LBISSettings);
-	LBISCustomSettings = LBISCustomSettings or {};
+	LBISServerSettings = CopyDefaults(LBISServerSettingsDefault, LBISServerSettings);
 
 	LibStub("AceConfig-3.0"):RegisterOptionsTable("Loon Best In Slot", lbis_options, nil)
 	LibStub("AceConfigDialog-3.0"):AddToBlizOptions("Loon Best In Slot"):SetParent(InterfaceOptionsFramePanelContainer)

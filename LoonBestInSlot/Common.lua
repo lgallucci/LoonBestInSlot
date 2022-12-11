@@ -1,12 +1,18 @@
+LBIS.ReCacheDate = time({year=2022, month=12, day=10, hour=22})
+
 function LBIS:PreCacheItems()
     if LBIS.AllItemsCached then return LBIS.AllItemsCached; end
 
     LBIS.AllItemsCached = true;
+    if (not LBISServerSettings.LastCacheDate or LBISServerSettings.LastCacheDate < LBIS.ReCacheDate) then
+        LBISServerSettings.ItemCache = {};
+        LBISServerSettings.LastCacheDate = time();
+    end
 
-    for prioSpec in pairs(LBISCustomSettings) do
-        for prioSlot in pairs(LBISCustomSettings[prioSpec]) do
+    for prioSpec in pairs(LBISServerSettings.CustomList) do
+        for prioSlot in pairs(LBISServerSettings.CustomList[prioSpec]) do
             local itemCount = 1;
-            for _, itemId in pairs(LBISCustomSettings[prioSpec][prioSlot]) do                
+            for _, itemId in pairs(LBISServerSettings.CustomList[prioSpec][prioSlot]) do                
 
                 if LBIS.CustomList.Items[itemId] == nil then
                     LBIS.CustomList.Items[itemId] = {};
@@ -18,8 +24,7 @@ function LBIS:PreCacheItems()
         end
     end
 
-    for itemId, _ in pairs(LBIS.Items) do
-
+    for itemId, _ in pairs(LBIS.ItemSources) do
         if itemId and itemId ~= 0 then
             LBIS:CacheItem(itemId);
         end
@@ -32,8 +37,6 @@ function LBIS:CacheItem(itemId)
         if not cacheItem or cacheItem.Name == nil then
             LBIS:ReCacheItem(itemId)
         end
-        --TODO: Cache Names of items
-        --TODO: Save cached items locally so we don't have to do this every time ?
     end);
 end
 
@@ -42,8 +45,6 @@ function LBIS:ReCacheItem(itemId)
         if not cacheItem or cacheItem.Name == nil then
             LBIS:Error("Failed to cache ("..itemId.."): ", cacheItem);
         end
-        --TODO: Cache Names of items
-        --TODO: Save cached items locally so we don't have to do this every time ?
     end);
 end
 
@@ -66,13 +67,43 @@ function LBIS:TableLength(T)
   return count
 end
 
+local itemSlots = {};
+itemSlots["INVTYPE_NON_EQUIP"] = "None";
+itemSlots["INVTYPE_HEAD"] = "Head";
+itemSlots["INVTYPE_NECK"] = "Neck";
+itemSlots["INVTYPE_SHOULDER"] = "Shoulder";
+itemSlots["INVTYPE_BODY"] = "Shirt";
+itemSlots["INVTYPE_CHEST"] = "Chest";
+itemSlots["INVTYPE_WAIST"] = "Waist";
+itemSlots["INVTYPE_LEGS"] = "Legs";
+itemSlots["INVTYPE_FEET"] = "Feet";
+itemSlots["INVTYPE_WRIST"] = "Wrist";
+itemSlots["INVTYPE_HAND"] = "Hands";
+itemSlots["INVTYPE_FINGER"] = "Ring";
+itemSlots["INVTYPE_TRINKET"] = "Trinket";
+itemSlots["INVTYPE_WEAPON"] = "One Hand";
+itemSlots["INVTYPE_SHIELD"] = "One Hand";
+itemSlots["INVTYPE_RANGED"] = "Ranged/Relic";
+itemSlots["INVTYPE_CLOAK"] = "Back";
+itemSlots["INVTYPE_2HWEAPON"] = "Two Hand";
+itemSlots["INVTYPE_BAG"] = "Bag";
+itemSlots["INVTYPE_TABARD"] = "Tabard";
+itemSlots["INVTYPE_ROBE"] = "Chest";
+itemSlots["INVTYPE_WEAPONMAINHAND"] = "One Hand";
+itemSlots["INVTYPE_WEAPONOFFHAND"] = "One Hand";
+itemSlots["INVTYPE_HOLDABLE"] = "Ranged/Relic";
+itemSlots["INVTYPE_AMMO"] = "Ammo";
+itemSlots["INVTYPE_THROWN"] = "Ranged/Relic";
+itemSlots["INVTYPE_RANGEDRIGHT"] = "Ranged/Relic";
+itemSlots["INVTYPE_QUIVER"] = "Quiver";
+itemSlots["INVTYPE_RELIC"] = "Ranged/Relic";
 function LBIS:GetItemInfo(itemId, returnFunc)
 
     if not itemId or itemId <= 0 then
-        returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil, Class = nil });
+        returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil, Class = nil, Slot = nil });
     end
 
-    local cachedItem = LBIS.WowItemCache[itemId];
+    local cachedItem = LBISServerSettings.ItemCache[itemId];
 
     if cachedItem then
         returnFunc(cachedItem);
@@ -80,8 +111,7 @@ function LBIS:GetItemInfo(itemId, returnFunc)
         local itemCache = Item:CreateFromItemID(itemId)
 
         itemCache:ContinueOnItemLoad(function()
-            local itemId, itemType, subType, _, _, classId = GetItemInfoInstant(itemId)
-
+            local itemId, itemType, subType, itemSlot, _, classId = GetItemInfoInstant(itemId);
             local name = itemCache:GetItemName();
             
             local newItem = {
@@ -90,16 +120,17 @@ function LBIS:GetItemInfo(itemId, returnFunc)
                 Link = itemCache:GetItemLink(),
                 Quality = itemCache:GetItemQuality(),
                 Type = itemType,
-                SubType = subType,
+                SubType = subType,                
                 Texture = itemCache:GetItemIcon(),
-                Class = classId
+                Class = classId,
+                Slot = itemSlots[itemSlot]
             };
 
             if name then
-                LBIS.WowItemCache[itemId] = newItem;
+                LBISServerSettings.ItemCache[itemId] = newItem;
             end
             
-            returnFunc(newItem);            
+            returnFunc(newItem);
         end);
     end           
 end
@@ -181,15 +212,25 @@ function LBIS:CreateDropdown(opts, width)
 end
 
 local itemIsOnEnter = false;
+
+
+function LBIS:UpdateTooltipOnButton(b, item)
+    b.ItemId = item.Id;
+    b.ItemLink = item.Link;
+end
+
 function LBIS:SetTooltipOnButton(b, item, isSpell)
     
+    b.ItemId = item.Id;
+    b.ItemLink = item.Link;
+
     b:SetScript("OnClick", 
         function(self, button)
             if button == "LeftButton" then
                 if isSpell then
-                    HandleModifiedItemClick(GetSpellLink(item.Id));
+                    HandleModifiedItemClick(GetSpellLink(b.ItemId));
                 else
-                    HandleModifiedItemClick(item.Link);
+                    HandleModifiedItemClick(b.ItemLink);
                 end
             end
         end
@@ -199,9 +240,9 @@ function LBIS:SetTooltipOnButton(b, item, isSpell)
         function(self)
             GameTooltip:SetOwner(self, "ANCHOR_LEFT");
             if isSpell == nil or isSpell == false then
-                GameTooltip:SetItemByID(item.Id);
+                GameTooltip:SetItemByID(b.ItemId);
             else
-                GameTooltip:SetSpellByID(item.Id);
+                GameTooltip:SetSpellByID(b.ItemId);
             end
             GameTooltip:Show();
             itemIsOnEnter = true;

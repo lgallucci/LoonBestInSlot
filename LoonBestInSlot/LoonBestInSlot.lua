@@ -8,7 +8,6 @@ LBIS.SpecItems = {};
 LBIS.NameSearch = {};
 LBIS.SpecGems = {};
 LBIS.SpecEnchants = {};
-LBIS.WowItemCache = {};
 LBIS.WowSpellCache = {};
 LBIS.AllItemsCached = false;
 LBIS.CurrentPhase = 1;

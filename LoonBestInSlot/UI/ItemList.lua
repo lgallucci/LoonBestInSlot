@@ -1,6 +1,7 @@
 LBIS.ItemList = {};
 
---local VendorPrice = AtlasLoot.Data.VendorPrice;
+--TODO: Sort items based on order entered
+--TODO: Swap wowhead items list with custom list
 
 local itemSlotOrder = {}
 itemSlotOrder[LBIS.L["Head"]] = 0;

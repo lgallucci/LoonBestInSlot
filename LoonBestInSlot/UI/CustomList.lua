@@ -41,15 +41,8 @@ local function assignItemsToFrame(f, itemList)
     for orderId, itemId in pairs(itemList) do
 
         LBIS:GetItemInfo(itemId, function(item)
-
-            if item == nil or item.Id == nil or item.Link == nil or item.Type == nil then
-                LBIS:Error("Failed Load: "..itemId);
-                failedLoad = true;
-            end
-
             f.CustomButtons[itemCount].ItemButton:SetNormalTexture(item.Texture);
-            LBIS:SetTooltipOnButton(f.CustomButtons[itemCount].ItemButton, item);
-                        
+            LBIS:SetTooltipOnButton(f.CustomButtons[itemCount].ItemButton, item);                        
         end);
 
         f.CustomButtons[itemCount]:ShowButtons();
@@ -91,13 +84,15 @@ local function createCustomRow(f, slot, itemList)
         t2:SetPoint("RIGHT", b, "LEFT", -5, 0);
         t2:Hide();
 
-        f.CustomButtons[i] = { ItemButton = b, 
-        ShowButtons = function() 
-            b:Show();t2:Show();
-        end,
-        HideButtons = function()
-            b:Hide();t2:Hide();
-        end}
+        f.CustomButtons[i] = { 
+            ItemButton = b, 
+            ShowButtons = function() 
+                b:Show();t2:Show();
+            end,
+            HideButtons = function()
+                b:Hide();t2:Hide();
+            end
+        }
     end
 
     eb = CreateFrame("Button", nil, f);
@@ -108,7 +103,9 @@ local function createCustomRow(f, slot, itemList)
     eb:SetScript("OnClick", 
         function(self, button)
             if button == "LeftButton" then                
-                LBIS.SearchFrame:ShowSearchFrame(slot, itemList);
+                LBIS.SearchFrame:ShowSearchFrame(slot, itemList, function()
+                    assignItemsToFrame(f, itemList);
+                end);
             end
         end
     );
@@ -151,10 +148,10 @@ function LBIS.CustomList:UpdateItems()
             return;
         end
 
-        local savedCustomList = LBISCustomSettings[selectedSpec];
+        local savedCustomList = LBISServerSettings.CustomList[selectedSpec];
 
         if savedCustomList == nil then
-            LBISCustomSettings[selectedSpec] = defaultCustomList;
+            LBISServerSettings.CustomList[selectedSpec] = defaultCustomList;
             savedCustomList = defaultCustomList;
         end
 
