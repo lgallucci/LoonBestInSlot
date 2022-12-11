@@ -22,7 +22,7 @@ public static class LocalizationFileManager
 
     public static void WriteLocalizationFiles()
     {
-        var di = new System.IO.DirectoryInfo(@$"..\..\..\..\LoonBestInSlot\");
+        var di = new System.IO.DirectoryInfo(@$"{Constants.AddonPath}\");
 
         var localizations = RecursivelySearch(di);
         var localList = localizations.ToList();
@@ -105,7 +105,7 @@ public static class LocalizationFileManager
 
             fileText += "end";
 
-            System.IO.File.WriteAllText(@$"..\..\..\..\LoonBestInSlot\Localization\localization.{language}.lua", fileText);
+            System.IO.File.WriteAllText(@$"{Constants.AddonPath}\Localization\localization.{language}.lua", fileText);
         }
     }
 
@@ -401,7 +401,7 @@ public static class LocalizationFileManager
     {
         var translatedLocalizations = new Dictionary<string, string>();
 
-        string[] itemSources = System.IO.File.ReadAllLines(@$"..\..\..\..\LoonBestInSlot\Localization\localization.{language}.lua");
+        string[] itemSources = System.IO.File.ReadAllLines(@$"..\..\..\..\..\..\LoonBestInSlot\Localization\localization.{language}.lua");
         var lineCount = 0;
         foreach (var line in itemSources)
         {

@@ -1342,6 +1342,7 @@ LBIS.ItemSources =
     [43404] = { Name = "Zuramat's Necklace", SourceType = LBIS.L["Drop"], Source = LBIS.L["Zuramat the Obliterator"], SourceNumber = "0", SourceLocation = LBIS.L["The Violet Hold (Heroic)"] },
     [43405] = { Name = "Sabatons of Erekem", SourceType = LBIS.L["Drop"], Source = LBIS.L["Erekem"], SourceNumber = "0", SourceLocation = LBIS.L["The Violet Hold (Heroic)"] },
     [43406] = { Name = "Cloak of the Gushing Wound", SourceType = LBIS.L["Drop"], Source = LBIS.L["Erekem"], SourceNumber = "0", SourceLocation = LBIS.L["The Violet Hold (Heroic)"] },
+    [43407] = { Name = "Stormstrike Mace", SourceType = LBIS.L["Drop"], Source = LBIS.L["Erekem"], SourceNumber = "0", SourceLocation = LBIS.L["The Violet Hold (Heroic)"] },
     [43408] = { Name = "Solitaire of Reflecting Beams", SourceType = LBIS.L["Drop"], Source = LBIS.L["Moragg"], SourceNumber = "0", SourceLocation = LBIS.L["The Violet Hold (Heroic)"] },
     [43409] = { Name = "Saliva Corroded Pike", SourceType = LBIS.L["Drop"], Source = LBIS.L["Moragg"], SourceNumber = "0", SourceLocation = LBIS.L["The Violet Hold (Heroic)"] },
     [43410] = { Name = "Moragg's Chestguard", SourceType = LBIS.L["Drop"], Source = LBIS.L["Moragg"], SourceNumber = "0", SourceLocation = LBIS.L["The Violet Hold (Heroic)"] },
