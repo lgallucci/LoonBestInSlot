@@ -4,7 +4,15 @@ function LBIS:PreCacheItems()
     if LBIS.AllItemsCached then return LBIS.AllItemsCached; end
 
     LBIS.AllItemsCached = true;
+    --If cache date is updated (because of cache changing) reset the cache
     if (not LBISServerSettings.LastCacheDate or LBISServerSettings.LastCacheDate < LBIS.ReCacheDate) then
+        LBISServerSettings.ItemCache = {};
+        LBISServerSettings.LastCacheDate = time();
+    end
+
+    --If language is switched between logins, reset cache
+    if (GetLocale() ~= LBISServerSettings.CurrentLocale) then
+        LBISServerSettings.CurrentLocale = GetLocale();
         LBISServerSettings.ItemCache = {};
         LBISServerSettings.LastCacheDate = time();
     end
@@ -132,9 +140,8 @@ function LBIS:GetItemInfo(itemId, returnFunc)
             
             returnFunc(newItem);
         end);
-    end           
+    end
 end
-
 
 function LBIS:GetSpellInfo(spellId, returnFunc)
 
