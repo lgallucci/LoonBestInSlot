@@ -172,12 +172,24 @@ local function registerTooltip(tooltip)
 
 end
 
+local function linkWranglerHook(frame)
+	registerTooltip(frame)
+end
+
 LBIS:RegisterEvent("PLAYER_ENTERING_WORLD" , function ()
 	LBIS.EventFrame:UnregisterEvent("PLAYER_ENTERING_WORLD")
 
 	registerTooltip(GameTooltip);
-	registerTooltip(ItemRefTooltip);
 	registerTooltip(ShoppingTooltip1);
+	registerTooltip(ShoppingTooltip2);
+
+	registerTooltip(ItemRefTooltip);
+	registerTooltip(ItemRefShoppingTooltip1)
+	registerTooltip(ItemRefShoppingTooltip2)
+
+	if LinkWrangler then
+        LinkWrangler.RegisterCallback("EdrikGameFixes", linkWranglerHook, "allocate", "allocatecomp")
+    end
 
     LBIS:Startup();
 end);
