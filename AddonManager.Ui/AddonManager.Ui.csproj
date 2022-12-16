@@ -61,7 +61,8 @@
     <Optimize>False</Optimize>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Importer.xaml" />
+    <None Remove="GuideImporter.xaml" />
+    <None Remove="ItemImporter.xaml" />
     <None Remove="MainWindow.xaml" />
   </ItemGroup>
   <ItemGroup>
@@ -70,7 +71,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Importer.xaml">
+    <Page Update="ItemImporter.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>

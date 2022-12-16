@@ -10,7 +10,7 @@ using System.Globalization;
 using CsvHelper.Configuration.Attributes;
 
 namespace AddonManager.Models;
-public abstract class LootConverter
+public abstract class LootImporter
 {
     public virtual async Task Convert(string jsonText)
     {
@@ -25,7 +25,7 @@ public abstract class LootConverter
     internal abstract Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText);
 }
 
-public class EmblemConverter : LootConverter
+public class EmblemImporter : LootImporter
 {
     private List<string> wowheadUriList = new List<string>
     {
@@ -98,7 +98,7 @@ public class EmblemConverter : LootConverter
     }
 }
 
-public class ProfessionConverter : LootConverter
+public class ProfessionImporter : LootImporter
 {
     internal override string FileName { get => "ProfessionItemList"; }
     internal override Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
@@ -109,7 +109,7 @@ public class ProfessionConverter : LootConverter
     }
 }
 
-public class DungeonConverter : LootConverter
+public class DungeonImporter : LootImporter
 {
     internal override string FileName { get => "DungeonItemList"; }
     internal override Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
@@ -154,7 +154,7 @@ public class DungeonConverter : LootConverter
     }
 }
 
-public class RaidConverter : LootConverter
+public class RaidImporter : LootImporter
 {
     private class RaidItem
     {
@@ -211,7 +211,7 @@ public class RaidConverter : LootConverter
     }
 }
 
-public class PvPConverter : LootConverter
+public class PvPImporter : LootImporter
 {
     private List<string> wowheadUriList = new List<string>
         {
@@ -304,7 +304,7 @@ public class PvPConverter : LootConverter
     }
 }
 
-public class ReputationConverter : LootConverter
+public class ReputationImporter : LootImporter
 {
     private List<(string, string)> wowheadUriList = new List<(string, string)>
         {

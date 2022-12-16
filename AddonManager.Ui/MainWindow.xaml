@@ -9,22 +9,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
     <Grid>
-        <Button x:Name="btnImport" Content="Import" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="Import_Click"/>
-        <Button x:Name="btnImportAll" Content="ImportAll" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Click="ImportAll_Click"/>
-        <ScrollViewer Margin="0,50,0,0" BorderBrush="Gray" BorderThickness="1">
-            <TextBox x:Name="ConsoleOut" TextWrapping="Wrap" />
-        </ScrollViewer>
-        <ComboBox x:Name="cmbSpec" HorizontalAlignment="Left" Margin="160,9,0,0" VerticalAlignment="Top" Width="170" SelectedIndex="0" />
-        <ComboBox x:Name="cmbPhase" HorizontalAlignment="Left" Margin="334,9,0,0" VerticalAlignment="Top" Width="145" SelectedIndex="0" />
-        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="495,10,0,10" VerticalAlignment="Top" Click="Cancel_Click"/>
-
-        <Button x:Name="btnLocalize" Content="Localize" Margin="10,10,120,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Localize_Click"/>
-        <Button x:Name="btnRefreshItems" Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Refresh_Click"/>
-
-        <Button x:Name="btnConverters" Content="Converters" Margin="10,10,195,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Converters_Click"/>
-        <Button x:Name="btnVerify" Content="Verify" Margin="10,10,285,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Verify_Click"/>
-        <Button x:Name="btnRefreshAll" Content="Refresh All" Margin="10,10,345,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Refresh_All_Click" IsEnabled="False"/>
+        <Frame x:Name="rootFrame"/>
     </Grid>
 </Window>
