@@ -64,6 +64,7 @@ LBIS:AddItem(spec, "40549", LBIS.L["Feet"], "BIS") --Boots of the Renewed Flight
 LBIS:AddItem(spec, "40746", LBIS.L["Feet"], "BIS") --Pack-Ice Striders
 LBIS:AddItem(spec, "39701", LBIS.L["Feet"], "BIS") --Dawnwalkers
 LBIS:AddItem(spec, "40367", LBIS.L["Feet"], "BIS") --Boots of the Great Construct
+LBIS:AddItem(spec, "40184", LBIS.L["Feet"], "BIS") --Crippled Treads
 LBIS:AddItem(spec, "40243", LBIS.L["Feet"], "Alt") --Footwraps of Vile Deceit
 LBIS:AddItem(spec, "43469", LBIS.L["Feet"], "Alt") --Revenant's Treads
 
