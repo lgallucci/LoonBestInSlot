@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="ItemDatabase\DungeonItemlist.json">
+    <None Update="ItemDatabase\DungeonItemList.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
     <None Update="wotlk-loot-table.csv">
