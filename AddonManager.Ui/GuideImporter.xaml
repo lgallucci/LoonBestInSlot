@@ -26,6 +26,6 @@
 
         <Button x:Name="btnImporters" Content="Importers" Margin="10,10,195,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Importers_Click"/>
         <Button x:Name="btnVerify" Content="Verify" Margin="10,10,285,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Verify_Click"/>
-        <Button x:Name="btnRefreshAll" Content="Refresh All" Margin="10,10,345,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Refresh_All_Click" IsEnabled="False"/>
+        <Button x:Name="btnRefreshAll" Content="Refresh All" Margin="10,10,345,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Refresh_All_Click"/><!-- IsEnabled="False"/>-->
     </Grid>
 </Page>

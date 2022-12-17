@@ -183,13 +183,17 @@ public sealed partial class GuideImporter : Page
         ConsoleOut.Text = "Adding Phase 1 items to ItemSource...";
 
         //Read file into dictionary
-        DatabaseItems dbItem;
+        DatabaseItems dbItems;
         var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\RaidItemList.json");
-        dbItem = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
+        dbItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
+
+        jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\DungeonItemList.json");
+        var dungeonItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
+        dbItems.AddItems(dungeonItems);
 
         var itemSources = ItemSourceFileManager.ReadItemSources();
 
-        foreach (var db in dbItem.Items)
+        foreach (var db in dbItems.Items)
         {
             if (!itemSources.ContainsKey(db.Key) && IsInPhase(1, db.Value.Source, db.Value.SourceLocation))
             {

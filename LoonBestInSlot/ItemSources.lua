@@ -1468,6 +1468,8 @@ LBIS.ItemSources =
     [44419] = { Name = "Deadly Gladiator's War Staff", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Points"], SourceNumber = "4500", SourceLocation = LBIS.L["Arena Vendor"] },
     [44420] = { Name = "Deadly Gladiator's Focus Staff", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Points"], SourceNumber = "4500", SourceLocation = LBIS.L["Arena Vendor"] },
     [44504] = { Name = "Nesingwary 4000", SourceType = LBIS.L["Profession"], Source = LBIS.L["Engineering"], SourceNumber = "0", SourceLocation = "60874" },
+    [44569] = { Name = "Key to the Focusing Iris", SourceType = LBIS.L["Drop"], Source = LBIS.L["Sapphiron"], SourceNumber = "0", SourceLocation = LBIS.L["Naxxramas (10)"] },
+    [44577] = { Name = "Heroic Key to the Focusing Iris", SourceType = LBIS.L["Drop"], Source = LBIS.L["Sapphiron"], SourceNumber = "0", SourceLocation = LBIS.L["Naxxramas (10)"] },
     [44657] = { Name = "Torque of the Red Dragonflight", SourceType = LBIS.L["Quest"], Source = LBIS.L["Judgement at the Eye of Eternity"], SourceNumber = "0", SourceLocation = LBIS.L["The Eye of Eternity (10)"] },
     [44658] = { Name = "Chain of the Ancient Wyrm", SourceType = LBIS.L["Quest"], Source = LBIS.L["Judgement at the Eye of Eternity"], SourceNumber = "0", SourceLocation = LBIS.L["The Eye of Eternity (10)"] },
     [44659] = { Name = "Pendant of the Dragonsworn", SourceType = LBIS.L["Quest"], Source = LBIS.L["Judgement at the Eye of Eternity"], SourceNumber = "0", SourceLocation = LBIS.L["The Eye of Eternity (10)"] },
