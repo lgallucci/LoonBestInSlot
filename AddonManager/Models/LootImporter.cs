@@ -8,17 +8,19 @@ using System.Transactions;
 using CsvHelper;
 using System.Globalization;
 using CsvHelper.Configuration.Attributes;
+using AngleSharp.Dom;
+using System.Windows.Documents;
 
 namespace AddonManager.Models;
 public abstract class LootImporter
 {
     public virtual async Task Convert(string jsonText)
     {
-        var jsonFileString = File.ReadAllText(@$"..\..\..\ItemDatabase\{FileName}.json");
+        var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\{FileName}.json");
         DatabaseItems dbItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
 
         //write dictionary to file
-        File.WriteAllText(@$"..\..\..\ItemDatabase\{FileName}.json", JsonConvert.SerializeObject(await InnerConvert(dbItems, jsonText), Formatting.Indented));
+        File.WriteAllText(@$"{Constants.ItemDbPath}\{FileName}.json", JsonConvert.SerializeObject(await InnerConvert(dbItems, jsonText), Formatting.Indented));
     }
 
     internal abstract string FileName { get; }
@@ -111,46 +113,158 @@ public class ProfessionImporter : LootImporter
 
 public class DungeonImporter : LootImporter
 {
-    internal override string FileName { get => "DungeonItemList"; }
-    internal override Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
-    {
-        jsonText = jsonText.Replace(@"\'", "'").Replace("\\\\\"", "\\\"");
-        var obj = JsonConvert.DeserializeObject<dynamic>(jsonText);
-        foreach (var itemType in obj.boss)
+    private List<(string, string)> dungeonUriList = new List<(string, string)>
         {
-            foreach (var item in itemType.Normal)
-            {
-                int id = item[1].id ?? 0;
-                if (id > 0)
-                {
-                    items.Items.TryAdd(id, new DatabaseItem
-                    {
-                        Name = item[1].title,
-                        SourceNumber = "0",
-                        Source = itemType.title,
-                        SourceLocation = $"{obj.title.ToString()} (Normal)",
-                        SourceType = "Drop"
-                    });
-                }
-            }
+            (@"https://www.icy-veins.com/wotlk-classic/utgarde-keep-dungeon-guide", "Utgarde Keep"),
+            (@"https://www.icy-veins.com/wotlk-classic/the-nexus-dungeon-guide", "The Nexus"),
+            (@"https://www.icy-veins.com/wotlk-classic/azjol-nerub-dungeon-guide", "Azjol-Nerub"),
+            (@"https://www.icy-veins.com/wotlk-classic/ahn-kahet-the-old-kingdom-dungeon-guide", "Ahn'kahet: The Old Kingdom"),
+            (@"https://www.icy-veins.com/wotlk-classic/drak-tharon-keep-dungeon-guide", "Drak'Tharon"),
+            (@"https://www.icy-veins.com/wotlk-classic/the-violet-hold-dungeon-guide", "The Violet Hold"),
+            (@"https://www.icy-veins.com/wotlk-classic/gundrak-dungeon-guide", "Gundrak"),
+            (@"https://www.icy-veins.com/wotlk-classic/halls-of-stone-dungeon-guide", "Halls of Stone"),
+            (@"https://www.icy-veins.com/wotlk-classic/halls-of-lightning-dungeon-guide", "Halls of Lightning"),
+            (@"https://www.icy-veins.com/wotlk-classic/utgarde-pinnacle-dungeon-guide", "Utgarde Pinnacle"),
+            (@"https://www.icy-veins.com/wotlk-classic/the-oculus-dungeon-guide", "The Oculus"),
+            (@"https://www.icy-veins.com/wotlk-classic/the-culling-of-stratholme-dungeon-guide", "The Culling of Stratholme"),
+            //(@"https://www.icy-veins.com/wotlk-classic/trial-of-the-champion-dungeon-guide", "Trial of the Champion"),
+            //(@"https://www.icy-veins.com/wotlk-classic/the-forge-of-souls-dungeon-guide", "The Forge of Souls"),
+            //(@"https://www.icy-veins.com/wotlk-classic/pit-of-saron-dungeon-guide", "Pit of Saron"),
+            //(@"https://www.icy-veins.com/wotlk-classic/halls-of-reflection-dungeon-guide", "Halls of Reflection"),
+        };
 
-            foreach (var item in itemType.Heroic)
+    internal override string FileName { get => "DungeonItemList"; }
+    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
+    {
+        items.Items.Clear();
+
+        foreach (var dungeonUri in dungeonUriList)
+        {
+            await Common.LoadFromWebPage(dungeonUri.Item1, async (content) =>
             {
-                int id = item[1].id ?? 0;
-                if (id > 0)
+                var parser = new HtmlParser();
+                var doc = default(IHtmlDocument);
+                doc = await parser.ParseDocumentAsync(content);
+
+                var htmlElements = doc.QuerySelectorAll(".heading_container.heading_number_3");
+                if (htmlElements != null && htmlElements.Length > 0)
                 {
-                    items.Items.TryAdd(id, new DatabaseItem
+                    foreach (var htmlElement in htmlElements)
                     {
-                        Name = item[1].title,
-                        SourceNumber = "0",
-                        Source = itemType.title,
-                        SourceLocation = $"{obj.title.ToString()} (Heroic)",
-                        SourceType = "Drop"
-                    });
+                        var success = false;
+
+                        //find h3 and get boss name
+                        var bossName = htmlElement.QuerySelector("h3")?.TextContent;
+
+                        AddLootItems(htmlElement, bossName, dungeonUri.Item2, items);                        
+                    }
                 }
+            });
+        }
+        return items;
+    }
+
+    private (int, string) GetItemFromTableRow(IHtmlTableRowElement row)
+    {
+        var tableCell = row.Cells[0];
+        var itemId = 0;
+        string name = string.Empty;
+        var itemSpan = tableCell.QuerySelector("span > span");
+        var dataString = string.Empty;
+        if (itemSpan != null)
+        {
+            name = itemSpan.TextContent;
+            dataString = ((IHtmlSpanElement)itemSpan).GetAttribute("data-wowhead");
+        }
+        else
+        {
+            var itemAnchor = tableCell.QuerySelector("span > a");
+            if (itemAnchor != null)
+            {
+                name = itemAnchor.TextContent;
+                dataString = itemAnchor.GetAttribute("data-wowhead");
             }
         }
-        return Task.FromResult(items);
+
+        var item = dataString?.Replace("&domain=wotlk", "").Replace("item=", "");
+        Int32.TryParse(item, out itemId);
+        return (itemId, name);
+    }
+
+    private void LoopThroughTable(IHtmlTableElement table, string bossName, string dungeonName, string dungeonModifier, DatabaseItems items)
+    {
+        if (table == null)
+            return;
+
+        var firstRow = false;
+        foreach (var row in table.Rows)
+        {
+            if (!firstRow)
+            {
+                firstRow = true;
+                continue;
+            }
+
+            var rowValues = GetItemFromTableRow(row);
+            items.Items.TryAdd(rowValues.Item1, new DatabaseItem
+            {
+                Name = rowValues.Item2,
+                SourceNumber = "0",
+                Source = bossName,
+                SourceLocation = $"{dungeonName} ({dungeonModifier})",
+                SourceType = "Drop"
+            });
+        }
+    }
+
+    private IElement FindNextTableHeader(IElement currentElement, ref string dungeonModifier)
+    {
+        var foundTable = false;
+        while (!foundTable)
+        {
+            foundTable = true;
+            currentElement = currentElement.NextElementSibling;
+
+            if (currentElement == null)
+            {
+                return null;
+            }
+            if (currentElement.ClassName == "heading_container heading_number_3")
+            {
+                return null;
+            }
+
+            if (currentElement.ClassName == "heading_container heading_number_4")
+            {
+                var headerChild = currentElement.QuerySelector("h4");
+                if (headerChild != null && headerChild.TextContent.Contains("Loot from Heroic"))
+                    dungeonModifier = "Heroic";
+                else if (headerChild != null && headerChild.TextContent.Contains("Loot from Normal"))
+                    dungeonModifier = "Normal";
+                else
+                    foundTable = false;
+            }
+            else
+                foundTable = false;
+        }
+        return currentElement;
+    }
+
+    private void AddLootItems(IElement htmlElement, string bossName, string dungeonName, DatabaseItems items)
+    {
+        var dungeonModifier = string.Empty;
+
+        htmlElement = FindNextTableHeader(htmlElement, ref dungeonModifier);
+        while (htmlElement != null)
+        {
+            var table = htmlElement.NextElementSibling;
+            if (table is IHtmlTableElement)
+            {
+                LoopThroughTable(table as IHtmlTableElement, bossName, dungeonName, dungeonModifier, items);
+            }
+
+            htmlElement = FindNextTableHeader(htmlElement, ref dungeonModifier);
+        }
     }
 }
 
@@ -180,7 +294,7 @@ public class RaidImporter : LootImporter
         var raidModifiers = new Dictionary<string, string> { { "H10", "Heroic 10" }, { "H25", "Heroic 25" }, { "N10", "10" }, { "N25", "10" } };
 
 
-        using (var reader = new StreamReader(@$"..\..\..\wotlk-loot-table.csv"))
+        using (var reader = new StreamReader(@$".\wotlk-loot-table.csv"))
         using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
         {
             var records = csv.GetRecords<RaidItem>();

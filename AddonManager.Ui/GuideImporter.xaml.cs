@@ -184,7 +184,7 @@ public sealed partial class GuideImporter : Page
 
         //Read file into dictionary
         DatabaseItems dbItem;
-        var jsonFileString = File.ReadAllText(@$"..\..\..\ItemDatabase\RaidItemList.json");
+        var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\RaidItemList.json");
         dbItem = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
 
         var itemSources = ItemSourceFileManager.ReadItemSources();
