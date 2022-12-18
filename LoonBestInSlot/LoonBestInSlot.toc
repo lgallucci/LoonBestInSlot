@@ -32,5 +32,6 @@ UI\LootBrowser.lua
 UI\ItemList.lua
 UI\GemList.lua
 UI\EnchantList.lua
-UI\CustomList.lua
+UI\CustomEditList.lua
+UI\CustomItemList.lua
 UI\SearchFrame.lua
