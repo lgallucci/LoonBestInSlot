@@ -113,8 +113,8 @@ local function onTooltipSetItem(tooltip, ...)
 			return;
 		end
 
-		if LBIS.CustomList.Items[itemId] then
-			foundCustom = buildCustomTooltip(LBIS.CustomList.Items[itemId], combinedTooltip)
+		if LBIS.CustomEditList.Items[itemId] then
+			foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[itemId], combinedTooltip)
 		end
 
 		if LBIS.Items[itemId] then

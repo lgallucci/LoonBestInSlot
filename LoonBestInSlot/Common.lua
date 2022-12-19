@@ -22,11 +22,11 @@ function LBIS:PreCacheItems()
             local itemCount = 1;
             for _, itemId in pairs(LBISServerSettings.CustomList[prioSpec][prioSlot]) do                
 
-                if LBIS.CustomList.Items[itemId] == nil then
-                    LBIS.CustomList.Items[itemId] = {};
+                if LBIS.CustomEditList.Items[itemId] == nil then
+                    LBIS.CustomEditList.Items[itemId] = {};
                 end
 
-                LBIS.CustomList.Items[itemId][prioSpec] = itemCount;
+                LBIS.CustomEditList.Items[itemId][prioSpec] = itemCount;
                 itemCount = itemCount + 1;
             end
         end
@@ -287,7 +287,7 @@ function LBIS:spairs(t, order)
 
     if t ~= nil then
         for k in pairs(t) do keys[#keys+1] = k end
-
+        
         -- if order function given, sort by it by passing the table and keys a, b,
         -- otherwise just sort the keys 
         if order then

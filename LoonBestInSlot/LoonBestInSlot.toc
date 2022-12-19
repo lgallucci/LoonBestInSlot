@@ -34,4 +34,5 @@ UI\GemList.lua
 UI\EnchantList.lua
 UI\CustomEditList.lua
 UI\CustomItemList.lua
+UI\AutoComplete.lua
 UI\SearchFrame.lua

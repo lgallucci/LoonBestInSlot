@@ -2,61 +2,6 @@ LBIS.SearchFrame = {}
 LBIS.SearchFrame.Slot = "";
 LBIS.SearchFrame.ItemList = {};
 
-local function has_value (tab, val)
-    for index, value in ipairs(tab) do
-        -- We grab the first index of our sub-table instead
-        if value[1] == val then
-            return true
-        end
-    end
-
-    return false
-end
-
-local function selectButton(buttonIndex)
-    local ac = LBIS.SearchFrame.Frame.AutoCompleteMenu;
-    assert(buttonIndex == nil or buttonIndex >= 1 and buttonIndex <= ac.buttonCount,
-           'Button index is out of bounds')
-
-    local previousButton = ac.buttons[ac.selectedButtonIndex]
-    local selectedButton = ac.buttons[buttonIndex]
-
-    if previousButton ~= nil then
-        previousButton:UnlockHighlight()
-
-        -- if GameTooltip:GetOwner() == previousButton then
-        --     GameTooltip:Hide()
-        -- end
-    end
-
-    if selectedButton ~= nil then
-      selectedButton:LockHighlight()
-      selectedButton:ShowTooltip()
-    end
-
-    ac.selectedButtonIndex = buttonIndex
-end
-
-local function isEmpty()
-    return LBIS.SearchFrame.Frame.AutoCompleteMenu.buttonCount == 0
-end
-
-local function clearAll()
-    local ac = LBIS.SearchFrame.Frame.AutoCompleteMenu;
-    if isEmpty() then
-      return
-    end
-
-    selectButton(nil)
-
-    for i = 1, ac.buttonCount do
-        ac.buttons[i]:Hide()
-    end
-
-    ac.buttonCount = 0
-    ac:SetHeight(ac.baseHeight);
-end
-
 local function conductSearch(text, foundFunc)
     local function slotMatches(slot)
         if slot == "Main Hand" or slot == "Off Hand" then
@@ -76,6 +21,30 @@ local function conductSearch(text, foundFunc)
         end
     end
     foundFunc(foundItems);
+end
+
+local debounceTimer = nil;
+local function HandleTextChanged(editBox, isUserInput)
+
+    if not isUserInput then
+        return
+    end
+
+    if debounceTimer ~= nil then
+        debounceTimer:Cancel();
+    end
+    debounceTimer = C_Timer.NewTimer(0.5, function() 
+        LBIS.AutoComplete:Clear();
+        local text = strtrim(editBox:GetText());
+        if (#text > 3) then
+            conductSearch(text, function (searchedItems) 
+                for _, item in pairs(searchedItems) do
+                    LBIS.AutoComplete:Add(item);
+                end
+            end)
+        end
+    end)
+      
 end
 
 local function showCustomList()
@@ -152,117 +121,13 @@ local function showCustomList()
     if totalItems >= 6 then
         LBIS.SearchFrame.Frame.SearchBox:Disable();
         LBIS.SearchFrame.Frame.SearchLabel:SetFontObject("GameFontDisable");
-        LBIS.SearchFrame.Frame.AutoCompleteMenu:Hide();
+        LBIS.AutoComplete.Frame:Hide();
     else
         LBIS.SearchFrame.Frame.SearchBox:Enable();
         LBIS.SearchFrame.Frame.SearchLabel:SetFontObject("GameFontNormal");
-        LBIS.SearchFrame.Frame.AutoCompleteMenu:Show();
+        LBIS.AutoComplete.Frame:Show();
     end
 
-end
-
-local function createButton()
-    local ac = LBIS.SearchFrame.Frame.AutoCompleteMenu;
-    local button = CreateFrame('Button', nil, ac)
-
-    button:SetSize(50, 14);
-    button:SetNormalFontObject("GameFontNormal");
-    button:SetHighlightFontObject("GameFontHighlight");
-    button:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestLogTitleHighlight");
-
-    if ac.buttonCount == 1 then
-        button:SetPoint('TOPLEFT', 0, -10)
-        button:SetPoint('TOPRIGHT', 0, -10)
-    else
-        local previousButton = ac.buttons[ac.buttonCount - 1]
-
-        button:SetPoint('TOPLEFT', previousButton, 'BOTTOMLEFT')
-        button:SetPoint('TOPRIGHT', previousButton, 'BOTTOMRIGHT')
-    end
-
-    LBIS:SetTooltipOnButton(button, { Id = -1, Link = ""});
-
-    button:SetScript("OnClick", function(self)
-
-        local found = false;
-        for _, item in pairs(LBIS.SearchFrame.ItemList) do
-            if item == self.ItemId then
-                found = true;
-            end
-        end
-        if not found then
-            table.insert(LBIS.SearchFrame.ItemList, self.ItemId);
-            showCustomList();
-        end
-    end);
-
-    return button
-end
-
-local function addButton(item)
-    local ac = LBIS.SearchFrame.Frame.AutoCompleteMenu;
-    
-    ac.buttonCount = ac.buttonCount + 1
-
-    if ac.buttons[ac.buttonCount] == nil then
-      -- Create a new button frame if one does not exist
-        ac.buttons[ac.buttonCount] = createButton()
-    end
-    
-    local button = ac.buttons[ac.buttonCount]
-    LBIS:UpdateTooltipOnButton(button, item)
-    button:SetText(item.Link)
-    button:Show();
-
-    ac:SetHeight(ac.baseHeight + button:GetHeight() * ac.buttonCount)
-    ac:SetWidth(595)
-end
-
-local debounceTimer = nil;
-local function HandleTextChanged(editBox, isUserInput)
-
-    if not isUserInput then
-        return
-    end
-
-    --[[
-      -- If it's potentially a secure command, abort to avoid runtime taint
-      if string.byte(editBox:GetText() or '') == string.byte('/') then
-        self.buttonMenu:Hide()
-        return
-      end
-    
-      local searchTerm = self:_GetEditBoxSearchTerm(editBox)
-    
-      if util.IsNilOrEmpty(searchTerm) then
-        -- Save the cursor position for when the search was initiated
-        self.initialCursorOffsetX = searchTerm == '' and self.editBoxCursorOffsets[editBox] or nil
-        self.buttonMenu:Hide()
-        return
-      end
-      
-      self.activeCompletionSource:QueryAsync(searchTerm, function(entries)
-        self:_OnQueryComplete(editBox, entries, {
-          searchTerm = searchTerm,
-          cursorOffsetX = self.initialCursorOffsetX or self.editBoxCursorOffsets[editBox],
-        })
-      end)]]
-
-    if debounceTimer ~= nil then
-        debounceTimer:Cancel();
-    end
-    debounceTimer = C_Timer.NewTimer(0.5, function() 
-        clearAll();
-        local text = strtrim(editBox:GetText());
-        if (#text > 3) then
-            conductSearch(text, function (searchedItems) 
-                for _, item in pairs(searchedItems) do
-                    addButton(item);
-                end
-            end)
-        end
-    end)
-      
 end
 
 local function createCustomList(f)
@@ -357,7 +222,7 @@ function LBIS.SearchFrame:ShowSearchFrame(slot, itemList, onClose)
     LBIS.SearchFrame.ItemList = itemList;
     LBIS.SearchFrame.Slot = slot;
     LBIS.SearchFrame.Frame.SearchBox:SetText("");
-    clearAll();
+    LBIS.AutoComplete:Clear();
     showCustomList();
     onCloseFunc = onClose;
     LBIS.SearchFrame.Frame:Show();
@@ -371,7 +236,7 @@ function LBIS.SearchFrame:CreateSearch()
     f:SetBackdrop({
         bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
         tile = true
-    })
+    });
     f:SetBackdropColor(.1, .1, .1, 1);
     f:SetSize(scrollframe:GetWidth(), scrollframe:GetHeight());
     f:ClearAllPoints();
@@ -380,11 +245,12 @@ function LBIS.SearchFrame:CreateSearch()
     f:Hide();
 
     local eb = CreateFrame("EditBox", nil, f, "InputBoxTemplate");
-    eb:SetPoint("TOP", f, "TOP", 0, -20)
+    eb:SetPoint("TOP", f, "TOP", 0, -20);
     eb:SetWidth(600);
     eb:SetHeight(25);
     eb:SetMovable(false);
     eb:SetAutoFocus(true);
+    eb:SetScript("OnKeyDown", LBIS.AutoComplete.HandleKeyDown)
     eb:SetScript("OnTextChanged", HandleTextChanged)
 
     local fl = f:CreateFontString(nil, nil, "GameFontNormal");
@@ -403,31 +269,7 @@ function LBIS.SearchFrame:CreateSearch()
         end
     );
 
-    local ac = CreateFrame('Frame', nil, f, 'BackdropTemplate')
-    ac:SetBackdrop({
-        bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
-        edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-        tile = 1,
-        tileSize = 10,
-        edgeSize = 10,
-        insets = { left = 3, right = 3, top = 3, bottom = 3 },
-      });
-    
-    ac:SetBackdropBorderColor(1, 1, 1)
-    ac:SetBackdropColor(0.09, 0.09,  0.19);
-
-    ac.selectedButtonIndex = nil
-    ac.buttonCount = 0
-    ac.buttons = {}
-    ac.buttonMargin = 30
-    ac.baseHeight = 40
-
-    ac:ClearAllPoints();
-    ac:SetPoint('TOPLEFT', eb, 'BOTTOMLEFT', 0, 4);
-
-    local acf = ac:CreateFontString(nil, nil, "GameFontDisableSmall");
-    acf:SetText("PRESS_TAB");
-    acf:SetPoint("BOTTOMLEFT", 15, 10);
+    LBIS.AutoComplete:Create(eb, showCustomList);
     
     local cf = createCustomList(f);
     
@@ -435,6 +277,5 @@ function LBIS.SearchFrame:CreateSearch()
     LBIS.SearchFrame.Frame.ItemListFrame = cf;
     LBIS.SearchFrame.Frame.SearchLabel = fl;
     LBIS.SearchFrame.Frame.SearchBox = eb;
-    LBIS.SearchFrame.Frame.AutoCompleteMenu = ac;
-    
+
 end

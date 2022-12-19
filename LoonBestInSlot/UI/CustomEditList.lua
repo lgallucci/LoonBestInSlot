@@ -1,5 +1,5 @@
-LBIS.CustomList = {};
-LBIS.CustomList.Items = {};
+LBIS.CustomEditList = {};
+LBIS.CustomEditList.Items = {};
 
 local itemSlotOrder = {}
 itemSlotOrder[LBIS.L["Head"]] = 0;
@@ -40,20 +40,24 @@ local function assignItemsToFrame(f, itemList)
 
     for orderId, itemId in pairs(itemList) do
 
-        LBIS:GetItemInfo(itemId, function(item)
-            f.CustomButtons[itemCount].ItemButton:SetNormalTexture(item.Texture);
-            LBIS:SetTooltipOnButton(f.CustomButtons[itemCount].ItemButton, item);                        
-        end);
+        if itemId <= 0 then
+            table.remove(itemList, orderId);
+        else
+            LBIS:GetItemInfo(itemId, function(item)
+                f.CustomButtons[itemCount].ItemButton:SetNormalTexture(item.Texture);
+                LBIS:SetTooltipOnButton(f.CustomButtons[itemCount].ItemButton, item);                        
+            end);
 
-        f.CustomButtons[itemCount]:ShowButtons();
+            f.CustomButtons[itemCount]:ShowButtons();
 
-        if LBIS.CustomList.Items[itemId] == nil then
-            LBIS.CustomList.Items[itemId] = {};
+            if LBIS.CustomEditList.Items[itemId] == nil then
+                LBIS.CustomEditList.Items[itemId] = {};
+            end
+
+            LBIS.CustomEditList.Items[itemId][LBIS.SpecToName[LBISSettings.SelectedSpec]] = itemCount;
+            
+            itemCount = itemCount + 1;
         end
-
-        LBIS.CustomList.Items[itemId][LBIS.SpecToName[LBISSettings.SelectedSpec]] = itemCount;
-        
-        itemCount = itemCount + 1;
     end
 
     for i = itemCount,6 do     
@@ -133,10 +137,11 @@ local defaultCustomList = {
 	[LBIS.L["Two Hand"]] = {},
 	[LBIS.L["Ranged/Relic"]] = {}
 };
-function LBIS.CustomList:UpdateItems()
+function LBIS.CustomEditList:UpdateItems()
 
     LBIS.BrowserWindow.Window.SlotDropDown:Hide();
     LBIS.BrowserWindow.Window.PhaseDropDown:Hide();
+    LBIS.BrowserWindow.Window.RankDropDown:Hide();
     LBIS.BrowserWindow.Window.SourceDropDown:Hide();
     LBIS.BrowserWindow.Window.RaidDropDown:Hide();
 

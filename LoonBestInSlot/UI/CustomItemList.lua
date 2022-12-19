@@ -1,4 +1,4 @@
-LBIS.ItemList = {};
+LBIS.CustomItemList = {};
 
 --TODO: Sort items based on order entered
 --TODO: Swap wowhead items list with custom list
@@ -21,39 +21,19 @@ itemSlotOrder[LBIS.L["Off Hand"]] = 13;
 itemSlotOrder[LBIS.L["Two Hand"]] = 14;
 itemSlotOrder[LBIS.L["Ranged/Relic"]] = 15;
 
-local function itemSortFunction(table, k1, k2)
-
-    local item1 = table[k1];
-    local item2 = table[k2];
+local function slotSortFunction(table, k1, k2)
 
     local item1Score = 0;
     local item2Score = 0;
     
-    if itemSlotOrder[item1.Slot] < itemSlotOrder[item2.Slot] then
+    if itemSlotOrder[k1] < itemSlotOrder[k2] then
         item1Score = item1Score + 1000;
     end
-    if itemSlotOrder[item1.Slot] > itemSlotOrder[item2.Slot] then
+    if itemSlotOrder[k1] > itemSlotOrder[k2] then
         item2Score = item2Score +  1000;
     end
 
-    if string.find(item1.Bis, "BIS") ~= nil then
-        item1Score = item1Score + 100;
-    end    
-    if string.find(item2.Bis, "BIS") ~= nil then
-        item2Score = item2Score + 100;
-    end
-
-    local _, lastNumber1 = LBIS:GetPhaseNumbers(item1.Phase)
-    local _, lastNumber2 = LBIS:GetPhaseNumbers(item2.Phase)
-
-    item1Score = item1Score + lastNumber1;
-    item2Score = item2Score + lastNumber2;
-
-    if item1Score == item2Score then
-        return item1.Id > item2.Id;
-    else
-        return item1Score > item2Score
-    end
+    return item1Score > item2Score
 end
 
 local alSources = {};
@@ -69,29 +49,6 @@ alSources["pvpEye"] = LBIS.L["Eye of the Storm Marks"];
 alSources["arena"] = LBIS.L["Arena Points"];
 alSources["EmblemOfValor"] = LBIS.L["Emblem of Valor"];
 alSources["EmblemOfHeroism"] = LBIS.L["Emblem of Heroism"];
-
-local function getVendorText(vendorText, sourceLocationText)
-    local sourceText;
-    local source1, source1Amount, source2, source2Amount, source3, source3Amount = strsplit(":", vendorText)
-
-    if source1 ~= nil and source1 ~= "" and alSources[source1] ~= nil then
-        sourceText = alSources[source1].." ("..source1Amount..")"
-        sourceNumberText = "";
-    end
-
-    if source2 ~= nil and source2 ~= "" and alSources[source2] ~= nil then
-        sourceText = sourceText..", "..alSources[source2].." ("..source2Amount..")"
-    end
-
-    if source3 ~= nil and source3 ~= "" and alSources[source3] ~= nil then
-        sourceText = sourceText..", "..alSources[source3].." ("..source3Amount..")"
-    end	
-	
-    if sourceLocationText ~= "" then
-        sourceText = sourceText.." - "..sourceLocationText;    
-    end
-    return sourceText;
-end
 
 local function printSource(itemId, specItemSource, dl)
 
@@ -147,39 +104,10 @@ local function IsInSlot(specItem)
     return false;
 end
 
-local function FindInPhase(phaseText, phase)
-
-    local phaseNumber = tonumber(phase);
-
-    local firstNumber, lastNumber = LBIS:GetPhaseNumbers(phaseText);
-
-    if firstNumber == nil then
-        return false;
-    end
-
-    return tonumber(firstNumber) <= phaseNumber and tonumber(lastNumber) >= phaseNumber;               
-end
-
-local function IsInPhase(specItem, specItemSource)
-    if specItemSource.SourceType == LBIS.L["Token"] then
-        return false;
-    elseif strfind(specItem.Bis, LBIS.L["Transmute"]) ~= nil then
-        return false;
-    elseif LBISSettings.SelectedPhase == LBIS.L["All"] and specItem.Phase ~= "0" then
+local function IsInRank(specItem)
+    if LBISSettings.SelectedRank == LBIS.L["All"] then
         return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["PreRaid"] and FindInPhase(specItem.Phase, "0") then
-        return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 1"] and FindInPhase(specItem.Phase, "1") then
-        return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 2"] and FindInPhase(specItem.Phase, "2") then
-        return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 3"] and FindInPhase(specItem.Phase, "3") then
-        return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 4"] and FindInPhase(specItem.Phase, "4") then
-        return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 5"] and FindInPhase(specItem.Phase, "5") then
-        return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["BIS"] and strfind(specItem.Bis, "BIS") ~= nil then
+    elseif LBISSettings.SelectedRank == LBIS.L["BIS"] and specItem.Rank == 1 then
         return true;
     end
     return false;
@@ -201,13 +129,6 @@ local function IsInZone(specItem)
         return true;
     end
     return false;
-end
-
-local function IsNotInClassic(specItem)
-    if specItem.SourceType == LBIS.L["Legacy"] then
-        return false
-    end
-    return true;
 end
 
 local function createSourceTypeText(specItemSource)
@@ -280,11 +201,8 @@ local function createItemRow(f, specItem, specItemSource)
         st:SetPoint("BOTTOMLEFT", b, "BOTTOMRIGHT", 2, 2);
 
         local pt = f:CreateFontString(nil, nil, "GameFontNormal");
-        if specItem.Phase == "0" then
-            pt:SetText("("..specItem.Bis..")");
-        else
-            pt:SetText("("..specItem.Bis.." "..string.gsub(specItem.Phase, "0", "PreRaid")..")");
-        end
+        pt:SetText("("..specItem.Bis..")");
+
         pt:SetPoint("TOPLEFT", t, "TOPRIGHT", 4, 0);
 
 		d = f:CreateFontString(nil, nil, "GameFontNormal");
@@ -359,30 +277,52 @@ local function createItemRow(f, specItem, specItemSource)
     return (46 + (count * 10));
 end
 
-function LBIS.ItemList:UpdateItems()
+local function hasAnyItems(list) 
+    for _, slotList in pairs(list) do 
+        for _, itemId in pairs(slotList) do
+            if itemId > 0 then
+                return true;
+            end
+        end
+    end
+    return false;
+end
+
+function LBIS.CustomItemList:UpdateItems()
     
     LBIS.BrowserWindow.Window.SlotDropDown:Show();
-    LBIS.BrowserWindow.Window.PhaseDropDown:Show();
+    LBIS.BrowserWindow.Window.PhaseDropDown:Hide();
+    LBIS.BrowserWindow.Window.RankDropDown:Show();
     LBIS.BrowserWindow.Window.SourceDropDown:Show();
     LBIS.BrowserWindow.Window.RaidDropDown:Show();
 
-    LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
-        
-        local specItems = LBIS.CustomList.Items;
-        
-        if specItems == nil then
-            LBIS.BrowserWindow.Window.Unavailable:Show();
+    LBIS.BrowserWindow:UpdateItemsForSpec(function(point)        
+
+        local selectedSpec = LBIS.SpecToName[LBISSettings.SelectedSpec];
+
+        if selectedSpec == nil then
+            return;
         end
 
-        for itemId, specItem in LBIS:spairs(specItems, itemSortFunction) do
-            
-            local specItemSource = LBIS.ItemSources[specItem.Id];
+        local customList = LBISServerSettings.CustomList[selectedSpec];
+        
+        if customList == nil or not hasAnyItems(customList) then
+            LBIS.BrowserWindow.Window.ShowUnavailable("Custom List not available");
+        end
 
-            if specItemSource == nil then
-                LBIS:Error("Missing item source: ", specItem);
-            else
-                if IsInSlot(specItem) and IsInPhase(specItem, specItemSource) and IsInSource(specItemSource) and IsInZone(specItemSource) and IsNotInClassic(specItemSource) then
-                    point = LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, LBISSettings.SelectedSpec.."_"..specItemSource.Name.."_"..specItem.Id, point, createItemRow);
+        for slot, slotList in LBIS:spairs(customList, slotSortFunction) do
+            local customRank = 0;            
+            for _, itemId in pairs(slotList) do                
+                customRank = customRank + 1;
+                local specItem = { Id = itemId, Slot = slot, Bis = "Custom #"..customRank, Rank = customRank};
+
+                local specItemSource = LBIS.ItemSources[itemId];
+                if specItemSource == nil then
+                    LBIS:Error("Missing item source: ", specItem);
+                else
+                    if IsInSlot(specItem) and IsInRank(specItem) and IsInSource(specItemSource) and IsInZone(specItemSource) then
+                        point = LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, "C_"..LBISSettings.SelectedSpec.."_"..specItemSource.Name.."_"..specItem.Id, point, createItemRow);
+                    end
                 end
             end
         end

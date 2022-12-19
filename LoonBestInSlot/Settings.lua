@@ -3,6 +3,7 @@ LBISSettingsDefault =
 	SelectedSpec = "", 
 	SelectedSlot = LBIS.L["All"], 
 	SelectedPhase = LBIS.L["All"], 
+	SelectedRank = LBIS.L["All"], 
 	SelectedSourceType = LBIS.L["All"], 
 	SelectedZone = LBIS.L["All"], 
 	SelectedZoneNumber = LBIS.L["All"],

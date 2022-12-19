@@ -135,6 +135,7 @@ function LBIS.EnchantList:UpdateItems()
 
     LBIS.BrowserWindow.Window.SlotDropDown:Show();
     LBIS.BrowserWindow.Window.PhaseDropDown:Hide();
+    LBIS.BrowserWindow.Window.RankDropDown:Hide();
     LBIS.BrowserWindow.Window.SourceDropDown:Hide();
     LBIS.BrowserWindow.Window.RaidDropDown:Hide();
 
@@ -143,7 +144,7 @@ function LBIS.EnchantList:UpdateItems()
         local specEnchants = LBIS.SpecEnchants[LBIS.SpecToName[LBISSettings.SelectedSpec]];
                 
         if specEnchants == nil then
-            LBIS.BrowserWindow.Window.Unavailable:Show();
+            LBIS.BrowserWindow.Window.ShowUnavailable();
         end
 
         for enchantId, specEnchant in LBIS:spairs(specEnchants, itemSortFunction) do

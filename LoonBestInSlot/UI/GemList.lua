@@ -96,6 +96,7 @@ function LBIS.GemList:UpdateItems()
 
     LBIS.BrowserWindow.Window.SlotDropDown:Hide();
     LBIS.BrowserWindow.Window.PhaseDropDown:Hide();
+    LBIS.BrowserWindow.Window.RankDropDown:Hide();
     LBIS.BrowserWindow.Window.SourceDropDown:Hide();
     LBIS.BrowserWindow.Window.RaidDropDown:Hide();
 
@@ -104,7 +105,7 @@ function LBIS.GemList:UpdateItems()
         local specGems = LBIS.SpecGems[LBIS.SpecToName[LBISSettings.SelectedSpec]];
         
         if specGems == nil then
-            LBIS.BrowserWindow.Window.Unavailable:Show();
+            LBIS.BrowserWindow.Window.ShowUnavailable();
         end
 
         for gemId, specGem in LBIS:spairs(specGems, itemSortFunction) do
