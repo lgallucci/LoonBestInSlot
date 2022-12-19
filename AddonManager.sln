@@ -241,9 +241,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "widget", "widget", "{91BDD1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E64D2CE7-C8D7-4DBE-9EE0-54BACA0579CC}"
 	ProjectSection(SolutionItems) = preProject
-		LoonBestInSlot\UI\EnchantList.lua = LoonBestInSlot\UI\EnchantList.lua
-		CustomItemList.lua = CustomItemList.lua
+		LoonBestInSlot\UI\AutoComplete.lua = LoonBestInSlot\UI\AutoComplete.lua
 		LoonBestInSlot\UI\CustomEditList.lua = LoonBestInSlot\UI\CustomEditList.lua
+		LoonBestInSlot\UI\CustomItemList.lua = LoonBestInSlot\UI\CustomItemList.lua
+		LoonBestInSlot\UI\EnchantList.lua = LoonBestInSlot\UI\EnchantList.lua
 		LoonBestInSlot\UI\GemList.lua = LoonBestInSlot\UI\GemList.lua
 		LoonBestInSlot\UI\ItemList.lua = LoonBestInSlot\UI\ItemList.lua
 		LoonBestInSlot\UI\LootBrowser.lua = LoonBestInSlot\UI\LootBrowser.lua
