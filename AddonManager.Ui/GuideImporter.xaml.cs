@@ -195,7 +195,7 @@ public sealed partial class GuideImporter : Page
 
         foreach (var db in dbItems.Items)
         {
-            if (!itemSources.ContainsKey(db.Key) && IsInPhase(1, db.Value.Source, db.Value.SourceLocation))
+            if (!itemSources.ContainsKey(db.Key) && IsInPhase(2, db.Value.Source, db.Value.SourceLocation))
             {
                 itemSources.Add(db.Key, new ItemSource
                 {
@@ -211,7 +211,7 @@ public sealed partial class GuideImporter : Page
 
         ItemSourceFileManager.WriteItemSources(itemSources);
 
-        ConsoleOut.Text = "Phase 1 items Added to ItemSource!";
+        ConsoleOut.Text = "Phase 2 items Added to ItemSource!";
     }
 
     private static bool IsInPhase(int phase, string bossName, string raidName)

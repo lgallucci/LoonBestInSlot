@@ -224,7 +224,6 @@ public static class WowheadImporter
         //UpdateProfessionItems(csvLootTable);
 
         var tokenKeys = UpdateTierPieces(csvLootTable, itemSources);
-        var transmuteKeys = UpdateTransmuteKeys(csvLootTable, itemSources);
 
         foreach (var itemSource in itemSources)
         {
@@ -249,10 +248,6 @@ public static class WowheadImporter
                     if (tokenKeys.Contains(itemSource.Key))
                     {
                         itemSource.Value.SourceType = "LBIS.L[\"Token\"]";
-                    }
-                    else if (transmuteKeys.Contains(itemSource.Key))
-                    {
-                        itemSource.Value.SourceType = "LBIS.L[\"Transmute\"]";
                     }
                 }
             }
@@ -322,38 +317,6 @@ public static class WowheadImporter
         }
 
         return sb.ToString();
-    }
-
-    private static HashSet<int> UpdateTransmuteKeys(Dictionary<int, CsvLootTable> csvLootTable, SortedDictionary<int, ItemSource> itemSources)
-    {
-        var transmuteKeys = new HashSet<int>();
-        foreach (var transmutePiece in TierPiecesAndTokens.Transmutes)
-        {
-            if (!transmuteKeys.Contains(transmutePiece.Key))
-            {
-                transmuteKeys.Add(transmutePiece.Key);
-            }
-            if (itemSources.ContainsKey(transmutePiece.Key) && csvLootTable.ContainsKey(transmutePiece.Value.Item1) && !csvLootTable.ContainsKey(transmutePiece.Key))
-            {
-                var newLootTable = new CsvLootTable
-                {
-                    ItemId = transmutePiece.Key,
-                    Name = itemSources[transmutePiece.Key].Name
-                };
-                foreach (var source in csvLootTable[transmutePiece.Value.Item1].ItemSource)
-                {
-                    newLootTable.AddItem(new ImportItemSource
-                    {
-                        SourceType = source.SourceType,
-                        Source = transmutePiece.Value.Item1.ToString(),
-                        SourceNumber = source.SourceNumber,
-                        SourceLocation = $"{source.Source} - {source.SourceLocation}"
-                    });
-                }
-                csvLootTable.Add(transmutePiece.Key, newLootTable);
-            }
-        }
-        return transmuteKeys;
     }
 
     private static HashSet<int> UpdateTierPieces(Dictionary<int, CsvLootTable> csvLootTable, SortedDictionary<int, ItemSource> itemSources)
