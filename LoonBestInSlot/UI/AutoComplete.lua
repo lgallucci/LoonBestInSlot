@@ -10,15 +10,27 @@ local function selectButton(buttonIndex)
 
     if previousButton ~= nil then
         previousButton:UnlockHighlight()
-        --previousButton:HideTooltip()
+        previousButton:HideTooltip()
     end
 
     if selectedButton ~= nil then
-      selectedButton:LockHighlight()
-      --selectedButton:ShowTooltip()
+        selectedButton:LockHighlight()
+        selectedButton:ShowTooltip()
     end
 
-    ac.selectedButtonIndex = buttonIndex
+    local oldButtonIndex = ac.selectedButtonIndex;
+    ac.selectedButtonIndex = buttonIndex;
+
+    local scrollValue = ac.Scrollbar:GetValue();
+    if oldButtonIndex < buttonIndex then
+        if ((buttonIndex+1) * 14) > (scrollValue + ac.Frame:GetHeight()) then
+            ac.Scrollbar:SetValue(((buttonIndex+1) * 14) - ac.Frame:GetHeight());            
+        end
+    else
+        if ((buttonIndex-1) * 14) < scrollValue then
+            ac.Scrollbar:SetValue((buttonIndex-1) * 14);
+        end
+    end
 end
 
 local function isEmpty()
@@ -27,6 +39,7 @@ end
 
 local function selectItem(button)
 
+    button:UnlockHighlight()
     local found = false;
     for _, item in pairs(LBIS.SearchFrame.ItemList) do
         if item == button.ItemId then
@@ -36,6 +49,8 @@ local function selectItem(button)
     if not found then
         table.insert(LBIS.SearchFrame.ItemList, button.ItemId);
         LBIS.AutoComplete.SelectFunc();
+        LBIS.AutoComplete.SearchBox:SetText("");
+        LBIS.AutoComplete:Clear();
     end
 end
 
@@ -49,18 +64,29 @@ local function createButton()
     button:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestLogTitleHighlight");
 
     if ac.buttonCount == 1 then
-        button:SetPoint('TOPLEFT', 0, -10)
-        button:SetPoint('TOPRIGHT', 0, -10)
+        button:SetPoint('TOPLEFT', 10, -10)
+        button:SetPoint('TOPRIGHT', -10, -10)
     else
         local previousButton = ac.buttons[ac.buttonCount - 1]
 
         button:SetPoint('TOPLEFT', previousButton, 'BOTTOMLEFT')
         button:SetPoint('TOPRIGHT', previousButton, 'BOTTOMRIGHT')
     end
+    
+    button.Index = ac.buttonCount;
 
-    --LBIS:SetTooltipOnButton(button, { Id = -1, Link = ""});
-
+    button:SetScript("OnEnter", function (self) selectButton(self.Index); end)
     button:SetScript("OnClick", selectItem);
+
+    button.ShowTooltip = function (self)
+        GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
+        GameTooltip:SetItemByID(self.ItemId);
+        GameTooltip:Show();
+    end
+      
+    button.HideTooltip = function ()
+        GameTooltip:Hide();
+    end
 
     return button
 end
@@ -71,14 +97,16 @@ function LBIS.AutoComplete:Clear()
       return
     end
 
-    selectButton(nil)
+    ac.buttons[ac.selectedButtonIndex]:HideTooltip()
+    ac.selectedButtonIndex = 0;
 
     for i = 1, ac.buttonCount do
         ac.buttons[i]:Hide()
     end
 
-    ac.buttonCount = 0
+    ac.buttonCount = 0;
     ac.Frame:SetHeight(ac.baseHeight);
+    ac.Content:SetHeight(ac.baseHeight);
     ac.Frame:Hide();
 end
 
@@ -91,23 +119,30 @@ function LBIS.AutoComplete:Add(item)
       -- Create a new button frame if one does not exist
         ac.buttons[ac.buttonCount] = createButton()
     end
-
-    if ac.selectedButtonIndex == nil then
-        selectButton(1)
-    end
     
     local button = ac.buttons[ac.buttonCount]
-    --LBIS:UpdateTooltipOnButton(button, item)
+
     button.ItemId = item.Id;
     button:SetText(item.Link)
     button:Show();
 
-    local height = ac.baseHeight + button:GetHeight() * ac.buttonCount;
-    if height > 150 then
-      height = 150;
+    if ac.selectedButtonIndex == 0 then
+        selectButton(1)
     end
+
+    LBIS.AutoComplete.MaxHeight = ac.baseHeight + button:GetHeight() * ac.buttonCount;
+    local height = 150;
+    if LBIS.AutoComplete.MaxHeight > 150 then
+        ac.Scrollbar:SetMinMaxValues(0, (LBIS.AutoComplete.MaxHeight-height));
+    else
+        ac.Scrollbar:SetMinMaxValues(0, 0);
+        height = LBIS.AutoComplete.MaxHeight;
+    end
+
     ac.Frame:SetHeight(height);
-    ac.Frame:SetWidth(595)
+    ac.Content:SetHeight(height);
+    ac.Frame:SetWidth(595);
+    ac.Content:SetWidth(595);
 end
 
 local function getSelection()
@@ -157,9 +192,8 @@ function LBIS.AutoComplete:HandleKeyDown(key)
 end
 
 function LBIS.AutoComplete:Create(frame, selectFunc) 
-    local step = 25;
     local scrollframe = CreateFrame("ScrollFrame", nil, frame, 'BackdropTemplate');
-    local scrollbar = CreateFrame("Slider", nil, scrollframe, "UIPanelScrollFrameTemplate");
+    local scrollbar = CreateFrame("Slider", nil, scrollframe, "UIPanelScrollBarTemplate");
     local content = CreateFrame("Frame", nil, scrollframe);
     
     scrollframe:SetBackdrop({
@@ -173,28 +207,58 @@ function LBIS.AutoComplete:Create(frame, selectFunc)
     
     scrollframe:SetBackdropBorderColor(1, 1, 1)
     scrollframe:SetBackdropColor(0.09, 0.09,  0.19);
+    scrollframe:EnableMouseWheel(true);
 
     local step = 25;
     scrollframe:ClearAllPoints();
     scrollframe:SetPoint('TOPLEFT', frame, 'BOTTOMLEFT', 0, 4);
-    scrollbar:SetPoint("TOPLEFT", frame, "TOPRIGHT", 0, 0);
-    scrollbar:SetPoint("BOTTOMLEFT", frame, "BOTTOMRIGHT", 0, 0);
+    scrollbar:SetPoint("TOPRIGHT", scrollframe, "TOPRIGHT", -4, -18);
+    scrollbar:SetPoint("BOTTOMRIGHT", scrollframe, "BOTTOMRIGHT", -4, 18);
     scrollbar:SetMinMaxValues(0,0);
-    scrollbar:SetWidth(16);
+    scrollbar:SetWidth(12);
     scrollbar:SetValue(0);
     scrollbar:SetValueStep(step);
-    scrollbar.scrollStep = step;
+    
+    scrollbar:SetScript("OnValueChanged",
+        function (self, value) 
+            self:GetParent():SetVerticalScroll(value);
+        end
+    );
+
+    local function UpdateScrollValue(self, delta)
+        if not scrollbar:IsEnabled() then
+            return;
+        end
+        if(delta == 1 and scrollbar:GetValue() >= 0) then
+            if(scrollbar:GetValue()-step < 0) then
+                scrollbar:SetValue(0);
+            else scrollbar:SetValue(scrollbar:GetValue() - step) end
+        elseif(delta == -1 and scrollbar:GetValue() < LBIS.AutoComplete.MaxHeight) then
+            if(scrollbar:GetValue()+step > LBIS.AutoComplete.MaxHeight) then
+                scrollbar:SetValue(LBIS.AutoComplete.MaxHeight);
+            else scrollbar:SetValue(scrollbar:GetValue() + step) end
+        end
+    end
+
+    scrollframe:EnableMouse(true);
+    scrollframe:EnableMouseWheel(true);
+    scrollframe:SetScript("OnMouseWheel", UpdateScrollValue);
 
     local acf = scrollframe:CreateFontString(nil, nil, "GameFontDisableSmall");
     acf:SetText("PRESS_TAB");
-    acf:SetPoint("BOTTOMLEFT", 15, 10);
+    acf:SetPoint("BOTTOMLEFT", 5, 5);
 
-    LBIS.AutoComplete.selectedButtonIndex = nil
+    scrollframe:SetScrollChild(content);
+
+    LBIS.AutoComplete.selectedButtonIndex = 0
     LBIS.AutoComplete.buttonCount = 0
     LBIS.AutoComplete.buttons = {}
     LBIS.AutoComplete.buttonMargin = 30
     LBIS.AutoComplete.baseHeight = 40
+    LBIS.AutoComplete.MaxHeight = 0;
     LBIS.AutoComplete.SelectFunc = selectFunc;
     LBIS.AutoComplete.Frame = scrollframe;
+    LBIS.AutoComplete.Scrollbar = scrollbar;
     LBIS.AutoComplete.Content = content;
+    LBIS.AutoComplete.SearchBox = frame;
 end

@@ -122,7 +122,6 @@ function LBIS.BrowserWindow:UpdateItemsForSpec(rowFunc)
     
     LBIS.BrowserWindow.MaxHeight = 0;
     
-
     local topl = window.Container:CreateLine();
     topl:SetColorTexture(1,1,1,0.5);
     topl:SetThickness(1);
@@ -197,6 +196,7 @@ local function createTabs(window, content)
         PanelTemplates_SetTab(content, 4);
         open_tab = "CustomItemList";
     
+
         LBIS.BrowserWindow:RefreshItems();
     end);
 
@@ -363,8 +363,6 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     window:SetSize(800, 600);
     window:SetPoint("CENTER", 0, 0);
     window:SetToplevel(true);
-    window:EnableMouse(true);
-    window:EnableMouseWheel(true);
     window:SetMovable(true);
     window:SetFrameStrata("HIGH");
 
@@ -384,14 +382,17 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
 
     scrollframe:SetPoint("TOPLEFT", 10, -60);
     scrollframe:SetPoint("BOTTOMRIGHT", -25, 10);
+    
+    scrollframe:EnableMouse(true);
+    scrollframe:EnableMouseWheel(true);
+    scrollframe:SetScript("OnMouseWheel", UpdateScrollValue);
 
-    scrollbar:SetPoint("TOPLEFT", window, "TOPRIGHT", -22, -75);
-    scrollbar:SetPoint("BOTTOMLEFT", window, "BOTTOMRIGHT", 22, 20);
+    scrollbar:SetPoint("TOPLEFT", scrollframe, "TOPRIGHT", 4, -12);
+    scrollbar:SetPoint("BOTTOMLEFT", scrollframe, "BOTTOMRIGHT", 4, 10);
     scrollbar:SetMinMaxValues(0,0);
     scrollbar:SetWidth(16);
     scrollbar:SetValue(0);
     scrollbar:SetValueStep(step);
-    scrollbar.scrollStep = step;
 
     scrollbar:SetScript("OnValueChanged",
         function (self, value) 
@@ -399,7 +400,6 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
         end
     );
 
-    window:SetScript("OnMouseWheel", UpdateScrollValue);
     window:SetScript("OnDragStart", function(self) self:StartMoving() end);
     window:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end);    
 

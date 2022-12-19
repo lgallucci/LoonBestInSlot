@@ -219,17 +219,20 @@ function LBIS:CreateDropdown(opts, width)
 end
 
 local itemIsOnEnter = false;
-
-
-function LBIS:UpdateTooltipOnButton(b, item)
-    b.ItemId = item.Id;
-    b.ItemLink = item.Link;
-end
-
 function LBIS:SetTooltipOnButton(b, item, isSpell)
     
     b.ItemId = item.Id;
     b.ItemLink = item.Link;
+
+    b.ShowTooltip = function ()
+        GameTooltip:SetOwner(b, "ANCHOR_RIGHT");
+        GameTooltip:SetItemByID(b.ItemId);
+        GameTooltip:Show();
+    end
+
+    b.HideTooltip = function ()
+        GameTooltip:Hide();
+    end
 
     b:SetScript("OnClick", 
         function(self, button)
