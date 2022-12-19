@@ -65,11 +65,11 @@ LBIS:AddItem(spec, "40256", LBIS.L["Trinket"], "BIS") --Grim Toll
 LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "Alt") --Mirror of Truth
 LBIS:AddItem(spec, "39257", LBIS.L["Trinket"], "Alt") --Loatheb's Shadow
 
-LBIS:AddItem(spec, "40189", LBIS.L["Main Hand"], "BIS") --Angry Dread
-LBIS:AddItem(spec, "42208", LBIS.L["Main Hand"], "Alt") --Deadly Gladiator's Cleaver
-LBIS:AddItem(spec, "40407", LBIS.L["Main Hand"], "Alt") --Silent Crusader
-LBIS:AddItem(spec, "40345", LBIS.L["Main Hand"], "Alt") --Broken Promise
-LBIS:AddItem(spec, "39291", LBIS.L["Main Hand"], "Alt") --Torment of the Banished
+LBIS:AddItem(spec, "40189", LBIS.L["Main Hand/Off Hand"], "BIS") --Angry Dread
+LBIS:AddItem(spec, "42208", LBIS.L["Main Hand/Off Hand"], "Alt") --Deadly Gladiator's Cleaver
+LBIS:AddItem(spec, "40407", LBIS.L["Main Hand/Off Hand"], "Alt") --Silent Crusader
+LBIS:AddItem(spec, "40345", LBIS.L["Main Hand/Off Hand"], "Alt") --Broken Promise
+LBIS:AddItem(spec, "39291", LBIS.L["Main Hand/Off Hand"], "Alt") --Torment of the Banished
 
 LBIS:AddItem(spec, "40207", LBIS.L["Ranged/Relic"], "BIS") --Sigil of Awareness
 LBIS:AddItem(spec, "40715", LBIS.L["Ranged/Relic"], "Alt") --Sigil of Haunted Dreams
