@@ -271,6 +271,9 @@ public class WowheadGuideParser
                                     ItemOrder = itemOrderIndex
                                 });
                             }
+                        } else
+                        {
+                            items[itemId].Slot = $"{items[itemId].Slot}/{slot}";
                         }
                     }
                 }

@@ -53,6 +53,7 @@ public sealed partial class ItemImporter : Page
                 break;
             case "TierSetImporter":
                 await new TierSetImporter().Convert(txtJsonToParse.Text);
+                lblStatus.Text = "Done!";
                 return;
             default:
                 txtJsonToParse.Text = "Choose a Importer !";

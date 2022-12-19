@@ -17,5 +17,5 @@ internal class TierPiecesAndTokens
             });
             return _tierPieces;
         } 
-    } 
+    }
 }

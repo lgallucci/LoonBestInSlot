@@ -10,8 +10,9 @@ public class TierSetImporter
 {
     private List<string> armorSetUris = new List<string>
     {
-        @"https://www.wowhead.com/items/miscellaneous/armor-tokens/min-level:30/max-level:30",
-        @"https://www.wowhead.com/items/miscellaneous/armor-tokens/min-level:30/max-level:30#50"
+        @"https://www.wowhead.com/items/miscellaneous/armor-tokens/min-level:27/max-level:30",
+        @"https://www.wowhead.com/items/miscellaneous/armor-tokens/min-level:27/max-level:30#50",
+        @"https://www.wowhead.com/items/miscellaneous/armor-tokens/min-level:27/max-level:30#100"
     };
 
     public virtual async Task Convert(string jsonText)
