@@ -30,9 +30,7 @@ LBIS:AddItem(spec, "36982", LBIS.L["Shoulder"], "Alt") --Mantle of Electrical Ch
 
 LBIS:AddItem(spec, "42064", LBIS.L["Back"], "BIS") --Deadly Gladiator's Cloak of Ascendancy
 LBIS:AddItem(spec, "41610", LBIS.L["Back"], "BIS") --Deathchill Cloak
-LBIS:AddItem(spec, "42032", LBIS.L["Back"], "Alt") --Deadly Gladiator's Pendant of Deliverance
 LBIS:AddItem(spec, "42057", LBIS.L["Back"], "Alt") --Hateful Gladiator's Cloak of Ascendancy
-LBIS:AddItem(spec, "42029", LBIS.L["Back"], "Alt") --Deadly Gladiator's Pendant of Dominance
 LBIS:AddItem(spec, "37799", LBIS.L["Back"], "Alt") --Reanimator's Cloak
 LBIS:AddItem(spec, "42031", LBIS.L["Back"], "Alt") --Deadly Gladiator's Pendant of Subjugation
 LBIS:AddItem(spec, "42055", LBIS.L["Back"], "Alt") --Hateful Gladiator's Cloak of Dominance
@@ -95,6 +93,7 @@ LBIS:AddItem(spec, "40697", LBIS.L["Waist"], "Alt") --Elegant Temple Gardens' Gi
 LBIS:AddItem(spec, "41896", LBIS.L["Waist"], "Alt") --Hateful Gladiator's Cord of Dominance
 LBIS:AddItem(spec, "37637", LBIS.L["Waist"], "Alt") --Living Mojo Belt
 LBIS:AddItem(spec, "34541", LBIS.L["Waist"], "Alt") --Belt of the Malefic
+LBIS:AddItem(spec, "34853", LBIS.L["Waist"], "Alt") --Belt of the Forgotten Conqueror
 LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "Alt") --Anetheron's Noose
 LBIS:AddItem(spec, "44302", LBIS.L["Waist"], "Alt") --Belt of Dark Mending
 
@@ -131,6 +130,8 @@ LBIS:AddItem(spec, "42647", LBIS.L["Neck"], "Alt") --Titanium Spellshock Necklac
 LBIS:AddItem(spec, "37595", LBIS.L["Neck"], "Alt") --Necklace of Taldaram
 LBIS:AddItem(spec, "42024", LBIS.L["Neck"], "Alt") --Hateful Gladiator's Pendant of Ascendancy
 LBIS:AddItem(spec, "42023", LBIS.L["Neck"], "Alt") --Hateful Gladiator's Pendant of Subjugation
+LBIS:AddItem(spec, "42032", LBIS.L["Neck"], "Alt") --Deadly Gladiator's Pendant of Deliverance
+LBIS:AddItem(spec, "42029", LBIS.L["Neck"], "Alt") --Deadly Gladiator's Pendant of Dominance
 
 LBIS:AddItem(spec, "42114", LBIS.L["Ring"], "BIS") --Deadly Gladiator's Band of Ascendancy
 LBIS:AddItem(spec, "42644", LBIS.L["Ring"], "BIS") --Titanium Spellshock Ring

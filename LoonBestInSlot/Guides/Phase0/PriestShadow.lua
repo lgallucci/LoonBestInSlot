@@ -82,6 +82,7 @@ LBIS:AddItem(spec, "42790", LBIS.L["Hands"], "Alt") --K3 Surgeon's Gloves
 LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah
 LBIS:AddItem(spec, "37408", LBIS.L["Waist"], "Alt") --Girdle of Bane
 LBIS:AddItem(spec, "37242", LBIS.L["Waist"], "Alt") --Sash of the Servant
+LBIS:AddItem(spec, "34853", LBIS.L["Waist"], "Alt") --Belt of the Forgotten Conqueror
 LBIS:AddItem(spec, "34528", LBIS.L["Waist"], "Alt") --Cord of Absolution
 LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "Alt") --Belt of Blasting
 LBIS:AddItem(spec, "44302", LBIS.L["Waist"], "Alt") --Belt of Dark Mending

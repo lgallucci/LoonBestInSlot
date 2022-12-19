@@ -1647,37 +1647,37 @@
     },
     "30486": {
       "Name": "Merciless Gladiator's Plate Chestpiece",
-      "Source": "Chestguard of the Vanquished Defender/Chestguard of the Forgotten Protector",
+      "Source": "Chestguard of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30237/31091",
+      "SourceNumber": "30237",
       "SourceLocation": "undefined"
     },
     "30487": {
       "Name": "Merciless Gladiator's Plate Gauntlets",
-      "Source": "Gloves of the Vanquished Defender/Gloves of the Forgotten Protector",
+      "Source": "Gloves of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30240/31094",
+      "SourceNumber": "30240",
       "SourceLocation": "undefined"
     },
     "30488": {
       "Name": "Merciless Gladiator's Plate Helm",
-      "Source": "Helm of the Vanquished Defender/Helm of the Forgotten Protector",
+      "Source": "Helm of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30243/31095",
+      "SourceNumber": "30243",
       "SourceLocation": "undefined"
     },
     "30489": {
       "Name": "Merciless Gladiator's Plate Legguards",
-      "Source": "Leggings of the Vanquished Defender/Leggings of the Forgotten Protector",
+      "Source": "Leggings of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30246/31100",
+      "SourceNumber": "30246",
       "SourceLocation": "undefined"
     },
     "30490": {
       "Name": "Merciless Gladiator's Plate Shoulders",
-      "Source": "Pauldrons of the Vanquished Defender/Pauldrons of the Forgotten Protector",
+      "Source": "Pauldrons of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30249/31103",
+      "SourceNumber": "30249",
       "SourceLocation": "undefined"
     },
     "30969": {
@@ -2417,562 +2417,562 @@
     },
     "31960": {
       "Name": "Merciless Gladiator's Chain Armor",
-      "Source": "Chestguard of the Vanquished Hero/Chestguard of the Forgotten Protector",
+      "Source": "Chestguard of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "30238/31091",
+      "SourceNumber": "30238",
       "SourceLocation": "undefined"
     },
     "31961": {
       "Name": "Merciless Gladiator's Chain Gauntlets",
-      "Source": "Gloves of the Vanquished Hero/Gloves of the Forgotten Protector",
+      "Source": "Gloves of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "30241/31094",
+      "SourceNumber": "30241",
       "SourceLocation": "undefined"
     },
     "31962": {
       "Name": "Merciless Gladiator's Chain Helm",
-      "Source": "Helm of the Forgotten Protector/Helm of the Vanquished Hero",
+      "Source": "Helm of the Forgotten Protector",
       "SourceType": "TierToken",
-      "SourceNumber": "31095/30244",
+      "SourceNumber": "31095",
       "SourceLocation": "undefined"
     },
     "31963": {
       "Name": "Merciless Gladiator's Chain Leggings",
-      "Source": "Leggings of the Vanquished Hero/Leggings of the Forgotten Protector",
+      "Source": "Leggings of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "30247/31100",
+      "SourceNumber": "30247",
       "SourceLocation": "undefined"
     },
     "31964": {
       "Name": "Merciless Gladiator's Chain Spaulders",
-      "Source": "Pauldrons of the Vanquished Hero/Pauldrons of the Forgotten Protector",
+      "Source": "Pauldrons of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "30250/31103",
+      "SourceNumber": "30250",
       "SourceLocation": "undefined"
     },
     "31967": {
       "Name": "Merciless Gladiator's Dragonhide Gloves",
-      "Source": "Gloves of the Vanquished Defender/Gloves of the Forgotten Vanquisher",
+      "Source": "Gloves of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30240/31093",
+      "SourceNumber": "30240",
       "SourceLocation": "undefined"
     },
     "31968": {
       "Name": "Merciless Gladiator's Dragonhide Helm",
-      "Source": "Helm of the Vanquished Defender/Helm of the Forgotten Vanquisher",
+      "Source": "Helm of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30243/31096",
+      "SourceNumber": "30243",
       "SourceLocation": "undefined"
     },
     "31969": {
       "Name": "Merciless Gladiator's Dragonhide Legguards",
-      "Source": "Leggings of the Forgotten Vanquisher/Leggings of the Vanquished Defender",
+      "Source": "Leggings of the Forgotten Vanquisher",
       "SourceType": "TierToken",
-      "SourceNumber": "31099/30246",
+      "SourceNumber": "31099",
       "SourceLocation": "undefined"
     },
     "31971": {
       "Name": "Merciless Gladiator's Dragonhide Spaulders",
-      "Source": "Pauldrons of the Vanquished Defender/Pauldrons of the Forgotten Vanquisher",
+      "Source": "Pauldrons of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30249/31102",
+      "SourceNumber": "30249",
       "SourceLocation": "undefined"
     },
     "31972": {
       "Name": "Merciless Gladiator's Dragonhide Tunic",
-      "Source": "Chestguard of the Vanquished Defender/Chestguard of the Forgotten Vanquisher",
+      "Source": "Chestguard of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30237/31090",
+      "SourceNumber": "30237",
       "SourceLocation": "undefined"
     },
     "31973": {
       "Name": "Merciless Gladiator's Dreadweave Gloves",
-      "Source": "Gloves of the Vanquished Hero/Gloves of the Forgotten Conqueror",
+      "Source": "Gloves of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "30241/31092",
+      "SourceNumber": "30241",
       "SourceLocation": "undefined"
     },
     "31974": {
       "Name": "Merciless Gladiator's Dreadweave Hood",
-      "Source": "Helm of the Forgotten Conqueror/Helm of the Vanquished Hero",
+      "Source": "Helm of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "31097/30244",
+      "SourceNumber": "30244",
       "SourceLocation": "undefined"
     },
     "31975": {
       "Name": "Merciless Gladiator's Dreadweave Leggings",
-      "Source": "Leggings of the Vanquished Hero/Leggings of the Forgotten Conqueror",
+      "Source": "Leggings of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "30247/31098",
+      "SourceNumber": "30247",
       "SourceLocation": "undefined"
     },
     "31976": {
       "Name": "Merciless Gladiator's Dreadweave Mantle",
-      "Source": "Pauldrons of the Vanquished Hero/Pauldrons of the Forgotten Conqueror",
+      "Source": "Pauldrons of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "30250/31101",
+      "SourceNumber": "30250",
       "SourceLocation": "undefined"
     },
     "31977": {
       "Name": "Merciless Gladiator's Dreadweave Robe",
-      "Source": "Chestguard of the Vanquished Hero/Chestguard of the Forgotten Conqueror",
+      "Source": "Chestguard of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "30238/31089",
+      "SourceNumber": "30238",
       "SourceLocation": "undefined"
     },
     "31979": {
       "Name": "Merciless Gladiator's Felweave Amice",
-      "Source": "Pauldrons of the Vanquished Hero/Pauldrons of the Forgotten Conqueror",
+      "Source": "Pauldrons of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "30250/31101",
+      "SourceNumber": "30250",
       "SourceLocation": "undefined"
     },
     "31980": {
       "Name": "Merciless Gladiator's Felweave Cowl",
-      "Source": "Helm of the Forgotten Conqueror/Helm of the Vanquished Hero",
+      "Source": "Helm of the Forgotten Conqueror",
       "SourceType": "TierToken",
-      "SourceNumber": "31097/30244",
+      "SourceNumber": "31097",
       "SourceLocation": "undefined"
     },
     "31981": {
       "Name": "Merciless Gladiator's Felweave Handguards",
-      "Source": "Gloves of the Vanquished Hero/Gloves of the Forgotten Conqueror",
+      "Source": "Gloves of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "30241/31092",
+      "SourceNumber": "30241",
       "SourceLocation": "undefined"
     },
     "31982": {
       "Name": "Merciless Gladiator's Felweave Raiment",
-      "Source": "Chestguard of the Vanquished Hero/Chestguard of the Forgotten Conqueror",
+      "Source": "Chestguard of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "30238/31089",
+      "SourceNumber": "30238",
       "SourceLocation": "undefined"
     },
     "31983": {
       "Name": "Merciless Gladiator's Felweave Trousers",
-      "Source": "Leggings of the Vanquished Hero/Leggings of the Forgotten Conqueror",
+      "Source": "Leggings of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "30247/31098",
+      "SourceNumber": "30247",
       "SourceLocation": "undefined"
     },
     "31987": {
       "Name": "Merciless Gladiator's Kodohide Gloves",
-      "Source": "Gloves of the Vanquished Defender/Gloves of the Forgotten Vanquisher",
+      "Source": "Gloves of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30240/31093",
+      "SourceNumber": "30240",
       "SourceLocation": "undefined"
     },
     "31988": {
       "Name": "Merciless Gladiator's Kodohide Helm",
-      "Source": "Helm of the Vanquished Defender/Helm of the Forgotten Vanquisher",
+      "Source": "Helm of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30243/31096",
+      "SourceNumber": "30243",
       "SourceLocation": "undefined"
     },
     "31989": {
       "Name": "Merciless Gladiator's Kodohide Legguards",
-      "Source": "Leggings of the Forgotten Vanquisher/Leggings of the Vanquished Defender",
+      "Source": "Leggings of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "31099/30246",
+      "SourceNumber": "30246",
       "SourceLocation": "undefined"
     },
     "31990": {
       "Name": "Merciless Gladiator's Kodohide Spaulders",
-      "Source": "Pauldrons of the Vanquished Defender/Pauldrons of the Forgotten Vanquisher",
+      "Source": "Pauldrons of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30249/31102",
+      "SourceNumber": "30249",
       "SourceLocation": "undefined"
     },
     "31991": {
       "Name": "Merciless Gladiator's Kodohide Tunic",
-      "Source": "Chestguard of the Vanquished Defender/Chestguard of the Forgotten Vanquisher",
+      "Source": "Chestguard of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30237/31090",
+      "SourceNumber": "30237",
       "SourceLocation": "undefined"
     },
     "31992": {
       "Name": "Merciless Gladiator's Lamellar Chestpiece",
-      "Source": "Chestguard of the Vanquished Champion/Chestguard of the Forgotten Conqueror",
+      "Source": "Chestguard of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30236/31089",
+      "SourceNumber": "30236",
       "SourceLocation": "undefined"
     },
     "31993": {
       "Name": "Merciless Gladiator's Lamellar Gauntlets",
-      "Source": "Gloves of the Vanquished Champion/Gloves of the Forgotten Conqueror",
+      "Source": "Gloves of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30239/31092",
+      "SourceNumber": "30239",
       "SourceLocation": "undefined"
     },
     "31995": {
       "Name": "Merciless Gladiator's Lamellar Legguards",
-      "Source": "Leggings of the Vanquished Champion/Leggings of the Forgotten Conqueror",
+      "Source": "Leggings of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30245/31098",
+      "SourceNumber": "30245",
       "SourceLocation": "undefined"
     },
     "31996": {
       "Name": "Merciless Gladiator's Lamellar Shoulders",
-      "Source": "Pauldrons of the Vanquished Champion/Pauldrons of the Forgotten Conqueror",
+      "Source": "Pauldrons of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30248/31101",
+      "SourceNumber": "30248",
       "SourceLocation": "undefined"
     },
     "31997": {
       "Name": "Merciless Gladiator's Lamellar Helm",
-      "Source": "Helm of the Vanquished Champion/Helm of the Forgotten Conqueror",
+      "Source": "Helm of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30242/31097",
+      "SourceNumber": "30242",
       "SourceLocation": "undefined"
     },
     "31998": {
       "Name": "Merciless Gladiator's Leather Gloves",
-      "Source": "Gloves of the Vanquished Champion/Gloves of the Forgotten Vanquisher",
+      "Source": "Gloves of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30239/31093",
+      "SourceNumber": "30239",
       "SourceLocation": "undefined"
     },
     "31999": {
       "Name": "Merciless Gladiator's Leather Helm",
-      "Source": "Helm of the Vanquished Champion/Helm of the Forgotten Vanquisher",
+      "Source": "Helm of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30242/31096",
+      "SourceNumber": "30242",
       "SourceLocation": "undefined"
     },
     "32000": {
       "Name": "Merciless Gladiator's Leather Legguards",
-      "Source": "Leggings of the Forgotten Vanquisher/Leggings of the Vanquished Champion",
+      "Source": "Leggings of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "31099/30245",
+      "SourceNumber": "30245",
       "SourceLocation": "undefined"
     },
     "32001": {
       "Name": "Merciless Gladiator's Leather Spaulders",
-      "Source": "Pauldrons of the Vanquished Champion/Pauldrons of the Forgotten Vanquisher",
+      "Source": "Pauldrons of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30248/31102",
+      "SourceNumber": "30248",
       "SourceLocation": "undefined"
     },
     "32002": {
       "Name": "Merciless Gladiator's Leather Tunic",
-      "Source": "Chestguard of the Vanquished Champion/Chestguard of the Forgotten Vanquisher",
+      "Source": "Chestguard of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30236/31090",
+      "SourceNumber": "30236",
       "SourceLocation": "undefined"
     },
     "32004": {
       "Name": "Merciless Gladiator's Linked Armor",
-      "Source": "Chestguard of the Forgotten Protector/Chestguard of the Vanquished Champion",
+      "Source": "Chestguard of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "31091/30236",
+      "SourceNumber": "30236",
       "SourceLocation": "undefined"
     },
     "32005": {
       "Name": "Merciless Gladiator's Linked Gauntlets",
-      "Source": "Gloves of the Vanquished Champion/Gloves of the Forgotten Protector",
+      "Source": "Gloves of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30239/31094",
+      "SourceNumber": "30239",
       "SourceLocation": "undefined"
     },
     "32006": {
       "Name": "Merciless Gladiator's Linked Helm",
-      "Source": "Helm of the Vanquished Champion/Helm of the Forgotten Protector",
+      "Source": "Helm of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30242/31095",
+      "SourceNumber": "30242",
       "SourceLocation": "undefined"
     },
     "32007": {
       "Name": "Merciless Gladiator's Linked Leggings",
-      "Source": "Leggings of the Vanquished Champion/Leggings of the Forgotten Protector",
+      "Source": "Leggings of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30245/31100",
+      "SourceNumber": "30245",
       "SourceLocation": "undefined"
     },
     "32008": {
       "Name": "Merciless Gladiator's Linked Spaulders",
-      "Source": "Pauldrons of the Vanquished Champion/Pauldrons of the Forgotten Protector",
+      "Source": "Pauldrons of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30248/31103",
+      "SourceNumber": "30248",
       "SourceLocation": "undefined"
     },
     "32009": {
       "Name": "Merciless Gladiator's Mail Armor",
-      "Source": "Chestguard of the Forgotten Protector/Chestguard of the Vanquished Champion",
+      "Source": "Chestguard of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "31091/30236",
+      "SourceNumber": "30236",
       "SourceLocation": "undefined"
     },
     "32010": {
       "Name": "Merciless Gladiator's Mail Gauntlets",
-      "Source": "Gloves of the Vanquished Champion/Gloves of the Forgotten Protector",
+      "Source": "Gloves of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30239/31094",
+      "SourceNumber": "30239",
       "SourceLocation": "undefined"
     },
     "32011": {
       "Name": "Merciless Gladiator's Mail Helm",
-      "Source": "Helm of the Vanquished Champion/Helm of the Forgotten Protector",
+      "Source": "Helm of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30242/31095",
+      "SourceNumber": "30242",
       "SourceLocation": "undefined"
     },
     "32012": {
       "Name": "Merciless Gladiator's Mail Leggings",
-      "Source": "Leggings of the Vanquished Champion/Leggings of the Forgotten Protector",
+      "Source": "Leggings of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30245/31100",
+      "SourceNumber": "30245",
       "SourceLocation": "undefined"
     },
     "32013": {
       "Name": "Merciless Gladiator's Mail Spaulders",
-      "Source": "Pauldrons of the Vanquished Champion/Pauldrons of the Forgotten Protector",
+      "Source": "Pauldrons of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30248/31103",
+      "SourceNumber": "30248",
       "SourceLocation": "undefined"
     },
     "32015": {
       "Name": "Merciless Gladiator's Mooncloth Gloves",
-      "Source": "Gloves of the Vanquished Defender/Gloves of the Forgotten Conqueror",
+      "Source": "Gloves of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30240/31092",
+      "SourceNumber": "30240",
       "SourceLocation": "undefined"
     },
     "32016": {
       "Name": "Merciless Gladiator's Mooncloth Hood",
-      "Source": "Helm of the Vanquished Defender/Helm of the Forgotten Conqueror",
+      "Source": "Helm of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30243/31097",
+      "SourceNumber": "30243",
       "SourceLocation": "undefined"
     },
     "32017": {
       "Name": "Merciless Gladiator's Mooncloth Leggings",
-      "Source": "Leggings of the Vanquished Defender/Leggings of the Forgotten Conqueror",
+      "Source": "Leggings of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30246/31098",
+      "SourceNumber": "30246",
       "SourceLocation": "undefined"
     },
     "32018": {
       "Name": "Merciless Gladiator's Mooncloth Mantle",
-      "Source": "Pauldrons of the Vanquished Defender/Pauldrons of the Forgotten Conqueror",
+      "Source": "Pauldrons of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30249/31101",
+      "SourceNumber": "30249",
       "SourceLocation": "undefined"
     },
     "32019": {
       "Name": "Merciless Gladiator's Mooncloth Robe",
-      "Source": "Chestguard of the Vanquished Defender/Chestguard of the Forgotten Conqueror",
+      "Source": "Chestguard of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30237/31089",
+      "SourceNumber": "30237",
       "SourceLocation": "undefined"
     },
     "32020": {
       "Name": "Merciless Gladiator's Ornamented Chestguard",
-      "Source": "Chestguard of the Vanquished Champion/Chestguard of the Forgotten Conqueror",
+      "Source": "Chestguard of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30236/31089",
+      "SourceNumber": "30236",
       "SourceLocation": "undefined"
     },
     "32021": {
       "Name": "Merciless Gladiator's Ornamented Gloves",
-      "Source": "Gloves of the Vanquished Champion/Gloves of the Forgotten Conqueror",
+      "Source": "Gloves of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30239/31092",
+      "SourceNumber": "30239",
       "SourceLocation": "undefined"
     },
     "32022": {
       "Name": "Merciless Gladiator's Ornamented Headcover",
-      "Source": "Helm of the Vanquished Champion/Helm of the Forgotten Conqueror",
+      "Source": "Helm of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30242/31097",
+      "SourceNumber": "30242",
       "SourceLocation": "undefined"
     },
     "32023": {
       "Name": "Merciless Gladiator's Ornamented Legplates",
-      "Source": "Leggings of the Vanquished Champion/Leggings of the Forgotten Conqueror",
+      "Source": "Leggings of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30245/31098",
+      "SourceNumber": "30245",
       "SourceLocation": "undefined"
     },
     "32024": {
       "Name": "Merciless Gladiator's Ornamented Spaulders",
-      "Source": "Pauldrons of the Vanquished Champion/Pauldrons of the Forgotten Conqueror",
+      "Source": "Pauldrons of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30248/31101",
+      "SourceNumber": "30248",
       "SourceLocation": "undefined"
     },
     "32029": {
       "Name": "Merciless Gladiator's Ringmail Armor",
-      "Source": "Chestguard of the Forgotten Protector/Chestguard of the Vanquished Champion",
+      "Source": "Chestguard of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "31091/30236",
+      "SourceNumber": "30236",
       "SourceLocation": "undefined"
     },
     "32030": {
       "Name": "Merciless Gladiator's Ringmail Gauntlets",
-      "Source": "Gloves of the Vanquished Champion/Gloves of the Forgotten Protector",
+      "Source": "Gloves of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30239/31094",
+      "SourceNumber": "30239",
       "SourceLocation": "undefined"
     },
     "32031": {
       "Name": "Merciless Gladiator's Ringmail Helm",
-      "Source": "Helm of the Vanquished Champion/Helm of the Forgotten Protector",
+      "Source": "Helm of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30242/31095",
+      "SourceNumber": "30242",
       "SourceLocation": "undefined"
     },
     "32032": {
       "Name": "Merciless Gladiator's Ringmail Leggings",
-      "Source": "Leggings of the Vanquished Champion/Leggings of the Forgotten Protector",
+      "Source": "Leggings of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30245/31100",
+      "SourceNumber": "30245",
       "SourceLocation": "undefined"
     },
     "32033": {
       "Name": "Merciless Gladiator's Ringmail Spaulders",
-      "Source": "Pauldrons of the Vanquished Champion/Pauldrons of the Forgotten Protector",
+      "Source": "Pauldrons of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30248/31103",
+      "SourceNumber": "30248",
       "SourceLocation": "undefined"
     },
     "32034": {
       "Name": "Merciless Gladiator's Satin Gloves",
-      "Source": "Gloves of the Vanquished Defender/Gloves of the Forgotten Conqueror",
+      "Source": "Gloves of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30240/31092",
+      "SourceNumber": "30240",
       "SourceLocation": "undefined"
     },
     "32035": {
       "Name": "Merciless Gladiator's Satin Hood",
-      "Source": "Helm of the Vanquished Defender/Helm of the Forgotten Conqueror",
+      "Source": "Helm of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30243/31097",
+      "SourceNumber": "30243",
       "SourceLocation": "undefined"
     },
     "32036": {
       "Name": "Merciless Gladiator's Satin Leggings",
-      "Source": "Leggings of the Vanquished Defender/Leggings of the Forgotten Conqueror",
+      "Source": "Leggings of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30246/31098",
+      "SourceNumber": "30246",
       "SourceLocation": "undefined"
     },
     "32037": {
       "Name": "Merciless Gladiator's Satin Mantle",
-      "Source": "Pauldrons of the Vanquished Defender/Pauldrons of the Forgotten Conqueror",
+      "Source": "Pauldrons of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30249/31101",
+      "SourceNumber": "30249",
       "SourceLocation": "undefined"
     },
     "32038": {
       "Name": "Merciless Gladiator's Satin Robe",
-      "Source": "Chestguard of the Vanquished Defender/Chestguard of the Forgotten Conqueror",
+      "Source": "Chestguard of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30237/31089",
+      "SourceNumber": "30237",
       "SourceLocation": "undefined"
     },
     "32039": {
       "Name": "Merciless Gladiator's Scaled Chestpiece",
-      "Source": "Chestguard of the Vanquished Champion/Chestguard of the Forgotten Conqueror",
+      "Source": "Chestguard of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30236/31089",
+      "SourceNumber": "30236",
       "SourceLocation": "undefined"
     },
     "32040": {
       "Name": "Merciless Gladiator's Scaled Gauntlets",
-      "Source": "Gloves of the Vanquished Champion/Gloves of the Forgotten Conqueror",
+      "Source": "Gloves of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30239/31092",
+      "SourceNumber": "30239",
       "SourceLocation": "undefined"
     },
     "32041": {
       "Name": "Merciless Gladiator's Scaled Helm",
-      "Source": "Helm of the Vanquished Champion/Helm of the Forgotten Conqueror",
+      "Source": "Helm of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30242/31097",
+      "SourceNumber": "30242",
       "SourceLocation": "undefined"
     },
     "32042": {
       "Name": "Merciless Gladiator's Scaled Legguards",
-      "Source": "Leggings of the Vanquished Champion/Leggings of the Forgotten Conqueror",
+      "Source": "Leggings of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30245/31098",
+      "SourceNumber": "30245",
       "SourceLocation": "undefined"
     },
     "32043": {
       "Name": "Merciless Gladiator's Scaled Shoulders",
-      "Source": "Pauldrons of the Vanquished Champion/Pauldrons of the Forgotten Conqueror",
+      "Source": "Pauldrons of the Vanquished Champion",
       "SourceType": "TierToken",
-      "SourceNumber": "30248/31101",
+      "SourceNumber": "30248",
       "SourceLocation": "undefined"
     },
     "32047": {
       "Name": "Merciless Gladiator's Silk Amice",
-      "Source": "Pauldrons of the Vanquished Hero/Pauldrons of the Forgotten Vanquisher",
+      "Source": "Pauldrons of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "30250/31102",
+      "SourceNumber": "30250",
       "SourceLocation": "undefined"
     },
     "32048": {
       "Name": "Merciless Gladiator's Silk Cowl",
-      "Source": "Helm of the Forgotten Vanquisher/Helm of the Vanquished Hero",
+      "Source": "Helm of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "31096/30244",
+      "SourceNumber": "30244",
       "SourceLocation": "undefined"
     },
     "32049": {
       "Name": "Merciless Gladiator's Silk Handguards",
-      "Source": "Gloves of the Vanquished Hero/Gloves of the Forgotten Vanquisher",
+      "Source": "Gloves of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "30241/31093",
+      "SourceNumber": "30241",
       "SourceLocation": "undefined"
     },
     "32050": {
       "Name": "Merciless Gladiator's Silk Raiment",
-      "Source": "Chestguard of the Vanquished Hero/Chestguard of the Forgotten Vanquisher",
+      "Source": "Chestguard of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "30238/31090",
+      "SourceNumber": "30238",
       "SourceLocation": "undefined"
     },
     "32051": {
       "Name": "Merciless Gladiator's Silk Trousers",
-      "Source": "Leggings of the Forgotten Vanquisher/Leggings of the Vanquished Hero",
+      "Source": "Leggings of the Vanquished Hero",
       "SourceType": "TierToken",
-      "SourceNumber": "31099/30247",
+      "SourceNumber": "30247",
       "SourceLocation": "undefined"
     },
     "32056": {
       "Name": "Merciless Gladiator's Wyrmhide Gloves",
-      "Source": "Gloves of the Vanquished Defender/Gloves of the Forgotten Vanquisher",
+      "Source": "Gloves of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30240/31093",
+      "SourceNumber": "30240",
       "SourceLocation": "undefined"
     },
     "32057": {
       "Name": "Merciless Gladiator's Wyrmhide Helm",
-      "Source": "Helm of the Vanquished Defender/Helm of the Forgotten Vanquisher",
+      "Source": "Helm of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30243/31096",
+      "SourceNumber": "30243",
       "SourceLocation": "undefined"
     },
     "32058": {
       "Name": "Merciless Gladiator's Wyrmhide Legguards",
-      "Source": "Leggings of the Forgotten Vanquisher/Leggings of the Vanquished Defender",
+      "Source": "Leggings of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "31099/30246",
+      "SourceNumber": "30246",
       "SourceLocation": "undefined"
     },
     "32059": {
       "Name": "Merciless Gladiator's Wyrmhide Spaulders",
-      "Source": "Pauldrons of the Vanquished Defender/Pauldrons of the Forgotten Vanquisher",
+      "Source": "Pauldrons of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30249/31102",
+      "SourceNumber": "30249",
       "SourceLocation": "undefined"
     },
     "32060": {
       "Name": "Merciless Gladiator's Wyrmhide Tunic",
-      "Source": "Chestguard of the Vanquished Defender/Chestguard of the Forgotten Vanquisher",
+      "Source": "Chestguard of the Vanquished Defender",
       "SourceType": "TierToken",
-      "SourceNumber": "30237/31090",
+      "SourceNumber": "30237",
       "SourceLocation": "undefined"
     },
     "33811": {

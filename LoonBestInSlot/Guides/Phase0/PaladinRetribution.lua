@@ -15,8 +15,8 @@ LBIS:AddItem(spec, "43566", LBIS.L["Back"], "Alt") --Ice Striker's Cloak
 LBIS:AddItem(spec, "38614", LBIS.L["Back"], "Alt") --Embrace of Sorrow
 LBIS:AddItem(spec, "37840", LBIS.L["Back"], "Alt") --Shroud of Reverberation
 
-LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
 LBIS:AddItem(spec, "39633", LBIS.L["Chest"], "BIS") --Heroes' Redemption Chestpiece
+LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
 LBIS:AddItem(spec, "34215", LBIS.L["Chest"], "Alt") --Warharness of Reckless Fury
 LBIS:AddItem(spec, "37722", LBIS.L["Chest"], "Alt") --Breastplate of Undeath
 LBIS:AddItem(spec, "37219", LBIS.L["Chest"], "Alt") --Custodian's Chestpiece
@@ -35,6 +35,7 @@ LBIS:AddItem(spec, "40692", LBIS.L["Waist"], "BIS") --Vereesa's Silver Chain Bel
 LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "BIS") --Jorach's Crocolisk Skin Belt
 LBIS:AddItem(spec, "40688", LBIS.L["Waist"], "BIS") --Verdungo's Barbarian Cord
 LBIS:AddItem(spec, "34485", LBIS.L["Waist"], "Alt") --Lightbringer Girdle
+LBIS:AddItem(spec, "34853", LBIS.L["Waist"], "Alt") --Belt of the Forgotten Conqueror
 
 LBIS:AddItem(spec, "37193", LBIS.L["Legs"], "BIS") --Staggering Legplates
 LBIS:AddItem(spec, "44179", LBIS.L["Legs"], "Alt") --Mind-Expanding Leggings

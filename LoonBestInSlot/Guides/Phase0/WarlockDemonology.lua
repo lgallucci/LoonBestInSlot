@@ -99,6 +99,7 @@ LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "Alt") --Anetheron's Noose
 LBIS:AddItem(spec, "44104", LBIS.L["Waist"], "Alt") --Fishy Cinch
 LBIS:AddItem(spec, "37637", LBIS.L["Waist"], "Alt") --Living Mojo Belt
 LBIS:AddItem(spec, "34541", LBIS.L["Waist"], "Alt") --Belt of the Malefic
+LBIS:AddItem(spec, "34853", LBIS.L["Waist"], "Alt") --Belt of the Forgotten Conqueror
 LBIS:AddItem(spec, "37680", LBIS.L["Waist"], "Alt") --Belt of Unified Souls
 
 LBIS:AddItem(spec, "34170", LBIS.L["Legs"], "BIS") --Pantaloons of Calming Strife

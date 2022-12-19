@@ -178,6 +178,7 @@ LBIS.ItemSources =
     [34848] = { Name = "Bracers of the Forgotten Conqueror", SourceType = LBIS.L["Legacy"], Source = "", SourceNumber = "", SourceLocation = "" },
     [34851] = { Name = "Bracers of the Forgotten Protector", SourceType = LBIS.L["Legacy"], Source = "", SourceNumber = "", SourceLocation = "" },
     [34852] = { Name = "Bracers of the Forgotten Vanquisher", SourceType = LBIS.L["Legacy"], Source = "", SourceNumber = "", SourceLocation = "" },
+    [34853] = { Name = "Belt of the Forgotten Conqueror", SourceType = LBIS.L["Legacy"], Source = "", SourceNumber = "", SourceLocation = "" },
     [34854] = { Name = "Belt of the Forgotten Protector", SourceType = LBIS.L["Legacy"], Source = "", SourceNumber = "", SourceLocation = "" },
     [34855] = { Name = "Belt of the Forgotten Vanquisher", SourceType = LBIS.L["Legacy"], Source = "", SourceNumber = "", SourceLocation = "" },
     [34856] = { Name = "Boots of the Forgotten Conqueror", SourceType = LBIS.L["Legacy"], Source = "", SourceNumber = "", SourceLocation = "" },

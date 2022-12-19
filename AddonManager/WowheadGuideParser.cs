@@ -271,9 +271,21 @@ public class WowheadGuideParser
                                     ItemOrder = itemOrderIndex
                                 });
                             }
+                            if (TierPiecesAndTokens.Transmutes.ContainsKey(itemId) && !items.ContainsKey(TierPiecesAndTokens.Transmutes[itemId].Item1))
+                            {
+                                items.Add(TierPiecesAndTokens.Transmutes[itemId].Item1, new ItemSpec
+                                {
+                                    ItemId = TierPiecesAndTokens.Transmutes[itemId].Item1,
+                                    Name = TierPiecesAndTokens.Transmutes[itemId].Item2,
+                                    BisStatus = (bisStatus ?? "undefined") + " Transmute",
+                                    Slot = slot,
+                                    ItemOrder = itemOrderIndex
+                                });
+                            }
                         } else
                         {
-                            items[itemId].Slot = $"{items[itemId].Slot}/{slot}";
+                            if (items[itemId].Slot != slot)
+                                items[itemId].Slot = $"{items[itemId].Slot}/{slot}";
                         }
                     }
                 }

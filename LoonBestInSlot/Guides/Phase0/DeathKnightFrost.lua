@@ -59,9 +59,10 @@ LBIS:AddItem(spec, "34472", LBIS.L["Trinket"], "Alt") --Shard of Contempt
 LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "Alt") --Berserker's Call
 
 LBIS:AddItem(spec, "41383", LBIS.L["Main Hand"], "BIS") --Titansteel Bonecrusher
-LBIS:AddItem(spec, "44250", LBIS.L["Main Hand"], "Alt") --Reaper of Dark Souls
-LBIS:AddItem(spec, "37235", LBIS.L["Main Hand"], "Alt") --Crypt Lord's Deft Blade
-LBIS:AddItem(spec, "37871", LBIS.L["Main Hand"], "Alt") --The Key
+
+LBIS:AddItem(spec, "44250", LBIS.L["Main Hand/Off Hand"], "Alt") --Reaper of Dark Souls
+LBIS:AddItem(spec, "37235", LBIS.L["Main Hand/Off Hand"], "Alt") --Crypt Lord's Deft Blade
+LBIS:AddItem(spec, "37871", LBIS.L["Main Hand/Off Hand"], "Alt") --The Key
 
 LBIS:AddItem(spec, "40715", LBIS.L["Ranged/Relic"], "BIS") --Sigil of Haunted Dreams
 LBIS:AddItem(spec, "39208", LBIS.L["Ranged/Relic"], "Alt") --Sigil of the Dark Rider

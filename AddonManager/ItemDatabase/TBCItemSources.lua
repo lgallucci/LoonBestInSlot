@@ -2129,6 +2129,7 @@ LBIS.ItemSources =
     [34848] = { Name = "Bracers of the Forgotten Conqueror", SourceType = LBIS.L["Token"], Source = LBIS.L["Kalecgos/Eredar Twins"], SourceNumber = "0", SourceLocation = LBIS.L["Sunwell Plateau"] },
     [34851] = { Name = "Bracers of the Forgotten Protector", SourceType = LBIS.L["Token"], Source = LBIS.L["Kalecgos/Eredar Twins"], SourceNumber = "0", SourceLocation = LBIS.L["Sunwell Plateau"] },
     [34852] = { Name = "Bracers of the Forgotten Vanquisher", SourceType = LBIS.L["Token"], Source = LBIS.L["Kalecgos/Eredar Twins"], SourceNumber = "0", SourceLocation = LBIS.L["Sunwell Plateau"] },
+    [34853] = { Name = "Belt of the Forgotten Conqueror", SourceType = LBIS.L["Token"], Source = LBIS.L["Brutallus/Eredar Twins"], SourceNumber = "0", SourceLocation = LBIS.L["Sunwell Plateau"] },
     [34854] = { Name = "Belt of the Forgotten Protector", SourceType = LBIS.L["Token"], Source = LBIS.L["Brutallus/Eredar Twins"], SourceNumber = "0", SourceLocation = LBIS.L["Sunwell Plateau"] },
     [34855] = { Name = "Belt of the Forgotten Vanquisher", SourceType = LBIS.L["Token"], Source = LBIS.L["Brutallus/Eredar Twins"], SourceNumber = "0", SourceLocation = LBIS.L["Sunwell Plateau"] },
     [34856] = { Name = "Boots of the Forgotten Conqueror", SourceType = LBIS.L["Token"], Source = LBIS.L["Felmyst/Eredar Twins"], SourceNumber = "0", SourceLocation = LBIS.L["Sunwell Plateau"] },

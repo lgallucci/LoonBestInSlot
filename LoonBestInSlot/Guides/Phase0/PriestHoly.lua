@@ -70,6 +70,7 @@ LBIS:AddItem(spec, "37408", LBIS.L["Waist"], "Alt") --Girdle of Bane
 LBIS:AddItem(spec, "37850", LBIS.L["Waist"], "Alt") --Flowing Sash of Order
 LBIS:AddItem(spec, "37289", LBIS.L["Waist"], "Alt") --Sash of Phantasmal Images
 LBIS:AddItem(spec, "34527", LBIS.L["Waist"], "Alt") --Belt of Absolution
+LBIS:AddItem(spec, "34853", LBIS.L["Waist"], "Alt") --Belt of the Forgotten Conqueror
 LBIS:AddItem(spec, "34528", LBIS.L["Waist"], "Alt") --Cord of Absolution
 
 LBIS:AddItem(spec, "37189", LBIS.L["Legs"], "BIS") --Breeches of the Caller
