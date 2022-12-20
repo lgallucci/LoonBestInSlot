@@ -3,12 +3,15 @@
 
 using AddonManager.FileManagers;
 using AddonManager.Models;
+using AngleSharp.Dom;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media.Animation;
 using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.IO;
 using System.Security;
+using Windows.Networking;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -180,7 +183,8 @@ public sealed partial class GuideImporter : Page
 
     private void Refresh_All_Click(object sender, RoutedEventArgs e)
     {
-        ConsoleOut.Text = "Adding Phase 1 items to ItemSource...";
+        int phaseNumber = 1;
+        ConsoleOut.Text = $"Adding Phase {phaseNumber} items to ItemSource...";
 
         //Read file into dictionary
         DatabaseItems dbItems;
@@ -191,11 +195,42 @@ public sealed partial class GuideImporter : Page
         var dungeonItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
         dbItems.AddItems(dungeonItems);
 
+        jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\TierSetList.json");
+        var tierItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
+        dbItems.AddItems(tierItems);
+        foreach (var converted in ItemSourceFileManager.ReadTBCItemSources())
+        {
+            if (!dbItems.Items.ContainsKey(converted.Key))
+            {
+                dbItems.Items.Add(converted.Key, new DatabaseItem()
+                {
+                    Name = converted.Value.Name,
+                    Source = converted.Value.Source,
+                    SourceType = converted.Value.SourceType,
+                    SourceNumber = converted.Value.SourceNumber,
+                    SourceLocation = converted.Value.SourceLocation
+                });
+            }
+        }
+
         var itemSources = ItemSourceFileManager.ReadItemSources();
 
         foreach (var db in dbItems.Items)
         {
-            if (!itemSources.ContainsKey(db.Key) && IsInPhase(2, db.Value.Source, db.Value.SourceLocation))
+            string raidName, bossName;
+            if (db.Value.SourceType == "TierToken")
+            {
+                var tokenId = Int32.Parse(db.Value.SourceNumber);
+                var token = dbItems.Items[tokenId];
+                bossName = token.Source;
+                raidName = token.SourceLocation;
+            }
+            else
+            {
+                bossName = db.Value.Source;
+                raidName = db.Value.SourceLocation;
+            }
+            if (!itemSources.ContainsKey(db.Key) && IsInPhase(phaseNumber, bossName, raidName))
             {
                 itemSources.Add(db.Key, new ItemSource
                 {
@@ -211,7 +246,7 @@ public sealed partial class GuideImporter : Page
 
         ItemSourceFileManager.WriteItemSources(itemSources);
 
-        ConsoleOut.Text = "Phase 2 items Added to ItemSource!";
+        ConsoleOut.Text = $"Phase {phaseNumber} items Added to ItemSource!";
     }
 
     private static bool IsInPhase(int phase, string bossName, string raidName)

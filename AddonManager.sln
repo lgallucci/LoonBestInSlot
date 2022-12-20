@@ -248,6 +248,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E64D2CE7-C8D7-
 		LoonBestInSlot\UI\GemList.lua = LoonBestInSlot\UI\GemList.lua
 		LoonBestInSlot\UI\ItemList.lua = LoonBestInSlot\UI\ItemList.lua
 		LoonBestInSlot\UI\LootBrowser.lua = LoonBestInSlot\UI\LootBrowser.lua
+		LoonBestInSlot\UI\NewFeaturesWindow.lua = LoonBestInSlot\UI\NewFeaturesWindow.lua
 		LoonBestInSlot\UI\SearchFrame.lua = LoonBestInSlot\UI\SearchFrame.lua
 	EndProjectSection
 EndProject

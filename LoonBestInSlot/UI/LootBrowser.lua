@@ -1,6 +1,7 @@
 LBIS.BrowserWindow = {
     MaxHeight = 0,
-    CompareTooltip = {}
+    CompareTooltip = {},
+    LastFeaturesOpenTime = time({year=2022, month=12, day=10, hour=22})
 }
 
 function LBIS.BrowserWindow:OpenWindow(tabName)
@@ -11,6 +12,13 @@ function LBIS.BrowserWindow:OpenWindow(tabName)
     open_tab = tabName;
     LBIS.BrowserWindow:RefreshItems();
     LBIS.BrowserWindow.Window:Show();
+
+    --If cache date is updated (because of cache changing) reset the cache
+    --if (not LBISServerSettings.LastFeaturesWindowDate or LBISServerSettings.LastFeaturesWindowDate < LBIS.BrowserWindow.LastFeaturesOpenTime) then
+    --    LBIS.NewFeaturesWindow:CreateAndShowWindow();
+    --    LBISServerSettings.LastFeaturesWindowDate = time();
+    --end
+    
 end
 
 function LBIS.BrowserWindow:ToggleWindow()
@@ -401,7 +409,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     );
 
     window:SetScript("OnDragStart", function(self) self:StartMoving() end);
-    window:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end);    
+    window:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end);
 
     createTabs(window, content);
 
