@@ -14,10 +14,10 @@ function LBIS.BrowserWindow:OpenWindow(tabName)
     LBIS.BrowserWindow.Window:Show();
 
     --If cache date is updated (because of cache changing) reset the cache
-    --if (not LBISServerSettings.LastFeaturesWindowDate or LBISServerSettings.LastFeaturesWindowDate < LBIS.BrowserWindow.LastFeaturesOpenTime) then
-    --    LBIS.NewFeaturesWindow:CreateAndShowWindow();
-    --    LBISServerSettings.LastFeaturesWindowDate = time();
-    --end
+    if (not LBISServerSettings.LastFeaturesWindowDate or LBISServerSettings.LastFeaturesWindowDate < LBIS.BrowserWindow.LastFeaturesOpenTime) then
+        LBIS.NewFeaturesWindow:CreateAndShowWindow();
+        LBISServerSettings.LastFeaturesWindowDate = time();
+    end
     
 end
 
@@ -345,6 +345,14 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     windowCloseButton:SetScript("OnClick", function(self)
         window:Hide();
     end);
+    local windowFeatureButton = CreateFrame("Button", "NewFeaturesWindowCloseButton", window)
+    windowFeatureButton:SetPoint("TOPLEFT", window, "TOPLEFT", 2, 0)
+    windowFeatureButton:SetSize(32, 32);
+    windowFeatureButton:SetNormalTexture("Interface\\Buttons\\UI-LinkProfession-Up");
+    windowFeatureButton:SetPushedTexture("Interface\\Buttons\\UI-LinkProfession-Down")
+    windowFeatureButton:SetScript("OnClick", function(self)
+        LBIS.NewFeaturesWindow:CreateAndShowWindow();
+    end);
     
     local scrollframe = CreateFrame("ScrollFrame", "ScrollFrame", window);
     local scrollbar = CreateFrame("Slider", "ScrollBar", scrollframe, "UIPanelScrollBarTemplate");
@@ -372,6 +380,8 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     window:SetPoint("CENTER", 0, 0);
     window:SetToplevel(true);
     window:SetMovable(true);
+    window:EnableMouse(true);
+    window:EnableMouseWheel(true);
     window:SetFrameStrata("HIGH");
 
     window:RegisterForDrag("LeftButton");

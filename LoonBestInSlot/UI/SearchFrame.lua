@@ -3,18 +3,12 @@ LBIS.SearchFrame.Slot = "";
 LBIS.SearchFrame.ItemList = {};
 
 local function conductSearch(text, foundFunc)
-    local function slotMatches(slot)
-        if slot == "Main Hand" or slot == "Off Hand" then
-            return "One Hand";
-        end
-        return slot
-    end
 
     local foundItems = {};
     for itemId, entry in pairs(LBIS.ItemSources) do
         if entry.Name:lower():match(string.gsub(text, " ", '.*'):lower()) then
             LBIS:GetItemInfo(itemId, function (item)
-                if item and slotMatches(LBIS.SearchFrame.Slot) == item.Slot then
+                if item and LBIS.SearchFrame.Slot == item.Slot then
                     table.insert(foundItems, item)
                 end
             end);
