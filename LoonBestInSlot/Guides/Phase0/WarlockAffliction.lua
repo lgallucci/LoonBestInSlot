@@ -41,8 +41,8 @@ LBIS:AddItem(spec, "42059", LBIS.L["Back"], "Alt") --Hateful Gladiator's Cloak o
 LBIS:AddItem(spec, "42055", LBIS.L["Back"], "Alt") --Hateful Gladiator's Cloak of Dominance
 LBIS:AddItem(spec, "42057", LBIS.L["Back"], "Alt") --Hateful Gladiator's Cloak of Ascendancy
 
-LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
 LBIS:AddItem(spec, "39497", LBIS.L["Chest"], "BIS") --Heroes' Plagueheart Robe
+LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
 LBIS:AddItem(spec, "42102", LBIS.L["Chest"], "Alt") --Spellweave Robe
 LBIS:AddItem(spec, "34364", LBIS.L["Chest"], "Alt") --Sunfire Robe
 LBIS:AddItem(spec, "34399", LBIS.L["Chest"], "Alt") --Robes of Ghostly Hatred
@@ -58,8 +58,8 @@ LBIS:AddItem(spec, "37361", LBIS.L["Wrist"], "BIS") --Cuffs of Winged Levitation
 LBIS:AddItem(spec, "37725", LBIS.L["Wrist"], "Alt") --Savage Wound Wrap
 LBIS:AddItem(spec, "44200", LBIS.L["Wrist"], "Alt") --Ancestral Sinew Wristguards
 LBIS:AddItem(spec, "37884", LBIS.L["Wrist"], "Alt") --Azure Cloth Bindings
-LBIS:AddItem(spec, "34436", LBIS.L["Wrist"], "Alt") --Bracers of the Malefic
 LBIS:AddItem(spec, "34848", LBIS.L["Wrist"], "Alt") --Bracers of the Forgotten Conqueror
+LBIS:AddItem(spec, "34436", LBIS.L["Wrist"], "Alt") --Bracers of the Malefic
 LBIS:AddItem(spec, "36945", LBIS.L["Wrist"], "Alt") --Verdisa's Cuffs of Dreaming
 LBIS:AddItem(spec, "41878", LBIS.L["Wrist"], "Alt") --Hateful Gladiator's Cuffs of Salvation
 LBIS:AddItem(spec, "41555", LBIS.L["Wrist"], "Alt") --Black Duskweave Wristwraps

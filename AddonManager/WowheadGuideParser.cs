@@ -282,10 +282,15 @@ public class WowheadGuideParser
                                     ItemOrder = itemOrderIndex
                                 });
                             }
-                        } else
+                        } 
+                        else
                         {
                             if (items[itemId].Slot != slot)
+                            {
                                 items[itemId].Slot = $"{items[itemId].Slot}/{slot}";
+                                if (items[itemId].BisStatus != bisStatus)
+                                    items[itemId].BisStatus = $"{items[itemId].BisStatus}/{bisStatus}";
+                            }
                         }
                     }
                 }

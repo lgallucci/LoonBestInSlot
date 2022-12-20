@@ -43,7 +43,7 @@ end
 local function IsInSlot(specItem)
     if LBISSettings.SelectedSlot == LBIS.L["All"] then
         return true;
-    elseif LBISSettings.SelectedSlot == specItem.Slot then
+    elseif strfind(specItem.Slot, LBISSettings.SelectedSlot) ~= nil then
         return true;
     end
     return false;

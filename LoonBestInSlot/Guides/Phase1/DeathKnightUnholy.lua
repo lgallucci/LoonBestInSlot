@@ -66,8 +66,8 @@ LBIS:AddItem(spec, "40431", LBIS.L["Trinket"], "Alt") --Fury of the Five Flights
 LBIS:AddItem(spec, "39257", LBIS.L["Trinket"], "Alt") --Loatheb's Shadow
 
 LBIS:AddItem(spec, "40402", LBIS.L["Main Hand/Off Hand"], "BIS") --Last Laugh
-LBIS:AddItem(spec, "40189", LBIS.L["Main Hand/Off Hand"], "BIS") --Angry Dread
-LBIS:AddItem(spec, "42208", LBIS.L["Main Hand/Off Hand"], "BIS") --Deadly Gladiator's Cleaver
+LBIS:AddItem(spec, "40189", LBIS.L["Main Hand/Off Hand"], "BIS/Alt") --Angry Dread
+LBIS:AddItem(spec, "42208", LBIS.L["Main Hand/Off Hand"], "BIS/Alt") --Deadly Gladiator's Cleaver
 LBIS:AddItem(spec, "40407", LBIS.L["Main Hand/Off Hand"], "Alt") --Silent Crusader
 LBIS:AddItem(spec, "40345", LBIS.L["Main Hand/Off Hand"], "Alt") --Broken Promise
 LBIS:AddItem(spec, "39291", LBIS.L["Main Hand/Off Hand"], "Alt") --Torment of the Banished

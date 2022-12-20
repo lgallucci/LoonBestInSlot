@@ -18,8 +18,9 @@ itemSlotOrder[LBIS.L["Ring"]] = 10;
 itemSlotOrder[LBIS.L["Trinket"]] = 11;
 itemSlotOrder[LBIS.L["Main Hand"]] = 12;
 itemSlotOrder[LBIS.L["Off Hand"]] = 13;
-itemSlotOrder[LBIS.L["Two Hand"]] = 14;
-itemSlotOrder[LBIS.L["Ranged/Relic"]] = 15;
+itemSlotOrder[LBIS.L["Main Hand/Off Hand"]] = 14;
+itemSlotOrder[LBIS.L["Two Hand"]] = 15;
+itemSlotOrder[LBIS.L["Ranged/Relic"]] = 16;
 
 local function itemSortFunction(table, k1, k2)
 
@@ -33,7 +34,7 @@ local function itemSortFunction(table, k1, k2)
         item1Score = item1Score + 1000;
     end
     if itemSlotOrder[item1.Slot] > itemSlotOrder[item2.Slot] then
-        item2Score = item2Score +  1000;
+        item2Score = item2Score + 1000;
     end
 
     if string.find(item1.Bis, "BIS") ~= nil then
@@ -104,7 +105,7 @@ end
 local function IsInSlot(specItem)
     if LBISSettings.SelectedSlot == LBIS.L["All"] then
         return true;
-    elseif LBISSettings.SelectedSlot == specItem.Slot then
+    elseif strfind(specItem.Slot, LBISSettings.SelectedSlot) ~= nil then
         return true;
     end
     return false;

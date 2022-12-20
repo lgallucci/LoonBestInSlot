@@ -36,3 +36,4 @@ UI\CustomEditList.lua
 UI\CustomItemList.lua
 UI\AutoComplete.lua
 UI\SearchFrame.lua
+UI\NewFeaturesWindow.lua
