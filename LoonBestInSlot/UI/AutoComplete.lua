@@ -41,6 +41,7 @@ local function selectItem(button)
 
     button:UnlockHighlight()
     local found = false;
+    --TODO Check all items, not just items for that slot. (fucking double slot weapons :()
     for _, item in pairs(LBIS.SearchFrame.ItemList) do
         if item == button.ItemId then
             found = true;
@@ -177,6 +178,7 @@ function LBIS.AutoComplete:HandleKeyDown(key)
           incrementSelection(false)
         end,
         ['ESCAPE'] = function()
+            LBIS.AutoComplete.buttons[LBIS.AutoComplete.selectedButtonIndex]:HideTooltip()
             LBIS.AutoComplete.Frame:Hide()
         end,
         ['ENTER'] = function()

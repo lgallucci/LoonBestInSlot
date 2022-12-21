@@ -5,10 +5,10 @@ LBIS.SearchFrame.ItemList = {};
 local function conductSearch(text, foundFunc)
 
     local foundItems = {};
-    for itemId, entry in pairs(LBIS.ItemSources) do
+    for itemId, entry in pairs(LBISServerSettings.ItemCache) do
         if entry.Name:lower():match(string.gsub(text, " ", '.*'):lower()) then
-            LBIS:GetItemInfo(itemId, function (item)
-                if item and LBIS.SearchFrame.Slot == item.Slot then
+            LBIS:GetItemInfo(itemId, function (item)                
+                if item and item.Slot and strfind(item.Slot, LBIS.SearchFrame.Slot) ~= nil then
                     table.insert(foundItems, item)
                 end
             end);
@@ -31,7 +31,7 @@ local function HandleTextChanged(editBox, isUserInput)
         LBIS.AutoComplete:Clear();
         local text = strtrim(editBox:GetText());
         if (#text > 3) then
-            conductSearch(text, function (searchedItems) 
+            conductSearch(text, function (searchedItems)
                 for _, item in pairs(searchedItems) do
                     LBIS.AutoComplete:Add(item);
                 end
