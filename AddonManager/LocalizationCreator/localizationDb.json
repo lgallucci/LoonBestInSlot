@@ -1938,7 +1938,7 @@
       "Prince Taldaram": "공작 탈다람",
       "Profession": "전문 기술",
       "Protection": "방어/보호",
-      "Purkom (Venture Cove)": "<투자개발 만> 얼라-\\\"회색머리\\\" 아담스, 호드-푸르콤",
+      "Purkom (Venture Cove)": "푸르콤 <투자개발회사 주화 교환원>",
       "PvP": "PvP",
       "PvP Vendor": "PvP 상인",
       "Quartermasters": "병참장교",
@@ -2089,7 +2089,10 @@
       "Right-Click": "마우스 오른쪽 클릭",
       "The Kalu'ak'": "칼루아크",
       "The Ruby Sanctum": "루비 성소",
-      "Totem": "토템"
+      "Totem": "토템",
+      "# Gear best for:": "# 장비 BIS 직업:",
+      "|cFF9CD6DELeft-Click|r: Open Browser Window": "마우스 왼쪽 클릭으로 창 열기",
+      "Honor": "명예"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
