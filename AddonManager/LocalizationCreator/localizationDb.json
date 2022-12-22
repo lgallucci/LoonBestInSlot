@@ -1713,7 +1713,7 @@
       "Zuramat the Obliterator": "湮灭者祖拉玛特"
     },
     "koKR": {
-      "# Best for:": "# BIS 직업:",
+      "# Best for:": "# 최고",
       "10000 Honor (PvP)": "10000 명예 점수 (PvP)",
       "A Wing and a Prayer": "기도는 날개를 타고",
       "Accessories Quartermaster": "보급품 병참장교",
@@ -2092,7 +2092,8 @@
       "Totem": "토템",
       "# Gear best for:": "# 장비 BIS 직업:",
       "|cFF9CD6DELeft-Click|r: Open Browser Window": "마우스 왼쪽 클릭으로 창 열기",
-      "Honor": "명예"
+      "Honor": "명예",
+      "Show Tooltip:": "직업 툴팁 표시"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
