@@ -704,7 +704,7 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box", "Ring"),
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guides/arcane-mage-dps-best-in-slot-gear-pre-raid",
+        GuideMappings.Add(new ClassGuideMapping("do_not_use",//https://www.wowhead.com/wotlk/guides/arcane-mage-dps-best-in-slot-gear-pre-raid",
             "Arcane", "Mage", "Phase0", new List<GuideMapping>
         {
             new GuideMapping("#head-for-arcane-mage-dps-pre-raid", "Head"),

@@ -68,7 +68,7 @@ public static class WowheadImporter
 
             var className = $"{classGuide.ClassName.Replace(" ", "")}{classGuide.SpecName}";
 
-            if (classGuide != null)
+            if (classGuide != null && classGuide.WebAddress != "do_not_use")
             {
                 items = await new WowheadGuideParser().ParseWowheadGuide(classGuide);
 
