@@ -1,6 +1,39 @@
 ﻿using System.IO;
+using System.Windows.Shapes;
+using AddonManager.Models;
+using Newtonsoft.Json;
 
 namespace AddonManager.FileManagers;
+
+public class LocalizationDb
+{
+    public class LocalizationItems
+    {
+        public Dictionary<string, Dictionary<string, string>> Translations { get; set; } = new Dictionary<string, Dictionary<string, string>>();
+    }
+
+    private LocalizationItems _database = new LocalizationItems();
+
+    public void AddLanguage(string language, Dictionary<string, string> translations)
+    {
+        foreach(var translation in translations)
+        {
+            _database.Translations[language][translation.Key] = translation.Value;
+        }
+    }
+
+    public void ReadFile()
+    {
+        var jsonFileString = File.ReadAllText($@"{Constants.LocalizationPath}\localizationDb.json");
+        _database = JsonConvert.DeserializeObject<LocalizationItems>(jsonFileString) ?? new LocalizationItems();
+    }
+
+    public void SaveFile()
+    {
+        //write dictionary to file
+        File.WriteAllText($@"{Constants.LocalizationPath}\localizationDb.json", JsonConvert.SerializeObject(_database, Formatting.Indented));
+    }
+}
 
 public static class LocalizationFileManager
 {
@@ -23,6 +56,8 @@ public static class LocalizationFileManager
     public static void WriteLocalizationFiles()
     {
         var di = new System.IO.DirectoryInfo(@$"{Constants.AddonPath}\");
+        var localizationDb = new LocalizationDb();
+        localizationDb.ReadFile();
 
         var localizations = RecursivelySearch(di);
         var localList = localizations.ToList();
@@ -39,8 +74,8 @@ public static class LocalizationFileManager
             foreach (var localizeTerm in localList)
             {
                 if (translatedLocalizations.ContainsKey(localizeTerm))
-                {
-                    fileText += translatedLocalizations[localizeTerm] + "\n";
+                {                    
+                    fileText += $"  LBIS.L[\"{localizeTerm}\"] = \"{translatedLocalizations[localizeTerm]}\";\n";
                 }
                 else
                 {
@@ -105,8 +140,12 @@ public static class LocalizationFileManager
 
             fileText += "end";
 
+            localizationDb.AddLanguage(language, translatedLocalizations);
+
             System.IO.File.WriteAllText(@$"{Constants.AddonPath}\Localization\localization.{language}.lua", fileText);
         }
+
+        localizationDb.SaveFile();
     }
 
     private static Dictionary<string, string> FindLocalizations(string language)
@@ -127,13 +166,49 @@ public static class LocalizationFileManager
 
         LocalizeFromQuestie(ref localizations, language);
 
+        LocalizeFromBlizzard(ref localizations, language);
+
         return localizations;
+    }
+
+    private static void LocalizeFromBlizzard(ref Dictionary<string, string> localizations, string language)
+    {
+        List<string> enStrings = System.IO.File.ReadAllLines($@"{Constants.LocalizationPath}\Blizzard\GlueStrings\enUS.lua").ToList();
+        enStrings.AddRange(System.IO.File.ReadAllLines($@"{Constants.LocalizationPath}\Blizzard\GlobalStrings\enUS.lua"));
+
+        Dictionary<string, string> localizationSet = new Dictionary<string, string>();
+        foreach (var line in enStrings)
+        {
+            if (line.StartsWith("--") || string.IsNullOrWhiteSpace(line))
+                continue;
+
+            var terms = line.Split('=');
+
+            localizationSet[terms[0].Trim()] = terms[1].Trim(' ').Trim(';').Trim('"');
+        }
+
+        List<string> locStrings = new List<string>();
+        if (System.IO.File.Exists($@"{Constants.LocalizationPath}\Blizzard\GlueStrings\{language}.lua"))
+            locStrings.AddRange(System.IO.File.ReadAllLines($@"{Constants.LocalizationPath}\Blizzard\GlueStrings\{language}.lua"));
+
+        if (System.IO.File.Exists($@"{Constants.LocalizationPath}\Blizzard\GlobalStrings\{language}.lua"))
+            locStrings.AddRange(System.IO.File.ReadAllLines($@"{Constants.LocalizationPath}\Blizzard\GlobalStrings\{language}.lua"));
+
+        foreach (var line in locStrings)
+        {
+            if (line.StartsWith("--") || string.IsNullOrWhiteSpace(line))
+                continue;
+
+            var terms = line.Split('=');
+
+            if (localizationSet.ContainsKey(terms[0].Trim()))
+                localizations[localizationSet[terms[0].Trim()]] = terms[1].Trim(' ').Trim(';').Trim('"');
+        }
     }
 
     private static void LocalizeFromQuestie(ref Dictionary<string, string> localizations, string language)
     {
-        //Create Local Db
-        string[] itemSources = System.IO.File.ReadAllLines($@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\Questie\wotlkQuestDB.lua");
+        string[] itemSources = System.IO.File.ReadAllLines($@"{Constants.LocalizationPath}\Questie\wotlkQuestDB.lua");
         var questNames = new Dictionary<int, string>();
         foreach (var line in itemSources)
         {
@@ -159,7 +234,7 @@ public static class LocalizationFileManager
             questNames.Add(Int32.Parse(questIdString), questName);
         }
 
-        itemSources = System.IO.File.ReadAllLines(@$"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\Questie\{language}.lua");
+        itemSources = System.IO.File.ReadAllLines(@$"{Constants.LocalizationPath}\Questie\{language}.lua");
         foreach (var line in itemSources)
         {
             if (!line.StartsWith("["))
@@ -188,7 +263,7 @@ public static class LocalizationFileManager
 
     private static void LocalizeFromLibBabbleInventory(ref Dictionary<string, string> localizations, string language)
     {
-        string[] itemSources = System.IO.File.ReadAllLines($@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-Inventory-3.0\LibBabble-Inventory-3.0.lua");
+        string[] itemSources = System.IO.File.ReadAllLines($@"{Constants.LocalizationPath}\LibBabble-Inventory-3.0\LibBabble-Inventory-3.0.lua");
         bool foundStart = false;
         foreach (var line in itemSources)
         {
@@ -210,7 +285,7 @@ public static class LocalizationFileManager
 
     private static void LocalizeFromLibBabbleFaction(ref Dictionary<string, string> localizations, string language)
     {
-        string[] itemSources = System.IO.File.ReadAllLines($@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-Faction-3.0\LibBabble-Faction-3.0.lua");
+        string[] itemSources = System.IO.File.ReadAllLines($@"{Constants.LocalizationPath}\LibBabble-Faction-3.0\LibBabble-Faction-3.0.lua");
         bool foundStart = false;
         foreach (var line in itemSources)
         {
@@ -232,7 +307,7 @@ public static class LocalizationFileManager
 
     private static void LocalizeFromLibBabbleBoss(ref Dictionary<string, string> localizations, string language)
     {
-        string[] itemSources = System.IO.File.ReadAllLines($@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-Boss-3.0\LibBabble-Boss-3.0.lua");
+        string[] itemSources = System.IO.File.ReadAllLines($@"{Constants.LocalizationPath}\LibBabble-Boss-3.0\LibBabble-Boss-3.0.lua");
         var foundStart = false;
         foreach (var line in itemSources)
         {
@@ -255,7 +330,7 @@ public static class LocalizationFileManager
 
     private static void LocalizeFromLibBabbleSubZone(ref Dictionary<string, string> localizations, string language)
     {
-        string alcPath = $@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\LibBabble-SubZone-3.0\";
+        string alcPath = $@"{Constants.LocalizationPath}\LibBabble-SubZone-3.0\";
         switch (language)
         {
             case "esES":
@@ -296,7 +371,7 @@ public static class LocalizationFileManager
 
     private static void LocalizeFromWIM(ref Dictionary<string, string> localizations, string language)
     {
-        string alcPath = @$"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\WIM\";
+        string alcPath = @$"{Constants.LocalizationPath}\WIM\";
         switch (language)
         {
             case "esES":
@@ -343,7 +418,7 @@ public static class LocalizationFileManager
         {
             localizations = new Dictionary<string, string>();
         }
-        var alcPath = $@"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\AtlasLootClassic\";
+        var alcPath = $@"{Constants.LocalizationPath}\AtlasLootClassic\";
         switch (language)
         {
             case "esES":
@@ -401,28 +476,30 @@ public static class LocalizationFileManager
     {
         var translatedLocalizations = new Dictionary<string, string>();
 
-        string[] itemSources = System.IO.File.ReadAllLines(@$"..\..\..\..\..\..\LoonBestInSlot\Localization\localization.{language}.lua");
+        string[] itemSources = System.IO.File.ReadAllLines(@$"{Constants.AddonPath}\Localization\localization.{language}.lua");
         var lineCount = 0;
         foreach (var line in itemSources)
         {
-            if (lineCount == 0 || line.StartsWith("--") || line == "end")
+            if (line == null || lineCount == 0 || line.StartsWith("--") || line == "end")
             {
                 lineCount++;
                 continue;
             }
             var localizedString = string.Empty;
 
-            var indexes = line.AllIndexesOf("LBIS.L[");
+            var localSplit = line.Split('=');
+
+            var indexes = localSplit[0].AllIndexesOf("LBIS.L[");
 
             var position = indexes[0] + 8;
-            while (position <= line.Length && line[position] != ']')
+            while (position <= localSplit[0].Length && localSplit[0][position] != ']')
             {
-                localizedString += line[position];
+                localizedString += localSplit[0][position];
                 position++;
             }
             localizedString = localizedString.Trim('\"');
 
-            translatedLocalizations.Add(localizedString, line);
+            translatedLocalizations.Add(localizedString, localSplit[1].Trim(' ').Trim(';').Trim('"'));
 
             lineCount++;
         }

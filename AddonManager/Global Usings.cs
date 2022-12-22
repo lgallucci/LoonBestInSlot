@@ -9,4 +9,6 @@ public static class Constants
     public static string AddonPath = @$"..\..\..\..\..\..\LoonBestInSlot";
 
     public static string ItemDbPath = @$"..\..\..\..\..\..\AddonManager\ItemDatabase";
+
+    public static string LocalizationPath = @$"..\..\..\..\..\..\AddonManager\LocalizationCreator";
 }

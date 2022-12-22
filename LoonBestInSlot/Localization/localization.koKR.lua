@@ -5,7 +5,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Accessories Quartermaster"] = "보급품 병참장교";
   LBIS.L["Affliction"] = "고통";
   LBIS.L["Ahn'kahet: The Old Kingdom (Heroic)"] = "안카헤트: 고대 왕국 (영웅)";
-  LBIS.L["Ahn'kahet: The Old Kingdom (Normal)"] = "안카헤트: 고대 왕국 (일반)";
   LBIS.L["Alchemy"] = "연금술";
   LBIS.L["All"] = "전체";
   LBIS.L["Alliance Vanguard/Horde Expedition (Revered)"] = "얼라이언스 선봉대/호드 원정대 (매우 우호적)";
@@ -14,6 +13,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Alurmi"] = "알룰미 <시간의 수호자 병참장교>";
   LBIS.L["Amal'thazad"] = "아말타자드";
   LBIS.L["Amanitar"] = "아마니타르";
+  LBIS.L["Ammo"] = "탄약";
   LBIS.L["Anomalus"] = "아노말루스";
   LBIS.L["Anub'arak"] = "아눕아락";
   LBIS.L["Anub'Rekhan"] = "아눕레칸";
@@ -28,9 +28,9 @@ if GetLocale() == "koKR" then
   LBIS.L["Arms"] = "무기";
   LBIS.L["Assassination"] = "암살";
   LBIS.L["Azjol-Nerub (Heroic)"] = "아졸네룹 (영웅)";
-  LBIS.L["Azjol-Nerub (Normal)"] = "아졸네룹 (일반)";
   LBIS.L["Back"] = "등";
   LBIS.L["Badges of Justice"] = "정의의 휘장";
+  LBIS.L["Bag"] = "가방";
   LBIS.L["Balance"] = "조화";
   LBIS.L["Banshee's Revenge"] = "밴시의 복수";
   LBIS.L["Basic Chemistry"] = "기초 반응";
@@ -56,7 +56,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Commander Kolurg"] = "사령관 콜루르그";
   LBIS.L["Commander Stoutbeard"] = "사령관 스타우트비어드";
   LBIS.L["Coren Direbrew"] = "코렌 다이어브루";
---  LBIS.L["Custom"] = "";
+  LBIS.L["Custom"] = "사용자 설정";
   LBIS.L["Cyanigosa"] = "시아니고사";
   LBIS.L["Daily Fishing Quest"] = "낚시 퀘스트 (일일)";
   LBIS.L["Dalaran"] = "달라란";
@@ -74,13 +74,13 @@ if GetLocale() == "koKR" then
   LBIS.L["Dragonblight"] = "용의 안식처";
   LBIS.L["Drak'Tharon Keep"] = "드락타론 성채";
   LBIS.L["Drak'Tharon Keep (Heroic)"] = "드락타론 성채 (영웅)";
-  LBIS.L["Drak'Tharon Keep (Normal)"] = "드락타론 성채 (일반)";
   LBIS.L["Drakkari Colossus"] = "드라카리 거대골렘";
   LBIS.L["Drakos the Interrogator"] = "심문관 드라코스";
   LBIS.L["Drop"] = "드롭";
   LBIS.L["Duchess Mynx"] = "여공작 밍크스 <칠흑의 기사단 병참장교>";
   LBIS.L["Dungeon Token"] = "토큰";
   LBIS.L["Eck the Ferocious"] = "사나운 엑크";
+  LBIS.L["Edit"] = "편집";
   LBIS.L["Elder Nadox"] = "장로 나독스";
   LBIS.L["Elemental"] = "정기";
   LBIS.L["Emalon the Storm Watcher"] = "폭풍 감시자 에말론";
@@ -184,6 +184,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Mage-Lord Urom"] = "마법사 군주 우롬";
   LBIS.L["Maiden of Grief"] = "고뇌의 마녀";
   LBIS.L["Main Hand"] = "주장비";
+  LBIS.L["Main Hand/Off Hand"] = "주장비/보조장비";
   LBIS.L["Mal'Ganis"] = "말가니스";
   LBIS.L["Malygos"] = "말리고스";
   LBIS.L["Mammoths - Storm Peaks"] = "맘모스 - 폭풍우 봉우리";
@@ -202,6 +203,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Naxxramas (25)"] = "낙스라마스 (25인)";
   LBIS.L["Neck"] = "목";
   LBIS.L["Netherstorm"] = "황천의 폭풍";
+--  LBIS.L["New Features"] = "";
+  LBIS.L["None"] = "없음";
   LBIS.L["Noth the Plaguebringer"] = "역병술사 노스";
   LBIS.L["Novos the Summoner"] = "소환사 노보스";
   LBIS.L["Off Hand"] = "보조장비";
@@ -229,6 +232,7 @@ if GetLocale() == "koKR" then
   LBIS.L["PvP Vendor"] = "PvP 상인";
   LBIS.L["Quartermasters"] = "병참장교";
   LBIS.L["Quest"] = "퀘스트";
+  LBIS.L["Quiver"] = "화살통";
   LBIS.L["Ranged/Relic"] = "원거리 장비/유물";
   LBIS.L["Reputation"] = "평판";
   LBIS.L["Restoration"] = "복원/회복";
@@ -246,6 +250,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Shadow"] = "암흑";
   LBIS.L["Shadowmoon Valley"] = "어둠달 골짜기";
   LBIS.L["Shattrath City"] = "샤트라스";
+  LBIS.L["Shirt"] = "속옷";
   LBIS.L["Sholazar Basin"] = "숄라자르 분지";
   LBIS.L["Shoulder"] = "어깨";
 --  LBIS.L["Show Custom"] = "";
@@ -260,6 +265,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Sunfury Researcher"] = "성난태양 연구원";
   LBIS.L["Survival"] = "생존";
   LBIS.L["Svala Sorrowgrave"] = "스발라 소로우그레이브";
+  LBIS.L["Tabard"] = "겉옷";
   LBIS.L["Tailoring"] = "재봉술";
   LBIS.L["Thaddius"] = "타디우스";
   LBIS.L["The Admiral Revealed"] = "총사령관과 결판 내기";
@@ -324,7 +330,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Ulduar (25)"] = "울두아르 (25)";
   LBIS.L["Unholy"] = "부정";
   LBIS.L["Utgarde Keep (Heroic)"] = "우트가드 성채 (영웅)";
-  LBIS.L["Utgarde Keep (Normal)"] = "우트가드 성채 (일반)";
   LBIS.L["Utgarde Pinnacle"] = "우트가드 첨탑";
   LBIS.L["Utgarde Pinnacle (Heroic)"] = "우트가드 첨탑 (영웅)";
   LBIS.L["Utgarde Pinnacle (Normal)"] = "우트가드 첨탑 (일반)";

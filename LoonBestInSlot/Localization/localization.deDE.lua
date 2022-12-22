@@ -5,7 +5,6 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Accessories Quartermaster"] = "";
   LBIS.L["Affliction"] = "Gebrechen";
   LBIS.L["Ahn'kahet: The Old Kingdom (Heroic)"] = "Ahn'kahet: Das Alte Königreich (Heroisch)";
-  LBIS.L["Ahn'kahet: The Old Kingdom (Normal)"] = "Ahn'kahet: Das Alte Königreich (Normal)";
   LBIS.L["Alchemy"] = "Alchemie";
   LBIS.L["All"] = "Alle";
   LBIS.L["Alliance Vanguard/Horde Expedition (Revered)"] = "Vorhut der Allianz/Expedition der Horde (Respektvoll)";
@@ -14,6 +13,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Alurmi"] = "";
 --  LBIS.L["Amal'thazad"] = "";
   LBIS.L["Amanitar"] = "Amanitar";
+  LBIS.L["Ammo"] = "Munition";
   LBIS.L["Anomalus"] = "Anomalus";
   LBIS.L["Anub'arak"] = "Anub'arak";
   LBIS.L["Anub'Rekhan"] = "Anub'Rekhan";
@@ -28,9 +28,9 @@ if GetLocale() == "deDE" then
   LBIS.L["Arms"] = "Waffen";
   LBIS.L["Assassination"] = "Meucheln";
   LBIS.L["Azjol-Nerub (Heroic)"] = "Azjol-Nerub (Heroisch)";
-  LBIS.L["Azjol-Nerub (Normal)"] = "Azjol-Nerub (Normal)";
   LBIS.L["Back"] = "Rücken";
   LBIS.L["Badges of Justice"] = "Abzeichen der Gerechtigkeit";
+  LBIS.L["Bag"] = "Tasche";
   LBIS.L["Balance"] = "Gleichgewicht";
   LBIS.L["Banshee's Revenge"] = "Rache der Banshee";
   LBIS.L["Basic Chemistry"] = "Grundkenntnisse der Chemie";
@@ -56,7 +56,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Commander Kolurg"] = "Kommandant Kolurg";
   LBIS.L["Commander Stoutbeard"] = "Kommandant Starkbart";
   LBIS.L["Coren Direbrew"] = "Coren Düsterbräu";
---  LBIS.L["Custom"] = "";
+  LBIS.L["Custom"] = "Benutzerdefiniert";
   LBIS.L["Cyanigosa"] = "Cyanigosa";
   LBIS.L["Daily Fishing Quest"] = "Tägliche Angelquest";
   LBIS.L["Dalaran"] = "Dalaran";
@@ -74,13 +74,13 @@ if GetLocale() == "deDE" then
   LBIS.L["Dragonblight"] = "Die Drachenöde";
   LBIS.L["Drak'Tharon Keep"] = "Feste Drak'Tharon";
   LBIS.L["Drak'Tharon Keep (Heroic)"] = "Feste Drak'Tharon (Heroisch)";
-  LBIS.L["Drak'Tharon Keep (Normal)"] = "Feste Drak'Tharon (Normal)";
   LBIS.L["Drakkari Colossus"] = "Koloss der Drakkari";
   LBIS.L["Drakos the Interrogator"] = "Drakos der Befrager";
   LBIS.L["Drop"] = "Raid";
 --  LBIS.L["Duchess Mynx"] = "";
   LBIS.L["Dungeon Token"] = "Dungeon-Token";
   LBIS.L["Eck the Ferocious"] = "Der wilde Eck";
+  LBIS.L["Edit"] = "Bearbeiten";
   LBIS.L["Elder Nadox"] = "Urahne Nadox";
   LBIS.L["Elemental"] = "Elementar";
   LBIS.L["Emalon the Storm Watcher"] = "Emalon der Sturmwächter";
@@ -138,7 +138,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Herald Volazj"] = "Herold Volazj";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "Heroische Entscheidung im Auge der Ewigkeit";
   LBIS.L["Holy"] = "Heilig";
---  LBIS.L["Honor Points"] = "";
+  LBIS.L["Honor Points"] = "Ehrenpunkte";
   LBIS.L["Honored"] = "Wohlwollend";
   LBIS.L["Icecrown"] = "Eiskrone";
   LBIS.L["Icecrown Citadel (10)"] = "Die Eiskronenzitadelle (10)";
@@ -171,7 +171,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Lavanthor"] = "Lavanthor";
   LBIS.L["Leatherworking"] = "Lederverarbeitung";
   LBIS.L["Left Click"] = "Linksklick";
---  LBIS.L["Legacy"] = "";
+  LBIS.L["Legacy"] = "Klassisch";
   LBIS.L["Legs"] = "Beine";
   LBIS.L["Ley-Guardian Eregos"] = "Leywächter Eregos";
 --  LBIS.L["Lillehoff"] = "";
@@ -184,6 +184,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Mage-Lord Urom"] = "Magierlord Urom";
   LBIS.L["Maiden of Grief"] = "Maid der Trauer";
   LBIS.L["Main Hand"] = "Waffenhand";
+  LBIS.L["Main Hand/Off Hand"] = "Waffenhand/Schildhand";
   LBIS.L["Mal'Ganis"] = "Mal'Ganis";
   LBIS.L["Malygos"] = "Malygos";
 --  LBIS.L["Mammoths - Storm Peaks"] = "";
@@ -202,6 +203,8 @@ if GetLocale() == "deDE" then
   LBIS.L["Naxxramas (25)"] = "Naxxramas (25)";
   LBIS.L["Neck"] = "Hals";
   LBIS.L["Netherstorm"] = "Nethersturm";
+--  LBIS.L["New Features"] = "";
+  LBIS.L["None"] = "Keine";
   LBIS.L["Noth the Plaguebringer"] = "Noth der Seuchenfürst";
   LBIS.L["Novos the Summoner"] = "Novos der Beschwörer";
   LBIS.L["Off Hand"] = "Schildhand";
@@ -229,6 +232,7 @@ if GetLocale() == "deDE" then
   LBIS.L["PvP Vendor"] = "PvP Händler";
 --  LBIS.L["Quartermasters"] = "";
   LBIS.L["Quest"] = "Quest";
+  LBIS.L["Quiver"] = "Köcher";
   LBIS.L["Ranged/Relic"] = "Distanz/Relikt";
   LBIS.L["Reputation"] = "Ruf";
   LBIS.L["Restoration"] = "Wiederherstellung";
@@ -241,11 +245,12 @@ if GetLocale() == "deDE" then
   LBIS.L["Sapphiron"] = "Saphiron";
   LBIS.L["Sartharion"] = "Sartharion";
 --  LBIS.L["Scribe Saalyn"] = "";
---  LBIS.L["Select"] = "";
+  LBIS.L["Select"] = "Auswählen";
   LBIS.L["Settings"] = "Einstellungen";
   LBIS.L["Shadow"] = "Schatten";
   LBIS.L["Shadowmoon Valley"] = "Schattenmondtal";
   LBIS.L["Shattrath City"] = "Shattrath";
+  LBIS.L["Shirt"] = "Hemd";
   LBIS.L["Sholazar Basin"] = "Das Sholazarbecken";
   LBIS.L["Shoulder"] = "Schulter";
 --  LBIS.L["Show Custom"] = "";
@@ -260,6 +265,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Sunfury Researcher"] = "";
   LBIS.L["Survival"] = "Überleben";
   LBIS.L["Svala Sorrowgrave"] = "Svala Grabesleid";
+  LBIS.L["Tabard"] = "Wappenrock";
   LBIS.L["Tailoring"] = "Schneiderei";
   LBIS.L["Thaddius"] = "Thaddius";
   LBIS.L["The Admiral Revealed"] = "Den Admiral aufgespürt";
@@ -324,7 +330,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Ulduar (25)"] = "Ulduar (25)";
   LBIS.L["Unholy"] = "Unheilig";
   LBIS.L["Utgarde Keep (Heroic)"] = "Burg Utgarde (Heroisch)";
-  LBIS.L["Utgarde Keep (Normal)"] = "Burg Utgarde (Normal)";
   LBIS.L["Utgarde Pinnacle"] = "Turm Utgarde";
   LBIS.L["Utgarde Pinnacle (Heroic)"] = "Turm Utgarde (Heroisch)";
   LBIS.L["Utgarde Pinnacle (Normal)"] = "Turm Utgarde (Normal)";
