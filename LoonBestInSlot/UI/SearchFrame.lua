@@ -7,7 +7,7 @@ local function conductSearch(text, foundFunc)
     local foundItems = {};
     for itemId, entry in pairs(LBISServerSettings.ItemCache) do
         if entry.Name:lower():match(string.gsub(text, " ", '.*'):lower()) then
-            LBIS:GetItemInfo(itemId, function (item)                
+            LBIS:GetItemInfo(itemId, function (item)
                 if item and item.Slot and strfind(item.Slot, LBIS.SearchFrame.Slot) ~= nil then
                     table.insert(foundItems, item)
                 end

@@ -1,4 +1,4 @@
-LBIS.ReCacheDate = time({year=2022, month=12, day=10, hour=22})
+LBIS.ReCacheDate = time({year=2022, month=12, day=22, hour=22})
 
 function LBIS:PreCacheItems()
     if LBIS.AllItemsCached then return LBIS.AllItemsCached; end
@@ -99,7 +99,7 @@ itemSlots["INVTYPE_TABARD"] = LBIS.L["Tabard"];
 itemSlots["INVTYPE_ROBE"] = LBIS.L["Chest"];
 itemSlots["INVTYPE_WEAPONMAINHAND"] = LBIS.L["Main Hand"];
 itemSlots["INVTYPE_WEAPONOFFHAND"] = LBIS.L["Off Hand"];
-itemSlots["INVTYPE_HOLDABLE"] = LBIS.L["Ranged/Relic"];
+itemSlots["INVTYPE_HOLDABLE"] = LBIS.L["Off Hand"];
 itemSlots["INVTYPE_AMMO"] = LBIS.L["Ammo"];
 itemSlots["INVTYPE_THROWN"] = LBIS.L["Ranged/Relic"];
 itemSlots["INVTYPE_RANGEDRIGHT"] = LBIS.L["Ranged/Relic"];
