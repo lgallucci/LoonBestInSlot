@@ -66,7 +66,7 @@ public static class LocalizationFileManager
                         else if (skipFirst)
                             localizedString += " & ";
 
-                        var parenSplit = localizeTerm.Split("(");
+                        var parenSplit = localizeSlash.Split("(");
                         var mainTerm = parenSplit[0].Trim();
                         if (Int32.TryParse(mainTerm, out int mainResult))
                             localizedString += $" ({mainTerm})";

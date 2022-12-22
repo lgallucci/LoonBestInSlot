@@ -255,17 +255,17 @@ function LBIS:SetTooltipOnButton(b, item, isSpell)
                 GameTooltip:SetSpellByID(b.ItemId);
             end
             GameTooltip:Show();
-            itemIsOnEnter = true;
+            itemIsOnEnter = GameTooltip;
                 
             if IsShiftKeyDown() and itemIsOnEnter then
-                GameTooltip_ShowCompareItem(tooltip)
+                GameTooltip_ShowCompareItem(GameTooltip)
             end
         end
     );
 
     b:SetScript("OnLeave", 
         function(self)
-            itemIsOnEnter = false;
+            itemIsOnEnter = nil;
             GameTooltip:SetOwner(UIParent, "ANCHOR_NONE");
             GameTooltip:Hide();
         end
@@ -273,12 +273,14 @@ function LBIS:SetTooltipOnButton(b, item, isSpell)
 end
 
 function LBIS:RegisterTooltip()
-	LBIS:RegisterEvent("MODIFIER_STATE_CHANGED", function()
-        if IsShiftKeyDown() and itemIsOnEnter then
-            GameTooltip_ShowCompareItem()
-        else
-            ShoppingTooltip1:Hide()
-            ShoppingTooltip2:Hide()
+    LBIS:RegisterEvent("MODIFIER_STATE_CHANGED", function(key, down)
+        if itemIsOnEnter then
+            if IsShiftKeyDown() then
+                GameTooltip_ShowCompareItem(itemIsOnEnter)
+            else
+                ShoppingTooltip1:Hide()
+                ShoppingTooltip2:Hide()
+            end
         end
     end);
 end

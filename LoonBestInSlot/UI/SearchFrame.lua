@@ -206,6 +206,7 @@ local onCloseFunc = function() end
 function LBIS.SearchFrame:HideSearchFrame()
     LBIS.BrowserWindow.Window.ScrollBar:Enable();
     LBIS.BrowserWindow.Window.Container:Show();
+    LBIS.AutoComplete:Clear();
     onCloseFunc();
     LBIS.SearchFrame.Frame:Hide();
 end
