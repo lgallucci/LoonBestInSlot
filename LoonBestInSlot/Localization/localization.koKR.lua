@@ -56,7 +56,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Commander Kolurg"] = "사령관 콜루르그";
   LBIS.L["Commander Stoutbeard"] = "사령관 스타우트비어드";
   LBIS.L["Coren Direbrew"] = "코렌 다이어브루";
-  LBIS.L["Custom"] = "사용자 설정";
+  LBIS.L["Custom"] = "커스텀";
   LBIS.L["Cyanigosa"] = "시아니고사";
   LBIS.L["Daily Fishing Quest"] = "낚시 퀘스트 (일일)";
   LBIS.L["Dalaran"] = "달라란";
@@ -99,7 +99,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Fire"] = "화염";
   LBIS.L["Fishing"] = "낚시";
   LBIS.L["For Posterity"] = "후손을 위하여";
-  LBIS.L["Frenzyheart Tribe"] = "광란심장 일족";
+  LBIS.L["Frenzyheart Tribe"] = "광란의심장일족";
   LBIS.L["Frost"] = "냉기";
   LBIS.L["Fury"] = "분노";
   LBIS.L["Gal'darah"] = "갈다라";
@@ -123,7 +123,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Gundrak (Heroic)"] = "군드락 (영웅)";
   LBIS.L["Gundrak (Normal)"] = "군드락 (일반)";
   LBIS.L["Hadronox"] = "하드로녹스";
---  LBIS.L["Hallow's End"] = "";
+  LBIS.L["Hallow's End"] = "할로윈 축제";
   LBIS.L["Halls of Lightning (Heroic)"] = "번개의 전당 (영웅)";
   LBIS.L["Halls of Lightning (Normal)"] = "번개의 전당 (일반)";
   LBIS.L["Halls of Stone"] = "돌의 전당";
@@ -136,7 +136,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Headless Horseman"] = "저주받은 기사";
   LBIS.L["Heigan the Unclean"] = "부정의 헤이건";
   LBIS.L["Herald Volazj"] = "사자 볼라즈";
-  LBIS.L["Heroic Judgment at the Eye of Eternity"] = "영원의 눈에서의 영웅적 심판";
+  LBIS.L["Heroic Judgment at the Eye of Eternity"] = "영원의 눈에서의 영웅적 심판 (25)";
   LBIS.L["Holy"] = "신성";
   LBIS.L["Honor Points"] = "명예 점수";
   LBIS.L["Honored"] = "우호적";
@@ -153,7 +153,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Items"] = "아이템";
   LBIS.L["Jedoga Shadowseeker"] = "어둠추적자 제도가";
   LBIS.L["Jewelcrafting"] = "보석세공";
---  LBIS.L["Judgement at the Eye of Eternity"] = "";
+  LBIS.L["Judgement at the Eye of Eternity"] = "영원의 눈에서의 심판 (10)";
   LBIS.L["Karazhan"] = "카라잔";
   LBIS.L["Keepers of Time (Exalted)"] = "시간의 수호자 (확고한 동맹)";
   LBIS.L["Kel'Thuzad"] = "켈투자드";
@@ -227,13 +227,13 @@ if GetLocale() == "koKR" then
   LBIS.L["Prince Taldaram"] = "공작 탈다람";
   LBIS.L["Profession"] = "전문 기술";
   LBIS.L["Protection"] = "방어/보호";
-  LBIS.L["Purkom (Venture Cove)"] = "푸르콤 <투자개발회사 주화 교환원>";
+  LBIS.L["Purkom (Venture Cove)"] = "<투자개발 만> 얼라-\"회색머리\" 아담스, 호드-푸르콤";
   LBIS.L["PvP"] = "PvP";
   LBIS.L["PvP Vendor"] = "PvP 상인";
   LBIS.L["Quartermasters"] = "병참장교";
   LBIS.L["Quest"] = "퀘스트";
   LBIS.L["Quiver"] = "화살통";
-  LBIS.L["Ranged/Relic"] = "원거리 장비/유물";
+  LBIS.L["Ranged/Relic"] = "원거리 장비/성물";
   LBIS.L["Reputation"] = "평판";
   LBIS.L["Restoration"] = "복원/회복";
   LBIS.L["Retribution"] = "징벌";
@@ -253,7 +253,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Shirt"] = "속옷";
   LBIS.L["Sholazar Basin"] = "숄라자르 분지";
   LBIS.L["Shoulder"] = "어깨";
---  LBIS.L["Show Custom"] = "";
+  LBIS.L["Show Custom"] = "커스텀 보이기";
   LBIS.L["Show Minimap Button"] = "미니맵 버튼 보이기";
   LBIS.L["Show Tooltip"] = "직업 툴팁 표시";
   LBIS.L["Sjonnir The Ironshaper"] = "무쇠구체자 쇼니르";
