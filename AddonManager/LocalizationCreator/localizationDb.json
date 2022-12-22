@@ -2093,7 +2093,8 @@
       "# Gear best for:": "# 장비 BIS 직업:",
       "|cFF9CD6DELeft-Click|r: Open Browser Window": "마우스 왼쪽 클릭으로 창 열기",
       "Honor": "명예",
-      "Show Tooltip:": "직업 툴팁 표시"
+      "Show Tooltip:": "직업 툴팁 표시",
+      "Show Minimap Button:": "미니맵 버튼 보이기"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
