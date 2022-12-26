@@ -1,6 +1,4 @@
 ﻿using System.IO;
-using System.Windows.Shapes;
-using AddonManager.Models;
 using Newtonsoft.Json;
 
 namespace AddonManager.FileManagers;

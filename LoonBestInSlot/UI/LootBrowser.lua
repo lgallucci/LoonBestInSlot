@@ -162,7 +162,7 @@ local function createTabs(window, content)
     local itemListTabString = itemListTabButton:CreateFontString("ItemListTabText", "OVERLAY", "GameFontNormalSmall");
     itemListTabString:SetPoint("CENTER", itemListTabButton, "CENTER", 0, 3);
     itemListTabString:SetText(LBIS.L["Items"]);
-    itemListTabButton:SetPoint("CENTER", window, "BOTTOMLEFT", 60, -15);
+    itemListTabButton:SetPoint("CENTER", window, "BOTTOMLEFT", 60, -13);
     itemListTabButton:SetScript("OnClick", function(self)
         PanelTemplates_SetTab(content, 1);
         open_tab = "ItemList";
@@ -203,7 +203,6 @@ local function createTabs(window, content)
     customListTabButton:SetScript("OnClick", function(self)
         PanelTemplates_SetTab(content, 4);
         open_tab = "CustomItemList";
-    
 
         LBIS.BrowserWindow:RefreshItems();
     end);
@@ -336,7 +335,20 @@ end
 function LBIS.BrowserWindow:CreateBrowserWindow()
     local step = 25;
     local windowName = "LootBrowserWindow";
-    local window = CreateFrame("Frame", windowName, UIParent, "InsetFrameTemplate");
+    local window = CreateFrame("Frame", windowName, UIParent, "BackdropTemplate");
+
+    window:SetBackdrop({
+        bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
+        edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+        tile = 1,
+        tileSize = 10,
+        edgeSize = 10,
+        insets = { left = 3, right = 3, top = 3, bottom = 3 },
+    });
+
+    window:SetBackdropBorderColor(1, 1, 1)
+    window:SetBackdropColor(0.09, 0.09,  0.19);
+
     local windowCloseButton = CreateFrame("Button", windowName.."CloseButton", window)
     windowCloseButton:SetPoint("TOPRIGHT", window, "TOPRIGHT", 0, 0)
     windowCloseButton:SetSize(32, 32);
@@ -394,7 +406,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
 
     local topLine = window:CreateLine();
     topLine:SetColorTexture(1,1,1,0.5);
-    topLine:SetThickness(1);
+    topLine:SetThickness(2);
     topLine:SetStartPoint("TOPLEFT",10, -59);
     topLine:SetEndPoint("TOPRIGHT",-25, -59);
 

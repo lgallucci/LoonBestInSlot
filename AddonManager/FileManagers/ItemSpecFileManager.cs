@@ -1,5 +1,4 @@
 ﻿using AddonManager.Models;
-using System.Linq;
 
 namespace AddonManager.FileManagers;
 

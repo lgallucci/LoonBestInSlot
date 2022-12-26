@@ -1,7 +1,4 @@
-﻿using System.Xml.Linq;
-using AngleSharp.Dom;
-
-namespace AddonManager.Models;
+﻿namespace AddonManager.Models;
 public class DatabaseItems
 {
     public SortedDictionary<int, DatabaseItem> Items { get; set; } = new SortedDictionary<int, DatabaseItem>();

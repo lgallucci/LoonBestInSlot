@@ -1,8 +1,4 @@
-﻿using System.Reflection.Metadata;
-using System.Threading;
-using System.Xml.Linq;
-using AddonManager.Models;
-using AngleSharp.Dom;
+﻿using AddonManager.Models;
 
 namespace AddonManager.FileManagers;
 

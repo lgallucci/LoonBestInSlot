@@ -1,6 +1,4 @@
-﻿using System.Runtime.Intrinsics.X86;
-
-namespace AddonManager.Models;
+﻿namespace AddonManager.Models;
 
 public class ItemSpec : IComparable<ItemSpec>
 {

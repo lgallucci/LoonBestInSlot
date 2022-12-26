@@ -1,15 +1,11 @@
-﻿using System.IO;
-using Newtonsoft.Json;
-using AngleSharp.Html.Dom;
-using System.Xml.Linq;
-using AngleSharp.Html.Parser;
-using System.Security.Principal;
-using System.Transactions;
-using CsvHelper;
-using System.Globalization;
-using CsvHelper.Configuration.Attributes;
+﻿using System.Globalization;
+using System.IO;
 using AngleSharp.Dom;
-using System.Windows.Documents;
+using AngleSharp.Html.Dom;
+using AngleSharp.Html.Parser;
+using CsvHelper;
+using CsvHelper.Configuration.Attributes;
+using Newtonsoft.Json;
 
 namespace AddonManager.Models;
 public abstract class LootImporter
