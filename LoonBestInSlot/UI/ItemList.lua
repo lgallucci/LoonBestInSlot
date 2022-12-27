@@ -111,19 +111,6 @@ local function IsInSlot(specItem)
     return false;
 end
 
-local function FindInPhase(phaseText, phase)
-
-    local phaseNumber = tonumber(phase);
-
-    local firstNumber, lastNumber = LBIS:GetPhaseNumbers(phaseText);
-
-    if firstNumber == nil then
-        return false;
-    end
-
-    return tonumber(firstNumber) <= phaseNumber and tonumber(lastNumber) >= phaseNumber;               
-end
-
 local function IsInPhase(specItem, specItemSource)
     if specItemSource.SourceType == LBIS.L["Token"] then
         return false;
@@ -131,17 +118,17 @@ local function IsInPhase(specItem, specItemSource)
         return false;
     elseif LBISSettings.SelectedPhase == LBIS.L["All"] and specItem.Phase ~= "0" then
         return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["PreRaid"] and FindInPhase(specItem.Phase, "0") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["PreRaid"] and LBIS.FindInPhase(specItem.Phase, "0") then
         return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 1"] and FindInPhase(specItem.Phase, "1") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 1"] and LBIS.FindInPhase(specItem.Phase, "1") then
         return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 2"] and FindInPhase(specItem.Phase, "2") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 2"] and LBIS.FindInPhase(specItem.Phase, "2") then
         return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 3"] and FindInPhase(specItem.Phase, "3") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 3"] and LBIS.FindInPhase(specItem.Phase, "3") then
         return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 4"] and FindInPhase(specItem.Phase, "4") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 4"] and LBIS.FindInPhase(specItem.Phase, "4") then
         return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 5"] and FindInPhase(specItem.Phase, "5") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 5"] and LBIS.FindInPhase(specItem.Phase, "5") then
         return true;
     elseif LBISSettings.SelectedPhase == LBIS.L["BIS"] and strfind(specItem.Bis, "BIS") ~= nil then
         return true;

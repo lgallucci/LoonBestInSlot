@@ -25,7 +25,7 @@ public sealed partial class GuideImporter : Page
                                 "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAffliction", "WarlockDemonology", "WarlockDestruction", "WarriorArms",
                                 "WarriorFury", "WarriorProtection"};
 
-    public string[] PhaseList = { "GemsEnchants", "Phase0", "Phase1" };
+    public string[] PhaseList = { "GemsEnchants", "Phase0", "Phase1" };//, "Phase2", "Phase3", "Phase4" };
 
     public GuideImporter()
     {
@@ -277,7 +277,7 @@ public sealed partial class GuideImporter : Page
                     "Trial of the Crusader (10)", "Trial of the Crusader (25)", "Trial of the Grand Crusader (10)", "Trial of the Grand Crusader (25)",
                     "Onyxia (10)", "Onyxia (25)", "Icecrown Citadel (10)", "Icecrown Citadel (25)", "Icecrown Citadel (Heroic 10)", "Icecrown Citadel (Heroic 25)" };
                 break;
-            default:
+            case 5:
                 vaultBoss = "Toravon the Ice Watcher";
                 phaseRaids = new List<string> { "Naxxramas (10)", "Naxxramas (25)", "Vault of Archavon (10)", "Vault of Archavon (25)", "The Obsidian Sanctum (10)",
                     "The Obsidian Sanctum (25)", "The Eye of Eternity (10)", "The Eye of Eternity (25)", "Ulduar (10)", "Ulduar (25)",
@@ -285,6 +285,8 @@ public sealed partial class GuideImporter : Page
                     "Onyxia (10)", "Onyxia (25)", "Icecrown Citadel (10)", "Icecrown Citadel (25)", "Icecrown Citadel (Heroic 10)", "Icecrown Citadel (Heroic 25)",
                     "Ruby Sanctum (10)", "Ruby Sanctum (25)", "Ruby Sanctum (Heroic 10)", "Ruby Sanctum (Heroic 25)"};
                 break;
+            default:
+                throw new ParseException(@$"Invalid Phase {phase}");
         }
 
         return phaseRaids.Contains(raidName) && (raidName.Contains("Vault of Archavon") ? bossName.Contains(vaultBoss) : true);

@@ -11,15 +11,35 @@ local function isInEnabledPhase(phaseText)
 	local showTooltip = false;
 	
 	if LBISSettings.PhaseTooltip[LBIS.L["PreRaid"]] == true then
-		if strfind(phaseText, "0") ~= nil then
+		if LBIS.FindInPhase(phaseText, "0") ~= nil then
 			showTooltip = true;
 		end
 	end
 	if LBISSettings.PhaseTooltip[LBIS.L["Phase 1"]] == true then
-		if strfind(phaseText, "1") ~= nil then
+		if LBIS.FindInPhase(phaseText, "1") ~= nil then
 			showTooltip = true;
 		end
 	end
+	-- if LBISSettings.PhaseTooltip[LBIS.L["Phase 2"]] == true then
+	-- 	if LBIS.FindInPhase(phaseText, "2") ~= nil then
+	-- 		showTooltip = true;
+	-- 	end
+	-- end
+	-- if LBISSettings.PhaseTooltip[LBIS.L["Phase 3"]] == true then
+	-- 	if LBIS.FindInPhase(phaseText, "3") ~= nil then
+	-- 		showTooltip = true;
+	-- 	end
+	-- end
+	-- if LBISSettings.PhaseTooltip[LBIS.L["Phase 4"]] == true then
+	-- 	if LBIS.FindInPhase(phaseText, "4") ~= nil then
+	-- 		showTooltip = true;
+	-- 	end
+	-- end
+	-- if LBISSettings.PhaseTooltip[LBIS.L["Phase 5"]] == true then
+	-- 	if LBIS.FindInPhase(phaseText, "5") ~= nil then
+	-- 		showTooltip = true;
+	-- 	end
+	-- end
 	
 	return showTooltip;
 end

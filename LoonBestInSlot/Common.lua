@@ -69,6 +69,19 @@ function LBIS:GetPhaseNumbers(phaseText)
     return firstNumber, lastNumber;
 end
 
+function LBIS:FindInPhase(phaseText, phase)
+
+    local phaseNumber = tonumber(phase);
+
+    local firstNumber, lastNumber = LBIS:GetPhaseNumbers(phaseText);
+
+    if firstNumber == nil then
+        return false;
+    end
+
+    return tonumber(firstNumber) <= phaseNumber and tonumber(lastNumber) >= phaseNumber;               
+end
+
 function LBIS:TableLength(T)
   local count = 0
   for _ in pairs(T) do count = count + 1 end
