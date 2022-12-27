@@ -117,7 +117,7 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 
 	if searchedItem == nil then
 
-		searchedItem = { Id = itemId, Bis = bis, Phase = bisEntry.Phase, PhaseList = bisEntry.Phase, Slot = slot }
+		searchedItem = { Id = itemId, Bis = bis, Phase = bisEntry.Phase, Slot = slot }
 		
 		if not LBIS.SpecItems[bisEntry.Id] then
 			LBIS.SpecItems[bisEntry.Id] = {}
@@ -135,8 +135,6 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 		else
 			searchedItem.Phase = bisEntry.Phase;
 		end
-
-		searchedItem.PhaseList = searchedItem.PhaseList..","..bisEntry.Phase;
 	end
 
 	LBIS.SpecItems[bisEntry.Id][itemId] = searchedItem;
@@ -176,7 +174,7 @@ function LBIS:AddGem(bisEntry, id, quality, isMeta)
 
 	if searchedItem == nil then
 
-		searchedItem = { Id = gemId, Phase = "", Quality = quality, IsMeta = isMeta, Bis = "", PhaseList = "0,1,2,3,4" }
+		searchedItem = { Id = gemId, Phase = "", Quality = quality, IsMeta = isMeta, Bis = "" }
 
 		if not LBIS.SpecGems[bisEntry.Id] then
 			LBIS.SpecGems[bisEntry.Id] = {}
@@ -213,12 +211,12 @@ function LBIS:AddEnchant(bisEntry, id, slot)
 	if not LBIS.SpecEnchants[bisEntry.Id] then
 		LBIS.SpecEnchants[bisEntry.Id] = {}
 	end
-		
+
 	local enchantSource = LBIS.EnchantSources[enchantId];
 	local designId = tonumber(enchantSource.DesignId);
 	local scrollId = tonumber(enchantSource.ScrollId);
 
-	local item = { Id = enchantId, Slot = slot, Phase = "", Bis = "", PhaseList = "0,1,2,3,4" };
+	local item = { Id = enchantId, Slot = slot, Phase = "", Bis = "" };
 
 	if enchantSource.IsSpell == "False" then
 	
@@ -226,7 +224,7 @@ function LBIS:AddEnchant(bisEntry, id, slot)
 			LBIS.Items[enchantId] = {}
 		end
 
-		LBIS.Items[enchantId][bisEntry.Id] = { Id = enchantId, Slot = slot, Phase = "", Bis = "", PhaseList = "0,1,2,3,4" }		
+		LBIS.Items[enchantId][bisEntry.Id] = { Id = enchantId, Slot = slot, Phase = "", Bis = "" }		
 	else
 		if not LBIS.Spells[enchantId] then
 			LBIS.Spells[enchantId] = {}

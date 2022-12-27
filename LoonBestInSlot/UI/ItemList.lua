@@ -118,17 +118,17 @@ local function IsInPhase(specItem, specItemSource)
         return false;
     elseif LBISSettings.SelectedPhase == LBIS.L["All"] and specItem.Phase ~= "0" then
         return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["PreRaid"] and LBIS.FindInPhase(specItem.Phase, "0") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["PreRaid"] and LBIS:FindInPhase(specItem.Phase, "0") then
         return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 1"] and LBIS.FindInPhase(specItem.Phase, "1") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 1"] and LBIS:FindInPhase(specItem.Phase, "1") then
         return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 2"] and LBIS.FindInPhase(specItem.Phase, "2") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 2"] and LBIS:FindInPhase(specItem.Phase, "2") then
         return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 3"] and LBIS.FindInPhase(specItem.Phase, "3") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 3"] and LBIS:FindInPhase(specItem.Phase, "3") then
         return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 4"] and LBIS.FindInPhase(specItem.Phase, "4") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 4"] and LBIS:FindInPhase(specItem.Phase, "4") then
         return true;
-    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 5"] and LBIS.FindInPhase(specItem.Phase, "5") then
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 5"] and LBIS:FindInPhase(specItem.Phase, "5") then
         return true;
     elseif LBISSettings.SelectedPhase == LBIS.L["BIS"] and strfind(specItem.Bis, "BIS") ~= nil then
         return true;
