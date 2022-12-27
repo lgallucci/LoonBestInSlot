@@ -91,14 +91,14 @@ local function buildTooltip(tooltip, combinedTooltip)
 	end
 end
 
-local function CheckRecipe(tt, classID)
-	if classID == Enum.ItemClass.Recipe then
-		tt.isFirstMoneyLine = not tt.isFirstMoneyLine
-		return tt.isFirstMoneyLine
-	end
-end
-
+local tooltip_modified = {}
 local function onTooltipSetItem(tooltip, ...)
+
+	if tooltip_modified[tooltip:GetName()] then
+		-- this happens twice, because of how recipes work
+		return
+	end
+	tooltip_modified[tooltip:GetName()] = true
 
 	local _, itemLink = tooltip:GetItem()
     if not itemLink then return end
@@ -108,10 +108,6 @@ local function onTooltipSetItem(tooltip, ...)
 	LBIS:GetItemInfo(itemId, function(item)
 		local combinedTooltip = {};
 		local foundCustom = {};
-
-		if CheckRecipe(tooltip, item.Class) then
-			return;
-		end
 
 		if LBIS.CustomEditList.Items[itemId] then
 			foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[itemId], combinedTooltip)
@@ -123,6 +119,10 @@ local function onTooltipSetItem(tooltip, ...)
 
 		buildTooltip(tooltip, combinedTooltip);
 	end)
+end
+
+local function onTooltipCleared(tooltip)
+    tooltip_modified[tooltip:GetName()] = nil
 end
 
 local function onTooltipSetSpell(tooltip, ...)
@@ -169,6 +169,7 @@ local function registerTooltip(tooltip)
 
 	hookScript(tooltip, "OnTooltipSetItem", onTooltipSetItem);
 	hookScript(tooltip, "OnTooltipSetSpell", onTooltipSetSpell);
+	hookScript(tooltip, "OnTooltipCleared", onTooltipCleared);
 
 end
 
