@@ -949,7 +949,6 @@ public class ClassSpecGuideMappings
             new GuideMapping("h2#best-gems+.box~.box", "Gem"),
             new GuideMapping("h2#best-gems+.box~.box~.box", "Gem"),
             new GuideMapping("h2#best-gems+.box~.box~.box~.box", "Gem"),
-            new GuideMapping("h2#best-gems+.box~.box~.box~.box~.box", "Gem"),
 
             new GuideMapping("h2#best-enchants~.box", "Head"),
             new GuideMapping("h2#best-enchants~.box~.box", "Shoulder"),

@@ -93,5 +93,7 @@ LBIS.GemSources =
     [42157] = { Name = "Thick Dragon's Eye", DesignId = "42315", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
     [42702] = { Name = "Enchanted Tear", DesignId = "0", Source = LBIS.L["Master Jewelcrafting Trainer"], SourceLocation = "" },
     [45880] = { Name = "Solid Stormjewel", DesignId = "0", Source = LBIS.L["Daily Fishing Quest"], SourceLocation = "" },
+    [45882] = { Name = "Brilliant Stormjewel", DesignId = "0", Source = LBIS.L["Daily Fishing Quest"], SourceLocation = "" },
+    [45883] = { Name = "Runed Stormjewel", DesignId = "0", Source = LBIS.L["Daily Fishing Quest"], SourceLocation = "" },
     [49110] = { Name = "Nightmare Tear", DesignId = "49112", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
 }

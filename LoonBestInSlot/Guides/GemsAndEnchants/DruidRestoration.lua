@@ -25,8 +25,9 @@ LBIS:AddEnchant(spec1, "44592", LBIS.L["Hands"]) --Enchant Gloves - Exceptional 
 
 LBIS:AddEnchant(spec1, "41602", LBIS.L["Legs"]) --Brilliant Spellthread
 
-LBIS:AddEnchant(spec1, "44508", LBIS.L["Feet"]) --Enchant Boots - Greater Spirit
+LBIS:AddEnchant(spec1, "55016", LBIS.L["Feet"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
+LBIS:AddEnchant(spec1, "44508", LBIS.L["Feet"]) --Enchant Boots - Greater Spirit
 
 LBIS:AddEnchant(spec1, "60714", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Spellpower
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Main Hand"]) --Enchant Staff - Greater Spellpower

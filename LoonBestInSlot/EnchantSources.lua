@@ -70,6 +70,7 @@ LBIS.EnchantSources =
     [54446] = { Name = "Rune of Swordbreaking", DesignId = "0", ScrollId = "0", Source = LBIS.L["Amal'thazad"], SourceLocation = "", IsSpell = "True" },
     [54793] = { Name = "Frag Belt", DesignId = "0", ScrollId = "0", Source = LBIS.L["Grand Master Engineering Trainer"], SourceLocation = "", IsSpell = "True" },
     [54861] = { Name = "Nitro Boosts", DesignId = "41118", ScrollId = "0", Source = LBIS.L["Grand Master Engineering Trainer"], SourceLocation = "", IsSpell = "True" },
+    [54998] = { Name = "Hand-Mounted Pyro Rocket", DesignId = "41091", ScrollId = "0", Source = LBIS.L["Grand Master Engineering Trainer"], SourceLocation = "", IsSpell = "True" },
     [54999] = { Name = "Hyperspeed Accelerators", DesignId = "41093", ScrollId = "0", Source = LBIS.L["Grand Master Engineering Trainer"], SourceLocation = "", IsSpell = "True" },
     [55002] = { Name = "Flexweave Underlay", DesignId = "41111", ScrollId = "0", Source = LBIS.L["Grand Master Engineering Trainer"], SourceLocation = "", IsSpell = "True" },
     [55016] = { Name = "Nitro Boosts", DesignId = "41118", ScrollId = "0", Source = LBIS.L["Grand Master Engineering Trainer"], SourceLocation = "", IsSpell = "True" },
