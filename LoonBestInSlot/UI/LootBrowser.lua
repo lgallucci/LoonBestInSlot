@@ -233,7 +233,7 @@ local function createDropDowns(window)
                 specString = spec.Spec.." "..specString;
             end
             table.insert(specList, specString)
-            LBIS.SpecToName[specString] = specId;
+            LBIS.NameToSpecId[specString] = specId;
         end
         table.sort(specList);
         return specList;

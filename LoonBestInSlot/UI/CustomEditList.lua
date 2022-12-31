@@ -54,7 +54,7 @@ local function assignItemsToFrame(f, itemList)
                 LBIS.CustomEditList.Items[itemId] = {};
             end
 
-            LBIS.CustomEditList.Items[itemId][LBIS.SpecToName[LBISSettings.SelectedSpec]] = itemCount;
+            LBIS.CustomEditList.Items[itemId][LBIS.NameToSpecId[LBISSettings.SelectedSpec]] = itemCount;
             
             itemCount = itemCount + 1;
         end
@@ -147,17 +147,16 @@ function LBIS.CustomEditList:UpdateItems()
 
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)        
 
-        local selectedSpec = LBIS.SpecToName[LBISSettings.SelectedSpec];
+        local selectedSpec = LBIS.NameToSpecId[LBISSettings.SelectedSpec];
 
         if selectedSpec == nil then
             return;
         end
-
         local savedCustomList = LBISServerSettings.CustomList[selectedSpec];
 
         if savedCustomList == nil then
-            LBISServerSettings.CustomList[selectedSpec] = defaultCustomList;
-            savedCustomList = defaultCustomList;
+            savedCustomList = LBIS:DeepCopy(defaultCustomList)
+            LBISServerSettings.CustomList[selectedSpec] = savedCustomList;
         end
 
         for slot, itemList in LBIS:spairs(savedCustomList, itemSortFunction) do

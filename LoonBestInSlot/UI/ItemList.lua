@@ -320,7 +320,7 @@ function LBIS.ItemList:UpdateItems()
 
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
         
-        local specItems = LBIS.SpecItems[LBIS.SpecToName[LBISSettings.SelectedSpec]];
+        local specItems = LBIS.ItemsBySpecAndId[LBIS.NameToSpecId[LBISSettings.SelectedSpec]];
         
         if specItems == nil then
             LBIS.BrowserWindow.Window.ShowUnavailable();

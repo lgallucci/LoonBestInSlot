@@ -532,23 +532,12 @@ local lbis_options = {
 -- This function will make sure your saved table contains all the same
 -- keys as your table, and that each key's value is of the same type
 -- as the value of the same key in the default table.
-local function CopyDefaults(src, dst)
-	if type(src) ~= "table" then return {} end
-	if type(dst) ~= "table" then dst = {} end
-	for k, v in pairs(src) do
-		if type(v) == "table" then
-			dst[k] = CopyDefaults(v, dst[k])
-		elseif type(v) ~= type(dst[k]) then
-			dst[k] = v
-		end
-	end
-	return dst
-end
+
 
 function LBIS:CreateSettings()
 
-	LBISSettings = CopyDefaults(LBISSettingsDefault, LBISSettings);
-	LBISServerSettings = CopyDefaults(LBISServerSettingsDefault, LBISServerSettings);
+	LBISSettings = LBIS:DeepCopy(LBISSettingsDefault, LBISSettings);
+	LBISServerSettings = LBIS:DeepCopy(LBISServerSettingsDefault, LBISServerSettings);
 
 	LibStub("AceConfig-3.0"):RegisterOptionsTable("Loon Best In Slot", lbis_options, nil)
 	LibStub("AceConfigDialog-3.0"):AddToBlizOptions("Loon Best In Slot"):SetParent(InterfaceOptionsFramePanelContainer)

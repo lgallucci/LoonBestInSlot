@@ -298,7 +298,7 @@ function LBIS.CustomItemList:UpdateItems()
 
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)        
 
-        local selectedSpec = LBIS.SpecToName[LBISSettings.SelectedSpec];
+        local selectedSpec = LBIS.NameToSpecId[LBISSettings.SelectedSpec];
 
         if selectedSpec == nil then
             return;

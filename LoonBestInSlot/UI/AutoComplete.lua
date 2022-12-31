@@ -189,8 +189,6 @@ function LBIS.AutoComplete:HandleKeyDown(key)
       if action ~= nil then
         action()
       end
-    
-      --LBIS.SearchFrame.Frame.SearchBox:SetPropagateKeyboardInput(action == nil)
 end
 
 function LBIS.AutoComplete:Create(frame, selectFunc) 

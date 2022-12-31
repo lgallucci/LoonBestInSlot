@@ -130,8 +130,8 @@ local function createItemRow(f, specEnchant, specEnchantSource)
     end
     return (46 + (count * 10));
 end
-    
-function LBIS.EnchantList:UpdateItems()    
+
+function LBIS.EnchantList:UpdateItems()
 
     LBIS.BrowserWindow.Window.SlotDropDown:Show();
     LBIS.BrowserWindow.Window.PhaseDropDown:Hide();
@@ -141,7 +141,7 @@ function LBIS.EnchantList:UpdateItems()
 
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
 
-        local specEnchants = LBIS.SpecEnchants[LBIS.SpecToName[LBISSettings.SelectedSpec]];
+        local specEnchants = LBIS.EnchantsBySpecAndId[LBIS.NameToSpecId[LBISSettings.SelectedSpec]];
                 
         if specEnchants == nil then
             LBIS.BrowserWindow.Window.ShowUnavailable();

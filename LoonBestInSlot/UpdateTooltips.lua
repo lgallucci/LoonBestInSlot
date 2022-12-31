@@ -137,8 +137,8 @@ local function onTooltipSetItem(tooltip, ...)
 			foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[itemId], combinedTooltip)
 		end
 
-		if LBIS.Items[itemId] then
-			buildCombinedTooltip(LBIS.Items[itemId], combinedTooltip, foundCustom)
+		if LBIS.ItemsByIdAndSpec[itemId] then
+			buildCombinedTooltip(LBIS.ItemsByIdAndSpec[itemId], combinedTooltip, foundCustom)
 		end
 
 		buildTooltip(tooltip, combinedTooltip);
@@ -156,8 +156,8 @@ local function onTooltipSetSpell(tooltip, ...)
 
 	local combinedTooltip = {};
 
-	if LBIS.Spells[spellId] then
-		buildCombinedTooltip(LBIS.Spells[spellId], combinedTooltip, {})
+	if LBIS.SpellsByIdAndSpec[spellId] then
+		buildCombinedTooltip(LBIS.SpellsByIdAndSpec[spellId], combinedTooltip, {})
 	end
 
 	buildTooltip(tooltip, combinedTooltip);
