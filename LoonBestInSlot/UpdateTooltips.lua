@@ -24,11 +24,11 @@ local function isInEnabledPhase(phaseText)
 			return true;
 		end
 	end
-	-- if LBISSettings.PhaseTooltip[LBIS.L["Phase 2"]] == true then
-	-- 	if LBIS:FindInPhase(phaseText, "2") ~= nil then
-	--		return true;
-	-- 	end
-	-- end
+	 if LBISSettings.PhaseTooltip[LBIS.L["Phase 2"]] == true then
+	 	if LBIS:FindInPhase(phaseText, "2") ~= nil then
+			return true;
+	 	end
+	 end
 	-- if LBISSettings.PhaseTooltip[LBIS.L["Phase 3"]] == true then
 	-- 	if LBIS:FindInPhase(phaseText, "3") ~= nil then
 	--		return true;

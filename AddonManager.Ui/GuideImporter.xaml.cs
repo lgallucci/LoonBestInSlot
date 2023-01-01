@@ -25,7 +25,7 @@ public sealed partial class GuideImporter : Page
                                 "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAffliction", "WarlockDemonology", "WarlockDestruction", "WarriorArms",
                                 "WarriorFury", "WarriorProtection"};
 
-    public string[] PhaseList = { "GemsEnchants", "Phase0", "Phase1" };//, "Phase2", "Phase3", "Phase4" };
+    public string[] PhaseList = { "GemsEnchants", "Phase0", "Phase1", "Phase2" };//, "Phase3", "Phase4" };
 
     public GuideImporter()
     {

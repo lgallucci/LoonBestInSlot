@@ -264,6 +264,41 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibUIDropDownMenu", "LibUID
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddonManager.Ui", "AddonManager.Ui\AddonManager.Ui.csproj", "{7449193D-84F6-418F-8E56-7C0C4D8B725C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phase2", "Phase2", "{915F07F4-83D9-4CF0-B03C-1DFBBD583A04}"
+	ProjectSection(SolutionItems) = preProject
+		LoonBestInSlot\Guides\Phase2\DeathKnightBlood.lua = LoonBestInSlot\Guides\Phase2\DeathKnightBlood.lua
+		LoonBestInSlot\Guides\Phase2\DeathKnightFrost.lua = LoonBestInSlot\Guides\Phase2\DeathKnightFrost.lua
+		LoonBestInSlot\Guides\Phase2\DeathKnightUnholy.lua = LoonBestInSlot\Guides\Phase2\DeathKnightUnholy.lua
+		LoonBestInSlot\Guides\Phase2\DruidBalance.lua = LoonBestInSlot\Guides\Phase2\DruidBalance.lua
+		LoonBestInSlot\Guides\Phase2\DruidBear.lua = LoonBestInSlot\Guides\Phase2\DruidBear.lua
+		LoonBestInSlot\Guides\Phase2\DruidCat.lua = LoonBestInSlot\Guides\Phase2\DruidCat.lua
+		LoonBestInSlot\Guides\Phase2\DruidRestoration.lua = LoonBestInSlot\Guides\Phase2\DruidRestoration.lua
+		LoonBestInSlot\Guides\Phase2\HunterBeastMastery.lua = LoonBestInSlot\Guides\Phase2\HunterBeastMastery.lua
+		LoonBestInSlot\Guides\Phase2\HunterMarksmanship.lua = LoonBestInSlot\Guides\Phase2\HunterMarksmanship.lua
+		LoonBestInSlot\Guides\Phase2\HunterSurvival.lua = LoonBestInSlot\Guides\Phase2\HunterSurvival.lua
+		LoonBestInSlot\Guides\Phase2\MageArcane.lua = LoonBestInSlot\Guides\Phase2\MageArcane.lua
+		LoonBestInSlot\Guides\Phase2\MageFire.lua = LoonBestInSlot\Guides\Phase2\MageFire.lua
+		LoonBestInSlot\Guides\Phase2\MageFrost.lua = LoonBestInSlot\Guides\Phase2\MageFrost.lua
+		LoonBestInSlot\Guides\Phase2\PaladinHoly.lua = LoonBestInSlot\Guides\Phase2\PaladinHoly.lua
+		LoonBestInSlot\Guides\Phase2\PaladinProtection.lua = LoonBestInSlot\Guides\Phase2\PaladinProtection.lua
+		LoonBestInSlot\Guides\Phase2\PaladinRetribution.lua = LoonBestInSlot\Guides\Phase2\PaladinRetribution.lua
+		LoonBestInSlot\Guides\Phase2\PriestDiscipline.lua = LoonBestInSlot\Guides\Phase2\PriestDiscipline.lua
+		LoonBestInSlot\Guides\Phase2\PriestHoly.lua = LoonBestInSlot\Guides\Phase2\PriestHoly.lua
+		LoonBestInSlot\Guides\Phase2\PriestShadow.lua = LoonBestInSlot\Guides\Phase2\PriestShadow.lua
+		LoonBestInSlot\Guides\Phase2\RogueAssassination.lua = LoonBestInSlot\Guides\Phase2\RogueAssassination.lua
+		LoonBestInSlot\Guides\Phase2\RogueCombat.lua = LoonBestInSlot\Guides\Phase2\RogueCombat.lua
+		LoonBestInSlot\Guides\Phase2\RogueSubtlety.lua = LoonBestInSlot\Guides\Phase2\RogueSubtlety.lua
+		LoonBestInSlot\Guides\Phase2\ShamanElemental.lua = LoonBestInSlot\Guides\Phase2\ShamanElemental.lua
+		LoonBestInSlot\Guides\Phase2\ShamanEnhancement.lua = LoonBestInSlot\Guides\Phase2\ShamanEnhancement.lua
+		LoonBestInSlot\Guides\Phase2\ShamanRestoration.lua = LoonBestInSlot\Guides\Phase2\ShamanRestoration.lua
+		LoonBestInSlot\Guides\Phase2\WarlockAffliction.lua = LoonBestInSlot\Guides\Phase2\WarlockAffliction.lua
+		LoonBestInSlot\Guides\Phase2\WarlockDemonology.lua = LoonBestInSlot\Guides\Phase2\WarlockDemonology.lua
+		LoonBestInSlot\Guides\Phase2\WarlockDestruction.lua = LoonBestInSlot\Guides\Phase2\WarlockDestruction.lua
+		LoonBestInSlot\Guides\Phase2\WarriorArms.lua = LoonBestInSlot\Guides\Phase2\WarriorArms.lua
+		LoonBestInSlot\Guides\Phase2\WarriorFury.lua = LoonBestInSlot\Guides\Phase2\WarriorFury.lua
+		LoonBestInSlot\Guides\Phase2\WarriorProtection.lua = LoonBestInSlot\Guides\Phase2\WarriorProtection.lua
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -336,6 +371,7 @@ Global
 		{91BDD1B3-FDA7-4D71-BCA5-E4DCE65DEA86} = {C2DDEA46-AE91-4617-BFB1-CD3EC89F76AE}
 		{E64D2CE7-C8D7-4DBE-9EE0-54BACA0579CC} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
 		{174CB7EB-7975-4A61-BFDD-3CED6D04FA17} = {5D7B4E6E-0F3B-4D5C-B6FE-1447C37D766C}
+		{915F07F4-83D9-4CF0-B03C-1DFBBD583A04} = {6685BDBB-9627-45A1-96D3-46D882F28A67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EC8A0A9-B7E7-48E2-9272-317A8A0C0916}
