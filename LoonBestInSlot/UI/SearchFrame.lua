@@ -52,6 +52,11 @@ local function showCustomList()
         
         itemCount = itemCount + 1;
 
+        if LBIS.CustomEditList.Items[itemId] == nil then
+            LBIS.CustomEditList.Items[itemId] = {};
+        end
+        LBIS.CustomEditList.Items[itemId][LBIS.NameToSpecId[LBISSettings.SelectedSpec]] = itemCount;
+
         LBIS:GetItemInfo(itemId, function(item)
             f.CustomButtons[itemCount].ItemButton:SetNormalTexture(item.Texture);
             LBIS:SetTooltipOnButton(f.CustomButtons[itemCount].ItemButton, item);
@@ -87,6 +92,7 @@ local function showCustomList()
             f.CustomButtons[itemCount].DeleteButton:SetScript("OnClick", function(self, button)
                 if button == "LeftButton" then
                     table.remove(LBIS.SearchFrame.ItemList, self.CustomIndex);
+                    LBIS.CustomEditList.Items[itemId][LBIS.NameToSpecId[LBISSettings.SelectedSpec]] = nil;
                     showCustomList();
                 end
             end);

@@ -106,7 +106,7 @@ function LBIS.BrowserWindow:UpdateItemsForSpec(rowFunc)
     if LBISSettings.SelectedSpec == "" then
         return;
     end
-
+    
     LBIS.SearchFrame:HideSearchFrame();
     LBIS.BrowserWindow.Window.HideUnavailable();
 

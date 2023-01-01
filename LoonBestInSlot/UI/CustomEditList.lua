@@ -50,12 +50,6 @@ local function assignItemsToFrame(f, itemList)
 
             f.CustomButtons[itemCount]:ShowButtons();
 
-            if LBIS.CustomEditList.Items[itemId] == nil then
-                LBIS.CustomEditList.Items[itemId] = {};
-            end
-
-            LBIS.CustomEditList.Items[itemId][LBIS.NameToSpecId[LBISSettings.SelectedSpec]] = itemCount;
-            
             itemCount = itemCount + 1;
         end
     end
@@ -146,7 +140,7 @@ function LBIS.CustomEditList:UpdateItems()
     LBIS.BrowserWindow.Window.RaidDropDown:Hide();
 
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)        
-
+    
         local selectedSpec = LBIS.NameToSpecId[LBISSettings.SelectedSpec];
 
         if selectedSpec == nil then
@@ -157,7 +151,7 @@ function LBIS.CustomEditList:UpdateItems()
         if savedCustomList == nil then
             savedCustomList = LBIS:DeepCopy(defaultCustomList)
             LBISServerSettings.CustomList[selectedSpec] = savedCustomList;
-        end
+        end        
 
         for slot, itemList in LBIS:spairs(savedCustomList, itemSortFunction) do
             

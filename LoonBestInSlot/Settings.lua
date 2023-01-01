@@ -8,8 +8,8 @@ LBISSettingsDefault =
 	SelectedZone = LBIS.L["All"], 
 	SelectedZoneNumber = LBIS.L["All"],
 	ShowCustom = false,
-	minimap = { 
-		hide = false, 
+	minimap = {
+		hide = false,
 		minimapPos = 180
 	},
 	Tooltip = {
