@@ -17,9 +17,10 @@ libs\LibUIDropDownMenu\LibUIDropDownMenu.xml
 Localization\Localization.xml
 
 Settings.lua
-ItemSources.lua
-GemSources.lua
-EnchantSources.lua
+
+DB\ItemSources.lua
+DB\GemSources.lua
+DB\EnchantSources.lua
 
 LoonBestInSlot.lua
 Common.lua

@@ -27,6 +27,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Icons", "Icons", "{6CCD2B99
 		LoonBestInSlot\Icons\arrowdown.tga = LoonBestInSlot\Icons\arrowdown.tga
 		LoonBestInSlot\Icons\arrowdown_dis.tga = LoonBestInSlot\Icons\arrowdown_dis.tga
 		LoonBestInSlot\Icons\arrowdown_down.tga = LoonBestInSlot\Icons\arrowdown_down.tga
+		LoonBestInSlot\Icons\arrowleft.tga = LoonBestInSlot\Icons\arrowleft.tga
+		LoonBestInSlot\Icons\arrowleft_dis.tga = LoonBestInSlot\Icons\arrowleft_dis.tga
+		LoonBestInSlot\Icons\arrowleft_down.tga = LoonBestInSlot\Icons\arrowleft_down.tga
+		LoonBestInSlot\Icons\arrowright.tga = LoonBestInSlot\Icons\arrowright.tga
+		LoonBestInSlot\Icons\arrowright_dis.tga = LoonBestInSlot\Icons\arrowright_dis.tga
+		LoonBestInSlot\Icons\arrowright_down.tga = LoonBestInSlot\Icons\arrowright_down.tga
 		LoonBestInSlot\Icons\arrowup.tga = LoonBestInSlot\Icons\arrowup.tga
 		LoonBestInSlot\Icons\arrowup_dis.tga = LoonBestInSlot\Icons\arrowup_dis.tga
 		LoonBestInSlot\Icons\arrowup_down.tga = LoonBestInSlot\Icons\arrowup_down.tga
@@ -37,8 +43,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Icons", "Icons", "{6CCD2B99
 		LoonBestInSlot\Icons\close_down.tga = LoonBestInSlot\Icons\close_down.tga
 		LoonBestInSlot\Icons\delete.tga = LoonBestInSlot\Icons\delete.tga
 		LoonBestInSlot\Icons\delete_down.tga = LoonBestInSlot\Icons\delete_down.tga
-		LoonBestInSlot\Icons\edit.tga = LoonBestInSlot\Icons\edit.tga
-		LoonBestInSlot\Icons\edit_down.tga = LoonBestInSlot\Icons\edit_down.tga
 		LoonBestInSlot\Icons\loon.tga = LoonBestInSlot\Icons\loon.tga
 		LoonBestInSlot\Icons\new_feature1.tga = LoonBestInSlot\Icons\new_feature1.tga
 		LoonBestInSlot\Icons\new_feature2.tga = LoonBestInSlot\Icons\new_feature2.tga
@@ -260,6 +264,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibUIDropDownMenu", "LibUID
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddonManager.Ui", "AddonManager.Ui\AddonManager.Ui.csproj", "{7449193D-84F6-418F-8E56-7C0C4D8B725C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{FB44FBE9-55EA-421A-AEFC-7A18AC04D68D}"
+	ProjectSection(SolutionItems) = preProject
+		LoonBestInSlot\DB\EnchantSources.lua = LoonBestInSlot\DB\EnchantSources.lua
+		LoonBestInSlot\DB\GemSources.lua = LoonBestInSlot\DB\GemSources.lua
+		LoonBestInSlot\DB\ItemSources.lua = LoonBestInSlot\DB\ItemSources.lua
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -332,6 +343,7 @@ Global
 		{91BDD1B3-FDA7-4D71-BCA5-E4DCE65DEA86} = {C2DDEA46-AE91-4617-BFB1-CD3EC89F76AE}
 		{E64D2CE7-C8D7-4DBE-9EE0-54BACA0579CC} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
 		{174CB7EB-7975-4A61-BFDD-3CED6D04FA17} = {5D7B4E6E-0F3B-4D5C-B6FE-1447C37D766C}
+		{FB44FBE9-55EA-421A-AEFC-7A18AC04D68D} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EC8A0A9-B7E7-48E2-9272-317A8A0C0916}
