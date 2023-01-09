@@ -180,7 +180,7 @@ public sealed partial class GuideImporter : Page
 
     private void Refresh_All_Click(object sender, RoutedEventArgs e)
     {
-        int phaseNumber = 1;
+        int phaseNumber = 2;
         ConsoleOut.Text = $"Adding Phase {phaseNumber} items to ItemSource...";
 
         //Read file into dictionary
@@ -242,6 +242,8 @@ public sealed partial class GuideImporter : Page
         }
 
         ItemSourceFileManager.WriteItemSources(itemSources);
+
+        WowheadImporter.RefreshItems();
 
         ConsoleOut.Text = $"Phase {phaseNumber} items Added to ItemSource!";
     }

@@ -318,11 +318,11 @@ function LBIS.CustomItemList:UpdateItems()
 
                 local specItemSource = LBIS.ItemSources[itemId];
                 if specItemSource == nil then
-                    LBIS:Error("Missing item source: ", specItem);
-                else
-                    if IsInSlot(specItem) and IsInRank(specItem) and IsInSource(specItemSource) and IsInZone(specItemSource) then
-                        point = LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, "C_"..LBISSettings.SelectedSpec.."_"..specItemSource.Name.."_"..specItem.Id, point, createItemRow);
-                    end
+                    specItemSource = { Name = "N/A", SourceType = "N/A", Zone = "N/A", Source = "N/A", SourceLocation = "N/A", SourceNumber = "0" };
+                end
+
+                if IsInSlot(specItem) and IsInRank(specItem) and IsInSource(specItemSource) and IsInZone(specItemSource) then
+                    point = LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, "C_"..LBISSettings.SelectedSpec.."_"..specItemSource.Name.."_"..specItem.Id, point, createItemRow);
                 end
             end
         end
