@@ -318,7 +318,7 @@ function LBIS.CustomItemList:UpdateItems()
 
                 local specItemSource = LBIS.ItemSources[itemId];
                 if specItemSource == nil then
-                    specItemSource = { Name = "N/A", SourceType = "N/A", Zone = "N/A", Source = "N/A", SourceLocation = "N/A", SourceNumber = "0" };
+                    specItemSource = { Name = "Not Available", SourceType = "Not Available", Zone = "Not Available", Source = "Not Available", SourceLocation = "Not Available", SourceNumber = "0" };
                 end
 
                 if IsInSlot(specItem) and IsInRank(specItem) and IsInSource(specItemSource) and IsInZone(specItemSource) then
