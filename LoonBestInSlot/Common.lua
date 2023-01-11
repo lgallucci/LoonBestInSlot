@@ -146,8 +146,8 @@ function LBIS:GetItemInfo(itemId, returnFunc)
                 Class = classId,
                 Slot = itemSlots[itemSlot]
             };
-
-            if name then
+            
+            if name and LBIS.ItemSources[itemId] ~= nil then
                 LBISServerSettings.ItemCache[itemId] = newItem;
             end
             

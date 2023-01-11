@@ -243,6 +243,8 @@ public sealed partial class GuideImporter : Page
 
         ItemSourceFileManager.WriteItemSources(itemSources);
 
+        WowheadImporter.RefreshItems();
+
         ConsoleOut.Text = $"Phase {phaseNumber} items Added to ItemSource!";
     }
 
