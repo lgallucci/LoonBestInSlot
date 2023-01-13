@@ -128,7 +128,7 @@ public class WowheadGuideParser
             var parser = new HtmlParser();
             doc = await parser.ParseDocumentAsync(content);
 
-            LoopThroughMappings(doc, classGuide, (table, guideMapping) =>
+            LoopThroughMappings(doc, classGuide, (table, slot, htmlId) =>
             {
                 var itemOrderIndex = 0;
                 var firstRow = false;
@@ -168,7 +168,7 @@ public class WowheadGuideParser
                         var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList);
 
                         if (itemChild != null)
-                            ParseItemCell(itemChild, bisStatus, GetSlot(guideMapping.Slot, htmlBisText), items, itemOrderIndex);
+                            ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText), items, itemOrderIndex);
 
                         itemOrderIndex++;
                     }
@@ -310,35 +310,38 @@ public class WowheadGuideParser
         }
     }
 
-    public void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlTableElement?, GuideMapping> action)
+    public void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlTableElement?, string, string> action)
     {
         foreach (var guideMapping in specMapping.GuideMappings)
         {
-            var headerElement = doc.QuerySelector(guideMapping.SlotHtmlId);
-
-            if (headerElement != null)
+            foreach (var htmlMapping in guideMapping.Value.SlotHtmlId.Split(";"))
             {
-                var nextSibling = headerElement.NextSibling;
-                int elementCounter = 0;
-                while (nextSibling != null && (nextSibling is not IHtmlTableElement || nextSibling is IHtmlHeadingElement))
-                {
-                    nextSibling = nextSibling?.NextSibling;
-                    elementCounter++;
-                }
+                var headerElement = doc.QuerySelector(htmlMapping);
 
-                if (nextSibling is IHtmlTableElement)
+                if (headerElement != null)
                 {
-                    var tableElement = nextSibling as IHtmlTableElement;
-                    action(tableElement, guideMapping);
+                    var nextSibling = headerElement.NextSibling;
+                    int elementCounter = 0;
+                    while (nextSibling != null && (nextSibling is not IHtmlTableElement || nextSibling is IHtmlHeadingElement))
+                    {
+                        nextSibling = nextSibling?.NextSibling;
+                        elementCounter++;
+                    }
+
+                    if (nextSibling is IHtmlTableElement)
+                    {
+                        var tableElement = nextSibling as IHtmlTableElement;
+                        action(tableElement, guideMapping.Key, htmlMapping);
+                    }
+                    else
+                    {
+                        throw new ParseException($"Failed to find table for {htmlMapping} after {elementCounter} hops");
+                    }
                 }
                 else
                 {
-                    throw new ParseException($"Failed to find table for {guideMapping.SlotHtmlId} after {elementCounter} hops");
+                    throw new ParseException($"Failed to find {htmlMapping}");
                 }
-            }
-            else
-            {
-                throw new ParseException($"Failed to find {guideMapping.SlotHtmlId}");
             }
         }
     }
@@ -356,81 +359,84 @@ public class WowheadGuideParser
 
             foreach (var heading in classGuide.GuideMappings)
             {
-                var headerElement = doc.QuerySelector(heading.SlotHtmlId);
-                if (headerElement != null)
+                foreach (var htmlMapping in heading.Value.SlotHtmlId.Split(";"))
                 {
-                    Common.RecursiveBoxSearch(headerElement, (boxElement) =>
+                    var headerElement = doc.QuerySelector(htmlMapping);
+                    if (headerElement != null)
                     {
-                        bool isSpell = false;
-                        if (((IHtmlAnchorElement)boxElement).PathName.Contains("/item="))
+                        Common.RecursiveBoxSearch(headerElement, (boxElement) =>
                         {
-                            isSpell = false;
-                        }
-                        else if (((IHtmlAnchorElement)boxElement).PathName.Contains("/spell="))
-                        {
-                            isSpell = true;
-                        }
-                        else
-                        {
-                            return false;
-                        }
-
-                        var item = ((IHtmlAnchorElement)boxElement).PathName.Replace("/wotlk", "").Replace("/item=", "").Replace("/spell=", "");
-                        var itemIdIndex = item.IndexOf("/");
-                        if (itemIdIndex == -1)
-                            itemIdIndex = item.IndexOf("&");
-
-                        if (itemIdIndex > -1)
-                        {
-                            item = item.Substring(0, itemIdIndex);
-                            var itemName = boxElement.TextContent.Trim();
-                            var itemId = Int32.Parse(item);
-
-                            if (heading.Slot == "Meta" || heading.Slot == "Gem")
+                            bool isSpell = false;
+                            if (((IHtmlAnchorElement)boxElement).PathName.Contains("/item="))
                             {
-                                if (_gemSwaps.ContainsKey(itemId))
-                                    itemId = _gemSwaps[itemId];
-                                int itemQuality = 0;
-                                if (boxElement.ClassName.Contains("q1"))
-                                    itemQuality = 1;
-                                else if (boxElement.ClassName.Contains("q2"))
-                                    itemQuality = 2;
-                                else if (boxElement.ClassName.Contains("q3"))
-                                    itemQuality = 3;
-                                else if (boxElement.ClassName.Contains("q4"))
-                                    itemQuality = 4;
-
-                                if (!gems.ContainsKey(itemId))
-                                    gems.Add(itemId, new GemSpec
-                                    {
-                                        GemId = itemId,
-                                        Name = itemName ?? "undefined",
-                                        Phase = _gemPhases.ContainsKey(itemId) ? _gemPhases[itemId] : 1,
-                                        Quality = itemQuality,
-                                        IsMeta = heading.Slot == "Meta"
-                                    });
+                                isSpell = false;
+                            }
+                            else if (((IHtmlAnchorElement)boxElement).PathName.Contains("/spell="))
+                            {
+                                isSpell = true;
                             }
                             else
                             {
-                                if (_enchantSwaps.ContainsKey(itemId))
-                                    itemId = _enchantSwaps[itemId];
-
-                                enchants.Add(itemId + heading.Slot, new EnchantSpec
-                                {
-                                    EnchantId = itemId,
-                                    Name = itemName ?? "undefined",
-                                    Slot = heading.Slot,
-                                    IsSpell = isSpell,
-                                });
+                                return false;
                             }
-                            return true;
-                        }
-                        return false;
-                    });
-                }
-                else
-                {
-                    throw new Exception($"Failed to find {heading.SlotHtmlId}{heading.Slot}");
+
+                            var item = ((IHtmlAnchorElement)boxElement).PathName.Replace("/wotlk", "").Replace("/item=", "").Replace("/spell=", "");
+                            var itemIdIndex = item.IndexOf("/");
+                            if (itemIdIndex == -1)
+                                itemIdIndex = item.IndexOf("&");
+
+                            if (itemIdIndex > -1)
+                            {
+                                item = item.Substring(0, itemIdIndex);
+                                var itemName = boxElement.TextContent.Trim();
+                                var itemId = Int32.Parse(item);
+
+                                if (heading.Key == "Meta" || heading.Key == "Gem")
+                                {
+                                    if (_gemSwaps.ContainsKey(itemId))
+                                        itemId = _gemSwaps[itemId];
+                                    int itemQuality = 0;
+                                    if (boxElement.ClassName.Contains("q1"))
+                                        itemQuality = 1;
+                                    else if (boxElement.ClassName.Contains("q2"))
+                                        itemQuality = 2;
+                                    else if (boxElement.ClassName.Contains("q3"))
+                                        itemQuality = 3;
+                                    else if (boxElement.ClassName.Contains("q4"))
+                                        itemQuality = 4;
+
+                                    if (!gems.ContainsKey(itemId))
+                                        gems.Add(itemId, new GemSpec
+                                        {
+                                            GemId = itemId,
+                                            Name = itemName ?? "undefined",
+                                            Phase = _gemPhases.ContainsKey(itemId) ? _gemPhases[itemId] : 1,
+                                            Quality = itemQuality,
+                                            IsMeta = heading.Key == "Meta"
+                                        });
+                                }
+                                else
+                                {
+                                    if (_enchantSwaps.ContainsKey(itemId))
+                                        itemId = _enchantSwaps[itemId];
+
+                                    enchants.Add(itemId + heading.Key, new EnchantSpec
+                                    {
+                                        EnchantId = itemId,
+                                        Name = itemName ?? "undefined",
+                                        Slot = heading.Key,
+                                        IsSpell = isSpell,
+                                    });
+                                }
+                                return true;
+                            }
+                            return false;
+                        });
+                    }
+                    else
+                    {
+                        throw new Exception($"Failed to find {htmlMapping}{heading.Key}");
+                    }
                 }
             }
         });
