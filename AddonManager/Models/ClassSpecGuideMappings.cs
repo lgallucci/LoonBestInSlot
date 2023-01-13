@@ -14,7 +14,7 @@ public class ClassGuideMapping
             foreach (var mapping in guideMappings)
             {
                 if (_mappings.ContainsKey(mapping.Item1))
-                    _mappings[mapping.Item1] = $"{_mappings[mapping.Item1]};{mapping.Item2}";
+                    _mappings[mapping.Item1] = $"{_mappings[mapping.Item1].SlotHtmlId};{mapping.Item2.SlotHtmlId}";
                 else
                     _mappings[mapping.Item1] = mapping.Item2;
             }
