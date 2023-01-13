@@ -6,6 +6,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Affliction"] = "Gebrechen";
   LBIS.L["Ahn'kahet: The Old Kingdom (Heroic)"] = "Ahn'kahet: Das Alte Königreich (Heroisch)";
   LBIS.L["Alchemy"] = "Alchemie";
+  LBIS.L["Algalon the Observer"] = "Algalon der Beobachter";
   LBIS.L["All"] = "Alle";
   LBIS.L["Alliance Vanguard/Horde Expedition (Revered)"] = "Vorhut der Allianz/Expedition der Horde (Respektvoll)";
 --  LBIS.L["Almaador"] = "";
@@ -27,6 +28,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Argent Crusade (Revered)"] = "Argentumkreuzzug (Respektvoll)";
   LBIS.L["Arms"] = "Waffen";
   LBIS.L["Assassination"] = "Meucheln";
+  LBIS.L["Auriaya"] = "Auriaya";
   LBIS.L["Azjol-Nerub (Heroic)"] = "Azjol-Nerub (Heroisch)";
   LBIS.L["Back"] = "Rücken";
   LBIS.L["Badges of Justice"] = "Abzeichen der Gerechtigkeit";
@@ -98,14 +100,17 @@ if GetLocale() == "deDE" then
   LBIS.L["Feet"] = "Füße";
   LBIS.L["Fire"] = "Feuer";
   LBIS.L["Fishing"] = "Angeln";
+  LBIS.L["Flame Leviathan"] = "Flammenleviathan";
   LBIS.L["For Posterity"] = "Für die Nachwelt";
   LBIS.L["Frenzyheart Tribe"] = "Stamm der Wildherzen";
+  LBIS.L["Freya"] = "Freya";
   LBIS.L["Frost"] = "Frost";
   LBIS.L["Fury"] = "Furor";
   LBIS.L["Gal'darah"] = "Gal'darah";
 --  LBIS.L["Geen"] = "";
 --  LBIS.L["Gems"] = "";
   LBIS.L["General Bjarngrim"] = "General Bjarngrim";
+  LBIS.L["General Vezax"] = "General Vezax";
   LBIS.L["Get Me Outa Here!"] = "Holt mich hier raus!";
   LBIS.L["Gluth"] = "Gluth";
   LBIS.L["Gortok Palehoof"] = "Gortok Bleichhuf";
@@ -137,6 +142,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Heigan the Unclean"] = "Heigan der Unreine";
   LBIS.L["Herald Volazj"] = "Herold Volazj";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "Heroische Entscheidung im Auge der Ewigkeit";
+  LBIS.L["Hodir"] = "Hodir";
   LBIS.L["Holy"] = "Heilig";
   LBIS.L["Honor Points"] = "Ehrenpunkte";
   LBIS.L["Honored"] = "Wohlwollend";
@@ -144,6 +150,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Icecrown Citadel (10)"] = "Die Eiskronenzitadelle (10)";
   LBIS.L["Icecrown Citadel (25)"] = "Die Eiskronenzitadelle (25)";
   LBIS.L["Ichoron"] = "Ichoron";
+  LBIS.L["Ignis the Furnace Master"] = "Ignis, Meister des Eisenwerks";
   LBIS.L["Ingvar the Plunderer"] = "Ingvar der Brandschatzer";
   LBIS.L["Inscription"] = "Inschriftenkunde";
   LBIS.L["Instructor Razuvious"] = "Instrukteur Razuvious";
@@ -166,6 +173,8 @@ if GetLocale() == "deDE" then
   LBIS.L["Knights of the Ebon Blade"] = "Ritter der Schwarzen Klinge";
   LBIS.L["Knights of the Ebon Blade (Exalted)"] = "Ritter der Schwarzen Klinge (Ehrfürchtig)";
   LBIS.L["Knights of the Ebon Blade (Revered)"] = "Ritter der Schwarzen Klinge (Respektvoll)";
+  LBIS.L["Kologarn"] = "Kologarn";
+  LBIS.L["Koralon the Flame Watcher"] = "Koralon der Flammenwächter";
   LBIS.L["Krik'thir the Gatewatcher"] = "Krik'thir der Torwächter";
   LBIS.L["Krystallus"] = "Krystallus";
   LBIS.L["Lavanthor"] = "Lavanthor";
@@ -193,6 +202,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Master Jewelcrafting Trainer"] = "";
 --  LBIS.L["Master Leatherworking Trainer"] = "";
   LBIS.L["Meathook"] = "Fleischhaken";
+  LBIS.L["Mimiron"] = "Mimiron";
   LBIS.L["Moorabi"] = "Moorabi";
   LBIS.L["Moragg"] = "Moragg";
   LBIS.L["Moroes"] = "Moroes";
@@ -202,6 +212,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Naxxramas (10)"] = "Naxxramas (10)";
   LBIS.L["Naxxramas (25)"] = "Naxxramas (25)";
   LBIS.L["Neck"] = "Hals";
+  LBIS.L["Neck/Ring"] = "Hals/Finger";
   LBIS.L["Netherstorm"] = "Nethersturm";
 --  LBIS.L["New Features"] = "";
   LBIS.L["None"] = "Keine";
@@ -234,6 +245,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Quest"] = "Quest";
   LBIS.L["Quiver"] = "Köcher";
   LBIS.L["Ranged/Relic"] = "Distanz/Relikt";
+  LBIS.L["Razorscale"] = "Klingenschuppe";
   LBIS.L["Reputation"] = "Ruf";
   LBIS.L["Restoration"] = "Wiederherstellung";
   LBIS.L["Retribution"] = "Vergeltung";
@@ -284,6 +296,7 @@ if GetLocale() == "deDE" then
   LBIS.L["The Forsaken Blight"] = "Die Seuche der Verlassenen";
   LBIS.L["The Four Horsemen"] = "Die Vier Reiter";
   LBIS.L["The Gifts of Loken"] = "Lokens Gaben";
+  LBIS.L["The Iron Council"] = "Versammlung des Eisens";
   LBIS.L["The Kalu'ak"] = "Die Kalu'ak";
   LBIS.L["The Last Line Of Defense"] = "Die letzte Verteidigungslinie";
   LBIS.L["The Nexus (Heroic)"] = "Der Nexus (Heroisch)";
@@ -312,11 +325,13 @@ if GetLocale() == "deDE" then
   LBIS.L["The Wyrmrest Accord"] = "Der Wyrmruhpakt";
   LBIS.L["The Wyrmrest Accord (Revered)"] = "Der Wyrmruhpakt (Respektvoll)";
   LBIS.L["They Took Our Men!"] = "Sie haben unsere Männer!";
+  LBIS.L["Thorim"] = "Thorim";
 --  LBIS.L["Tiffany Cartier"] = "";
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
   LBIS.L["Token"] = "Token";
+  LBIS.L["Tokens"] = "Abz.";
   LBIS.L["Transmute"] = "Transmutieren";
   LBIS.L["Trash Drop"] = "Trash Drop";
   LBIS.L["Trash Mobs"] = "Trash Mobs";
@@ -353,6 +368,8 @@ if GetLocale() == "deDE" then
   LBIS.L["World Drop (Skoll)"] = "Welt Drop (Skoll)";
   LBIS.L["Wrist"] = "Handgelenke";
   LBIS.L["Xevozz"] = "Xevozz";
+  LBIS.L["XT-002 Deconstructor"] = "XT-002 Dekonstruktor";
+  LBIS.L["Yogg-Saron"] = "Yogg-Saron";
   LBIS.L["Zul'Drak"] = "Zul'Drak";
   LBIS.L["Zuramat the Obliterator"] = "Zuramat der Vernichter";
 end

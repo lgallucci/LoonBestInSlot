@@ -6,6 +6,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Affliction"] = "Affliction";
   LBIS.L["Ahn'kahet: The Old Kingdom (Heroic)"] = "Ahn’kahet : l’Ancien royaume (Héroïque)";
   LBIS.L["Alchemy"] = "Alchimie";
+  LBIS.L["Algalon the Observer"] = "Algalon l'Observateur";
   LBIS.L["All"] = "Tous";
   LBIS.L["Alliance Vanguard/Horde Expedition (Revered)"] = "Avant-garde de l'Alliance/Expédition de la Horde (Révéré)";
 --  LBIS.L["Almaador"] = "";
@@ -27,6 +28,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Argent Crusade (Revered)"] = "Croisade d'argent (Révéré)";
   LBIS.L["Arms"] = "Armes";
   LBIS.L["Assassination"] = "Assassinat";
+  LBIS.L["Auriaya"] = "Auriaya";
   LBIS.L["Azjol-Nerub (Heroic)"] = "Azjol-Nérub (Héroïque)";
   LBIS.L["Back"] = "Dos";
 --  LBIS.L["Badges of Justice"] = "";
@@ -98,14 +100,17 @@ if GetLocale() == "frFR" then
   LBIS.L["Feet"] = "Pieds";
   LBIS.L["Fire"] = "Feu";
   LBIS.L["Fishing"] = "Pêche";
+  LBIS.L["Flame Leviathan"] = "Léviathan des flammes";
   LBIS.L["For Posterity"] = "Pour la postérité";
   LBIS.L["Frenzyheart Tribe"] = "Tribu Frénécœur";
+  LBIS.L["Freya"] = "Freya";
   LBIS.L["Frost"] = "Givre";
   LBIS.L["Fury"] = "Fureur";
   LBIS.L["Gal'darah"] = "Gal'darah";
 --  LBIS.L["Geen"] = "";
 --  LBIS.L["Gems"] = "";
   LBIS.L["General Bjarngrim"] = "Général Bjarngrim";
+  LBIS.L["General Vezax"] = "Général Vezax";
   LBIS.L["Get Me Outa Here!"] = "Sortez-moi de là !";
   LBIS.L["Gluth"] = "Gluth";
   LBIS.L["Gortok Palehoof"] = "Gortok Pâle-sabot";
@@ -137,6 +142,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Heigan the Unclean"] = "Heigan l'Impur";
   LBIS.L["Herald Volazj"] = "Héraut Volazj";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "Jugement héroïque à l'Œil de l'éternité";
+  LBIS.L["Hodir"] = "Hodir";
   LBIS.L["Holy"] = "Sacré";
   LBIS.L["Honor Points"] = "Points d'honneur";
   LBIS.L["Honored"] = "Honoré";
@@ -144,6 +150,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Icecrown Citadel (10)"] = "Citadelle de la Couronne de glace (10)";
   LBIS.L["Icecrown Citadel (25)"] = "Citadelle de la Couronne de glace (25)";
   LBIS.L["Ichoron"] = "Ichoron";
+  LBIS.L["Ignis the Furnace Master"] = "Ignis le maître de la Fournaise";
   LBIS.L["Ingvar the Plunderer"] = "Ingvar le Pilleur";
   LBIS.L["Inscription"] = "Calligraphie";
   LBIS.L["Instructor Razuvious"] = "Instructeur Razuvious";
@@ -166,6 +173,8 @@ if GetLocale() == "frFR" then
   LBIS.L["Knights of the Ebon Blade"] = "Chevaliers de la Lame d'ébène";
   LBIS.L["Knights of the Ebon Blade (Exalted)"] = "Chevaliers de la Lame d'ébène (Exalté)";
   LBIS.L["Knights of the Ebon Blade (Revered)"] = "Chevaliers de la Lame d'ébène (Révéré)";
+  LBIS.L["Kologarn"] = "Kologarn";
+  LBIS.L["Koralon the Flame Watcher"] = "Koralon le Veilleur des flammes";
   LBIS.L["Krik'thir the Gatewatcher"] = "Krik'thir le Gardien de porte";
   LBIS.L["Krystallus"] = "Krystallus";
   LBIS.L["Lavanthor"] = "Lavanthor";
@@ -193,6 +202,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Master Jewelcrafting Trainer"] = "";
 --  LBIS.L["Master Leatherworking Trainer"] = "";
   LBIS.L["Meathook"] = "Grancrochet";
+  LBIS.L["Mimiron"] = "Mimiron";
   LBIS.L["Moorabi"] = "Moorabi";
   LBIS.L["Moragg"] = "Moragg";
   LBIS.L["Moroes"] = "Moroes";
@@ -202,6 +212,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Naxxramas (10)"] = "Naxxramas (10)";
   LBIS.L["Naxxramas (25)"] = "Naxxramas (25)";
   LBIS.L["Neck"] = "Cou";
+  LBIS.L["Neck/Ring"] = "Cou/Anneau";
   LBIS.L["Netherstorm"] = "Raz-de-Néant";
 --  LBIS.L["New Features"] = "";
   LBIS.L["None"] = "Aucune";
@@ -234,6 +245,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Quest"] = "Quête";
   LBIS.L["Quiver"] = "Carquois";
   LBIS.L["Ranged/Relic"] = "À distance/Relique";
+  LBIS.L["Razorscale"] = "Tranchécaille";
   LBIS.L["Reputation"] = "Réputation";
   LBIS.L["Restoration"] = "Restauration";
   LBIS.L["Retribution"] = "Vindicte";
@@ -284,6 +296,7 @@ if GetLocale() == "frFR" then
   LBIS.L["The Forsaken Blight"] = "La flétrissure des Réprouvés";
   LBIS.L["The Four Horsemen"] = "Les quatre cavaliers";
   LBIS.L["The Gifts of Loken"] = "Les cadeaux de Loken";
+  LBIS.L["The Iron Council"] = "Assemblée du fer";
   LBIS.L["The Kalu'ak"] = "Kalu'aks";
   LBIS.L["The Last Line Of Defense"] = "La dernière ligne de défense";
   LBIS.L["The Nexus (Heroic)"] = "Le Nexus (Héroïque)";
@@ -312,11 +325,13 @@ if GetLocale() == "frFR" then
   LBIS.L["The Wyrmrest Accord"] = "Accord du Repos du ver";
   LBIS.L["The Wyrmrest Accord (Revered)"] = "Accord du Repos du ver (Révéré)";
   LBIS.L["They Took Our Men!"] = "Elles ont pris nos hommes !";
+  LBIS.L["Thorim"] = "Thorim";
 --  LBIS.L["Tiffany Cartier"] = "";
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
 --  LBIS.L["Token"] = "";
+  LBIS.L["Tokens"] = "Jetons";
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
   LBIS.L["Trash Mobs"] = "Ennemis communs";
@@ -353,6 +368,8 @@ if GetLocale() == "frFR" then
 --  LBIS.L["World Drop (Skoll)"] = "";
   LBIS.L["Wrist"] = "Poignets";
   LBIS.L["Xevozz"] = "Xevozz";
+  LBIS.L["XT-002 Deconstructor"] = "Déconstructeur XT-002";
+  LBIS.L["Yogg-Saron"] = "Yogg-Saron";
   LBIS.L["Zul'Drak"] = "Zul’Drak";
   LBIS.L["Zuramat the Obliterator"] = "Zuramat l'Oblitérateur";
 end

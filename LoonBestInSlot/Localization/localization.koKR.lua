@@ -6,6 +6,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Affliction"] = "고통";
   LBIS.L["Ahn'kahet: The Old Kingdom (Heroic)"] = "안카헤트: 고대 왕국 (영웅)";
   LBIS.L["Alchemy"] = "연금술";
+  LBIS.L["Algalon the Observer"] = "관찰자 알갈론";
   LBIS.L["All"] = "전체";
   LBIS.L["Alliance Vanguard/Horde Expedition (Revered)"] = "얼라이언스 선봉대/호드 원정대 (매우 우호적)";
   LBIS.L["Almaador"] = "알마도르 <샤타리 병참장교>";
@@ -27,6 +28,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Argent Crusade (Revered)"] = "은빛십자군 (매우 우호적)";
   LBIS.L["Arms"] = "무기";
   LBIS.L["Assassination"] = "암살";
+  LBIS.L["Auriaya"] = "아우리아야";
   LBIS.L["Azjol-Nerub (Heroic)"] = "아졸네룹 (영웅)";
   LBIS.L["Back"] = "등";
   LBIS.L["Badges of Justice"] = "정의의 휘장";
@@ -98,14 +100,17 @@ if GetLocale() == "koKR" then
   LBIS.L["Feet"] = "발";
   LBIS.L["Fire"] = "화염";
   LBIS.L["Fishing"] = "낚시";
+  LBIS.L["Flame Leviathan"] = "거대 화염전차";
   LBIS.L["For Posterity"] = "후손을 위하여";
   LBIS.L["Frenzyheart Tribe"] = "광란의심장일족";
+  LBIS.L["Freya"] = "프레이야";
   LBIS.L["Frost"] = "냉기";
   LBIS.L["Fury"] = "분노";
   LBIS.L["Gal'darah"] = "갈다라";
   LBIS.L["Geen"] = "기인 <점쟁이 조합 보급원>";
   LBIS.L["Gems"] = "보석";
   LBIS.L["General Bjarngrim"] = "장군 비야른그림";
+  LBIS.L["General Vezax"] = "장군 베작스";
   LBIS.L["Get Me Outa Here!"] = "날 구해줘요!";
   LBIS.L["Gluth"] = "글루스";
   LBIS.L["Gortok Palehoof"] = "고르톡 페일후프";
@@ -137,6 +142,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Heigan the Unclean"] = "부정의 헤이건";
   LBIS.L["Herald Volazj"] = "사자 볼라즈";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "영원의 눈에서의 영웅적 심판 (25)";
+  LBIS.L["Hodir"] = "호디르";
   LBIS.L["Holy"] = "신성";
   LBIS.L["Honor Points"] = "명예 점수";
   LBIS.L["Honored"] = "우호적";
@@ -144,6 +150,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Icecrown Citadel (10)"] = "얼음왕관 성채 (10)";
   LBIS.L["Icecrown Citadel (25)"] = "얼음왕관 성채 (25)";
   LBIS.L["Ichoron"] = "이코론";
+  LBIS.L["Ignis the Furnace Master"] = "용광로 군주 이그니스";
   LBIS.L["Ingvar the Plunderer"] = "약탈자 잉그바르";
   LBIS.L["Inscription"] = "주문각인";
   LBIS.L["Instructor Razuvious"] = "훈련교관 라주비어스";
@@ -166,6 +173,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Knights of the Ebon Blade"] = "칠흑의 기사단";
   LBIS.L["Knights of the Ebon Blade (Exalted)"] = "칠흑의 기사단 (확고한 동맹)";
   LBIS.L["Knights of the Ebon Blade (Revered)"] = "칠흑의 기사단 (매우 우호적)";
+  LBIS.L["Kologarn"] = "콜로간";
+  LBIS.L["Koralon the Flame Watcher"] = "화염 감시자 코랄론";
   LBIS.L["Krik'thir the Gatewatcher"] = "문지기 크릭시르";
   LBIS.L["Krystallus"] = "크리스탈루스";
   LBIS.L["Lavanthor"] = "라반토르";
@@ -193,6 +202,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Master Jewelcrafting Trainer"] = "보석세공 대가";
   LBIS.L["Master Leatherworking Trainer"] = "가죽세공 대가";
   LBIS.L["Meathook"] = "살덩이갈고리";
+  LBIS.L["Mimiron"] = "미미론";
   LBIS.L["Moorabi"] = "무라비";
   LBIS.L["Moragg"] = "모라그";
   LBIS.L["Moroes"] = "모로스 <집사>";
@@ -202,6 +212,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Naxxramas (10)"] = "낙스라마스 (10인)";
   LBIS.L["Naxxramas (25)"] = "낙스라마스 (25인)";
   LBIS.L["Neck"] = "목";
+  LBIS.L["Neck/Ring"] = "목/손가락";
   LBIS.L["Netherstorm"] = "황천의 폭풍";
 --  LBIS.L["New Features"] = "";
   LBIS.L["None"] = "없음";
@@ -234,6 +245,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Quest"] = "퀘스트";
   LBIS.L["Quiver"] = "화살통";
   LBIS.L["Ranged/Relic"] = "원거리 장비/성물";
+  LBIS.L["Razorscale"] = "칼날비늘";
   LBIS.L["Reputation"] = "평판";
   LBIS.L["Restoration"] = "복원/회복";
   LBIS.L["Retribution"] = "징벌";
@@ -284,6 +296,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Forsaken Blight"] = "포세이큰 파멸의 역병";
   LBIS.L["The Four Horsemen"] = "4인의 기사단";
   LBIS.L["The Gifts of Loken"] = "로켄의 선물";
+  LBIS.L["The Iron Council"] = "무쇠 평의회";
   LBIS.L["The Kalu'ak"] = "칼루아크";
   LBIS.L["The Last Line Of Defense"] = "최후의 방어";
   LBIS.L["The Nexus (Heroic)"] = "마력의 탑 (영웅)";
@@ -312,11 +325,13 @@ if GetLocale() == "koKR" then
   LBIS.L["The Wyrmrest Accord"] = "고룡쉼터 사원 용군단";
   LBIS.L["The Wyrmrest Accord (Revered)"] = "고룡쉼터 사원 용군단 (매우 우호적)";
   LBIS.L["They Took Our Men!"] = "남자가 모자라!";
+  LBIS.L["Thorim"] = "토림";
   LBIS.L["Tiffany Cartier"] = "티파니 까르티엘 <보석세공용품 상인>";
   LBIS.L["Timothy Jones"] = "티모시 존스 <보석세공의 거장>";
   LBIS.L["Tiny Titanium Lockbox"] = "작은 티타늄 금고";
   LBIS.L["Tirion's Gambit"] = "티리온의 계략";
   LBIS.L["Token"] = "토큰";
+  LBIS.L["Tokens"] = "화폐";
   LBIS.L["Transmute"] = "변환식";
   LBIS.L["Trash Drop"] = "일반 드롭";
   LBIS.L["Trash Mobs"] = "일반몹";
@@ -353,6 +368,8 @@ if GetLocale() == "koKR" then
   LBIS.L["World Drop (Skoll)"] = "월드 드랍 (스콜)";
   LBIS.L["Wrist"] = "손목";
   LBIS.L["Xevozz"] = "제보즈";
+  LBIS.L["XT-002 Deconstructor"] = "XT-002 해체자";
+  LBIS.L["Yogg-Saron"] = "요그사론";
   LBIS.L["Zul'Drak"] = "줄드락";
   LBIS.L["Zuramat the Obliterator"] = "파멸자 주라마트";
 end

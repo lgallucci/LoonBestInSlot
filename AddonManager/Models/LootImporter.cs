@@ -294,7 +294,6 @@ public class RaidImporter : LootImporter
     {
         var raidModifiers = new Dictionary<string, string> { { "H10", "Heroic 10" }, { "H25", "Heroic 25" }, { "N10", "10" }, { "N25", "10" } };
 
-
         using (var reader = new StreamReader(@$".\wotlk-loot-table.csv"))
         using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
         {
