@@ -1,3 +1,312 @@
 {
-  "Items": {}
+    "Items": {
+        "45088": {
+            "Name": "Plans: Belt of the Titans",
+            "Source": "Blacksmithing",
+            "SourceType": "Drop",
+            "SourceNumber": "45550",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45089": {
+            "Name": "Plans: Battlelord's Plate Boots",
+            "Source": "Blacksmithing",
+            "SourceType": "Drop",
+            "SourceNumber": "45559",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45090": {
+            "Name": "Plans: Plate Girdle of Righteousness",
+            "Source": "Blacksmithing",
+            "SourceType": "Drop",
+            "SourceNumber": "45552",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45091": {
+            "Name": "Plans: Treads of Destiny",
+            "Source": "Blacksmithing",
+            "SourceType": "Drop",
+            "SourceNumber": "45561",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45092": {
+            "Name": "Plans: Indestructible Plate Girdle",
+            "Source": "Blacksmithing",
+            "SourceType": "Drop",
+            "SourceNumber": "45551",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45093": {
+            "Name": "Plans: Spiked Deathdealers",
+            "Source": "Blacksmithing",
+            "SourceType": "Drop",
+            "SourceNumber": "45560",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45094": {
+            "Name": "Pattern: Belt of Dragons",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "45553",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45095": {
+            "Name": "Pattern: Boots of Living Scale",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "45562",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45096": {
+            "Name": "Pattern: Blue Belt of Chaos",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "45554",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45097": {
+            "Name": "Pattern: Lightning Grounded Boots",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "45563",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45098": {
+            "Name": "Pattern: Death-warmed Belt",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "45555",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45099": {
+            "Name": "Pattern: Footpads of Silence",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "45564",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45100": {
+            "Name": "Pattern: Belt of Arctic Life",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "45556",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45101": {
+            "Name": "Pattern: Boots of Wintry Endurance",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "45565",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45102": {
+            "Name": "Pattern: Sash of Ancient Power",
+            "Source": "Tailoring",
+            "SourceType": "Drop",
+            "SourceNumber": "45557",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45103": {
+            "Name": "Pattern: Spellslinger's Slippers",
+            "Source": "Tailoring",
+            "SourceType": "Drop",
+            "SourceNumber": "45566",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45104": {
+            "Name": "Pattern: Cord of the White Dawn",
+            "Source": "Tailoring",
+            "SourceType": "Drop",
+            "SourceNumber": "45566",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "45105": {
+            "Name": "Pattern: Savior's Slippers",
+            "Source": "Tailoring",
+            "SourceType": "Drop",
+            "SourceNumber": "45567",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "46027": {
+            "Name": "Formula: Enchant Weapon - Blade Ward",
+            "Source": "Enchanting",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "46348": {
+            "Name": "Formula: Enchant Weapon - Blood Draining",
+            "Source": "Enchanting",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Ulduar (10)"
+        },
+        "47623": {
+            "Name": "Plans: Saronite Swordbreakers",
+            "Source": "Blacksmithing",
+            "SourceType": "Drop",
+            "SourceNumber": "47570",
+            "SourceLocation": "Trial of the Crusader (Heroic 10)"
+        },
+        "47626": {
+            "Name": "Plans: Sunforged Breastplate",
+            "Source": "Blacksmithing",
+            "SourceType": "Drop",
+            "SourceNumber": "47593",
+            "SourceLocation": "Trial of the Crusader (Heroic 10)"
+        },
+        "47627": {
+            "Name": "Plans: Sunforged Bracers",
+            "Source": "Blacksmithing",
+            "SourceType": "Drop",
+            "SourceNumber": "47574",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47628": {
+            "Name": "Pattern: Ensorcelled Nerubian Breastplate",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "47597",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47630": {
+            "Name": "Pattern: Crusader's Dragonscale Breastplate",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "47595",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47632": {
+            "Name": "Pattern: Lunar Eclipse Robes",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "47602",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47634": {
+            "Name": "Pattern: Knightbane Carapace",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "47599",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47635": {
+            "Name": "Pattern: Bracers of Swift Death",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "47581",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47636": {
+            "Name": "Pattern: Royal Moonshroud Robe",
+            "Source": "Tailoring",
+            "SourceType": "Drop",
+            "SourceNumber": "47606",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47637": {
+            "Name": "Pattern: Royal Moonshroud Bracers",
+            "Source": "Tailoring",
+            "SourceType": "Drop",
+            "SourceNumber": "47588",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47638": {
+            "Name": "Pattern: Merlin's Robe",
+            "Source": "Tailoring",
+            "SourceType": "Drop",
+            "SourceNumber": "47604",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47639": {
+            "Name": "Pattern: Bejeweled Wizard's Bracers",
+            "Source": "Tailoring",
+            "SourceType": "Drop",
+            "SourceNumber": "47586",
+            "SourceLocation": "Trial of the Crusader (10)"
+        },
+        "47640": {
+            "Name": "Plans: Breastplate of the White Knight",
+            "Source": "Blacksmithing",
+            "SourceType": "Drop",
+            "SourceNumber": "47592",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47641": {
+            "Name": "Plans: Saronite Swordbreakers",
+            "Source": "Blacksmithing",
+            "SourceType": "Drop",
+            "SourceNumber": "47571",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47643": {
+            "Name": "Plans: Sunforged Breastplate",
+            "Source": "Blacksmithing",
+            "SourceType": "Drop",
+            "SourceNumber": "47594",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47644": {
+            "Name": "Plans: Titanium Razorplate",
+            "Source": "Blacksmithing",
+            "SourceType": "Drop",
+            "SourceNumber": "47590",
+            "SourceLocation": "Trial of the Crusader (Heroic 10)"
+        },
+        "47645": {
+            "Name": "Plans: Titanium Spikeguards",
+            "Source": "Blacksmithing",
+            "SourceType": "Drop",
+            "SourceNumber": "47573",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47646": {
+            "Name": "Pattern: Black Chitin Bracers",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "47580",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47648": {
+            "Name": "Pattern: Crusader's Dragonscale Bracers",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "47577",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47651": {
+            "Name": "Pattern: Knightbane Carapace",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "47600",
+            "SourceLocation": "Trial of the Crusader (Heroic 10)"
+        },
+        "47653": {
+            "Name": "Pattern: Moonshadow Armguards",
+            "Source": "Leatherworking",
+            "SourceType": "Drop",
+            "SourceNumber": "47584",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47654": {
+            "Name": "Pattern: Bejeweled Wizard's Bracers",
+            "Source": "Tailoring",
+            "SourceType": "Drop",
+            "SourceNumber": "47585",
+            "SourceLocation": "Trial of the Crusader (Heroic 25)"
+        },
+        "47655": {
+            "Name": "Pattern: Merlin's Robe",
+            "Source": "Tailoring",
+            "SourceType": "Drop",
+            "SourceNumber": "47603",
+            "SourceLocation": "Trial of the Crusader (10)"
+        },
+        "47657": {
+            "Name": "Pattern: Royal Moonshroud Robe",
+            "Source": "Tailoring",
+            "SourceType": "Drop",
+            "SourceNumber": "47605",
+            "SourceLocation": "Trial of the Crusader (10)"
+        }
+    }
 }
