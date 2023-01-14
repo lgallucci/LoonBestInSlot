@@ -70,7 +70,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Death to the Traitor King"] = "배신자 왕에게 죽음을";
   LBIS.L["Demolitionist Extraordinaire"] = "최고의 폭파병";
   LBIS.L["Demonology"] = "악마";
---  LBIS.L["Deselect"] = "";
+  LBIS.L["Deselect"] = "선택 해제";
   LBIS.L["Destruction"] = "파괴";
   LBIS.L["Discipline"] = "수양";
   LBIS.L["Dragonblight"] = "용의 안식처";

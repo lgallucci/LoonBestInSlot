@@ -368,7 +368,7 @@ if GetLocale() == "esES" then
 --  LBIS.L["Wintergrasp Marks"] = "";
 --  LBIS.L["Wintergrasp Quartermaster"] = "";
   LBIS.L["World Drop"] = "Gota mundial";
---  LBIS.L["World Drop (Skoll)"] = "";
+--  LBIS.L["World Drop (Skoll)"] = "Gota mundial";
   LBIS.L["Wrist"] = "Brazales";
   LBIS.L["Xevozz"] = "Xevozz";
   LBIS.L["XT-002 Deconstructor"] = "Desarmador XA-002";

@@ -10,26 +10,26 @@ public class LocalizationDb
         public Dictionary<string, Dictionary<string, string>> Translations { get; set; } = new Dictionary<string, Dictionary<string, string>>();
     }
 
-    private LocalizationItems _database = new LocalizationItems();
+    public LocalizationItems Database { get; set; } = new LocalizationItems();
 
     public void AddLanguage(string language, Dictionary<string, string> translations)
     {
         foreach(var translation in translations)
         {
-            _database.Translations[language][translation.Key] = translation.Value;
+            Database.Translations[language][translation.Key] = translation.Value;
         }
     }
 
     public void ReadFile()
     {
         var jsonFileString = File.ReadAllText($@"{Constants.LocalizationPath}\localizationDb.json");
-        _database = JsonConvert.DeserializeObject<LocalizationItems>(jsonFileString) ?? new LocalizationItems();
+        Database = JsonConvert.DeserializeObject<LocalizationItems>(jsonFileString) ?? new LocalizationItems();
     }
 
     public void SaveFile()
     {
         //write dictionary to file
-        File.WriteAllText($@"{Constants.LocalizationPath}\localizationDb.json", JsonConvert.SerializeObject(_database, Formatting.Indented));
+        File.WriteAllText($@"{Constants.LocalizationPath}\localizationDb.json", JsonConvert.SerializeObject(Database, Formatting.Indented));
     }
 }
 
@@ -65,7 +65,7 @@ public static class LocalizationFileManager
 
         foreach (var language in localizedLanguages)
         {
-            var foundLocalization = FindLocalizations(language);
+            var foundLocalization = FindLocalizations(language, localizationDb);
             var translatedLocalizations = GetExistingTranslations(language);
             var fileText = $"if GetLocale() == \"{language}\" then\n";
 
@@ -146,7 +146,7 @@ public static class LocalizationFileManager
         localizationDb.SaveFile();
     }
 
-    private static Dictionary<string, string> FindLocalizations(string language)
+    private static Dictionary<string, string> FindLocalizations(string language, LocalizationDb localizationDb)
     {
         var localizations = new Dictionary<string, string>();
 
@@ -166,7 +166,18 @@ public static class LocalizationFileManager
 
         LocalizeFromBlizzard(ref localizations, language);
 
+        LocalizeFromLocalDb(ref localizations, language, localizationDb);
+
         return localizations;
+    }
+
+    private static void LocalizeFromLocalDb(ref Dictionary<string, string> localizations, string language, LocalizationDb localizationDb)
+    {
+        foreach(var dbLoc in localizationDb.Database.Translations[language])
+        {
+            if (!localizations.ContainsKey(dbLoc.Key))
+                localizations[dbLoc.Key] = dbLoc.Value;
+        }
     }
 
     private static void LocalizeFromBlizzard(ref Dictionary<string, string> localizations, string language)
