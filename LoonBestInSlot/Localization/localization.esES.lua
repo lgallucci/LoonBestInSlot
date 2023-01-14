@@ -86,6 +86,7 @@ if GetLocale() == "esES" then
   LBIS.L["Elder Nadox"] = "Ancestro Nadox";
   LBIS.L["Elemental"] = "Elemental";
   LBIS.L["Emalon the Storm Watcher"] = "Emalon el Vigía de la Tormenta";
+--  LBIS.L["Emblem of Conquest"] = "";
 --  LBIS.L["Emblem of Heroism"] = "";
 --  LBIS.L["Emblem of Valor"] = "";
 --  LBIS.L["Emblem Vendor"] = "";
@@ -116,7 +117,7 @@ if GetLocale() == "esES" then
   LBIS.L["Gortok Palehoof"] = "Gortok Pezuña Pálida";
   LBIS.L["Gothik the Harvester"] = "Gothik el Cosechador";
   LBIS.L["Grand Magus Telestra"] = "Gran maga Telestra";
---  LBIS.L["Grand Master Blacksmithing Trainer"] = "";
+  LBIS.L["Grand Master Blacksmithing Trainer"] = "Gran maestro instructor de herrería";
 --  LBIS.L["Grand Master Enchanting Trainer"] = "";
 --  LBIS.L["Grand Master Engineering Trainer"] = "";
 --  LBIS.L["Grand Master Inscription Trainer"] = "";
@@ -188,6 +189,7 @@ if GetLocale() == "esES" then
   LBIS.L["Loken"] = "Loken";
   LBIS.L["Loon Best In Slot"] = "Loon Mejor en la Tragamonedas";
   LBIS.L["Loon Best In Slot Browser"] = "Loon Mejor en el navegador de tragamonedas";
+  LBIS.L["Loop of the Kirin Tor"] = "Aro del Kirin Tor";
 --  LBIS.L["Madame Ruby"] = "";
   LBIS.L["Maexxna"] = "Maexxna";
   LBIS.L["Mage-Lord Urom"] = "Señor de la Magia Urom";
@@ -268,6 +270,7 @@ if GetLocale() == "esES" then
 --  LBIS.L["Show Custom"] = "";
   LBIS.L["Show Minimap Button"] = "Botón Mostrar minimapa";
   LBIS.L["Show Tooltip"] = "Mostrar Descripción Emergente";
+--  LBIS.L["Signet of the Kirin Tor"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "Sjonnir el afilador";
   LBIS.L["Skadi the Ruthless"] = "Skadi el Despiadado";
   LBIS.L["Skarvald the Constructor"] = "Skarvald el Constructor";

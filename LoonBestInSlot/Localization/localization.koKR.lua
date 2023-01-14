@@ -70,7 +70,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Death to the Traitor King"] = "배신자 왕에게 죽음을";
   LBIS.L["Demolitionist Extraordinaire"] = "최고의 폭파병";
   LBIS.L["Demonology"] = "악마";
-  LBIS.L["Deselect"] = "선택 해제";
+--  LBIS.L["Deselect"] = "";
   LBIS.L["Destruction"] = "파괴";
   LBIS.L["Discipline"] = "수양";
   LBIS.L["Dragonblight"] = "용의 안식처";
@@ -86,6 +86,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Elder Nadox"] = "장로 나독스";
   LBIS.L["Elemental"] = "정기";
   LBIS.L["Emalon the Storm Watcher"] = "폭풍 감시자 에말론";
+  LBIS.L["Emblem of Conquest"] = "정복의 문장";
   LBIS.L["Emblem of Heroism"] = "무용의 문장";
   LBIS.L["Emblem of Valor"] = "용맹의 문장";
   LBIS.L["Emblem Vendor"] = "문장 상인";
@@ -188,6 +189,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Loken"] = "로켄";
   LBIS.L["Loon Best In Slot"] = "BIS 아이템";
   LBIS.L["Loon Best In Slot Browser"] = "BIS 아이템 목록";
+  LBIS.L["Loop of the Kirin Tor"] = "키린 토 실반지";
   LBIS.L["Madame Ruby"] = "귀부인 루비 <마법부여용품 상인>";
   LBIS.L["Maexxna"] = "맥스나";
   LBIS.L["Mage-Lord Urom"] = "마법사 군주 우롬";
@@ -214,7 +216,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Neck"] = "목";
   LBIS.L["Neck/Ring"] = "목/손가락";
   LBIS.L["Netherstorm"] = "황천의 폭풍";
---  LBIS.L["New Features"] = "";
+  LBIS.L["New Features"] = "새로운 기능";
   LBIS.L["None"] = "없음";
   LBIS.L["Noth the Plaguebringer"] = "역병술사 노스";
   LBIS.L["Novos the Summoner"] = "소환사 노보스";
@@ -268,6 +270,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Show Custom"] = "커스텀 보이기";
   LBIS.L["Show Minimap Button"] = "미니맵 버튼 보이기";
   LBIS.L["Show Tooltip"] = "직업 툴팁 표시";
+  LBIS.L["Signet of the Kirin Tor"] = "키린 토의 인장";
   LBIS.L["Sjonnir The Ironshaper"] = "무쇠구체자 쇼니르";
   LBIS.L["Skadi the Ruthless"] = "학살자 스카디";
   LBIS.L["Skarvald the Constructor"] = "건축가 스카발드";

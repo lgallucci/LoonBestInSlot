@@ -1,1873 +1,2034 @@
 {
-  "Items": {
-    "39728": {
-      "Name": "Totem of Misery",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "39757": {
-      "Name": "Idol of Worship",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40191": {
-      "Name": "Libram of Radiance",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40207": {
-      "Name": "Sigil of Awareness",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40267": {
-      "Name": "Totem of Hex",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40268": {
-      "Name": "Libram of Tolerance",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40321": {
-      "Name": "Idol of the Shooting Star",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40322": {
-      "Name": "Totem of Dueling",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40337": {
-      "Name": "Libram of Resurgence",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40342": {
-      "Name": "Idol of Awakening",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40610": {
-      "Name": "Chestguard of the Lost Conqueror",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "80",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40611": {
-      "Name": "Chestguard of the Lost Protector",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "80",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40612": {
-      "Name": "Chestguard of the Lost Vanquisher",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "80",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40613": {
-      "Name": "Gloves of the Lost Conqueror",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40614": {
-      "Name": "Gloves of the Lost Protector",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40615": {
-      "Name": "Gloves of the Lost Vanquisher",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40634": {
-      "Name": "Legplates of the Lost Conqueror",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "75",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40635": {
-      "Name": "Legplates of the Lost Protector",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "75",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40636": {
-      "Name": "Legplates of the Lost Vanquisher",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "75",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40637": {
-      "Name": "Mantle of the Lost Conqueror",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40638": {
-      "Name": "Mantle of the Lost Protector",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40639": {
-      "Name": "Mantle of the Lost Vanquisher",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40678": {
-      "Name": "Pendant of the Outcast Hero",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40679": {
-      "Name": "Chained Military Gorget",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40680": {
-      "Name": "Encircling Burnished Gold Chains",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40681": {
-      "Name": "Lattice Choker of Light",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40682": {
-      "Name": "Sundial of the Exiled",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40683": {
-      "Name": "Valor Medal of the First War",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40684": {
-      "Name": "Mirror of Truth",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40685": {
-      "Name": "The Egg of Mortal Essence",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40688": {
-      "Name": "Verdungo's Barbarian Cord",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40689": {
-      "Name": "Waistguard of Living Iron",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40691": {
-      "Name": "Magroth's Meditative Cincture",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40692": {
-      "Name": "Vereesa's Silver Chain Belt",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40693": {
-      "Name": "Beadwork Belt of Shamanic Vision",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40694": {
-      "Name": "Jorach's Crocolisk Skin Belt",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40695": {
-      "Name": "Vine Belt of the Woodland Dryad",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40696": {
-      "Name": "Plush Sash of Guzbah",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40697": {
-      "Name": "Elegant Temple Gardens' Girdle",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40698": {
-      "Name": "Ward of the Violet Citadel",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40699": {
-      "Name": "Handbook of Obscure Remedies",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40700": {
-      "Name": "Protective Barricade of the Light",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "35",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40701": {
-      "Name": "Crygil's Discarded Plate Panel",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "35",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40702": {
-      "Name": "Rolfsen's Ripper",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "50",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40703": {
-      "Name": "Grasscutter",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "50",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40704": {
-      "Name": "Pride",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "50",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40705": {
-      "Name": "Libram of Renewal",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40706": {
-      "Name": "Libram of Reciprocation",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40707": {
-      "Name": "Libram of Obstruction",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40708": {
-      "Name": "Totem of the Elemental Plane",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40709": {
-      "Name": "Totem of Forest Growth",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40710": {
-      "Name": "Totem of Splintering",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40711": {
-      "Name": "Idol of Lush Moss",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40712": {
-      "Name": "Idol of Steadfast Renewal",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40713": {
-      "Name": "Idol of the Ravenous Beast",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40714": {
-      "Name": "Sigil of the Unfaltering Knight",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40715": {
-      "Name": "Sigil of Haunted Dreams",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40716": {
-      "Name": "Lillehoff's Winged Blades",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "15",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40717": {
-      "Name": "Ring of Invincibility",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40718": {
-      "Name": "Signet of the Impregnable Fortress",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40719": {
-      "Name": "Band of Channeled Magic",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40720": {
-      "Name": "Renewal of Life",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40721": {
-      "Name": "Hammerhead Sharkskin Cloak",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40722": {
-      "Name": "Platinum Mesh Cloak",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40723": {
-      "Name": "Disguise of the Kumiho",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40724": {
-      "Name": "Cloak of Kea Feathers",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40733": {
-      "Name": "Wristbands of the Sentinel Huntress",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40734": {
-      "Name": "Bracers of Dalaran's Parapets",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40735": {
-      "Name": "Zartson's Jungle Vambraces",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40736": {
-      "Name": "Armguard of the Tower Archer",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40737": {
-      "Name": "Pigmented Clan Bindings",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40738": {
-      "Name": "Wristwraps of the Cutthroat",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40739": {
-      "Name": "Bands of the Great Tree",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40740": {
-      "Name": "Wraps of the Astral Traveler",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40741": {
-      "Name": "Cuffs of the Shadow Ascendant",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "60",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40742": {
-      "Name": "Bladed Steelboots",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40743": {
-      "Name": "Kyzoc's Ground Stompers",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40745": {
-      "Name": "Sabatons of Rapid Recovery",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40746": {
-      "Name": "Pack-Ice Striders",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40747": {
-      "Name": "Treads of Coastal Wandering",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40748": {
-      "Name": "Boots of Captain Ellis",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40749": {
-      "Name": "Rainey's Chewed Boots",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40750": {
-      "Name": "Xintor's Expeditionary Boots",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40751": {
-      "Name": "Slippers of the Holy Light",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40778": {
-      "Name": "Savage Gladiator's Plate Chestpiece",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40779": {
-      "Name": "Savage Gladiator's Dreadplate Chestpiece",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40780": {
-      "Name": "Savage Gladiator's Scaled Chestpiece",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40781": {
-      "Name": "Hateful Gladiator's Dreadplate Chestpiece",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40782": {
-      "Name": "Hateful Gladiator's Scaled Chestpiece",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40783": {
-      "Name": "Hateful Gladiator's Plate Chestpiece",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40797": {
-      "Name": "Savage Gladiator's Plate Gauntlets",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40798": {
-      "Name": "Savage Gladiator's Scaled Gauntlets",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40799": {
-      "Name": "Savage Gladiator's Dreadplate Gauntlets",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40801": {
-      "Name": "Hateful Gladiator's Plate Gauntlets",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40802": {
-      "Name": "Hateful Gladiator's Scaled Gauntlets",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40803": {
-      "Name": "Hateful Gladiator's Dreadplate Gauntlets",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40816": {
-      "Name": "Savage Gladiator's Plate Helm",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40817": {
-      "Name": "Savage Gladiator's Dreadplate Helm",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40818": {
-      "Name": "Savage Gladiator's Scaled Helm",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40819": {
-      "Name": "Hateful Gladiator's Plate Helm",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40820": {
-      "Name": "Hateful Gladiator's Dreadplate Helm",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40821": {
-      "Name": "Hateful Gladiator's Scaled Helm",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40836": {
-      "Name": "Savage Gladiator's Plate Legguards",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40837": {
-      "Name": "Savage Gladiator's Dreadplate Legguards",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40838": {
-      "Name": "Savage Gladiator's Scaled Legguards",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40840": {
-      "Name": "Hateful Gladiator's Plate Legguards",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40841": {
-      "Name": "Hateful Gladiator's Dreadplate Legguards",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40842": {
-      "Name": "Hateful Gladiator's Scaled Legguards",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40856": {
-      "Name": "Savage Gladiator's Plate Shoulders",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40857": {
-      "Name": "Savage Gladiator's Dreadplate Shoulders",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40858": {
-      "Name": "Savage Gladiator's Scaled Shoulders",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40859": {
-      "Name": "Hateful Gladiator's Plate Shoulders",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40860": {
-      "Name": "Hateful Gladiator's Dreadplate Shoulders",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40861": {
-      "Name": "Hateful Gladiator's Scaled Shoulders",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40898": {
-      "Name": "Savage Gladiator's Ornamented Chestguard",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40904": {
-      "Name": "Hateful Gladiator's Ornamented Chestguard",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40918": {
-      "Name": "Savage Gladiator's Ornamented Gloves",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40925": {
-      "Name": "Hateful Gladiator's Ornamented Gloves",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40930": {
-      "Name": "Savage Gladiator's Ornamented Headcover",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40931": {
-      "Name": "Hateful Gladiator's Ornamented Headcover",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40936": {
-      "Name": "Savage Gladiator's Ornamented Legplates",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40937": {
-      "Name": "Hateful Gladiator's Ornamented Legplates",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40960": {
-      "Name": "Savage Gladiator's Ornamented Spaulders",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40961": {
-      "Name": "Hateful Gladiator's Ornamented Spaulders",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40986": {
-      "Name": "Savage Gladiator's Ringmail Armor",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40987": {
-      "Name": "Savage Gladiator's Mail Armor",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40988": {
-      "Name": "Hateful Gladiator's Ringmail Armor",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40989": {
-      "Name": "Hateful Gladiator's Mail Armor",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40998": {
-      "Name": "Savage Gladiator's Ringmail Gauntlets",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "40999": {
-      "Name": "Hateful Gladiator's Ringmail Gauntlets",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41004": {
-      "Name": "Savage Gladiator's Mail Gauntlets",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41005": {
-      "Name": "Hateful Gladiator's Mail Gauntlets",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41010": {
-      "Name": "Savage Gladiator's Ringmail Helm",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41011": {
-      "Name": "Hateful Gladiator's Ringmail Helm",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41016": {
-      "Name": "Savage Gladiator's Mail Helm",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41017": {
-      "Name": "Hateful Gladiator's Mail Helm",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41023": {
-      "Name": "Savage Gladiator's Ringmail Leggings",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41024": {
-      "Name": "Savage Gladiator's Ringmail Spaulders",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41025": {
-      "Name": "Hateful Gladiator's Ringmail Leggings",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41030": {
-      "Name": "Savage Gladiator's Mail Leggings",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41031": {
-      "Name": "Hateful Gladiator's Mail Leggings",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41036": {
-      "Name": "Hateful Gladiator's Ringmail Spaulders",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41041": {
-      "Name": "Savage Gladiator's Mail Spaulders",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41042": {
-      "Name": "Hateful Gladiator's Mail Spaulders",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41078": {
-      "Name": "Savage Gladiator's Linked Armor",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41079": {
-      "Name": "Hateful Gladiator's Linked Armor",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41084": {
-      "Name": "Savage Gladiator's Chain Armor",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41085": {
-      "Name": "Hateful Gladiator's Chain Armor",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41134": {
-      "Name": "Savage Gladiator's Linked Gauntlets",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41135": {
-      "Name": "Hateful Gladiator's Linked Gauntlets",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41140": {
-      "Name": "Savage Gladiator's Chain Gauntlets",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41141": {
-      "Name": "Hateful Gladiator's Chain Gauntlets",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41148": {
-      "Name": "Savage Gladiator's Linked Helm",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41149": {
-      "Name": "Hateful Gladiator's Linked Helm",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41154": {
-      "Name": "Savage Gladiator's Chain Helm",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41155": {
-      "Name": "Hateful Gladiator's Chain Helm",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41160": {
-      "Name": "Savage Gladiator's Linked Leggings",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41162": {
-      "Name": "Hateful Gladiator's Linked Leggings",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41202": {
-      "Name": "Savage Gladiator's Chain Leggings",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41203": {
-      "Name": "Hateful Gladiator's Chain Leggings",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41208": {
-      "Name": "Savage Gladiator's Linked Spaulders",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41209": {
-      "Name": "Hateful Gladiator's Linked Spaulders",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41214": {
-      "Name": "Savage Gladiator's Chain Spaulders",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41215": {
-      "Name": "Hateful Gladiator's Chain Spaulders",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41268": {
-      "Name": "Savage Gladiator's Kodohide Gloves",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41269": {
-      "Name": "Savage Gladiator's Kodohide Helm",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41270": {
-      "Name": "Savage Gladiator's Kodohide Legguards",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41271": {
-      "Name": "Savage Gladiator's Kodohide Spaulders",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41272": {
-      "Name": "Savage Gladiator's Kodohide Robes",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41273": {
-      "Name": "Hateful Gladiator's Kodohide Spaulders",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41278": {
-      "Name": "Savage Gladiator's Wyrmhide Spaulders",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41279": {
-      "Name": "Hateful Gladiator's Wyrmhide Spaulders",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41284": {
-      "Name": "Hateful Gladiator's Kodohide Gloves",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41290": {
-      "Name": "Savage Gladiator's Wyrmhide Gloves",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41291": {
-      "Name": "Hateful Gladiator's Wyrmhide Gloves",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41296": {
-      "Name": "Hateful Gladiator's Kodohide Legguards",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41301": {
-      "Name": "Savage Gladiator's Wyrmhide Legguards",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41302": {
-      "Name": "Hateful Gladiator's Wyrmhide Legguards",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41308": {
-      "Name": "Hateful Gladiator's Kodohide Robes",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41313": {
-      "Name": "Savage Gladiator's Wyrmhide Robes",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41314": {
-      "Name": "Hateful Gladiator's Wyrmhide Robes",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41319": {
-      "Name": "Hateful Gladiator's Kodohide Helm",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41324": {
-      "Name": "Savage Gladiator's Wyrmhide Helm",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41325": {
-      "Name": "Hateful Gladiator's Wyrmhide Helm",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41643": {
-      "Name": "Savage Gladiator's Leather Gloves",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41644": {
-      "Name": "Savage Gladiator's Leather Helm",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41645": {
-      "Name": "Savage Gladiator's Leather Legguards",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41646": {
-      "Name": "Savage Gladiator's Leather Spaulders",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41647": {
-      "Name": "Savage Gladiator's Leather Tunic",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41648": {
-      "Name": "Hateful Gladiator's Leather Tunic",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41653": {
-      "Name": "Hateful Gladiator's Leather Legguards",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41658": {
-      "Name": "Savage Gladiator's Dragonhide Robes",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41659": {
-      "Name": "Hateful Gladiator's Dragonhide Robes",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41664": {
-      "Name": "Savage Gladiator's Dragonhide Legguards",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41665": {
-      "Name": "Hateful Gladiator's Dragonhide Legguards",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41670": {
-      "Name": "Hateful Gladiator's Leather Helm",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41675": {
-      "Name": "Savage Gladiator's Dragonhide Helm",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41676": {
-      "Name": "Hateful Gladiator's Dragonhide Helm",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41681": {
-      "Name": "Hateful Gladiator's Leather Spaulders",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41712": {
-      "Name": "Savage Gladiator's Dragonhide Spaulders",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41713": {
-      "Name": "Hateful Gladiator's Dragonhide Spaulders",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41765": {
-      "Name": "Hateful Gladiator's Leather Gloves",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41770": {
-      "Name": "Savage Gladiator's Dragonhide Gloves",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41771": {
-      "Name": "Hateful Gladiator's Dragonhide Gloves",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41847": {
-      "Name": "Savage Gladiator's Mooncloth Gloves",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41848": {
-      "Name": "Savage Gladiator's Mooncloth Hood",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41849": {
-      "Name": "Savage Gladiator's Mooncloth Leggings",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41850": {
-      "Name": "Savage Gladiator's Mooncloth Mantle",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41851": {
-      "Name": "Savage Gladiator's Mooncloth Robe",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41852": {
-      "Name": "Hateful Gladiator's Mooncloth Hood",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41857": {
-      "Name": "Hateful Gladiator's Mooncloth Robe",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41862": {
-      "Name": "Hateful Gladiator's Mooncloth Leggings",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41867": {
-      "Name": "Hateful Gladiator's Mooncloth Mantle",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41872": {
-      "Name": "Hateful Gladiator's Mooncloth Gloves",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41912": {
-      "Name": "Savage Gladiator's Satin Hood",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41913": {
-      "Name": "Hateful Gladiator's Satin Hood",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41918": {
-      "Name": "Savage Gladiator's Satin Robe",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41919": {
-      "Name": "Hateful Gladiator's Satin Robe",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41924": {
-      "Name": "Savage Gladiator's Satin Leggings",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41925": {
-      "Name": "Hateful Gladiator's Satin Leggings",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41930": {
-      "Name": "Savage Gladiator's Satin Mantle",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41931": {
-      "Name": "Hateful Gladiator's Satin Mantle",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41937": {
-      "Name": "Savage Gladiator's Satin Gloves",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41938": {
-      "Name": "Hateful Gladiator's Satin Gloves",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41943": {
-      "Name": "Savage Gladiator's Silk Cowl",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41944": {
-      "Name": "Hateful Gladiator's Silk Cowl",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41949": {
-      "Name": "Savage Gladiator's Silk Raiment",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41950": {
-      "Name": "Hateful Gladiator's Silk Raiment",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41956": {
-      "Name": "Savage Gladiator's Silk Trousers",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41957": {
-      "Name": "Hateful Gladiator's Silk Trousers",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41962": {
-      "Name": "Savage Gladiator's Silk Amice",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41963": {
-      "Name": "Hateful Gladiator's Silk Amice",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41968": {
-      "Name": "Savage Gladiator's Silk Handguards",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41969": {
-      "Name": "Hateful Gladiator's Silk Handguards",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41990": {
-      "Name": "Savage Gladiator's Felweave Cowl",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41991": {
-      "Name": "Hateful Gladiator's Felweave Cowl",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "41996": {
-      "Name": "Savage Gladiator's Felweave Raiment",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "42001": {
-      "Name": "Hateful Gladiator's Felweave Raiment",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "42002": {
-      "Name": "Savage Gladiator's Felweave Trousers",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "42003": {
-      "Name": "Hateful Gladiator's Felweave Trousers",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "45",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "42008": {
-      "Name": "Savage Gladiator's Felweave Amice",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "42009": {
-      "Name": "Hateful Gladiator's Felweave Amice",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "42014": {
-      "Name": "Savage Gladiator's Felweave Handguards",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "42015": {
-      "Name": "Hateful Gladiator's Felweave Handguards",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "43102": {
-      "Name": "Frozen Orb",
-      "Source": "Emblem of Heroism",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "10",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "47661": {
-      "Name": "Libram of Valiance",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "47662": {
-      "Name": "Libram of Veracity",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "47664": {
-      "Name": "Libram of Defiance",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "47665": {
-      "Name": "Totem of Calming Tides",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "47666": {
-      "Name": "Totem of Electrifying Wind",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "47667": {
-      "Name": "Totem of Quaking Earth",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "47668": {
-      "Name": "Idol of Mutilation",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "47670": {
-      "Name": "Idol of Lunar Fury",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "47671": {
-      "Name": "Idol of Flaring Growth",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "47672": {
-      "Name": "Sigil of Insolence",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "47673": {
-      "Name": "Sigil of Virulence",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "25",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "50454": {
-      "Name": "Idol of the Black Willow",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "50455": {
-      "Name": "Libram of Three Truths",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "50456": {
-      "Name": "Idol of the Crying Moon",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "50457": {
-      "Name": "Idol of the Lunar Eclipse",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "50458": {
-      "Name": "Bizuri's Totem of Shattered Ice",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "50459": {
-      "Name": "Sigil of the Hanged Man",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "50460": {
-      "Name": "Libram of Blinding Light",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "50461": {
-      "Name": "Libram of the Eternal Tower",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "50462": {
-      "Name": "Sigil of the Bone Gryphon",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "50463": {
-      "Name": "Totem of the Avalanche",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
-    },
-    "50464": {
-      "Name": "Totem of the Surging Sea",
-      "Source": "Emblem of Valor",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor"
+    "Items": {
+        "39728": {
+            "Name": "Totem of Misery",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "39757": {
+            "Name": "Idol of Worship",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40191": {
+            "Name": "Libram of Radiance",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40207": {
+            "Name": "Sigil of Awareness",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40267": {
+            "Name": "Totem of Hex",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40268": {
+            "Name": "Libram of Tolerance",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40321": {
+            "Name": "Idol of the Shooting Star",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40322": {
+            "Name": "Totem of Dueling",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40337": {
+            "Name": "Libram of Resurgence",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40342": {
+            "Name": "Idol of Awakening",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40610": {
+            "Name": "Chestguard of the Lost Conqueror",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "80",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40611": {
+            "Name": "Chestguard of the Lost Protector",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "80",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40612": {
+            "Name": "Chestguard of the Lost Vanquisher",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "80",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40613": {
+            "Name": "Gloves of the Lost Conqueror",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "60",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40614": {
+            "Name": "Gloves of the Lost Protector",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "60",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40615": {
+            "Name": "Gloves of the Lost Vanquisher",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "60",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40634": {
+            "Name": "Legplates of the Lost Conqueror",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "75",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40635": {
+            "Name": "Legplates of the Lost Protector",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "75",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40636": {
+            "Name": "Legplates of the Lost Vanquisher",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "75",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40637": {
+            "Name": "Mantle of the Lost Conqueror",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "60",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40638": {
+            "Name": "Mantle of the Lost Protector",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "60",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40639": {
+            "Name": "Mantle of the Lost Vanquisher",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "60",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40678": {
+            "Name": "Pendant of the Outcast Hero",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40679": {
+            "Name": "Chained Military Gorget",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40680": {
+            "Name": "Encircling Burnished Gold Chains",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40681": {
+            "Name": "Lattice Choker of Light",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40682": {
+            "Name": "Sundial of the Exiled",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40683": {
+            "Name": "Valor Medal of the First War",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40684": {
+            "Name": "Mirror of Truth",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40685": {
+            "Name": "The Egg of Mortal Essence",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40688": {
+            "Name": "Verdungo's Barbarian Cord",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40689": {
+            "Name": "Waistguard of Living Iron",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40691": {
+            "Name": "Magroth's Meditative Cincture",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40692": {
+            "Name": "Vereesa's Silver Chain Belt",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40693": {
+            "Name": "Beadwork Belt of Shamanic Vision",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40694": {
+            "Name": "Jorach's Crocolisk Skin Belt",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40695": {
+            "Name": "Vine Belt of the Woodland Dryad",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40696": {
+            "Name": "Plush Sash of Guzbah",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40697": {
+            "Name": "Elegant Temple Gardens' Girdle",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40698": {
+            "Name": "Ward of the Violet Citadel",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40699": {
+            "Name": "Handbook of Obscure Remedies",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40700": {
+            "Name": "Protective Barricade of the Light",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "35",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40701": {
+            "Name": "Crygil's Discarded Plate Panel",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "35",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40702": {
+            "Name": "Rolfsen's Ripper",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "50",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40703": {
+            "Name": "Grasscutter",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "50",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40704": {
+            "Name": "Pride",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "50",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40705": {
+            "Name": "Libram of Renewal",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "15",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40706": {
+            "Name": "Libram of Reciprocation",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "15",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40707": {
+            "Name": "Libram of Obstruction",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "15",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40708": {
+            "Name": "Totem of the Elemental Plane",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "15",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40709": {
+            "Name": "Totem of Forest Growth",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "15",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40710": {
+            "Name": "Totem of Splintering",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "15",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40711": {
+            "Name": "Idol of Lush Moss",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "15",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40712": {
+            "Name": "Idol of Steadfast Renewal",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "15",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40713": {
+            "Name": "Idol of the Ravenous Beast",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "15",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40714": {
+            "Name": "Sigil of the Unfaltering Knight",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "15",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40715": {
+            "Name": "Sigil of Haunted Dreams",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "15",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40716": {
+            "Name": "Lillehoff's Winged Blades",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "15",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40717": {
+            "Name": "Ring of Invincibility",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40718": {
+            "Name": "Signet of the Impregnable Fortress",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40719": {
+            "Name": "Band of Channeled Magic",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40720": {
+            "Name": "Renewal of Life",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40721": {
+            "Name": "Hammerhead Sharkskin Cloak",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40722": {
+            "Name": "Platinum Mesh Cloak",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40723": {
+            "Name": "Disguise of the Kumiho",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40724": {
+            "Name": "Cloak of Kea Feathers",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40733": {
+            "Name": "Wristbands of the Sentinel Huntress",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "60",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40734": {
+            "Name": "Bracers of Dalaran's Parapets",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "60",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40735": {
+            "Name": "Zartson's Jungle Vambraces",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "60",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40736": {
+            "Name": "Armguard of the Tower Archer",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "60",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40737": {
+            "Name": "Pigmented Clan Bindings",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "60",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40738": {
+            "Name": "Wristwraps of the Cutthroat",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "60",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40739": {
+            "Name": "Bands of the Great Tree",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "60",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40740": {
+            "Name": "Wraps of the Astral Traveler",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "60",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40741": {
+            "Name": "Cuffs of the Shadow Ascendant",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "60",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40742": {
+            "Name": "Bladed Steelboots",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40743": {
+            "Name": "Kyzoc's Ground Stompers",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40745": {
+            "Name": "Sabatons of Rapid Recovery",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40746": {
+            "Name": "Pack-Ice Striders",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40747": {
+            "Name": "Treads of Coastal Wandering",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40748": {
+            "Name": "Boots of Captain Ellis",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40749": {
+            "Name": "Rainey's Chewed Boots",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40750": {
+            "Name": "Xintor's Expeditionary Boots",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40751": {
+            "Name": "Slippers of the Holy Light",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "40",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40778": {
+            "Name": "Savage Gladiator's Plate Chestpiece",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40779": {
+            "Name": "Savage Gladiator's Dreadplate Chestpiece",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40780": {
+            "Name": "Savage Gladiator's Scaled Chestpiece",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40781": {
+            "Name": "Hateful Gladiator's Dreadplate Chestpiece",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40782": {
+            "Name": "Hateful Gladiator's Scaled Chestpiece",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40783": {
+            "Name": "Hateful Gladiator's Plate Chestpiece",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40797": {
+            "Name": "Savage Gladiator's Plate Gauntlets",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40798": {
+            "Name": "Savage Gladiator's Scaled Gauntlets",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40799": {
+            "Name": "Savage Gladiator's Dreadplate Gauntlets",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40801": {
+            "Name": "Hateful Gladiator's Plate Gauntlets",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40802": {
+            "Name": "Hateful Gladiator's Scaled Gauntlets",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40803": {
+            "Name": "Hateful Gladiator's Dreadplate Gauntlets",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40816": {
+            "Name": "Savage Gladiator's Plate Helm",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40817": {
+            "Name": "Savage Gladiator's Dreadplate Helm",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40818": {
+            "Name": "Savage Gladiator's Scaled Helm",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40819": {
+            "Name": "Hateful Gladiator's Plate Helm",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40820": {
+            "Name": "Hateful Gladiator's Dreadplate Helm",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40821": {
+            "Name": "Hateful Gladiator's Scaled Helm",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40836": {
+            "Name": "Savage Gladiator's Plate Legguards",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40837": {
+            "Name": "Savage Gladiator's Dreadplate Legguards",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40838": {
+            "Name": "Savage Gladiator's Scaled Legguards",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40840": {
+            "Name": "Hateful Gladiator's Plate Legguards",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40841": {
+            "Name": "Hateful Gladiator's Dreadplate Legguards",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40842": {
+            "Name": "Hateful Gladiator's Scaled Legguards",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40856": {
+            "Name": "Savage Gladiator's Plate Shoulders",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40857": {
+            "Name": "Savage Gladiator's Dreadplate Shoulders",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40858": {
+            "Name": "Savage Gladiator's Scaled Shoulders",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40859": {
+            "Name": "Hateful Gladiator's Plate Shoulders",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40860": {
+            "Name": "Hateful Gladiator's Dreadplate Shoulders",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40861": {
+            "Name": "Hateful Gladiator's Scaled Shoulders",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40898": {
+            "Name": "Savage Gladiator's Ornamented Chestguard",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40904": {
+            "Name": "Hateful Gladiator's Ornamented Chestguard",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40918": {
+            "Name": "Savage Gladiator's Ornamented Gloves",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40925": {
+            "Name": "Hateful Gladiator's Ornamented Gloves",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40930": {
+            "Name": "Savage Gladiator's Ornamented Headcover",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40931": {
+            "Name": "Hateful Gladiator's Ornamented Headcover",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40936": {
+            "Name": "Savage Gladiator's Ornamented Legplates",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40937": {
+            "Name": "Hateful Gladiator's Ornamented Legplates",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40960": {
+            "Name": "Savage Gladiator's Ornamented Spaulders",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40961": {
+            "Name": "Hateful Gladiator's Ornamented Spaulders",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40986": {
+            "Name": "Savage Gladiator's Ringmail Armor",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40987": {
+            "Name": "Savage Gladiator's Mail Armor",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40988": {
+            "Name": "Hateful Gladiator's Ringmail Armor",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40989": {
+            "Name": "Hateful Gladiator's Mail Armor",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40998": {
+            "Name": "Savage Gladiator's Ringmail Gauntlets",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "40999": {
+            "Name": "Hateful Gladiator's Ringmail Gauntlets",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41004": {
+            "Name": "Savage Gladiator's Mail Gauntlets",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41005": {
+            "Name": "Hateful Gladiator's Mail Gauntlets",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41010": {
+            "Name": "Savage Gladiator's Ringmail Helm",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41011": {
+            "Name": "Hateful Gladiator's Ringmail Helm",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41016": {
+            "Name": "Savage Gladiator's Mail Helm",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41017": {
+            "Name": "Hateful Gladiator's Mail Helm",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41023": {
+            "Name": "Savage Gladiator's Ringmail Leggings",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41024": {
+            "Name": "Savage Gladiator's Ringmail Spaulders",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41025": {
+            "Name": "Hateful Gladiator's Ringmail Leggings",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41030": {
+            "Name": "Savage Gladiator's Mail Leggings",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41031": {
+            "Name": "Hateful Gladiator's Mail Leggings",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41036": {
+            "Name": "Hateful Gladiator's Ringmail Spaulders",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41041": {
+            "Name": "Savage Gladiator's Mail Spaulders",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41042": {
+            "Name": "Hateful Gladiator's Mail Spaulders",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41078": {
+            "Name": "Savage Gladiator's Linked Armor",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41079": {
+            "Name": "Hateful Gladiator's Linked Armor",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41084": {
+            "Name": "Savage Gladiator's Chain Armor",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41085": {
+            "Name": "Hateful Gladiator's Chain Armor",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41134": {
+            "Name": "Savage Gladiator's Linked Gauntlets",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41135": {
+            "Name": "Hateful Gladiator's Linked Gauntlets",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41140": {
+            "Name": "Savage Gladiator's Chain Gauntlets",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41141": {
+            "Name": "Hateful Gladiator's Chain Gauntlets",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41148": {
+            "Name": "Savage Gladiator's Linked Helm",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41149": {
+            "Name": "Hateful Gladiator's Linked Helm",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41154": {
+            "Name": "Savage Gladiator's Chain Helm",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41155": {
+            "Name": "Hateful Gladiator's Chain Helm",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41160": {
+            "Name": "Savage Gladiator's Linked Leggings",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41162": {
+            "Name": "Hateful Gladiator's Linked Leggings",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41202": {
+            "Name": "Savage Gladiator's Chain Leggings",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41203": {
+            "Name": "Hateful Gladiator's Chain Leggings",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41208": {
+            "Name": "Savage Gladiator's Linked Spaulders",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41209": {
+            "Name": "Hateful Gladiator's Linked Spaulders",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41214": {
+            "Name": "Savage Gladiator's Chain Spaulders",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41215": {
+            "Name": "Hateful Gladiator's Chain Spaulders",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41268": {
+            "Name": "Savage Gladiator's Kodohide Gloves",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41269": {
+            "Name": "Savage Gladiator's Kodohide Helm",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41270": {
+            "Name": "Savage Gladiator's Kodohide Legguards",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41271": {
+            "Name": "Savage Gladiator's Kodohide Spaulders",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41272": {
+            "Name": "Savage Gladiator's Kodohide Robes",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41273": {
+            "Name": "Hateful Gladiator's Kodohide Spaulders",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41278": {
+            "Name": "Savage Gladiator's Wyrmhide Spaulders",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41279": {
+            "Name": "Hateful Gladiator's Wyrmhide Spaulders",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41284": {
+            "Name": "Hateful Gladiator's Kodohide Gloves",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41290": {
+            "Name": "Savage Gladiator's Wyrmhide Gloves",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41291": {
+            "Name": "Hateful Gladiator's Wyrmhide Gloves",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41296": {
+            "Name": "Hateful Gladiator's Kodohide Legguards",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41301": {
+            "Name": "Savage Gladiator's Wyrmhide Legguards",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41302": {
+            "Name": "Hateful Gladiator's Wyrmhide Legguards",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41308": {
+            "Name": "Hateful Gladiator's Kodohide Robes",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41313": {
+            "Name": "Savage Gladiator's Wyrmhide Robes",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41314": {
+            "Name": "Hateful Gladiator's Wyrmhide Robes",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41319": {
+            "Name": "Hateful Gladiator's Kodohide Helm",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41324": {
+            "Name": "Savage Gladiator's Wyrmhide Helm",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41325": {
+            "Name": "Hateful Gladiator's Wyrmhide Helm",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41643": {
+            "Name": "Savage Gladiator's Leather Gloves",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41644": {
+            "Name": "Savage Gladiator's Leather Helm",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41645": {
+            "Name": "Savage Gladiator's Leather Legguards",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41646": {
+            "Name": "Savage Gladiator's Leather Spaulders",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41647": {
+            "Name": "Savage Gladiator's Leather Tunic",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41648": {
+            "Name": "Hateful Gladiator's Leather Tunic",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41653": {
+            "Name": "Hateful Gladiator's Leather Legguards",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41658": {
+            "Name": "Savage Gladiator's Dragonhide Robes",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41659": {
+            "Name": "Hateful Gladiator's Dragonhide Robes",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41664": {
+            "Name": "Savage Gladiator's Dragonhide Legguards",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41665": {
+            "Name": "Hateful Gladiator's Dragonhide Legguards",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41670": {
+            "Name": "Hateful Gladiator's Leather Helm",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41675": {
+            "Name": "Savage Gladiator's Dragonhide Helm",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41676": {
+            "Name": "Hateful Gladiator's Dragonhide Helm",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41681": {
+            "Name": "Hateful Gladiator's Leather Spaulders",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41712": {
+            "Name": "Savage Gladiator's Dragonhide Spaulders",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41713": {
+            "Name": "Hateful Gladiator's Dragonhide Spaulders",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41765": {
+            "Name": "Hateful Gladiator's Leather Gloves",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41770": {
+            "Name": "Savage Gladiator's Dragonhide Gloves",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41771": {
+            "Name": "Hateful Gladiator's Dragonhide Gloves",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41847": {
+            "Name": "Savage Gladiator's Mooncloth Gloves",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41848": {
+            "Name": "Savage Gladiator's Mooncloth Hood",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41849": {
+            "Name": "Savage Gladiator's Mooncloth Leggings",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41850": {
+            "Name": "Savage Gladiator's Mooncloth Mantle",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41851": {
+            "Name": "Savage Gladiator's Mooncloth Robe",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41852": {
+            "Name": "Hateful Gladiator's Mooncloth Hood",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41857": {
+            "Name": "Hateful Gladiator's Mooncloth Robe",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41862": {
+            "Name": "Hateful Gladiator's Mooncloth Leggings",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41867": {
+            "Name": "Hateful Gladiator's Mooncloth Mantle",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41872": {
+            "Name": "Hateful Gladiator's Mooncloth Gloves",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41912": {
+            "Name": "Savage Gladiator's Satin Hood",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41913": {
+            "Name": "Hateful Gladiator's Satin Hood",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41918": {
+            "Name": "Savage Gladiator's Satin Robe",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41919": {
+            "Name": "Hateful Gladiator's Satin Robe",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41924": {
+            "Name": "Savage Gladiator's Satin Leggings",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41925": {
+            "Name": "Hateful Gladiator's Satin Leggings",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41930": {
+            "Name": "Savage Gladiator's Satin Mantle",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41931": {
+            "Name": "Hateful Gladiator's Satin Mantle",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41937": {
+            "Name": "Savage Gladiator's Satin Gloves",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41938": {
+            "Name": "Hateful Gladiator's Satin Gloves",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41943": {
+            "Name": "Savage Gladiator's Silk Cowl",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41944": {
+            "Name": "Hateful Gladiator's Silk Cowl",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41949": {
+            "Name": "Savage Gladiator's Silk Raiment",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41950": {
+            "Name": "Hateful Gladiator's Silk Raiment",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41956": {
+            "Name": "Savage Gladiator's Silk Trousers",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41957": {
+            "Name": "Hateful Gladiator's Silk Trousers",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41962": {
+            "Name": "Savage Gladiator's Silk Amice",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41963": {
+            "Name": "Hateful Gladiator's Silk Amice",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41968": {
+            "Name": "Savage Gladiator's Silk Handguards",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41969": {
+            "Name": "Hateful Gladiator's Silk Handguards",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41990": {
+            "Name": "Savage Gladiator's Felweave Cowl",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41991": {
+            "Name": "Hateful Gladiator's Felweave Cowl",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "41996": {
+            "Name": "Savage Gladiator's Felweave Raiment",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "42001": {
+            "Name": "Hateful Gladiator's Felweave Raiment",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "42002": {
+            "Name": "Savage Gladiator's Felweave Trousers",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "42003": {
+            "Name": "Hateful Gladiator's Felweave Trousers",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "45",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "42008": {
+            "Name": "Savage Gladiator's Felweave Amice",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "42009": {
+            "Name": "Hateful Gladiator's Felweave Amice",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "42014": {
+            "Name": "Savage Gladiator's Felweave Handguards",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "42015": {
+            "Name": "Hateful Gladiator's Felweave Handguards",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "43102": {
+            "Name": "Frozen Orb",
+            "Source": "Emblem of Heroism",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "10",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45819": {
+            "Name": "Spiked Battleguard Choker",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "19",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45820": {
+            "Name": "Broach of the Wailing Night",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "19",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45821": {
+            "Name": "Shard of the Crystal Forest",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "19",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45822": {
+            "Name": "Evoker's Charm",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "19",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45824": {
+            "Name": "Belt of the Singing Blade",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "28",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45825": {
+            "Name": "Shieldwarder Girdle",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "28",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45827": {
+            "Name": "Belt of the Ardent Marksman",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "28",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45828": {
+            "Name": "Windchill Binding",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "28",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45829": {
+            "Name": "Belt of the Twilight Assassin",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "28",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45830": {
+            "Name": "Belt of the Living Thicket",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "28",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45831": {
+            "Name": "Sash of Potent Incantations",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "28",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45833": {
+            "Name": "Bladebreaker Gauntlets",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "28",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45834": {
+            "Name": "Gauntlets of the Royal Watch",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "28",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45836": {
+            "Name": "Gloves of Unerring Aim",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "28",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45838": {
+            "Name": "Gloves of the Blind Stalker",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "28",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45840": {
+            "Name": "Touch of the Occult",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "28",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45841": {
+            "Name": "Legplates of the Violet Champion",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "39",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45842": {
+            "Name": "Wyrmguard Legplates",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "39",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45844": {
+            "Name": "Leggings of the Tireless Sentry",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "39",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45845": {
+            "Name": "Leggings of the Weary Mystic",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45846": {
+            "Name": "Leggings of Wavering Shadow",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "39",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45847": {
+            "Name": "Wildstrider Legguards",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "39",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "45848": {
+            "Name": "Legwraps of the Master Conjurer",
+            "Source": "Emblem of Conquest",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "39",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "47661": {
+            "Name": "Libram of Valiance",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "47662": {
+            "Name": "Libram of Veracity",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "47664": {
+            "Name": "Libram of Defiance",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "47665": {
+            "Name": "Totem of Calming Tides",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "47666": {
+            "Name": "Totem of Electrifying Wind",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "47667": {
+            "Name": "Totem of Quaking Earth",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "47668": {
+            "Name": "Idol of Mutilation",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "47670": {
+            "Name": "Idol of Lunar Fury",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "47671": {
+            "Name": "Idol of Flaring Growth",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "47672": {
+            "Name": "Sigil of Insolence",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "47673": {
+            "Name": "Sigil of Virulence",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "25",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "50454": {
+            "Name": "Idol of the Black Willow",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "50455": {
+            "Name": "Libram of Three Truths",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "50456": {
+            "Name": "Idol of the Crying Moon",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "50457": {
+            "Name": "Idol of the Lunar Eclipse",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "50458": {
+            "Name": "Bizuri's Totem of Shattered Ice",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "50459": {
+            "Name": "Sigil of the Hanged Man",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "50460": {
+            "Name": "Libram of Blinding Light",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "50461": {
+            "Name": "Libram of the Eternal Tower",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "50462": {
+            "Name": "Sigil of the Bone Gryphon",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "50463": {
+            "Name": "Totem of the Avalanche",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        },
+        "50464": {
+            "Name": "Totem of the Surging Sea",
+            "Source": "Emblem of Valor",
+            "SourceType": "Dungeon Token",
+            "SourceNumber": "30",
+            "SourceLocation": "Emblem Vendor"
+        }
     }
-  }
 }

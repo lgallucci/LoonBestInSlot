@@ -1,8 +1,10 @@
 ﻿using AddonManager.FileManagers;
 using AddonManager.Models;
 using Newtonsoft.Json;
+using System;
 using System.IO;
 using System.Security;
+using System.Windows.Controls;
 
 namespace AddonManager;
 public static class WowheadImporter
@@ -220,8 +222,7 @@ public static class WowheadImporter
         GetItems(csvLootTable, "EmblemItemList");
         GetItems(csvLootTable, "PvPItemList");
         GetItems(csvLootTable, "ReputationItemList");
-
-        //UpdateProfessionItems(csvLootTable);
+        UpdateProfessionItems(csvLootTable);
 
         var tokenKeys = UpdateTierPieces(csvLootTable, itemSources);
 
@@ -254,6 +255,57 @@ public static class WowheadImporter
         }
 
         ItemSourceFileManager.WriteItemSources(itemSources);
+    }
+
+    private static void UpdateProfessionItems(Dictionary<int, CsvLootTable> csvLootTable)
+    {
+        DatabaseItems dbItem;
+        var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\ProfessionItemList.json");
+        dbItem = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
+
+        foreach (var item in dbItem.Items)
+        {
+            var ids = item.Value.SourceNumber.Split(",");            
+            var itemId = Int32.Parse(ids[0]);
+            int spellId = 0;
+            if (ids.Length > 1)
+                spellId = Int32.Parse(ids[1]);
+            if (itemId > 0)
+            {
+                var itemName = item.Value.Name.Split(":")[1].Trim();
+                csvLootTable.Add(itemId, new CsvLootTable
+                {
+                    ItemId = itemId,
+                    Name = itemName,
+                    ItemSource =
+                    {
+                        new ImportItemSource
+                        {
+                            SourceType = "Profession",
+                            Source = item.Value.Source,
+                            SourceNumber = item.Key.ToString(),
+                            SourceLocation = spellId.ToString()
+                        }
+                    }
+                });
+
+                csvLootTable.Add(item.Key, new CsvLootTable
+                {
+                    ItemId = item.Key,
+                    Name = item.Value.Name,
+                    ItemSource =
+                    {
+                        new ImportItemSource
+                        {
+                            SourceType = "Profession",
+                            Source = item.Value.Source,
+                            SourceNumber = "0",
+                            SourceLocation = item.Value.SourceLocation
+                        }
+                    }
+                });
+            }
+        }
     }
 
     private static Dictionary<int, ItemSpec> ExcludeItemsFromPhaseGuide(Dictionary<int, ItemSpec> items, int phaseNumber, string specName)
