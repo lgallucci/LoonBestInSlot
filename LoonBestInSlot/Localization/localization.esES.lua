@@ -333,7 +333,6 @@ if GetLocale() == "esES" then
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
---  LBIS.L["Titan Rune Dungeon"] = "";
   LBIS.L["Token"] = "Ficha";
   LBIS.L["Tokens"] = "Fichas";
   LBIS.L["Transmute"] = "Transmutar";
@@ -348,6 +347,7 @@ if GetLocale() == "esES" then
   LBIS.L["Ulduar (10)"] = "Ulduar (10)";
   LBIS.L["Ulduar (25)"] = "Ulduar (25)";
   LBIS.L["Unholy"] = "Profano";
+  LBIS.L["Unknown (Heroic+)"] = "Entidad desconocida (Heroico+)";
 --  LBIS.L["Unknown Boss"] = "";
   LBIS.L["Utgarde Keep (Heroic)"] = "Fortaleza de Utgarde (Heroico)";
   LBIS.L["Utgarde Pinnacle"] = "Pináculo de Utgarde";

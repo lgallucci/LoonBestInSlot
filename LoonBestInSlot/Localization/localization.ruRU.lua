@@ -333,7 +333,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
---  LBIS.L["Titan Rune Dungeon"] = "";
 --  LBIS.L["Token"] = "";
   LBIS.L["Tokens"] = "Жетоны";
 --  LBIS.L["Transmute"] = "";
@@ -348,6 +347,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Ulduar (10)"] = "Ульдуар (10)";
   LBIS.L["Ulduar (25)"] = "Ульдуар (25)";
   LBIS.L["Unholy"] = "Нечестивость";
+  LBIS.L["Unknown (Heroic+)"] = "Неизвестно (Героический+)";
 --  LBIS.L["Unknown Boss"] = "";
   LBIS.L["Utgarde Keep (Heroic)"] = "Крепость Утгард (Героический)";
   LBIS.L["Utgarde Pinnacle"] = "Вершина Утгард";

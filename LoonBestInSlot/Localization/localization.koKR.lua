@@ -333,7 +333,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Timothy Jones"] = "티모시 존스 <보석세공의 거장>";
   LBIS.L["Tiny Titanium Lockbox"] = "작은 티타늄 금고";
   LBIS.L["Tirion's Gambit"] = "티리온의 계략";
---  LBIS.L["Titan Rune Dungeon"] = "";
   LBIS.L["Token"] = "토큰";
   LBIS.L["Tokens"] = "화폐";
   LBIS.L["Transmute"] = "변환식";
@@ -348,6 +347,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Ulduar (10)"] = "울두아르 (10)";
   LBIS.L["Ulduar (25)"] = "울두아르 (25)";
   LBIS.L["Unholy"] = "부정";
+  LBIS.L["Unknown (Heroic+)"] = "무엇인가 (영웅+)";
 --  LBIS.L["Unknown Boss"] = "";
   LBIS.L["Utgarde Keep (Heroic)"] = "우트가드 성채 (영웅)";
   LBIS.L["Utgarde Pinnacle"] = "우트가드 첨탑";

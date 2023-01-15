@@ -333,7 +333,6 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
---  LBIS.L["Titan Rune Dungeon"] = "";
 --  LBIS.L["Token"] = "";
   LBIS.L["Tokens"] = "货币";
 --  LBIS.L["Transmute"] = "";
@@ -348,6 +347,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Ulduar (10)"] = "奥杜尔 (10)";
   LBIS.L["Ulduar (25)"] = "奥杜尔 (25)";
   LBIS.L["Unholy"] = "邪恶";
+  LBIS.L["Unknown (Heroic+)"] = "未知目标 (英雄+)";
 --  LBIS.L["Unknown Boss"] = "";
   LBIS.L["Utgarde Keep (Heroic)"] = "乌特加德城堡 (英雄)";
   LBIS.L["Utgarde Pinnacle"] = "乌特加德之巅";

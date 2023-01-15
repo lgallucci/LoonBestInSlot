@@ -333,7 +333,6 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
---  LBIS.L["Titan Rune Dungeon"] = "";
 --  LBIS.L["Token"] = "";
   LBIS.L["Tokens"] = "Jetons";
 --  LBIS.L["Transmute"] = "";
@@ -348,6 +347,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Ulduar (10)"] = "Ulduar (10)";
   LBIS.L["Ulduar (25)"] = "Ulduar (25)";
   LBIS.L["Unholy"] = "Impie";
+  LBIS.L["Unknown (Heroic+)"] = "Inconnu (Héroïque+)";
 --  LBIS.L["Unknown Boss"] = "";
   LBIS.L["Utgarde Keep (Heroic)"] = "Donjon d’Utgarde (Héroïque)";
   LBIS.L["Utgarde Pinnacle"] = "Cime d’Utgarde";
