@@ -211,8 +211,8 @@ if GetLocale() == "zhCN" then
   LBIS.L["My Old Enemy"] = "我的老对手";
   LBIS.L["Mystery of the Infinite, Redux"] = "永恒之龙的秘密，再来一次";
 --  LBIS.L["Nascent Val'kyr"] = "";
+  LBIS.L["Naxxramas"] = "纳克萨玛斯";
   LBIS.L["Naxxramas (10)"] = "纳克萨玛斯 (10)";
-  LBIS.L["Naxxramas (25)"] = "纳克萨玛斯 (25)";
   LBIS.L["Neck"] = "颈部";
   LBIS.L["Neck/Ring"] = "颈部/手指";
   LBIS.L["Netherstorm"] = "虚空风暴";
@@ -292,6 +292,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["The Culling of Stratholme (Heroic)"] = "净化斯坦索姆 (英雄)";
   LBIS.L["The Culling of Stratholme (Normal)"] = "净化斯坦索姆 (一般)";
   LBIS.L["The Drakkensryd"] = "驭龙赛";
+  LBIS.L["The Eye of Eternity"] = "永恒之眼";
   LBIS.L["The Eye of Eternity (10)"] = "永恒之眼 (10)";
   LBIS.L["The Eye of Eternity (25)"] = "永恒之眼 (25)";
 --  LBIS.L["The Fate of Bloodbane"] = "";
@@ -304,8 +305,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["The Last Line Of Defense"] = "最后一道防线";
   LBIS.L["The Nexus (Heroic)"] = "魔枢 (英雄)";
   LBIS.L["The Nexus (Normal)"] = "魔枢 (一般)";
-  LBIS.L["The Obsidian Sanctum (10)"] = "黑曜石圣殿 (10)";
-  LBIS.L["The Obsidian Sanctum (25)"] = "黑曜石圣殿 (25)";
+  LBIS.L["The Obsidian Sanctum"] = "黑曜石圣殿";
   LBIS.L["The Oculus"] = "魔环";
   LBIS.L["The Oculus (Heroic)"] = "魔环 (英雄)";
   LBIS.L["The Oculus (Normal)"] = "魔环 (一般)";
@@ -333,6 +333,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
+--  LBIS.L["Titan Rune Dungeon"] = "";
 --  LBIS.L["Token"] = "";
   LBIS.L["Tokens"] = "货币";
 --  LBIS.L["Transmute"] = "";
@@ -347,6 +348,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Ulduar (10)"] = "奥杜尔 (10)";
   LBIS.L["Ulduar (25)"] = "奥杜尔 (25)";
   LBIS.L["Unholy"] = "邪恶";
+--  LBIS.L["Unknown Boss"] = "";
   LBIS.L["Utgarde Keep (Heroic)"] = "乌特加德城堡 (英雄)";
   LBIS.L["Utgarde Pinnacle"] = "乌特加德之巅";
   LBIS.L["Utgarde Pinnacle (Heroic)"] = "乌特加德之巅 (英雄)";

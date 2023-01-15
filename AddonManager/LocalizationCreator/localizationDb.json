@@ -319,7 +319,10 @@
       "XT-002 Deconstructor": "Desarmador XA-002",
       "Yogg-Saron": "Yogg-Saron",
       "Loop of the Kirin Tor": "Aro del Kirin Tor",
-      "Grand Master Blacksmithing Trainer": "Gran maestro instructor de herrería"
+      "Grand Master Blacksmithing Trainer": "Gran maestro instructor de herrería",
+      "Naxxramas": "Naxxramas",
+      "The Eye of Eternity": "El Ojo de la Eternidad",
+      "The Obsidian Sanctum": "El Sagrario Obsidiana"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -613,7 +616,10 @@
       "Tokens": "Fichas",
       "XT-002 Deconstructor": "Desarmarmador XA-002",
       "Yogg-Saron": "Yogg-Saron",
-      "Loop of the Kirin Tor": "Aro del Kirin Tor"
+      "Loop of the Kirin Tor": "Aro del Kirin Tor",
+      "Naxxramas": "Naxxramas",
+      "The Eye of Eternity": "El Ojo de la Eternidad",
+      "The Obsidian Sanctum": "El Sagrario Obsidiana"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -976,7 +982,10 @@
       "Fedryen Swiftspear": "Fedryen Flinkspeer",
       "Geen": "Geen",
       "Gems": "Edelsteine",
-      "Grand Master Blacksmithing Trainer": "Großmeister der Schmiedekunst"
+      "Grand Master Blacksmithing Trainer": "Großmeister der Schmiedekunst",
+      "Naxxramas": "Naxxramas",
+      "The Eye of Eternity": "Das Auge der Ewigkeit",
+      "The Obsidian Sanctum": "Das Obsidiansanktum"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -1272,7 +1281,10 @@
       "Tokens": "Jetons",
       "XT-002 Deconstructor": "Déconstructeur XT-002",
       "Yogg-Saron": "Yogg-Saron",
-      "Grand Master Blacksmithing Trainer": "Grand maître émérite des forgerons"
+      "Grand Master Blacksmithing Trainer": "Grand maître émérite des forgerons",
+      "Naxxramas": "Naxxramas",
+      "The Eye of Eternity": "L'Œil de l'éternité",
+      "The Obsidian Sanctum": "Le sanctum Obsidien"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -1565,7 +1577,10 @@
       "Tokens": "Жетоны",
       "XT-002 Deconstructor": "Разрушитель XT-002",
       "Yogg-Saron": "Йогг-Сарон",
-      "Loop of the Kirin Tor": "Петля Кирин-Тора"
+      "Loop of the Kirin Tor": "Петля Кирин-Тора",
+      "Naxxramas": "Наксрамас",
+      "The Eye of Eternity": "Око Вечности",
+      "The Obsidian Sanctum": "Обсидиановое святилище"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -1858,7 +1873,10 @@
       "Tokens": "货币",
       "XT-002 Deconstructor": "XT-002拆解者",
       "Yogg-Saron": "尤格-萨隆",
-      "Loop of the Kirin Tor": "肯瑞托指箍"
+      "Loop of the Kirin Tor": "肯瑞托指箍",
+      "Naxxramas": "纳克萨玛斯",
+      "The Eye of Eternity": "永恒之眼",
+      "The Obsidian Sanctum": "黑曜石圣殿"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -2264,7 +2282,8 @@
       "New Features": "새로운 기능",
       "Signet of the Kirin Tor": "키린 토의 인장",
       "Deselect All": "모두 선택 취소",
-      "Emblem of Conquest": "정복의 문장"
+      "Emblem of Conquest": "정복의 문장",
+      "The Obsidian Sanctum": "흑요석 성소"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -2556,7 +2575,10 @@
       "Tokens": "兌換物",
       "XT-002 Deconstructor": "XT-002拆解者",
       "Yogg-Saron": "尤格薩倫",
-      "Loop of the Kirin Tor": "肯瑞托指箍"
+      "Loop of the Kirin Tor": "肯瑞托指箍",
+      "Naxxramas": "納克薩瑪斯",
+      "The Eye of Eternity": "永恆之眼",
+      "The Obsidian Sanctum": "黑曜聖所"
     }
   }
 }

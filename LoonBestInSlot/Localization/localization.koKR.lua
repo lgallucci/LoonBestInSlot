@@ -211,8 +211,8 @@ if GetLocale() == "koKR" then
   LBIS.L["My Old Enemy"] = "오랜 적수";
   LBIS.L["Mystery of the Infinite, Redux"] = "돌아온 무한의 비밀";
   LBIS.L["Nascent Val'kyr"] = "발키르 지원자";
-  LBIS.L["Naxxramas (10)"] = "낙스라마스 (10인)";
-  LBIS.L["Naxxramas (25)"] = "낙스라마스 (25인)";
+  LBIS.L["Naxxramas"] = "낙스라마스";
+  LBIS.L["Naxxramas (10)"] = "낙스라마스 (10)";
   LBIS.L["Neck"] = "목";
   LBIS.L["Neck/Ring"] = "목/손가락";
   LBIS.L["Netherstorm"] = "황천의 폭풍";
@@ -292,6 +292,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Culling of Stratholme (Heroic)"] = "옛 스트라솔름 (영웅)";
   LBIS.L["The Culling of Stratholme (Normal)"] = "옛 스트라솔름 (일반)";
   LBIS.L["The Drakkensryd"] = "드라켄스리드";
+  LBIS.L["The Eye of Eternity"] = "영원의 눈";
   LBIS.L["The Eye of Eternity (10)"] = "영원의 눈 (10)";
   LBIS.L["The Eye of Eternity (25)"] = "영원의 눈 (25)";
   LBIS.L["The Fate of Bloodbane"] = "블러드베인의 최후";
@@ -304,8 +305,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Last Line Of Defense"] = "최후의 방어";
   LBIS.L["The Nexus (Heroic)"] = "마력의 탑 (영웅)";
   LBIS.L["The Nexus (Normal)"] = "마력의 탑 (일반)";
-  LBIS.L["The Obsidian Sanctum (10)"] = "흑요석 성소 (10)";
-  LBIS.L["The Obsidian Sanctum (25)"] = "흑요석 성소 (25)";
+  LBIS.L["The Obsidian Sanctum"] = "흑요석 성소";
   LBIS.L["The Oculus"] = "마력의 눈";
   LBIS.L["The Oculus (Heroic)"] = "마력의 눈 (영웅)";
   LBIS.L["The Oculus (Normal)"] = "마력의 눈 (일반)";
@@ -333,6 +333,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Timothy Jones"] = "티모시 존스 <보석세공의 거장>";
   LBIS.L["Tiny Titanium Lockbox"] = "작은 티타늄 금고";
   LBIS.L["Tirion's Gambit"] = "티리온의 계략";
+--  LBIS.L["Titan Rune Dungeon"] = "";
   LBIS.L["Token"] = "토큰";
   LBIS.L["Tokens"] = "화폐";
   LBIS.L["Transmute"] = "변환식";
@@ -347,6 +348,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Ulduar (10)"] = "울두아르 (10)";
   LBIS.L["Ulduar (25)"] = "울두아르 (25)";
   LBIS.L["Unholy"] = "부정";
+--  LBIS.L["Unknown Boss"] = "";
   LBIS.L["Utgarde Keep (Heroic)"] = "우트가드 성채 (영웅)";
   LBIS.L["Utgarde Pinnacle"] = "우트가드 첨탑";
   LBIS.L["Utgarde Pinnacle (Heroic)"] = "우트가드 첨탑 (영웅)";

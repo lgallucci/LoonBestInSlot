@@ -211,8 +211,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["My Old Enemy"] = "Мой старый враг";
   LBIS.L["Mystery of the Infinite, Redux"] = "Тайна бесконечности, мания преследования";
 --  LBIS.L["Nascent Val'kyr"] = "";
+  LBIS.L["Naxxramas"] = "Наксрамас";
   LBIS.L["Naxxramas (10)"] = "Наксрамас (10)";
-  LBIS.L["Naxxramas (25)"] = "Наксрамас (25)";
   LBIS.L["Neck"] = "Шея";
   LBIS.L["Neck/Ring"] = "Шея/Палец";
   LBIS.L["Netherstorm"] = "Пустоверть";
@@ -292,6 +292,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Culling of Stratholme (Heroic)"] = "Очищение Стратхольма (Героический)";
   LBIS.L["The Culling of Stratholme (Normal)"] = "Очищение Стратхольма (Обычный)";
   LBIS.L["The Drakkensryd"] = "Драконобойца";
+  LBIS.L["The Eye of Eternity"] = "Око Вечности";
   LBIS.L["The Eye of Eternity (10)"] = "Око Вечности (10)";
   LBIS.L["The Eye of Eternity (25)"] = "Око Вечности (25)";
 --  LBIS.L["The Fate of Bloodbane"] = "";
@@ -304,8 +305,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Last Line Of Defense"] = "Последний рубеж";
   LBIS.L["The Nexus (Heroic)"] = "Нексус (Героический)";
   LBIS.L["The Nexus (Normal)"] = "Нексус (Обычный)";
-  LBIS.L["The Obsidian Sanctum (10)"] = "Обсидиановое святилище (10)";
-  LBIS.L["The Obsidian Sanctum (25)"] = "Обсидиановое святилище (25)";
+  LBIS.L["The Obsidian Sanctum"] = "Обсидиановое святилище";
   LBIS.L["The Oculus"] = "Окулус";
   LBIS.L["The Oculus (Heroic)"] = "Окулус (Героический)";
   LBIS.L["The Oculus (Normal)"] = "Окулус (Обычный)";
@@ -333,6 +333,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
+--  LBIS.L["Titan Rune Dungeon"] = "";
 --  LBIS.L["Token"] = "";
   LBIS.L["Tokens"] = "Жетоны";
 --  LBIS.L["Transmute"] = "";
@@ -347,6 +348,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Ulduar (10)"] = "Ульдуар (10)";
   LBIS.L["Ulduar (25)"] = "Ульдуар (25)";
   LBIS.L["Unholy"] = "Нечестивость";
+--  LBIS.L["Unknown Boss"] = "";
   LBIS.L["Utgarde Keep (Heroic)"] = "Крепость Утгард (Героический)";
   LBIS.L["Utgarde Pinnacle"] = "Вершина Утгард";
   LBIS.L["Utgarde Pinnacle (Heroic)"] = "Вершина Утгард (Героический)";

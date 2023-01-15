@@ -211,8 +211,8 @@ if GetLocale() == "deDE" then
   LBIS.L["My Old Enemy"] = "Mein alter Feind";
   LBIS.L["Mystery of the Infinite, Redux"] = "Geheimnis der Ewigen, die 2.";
 --  LBIS.L["Nascent Val'kyr"] = "";
+  LBIS.L["Naxxramas"] = "Naxxramas";
   LBIS.L["Naxxramas (10)"] = "Naxxramas (10)";
-  LBIS.L["Naxxramas (25)"] = "Naxxramas (25)";
   LBIS.L["Neck"] = "Hals";
   LBIS.L["Neck/Ring"] = "Hals/Finger";
   LBIS.L["Netherstorm"] = "Nethersturm";
@@ -292,6 +292,7 @@ if GetLocale() == "deDE" then
   LBIS.L["The Culling of Stratholme (Heroic)"] = "Das Ausmerzen von Stratholme (Heroisch)";
   LBIS.L["The Culling of Stratholme (Normal)"] = "Das Ausmerzen von Stratholme (Normal)";
   LBIS.L["The Drakkensryd"] = "Der Drakkensryd";
+  LBIS.L["The Eye of Eternity"] = "Das Auge der Ewigkeit";
   LBIS.L["The Eye of Eternity (10)"] = "Das Auge der Ewigkeit (10)";
   LBIS.L["The Eye of Eternity (25)"] = "Das Auge der Ewigkeit (25)";
 --  LBIS.L["The Fate of Bloodbane"] = "";
@@ -304,8 +305,7 @@ if GetLocale() == "deDE" then
   LBIS.L["The Last Line Of Defense"] = "Die letzte Verteidigungslinie";
   LBIS.L["The Nexus (Heroic)"] = "Der Nexus (Heroisch)";
   LBIS.L["The Nexus (Normal)"] = "Der Nexus (Normal)";
-  LBIS.L["The Obsidian Sanctum (10)"] = "Das Obsidiansanktum (10)";
-  LBIS.L["The Obsidian Sanctum (25)"] = "Das Obsidiansanktum (25)";
+  LBIS.L["The Obsidian Sanctum"] = "Das Obsidiansanktum";
   LBIS.L["The Oculus"] = "Das Oculus";
   LBIS.L["The Oculus (Heroic)"] = "Das Oculus (Heroisch)";
   LBIS.L["The Oculus (Normal)"] = "Das Oculus (Normal)";
@@ -333,6 +333,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
+--  LBIS.L["Titan Rune Dungeon"] = "";
   LBIS.L["Token"] = "Token";
   LBIS.L["Tokens"] = "Abz.";
   LBIS.L["Transmute"] = "Transmutieren";
@@ -347,6 +348,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Ulduar (10)"] = "Ulduar (10)";
   LBIS.L["Ulduar (25)"] = "Ulduar (25)";
   LBIS.L["Unholy"] = "Unheilig";
+--  LBIS.L["Unknown Boss"] = "";
   LBIS.L["Utgarde Keep (Heroic)"] = "Burg Utgarde (Heroisch)";
   LBIS.L["Utgarde Pinnacle"] = "Turm Utgarde";
   LBIS.L["Utgarde Pinnacle (Heroic)"] = "Turm Utgarde (Heroisch)";
