@@ -233,10 +233,10 @@ public sealed partial class GuideImporter : Page
                 {
                     ItemId = db.Key,
                     Name = db.Value.Name,
-                    SourceType = "undefined",
-                    Source = "undefined",
+                    SourceType = "unknown",
+                    Source = "unknown",
                     SourceNumber = "0",
-                    SourceLocation = "undefined"
+                    SourceLocation = "unknown"
                 });
             }
         }
@@ -262,27 +262,27 @@ public sealed partial class GuideImporter : Page
                 break;
             case 2:
                 vaultBoss = "Emalon the Storm Watcher";
-                phaseRaids = new List<string> { "Naxxramas (10)", "Naxxramas (25)", "Vault of Archavon (10)", "Vault of Archavon (25)", "The Obsidian Sanctum (10)",
-                    "The Obsidian Sanctum (25)", "The Eye of Eternity (10)", "The Eye of Eternity (25)", "Ulduar (10)", "Ulduar (25)" };
+                phaseRaids = new List<string> { "Naxxramas", "Vault of Archavon (10)", "Vault of Archavon (25)", "The Obsidian Sanctum", "The Eye of Eternity", 
+                    "Ulduar (10)", "Ulduar (25)" };
                 break;
             case 3:
                 vaultBoss = "Koralon the Flame Watcher";
-                phaseRaids = new List<string> { "Naxxramas (10)", "Naxxramas (25)", "Vault of Archavon (10)", "Vault of Archavon (25)", "The Obsidian Sanctum (10)",
-                    "The Obsidian Sanctum (25)", "The Eye of Eternity (10)", "The Eye of Eternity (25)", "Ulduar (10)", "Ulduar (25)",
+                phaseRaids = new List<string> { "Naxxramas", "Vault of Archavon (10)", "Vault of Archavon (25)", "The Obsidian Sanctum", "The Eye of Eternity", 
+                    "Ulduar (10)", "Ulduar (25)",
                     "Trial of the Crusader (10)", "Trial of the Crusader (25)", "Trial of the Grand Crusader (10)", "Trial of the Grand Crusader (25)",
                     "Onyxia (10)", "Onyxia (25)"};
                 break;
             case 4:
                 vaultBoss = "Toravon the Ice Watcher";
-                phaseRaids = new List<string> { "Naxxramas (10)", "Naxxramas (25)", "Vault of Archavon (10)", "Vault of Archavon (25)", "The Obsidian Sanctum (10)",
-                    "The Obsidian Sanctum (25)", "The Eye of Eternity (10)", "The Eye of Eternity (25)", "Ulduar (10)", "Ulduar (25)",
+                phaseRaids = new List<string> { "Naxxramas", "Vault of Archavon (10)", "Vault of Archavon (25)", "The Obsidian Sanctum", "The Eye of Eternity", 
+                    "Ulduar (10)", "Ulduar (25)",
                     "Trial of the Crusader (10)", "Trial of the Crusader (25)", "Trial of the Grand Crusader (10)", "Trial of the Grand Crusader (25)",
                     "Onyxia (10)", "Onyxia (25)", "Icecrown Citadel (10)", "Icecrown Citadel (25)", "Icecrown Citadel (Heroic 10)", "Icecrown Citadel (Heroic 25)" };
                 break;
             case 5:
                 vaultBoss = "Toravon the Ice Watcher";
-                phaseRaids = new List<string> { "Naxxramas (10)", "Naxxramas (25)", "Vault of Archavon (10)", "Vault of Archavon (25)", "The Obsidian Sanctum (10)",
-                    "The Obsidian Sanctum (25)", "The Eye of Eternity (10)", "The Eye of Eternity (25)", "Ulduar (10)", "Ulduar (25)",
+                phaseRaids = new List<string> { "Naxxramas", "Vault of Archavon (10)", "Vault of Archavon (25)", "The Obsidian Sanctum", "The Eye of Eternity", 
+                    "Ulduar (10)", "Ulduar (25)",
                     "Trial of the Crusader (10)", "Trial of the Crusader (25)", "Trial of the Grand Crusader (10)", "Trial of the Grand Crusader (25)",
                     "Onyxia (10)", "Onyxia (25)", "Icecrown Citadel (10)", "Icecrown Citadel (25)", "Icecrown Citadel (Heroic 10)", "Icecrown Citadel (Heroic 25)",
                     "Ruby Sanctum (10)", "Ruby Sanctum (25)", "Ruby Sanctum (Heroic 10)", "Ruby Sanctum (Heroic 25)"};

@@ -144,7 +144,7 @@ public class TierSetImporter
                         {
                             Name = cellAnchor.TextContent,
                             Source = tokenName.TextContent,
-                            SourceLocation = "undefined",
+                            SourceLocation = "unknown",
                             SourceNumber = tokenId.ToString(),
                             SourceType = "TierToken"
                         });

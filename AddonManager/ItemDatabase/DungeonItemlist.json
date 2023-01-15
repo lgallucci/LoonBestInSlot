@@ -806,7 +806,7 @@
             "SourceLocation": "The Oculus (Normal)"
         },
         "36975": {
-            "Name": "Malygos' Favor",
+            "Name": "Unknown Boss' Favor",
             "Source": "Ley-Guardian Eregos",
             "SourceType": "Drop",
             "SourceNumber": "0",
@@ -4906,6 +4906,1217 @@
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Forge of Souls (Heroic)"
+        },
+        "40610": {
+            "Name": "Chestguard of the Lost Conqueror",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40611": {
+            "Name": "Chestguard of the Lost Protector",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40612": {
+            "Name": "Chestguard of the Lost Vanquisher",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40616": {
+            "Name": "Helm of the Lost Conqueror",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40617": {
+            "Name": "Helm of the Lost Protector",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40618": {
+            "Name": "Helm of the Lost Vanquisher",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40619": {
+            "Name": "Leggings of the Lost Conqueror",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40620": {
+            "Name": "Leggings of the Lost Protector",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40621": {
+            "Name": "Leggings of the Lost Vanquisher",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40622": {
+            "Name": "Spaulders of the Lost Conqueror",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40623": {
+            "Name": "Spaulders of the Lost Protector",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40624": {
+            "Name": "Spaulders of the Lost Vanquisher",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39139": {
+            "Name": "Ravaging Sabatons",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39140": {
+            "Name": "Knife of Incision",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39141": {
+            "Name": "Deflection Band",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39146": {
+            "Name": "Collar of Dissolution",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39188": {
+            "Name": "Chivalric Chestguard",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39189": {
+            "Name": "Boots of Persistence",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39190": {
+            "Name": "Agonal Sash",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39191": {
+            "Name": "Splint-Bound Leggings",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39192": {
+            "Name": "Gloves of Dark Gestures",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39193": {
+            "Name": "Band of Neglected Pleas",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39194": {
+            "Name": "Rusted-Link Spiked Gauntlets",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39195": {
+            "Name": "Bracers of Lost Sentiments",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39196": {
+            "Name": "Boots of the Worshiper",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39197": {
+            "Name": "Gauntlets of the Master",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39198": {
+            "Name": "Frostblight Pauldrons",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39199": {
+            "Name": "Watchful Eye",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39200": {
+            "Name": "Grieving Spellblade",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39215": {
+            "Name": "Boots of the Follower",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39216": {
+            "Name": "Sash of Mortal Desire",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39217": {
+            "Name": "Avenging Combat Leggings",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39221": {
+            "Name": "Wraith Spear",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39224": {
+            "Name": "Leggings of Discord",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39225": {
+            "Name": "Cloak of Armed Strife",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39226": {
+            "Name": "Unknown Boss's Femur",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39228": {
+            "Name": "Web Cocoon Grips",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39229": {
+            "Name": "Embrace of the Spider",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39230": {
+            "Name": "Spaulders of the Monstrosity",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39231": {
+            "Name": "Timeworn Silken Band",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39232": {
+            "Name": "Pendant of Lost Vocations",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39233": {
+            "Name": "Aegis of Damnation",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39234": {
+            "Name": "Plague-Impervious Boots",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39235": {
+            "Name": "Bone-Framed Bracers",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39236": {
+            "Name": "Trespasser's Boots",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39237": {
+            "Name": "Spaulders of Resumed Battle",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39239": {
+            "Name": "Chestplate of the Risen Soldier",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39240": {
+            "Name": "Noth's Curse",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39241": {
+            "Name": "Dark Shroud of the Scourge",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39242": {
+            "Name": "Robes of Hoarse Breaths",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39243": {
+            "Name": "Handgrips of the Foredoomed",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39244": {
+            "Name": "Ring of the Fated",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39245": {
+            "Name": "Demise",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39246": {
+            "Name": "Amulet of Autopsy",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39247": {
+            "Name": "Cuffs of Dark Shadows",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39248": {
+            "Name": "Tunic of the Lost Pack",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39249": {
+            "Name": "Shoulderplates of Bloodshed",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39250": {
+            "Name": "Ring of Holy Cleansing",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39251": {
+            "Name": "Necrogenic Belt",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39252": {
+            "Name": "Preceptor's Bindings",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39254": {
+            "Name": "Saltarello Shoes",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39255": {
+            "Name": "Staff of the Plague Beast",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39256": {
+            "Name": "Sulfur Stave",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39257": {
+            "Name": "Unknown Boss's Shadow",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39258": {
+            "Name": "Legplates of Inescapable Death",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39259": {
+            "Name": "Fungi-Stained Coverings",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39260": {
+            "Name": "Helm of the Corrupted Mind",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39261": {
+            "Name": "Tainted Girdle of Mending",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39262": {
+            "Name": "Gauntlets of Combined Strength",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39267": {
+            "Name": "Abomination Shoulderblades",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39270": {
+            "Name": "Hatestrike",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39271": {
+            "Name": "Blade of Dormant Memories",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39272": {
+            "Name": "Drape of Surgery",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39273": {
+            "Name": "Sullen Cloth Boots",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39274": {
+            "Name": "Retcher's Shoulderpads",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39275": {
+            "Name": "Contagion Gloves",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39276": {
+            "Name": "The Skull of Ruin",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39277": {
+            "Name": "Sealing Ring of Unknown Boss",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39278": {
+            "Name": "Bands of Anxiety",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39279": {
+            "Name": "Blistered Belt of Decay",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39280": {
+            "Name": "Leggings of Innumerable Barbs",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39281": {
+            "Name": "Infection Repulser",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39282": {
+            "Name": "Bone-Linked Amulet",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39283": {
+            "Name": "Putrescent Bands",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39284": {
+            "Name": "Miasma Mantle",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39285": {
+            "Name": "Handgrips of Turmoil",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39291": {
+            "Name": "Torment of the Banished",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39292": {
+            "Name": "Repelling Charge",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39293": {
+            "Name": "Blackened Legplates of Feugen",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39294": {
+            "Name": "Arc-Scorched Helmet",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39295": {
+            "Name": "Cowl of Sheet Lightning",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39296": {
+            "Name": "Accursed Bow of the Elite",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39297": {
+            "Name": "Cloak of Darkening",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39298": {
+            "Name": "Waistguard of the Tutor",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39299": {
+            "Name": "Rapid Attack Gloves",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39306": {
+            "Name": "Plated Gloves of Relief",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39307": {
+            "Name": "Iron Rings of Endurance",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39308": {
+            "Name": "Girdle of Lenience",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39309": {
+            "Name": "Leggings of the Instructor",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39310": {
+            "Name": "Mantle of the Extensive Mind",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39311": {
+            "Name": "Scepter of Murmuring Spirits",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39344": {
+            "Name": "Slayer of the Lifeless",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39345": {
+            "Name": "Girdle of the Ascended Phantom",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39369": {
+            "Name": "Sabatons of Deathlike Gloom",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39379": {
+            "Name": "Spectral Rider's Girdle",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39386": {
+            "Name": "Tunic of Dislocation",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39388": {
+            "Name": "Spirit-World Glass",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39389": {
+            "Name": "Signet of the Malevolent",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39390": {
+            "Name": "Resurgent Phantom Bindings",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39391": {
+            "Name": "Heinous Mail Chestguard",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39392": {
+            "Name": "Veiled Amulet of Life",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39393": {
+            "Name": "Claymore of Ancient Power",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39394": {
+            "Name": "Charmed Cierge",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39395": {
+            "Name": "Thane's Tainted Greathelm",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39396": {
+            "Name": "Gown of Blaumeux",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39397": {
+            "Name": "Pauldrons of Havoc",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39398": {
+            "Name": "Massive Skeletal Ribcage",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39399": {
+            "Name": "Helm of the Vast Legions",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39401": {
+            "Name": "Circle of Death",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39403": {
+            "Name": "Helm of the Unsubmissive",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39404": {
+            "Name": "Cloak of Mastery",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39405": {
+            "Name": "Helmet of the Inner Sanctum",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39407": {
+            "Name": "Circle of Life",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39408": {
+            "Name": "Leggings of Unknown Boss",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39409": {
+            "Name": "Cowl of Winged Fear",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39415": {
+            "Name": "Shroud of the Citadel",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39416": {
+            "Name": "Unknown Boss's Reach",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39417": {
+            "Name": "Death's Bite",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39419": {
+            "Name": "Nerubian Conquerer",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39420": {
+            "Name": "Anarchy",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39421": {
+            "Name": "Gem of Imprisoned Vassals",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39422": {
+            "Name": "Staff of the Plaguehound",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39423": {
+            "Name": "Hammer of the Astral Plane",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39424": {
+            "Name": "The Soulblade",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39425": {
+            "Name": "Cloak of the Dying",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39426": {
+            "Name": "Wand of the Archlich",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39427": {
+            "Name": "Omen of Ruin",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39467": {
+            "Name": "Minion Bracers",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39468": {
+            "Name": "The Stray",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39470": {
+            "Name": "Medallion of the Disgraced",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39472": {
+            "Name": "Chain of Latent Energies",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "39473": {
+            "Name": "Contortion",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40426": {
+            "Name": "Signet of the Accord",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40427": {
+            "Name": "Circle of Arcane Streams",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40428": {
+            "Name": "Titan's Outlook",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40429": {
+            "Name": "Crimson Steel",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40430": {
+            "Name": "Majestic Dragon Figurine",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40433": {
+            "Name": "Wyrmrest Band",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40613": {
+            "Name": "Gloves of the Lost Conqueror",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40614": {
+            "Name": "Gloves of the Lost Protector",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40615": {
+            "Name": "Gloves of the Lost Vanquisher",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "43954": {
+            "Name": "Reins of the Twilight Drake",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "43986": {
+            "Name": "Reins of the Black Drake",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "43988": {
+            "Name": "Gale-Proof Cloak",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "43989": {
+            "Name": "Remembrance Girdle",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "43990": {
+            "Name": "Blade-Scarred Tunic",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "43991": {
+            "Name": "Legguards of Composure",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "43992": {
+            "Name": "Volitant Amulet",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "43993": {
+            "Name": "Greatring of Collision",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "43994": {
+            "Name": "Belabored Legplates",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "43995": {
+            "Name": "Enamored Cowl",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "43996": {
+            "Name": "Sabatons of Firmament",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "43998": {
+            "Name": "Chestguard of Flagrant Prowess",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40474": {
+            "Name": "Surge Needle Ring",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40475": {
+            "Name": "Barricade of Eternity",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40486": {
+            "Name": "Necklace of the Glittering Chamber",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40488": {
+            "Name": "Ice Spire Scepter",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40489": {
+            "Name": "Greatstaff of the Nexus",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40491": {
+            "Name": "Hailstorm",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40497": {
+            "Name": "Black Ice",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40511": {
+            "Name": "Focusing Energy Epaulets",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40519": {
+            "Name": "Footsteps of Unknown Boss",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
+        },
+        "40526": {
+            "Name": "Gown of the Spell-Weaver",
+            "Source": "Unknown Boss",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Titan Rune Dungeon"
         }
     }
 }

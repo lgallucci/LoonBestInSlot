@@ -86,10 +86,10 @@ public static class WowheadImporter
                             {
                                 ItemId = item.Value.ItemId,
                                 Name = item.Value.Name,
-                                SourceType = "undefined",
-                                Source = "undefined",
+                                SourceType = "unknown",
+                                Source = "unknown",
                                 SourceNumber = "0",
-                                SourceLocation = "undefined"
+                                SourceLocation = "unknown"
                             });
                         }
                         item.Value.BisStatus = "BIS";
@@ -104,10 +104,10 @@ public static class WowheadImporter
                             {
                                 ItemId = item.Value.ItemId,
                                 Name = item.Value.Name,
-                                SourceType = "undefined",
-                                Source = "undefined",
+                                SourceType = "unknown",
+                                Source = "unknown",
                                 SourceNumber = "0",
-                                SourceLocation = "undefined"
+                                SourceLocation = "unknown"
                             });
                         }
 
@@ -156,8 +156,8 @@ public static class WowheadImporter
                         GemId = gem.Value.GemId,
                         DesignId = 99999,
                         Name = gem.Value.Name,
-                        Source = "undefined",
-                        SourceLocation = "undefined"
+                        Source = "unknown",
+                        SourceLocation = "unknown"
                     });
                 }
 
@@ -173,8 +173,8 @@ public static class WowheadImporter
                         EnchantId = enchant.Value.EnchantId,
                         DesignId = 99999,
                         Name = enchant.Value.Name,
-                        Source = "undefined",
-                        SourceLocation = "undefined",
+                        Source = "unknown",
+                        SourceLocation = "unknown",
                         IsSpell = enchant.Value.IsSpell
                     });
                 }

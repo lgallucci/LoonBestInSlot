@@ -254,8 +254,8 @@ public class WowheadGuideParser
                             items.Add(itemId, new ItemSpec
                             {
                                 ItemId = itemId,
-                                Name = itemName ?? "undefined",
-                                BisStatus = bisStatus ?? "undefined",
+                                Name = itemName ?? "unknown",
+                                BisStatus = bisStatus ?? "unknown",
                                 Slot = slot,
                                 ItemOrder = itemOrderIndex
                             });
@@ -266,7 +266,7 @@ public class WowheadGuideParser
                                 {
                                     ItemId = TierPiecesAndTokens.TierPieces[itemId].Item1,
                                     Name = TierPiecesAndTokens.TierPieces[itemId].Item2,
-                                    BisStatus = bisStatus ?? "undefined",
+                                    BisStatus = bisStatus ?? "unknown",
                                     Slot = slot,
                                     ItemOrder = itemOrderIndex
                                 });
@@ -277,7 +277,7 @@ public class WowheadGuideParser
                                 {
                                     ItemId = TierPiecesAndTokens.Transmutes[itemId].Item1,
                                     Name = TierPiecesAndTokens.Transmutes[itemId].Item2,
-                                    BisStatus = (bisStatus ?? "undefined") + " Transmute",
+                                    BisStatus = (bisStatus ?? "unknown") + " Transmute",
                                     Slot = slot,
                                     ItemOrder = itemOrderIndex
                                 });
@@ -302,8 +302,8 @@ public class WowheadGuideParser
             items.Add(itemId, new ItemSpec
             {
                 ItemId = itemId,
-                Name = "undefined",
-                BisStatus = "undefined",
+                Name = "unknown",
+                BisStatus = "unknown",
                 Slot = slot,
                 ItemOrder = itemOrderIndex
             });
@@ -409,7 +409,7 @@ public class WowheadGuideParser
                                         gems.Add(itemId, new GemSpec
                                         {
                                             GemId = itemId,
-                                            Name = itemName ?? "undefined",
+                                            Name = itemName ?? "unknown",
                                             Phase = _gemPhases.ContainsKey(itemId) ? _gemPhases[itemId] : 1,
                                             Quality = itemQuality,
                                             IsMeta = heading.Key == "Meta"
@@ -423,7 +423,7 @@ public class WowheadGuideParser
                                     enchants.Add(itemId + heading.Key, new EnchantSpec
                                     {
                                         EnchantId = itemId,
-                                        Name = itemName ?? "undefined",
+                                        Name = itemName ?? "unknown",
                                         Slot = heading.Key,
                                         IsSpell = isSpell,
                                     });
