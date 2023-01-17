@@ -109,13 +109,17 @@ public class WowheadGuideParser
             { "Finger", "Ring" },
             { "Main-Hand Weapon", "Main Hand" },
             { "Off-Hand Weapon", "Off Hand" },
+            { "Off-Hand weapon", "Off Hand" },
+            { "Off-Hand", "Off Hand" },
+            { "Shield", "Off Hand" },
             { "Weapon", "Two Hand" },
             { "Two-Hand Weapon", "Two Hand" },
             { "Ranged Weapon", "Ranged/Relic" },
             { "Sigil", "Ranged/Relic" },
             { "Relic", "Ranged/Relic" },
             { "Libram", "Ranged/Relic" },
-            { "Idol", "Ranged/Relic" }
+            { "Idol", "Ranged/Relic" },
+            { "Wand", "Ranged/Relic" },
         };
         // Setting up indexers
         public string this[string i]

@@ -1,10 +1,10 @@
-## Interface: 30400
+## Interface: 30401
 ## Title: Loon Best In Slot
 ## Notes: 
 ## OptionalDeps: LinkWrangler
 ## SavedVariables: LBISServerSettings
 ## SavedVariablesPerCharacter: LBISSettings
-## Version: 4.4.0
+## Version: 4.7.1
 
 libs\LibStub.lua
 libs\CallbackHandler-1.0.lua
