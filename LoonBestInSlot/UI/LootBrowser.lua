@@ -230,7 +230,7 @@ local function createDropDowns(window)
 
             local specString = spec.Class;
             if strlen(spec.Spec) > 0 then
-                specString = spec.Spec.." "..specString;
+                specString = specString..": "..spec.Spec;
             end
             table.insert(specList, specString)
             LBIS.NameToSpecId[specString] = specId;
