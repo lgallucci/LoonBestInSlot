@@ -397,8 +397,6 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
 
     window:RegisterForDrag("LeftButton");
 
-    createDropDowns(window);
-
     local header = window:CreateFontString(nil, nil, "GameFontHighlightMed2");
     header:SetText(LBIS.L["Loon Best In Slot Browser"]);
     header:SetPoint("TOP", window, -5, -5);
@@ -432,6 +430,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     window:SetScript("OnDragStart", function(self) self:StartMoving() end);
     window:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end);
 
+    createDropDowns(window);
     createTabs(window, content);
 
     local f = CreateFrame("Frame", nil, content);				

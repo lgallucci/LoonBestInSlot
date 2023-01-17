@@ -1,4 +1,6 @@
 ﻿using System.Net.Http;
+using System.Windows.Documents;
+using System.Xml.Serialization;
 using AddonManager.Models;
 using AngleSharp;
 using AngleSharp.Dom;
@@ -97,6 +99,39 @@ public class WowheadGuideParser
         { "threat", "Thrt" }
     };
 
+    private class SlotSwaps
+    {
+        private Dictionary<string, string> _slotSwaps = new Dictionary<string, string>()
+        {
+            { "Helm", "Head" },
+            { "Boots", "Feet" },
+            { "Belt", "Waist" },
+            { "Finger", "Ring" },
+            { "Main-Hand Weapon", "Main Hand" },
+            { "Off-Hand Weapon", "Off Hand" },
+            { "Weapon", "Two Hand" },
+            { "Two-Hand Weapon", "Two Hand" },
+            { "Ranged Weapon", "Ranged/Relic" },
+            { "Sigil", "Ranged/Relic" },
+            { "Relic", "Ranged/Relic" },
+            { "Libram", "Ranged/Relic" },
+            { "Idol", "Ranged/Relic" }
+        };
+        // Setting up indexers
+        public string this[string i]
+        {
+            // get indexer allows square brackets to read data
+            get
+            {
+                if (this._slotSwaps.ContainsKey(i))
+                    return _slotSwaps[i];
+                return i;
+            }
+        }
+    }
+
+
+
     class MyFormatter : IMarkupFormatter
     {
         public string CloseTag(IElement element, bool selfClosing)
@@ -118,6 +153,59 @@ public class WowheadGuideParser
         public string Text(ICharacterData text) => text.Data;
     }
 
+    public async Task<Dictionary<int, ItemSpec>> ParsePreRaidWowheadGuide(ClassGuideMapping classGuide)
+    {
+        var items = new Dictionary<int, ItemSpec>();
+
+        await Common.LoadFromWebPage(classGuide.WebAddress, async (content) =>
+        {
+            var doc = default(IHtmlDocument);
+            var parser = new HtmlParser();
+            doc = await parser.ParseDocumentAsync(content);
+
+            var htmlMapping = "h2#best-in-slot-list + table";
+            var headerElement = doc.QuerySelector(htmlMapping);
+            if (headerElement is IHtmlTableElement)
+            {
+                var tableElement = headerElement as IHtmlTableElement;
+
+                LoopThroughTable(tableElement, (tableRow, itemChild, itemOrderIndex, isTierList) =>
+                {
+
+                    var slotText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
+
+                    if (itemChild != null)
+                        ParseItemCell(itemChild, "BIS", new SlotSwaps()[slotText], items, itemOrderIndex);
+                });
+            }
+            else
+            {
+                throw new ParseException($"PreRaid: Failed to find table for {htmlMapping}");
+            }
+
+            //htmlMapping = "h2#best-bind-on-equip + div > table";
+            //headerElement = doc.QuerySelector(htmlMapping);
+            //if (headerElement is IHtmlTableElement)
+            //{
+            //    var tableElement = headerElement as IHtmlTableElement;
+
+            //    LoopThroughTable(tableElement, (tableRow, itemChild, itemOrderIndex, isTierList) =>
+            //    {
+            //        var slotText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
+
+            //        if (itemChild != null)
+            //            ParseItemCell(itemChild, "BIS", new SlotSwaps()[slotText], items, itemOrderIndex);
+            //    });
+            //}
+            //else
+            //{
+            //    throw new ParseException($"PreRaid: Failed to find table for {htmlMapping}");
+            //}
+
+        });
+        return items;
+    }
+
     public async Task<Dictionary<int, ItemSpec>> ParseWowheadGuide(ClassGuideMapping classGuide)
     {
         var items = new Dictionary<int, ItemSpec>();
@@ -130,49 +218,19 @@ public class WowheadGuideParser
 
             LoopThroughMappings(doc, classGuide, (table, slot, htmlId) =>
             {
-                var itemOrderIndex = 0;
-                var firstRow = false;
-                var tableRows = table?.FirstChild?.ChildNodes;
-                if (tableRows != null)
+                LoopThroughTable(table, (tableRow, itemChild, itemOrderIndex, isTierList) =>
                 {
-                    bool isTierList = false;
-                    foreach (var tableRow in tableRows)
-                    {
-                        if (!firstRow || tableRow.NodeName != "TR")
-                        {
-                            if (tableRow.ChildNodes[1].TextContent.Contains("Rank"))
-                                isTierList = true;
-                            firstRow = true;
-                            continue;
-                        }
-                        var foundAnchor = false;
+                    string htmlBisText = string.Empty, rankText = string.Empty;
+                    if (isTierList)
+                        rankText = tableRow?.ChildNodes[1].TextContent.Trim() ?? string.Empty;
 
-                        INode? itemChild = null;
-                        foreach (var rowChild in tableRow.ChildNodes)
-                        {
-                            if (rowChild.NodeType == NodeType.Element)
-                            {
-                                if (rowChild.ChildNodes.Any(n => n.NodeName == "A" && ((IHtmlAnchorElement)n).PathName.Contains("/item=")))
-                                {
-                                    itemChild = rowChild;
-                                    break;
-                                }
-                            }
-                        }
-                        string htmlBisText = string.Empty, rankText = string.Empty;
-                        if (isTierList)
-                            rankText = tableRow?.ChildNodes[1].TextContent.Trim() ?? string.Empty;
+                    htmlBisText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
 
-                        htmlBisText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
+                    var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList);
 
-                        var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList);
-
-                        if (itemChild != null)
-                            ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText), items, itemOrderIndex);
-
-                        itemOrderIndex++;
-                    }
-                }
+                    if (itemChild != null)
+                        ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText), items, itemOrderIndex);
+                });
             });
         });
         return items;
@@ -209,7 +267,7 @@ public class WowheadGuideParser
 
         var altText = string.Empty;
         foreach (var tankSwap in _tankAltTextSwaps)
-            if ((!htmlBisText?.ToLower().Contains("no") ?? false) && 
+            if ((!htmlBisText?.ToLower().Contains("no") ?? false) &&
                 (htmlBisText?.ToLower().Contains(tankSwap.Key) ?? false))
             {
                 altText = $" {tankSwap.Value}";
@@ -240,8 +298,8 @@ public class WowheadGuideParser
 
                     bool skippedItem = false;
                     foreach (var excludedName in excludedItemNames)
-                        if ((child.NextSibling?.TextContent.Trim().EndsWith(excludedName) ?? false) || 
-                            (child.NextSibling?.NextSibling?.TextContent.Trim().EndsWith(excludedName) ?? false) || 
+                        if ((child.NextSibling?.TextContent.Trim().EndsWith(excludedName) ?? false) ||
+                            (child.NextSibling?.NextSibling?.TextContent.Trim().EndsWith(excludedName) ?? false) ||
                             itemName.EndsWith(excludedName))
                             skippedItem = true;
 
@@ -282,7 +340,7 @@ public class WowheadGuideParser
                                     ItemOrder = itemOrderIndex
                                 });
                             }
-                        } 
+                        }
                         else
                         {
                             if (items[itemId].Slot != slot)
@@ -307,6 +365,44 @@ public class WowheadGuideParser
                 Slot = slot,
                 ItemOrder = itemOrderIndex
             });
+        }
+    }
+
+    public void LoopThroughTable(IHtmlTableElement? table, Action<INode, INode?, int, bool> action)
+    {
+        var itemOrderIndex = 0;
+        var firstRow = false;
+        var tableRows = table?.FirstChild?.ChildNodes;
+        if (tableRows != null)
+        {
+            bool isTierList = false;
+            foreach (var tableRow in tableRows)
+            {
+                if (!firstRow || tableRow.NodeName != "TR")
+                {
+                    if (tableRow.ChildNodes[1].TextContent.Contains("Rank"))
+                        isTierList = true;
+                    firstRow = true;
+                    continue;
+                }
+
+                INode? itemChild = null;
+                foreach (var rowChild in tableRow.ChildNodes)
+                {
+                    if (rowChild.NodeType == NodeType.Element)
+                    {
+                        if (rowChild.ChildNodes.Any(n => n.NodeName == "A" && ((IHtmlAnchorElement)n).PathName.Contains("/item=")))
+                        {
+                            itemChild = rowChild;
+                            break;
+                        }
+                    }
+                }
+
+                action(tableRow, itemChild, itemOrderIndex, isTierList);
+
+                itemOrderIndex++;
+            }
         }
     }
 

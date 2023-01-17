@@ -72,7 +72,10 @@ public static class WowheadImporter
 
             if (classGuide != null && classGuide.WebAddress != "do_not_use")
             {
-                items = await new WowheadGuideParser().ParseWowheadGuide(classGuide);
+                if (phaseNumber == 0)
+                    items = await new WowheadGuideParser().ParsePreRaidWowheadGuide(classGuide);
+                else
+                    items = await new WowheadGuideParser().ParseWowheadGuide(classGuide);
 
                 var oldItems = ExcludeItemsFromPhaseGuide(items, phaseNumber, className);
 

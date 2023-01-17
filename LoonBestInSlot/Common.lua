@@ -224,7 +224,7 @@ function LBIS:CreateDropdown(opts, width)
     LibDD:UIDropDownMenu_SetText(dropdown, default_val)
     LibDD:UIDropDownMenu_SetWidth(dropdown, width, 0)
 
-    local dd_title = dropdown:CreateFontString(dropdown, 'OVERLAY', 'GameFontNormalSmall')
+    local dd_title = dropdown:CreateFontString(nil, 'OVERLAY', 'GameFontNormalSmall')
     dd_title:SetText(title_text)
     dd_title:SetPoint("TOPLEFT", (-1 * dd_title:GetStringWidth()) + 20, -8)
 
