@@ -189,7 +189,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Loken"] = "Loken";
   LBIS.L["Loon Best In Slot"] = "Loon Best in Slot";
   LBIS.L["Loon Best In Slot Browser"] = "Loon Best in Slot Browser";
-  LBIS.L["Loop of the Kirin Tor"] = "Fingerreif der Kirin Tor";
 --  LBIS.L["Madame Ruby"] = "";
   LBIS.L["Maexxna"] = "Maexxna";
   LBIS.L["Mage-Lord Urom"] = "Magierlord Urom";
@@ -270,7 +269,6 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Show Custom"] = "";
   LBIS.L["Show Minimap Button"] = "Schaltfläche Minikarte anzeigen";
   LBIS.L["Show Tooltip"] = "Kurzinfo anzeigen";
-  LBIS.L["Signet of the Kirin Tor"] = "Siegel der Kirin Tor";
   LBIS.L["Sjonnir The Ironshaper"] = "Sjonnir der Eisenformer";
   LBIS.L["Skadi the Ruthless"] = "Skadi der Skrupellose";
   LBIS.L["Skarvald the Constructor"] = "Skarvald der Konstrukteur";

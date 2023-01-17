@@ -189,7 +189,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Loken"] = "Loken";
   LBIS.L["Loon Best In Slot"] = "Huard Meilleur dans la Fente";
   LBIS.L["Loon Best In Slot Browser"] = "Huard Meilleur dans le Navigateur de Machines à Sous";
---  LBIS.L["Loop of the Kirin Tor"] = "";
 --  LBIS.L["Madame Ruby"] = "";
   LBIS.L["Maexxna"] = "Maexxna";
   LBIS.L["Mage-Lord Urom"] = "Seigneur-mage Urom";
@@ -270,7 +269,6 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
---  LBIS.L["Signet of the Kirin Tor"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "Sjonnir le Sculptefer";
   LBIS.L["Skadi the Ruthless"] = "Skadi le Brutal";
   LBIS.L["Skarvald the Constructor"] = "Skarvald le Constructeur";

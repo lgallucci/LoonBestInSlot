@@ -189,7 +189,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Loken"] = "로켄";
   LBIS.L["Loon Best In Slot"] = "BIS 아이템";
   LBIS.L["Loon Best In Slot Browser"] = "BIS 아이템 목록";
-  LBIS.L["Loop of the Kirin Tor"] = "키린 토 실반지";
   LBIS.L["Madame Ruby"] = "귀부인 루비 <마법부여용품 상인>";
   LBIS.L["Maexxna"] = "맥스나";
   LBIS.L["Mage-Lord Urom"] = "마법사 군주 우롬";
@@ -270,7 +269,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Show Custom"] = "커스텀 보이기";
   LBIS.L["Show Minimap Button"] = "미니맵 버튼 보이기";
   LBIS.L["Show Tooltip"] = "직업 툴팁 표시";
-  LBIS.L["Signet of the Kirin Tor"] = "키린 토의 인장";
   LBIS.L["Sjonnir The Ironshaper"] = "무쇠구체자 쇼니르";
   LBIS.L["Skadi the Ruthless"] = "학살자 스카디";
   LBIS.L["Skarvald the Constructor"] = "건축가 스카발드";

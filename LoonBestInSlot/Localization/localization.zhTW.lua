@@ -189,7 +189,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Loken"] = "洛肯";
 --  LBIS.L["Loon Best In Slot"] = "";
 --  LBIS.L["Loon Best In Slot Browser"] = "";
-  LBIS.L["Loop of the Kirin Tor"] = "肯瑞托指箍";
 --  LBIS.L["Madame Ruby"] = "";
   LBIS.L["Maexxna"] = "梅克絲娜";
   LBIS.L["Mage-Lord Urom"] = "法師領主厄隆";
@@ -270,7 +269,6 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
---  LBIS.L["Signet of the Kirin Tor"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "『塑鐵者』斯雍尼爾";
   LBIS.L["Skadi the Ruthless"] = "無情的斯卡迪";
   LBIS.L["Skarvald the Constructor"] = "『建造者』史卡沃";

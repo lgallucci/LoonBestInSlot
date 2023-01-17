@@ -189,7 +189,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Loken"] = "Локен";
 --  LBIS.L["Loon Best In Slot"] = "";
 --  LBIS.L["Loon Best In Slot Browser"] = "";
-  LBIS.L["Loop of the Kirin Tor"] = "Петля Кирин-Тора";
 --  LBIS.L["Madame Ruby"] = "";
   LBIS.L["Maexxna"] = "Мексна";
   LBIS.L["Mage-Lord Urom"] = "Маг-лорд Уром";
@@ -270,7 +269,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
---  LBIS.L["Signet of the Kirin Tor"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "Сьоннир Литейщик";
   LBIS.L["Skadi the Ruthless"] = "Скади Безжалостный";
   LBIS.L["Skarvald the Constructor"] = "Скальвард Строитель";
