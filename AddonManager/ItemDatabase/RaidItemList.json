@@ -4945,39 +4945,39 @@
       "SourceLocation": "Ulduar (25)"
     },
     "45132": {
-      "Name": "Golden Saronite Dragon",
-      "Source": "Flame Leviathan",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Golden Saronite Dragon",
+        "Source": "Flame Leviathan (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45133": {
-      "Name": "Pendant of Fiery Havoc",
-      "Source": "Flame Leviathan",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Pendant of Fiery Havoc",
+        "Source": "Flame Leviathan (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45134": {
-      "Name": "Plated Leggings of Ruination",
-      "Source": "Flame Leviathan",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Plated Leggings of Ruination",
+        "Source": "Flame Leviathan (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45135": {
-      "Name": "Boots of Fiery Resolution",
-      "Source": "Flame Leviathan",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Boots of Fiery Resolution",
+        "Source": "Flame Leviathan (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45136": {
-      "Name": "Shoulderpads of Dormant Energies",
-      "Source": "Flame Leviathan",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Shoulderpads of Dormant Energies",
+        "Source": "Flame Leviathan (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45137": {
       "Name": "Veranus' Bane",
@@ -5295,25 +5295,25 @@
       "SourceLocation": "Ulduar (25)"
     },
     "45241": {
-      "Name": "Belt of Colossal Rage",
-      "Source": "The Iron Council",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Belt of Colossal Rage",
+        "Source": "The Iron Council (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45242": {
-      "Name": "Drape of Mortal Downfall",
-      "Source": "The Iron Council",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Drape of Mortal Downfall",
+        "Source": "The Iron Council (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45243": {
-      "Name": "Sapphire Amulet of Renewal",
-      "Source": "The Iron Council",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Sapphire Amulet of Renewal",
+        "Source": "The Iron Council (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45244": {
       "Name": "Greaves of Swift Vengeance",
@@ -5323,11 +5323,11 @@
       "SourceLocation": "Ulduar (25)"
     },
     "45245": {
-      "Name": "Shoulderpads of the Intruder",
-      "Source": "The Iron Council",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Shoulderpads of the Intruder",
+        "Source": "The Iron Council (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45246": {
       "Name": "Golem-Shard Sticker",
@@ -5610,39 +5610,39 @@
       "SourceLocation": "Ulduar (10)"
     },
     "45293": {
-      "Name": "Handguards of Potent Cures",
-      "Source": "Flame Leviathan",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Handguards of Potent Cures",
+        "Source": "Flame Leviathan (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45294": {
-      "Name": "Petrified Ivy Sprig",
-      "Source": "Freya",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Petrified Ivy Sprig",
+        "Source": "Freya (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45295": {
-      "Name": "Gilded Steel Legplates",
-      "Source": "Flame Leviathan",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Gilded Steel Legplates",
+        "Source": "Flame Leviathan (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45296": {
-      "Name": "Twirling Blades",
-      "Source": "Flame Leviathan",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Twirling Blades",
+        "Source": "Flame Leviathan (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45297": {
-      "Name": "Shimmering Seal",
-      "Source": "Flame Leviathan",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Shimmering Seal",
+        "Source": "Flame Leviathan (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45298": {
       "Name": "Razorscale Talon",
@@ -5659,11 +5659,11 @@
       "SourceLocation": "Ulduar (10)"
     },
     "45300": {
-      "Name": "Mantle of Fiery Vengeance",
-      "Source": "Flame Leviathan",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Mantle of Fiery Vengeance",
+        "Source": "Flame Leviathan (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45301": {
       "Name": "Bracers of the Smothering Inferno",
@@ -6226,60 +6226,60 @@
       "SourceLocation": "Ulduar (25)"
     },
     "45442": {
-      "Name": "Sorthalis, Hammer of the Watchers",
-      "Source": "XT-002 Deconstructor",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Sorthalis, Hammer of the Watchers",
+        "Source": "XT-002 Deconstructor (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45443": {
-      "Name": "Charm of Meticulous Timing",
-      "Source": "XT-002 Deconstructor",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Charm of Meticulous Timing",
+        "Source": "XT-002 Deconstructor (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45444": {
-      "Name": "Gloves of the Steady Hand",
-      "Source": "XT-002 Deconstructor",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Gloves of the Steady Hand",
+        "Source": "XT-002 Deconstructor (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45445": {
-      "Name": "Breastplate of the Devoted",
-      "Source": "XT-002 Deconstructor",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Breastplate of the Devoted",
+        "Source": "XT-002 Deconstructor (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45446": {
-      "Name": "Grasps of Reason",
-      "Source": "XT-002 Deconstructor",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Grasps of Reason",
+        "Source": "XT-002 Deconstructor (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45447": {
-      "Name": "Watchful Eye of Fate",
-      "Source": "The Iron Council",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Watchful Eye of Fate",
+        "Source": "The Iron Council (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45448": {
-      "Name": "Perilous Bite",
-      "Source": "The Iron Council",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Perilous Bite",
+        "Source": "The Iron Council (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45449": {
-      "Name": "The Masticator",
-      "Source": "The Iron Council",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "The Masticator",
+        "Source": "The Iron Council (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45450": {
       "Name": "Northern Barrier",
@@ -6317,22 +6317,22 @@
       "SourceLocation": "Ulduar (25)"
     },
     "45455": {
-      "Name": "Belt of the Crystal Tree",
-      "Source": "The Iron Council",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Belt of the Crystal Tree",
+        "Source": "The Iron Council (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45456": {
-      "Name": "Loop of the Agile",
-      "Source": "The Iron Council",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Loop of the Agile",
+        "Source": "The Iron Council (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45457": {
       "Name": "Staff of Endless Winter",
-      "Source": "Hodir",
+      "Source": "Hodir (Hard)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ulduar (25)"
@@ -6345,32 +6345,32 @@
       "SourceLocation": "Ulduar (10)"
     },
     "45459": {
-      "Name": "Frigid Strength of Hodir",
-      "Source": "Hodir",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Frigid Strength of Hodir",
+        "Source": "Hodir (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45460": {
-      "Name": "Bindings of Winter Gale",
-      "Source": "Hodir",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Bindings of Winter Gale",
+        "Source": "Hodir (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45461": {
-      "Name": "Drape of Icy Intent",
-      "Source": "Hodir",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Drape of Icy Intent",
+        "Source": "Hodir (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45462": {
-      "Name": "Gloves of the Frozen Glade",
-      "Source": "Hodir",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Gloves of the Frozen Glade",
+        "Source": "Hodir (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45463": {
       "Name": "Vulmir, the Northern Tempest",
@@ -6415,39 +6415,39 @@
       "SourceLocation": "Ulduar (25)"
     },
     "45470": {
-      "Name": "Wisdom's Hold",
-      "Source": "Thorim",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Wisdom's Hold",
+        "Source": "Thorim (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45471": {
-      "Name": "Fate's Clutch",
-      "Source": "Thorim",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Fate's Clutch",
+        "Source": "Thorim (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45472": {
-      "Name": "Warhelm of the Champion",
-      "Source": "Thorim",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Warhelm of the Champion",
+        "Source": "Thorim (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45473": {
-      "Name": "Embrace of the Gladiator",
-      "Source": "Thorim",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Embrace of the Gladiator",
+        "Source": "Thorim (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45474": {
-      "Name": "Pauldrons of the Combatant",
-      "Source": "Thorim",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Pauldrons of the Combatant",
+        "Source": "Thorim (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45479": {
       "Name": "The Lifebinder",
@@ -6485,39 +6485,39 @@
       "SourceLocation": "Ulduar (25)"
     },
     "45484": {
-      "Name": "Bladetwister",
-      "Source": "Freya",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Bladetwister",
+        "Source": "Freya (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45485": {
-      "Name": "Bronze Pendant of the Vanir",
-      "Source": "Freya",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Bronze Pendant of the Vanir",
+        "Source": "Freya (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45486": {
-      "Name": "Drape of the Sullen Goddess",
-      "Source": "Freya",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Drape of the Sullen Goddess",
+        "Source": "Freya (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45487": {
-      "Name": "Handguards of Revitalization",
-      "Source": "Freya",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Handguards of Revitalization",
+        "Source": "Freya (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45488": {
-      "Name": "Leggings of the Enslaved Idol",
-      "Source": "Freya",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Leggings of the Enslaved Idol",
+        "Source": "Freya (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45489": {
       "Name": "Insanity's Grip",
@@ -6555,32 +6555,32 @@
       "SourceLocation": "Ulduar (25)"
     },
     "45494": {
-      "Name": "Delirium's Touch",
-      "Source": "Mimiron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Delirium's Touch",
+        "Source": "Mimiron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45495": {
-      "Name": "Conductive Seal",
-      "Source": "Mimiron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Conductive Seal",
+        "Source": "Mimiron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45496": {
-      "Name": "Titanskin Cloak",
-      "Source": "Mimiron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Titanskin Cloak",
+        "Source": "Mimiron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45497": {
-      "Name": "Crown of Luminescence",
-      "Source": "Mimiron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Crown of Luminescence",
+        "Source": "Mimiron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45498": {
       "Name": "Lotrafen, Spear of the Damned",
@@ -6625,11 +6625,11 @@
       "SourceLocation": "Ulduar (25)"
     },
     "45506": {
-      "Name": "Archivum Data Disc",
-      "Source": "The Iron Council",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Archivum Data Disc",
+        "Source": "The Iron Council (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45507": {
       "Name": "The General's Heart",
@@ -6695,39 +6695,39 @@
       "SourceLocation": "Ulduar (25)"
     },
     "45516": {
-      "Name": "Voldrethar, Dark Blade of Oblivion",
-      "Source": "General Vezax",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Voldrethar, Dark Blade of Oblivion",
+        "Source": "General Vezax (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45517": {
-      "Name": "Pendulum of Infinity",
-      "Source": "General Vezax",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Pendulum of Infinity",
+        "Source": "General Vezax (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45518": {
-      "Name": "Flare of the Heavens",
-      "Source": "General Vezax",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Flare of the Heavens",
+        "Source": "General Vezax (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45519": {
-      "Name": "Vestments of the Blind Denizen",
-      "Source": "General Vezax",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Vestments of the Blind Denizen",
+        "Source": "General Vezax (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45520": {
-      "Name": "Handwraps of the Vigilant",
-      "Source": "General Vezax",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Handwraps of the Vigilant",
+        "Source": "General Vezax (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45521": {
       "Name": "Earthshaper",
@@ -6800,39 +6800,39 @@
       "SourceLocation": "Ulduar (25)"
     },
     "45533": {
-      "Name": "Dark Edge of Depravity",
-      "Source": "Yogg-Saron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Dark Edge of Depravity",
+        "Source": "Yogg-Saron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45534": {
-      "Name": "Seal of the Betrayed King",
-      "Source": "Yogg-Saron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Seal of the Betrayed King",
+        "Source": "Yogg-Saron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45535": {
-      "Name": "Show of Faith",
-      "Source": "Yogg-Saron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Show of Faith",
+        "Source": "Yogg-Saron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45536": {
-      "Name": "Legguards of Cunning Deception",
-      "Source": "Yogg-Saron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Legguards of Cunning Deception",
+        "Source": "Yogg-Saron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45537": {
-      "Name": "Treads of the False Oracle",
-      "Source": "Yogg-Saron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Treads of the False Oracle",
+        "Source": "Yogg-Saron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45538": {
       "Name": "Titanstone Pendant",
@@ -6906,7 +6906,7 @@
     },
     "45570": {
       "Name": "Skyforge Crossbow",
-      "Source": "Algalon the Observer",
+      "Source": "Algalon the Observer & Thorim (Hard)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ulduar (25)"
@@ -6947,11 +6947,11 @@
       "SourceLocation": "Ulduar (25)"
     },
     "45607": {
-      "Name": "Fang of Oblivion",
-      "Source": "The Iron Council",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Fang of Oblivion",
+        "Source": "Agalon the Observer & The Iron Council (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45608": {
       "Name": "Brann's Signet Ring",
@@ -6982,18 +6982,18 @@
       "SourceLocation": "Ulduar (25)"
     },
     "45612": {
-      "Name": "Constellus",
-      "Source": "Algalon the Observer",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Constellus",
+        "Source": "Algalon the Observer & Hodir (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45613": {
-      "Name": "Dreambinder",
-      "Source": "Algalon the Observer",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Dreambinder",
+        "Source": "Algalon the Observer & Freya (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45614": {
       "Name": "Starshine Circle",
@@ -7038,11 +7038,11 @@
       "SourceLocation": "Ulduar (25)"
     },
     "45620": {
-      "Name": "Starshard Edge",
-      "Source": "Algalon the Observer",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Starshard Edge",
+        "Source": "Algalon the Observer & Mimiron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45624": {
       "Name": "Emblem of Conquest",
@@ -7262,11 +7262,11 @@
       "SourceLocation": "Ulduar (10)"
     },
     "45663": {
-      "Name": "Armbands of Bedlam",
-      "Source": "Mimiron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Armbands of Bedlam",
+        "Source": "Mimiron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45665": {
       "Name": "Pharos Gloves",
@@ -7528,11 +7528,11 @@
       "SourceLocation": "Ulduar (10)"
     },
     "45857": {
-      "Name": "Archivum Data Disc",
-      "Source": "The Iron Council",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (25)"
+        "Name": "Archivum Data Disc",
+        "Source": "The Iron Council (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (25)"
     },
     "45864": {
       "Name": "Cover of the Keepers",
@@ -7556,39 +7556,39 @@
       "SourceLocation": "Ulduar (10)"
     },
     "45867": {
-      "Name": "Breastplate of the Stoneshaper",
-      "Source": "XT-002 Deconstructor",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Breastplate of the Stoneshaper",
+        "Source": "XT-002 Deconstructor (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45868": {
-      "Name": "Aesir's Edge",
-      "Source": "XT-002 Deconstructor",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Aesir's Edge",
+        "Source": "XT-002 Deconstructor (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45869": {
-      "Name": "Fluxing Energy Coils",
-      "Source": "XT-002 Deconstructor",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Fluxing Energy Coils",
+        "Source": "XT-002 Deconstructor (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45870": {
-      "Name": "Magnetized Projectile Emitter",
-      "Source": "XT-002 Deconstructor",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Magnetized Projectile Emitter",
+        "Source": "XT-002 Deconstructor (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45871": {
-      "Name": "Seal of Ulduar",
-      "Source": "XT-002 Deconstructor",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Seal of Ulduar",
+        "Source": "XT-002 Deconstructor (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45872": {
       "Name": "Avalanche",
@@ -7612,39 +7612,39 @@
       "SourceLocation": "Ulduar (10)"
     },
     "45876": {
-      "Name": "Shiver",
-      "Source": "Hodir",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Shiver",
+        "Source": "Hodir (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45877": {
-      "Name": "The Boreal Guard",
-      "Source": "Hodir",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "The Boreal Guard",
+        "Source": "Hodir (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45886": {
-      "Name": "Icecore Staff",
-      "Source": "Hodir",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Icecore Staff",
+        "Source": "Hodir (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45887": {
-      "Name": "Ice Layered Barrier",
-      "Source": "Hodir",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Ice Layered Barrier",
+        "Source": "Hodir (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45888": {
-      "Name": "Bitter Cold Armguards",
-      "Source": "Hodir",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Bitter Cold Armguards",
+        "Source": "Hodir (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45892": {
       "Name": "Legacy of Thunder",
@@ -7689,39 +7689,39 @@
       "SourceLocation": "Ulduar (10)"
     },
     "45928": {
-      "Name": "Gauntlets of the Thunder God",
-      "Source": "Thorim",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Gauntlets of the Thunder God",
+        "Source": "Thorim (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45929": {
-      "Name": "Sif's Remembrance",
-      "Source": "Thorim",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Sif's Remembrance",
+        "Source": "Thorim (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45930": {
-      "Name": "Combatant's Bootblade",
-      "Source": "Thorim",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Combatant's Bootblade",
+        "Source": "Thorim (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45931": {
-      "Name": "Mjolnir Runestone",
-      "Source": "Thorim",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Mjolnir Runestone",
+        "Source": "Thorim (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45933": {
-      "Name": "Pendant of the Shallow Grave",
-      "Source": "Thorim",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Pendant of the Shallow Grave",
+        "Source": "Thorim (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45934": {
       "Name": "Unraveling Reach",
@@ -7759,32 +7759,32 @@
       "SourceLocation": "Ulduar (10)"
     },
     "45943": {
-      "Name": "Gloves of Whispering Winds",
-      "Source": "Freya",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Gloves of Whispering Winds",
+        "Source": "Freya (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45945": {
-      "Name": "Seed of Budding Carnage",
-      "Source": "Freya",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Seed of Budding Carnage",
+        "Source": "Freya (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45946": {
-      "Name": "Fire Orchid Signet",
-      "Source": "Freya",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Fire Orchid Signet",
+        "Source": "Freya (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45947": {
-      "Name": "Serilas, Blood Blade of Invar One-Arm",
-      "Source": "Freya",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Serilas, Blood Blade of Invar One-Arm",
+        "Source": "Freya (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45972": {
       "Name": "Pulse Baton",
@@ -7822,39 +7822,39 @@
       "SourceLocation": "Ulduar (10)"
     },
     "45982": {
-      "Name": "Fused Alloy Legplates",
-      "Source": "Mimiron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Fused Alloy Legplates",
+        "Source": "Mimiron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45988": {
-      "Name": "Greaves of the Iron Army",
-      "Source": "Mimiron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Greaves of the Iron Army",
+        "Source": "Mimiron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45989": {
-      "Name": "Tempered Mercury Greaves",
-      "Source": "Mimiron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Tempered Mercury Greaves",
+        "Source": "Mimiron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45990": {
-      "Name": "Fusion Blade",
-      "Source": "Mimiron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Fusion Blade",
+        "Source": "Mimiron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45993": {
-      "Name": "Mimiron's Flight Goggles",
-      "Source": "Mimiron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Mimiron's Flight Goggles",
+        "Source": "Mimiron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "45996": {
       "Name": "Hoperender",
@@ -8004,39 +8004,39 @@
       "SourceLocation": "Ulduar (10)"
     },
     "46032": {
-      "Name": "Drape of the Faceless General",
-      "Source": "General Vezax",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Drape of the Faceless General",
+        "Source": "General Vezax (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "46033": {
-      "Name": "Tortured Earth",
-      "Source": "General Vezax",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Tortured Earth",
+        "Source": "General Vezax (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "46034": {
-      "Name": "Leggings of Profound Darkness",
-      "Source": "General Vezax",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Leggings of Profound Darkness",
+        "Source": "General Vezax (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "46035": {
-      "Name": "Aesuga, Hand of the Ardent Champion",
-      "Source": "General Vezax",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Aesuga, Hand of the Ardent Champion",
+        "Source": "General Vezax (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "46036": {
-      "Name": "Void Sabre",
-      "Source": "General Vezax",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Void Sabre",
+        "Source": "General Vezax (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "46037": {
       "Name": "Shoulderplates of the Celestial Watch",
@@ -8158,39 +8158,39 @@
       "SourceLocation": "Ulduar (25)"
     },
     "46067": {
-      "Name": "Hammer of Crushing Whispers",
-      "Source": "Yogg-Saron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Hammer of Crushing Whispers",
+        "Source": "Yogg-Saron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "46068": {
-      "Name": "Amice of Inconceivable Horror",
-      "Source": "Yogg-Saron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Amice of Inconceivable Horror",
+        "Source": "Yogg-Saron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "46095": {
-      "Name": "Soul-Devouring Cinch",
-      "Source": "Yogg-Saron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Soul-Devouring Cinch",
+        "Source": "Yogg-Saron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "46096": {
-      "Name": "Signet of Soft Lament",
-      "Source": "Yogg-Saron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Signet of Soft Lament",
+        "Source": "Yogg-Saron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "46097": {
-      "Name": "Caress of Insanity",
-      "Source": "Yogg-Saron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Caress of Insanity",
+        "Source": "Yogg-Saron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "46110": {
       "Name": "Alchemist's Cache",
@@ -8480,11 +8480,11 @@
       "SourceLocation": "Vault of Archavon (25)"
     },
     "46312": {
-      "Name": "Vanquished Clutches of Yogg-Saron",
-      "Source": "Yogg-Saron",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
+        "Name": "Vanquished Clutches of Yogg-Saron",
+        "Source": "Yogg-Saron (Hard)",
+        "SourceType": "Drop",
+        "SourceNumber": "0",
+        "SourceLocation": "Ulduar (10)"
     },
     "46320": {
       "Name": "Drape of the Skyherald",
