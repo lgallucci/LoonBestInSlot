@@ -79,3 +79,4 @@ LBIS:AddItem(spec, "46067", LBIS.L["Two Hand"], "BIS") --Hammer of Crushing Whis
 
 LBIS:AddItem(spec, "45144", LBIS.L["Ranged/Relic"], "BIS") --Sigil of Deflection
 LBIS:AddItem(spec, "40714", LBIS.L["Ranged/Relic"], "Alt") --Sigil of the Unfaltering Knight
+LBIS:AddItem(spec, "40207", LBIS.L["Ranged/Relic"], "Alt") --Sigil of Awareness

@@ -21,8 +21,8 @@ LBIS:AddItem(spec, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
 
 LBIS:AddItem(spec, "46130", LBIS.L["Chest"], "BIS") --Conqueror's Kirin Tor Tunic
 LBIS:AddItem(spec, "45634", LBIS.L["Chest"], "BIS") --Breastplate of the Wayward Vanquisher
-LBIS:AddItem(spec, "45637", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Vanquisher
 LBIS:AddItem(spec, "45368", LBIS.L["Chest"], "Alt") --Valorous Kirin Tor Tunic
+LBIS:AddItem(spec, "45637", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Vanquisher
 LBIS:AddItem(spec, "40418", LBIS.L["Chest"], "Alt") --Valorous Frostfire Robe
 LBIS:AddItem(spec, "40627", LBIS.L["Chest"], "Alt") --Breastplate of the Lost Vanquisher
 
@@ -43,8 +43,12 @@ LBIS:AddItem(spec, "45558", LBIS.L["Waist"], "Alt") --Cord of the White Dawn
 LBIS:AddItem(spec, "46133", LBIS.L["Legs"], "BIS") --Conqueror's Kirin Tor Leggings
 LBIS:AddItem(spec, "45655", LBIS.L["Legs"], "BIS") --Legplates of the Wayward Vanquisher
 LBIS:AddItem(spec, "45488", LBIS.L["Legs"], "BIS") --Leggings of the Enslaved Idol
-LBIS:AddItem(spec, "45652", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Vanquisher
 LBIS:AddItem(spec, "45367", LBIS.L["Legs"], "Alt") --Valorous Kirin Tor Leggings
+LBIS:AddItem(spec, "45652", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Vanquisher
+LBIS:AddItem(spec, "40417", LBIS.L["Legs"], "Alt") --Valorous Frostfire Leggings
+LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "Alt") --Legplates of the Lost Vanquisher
+LBIS:AddItem(spec, "39493", LBIS.L["Legs"], "Alt") --Heroes' Frostfire Leggings
+LBIS:AddItem(spec, "40621", LBIS.L["Legs"], "Alt") --Leggings of the Lost Vanquisher
 
 LBIS:AddItem(spec, "45537", LBIS.L["Feet"], "BIS") --Treads of the False Oracle
 LBIS:AddItem(spec, "45135", LBIS.L["Feet"], "Alt") --Boots of Fiery Resolution
@@ -54,6 +58,7 @@ LBIS:AddItem(spec, "45133", LBIS.L["Neck"], "BIS") --Pendant of Fiery Havoc
 LBIS:AddItem(spec, "45933", LBIS.L["Neck"], "Alt") --Pendant of the Shallow Grave
 LBIS:AddItem(spec, "44661", LBIS.L["Neck"], "Alt") --Wyrmrest Necklace of Power
 LBIS:AddItem(spec, "45243", LBIS.L["Neck"], "Alt") --Sapphire Amulet of Renewal
+LBIS:AddItem(spec, "44658", LBIS.L["Neck"], "Alt") --Chain of the Ancient Wyrm
 
 LBIS:AddItem(spec, "45495", LBIS.L["Ring"], "BIS") --Conductive Seal
 LBIS:AddItem(spec, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
@@ -85,5 +90,6 @@ LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "Alt") --Matriarch's Spawn
 LBIS:AddItem(spec, "40192", LBIS.L["Off Hand"], "Alt") --Accursed Spine
 
 LBIS:AddItem(spec, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
+LBIS:AddItem(spec, "45511", LBIS.L["Ranged/Relic"], "BIS") --Scepter of Lost Souls
 LBIS:AddItem(spec, "45257", LBIS.L["Ranged/Relic"], "BIS") --Quartz Crystal Wand
 LBIS:AddItem(spec, "39712", LBIS.L["Ranged/Relic"], "BIS") --Gemmed Wand of the Nerubians

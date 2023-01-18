@@ -16,6 +16,7 @@ LBIS:AddItem(spec, "45486", LBIS.L["Back"], "BIS") --Drape of the Sullen Goddess
 LBIS:AddItem(spec, "44005", LBIS.L["Back"], "BIS") --Pennant Cloak
 LBIS:AddItem(spec, "45541", LBIS.L["Back"], "Alt") --Shroud of Alteration
 LBIS:AddItem(spec, "46341", LBIS.L["Back"], "Alt") --Drape of the Spellweaver
+LBIS:AddItem(spec, "40724", LBIS.L["Back"], "Alt") --Cloak of Kea Feathers
 
 LBIS:AddItem(spec, "46198", LBIS.L["Chest"], "BIS") --Conqueror's Worldbreaker Tunic
 LBIS:AddItem(spec, "45633", LBIS.L["Chest"], "BIS") --Breastplate of the Wayward Protector
@@ -81,3 +82,4 @@ LBIS:AddItem(spec, "45682", LBIS.L["Off Hand"], "Alt") --Pulsing Spellshield
 
 LBIS:AddItem(spec, "45114", LBIS.L["Ranged/Relic"], "BIS") --Steamcaller's Totem
 LBIS:AddItem(spec, "40709", LBIS.L["Ranged/Relic"], "Alt") --Totem of Forest Growth
+LBIS:AddItem(spec, "38368", LBIS.L["Ranged/Relic"], "Alt") --Totem of the Bay

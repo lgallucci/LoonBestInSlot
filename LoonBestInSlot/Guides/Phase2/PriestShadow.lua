@@ -16,8 +16,8 @@ LBIS:AddItem(spec, "45514", LBIS.L["Shoulder"], "Alt") --Mantle of the Unknowing
 LBIS:AddItem(spec, "45186", LBIS.L["Shoulder"], "Alt") --Soot-Covered Mantle
 LBIS:AddItem(spec, "45253", LBIS.L["Shoulder"], "Alt") --Mantle of Wavering Calm
 LBIS:AddItem(spec, "45832", LBIS.L["Shoulder"], "Alt") --Mantle of the Preserver
-LBIS:AddItem(spec, "45659", LBIS.L["Shoulder"], "Alt") --Spaulders of the Wayward Conqueror
 LBIS:AddItem(spec, "45393", LBIS.L["Shoulder"], "Alt") --Valorous Mantle of Sanctification
+LBIS:AddItem(spec, "45659", LBIS.L["Shoulder"], "Alt") --Spaulders of the Wayward Conqueror
 LBIS:AddItem(spec, "40555", LBIS.L["Shoulder"], "Alt") --Mantle of Dissemination
 
 LBIS:AddItem(spec, "45242", LBIS.L["Back"], "BIS") --Drape of Mortal Downfall
@@ -28,6 +28,7 @@ LBIS:AddItem(spec, "45486", LBIS.L["Back"], "Alt") --Drape of the Sullen Goddess
 LBIS:AddItem(spec, "45493", LBIS.L["Back"], "Alt") --Asimov's Drape
 LBIS:AddItem(spec, "45529", LBIS.L["Back"], "Alt") --Shawl of Haunted Memories
 LBIS:AddItem(spec, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
+LBIS:AddItem(spec, "40405", LBIS.L["Back"], "Alt") --Cape of the Unworthy Wizard
 
 LBIS:AddItem(spec, "46168", LBIS.L["Chest"], "BIS") --Conqueror's Raiments of Sanctification
 LBIS:AddItem(spec, "45632", LBIS.L["Chest"], "BIS") --Breastplate of the Wayward Conqueror
@@ -79,6 +80,7 @@ LBIS:AddItem(spec, "45394", LBIS.L["Legs"], "Alt") --Valorous Pants of Sanctific
 LBIS:AddItem(spec, "45650", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Conqueror
 LBIS:AddItem(spec, "45894", LBIS.L["Legs"], "Alt") --Leggings of Unstable Discharge
 LBIS:AddItem(spec, "40560", LBIS.L["Legs"], "Alt") --Leggings of the Wanton Spellcaster
+LBIS:AddItem(spec, "40398", LBIS.L["Legs"], "Alt") --Leggings of Mortal Arrogance
 
 LBIS:AddItem(spec, "45135", LBIS.L["Feet"], "BIS") --Boots of Fiery Resolution
 LBIS:AddItem(spec, "45537", LBIS.L["Feet"], "Alt") --Treads of the False Oracle
@@ -118,6 +120,7 @@ LBIS:AddItem(spec, "46312", LBIS.L["Trinket"], "Alt") --Vanquished Clutches of Y
 LBIS:AddItem(spec, "40255", LBIS.L["Trinket"], "Alt") --Dying Curse
 LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "Alt") --Illustration of the Dragon Soul
 LBIS:AddItem(spec, "39229", LBIS.L["Trinket"], "Alt") --Embrace of the Spider
+LBIS:AddItem(spec, "40682", LBIS.L["Trinket"], "Alt") --Sundial of the Exiled
 LBIS:AddItem(spec, "45535", LBIS.L["Trinket"], "Alt") --Show of Faith
 LBIS:AddItem(spec, "45929", LBIS.L["Trinket"], "Alt") --Sif's Remembrance
 LBIS:AddItem(spec, "45490", LBIS.L["Trinket"], "Alt") --Pandora's Plea

@@ -62,6 +62,7 @@ LBIS:AddItem(spec, "45931", LBIS.L["Trinket"], "BIS") --Mjolnir Runestone
 LBIS:AddItem(spec, "45609", LBIS.L["Trinket"], "BIS") --Comet's Trail
 LBIS:AddItem(spec, "46038", LBIS.L["Trinket"], "Alt") --Dark Matter
 LBIS:AddItem(spec, "40256", LBIS.L["Trinket"], "Alt") --Grim Toll
+LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "Alt") --Mirror of Truth
 
 LBIS:AddItem(spec, "45516", LBIS.L["Two Hand"], "BIS") --Voldrethar, Dark Blade of Oblivion
 LBIS:AddItem(spec, "45868", LBIS.L["Two Hand"], "BIS") --Aesir's Edge

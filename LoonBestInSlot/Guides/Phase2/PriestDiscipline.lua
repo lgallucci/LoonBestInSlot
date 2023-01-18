@@ -29,6 +29,7 @@ LBIS:AddItem(spec, "45446", LBIS.L["Wrist"], "BIS") --Grasps of Reason
 LBIS:AddItem(spec, "45146", LBIS.L["Wrist"], "Alt") --Shackles of the Odalisque
 LBIS:AddItem(spec, "44008", LBIS.L["Wrist"], "Alt") --Unsullied Cuffs
 
+LBIS:AddItem(spec, "45665", LBIS.L["Hands"], "BIS") --Pharos Gloves
 LBIS:AddItem(spec, "45520", LBIS.L["Hands"], "BIS") --Handwraps of the Vigilant
 LBIS:AddItem(spec, "46188", LBIS.L["Hands"], "BIS") --Conqueror's Gloves of Sanctification
 LBIS:AddItem(spec, "45641", LBIS.L["Hands"], "BIS") --Gauntlets of the Wayward Conqueror

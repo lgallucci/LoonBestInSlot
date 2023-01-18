@@ -36,7 +36,9 @@ LBIS:AddItem(spec, "45481", LBIS.L["Hands"], "Alt") --Gauntlets of Ruthless Repr
 LBIS:AddItem(spec, "45833", LBIS.L["Hands"], "Alt") --Bladebreaker Gauntlets
 
 LBIS:AddItem(spec, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
+LBIS:AddItem(spec, "45241", LBIS.L["Waist"], "BIS") --Belt of Colossal Rage
 LBIS:AddItem(spec, "46041", LBIS.L["Waist"], "Alt") --Starfall Girdle
+LBIS:AddItem(spec, "45550", LBIS.L["Waist"], "Alt") --Belt of the Titans
 
 LBIS:AddItem(spec, "45536", LBIS.L["Legs"], "BIS") --Legguards of Cunning Deception
 LBIS:AddItem(spec, "45134", LBIS.L["Legs"], "Alt") --Plated Leggings of Ruination
@@ -53,15 +55,17 @@ LBIS:AddItem(spec, "44664", LBIS.L["Neck"], "Alt") --Favor of the Dragon Queen
 
 LBIS:AddItem(spec, "45608", LBIS.L["Ring"], "BIS") --Brann's Signet Ring
 LBIS:AddItem(spec, "46322", LBIS.L["Ring"], "BIS") --Brann's Sealing Ring
-LBIS:AddItem(spec, "45534", LBIS.L["Ring"], "BIS") --Seal of the Betrayed King
+
+LBIS:AddItem(spec, "45609", LBIS.L["Ring/Trinket"], "BIS") --Comet's Trail
+
 LBIS:AddItem(spec, "45469", LBIS.L["Ring"], "Alt") --Sif's Promise
 LBIS:AddItem(spec, "46048", LBIS.L["Ring"], "Alt") --Band of Lights
 
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "45931", LBIS.L["Trinket"], "BIS") --Mjolnir Runestone
-LBIS:AddItem(spec, "45609", LBIS.L["Trinket"], "BIS") --Comet's Trail
 LBIS:AddItem(spec, "46038", LBIS.L["Trinket"], "Alt") --Dark Matter
 LBIS:AddItem(spec, "40256", LBIS.L["Trinket"], "Alt") --Grim Toll
+LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "Alt") --Mirror of Truth
 
 LBIS:AddItem(spec, "45516", LBIS.L["Two Hand"], "BIS") --Voldrethar, Dark Blade of Oblivion
 LBIS:AddItem(spec, "45533", LBIS.L["Two Hand"], "BIS") --Dark Edge of Depravity
@@ -71,4 +75,5 @@ LBIS:AddItem(spec, "45165", LBIS.L["Two Hand"], "Alt") --Worldcarver
 LBIS:AddItem(spec, "40384", LBIS.L["Two Hand"], "Alt") --Betrayer of Humanity
 
 LBIS:AddItem(spec, "45296", LBIS.L["Ranged/Relic"], "BIS") --Twirling Blades
+LBIS:AddItem(spec, "45870", LBIS.L["Ranged/Relic"], "Alt") --Magnetized Projectile Emitter
 LBIS:AddItem(spec, "40385", LBIS.L["Ranged/Relic"], "Alt") --Envoy of Mortality

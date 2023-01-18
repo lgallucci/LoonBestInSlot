@@ -11,6 +11,7 @@ LBIS:AddItem(spec, "45474", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Combat
 
 LBIS:AddItem(spec, "45486", LBIS.L["Back"], "BIS") --Drape of the Sullen Goddess
 LBIS:AddItem(spec, "44005", LBIS.L["Back"], "BIS") --Pennant Cloak
+LBIS:AddItem(spec, "45541", LBIS.L["Back"], "Alt") --Shroud of Alteration
 
 LBIS:AddItem(spec, "45445", LBIS.L["Chest"], "BIS") --Breastplate of the Devoted
 LBIS:AddItem(spec, "45867", LBIS.L["Chest"], "Alt") --Breastplate of the Stoneshaper
@@ -62,6 +63,7 @@ LBIS:AddItem(spec, "45235", LBIS.L["Ring"], "Alt") --Radiant Seal
 LBIS:AddItem(spec, "46051", LBIS.L["Trinket"], "BIS") --Meteorite Crystal
 LBIS:AddItem(spec, "37111", LBIS.L["Trinket"], "Alt") --Soul Preserver
 LBIS:AddItem(spec, "44255", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Greatness
+LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "Alt") --Figurine - Sapphire Owl
 
 LBIS:AddItem(spec, "46017", LBIS.L["Main Hand"], "BIS") --Val'anyr, Hammer of Ancient Kings
 LBIS:AddItem(spec, "45612", LBIS.L["Main Hand"], "BIS") --Constellus

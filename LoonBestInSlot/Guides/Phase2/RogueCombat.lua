@@ -38,6 +38,7 @@ LBIS:AddItem(spec, "40539", LBIS.L["Chest"], "Alt") --Chestguard of the Recluse
 LBIS:AddItem(spec, "45869", LBIS.L["Wrist"], "BIS") --Fluxing Energy Coils
 LBIS:AddItem(spec, "45611", LBIS.L["Wrist"], "BIS") --Solar Bindings
 LBIS:AddItem(spec, "45108", LBIS.L["Wrist"], "Alt") --Mechanist's Bindings
+LBIS:AddItem(spec, "40186", LBIS.L["Wrist"], "Alt") --Thrusting Bands
 LBIS:AddItem(spec, "39765", LBIS.L["Wrist"], "Alt") --Sinner's Bindings
 
 LBIS:AddItem(spec, "46043", LBIS.L["Hands"], "BIS") --Gloves of the Endless Dark

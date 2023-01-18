@@ -10,8 +10,8 @@ LBIS:AddItem(spec, "45649", LBIS.L["Head"], "Alt") --Helm of the Wayward Vanquis
 
 LBIS:AddItem(spec, "45245", LBIS.L["Shoulder"], "BIS") --Shoulderpads of the Intruder
 LBIS:AddItem(spec, "41715", LBIS.L["Shoulder"], "Alt") --Furious Gladiator's Dragonhide Spaulders
-LBIS:AddItem(spec, "45658", LBIS.L["Shoulder"], "Alt") --Mantle of the Wayward Vanquisher
 LBIS:AddItem(spec, "46157", LBIS.L["Shoulder"], "Alt") --Conqueror's Nightsong Shoulderpads
+LBIS:AddItem(spec, "45658", LBIS.L["Shoulder"], "Alt") --Mantle of the Wayward Vanquisher
 LBIS:AddItem(spec, "45265", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Monolith
 LBIS:AddItem(spec, "45359", LBIS.L["Shoulder"], "Alt") --Valorous Nightsong Shoulderpads
 LBIS:AddItem(spec, "45661", LBIS.L["Shoulder"], "Alt") --Spaulders of the Wayward Vanquisher
@@ -29,6 +29,7 @@ LBIS:AddItem(spec, "45634", LBIS.L["Chest"], "Alt") --Breastplate of the Wayward
 LBIS:AddItem(spec, "41661", LBIS.L["Chest"], "Alt Mit") --Furious Gladiator's Dragonhide Robes
 LBIS:AddItem(spec, "45358", LBIS.L["Chest"], "Alt") --Valorous Nightsong Raiments
 LBIS:AddItem(spec, "45637", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Vanquisher
+LBIS:AddItem(spec, "43590", LBIS.L["Chest"], "Alt Mit") --Polar Vest
 LBIS:AddItem(spec, "45940", LBIS.L["Chest"], "Alt") --Tunic of the Limber Stalker
 
 LBIS:AddItem(spec, "45611", LBIS.L["Wrist"], "BIS") --Solar Bindings
@@ -64,7 +65,9 @@ LBIS:AddItem(spec, "45652", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Van
 LBIS:AddItem(spec, "45232", LBIS.L["Feet"], "BIS") --Runed Ironhide Boots
 LBIS:AddItem(spec, "41836", LBIS.L["Feet"], "BIS") --Furious Gladiator's Boots of Triumph
 LBIS:AddItem(spec, "45564", LBIS.L["Feet"], "Alt") --Footpads of Silence
+LBIS:AddItem(spec, "43592", LBIS.L["Feet"], "Alt Mit") --Polar Boots
 LBIS:AddItem(spec, "45162", LBIS.L["Feet"], "Alt") --Flamestalker Boots
+LBIS:AddItem(spec, "41835", LBIS.L["Feet"], "Alt Mit") --Deadly Gladiator's Boots of Triumph
 
 LBIS:AddItem(spec, "45517", LBIS.L["Neck"], "BIS") --Pendulum of Infinity
 LBIS:AddItem(spec, "45485", LBIS.L["Neck"], "BIS") --Bronze Pendant of the Vanir
@@ -86,8 +89,10 @@ LBIS:AddItem(spec, "45158", LBIS.L["Trinket"], "BIS") --Heart of Iron
 LBIS:AddItem(spec, "46021", LBIS.L["Trinket"], "BIS") --Royal Seal of King Llane
 LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "Alt Mit") --Figurine - Monarch Crab
 LBIS:AddItem(spec, "44253", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Greatness
+LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "Alt Mit") --Essence of Gossamer
 LBIS:AddItem(spec, "42341", LBIS.L["Trinket"], "Alt") --Figurine - Ruby Hare
 LBIS:AddItem(spec, "40767", LBIS.L["Trinket"], "Alt") --Sonic Booster
+LBIS:AddItem(spec, "44323", LBIS.L["Trinket"], "Alt Mit") --Indestructible Alchemist's Stone
 
 LBIS:AddItem(spec, "45533", LBIS.L["Two Hand"], "BIS") --Dark Edge of Depravity
 LBIS:AddItem(spec, "45952", LBIS.L["Two Hand"], "BIS") --Furious Gladiator's Greatstaff
@@ -98,3 +103,4 @@ LBIS:AddItem(spec, "40280", LBIS.L["Two Hand"], "Alt Mit") --Origin of Nightmare
 
 LBIS:AddItem(spec, "45509", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Corruptor
 LBIS:AddItem(spec, "38365", LBIS.L["Ranged/Relic"], "Alt") --Idol of Perspicacious Attacks
+LBIS:AddItem(spec, "33509", LBIS.L["Ranged/Relic"], "Alt") --Idol of Terror

@@ -27,9 +27,9 @@ LBIS:AddItem(spec, "45460", LBIS.L["Wrist"], "BIS") --Bindings of Winter Gale
 LBIS:AddItem(spec, "45454", LBIS.L["Wrist"], "Alt") --Frost-bound Chain Bracers
 LBIS:AddItem(spec, "45869", LBIS.L["Wrist"], "Alt") --Fluxing Energy Coils
 
-LBIS:AddItem(spec, "46199", LBIS.L["Hands"], "BIS") --Conqueror's Worldbreaker Handguards
+LBIS:AddItem(spec, "46200", LBIS.L["Hands"], "BIS") --Conqueror's Worldbreaker Grips
 LBIS:AddItem(spec, "45642", LBIS.L["Hands"], "BIS") --Gauntlets of the Wayward Protector
-LBIS:AddItem(spec, "45401", LBIS.L["Hands"], "Alt") --Valorous Worldbreaker Handguards
+LBIS:AddItem(spec, "45414", LBIS.L["Hands"], "Alt") --Valorous Worldbreaker Grips
 LBIS:AddItem(spec, "45645", LBIS.L["Hands"], "Alt") --Gloves of the Wayward Protector
 LBIS:AddItem(spec, "45444", LBIS.L["Hands"], "Alt") --Gloves of the Steady Hand
 LBIS:AddItem(spec, "45665", LBIS.L["Hands"], "Alt") --Pharos Gloves
@@ -77,3 +77,4 @@ LBIS:AddItem(spec, "39468", LBIS.L["Off Hand"], "Alt") --The Stray
 
 LBIS:AddItem(spec, "42608", LBIS.L["Ranged/Relic"], "BIS") --Furious Gladiator's Totem of Indomitability
 LBIS:AddItem(spec, "40322", LBIS.L["Ranged/Relic"], "Alt") --Totem of Dueling
+LBIS:AddItem(spec, "40708", LBIS.L["Ranged/Relic"], "Alt") --Totem of the Elemental Plane

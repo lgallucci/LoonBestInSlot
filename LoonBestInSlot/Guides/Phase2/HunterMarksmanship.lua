@@ -32,8 +32,8 @@ LBIS:AddItem(spec, "45524", LBIS.L["Chest"], "Alt") --Chestguard of Insidious In
 LBIS:AddItem(spec, "45941", LBIS.L["Chest"], "Alt") --Chestguard of the Lasher
 LBIS:AddItem(spec, "45940", LBIS.L["Chest"], "Alt") --Tunic of the Limber Stalker
 
-LBIS:AddItem(spec, "45454", LBIS.L["Wrist"], "BIS") --Frost-bound Chain Bracers
 LBIS:AddItem(spec, "45869", LBIS.L["Wrist"], "BIS") --Fluxing Energy Coils
+LBIS:AddItem(spec, "45454", LBIS.L["Wrist"], "BIS") --Frost-bound Chain Bracers
 LBIS:AddItem(spec, "40282", LBIS.L["Wrist"], "BIS") --Slime Stream Bands
 LBIS:AddItem(spec, "45301", LBIS.L["Wrist"], "Alt") --Bracers of the Smothering Inferno
 LBIS:AddItem(spec, "45611", LBIS.L["Wrist"], "Alt") --Solar Bindings
@@ -62,8 +62,8 @@ LBIS:AddItem(spec, "45143", LBIS.L["Legs"], "Alt") --Saronite Mesh Legguards
 LBIS:AddItem(spec, "45844", LBIS.L["Legs"], "Alt") --Leggings of the Tireless Sentry
 LBIS:AddItem(spec, "45504", LBIS.L["Legs"], "Alt") --Darkcore Leggings
 
-LBIS:AddItem(spec, "45562", LBIS.L["Feet"], "BIS") --Boots of Living Scale
 LBIS:AddItem(spec, "45244", LBIS.L["Feet"], "BIS") --Greaves of Swift Vengeance
+LBIS:AddItem(spec, "45562", LBIS.L["Feet"], "BIS") --Boots of Living Scale
 LBIS:AddItem(spec, "40549", LBIS.L["Feet"], "BIS") --Boots of the Renewed Flight
 LBIS:AddItem(spec, "45989", LBIS.L["Feet"], "Alt") --Tempered Mercury Greaves
 LBIS:AddItem(spec, "45249", LBIS.L["Feet"], "Alt") --Brass-lined Boots

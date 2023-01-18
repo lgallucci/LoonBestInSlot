@@ -25,7 +25,6 @@ LBIS:AddItem(spec, "45618", LBIS.L["Back"], "BIS") --Sunglimmer Cloak
 LBIS:AddItem(spec, "45242", LBIS.L["Back"], "BIS") --Drape of Mortal Downfall
 LBIS:AddItem(spec, "46321", LBIS.L["Back"], "Alt") --Sunglimmer Drape
 LBIS:AddItem(spec, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
-LBIS:AddItem(spec, "45486", LBIS.L["Back"], "Alt") --Drape of the Sullen Goddess
 LBIS:AddItem(spec, "46042", LBIS.L["Back"], "Alt") --Drape of the Messenger
 
 LBIS:AddItem(spec, "46130", LBIS.L["Chest"], "BIS") --Conqueror's Kirin Tor Tunic
@@ -64,6 +63,8 @@ LBIS:AddItem(spec, "46034", LBIS.L["Legs"], "Alt") --Leggings of Profound Darkne
 LBIS:AddItem(spec, "45848", LBIS.L["Legs"], "Alt") --Legwraps of the Master Conjurer
 LBIS:AddItem(spec, "45367", LBIS.L["Legs"], "Alt") --Valorous Kirin Tor Leggings
 LBIS:AddItem(spec, "45652", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Vanquisher
+LBIS:AddItem(spec, "39493", LBIS.L["Legs"], "Alt") --Heroes' Frostfire Leggings
+LBIS:AddItem(spec, "40621", LBIS.L["Legs"], "Alt") --Leggings of the Lost Vanquisher
 
 LBIS:AddItem(spec, "45135", LBIS.L["Feet"], "BIS") --Boots of Fiery Resolution
 LBIS:AddItem(spec, "45537", LBIS.L["Feet"], "Alt") --Treads of the False Oracle
@@ -74,7 +75,6 @@ LBIS:AddItem(spec, "45243", LBIS.L["Neck"], "BIS") --Sapphire Amulet of Renewal
 LBIS:AddItem(spec, "45133", LBIS.L["Neck"], "BIS") --Pendant of Fiery Havoc
 LBIS:AddItem(spec, "45933", LBIS.L["Neck"], "Alt") --Pendant of the Shallow Grave
 LBIS:AddItem(spec, "45447", LBIS.L["Neck"], "Alt") --Watchful Eye of Fate
-LBIS:AddItem(spec, "45443", LBIS.L["Neck"], "Alt") --Charm of Meticulous Timing
 
 LBIS:AddItem(spec, "45495", LBIS.L["Ring"], "BIS") --Conductive Seal
 LBIS:AddItem(spec, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
@@ -102,6 +102,7 @@ LBIS:AddItem(spec, "45271", LBIS.L["Off Hand"], "Alt") --Ironmender
 LBIS:AddItem(spec, "45115", LBIS.L["Off Hand"], "Alt") --Leviathan Fueling Manual
 LBIS:AddItem(spec, "45314", LBIS.L["Off Hand"], "Alt") --Igniter Rod
 LBIS:AddItem(spec, "40273", LBIS.L["Off Hand"], "Alt") --Surplus Limb
+LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "Alt") --Matriarch's Spawn
 
 LBIS:AddItem(spec, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
 LBIS:AddItem(spec, "45511", LBIS.L["Ranged/Relic"], "Alt") --Scepter of Lost Souls

@@ -25,8 +25,8 @@ LBIS:AddItem(spec, "45541", LBIS.L["Back"], "Alt") --Shroud of Alteration
 LBIS:AddItem(spec, "45317", LBIS.L["Back"], "Alt") --Shawl of the Caretaker
 
 LBIS:AddItem(spec, "45519", LBIS.L["Chest"], "BIS") --Vestments of the Blind Denizen
-LBIS:AddItem(spec, "45634", LBIS.L["Chest"], "Alt") --Breastplate of the Wayward Vanquisher
 LBIS:AddItem(spec, "46194", LBIS.L["Chest"], "Alt") --Conqueror's Nightsong Vestments
+LBIS:AddItem(spec, "45634", LBIS.L["Chest"], "Alt") --Breastplate of the Wayward Vanquisher
 LBIS:AddItem(spec, "45240", LBIS.L["Chest"], "Alt") --Raiments of the Iron Council
 LBIS:AddItem(spec, "45354", LBIS.L["Chest"], "Alt") --Valorous Nightsong Vestments
 LBIS:AddItem(spec, "45637", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Vanquisher
@@ -36,6 +36,7 @@ LBIS:AddItem(spec, "46186", LBIS.L["Chest"], "Alt") --Conqueror's Nightsong Robe
 LBIS:AddItem(spec, "45446", LBIS.L["Wrist"], "BIS") --Grasps of Reason
 LBIS:AddItem(spec, "45149", LBIS.L["Wrist"], "Alt") --Bracers of the Broodmother
 LBIS:AddItem(spec, "44008", LBIS.L["Wrist"], "Alt") --Unsullied Cuffs
+LBIS:AddItem(spec, "40741", LBIS.L["Wrist"], "Alt") --Cuffs of the Shadow Ascendant
 
 LBIS:AddItem(spec, "46183", LBIS.L["Hands"], "BIS") --Conqueror's Nightsong Handguards
 LBIS:AddItem(spec, "45643", LBIS.L["Hands"], "BIS") --Gauntlets of the Wayward Vanquisher
@@ -85,6 +86,9 @@ LBIS:AddItem(spec, "40430", LBIS.L["Trinket"], "Alt") --Majestic Dragon Figurine
 LBIS:AddItem(spec, "19288", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Blue Dragon
 LBIS:AddItem(spec, "45292", LBIS.L["Trinket"], "Alt") --Energy Siphon
 LBIS:AddItem(spec, "45490", LBIS.L["Trinket"], "Alt") --Pandora's Plea
+LBIS:AddItem(spec, "44254", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Greatness
+LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "Alt") --Spark of Life
+LBIS:AddItem(spec, "44322", LBIS.L["Trinket"], "Alt") --Mercurial Alchemist Stone
 
 LBIS:AddItem(spec, "46017", LBIS.L["Main Hand"], "BIS") --Val'anyr, Hammer of Ancient Kings
 LBIS:AddItem(spec, "45612", LBIS.L["Main Hand"], "Alt") --Constellus
@@ -97,6 +101,7 @@ LBIS:AddItem(spec, "45332", LBIS.L["Main Hand"], "Alt") --Stormtip
 
 LBIS:AddItem(spec, "45271", LBIS.L["Off Hand"], "BIS") --Ironmender
 LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "Alt") --Matriarch's Spawn
+LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "Alt") --Handbook of Obscure Remedies
 
 LBIS:AddItem(spec, "45886", LBIS.L["Two Hand"], "BIS") --Icecore Staff
 LBIS:AddItem(spec, "45457", LBIS.L["Two Hand"], "Alt") --Staff of Endless Winter
@@ -106,4 +111,6 @@ LBIS:AddItem(spec, "45234", LBIS.L["Two Hand"], "Alt") --Rapture
 LBIS:AddItem(spec, "46025", LBIS.L["Two Hand"], "Alt") --Devotion
 
 LBIS:AddItem(spec, "40342", LBIS.L["Ranged/Relic"], "BIS") --Idol of Awakening
+LBIS:AddItem(spec, "33508", LBIS.L["Ranged/Relic"], "Alt") --Idol of Budding Life
+LBIS:AddItem(spec, "25643", LBIS.L["Ranged/Relic"], "Alt") --Harold's Rejuvenating Broach
 LBIS:AddItem(spec, "46138", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Flourishing Life

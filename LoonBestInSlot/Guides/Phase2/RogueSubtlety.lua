@@ -30,8 +30,8 @@ LBIS:AddItem(spec, "40403", LBIS.L["Back"], "Alt") --Drape of the Deadly Foe
 LBIS:AddItem(spec, "45473", LBIS.L["Chest"], "BIS") --Embrace of the Gladiator
 LBIS:AddItem(spec, "46123", LBIS.L["Chest"], "Alt") --Conqueror's Terrorblade Breastplate
 LBIS:AddItem(spec, "45634", LBIS.L["Chest"], "Alt") --Breastplate of the Wayward Vanquisher
-LBIS:AddItem(spec, "45637", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Vanquisher
 LBIS:AddItem(spec, "45396", LBIS.L["Chest"], "Alt") --Valorous Terrorblade Breastplate
+LBIS:AddItem(spec, "45637", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Vanquisher
 LBIS:AddItem(spec, "45453", LBIS.L["Chest"], "Alt") --Winter's Icy Embrace
 LBIS:AddItem(spec, "40539", LBIS.L["Chest"], "Alt") --Chestguard of the Recluse
 
@@ -39,6 +39,7 @@ LBIS:AddItem(spec, "45611", LBIS.L["Wrist"], "BIS") --Solar Bindings
 LBIS:AddItem(spec, "45869", LBIS.L["Wrist"], "BIS") --Fluxing Energy Coils
 LBIS:AddItem(spec, "40186", LBIS.L["Wrist"], "Alt") --Thrusting Bands
 LBIS:AddItem(spec, "45108", LBIS.L["Wrist"], "Alt") --Mechanist's Bindings
+LBIS:AddItem(spec, "39765", LBIS.L["Wrist"], "Alt") --Sinner's Bindings
 
 LBIS:AddItem(spec, "46124", LBIS.L["Hands"], "BIS") --Conqueror's Terrorblade Gauntlets
 LBIS:AddItem(spec, "45643", LBIS.L["Hands"], "BIS") --Gauntlets of the Wayward Vanquisher
@@ -46,6 +47,7 @@ LBIS:AddItem(spec, "46043", LBIS.L["Hands"], "Alt") --Gloves of the Endless Dark
 LBIS:AddItem(spec, "45325", LBIS.L["Hands"], "Alt") --Gloves of the Stonereaper
 LBIS:AddItem(spec, "45397", LBIS.L["Hands"], "Alt") --Valorous Terrorblade Gauntlets
 LBIS:AddItem(spec, "45646", LBIS.L["Hands"], "Alt") --Gloves of the Wayward Vanquisher
+LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "Alt") --Frosted Adroit Handguards
 LBIS:AddItem(spec, "45838", LBIS.L["Hands"], "Alt") --Gloves of the Blind Stalker
 
 LBIS:AddItem(spec, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
@@ -54,6 +56,7 @@ LBIS:AddItem(spec, "45547", LBIS.L["Waist"], "Alt") --Relic Hunter's Cord
 LBIS:AddItem(spec, "45555", LBIS.L["Waist"], "Alt") --Death-warmed Belt
 LBIS:AddItem(spec, "45709", LBIS.L["Waist"], "Alt") --Nimble Climber's Belt
 LBIS:AddItem(spec, "45491", LBIS.L["Waist"], "Alt") --Waistguard of the Creator
+LBIS:AddItem(spec, "40260", LBIS.L["Waist"], "Alt") --Belt of the Tortured
 LBIS:AddItem(spec, "40205", LBIS.L["Waist"], "Alt") --Stalk-Skin Belt
 
 LBIS:AddItem(spec, "45536", LBIS.L["Legs"], "BIS") --Legguards of Cunning Deception
@@ -62,8 +65,8 @@ LBIS:AddItem(spec, "45141", LBIS.L["Legs"], "Alt") --Proto-hide Leggings
 LBIS:AddItem(spec, "46126", LBIS.L["Legs"], "Alt") --Conqueror's Terrorblade Legplates
 LBIS:AddItem(spec, "45655", LBIS.L["Legs"], "Alt") --Legplates of the Wayward Vanquisher
 LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "Alt") --Leggings of the Honored
-LBIS:AddItem(spec, "45652", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Vanquisher
 LBIS:AddItem(spec, "45399", LBIS.L["Legs"], "Alt") --Valorous Terrorblade Legplates
+LBIS:AddItem(spec, "45652", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Vanquisher
 
 LBIS:AddItem(spec, "45564", LBIS.L["Feet"], "BIS") --Footpads of Silence
 LBIS:AddItem(spec, "45232", LBIS.L["Feet"], "Alt") --Runed Ironhide Boots
@@ -123,5 +126,6 @@ LBIS:AddItem(spec, "45261", LBIS.L["Ranged/Relic"], "Alt") --Giant's Bane
 LBIS:AddItem(spec, "46018", LBIS.L["Ranged/Relic"], "Alt") --Deliverance
 LBIS:AddItem(spec, "45327", LBIS.L["Ranged/Relic"], "Alt") --Siren's Cry
 LBIS:AddItem(spec, "45872", LBIS.L["Ranged/Relic"], "Alt") --Avalanche
+LBIS:AddItem(spec, "40190", LBIS.L["Ranged/Relic"], "Alt") --Spinning Fate
 LBIS:AddItem(spec, "40385", LBIS.L["Ranged/Relic"], "Alt") --Envoy of Mortality
 LBIS:AddItem(spec, "46342", LBIS.L["Ranged/Relic"], "Alt") --Golemheart Longbow

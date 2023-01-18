@@ -20,6 +20,8 @@ LBIS:AddItem(spec, "45618", LBIS.L["Back"], "Alt") --Sunglimmer Cloak
 LBIS:AddItem(spec, "46321", LBIS.L["Back"], "Alt") --Sunglimmer Drape
 LBIS:AddItem(spec, "46042", LBIS.L["Back"], "Alt") --Drape of the Messenger
 LBIS:AddItem(spec, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
+LBIS:AddItem(spec, "45493", LBIS.L["Back"], "Alt") --Asimov's Drape
+LBIS:AddItem(spec, "46341", LBIS.L["Back"], "Alt") --Drape of the Spellweaver
 
 LBIS:AddItem(spec, "45519", LBIS.L["Chest"], "BIS") --Vestments of the Blind Denizen
 LBIS:AddItem(spec, "46194", LBIS.L["Chest"], "BIS") --Conqueror's Nightsong Vestments
@@ -81,7 +83,7 @@ LBIS:AddItem(spec, "45297", LBIS.L["Ring"], "Alt") --Shimmering Seal
 
 LBIS:AddItem(spec, "45518", LBIS.L["Trinket"], "BIS") --Flare of the Heavens
 LBIS:AddItem(spec, "45466", LBIS.L["Trinket"], "BIS") --Scale of Fates
-LBIS:AddItem(spec, "45490", LBIS.L["Trinket"], "BIS") --Pandora's Plea
+LBIS:AddItem(spec, "45490", LBIS.L["Trinket"], "Alt") --Pandora's Plea
 LBIS:AddItem(spec, "45308", LBIS.L["Trinket"], "Alt") --Eye of the Broodmother
 LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "Alt") --Illustration of the Dragon Soul
 LBIS:AddItem(spec, "40255", LBIS.L["Trinket"], "Alt") --Dying Curse
@@ -103,4 +105,5 @@ LBIS:AddItem(spec, "45886", LBIS.L["Two Hand"], "Alt") --Icecore Staff
 LBIS:AddItem(spec, "45479", LBIS.L["Two Hand"], "Alt") --The Lifebinder
 
 LBIS:AddItem(spec, "40321", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Shooting Star
+LBIS:AddItem(spec, "40712", LBIS.L["Ranged/Relic"], "Alt") --Idol of Steadfast Renewal
 LBIS:AddItem(spec, "45270", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Crying Wind

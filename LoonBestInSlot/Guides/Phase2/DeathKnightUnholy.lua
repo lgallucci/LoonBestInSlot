@@ -71,6 +71,7 @@ LBIS:AddItem(spec, "45534", LBIS.L["Ring"], "BIS") --Seal of the Betrayed King
 LBIS:AddItem(spec, "45250", LBIS.L["Ring"], "BIS") --Crazed Construct Ring
 LBIS:AddItem(spec, "45540", LBIS.L["Ring"], "Alt") --Bladebearer's Signet
 LBIS:AddItem(spec, "45469", LBIS.L["Ring"], "Alt") --Sif's Promise
+LBIS:AddItem(spec, "45675", LBIS.L["Ring"], "Alt") --Power Enhancing Loop
 LBIS:AddItem(spec, "45106", LBIS.L["Ring"], "Alt") --Strength of the Automaton
 
 LBIS:AddItem(spec, "45609", LBIS.L["Trinket"], "BIS") --Comet's Trail
