@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 using System.IO;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
@@ -33,7 +34,8 @@ public class EmblemImporter : LootImporter
         @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin",
         @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;50",
         @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;100",
-        @"https://www.wowhead.com/wotlk/npc=29529/ninsianna"
+        @"https://www.wowhead.com/wotlk/npc=33964/arcanist-firael",
+        @"https://www.wowhead.com/wotlk/npc=33964/arcanist-firael#sells;50"
     };
 
     internal override string FileName { get => "EmblemItemList"; }
@@ -67,7 +69,12 @@ public class EmblemImporter : LootImporter
 
                     if (success)
                     {
-                        currencySource = item == "101" ? "Emblem of Heroism" : "Emblem of Valor";
+                        currencySource = item == "101" ? "Emblem of Heroism" :
+                            item == "102" ? "Emblem of Valor" :
+                            item == "221" ? "Emblem of Conquest" :
+                            item == "301" ? "Emblem of Triumph" :
+                            item == "341" ? "Emblem of Frost" : "unknown";
+
                         currencyNumber = anchorObject.TextContent;
                         if (item == "101")
                             currencySourceLocation = "Emblem Vendor";
@@ -327,20 +334,27 @@ public class RaidImporter : LootImporter
 
 public class PvPImporter : LootImporter
 {
-    private List<string> wowheadUriList = new List<string>
+    private List<(string, string)> wowheadUriList = new List<(string, string)>
         {
-            @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia",
-            @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;50",
-            @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike",
-            @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;50",
-            @"https://www.wowhead.com/wotlk/npc=32381/captain-dirgehammer",
-            @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord",
-            @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;50",
-            @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;100",
-            @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom",
-            @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;50",
-            @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe",
-            @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;50"
+            (@"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia", "Furious"),
+            (@"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;50", "Furious"),
+            (@"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike", "Deadly, Hateful, Battlemaster"),
+            (@"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;50","Deadly, Hateful, Battlemaster"),
+            (@"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;100","Deadly, Hateful, Battlemaster"),
+            (@"https://www.wowhead.com/wotlk/npc=32381/captain-dirgehammer", "Hateful"),
+            (@"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord", "Furious"),
+            (@"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;50", "Furious"),
+            (@"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;100", "Furious"),
+            (@"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;150", "Furious"),
+            (@"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;200", "Furious"),
+            //(@"https://www.wowhead.com/wotlk/npc=31865/zom-bocom", "Hateful, Savage"),
+            //(@"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;50", "Hateful, Savage"),
+            //(@"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;100", "Hateful, Savage"),
+            (@"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe", "Deadly"),
+            (@"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;50", "Deadly"),
+            (@"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;100", "Deadly"),
+            (@"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;150", "Deadly"),
+            (@"https://www.wowhead.com/wotlk/npc=34087/trapjaw-rix", "Furious")
         };
 
     internal override string FileName { get => "PvPItemList"; }
@@ -349,70 +363,83 @@ public class PvPImporter : LootImporter
     {
         items.Items.Clear();
 
-        await Common.ReadWowheadItemList(wowheadUriList, (row, itemId, itemName) =>
+        foreach (var webAddress in wowheadUriList)
         {
-            var success = false;
-            var currencySource = "";
-            var currencyNumber = "";
-            var currencySourceLocation = "";
-
-            Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
+            await Common.LoadFromWebPage(webAddress.Item1, async (content) =>
             {
-                var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/wotlk", "").Replace("/currency=", "");
+                var parser = new HtmlParser();
+                var doc = default(IHtmlDocument);
+                doc = await parser.ParseDocumentAsync(content);
 
-                var currencyIdIndex = item.IndexOf("/");
-                if (currencyIdIndex == -1)
-                    currencyIdIndex = item.IndexOf("&");
-
-                if (currencyIdIndex > -1)
+                Common.ReadWowheadItemList(doc, (row, itemId, itemName) =>
                 {
-                    item = item.Substring(0, currencyIdIndex);
+                    var success = false;
+                    var currencySource = "";
+                    var currencyNumber = "";
+                    var currencySourceLocation = "";
 
-                    success = Int32.TryParse(item, out var currencyInteger);
+                    if (!webAddress.Item2.Split(",").Any(i => itemName.Contains(i.Trim())))
+                        return;
 
-                    if (success)
+                    Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
                     {
-                        if (!string.IsNullOrWhiteSpace(currencySource))
+                        var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/wotlk", "").Replace("/currency=", "");
+
+                        var currencyIdIndex = item.IndexOf("/");
+                        if (currencyIdIndex == -1)
+                            currencyIdIndex = item.IndexOf("&");
+
+                        if (currencyIdIndex > -1)
                         {
-                            currencySource += " & ";
-                            currencyNumber += " & ";
+                            item = item.Substring(0, currencyIdIndex);
+
+                            success = Int32.TryParse(item, out var currencyInteger);
+
+                            if (success)
+                            {
+                                if (!string.IsNullOrWhiteSpace(currencySource))
+                                {
+                                    currencySource += " & ";
+                                    currencyNumber += " & ";
+                                }
+                                var currentSource = item == "1901" ? "Honor Points" : "Arena Points";
+                                currencySource += currentSource;
+
+                                var currencyAmount = int.Parse(anchorObject.TextContent);
+                                currencyNumber += currencyAmount.ToString();
+                                if (currencySource.Contains("Arena"))
+                                    currencySourceLocation = "Arena Vendor";
+                                else
+                                    currencySourceLocation = "PvP Vendor";
+                            }
+
                         }
-                        var currentSource = item == "1901" ? "Honor Points" : "Arena Points";
-                        currencySource += currentSource;
+                        return success;
+                    });
 
-                        var currencyAmount = int.Parse(anchorObject.TextContent);
-                        currencyNumber += currencyAmount.ToString();
-                        if (currencySource.Contains("Arena"))
-                            currencySourceLocation = "Arena Vendor";
-                        else
-                            currencySourceLocation = "PvP Vendor";
+                    if (items.Items.ContainsKey(itemId))
+                    {
+                        if (items.Items[itemId].Source != currencySource)
+                        {
+                            items.Items[itemId].SourceNumber += "/" + currencyNumber;
+                            items.Items[itemId].Source += "/" + currencySource;
+                            items.Items[itemId].SourceLocation += "/" + currencySourceLocation;
+                        }
                     }
-
-                }
-                return success;
-            });
-
-            if (items.Items.ContainsKey(itemId))
-            {
-                if (items.Items[itemId].Source != currencySource)
-                {
-                    items.Items[itemId].SourceNumber += "/" + currencyNumber;
-                    items.Items[itemId].Source += "/" + currencySource;
-                    items.Items[itemId].SourceLocation += "/" + currencySourceLocation;
-                }
-            }
-            else
-            {
-                var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
-                {
-                    Name = itemName,
-                    SourceNumber = currencyNumber,
-                    Source = currencySource,
-                    SourceLocation = currencySourceLocation,
-                    SourceType = "PvP"
+                    else
+                    {
+                        var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
+                        {
+                            Name = itemName,
+                            SourceNumber = currencyNumber,
+                            Source = currencySource,
+                            SourceLocation = currencySourceLocation,
+                            SourceType = "PvP"
+                        });
+                    }
                 });
-            }
-        });
+            });
+        }
 
         return items;
     }
