@@ -99,9 +99,7 @@ LBIS:AddItem(spec, "44297", LBIS.L["Feet"], "Alt") --Boots of the Neverending Pa
 
 LBIS:AddItem(spec, "45517", LBIS.L["Neck"], "BIS") --Pendulum of Infinity
 LBIS:AddItem(spec, "46040", LBIS.L["Neck"], "BIS") --Strength of the Heavens
-
-LBIS:AddItem(spec, "45193", LBIS.L["Neck/Ring"], "BIS") --Insurmountable Fervor
-
+LBIS:AddItem(spec, "45193", LBIS.L["Neck"], "Alt") --Insurmountable Fervor
 LBIS:AddItem(spec, "44664", LBIS.L["Neck"], "Alt") --Favor of the Dragon Queen
 LBIS:AddItem(spec, "40065", LBIS.L["Neck"], "Alt") --Fool's Trial
 LBIS:AddItem(spec, "39421", LBIS.L["Neck"], "Alt") --Gem of Imprisoned Vassals

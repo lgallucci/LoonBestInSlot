@@ -33,4 +33,4 @@ LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
 
 LBIS:AddItem(spec, "39417", LBIS.L["Main Hand"], "BIS") --Death's Bite
 
-LBIS:AddItem(spec, "39419", LBIS.L["Ranged"], "BIS") --Nerubian Conquerer
+LBIS:AddItem(spec, "39419", LBIS.L["Ranged/Relic"], "BIS") --Nerubian Conquerer

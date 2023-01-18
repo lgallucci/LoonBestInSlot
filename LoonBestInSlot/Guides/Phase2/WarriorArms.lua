@@ -56,13 +56,12 @@ LBIS:AddItem(spec, "44664", LBIS.L["Neck"], "Alt") --Favor of the Dragon Queen
 LBIS:AddItem(spec, "45608", LBIS.L["Ring"], "BIS") --Brann's Signet Ring
 LBIS:AddItem(spec, "46322", LBIS.L["Ring"], "BIS") --Brann's Sealing Ring
 
-LBIS:AddItem(spec, "45609", LBIS.L["Ring/Trinket"], "BIS") --Comet's Trail
-
 LBIS:AddItem(spec, "45469", LBIS.L["Ring"], "Alt") --Sif's Promise
 LBIS:AddItem(spec, "46048", LBIS.L["Ring"], "Alt") --Band of Lights
 
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "45931", LBIS.L["Trinket"], "BIS") --Mjolnir Runestone
+LBIS:AddItem(spec, "45609", LBIS.L["Trinket"], "BIS") --Comet's Trail
 LBIS:AddItem(spec, "46038", LBIS.L["Trinket"], "Alt") --Dark Matter
 LBIS:AddItem(spec, "40256", LBIS.L["Trinket"], "Alt") --Grim Toll
 LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "Alt") --Mirror of Truth
