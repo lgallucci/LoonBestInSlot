@@ -4838,14 +4838,7 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ulduar (25)"
-    },
-    "45087": {
-      "Name": "Runed Orb",
-      "Source": "Tokens",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ulduar (10)"
-    },    
+    }, 
     "45106": {
       "Name": "Strength of the Automaton",
       "Source": "Flame Leviathan",
@@ -5317,7 +5310,7 @@
     },
     "45244": {
       "Name": "Greaves of Swift Vengeance",
-      "Source": "The Iron Council",
+      "Source": "The Iron Council (Hard)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ulduar (25)"

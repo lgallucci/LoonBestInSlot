@@ -5049,10 +5049,10 @@
         },
         "39192": {
             "Name": "Gloves of Dark Gestures",
-            "Source": "Unknown Boss",
+            "Source": "General Bjarngrim",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Lightning (Heroic+)"
         },
         "39193": {
             "Name": "Band of Neglected Pleas",
@@ -6092,10 +6092,10 @@
         },
         "40497": {
             "Name": "Black Ice",
-            "Source": "Unknown Boss",
+            "Source": "Eregos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Oculus (Heroic+)"
         },
         "40511": {
             "Name": "Focusing Energy Epaulets",
