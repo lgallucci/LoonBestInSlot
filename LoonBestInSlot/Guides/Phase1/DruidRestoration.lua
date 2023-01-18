@@ -24,8 +24,8 @@ LBIS:AddItem(spec, "41609", LBIS.L["Back"], "Alt") --Wispcloak
 
 LBIS:AddItem(spec, "44002", LBIS.L["Chest"], "BIS") --The Sanctum's Flowing Vestments
 LBIS:AddItem(spec, "40381", LBIS.L["Chest"], "BIS") --Sympathy
-LBIS:AddItem(spec, "40627", LBIS.L["Chest"], "Alt") --Breastplate of the Lost Vanquisher
 LBIS:AddItem(spec, "40463", LBIS.L["Chest"], "Alt") --Valorous Dreamwalker Robe
+LBIS:AddItem(spec, "40627", LBIS.L["Chest"], "Alt") --Breastplate of the Lost Vanquisher
 LBIS:AddItem(spec, "42102", LBIS.L["Chest"], "Alt") --Spellweave Robe
 LBIS:AddItem(spec, "39756", LBIS.L["Chest"], "Alt") --Tunic of Prejudice
 LBIS:AddItem(spec, "40194", LBIS.L["Chest"], "Alt") --Blanketing Robes of Snow
@@ -40,8 +40,8 @@ LBIS:AddItem(spec, "39731", LBIS.L["Wrist"], "Alt") --Punctilious Bindings
 LBIS:AddItem(spec, "39390", LBIS.L["Wrist"], "Alt") --Resurgent Phantom Bindings
 LBIS:AddItem(spec, "37361", LBIS.L["Wrist"], "Alt") --Cuffs of Winged Levitation
 
-LBIS:AddItem(spec, "40460", LBIS.L["Hands"], "BIS") --Valorous Dreamwalker Handguards
 LBIS:AddItem(spec, "40630", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Vanquisher
+LBIS:AddItem(spec, "40460", LBIS.L["Hands"], "BIS") --Valorous Dreamwalker Handguards
 LBIS:AddItem(spec, "42113", LBIS.L["Hands"], "Alt") --Spellweave Gloves
 LBIS:AddItem(spec, "39733", LBIS.L["Hands"], "Alt") --Gloves of Token Respect
 LBIS:AddItem(spec, "40349", LBIS.L["Hands"], "Alt") --Gloves of Peaceful Death
@@ -74,6 +74,7 @@ LBIS:AddItem(spec, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
 LBIS:AddItem(spec, "40375", LBIS.L["Ring"], "BIS") --Ring of Decaying Beauty
 LBIS:AddItem(spec, "40433", LBIS.L["Ring"], "BIS") --Wyrmrest Band
 LBIS:AddItem(spec, "44934", LBIS.L["Ring"], "Alt") --Loop of the Kirin Tor
+LBIS:AddItem(spec, "44283", LBIS.L["Ring"], "Alt") --Signet of Hopeful Light
 LBIS:AddItem(spec, "37694", LBIS.L["Ring"], "Alt") --Band of Guile
 LBIS:AddItem(spec, "37192", LBIS.L["Ring"], "Alt") --Annhylde's Ring
 LBIS:AddItem(spec, "39250", LBIS.L["Ring"], "Alt") --Ring of Holy Cleansing
@@ -81,6 +82,10 @@ LBIS:AddItem(spec, "39250", LBIS.L["Ring"], "Alt") --Ring of Holy Cleansing
 LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Dragon Soul
 LBIS:AddItem(spec, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
 LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "Alt") --Spark of Life
+LBIS:AddItem(spec, "44322", LBIS.L["Trinket"], "Alt") --Mercurial Alchemist Stone
+LBIS:AddItem(spec, "37835", LBIS.L["Trinket"], "Alt") --Je'Tze's Bell
+LBIS:AddItem(spec, "42988", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Illusion
+LBIS:AddItem(spec, "44254", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "40258", LBIS.L["Trinket"], "Alt") --Forethought Talisman
 LBIS:AddItem(spec, "40255", LBIS.L["Trinket"], "Alt") --Dying Curse
 
@@ -94,6 +99,7 @@ LBIS:AddItem(spec, "40244", LBIS.L["Main Hand"], "Alt") --The Impossible Dream
 LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "BIS") --Matriarch's Spawn
 LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "Alt") --Handbook of Obscure Remedies
 LBIS:AddItem(spec, "40273", LBIS.L["Off Hand"], "Alt") --Surplus Limb
+LBIS:AddItem(spec, "37718", LBIS.L["Off Hand"], "Alt") --Temple Crystal Fragment
 
 LBIS:AddItem(spec, "40300", LBIS.L["Two Hand"], "BIS") --Spire of Sunset
 LBIS:AddItem(spec, "40489", LBIS.L["Two Hand"], "Alt") --Greatstaff of the Nexus
@@ -103,3 +109,4 @@ LBIS:AddItem(spec, "37360", LBIS.L["Two Hand"], "Alt") --Staff of Draconic Comba
 
 LBIS:AddItem(spec, "40342", LBIS.L["Ranged/Relic"], "BIS") --Idol of Awakening
 LBIS:AddItem(spec, "33508", LBIS.L["Ranged/Relic"], "Alt") --Idol of Budding Life
+LBIS:AddItem(spec, "25643", LBIS.L["Ranged/Relic"], "Alt") --Harold's Rejuvenating Broach

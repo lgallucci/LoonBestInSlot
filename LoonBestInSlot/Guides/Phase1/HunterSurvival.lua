@@ -11,23 +11,29 @@ LBIS:AddItem(spec, "40638", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Prot
 LBIS:AddItem(spec, "44003", LBIS.L["Shoulder"], "Alt") --Upstanding Spaulders
 LBIS:AddItem(spec, "40315", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Secret Arts
 LBIS:AddItem(spec, "37679", LBIS.L["Shoulder"], "Alt") --Spaulders of the Abomination
+LBIS:AddItem(spec, "37373", LBIS.L["Shoulder"], "Alt") --Massive Spaulders of the Jormungar
+LBIS:AddItem(spec, "37139", LBIS.L["Shoulder"], "Alt") --Spaulders of the Careless Thief
+LBIS:AddItem(spec, "34194", LBIS.L["Shoulder"], "Alt") --Mantle of the Golden Forest
 
 LBIS:AddItem(spec, "40403", LBIS.L["Back"], "BIS") --Drape of the Deadly Foe
 LBIS:AddItem(spec, "40250", LBIS.L["Back"], "Alt") --Aged Winter Cloak
 LBIS:AddItem(spec, "40721", LBIS.L["Back"], "Alt") --Hammerhead Sharkskin Cloak
 LBIS:AddItem(spec, "39404", LBIS.L["Back"], "Alt") --Cloak of Mastery
+LBIS:AddItem(spec, "43566", LBIS.L["Back"], "Alt") --Ice Striker's Cloak
 
 LBIS:AddItem(spec, "43998", LBIS.L["Chest"], "BIS") --Chestguard of Flagrant Prowess
-LBIS:AddItem(spec, "40503", LBIS.L["Chest"], "BIS") --Valorous Cryptstalker Tunic
 LBIS:AddItem(spec, "40626", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Protector
+LBIS:AddItem(spec, "40503", LBIS.L["Chest"], "BIS") --Valorous Cryptstalker Tunic
 LBIS:AddItem(spec, "40193", LBIS.L["Chest"], "Alt") --Tunic of Masked Suffering
-LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Protector
+LBIS:AddItem(spec, "44295", LBIS.L["Chest"], "Alt") --Polished Regimental Hauberk
 LBIS:AddItem(spec, "39579", LBIS.L["Chest"], "Alt") --Heroes' Cryptstalker Tunic
+LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Protector
 
 LBIS:AddItem(spec, "40282", LBIS.L["Wrist"], "BIS") --Slime Stream Bands
 LBIS:AddItem(spec, "40736", LBIS.L["Wrist"], "Alt") --Armguard of the Tower Archer
 LBIS:AddItem(spec, "39702", LBIS.L["Wrist"], "Alt") --Arachnoid Gold Band
 LBIS:AddItem(spec, "37170", LBIS.L["Wrist"], "Alt") --Interwoven Scale Bracers
+LBIS:AddItem(spec, "44203", LBIS.L["Wrist"], "Alt") --Dragonfriend Bracers
 
 LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "BIS") --Frosted Adroit Handguards
 LBIS:AddItem(spec, "40504", LBIS.L["Hands"], "BIS") --Valorous Cryptstalker Handguards
@@ -51,6 +57,7 @@ LBIS:AddItem(spec, "40549", LBIS.L["Feet"], "BIS") --Boots of the Renewed Flight
 LBIS:AddItem(spec, "40184", LBIS.L["Feet"], "Alt") --Crippled Treads
 LBIS:AddItem(spec, "40367", LBIS.L["Feet"], "Alt") --Boots of the Great Construct
 LBIS:AddItem(spec, "37167", LBIS.L["Feet"], "Alt") --Dragon Slayer's Sabatons
+LBIS:AddItem(spec, "44297", LBIS.L["Feet"], "Alt") --Boots of the Neverending Path
 
 LBIS:AddItem(spec, "44664", LBIS.L["Neck"], "BIS") --Favor of the Dragon Queen
 LBIS:AddItem(spec, "44659", LBIS.L["Neck"], "Alt") --Pendant of the Dragonsworn

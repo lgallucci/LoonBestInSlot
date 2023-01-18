@@ -31,6 +31,7 @@ LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "Alt") --Gloves of the Lost Vanquis
 
 LBIS:AddItem(spec, "39759", LBIS.L["Waist"], "BIS") --Ablative Chitin Girdle
 LBIS:AddItem(spec, "40689", LBIS.L["Waist"], "Alt") --Waistguard of Living Iron
+LBIS:AddItem(spec, "37241", LBIS.L["Waist"], "Alt") --Ancient Aligned Girdle
 
 LBIS:AddItem(spec, "40589", LBIS.L["Legs"], "BIS") --Legplates of Sovereignty
 LBIS:AddItem(spec, "40567", LBIS.L["Legs"], "Alt") --Valorous Scourgeborne Legguards
@@ -55,6 +56,9 @@ LBIS:AddItem(spec, "42643", LBIS.L["Ring"], "Alt") --Titanium Earthguard Ring
 LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "BIS") --Figurine - Monarch Crab
 LBIS:AddItem(spec, "42341", LBIS.L["Trinket"], "BIS") --Figurine - Ruby Hare
 LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "BIS") --Essence of Gossamer
+LBIS:AddItem(spec, "40683", LBIS.L["Trinket"], "Alt") --Valor Medal of the First War
+LBIS:AddItem(spec, "36993", LBIS.L["Trinket"], "Alt") --Seal of the Pantheon
+LBIS:AddItem(spec, "40767", LBIS.L["Trinket"], "Alt") --Sonic Booster
 
 LBIS:AddItem(spec, "40402", LBIS.L["Main Hand"], "BIS") --Last Laugh
 LBIS:AddItem(spec, "42208", LBIS.L["Main Hand"], "BIS") --Deadly Gladiator's Cleaver
@@ -72,3 +76,4 @@ LBIS:AddItem(spec, "40384", LBIS.L["Two Hand"], "Alt") --Betrayer of Humanity
 LBIS:AddItem(spec, "40714", LBIS.L["Ranged/Relic"], "BIS") --Sigil of the Unfaltering Knight
 LBIS:AddItem(spec, "40822", LBIS.L["Ranged/Relic"], "BIS") --Sigil of the Frozen Conscience
 LBIS:AddItem(spec, "40207", LBIS.L["Ranged/Relic"], "Alt") --Sigil of Awareness
+LBIS:AddItem(spec, "40715", LBIS.L["Ranged/Relic"], "Alt") --Sigil of Haunted Dreams

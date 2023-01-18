@@ -9,8 +9,8 @@ LBIS:AddItem(spec, "40618", LBIS.L["Head"], "Alt") --Helm of the Lost Vanquisher
 LBIS:AddItem(spec, "42550", LBIS.L["Head"], "Alt") --Weakness Spectralizers
 
 LBIS:AddItem(spec, "40437", LBIS.L["Shoulder"], "BIS") --Concealment Shoulderpads
-LBIS:AddItem(spec, "40639", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Vanquisher
 LBIS:AddItem(spec, "40494", LBIS.L["Shoulder"], "BIS") --Valorous Dreamwalker Shoulderpads
+LBIS:AddItem(spec, "40639", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Vanquisher
 LBIS:AddItem(spec, "40305", LBIS.L["Shoulder"], "Alt") --Spaulders of Egotism
 LBIS:AddItem(spec, "39237", LBIS.L["Shoulder"], "Alt") --Spaulders of Resumed Battle
 LBIS:AddItem(spec, "39556", LBIS.L["Shoulder"], "Alt") --Heroes' Dreamwalker Shoulderpads
@@ -46,6 +46,7 @@ LBIS:AddItem(spec, "40260", LBIS.L["Waist"], "BIS") --Belt of the Tortured
 LBIS:AddItem(spec, "40205", LBIS.L["Waist"], "BIS") --Stalk-Skin Belt
 LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "Alt") --Jorach's Crocolisk Skin Belt
 LBIS:AddItem(spec, "39279", LBIS.L["Waist"], "Alt") --Blistered Belt of Decay
+LBIS:AddItem(spec, "37194", LBIS.L["Waist"], "Alt") --Sharp-Barbed Leather Belt
 
 LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "BIS") --Leggings of the Honored
 LBIS:AddItem(spec, "40493", LBIS.L["Legs"], "Alt") --Valorous Dreamwalker Legguards
@@ -80,7 +81,9 @@ LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "40256", LBIS.L["Trinket"], "BIS") --Grim Toll
 LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "Alt") --Mirror of Truth
 LBIS:AddItem(spec, "39257", LBIS.L["Trinket"], "Alt") --Loatheb's Shadow
+LBIS:AddItem(spec, "37390", LBIS.L["Trinket"], "Alt") --Meteorite Whetstone
 LBIS:AddItem(spec, "40431", LBIS.L["Trinket"], "Alt") --Fury of the Five Flights
+LBIS:AddItem(spec, "37723", LBIS.L["Trinket"], "Alt") --Incisor Fragment
 LBIS:AddItem(spec, "40531", LBIS.L["Trinket"], "Alt") --Mark of Norgannon
 
 LBIS:AddItem(spec, "40388", LBIS.L["Two Hand"], "BIS") --Journey's End
@@ -91,3 +94,4 @@ LBIS:AddItem(spec, "39758", LBIS.L["Two Hand"], "Alt") --The Jawbone
 
 LBIS:AddItem(spec, "39757", LBIS.L["Ranged/Relic"], "BIS") --Idol of Worship
 LBIS:AddItem(spec, "40713", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Ravenous Beast
+LBIS:AddItem(spec, "38295", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Wastes

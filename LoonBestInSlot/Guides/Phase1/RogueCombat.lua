@@ -22,6 +22,7 @@ LBIS:AddItem(spec, "40250", LBIS.L["Back"], "Alt") --Aged Winter Cloak
 LBIS:AddItem(spec, "40721", LBIS.L["Back"], "Alt") --Hammerhead Sharkskin Cloak
 LBIS:AddItem(spec, "39404", LBIS.L["Back"], "Alt") --Cloak of Mastery
 LBIS:AddItem(spec, "39297", LBIS.L["Back"], "Alt") --Cloak of Darkening
+LBIS:AddItem(spec, "43566", LBIS.L["Back"], "Alt") --Ice Striker's Cloak
 
 LBIS:AddItem(spec, "40539", LBIS.L["Chest"], "BIS") --Chestguard of the Recluse
 LBIS:AddItem(spec, "40495", LBIS.L["Chest"], "Alt") --Valorous Bonescythe Breastplate
@@ -43,8 +44,8 @@ LBIS:AddItem(spec, "44203", LBIS.L["Wrist"], "Alt") --Dragonfriend Bracers
 
 LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "BIS") --Frosted Adroit Handguards
 LBIS:AddItem(spec, "39727", LBIS.L["Hands"], "Alt") --Dislocating Handguards
-LBIS:AddItem(spec, "40630", LBIS.L["Hands"], "Alt") --Gauntlets of the Lost Vanquisher
 LBIS:AddItem(spec, "40496", LBIS.L["Hands"], "Alt") --Valorous Bonescythe Gauntlets
+LBIS:AddItem(spec, "40630", LBIS.L["Hands"], "Alt") --Gauntlets of the Lost Vanquisher
 LBIS:AddItem(spec, "40362", LBIS.L["Hands"], "Alt") --Gloves of Fast Reactions
 LBIS:AddItem(spec, "39299", LBIS.L["Hands"], "Alt") --Rapid Attack Gloves
 LBIS:AddItem(spec, "39560", LBIS.L["Hands"], "Alt") --Heroes' Bonescythe Gauntlets
@@ -58,8 +59,8 @@ LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "Alt") --Jorach's Crocolisk Skin Be
 LBIS:AddItem(spec, "39279", LBIS.L["Waist"], "Alt") --Blistered Belt of Decay
 
 LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "BIS") --Leggings of the Honored
-LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "Alt") --Legplates of the Lost Vanquisher
 LBIS:AddItem(spec, "40500", LBIS.L["Legs"], "Alt") --Valorous Bonescythe Legplates
+LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "Alt") --Legplates of the Lost Vanquisher
 LBIS:AddItem(spec, "39761", LBIS.L["Legs"], "Alt") --Infectious Skitterer Leggings
 LBIS:AddItem(spec, "40333", LBIS.L["Legs"], "Alt") --Leggings of Fleeting Moments
 LBIS:AddItem(spec, "39224", LBIS.L["Legs"], "Alt") --Leggings of Discord
@@ -93,8 +94,11 @@ LBIS:AddItem(spec, "44253", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
 LBIS:AddItem(spec, "40431", LBIS.L["Trinket"], "Alt") --Fury of the Five Flights
 LBIS:AddItem(spec, "40256", LBIS.L["Trinket"], "Alt") --Grim Toll
+LBIS:AddItem(spec, "34427", LBIS.L["Trinket"], "Alt") --Blackened Naaru Sliver
 LBIS:AddItem(spec, "40371", LBIS.L["Trinket"], "Alt") --Bandit's Insignia
+LBIS:AddItem(spec, "37390", LBIS.L["Trinket"], "Alt") --Meteorite Whetstone
 LBIS:AddItem(spec, "39257", LBIS.L["Trinket"], "Alt") --Loatheb's Shadow
+LBIS:AddItem(spec, "37166", LBIS.L["Trinket"], "Alt") --Sphere of Red Dragon's Blood
 LBIS:AddItem(spec, "40531", LBIS.L["Trinket"], "Alt") --Mark of Norgannon
 
 LBIS:AddItem(spec, "40383", LBIS.L["Main Hand"], "BIS") --Calamity's Grasp
@@ -106,10 +110,12 @@ LBIS:AddItem(spec, "39291", LBIS.L["Main Hand"], "Alt") --Torment of the Banishe
 LBIS:AddItem(spec, "43611", LBIS.L["Main Hand"], "Alt") --Krol Cleaver
 
 LBIS:AddItem(spec, "39714", LBIS.L["Off Hand"], "BIS") --Webbed Death
+LBIS:AddItem(spec, "37856", LBIS.L["Off Hand"], "Alt") --Librarian's Paper Cutter
 LBIS:AddItem(spec, "42248", LBIS.L["Off Hand"], "Alt") --Deadly Gladiator's Shiv
 LBIS:AddItem(spec, "40368", LBIS.L["Off Hand"], "Alt") --Murder
 LBIS:AddItem(spec, "40491", LBIS.L["Off Hand"], "Alt") --Hailstorm
 LBIS:AddItem(spec, "39427", LBIS.L["Off Hand"], "Alt") --Omen of Ruin
+LBIS:AddItem(spec, "44311", LBIS.L["Off Hand"], "Alt") --Avool's Sword of Jin
 
 LBIS:AddItem(spec, "40385", LBIS.L["Ranged/Relic"], "BIS") --Envoy of Mortality
 LBIS:AddItem(spec, "40190", LBIS.L["Ranged/Relic"], "Alt") --Spinning Fate

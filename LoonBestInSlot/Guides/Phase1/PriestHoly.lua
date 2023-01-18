@@ -16,8 +16,8 @@ LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conq
 LBIS:AddItem(spec, "39719", LBIS.L["Shoulder"], "Alt") --Mantle of the Locusts
 LBIS:AddItem(spec, "40289", LBIS.L["Shoulder"], "Alt") --Sympathetic Amice
 LBIS:AddItem(spec, "40459", LBIS.L["Shoulder"], "Alt") --Valorous Mantle of Faith
-LBIS:AddItem(spec, "39518", LBIS.L["Shoulder"], "Alt") --Heroes' Shoulderpads of Faith
 LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Conqueror
+LBIS:AddItem(spec, "39518", LBIS.L["Shoulder"], "Alt") --Heroes' Shoulderpads of Faith
 LBIS:AddItem(spec, "39310", LBIS.L["Shoulder"], "Alt") --Mantle of the Extensive Mind
 LBIS:AddItem(spec, "40351", LBIS.L["Shoulder"], "Alt") --Mantle of the Fatigued Sage
 
@@ -52,6 +52,7 @@ LBIS:AddItem(spec, "42113", LBIS.L["Hands"], "Alt") --Spellweave Gloves
 LBIS:AddItem(spec, "40303", LBIS.L["Hands"], "Alt") --Wraps of the Persecuted
 LBIS:AddItem(spec, "39519", LBIS.L["Hands"], "Alt") --Heroes' Gloves of Faith
 LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "Alt") --Gloves of the Lost Conqueror
+LBIS:AddItem(spec, "37172", LBIS.L["Hands"], "Alt") --Gloves of Glistening Runes
 
 LBIS:AddItem(spec, "40561", LBIS.L["Waist"], "BIS") --Leash of Heedless Magic
 LBIS:AddItem(spec, "40271", LBIS.L["Waist"], "Alt") --Sash of Solitude
@@ -60,6 +61,7 @@ LBIS:AddItem(spec, "39721", LBIS.L["Waist"], "Alt") --Sash of the Parlor
 LBIS:AddItem(spec, "39190", LBIS.L["Waist"], "Alt") --Agonal Sash
 LBIS:AddItem(spec, "40697", LBIS.L["Waist"], "Alt") --Elegant Temple Gardens' Girdle
 LBIS:AddItem(spec, "39216", LBIS.L["Waist"], "Alt") --Sash of Mortal Desire
+LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "Alt") --Plush Sash of Guzbah
 
 LBIS:AddItem(spec, "40398", LBIS.L["Legs"], "BIS") --Leggings of Mortal Arrogance
 LBIS:AddItem(spec, "40448", LBIS.L["Legs"], "Alt") --Valorous Leggings of Faith
@@ -67,9 +69,9 @@ LBIS:AddItem(spec, "40634", LBIS.L["Legs"], "Alt") --Legplates of the Lost Conqu
 LBIS:AddItem(spec, "40457", LBIS.L["Legs"], "Alt") --Valorous Pants of Faith
 LBIS:AddItem(spec, "40060", LBIS.L["Legs"], "Alt") --Distorted Limbs
 LBIS:AddItem(spec, "39408", LBIS.L["Legs"], "Alt") --Leggings of Sapphiron
-LBIS:AddItem(spec, "39528", LBIS.L["Legs"], "Alt") --Heroes' Pants of Faith
-LBIS:AddItem(spec, "40619", LBIS.L["Legs"], "Alt") --Leggings of the Lost Conqueror
 LBIS:AddItem(spec, "39517", LBIS.L["Legs"], "Alt") --Heroes' Leggings of Faith
+LBIS:AddItem(spec, "40619", LBIS.L["Legs"], "Alt") --Leggings of the Lost Conqueror
+LBIS:AddItem(spec, "39528", LBIS.L["Legs"], "Alt") --Heroes' Pants of Faith
 LBIS:AddItem(spec, "39309", LBIS.L["Legs"], "Alt") --Leggings of the Instructor
 LBIS:AddItem(spec, "37189", LBIS.L["Legs"], "Alt") --Breeches of the Caller
 
@@ -108,6 +110,12 @@ LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "BIS") --Figurine - Sapphire Owl
 LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Dragon Soul
 LBIS:AddItem(spec, "40382", LBIS.L["Trinket"], "Alt") --Soul of the Dead
 LBIS:AddItem(spec, "40430", LBIS.L["Trinket"], "Alt") --Majestic Dragon Figurine
+LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "Alt") --Spark of Life
+LBIS:AddItem(spec, "28823", LBIS.L["Trinket"], "Alt") --Eye of Gruul
+LBIS:AddItem(spec, "40685", LBIS.L["Trinket"], "Alt") --The Egg of Mortal Essence
+LBIS:AddItem(spec, "37835", LBIS.L["Trinket"], "Alt") --Je'Tze's Bell
+LBIS:AddItem(spec, "42988", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Illusion
+LBIS:AddItem(spec, "37660", LBIS.L["Trinket"], "Alt") --Forge Ember
 
 LBIS:AddItem(spec, "40395", LBIS.L["Main Hand"], "BIS") --Torch of Holy Fire
 LBIS:AddItem(spec, "40300", LBIS.L["Main Hand"], "Alt") --Spire of Sunset

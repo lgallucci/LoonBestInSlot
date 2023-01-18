@@ -55,8 +55,8 @@ LBIS:AddItem(spec, "40745", LBIS.L["Feet"], "Alt") --Sabatons of Rapid Recovery
 
 LBIS:AddItem(spec, "44661", LBIS.L["Neck"], "BIS") --Wyrmrest Necklace of Power
 LBIS:AddItem(spec, "44662", LBIS.L["Neck"], "BIS") --Life-Binder's Locket
-LBIS:AddItem(spec, "44657", LBIS.L["Neck"], "Alt") --Torque of the Red Dragonflight
 LBIS:AddItem(spec, "44658", LBIS.L["Neck"], "Alt") --Chain of the Ancient Wyrm
+LBIS:AddItem(spec, "44657", LBIS.L["Neck"], "Alt") --Torque of the Red Dragonflight
 LBIS:AddItem(spec, "40374", LBIS.L["Neck"], "Alt") --Cosmic Lights
 LBIS:AddItem(spec, "40071", LBIS.L["Neck"], "Alt") --Chains of Adoration
 LBIS:AddItem(spec, "39232", LBIS.L["Neck"], "Alt") --Pendant of Lost Vocations
@@ -71,7 +71,11 @@ LBIS:AddItem(spec, "40720", LBIS.L["Ring"], "Alt") --Renewal of Life
 
 LBIS:AddItem(spec, "44255", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
+LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "Alt") --Figurine - Sapphire Owl
+LBIS:AddItem(spec, "28823", LBIS.L["Trinket"], "Alt") --Eye of Gruul
 LBIS:AddItem(spec, "40382", LBIS.L["Trinket"], "Alt") --Soul of the Dead
+LBIS:AddItem(spec, "37657", LBIS.L["Trinket"], "Alt") --Spark of Life
+LBIS:AddItem(spec, "44322", LBIS.L["Trinket"], "Alt") --Mercurial Alchemist Stone
 
 LBIS:AddItem(spec, "40395", LBIS.L["Main Hand"], "BIS") --Torch of Holy Fire
 LBIS:AddItem(spec, "40396", LBIS.L["Main Hand"], "BIS") --The Turning Tide

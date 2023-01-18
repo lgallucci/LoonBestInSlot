@@ -10,8 +10,8 @@ LBIS:AddItem(spec, "42549", LBIS.L["Head"], "Alt") --Armored Titanium Goggles
 LBIS:AddItem(spec, "39395", LBIS.L["Head"], "Alt") --Thane's Tainted Greathelm
 
 LBIS:AddItem(spec, "39704", LBIS.L["Shoulder"], "BIS") --Pauldrons of Unnatural Death
-LBIS:AddItem(spec, "40548", LBIS.L["Shoulder"], "Alt") --Valorous Dreadnaught Pauldrons
 LBIS:AddItem(spec, "40638", LBIS.L["Shoulder"], "Alt") --Mantle of the Lost Protector
+LBIS:AddItem(spec, "40548", LBIS.L["Shoulder"], "Alt") --Valorous Dreadnaught Pauldrons
 LBIS:AddItem(spec, "39267", LBIS.L["Shoulder"], "Alt") --Abomination Shoulderblades
 LBIS:AddItem(spec, "40334", LBIS.L["Shoulder"], "Alt") --Burdened Shoulderplates
 LBIS:AddItem(spec, "39613", LBIS.L["Shoulder"], "Alt") --Heroes' Dreadnaught Pauldrons
@@ -73,10 +73,15 @@ LBIS:AddItem(spec, "40718", LBIS.L["Ring"], "BIS Mit") --Signet of the Impregnab
 LBIS:AddItem(spec, "40107", LBIS.L["Ring"], "Alt Mit") --Sand-Worn Band
 LBIS:AddItem(spec, "40426", LBIS.L["Ring"], "Alt") --Signet of the Accord
 LBIS:AddItem(spec, "39141", LBIS.L["Ring"], "Alt") --Deflection Band
+LBIS:AddItem(spec, "37784", LBIS.L["Ring"], "Alt Mit") --Keystone Great-Ring
 
 LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "BIS Stam") --Figurine - Monarch Crab
 LBIS:AddItem(spec, "44253", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "40257", LBIS.L["Trinket"], "Alt Mit") --Defender's Code
+LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "Alt Stam") --Essence of Gossamer
+LBIS:AddItem(spec, "42341", LBIS.L["Trinket"], "Alt Stam") --Figurine - Ruby Hare
+LBIS:AddItem(spec, "37872", LBIS.L["Trinket"], "Alt") --Lavanthor's Talisman
+LBIS:AddItem(spec, "36993", LBIS.L["Trinket"], "Alt Mit") --Seal of the Pantheon
 LBIS:AddItem(spec, "39292", LBIS.L["Trinket"], "Alt Mit") --Repelling Charge
 
 LBIS:AddItem(spec, "40402", LBIS.L["Main Hand"], "BIS") --Last Laugh
@@ -92,3 +97,5 @@ LBIS:AddItem(spec, "40266", LBIS.L["Off Hand"], "Alt") --Hero's Surrender
 LBIS:AddItem(spec, "39276", LBIS.L["Off Hand"], "Alt") --The Skull of Ruin
 
 LBIS:AddItem(spec, "41168", LBIS.L["Ranged/Relic"], "BIS") --Armor Plated Combat Shotgun
+LBIS:AddItem(spec, "44118", LBIS.L["Ranged/Relic"], "Alt") --Stolen Vrykul Harpoon
+LBIS:AddItem(spec, "40716", LBIS.L["Ranged/Relic"], "Alt") --Lillehoff's Winged Blades

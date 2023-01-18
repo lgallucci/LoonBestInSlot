@@ -9,8 +9,8 @@ LBIS:AddItem(spec, "39405", LBIS.L["Head"], "Alt") --Helmet of the Inner Sanctum
 LBIS:AddItem(spec, "42555", LBIS.L["Head"], "Alt") --Electroflux Sight Enhancers
 
 LBIS:AddItem(spec, "40286", LBIS.L["Shoulder"], "BIS") --Mantle of the Corrupted
-LBIS:AddItem(spec, "40638", LBIS.L["Shoulder"], "Alt") --Mantle of the Lost Protector
 LBIS:AddItem(spec, "40518", LBIS.L["Shoulder"], "Alt") --Valorous Earthshatter Shoulderpads
+LBIS:AddItem(spec, "40638", LBIS.L["Shoulder"], "Alt") --Mantle of the Lost Protector
 LBIS:AddItem(spec, "39596", LBIS.L["Shoulder"], "Alt") --Heroes' Earthshatter Shoulderpads
 LBIS:AddItem(spec, "40623", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Protector
 LBIS:AddItem(spec, "40439", LBIS.L["Shoulder"], "Alt") --Mantle of the Eternal Sentinel
@@ -22,8 +22,8 @@ LBIS:AddItem(spec, "39415", LBIS.L["Back"], "Alt") --Shroud of the Citadel
 
 LBIS:AddItem(spec, "40514", LBIS.L["Chest"], "BIS") --Valorous Earthshatter Hauberk
 LBIS:AddItem(spec, "40626", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Protector
-LBIS:AddItem(spec, "39592", LBIS.L["Chest"], "Alt") --Heroes' Earthshatter Hauberk
 LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Protector
+LBIS:AddItem(spec, "39592", LBIS.L["Chest"], "Alt") --Heroes' Earthshatter Hauberk
 LBIS:AddItem(spec, "40283", LBIS.L["Chest"], "Alt") --Fallout Impervious Tunic
 LBIS:AddItem(spec, "40526", LBIS.L["Chest"], "Alt") --Gown of the Spell-Weaver
 LBIS:AddItem(spec, "40234", LBIS.L["Chest"], "Alt") --Heigan's Putrid Vestments
@@ -34,8 +34,8 @@ LBIS:AddItem(spec, "37788", LBIS.L["Wrist"], "Alt") --Limb Regeneration Bracers
 LBIS:AddItem(spec, "37884", LBIS.L["Wrist"], "Alt") --Azure Cloth Bindings
 
 LBIS:AddItem(spec, "40302", LBIS.L["Hands"], "BIS") --Benefactor's Gauntlets
-LBIS:AddItem(spec, "40515", LBIS.L["Hands"], "Alt") --Valorous Earthshatter Gloves
 LBIS:AddItem(spec, "40629", LBIS.L["Hands"], "Alt") --Gauntlets of the Lost Protector
+LBIS:AddItem(spec, "40515", LBIS.L["Hands"], "Alt") --Valorous Earthshatter Gloves
 LBIS:AddItem(spec, "39593", LBIS.L["Hands"], "Alt") --Heroes' Earthshatter Gloves
 LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
 LBIS:AddItem(spec, "40380", LBIS.L["Hands"], "Alt") --Gloves of Grandeur
@@ -44,6 +44,7 @@ LBIS:AddItem(spec, "39243", LBIS.L["Hands"], "Alt") --Handgrips of the Foredoome
 LBIS:AddItem(spec, "40301", LBIS.L["Waist"], "BIS") --Cincture of Polarity
 LBIS:AddItem(spec, "40327", LBIS.L["Waist"], "Alt") --Girdle of Recuperation
 LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "Alt") --Plush Sash of Guzbah
+LBIS:AddItem(spec, "44181", LBIS.L["Waist"], "Alt") --Ghostflicker Waistband
 
 LBIS:AddItem(spec, "40560", LBIS.L["Legs"], "BIS") --Leggings of the Wanton Spellcaster
 LBIS:AddItem(spec, "40352", LBIS.L["Legs"], "Alt") --Leggings of Voracious Shadows
@@ -92,3 +93,4 @@ LBIS:AddItem(spec, "40698", LBIS.L["Off Hand"], "Alt") --Ward of the Violet Cita
 
 LBIS:AddItem(spec, "40267", LBIS.L["Ranged/Relic"], "BIS") --Totem of Hex
 LBIS:AddItem(spec, "40708", LBIS.L["Ranged/Relic"], "Alt") --Totem of the Elemental Plane
+LBIS:AddItem(spec, "32330", LBIS.L["Ranged/Relic"], "Alt") --Totem of Ancestral Guidance

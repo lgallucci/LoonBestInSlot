@@ -71,12 +71,14 @@ LBIS:AddItem(spec, "40069", LBIS.L["Neck"], "Alt") --Heritage
 LBIS:AddItem(spec, "40107", LBIS.L["Ring"], "Alt") --Sand-Worn Band
 LBIS:AddItem(spec, "40370", LBIS.L["Ring"], "Alt Mit") --Gatekeeper
 LBIS:AddItem(spec, "40718", LBIS.L["Ring"], "Alt Thrt") --Signet of the Impregnable Fortress
+LBIS:AddItem(spec, "34213", LBIS.L["Ring"], "Alt") --Ring of Hardened Resolve
 LBIS:AddItem(spec, "40426", LBIS.L["Ring"], "Alt") --Signet of the Accord
 LBIS:AddItem(spec, "39141", LBIS.L["Ring"], "Alt") --Deflection Band
 
 LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "BIS Stam") --Figurine - Monarch Crab
 LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "BIS Stam") --Essence of Gossamer
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS Thrt") --Darkmoon Card: Greatness
+LBIS:AddItem(spec, "42341", LBIS.L["Trinket"], "Alt Stam") --Figurine - Ruby Hare
 LBIS:AddItem(spec, "40257", LBIS.L["Trinket"], "Alt Mit") --Defender's Code
 LBIS:AddItem(spec, "29387", LBIS.L["Trinket"], "Alt Mit") --Gnomeregan Auto-Blocker 600
 LBIS:AddItem(spec, "39292", LBIS.L["Trinket"], "Alt Mit") --Repelling Charge

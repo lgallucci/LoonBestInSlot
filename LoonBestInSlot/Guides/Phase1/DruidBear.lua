@@ -10,8 +10,8 @@ LBIS:AddItem(spec, "40494", LBIS.L["Shoulder"], "BIS") --Valorous Dreamwalker Sh
 LBIS:AddItem(spec, "40639", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Vanquisher
 LBIS:AddItem(spec, "41714", LBIS.L["Shoulder"], "Alt") --Deadly Gladiator's Dragonhide Spaulders
 LBIS:AddItem(spec, "40437", LBIS.L["Shoulder"], "Alt") --Concealment Shoulderpads
-LBIS:AddItem(spec, "39556", LBIS.L["Shoulder"], "Alt") --Heroes' Dreamwalker Shoulderpads
 LBIS:AddItem(spec, "40624", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Vanquisher
+LBIS:AddItem(spec, "39556", LBIS.L["Shoulder"], "Alt") --Heroes' Dreamwalker Shoulderpads
 LBIS:AddItem(spec, "40305", LBIS.L["Shoulder"], "Alt") --Spaulders of Egotism
 
 LBIS:AddItem(spec, "40252", LBIS.L["Back"], "BIS") --Cloak of the Shadowed Sun
@@ -46,6 +46,7 @@ LBIS:AddItem(spec, "40260", LBIS.L["Waist"], "BIS Thrt") --Belt of the Tortured
 LBIS:AddItem(spec, "41831", LBIS.L["Waist"], "Alt") --Deadly Gladiator's Belt of Triumph
 LBIS:AddItem(spec, "37194", LBIS.L["Waist"], "Alt") --Sharp-Barbed Leather Belt
 LBIS:AddItem(spec, "40205", LBIS.L["Waist"], "Alt") --Stalk-Skin Belt
+LBIS:AddItem(spec, "41827", LBIS.L["Waist"], "Alt") --Hateful Gladiator's Belt of Triumph
 
 LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "BIS") --Leggings of the Honored
 LBIS:AddItem(spec, "40493", LBIS.L["Legs"], "Alt") --Valorous Dreamwalker Legguards
@@ -60,6 +61,8 @@ LBIS:AddItem(spec, "40243", LBIS.L["Feet"], "BIS") --Footwraps of Vile Deceit
 LBIS:AddItem(spec, "43592", LBIS.L["Feet"], "Alt") --Polar Boots
 LBIS:AddItem(spec, "41835", LBIS.L["Feet"], "Alt") --Deadly Gladiator's Boots of Triumph
 LBIS:AddItem(spec, "40748", LBIS.L["Feet"], "Alt") --Boots of Captain Ellis
+LBIS:AddItem(spec, "44893", LBIS.L["Feet"], "Alt") --Titan-Forged Boots of Triumph
+LBIS:AddItem(spec, "41828", LBIS.L["Feet"], "Alt") --Hateful Gladiator's Boots of Triumph
 
 LBIS:AddItem(spec, "40387", LBIS.L["Neck"], "BIS") --Boundless Ambition
 LBIS:AddItem(spec, "44665", LBIS.L["Neck"], "Alt") --Nexus War Champion Beads
@@ -80,7 +83,10 @@ LBIS:AddItem(spec, "44253", LBIS.L["Trinket"], "BIS Mit") --Darkmoon Card: Great
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS Thrt") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "40767", LBIS.L["Trinket"], "BIS Thrt") --Sonic Booster
 LBIS:AddItem(spec, "42341", LBIS.L["Trinket"], "BIS") --Figurine - Ruby Hare
+LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "Alt") --Essence of Gossamer
+LBIS:AddItem(spec, "44323", LBIS.L["Trinket"], "Alt") --Indestructible Alchemist's Stone
 LBIS:AddItem(spec, "40257", LBIS.L["Trinket"], "Alt") --Defender's Code
+LBIS:AddItem(spec, "34473", LBIS.L["Trinket"], "Alt") --Commendation of Kael'thas
 
 LBIS:AddItem(spec, "40280", LBIS.L["Two Hand"], "BIS Mit") --Origin of Nightmares
 LBIS:AddItem(spec, "40388", LBIS.L["Two Hand"], "BIS Thrt") --Journey's End
@@ -89,3 +95,4 @@ LBIS:AddItem(spec, "39422", LBIS.L["Two Hand"], "Alt") --Staff of the Plaguehoun
 LBIS:AddItem(spec, "40406", LBIS.L["Two Hand"], "Alt") --Inevitable Defeat
 
 LBIS:AddItem(spec, "38365", LBIS.L["Ranged/Relic"], "BIS") --Idol of Perspicacious Attacks
+LBIS:AddItem(spec, "33509", LBIS.L["Ranged/Relic"], "Alt") --Idol of Terror

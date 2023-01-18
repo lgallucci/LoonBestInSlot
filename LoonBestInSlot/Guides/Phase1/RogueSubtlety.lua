@@ -23,6 +23,7 @@ LBIS:AddItem(spec, "40250", LBIS.L["Back"], "Alt") --Aged Winter Cloak
 LBIS:AddItem(spec, "40721", LBIS.L["Back"], "Alt") --Hammerhead Sharkskin Cloak
 LBIS:AddItem(spec, "39404", LBIS.L["Back"], "Alt") --Cloak of Mastery
 LBIS:AddItem(spec, "39297", LBIS.L["Back"], "Alt") --Cloak of Darkening
+LBIS:AddItem(spec, "43566", LBIS.L["Back"], "Alt") --Ice Striker's Cloak
 
 LBIS:AddItem(spec, "40539", LBIS.L["Chest"], "BIS") --Chestguard of the Recluse
 LBIS:AddItem(spec, "40495", LBIS.L["Chest"], "Alt") --Valorous Bonescythe Breastplate
@@ -33,6 +34,7 @@ LBIS:AddItem(spec, "40319", LBIS.L["Chest"], "Alt") --Chestpiece of Suspicion
 LBIS:AddItem(spec, "43990", LBIS.L["Chest"], "Alt") --Blade-Scarred Tunic
 LBIS:AddItem(spec, "39558", LBIS.L["Chest"], "Alt") --Heroes' Bonescythe Breastplate
 LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Vanquisher
+LBIS:AddItem(spec, "37219", LBIS.L["Chest"], "Alt") --Custodian's Chestpiece
 
 LBIS:AddItem(spec, "40186", LBIS.L["Wrist"], "BIS") --Thrusting Bands
 LBIS:AddItem(spec, "34448", LBIS.L["Wrist"], "BIS") --Slayer's Bracers
@@ -57,6 +59,8 @@ LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Vanq
 LBIS:AddItem(spec, "40260", LBIS.L["Waist"], "Alt") --Belt of the Tortured
 LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "Alt") --Jorach's Crocolisk Skin Belt
 LBIS:AddItem(spec, "39279", LBIS.L["Waist"], "Alt") --Blistered Belt of Decay
+LBIS:AddItem(spec, "43484", LBIS.L["Waist"], "Alt") --Trollwoven Girdle
+LBIS:AddItem(spec, "37194", LBIS.L["Waist"], "Alt") --Sharp-Barbed Leather Belt
 
 LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "BIS") --Leggings of the Honored
 LBIS:AddItem(spec, "40500", LBIS.L["Legs"], "Alt") --Valorous Bonescythe Legplates
@@ -94,8 +98,11 @@ LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
 LBIS:AddItem(spec, "40431", LBIS.L["Trinket"], "Alt") --Fury of the Five Flights
 LBIS:AddItem(spec, "40256", LBIS.L["Trinket"], "Alt") --Grim Toll
 LBIS:AddItem(spec, "40371", LBIS.L["Trinket"], "Alt") --Bandit's Insignia
+LBIS:AddItem(spec, "34427", LBIS.L["Trinket"], "Alt") --Blackened Naaru Sliver
 LBIS:AddItem(spec, "39257", LBIS.L["Trinket"], "Alt") --Loatheb's Shadow
 LBIS:AddItem(spec, "37723", LBIS.L["Trinket"], "Alt") --Incisor Fragment
+LBIS:AddItem(spec, "37166", LBIS.L["Trinket"], "Alt") --Sphere of Red Dragon's Blood
+LBIS:AddItem(spec, "37390", LBIS.L["Trinket"], "Alt") --Meteorite Whetstone
 LBIS:AddItem(spec, "40531", LBIS.L["Trinket"], "Alt") --Mark of Norgannon
 
 LBIS:AddItem(spec, "40386", LBIS.L["Main Hand"], "BIS") --Sinister Revenge

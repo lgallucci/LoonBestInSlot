@@ -13,8 +13,8 @@ LBIS:AddItem(spec, "37684", LBIS.L["Head"], "Alt") --Forgotten Shadow Hood
 LBIS:AddItem(spec, "41992", LBIS.L["Head"], "Alt") --Deadly Gladiator's Felweave Cowl
 LBIS:AddItem(spec, "40339", LBIS.L["Head"], "Alt") --Gothik's Cowl
 
-LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 LBIS:AddItem(spec, "40424", LBIS.L["Shoulder"], "BIS") --Valorous Plagueheart Shoulderpads
+LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 LBIS:AddItem(spec, "39719", LBIS.L["Shoulder"], "Alt") --Mantle of the Locusts
 LBIS:AddItem(spec, "40555", LBIS.L["Shoulder"], "Alt") --Mantle of Dissemination
 LBIS:AddItem(spec, "40351", LBIS.L["Shoulder"], "Alt") --Mantle of the Fatigued Sage
@@ -51,12 +51,17 @@ LBIS:AddItem(spec, "41892", LBIS.L["Wrist"], "Alt") --Deadly Gladiator's Cuffs o
 LBIS:AddItem(spec, "39390", LBIS.L["Wrist"], "Alt") --Resurgent Phantom Bindings
 LBIS:AddItem(spec, "39252", LBIS.L["Wrist"], "Alt") --Preceptor's Bindings
 
-LBIS:AddItem(spec, "40628", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Conqueror
 LBIS:AddItem(spec, "40420", LBIS.L["Hands"], "BIS") --Valorous Plagueheart Gloves
+LBIS:AddItem(spec, "40628", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Conqueror
 LBIS:AddItem(spec, "40197", LBIS.L["Hands"], "Alt") --Gloves of the Fallen Wizard
 LBIS:AddItem(spec, "39733", LBIS.L["Hands"], "Alt") --Gloves of Token Respect
 LBIS:AddItem(spec, "39192", LBIS.L["Hands"], "Alt") --Gloves of Dark Gestures
+LBIS:AddItem(spec, "37172", LBIS.L["Hands"], "Alt") --Gloves of Glistening Runes
+LBIS:AddItem(spec, "37798", LBIS.L["Hands"], "Alt") --Overlook Handguards
+LBIS:AddItem(spec, "42103", LBIS.L["Hands"], "Alt") --Moonshroud Gloves
+LBIS:AddItem(spec, "42113", LBIS.L["Hands"], "Alt") --Spellweave Gloves
 LBIS:AddItem(spec, "40380", LBIS.L["Hands"], "Alt") --Gloves of Grandeur
+LBIS:AddItem(spec, "34342", LBIS.L["Hands"], "Alt") --Handguards of the Dawn
 
 LBIS:AddItem(spec, "40561", LBIS.L["Waist"], "BIS") --Leash of Heedless Magic
 LBIS:AddItem(spec, "39735", LBIS.L["Waist"], "Alt") --Belt of False Dignity
@@ -83,7 +88,10 @@ LBIS:AddItem(spec, "40750", LBIS.L["Feet"], "Alt") --Xintor's Expeditionary Boot
 LBIS:AddItem(spec, "40751", LBIS.L["Feet"], "Alt") --Slippers of the Holy Light
 LBIS:AddItem(spec, "41884", LBIS.L["Feet"], "Alt") --Deadly Gladiator's Treads of Salvation
 LBIS:AddItem(spec, "39254", LBIS.L["Feet"], "Alt") --Saltarello Shoes
+LBIS:AddItem(spec, "40246", LBIS.L["Feet"], "Alt") --Boots of Impetuous Ideals
 LBIS:AddItem(spec, "39273", LBIS.L["Feet"], "Alt") --Sullen Cloth Boots
+LBIS:AddItem(spec, "41879", LBIS.L["Feet"], "Alt") --Hateful Gladiator's Slippers of Salvation
+LBIS:AddItem(spec, "44202", LBIS.L["Feet"], "Alt") --Sandals of Crimson Fury
 
 LBIS:AddItem(spec, "44661", LBIS.L["Neck"], "BIS") --Wyrmrest Necklace of Power
 LBIS:AddItem(spec, "40486", LBIS.L["Neck"], "Alt") --Necklace of the Glittering Chamber
@@ -103,6 +111,8 @@ LBIS:AddItem(spec, "39231", LBIS.L["Ring"], "Alt") --Timeworn Silken Band
 LBIS:AddItem(spec, "42644", LBIS.L["Ring"], "Alt") --Titanium Spellshock Ring
 LBIS:AddItem(spec, "39389", LBIS.L["Ring"], "Alt") --Signet of the Malevolent
 LBIS:AddItem(spec, "44934", LBIS.L["Ring"], "Alt") --Loop of the Kirin Tor
+LBIS:AddItem(spec, "37732", LBIS.L["Ring"], "Alt") --Spectral Seal of the Prophet
+LBIS:AddItem(spec, "42114", LBIS.L["Ring"], "Alt") --Deadly Gladiator's Band of Ascendancy
 LBIS:AddItem(spec, "40375", LBIS.L["Ring"], "Alt") --Ring of Decaying Beauty
 LBIS:AddItem(spec, "40433", LBIS.L["Ring"], "Alt") --Wyrmrest Band
 LBIS:AddItem(spec, "40585", LBIS.L["Ring"], "Alt") --Signet of the Kirin Tor
@@ -127,7 +137,9 @@ LBIS:AddItem(spec, "40192", LBIS.L["Off Hand"], "Alt") --Accursed Spine
 LBIS:AddItem(spec, "42531", LBIS.L["Off Hand"], "Alt") --Deadly Gladiator's Reprieve
 LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "Alt") --Handbook of Obscure Remedies
 LBIS:AddItem(spec, "40273", LBIS.L["Off Hand"], "Alt") --Surplus Limb
+LBIS:AddItem(spec, "44210", LBIS.L["Off Hand"], "Alt") --Faces of Doom
 LBIS:AddItem(spec, "42530", LBIS.L["Off Hand"], "Alt") --Hateful Gladiator's Reprieve
+LBIS:AddItem(spec, "38322", LBIS.L["Off Hand"], "Alt") --Iron-bound Tome
 LBIS:AddItem(spec, "40698", LBIS.L["Off Hand"], "Alt") --Ward of the Violet Citadel
 LBIS:AddItem(spec, "42525", LBIS.L["Off Hand"], "Alt") --Deadly Gladiator's Endgame
 LBIS:AddItem(spec, "40350", LBIS.L["Off Hand"], "Alt") --Urn of Lost Memories
@@ -143,7 +155,11 @@ LBIS:AddItem(spec, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlic
 LBIS:AddItem(spec, "40284", LBIS.L["Ranged/Relic"], "Alt") --Plague Igniter
 LBIS:AddItem(spec, "34348", LBIS.L["Ranged/Relic"], "Alt") --Wand of Cleansing Light
 LBIS:AddItem(spec, "42513", LBIS.L["Ranged/Relic"], "Alt") --Deadly Gladiator's Baton of Light
+LBIS:AddItem(spec, "37619", LBIS.L["Ranged/Relic"], "Alt") --Wand of Ahn'kahet
 LBIS:AddItem(spec, "39712", LBIS.L["Ranged/Relic"], "Alt") --Gemmed Wand of the Nerubians
+LBIS:AddItem(spec, "34347", LBIS.L["Ranged/Relic"], "Alt") --Wand of the Demonsoul
 LBIS:AddItem(spec, "42502", LBIS.L["Ranged/Relic"], "Alt") --Deadly Gladiator's Touch of Defeat
 LBIS:AddItem(spec, "40245", LBIS.L["Ranged/Relic"], "Alt") --Fading Glow
+LBIS:AddItem(spec, "37626", LBIS.L["Ranged/Relic"], "Alt") --Wand of Sseratus
 LBIS:AddItem(spec, "40335", LBIS.L["Ranged/Relic"], "Alt") --Touch of Horror
+LBIS:AddItem(spec, "37238", LBIS.L["Ranged/Relic"], "Alt") --Rod of the Fallen Monarch

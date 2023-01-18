@@ -77,7 +77,7 @@ public static class WowheadImporter
                 else
                     items = await new WowheadGuideParser().ParseWowheadGuide(classGuide);
 
-                var oldItems = ExcludeItemsFromPhaseGuide(items, phaseNumber, className);
+                //var oldItems = ExcludeItemsFromPhaseGuide(items, phaseNumber, className);
 
                 foreach (var item in items)
                 {
@@ -99,8 +99,8 @@ public static class WowheadImporter
 
                         sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
                     }
-                    else if (!oldItems.ContainsKey(item.Value.ItemId) || oldItems[item.Value.ItemId].BisStatus.Contains("BIS") || item.Value.BisStatus.Contains("BIS"))
-                    {
+                    //else if (!oldItems.ContainsKey(item.Value.ItemId) || oldItems[item.Value.ItemId].BisStatus.Contains("BIS") || item.Value.BisStatus.Contains("BIS"))
+                    //{
                         if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
                         {
                             itemSources.Add(item.Value.ItemId, new ItemSource
@@ -115,12 +115,12 @@ public static class WowheadImporter
                         }
 
                         sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
-                    }
-                    else
-                    {
-                        items.Remove(item.Value.ItemId);
-                        sb.AppendLine($"Skipped: {item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
-                    }
+                    //}
+                    //else
+                    //{
+                    //    items.Remove(item.Value.ItemId);
+                    //    sb.AppendLine($"Skipped: {item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
+                    //}
                 }
 
                 ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\Phase{phaseNumber}\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, $"Phase {phaseNumber}", items.Values.ToList());

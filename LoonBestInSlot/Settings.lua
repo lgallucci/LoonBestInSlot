@@ -539,8 +539,6 @@ function LBIS:CreateSettings()
 	LBISSettings = LBIS:DeepCopy(LBISSettingsDefault, LBISSettings);
 	LBISServerSettings = LBIS:DeepCopy(LBISServerSettingsDefault, LBISServerSettings);
 
-	updateCustomGuidesToNewFormat(LBISServerSettings)
-
 	LibStub("AceConfig-3.0"):RegisterOptionsTable("Loon Best In Slot", lbis_options, nil)
 	LibStub("AceConfigDialog-3.0"):AddToBlizOptions("Loon Best In Slot"):SetParent(InterfaceOptionsFramePanelContainer)
 end

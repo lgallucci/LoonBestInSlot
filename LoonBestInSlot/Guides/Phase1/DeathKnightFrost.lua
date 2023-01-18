@@ -18,8 +18,8 @@ LBIS:AddItem(spec, "39297", LBIS.L["Back"], "Alt") --Cloak of Darkening
 
 LBIS:AddItem(spec, "40550", LBIS.L["Chest"], "BIS") --Valorous Scourgeborne Battleplate
 LBIS:AddItem(spec, "40627", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Vanquisher
-LBIS:AddItem(spec, "39617", LBIS.L["Chest"], "BIS") --Heroes' Scourgeborne Battleplate
 LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Vanquisher
+LBIS:AddItem(spec, "39617", LBIS.L["Chest"], "BIS") --Heroes' Scourgeborne Battleplate
 LBIS:AddItem(spec, "40539", LBIS.L["Chest"], "Alt") --Chestguard of the Recluse
 LBIS:AddItem(spec, "40365", LBIS.L["Chest"], "Alt") --Breastplate of Frozen Pain
 
@@ -38,8 +38,8 @@ LBIS:AddItem(spec, "40278", LBIS.L["Waist"], "BIS") --Girdle of Chivalry
 LBIS:AddItem(spec, "40317", LBIS.L["Waist"], "Alt") --Girdle of Razuvious
 LBIS:AddItem(spec, "40688", LBIS.L["Waist"], "Alt") --Verdungo's Barbarian Cord
 
-LBIS:AddItem(spec, "40556", LBIS.L["Legs"], "BIS") --Valorous Scourgeborne Legplates
 LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "BIS") --Legplates of the Lost Vanquisher
+LBIS:AddItem(spec, "40556", LBIS.L["Legs"], "BIS") --Valorous Scourgeborne Legplates
 LBIS:AddItem(spec, "39620", LBIS.L["Legs"], "BIS") --Heroes' Scourgeborne Legplates
 LBIS:AddItem(spec, "40621", LBIS.L["Legs"], "BIS") --Leggings of the Lost Vanquisher
 LBIS:AddItem(spec, "40318", LBIS.L["Legs"], "Alt") --Legplates of Double Strikes
@@ -58,12 +58,15 @@ LBIS:AddItem(spec, "43993", LBIS.L["Ring"], "BIS") --Greatring of Collision
 LBIS:AddItem(spec, "39401", LBIS.L["Ring"], "Alt") --Circle of Death
 LBIS:AddItem(spec, "42642", LBIS.L["Ring"], "Alt") --Titanium Impact Band
 LBIS:AddItem(spec, "44935", LBIS.L["Ring"], "Alt") --Ring of the Kirin Tor
+LBIS:AddItem(spec, "37642", LBIS.L["Ring"], "Alt") --Hemorrhaging Circle
 
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "40431", LBIS.L["Trinket"], "BIS") --Fury of the Five Flights
 LBIS:AddItem(spec, "40256", LBIS.L["Trinket"], "BIS") --Grim Toll
 LBIS:AddItem(spec, "40684", LBIS.L["Trinket"], "Alt") --Mirror of Truth
 LBIS:AddItem(spec, "39257", LBIS.L["Trinket"], "Alt") --Loatheb's Shadow
+LBIS:AddItem(spec, "37723", LBIS.L["Trinket"], "Alt") --Incisor Fragment
+LBIS:AddItem(spec, "37390", LBIS.L["Trinket"], "Alt") --Meteorite Whetstone
 
 LBIS:AddItem(spec, "40189", LBIS.L["Main Hand/Off Hand"], "BIS") --Angry Dread
 LBIS:AddItem(spec, "42208", LBIS.L["Main Hand/Off Hand"], "Alt") --Deadly Gladiator's Cleaver

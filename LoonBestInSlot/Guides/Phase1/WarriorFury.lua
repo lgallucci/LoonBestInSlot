@@ -44,6 +44,7 @@ LBIS:AddItem(spec, "40317", LBIS.L["Waist"], "BIS") --Girdle of Razuvious
 LBIS:AddItem(spec, "40260", LBIS.L["Waist"], "Alt") --Belt of the Tortured
 LBIS:AddItem(spec, "40278", LBIS.L["Waist"], "Alt") --Girdle of Chivalry
 LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "Alt") --Jorach's Crocolisk Skin Belt
+LBIS:AddItem(spec, "37171", LBIS.L["Waist"], "Alt") --Flame-Bathed Steel Girdle
 
 LBIS:AddItem(spec, "40318", LBIS.L["Legs"], "BIS") --Legplates of Double Strikes
 LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "BIS") --Leggings of the Honored
