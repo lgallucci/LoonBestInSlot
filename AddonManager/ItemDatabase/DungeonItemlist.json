@@ -3374,6 +3374,13 @@
             "SourceNumber": "0",
             "SourceLocation": "Utgarde Pinnacle (Heroic)"
         },
+        "44659": {
+            "Name": "Pendant of the Dragonsworn",
+            "Source": "Sjonnir the Ironshaper",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Stone (Heroic)"
+        },
         "47170": {
             "Name": "Belt of Fierce Competition",
             "Source": "Grand Champions",
@@ -5000,31 +5007,31 @@
         },
         "39140": {
             "Name": "Knife of Incision",
-            "Source": "Unknown Boss",
+            "Source": "Volkhan",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Lightning (Heroic+)"
         },
         "39141": {
             "Name": "Deflection Band",
-            "Source": "Unknown Boss",
+            "Source": "General Bjarngrim",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Lightning (Heroic+)"
         },
         "39146": {
             "Name": "Collar of Dissolution",
-            "Source": "Unknown Boss",
+            "Source": "Ionar",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Lightning (Heroic+)"
         },
         "39188": {
             "Name": "Chivalric Chestguard",
-            "Source": "Unknown Boss",
+            "Source": "Volkhan",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Lightning (Heroic+)"
         },
         "39189": {
             "Name": "Boots of Persistence",
@@ -5035,17 +5042,17 @@
         },
         "39190": {
             "Name": "Agonal Sash",
-            "Source": "Unknown Boss",
+            "Source": "Ionar",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Lightning (Heroic+)"
         },
         "39191": {
             "Name": "Splint-Bound Leggings",
-            "Source": "Unknown Boss",
+            "Source": "Volkhan",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Lightning (Heroic+)"
         },
         "39192": {
             "Name": "Gloves of Dark Gestures",
@@ -5063,66 +5070,66 @@
         },
         "39194": {
             "Name": "Rusted-Link Spiked Gauntlets",
-            "Source": "Unknown Boss",
+            "Source": "King Ymiron",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Pinnacle (Heroic+)"
         },
         "39195": {
             "Name": "Bracers of Lost Sentiments",
-            "Source": "Unknown Boss",
+            "Source": "Krystallus",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Stone (Heroic+)"
         },
         "39196": {
             "Name": "Boots of the Worshiper",
-            "Source": "Unknown Boss",
+            "Source": "Maiden of Grief",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Stone (Heroic+)"
         },
         "39197": {
             "Name": "Gauntlets of the Master",
-            "Source": "Unknown Boss",
+            "Source": "The Tribunal of Ages",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Stone (Heroic+)"
         },
         "39198": {
             "Name": "Frostblight Pauldrons",
-            "Source": "Unknown Boss",
+            "Source": "Krystallus",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Stone (Heroic+)"
         },
         "39199": {
             "Name": "Watchful Eye",
-            "Source": "Unknown Boss",
+            "Source": "Krystallus",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Stone (Heroic+)"
         },
         "39200": {
             "Name": "Grieving Spellblade",
-            "Source": "Unknown Boss",
+            "Source": "The Tribunal of Ages",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Stone (Heroic+)"
         },
         "39215": {
             "Name": "Boots of the Follower",
-            "Source": "Unknown Boss",
+            "Source": "Maiden of Grief",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Stone (Heroic+)"
         },
         "39216": {
             "Name": "Sash of Mortal Desire",
-            "Source": "Unknown Boss",
+            "Source": "Maiden of Grief",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Stone (Heroic+)"
         },
         "39217": {
             "Name": "Avenging Combat Leggings",
@@ -5497,10 +5504,10 @@
         },
         "39284": {
             "Name": "Miasma Mantle",
-            "Source": "Unknown Boss",
+            "Source": "Gortok Palehoof",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Pinnacle (Heroic+)"
         },
         "39285": {
             "Name": "Handgrips of Turmoil",
@@ -5532,45 +5539,45 @@
         },
         "39294": {
             "Name": "Arc-Scorched Helmet",
-            "Source": "Unknown Boss",
+            "Source": "Skadi the Ruthless",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Pinnacle (Heroic+)"
         },
         "39295": {
             "Name": "Cowl of Sheet Lightning",
-            "Source": "Unknown Boss",
+            "Source": "Gortok Palehoof",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Pinnacle (Heroic+)"
         },
         "39296": {
             "Name": "Accursed Bow of the Elite",
-            "Source": "Unknown Boss",
+            "Source": "Svala Sorrowgrave",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Pinnacle (Heroic+)"
         },
         "39297": {
             "Name": "Cloak of Darkening",
-            "Source": "Unknown Boss",
+            "Source": "Skadi the Ruthless",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Pinnacle (Heroic+)"
         },
         "39298": {
             "Name": "Waistguard of the Tutor",
-            "Source": "Unknown Boss",
+            "Source": "Gortok Palehoof",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Pinnacle (Heroic+)"
         },
         "39299": {
             "Name": "Rapid Attack Gloves",
-            "Source": "Unknown Boss",
+            "Source": "Svala Sorrowgrave",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Pinnacle (Heroic+)"
         },
         "39306": {
             "Name": "Plated Gloves of Relief",
@@ -5588,10 +5595,10 @@
         },
         "39308": {
             "Name": "Girdle of Lenience",
-            "Source": "Unknown Boss",
+            "Source": "Svala Sorrowgrave",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Pinnacle (Heroic+)"
         },
         "39309": {
             "Name": "Leggings of the Instructor",
@@ -5833,10 +5840,10 @@
         },
         "39423": {
             "Name": "Hammer of the Astral Plane",
-            "Source": "Unknown Boss",
+            "Source": "King Ymiron",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Pinnacle (Heroic+)"
         },
         "39424": {
             "Name": "The Soulblade",
@@ -5889,10 +5896,10 @@
         },
         "39472": {
             "Name": "Chain of Latent Energies",
-            "Source": "Unknown Boss",
+            "Source": "Skadi the Ruthless",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Pinnacle (Heroic+)"
         },
         "39473": {
             "Name": "Contortion",
@@ -6015,10 +6022,10 @@
         },
         "43993": {
             "Name": "Greatring of Collision",
-            "Source": "Unknown Boss",
+            "Source": "Sjonnir the Ironshaper",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Stone (Heroic+)"
         },
         "43994": {
             "Name": "Belabored Legplates",
@@ -6071,17 +6078,17 @@
         },
         "40488": {
             "Name": "Ice Spire Scepter",
-            "Source": "Unknown Boss",
+            "Source": "Loken",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Lightning (Heroic+)"
         },
         "40489": {
             "Name": "Greatstaff of the Nexus",
-            "Source": "Unknown Boss",
+            "Source": "Sjonnir the Ironshaper",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Stone (Heroic+)"
         },
         "40491": {
             "Name": "Hailstorm",
@@ -6113,10 +6120,10 @@
         },
         "40526": {
             "Name": "Gown of the Spell-Weaver",
-            "Source": "Unknown Boss",
+            "Source": "Loken",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Lightning (Heroic+)"
         }
     }
 }
