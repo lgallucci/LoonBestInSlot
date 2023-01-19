@@ -3379,7 +3379,14 @@
             "Source": "Sjonnir the Ironshaper",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Halls of Stone (Heroic)"
+            "SourceLocation": "Halls of Stone (Heroic+)"
+        },
+        "44660": {
+            "Name": "Drakescale Collar",
+            "Source": "Gal'darah'",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Gundrak (Heroic+)"
         },
         "47170": {
             "Name": "Belt of Fierce Competition",
@@ -5133,59 +5140,59 @@
         },
         "39217": {
             "Name": "Avenging Combat Leggings",
-            "Source": "Unknown Boss",
+            "Source": "Eck the Ferocious",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Gundrak (Heroic+)"
         },
         "39221": {
             "Name": "Wraith Spear",
-            "Source": "Unknown Boss",
+            "Source": "Moorabi",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Gundrak (Heroic+)"
         },
         "39224": {
             "Name": "Leggings of Discord",
-            "Source": "Unknown Boss",
+            "Source": "Drakkari Colossus",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Gundrak (Heroic+)"
         },
         "39225": {
             "Name": "Cloak of Armed Strife",
-            "Source": "Unknown Boss",
+            "Source": "Drakkari Colossus",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Gundrak (Heroic+)"
         },
         "39226": {
-            "Name": "Unknown Boss's Femur",
-            "Source": "Unknown Boss",
+            "Name": "Maexxna's Femur",
+            "Source": "Eck the Ferocious",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Gundrak (Heroic+)"
         },
         "39228": {
             "Name": "Web Cocoon Grips",
-            "Source": "Unknown Boss",
+            "Source": "Moorabi",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Gundrak (Heroic+)"
         },
         "39229": {
             "Name": "Embrace of the Spider",
-            "Source": "Unknown Boss",
+            "Source": "Slad'ran'",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Gundrak (Heroic+)"
         },
         "39230": {
             "Name": "Spaulders of the Monstrosity",
-            "Source": "Unknown Boss",
+            "Source": "Slad'ran",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Gundrak (Heroic+)"
         },
         "39231": {
             "Name": "Timeworn Silken Band",
@@ -5196,24 +5203,24 @@
         },
         "39232": {
             "Name": "Pendant of Lost Vocations",
-            "Source": "Unknown Boss",
+            "Source": "Moorabi",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Gundrak (Heroic+)"
         },
         "39233": {
             "Name": "Aegis of Damnation",
-            "Source": "Unknown Boss",
+            "Source": "Drakkari Colossus",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Gundrak (Heroic+)"
         },
         "39234": {
             "Name": "Plague-Impervious Boots",
-            "Source": "Unknown Boss",
+            "Source": "Slad'ran",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Gundrak (Heroic+)"
         },
         "39235": {
             "Name": "Bone-Framed Bracers",
@@ -5497,10 +5504,10 @@
         },
         "39283": {
             "Name": "Putrescent Bands",
-            "Source": "Unknown Boss",
+            "Source": "Gal'darah",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Gundrak (Heroic+)"
         },
         "39284": {
             "Name": "Miasma Mantle",
@@ -5931,10 +5938,10 @@
         },
         "40429": {
             "Name": "Crimson Steel",
-            "Source": "Unknown Boss",
+            "Source": "Meathook",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "40430": {
             "Name": "Majestic Dragon Figurine",
@@ -5987,10 +5994,10 @@
         },
         "43988": {
             "Name": "Gale-Proof Cloak",
-            "Source": "Unknown Boss",
+            "Source": "Meathook",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "43989": {
             "Name": "Remembrance Girdle",
@@ -6015,10 +6022,10 @@
         },
         "43992": {
             "Name": "Volitant Amulet",
-            "Source": "Unknown Boss",
+            "Source": "Meathook",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "43993": {
             "Name": "Greatring of Collision",
