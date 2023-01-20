@@ -18,8 +18,8 @@ LBIS:AddItem(spec, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless Gener
 LBIS:AddItem(spec, "45138", LBIS.L["Back"], "Alt") --Drape of the Drakerider
 LBIS:AddItem(spec, "45973", LBIS.L["Back"], "Alt") --Stylish Power Cape
 
-LBIS:AddItem(spec, "46146", LBIS.L["Chest"], "BIS") --Conqueror's Siegebreaker Battleplate
 LBIS:AddItem(spec, "45633", LBIS.L["Chest"], "BIS") --Breastplate of the Wayward Protector
+LBIS:AddItem(spec, "46146", LBIS.L["Chest"], "BIS") --Conqueror's Siegebreaker Battleplate
 LBIS:AddItem(spec, "45473", LBIS.L["Chest"], "Alt") --Embrace of the Gladiator
 LBIS:AddItem(spec, "45453", LBIS.L["Chest"], "Alt") --Winter's Icy Embrace
 LBIS:AddItem(spec, "45429", LBIS.L["Chest"], "Alt") --Valorous Siegebreaker Battleplate
@@ -55,7 +55,7 @@ LBIS:AddItem(spec, "44664", LBIS.L["Neck"], "Alt") --Favor of the Dragon Queen
 
 LBIS:AddItem(spec, "45608", LBIS.L["Ring"], "BIS") --Brann's Signet Ring
 LBIS:AddItem(spec, "46322", LBIS.L["Ring"], "BIS") --Brann's Sealing Ring
-
+LBIS:AddItem(spec, "45534", LBIS.L["Ring"], "Alt") --Seal of the Betrayed King
 LBIS:AddItem(spec, "45469", LBIS.L["Ring"], "Alt") --Sif's Promise
 LBIS:AddItem(spec, "46048", LBIS.L["Ring"], "Alt") --Band of Lights
 

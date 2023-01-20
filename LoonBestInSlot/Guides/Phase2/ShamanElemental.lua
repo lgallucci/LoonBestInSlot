@@ -17,9 +17,9 @@ LBIS:AddItem(spec, "46042", LBIS.L["Back"], "Alt") --Drape of the Messenger
 LBIS:AddItem(spec, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
 LBIS:AddItem(spec, "45486", LBIS.L["Back"], "Alt") --Drape of the Sullen Goddess
 
-LBIS:AddItem(spec, "46198", LBIS.L["Chest"], "BIS") --Conqueror's Worldbreaker Tunic
+LBIS:AddItem(spec, "46206", LBIS.L["Chest"], "BIS") --Conqueror's Worldbreaker Hauberk
 LBIS:AddItem(spec, "45633", LBIS.L["Chest"], "BIS") --Breastplate of the Wayward Protector
-LBIS:AddItem(spec, "45405", LBIS.L["Chest"], "Alt") --Valorous Worldbreaker Tunic
+LBIS:AddItem(spec, "45411", LBIS.L["Chest"], "Alt") --Valorous Worldbreaker Hauberk
 LBIS:AddItem(spec, "45636", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Protector
 LBIS:AddItem(spec, "45867", LBIS.L["Chest"], "Alt") --Breastplate of the Stoneshaper
 

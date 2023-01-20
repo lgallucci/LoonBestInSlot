@@ -51,8 +51,8 @@ LBIS:AddItem(spec, "46034", LBIS.L["Legs"], "Alt") --Leggings of Profound Darkne
 LBIS:AddItem(spec, "45488", LBIS.L["Legs"], "Alt") --Leggings of the Enslaved Idol
 LBIS:AddItem(spec, "45468", LBIS.L["Legs"], "Alt") --Leggings of Lost Love
 LBIS:AddItem(spec, "45848", LBIS.L["Legs"], "Alt") --Legwraps of the Master Conjurer
-LBIS:AddItem(spec, "45388", LBIS.L["Legs"], "Alt") --Valorous Leggings of Sanctification
 LBIS:AddItem(spec, "45650", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Conqueror
+LBIS:AddItem(spec, "45388", LBIS.L["Legs"], "Alt") --Valorous Leggings of Sanctification
 
 LBIS:AddItem(spec, "45135", LBIS.L["Feet"], "BIS") --Boots of Fiery Resolution
 LBIS:AddItem(spec, "45537", LBIS.L["Feet"], "BIS") --Treads of the False Oracle
@@ -86,6 +86,7 @@ LBIS:AddItem(spec, "45929", LBIS.L["Trinket"], "Alt") --Sif's Remembrance
 
 LBIS:AddItem(spec, "46017", LBIS.L["Main Hand"], "BIS") --Val'anyr, Hammer of Ancient Kings
 LBIS:AddItem(spec, "45457", LBIS.L["Main Hand"], "BIS") --Staff of Endless Winter
+LBIS:AddItem(spec, "45886", LBIS.L["Main Hand"], "BIS") --Icecore Staff
 LBIS:AddItem(spec, "45612", LBIS.L["Main Hand"], "Alt") --Constellus
 LBIS:AddItem(spec, "46035", LBIS.L["Main Hand"], "Alt") --Aesuga, Hand of the Ardent Champion
 LBIS:AddItem(spec, "45147", LBIS.L["Main Hand"], "Alt") --Guiding Star

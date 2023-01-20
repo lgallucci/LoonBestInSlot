@@ -58,8 +58,8 @@ LBIS:AddItem(spec, "40589", LBIS.L["Legs"], "BIS") --Legplates of Sovereignty
 LBIS:AddItem(spec, "46176", LBIS.L["Legs"], "Alt") --Conqueror's Aegis Legguards
 LBIS:AddItem(spec, "45653", LBIS.L["Legs"], "Alt") --Legplates of the Wayward Conqueror
 LBIS:AddItem(spec, "45267", LBIS.L["Legs"], "Alt") --Saronite Plated Legguards
-LBIS:AddItem(spec, "45650", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Conqueror
 LBIS:AddItem(spec, "45384", LBIS.L["Legs"], "Alt") --Valorous Aegis Legguards
+LBIS:AddItem(spec, "45650", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Conqueror
 LBIS:AddItem(spec, "45295", LBIS.L["Legs"], "Alt") --Gilded Steel Legplates
 LBIS:AddItem(spec, "45842", LBIS.L["Legs"], "Alt") --Wyrmguard Legplates
 
@@ -105,6 +105,7 @@ LBIS:AddItem(spec, "45947", LBIS.L["Main Hand"], "Alt") --Serilas, Blood Blade o
 LBIS:AddItem(spec, "45463", LBIS.L["Main Hand"], "Alt") --Vulmir, the Northern Tempest
 LBIS:AddItem(spec, "45959", LBIS.L["Main Hand"], "Alt") --Furious Gladiator's Truncheon
 LBIS:AddItem(spec, "45442", LBIS.L["Main Hand"], "Alt") --Sorthalis, Hammer of the Watchers
+LBIS:AddItem(spec, "45876", LBIS.L["Main Hand"], "Alt") --Shiver
 LBIS:AddItem(spec, "45110", LBIS.L["Main Hand"], "Alt") --Titanguard
 
 LBIS:AddItem(spec, "45587", LBIS.L["Off Hand"], "BIS") --Bulwark of Algalon

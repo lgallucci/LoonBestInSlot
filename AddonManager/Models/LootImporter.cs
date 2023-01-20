@@ -338,9 +338,9 @@ public class PvPImporter : LootImporter
         {
             (@"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia", "Furious"),
             (@"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;50", "Furious"),
-            (@"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike", "Deadly, Hateful, Battlemaster"),
-            (@"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;50","Deadly, Hateful, Battlemaster"),
-            (@"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;100","Deadly, Hateful, Battlemaster"),
+            (@"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike", "Deadly, Battlemaster"),
+            (@"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;50","Deadly, Battlemaster"),
+            (@"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;100","Deadly, Battlemaster"),
             (@"https://www.wowhead.com/wotlk/npc=32381/captain-dirgehammer", "Hateful"),
             (@"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord", "Furious"),
             (@"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;50", "Furious"),

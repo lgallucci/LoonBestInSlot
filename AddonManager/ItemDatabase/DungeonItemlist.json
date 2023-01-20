@@ -806,7 +806,7 @@
             "SourceLocation": "The Oculus (Normal)"
         },
         "36975": {
-            "Name": "Unknown Boss' Favor",
+            "Name": "Malygos' Favor",
             "Source": "Ley-Guardian Eregos",
             "SourceType": "Drop",
             "SourceNumber": "0",
@@ -4935,27 +4935,6 @@
             "SourceNumber": "0",
             "SourceLocation": "The Forge of Souls (Heroic)"
         },
-        "40610": {
-            "Name": "Chestguard of the Lost Conqueror",
-            "Source": "Unknown Boss",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
-        },
-        "40611": {
-            "Name": "Chestguard of the Lost Protector",
-            "Source": "Unknown Boss",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
-        },
-        "40612": {
-            "Name": "Chestguard of the Lost Vanquisher",
-            "Source": "Unknown Boss",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
-        },
         "40616": {
             "Name": "Helm of the Lost Conqueror",
             "Source": "Unknown Boss",
@@ -5021,10 +5000,10 @@
         },
         "39139": {
             "Name": "Ravaging Sabatons",
-            "Source": "Unknown Boss",
+            "Source": "Ionar",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Lightning (Heroic+)"
         },
         "39140": {
             "Name": "Knife of Incision",
@@ -5056,10 +5035,10 @@
         },
         "39189": {
             "Name": "Boots of Persistence",
-            "Source": "Unknown Boss",
+            "Source": "General Bjarngrim",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Lightning (Heroic+)"
         },
         "39190": {
             "Name": "Agonal Sash",
@@ -5210,10 +5189,10 @@
         },
         "39231": {
             "Name": "Timeworn Silken Band",
-            "Source": "Unknown Boss",
+            "Source": "Eck the Ferocious",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Gundrak (Heroic+)"
         },
         "39232": {
             "Name": "Pendant of Lost Vocations",
@@ -5336,10 +5315,10 @@
         },
         "39250": {
             "Name": "Ring of Holy Cleansing",
-            "Source": "Unknown Boss",
+            "Source": "Jedoga Shadowseeker",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Ahn'kahet: The Old Kingdom' (Heroic+)"
         },
         "39251": {
             "Name": "Necrogenic Belt",
@@ -5371,10 +5350,10 @@
         },
         "39256": {
             "Name": "Sulfur Stave",
-            "Source": "Unknown Boss",
+            "Source": "Hadronox",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Azjol-Nerub (Heroic+)"
         },
         "39257": {
             "Name": "Loatheb's Shadow",
@@ -5427,10 +5406,10 @@
         },
         "39270": {
             "Name": "Hatestrike",
-            "Source": "Unknown Boss",
+            "Source": "Zuramat the Obliterator",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39271": {
             "Name": "Blade of Dormant Memories",
@@ -5455,10 +5434,10 @@
         },
         "39274": {
             "Name": "Retcher's Shoulderpads",
-            "Source": "Unknown Boss",
+            "Source": "Moragg",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39275": {
             "Name": "Contagion Gloves",
@@ -5475,18 +5454,18 @@
             "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39277": {
-            "Name": "Sealing Ring of Unknown Boss",
-            "Source": "Unknown Boss",
+            "Name": "Sealing Ring of Grobbulus",
+            "Source": "Lavanthor",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39278": {
             "Name": "Bands of Anxiety",
-            "Source": "Unknown Boss",
+            "Source": "Xevozz",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39279": {
             "Name": "Blistered Belt of Decay",
@@ -5511,10 +5490,10 @@
         },
         "39282": {
             "Name": "Bone-Linked Amulet",
-            "Source": "Unknown Boss",
+            "Source": "Zuramat the Obliterator",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39283": {
             "Name": "Putrescent Bands",
@@ -5532,10 +5511,10 @@
         },
         "39285": {
             "Name": "Handgrips of Turmoil",
-            "Source": "Unknown Boss",
+            "Source": "Xevozz",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39291": {
             "Name": "Torment of the Banished",
@@ -5546,10 +5525,10 @@
         },
         "39292": {
             "Name": "Repelling Charge",
-            "Source": "Unknown Boss",
+            "Source": "Moragg",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39293": {
             "Name": "Blackened Legplates of Feugen",
@@ -5637,10 +5616,10 @@
         },
         "39311": {
             "Name": "Scepter of Murmuring Spirits",
-            "Source": "Unknown Boss",
+            "Source": "Mage-Lord Urom",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Oculus (Heroic+)"
         },
         "39344": {
             "Name": "Slayer of the Lifeless",
@@ -5651,10 +5630,10 @@
         },
         "39345": {
             "Name": "Girdle of the Ascended Phantom",
-            "Source": "Unknown Boss",
+            "Source": "Prince Keleseth",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Keep (Heroic+)"
         },
         "39369": {
             "Name": "Sabatons of Deathlike Gloom",
@@ -5770,10 +5749,10 @@
         },
         "39403": {
             "Name": "Helm of the Unsubmissive",
-            "Source": "Unknown Boss",
+            "Source": "Mage-Lord Urom",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Oculus (Heroic+)"
         },
         "39404": {
             "Name": "Cloak of Mastery",
@@ -5797,18 +5776,18 @@
             "SourceLocation": "The Nexus (Heroic+)"
         },
         "39408": {
-            "Name": "Leggings of Unknown Boss",
-            "Source": "Unknown Boss",
+            "Name": "Leggings of Sapphiron",
+            "Source": "Drakos the Interrogator",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Oculus (Heroic+)"
         },
         "39409": {
             "Name": "Cowl of Winged Fear",
-            "Source": "Unknown Boss",
+            "Source": "Varos Cloudstrider",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Oculus (Heroic+)"
         },
         "39415": {
             "Name": "Shroud of the Citadel",
