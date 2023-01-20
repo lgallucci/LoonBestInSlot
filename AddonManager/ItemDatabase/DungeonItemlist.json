@@ -3374,6 +3374,20 @@
             "SourceNumber": "0",
             "SourceLocation": "Utgarde Pinnacle (Heroic)"
         },
+        "44657": {
+            "Name": "Torque of the Red Dragonflight",
+            "Source": "Keristrasza",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Nexus (Heroic+)"
+        },
+        "44658": {
+            "Name": "Chain of the Ancient Wyrm",
+            "Source": "Mal'Ganis",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
+        },
         "44659": {
             "Name": "Pendant of the Dragonsworn",
             "Source": "Sjonnir the Ironshaper",
@@ -5224,87 +5238,87 @@
         },
         "39235": {
             "Name": "Bone-Framed Bracers",
-            "Source": "Unknown Boss",
+            "Source": "Mal'Ganis",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "39236": {
             "Name": "Trespasser's Boots",
-            "Source": "Unknown Boss",
+            "Source": "Novos the Summoner",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Drak'Tharon Keep (Heroic+)"
         },
         "39237": {
             "Name": "Spaulders of Resumed Battle",
-            "Source": "Unknown Boss",
+            "Source": "Novos the Summoner",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Drak'Tharon Keep (Heroic+)"
         },
         "39239": {
             "Name": "Chestplate of the Risen Soldier",
-            "Source": "Unknown Boss",
+            "Source": "King Dred",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Drak'Tharon Keep (Heroic+)"
         },
         "39240": {
             "Name": "Noth's Curse",
-            "Source": "Unknown Boss",
+            "Source": "King Dred",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Drak'Tharon Keep (Heroic+)"
         },
         "39241": {
             "Name": "Dark Shroud of the Scourge",
-            "Source": "Unknown Boss",
+            "Source": "Trollgore",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Drak'Tharon Keep (Heroic+)"
         },
         "39242": {
             "Name": "Robes of Hoarse Breaths",
-            "Source": "Unknown Boss",
+            "Source": "Trollgore",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Drak'Tharon Keep (Heroic+)"
         },
         "39243": {
             "Name": "Handgrips of the Foredoomed",
-            "Source": "Unknown Boss",
+            "Source": "King Dred",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Drak'Tharon Keep (Heroic+)"
         },
         "39244": {
             "Name": "Ring of the Fated",
-            "Source": "Unknown Boss",
+            "Source": "Novos the Summoner",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Drak'Tharon Keep (Heroic+)"
         },
         "39245": {
             "Name": "Demise",
-            "Source": "Unknown Boss",
+            "Source": "Trollgore",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Drak'Tharon Keep (Heroic+)"
         },
         "39246": {
             "Name": "Amulet of Autopsy",
-            "Source": "Unknown Boss",
+            "Source": "Jedoga Shadowseeker",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic+)"
         },
         "39247": {
             "Name": "Cuffs of Dark Shadows",
-            "Source": "Unknown Boss",
+            "Source": "Prince Taldaram",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic+)"
         },
         "39248": {
             "Name": "Tunic of the Lost Pack",
@@ -5315,10 +5329,10 @@
         },
         "39249": {
             "Name": "Shoulderplates of Bloodshed",
-            "Source": "Unknown Boss",
+            "Source": "Elder Nadox",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic+)"
         },
         "39250": {
             "Name": "Ring of Holy Cleansing",
@@ -5329,17 +5343,17 @@
         },
         "39251": {
             "Name": "Necrogenic Belt",
-            "Source": "Unknown Boss",
+            "Source": "Prince Taldaram & Amanitar",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic+)"
         },
         "39252": {
             "Name": "Preceptor's Bindings",
-            "Source": "Unknown Boss",
+            "Source": "Hadronox",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Azjol-Nerub (Heroic+)"
         },
         "39254": {
             "Name": "Saltarello Shoes",
@@ -5350,10 +5364,10 @@
         },
         "39255": {
             "Name": "Staff of the Plague Beast",
-            "Source": "Unknown Boss",
+            "Source": "Elder Nadox",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic+)"
         },
         "39256": {
             "Name": "Sulfur Stave",
@@ -5363,39 +5377,39 @@
             "SourceLocation": "Unknown (Heroic+)"
         },
         "39257": {
-            "Name": "Unknown Boss's Shadow",
-            "Source": "Unknown Boss",
+            "Name": "Loatheb's Shadow",
+            "Source": "Krik'thir the Gatewatcher",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Azjol-Nerub (Heroic+)"
         },
         "39258": {
             "Name": "Legplates of Inescapable Death",
-            "Source": "Unknown Boss",
+            "Source": "Jedoga Shadowseeker",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic+)"
         },
         "39259": {
             "Name": "Fungi-Stained Coverings",
-            "Source": "Unknown Boss",
+            "Source": "Krik'thir the Gatewatcher",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Azjol-Nerub (Heroic+)"
         },
         "39260": {
             "Name": "Helm of the Corrupted Mind",
-            "Source": "Unknown Boss",
+            "Source": "Prince Taldaram & Amanitar",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic+)"
         },
         "39261": {
             "Name": "Tainted Girdle of Mending",
-            "Source": "Unknown Boss",
+            "Source": "Hadronox",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Azjol-Nerub (Heroic+)"
         },
         "39262": {
             "Name": "Gauntlets of Combined Strength",
@@ -5406,10 +5420,10 @@
         },
         "39267": {
             "Name": "Abomination Shoulderblades",
-            "Source": "Unknown Boss",
+            "Source": "Krik'thir the Gatewatcher",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Azjol-Nerub (Heroic+)"
         },
         "39270": {
             "Name": "Hatestrike",
@@ -5420,24 +5434,24 @@
         },
         "39271": {
             "Name": "Blade of Dormant Memories",
-            "Source": "Unknown Boss",
+            "Source": "Lavanthor",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39272": {
             "Name": "Drape of Surgery",
-            "Source": "Unknown Boss",
+            "Source": "Xevozz",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39273": {
             "Name": "Sullen Cloth Boots",
-            "Source": "Unknown Boss",
+            "Source": "Ichoron",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39274": {
             "Name": "Retcher's Shoulderpads",
@@ -5448,17 +5462,17 @@
         },
         "39275": {
             "Name": "Contagion Gloves",
-            "Source": "Unknown Boss",
+            "Source": "Erekem",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39276": {
             "Name": "The Skull of Ruin",
-            "Source": "Unknown Boss",
+            "Source": "Zuramat the Obliterator",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39277": {
             "Name": "Sealing Ring of Unknown Boss",
@@ -5476,24 +5490,24 @@
         },
         "39279": {
             "Name": "Blistered Belt of Decay",
-            "Source": "Unknown Boss",
+            "Source": "Ichoron",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39280": {
             "Name": "Leggings of Innumerable Barbs",
-            "Source": "Unknown Boss",
+            "Source": "Moragg",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39281": {
             "Name": "Infection Repulser",
-            "Source": "Unknown Boss",
+            "Source": "Erekem",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39282": {
             "Name": "Bone-Linked Amulet",
@@ -5525,10 +5539,10 @@
         },
         "39291": {
             "Name": "Torment of the Banished",
-            "Source": "Unknown Boss",
+            "Source": "Cyanigosa",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39292": {
             "Name": "Repelling Charge",
@@ -5539,10 +5553,10 @@
         },
         "39293": {
             "Name": "Blackened Legplates of Feugen",
-            "Source": "Unknown Boss",
+            "Source": "Erekem",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39294": {
             "Name": "Arc-Scorched Helmet",
@@ -5588,17 +5602,17 @@
         },
         "39306": {
             "Name": "Plated Gloves of Relief",
-            "Source": "Unknown Boss",
+            "Source": "Keristrasza",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Nexus (Heroic+)"
         },
         "39307": {
             "Name": "Iron Rings of Endurance",
-            "Source": "Unknown Boss",
+            "Source": "Lavanthor",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39308": {
             "Name": "Girdle of Lenience",
@@ -5609,17 +5623,17 @@
         },
         "39309": {
             "Name": "Leggings of the Instructor",
-            "Source": "Unknown Boss",
+            "Source": "Skarvald the Constructor & Dalronn the Controller",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Keep (Heroic+)"
         },
         "39310": {
             "Name": "Mantle of the Extensive Mind",
-            "Source": "Unknown Boss",
+            "Source": "Eregos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Oculus (Heroic+)"
         },
         "39311": {
             "Name": "Scepter of Murmuring Spirits",
@@ -5630,10 +5644,10 @@
         },
         "39344": {
             "Name": "Slayer of the Lifeless",
-            "Source": "Unknown Boss",
+            "Source": "Skarvald the Constructor & Dalronn the Controller",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Keep (Heroic+)"
         },
         "39345": {
             "Name": "Girdle of the Ascended Phantom",
@@ -5644,59 +5658,59 @@
         },
         "39369": {
             "Name": "Sabatons of Deathlike Gloom",
-            "Source": "Unknown Boss",
+            "Source": "Skarvald the Constructor & Dalronn the Controller",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Keep (Heroic+)"
         },
         "39379": {
             "Name": "Spectral Rider's Girdle",
-            "Source": "Unknown Boss",
+            "Source": "Prince Keleseth",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Keep (Heroic+)"
         },
         "39386": {
             "Name": "Tunic of Dislocation",
-            "Source": "Unknown Boss",
+            "Source": "Anomalus",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Nexus (Heroic+)"
         },
         "39388": {
             "Name": "Spirit-World Glass",
-            "Source": "Unknown Boss",
+            "Source": "Grand Magus Telestra",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Nexus (Heroic+)"
         },
         "39389": {
             "Name": "Signet of the Malevolent",
-            "Source": "Unknown Boss",
+            "Source": "Ormorok the Tree-Shaper",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Nexus (Heroic+)"
         },
         "39390": {
             "Name": "Resurgent Phantom Bindings",
-            "Source": "Unknown Boss",
+            "Source": "Commander Kolurg & Commander Stoutbeard",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Nexus (Heroic+)"
         },
         "39391": {
             "Name": "Heinous Mail Chestguard",
-            "Source": "Unknown Boss",
+            "Source": "Ormorok the Tree-Shaper",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Nexus (Heroic+)"
         },
         "39392": {
             "Name": "Veiled Amulet of Life",
-            "Source": "Unknown Boss",
+            "Source": "Prince Keleseth",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Keep (Heroic+)"
         },
         "39393": {
             "Name": "Claymore of Ancient Power",
@@ -5707,17 +5721,17 @@
         },
         "39394": {
             "Name": "Charmed Cierge",
-            "Source": "Unknown Boss",
+            "Source": "Commander Kolurg & Commander Stoutbeard",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Nexus (Heroic+)"
         },
         "39395": {
             "Name": "Thane's Tainted Greathelm",
-            "Source": "Unknown Boss",
+            "Source": "Ormorok the Tree-Shaper",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Nexus (Heroic+)"
         },
         "39396": {
             "Name": "Gown of Blaumeux",
@@ -5728,31 +5742,31 @@
         },
         "39397": {
             "Name": "Pauldrons of Havoc",
-            "Source": "Unknown Boss",
+            "Source": "Grand Magus Telestra",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Nexus (Heroic+)"
         },
         "39398": {
             "Name": "Massive Skeletal Ribcage",
-            "Source": "Unknown Boss",
+            "Source": "Commander Kolurg & Commander Stoutbeard",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Nexus (Heroic+)"
         },
         "39399": {
             "Name": "Helm of the Vast Legions",
-            "Source": "Unknown Boss",
+            "Source": "Drakos the Interrogator",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Oculus (Heroic+)"
         },
         "39401": {
             "Name": "Circle of Death",
-            "Source": "Unknown Boss",
+            "Source": "Varos Cloudstrider",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Oculus (Heroic+)"
         },
         "39403": {
             "Name": "Helm of the Unsubmissive",
@@ -5763,24 +5777,24 @@
         },
         "39404": {
             "Name": "Cloak of Mastery",
-            "Source": "Unknown Boss",
+            "Source": "Drakos the Interrogator",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Oculus (Heroic+)"
         },
         "39405": {
             "Name": "Helmet of the Inner Sanctum",
-            "Source": "Unknown Boss",
+            "Source": "Varos Cloudstrider",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Oculus (Heroic+)"
         },
         "39407": {
             "Name": "Circle of Life",
-            "Source": "Unknown Boss",
+            "Source": "Anomalus",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Nexus (Heroic+)"
         },
         "39408": {
             "Name": "Leggings of Unknown Boss",
@@ -5798,38 +5812,38 @@
         },
         "39415": {
             "Name": "Shroud of the Citadel",
-            "Source": "Unknown Boss",
+            "Source": "Mage-Lord Urom",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Oculus (Heroic+)"
         },
         "39416": {
-            "Name": "Unknown Boss's Reach",
-            "Source": "Unknown Boss",
+            "Name": "Kel'Thuzad's Reach",
+            "Source": "The Prophet Tharon'ja",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Drak'Tharon Keep (Heroic+)"
         },
         "39417": {
             "Name": "Death's Bite",
-            "Source": "Unknown Boss",
+            "Source": "Herald Volazj",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic+)"
         },
         "39419": {
             "Name": "Nerubian Conquerer",
-            "Source": "Unknown Boss",
+            "Source": "Anub'arak",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Azjol-Nerub (Heroic+)"
         },
         "39420": {
             "Name": "Anarchy",
-            "Source": "Unknown Boss",
+            "Source": "Cyanigosa",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39421": {
             "Name": "Gem of Imprisoned Vassals",
@@ -5840,10 +5854,10 @@
         },
         "39422": {
             "Name": "Staff of the Plaguehound",
-            "Source": "Unknown Boss",
+            "Source": "Keristrasza",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Nexus (Heroic+)"
         },
         "39423": {
             "Name": "Hammer of the Astral Plane",
@@ -5854,10 +5868,10 @@
         },
         "39424": {
             "Name": "The Soulblade",
-            "Source": "Unknown Boss",
+            "Source": "Ingvar the Plunderer",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Keep (Heroic+)"
         },
         "39425": {
             "Name": "Cloak of the Dying",
@@ -5868,17 +5882,17 @@
         },
         "39426": {
             "Name": "Wand of the Archlich",
-            "Source": "Unknown Boss",
+            "Source": "Cyanigosa",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "39427": {
             "Name": "Omen of Ruin",
-            "Source": "Unknown Boss",
+            "Source": "Infinite Corruptor",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "39467": {
             "Name": "Minion Bracers",
@@ -5889,10 +5903,10 @@
         },
         "39468": {
             "Name": "The Stray",
-            "Source": "Unknown Boss",
+            "Source": "Infinite Corruptor",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "39470": {
             "Name": "Medallion of the Disgraced",
@@ -5910,10 +5924,10 @@
         },
         "39473": {
             "Name": "Contortion",
-            "Source": "Unknown Boss",
+            "Source": "Infinite Corruptor",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "40426": {
             "Name": "Signet of the Accord",
@@ -5924,17 +5938,17 @@
         },
         "40427": {
             "Name": "Circle of Arcane Streams",
-            "Source": "Unknown Boss",
+            "Source": "Chrono-Lord Epoch",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "40428": {
             "Name": "Titan's Outlook",
-            "Source": "Unknown Boss",
+            "Source": "Salramm the Fleshcrafter",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "40429": {
             "Name": "Crimson Steel",
@@ -6001,10 +6015,10 @@
         },
         "43989": {
             "Name": "Remembrance Girdle",
-            "Source": "Unknown Boss",
+            "Source": "Salramm the Fleshcrafter",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "43990": {
             "Name": "Blade-Scarred Tunic",
@@ -6015,10 +6029,10 @@
         },
         "43991": {
             "Name": "Legguards of Composure",
-            "Source": "Unknown Boss",
+            "Source": "Salramm the Fleshcrafter",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "43992": {
             "Name": "Volitant Amulet",
@@ -6036,17 +6050,17 @@
         },
         "43994": {
             "Name": "Belabored Legplates",
-            "Source": "Unknown Boss",
+            "Source": "Anub'arak",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Azjol-Nerub (Heroic+)"
         },
         "43995": {
             "Name": "Enamored Cowl",
-            "Source": "Unknown Boss",
+            "Source": "The Prophet Tharon'ja",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Drak'Tharon Keep (Heroic+)"
         },
         "43996": {
             "Name": "Sabatons of Firmament",
@@ -6057,31 +6071,31 @@
         },
         "43998": {
             "Name": "Chestguard of Flagrant Prowess",
-            "Source": "Unknown Boss",
+            "Source": "Herald Volazj",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic+)"
         },
         "40474": {
             "Name": "Surge Needle Ring",
-            "Source": "Unknown Boss",
+            "Source": "Ingvar the Plunderer",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Keep (Heroic+)"
         },
         "40475": {
             "Name": "Barricade of Eternity",
-            "Source": "Unknown Boss",
+            "Source": "Mal'Ganis",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "40486": {
             "Name": "Necklace of the Glittering Chamber",
-            "Source": "Unknown Boss",
+            "Source": "Herald Volazj",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic+)"
         },
         "40488": {
             "Name": "Ice Spire Scepter",
@@ -6113,17 +6127,17 @@
         },
         "40511": {
             "Name": "Focusing Energy Epaulets",
-            "Source": "Unknown Boss",
+            "Source": "Cyanigosa",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Violet Hold (Heroic+)"
         },
         "40519": {
-            "Name": "Footsteps of Unknown Boss",
-            "Source": "Unknown Boss",
+            "Name": "Footsteps of Malygos",
+            "Source": "Ingvar the Plunderer",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Keep (Heroic+)"
         },
         "40526": {
             "Name": "Gown of the Spell-Weaver",
