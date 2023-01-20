@@ -33,6 +33,10 @@ public static class WowheadImporter
         }
     }
 
+    private static List<string> _allowedSlots = new List<string>()
+    { "Head", "Shoulder", "Back", "Chest", "Wrist", "Hands", "Waist", "Legs", "Feet", "Neck", "Ring",
+    "Trinket", "Main Hand", "Off Hand", "Main Hand/Off Hand", "Two Hand", "Ranged/Relic"};
+
     public static bool VerifyGuide(Dictionary<int, ItemSpec> items)
     {
         bool verificationSucceeded = true;
@@ -41,19 +45,25 @@ public static class WowheadImporter
 
         foreach (var item in items)
         {
-            var firstWord = true;
-            foreach (var bisWord in item.Value.BisStatus.Split(" "))
+            if (!_allowedSlots.Contains(item.Value.Slot))
+                throw new VerificationException($"Item ({item.Value.Name}) created with slot ({item.Value.Slot})");
+
+            foreach (var bisSlashSplit in item.Value.BisStatus.Split("/"))
             {
-                if (firstWord)
+                var firstWord = true;
+                foreach (var bisWord in bisSlashSplit.Split(" "))
                 {
-                    if (bisWord != null && !requiredWords.Any((w) => w == bisWord))
-                        throw new VerificationException($"Spec ({item.Value.Name}) created with word ({bisWord})");
-                    firstWord = false;
-                }
-                else
-                {
-                    if (bisWord != null && !allowableWords.Any((w) => w == bisWord))
-                        throw new VerificationException($"Spec ({item.Value.Name}) created with word ({bisWord})");
+                    if (firstWord)
+                    {
+                        if (bisWord != null && !requiredWords.Any((w) => w == bisWord))
+                            throw new VerificationException($"Item ({item.Value.Name}) created with word ({bisWord})");
+                        firstWord = false;
+                    }
+                    else
+                    {
+                        if (bisWord != null && !allowableWords.Any((w) => w == bisWord))
+                            throw new VerificationException($"Item ({item.Value.Name}) created with word ({bisWord})");
+                    }
                 }
             }
         }
@@ -101,20 +111,20 @@ public static class WowheadImporter
                     }
                     //else if (!oldItems.ContainsKey(item.Value.ItemId) || oldItems[item.Value.ItemId].BisStatus.Contains("BIS") || item.Value.BisStatus.Contains("BIS"))
                     //{
-                        if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
+                    if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
+                    {
+                        itemSources.Add(item.Value.ItemId, new ItemSource
                         {
-                            itemSources.Add(item.Value.ItemId, new ItemSource
-                            {
-                                ItemId = item.Value.ItemId,
-                                Name = item.Value.Name,
-                                SourceType = "unknown",
-                                Source = "unknown",
-                                SourceNumber = "0",
-                                SourceLocation = "unknown"
-                            });
-                        }
+                            ItemId = item.Value.ItemId,
+                            Name = item.Value.Name,
+                            SourceType = "unknown",
+                            Source = "unknown",
+                            SourceNumber = "0",
+                            SourceLocation = "unknown"
+                        });
+                    }
 
-                        sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
+                    sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
                     //}
                     //else
                     //{
@@ -268,7 +278,7 @@ public static class WowheadImporter
 
         foreach (var item in dbItem.Items)
         {
-            var ids = item.Value.SourceNumber.Split(",");            
+            var ids = item.Value.SourceNumber.Split(",");
             var itemId = Int32.Parse(ids[0]);
             int spellId = 0;
             if (ids.Length > 1)
