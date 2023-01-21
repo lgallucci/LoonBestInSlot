@@ -4,7 +4,6 @@ if GetLocale() == "koKR" then
   LBIS.L["A Wing and a Prayer"] = "기도는 날개를 타고";
   LBIS.L["Accessories Quartermaster"] = "보급품 병참장교";
   LBIS.L["Affliction"] = "고통";
---  LBIS.L["Agalon the Observer"] = "";
   LBIS.L["Ahn'kahet: The Old Kingdom (Heroic)"] = "안카헤트: 고대 왕국 (영웅)";
   LBIS.L["Ahn'kahet: The Old Kingdom (Heroic+)"] = "안카헤트: 고대 왕국 (영웅+)";
   LBIS.L["Alchemy"] = "연금술";
@@ -282,12 +281,10 @@ if GetLocale() == "koKR" then
   LBIS.L["Show Custom"] = "커스텀 보이기";
   LBIS.L["Show Minimap Button"] = "미니맵 버튼 보이기";
   LBIS.L["Show Tooltip"] = "직업 툴팁 표시";
---  LBIS.L["Sjonnir the Ironshaper"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "무쇠구체자 쇼니르";
   LBIS.L["Skadi the Ruthless"] = "학살자 스카디";
   LBIS.L["Skarvald the Constructor"] = "건축가 스카발드";
   LBIS.L["Slad'ran"] = "슬라드란";
---  LBIS.L["Slad'ran'"] = "";
   LBIS.L["Spirit Shards"] = "유령의 조각";
   LBIS.L["Subtlety"] = "잠행";
   LBIS.L["Sunfury Researcher"] = "성난태양 연구원";

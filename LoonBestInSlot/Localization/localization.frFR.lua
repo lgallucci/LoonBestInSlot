@@ -4,7 +4,6 @@ if GetLocale() == "frFR" then
   LBIS.L["A Wing and a Prayer"] = "Une petite chance de réussir";
 --  LBIS.L["Accessories Quartermaster"] = "";
   LBIS.L["Affliction"] = "Affliction";
---  LBIS.L["Agalon the Observer"] = "";
   LBIS.L["Ahn'kahet: The Old Kingdom (Heroic)"] = "Ahn’kahet : l’Ancien royaume (Héroïque)";
   LBIS.L["Ahn'kahet: The Old Kingdom (Heroic+)"] = "Ahn’kahet : l’Ancien royaume (Héroïque+)";
   LBIS.L["Alchemy"] = "Alchimie";
@@ -282,12 +281,10 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
---  LBIS.L["Sjonnir the Ironshaper"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "Sjonnir le Sculptefer";
   LBIS.L["Skadi the Ruthless"] = "Skadi le Brutal";
   LBIS.L["Skarvald the Constructor"] = "Skarvald le Constructeur";
   LBIS.L["Slad'ran"] = "Slad'ran";
---  LBIS.L["Slad'ran'"] = "";
 --  LBIS.L["Spirit Shards"] = "";
   LBIS.L["Subtlety"] = "Finesse";
 --  LBIS.L["Sunfury Researcher"] = "";

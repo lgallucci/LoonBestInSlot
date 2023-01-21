@@ -1774,7 +1774,7 @@ LBIS.ItemSources =
     [45594] = { Name = "Legplates of the Endless Void", SourceType = LBIS.L["Drop"], Source = LBIS.L["Algalon the Observer"], SourceNumber = "0", SourceLocation = LBIS.L["Ulduar (25)"] },
     [45599] = { Name = "Sabatons of Lifeless Night", SourceType = LBIS.L["Drop"], Source = LBIS.L["Algalon the Observer"], SourceNumber = "0", SourceLocation = LBIS.L["Ulduar (25)"] },
     [45605] = { Name = "Daschal's Bite", SourceType = LBIS.L["Drop"], Source = LBIS.L["Trash Mobs"], SourceNumber = "0", SourceLocation = LBIS.L["Ulduar (25)"] },
-    [45607] = { Name = "Fang of Oblivion", SourceType = LBIS.L["Drop"], Source = LBIS.L["Agalon the Observer"].." & "..LBIS.L["The Iron Council (Hard)"], SourceNumber = "0", SourceLocation = LBIS.L["Ulduar (25)"] },
+    [45607] = { Name = "Fang of Oblivion", SourceType = LBIS.L["Drop"], Source = LBIS.L["Algalon the Observer"].." & "..LBIS.L["The Iron Council (Hard)"], SourceNumber = "0", SourceLocation = LBIS.L["Ulduar (25)"] },
     [45608] = { Name = "Brann's Signet Ring", SourceType = LBIS.L["Drop"], Source = LBIS.L["Algalon the Observer"], SourceNumber = "0", SourceLocation = LBIS.L["Ulduar (25)"] },
     [45609] = { Name = "Comet's Trail", SourceType = LBIS.L["Drop"], Source = LBIS.L["Algalon the Observer"], SourceNumber = "0", SourceLocation = LBIS.L["Ulduar (25)"] },
     [45610] = { Name = "Boundless Gaze", SourceType = LBIS.L["Drop"], Source = LBIS.L["Algalon the Observer"], SourceNumber = "0", SourceLocation = LBIS.L["Ulduar (25)"] },

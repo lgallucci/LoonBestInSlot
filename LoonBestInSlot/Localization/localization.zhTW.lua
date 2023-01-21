@@ -4,7 +4,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["A Wing and a Prayer"] = "飛翼與祈禱";
 --  LBIS.L["Accessories Quartermaster"] = "";
 --  LBIS.L["Affliction"] = "";
---  LBIS.L["Agalon the Observer"] = "";
   LBIS.L["Ahn'kahet: The Old Kingdom (Heroic)"] = "安卡罕特：古王國 (英雄)";
   LBIS.L["Ahn'kahet: The Old Kingdom (Heroic+)"] = "安卡罕特：古王國 (英雄+)";
   LBIS.L["Alchemy"] = "鍊金術";
@@ -282,12 +281,10 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
---  LBIS.L["Sjonnir the Ironshaper"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "『塑鐵者』斯雍尼爾";
   LBIS.L["Skadi the Ruthless"] = "無情的斯卡迪";
   LBIS.L["Skarvald the Constructor"] = "『建造者』史卡沃";
   LBIS.L["Slad'ran"] = "史拉德銳";
---  LBIS.L["Slad'ran'"] = "";
 --  LBIS.L["Spirit Shards"] = "";
   LBIS.L["Subtlety"] = "敏銳";
 --  LBIS.L["Sunfury Researcher"] = "";

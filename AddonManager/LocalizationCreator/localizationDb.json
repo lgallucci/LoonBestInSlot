@@ -762,6 +762,7 @@
       "Halls of Stone (Heroic)": "Die Hallen des Steins (Heroisch)",
       "Halls of Stone (Normal)": "Die Hallen des Steins (Normal)",
       "Hands": "Hände",
+      "Hard": "Schwierig",
       "Head": "Kopf",
       "Head Games": "Psychospielchen",
       "Headless Horseman": "Der kopflose Reiter",
@@ -1033,7 +1034,16 @@
       "The Oculus (Heroic+)": "Das Oculus (Heroisch+)",
       "The Violet Hold (Heroic+)": "Die Violette Festung (Heroisch+)",
       "Utgarde Keep (Heroic+)": "Burg Utgarde (Heroisch+)",
-      "Utgarde Pinnacle (Heroic+)": "Turm Utgarde (Heroisch+)"
+      "Utgarde Pinnacle (Heroic+)": "Turm Utgarde (Heroisch+)",
+      "Flame Leviathan (Hard)": "Flammenleviathan (Schwierig)",
+      "Freya (Hard)": "Freya (Schwierig)",
+      "General Vezax (Hard)": "General Vezax (Schwierig)",
+      "Hodir (Hard)": "Hodir (Schwierig)",
+      "Mimiron (Hard)": "Mimiron (Schwierig)",
+      "The Iron Council (Hard)": "Versammlung des Eisens (Schwierig)",
+      "Thorim (Hard)": "Thorim (Schwierig)",
+      "XT-002 Deconstructor (Hard)": "XT-002 Dekonstruktor (Schwierig)",
+      "Yogg-Saron (Hard)": "Yogg-Saron (Schwierig)"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",

@@ -4,7 +4,6 @@ if GetLocale() == "deDE" then
   LBIS.L["A Wing and a Prayer"] = "Schlacht in den Wolken";
   LBIS.L["Accessories Quartermaster"] = "Rüstmeister für Offizierszubehör";
   LBIS.L["Affliction"] = "Gebrechen";
---  LBIS.L["Agalon the Observer"] = "";
   LBIS.L["Ahn'kahet: The Old Kingdom (Heroic)"] = "Ahn'kahet: Das Alte Königreich (Heroisch)";
   LBIS.L["Ahn'kahet: The Old Kingdom (Heroic+)"] = "Ahn'kahet: Das Alte Königreich (Heroisch+)";
   LBIS.L["Alchemy"] = "Alchemie";
@@ -107,11 +106,11 @@ if GetLocale() == "deDE" then
   LBIS.L["Fire"] = "Feuer";
   LBIS.L["Fishing"] = "Angeln";
   LBIS.L["Flame Leviathan"] = "Flammenleviathan";
---  LBIS.L["Flame Leviathan (Hard)"] = "Flammenleviathan";
+  LBIS.L["Flame Leviathan (Hard)"] = "Flammenleviathan (Schwierig)";
   LBIS.L["For Posterity"] = "Für die Nachwelt";
   LBIS.L["Frenzyheart Tribe"] = "Stamm der Wildherzen";
   LBIS.L["Freya"] = "Freya";
---  LBIS.L["Freya (Hard)"] = "Freya";
+  LBIS.L["Freya (Hard)"] = "Freya (Schwierig)";
   LBIS.L["Frost"] = "Frost";
   LBIS.L["Fury"] = "Furor";
   LBIS.L["Gal'darah"] = "Gal'darah";
@@ -120,7 +119,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Gems"] = "Edelsteine";
   LBIS.L["General Bjarngrim"] = "General Bjarngrim";
   LBIS.L["General Vezax"] = "General Vezax";
---  LBIS.L["General Vezax (Hard)"] = "General Vezax";
+  LBIS.L["General Vezax (Hard)"] = "General Vezax (Schwierig)";
   LBIS.L["Get Me Outa Here!"] = "Holt mich hier raus!";
   LBIS.L["Gluth"] = "Gluth";
   LBIS.L["Gortok Palehoof"] = "Gortok Bleichhuf";
@@ -156,7 +155,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Herald Volazj"] = "Herold Volazj";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "Heroische Entscheidung im Auge der Ewigkeit";
   LBIS.L["Hodir"] = "Hodir";
---  LBIS.L["Hodir (Hard)"] = "Hodir";
+  LBIS.L["Hodir (Hard)"] = "Hodir (Schwierig)";
   LBIS.L["Holy"] = "Heilig";
   LBIS.L["Honor Points"] = "Ehrenpunkte";
   LBIS.L["Honored"] = "Wohlwollend";
@@ -217,7 +216,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Master Leatherworking Trainer"] = "Lederverarbeitungsmeisterlehrer";
   LBIS.L["Meathook"] = "Fleischhaken";
   LBIS.L["Mimiron"] = "Mimiron";
---  LBIS.L["Mimiron (Hard)"] = "Mimiron";
+  LBIS.L["Mimiron (Hard)"] = "Mimiron (Schwierig)";
   LBIS.L["Moorabi"] = "Moorabi";
   LBIS.L["Moragg"] = "Moragg";
   LBIS.L["Moroes"] = "Moroes";
@@ -282,12 +281,10 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Show Custom"] = "";
   LBIS.L["Show Minimap Button"] = "Schaltfläche Minikarte anzeigen";
   LBIS.L["Show Tooltip"] = "Kurzinfo anzeigen";
---  LBIS.L["Sjonnir the Ironshaper"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "Sjonnir der Eisenformer";
   LBIS.L["Skadi the Ruthless"] = "Skadi der Skrupellose";
   LBIS.L["Skarvald the Constructor"] = "Skarvald der Konstrukteur";
   LBIS.L["Slad'ran"] = "Slad'ran";
---  LBIS.L["Slad'ran'"] = "";
   LBIS.L["Spirit Shards"] = "Geistersplitter";
   LBIS.L["Subtlety"] = "Täuschung";
   LBIS.L["Sunfury Researcher"] = "Forscher des Sonnenzorns";
@@ -314,7 +311,7 @@ if GetLocale() == "deDE" then
   LBIS.L["The Four Horsemen"] = "Die Vier Reiter";
   LBIS.L["The Gifts of Loken"] = "Lokens Gaben";
   LBIS.L["The Iron Council"] = "Versammlung des Eisens";
---  LBIS.L["The Iron Council (Hard)"] = "Versammlung des Eisens";
+  LBIS.L["The Iron Council (Hard)"] = "Versammlung des Eisens (Schwierig)";
   LBIS.L["The Kalu'ak"] = "Die Kalu'ak";
   LBIS.L["The Last Line Of Defense"] = "Die letzte Verteidigungslinie";
   LBIS.L["The Nexus (Heroic)"] = "Der Nexus (Heroisch)";
@@ -346,7 +343,7 @@ if GetLocale() == "deDE" then
   LBIS.L["The Wyrmrest Accord (Revered)"] = "Der Wyrmruhpakt (Respektvoll)";
   LBIS.L["They Took Our Men!"] = "Sie haben unsere Männer!";
   LBIS.L["Thorim"] = "Thorim";
---  LBIS.L["Thorim (Hard)"] = "Thorim";
+  LBIS.L["Thorim (Hard)"] = "Thorim (Schwierig)";
 --  LBIS.L["Tiffany Cartier"] = "";
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
@@ -393,9 +390,9 @@ if GetLocale() == "deDE" then
   LBIS.L["Wrist"] = "Handgelenke";
   LBIS.L["Xevozz"] = "Xevozz";
   LBIS.L["XT-002 Deconstructor"] = "XT-002 Dekonstruktor";
---  LBIS.L["XT-002 Deconstructor (Hard)"] = "XT-002 Dekonstruktor";
+  LBIS.L["XT-002 Deconstructor (Hard)"] = "XT-002 Dekonstruktor (Schwierig)";
   LBIS.L["Yogg-Saron"] = "Yogg-Saron";
---  LBIS.L["Yogg-Saron (Hard)"] = "Yogg-Saron";
+  LBIS.L["Yogg-Saron (Hard)"] = "Yogg-Saron (Schwierig)";
   LBIS.L["Zul'Drak"] = "Zul'Drak";
   LBIS.L["Zuramat the Obliterator"] = "Zuramat der Vernichter";
 end
