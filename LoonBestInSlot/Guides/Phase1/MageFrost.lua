@@ -1,23 +1,17 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Frost"], "1")
 
 LBIS:AddItem(spec, "40416", LBIS.L["Head"], "BIS") --Valorous Frostfire Circlet
-LBIS:AddItem(spec, "40633", LBIS.L["Head"], "BIS") --Crown of the Lost Vanquisher
 LBIS:AddItem(spec, "40562", LBIS.L["Head"], "Alt") --Hood of Rationality
 LBIS:AddItem(spec, "39491", LBIS.L["Head"], "Alt") --Heroes' Frostfire Circlet
-LBIS:AddItem(spec, "40618", LBIS.L["Head"], "Alt") --Helm of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40419", LBIS.L["Shoulder"], "BIS") --Valorous Frostfire Shoulderpads
-LBIS:AddItem(spec, "40639", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Vanquisher
 LBIS:AddItem(spec, "39494", LBIS.L["Shoulder"], "Alt") --Heroes' Frostfire Shoulderpads
-LBIS:AddItem(spec, "40624", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Vanquisher
 
 LBIS:AddItem(spec, "44005", LBIS.L["Back"], "BIS") --Pennant Cloak
 LBIS:AddItem(spec, "40723", LBIS.L["Back"], "Alt") --Disguise of the Kumiho
 LBIS:AddItem(spec, "41610", LBIS.L["Back"], "Alt") --Deathchill Cloak
 
 LBIS:AddItem(spec, "40418", LBIS.L["Chest"], "BIS") --Valorous Frostfire Robe
-LBIS:AddItem(spec, "40627", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Vanquisher
-LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Vanquisher
 LBIS:AddItem(spec, "39492", LBIS.L["Chest"], "Alt") --Heroes' Frostfire Robe
 LBIS:AddItem(spec, "44002", LBIS.L["Chest"], "Alt") --The Sanctum's Flowing Vestments
 
@@ -25,9 +19,7 @@ LBIS:AddItem(spec, "44008", LBIS.L["Wrist"], "BIS") --Unsullied Cuffs
 LBIS:AddItem(spec, "40325", LBIS.L["Wrist"], "Alt") --Bindings of the Expansive Mind
 
 LBIS:AddItem(spec, "40415", LBIS.L["Hands"], "BIS") --Valorous Frostfire Gloves
-LBIS:AddItem(spec, "40630", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Vanquisher
 LBIS:AddItem(spec, "39495", LBIS.L["Hands"], "Alt") --Heroes' Frostfire Gloves
-LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "Alt") --Gloves of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40561", LBIS.L["Waist"], "BIS") --Leash of Heedless Magic
 LBIS:AddItem(spec, "40301", LBIS.L["Waist"], "BIS") --Cincture of Polarity
@@ -35,8 +27,6 @@ LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "Alt") --Plush Sash of Guzbah
 
 LBIS:AddItem(spec, "40560", LBIS.L["Legs"], "BIS") --Leggings of the Wanton Spellcaster
 LBIS:AddItem(spec, "40417", LBIS.L["Legs"], "Alt") --Valorous Frostfire Leggings
-LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "Alt") --Legplates of the Lost Vanquisher
-LBIS:AddItem(spec, "40621", LBIS.L["Legs"], "Alt") --Leggings of the Lost Vanquisher
 LBIS:AddItem(spec, "39493", LBIS.L["Legs"], "Alt") --Heroes' Frostfire Leggings
 
 LBIS:AddItem(spec, "40558", LBIS.L["Feet"], "BIS") --Arcanic Tramplers

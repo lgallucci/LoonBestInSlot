@@ -9,9 +9,7 @@ LBIS:AddItem(spec, "39240", LBIS.L["Head"], "Alt") --Noth's Curse
 LBIS:AddItem(spec, "39719", LBIS.L["Shoulder"], "BIS") --Mantle of the Locusts
 LBIS:AddItem(spec, "40063", LBIS.L["Shoulder"], "BIS") --Mantle of Shattered Kinship
 LBIS:AddItem(spec, "40470", LBIS.L["Shoulder"], "Alt") --Valorous Dreamwalker Mantle
-LBIS:AddItem(spec, "40639", LBIS.L["Shoulder"], "Alt") --Mantle of the Lost Vanquisher
 LBIS:AddItem(spec, "39548", LBIS.L["Shoulder"], "Alt") --Heroes' Dreamwalker Mantle
-LBIS:AddItem(spec, "40624", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Vanquisher
 LBIS:AddItem(spec, "40465", LBIS.L["Shoulder"], "Alt") --Valorous Dreamwalker Spaulders
 LBIS:AddItem(spec, "39542", LBIS.L["Shoulder"], "Alt") --Heroes' Dreamwalker Spaulders
 LBIS:AddItem(spec, "39310", LBIS.L["Shoulder"], "Alt") --Mantle of the Extensive Mind
@@ -25,12 +23,10 @@ LBIS:AddItem(spec, "41609", LBIS.L["Back"], "Alt") --Wispcloak
 LBIS:AddItem(spec, "44002", LBIS.L["Chest"], "BIS") --The Sanctum's Flowing Vestments
 LBIS:AddItem(spec, "40381", LBIS.L["Chest"], "BIS") --Sympathy
 LBIS:AddItem(spec, "40463", LBIS.L["Chest"], "Alt") --Valorous Dreamwalker Robe
-LBIS:AddItem(spec, "40627", LBIS.L["Chest"], "Alt") --Breastplate of the Lost Vanquisher
 LBIS:AddItem(spec, "42102", LBIS.L["Chest"], "Alt") --Spellweave Robe
 LBIS:AddItem(spec, "39756", LBIS.L["Chest"], "Alt") --Tunic of Prejudice
 LBIS:AddItem(spec, "40194", LBIS.L["Chest"], "Alt") --Blanketing Robes of Snow
 LBIS:AddItem(spec, "39538", LBIS.L["Chest"], "Alt") --Heroes' Dreamwalker Robe
-LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Vanquisher
 
 LBIS:AddItem(spec, "44008", LBIS.L["Wrist"], "BIS") --Unsullied Cuffs
 LBIS:AddItem(spec, "40741", LBIS.L["Wrist"], "Alt") --Cuffs of the Shadow Ascendant
@@ -40,14 +36,12 @@ LBIS:AddItem(spec, "39731", LBIS.L["Wrist"], "Alt") --Punctilious Bindings
 LBIS:AddItem(spec, "39390", LBIS.L["Wrist"], "Alt") --Resurgent Phantom Bindings
 LBIS:AddItem(spec, "37361", LBIS.L["Wrist"], "Alt") --Cuffs of Winged Levitation
 
-LBIS:AddItem(spec, "40630", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Vanquisher
 LBIS:AddItem(spec, "40460", LBIS.L["Hands"], "BIS") --Valorous Dreamwalker Handguards
 LBIS:AddItem(spec, "42113", LBIS.L["Hands"], "Alt") --Spellweave Gloves
 LBIS:AddItem(spec, "39733", LBIS.L["Hands"], "Alt") --Gloves of Token Respect
 LBIS:AddItem(spec, "40349", LBIS.L["Hands"], "Alt") --Gloves of Peaceful Death
 LBIS:AddItem(spec, "39285", LBIS.L["Hands"], "Alt") --Handgrips of Turmoil
 LBIS:AddItem(spec, "39543", LBIS.L["Hands"], "Alt") --Heroes' Dreamwalker Handguards
-LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "Alt") --Gloves of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40561", LBIS.L["Waist"], "BIS") --Leash of Heedless Magic
 LBIS:AddItem(spec, "40566", LBIS.L["Waist"], "Alt") --Unravelling Strands of Sanity

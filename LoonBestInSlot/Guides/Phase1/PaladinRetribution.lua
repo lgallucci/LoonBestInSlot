@@ -2,18 +2,15 @@ local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "1")
 
 LBIS:AddItem(spec, "44006", LBIS.L["Head"], "BIS") --Obsidian Greathelm
 LBIS:AddItem(spec, "40576", LBIS.L["Head"], "BIS") --Valorous Redemption Helm
-LBIS:AddItem(spec, "40631", LBIS.L["Head"], "BIS") --Crown of the Lost Conqueror
 LBIS:AddItem(spec, "41386", LBIS.L["Head"], "Alt") --Spiked Titansteel Helm
 LBIS:AddItem(spec, "49126", LBIS.L["Head"], "Alt") --The Horseman's Horrific Helm
 LBIS:AddItem(spec, "42552", LBIS.L["Head"], "Alt") --Charged Titanium Specs
 LBIS:AddItem(spec, "37237", LBIS.L["Head"], "Alt") --Chitin Shell Greathelm
 
 LBIS:AddItem(spec, "40578", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Shoulderplates
-LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 LBIS:AddItem(spec, "44003", LBIS.L["Shoulder"], "Alt") --Upstanding Spaulders
 LBIS:AddItem(spec, "43481", LBIS.L["Shoulder"], "Alt") --Trollwoven Spaulders
 LBIS:AddItem(spec, "34388", LBIS.L["Shoulder"], "Alt") --Pauldrons of Berserking
-LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "Alt Transmute") --Pauldrons of Perseverance
 LBIS:AddItem(spec, "37139", LBIS.L["Shoulder"], "Alt") --Spaulders of the Careless Thief
 LBIS:AddItem(spec, "37679", LBIS.L["Shoulder"], "Alt") --Spaulders of the Abomination
 
@@ -25,9 +22,7 @@ LBIS:AddItem(spec, "38614", LBIS.L["Back"], "Alt") --Embrace of Sorrow
 LBIS:AddItem(spec, "37840", LBIS.L["Back"], "Alt") --Shroud of Reverberation
 
 LBIS:AddItem(spec, "40574", LBIS.L["Chest"], "BIS") --Valorous Redemption Chestpiece
-LBIS:AddItem(spec, "40625", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Conqueror
 LBIS:AddItem(spec, "39633", LBIS.L["Chest"], "Alt") --Heroes' Redemption Chestpiece
-LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Conqueror
 LBIS:AddItem(spec, "40539", LBIS.L["Chest"], "Alt") --Chestguard of the Recluse
 LBIS:AddItem(spec, "34215", LBIS.L["Chest"], "Alt") --Warharness of Reckless Fury
 LBIS:AddItem(spec, "37722", LBIS.L["Chest"], "Alt") --Breastplate of Undeath
@@ -38,14 +33,11 @@ LBIS:AddItem(spec, "40186", LBIS.L["Wrist"], "Alt") --Thrusting Bands
 LBIS:AddItem(spec, "39765", LBIS.L["Wrist"], "Alt") --Sinner's Bindings
 LBIS:AddItem(spec, "41355", LBIS.L["Wrist"], "Alt") --Vengeance Bindings
 LBIS:AddItem(spec, "34431", LBIS.L["Wrist"], "Alt") --Lightbringer Bands
-LBIS:AddItem(spec, "34848", LBIS.L["Wrist"], "Alt") --Bracers of the Forgotten Conqueror
 LBIS:AddItem(spec, "44203", LBIS.L["Wrist"], "Alt") --Dragonfriend Bracers
 
 LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "BIS") --Frosted Adroit Handguards
 LBIS:AddItem(spec, "40575", LBIS.L["Hands"], "Alt") --Valorous Redemption Gauntlets
-LBIS:AddItem(spec, "40628", LBIS.L["Hands"], "Alt") --Gauntlets of the Lost Conqueror
 LBIS:AddItem(spec, "39634", LBIS.L["Hands"], "Alt") --Heroes' Redemption Gauntlets
-LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "Alt") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "34370", LBIS.L["Hands"], "Alt") --Gloves of Immortal Dusk
 LBIS:AddItem(spec, "37363", LBIS.L["Hands"], "Alt") --Gauntlets of Dragon Wrath
 
@@ -57,11 +49,9 @@ LBIS:AddItem(spec, "40692", LBIS.L["Waist"], "Alt") --Vereesa's Silver Chain Bel
 LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "Alt") --Jorach's Crocolisk Skin Belt
 LBIS:AddItem(spec, "40688", LBIS.L["Waist"], "Alt") --Verdungo's Barbarian Cord
 LBIS:AddItem(spec, "34485", LBIS.L["Waist"], "Alt") --Lightbringer Girdle
-LBIS:AddItem(spec, "34853", LBIS.L["Waist"], "Alt") --Belt of the Forgotten Conqueror
 
 LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "BIS") --Leggings of the Honored
 LBIS:AddItem(spec, "40577", LBIS.L["Legs"], "BIS") --Valorous Redemption Legplates
-LBIS:AddItem(spec, "40634", LBIS.L["Legs"], "BIS") --Legplates of the Lost Conqueror
 LBIS:AddItem(spec, "40294", LBIS.L["Legs"], "Alt") --Riveted Abomination Leggings
 LBIS:AddItem(spec, "37193", LBIS.L["Legs"], "Alt") --Staggering Legplates
 LBIS:AddItem(spec, "44179", LBIS.L["Legs"], "Alt") --Mind-Expanding Leggings
@@ -74,7 +64,6 @@ LBIS:AddItem(spec, "40742", LBIS.L["Feet"], "Alt") --Bladed Steelboots
 LBIS:AddItem(spec, "44297", LBIS.L["Feet"], "Alt") --Boots of the Neverending Path
 LBIS:AddItem(spec, "37666", LBIS.L["Feet"], "Alt") --Boots of the Whirling Mist
 LBIS:AddItem(spec, "34561", LBIS.L["Feet"], "Alt") --Lightbringer Boots
-LBIS:AddItem(spec, "34856", LBIS.L["Feet"], "Alt") --Boots of the Forgotten Conqueror
 
 LBIS:AddItem(spec, "44664", LBIS.L["Neck"], "BIS") --Favor of the Dragon Queen
 LBIS:AddItem(spec, "40065", LBIS.L["Neck"], "BIS") --Fool's Trial

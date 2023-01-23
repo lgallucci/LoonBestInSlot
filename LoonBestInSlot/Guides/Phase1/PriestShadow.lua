@@ -3,12 +3,10 @@ local spec = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "1")
 LBIS:AddItem(spec, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec, "40339", LBIS.L["Head"], "Alt") --Gothik's Cowl
 LBIS:AddItem(spec, "40456", LBIS.L["Head"], "Alt") --Valorous Circlet of Faith
-LBIS:AddItem(spec, "40631", LBIS.L["Head"], "Alt") --Crown of the Lost Conqueror
 LBIS:AddItem(spec, "40447", LBIS.L["Head"], "Alt") --Valorous Crown of Faith
 LBIS:AddItem(spec, "43995", LBIS.L["Head"], "Alt") --Enamored Cowl
 LBIS:AddItem(spec, "40287", LBIS.L["Head"], "Alt") --Cowl of Vanity
 LBIS:AddItem(spec, "39521", LBIS.L["Head"], "Alt") --Heroes' Circlet of Faith
-LBIS:AddItem(spec, "40616", LBIS.L["Head"], "Alt") --Helm of the Lost Conqueror
 LBIS:AddItem(spec, "39409", LBIS.L["Head"], "Alt") --Cowl of Winged Fear
 LBIS:AddItem(spec, "42553", LBIS.L["Head"], "Alt") --Visage Liquification Goggles
 LBIS:AddItem(spec, "39732", LBIS.L["Head"], "Alt") --Faerlina's Madness
@@ -17,13 +15,11 @@ LBIS:AddItem(spec, "34340", LBIS.L["Head"], "Alt") --Dark Conjuror's Collar
 
 LBIS:AddItem(spec, "40555", LBIS.L["Shoulder"], "BIS") --Mantle of Dissemination
 LBIS:AddItem(spec, "40459", LBIS.L["Shoulder"], "Alt") --Valorous Mantle of Faith
-LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "Alt") --Mantle of the Lost Conqueror
 LBIS:AddItem(spec, "40286", LBIS.L["Shoulder"], "Alt") --Mantle of the Corrupted
 LBIS:AddItem(spec, "40351", LBIS.L["Shoulder"], "Alt") --Mantle of the Fatigued Sage
 LBIS:AddItem(spec, "39719", LBIS.L["Shoulder"], "Alt") --Mantle of the Locusts
 LBIS:AddItem(spec, "39284", LBIS.L["Shoulder"], "Alt") --Miasma Mantle
 LBIS:AddItem(spec, "39529", LBIS.L["Shoulder"], "Alt") --Heroes' Mantle of Faith
-LBIS:AddItem(spec, "40622", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Conqueror
 LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "Alt") --Amice of the Convoker
 LBIS:AddItem(spec, "40289", LBIS.L["Shoulder"], "Alt") --Sympathetic Amice
 LBIS:AddItem(spec, "39310", LBIS.L["Shoulder"], "Alt") --Mantle of the Extensive Mind
@@ -44,14 +40,12 @@ LBIS:AddItem(spec, "37291", LBIS.L["Back"], "Alt") --Ancient Dragon Spirit Cape
 
 LBIS:AddItem(spec, "40234", LBIS.L["Chest"], "BIS") --Heigan's Putrid Vestments
 LBIS:AddItem(spec, "40458", LBIS.L["Chest"], "Alt") --Valorous Raiments of Faith
-LBIS:AddItem(spec, "40625", LBIS.L["Chest"], "Alt") --Breastplate of the Lost Conqueror
 LBIS:AddItem(spec, "40602", LBIS.L["Chest"], "Alt") --Robes of Mutation
 LBIS:AddItem(spec, "44002", LBIS.L["Chest"], "Alt") --The Sanctum's Flowing Vestments
 LBIS:AddItem(spec, "40526", LBIS.L["Chest"], "Alt") --Gown of the Spell-Weaver
 LBIS:AddItem(spec, "40194", LBIS.L["Chest"], "Alt") --Blanketing Robes of Snow
 LBIS:AddItem(spec, "40062", LBIS.L["Chest"], "Alt") --Digested Silken Robes
 LBIS:AddItem(spec, "39523", LBIS.L["Chest"], "Alt") --Heroes' Raiments of Faith
-LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Conqueror
 LBIS:AddItem(spec, "39396", LBIS.L["Chest"], "Alt") --Gown of Blaumeux
 LBIS:AddItem(spec, "42102", LBIS.L["Chest"], "Alt") --Spellweave Robe
 LBIS:AddItem(spec, "43401", LBIS.L["Chest"], "Alt") --Water-Drenched Robe
@@ -68,14 +62,11 @@ LBIS:AddItem(spec, "37361", LBIS.L["Wrist"], "Alt") --Cuffs of Winged Levitation
 LBIS:AddItem(spec, "40338", LBIS.L["Wrist"], "Alt") --Bindings of Yearning
 LBIS:AddItem(spec, "37884", LBIS.L["Wrist"], "Alt") --Azure Cloth Bindings
 LBIS:AddItem(spec, "34435", LBIS.L["Wrist"], "Alt") --Cuffs of Absolution
-LBIS:AddItem(spec, "34848", LBIS.L["Wrist"], "Alt") --Bracers of the Forgotten Conqueror
 LBIS:AddItem(spec, "44200", LBIS.L["Wrist"], "Alt") --Ancestral Sinew Wristguards
 
 LBIS:AddItem(spec, "40454", LBIS.L["Hands"], "BIS") --Valorous Handwraps of Faith
-LBIS:AddItem(spec, "40628", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Conqueror
 LBIS:AddItem(spec, "40380", LBIS.L["Hands"], "Alt") --Gloves of Grandeur
 LBIS:AddItem(spec, "39530", LBIS.L["Hands"], "Alt") --Heroes' Handwraps of Faith
-LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "Alt") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "40197", LBIS.L["Hands"], "Alt") --Gloves of the Fallen Wizard
 LBIS:AddItem(spec, "39733", LBIS.L["Hands"], "Alt") --Gloves of Token Respect
 LBIS:AddItem(spec, "39192", LBIS.L["Hands"], "Alt") --Gloves of Dark Gestures
@@ -99,20 +90,17 @@ LBIS:AddItem(spec, "37408", LBIS.L["Waist"], "Alt") --Girdle of Bane
 LBIS:AddItem(spec, "40271", LBIS.L["Waist"], "Alt") --Sash of Solitude
 LBIS:AddItem(spec, "37242", LBIS.L["Waist"], "Alt") --Sash of the Servant
 LBIS:AddItem(spec, "34528", LBIS.L["Waist"], "Alt") --Cord of Absolution
-LBIS:AddItem(spec, "34853", LBIS.L["Waist"], "Alt") --Belt of the Forgotten Conqueror
 LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "Alt") --Belt of Blasting
 LBIS:AddItem(spec, "44302", LBIS.L["Waist"], "Alt") --Belt of Dark Mending
 
 LBIS:AddItem(spec, "40560", LBIS.L["Legs"], "BIS") --Leggings of the Wanton Spellcaster
 LBIS:AddItem(spec, "40398", LBIS.L["Legs"], "Alt") --Leggings of Mortal Arrogance
 LBIS:AddItem(spec, "40457", LBIS.L["Legs"], "Alt") --Valorous Pants of Faith
-LBIS:AddItem(spec, "40634", LBIS.L["Legs"], "Alt") --Legplates of the Lost Conqueror
 LBIS:AddItem(spec, "39720", LBIS.L["Legs"], "Alt") --Leggings of Atrophy
 LBIS:AddItem(spec, "40376", LBIS.L["Legs"], "Alt") --Legwraps of the Defeated Dragon
 LBIS:AddItem(spec, "40060", LBIS.L["Legs"], "Alt") --Distorted Limbs
 LBIS:AddItem(spec, "39408", LBIS.L["Legs"], "Alt") --Leggings of Sapphiron
 LBIS:AddItem(spec, "39528", LBIS.L["Legs"], "Alt") --Heroes' Pants of Faith
-LBIS:AddItem(spec, "40619", LBIS.L["Legs"], "Alt") --Leggings of the Lost Conqueror
 LBIS:AddItem(spec, "39309", LBIS.L["Legs"], "Alt") --Leggings of the Instructor
 LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "Alt") --Leggings of Calamity
 LBIS:AddItem(spec, "37854", LBIS.L["Legs"], "Alt") --Woven Bracae Leggings
