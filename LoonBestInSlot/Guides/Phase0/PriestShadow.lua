@@ -3,7 +3,6 @@ local spec = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "0")
 LBIS:AddItem(spec, "43995", LBIS.L["Head"], "BIS") --Enamored Cowl
 
 LBIS:AddItem(spec, "40459", LBIS.L["Shoulder"], "BIS") --Valorous Mantle of Faith
-LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 
 LBIS:AddItem(spec, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumiho
 
@@ -11,13 +10,11 @@ LBIS:AddItem(spec, "40526", LBIS.L["Chest"], "BIS") --Gown of the Spell-Weaver
 
 LBIS:AddItem(spec, "40740", LBIS.L["Wrist"], "BIS") --Wraps of the Astral Traveler
 
-LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "BIS") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "39530", LBIS.L["Hands"], "BIS") --Heroes' Handwraps of Faith
 
 LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah
 
 LBIS:AddItem(spec, "40457", LBIS.L["Legs"], "BIS") --Valorous Pants of Faith
-LBIS:AddItem(spec, "40634", LBIS.L["Legs"], "BIS") --Legplates of the Lost Conqueror
 
 LBIS:AddItem(spec, "40751", LBIS.L["Feet"], "BIS") --Slippers of the Holy Light
 

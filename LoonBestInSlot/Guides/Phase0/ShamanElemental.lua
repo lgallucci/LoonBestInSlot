@@ -1,15 +1,12 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental"], "0")
 
 LBIS:AddItem(spec, "39594", LBIS.L["Head"], "BIS") --Heroes' Earthshatter Helm
-LBIS:AddItem(spec, "40617", LBIS.L["Head"], "BIS") --Helm of the Lost Protector
 
 LBIS:AddItem(spec, "40518", LBIS.L["Shoulder"], "BIS") --Valorous Earthshatter Shoulderpads
-LBIS:AddItem(spec, "40638", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Protector
 
 LBIS:AddItem(spec, "41610", LBIS.L["Back"], "BIS") --Deathchill Cloak
 
 LBIS:AddItem(spec, "39592", LBIS.L["Chest"], "BIS") --Heroes' Earthshatter Hauberk
-LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Protector
 
 LBIS:AddItem(spec, "37788", LBIS.L["Wrist"], "BIS") --Limb Regeneration Bracers
 
@@ -18,7 +15,6 @@ LBIS:AddItem(spec, "40302", LBIS.L["Hands"], "BIS") --Benefactor's Gauntlets
 LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah
 
 LBIS:AddItem(spec, "40517", LBIS.L["Legs"], "BIS") --Valorous Earthshatter Kilt
-LBIS:AddItem(spec, "40635", LBIS.L["Legs"], "BIS") --Legplates of the Lost Protector
 
 LBIS:AddItem(spec, "40519", LBIS.L["Feet"], "BIS") --Footsteps of Malygos
 

@@ -1,19 +1,15 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Unholy"], "0")
 
 LBIS:AddItem(spec, "39619", LBIS.L["Head"], "BIS") --Heroes' Scourgeborne Helmet
-LBIS:AddItem(spec, "40618", LBIS.L["Head"], "BIS") --Helm of the Lost Vanquisher
 
 LBIS:AddItem(spec, "39621", LBIS.L["Shoulder"], "BIS") --Heroes' Scourgeborne Shoulderplates
-LBIS:AddItem(spec, "40624", LBIS.L["Shoulder"], "BIS") --Spaulders of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloak
 
 LBIS:AddItem(spec, "39617", LBIS.L["Chest"], "BIS") --Heroes' Scourgeborne Battleplate
-LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40733", LBIS.L["Wrist"], "BIS") --Wristbands of the Sentinel Huntress
 
-LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "BIS") --Gloves of the Lost Vanquisher
 LBIS:AddItem(spec, "39618", LBIS.L["Hands"], "BIS") --Heroes' Scourgeborne Gauntlets
 
 LBIS:AddItem(spec, "40688", LBIS.L["Waist"], "BIS") --Verdungo's Barbarian Cord

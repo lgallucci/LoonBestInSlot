@@ -1,10 +1,8 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Combat"], "0")
 
 LBIS:AddItem(spec, "39561", LBIS.L["Head"], "BIS") --Heroes' Bonescythe Helmet
-LBIS:AddItem(spec, "40618", LBIS.L["Head"], "BIS") --Helm of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40502", LBIS.L["Shoulder"], "BIS") --Valorous Bonescythe Pauldrons
-LBIS:AddItem(spec, "40639", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloak
 
@@ -12,13 +10,11 @@ LBIS:AddItem(spec, "43990", LBIS.L["Chest"], "BIS") --Blade-Scarred Tunic
 
 LBIS:AddItem(spec, "40738", LBIS.L["Wrist"], "BIS") --Wristwraps of the Cutthroat
 
-LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "BIS") --Gloves of the Lost Vanquisher
 LBIS:AddItem(spec, "39560", LBIS.L["Hands"], "BIS") --Heroes' Bonescythe Gauntlets
 
 LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "BIS") --Jorach's Crocolisk Skin Belt
 
 LBIS:AddItem(spec, "40500", LBIS.L["Legs"], "BIS") --Valorous Bonescythe Legplates
-LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "BIS") --Legplates of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40748", LBIS.L["Feet"], "BIS") --Boots of Captain Ellis
 

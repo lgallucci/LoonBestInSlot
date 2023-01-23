@@ -3,22 +3,18 @@ local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "0")
 LBIS:AddItem(spec, "41386", LBIS.L["Head"], "BIS") --Spiked Titansteel Helm
 
 LBIS:AddItem(spec, "40578", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Shoulderplates
-LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 
 LBIS:AddItem(spec, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloak
 
 LBIS:AddItem(spec, "39633", LBIS.L["Chest"], "BIS") --Heroes' Redemption Chestpiece
-LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
 
 LBIS:AddItem(spec, "41355", LBIS.L["Wrist"], "BIS") --Vengeance Bindings
 
 LBIS:AddItem(spec, "39634", LBIS.L["Hands"], "BIS") --Heroes' Redemption Gauntlets
-LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "BIS") --Gloves of the Lost Conqueror
 
 LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "BIS") --Jorach's Crocolisk Skin Belt
 
 LBIS:AddItem(spec, "40577", LBIS.L["Legs"], "BIS") --Valorous Redemption Legplates
-LBIS:AddItem(spec, "40634", LBIS.L["Legs"], "BIS") --Legplates of the Lost Conqueror
 
 LBIS:AddItem(spec, "44297", LBIS.L["Feet"], "BIS") --Boots of the Neverending Path
 

@@ -1,10 +1,8 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marksmanship"], "0")
 
 LBIS:AddItem(spec, "39578", LBIS.L["Head"], "BIS") --Heroes' Cryptstalker Headpiece
-LBIS:AddItem(spec, "40617", LBIS.L["Head"], "BIS") --Helm of the Lost Protector
 
 LBIS:AddItem(spec, "40507", LBIS.L["Shoulder"], "BIS") --Valorous Cryptstalker Spaulders
-LBIS:AddItem(spec, "40638", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Protector
 
 LBIS:AddItem(spec, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloak
 
@@ -17,7 +15,6 @@ LBIS:AddItem(spec, "39194", LBIS.L["Hands"], "BIS") --Rusted-Link Spiked Gauntle
 LBIS:AddItem(spec, "40692", LBIS.L["Waist"], "BIS") --Vereesa's Silver Chain Belt
 
 LBIS:AddItem(spec, "39580", LBIS.L["Legs"], "BIS") --Heroes' Cryptstalker Legguards
-LBIS:AddItem(spec, "40620", LBIS.L["Legs"], "BIS") --Leggings of the Lost Protector
 
 LBIS:AddItem(spec, "40746", LBIS.L["Feet"], "BIS") --Pack-Ice Striders
 

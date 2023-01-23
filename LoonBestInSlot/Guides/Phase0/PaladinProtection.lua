@@ -3,12 +3,10 @@ local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "0")
 LBIS:AddItem(spec, "39395", LBIS.L["Head"], "BIS") --Thane's Tainted Greathelm
 
 LBIS:AddItem(spec, "40584", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Shoulderguards
-LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 
 LBIS:AddItem(spec, "40722", LBIS.L["Back"], "BIS") --Platinum Mesh Cloak
 
 LBIS:AddItem(spec, "39638", LBIS.L["Chest"], "BIS") --Heroes' Redemption Breastplate
-LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
 
 LBIS:AddItem(spec, "40734", LBIS.L["Wrist"], "BIS") --Bracers of Dalaran's Parapets
 

@@ -1,10 +1,8 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "0")
 
 LBIS:AddItem(spec, "39610", LBIS.L["Head"], "BIS") --Heroes' Dreadnaught Greathelm
-LBIS:AddItem(spec, "40617", LBIS.L["Head"], "BIS") --Helm of the Lost Protector
 
 LBIS:AddItem(spec, "39613", LBIS.L["Shoulder"], "BIS") --Heroes' Dreadnaught Pauldrons
-LBIS:AddItem(spec, "40623", LBIS.L["Shoulder"], "BIS") --Spaulders of the Lost Protector
 
 LBIS:AddItem(spec, "40722", LBIS.L["Back"], "BIS") --Platinum Mesh Cloak
 
@@ -13,7 +11,6 @@ LBIS:AddItem(spec, "46058", LBIS.L["Chest"], "BIS") --Titan-Forged Breastplate o
 LBIS:AddItem(spec, "40734", LBIS.L["Wrist"], "BIS") --Bracers of Dalaran's Parapets
 
 LBIS:AddItem(spec, "39622", LBIS.L["Hands"], "BIS") --Heroes' Dreadnaught Handguards
-LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "BIS") --Gloves of the Lost Protector
 
 LBIS:AddItem(spec, "39298", LBIS.L["Waist"], "BIS") --Waistguard of the Tutor
 

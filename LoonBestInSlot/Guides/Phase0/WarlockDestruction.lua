@@ -3,22 +3,18 @@ local spec = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Destruction"], "0")
 LBIS:AddItem(spec, "43995", LBIS.L["Head"], "BIS") --Enamored Cowl
 
 LBIS:AddItem(spec, "40424", LBIS.L["Shoulder"], "BIS") --Valorous Plagueheart Shoulderpads
-LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 
 LBIS:AddItem(spec, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumiho
 
 LBIS:AddItem(spec, "39497", LBIS.L["Chest"], "BIS") --Heroes' Plagueheart Robe
-LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
 
 LBIS:AddItem(spec, "40740", LBIS.L["Wrist"], "BIS") --Wraps of the Astral Traveler
 
 LBIS:AddItem(spec, "39500", LBIS.L["Hands"], "BIS") --Heroes' Plagueheart Gloves
-LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "BIS") --Gloves of the Lost Conqueror
 
 LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah
 
 LBIS:AddItem(spec, "40422", LBIS.L["Legs"], "BIS") --Valorous Plagueheart Leggings
-LBIS:AddItem(spec, "40634", LBIS.L["Legs"], "BIS") --Legplates of the Lost Conqueror
 
 LBIS:AddItem(spec, "44202", LBIS.L["Feet"], "BIS") --Sandals of Crimson Fury
 

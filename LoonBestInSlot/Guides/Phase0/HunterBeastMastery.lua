@@ -3,7 +3,6 @@ local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "0")
 LBIS:AddItem(spec, "40543", LBIS.L["Head"], "BIS") --Blue Aspect Helm
 
 LBIS:AddItem(spec, "40507", LBIS.L["Shoulder"], "BIS") --Valorous Cryptstalker Spaulders
-LBIS:AddItem(spec, "40638", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Protector
 
 LBIS:AddItem(spec, "40403", LBIS.L["Back"], "BIS") --Drape of the Deadly Foe
 

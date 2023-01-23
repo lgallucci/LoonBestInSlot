@@ -1,25 +1,20 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "0")
 
 LBIS:AddItem(spec, "39545", LBIS.L["Head"], "BIS") --Heroes' Dreamwalker Cover
-LBIS:AddItem(spec, "40618", LBIS.L["Head"], "BIS") --Helm of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40470", LBIS.L["Shoulder"], "BIS") --Valorous Dreamwalker Mantle
-LBIS:AddItem(spec, "40639", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumiho
 
 LBIS:AddItem(spec, "39547", LBIS.L["Chest"], "BIS") --Heroes' Dreamwalker Vestments
-LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Vanquisher
 
 LBIS:AddItem(spec, "37884", LBIS.L["Wrist"], "BIS") --Azure Cloth Bindings
 
 LBIS:AddItem(spec, "39544", LBIS.L["Hands"], "BIS") --Heroes' Dreamwalker Gloves
-LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "BIS") --Gloves of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah
 
 LBIS:AddItem(spec, "40468", LBIS.L["Legs"], "BIS") --Valorous Dreamwalker Trousers
-LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "BIS") --Legplates of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40519", LBIS.L["Feet"], "BIS") --Footsteps of Malygos
 

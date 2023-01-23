@@ -1,25 +1,20 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Fire"], "0")
 
 LBIS:AddItem(spec, "39491", LBIS.L["Head"], "BIS") --Heroes' Frostfire Circlet
-LBIS:AddItem(spec, "40618", LBIS.L["Head"], "BIS") --Helm of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40419", LBIS.L["Shoulder"], "BIS") --Valorous Frostfire Shoulderpads
-LBIS:AddItem(spec, "40639", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumiho
 
 LBIS:AddItem(spec, "39492", LBIS.L["Chest"], "BIS") --Heroes' Frostfire Robe
-LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40740", LBIS.L["Wrist"], "BIS") --Wraps of the Astral Traveler
 
 LBIS:AddItem(spec, "39495", LBIS.L["Hands"], "BIS") --Heroes' Frostfire Gloves
-LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "BIS") --Gloves of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah
 
 LBIS:AddItem(spec, "40417", LBIS.L["Legs"], "BIS") --Valorous Frostfire Leggings
-LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "BIS") --Legplates of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40750", LBIS.L["Feet"], "BIS") --Xintor's Expeditionary Boots
 

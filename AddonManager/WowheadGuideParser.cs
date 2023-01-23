@@ -120,6 +120,7 @@ public class WowheadGuideParser
             { "Libram", "Ranged/Relic" },
             { "Idol", "Ranged/Relic" },
             { "Wand", "Ranged/Relic" },
+            { "Ranged", "Ranged/Relic" },
         };
         // Setting up indexers
         public string this[string i]

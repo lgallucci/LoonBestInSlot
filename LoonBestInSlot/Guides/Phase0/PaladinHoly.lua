@@ -3,22 +3,18 @@ local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "0")
 LBIS:AddItem(spec, "39260", LBIS.L["Head"], "BIS") --Helm of the Corrupted Mind
 
 LBIS:AddItem(spec, "40573", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Spaulders
-LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 
 LBIS:AddItem(spec, "40724", LBIS.L["Back"], "BIS") --Cloak of Kea Feathers
 
 LBIS:AddItem(spec, "39629", LBIS.L["Chest"], "BIS") --Heroes' Redemption Tunic
-LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
 
 LBIS:AddItem(spec, "40741", LBIS.L["Wrist"], "BIS") --Cuffs of the Shadow Ascendant
 
-LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "BIS") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "39632", LBIS.L["Hands"], "BIS") --Heroes' Redemption Gloves
 
 LBIS:AddItem(spec, "40691", LBIS.L["Waist"], "BIS") --Magroth's Meditative Cincture
 
 LBIS:AddItem(spec, "40572", LBIS.L["Legs"], "BIS") --Valorous Redemption Greaves
-LBIS:AddItem(spec, "40634", LBIS.L["Legs"], "BIS") --Legplates of the Lost Conqueror
 
 LBIS:AddItem(spec, "40519", LBIS.L["Feet"], "BIS") --Footsteps of Malygos
 
