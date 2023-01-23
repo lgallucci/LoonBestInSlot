@@ -3,18 +3,14 @@ local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "2")
 LBIS:AddItem(spec, "41678", LBIS.L["Head"], "BIS") --Furious Gladiator's Dragonhide Helm
 LBIS:AddItem(spec, "45523", LBIS.L["Head"], "Alt") --Garona's Guise
 LBIS:AddItem(spec, "46161", LBIS.L["Head"], "Alt Mit") --Conqueror's Nightsong Headguard
-LBIS:AddItem(spec, "45640", LBIS.L["Head"], "Alt Mit") --Crown of the Wayward Vanquisher
 LBIS:AddItem(spec, "45993", LBIS.L["Head"], "Alt") --Mimiron's Flight Goggles
 LBIS:AddItem(spec, "45356", LBIS.L["Head"], "Alt") --Valorous Nightsong Headguard
-LBIS:AddItem(spec, "45649", LBIS.L["Head"], "Alt") --Helm of the Wayward Vanquisher
 
 LBIS:AddItem(spec, "45245", LBIS.L["Shoulder"], "BIS") --Shoulderpads of the Intruder
 LBIS:AddItem(spec, "41715", LBIS.L["Shoulder"], "Alt") --Furious Gladiator's Dragonhide Spaulders
 LBIS:AddItem(spec, "46157", LBIS.L["Shoulder"], "Alt") --Conqueror's Nightsong Shoulderpads
-LBIS:AddItem(spec, "45658", LBIS.L["Shoulder"], "Alt") --Mantle of the Wayward Vanquisher
 LBIS:AddItem(spec, "45265", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Monolith
 LBIS:AddItem(spec, "45359", LBIS.L["Shoulder"], "Alt") --Valorous Nightsong Shoulderpads
-LBIS:AddItem(spec, "45661", LBIS.L["Shoulder"], "Alt") --Spaulders of the Wayward Vanquisher
 LBIS:AddItem(spec, "45677", LBIS.L["Shoulder"], "Alt") --Treacherous Shoulderpads
 
 LBIS:AddItem(spec, "45496", LBIS.L["Back"], "BIS") --Titanskin Cloak
@@ -25,10 +21,8 @@ LBIS:AddItem(spec, "46320", LBIS.L["Back"], "Alt") --Drape of the Skyherald
 
 LBIS:AddItem(spec, "45473", LBIS.L["Chest"], "BIS") --Embrace of the Gladiator
 LBIS:AddItem(spec, "46159", LBIS.L["Chest"], "Alt") --Conqueror's Nightsong Raiments
-LBIS:AddItem(spec, "45634", LBIS.L["Chest"], "Alt") --Breastplate of the Wayward Vanquisher
 LBIS:AddItem(spec, "41661", LBIS.L["Chest"], "Alt Mit") --Furious Gladiator's Dragonhide Robes
 LBIS:AddItem(spec, "45358", LBIS.L["Chest"], "Alt") --Valorous Nightsong Raiments
-LBIS:AddItem(spec, "45637", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Vanquisher
 LBIS:AddItem(spec, "43590", LBIS.L["Chest"], "Alt Mit") --Polar Vest
 LBIS:AddItem(spec, "45940", LBIS.L["Chest"], "Alt") --Tunic of the Limber Stalker
 
@@ -43,9 +37,7 @@ LBIS:AddItem(spec, "46043", LBIS.L["Hands"], "BIS") --Gloves of the Endless Dark
 LBIS:AddItem(spec, "41773", LBIS.L["Hands"], "BIS") --Furious Gladiator's Dragonhide Gloves
 LBIS:AddItem(spec, "45325", LBIS.L["Hands"], "Alt") --Gloves of the Stonereaper
 LBIS:AddItem(spec, "46158", LBIS.L["Hands"], "Alt Mit") --Conqueror's Nightsong Handgrips
-LBIS:AddItem(spec, "45643", LBIS.L["Hands"], "Alt Mit") --Gauntlets of the Wayward Vanquisher
 LBIS:AddItem(spec, "45355", LBIS.L["Hands"], "Alt") --Valorous Nightsong Handgrips
-LBIS:AddItem(spec, "45646", LBIS.L["Hands"], "Alt") --Gloves of the Wayward Vanquisher
 
 LBIS:AddItem(spec, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
 LBIS:AddItem(spec, "45555", LBIS.L["Waist"], "Alt") --Death-warmed Belt
@@ -58,9 +50,7 @@ LBIS:AddItem(spec, "45536", LBIS.L["Legs"], "BIS") --Legguards of Cunning Decept
 LBIS:AddItem(spec, "45846", LBIS.L["Legs"], "Alt") --Leggings of Wavering Shadow
 LBIS:AddItem(spec, "41667", LBIS.L["Legs"], "Alt Mit") --Furious Gladiator's Dragonhide Legguards
 LBIS:AddItem(spec, "46160", LBIS.L["Legs"], "Alt") --Conqueror's Nightsong Legguards
-LBIS:AddItem(spec, "45655", LBIS.L["Legs"], "Alt") --Legplates of the Wayward Vanquisher
 LBIS:AddItem(spec, "45357", LBIS.L["Legs"], "Alt") --Valorous Nightsong Legguards
-LBIS:AddItem(spec, "45652", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Vanquisher
 
 LBIS:AddItem(spec, "45232", LBIS.L["Feet"], "BIS") --Runed Ironhide Boots
 LBIS:AddItem(spec, "41836", LBIS.L["Feet"], "BIS") --Furious Gladiator's Boots of Triumph

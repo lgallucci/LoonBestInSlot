@@ -1,37 +1,29 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "2")
 
 LBIS:AddItem(spec, "46120", LBIS.L["Head"], "BIS") --Conqueror's Darkruned Faceguard
-LBIS:AddItem(spec, "45640", LBIS.L["Head"], "BIS") --Crown of the Wayward Vanquisher
 LBIS:AddItem(spec, "45502", LBIS.L["Head"], "Alt") --Helm of the Faceless
 LBIS:AddItem(spec, "45336", LBIS.L["Head"], "Alt") --Valorous Darkruned Faceguard
-LBIS:AddItem(spec, "45649", LBIS.L["Head"], "Alt") --Helm of the Wayward Vanquisher
 LBIS:AddItem(spec, "45935", LBIS.L["Head"], "Alt") --Ironbark Faceguard
 
 LBIS:AddItem(spec, "46122", LBIS.L["Shoulder"], "BIS") --Conqueror's Darkruned Pauldrons
-LBIS:AddItem(spec, "45658", LBIS.L["Shoulder"], "BIS") --Mantle of the Wayward Vanquisher
 LBIS:AddItem(spec, "45251", LBIS.L["Shoulder"], "Alt") --Shoulderplates of the Deconstructor
 LBIS:AddItem(spec, "45339", LBIS.L["Shoulder"], "Alt") --Valorous Darkruned Pauldrons
-LBIS:AddItem(spec, "45661", LBIS.L["Shoulder"], "Alt") --Spaulders of the Wayward Vanquisher
 
 LBIS:AddItem(spec, "45496", LBIS.L["Back"], "BIS") --Titanskin Cloak
 LBIS:AddItem(spec, "45319", LBIS.L["Back"], "Alt") --Cloak of the Makers
 LBIS:AddItem(spec, "46014", LBIS.L["Back"], "Alt") --Saronite Animus Cloak
 
 LBIS:AddItem(spec, "46118", LBIS.L["Chest"], "BIS") --Conqueror's Darkruned Chestguard
-LBIS:AddItem(spec, "45634", LBIS.L["Chest"], "BIS") --Breastplate of the Wayward Vanquisher
 LBIS:AddItem(spec, "46039", LBIS.L["Chest"], "Alt") --Breastplate of the Timeless
 LBIS:AddItem(spec, "45335", LBIS.L["Chest"], "Alt") --Valorous Darkruned Chestguard
-LBIS:AddItem(spec, "45637", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Vanquisher
 
 LBIS:AddItem(spec, "45111", LBIS.L["Wrist"], "BIS") --Mimiron's Inferno Couplings
 LBIS:AddItem(spec, "45283", LBIS.L["Wrist"], "Alt") --Flamewatch Armguards
 
 LBIS:AddItem(spec, "46119", LBIS.L["Hands"], "BIS") --Conqueror's Darkruned Handguards
-LBIS:AddItem(spec, "45643", LBIS.L["Hands"], "BIS") --Gauntlets of the Wayward Vanquisher
 LBIS:AddItem(spec, "45487", LBIS.L["Hands"], "Alt") --Handguards of Revitalization
 LBIS:AddItem(spec, "45834", LBIS.L["Hands"], "Alt") --Gauntlets of the Royal Watch
 LBIS:AddItem(spec, "45337", LBIS.L["Hands"], "Alt") --Valorous Darkruned Handguards
-LBIS:AddItem(spec, "45646", LBIS.L["Hands"], "Alt") --Gloves of the Wayward Vanquisher
 
 LBIS:AddItem(spec, "45551", LBIS.L["Waist"], "BIS") --Indestructible Plate Girdle
 LBIS:AddItem(spec, "45241", LBIS.L["Waist"], "BIS") --Belt of Colossal Rage
@@ -41,10 +33,8 @@ LBIS:AddItem(spec, "45304", LBIS.L["Waist"], "Alt") --Stormtempered Girdle
 LBIS:AddItem(spec, "45594", LBIS.L["Legs"], "BIS") --Legplates of the Endless Void
 LBIS:AddItem(spec, "45267", LBIS.L["Legs"], "BIS") --Saronite Plated Legguards
 LBIS:AddItem(spec, "46121", LBIS.L["Legs"], "BIS") --Conqueror's Darkruned Legguards
-LBIS:AddItem(spec, "45655", LBIS.L["Legs"], "BIS") --Legplates of the Wayward Vanquisher
 LBIS:AddItem(spec, "45295", LBIS.L["Legs"], "BIS") --Gilded Steel Legplates
 LBIS:AddItem(spec, "45338", LBIS.L["Legs"], "Alt") --Valorous Darkruned Legguards
-LBIS:AddItem(spec, "45652", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Vanquisher
 
 LBIS:AddItem(spec, "45988", LBIS.L["Feet"], "BIS") --Greaves of the Iron Army
 LBIS:AddItem(spec, "45166", LBIS.L["Feet"], "BIS") --Charred Saronite Greaves

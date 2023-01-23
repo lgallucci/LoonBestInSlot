@@ -1,21 +1,17 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Restoration"], "2")
 
 LBIS:AddItem(spec, "46184", LBIS.L["Head"], "BIS") --Conqueror's Nightsong Headpiece
-LBIS:AddItem(spec, "45640", LBIS.L["Head"], "BIS") --Crown of the Wayward Vanquisher
 LBIS:AddItem(spec, "45439", LBIS.L["Head"], "Alt") --Unwavering Stare
 LBIS:AddItem(spec, "44007", LBIS.L["Head"], "Alt") --Headpiece of Reconciliation
 LBIS:AddItem(spec, "45346", LBIS.L["Head"], "Alt") --Valorous Nightsong Headpiece
-LBIS:AddItem(spec, "45649", LBIS.L["Head"], "Alt") --Helm of the Wayward Vanquisher
 LBIS:AddItem(spec, "45864", LBIS.L["Head"], "Alt") --Cover of the Keepers
 LBIS:AddItem(spec, "45289", LBIS.L["Head"], "Alt") --Lifespark Visage
 
 LBIS:AddItem(spec, "46187", LBIS.L["Shoulder"], "BIS") --Conqueror's Nightsong Spaulders
-LBIS:AddItem(spec, "45658", LBIS.L["Shoulder"], "BIS") --Mantle of the Wayward Vanquisher
 LBIS:AddItem(spec, "46068", LBIS.L["Shoulder"], "Alt") --Amice of Inconceivable Horror
 LBIS:AddItem(spec, "45492", LBIS.L["Shoulder"], "Alt") --Malleable Steelweave Mantle
 LBIS:AddItem(spec, "45253", LBIS.L["Shoulder"], "Alt") --Mantle of Wavering Calm
 LBIS:AddItem(spec, "45349", LBIS.L["Shoulder"], "Alt") --Valorous Nightsong Spaulders
-LBIS:AddItem(spec, "45661", LBIS.L["Shoulder"], "Alt") --Spaulders of the Wayward Vanquisher
 LBIS:AddItem(spec, "46013", LBIS.L["Shoulder"], "Alt") --Underworld Mantle
 LBIS:AddItem(spec, "45974", LBIS.L["Shoulder"], "Alt") --Shoulderguards of Assimilation
 
@@ -26,10 +22,8 @@ LBIS:AddItem(spec, "45317", LBIS.L["Back"], "Alt") --Shawl of the Caretaker
 
 LBIS:AddItem(spec, "45519", LBIS.L["Chest"], "BIS") --Vestments of the Blind Denizen
 LBIS:AddItem(spec, "46194", LBIS.L["Chest"], "Alt") --Conqueror's Nightsong Vestments
-LBIS:AddItem(spec, "45634", LBIS.L["Chest"], "Alt") --Breastplate of the Wayward Vanquisher
 LBIS:AddItem(spec, "45240", LBIS.L["Chest"], "Alt") --Raiments of the Iron Council
 LBIS:AddItem(spec, "45354", LBIS.L["Chest"], "Alt") --Valorous Nightsong Vestments
-LBIS:AddItem(spec, "45637", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Vanquisher
 LBIS:AddItem(spec, "44002", LBIS.L["Chest"], "Alt") --The Sanctum's Flowing Vestments
 LBIS:AddItem(spec, "46186", LBIS.L["Chest"], "Alt") --Conqueror's Nightsong Robe
 
@@ -39,7 +33,6 @@ LBIS:AddItem(spec, "44008", LBIS.L["Wrist"], "Alt") --Unsullied Cuffs
 LBIS:AddItem(spec, "40741", LBIS.L["Wrist"], "Alt") --Cuffs of the Shadow Ascendant
 
 LBIS:AddItem(spec, "46183", LBIS.L["Hands"], "BIS") --Conqueror's Nightsong Handguards
-LBIS:AddItem(spec, "45643", LBIS.L["Hands"], "BIS") --Gauntlets of the Wayward Vanquisher
 LBIS:AddItem(spec, "45273", LBIS.L["Hands"], "Alt") --Handwraps of Plentiful Recovery
 LBIS:AddItem(spec, "45512", LBIS.L["Hands"], "Alt") --Grips of the Unbroken
 LBIS:AddItem(spec, "45840", LBIS.L["Hands"], "Alt") --Touch of the Occult
@@ -52,7 +45,6 @@ LBIS:AddItem(spec, "45830", LBIS.L["Waist"], "Alt") --Belt of the Living Thicket
 LBIS:AddItem(spec, "45455", LBIS.L["Waist"], "Alt") --Belt of the Crystal Tree
 
 LBIS:AddItem(spec, "46185", LBIS.L["Legs"], "BIS") --Conqueror's Nightsong Leggings
-LBIS:AddItem(spec, "45655", LBIS.L["Legs"], "BIS") --Legplates of the Wayward Vanquisher
 LBIS:AddItem(spec, "46049", LBIS.L["Legs"], "Alt") --Zodiac Leggings
 LBIS:AddItem(spec, "45482", LBIS.L["Legs"], "Alt") --Leggings of the Lifetender
 LBIS:AddItem(spec, "45468", LBIS.L["Legs"], "Alt") --Leggings of Lost Love

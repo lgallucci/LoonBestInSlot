@@ -1,12 +1,9 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "2")
 
 LBIS:AddItem(spec, "46180", LBIS.L["Head"], "BIS") --Conqueror's Aegis Headpiece
-LBIS:AddItem(spec, "45638", LBIS.L["Head"], "BIS") --Crown of the Wayward Conqueror
 
 LBIS:AddItem(spec, "46182", LBIS.L["Shoulder"], "BIS") --Conqueror's Aegis Spaulders
-LBIS:AddItem(spec, "45656", LBIS.L["Shoulder"], "BIS") --Mantle of the Wayward Conqueror
 LBIS:AddItem(spec, "45373", LBIS.L["Shoulder"], "BIS") --Valorous Aegis Spaulders
-LBIS:AddItem(spec, "45659", LBIS.L["Shoulder"], "BIS") --Spaulders of the Wayward Conqueror
 LBIS:AddItem(spec, "45474", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Combatant
 
 LBIS:AddItem(spec, "45486", LBIS.L["Back"], "BIS") --Drape of the Sullen Goddess
@@ -17,16 +14,13 @@ LBIS:AddItem(spec, "45445", LBIS.L["Chest"], "BIS") --Breastplate of the Devoted
 LBIS:AddItem(spec, "45867", LBIS.L["Chest"], "Alt") --Breastplate of the Stoneshaper
 LBIS:AddItem(spec, "45531", LBIS.L["Chest"], "Alt") --Chestguard of the Fallen God
 LBIS:AddItem(spec, "46178", LBIS.L["Chest"], "Alt") --Conqueror's Aegis Tunic
-LBIS:AddItem(spec, "45632", LBIS.L["Chest"], "Alt") --Breastplate of the Wayward Conqueror
 
 LBIS:AddItem(spec, "45460", LBIS.L["Wrist"], "BIS") --Bindings of Winter Gale
 LBIS:AddItem(spec, "45269", LBIS.L["Wrist"], "Alt") --Unfaltering Armguards
 LBIS:AddItem(spec, "46345", LBIS.L["Wrist"], "Alt") --Bracers of Righteous Reformation
 
 LBIS:AddItem(spec, "46179", LBIS.L["Hands"], "BIS") --Conqueror's Aegis Gloves
-LBIS:AddItem(spec, "45641", LBIS.L["Hands"], "BIS") --Gauntlets of the Wayward Conqueror
 LBIS:AddItem(spec, "45370", LBIS.L["Hands"], "BIS") --Valorous Aegis Gloves
-LBIS:AddItem(spec, "45644", LBIS.L["Hands"], "BIS") --Gloves of the Wayward Conqueror
 LBIS:AddItem(spec, "45928", LBIS.L["Hands"], "Alt") --Gauntlets of the Thunder God
 LBIS:AddItem(spec, "45943", LBIS.L["Hands"], "Alt") --Gloves of Whispering Winds
 
@@ -36,9 +30,7 @@ LBIS:AddItem(spec, "45552", LBIS.L["Waist"], "Alt") --Plate Girdle of Righteousn
 LBIS:AddItem(spec, "45828", LBIS.L["Waist"], "Alt") --Windchill Binding
 
 LBIS:AddItem(spec, "46181", LBIS.L["Legs"], "BIS") --Conqueror's Aegis Greaves
-LBIS:AddItem(spec, "45653", LBIS.L["Legs"], "BIS") --Legplates of the Wayward Conqueror
 LBIS:AddItem(spec, "45371", LBIS.L["Legs"], "BIS") --Valorous Aegis Greaves
-LBIS:AddItem(spec, "45650", LBIS.L["Legs"], "BIS") --Leggings of the Wayward Conqueror
 LBIS:AddItem(spec, "45544", LBIS.L["Legs"], "Alt") --Leggings of the Tortured Earth
 LBIS:AddItem(spec, "45845", LBIS.L["Legs"], "Alt") --Leggings of the Weary Mystic
 

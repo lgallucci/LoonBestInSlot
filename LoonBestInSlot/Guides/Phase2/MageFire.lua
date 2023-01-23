@@ -1,16 +1,11 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Fire"], "2")
 
 LBIS:AddItem(spec, "46129", LBIS.L["Head"], "BIS") --Conqueror's Kirin Tor Hood
-LBIS:AddItem(spec, "45640", LBIS.L["Head"], "BIS") --Crown of the Wayward Vanquisher
 LBIS:AddItem(spec, "45497", LBIS.L["Head"], "BIS") --Crown of Luminescence
 LBIS:AddItem(spec, "45365", LBIS.L["Head"], "Alt") --Valorous Kirin Tor Hood
-LBIS:AddItem(spec, "45649", LBIS.L["Head"], "Alt") --Helm of the Wayward Vanquisher
 
 LBIS:AddItem(spec, "46134", LBIS.L["Shoulder"], "BIS") --Conqueror's Kirin Tor Shoulderpads
-LBIS:AddItem(spec, "45658", LBIS.L["Shoulder"], "BIS") --Mantle of the Wayward Vanquisher
 LBIS:AddItem(spec, "45369", LBIS.L["Shoulder"], "Alt") --Valorous Kirin Tor Shoulderpads
-LBIS:AddItem(spec, "45661", LBIS.L["Shoulder"], "Alt") --Spaulders of the Wayward Vanquisher
-LBIS:AddItem(spec, "40639", LBIS.L["Shoulder"], "Alt") --Mantle of the Lost Vanquisher
 LBIS:AddItem(spec, "40419", LBIS.L["Shoulder"], "Alt") --Valorous Frostfire Shoulderpads
 
 LBIS:AddItem(spec, "45242", LBIS.L["Back"], "BIS") --Drape of Mortal Downfall
@@ -20,11 +15,8 @@ LBIS:AddItem(spec, "46042", LBIS.L["Back"], "Alt") --Drape of the Messenger
 LBIS:AddItem(spec, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
 
 LBIS:AddItem(spec, "46130", LBIS.L["Chest"], "BIS") --Conqueror's Kirin Tor Tunic
-LBIS:AddItem(spec, "45634", LBIS.L["Chest"], "BIS") --Breastplate of the Wayward Vanquisher
 LBIS:AddItem(spec, "45368", LBIS.L["Chest"], "Alt") --Valorous Kirin Tor Tunic
-LBIS:AddItem(spec, "45637", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Vanquisher
 LBIS:AddItem(spec, "40418", LBIS.L["Chest"], "Alt") --Valorous Frostfire Robe
-LBIS:AddItem(spec, "40627", LBIS.L["Chest"], "Alt") --Breastplate of the Lost Vanquisher
 
 LBIS:AddItem(spec, "45446", LBIS.L["Wrist"], "BIS") --Grasps of Reason
 LBIS:AddItem(spec, "45275", LBIS.L["Wrist"], "BIS") --Bracers of Unleashed Magic
@@ -32,7 +24,6 @@ LBIS:AddItem(spec, "44008", LBIS.L["Wrist"], "Alt") --Unsullied Cuffs
 
 LBIS:AddItem(spec, "45665", LBIS.L["Hands"], "BIS") --Pharos Gloves
 LBIS:AddItem(spec, "46132", LBIS.L["Hands"], "Alt") --Conqueror's Kirin Tor Gauntlets
-LBIS:AddItem(spec, "45643", LBIS.L["Hands"], "Alt") --Gauntlets of the Wayward Vanquisher
 LBIS:AddItem(spec, "45520", LBIS.L["Hands"], "Alt") --Handwraps of the Vigilant
 LBIS:AddItem(spec, "46045", LBIS.L["Hands"], "Alt") --Pulsar Gloves
 
@@ -41,14 +32,10 @@ LBIS:AddItem(spec, "45557", LBIS.L["Waist"], "Alt") --Sash of Ancient Power
 LBIS:AddItem(spec, "45558", LBIS.L["Waist"], "Alt") --Cord of the White Dawn
 
 LBIS:AddItem(spec, "46133", LBIS.L["Legs"], "BIS") --Conqueror's Kirin Tor Leggings
-LBIS:AddItem(spec, "45655", LBIS.L["Legs"], "BIS") --Legplates of the Wayward Vanquisher
 LBIS:AddItem(spec, "45488", LBIS.L["Legs"], "BIS") --Leggings of the Enslaved Idol
 LBIS:AddItem(spec, "45367", LBIS.L["Legs"], "Alt") --Valorous Kirin Tor Leggings
-LBIS:AddItem(spec, "45652", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Vanquisher
 LBIS:AddItem(spec, "40417", LBIS.L["Legs"], "Alt") --Valorous Frostfire Leggings
-LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "Alt") --Legplates of the Lost Vanquisher
 LBIS:AddItem(spec, "39493", LBIS.L["Legs"], "Alt") --Heroes' Frostfire Leggings
-LBIS:AddItem(spec, "40621", LBIS.L["Legs"], "Alt") --Leggings of the Lost Vanquisher
 
 LBIS:AddItem(spec, "45537", LBIS.L["Feet"], "BIS") --Treads of the False Oracle
 LBIS:AddItem(spec, "45135", LBIS.L["Feet"], "Alt") --Boots of Fiery Resolution

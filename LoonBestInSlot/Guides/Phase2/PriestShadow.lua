@@ -1,23 +1,19 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "2")
 
 LBIS:AddItem(spec, "46172", LBIS.L["Head"], "BIS") --Conqueror's Circlet of Sanctification
-LBIS:AddItem(spec, "45638", LBIS.L["Head"], "BIS") --Crown of the Wayward Conqueror
 LBIS:AddItem(spec, "45497", LBIS.L["Head"], "Alt") --Crown of Luminescence
 LBIS:AddItem(spec, "45150", LBIS.L["Head"], "Alt") --Collar of the Wyrmhunter
 LBIS:AddItem(spec, "45532", LBIS.L["Head"], "Alt") --Cowl of Dark Whispers
 LBIS:AddItem(spec, "45391", LBIS.L["Head"], "Alt") --Valorous Circlet of Sanctification
-LBIS:AddItem(spec, "45647", LBIS.L["Head"], "Alt") --Helm of the Wayward Conqueror
 LBIS:AddItem(spec, "40562", LBIS.L["Head"], "Alt") --Hood of Rationality
 
 LBIS:AddItem(spec, "46165", LBIS.L["Shoulder"], "BIS") --Conqueror's Mantle of Sanctification
-LBIS:AddItem(spec, "45656", LBIS.L["Shoulder"], "BIS") --Mantle of the Wayward Conqueror
 LBIS:AddItem(spec, "46068", LBIS.L["Shoulder"], "Alt") --Amice of Inconceivable Horror
 LBIS:AddItem(spec, "45514", LBIS.L["Shoulder"], "Alt") --Mantle of the Unknowing
 LBIS:AddItem(spec, "45186", LBIS.L["Shoulder"], "Alt") --Soot-Covered Mantle
 LBIS:AddItem(spec, "45253", LBIS.L["Shoulder"], "Alt") --Mantle of Wavering Calm
 LBIS:AddItem(spec, "45832", LBIS.L["Shoulder"], "Alt") --Mantle of the Preserver
 LBIS:AddItem(spec, "45393", LBIS.L["Shoulder"], "Alt") --Valorous Mantle of Sanctification
-LBIS:AddItem(spec, "45659", LBIS.L["Shoulder"], "Alt") --Spaulders of the Wayward Conqueror
 LBIS:AddItem(spec, "40555", LBIS.L["Shoulder"], "Alt") --Mantle of Dissemination
 
 LBIS:AddItem(spec, "45242", LBIS.L["Back"], "BIS") --Drape of Mortal Downfall
@@ -31,10 +27,8 @@ LBIS:AddItem(spec, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
 LBIS:AddItem(spec, "40405", LBIS.L["Back"], "Alt") --Cape of the Unworthy Wizard
 
 LBIS:AddItem(spec, "46168", LBIS.L["Chest"], "BIS") --Conqueror's Raiments of Sanctification
-LBIS:AddItem(spec, "45632", LBIS.L["Chest"], "BIS") --Breastplate of the Wayward Conqueror
 LBIS:AddItem(spec, "45240", LBIS.L["Chest"], "Alt") --Raiments of the Iron Council
 LBIS:AddItem(spec, "45395", LBIS.L["Chest"], "Alt") --Valorous Raiments of Sanctification
-LBIS:AddItem(spec, "45635", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Conqueror
 LBIS:AddItem(spec, "45272", LBIS.L["Chest"], "Alt") --Robes of the Umbral Brute
 LBIS:AddItem(spec, "46012", LBIS.L["Chest"], "Alt") --Vestments of the Piercing Light
 
@@ -50,12 +44,10 @@ LBIS:AddItem(spec, "45665", LBIS.L["Hands"], "BIS") --Pharos Gloves
 LBIS:AddItem(spec, "46045", LBIS.L["Hands"], "Alt") --Pulsar Gloves
 LBIS:AddItem(spec, "45520", LBIS.L["Hands"], "Alt") --Handwraps of the Vigilant
 LBIS:AddItem(spec, "46163", LBIS.L["Hands"], "Alt") --Conqueror's Handwraps of Sanctification
-LBIS:AddItem(spec, "45641", LBIS.L["Hands"], "Alt") --Gauntlets of the Wayward Conqueror
 LBIS:AddItem(spec, "45273", LBIS.L["Hands"], "Alt") --Handwraps of Plentiful Recovery
 LBIS:AddItem(spec, "45840", LBIS.L["Hands"], "Alt") --Touch of the Occult
 LBIS:AddItem(spec, "45117", LBIS.L["Hands"], "Alt") --Constructor's Handwraps
 LBIS:AddItem(spec, "45392", LBIS.L["Hands"], "Alt") --Valorous Handwraps of Sanctification
-LBIS:AddItem(spec, "45644", LBIS.L["Hands"], "Alt") --Gloves of the Wayward Conqueror
 LBIS:AddItem(spec, "45927", LBIS.L["Hands"], "Alt") --Handwraps of Resonance
 LBIS:AddItem(spec, "45976", LBIS.L["Hands"], "Alt") --Static Charge Handwraps
 
@@ -70,14 +62,12 @@ LBIS:AddItem(spec, "45694", LBIS.L["Waist"], "Alt") --Conductive Cord
 LBIS:AddItem(spec, "40561", LBIS.L["Waist"], "Alt") --Leash of Heedless Magic
 
 LBIS:AddItem(spec, "46170", LBIS.L["Legs"], "BIS") --Conqueror's Pants of Sanctification
-LBIS:AddItem(spec, "45653", LBIS.L["Legs"], "BIS") --Legplates of the Wayward Conqueror
 LBIS:AddItem(spec, "45488", LBIS.L["Legs"], "Alt") --Leggings of the Enslaved Idol
 LBIS:AddItem(spec, "46034", LBIS.L["Legs"], "Alt") --Leggings of Profound Darkness
 LBIS:AddItem(spec, "45468", LBIS.L["Legs"], "Alt") --Leggings of Lost Love
 LBIS:AddItem(spec, "45238", LBIS.L["Legs"], "Alt") --Overload Legwraps
 LBIS:AddItem(spec, "45848", LBIS.L["Legs"], "Alt") --Legwraps of the Master Conjurer
 LBIS:AddItem(spec, "45394", LBIS.L["Legs"], "Alt") --Valorous Pants of Sanctification
-LBIS:AddItem(spec, "45650", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Conqueror
 LBIS:AddItem(spec, "45894", LBIS.L["Legs"], "Alt") --Leggings of Unstable Discharge
 LBIS:AddItem(spec, "40560", LBIS.L["Legs"], "Alt") --Leggings of the Wanton Spellcaster
 LBIS:AddItem(spec, "40398", LBIS.L["Legs"], "Alt") --Leggings of Mortal Arrogance

@@ -1,24 +1,18 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Assassination"], "2")
 
 LBIS:AddItem(spec, "46125", LBIS.L["Head"], "BIS") --Conqueror's Terrorblade Helmet
-LBIS:AddItem(spec, "45640", LBIS.L["Head"], "BIS") --Crown of the Wayward Vanquisher
 LBIS:AddItem(spec, "45523", LBIS.L["Head"], "Alt") --Garona's Guise
 LBIS:AddItem(spec, "45993", LBIS.L["Head"], "Alt") --Mimiron's Flight Goggles
 LBIS:AddItem(spec, "45893", LBIS.L["Head"], "Alt") --Guise of the Midgard Serpent
 LBIS:AddItem(spec, "45398", LBIS.L["Head"], "Alt") --Valorous Terrorblade Helmet
-LBIS:AddItem(spec, "45649", LBIS.L["Head"], "Alt") --Helm of the Wayward Vanquisher
 LBIS:AddItem(spec, "40499", LBIS.L["Head"], "Alt") --Valorous Bonescythe Helmet
-LBIS:AddItem(spec, "40633", LBIS.L["Head"], "Alt") --Crown of the Lost Vanquisher
 
 LBIS:AddItem(spec, "45245", LBIS.L["Shoulder"], "BIS") --Shoulderpads of the Intruder
 LBIS:AddItem(spec, "46127", LBIS.L["Shoulder"], "Alt") --Conqueror's Terrorblade Pauldrons
-LBIS:AddItem(spec, "45658", LBIS.L["Shoulder"], "Alt") --Mantle of the Wayward Vanquisher
 LBIS:AddItem(spec, "45265", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Monolith
 LBIS:AddItem(spec, "45400", LBIS.L["Shoulder"], "Alt") --Valorous Terrorblade Pauldrons
-LBIS:AddItem(spec, "45661", LBIS.L["Shoulder"], "Alt") --Spaulders of the Wayward Vanquisher
 LBIS:AddItem(spec, "45677", LBIS.L["Shoulder"], "Alt") --Treacherous Shoulderpads
 LBIS:AddItem(spec, "40502", LBIS.L["Shoulder"], "Alt") --Valorous Bonescythe Pauldrons
-LBIS:AddItem(spec, "40639", LBIS.L["Shoulder"], "Alt") --Mantle of the Lost Vanquisher
 
 LBIS:AddItem(spec, "45461", LBIS.L["Back"], "BIS") --Drape of Icy Intent
 LBIS:AddItem(spec, "46032", LBIS.L["Back"], "Alt") --Drape of the Faceless General
@@ -29,9 +23,7 @@ LBIS:AddItem(spec, "40403", LBIS.L["Back"], "Alt") --Drape of the Deadly Foe
 
 LBIS:AddItem(spec, "45473", LBIS.L["Chest"], "BIS") --Embrace of the Gladiator
 LBIS:AddItem(spec, "46123", LBIS.L["Chest"], "Alt") --Conqueror's Terrorblade Breastplate
-LBIS:AddItem(spec, "45634", LBIS.L["Chest"], "Alt") --Breastplate of the Wayward Vanquisher
 LBIS:AddItem(spec, "45396", LBIS.L["Chest"], "Alt") --Valorous Terrorblade Breastplate
-LBIS:AddItem(spec, "45637", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Vanquisher
 LBIS:AddItem(spec, "40539", LBIS.L["Chest"], "Alt") --Chestguard of the Recluse
 LBIS:AddItem(spec, "45453", LBIS.L["Chest"], "Alt") --Winter's Icy Embrace
 
@@ -42,10 +34,8 @@ LBIS:AddItem(spec, "40186", LBIS.L["Wrist"], "Alt") --Thrusting Bands
 LBIS:AddItem(spec, "39765", LBIS.L["Wrist"], "Alt") --Sinner's Bindings
 
 LBIS:AddItem(spec, "46124", LBIS.L["Hands"], "BIS") --Conqueror's Terrorblade Gauntlets
-LBIS:AddItem(spec, "45643", LBIS.L["Hands"], "BIS") --Gauntlets of the Wayward Vanquisher
 LBIS:AddItem(spec, "46043", LBIS.L["Hands"], "Alt") --Gloves of the Endless Dark
 LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "Alt") --Frosted Adroit Handguards
-LBIS:AddItem(spec, "45646", LBIS.L["Hands"], "Alt") --Gloves of the Wayward Vanquisher
 LBIS:AddItem(spec, "45397", LBIS.L["Hands"], "Alt") --Valorous Terrorblade Gauntlets
 LBIS:AddItem(spec, "45325", LBIS.L["Hands"], "Alt") --Gloves of the Stonereaper
 LBIS:AddItem(spec, "45838", LBIS.L["Hands"], "Alt") --Gloves of the Blind Stalker
@@ -63,10 +53,8 @@ LBIS:AddItem(spec, "45536", LBIS.L["Legs"], "BIS") --Legguards of Cunning Decept
 LBIS:AddItem(spec, "45141", LBIS.L["Legs"], "Alt") --Proto-hide Leggings
 LBIS:AddItem(spec, "45846", LBIS.L["Legs"], "Alt") --Leggings of Wavering Shadow
 LBIS:AddItem(spec, "46126", LBIS.L["Legs"], "Alt") --Conqueror's Terrorblade Legplates
-LBIS:AddItem(spec, "45655", LBIS.L["Legs"], "Alt") --Legplates of the Wayward Vanquisher
 LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "Alt") --Leggings of the Honored
 LBIS:AddItem(spec, "45399", LBIS.L["Legs"], "Alt") --Valorous Terrorblade Legplates
-LBIS:AddItem(spec, "45652", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Vanquisher
 
 LBIS:AddItem(spec, "45564", LBIS.L["Feet"], "BIS") --Footpads of Silence
 LBIS:AddItem(spec, "45232", LBIS.L["Feet"], "Alt") --Runed Ironhide Boots

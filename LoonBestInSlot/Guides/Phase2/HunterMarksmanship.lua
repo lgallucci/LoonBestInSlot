@@ -2,17 +2,14 @@ local spec = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marksmanship"], "2")
 
 LBIS:AddItem(spec, "45610", LBIS.L["Head"], "BIS") --Boundless Gaze
 LBIS:AddItem(spec, "46143", LBIS.L["Head"], "BIS") --Conqueror's Scourgestalker Headpiece
-LBIS:AddItem(spec, "45639", LBIS.L["Head"], "BIS") --Crown of the Wayward Protector
 LBIS:AddItem(spec, "45329", LBIS.L["Head"], "BIS") --Circlet of True Sight
 LBIS:AddItem(spec, "40543", LBIS.L["Head"], "BIS") --Blue Aspect Helm
 LBIS:AddItem(spec, "45164", LBIS.L["Head"], "Alt") --Helm of the Furnace Master
 LBIS:AddItem(spec, "45993", LBIS.L["Head"], "Alt") --Mimiron's Flight Goggles
 
 LBIS:AddItem(spec, "45300", LBIS.L["Shoulder"], "BIS") --Mantle of Fiery Vengeance
-LBIS:AddItem(spec, "45657", LBIS.L["Shoulder"], "BIS") --Mantle of the Wayward Protector
 LBIS:AddItem(spec, "46145", LBIS.L["Shoulder"], "BIS") --Conqueror's Scourgestalker Spaulders
 LBIS:AddItem(spec, "40507", LBIS.L["Shoulder"], "BIS") --Valorous Cryptstalker Spaulders
-LBIS:AddItem(spec, "40638", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Protector
 LBIS:AddItem(spec, "45543", LBIS.L["Shoulder"], "Alt") --Shoulders of Misfortune
 LBIS:AddItem(spec, "45227", LBIS.L["Shoulder"], "Alt") --Iron-studded Mantle
 LBIS:AddItem(spec, "45245", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Intruder
@@ -26,7 +23,6 @@ LBIS:AddItem(spec, "45224", LBIS.L["Back"], "Alt") --Drape of the Lithe
 
 LBIS:AddItem(spec, "45473", LBIS.L["Chest"], "BIS") --Embrace of the Gladiator
 LBIS:AddItem(spec, "46141", LBIS.L["Chest"], "BIS") --Conqueror's Scourgestalker Tunic
-LBIS:AddItem(spec, "45633", LBIS.L["Chest"], "BIS") --Breastplate of the Wayward Protector
 LBIS:AddItem(spec, "43998", LBIS.L["Chest"], "BIS") --Chestguard of Flagrant Prowess
 LBIS:AddItem(spec, "45524", LBIS.L["Chest"], "Alt") --Chestguard of Insidious Intent
 LBIS:AddItem(spec, "45941", LBIS.L["Chest"], "Alt") --Chestguard of the Lasher
@@ -42,7 +38,6 @@ LBIS:AddItem(spec, "45108", LBIS.L["Wrist"], "Alt") --Mechanist's Bindings
 LBIS:AddItem(spec, "45444", LBIS.L["Hands"], "BIS") --Gloves of the Steady Hand
 LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "BIS") --Frosted Adroit Handguards
 LBIS:AddItem(spec, "46142", LBIS.L["Hands"], "Alt") --Conqueror's Scourgestalker Handguards
-LBIS:AddItem(spec, "45642", LBIS.L["Hands"], "Alt") --Gauntlets of the Wayward Protector
 LBIS:AddItem(spec, "45836", LBIS.L["Hands"], "Alt") --Gloves of Unerring Aim
 LBIS:AddItem(spec, "45109", LBIS.L["Hands"], "Alt") --Gloves of the Fiery Behemoth
 LBIS:AddItem(spec, "46043", LBIS.L["Hands"], "Alt") --Gloves of the Endless Dark
@@ -56,7 +51,6 @@ LBIS:AddItem(spec, "45827", LBIS.L["Waist"], "Alt") --Belt of the Ardent Marksma
 
 LBIS:AddItem(spec, "45536", LBIS.L["Legs"], "BIS") --Legguards of Cunning Deception
 LBIS:AddItem(spec, "46144", LBIS.L["Legs"], "BIS") --Conqueror's Scourgestalker Legguards
-LBIS:AddItem(spec, "45654", LBIS.L["Legs"], "BIS") --Legplates of the Wayward Protector
 LBIS:AddItem(spec, "40331", LBIS.L["Legs"], "BIS") --Leggings of Failed Escape
 LBIS:AddItem(spec, "45143", LBIS.L["Legs"], "Alt") --Saronite Mesh Legguards
 LBIS:AddItem(spec, "45844", LBIS.L["Legs"], "Alt") --Leggings of the Tireless Sentry

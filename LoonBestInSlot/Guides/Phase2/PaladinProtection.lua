@@ -2,20 +2,14 @@ local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "2")
 
 LBIS:AddItem(spec, "45502", LBIS.L["Head"], "BIS") --Helm of the Faceless
 LBIS:AddItem(spec, "46175", LBIS.L["Head"], "BIS") --Conqueror's Aegis Faceguard
-LBIS:AddItem(spec, "45638", LBIS.L["Head"], "BIS") --Crown of the Wayward Conqueror
 LBIS:AddItem(spec, "40581", LBIS.L["Head"], "BIS") --Valorous Redemption Faceguard
-LBIS:AddItem(spec, "40631", LBIS.L["Head"], "BIS") --Crown of the Lost Conqueror
 LBIS:AddItem(spec, "45382", LBIS.L["Head"], "Alt") --Valorous Aegis Faceguard
-LBIS:AddItem(spec, "45647", LBIS.L["Head"], "Alt") --Helm of the Wayward Conqueror
 LBIS:AddItem(spec, "45935", LBIS.L["Head"], "Alt") --Ironbark Faceguard
 
-LBIS:AddItem(spec, "40637", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Conqueror
 LBIS:AddItem(spec, "40584", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Shoulderguards
 LBIS:AddItem(spec, "45251", LBIS.L["Shoulder"], "Alt") --Shoulderplates of the Deconstructor
 LBIS:AddItem(spec, "46177", LBIS.L["Shoulder"], "Alt") --Conqueror's Aegis Shoulderguards
-LBIS:AddItem(spec, "45656", LBIS.L["Shoulder"], "Alt") --Mantle of the Wayward Conqueror
 LBIS:AddItem(spec, "45385", LBIS.L["Shoulder"], "Alt") --Valorous Aegis Shoulderguards
-LBIS:AddItem(spec, "45659", LBIS.L["Shoulder"], "Alt") --Spaulders of the Wayward Conqueror
 
 LBIS:AddItem(spec, "45496", LBIS.L["Back"], "BIS") --Titanskin Cloak
 LBIS:AddItem(spec, "40722", LBIS.L["Back"], "BIS") --Platinum Mesh Cloak
@@ -23,10 +17,8 @@ LBIS:AddItem(spec, "45319", LBIS.L["Back"], "Alt") --Cloak of the Makers
 LBIS:AddItem(spec, "46014", LBIS.L["Back"], "Alt") --Saronite Animus Cloak
 
 LBIS:AddItem(spec, "46173", LBIS.L["Chest"], "BIS") --Conqueror's Aegis Breastplate
-LBIS:AddItem(spec, "45632", LBIS.L["Chest"], "BIS") --Breastplate of the Wayward Conqueror
 LBIS:AddItem(spec, "46039", LBIS.L["Chest"], "Alt") --Breastplate of the Timeless
 LBIS:AddItem(spec, "45381", LBIS.L["Chest"], "Alt") --Valorous Aegis Breastplate
-LBIS:AddItem(spec, "45635", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Conqueror
 LBIS:AddItem(spec, "45334", LBIS.L["Chest"], "Alt") --Unbreakable Chestguard
 LBIS:AddItem(spec, "44000", LBIS.L["Chest"], "Alt") --Dragonstorm Breastplate
 
@@ -37,12 +29,9 @@ LBIS:AddItem(spec, "40734", LBIS.L["Wrist"], "Alt") --Bracers of Dalaran's Parap
 
 LBIS:AddItem(spec, "45487", LBIS.L["Hands"], "BIS") --Handguards of Revitalization
 LBIS:AddItem(spec, "40580", LBIS.L["Hands"], "BIS") --Valorous Redemption Handguards
-LBIS:AddItem(spec, "40628", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Conqueror
 LBIS:AddItem(spec, "45834", LBIS.L["Hands"], "Alt") --Gauntlets of the Royal Watch
-LBIS:AddItem(spec, "45641", LBIS.L["Hands"], "Alt Mit") --Gauntlets of the Wayward Conqueror
 LBIS:AddItem(spec, "46174", LBIS.L["Hands"], "Alt Mit") --Conqueror's Aegis Handguards
 LBIS:AddItem(spec, "45383", LBIS.L["Hands"], "Alt Mit") --Valorous Aegis Handguards
-LBIS:AddItem(spec, "45644", LBIS.L["Hands"], "Alt Mit") --Gloves of the Wayward Conqueror
 LBIS:AddItem(spec, "45228", LBIS.L["Hands"], "Alt") --Handguards of the Enclave
 LBIS:AddItem(spec, "45310", LBIS.L["Hands"], "Alt") --Gauntlets of the Iron Furnace
 
@@ -56,10 +45,8 @@ LBIS:AddItem(spec, "45139", LBIS.L["Waist"], "Alt") --Dragonslayer's Brace
 LBIS:AddItem(spec, "45594", LBIS.L["Legs"], "BIS") --Legplates of the Endless Void
 LBIS:AddItem(spec, "40589", LBIS.L["Legs"], "BIS") --Legplates of Sovereignty
 LBIS:AddItem(spec, "46176", LBIS.L["Legs"], "Alt") --Conqueror's Aegis Legguards
-LBIS:AddItem(spec, "45653", LBIS.L["Legs"], "Alt") --Legplates of the Wayward Conqueror
 LBIS:AddItem(spec, "45267", LBIS.L["Legs"], "Alt") --Saronite Plated Legguards
 LBIS:AddItem(spec, "45384", LBIS.L["Legs"], "Alt") --Valorous Aegis Legguards
-LBIS:AddItem(spec, "45650", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Conqueror
 LBIS:AddItem(spec, "45295", LBIS.L["Legs"], "Alt") --Gilded Steel Legplates
 LBIS:AddItem(spec, "45842", LBIS.L["Legs"], "Alt") --Wyrmguard Legplates
 

@@ -2,14 +2,12 @@ local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "2")
 
 LBIS:AddItem(spec, "45497", LBIS.L["Head"], "BIS") --Crown of Luminescence
 LBIS:AddItem(spec, "46191", LBIS.L["Head"], "BIS") --Conqueror's Nightsong Cover
-LBIS:AddItem(spec, "45640", LBIS.L["Head"], "BIS") --Crown of the Wayward Vanquisher
 LBIS:AddItem(spec, "45439", LBIS.L["Head"], "Alt") --Unwavering Stare
 LBIS:AddItem(spec, "45532", LBIS.L["Head"], "Alt") --Cowl of Dark Whispers
 LBIS:AddItem(spec, "45150", LBIS.L["Head"], "Alt") --Collar of the Wyrmhunter
 LBIS:AddItem(spec, "45864", LBIS.L["Head"], "Alt") --Cover of the Keepers
 
 LBIS:AddItem(spec, "46196", LBIS.L["Shoulder"], "BIS") --Conqueror's Nightsong Mantle
-LBIS:AddItem(spec, "45658", LBIS.L["Shoulder"], "BIS") --Mantle of the Wayward Vanquisher
 LBIS:AddItem(spec, "45136", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Dormant Energies
 LBIS:AddItem(spec, "46068", LBIS.L["Shoulder"], "Alt") --Amice of Inconceivable Horror
 LBIS:AddItem(spec, "45492", LBIS.L["Shoulder"], "Alt") --Malleable Steelweave Mantle
@@ -25,10 +23,8 @@ LBIS:AddItem(spec, "46341", LBIS.L["Back"], "Alt") --Drape of the Spellweaver
 
 LBIS:AddItem(spec, "45519", LBIS.L["Chest"], "BIS") --Vestments of the Blind Denizen
 LBIS:AddItem(spec, "46194", LBIS.L["Chest"], "BIS") --Conqueror's Nightsong Vestments
-LBIS:AddItem(spec, "45634", LBIS.L["Chest"], "BIS") --Breastplate of the Wayward Vanquisher
 LBIS:AddItem(spec, "45272", LBIS.L["Chest"], "Alt") --Robes of the Umbral Brute
 LBIS:AddItem(spec, "45354", LBIS.L["Chest"], "Alt") --Valorous Nightsong Vestments
-LBIS:AddItem(spec, "45637", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Vanquisher
 LBIS:AddItem(spec, "45240", LBIS.L["Chest"], "Alt") --Raiments of the Iron Council
 LBIS:AddItem(spec, "45237", LBIS.L["Chest"], "Alt") --Phaelia's Vestments of the Sprouting Seed
 
@@ -56,7 +52,6 @@ LBIS:AddItem(spec, "45557", LBIS.L["Waist"], "Alt") --Sash of Ancient Power
 
 LBIS:AddItem(spec, "45488", LBIS.L["Legs"], "BIS") --Leggings of the Enslaved Idol
 LBIS:AddItem(spec, "46192", LBIS.L["Legs"], "BIS") --Conqueror's Nightsong Trousers
-LBIS:AddItem(spec, "45655", LBIS.L["Legs"], "BIS") --Legplates of the Wayward Vanquisher
 LBIS:AddItem(spec, "46049", LBIS.L["Legs"], "Alt") --Zodiac Leggings
 LBIS:AddItem(spec, "46034", LBIS.L["Legs"], "Alt") --Leggings of Profound Darkness
 LBIS:AddItem(spec, "45847", LBIS.L["Legs"], "Alt") --Wildstrider Legguards

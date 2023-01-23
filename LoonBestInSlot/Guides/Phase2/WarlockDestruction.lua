@@ -4,19 +4,16 @@ LBIS:AddItem(spec, "45497", LBIS.L["Head"], "BIS") --Crown of Luminescence
 LBIS:AddItem(spec, "45532", LBIS.L["Head"], "Alt") --Cowl of Dark Whispers
 LBIS:AddItem(spec, "45150", LBIS.L["Head"], "Alt") --Collar of the Wyrmhunter
 LBIS:AddItem(spec, "46140", LBIS.L["Head"], "Alt") --Conqueror's Deathbringer Hood
-LBIS:AddItem(spec, "45638", LBIS.L["Head"], "Alt") --Crown of the Wayward Conqueror
 LBIS:AddItem(spec, "40562", LBIS.L["Head"], "Alt") --Hood of Rationality
 LBIS:AddItem(spec, "45289", LBIS.L["Head"], "Alt") --Lifespark Visage
 
 LBIS:AddItem(spec, "46068", LBIS.L["Shoulder"], "BIS") --Amice of Inconceivable Horror
 LBIS:AddItem(spec, "46136", LBIS.L["Shoulder"], "BIS") --Conqueror's Deathbringer Shoulderpads
-LBIS:AddItem(spec, "45656", LBIS.L["Shoulder"], "BIS") --Mantle of the Wayward Conqueror
 LBIS:AddItem(spec, "45253", LBIS.L["Shoulder"], "Alt") --Mantle of Wavering Calm
 LBIS:AddItem(spec, "45514", LBIS.L["Shoulder"], "Alt") --Mantle of the Unknowing
 LBIS:AddItem(spec, "46013", LBIS.L["Shoulder"], "Alt") --Underworld Mantle
 LBIS:AddItem(spec, "45186", LBIS.L["Shoulder"], "Alt") --Soot-Covered Mantle
 LBIS:AddItem(spec, "45422", LBIS.L["Shoulder"], "Alt") --Valorous Deathbringer Shoulderpads
-LBIS:AddItem(spec, "45659", LBIS.L["Shoulder"], "Alt") --Spaulders of the Wayward Conqueror
 
 LBIS:AddItem(spec, "45618", LBIS.L["Back"], "BIS") --Sunglimmer Cloak
 LBIS:AddItem(spec, "45242", LBIS.L["Back"], "Alt") --Drape of Mortal Downfall
@@ -26,11 +23,9 @@ LBIS:AddItem(spec, "45493", LBIS.L["Back"], "Alt") --Asimov's Drape
 LBIS:AddItem(spec, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
 
 LBIS:AddItem(spec, "46137", LBIS.L["Chest"], "BIS") --Conqueror's Deathbringer Robe
-LBIS:AddItem(spec, "45632", LBIS.L["Chest"], "BIS") --Breastplate of the Wayward Conqueror
 LBIS:AddItem(spec, "45240", LBIS.L["Chest"], "Alt") --Raiments of the Iron Council
 LBIS:AddItem(spec, "45272", LBIS.L["Chest"], "Alt") --Robes of the Umbral Brute
 LBIS:AddItem(spec, "45421", LBIS.L["Chest"], "Alt") --Valorous Deathbringer Robe
-LBIS:AddItem(spec, "45635", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Conqueror
 LBIS:AddItem(spec, "46012", LBIS.L["Chest"], "Alt") --Vestments of the Piercing Light
 LBIS:AddItem(spec, "44002", LBIS.L["Chest"], "Alt") --The Sanctum's Flowing Vestments
 LBIS:AddItem(spec, "45865", LBIS.L["Chest"], "Alt") --Raiments of the Corrupted
@@ -51,7 +46,6 @@ LBIS:AddItem(spec, "46045", LBIS.L["Hands"], "Alt") --Pulsar Gloves
 LBIS:AddItem(spec, "45273", LBIS.L["Hands"], "Alt") --Handwraps of Plentiful Recovery
 LBIS:AddItem(spec, "45840", LBIS.L["Hands"], "Alt") --Touch of the Occult
 LBIS:AddItem(spec, "46135", LBIS.L["Hands"], "Alt") --Conqueror's Deathbringer Gloves
-LBIS:AddItem(spec, "45641", LBIS.L["Hands"], "Alt") --Gauntlets of the Wayward Conqueror
 LBIS:AddItem(spec, "45117", LBIS.L["Hands"], "Alt") --Constructor's Handwraps
 
 LBIS:AddItem(spec, "45619", LBIS.L["Waist"], "BIS") --Starwatcher's Binding
@@ -64,13 +58,11 @@ LBIS:AddItem(spec, "45831", LBIS.L["Waist"], "Alt") --Sash of Potent Incantation
 
 LBIS:AddItem(spec, "45488", LBIS.L["Legs"], "BIS") --Leggings of the Enslaved Idol
 LBIS:AddItem(spec, "46139", LBIS.L["Legs"], "BIS") --Conqueror's Deathbringer Leggings
-LBIS:AddItem(spec, "45653", LBIS.L["Legs"], "BIS") --Legplates of the Wayward Conqueror
 LBIS:AddItem(spec, "46034", LBIS.L["Legs"], "Alt") --Leggings of Profound Darkness
 LBIS:AddItem(spec, "45468", LBIS.L["Legs"], "Alt") --Leggings of Lost Love
 LBIS:AddItem(spec, "45848", LBIS.L["Legs"], "Alt") --Legwraps of the Master Conjurer
 LBIS:AddItem(spec, "45238", LBIS.L["Legs"], "Alt") --Overload Legwraps
 LBIS:AddItem(spec, "45420", LBIS.L["Legs"], "Alt") --Valorous Deathbringer Leggings
-LBIS:AddItem(spec, "45650", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Conqueror
 LBIS:AddItem(spec, "40398", LBIS.L["Legs"], "Alt") --Leggings of Mortal Arrogance
 LBIS:AddItem(spec, "40560", LBIS.L["Legs"], "Alt") --Leggings of the Wanton Spellcaster
 
