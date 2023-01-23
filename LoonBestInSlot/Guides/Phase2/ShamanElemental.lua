@@ -61,6 +61,7 @@ LBIS:AddItem(spec, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
 LBIS:AddItem(spec, "45614", LBIS.L["Ring"], "Alt") --Starshine Circle
 LBIS:AddItem(spec, "45946", LBIS.L["Ring"], "Alt") --Fire Orchid Signet
 LBIS:AddItem(spec, "45168", LBIS.L["Ring"], "Alt") --Pyrelight Circle
+LBIS:AddItem(spec, "45451", LBIS.L["Ring"], "Alt") --Frozen Loop
 LBIS:AddItem(spec, "40399", LBIS.L["Ring"], "Alt") --Signet of Manifested Pain
 
 LBIS:AddItem(spec, "45518", LBIS.L["Trinket"], "BIS") --Flare of the Heavens

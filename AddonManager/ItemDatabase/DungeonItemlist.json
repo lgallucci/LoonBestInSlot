@@ -4937,66 +4937,66 @@
         },
         "40616": {
             "Name": "Helm of the Lost Conqueror",
-            "Source": "Unknown Boss",
+            "Source": "Final Boss",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Any (Heroic+)"
         },
         "40617": {
             "Name": "Helm of the Lost Protector",
-            "Source": "Unknown Boss",
+            "Source": "Final Boss",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Any (Heroic+)"
         },
         "40618": {
             "Name": "Helm of the Lost Vanquisher",
-            "Source": "Unknown Boss",
+            "Source": "Final Boss",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Any (Heroic+)"
         },
         "40619": {
             "Name": "Leggings of the Lost Conqueror",
-            "Source": "Unknown Boss",
+            "Source": "Final Boss",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Any (Heroic+)"
         },
         "40620": {
             "Name": "Leggings of the Lost Protector",
-            "Source": "Unknown Boss",
+            "Source": "Final Boss",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Any (Heroic+)"
         },
         "40621": {
             "Name": "Leggings of the Lost Vanquisher",
-            "Source": "Unknown Boss",
+            "Source": "Final Boss",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Any (Heroic+)"
         },
         "40622": {
             "Name": "Spaulders of the Lost Conqueror",
-            "Source": "Unknown Boss",
+            "Source": "Final Boss",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Any (Heroic+)"
         },
         "40623": {
             "Name": "Spaulders of the Lost Protector",
-            "Source": "Unknown Boss",
+            "Source": "Final Boss",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Any (Heroic+)"
         },
         "40624": {
             "Name": "Spaulders of the Lost Vanquisher",
-            "Source": "Unknown Boss",
+            "Source": "Final Boss",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Any (Heroic+)"
         },
         "39139": {
             "Name": "Ravaging Sabatons",
@@ -5063,10 +5063,10 @@
         },
         "39193": {
             "Name": "Band of Neglected Pleas",
-            "Source": "Unknown Boss",
+            "Source": "The Tribunal of Ages",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Stone (Heroic+)"
         },
         "39194": {
             "Name": "Rusted-Link Spiked Gauntlets",
@@ -5714,10 +5714,10 @@
         },
         "39396": {
             "Name": "Gown of Blaumeux",
-            "Source": "Unknown Boss",
+            "Source": "Anomalus",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Nexus (Heroic+)"
         },
         "39397": {
             "Name": "Pauldrons of Havoc",
@@ -5826,10 +5826,10 @@
         },
         "39421": {
             "Name": "Gem of Imprisoned Vassals",
-            "Source": "Unknown Boss",
+            "Source": "King Ymiron",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Utgarde Pinnacle (Heroic+)"
         },
         "39422": {
             "Name": "Staff of the Plaguehound",
@@ -5854,10 +5854,10 @@
         },
         "39425": {
             "Name": "Cloak of the Dying",
-            "Source": "Unknown Boss",
+            "Source": "Anub'arak",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Azjol-Nerub (Heroic+)"
         },
         "39426": {
             "Name": "Wand of the Archlich",
@@ -5875,10 +5875,10 @@
         },
         "39467": {
             "Name": "Minion Bracers",
-            "Source": "Unknown Boss",
+            "Source": "Infinite Corruptor",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "39468": {
             "Name": "The Stray",
@@ -5889,10 +5889,10 @@
         },
         "39470": {
             "Name": "Medallion of the Disgraced",
-            "Source": "Unknown Boss",
+            "Source": "Infinite Corruptor",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "39472": {
             "Name": "Chain of Latent Energies",
@@ -5910,10 +5910,10 @@
         },
         "40426": {
             "Name": "Signet of the Accord",
-            "Source": "Unknown Boss",
+            "Source": "Loken",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Halls of Lightning (Heroic+)"
         },
         "40427": {
             "Name": "Circle of Arcane Streams",
@@ -5938,48 +5938,13 @@
         },
         "40430": {
             "Name": "Majestic Dragon Figurine",
-            "Source": "Unknown Boss",
+            "Source": "Chrono-Lord Epoch",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "40433": {
             "Name": "Wyrmrest Band",
-            "Source": "Unknown Boss",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
-        },
-        "40613": {
-            "Name": "Gloves of the Lost Conqueror",
-            "Source": "Unknown Boss",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
-        },
-        "40614": {
-            "Name": "Gloves of the Lost Protector",
-            "Source": "Unknown Boss",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
-        },
-        "40615": {
-            "Name": "Gloves of the Lost Vanquisher",
-            "Source": "Unknown Boss",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
-        },
-        "43954": {
-            "Name": "Reins of the Twilight Drake",
-            "Source": "Unknown Boss",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
-        },
-        "43986": {
-            "Name": "Reins of the Black Drake",
             "Source": "Unknown Boss",
             "SourceType": "Drop",
             "SourceNumber": "0",
@@ -6001,10 +5966,10 @@
         },
         "43990": {
             "Name": "Blade-Scarred Tunic",
-            "Source": "Unknown Boss",
+            "Source": "Chrono-Lord Epoch",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Culling of Stratholme (Heroic+)"
         },
         "43991": {
             "Name": "Legguards of Composure",
@@ -6043,10 +6008,10 @@
         },
         "43996": {
             "Name": "Sabatons of Firmament",
-            "Source": "Unknown Boss",
+            "Source": "The Prophet Tharon'ja",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Drak'Tharon Keep (Heroic+)"
         },
         "43998": {
             "Name": "Chestguard of Flagrant Prowess",
@@ -6092,10 +6057,10 @@
         },
         "40491": {
             "Name": "Hailstorm",
-            "Source": "Unknown Boss",
+            "Source": "Gal'darah",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "Gundrak (Heroic+)"
         },
         "40497": {
             "Name": "Black Ice",
