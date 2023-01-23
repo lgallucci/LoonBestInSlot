@@ -21,8 +21,8 @@ LBIS:AddItem(spec, "46321", LBIS.L["Back"], "Alt") --Sunglimmer Drape
 LBIS:AddItem(spec, "46042", LBIS.L["Back"], "Alt") --Drape of the Messenger
 LBIS:AddItem(spec, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
 
+LBIS:AddItem(spec, "45272", LBIS.L["Chest"], "BIS") --Robes of the Umbral Brute
 LBIS:AddItem(spec, "46137", LBIS.L["Chest"], "BIS") --Conqueror's Deathbringer Robe
-LBIS:AddItem(spec, "45272", LBIS.L["Chest"], "Alt") --Robes of the Umbral Brute
 LBIS:AddItem(spec, "45240", LBIS.L["Chest"], "Alt") --Raiments of the Iron Council
 LBIS:AddItem(spec, "45421", LBIS.L["Chest"], "Alt") --Valorous Deathbringer Robe
 LBIS:AddItem(spec, "44002", LBIS.L["Chest"], "Alt") --The Sanctum's Flowing Vestments
@@ -54,8 +54,8 @@ LBIS:AddItem(spec, "40561", LBIS.L["Waist"], "Alt") --Leash of Heedless Magic
 LBIS:AddItem(spec, "45508", LBIS.L["Waist"], "Alt") --Belt of the Darkspeaker
 LBIS:AddItem(spec, "45831", LBIS.L["Waist"], "Alt") --Sash of Potent Incantations
 
+LBIS:AddItem(spec, "45488", LBIS.L["Legs"], "BIS") --Leggings of the Enslaved Idol
 LBIS:AddItem(spec, "46139", LBIS.L["Legs"], "BIS") --Conqueror's Deathbringer Leggings
-LBIS:AddItem(spec, "45488", LBIS.L["Legs"], "Alt") --Leggings of the Enslaved Idol
 LBIS:AddItem(spec, "46034", LBIS.L["Legs"], "Alt") --Leggings of Profound Darkness
 LBIS:AddItem(spec, "45468", LBIS.L["Legs"], "Alt") --Leggings of Lost Love
 LBIS:AddItem(spec, "45238", LBIS.L["Legs"], "Alt") --Overload Legwraps

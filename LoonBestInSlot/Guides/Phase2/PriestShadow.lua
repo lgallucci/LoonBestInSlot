@@ -115,8 +115,8 @@ LBIS:AddItem(spec, "45535", LBIS.L["Trinket"], "Alt") --Show of Faith
 LBIS:AddItem(spec, "45929", LBIS.L["Trinket"], "Alt") --Sif's Remembrance
 LBIS:AddItem(spec, "45490", LBIS.L["Trinket"], "Alt") --Pandora's Plea
 
+LBIS:AddItem(spec, "46017", LBIS.L["Main Hand"], "BIS") --Val'anyr, Hammer of Ancient Kings
 LBIS:AddItem(spec, "45620", LBIS.L["Main Hand"], "BIS") --Starshard Edge
-LBIS:AddItem(spec, "46017", LBIS.L["Main Hand"], "Alt") --Val'anyr, Hammer of Ancient Kings
 LBIS:AddItem(spec, "45612", LBIS.L["Main Hand"], "Alt") --Constellus
 LBIS:AddItem(spec, "46035", LBIS.L["Main Hand"], "Alt") --Aesuga, Hand of the Ardent Champion
 LBIS:AddItem(spec, "45527", LBIS.L["Main Hand"], "Alt") --Soulscribe
@@ -129,7 +129,7 @@ LBIS:AddItem(spec, "45314", LBIS.L["Off Hand"], "Alt") --Igniter Rod
 LBIS:AddItem(spec, "45115", LBIS.L["Off Hand"], "Alt") --Leviathan Fueling Manual
 LBIS:AddItem(spec, "45271", LBIS.L["Off Hand"], "Alt") --Ironmender
 
-LBIS:AddItem(spec, "45457", LBIS.L["Two Hand"], "Alt") --Staff of Endless Winter
+LBIS:AddItem(spec, "45457", LBIS.L["Two Hand"], "BIS") --Staff of Endless Winter
 LBIS:AddItem(spec, "45886", LBIS.L["Two Hand"], "Alt") --Icecore Staff
 LBIS:AddItem(spec, "45234", LBIS.L["Two Hand"], "Alt") --Rapture
 LBIS:AddItem(spec, "45171", LBIS.L["Two Hand"], "Alt") --Intensity

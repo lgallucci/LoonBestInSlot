@@ -95,7 +95,7 @@ LBIS:AddItem(spec, "45314", LBIS.L["Off Hand"], "Alt") --Igniter Rod
 LBIS:AddItem(spec, "40192", LBIS.L["Off Hand"], "Alt") --Accursed Spine
 LBIS:AddItem(spec, "40273", LBIS.L["Off Hand"], "Alt") --Surplus Limb
 
-LBIS:AddItem(spec, "45457", LBIS.L["Two Hand"], "Alt") --Staff of Endless Winter
+LBIS:AddItem(spec, "45457", LBIS.L["Two Hand"], "BIS") --Staff of Endless Winter
 LBIS:AddItem(spec, "45886", LBIS.L["Two Hand"], "Alt") --Icecore Staff
 LBIS:AddItem(spec, "45479", LBIS.L["Two Hand"], "Alt") --The Lifebinder
 

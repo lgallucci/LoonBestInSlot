@@ -21,9 +21,9 @@ LBIS:AddItem(spec, "46321", LBIS.L["Back"], "Alt") --Sunglimmer Drape
 LBIS:AddItem(spec, "46042", LBIS.L["Back"], "Alt") --Drape of the Messenger
 LBIS:AddItem(spec, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
 
+LBIS:AddItem(spec, "45272", LBIS.L["Chest"], "BIS") --Robes of the Umbral Brute
 LBIS:AddItem(spec, "45240", LBIS.L["Chest"], "BIS") --Raiments of the Iron Council
 LBIS:AddItem(spec, "46137", LBIS.L["Chest"], "BIS") --Conqueror's Deathbringer Robe
-LBIS:AddItem(spec, "45272", LBIS.L["Chest"], "Alt") --Robes of the Umbral Brute
 LBIS:AddItem(spec, "45421", LBIS.L["Chest"], "Alt") --Valorous Deathbringer Robe
 LBIS:AddItem(spec, "46012", LBIS.L["Chest"], "Alt") --Vestments of the Piercing Light
 LBIS:AddItem(spec, "44002", LBIS.L["Chest"], "Alt") --The Sanctum's Flowing Vestments

@@ -28,7 +28,7 @@ LBIS:AddItem(spec, "45240", LBIS.L["Chest"], "Alt") --Raiments of the Iron Counc
 LBIS:AddItem(spec, "44002", LBIS.L["Chest"], "Alt") --The Sanctum's Flowing Vestments
 LBIS:AddItem(spec, "40418", LBIS.L["Chest"], "Alt") --Valorous Frostfire Robe
 
-LBIS:AddItem(spec, "45446", LBIS.L["Wrist"], "Alt") --Grasps of Reason
+LBIS:AddItem(spec, "45446", LBIS.L["Wrist"], "BIS") --Grasps of Reason
 LBIS:AddItem(spec, "44008", LBIS.L["Wrist"], "Alt") --Unsullied Cuffs
 LBIS:AddItem(spec, "45275", LBIS.L["Wrist"], "Alt") --Bracers of Unleashed Magic
 

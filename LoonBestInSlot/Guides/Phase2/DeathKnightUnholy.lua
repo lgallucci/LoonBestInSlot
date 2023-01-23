@@ -19,7 +19,7 @@ LBIS:AddItem(spec, "45973", LBIS.L["Back"], "Alt") --Stylish Power Cape
 LBIS:AddItem(spec, "40403", LBIS.L["Back"], "Alt") --Drape of the Deadly Foe
 
 LBIS:AddItem(spec, "46111", LBIS.L["Chest"], "BIS") --Conqueror's Darkruned Battleplate
-LBIS:AddItem(spec, "45473", LBIS.L["Chest"], "BIS") --Embrace of the Gladiator
+LBIS:AddItem(spec, "45473", LBIS.L["Chest"], "Alt") --Embrace of the Gladiator
 LBIS:AddItem(spec, "45225", LBIS.L["Chest"], "Alt") --Steelbreaker's Embrace
 LBIS:AddItem(spec, "45340", LBIS.L["Chest"], "Alt") --Valorous Darkruned Battleplate
 LBIS:AddItem(spec, "45712", LBIS.L["Chest"], "Alt") --Chestplate of Titanic Fury
@@ -30,7 +30,7 @@ LBIS:AddItem(spec, "45264", LBIS.L["Wrist"], "Alt") --Decimator's Armguards
 LBIS:AddItem(spec, "40330", LBIS.L["Wrist"], "Alt") --Bracers of Unrelenting Attack
 
 LBIS:AddItem(spec, "45481", LBIS.L["Hands"], "BIS") --Gauntlets of Ruthless Reprisal
-LBIS:AddItem(spec, "45444", LBIS.L["Hands"], "BIS") --Gloves of the Steady Hand
+LBIS:AddItem(spec, "45444", LBIS.L["Hands"], "Alt") --Gloves of the Steady Hand
 LBIS:AddItem(spec, "46113", LBIS.L["Hands"], "Alt") --Conqueror's Darkruned Gauntlets
 LBIS:AddItem(spec, "45341", LBIS.L["Hands"], "Alt") --Valorous Darkruned Gauntlets
 LBIS:AddItem(spec, "45833", LBIS.L["Hands"], "Alt") --Bladebreaker Gauntlets

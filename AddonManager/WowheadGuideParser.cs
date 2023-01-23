@@ -223,6 +223,7 @@ public class WowheadGuideParser
 
             LoopThroughMappings(doc, classGuide, (table, slot, htmlId) =>
             {
+                bool first = true;
                 LoopThroughTable(table, (tableRow, itemChild, itemOrderIndex, isTierList) =>
                 {
                     string htmlBisText = string.Empty, rankText = string.Empty;
@@ -231,10 +232,11 @@ public class WowheadGuideParser
 
                     htmlBisText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
 
-                    var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList);
+                    var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList, first);
 
                     if (itemChild != null)
                         ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText), items, itemOrderIndex);
+                    first = false;
                 });
             });
         });
@@ -251,16 +253,19 @@ public class WowheadGuideParser
         return slot;
     }
 
-    private string GetBisStatus(string htmlBisText, string rankText, bool isTierList)
+    private string GetBisStatus(string htmlBisText, string rankText, bool isTierList, bool first)
     {
+
         var bisText = string.Empty;
-        if (isTierList)
+        if (first)
+            bisText = "BIS";
+        else if (isTierList)
         {
             bisText = rankText.Contains("S") ? "BIS" : "Alt";
         }
         else
         {
-            if (new List<string> { "prebis", "tbc", "pre-raid", "pre-bis", "alternate" }.Any(s => htmlBisText?.ToLower().Contains(s) ?? false))
+            if (new List<string> { "prebis", "tbc", "pre-raid", "pre-bis", "phase 1", "p1", "alt" }.Any(s => htmlBisText?.ToLower().Contains(s) ?? false))
             {
                 bisText = "Alt";
             }

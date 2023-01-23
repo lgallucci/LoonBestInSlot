@@ -59,8 +59,8 @@ LBIS:AddItem(spec, "45874", LBIS.L["Ring"], "BIS") --Signet of Winter
 LBIS:AddItem(spec, "45326", LBIS.L["Ring"], "Alt") --Platinum Band of the Aesir
 LBIS:AddItem(spec, "45112", LBIS.L["Ring"], "Alt") --The Leviathan's Coil
 
+LBIS:AddItem(spec, "45158", LBIS.L["Trinket"], "BIS Stam") --Heart of Iron
 LBIS:AddItem(spec, "45313", LBIS.L["Trinket"], "BIS") --Furnace Stone
-LBIS:AddItem(spec, "45158", LBIS.L["Trinket"], "Alt Stam") --Heart of Iron
 LBIS:AddItem(spec, "46021", LBIS.L["Trinket"], "Alt Stam") --Royal Seal of King Llane
 LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "Alt Stam") --Figurine - Monarch Crab
 LBIS:AddItem(spec, "40257", LBIS.L["Trinket"], "Alt Mit") --Defender's Code
@@ -80,4 +80,4 @@ LBIS:AddItem(spec, "45450", LBIS.L["Off Hand"], "BIS Thrt") --Northern Barrier
 LBIS:AddItem(spec, "45707", LBIS.L["Off Hand"], "Alt") --Shieldwall of the Breaker
 
 LBIS:AddItem(spec, "45137", LBIS.L["Ranged/Relic"], "BIS") --Veranus' Bane
-LBIS:AddItem(spec, "41168", LBIS.L["Ranged/Relic"], "BIS") --Armor Plated Combat Shotgun
+LBIS:AddItem(spec, "41168", LBIS.L["Ranged/Relic"], "Alt") --Armor Plated Combat Shotgun
