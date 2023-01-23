@@ -9,6 +9,7 @@ LBIS:AddGem(spec1, "39998", "3", "False") --Runed Scarlet Ruby
 LBIS:AddGem(spec1, "40051", "3", "False") --Reckless Monarch Topaz
 LBIS:AddGem(spec1, "40017", "3", "False") --Quick Autumn's Glow
 LBIS:AddGem(spec1, "40026", "3", "False") --Purified Twilight Opal
+LBIS:AddGem(spec1, "40104", "3", "False") --Intricate Forest Emerald
 
 
 LBIS:AddEnchant(spec1, "50370", LBIS.L["Head"]) --Arcanum of Blissful Mending

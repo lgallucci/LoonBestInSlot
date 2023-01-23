@@ -21,6 +21,7 @@ Settings.lua
 DB\ItemSources.lua
 DB\GemSources.lua
 DB\EnchantSources.lua
+DB\TierSources.lua
 
 LoonBestInSlot.lua
 Common.lua

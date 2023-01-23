@@ -97,6 +97,7 @@ public class ClassSpecGuideMappings
             { ("Gem", "h3#purple-gems+.box~.box~.box") },
             { ("Gem", "h3#green-gems+.box") },
             { ("Gem", "h3#green-gems+.box~.box") },
+
             { ("Head", "h3#helm-enchants+.box") },
             { ("Shoulder", "h3#shoulder-enchants+.box") },
             { ("Back", "h3#cloak-enchants+.box") },
@@ -454,6 +455,7 @@ public class ClassSpecGuideMappings
             { ("Gem", "h2#best-gems+.box~.box~.box") },
             { ("Gem", "h2#best-gems+.box~.box~.box~.box") },
             { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box") },
+            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box~.box") },
 
             { ("Head", "h2#best-enchants~.box") },
             { ("Shoulder", "h2#best-enchants~.box~.box") },
@@ -1051,6 +1053,67 @@ public class ClassSpecGuideMappings
         }));
         #endregion
 
+        #region Disc Priest
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/discipline/healer-enchants-gems-pve",
+            "Discipline", "Priest", "GemsEnchants", new List<(string, GuideMapping)>
+        {
+            { ("Meta", "h2#best-gems+.box") },
+            { ("Gem", "h2#best-gems+.box~.box") },
+            { ("Gem", "h2#best-gems+.box~.box~.box") },
+            { ("Gem", "h2#best-gems+.box~.box~.box~.box") },
+            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box") },
+            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box~.box") },
+
+            { ("Head", "h2#best-enchants~.box") },
+            { ("Shoulder", "h2#best-enchants~.box~.box") },
+            { ("Back", "h2#best-enchants~.box~.box~.box") },
+            { ("Chest", "h2#best-enchants~.box~.box~.box~.box") },
+            { ("Waist", "h2#best-enchants~.box~.box~.box~.box~.box") },
+            { ("Wrist", "h2#best-enchants~.box~.box~.box~.box~.box~.box") },
+            { ("Hands", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box") },
+            { ("Legs", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box") },
+            { ("Feet", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
+            { ("Two Hand", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
+            { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/discipline/healer-bis-gear-pre-raid-pve-p2",
+            "Discipline", "Priest", "Phase0", new List<(string, GuideMapping)>
+        {
+            { ("Head", "#head-for-discipline-priest-healer-pre-raid") },
+            { ("Shoulder", "#shoulders-for-discipline-priest-healer-pre-raid") },
+            { ("Back", "#back-for-discipline-priest-healer-pre-raid") },
+            { ("Chest", "#chest-for-discipline-priest-healer-pre-raid") },
+            { ("Wrist", "#wrist-for-discipline-priest-healer-pre-raid") },
+            { ("Hands", "#hands-for-discipline-priest-healer-pre-raid") },
+            { ("Waist", "#waist-for-discipline-priest-healer-pre-raid") },
+            { ("Legs", "#legs-for-discipline-priest-healer-pre-raid") },
+            { ("Feet", "#feet-for-discipline-priest-healer-pre-raid") },
+            { ("Neck", "#neck-for-discipline-priest-healer-pre-raid") },
+            { ("Ring", "#rings-for-discipline-priest-healer-pre-raid") },
+            { ("Trinket", "#trinkets-for-discipline-priest-healer-pre-raid") },
+            { ("Main Hand", "#main-and-two-handed-weapons-for-discipline-priest-healer-pre-raid") },
+            { ("Off Hand", "#off-hands-for-discipline-priest-healer-pre-raid") },
+            { ("Ranged/Relic", "#wands-for-discipline-priest-healer-pre-raid") }
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/discipline/healer-bis-gear-pve-phase-1",
+            "Discipline", "Priest", "Phase1", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-and-two-handed-weapons-for-discipline-priest-healer-phase-1") },
+            { ("Off Hand", "#off-hands-for-discipline-priest-healer-phase-1") },
+            { ("Ranged/Relic", "#wands-for-discipline-priest-healer-phase-1") }
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/discipline/healer-bis-gear-pve-phase-2",
+            "Discipline", "Priest", "Phase2", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-and-two-handed-weapons-for-discipline-priest-healer-phase-2") },
+            { ("Off Hand", "#off-hands-for-discipline-priest-healer-phase-2") },
+            { ("Ranged/Relic", "#wands-for-discipline-priest-healer-phase-2") }
+        }));
+        #endregion
+
         #region Holy Priest
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/holy/healer-enchants-gems-pve",
             "Holy", "Priest", "GemsEnchants", new List<(string, GuideMapping)>
@@ -1108,66 +1171,6 @@ public class ClassSpecGuideMappings
             { ("Main Hand", "#main-and-two-handed-weapons-for-holy-priest-healer-phase-2") },
             { ("Off Hand", "#off-hands-for-holy-priest-healer-phase-2") },
             { ("Ranged/Relic", "#wands-for-holy-priest-healer-phase-2") }
-        }));
-        #endregion
-
-        #region Disc Priest
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/discipline/healer-enchants-gems-pve",
-            "Discipline", "Priest", "GemsEnchants", new List<(string, GuideMapping)>
-        {
-            { ("Meta", "h2#best-gems+.box") },
-            { ("Gem", "h2#best-gems+.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box") },
-
-            { ("Head", "h2#best-enchants~.box") },
-            { ("Shoulder", "h2#best-enchants~.box~.box") },
-            { ("Back", "h2#best-enchants~.box~.box~.box") },
-            { ("Chest", "h2#best-enchants~.box~.box~.box~.box") },
-            { ("Waist", "h2#best-enchants~.box~.box~.box~.box~.box") },
-            { ("Wrist", "h2#best-enchants~.box~.box~.box~.box~.box~.box") },
-            { ("Hands", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Legs", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Feet", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Two Hand", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/discipline/healer-bis-gear-pre-raid-pve-p2",
-            "Discipline", "Priest", "Phase0", new List<(string, GuideMapping)>
-        {
-            { ("Head", "#head-for-discipline-priest-healer-pre-raid") },
-            { ("Shoulder", "#shoulders-for-discipline-priest-healer-pre-raid") },
-            { ("Back", "#back-for-discipline-priest-healer-pre-raid") },
-            { ("Chest", "#chest-for-discipline-priest-healer-pre-raid") },
-            { ("Wrist", "#wrist-for-discipline-priest-healer-pre-raid") },
-            { ("Hands", "#hands-for-discipline-priest-healer-pre-raid") },
-            { ("Waist", "#waist-for-discipline-priest-healer-pre-raid") },
-            { ("Legs", "#legs-for-discipline-priest-healer-pre-raid") },
-            { ("Feet", "#feet-for-discipline-priest-healer-pre-raid") },
-            { ("Neck", "#neck-for-discipline-priest-healer-pre-raid") },
-            { ("Ring", "#rings-for-discipline-priest-healer-pre-raid") },
-            { ("Trinket", "#trinkets-for-discipline-priest-healer-pre-raid") },
-            { ("Main Hand", "#main-and-two-handed-weapons-for-discipline-priest-healer-pre-raid") },
-            { ("Off Hand", "#off-hands-for-discipline-priest-healer-pre-raid") },
-            { ("Ranged/Relic", "#wands-for-discipline-priest-healer-pre-raid") }
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/discipline/healer-bis-gear-pve-phase-1",
-            "Discipline", "Priest", "Phase1", new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-and-two-handed-weapons-for-discipline-priest-healer-phase-1") },
-            { ("Off Hand", "#off-hands-for-discipline-priest-healer-phase-1") },
-            { ("Ranged/Relic", "#wands-for-discipline-priest-healer-phase-1") }
-        }));
-
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/discipline/healer-bis-gear-pve-phase-2",
-            "Discipline", "Priest", "Phase2", new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-and-two-handed-weapons-for-discipline-priest-healer-phase-2") },
-            { ("Off Hand", "#off-hands-for-discipline-priest-healer-phase-2") },
-            { ("Ranged/Relic", "#wands-for-discipline-priest-healer-phase-2") }
         }));
         #endregion
 

@@ -260,7 +260,7 @@ public class WowheadGuideParser
         }
         else
         {
-            if (new List<string> { "prebis", "tbc", "pre-raid", "pre-bis" }.Any(s => htmlBisText?.ToLower().Contains(s) ?? false))
+            if (new List<string> { "prebis", "tbc", "pre-raid", "pre-bis", "alternate" }.Any(s => htmlBisText?.ToLower().Contains(s) ?? false))
             {
                 bisText = "Alt";
             }

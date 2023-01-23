@@ -8,6 +8,7 @@ LBIS:AddGem(spec1, "42144", "4", "False") --Runed Dragon's Eye
 LBIS:AddGem(spec1, "45883", "4", "False") --Runed Stormjewel
 LBIS:AddGem(spec1, "39998", "3", "False") --Runed Scarlet Ruby
 LBIS:AddGem(spec1, "40027", "3", "False") --Royal Twilight Opal
+LBIS:AddGem(spec1, "40047", "3", "False") --Luminous Monarch Topaz
 
 
 LBIS:AddEnchant(spec1, "50370", LBIS.L["Head"]) --Arcanum of Blissful Mending

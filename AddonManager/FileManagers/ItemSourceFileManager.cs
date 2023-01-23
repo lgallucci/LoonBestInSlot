@@ -334,7 +334,7 @@ public static class ItemSourceFileManager
         {
             tierSourceSB.AppendLine($"    [{source.Key}] = {{ " +
                 string.Join(", ", source.Value.ItemIds) +
-                " }},");
+                " },");
         }
         tierSourceSB.AppendLine("}");
         System.IO.File.WriteAllText(Constants.AddonPath + "\\DB\\TierSources.lua", tierSourceSB.ToString());
