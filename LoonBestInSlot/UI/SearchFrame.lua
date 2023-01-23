@@ -2,8 +2,6 @@ LBIS.SearchFrame = {}
 LBIS.SearchFrame.Slot = "";
 LBIS.SearchFrame.ItemList = {};
 
---TODO: add/remove tier piece tokens to custom list when they're added
-
 local function conductSearch(text, foundFunc)
 
     local foundItems = {};

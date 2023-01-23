@@ -30,3 +30,9 @@ public class EnchantSource
     public bool IsSpell { get; set; }
 }
 
+public class TierSource
+{
+    public int TierId { get; set; }
+    public List<int> ItemIds { get; set; } = new List<int>();
+}
+

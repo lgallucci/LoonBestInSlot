@@ -301,6 +301,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{71B13F0F-1281-
 		LoonBestInSlot\DB\EnchantSources.lua = LoonBestInSlot\DB\EnchantSources.lua
 		LoonBestInSlot\DB\GemSources.lua = LoonBestInSlot\DB\GemSources.lua
 		LoonBestInSlot\DB\ItemSources.lua = LoonBestInSlot\DB\ItemSources.lua
+		LoonBestInSlot\DB\TierSources.lua = LoonBestInSlot\DB\TierSources.lua
 	EndProjectSection
 EndProject
 Global

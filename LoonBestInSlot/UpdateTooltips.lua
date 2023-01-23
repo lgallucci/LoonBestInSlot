@@ -133,6 +133,9 @@ local function onTooltipSetItem(tooltip, ...)
 		local combinedTooltip = {};
 		local foundCustom = {};
 
+		-- TODO: check tier list for item
+		-- Loop through item list and buildCombinedTooltip for all
+
 		if LBIS.CustomEditList.Items[itemId] then
 			foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[itemId], combinedTooltip)
 		end

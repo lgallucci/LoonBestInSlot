@@ -230,6 +230,43 @@ public static class ItemSourceFileManager
         };
     }
 
+    public static SortedDictionary<int, TierSource> ReadTierSources()
+    {
+        SortedDictionary<int, TierSource> tiers = new SortedDictionary<int, TierSource>();
+
+        string[] tierSources = System.IO.File.ReadAllLines($@"{Constants.AddonPath}\DB\TierSources.lua");
+
+        foreach (var tierSource in tierSources)
+        {
+            if (tierSource == "LBIS.TierSources =" ||
+                tierSource == "{" ||
+                tierSource == "}" ||
+                tierSource == String.Empty ||
+                tierSource.Trim().StartsWith("--"))
+            {
+                continue;
+            }
+
+            var openBracket = tierSource.IndexOf("[") + 1;
+            var closeBracket = tierSource.IndexOf("]");
+
+            var tierId = Int32.Parse(tierSource.Substring(openBracket, closeBracket - openBracket));
+
+            var openCurlies = tierSource.IndexOf("{") + 1;
+            var closeCurlies = tierSource.IndexOf("}") + 1;
+
+            var itemIds = tierSource.Substring(openCurlies, closeCurlies - openCurlies).Split(",");
+            var tier = new TierSource { TierId = tierId };
+
+            foreach(var itemId in itemIds)
+            {
+                tier.ItemIds.Add(Int32.Parse(itemId.Trim()));
+            }
+        }
+
+        return tiers;
+    }
+
     public static void WriteItemSources(SortedDictionary<int, ItemSource> sources)
     {
         StringBuilder itemSourceSB = new StringBuilder();
@@ -285,5 +322,21 @@ public static class ItemSourceFileManager
         }
         itemSourceSB.AppendLine("}");
         System.IO.File.WriteAllText(Constants.AddonPath + "\\DB\\EnchantSources.lua", itemSourceSB.ToString());
+    }
+
+    public static void WriteTierSources(SortedDictionary<int, TierSource> sources)
+    {
+        StringBuilder tierSourceSB = new StringBuilder();
+
+        tierSourceSB.AppendLine("LBIS.TierSources =");
+        tierSourceSB.AppendLine("{");
+        foreach (var source in sources)
+        {
+            tierSourceSB.AppendLine($"    [{source.Key}] = {{ " +
+                string.Join(", ", source.Value.ItemIds) +
+                " }},");
+        }
+        tierSourceSB.AppendLine("}");
+        System.IO.File.WriteAllText(Constants.AddonPath + "\\DB\\TierSources.lua", tierSourceSB.ToString());
     }
 }

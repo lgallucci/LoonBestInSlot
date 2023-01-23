@@ -1,10 +1,8 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "0")
 
 LBIS:AddItem(spec, "39625", LBIS.L["Head"], "BIS") --Heroes' Scourgeborne Faceguard
-LBIS:AddItem(spec, "40618", LBIS.L["Head"], "BIS") --Helm of the Lost Vanquisher
 
 LBIS:AddItem(spec, "39627", LBIS.L["Shoulder"], "BIS") --Heroes' Scourgeborne Pauldrons
-LBIS:AddItem(spec, "40624", LBIS.L["Shoulder"], "BIS") --Spaulders of the Lost Vanquisher
 
 LBIS:AddItem(spec, "43988", LBIS.L["Back"], "BIS") --Gale-Proof Cloak
 
@@ -13,12 +11,10 @@ LBIS:AddItem(spec, "39398", LBIS.L["Chest"], "BIS") --Massive Skeletal Ribcage
 LBIS:AddItem(spec, "40734", LBIS.L["Wrist"], "BIS") --Bracers of Dalaran's Parapets
 
 LBIS:AddItem(spec, "39624", LBIS.L["Hands"], "BIS") --Heroes' Scourgeborne Handguards
-LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "BIS") --Gloves of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40689", LBIS.L["Waist"], "BIS") --Waistguard of Living Iron
 
 LBIS:AddItem(spec, "39626", LBIS.L["Legs"], "BIS") --Heroes' Scourgeborne Legguards
-LBIS:AddItem(spec, "40621", LBIS.L["Legs"], "BIS") --Leggings of the Lost Vanquisher
 
 LBIS:AddItem(spec, "40743", LBIS.L["Feet"], "BIS") --Kyzoc's Ground Stompers
 

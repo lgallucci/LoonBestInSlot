@@ -194,7 +194,17 @@ public sealed partial class GuideImporter : Page
 
         jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\TierSetList.json");
         var tierItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
-        dbItems.AddItems(tierItems);
+        SortedDictionary<int, TierSource> tierSources = new SortedDictionary<int, TierSource>();
+        foreach(var tierItem in tierItems.Items)
+        {
+            var tierId = Int32.Parse(tierItem.Value.SourceNumber);
+            if (!tierSources.ContainsKey(tierId))
+                tierSources.Add(tierId, new TierSource { TierId = tierId, ItemIds = { tierItem.Key } });
+            else
+                tierSources[tierId].ItemIds.Add( tierItem.Key);
+        }
+        ItemSourceFileManager.WriteTierSources(tierSources);
+
         foreach (var converted in ItemSourceFileManager.ReadTBCItemSources())
         {
             if (!dbItems.Items.ContainsKey(converted.Key))

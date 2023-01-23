@@ -1,8 +1,5 @@
 LBIS.CustomItemList = {};
 
---TODO: Sort items based on order entered
---TODO: Swap wowhead items list with custom list
-
 local itemSlotOrder = {}
 itemSlotOrder[LBIS.L["Head"]] = 0;
 itemSlotOrder[LBIS.L["Shoulder"]] = 1;
