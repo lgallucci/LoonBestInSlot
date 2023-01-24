@@ -48,16 +48,16 @@ local function showCustomList()
     local f = LBIS.SearchFrame.Frame.ItemListFrame;
     LBIS.SearchFrame.Frame.SearchLabel:SetText("Search for items to add to "..LBIS.SearchFrame.Slot.." list:");
 
-    for orderId, itemId in pairs(LBIS.SearchFrame.ItemList) do
+    for orderId, sItem in pairs(LBIS.SearchFrame.ItemList) do
         
         itemCount = itemCount + 1;
 
-        if LBIS.CustomEditList.Items[itemId] == nil then
-            LBIS.CustomEditList.Items[itemId] = {};
+        if LBIS.CustomEditList.Items[sItem.ItemId] == nil then
+            LBIS.CustomEditList.Items[sItem.ItemId] = {};
         end
-        LBIS.CustomEditList.Items[itemId][LBIS.NameToSpecId[LBISSettings.SelectedSpec]] = itemCount;
+        LBIS.CustomEditList.Items[sItem.ItemId][LBIS.NameToSpecId[LBISSettings.SelectedSpec]] = sItem;
 
-        LBIS:GetItemInfo(itemId, function(item)
+        LBIS:GetItemInfo(sItem.ItemId, function(item)
             f.CustomButtons[itemCount].ItemButton:SetNormalTexture(item.Texture);
             LBIS:SetTooltipOnButton(f.CustomButtons[itemCount].ItemButton, item);
 

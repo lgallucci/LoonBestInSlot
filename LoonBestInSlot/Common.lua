@@ -20,13 +20,19 @@ function LBIS:PreCacheItems()
     for prioSpec in pairs(LBISServerSettings.CustomList) do
         for prioSlot in pairs(LBISServerSettings.CustomList[prioSpec]) do
             local itemCount = 1;
-            for _, itemId in pairs(LBISServerSettings.CustomList[prioSpec][prioSlot]) do                
-
+            for _, item in pairs(LBISServerSettings.CustomList[prioSpec][prioSlot]) do                
+            
                 if LBIS.CustomEditList.Items[itemId] == nil then
                     LBIS.CustomEditList.Items[itemId] = {};
                 end
 
-                LBIS.CustomEditList.Items[itemId][prioSpec] = itemCount;
+                --TODO: Remove this after a few months ?
+                if isnumber(item) then
+                    LBIS.CustomEditList.Items[item][prioSpec] = { ItemId = item, TooltipText = "Custom #"..itemCount };
+                else
+                    LBIS.CustomEditList.Items[item.ItemId][prioSpec] = item;
+                end
+
                 itemCount = itemCount + 1;
             end
         end
