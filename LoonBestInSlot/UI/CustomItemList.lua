@@ -276,8 +276,8 @@ end
 
 local function hasAnyItems(list) 
     for _, slotList in pairs(list) do 
-        for _, itemId in pairs(slotList) do
-            if itemId > 0 then
+        for _, item in pairs(slotList) do
+            if item.ItemId > 0 then
                 return true;
             end
         end
@@ -309,11 +309,11 @@ function LBIS.CustomItemList:UpdateItems()
 
         for slot, slotList in LBIS:spairs(customList, slotSortFunction) do
             local customRank = 0;            
-            for _, itemId in pairs(slotList) do                
+            for _, item in pairs(slotList) do                
                 customRank = customRank + 1;
-                local specItem = { Id = itemId, Slot = slot, Bis = "Custom #"..customRank, Rank = customRank};
+                local specItem = { Id = item.ItemId, Slot = slot, Bis = item.TooltipText, Rank = customRank};
 
-                local specItemSource = LBIS.ItemSources[itemId];
+                local specItemSource = LBIS.ItemSources[item.ItemId];
                 if specItemSource == nil then
                     specItemSource = { Name = "Not Available", SourceType = "Not Available", Zone = "Not Available", Source = "Not Available", SourceLocation = "Not Available", SourceNumber = "0" };
                 end

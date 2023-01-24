@@ -20,18 +20,16 @@ function LBIS:PreCacheItems()
     for prioSpec in pairs(LBISServerSettings.CustomList) do
         for prioSlot in pairs(LBISServerSettings.CustomList[prioSpec]) do
             local itemCount = 1;
-            for _, item in pairs(LBISServerSettings.CustomList[prioSpec][prioSlot]) do                
-            
-                if LBIS.CustomEditList.Items[itemId] == nil then
-                    LBIS.CustomEditList.Items[itemId] = {};
+
+            LBIS:ConvertCustomList(LBISServerSettings.CustomList[prioSpec][prioSlot]);
+
+            for _, item in pairs(LBISServerSettings.CustomList[prioSpec][prioSlot]) do
+                
+                if LBIS.CustomEditList.Items[item.ItemId] == nil then
+                    LBIS.CustomEditList.Items[item.ItemId] = {};
                 end
 
-                --TODO: Remove this after a few months ?
-                if isnumber(item) then
-                    LBIS.CustomEditList.Items[item][prioSpec] = { ItemId = item, TooltipText = "Custom #"..itemCount };
-                else
-                    LBIS.CustomEditList.Items[item.ItemId][prioSpec] = item;
-                end
+                LBIS.CustomEditList.Items[item.ItemId][prioSpec] = item;
 
                 itemCount = itemCount + 1;
             end
@@ -44,6 +42,24 @@ function LBIS:PreCacheItems()
         end
     end
     return LBIS.AllItemsCached;
+end
+
+--TODO: Remove this after a few months ?
+function LBIS:ConvertCustomList(list)
+    
+    local itemCount = 1;
+    --Loop through all items in list
+    for _, item in pairs(list) do
+        if type(item) == "number" then
+            local itemId = item;
+            item = { ItemId = itemId, TooltipText = "Custom #"..itemCount }
+        end
+
+        list[itemCount] = item;
+
+        itemCount = itemCount + 1;
+    end
+
 end
 
 function LBIS:CacheItem(itemId)

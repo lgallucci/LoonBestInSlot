@@ -48,8 +48,7 @@ local function selectItem(button)
         end
     end
     if not found then
-        table.insert(LBIS.SearchFrame.ItemList, button.ItemId);
-        LBIS.AutoComplete.SelectFunc();
+        LBIS.AutoComplete.SelectFunc(button.ItemId);
         LBIS.AutoComplete.SearchBox:SetText("");
         LBIS.AutoComplete:Clear();
     end

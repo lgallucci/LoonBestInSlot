@@ -86,7 +86,7 @@ local function buildCustomTooltip(priorityEntry, combinedTooltip)
 			local classSpec = LBIS.ClassSpec[k]
 			foundCustom[k] = true;
 				
-			table.insert(combinedTooltip, { Class = classSpec.Class, Spec = classSpec.Spec, Bis = v.TooltipText })
+			table.insert(combinedTooltip, { Class = classSpec.Class, Spec = classSpec.Spec, Bis = v.TooltipText, Phase = "" })
 		end
 	end
 

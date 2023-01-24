@@ -38,15 +38,17 @@ local function assignItemsToFrame(f, itemList)
 
     local itemCount = 1;
 
-    for orderId, itemId in pairs(itemList) do
+    for orderId, item in pairs(itemList) do
 
-        if itemId <= 0 then
+        if item.ItemId <= 0 then
             table.remove(itemList, orderId);
         else
-            LBIS:GetItemInfo(itemId, function(item)
+            LBIS:GetItemInfo(item.ItemId, function(item)
                 f.CustomButtons[itemCount].ItemButton:SetNormalTexture(item.Texture);
                 LBIS:SetTooltipOnButton(f.CustomButtons[itemCount].ItemButton, item);                        
             end);
+
+            f.CustomButtons[itemCount].TooltipText:SetText(item.TooltipText);
 
             f.CustomButtons[itemCount]:ShowButtons();
 
@@ -69,12 +71,12 @@ local function createCustomRow(f, slot, itemList)
         
     f.CustomButtons = {};
 
-    for i=1,6 do
+    for i=1,8 do
 
-        local b, t2 = nil, nil;
+        local b, t2, t3 = nil, nil, nil;
         b = CreateFrame("Button", nil, f);
         b:SetSize(32, 32);
-        b:SetPoint("TOPLEFT", f, 50 + (i * 85), -5);
+        b:SetPoint("TOPLEFT", f, 50 + (i * 85), -2);
         b:Hide();
         
         t2 = f:CreateFontString(nil, nil, "GameFontNormal");
@@ -82,13 +84,19 @@ local function createCustomRow(f, slot, itemList)
         t2:SetPoint("RIGHT", b, "LEFT", -5, 0);
         t2:Hide();
 
+        t3 = f:CreateFontString(nil, nil, "GameFontHighlightSmall")
+        t3:SetText("");
+        t3:SetPoint("TOPLEFT", b, "BOTTOMLEFT", -5, -1);
+        t3:Hide();
+
         f.CustomButtons[i] = { 
             ItemButton = b, 
+            TooltipText = t3,
             ShowButtons = function() 
-                b:Show();t2:Show();
+                b:Show();t2:Show();t3:Show();
             end,
             HideButtons = function()
-                b:Hide();t2:Hide();
+                b:Hide();t2:Hide();t3:Hide();
             end
         }
     end
@@ -139,7 +147,7 @@ function LBIS.CustomEditList:UpdateItems()
     LBIS.BrowserWindow.Window.SourceDropDown:Hide();
     LBIS.BrowserWindow.Window.RaidDropDown:Hide();
 
-    LBIS.BrowserWindow:UpdateItemsForSpec(function(point)        
+    LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
     
         local selectedSpec = LBIS.NameToSpecId[LBISSettings.SelectedSpec];
 
@@ -151,12 +159,10 @@ function LBIS.CustomEditList:UpdateItems()
         if savedCustomList == nil then
             savedCustomList = LBIS:DeepCopy(defaultCustomList)
             LBISServerSettings.CustomList[selectedSpec] = savedCustomList;
-        end        
+        end
 
-        for slot, itemList in LBIS:spairs(savedCustomList, itemSortFunction) do
-            
+        for slot, itemList in LBIS:spairs(savedCustomList, itemSortFunction) do            
             point = LBIS.BrowserWindow:CreateItemRow(slot, itemList, "Custom"..LBISSettings.SelectedSpec..slot, point, createCustomRow);
-
         end
 
     end);
