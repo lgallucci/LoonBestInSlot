@@ -86,7 +86,7 @@ local function createCustomRow(f, slot, itemList)
 
         t3 = f:CreateFontString(nil, nil, "GameFontHighlightSmall")
         t3:SetText("");
-        t3:SetPoint("TOPLEFT", b, "BOTTOMLEFT", -5, -1);
+        t3:SetPoint("TOP", b, "BOTTOM", -5, -1);
         t3:Hide();
 
         f.CustomButtons[i] = { 

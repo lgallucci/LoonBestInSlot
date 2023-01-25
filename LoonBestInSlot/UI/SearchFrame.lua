@@ -73,7 +73,13 @@ local function showCustomList()
             f.CustomButtons[itemCount].TooltipText:SetText(sItem.TooltipText);
             f.CustomButtons[itemCount].TooltipText:SetScript("OnTextChanged", function(editBox, isUserInput)
                 sItem.TooltipText = editBox:GetText();
-            end)
+            end);
+            f.CustomButtons[itemCount].TooltipText:SetScript("OnEscapePressed", function(self)
+	            self:ClearFocus()
+            end);
+            f.CustomButtons[itemCount].TooltipText:SetScript("OnTabPressed", function(self)
+	            self:ClearFocus()
+            end);
 
             f.CustomButtons[itemCount].UpButton.CustomIndex = itemCount;
             f.CustomButtons[itemCount].UpButton:SetScript("OnClick", function(self, button)
@@ -181,6 +187,7 @@ local function createCustomList(f)
         tt:SetSize(100, 20);
         tt:SetMovable(false);
         tt:SetAutoFocus(false);
+        tt:SetMaxLetters(12);
         tt:Hide();
 
         bDelete = CreateFrame("Button", nil, itemf);
