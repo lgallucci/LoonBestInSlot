@@ -71,9 +71,9 @@ local function showCustomList()
             f.CustomButtons[itemCount].ItemType:SetText(type);
 
             f.CustomButtons[itemCount].TooltipText:SetText(sItem.TooltipText);
-            --f.CustomButtons[itemCount].TooltipText:SetScript("OnTextChanged", function(editBox, isUserInput)
-                --sItem.TooltipText = editBox:GetText();
-            --end)
+            f.CustomButtons[itemCount].TooltipText:SetScript("OnTextChanged", function(editBox, isUserInput)
+                sItem.TooltipText = editBox:GetText();
+            end)
 
             f.CustomButtons[itemCount].UpButton.CustomIndex = itemCount;
             f.CustomButtons[itemCount].UpButton:SetScript("OnClick", function(self, button)
