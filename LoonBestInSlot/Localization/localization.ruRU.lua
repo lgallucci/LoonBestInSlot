@@ -19,6 +19,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Anomalus"] = "Аномалус";
   LBIS.L["Anub'arak"] = "Ануб'арак";
   LBIS.L["Anub'Rekhan"] = "Ануб'Рекан";
+--  LBIS.L["Any (Heroic+)"] = " (Героический+)";
 --  LBIS.L["Arathi Basin Marks"] = "";
   LBIS.L["Arcane"] = "Тайная магия";
   LBIS.L["Archavon the Stone Watcher"] = "Аркавон Страж Камня";
@@ -103,6 +104,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Eye of the Storm Marks"] = "";
 --  LBIS.L["Fedryen Swiftspear"] = "";
   LBIS.L["Feet"] = "Ступни";
+--  LBIS.L["Final Boss"] = "";
   LBIS.L["Fire"] = "Огонь";
   LBIS.L["Fishing"] = "Рыбная ловля";
   LBIS.L["Flame Leviathan"] = "Огненный Левиафан";

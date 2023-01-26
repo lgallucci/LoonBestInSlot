@@ -5693,10 +5693,10 @@
         },
         "39393": {
             "Name": "Claymore of Ancient Power",
-            "Source": "Unknown Boss",
+            "Source": "Grand Magus Telestra",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
+            "SourceLocation": "The Nexus (Heroic+)"
         },
         "39394": {
             "Name": "Charmed Cierge",
@@ -5942,13 +5942,6 @@
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Culling of Stratholme (Heroic+)"
-        },
-        "40433": {
-            "Name": "Wyrmrest Band",
-            "Source": "Unknown Boss",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Unknown (Heroic+)"
         },
         "43988": {
             "Name": "Gale-Proof Cloak",

@@ -19,6 +19,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Anomalus"] = "아노말루스";
   LBIS.L["Anub'arak"] = "아눕아락";
   LBIS.L["Anub'Rekhan"] = "아눕레칸";
+--  LBIS.L["Any (Heroic+)"] = " (영웅+)";
   LBIS.L["Arathi Basin Marks"] = "아라시 분지 명예 훈장";
   LBIS.L["Arcane"] = "비전";
   LBIS.L["Archavon the Stone Watcher"] = "바위 감시자 아카본";
@@ -103,6 +104,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Eye of the Storm Marks"] = "폭풍의 눈 명예 훈장";
   LBIS.L["Fedryen Swiftspear"] = "페드리엔 스위프트스피어 <세나리온 원정대 병참장교>";
   LBIS.L["Feet"] = "발";
+--  LBIS.L["Final Boss"] = "";
   LBIS.L["Fire"] = "화염";
   LBIS.L["Fishing"] = "낚시";
   LBIS.L["Flame Leviathan"] = "거대 화염전차";

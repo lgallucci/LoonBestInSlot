@@ -19,6 +19,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Anomalus"] = "阿诺玛鲁斯";
   LBIS.L["Anub'arak"] = "阿努巴拉克";
   LBIS.L["Anub'Rekhan"] = "阿努布雷坎";
+--  LBIS.L["Any (Heroic+)"] = " (英雄+)";
 --  LBIS.L["Arathi Basin Marks"] = "";
   LBIS.L["Arcane"] = "奥术";
   LBIS.L["Archavon the Stone Watcher"] = "岩石看守者阿尔卡冯";
@@ -103,6 +104,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Eye of the Storm Marks"] = "";
 --  LBIS.L["Fedryen Swiftspear"] = "";
   LBIS.L["Feet"] = "脚";
+--  LBIS.L["Final Boss"] = "";
   LBIS.L["Fire"] = "火焰";
   LBIS.L["Fishing"] = "钓鱼";
   LBIS.L["Flame Leviathan"] = "烈焰巨兽";
