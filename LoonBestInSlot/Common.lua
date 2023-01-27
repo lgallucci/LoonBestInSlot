@@ -101,7 +101,7 @@ function LBIS:FindInPhase(phaseText, phase)
         return false;
     end
 
-    return tonumber(firstNumber) <= phaseNumber and tonumber(lastNumber) >= phaseNumber;               
+    return tonumber(firstNumber) <= phaseNumber and tonumber(lastNumber) >= phaseNumber;
 end
 
 function LBIS:TableLength(T)
