@@ -529,15 +529,14 @@ local lbis_options = {
 	}
 };
 
--- This function will make sure your saved table contains all the same
--- keys as your table, and that each key's value is of the same type
--- as the value of the same key in the default table.
-
-
 function LBIS:CreateSettings()
 
 	LBISSettings = LBIS:DeepCopy(LBISSettingsDefault, LBISSettings);
 	LBISServerSettings = LBIS:DeepCopy(LBISServerSettingsDefault, LBISServerSettings);
+
+	if strfind(LBISSettings.SelectedSpec, ":") == nil then
+		LBISSettings.SelectedSpec = "";
+	end
 
 	LibStub("AceConfig-3.0"):RegisterOptionsTable("Loon Best In Slot", lbis_options, nil)
 	LibStub("AceConfigDialog-3.0"):AddToBlizOptions("Loon Best In Slot"):SetParent(InterfaceOptionsFramePanelContainer)
