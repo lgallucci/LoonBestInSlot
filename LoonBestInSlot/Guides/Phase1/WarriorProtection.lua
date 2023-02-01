@@ -13,7 +13,7 @@ LBIS:AddItem(spec, "39267", LBIS.L["Shoulder"], "Alt") --Abomination Shoulderbla
 LBIS:AddItem(spec, "40334", LBIS.L["Shoulder"], "Alt") --Burdened Shoulderplates
 LBIS:AddItem(spec, "39613", LBIS.L["Shoulder"], "Alt") --Heroes' Dreadnaught Pauldrons
 
-LBIS:AddItem(spec, "40722", LBIS.L["Back"], "Alt") --Platinum Mesh Cloak
+LBIS:AddItem(spec, "40722", LBIS.L["Back"], "BIS") --Platinum Mesh Cloak
 LBIS:AddItem(spec, "40410", LBIS.L["Back"], "Alt") --Shadow of the Ghoul
 LBIS:AddItem(spec, "40252", LBIS.L["Back"], "Alt Mit") --Cloak of the Shadowed Sun
 LBIS:AddItem(spec, "43988", LBIS.L["Back"], "Alt") --Gale-Proof Cloak
@@ -26,7 +26,7 @@ LBIS:AddItem(spec, "39398", LBIS.L["Chest"], "Alt") --Massive Skeletal Ribcage
 LBIS:AddItem(spec, "40279", LBIS.L["Chest"], "Alt") --Chestguard of the Exhausted
 LBIS:AddItem(spec, "39611", LBIS.L["Chest"], "Alt") --Heroes' Dreadnaught Breastplate
 
-LBIS:AddItem(spec, "39764", LBIS.L["Wrist"], "Alt") --Bindings of the Hapless Prey
+LBIS:AddItem(spec, "39764", LBIS.L["Wrist"], "BIS") --Bindings of the Hapless Prey
 LBIS:AddItem(spec, "40734", LBIS.L["Wrist"], "Alt") --Bracers of Dalaran's Parapets
 LBIS:AddItem(spec, "40306", LBIS.L["Wrist"], "Alt Mit") --Bracers of the Unholy Knight
 LBIS:AddItem(spec, "39467", LBIS.L["Wrist"], "Alt") --Minion Bracers
@@ -36,7 +36,7 @@ LBIS:AddItem(spec, "40188", LBIS.L["Hands"], "Alt") --Gauntlets of the Disobedie
 LBIS:AddItem(spec, "39726", LBIS.L["Hands"], "Alt Mit") --Callous-Hearted Gauntlets
 LBIS:AddItem(spec, "39622", LBIS.L["Hands"], "Alt") --Heroes' Dreadnaught Handguards
 
-LBIS:AddItem(spec, "39759", LBIS.L["Waist"], "Alt") --Ablative Chitin Girdle
+LBIS:AddItem(spec, "39759", LBIS.L["Waist"], "BIS") --Ablative Chitin Girdle
 LBIS:AddItem(spec, "39298", LBIS.L["Waist"], "Alt") --Waistguard of the Tutor
 LBIS:AddItem(spec, "40263", LBIS.L["Waist"], "Alt") --Fleshless Girdle
 
@@ -81,7 +81,7 @@ LBIS:AddItem(spec, "39344", LBIS.L["Main Hand"], "Alt") --Slayer of the Lifeless
 LBIS:AddItem(spec, "37401", LBIS.L["Main Hand"], "Alt") --Red Sword of Courage
 LBIS:AddItem(spec, "40345", LBIS.L["Main Hand"], "Alt") --Broken Promise
 
-LBIS:AddItem(spec, "40400", LBIS.L["Off Hand"], "Alt") --Wall of Terror
+LBIS:AddItem(spec, "40400", LBIS.L["Off Hand"], "BIS") --Wall of Terror
 LBIS:AddItem(spec, "40475", LBIS.L["Off Hand"], "Alt") --Barricade of Eternity
 LBIS:AddItem(spec, "40266", LBIS.L["Off Hand"], "Alt") --Hero's Surrender
 LBIS:AddItem(spec, "39276", LBIS.L["Off Hand"], "Alt") --The Skull of Ruin

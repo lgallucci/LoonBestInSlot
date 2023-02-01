@@ -265,7 +265,7 @@ public class WowheadGuideParser
         }
         else
         {
-            if (new List<string> { "prebis", "tbc", "pre-raid", "pre-bis", "phase 1", "p1", "alt" }.Any(s => htmlBisText?.ToLower().Contains(s) ?? false))
+            if (new List<string> { "prebis", "tbc", "pre-raid", "pre-bis", "phase 1", "p1", "alt", "10-man", "10 man" }.Any(s => htmlBisText?.ToLower().Contains(s) ?? false))
             {
                 bisText = "Alt";
             }

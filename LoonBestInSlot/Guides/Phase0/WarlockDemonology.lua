@@ -26,6 +26,6 @@ LBIS:AddItem(spec, "45691", LBIS.L["Ring"], "BIS") --Inscribed Signet of the Kir
 LBIS:AddItem(spec, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spider
 LBIS:AddItem(spec, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exiled
 
-LBIS:AddItem(spec, "40489", LBIS.L["Main Hand"], "BIS") --Greatstaff of the Nexus
+LBIS:AddItem(spec, "40489", LBIS.L["Two Hand"], "BIS") --Greatstaff of the Nexus
 
 LBIS:AddItem(spec, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlich

@@ -37,6 +37,7 @@ LBIS:AddItem(spec, "45520", LBIS.L["Hands"], "Alt") --Handwraps of the Vigilant
 LBIS:AddItem(spec, "46045", LBIS.L["Hands"], "Alt") --Pulsar Gloves
 LBIS:AddItem(spec, "45273", LBIS.L["Hands"], "Alt") --Handwraps of Plentiful Recovery
 LBIS:AddItem(spec, "46132", LBIS.L["Hands"], "Alt") --Conqueror's Kirin Tor Gauntlets
+LBIS:AddItem(spec, "45840", LBIS.L["Hands"], "Alt") --Touch of the Occult
 
 LBIS:AddItem(spec, "45619", LBIS.L["Waist"], "BIS") --Starwatcher's Binding
 LBIS:AddItem(spec, "45119", LBIS.L["Waist"], "Alt") --Embrace of the Leviathan
@@ -61,6 +62,7 @@ LBIS:AddItem(spec, "45243", LBIS.L["Neck"], "BIS") --Sapphire Amulet of Renewal
 LBIS:AddItem(spec, "45133", LBIS.L["Neck"], "BIS") --Pendant of Fiery Havoc
 LBIS:AddItem(spec, "45933", LBIS.L["Neck"], "Alt") --Pendant of the Shallow Grave
 LBIS:AddItem(spec, "45447", LBIS.L["Neck"], "Alt") --Watchful Eye of Fate
+LBIS:AddItem(spec, "45822", LBIS.L["Neck"], "Alt") --Evoker's Charm
 
 LBIS:AddItem(spec, "45495", LBIS.L["Ring"], "BIS") --Conductive Seal
 LBIS:AddItem(spec, "46046", LBIS.L["Ring"], "BIS") --Nebula Band

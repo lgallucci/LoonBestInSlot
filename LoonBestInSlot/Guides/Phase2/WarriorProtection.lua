@@ -12,33 +12,33 @@ LBIS:AddItem(spec, "45428", LBIS.L["Shoulder"], "Alt") --Valorous Siegebreaker P
 LBIS:AddItem(spec, "45697", LBIS.L["Shoulder"], "Alt") --Shoulderguards of the Solemn Watch
 
 LBIS:AddItem(spec, "45496", LBIS.L["Back"], "BIS") --Titanskin Cloak
-LBIS:AddItem(spec, "46014", LBIS.L["Back"], "BIS") --Saronite Animus Cloak
 LBIS:AddItem(spec, "45319", LBIS.L["Back"], "Alt") --Cloak of the Makers
+LBIS:AddItem(spec, "46014", LBIS.L["Back"], "Alt") --Saronite Animus Cloak
 
 LBIS:AddItem(spec, "46162", LBIS.L["Chest"], "BIS") --Conqueror's Siegebreaker Breastplate
-LBIS:AddItem(spec, "45424", LBIS.L["Chest"], "BIS") --Valorous Siegebreaker Breastplate
 LBIS:AddItem(spec, "46039", LBIS.L["Chest"], "Alt") --Breastplate of the Timeless
 LBIS:AddItem(spec, "45334", LBIS.L["Chest"], "Alt") --Unbreakable Chestguard
+LBIS:AddItem(spec, "45424", LBIS.L["Chest"], "Alt") --Valorous Siegebreaker Breastplate
 
 LBIS:AddItem(spec, "45111", LBIS.L["Wrist"], "BIS") --Mimiron's Inferno Couplings
-LBIS:AddItem(spec, "45283", LBIS.L["Wrist"], "BIS") --Flamewatch Armguards
+LBIS:AddItem(spec, "45283", LBIS.L["Wrist"], "Alt") --Flamewatch Armguards
 
 LBIS:AddItem(spec, "45487", LBIS.L["Hands"], "BIS") --Handguards of Revitalization
-LBIS:AddItem(spec, "45426", LBIS.L["Hands"], "BIS") --Valorous Siegebreaker Handguards
 LBIS:AddItem(spec, "46164", LBIS.L["Hands"], "Alt") --Conqueror's Siegebreaker Handguards
 LBIS:AddItem(spec, "46148", LBIS.L["Hands"], "Alt Thrt") --Conqueror's Siegebreaker Gauntlets
 LBIS:AddItem(spec, "45228", LBIS.L["Hands"], "Alt Mit") --Handguards of the Enclave
 LBIS:AddItem(spec, "45834", LBIS.L["Hands"], "Alt") --Gauntlets of the Royal Watch
+LBIS:AddItem(spec, "45426", LBIS.L["Hands"], "Alt") --Valorous Siegebreaker Handguards
 
 LBIS:AddItem(spec, "45139", LBIS.L["Waist"], "BIS") --Dragonslayer's Brace
 LBIS:AddItem(spec, "45551", LBIS.L["Waist"], "BIS Mit") --Indestructible Plate Girdle
-LBIS:AddItem(spec, "45304", LBIS.L["Waist"], "BIS") --Stormtempered Girdle
 LBIS:AddItem(spec, "45825", LBIS.L["Waist"], "Alt") --Shieldwarder Girdle
+LBIS:AddItem(spec, "45304", LBIS.L["Waist"], "Alt") --Stormtempered Girdle
 
 LBIS:AddItem(spec, "45594", LBIS.L["Legs"], "BIS Mit") --Legplates of the Endless Void
 LBIS:AddItem(spec, "46150", LBIS.L["Legs"], "BIS Thrt") --Conqueror's Siegebreaker Legplates
-LBIS:AddItem(spec, "45295", LBIS.L["Legs"], "BIS") --Gilded Steel Legplates
 LBIS:AddItem(spec, "46169", LBIS.L["Legs"], "Alt Mit") --Conqueror's Siegebreaker Legguards
+LBIS:AddItem(spec, "45295", LBIS.L["Legs"], "Alt") --Gilded Steel Legplates
 LBIS:AddItem(spec, "45427", LBIS.L["Legs"], "Alt") --Valorous Siegebreaker Legguards
 LBIS:AddItem(spec, "45842", LBIS.L["Legs"], "Alt Mit") --Wyrmguard Legplates
 
@@ -48,16 +48,16 @@ LBIS:AddItem(spec, "45560", LBIS.L["Feet"], "Alt Mit") --Spiked Deathdealers
 LBIS:AddItem(spec, "45166", LBIS.L["Feet"], "Alt") --Charred Saronite Greaves
 
 LBIS:AddItem(spec, "45485", LBIS.L["Neck"], "BIS") --Bronze Pendant of the Vanir
-LBIS:AddItem(spec, "45696", LBIS.L["Neck"], "BIS") --Mark of the Unyielding
 LBIS:AddItem(spec, "45262", LBIS.L["Neck"], "Alt Mit") --Necklace of Unerring Mettle
 LBIS:AddItem(spec, "45821", LBIS.L["Neck"], "Alt") --Shard of the Crystal Forest
 LBIS:AddItem(spec, "45538", LBIS.L["Neck"], "Alt") --Titanstone Pendant
+LBIS:AddItem(spec, "45696", LBIS.L["Neck"], "Alt") --Mark of the Unyielding
 
 LBIS:AddItem(spec, "45471", LBIS.L["Ring"], "BIS") --Fate's Clutch
 LBIS:AddItem(spec, "45247", LBIS.L["Ring"], "BIS") --Signet of the Earthshaker
-LBIS:AddItem(spec, "45874", LBIS.L["Ring"], "BIS") --Signet of Winter
 LBIS:AddItem(spec, "45326", LBIS.L["Ring"], "Alt") --Platinum Band of the Aesir
 LBIS:AddItem(spec, "45112", LBIS.L["Ring"], "Alt") --The Leviathan's Coil
+LBIS:AddItem(spec, "45874", LBIS.L["Ring"], "Alt") --Signet of Winter
 
 LBIS:AddItem(spec, "45158", LBIS.L["Trinket"], "BIS Stam") --Heart of Iron
 LBIS:AddItem(spec, "45313", LBIS.L["Trinket"], "BIS") --Furnace Stone

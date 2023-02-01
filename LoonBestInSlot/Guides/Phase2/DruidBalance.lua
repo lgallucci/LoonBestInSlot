@@ -97,6 +97,7 @@ LBIS:AddItem(spec, "40273", LBIS.L["Off Hand"], "Alt") --Surplus Limb
 
 LBIS:AddItem(spec, "45457", LBIS.L["Two Hand"], "BIS") --Staff of Endless Winter
 LBIS:AddItem(spec, "45886", LBIS.L["Two Hand"], "Alt") --Icecore Staff
+LBIS:AddItem(spec, "45234", LBIS.L["Two Hand"], "Alt") --Rapture
 LBIS:AddItem(spec, "45479", LBIS.L["Two Hand"], "Alt") --The Lifebinder
 
 LBIS:AddItem(spec, "40321", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Shooting Star

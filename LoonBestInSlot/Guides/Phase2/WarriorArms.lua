@@ -28,8 +28,8 @@ LBIS:AddItem(spec, "46148", LBIS.L["Hands"], "BIS") --Conqueror's Siegebreaker G
 LBIS:AddItem(spec, "45481", LBIS.L["Hands"], "Alt") --Gauntlets of Ruthless Reprisal
 LBIS:AddItem(spec, "45833", LBIS.L["Hands"], "Alt") --Bladebreaker Gauntlets
 
-LBIS:AddItem(spec, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
 LBIS:AddItem(spec, "45241", LBIS.L["Waist"], "BIS") --Belt of Colossal Rage
+LBIS:AddItem(spec, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
 LBIS:AddItem(spec, "46041", LBIS.L["Waist"], "Alt") --Starfall Girdle
 LBIS:AddItem(spec, "45550", LBIS.L["Waist"], "Alt") --Belt of the Titans
 

@@ -63,6 +63,7 @@ LBIS:AddItem(spec, "39763", LBIS.L["Main Hand"], "Alt") --Wraith Strike
 
 LBIS:AddItem(spec, "46097", LBIS.L["Off Hand"], "Alt") --Caress of Insanity
 LBIS:AddItem(spec, "45463", LBIS.L["Off Hand"], "Alt") --Vulmir, the Northern Tempest
+LBIS:AddItem(spec, "46031", LBIS.L["Off Hand"], "Alt") --Touch of Madness
 LBIS:AddItem(spec, "39468", LBIS.L["Off Hand"], "Alt") --The Stray
 
 LBIS:AddItem(spec, "42608", LBIS.L["Ranged/Relic"], "BIS") --Furious Gladiator's Totem of Indomitability
