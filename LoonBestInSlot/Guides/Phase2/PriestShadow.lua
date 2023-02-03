@@ -106,9 +106,10 @@ LBIS:AddItem(spec, "40399", LBIS.L["Ring"], "Alt") --Signet of Manifested Pain
 LBIS:AddItem(spec, "45518", LBIS.L["Trinket"], "BIS") --Flare of the Heavens
 LBIS:AddItem(spec, "45466", LBIS.L["Trinket"], "BIS") --Scale of Fates
 LBIS:AddItem(spec, "45148", LBIS.L["Trinket"], "Alt") --Living Flame
-LBIS:AddItem(spec, "46312", LBIS.L["Trinket"], "Alt") --Vanquished Clutches of Yogg-Saron
 LBIS:AddItem(spec, "40255", LBIS.L["Trinket"], "Alt") --Dying Curse
+LBIS:AddItem(spec, "45308", LBIS.L["Trinket"], "Alt") --Eye of the Broodmother
 LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "Alt") --Illustration of the Dragon Soul
+LBIS:AddItem(spec, "46312", LBIS.L["Trinket"], "Alt") --Vanquished Clutches of Yogg-Saron
 LBIS:AddItem(spec, "39229", LBIS.L["Trinket"], "Alt") --Embrace of the Spider
 LBIS:AddItem(spec, "40682", LBIS.L["Trinket"], "Alt") --Sundial of the Exiled
 LBIS:AddItem(spec, "45535", LBIS.L["Trinket"], "Alt") --Show of Faith
