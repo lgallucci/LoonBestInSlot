@@ -33,6 +33,7 @@ LBIS:AddItem(spec, "45840", LBIS.L["Hands"], "Alt") --Touch of the Occult
 
 LBIS:AddItem(spec, "45619", LBIS.L["Waist"], "BIS") --Starwatcher's Binding
 LBIS:AddItem(spec, "45558", LBIS.L["Waist"], "Alt") --Cord of the White Dawn
+LBIS:AddItem(spec, "45557", LBIS.L["Waist"], "Alt") --Sash of Ancient Power
 LBIS:AddItem(spec, "45119", LBIS.L["Waist"], "Alt") --Embrace of the Leviathan
 LBIS:AddItem(spec, "40561", LBIS.L["Waist"], "Alt") --Leash of Heedless Magic
 LBIS:AddItem(spec, "45831", LBIS.L["Waist"], "Alt") --Sash of Potent Incantations
