@@ -62,10 +62,8 @@ local function assignItemsToFrame(f, itemList)
 end
 
 local function createCustomRow(f, slot, itemList)
-
-    local t, eb = nil, nil;
             
-    t = f:CreateFontString(nil, nil, "GameFontNormal");
+    local t = f:CreateFontString(nil, nil, "GameFontNormal");
     t:SetText(slot..":");
     t:SetPoint("LEFT", f, "LEFT", 10, 0);
         
@@ -73,18 +71,17 @@ local function createCustomRow(f, slot, itemList)
 
     for i=1,8 do
 
-        local b, t2, t3 = nil, nil, nil;
-        b = CreateFrame("Button", nil, f);
+        local b = CreateFrame("Button", nil, f);
         b:SetSize(32, 32);
         b:SetPoint("TOPLEFT", f, 50 + (i * 85), -2);
         b:Hide();
         
-        t2 = f:CreateFontString(nil, nil, "GameFontNormal");
+        local t2 = f:CreateFontString(nil, nil, "GameFontNormal");
         t2:SetText(i..": ");
         t2:SetPoint("RIGHT", b, "LEFT", -5, 0);
         t2:Hide();
 
-        t3 = f:CreateFontString(nil, nil, "GameFontHighlightSmall")
+        local t3 = f:CreateFontString(nil, nil, "GameFontHighlightSmall")
         t3:SetText("");
         t3:SetPoint("TOP", b, "BOTTOM", -5, -1);
         t3:Hide();
@@ -101,7 +98,7 @@ local function createCustomRow(f, slot, itemList)
         }
     end
 
-    eb = CreateFrame("Button", nil, f);
+    local eb = CreateFrame("Button", nil, f);
     eb:SetPoint("RIGHT", f, "RIGHT", -10, 0)
     eb:SetSize(32, 32);
     eb:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\edit.tga");

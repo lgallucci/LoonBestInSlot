@@ -29,9 +29,8 @@ local function createItemRow(f, specGem, specGemSource)
     
     LBIS:GetItemInfo(specGem.Id, function(item)
         local window = LBIS.BrowserWindow.Window;
-        local b, b2, t, t2 = nil, nil, nil, nil;
 
-        b = CreateFrame("Button", nil, f);
+        local b = CreateFrame("Button", nil, f);
         b:SetSize(32, 32);
         local bt = b:CreateTexture();
         bt:SetAllPoints();
@@ -40,7 +39,7 @@ local function createItemRow(f, specGem, specGemSource)
 
         LBIS:SetTooltipOnButton(b, item);
 
-        t = f:CreateFontString(nil, nil, "GameFontNormal");
+        local t = f:CreateFontString(nil, nil, "GameFontNormal");
         t:SetText((item.Link or item.Name):gsub("[%[%]]", ""));
         t:SetPoint("TOPLEFT", b, "TOPRIGHT", 2, -2);
         
@@ -51,7 +50,7 @@ local function createItemRow(f, specGem, specGemSource)
                     return;
                 end
 
-                b2 = CreateFrame("Button", nil, f);
+                local b2 = CreateFrame("Button", nil, f);
                 b2:SetSize(32, 32);
                 local bt2 = b2:CreateTexture();
                 bt2:SetAllPoints();
@@ -60,23 +59,23 @@ local function createItemRow(f, specGem, specGemSource)
 
                 LBIS:SetTooltipOnButton(b2, designItem);
 
-                d = f:CreateFontString(nil, nil, "GameFontNormal");
+                local d = f:CreateFontString(nil, nil, "GameFontNormal");
                 d:SetText(specGemSource.Source);
                 d:SetJustifyH("LEFT");
                 d:SetPoint("TOPLEFT", b2, "TOPRIGHT", 2, -2);
 
-                dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
+                local dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
                 dl:SetText(specGemSource.SourceLocation);
                 dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
             end); 
         else
-            d = f:CreateFontString(nil, nil, "GameFontNormal");
+            local d = f:CreateFontString(nil, nil, "GameFontNormal");
             d:SetText(specGemSource.Source);
             d:SetJustifyH("LEFT");
             d:SetWidth(window.ScrollFrame:GetWidth() / 2);
             d:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
 
-            dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
+            local dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
             dl:SetText(specGemSource.SourceLocation);
             dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);            
         end

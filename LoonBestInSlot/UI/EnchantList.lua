@@ -54,9 +54,9 @@ local function createItemRow(f, specEnchant, specEnchantSource)
     local isSpell = specEnchantSource.IsSpell == "True";
     local function createItemRowInternal(f, item, specEnchant, specEnchantSource)
         local window = LBIS.BrowserWindow.Window;
-        local b, t, dl = nil, nil, nil;
 
-        b = CreateFrame("Button", nil, f);
+
+        local b = CreateFrame("Button", nil, f);
         b:SetSize(32, 32);
         local bt = b:CreateTexture();
         bt:SetAllPoints();
@@ -65,7 +65,7 @@ local function createItemRow(f, specEnchant, specEnchantSource)
 
         LBIS:SetTooltipOnButton(b, item, isSpell);
 
-        t = f:CreateFontString(nil, nil, "GameFontNormal");
+        local t = f:CreateFontString(nil, nil, "GameFontNormal");
         t:SetText((item.Link or item.Name):gsub("[%[%]]", ""));
         t:SetPoint("TOPLEFT", b, "TOPRIGHT", 2, -2);
 
@@ -80,7 +80,7 @@ local function createItemRow(f, specEnchant, specEnchantSource)
                     return;
                 end
 
-                b2 = CreateFrame("Button", nil, f);
+                local b2 = CreateFrame("Button", nil, f);
                 b2:SetSize(32, 32);
                 local bt2 = b2:CreateTexture();
                 bt2:SetAllPoints();
@@ -89,23 +89,23 @@ local function createItemRow(f, specEnchant, specEnchantSource)
 
                 LBIS:SetTooltipOnButton(b2, designItem);
 
-                d = f:CreateFontString(nil, nil, "GameFontNormal");
+                local d = f:CreateFontString(nil, nil, "GameFontNormal");
                 d:SetText(specEnchantSource.Source);
                 d:SetJustifyH("LEFT");
                 d:SetPoint("TOPLEFT", b2, "TOPRIGHT", 2, -2);
 
-                dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
+                local dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
                 dl:SetText(specEnchantSource.SourceLocation);
                 dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
             end); 
         else
-            d = f:CreateFontString(nil, nil, "GameFontNormal");
+            local d = f:CreateFontString(nil, nil, "GameFontNormal");
             d:SetText(specEnchantSource.Source);
             d:SetJustifyH("LEFT");
             d:SetWidth(window.ScrollFrame:GetWidth() / 2);
             d:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
 
-            dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
+            local dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
             dl:SetText(specEnchantSource.SourceLocation);
             dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
         end

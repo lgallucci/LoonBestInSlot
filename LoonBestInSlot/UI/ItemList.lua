@@ -196,7 +196,6 @@ end
 local function createItemRow(f, specItem, specItemSource)
     
     LBIS:GetItemInfo(specItem.Id, function(item)
-        local t, b, d, dl = nil, nil, nil, nil;
         local window = LBIS.BrowserWindow.Window;
 
         if item == nil or item.Id == nil or item.Link == nil or item.Type == nil then
@@ -205,7 +204,7 @@ local function createItemRow(f, specItem, specItemSource)
         end
         --Create Item Button and Text
 
-        b = CreateFrame("Button", nil, f);
+        local b = CreateFrame("Button", nil, f);
         b:SetSize(32, 32);
         local bt = b:CreateTexture();
         bt:SetAllPoints();
@@ -214,7 +213,7 @@ local function createItemRow(f, specItem, specItemSource)
 
         LBIS:SetTooltipOnButton(b, item);
 
-        t = f:CreateFontString(nil, nil, "GameFontNormal");
+        local t = f:CreateFontString(nil, nil, "GameFontNormal");
         t:SetText((item.Link or item.Name):gsub("[%[%]]", ""));
         t:SetPoint("TOPLEFT", b, "TOPRIGHT", 2, -2);
 
@@ -235,13 +234,13 @@ local function createItemRow(f, specItem, specItemSource)
         end
         pt:SetPoint("TOPLEFT", t, "TOPRIGHT", 4, 0);
 
-		d = f:CreateFontString(nil, nil, "GameFontNormal");
+		local d = f:CreateFontString(nil, nil, "GameFontNormal");
 		d:SetText(createSourceTypeText(specItemSource));
 		d:SetJustifyH("LEFT");
 		d:SetWidth(window.ScrollFrame:GetWidth() / 2);
 		d:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
 
-        dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
+        local dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
 
         if specItemSource.SourceType == LBIS.L["Transmute"] then
         

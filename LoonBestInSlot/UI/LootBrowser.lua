@@ -4,6 +4,7 @@ LBIS.BrowserWindow = {
     LastFeaturesOpenTime = time({year=2022, month=12, day=10, hour=22})
 }
 
+local open_tab = "ItemList";
 function LBIS.BrowserWindow:OpenWindow(tabName)
     LBIS:BuildItemCache()
     if not LBIS.BrowserWindow.Window then
@@ -31,7 +32,6 @@ end
 
 local customListTabButton;
 local customEditTabButton;
-local open_tab = "ItemList";
 function LBIS.BrowserWindow:RefreshItems()    
 
     if LBISSettings.ShowCustom then
@@ -60,16 +60,15 @@ local deleted_windows = {};
 function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, frameName, point, rowFunc)
     local window = LBIS.BrowserWindow.Window;
     local spacing = 1;
-    local name = frameName;
-    local f, l = nil, nil;
     local reusing = false;
     
+    local f = nil;
     --TODO: MAKE THIS FASTER WHEN THERES TONS OF FRAMES !
     -- attempting to reuse a previous child frame if it exists 
     -- (which should include the previously created fontstring and button)
     if(next(deleted_windows) ~= nil) then
         for i=1, #deleted_windows do
-            if(name == deleted_windows[i]:GetName()) then
+            if(frameName == deleted_windows[i]:GetName()) then
                 f = deleted_windows[i];
                 reusing = true;
             end
@@ -81,7 +80,7 @@ function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, frameName, p
 
         local rowHeight = rowFunc(f, specItem, specItemSource);
         
-        l = f:CreateLine();
+        local l = f:CreateLine();
         l:SetColorTexture(1,1,1,0.5);
         l:SetThickness(1);
         l:SetStartPoint("BOTTOMLEFT",5, 0);

@@ -162,26 +162,25 @@ local function createCustomList(f)
 
     for i=1,6 do
 
-        local b, bUp, bDown, bDelete, il, it, t2, tt, tl = nil, nil, nil, nil, nil, nil, nil, nil, nil;
-        b = CreateFrame("Button", nil, itemf);
+        local b = CreateFrame("Button", nil, itemf);
         b:SetSize(32, 32);
         b:SetPoint("TOPLEFT", itemf, (math.floor((i-1) / 3) * 350) + 25, (math.fmod(i-1, 3) * -75) - 10);
         b:Hide();
 
-        il = itemf:CreateFontString(nil, nil, "GameFontNormal");
+        local il = itemf:CreateFontString(nil, nil, "GameFontNormal");
         il:SetPoint("TOPLEFT", b, "TOPRIGHT", 2, -2);
         il:Hide();
 
-        it = itemf:CreateFontString(nil, nil,"GameFontNormalGraySmall");
+        local it = itemf:CreateFontString(nil, nil,"GameFontNormalGraySmall");
         it:SetPoint("BOTTOMLEFT", b, "BOTTOMRIGHT", 2, 2);
         it:Hide();
 
-        tl = itemf:CreateFontString(nil, nil, "GameFontNormalSmall");
+        local tl = itemf:CreateFontString(nil, nil, "GameFontNormalSmall");
         tl:SetText("Tooltip:");
         tl:SetPoint("TOPLEFT", b, "BOTTOMLEFT", 0, -5);
         tl:Hide();
 
-        tt = CreateFrame("EditBox", nil, itemf, "InputBoxTemplate");
+        local tt = CreateFrame("EditBox", nil, itemf, "InputBoxTemplate");
         tt:SetPoint("LEFT", tl, "RIGHT", 5, 0);
         tt:SetFontObject(GameFontHighlightSmall)
         tt:SetSize(100, 20);
@@ -190,14 +189,14 @@ local function createCustomList(f)
         tt:SetMaxLetters(12);
         tt:Hide();
 
-        bDelete = CreateFrame("Button", nil, itemf);
+        local bDelete = CreateFrame("Button", nil, itemf);
         bDelete:SetSize(24, 24);
         bDelete:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\delete.tga");
         bDelete:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\delete_down.tga")
         bDelete:SetPoint("TOPLEFT", (math.floor((i+2) / 3) * 350) - 30, (math.fmod(i-1, 3) * -75) - 15);
         bDelete:Hide();
 
-        bDown = CreateFrame("Button", nil, itemf);
+        local bDown = CreateFrame("Button", nil, itemf);
         bDown:SetSize(24, 24);
         bDown:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowdown.tga");
         bDown:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowdown_down.tga")
@@ -205,7 +204,7 @@ local function createCustomList(f)
         bDown:SetPoint("TOPRIGHT", bDelete, "TOPLEFT", -2, 0);
         bDown:Hide();
 
-        bUp = CreateFrame("Button", nil, itemf);
+        local bUp = CreateFrame("Button", nil, itemf);
         bUp:SetSize(24, 24);
         bUp:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowup.tga");
         bUp:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\arrowup_down.tga");
@@ -213,7 +212,7 @@ local function createCustomList(f)
         bUp:SetPoint("TOPRIGHT", bDown, "TOPLEFT", -2, 0);
         bUp:Hide();
         
-        t2 = itemf:CreateFontString(nil, nil, "GameFontNormal");
+        local t2 = itemf:CreateFontString(nil, nil, "GameFontNormal");
         t2:SetText(i..": ");
         t2:SetPoint("RIGHT", b, "LEFT", -5, 0);
         t2:Hide();
