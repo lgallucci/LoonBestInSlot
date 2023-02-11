@@ -8,6 +8,7 @@ LBISSettingsDefault =
 	SelectedZone = LBIS.L["All"], 
 	SelectedZoneNumber = LBIS.L["All"],
 	ShowCustom = false,
+	OpenTab = "ItemList",
 	minimap = {
 		hide = false,
 		minimapPos = 180

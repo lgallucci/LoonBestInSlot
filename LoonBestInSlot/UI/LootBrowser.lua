@@ -4,13 +4,14 @@ LBIS.BrowserWindow = {
     LastFeaturesOpenTime = time({year=2022, month=12, day=10, hour=22})
 }
 
-local open_tab = "ItemList";
 function LBIS.BrowserWindow:OpenWindow(tabName)
     LBIS:BuildItemCache()
     if not LBIS.BrowserWindow.Window then
         LBIS.BrowserWindow:CreateBrowserWindow();
     end
-    open_tab = tabName;
+    if tabName ~= nil then
+        LBISSettings.OpenTab = tabName;
+    end
     LBIS.BrowserWindow:RefreshItems();
     LBIS.BrowserWindow.Window:Show();
 
@@ -42,15 +43,15 @@ function LBIS.BrowserWindow:RefreshItems()
         customEditTabButton:Hide()
     end
 
-    if open_tab == "ItemList" then
+    if LBISSettings.OpenTab == "ItemList" then
         LBIS.ItemList:UpdateItems();
-    elseif open_tab == "GemList" then
+    elseif LBISSettings.OpenTab == "GemList" then
         LBIS.GemList:UpdateItems();
-    elseif open_tab == "EnchantList" then
+    elseif LBISSettings.OpenTab == "EnchantList" then
         LBIS.EnchantList:UpdateItems();        
-    elseif open_tab == "CustomEditList" then
+    elseif LBISSettings.OpenTab == "CustomEditList" then
         LBIS.CustomEditList:UpdateItems();
-    elseif open_tab == "CustomItemList" then
+    elseif LBISSettings.OpenTab == "CustomItemList" then
         LBIS.CustomItemList:UpdateItems();
     end
 end
@@ -164,7 +165,7 @@ local function createTabs(window, content)
     itemListTabButton:SetPoint("CENTER", window, "BOTTOMLEFT", 60, -13);
     itemListTabButton:SetScript("OnClick", function(self)
         PanelTemplates_SetTab(content, 1);
-        open_tab = "ItemList";
+        LBISSettings.OpenTab = "ItemList";
 
         LBIS.BrowserWindow:RefreshItems();
     end);
@@ -176,7 +177,7 @@ local function createTabs(window, content)
     gemListTabButton:SetPoint("LEFT", itemListTabButton, "RIGHT", -16, 0);
     gemListTabButton:SetScript("OnClick", function(self)
         PanelTemplates_SetTab(content, 2);
-        open_tab = "GemList";
+        LBISSettings.OpenTab = "GemList";
 
         LBIS.BrowserWindow:RefreshItems();
     end);
@@ -188,7 +189,7 @@ local function createTabs(window, content)
     enchantListTabButton:SetPoint("LEFT", gemListTabButton, "RIGHT", -16, 0);
     enchantListTabButton:SetScript("OnClick", function(self)
         PanelTemplates_SetTab(content, 3);
-        open_tab = "EnchantList";
+        LBISSettings.OpenTab = "EnchantList";
 
         LBIS.BrowserWindow:RefreshItems();
     end);
@@ -201,7 +202,7 @@ local function createTabs(window, content)
     customListTabButton:SetPoint("LEFT", enchantListTabButton, "RIGHT", -16, 0);
     customListTabButton:SetScript("OnClick", function(self)
         PanelTemplates_SetTab(content, 4);
-        open_tab = "CustomItemList";
+        LBISSettings.OpenTab = "CustomItemList";
 
         LBIS.BrowserWindow:RefreshItems();
     end);
@@ -213,7 +214,7 @@ local function createTabs(window, content)
     customEditTabButton:SetPoint("LEFT", customListTabButton, "RIGHT", -16, 0);
     customEditTabButton:SetScript("OnClick", function(self)
         PanelTemplates_SetTab(content, 5);
-        open_tab = "CustomEditList";
+        LBISSettings.OpenTab = "CustomEditList";
     
         LBIS.BrowserWindow:RefreshItems();
     end);
