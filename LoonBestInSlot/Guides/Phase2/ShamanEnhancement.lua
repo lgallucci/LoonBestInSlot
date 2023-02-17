@@ -4,6 +4,7 @@ LBIS:AddItem(spec, "45610", LBIS.L["Head"], "BIS") --Boundless Gaze
 LBIS:AddItem(spec, "46212", LBIS.L["Head"], "Alt") --Conqueror's Worldbreaker Faceguard
 LBIS:AddItem(spec, "40543", LBIS.L["Head"], "Alt") --Blue Aspect Helm
 LBIS:AddItem(spec, "45412", LBIS.L["Head"], "Alt") --Valorous Worldbreaker Faceguard
+LBIS:AddItem(spec, "45329", LBIS.L["Head"], "Alt") --Circlet of True Sight
 
 LBIS:AddItem(spec, "46203", LBIS.L["Shoulder"], "BIS") --Conqueror's Worldbreaker Shoulderguards
 LBIS:AddItem(spec, "45415", LBIS.L["Shoulder"], "Alt") --Valorous Worldbreaker Shoulderguards
