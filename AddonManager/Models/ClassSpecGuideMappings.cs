@@ -1633,8 +1633,8 @@ public class ClassSpecGuideMappings
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warlock/affliction/dps-bis-gear-pve-phase-2",
             "Affliction", "Warlock", "Phase2", new List<(string, GuideMapping)>
         {
-            { ("Two Hand", "h2#weapons~h4") },
-            { ("Main Hand", "h2#weapons~h4~h4") },
+            { ("Two Hand", "h2#weapons~h3") },
+            { ("Main Hand", "h2#weapons~h3~h3") },
             { ("Off Hand", "#offhand") },
             { ("Ranged/Relic", "#wand") }
         }));
@@ -1683,8 +1683,8 @@ public class ClassSpecGuideMappings
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warlock/demonology/dps-bis-gear-pve-phase-2",
             "Demonology", "Warlock", "Phase2", new List<(string, GuideMapping)>
         {
-            { ("Two Hand", "h2#weapons~h4") },
-            { ("Main Hand", "h2#weapons~h4~h4") },
+            { ("Two Hand", "h2#weapons~h3") },
+            { ("Main Hand", "h2#weapons~h3~h3") },
             { ("Off Hand", "#offhand") },
             { ("Ranged/Relic", "#wand") }
         }));
@@ -1733,8 +1733,8 @@ public class ClassSpecGuideMappings
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warlock/destruction/dps-bis-gear-pve-phase-2",
             "Destruction", "Warlock", "Phase2", new List<(string, GuideMapping)>
         {
-            { ("Two Hand", "h2#weapons~h4") },
-            { ("Main Hand", "h2#weapons~h4~h4") },
+            { ("Two Hand", "h2#weapons~h3") },
+            { ("Main Hand", "h2#weapons~h3~h3") },
             { ("Off Hand", "#offhand") },
             { ("Ranged/Relic", "#wand") }
         }));
