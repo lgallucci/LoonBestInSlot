@@ -55,8 +55,9 @@ LBIS:AddItem(spec, "45263", LBIS.L["Trinket"], "Alt") --Wrathstone
 LBIS:AddItem(spec, "45522", LBIS.L["Trinket"], "Alt") --Blood of the Old God
 LBIS:AddItem(spec, "45931", LBIS.L["Trinket"], "Alt") --Mjolnir Runestone
 
+LBIS:AddItem(spec, "45620", LBIS.L["Main Hand"], "BIS") --Starshard Edge
 LBIS:AddItem(spec, "45132", LBIS.L["Main Hand"], "BIS") --Golden Saronite Dragon
-LBIS:AddItem(spec, "45612", LBIS.L["Main Hand"], "BIS") --Constellus
+LBIS:AddItem(spec, "45612", LBIS.L["Main Hand"], "Alt") --Constellus
 LBIS:AddItem(spec, "46035", LBIS.L["Main Hand"], "Alt") --Aesuga, Hand of the Ardent Champion
 LBIS:AddItem(spec, "45449", LBIS.L["Main Hand"], "Alt") --The Masticator
 LBIS:AddItem(spec, "42209", LBIS.L["Main Hand"], "Alt") --Furious Gladiator's Cleaver
