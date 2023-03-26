@@ -45,12 +45,14 @@ LBIS:AddItem(spec, "45133", LBIS.L["Neck"], "BIS") --Pendant of Fiery Havoc
 LBIS:AddItem(spec, "45933", LBIS.L["Neck"], "Alt") --Pendant of the Shallow Grave
 LBIS:AddItem(spec, "44661", LBIS.L["Neck"], "Alt") --Wyrmrest Necklace of Power
 LBIS:AddItem(spec, "45243", LBIS.L["Neck"], "Alt") --Sapphire Amulet of Renewal
+LBIS:AddItem(spec, "45447", LBIS.L["Neck"], "Alt") --Watchful Eye of Fate
 LBIS:AddItem(spec, "44658", LBIS.L["Neck"], "Alt") --Chain of the Ancient Wyrm
 
 LBIS:AddItem(spec, "45495", LBIS.L["Ring"], "BIS") --Conductive Seal
 LBIS:AddItem(spec, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
 LBIS:AddItem(spec, "45451", LBIS.L["Ring"], "Alt") --Frozen Loop
 LBIS:AddItem(spec, "45297", LBIS.L["Ring"], "Alt") --Shimmering Seal
+LBIS:AddItem(spec, "46096", LBIS.L["Ring"], "Alt") --Signet of Soft Lament
 LBIS:AddItem(spec, "45168", LBIS.L["Ring"], "Alt") --Pyrelight Circle
 LBIS:AddItem(spec, "45691", LBIS.L["Ring"], "Alt") --Inscribed Signet of the Kirin Tor
 LBIS:AddItem(spec, "40399", LBIS.L["Ring"], "Alt") --Signet of Manifested Pain

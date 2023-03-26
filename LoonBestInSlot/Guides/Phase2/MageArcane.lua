@@ -66,6 +66,7 @@ LBIS:AddItem(spec, "45822", LBIS.L["Neck"], "Alt") --Evoker's Charm
 
 LBIS:AddItem(spec, "45495", LBIS.L["Ring"], "BIS") --Conductive Seal
 LBIS:AddItem(spec, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
+LBIS:AddItem(spec, "46096", LBIS.L["Ring"], "Alt") --Signet of Soft Lament
 LBIS:AddItem(spec, "45168", LBIS.L["Ring"], "Alt") --Pyrelight Circle
 LBIS:AddItem(spec, "40399", LBIS.L["Ring"], "Alt") --Signet of Manifested Pain
 LBIS:AddItem(spec, "45691", LBIS.L["Ring"], "Alt") --Inscribed Signet of the Kirin Tor
