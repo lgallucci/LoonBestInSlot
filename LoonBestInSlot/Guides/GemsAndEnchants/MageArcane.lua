@@ -5,10 +5,12 @@ local spec4 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "4")
 
 LBIS:AddGem(spec1, "41285", "3", "True") --Chaotic Skyflare Diamond
 LBIS:AddGem(spec1, "39998", "3", "False") --Runed Scarlet Ruby
+LBIS:AddGem(spec1, "45883", "4", "False") --Runed Stormjewel
 LBIS:AddGem(spec1, "42144", "4", "False") --Runed Dragon's Eye
 LBIS:AddGem(spec1, "40051", "3", "False") --Reckless Monarch Topaz
 LBIS:AddGem(spec1, "40049", "3", "False") --Veiled Monarch Topaz
 LBIS:AddGem(spec1, "40014", "3", "False") --Rigid Autumn's Glow
+LBIS:AddGem(spec1, "45987", "4", "False") --Rigid Stormjewel
 LBIS:AddGem(spec1, "40026", "3", "False") --Purified Twilight Opal
 
 

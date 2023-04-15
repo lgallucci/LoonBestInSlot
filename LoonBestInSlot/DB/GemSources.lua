@@ -96,5 +96,6 @@ LBIS.GemSources =
     [45880] = { Name = "Solid Stormjewel", DesignId = "0", Source = LBIS.L["Daily Fishing Quest"], SourceLocation = "" },
     [45882] = { Name = "Brilliant Stormjewel", DesignId = "0", Source = LBIS.L["Daily Fishing Quest"], SourceLocation = "" },
     [45883] = { Name = "Runed Stormjewel", DesignId = "0", Source = LBIS.L["Daily Fishing Quest"], SourceLocation = "" },
+    [45987] = { Name = "Rigid Stormjewel", DesignId = "0", Source = LBIS.L["Daily Fishing Quest"], SourceLocation = "" },
     [49110] = { Name = "Nightmare Tear", DesignId = "49112", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
 }
