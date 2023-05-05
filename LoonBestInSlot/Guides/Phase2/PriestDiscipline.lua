@@ -54,9 +54,9 @@ LBIS:AddItem(spec, "46047", LBIS.L["Neck"], "Alt") --Pendant of the Somber Witne
 LBIS:AddItem(spec, "45116", LBIS.L["Neck"], "Alt") --Freya's Choker of Warding
 
 LBIS:AddItem(spec, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
-LBIS:AddItem(spec, "46096", LBIS.L["Ring"], "Alt") --Signet of Soft Lament
-LBIS:AddItem(spec, "45614", LBIS.L["Ring"], "Alt") --Starshine Circle
-LBIS:AddItem(spec, "45946", LBIS.L["Ring"], "Alt") --Fire Orchid Signet
+LBIS:AddItem(spec, "46096", LBIS.L["Ring"], "BIS") --Signet of Soft Lament
+LBIS:AddItem(spec, "45614", LBIS.L["Ring"], "BIS") --Starshine Circle
+LBIS:AddItem(spec, "45946", LBIS.L["Ring"], "BIS") --Fire Orchid Signet
 LBIS:AddItem(spec, "46323", LBIS.L["Ring"], "Alt") --Starshine Signet
 
 LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Dragon Soul

@@ -25,7 +25,7 @@ public sealed partial class GuideImporter : Page
                                 "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAffliction", "WarlockDemonology", "WarlockDestruction", "WarriorArms",
                                 "WarriorFury", "WarriorProtection"};
 
-    public string[] PhaseList = { "GemsEnchants", "Phase0", "Phase1", "Phase2" };//, "Phase3", "Phase4" };
+    public string[] PhaseList = { "GemsEnchants", "Phase0", "Phase1", "Phase2", "Phase3" };//, "Phase4" };
 
     public GuideImporter()
     {
@@ -180,7 +180,7 @@ public sealed partial class GuideImporter : Page
 
     private void Refresh_All_Click(object sender, RoutedEventArgs e)
     {
-        int phaseNumber = 2;
+        int phaseNumber = 3;
         ConsoleOut.Text = $"Adding Phase {phaseNumber} items to ItemSource...";
 
         //Read file into dictionary

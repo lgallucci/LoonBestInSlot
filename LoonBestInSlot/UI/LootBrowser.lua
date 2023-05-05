@@ -278,7 +278,7 @@ local function createDropDowns(window)
         ['name']='phase',
         ['parent']=window,
         ['title']='Phase:',
-        ['items']= { LBIS.L["All"], LBIS.L["PreRaid"], LBIS.L["Phase 1"], LBIS.L["Phase 2"], "BIS" }, --, LBIS.L["Phase 3"], LBIS.L["Phase 4"], LBIS.L["Phase 5"],
+        ['items']= { LBIS.L["All"], LBIS.L["PreRaid"], LBIS.L["Phase 1"], LBIS.L["Phase 2"], LBIS.L["Phase 3"], "BIS" }, --LBIS.L["Phase 4"], LBIS.L["Phase 5"],
         ['defaultVal']=LBISSettings.SelectedPhase,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedPhase = dropdown_val;
@@ -320,9 +320,9 @@ local function createDropDowns(window)
         ['name']='zone',
         ['parent']=window,
         ['title']='Raid:',
-        ['items']= { LBIS.L["All"], LBIS.L["Naxxramas"], LBIS.L["The Eye of Eternity"], LBIS.L["The Obsidian Sanctum"], LBIS.L["Vault of Archavon (10)"], 
-            LBIS.L["Vault of Archavon (25)"], LBIS.L["Ulduar (10)"], LBIS.L["Ulduar (25)"]},
-            --LBIS.L["Trial of the Crusader (10)"], LBIS.L["Trial of the Crusader (25)"], LBIS.L["Onyxia's Lair (10)"], LBIS.L["Onyxia's Lair (25)"], 
+        ['items']= { LBIS.L["All"], LBIS.L["Naxxramas"], LBIS.L["The Eye of Eternity"], LBIS.L["The Obsidian Sanctum"], LBIS.L["Ulduar"], 
+            LBIS.L["Vault of Archavon (10)"], LBIS.L["Vault of Archavon (25)"], 
+            LBIS.L["Trial of the Crusader (10)"], LBIS.L["Trial of the Crusader (25)"], LBIS.L["Onyxia's Lair (10)"], LBIS.L["Onyxia's Lair (25)"]}, 
             --LBIS.L["Icecrown Citadel (10)"], LBIS.L["Icecrown Citadel (25)"],
             --LBIS.L["The Ruby Sanctum (10)"], LBIS.L["The Ruby Sanctum (25)"]},
         ['defaultVal']= LBISSettings.SelectedZone,

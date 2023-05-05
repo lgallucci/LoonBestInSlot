@@ -18,6 +18,7 @@ LBIS:AddItem(spec, "34388", LBIS.L["Shoulder"], "Alt") --Pauldrons of Berserking
 
 LBIS:AddItem(spec, "45461", LBIS.L["Back"], "BIS") --Drape of Icy Intent
 LBIS:AddItem(spec, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless General
+LBIS:AddItem(spec, "45588", LBIS.L["Back"], "Alt") --Drape of the Skyborn
 LBIS:AddItem(spec, "40403", LBIS.L["Back"], "Alt") --Drape of the Deadly Foe
 LBIS:AddItem(spec, "45873", LBIS.L["Back"], "Alt") --Winter's Frigid Embrace
 LBIS:AddItem(spec, "40721", LBIS.L["Back"], "Alt") --Hammerhead Sharkskin Cloak
@@ -63,6 +64,7 @@ LBIS:AddItem(spec, "40688", LBIS.L["Waist"], "Alt") --Verdungo's Barbarian Cord
 
 LBIS:AddItem(spec, "45134", LBIS.L["Legs"], "BIS") --Plated Leggings of Ruination
 LBIS:AddItem(spec, "46153", LBIS.L["Legs"], "BIS") --Conqueror's Aegis Legplates
+LBIS:AddItem(spec, "45982", LBIS.L["Legs"], "Alt") --Fused Alloy Legplates
 LBIS:AddItem(spec, "45379", LBIS.L["Legs"], "Alt") --Valorous Aegis Legplates
 LBIS:AddItem(spec, "45141", LBIS.L["Legs"], "Alt") --Proto-hide Leggings
 LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "Alt") --Leggings of the Honored
@@ -72,6 +74,7 @@ LBIS:AddItem(spec, "37193", LBIS.L["Legs"], "Alt") --Staggering Legplates
 
 LBIS:AddItem(spec, "45599", LBIS.L["Feet"], "BIS") --Sabatons of Lifeless Night
 LBIS:AddItem(spec, "45989", LBIS.L["Feet"], "BIS") --Tempered Mercury Greaves
+LBIS:AddItem(spec, "45244", LBIS.L["Feet"], "Alt") --Greaves of Swift Vengeance
 LBIS:AddItem(spec, "45564", LBIS.L["Feet"], "Alt") --Footpads of Silence
 LBIS:AddItem(spec, "45559", LBIS.L["Feet"], "Alt") --Battlelord's Plate Boots
 LBIS:AddItem(spec, "40591", LBIS.L["Feet"], "Alt") --Melancholy Sabatons
@@ -83,6 +86,7 @@ LBIS:AddItem(spec, "44297", LBIS.L["Feet"], "Alt") --Boots of the Neverending Pa
 LBIS:AddItem(spec, "45517", LBIS.L["Neck"], "BIS") --Pendulum of Infinity
 LBIS:AddItem(spec, "46040", LBIS.L["Neck"], "BIS") --Strength of the Heavens
 LBIS:AddItem(spec, "45193", LBIS.L["Neck"], "Alt") --Insurmountable Fervor
+LBIS:AddItem(spec, "45459", LBIS.L["Neck"], "Alt") --Frigid Strength of Hodir
 LBIS:AddItem(spec, "44664", LBIS.L["Neck"], "Alt") --Favor of the Dragon Queen
 LBIS:AddItem(spec, "40065", LBIS.L["Neck"], "Alt") --Fool's Trial
 LBIS:AddItem(spec, "39421", LBIS.L["Neck"], "Alt") --Gem of Imprisoned Vassals

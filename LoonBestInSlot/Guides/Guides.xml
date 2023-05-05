@@ -128,7 +128,7 @@
 	<Script file="Phase2\WarriorArms.lua" />
 	<Script file="Phase2\WarriorProtection.lua" />
 
-	<!--<Script file="Phase3\DeathKnightBlood.lua" />
+	<Script file="Phase3\DeathKnightBlood.lua" />
 	<Script file="Phase3\DeathKnightFrost.lua" />
 	<Script file="Phase3\DeathKnightUnholy.lua" />
 	<Script file="Phase3\DruidBalance.lua" />
@@ -158,6 +158,6 @@
 	<Script file="Phase3\WarlockDestruction.lua" />
 	<Script file="Phase3\WarriorFury.lua" />
 	<Script file="Phase3\WarriorArms.lua" />
-	<Script file="Phase3\WarriorProtection.lua" />-->
+	<Script file="Phase3\WarriorProtection.lua" />
 
 </Ui>

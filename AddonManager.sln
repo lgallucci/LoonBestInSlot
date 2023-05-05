@@ -304,6 +304,41 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{71B13F0F-1281-
 		LoonBestInSlot\DB\TierSources.lua = LoonBestInSlot\DB\TierSources.lua
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phase3", "Phase3", "{032B3344-026F-4FC6-9918-9CA61CC69012}"
+	ProjectSection(SolutionItems) = preProject
+		LoonBestInSlot\Guides\Phase3\DeathKnightBlood.lua = LoonBestInSlot\Guides\Phase3\DeathKnightBlood.lua
+		LoonBestInSlot\Guides\Phase3\DeathKnightFrost.lua = LoonBestInSlot\Guides\Phase3\DeathKnightFrost.lua
+		LoonBestInSlot\Guides\Phase3\DeathKnightUnholy.lua = LoonBestInSlot\Guides\Phase3\DeathKnightUnholy.lua
+		LoonBestInSlot\Guides\Phase3\DruidBalance.lua = LoonBestInSlot\Guides\Phase3\DruidBalance.lua
+		LoonBestInSlot\Guides\Phase3\DruidBear.lua = LoonBestInSlot\Guides\Phase3\DruidBear.lua
+		LoonBestInSlot\Guides\Phase3\DruidCat.lua = LoonBestInSlot\Guides\Phase3\DruidCat.lua
+		LoonBestInSlot\Guides\Phase3\DruidRestoration.lua = LoonBestInSlot\Guides\Phase3\DruidRestoration.lua
+		LoonBestInSlot\Guides\Phase3\HunterBeastMastery.lua = LoonBestInSlot\Guides\Phase3\HunterBeastMastery.lua
+		LoonBestInSlot\Guides\Phase3\HunterMarksmanship.lua = LoonBestInSlot\Guides\Phase3\HunterMarksmanship.lua
+		LoonBestInSlot\Guides\Phase3\HunterSurvival.lua = LoonBestInSlot\Guides\Phase3\HunterSurvival.lua
+		LoonBestInSlot\Guides\Phase3\MageArcane.lua = LoonBestInSlot\Guides\Phase3\MageArcane.lua
+		LoonBestInSlot\Guides\Phase3\MageFire.lua = LoonBestInSlot\Guides\Phase3\MageFire.lua
+		LoonBestInSlot\Guides\Phase3\MageFrost.lua = LoonBestInSlot\Guides\Phase3\MageFrost.lua
+		LoonBestInSlot\Guides\Phase3\PaladinHoly.lua = LoonBestInSlot\Guides\Phase3\PaladinHoly.lua
+		LoonBestInSlot\Guides\Phase3\PaladinProtection.lua = LoonBestInSlot\Guides\Phase3\PaladinProtection.lua
+		LoonBestInSlot\Guides\Phase3\PaladinRetribution.lua = LoonBestInSlot\Guides\Phase3\PaladinRetribution.lua
+		LoonBestInSlot\Guides\Phase3\PriestDiscipline.lua = LoonBestInSlot\Guides\Phase3\PriestDiscipline.lua
+		LoonBestInSlot\Guides\Phase3\PriestHoly.lua = LoonBestInSlot\Guides\Phase3\PriestHoly.lua
+		LoonBestInSlot\Guides\Phase3\PriestShadow.lua = LoonBestInSlot\Guides\Phase3\PriestShadow.lua
+		LoonBestInSlot\Guides\Phase3\RogueAssassination.lua = LoonBestInSlot\Guides\Phase3\RogueAssassination.lua
+		LoonBestInSlot\Guides\Phase3\RogueCombat.lua = LoonBestInSlot\Guides\Phase3\RogueCombat.lua
+		LoonBestInSlot\Guides\Phase3\RogueSubtlety.lua = LoonBestInSlot\Guides\Phase3\RogueSubtlety.lua
+		LoonBestInSlot\Guides\Phase3\ShamanElemental.lua = LoonBestInSlot\Guides\Phase3\ShamanElemental.lua
+		LoonBestInSlot\Guides\Phase3\ShamanEnhancement.lua = LoonBestInSlot\Guides\Phase3\ShamanEnhancement.lua
+		LoonBestInSlot\Guides\Phase3\ShamanRestoration.lua = LoonBestInSlot\Guides\Phase3\ShamanRestoration.lua
+		LoonBestInSlot\Guides\Phase3\WarlockAffliction.lua = LoonBestInSlot\Guides\Phase3\WarlockAffliction.lua
+		LoonBestInSlot\Guides\Phase3\WarlockDemonology.lua = LoonBestInSlot\Guides\Phase3\WarlockDemonology.lua
+		LoonBestInSlot\Guides\Phase3\WarlockDestruction.lua = LoonBestInSlot\Guides\Phase3\WarlockDestruction.lua
+		LoonBestInSlot\Guides\Phase3\WarriorArms.lua = LoonBestInSlot\Guides\Phase3\WarriorArms.lua
+		LoonBestInSlot\Guides\Phase3\WarriorFury.lua = LoonBestInSlot\Guides\Phase3\WarriorFury.lua
+		LoonBestInSlot\Guides\Phase3\WarriorProtection.lua = LoonBestInSlot\Guides\Phase3\WarriorProtection.lua
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -378,6 +413,7 @@ Global
 		{174CB7EB-7975-4A61-BFDD-3CED6D04FA17} = {5D7B4E6E-0F3B-4D5C-B6FE-1447C37D766C}
 		{915F07F4-83D9-4CF0-B03C-1DFBBD583A04} = {6685BDBB-9627-45A1-96D3-46D882F28A67}
 		{71B13F0F-1281-47E2-BEC9-4D7D3021AAC4} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
+		{032B3344-026F-4FC6-9918-9CA61CC69012} = {6685BDBB-9627-45A1-96D3-46D882F28A67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EC8A0A9-B7E7-48E2-9272-317A8A0C0916}
