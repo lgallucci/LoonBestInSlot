@@ -133,7 +133,7 @@ public static class WowheadImporter
                     //}
                 }
 
-                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\Phase{phaseNumber}\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, $"Phase {phaseNumber}", items.Values.ToList());
+                //ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, items.Values.ToList());
 
                 ItemSourceFileManager.WriteItemSources(itemSources);
             }
@@ -195,7 +195,7 @@ public static class WowheadImporter
                 sb.AppendLine($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot}");
             }
 
-            ItemSpecFileManager.WriteGemAndEnchantSpec(Constants.AddonPath + $@"\Guides\GemsAndEnchants\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, gemsEnchants.Item1, gemsEnchants.Item2);
+            //ItemSpecFileManager.WriteGemAndEnchantSpec(Constants.AddonPath + $@"\Guides\GemsAndEnchants\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, gemsEnchants.Item1, gemsEnchants.Item2);
 
             ItemSourceFileManager.WriteGemSources(gemSources);
             ItemSourceFileManager.WriteEnchantSources(enchantSources);

@@ -2,6 +2,7 @@ local spec1 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "1")
 local spec2 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "2")
 local spec3 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "4")
+local spec5 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "5")
 
 LBIS:AddGem(spec1, "41380", "3", "True") --Austere Earthsiege Diamond
 LBIS:AddGem(spec1, "41377", "3", "True") --Effulgent Skyflare Diamond

@@ -4,28 +4,105 @@ namespace AddonManager.FileManagers;
 
 public static class ItemSpecFileManager
 {
-    public static void WriteItemSpec(string path, string className, string specName, string phaseText, List<ItemSpec> items)
+    public static void WriteItemSpec(string path, string className, string specName, 
+        Dictionary<int, GemSpec> gems, 
+        Dictionary<string, EnchantSpec> enchants, 
+        List<Tuple<int, List<ItemSpec>>> itemsList)
     {
         var itemSB = new StringBuilder();
 
-        var phaseNumber = Int32.Parse(phaseText.Replace("Phase", ""));
+        itemSB.AppendLine($"local spec0 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"0\")");
+        itemSB.AppendLine($"local spec1 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"1\")");
+        itemSB.AppendLine($"local spec2 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"2\")");
+        itemSB.AppendLine($"local spec3 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"3\")");
+        itemSB.AppendLine($"local spec4 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"4\")");
+        itemSB.AppendLine($"local spec5 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"5\")");
 
-        itemSB.AppendLine($"local spec = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"{phaseNumber}\")");
-
-        items.Sort();
-
-        var previousSlot = "LBIS.L[\"Head\"]";
-        foreach (var item in items)
+        foreach (var gem in gems)
         {
-            if (previousSlot != item.Slot)
+            string specString = "spec";
+
+            if (gem.Value.Phase > 0)
+                specString += gem.Value.Phase;
+
+            itemSB.AppendLine($"LBIS:AddGem({specString}, \"{gem.Value.GemId}\", \"{gem.Value.Quality}\", \"{gem.Value.IsMeta.ToString()}\") --{gem.Value.Name}");
+        }
+        itemSB.AppendLine();
+
+        foreach (var enchant in enchants)
+        {
+            itemSB.AppendLine($"LBIS:AddEnchant(\"spec1\", \"{enchant.Value.EnchantId}\", LBIS.L[\"{enchant.Value.Slot}\"]) --{enchant.Value.Name}");
+        }
+        itemSB.AppendLine();
+
+        foreach (var phaseItems in itemsList)
+        {
+            itemSB.AppendLine();
+            var items = phaseItems.Item2;
+            items.Sort();
+
+            foreach (var item in items)
             {
-                previousSlot = item.Slot;
-                itemSB.AppendLine();
+                itemSB.AppendLine($"LBIS:AddItem(spec{phaseItems.Item1}, \"{item.ItemId}\", LBIS.L[\"{item.Slot}\"], \"{item.BisStatus}\") --{item.Name}");
             }
-            itemSB.AppendLine($"LBIS:AddItem(spec, \"{item.ItemId}\", LBIS.L[\"{item.Slot}\"], \"{item.BisStatus}\") --{item.Name}");
         }
 
         System.IO.File.WriteAllText(path, itemSB.ToString());
+    }
+
+    public static Tuple<Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, List<Tuple<int, List<ItemSpec>>>> ReadItemSpec(string path)
+    {
+        return new Tuple<Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, List<Tuple<int, List<ItemSpec>>>>(new Dictionary<int, GemSpec>(),
+            new Dictionary<string, EnchantSpec>(),
+            new List<Tuple<int, List<ItemSpec>>>());
+    }
+
+    public static Tuple<Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>> ReadGemEnchants(string path)
+    {
+        var gems = new Dictionary<int, GemSpec>();
+        var enchants = new Dictionary<string, EnchantSpec>();
+
+        string[] itemSpecLines = System.IO.File.ReadAllLines(path);
+
+        foreach (var itemSpecLine in itemSpecLines)
+        {
+            if (itemSpecLine.Contains("local spec"))
+            {
+                continue;
+            }
+
+            if (itemSpecLine.Contains("LBIS:AddGem(spec"))
+            {
+                var itemSplit = itemSpecLine.Replace("LBIS:AddGem(spec", "").Trim().Split('"');
+
+                var gemId = Int32.Parse(itemSplit[1]);
+                gems.Add(gemId, new GemSpec
+                {
+                    GemId = gemId,
+                    Name = itemSplit[6].Replace(") --", ""),
+                    Phase = Int32.Parse(itemSplit[0].Replace(", ", "")),
+                    Quality = Int32.Parse(itemSplit[3]),
+                    IsMeta = bool.Parse(itemSplit[5])
+                });
+            }
+
+            if (itemSpecLine.Contains("LBIS:AddEnchant(spec"))
+            {
+                var itemSplit = itemSpecLine.Replace("LBIS:AddEnchant(spec", "").Trim().Split('"');
+
+                var enchantId = Int32.Parse(itemSplit[1]);
+                var slot = itemSplit[3];
+                enchants.Add(enchantId + slot, new EnchantSpec
+                {
+                    EnchantId = enchantId,
+                    Name = itemSplit[4].Replace(") --", ""),
+                    Slot = slot,
+                    IsSpell = false,
+                });
+            }
+        }
+
+        return new Tuple<Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>>(gems, enchants);
     }
 
     public static Dictionary<int, ItemSpec> ReadPhaseFromFile(string path)
@@ -56,44 +133,5 @@ public static class ItemSpecFileManager
         }
 
         return items;
-    }
-
-    public static void WriteGemAndEnchantSpec(string path, string className, string specName, Dictionary<int, GemSpec> gems, Dictionary<string, EnchantSpec> enchants)
-    {
-        var GAndESB = new StringBuilder();
-
-        GAndESB.AppendLine($"local spec1 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"1\")");
-        GAndESB.AppendLine($"local spec2 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"2\")");
-        GAndESB.AppendLine($"local spec3 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"3\")");
-        GAndESB.AppendLine($"local spec4 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"4\")");
-
-        GAndESB.AppendLine();
-        foreach (var gem in gems)
-        {
-            string specString = "spec";
-
-            if (gem.Value.Phase > 0)
-                specString += gem.Value.Phase;
-
-            GAndESB.AppendLine($"LBIS:AddGem({specString}, \"{gem.Value.GemId}\", \"{gem.Value.Quality}\", \"{gem.Value.IsMeta.ToString()}\") --{gem.Value.Name}");
-        }
-        GAndESB.AppendLine();
-
-        var previousSlot = "LBIS.L[\"Head\"]";
-        foreach (var enchant in enchants)
-        {
-            string specString = "spec1";
-
-            if (previousSlot != enchant.Value.Slot)
-            {
-                previousSlot = enchant.Value.Slot;
-                GAndESB.AppendLine();
-            }
-
-            GAndESB.AppendLine($"LBIS:AddEnchant({specString}, \"{enchant.Value.EnchantId}\", LBIS.L[\"{enchant.Value.Slot}\"]) --{enchant.Value.Name}");
-        }
-        GAndESB.AppendLine();
-
-        System.IO.File.WriteAllText(path, GAndESB.ToString());
     }
 }

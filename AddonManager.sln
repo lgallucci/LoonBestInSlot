@@ -61,6 +61,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Guides", "Guides", "{6685BDBB-9627-45A1-96D3-46D882F28A67}"
 	ProjectSection(SolutionItems) = preProject
+		LoonBestInSlot\Guides\DeathKnightBlood.lua = LoonBestInSlot\Guides\DeathKnightBlood.lua
 		LoonBestInSlot\Guides\Guides.xml = LoonBestInSlot\Guides\Guides.xml
 	EndProjectSection
 EndProject
