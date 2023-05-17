@@ -36,22 +36,22 @@ LBIS:AddEnchant(spec1, "53344", LBIS.L["Main Hand"]) --Rune of the Fallen Crusad
 LBIS:AddEnchant(spec1, "53344", LBIS.L["Off Hand"]) --Rune of the Fallen Crusader
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
-LBIS:AddItem(spec0, "39619", LBIS.L["Head"], "BIS") --Heroes' Scourgeborne Helme
-LBIS:AddItem(spec0, "39621", LBIS.L["Shoulder"], "BIS") --Heroes' Scourgeborne Shoulderplate
-LBIS:AddItem(spec0, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloa
-LBIS:AddItem(spec0, "39617", LBIS.L["Chest"], "BIS") --Heroes' Scourgeborne Battleplat
-LBIS:AddItem(spec0, "40733", LBIS.L["Wrist"], "BIS") --Wristbands of the Sentinel Huntres
-LBIS:AddItem(spec0, "39618", LBIS.L["Hands"], "BIS") --Heroes' Scourgeborne Gauntlet
-LBIS:AddItem(spec0, "40688", LBIS.L["Waist"], "BIS") --Verdungo's Barbarian Cor
-LBIS:AddItem(spec0, "37193", LBIS.L["Legs"], "BIS") --Staggering Legplate
-LBIS:AddItem(spec0, "40742", LBIS.L["Feet"], "BIS") --Bladed Steelboot
-LBIS:AddItem(spec0, "39421", LBIS.L["Neck"], "BIS") --Gem of Imprisoned Vassal
-LBIS:AddItem(spec0, "39401", LBIS.L["Ring"], "BIS") --Circle of Deat
-LBIS:AddItem(spec0, "45690", LBIS.L["Ring"], "BIS") --Inscribed Ring of the Kirin To
-LBIS:AddItem(spec0, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatnes
-LBIS:AddItem(spec0, "37390", LBIS.L["Trinket"], "BIS") --Meteorite Whetston
-LBIS:AddItem(spec0, "40491", LBIS.L["Main Hand/Off Hand"], "BIS") --Hailstor
-LBIS:AddItem(spec0, "42620", LBIS.L["Ranged/Relic"], "BIS") --Deadly Gladiator's Sigil of Strif
+LBIS:AddItem(spec0, "39619", LBIS.L["Head"], "BIS") --Heroes' Scourgeborne Helmet
+LBIS:AddItem(spec0, "39621", LBIS.L["Shoulder"], "BIS") --Heroes' Scourgeborne Shoulderplates
+LBIS:AddItem(spec0, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloak
+LBIS:AddItem(spec0, "39617", LBIS.L["Chest"], "BIS") --Heroes' Scourgeborne Battleplate
+LBIS:AddItem(spec0, "40733", LBIS.L["Wrist"], "BIS") --Wristbands of the Sentinel Huntress
+LBIS:AddItem(spec0, "39618", LBIS.L["Hands"], "BIS") --Heroes' Scourgeborne Gauntlets
+LBIS:AddItem(spec0, "40688", LBIS.L["Waist"], "BIS") --Verdungo's Barbarian Cord
+LBIS:AddItem(spec0, "37193", LBIS.L["Legs"], "BIS") --Staggering Legplates
+LBIS:AddItem(spec0, "40742", LBIS.L["Feet"], "BIS") --Bladed Steelboots
+LBIS:AddItem(spec0, "39421", LBIS.L["Neck"], "BIS") --Gem of Imprisoned Vassals
+LBIS:AddItem(spec0, "39401", LBIS.L["Ring"], "BIS") --Circle of Death
+LBIS:AddItem(spec0, "45690", LBIS.L["Ring"], "BIS") --Inscribed Ring of the Kirin Tor
+LBIS:AddItem(spec0, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
+LBIS:AddItem(spec0, "37390", LBIS.L["Trinket"], "BIS") --Meteorite Whetstone
+LBIS:AddItem(spec0, "40491", LBIS.L["Main Hand/Off Hand"], "BIS") --Hailstorm
+LBIS:AddItem(spec0, "42620", LBIS.L["Ranged/Relic"], "BIS") --Deadly Gladiator's Sigil of Strife
 
 LBIS:AddItem(spec1, "44006", LBIS.L["Head"], "BIS") --Obsidian Greathelm
 LBIS:AddItem(spec1, "40554", LBIS.L["Head"], "Alt") --Valorous Scourgeborne Helmet

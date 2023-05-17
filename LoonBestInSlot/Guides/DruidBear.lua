@@ -33,22 +33,22 @@ LBIS:AddEnchant(spec1, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vita
 LBIS:AddEnchant(spec1, "27984", LBIS.L["Main Hand"]) --Enchant Weapon - Mongoose
 LBIS:AddEnchant(spec1, "59636", LBIS.L["Ring"]) --Enchant Ring - Stamina
 
-LBIS:AddItem(spec0, "39399", LBIS.L["Head"], "BIS") --Helm of the Vast Legion
-LBIS:AddItem(spec0, "40494", LBIS.L["Shoulder"], "BIS") --Valorous Dreamwalker Shoulderpad
-LBIS:AddItem(spec0, "40722", LBIS.L["Back"], "BIS") --Platinum Mesh Cloa
-LBIS:AddItem(spec0, "43990", LBIS.L["Chest"], "BIS") --Blade-Scarred Tuni
-LBIS:AddItem(spec0, "40738", LBIS.L["Wrist"], "BIS") --Wristwraps of the Cutthroa
-LBIS:AddItem(spec0, "39299", LBIS.L["Hands"], "BIS") --Rapid Attack Glove
-LBIS:AddItem(spec0, "37194", LBIS.L["Waist"], "BIS") --Sharp-Barbed Leather Bel
-LBIS:AddItem(spec0, "40493", LBIS.L["Legs"], "BIS") --Valorous Dreamwalker Legguard
-LBIS:AddItem(spec0, "40748", LBIS.L["Feet"], "BIS") --Boots of Captain Elli
-LBIS:AddItem(spec0, "39246", LBIS.L["Neck"], "BIS") --Amulet of Autops
-LBIS:AddItem(spec0, "37784", LBIS.L["Ring"], "BIS") --Keystone Great-Rin
-LBIS:AddItem(spec0, "43993", LBIS.L["Ring"], "BIS") --Greatring of Collisio
-LBIS:AddItem(spec0, "37220", LBIS.L["Trinket"], "BIS") --Essence of Gossame
-LBIS:AddItem(spec0, "40767", LBIS.L["Trinket"], "BIS") --Sonic Booste
-LBIS:AddItem(spec0, "39422", LBIS.L["Two Hand"], "BIS") --Staff of the Plaguehoun
-LBIS:AddItem(spec0, "38365", LBIS.L["Ranged/Relic"], "BIS") --Idol of Perspicacious Attack
+LBIS:AddItem(spec0, "39399", LBIS.L["Head"], "BIS") --Helm of the Vast Legions
+LBIS:AddItem(spec0, "40494", LBIS.L["Shoulder"], "BIS") --Valorous Dreamwalker Shoulderpads
+LBIS:AddItem(spec0, "40722", LBIS.L["Back"], "BIS") --Platinum Mesh Cloak
+LBIS:AddItem(spec0, "43990", LBIS.L["Chest"], "BIS") --Blade-Scarred Tunic
+LBIS:AddItem(spec0, "40738", LBIS.L["Wrist"], "BIS") --Wristwraps of the Cutthroat
+LBIS:AddItem(spec0, "39299", LBIS.L["Hands"], "BIS") --Rapid Attack Gloves
+LBIS:AddItem(spec0, "37194", LBIS.L["Waist"], "BIS") --Sharp-Barbed Leather Belt
+LBIS:AddItem(spec0, "40493", LBIS.L["Legs"], "BIS") --Valorous Dreamwalker Legguards
+LBIS:AddItem(spec0, "40748", LBIS.L["Feet"], "BIS") --Boots of Captain Ellis
+LBIS:AddItem(spec0, "39246", LBIS.L["Neck"], "BIS") --Amulet of Autopsy
+LBIS:AddItem(spec0, "37784", LBIS.L["Ring"], "BIS") --Keystone Great-Ring
+LBIS:AddItem(spec0, "43993", LBIS.L["Ring"], "BIS") --Greatring of Collision
+LBIS:AddItem(spec0, "37220", LBIS.L["Trinket"], "BIS") --Essence of Gossamer
+LBIS:AddItem(spec0, "40767", LBIS.L["Trinket"], "BIS") --Sonic Booster
+LBIS:AddItem(spec0, "39422", LBIS.L["Two Hand"], "BIS") --Staff of the Plaguehound
+LBIS:AddItem(spec0, "38365", LBIS.L["Ranged/Relic"], "BIS") --Idol of Perspicacious Attacks
 
 LBIS:AddItem(spec1, "40329", LBIS.L["Head"], "BIS") --Hood of the Exodus
 LBIS:AddItem(spec1, "40473", LBIS.L["Head"], "Alt") --Valorous Dreamwalker Headguard

@@ -27,23 +27,23 @@ LBIS:AddEnchant(spec1, "60714", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty S
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Main Hand"]) --Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "39295", LBIS.L["Head"], "BIS") --Cowl of Sheet Lightnin
-LBIS:AddItem(spec0, "39310", LBIS.L["Shoulder"], "BIS") --Mantle of the Extensive Min
-LBIS:AddItem(spec0, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumih
-LBIS:AddItem(spec0, "42102", LBIS.L["Chest"], "BIS") --Spellweave Rob
-LBIS:AddItem(spec0, "40741", LBIS.L["Wrist"], "BIS") --Cuffs of the Shadow Ascendan
-LBIS:AddItem(spec0, "39733", LBIS.L["Hands"], "BIS") --Gloves of Token Respec
-LBIS:AddItem(spec0, "45556", LBIS.L["Waist"], "BIS") --Belt of Arctic Lif
-LBIS:AddItem(spec0, "39408", LBIS.L["Legs"], "BIS") --Leggings of Sapphiro
-LBIS:AddItem(spec0, "45566", LBIS.L["Feet"], "BIS") --Spellslinger's Slipper
-LBIS:AddItem(spec0, "39392", LBIS.L["Neck"], "BIS") --Veiled Amulet of Lif
-LBIS:AddItem(spec0, "45689", LBIS.L["Ring"], "BIS") --Inscribed Loop of the Kirin To
-LBIS:AddItem(spec0, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magi
-LBIS:AddItem(spec0, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserve
-LBIS:AddItem(spec0, "37657", LBIS.L["Trinket"], "BIS") --Spark of Lif
-LBIS:AddItem(spec0, "40488", LBIS.L["Main Hand"], "BIS") --Ice Spire Scepte
-LBIS:AddItem(spec0, "40699", LBIS.L["Off Hand"], "BIS") --Handbook of Obscure Remedie
-LBIS:AddItem(spec0, "40342", LBIS.L["Ranged/Relic"], "BIS") --Idol of Awakenin
+LBIS:AddItem(spec0, "39295", LBIS.L["Head"], "BIS") --Cowl of Sheet Lightning
+LBIS:AddItem(spec0, "39310", LBIS.L["Shoulder"], "BIS") --Mantle of the Extensive Mind
+LBIS:AddItem(spec0, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumiho
+LBIS:AddItem(spec0, "42102", LBIS.L["Chest"], "BIS") --Spellweave Robe
+LBIS:AddItem(spec0, "40741", LBIS.L["Wrist"], "BIS") --Cuffs of the Shadow Ascendant
+LBIS:AddItem(spec0, "39733", LBIS.L["Hands"], "BIS") --Gloves of Token Respect
+LBIS:AddItem(spec0, "45556", LBIS.L["Waist"], "BIS") --Belt of Arctic Life
+LBIS:AddItem(spec0, "39408", LBIS.L["Legs"], "BIS") --Leggings of Sapphiron
+LBIS:AddItem(spec0, "45566", LBIS.L["Feet"], "BIS") --Spellslinger's Slippers
+LBIS:AddItem(spec0, "39392", LBIS.L["Neck"], "BIS") --Veiled Amulet of Life
+LBIS:AddItem(spec0, "45689", LBIS.L["Ring"], "BIS") --Inscribed Loop of the Kirin Tor
+LBIS:AddItem(spec0, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
+LBIS:AddItem(spec0, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
+LBIS:AddItem(spec0, "37657", LBIS.L["Trinket"], "BIS") --Spark of Life
+LBIS:AddItem(spec0, "40488", LBIS.L["Main Hand"], "BIS") --Ice Spire Scepter
+LBIS:AddItem(spec0, "40699", LBIS.L["Off Hand"], "BIS") --Handbook of Obscure Remedies
+LBIS:AddItem(spec0, "40342", LBIS.L["Ranged/Relic"], "BIS") --Idol of Awakening
 
 LBIS:AddItem(spec1, "44007", LBIS.L["Head"], "BIS") --Headpiece of Reconciliation
 LBIS:AddItem(spec1, "40287", LBIS.L["Head"], "Alt") --Cowl of Vanity

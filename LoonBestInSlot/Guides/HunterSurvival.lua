@@ -39,22 +39,22 @@ LBIS:AddEnchant(spec1, "59619", LBIS.L["Two Hand"]) --Enchant Weapon - Accuracy
 LBIS:AddEnchant(spec1, "41167", LBIS.L["Ranged/Relic"]) --Heartseeker Scope
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
-LBIS:AddItem(spec0, "39578", LBIS.L["Head"], "BIS") --Heroes' Cryptstalker Headpiec
-LBIS:AddItem(spec0, "40507", LBIS.L["Shoulder"], "BIS") --Valorous Cryptstalker Spaulder
-LBIS:AddItem(spec0, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloa
-LBIS:AddItem(spec0, "43998", LBIS.L["Chest"], "BIS") --Chestguard of Flagrant Prowes
-LBIS:AddItem(spec0, "40282", LBIS.L["Wrist"], "BIS") --Slime Stream Band
-LBIS:AddItem(spec0, "39194", LBIS.L["Hands"], "BIS") --Rusted-Link Spiked Gauntlet
-LBIS:AddItem(spec0, "40692", LBIS.L["Waist"], "BIS") --Vereesa's Silver Chain Bel
-LBIS:AddItem(spec0, "39580", LBIS.L["Legs"], "BIS") --Heroes' Cryptstalker Legguard
-LBIS:AddItem(spec0, "40746", LBIS.L["Feet"], "BIS") --Pack-Ice Strider
-LBIS:AddItem(spec0, "39421", LBIS.L["Neck"], "BIS") --Gem of Imprisoned Vassal
-LBIS:AddItem(spec0, "40474", LBIS.L["Ring"], "BIS") --Surge Needle Rin
-LBIS:AddItem(spec0, "43993", LBIS.L["Ring"], "BIS") --Greatring of Collisio
-LBIS:AddItem(spec0, "44253", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatnes
-LBIS:AddItem(spec0, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Trut
-LBIS:AddItem(spec0, "40497", LBIS.L["Main Hand"], "BIS") --Black Ic
-LBIS:AddItem(spec0, "39419", LBIS.L["Ranged/Relic"], "BIS") --Nerubian Conquere
+LBIS:AddItem(spec0, "39578", LBIS.L["Head"], "BIS") --Heroes' Cryptstalker Headpiece
+LBIS:AddItem(spec0, "40507", LBIS.L["Shoulder"], "BIS") --Valorous Cryptstalker Spaulders
+LBIS:AddItem(spec0, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloak
+LBIS:AddItem(spec0, "43998", LBIS.L["Chest"], "BIS") --Chestguard of Flagrant Prowess
+LBIS:AddItem(spec0, "40282", LBIS.L["Wrist"], "BIS") --Slime Stream Bands
+LBIS:AddItem(spec0, "39194", LBIS.L["Hands"], "BIS") --Rusted-Link Spiked Gauntlets
+LBIS:AddItem(spec0, "40692", LBIS.L["Waist"], "BIS") --Vereesa's Silver Chain Belt
+LBIS:AddItem(spec0, "39580", LBIS.L["Legs"], "BIS") --Heroes' Cryptstalker Legguards
+LBIS:AddItem(spec0, "40746", LBIS.L["Feet"], "BIS") --Pack-Ice Striders
+LBIS:AddItem(spec0, "39421", LBIS.L["Neck"], "BIS") --Gem of Imprisoned Vassals
+LBIS:AddItem(spec0, "40474", LBIS.L["Ring"], "BIS") --Surge Needle Ring
+LBIS:AddItem(spec0, "43993", LBIS.L["Ring"], "BIS") --Greatring of Collision
+LBIS:AddItem(spec0, "44253", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
+LBIS:AddItem(spec0, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
+LBIS:AddItem(spec0, "40497", LBIS.L["Main Hand"], "BIS") --Black Ice
+LBIS:AddItem(spec0, "39419", LBIS.L["Ranged/Relic"], "BIS") --Nerubian Conquerer
 
 LBIS:AddItem(spec1, "40543", LBIS.L["Head"], "BIS") --Blue Aspect Helm
 LBIS:AddItem(spec1, "40505", LBIS.L["Head"], "Alt") --Valorous Cryptstalker Headpiece

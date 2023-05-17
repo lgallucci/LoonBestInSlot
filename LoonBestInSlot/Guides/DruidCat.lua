@@ -31,22 +31,22 @@ LBIS:AddEnchant(spec1, "59621", LBIS.L["Main Hand"]) --Enchant Weapon - Berserki
 LBIS:AddEnchant(spec1, "60691", LBIS.L["Main Hand"]) --Enchant 2H Weapon - Massacre
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
-LBIS:AddItem(spec0, "39399", LBIS.L["Head"], "BIS") --Helm of the Vast Legion
-LBIS:AddItem(spec0, "40494", LBIS.L["Shoulder"], "BIS") --Valorous Dreamwalker Shoulderpad
-LBIS:AddItem(spec0, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloa
-LBIS:AddItem(spec0, "43990", LBIS.L["Chest"], "BIS") --Blade-Scarred Tuni
-LBIS:AddItem(spec0, "40738", LBIS.L["Wrist"], "BIS") --Wristwraps of the Cutthroa
-LBIS:AddItem(spec0, "39299", LBIS.L["Hands"], "BIS") --Rapid Attack Glove
-LBIS:AddItem(spec0, "40694", LBIS.L["Waist"], "BIS") --Jorach's Crocolisk Skin Bel
-LBIS:AddItem(spec0, "40493", LBIS.L["Legs"], "BIS") --Valorous Dreamwalker Legguard
-LBIS:AddItem(spec0, "40748", LBIS.L["Feet"], "BIS") --Boots of Captain Elli
-LBIS:AddItem(spec0, "39421", LBIS.L["Neck"], "BIS") --Gem of Imprisoned Vassal
-LBIS:AddItem(spec0, "40474", LBIS.L["Ring"], "BIS") --Surge Needle Rin
-LBIS:AddItem(spec0, "40717", LBIS.L["Ring"], "BIS") --Ring of Invincibilit
-LBIS:AddItem(spec0, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Trut
-LBIS:AddItem(spec0, "39257", LBIS.L["Trinket"], "BIS") --Loatheb's Shado
-LBIS:AddItem(spec0, "40497", LBIS.L["Two Hand"], "BIS") --Black Ic
-LBIS:AddItem(spec0, "39757", LBIS.L["Ranged/Relic"], "BIS") --Idol of Worshi
+LBIS:AddItem(spec0, "39399", LBIS.L["Head"], "BIS") --Helm of the Vast Legions
+LBIS:AddItem(spec0, "40494", LBIS.L["Shoulder"], "BIS") --Valorous Dreamwalker Shoulderpads
+LBIS:AddItem(spec0, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloak
+LBIS:AddItem(spec0, "43990", LBIS.L["Chest"], "BIS") --Blade-Scarred Tunic
+LBIS:AddItem(spec0, "40738", LBIS.L["Wrist"], "BIS") --Wristwraps of the Cutthroat
+LBIS:AddItem(spec0, "39299", LBIS.L["Hands"], "BIS") --Rapid Attack Gloves
+LBIS:AddItem(spec0, "40694", LBIS.L["Waist"], "BIS") --Jorach's Crocolisk Skin Belt
+LBIS:AddItem(spec0, "40493", LBIS.L["Legs"], "BIS") --Valorous Dreamwalker Legguards
+LBIS:AddItem(spec0, "40748", LBIS.L["Feet"], "BIS") --Boots of Captain Ellis
+LBIS:AddItem(spec0, "39421", LBIS.L["Neck"], "BIS") --Gem of Imprisoned Vassals
+LBIS:AddItem(spec0, "40474", LBIS.L["Ring"], "BIS") --Surge Needle Ring
+LBIS:AddItem(spec0, "40717", LBIS.L["Ring"], "BIS") --Ring of Invincibility
+LBIS:AddItem(spec0, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
+LBIS:AddItem(spec0, "39257", LBIS.L["Trinket"], "BIS") --Loatheb's Shadow
+LBIS:AddItem(spec0, "40497", LBIS.L["Two Hand"], "BIS") --Black Ice
+LBIS:AddItem(spec0, "39757", LBIS.L["Ranged/Relic"], "BIS") --Idol of Worship
 
 LBIS:AddItem(spec1, "40473", LBIS.L["Head"], "BIS") --Valorous Dreamwalker Headguard
 LBIS:AddItem(spec1, "40329", LBIS.L["Head"], "Alt") --Hood of the Exodus

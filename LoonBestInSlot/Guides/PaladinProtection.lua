@@ -50,23 +50,23 @@ LBIS:AddEnchant(spec1, "60692", LBIS.L["Off Hand"]) --Enchant Shield - Defense
 LBIS:AddEnchant(spec1, "59636", LBIS.L["Ring"]) --Enchant Ring - Stamina
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
-LBIS:AddItem(spec0, "39395", LBIS.L["Head"], "BIS") --Thane's Tainted Greathel
-LBIS:AddItem(spec0, "40584", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Shoulderguard
-LBIS:AddItem(spec0, "40722", LBIS.L["Back"], "BIS") --Platinum Mesh Cloa
-LBIS:AddItem(spec0, "39638", LBIS.L["Chest"], "BIS") --Heroes' Redemption Breastplat
-LBIS:AddItem(spec0, "40734", LBIS.L["Wrist"], "BIS") --Bracers of Dalaran's Parapet
-LBIS:AddItem(spec0, "44183", LBIS.L["Hands"], "BIS") --Fireproven Gauntlet
-LBIS:AddItem(spec0, "40689", LBIS.L["Waist"], "BIS") --Waistguard of Living Iro
-LBIS:AddItem(spec0, "43500", LBIS.L["Legs"], "BIS") --Bolstered Legplate
-LBIS:AddItem(spec0, "40743", LBIS.L["Feet"], "BIS") --Kyzoc's Ground Stomper
-LBIS:AddItem(spec0, "40679", LBIS.L["Neck"], "BIS") --Chained Military Gorge
-LBIS:AddItem(spec0, "40718", LBIS.L["Ring"], "BIS") --Signet of the Impregnable Fortres
-LBIS:AddItem(spec0, "40426", LBIS.L["Ring"], "BIS") --Signet of the Accor
-LBIS:AddItem(spec0, "44063", LBIS.L["Trinket"], "BIS") --Figurine - Monarch Cra
-LBIS:AddItem(spec0, "37220", LBIS.L["Trinket"], "BIS") --Essence of Gossame
-LBIS:AddItem(spec0, "39344", LBIS.L["Main Hand"], "BIS") --Slayer of the Lifeles
-LBIS:AddItem(spec0, "40475", LBIS.L["Off Hand"], "BIS") --Barricade of Eternit
-LBIS:AddItem(spec0, "40707", LBIS.L["Ranged/Relic"], "BIS") --Libram of Obstructio
+LBIS:AddItem(spec0, "39395", LBIS.L["Head"], "BIS") --Thane's Tainted Greathelm
+LBIS:AddItem(spec0, "40584", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Shoulderguards
+LBIS:AddItem(spec0, "40722", LBIS.L["Back"], "BIS") --Platinum Mesh Cloak
+LBIS:AddItem(spec0, "39638", LBIS.L["Chest"], "BIS") --Heroes' Redemption Breastplate
+LBIS:AddItem(spec0, "40734", LBIS.L["Wrist"], "BIS") --Bracers of Dalaran's Parapets
+LBIS:AddItem(spec0, "44183", LBIS.L["Hands"], "BIS") --Fireproven Gauntlets
+LBIS:AddItem(spec0, "40689", LBIS.L["Waist"], "BIS") --Waistguard of Living Iron
+LBIS:AddItem(spec0, "43500", LBIS.L["Legs"], "BIS") --Bolstered Legplates
+LBIS:AddItem(spec0, "40743", LBIS.L["Feet"], "BIS") --Kyzoc's Ground Stompers
+LBIS:AddItem(spec0, "40679", LBIS.L["Neck"], "BIS") --Chained Military Gorget
+LBIS:AddItem(spec0, "40718", LBIS.L["Ring"], "BIS") --Signet of the Impregnable Fortress
+LBIS:AddItem(spec0, "40426", LBIS.L["Ring"], "BIS") --Signet of the Accord
+LBIS:AddItem(spec0, "44063", LBIS.L["Trinket"], "BIS") --Figurine - Monarch Crab
+LBIS:AddItem(spec0, "37220", LBIS.L["Trinket"], "BIS") --Essence of Gossamer
+LBIS:AddItem(spec0, "39344", LBIS.L["Main Hand"], "BIS") --Slayer of the Lifeless
+LBIS:AddItem(spec0, "40475", LBIS.L["Off Hand"], "BIS") --Barricade of Eternity
+LBIS:AddItem(spec0, "40707", LBIS.L["Ranged/Relic"], "BIS") --Libram of Obstruction
 
 LBIS:AddItem(spec1, "40581", LBIS.L["Head"], "BIS") --Valorous Redemption Faceguard
 LBIS:AddItem(spec1, "40328", LBIS.L["Head"], "Alt") --Helm of Vital Protection

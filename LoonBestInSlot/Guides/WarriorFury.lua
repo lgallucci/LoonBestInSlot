@@ -36,22 +36,22 @@ LBIS:AddEnchant(spec1, "59621", LBIS.L["Main Hand"]) --Enchant Weapon - Berserki
 LBIS:AddEnchant(spec1, "41167", LBIS.L["Ranged/Relic"]) --Heartseeker Scope
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
-LBIS:AddItem(spec0, "39605", LBIS.L["Head"], "BIS") --Heroes' Dreadnaught Helme
-LBIS:AddItem(spec0, "39608", LBIS.L["Shoulder"], "BIS") --Heroes' Dreadnaught Shoulderplate
-LBIS:AddItem(spec0, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloa
-LBIS:AddItem(spec0, "39606", LBIS.L["Chest"], "BIS") --Heroes' Dreadnaught Battleplat
-LBIS:AddItem(spec0, "40733", LBIS.L["Wrist"], "BIS") --Wristbands of the Sentinel Huntres
-LBIS:AddItem(spec0, "39609", LBIS.L["Hands"], "BIS") --Heroes' Dreadnaught Gauntlet
-LBIS:AddItem(spec0, "40688", LBIS.L["Waist"], "BIS") --Verdungo's Barbarian Cor
-LBIS:AddItem(spec0, "39607", LBIS.L["Legs"], "BIS") --Heroes' Dreadnaught Legplate
-LBIS:AddItem(spec0, "40742", LBIS.L["Feet"], "BIS") --Bladed Steelboot
-LBIS:AddItem(spec0, "39421", LBIS.L["Neck"], "BIS") --Gem of Imprisoned Vassal
-LBIS:AddItem(spec0, "40474", LBIS.L["Ring"], "BIS") --Surge Needle Rin
-LBIS:AddItem(spec0, "45690", LBIS.L["Ring"], "BIS") --Inscribed Ring of the Kirin To
-LBIS:AddItem(spec0, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatnes
-LBIS:AddItem(spec0, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Trut
-LBIS:AddItem(spec0, "39417", LBIS.L["Main Hand/Off Hand"], "BIS") --Death's Bit
-LBIS:AddItem(spec0, "39419", LBIS.L["Ranged/Relic"], "BIS") --Nerubian Conquere
+LBIS:AddItem(spec0, "39605", LBIS.L["Head"], "BIS") --Heroes' Dreadnaught Helmet
+LBIS:AddItem(spec0, "39608", LBIS.L["Shoulder"], "BIS") --Heroes' Dreadnaught Shoulderplates
+LBIS:AddItem(spec0, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloak
+LBIS:AddItem(spec0, "39606", LBIS.L["Chest"], "BIS") --Heroes' Dreadnaught Battleplate
+LBIS:AddItem(spec0, "40733", LBIS.L["Wrist"], "BIS") --Wristbands of the Sentinel Huntress
+LBIS:AddItem(spec0, "39609", LBIS.L["Hands"], "BIS") --Heroes' Dreadnaught Gauntlets
+LBIS:AddItem(spec0, "40688", LBIS.L["Waist"], "BIS") --Verdungo's Barbarian Cord
+LBIS:AddItem(spec0, "39607", LBIS.L["Legs"], "BIS") --Heroes' Dreadnaught Legplates
+LBIS:AddItem(spec0, "40742", LBIS.L["Feet"], "BIS") --Bladed Steelboots
+LBIS:AddItem(spec0, "39421", LBIS.L["Neck"], "BIS") --Gem of Imprisoned Vassals
+LBIS:AddItem(spec0, "40474", LBIS.L["Ring"], "BIS") --Surge Needle Ring
+LBIS:AddItem(spec0, "45690", LBIS.L["Ring"], "BIS") --Inscribed Ring of the Kirin Tor
+LBIS:AddItem(spec0, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
+LBIS:AddItem(spec0, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
+LBIS:AddItem(spec0, "39417", LBIS.L["Main Hand/Off Hand"], "BIS") --Death's Bite
+LBIS:AddItem(spec0, "39419", LBIS.L["Ranged/Relic"], "BIS") --Nerubian Conquerer
 
 LBIS:AddItem(spec1, "40528", LBIS.L["Head"], "BIS") --Valorous Dreadnaught Helmet
 LBIS:AddItem(spec1, "44006", LBIS.L["Head"], "Alt") --Obsidian Greathelm

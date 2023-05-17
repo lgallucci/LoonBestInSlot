@@ -38,22 +38,22 @@ LBIS:AddEnchant(spec1, "59625", LBIS.L["Main Hand"]) --Enchant Weapon - Black Ma
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Main Hand"]) --Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "39491", LBIS.L["Head"], "BIS") --Heroes' Frostfire Circle
-LBIS:AddItem(spec0, "40419", LBIS.L["Shoulder"], "BIS") --Valorous Frostfire Shoulderpad
-LBIS:AddItem(spec0, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumih
-LBIS:AddItem(spec0, "39492", LBIS.L["Chest"], "BIS") --Heroes' Frostfire Rob
-LBIS:AddItem(spec0, "40741", LBIS.L["Wrist"], "BIS") --Cuffs of the Shadow Ascendan
-LBIS:AddItem(spec0, "39495", LBIS.L["Hands"], "BIS") --Heroes' Frostfire Glove
-LBIS:AddItem(spec0, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzba
-LBIS:AddItem(spec0, "40417", LBIS.L["Legs"], "BIS") --Valorous Frostfire Legging
-LBIS:AddItem(spec0, "44202", LBIS.L["Feet"], "BIS") --Sandals of Crimson Fur
-LBIS:AddItem(spec0, "39392", LBIS.L["Neck"], "BIS") --Veiled Amulet of Lif
-LBIS:AddItem(spec0, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magi
-LBIS:AddItem(spec0, "45691", LBIS.L["Ring"], "BIS") --Inscribed Signet of the Kirin To
-LBIS:AddItem(spec0, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spide
-LBIS:AddItem(spec0, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exile
-LBIS:AddItem(spec0, "40489", LBIS.L["Main Hand"], "BIS") --Greatstaff of the Nexu
-LBIS:AddItem(spec0, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlic
+LBIS:AddItem(spec0, "39491", LBIS.L["Head"], "BIS") --Heroes' Frostfire Circlet
+LBIS:AddItem(spec0, "40419", LBIS.L["Shoulder"], "BIS") --Valorous Frostfire Shoulderpads
+LBIS:AddItem(spec0, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumiho
+LBIS:AddItem(spec0, "39492", LBIS.L["Chest"], "BIS") --Heroes' Frostfire Robe
+LBIS:AddItem(spec0, "40741", LBIS.L["Wrist"], "BIS") --Cuffs of the Shadow Ascendant
+LBIS:AddItem(spec0, "39495", LBIS.L["Hands"], "BIS") --Heroes' Frostfire Gloves
+LBIS:AddItem(spec0, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah
+LBIS:AddItem(spec0, "40417", LBIS.L["Legs"], "BIS") --Valorous Frostfire Leggings
+LBIS:AddItem(spec0, "44202", LBIS.L["Feet"], "BIS") --Sandals of Crimson Fury
+LBIS:AddItem(spec0, "39392", LBIS.L["Neck"], "BIS") --Veiled Amulet of Life
+LBIS:AddItem(spec0, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
+LBIS:AddItem(spec0, "45691", LBIS.L["Ring"], "BIS") --Inscribed Signet of the Kirin Tor
+LBIS:AddItem(spec0, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spider
+LBIS:AddItem(spec0, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exiled
+LBIS:AddItem(spec0, "40489", LBIS.L["Main Hand"], "BIS") --Greatstaff of the Nexus
+LBIS:AddItem(spec0, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlich
 
 LBIS:AddItem(spec1, "40416", LBIS.L["Head"], "BIS") --Valorous Frostfire Circlet
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality

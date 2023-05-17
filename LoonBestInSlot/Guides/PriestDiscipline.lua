@@ -30,23 +30,23 @@ LBIS:AddEnchant(spec1, "60714", LBIS.L["Two Hand"]) --Enchant Weapon - Mighty Sp
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Two Hand"]) --Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "43995", LBIS.L["Head"], "BIS") --Enamored Cow
-LBIS:AddItem(spec0, "40450", LBIS.L["Shoulder"], "BIS") --Valorous Shoulderpads of Fait
-LBIS:AddItem(spec0, "40724", LBIS.L["Back"], "BIS") --Cloak of Kea Feather
-LBIS:AddItem(spec0, "39515", LBIS.L["Chest"], "BIS") --Heroes' Robe of Fait
-LBIS:AddItem(spec0, "40741", LBIS.L["Wrist"], "BIS") --Cuffs of the Shadow Ascendan
-LBIS:AddItem(spec0, "37172", LBIS.L["Hands"], "BIS") --Gloves of Glistening Rune
-LBIS:AddItem(spec0, "37242", LBIS.L["Waist"], "BIS") --Sash of the Servan
-LBIS:AddItem(spec0, "40448", LBIS.L["Legs"], "BIS") --Valorous Leggings of Fait
-LBIS:AddItem(spec0, "40751", LBIS.L["Feet"], "BIS") --Slippers of the Holy Ligh
-LBIS:AddItem(spec0, "40486", LBIS.L["Neck"], "BIS") --Necklace of the Glittering Chambe
-LBIS:AddItem(spec0, "40720", LBIS.L["Ring"], "BIS") --Renewal of Lif
-LBIS:AddItem(spec0, "39193", LBIS.L["Ring"], "BIS") --Band of Neglected Plea
-LBIS:AddItem(spec0, "42988", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Illusio
-LBIS:AddItem(spec0, "42132", LBIS.L["Trinket"], "BIS") --Battlemaster's Braver
-LBIS:AddItem(spec0, "39423", LBIS.L["Main Hand"], "BIS") --Hammer of the Astral Plan
-LBIS:AddItem(spec0, "39311", LBIS.L["Off Hand"], "BIS") --Scepter of Murmuring Spirit
-LBIS:AddItem(spec0, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlic
+LBIS:AddItem(spec0, "43995", LBIS.L["Head"], "BIS") --Enamored Cowl
+LBIS:AddItem(spec0, "40450", LBIS.L["Shoulder"], "BIS") --Valorous Shoulderpads of Faith
+LBIS:AddItem(spec0, "40724", LBIS.L["Back"], "BIS") --Cloak of Kea Feathers
+LBIS:AddItem(spec0, "39515", LBIS.L["Chest"], "BIS") --Heroes' Robe of Faith
+LBIS:AddItem(spec0, "40741", LBIS.L["Wrist"], "BIS") --Cuffs of the Shadow Ascendant
+LBIS:AddItem(spec0, "37172", LBIS.L["Hands"], "BIS") --Gloves of Glistening Runes
+LBIS:AddItem(spec0, "37242", LBIS.L["Waist"], "BIS") --Sash of the Servant
+LBIS:AddItem(spec0, "40448", LBIS.L["Legs"], "BIS") --Valorous Leggings of Faith
+LBIS:AddItem(spec0, "40751", LBIS.L["Feet"], "BIS") --Slippers of the Holy Light
+LBIS:AddItem(spec0, "40486", LBIS.L["Neck"], "BIS") --Necklace of the Glittering Chamber
+LBIS:AddItem(spec0, "40720", LBIS.L["Ring"], "BIS") --Renewal of Life
+LBIS:AddItem(spec0, "39193", LBIS.L["Ring"], "BIS") --Band of Neglected Pleas
+LBIS:AddItem(spec0, "42988", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Illusion
+LBIS:AddItem(spec0, "42132", LBIS.L["Trinket"], "BIS") --Battlemaster's Bravery
+LBIS:AddItem(spec0, "39423", LBIS.L["Main Hand"], "BIS") --Hammer of the Astral Plane
+LBIS:AddItem(spec0, "39311", LBIS.L["Off Hand"], "BIS") --Scepter of Murmuring Spirits
+LBIS:AddItem(spec0, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlich
 
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec1, "40456", LBIS.L["Head"], "BIS") --Valorous Circlet of Faith

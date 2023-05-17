@@ -29,23 +29,23 @@ LBIS:AddEnchant(spec1, "60714", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty S
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Main Hand"]) --Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "39545", LBIS.L["Head"], "BIS") --Heroes' Dreamwalker Cove
-LBIS:AddItem(spec0, "40470", LBIS.L["Shoulder"], "BIS") --Valorous Dreamwalker Mantl
-LBIS:AddItem(spec0, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumih
-LBIS:AddItem(spec0, "39547", LBIS.L["Chest"], "BIS") --Heroes' Dreamwalker Vestment
-LBIS:AddItem(spec0, "37884", LBIS.L["Wrist"], "BIS") --Azure Cloth Binding
-LBIS:AddItem(spec0, "39544", LBIS.L["Hands"], "BIS") --Heroes' Dreamwalker Glove
-LBIS:AddItem(spec0, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzba
-LBIS:AddItem(spec0, "40468", LBIS.L["Legs"], "BIS") --Valorous Dreamwalker Trouser
-LBIS:AddItem(spec0, "40519", LBIS.L["Feet"], "BIS") --Footsteps of Malygo
-LBIS:AddItem(spec0, "40486", LBIS.L["Neck"], "BIS") --Necklace of the Glittering Chambe
-LBIS:AddItem(spec0, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magi
-LBIS:AddItem(spec0, "39389", LBIS.L["Ring"], "BIS") --Signet of the Malevolen
-LBIS:AddItem(spec0, "37873", LBIS.L["Trinket"], "BIS") --Mark of the War Prisone
-LBIS:AddItem(spec0, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exile
-LBIS:AddItem(spec0, "39423", LBIS.L["Main Hand"], "BIS") --Hammer of the Astral Plan
-LBIS:AddItem(spec0, "40698", LBIS.L["Off Hand"], "BIS") --Ward of the Violet Citade
-LBIS:AddItem(spec0, "40321", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Shooting Sta
+LBIS:AddItem(spec0, "39545", LBIS.L["Head"], "BIS") --Heroes' Dreamwalker Cover
+LBIS:AddItem(spec0, "40470", LBIS.L["Shoulder"], "BIS") --Valorous Dreamwalker Mantle
+LBIS:AddItem(spec0, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumiho
+LBIS:AddItem(spec0, "39547", LBIS.L["Chest"], "BIS") --Heroes' Dreamwalker Vestments
+LBIS:AddItem(spec0, "37884", LBIS.L["Wrist"], "BIS") --Azure Cloth Bindings
+LBIS:AddItem(spec0, "39544", LBIS.L["Hands"], "BIS") --Heroes' Dreamwalker Gloves
+LBIS:AddItem(spec0, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah
+LBIS:AddItem(spec0, "40468", LBIS.L["Legs"], "BIS") --Valorous Dreamwalker Trousers
+LBIS:AddItem(spec0, "40519", LBIS.L["Feet"], "BIS") --Footsteps of Malygos
+LBIS:AddItem(spec0, "40486", LBIS.L["Neck"], "BIS") --Necklace of the Glittering Chamber
+LBIS:AddItem(spec0, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
+LBIS:AddItem(spec0, "39389", LBIS.L["Ring"], "BIS") --Signet of the Malevolent
+LBIS:AddItem(spec0, "37873", LBIS.L["Trinket"], "BIS") --Mark of the War Prisoner
+LBIS:AddItem(spec0, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exiled
+LBIS:AddItem(spec0, "39423", LBIS.L["Main Hand"], "BIS") --Hammer of the Astral Plane
+LBIS:AddItem(spec0, "40698", LBIS.L["Off Hand"], "BIS") --Ward of the Violet Citadel
+LBIS:AddItem(spec0, "40321", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Shooting Star
 
 LBIS:AddItem(spec1, "40467", LBIS.L["Head"], "BIS") --Valorous Dreamwalker Cover
 LBIS:AddItem(spec1, "39545", LBIS.L["Head"], "Alt") --Heroes' Dreamwalker Cover

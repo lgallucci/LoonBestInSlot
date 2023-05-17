@@ -43,23 +43,23 @@ LBIS:AddEnchant(spec1, "60714", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty S
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Two Hand"]) --Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "43995", LBIS.L["Head"], "BIS") --Enamored Cow
-LBIS:AddItem(spec0, "40459", LBIS.L["Shoulder"], "BIS") --Valorous Mantle of Fait
-LBIS:AddItem(spec0, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumih
-LBIS:AddItem(spec0, "40526", LBIS.L["Chest"], "BIS") --Gown of the Spell-Weave
-LBIS:AddItem(spec0, "40740", LBIS.L["Wrist"], "BIS") --Wraps of the Astral Travele
-LBIS:AddItem(spec0, "39530", LBIS.L["Hands"], "BIS") --Heroes' Handwraps of Fait
-LBIS:AddItem(spec0, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzba
-LBIS:AddItem(spec0, "40457", LBIS.L["Legs"], "BIS") --Valorous Pants of Fait
-LBIS:AddItem(spec0, "40751", LBIS.L["Feet"], "BIS") --Slippers of the Holy Ligh
-LBIS:AddItem(spec0, "44658", LBIS.L["Neck"], "BIS") --Chain of the Ancient Wyr
-LBIS:AddItem(spec0, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magi
-LBIS:AddItem(spec0, "39389", LBIS.L["Ring"], "BIS") --Signet of the Malevolen
-LBIS:AddItem(spec0, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spide
-LBIS:AddItem(spec0, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exile
-LBIS:AddItem(spec0, "39423", LBIS.L["Main Hand"], "BIS") --Hammer of the Astral Plan
-LBIS:AddItem(spec0, "40698", LBIS.L["Off Hand"], "BIS") --Ward of the Violet Citade
-LBIS:AddItem(spec0, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlic
+LBIS:AddItem(spec0, "43995", LBIS.L["Head"], "BIS") --Enamored Cowl
+LBIS:AddItem(spec0, "40459", LBIS.L["Shoulder"], "BIS") --Valorous Mantle of Faith
+LBIS:AddItem(spec0, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumiho
+LBIS:AddItem(spec0, "40526", LBIS.L["Chest"], "BIS") --Gown of the Spell-Weaver
+LBIS:AddItem(spec0, "40740", LBIS.L["Wrist"], "BIS") --Wraps of the Astral Traveler
+LBIS:AddItem(spec0, "39530", LBIS.L["Hands"], "BIS") --Heroes' Handwraps of Faith
+LBIS:AddItem(spec0, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah
+LBIS:AddItem(spec0, "40457", LBIS.L["Legs"], "BIS") --Valorous Pants of Faith
+LBIS:AddItem(spec0, "40751", LBIS.L["Feet"], "BIS") --Slippers of the Holy Light
+LBIS:AddItem(spec0, "44658", LBIS.L["Neck"], "BIS") --Chain of the Ancient Wyrm
+LBIS:AddItem(spec0, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
+LBIS:AddItem(spec0, "39389", LBIS.L["Ring"], "BIS") --Signet of the Malevolent
+LBIS:AddItem(spec0, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spider
+LBIS:AddItem(spec0, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exiled
+LBIS:AddItem(spec0, "39423", LBIS.L["Main Hand"], "BIS") --Hammer of the Astral Plane
+LBIS:AddItem(spec0, "40698", LBIS.L["Off Hand"], "BIS") --Ward of the Violet Citadel
+LBIS:AddItem(spec0, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlich
 
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec1, "40339", LBIS.L["Head"], "Alt") --Gothik's Cowl

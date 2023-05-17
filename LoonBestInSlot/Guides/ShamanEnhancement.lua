@@ -40,23 +40,23 @@ LBIS:AddEnchant(spec1, "59621", LBIS.L["Main Hand"]) --Enchant Weapon - Berserki
 LBIS:AddEnchant(spec1, "27984", LBIS.L["Main Hand"]) --Enchant Weapon - Mongoose
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
-LBIS:AddItem(spec0, "39602", LBIS.L["Head"], "BIS") --Heroes' Earthshatter Faceguar
-LBIS:AddItem(spec0, "40524", LBIS.L["Shoulder"], "BIS") --Valorous Earthshatter Shoulderguard
-LBIS:AddItem(spec0, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloa
-LBIS:AddItem(spec0, "39597", LBIS.L["Chest"], "BIS") --Heroes' Earthshatter Chestguar
-LBIS:AddItem(spec0, "40736", LBIS.L["Wrist"], "BIS") --Armguard of the Tower Arche
-LBIS:AddItem(spec0, "39601", LBIS.L["Hands"], "BIS") --Heroes' Earthshatter Grip
-LBIS:AddItem(spec0, "45553", LBIS.L["Waist"], "BIS") --Belt of Dragon
-LBIS:AddItem(spec0, "40522", LBIS.L["Legs"], "BIS") --Valorous Earthshatter War-Kil
-LBIS:AddItem(spec0, "40746", LBIS.L["Feet"], "BIS") --Pack-Ice Strider
-LBIS:AddItem(spec0, "39421", LBIS.L["Neck"], "BIS") --Gem of Imprisoned Vassal
-LBIS:AddItem(spec0, "40474", LBIS.L["Ring"], "BIS") --Surge Needle Rin
-LBIS:AddItem(spec0, "40717", LBIS.L["Ring"], "BIS") --Ring of Invincibilit
-LBIS:AddItem(spec0, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Trut
-LBIS:AddItem(spec0, "37390", LBIS.L["Trinket"], "BIS") --Meteorite Whetston
-LBIS:AddItem(spec0, "45085", LBIS.L["Main Hand"], "BIS") --Titansteel Spellblad
-LBIS:AddItem(spec0, "40704", LBIS.L["Off Hand"], "BIS") --Prid
-LBIS:AddItem(spec0, "40322", LBIS.L["Ranged/Relic"], "BIS") --Totem of Duelin
+LBIS:AddItem(spec0, "39602", LBIS.L["Head"], "BIS") --Heroes' Earthshatter Faceguard
+LBIS:AddItem(spec0, "40524", LBIS.L["Shoulder"], "BIS") --Valorous Earthshatter Shoulderguards
+LBIS:AddItem(spec0, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloak
+LBIS:AddItem(spec0, "39597", LBIS.L["Chest"], "BIS") --Heroes' Earthshatter Chestguard
+LBIS:AddItem(spec0, "40736", LBIS.L["Wrist"], "BIS") --Armguard of the Tower Archer
+LBIS:AddItem(spec0, "39601", LBIS.L["Hands"], "BIS") --Heroes' Earthshatter Grips
+LBIS:AddItem(spec0, "45553", LBIS.L["Waist"], "BIS") --Belt of Dragons
+LBIS:AddItem(spec0, "40522", LBIS.L["Legs"], "BIS") --Valorous Earthshatter War-Kilt
+LBIS:AddItem(spec0, "40746", LBIS.L["Feet"], "BIS") --Pack-Ice Striders
+LBIS:AddItem(spec0, "39421", LBIS.L["Neck"], "BIS") --Gem of Imprisoned Vassals
+LBIS:AddItem(spec0, "40474", LBIS.L["Ring"], "BIS") --Surge Needle Ring
+LBIS:AddItem(spec0, "40717", LBIS.L["Ring"], "BIS") --Ring of Invincibility
+LBIS:AddItem(spec0, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
+LBIS:AddItem(spec0, "37390", LBIS.L["Trinket"], "BIS") --Meteorite Whetstone
+LBIS:AddItem(spec0, "45085", LBIS.L["Main Hand"], "BIS") --Titansteel Spellblade
+LBIS:AddItem(spec0, "40704", LBIS.L["Off Hand"], "BIS") --Pride
+LBIS:AddItem(spec0, "40322", LBIS.L["Ranged/Relic"], "BIS") --Totem of Dueling
 
 LBIS:AddItem(spec1, "40543", LBIS.L["Head"], "BIS") --Blue Aspect Helm
 LBIS:AddItem(spec1, "40521", LBIS.L["Head"], "BIS") --Valorous Earthshatter Faceguard

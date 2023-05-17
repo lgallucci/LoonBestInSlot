@@ -33,23 +33,23 @@ LBIS:AddEnchant(spec1, "60714", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty S
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Main Hand"]) --Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "43995", LBIS.L["Head"], "BIS") --Enamored Cow
-LBIS:AddItem(spec0, "40450", LBIS.L["Shoulder"], "BIS") --Valorous Shoulderpads of Fait
-LBIS:AddItem(spec0, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumih
-LBIS:AddItem(spec0, "39515", LBIS.L["Chest"], "BIS") --Heroes' Robe of Fait
-LBIS:AddItem(spec0, "40741", LBIS.L["Wrist"], "BIS") --Cuffs of the Shadow Ascendan
-LBIS:AddItem(spec0, "39530", LBIS.L["Hands"], "BIS") --Heroes' Handwraps of Fait
-LBIS:AddItem(spec0, "39190", LBIS.L["Waist"], "BIS") --Agonal Sas
-LBIS:AddItem(spec0, "40448", LBIS.L["Legs"], "BIS") --Valorous Leggings of Fait
-LBIS:AddItem(spec0, "40751", LBIS.L["Feet"], "BIS") --Slippers of the Holy Ligh
-LBIS:AddItem(spec0, "43992", LBIS.L["Neck"], "BIS") --Volitant Amule
-LBIS:AddItem(spec0, "40720", LBIS.L["Ring"], "BIS") --Renewal of Lif
-LBIS:AddItem(spec0, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magi
-LBIS:AddItem(spec0, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserve
-LBIS:AddItem(spec0, "42413", LBIS.L["Trinket"], "BIS") --Figurine - Sapphire Ow
-LBIS:AddItem(spec0, "39423", LBIS.L["Main Hand"], "BIS") --Hammer of the Astral Plan
-LBIS:AddItem(spec0, "40699", LBIS.L["Off Hand"], "BIS") --Handbook of Obscure Remedie
-LBIS:AddItem(spec0, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlic
+LBIS:AddItem(spec0, "43995", LBIS.L["Head"], "BIS") --Enamored Cowl
+LBIS:AddItem(spec0, "40450", LBIS.L["Shoulder"], "BIS") --Valorous Shoulderpads of Faith
+LBIS:AddItem(spec0, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumiho
+LBIS:AddItem(spec0, "39515", LBIS.L["Chest"], "BIS") --Heroes' Robe of Faith
+LBIS:AddItem(spec0, "40741", LBIS.L["Wrist"], "BIS") --Cuffs of the Shadow Ascendant
+LBIS:AddItem(spec0, "39530", LBIS.L["Hands"], "BIS") --Heroes' Handwraps of Faith
+LBIS:AddItem(spec0, "39190", LBIS.L["Waist"], "BIS") --Agonal Sash
+LBIS:AddItem(spec0, "40448", LBIS.L["Legs"], "BIS") --Valorous Leggings of Faith
+LBIS:AddItem(spec0, "40751", LBIS.L["Feet"], "BIS") --Slippers of the Holy Light
+LBIS:AddItem(spec0, "43992", LBIS.L["Neck"], "BIS") --Volitant Amulet
+LBIS:AddItem(spec0, "40720", LBIS.L["Ring"], "BIS") --Renewal of Life
+LBIS:AddItem(spec0, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
+LBIS:AddItem(spec0, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
+LBIS:AddItem(spec0, "42413", LBIS.L["Trinket"], "BIS") --Figurine - Sapphire Owl
+LBIS:AddItem(spec0, "39423", LBIS.L["Main Hand"], "BIS") --Hammer of the Astral Plane
+LBIS:AddItem(spec0, "40699", LBIS.L["Off Hand"], "BIS") --Handbook of Obscure Remedies
+LBIS:AddItem(spec0, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlich
 
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec1, "40287", LBIS.L["Head"], "BIS") --Cowl of Vanity
