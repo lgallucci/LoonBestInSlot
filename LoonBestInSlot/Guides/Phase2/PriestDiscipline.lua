@@ -47,6 +47,8 @@ LBIS:AddItem(spec, "46050", LBIS.L["Feet"], "Alt") --Starlight Treads
 LBIS:AddItem(spec, "45567", LBIS.L["Feet"], "Alt") --Savior's Slippers
 LBIS:AddItem(spec, "45566", LBIS.L["Feet"], "Alt") --Spellslinger's Slippers
 
+LBIS:AddItem(spec, "24116", LBIS.L["Neck"], "BIS") --Eye of the Night
+LBIS:AddItem(spec, "24121", LBIS.L["Neck"], "BIS") --Chain of the Twilight Owl
 LBIS:AddItem(spec, "45443", LBIS.L["Neck"], "BIS") --Charm of Meticulous Timing
 LBIS:AddItem(spec, "45933", LBIS.L["Neck"], "Alt") --Pendant of the Shallow Grave
 LBIS:AddItem(spec, "45447", LBIS.L["Neck"], "Alt") --Watchful Eye of Fate
