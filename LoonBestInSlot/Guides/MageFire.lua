@@ -55,53 +55,53 @@ LBIS:AddItem(spec0, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exile
 LBIS:AddItem(spec0, "40489", LBIS.L["Main Hand"], "BIS") --Greatstaff of the Nexu
 LBIS:AddItem(spec0, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlic
 
-LBIS:AddItem(spec1, "40416", LBIS.L["Head"], "BIS") --Valorous Frostfire Circle
-LBIS:AddItem(spec1, "39491", LBIS.L["Head"], "Alt") --Heroes' Frostfire Circle
-LBIS:AddItem(spec1, "40419", LBIS.L["Shoulder"], "BIS") --Valorous Frostfire Shoulderpad
-LBIS:AddItem(spec1, "39494", LBIS.L["Shoulder"], "Alt") --Heroes' Frostfire Shoulderpad
-LBIS:AddItem(spec1, "40286", LBIS.L["Shoulder"], "Alt") --Mantle of the Corrupte
-LBIS:AddItem(spec1, "44005", LBIS.L["Back"], "BIS") --Pennant Cloa
-LBIS:AddItem(spec1, "40723", LBIS.L["Back"], "Alt") --Disguise of the Kumih
-LBIS:AddItem(spec1, "41610", LBIS.L["Back"], "Alt") --Deathchill Cloa
-LBIS:AddItem(spec1, "40418", LBIS.L["Chest"], "BIS") --Valorous Frostfire Rob
-LBIS:AddItem(spec1, "39492", LBIS.L["Chest"], "Alt") --Heroes' Frostfire Rob
-LBIS:AddItem(spec1, "40234", LBIS.L["Chest"], "Alt") --Heigan's Putrid Vestment
-LBIS:AddItem(spec1, "44008", LBIS.L["Wrist"], "BIS") --Unsullied Cuff
-LBIS:AddItem(spec1, "40325", LBIS.L["Wrist"], "Alt") --Bindings of the Expansive Min
-LBIS:AddItem(spec1, "40415", LBIS.L["Hands"], "BIS") --Valorous Frostfire Glove
-LBIS:AddItem(spec1, "39495", LBIS.L["Hands"], "Alt") --Heroes' Frostfire Glove
-LBIS:AddItem(spec1, "40301", LBIS.L["Waist"], "BIS") --Cincture of Polarit
-LBIS:AddItem(spec1, "40561", LBIS.L["Waist"], "BIS") --Leash of Heedless Magi
-LBIS:AddItem(spec1, "40696", LBIS.L["Waist"], "Alt") --Plush Sash of Guzba
-LBIS:AddItem(spec1, "40560", LBIS.L["Legs"], "BIS") --Leggings of the Wanton Spellcaste
-LBIS:AddItem(spec1, "40417", LBIS.L["Legs"], "Alt") --Valorous Frostfire Legging
-LBIS:AddItem(spec1, "39493", LBIS.L["Legs"], "Alt") --Heroes' Frostfire Legging
-LBIS:AddItem(spec1, "40246", LBIS.L["Feet"], "BIS") --Boots of Impetuous Ideal
-LBIS:AddItem(spec1, "40558", LBIS.L["Feet"], "BIS") --Arcanic Trampler
-LBIS:AddItem(spec1, "44661", LBIS.L["Neck"], "BIS") --Wyrmrest Necklace of Powe
-LBIS:AddItem(spec1, "44658", LBIS.L["Neck"], "Alt") --Chain of the Ancient Wyr
-LBIS:AddItem(spec1, "39472", LBIS.L["Neck"], "Alt") --Chain of Latent Energie
-LBIS:AddItem(spec1, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magi
-LBIS:AddItem(spec1, "40399", LBIS.L["Ring"], "BIS") --Signet of Manifested Pai
-LBIS:AddItem(spec1, "40080", LBIS.L["Ring"], "Alt") --Lost Jewe
-LBIS:AddItem(spec1, "49123", LBIS.L["Ring"], "Alt") --The Horseman's Sea
-LBIS:AddItem(spec1, "40585", LBIS.L["Ring"], "Alt") --Signet of the Kirin To
-LBIS:AddItem(spec1, "37694", LBIS.L["Ring"], "Alt") --Band of Guil
-LBIS:AddItem(spec1, "37192", LBIS.L["Ring"], "Alt") --Annhylde's Rin
-LBIS:AddItem(spec1, "42644", LBIS.L["Ring"], "Alt") --Titanium Spellshock Rin
-LBIS:AddItem(spec1, "40255", LBIS.L["Trinket"], "BIS") --Dying Curs
-LBIS:AddItem(spec1, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Dragon Sou
-LBIS:AddItem(spec1, "39229", LBIS.L["Trinket"], "Alt") --Embrace of the Spide
-LBIS:AddItem(spec1, "40682", LBIS.L["Trinket"], "Alt") --Sundial of the Exile
-LBIS:AddItem(spec1, "49076", LBIS.L["Trinket"], "Alt") --Mithril Pocketwatc
-LBIS:AddItem(spec1, "40396", LBIS.L["Main Hand"], "BIS") --The Turning Tid
-LBIS:AddItem(spec1, "39424", LBIS.L["Main Hand"], "Alt") --The Soulblad
-LBIS:AddItem(spec1, "40408", LBIS.L["Main Hand"], "Alt") --Haunting Cal
-LBIS:AddItem(spec1, "40489", LBIS.L["Main Hand"], "Alt") --Greatstaff of the Nexu
-LBIS:AddItem(spec1, "40273", LBIS.L["Off Hand"], "BIS") --Surplus Lim
-LBIS:AddItem(spec1, "40698", LBIS.L["Off Hand"], "Alt") --Ward of the Violet Citade
-LBIS:AddItem(spec1, "39712", LBIS.L["Ranged/Relic"], "BIS") --Gemmed Wand of the Nerubian
-LBIS:AddItem(spec1, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlic
+LBIS:AddItem(spec1, "40416", LBIS.L["Head"], "BIS") --Valorous Frostfire Circlet
+LBIS:AddItem(spec1, "39491", LBIS.L["Head"], "Alt") --Heroes' Frostfire Circlet
+LBIS:AddItem(spec1, "40419", LBIS.L["Shoulder"], "BIS") --Valorous Frostfire Shoulderpads
+LBIS:AddItem(spec1, "39494", LBIS.L["Shoulder"], "Alt") --Heroes' Frostfire Shoulderpads
+LBIS:AddItem(spec1, "40286", LBIS.L["Shoulder"], "Alt") --Mantle of the Corrupted
+LBIS:AddItem(spec1, "44005", LBIS.L["Back"], "BIS") --Pennant Cloak
+LBIS:AddItem(spec1, "40723", LBIS.L["Back"], "Alt") --Disguise of the Kumiho
+LBIS:AddItem(spec1, "41610", LBIS.L["Back"], "Alt") --Deathchill Cloak
+LBIS:AddItem(spec1, "40418", LBIS.L["Chest"], "BIS") --Valorous Frostfire Robe
+LBIS:AddItem(spec1, "39492", LBIS.L["Chest"], "Alt") --Heroes' Frostfire Robe
+LBIS:AddItem(spec1, "40234", LBIS.L["Chest"], "Alt") --Heigan's Putrid Vestments
+LBIS:AddItem(spec1, "44008", LBIS.L["Wrist"], "BIS") --Unsullied Cuffs
+LBIS:AddItem(spec1, "40325", LBIS.L["Wrist"], "Alt") --Bindings of the Expansive Mind
+LBIS:AddItem(spec1, "40415", LBIS.L["Hands"], "BIS") --Valorous Frostfire Gloves
+LBIS:AddItem(spec1, "39495", LBIS.L["Hands"], "Alt") --Heroes' Frostfire Gloves
+LBIS:AddItem(spec1, "40301", LBIS.L["Waist"], "BIS") --Cincture of Polarity
+LBIS:AddItem(spec1, "40561", LBIS.L["Waist"], "BIS") --Leash of Heedless Magic
+LBIS:AddItem(spec1, "40696", LBIS.L["Waist"], "Alt") --Plush Sash of Guzbah
+LBIS:AddItem(spec1, "40560", LBIS.L["Legs"], "BIS") --Leggings of the Wanton Spellcaster
+LBIS:AddItem(spec1, "40417", LBIS.L["Legs"], "Alt") --Valorous Frostfire Leggings
+LBIS:AddItem(spec1, "39493", LBIS.L["Legs"], "Alt") --Heroes' Frostfire Leggings
+LBIS:AddItem(spec1, "40246", LBIS.L["Feet"], "BIS") --Boots of Impetuous Ideals
+LBIS:AddItem(spec1, "40558", LBIS.L["Feet"], "BIS") --Arcanic Tramplers
+LBIS:AddItem(spec1, "44661", LBIS.L["Neck"], "BIS") --Wyrmrest Necklace of Power
+LBIS:AddItem(spec1, "44658", LBIS.L["Neck"], "Alt") --Chain of the Ancient Wyrm
+LBIS:AddItem(spec1, "39472", LBIS.L["Neck"], "Alt") --Chain of Latent Energies
+LBIS:AddItem(spec1, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
+LBIS:AddItem(spec1, "40399", LBIS.L["Ring"], "BIS") --Signet of Manifested Pain
+LBIS:AddItem(spec1, "40080", LBIS.L["Ring"], "Alt") --Lost Jewel
+LBIS:AddItem(spec1, "49123", LBIS.L["Ring"], "Alt") --The Horseman's Seal
+LBIS:AddItem(spec1, "40585", LBIS.L["Ring"], "Alt") --Signet of the Kirin Tor
+LBIS:AddItem(spec1, "37694", LBIS.L["Ring"], "Alt") --Band of Guile
+LBIS:AddItem(spec1, "37192", LBIS.L["Ring"], "Alt") --Annhylde's Ring
+LBIS:AddItem(spec1, "42644", LBIS.L["Ring"], "Alt") --Titanium Spellshock Ring
+LBIS:AddItem(spec1, "40255", LBIS.L["Trinket"], "BIS") --Dying Curse
+LBIS:AddItem(spec1, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Dragon Soul
+LBIS:AddItem(spec1, "39229", LBIS.L["Trinket"], "Alt") --Embrace of the Spider
+LBIS:AddItem(spec1, "40682", LBIS.L["Trinket"], "Alt") --Sundial of the Exiled
+LBIS:AddItem(spec1, "49076", LBIS.L["Trinket"], "Alt") --Mithril Pocketwatch
+LBIS:AddItem(spec1, "40396", LBIS.L["Main Hand"], "BIS") --The Turning Tide
+LBIS:AddItem(spec1, "39424", LBIS.L["Main Hand"], "Alt") --The Soulblade
+LBIS:AddItem(spec1, "40408", LBIS.L["Main Hand"], "Alt") --Haunting Call
+LBIS:AddItem(spec1, "40489", LBIS.L["Main Hand"], "Alt") --Greatstaff of the Nexus
+LBIS:AddItem(spec1, "40273", LBIS.L["Off Hand"], "BIS") --Surplus Limb
+LBIS:AddItem(spec1, "40698", LBIS.L["Off Hand"], "Alt") --Ward of the Violet Citadel
+LBIS:AddItem(spec1, "39712", LBIS.L["Ranged/Relic"], "BIS") --Gemmed Wand of the Nerubians
+LBIS:AddItem(spec1, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlich
 
 LBIS:AddItem(spec2, "46129", LBIS.L["Head"], "BIS") --Conqueror's Kirin Tor Hoo
 LBIS:AddItem(spec2, "45497", LBIS.L["Head"], "BIS") --Crown of Luminescenc
@@ -112,8 +112,8 @@ LBIS:AddItem(spec2, "40419", LBIS.L["Shoulder"], "Alt") --Valorous Frostfire Sho
 LBIS:AddItem(spec2, "45242", LBIS.L["Back"], "BIS") --Drape of Mortal Downfal
 LBIS:AddItem(spec2, "45618", LBIS.L["Back"], "BIS") --Sunglimmer Cloa
 LBIS:AddItem(spec2, "46321", LBIS.L["Back"], "Alt") --Sunglimmer Drap
-LBIS:AddItem(spec2, "44005", LBIS.L["Back"], "Alt") --Pennant Cloa
 LBIS:AddItem(spec2, "46042", LBIS.L["Back"], "Alt") --Drape of the Messenge
+LBIS:AddItem(spec2, "44005", LBIS.L["Back"], "Alt") --Pennant Cloa
 LBIS:AddItem(spec2, "46130", LBIS.L["Chest"], "BIS") --Conqueror's Kirin Tor Tuni
 LBIS:AddItem(spec2, "45368", LBIS.L["Chest"], "Alt") --Valorous Kirin Tor Tuni
 LBIS:AddItem(spec2, "40418", LBIS.L["Chest"], "Alt") --Valorous Frostfire Rob
@@ -121,9 +121,9 @@ LBIS:AddItem(spec2, "45446", LBIS.L["Wrist"], "BIS") --Grasps of Reaso
 LBIS:AddItem(spec2, "45275", LBIS.L["Wrist"], "BIS") --Bracers of Unleashed Magi
 LBIS:AddItem(spec2, "44008", LBIS.L["Wrist"], "Alt") --Unsullied Cuff
 LBIS:AddItem(spec2, "45665", LBIS.L["Hands"], "BIS") --Pharos Glove
-LBIS:AddItem(spec2, "46045", LBIS.L["Hands"], "Alt") --Pulsar Glove
-LBIS:AddItem(spec2, "45520", LBIS.L["Hands"], "Alt") --Handwraps of the Vigilan
 LBIS:AddItem(spec2, "46132", LBIS.L["Hands"], "Alt") --Conqueror's Kirin Tor Gauntlet
+LBIS:AddItem(spec2, "45520", LBIS.L["Hands"], "Alt") --Handwraps of the Vigilan
+LBIS:AddItem(spec2, "46045", LBIS.L["Hands"], "Alt") --Pulsar Glove
 LBIS:AddItem(spec2, "45619", LBIS.L["Waist"], "BIS") --Starwatcher's Bindin
 LBIS:AddItem(spec2, "45557", LBIS.L["Waist"], "Alt") --Sash of Ancient Powe
 LBIS:AddItem(spec2, "45558", LBIS.L["Waist"], "Alt") --Cord of the White Daw
@@ -136,11 +136,11 @@ LBIS:AddItem(spec2, "45537", LBIS.L["Feet"], "BIS") --Treads of the False Oracl
 LBIS:AddItem(spec2, "45135", LBIS.L["Feet"], "Alt") --Boots of Fiery Resolutio
 LBIS:AddItem(spec2, "45566", LBIS.L["Feet"], "Alt") --Spellslinger's Slipper
 LBIS:AddItem(spec2, "45133", LBIS.L["Neck"], "BIS") --Pendant of Fiery Havo
-LBIS:AddItem(spec2, "44658", LBIS.L["Neck"], "Alt") --Chain of the Ancient Wyr
+LBIS:AddItem(spec2, "45933", LBIS.L["Neck"], "Alt") --Pendant of the Shallow Grav
 LBIS:AddItem(spec2, "44661", LBIS.L["Neck"], "Alt") --Wyrmrest Necklace of Powe
 LBIS:AddItem(spec2, "45243", LBIS.L["Neck"], "Alt") --Sapphire Amulet of Renewa
 LBIS:AddItem(spec2, "45447", LBIS.L["Neck"], "Alt") --Watchful Eye of Fat
-LBIS:AddItem(spec2, "45933", LBIS.L["Neck"], "Alt") --Pendant of the Shallow Grav
+LBIS:AddItem(spec2, "44658", LBIS.L["Neck"], "Alt") --Chain of the Ancient Wyr
 LBIS:AddItem(spec2, "45495", LBIS.L["Ring"], "BIS") --Conductive Sea
 LBIS:AddItem(spec2, "46046", LBIS.L["Ring"], "BIS") --Nebula Ban
 LBIS:AddItem(spec2, "45451", LBIS.L["Ring"], "Alt") --Frozen Loo
@@ -171,4 +171,3 @@ LBIS:AddItem(spec2, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Spri
 LBIS:AddItem(spec2, "45511", LBIS.L["Ranged/Relic"], "BIS") --Scepter of Lost Soul
 LBIS:AddItem(spec2, "45257", LBIS.L["Ranged/Relic"], "BIS") --Quartz Crystal Wan
 LBIS:AddItem(spec2, "39712", LBIS.L["Ranged/Relic"], "BIS") --Gemmed Wand of the Nerubian
-

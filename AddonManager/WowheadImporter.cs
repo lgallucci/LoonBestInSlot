@@ -83,6 +83,8 @@ public static class WowheadImporter
 
             if (classGuide != null && classGuide.WebAddress != "do_not_use")
             {
+                var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
+
                 if (phaseNumber == 0)
                     items = await new WowheadGuideParser().ParsePreRaidWowheadGuide(classGuide);
                 else
@@ -124,11 +126,9 @@ public static class WowheadImporter
                     sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
                 }
 
-                var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
-
                 guide.Item3[phaseNumber] = items.Values.ToList();
 
-                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName,
+                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName.Replace(" ", ""), classGuide.SpecName,
                     guide.Item1, guide.Item2, guide.Item3);
 
                 ItemSourceFileManager.WriteItemSources(itemSources);

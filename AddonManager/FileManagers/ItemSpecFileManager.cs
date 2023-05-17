@@ -33,7 +33,7 @@ public static class ItemSpecFileManager
         itemSB.AppendLine();
         foreach (var enchant in enchants)
         {
-            itemSB.AppendLine($"LBIS:AddEnchant(\"spec1\", \"{enchant.Value.EnchantId}\", LBIS.L[\"{enchant.Value.Slot}\"]) --{enchant.Value.Name}");
+            itemSB.AppendLine($"LBIS:AddEnchant(spec1, \"{enchant.Value.EnchantId}\", LBIS.L[\"{enchant.Value.Slot}\"]) --{enchant.Value.Name}");
         }
 
         foreach (var phaseItems in itemsList)
@@ -90,20 +90,21 @@ public static class ItemSpecFileManager
                 enchants.Add(enchantId + slot, new EnchantSpec
                 {
                     EnchantId = enchantId,
-                    Name = itemSplit[4].Replace(") --", ""),
+                    Name = itemSplit[4].Replace("]) --", ""),
                     Slot = slot,
                     IsSpell = false,
                 });
             }
-            if (itemSpecLine.Contains("LBIS:AddItem(spec,"))
+            
+            if (itemSpecLine.Contains("LBIS:AddItem(spec"))
             {
-                var itemSplit = itemSpecLine.Replace("LBIS:AddItem(spec,", "").Trim().Split('"');
+                var itemSplit = itemSpecLine.Replace("LBIS:AddItem(spec", "").Trim().Split('"');
 
                 var itemId = Int32.Parse(itemSplit[1]);
                 var phase = Int32.Parse(itemSplit[0].Replace(", ", ""));
 
-                if (items[phase] == null)
-                    items[phase] = new List<ItemSpec>();
+                if (!items.ContainsKey(phase))
+                    items.Add(phase, new List<ItemSpec>());
 
                 items[phase].Add(new ItemSpec
                 {
