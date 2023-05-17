@@ -4,6 +4,7 @@ LBIS.EnchantSources =
     [25080] = { Name = "Enchant Gloves - Superior Agility", DesignId = "33152", ScrollId = "38890", Source = LBIS.L["Alurmi"], SourceLocation = LBIS.L["Keepers of Time (Exalted)"], IsSpell = "True" },
     [27906] = { Name = "Enchant Bracer - Major Defense", DesignId = "22530", ScrollId = "38899", Source = LBIS.L["Ethereum Nullifier"], SourceLocation = LBIS.L["Netherstorm"], IsSpell = "True" },
     [27914] = { Name = "Enchant Bracer - Fortitude", DesignId = "22533", ScrollId = "38902", Source = LBIS.L["Coilfang Oracle"], SourceLocation = LBIS.L["The Steamvault"], IsSpell = "True" },
+    [27958] = { Name = "Enchant Chest - Exceptional Mana", DesignId = "0", ScrollId = "38912", Source = LBIS.L["Grand Master Enchanting Trainer"], SourceLocation = "", IsSpell = "True" },
     [27968] = { Name = "Enchant Weapon - Major Intellect", DesignId = "22551", ScrollId = "38918", Source = LBIS.L["Sunfury Researcher"], SourceLocation = LBIS.L["Netherstorm"], IsSpell = "True" },
     [27984] = { Name = "Enchant Weapon - Mongoose", DesignId = "22559", ScrollId = "38925", Source = LBIS.L["Moroes"], SourceLocation = LBIS.L["Karazhan"], IsSpell = "True" },
     [28888] = { Name = "Greater Inscription of Vengeance", DesignId = "0", ScrollId = "0", Source = LBIS.L["Scribe Saalyn"], SourceLocation = LBIS.L["The Aldor (Exalted)"], IsSpell = "False" },

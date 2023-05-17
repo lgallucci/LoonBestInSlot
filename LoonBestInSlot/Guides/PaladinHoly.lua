@@ -21,6 +21,7 @@ LBIS:AddEnchant(spec1, "50338", LBIS.L["Shoulder"]) --Greater Inscription of the
 LBIS:AddEnchant(spec1, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
 LBIS:AddEnchant(spec1, "55769", LBIS.L["Back"]) --Darkglow Embroidery
 LBIS:AddEnchant(spec1, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
+LBIS:AddEnchant(spec1, "27958", LBIS.L["Chest"]) --Enchant Chest - Exceptional Mana
 LBIS:AddEnchant(spec1, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
 LBIS:AddEnchant(spec1, "54793", LBIS.L["Waist"]) --Frag Belt
 LBIS:AddEnchant(spec1, "44555", LBIS.L["Wrist"]) --Enchant Bracers - Exceptional Intellect

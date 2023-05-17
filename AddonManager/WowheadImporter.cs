@@ -156,6 +156,8 @@ public static class WowheadImporter
             var enchantSources = ItemSourceFileManager.ReadEnchantSources();
             var gemsEnchants = await new WowheadGuideParser().ParseGemEnchantsWowheadGuide(classGuide);
 
+            var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
+
             foreach (var gem in gemsEnchants.Item1)
             {
                 if (!gemSources.ContainsKey(gem.Value.GemId) && gem.Value.GemId > 0)
@@ -191,7 +193,8 @@ public static class WowheadImporter
                 sb.AppendLine($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot}");
             }
 
-            //ItemSpecFileManager.WriteGemAndEnchantSpec(Constants.AddonPath + $@"\Guides\GemsAndEnchants\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, gemsEnchants.Item1, gemsEnchants.Item2);
+            ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName.Replace(" ", ""), classGuide.SpecName,
+                gemsEnchants.Item1, gemsEnchants.Item2, guide.Item3);
 
             ItemSourceFileManager.WriteGemSources(gemSources);
             ItemSourceFileManager.WriteEnchantSources(enchantSources);
