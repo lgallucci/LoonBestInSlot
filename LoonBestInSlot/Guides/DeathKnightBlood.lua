@@ -4,6 +4,7 @@ local spec2 = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Blood"], "2")
 local spec3 = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Blood"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Blood"], "4")
 local spec5 = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Blood"], "5")
+
 LBIS:AddGem(spec1, "41380", "3", "True") --Austere Earthsiege Diamond
 LBIS:AddGem(spec1, "41377", "3", "True") --Effulgent Skyflare Diamond
 LBIS:AddGem(spec1, "41397", "3", "True") --Powerful Earthsiege Diamond
@@ -55,7 +56,6 @@ LBIS:AddEnchant("spec1", "70164", LBIS.L["Main Hand"]) --]Rune of the Nerubian C
 LBIS:AddEnchant("spec1", "54446", LBIS.L["Main Hand"]) --]Rune of Swordbreaking
 LBIS:AddEnchant("spec1", "53344", LBIS.L["Main Hand"]) --]Rune of the Fallen Crusader
 LBIS:AddEnchant("spec1", "53343", LBIS.L["Main Hand"]) --]Rune of Razorice
-
 
 LBIS:AddItem(spec0, "39625", LBIS.L["Head"], "BIS") --Heroes' Scourgeborne Faceguar
 LBIS:AddItem(spec0, "39627", LBIS.L["Shoulder"], "BIS") --Heroes' Scourgeborne Pauldron

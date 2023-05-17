@@ -18,6 +18,7 @@ public static class ItemSpecFileManager
         itemSB.AppendLine($"local spec4 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"4\")");
         itemSB.AppendLine($"local spec5 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"5\")");
 
+        itemSB.AppendLine();
         foreach (var gem in gems)
         {
             string specString = "spec";
@@ -27,13 +28,12 @@ public static class ItemSpecFileManager
 
             itemSB.AppendLine($"LBIS:AddGem({specString}, \"{gem.Value.GemId}\", \"{gem.Value.Quality}\", \"{gem.Value.IsMeta.ToString()}\") --{gem.Value.Name}");
         }
-        itemSB.AppendLine();
 
+        itemSB.AppendLine();
         foreach (var enchant in enchants)
         {
             itemSB.AppendLine($"LBIS:AddEnchant(\"spec1\", \"{enchant.Value.EnchantId}\", LBIS.L[\"{enchant.Value.Slot}\"]) --{enchant.Value.Name}");
         }
-        itemSB.AppendLine();
 
         foreach (var phaseItems in itemsList)
         {
