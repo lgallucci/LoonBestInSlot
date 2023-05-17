@@ -139,70 +139,70 @@ LBIS:AddItem(spec1, "41168", LBIS.L["Ranged/Relic"], "BIS") --Armor Plated Comba
 LBIS:AddItem(spec1, "44118", LBIS.L["Ranged/Relic"], "Alt") --Stolen Vrykul Harpoon
 LBIS:AddItem(spec1, "40716", LBIS.L["Ranged/Relic"], "Alt") --Lillehoff's Winged Blades
 
-LBIS:AddItem(spec2, "45502", LBIS.L["Head"], "BIS Mit") --Helm of the Faceles
-LBIS:AddItem(spec2, "46166", LBIS.L["Head"], "Alt") --Conqueror's Siegebreaker Greathel
-LBIS:AddItem(spec2, "45935", LBIS.L["Head"], "Alt Thrt") --Ironbark Faceguar
-LBIS:AddItem(spec2, "46151", LBIS.L["Head"], "Alt Thrt") --Conqueror's Siegebreaker Helme
-LBIS:AddItem(spec2, "45425", LBIS.L["Head"], "Alt") --Valorous Siegebreaker Greathel
-LBIS:AddItem(spec2, "46167", LBIS.L["Shoulder"], "BIS") --Conqueror's Siegebreaker Pauldron
-LBIS:AddItem(spec2, "45251", LBIS.L["Shoulder"], "Alt") --Shoulderplates of the Deconstructo
-LBIS:AddItem(spec2, "45428", LBIS.L["Shoulder"], "Alt") --Valorous Siegebreaker Pauldron
-LBIS:AddItem(spec2, "45697", LBIS.L["Shoulder"], "Alt") --Shoulderguards of the Solemn Watc
-LBIS:AddItem(spec2, "45496", LBIS.L["Back"], "BIS") --Titanskin Cloa
-LBIS:AddItem(spec2, "45319", LBIS.L["Back"], "Alt") --Cloak of the Maker
-LBIS:AddItem(spec2, "46014", LBIS.L["Back"], "Alt") --Saronite Animus Cloa
-LBIS:AddItem(spec2, "46162", LBIS.L["Chest"], "BIS") --Conqueror's Siegebreaker Breastplat
-LBIS:AddItem(spec2, "46039", LBIS.L["Chest"], "Alt") --Breastplate of the Timeles
-LBIS:AddItem(spec2, "45334", LBIS.L["Chest"], "Alt") --Unbreakable Chestguar
-LBIS:AddItem(spec2, "45424", LBIS.L["Chest"], "Alt") --Valorous Siegebreaker Breastplat
-LBIS:AddItem(spec2, "45111", LBIS.L["Wrist"], "BIS") --Mimiron's Inferno Coupling
-LBIS:AddItem(spec2, "45283", LBIS.L["Wrist"], "Alt") --Flamewatch Armguard
-LBIS:AddItem(spec2, "45487", LBIS.L["Hands"], "BIS") --Handguards of Revitalizatio
-LBIS:AddItem(spec2, "46164", LBIS.L["Hands"], "Alt") --Conqueror's Siegebreaker Handguard
-LBIS:AddItem(spec2, "46148", LBIS.L["Hands"], "Alt Thrt") --Conqueror's Siegebreaker Gauntlet
-LBIS:AddItem(spec2, "45228", LBIS.L["Hands"], "Alt Mit") --Handguards of the Enclav
-LBIS:AddItem(spec2, "45834", LBIS.L["Hands"], "Alt") --Gauntlets of the Royal Watc
-LBIS:AddItem(spec2, "45426", LBIS.L["Hands"], "Alt") --Valorous Siegebreaker Handguard
-LBIS:AddItem(spec2, "45139", LBIS.L["Waist"], "BIS") --Dragonslayer's Brac
-LBIS:AddItem(spec2, "45551", LBIS.L["Waist"], "BIS Mit") --Indestructible Plate Girdl
-LBIS:AddItem(spec2, "45825", LBIS.L["Waist"], "Alt") --Shieldwarder Girdl
-LBIS:AddItem(spec2, "45304", LBIS.L["Waist"], "Alt") --Stormtempered Girdl
-LBIS:AddItem(spec2, "45594", LBIS.L["Legs"], "BIS Mit") --Legplates of the Endless Voi
-LBIS:AddItem(spec2, "46150", LBIS.L["Legs"], "BIS Thrt") --Conqueror's Siegebreaker Legplate
-LBIS:AddItem(spec2, "46169", LBIS.L["Legs"], "Alt Mit") --Conqueror's Siegebreaker Legguard
-LBIS:AddItem(spec2, "45295", LBIS.L["Legs"], "Alt") --Gilded Steel Legplate
-LBIS:AddItem(spec2, "45427", LBIS.L["Legs"], "Alt") --Valorous Siegebreaker Legguard
-LBIS:AddItem(spec2, "45842", LBIS.L["Legs"], "Alt Mit") --Wyrmguard Legplate
-LBIS:AddItem(spec2, "45988", LBIS.L["Feet"], "BIS") --Greaves of the Iron Arm
-LBIS:AddItem(spec2, "45542", LBIS.L["Feet"], "BIS Mit") --Greaves of the Stonewarde
-LBIS:AddItem(spec2, "45560", LBIS.L["Feet"], "Alt Mit") --Spiked Deathdealer
-LBIS:AddItem(spec2, "45166", LBIS.L["Feet"], "Alt") --Charred Saronite Greave
-LBIS:AddItem(spec2, "45485", LBIS.L["Neck"], "BIS") --Bronze Pendant of the Vani
-LBIS:AddItem(spec2, "45262", LBIS.L["Neck"], "Alt Mit") --Necklace of Unerring Mettl
-LBIS:AddItem(spec2, "45821", LBIS.L["Neck"], "Alt") --Shard of the Crystal Fores
-LBIS:AddItem(spec2, "45538", LBIS.L["Neck"], "Alt") --Titanstone Pendan
-LBIS:AddItem(spec2, "45696", LBIS.L["Neck"], "Alt") --Mark of the Unyieldin
-LBIS:AddItem(spec2, "45471", LBIS.L["Ring"], "BIS") --Fate's Clutc
-LBIS:AddItem(spec2, "45247", LBIS.L["Ring"], "BIS") --Signet of the Earthshake
-LBIS:AddItem(spec2, "45326", LBIS.L["Ring"], "Alt") --Platinum Band of the Aesi
-LBIS:AddItem(spec2, "45112", LBIS.L["Ring"], "Alt") --The Leviathan's Coi
-LBIS:AddItem(spec2, "45874", LBIS.L["Ring"], "Alt") --Signet of Winte
-LBIS:AddItem(spec2, "45158", LBIS.L["Trinket"], "BIS Stam") --Heart of Iro
-LBIS:AddItem(spec2, "45313", LBIS.L["Trinket"], "BIS") --Furnace Ston
-LBIS:AddItem(spec2, "46021", LBIS.L["Trinket"], "Alt Stam") --Royal Seal of King Llan
-LBIS:AddItem(spec2, "44063", LBIS.L["Trinket"], "Alt Stam") --Figurine - Monarch Cra
-LBIS:AddItem(spec2, "40257", LBIS.L["Trinket"], "Alt Mit") --Defender's Cod
-LBIS:AddItem(spec2, "37220", LBIS.L["Trinket"], "Alt Stam") --Essence of Gossame
-LBIS:AddItem(spec2, "37872", LBIS.L["Trinket"], "Alt") --Lavanthor's Talisma
-LBIS:AddItem(spec2, "45442", LBIS.L["Main Hand"], "BIS") --Sorthalis, Hammer of the Watcher
-LBIS:AddItem(spec2, "40402", LBIS.L["Main Hand"], "BIS") --Last Laug
-LBIS:AddItem(spec2, "45876", LBIS.L["Main Hand"], "Alt") --Shive
-LBIS:AddItem(spec2, "45110", LBIS.L["Main Hand"], "Alt") --Titanguar
-LBIS:AddItem(spec2, "45892", LBIS.L["Main Hand"], "Alt") --Legacy of Thunde
-LBIS:AddItem(spec2, "45700", LBIS.L["Main Hand"], "Alt") --Stoneguar
-LBIS:AddItem(spec2, "45587", LBIS.L["Off Hand"], "BIS") --Bulwark of Algalo
-LBIS:AddItem(spec2, "45877", LBIS.L["Off Hand"], "BIS Mit") --The Boreal Guar
-LBIS:AddItem(spec2, "45450", LBIS.L["Off Hand"], "BIS Thrt") --Northern Barrie
-LBIS:AddItem(spec2, "45707", LBIS.L["Off Hand"], "Alt") --Shieldwall of the Breake
-LBIS:AddItem(spec2, "45137", LBIS.L["Ranged/Relic"], "BIS") --Veranus' Ban
-LBIS:AddItem(spec2, "41168", LBIS.L["Ranged/Relic"], "Alt") --Armor Plated Combat Shotgu
+LBIS:AddItem(spec2, "45502", LBIS.L["Head"], "BIS Mit") --Helm of the Faceless
+LBIS:AddItem(spec2, "46166", LBIS.L["Head"], "Alt") --Conqueror's Siegebreaker Greathelm
+LBIS:AddItem(spec2, "45935", LBIS.L["Head"], "Alt Thrt") --Ironbark Faceguard
+LBIS:AddItem(spec2, "46151", LBIS.L["Head"], "Alt Thrt") --Conqueror's Siegebreaker Helmet
+LBIS:AddItem(spec2, "45425", LBIS.L["Head"], "Alt") --Valorous Siegebreaker Greathelm
+LBIS:AddItem(spec2, "46167", LBIS.L["Shoulder"], "BIS") --Conqueror's Siegebreaker Pauldrons
+LBIS:AddItem(spec2, "45251", LBIS.L["Shoulder"], "Alt") --Shoulderplates of the Deconstructor
+LBIS:AddItem(spec2, "45428", LBIS.L["Shoulder"], "Alt") --Valorous Siegebreaker Pauldrons
+LBIS:AddItem(spec2, "45697", LBIS.L["Shoulder"], "Alt") --Shoulderguards of the Solemn Watch
+LBIS:AddItem(spec2, "45496", LBIS.L["Back"], "BIS") --Titanskin Cloak
+LBIS:AddItem(spec2, "45319", LBIS.L["Back"], "Alt") --Cloak of the Makers
+LBIS:AddItem(spec2, "46014", LBIS.L["Back"], "Alt") --Saronite Animus Cloak
+LBIS:AddItem(spec2, "46162", LBIS.L["Chest"], "BIS") --Conqueror's Siegebreaker Breastplate
+LBIS:AddItem(spec2, "46039", LBIS.L["Chest"], "Alt") --Breastplate of the Timeless
+LBIS:AddItem(spec2, "45334", LBIS.L["Chest"], "Alt") --Unbreakable Chestguard
+LBIS:AddItem(spec2, "45424", LBIS.L["Chest"], "Alt") --Valorous Siegebreaker Breastplate
+LBIS:AddItem(spec2, "45111", LBIS.L["Wrist"], "BIS") --Mimiron's Inferno Couplings
+LBIS:AddItem(spec2, "45283", LBIS.L["Wrist"], "Alt") --Flamewatch Armguards
+LBIS:AddItem(spec2, "45487", LBIS.L["Hands"], "BIS") --Handguards of Revitalization
+LBIS:AddItem(spec2, "46164", LBIS.L["Hands"], "Alt") --Conqueror's Siegebreaker Handguards
+LBIS:AddItem(spec2, "46148", LBIS.L["Hands"], "Alt Thrt") --Conqueror's Siegebreaker Gauntlets
+LBIS:AddItem(spec2, "45228", LBIS.L["Hands"], "Alt Mit") --Handguards of the Enclave
+LBIS:AddItem(spec2, "45834", LBIS.L["Hands"], "Alt") --Gauntlets of the Royal Watch
+LBIS:AddItem(spec2, "45426", LBIS.L["Hands"], "Alt") --Valorous Siegebreaker Handguards
+LBIS:AddItem(spec2, "45139", LBIS.L["Waist"], "BIS") --Dragonslayer's Brace
+LBIS:AddItem(spec2, "45551", LBIS.L["Waist"], "BIS Mit") --Indestructible Plate Girdle
+LBIS:AddItem(spec2, "45825", LBIS.L["Waist"], "Alt") --Shieldwarder Girdle
+LBIS:AddItem(spec2, "45304", LBIS.L["Waist"], "Alt") --Stormtempered Girdle
+LBIS:AddItem(spec2, "45594", LBIS.L["Legs"], "BIS Mit") --Legplates of the Endless Void
+LBIS:AddItem(spec2, "46150", LBIS.L["Legs"], "BIS Thrt") --Conqueror's Siegebreaker Legplates
+LBIS:AddItem(spec2, "46169", LBIS.L["Legs"], "Alt Mit") --Conqueror's Siegebreaker Legguards
+LBIS:AddItem(spec2, "45295", LBIS.L["Legs"], "Alt") --Gilded Steel Legplates
+LBIS:AddItem(spec2, "45427", LBIS.L["Legs"], "Alt") --Valorous Siegebreaker Legguards
+LBIS:AddItem(spec2, "45842", LBIS.L["Legs"], "Alt Mit") --Wyrmguard Legplates
+LBIS:AddItem(spec2, "45988", LBIS.L["Feet"], "BIS") --Greaves of the Iron Army
+LBIS:AddItem(spec2, "45542", LBIS.L["Feet"], "BIS Mit") --Greaves of the Stonewarder
+LBIS:AddItem(spec2, "45560", LBIS.L["Feet"], "Alt Mit") --Spiked Deathdealers
+LBIS:AddItem(spec2, "45166", LBIS.L["Feet"], "Alt") --Charred Saronite Greaves
+LBIS:AddItem(spec2, "45485", LBIS.L["Neck"], "BIS") --Bronze Pendant of the Vanir
+LBIS:AddItem(spec2, "45262", LBIS.L["Neck"], "Alt Mit") --Necklace of Unerring Mettle
+LBIS:AddItem(spec2, "45821", LBIS.L["Neck"], "Alt") --Shard of the Crystal Forest
+LBIS:AddItem(spec2, "45538", LBIS.L["Neck"], "Alt") --Titanstone Pendant
+LBIS:AddItem(spec2, "45696", LBIS.L["Neck"], "Alt") --Mark of the Unyielding
+LBIS:AddItem(spec2, "45471", LBIS.L["Ring"], "BIS") --Fate's Clutch
+LBIS:AddItem(spec2, "45247", LBIS.L["Ring"], "BIS") --Signet of the Earthshaker
+LBIS:AddItem(spec2, "45326", LBIS.L["Ring"], "Alt") --Platinum Band of the Aesir
+LBIS:AddItem(spec2, "45112", LBIS.L["Ring"], "Alt") --The Leviathan's Coil
+LBIS:AddItem(spec2, "45874", LBIS.L["Ring"], "Alt") --Signet of Winter
+LBIS:AddItem(spec2, "45158", LBIS.L["Trinket"], "BIS Stam") --Heart of Iron
+LBIS:AddItem(spec2, "45313", LBIS.L["Trinket"], "BIS") --Furnace Stone
+LBIS:AddItem(spec2, "46021", LBIS.L["Trinket"], "Alt Stam") --Royal Seal of King Llane
+LBIS:AddItem(spec2, "44063", LBIS.L["Trinket"], "Alt Stam") --Figurine - Monarch Crab
+LBIS:AddItem(spec2, "40257", LBIS.L["Trinket"], "Alt Mit") --Defender's Code
+LBIS:AddItem(spec2, "37220", LBIS.L["Trinket"], "Alt Stam") --Essence of Gossamer
+LBIS:AddItem(spec2, "37872", LBIS.L["Trinket"], "Alt") --Lavanthor's Talisman
+LBIS:AddItem(spec2, "45442", LBIS.L["Main Hand"], "BIS") --Sorthalis, Hammer of the Watchers
+LBIS:AddItem(spec2, "40402", LBIS.L["Main Hand"], "BIS") --Last Laugh
+LBIS:AddItem(spec2, "45876", LBIS.L["Main Hand"], "Alt") --Shiver
+LBIS:AddItem(spec2, "45110", LBIS.L["Main Hand"], "Alt") --Titanguard
+LBIS:AddItem(spec2, "45892", LBIS.L["Main Hand"], "Alt") --Legacy of Thunder
+LBIS:AddItem(spec2, "45700", LBIS.L["Main Hand"], "Alt") --Stoneguard
+LBIS:AddItem(spec2, "45587", LBIS.L["Off Hand"], "BIS") --Bulwark of Algalon
+LBIS:AddItem(spec2, "45877", LBIS.L["Off Hand"], "BIS Mit") --The Boreal Guard
+LBIS:AddItem(spec2, "45450", LBIS.L["Off Hand"], "BIS Thrt") --Northern Barrier
+LBIS:AddItem(spec2, "45707", LBIS.L["Off Hand"], "Alt") --Shieldwall of the Breaker
+LBIS:AddItem(spec2, "45137", LBIS.L["Ranged/Relic"], "BIS") --Veranus' Bane
+LBIS:AddItem(spec2, "41168", LBIS.L["Ranged/Relic"], "Alt") --Armor Plated Combat Shotgun

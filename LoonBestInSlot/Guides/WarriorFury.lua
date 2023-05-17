@@ -115,57 +115,57 @@ LBIS:AddItem(spec1, "40385", LBIS.L["Ranged/Relic"], "BIS") --Envoy of Mortality
 LBIS:AddItem(spec1, "40190", LBIS.L["Ranged/Relic"], "Alt") --Spinning Fate
 LBIS:AddItem(spec1, "37191", LBIS.L["Ranged/Relic"], "Alt") --Drake-Mounted Crossbow
 
-LBIS:AddItem(spec2, "46151", LBIS.L["Head"], "BIS") --Conqueror's Siegebreaker Helme
-LBIS:AddItem(spec2, "45472", LBIS.L["Head"], "Alt") --Warhelm of the Champio
-LBIS:AddItem(spec2, "45431", LBIS.L["Head"], "Alt") --Valorous Siegebreaker Helme
-LBIS:AddItem(spec2, "45993", LBIS.L["Head"], "Alt") --Mimiron's Flight Goggle
-LBIS:AddItem(spec2, "46149", LBIS.L["Shoulder"], "BIS") --Conqueror's Siegebreaker Shoulderplate
-LBIS:AddItem(spec2, "46037", LBIS.L["Shoulder"], "BIS") --Shoulderplates of the Celestial Watc
-LBIS:AddItem(spec2, "45245", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Intrude
-LBIS:AddItem(spec2, "45433", LBIS.L["Shoulder"], "Alt") --Valorous Siegebreaker Shoulderplate
-LBIS:AddItem(spec2, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless Genera
-LBIS:AddItem(spec2, "45138", LBIS.L["Back"], "Alt") --Drape of the Drakeride
-LBIS:AddItem(spec2, "45973", LBIS.L["Back"], "Alt") --Stylish Power Cap
-LBIS:AddItem(spec2, "46146", LBIS.L["Chest"], "BIS") --Conqueror's Siegebreaker Battleplat
-LBIS:AddItem(spec2, "45473", LBIS.L["Chest"], "Alt") --Embrace of the Gladiato
-LBIS:AddItem(spec2, "45453", LBIS.L["Chest"], "Alt") --Winter's Icy Embrac
-LBIS:AddItem(spec2, "45429", LBIS.L["Chest"], "Alt") --Valorous Siegebreaker Battleplat
-LBIS:AddItem(spec2, "45611", LBIS.L["Wrist"], "BIS") --Solar Binding
-LBIS:AddItem(spec2, "45663", LBIS.L["Wrist"], "Alt") --Armbands of Bedla
-LBIS:AddItem(spec2, "45888", LBIS.L["Wrist"], "Alt") --Bitter Cold Armguard
-LBIS:AddItem(spec2, "46148", LBIS.L["Hands"], "BIS") --Conqueror's Siegebreaker Gauntlet
-LBIS:AddItem(spec2, "45481", LBIS.L["Hands"], "Alt") --Gauntlets of Ruthless Reprisa
-LBIS:AddItem(spec2, "45833", LBIS.L["Hands"], "Alt") --Bladebreaker Gauntlet
-LBIS:AddItem(spec2, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinc
-LBIS:AddItem(spec2, "46041", LBIS.L["Waist"], "Alt") --Starfall Girdl
-LBIS:AddItem(spec2, "45550", LBIS.L["Waist"], "Alt") --Belt of the Titan
-LBIS:AddItem(spec2, "45536", LBIS.L["Legs"], "BIS") --Legguards of Cunning Deceptio
-LBIS:AddItem(spec2, "45134", LBIS.L["Legs"], "Alt") --Plated Leggings of Ruinatio
-LBIS:AddItem(spec2, "45141", LBIS.L["Legs"], "Alt") --Proto-hide Legging
-LBIS:AddItem(spec2, "45599", LBIS.L["Feet"], "BIS") --Sabatons of Lifeless Nigh
-LBIS:AddItem(spec2, "40591", LBIS.L["Feet"], "BIS") --Melancholy Sabaton
-LBIS:AddItem(spec2, "45559", LBIS.L["Feet"], "Alt") --Battlelord's Plate Boot
-LBIS:AddItem(spec2, "45459", LBIS.L["Neck"], "BIS") --Frigid Strength of Hodi
-LBIS:AddItem(spec2, "45517", LBIS.L["Neck"], "BIS") --Pendulum of Infinit
-LBIS:AddItem(spec2, "45820", LBIS.L["Neck"], "Alt") --Broach of the Wailing Nigh
-LBIS:AddItem(spec2, "44664", LBIS.L["Neck"], "Alt") --Favor of the Dragon Quee
-LBIS:AddItem(spec2, "45608", LBIS.L["Ring"], "BIS") --Brann's Signet Rin
-LBIS:AddItem(spec2, "46322", LBIS.L["Ring"], "BIS") --Brann's Sealing Rin
-LBIS:AddItem(spec2, "45469", LBIS.L["Ring"], "Alt") --Sif's Promis
-LBIS:AddItem(spec2, "45534", LBIS.L["Ring"], "Alt") --Seal of the Betrayed Kin
-LBIS:AddItem(spec2, "46048", LBIS.L["Ring"], "Alt") --Band of Light
-LBIS:AddItem(spec2, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatnes
-LBIS:AddItem(spec2, "45931", LBIS.L["Trinket"], "BIS") --Mjolnir Runeston
-LBIS:AddItem(spec2, "45609", LBIS.L["Trinket"], "BIS") --Comet's Trai
-LBIS:AddItem(spec2, "46038", LBIS.L["Trinket"], "Alt") --Dark Matte
-LBIS:AddItem(spec2, "40256", LBIS.L["Trinket"], "Alt") --Grim Tol
-LBIS:AddItem(spec2, "40684", LBIS.L["Trinket"], "Alt") --Mirror of Trut
-LBIS:AddItem(spec2, "45516", LBIS.L["Two Hand"], "BIS") --Voldrethar, Dark Blade of Oblivio
-LBIS:AddItem(spec2, "45868", LBIS.L["Two Hand"], "BIS") --Aesir's Edg
-LBIS:AddItem(spec2, "46067", LBIS.L["Two Hand"], "Alt") --Hammer of Crushing Whisper
-LBIS:AddItem(spec2, "45233", LBIS.L["Two Hand"], "Alt") --Stormrune Edg
-LBIS:AddItem(spec2, "45165", LBIS.L["Two Hand"], "Alt") --Worldcarve
-LBIS:AddItem(spec2, "40384", LBIS.L["Two Hand"], "Alt") --Betrayer of Humanit
-LBIS:AddItem(spec2, "45296", LBIS.L["Ranged/Relic"], "BIS") --Twirling Blade
-LBIS:AddItem(spec2, "45870", LBIS.L["Ranged/Relic"], "Alt") --Magnetized Projectile Emitte
-LBIS:AddItem(spec2, "40385", LBIS.L["Ranged/Relic"], "Alt") --Envoy of Mortalit
+LBIS:AddItem(spec2, "46151", LBIS.L["Head"], "BIS") --Conqueror's Siegebreaker Helmet
+LBIS:AddItem(spec2, "45472", LBIS.L["Head"], "Alt") --Warhelm of the Champion
+LBIS:AddItem(spec2, "45431", LBIS.L["Head"], "Alt") --Valorous Siegebreaker Helmet
+LBIS:AddItem(spec2, "45993", LBIS.L["Head"], "Alt") --Mimiron's Flight Goggles
+LBIS:AddItem(spec2, "46149", LBIS.L["Shoulder"], "BIS") --Conqueror's Siegebreaker Shoulderplates
+LBIS:AddItem(spec2, "46037", LBIS.L["Shoulder"], "BIS") --Shoulderplates of the Celestial Watch
+LBIS:AddItem(spec2, "45245", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Intruder
+LBIS:AddItem(spec2, "45433", LBIS.L["Shoulder"], "Alt") --Valorous Siegebreaker Shoulderplates
+LBIS:AddItem(spec2, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless General
+LBIS:AddItem(spec2, "45138", LBIS.L["Back"], "Alt") --Drape of the Drakerider
+LBIS:AddItem(spec2, "45973", LBIS.L["Back"], "Alt") --Stylish Power Cape
+LBIS:AddItem(spec2, "46146", LBIS.L["Chest"], "BIS") --Conqueror's Siegebreaker Battleplate
+LBIS:AddItem(spec2, "45473", LBIS.L["Chest"], "Alt") --Embrace of the Gladiator
+LBIS:AddItem(spec2, "45453", LBIS.L["Chest"], "Alt") --Winter's Icy Embrace
+LBIS:AddItem(spec2, "45429", LBIS.L["Chest"], "Alt") --Valorous Siegebreaker Battleplate
+LBIS:AddItem(spec2, "45611", LBIS.L["Wrist"], "BIS") --Solar Bindings
+LBIS:AddItem(spec2, "45663", LBIS.L["Wrist"], "Alt") --Armbands of Bedlam
+LBIS:AddItem(spec2, "45888", LBIS.L["Wrist"], "Alt") --Bitter Cold Armguards
+LBIS:AddItem(spec2, "46148", LBIS.L["Hands"], "BIS") --Conqueror's Siegebreaker Gauntlets
+LBIS:AddItem(spec2, "45481", LBIS.L["Hands"], "Alt") --Gauntlets of Ruthless Reprisal
+LBIS:AddItem(spec2, "45833", LBIS.L["Hands"], "Alt") --Bladebreaker Gauntlets
+LBIS:AddItem(spec2, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
+LBIS:AddItem(spec2, "46041", LBIS.L["Waist"], "Alt") --Starfall Girdle
+LBIS:AddItem(spec2, "45550", LBIS.L["Waist"], "Alt") --Belt of the Titans
+LBIS:AddItem(spec2, "45536", LBIS.L["Legs"], "BIS") --Legguards of Cunning Deception
+LBIS:AddItem(spec2, "45134", LBIS.L["Legs"], "Alt") --Plated Leggings of Ruination
+LBIS:AddItem(spec2, "45141", LBIS.L["Legs"], "Alt") --Proto-hide Leggings
+LBIS:AddItem(spec2, "45599", LBIS.L["Feet"], "BIS") --Sabatons of Lifeless Night
+LBIS:AddItem(spec2, "40591", LBIS.L["Feet"], "BIS") --Melancholy Sabatons
+LBIS:AddItem(spec2, "45559", LBIS.L["Feet"], "Alt") --Battlelord's Plate Boots
+LBIS:AddItem(spec2, "45459", LBIS.L["Neck"], "BIS") --Frigid Strength of Hodir
+LBIS:AddItem(spec2, "45517", LBIS.L["Neck"], "BIS") --Pendulum of Infinity
+LBIS:AddItem(spec2, "45820", LBIS.L["Neck"], "Alt") --Broach of the Wailing Night
+LBIS:AddItem(spec2, "44664", LBIS.L["Neck"], "Alt") --Favor of the Dragon Queen
+LBIS:AddItem(spec2, "45608", LBIS.L["Ring"], "BIS") --Brann's Signet Ring
+LBIS:AddItem(spec2, "46322", LBIS.L["Ring"], "BIS") --Brann's Sealing Ring
+LBIS:AddItem(spec2, "45469", LBIS.L["Ring"], "Alt") --Sif's Promise
+LBIS:AddItem(spec2, "45534", LBIS.L["Ring"], "Alt") --Seal of the Betrayed King
+LBIS:AddItem(spec2, "46048", LBIS.L["Ring"], "Alt") --Band of Lights
+LBIS:AddItem(spec2, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
+LBIS:AddItem(spec2, "45931", LBIS.L["Trinket"], "BIS") --Mjolnir Runestone
+LBIS:AddItem(spec2, "45609", LBIS.L["Trinket"], "BIS") --Comet's Trail
+LBIS:AddItem(spec2, "46038", LBIS.L["Trinket"], "Alt") --Dark Matter
+LBIS:AddItem(spec2, "40256", LBIS.L["Trinket"], "Alt") --Grim Toll
+LBIS:AddItem(spec2, "40684", LBIS.L["Trinket"], "Alt") --Mirror of Truth
+LBIS:AddItem(spec2, "45516", LBIS.L["Two Hand"], "BIS") --Voldrethar, Dark Blade of Oblivion
+LBIS:AddItem(spec2, "45868", LBIS.L["Two Hand"], "BIS") --Aesir's Edge
+LBIS:AddItem(spec2, "46067", LBIS.L["Two Hand"], "Alt") --Hammer of Crushing Whispers
+LBIS:AddItem(spec2, "45233", LBIS.L["Two Hand"], "Alt") --Stormrune Edge
+LBIS:AddItem(spec2, "45165", LBIS.L["Two Hand"], "Alt") --Worldcarver
+LBIS:AddItem(spec2, "40384", LBIS.L["Two Hand"], "Alt") --Betrayer of Humanity
+LBIS:AddItem(spec2, "45296", LBIS.L["Ranged/Relic"], "BIS") --Twirling Blades
+LBIS:AddItem(spec2, "45870", LBIS.L["Ranged/Relic"], "Alt") --Magnetized Projectile Emitter
+LBIS:AddItem(spec2, "40385", LBIS.L["Ranged/Relic"], "Alt") --Envoy of Mortality

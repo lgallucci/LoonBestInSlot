@@ -173,8 +173,8 @@ LBIS:AddItem(spec2, "45326", LBIS.L["Ring"], "Alt") --Platinum Band of the Aesir
 LBIS:AddItem(spec2, "45112", LBIS.L["Ring"], "Alt") --The Leviathan's Coil
 LBIS:AddItem(spec2, "46021", LBIS.L["Trinket"], "BIS") --Royal Seal of King Llane
 LBIS:AddItem(spec2, "45158", LBIS.L["Trinket"], "BIS") --Heart of Iron
-LBIS:AddItem(spec2, "42341", LBIS.L["Trinket"], "BIS") --Figurine - Ruby Hare
 LBIS:AddItem(spec2, "44063", LBIS.L["Trinket"], "BIS") --Figurine - Monarch Crab
+LBIS:AddItem(spec2, "42341", LBIS.L["Trinket"], "BIS") --Figurine - Ruby Hare
 LBIS:AddItem(spec2, "45507", LBIS.L["Trinket"], "Alt") --The General's Heart
 LBIS:AddItem(spec2, "45313", LBIS.L["Trinket"], "Alt") --Furnace Stone
 LBIS:AddItem(spec2, "45442", LBIS.L["Main Hand"], "BIS") --Sorthalis, Hammer of the Watchers
