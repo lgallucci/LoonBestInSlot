@@ -157,16 +157,12 @@ LBIS:AddItem(spec2, "45825", LBIS.L["Waist"], "BIS") --Shieldwarder Girdl
 LBIS:AddItem(spec2, "45304", LBIS.L["Waist"], "Alt") --Stormtempered Girdl
 LBIS:AddItem(spec2, "45594", LBIS.L["Legs"], "BIS") --Legplates of the Endless Voi
 LBIS:AddItem(spec2, "45267", LBIS.L["Legs"], "BIS") --Saronite Plated Legguard
-LBIS:AddItem(spec2, "46121", LBIS.L["Legs"], "BIS") --Conqueror's Darkruned Legguard
-LBIS:AddItem(spec2, "45295", LBIS.L["Legs"], "BIS") --Gilded Steel Legplate
 LBIS:AddItem(spec2, "45338", LBIS.L["Legs"], "Alt") --Valorous Darkruned Legguard
 LBIS:AddItem(spec2, "45988", LBIS.L["Feet"], "BIS") --Greaves of the Iron Arm
 LBIS:AddItem(spec2, "45166", LBIS.L["Feet"], "BIS") --Charred Saronite Greave
 LBIS:AddItem(spec2, "45560", LBIS.L["Feet"], "BIS") --Spiked Deathdealer
 LBIS:AddItem(spec2, "45485", LBIS.L["Neck"], "BIS") --Bronze Pendant of the Vani
 LBIS:AddItem(spec2, "45538", LBIS.L["Neck"], "Alt") --Titanstone Pendan
-LBIS:AddItem(spec2, "45821", LBIS.L["Neck"], "Alt") --Shard of the Crystal Fores
-LBIS:AddItem(spec2, "45696", LBIS.L["Neck"], "Alt") --Mark of the Unyieldin
 LBIS:AddItem(spec2, "45471", LBIS.L["Ring"], "BIS") --Fate's Clutc
 LBIS:AddItem(spec2, "45871", LBIS.L["Ring"], "BIS") --Seal of Uldua
 LBIS:AddItem(spec2, "45326", LBIS.L["Ring"], "Alt") --Platinum Band of the Aesi
