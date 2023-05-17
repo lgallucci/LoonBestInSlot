@@ -18,26 +18,26 @@ LBIS:AddGem(spec1, "49110", "4", "False") --Nightmare Tear
 LBIS:AddGem(spec1, "42702", "3", "False") --Enchanted Tear
 LBIS:AddGem(spec1, "40022", "3", "False") --Sovereign Twilight Opal
 
-LBIS:AddEnchant("spec1", "61117", LBIS.L["Shoulder"]) --]Master's Inscription of the Axe
-LBIS:AddEnchant("spec1", "50335", LBIS.L["Shoulder"]) --]Greater Inscription of the Axe
-LBIS:AddEnchant("spec1", "28888", LBIS.L["Shoulder"]) --]Greater Inscription of Vengeance
-LBIS:AddEnchant("spec1", "55002", LBIS.L["Back"]) --]Flexweave Underlay
-LBIS:AddEnchant("spec1", "60663", LBIS.L["Back"]) --]Enchant Cloak - Major Agility
-LBIS:AddEnchant("spec1", "60692", LBIS.L["Chest"]) --]Enchant Chest - Powerful Stats
-LBIS:AddEnchant("spec1", "57683", LBIS.L["Wrist"]) --]Fur Lining - Attack Power
-LBIS:AddEnchant("spec1", "44575", LBIS.L["Wrist"]) --]Enchant Bracers - Greater Assault
-LBIS:AddEnchant("spec1", "44598", LBIS.L["Wrist"]) --]Enchant Bracers - Expertise
-LBIS:AddEnchant("spec1", "54999", LBIS.L["Hands"]) --]Hyperspeed Accelerators
-LBIS:AddEnchant("spec1", "60668", LBIS.L["Hands"]) --]Enchant Gloves - Crusher
-LBIS:AddEnchant("spec1", "44484", LBIS.L["Hands"]) --]Enchant Gloves - Expertise
-LBIS:AddEnchant("spec1", "50967", LBIS.L["Legs"]) --]Icescale Leg Armor
-LBIS:AddEnchant("spec1", "50966", LBIS.L["Legs"]) --]Nerubian Leg Armor
-LBIS:AddEnchant("spec1", "55016", LBIS.L["Feet"]) --]Nitro Boosts
-LBIS:AddEnchant("spec1", "60623", LBIS.L["Feet"]) --]Enchant Boots - Icewalker
-LBIS:AddEnchant("spec1", "60763", LBIS.L["Feet"]) --]Enchant Boots - Greater Assault
-LBIS:AddEnchant("spec1", "59621", LBIS.L["Two Hand"]) --]Enchant Weapon - Berserking
-LBIS:AddEnchant("spec1", "60691", LBIS.L["Two Hand"]) --]Enchant 2H Weapon - Massacre
-LBIS:AddEnchant("spec1", "44645", LBIS.L["Ring"]) --]Enchant Ring - Assault
+LBIS:AddEnchant(spec1, "61117", LBIS.L["Shoulder"]) --Master's Inscription of the Axe
+LBIS:AddEnchant(spec1, "50335", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
+LBIS:AddEnchant(spec1, "28888", LBIS.L["Shoulder"]) --Greater Inscription of Vengeance
+LBIS:AddEnchant(spec1, "55002", LBIS.L["Back"]) --Flexweave Underlay
+LBIS:AddEnchant(spec1, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
+LBIS:AddEnchant(spec1, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
+LBIS:AddEnchant(spec1, "57683", LBIS.L["Wrist"]) --Fur Lining - Attack Power
+LBIS:AddEnchant(spec1, "44575", LBIS.L["Wrist"]) --Enchant Bracers - Greater Assault
+LBIS:AddEnchant(spec1, "44598", LBIS.L["Wrist"]) --Enchant Bracers - Expertise
+LBIS:AddEnchant(spec1, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
+LBIS:AddEnchant(spec1, "60668", LBIS.L["Hands"]) --Enchant Gloves - Crusher
+LBIS:AddEnchant(spec1, "44484", LBIS.L["Hands"]) --Enchant Gloves - Expertise
+LBIS:AddEnchant(spec1, "50967", LBIS.L["Legs"]) --Icescale Leg Armor
+LBIS:AddEnchant(spec1, "50966", LBIS.L["Legs"]) --Nerubian Leg Armor
+LBIS:AddEnchant(spec1, "55016", LBIS.L["Feet"]) --Nitro Boosts
+LBIS:AddEnchant(spec1, "60623", LBIS.L["Feet"]) --Enchant Boots - Icewalker
+LBIS:AddEnchant(spec1, "60763", LBIS.L["Feet"]) --Enchant Boots - Greater Assault
+LBIS:AddEnchant(spec1, "59621", LBIS.L["Two Hand"]) --Enchant Weapon - Berserking
+LBIS:AddEnchant(spec1, "60691", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Massacre
+LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
 LBIS:AddItem(spec0, "41386", LBIS.L["Head"], "BIS") --Spiked Titansteel Hel
 LBIS:AddItem(spec0, "40578", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Shoulderplate

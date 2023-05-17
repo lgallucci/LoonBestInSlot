@@ -5,6 +5,7 @@ using System;
 using System.IO;
 using System.Security;
 using System.Windows.Controls;
+using System.Windows.Shapes;
 
 namespace AddonManager;
 public static class WowheadImporter
@@ -37,7 +38,7 @@ public static class WowheadImporter
     { "Head", "Shoulder", "Back", "Chest", "Wrist", "Hands", "Waist", "Legs", "Feet", "Neck", "Ring",
     "Trinket", "Main Hand", "Off Hand", "Main Hand/Off Hand", "Two Hand", "Ranged/Relic"};
 
-    public static bool VerifyGuide(Dictionary<int, ItemSpec> items)
+    public static bool VerifyGuide(List<ItemSpec> items)
     {
         bool verificationSucceeded = true;
         var requiredWords = new string[] { "BIS", "Alt" };
@@ -45,10 +46,10 @@ public static class WowheadImporter
 
         foreach (var item in items)
         {
-            if (!_allowedSlots.Contains(item.Value.Slot))
-                throw new VerificationException($"Item ({item.Value.Name}) created with slot ({item.Value.Slot})");
+            if (!_allowedSlots.Contains(item.Slot))
+                throw new VerificationException($"Item ({item.Name}) created with slot ({item.Slot})");
 
-            foreach (var bisSlashSplit in item.Value.BisStatus.Split("/"))
+            foreach (var bisSlashSplit in item.BisStatus.Split("/"))
             {
                 var firstWord = true;
                 foreach (var bisWord in bisSlashSplit.Split(" "))
@@ -56,13 +57,13 @@ public static class WowheadImporter
                     if (firstWord)
                     {
                         if (bisWord != null && !requiredWords.Any((w) => w == bisWord))
-                            throw new VerificationException($"Item ({item.Value.Name}) created with word ({bisWord})");
+                            throw new VerificationException($"Item ({item.Name}) created with word ({bisWord})");
                         firstWord = false;
                     }
                     else
                     {
                         if (bisWord != null && !allowableWords.Any((w) => w == bisWord))
-                            throw new VerificationException($"Item ({item.Value.Name}) created with word ({bisWord})");
+                            throw new VerificationException($"Item ({item.Name}) created with word ({bisWord})");
                     }
                 }
             }
@@ -87,8 +88,6 @@ public static class WowheadImporter
                 else
                     items = await new WowheadGuideParser().ParseWowheadGuide(classGuide);
 
-                //var oldItems = ExcludeItemsFromPhaseGuide(items, phaseNumber, className);
-
                 foreach (var item in items)
                 {
                     if (items.Count(i => i.Value.Slot == item.Value.Slot) == 1)
@@ -109,8 +108,6 @@ public static class WowheadImporter
 
                         sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
                     }
-                    //else if (!oldItems.ContainsKey(item.Value.ItemId) || oldItems[item.Value.ItemId].BisStatus.Contains("BIS") || item.Value.BisStatus.Contains("BIS"))
-                    //{
                     if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
                     {
                         itemSources.Add(item.Value.ItemId, new ItemSource
@@ -125,15 +122,14 @@ public static class WowheadImporter
                     }
 
                     sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
-                    //}
-                    //else
-                    //{
-                    //    items.Remove(item.Value.ItemId);
-                    //    sb.AppendLine($"Skipped: {item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
-                    //}
                 }
 
-                //ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName, items.Values.ToList());
+                var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
+
+                guide.Item3[phaseNumber] = items.Values.ToList();
+
+                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName,
+                    guide.Item1, guide.Item2, guide.Item3);
 
                 ItemSourceFileManager.WriteItemSources(itemSources);
             }
@@ -146,7 +142,7 @@ public static class WowheadImporter
         {
             throw new ParseException(ex.ToString(), ex);
         }
-        VerifyGuide(items);
+        VerifyGuide(items.Values.ToList());
         return sb.ToString();
     }
 
@@ -319,28 +315,6 @@ public static class WowheadImporter
                 });
             }
         }
-    }
-
-    private static Dictionary<int, ItemSpec> ExcludeItemsFromPhaseGuide(Dictionary<int, ItemSpec> items, int phaseNumber, string specName)
-    {
-        var oldPhaseNumber = phaseNumber - 1;
-
-        Dictionary<int, ItemSpec> oldItems = new Dictionary<int, ItemSpec>();
-        if (oldPhaseNumber >= 0)
-        {
-            for (int i = 0; i <= oldPhaseNumber; i++)
-            {
-                var phaseItems = ItemSpecFileManager.ReadPhaseFromFile(Constants.AddonPath + $@"\Guides\Phase{i}\{specName.Replace(" ", "")}.lua");
-
-                foreach (var item in phaseItems)
-                    if (!oldItems.ContainsKey(item.Key))
-                        oldItems.Add(item.Key, item.Value);
-                    else
-                        oldItems[item.Key].BisStatus = item.Value.BisStatus;
-            }
-        }
-
-        return oldItems;
     }
 
     private static string? AddLocalizeText(string source)

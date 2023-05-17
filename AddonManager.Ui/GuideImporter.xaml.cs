@@ -140,9 +140,9 @@ public sealed partial class GuideImporter : Page
                 var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}"
                     && gm.Phase == phaseString);
 
-                var items = ItemSpecFileManager.ReadPhaseFromFile(Constants.AddonPath + $@"\Guides\Phase{phaseString.Replace("Phase", "")}\{specMapping.ClassName.Replace(" ", "")}{specMapping.SpecName.Replace(" ", "")}.lua");
+                var items = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{specMapping.ClassName.Replace(" ", "")}{specMapping.SpecName.Replace(" ", "")}.lua").Item3;
 
-                WowheadImporter.VerifyGuide(items);
+                WowheadImporter.VerifyGuide(items[Int32.Parse(phaseString.Replace("Phase", ""))]);
 
                 ConsoleOut.Text += $"{spec} Completed! - Verification Passed!" + Environment.NewLine;
             }
@@ -181,42 +181,8 @@ public sealed partial class GuideImporter : Page
 
     private void Refresh_All_Click(object sender, RoutedEventArgs e)
     {
-        //int phaseNumber = 3;
-        //RefreshAllItemSources(phaseNumber);
-
-        ConvertToCombinedGuides();
-    }
-
-    private void ConvertToCombinedGuides()
-    {
-        Tuple<string, string>[] specList = { new Tuple<string, string>("DeathKnight", "Blood"), new Tuple<string, string>("DeathKnight", "Frost"), 
-            new Tuple<string, string>("DeathKnight", "Unholy"), new Tuple<string, string>("Druid", "Balance"), new Tuple<string, string>("Druid", "Bear"),
-            new Tuple<string, string>("Druid", "Cat"), new Tuple<string, string>("Druid", "Restoration"), new Tuple<string, string>("Hunter", "BeastMastery"), 
-            new Tuple<string, string>("Hunter", "Marksmanship"), new Tuple<string, string>("Hunter", "Survival"), new Tuple<string, string>("Mage", "Arcane"),
-            new Tuple<string, string>("Mage", "Frost"), new Tuple<string, string>("Mage", "Fire"), new Tuple<string, string>("Paladin", "Holy"),
-            new Tuple<string, string>("Paladin", "Protection"), new Tuple<string, string>("Paladin", "Retribution"), new Tuple<string, string>("Priest", "Holy"),
-            new Tuple<string, string>("Priest", "Discipline"), new Tuple<string, string>("Priest", "Shadow"), new Tuple<string, string>("Rogue", "Assassination"),
-            new Tuple<string, string>("Rogue", "Subtlety"), new Tuple<string, string>("Rogue", "Combat"), new Tuple<string, string>("Shaman", "Elemental"),
-            new Tuple<string, string>("Shaman", "Enhancement"), new Tuple<string, string>("Shaman", "Restoration"), new Tuple<string, string>("Warlock", "Affliction"),
-            new Tuple<string, string>("Warlock", "Demonology"), new Tuple<string, string>("Warlock", "Destruction"), new Tuple<string, string>("Warrior", "Arms"),
-            new Tuple<string, string>("Warrior", "Fury"), new Tuple<string, string>("Warrior", "Protection") };
-
-        foreach(var spec in specList)
-        {
-            List<Tuple<int, List<ItemSpec>>> itemsList = new List<Tuple<int, List<ItemSpec>>>();
-
-            var gemsEnchants = ItemSpecFileManager.ReadGemEnchants(Constants.AddonPath + $@"\Guides\GemsAndEnchants\{spec.Item1}{spec.Item2}.lua");
-
-            for (var phase = 0; phase < 4; phase++)
-            {
-                var items = ItemSpecFileManager.ReadPhaseFromFile(Constants.AddonPath + $@"\Guides\Phase{phase}\{spec.Item1}{spec.Item2}.lua");
-
-                itemsList.Add(new Tuple<int, List<ItemSpec>>(phase, items.Values.ToList()));
-            }
-
-            ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{spec.Item1}{spec.Item2}.lua", spec.Item1, spec.Item2, 
-                gemsEnchants.Item1, gemsEnchants.Item2, itemsList);
-        }
+        int phaseNumber = 3;
+        RefreshAllItemSources(phaseNumber);
     }
 
     private void RefreshAllItemSources(int phaseNumber)
