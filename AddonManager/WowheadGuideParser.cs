@@ -87,7 +87,7 @@ public class WowheadGuideParser
         { 55389, 41285 }, //Chaotic Skyflare Diamond
     };
 
-    private Dictionary<string, string> _tankAltTextSwaps = new Dictionary<string, string>()
+    private Dictionary<string, string> _altModifierTextSwaps = new Dictionary<string, string>()
     {
         { "stam", "Stam" },
         { "mitigation", "Mit" },
@@ -96,7 +96,28 @@ public class WowheadGuideParser
         { "dodge", "Mit" },
         { "parry", "Mit" },
         { "mit", "Mit" },
-        { "threat", "Thrt" }
+        { "threat", "Thrt" },
+        { "ffb", "FFB" }
+    };
+    private List<string> _bisTextSwaps = new()
+    {
+        "bis",
+        "recommended",
+        "recommended",
+        "best in slot", 
+        "best"
+    };
+    private List<string> _altTextSwaps = new() 
+    { 
+        "prebis", 
+        "tbc", 
+        "pre-raid", 
+        "pre-bis", 
+        "phase 1", 
+        "p1",
+        "alt", 
+        "10-man", 
+        "10 man" 
     };
 
     private class SlotSwaps
@@ -134,8 +155,6 @@ public class WowheadGuideParser
             }
         }
     }
-
-
 
     class MyFormatter : IMarkupFormatter
     {
@@ -265,18 +284,18 @@ public class WowheadGuideParser
         }
         else
         {
-            if (new List<string> { "prebis", "tbc", "pre-raid", "pre-bis", "phase 1", "p1", "alt", "10-man", "10 man" }.Any(s => htmlBisText?.ToLower().Contains(s) ?? false))
+            if (_altTextSwaps.Any(s => htmlBisText?.ToLower().Contains(s) ?? false))
             {
                 bisText = "Alt";
             }
             else
             {
-                bisText = new List<string> { "bis", "recommended", "best in slot", "best" }.Any(s => htmlBisText?.ToLower().Contains(s) ?? false) ? "BIS" : "Alt";
+                bisText = _bisTextSwaps.Any(s => htmlBisText?.ToLower().Contains(s) ?? false) ? "BIS" : "Alt";
             }
         }
 
         var altText = string.Empty;
-        foreach (var tankSwap in _tankAltTextSwaps)
+        foreach (var tankSwap in _altModifierTextSwaps)
             if ((!htmlBisText?.ToLower().Contains("no") ?? false) &&
                 (htmlBisText?.ToLower().Contains(tankSwap.Key) ?? false))
             {

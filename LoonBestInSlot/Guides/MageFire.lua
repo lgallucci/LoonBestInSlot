@@ -104,13 +104,13 @@ LBIS:AddItem(spec1, "39712", LBIS.L["Ranged/Relic"], "BIS") --Gemmed Wand of the
 LBIS:AddItem(spec1, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlich
 
 LBIS:AddItem(spec2, "46129", LBIS.L["Head"], "BIS") --Conqueror's Kirin Tor Hood
-LBIS:AddItem(spec2, "45497", LBIS.L["Head"], "BIS") --Crown of Luminescence
+LBIS:AddItem(spec2, "45497", LBIS.L["Head"], "BIS FFB") --Crown of Luminescence
 LBIS:AddItem(spec2, "45365", LBIS.L["Head"], "Alt") --Valorous Kirin Tor Hood
 LBIS:AddItem(spec2, "46134", LBIS.L["Shoulder"], "BIS") --Conqueror's Kirin Tor Shoulderpads
 LBIS:AddItem(spec2, "45369", LBIS.L["Shoulder"], "Alt") --Valorous Kirin Tor Shoulderpads
 LBIS:AddItem(spec2, "40419", LBIS.L["Shoulder"], "Alt") --Valorous Frostfire Shoulderpads
 LBIS:AddItem(spec2, "45242", LBIS.L["Back"], "BIS") --Drape of Mortal Downfall
-LBIS:AddItem(spec2, "45618", LBIS.L["Back"], "BIS") --Sunglimmer Cloak
+LBIS:AddItem(spec2, "45618", LBIS.L["Back"], "BIS FFB") --Sunglimmer Cloak
 LBIS:AddItem(spec2, "46321", LBIS.L["Back"], "Alt") --Sunglimmer Drape
 LBIS:AddItem(spec2, "46042", LBIS.L["Back"], "Alt") --Drape of the Messenger
 LBIS:AddItem(spec2, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
@@ -128,7 +128,7 @@ LBIS:AddItem(spec2, "45619", LBIS.L["Waist"], "BIS") --Starwatcher's Binding
 LBIS:AddItem(spec2, "45557", LBIS.L["Waist"], "Alt") --Sash of Ancient Power
 LBIS:AddItem(spec2, "45558", LBIS.L["Waist"], "Alt") --Cord of the White Dawn
 LBIS:AddItem(spec2, "46133", LBIS.L["Legs"], "BIS") --Conqueror's Kirin Tor Leggings
-LBIS:AddItem(spec2, "45488", LBIS.L["Legs"], "BIS") --Leggings of the Enslaved Idol
+LBIS:AddItem(spec2, "45488", LBIS.L["Legs"], "BIS FFB") --Leggings of the Enslaved Idol
 LBIS:AddItem(spec2, "45367", LBIS.L["Legs"], "Alt") --Valorous Kirin Tor Leggings
 LBIS:AddItem(spec2, "40417", LBIS.L["Legs"], "Alt") --Valorous Frostfire Leggings
 LBIS:AddItem(spec2, "39493", LBIS.L["Legs"], "Alt") --Heroes' Frostfire Leggings

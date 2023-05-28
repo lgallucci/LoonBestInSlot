@@ -108,9 +108,7 @@ public class ProfessionImporter : LootImporter
     internal override string FileName { get => "ProfessionItemList"; }
     internal override Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
     {
-        var obj = JsonConvert.DeserializeObject<dynamic>(jsonText);
-
-        return default;
+        throw new NotImplementedException();
     }
 }
 
@@ -281,23 +279,23 @@ public class RaidImporter : LootImporter
     private class RaidItem
     {
         [Index(0)]
-        public string InstanceName { get; set; }
+        public string? InstanceName { get; set; }
 
         [Index(1)]
-        public string BossName { get; set; }
+        public string? BossName { get; set; }
 
         [Index(2)]
-        public string ItemName { get; set; }
+        public string? ItemName { get; set; }
 
         [Index(3)]
-        public string ItemQuality { get; set; }
+        public string? ItemQuality { get; set; }
 
         [Index(4)]
         public int ItemId { get; set; }
     }
 
     internal override string FileName { get => "RaidItemList"; }
-    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
+    internal override Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
     {
         var raidModifiers = new Dictionary<string, string> { { "H10", "Heroic 10" }, { "H25", "Heroic 25" }, { "N10", "10" }, { "N25", "10" } };
 
@@ -313,7 +311,7 @@ public class RaidImporter : LootImporter
                     var raidNameSplit = record.InstanceName.Split(" ");
                     var raidModifier = raidNameSplit[raidNameSplit.Length - 1].Trim('\"');
 
-                    items.Items.TryAdd(record.ItemId, new DatabaseItem
+                    _ = items.Items.TryAdd(record.ItemId, new DatabaseItem
                     {
                         Name = record.ItemName,
                         SourceNumber = "0",
@@ -328,7 +326,7 @@ public class RaidImporter : LootImporter
             }
         }
 
-        return items;
+        return Task.FromResult(items);
     }
 }
 
