@@ -102,6 +102,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Ethereum Nullifier"] = "에테리움 종결자";
   LBIS.L["Exalted"] = "확고한 동맹";
   LBIS.L["Eye of the Storm Marks"] = "폭풍의 눈 명예 훈장";
+  LBIS.L["Faction Champions"] = "진영 대표 용사";
   LBIS.L["Fedryen Swiftspear"] = "페드리엔 스위프트스피어 <세나리온 원정대 병참장교>";
   LBIS.L["Feet"] = "발";
 --  LBIS.L["Final Boss"] = "";
@@ -203,6 +204,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Loken"] = "로켄";
   LBIS.L["Loon Best In Slot"] = "BIS 아이템";
   LBIS.L["Loon Best In Slot Browser"] = "BIS 아이템 목록";
+  LBIS.L["Lord Jaraxxus"] = "군주 자락서스";
   LBIS.L["Madame Ruby"] = "귀부인 루비 <마법부여용품 상인>";
   LBIS.L["Maexxna"] = "맥스나";
   LBIS.L["Mage-Lord Urom"] = "마법사 군주 우롬";
@@ -235,6 +237,9 @@ if GetLocale() == "koKR" then
   LBIS.L["Novos the Summoner"] = "소환사 노보스";
   LBIS.L["Off Hand"] = "보조장비";
   LBIS.L["One of a Kind"] = "증거를 찾아라";
+  LBIS.L["Onyxia"] = "오닉시아";
+  LBIS.L["Onyxia (10)"] = "오닉시아 (10)";
+  LBIS.L["Onyxia (25)"] = "오닉시아 (25)";
   LBIS.L["Onyxia's Lair (10)"] = "오닉시아의 둥지 (10인)";
   LBIS.L["Onyxia's Lair (25)"] = "오닉시아의 둥지 (25인)";
   LBIS.L["Open Browser Window"] = "창 열기";
@@ -298,6 +303,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Admiral Revealed"] = "총사령관과 결판 내기";
   LBIS.L["The Air Stands Still"] = "오늘만큼은 평화";
   LBIS.L["The Aldor (Exalted)"] = "알도르 사제회 (확고한 동맹)";
+  LBIS.L["The Beasts of Northrend"] = "노스렌드의 야수";
   LBIS.L["The Champion of Anguish"] = "고뇌의 용사 탄생";
   LBIS.L["The Cleansing Of Jintha'kalar'"] = "진타칼라르 정화";
   LBIS.L["The Crusaders' Pinnacle"] = "십자군 봉우리";
@@ -338,6 +344,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Storm Peaks"] = "폭풍우 봉우리";
   LBIS.L["The Struggle Persists"] = "계속되는 싸움";
   LBIS.L["The Tribunal of Ages"] = "시대의 심판장";
+  LBIS.L["The Twin Val'kyr"] = "발키르 쌍둥이";
   LBIS.L["The Violet Hold (Heroic)"] = "보랏빛 요새 (영웅)";
   LBIS.L["The Violet Hold (Heroic+)"] = "보랏빛 요새 (영웅+)";
   LBIS.L["The Violet Hold (Normal)"] = "보랏빛 요새 (일반)";
@@ -351,11 +358,15 @@ if GetLocale() == "koKR" then
   LBIS.L["Tiny Titanium Lockbox"] = "작은 티타늄 금고";
   LBIS.L["Tirion's Gambit"] = "티리온의 계략";
   LBIS.L["Token"] = "토큰";
+  LBIS.L["Tokens"] = "화폐";
   LBIS.L["Transmute"] = "변환식";
   LBIS.L["Trash Drop"] = "일반 드롭";
   LBIS.L["Trash Mobs"] = "일반몹";
   LBIS.L["Trial of the Crusader (10)"] = "십자군의 시험장 (10인)";
   LBIS.L["Trial of the Crusader (25)"] = "십자군의 시험장 (25인)";
+--  LBIS.L["Trial of the Grand Crusader (10)"] = " (10)";
+--  LBIS.L["Trial of the Grand Crusader (25)"] = " (25)";
+--  LBIS.L["Tribute Run"] = "";
   LBIS.L["Trinket"] = "장신구";
   LBIS.L["Trollgore"] = "송곳아귀";
   LBIS.L["Two Hand"] = "양손";

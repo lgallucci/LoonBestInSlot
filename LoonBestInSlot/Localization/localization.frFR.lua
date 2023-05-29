@@ -102,6 +102,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Ethereum Nullifier"] = "";
   LBIS.L["Exalted"] = "Exalté";
 --  LBIS.L["Eye of the Storm Marks"] = "";
+  LBIS.L["Faction Champions"] = "Champions de faction";
 --  LBIS.L["Fedryen Swiftspear"] = "";
   LBIS.L["Feet"] = "Pieds";
 --  LBIS.L["Final Boss"] = "";
@@ -203,6 +204,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Loken"] = "Loken";
   LBIS.L["Loon Best In Slot"] = "Huard Meilleur dans la Fente";
   LBIS.L["Loon Best In Slot Browser"] = "Huard Meilleur dans le Navigateur de Machines à Sous";
+  LBIS.L["Lord Jaraxxus"] = "Seigneur Jaraxxus";
 --  LBIS.L["Madame Ruby"] = "";
   LBIS.L["Maexxna"] = "Maexxna";
   LBIS.L["Mage-Lord Urom"] = "Seigneur-mage Urom";
@@ -235,6 +237,9 @@ if GetLocale() == "frFR" then
   LBIS.L["Novos the Summoner"] = "Novos l'Invocateur";
   LBIS.L["Off Hand"] = "Main gauche";
   LBIS.L["One of a Kind"] = "Un spécimen unique";
+  LBIS.L["Onyxia"] = "Onyxia";
+  LBIS.L["Onyxia (10)"] = "Onyxia (10)";
+  LBIS.L["Onyxia (25)"] = "Onyxia (25)";
   LBIS.L["Onyxia's Lair (10)"] = "Repaire d’Onyxia (10)";
   LBIS.L["Onyxia's Lair (25)"] = "Repaire d’Onyxia (25)";
 --  LBIS.L["Open Browser Window"] = "";
@@ -298,6 +303,7 @@ if GetLocale() == "frFR" then
   LBIS.L["The Admiral Revealed"] = "L'amiral à découvert";
   LBIS.L["The Air Stands Still"] = "L'air est immobile";
   LBIS.L["The Aldor (Exalted)"] = "L'Aldor (Exalté)";
+  LBIS.L["The Beasts of Northrend"] = "Les bêtes du Norfendre";
   LBIS.L["The Champion of Anguish"] = "Le Champion de l'Angoisse";
 --  LBIS.L["The Cleansing Of Jintha'kalar'"] = "";
   LBIS.L["The Crusaders' Pinnacle"] = "La cime des Croisés";
@@ -338,6 +344,7 @@ if GetLocale() == "frFR" then
   LBIS.L["The Storm Peaks"] = "Les pics Foudroyés";
   LBIS.L["The Struggle Persists"] = "La lutte continue";
   LBIS.L["The Tribunal of Ages"] = "Le tribunal des Âges";
+  LBIS.L["The Twin Val'kyr"] = "Les jumelles val'kyr";
   LBIS.L["The Violet Hold (Heroic)"] = "Le fort Pourpre (Héroïque)";
   LBIS.L["The Violet Hold (Heroic+)"] = "Le fort Pourpre (Héroïque+)";
   LBIS.L["The Violet Hold (Normal)"] = "Le fort Pourpre (Normal)";
@@ -351,11 +358,15 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
 --  LBIS.L["Token"] = "";
+  LBIS.L["Tokens"] = "Jetons";
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
   LBIS.L["Trash Mobs"] = "Ennemis communs";
   LBIS.L["Trial of the Crusader (10)"] = "L’épreuve du croisé (10)";
   LBIS.L["Trial of the Crusader (25)"] = "L’épreuve du croisé (25)";
+--  LBIS.L["Trial of the Grand Crusader (10)"] = " (10)";
+--  LBIS.L["Trial of the Grand Crusader (25)"] = " (25)";
+--  LBIS.L["Tribute Run"] = "";
   LBIS.L["Trinket"] = "Bijou";
   LBIS.L["Trollgore"] = "Trollétripe";
   LBIS.L["Two Hand"] = "Deux mains";

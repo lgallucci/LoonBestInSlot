@@ -62,8 +62,6 @@ public class ClassGuideMapping
     };
 }
 
-
-
 public class GuideMapping
 {
     public string SlotHtmlId { get; set; } = string.Empty;

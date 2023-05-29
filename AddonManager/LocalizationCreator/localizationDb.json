@@ -338,7 +338,14 @@
       "The Oculus (Heroic+)": "El Oculus (Heroico+)",
       "The Violet Hold (Heroic+)": "El Bastión Violeta (Heroico+)",
       "Utgarde Keep (Heroic+)": "Fortaleza de Utgarde (Heroico+)",
-      "Utgarde Pinnacle (Heroic+)": "Pináculo de Utgarde (Heroico+)"
+      "Utgarde Pinnacle (Heroic+)": "Pináculo de Utgarde (Heroico+)",
+      "Faction Champions": "Campeones de la facción",
+      "Lord Jaraxxus": "Lord Jaraxxus",
+      "Onyxia": "Onyxia",
+      "Onyxia (10)": "Onyxia (10)",
+      "Onyxia (25)": "Onyxia (25)",
+      "The Beasts of Northrend": "Las bestias de Rasganorte",
+      "The Twin Val'kyr": "Gemelas Val'kyr"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -651,7 +658,14 @@
       "The Oculus (Heroic+)": "El Oculus (Heroico+)",
       "The Violet Hold (Heroic+)": "El Bastión Violeta (Heroico+)",
       "Utgarde Keep (Heroic+)": "Fortaleza de Utgarde (Heroico+)",
-      "Utgarde Pinnacle (Heroic+)": "Pináculo de Utgarde (Heroico+)"
+      "Utgarde Pinnacle (Heroic+)": "Pináculo de Utgarde (Heroico+)",
+      "Faction Champions": "Campeones de Facción",
+      "Lord Jaraxxus": "Lord Jaraxxus",
+      "Onyxia": "Onyxia",
+      "Onyxia (10)": "Onyxia (10)",
+      "Onyxia (25)": "Onyxia (25)",
+      "The Beasts of Northrend": "Las bestias de Rasganorte ",
+      "The Twin Val'kyr": "las Gemelas Val'kyr"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -1043,7 +1057,14 @@
       "The Iron Council (Hard)": "Versammlung des Eisens (Schwierig)",
       "Thorim (Hard)": "Thorim (Schwierig)",
       "XT-002 Deconstructor (Hard)": "XT-002 Dekonstruktor (Schwierig)",
-      "Yogg-Saron (Hard)": "Yogg-Saron (Schwierig)"
+      "Yogg-Saron (Hard)": "Yogg-Saron (Schwierig)",
+      "Faction Champions": "Fraktionschampions",
+      "Lord Jaraxxus": "Lord Jaraxxus",
+      "Onyxia": "Onyxia",
+      "Onyxia (10)": "Onyxia (10)",
+      "Onyxia (25)": "Onyxia (25)",
+      "The Beasts of Northrend": "Bestien von Nordend",
+      "The Twin Val'kyr": "Zwillingsval'kyr"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -1358,7 +1379,14 @@
       "The Oculus (Heroic+)": "L’Oculus (Héroïque+)",
       "The Violet Hold (Heroic+)": "Le fort Pourpre (Héroïque+)",
       "Utgarde Keep (Heroic+)": "Donjon d’Utgarde (Héroïque+)",
-      "Utgarde Pinnacle (Heroic+)": "Cime d’Utgarde (Héroïque+)"
+      "Utgarde Pinnacle (Heroic+)": "Cime d’Utgarde (Héroïque+)",
+      "Faction Champions": "Champions de faction",
+      "Lord Jaraxxus": "Seigneur Jaraxxus",
+      "Onyxia": "Onyxia",
+      "Onyxia (10)": "Onyxia (10)",
+      "Onyxia (25)": "Onyxia (25)",
+      "The Beasts of Northrend": "Les bêtes du Norfendre",
+      "The Twin Val'kyr": "Les jumelles val'kyr"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -1670,7 +1698,14 @@
       "The Oculus (Heroic+)": "Окулус (Героический+)",
       "The Violet Hold (Heroic+)": "Аметистовая крепость (Героический+)",
       "Utgarde Keep (Heroic+)": "Крепость Утгард (Героический+)",
-      "Utgarde Pinnacle (Heroic+)": "Вершина Утгард (Героический+)"
+      "Utgarde Pinnacle (Heroic+)": "Вершина Утгард (Героический+)",
+      "Faction Champions": "Чемпионы фракций",
+      "Lord Jaraxxus": "Лорд Джараксус",
+      "Onyxia": "Ониксия",
+      "Onyxia (10)": "Ониксия (10)",
+      "Onyxia (25)": "Ониксия (25)",
+      "The Beasts of Northrend": "Чудовища Нордскола",
+      "The Twin Val'kyr": "Валь'киры-близнецы"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -1982,7 +2017,14 @@
       "The Oculus (Heroic+)": "魔环 (英雄+)",
       "The Violet Hold (Heroic+)": "紫罗兰监狱 (英雄+)",
       "Utgarde Keep (Heroic+)": "乌特加德城堡 (英雄+)",
-      "Utgarde Pinnacle (Heroic+)": "乌特加德之巅 (英雄+)"
+      "Utgarde Pinnacle (Heroic+)": "乌特加德之巅 (英雄+)",
+      "Faction Champions": "阵营冠军",
+      "Lord Jaraxxus": "加拉克苏斯大王",
+      "Onyxia": "奥妮克希亚",
+      "Onyxia (10)": "奥妮克希亚 (10)",
+      "Onyxia (25)": "奥妮克希亚 (25)",
+      "The Beasts of Northrend": "诺森德猛兽",
+      "The Twin Val'kyr": "瓦格里双子"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -2408,7 +2450,14 @@
       "The Oculus (Heroic+)": "마력의 눈 (영웅+)",
       "The Violet Hold (Heroic+)": "보랏빛 요새 (영웅+)",
       "Utgarde Keep (Heroic+)": "우트가드 성채 (영웅+)",
-      "Utgarde Pinnacle (Heroic+)": "우트가드 첨탑 (영웅+)"
+      "Utgarde Pinnacle (Heroic+)": "우트가드 첨탑 (영웅+)",
+      "Faction Champions": "진영 대표 용사",
+      "Lord Jaraxxus": "군주 자락서스",
+      "Onyxia": "오닉시아",
+      "Onyxia (10)": "오닉시아 (10)",
+      "Onyxia (25)": "오닉시아 (25)",
+      "The Beasts of Northrend": "노스렌드의 야수",
+      "The Twin Val'kyr": "발키르 쌍둥이"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -2719,7 +2768,14 @@
       "The Oculus (Heroic+)": "奧核之眼 (英雄+)",
       "The Violet Hold (Heroic+)": "紫羅蘭堡 (英雄+)",
       "Utgarde Keep (Heroic+)": "俄特加德要塞 (英雄+)",
-      "Utgarde Pinnacle (Heroic+)": "俄特加德之巔 (英雄+)"
+      "Utgarde Pinnacle (Heroic+)": "俄特加德之巔 (英雄+)",
+      "Faction Champions": "陣營勇士",
+      "Lord Jaraxxus": "賈拉克瑟斯領主",
+      "Onyxia": "奧妮克希亞",
+      "Onyxia (10)": "奧妮克希亞 (10)",
+      "Onyxia (25)": "奧妮克希亞 (25)",
+      "The Beasts of Northrend": "北裂境巨獸",
+      "The Twin Val'kyr": "華爾琪雙子"
     }
   }
 }

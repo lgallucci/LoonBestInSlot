@@ -102,6 +102,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Ethereum Nullifier"] = "Auslöscher des Astraleums";
   LBIS.L["Exalted"] = "Ehrfürchtig";
   LBIS.L["Eye of the Storm Marks"] = "Auge der Sturmzeichen";
+  LBIS.L["Faction Champions"] = "Fraktionschampions";
   LBIS.L["Fedryen Swiftspear"] = "Fedryen Flinkspeer";
   LBIS.L["Feet"] = "Füße";
 --  LBIS.L["Final Boss"] = "";
@@ -203,6 +204,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Loken"] = "Loken";
   LBIS.L["Loon Best In Slot"] = "Loon Best in Slot";
   LBIS.L["Loon Best In Slot Browser"] = "Loon Best in Slot Browser";
+  LBIS.L["Lord Jaraxxus"] = "Lord Jaraxxus";
 --  LBIS.L["Madame Ruby"] = "";
   LBIS.L["Maexxna"] = "Maexxna";
   LBIS.L["Mage-Lord Urom"] = "Magierlord Urom";
@@ -235,6 +237,9 @@ if GetLocale() == "deDE" then
   LBIS.L["Novos the Summoner"] = "Novos der Beschwörer";
   LBIS.L["Off Hand"] = "Schildhand";
   LBIS.L["One of a Kind"] = "Einzigartig";
+  LBIS.L["Onyxia"] = "Onyxia";
+  LBIS.L["Onyxia (10)"] = "Onyxia (10)";
+  LBIS.L["Onyxia (25)"] = "Onyxia (25)";
   LBIS.L["Onyxia's Lair (10)"] = "Onyxias Hort (10)";
   LBIS.L["Onyxia's Lair (25)"] = "Onyxias Hort (25)";
   LBIS.L["Open Browser Window"] = "Browserfenster öffnen";
@@ -298,6 +303,7 @@ if GetLocale() == "deDE" then
   LBIS.L["The Admiral Revealed"] = "Den Admiral aufgespürt";
   LBIS.L["The Air Stands Still"] = "Die Luft steht still";
   LBIS.L["The Aldor (Exalted)"] = "Die Aldor (Ehrfürchtig)";
+  LBIS.L["The Beasts of Northrend"] = "Bestien von Nordend";
   LBIS.L["The Champion of Anguish"] = "Der Champion der Agonie";
 --  LBIS.L["The Cleansing Of Jintha'kalar'"] = "";
   LBIS.L["The Crusaders' Pinnacle"] = "Der Kreuzfahrerturm";
@@ -338,6 +344,7 @@ if GetLocale() == "deDE" then
   LBIS.L["The Storm Peaks"] = "Die Sturmgipfel";
   LBIS.L["The Struggle Persists"] = "Der Kampf geht weiter";
   LBIS.L["The Tribunal of Ages"] = "Das Tribunal der Zeitalter";
+  LBIS.L["The Twin Val'kyr"] = "Zwillingsval'kyr";
   LBIS.L["The Violet Hold (Heroic)"] = "Die Violette Festung (Heroisch)";
   LBIS.L["The Violet Hold (Heroic+)"] = "Die Violette Festung (Heroisch+)";
   LBIS.L["The Violet Hold (Normal)"] = "Die Violette Festung (Normal)";
@@ -351,11 +358,15 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
   LBIS.L["Token"] = "Token";
+  LBIS.L["Tokens"] = "Abz.";
   LBIS.L["Transmute"] = "Transmutieren";
   LBIS.L["Trash Drop"] = "Trash Drop";
   LBIS.L["Trash Mobs"] = "Trash Mobs";
   LBIS.L["Trial of the Crusader (10)"] = "Prüfung des Kreuzfahrers (10)";
   LBIS.L["Trial of the Crusader (25)"] = "Prüfung des Kreuzfahrers (25)";
+--  LBIS.L["Trial of the Grand Crusader (10)"] = " (10)";
+--  LBIS.L["Trial of the Grand Crusader (25)"] = " (25)";
+--  LBIS.L["Tribute Run"] = "";
   LBIS.L["Trinket"] = "Schmuck";
   LBIS.L["Trollgore"] = "Trollgrind";
   LBIS.L["Two Hand"] = "Zweihändig";

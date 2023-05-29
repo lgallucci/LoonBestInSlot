@@ -102,6 +102,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Ethereum Nullifier"] = "";
   LBIS.L["Exalted"] = "崇拜";
 --  LBIS.L["Eye of the Storm Marks"] = "";
+  LBIS.L["Faction Champions"] = "阵营冠军";
 --  LBIS.L["Fedryen Swiftspear"] = "";
   LBIS.L["Feet"] = "脚";
 --  LBIS.L["Final Boss"] = "";
@@ -203,6 +204,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Loken"] = "洛肯";
 --  LBIS.L["Loon Best In Slot"] = "";
 --  LBIS.L["Loon Best In Slot Browser"] = "";
+  LBIS.L["Lord Jaraxxus"] = "加拉克苏斯大王";
 --  LBIS.L["Madame Ruby"] = "";
   LBIS.L["Maexxna"] = "迈克斯纳";
   LBIS.L["Mage-Lord Urom"] = "法师领主伊洛姆";
@@ -235,6 +237,9 @@ if GetLocale() == "zhCN" then
   LBIS.L["Novos the Summoner"] = "召唤者诺沃斯";
   LBIS.L["Off Hand"] = "副手";
   LBIS.L["One of a Kind"] = "集结的信号";
+  LBIS.L["Onyxia"] = "奥妮克希亚";
+  LBIS.L["Onyxia (10)"] = "奥妮克希亚 (10)";
+  LBIS.L["Onyxia (25)"] = "奥妮克希亚 (25)";
   LBIS.L["Onyxia's Lair (10)"] = "奥妮克希亚的巢穴 (10)";
   LBIS.L["Onyxia's Lair (25)"] = "奥妮克希亚的巢穴 (25)";
 --  LBIS.L["Open Browser Window"] = "";
@@ -298,6 +303,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["The Admiral Revealed"] = "元帅的下落";
   LBIS.L["The Air Stands Still"] = "凝固的空气";
   LBIS.L["The Aldor (Exalted)"] = "奥尔多 (崇拜)";
+  LBIS.L["The Beasts of Northrend"] = "诺森德猛兽";
   LBIS.L["The Champion of Anguish"] = "痛苦斗兽场的冠军";
 --  LBIS.L["The Cleansing Of Jintha'kalar'"] = "";
   LBIS.L["The Crusaders' Pinnacle"] = "北伐军之峰";
@@ -338,6 +344,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["The Storm Peaks"] = "风暴峭壁";
   LBIS.L["The Struggle Persists"] = "战斗仍在继续";
   LBIS.L["The Tribunal of Ages"] = "远古法庭";
+  LBIS.L["The Twin Val'kyr"] = "瓦格里双子";
   LBIS.L["The Violet Hold (Heroic)"] = "紫罗兰监狱 (英雄)";
   LBIS.L["The Violet Hold (Heroic+)"] = "紫罗兰监狱 (英雄+)";
   LBIS.L["The Violet Hold (Normal)"] = "紫罗兰监狱 (一般)";
@@ -351,11 +358,15 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
 --  LBIS.L["Token"] = "";
+  LBIS.L["Tokens"] = "货币";
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
   LBIS.L["Trash Mobs"] = "小怪";
   LBIS.L["Trial of the Crusader (10)"] = "十字军的试炼 (10)";
   LBIS.L["Trial of the Crusader (25)"] = "十字军的试炼 (25)";
+--  LBIS.L["Trial of the Grand Crusader (10)"] = " (10)";
+--  LBIS.L["Trial of the Grand Crusader (25)"] = " (25)";
+--  LBIS.L["Tribute Run"] = "";
   LBIS.L["Trinket"] = "饰品";
   LBIS.L["Trollgore"] = "托尔戈";
   LBIS.L["Two Hand"] = "双手";

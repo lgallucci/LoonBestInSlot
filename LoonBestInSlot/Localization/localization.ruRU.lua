@@ -102,6 +102,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Ethereum Nullifier"] = "";
   LBIS.L["Exalted"] = "Превознесение";
 --  LBIS.L["Eye of the Storm Marks"] = "";
+  LBIS.L["Faction Champions"] = "Чемпионы фракций";
 --  LBIS.L["Fedryen Swiftspear"] = "";
   LBIS.L["Feet"] = "Ступни";
 --  LBIS.L["Final Boss"] = "";
@@ -203,6 +204,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Loken"] = "Локен";
 --  LBIS.L["Loon Best In Slot"] = "";
 --  LBIS.L["Loon Best In Slot Browser"] = "";
+  LBIS.L["Lord Jaraxxus"] = "Лорд Джараксус";
 --  LBIS.L["Madame Ruby"] = "";
   LBIS.L["Maexxna"] = "Мексна";
   LBIS.L["Mage-Lord Urom"] = "Маг-лорд Уром";
@@ -235,6 +237,9 @@ if GetLocale() == "ruRU" then
   LBIS.L["Novos the Summoner"] = "Новос Призыватель";
   LBIS.L["Off Hand"] = "Левая рука";
   LBIS.L["One of a Kind"] = "Единственный в своем роде";
+  LBIS.L["Onyxia"] = "Ониксия";
+  LBIS.L["Onyxia (10)"] = "Ониксия (10)";
+  LBIS.L["Onyxia (25)"] = "Ониксия (25)";
   LBIS.L["Onyxia's Lair (10)"] = "Логово Ониксии (10)";
   LBIS.L["Onyxia's Lair (25)"] = "Логово Ониксии (25)";
 --  LBIS.L["Open Browser Window"] = "";
@@ -298,6 +303,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Admiral Revealed"] = "Поиски адмирала";
   LBIS.L["The Air Stands Still"] = "Чистое небо";
   LBIS.L["The Aldor (Exalted)"] = "Алдоры (Превознесение)";
+  LBIS.L["The Beasts of Northrend"] = "Чудовища Нордскола";
   LBIS.L["The Champion of Anguish"] = "Чемпион Амфитеатра Страданий";
 --  LBIS.L["The Cleansing Of Jintha'kalar'"] = "";
   LBIS.L["The Crusaders' Pinnacle"] = "Вершина Рыцарей";
@@ -338,6 +344,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Storm Peaks"] = "Грозовая гряда";
   LBIS.L["The Struggle Persists"] = "И вновь продолжается бой";
   LBIS.L["The Tribunal of Ages"] = "Трибунал Веков";
+  LBIS.L["The Twin Val'kyr"] = "Валь'киры-близнецы";
   LBIS.L["The Violet Hold (Heroic)"] = "Аметистовая крепость (Героический)";
   LBIS.L["The Violet Hold (Heroic+)"] = "Аметистовая крепость (Героический+)";
   LBIS.L["The Violet Hold (Normal)"] = "Аметистовая крепость (Обычный)";
@@ -351,11 +358,15 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
 --  LBIS.L["Token"] = "";
+  LBIS.L["Tokens"] = "Жетоны";
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
   LBIS.L["Trash Mobs"] = "Трешовые монстры";
   LBIS.L["Trial of the Crusader (10)"] = "Испытание крестоносца (10)";
   LBIS.L["Trial of the Crusader (25)"] = "Испытание крестоносца (25)";
+--  LBIS.L["Trial of the Grand Crusader (10)"] = " (10)";
+--  LBIS.L["Trial of the Grand Crusader (25)"] = " (25)";
+--  LBIS.L["Tribute Run"] = "";
   LBIS.L["Trinket"] = "Аксессуар";
   LBIS.L["Trollgore"] = "Кровотролль";
   LBIS.L["Two Hand"] = "Двуручное";

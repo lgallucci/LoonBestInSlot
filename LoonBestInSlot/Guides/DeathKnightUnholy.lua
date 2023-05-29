@@ -1,9 +1,9 @@
-local spec0 = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Unholy"], "0")
-local spec1 = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Unholy"], "1")
-local spec2 = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Unholy"], "2")
-local spec3 = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Unholy"], "3")
-local spec4 = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Unholy"], "4")
-local spec5 = LBIS:RegisterSpec(LBIS.L["DeathKnight"], LBIS.L["Unholy"], "5")
+local spec0 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Unholy"], "0")
+local spec1 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Unholy"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Unholy"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Unholy"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Unholy"], "4")
+local spec5 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Unholy"], "5")
 
 LBIS:AddGem(spec1, "41398", "3", "True") --Relentless Earthsiege Diamond
 LBIS:AddGem(spec1, "41285", "3", "True") --Chaotic Skyflare Diamond
