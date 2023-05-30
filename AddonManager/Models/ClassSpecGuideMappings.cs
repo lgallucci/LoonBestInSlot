@@ -144,6 +144,14 @@ public class ClassSpecGuideMappings
             { ("Main Hand", "h2#weapons~h4~h4") },
             { ("Ranged/Relic", "#relics-for-blood-death-knight-tanks-in-phase-2") },
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/death-knight/blood/tank-bis-gear-pve-phase-3",
+            "Blood", "Death Knight", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Two Hand", "h2#weapons~h4") },
+            { ("Main Hand", "h2#weapons~h4~h4") },
+            { ("Ranged/Relic", "#relics-for-blood-death-knight-tanks-in-phase-3") },
+        }));
         #endregion
 
         #region Frost DK
@@ -205,6 +213,14 @@ public class ClassSpecGuideMappings
             { ("Off Hand", "#off-hand-weapons-for-frost-death-knight-dps-phase-2") },
             { ("Ranged/Relic", "#sigils-for-frost-death-knight-dps-phase-2") },
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/death-knight/frost/dps-bis-gear-pve-phase-3",
+            "Frost", "Death Knight", "Phase3", new List<(string, GuideMapping)>
+{
+            { ("Main Hand", "#main-hand-weapons-for-frost-death-knight-dps-phase-3") },
+            { ("Off Hand", "#off-hand-weapons-for-frost-death-knight-dps-phase-3") },
+            { ("Ranged/Relic", "#sigils-for-frost-death-knight-dps-phase-3") },
+}));
         #endregion
 
         #region Unholy DK
@@ -265,6 +281,14 @@ public class ClassSpecGuideMappings
             { ("Main Hand", "#main-hand-weapons-for-unholy-death-knight-dps-phase-2") },
             { ("Off Hand", "#off-hand-weapons-for-unholy-death-knight-dps-phase-2") },
             { ("Ranged/Relic", "#sigils-for-unholy-death-knight-dps-phase-2") },
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/death-knight/unholy/dps-bis-gear-pve-phase-3",
+            "Unholy", "Death Knight", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-hand-weapons-for-unholy-death-knight-dps-phase-3") },
+            { ("Off Hand", "#off-hand-weapons-for-unholy-death-knight-dps-phase-3") },
+            { ("Ranged/Relic", "#sigils-for-unholy-death-knight-dps-phase-3") },
         }));
         #endregion
 
@@ -329,6 +353,15 @@ public class ClassSpecGuideMappings
             { ("Off Hand", "#off-hand-weapons-for-balance-druid-dps-phase-2") },
             { ("Ranged/Relic", "#idols-for-balance-druid-dps-phase-2") }
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/balance/dps-bis-gear-pve-phase-3",
+            "Balance", "Druid", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-hand-weapons-for-balance-druid-dps-phase-3") },
+            { ("Two Hand", "#two-handed-weapons-for-balance-druid-dps-phase-3") },
+            { ("Off Hand", "#off-hand-weapons-for-balance-druid-dps-phase-3") },
+            { ("Ranged/Relic", "#idols-for-balance-druid-dps-phase-3") }
+        }));
         #endregion
 
         #region Cat Druid
@@ -380,11 +413,11 @@ public class ClassSpecGuideMappings
             { ("Ranged/Relic", "#idols-for-feral-druid-dps-phase-1") }
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/feral/dps-bis-gear-pve-phase-2",
-            "Cat", "Druid", "Phase2", new List<(string, GuideMapping)>
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/feral/dps-bis-gear-pve-phase-3",
+            "Cat", "Druid", "Phase3", new List<(string, GuideMapping)>
         {
-            { ("Two Hand", "#weapons-for-feral-druid-dps-phase-2") },
-            { ("Ranged/Relic", "#idols-for-feral-druid-dps-phase-2") }
+            { ("Two Hand", "#weapons-for-feral-druid-dps-phase-3") },
+            { ("Ranged/Relic", "#idols-for-feral-druid-dps-phase-3") }
         }));
         #endregion
 
@@ -441,6 +474,13 @@ public class ClassSpecGuideMappings
         {
             { ("Two Hand", "#weapons-for-feral-druid-tank-phase-2") },
             { ("Ranged/Relic", "#idols-for-feral-druid-tank-phase-2") }
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/feral/tank-bis-gear-pve-phase-3",
+            "Bear", "Druid", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Two Hand", "#weapons-for-feral-druid-tank-phase-3") },
+            { ("Ranged/Relic", "#idols-for-feral-druid-tank-phase-3") }
         }));
         #endregion
 
@@ -505,6 +545,15 @@ public class ClassSpecGuideMappings
             { ("Off Hand", "#off-hand-weapons-for-restoration-druid-healer-phase-2") },
             { ("Ranged/Relic", "#idols-for-restoration-druid-healer-phase-2") }
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/restoration/healer-bis-gear-pve-phase-3",
+            "Restoration", "Druid", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-hand-weapons-for-restoration-druid-healer-phase-3") },
+            { ("Two Hand", "#two-handed-weapons-for-restoration-druid-healer-phase-3") },
+            { ("Off Hand", "#off-hand-weapons-for-restoration-druid-healer-phase-3") },
+            { ("Ranged/Relic", "#idols-for-restoration-druid-healer-phase-3") }
+        }));
         #endregion
 
         #region BM Hunter
@@ -565,6 +614,14 @@ public class ClassSpecGuideMappings
             { ("Main Hand", "#one-handed-weapons-for-beast-mastery-hunter-dps-phase-2") },
             { ("Two Hand", "#two-hand-weapons-for-beast-mastery-hunter-dps-phase-2") },
             { ("Ranged/Relic", "#guns-and-bows-for-beast-mastery-hunter-dps-phase-2") }
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/hunter/beast-mastery/dps-bis-gear-pve-phase-3",
+            "Beast Mastery", "Hunter", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#one-handed-weapons-for-beast-mastery-hunter-dps-phase-3") },
+            { ("Two Hand", "#two-hand-weapons-for-beast-mastery-hunter-dps-phase-3") },
+            { ("Ranged/Relic", "#guns-and-bows-for-beast-mastery-hunter-dps-phase-3") }
         }));
         #endregion
 
@@ -627,6 +684,14 @@ public class ClassSpecGuideMappings
             { ("Two Hand", "#two-hand-weapons-for-marksmanship-hunter-dps-phase-2") },
             { ("Ranged/Relic", "#guns-and-bows-for-marksmanship-hunter-dps-phase-2") }
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/hunter/marksmanship/dps-bis-gear-pve-phase-3",
+            "Marksmanship", "Hunter", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#one-handed-weapons-for-marksmanship-hunter-dps-phase-3") },
+            { ("Two Hand", "#two-hand-weapons-for-marksmanship-hunter-dps-phase-3") },
+            { ("Ranged/Relic", "#guns-and-bows-for-marksmanship-hunter-dps-phase-3") }
+        }));
         #endregion
 
         #region Survival Hunter
@@ -688,6 +753,14 @@ public class ClassSpecGuideMappings
             { ("Two Hand", "#two-hand-weapons-for-survival-hunter-dps-phase-2") },
             { ("Ranged/Relic", "#guns-and-bows-for-survival-hunter-dps-phase-2") }
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/hunter/survival/dps-bis-gear-pve-phase-3",
+            "Survival", "Hunter", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#one-handed-weapons-for-survival-hunter-dps-phase-3") },
+            { ("Two Hand", "#two-hand-weapons-for-survival-hunter-dps-phase-3") },
+            { ("Ranged/Relic", "#guns-and-bows-for-survival-hunter-dps-phase-3") }
+        }));
         #endregion
 
         #region Arcane Mage
@@ -748,6 +821,14 @@ public class ClassSpecGuideMappings
             { ("Main Hand", "#main-hand-and-two-handed-weapons-for-arcane-mage-dps-phase-2") },
             { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-phase-2") },
             { ("Ranged/Relic", "#wands-for-arcane-mage-dps-phase-2") }
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/mage/arcane/dps-bis-gear-pve-phase-3",
+            "Arcane", "Mage", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-arcane-mage-dps-phase-3") },
+            { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-phase-3") },
+            { ("Ranged/Relic", "#wands-for-arcane-mage-dps-phase-3") }
         }));
         #endregion
 
@@ -811,6 +892,14 @@ public class ClassSpecGuideMappings
             { ("Off Hand", "#off-hand-weapons-for-fire-mage-dps-phase-2") },
             { ("Ranged/Relic", "#wands-for-fire-mage-dps-phase-2") }
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/mage/fire/dps-bis-gear-pve-phase-3",
+            "Fire", "Mage", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-fire-mage-dps-phase-3") },
+            { ("Off Hand", "#off-hand-weapons-for-fire-mage-dps-phase-3") },
+            { ("Ranged/Relic", "#wands-for-fire-mage-dps-phase-3") }
+        }));
         #endregion
 
         #region Frost Mage
@@ -873,6 +962,14 @@ public class ClassSpecGuideMappings
             { ("Off Hand", "#off-hand-weapons-for-frost-mage-dps-phase-2") },
             { ("Ranged/Relic", "#wands-for-frost-mage-dps-phase-2") }
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/mage/frost/dps-bis-gear-pve-phase-3",
+            "Frost", "Mage", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-frost-mage-dps-phase-3") },
+            { ("Off Hand", "#off-hand-weapons-for-frost-mage-dps-phase-3") },
+            { ("Ranged/Relic", "#wands-for-frost-mage-dps-phase-3") }
+        }));
         #endregion
 
         #region Holy Paladin
@@ -933,6 +1030,14 @@ public class ClassSpecGuideMappings
             { ("Off Hand", "#shields-and-off-hands-for-holy-paladin-healer-phase-2") },
             { ("Ranged/Relic", "#librams-for-holy-paladin-healer-phase-2") }
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/paladin/holy/healer-bis-gear-pve-phase-3",
+            "Holy", "Paladin", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-hand-weapons-for-holy-paladin-healer-phase-3") },
+            { ("Off Hand", "#shields-and-off-hands-for-holy-paladin-healer-phase-3") },
+            { ("Ranged/Relic", "#librams-for-holy-paladin-healer-phase-3") }
+        }));
         #endregion
 
         #region Prot Paladin
@@ -992,6 +1097,14 @@ public class ClassSpecGuideMappings
             { ("Off Hand", "h3#shields") },
             { ("Ranged/Relic", "h3#librams") }
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/paladin/protection/tank-bis-gear-pve-phase-3",
+            "Protection", "Paladin", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "h3#weapons") },
+            { ("Off Hand", "h3#shields") },
+            { ("Ranged/Relic", "h3#librams") }
+        }));
         #endregion
 
         #region Ret Paladin
@@ -1046,6 +1159,13 @@ public class ClassSpecGuideMappings
             "Retribution", "Paladin", "Phase2", new List<(string, GuideMapping)>
         {
             { ("Two Hand", "#two-hand-weapons-for-retribution-paladin-phase-2") },
+            { ("Ranged/Relic", "#libram") }
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/paladin/retribution/dps-bis-gear-pve-phase-3",
+            "Retribution", "Paladin", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Two Hand", "#two-hand-weapons-for-retribution-paladin-phase-3") },
             { ("Ranged/Relic", "#libram") }
         }));
         #endregion
@@ -1109,6 +1229,14 @@ public class ClassSpecGuideMappings
             { ("Off Hand", "#off-hands-for-discipline-priest-healer-phase-2") },
             { ("Ranged/Relic", "#wands-for-discipline-priest-healer-phase-2") }
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/discipline/healer-bis-gear-pve-phase-3",
+            "Discipline", "Priest", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-and-two-handed-weapons-for-discipline-priest-healer-phase-3") },
+            { ("Off Hand", "#off-hands-for-discipline-priest-healer-phase-3") },
+            { ("Ranged/Relic", "#wands-for-discipline-priest-healer-phase-3") }
+        }));
         #endregion
 
         #region Holy Priest
@@ -1168,6 +1296,14 @@ public class ClassSpecGuideMappings
             { ("Main Hand", "#main-and-two-handed-weapons-for-holy-priest-healer-phase-2") },
             { ("Off Hand", "#off-hands-for-holy-priest-healer-phase-2") },
             { ("Ranged/Relic", "#wands-for-holy-priest-healer-phase-2") }
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/holy/healer-bis-gear-pve-phase-3",
+            "Holy", "Priest", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-and-two-handed-weapons-for-holy-priest-healer-phase-3") },
+            { ("Off Hand", "#off-hands-for-holy-priest-healer-phase-3") },
+            { ("Ranged/Relic", "#wands-for-holy-priest-healer-phase-3") }
         }));
         #endregion
 
@@ -1234,6 +1370,15 @@ public class ClassSpecGuideMappings
             { ("Two Hand", "#two-handed-weapons-for-shadow-priest-dps-phase-2") },
             { ("Ranged/Relic", "#wands-for-shadow-priest-dps-phase-2") }
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/shadow/dps-bis-gear-pve-phase-3",
+            "Shadow", "Priest", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-hand-weapons-for-shadow-priest-dps-phase-3") },
+            { ("Off Hand", "#off-hands-for-shadow-priest-dps-phase-3") },
+            { ("Two Hand", "#two-handed-weapons-for-shadow-priest-dps-phase-3") },
+            { ("Ranged/Relic", "#wands-for-shadow-priest-dps-phase-3") }
+        }));
         #endregion
 
         #region Assassination Rogue
@@ -1290,6 +1435,13 @@ public class ClassSpecGuideMappings
         {
             { ("Main Hand", "#weapons-for-assassination-rogue-dps-phase-2") },
             { ("Ranged/Relic", "#guns-and-bows-for-assassination-rogue-dps-phase-2") }
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/rogue/assassination/dps-bis-gear-pve-phase-3",
+            "Assassination", "Rogue", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#weapons-for-assassination-rogue-dps-phase-3") },
+            { ("Ranged/Relic", "#guns-and-bows-for-assassination-rogue-dps-phase-3") }
         }));
         #endregion
 
@@ -1351,6 +1503,14 @@ public class ClassSpecGuideMappings
             { ("Off Hand", "#off-hand-weapons-for-combat-rogue-dps-phase-2") },
             { ("Ranged/Relic", "#guns-and-bows-for-combat-rogue-dps-phase-2") }
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/rogue/combat/dps-bis-gear-pve-phase-3",
+            "Combat", "Rogue", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-hand-weapons-for-combat-rogue-dps-phase-3") },
+            { ("Off Hand", "#off-hand-weapons-for-combat-rogue-dps-phase-3") },
+            { ("Ranged/Relic", "#guns-and-bows-for-combat-rogue-dps-phase-3") }
+        }));
         #endregion
 
         #region Subtlety Rogue
@@ -1408,6 +1568,14 @@ public class ClassSpecGuideMappings
             { ("Main Hand", "#main-hand-weapons-for-subtlety-rogue-dps-phase-2") },
             { ("Off Hand", "#off-hand-weapons-for-subtlety-rogue-dps-phase-2") },
             { ("Ranged/Relic", "#guns-and-bows-for-subtlety-rogue-dps-phase-2") }
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/rogue/subtlety/dps-bis-gear-pve-phase-3",
+            "Subtlety", "Rogue", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-hand-weapons-for-subtlety-rogue-dps-phase-3") },
+            { ("Off Hand", "#off-hand-weapons-for-subtlety-rogue-dps-phase-3") },
+            { ("Ranged/Relic", "#guns-and-bows-for-subtlety-rogue-dps-phase-3") }
         }));
         #endregion
 
@@ -1469,6 +1637,14 @@ public class ClassSpecGuideMappings
             { ("Off Hand", "#shields-off-hands-for-elemental-shaman-dps-in-phase-2") },
             { ("Ranged/Relic", "#totems-for-elemental-shaman-dps-in-phase-1") }
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/shaman/elemental/dps-bis-gear-pve-phase-3",
+            "Elemental", "Shaman", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#weapons-for-elemental-shaman-dps-in-phase-3") },
+            { ("Off Hand", "#shields-off-hands-for-elemental-shaman-dps-in-phase-3") },
+            { ("Ranged/Relic", "#totems-for-elemental-shaman-dps-in-phase-3") }
+        }));
         #endregion
 
         #region Enhancement Shaman
@@ -1524,6 +1700,13 @@ public class ClassSpecGuideMappings
         {
             { ("Main Hand", "#weapons-for-enhancement-shaman-dps-in-phase-2") },
             { ("Ranged/Relic", "#totems-for-enhancement-shaman-dps-in-phase-2") }
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/shaman/enhancement/dps-bis-gear-pve-phase-3",
+            "Enhancement", "Shaman", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#weapons-for-enhancement-shaman-dps-in-phase-3") },
+            { ("Ranged/Relic", "#totems-for-enhancement-shaman-dps-in-phase-3") }
         }));
         #endregion
 
@@ -1585,6 +1768,14 @@ public class ClassSpecGuideMappings
             { ("Off Hand", "#shields-off-hands-for-restoration-shaman-healer-in-phase-2") },
             { ("Ranged/Relic", "#totems-for-restoration-shaman-healer-in-phase-2") }
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/shaman/restoration/healer-bis-gear-pve-phase-3",
+            "Restoration", "Shaman", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#weapons-for-restoration-shaman-healer-in-phase-3") },
+            { ("Off Hand", "#shields-off-hands-for-restoration-shaman-healer-in-phase-3") },
+            { ("Ranged/Relic", "#totems-for-restoration-shaman-healer-in-phase-3") }
+        }));
         #endregion
 
         #region Affliction Warlock
@@ -1629,6 +1820,15 @@ public class ClassSpecGuideMappings
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warlock/affliction/dps-bis-gear-pve-phase-2",
             "Affliction", "Warlock", "Phase2", new List<(string, GuideMapping)>
+        {
+            { ("Two Hand", "h2#weapons~h3") },
+            { ("Main Hand", "h2#weapons~h3~h3") },
+            { ("Off Hand", "#offhand") },
+            { ("Ranged/Relic", "#wand") }
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warlock/affliction/dps-bis-gear-pve-phase-3",
+            "Affliction", "Warlock", "Phase3", new List<(string, GuideMapping)>
         {
             { ("Two Hand", "h2#weapons~h3") },
             { ("Main Hand", "h2#weapons~h3~h3") },
@@ -1685,6 +1885,15 @@ public class ClassSpecGuideMappings
             { ("Off Hand", "#offhand") },
             { ("Ranged/Relic", "#wand") }
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warlock/demonology/dps-bis-gear-pve-phase-3",
+            "Demonology", "Warlock", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Two Hand", "h2#weapons~h3") },
+            { ("Main Hand", "h2#weapons~h3~h3") },
+            { ("Off Hand", "#offhand") },
+            { ("Ranged/Relic", "#wand") }
+        }));
         #endregion
 
         #region Destruction Warlock
@@ -1729,6 +1938,15 @@ public class ClassSpecGuideMappings
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warlock/destruction/dps-bis-gear-pve-phase-2",
             "Destruction", "Warlock", "Phase2", new List<(string, GuideMapping)>
+        {
+            { ("Two Hand", "h2#weapons~h3") },
+            { ("Main Hand", "h2#weapons~h3~h3") },
+            { ("Off Hand", "#offhand") },
+            { ("Ranged/Relic", "#wand") }
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warlock/destruction/dps-bis-gear-pve-phase-3",
+            "Destruction", "Warlock", "Phase3", new List<(string, GuideMapping)>
         {
             { ("Two Hand", "h2#weapons~h3") },
             { ("Main Hand", "h2#weapons~h3~h3") },
@@ -1793,6 +2011,13 @@ public class ClassSpecGuideMappings
             { ("Two Hand", "#two-handed-weapons-for-arms-warrior-dps-in-phase-2") },
             { ("Ranged/Relic", "#ranged-weapons-for-arms-warrior-dps-in-phase-2") },
         }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warrior/arms/dps-bis-gear-pve-phase-3",
+            "Arms", "Warrior", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Two Hand", "#two-handed-weapons-for-arms-warrior-dps-in-phase-3") },
+            { ("Ranged/Relic", "#ranged-weapons-for-arms-warrior-dps-in-phase-3") },
+        }));
         #endregion
 
         #region Fury Warrior
@@ -1850,6 +2075,13 @@ public class ClassSpecGuideMappings
         {
             { ("Two Hand", "#two-handed-weapons-for-fury-warrior-dps-in-phase-2") },
             { ("Ranged/Relic", "#ranged-weapons-for-fury-warrior-dps-in-phase-2") },
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warrior/fury/dps-bis-gear-pve-phase-3",
+            "Fury", "Warrior", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Two Hand", "#two-handed-weapons-for-fury-warrior-dps-in-phase-3") },
+            { ("Ranged/Relic", "#ranged-weapons-for-fury-warrior-dps-in-phase-3") },
         }));
         #endregion
 
@@ -1922,6 +2154,26 @@ public class ClassSpecGuideMappings
             { ("Main Hand", "#one-handed-weapons-for-protection-warrior-tank-in-phase-2") },
             { ("Off Hand", "#shields-for-protection-warrior-tank-in-phase-2") },
             { ("Ranged/Relic", "#guns-and-bows-for-protection-warrior-tank-in-phase-2") }
+        }));
+
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warrior/protection/tank-bis-gear-pve-phase-3",
+            "Protection", "Warrior", "Phase3", new List<(string, GuideMapping)>
+        {
+            { ("Head", "#head-for-protection-warrior-tank-in-phase-3") },
+            { ("Shoulder", "#shoulders-for-protection-warrior-tank-in-phase-3") },
+            { ("Back", "#back-for-protection-warrior-tank-in-phase-3") },
+            { ("Chest", "#chest-for-protection-warrior-tank-in-phase-3") },
+            { ("Wrist", "#wrist-for-protection-warrior-tank-in-phase-3") },
+            { ("Hands", "#hands-for-protection-warrior-tank-in-phase-3") },
+            { ("Waist", "#waist-for-protection-warrior-tank-in-phase-3") },
+            { ("Legs", "#legs-for-protection-warrior-tank-in-phase-3") },
+            { ("Feet", "#feet-for-protection-warrior-tank-in-phase-3") },
+            { ("Neck", "#neck-for-protection-warrior-tank-in-phase-3") },
+            { ("Ring", "#rings-for-protection-warrior-tank-in-phase-3") },
+            { ("Trinket", "#trinkets-for-protection-warrior-tank-in-phase-3") },
+            { ("Main Hand", "#one-handed-weapons-for-protection-warrior-tank-in-phase-3") },
+            { ("Off Hand", "#shields-for-protection-warrior-tank-in-phase-3") },
+            { ("Ranged/Relic", "#guns-and-bows-for-protection-warrior-tank-in-phase-3") }
         }));
         #endregion
     }
