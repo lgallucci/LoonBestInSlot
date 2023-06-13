@@ -11,17 +11,17 @@ using Newtonsoft.Json;
 namespace AddonManager.Models;
 public abstract class LootImporter
 {
-    public virtual async Task Convert(string jsonText)
+    public virtual async Task Convert(Action<string> writeToLog)
     {
         var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\{FileName}.json");
         DatabaseItems dbItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
 
         //write dictionary to file
-        File.WriteAllText(@$"{Constants.ItemDbPath}\{FileName}.json", JsonConvert.SerializeObject(await InnerConvert(dbItems, jsonText), Formatting.Indented));
+        File.WriteAllText(@$"{Constants.ItemDbPath}\{FileName}.json", JsonConvert.SerializeObject(await InnerConvert(dbItems, writeToLog), Formatting.Indented));
     }
 
     internal abstract string FileName { get; }
-    internal abstract Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText);
+    internal abstract Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog);
 }
 
 public class EmblemImporter : LootImporter
@@ -56,7 +56,7 @@ public class EmblemImporter : LootImporter
 
     internal override string FileName { get => "EmblemItemList"; }
 
-    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
+    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
         items.Items.Clear();
 
@@ -113,7 +113,7 @@ public class EmblemImporter : LootImporter
                 SourceLocation = currencySourceLocation,
                 SourceType = "Dungeon Token"
             });
-        });
+        }, writeToLog);
 
         return items;
     }
@@ -122,8 +122,9 @@ public class EmblemImporter : LootImporter
 public class ProfessionImporter : LootImporter
 {
     internal override string FileName { get => "ProfessionItemList"; }
-    internal override Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
+    internal override Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
+        writeToLog("Not Implemented!");
         throw new NotImplementedException();
     }
 }
@@ -151,12 +152,13 @@ public class DungeonImporter : LootImporter
         };
 
     internal override string FileName { get => "DungeonItemList"; }
-    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
+    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
         items.Items.Clear();
 
-        foreach (var dungeonUri in dungeonUriList)
+        foreach (var dungeonUri in dungeonUriList) //TODO: Convert to Single Browser loop
         {
+            writeToLog($"Reading from: {dungeonUri}");
             await Common.LoadFromWebPage(dungeonUri.Item1, async (content) =>
             {
                 var parser = new HtmlParser();
@@ -311,7 +313,7 @@ public class RaidImporter : LootImporter
     }
 
     internal override string FileName { get => "RaidItemList"; }
-    internal override Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
+    internal override Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
         var raidModifiers = new Dictionary<string, string> { { "H10", "Heroic 10" }, { "H25", "Heroic 25" }, { "N10", "10" }, { "N25", "10" } };
 
@@ -374,13 +376,14 @@ public class PvPImporter : LootImporter
 
     internal override string FileName { get => "PvPItemList"; }
 
-    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
+    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
         items.Items.Clear();
 
         foreach (var webAddress in wowheadUriList)
         {
-            await Common.LoadFromWebPage(webAddress.Item1, async (content) =>
+            writeToLog($"Reading from {webAddress.Item1}");
+            await Common.LoadFromWebPage(webAddress.Item1, async (content) => //TODO: Convert to Single Browser loop
             {
                 var parser = new HtmlParser();
                 var doc = default(IHtmlDocument);
@@ -478,13 +481,14 @@ public class ReputationImporter : LootImporter
 
     internal override string FileName { get => "ReputationItemList"; }
 
-    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, string jsonText)
+    internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
         items.Items.Clear();
 
         foreach (var repVendor in wowheadUriList)
         {
-            await Common.LoadFromWebPage(repVendor.Item1, async (content) =>
+            writeToLog($"Reading from: {repVendor.Item1}");
+            await Common.LoadFromWebPage(repVendor.Item1, async (content) => //TODO: Convert to Single Browser loop
             {
                 var parser = new HtmlParser();
                 var doc = default(IHtmlDocument);

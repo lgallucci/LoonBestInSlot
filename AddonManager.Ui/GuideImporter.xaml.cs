@@ -83,7 +83,7 @@ public sealed partial class GuideImporter : Page
         if (phaseString.Contains("Phase"))
             phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
 
-        foreach (string spec in SpecList)
+        foreach (string spec in SpecList) //TODO: Convert to Single Browser loop
         {
             try
             {

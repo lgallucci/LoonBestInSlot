@@ -6,6 +6,29 @@ using PuppeteerSharp;
 namespace AddonManager;
 internal static class Common
 {
+    internal static async Task LoadFromWebPages(List<string> pageAddresses, Func<string, string, Task> func)
+    {
+        await new BrowserFetcher().DownloadAsync();
+        using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
+        {
+            Headless = true
+        }))
+        {
+            foreach (var pageAddress in pageAddresses)
+            {
+                using (var page = await browser.NewPageAsync())
+                {
+                    page.DefaultTimeout = 0; // or you can set this as 0
+                    await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
+                    await page.ReloadAsync();
+                    var content = await page.GetContentAsync();
+
+                    await func(pageAddress, content);
+                }
+            }
+        }
+    }
+
     internal static async Task LoadFromWebPage(string pageAddress, Func<string, Task> func)
     {
         await new BrowserFetcher().DownloadAsync();
@@ -19,7 +42,6 @@ internal static class Common
             await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
             var content = await page.GetContentAsync();
 
-            Console.WriteLine(content);
             await func(content);
         }
     }
@@ -41,19 +63,17 @@ internal static class Common
         }
     }
 
-    internal static async Task ReadWowheadItemList(List<string> webAddresses, Action<IElement, int, string> func)
+    internal static async Task ReadWowheadItemList(List<string> webAddresses, Action<IElement, int, string> func, Action<string> writeToLog)
     {
-        foreach (var webAddress in webAddresses)
+        await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
         {
-            await Common.LoadFromWebPage(webAddress, async (content) =>
-            {
-                var parser = new HtmlParser();
-                var doc = default(IHtmlDocument);
-                doc = await parser.ParseDocumentAsync(content);
+            writeToLog($"Reading from: {uri}");
+            var parser = new HtmlParser();
+            var doc = default(IHtmlDocument);
+            doc = await parser.ParseDocumentAsync(content);
 
-                ReadWowheadItemList(doc, func);
-            });
-        }
+            ReadWowheadItemList(doc, func);
+        });
     }
 
     internal static void ReadWowheadItemList(IHtmlDocument doc, Action<IElement, int, string> func)

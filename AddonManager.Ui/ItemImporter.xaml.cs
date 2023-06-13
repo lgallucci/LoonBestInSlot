@@ -29,7 +29,7 @@ public sealed partial class ItemImporter : Page
     {
         var importerType = cmbImporterType.SelectedValue.ToString();
         lblStatus.Text = "Processing...";
-
+        txtJsonToParse.Text = "";
         LootImporter importer;
         switch (importerType)
         {
@@ -52,16 +52,15 @@ public sealed partial class ItemImporter : Page
                 importer = new ReputationImporter();
                 break;
             case "TierSetImporter":
-                await new TierSetImporter().Convert(txtJsonToParse.Text);
-                lblStatus.Text = "Done!";
-                return;
+                importer = new TierSetImporter();
+                break;
             default:
                 txtJsonToParse.Text = "Choose a Importer !";
                 return;
         }
 
         //Read file into dictionary
-        await importer.Convert(txtJsonToParse.Text);
+        await importer.Convert((log) => { txtJsonToParse.Text = log + Environment.NewLine + txtJsonToParse.Text; });
 
         lblStatus.Text = "Done!";
     }
