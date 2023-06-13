@@ -10,10 +10,6 @@ LBIS:AddGem(spec3, "40113", "4", "False") --Runed Cardinal Ruby
 LBIS:AddGem(spec1, "40134", "4", "False") --Royal Dreadstone
 LBIS:AddGem(spec1, "40151", "4", "False") --Luminous Ametrine
 LBIS:AddGem(spec1, "40152", "4", "False") --Potent Ametrine
-LBIS:AddGem(spec1, "50370", "0", "False") --Arcanum of Blissful Mending
-LBIS:AddGem(spec1, "50368", "0", "False") --Arcanum of Burning Mysteries
-LBIS:AddGem(spec1, "50336", "0", "False") --Greater Inscription of the Crag
-LBIS:AddGem(spec1, "50338", "0", "False") --Greater Inscription of the Storm
 
 LBIS:AddEnchant(spec1, "50370", LBIS.L["Head"]) --Arcanum of Blissful Mending
 LBIS:AddEnchant(spec1, "50368", LBIS.L["Head"]) --Arcanum of Burning Mysteries

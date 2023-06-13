@@ -10,8 +10,6 @@ LBIS:AddGem(spec3, "40128", "4", "False") --Quick King's Amber
 LBIS:AddGem(spec3, "40155", "4", "False") --Reckless Ametrine
 LBIS:AddGem(spec3, "40113", "4", "False") --Runed Cardinal Ruby
 LBIS:AddGem(spec3, "40133", "4", "False") --Purified Dreadstone
-LBIS:AddGem(spec1, "50370", "0", "False") --Arcanum of Blissful Mending
-LBIS:AddGem(spec1, "50368", "0", "False") --Arcanum of Burning Mysteries
 
 LBIS:AddEnchant(spec1, "50370", LBIS.L["Head"]) --Arcanum of Blissful Mending
 LBIS:AddEnchant(spec1, "50368", LBIS.L["Head"]) --Arcanum of Burning Mysteries
