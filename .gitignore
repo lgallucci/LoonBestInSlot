@@ -364,4 +364,6 @@ FodyWeavers.xsd
 /AddonManager/WowheadGuideHtml
 *.zip
 *.csv
+*.csv#
 /ClassicLootAssistant2.8
+

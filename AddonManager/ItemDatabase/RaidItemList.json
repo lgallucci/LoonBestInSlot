@@ -14585,24 +14585,24 @@
         },
         "49485": {
             "Name": "Sparkling Onyxia Tooth Pendant",
-            "Source": "Onyxia",
-            "SourceType": "Drop",
+            "Source": "Onyxia's Head",
+            "SourceType": "Quest",
             "SourceNumber": "0",
-            "SourceLocation": "Onyxia (10)"
+            "SourceLocation": "Onyxia"
         },
         "49486": {
             "Name": "Polished Dragonslayer's Signet",
-            "Source": "Onyxia",
-            "SourceType": "Drop",
+            "Source": "Onyxia's Head",
+            "SourceType": "Quest",
             "SourceNumber": "0",
-            "SourceLocation": "Onyxia (10)"
+            "SourceLocation": "Onyxia"
         },
         "49487": {
             "Name": "Purified Onyxia Blood Talisman",
-            "Source": "Onyxia",
-            "SourceType": "Drop",
+            "Source": "Onyxia's Head",
+            "SourceType": "Quest",
             "SourceNumber": "0",
-            "SourceLocation": "Onyxia (10)"
+            "SourceLocation": "Onyxia"
         },
         "49488": {
             "Name": "Shiny Shard of the Scale",
