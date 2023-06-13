@@ -20,7 +20,6 @@ internal static class Common
                 {
                     page.DefaultTimeout = 0; // or you can set this as 0
                     await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
-                    await page.ReloadAsync();
                     var content = await page.GetContentAsync();
 
                     await func(pageAddress, content);

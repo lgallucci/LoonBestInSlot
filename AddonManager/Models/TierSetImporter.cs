@@ -9,9 +9,12 @@ public class TierSetImporter : LootImporter
 {
     private List<string> armorSetUris = new List<string>
     {
-        @"https://www.wowhead.com/items/miscellaneous/armor-tokens/min-req-level:27/max-req-level:30",
-        @"https://www.wowhead.com/items/miscellaneous/armor-tokens/min-req-level:27/max-req-level:30#50",
-        @"https://www.wowhead.com/items/miscellaneous/armor-tokens/min-req-level:27/max-req-level:30#100"
+        @"https://www.wowhead.com/items/miscellaneous/armor-tokens?filter=16;3456;0", //drops in naxx
+        @"https://www.wowhead.com/items/miscellaneous/armor-tokens?filter=16;4493;0", //drops in obsidian
+        @"https://www.wowhead.com/items/miscellaneous/armor-tokens?filter=16;4273;0", //drops in ulduar
+        @"https://www.wowhead.com/items/miscellaneous/armor-tokens?filter=16;4722;0", //drops in trials
+        @"https://www.wowhead.com/items/miscellaneous/armor-tokens/name:regalia+of+the", //also drops in trials
+        @"https://www.wowhead.com/items/miscellaneous/armor-tokens?filter=16;4812;0", //drops in icecrown
     };
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToText)
