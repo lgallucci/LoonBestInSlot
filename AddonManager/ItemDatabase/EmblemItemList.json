@@ -2240,6 +2240,13 @@
       "SourceNumber": "45",
       "SourceLocation": "Emblem Vendor"
     },
+    "41951": {
+      "Name": "Deadly Gladiator's Silk Raiment",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "58",
+      "SourceLocation": "Emblem Vendor"
+    },
     "41956": {
       "Name": "Savage Gladiator's Silk Trousers",
       "Source": "Emblem of Heroism",
@@ -2252,6 +2259,13 @@
       "Source": "Emblem of Valor",
       "SourceType": "Dungeon Token",
       "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "41958": {
+      "Name": "Deadly Gladiator's Silk Trousers",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "58",
       "SourceLocation": "Emblem Vendor"
     },
     "41962": {
@@ -2268,6 +2282,13 @@
       "SourceNumber": "30",
       "SourceLocation": "Emblem Vendor"
     },
+    "41964": {
+      "Name": "Deadly Gladiator's Silk Amice",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "46",
+      "SourceLocation": "Emblem Vendor"
+    },
     "41968": {
       "Name": "Savage Gladiator's Silk Handguards",
       "Source": "Emblem of Heroism",
@@ -2280,6 +2301,13 @@
       "Source": "Emblem of Valor",
       "SourceType": "Dungeon Token",
       "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "41970": {
+      "Name": "Deadly Gladiator's Silk Handguards",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "46",
       "SourceLocation": "Emblem Vendor"
     },
     "41990": {
@@ -2296,11 +2324,39 @@
       "SourceNumber": "45",
       "SourceLocation": "Emblem Vendor"
     },
+    "41992": {
+      "Name": "Deadly Gladiator's Felweave Cowl",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "58",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "41993": {
+      "Name": "Furious Gladiator's Felweave Cowl",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor"
+    },
     "41996": {
       "Name": "Savage Gladiator's Felweave Raiment",
       "Source": "Emblem of Heroism",
       "SourceType": "Dungeon Token",
       "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "41997": {
+      "Name": "Deadly Gladiator's Felweave Raiment",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "58",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "41998": {
+      "Name": "Furious Gladiator's Felweave Raiment",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
       "SourceLocation": "Emblem Vendor"
     },
     "42001": {
@@ -2324,6 +2380,20 @@
       "SourceNumber": "45",
       "SourceLocation": "Emblem Vendor"
     },
+    "42004": {
+      "Name": "Deadly Gladiator's Felweave Trousers",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "58",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "42005": {
+      "Name": "Furious Gladiator's Felweave Trousers",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor"
+    },
     "42008": {
       "Name": "Savage Gladiator's Felweave Amice",
       "Source": "Emblem of Heroism",
@@ -2338,6 +2408,20 @@
       "SourceNumber": "30",
       "SourceLocation": "Emblem Vendor"
     },
+    "42010": {
+      "Name": "Deadly Gladiator's Felweave Amice",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "46",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "42011": {
+      "Name": "Furious Gladiator's Felweave Amice",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor"
+    },
     "42014": {
       "Name": "Savage Gladiator's Felweave Handguards",
       "Source": "Emblem of Heroism",
@@ -2350,6 +2434,20 @@
       "Source": "Emblem of Valor",
       "SourceType": "Dungeon Token",
       "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "42016": {
+      "Name": "Deadly Gladiator's Felweave Handguards",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "46",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "42017": {
+      "Name": "Furious Gladiator's Felweave Handguards",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
       "SourceLocation": "Emblem Vendor"
     },
     "43102": {
@@ -2385,6 +2483,55 @@
       "Source": "Emblem of Triumph",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45087": {
+      "Name": "Runed Orb",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "18",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45632": {
+      "Name": "Breastplate of the Wayward Conqueror",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "58",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45633": {
+      "Name": "Breastplate of the Wayward Protector",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "58",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45634": {
+      "Name": "Breastplate of the Wayward Vanquisher",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "58",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45638": {
+      "Name": "Crown of the Wayward Conqueror",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "58",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45639": {
+      "Name": "Crown of the Wayward Protector",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "58",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45640": {
+      "Name": "Crown of the Wayward Vanquisher",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "58",
       "SourceLocation": "Emblem Vendor"
     },
     "45819": {
