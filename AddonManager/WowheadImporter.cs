@@ -128,7 +128,7 @@ public static class WowheadImporter
 
                 guide.Item3[phaseNumber] = items.Values.ToList();
 
-                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName.Replace(" ", ""), classGuide.SpecName,
+                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName,
                     guide.Item1, guide.Item2, guide.Item3);
 
                 ItemSourceFileManager.WriteItemSources(itemSources);
@@ -193,7 +193,7 @@ public static class WowheadImporter
                 sb.AppendLine($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot}");
             }
 
-            ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName.Replace(" ", ""), classGuide.SpecName,
+            ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName,
                 gemsEnchants.Item1, gemsEnchants.Item2, guide.Item3);
 
             ItemSourceFileManager.WriteGemSources(gemSources);
@@ -258,7 +258,7 @@ public static class WowheadImporter
                     itemSource.Value.SourceNumber = string.Join("/", csvItem.ItemSource.Select(s => s.SourceNumber));
                     itemSource.Value.SourceLocation = string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
 
-                    if (tokenKeys.Contains(itemSource.Key))
+                    if (tokenKeys.Contains(itemSource.Key) && itemSource.Key != 47242)
                     {
                         itemSource.Value.SourceType = "LBIS.L[\"Token\"]";
                     }

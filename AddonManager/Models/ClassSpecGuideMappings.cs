@@ -149,7 +149,6 @@ public class ClassSpecGuideMappings
             "Blood", "Death Knight", "Phase3", new List<(string, GuideMapping)>
         {
             { ("Two Hand", "h2#weapons~h4") },
-            { ("Main Hand", "h2#weapons~h4~h4") },
             { ("Ranged/Relic", "#relics-for-blood-death-knight-tanks-in-phase-3") },
         }));
         #endregion
@@ -287,7 +286,7 @@ public class ClassSpecGuideMappings
             "Unholy", "Death Knight", "Phase3", new List<(string, GuideMapping)>
         {
             { ("Main Hand", "#main-hand-weapons-for-unholy-death-knight-dps-phase-3") },
-            { ("Off Hand", "#off-hand-weapons-for-unholy-death-knight-dps-phase-3") },
+            { ("Off Hand", "#off-hand-weapons-for-frost-death-knight-dps-phase-3") },
             { ("Ranged/Relic", "#sigils-for-unholy-death-knight-dps-phase-3") },
         }));
         #endregion
@@ -357,6 +356,7 @@ public class ClassSpecGuideMappings
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/balance/dps-bis-gear-pve-phase-3",
             "Balance", "Druid", "Phase3", new List<(string, GuideMapping)>
         {
+            { ("Head", "#body-armor") },
             { ("Main Hand", "#main-hand-weapons-for-balance-druid-dps-phase-3") },
             { ("Two Hand", "#two-handed-weapons-for-balance-druid-dps-phase-3") },
             { ("Off Hand", "#off-hand-weapons-for-balance-druid-dps-phase-3") },
@@ -549,7 +549,7 @@ public class ClassSpecGuideMappings
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/restoration/healer-bis-gear-pve-phase-3",
             "Restoration", "Druid", "Phase3", new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand-weapons-for-restoration-druid-healer-phase-3") },
+            { ("Main Hand", "#main-hand-weapons-for-restoration-druid-phase-3") },
             { ("Two Hand", "#two-handed-weapons-for-restoration-druid-healer-phase-3") },
             { ("Off Hand", "#off-hand-weapons-for-restoration-druid-healer-phase-3") },
             { ("Ranged/Relic", "#idols-for-restoration-druid-healer-phase-3") }
@@ -2158,22 +2158,10 @@ public class ClassSpecGuideMappings
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warrior/protection/tank-bis-gear-pve-phase-3",
             "Protection", "Warrior", "Phase3", new List<(string, GuideMapping)>
-        {
-            { ("Head", "#head-for-protection-warrior-tank-in-phase-3") },
-            { ("Shoulder", "#shoulders-for-protection-warrior-tank-in-phase-3") },
-            { ("Back", "#back-for-protection-warrior-tank-in-phase-3") },
-            { ("Chest", "#chest-for-protection-warrior-tank-in-phase-3") },
-            { ("Wrist", "#wrist-for-protection-warrior-tank-in-phase-3") },
-            { ("Hands", "#hands-for-protection-warrior-tank-in-phase-3") },
-            { ("Waist", "#waist-for-protection-warrior-tank-in-phase-3") },
-            { ("Legs", "#legs-for-protection-warrior-tank-in-phase-3") },
-            { ("Feet", "#feet-for-protection-warrior-tank-in-phase-3") },
-            { ("Neck", "#neck-for-protection-warrior-tank-in-phase-3") },
-            { ("Ring", "#rings-for-protection-warrior-tank-in-phase-3") },
-            { ("Trinket", "#trinkets-for-protection-warrior-tank-in-phase-3") },
-            { ("Main Hand", "#one-handed-weapons-for-protection-warrior-tank-in-phase-3") },
-            { ("Off Hand", "#shields-for-protection-warrior-tank-in-phase-3") },
-            { ("Ranged/Relic", "#guns-and-bows-for-protection-warrior-tank-in-phase-3") }
+        {           
+            { ("Main Hand", "#main-hand") },
+            { ("Off Hand", "#shield") },
+            { ("Ranged/Relic", "#ranged") }
         }));
         #endregion
     }
