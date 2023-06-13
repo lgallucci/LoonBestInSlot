@@ -51,8 +51,6 @@ LBIS.ItemSources =
     [35617] = { Name = "Wand of Shimmering Scales", SourceType = LBIS.L["Drop"], Source = LBIS.L["Grand Magus Telestra"], SourceNumber = "0", SourceLocation = LBIS.L["The Nexus (Normal)"] },
     [35642] = { Name = "Riot Shield", SourceType = LBIS.L["Drop"], Source = LBIS.L["Xevozz"], SourceNumber = "0", SourceLocation = LBIS.L["The Violet Hold (Normal)"] },
     [35680] = { Name = "Amulet of Wills", SourceType = LBIS.L["Drop"], Source = LBIS.L["Sjonnir The Ironshaper"], SourceNumber = "0", SourceLocation = LBIS.L["Halls of Stone (Normal)"] },
-    [36430] = { Name = "Puzzle Ring", SourceType = unknown, Source = unknown, SourceNumber = "0", SourceLocation = unknown },
-    [36444] = { Name = "Ice Encrusted Amulet", SourceType = unknown, Source = unknown, SourceNumber = "0", SourceLocation = unknown },
     [36944] = { Name = "Lifeblade of Belgaristrasz", SourceType = LBIS.L["Drop"], Source = LBIS.L["Drakos the Interrogator"], SourceNumber = "0", SourceLocation = LBIS.L["The Oculus (Normal)"] },
     [36945] = { Name = "Verdisa's Cuffs of Dreaming", SourceType = LBIS.L["Drop"], Source = LBIS.L["Drakos the Interrogator"], SourceNumber = "0", SourceLocation = LBIS.L["The Oculus (Normal)"] },
     [36947] = { Name = "Centrifuge Core Cloak", SourceType = LBIS.L["Drop"], Source = LBIS.L["Varos Cloudstrider"], SourceNumber = "0", SourceLocation = LBIS.L["The Oculus (Normal)"] },

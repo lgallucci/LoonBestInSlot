@@ -14,7 +14,8 @@ public class WowheadGuideParser
 {
     public static HttpClient httpClient = new HttpClient();
 
-    private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of the Tiger", "of Agility", "of the Squire" };
+    private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of Nature Protection",
+                                                            "of the Tiger", "of Agility", "of the Squire" };
 
     private Random _rand = new Random(DateTime.Now.Millisecond);
 

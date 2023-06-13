@@ -266,8 +266,8 @@ LBIS:AddItem(spec3, "47460", LBIS.L["Waist"], "BIS") --Belt of the Pitiless Kill
 LBIS:AddItem(spec3, "47112", LBIS.L["Waist"], "BIS") --Belt of the Merciless Killer
 LBIS:AddItem(spec3, "46095", LBIS.L["Waist"], "Alt") --Soul-Devouring Cinch
 LBIS:AddItem(spec3, "41833", LBIS.L["Waist"], "Alt") --Relentless Gladiator's Belt of Triumph
-LBIS:AddItem(spec3, "47299", LBIS.L["Waist"], "Alt") --Belt of the Pitiless Killer
 LBIS:AddItem(spec3, "47107", LBIS.L["Waist"], "Alt") --Belt of the Merciless Killer
+LBIS:AddItem(spec3, "47299", LBIS.L["Waist"], "Alt") --Belt of the Pitiless Killer
 LBIS:AddItem(spec3, "45555", LBIS.L["Waist"], "Alt") --Death-warmed Belt
 LBIS:AddItem(spec3, "41832", LBIS.L["Waist"], "Alt") --Furious Gladiator's Belt of Triumph
 LBIS:AddItem(spec3, "47420", LBIS.L["Legs"], "BIS") --Legwraps of the Broken Beast
@@ -295,7 +295,6 @@ LBIS:AddItem(spec3, "47116", LBIS.L["Neck"], "Alt") --The Arbiter's Muse
 LBIS:AddItem(spec3, "45517", LBIS.L["Neck"], "Alt") --Pendulum of Infinity
 LBIS:AddItem(spec3, "48011", LBIS.L["Neck"], "Alt") --Fortitude of the Infernal
 LBIS:AddItem(spec3, "47939", LBIS.L["Neck"], "Alt") --Endurance of the Infernal
-LBIS:AddItem(spec3, "36444", LBIS.L["Neck"], "Alt") --Ice Encrusted Amulet
 LBIS:AddItem(spec3, "48027", LBIS.L["Ring"], "BIS") --Band of the Twin Val'kyr
 LBIS:AddItem(spec3, "47955", LBIS.L["Ring"], "BIS") --Loop of the Twin Val'kyr
 LBIS:AddItem(spec3, "47443", LBIS.L["Ring"], "BIS") --Band of Callous Aggression
@@ -304,7 +303,6 @@ LBIS:AddItem(spec3, "49489", LBIS.L["Ring"], "BIS") --Signified Ring of Binding
 LBIS:AddItem(spec3, "49309", LBIS.L["Ring"], "BIS") --Runed Ring of Binding
 LBIS:AddItem(spec3, "45471", LBIS.L["Ring"], "Alt") --Fate's Clutch
 LBIS:AddItem(spec3, "47731", LBIS.L["Ring"], "Alt") --Clutch of Fortification
-LBIS:AddItem(spec3, "36430", LBIS.L["Ring"], "Alt") --Puzzle Ring
 LBIS:AddItem(spec3, "47451", LBIS.L["Trinket"], "BIS") --Juggernaut's Vitality
 LBIS:AddItem(spec3, "47088", LBIS.L["Trinket"], "BIS") --Satrina's Impeding Scarab
 LBIS:AddItem(spec3, "47464", LBIS.L["Trinket"], "BIS") --Death's Choice
