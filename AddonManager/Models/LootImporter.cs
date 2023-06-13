@@ -31,11 +31,27 @@ public class EmblemImporter : LootImporter
         @"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne",
         @"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne#sells;50",
         @"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne#sells;100",
+        @"https://www.wowhead.com/wotlk/npc=31582/magistrix-lambriesse",
+        @"https://www.wowhead.com/wotlk/npc=31582/magistrix-lambriesse#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=31582/magistrix-lambriesse#sells;100",
         @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin",
         @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;50",
         @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;100",
+        @"https://www.wowhead.com/wotlk/npc=31581/magister-brasael",
+        @"https://www.wowhead.com/wotlk/npc=31581/magister-brasael#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=31581/magister-brasael#sells;100",
         @"https://www.wowhead.com/wotlk/npc=33964/arcanist-firael",
-        @"https://www.wowhead.com/wotlk/npc=33964/arcanist-firael#sells;50"
+        @"https://www.wowhead.com/wotlk/npc=33964/arcanist-firael#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=33964/arcanist-firael#sells;100",
+        @"https://www.wowhead.com/wotlk/npc=33963/magister-sarien",
+        @"https://www.wowhead.com/wotlk/npc=33963/magister-sarien#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=33963/magister-sarien#sells;100",
+        @"https://www.wowhead.com/wotlk/npc=35494/arcanist-miluria",
+        @"https://www.wowhead.com/wotlk/npc=35494/arcanist-miluria#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia",
+        @"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina",
+        @"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina#sells;50"
     };
 
     internal override string FileName { get => "EmblemItemList"; }
