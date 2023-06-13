@@ -6,11 +6,14 @@ local spec4 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Discipline"], "4")
 local spec5 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Discipline"], "5")
 
 LBIS:AddGem(spec1, "41401", "3", "True") --Insightful Earthsiege Diamond
-LBIS:AddGem(spec1, "42144", "4", "False") --Runed Dragon's Eye
-LBIS:AddGem(spec1, "45883", "4", "False") --Runed Stormjewel
-LBIS:AddGem(spec1, "39998", "3", "False") --Runed Scarlet Ruby
-LBIS:AddGem(spec1, "40027", "3", "False") --Royal Twilight Opal
-LBIS:AddGem(spec1, "40047", "3", "False") --Luminous Monarch Topaz
+LBIS:AddGem(spec3, "40113", "4", "False") --Runed Cardinal Ruby
+LBIS:AddGem(spec1, "40134", "4", "False") --Royal Dreadstone
+LBIS:AddGem(spec1, "40151", "4", "False") --Luminous Ametrine
+LBIS:AddGem(spec1, "40152", "4", "False") --Potent Ametrine
+LBIS:AddGem(spec1, "50370", "0", "False") --Arcanum of Blissful Mending
+LBIS:AddGem(spec1, "50368", "0", "False") --Arcanum of Burning Mysteries
+LBIS:AddGem(spec1, "50336", "0", "False") --Greater Inscription of the Crag
+LBIS:AddGem(spec1, "50338", "0", "False") --Greater Inscription of the Storm
 
 LBIS:AddEnchant(spec1, "50370", LBIS.L["Head"]) --Arcanum of Blissful Mending
 LBIS:AddEnchant(spec1, "50368", LBIS.L["Head"]) --Arcanum of Burning Mysteries
@@ -21,10 +24,10 @@ LBIS:AddEnchant(spec1, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
 LBIS:AddEnchant(spec1, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec1, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
 LBIS:AddEnchant(spec1, "54793", LBIS.L["Waist"]) --Frag Belt
+LBIS:AddEnchant(spec1, "57691", LBIS.L["Wrist"]) --Fur Lining - Spell Power
 LBIS:AddEnchant(spec1, "60767", LBIS.L["Wrist"]) --Enchant Bracers - Superior Spellpower
 LBIS:AddEnchant(spec1, "44592", LBIS.L["Hands"]) --Enchant Gloves - Exceptional Spellpower
 LBIS:AddEnchant(spec1, "41604", LBIS.L["Legs"]) --Sapphire Spellthread
-LBIS:AddEnchant(spec1, "41602", LBIS.L["Legs"]) --Brilliant Spellthread
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Feet"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "60714", LBIS.L["Two Hand"]) --Enchant Weapon - Mighty Spellpower
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Two Hand"]) --Enchant Staff - Greater Spellpower
@@ -245,3 +248,125 @@ LBIS:AddItem(spec2, "45511", LBIS.L["Ranged/Relic"], "Alt") --Scepter of Lost So
 LBIS:AddItem(spec2, "45170", LBIS.L["Ranged/Relic"], "Alt") --Scepter of Creation
 LBIS:AddItem(spec2, "45713", LBIS.L["Ranged/Relic"], "Alt") --Nurturing Touch
 LBIS:AddItem(spec2, "40245", LBIS.L["Ranged/Relic"], "Alt") --Fading Glow
+
+LBIS:AddItem(spec3, "46197", LBIS.L["Head"], "BIS") --Conqueror's Cowl of Sanctification
+LBIS:AddItem(spec3, "45386", LBIS.L["Head"], "Alt") --Valorous Cowl of Sanctification
+LBIS:AddItem(spec3, "45497", LBIS.L["Head"], "Alt") --Crown of Luminescence
+LBIS:AddItem(spec3, "46190", LBIS.L["Shoulder"], "BIS") --Conqueror's Shoulderpads of Sanctification
+LBIS:AddItem(spec3, "45390", LBIS.L["Shoulder"], "Alt") --Valorous Shoulderpads of Sanctification
+LBIS:AddItem(spec3, "46068", LBIS.L["Shoulder"], "Alt") --Amice of Inconceivable Horror
+LBIS:AddItem(spec3, "47552", LBIS.L["Back"], "BIS") --Jaina's Radiance
+LBIS:AddItem(spec3, "47551", LBIS.L["Back"], "BIS") --Aethas' Intensity
+LBIS:AddItem(spec3, "47238", LBIS.L["Back"], "Alt") --Maiden's Favor
+LBIS:AddItem(spec3, "47490", LBIS.L["Back"], "Alt") --Maiden's Adoration
+LBIS:AddItem(spec3, "48671", LBIS.L["Back"], "Alt") --Drape of Bitter Incantation
+LBIS:AddItem(spec3, "48666", LBIS.L["Back"], "Alt") --Drape of the Sunreavers
+LBIS:AddItem(spec3, "45486", LBIS.L["Back"], "Alt") --Drape of the Sullen Goddess
+LBIS:AddItem(spec3, "45618", LBIS.L["Back"], "Alt") --Sunglimmer Cloak
+LBIS:AddItem(spec3, "46321", LBIS.L["Back"], "Alt") --Sunglimmer Drape
+LBIS:AddItem(spec3, "49491", LBIS.L["Back"], "Alt") --Flowing Sapphiron Drape
+LBIS:AddItem(spec3, "48031", LBIS.L["Chest"], "BIS") --Velen's Robe of Triumph
+LBIS:AddItem(spec3, "48060", LBIS.L["Chest"], "BIS") --Zabra's Robe of Triumph
+LBIS:AddItem(spec3, "46193", LBIS.L["Chest"], "BIS") --Conqueror's Robe of Sanctification
+LBIS:AddItem(spec3, "46993", LBIS.L["Chest"], "Alt") --Flowing Vestments of Ascent
+LBIS:AddItem(spec3, "47425", LBIS.L["Chest"], "Alt") --Flowing Robes of Ascent
+LBIS:AddItem(spec3, "45389", LBIS.L["Chest"], "Alt") --Valorous Robe of Sanctification
+LBIS:AddItem(spec3, "47605", LBIS.L["Chest"], "Alt") --Royal Moonshroud Robe
+LBIS:AddItem(spec3, "47606", LBIS.L["Chest"], "Alt") --Royal Moonshroud Robe
+LBIS:AddItem(spec3, "45272", LBIS.L["Chest"], "Alt") --Robes of the Umbral Brute
+LBIS:AddItem(spec3, "45240", LBIS.L["Chest"], "Alt") --Raiments of the Iron Council
+LBIS:AddItem(spec3, "47143", LBIS.L["Wrist"], "BIS") --Bindings of Dark Essence
+LBIS:AddItem(spec3, "47467", LBIS.L["Wrist"], "BIS") --Dark Essence Bindings
+LBIS:AddItem(spec3, "47587", LBIS.L["Wrist"], "Alt") --Royal Moonshroud Bracers
+LBIS:AddItem(spec3, "47588", LBIS.L["Wrist"], "Alt") --Royal Moonshroud Bracers
+LBIS:AddItem(spec3, "47208", LBIS.L["Wrist"], "Alt") --Armbands of the Ashen Saint
+LBIS:AddItem(spec3, "47485", LBIS.L["Wrist"], "Alt") --Bindings of the Ashen Saint
+LBIS:AddItem(spec3, "45446", LBIS.L["Wrist"], "Alt") --Grasps of Reason
+LBIS:AddItem(spec3, "45146", LBIS.L["Wrist"], "Alt") --Shackles of the Odalisque
+LBIS:AddItem(spec3, "44008", LBIS.L["Wrist"], "Alt") --Unsullied Cuffs
+LBIS:AddItem(spec3, "46188", LBIS.L["Hands"], "BIS") --Conqueror's Gloves of Sanctification
+LBIS:AddItem(spec3, "47236", LBIS.L["Hands"], "BIS") --Gloves of the Lifeless Touch
+LBIS:AddItem(spec3, "47487", LBIS.L["Hands"], "BIS") --Handwraps of the Lifeless Touch
+LBIS:AddItem(spec3, "45665", LBIS.L["Hands"], "Alt") --Pharos Gloves
+LBIS:AddItem(spec3, "45520", LBIS.L["Hands"], "Alt") --Handwraps of the Vigilant
+LBIS:AddItem(spec3, "45387", LBIS.L["Hands"], "Alt") --Valorous Gloves of Sanctification
+LBIS:AddItem(spec3, "47084", LBIS.L["Waist"], "BIS") --Cord of Biting Cold
+LBIS:AddItem(spec3, "47447", LBIS.L["Waist"], "BIS") --Belt of Biting Cold
+LBIS:AddItem(spec3, "45619", LBIS.L["Waist"], "BIS") --Starwatcher's Binding
+LBIS:AddItem(spec3, "48054", LBIS.L["Waist"], "Alt") --Belt of the Eternal
+LBIS:AddItem(spec3, "47977", LBIS.L["Waist"], "Alt") --Cinch of the Undying
+LBIS:AddItem(spec3, "45558", LBIS.L["Waist"], "Alt") --Cord of the White Dawn
+LBIS:AddItem(spec3, "45831", LBIS.L["Waist"], "Alt") --Sash of Potent Incantations
+LBIS:AddItem(spec3, "40561", LBIS.L["Waist"], "Alt") --Leash of Heedless Magic
+LBIS:AddItem(spec3, "47189", LBIS.L["Legs"], "BIS") --Leggings of the Deepening Void
+LBIS:AddItem(spec3, "47478", LBIS.L["Legs"], "BIS") --Breeches of the Deepening Void
+LBIS:AddItem(spec3, "46195", LBIS.L["Legs"], "BIS") --Conqueror's Leggings of Sanctification
+LBIS:AddItem(spec3, "45388", LBIS.L["Legs"], "Alt") --Valorous Leggings of Sanctification
+LBIS:AddItem(spec3, "45488", LBIS.L["Legs"], "Alt") --Leggings of the Enslaved Idol
+LBIS:AddItem(spec3, "46034", LBIS.L["Legs"], "Alt") --Leggings of Profound Darkness
+LBIS:AddItem(spec3, "45468", LBIS.L["Legs"], "Alt") --Leggings of Lost Love
+LBIS:AddItem(spec3, "47097", LBIS.L["Feet"], "BIS") --Boots of the Mourning Widow
+LBIS:AddItem(spec3, "47454", LBIS.L["Feet"], "BIS") --Sandals of the Mourning Widow
+LBIS:AddItem(spec3, "45537", LBIS.L["Feet"], "Alt") --Treads of the False Oracle
+LBIS:AddItem(spec3, "45135", LBIS.L["Feet"], "Alt") --Boots of Fiery Resolution
+LBIS:AddItem(spec3, "46050", LBIS.L["Feet"], "Alt") --Starlight Treads
+LBIS:AddItem(spec3, "49234", LBIS.L["Feet"], "Alt") --Boots of the Grieving Soul
+LBIS:AddItem(spec3, "49233", LBIS.L["Feet"], "Alt") --Sandals of the Grieving Soul
+LBIS:AddItem(spec3, "47940", LBIS.L["Feet"], "Alt") --Sandals of the Silver Magus
+LBIS:AddItem(spec3, "48012", LBIS.L["Feet"], "Alt") --Sunreaver Magus' Sandals
+LBIS:AddItem(spec3, "45567", LBIS.L["Feet"], "Alt") --Savior's Slippers
+LBIS:AddItem(spec3, "45566", LBIS.L["Feet"], "Alt") --Spellslinger's Slippers
+LBIS:AddItem(spec3, "24116", LBIS.L["Neck"], "BIS") --Eye of the Night
+LBIS:AddItem(spec3, "24121", LBIS.L["Neck"], "BIS") --Chain of the Twilight Owl
+LBIS:AddItem(spec3, "47144", LBIS.L["Neck"], "BIS") --Wail of the Val'kyr
+LBIS:AddItem(spec3, "47468", LBIS.L["Neck"], "BIS") --Cry of the Val'kyr
+LBIS:AddItem(spec3, "47930", LBIS.L["Neck"], "BIS") --Amulet of Binding Elements
+LBIS:AddItem(spec3, "48003", LBIS.L["Neck"], "BIS") --Pendant of Binding Elements
+LBIS:AddItem(spec3, "45443", LBIS.L["Neck"], "Alt") --Charm of Meticulous Timing
+LBIS:AddItem(spec3, "45933", LBIS.L["Neck"], "Alt") --Pendant of the Shallow Grave
+LBIS:AddItem(spec3, "46047", LBIS.L["Neck"], "Alt") --Pendant of the Somber Witness
+LBIS:AddItem(spec3, "45447", LBIS.L["Neck"], "Alt") --Watchful Eye of Fate
+LBIS:AddItem(spec3, "45116", LBIS.L["Neck"], "Alt") --Freya's Choker of Warding
+LBIS:AddItem(spec3, "47237", LBIS.L["Ring"], "BIS") --Band of Deplorable Violence
+LBIS:AddItem(spec3, "47489", LBIS.L["Ring"], "BIS") --Lurid Manifestation
+LBIS:AddItem(spec3, "47224", LBIS.L["Ring"], "BIS") --Ring of the Darkmender
+LBIS:AddItem(spec3, "47439", LBIS.L["Ring"], "BIS") --Circle of the Darkmender
+LBIS:AddItem(spec3, "46096", LBIS.L["Ring"], "Alt") --Signet of Soft Lament
+LBIS:AddItem(spec3, "46046", LBIS.L["Ring"], "Alt") --Nebula Band
+LBIS:AddItem(spec3, "45614", LBIS.L["Ring"], "Alt") --Starshine Circle
+LBIS:AddItem(spec3, "45946", LBIS.L["Ring"], "Alt") --Fire Orchid Signet
+LBIS:AddItem(spec3, "46323", LBIS.L["Ring"], "Alt") --Starshine Signet
+LBIS:AddItem(spec3, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Dragon Soul
+LBIS:AddItem(spec3, "47059", LBIS.L["Trinket"], "BIS") --Solace of the Defeated
+LBIS:AddItem(spec3, "47432", LBIS.L["Trinket"], "BIS") --Solace of the Fallen
+LBIS:AddItem(spec3, "45535", LBIS.L["Trinket"], "Alt") --Show of Faith
+LBIS:AddItem(spec3, "45929", LBIS.L["Trinket"], "Alt") --Sif's Remembrance
+LBIS:AddItem(spec3, "46051", LBIS.L["Trinket"], "Alt") --Meteorite Crystal
+LBIS:AddItem(spec3, "44255", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Greatness
+LBIS:AddItem(spec3, "45703", LBIS.L["Trinket"], "Alt") --Spark of Hope
+LBIS:AddItem(spec3, "46017", LBIS.L["Main Hand"], "BIS") --Val'anyr, Hammer of Ancient Kings
+LBIS:AddItem(spec3, "48519", LBIS.L["Main Hand"], "BIS") --Relentless Gladiator's Salvation
+LBIS:AddItem(spec3, "47206", LBIS.L["Main Hand"], "BIS") --Misery's End
+LBIS:AddItem(spec3, "47483", LBIS.L["Main Hand"], "BIS") --Suffering's End
+LBIS:AddItem(spec3, "47524", LBIS.L["Main Hand"], "Alt") --Clemency
+LBIS:AddItem(spec3, "47525", LBIS.L["Main Hand"], "Alt") --Sufferance
+LBIS:AddItem(spec3, "45612", LBIS.L["Main Hand"], "Alt") --Constellus
+LBIS:AddItem(spec3, "45457", LBIS.L["Main Hand"], "Alt") --Staff of Endless Winter
+LBIS:AddItem(spec3, "48709", LBIS.L["Main Hand"], "Alt") --Heartcrusher
+LBIS:AddItem(spec3, "48693", LBIS.L["Main Hand"], "Alt") --Heartsmasher
+LBIS:AddItem(spec3, "46035", LBIS.L["Main Hand"], "Alt") --Aesuga, Hand of the Ardent Champion
+LBIS:AddItem(spec3, "47146", LBIS.L["Off Hand"], "BIS") --Chalice of Searing Light
+LBIS:AddItem(spec3, "47470", LBIS.L["Off Hand"], "BIS") --Mystifying Charm
+LBIS:AddItem(spec3, "47064", LBIS.L["Off Hand"], "Alt") --Symbol of Transgression
+LBIS:AddItem(spec3, "47437", LBIS.L["Off Hand"], "Alt") --Talisman of Heedless Sins
+LBIS:AddItem(spec3, "45617", LBIS.L["Off Hand"], "Alt") --Cosmos
+LBIS:AddItem(spec3, "45271", LBIS.L["Off Hand"], "Alt") --Ironmender
+LBIS:AddItem(spec3, "45314", LBIS.L["Off Hand"], "Alt") --Igniter Rod
+LBIS:AddItem(spec3, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
+LBIS:AddItem(spec3, "47922", LBIS.L["Ranged/Relic"], "Alt") --Rod of Imprisoned Souls
+LBIS:AddItem(spec3, "47995", LBIS.L["Ranged/Relic"], "Alt") --Scepter of Imprisoned Souls
+LBIS:AddItem(spec3, "45511", LBIS.L["Ranged/Relic"], "Alt") --Scepter of Lost Souls
+LBIS:AddItem(spec3, "45170", LBIS.L["Ranged/Relic"], "Alt") --Scepter of Creation
+LBIS:AddItem(spec3, "47612", LBIS.L["Ranged/Relic"], "Alt") --Rod of Imprisoned Souls
+LBIS:AddItem(spec3, "47856", LBIS.L["Ranged/Relic"], "Alt") --Scepter of Imprisoned Souls
+LBIS:AddItem(spec3, "45713", LBIS.L["Ranged/Relic"], "Alt") --Nurturing Touch

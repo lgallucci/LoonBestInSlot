@@ -911,7 +911,6 @@ public class ClassSpecGuideMappings
             { ("Gem", "h2#best-gems+.box~.box~.box~.box") },
             { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box") },
             { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box~.box~.box") },
 
             { ("Head", "h2#best-enchants~.box") },
             { ("Shoulder", "h2#best-enchants~.box~.box") },
@@ -1177,8 +1176,6 @@ public class ClassSpecGuideMappings
             { ("Gem", "h2#best-gems+.box~.box") },
             { ("Gem", "h2#best-gems+.box~.box~.box") },
             { ("Gem", "h2#best-gems+.box~.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box~.box") },
 
             { ("Head", "h2#best-enchants~.box") },
             { ("Shoulder", "h2#best-enchants~.box~.box") },
@@ -1246,7 +1243,6 @@ public class ClassSpecGuideMappings
             { ("Gem", "h2#best-gems+.box~.box") },
             { ("Gem", "h2#best-gems+.box~.box~.box") },
             { ("Gem", "h2#best-gems+.box~.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box") },
 
             { ("Head", "h2#best-enchants~.box") },
             { ("Shoulder", "h2#best-enchants~.box~.box") },
