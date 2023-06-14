@@ -88,6 +88,11 @@ public class WowheadGuideParser
         { 55389, 41285 }, //Chaotic Skyflare Diamond
     };
 
+    private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()
+    {
+        { 49314, 49485 } //Sparkling Onyxia Tooth Pendant
+    };
+
     private Dictionary<string, string> _altModifierTextSwaps = new Dictionary<string, string>()
     {
         { "stam", "Stam" },
@@ -337,6 +342,10 @@ public class WowheadGuideParser
                     {
                         int itemId = -99999;
                         Int32.TryParse(item, out itemId);
+
+                        if (_itemSwaps.ContainsKey(itemId))
+                            itemId = _itemSwaps[itemId];
+
                         if (!items.ContainsKey(itemId))
                         {
                             items.Add(itemId, new ItemSpec

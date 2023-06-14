@@ -9734,7 +9734,7 @@
         },
         "47242": {
             "Name": "Trophy of the Crusade",
-            "Source": "Tokens",
+            "Source": "Tokens", //TODO: NEED TO HAVE A FIX FOR THIS !
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Trial of the Grand Crusader (25)"

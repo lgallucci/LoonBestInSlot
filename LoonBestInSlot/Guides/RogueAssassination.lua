@@ -331,7 +331,6 @@ LBIS:AddItem(spec3, "47915", LBIS.L["Neck"], "Alt") --Collar of Ceaseless Tormen
 LBIS:AddItem(spec3, "49485", LBIS.L["Neck"], "Alt") --Sparkling Onyxia Tooth Pendant
 LBIS:AddItem(spec3, "45945", LBIS.L["Neck"], "Alt") --Seed of Budding Carnage
 LBIS:AddItem(spec3, "45480", LBIS.L["Neck"], "Alt") --Nymph Heart Charm
-LBIS:AddItem(spec3, "49314", LBIS.L["Neck"], "Alt") --Sparkling Onyxia Tooth Pendant
 LBIS:AddItem(spec3, "47607", LBIS.L["Neck"], "Alt") --Collar of Ceaseless Torment
 LBIS:AddItem(spec3, "47075", LBIS.L["Ring"], "BIS") --Ring of Callous Aggression
 LBIS:AddItem(spec3, "45608", LBIS.L["Ring"], "BIS") --Brann's Signet Ring

@@ -3331,7 +3331,6 @@ LBIS.ItemSources =
     [49308] = { Name = "Antique Cornerstone Grimoire", SourceType = LBIS.L["Drop"], Source = LBIS.L["Onyxia"], SourceNumber = "0", SourceLocation = LBIS.L["Onyxia (10)"] },
     [49309] = { Name = "Runed Ring of Binding", SourceType = LBIS.L["Drop"], Source = LBIS.L["Onyxia"], SourceNumber = "0", SourceLocation = LBIS.L["Onyxia (10)"] },
     [49310] = { Name = "Purified Shard of the Scale", SourceType = LBIS.L["Drop"], Source = LBIS.L["Onyxia"], SourceNumber = "0", SourceLocation = LBIS.L["Onyxia (10)"] },
-    [49314] = { Name = "Sparkling Onyxia Tooth Pendant", SourceType = unknown, Source = unknown, SourceNumber = "0", SourceLocation = unknown },
     [49315] = { Name = "Nemesis Skullcover", SourceType = LBIS.L["Drop"], Source = LBIS.L["Onyxia"], SourceNumber = "0", SourceLocation = LBIS.L["Onyxia (10)"] },
     [49316] = { Name = "Circlet of Transcendence", SourceType = LBIS.L["Drop"], Source = LBIS.L["Onyxia"], SourceNumber = "0", SourceLocation = LBIS.L["Onyxia (10)"] },
     [49317] = { Name = "Coronet of Transcendence", SourceType = LBIS.L["Drop"], Source = LBIS.L["Onyxia"], SourceNumber = "0", SourceLocation = LBIS.L["Onyxia (10)"] },
