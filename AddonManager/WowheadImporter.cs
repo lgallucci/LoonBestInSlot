@@ -100,10 +100,10 @@ public static class WowheadImporter
                             {
                                 ItemId = item.Value.ItemId,
                                 Name = item.Value.Name,
-                                SourceType = "unknown",
-                                Source = "unknown",
+                                SourceType = "LBIS.L[\"unknown\"]",
+                                Source = "LBIS.L[\"unknown\"]",
                                 SourceNumber = "0",
-                                SourceLocation = "unknown"
+                                SourceLocation = "LBIS.L[\"unknown\"]"
                             });
                         }
                         item.Value.BisStatus = "BIS";
@@ -116,10 +116,10 @@ public static class WowheadImporter
                         {
                             ItemId = item.Value.ItemId,
                             Name = item.Value.Name,
-                            SourceType = "unknown",
-                            Source = "unknown",
+                            SourceType = "LBIS.L[\"unknown\"]",
+                            Source = "LBIS.L[\"unknown\"]",
                             SourceNumber = "0",
-                            SourceLocation = "unknown"
+                            SourceLocation = "LBIS.L[\"unknown\"]"
                         });
                     }
 
