@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using System;
 using System.IO;
 using System.Security;
+using System.Threading;
 using System.Windows.Controls;
 using System.Windows.Shapes;
 
@@ -71,7 +72,112 @@ public static class WowheadImporter
         return verificationSucceeded;
     }
 
+
+    public static async Task ImportGemsAndEnchants(string[] specList, CancellationToken cancelToken, Action<string> logMethod)
+    {
+        var addresses = new List<string>();
+        var addressToSpec = new Dictionary<string, ClassGuideMapping>();
+        foreach (string spec in specList)
+        {
+            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == "GemsEnchants");
+
+            if (specMapping == null)
+            {
+                logMethod($"{spec} Failed! - Can't find Spec!" + Environment.NewLine);
+                continue;
+            }
+            else
+            {
+                addresses.Add(specMapping.WebAddress);
+                addressToSpec.Add(specMapping.WebAddress, specMapping);
+            }
+        }
+
+        await Common.LoadFromWebPages(addresses, async (address, content) =>
+        {
+            var spec = addressToSpec[address];
+            try
+            {
+                var result = await ImportGemsAndEnchantsInternal(spec, content);
+
+                logMethod($"{spec} Completed! - Verification Passed!" + Environment.NewLine);
+            }
+            catch (VerificationException vex)
+            {
+                logMethod($"{spec} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}..." + Environment.NewLine);
+            }
+            catch (ParseException ex)
+            {
+                logMethod($"{spec} Failed! - {ex.Message.Substring(0, 150)}..." + Environment.NewLine);
+            }
+        }, cancelToken);
+    }
+
+    public static async Task ImportClasses(string[] specList, int phaseNumber, CancellationToken cancelToken, Action<string> logMethod)
+    {
+        var addresses = new List<string>();
+        var addressToSpec = new Dictionary<string, ClassGuideMapping>();
+        foreach (string spec in specList)
+        {
+            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == $"Phase{phaseNumber}");
+
+            if (specMapping == null)
+            {
+                logMethod($"{spec} Failed! - Can't find Spec!" + Environment.NewLine);
+                continue;
+            } 
+            else
+            {
+                addresses.Add(specMapping.WebAddress);
+                addressToSpec.Add(specMapping.WebAddress, specMapping);
+            }
+        }
+
+        await Common.LoadFromWebPages(addresses, async (address, content) =>
+        {
+            var spec = addressToSpec[address];
+            try
+            {
+                var result = await ImportClassInternal(spec, phaseNumber, content);
+
+                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!" + Environment.NewLine);
+            }
+            catch (VerificationException vex)
+            {
+                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}..." + Environment.NewLine);
+            }
+            catch (ParseException ex)
+            {
+                logMethod($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}..." + Environment.NewLine);
+            }
+        }, cancelToken);
+
+        logMethod($"Done!" + Environment.NewLine);
+    }
+
+    public static async Task<string> ImportGemsAndEnchants(ClassGuideMapping classGuide)
+    {
+        var result = string.Empty;
+        await Common.LoadFromWebPage(classGuide.WebAddress, async (content) =>
+        {
+            result = await ImportGemsAndEnchantsInternal(classGuide, content);
+        });
+
+        return result;
+    }
+
     public static async Task<string> ImportClass(ClassGuideMapping classGuide, int phaseNumber)
+    {
+        var result = string.Empty;
+        await Common.LoadFromWebPage(classGuide.WebAddress, async (content) =>
+        {
+            result = await ImportClassInternal(classGuide, phaseNumber, content);
+        });
+
+        return result;
+    }
+
+    private static async Task<string> ImportClassInternal(ClassGuideMapping classGuide, int phaseNumber, string content)
     {
         var sb = new StringBuilder();
         var items = new Dictionary<int, ItemSpec>();
@@ -86,9 +192,9 @@ public static class WowheadImporter
                 var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
 
                 if (phaseNumber == 0)
-                    items = await new WowheadGuideParser().ParsePreRaidWowheadGuide(classGuide);
+                    items = await new WowheadGuideParser().ParsePreRaidWowheadGuide(content);
                 else
-                    items = await new WowheadGuideParser().ParseWowheadGuide(classGuide);
+                    items = await new WowheadGuideParser().ParseWowheadGuide(classGuide, content);
 
                 foreach (var item in items)
                 {
@@ -146,7 +252,7 @@ public static class WowheadImporter
         return sb.ToString();
     }
 
-    public static async Task<string> ImportGemsAndEnchants(ClassGuideMapping classGuide)
+    private static async Task<string> ImportGemsAndEnchantsInternal(ClassGuideMapping classGuide, string content)
     {
         var sb = new StringBuilder();
         try
@@ -154,7 +260,7 @@ public static class WowheadImporter
             var className = $"{classGuide.ClassName}{classGuide.SpecName}";
             var gemSources = ItemSourceFileManager.ReadGemSources();
             var enchantSources = ItemSourceFileManager.ReadEnchantSources();
-            var gemsEnchants = await new WowheadGuideParser().ParseGemEnchantsWowheadGuide(classGuide);
+            var gemsEnchants = await new WowheadGuideParser().ParseGemEnchantsWowheadGuide(classGuide, content);
 
             var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
 
@@ -460,5 +566,6 @@ public static class WowheadImporter
             }
         }
     }
+
 }
 

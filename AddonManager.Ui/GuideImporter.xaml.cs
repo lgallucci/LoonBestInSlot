@@ -10,6 +10,7 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.IO;
 using System.Security;
+using System.Threading;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -35,11 +36,11 @@ public sealed partial class GuideImporter : Page
         cmbPhase.ItemsSource = PhaseList;
     }
 
-    private bool _importIsCanceled;
+    CancellationTokenSource _importCancelToken = new CancellationTokenSource();
     private async void Import_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = string.Empty;
-        _importIsCanceled = false;
+        _importCancelToken.TryReset();
         var phaseString = cmbPhase.SelectedValue.ToString();
         var phaseNumber = 0;
         if (phaseString.Contains("Phase"))
@@ -77,49 +78,17 @@ public sealed partial class GuideImporter : Page
     private async void ImportAll_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = string.Empty;
-        _importIsCanceled = false;
+        _importCancelToken.TryReset();
         var phaseString = cmbPhase.SelectedValue.ToString();
         var phaseNumber = 0;
         if (phaseString.Contains("Phase"))
             phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
 
-        foreach (string spec in SpecList) //TODO: Convert to Single Browser loop
-        {
-            try
-            {
-                if (_importIsCanceled)
-                {
-                    ConsoleOut.Text += $"Import Canceled!" + Environment.NewLine;
-                    _importIsCanceled = false;
-                    return;
-                }
-
-                var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == phaseString);
-
-                if (specMapping == null)
-                {
-                    ConsoleOut.Text += $"{spec} Failed! - Can't find Spec!" + Environment.NewLine;
-                    continue;
-                }
-
-                string result = string.Empty;
-                if (phaseString == "GemsEnchants")
-                    result = await WowheadImporter.ImportGemsAndEnchants(specMapping);
-                else
-                    result = await WowheadImporter.ImportClass(specMapping, phaseNumber);
-
-                ConsoleOut.Text += $"{spec} Completed! - Verification Passed!" + Environment.NewLine;
-            }
-            catch (VerificationException vex)
-            {
-                ConsoleOut.Text += $"{spec} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}..." + Environment.NewLine;
-            }
-            catch (ParseException ex)
-            {
-                ConsoleOut.Text += $"{spec} Failed! - {ex.Message.Substring(0, 150)}..." + Environment.NewLine;
-            }
-        }
-        ConsoleOut.Text += $"Done!" + Environment.NewLine;
+        string result = string.Empty;
+        if (phaseString == "GemsEnchants")
+            await WowheadImporter.ImportGemsAndEnchants(SpecList, _importCancelToken.Token, (log) => ConsoleOut.Text += log);
+        else
+            await WowheadImporter.ImportClasses(SpecList, phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log);
     }
 
     private void Verify_Click(object sender, RoutedEventArgs e)
@@ -155,7 +124,7 @@ public sealed partial class GuideImporter : Page
 
     private void Cancel_Click(object sender, RoutedEventArgs e)
     {
-        _importIsCanceled = true;
+        _importCancelToken.Cancel();
     }
 
     private void Localize_Click(object sender, RoutedEventArgs e)

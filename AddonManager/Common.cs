@@ -1,4 +1,5 @@
-﻿using AngleSharp.Dom;
+﻿using System.Threading;
+using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
 using AngleSharp.Html.Parser;
 using PuppeteerSharp;
@@ -6,7 +7,7 @@ using PuppeteerSharp;
 namespace AddonManager;
 internal static class Common
 {
-    internal static async Task LoadFromWebPages(List<string> pageAddresses, Func<string, string, Task> func)
+    internal static async Task LoadFromWebPages(List<string> pageAddresses, Func<string, string, Task> func, CancellationToken? cancelToken = null)
     {
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
@@ -16,6 +17,11 @@ internal static class Common
         {
             foreach (var pageAddress in pageAddresses)
             {
+                if (cancelToken != null && cancelToken.Value.IsCancellationRequested)
+                {
+                    break;
+                }
+
                 using (var page = await browser.NewPageAsync())
                 {
                     page.DefaultTimeout = 0; // or you can set this as 0

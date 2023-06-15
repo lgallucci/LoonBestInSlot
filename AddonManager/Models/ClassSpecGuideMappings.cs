@@ -286,7 +286,7 @@ public class ClassSpecGuideMappings
             "Unholy", "Death Knight", "Phase3", new List<(string, GuideMapping)>
         {
             { ("Main Hand", "#main-hand-weapons-for-unholy-death-knight-dps-phase-3") },
-            { ("Off Hand", "#off-hand-weapons-for-frost-death-knight-dps-phase-3") },
+            { ("Off Hand", "#off-hand-weapons-for-unholy-death-knight-dps-phase-3") },
             { ("Ranged/Relic", "#sigils-for-unholy-death-knight-dps-phase-3") },
         }));
         #endregion

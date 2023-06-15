@@ -199,6 +199,8 @@ LBIS:AddItem(spec3, "46146", LBIS.L["Chest"], "BIS") --Conqueror's Siegebreaker 
 LBIS:AddItem(spec3, "45473", LBIS.L["Chest"], "Alt") --Embrace of the Gladiator
 LBIS:AddItem(spec3, "47442", LBIS.L["Wrist"], "BIS") --Bracers of the Silent Massacre
 LBIS:AddItem(spec3, "47074", LBIS.L["Wrist"], "BIS") --Bracers of the Untold Massacre
+LBIS:AddItem(spec3, "47144", LBIS.L["Wrist"], "BIS") --Wail of the Val'kyr
+LBIS:AddItem(spec3, "46967", LBIS.L["Wrist"], "BIS") --Boneshatter Armplates
 LBIS:AddItem(spec3, "47474", LBIS.L["Wrist"], "BIS") --Armbands of Dark Determination
 LBIS:AddItem(spec3, "47155", LBIS.L["Wrist"], "BIS") --Bracers of Dark Determination
 LBIS:AddItem(spec3, "45611", LBIS.L["Wrist"], "Alt") --Solar Bindings
@@ -217,8 +219,8 @@ LBIS:AddItem(spec3, "47472", LBIS.L["Waist"], "Alt") --Waistguard of Deathly Dom
 LBIS:AddItem(spec3, "47153", LBIS.L["Waist"], "Alt") --Belt of Deathly Dominion
 LBIS:AddItem(spec3, "47998", LBIS.L["Waist"], "Alt") --Belt of the Impaler
 LBIS:AddItem(spec3, "47925", LBIS.L["Waist"], "Alt") --Girdle of the Impaler
-LBIS:AddItem(spec3, "48382", LBIS.L["Legs"], "BIS") --Wrynn's Legplates of Triumph
 LBIS:AddItem(spec3, "48399", LBIS.L["Legs"], "BIS") --Hellscream's Legplates of Triumph
+LBIS:AddItem(spec3, "48382", LBIS.L["Legs"], "BIS") --Wrynn's Legplates of Triumph
 LBIS:AddItem(spec3, "48394", LBIS.L["Legs"], "BIS") --Hellscream's Legplates of Triumph
 LBIS:AddItem(spec3, "48379", LBIS.L["Legs"], "BIS") --Wrynn's Legplates of Triumph
 LBIS:AddItem(spec3, "47480", LBIS.L["Legs"], "Alt") --Leggings of the Lurking Threat
@@ -240,8 +242,8 @@ LBIS:AddItem(spec3, "45459", LBIS.L["Neck"], "Alt") --Frigid Strength of Hodir
 LBIS:AddItem(spec3, "45517", LBIS.L["Neck"], "Alt") --Pendulum of Infinity
 LBIS:AddItem(spec3, "47443", LBIS.L["Ring"], "BIS") --Band of Callous Aggression
 LBIS:AddItem(spec3, "47075", LBIS.L["Ring"], "BIS") --Ring of Callous Aggression
-LBIS:AddItem(spec3, "47413", LBIS.L["Ring"], "BIS") --Ring of the Violent Temperament
 LBIS:AddItem(spec3, "46966", LBIS.L["Ring"], "BIS") --Band of the Violent Temperment
+LBIS:AddItem(spec3, "47413", LBIS.L["Ring"], "BIS") --Ring of the Violent Temperament
 LBIS:AddItem(spec3, "47993", LBIS.L["Ring"], "BIS") --Gormok's Band
 LBIS:AddItem(spec3, "47920", LBIS.L["Ring"], "BIS") --Carnivorous Band
 LBIS:AddItem(spec3, "45608", LBIS.L["Ring"], "BIS") --Brann's Signet Ring
@@ -256,9 +258,9 @@ LBIS:AddItem(spec3, "47446", LBIS.L["Two Hand"], "BIS") --Dual-blade Butcher
 LBIS:AddItem(spec3, "47078", LBIS.L["Two Hand"], "BIS") --Justicebringer
 LBIS:AddItem(spec3, "47520", LBIS.L["Two Hand"], "BIS") --Grievance
 LBIS:AddItem(spec3, "47519", LBIS.L["Two Hand"], "BIS") --Catastrophe
-LBIS:AddItem(spec3, "47516", LBIS.L["Two Hand"], "BIS") --Fleshrender
-LBIS:AddItem(spec3, "47515", LBIS.L["Two Hand"], "BIS") --Decimation
 LBIS:AddItem(spec3, "45516", LBIS.L["Two Hand"], "Alt") --Voldrethar, Dark Blade of Oblivion
+LBIS:AddItem(spec3, "47516", LBIS.L["Two Hand"], "Alt") --Fleshrender
+LBIS:AddItem(spec3, "47515", LBIS.L["Two Hand"], "Alt") --Decimation
 LBIS:AddItem(spec3, "45868", LBIS.L["Two Hand"], "Alt") --Aesir's Edge
 LBIS:AddItem(spec3, "46995", LBIS.L["Ranged/Relic"], "BIS") --Talonstrike
 LBIS:AddItem(spec3, "47428", LBIS.L["Ranged/Relic"], "BIS") --Death's Head Crossbow

@@ -216,8 +216,8 @@ LBIS:AddItem(spec3, "40543", LBIS.L["Head"], "Alt") --Blue Aspect Helm
 LBIS:AddItem(spec3, "45412", LBIS.L["Head"], "Alt") --Valorous Worldbreaker Faceguard
 LBIS:AddItem(spec3, "48351", LBIS.L["Shoulder"], "BIS") --Nobundo's Shoulderguards of Triumph
 LBIS:AddItem(spec3, "48360", LBIS.L["Shoulder"], "BIS") --Thrall's Shoulderguards of Triumph
-LBIS:AddItem(spec3, "48361", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderguards of Triumph
 LBIS:AddItem(spec3, "48350", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderguards of Triumph
+LBIS:AddItem(spec3, "48361", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderguards of Triumph
 LBIS:AddItem(spec3, "48345", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderguards of Conquest
 LBIS:AddItem(spec3, "48370", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderguards of Conquest
 LBIS:AddItem(spec3, "46203", LBIS.L["Shoulder"], "Alt") --Conqueror's Worldbreaker Shoulderguards
@@ -244,6 +244,11 @@ LBIS:AddItem(spec3, "46205", LBIS.L["Chest"], "Alt") --Conqueror's Worldbreaker 
 LBIS:AddItem(spec3, "45413", LBIS.L["Chest"], "Alt") --Valorous Worldbreaker Chestguard
 LBIS:AddItem(spec3, "47916", LBIS.L["Wrist"], "BIS") --Armbands of the Northern Stalker
 LBIS:AddItem(spec3, "47989", LBIS.L["Wrist"], "BIS") --Bracers of the Northern Stalker
+LBIS:AddItem(spec3, "47143", LBIS.L["Wrist"], "BIS") --Bindings of Dark Essence
+LBIS:AddItem(spec3, "47467", LBIS.L["Wrist"], "BIS") --Dark Essence Bindings
+LBIS:AddItem(spec3, "47474", LBIS.L["Wrist"], "Alt") --Armbands of Dark Determination
+LBIS:AddItem(spec3, "47155", LBIS.L["Wrist"], "Alt") --Bracers of Dark Determination
+LBIS:AddItem(spec3, "45611", LBIS.L["Wrist"], "Alt") --Solar Bindings
 LBIS:AddItem(spec3, "45460", LBIS.L["Wrist"], "Alt") --Bindings of Winter Gale
 LBIS:AddItem(spec3, "45454", LBIS.L["Wrist"], "Alt") --Frost-bound Chain Bracers
 LBIS:AddItem(spec3, "45869", LBIS.L["Wrist"], "Alt") --Fluxing Energy Coils
@@ -257,8 +262,10 @@ LBIS:AddItem(spec3, "46200", LBIS.L["Hands"], "Alt") --Conqueror's Worldbreaker 
 LBIS:AddItem(spec3, "45414", LBIS.L["Hands"], "Alt") --Valorous Worldbreaker Grips
 LBIS:AddItem(spec3, "45444", LBIS.L["Hands"], "Alt") --Gloves of the Steady Hand
 LBIS:AddItem(spec3, "45665", LBIS.L["Hands"], "Alt") --Pharos Gloves
-LBIS:AddItem(spec3, "47460", LBIS.L["Waist"], "BIS") --Belt of the Pitiless Killer
 LBIS:AddItem(spec3, "47112", LBIS.L["Waist"], "BIS") --Belt of the Merciless Killer
+LBIS:AddItem(spec3, "47460", LBIS.L["Waist"], "BIS") --Belt of the Pitiless Killer
+LBIS:AddItem(spec3, "47084", LBIS.L["Waist"], "BIS") --Cord of Biting Cold
+LBIS:AddItem(spec3, "47447", LBIS.L["Waist"], "BIS") --Belt of Biting Cold
 LBIS:AddItem(spec3, "45553", LBIS.L["Waist"], "Alt") --Belt of Dragons
 LBIS:AddItem(spec3, "45827", LBIS.L["Waist"], "Alt") --Belt of the Ardent Marksman
 LBIS:AddItem(spec3, "45491", LBIS.L["Waist"], "Alt") --Waistguard of the Creator
@@ -271,8 +278,8 @@ LBIS:AddItem(spec3, "48369", LBIS.L["Legs"], "Alt") --Thrall's War-Kilt of Conqu
 LBIS:AddItem(spec3, "46208", LBIS.L["Legs"], "Alt") --Conqueror's Worldbreaker War-Kilt
 LBIS:AddItem(spec3, "45416", LBIS.L["Legs"], "Alt") --Valorous Worldbreaker War-Kilt
 LBIS:AddItem(spec3, "45844", LBIS.L["Legs"], "Alt") --Leggings of the Tireless Sentry
-LBIS:AddItem(spec3, "47456", LBIS.L["Feet"], "BIS") --Sabatons of Tremoring Earth
 LBIS:AddItem(spec3, "47099", LBIS.L["Feet"], "BIS") --Boots of Tremoring Earth
+LBIS:AddItem(spec3, "47456", LBIS.L["Feet"], "BIS") --Sabatons of Tremoring Earth
 LBIS:AddItem(spec3, "47933", LBIS.L["Feet"], "Alt") --Sentinel Scouting Greaves
 LBIS:AddItem(spec3, "48006", LBIS.L["Feet"], "Alt") --Warsong Poacher's Greaves
 LBIS:AddItem(spec3, "45989", LBIS.L["Feet"], "Alt") --Tempered Mercury Greaves
@@ -296,10 +303,10 @@ LBIS:AddItem(spec3, "45609", LBIS.L["Trinket"], "BIS") --Comet's Trail
 LBIS:AddItem(spec3, "46038", LBIS.L["Trinket"], "Alt") --Dark Matter
 LBIS:AddItem(spec3, "45263", LBIS.L["Trinket"], "Alt") --Wrathstone
 LBIS:AddItem(spec3, "45522", LBIS.L["Trinket"], "Alt") --Blood of the Old God
-LBIS:AddItem(spec3, "47483", LBIS.L["Main Hand"], "BIS") --Suffering's End
 LBIS:AddItem(spec3, "47206", LBIS.L["Main Hand"], "BIS") --Misery's End
-LBIS:AddItem(spec3, "47422", LBIS.L["Main Hand"], "BIS") --Barb of Tarasque
+LBIS:AddItem(spec3, "47483", LBIS.L["Main Hand"], "BIS") --Suffering's End
 LBIS:AddItem(spec3, "46980", LBIS.L["Main Hand"], "BIS") --Blade of Tarasque
+LBIS:AddItem(spec3, "47422", LBIS.L["Main Hand"], "BIS") --Barb of Tarasque
 LBIS:AddItem(spec3, "45620", LBIS.L["Main Hand"], "Alt") --Starshard Edge
 LBIS:AddItem(spec3, "45132", LBIS.L["Main Hand"], "Alt") --Golden Saronite Dragon
 LBIS:AddItem(spec3, "45612", LBIS.L["Main Hand"], "Alt") --Constellus
