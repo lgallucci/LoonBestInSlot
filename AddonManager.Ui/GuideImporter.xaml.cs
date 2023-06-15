@@ -40,7 +40,7 @@ public sealed partial class GuideImporter : Page
     private async void Import_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = string.Empty;
-        _importCancelToken.TryReset();
+        _importCancelToken = new CancellationTokenSource();
         var phaseString = cmbPhase.SelectedValue.ToString();
         var phaseNumber = 0;
         if (phaseString.Contains("Phase"))
@@ -78,7 +78,7 @@ public sealed partial class GuideImporter : Page
     private async void ImportAll_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = string.Empty;
-        _importCancelToken.TryReset();
+        _importCancelToken = new CancellationTokenSource();
         var phaseString = cmbPhase.SelectedValue.ToString();
         var phaseNumber = 0;
         if (phaseString.Contains("Phase"))

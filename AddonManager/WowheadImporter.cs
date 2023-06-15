@@ -100,17 +100,19 @@ public static class WowheadImporter
             {
                 var result = await ImportGemsAndEnchantsInternal(spec, content);
 
-                logMethod($"{spec} Completed! - Verification Passed!" + Environment.NewLine);
+                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!" + Environment.NewLine);
             }
             catch (VerificationException vex)
             {
-                logMethod($"{spec} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}..." + Environment.NewLine);
+                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}..." + Environment.NewLine);
             }
             catch (ParseException ex)
             {
-                logMethod($"{spec} Failed! - {ex.Message.Substring(0, 150)}..." + Environment.NewLine);
+                logMethod($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}..." + Environment.NewLine);
             }
         }, cancelToken);
+
+        logMethod($"Done!" + Environment.NewLine);
     }
 
     public static async Task ImportClasses(string[] specList, int phaseNumber, CancellationToken cancelToken, Action<string> logMethod)

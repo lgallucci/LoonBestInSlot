@@ -73,6 +73,7 @@ LBIS.GemSources =
     [40162] = { Name = "Accurate Ametrine", DesignId = "47010", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [40166] = { Name = "Vivid Eye of Zul", DesignId = "46899", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [40167] = { Name = "Enduring Eye of Zul", DesignId = "46897", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
+    [40174] = { Name = "Intricate Eye of Zul", DesignId = "46910", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [40175] = { Name = "Dazzling Eye of Zul", DesignId = "46900", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [41285] = { Name = "Chaotic Skyflare Diamond", DesignId = "41704", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
     [41333] = { Name = "Ember Skyflare Diamond", DesignId = "41706", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },

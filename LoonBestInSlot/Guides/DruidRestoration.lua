@@ -7,11 +7,11 @@ local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Restoration"], "5")
 
 LBIS:AddGem(spec1, "41401", "3", "True") --Insightful Earthsiege Diamond
 LBIS:AddGem(spec1, "41333", "3", "True") --Ember Skyflare Diamond
-LBIS:AddGem(spec1, "39998", "3", "False") --Runed Scarlet Ruby
-LBIS:AddGem(spec1, "40051", "3", "False") --Reckless Monarch Topaz
-LBIS:AddGem(spec1, "40017", "3", "False") --Quick Autumn's Glow
-LBIS:AddGem(spec1, "40026", "3", "False") --Purified Twilight Opal
-LBIS:AddGem(spec1, "40104", "3", "False") --Intricate Forest Emerald
+LBIS:AddGem(spec3, "40155", "4", "False") --Reckless Ametrine
+LBIS:AddGem(spec3, "40113", "4", "False") --Runed Cardinal Ruby
+LBIS:AddGem(spec3, "40128", "4", "False") --Quick King's Amber
+LBIS:AddGem(spec3, "40133", "4", "False") --Purified Dreadstone
+LBIS:AddGem(spec1, "40174", "4", "False") --Intricate Eye of Zul
 
 LBIS:AddEnchant(spec1, "50370", LBIS.L["Head"]) --Arcanum of Blissful Mending
 LBIS:AddEnchant(spec1, "50336", LBIS.L["Shoulder"]) --Greater Inscription of the Crag
