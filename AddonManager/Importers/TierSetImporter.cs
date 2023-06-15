@@ -1,10 +1,11 @@
 ﻿using System.IO;
+using AddonManager.Models;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
 using AngleSharp.Html.Parser;
 using Newtonsoft.Json;
 
-namespace AddonManager.Models;
+namespace AddonManager.Importers;
 public class TierSetImporter : LootImporter
 {
     private List<string> armorSetUris = new List<string>
@@ -131,7 +132,7 @@ public class TierSetImporter : LootImporter
                         if (itemIdIndex == -1)
                             itemIdIndex = item.IndexOf("&");
                         item = item.Substring(0, itemIdIndex);
-                        Int32.TryParse(item, out itemId);
+                        int.TryParse(item, out itemId);
 
                         var token = uri.Replace("https://www.wowhead.com/item=", "");
 
@@ -139,7 +140,7 @@ public class TierSetImporter : LootImporter
                         if (tokenIdIndex == -1)
                             tokenIdIndex = token.IndexOf("&");
                         token = token.Substring(0, tokenIdIndex);
-                        Int32.TryParse(token, out tokenId);
+                        int.TryParse(token, out tokenId);
 
                         var tokenName = doc.QuerySelector(".heading-size-1");
 
