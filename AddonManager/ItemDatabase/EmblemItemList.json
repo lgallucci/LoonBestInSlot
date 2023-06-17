@@ -3675,6 +3675,41 @@
       "SourceNumber": "50",
       "SourceLocation": "Emblem Vendor"
     },
+    "47778": {
+      "Name": "Kel'Thuzad's Hood of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "47779": {
+      "Name": "Kel'Thuzad's Robe of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "47780": {
+      "Name": "Kel'Thuzad's Leggings of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "47781": {
+      "Name": "Kel'Thuzad's Shoulderpads of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "47782": {
+      "Name": "Kel'Thuzad's Gloves of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Emblem Vendor"
+    },
     "47783": {
       "Name": "Kel'Thuzad's Gloves of Conquest",
       "Source": "Emblem of Triumph",
@@ -3815,6 +3850,216 @@
       "SourceNumber": "30",
       "SourceLocation": "Emblem Vendor"
     },
+    "48238": {
+      "Name": "Garona's Pauldrons of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48239": {
+      "Name": "Garona's Legplates of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48240": {
+      "Name": "Garona's Helmet of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48241": {
+      "Name": "Garona's Gauntlets of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48242": {
+      "Name": "Garona's Breastplate of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48243": {
+      "Name": "Garona's Breastplate of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48244": {
+      "Name": "Garona's Gauntlets of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48245": {
+      "Name": "Garona's Helmet of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48246": {
+      "Name": "Garona's Legplates of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48247": {
+      "Name": "Garona's Pauldrons of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48386": {
+      "Name": "Hellscream's Battleplate of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48387": {
+      "Name": "Hellscream's Gauntlets of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48388": {
+      "Name": "Hellscream's Helmet of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48389": {
+      "Name": "Hellscream's Legplates of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48390": {
+      "Name": "Hellscream's Shoulderplates of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48391": {
+      "Name": "Hellscream's Battleplate of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48392": {
+      "Name": "Hellscream's Gauntlets of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48393": {
+      "Name": "Hellscream's Helmet of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48394": {
+      "Name": "Hellscream's Legplates of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48395": {
+      "Name": "Hellscream's Shoulderplates of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48456": {
+      "Name": "Hellscream's Breastplate of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48457": {
+      "Name": "Hellscream's Handguards of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48458": {
+      "Name": "Hellscream's Greathelm of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48459": {
+      "Name": "Hellscream's Legguards of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48460": {
+      "Name": "Hellscream's Pauldrons of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48461": {
+      "Name": "Hellscream's Breastplate of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48462": {
+      "Name": "Hellscream's Handguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48463": {
+      "Name": "Hellscream's Greathelm of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48464": {
+      "Name": "Hellscream's Legguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48465": {
+      "Name": "Hellscream's Pauldrons of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Emblem Vendor"
+    },
     "48564": {
       "Name": "Turalyon's Headpiece of Conquest",
       "Source": "Emblem of Triumph",
@@ -3848,6 +4093,41 @@
       "Source": "Emblem of Triumph",
       "SourceType": "Dungeon Token",
       "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48575": {
+      "Name": "Turalyon's Tunic of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48576": {
+      "Name": "Turalyon's Gloves of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48577": {
+      "Name": "Turalyon's Headpiece of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48578": {
+      "Name": "Turalyon's Greaves of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48579": {
+      "Name": "Turalyon's Spaulders of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
       "SourceLocation": "Emblem Vendor"
     },
     "48602": {
@@ -3885,6 +4165,41 @@
       "SourceNumber": "30",
       "SourceLocation": "Emblem Vendor"
     },
+    "48607": {
+      "Name": "Turalyon's Battleplate of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48608": {
+      "Name": "Turalyon's Gauntlets of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48609": {
+      "Name": "Turalyon's Helm of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48610": {
+      "Name": "Turalyon's Legplates of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48611": {
+      "Name": "Turalyon's Shoulderplates of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Emblem Vendor"
+    },
     "48632": {
       "Name": "Turalyon's Breastplate of Conquest",
       "Source": "Emblem of Triumph",
@@ -3918,6 +4233,41 @@
       "Source": "Emblem of Triumph",
       "SourceType": "Dungeon Token",
       "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48637": {
+      "Name": "Turalyon's Shoulderguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48638": {
+      "Name": "Turalyon's Legguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48639": {
+      "Name": "Turalyon's Faceguard of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48640": {
+      "Name": "Turalyon's Handguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "48641": {
+      "Name": "Turalyon's Breastplate of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
       "SourceLocation": "Emblem Vendor"
     },
     "48722": {
@@ -4048,213 +4398,213 @@
     },
     "51175": {
       "Name": "Sanctified Crimson Acolyte Shoulderpads",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51176": {
       "Name": "Sanctified Crimson Acolyte Robe",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51177": {
       "Name": "Sanctified Crimson Acolyte Leggings",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51178": {
       "Name": "Sanctified Crimson Acolyte Hood",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51179": {
       "Name": "Sanctified Crimson Acolyte Gloves",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51180": {
       "Name": "Sanctified Crimson Acolyte Raiments",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51181": {
       "Name": "Sanctified Crimson Acolyte Pants",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51182": {
       "Name": "Sanctified Crimson Acolyte Mantle",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51183": {
       "Name": "Sanctified Crimson Acolyte Handwraps",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51184": {
       "Name": "Sanctified Crimson Acolyte Cowl",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51205": {
       "Name": "Sanctified Dark Coven Shoulderpads",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51206": {
       "Name": "Sanctified Dark Coven Robe",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51207": {
       "Name": "Sanctified Dark Coven Leggings",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51208": {
       "Name": "Sanctified Dark Coven Hood",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51209": {
       "Name": "Sanctified Dark Coven Gloves",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51230": {
       "Name": "Sanctified Dark Coven Gloves",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51231": {
       "Name": "Sanctified Dark Coven Hood",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51232": {
       "Name": "Sanctified Dark Coven Leggings",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51233": {
       "Name": "Sanctified Dark Coven Robe",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51234": {
       "Name": "Sanctified Dark Coven Shoulderpads",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51255": {
       "Name": "Sanctified Crimson Acolyte Cowl",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51256": {
       "Name": "Sanctified Crimson Acolyte Handwraps",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51257": {
       "Name": "Sanctified Crimson Acolyte Mantle",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51258": {
       "Name": "Sanctified Crimson Acolyte Pants",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51259": {
       "Name": "Sanctified Crimson Acolyte Raiments",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51260": {
       "Name": "Sanctified Crimson Acolyte Gloves",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51261": {
       "Name": "Sanctified Crimson Acolyte Hood",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51262": {
       "Name": "Sanctified Crimson Acolyte Leggings",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51263": {
       "Name": "Sanctified Crimson Acolyte Robe",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     },
     "51264": {
       "Name": "Sanctified Crimson Acolyte Shoulderpads",
-      "Source": "",
+      "Source": "unknown & unknown",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "",
-      "SourceLocation": ""
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor"
     }
   }
 }
