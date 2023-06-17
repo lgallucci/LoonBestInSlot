@@ -474,7 +474,7 @@ public class WowheadGuideParser
         }
     }
 
-    public void LoopThroughTable(IHtmlTableElement? table, Action<INode, INode?, int, bool> action)
+    private void LoopThroughTable(IHtmlTableElement? table, Action<INode, INode?, int, bool> action)
     {
         var itemOrderIndex = 0;
         var firstRow = false;
@@ -512,7 +512,7 @@ public class WowheadGuideParser
         }
     }
 
-    public void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlTableElement?, string, string> action)
+    private void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlTableElement?, string, string> action)
     {
         foreach (var guideMapping in specMapping.GuideMappings)
         {

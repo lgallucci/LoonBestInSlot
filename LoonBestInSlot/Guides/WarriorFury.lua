@@ -199,7 +199,7 @@ LBIS:AddItem(spec3, "46146", LBIS.L["Chest"], "BIS") --Conqueror's Siegebreaker 
 LBIS:AddItem(spec3, "45473", LBIS.L["Chest"], "Alt") --Embrace of the Gladiator
 LBIS:AddItem(spec3, "47442", LBIS.L["Wrist"], "BIS") --Bracers of the Silent Massacre
 LBIS:AddItem(spec3, "47074", LBIS.L["Wrist"], "BIS") --Bracers of the Untold Massacre
-LBIS:AddItem(spec3, "47144", LBIS.L["Wrist"], "BIS") --Wail of the Val'kyr
+LBIS:AddItem(spec3, "47414", LBIS.L["Wrist"], "BIS") --Boneshatter Vambraces
 LBIS:AddItem(spec3, "46967", LBIS.L["Wrist"], "BIS") --Boneshatter Armplates
 LBIS:AddItem(spec3, "47474", LBIS.L["Wrist"], "BIS") --Armbands of Dark Determination
 LBIS:AddItem(spec3, "47155", LBIS.L["Wrist"], "BIS") --Bracers of Dark Determination

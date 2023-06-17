@@ -175,8 +175,8 @@ LBIS:AddItem(spec2, "45263", LBIS.L["Trinket"], "Alt") --Wrathstone
 LBIS:AddItem(spec2, "46038", LBIS.L["Trinket"], "Alt") --Dark Matter
 LBIS:AddItem(spec2, "45522", LBIS.L["Trinket"], "Alt") --Blood of the Old God
 LBIS:AddItem(spec2, "45286", LBIS.L["Trinket"], "Alt") --Pyrite Infuser
-LBIS:AddItem(spec2, "45957", LBIS.L["Main Hand"], "BIS") --Furious Gladiator's Handaxe
 LBIS:AddItem(spec2, "46097", LBIS.L["Main Hand/Off Hand"], "BIS") --Caress of Insanity
+LBIS:AddItem(spec2, "45957", LBIS.L["Main Hand"], "BIS") --Furious Gladiator's Handaxe
 LBIS:AddItem(spec2, "46036", LBIS.L["Main Hand/Off Hand"], "Alt/BIS") --Void Sabre
 LBIS:AddItem(spec2, "45947", LBIS.L["Main Hand/Off Hand"], "Alt") --Serilas, Blood Blade of Invar One-Arm
 LBIS:AddItem(spec2, "45442", LBIS.L["Main Hand/Off Hand"], "Alt") --Sorthalis, Hammer of the Watchers

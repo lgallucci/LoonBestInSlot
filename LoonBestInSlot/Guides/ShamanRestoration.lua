@@ -230,6 +230,7 @@ LBIS:AddItem(spec3, "47551", LBIS.L["Back"], "BIS") --Aethas' Intensity
 LBIS:AddItem(spec3, "48671", LBIS.L["Back"], "Alt") --Drape of Bitter Incantation
 LBIS:AddItem(spec3, "48666", LBIS.L["Back"], "Alt") --Drape of the Sunreavers
 LBIS:AddItem(spec3, "45486", LBIS.L["Back"], "Alt") --Drape of the Sullen Goddess
+LBIS:AddItem(spec3, "49491", LBIS.L["Back"], "Alt") --Flowing Sapphiron Drape
 LBIS:AddItem(spec3, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
 LBIS:AddItem(spec3, "45541", LBIS.L["Back"], "Alt") --Shroud of Alteration
 LBIS:AddItem(spec3, "40724", LBIS.L["Back"], "Alt") --Cloak of Kea Feathers

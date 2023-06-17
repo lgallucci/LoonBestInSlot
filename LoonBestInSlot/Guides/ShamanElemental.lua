@@ -213,6 +213,7 @@ LBIS:AddItem(spec3, "48671", LBIS.L["Back"], "Alt") --Drape of Bitter Incantatio
 LBIS:AddItem(spec3, "48666", LBIS.L["Back"], "Alt") --Drape of the Sunreavers
 LBIS:AddItem(spec3, "45242", LBIS.L["Back"], "Alt") --Drape of Mortal Downfall
 LBIS:AddItem(spec3, "46042", LBIS.L["Back"], "Alt") --Drape of the Messenger
+LBIS:AddItem(spec3, "49491", LBIS.L["Back"], "Alt") --Flowing Sapphiron Drape
 LBIS:AddItem(spec3, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
 LBIS:AddItem(spec3, "45486", LBIS.L["Back"], "Alt") --Drape of the Sullen Goddess
 LBIS:AddItem(spec3, "48325", LBIS.L["Chest"], "BIS") --Nobundo's Hauberk of Triumph

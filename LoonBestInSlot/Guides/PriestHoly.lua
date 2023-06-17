@@ -387,6 +387,7 @@ LBIS:AddItem(spec3, "47470", LBIS.L["Off Hand"], "BIS") --Mystifying Charm
 LBIS:AddItem(spec3, "47958", LBIS.L["Off Hand"], "Alt") --Chalice of Benedictus
 LBIS:AddItem(spec3, "48032", LBIS.L["Off Hand"], "Alt") --Lightbane Focus
 LBIS:AddItem(spec3, "45271", LBIS.L["Off Hand"], "Alt") --Ironmender
+LBIS:AddItem(spec3, "49187", LBIS.L["Off Hand"], "Alt") --Relentless Gladiator's Compendium
 LBIS:AddItem(spec3, "45617", LBIS.L["Off Hand"], "Alt") --Cosmos
 LBIS:AddItem(spec3, "45314", LBIS.L["Off Hand"], "Alt") --Igniter Rod
 LBIS:AddItem(spec3, "47922", LBIS.L["Ranged/Relic"], "BIS") --Rod of Imprisoned Souls
