@@ -32,6 +32,9 @@ public class EmblemImporter : LootImporter
         @"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia#sells;50",
         @"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina",
         @"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35579/aspirant-forudir",
+        @"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren",
+        @"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren#sells;50",
         @"https://www.wowhead.com/wotlk/npc=207128/animated-constellation",
         @"https://www.wowhead.com/wotlk/npc=207128/animated-constellation#sells;50"
     };
