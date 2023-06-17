@@ -1834,6 +1834,13 @@
       "SourceNumber": "58",
       "SourceLocation": "Emblem Vendor"
     },
+    "41650": {
+      "Name": "Furious Gladiator's Leather Tunic",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor"
+    },
     "41653": {
       "Name": "Hateful Gladiator's Leather Legguards",
       "Source": "Emblem of Valor",
@@ -1846,6 +1853,13 @@
       "Source": "Emblem of Conquest",
       "SourceType": "Dungeon Token",
       "SourceNumber": "58",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "41655": {
+      "Name": "Furious Gladiator's Leather Legguards",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
       "SourceLocation": "Emblem Vendor"
     },
     "41658": {
@@ -1904,6 +1918,13 @@
       "SourceNumber": "58",
       "SourceLocation": "Emblem Vendor"
     },
+    "41672": {
+      "Name": "Furious Gladiator's Leather Helm",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor"
+    },
     "41675": {
       "Name": "Savage Gladiator's Dragonhide Helm",
       "Source": "Emblem of Heroism",
@@ -1939,6 +1960,13 @@
       "SourceNumber": "46",
       "SourceLocation": "Emblem Vendor"
     },
+    "41683": {
+      "Name": "Furious Gladiator's Leather Spaulders",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor"
+    },
     "41712": {
       "Name": "Savage Gladiator's Dragonhide Spaulders",
       "Source": "Emblem of Heroism",
@@ -1972,6 +2000,13 @@
       "Source": "Emblem of Conquest",
       "SourceType": "Dungeon Token",
       "SourceNumber": "46",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "41767": {
+      "Name": "Furious Gladiator's Leather Gloves",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
       "SourceLocation": "Emblem Vendor"
     },
     "41770": {
@@ -2492,6 +2527,153 @@
       "SourceNumber": "18",
       "SourceLocation": "Emblem Vendor"
     },
+    "45114": {
+      "Name": "Steamcaller's Totem",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45144": {
+      "Name": "Sigil of Deflection",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45145": {
+      "Name": "Libram of the Sacred Shield",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45169": {
+      "Name": "Totem of the Dancing Flame",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45254": {
+      "Name": "Sigil of the Vengeful Heart",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45255": {
+      "Name": "Thunderfall Totem",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45270": {
+      "Name": "Idol of the Crying Wind",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45293": {
+      "Name": "Handguards of Potent Cures",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45294": {
+      "Name": "Petrified Ivy Sprig",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45295": {
+      "Name": "Gilded Steel Legplates",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45296": {
+      "Name": "Twirling Blades",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45297": {
+      "Name": "Shimmering Seal",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45300": {
+      "Name": "Mantle of Fiery Vengeance",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45436": {
+      "Name": "Libram of the Resolute",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45447": {
+      "Name": "Watchful Eye of Fate",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45448": {
+      "Name": "Perilous Bite",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45449": {
+      "Name": "The Masticator",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45455": {
+      "Name": "Belt of the Crystal Tree",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45456": {
+      "Name": "Loop of the Agile",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45509": {
+      "Name": "Idol of the Corruptor",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45510": {
+      "Name": "Libram of Discord",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
     "45632": {
       "Name": "Breastplate of the Wayward Conqueror",
       "Source": "Emblem of Conquest",
@@ -2737,11 +2919,361 @@
       "SourceNumber": "39",
       "SourceLocation": "Emblem Vendor"
     },
-    "47556": {
-      "Name": "Crusader Orb",
-      "Source": "Emblem of Triumph",
+    "45867": {
+      "Name": "Breastplate of the Stoneshaper",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45868": {
+      "Name": "Aesir's Edge",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45869": {
+      "Name": "Fluxing Energy Coils",
+      "Source": "Sidereal Essence",
       "SourceType": "Dungeon Token",
       "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45870": {
+      "Name": "Magnetized Projectile Emitter",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45871": {
+      "Name": "Seal of Ulduar",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45876": {
+      "Name": "Shiver",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45877": {
+      "Name": "The Boreal Guard",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45886": {
+      "Name": "Icecore Staff",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45887": {
+      "Name": "Ice Layered Barrier",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45888": {
+      "Name": "Bitter Cold Armguards",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45928": {
+      "Name": "Gauntlets of the Thunder God",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45929": {
+      "Name": "Sif's Remembrance",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45930": {
+      "Name": "Combatant's Bootblade",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45931": {
+      "Name": "Mjolnir Runestone",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45933": {
+      "Name": "Pendant of the Shallow Grave",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45943": {
+      "Name": "Gloves of Whispering Winds",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45945": {
+      "Name": "Seed of Budding Carnage",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45946": {
+      "Name": "Fire Orchid Signet",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45947": {
+      "Name": "Serilas, Blood Blade of Invar One-Arm",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45982": {
+      "Name": "Fused Alloy Legplates",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45988": {
+      "Name": "Greaves of the Iron Army",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45989": {
+      "Name": "Tempered Mercury Greaves",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45990": {
+      "Name": "Fusion Blade",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "45993": {
+      "Name": "Mimiron's Flight Goggles",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46032": {
+      "Name": "Drape of the Faceless General",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46033": {
+      "Name": "Tortured Earth",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46034": {
+      "Name": "Leggings of Profound Darkness",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46035": {
+      "Name": "Aesuga, Hand of the Ardent Champion",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46036": {
+      "Name": "Void Sabre",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46037": {
+      "Name": "Shoulderplates of the Celestial Watch",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "24",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46038": {
+      "Name": "Dark Matter",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "24",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46039": {
+      "Name": "Breastplate of the Timeless",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "32",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46040": {
+      "Name": "Strength of the Heavens",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46041": {
+      "Name": "Starfall Girdle",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "24",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46042": {
+      "Name": "Drape of the Messenger",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46043": {
+      "Name": "Gloves of the Endless Dark",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "24",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46044": {
+      "Name": "Observer's Mantle",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "24",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46045": {
+      "Name": "Pulsar Gloves",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "24",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46046": {
+      "Name": "Nebula Band",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46047": {
+      "Name": "Pendant of the Somber Witness",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46048": {
+      "Name": "Band of Lights",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46049": {
+      "Name": "Zodiac Leggings",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "32",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46050": {
+      "Name": "Starlight Treads",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "24",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46051": {
+      "Name": "Meteorite Crystal",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "24",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46067": {
+      "Name": "Hammer of Crushing Whispers",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46068": {
+      "Name": "Amice of Inconceivable Horror",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46095": {
+      "Name": "Soul-Devouring Cinch",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46096": {
+      "Name": "Signet of Soft Lament",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46097": {
+      "Name": "Caress of Insanity",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "46138": {
+      "Name": "Idol of the Flourishing Life",
+      "Source": "Emblem of Conquest",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor"
+    },
+    "47556": {
+      "Name": "Crusader Orb",
+      "Source": "Sidereal Essence",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3",
       "SourceLocation": "Emblem Vendor"
     },
     "47658": {

@@ -1,5 +1,6 @@
 ﻿using AddonManager.Models;
 using AngleSharp.Html.Dom;
+using static System.Net.WebRequestMethods;
 
 namespace AddonManager.Importers;
 
@@ -30,7 +31,9 @@ public class EmblemImporter : LootImporter
         @"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia",
         @"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia#sells;50",
         @"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina",
-        @"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina#sells;50"
+        @"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=207128/animated-constellation",
+        @"https://www.wowhead.com/wotlk/npc=207128/animated-constellation#sells;50"
     };
 
     internal override string FileName { get => "EmblemItemList"; }
@@ -68,7 +71,8 @@ public class EmblemImporter : LootImporter
                             item == "102" ? "Emblem of Valor" :
                             item == "221" ? "Emblem of Conquest" :
                             item == "301" ? "Emblem of Triumph" :
-                            item == "341" ? "Emblem of Frost" : "unknown";
+                            item == "341" ? "Emblem of Frost" : 
+                            item == "2589" ? "Sidereal Essence" : "unknown";
 
                         currencyNumber = anchorObject.TextContent;
                         if (item == "101")
