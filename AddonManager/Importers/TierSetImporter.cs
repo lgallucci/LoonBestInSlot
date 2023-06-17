@@ -13,8 +13,7 @@ public class TierSetImporter : LootImporter
         @"https://www.wowhead.com/items/miscellaneous/armor-tokens?filter=16;3456;0", //drops in naxx
         @"https://www.wowhead.com/items/miscellaneous/armor-tokens?filter=16;4493;0", //drops in obsidian
         @"https://www.wowhead.com/items/miscellaneous/armor-tokens?filter=16;4273;0", //drops in ulduar
-        @"https://www.wowhead.com/items/miscellaneous/armor-tokens?filter=16;4722;0", //drops in trials
-        @"https://www.wowhead.com/items/miscellaneous/armor-tokens/name:regalia+of+the", //also drops in trials
+        @"https://www.wowhead.com/items/miscellaneous/armor-tokens/name:regalia+of+the", //drops in trials
         @"https://www.wowhead.com/items/miscellaneous/armor-tokens?filter=16;4812;0", //drops in icecrown
     };
 
@@ -69,14 +68,7 @@ public class TierSetImporter : LootImporter
 
                     var cellAnchor = RecursivelyFindFirstAnchor(row.Cells[2]);
                     if (cellAnchor != null)
-                        if (cellAnchor.TextContent == "Trophy of the Crusade")
-                        {
-                            uris.Add($"{cellAnchor.Href}?fromWrath#currency-for");
-                            uris.Add($"{cellAnchor.Href}?fromWrath#currency-for;50");
-                            uris.Add($"{cellAnchor.Href}?fromWrath#currency-for;100");
-                            uris.Add($"{cellAnchor.Href}?fromWrath#currency-for;150");
-                        }
-                        else if (cellAnchor.TextContent.Contains("Regalia of the"))
+                        if (cellAnchor.TextContent.Contains("Regalia of the"))
                         {
                             uris.Add($"{cellAnchor.Href}?fromWrath#currency-for");
                             uris.Add($"{cellAnchor.Href}?fromWrath#currency-for;50");
