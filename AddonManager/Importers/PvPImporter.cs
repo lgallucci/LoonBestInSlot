@@ -6,28 +6,28 @@ namespace AddonManager.Importers;
 
 public class PvPImporter : LootImporter
 {
-    private List<(string, string)> wowheadUriList = new List<(string, string)>
+    private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
         {
-            (@"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia", "Furious"),
-            (@"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;50", "Furious"),
-            (@"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike", "Deadly, Battlemaster"),
-            (@"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;50","Deadly, Battlemaster"),
-            (@"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;100","Deadly, Battlemaster"),
-            (@"https://www.wowhead.com/wotlk/npc=32381/captain-dirgehammer", "Hateful"),
-            (@"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord", "Furious"),
-            (@"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;50", "Furious"),
-            (@"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;100", "Furious"),
-            (@"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;150", "Furious"),
-            (@"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;200", "Furious"),
-            (@"https://www.wowhead.com/wotlk/npc=31865/zom-bocom", "Hateful, Savage"),
-            (@"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;50", "Hateful, Savage"),
-            (@"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;100", "Hateful, Savage"),
-            (@"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;150", "Hateful, Savage"),
-            (@"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe", "Deadly"),
-            (@"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;50", "Deadly"),
-            (@"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;100", "Deadly"),
-            (@"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;150", "Deadly"),
-            (@"https://www.wowhead.com/wotlk/npc=34087/trapjaw-rix", "Furious")
+            { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia", "Furious" },
+            { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;50", "Furious" },
+            { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike", "Deadly, Battlemaster" },
+            { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;50","Deadly, Battlemaster" },
+            { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;100","Deadly, Battlemaster" },
+            { @"https://www.wowhead.com/wotlk/npc=32381/captain-dirgehammer", "Hateful" },
+            { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord", "Furious" },
+            { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;50", "Furious" },
+            { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;100", "Furious" },
+            { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;150", "Furious" },
+            { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;200", "Furious" },
+            { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom", "Hateful, Savage" },
+            { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;50", "Hateful, Savage" },
+            { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;100", "Hateful, Savage" },
+            { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;150", "Hateful, Savage" },
+            { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe", "Deadly" },
+            { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;50", "Deadly" },
+            { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;100", "Deadly" },
+            { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;150", "Deadly" },
+            { @"https://www.wowhead.com/wotlk/npc=34087/trapjaw-rix", "Furious" }
         };
 
     internal override string FileName { get => "PvPItemList"; }
@@ -38,8 +38,8 @@ public class PvPImporter : LootImporter
 
         foreach (var webAddress in wowheadUriList)
         {
-            writeToLog($"Reading from {webAddress.Item1}");
-            await Common.LoadFromWebPage(webAddress.Item1, async (content) => //TODO: Convert to Single Browser loop
+            writeToLog($"Reading from {webAddress.Key}");
+            await Common.LoadFromWebPage(webAddress.Key, async (content) => //TODO: Convert to Single Browser loop
             {
                 var parser = new HtmlParser();
                 var doc = default(IHtmlDocument);
@@ -52,7 +52,7 @@ public class PvPImporter : LootImporter
                     var currencyNumber = "";
                     var currencySourceLocation = "";
 
-                    if (!webAddress.Item2.Split(",").Any(i => itemName.Contains(i.Trim())))
+                    if (!webAddress.Value.Split(",").Any(i => itemName.Contains(i.Trim())))
                         return;
 
                     Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>

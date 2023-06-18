@@ -189,8 +189,10 @@ local function createSourceTypeText(specItemSource)
             return "|cFFE52AED";
         elseif sourceType == LBIS.L["Transmute"] then
             return "|cFFFC6A03";
-        else
+        elseif sourceType == LBIS.L["Drop"] then
             return "|cFF7727FF";
+        else
+            return "|cFFFFFFFF";
         end
     end
 

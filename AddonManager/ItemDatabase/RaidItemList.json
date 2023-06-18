@@ -845,7 +845,7 @@
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40196": {
             "Name": "Legguards of the Undisturbed",
@@ -1923,7 +1923,7 @@
             "Source": "Trash Mobs",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Naxxramas"
+            "SourceLocation": "Naxxramas", 
         },
         "40407": {
             "Name": "Silent Crusader",
@@ -2316,35 +2316,35 @@
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40532": {
             "Name": "Living Ice Crystals",
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40539": {
             "Name": "Chestguard of the Recluse",
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40541": {
             "Name": "Frosted Adroit Handguards",
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40543": {
             "Name": "Blue Aspect Helm",
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40544": {
             "Name": "Valorous Dreadnaught Breastplate",
@@ -2372,7 +2372,7 @@
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40550": {
             "Name": "Valorous Scourgeborne Battleplate",
@@ -2393,7 +2393,7 @@
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40556": {
             "Name": "Valorous Scourgeborne Legplates",
@@ -2407,7 +2407,7 @@
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40559": {
             "Name": "Valorous Scourgeborne Chestguard",
@@ -2421,21 +2421,21 @@
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40561": {
             "Name": "Leash of Heedless Magic",
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40562": {
             "Name": "Hood of Rationality",
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40563": {
             "Name": "Valorous Scourgeborne Handguards",
@@ -2449,14 +2449,14 @@
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40566": {
             "Name": "Unravelling Strands of Sanity",
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40567": {
             "Name": "Valorous Scourgeborne Legguards",
@@ -2533,42 +2533,42 @@
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40589": {
             "Name": "Legplates of Sovereignty",
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40590": {
             "Name": "Elevated Lair Pauldrons",
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40591": {
             "Name": "Melancholy Sabatons",
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40592": {
             "Name": "Boots of Healing Energies",
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40594": {
             "Name": "Spaulders of Catatonia",
             "Source": "Malygos",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Eye of Eternity (25)"
+            "SourceLocation": "The Eye of Eternity"
         },
         "40602": {
             "Name": "Robes of Mutation",

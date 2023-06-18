@@ -325,7 +325,7 @@ local function createDropDowns(window)
             LBIS.L["Vault of Archavon (10)"], LBIS.L["Vault of Archavon (25)"], 
             LBIS.L["Trial of the Crusader (10)"], LBIS.L["Trial of the Crusader (25)"],
             LBIS.L["Trial of the Grand Crusader (10)"], LBIS.L["Trial of the Grand Crusader (25)"],
-            LBIS.L["Onyxia's Lair (10)"], LBIS.L["Onyxia's Lair (25)"]}, 
+            LBIS.L["Onyxia (10)"], LBIS.L["Onyxia (25)"]}, 
             --LBIS.L["Icecrown Citadel (10)"], LBIS.L["Icecrown Citadel (25)"],
             --LBIS.L["The Ruby Sanctum (10)"], LBIS.L["The Ruby Sanctum (25)"]},
         ['defaultVal']= LBISSettings.SelectedZone,
