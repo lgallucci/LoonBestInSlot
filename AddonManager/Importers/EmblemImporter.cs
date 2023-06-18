@@ -53,7 +53,7 @@ public class EmblemImporter : LootImporter
     {
         items.Items.Clear();
 
-        await Common.ReadWowheadItemList(wowheadUriList, (row, itemId, itemName) =>
+        await Common.ReadWowheadItemList(wowheadUriList, (uri, row, itemId, itemName) =>
         {
             var success = false;
             var currencySource = "";

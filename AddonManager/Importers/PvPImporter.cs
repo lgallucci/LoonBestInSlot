@@ -45,7 +45,7 @@ public class PvPImporter : LootImporter
                 var doc = default(IHtmlDocument);
                 doc = await parser.ParseDocumentAsync(content);
 
-                Common.ReadWowheadItemList(doc, (row, itemId, itemName) =>
+                Common.ReadWowheadItemList(doc, webAddress.Key, (uri, row, itemId, itemName) =>
                 {
                     var success = false;
                     var currencySource = "";

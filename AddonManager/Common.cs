@@ -68,7 +68,7 @@ internal static class Common
         }
     }
 
-    internal static async Task ReadWowheadItemList(List<string> webAddresses, Action<IElement, int, string> func, Action<string> writeToLog)
+    internal static async Task ReadWowheadItemList(List<string> webAddresses, Action<string, IElement, int, string> func, Action<string> writeToLog)
     {
         await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
         {
@@ -77,11 +77,11 @@ internal static class Common
             var doc = default(IHtmlDocument);
             doc = await parser.ParseDocumentAsync(content);
 
-            ReadWowheadItemList(doc, func);
+            ReadWowheadItemList(doc, uri, func);
         });
     }
 
-    internal static void ReadWowheadItemList(IHtmlDocument doc, Action<IElement, int, string> func)
+    internal static void ReadWowheadItemList(IHtmlDocument doc, string uri, Action<string, IElement, int, string> func)
     {
         var rowElements = doc.QuerySelectorAll("#tab-sells .listview-mode-default .listview-row");
         if (rowElements != null && rowElements.Length > 0)
@@ -112,7 +112,7 @@ internal static class Common
                     return success;
                 });
 
-                func(row, itemId, itemName);
+                func(uri, row, itemId, itemName);
             }
         }
     }

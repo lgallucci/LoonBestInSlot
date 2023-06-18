@@ -123,45 +123,9 @@ public class RaidImporter : LootImporter
     {
         items.Items.Clear();
 
-        await Common.ReadWowheadItemList(wowheadUriList.Keys.ToList(), (row, itemId, itemName) =>
+        await Common.ReadWowheadItemList(wowheadUriList.Keys.ToList(), (webAddress, row, itemId, itemName) =>
         {
-            var success = false;
-            var itemSource = "";
-            var itemNumber = "";
-            var itemSourceLocation = "";
             var sourceFaction = "";
-
-            Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
-            {
-                var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/wotlk", "").Replace("/item=", "");
-
-                var itemIdIndex = item.IndexOf("/");
-                if (itemIdIndex == -1)
-                    itemIdIndex = item.IndexOf("&");
-
-                if (itemIdIndex > -1)
-                {
-                    item = item.Substring(0, itemIdIndex);
-
-                    success = int.TryParse(item, out var itemInteger);
-
-                    if (success)
-                    {
-                        if (string.IsNullOrWhiteSpace(itemSource))
-                            itemSource = ((IHtmlAnchorElement)anchorObject).TextContent;
-                        else
-                            itemSource = $"{itemSource} & {((IHtmlAnchorElement)anchorObject).TextContent}";
-
-                        if (string.IsNullOrWhiteSpace(itemNumber))
-                            itemNumber = anchorObject.TextContent;
-                        else
-                            itemNumber = $"{itemNumber} & {anchorObject.TextContent}";
-
-                        itemSourceLocation = "Emblem Vendor";
-                    }
-                }
-                return success;
-            });
 
             sourceFaction = "B";
             if (row.Children[6].Children.Count() > 0)
@@ -173,6 +137,8 @@ public class RaidImporter : LootImporter
                     sourceFaction = "A";
             }
 
+            var sourceSplit = wowheadUriList[webAddress].Split(",");
+
             if (items.Items.ContainsKey(itemId))
             {
                 items.Items.Remove(itemId);
@@ -180,14 +146,43 @@ public class RaidImporter : LootImporter
             var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
             {
                 Name = itemName,
-                SourceNumber = itemNumber,
-                Source = itemSource,
-                SourceLocation = itemSourceLocation,
+                SourceNumber = "0",
+                Source = sourceSplit[0].Trim(),
+                SourceLocation = sourceSplit[1].Trim(),
                 SourceType = "Drop",
                 SourceFaction = sourceFaction
             });
         }, writeToLog);
 
+        foreach(var trashDrop in trashDrops)
+        {
+            var successfulAdd = items.Items.TryAdd(trashDrop.Key, new DatabaseItem
+            {
+                Name = trashDrop.Value.Name,
+                SourceNumber = trashDrop.Value.SourceNumber,
+                Source = trashDrop.Value.Source,
+                SourceLocation = trashDrop.Value.SourceLocation,
+                SourceType = trashDrop.Value.SourceType,
+                SourceFaction = trashDrop.Value.SourceFaction
+            });
+        }
+
         return items;
+    }
+
+    private IHtmlAnchorElement? RecursivelyFindFirstAnchor(IElement element)
+    {
+        IHtmlAnchorElement? result = null;
+        if (element is IHtmlAnchorElement && element.ClassName != "toggler-off")
+            result = element as IHtmlAnchorElement;
+        else
+        {
+            foreach (var child in element.Children)
+            {
+                if (result == null)
+                    result = RecursivelyFindFirstAnchor(child);
+            }
+        }
+        return result;
     }
 }
