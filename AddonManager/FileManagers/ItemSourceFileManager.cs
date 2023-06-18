@@ -39,12 +39,14 @@ public static class ItemSourceFileManager
         var sourceIndex = itemSource.IndexOf("Source =");
         var sourceNumberIndex = itemSource.IndexOf("SourceNumber =");
         var sourceLocationIndex = itemSource.IndexOf("SourceLocation =");
+        var sourceFactionIndex = itemSource.IndexOf("SourceFaction =");
 
         var name = itemSource.Substring(nameIndex, sourceTypeIndex - nameIndex).Split("=")[1].Trim().Trim(',').Trim('"');
         var sourceType = itemSource.Substring(sourceTypeIndex, sourceIndex - sourceTypeIndex).Split("=")[1].Trim().Trim(',').Trim('"'); ;
         var source = itemSource.Substring(sourceIndex, sourceNumberIndex - sourceIndex).Split("=")[1].Trim().Trim(',').Trim('"'); ;
         var sourceNumber = itemSource.Substring(sourceNumberIndex, sourceLocationIndex - sourceNumberIndex).Split("=")[1].Trim().Trim(',').Trim('"');
-        var sourceLocation = itemSource.Substring(sourceLocationIndex, itemSource.Length - sourceLocationIndex - 3).Split("=")[1].Trim().Trim('"');
+        var sourceLocation = itemSource.Substring(sourceLocationIndex, sourceFactionIndex - sourceLocationIndex).Split("=")[1].Trim().Trim(',').Trim('"');
+        var sourceFaction = itemSource.Substring(sourceFactionIndex, itemSource.Length - sourceFactionIndex - 3).Split("=")[1].Trim().Trim('"');
 
         if (string.IsNullOrWhiteSpace(source))
             source = "\"\"";
@@ -63,7 +65,8 @@ public static class ItemSourceFileManager
             SourceType = sourceType,
             Source = source,
             SourceNumber = sourceNumber,
-            SourceLocation = sourceLocation
+            SourceLocation = sourceLocation,
+            SourceFaction = sourceFaction
         };
     }
 
@@ -280,7 +283,8 @@ public static class ItemSourceFileManager
                     $"SourceType = {source.Value.SourceType}, " +
                     $"Source = {source.Value.Source}, " +
                     $"SourceNumber = \"{source.Value.SourceNumber}\", " +
-                    $"SourceLocation = {source.Value.SourceLocation} }},");
+                    $"SourceLocation = {source.Value.SourceLocation}, " +
+                    $"SourceFaction = \"{source.Value.SourceFaction}\" }}");
         }
         itemSourceSB.AppendLine("}");
         System.IO.File.WriteAllText(Constants.AddonPath + "\\DB\\ItemSources.lua", itemSourceSB.ToString());

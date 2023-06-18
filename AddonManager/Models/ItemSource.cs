@@ -8,6 +8,7 @@ public class ItemSource
     public string Source { get; set; } = string.Empty;
     public string SourceNumber { get; set; } = string.Empty;
     public string SourceLocation { get; set; } = string.Empty;
+    public string SourceFaction { get; set; } = "B";
 }
 
 public class GemSource
