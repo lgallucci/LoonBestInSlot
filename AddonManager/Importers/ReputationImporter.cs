@@ -34,7 +34,7 @@ public class ReputationImporter : LootImporter
                 var parser = new HtmlParser();
                 var doc = default(IHtmlDocument);
                 doc = await parser.ParseDocumentAsync(content);
-                Common.ReadWowheadItemList(doc, repVendor.Key, (uri, row, itemId, itemName) =>
+                Common.ReadWowheadSellsList(doc, repVendor.Key, (uri, row, itemId, itemName) =>
                 {
                     var standingColumn = row.Children[5];
                     if (standingColumn != null)

@@ -22,6 +22,23 @@ public class DatabaseItems
             }
         }
     }
+
+    public void AddItem(int itemId, DatabaseItem converted)
+    {
+        if (Items.ContainsKey(itemId))
+        {
+            if (Items[itemId].SourceLocation != converted.SourceLocation)
+                Items[itemId].SourceLocation += $"/{converted.SourceLocation}";
+            if (Items[itemId].Source != converted.Source)
+                Items[itemId].Source += $"/{converted.Source}";
+            if (Items[itemId].SourceNumber != converted.SourceNumber)
+                Items[itemId].SourceNumber += $"/{converted.SourceNumber}";
+        }
+        else
+        {
+            Items.Add(itemId, converted);
+        }
+    }
 }
 
 public class DatabaseItem

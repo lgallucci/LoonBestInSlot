@@ -1,11 +1,6 @@
-﻿using System.Globalization;
-using System.IO;
-using AddonManager.Models;
+﻿using AddonManager.Models;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
-using CsvHelper;
-using CsvHelper.Configuration.Attributes;
-using static System.Net.WebRequestMethods;
 
 namespace AddonManager.Importers;
 
@@ -123,12 +118,14 @@ public class RaidImporter : LootImporter
     {
         items.Items.Clear();
 
-        await Common.ReadWowheadItemList(wowheadUriList.Keys.ToList(), (webAddress, row, itemId, itemName) =>
+        await Common.ReadWowheadDropsList(wowheadUriList.Keys.ToList(), (webAddress, row, itemId, itemName) =>
         {
-            var sourceFaction = "";
+            var localItems = new DatabaseItems();
+            Int32.TryParse(row.Children[4].TextContent, out int itemLevel);
+            if (itemLevel < 200) return;
 
-            sourceFaction = "B";
-            if (row.Children[6].Children.Count() > 0)
+            var sourceFaction = "B";
+            if (row.Children[7].Children.Count() > 0)
             {
                 var factionColumn = (IElement)row.Children[6].ChildNodes[0];
                 if (factionColumn?.ClassName == "icon-horde")
@@ -143,7 +140,7 @@ public class RaidImporter : LootImporter
             {
                 items.Items.Remove(itemId);
             }
-            var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
+            items.AddItem(itemId, new DatabaseItem
             {
                 Name = itemName,
                 SourceNumber = "0",
@@ -156,7 +153,7 @@ public class RaidImporter : LootImporter
 
         foreach(var trashDrop in trashDrops)
         {
-            var successfulAdd = items.Items.TryAdd(trashDrop.Key, new DatabaseItem
+            items.AddItem(trashDrop.Key, new DatabaseItem
             {
                 Name = trashDrop.Value.Name,
                 SourceNumber = trashDrop.Value.SourceNumber,
