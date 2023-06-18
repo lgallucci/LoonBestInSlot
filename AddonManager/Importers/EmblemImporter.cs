@@ -1,4 +1,5 @@
 ﻿using AddonManager.Models;
+using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
 using static System.Net.WebRequestMethods;
 
@@ -58,6 +59,7 @@ public class EmblemImporter : LootImporter
             var currencySource = "";
             var currencyNumber = "";
             var currencySourceLocation = "";
+            var sourceFaction = "";
 
             Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
             {
@@ -79,7 +81,7 @@ public class EmblemImporter : LootImporter
                             item == "102" ? "Emblem of Valor" :
                             item == "221" ? "Emblem of Conquest" :
                             item == "301" ? "Emblem of Triumph" :
-                            item == "341" ? "Emblem of Frost" : 
+                            item == "341" ? "Emblem of Frost" :
                             item == "2589" ? "Sidereal Essence" :
                             item == "47242" ? "Trophy of the Crusade" : "unknown";
 
@@ -99,6 +101,18 @@ public class EmblemImporter : LootImporter
                 return success;
             });
 
+            if (row.Children[6].Children.Count() > 0) {
+                var factionColumn = (IElement)row.Children[6].ChildNodes[0];
+                if (factionColumn?.ClassName == "icon-horde")
+                    sourceFaction = "H";
+                else if (factionColumn?.ClassName == "icon-alliance")
+                    sourceFaction = "A";
+                else
+                    sourceFaction = "B";
+            }
+            else
+                sourceFaction = "B";
+
             if (items.Items.ContainsKey(itemId))
             {
                 items.Items.Remove(itemId);
@@ -109,7 +123,8 @@ public class EmblemImporter : LootImporter
                 SourceNumber = currencyNumber,
                 Source = currencySource,
                 SourceLocation = currencySourceLocation,
-                SourceType = "Dungeon Token"
+                SourceType = "Dungeon Token",
+                SourceFaction = sourceFaction
             });
         }, writeToLog);
 

@@ -17,6 +17,7 @@ public static class WowheadImporter
         public string Source { get; set; } = string.Empty;
         public string SourceNumber { get; set; } = string.Empty;
         public string SourceLocation { get; set; } = string.Empty;
+        public string SourceFaction { get; set; } = "B";
     }
 
     private class CsvLootTable
@@ -365,6 +366,7 @@ public static class WowheadImporter
                     itemSource.Value.Source = string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.Source)));
                     itemSource.Value.SourceNumber = string.Join("/", csvItem.ItemSource.Select(s => s.SourceNumber));
                     itemSource.Value.SourceLocation = string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
+                    itemSource.Value.SourceFaction = string.Join("..\"/\"..", csvItem.ItemSource.First().SourceFaction);
 
                     if (tokenKeys.Contains(itemSource.Key) && itemSource.Key != 47242)
                     {
@@ -491,7 +493,8 @@ public static class WowheadImporter
                                 SourceType = source.SourceType,
                                 Source = source.Source,
                                 SourceNumber = source.SourceNumber,
-                                SourceLocation = source.SourceLocation
+                                SourceLocation = source.SourceLocation,
+                                SourceFaction = source.SourceFaction
                             });
                         }
                     }
@@ -510,7 +513,8 @@ public static class WowheadImporter
                             SourceType = source.SourceType,
                             Source = source.Source,
                             SourceNumber = source.SourceNumber,
-                            SourceLocation = source.SourceLocation
+                            SourceLocation = source.SourceLocation,
+                            SourceFaction = source.SourceFaction
                         });
                     }
                     csvLootTable.Add(tierPiece.Key, newLootTable);
@@ -547,7 +551,8 @@ public static class WowheadImporter
                         SourceType = item.Value.SourceType,
                         Source = sourceSplit[i],
                         SourceNumber = sourceNumberSplit[i],
-                        SourceLocation = sourceLocationSplit[i]
+                        SourceLocation = sourceLocationSplit[i],
+                        SourceFaction = item.Value.SourceFaction
                     });
                 }
                 else
@@ -561,7 +566,8 @@ public static class WowheadImporter
                             SourceType = item.Value.SourceType,
                             Source = sourceSplit[i],
                             SourceNumber = sourceNumberSplit[i],
-                            SourceLocation = sourceLocationSplit[i]
+                            SourceLocation = sourceLocationSplit[i],
+                            SourceFaction = item.Value.SourceFaction
                         } }
                     });
                 }

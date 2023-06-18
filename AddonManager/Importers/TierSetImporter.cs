@@ -136,6 +136,16 @@ public class TierSetImporter : LootImporter
 
                         var tokenName = doc.QuerySelector(".heading-size-1");
 
+                        var sourceFaction = "B";
+                        if (row.Children[6].Children.Count() > 0)
+                        {
+                            var factionColumn = (IElement)row.Children[6].ChildNodes[0];
+                            if (factionColumn?.ClassName == "icon-horde")
+                                sourceFaction = "H";
+                            else if (factionColumn?.ClassName == "icon-alliance")
+                                sourceFaction = "A";
+                        }
+
                         if (itemId == 0)
                         {
                             Console.WriteLine("item is 0?");
@@ -148,7 +158,8 @@ public class TierSetImporter : LootImporter
                                 Source = tokenName.TextContent,
                                 SourceLocation = "unknown",
                                 SourceNumber = tokenId.ToString(),
-                                SourceType = "TierToken"
+                                SourceType = "TierToken",
+                                SourceFaction = sourceFaction
                             });
                         }
                     }

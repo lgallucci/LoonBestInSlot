@@ -99,6 +99,20 @@ local function printSource(itemId, specItemSource, dl)
     dl:SetText(text);
 end
 
+local function IsInFaction(specItemSource)
+
+    local englishFaction, _ = UnitFactionGroup("PLAYER");
+    
+    if specItemSource.SourceFaction == "B" then
+        return true;
+    elseif englishFaction == "Alliance" and specItemSource.SourceFaction == "A" then
+        return true;
+    elseif englishFaction == "Horde" and specItemSource.SourceFaction == "H" then
+        return true;
+    end
+    return false;
+end
+
 local function IsInSlot(specItem)
     if LBISSettings.SelectedSlot == LBIS.L["All"] then
         return true;
@@ -329,7 +343,7 @@ function LBIS.ItemList:UpdateItems()
             if specItemSource == nil then
                 LBIS:Error("Missing item source: ", specItem);
             else
-                if IsInSlot(specItem) and IsInPhase(specItem, specItemSource) and IsInSource(specItemSource) and IsInZone(specItemSource) and IsNotInClassic(specItemSource) then
+                if IsInFaction(specItemSource) and IsInSlot(specItem) and IsInPhase(specItem, specItemSource) and IsInSource(specItemSource) and IsInZone(specItemSource) and IsNotInClassic(specItemSource) then
                     point = LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, LBISSettings.SelectedSpec.."_"..specItemSource.Name.."_"..specItem.Id, point, createItemRow);
                 end
             end

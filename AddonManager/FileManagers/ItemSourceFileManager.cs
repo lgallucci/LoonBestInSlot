@@ -284,7 +284,7 @@ public static class ItemSourceFileManager
                     $"Source = {source.Value.Source}, " +
                     $"SourceNumber = \"{source.Value.SourceNumber}\", " +
                     $"SourceLocation = {source.Value.SourceLocation}, " +
-                    $"SourceFaction = \"{source.Value.SourceFaction}\" }}");
+                    $"SourceFaction = \"{source.Value.SourceFaction}\" }},");
         }
         itemSourceSB.AppendLine("}");
         System.IO.File.WriteAllText(Constants.AddonPath + "\\DB\\ItemSources.lua", itemSourceSB.ToString());
