@@ -203,9 +203,9 @@ public class RaidImporter : LootImporter
         if (excludedWords.Any(w => itemName.Contains(w))) return;
 
         var sourceFaction = "B";
-        if (row.Children[6].Children.Count() > 0)
+        if (row.Children[7].Children.Count() > 0)
         {
-            var factionColumn = (IElement)row.Children[6].ChildNodes[0];
+            var factionColumn = (IElement)row.Children[7].ChildNodes[0];
             if (factionColumn?.ClassName == "icon-horde")
                 sourceFaction = "H";
             else if (factionColumn?.ClassName == "icon-alliance")
