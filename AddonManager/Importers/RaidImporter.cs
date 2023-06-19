@@ -1,6 +1,7 @@
 ﻿using AddonManager.Models;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
+using static System.Net.WebRequestMethods;
 
 namespace AddonManager.Importers;
 
@@ -77,7 +78,10 @@ public class RaidImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=32871/algalon-the-observer#drops;mode:n10", "Algalon the Observer, Ulduar (10)" },
         { @"https://www.wowhead.com/wotlk/npc=32871/algalon-the-observer#drops;mode:n25", "Algalon the Observer, Ulduar (25)" }
     };
-
+    private Dictionary<string, string> wowheadContainsUriList = new Dictionary<string, string>
+    {
+        { @"https://www.wowhead.com/wotlk/object=194201/rare-cache-of-winter", "Hodir, Ulduar (25)" },
+    };
     private Dictionary<int, DatabaseItem> trashDrops = new Dictionary<int, DatabaseItem>
     {
         { 40406, new DatabaseItem() { Name = "Inevitable Defeat", Source = "Trash Mobs", SourceLocation = "Naxxramas", SourceNumber = "0", SourceType = "Drop", SourceFaction = "B"} },
@@ -111,12 +115,21 @@ public class RaidImporter : LootImporter
          { 45543, new DatabaseItem() { Name = "Shoulders of Misfortune", Source = "Trash Mobs", SourceLocation = "Ulduar (25)", SourceNumber = "0", SourceType = "Drop", SourceFaction = "B"} },
          { 45605, new DatabaseItem() { Name = "Daschal's Bite", Source = "Trash Mobs", SourceLocation = "Ulduar (25)", SourceNumber = "0", SourceType = "Drop", SourceFaction = "B"} },
          { 45542, new DatabaseItem() { Name = "Greaves of the Stonewarder", Source = "Trash Mobs", SourceLocation = "Ulduar (25)", SourceNumber = "0", SourceType = "Drop", SourceFaction = "B"} },
+         { 46138, new DatabaseItem() { Name = "Idol of the Flourishing Life", Source = "Trash Mobs", SourceLocation = "Ulduar (25)", SourceNumber = "0", SourceType = "Drop", SourceFaction = "B"} },
     };
 
     private Dictionary<string, int> hardmodeLevels = new Dictionary<string, int>()
     {
         { "Ulduar (10)", 226 },
         { "Ulduar (25)", 239 }
+    };
+
+    private List<string> excludedWords = new List<string>()
+    {
+        "Reins of the",
+        "Plans: ",
+        "Pattern: ", 
+        "Formula: "
     };
 
     internal override string FileName { get => "RaidItemList"; }
@@ -126,42 +139,15 @@ public class RaidImporter : LootImporter
 
         await Common.ReadWowheadDropsList(wowheadUriList.Keys.ToList(), (webAddress, row, itemId, item) =>
         {
-            var localItems = new DatabaseItems();
-            var isPurple = item.ClassName.Contains("q4") || item.ClassName.Contains("q5");
-            Int32.TryParse(row.Children[4].TextContent, out int itemLevel);
-            if (!isPurple) return;
-
-            var sourceFaction = "B";
-            if (row.Children[7].Children.Count() > 0)
-            {
-                var factionColumn = (IElement)row.Children[6].ChildNodes[0];
-                if (factionColumn?.ClassName == "icon-horde")
-                    sourceFaction = "H";
-                else if (factionColumn?.ClassName == "icon-alliance")
-                    sourceFaction = "A";
-            }
-
-            var sourceSplit = wowheadUriList[webAddress].Split(",");
-            var sourceName = sourceSplit[0].Trim();
-            if (hardmodeLevels.ContainsKey(sourceSplit[1].Trim()) &&
-                itemLevel > hardmodeLevels[sourceSplit[1].Trim()] &&
-                !sourceSplit[0].Trim().Contains("Algalon"))
-            {
-                sourceName += " (Hard)";
-            }
-
-            items.AddItem(itemId, new DatabaseItem
-            {
-                Name = item.TextContent,
-                SourceNumber = "0",
-                Source = sourceName,
-                SourceLocation = sourceSplit[1].Trim(),
-                SourceType = "Drop",
-                SourceFaction = sourceFaction
-            });
+            InternalItemsParse(wowheadUriList, webAddress, row, itemId, item, items);
         }, writeToLog);
 
-        foreach(var trashDrop in trashDrops)
+        await Common.ReadWowheadContainsList(wowheadContainsUriList.Keys.ToList(), (webAddress, row, itemId, item) =>
+        {
+            InternalItemsParse(wowheadContainsUriList, webAddress, row, itemId, item, items);
+        }, writeToLog);
+
+        foreach (var trashDrop in trashDrops)
         {
             items.AddItem(trashDrop.Key, new DatabaseItem
             {
@@ -175,6 +161,45 @@ public class RaidImporter : LootImporter
         }
 
         return items;
+    }
+
+    private void InternalItemsParse(Dictionary<string, string> uriList, string webAddress, IElement row, int itemId, IElement item, DatabaseItems items)
+    {
+        var localItems = new DatabaseItems();
+        var itemName = item.TextContent;
+        var isPurple = item.ClassName.Contains("q4") || item.ClassName.Contains("q5");
+        Int32.TryParse(row.Children[4].TextContent, out int itemLevel);
+        if (!isPurple) return;
+        if (excludedWords.Any(w => itemName.Contains(w))) return;
+
+        var sourceFaction = "B";
+        if (row.Children[7].Children.Count() > 0)
+        {
+            var factionColumn = (IElement)row.Children[6].ChildNodes[0];
+            if (factionColumn?.ClassName == "icon-horde")
+                sourceFaction = "H";
+            else if (factionColumn?.ClassName == "icon-alliance")
+                sourceFaction = "A";
+        }
+
+        var sourceSplit = uriList[webAddress].Split(",");
+        var sourceName = sourceSplit[0].Trim();
+        if (hardmodeLevels.ContainsKey(sourceSplit[1].Trim()) &&
+            itemLevel > hardmodeLevels[sourceSplit[1].Trim()] &&
+            !sourceSplit[0].Trim().Contains("Algalon"))
+        {
+            sourceName += " (Hard)";
+        }
+
+        items.AddItem(itemId, new DatabaseItem
+        {
+            Name = itemName,
+            SourceNumber = "0",
+            Source = sourceName,
+            SourceLocation = sourceSplit[1].Trim(),
+            SourceType = "Drop",
+            SourceFaction = sourceFaction
+        });
     }
 
     private IHtmlAnchorElement? RecursivelyFindFirstAnchor(IElement element)

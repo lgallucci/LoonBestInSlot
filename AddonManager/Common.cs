@@ -1,4 +1,5 @@
-﻿using System.Threading;
+﻿using System;
+using System.Threading;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
 using AngleSharp.Html.Parser;
@@ -67,6 +68,20 @@ internal static class Common
             }
         }
     }
+
+    internal static async Task ReadWowheadContainsList(List<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
+    {
+        await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
+        {
+            writeToLog($"Reading from: {uri}");
+            var parser = new HtmlParser();
+            var doc = default(IHtmlDocument);
+            doc = await parser.ParseDocumentAsync(content);
+
+            ReadWowheadContainsList(doc, uri, func);
+        });
+    }
+
     internal static async Task ReadWowheadDropsList(List<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
         await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
@@ -106,6 +121,12 @@ internal static class Common
 
         ReadWowheadItemsList(doc, uri, rowElements, func);
     }
+    internal static void ReadWowheadContainsList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
+    {
+        var rowElements = doc.QuerySelectorAll("#tab-contains .listview-mode-default .listview-row");
+
+        ReadWowheadItemsList(doc, uri, rowElements, func);
+    }
 
     private static void ReadWowheadItemsList(IHtmlDocument doc, string uri, IHtmlCollection<IElement> rowElements, Action<string, IElement, int, IElement> func) 
     {
@@ -142,4 +163,5 @@ internal static class Common
             }
         }
     }
+
 }
