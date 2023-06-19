@@ -53,13 +53,14 @@ public class EmblemImporter : LootImporter
     {
         items.Items.Clear();
 
-        await Common.ReadWowheadSellsList(wowheadUriList, (uri, row, itemId, itemName) =>
+        await Common.ReadWowheadSellsList(wowheadUriList, (uri, row, itemId, item) =>
         {
             var success = false;
             var currencySource = "";
             var currencyNumber = "";
             var currencySourceLocation = "";
-            var sourceFaction = "";
+            var sourceFaction = "B";
+            var itemName = item.TextContent;
 
             Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
             {
@@ -95,7 +96,10 @@ public class EmblemImporter : LootImporter
                         else
                             currencyNumber = $"{currencyNumber} & {anchorObject.TextContent}";
 
-                        currencySourceLocation = "Emblem Vendor";
+                        if (item == "47242")
+                            currencySourceLocation = "Trial of the Crusader";
+                        else if (string.IsNullOrWhiteSpace(currencySourceLocation))
+                            currencySourceLocation = "Emblem Vendor";
                     }
                 }
                 return success;
@@ -107,11 +111,7 @@ public class EmblemImporter : LootImporter
                     sourceFaction = "H";
                 else if (factionColumn?.ClassName == "icon-alliance")
                     sourceFaction = "A";
-                else
-                    sourceFaction = "B";
             }
-            else
-                sourceFaction = "B";
 
             if (items.Items.ContainsKey(itemId))
             {

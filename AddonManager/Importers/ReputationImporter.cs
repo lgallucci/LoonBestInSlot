@@ -34,9 +34,10 @@ public class ReputationImporter : LootImporter
                 var parser = new HtmlParser();
                 var doc = default(IHtmlDocument);
                 doc = await parser.ParseDocumentAsync(content);
-                Common.ReadWowheadSellsList(doc, repVendor.Key, (uri, row, itemId, itemName) =>
+                Common.ReadWowheadSellsList(doc, repVendor.Key, (uri, row, itemId, item) =>
                 {
                     var standingColumn = row.Children[5];
+                    var itemName = item.TextContent;
                     if (standingColumn != null)
                     {
                         var reputation = standingColumn.TextContent;

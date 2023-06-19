@@ -1,4 +1,6 @@
-﻿namespace AddonManager.Models;
+﻿using Newtonsoft.Json;
+
+namespace AddonManager.Models;
 public class DatabaseItems
 {
     public SortedDictionary<int, DatabaseItem> Items { get; set; } = new SortedDictionary<int, DatabaseItem>();
@@ -25,14 +27,27 @@ public class DatabaseItems
 
     public void AddItem(int itemId, DatabaseItem converted)
     {
+        converted.CombineCount++;
         if (Items.ContainsKey(itemId))
         {
-            if (Items[itemId].SourceLocation != converted.SourceLocation)
-                Items[itemId].SourceLocation += $"/{converted.SourceLocation}";
-            if (Items[itemId].Source != converted.Source)
-                Items[itemId].Source += $"/{converted.Source}";
-            if (Items[itemId].SourceNumber != converted.SourceNumber)
-                Items[itemId].SourceNumber += $"/{converted.SourceNumber}";
+            Items[itemId].CombineCount++;
+            if (Items[itemId].SourceLocation == converted.SourceLocation)
+            {
+                if (Items[itemId].CombineCount > 3)
+                    Items[itemId].Source = "Various Bosses";
+                else
+                    if (Items[itemId].Source != converted.Source)
+                        Items[itemId].Source += $" & {converted.Source}";
+            }
+            else
+            {
+                if (Items[itemId].SourceLocation != converted.SourceLocation)
+                    Items[itemId].SourceLocation += $"/{converted.SourceLocation}";
+                if (Items[itemId].Source != converted.Source)
+                    Items[itemId].Source += $"/{converted.Source}";
+                if (Items[itemId].SourceNumber != converted.SourceNumber)
+                    Items[itemId].SourceNumber += $"/{converted.SourceNumber}";
+            }
         }
         else
         {
@@ -49,4 +64,6 @@ public class DatabaseItem
     public string SourceNumber { get; set; } = string.Empty;
     public string SourceLocation { get; set; } = string.Empty;
     public string SourceFaction { get; set; } = "B";
+    [JsonIgnore]
+    public int CombineCount { get; set; }
 }

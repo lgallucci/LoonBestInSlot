@@ -67,7 +67,7 @@ internal static class Common
             }
         }
     }
-    internal static async Task ReadWowheadDropsList(List<string> webAddresses, Action<string, IElement, int, string> func, Action<string> writeToLog)
+    internal static async Task ReadWowheadDropsList(List<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
         await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
         {
@@ -80,7 +80,7 @@ internal static class Common
         });
     }
 
-    internal static async Task ReadWowheadSellsList(List<string> webAddresses, Action<string, IElement, int, string> func, Action<string> writeToLog)
+    internal static async Task ReadWowheadSellsList(List<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
         await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
         {
@@ -93,22 +93,22 @@ internal static class Common
         });
     }
 
-    internal static void ReadWowheadSellsList(IHtmlDocument doc, string uri, Action<string, IElement, int, string> func)
+    internal static void ReadWowheadSellsList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
     {
         var rowElements = doc.QuerySelectorAll("#tab-sells .listview-mode-default .listview-row");
 
         ReadWowheadItemsList(doc, uri, rowElements, func);
     }
 
-    internal static void ReadWowheadDropsList(IHtmlDocument doc, string uri, Action<string, IElement, int, string> func)
+    internal static void ReadWowheadDropsList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
     {
         var rowElements = doc.QuerySelectorAll("#tab-drops .listview-mode-default .listview-row");
 
         ReadWowheadItemsList(doc, uri, rowElements, func);
     }
 
-    private static void ReadWowheadItemsList(IHtmlDocument doc, string uri, IHtmlCollection<IElement> rowElements, Action<string, IElement, int, string> func) 
-    { 
+    private static void ReadWowheadItemsList(IHtmlDocument doc, string uri, IHtmlCollection<IElement> rowElements, Action<string, IElement, int, IElement> func) 
+    {
         if (rowElements != null && rowElements.Length > 0)
         {
             foreach (var row in rowElements)
@@ -133,11 +133,12 @@ internal static class Common
                         item = item.Substring(0, itemIdIndex);
 
                         success = Int32.TryParse(item, out itemId);
+
+                        func(uri, row, itemId, anchorObject);
                     }
                     return success;
                 });
 
-                func(uri, row, itemId, itemName);
             }
         }
     }

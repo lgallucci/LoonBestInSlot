@@ -45,12 +45,13 @@ public class PvPImporter : LootImporter
                 var doc = default(IHtmlDocument);
                 doc = await parser.ParseDocumentAsync(content);
 
-                Common.ReadWowheadSellsList(doc, webAddress.Key, (uri, row, itemId, itemName) =>
+                Common.ReadWowheadSellsList(doc, webAddress.Key, (uri, row, itemId, item) =>
                 {
                     var success = false;
                     var currencySource = "";
                     var currencyNumber = "";
                     var currencySourceLocation = "";
+                    var itemName = item.TextContent;
 
                     if (!webAddress.Value.Split(",").Any(i => itemName.Contains(i.Trim())))
                         return;

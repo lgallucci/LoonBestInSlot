@@ -150,12 +150,8 @@ public sealed partial class GuideImporter : Page
 
     private void Refresh_All_Click(object sender, RoutedEventArgs e)
     {
-        //int phaseNumber = 3;
-
-        DatabaseItems dbItem;
-        var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\RaidItemList.json");
-        dbItem = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
-        File.WriteAllText(@$"{Constants.ItemDbPath}\RaidItemList.json", JsonConvert.SerializeObject(dbItem, Formatting.Indented));
+        int phaseNumber = 3;
+        RefreshAllItemSources(phaseNumber);
     }
 
     private void RefreshAllItemSources(int phaseNumber)

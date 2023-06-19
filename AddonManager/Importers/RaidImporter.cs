@@ -10,7 +10,7 @@ public class RaidImporter : LootImporter
     {
         { @"https://www.wowhead.com/wotlk/npc=31125/archavon-the-stone-watcher#drops;mode:n10", "Archavon the Stone Watcher, Vault of Archavon (10)" },
         { @"https://www.wowhead.com/wotlk/npc=31125/archavon-the-stone-watcher#drops;mode:n10;50", "Archavon the Stone Watcher, Vault of Archavon (10)" },
-        { @"https://www.wowhead.com/wotlk/npc=31125/archavon-the-stone-watcher#drops;mode:n10;100", "Archavon the Stone Watcher, Vault of Archavon (10)" },        
+        { @"https://www.wowhead.com/wotlk/npc=31125/archavon-the-stone-watcher#drops;mode:n10;100", "Archavon the Stone Watcher, Vault of Archavon (10)" },
         { @"https://www.wowhead.com/wotlk/npc=31125/archavon-the-stone-watcher#drops;mode:n25", "Archavon the Stone Watcher, Vault of Archavon (25)" },
         { @"https://www.wowhead.com/wotlk/npc=31125/archavon-the-stone-watcher#drops;mode:n25;50", "Archavon the Stone Watcher, Vault of Archavon (25)" },
         { @"https://www.wowhead.com/wotlk/npc=31125/archavon-the-stone-watcher#drops;mode:n25;100", "Archavon the Stone Watcher, Vault of Archavon (25)" },
@@ -32,14 +32,14 @@ public class RaidImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=16011/loatheb#drops;mode:n25", "Loatheb, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=16061/instructor-razuvious#drops;mode:n25", "Instructor Razuvious, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=16060/gothik-the-harvester#drops;mode:n25", "Gothik the Harvester, Naxxramas" },
-        { @"https://www.wowhead.com/wotlk/npc=16064/thane-korthazz#drops;mode:n25", "Four Horsemen Chest, Naxxramas" },
+        { @"https://www.wowhead.com/wotlk/npc=16064/thane-korthazz#drops;mode:n25", "The Four Horsemen, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=16028/patchwerk#drops;mode:n25", "Patchwerk, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=15931/grobbulus#drops;mode:n25", "Grobbulus, Naxxramas" },
+        { @"https://www.wowhead.com/wotlk/npc=15928/thaddius#drops;mode:n25", "Thaddius, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=15932/gluth#drops;mode:n25", "Gluth, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=15932/gluth#drops;mode:n25;50", "Gluth, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=15932/gluth#drops;mode:n25;100", "Gluth, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=15932/gluth#drops;mode:n25;150", "Gluth, Naxxramas" },
-        { @"https://www.wowhead.com/wotlk/npc=15928/thaddius#drops;mode:n25", "Thaddius, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=15989/sapphiron#drops;mode:n25", "Sapphiron, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=15990/kelthuzad#drops;mode:n25", "Kel'Thuzad, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=28860/sartharion#drops;mode:n25", "Sartharion, The Obsidian Sanctum" },
@@ -52,12 +52,12 @@ public class RaidImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=33118/ignis-the-furnace-master#drops;mode:n25", "Ignis the Furnace Master, Ulduar (25)" },
         { @"https://www.wowhead.com/wotlk/npc=33293/xt-002-deconstructor#drops;mode:n10", "XT-002 Deconstructor, Ulduar (10)" },
         { @"https://www.wowhead.com/wotlk/npc=33293/xt-002-deconstructor#drops;mode:n25", "XT-002 Deconstructor, Ulduar (25)" },
-        { @"https://www.wowhead.com/wotlk/npc=32867/steelbreaker#drops;mode:n10", "Assembly of Iron, Ulduar (10)" },
-        { @"https://www.wowhead.com/wotlk/npc=32927/runemaster-molgeim#drops;mode:n10", "Assembly of Iron, Ulduar (10)" },
-        { @"https://www.wowhead.com/wotlk/npc=32857/stormcaller-brundir#drops;mode:n10", "Assembly of Iron, Ulduar (10)" },
-        { @"https://www.wowhead.com/wotlk/npc=32867/steelbreaker#drops;mode:n25", "Assembly of Iron, Ulduar (25)" },
-        { @"https://www.wowhead.com/wotlk/npc=32927/runemaster-molgeim#drops;mode:n25", "Assembly of Iron, Ulduar (25)" },
-        { @"https://www.wowhead.com/wotlk/npc=32857/stormcaller-brundir#drops;mode:n25", "Assembly of Iron, Ulduar (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=32867/steelbreaker#drops;mode:n10", "The Iron Council, Ulduar (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=32927/runemaster-molgeim#drops;mode:n10", "The Iron Council, Ulduar (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=32857/stormcaller-brundir#drops;mode:n10", "The Iron Council, Ulduar (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=32867/steelbreaker#drops;mode:n25", "The Iron Council, Ulduar (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=32927/runemaster-molgeim#drops;mode:n25", "The Iron Council, Ulduar (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=32857/stormcaller-brundir#drops;mode:n25", "The Iron Council, Ulduar (25)" },
         { @"https://www.wowhead.com/wotlk/npc=32930/kologarn#drops;mode:n10", "Kologarn, Ulduar (10)" },
         { @"https://www.wowhead.com/wotlk/npc=32930/kologarn#drops;mode:n25", "Kologarn, Ulduar (25)" },
         { @"https://www.wowhead.com/wotlk/npc=33515/auriaya#drops;mode:n10", "Auriaya, Ulduar (10)" },
@@ -113,16 +113,23 @@ public class RaidImporter : LootImporter
          { 45542, new DatabaseItem() { Name = "Greaves of the Stonewarder", Source = "Trash Mobs", SourceLocation = "Ulduar (25)", SourceNumber = "0", SourceType = "Drop", SourceFaction = "B"} },
     };
 
+    private Dictionary<string, int> hardmodeLevels = new Dictionary<string, int>()
+    {
+        { "Ulduar (10)", 226 },
+        { "Ulduar (25)", 239 }
+    };
+
     internal override string FileName { get => "RaidItemList"; }
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
         items.Items.Clear();
 
-        await Common.ReadWowheadDropsList(wowheadUriList.Keys.ToList(), (webAddress, row, itemId, itemName) =>
+        await Common.ReadWowheadDropsList(wowheadUriList.Keys.ToList(), (webAddress, row, itemId, item) =>
         {
             var localItems = new DatabaseItems();
+            var isPurple = item.ClassName.Contains("q4") || item.ClassName.Contains("q5");
             Int32.TryParse(row.Children[4].TextContent, out int itemLevel);
-            if (itemLevel < 200) return;
+            if (!isPurple) return;
 
             var sourceFaction = "B";
             if (row.Children[7].Children.Count() > 0)
@@ -135,16 +142,19 @@ public class RaidImporter : LootImporter
             }
 
             var sourceSplit = wowheadUriList[webAddress].Split(",");
-
-            if (items.Items.ContainsKey(itemId))
+            var sourceName = sourceSplit[0].Trim();
+            if (hardmodeLevels.ContainsKey(sourceSplit[1].Trim()) &&
+                itemLevel > hardmodeLevels[sourceSplit[1].Trim()] &&
+                !sourceSplit[0].Trim().Contains("Algalon"))
             {
-                items.Items.Remove(itemId);
+                sourceName += " (Hard)";
             }
+
             items.AddItem(itemId, new DatabaseItem
             {
-                Name = itemName,
+                Name = item.TextContent,
                 SourceNumber = "0",
-                Source = sourceSplit[0].Trim(),
+                Source = sourceName,
                 SourceLocation = sourceSplit[1].Trim(),
                 SourceType = "Drop",
                 SourceFaction = sourceFaction
