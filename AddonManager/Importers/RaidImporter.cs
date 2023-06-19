@@ -9,6 +9,7 @@ public class RaidImporter : LootImporter
 {
     private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
+        //Vault
         { @"https://www.wowhead.com/wotlk/npc=31125/archavon-the-stone-watcher#drops;mode:n10", "Archavon the Stone Watcher, Vault of Archavon (10)" },
         { @"https://www.wowhead.com/wotlk/npc=31125/archavon-the-stone-watcher#drops;mode:n10;50", "Archavon the Stone Watcher, Vault of Archavon (10)" },
         { @"https://www.wowhead.com/wotlk/npc=31125/archavon-the-stone-watcher#drops;mode:n10;100", "Archavon the Stone Watcher, Vault of Archavon (10)" },
@@ -25,6 +26,7 @@ public class RaidImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=35013/koralon-the-flame-watcher#drops;mode:n25", "Koralon the Flame Watcher, Vault of Archavon (25)" },
         { @"https://www.wowhead.com/wotlk/npc=38433/toravon-the-ice-watcher#drops;mode:n10", "Koralon the Flame Watcher, Vault of Archavon (10)" },
         { @"https://www.wowhead.com/wotlk/npc=38433/toravon-the-ice-watcher#drops;mode:n25", "Koralon the Flame Watcher, Vault of Archavon (25)" },
+        //Naxxramas
         { @"https://www.wowhead.com/wotlk/npc=15956/anubrekhan#drops;mode:n25", "Anub'Rekhan, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=15953/grand-widow-faerlina#drops;mode:n25", "Grand Widow Faerlina, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=15952/maexxna#drops;mode:n25", "Maexxna, Naxxramas" },
@@ -45,6 +47,7 @@ public class RaidImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=15990/kelthuzad#drops;mode:n25", "Kel'Thuzad, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=28860/sartharion#drops;mode:n25", "Sartharion, The Obsidian Sanctum" },
         { @"https://www.wowhead.com/wotlk/npc=28859/malygos#drops;mode:n25", "Malygos, The Eye of Eternity" },
+        //Ulduar
         { @"https://www.wowhead.com/wotlk/npc=33113/flame-leviathan#drops;mode:n10", "Flame Leviathan, Ulduar (10)" },
         { @"https://www.wowhead.com/wotlk/npc=33113/flame-leviathan#drops;mode:n25", "Flame Leviathan, Ulduar (25)" },
         { @"https://www.wowhead.com/wotlk/npc=33186/razorscale#drops;mode:n10", "Razorscale, Ulduar (10)" },
@@ -76,7 +79,32 @@ public class RaidImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=33288/yogg-saron#drops;mode:n10", "Yogg-Saron, Ulduar (10)" },
         { @"https://www.wowhead.com/wotlk/npc=33288/yogg-saron#drops;mode:n25", "Yogg-Saron, Ulduar (25)" },
         { @"https://www.wowhead.com/wotlk/npc=32871/algalon-the-observer#drops;mode:n10", "Algalon the Observer, Ulduar (10)" },
-        { @"https://www.wowhead.com/wotlk/npc=32871/algalon-the-observer#drops;mode:n25", "Algalon the Observer, Ulduar (25)" }
+        { @"https://www.wowhead.com/wotlk/npc=32871/algalon-the-observer#drops;mode:n25", "Algalon the Observer, Ulduar (25)" },
+        //Trials
+        { @"https://www.wowhead.com/wotlk/npc=34797/icehowl#drops;mode:n10", "Beasts of Northrend, Trials of the Crusader (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=34797/icehowl#drops;mode:n25", "Beasts of Northrend, Trials of the Crusader (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=34797/icehowl#drops;mode:heroic10", "Beasts of Northrend, Trials of the Grand Crusader (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=34797/icehowl#drops;mode:heroic25", "Beasts of Northrend, Trials of the Grand Crusader (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=34780/lord-jaraxxus#drops;mode:n10", "Lord Jaraxxus, Trials of the Crusader (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=34780/lord-jaraxxus#drops;mode:n25", "Lord Jaraxxus, Trials of the Crusader (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=34780/lord-jaraxxus#drops;mode:heroic10", "Lord Jaraxxus, Trials of the Grand Crusader (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=34780/lord-jaraxxus#drops;mode:heroic25", "Lord Jaraxxus, Trials of the Grand Crusader (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:n10", "Faction Champions, Trials of the Crusader (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:n25", "Faction Champions, Trials of the Crusader (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:heroic10", "Faction Champions, Trials of the Grand Crusader (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:heroic25", "Faction Champions, Trials of the Grand Crusader (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=34497/fjola-lightbane#drops;mode:n10", "Twin Val'kyr, Trials of the Crusader (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=34496/eydis-darkbane#drops;mode:n10", "Twin Val'kyr, Trials of the Crusader (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=34497/fjola-lightbane#drops;mode:n25", "Twin Val'kyr, Trials of the Crusader (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=34496/eydis-darkbane#drops;mode:n25", "Twin Val'kyr, Trials of the Crusader (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=34497/fjola-lightbane#drops;mode:heroic10", "Twin Val'kyr, Trials of the Grand Crusader (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=34496/eydis-darkbane#drops;mode:heroic10", "Twin Val'kyr, Trials of the Grand Crusader (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=34497/fjola-lightbane#drops;mode:heroic25", "Twin Val'kyr, Trials of the Grand Crusader (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=34496/eydis-darkbane#drops;mode:heroic25", "Twin Val'kyr, Trials of the Grand Crusader (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=34564/anubarak#drops;mode:n10", "Anub'arak, Trials of the Crusader (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=34564/anubarak#drops;mode:n25", "Anub'arak, Trials of the Crusader (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=34564/anubarak#drops;mode:heroic10", "Anub'arak, Trials of the Grand Crusader (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=34564/anubarak#drops;mode:heroic25", "Anub'arak, Trials of the Grand Crusader (25)" },
     };
     private Dictionary<string, string> wowheadContainsUriList = new Dictionary<string, string>
     {
@@ -129,7 +157,8 @@ public class RaidImporter : LootImporter
         "Reins of the",
         "Plans: ",
         "Pattern: ", 
-        "Formula: "
+        "Formula: ",
+        "Trophy of the Crusade"
     };
 
     internal override string FileName { get => "RaidItemList"; }
@@ -139,12 +168,14 @@ public class RaidImporter : LootImporter
 
         await Common.ReadWowheadDropsList(wowheadUriList.Keys.ToList(), (webAddress, row, itemId, item) =>
         {
-            InternalItemsParse(wowheadUriList, webAddress, row, itemId, item, items);
+            Int32.TryParse(row.Children[4].TextContent, out int itemLevel);
+            InternalItemsParse(wowheadUriList, webAddress, row, itemId, itemLevel, item, items);
         }, writeToLog);
 
         await Common.ReadWowheadContainsList(wowheadContainsUriList.Keys.ToList(), (webAddress, row, itemId, item) =>
         {
-            InternalItemsParse(wowheadContainsUriList, webAddress, row, itemId, item, items);
+            Int32.TryParse(row.Children[3].TextContent, out int itemLevel);
+            InternalItemsParse(wowheadContainsUriList, webAddress, row, itemId, itemLevel, item, items);
         }, writeToLog);
 
         foreach (var trashDrop in trashDrops)
@@ -163,17 +194,16 @@ public class RaidImporter : LootImporter
         return items;
     }
 
-    private void InternalItemsParse(Dictionary<string, string> uriList, string webAddress, IElement row, int itemId, IElement item, DatabaseItems items)
+    private void InternalItemsParse(Dictionary<string, string> uriList, string webAddress, IElement row, int itemId, int itemLevel, IElement item, DatabaseItems items)
     {
         var localItems = new DatabaseItems();
         var itemName = item.TextContent;
         var isPurple = item.ClassName.Contains("q4") || item.ClassName.Contains("q5");
-        Int32.TryParse(row.Children[4].TextContent, out int itemLevel);
         if (!isPurple) return;
         if (excludedWords.Any(w => itemName.Contains(w))) return;
 
         var sourceFaction = "B";
-        if (row.Children[7].Children.Count() > 0)
+        if (row.Children[6].Children.Count() > 0)
         {
             var factionColumn = (IElement)row.Children[6].ChildNodes[0];
             if (factionColumn?.ClassName == "icon-horde")

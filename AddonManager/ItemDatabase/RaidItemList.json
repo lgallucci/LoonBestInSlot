@@ -6842,7 +6842,7 @@
         },
         "45457": {
             "Name": "Staff of Endless Winter",
-            "Source": "Hodir",
+            "Source": "Hodir (Hard)",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Ulduar (25)",
@@ -6858,7 +6858,7 @@
         },
         "45459": {
             "Name": "Frigid Strength of Hodir",
-            "Source": "Hodir",
+            "Source": "Hodir (Hard)",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Ulduar (25)",
@@ -6866,7 +6866,7 @@
         },
         "45460": {
             "Name": "Bindings of Winter Gale",
-            "Source": "Hodir",
+            "Source": "Hodir (Hard)",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Ulduar (25)",
@@ -6874,7 +6874,7 @@
         },
         "45461": {
             "Name": "Drape of Icy Intent",
-            "Source": "Hodir",
+            "Source": "Hodir (Hard)",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Ulduar (25)",
@@ -6882,7 +6882,7 @@
         },
         "45462": {
             "Name": "Gloves of the Frozen Glade",
-            "Source": "Hodir",
+            "Source": "Hodir (Hard)",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Ulduar (25)",
@@ -7570,7 +7570,7 @@
         },
         "45612": {
             "Name": "Constellus",
-            "Source": "Algalon the Observer & Hodir",
+            "Source": "Algalon the Observer & Hodir (Hard)",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Ulduar (25)",
@@ -8888,6 +8888,14 @@
             "SourceLocation": "Vault of Archavon (25)",
             "SourceFaction": "B"
         },
+        "46138": {
+            "Name": "Idol of the Flourishing Life",
+            "Source": "Trash Mobs",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Ulduar (25)",
+            "SourceFaction": "B"
+        },
         "46139": {
             "Name": "Conqueror's Deathbringer Leggings",
             "Source": "Emalon the Storm Watcher",
@@ -9224,6 +9232,2374 @@
             "SourceLocation": "Vault of Archavon (25)",
             "SourceFaction": "B"
         },
+        "46960": {
+            "Name": "Breastplate of Cruel Intent",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46962": {
+            "Name": "Chestplate of the Towering Monstrosity",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46963": {
+            "Name": "Crystal Plated Vanguard",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46964": {
+            "Name": "Crystal Plated Vanguard",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46965": {
+            "Name": "Breastplate of Cruel Intent",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46966": {
+            "Name": "Band of the Violent Temperment",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46967": {
+            "Name": "Boneshatter Armplates",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46970": {
+            "Name": "Drape of the Untamed Predator",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46971": {
+            "Name": "Drape of the Untamed Predator",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46973": {
+            "Name": "Cord of the Tenebrous Mist",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46976": {
+            "Name": "Shawl of the Refreshing Winds",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46977": {
+            "Name": "Shawl of the Refreshing Winds",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46980": {
+            "Name": "Blade of Tarasque",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46986": {
+            "Name": "Boots of the Courageous",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46988": {
+            "Name": "Boots of the Unrelenting Storm",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46990": {
+            "Name": "Belt of the Ice Burrower",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46991": {
+            "Name": "Belt of the Ice Burrower",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46992": {
+            "Name": "Flowing Vestments of Ascent",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46994": {
+            "Name": "Talonstrike",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46995": {
+            "Name": "Talonstrike",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46996": {
+            "Name": "Lionhead Slasher",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "46997": {
+            "Name": "Dawnbreaker Greaves",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47001": {
+            "Name": "Lionhead Slasher",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47002": {
+            "Name": "Bloodbath Belt",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47004": {
+            "Name": "Cuirass of Calamitous Fate",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47041": {
+            "Name": "Solace of the Defeated",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47042": {
+            "Name": "Pride of the Eredar",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47052": {
+            "Name": "Legguards of Feverish Dedication",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47053": {
+            "Name": "Symbol of Transgression",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47056": {
+            "Name": "Bracers of Cloudy Omen",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47059": {
+            "Name": "Solace of the Defeated",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47060": {
+            "Name": "Charge of the Demon Lord",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47061": {
+            "Name": "Legguards of Feverish Dedication",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47062": {
+            "Name": "Leggings of the Soothing Touch",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47063": {
+            "Name": "Pride of the Eredar",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47064": {
+            "Name": "Symbol of Transgression",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47066": {
+            "Name": "Bracers of the Autumn Willow",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47067": {
+            "Name": "Legplates of Failing Light",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47068": {
+            "Name": "Bracers of Cloudy Omen",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47069": {
+            "Name": "Justicebringer",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47070": {
+            "Name": "Ring of Callous Aggression",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47071": {
+            "Name": "Treads of the Icewalker",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47072": {
+            "Name": "Girdle of Bloodied Scars",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47073": {
+            "Name": "Bracers of the Untold Massacre",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47074": {
+            "Name": "Bracers of the Untold Massacre",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47075": {
+            "Name": "Ring of Callous Aggression",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47076": {
+            "Name": "Girdle of Bloodied Scars",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47077": {
+            "Name": "Treads of the Icewalker",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47078": {
+            "Name": "Justicebringer",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47079": {
+            "Name": "Bastion of Purity",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47080": {
+            "Name": "Satrina's Impeding Scarab",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47081": {
+            "Name": "Cord of Biting Cold",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47082": {
+            "Name": "Chestplate of the Frostborn Hero",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47083": {
+            "Name": "Legguards of Concealed Hatred",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47084": {
+            "Name": "Cord of Biting Cold",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47085": {
+            "Name": "Bastion of Purity",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47086": {
+            "Name": "Chestplate of the Frostborn Hero",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47087": {
+            "Name": "Legguards of Concealed Hatred",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47088": {
+            "Name": "Satrina's Impeding Scarab",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47089": {
+            "Name": "Cloak of Displacement",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47090": {
+            "Name": "Boots of Tremoring Earth",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47092": {
+            "Name": "Boots of the Mourning Widow",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47093": {
+            "Name": "Vambraces of the Broken Bond",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47094": {
+            "Name": "Vestments of the Shattered Fellowship",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47095": {
+            "Name": "Cloak of Displacement",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47096": {
+            "Name": "Vestments of the Shattered Fellowship",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47097": {
+            "Name": "Boots of the Mourning Widow",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47098": {
+            "Name": "Vambraces of the Broken Bond",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47099": {
+            "Name": "Boots of Tremoring Earth",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47106": {
+            "Name": "Sabatons of Ruthless Judgment",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47107": {
+            "Name": "Belt of the Merciless Killer",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47108": {
+            "Name": "Bracers of the Shieldmaiden",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47109": {
+            "Name": "Sabatons of Ruthless Judgment",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47111": {
+            "Name": "Bracers of the Shieldmaiden",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47112": {
+            "Name": "Belt of the Merciless Killer",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47113": {
+            "Name": "Twin Spike",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47114": {
+            "Name": "Lupine Longstaff",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47121": {
+            "Name": "Legguards of Ascension",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47129": {
+            "Name": "Skyweaver Robes",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47130": {
+            "Name": "Lupine Longstaff",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47131": {
+            "Name": "Death's Verdict",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47132": {
+            "Name": "Legguards of Ascension",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47133": {
+            "Name": "The Arbiter's Muse",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47138": {
+            "Name": "Chalice of Searing Light",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47139": {
+            "Name": "Wail of the Val'kyr",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47140": {
+            "Name": "Cord of Pale Thorns",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47141": {
+            "Name": "Bindings of Dark Essence",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47142": {
+            "Name": "Breastplate of the Frozen Lake",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47143": {
+            "Name": "Bindings of Dark Essence",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47144": {
+            "Name": "Wail of the Val'kyr",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47145": {
+            "Name": "Cord of Pale Thorns",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47146": {
+            "Name": "Chalice of Searing Light",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47147": {
+            "Name": "Breastplate of the Frozen Lake",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47151": {
+            "Name": "Bracers of Dark Determination",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47153": {
+            "Name": "Belt of Deathly Dominion",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47155": {
+            "Name": "Bracers of Dark Determination",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47156": {
+            "Name": "Stormpike Cleaver",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47190": {
+            "Name": "Legwraps of the Awakening",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47204": {
+            "Name": "Chestguard of Flowing Elements",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47205": {
+            "Name": "Footpads of the Icy Floe",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47207": {
+            "Name": "Belt of the Forgotten Martyr",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47224": {
+            "Name": "Ring of the Darkmender",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47237": {
+            "Name": "Band of Deplorable Violence",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47239": {
+            "Name": "Archon Glaive",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47251": {
+            "Name": "Cuirass of Cruel Intent",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47252": {
+            "Name": "Ring of the Violent Temperament",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47253": {
+            "Name": "Boneshatter Vambraces",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47254": {
+            "Name": "Hauberk of the Towering Monstrosity",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47255": {
+            "Name": "Stygian Bladebreaker",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47256": {
+            "Name": "Drape of the Refreshing Winds",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47258": {
+            "Name": "Belt of the Tenebrous Mist",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47260": {
+            "Name": "Forlorn Barrier",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47261": {
+            "Name": "Barb of Tarasque",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47262": {
+            "Name": "Boots of the Harsh Winter",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47263": {
+            "Name": "Sabatons of the Courageous",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47265": {
+            "Name": "Binding of the Ice Burrower",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47266": {
+            "Name": "Blood Fury",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47267": {
+            "Name": "Death's Head Crossbow",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47268": {
+            "Name": "Bloodbath Girdle",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47269": {
+            "Name": "Dawnbreaker Sabatons",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47270": {
+            "Name": "Vest of Calamitous Fate",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47271": {
+            "Name": "Solace of the Fallen",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47272": {
+            "Name": "Charge of the Eredar",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47273": {
+            "Name": "Legplates of Feverish Dedication",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47274": {
+            "Name": "Pants of the Soothing Touch",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47276": {
+            "Name": "Talisman of Heedless Sins",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47277": {
+            "Name": "Bindings of the Autumn Willow",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47278": {
+            "Name": "Circle of the Darkmender",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47279": {
+            "Name": "Leggings of Failing Light",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47280": {
+            "Name": "Wristwraps of Cloudy Omen",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47281": {
+            "Name": "Bracers of the Silent Massacre",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47282": {
+            "Name": "Band of Callous Aggression",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47283": {
+            "Name": "Belt of Bloodied Scars",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47284": {
+            "Name": "Icewalker Treads",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47285": {
+            "Name": "Dual-blade Butcher",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47286": {
+            "Name": "Belt of Biting Cold",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47287": {
+            "Name": "Bastion of Resolve",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47288": {
+            "Name": "Chestplate of the Frostwolf Hero",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47289": {
+            "Name": "Leggings of Concealed Hatred",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47290": {
+            "Name": "Juggernaut's Vitality",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47291": {
+            "Name": "Shroud of Displacement",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47292": {
+            "Name": "Robes of the Shattered Fellowship",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47293": {
+            "Name": "Sandals of the Mourning Widow",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47294": {
+            "Name": "Bracers of the Broken Bond",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47295": {
+            "Name": "Sabatons of Tremoring Earth",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47296": {
+            "Name": "Greaves of Ruthless Judgment",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47297": {
+            "Name": "The Executioner's Vice",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47298": {
+            "Name": "Armguards of the Shieldmaiden",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47299": {
+            "Name": "Belt of the Pitiless Killer",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47300": {
+            "Name": "Gouge of the Frigid Heart",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47301": {
+            "Name": "Skyweaver Vestments",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47302": {
+            "Name": "Twin's Pact",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47303": {
+            "Name": "Death's Choice",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47304": {
+            "Name": "Legplates of Ascension",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47305": {
+            "Name": "Legionnaire's Gorget",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47306": {
+            "Name": "Dark Essence Bindings",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47307": {
+            "Name": "Cry of the Val'kyr",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47308": {
+            "Name": "Belt of Pale Thorns",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47309": {
+            "Name": "Mystifying Charm",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47310": {
+            "Name": "Chestplate of the Frozen Lake",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47311": {
+            "Name": "Waistguard of Deathly Dominion",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47312": {
+            "Name": "Greaves of the Saronite Citadel",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47313": {
+            "Name": "Armbands of Dark Determination",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47314": {
+            "Name": "Hellscream Slicer",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47315": {
+            "Name": "Band of the Traitor King",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47316": {
+            "Name": "Reign of the Dead",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47317": {
+            "Name": "Breeches of the Deepening Void",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47318": {
+            "Name": "Leggings of the Awakening",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47319": {
+            "Name": "Leggings of the Lurking Threat",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47320": {
+            "Name": "Might of the Nerub",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47321": {
+            "Name": "Boots of the Icy Floe",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47322": {
+            "Name": "Suffering's End",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47323": {
+            "Name": "Girdle of the Forgotten Martyr",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47324": {
+            "Name": "Bindings of the Ashen Saint",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47325": {
+            "Name": "Cuirass of Flowing Elements",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47326": {
+            "Name": "Handwraps of the Lifeless Touch",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47327": {
+            "Name": "Lurid Manifestation",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47328": {
+            "Name": "Maiden's Adoration",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47329": {
+            "Name": "Hellion Glaive",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47330": {
+            "Name": "Gauntlets of Bitter Reprisal",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47412": {
+            "Name": "Cuirass of Cruel Intent",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47413": {
+            "Name": "Ring of the Violent Temperament",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47414": {
+            "Name": "Boneshatter Vambraces",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47415": {
+            "Name": "Hauberk of the Towering Monstrosity",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47417": {
+            "Name": "Drape of the Refreshing Winds",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47418": {
+            "Name": "Cloak of the Untamed Predator",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47419": {
+            "Name": "Belt of the Tenebrous Mist",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47420": {
+            "Name": "Legwraps of the Broken Beast",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47421": {
+            "Name": "Forlorn Barrier",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47422": {
+            "Name": "Barb of Tarasque",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47423": {
+            "Name": "Boots of the Harsh Winter",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47424": {
+            "Name": "Sabatons of the Courageous",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47425": {
+            "Name": "Flowing Robes of Ascent",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47426": {
+            "Name": "Binding of the Ice Burrower",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47427": {
+            "Name": "Blood Fury",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47428": {
+            "Name": "Death's Head Crossbow",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47429": {
+            "Name": "Bloodbath Girdle",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47430": {
+            "Name": "Dawnbreaker Sabatons",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47431": {
+            "Name": "Vest of Calamitous Fate",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47432": {
+            "Name": "Solace of the Fallen",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47433": {
+            "Name": "Charge of the Eredar",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47434": {
+            "Name": "Legplates of Feverish Dedication",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47435": {
+            "Name": "Pants of the Soothing Touch",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47436": {
+            "Name": "Pride of the Demon Lord",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47437": {
+            "Name": "Talisman of Heedless Sins",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47438": {
+            "Name": "Bindings of the Autumn Willow",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47439": {
+            "Name": "Circle of the Darkmender",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47440": {
+            "Name": "Leggings of Failing Light",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47441": {
+            "Name": "Wristwraps of Cloudy Omen",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47442": {
+            "Name": "Bracers of the Silent Massacre",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47443": {
+            "Name": "Band of Callous Aggression",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47444": {
+            "Name": "Belt of Bloodied Scars",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47445": {
+            "Name": "Icewalker Treads",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47446": {
+            "Name": "Dual-blade Butcher",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47447": {
+            "Name": "Belt of Biting Cold",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47448": {
+            "Name": "Bastion of Resolve",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47449": {
+            "Name": "Chestplate of the Frostwolf Hero",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47450": {
+            "Name": "Leggings of Concealed Hatred",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47451": {
+            "Name": "Juggernaut's Vitality",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47452": {
+            "Name": "Shroud of Displacement",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47453": {
+            "Name": "Robes of the Shattered Fellowship",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47454": {
+            "Name": "Sandals of the Mourning Widow",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47455": {
+            "Name": "Bracers of the Broken Bond",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47456": {
+            "Name": "Sabatons of Tremoring Earth",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47457": {
+            "Name": "Greaves of Ruthless Judgment",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47458": {
+            "Name": "The Executioner's Vice",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47459": {
+            "Name": "Armguards of the Shieldmaiden",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47460": {
+            "Name": "Belt of the Pitiless Killer",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47461": {
+            "Name": "Gouge of the Frigid Heart",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47462": {
+            "Name": "Skyweaver Vestments",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47463": {
+            "Name": "Twin's Pact",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47464": {
+            "Name": "Death's Choice",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47465": {
+            "Name": "Legplates of Ascension",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47466": {
+            "Name": "Legionnaire's Gorget",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47467": {
+            "Name": "Dark Essence Bindings",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47468": {
+            "Name": "Cry of the Val'kyr",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47469": {
+            "Name": "Belt of Pale Thorns",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47470": {
+            "Name": "Mystifying Charm",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47471": {
+            "Name": "Chestplate of the Frozen Lake",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47473": {
+            "Name": "Greaves of the Saronite Citadel",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47475": {
+            "Name": "Hellscream Slicer",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47476": {
+            "Name": "Band of the Traitor King",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47477": {
+            "Name": "Reign of the Dead",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47478": {
+            "Name": "Breeches of the Deepening Void",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47480": {
+            "Name": "Leggings of the Lurking Threat",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47483": {
+            "Name": "Suffering's End",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47485": {
+            "Name": "Bindings of the Ashen Saint",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47489": {
+            "Name": "Lurid Manifestation",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47490": {
+            "Name": "Maiden's Adoration",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47578": {
+            "Name": "Carnivorous Band",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47607": {
+            "Name": "Collar of Ceaseless Torment",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47608": {
+            "Name": "Acidmaw Boots",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47609": {
+            "Name": "Gauntlets of Rising Anger",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47610": {
+            "Name": "Armbands of the Northern Stalker",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47611": {
+            "Name": "Dreadscale Armguards",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47612": {
+            "Name": "Rod of Imprisoned Souls",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47613": {
+            "Name": "Shoulderpads of the Glacial Wilds",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47614": {
+            "Name": "Girdle of the Impaler",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47615": {
+            "Name": "Belt of the Frozen Reach",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47616": {
+            "Name": "Shoulderguards of the Spirit Walker",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47617": {
+            "Name": "Icehowl Cinch",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47618": {
+            "Name": "Firestorm Ring",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47619": {
+            "Name": "Amulet of Binding Elements",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47620": {
+            "Name": "Leggings of the Demonic Messenger",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47621": {
+            "Name": "Girdle of the Farseer",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47663": {
+            "Name": "Felspark Bindings",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47669": {
+            "Name": "Belt of the Winter Solstice",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47676": {
+            "Name": "Dirk of the Night Watch",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47679": {
+            "Name": "Endurance of the Infernal",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47680": {
+            "Name": "Armguards of the Nether Lord",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47683": {
+            "Name": "Sentinel Scouting Greaves",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47700": {
+            "Name": "Loop of the Twin Val'kyr",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47703": {
+            "Name": "Planestalker Signet",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47711": {
+            "Name": "Girdle of the Nether Champion",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47717": {
+            "Name": "Faceplate of the Silver Champion",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47718": {
+            "Name": "Helm of the Silver Ranger",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47719": {
+            "Name": "Gloves of the Silver Assassin",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47720": {
+            "Name": "Pauldrons of the Silver Defender",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47721": {
+            "Name": "Sandals of the Silver Magus",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47724": {
+            "Name": "Blade of the Silver Disciple",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47725": {
+            "Name": "Victor's Call",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47726": {
+            "Name": "Talisman of Volatile Power",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47727": {
+            "Name": "Fervor of the Frostborn",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47728": {
+            "Name": "Binding Light",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47736": {
+            "Name": "Icefall Blade",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47737": {
+            "Name": "Reckoning",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47738": {
+            "Name": "Sabatons of the Lingering Vortex",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47739": {
+            "Name": "Armor of Shifting Shadows",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47740": {
+            "Name": "The Diplomat",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47741": {
+            "Name": "Baelgun's Heavy Crossbow",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47742": {
+            "Name": "Chalice of Benedictus",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47743": {
+            "Name": "Enlightenment",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47744": {
+            "Name": "Gloves of the Azure Prophet",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47745": {
+            "Name": "Gloves of Looming Shadow",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47746": {
+            "Name": "Helm of the Snowy Grotto",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47747": {
+            "Name": "Darkbane Pendant",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
         "47750": {
             "Name": "Khadgar's Leggings of Conquest",
             "Source": "Koralon the Flame Watcher",
@@ -9352,12 +11728,1548 @@
             "SourceLocation": "Vault of Archavon (25)",
             "SourceFaction": "B"
         },
+        "47808": {
+            "Name": "The Lion's Maw",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47809": {
+            "Name": "Argent Resolve",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47810": {
+            "Name": "Crusader's Glory",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47811": {
+            "Name": "Chestguard of the Warden",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47812": {
+            "Name": "Vigilant Ward",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47813": {
+            "Name": "Helmet of the Crypt Lord",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47814": {
+            "Name": "Westfall Saber",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47815": {
+            "Name": "Cold Convergence",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47816": {
+            "Name": "The Grinder",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47829": {
+            "Name": "Pauldrons of the Timeless Hunter",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47830": {
+            "Name": "Legplates of the Silver Hand",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47832": {
+            "Name": "Spaulders of the Snow Bandit",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47834": {
+            "Name": "Fordragon Blades",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47835": {
+            "Name": "Bulwark of the Royal Guard",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47836": {
+            "Name": "Legplates of the Immortal Spider",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47837": {
+            "Name": "Cinch of the Undying",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47838": {
+            "Name": "Vestments of the Sleepless",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47849": {
+            "Name": "Collar of Unending Torment",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47850": {
+            "Name": "Bracers of the Northern Stalker",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47851": {
+            "Name": "Gauntlets of Mounting Anger",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47852": {
+            "Name": "Dreadscale Bracers",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47853": {
+            "Name": "Acidmaw Treads",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47854": {
+            "Name": "Gormok's Band",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47855": {
+            "Name": "Icehowl Binding",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47856": {
+            "Name": "Scepter of Imprisoned Souls",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47857": {
+            "Name": "Pauldrons of the Glacial Wilds",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47858": {
+            "Name": "Girdle of the Frozen Reach",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47859": {
+            "Name": "Belt of the Impaler",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47860": {
+            "Name": "Pauldrons of the Spirit Walker",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47861": {
+            "Name": "Felspark Bracers",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47862": {
+            "Name": "Firestorm Band",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47863": {
+            "Name": "Belt of the Bloodhoof Emissary",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47864": {
+            "Name": "Pendant of Binding Elements",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47865": {
+            "Name": "Legwraps of the Demonic Messenger",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47866": {
+            "Name": "Darkspear Ritual Binding",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47867": {
+            "Name": "Warsong Poacher's Greaves",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47868": {
+            "Name": "Planestalker Band",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47869": {
+            "Name": "Armplates of the Nether Lord",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47870": {
+            "Name": "Belt of the Nether Champion",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47871": {
+            "Name": "Orcish Deathblade",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47872": {
+            "Name": "Fortitude of the Infernal",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47873": {
+            "Name": "Sunreaver Magus' Sandals",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47874": {
+            "Name": "Sunreaver Disciple's Blade",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47875": {
+            "Name": "Sunreaver Ranger's Helm",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47876": {
+            "Name": "Sunreaver Champion's Faceplate",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47877": {
+            "Name": "Sunreaver Defender's Pauldrons",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47878": {
+            "Name": "Sunreaver Assassin's Gloves",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47879": {
+            "Name": "Fetish of Volatile Power",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47880": {
+            "Name": "Binding Stone",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47881": {
+            "Name": "Vengeance of the Forsaken",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47882": {
+            "Name": "Eitrigg's Oath",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47883": {
+            "Name": "Widebarrel Flintlock",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47884": {
+            "Name": "Edge of Agony",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47885": {
+            "Name": "Greaves of the Lingering Vortex",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47886": {
+            "Name": "Nemesis Blade",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47887": {
+            "Name": "Vest of Shifting Shadows",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47888": {
+            "Name": "Band of the Twin Val'kyr",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47889": {
+            "Name": "Looming Shadow Wraps",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47890": {
+            "Name": "Darkbane Amulet",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47891": {
+            "Name": "Helm of the High Mesa",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47892": {
+            "Name": "Illumination",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47893": {
+            "Name": "Sen'jin Ritualist Gloves",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47894": {
+            "Name": "Mace of the Earthborn Chieftain",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47895": {
+            "Name": "Pride of the Kor'kron",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47896": {
+            "Name": "Stoneskin Chestplate",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47897": {
+            "Name": "Helm of the Crypt Lord",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47898": {
+            "Name": "Frostblade Hatchet",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47899": {
+            "Name": "Ardent Guard",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47900": {
+            "Name": "Perdition",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47901": {
+            "Name": "Pauldrons of the Shadow Hunter",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47902": {
+            "Name": "Legplates of Redeemed Blood",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47903": {
+            "Name": "Forsaken Bonecarver",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47904": {
+            "Name": "Shoulderpads of the Snow Bandit",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47905": {
+            "Name": "Blackhorn Bludgeon",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47906": {
+            "Name": "Robes of the Sleepless",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47907": {
+            "Name": "Darkmaw Crossbow",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47908": {
+            "Name": "Sunwalker Legguards",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47909": {
+            "Name": "Belt of the Eternal",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47910": {
+            "Name": "Aegis of the Coliseum",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47911": {
+            "Name": "Anguish",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47913": {
+            "Name": "Lightbane Focus",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47915": {
+            "Name": "Collar of Ceaseless Torment",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47916": {
+            "Name": "Armbands of the Northern Stalker",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47917": {
+            "Name": "Gauntlets of Rising Anger",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47918": {
+            "Name": "Dreadscale Armguards",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47919": {
+            "Name": "Acidmaw Boots",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47920": {
+            "Name": "Carnivorous Band",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47921": {
+            "Name": "Icehowl Cinch",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47922": {
+            "Name": "Rod of Imprisoned Souls",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47923": {
+            "Name": "Shoulderpads of the Glacial Wilds",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47924": {
+            "Name": "Belt of the Frozen Reach",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47925": {
+            "Name": "Girdle of the Impaler",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47926": {
+            "Name": "Shoulderguards of the Spirit Walker",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47927": {
+            "Name": "Felspark Bindings",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47928": {
+            "Name": "Firestorm Ring",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47929": {
+            "Name": "Belt of the Winter Solstice",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47930": {
+            "Name": "Amulet of Binding Elements",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47931": {
+            "Name": "Leggings of the Demonic Messenger",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47932": {
+            "Name": "Girdle of the Farseer",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47933": {
+            "Name": "Sentinel Scouting Greaves",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47934": {
+            "Name": "Planestalker Signet",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47935": {
+            "Name": "Armguards of the Nether Lord",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47937": {
+            "Name": "Girdle of the Nether Champion",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47938": {
+            "Name": "Dirk of the Night Watch",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47939": {
+            "Name": "Endurance of the Infernal",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47940": {
+            "Name": "Sandals of the Silver Magus",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47941": {
+            "Name": "Blade of the Silver Disciple",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47942": {
+            "Name": "Helm of the Silver Ranger",
+            "Source": "Faction Champions",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47950": {
+            "Name": "The Diplomat",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47951": {
+            "Name": "Reckoning",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47952": {
+            "Name": "Sabatons of the Lingering Vortex",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47953": {
+            "Name": "Icefall Blade",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47954": {
+            "Name": "Armor of Shifting Shadows",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47955": {
+            "Name": "Loop of the Twin Val'kyr",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47956": {
+            "Name": "Gloves of Looming Shadow",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47957": {
+            "Name": "Darkbane Pendant",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47958": {
+            "Name": "Chalice of Benedictus",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47959": {
+            "Name": "Helm of the Snowy Grotto",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47960": {
+            "Name": "Enlightenment",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47961": {
+            "Name": "Gloves of the Azure Prophet",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47962": {
+            "Name": "Argent Resolve",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47963": {
+            "Name": "Vigilant Ward",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47964": {
+            "Name": "Chestguard of the Warden",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47965": {
+            "Name": "Helmet of the Crypt Lord",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47966": {
+            "Name": "The Lion's Maw",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47967": {
+            "Name": "Crusader's Glory",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47968": {
+            "Name": "Cold Convergence",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47969": {
+            "Name": "Pauldrons of the Timeless Hunter",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47970": {
+            "Name": "Legplates of the Silver Hand",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47971": {
+            "Name": "Westfall Saber",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47972": {
+            "Name": "Spaulders of the Snow Bandit",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47973": {
+            "Name": "The Grinder",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47974": {
+            "Name": "Vestments of the Sleepless",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47975": {
+            "Name": "Baelgun's Heavy Crossbow",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47976": {
+            "Name": "Legplates of the Immortal Spider",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47977": {
+            "Name": "Cinch of the Undying",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47978": {
+            "Name": "Bulwark of the Royal Guard",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47979": {
+            "Name": "Fordragon Blades",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
         "47980": {
             "Name": "Velen's Leggings of Conquest",
             "Source": "Koralon the Flame Watcher",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Vault of Archavon (10)",
+            "SourceFaction": "B"
+        },
+        "47988": {
+            "Name": "Collar of Unending Torment",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47989": {
+            "Name": "Bracers of the Northern Stalker",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47990": {
+            "Name": "Gauntlets of Mounting Anger",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47991": {
+            "Name": "Dreadscale Bracers",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47992": {
+            "Name": "Acidmaw Treads",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47993": {
+            "Name": "Gormok's Band",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47994": {
+            "Name": "Icehowl Binding",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47995": {
+            "Name": "Scepter of Imprisoned Souls",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47996": {
+            "Name": "Pauldrons of the Glacial Wilds",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47997": {
+            "Name": "Girdle of the Frozen Reach",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47998": {
+            "Name": "Belt of the Impaler",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "47999": {
+            "Name": "Pauldrons of the Spirit Walker",
+            "Source": "Beasts of Northrend",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48000": {
+            "Name": "Felspark Bracers",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48001": {
+            "Name": "Firestorm Band",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48002": {
+            "Name": "Belt of the Bloodhoof Emissary",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48003": {
+            "Name": "Pendant of Binding Elements",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48004": {
+            "Name": "Legwraps of the Demonic Messenger",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48005": {
+            "Name": "Darkspear Ritual Binding",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48006": {
+            "Name": "Warsong Poacher's Greaves",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48007": {
+            "Name": "Planestalker Band",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48008": {
+            "Name": "Armplates of the Nether Lord",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48009": {
+            "Name": "Belt of the Nether Champion",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48010": {
+            "Name": "Orcish Deathblade",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48011": {
+            "Name": "Fortitude of the Infernal",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48022": {
+            "Name": "Widebarrel Flintlock",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48023": {
+            "Name": "Edge of Agony",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48024": {
+            "Name": "Greaves of the Lingering Vortex",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48025": {
+            "Name": "Nemesis Blade",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48026": {
+            "Name": "Vest of Shifting Shadows",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48027": {
+            "Name": "Band of the Twin Val'kyr",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48028": {
+            "Name": "Looming Shadow Wraps",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48030": {
+            "Name": "Darkbane Amulet",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48032": {
+            "Name": "Lightbane Focus",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48034": {
+            "Name": "Helm of the High Mesa",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48036": {
+            "Name": "Illumination",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48038": {
+            "Name": "Sen'jin Ritualist Gloves",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48039": {
+            "Name": "Mace of the Earthborn Chieftain",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48040": {
+            "Name": "Pride of the Kor'kron",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48041": {
+            "Name": "Stoneskin Chestplate",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48042": {
+            "Name": "Helm of the Crypt Lord",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48043": {
+            "Name": "Frostblade Hatchet",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48044": {
+            "Name": "Ardent Guard",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48045": {
+            "Name": "Perdition",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48046": {
+            "Name": "Pauldrons of the Shadow Hunter",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48047": {
+            "Name": "Legplates of the Redeemed Blood Knight",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48048": {
+            "Name": "Forsaken Bonecarver",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48049": {
+            "Name": "Shoulderpads of the Snow Bandit",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48050": {
+            "Name": "Blackhorn Bludgeon",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48051": {
+            "Name": "Robes of the Sleepless",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48052": {
+            "Name": "Darkmaw Crossbow",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48053": {
+            "Name": "Sunwalker Legguards",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48054": {
+            "Name": "Belt of the Eternal",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48055": {
+            "Name": "Aegis of the Coliseum",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "48056": {
+            "Name": "Anguish",
+            "Source": "Anub'arak",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
             "SourceFaction": "B"
         },
         "48132": {
@@ -9510,6 +13422,70 @@
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Vault of Archavon (10)",
+            "SourceFaction": "B"
+        },
+        "49231": {
+            "Name": "Boots of the Grieving Soul",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "49232": {
+            "Name": "Sandals of the Grieving Soul",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "49233": {
+            "Name": "Sandals of the Grieving Soul",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "49234": {
+            "Name": "Boots of the Grieving Soul",
+            "Source": "Twin Val'kyr",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "49235": {
+            "Name": "Boots of Tortured Space",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "49236": {
+            "Name": "Sabatons of Tortured Space",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "49237": {
+            "Name": "Sabatons of Tortured Space",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
+            "SourceFaction": "B"
+        },
+        "49238": {
+            "Name": "Boots of Tortured Space",
+            "Source": "Lord Jaraxxus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trials of the Grand Crusader (10)",
             "SourceFaction": "B"
         },
         "50079": {
