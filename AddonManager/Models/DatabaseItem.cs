@@ -11,12 +11,12 @@ public class DatabaseItems
         {
             if (Items.ContainsKey(converted.Key))
             {
-                if (Items[converted.Key].SourceLocation != converted.Value.SourceLocation)
-                    Items[converted.Key].SourceLocation += $"/{converted.Value.SourceLocation}";
                 if (Items[converted.Key].Source != converted.Value.Source)
+                {
                     Items[converted.Key].Source += $"/{converted.Value.Source}";
-                if (Items[converted.Key].SourceNumber != converted.Value.SourceNumber)
+                    Items[converted.Key].SourceLocation += $"/{converted.Value.SourceLocation}";
                     Items[converted.Key].SourceNumber += $"/{converted.Value.SourceNumber}";
+                }
             }
             else
             {
@@ -37,16 +37,16 @@ public class DatabaseItems
                     Items[itemId].Source = "Various Bosses";
                 else
                     if (Items[itemId].Source != converted.Source)
-                        Items[itemId].Source += $" & {converted.Source}";
+                    Items[itemId].Source += $" & {converted.Source}";
             }
             else
             {
-                if (Items[itemId].SourceLocation != converted.SourceLocation)
-                    Items[itemId].SourceLocation += $"/{converted.SourceLocation}";
                 if (Items[itemId].Source != converted.Source)
+                {
                     Items[itemId].Source += $"/{converted.Source}";
-                if (Items[itemId].SourceNumber != converted.SourceNumber)
+                    Items[itemId].SourceLocation += $"/{converted.SourceLocation}";
                     Items[itemId].SourceNumber += $"/{converted.SourceNumber}";
+                }
             }
         }
         else
