@@ -219,8 +219,8 @@ LBIS:AddItem(spec3, "46204", LBIS.L["Shoulder"], "BIS") --Conqueror's Worldbreak
 LBIS:AddItem(spec3, "45404", LBIS.L["Shoulder"], "Alt") --Valorous Worldbreaker Spaulders
 LBIS:AddItem(spec3, "48321", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderpads of Triumph
 LBIS:AddItem(spec3, "48330", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads of Triumph
-LBIS:AddItem(spec3, "48331", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads of Triumph
 LBIS:AddItem(spec3, "48320", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderpads of Triumph
+LBIS:AddItem(spec3, "48331", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads of Triumph
 LBIS:AddItem(spec3, "48315", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderpads of Conquest
 LBIS:AddItem(spec3, "48340", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads of Conquest
 LBIS:AddItem(spec3, "46044", LBIS.L["Shoulder"], "Alt") --Observer's Mantle
@@ -229,6 +229,8 @@ LBIS:AddItem(spec3, "47552", LBIS.L["Back"], "BIS") --Jaina's Radiance
 LBIS:AddItem(spec3, "47551", LBIS.L["Back"], "BIS") --Aethas' Intensity
 LBIS:AddItem(spec3, "48671", LBIS.L["Back"], "Alt") --Drape of Bitter Incantation
 LBIS:AddItem(spec3, "48666", LBIS.L["Back"], "Alt") --Drape of the Sunreavers
+LBIS:AddItem(spec3, "47238", LBIS.L["Back"], "Alt") --Maiden's Favor
+LBIS:AddItem(spec3, "47490", LBIS.L["Back"], "Alt") --Maiden's Adoration
 LBIS:AddItem(spec3, "45486", LBIS.L["Back"], "Alt") --Drape of the Sullen Goddess
 LBIS:AddItem(spec3, "49491", LBIS.L["Back"], "Alt") --Flowing Sapphiron Drape
 LBIS:AddItem(spec3, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
@@ -260,8 +262,8 @@ LBIS:AddItem(spec3, "48284", LBIS.L["Hands"], "Alt") --Nobundo's Handguards of C
 LBIS:AddItem(spec3, "48296", LBIS.L["Hands"], "Alt") --Thrall's Handguards of Conquest
 LBIS:AddItem(spec3, "46991", LBIS.L["Waist"], "BIS") --Belt of the Ice Burrower
 LBIS:AddItem(spec3, "47426", LBIS.L["Waist"], "BIS") --Binding of the Ice Burrower
-LBIS:AddItem(spec3, "47145", LBIS.L["Waist"], "BIS") --Cord of Pale Thorns
 LBIS:AddItem(spec3, "47469", LBIS.L["Waist"], "BIS") --Belt of Pale Thorns
+LBIS:AddItem(spec3, "47145", LBIS.L["Waist"], "BIS") --Cord of Pale Thorns
 LBIS:AddItem(spec3, "45616", LBIS.L["Waist"], "Alt") --Star-beaded Clutch
 LBIS:AddItem(spec3, "45151", LBIS.L["Waist"], "Alt") --Belt of the Fallen Wyrm
 LBIS:AddItem(spec3, "45554", LBIS.L["Waist"], "Alt") --Blue Belt of Chaos
