@@ -9,6 +9,7 @@ LBIS:AddGem(spec1, "41401", "3", "True") --Insightful Earthsiege Diamond
 LBIS:AddGem(spec3, "40128", "4", "False") --Quick King's Amber
 LBIS:AddGem(spec3, "40155", "4", "False") --Reckless Ametrine
 LBIS:AddGem(spec3, "40113", "4", "False") --Runed Cardinal Ruby
+LBIS:AddGem(spec1, "40174", "4", "False") --Intricate Eye of Zul
 LBIS:AddGem(spec3, "40133", "4", "False") --Purified Dreadstone
 
 LBIS:AddEnchant(spec1, "50370", LBIS.L["Head"]) --Arcanum of Blissful Mending

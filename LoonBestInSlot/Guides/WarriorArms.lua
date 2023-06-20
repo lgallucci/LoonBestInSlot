@@ -7,15 +7,15 @@ local spec5 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Arms"], "5")
 
 LBIS:AddGem(spec1, "41398", "3", "True") --Relentless Earthsiege Diamond
 LBIS:AddGem(spec1, "41285", "3", "True") --Chaotic Skyflare Diamond
+LBIS:AddGem(spec1, "40111", "4", "False") --Bold Cardinal Ruby
+LBIS:AddGem(spec1, "40117", "4", "False") --Fractured Cardinal Ruby
 LBIS:AddGem(spec1, "39996", "3", "False") --Bold Scarlet Ruby
-LBIS:AddGem(spec1, "40002", "3", "False") --Fractured Scarlet Ruby
-LBIS:AddGem(spec1, "41432", "2", "False") --Perfect Bold Bloodstone
-LBIS:AddGem(spec1, "41436", "2", "False") --Perfect Fractured Bloodstone
-LBIS:AddGem(spec1, "40013", "3", "False") --Smooth Autumn's Glow
-LBIS:AddGem(spec1, "40037", "3", "False") --Inscribed Monarch Topaz
-LBIS:AddGem(spec1, "40058", "3", "False") --Accurate Monarch Topaz
+LBIS:AddGem(spec1, "40143", "4", "False") --Etched Ametrine
+LBIS:AddGem(spec1, "40142", "4", "False") --Inscribed Ametrine
+LBIS:AddGem(spec1, "49110", "4", "False") --Nightmare Tear
 LBIS:AddGem(spec1, "42702", "3", "False") --Enchanted Tear
-LBIS:AddGem(spec1, "40033", "3", "False") --Puissant Twilight Opal
+LBIS:AddGem(spec3, "40129", "4", "False") --Sovereign Dreadstone
+LBIS:AddGem(spec1, "40140", "4", "False") --Puissant Dreadstone
 
 LBIS:AddEnchant(spec1, "44149", LBIS.L["Head"]) --Arcanum of Torment
 LBIS:AddEnchant(spec1, "50335", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
