@@ -45,7 +45,6 @@ if GetLocale() == "esMX" then
   LBIS.L["Battle at Valhalas: Final Challenge"] = "Batalla en Valhalas: desafío final";
 --  LBIS.L["Bear"] = "";
   LBIS.L["Beast Mastery"] = "Dominio de bestias";
---  LBIS.L["Beasts of Northrend"] = "";
   LBIS.L["Betrayal"] = "Traición";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Blacksmithing"] = "Herrería";

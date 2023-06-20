@@ -45,7 +45,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Battle at Valhalas: Final Challenge"] = "발할라스에서의 전투: 최후의 도전";
   LBIS.L["Bear"] = "곰";
   LBIS.L["Beast Mastery"] = "야수";
---  LBIS.L["Beasts of Northrend"] = "";
   LBIS.L["Betrayal"] = "배신";
   LBIS.L["BIS"] = "BIS";
   LBIS.L["Blacksmithing"] = "대장기술";

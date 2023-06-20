@@ -45,7 +45,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Battle at Valhalas: Final Challenge"] = "Битва при Валхаласе: последний бой";
 --  LBIS.L["Bear"] = "";
   LBIS.L["Beast Mastery"] = "Чувство зверя";
---  LBIS.L["Beasts of Northrend"] = "";
   LBIS.L["Betrayal"] = "Предательство";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Blacksmithing"] = "Кузнечное дело";
