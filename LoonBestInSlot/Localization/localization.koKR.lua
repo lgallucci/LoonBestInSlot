@@ -9,6 +9,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Alchemy"] = "연금술";
   LBIS.L["Algalon the Observer"] = "관찰자 알갈론";
   LBIS.L["All"] = "전체";
+  LBIS.L["All Is Well That Ends Well"] = "끝이 좋으면 다 좋다";
   LBIS.L["Alliance Vanguard/Horde Expedition (Revered)"] = "얼라이언스 선봉대/호드 원정대 (매우 우호적)";
   LBIS.L["Almaador"] = "알마도르 <샤타리 병참장교>";
   LBIS.L["Alterac Vally Marks"] = "알터랙 계곡 명예 훈장";
@@ -26,8 +27,10 @@ if GetLocale() == "koKR" then
   LBIS.L["Archmage Alvareaux"] = "대마법사 알바로 <키린 토 병참장교>";
   LBIS.L["Arena Points"] = "투기장 점수";
   LBIS.L["Arena Vendor"] = "투기장 상인";
+  LBIS.L["Argent Confessor Paletress"] = "은빛 고해사제 페일트리스";
   LBIS.L["Argent Crusade"] = "은빛십자군";
   LBIS.L["Argent Crusade (Revered)"] = "은빛십자군 (매우 우호적)";
+--  LBIS.L["Argent Crusade Tribute Chest"] = "";
   LBIS.L["Arms"] = "무기";
   LBIS.L["Assassination"] = "암살";
   LBIS.L["Auriaya"] = "아우리아야";
@@ -42,6 +45,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Battle at Valhalas: Final Challenge"] = "발할라스에서의 전투: 최후의 도전";
   LBIS.L["Bear"] = "곰";
   LBIS.L["Beast Mastery"] = "야수";
+--  LBIS.L["Beasts of Northrend"] = "";
   LBIS.L["Betrayal"] = "배신";
   LBIS.L["BIS"] = "BIS";
   LBIS.L["Blacksmithing"] = "대장기술";
@@ -85,6 +89,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Drop"] = "드롭";
   LBIS.L["Duchess Mynx"] = "여공작 밍크스 <칠흑의 기사단 병참장교>";
   LBIS.L["Dungeon Token"] = "토큰";
+  LBIS.L["Eadric the Pure"] = "성기사 에드릭";
   LBIS.L["Eck the Ferocious"] = "사나운 엑크";
   LBIS.L["Edit"] = "편집";
   LBIS.L["Elder Nadox"] = "장로 나독스";
@@ -92,6 +97,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Emalon the Storm Watcher"] = "폭풍 감시자 에말론";
   LBIS.L["Emblem of Conquest"] = "정복의 문장";
   LBIS.L["Emblem of Heroism"] = "무용의 문장";
+--  LBIS.L["Emblem of Triumph"] = "";
   LBIS.L["Emblem of Valor"] = "용맹의 문장";
   LBIS.L["Emblem Vendor"] = "문장 상인";
   LBIS.L["Enchants"] = "마법부여";
@@ -157,6 +163,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Heigan the Unclean"] = "부정의 헤이건";
   LBIS.L["Herald Volazj"] = "사자 볼라즈";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "영원의 눈에서의 영웅적 심판 (25인)";
+  LBIS.L["Heroic: All Is Well That Ends Well"] = "영웅: 끝이 좋으면 다 좋다";
   LBIS.L["Hodir"] = "호디르";
 --  LBIS.L["Hodir (Hard)"] = "호디르";
   LBIS.L["Holy"] = "신성";
@@ -240,8 +247,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Onyxia"] = "오닉시아";
   LBIS.L["Onyxia (10)"] = "오닉시아 (10)";
   LBIS.L["Onyxia (25)"] = "오닉시아 (25)";
-  LBIS.L["Onyxia's Lair (10)"] = "오닉시아의 둥지 (10인)";
-  LBIS.L["Onyxia's Lair (25)"] = "오닉시아의 둥지 (25인)";
+--  LBIS.L["Onyxia's Head"] = "";
   LBIS.L["Open Browser Window"] = "창 열기";
   LBIS.L["Open Settings"] = "설정 창 열기";
   LBIS.L["Ormorok the Tree-Shaper"] = "정원사 오르모로크";
@@ -288,6 +294,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Show Custom"] = "커스텀 보이기";
   LBIS.L["Show Minimap Button"] = "미니맵 버튼 보이기";
   LBIS.L["Show Tooltip"] = "직업 툴팁 표시";
+--  LBIS.L["Sidereal Essence"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "무쇠구체자 쇼니르";
   LBIS.L["Skadi the Ruthless"] = "학살자 스카디";
   LBIS.L["Skarvald the Constructor"] = "건축가 스카발드";
@@ -304,6 +311,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Air Stands Still"] = "오늘만큼은 평화";
   LBIS.L["The Aldor (Exalted)"] = "알도르 사제회 (확고한 동맹)";
   LBIS.L["The Beasts of Northrend"] = "노스렌드의 야수";
+  LBIS.L["The Black Knight"] = "흑기사";
   LBIS.L["The Champion of Anguish"] = "고뇌의 용사 탄생";
   LBIS.L["The Cleansing Of Jintha'kalar'"] = "진타칼라르 정화";
   LBIS.L["The Crusaders' Pinnacle"] = "십자군 봉우리";
@@ -358,10 +366,12 @@ if GetLocale() == "koKR" then
   LBIS.L["Tiny Titanium Lockbox"] = "작은 티타늄 금고";
   LBIS.L["Tirion's Gambit"] = "티리온의 계략";
   LBIS.L["Token"] = "토큰";
-  LBIS.L["Tokens"] = "화폐";
+  LBIS.L["Toravon the Ice Watcher"] = "얼음 감시자 토라본";
   LBIS.L["Transmute"] = "변환식";
   LBIS.L["Trash Drop"] = "일반 드롭";
   LBIS.L["Trash Mobs"] = "일반몹";
+  LBIS.L["Trial of the Champion (Normal)"] = "용사의 시험장 (일반)";
+  LBIS.L["Trial of the Crusader"] = "십자군의 시험장";
   LBIS.L["Trial of the Crusader (10)"] = "십자군의 시험장 (10인)";
   LBIS.L["Trial of the Crusader (25)"] = "십자군의 시험장 (25인)";
 --  LBIS.L["Trial of the Grand Crusader (10)"] = " (10)";
@@ -369,11 +379,14 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Tribute Run"] = "";
   LBIS.L["Trinket"] = "장신구";
   LBIS.L["Trollgore"] = "송곳아귀";
+--  LBIS.L["Trophy of the Crusade"] = "";
+--  LBIS.L["Twin Val'kyr"] = "";
   LBIS.L["Two Hand"] = "양손";
   LBIS.L["Ulduar"] = "울두아르";
   LBIS.L["Ulduar (10)"] = "울두아르 (10인)";
   LBIS.L["Ulduar (25)"] = "울두아르 (25인)";
   LBIS.L["Unholy"] = "부정";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Unknown (Heroic+)"] = "알수없음 (영웅+ 티탄 룬 모드)";
   LBIS.L["Unknown Boss"] = "알수없음 (보스)";
   LBIS.L["Utgarde Keep (Heroic)"] = "우트가드 성채 (영웅)";

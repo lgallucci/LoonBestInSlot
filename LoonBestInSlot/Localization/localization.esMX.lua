@@ -9,6 +9,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Alchemy"] = "Alquímia";
   LBIS.L["Algalon the Observer"] = "Algalon el Observador";
   LBIS.L["All"] = "Todo";
+  LBIS.L["All Is Well That Ends Well"] = "Bien está lo que bien acaba";
   LBIS.L["Alliance Vanguard/Horde Expedition (Revered)"] = "Vanguardia de la Alianza/Expedición de la Horda (Reverenciado)";
 --  LBIS.L["Almaador"] = "";
 --  LBIS.L["Alterac Vally Marks"] = "";
@@ -26,8 +27,10 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Archmage Alvareaux"] = "";
   LBIS.L["Arena Points"] = "Puntos de arena";
 --  LBIS.L["Arena Vendor"] = "";
+  LBIS.L["Argent Confessor Paletress"] = "confesora Argenta Cabelloclaro";
   LBIS.L["Argent Crusade"] = "Cruzada Argenta";
   LBIS.L["Argent Crusade (Revered)"] = "Cruzada Argenta (Reverenciado)";
+--  LBIS.L["Argent Crusade Tribute Chest"] = "";
   LBIS.L["Arms"] = "Armas";
   LBIS.L["Assassination"] = "Asesinato";
   LBIS.L["Auriaya"] = "Auriaya";
@@ -42,6 +45,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Battle at Valhalas: Final Challenge"] = "Batalla en Valhalas: desafío final";
 --  LBIS.L["Bear"] = "";
   LBIS.L["Beast Mastery"] = "Dominio de bestias";
+--  LBIS.L["Beasts of Northrend"] = "";
   LBIS.L["Betrayal"] = "Traición";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Blacksmithing"] = "Herrería";
@@ -85,6 +89,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Drop"] = "Botín";
 --  LBIS.L["Duchess Mynx"] = "";
 --  LBIS.L["Dungeon Token"] = "";
+  LBIS.L["Eadric the Pure"] = "Eadric el Puro";
   LBIS.L["Eck the Ferocious"] = "Eck el Feroz";
   LBIS.L["Edit"] = "Editar";
   LBIS.L["Elder Nadox"] = "Ancestro Nadox";
@@ -92,6 +97,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Emalon the Storm Watcher"] = "Emalon el Vigía de la Tormenta";
 --  LBIS.L["Emblem of Conquest"] = "";
 --  LBIS.L["Emblem of Heroism"] = "";
+--  LBIS.L["Emblem of Triumph"] = "";
 --  LBIS.L["Emblem of Valor"] = "";
 --  LBIS.L["Emblem Vendor"] = "";
   LBIS.L["Enchants"] = "Encantamientos";
@@ -157,6 +163,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Heigan the Unclean"] = "Heigan el Impuro";
   LBIS.L["Herald Volazj"] = "Heraldo Volazj";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "Heroico: Juicio en El Ojo de la Eternidad";
+  LBIS.L["Heroic: All Is Well That Ends Well"] = "Heroico: Bien está lo que bien acaba";
   LBIS.L["Hodir"] = "Hodir";
 --  LBIS.L["Hodir (Hard)"] = "Hodir";
   LBIS.L["Holy"] = "Sagrado";
@@ -240,8 +247,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Onyxia"] = "Onyxia";
   LBIS.L["Onyxia (10)"] = "Onyxia (10)";
   LBIS.L["Onyxia (25)"] = "Onyxia (25)";
-  LBIS.L["Onyxia's Lair (10)"] = "Guarida de Onyxia (10)";
-  LBIS.L["Onyxia's Lair (25)"] = "Guarida de Onyxia (25)";
+--  LBIS.L["Onyxia's Head"] = "";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "Ormorok el cortador de árboles";
@@ -288,6 +294,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
+--  LBIS.L["Sidereal Essence"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "Sjonnir el Afilador";
   LBIS.L["Skadi the Ruthless"] = "Skadi el Despiadado";
   LBIS.L["Skarvald the Constructor"] = "Skarvald el Constructor";
@@ -304,6 +311,7 @@ if GetLocale() == "esMX" then
   LBIS.L["The Air Stands Still"] = "El aire permanece quieto";
   LBIS.L["The Aldor (Exalted)"] = "Los Aldor (Exaltado)";
   LBIS.L["The Beasts of Northrend"] = "Las bestias de Rasganorte ";
+  LBIS.L["The Black Knight"] = "El Caballero Negro";
   LBIS.L["The Champion of Anguish"] = "El campeón de angustia";
 --  LBIS.L["The Cleansing Of Jintha'kalar'"] = "";
   LBIS.L["The Crusaders' Pinnacle"] = "El Pináculo de los Cruzados";
@@ -358,10 +366,12 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
 --  LBIS.L["Token"] = "";
-  LBIS.L["Tokens"] = "Fichas";
+  LBIS.L["Toravon the Ice Watcher"] = "Toravon el Vigía de Hielo";
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
   LBIS.L["Trash Mobs"] = "Bichos";
+  LBIS.L["Trial of the Champion (Normal)"] = "Prueba del Campeón (Normal)";
+  LBIS.L["Trial of the Crusader"] = "Prueba del Cruzado";
   LBIS.L["Trial of the Crusader (10)"] = "Prueba del Cruzado (10)";
   LBIS.L["Trial of the Crusader (25)"] = "Prueba del Cruzado (25)";
 --  LBIS.L["Trial of the Grand Crusader (10)"] = " (10)";
@@ -369,11 +379,14 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Tribute Run"] = "";
   LBIS.L["Trinket"] = "Abalorio";
   LBIS.L["Trollgore"] = "Cuernotrol";
+--  LBIS.L["Trophy of the Crusade"] = "";
+--  LBIS.L["Twin Val'kyr"] = "";
   LBIS.L["Two Hand"] = "Dos Manos";
   LBIS.L["Ulduar"] = "Ulduar";
   LBIS.L["Ulduar (10)"] = "Ulduar (10)";
   LBIS.L["Ulduar (25)"] = "Ulduar (25)";
   LBIS.L["Unholy"] = "Profano";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Unknown (Heroic+)"] = "Entidad desconocida (Heroico+)";
 --  LBIS.L["Unknown Boss"] = "";
   LBIS.L["Utgarde Keep (Heroic)"] = "Fortaleza de Utgarde (Heroico)";

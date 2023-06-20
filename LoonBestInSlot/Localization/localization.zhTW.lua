@@ -9,6 +9,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Alchemy"] = "鍊金術";
   LBIS.L["Algalon the Observer"] = "『觀察者』艾爾加隆";
   LBIS.L["All"] = "全部";
+  LBIS.L["All Is Well That Ends Well"] = "情況良好，完美收場";
   LBIS.L["Alliance Vanguard/Horde Expedition (Revered)"] = "聯盟先鋒/部落遠征軍 (崇敬)";
 --  LBIS.L["Almaador"] = "";
 --  LBIS.L["Alterac Vally Marks"] = "";
@@ -26,8 +27,10 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Archmage Alvareaux"] = "";
   LBIS.L["Arena Points"] = "競技場點數";
 --  LBIS.L["Arena Vendor"] = "";
+  LBIS.L["Argent Confessor Paletress"] = "銀白告解者帕爾璀絲";
   LBIS.L["Argent Crusade"] = "銀白十字軍";
   LBIS.L["Argent Crusade (Revered)"] = "銀白十字軍 (崇敬)";
+--  LBIS.L["Argent Crusade Tribute Chest"] = "";
   LBIS.L["Arms"] = "武器";
   LBIS.L["Assassination"] = "刺殺";
   LBIS.L["Auriaya"] = "奧芮雅";
@@ -42,6 +45,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Battle at Valhalas: Final Challenge"] = "英靈殿之戰:最後的挑戰";
 --  LBIS.L["Bear"] = "";
   LBIS.L["Beast Mastery"] = "野獸控制";
+--  LBIS.L["Beasts of Northrend"] = "";
   LBIS.L["Betrayal"] = "背叛";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Blacksmithing"] = "鍛造";
@@ -85,6 +89,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Drop"] = "掉落";
 --  LBIS.L["Duchess Mynx"] = "";
 --  LBIS.L["Dungeon Token"] = "";
+  LBIS.L["Eadric the Pure"] = "『純淨者』埃卓克";
   LBIS.L["Eck the Ferocious"] = "『兇猛』埃克";
   LBIS.L["Edit"] = "Edit";
   LBIS.L["Elder Nadox"] = "那杜斯長老";
@@ -92,6 +97,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Emalon the Storm Watcher"] = "『風暴看守者』艾瑪隆";
 --  LBIS.L["Emblem of Conquest"] = "";
 --  LBIS.L["Emblem of Heroism"] = "";
+--  LBIS.L["Emblem of Triumph"] = "";
 --  LBIS.L["Emblem of Valor"] = "";
 --  LBIS.L["Emblem Vendor"] = "";
   LBIS.L["Enchants"] = "附魔";
@@ -157,6 +163,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Heigan the Unclean"] = "『骯髒者』海根";
   LBIS.L["Herald Volazj"] = "信使沃菈齊";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "永恆之眼的英雄審判";
+  LBIS.L["Heroic: All Is Well That Ends Well"] = "英雄:情況良好，完美收場";
   LBIS.L["Hodir"] = "霍迪爾";
 --  LBIS.L["Hodir (Hard)"] = "霍迪爾";
   LBIS.L["Holy"] = "神聖";
@@ -240,8 +247,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Onyxia"] = "奧妮克希亞";
   LBIS.L["Onyxia (10)"] = "奧妮克希亞 (10)";
   LBIS.L["Onyxia (25)"] = "奧妮克希亞 (25)";
-  LBIS.L["Onyxia's Lair (10)"] = "奧妮克希亞的巢穴 (10)";
-  LBIS.L["Onyxia's Lair (25)"] = "奧妮克希亞的巢穴 (25)";
+--  LBIS.L["Onyxia's Head"] = "";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "『塑樹者』歐爾莫洛克";
@@ -288,6 +294,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
+--  LBIS.L["Sidereal Essence"] = "";
   LBIS.L["Sjonnir The Ironshaper"] = "『塑鐵者』斯雍尼爾";
   LBIS.L["Skadi the Ruthless"] = "無情的斯卡迪";
   LBIS.L["Skarvald the Constructor"] = "『建造者』史卡沃";
@@ -304,6 +311,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["The Air Stands Still"] = "空氣也為之凍結";
   LBIS.L["The Aldor (Exalted)"] = "奧多爾 (崇拜)";
   LBIS.L["The Beasts of Northrend"] = "北裂境巨獸";
+  LBIS.L["The Black Knight"] = "黑騎士";
   LBIS.L["The Champion of Anguish"] = "苦痛勇士";
 --  LBIS.L["The Cleansing Of Jintha'kalar'"] = "";
   LBIS.L["The Crusaders' Pinnacle"] = "十字軍之巔";
@@ -358,10 +366,12 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
 --  LBIS.L["Token"] = "";
-  LBIS.L["Tokens"] = "兌換物";
+  LBIS.L["Toravon the Ice Watcher"] = "『寒冰看守者』拓拉梵";
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
   LBIS.L["Trash Mobs"] = "小怪";
+  LBIS.L["Trial of the Champion (Normal)"] = "勇士試煉 (一般)";
+  LBIS.L["Trial of the Crusader"] = "十字軍試煉";
   LBIS.L["Trial of the Crusader (10)"] = "十字軍試煉 (10)";
   LBIS.L["Trial of the Crusader (25)"] = "十字軍試煉 (25)";
 --  LBIS.L["Trial of the Grand Crusader (10)"] = " (10)";
@@ -369,11 +379,14 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Tribute Run"] = "";
   LBIS.L["Trinket"] = "飾品";
   LBIS.L["Trollgore"] = "血角食人妖";
+--  LBIS.L["Trophy of the Crusade"] = "";
+--  LBIS.L["Twin Val'kyr"] = "";
   LBIS.L["Two Hand"] = "雙手";
   LBIS.L["Ulduar"] = "奧杜亞";
   LBIS.L["Ulduar (10)"] = "奧杜亞 (10)";
   LBIS.L["Ulduar (25)"] = "奧杜亞 (25)";
   LBIS.L["Unholy"] = "穢邪";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Unknown (Heroic+)"] = "未知目標 (英雄+)";
 --  LBIS.L["Unknown Boss"] = "";
   LBIS.L["Utgarde Keep (Heroic)"] = "俄特加德要塞 (英雄)";
