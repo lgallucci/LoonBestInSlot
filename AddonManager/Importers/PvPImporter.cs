@@ -38,7 +38,7 @@ public class PvPImporter : LootImporter
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
-        items.Items.Clear();
+        foreach(var item in items.Items) { item.Value.SourceNumber = "0"; }
 
         await Common.LoadFromWebPages(wowheadUriList.Keys.ToList(), async (uri, content) => //TODO: Convert to Single Browser loop
         {

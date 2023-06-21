@@ -11224,6 +11224,126 @@
             "SourceLocation": "Trial of the Grand Crusader (25)",
             "SourceFaction": "H"
         },
+        "47506": {
+            "Name": "Silverwing Defender",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "47515": {
+            "Name": "Decimation",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "47517": {
+            "Name": "Blade of the Unbroken Covenant",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "47519": {
+            "Name": "Catastrophe",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "47521": {
+            "Name": "BRK-1000",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "47524": {
+            "Name": "Clemency",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "47526": {
+            "Name": "Remorseless",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "47545": {
+            "Name": "Vereesa's Dexterity",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "47547": {
+            "Name": "Varian's Furor",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "47549": {
+            "Name": "Magni's Resolution",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "47552": {
+            "Name": "Jaina's Radiance",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "47553": {
+            "Name": "Bolvar's Devotion",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "47557": {
+            "Name": "Regalia of the Grand Conqueror",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47558": {
+            "Name": "Regalia of the Grand Protector",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
+        "47559": {
+            "Name": "Regalia of the Grand Vanquisher",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "B"
+        },
         "47578": {
             "Name": "Carnivorous Band",
             "Source": "The Beasts of Northrend",
@@ -13424,6 +13544,102 @@
             "SourceLocation": "Vault of Archavon (10)",
             "SourceFaction": "A"
         },
+        "48671": {
+            "Name": "Drape of Bitter Incantation",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "48672": {
+            "Name": "Shawl of Fervent Crusader",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "48673": {
+            "Name": "Cloak of the Silver Covenant",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "48674": {
+            "Name": "Cloak of the Victorious Combatant",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "48675": {
+            "Name": "Cloak of the Unmoving Guardian",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "48709": {
+            "Name": "Heartcrusher",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "48708": {
+            "Name": "Spellstorm Blade",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "48710": {
+            "Name": "Paragon's Breadth",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "48711": {
+            "Name": "Rhok'shalla, the Shadow's Bane",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "48712": {
+            "Name": "The Spinebreaker",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "48713": {
+            "Name": "Lothar's Edge",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
+        "48714": {
+            "Name": "Honor of the Fallen",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "A"
+        },
         "49231": {
             "Name": "Boots of the Grieving Soul",
             "Source": "The Twin Val'kyr",
@@ -14030,30 +14246,6 @@
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Vault of Archavon (25)",
-            "SourceFaction": "B"
-        },
-        "47557": {
-            "Name": "Regalia of the Grand Conqueror",
-            "Source": "Argent Crusade Tribute Chest",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Trial of the Grand Crusader (25)",
-            "SourceFaction": "B"
-        },
-        "47558": {
-            "Name": "Wrathful Gladiator's Plate Legguards",
-            "Source": "Argent Crusade Tribute Chest",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Trial of the Grand Crusader (25)",
-            "SourceFaction": "B"
-        },
-        "47559": {
-            "Name": "Wrathful Gladiator's Plate Legguards",
-            "Source": "Argent Crusade Tribute Chest",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Trial of the Grand Crusader (25)",
             "SourceFaction": "B"
         }
     }
