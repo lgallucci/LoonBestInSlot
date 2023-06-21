@@ -102,7 +102,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Enchants"] = "附魔";
   LBIS.L["Engineering"] = "工程學";
   LBIS.L["Enhancement"] = "增強";
---  LBIS.L["Eregos"] = "";
   LBIS.L["Erekem"] = "伊銳坎";
 --  LBIS.L["Ethereum Nullifier"] = "";
   LBIS.L["Exalted"] = "崇拜";
@@ -122,7 +121,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Frost"] = "冰霜";
   LBIS.L["Fury"] = "狂怒";
   LBIS.L["Gal'darah"] = "蓋爾達拉";
---  LBIS.L["Gal'darah'"] = "";
 --  LBIS.L["Geen"] = "";
 --  LBIS.L["Gems"] = "";
   LBIS.L["General Bjarngrim"] = "畢亞格林將軍";
@@ -379,7 +377,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Trinket"] = "飾品";
   LBIS.L["Trollgore"] = "血角食人妖";
 --  LBIS.L["Trophy of the Crusade"] = "";
---  LBIS.L["Twin Val'kyr"] = "";
   LBIS.L["Two Hand"] = "雙手";
   LBIS.L["Ulduar"] = "奧杜亞";
   LBIS.L["Ulduar (10)"] = "奧杜亞 (10)";

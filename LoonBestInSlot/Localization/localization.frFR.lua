@@ -102,7 +102,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Enchants"] = "Enchantements";
   LBIS.L["Engineering"] = "Ingénierie";
   LBIS.L["Enhancement"] = "Amélioration";
---  LBIS.L["Eregos"] = "";
   LBIS.L["Erekem"] = "Erekem";
 --  LBIS.L["Ethereum Nullifier"] = "";
   LBIS.L["Exalted"] = "Exalté";
@@ -122,7 +121,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Frost"] = "Givre";
   LBIS.L["Fury"] = "Fureur";
   LBIS.L["Gal'darah"] = "Gal'darah";
---  LBIS.L["Gal'darah'"] = "";
 --  LBIS.L["Geen"] = "";
 --  LBIS.L["Gems"] = "";
   LBIS.L["General Bjarngrim"] = "Général Bjarngrim";
@@ -379,7 +377,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Trinket"] = "Bijou";
   LBIS.L["Trollgore"] = "Trollétripe";
 --  LBIS.L["Trophy of the Crusade"] = "";
---  LBIS.L["Twin Val'kyr"] = "";
   LBIS.L["Two Hand"] = "Deux mains";
   LBIS.L["Ulduar"] = "Ulduar";
   LBIS.L["Ulduar (10)"] = "Ulduar (10)";

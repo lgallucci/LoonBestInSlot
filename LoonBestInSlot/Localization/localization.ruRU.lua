@@ -102,7 +102,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Enchants"] = "Зачарование";
   LBIS.L["Engineering"] = "Инженерное дело";
   LBIS.L["Enhancement"] = "Совершенствование";
---  LBIS.L["Eregos"] = "";
   LBIS.L["Erekem"] = "Эрекем";
 --  LBIS.L["Ethereum Nullifier"] = "";
   LBIS.L["Exalted"] = "Превознесение";
@@ -122,7 +121,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Frost"] = "Лед";
   LBIS.L["Fury"] = "Неистовство";
   LBIS.L["Gal'darah"] = "Гал'дара";
---  LBIS.L["Gal'darah'"] = "";
 --  LBIS.L["Geen"] = "";
 --  LBIS.L["Gems"] = "";
   LBIS.L["General Bjarngrim"] = "Генерал Бьярнгрим";
@@ -379,7 +377,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Trinket"] = "Аксессуар";
   LBIS.L["Trollgore"] = "Кровотролль";
 --  LBIS.L["Trophy of the Crusade"] = "";
---  LBIS.L["Twin Val'kyr"] = "";
   LBIS.L["Two Hand"] = "Двуручное";
   LBIS.L["Ulduar"] = "Ульдуар";
   LBIS.L["Ulduar (10)"] = "Ульдуар (10)";

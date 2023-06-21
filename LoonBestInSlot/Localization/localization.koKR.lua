@@ -102,7 +102,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Enchants"] = "마법부여";
   LBIS.L["Engineering"] = "기계공학";
   LBIS.L["Enhancement"] = "고양";
---  LBIS.L["Eregos"] = "";
   LBIS.L["Erekem"] = "에레켐";
   LBIS.L["Ethereum Nullifier"] = "에테리움 종결자";
   LBIS.L["Exalted"] = "확고한 동맹";
@@ -122,7 +121,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Frost"] = "냉기";
   LBIS.L["Fury"] = "분노";
   LBIS.L["Gal'darah"] = "갈다라";
---  LBIS.L["Gal'darah'"] = "";
   LBIS.L["Geen"] = "기인 <점쟁이 조합 보급원>";
   LBIS.L["Gems"] = "보석";
   LBIS.L["General Bjarngrim"] = "장군 비야른그림";
@@ -379,7 +377,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Trinket"] = "장신구";
   LBIS.L["Trollgore"] = "송곳아귀";
 --  LBIS.L["Trophy of the Crusade"] = "";
---  LBIS.L["Twin Val'kyr"] = "";
   LBIS.L["Two Hand"] = "양손";
   LBIS.L["Ulduar"] = "울두아르";
   LBIS.L["Ulduar (10)"] = "울두아르 (10인)";

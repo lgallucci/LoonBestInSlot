@@ -3891,7 +3891,7 @@
         },
         "44660": {
             "Name": "Drakescale Collar",
-            "Source": "Gal'darah'",
+            "Source": "Gal'darah",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Gundrak (Heroic+)",
@@ -6419,7 +6419,7 @@
         },
         "39310": {
             "Name": "Mantle of the Extensive Mind",
-            "Source": "Eregos",
+            "Source": "Ley-Guardian Eregos",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Oculus (Heroic+)",
@@ -6931,7 +6931,7 @@
         },
         "40497": {
             "Name": "Black Ice",
-            "Source": "Eregos",
+            "Source": "Ley-Guardian Eregos",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Oculus (Heroic+)",
