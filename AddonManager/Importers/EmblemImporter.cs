@@ -41,10 +41,24 @@ public class EmblemImporter : LootImporter
         @"https://www.wowhead.com/wotlk/npc=35580/aspirant-naradiel#sells;50",
         @"https://www.wowhead.com/wotlk/npc=35578/valiant-bressia",
         @"https://www.wowhead.com/wotlk/npc=35578/valiant-bressia#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=207128/animated-constellation",
+        @"https://www.wowhead.com/wotlk/npc=207128/animated-constellation#sells;50",
         @"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren",
         @"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren#sells;50",
-        @"https://www.wowhead.com/wotlk/npc=207128/animated-constellation",
-        @"https://www.wowhead.com/wotlk/npc=207128/animated-constellation#sells;50"
+        @"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren#sells;100",
+        @"https://www.wowhead.com/wotlk/npc=35498/horace-hunderland",
+        @"https://www.wowhead.com/wotlk/npc=35498/horace-hunderland#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35498/horace-hunderland#sells;100",
+        @"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink",
+        @"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink#sells;100",
+        @"https://www.wowhead.com/wotlk/npc=35497/rafael-langrom",
+        @"https://www.wowhead.com/wotlk/npc=35497/rafael-langrom#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35497/rafael-langrom#sells;100",
+        @"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink",
+        @"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink#sells;100"
+
     };
 
     internal override string FileName { get => "EmblemItemList"; }
