@@ -11232,6 +11232,14 @@
             "SourceLocation": "Trial of the Grand Crusader (25)",
             "SourceFaction": "A"
         },
+        "47513": {
+            "Name": "Orgrim's Deflector",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
         "47515": {
             "Name": "Decimation",
             "Source": "Argent Crusade Tribute Chest",
@@ -11239,6 +11247,14 @@
             "SourceNumber": "0",
             "SourceLocation": "Trial of the Grand Crusader (25)",
             "SourceFaction": "A"
+        },
+        "47516": {
+            "Name": "Fleshrender",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
         },
         "47517": {
             "Name": "Blade of the Unbroken Covenant",
@@ -11248,6 +11264,14 @@
             "SourceLocation": "Trial of the Grand Crusader (25)",
             "SourceFaction": "A"
         },
+        "47518": {
+            "Name": "Mortalis",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
         "47519": {
             "Name": "Catastrophe",
             "Source": "Argent Crusade Tribute Chest",
@@ -11255,6 +11279,14 @@
             "SourceNumber": "0",
             "SourceLocation": "Trial of the Grand Crusader (25)",
             "SourceFaction": "A"
+        },
+        "47520": {
+            "Name": "Grievance",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
         },
         "47521": {
             "Name": "BRK-1000",
@@ -11264,6 +11296,14 @@
             "SourceLocation": "Trial of the Grand Crusader (25)",
             "SourceFaction": "A"
         },
+        "47523": {
+            "Name": "Fezzik's Autocannon",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
         "47524": {
             "Name": "Clemency",
             "Source": "Argent Crusade Tribute Chest",
@@ -11271,6 +11311,14 @@
             "SourceNumber": "0",
             "SourceLocation": "Trial of the Grand Crusader (25)",
             "SourceFaction": "A"
+        },
+        "47525": {
+            "Name": "Sufferance",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
         },
         "47526": {
             "Name": "Remorseless",
@@ -11280,6 +11328,14 @@
             "SourceLocation": "Trial of the Grand Crusader (25)",
             "SourceFaction": "A"
         },
+        "47528": {
+            "Name": "Cudgel of the Damned",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
         "47545": {
             "Name": "Vereesa's Dexterity",
             "Source": "Argent Crusade Tribute Chest",
@@ -11287,6 +11343,14 @@
             "SourceNumber": "0",
             "SourceLocation": "Trial of the Grand Crusader (25)",
             "SourceFaction": "A"
+        },
+        "47546": {
+            "Name": "Sylvanas' Cunning",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
         },
         "47547": {
             "Name": "Varian's Furor",
@@ -11296,6 +11360,14 @@
             "SourceLocation": "Trial of the Grand Crusader (25)",
             "SourceFaction": "A"
         },
+        "47548": {
+            "Name": "Garrosh's Rage",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
         "47549": {
             "Name": "Magni's Resolution",
             "Source": "Argent Crusade Tribute Chest",
@@ -11303,6 +11375,22 @@
             "SourceNumber": "0",
             "SourceLocation": "Trial of the Grand Crusader (25)",
             "SourceFaction": "A"
+        },
+        "47550": {
+            "Name": "Cairne's Endurance",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
+        "47551": {
+            "Name": "Aethas' Intensity",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
         },
         "47552": {
             "Name": "Jaina's Radiance",
@@ -11319,6 +11407,14 @@
             "SourceNumber": "0",
             "SourceLocation": "Trial of the Grand Crusader (25)",
             "SourceFaction": "A"
+        },
+        "47554": {
+            "Name": "Lady Liadrin's Conviction",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
         },
         "47557": {
             "Name": "Regalia of the Grand Conqueror",
@@ -13544,6 +13640,46 @@
             "SourceLocation": "Vault of Archavon (10)",
             "SourceFaction": "A"
         },
+        "48666": {
+            "Name": "Drape of the Sunreavers",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
+        "48667": {
+            "Name": "Shawl of the Devout Crusader",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
+        "48668": {
+            "Name": "Cloak of Serrated Blades",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
+        "48669": {
+            "Name": "Cloak of the Triumphant Combatant",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
+        "48670": {
+            "Name": "Cloak of the Unflinching Guardian",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
         "48671": {
             "Name": "Drape of Bitter Incantation",
             "Source": "Argent Crusade Tribute Chest",
@@ -13583,6 +13719,62 @@
             "SourceNumber": "0",
             "SourceLocation": "Trial of the Grand Crusader (25)",
             "SourceFaction": "A"
+        },
+        "48693": {
+            "Name": "Heartsmasher",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
+        "48695": {
+            "Name": "Mor'kosh, the Bloodreaver",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
+        "48697": {
+            "Name": "Frenzystrike Longbow",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
+        "48699": {
+            "Name": "Blood and Glory",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
+        "48701": {
+            "Name": "Spellharvest",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
+        "48703": {
+            "Name": "The Facebreaker",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
+        },
+        "48705": {
+            "Name": "Attrition",
+            "Source": "Argent Crusade Tribute Chest",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Trial of the Grand Crusader (25)",
+            "SourceFaction": "H"
         },
         "48709": {
             "Name": "Heartcrusher",
