@@ -63,11 +63,11 @@ public class PvPImporter : LootImporter
                 var currencySourceLocation = "";
                 var itemName = item.TextContent;
 
-                Int32.TryParse(row.Children[4].TextContent, out int itemLevel);
+                Int32.TryParse(row.Children[3].TextContent, out int itemLevel);
                 var nameSplit = wowheadUriList[uri].Split(",");
                 var levelSplit = nameSplit.Select(n => n.Split('>'));
 
-                if (!levelSplit.Any(i => itemName.Contains(i[0].Trim()) && (i.Length < 2 || Int32.Parse(i[1]) >= itemLevel)))
+                if (!levelSplit.Any(i => itemName.Contains(i[0].Trim()) && (i.Length < 2 || Int32.Parse(i[1]) < itemLevel)))
                     return;
 
                 Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
