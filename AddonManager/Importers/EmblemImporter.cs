@@ -34,18 +34,18 @@ public class EmblemImporter : LootImporter
         @"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina",
         @"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina#sells;50",
         @"https://www.wowhead.com/wotlk/npc=35579/aspirant-forudir",
-        @"https://www.wowhead.com/wotlk/npc=35579/aspirant-forudir#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35579/aspirant-forudir#sells;50",//TODO: More ?
         @"https://www.wowhead.com/wotlk/npc=35577/valiant-laradia",
-        @"https://www.wowhead.com/wotlk/npc=35577/valiant-laradia#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35577/valiant-laradia#sells;50",//TODO: More ?
         @"https://www.wowhead.com/wotlk/npc=35580/aspirant-naradiel",
-        @"https://www.wowhead.com/wotlk/npc=35580/aspirant-naradiel#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35580/aspirant-naradiel#sells;50",//TODO: More ?
         @"https://www.wowhead.com/wotlk/npc=35578/valiant-bressia",
-        @"https://www.wowhead.com/wotlk/npc=35578/valiant-bressia#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35578/valiant-bressia#sells;50",//TODO: More ?
         @"https://www.wowhead.com/wotlk/npc=207128/animated-constellation",
         @"https://www.wowhead.com/wotlk/npc=207128/animated-constellation#sells;50",
-        @"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren",
-        @"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren#sells;50",
-        @"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren#sells;100",
+        @"https://www.wowhead.com/wotlk/npc=28995/paldesse#sells",
+        @"https://www.wowhead.com/wotlk/npc=28995/paldesse#sells#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=28995/paldesse#sells#sells;100",
         @"https://www.wowhead.com/wotlk/npc=35498/horace-hunderland",
         @"https://www.wowhead.com/wotlk/npc=35498/horace-hunderland#sells;50",
         @"https://www.wowhead.com/wotlk/npc=35498/horace-hunderland#sells;100",
@@ -58,7 +58,6 @@ public class EmblemImporter : LootImporter
         @"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink",
         @"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink#sells;50",
         @"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink#sells;100"
-
     };
 
     internal override string FileName { get => "EmblemItemList"; }

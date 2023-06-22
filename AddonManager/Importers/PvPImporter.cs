@@ -7,37 +7,45 @@ namespace AddonManager.Importers;
 public class PvPImporter : LootImporter
 {
     private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
-        {
-            { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia", "Relentless" },
-            { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;50", "Relentless" },
-            { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;100", "Relentless" },
-            { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike", "Furious" },
-            { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;50","Furious" },
-            { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;100","Furious" },
-            { @"https://www.wowhead.com/wotlk/npc=32381/captain-dirgehammer", "Deadly, Battlemaster, Hateful" },
-            { @"https://www.wowhead.com/wotlk/npc=32381/captain-dirgehammer#sells;50", "Deadly, Battlemaster, Hateful" },
-            { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord", "Relentless" },
-            { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;50", "Relentless" },
-            { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;100", "Relentless" },
-            { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;150", "Relentless" },
-            { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;200", "Relentless" },
-            { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;250", "Relentless" },
-            { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom", "Hateful, Savage" },
-            { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;50", "Deadyly, Hateful, Savage" },
-            { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;100", "Deadyly, Hateful, Savage" },
-            { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;150", "Deadyly, Hateful, Savage" },
-            { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe", "Furious" },
-            { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;50", "Furious" },
-            { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;100", "Furious" },
-            { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;150", "Furious" },
-            { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;200", "Furious" },
-            { @"https://www.wowhead.com/wotlk/npc=34087/trapjaw-rix", "Relentless" }
-        };
+    {
+        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells", "Relentless, Battlemaster" },
+        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;50", "Relentless, Battlemaster" },
+        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;100", "Relentless, Battlemaster" },
+        { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells", "Furious" },
+        { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;50","Furious" },
+        { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;100","Furious" },
+        { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;150","Furious" },
+        { @"https://www.wowhead.com/wotlk/npc=32381/captain-dirgehammer#sells", "Deadly, Battlemaster, Hateful" },
+        { @"https://www.wowhead.com/wotlk/npc=32381/captain-dirgehammer#sells;50", "Deadly, Battlemaster, Hateful" },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells", "Relentless" },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;50", "Relentless" },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;100", "Relentless" },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;150", "Relentless" },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;200", "Relentless" },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;250", "Relentless" },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;300", "Relentless" },
+        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells", "Deadly, Hateful, Savage" },
+        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;50", "Deadly, Hateful, Savage" },
+        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;100", "Deadly, Hateful, Savage" },
+        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;150", "Deadly, Hateful, Savage" },
+        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;200", "Deadly, Hateful, Savage" },
+        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;250", "Deadly, Hateful, Savage" },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells", "Furious" },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;50", "Furious" },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;100", "Furious" },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;150", "Furious" },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;200", "Furious" },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;250", "Furious" },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;300", "Furious" },
+        { @"https://www.wowhead.com/wotlk/npc=34087/trapjaw-rix#sells", "Relentless" },
+        { @"https://www.wowhead.com/wotlk/npc=34087/trapjaw-rix#sells;50", "Relentless" }
+    };
 
     internal override string FileName { get => "PvPItemList"; }
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
+        var oldItems = items.Items.ToList();
         items.Items.Clear();
 
         await Common.LoadFromWebPages(wowheadUriList.Keys.ToList(), async (uri, content) => //TODO: Convert to Single Browser loop
@@ -116,6 +124,22 @@ public class PvPImporter : LootImporter
                 }
             });
         });
+
+        foreach(var oldItem in oldItems)
+        {
+            if (!items.Items.ContainsKey(oldItem.Key))
+            {
+                items.Items.TryAdd(oldItem.Key, new DatabaseItem
+                {
+                    Name = oldItem.Value.Name,
+                    SourceNumber = "0",
+                    Source = "unavailable",
+                    SourceLocation = "",
+                    SourceType = "PvP"
+                });
+
+            }
+        }
 
         return items;
     }

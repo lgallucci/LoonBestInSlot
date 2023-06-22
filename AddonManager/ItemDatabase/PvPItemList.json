@@ -50,33 +50,33 @@
     },
     "40784": {
       "Name": "Deadly Gladiator's Dreadplate Chestpiece",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40785": {
       "Name": "Deadly Gladiator's Scaled Chestpiece",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40786": {
       "Name": "Deadly Gladiator's Plate Chestpiece",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40787": {
       "Name": "Furious Gladiator's Dreadplate Chestpiece",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -84,15 +84,31 @@
       "Name": "Furious Gladiator's Scaled Chestpiece",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "40789": {
       "Name": "Furious Gladiator's Plate Chestpiece",
+      "Source": "unavailable",
+      "SourceType": "PvP",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "40791": {
+      "Name": "Relentless Gladiator's Dreadplate Chestpiece",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "2025",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40792": {
+      "Name": "Relentless Gladiator's Scaled Chestpiece",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -146,41 +162,41 @@
     },
     "40804": {
       "Name": "Deadly Gladiator's Plate Gauntlets",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40805": {
       "Name": "Deadly Gladiator's Scaled Gauntlets",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40806": {
       "Name": "Deadly Gladiator's Dreadplate Gauntlets",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40807": {
       "Name": "Furious Gladiator's Plate Gauntlets",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40808": {
       "Name": "Furious Gladiator's Scaled Gauntlets",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -188,7 +204,23 @@
       "Name": "Furious Gladiator's Dreadplate Gauntlets",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40811": {
+      "Name": "Relentless Gladiator's Dreadplate Gauntlets",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40812": {
+      "Name": "Relentless Gladiator's Scaled Gauntlets",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -242,41 +274,41 @@
     },
     "40823": {
       "Name": "Deadly Gladiator's Plate Helm",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40824": {
       "Name": "Deadly Gladiator's Dreadplate Helm",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40825": {
       "Name": "Deadly Gladiator's Scaled Helm",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40826": {
-      "Name": "Furious Gladiator's Plate Helm",
-      "Source": "Arena Points",
-      "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
-      "SourceFaction": "B"
+        "Name": "Furious Gladiator's Plate Helm",
+        "Source": "Arena Points",
+        "SourceType": "PvP",
+        "SourceNumber": "1012",
+        "SourceLocation": "Arena Vendor",
+        "SourceFaction": "B"
     },
     "40827": {
       "Name": "Furious Gladiator's Dreadplate Helm",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -284,7 +316,23 @@
       "Name": "Furious Gladiator's Scaled Helm",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40830": {
+      "Name": "Relentless Gladiator's Dreadplate Helm",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40831": {
+      "Name": "Relentless Gladiator's Scaled Helm",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -338,33 +386,33 @@
     },
     "40844": {
       "Name": "Deadly Gladiator's Plate Legguards",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40845": {
       "Name": "Deadly Gladiator's Dreadplate Legguards",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40846": {
       "Name": "Deadly Gladiator's Scaled Legguards",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40847": {
       "Name": "Furious Gladiator's Plate Legguards",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -372,7 +420,7 @@
       "Name": "Furious Gladiator's Dreadplate Legguards",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -380,7 +428,23 @@
       "Name": "Furious Gladiator's Scaled Legguards",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40851": {
+      "Name": "Relentless Gladiator's Dreadplate Legguards",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40852": {
+      "Name": "Relentless Gladiator's Scaled Legguards",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -434,41 +498,41 @@
     },
     "40862": {
       "Name": "Deadly Gladiator's Plate Shoulders",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "875",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40863": {
       "Name": "Deadly Gladiator's Dreadplate Shoulders",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "875",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40864": {
       "Name": "Deadly Gladiator's Scaled Shoulders",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "875",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40866": {
-      "Name": "Furious Gladiator's Plate Shoulders",
-      "Source": "Arena Points",
-      "SourceType": "PvP",
-      "SourceNumber": "1750",
-      "SourceLocation": "Arena Vendor",
-      "SourceFaction": "B"
+        "Name": "Furious Gladiator's Plate Shoulders",
+        "Source": "Arena Points",
+        "SourceType": "PvP",
+        "SourceNumber": "787",
+        "SourceLocation": "Arena Vendor",
+        "SourceFaction": "B"
     },
     "40868": {
       "Name": "Furious Gladiator's Dreadplate Shoulders",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1750",
+      "SourceNumber": "787",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -476,7 +540,23 @@
       "Name": "Furious Gladiator's Scaled Shoulders",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1750",
+      "SourceNumber": "787",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40871": {
+      "Name": "Relentless Gladiator's Dreadplate Shoulders",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1575",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40872": {
+      "Name": "Relentless Gladiator's Scaled Shoulders",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1575",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -498,25 +578,25 @@
     },
     "40879": {
       "Name": "Deadly Gladiator's Girdle of Triumph",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40880": {
       "Name": "Deadly Gladiator's Greaves of Triumph",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40881": {
       "Name": "Furious Gladiator's Girdle of Triumph",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
+      "SourceNumber": "19530",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -524,7 +604,23 @@
       "Name": "Furious Gladiator's Greaves of Triumph",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
+      "SourceNumber": "19530",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "40883": {
+      "Name": "Relentless Gladiator's Girdle of Triumph",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "39060",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "40884": {
+      "Name": "Relentless Gladiator's Greaves of Triumph",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "39060",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -538,17 +634,25 @@
     },
     "40888": {
       "Name": "Deadly Gladiator's Bracers of Triumph",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "13790",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40889": {
       "Name": "Furious Gladiator's Bracers of Triumph",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "27580",
+      "SourceNumber": "12411",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "40890": {
+      "Name": "Relentless Gladiator's Bracers of Triumph",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "24822",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -570,17 +674,25 @@
     },
     "40905": {
       "Name": "Deadly Gladiator's Ornamented Chestguard",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40907": {
       "Name": "Furious Gladiator's Ornamented Chestguard",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40910": {
+      "Name": "Relentless Gladiator's Ornamented Chestguard",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -602,17 +714,25 @@
     },
     "40926": {
       "Name": "Deadly Gladiator's Ornamented Gloves",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40927": {
       "Name": "Furious Gladiator's Ornamented Gloves",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40928": {
+      "Name": "Relentless Gladiator's Ornamented Gloves",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -634,17 +754,25 @@
     },
     "40932": {
       "Name": "Deadly Gladiator's Ornamented Headcover",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40933": {
       "Name": "Furious Gladiator's Ornamented Headcover",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40934": {
+      "Name": "Relentless Gladiator's Ornamented Headcover",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -666,17 +794,25 @@
     },
     "40938": {
       "Name": "Deadly Gladiator's Ornamented Legplates",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40939": {
       "Name": "Furious Gladiator's Ornamented Legplates",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40940": {
+      "Name": "Relentless Gladiator's Ornamented Legplates",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -698,17 +834,25 @@
     },
     "40962": {
       "Name": "Deadly Gladiator's Ornamented Spaulders",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "875",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40963": {
       "Name": "Furious Gladiator's Ornamented Spaulders",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1750",
+      "SourceNumber": "787",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40964": {
+      "Name": "Relentless Gladiator's Ornamented Spaulders",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1575",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -738,49 +882,73 @@
     },
     "40974": {
       "Name": "Deadly Gladiator's Girdle of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40975": {
       "Name": "Deadly Gladiator's Greaves of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40976": {
       "Name": "Furious Gladiator's Girdle of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40977": {
       "Name": "Furious Gladiator's Greaves of Salvation",
+      "Source": "unavailable",
+      "SourceType": "PvP",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "40978": {
+      "Name": "Relentless Gladiator's Girdle of Salvation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
+      "SourceNumber": "39060",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "40979": {
+      "Name": "Relentless Gladiator's Greaves of Salvation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "39060",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "40982": {
       "Name": "Deadly Gladiator's Bracers of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "13790",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40983": {
       "Name": "Furious Gladiator's Bracers of Salvation",
+      "Source": "unavailable",
+      "SourceType": "PvP",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "40984": {
+      "Name": "Relentless Gladiator's Bracers of Salvation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "27580",
+      "SourceNumber": "24822",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -818,25 +986,25 @@
     },
     "40990": {
       "Name": "Deadly Gladiator's Ringmail Armor",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40991": {
       "Name": "Deadly Gladiator's Mail Armor",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "40992": {
       "Name": "Furious Gladiator's Ringmail Armor",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -844,7 +1012,23 @@
       "Name": "Furious Gladiator's Mail Armor",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40994": {
+      "Name": "Relentless Gladiator's Ringmail Armor",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "40995": {
+      "Name": "Relentless Gladiator's Mail Armor",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -866,17 +1050,25 @@
     },
     "41000": {
       "Name": "Deadly Gladiator's Ringmail Gauntlets",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41001": {
       "Name": "Furious Gladiator's Ringmail Gauntlets",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41002": {
+      "Name": "Relentless Gladiator's Ringmail Gauntlets",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -898,17 +1090,25 @@
     },
     "41006": {
       "Name": "Deadly Gladiator's Mail Gauntlets",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41007": {
       "Name": "Furious Gladiator's Mail Gauntlets",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41008": {
+      "Name": "Relentless Gladiator's Mail Gauntlets",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -930,17 +1130,25 @@
     },
     "41012": {
       "Name": "Deadly Gladiator's Ringmail Helm",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41013": {
       "Name": "Furious Gladiator's Ringmail Helm",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41014": {
+      "Name": "Relentless Gladiator's Ringmail Helm",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -962,17 +1170,25 @@
     },
     "41018": {
       "Name": "Deadly Gladiator's Mail Helm",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41019": {
       "Name": "Furious Gladiator's Mail Helm",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41020": {
+      "Name": "Relentless Gladiator's Mail Helm",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -1002,17 +1218,25 @@
     },
     "41026": {
       "Name": "Deadly Gladiator's Ringmail Leggings",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41027": {
       "Name": "Furious Gladiator's Ringmail Leggings",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41028": {
+      "Name": "Relentless Gladiator's Ringmail Leggings",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -1034,17 +1258,25 @@
     },
     "41032": {
       "Name": "Deadly Gladiator's Mail Leggings",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41033": {
       "Name": "Furious Gladiator's Mail Leggings",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41034": {
+      "Name": "Relentless Gladiator's Mail Leggings",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -1058,17 +1290,25 @@
     },
     "41037": {
       "Name": "Deadly Gladiator's Ringmail Spaulders",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "875",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41038": {
       "Name": "Furious Gladiator's Ringmail Spaulders",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1750",
+      "SourceNumber": "787",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41039": {
+      "Name": "Relentless Gladiator's Ringmail Spaulders",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1575",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -1090,17 +1330,25 @@
     },
     "41043": {
       "Name": "Deadly Gladiator's Mail Spaulders",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "875",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41044": {
       "Name": "Furious Gladiator's Mail Spaulders",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1750",
+      "SourceNumber": "787",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41045": {
+      "Name": "Relentless Gladiator's Mail Spaulders",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1575",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -1108,23 +1356,23 @@
       "Name": "Hateful Gladiator's Wristguards of Salvation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "13790",
+      "SourceNumber": "6895",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41048": {
       "Name": "Deadly Gladiator's Waistguard of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41049": {
       "Name": "Hateful Gladiator's Sabatons of Salvation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
+      "SourceNumber": "10850",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -1132,7 +1380,7 @@
       "Name": "Hateful Gladiator's Waistguard of Salvation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
+      "SourceNumber": "10850",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -1140,39 +1388,63 @@
       "Name": "Furious Gladiator's Waistguard of Salvation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
+      "SourceNumber": "19530",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41052": {
+      "Name": "Relentless Gladiator's Waistguard of Salvation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "39060",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41054": {
       "Name": "Deadly Gladiator's Sabatons of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41055": {
       "Name": "Furious Gladiator's Sabatons of Salvation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
+      "SourceNumber": "19530",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41056": {
+      "Name": "Relentless Gladiator's Sabatons of Salvation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "39060",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41059": {
       "Name": "Deadly Gladiator's Wristguards of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "13790",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41060": {
       "Name": "Furious Gladiator's Wristguards of Salvation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "27580",
+      "SourceNumber": "12411",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41061": {
+      "Name": "Relentless Gladiator's Wristguards of Salvation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "24822",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -1180,23 +1452,31 @@
       "Name": "Hateful Gladiator's Wristguards of Dominance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "13790",
+      "SourceNumber": "6895",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41064": {
       "Name": "Deadly Gladiator's Wristguards of Dominance",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "13790",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41065": {
       "Name": "Furious Gladiator's Wristguards of Dominance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "27580",
+      "SourceNumber": "12411",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41066": {
+      "Name": "Relentless Gladiator's Wristguards of Dominance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "24822",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -1204,23 +1484,31 @@
       "Name": "Hateful Gladiator's Waistguard of Dominance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
+      "SourceNumber": "10850",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41069": {
       "Name": "Deadly Gladiator's Waistguard of Dominance",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41070": {
       "Name": "Furious Gladiator's Waistguard of Dominance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
+      "SourceNumber": "19530",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41071": {
+      "Name": "Relentless Gladiator's Waistguard of Dominance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "39060",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -1228,23 +1516,31 @@
       "Name": "Hateful Gladiator's Sabatons of Dominance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
+      "SourceNumber": "10850",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41074": {
       "Name": "Deadly Gladiator's Sabatons of Dominance",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41075": {
       "Name": "Furious Gladiator's Sabatons of Dominance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
+      "SourceNumber": "19530",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41076": {
+      "Name": "Relentless Gladiator's Sabatons of Dominance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "39060",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -1266,26 +1562,34 @@
     },
     "41080": {
       "Name": "Deadly Gladiator's Linked Armor",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41081": {
       "Name": "Furious Gladiator's Linked Armor",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41082": {
+      "Name": "Relentless Gladiator's Linked Armor",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "41084": {
       "Name": "Savage Gladiator's Chain Armor",
-      "Source": "Honor Points",
+      "Source": "Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "5950",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "8400 & 350",
+      "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "41085": {
@@ -1298,18 +1602,18 @@
     },
     "41086": {
       "Name": "Deadly Gladiator's Chain Armor",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41087": {
       "Name": "Furious Gladiator's Chain Armor",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41134": {
@@ -1330,26 +1634,34 @@
     },
     "41136": {
       "Name": "Deadly Gladiator's Linked Gauntlets",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41137": {
       "Name": "Furious Gladiator's Linked Gauntlets",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41138": {
+      "Name": "Relentless Gladiator's Linked Gauntlets",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "41140": {
       "Name": "Savage Gladiator's Chain Gauntlets",
-      "Source": "Honor Points",
+      "Source": "Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4735",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "5040 & 200",
+      "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "41141": {
@@ -1362,18 +1674,18 @@
     },
     "41142": {
       "Name": "Deadly Gladiator's Chain Gauntlets",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41143": {
       "Name": "Furious Gladiator's Chain Gauntlets",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41148": {
@@ -1394,26 +1706,34 @@
     },
     "41150": {
       "Name": "Deadly Gladiator's Linked Helm",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41151": {
       "Name": "Furious Gladiator's Linked Helm",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41152": {
+      "Name": "Relentless Gladiator's Linked Helm",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "41154": {
       "Name": "Savage Gladiator's Chain Helm",
-      "Source": "Honor Points",
+      "Source": "Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "5950",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "8400 & 350",
+      "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "41155": {
@@ -1426,18 +1746,18 @@
     },
     "41156": {
       "Name": "Deadly Gladiator's Chain Helm",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41157": {
       "Name": "Furious Gladiator's Chain Helm",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41160": {
@@ -1458,26 +1778,34 @@
     },
     "41198": {
       "Name": "Deadly Gladiator's Linked Leggings",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41199": {
       "Name": "Furious Gladiator's Linked Leggings",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41200": {
+      "Name": "Relentless Gladiator's Linked Leggings",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "41202": {
       "Name": "Savage Gladiator's Chain Leggings",
-      "Source": "Honor Points",
+      "Source": "Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "5950",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "8400 & 350",
+      "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "41203": {
@@ -1490,18 +1818,18 @@
     },
     "41204": {
       "Name": "Deadly Gladiator's Chain Leggings",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41205": {
       "Name": "Furious Gladiator's Chain Leggings",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41208": {
@@ -1522,26 +1850,34 @@
     },
     "41210": {
       "Name": "Deadly Gladiator's Linked Spaulders",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "875",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41211": {
       "Name": "Furious Gladiator's Linked Spaulders",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1750",
+      "SourceNumber": "787",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41212": {
+      "Name": "Relentless Gladiator's Linked Spaulders",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1575",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "41214": {
       "Name": "Savage Gladiator's Chain Spaulders",
-      "Source": "Honor Points",
+      "Source": "Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4735",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "6720 & 275",
+      "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "41215": {
@@ -1554,41 +1890,49 @@
     },
     "41216": {
       "Name": "Deadly Gladiator's Chain Spaulders",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "875",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41217": {
       "Name": "Furious Gladiator's Chain Spaulders",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1750",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41223": {
       "Name": "Hateful Gladiator's Wristguards of Triumph",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "13790",
+      "SourceNumber": "6895",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41224": {
       "Name": "Deadly Gladiator's Wristguards of Triumph",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "13790",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41225": {
       "Name": "Furious Gladiator's Wristguards of Triumph",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "27580",
+      "SourceNumber": "12411",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41226": {
+      "Name": "Relentless Gladiator's Wristguards of Triumph",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "24822",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -1596,23 +1940,31 @@
       "Name": "Hateful Gladiator's Sabatons of Triumph",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
+      "SourceNumber": "10850",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41229": {
       "Name": "Deadly Gladiator's Sabatons of Triumph",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41230": {
       "Name": "Furious Gladiator's Sabatons of Triumph",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
+      "SourceNumber": "19530",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41231": {
+      "Name": "Relentless Gladiator's Sabatons of Triumph",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "39060",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -1620,23 +1972,31 @@
       "Name": "Hateful Gladiator's Waistguard of Triumph",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
+      "SourceNumber": "10850",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41234": {
       "Name": "Deadly Gladiator's Waistguard of Triumph",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41235": {
       "Name": "Furious Gladiator's Waistguard of Triumph",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
+      "SourceNumber": "19530",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41236": {
+      "Name": "Relentless Gladiator's Waistguard of Triumph",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "39060",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -1690,18 +2050,18 @@
     },
     "41274": {
       "Name": "Deadly Gladiator's Kodohide Spaulders",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "875",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41275": {
       "Name": "Furious Gladiator's Kodohide Spaulders",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1750",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41278": {
@@ -1722,18 +2082,18 @@
     },
     "41280": {
       "Name": "Deadly Gladiator's Wyrmhide Spaulders",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "875",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41281": {
       "Name": "Furious Gladiator's Wyrmhide Spaulders",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1750",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41284": {
@@ -1746,18 +2106,18 @@
     },
     "41286": {
       "Name": "Deadly Gladiator's Kodohide Gloves",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41287": {
       "Name": "Furious Gladiator's Kodohide Gloves",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41290": {
@@ -1778,18 +2138,18 @@
     },
     "41292": {
       "Name": "Deadly Gladiator's Wyrmhide Gloves",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41293": {
       "Name": "Furious Gladiator's Wyrmhide Gloves",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41296": {
@@ -1802,18 +2162,18 @@
     },
     "41297": {
       "Name": "Deadly Gladiator's Kodohide Legguards",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41298": {
       "Name": "Furious Gladiator's Kodohide Legguards",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41301": {
@@ -1834,18 +2194,18 @@
     },
     "41303": {
       "Name": "Deadly Gladiator's Wyrmhide Legguards",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41304": {
       "Name": "Furious Gladiator's Wyrmhide Legguards",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41308": {
@@ -1858,18 +2218,18 @@
     },
     "41309": {
       "Name": "Deadly Gladiator's Kodohide Robes",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41310": {
       "Name": "Furious Gladiator's Kodohide Robes",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41313": {
@@ -1890,18 +2250,18 @@
     },
     "41315": {
       "Name": "Deadly Gladiator's Wyrmhide Robes",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41316": {
       "Name": "Furious Gladiator's Wyrmhide Robes",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41319": {
@@ -1914,18 +2274,18 @@
     },
     "41320": {
       "Name": "Deadly Gladiator's Kodohide Helm",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41321": {
       "Name": "Furious Gladiator's Kodohide Helm",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41324": {
@@ -1946,18 +2306,18 @@
     },
     "41326": {
       "Name": "Deadly Gladiator's Wyrmhide Helm",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41327": {
       "Name": "Furious Gladiator's Wyrmhide Helm",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41330": {
@@ -1986,50 +2346,50 @@
     },
     "41616": {
       "Name": "Deadly Gladiator's Belt of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41617": {
       "Name": "Furious Gladiator's Belt of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41620": {
       "Name": "Deadly Gladiator's Boots of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41621": {
       "Name": "Furious Gladiator's Boots of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41624": {
       "Name": "Deadly Gladiator's Armwraps of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "13790",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41625": {
       "Name": "Furious Gladiator's Armwraps of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "27580",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41628": {
@@ -2042,18 +2402,18 @@
     },
     "41629": {
       "Name": "Deadly Gladiator's Belt of Dominance",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41630": {
       "Name": "Furious Gladiator's Belt of Dominance",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41633": {
@@ -2066,18 +2426,18 @@
     },
     "41634": {
       "Name": "Deadly Gladiator's Boots of Dominance",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41635": {
       "Name": "Furious Gladiator's Boots of Dominance",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41638": {
@@ -2090,58 +2450,74 @@
     },
     "41639": {
       "Name": "Deadly Gladiator's Armwraps of Dominance",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "13790",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41640": {
       "Name": "Furious Gladiator's Armwraps of Dominance",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "27580",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41643": {
       "Name": "Savage Gladiator's Leather Gloves",
-      "Source": "Honor Points & Arena Points",
+      "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "5040 & 200",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "4735",
+      "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41644": {
       "Name": "Savage Gladiator's Leather Helm",
-      "Source": "Honor Points & Arena Points",
+      "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "8400 & 350",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "5950",
+      "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41645": {
       "Name": "Savage Gladiator's Leather Legguards",
-      "Source": "Honor Points & Arena Points",
+      "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "8400 & 350",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "5950",
+      "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41646": {
       "Name": "Savage Gladiator's Leather Spaulders",
-      "Source": "Honor Points & Arena Points",
+      "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "6720 & 275",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "4735",
+      "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41647": {
       "Name": "Savage Gladiator's Leather Tunic",
-      "Source": "Honor Points & Arena Points",
+      "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "8400 & 350",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "5950",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41648": {
+      "Name": "Hateful Gladiator's Leather Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7700",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41653": {
+      "Name": "Hateful Gladiator's Leather Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7700",
+      "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41658": {
@@ -2162,18 +2538,18 @@
     },
     "41660": {
       "Name": "Deadly Gladiator's Dragonhide Robes",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41661": {
       "Name": "Furious Gladiator's Dragonhide Robes",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41664": {
@@ -2194,18 +2570,26 @@
     },
     "41666": {
       "Name": "Deadly Gladiator's Dragonhide Legguards",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41667": {
       "Name": "Furious Gladiator's Dragonhide Legguards",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "41670": {
+      "Name": "Hateful Gladiator's Leather Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7700",
+      "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41675": {
@@ -2226,18 +2610,26 @@
     },
     "41677": {
       "Name": "Deadly Gladiator's Dragonhide Helm",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41678": {
       "Name": "Furious Gladiator's Dragonhide Helm",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "41681": {
+      "Name": "Hateful Gladiator's Leather Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6110",
+      "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41712": {
@@ -2258,18 +2650,26 @@
     },
     "41714": {
       "Name": "Deadly Gladiator's Dragonhide Spaulders",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "875",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41715": {
       "Name": "Furious Gladiator's Dragonhide Spaulders",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1750",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "41765": {
+      "Name": "Hateful Gladiator's Leather Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4520",
+      "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41770": {
@@ -2290,18 +2690,18 @@
     },
     "41772": {
       "Name": "Deadly Gladiator's Dragonhide Gloves",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41773": {
       "Name": "Furious Gladiator's Dragonhide Gloves",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41827": {
@@ -2330,50 +2730,50 @@
     },
     "41831": {
       "Name": "Deadly Gladiator's Belt of Triumph",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41832": {
       "Name": "Furious Gladiator's Belt of Triumph",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41835": {
       "Name": "Deadly Gladiator's Boots of Triumph",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41836": {
       "Name": "Furious Gladiator's Boots of Triumph",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41839": {
       "Name": "Deadly Gladiator's Armwraps of Triumph",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "13790",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41840": {
       "Name": "Furious Gladiator's Armwraps of Triumph",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "27580",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41847": {
@@ -2426,17 +2826,25 @@
     },
     "41853": {
       "Name": "Deadly Gladiator's Mooncloth Hood",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41854": {
       "Name": "Furious Gladiator's Mooncloth Hood",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41855": {
+      "Name": "Relentless Gladiator's Mooncloth Hood",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -2450,17 +2858,25 @@
     },
     "41858": {
       "Name": "Deadly Gladiator's Mooncloth Robe",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41859": {
       "Name": "Furious Gladiator's Mooncloth Robe",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41860": {
+      "Name": "Relentless Gladiator's Mooncloth Robe",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -2474,17 +2890,25 @@
     },
     "41863": {
       "Name": "Deadly Gladiator's Mooncloth Leggings",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41864": {
       "Name": "Furious Gladiator's Mooncloth Leggings",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41865": {
+      "Name": "Relentless Gladiator's Mooncloth Leggings",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -2498,17 +2922,25 @@
     },
     "41868": {
       "Name": "Deadly Gladiator's Mooncloth Mantle",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "875",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41869": {
       "Name": "Furious Gladiator's Mooncloth Mantle",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1750",
+      "SourceNumber": "787",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41870": {
+      "Name": "Relentless Gladiator's Mooncloth Mantle",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1575",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -2522,17 +2954,25 @@
     },
     "41873": {
       "Name": "Deadly Gladiator's Mooncloth Gloves",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41874": {
       "Name": "Furious Gladiator's Mooncloth Gloves",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41875": {
+      "Name": "Relentless Gladiator's Mooncloth Gloves",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -2562,49 +3002,73 @@
     },
     "41880": {
       "Name": "Deadly Gladiator's Cord of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41881": {
       "Name": "Furious Gladiator's Cord of Salvation",
+      "Source": "unavailable",
+      "SourceType": "PvP",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "41882": {
+      "Name": "Relentless Gladiator's Cord of Salvation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
+      "SourceNumber": "39060",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41884": {
       "Name": "Deadly Gladiator's Treads of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41885": {
       "Name": "Furious Gladiator's Slippers of Salvation",
+      "Source": "unavailable",
+      "SourceType": "PvP",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "41886": {
+      "Name": "Relentless Gladiator's Treads of Salvation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
+      "SourceNumber": "39060",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "41892": {
       "Name": "Deadly Gladiator's Cuffs of Salvation",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "13790",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41893": {
       "Name": "Furious Gladiator's Cuffs of Salvation",
+      "Source": "unavailable",
+      "SourceType": "PvP",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "41894": {
+      "Name": "Relentless Gladiator's Cuffs of Salvation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "27580",
+      "SourceNumber": "24822",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -2618,17 +3082,25 @@
     },
     "41897": {
       "Name": "Deadly Gladiator's Cord of Dominance",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41898": {
       "Name": "Furious Gladiator's Cord of Dominance",
+      "Source": "unavailable",
+      "SourceType": "PvP",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "41899": {
+      "Name": "Relentless Gladiator's Cord of Dominance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
+      "SourceNumber": "39060",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -2642,17 +3114,25 @@
     },
     "41902": {
       "Name": "Deadly Gladiator's Treads of Dominance",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41903": {
       "Name": "Furious Gladiator's Slippers of Dominance",
+      "Source": "unavailable",
+      "SourceType": "PvP",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "41904": {
+      "Name": "Relentless Gladiator's Treads of Dominance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "43400",
+      "SourceNumber": "39060",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -2666,17 +3146,25 @@
     },
     "41908": {
       "Name": "Deadly Gladiator's Cuffs of Dominance",
-      "Source": "Honor Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "13790",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41909": {
       "Name": "Furious Gladiator's Cuffs of Dominance",
+      "Source": "unavailable",
+      "SourceType": "PvP",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "41910": {
+      "Name": "Relentless Gladiator's Cuffs of Dominance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "27580",
+      "SourceNumber": "24822",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -2698,17 +3186,25 @@
     },
     "41914": {
       "Name": "Deadly Gladiator's Satin Hood",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41915": {
       "Name": "Furious Gladiator's Satin Hood",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41916": {
+      "Name": "Relentless Gladiator's Satin Hood",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -2730,17 +3226,25 @@
     },
     "41920": {
       "Name": "Deadly Gladiator's Satin Robe",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41921": {
       "Name": "Furious Gladiator's Satin Robe",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41922": {
+      "Name": "Relentless Gladiator's Satin Robe",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -2762,17 +3266,25 @@
     },
     "41926": {
       "Name": "Deadly Gladiator's Satin Leggings",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41927": {
       "Name": "Furious Gladiator's Satin Leggings",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41928": {
+      "Name": "Relentless Gladiator's Satin Leggings",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -2794,17 +3306,25 @@
     },
     "41933": {
       "Name": "Deadly Gladiator's Satin Mantle",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "875",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41934": {
       "Name": "Furious Gladiator's Satin Mantle",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1750",
+      "SourceNumber": "787",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41935": {
+      "Name": "Relentless Gladiator's Satin Mantle",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1575",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -2826,17 +3346,25 @@
     },
     "41939": {
       "Name": "Deadly Gladiator's Satin Gloves",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41940": {
       "Name": "Furious Gladiator's Satin Gloves",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "41941": {
+      "Name": "Relentless Gladiator's Satin Gloves",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -2858,18 +3386,18 @@
     },
     "41945": {
       "Name": "Deadly Gladiator's Silk Cowl",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41946": {
       "Name": "Furious Gladiator's Silk Cowl",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41949": {
@@ -2890,18 +3418,18 @@
     },
     "41951": {
       "Name": "Deadly Gladiator's Silk Raiment",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41953": {
       "Name": "Furious Gladiator's Silk Raiment",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41956": {
@@ -2922,18 +3450,18 @@
     },
     "41958": {
       "Name": "Deadly Gladiator's Silk Trousers",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41959": {
       "Name": "Furious Gladiator's Silk Trousers",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41962": {
@@ -2954,18 +3482,18 @@
     },
     "41964": {
       "Name": "Deadly Gladiator's Silk Amice",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "875",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41965": {
       "Name": "Furious Gladiator's Silk Amice",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1750",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41968": {
@@ -2986,18 +3514,18 @@
     },
     "41970": {
       "Name": "Deadly Gladiator's Silk Handguards",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41971": {
       "Name": "Furious Gladiator's Silk Handguards",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41990": {
@@ -3018,18 +3546,18 @@
     },
     "41992": {
       "Name": "Deadly Gladiator's Felweave Cowl",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41993": {
       "Name": "Furious Gladiator's Felweave Cowl",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41996": {
@@ -3042,18 +3570,18 @@
     },
     "41997": {
       "Name": "Deadly Gladiator's Felweave Raiment",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "41998": {
       "Name": "Furious Gladiator's Felweave Raiment",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42001": {
@@ -3082,18 +3610,18 @@
     },
     "42004": {
       "Name": "Deadly Gladiator's Felweave Trousers",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42005": {
       "Name": "Furious Gladiator's Felweave Trousers",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42008": {
@@ -3114,18 +3642,18 @@
     },
     "42010": {
       "Name": "Deadly Gladiator's Felweave Amice",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "875",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42011": {
       "Name": "Furious Gladiator's Felweave Amice",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1750",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42014": {
@@ -3146,18 +3674,18 @@
     },
     "42016": {
       "Name": "Deadly Gladiator's Felweave Handguards",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42017": {
       "Name": "Furious Gladiator's Felweave Handguards",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42020": {
@@ -3220,7 +3748,7 @@
       "Name": "Deadly Gladiator's Pendant of Triumph",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3228,7 +3756,7 @@
       "Name": "Deadly Gladiator's Pendant of Victory",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3236,7 +3764,7 @@
       "Name": "Deadly Gladiator's Pendant of Dominance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3244,7 +3772,7 @@
       "Name": "Deadly Gladiator's Pendant of Ascendancy",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3252,7 +3780,7 @@
       "Name": "Deadly Gladiator's Pendant of Subjugation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3260,7 +3788,7 @@
       "Name": "Deadly Gladiator's Pendant of Deliverance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3268,7 +3796,7 @@
       "Name": "Deadly Gladiator's Pendant of Salvation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3276,7 +3804,7 @@
       "Name": "Furious Gladiator's Pendant of Triumph",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3284,7 +3812,7 @@
       "Name": "Furious Gladiator's Pendant of Victory",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3292,7 +3820,7 @@
       "Name": "Furious Gladiator's Pendant of Dominance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3300,7 +3828,7 @@
       "Name": "Furious Gladiator's Pendant of Ascendancy",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3308,7 +3836,7 @@
       "Name": "Furious Gladiator's Pendant of Subjugation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3316,7 +3844,7 @@
       "Name": "Furious Gladiator's Pendant of Deliverance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3324,7 +3852,63 @@
       "Name": "Furious Gladiator's Pendant of Salvation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42041": {
+      "Name": "Relentless Gladiator's Pendant of Triumph",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42042": {
+      "Name": "Relentless Gladiator's Pendant of Victory",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42043": {
+      "Name": "Relentless Gladiator's Pendant of Dominance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42044": {
+      "Name": "Relentless Gladiator's Pendant of Ascendancy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42045": {
+      "Name": "Relentless Gladiator's Pendant of Subjugation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42046": {
+      "Name": "Relentless Gladiator's Pendant of Deliverance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42047": {
+      "Name": "Relentless Gladiator's Pendant of Salvation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3388,7 +3972,7 @@
       "Name": "Deadly Gladiator's Cloak of Dominance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3396,7 +3980,7 @@
       "Name": "Deadly Gladiator's Cloak of Subjugation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3404,7 +3988,7 @@
       "Name": "Deadly Gladiator's Cloak of Ascendancy",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3412,7 +3996,7 @@
       "Name": "Deadly Gladiator's Cloak of Salvation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3420,7 +4004,7 @@
       "Name": "Deadly Gladiator's Cloak of Deliverance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3428,7 +4012,7 @@
       "Name": "Deadly Gladiator's Cloak of Triumph",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3436,7 +4020,7 @@
       "Name": "Deadly Gladiator's Cloak of Victory",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3444,7 +4028,7 @@
       "Name": "Furious Gladiator's Cloak of Dominance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3452,7 +4036,7 @@
       "Name": "Furious Gladiator's Cloak of Subjugation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3460,7 +4044,7 @@
       "Name": "Furious Gladiator's Cloak of Ascendancy",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3468,7 +4052,7 @@
       "Name": "Furious Gladiator's Cloak of Salvation",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3476,7 +4060,7 @@
       "Name": "Furious Gladiator's Cloak of Deliverance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3484,7 +4068,7 @@
       "Name": "Furious Gladiator's Cloak of Triumph",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3492,7 +4076,63 @@
       "Name": "Furious Gladiator's Cloak of Victory",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42076": {
+      "Name": "Relentless Gladiator's Cloak of Dominance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42077": {
+      "Name": "Relentless Gladiator's Cloak of Subjugation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42078": {
+      "Name": "Relentless Gladiator's Cloak of Ascendancy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42079": {
+      "Name": "Relentless Gladiator's Cloak of Salvation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42080": {
+      "Name": "Relentless Gladiator's Cloak of Deliverance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42081": {
+      "Name": "Relentless Gladiator's Cloak of Triumph",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42082": {
+      "Name": "Relentless Gladiator's Cloak of Victory",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3516,7 +4156,7 @@
       "Name": "Deadly Gladiator's Band of Ascendancy",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3524,7 +4164,7 @@
       "Name": "Deadly Gladiator's Band of Victory",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "16590",
+      "SourceNumber": "8295",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3532,7 +4172,7 @@
       "Name": "Furious Gladiator's Band of Dominance",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3540,7 +4180,23 @@
       "Name": "Furious Gladiator's Band of Triumph",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42118": {
+      "Name": "Relentless Gladiator's Band of Ascendancy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42119": {
+      "Name": "Relentless Gladiator's Band of Victory",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3548,7 +4204,7 @@
       "Name": "Battlemaster's Hostility",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
+      "SourceNumber": "10850",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3556,7 +4212,7 @@
       "Name": "Battlemaster's Accuracy",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
+      "SourceNumber": "10850",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3564,7 +4220,7 @@
       "Name": "Battlemaster's Avidity",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
+      "SourceNumber": "10850",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3572,7 +4228,7 @@
       "Name": "Battlemaster's Conviction",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
+      "SourceNumber": "10850",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
@@ -3580,63 +4236,87 @@
       "Name": "Battlemaster's Bravery",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "21700",
+      "SourceNumber": "10850",
       "SourceLocation": "PvP Vendor",
       "SourceFaction": "B"
     },
     "42208": {
       "Name": "Deadly Gladiator's Cleaver",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1575",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42209": {
       "Name": "Furious Gladiator's Cleaver",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "3150",
+      "SourceNumber": "1417",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42210": {
+      "Name": "Relentless Gladiator's Cleaver",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2126",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42214": {
       "Name": "Savage Gladiator's Waraxe",
-      "Source": "Honor Points",
+      "Source": "Honor Points & Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "3115",
-      "SourceLocation": "PvP Vendor",
+      "SourceNumber": "4480 & 175",
+      "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42227": {
       "Name": "Deadly Gladiator's Hacker",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42228": {
       "Name": "Furious Gladiator's Hacker",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42229": {
+      "Name": "Relentless Gladiator's Hacker",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42232": {
       "Name": "Deadly Gladiator's Chopper",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42233": {
       "Name": "Furious Gladiator's Chopper",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42234": {
+      "Name": "Relentless Gladiator's Chopper",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -3650,314 +4330,458 @@
     },
     "42237": {
       "Name": "Deadly Gladiator's Waraxe",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "600",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42242": {
       "Name": "Deadly Gladiator's Shanker",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1575",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42243": {
       "Name": "Furious Gladiator's Shanker",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "3150",
+      "SourceNumber": "1417",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42244": {
+      "Name": "Relentless Gladiator's Shanker",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2126",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42248": {
       "Name": "Deadly Gladiator's Shiv",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42249": {
       "Name": "Furious Gladiator's Shiv",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42250": {
+      "Name": "Relentless Gladiator's Shiv",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42255": {
       "Name": "Deadly Gladiator's Mutilator",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42256": {
       "Name": "Furious Gladiator's Mutilator",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42257": {
+      "Name": "Relentless Gladiator's Mutilator",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42260": {
       "Name": "Deadly Gladiator's Right Ripper",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1575",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42261": {
       "Name": "Furious Gladiator's Right Ripper",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "3150",
+      "SourceNumber": "1417",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42262": {
+      "Name": "Relentless Gladiator's Right Ripper",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2126",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42265": {
       "Name": "Deadly Gladiator's Left Render",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42266": {
       "Name": "Furious Gladiator's Left Render",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42267": {
+      "Name": "Relentless Gladiator's Left Render",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42270": {
       "Name": "Deadly Gladiator's Left Ripper",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42271": {
       "Name": "Furious Gladiator's Left Ripper",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42272": {
+      "Name": "Relentless Gladiator's Left Ripper",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42275": {
       "Name": "Deadly Gladiator's Pummeler",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1575",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42276": {
       "Name": "Furious Gladiator's Pummeler",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "3150",
+      "SourceNumber": "1417",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42277": {
+      "Name": "Relentless Gladiator's Pummeler",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2126",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42280": {
       "Name": "Deadly Gladiator's Bonecracker",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42281": {
       "Name": "Furious Gladiator's Bonecracker",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42282": {
+      "Name": "Relentless Gladiator's Bonecracker",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42285": {
       "Name": "Deadly Gladiator's Slicer",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1575",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42286": {
       "Name": "Furious Gladiator's Slicer",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "3150",
+      "SourceNumber": "1417",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42287": {
+      "Name": "Relentless Gladiator's Slicer",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2126",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42290": {
       "Name": "Deadly Gladiator's Quickblade",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42291": {
       "Name": "Furious Gladiator's Quickblade",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42292": {
+      "Name": "Relentless Gladiator's Quickblade",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42317": {
       "Name": "Deadly Gladiator's Decapitator",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42318": {
       "Name": "Furious Gladiator's Decapitator",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "2025",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42319": {
+      "Name": "Relentless Gladiator's Decapitator",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42322": {
       "Name": "Deadly Gladiator's Bonegrinder",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42323": {
       "Name": "Furious Gladiator's Bonegrinder",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "2025",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42324": {
+      "Name": "Relentless Gladiator's Bonegrinder",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42327": {
       "Name": "Deadly Gladiator's Pike",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42328": {
       "Name": "Furious Gladiator's Pike",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "2025",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42329": {
+      "Name": "Relentless Gladiator's Pike",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42332": {
       "Name": "Deadly Gladiator's Greatsword",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42333": {
       "Name": "Furious Gladiator's Greatsword",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "2025",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42334": {
+      "Name": "Relentless Gladiator's Greatsword",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42346": {
       "Name": "Deadly Gladiator's Spellblade",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1575",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42347": {
       "Name": "Furious Gladiator's Spellblade",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "3150",
+      "SourceNumber": "1417",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42348": {
+      "Name": "Relentless Gladiator's Spellblade",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2126",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42352": {
       "Name": "Deadly Gladiator's Gavel",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1575",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42353": {
       "Name": "Furious Gladiator's Gavel",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "3150",
+      "SourceNumber": "1417",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42354": {
+      "Name": "Relentless Gladiator's Gavel",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2126",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42362": {
       "Name": "Deadly Gladiator's Battle Staff",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42364": {
       "Name": "Furious Gladiator's Battle Staff",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "2025",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42366": {
+      "Name": "Relentless Gladiator's Battle Staff",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42384": {
       "Name": "Deadly Gladiator's Energy Staff",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42385": {
       "Name": "Furious Gladiator's Energy Staff",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "2025",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42386": {
+      "Name": "Relentless Gladiator's Energy Staff",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42390": {
       "Name": "Deadly Gladiator's Staff",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42391": {
       "Name": "Furious Gladiator's Staff",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42444": {
@@ -3986,65 +4810,97 @@
     },
     "42450": {
       "Name": "Deadly Gladiator's War Edge",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "600",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42451": {
       "Name": "Furious Gladiator's War Edge",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1200",
+      "SourceNumber": "540",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42483": {
+      "Name": "Relentless Gladiator's War Edge",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1080",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42485": {
       "Name": "Deadly Gladiator's Rifle",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42486": {
       "Name": "Furious Gladiator's Rifle",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "2025",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42487": {
+      "Name": "Relentless Gladiator's Rifle",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1400",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42490": {
       "Name": "Deadly Gladiator's Longbow",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42491": {
       "Name": "Furious Gladiator's Longbow",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "2025",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42492": {
+      "Name": "Relentless Gladiator's Longbow",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42495": {
       "Name": "Deadly Gladiator's Heavy Crossbow",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42496": {
       "Name": "Furious Gladiator's Heavy Crossbow",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "2025",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42498": {
+      "Name": "Relentless Gladiator's Heavy Crossbow",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4058,17 +4914,25 @@
     },
     "42502": {
       "Name": "Deadly Gladiator's Touch of Defeat",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "600",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42503": {
       "Name": "Furious Gladiator's Touch of Defeat",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1200",
+      "SourceNumber": "540",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42504": {
+      "Name": "Relentless Gladiator's Touch of Defeat",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1080",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4090,17 +4954,25 @@
     },
     "42513": {
       "Name": "Deadly Gladiator's Baton of Light",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "600",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42514": {
       "Name": "Furious Gladiator's Baton of Light",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1200",
+      "SourceNumber": "540",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42515": {
+      "Name": "Relentless Gladiator's Baton of Light",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1080",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4122,113 +4994,169 @@
     },
     "42519": {
       "Name": "Deadly Gladiator's Piercing Touch",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "600",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42520": {
       "Name": "Furious Gladiator's Piercing Touch",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1200",
+      "SourceNumber": "540",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42521": {
+      "Name": "Relentless Gladiator's Piercing Touch",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1080",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42525": {
       "Name": "Deadly Gladiator's Endgame",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42526": {
       "Name": "Furious Gladiator's Endgame",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42527": {
+      "Name": "Relentless Gladiator's Endgame",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42531": {
       "Name": "Deadly Gladiator's Reprieve",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42532": {
       "Name": "Furious Gladiator's Reprieve",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42533": {
+      "Name": "Relentless Gladiator's Reprieve",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42537": {
       "Name": "Deadly Gladiator's Grimoire",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "675",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42538": {
       "Name": "Furious Gladiator's Grimoire",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "607",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42539": {
+      "Name": "Relentless Gladiator's Grimoire",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42559": {
       "Name": "Deadly Gladiator's Shield Wall",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42560": {
       "Name": "Furious Gladiator's Shield Wall",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42561": {
+      "Name": "Relentless Gladiator's Shield Wall",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42564": {
       "Name": "Deadly Gladiator's Barrier",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42565": {
       "Name": "Furious Gladiator's Barrier",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42566": {
+      "Name": "Relentless Gladiator's Barrier",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "42570": {
       "Name": "Deadly Gladiator's Redoubt",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "1125",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42571": {
       "Name": "Furious Gladiator's Redoubt",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
+      "SourceNumber": "1012",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42572": {
+      "Name": "Relentless Gladiator's Redoubt",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4266,17 +5194,25 @@
     },
     "42578": {
       "Name": "Deadly Gladiator's Idol of Tenacity",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "600",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42579": {
       "Name": "Furious Gladiator's Idol of Tenacity",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1200",
+      "SourceNumber": "540",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42580": {
+      "Name": "Relentless Gladiator's Idol of Tenacity",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1080",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4290,17 +5226,25 @@
     },
     "42583": {
       "Name": "Deadly Gladiator's Idol of Steadfastness",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "600",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42584": {
       "Name": "Furious Gladiator's Idol of Steadfastness",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1200",
+      "SourceNumber": "540",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42585": {
+      "Name": "Relentless Gladiator's Idol of Steadfastness",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1080",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4314,17 +5258,25 @@
     },
     "42588": {
       "Name": "Deadly Gladiator's Idol of Resolve",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "600",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42589": {
       "Name": "Furious Gladiator's Idol of Resolve",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1200",
+      "SourceNumber": "540",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42591": {
+      "Name": "Relentless Gladiator's Idol of Resolve",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1080",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4362,17 +5314,25 @@
     },
     "42597": {
       "Name": "Deadly Gladiator's Totem of the Third Wind",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "600",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42598": {
       "Name": "Furious Gladiator's Totem of the Third Wind",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1200",
+      "SourceNumber": "540",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42599": {
+      "Name": "Relentless Gladiator's Totem of the Third Wind",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1080",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4386,17 +5346,25 @@
     },
     "42602": {
       "Name": "Deadly Gladiator's Totem of Survival",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "600",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42603": {
       "Name": "Furious Gladiator's Totem of Survival",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1200",
+      "SourceNumber": "540",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42604": {
+      "Name": "Relentless Gladiator's Totem of Survival",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1080",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4410,17 +5378,25 @@
     },
     "42607": {
       "Name": "Deadly Gladiator's Totem of Indomitability",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "600",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42608": {
       "Name": "Furious Gladiator's Totem of Indomitability",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1200",
+      "SourceNumber": "540",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42609": {
+      "Name": "Relentless Gladiator's Totem of Indomitability",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1080",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4450,17 +5426,25 @@
     },
     "42614": {
       "Name": "Deadly Gladiator's Libram of Justice",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "600",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42615": {
       "Name": "Furious Gladiator's Libram of Justice",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1200",
+      "SourceNumber": "540",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42616": {
+      "Name": "Relentless Gladiator's Libram of Justice",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1080",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4482,17 +5466,25 @@
     },
     "42620": {
       "Name": "Deadly Gladiator's Sigil of Strife",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "600",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42621": {
       "Name": "Furious Gladiator's Sigil of Strife",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1200",
+      "SourceNumber": "540",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42622": {
+      "Name": "Relentless Gladiator's Sigil of Strife",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1080",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4506,41 +5498,49 @@
     },
     "42852": {
       "Name": "Deadly Gladiator's Libram of Fortitude",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "600",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "42853": {
       "Name": "Furious Gladiator's Libram of Fortitude",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1200",
+      "SourceNumber": "540",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "42854": {
+      "Name": "Relentless Gladiator's Libram of Fortitude",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1080",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "44419": {
       "Name": "Deadly Gladiator's War Staff",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "44420": {
       "Name": "Deadly Gladiator's Focus Staff",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "2250",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "44421": {
       "Name": "Furious Gladiator's War Staff",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "2025",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4548,7 +5548,23 @@
       "Name": "Furious Gladiator's Focus Staff",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "2025",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "44423": {
+      "Name": "Relentless Gladiator's War Staff",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3037",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "44424": {
+      "Name": "Relentless Gladiator's Focus Staff",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4556,7 +5572,7 @@
       "Name": "Furious Gladiator's Shotgun",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4564,7 +5580,7 @@
       "Name": "Furious Gladiator's Recurve",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4572,7 +5588,7 @@
       "Name": "Furious Gladiator's Repeater",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4580,7 +5596,7 @@
       "Name": "Furious Gladiator's Sunderer",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4588,7 +5604,7 @@
       "Name": "Furious Gladiator's Crusher",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4596,7 +5612,7 @@
       "Name": "Furious Gladiator's Claymore",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4604,23 +5620,23 @@
       "Name": "Furious Gladiator's Halberd",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "45952": {
       "Name": "Furious Gladiator's Greatstaff",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "45953": {
       "Name": "Furious Gladiator's Combat Staff",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4628,7 +5644,7 @@
       "Name": "Furious Gladiator's Acute Staff",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4636,7 +5652,7 @@
       "Name": "Furious Gladiator's Skirmish Staff",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4644,7 +5660,7 @@
       "Name": "Furious Gladiator's Light Staff",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "4500",
+      "SourceNumber": "3037",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4652,7 +5668,7 @@
       "Name": "Furious Gladiator's Handaxe",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "3150",
+      "SourceNumber": "2126",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4660,7 +5676,7 @@
       "Name": "Furious Gladiator's Spike",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "3150",
+      "SourceNumber": "2126",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4668,7 +5684,7 @@
       "Name": "Furious Gladiator's Truncheon",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "3150",
+      "SourceNumber": "2126",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4676,7 +5692,7 @@
       "Name": "Furious Gladiator's Longblade",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "3150",
+      "SourceNumber": "2126",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4684,7 +5700,7 @@
       "Name": "Furious Gladiator's Dicer",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4692,7 +5708,7 @@
       "Name": "Furious Gladiator's Dirk",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4700,7 +5716,7 @@
       "Name": "Furious Gladiator's Left Razor",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4708,7 +5724,7 @@
       "Name": "Furious Gladiator's Punisher",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4716,7 +5732,7 @@
       "Name": "Furious Gladiator's Swiftblade",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4724,7 +5740,7 @@
       "Name": "Furious Gladiator's Splitter",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4732,7 +5748,7 @@
       "Name": "Furious Gladiator's Eviscerator",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4740,7 +5756,7 @@
       "Name": "Furious Gladiator's Left Claw",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "1350",
+      "SourceNumber": "911",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4748,7 +5764,7 @@
       "Name": "Furious Gladiator's Grasp",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "3150",
+      "SourceNumber": "2126",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4756,7 +5772,7 @@
       "Name": "Furious Gladiator's Mageblade",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "3150",
+      "SourceNumber": "2126",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
@@ -4764,24 +5780,304 @@
       "Name": "Furious Gladiator's Salvation",
       "Source": "Arena Points",
       "SourceType": "PvP",
-      "SourceNumber": "3150",
+      "SourceNumber": "2126",
       "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     },
     "45983": {
       "Name": "Furious Gladiator's Tabard",
-      "Source": "Arena Points",
+      "Source": "unavailable",
       "SourceType": "PvP",
-      "SourceNumber": "550",
-      "SourceLocation": "Arena Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "",
       "SourceFaction": "B"
     },
     "46373": {
       "Name": "Furious Gladiator's Pendant of Sundering",
       "Source": "Honor Points",
       "SourceType": "PvP",
-      "SourceNumber": "33180",
+      "SourceNumber": "14931",
       "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "46374": {
+      "Name": "Relentless Gladiator's Pendant of Sundering",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "29862",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "48402": {
+      "Name": "Relentless Gladiator's Sunderer",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4050",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48404": {
+      "Name": "Relentless Gladiator's Crusher",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4050",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48406": {
+      "Name": "Relentless Gladiator's Claymore",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4050",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48408": {
+      "Name": "Relentless Gladiator's Mageblade",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2835",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48410": {
+      "Name": "Relentless Gladiator's Skirmish Staff",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4050",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48412": {
+      "Name": "Relentless Gladiator's Acute Staff",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4050",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48414": {
+      "Name": "Relentless Gladiator's Combat Staff",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4050",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48420": {
+      "Name": "Relentless Gladiator's Recurve",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4050",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48422": {
+      "Name": "Relentless Gladiator's Repeater",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4050",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48424": {
+      "Name": "Relentless Gladiator's Shotgun",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4050",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48426": {
+      "Name": "Relentless Gladiator's Dicer",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48428": {
+      "Name": "Relentless Gladiator's Dirk",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48432": {
+      "Name": "Relentless Gladiator's Left Razor",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48435": {
+      "Name": "Relentless Gladiator's Punisher",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48438": {
+      "Name": "Relentless Gladiator's Swiftblade",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48440": {
+      "Name": "Relentless Gladiator's Splitter",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48442": {
+      "Name": "Relentless Gladiator's Eviscerator",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48444": {
+      "Name": "Relentless Gladiator's Left Claw",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48507": {
+      "Name": "Relentless Gladiator's Handaxe",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2835",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48509": {
+      "Name": "Relentless Gladiator's Spike",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2835",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48511": {
+      "Name": "Relentless Gladiator's Truncheon",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2835",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48513": {
+      "Name": "Relentless Gladiator's Longblade",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2835",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48515": {
+      "Name": "Relentless Gladiator's Grasp",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2835",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48517": {
+      "Name": "Relentless Gladiator's Halberd",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4050",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48519": {
+      "Name": "Relentless Gladiator's Salvation",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2835",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "48521": {
+      "Name": "Relentless Gladiator's Light Staff",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4050",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "49086": {
+      "Name": "Relentless Gladiator's Tabard",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "495",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "49179": {
+      "Name": "Relentless Gladiator's Cord of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "39060",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "49181": {
+      "Name": "Relentless Gladiator's Cuffs of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "24822",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "49183": {
+      "Name": "Relentless Gladiator's Treads of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "39060",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "49185": {
+      "Name": "Relentless Gladiator's Wand of Alacrity",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1080",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "49187": {
+      "Name": "Relentless Gladiator's Compendium",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1215",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "49189": {
+      "Name": "Relentless Gladiator's Blade of Alacrity",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2126",
+      "SourceLocation": "Arena Vendor",
+      "SourceFaction": "B"
+    },
+    "49191": {
+      "Name": "Relentless Gladiator's Blade of Celerity",
+      "Source": "Arena Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2835",
+      "SourceLocation": "Arena Vendor",
       "SourceFaction": "B"
     }
   }
