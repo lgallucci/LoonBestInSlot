@@ -45,7 +45,6 @@ public class PvPImporter : LootImporter
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
-        var oldItems = items.Items.ToList();
         items.Items.Clear();
 
         await Common.LoadFromWebPages(wowheadUriList.Keys.ToList(), async (uri, content) => //TODO: Convert to Single Browser loop
@@ -128,22 +127,6 @@ public class PvPImporter : LootImporter
                 }
             });
         });
-
-        foreach(var oldItem in oldItems)
-        {
-            if (!items.Items.ContainsKey(oldItem.Key))
-            {
-                items.Items.TryAdd(oldItem.Key, new DatabaseItem
-                {
-                    Name = oldItem.Value.Name,
-                    SourceNumber = "0",
-                    Source = "unavailable",
-                    SourceLocation = "",
-                    SourceType = "PvP"
-                });
-
-            }
-        }
 
         return items;
     }
