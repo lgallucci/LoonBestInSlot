@@ -246,8 +246,10 @@ LBIS:AddItem(spec3, "47916", LBIS.L["Wrist"], "BIS") --Armbands of the Northern 
 LBIS:AddItem(spec3, "47989", LBIS.L["Wrist"], "BIS") --Bracers of the Northern Stalker
 LBIS:AddItem(spec3, "47143", LBIS.L["Wrist"], "BIS") --Bindings of Dark Essence
 LBIS:AddItem(spec3, "47467", LBIS.L["Wrist"], "BIS") --Dark Essence Bindings
-LBIS:AddItem(spec3, "47474", LBIS.L["Wrist"], "Alt") --Armbands of Dark Determination
+LBIS:AddItem(spec3, "47576", LBIS.L["Wrist"], "Alt") --Crusader's Dragonscale Bracers
+LBIS:AddItem(spec3, "47577", LBIS.L["Wrist"], "Alt") --Crusader's Dragonscale Bracers
 LBIS:AddItem(spec3, "47155", LBIS.L["Wrist"], "Alt") --Bracers of Dark Determination
+LBIS:AddItem(spec3, "47474", LBIS.L["Wrist"], "Alt") --Armbands of Dark Determination
 LBIS:AddItem(spec3, "45611", LBIS.L["Wrist"], "Alt") --Solar Bindings
 LBIS:AddItem(spec3, "45460", LBIS.L["Wrist"], "Alt") --Bindings of Winter Gale
 LBIS:AddItem(spec3, "45454", LBIS.L["Wrist"], "Alt") --Frost-bound Chain Bracers
@@ -289,8 +291,8 @@ LBIS:AddItem(spec3, "47433", LBIS.L["Neck"], "BIS") --Charge of the Eredar
 LBIS:AddItem(spec3, "45517", LBIS.L["Neck"], "Alt") --Pendulum of Infinity
 LBIS:AddItem(spec3, "45133", LBIS.L["Neck"], "Alt") --Pendant of Fiery Havoc
 LBIS:AddItem(spec3, "44661", LBIS.L["Neck"], "Alt") --Wyrmrest Necklace of Power
-LBIS:AddItem(spec3, "47075", LBIS.L["Ring"], "BIS") --Ring of Callous Aggression
 LBIS:AddItem(spec3, "47443", LBIS.L["Ring"], "BIS") --Band of Callous Aggression
+LBIS:AddItem(spec3, "47075", LBIS.L["Ring"], "BIS") --Ring of Callous Aggression
 LBIS:AddItem(spec3, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
 LBIS:AddItem(spec3, "45456", LBIS.L["Ring"], "Alt") --Loop of the Agile
 LBIS:AddItem(spec3, "47928", LBIS.L["Ring"], "Alt") --Firestorm Ring
