@@ -8,9 +8,9 @@ public class PvPImporter : LootImporter
 {
     private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
-        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells", "Relentless, Battlemaster" },
-        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;50", "Relentless, Battlemaster" },
-        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;100", "Relentless, Battlemaster" },
+        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells", "Relentless, Battlemaster>245" },
+        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;50", "Relentless, Battlemaster>245" },
+        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;100", "Relentless, Battlemaster>245" },
         { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells", "Furious" },
         { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;50","Furious" },
         { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;100","Furious" },
@@ -63,7 +63,11 @@ public class PvPImporter : LootImporter
                 var currencySourceLocation = "";
                 var itemName = item.TextContent;
 
-                if (!wowheadUriList[uri].Split(",").Any(i => itemName.Contains(i.Trim())))
+                Int32.TryParse(row.Children[4].TextContent, out int itemLevel);
+                var nameSplit = wowheadUriList[uri].Split(",");
+                var levelSplit = nameSplit.Select(n => n.Split('>'));
+
+                if (!levelSplit.Any(i => itemName.Contains(i[0].Trim()) && (i.Length < 2 || Int32.Parse(i[1]) >= itemLevel)))
                     return;
 
                 Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>

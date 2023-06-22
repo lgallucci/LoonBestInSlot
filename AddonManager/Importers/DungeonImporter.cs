@@ -7,24 +7,24 @@ namespace AddonManager.Importers;
 
 public class DungeonImporter : LootImporter
 {
-    private List<(string, string)> dungeonUriList = new List<(string, string)>
+    private Dictionary<string, string> dungeonUriList = new Dictionary<string, string>
         {
-            (@"https://www.wowhead.com/wotlk/guide/utgarde-keep-loot", "Utgarde Keep"),
-            (@"https://www.wowhead.com/wotlk/guide/the-nexus-loot", "The Nexus"),
-            (@"https://www.wowhead.com/wotlk/guide/ahnkahet-loot", "Ahn'kahet: The Old Kingdom"),
-            (@"https://www.wowhead.com/wotlk/guide/azjol-nerub-loot", "Azjol-Nerub"),
-            (@"https://www.wowhead.com/wotlk/guide/draktharon-keep-loot", "Drak'Tharon Keep"),
-            (@"https://www.wowhead.com/wotlk/guide/the-violet-hold-loot", "The Violet Hold"),
-            (@"https://www.wowhead.com/wotlk/guide/gundrak-loot", "Gundrak"),
-            (@"https://www.wowhead.com/wotlk/guide/halls-of-stone-loot", "Halls of Stone"),
-            (@"https://www.wowhead.com/wotlk/guide/halls-of-lightning-loot", "Halls of Lightning"),
-            (@"https://www.wowhead.com/wotlk/guide/utgarde-pinnacle-loot", "Utgarde Pinnacle"),
-            (@"https://www.wowhead.com/wotlk/guide/the-oculus-loot", "The Oculus"),
-            (@"https://www.wowhead.com/wotlk/guide/the-culling-of-stratholme-loot", "The Culling of Stratholme"),
-            (@"https://www.wowhead.com/wotlk/guide/trial-of-the-champion-loot", "Trial of the Champion"),
-            (@"https://www.wowhead.com/wotlk/guide/halls-of-reflection-loot", "Halls of Reflection"),
-            (@"https://www.wowhead.com/wotlk/guide/the-forge-of-souls-loot", "The Forge of Souls"),
-            (@"https://www.wowhead.com/wotlk/guide/pit-of-saron-loot", "Pit of Saron")
+            {@"https://www.wowhead.com/wotlk/guide/utgarde-keep-loot", "Utgarde Keep"},
+            {@"https://www.wowhead.com/wotlk/guide/the-nexus-loot", "The Nexus"},
+            {@"https://www.wowhead.com/wotlk/guide/ahnkahet-loot", "Ahn'kahet: The Old Kingdom"},
+            {@"https://www.wowhead.com/wotlk/guide/azjol-nerub-loot", "Azjol-Nerub"},
+            {@"https://www.wowhead.com/wotlk/guide/draktharon-keep-loot", "Drak'Tharon Keep"},
+            {@"https://www.wowhead.com/wotlk/guide/the-violet-hold-loot", "The Violet Hold"},
+            {@"https://www.wowhead.com/wotlk/guide/gundrak-loot", "Gundrak"},
+            {@"https://www.wowhead.com/wotlk/guide/halls-of-stone-loot", "Halls of Stone"},
+            {@"https://www.wowhead.com/wotlk/guide/halls-of-lightning-loot", "Halls of Lightning"},
+            {@"https://www.wowhead.com/wotlk/guide/utgarde-pinnacle-loot", "Utgarde Pinnacle"},
+            {@"https://www.wowhead.com/wotlk/guide/the-oculus-loot", "The Oculus"},
+            {@"https://www.wowhead.com/wotlk/guide/the-culling-of-stratholme-loot", "The Culling of Stratholme"},
+            {@"https://www.wowhead.com/wotlk/guide/trial-of-the-champion-loot", "Trial of the Champion"},
+            {@"https://www.wowhead.com/wotlk/guide/halls-of-reflection-loot", "Halls of Reflection"},
+            {@"https://www.wowhead.com/wotlk/guide/the-forge-of-souls-loot", "The Forge of Souls"},
+            {@"https://www.wowhead.com/wotlk/guide/pit-of-saron-loot", "Pit of Saron" }
         };
 
     internal override string FileName { get => "DungeonItemList"; }
@@ -32,25 +32,23 @@ public class DungeonImporter : LootImporter
     {
         items.Items.Clear();
 
-        foreach (var dungeonUri in dungeonUriList) //TODO: Convert to Single Browser loop
+        await Common.LoadFromWebPages(dungeonUriList.Keys.ToList(), async (uri, content) =>
         {
-            writeToLog($"Reading from: {dungeonUri}");
-            await Common.LoadFromWebPage(dungeonUri.Item1, async (content) =>
-            {
-                var parser = new HtmlParser();
-                var doc = default(IHtmlDocument);
-                doc = await parser.ParseDocumentAsync(content);
+            writeToLog($"Reading from: {uri}");
 
-                var htmlElements = doc.QuerySelectorAll("#guide-body h2");
-                if (htmlElements != null && htmlElements.Length > 0)
+            var parser = new HtmlParser();
+            var doc = default(IHtmlDocument);
+            doc = await parser.ParseDocumentAsync(content);
+
+            var htmlElements = doc.QuerySelectorAll("#guide-body h2");
+            if (htmlElements != null && htmlElements.Length > 0)
+            {
+                foreach (var htmlElement in htmlElements)
                 {
-                    foreach (var htmlElement in htmlElements)
-                    {
-                        AddLootItems(htmlElement, dungeonUri.Item2, items);
-                    }
+                    AddLootItems(htmlElement, dungeonUriList[uri], items);
                 }
-            });
-        }
+            }
+        });
         return items;
     }
 
