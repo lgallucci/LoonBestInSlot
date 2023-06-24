@@ -15,10 +15,10 @@ LBIS:AddGem(spec1, "40051", "3", "False") --Reckless Monarch Topaz
 LBIS:AddGem(spec3, "40133", "4", "False") --Purified Dreadstone
 LBIS:AddGem(spec1, "40026", "3", "False") --Purified Twilight Opal
 
-LBIS:AddEnchant(spec1, "50368", LBIS.L["Head"]) --Arcanum of Burning Mysteries
-LBIS:AddEnchant(spec1, "44075", LBIS.L["Head"]) --Arcanum of Dominance
+LBIS:AddEnchant(spec1, "59970", LBIS.L["Head"]) --Arcanum of Burning Mysteries
+LBIS:AddEnchant(spec1, "59784", LBIS.L["Head"]) --Arcanum of Dominance
 LBIS:AddEnchant(spec1, "61120", LBIS.L["Shoulder"]) --Master's Inscription of the Storm
-LBIS:AddEnchant(spec1, "50338", LBIS.L["Shoulder"]) --Greater Inscription of the Storm
+LBIS:AddEnchant(spec1, "59937", LBIS.L["Shoulder"]) --Greater Inscription of the Storm
 LBIS:AddEnchant(spec1, "55642", LBIS.L["Back"]) --Lightweave Embroidery
 LBIS:AddEnchant(spec1, "63765", LBIS.L["Back"]) --Springy Arachnoweave
 LBIS:AddEnchant(spec1, "47898", LBIS.L["Back"]) --Scroll of Enchant Cloak - Greater Speed
@@ -28,10 +28,10 @@ LBIS:AddEnchant(spec1, "57691", LBIS.L["Wrist"]) --Fur Lining - Spell Power
 LBIS:AddEnchant(spec1, "60767", LBIS.L["Wrist"]) --Scroll of Enchant Bracer - Superior Spellpower
 LBIS:AddEnchant(spec1, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
 LBIS:AddEnchant(spec1, "44592", LBIS.L["Hands"]) --Scroll of Enchant Gloves - Exceptional Spellpower
-LBIS:AddEnchant(spec1, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
+LBIS:AddEnchant(spec1, "55656", LBIS.L["Waist"]) --Eternal Belt Buckle
 LBIS:AddEnchant(spec1, "54793", LBIS.L["Waist"]) --Frag Belt
-LBIS:AddEnchant(spec1, "41602", LBIS.L["Legs"]) --Brilliant Spellthread
-LBIS:AddEnchant(spec1, "41601", LBIS.L["Legs"]) --Shining Spellthread
+LBIS:AddEnchant(spec1, "56009", LBIS.L["Legs"]) --Brilliant Spellthread
+LBIS:AddEnchant(spec1, "56008", LBIS.L["Legs"]) --Shining Spellthread
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Feet"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "47901", LBIS.L["Feet"]) --Scroll of Enchant Boots - Tuskarr's Vitality
 LBIS:AddEnchant(spec1, "60623", LBIS.L["Feet"]) --Enchant Boots - Icewalker

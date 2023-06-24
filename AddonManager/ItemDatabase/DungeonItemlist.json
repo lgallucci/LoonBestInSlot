@@ -3560,7 +3560,7 @@
             "SourceLocation": "Drak'Tharon Keep (Heroic)",
             "SourceFaction": "B"
         },
-        
+
         "43085": {
             "Name": "Royal Crest of Lordaeron",
             "Source": "Mal'Ganis",
@@ -6959,6 +6959,1558 @@
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Halls of Lightning (Heroic+)",
+            "SourceFaction": "B"
+        },
+        "45282": {
+            "Name": "Ironsoul",
+            "Source": "Keristrasza",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Nexus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45283": {
+            "Name": "Flamewatch Armguards",
+            "Source": "Keristrasza",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Nexus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45284": {
+            "Name": "Kinetic Ripper",
+            "Source": "Levanthor",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45285": {
+            "Name": "Might of the Leviathan",
+            "Source": "Xevozz",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45286": {
+            "Name": "Pyrite Infuser",
+            "Source": "Keristrasza",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Nexus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45287": {
+            "Name": "Firesoul",
+            "Source": "Ormorok the Tree-Shaper",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Nexus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45288": {
+            "Name": "Firestrider Chestguard",
+            "Source": "Ormorok the Tree-Shaper",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Nexus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45289": {
+            "Name": "Lifespark Visage",
+            "Source": "",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45291": {
+            "Name": "Combustion Bracers",
+            "Source": "Anomalus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Nexus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45292": {
+            "Name": "Energy Siphon",
+            "Source": "Anomalus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Nexus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45293": {
+            "Name": "Handguards of Potent Cures",
+            "Source": " (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45294": {
+            "Name": "Petrified Ivy Sprig",
+            "Source": "Freya (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45295": {
+            "Name": "Gilded Steel Legplates",
+            "Source": " (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45296": {
+            "Name": "Twirling Blades",
+            "Source": " (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45297": {
+            "Name": "Shimmering Seal",
+            "Source": " (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45298": {
+            "Name": "Razorscale Talon",
+            "Source": "Razorscale",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45299": {
+            "Name": "Dragonsteel Faceplate",
+            "Source": "Razorscale",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45300": {
+            "Name": "Mantle of Fiery Vengeance",
+            "Source": " (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45301": {
+            "Name": "Bracers of the Smothering Inferno",
+            "Source": "Razorscale",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45302": {
+            "Name": "Treads of the Invader",
+            "Source": "Razorscale",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45303": {
+            "Name": "Band of Draconic Guile",
+            "Source": "Razorscale",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45304": {
+            "Name": "Stormtempered Girdle",
+            "Source": "Razorscale",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45305": {
+            "Name": "Breastplate of the Afterlife",
+            "Source": "Razorscale",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45306": {
+            "Name": "Binding of the Dragon Matriarch",
+            "Source": "Razorscale",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45307": {
+            "Name": "Ironscale Leggings",
+            "Source": "Razorscale",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45308": {
+            "Name": "Eye of the Broodmother",
+            "Source": "Razorscale",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45309": {
+            "Name": "Rifle of the Platinum Guard",
+            "Source": "Ignis the Furnace Master",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45310": {
+            "Name": "Gauntlets of the Iron Furnace",
+            "Source": "Ignis the Furnace Master",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45311": {
+            "Name": "Relentless Edge",
+            "Source": "Ignis the Furnace Master",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45312": {
+            "Name": "Gloves of Smoldering Touch",
+            "Source": "Drakos the Interrogator",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Oculus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45313": {
+            "Name": "Furnace Stone",
+            "Source": "Ignis the Furnace Master",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45314": {
+            "Name": "Igniter Rod",
+            "Source": "Ignis the Furnace Master",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45316": {
+            "Name": "Armbraces of the Vibrant Flame",
+            "Source": "Ignis the Furnace Master",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45317": {
+            "Name": "Shawl of the Caretaker",
+            "Source": "Ignis the Furnace Master",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45318": {
+            "Name": "Drape of Fuming Anger",
+            "Source": "Ignis the Furnace Master",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45321": {
+            "Name": "Pauldrons of Tempered Will",
+            "Source": "Ignis the Furnace Master",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45322": {
+            "Name": "Cloak of the Iron Council",
+            "Source": "Skarvald the Constructor & Dalronn the Controller",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Keep (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45324": {
+            "Name": "Leggings of Swift Reflexes",
+            "Source": "The Iron Council",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45329": {
+            "Name": "Circlet of True Sight",
+            "Source": "Skarvald the Constructor & Dalronn the Controller",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Keep (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45330": {
+            "Name": "Greaves of Iron Intensity",
+            "Source": "Ingvar the Plunderer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Keep (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45331": {
+            "Name": "Rune-Etched Nightblade",
+            "Source": "The Iron Council",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45332": {
+            "Name": "Stormtip",
+            "Source": "Svala Sorrowgrave",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Pinnacle (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45333": {
+            "Name": "Belt of the Iron Servant",
+            "Source": "Prince Keleseth",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Keep (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45378": {
+            "Name": "Boots of the Petrified Forest",
+            "Source": "Prince Keleseth",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Keep (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45418": {
+            "Name": "Lady Maye's Sapphire Ring",
+            "Source": "Ingvar the Plunderer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Keep (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45423": {
+            "Name": "Runetouch Wristwraps",
+            "Source": "Svala Sorrowgrave",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Pinnacle (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45447": {
+            "Name": "Watchful Eye of Fate",
+            "Source": "The Iron Council (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45448": {
+            "Name": "Perilous Bite",
+            "Source": "The Iron Council (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45449": {
+            "Name": "The Masticator",
+            "Source": "The Iron Council (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45455": {
+            "Name": "Belt of the Crystal Tree",
+            "Source": "The Iron Council (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45456": {
+            "Name": "Loop of the Agile",
+            "Source": "The Iron Council (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45458": {
+            "Name": "Stormedge",
+            "Source": "Hodir",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45464": {
+            "Name": "Cowl of Icy Breaths",
+            "Source": "Hodir",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45506": {
+            "Name": "Archivum Data Disc",
+            "Source": "The Iron Council",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45635": {
+            "Name": "Chestguard of the Wayward Conqueror",
+            "Source": "Yogg-Saron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45636": {
+            "Name": "Chestguard of the Wayward Protector",
+            "Source": "Yogg-Saron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45637": {
+            "Name": "Chestguard of the Wayward Vanquisher",
+            "Source": "Yogg-Saron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45644": {
+            "Name": "Gloves of the Wayward Conqueror",
+            "Source": "Freya",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45645": {
+            "Name": "Gloves of the Wayward Protector",
+            "Source": "Freya",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45646": {
+            "Name": "Gloves of the Wayward Vanquisher",
+            "Source": "Freya",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45647": {
+            "Name": "Helm of the Wayward Conqueror",
+            "Source": "Mimiron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45648": {
+            "Name": "Helm of the Wayward Protector",
+            "Source": "Mimiron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45649": {
+            "Name": "Helm of the Wayward Vanquisher",
+            "Source": "Mimiron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45650": {
+            "Name": "Leggings of the Wayward Conqueror",
+            "Source": "Hodir",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45651": {
+            "Name": "Leggings of the Wayward Protector",
+            "Source": "Hodir",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45652": {
+            "Name": "Leggings of the Wayward Vanquisher",
+            "Source": "Hodir",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45659": {
+            "Name": "Spaulders of the Wayward Conqueror",
+            "Source": "Thorim",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45660": {
+            "Name": "Spaulders of the Wayward Protector",
+            "Source": "Thorim",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45661": {
+            "Name": "Spaulders of the Wayward Vanquisher",
+            "Source": "Thorim",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45675": {
+            "Name": "Power Enhancing Loop",
+            "Source": "Chron-Lord Epoch",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Culling of Stratholme (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45676": {
+            "Name": "Chestplate of Vicious Potency",
+            "Source": "Loken",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Lighting (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45677": {
+            "Name": "Treacherous Shoulderpads",
+            "Source": "Ionar",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Lightning (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45679": {
+            "Name": "Gloves of Taut Grip",
+            "Source": "Salramm",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Culling of Stratholme (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45680": {
+            "Name": "Armbands of the Construct",
+            "Source": "XT-002 Deconstructor",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45682": {
+            "Name": "Pulsing Spellshield",
+            "Source": "Infinite Corruptor",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Culling of Stratholme (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45685": {
+            "Name": "Plasma Foil",
+            "Source": "Chron-Lord Epoch",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Culling of Stratholme (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45686": {
+            "Name": "Vest of the Glowing Crescent",
+            "Source": "Infinite Corruptor",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Culling of Stratholme (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45687": {
+            "Name": "Helm of Veiled Energies",
+            "Source": "XT-002 Deconstructor",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45694": {
+            "Name": "Conductive Cord",
+            "Source": "Meathook",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Culling of Stratholme (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45695": {
+            "Name": "Spire of Withering Dreams",
+            "Source": "Salramm",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Culling of Stratholme (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45696": {
+            "Name": "Mark of the Unyielding",
+            "Source": "Kologarn",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45697": {
+            "Name": "Shoulderguards of the Solemn Watch",
+            "Source": "Kologarn",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45698": {
+            "Name": "Sabatons of the Iron Watcher",
+            "Source": "Kologarn",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45699": {
+            "Name": "Pendant of the Piercing Glare",
+            "Source": "Kologarn",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45700": {
+            "Name": "Stoneguard",
+            "Source": "Kologarn",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45701": {
+            "Name": "Greaves of the Earthbinder",
+            "Source": "Kologarn",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45702": {
+            "Name": "Emerald Signet Ring",
+            "Source": "Kologarn",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45703": {
+            "Name": "Spark of Hope",
+            "Source": "Kologarn",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45704": {
+            "Name": "Shawl of the Shattered Giant",
+            "Source": "Kologarn",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45707": {
+            "Name": "Shieldwall of the Breaker",
+            "Source": "Grand Magus Telestra",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Nexus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45708": {
+            "Name": "Archaedas' Lost Legplates",
+            "Source": "Gortok Palehoof",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Pinnacle (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45709": {
+            "Name": "Nimble Climber's Belt",
+            "Source": "King Ymiron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Pinnacle (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45711": {
+            "Name": "Ironaya's Discarded Mantle",
+            "Source": "King Ymiron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Pinnacle (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45712": {
+            "Name": "Chestplate of Titanic Fury",
+            "Source": "Skadi the Ruthless",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Pinnacle (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45713": {
+            "Name": "Nurturing Touch",
+            "Source": "Commander Kolurg & Commander Stoutbeard",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Nexus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45832": {
+            "Name": "Mantle of the Preserver",
+            "Source": "Commander Kolurg & Commander Stoutbeard",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Nexus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45864": {
+            "Name": "Cover of the Keepers",
+            "Source": "Skadi the Ruthless",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Pinnacle (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45865": {
+            "Name": "Raiments of the Corrupted",
+            "Source": "Grand Magus Telestra",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Nexus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45866": {
+            "Name": "Elemental Focus Stone",
+            "Source": "King Ymiron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Pinnacle (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45867": {
+            "Name": "Breastplate of the Stoneshaper",
+            "Source": "XT-002 Deconstructor (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45868": {
+            "Name": "Aesir's Edge",
+            "Source": "XT-002 Deconstructor (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45869": {
+            "Name": "Fluxing Energy Coils",
+            "Source": "XT-002 Deconstructor (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45870": {
+            "Name": "Magnetized Projectile Emitter",
+            "Source": "XT-002 Deconstructor (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45871": {
+            "Name": "Seal of Ulduar",
+            "Source": "XT-002 Deconstructor (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45872": {
+            "Name": "Avalanche",
+            "Source": "Ley-Guardian Eregos",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Oculus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45873": {
+            "Name": "Winter's Frigid Embrace",
+            "Source": "Hodir",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45874": {
+            "Name": "Signet of Winter",
+            "Source": "Hodir",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45892": {
+            "Name": "Legacy of Thunder",
+            "Source": "Krystallus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Stone (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45893": {
+            "Name": "Guise of the Midgard Serpent",
+            "Source": "Thorim",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45894": {
+            "Name": "Leggings of Unstable Discharge",
+            "Source": "Tribunal of Ages",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Stone (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45895": {
+            "Name": "Belt of the Blood Pit",
+            "Source": "Maiden of Grief",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Stone (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45927": {
+            "Name": "Handwraps of Resonance",
+            "Source": "Krystallus",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Stone (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45928": {
+            "Name": "Gauntlets of the Thunder God",
+            "Source": "Thorim (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45929": {
+            "Name": "Sif's Remembrance",
+            "Source": "Thorim (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45930": {
+            "Name": "Combatant's Bootblade",
+            "Source": "Thorim (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45931": {
+            "Name": "Mjolnir Runestone",
+            "Source": "Thorim (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45933": {
+            "Name": "Pendant of the Shallow Grave",
+            "Source": "Thorim (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45934": {
+            "Name": "Unraveling Reach",
+            "Source": "Zuramat the Obliterator",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45935": {
+            "Name": "Ironbark Faceguard",
+            "Source": "Levanthor",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45936": {
+            "Name": "Legplates of Flourishing Resolve",
+            "Source": "Zuramat the Obliterator",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45940": {
+            "Name": "Tunic of the Limber Stalker",
+            "Source": "Freya",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45941": {
+            "Name": "Chestguard of the Lasher",
+            "Source": "Zuramat the Obliterator & Ichron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45943": {
+            "Name": "Gloves of Whispering Winds",
+            "Source": "Freya (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45945": {
+            "Name": "Seed of Budding Carnage",
+            "Source": "Freya (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45946": {
+            "Name": "Fire Orchid Signet",
+            "Source": "Freya (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45947": {
+            "Name": "Serilas, Blood Blade of Invar One-Arm",
+            "Source": "Freya (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45972": {
+            "Name": "Pulse Baton",
+            "Source": "Mimiron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45973": {
+            "Name": "Stylish Power Cape",
+            "Source": "Mimiron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45974": {
+            "Name": "Shoulderguards of Assimilation",
+            "Source": "Mimiron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45975": {
+            "Name": "Cable of the Metrognome",
+            "Source": "Mimiron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45976": {
+            "Name": "Static Charge Handwraps",
+            "Source": "Mimiron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45982": {
+            "Name": "Fused Alloy Legplates",
+            "Source": "Mimiron (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45988": {
+            "Name": "Greaves of the Iron Army",
+            "Source": "Mimiron (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45989": {
+            "Name": "Tempered Mercury Greaves",
+            "Source": "Mimiron (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45990": {
+            "Name": "Fusion Blade",
+            "Source": "Mimiron (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45993": {
+            "Name": "Mimiron's Flight Goggles",
+            "Source": "Mimiron (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45996": {
+            "Name": "Hoperender",
+            "Source": "Drakos the Interrogator",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Oculus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "45997": {
+            "Name": "Gauntlets of the Wretched",
+            "Source": "Drakos the Interrogator",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Oculus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46008": {
+            "Name": "Choker of the Abyss",
+            "Source": "General Vezax",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46009": {
+            "Name": "Bindings of the Depths",
+            "Source": "General Vezax",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46010": {
+            "Name": "Darkstone Ring",
+            "Source": "General Vezax",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46011": {
+            "Name": "Shadowbite",
+            "Source": "General Vezax",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46012": {
+            "Name": "Vestments of the Piercing Light",
+            "Source": "General Vezax",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46013": {
+            "Name": "Underworld Mantle",
+            "Source": "Mage-Lord Urom",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Oculus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46014": {
+            "Name": "Saronite Animus Cloak",
+            "Source": "Varos Cloudstrider",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Oculus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46015": {
+            "Name": "Pendant of Endless Despair",
+            "Source": "Varos Cloudstrider",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Oculus (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46016": {
+            "Name": "Abaddon",
+            "Source": "Mal'Ganis",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Culling of Stratholme (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46018": {
+            "Name": "Deliverance",
+            "Source": "Mal'Ganis",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Culling of Stratholme (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46019": {
+            "Name": "Leggings of the Insatiable",
+            "Source": "Yogg-Saron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46021": {
+            "Name": "Royal Seal of King Llane",
+            "Source": "Yogg-Saron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46022": {
+            "Name": "Pendant of a Thousand Maws",
+            "Source": "Yogg-Saron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46024": {
+            "Name": "Kingsbane",
+            "Source": "Yogg-Saron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46025": {
+            "Name": "Devotion",
+            "Source": "Mal'ganis",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Culling of Stratholme (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46028": {
+            "Name": "Faceguard of the Eyeless Horror",
+            "Source": "Yogg-Saron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46030": {
+            "Name": "Treads of the Dragon Council",
+            "Source": "Yogg-Saron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46031": {
+            "Name": "Touch of Madness",
+            "Source": "Yogg-Saron",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46032": {
+            "Name": "Drape of the Faceless General",
+            "Source": "General Vezax (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46033": {
+            "Name": "Tortured Earth",
+            "Source": "General Vezax (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46034": {
+            "Name": "Leggings of Profound Darkness",
+            "Source": "General Vezax (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46035": {
+            "Name": "Aesuga, Hand of the Ardent Champion",
+            "Source": "General Vezax (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46036": {
+            "Name": "Void Sabre",
+            "Source": "General Vezax (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46037": {
+            "Name": "Shoulderplates of the Celestial Watch",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46038": {
+            "Name": "Dark Matter",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46039": {
+            "Name": "Breastplate of the Timeless",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46040": {
+            "Name": "Strength of the Heavens",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46041": {
+            "Name": "Starfall Girdle",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46042": {
+            "Name": "Drape of the Messenger",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46043": {
+            "Name": "Gloves of the Endless Dark",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46044": {
+            "Name": "Observer's Mantle",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46045": {
+            "Name": "Pulsar Gloves",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46046": {
+            "Name": "Nebula Band",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46047": {
+            "Name": "Pendant of the Somber Witness",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46048": {
+            "Name": "Band of Lights",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46049": {
+            "Name": "Zodiac Leggings",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46050": {
+            "Name": "Starlight Treads",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46051": {
+            "Name": "Meteorite Crystal",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46052": {
+            "Name": "Reply-Code Alpha",
+            "Source": "Algalon the Observer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46067": {
+            "Name": "Hammer of Crushing Whispers",
+            "Source": "Yogg-Saron (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46068": {
+            "Name": "Amice of Inconceivable Horror",
+            "Source": "Yogg-Saron (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46095": {
+            "Name": "Soul-Devouring Cinch",
+            "Source": "Yogg-Saron (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46096": {
+            "Name": "Signet of Soft Lament",
+            "Source": "Yogg-Saron (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46097": {
+            "Name": "Caress of Insanity",
+            "Source": "Yogg-Saron (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46312": {
+            "Name": "Vanquished Clutches of Yogg-Saron",
+            "Source": "Yogg-Saron (Hard)",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Unknown (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46339": {
+            "Name": "Mimiron's Repeater",
+            "Source": "Meathook",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "The Culling of Stratholme (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46340": {
+            "Name": "Adamant Handguards",
+            "Source": "Tribunal of Ages",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Stone (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46341": {
+            "Name": "Drape of the Spellweaver",
+            "Source": "General Bajarngrim",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Lightning (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46342": {
+            "Name": "Golemheart Longbow",
+            "Source": "Volkhan",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Lightning (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46343": {
+            "Name": "Fervor of the Protectorate",
+            "Source": "Volkhan",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Lightning (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46344": {
+            "Name": "Iceshear Mantle",
+            "Source": "Ionar",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Lightning (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46345": {
+            "Name": "Bracers of Righteous Reformation",
+            "Source": "Sjonnir",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Stone (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46346": {
+            "Name": "Boots of Unsettled Prey",
+            "Source": "Sjonnir",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Stone (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46347": {
+            "Name": "Cloak of the Dormant Blaze",
+            "Source": "General Bajarngrim",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Lightning (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46350": {
+            "Name": "Pillar of Fortitude",
+            "Source": "Loken",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Lightning (Heroic++)",
+            "SourceFaction": "B"
+        },
+        "46351": {
+            "Name": "Bloodcrush Cudgel",
+            "Source": "Sjonnir",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Halls of Stone (Heroic++)",
             "SourceFaction": "B"
         }
     }

@@ -11,19 +11,19 @@ LBIS:AddGem(spec1, "40134", "4", "False") --Royal Dreadstone
 LBIS:AddGem(spec1, "40151", "4", "False") --Luminous Ametrine
 LBIS:AddGem(spec1, "40152", "4", "False") --Potent Ametrine
 
-LBIS:AddEnchant(spec1, "50370", LBIS.L["Head"]) --Arcanum of Blissful Mending
-LBIS:AddEnchant(spec1, "50368", LBIS.L["Head"]) --Arcanum of Burning Mysteries
-LBIS:AddEnchant(spec1, "50336", LBIS.L["Shoulder"]) --Greater Inscription of the Crag
-LBIS:AddEnchant(spec1, "50338", LBIS.L["Shoulder"]) --Greater Inscription of the Storm
+LBIS:AddEnchant(spec1, "59960", LBIS.L["Head"]) --Arcanum of Blissful Mending
+LBIS:AddEnchant(spec1, "59970", LBIS.L["Head"]) --Arcanum of Burning Mysteries
+LBIS:AddEnchant(spec1, "59936", LBIS.L["Shoulder"]) --Greater Inscription of the Crag
+LBIS:AddEnchant(spec1, "59937", LBIS.L["Shoulder"]) --Greater Inscription of the Storm
 LBIS:AddEnchant(spec1, "63765", LBIS.L["Back"]) --Springy Arachnoweave
 LBIS:AddEnchant(spec1, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
 LBIS:AddEnchant(spec1, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
-LBIS:AddEnchant(spec1, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
+LBIS:AddEnchant(spec1, "55656", LBIS.L["Waist"]) --Eternal Belt Buckle
 LBIS:AddEnchant(spec1, "54793", LBIS.L["Waist"]) --Frag Belt
 LBIS:AddEnchant(spec1, "57691", LBIS.L["Wrist"]) --Fur Lining - Spell Power
 LBIS:AddEnchant(spec1, "60767", LBIS.L["Wrist"]) --Enchant Bracers - Superior Spellpower
 LBIS:AddEnchant(spec1, "44592", LBIS.L["Hands"]) --Enchant Gloves - Exceptional Spellpower
-LBIS:AddEnchant(spec1, "41604", LBIS.L["Legs"]) --Sapphire Spellthread
+LBIS:AddEnchant(spec1, "56011", LBIS.L["Legs"]) --Sapphire Spellthread
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Feet"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "60714", LBIS.L["Two Hand"]) --Enchant Weapon - Mighty Spellpower
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Two Hand"]) --Enchant Staff - Greater Spellpower

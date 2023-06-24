@@ -21,11 +21,11 @@ LBIS:AddGem(spec1, "40022", "3", "False") --Sovereign Twilight Opal
 LBIS:AddGem(spec3, "40141", "4", "False") --Guardian's Dreadstone
 LBIS:AddGem(spec1, "40034", "3", "False") --Guardian's Twilight Opal
 
-LBIS:AddEnchant(spec1, "50369", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
+LBIS:AddEnchant(spec1, "59955", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
 LBIS:AddEnchant(spec1, "67839", LBIS.L["Head"]) --Mind Amplification Dish
-LBIS:AddEnchant(spec1, "44957", LBIS.L["Shoulder"]) --Greater Inscription of the Gladiator
+LBIS:AddEnchant(spec1, "62384", LBIS.L["Shoulder"]) --Greater Inscription of the Gladiator
 LBIS:AddEnchant(spec1, "61119", LBIS.L["Shoulder"]) --Master's Inscription of the Pinnacle
-LBIS:AddEnchant(spec1, "50337", LBIS.L["Shoulder"]) --Greater Inscription of the Pinnacle
+LBIS:AddEnchant(spec1, "59941", LBIS.L["Shoulder"]) --Greater Inscription of the Pinnacle
 LBIS:AddEnchant(spec1, "44591", LBIS.L["Back"]) --Enchant Cloak - Titanweave
 LBIS:AddEnchant(spec1, "47672", LBIS.L["Back"]) --Enchant Cloak - Mighty Armor
 LBIS:AddEnchant(spec1, "55002", LBIS.L["Back"]) --Flexweave Underlay
@@ -48,7 +48,7 @@ LBIS:AddEnchant(spec1, "44589", LBIS.L["Feet"]) --Enchant Boots - Superior Agili
 LBIS:AddEnchant(spec1, "64579", LBIS.L["Main Hand"]) --Enchant Weapon - Blood Draining
 LBIS:AddEnchant(spec1, "59619", LBIS.L["Main Hand"]) --Enchant Weapon - Accuracy
 LBIS:AddEnchant(spec1, "27984", LBIS.L["Main Hand"]) --Enchant Weapon - Mongoose
-LBIS:AddEnchant(spec1, "41976", LBIS.L["Main Hand"]) --Titanium Weapon Chain
+LBIS:AddEnchant(spec1, "55839", LBIS.L["Main Hand"]) --Titanium Weapon Chain
 LBIS:AddEnchant(spec1, "62202", LBIS.L["Off Hand"]) --Titanium Plating
 LBIS:AddEnchant(spec1, "34009", LBIS.L["Off Hand"]) --Enchant Shield - Major Stamina
 LBIS:AddEnchant(spec1, "44489", LBIS.L["Off Hand"]) --Enchant Shield - Defense

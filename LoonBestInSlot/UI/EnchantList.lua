@@ -51,10 +51,8 @@ end
 
 local function createItemRow(f, specEnchant, specEnchantSource)
 
-    local isSpell = specEnchantSource.IsSpell == "True";
-    local function createItemRowInternal(f, item, specEnchant, specEnchantSource)
+    LBIS:GetSpellInfo(specEnchant.Id, function(item)
         local window = LBIS.BrowserWindow.Window;
-
 
         local b = CreateFrame("Button", nil, f);
         b:SetSize(32, 32);
@@ -63,7 +61,7 @@ local function createItemRow(f, specEnchant, specEnchantSource)
         bt:SetTexture(item.Texture);
         b:SetPoint("TOPLEFT", f, 2, -5);
 
-        LBIS:SetTooltipOnButton(b, item, isSpell);
+        LBIS:SetTooltipOnButton(b, item, false);
 
         local t = f:CreateFontString(nil, nil, "GameFontNormal");
         t:SetText((item.Link or item.Name):gsub("[%[%]]", ""));
@@ -109,18 +107,8 @@ local function createItemRow(f, specEnchant, specEnchantSource)
             dl:SetText(specEnchantSource.SourceLocation);
             dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
         end
-    end
-
-    if isSpell then
-        LBIS:GetSpellInfo(specEnchant.Id, function(item)
-            createItemRowInternal(f, item, specEnchant, specEnchantSource);
-        end);
-    else    
-        LBIS:GetItemInfo(specEnchant.Id, function(item)
-            createItemRowInternal(f, item, specEnchant, specEnchantSource);
-        end);
-    end
-            
+    end);
+                
     -- even if we are reusing, it may not be in the same order
     local _, count = string.gsub(specEnchantSource.Source, "/", "")
     if count > 1 then

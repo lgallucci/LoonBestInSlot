@@ -28,9 +28,9 @@ LBIS:AddGem(spec3, "40166", "4", "False") --Vivid Eye of Zul
 LBIS:AddGem(spec1, "40088", "3", "False") --Vivid Forest Emerald
 LBIS:AddGem(spec1, "41481", "2", "False") --Perfect Vivid Dark Jade
 
-LBIS:AddEnchant(spec1, "50369", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
-LBIS:AddEnchant(spec1, "44875", LBIS.L["Head"]) --Arcanum of the Savage Gladiator
-LBIS:AddEnchant(spec1, "44957", LBIS.L["Shoulder"]) --Greater Inscription of the Gladiator
+LBIS:AddEnchant(spec1, "59970", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
+LBIS:AddEnchant(spec1, "61271", LBIS.L["Head"]) --Arcanum of the Savage Gladiator
+LBIS:AddEnchant(spec1, "62384", LBIS.L["Shoulder"]) --Greater Inscription of the Gladiator
 LBIS:AddEnchant(spec1, "47672", LBIS.L["Back"]) --Formula: Enchant Cloak - Mighty Armor
 LBIS:AddEnchant(spec1, "44591", LBIS.L["Back"]) --Formula: Enchant Cloak - Titanweave
 LBIS:AddEnchant(spec1, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility

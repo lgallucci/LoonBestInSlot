@@ -20,9 +20,9 @@ LBIS:AddGem(spec1, "40055", "3", "False") --Stark Monarch Topaz
 LBIS:AddGem(spec1, "49110", "4", "False") --Nightmare Tear
 LBIS:AddGem(spec1, "42702", "3", "False") --Enchanted Tear
 
-LBIS:AddEnchant(spec1, "44149", LBIS.L["Head"]) --Arcanum of Torment
+LBIS:AddEnchant(spec1, "59954", LBIS.L["Head"]) --Arcanum of Torment
 LBIS:AddEnchant(spec1, "61117", LBIS.L["Shoulder"]) --Master's Inscription of the Axe
-LBIS:AddEnchant(spec1, "50335", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
+LBIS:AddEnchant(spec1, "59934", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
 LBIS:AddEnchant(spec1, "55777", LBIS.L["Back"]) --Swordguard Embroidery
 LBIS:AddEnchant(spec1, "55002", LBIS.L["Back"]) --Flexweave Underlay
 LBIS:AddEnchant(spec1, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
@@ -37,9 +37,9 @@ LBIS:AddEnchant(spec1, "55016", LBIS.L["Feet"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "60623", LBIS.L["Feet"]) --Enchant Boots - Icewalker
 LBIS:AddEnchant(spec1, "59621", LBIS.L["Main Hand"]) --Enchant Weapon - Berserking
 LBIS:AddEnchant(spec1, "27984", LBIS.L["Main Hand"]) --Enchant Weapon - Mongoose
-LBIS:AddEnchant(spec1, "41167", LBIS.L["Ranged/Relic"]) --Heartseeker Scope
-LBIS:AddEnchant(spec1, "41146", LBIS.L["Ranged/Relic"]) --Sun Scope
-LBIS:AddEnchant(spec1, "44739", LBIS.L["Ranged/Relic"]) --Diamond-cut Refractor Scope
+LBIS:AddEnchant(spec1, "56478", LBIS.L["Ranged/Relic"]) --Heartseeker Scope
+LBIS:AddEnchant(spec1, "56470", LBIS.L["Ranged/Relic"]) --Sun Scope
+LBIS:AddEnchant(spec1, "61471", LBIS.L["Ranged/Relic"]) --Diamond-cut Refractor Scope
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
 LBIS:AddItem(spec0, "39561", LBIS.L["Head"], "BIS") --Heroes' Bonescythe Helmet

@@ -18,8 +18,8 @@ LBIS:AddGem(spec1, "40091", "3", "False") --Forceful Forest Emerald
 LBIS:AddGem(spec1, "40003", "3", "False") --Precise Scarlet Ruby
 
 LBIS:AddEnchant(spec1, "67839", LBIS.L["Head"]) --Mind Amplification Dish
-LBIS:AddEnchant(spec1, "50369", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
-LBIS:AddEnchant(spec1, "44957", LBIS.L["Shoulder"]) --Greater Inscription of the Gladiator
+LBIS:AddEnchant(spec1, "59955", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
+LBIS:AddEnchant(spec1, "62384", LBIS.L["Shoulder"]) --Greater Inscription of the Gladiator
 LBIS:AddEnchant(spec1, "47672", LBIS.L["Back"]) --Enchant Cloak - Mighty Armor
 LBIS:AddEnchant(spec1, "50963", LBIS.L["Chest"]) --Heavy Borean Armor Kit
 LBIS:AddEnchant(spec1, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats

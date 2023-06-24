@@ -16,10 +16,10 @@ LBIS:AddGem(spec3, "40133", "4", "False") --Purified Dreadstone
 LBIS:AddGem(spec1, "40026", "3", "False") --Purified Twilight Opal
 LBIS:AddGem(spec1, "42144", "4", "False") --Runed Dragon's Eye
 
-LBIS:AddEnchant(spec1, "50368", LBIS.L["Head"]) --Arcanum of Burning Mysteries
+LBIS:AddEnchant(spec1, "59970", LBIS.L["Head"]) --Arcanum of Burning Mysteries
 LBIS:AddEnchant(spec1, "61120", LBIS.L["Shoulder"]) --Master's Inscription of the Storm
-LBIS:AddEnchant(spec1, "50338", LBIS.L["Shoulder"]) --Greater Inscription of the Storm
-LBIS:AddEnchant(spec1, "44129", LBIS.L["Shoulder"]) --Lesser Inscription of the Storm
+LBIS:AddEnchant(spec1, "59937", LBIS.L["Shoulder"]) --Greater Inscription of the Storm
+LBIS:AddEnchant(spec1, "59927", LBIS.L["Shoulder"]) --Lesser Inscription of the Storm
 LBIS:AddEnchant(spec1, "55642", LBIS.L["Back"]) --Lightweave Embroidery
 LBIS:AddEnchant(spec1, "63765", LBIS.L["Back"]) --Springy Arachnoweave
 LBIS:AddEnchant(spec1, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
@@ -31,9 +31,9 @@ LBIS:AddEnchant(spec1, "60767", LBIS.L["Wrist"]) --Enchant Bracers - Superior Sp
 LBIS:AddEnchant(spec1, "55641", LBIS.L["Hands"]) --Socket Gloves
 LBIS:AddEnchant(spec1, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
 LBIS:AddEnchant(spec1, "44592", LBIS.L["Hands"]) --Enchant Gloves - Exceptional Spellpower
-LBIS:AddEnchant(spec1, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
+LBIS:AddEnchant(spec1, "55656", LBIS.L["Waist"]) --Eternal Belt Buckle
 LBIS:AddEnchant(spec1, "54793", LBIS.L["Waist"]) --Frag Belt
-LBIS:AddEnchant(spec1, "41602", LBIS.L["Legs"]) --Brilliant Spellthread
+LBIS:AddEnchant(spec1, "56009", LBIS.L["Legs"]) --Brilliant Spellthread
 LBIS:AddEnchant(spec1, "56039", LBIS.L["Legs"]) --Sanctified Spellthread
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Feet"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality

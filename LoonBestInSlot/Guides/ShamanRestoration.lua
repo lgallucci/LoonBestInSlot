@@ -12,12 +12,12 @@ LBIS:AddGem(spec3, "40155", "4", "False") --Reckless Ametrine
 LBIS:AddGem(spec3, "40128", "4", "False") --Quick King's Amber
 LBIS:AddGem(spec1, "40134", "4", "False") --Royal Dreadstone
 
-LBIS:AddEnchant(spec1, "50368", LBIS.L["Head"]) --Arcanum of Burning Mysteries
-LBIS:AddEnchant(spec1, "50370", LBIS.L["Head"]) --Arcanum of Blissful Mending
+LBIS:AddEnchant(spec1, "59970", LBIS.L["Head"]) --Arcanum of Burning Mysteries
+LBIS:AddEnchant(spec1, "59960", LBIS.L["Head"]) --Arcanum of Blissful Mending
 LBIS:AddEnchant(spec1, "61120", LBIS.L["Shoulder"]) --Master's Inscription of the Storm
 LBIS:AddEnchant(spec1, "61118", LBIS.L["Shoulder"]) --Master's Inscription of the Crag
-LBIS:AddEnchant(spec1, "50338", LBIS.L["Shoulder"]) --Greater Inscription of the Storm
-LBIS:AddEnchant(spec1, "50336", LBIS.L["Shoulder"]) --Greater Inscription of the Crag
+LBIS:AddEnchant(spec1, "59937", LBIS.L["Shoulder"]) --Greater Inscription of the Storm
+LBIS:AddEnchant(spec1, "59936", LBIS.L["Shoulder"]) --Greater Inscription of the Crag
 LBIS:AddEnchant(spec1, "55642", LBIS.L["Back"]) --Lightweave Embroidery
 LBIS:AddEnchant(spec1, "63765", LBIS.L["Back"]) --Springy Arachnoweave
 LBIS:AddEnchant(spec1, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
@@ -29,10 +29,10 @@ LBIS:AddEnchant(spec1, "60767", LBIS.L["Wrist"]) --Enchant Bracers - Superior Sp
 LBIS:AddEnchant(spec1, "55641", LBIS.L["Hands"]) --Socket Gloves
 LBIS:AddEnchant(spec1, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
 LBIS:AddEnchant(spec1, "44592", LBIS.L["Hands"]) --Enchant Gloves - Exceptional Spellpower
-LBIS:AddEnchant(spec1, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
+LBIS:AddEnchant(spec1, "55656", LBIS.L["Waist"]) --Eternal Belt Buckle
 LBIS:AddEnchant(spec1, "54793", LBIS.L["Waist"]) --Frag Belt
-LBIS:AddEnchant(spec1, "41604", LBIS.L["Legs"]) --Sapphire Spellthread
-LBIS:AddEnchant(spec1, "41603", LBIS.L["Legs"]) --Azure Spellthread
+LBIS:AddEnchant(spec1, "56011", LBIS.L["Legs"]) --Sapphire Spellthread
+LBIS:AddEnchant(spec1, "56010", LBIS.L["Legs"]) --Azure Spellthread
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Feet"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "44584", LBIS.L["Feet"]) --Enchant Boots - Greater Vitality
 LBIS:AddEnchant(spec1, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality

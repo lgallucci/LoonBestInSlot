@@ -18,16 +18,16 @@ LBIS:AddGem(spec1, "40037", "3", "False") --Inscribed Monarch Topaz
 LBIS:AddGem(spec1, "49110", "4", "False") --Nightmare Tear
 LBIS:AddGem(spec1, "42702", "3", "False") --Enchanted Tear
 
-LBIS:AddEnchant(spec1, "44149", LBIS.L["Head"]) --Arcanum of Torment
-LBIS:AddEnchant(spec1, "50335", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
-LBIS:AddEnchant(spec1, "28888", LBIS.L["Shoulder"]) --Greater Inscription of Vengeance
-LBIS:AddEnchant(spec1, "44131", LBIS.L["Shoulder"]) --Lesser Inscription of the Axe
+LBIS:AddEnchant(spec1, "59954", LBIS.L["Head"]) --Arcanum of Torment
+LBIS:AddEnchant(spec1, "59934", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
+LBIS:AddEnchant(spec1, "35417", LBIS.L["Shoulder"]) --Greater Inscription of Vengeance
+LBIS:AddEnchant(spec1, "59929", LBIS.L["Shoulder"]) --Lesser Inscription of the Axe
 LBIS:AddEnchant(spec1, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
 LBIS:AddEnchant(spec1, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 LBIS:AddEnchant(spec1, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec1, "60616", LBIS.L["Wrist"]) --Enchant Bracers - Striking
 LBIS:AddEnchant(spec1, "60668", LBIS.L["Hands"]) --Enchant Gloves - Crusher
-LBIS:AddEnchant(spec1, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
+LBIS:AddEnchant(spec1, "55656", LBIS.L["Waist"]) --Eternal Belt Buckle
 LBIS:AddEnchant(spec1, "50967", LBIS.L["Legs"]) --Icescale Leg Armor
 LBIS:AddEnchant(spec1, "50966", LBIS.L["Legs"]) --Nerubian Leg Armor
 LBIS:AddEnchant(spec1, "34007", LBIS.L["Feet"]) --Enchant Boots - Cat's Swiftness
@@ -175,8 +175,8 @@ LBIS:AddItem(spec2, "45263", LBIS.L["Trinket"], "Alt") --Wrathstone
 LBIS:AddItem(spec2, "46038", LBIS.L["Trinket"], "Alt") --Dark Matter
 LBIS:AddItem(spec2, "45522", LBIS.L["Trinket"], "Alt") --Blood of the Old God
 LBIS:AddItem(spec2, "45286", LBIS.L["Trinket"], "Alt") --Pyrite Infuser
-LBIS:AddItem(spec2, "45957", LBIS.L["Main Hand"], "BIS") --Furious Gladiator's Handaxe
 LBIS:AddItem(spec2, "46097", LBIS.L["Main Hand/Off Hand"], "BIS") --Caress of Insanity
+LBIS:AddItem(spec2, "45957", LBIS.L["Main Hand"], "BIS") --Furious Gladiator's Handaxe
 LBIS:AddItem(spec2, "46036", LBIS.L["Main Hand/Off Hand"], "Alt/BIS") --Void Sabre
 LBIS:AddItem(spec2, "45947", LBIS.L["Main Hand/Off Hand"], "Alt") --Serilas, Blood Blade of Invar One-Arm
 LBIS:AddItem(spec2, "45442", LBIS.L["Main Hand/Off Hand"], "Alt") --Sorthalis, Hammer of the Watchers

@@ -46,6 +46,8 @@ public class WowheadGuideParser
     private Dictionary<int, int> _enchantSwaps = new Dictionary<int, int>()
     {
         { 22530, 27906 }, //Enchant Bracer - Major Defense
+        { 28888, 35417 }, //Greater Inscription of Vengeance
+        { 29192, 35452 }, //Arcanum of Ferocity
         { 34207, 44770 }, //Glove Reinforcements
         { 37336, 47766 }, //Enchant Chest - Greater Defense
         { 44465, 60692 }, //Enchant Chest - Powerful Stats
@@ -62,7 +64,36 @@ public class WowheadGuideParser
         { 41093, 54999 }, //Hyperspeed Accelerators
         { 41111, 55002 }, //Flexweave Underlay
         { 41118, 55016 }, //Nitro Boosts
+        { 41146, 56470 }, //Sun Scope
+        { 41167, 56478 }, //Heartseeker Scope
+        { 41601, 56008 }, //Shining Spellthread
+        { 41602, 56009 }, //Brilliant Spellthread
+        { 41603, 56010 }, //Azure Spellthread
+        { 41604, 56011 }, //Sapphire Spellthread
+        { 41611, 55656 }, //Eternal Belt Buckle
+        { 41976, 55839 }, //Titanium Weapon Chain
+        { 44075, 59784 }, //Arcanum of Dominance
+        { 44129, 59927 }, //Lesser Inscription of the Storm
+        { 44131, 59929 }, //Lesser Inscription of the Axe
+        { 44133, 59934 }, //Greater Inscription of the Axe
+        { 44149, 59954 }, //Arcanum of Torment
+        { 44739, 61471 }, //Diamond-cut Refractor Scope
+        { 44871, 59934 }, //Greater Inscription of the Axe
+        { 44875, 61271 }, //Arcanum of the Savage Gladiator
+        { 44876, 59960 }, //Arcanum of Blissful Mending
+        { 44877, 59970 }, //Arcanum of Burning Mysteries
+        { 44878, 59970 }, //Arcanum of Burning Mysteries
+        { 44879, 59954 }, //Arcanum of Torment
         { 44936, 62202 }, //Titanium Plating
+        { 44957, 62384 }, //Greater Inscription of the Gladiator
+        { 50335, 59934 }, //Greater Inscription of the Axe
+        { 50336, 59936 }, //Greater Inscription of the Crag
+        { 50337, 59941 }, //Greater Inscription of the Pinnacle
+        { 50338, 59937 }, //Greater Inscription of the Storm
+        { 50367, 59954 }, //Arcanum of Torment
+        { 50368, 59970 }, //Arcanum of Burning Mysteries
+        { 50369, 59955 }, //Arcanum of the Stalwart Protector
+        { 50370, 59960 }, //Arcanum of Blissful Mending
         { 54861, 55016 }, //Nitro Boosts
         { 43097, 57683 }, //Fur Lining - Attack Power
         { 44467, 60714 }, //Enchant Weapon - Mighty Spellpower
@@ -72,13 +103,6 @@ public class WowheadGuideParser
         { 44944, 62256 }, //Enchant Bracers - Major Stamina
         { 44963, 62448 }, //Earthen Leg Armor
         { 45056, 62948 }, //Enchant Staff - Greater Spellpower
-        { 44879, 44149 }, //Arcanum of Torment
-        { 50367, 44149 }, //Arcanum of Torment
-        { 44877, 50368 }, //Arcanum of Burning Mysteries
-        { 44878, 50369 }, //Arcanum of the Stalwart Protector
-        { 44876, 50370 }, //Arcanum of Blissful Mending
-        { 44871, 50335 }, //Greater Inscription of the Axe
-        { 44133, 50335 }, //Greater Inscription of the Axe
         { 55656, 41611 }  //Eternal Belt Buckle
      };
 
@@ -331,7 +355,7 @@ public class WowheadGuideParser
                             }
                             else
                             {
-                                if (_enchantSwaps.ContainsKey(itemId))
+                                if (isSpell == false && _enchantSwaps.ContainsKey(itemId))
                                     itemId = _enchantSwaps[itemId];
 
                                 enchants.Add(itemId + heading.Key, new EnchantSpec

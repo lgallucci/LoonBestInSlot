@@ -12,10 +12,10 @@ LBIS:AddGem(spec1, "40038", "3", "False") --Etched Monarch Topaz
 LBIS:AddGem(spec1, "40037", "3", "False") --Inscribed Monarch Topaz
 LBIS:AddGem(spec1, "49110", "4", "False") --Nightmare Tear
 
-LBIS:AddEnchant(spec1, "44149", LBIS.L["Head"]) --Arcanum of Torment
-LBIS:AddEnchant(spec1, "29192", LBIS.L["Head"]) --Arcanum of Ferocity
+LBIS:AddEnchant(spec1, "59954", LBIS.L["Head"]) --Arcanum of Torment
+LBIS:AddEnchant(spec1, "35452", LBIS.L["Head"]) --Arcanum of Ferocity
 LBIS:AddEnchant(spec1, "61117", LBIS.L["Shoulder"]) --Master's Inscription of the Axe
-LBIS:AddEnchant(spec1, "50335", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
+LBIS:AddEnchant(spec1, "59934", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
 LBIS:AddEnchant(spec1, "55777", LBIS.L["Back"]) --Swordguard Embroidery
 LBIS:AddEnchant(spec1, "55002", LBIS.L["Back"]) --Flexweave Underlay
 LBIS:AddEnchant(spec1, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility

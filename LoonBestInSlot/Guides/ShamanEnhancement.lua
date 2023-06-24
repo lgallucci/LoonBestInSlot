@@ -12,9 +12,9 @@ LBIS:AddGem(spec3, "40162", "4", "False") --Accurate Ametrine
 LBIS:AddGem(spec3, "40128", "4", "False") --Quick King's Amber
 LBIS:AddGem(spec1, "49110", "4", "False") --Nightmare Tear
 
-LBIS:AddEnchant(spec1, "44149", LBIS.L["Head"]) --Arcanum of Torment
+LBIS:AddEnchant(spec1, "59954", LBIS.L["Head"]) --Arcanum of Torment
 LBIS:AddEnchant(spec1, "61117", LBIS.L["Shoulder"]) --Master's Inscription of the Axe
-LBIS:AddEnchant(spec1, "50335", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
+LBIS:AddEnchant(spec1, "59934", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
 LBIS:AddEnchant(spec1, "55777", LBIS.L["Back"]) --Swordguard Embroidery
 LBIS:AddEnchant(spec1, "55002", LBIS.L["Back"]) --Flexweave Underlay
 LBIS:AddEnchant(spec1, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
@@ -25,7 +25,7 @@ LBIS:AddEnchant(spec1, "44575", LBIS.L["Wrist"]) --Enchant Bracers - Greater Ass
 LBIS:AddEnchant(spec1, "55641", LBIS.L["Hands"]) --Socket Gloves
 LBIS:AddEnchant(spec1, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
 LBIS:AddEnchant(spec1, "60668", LBIS.L["Hands"]) --Enchant Gloves - Crusher
-LBIS:AddEnchant(spec1, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
+LBIS:AddEnchant(spec1, "55656", LBIS.L["Waist"]) --Eternal Belt Buckle
 LBIS:AddEnchant(spec1, "54793", LBIS.L["Waist"]) --Frag Belt
 LBIS:AddEnchant(spec1, "50967", LBIS.L["Legs"]) --Icescale Leg Armor
 LBIS:AddEnchant(spec1, "50966", LBIS.L["Legs"]) --Nerubian Leg Armor

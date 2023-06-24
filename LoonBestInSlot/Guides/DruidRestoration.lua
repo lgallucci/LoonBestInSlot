@@ -13,13 +13,13 @@ LBIS:AddGem(spec3, "40128", "4", "False") --Quick King's Amber
 LBIS:AddGem(spec3, "40133", "4", "False") --Purified Dreadstone
 LBIS:AddGem(spec1, "40174", "4", "False") --Intricate Eye of Zul
 
-LBIS:AddEnchant(spec1, "50370", LBIS.L["Head"]) --Arcanum of Blissful Mending
-LBIS:AddEnchant(spec1, "50336", LBIS.L["Shoulder"]) --Greater Inscription of the Crag
+LBIS:AddEnchant(spec1, "59960", LBIS.L["Head"]) --Arcanum of Blissful Mending
+LBIS:AddEnchant(spec1, "59936", LBIS.L["Shoulder"]) --Greater Inscription of the Crag
 LBIS:AddEnchant(spec1, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
 LBIS:AddEnchant(spec1, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec1, "60767", LBIS.L["Wrist"]) --Enchant Bracers - Superior Spellpower
 LBIS:AddEnchant(spec1, "44592", LBIS.L["Hands"]) --Enchant Gloves - Exceptional Spellpower
-LBIS:AddEnchant(spec1, "41602", LBIS.L["Legs"]) --Brilliant Spellthread
+LBIS:AddEnchant(spec1, "56009", LBIS.L["Legs"]) --Brilliant Spellthread
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Feet"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
 LBIS:AddEnchant(spec1, "44508", LBIS.L["Feet"]) --Enchant Boots - Greater Spirit

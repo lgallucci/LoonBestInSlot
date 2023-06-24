@@ -21,9 +21,9 @@ LBIS:AddGem(spec3, "40167", "4", "False") --Enduring Eye of Zul
 LBIS:AddGem(spec1, "40089", "3", "False") --Enduring Forest Emerald
 LBIS:AddGem(spec1, "40015", "3", "False") --Thick Autumn's Glow
 
-LBIS:AddEnchant(spec1, "50369", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
+LBIS:AddEnchant(spec1, "59955", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
 LBIS:AddEnchant(spec1, "67839", LBIS.L["Head"]) --Mind Amplification Dish
-LBIS:AddEnchant(spec1, "44957", LBIS.L["Shoulder"]) --Greater Inscription of the Gladiator
+LBIS:AddEnchant(spec1, "62384", LBIS.L["Shoulder"]) --Greater Inscription of the Gladiator
 LBIS:AddEnchant(spec1, "55002", LBIS.L["Back"]) --Flexweave Underlay
 LBIS:AddEnchant(spec1, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 LBIS:AddEnchant(spec1, "44591", LBIS.L["Back"]) --Enchant Cloak - Titanweave
@@ -43,8 +43,8 @@ LBIS:AddEnchant(spec1, "59636", LBIS.L["Ring"]) --Enchant Ring - Stamina
 LBIS:AddEnchant(spec1, "59619", LBIS.L["Main Hand"]) --Enchant Weapon - Accuracy
 LBIS:AddEnchant(spec1, "27984", LBIS.L["Main Hand"]) --Enchant Weapon - Mongoose
 LBIS:AddEnchant(spec1, "62202", LBIS.L["Off Hand"]) --Titanium Plating
-LBIS:AddEnchant(spec1, "60692", LBIS.L["Off Hand"]) --Enchant Shield - Defense
-LBIS:AddEnchant(spec1, "41167", LBIS.L["Ranged/Relic"]) --Heartseeker Scope
+LBIS:AddEnchant(spec1, "44489", LBIS.L["Off Hand"]) --Enchant Shield - Defense
+LBIS:AddEnchant(spec1, "56478", LBIS.L["Ranged/Relic"]) --Heartseeker Scope
 
 LBIS:AddItem(spec0, "39610", LBIS.L["Head"], "BIS") --Heroes' Dreadnaught Greathelm
 LBIS:AddItem(spec0, "39613", LBIS.L["Shoulder"], "BIS") --Heroes' Dreadnaught Pauldrons
