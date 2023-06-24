@@ -51,7 +51,7 @@ LBIS:AddEnchant(spec1, "27984", LBIS.L["Main Hand"]) --Enchant Weapon - Mongoose
 LBIS:AddEnchant(spec1, "41976", LBIS.L["Main Hand"]) --Titanium Weapon Chain
 LBIS:AddEnchant(spec1, "62202", LBIS.L["Off Hand"]) --Titanium Plating
 LBIS:AddEnchant(spec1, "34009", LBIS.L["Off Hand"]) --Enchant Shield - Major Stamina
-LBIS:AddEnchant(spec1, "60692", LBIS.L["Off Hand"]) --Enchant Shield - Defense
+LBIS:AddEnchant(spec1, "44489", LBIS.L["Off Hand"]) --Enchant Shield - Defense
 LBIS:AddEnchant(spec1, "59636", LBIS.L["Ring"]) --Enchant Ring - Stamina
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
