@@ -406,7 +406,8 @@ public static class WowheadImporter
                             SourceType = "Profession",
                             Source = item.Value.Source,
                             SourceNumber = item.Key.ToString(),
-                            SourceLocation = spellId.ToString()
+                            SourceLocation = spellId.ToString(),
+                            SourceFaction = item.Value.SourceFaction
                         }
                     }
                 });
@@ -422,7 +423,8 @@ public static class WowheadImporter
                             SourceType = "Profession",
                             Source = item.Value.Source,
                             SourceNumber = "0",
-                            SourceLocation = item.Value.SourceLocation
+                            SourceLocation = item.Value.SourceLocation,
+                            SourceFaction = item.Value.SourceFaction
                         }
                     }
                 });
@@ -473,12 +475,16 @@ public static class WowheadImporter
 
     private static HashSet<int> UpdateTierPieces(Dictionary<int, CsvLootTable> csvLootTable, SortedDictionary<int, ItemSource> itemSources)
     {
+        var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\TierSetList.json");
+        DatabaseItems tierPieces = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
+
         var tokenKeys = new HashSet<int>();
-        foreach (var tierPiece in TierPiecesAndTokens.TierPieces)
+        foreach (var tierPiece in tierPieces.Items)
         {
-            if (!tokenKeys.Contains(tierPiece.Value.Item1))
+            var tokenKey = Int32.Parse(tierPiece.Value.SourceNumber);
+            if (!tokenKeys.Contains(tokenKey))
             {
-                tokenKeys.Add(tierPiece.Value.Item1);
+                tokenKeys.Add(tokenKey);
             }
             if (itemSources.ContainsKey(tierPiece.Key))
             {
@@ -486,7 +492,7 @@ public static class WowheadImporter
                 {
                     if (!csvLootTable[tierPiece.Key].IsLegacy)
                     {
-                        foreach (var source in csvLootTable[tierPiece.Value.Item1].ItemSource)
+                        foreach (var source in csvLootTable[tokenKey].ItemSource)
                         {
                             csvLootTable[tierPiece.Key].AddItem(new ImportItemSource
                             {
@@ -494,7 +500,7 @@ public static class WowheadImporter
                                 Source = source.Source,
                                 SourceNumber = source.SourceNumber,
                                 SourceLocation = source.SourceLocation,
-                                SourceFaction = source.SourceFaction
+                                SourceFaction = tierPiece.Value.SourceFaction
                             });
                         }
                     }
@@ -506,7 +512,7 @@ public static class WowheadImporter
                         ItemId = tierPiece.Key,
                         Name = itemSources[tierPiece.Key].Name
                     };
-                    foreach (var source in csvLootTable[tierPiece.Value.Item1].ItemSource)
+                    foreach (var source in csvLootTable[tokenKey].ItemSource)
                     {
                         newLootTable.AddItem(new ImportItemSource
                         {
@@ -514,7 +520,7 @@ public static class WowheadImporter
                             Source = source.Source,
                             SourceNumber = source.SourceNumber,
                             SourceLocation = source.SourceLocation,
-                            SourceFaction = source.SourceFaction
+                            SourceFaction = tierPiece.Value.SourceFaction
                         });
                     }
                     csvLootTable.Add(tierPiece.Key, newLootTable);
