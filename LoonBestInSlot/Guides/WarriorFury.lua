@@ -195,9 +195,9 @@ LBIS:AddItem(spec3, "48396", LBIS.L["Chest"], "BIS") --Hellscream's Battleplate 
 LBIS:AddItem(spec3, "48385", LBIS.L["Chest"], "BIS") --Wrynn's Battleplate of Triumph
 LBIS:AddItem(spec3, "48391", LBIS.L["Chest"], "BIS") --Hellscream's Battleplate of Triumph
 LBIS:AddItem(spec3, "48376", LBIS.L["Chest"], "BIS") --Wrynn's Battleplate of Triumph
-LBIS:AddItem(spec3, "47004", LBIS.L["Chest"], "BIS") --Cuirass of Calamitous Fate
-LBIS:AddItem(spec3, "47431", LBIS.L["Chest"], "BIS") --Vest of Calamitous Fate
-LBIS:AddItem(spec3, "46146", LBIS.L["Chest"], "BIS") --Conqueror's Siegebreaker Battleplate
+LBIS:AddItem(spec3, "47004", LBIS.L["Chest"], "Alt") --Cuirass of Calamitous Fate
+LBIS:AddItem(spec3, "47431", LBIS.L["Chest"], "Alt") --Vest of Calamitous Fate
+LBIS:AddItem(spec3, "46146", LBIS.L["Chest"], "Alt") --Conqueror's Siegebreaker Battleplate
 LBIS:AddItem(spec3, "45473", LBIS.L["Chest"], "Alt") --Embrace of the Gladiator
 LBIS:AddItem(spec3, "47442", LBIS.L["Wrist"], "BIS") --Bracers of the Silent Massacre
 LBIS:AddItem(spec3, "47074", LBIS.L["Wrist"], "BIS") --Bracers of the Untold Massacre
@@ -264,8 +264,8 @@ LBIS:AddItem(spec3, "45516", LBIS.L["Two Hand"], "Alt") --Voldrethar, Dark Blade
 LBIS:AddItem(spec3, "47516", LBIS.L["Two Hand"], "Alt") --Fleshrender
 LBIS:AddItem(spec3, "47515", LBIS.L["Two Hand"], "Alt") --Decimation
 LBIS:AddItem(spec3, "45868", LBIS.L["Two Hand"], "Alt") --Aesir's Edge
-LBIS:AddItem(spec3, "46995", LBIS.L["Ranged/Relic"], "BIS") --Talonstrike
 LBIS:AddItem(spec3, "47428", LBIS.L["Ranged/Relic"], "BIS") --Death's Head Crossbow
+LBIS:AddItem(spec3, "46995", LBIS.L["Ranged/Relic"], "BIS") --Talonstrike
 LBIS:AddItem(spec3, "47523", LBIS.L["Ranged/Relic"], "BIS") --Fezzik's Autocannon
 LBIS:AddItem(spec3, "47521", LBIS.L["Ranged/Relic"], "BIS") --BRK-1000
 LBIS:AddItem(spec3, "45296", LBIS.L["Ranged/Relic"], "BIS") --Twirling Blades

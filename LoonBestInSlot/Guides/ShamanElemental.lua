@@ -211,6 +211,8 @@ LBIS:AddItem(spec3, "47552", LBIS.L["Back"], "BIS") --Jaina's Radiance
 LBIS:AddItem(spec3, "47551", LBIS.L["Back"], "BIS") --Aethas' Intensity
 LBIS:AddItem(spec3, "48671", LBIS.L["Back"], "Alt") --Drape of Bitter Incantation
 LBIS:AddItem(spec3, "48666", LBIS.L["Back"], "Alt") --Drape of the Sunreavers
+LBIS:AddItem(spec3, "47095", LBIS.L["Back"], "Alt") --Cloak of Displacement
+LBIS:AddItem(spec3, "47452", LBIS.L["Back"], "Alt") --Shroud of Displacement
 LBIS:AddItem(spec3, "45242", LBIS.L["Back"], "Alt") --Drape of Mortal Downfall
 LBIS:AddItem(spec3, "46042", LBIS.L["Back"], "Alt") --Drape of the Messenger
 LBIS:AddItem(spec3, "49491", LBIS.L["Back"], "Alt") --Flowing Sapphiron Drape
@@ -230,8 +232,8 @@ LBIS:AddItem(spec3, "45460", LBIS.L["Wrist"], "BIS") --Bindings of Winter Gale
 LBIS:AddItem(spec3, "47586", LBIS.L["Wrist"], "Alt") --Bejeweled Wizard's Bracers
 LBIS:AddItem(spec3, "45275", LBIS.L["Wrist"], "Alt") --Bracers of Unleashed Magic
 LBIS:AddItem(spec3, "40324", LBIS.L["Wrist"], "Alt") --Bands of Mutual Respect
-LBIS:AddItem(spec3, "48327", LBIS.L["Hands"], "BIS") --Thrall's Gloves of Triumph
 LBIS:AddItem(spec3, "48324", LBIS.L["Hands"], "BIS") --Nobundo's Gloves of Triumph
+LBIS:AddItem(spec3, "48327", LBIS.L["Hands"], "BIS") --Thrall's Gloves of Triumph
 LBIS:AddItem(spec3, "48317", LBIS.L["Hands"], "Alt") --Nobundo's Gloves of Triumph
 LBIS:AddItem(spec3, "48334", LBIS.L["Hands"], "Alt") --Thrall's Gloves of Triumph
 LBIS:AddItem(spec3, "48312", LBIS.L["Hands"], "Alt") --Nobundo's Gloves of Conquest
