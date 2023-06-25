@@ -1416,6 +1416,22 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "40992": {
+      "Name": "Furious Gladiator's Ringmail Armor",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "40993": {
+      "Name": "Furious Gladiator's Mail Armor",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "40998": {
       "Name": "Savage Gladiator's Ringmail Gauntlets",
       "Source": "Emblem of Heroism",
@@ -1437,6 +1453,14 @@
       "Source": "Emblem of Conquest",
       "SourceType": "Dungeon Token",
       "SourceNumber": "46",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "41001": {
+      "Name": "Furious Gladiator's Ringmail Gauntlets",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1464,6 +1488,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "41007": {
+      "Name": "Furious Gladiator's Mail Gauntlets",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "41010": {
       "Name": "Savage Gladiator's Ringmail Helm",
       "Source": "Emblem of Heroism",
@@ -1488,6 +1520,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "41013": {
+      "Name": "Furious Gladiator's Ringmail Helm",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "41016": {
       "Name": "Savage Gladiator's Mail Helm",
       "Source": "Emblem of Heroism",
@@ -1509,6 +1549,14 @@
       "Source": "Emblem of Conquest",
       "SourceType": "Dungeon Token",
       "SourceNumber": "58",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "41019": {
+      "Name": "Furious Gladiator's Mail Helm",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1544,6 +1592,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "41027": {
+      "Name": "Furious Gladiator's Ringmail Leggings",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "41030": {
       "Name": "Savage Gladiator's Mail Leggings",
       "Source": "Emblem of Heroism",
@@ -1568,6 +1624,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "41033": {
+      "Name": "Furious Gladiator's Mail Leggings",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "41036": {
       "Name": "Hateful Gladiator's Ringmail Spaulders",
       "Source": "Emblem of Valor",
@@ -1581,6 +1645,14 @@
       "Source": "Emblem of Conquest",
       "SourceType": "Dungeon Token",
       "SourceNumber": "46",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "41038": {
+      "Name": "Furious Gladiator's Ringmail Spaulders",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1608,6 +1680,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "41044": {
+      "Name": "Furious Gladiator's Mail Spaulders",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "41078": {
       "Name": "Savage Gladiator's Linked Armor",
       "Source": "Emblem of Heroism",
@@ -1629,6 +1709,14 @@
       "Source": "Emblem of Conquest",
       "SourceType": "Dungeon Token",
       "SourceNumber": "58",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "41081": {
+      "Name": "Furious Gladiator's Linked Armor",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1656,6 +1744,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "41087": {
+      "Name": "Furious Gladiator's Chain Armor",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "41134": {
       "Name": "Savage Gladiator's Linked Gauntlets",
       "Source": "Emblem of Heroism",
@@ -1677,6 +1773,14 @@
       "Source": "Emblem of Conquest",
       "SourceType": "Dungeon Token",
       "SourceNumber": "46",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "41137": {
+      "Name": "Furious Gladiator's Linked Gauntlets",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1704,6 +1808,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "41143": {
+      "Name": "Furious Gladiator's Chain Gauntlets",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "41148": {
       "Name": "Savage Gladiator's Linked Helm",
       "Source": "Emblem of Heroism",
@@ -1725,6 +1837,14 @@
       "Source": "Emblem of Conquest",
       "SourceType": "Dungeon Token",
       "SourceNumber": "58",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "41151": {
+      "Name": "Furious Gladiator's Linked Helm",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1752,6 +1872,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "41157": {
+      "Name": "Furious Gladiator's Chain Helm",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "41160": {
       "Name": "Savage Gladiator's Linked Leggings",
       "Source": "Emblem of Heroism",
@@ -1773,6 +1901,14 @@
       "Source": "Emblem of Conquest",
       "SourceType": "Dungeon Token",
       "SourceNumber": "58",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "41199": {
+      "Name": "Furious Gladiator's Linked Leggings",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1800,6 +1936,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "41205": {
+      "Name": "Furious Gladiator's Chain Leggings",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "41208": {
       "Name": "Savage Gladiator's Linked Spaulders",
       "Source": "Emblem of Heroism",
@@ -1824,6 +1968,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "41211": {
+      "Name": "Furious Gladiator's Linked Spaulders",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "41214": {
       "Name": "Savage Gladiator's Chain Spaulders",
       "Source": "Emblem of Heroism",
@@ -1845,6 +1997,14 @@
       "Source": "Emblem of Conquest",
       "SourceType": "Dungeon Token",
       "SourceNumber": "46",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "41217": {
+      "Name": "Furious Gladiator's Chain Spaulders",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2632,6 +2792,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "41946": {
+      "Name": "Furious Gladiator's Silk Cowl",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "41949": {
       "Name": "Savage Gladiator's Silk Raiment",
       "Source": "Emblem of Heroism",
@@ -2653,6 +2821,14 @@
       "Source": "Emblem of Conquest",
       "SourceType": "Dungeon Token",
       "SourceNumber": "58",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "41953": {
+      "Name": "Furious Gladiator's Silk Raiment",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2680,6 +2856,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "41959": {
+      "Name": "Furious Gladiator's Silk Trousers",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "41962": {
       "Name": "Savage Gladiator's Silk Amice",
       "Source": "Emblem of Heroism",
@@ -2704,6 +2888,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "41965": {
+      "Name": "Furious Gladiator's Silk Amice",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "41968": {
       "Name": "Savage Gladiator's Silk Handguards",
       "Source": "Emblem of Heroism",
@@ -2725,6 +2917,14 @@
       "Source": "Emblem of Conquest",
       "SourceType": "Dungeon Token",
       "SourceNumber": "46",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "41971": {
+      "Name": "Furious Gladiator's Silk Handguards",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -4248,6 +4448,86 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "47748": {
+      "Name": "Khadgar's Hood of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47749": {
+      "Name": "Khadgar's Robe of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47750": {
+      "Name": "Khadgar's Leggings of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47751": {
+      "Name": "Khadgar's Shoulderpads of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47752": {
+      "Name": "Khadgar's Gauntlets of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47753": {
+      "Name": "Khadgar's Gauntlets of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "47754": {
+      "Name": "Khadgar's Hood of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "47755": {
+      "Name": "Khadgar's Leggings of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "47756": {
+      "Name": "Khadgar's Robe of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "47757": {
+      "Name": "Khadgar's Shoulderpads of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
     "47768": {
       "Name": "Sunstrider's Shoulderpads of Triumph",
       "Source": "Trophy of the Crusade & Emblem of Triumph",
@@ -4368,6 +4648,206 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "A"
     },
+    "47798": {
+      "Name": "Gul'dan's Shoulderpads of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47799": {
+      "Name": "Gul'dan's Robe of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47800": {
+      "Name": "Gul'dan's Leggings of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47801": {
+      "Name": "Gul'dan's Hood of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47802": {
+      "Name": "Gul'dan's Gloves of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47803": {
+      "Name": "Gul'dan's Gloves of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "47804": {
+      "Name": "Gul'dan's Hood of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "47805": {
+      "Name": "Gul'dan's Leggings of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "47806": {
+      "Name": "Gul'dan's Robe of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "47807": {
+      "Name": "Gul'dan's Shoulderpads of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48062": {
+      "Name": "Zabra's Shoulderpads of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48063": {
+      "Name": "Zabra's Robe of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48064": {
+      "Name": "Zabra's Leggings of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48065": {
+      "Name": "Zabra's Cowl of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48066": {
+      "Name": "Zabra's Gloves of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48092": {
+      "Name": "Zabra's Mantle of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48093": {
+      "Name": "Zabra's Raiments of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48094": {
+      "Name": "Zabra's Pants of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48095": {
+      "Name": "Zabra's Circlet of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48096": {
+      "Name": "Zabra's Handwraps of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48133": {
+      "Name": "Malfurion's Handguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48134": {
+      "Name": "Malfurion's Headpiece of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48135": {
+      "Name": "Malfurion's Leggings of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48136": {
+      "Name": "Malfurion's Robe of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48137": {
+      "Name": "Malfurion's Spaulders of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
     "48148": {
       "Name": "Runetotem's Spaulders of Triumph",
       "Source": "Trophy of the Crusade & Emblem of Triumph",
@@ -4407,6 +4887,46 @@
       "SourceNumber": "1 & 45",
       "SourceLocation": "Trial of the Crusader",
       "SourceFaction": "H"
+    },
+    "48163": {
+      "Name": "Malfurion's Gloves of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48164": {
+      "Name": "Malfurion's Cover of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48165": {
+      "Name": "Malfurion's Trousers of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48166": {
+      "Name": "Malfurion's Vestments of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48167": {
+      "Name": "Malfurion's Mantle of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
     },
     "48178": {
       "Name": "Runetotem's Mantle of Triumph",
@@ -4488,6 +5008,86 @@
       "SourceLocation": "Trial of the Crusader",
       "SourceFaction": "H"
     },
+    "48208": {
+      "Name": "Malfurion's Shoulderpads of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48209": {
+      "Name": "Malfurion's Raiments of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48210": {
+      "Name": "Malfurion's Legguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48211": {
+      "Name": "Malfurion's Headguard of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48212": {
+      "Name": "Malfurion's Handgrips of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48223": {
+      "Name": "VanCleef's Breastplate of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48224": {
+      "Name": "VanCleef's Gauntlets of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48225": {
+      "Name": "VanCleef's Helmet of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48226": {
+      "Name": "VanCleef's Legplates of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48227": {
+      "Name": "VanCleef's Pauldrons of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
     "48238": {
       "Name": "Garona's Pauldrons of Triumph",
       "Source": "Trophy of the Crusade & Emblem of Triumph",
@@ -4566,6 +5166,326 @@
       "SourceType": "Dungeon Token",
       "SourceNumber": "30",
       "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "48250": {
+      "Name": "Windrunner's Headpiece of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "48251": {
+      "Name": "Windrunner's Tunic of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "48252": {
+      "Name": "Windrunner's Legguards of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "48253": {
+      "Name": "Windrunner's Spaulders of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "48254": {
+      "Name": "Windrunner's Handguards of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "48255": {
+      "Name": "Windrunner's Tunic of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48256": {
+      "Name": "Windrunner's Handguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48257": {
+      "Name": "Windrunner's Headpiece of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48258": {
+      "Name": "Windrunner's Legguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48259": {
+      "Name": "Windrunner's Spaulders of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48285": {
+      "Name": "Nobundo's Tunic of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48286": {
+      "Name": "Nobundo's Handguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48287": {
+      "Name": "Nobundo's Headpiece of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48288": {
+      "Name": "Nobundo's Legguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48289": {
+      "Name": "Nobundo's Spaulders of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48300": {
+      "Name": "Thrall's Tunic of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48301": {
+      "Name": "Thrall's Handguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48302": {
+      "Name": "Thrall's Headpiece of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48303": {
+      "Name": "Thrall's Legguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48304": {
+      "Name": "Thrall's Spaulders of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48316": {
+      "Name": "Nobundo's Hauberk of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48317": {
+      "Name": "Nobundo's Gloves of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48318": {
+      "Name": "Nobundo's Helm of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48319": {
+      "Name": "Nobundo's Kilt of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48320": {
+      "Name": "Nobundo's Shoulderpads of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48331": {
+      "Name": "Thrall's Shoulderpads of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48332": {
+      "Name": "Thrall's Kilt of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48333": {
+      "Name": "Thrall's Helm of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48334": {
+      "Name": "Thrall's Gloves of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48335": {
+      "Name": "Thrall's Hauberk of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48346": {
+      "Name": "Nobundo's Chestguard of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48347": {
+      "Name": "Nobundo's Grips of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48348": {
+      "Name": "Nobundo's Faceguard of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48349": {
+      "Name": "Nobundo's War-Kilt of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48350": {
+      "Name": "Nobundo's Shoulderguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48361": {
+      "Name": "Thrall's Shoulderguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48362": {
+      "Name": "Thrall's War-Kilt of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48363": {
+      "Name": "Thrall's Faceguard of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48364": {
+      "Name": "Thrall's Grips of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48365": {
+      "Name": "Thrall's Chestguard of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
       "SourceFaction": "H"
     },
     "48386": {
@@ -4728,6 +5648,166 @@
       "SourceLocation": "Trial of the Crusader",
       "SourceFaction": "H"
     },
+    "48481": {
+      "Name": "Thassarian's Battleplate of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48482": {
+      "Name": "Thassarian's Gauntlets of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48483": {
+      "Name": "Thassarian's Helmet of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48484": {
+      "Name": "Thassarian's Legplates of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48485": {
+      "Name": "Thassarian's Shoulderplates of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48496": {
+      "Name": "Koltira's Shoulderplates of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48497": {
+      "Name": "Koltira's Legplates of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48498": {
+      "Name": "Koltira's Helmet of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48499": {
+      "Name": "Koltira's Gauntlets of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48500": {
+      "Name": "Koltira's Battleplate of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48538": {
+      "Name": "Thassarian's Chestguard of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48539": {
+      "Name": "Thassarian's Handguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48540": {
+      "Name": "Thassarian's Faceguard of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48541": {
+      "Name": "Thassarian's Legguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48542": {
+      "Name": "Thassarian's Pauldrons of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "A"
+    },
+    "48553": {
+      "Name": "Koltira's Pauldrons of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48554": {
+      "Name": "Koltira's Legguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48555": {
+      "Name": "Koltira's Faceguard of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48556": {
+      "Name": "Koltira's Handguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48557": {
+      "Name": "Koltira's Chestguard of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
     "48564": {
       "Name": "Turalyon's Headpiece of Conquest",
       "Source": "Emblem of Triumph",
@@ -4807,6 +5887,86 @@
       "SourceNumber": "1 & 45",
       "SourceLocation": "Trial of the Crusader",
       "SourceFaction": "A"
+    },
+    "48590": {
+      "Name": "Liadrin's Spaulders of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48591": {
+      "Name": "Liadrin's Greaves of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48592": {
+      "Name": "Liadrin's Headpiece of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48593": {
+      "Name": "Liadrin's Gloves of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48594": {
+      "Name": "Liadrin's Tunic of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48595": {
+      "Name": "Liadrin's Spaulders of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "48596": {
+      "Name": "Liadrin's Greaves of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "48597": {
+      "Name": "Liadrin's Headpiece of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "48598": {
+      "Name": "Liadrin's Gloves of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "48599": {
+      "Name": "Liadrin's Tunic of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
     },
     "48602": {
       "Name": "Turalyon's Battleplate of Conquest",
@@ -4888,6 +6048,86 @@
       "SourceLocation": "Trial of the Crusader",
       "SourceFaction": "A"
     },
+    "48622": {
+      "Name": "Liadrin's Shoulderplates of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48623": {
+      "Name": "Liadrin's Legplates of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48624": {
+      "Name": "Liadrin's Helm of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48625": {
+      "Name": "Liadrin's Gauntlets of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48626": {
+      "Name": "Liadrin's Battleplate of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48627": {
+      "Name": "Liadrin's Shoulderplates of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "48628": {
+      "Name": "Liadrin's Legplates of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "48629": {
+      "Name": "Liadrin's Helm of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "48630": {
+      "Name": "Liadrin's Gauntlets of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "48631": {
+      "Name": "Liadrin's Battleplate of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
     "48632": {
       "Name": "Turalyon's Breastplate of Conquest",
       "Source": "Emblem of Triumph",
@@ -4967,6 +6207,86 @@
       "SourceNumber": "1 & 75",
       "SourceLocation": "Trial of the Crusader",
       "SourceFaction": "A"
+    },
+    "48652": {
+      "Name": "Liadrin's Breastplate of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "48653": {
+      "Name": "Liadrin's Handguards of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "48654": {
+      "Name": "Liadrin's Faceguard of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "48655": {
+      "Name": "Liadrin's Legguards of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "48656": {
+      "Name": "Liadrin's Shoulderguards of Conquest",
+      "Source": "Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "48657": {
+      "Name": "Liadrin's Breastplate of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48658": {
+      "Name": "Liadrin's Handguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48659": {
+      "Name": "Liadrin's Faceguard of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48660": {
+      "Name": "Liadrin's Legguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 75",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
+    },
+    "48661": {
+      "Name": "Liadrin's Shoulderguards of Triumph",
+      "Source": "Trophy of the Crusade & Emblem of Triumph",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 45",
+      "SourceLocation": "Trial of the Crusader",
+      "SourceFaction": "H"
     },
     "48722": {
       "Name": "Shard of the Crystal Heart",

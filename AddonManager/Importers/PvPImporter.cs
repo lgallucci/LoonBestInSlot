@@ -11,6 +11,7 @@ public class PvPImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells", "Relentless, Battlemaster>245" },
         { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;50", "Relentless, Battlemaster>245" },
         { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;100", "Relentless, Battlemaster>245" },
+        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;150", "Relentless, Battlemaster>245" },
         { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells", "Furious" },
         { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;50","Furious" },
         { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;100","Furious" },
@@ -24,6 +25,7 @@ public class PvPImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;200", "Relentless" },
         { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;250", "Relentless" },
         { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;300", "Relentless" },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;350", "Relentless" },
         { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells", "Deadly, Hateful, Savage" },
         { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;50", "Deadly, Hateful, Savage" },
         { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;100", "Deadly, Hateful, Savage" },
@@ -37,6 +39,7 @@ public class PvPImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;200", "Furious" },
         { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;250", "Furious" },
         { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;300", "Furious" },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;350", "Furious" },
         { @"https://www.wowhead.com/wotlk/npc=34087/trapjaw-rix#sells", "Relentless" },
         { @"https://www.wowhead.com/wotlk/npc=34087/trapjaw-rix#sells;50", "Relentless" }
     };
@@ -47,9 +50,11 @@ public class PvPImporter : LootImporter
     {
         items.Items.Clear();
 
+        var total = wowheadUriList.Count;
+        var count = 0;
         await Common.LoadFromWebPages(wowheadUriList.Keys.ToList(), async (uri, content) => //TODO: Convert to Single Browser loop
-        {
-            writeToLog($"Reading from {uri}");
+        {            
+            writeToLog($"Reading from {uri} ({++count}/{total}");
             var parser = new HtmlParser();
             var doc = default(IHtmlDocument);
             doc = await parser.ParseDocumentAsync(content);

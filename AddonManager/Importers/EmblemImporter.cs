@@ -29,8 +29,6 @@ public class EmblemImporter : LootImporter
         @"https://www.wowhead.com/wotlk/npc=33963/magister-sarien#sells;100",
         @"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina",
         @"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina#sells;50",//TODO: More ?
-        @"https://www.wowhead.com/wotlk/npc=35575/champion-isimode",
-        @"https://www.wowhead.com/wotlk/npc=35575/champion-isimode#sells;50",//TODO: More ?
         @"https://www.wowhead.com/wotlk/npc=35579/aspirant-forudir",
         @"https://www.wowhead.com/wotlk/npc=35579/aspirant-forudir#sells;50",//TODO: More ?
         @"https://www.wowhead.com/wotlk/npc=35577/valiant-laradia",
@@ -39,8 +37,6 @@ public class EmblemImporter : LootImporter
         @"https://www.wowhead.com/wotlk/npc=35580/aspirant-naradiel#sells;50",//TODO: More ?
         @"https://www.wowhead.com/wotlk/npc=35578/valiant-bressia",
         @"https://www.wowhead.com/wotlk/npc=35578/valiant-bressia#sells;50",//TODO: More ?
-        @"https://www.wowhead.com/wotlk/npc=35576/champion-faesrol",
-        @"https://www.wowhead.com/wotlk/npc=35576/champion-faesrol#sells;50",//TODO: More ?
         @"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia",
         @"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia#sells;50",//TODO: More ?
         @"https://www.wowhead.com/wotlk/npc=207128/animated-constellation",

@@ -71,9 +71,11 @@ internal static class Common
 
     internal static async Task ReadWowheadContainsList(List<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
+        var total = webAddresses.Count;
+        var count = 0;
         await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
         {
-            writeToLog($"Reading from: {uri}");
+            writeToLog($"Reading from: {uri} {++count}/{total}");
             var parser = new HtmlParser();
             var doc = default(IHtmlDocument);
             doc = await parser.ParseDocumentAsync(content);
@@ -84,9 +86,11 @@ internal static class Common
 
     internal static async Task ReadWowheadDropsList(List<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
+        var total = webAddresses.Count;
+        var count = 0;
         await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
         {
-            writeToLog($"Reading from: {uri}");
+            writeToLog($"Reading from: {uri} {++count}/{total}");
             var parser = new HtmlParser();
             var doc = default(IHtmlDocument);
             doc = await parser.ParseDocumentAsync(content);
@@ -97,9 +101,11 @@ internal static class Common
 
     internal static async Task ReadWowheadSellsList(List<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
+        var total = webAddresses.Count;
+        var count = 0;
         await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
         {
-            writeToLog($"Reading from: {uri}");
+            writeToLog($"Reading from: {uri} {++count}/{total}");
             var parser = new HtmlParser();
             var doc = default(IHtmlDocument);
             doc = await parser.ParseDocumentAsync(content);
