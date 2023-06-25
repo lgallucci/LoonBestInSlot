@@ -14,6 +14,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Security;
 using System.Threading;
+using Windows.Security.Cryptography.Core;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -285,7 +286,133 @@ public sealed partial class GuideImporter : Page
 
     private async void Temp_Click(object sender, RoutedEventArgs e)
     {
-        var wowheadContainsUriList = new Dictionary<string, string>()
+        await TempImportOfEmblems();
+    }
+
+    private async Task TempImportOfEmblems()
+    {
+        var urls = new List<string>()
+        {
+            @"https://wotlk.evowow.com/?npc=35573#currency-for:0-2",
+            @"https://wotlk.evowow.com/?npc=35573#currency-for:50-2",
+            @"https://wotlk.evowow.com/?npc=35573#currency-for:100-2",
+            @"https://wotlk.evowow.com/?npc=35579#currency-for:0-2",
+            @"https://wotlk.evowow.com/?npc=35579#currency-for:50-2",
+            @"https://wotlk.evowow.com/?npc=35577#currency-for:0-2",
+            @"https://wotlk.evowow.com/?npc=35577#currency-for:50-2",
+            @"https://wotlk.evowow.com/?npc=35580#currency-for:0-2",
+            @"https://wotlk.evowow.com/?npc=35580#currency-for:50-2",
+            @"https://wotlk.evowow.com/?npc=35578#currency-for:0-2",
+            @"https://wotlk.evowow.com/?npc=35578#currency-for:50-2",
+            @"https://wotlk.evowow.com/?npc=35574#currency-for:0-2",
+            @"https://wotlk.evowow.com/?npc=35574#currency-for:50-2",
+            @"https://wotlk.evowow.com/?npc=35574#currency-for:100-2"
+        };
+
+        var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\EmblemItemList.json");
+        DatabaseItems dbItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
+        int count = 0, total = urls.Count;
+        await Common.LoadFromWebPages(urls.ToList(), async (uri, content) =>
+        {
+            ConsoleOut.Text = $"Reading {uri} ({++count}/{total})" + Environment.NewLine + ConsoleOut.Text;
+            var parser = new HtmlParser();
+            var doc = default(IHtmlDocument);
+            doc = await parser.ParseDocumentAsync(content);
+
+            var rowElements = doc.QuerySelectorAll("#tab-currency-for .listview-mode-default tr");
+
+            if (rowElements != null && rowElements.Length > 0)
+            {
+                foreach (var row in rowElements)
+                {
+                    var success = false;
+                    var currencySource = "";
+                    var currencyNumber = "";
+                    var currencySourceLocation = "";
+                    var sourceFaction = "B";
+                    var itemName = "";
+
+                    RecursiveBoxSearch(row.Children[2], (anchorObject) =>
+                    {
+                        if (success) return true;
+
+                        var item = ((IHtmlAnchorElement)anchorObject).Search.Replace("?item=", "");
+                        itemName = anchorObject.TextContent;
+
+                        success = Int32.TryParse(item, out int itemId);
+
+                        if (success)
+                        {
+                            var localItems = new DatabaseItems();
+                            var itemName = anchorObject.TextContent;
+                            var isPurple = anchorObject.ClassName.Contains("q4") || anchorObject.ClassName.Contains("q5");
+                            if (!isPurple) return false;
+
+                            if (row.Children[5].Children.Count() > 0)
+                            {
+                                var factionColumn = (IElement)row.Children[5].ChildNodes[0];
+                                if (factionColumn?.ClassName == "icon-horde")
+                                    sourceFaction = "H";
+                                else if (factionColumn?.ClassName == "icon-alliance")
+                                    sourceFaction = "A";
+                            }
+
+                            RecursiveBoxSearch(row.Children[10], (currencyObject) =>
+                            {
+                                var currency = ((IHtmlAnchorElement)currencyObject).Search.Replace("?currency=", "");
+                                var currencySuccess = Int32.TryParse(currency, out int currencyId);
+                                if (currencySuccess)
+                                {
+                                    var sourceText = currencyId == 101 ? "Emblem of Heroism" :
+                                        currencyId == 102 ? "Emblem of Valor" :
+                                        currencyId == 221 ? "Emblem of Conquest" :
+                                        currencyId == 301 ? "Emblem of Triumph" :
+                                        currencyId == 341 ? "Emblem of Frost" :
+                                        currencyId == 2589 ? "Sidereal Essence" :
+                                        currencyId == 47242 ? "Trophy of the Crusade" : "unknown";
+
+                                    if (string.IsNullOrWhiteSpace(currencySource))
+                                        currencySource = sourceText;
+                                    else
+                                        currencySource = $"{currencySource} & {sourceText}";
+
+                                    if (string.IsNullOrWhiteSpace(currencyNumber))
+                                        currencyNumber = currencyObject.TextContent;
+                                    else
+                                        currencyNumber = $"{currencyNumber} & {currencyObject.TextContent}";
+
+                                    if (item == "47242")
+                                        currencySourceLocation = "Trial of the Crusader";
+                                    else if (string.IsNullOrWhiteSpace(currencySourceLocation))
+                                        currencySourceLocation = "Emblem Vendor";
+
+                                    if (!dbItems.Items.ContainsKey(itemId))
+                                        dbItems.AddItem(itemId, new DatabaseItem
+                                        {
+                                            Name = itemName,
+                                            SourceNumber = currencyNumber,
+                                            Source = currencySource,
+                                            SourceLocation = currencySourceLocation,
+                                            SourceType = "Dungeon Token",
+                                            SourceFaction = sourceFaction
+                                        });
+                                }
+                                return currencySuccess;
+                            });
+                        }
+                        return success;
+                    });
+                }
+            }
+        });
+
+        //write dictionary to file
+        File.WriteAllText(@$"{Constants.ItemDbPath}\EmblemItemList.json", JsonConvert.SerializeObject(dbItems, Formatting.Indented));
+    }
+
+    private async Task TempImportRaidItems()
+    {
+        var urls = new Dictionary<string, string>()
         {
             { @"https://wotlk.evowow.com/?object=195631#contains", "Faction Champions, Trial of the Crusader (10)" },
             { @"https://wotlk.evowow.com/?object=195632#contains", "Faction Champions, Trial of the Crusader (25)" },
@@ -295,9 +422,11 @@ public sealed partial class GuideImporter : Page
 
         var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\RaidItemList.json");
         DatabaseItems dbItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
-
-        await Common.LoadFromWebPages(wowheadContainsUriList.Keys.ToList(), async (uri, content) =>
+        int count = 0, total = urls.Count;
+        await Common.LoadFromWebPages(urls.Keys.ToList(), async (uri, content) =>
         {
+
+            ConsoleOut.Text = $"Reading {uri} ({++count}/{total})" + Environment.NewLine + ConsoleOut.Text;
             var parser = new HtmlParser();
             var doc = default(IHtmlDocument);
             doc = await parser.ParseDocumentAsync(content);
@@ -324,58 +453,53 @@ public sealed partial class GuideImporter : Page
                         if (success)
                         {
                             Int32.TryParse(row.Children[3].TextContent, out int itemLevel);
-                            InternalItemsParse(wowheadContainsUriList, uri, row, itemId, itemLevel, anchorObject, dbItems);
+                            var excludedWords = new List<string>()
+                            {
+                                "Emblem",
+                                "Reins of the",
+                                "Plans: ",
+                                "Pattern: ",
+                                "Formula: ",
+                                "Trophy of the Crusade"
+                            };
+
+                            var localItems = new DatabaseItems();
+                            var itemName = anchorObject.TextContent;
+                            var isPurple = anchorObject.ClassName.Contains("q4") || anchorObject.ClassName.Contains("q5");
+                            if (!isPurple) return false;
+                            if (excludedWords.Any(w => itemName.Contains(w))) return false;
+
+                            var sourceFaction = "B";
+                            if (row.Children[5].Children.Count() > 0)
+                            {
+                                var factionColumn = (IElement)row.Children[5].ChildNodes[0];
+                                if (factionColumn?.ClassName == "icon-horde")
+                                    sourceFaction = "H";
+                                else if (factionColumn?.ClassName == "icon-alliance")
+                                    sourceFaction = "A";
+                            }
+
+                            var sourceSplit = urls[uri].Split(",");
+                            var sourceName = sourceSplit[0].Trim();
+                            if (!dbItems.Items.ContainsKey(itemId))
+                                dbItems.AddItem(itemId, new DatabaseItem
+                                {
+                                    Name = itemName,
+                                    SourceNumber = "0",
+                                    Source = sourceName,
+                                    SourceLocation = sourceSplit[1].Trim(),
+                                    SourceType = "Drop",
+                                    SourceFaction = sourceFaction
+                                });
                         }
                         return success;
                     });
                 }
             }
-
-            //write dictionary to file
-            File.WriteAllText(@$"{Constants.ItemDbPath}\RaidItemList.json", JsonConvert.SerializeObject(dbItems, Formatting.Indented));
         });
-    }
 
-    private void InternalItemsParse(Dictionary<string, string> uriList, string webAddress, IElement row, int itemId, int itemLevel, IElement item, DatabaseItems items)
-    {
-        var excludedWords = new List<string>()
-        {
-            "Emblem",
-            "Reins of the",
-            "Plans: ",
-            "Pattern: ",
-            "Formula: ",
-            "Trophy of the Crusade"
-        };
-
-        var localItems = new DatabaseItems();
-        var itemName = item.TextContent;
-        var isPurple = item.ClassName.Contains("q4") || item.ClassName.Contains("q5");
-        if (!isPurple) return;
-        if (excludedWords.Any(w => itemName.Contains(w))) return;
-
-        var sourceFaction = "B";
-        if (row.Children[5].Children.Count() > 0)
-        {
-            var factionColumn = (IElement)row.Children[5].ChildNodes[0];
-            if (factionColumn?.ClassName == "icon-horde")
-                sourceFaction = "H";
-            else if (factionColumn?.ClassName == "icon-alliance")
-                sourceFaction = "A";
-        }
-
-        var sourceSplit = uriList[webAddress].Split(",");
-        var sourceName = sourceSplit[0].Trim();
-        if (!items.Items.ContainsKey(itemId))
-            items.AddItem(itemId, new DatabaseItem
-            {
-                Name = itemName,
-                SourceNumber = "0",
-                Source = sourceName,
-                SourceLocation = sourceSplit[1].Trim(),
-                SourceType = "Drop",
-                SourceFaction = sourceFaction
-            });
+        //write dictionary to file
+        File.WriteAllText(@$"{Constants.ItemDbPath}\RaidItemList.json", JsonConvert.SerializeObject(dbItems, Formatting.Indented));
     }
 
     internal static void RecursiveBoxSearch(IElement headerElement, Func<IElement, bool> action)
