@@ -66,34 +66,45 @@ local function printSource(itemId, specItemSource, dl)
     local sourceNumberText1, sourceNumberText2, sourceNumberText3 = strsplit("/", sourceNumberText);
     local sourceLocationText1, sourceLocationText2, sourceLocationText3 = strsplit("/", sourceLocationText);
 
+    local function printSourceText(sourceText, sourceNumberText, sourceLocationText, firstRow)
+        if not firstRow then
+            text = text.."\n"
+        end
+
+        local sourceSplit = { strsplit("&", sourceText) };
+        local sourceNumberSplit = { strsplit("&", sourceNumberText) };
+               
+		local first = false;
+        for index, source in pairs(sourceSplit) do		
+			if first then
+				text = text.." & ";
+			else
+				first = true;
+			end
+            text = text..strtrim(source);
+			if sourceNumberSplit[index] ~= nil then
+				local trimNumber = strtrim(sourceNumberSplit[index]);
+				if trimNumber ~= "" and trimNumber ~= "0" and trimNumber ~= "1" then
+					text = text.." ("..trimNumber..")";
+				end
+			end
+        end
+
+        if sourceLocationText ~= nil and sourceLocationText ~= "" then
+            text = text.." - "..sourceLocationText;
+        end
+    end
+
     if sourceText1 ~= nil and sourceText1 ~= "" then
-		text = sourceText1;	
-		if sourceNumberText1 ~= "" and sourceNumberText1 ~= "0" then
-			text = text.." ("..sourceNumberText1..")";
-        end
-        if sourceLocationText1 ~= nil and sourceLocationText1 ~= "" then
-            text = text.." - "..sourceLocationText1;
-        end
+        printSourceText(sourceText1, sourceNumberText1, sourceLocationText1, true);
     end
 
     if sourceText2 ~= nil and sourceText2 ~= "" then
-		text = text.."\n"..sourceText2;	
-		if sourceNumberText2 ~= "" and sourceNumberText2 ~= "0" then
-			text = text.." ("..sourceNumberText2..")";
-        end
-        if sourceLocationText2 ~= nil and sourceLocationText2 ~= "" then
-            text = text.." - "..sourceLocationText2;
-        end
+        printSourceText(sourceText2, sourceNumberText2, sourceLocationText2, false);       	
     end
 
     if sourceText3 ~= nil and sourceText3 ~= "" then
-		text = text.."\n"..sourceText3;	
-		if sourceNumberText3 ~= "" and sourceNumberText3 ~= "0" then
-			text = text.." ("..sourceNumberText3..")";
-        end
-        if sourceLocationText3 ~= nil and sourceLocationText3 ~= "" then
-            text = text.." - "..sourceLocationText3;
-        end
+		printSourceText(sourceText3, sourceNumberText3, sourceLocationText3, false);
     end
 	
     dl:SetText(text);

@@ -67,7 +67,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Commander Kolurg"] = "Commandant Kolurg";
   LBIS.L["Commander Stoutbeard"] = "Commandant Rudebarbe";
   LBIS.L["Coren Direbrew"] = "Coren Navrebière";
-  LBIS.L["Custom"] = "Personnalisé";
   LBIS.L["Cyanigosa"] = "Cyanigosa";
 --  LBIS.L["Daily Fishing Quest"] = "";
   LBIS.L["Dalaran"] = "Dalaran";
@@ -94,7 +93,6 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Dungeon Token"] = "";
   LBIS.L["Eadric the Pure"] = "Eadric le Pur";
   LBIS.L["Eck the Ferocious"] = "Eck le Féroce";
-  LBIS.L["Edit"] = "Editer";
   LBIS.L["Elder Nadox"] = "Ancien Nadox";
   LBIS.L["Elemental"] = "Élémentaire";
   LBIS.L["Emalon the Storm Watcher"] = "Emalon le Guetteur d'orage";
@@ -103,7 +101,6 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Emblem of Triumph"] = "";
 --  LBIS.L["Emblem of Valor"] = "";
 --  LBIS.L["Emblem Vendor"] = "";
-  LBIS.L["Enchants"] = "Enchantements";
   LBIS.L["Engineering"] = "Ingénierie";
   LBIS.L["Enhancement"] = "Amélioration";
   LBIS.L["Erekem"] = "Erekem";
@@ -126,7 +123,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Fury"] = "Fureur";
   LBIS.L["Gal'darah"] = "Gal'darah";
 --  LBIS.L["Geen"] = "";
---  LBIS.L["Gems"] = "";
   LBIS.L["General Bjarngrim"] = "Général Bjarngrim";
   LBIS.L["General Vezax"] = "Général Vezax";
 --  LBIS.L["General Vezax (Hard)"] = "Général Vezax";
@@ -175,8 +171,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Honor Points"] = "Points d'honneur";
   LBIS.L["Honored"] = "Honoré";
   LBIS.L["Icecrown"] = "La Couronne de glace";
-  LBIS.L["Icecrown Citadel (10)"] = "Citadelle de la Couronne de glace (10)";
-  LBIS.L["Icecrown Citadel (25)"] = "Citadelle de la Couronne de glace (25)";
   LBIS.L["Ichoron"] = "Ichoron";
   LBIS.L["Ignis the Furnace Master"] = "Ignis le maître de la Fournaise";
   LBIS.L["Infinite Corruptor"] = "Corrupteur infini";
@@ -186,7 +180,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Into the Realm of Shadows"] = "Dans le royaume des ombres";
   LBIS.L["Ionar"] = "Ionar";
   LBIS.L["It Could Be Anywhere!"] = "Il pourrait être n'importe où !";
-  LBIS.L["Items"] = "Objets";
   LBIS.L["Jedoga Shadowseeker"] = "Jedoga Cherchelombre";
   LBIS.L["Jewelcrafting"] = "Joaillerie";
   LBIS.L["Karazhan"] = "Karazhan";
@@ -215,7 +208,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Loatheb"] = "Horreb";
   LBIS.L["Loken"] = "Loken";
   LBIS.L["Loon Best In Slot"] = "Huard Meilleur dans la Fente";
-  LBIS.L["Loon Best In Slot Browser"] = "Huard Meilleur dans le Navigateur de Machines à Sous";
   LBIS.L["Lord Jaraxxus"] = "Seigneur Jaraxxus";
 --  LBIS.L["Madame Ruby"] = "";
   LBIS.L["Maexxna"] = "Maexxna";
@@ -350,8 +342,6 @@ if GetLocale() == "frFR" then
   LBIS.L["The Oracles (Friendly)"] = "Oracles (Amical)";
   LBIS.L["The Prophet Tharon'ja"] = "Le prophète Tharon'ja";
   LBIS.L["The Reckoning"] = "Le châtiment";
-  LBIS.L["The Ruby Sanctum (10)"] = "Le sanctum Rubis (10)";
-  LBIS.L["The Ruby Sanctum (25)"] = "Le sanctum Rubis (25)";
   LBIS.L["The Sha'tar (Exalted)"] = "Sha'tar (Exalté)";
   LBIS.L["The Sons of Hodir"] = "Fils de Hodir";
   LBIS.L["The Sons of Hodir (Exalted)"] = "Fils de Hodir (Exalté)";
@@ -388,7 +378,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Tribute Run"] = "";
   LBIS.L["Trinket"] = "Bijou";
   LBIS.L["Trollgore"] = "Trollétripe";
---  LBIS.L["Trophy of the Crusade"] = "";
+--  LBIS.L["Trophy"] = "";
   LBIS.L["Two Hand"] = "Deux mains";
   LBIS.L["Ulduar"] = "Ulduar";
   LBIS.L["Ulduar (10)"] = "Ulduar (10)";

@@ -67,7 +67,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Commander Kolurg"] = "사령관 콜루르그";
   LBIS.L["Commander Stoutbeard"] = "사령관 스타우트비어드";
   LBIS.L["Coren Direbrew"] = "코렌 다이어브루";
-  LBIS.L["Custom"] = "커스텀";
   LBIS.L["Cyanigosa"] = "시아니고사";
   LBIS.L["Daily Fishing Quest"] = "낚시 퀘스트 (일일)";
   LBIS.L["Dalaran"] = "달라란";
@@ -94,7 +93,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Dungeon Token"] = "토큰";
   LBIS.L["Eadric the Pure"] = "성기사 에드릭";
   LBIS.L["Eck the Ferocious"] = "사나운 엑크";
-  LBIS.L["Edit"] = "편집";
   LBIS.L["Elder Nadox"] = "장로 나독스";
   LBIS.L["Elemental"] = "정기";
   LBIS.L["Emalon the Storm Watcher"] = "폭풍 감시자 에말론";
@@ -103,7 +101,6 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Emblem of Triumph"] = "";
   LBIS.L["Emblem of Valor"] = "용맹의 문장";
   LBIS.L["Emblem Vendor"] = "문장 상인";
-  LBIS.L["Enchants"] = "마법부여";
   LBIS.L["Engineering"] = "기계공학";
   LBIS.L["Enhancement"] = "고양";
   LBIS.L["Erekem"] = "에레켐";
@@ -126,7 +123,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Fury"] = "분노";
   LBIS.L["Gal'darah"] = "갈다라";
   LBIS.L["Geen"] = "기인 <점쟁이 조합 보급원>";
-  LBIS.L["Gems"] = "보석";
   LBIS.L["General Bjarngrim"] = "장군 비야른그림";
   LBIS.L["General Vezax"] = "장군 베작스";
 --  LBIS.L["General Vezax (Hard)"] = "장군 베작스";
@@ -175,8 +171,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Honor Points"] = "명예 점수";
   LBIS.L["Honored"] = "우호적";
   LBIS.L["Icecrown"] = "얼음왕관";
-  LBIS.L["Icecrown Citadel (10)"] = "얼음왕관 성채 (10인)";
-  LBIS.L["Icecrown Citadel (25)"] = "얼음왕관 성채 (25인)";
   LBIS.L["Ichoron"] = "이코론";
   LBIS.L["Ignis the Furnace Master"] = "용광로 군주 이그니스";
   LBIS.L["Infinite Corruptor"] = "무한의 타락자";
@@ -186,7 +180,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Into the Realm of Shadows"] = "어둠의 영역을 향하여";
   LBIS.L["Ionar"] = "아이오나";
   LBIS.L["It Could Be Anywhere!"] = "어딘가엔 있을 거야!";
-  LBIS.L["Items"] = "아이템";
   LBIS.L["Jedoga Shadowseeker"] = "어둠추적자 제도가";
   LBIS.L["Jewelcrafting"] = "보석세공";
   LBIS.L["Karazhan"] = "카라잔";
@@ -215,7 +208,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Loatheb"] = "로데브";
   LBIS.L["Loken"] = "로켄";
   LBIS.L["Loon Best In Slot"] = "BIS 아이템";
-  LBIS.L["Loon Best In Slot Browser"] = "BIS 아이템 목록";
   LBIS.L["Lord Jaraxxus"] = "군주 자락서스";
   LBIS.L["Madame Ruby"] = "귀부인 루비 <마법부여용품 상인>";
   LBIS.L["Maexxna"] = "맥스나";
@@ -350,8 +342,6 @@ if GetLocale() == "koKR" then
   LBIS.L["The Oracles (Friendly)"] = "점쟁이 조합 (약간 우호적)";
   LBIS.L["The Prophet Tharon'ja"] = "예언자 타론자";
   LBIS.L["The Reckoning"] = "심판";
-  LBIS.L["The Ruby Sanctum (10)"] = "루비 성소 (10인)";
-  LBIS.L["The Ruby Sanctum (25)"] = "루비 성소 (25인)";
   LBIS.L["The Sha'tar (Exalted)"] = "샤타르 (확고한 동맹)";
   LBIS.L["The Sons of Hodir"] = "호디르의 후예";
   LBIS.L["The Sons of Hodir (Exalted)"] = "호디르의 후예 (확고한 동맹)";
@@ -388,7 +378,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Tribute Run"] = "";
   LBIS.L["Trinket"] = "장신구";
   LBIS.L["Trollgore"] = "송곳아귀";
---  LBIS.L["Trophy of the Crusade"] = "";
+--  LBIS.L["Trophy"] = "";
   LBIS.L["Two Hand"] = "양손";
   LBIS.L["Ulduar"] = "울두아르";
   LBIS.L["Ulduar (10)"] = "울두아르 (10인)";
