@@ -7139,7 +7139,7 @@
         },
         "45311": {
             "Name": "Relentless Edge",
-            "Source": "Eadric the Pure & Paletress",
+            "Source": "Eadric the Pure & Argent Confessor Paletress",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Trial of the Champion (Heroic++)",
@@ -7209,14 +7209,14 @@
             "SourceLocation": "Utgarde Keep (Heroic++)",
             "SourceFaction": "B"
         },
-        //"45324": {
-        //    "Name": "Leggings of Swift Reflexes",
-        //    "Source": "",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "",
-        //    "SourceFaction": "B"
-        //},
+        "45324": {
+            "Name": "Leggings of Swift Reflexes",
+            "Source": "Ingvar the Plunderer",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Keep (Heroic++)",
+            "SourceFaction": "B"
+        },
         "45329": {
             "Name": "Circlet of True Sight",
             "Source": "Skarvald the Constructor & Dalronn the Controller",
@@ -7233,14 +7233,14 @@
             "SourceLocation": "Utgarde Keep (Heroic++)",
             "SourceFaction": "B"
         },
-        //"45331": {
-        //    "Name": "Rune-Etched Nightblade",
-        //    "Source": "",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "",
-        //    "SourceFaction": "B"
-        //},
+        "45331": {
+            "Name": "Rune-Etched Nightblade",
+            "Source": "Svala Sorrowgrave",
+            "SourceType": "Drop",
+            "SourceNumber": "0",
+            "SourceLocation": "Utgarde Pinnacle (Heroic++)",
+            "SourceFaction": "B"
+        },
         "45332": {
             "Name": "Stormtip",
             "Source": "Svala Sorrowgrave",
@@ -7731,7 +7731,7 @@
         },
         "45935": {
             "Name": "Ironbark Faceguard",
-            "Source": "Levanthor & Erekem",
+            "Source": "Lavanthor & Erekem",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Violet Hold (Heroic++)",
@@ -7755,7 +7755,7 @@
         //},
         "45941": {
             "Name": "Chestguard of the Lasher",
-            "Source": "Zuramat the Obliterator & Ichron",
+            "Source": "Zuramat the Obliterator & Ichoron",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Violet Hold (Heroic++)",
@@ -7915,7 +7915,7 @@
         },
         "46022": {
             "Name": "Pendant of a Thousand Maws",
-            "Source": "Eadric the Pure & Paletress",
+            "Source": "Eadric the Pure & Argent Confessor Paletress",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Trial of the Champion (Heroic++)",
@@ -7961,134 +7961,6 @@
             "SourceLocation": "Trial of the Champion (Heroic++)",
             "SourceFaction": "B"
         },
-        //"46037": {
-        //    "Name": "Shoulderplates of the Celestial Watch",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
-        //"46038": {
-        //    "Name": "Dark Matter",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
-        //"46039": {
-        //    "Name": "Breastplate of the Timeless",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
-        //"46040": {
-        //    "Name": "Strength of the Heavens",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
-        //"46041": {
-        //    "Name": "Starfall Girdle",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
-        //"46042": {
-        //    "Name": "Drape of the Messenger",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
-        //"46043": {
-        //    "Name": "Gloves of the Endless Dark",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
-        //"46044": {
-        //    "Name": "Observer's Mantle",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
-        //"46045": {
-        //    "Name": "Pulsar Gloves",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
-        //"46046": {
-        //    "Name": "Nebula Band",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
-        //"46047": {
-        //    "Name": "Pendant of the Somber Witness",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
-        //"46048": {
-        //    "Name": "Band of Lights",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
-        //"46049": {
-        //    "Name": "Zodiac Leggings",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
-        //"46050": {
-        //    "Name": "Starlight Treads",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
-        //"46051": {
-        //    "Name": "Meteorite Crystal",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
-        //"46052": {
-        //    "Name": "Reply-Code Alpha",
-        //    "Source": "Algalon the Observer",
-        //    "SourceType": "Drop",
-        //    "SourceNumber": "0",
-        //    "SourceLocation": "(Heroic++)",
-        //    "SourceFaction": "B"
-        //},
         "46339": {
             "Name": "Mimiron's Repeater",
             "Source": "Meathook",
