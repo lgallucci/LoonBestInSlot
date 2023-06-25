@@ -6979,10 +6979,10 @@
         },
         "45284": {
             "Name": "Kinetic Ripper",
-            "Source": "Levanthor",
+            "Source": "Lavanthor",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceLocation": "The Violet Hold (Heroic++)",
             "SourceFaction": "B"
         },
         "45285": {
@@ -6990,7 +6990,7 @@
             "Source": "Xevozz & Moragg",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceLocation": "The Violet Hold (Heroic++)",
             "SourceFaction": "B"
         },
         "45286": {
@@ -7022,7 +7022,7 @@
             "Source": "Erekem",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceLocation": "The Violet Hold (Heroic++)",
             "SourceFaction": "B"
         },
         "45291": {
@@ -7043,7 +7043,7 @@
         },
         "45298": {
             "Name": "Razorscale Talon",
-            "Source": "Gal'Darah",
+            "Source": "Gal'darah",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Gundrak (Heroic++)",
@@ -7075,7 +7075,7 @@
         },
         "45303": {
             "Name": "Band of Draconic Guile",
-            "Source": "The Prophet Tharonja",
+            "Source": "The Prophet Tharon'ja",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Drak'Tharon Keep (Heroic++)",
@@ -7083,7 +7083,7 @@
         },
         "45304": {
             "Name": "Stormtempered Girdle",
-            "Source": "Gal'Darah",
+            "Source": "Gal'darah",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Gundrak (Heroic++)",
@@ -7107,7 +7107,7 @@
         },
         "45307": {
             "Name": "Ironscale Leggings",
-            "Source": "Eck",
+            "Source": "Eck the Ferocious",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Gundrak (Heroic++)",
@@ -7115,7 +7115,7 @@
         },
         "45308": {
             "Name": "Eye of the Broodmother",
-            "Source": "Eck",
+            "Source": "Eck the Ferocious",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Gundrak (Heroic++)",
@@ -7126,7 +7126,7 @@
             "Source": "Amanitar",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Old Kingdom (Heroic++)",
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic++)",
             "SourceFaction": "B"
         },
         "45310": {
@@ -7134,7 +7134,7 @@
             "Source": "Elder Nadox",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Old Kingdom (Heroic++)",
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic++)",
             "SourceFaction": "B"
         },
         "45311": {
@@ -7142,7 +7142,7 @@
             "Source": "Eadric the Pure & Paletress",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Trial of Champion (Heroic++)",
+            "SourceLocation": "Trial of the Champion (Heroic++)",
             "SourceFaction": "B"
         },
         "45312": {
@@ -7155,10 +7155,10 @@
         },
         "45313": {
             "Name": "Furnace Stone",
-            "Source": "Anub'Arak",
+            "Source": "Anub'arak",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Azjol Nerub (Heroic++)",
+            "SourceLocation": "Azjol-Nerub (Heroic++)",
             "SourceFaction": "B"
         },
         "45314": {
@@ -7166,7 +7166,7 @@
             "Source": "Elder Nadox",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Old Kingdom (Heroic++)",
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic++)",
             "SourceFaction": "B"
         },
         "45316": {
@@ -7174,7 +7174,7 @@
             "Source": "Hadronox",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Azjol Nerub (Heroic++)",
+            "SourceLocation": "Azjol-Nerub (Heroic++)",
             "SourceFaction": "B"
         },
         "45317": {
@@ -7182,15 +7182,15 @@
             "Source": "Amanitar",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Old Kingdom (Heroic++)",
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic++)",
             "SourceFaction": "B"
         },
         "45318": {
             "Name": "Drape of Fuming Anger",
-            "Source": "Anub'Arak",
+            "Source": "Anub'arak",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Azjol Nerub (Heroic++)",
+            "SourceLocation": "Azjol-Nerub (Heroic++)",
             "SourceFaction": "B"
         },
         "45321": {
@@ -7198,7 +7198,7 @@
             "Source": "Prince Taldaram",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Old Kingdom (Heroic++)",
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic++)",
             "SourceFaction": "B"
         },
         "45322": {
@@ -7286,15 +7286,15 @@
             "Source": "Hadronox",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Azjol Nerub (Heroic++)",
+            "SourceLocation": "Azjol-Nerub (Heroic++)",
             "SourceFaction": "B"
         },
         "45464": {
             "Name": "Cowl of Icy Breaths",
-            "Source": "Kritk'thir the Gatewatcher",
+            "Source": "Krik'thir the Gatewatcher",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Azjol Nerub (Heroic++)",
+            "SourceLocation": "Azjol-Nerub (Heroic++)",
             "SourceFaction": "B"
         },
         "45635": {
@@ -7419,7 +7419,7 @@
         },
         "45675": {
             "Name": "Power Enhancing Loop",
-            "Source": "Chron-Lord Epoch",
+            "Source": "Chrono-Lord Epoch",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Culling of Stratholme (Heroic++)",
@@ -7430,7 +7430,7 @@
             "Source": "Loken",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Halls of Lighting (Heroic++)",
+            "SourceLocation": "Halls of Lightning (Heroic++)",
             "SourceFaction": "B"
         },
         "45677": {
@@ -7443,7 +7443,7 @@
         },
         "45679": {
             "Name": "Gloves of Taut Grip",
-            "Source": "Salramm",
+            "Source": "Salramm the Fleshcrafter",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Culling of Stratholme (Heroic++)",
@@ -7467,7 +7467,7 @@
         },
         "45685": {
             "Name": "Plasma Foil",
-            "Source": "Chron-Lord Epoch",
+            "Source": "Chrono-Lord Epoch",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Culling of Stratholme (Heroic++)",
@@ -7499,7 +7499,7 @@
         },
         "45695": {
             "Name": "Spire of Withering Dreams",
-            "Source": "Salramm",
+            "Source": "Salramm the Fleshcrafter",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Culling of Stratholme (Heroic++)",
@@ -7510,7 +7510,7 @@
             "Source": "Herald Volazj",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Old Kingdom (Heroic++)",
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic++)",
             "SourceFaction": "B"
         },
         "45697": {
@@ -7534,7 +7534,7 @@
             "Source": "Herald Volazj",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Old Kingdom (Heroic++)",
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic++)",
             "SourceFaction": "B"
         },
         "45700": {
@@ -7550,7 +7550,7 @@
             "Source": "Jedoga Shadowseeker",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Old Kingdom (Heroic++)",
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic++)",
             "SourceFaction": "B"
         },
         "45702": {
@@ -7558,7 +7558,7 @@
             "Source": "Jedoga Shadowseeker",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Old Kingdom (Heroic++)",
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic++)",
             "SourceFaction": "B"
         },
         "45703": {
@@ -7574,7 +7574,7 @@
             "Source": "Herald Volazj",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Old Kingdom (Heroic++)",
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic++)",
             "SourceFaction": "B"
         },
         "45707": {
@@ -7678,7 +7678,7 @@
             "Source": "Krik'thir the Gatewatcher",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Azjol Nerub (Heroic++)",
+            "SourceLocation": "Azjol-Nerub (Heroic++)",
             "SourceFaction": "B"
         },
         "45892": {
@@ -7691,7 +7691,7 @@
         },
         "45893": {
             "Name": "Guise of the Midgard Serpent",
-            "Source": "Gal'Darah",
+            "Source": "Gal'darah",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Gundrak (Heroic++)",
@@ -7726,7 +7726,7 @@
             "Source": "Zuramat the Obliterator",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceLocation": "The Violet Hold (Heroic++)",
             "SourceFaction": "B"
         },
         "45935": {
@@ -7734,7 +7734,7 @@
             "Source": "Levanthor & Erekem",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceLocation": "The Violet Hold (Heroic++)",
             "SourceFaction": "B"
         },
         "45936": {
@@ -7742,7 +7742,7 @@
             "Source": "Zuramat the Obliterator",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceLocation": "The Violet Hold (Heroic++)",
             "SourceFaction": "B"
         },
         //"45940": {
@@ -7758,12 +7758,12 @@
             "Source": "Zuramat the Obliterator & Ichron",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceLocation": "The Violet Hold (Heroic++)",
             "SourceFaction": "B"
         },
         "45972": {
             "Name": "Pulse Baton",
-            "Source": "The Prophet Tharonja",
+            "Source": "The Prophet Tharon'ja",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Drak'Tharon Keep (Heroic++)",
@@ -7779,7 +7779,7 @@
         },
         "45974": {
             "Name": "Shoulderguards of Assimilation",
-            "Source": "The Prophet Tharonja",
+            "Source": "The Prophet Tharon'ja",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Drak'Tharon Keep (Heroic++)",
@@ -7822,7 +7822,7 @@
             "Source": "Cyanigosa",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceLocation": "The Violet Hold (Heroic++)",
             "SourceFaction": "B"
         },
         "46009": {
@@ -7830,7 +7830,7 @@
             "Source": "Cyanigosa",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceLocation": "The Violet Hold (Heroic++)",
             "SourceFaction": "B"
         },
         "46010": {
@@ -7838,7 +7838,7 @@
             "Source": "Cyanigosa",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Violet Hold (Heroic++)",
+            "SourceLocation": "The Violet Hold (Heroic++)",
             "SourceFaction": "B"
         },
         "46011": {
@@ -7902,7 +7902,7 @@
             "Source": "Prince Taldaram",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "The Old Kingdom (Heroic++)",
+            "SourceLocation": "Ahn'kahet: The Old Kingdom (Heroic++)",
             "SourceFaction": "B"
         },
         "46021": {
@@ -7910,7 +7910,7 @@
             "Source": "The Black Knight",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Trial of Champion (Heroic++)",
+            "SourceLocation": "Trial of the Champion (Heroic++)",
             "SourceFaction": "B"
         },
         "46022": {
@@ -7918,7 +7918,7 @@
             "Source": "Eadric the Pure & Paletress",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Trial of Champion (Heroic++)",
+            "SourceLocation": "Trial of the Champion (Heroic++)",
             "SourceFaction": "B"
         },
         "46024": {
@@ -7926,12 +7926,12 @@
             "Source": "Grand Champions",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Trial of Champion (Heroic++)",
+            "SourceLocation": "Trial of the Champion (Heroic++)",
             "SourceFaction": "B"
         },
         "46025": {
             "Name": "Devotion",
-            "Source": "Mal'ganis",
+            "Source": "Mal'Ganis",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "The Culling of Stratholme (Heroic++)",
@@ -7942,7 +7942,7 @@
             "Source": "Grand Champions",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Trial of Champion (Heroic++)",
+            "SourceLocation": "Trial of the Champion (Heroic++)",
             "SourceFaction": "B"
         },
         "46030": {
@@ -7950,7 +7950,7 @@
             "Source": "The Black Knight",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Trial of Champion (Heroic++)",
+            "SourceLocation": "Trial of the Champion (Heroic++)",
             "SourceFaction": "B"
         },
         "46031": {
@@ -7958,7 +7958,7 @@
             "Source": "The Black Knight",
             "SourceType": "Drop",
             "SourceNumber": "0",
-            "SourceLocation": "Trial of Champion (Heroic++)",
+            "SourceLocation": "Trial of the Champion (Heroic++)",
             "SourceFaction": "B"
         },
         //"46037": {
@@ -8107,7 +8107,7 @@
         },
         "46341": {
             "Name": "Drape of the Spellweaver",
-            "Source": "General Bajarngrim",
+            "Source": "General Bjarngrim",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Halls of Lightning (Heroic++)",
@@ -8139,7 +8139,7 @@
         },
         "46345": {
             "Name": "Bracers of Righteous Reformation",
-            "Source": "Sjonnir",
+            "Source": "Sjonnir The Ironshaper",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Halls of Stone (Heroic++)",
@@ -8147,7 +8147,7 @@
         },
         "46346": {
             "Name": "Boots of Unsettled Prey",
-            "Source": "Sjonnir",
+            "Source": "Sjonnir The Ironshaper",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Halls of Stone (Heroic++)",
@@ -8155,7 +8155,7 @@
         },
         "46347": {
             "Name": "Cloak of the Dormant Blaze",
-            "Source": "General Bajarngrim",
+            "Source": "General Bjarngrim",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Halls of Lightning (Heroic++)",
@@ -8171,7 +8171,7 @@
         },
         "46351": {
             "Name": "Bloodcrush Cudgel",
-            "Source": "Sjonnir",
+            "Source": "Sjonnir The Ironshaper",
             "SourceType": "Drop",
             "SourceNumber": "0",
             "SourceLocation": "Halls of Stone (Heroic++)",
