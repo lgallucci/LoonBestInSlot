@@ -58,10 +58,18 @@ local function createItemRow(f, specEnchant, specEnchantSource)
         b:SetSize(32, 32);
         local bt = b:CreateTexture();
         bt:SetAllPoints();
-        bt:SetTexture(item.Texture);
+        
+        if specEnchantSource.TextureId ~= nil and tonumber(specEnchantSource.TextureId) > 0 and tonumber(specEnchantSource.TextureId) < 99999 then
+            LBIS:GetItemInfo(tonumber(specEnchantSource.TextureId), function(textureItem)
+                bt:SetTexture(textureItem.Texture);
+            end);
+        else
+            bt:SetTexture(item.Texture);
+        end
+
         b:SetPoint("TOPLEFT", f, 2, -5);
 
-        LBIS:SetTooltipOnButton(b, item, false);
+        LBIS:SetTooltipOnButton(b, item, true);
 
         local t = f:CreateFontString(nil, nil, "GameFontNormal");
         t:SetText((item.Link or item.Name):gsub("[%[%]]", ""));
