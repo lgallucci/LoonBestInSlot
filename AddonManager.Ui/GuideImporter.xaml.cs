@@ -359,7 +359,7 @@ public sealed partial class GuideImporter : Page
 
                             RecursiveBoxSearch(row.Children[10], (currencyObject) =>
                             {
-                                var currency = ((IHtmlAnchorElement)currencyObject).Search.Replace("?currency=", "");
+                                var currency = ((IHtmlAnchorElement)currencyObject).Search.Replace("?currency=", "").Replace("?item=", "");
                                 var currencySuccess = Int32.TryParse(currency, out int currencyId);
                                 if (currencySuccess)
                                 {
@@ -384,21 +384,21 @@ public sealed partial class GuideImporter : Page
                                     if (item == "47242")
                                         currencySourceLocation = "Trial of the Crusader";
                                     else if (string.IsNullOrWhiteSpace(currencySourceLocation))
-                                        currencySourceLocation = "Emblem Vendor";
-
-                                    if (!dbItems.Items.ContainsKey(itemId))
-                                        dbItems.AddItem(itemId, new DatabaseItem
-                                        {
-                                            Name = itemName,
-                                            SourceNumber = currencyNumber,
-                                            Source = currencySource,
-                                            SourceLocation = currencySourceLocation,
-                                            SourceType = "Dungeon Token",
-                                            SourceFaction = sourceFaction
-                                        });
+                                        currencySourceLocation = "Emblem Vendor";                                    
                                 }
                                 return currencySuccess;
                             });
+
+                            if (!dbItems.Items.ContainsKey(itemId))
+                                dbItems.AddItem(itemId, new DatabaseItem
+                                {
+                                    Name = itemName,
+                                    SourceNumber = currencyNumber,
+                                    Source = currencySource,
+                                    SourceLocation = currencySourceLocation,
+                                    SourceType = "Dungeon Token",
+                                    SourceFaction = sourceFaction
+                                });
                         }
                         return success;
                     });
