@@ -3544,14 +3544,6 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
-    "45624": {
-      "Name": "Emblem of Conquest",
-      "Source": "Emblem of Triumph",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "1",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
     "45632": {
       "Name": "Breastplate of the Wayward Conqueror",
       "Source": "Emblem of Conquest",
