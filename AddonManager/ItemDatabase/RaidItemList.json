@@ -5032,22 +5032,6 @@
       "SourceLocation": "Vault of Archavon (10)",
       "SourceFaction": "B"
     },
-    "43345": {
-      "Name": "Dragon Hide Bag",
-      "Source": "Sartharion",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "The Obsidian Sanctum",
-      "SourceFaction": "B"
-    },
-    "43346": {
-      "Name": "Large Satchel of Spoils",
-      "Source": "Sartharion",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "The Obsidian Sanctum",
-      "SourceFaction": "B"
-    },
     "44000": {
       "Name": "Dragonstorm Breastplate",
       "Source": "Sartharion",
