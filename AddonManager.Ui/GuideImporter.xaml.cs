@@ -381,8 +381,8 @@ public sealed partial class GuideImporter : Page
                                     else
                                         currencyNumber = $"{currencyNumber} & {currencyObject.TextContent}";
 
-                                    if (item == "47242")
-                                        currencySourceLocation = "Trial of the Crusader";
+                                    if (currencyId == 47242)
+                                        currencySourceLocation = "Trial of the Crusader (25)";
                                     else if (string.IsNullOrWhiteSpace(currencySourceLocation))
                                         currencySourceLocation = "Emblem Vendor";                                    
                                 }
