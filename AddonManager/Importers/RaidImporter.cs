@@ -24,8 +24,8 @@ public class RaidImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=33993/emalon-the-storm-watcher#drops;mode:n25;100", "Emalon the Storm Watcher, Vault of Archavon (25)" },
         { @"https://www.wowhead.com/wotlk/npc=35013/koralon-the-flame-watcher#drops;mode:n10", "Koralon the Flame Watcher, Vault of Archavon (10)" },
         { @"https://www.wowhead.com/wotlk/npc=35013/koralon-the-flame-watcher#drops;mode:n25", "Koralon the Flame Watcher, Vault of Archavon (25)" },
-        { @"https://www.wowhead.com/wotlk/npc=38433/toravon-the-ice-watcher#drops;mode:n10", "Koralon the Flame Watcher, Vault of Archavon (10)" },
-        { @"https://www.wowhead.com/wotlk/npc=38433/toravon-the-ice-watcher#drops;mode:n25", "Koralon the Flame Watcher, Vault of Archavon (25)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=38433/toravon-the-ice-watcher#drops;mode:n10", "Toravon the Ice Watcher, Vault of Archavon (10)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=38433/toravon-the-ice-watcher#drops;mode:n25", "Toravon the Ice Watcher, Vault of Archavon (25)" },
         //Naxxramas
         { @"https://www.wowhead.com/wotlk/npc=15956/anubrekhan#drops;mode:n25", "Anub'Rekhan, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=15953/grand-widow-faerlina#drops;mode:n25", "Grand Widow Faerlina, Naxxramas" },
@@ -89,10 +89,10 @@ public class RaidImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=34780/lord-jaraxxus#drops;mode:n25", "Lord Jaraxxus, Trial of the Crusader (25)" },
         { @"https://www.wowhead.com/wotlk/npc=34780/lord-jaraxxus#drops;mode:heroic10", "Lord Jaraxxus, Trial of the Grand Crusader (10)" },
         { @"https://www.wowhead.com/wotlk/npc=34780/lord-jaraxxus#drops;mode:heroic25", "Lord Jaraxxus, Trial of the Grand Crusader (25)" },
-        { @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:n10", "Faction Champions, Trial of the Crusader (10)" },
-        { @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:n25", "Faction Champions, Trial of the Crusader (25)" },
-        { @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:heroic10", "Faction Champions, Trial of the Grand Crusader (10)" },
-        { @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:heroic25", "Faction Champions, Trial of the Grand Crusader (25)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:n10", "Faction Champions, Trial of the Crusader (10)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:n25", "Faction Champions, Trial of the Crusader (25)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:heroic10", "Faction Champions, Trial of the Grand Crusader (10)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:heroic25", "Faction Champions, Trial of the Grand Crusader (25)" },
         { @"https://www.wowhead.com/wotlk/npc=34497/fjola-lightbane#drops;mode:n10", "The Twin Val'kyr, Trial of the Crusader (10)" },
         { @"https://www.wowhead.com/wotlk/npc=34496/eydis-darkbane#drops;mode:n10", "The Twin Val'kyr, Trial of the Crusader (10)" },
         { @"https://www.wowhead.com/wotlk/npc=34497/fjola-lightbane#drops;mode:n25", "The Twin Val'kyr, Trial of the Crusader (25)" },
@@ -158,7 +158,9 @@ public class RaidImporter : LootImporter
         "Plans: ",
         "Pattern: ", 
         "Formula: ",
-        "Trophy of the Crusade"
+        "Trophy of the Crusade",
+        "Large Satchel",
+        "Dragon Hide Bag"
     };
 
     internal override string FileName { get => "RaidItemList"; }
@@ -196,7 +198,6 @@ public class RaidImporter : LootImporter
 
     private void InternalItemsParse(Dictionary<string, string> uriList, string webAddress, IElement row, int itemId, int itemLevel, IElement item, DatabaseItems items)
     {
-        var localItems = new DatabaseItems();
         var itemName = item.TextContent;
         var isPurple = item.ClassName.Contains("q4") || item.ClassName.Contains("q5");
         if (!isPurple) return;

@@ -3,6 +3,9 @@
 
 using AddonManager.FileManagers;
 using AddonManager.Models;
+using AngleSharp.Dom;
+using AngleSharp.Html.Dom;
+using AngleSharp.Html.Parser;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media.Animation;
@@ -278,5 +281,117 @@ public sealed partial class GuideImporter : Page
 
         return phaseRaids.Contains(raidName) && (raidName.Contains("Vault of Archavon") ? bossName.Contains(vaultBoss) : true);
 
+    }
+
+    private async void Temp_Click(object sender, RoutedEventArgs e)
+    {
+        var wowheadContainsUriList = new Dictionary<string, string>()
+        {
+            { @"https://wotlk.evowow.com/?object=195631#contains", "Faction Champions, Trial of the Crusader (10)" },
+            { @"https://wotlk.evowow.com/?object=195632#contains", "Faction Champions, Trial of the Crusader (25)" },
+            { @"https://wotlk.evowow.com/?object=195633#contains", "Faction Champions, Trial of the Grand Crusader (10)" },
+            { @"https://wotlk.evowow.com/?object=195635#contains", "Faction Champions, Trial of the Grand Crusader (25)" },
+        };
+
+        var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\RaidItemList.json");
+        DatabaseItems dbItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
+
+        await Common.LoadFromWebPages(wowheadContainsUriList.Keys.ToList(), async (uri, content) =>
+        {
+            var parser = new HtmlParser();
+            var doc = default(IHtmlDocument);
+            doc = await parser.ParseDocumentAsync(content);
+
+            var rowElements = doc.QuerySelectorAll("#tab-contains .listview-mode-default tr");
+
+            if (rowElements != null && rowElements.Length > 0)
+            {
+                foreach (var row in rowElements)
+                {
+                    var success = false;
+                    var itemId = 0; // Get ItemId from Row
+                    var itemName = "";
+
+                    RecursiveBoxSearch(row.Children[2], (anchorObject) =>
+                    {
+                        if (success) return true;
+
+                        var item = ((IHtmlAnchorElement)anchorObject).Search.Replace("?item=", "");
+                        itemName = anchorObject.TextContent;
+
+                        success = Int32.TryParse(item, out itemId);
+
+                        if (success)
+                        {
+                            Int32.TryParse(row.Children[3].TextContent, out int itemLevel);
+                            InternalItemsParse(wowheadContainsUriList, uri, row, itemId, itemLevel, anchorObject, dbItems);
+                        }
+                        return success;
+                    });
+                }
+            }
+
+            //write dictionary to file
+            File.WriteAllText(@$"{Constants.ItemDbPath}\RaidItemList.json", JsonConvert.SerializeObject(dbItems, Formatting.Indented));
+        });
+    }
+
+    private void InternalItemsParse(Dictionary<string, string> uriList, string webAddress, IElement row, int itemId, int itemLevel, IElement item, DatabaseItems items)
+    {
+        var excludedWords = new List<string>()
+        {
+            "Emblem",
+            "Reins of the",
+            "Plans: ",
+            "Pattern: ",
+            "Formula: ",
+            "Trophy of the Crusade"
+        };
+
+        var localItems = new DatabaseItems();
+        var itemName = item.TextContent;
+        var isPurple = item.ClassName.Contains("q4") || item.ClassName.Contains("q5");
+        if (!isPurple) return;
+        if (excludedWords.Any(w => itemName.Contains(w))) return;
+
+        var sourceFaction = "B";
+        if (row.Children[5].Children.Count() > 0)
+        {
+            var factionColumn = (IElement)row.Children[5].ChildNodes[0];
+            if (factionColumn?.ClassName == "icon-horde")
+                sourceFaction = "H";
+            else if (factionColumn?.ClassName == "icon-alliance")
+                sourceFaction = "A";
+        }
+
+        var sourceSplit = uriList[webAddress].Split(",");
+        var sourceName = sourceSplit[0].Trim();
+        if (!items.Items.ContainsKey(itemId))
+            items.AddItem(itemId, new DatabaseItem
+            {
+                Name = itemName,
+                SourceNumber = "0",
+                Source = sourceName,
+                SourceLocation = sourceSplit[1].Trim(),
+                SourceType = "Drop",
+                SourceFaction = sourceFaction
+            });
+    }
+
+    internal static void RecursiveBoxSearch(IElement headerElement, Func<IElement, bool> action)
+    {
+        foreach (var boxElement in headerElement.Children)
+        {
+            if (boxElement is IHtmlAnchorElement)
+            {
+                bool goodAnchor = action(boxElement);
+                if (!goodAnchor)
+                    RecursiveBoxSearch(boxElement, action);
+            }
+            else
+            {
+                RecursiveBoxSearch(boxElement, action);
+            }
+        }
     }
 }

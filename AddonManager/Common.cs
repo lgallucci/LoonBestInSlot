@@ -6,9 +6,9 @@ using AngleSharp.Html.Parser;
 using PuppeteerSharp;
 
 namespace AddonManager;
-internal static class Common
+public static class Common
 {
-    internal static async Task LoadFromWebPages(List<string> pageAddresses, Func<string, string, Task> func, CancellationToken? cancelToken = null)
+    public static async Task LoadFromWebPages(List<string> pageAddresses, Func<string, string, Task> func, CancellationToken? cancelToken = null)
     {
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
@@ -129,7 +129,7 @@ internal static class Common
     }
     internal static void ReadWowheadContainsList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
     {
-        var rowElements = doc.QuerySelectorAll("#tab-contains .listview-mode-default .listview-row");
+        var rowElements = doc.QuerySelectorAll("#tab-contains .listview-mode-default tr");
 
         ReadWowheadItemsList(doc, uri, rowElements, func);
     }

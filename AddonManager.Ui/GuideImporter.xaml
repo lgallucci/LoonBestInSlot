@@ -19,13 +19,13 @@
         </ScrollViewer>
         <ComboBox x:Name="cmbSpec" HorizontalAlignment="Left" Margin="160,9,0,0" VerticalAlignment="Top" Width="170" SelectedIndex="0" />
         <ComboBox x:Name="cmbPhase" HorizontalAlignment="Left" Margin="334,9,0,0" VerticalAlignment="Top" Width="145" SelectedIndex="0" />
+        
         <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="495,10,0,10" VerticalAlignment="Top" Click="Cancel_Click"/>
-
         <Button x:Name="btnLocalize" Content="Localize" Margin="10,10,120,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Localize_Click"/>
         <Button x:Name="btnRefreshItems" Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Refresh_Click"/>
-
         <Button x:Name="btnImporters" Content="Importers" Margin="10,10,195,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Importers_Click"/>
         <Button x:Name="btnVerify" Content="Verify" Margin="10,10,285,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Verify_Click"/>
-        <Button x:Name="btnRefreshAll" Content="Refresh All" Margin="10,10,345,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Refresh_All_Click"/><!-- IsEnabled="False"/>-->
+        <Button x:Name="btnRefreshAll" Content="Refresh All" Margin="10,10,345,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Refresh_All_Click"/>
+        <Button x:Name="btnTemp" Content="Temp" Margin="10,10,435,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Temp_Click"/><!-- IsEnabled="False"/>-->
     </Grid>
 </Page>
