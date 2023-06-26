@@ -67,6 +67,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Commander Kolurg"] = "Командир Колург";
   LBIS.L["Commander Stoutbeard"] = "Командир Пивобород";
   LBIS.L["Coren Direbrew"] = "Корен Худовар";
+  LBIS.L["Custom"] = "Вручную";
   LBIS.L["Cyanigosa"] = "Синигоса";
 --  LBIS.L["Daily Fishing Quest"] = "";
   LBIS.L["Dalaran"] = "Даларан";
@@ -93,6 +94,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Dungeon Token"] = "";
   LBIS.L["Eadric the Pure"] = "Эдрик Чистый";
   LBIS.L["Eck the Ferocious"] = "Эк Свирепый";
+  LBIS.L["Edit"] = "Отредактировать";
   LBIS.L["Elder Nadox"] = "Старейшина Надокс";
   LBIS.L["Elemental"] = "Стихии";
   LBIS.L["Emalon the Storm Watcher"] = "Эмалон Страж Бури";
@@ -101,6 +103,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Emblem of Triumph"] = "";
 --  LBIS.L["Emblem of Valor"] = "";
 --  LBIS.L["Emblem Vendor"] = "";
+  LBIS.L["Enchants"] = "Чары на оружии";
   LBIS.L["Engineering"] = "Инженерное дело";
   LBIS.L["Enhancement"] = "Совершенствование";
   LBIS.L["Erekem"] = "Эрекем";
@@ -123,6 +126,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Fury"] = "Неистовство";
   LBIS.L["Gal'darah"] = "Гал'дара";
 --  LBIS.L["Geen"] = "";
+--  LBIS.L["Gems"] = "";
   LBIS.L["General Bjarngrim"] = "Генерал Бьярнгрим";
   LBIS.L["General Vezax"] = "Генерал Везакс";
 --  LBIS.L["General Vezax (Hard)"] = "Генерал Везакс";
@@ -171,6 +175,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["Honor Points"] = "Очки чести";
   LBIS.L["Honored"] = "Уважение";
   LBIS.L["Icecrown"] = "Ледяная Корона";
+  LBIS.L["Icecrown Citadel (10)"] = "Цитадель Ледяной Короны (10)";
+  LBIS.L["Icecrown Citadel (25)"] = "Цитадель Ледяной Короны (25)";
   LBIS.L["Ichoron"] = "Гнойрон";
   LBIS.L["Ignis the Furnace Master"] = "Повелитель Горнов Игнис";
   LBIS.L["Infinite Corruptor"] = "Осквернитель из рода Бесконечности";
@@ -180,6 +186,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Into the Realm of Shadows"] = "Путь в Долину Теней";
   LBIS.L["Ionar"] = "Ионар";
   LBIS.L["It Could Be Anywhere!"] = "Оно может быть где угодно!";
+  LBIS.L["Items"] = "Предметы";
   LBIS.L["Jedoga Shadowseeker"] = "Джедога Искательница Теней";
   LBIS.L["Jewelcrafting"] = "Ювелирное дело";
   LBIS.L["Karazhan"] = "Каражан";
@@ -208,6 +215,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Loatheb"] = "Лотхиб";
   LBIS.L["Loken"] = "Локен";
 --  LBIS.L["Loon Best In Slot"] = "";
+--  LBIS.L["Loon Best In Slot Browser"] = "";
   LBIS.L["Lord Jaraxxus"] = "Лорд Джараксус";
 --  LBIS.L["Madame Ruby"] = "";
   LBIS.L["Maexxna"] = "Мексна";
@@ -342,6 +350,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Oracles (Friendly)"] = "Оракулы (Дружелюбие)";
   LBIS.L["The Prophet Tharon'ja"] = "Пророк Тарон'джа";
   LBIS.L["The Reckoning"] = "Расплата";
+  LBIS.L["The Ruby Sanctum (10)"] = "Рубиновое святилище (10)";
+  LBIS.L["The Ruby Sanctum (25)"] = "Рубиновое святилище (25)";
   LBIS.L["The Sha'tar (Exalted)"] = "Ша'тар (Превознесение)";
   LBIS.L["The Sons of Hodir"] = "Сыны Ходира";
   LBIS.L["The Sons of Hodir (Exalted)"] = "Сыны Ходира (Превознесение)";

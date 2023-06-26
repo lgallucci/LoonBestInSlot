@@ -67,6 +67,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Commander Kolurg"] = "指揮官寇勒格";
   LBIS.L["Commander Stoutbeard"] = "指揮官厚鬚";
   LBIS.L["Coren Direbrew"] = "寇仁·恐酒";
+  LBIS.L["Custom"] = "自訂";
   LBIS.L["Cyanigosa"] = "霞妮苟莎";
 --  LBIS.L["Daily Fishing Quest"] = "";
   LBIS.L["Dalaran"] = "達拉然";
@@ -93,6 +94,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Dungeon Token"] = "";
   LBIS.L["Eadric the Pure"] = "『純淨者』埃卓克";
   LBIS.L["Eck the Ferocious"] = "『兇猛』埃克";
+  LBIS.L["Edit"] = "Edit";
   LBIS.L["Elder Nadox"] = "那杜斯長老";
   LBIS.L["Elemental"] = "元素材料";
   LBIS.L["Emalon the Storm Watcher"] = "『風暴看守者』艾瑪隆";
@@ -101,6 +103,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Emblem of Triumph"] = "";
 --  LBIS.L["Emblem of Valor"] = "";
 --  LBIS.L["Emblem Vendor"] = "";
+  LBIS.L["Enchants"] = "附魔";
   LBIS.L["Engineering"] = "工程學";
   LBIS.L["Enhancement"] = "增強";
   LBIS.L["Erekem"] = "伊銳坎";
@@ -123,6 +126,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Fury"] = "狂怒";
   LBIS.L["Gal'darah"] = "蓋爾達拉";
 --  LBIS.L["Geen"] = "";
+--  LBIS.L["Gems"] = "";
   LBIS.L["General Bjarngrim"] = "畢亞格林將軍";
   LBIS.L["General Vezax"] = "威札斯將軍";
 --  LBIS.L["General Vezax (Hard)"] = "威札斯將軍";
@@ -171,6 +175,8 @@ if GetLocale() == "zhTW" then
   LBIS.L["Honor Points"] = "榮譽點數";
   LBIS.L["Honored"] = "尊敬";
   LBIS.L["Icecrown"] = "寒冰皇冠";
+  LBIS.L["Icecrown Citadel (10)"] = "冰冠城塞 (10)";
+  LBIS.L["Icecrown Citadel (25)"] = "冰冠城塞 (25)";
   LBIS.L["Ichoron"] = "艾克膿";
   LBIS.L["Ignis the Furnace Master"] = "『火爐之主』伊格尼司";
   LBIS.L["Infinite Corruptor"] = "恆龍墮落者";
@@ -180,6 +186,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Into the Realm of Shadows"] = "進入陰影之境";
   LBIS.L["Ionar"] = "埃歐納";
   LBIS.L["It Could Be Anywhere!"] = "它可能在任何地方!";
+  LBIS.L["Items"] = "物品";
   LBIS.L["Jedoga Shadowseeker"] = "潔杜佳·尋影者";
   LBIS.L["Jewelcrafting"] = "珠寶設計";
   LBIS.L["Karazhan"] = "卡拉贊";
@@ -208,6 +215,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Loatheb"] = "憎恨者";
   LBIS.L["Loken"] = "洛肯";
 --  LBIS.L["Loon Best In Slot"] = "";
+--  LBIS.L["Loon Best In Slot Browser"] = "";
   LBIS.L["Lord Jaraxxus"] = "賈拉克瑟斯領主";
 --  LBIS.L["Madame Ruby"] = "";
   LBIS.L["Maexxna"] = "梅克絲娜";
@@ -342,6 +350,8 @@ if GetLocale() == "zhTW" then
   LBIS.L["The Oracles (Friendly)"] = "神諭者 (友方)";
   LBIS.L["The Prophet Tharon'ja"] = "預言者薩隆杰";
   LBIS.L["The Reckoning"] = "終末交鋒";
+  LBIS.L["The Ruby Sanctum (10)"] = "晶紅聖所 (10)";
+  LBIS.L["The Ruby Sanctum (25)"] = "晶紅聖所 (25)";
   LBIS.L["The Sha'tar (Exalted)"] = "薩塔 (崇拜)";
   LBIS.L["The Sons of Hodir"] = "霍迪爾之子";
   LBIS.L["The Sons of Hodir (Exalted)"] = "霍迪爾之子 (崇拜)";
