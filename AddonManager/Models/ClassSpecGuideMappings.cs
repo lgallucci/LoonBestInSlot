@@ -413,6 +413,13 @@ public class ClassSpecGuideMappings
             { ("Ranged/Relic", "#idols-for-feral-druid-dps-phase-1") }
         }));
 
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/feral/dps-bis-gear-pve-phase-2",
+            "Cat", "Druid", "Phase2", new List<(string, GuideMapping)>
+        {
+            { ("Two Hand", "#weapons-for-feral-druid-dps-phase-2") },
+            { ("Ranged/Relic", "#idols-for-feral-druid-dps-phase-2") }
+        }));
+
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/feral/dps-bis-gear-pve-phase-3",
             "Cat", "Druid", "Phase3", new List<(string, GuideMapping)>
         {

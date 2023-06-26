@@ -55,12 +55,16 @@ LBIS:AddItem(spec0, "40322", LBIS.L["Ranged/Relic"], "BIS") --Totem of Dueling
 
 LBIS:AddItem(spec1, "40543", LBIS.L["Head"], "BIS") --Blue Aspect Helm
 LBIS:AddItem(spec1, "40521", LBIS.L["Head"], "BIS") --Valorous Earthshatter Faceguard
+LBIS:AddItem(spec1, "40632", LBIS.L["Head"], "BIS") --Crown of the Lost Protector
 LBIS:AddItem(spec1, "39602", LBIS.L["Head"], "Alt") --Heroes' Earthshatter Faceguard
+LBIS:AddItem(spec1, "40617", LBIS.L["Head"], "Alt") --Helm of the Lost Protector
 LBIS:AddItem(spec1, "40451", LBIS.L["Head"], "Alt") --Hyaline Helm of the Sniper
 LBIS:AddItem(spec1, "40329", LBIS.L["Head"], "Alt") --Hood of the Exodus
 LBIS:AddItem(spec1, "42551", LBIS.L["Head"], "Alt") --Truesight Ice Blinders
 LBIS:AddItem(spec1, "40524", LBIS.L["Shoulder"], "BIS") --Valorous Earthshatter Shoulderguards
+LBIS:AddItem(spec1, "40638", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Protector
 LBIS:AddItem(spec1, "39604", LBIS.L["Shoulder"], "Alt") --Heroes' Earthshatter Shoulderguards
+LBIS:AddItem(spec1, "40623", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Protector
 LBIS:AddItem(spec1, "40315", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Secret Arts
 LBIS:AddItem(spec1, "40299", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Abandoned
 LBIS:AddItem(spec1, "44003", LBIS.L["Shoulder"], "Alt") --Upstanding Spaulders
@@ -70,7 +74,9 @@ LBIS:AddItem(spec1, "39404", LBIS.L["Back"], "Alt") --Cloak of Mastery
 LBIS:AddItem(spec1, "40721", LBIS.L["Back"], "Alt") --Hammerhead Sharkskin Cloak
 LBIS:AddItem(spec1, "40250", LBIS.L["Back"], "Alt") --Aged Winter Cloak
 LBIS:AddItem(spec1, "40523", LBIS.L["Chest"], "BIS") --Valorous Earthshatter Chestguard
+LBIS:AddItem(spec1, "40626", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Protector
 LBIS:AddItem(spec1, "39597", LBIS.L["Chest"], "Alt") --Heroes' Earthshatter Chestguard
+LBIS:AddItem(spec1, "40611", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Protector
 LBIS:AddItem(spec1, "39724", LBIS.L["Chest"], "Alt") --Cult's Chestguard
 LBIS:AddItem(spec1, "40539", LBIS.L["Chest"], "Alt") --Chestguard of the Recluse
 LBIS:AddItem(spec1, "43998", LBIS.L["Chest"], "Alt") --Chestguard of Flagrant Prowess
@@ -81,17 +87,21 @@ LBIS:AddItem(spec1, "40282", LBIS.L["Wrist"], "BIS") --Slime Stream Bands
 LBIS:AddItem(spec1, "39702", LBIS.L["Wrist"], "Alt") --Arachnoid Gold Band
 LBIS:AddItem(spec1, "43131", LBIS.L["Wrist"], "Alt") --Eaglebane Bracers
 LBIS:AddItem(spec1, "40520", LBIS.L["Hands"], "BIS") --Valorous Earthshatter Grips
+LBIS:AddItem(spec1, "40629", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Protector
 LBIS:AddItem(spec1, "40541", LBIS.L["Hands"], "BIS") --Frosted Adroit Handguards
 LBIS:AddItem(spec1, "39727", LBIS.L["Hands"], "Alt") --Dislocating Handguards
 LBIS:AddItem(spec1, "40262", LBIS.L["Hands"], "Alt") --Gloves of Calculated Risk
 LBIS:AddItem(spec1, "39601", LBIS.L["Hands"], "Alt") --Heroes' Earthshatter Grips
+LBIS:AddItem(spec1, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
 LBIS:AddItem(spec1, "37409", LBIS.L["Hands"], "Alt") --Gilt-Edged Leather Gauntlets
 LBIS:AddItem(spec1, "39762", LBIS.L["Waist"], "BIS") --Torn Web Wrapping
 LBIS:AddItem(spec1, "40260", LBIS.L["Waist"], "BIS") --Belt of the Tortured
 LBIS:AddItem(spec1, "40275", LBIS.L["Waist"], "BIS") --Depraved Linked Belt
 LBIS:AddItem(spec1, "37407", LBIS.L["Waist"], "Alt") --Sovereign's Belt
 LBIS:AddItem(spec1, "40522", LBIS.L["Legs"], "BIS") --Valorous Earthshatter War-Kilt
+LBIS:AddItem(spec1, "40635", LBIS.L["Legs"], "BIS") --Legplates of the Lost Protector
 LBIS:AddItem(spec1, "39603", LBIS.L["Legs"], "Alt") --Heroes' Earthshatter War-Kilt
+LBIS:AddItem(spec1, "40620", LBIS.L["Legs"], "Alt") --Leggings of the Lost Protector
 LBIS:AddItem(spec1, "40560", LBIS.L["Legs"], "Alt") --Leggings of the Wanton Spellcaster
 LBIS:AddItem(spec1, "44011", LBIS.L["Legs"], "Alt") --Leggings of the Honored
 LBIS:AddItem(spec1, "40331", LBIS.L["Legs"], "Alt") --Leggings of Failed Escape

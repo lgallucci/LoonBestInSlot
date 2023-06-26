@@ -60,13 +60,17 @@ LBIS:AddItem(spec0, "39233", LBIS.L["Off Hand"], "BIS") --Aegis of Damnation
 LBIS:AddItem(spec0, "40709", LBIS.L["Ranged/Relic"], "BIS") --Totem of Forest Growth
 
 LBIS:AddItem(spec1, "40510", LBIS.L["Head"], "BIS") --Valorous Earthshatter Headpiece
+LBIS:AddItem(spec1, "40632", LBIS.L["Head"], "BIS") --Crown of the Lost Protector
 LBIS:AddItem(spec1, "39583", LBIS.L["Head"], "Alt") --Heroes' Earthshatter Headpiece
+LBIS:AddItem(spec1, "40617", LBIS.L["Head"], "Alt") --Helm of the Lost Protector
 LBIS:AddItem(spec1, "40340", LBIS.L["Head"], "Alt") --Helm of Unleashed Energy
 LBIS:AddItem(spec1, "40304", LBIS.L["Head"], "Alt") --Headpiece of Fungal Bloom
 LBIS:AddItem(spec1, "40339", LBIS.L["Head"], "Alt") --Gothik's Cowl
 LBIS:AddItem(spec1, "39405", LBIS.L["Head"], "Alt") --Helmet of the Inner Sanctum
 LBIS:AddItem(spec1, "42555", LBIS.L["Head"], "Alt") --Electroflux Sight Enhancers
 LBIS:AddItem(spec1, "40513", LBIS.L["Shoulder"], "BIS") --Valorous Earthshatter Spaulders
+LBIS:AddItem(spec1, "40638", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Protector
+LBIS:AddItem(spec1, "40623", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Protector
 LBIS:AddItem(spec1, "39590", LBIS.L["Shoulder"], "Alt") --Heroes' Earthshatter Spaulders
 LBIS:AddItem(spec1, "40439", LBIS.L["Shoulder"], "Alt") --Mantle of the Eternal Sentinel
 LBIS:AddItem(spec1, "40438", LBIS.L["Shoulder"], "Alt") --Council Chamber Epaulets
@@ -80,7 +84,9 @@ LBIS:AddItem(spec1, "41610", LBIS.L["Back"], "Alt") --Deathchill Cloak
 LBIS:AddItem(spec1, "40251", LBIS.L["Back"], "Alt") --Shroud of Luminosity
 LBIS:AddItem(spec1, "39415", LBIS.L["Back"], "Alt") --Shroud of the Citadel
 LBIS:AddItem(spec1, "40508", LBIS.L["Chest"], "BIS") --Valorous Earthshatter Tunic
+LBIS:AddItem(spec1, "40626", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Protector
 LBIS:AddItem(spec1, "39588", LBIS.L["Chest"], "Alt") --Heroes' Earthshatter Tunic
+LBIS:AddItem(spec1, "40611", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Protector
 LBIS:AddItem(spec1, "40588", LBIS.L["Chest"], "Alt") --Tunic of the Artifact Guardian
 LBIS:AddItem(spec1, "40061", LBIS.L["Chest"], "Alt") --Quivering Tunic
 LBIS:AddItem(spec1, "40283", LBIS.L["Chest"], "Alt") --Fallout Impervious Tunic
@@ -93,7 +99,9 @@ LBIS:AddItem(spec1, "37788", LBIS.L["Wrist"], "Alt") --Limb Regeneration Bracers
 LBIS:AddItem(spec1, "37884", LBIS.L["Wrist"], "Alt") --Azure Cloth Bindings
 LBIS:AddItem(spec1, "40564", LBIS.L["Hands"], "BIS") --Winter Spectacle Gloves
 LBIS:AddItem(spec1, "40509", LBIS.L["Hands"], "Alt") --Valorous Earthshatter Handguards
+LBIS:AddItem(spec1, "40629", LBIS.L["Hands"], "Alt") --Gauntlets of the Lost Protector
 LBIS:AddItem(spec1, "39591", LBIS.L["Hands"], "Alt") --Heroes' Earthshatter Handguards
+LBIS:AddItem(spec1, "40614", LBIS.L["Hands"], "Alt") --Gloves of the Lost Protector
 LBIS:AddItem(spec1, "39718", LBIS.L["Hands"], "Alt") --Corpse Scarab Handguards
 LBIS:AddItem(spec1, "40303", LBIS.L["Hands"], "Alt") --Wraps of the Persecuted
 LBIS:AddItem(spec1, "40302", LBIS.L["Hands"], "Alt") --Benefactor's Gauntlets
@@ -104,7 +112,9 @@ LBIS:AddItem(spec1, "39721", LBIS.L["Waist"], "BIS") --Sash of the Parlor
 LBIS:AddItem(spec1, "40693", LBIS.L["Waist"], "Alt") --Beadwork Belt of Shamanic Vision
 LBIS:AddItem(spec1, "37643", LBIS.L["Waist"], "Alt") --Sash of Blood Removal
 LBIS:AddItem(spec1, "40512", LBIS.L["Legs"], "BIS") --Valorous Earthshatter Legguards
+LBIS:AddItem(spec1, "40635", LBIS.L["Legs"], "BIS") --Legplates of the Lost Protector
 LBIS:AddItem(spec1, "39589", LBIS.L["Legs"], "Alt") --Heroes' Earthshatter Legguards
+LBIS:AddItem(spec1, "40620", LBIS.L["Legs"], "Alt") --Leggings of the Lost Protector
 LBIS:AddItem(spec1, "40352", LBIS.L["Legs"], "Alt") --Leggings of Voracious Shadows
 LBIS:AddItem(spec1, "40196", LBIS.L["Legs"], "Alt") --Legguards of the Undisturbed
 LBIS:AddItem(spec1, "39217", LBIS.L["Legs"], "Alt") --Avenging Combat Leggings
