@@ -175,8 +175,8 @@ LBIS:AddItem(spec2, "45263", LBIS.L["Trinket"], "Alt") --Wrathstone
 LBIS:AddItem(spec2, "46038", LBIS.L["Trinket"], "Alt") --Dark Matter
 LBIS:AddItem(spec2, "45522", LBIS.L["Trinket"], "Alt") --Blood of the Old God
 LBIS:AddItem(spec2, "45286", LBIS.L["Trinket"], "Alt") --Pyrite Infuser
-LBIS:AddItem(spec2, "45957", LBIS.L["Main Hand"], "BIS") --Furious Gladiator's Handaxe
 LBIS:AddItem(spec2, "46097", LBIS.L["Main Hand/Off Hand"], "BIS") --Caress of Insanity
+LBIS:AddItem(spec2, "45957", LBIS.L["Main Hand"], "BIS") --Furious Gladiator's Handaxe
 LBIS:AddItem(spec2, "46036", LBIS.L["Main Hand/Off Hand"], "Alt/BIS") --Void Sabre
 LBIS:AddItem(spec2, "45947", LBIS.L["Main Hand/Off Hand"], "Alt") --Serilas, Blood Blade of Invar One-Arm
 LBIS:AddItem(spec2, "45442", LBIS.L["Main Hand/Off Hand"], "Alt") --Sorthalis, Hammer of the Watchers
@@ -189,6 +189,7 @@ LBIS:AddItem(spec2, "42621", LBIS.L["Ranged/Relic"], "Alt") --Furious Gladiator'
 LBIS:AddItem(spec3, "48493", LBIS.L["Head"], "BIS") --Koltira's Helmet of Triumph
 LBIS:AddItem(spec3, "48488", LBIS.L["Head"], "BIS") --Thassarian's Helmet of Triumph
 LBIS:AddItem(spec3, "48498", LBIS.L["Head"], "Alt") --Koltira's Helmet of Triumph
+LBIS:AddItem(spec3, "48483", LBIS.L["Head"], "Alt") --Thassarian's Helmet of Triumph
 LBIS:AddItem(spec3, "45472", LBIS.L["Head"], "Alt") --Warhelm of the Champion
 LBIS:AddItem(spec3, "46115", LBIS.L["Head"], "Alt") --Conqueror's Darkruned Helmet
 LBIS:AddItem(spec3, "48495", LBIS.L["Shoulder"], "BIS") --Koltira's Shoulderplates of Triumph
@@ -207,8 +208,8 @@ LBIS:AddItem(spec3, "46032", LBIS.L["Back"], "Alt") --Drape of the Faceless Gene
 LBIS:AddItem(spec3, "46320", LBIS.L["Back"], "Alt") --Drape of the Skyherald
 LBIS:AddItem(spec3, "48491", LBIS.L["Chest"], "BIS") --Koltira's Battleplate of Triumph
 LBIS:AddItem(spec3, "48490", LBIS.L["Chest"], "BIS") --Thassarian's Battleplate of Triumph
-LBIS:AddItem(spec3, "48500", LBIS.L["Chest"], "Alt") --Koltira's Battleplate of Triumph
 LBIS:AddItem(spec3, "48481", LBIS.L["Chest"], "Alt") --Thassarian's Battleplate of Triumph
+LBIS:AddItem(spec3, "48500", LBIS.L["Chest"], "Alt") --Koltira's Battleplate of Triumph
 LBIS:AddItem(spec3, "47449", LBIS.L["Chest"], "Alt") --Chestplate of the Frostwolf Hero
 LBIS:AddItem(spec3, "47086", LBIS.L["Chest"], "Alt") --Chestplate of the Frostborn Hero
 LBIS:AddItem(spec3, "46111", LBIS.L["Chest"], "Alt") --Conqueror's Darkruned Battleplate
@@ -230,8 +231,8 @@ LBIS:AddItem(spec3, "45241", LBIS.L["Waist"], "Alt") --Belt of Colossal Rage
 LBIS:AddItem(spec3, "47998", LBIS.L["Waist"], "Alt") --Belt of the Impaler
 LBIS:AddItem(spec3, "47925", LBIS.L["Waist"], "Alt") --Girdle of the Impaler
 LBIS:AddItem(spec3, "46041", LBIS.L["Waist"], "Alt") --Starfall Girdle
-LBIS:AddItem(spec3, "47465", LBIS.L["Legs"], "BIS") --Legplates of Ascension
 LBIS:AddItem(spec3, "47132", LBIS.L["Legs"], "BIS") --Legguards of Ascension
+LBIS:AddItem(spec3, "47465", LBIS.L["Legs"], "BIS") --Legplates of Ascension
 LBIS:AddItem(spec3, "45134", LBIS.L["Legs"], "Alt") --Plated Leggings of Ruination
 LBIS:AddItem(spec3, "48494", LBIS.L["Legs"], "Alt") --Koltira's Legplates of Triumph
 LBIS:AddItem(spec3, "48487", LBIS.L["Legs"], "Alt") --Thassarian's Legplates of Triumph

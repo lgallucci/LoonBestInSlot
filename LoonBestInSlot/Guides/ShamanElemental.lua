@@ -198,6 +198,7 @@ LBIS:AddItem(spec3, "48333", LBIS.L["Head"], "Alt") --Thrall's Helm of Triumph
 LBIS:AddItem(spec3, "48313", LBIS.L["Head"], "Alt") --Nobundo's Helm of Conquest
 LBIS:AddItem(spec3, "48338", LBIS.L["Head"], "Alt") --Thrall's Helm of Conquest
 LBIS:AddItem(spec3, "46209", LBIS.L["Head"], "Alt") --Conqueror's Worldbreaker Helm
+LBIS:AddItem(spec3, "45639", LBIS.L["Head"], "Alt") --Crown of the Wayward Protector
 LBIS:AddItem(spec3, "48321", LBIS.L["Shoulder"], "BIS") --Nobundo's Shoulderpads of Triumph
 LBIS:AddItem(spec3, "48330", LBIS.L["Shoulder"], "BIS") --Thrall's Shoulderpads of Triumph
 LBIS:AddItem(spec3, "48320", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderpads of Triumph
@@ -205,6 +206,7 @@ LBIS:AddItem(spec3, "48331", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads 
 LBIS:AddItem(spec3, "48315", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderpads of Conquest
 LBIS:AddItem(spec3, "48340", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads of Conquest
 LBIS:AddItem(spec3, "46211", LBIS.L["Shoulder"], "Alt") --Conqueror's Worldbreaker Shoulderpads
+LBIS:AddItem(spec3, "45657", LBIS.L["Shoulder"], "Alt") --Mantle of the Wayward Protector
 LBIS:AddItem(spec3, "46044", LBIS.L["Shoulder"], "Alt") --Observer's Mantle
 LBIS:AddItem(spec3, "45474", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Combatant
 LBIS:AddItem(spec3, "47552", LBIS.L["Back"], "BIS") --Jaina's Radiance
@@ -227,6 +229,7 @@ LBIS:AddItem(spec3, "48335", LBIS.L["Chest"], "Alt") --Thrall's Hauberk of Trium
 LBIS:AddItem(spec3, "48310", LBIS.L["Chest"], "Alt") --Nobundo's Hauberk of Conquest
 LBIS:AddItem(spec3, "48336", LBIS.L["Chest"], "Alt") --Thrall's Hauberk of Conquest
 LBIS:AddItem(spec3, "46206", LBIS.L["Chest"], "Alt") --Conqueror's Worldbreaker Hauberk
+LBIS:AddItem(spec3, "45633", LBIS.L["Chest"], "Alt") --Breastplate of the Wayward Protector
 LBIS:AddItem(spec3, "45867", LBIS.L["Chest"], "Alt") --Breastplate of the Stoneshaper
 LBIS:AddItem(spec3, "45460", LBIS.L["Wrist"], "BIS") --Bindings of Winter Gale
 LBIS:AddItem(spec3, "47586", LBIS.L["Wrist"], "Alt") --Bejeweled Wizard's Bracers
@@ -240,6 +243,7 @@ LBIS:AddItem(spec3, "48312", LBIS.L["Hands"], "Alt") --Nobundo's Gloves of Conqu
 LBIS:AddItem(spec3, "48337", LBIS.L["Hands"], "Alt") --Thrall's Gloves of Conquest
 LBIS:AddItem(spec3, "45665", LBIS.L["Hands"], "Alt") --Pharos Gloves
 LBIS:AddItem(spec3, "46207", LBIS.L["Hands"], "Alt") --Conqueror's Worldbreaker Gloves
+LBIS:AddItem(spec3, "45642", LBIS.L["Hands"], "Alt") --Gauntlets of the Wayward Protector
 LBIS:AddItem(spec3, "45943", LBIS.L["Hands"], "Alt") --Gloves of Whispering Winds
 LBIS:AddItem(spec3, "47084", LBIS.L["Waist"], "BIS") --Cord of Biting Cold
 LBIS:AddItem(spec3, "47447", LBIS.L["Waist"], "BIS") --Belt of Biting Cold
@@ -256,6 +260,7 @@ LBIS:AddItem(spec3, "48332", LBIS.L["Legs"], "Alt") --Thrall's Kilt of Triumph
 LBIS:AddItem(spec3, "48314", LBIS.L["Legs"], "Alt") --Nobundo's Kilt of Conquest
 LBIS:AddItem(spec3, "48339", LBIS.L["Legs"], "Alt") --Thrall's Kilt of Conquest
 LBIS:AddItem(spec3, "46210", LBIS.L["Legs"], "Alt") --Conqueror's Worldbreaker Kilt
+LBIS:AddItem(spec3, "45654", LBIS.L["Legs"], "Alt") --Legplates of the Wayward Protector
 LBIS:AddItem(spec3, "45488", LBIS.L["Legs"], "Alt") --Leggings of the Enslaved Idol
 LBIS:AddItem(spec3, "47099", LBIS.L["Feet"], "BIS") --Boots of Tremoring Earth
 LBIS:AddItem(spec3, "47456", LBIS.L["Feet"], "BIS") --Sabatons of Tremoring Earth
@@ -285,8 +290,8 @@ LBIS:AddItem(spec3, "45308", LBIS.L["Trinket"], "Alt") --Eye of the Broodmother
 LBIS:AddItem(spec3, "40432", LBIS.L["Trinket"], "Alt") --Illustration of the Dragon Soul
 LBIS:AddItem(spec3, "46980", LBIS.L["Main Hand"], "BIS") --Blade of Tarasque
 LBIS:AddItem(spec3, "47422", LBIS.L["Main Hand"], "BIS") --Barb of Tarasque
-LBIS:AddItem(spec3, "47483", LBIS.L["Main Hand"], "Alt") --Suffering's End
 LBIS:AddItem(spec3, "47206", LBIS.L["Main Hand"], "Alt") --Misery's End
+LBIS:AddItem(spec3, "47483", LBIS.L["Main Hand"], "Alt") --Suffering's End
 LBIS:AddItem(spec3, "45612", LBIS.L["Main Hand"], "Alt") --Constellus
 LBIS:AddItem(spec3, "45620", LBIS.L["Main Hand"], "Alt") --Starshard Edge
 LBIS:AddItem(spec3, "46035", LBIS.L["Main Hand"], "Alt") --Aesuga, Hand of the Ardent Champion

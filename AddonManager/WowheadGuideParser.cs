@@ -425,65 +425,66 @@ public class WowheadGuideParser
         return bisText.Trim() + altText;
     }
 
-    private void ParseItemCell(INode itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items, int itemOrderIndex)
+    private void ParseItemCell(IElement itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items, int itemOrderIndex)
     {
         bool foundAnchor = false;
-        foreach (var child in itemChild.ChildNodes)
+
+        Common.RecursiveBoxSearch(itemChild, (child) =>
         {
-            if (child is IHtmlAnchorElement)
+            foundAnchor = true;
+            bool foundItem = false;
+
+            if (((IHtmlAnchorElement)child).PathName.Contains("/item="))
             {
-                foundAnchor = true;
+                var item = ((IHtmlAnchorElement)child).PathName.Replace("/wotlk", "").Replace("/item=", "");
 
-                if (((IHtmlAnchorElement)child).PathName.Contains("/item="))
+                var itemIdIndex = item.IndexOf("/");
+                if (itemIdIndex == -1)
+                    itemIdIndex = item.IndexOf("&");
+
+                item = item.Substring(0, itemIdIndex);
+                var itemName = child.TextContent.Trim();
+
+                bool skippedItem = false;
+                foreach (var excludedName in excludedItemNames)
+                    if ((child.NextSibling?.TextContent.Trim().EndsWith(excludedName) ?? false) ||
+                        (child.NextSibling?.NextSibling?.TextContent.Trim().EndsWith(excludedName) ?? false) ||
+                        itemName.EndsWith(excludedName))
+                        skippedItem = true;
+
+                if (!skippedItem)
                 {
-                    var item = ((IHtmlAnchorElement)child).PathName.Replace("/wotlk", "").Replace("/item=", "");
+                    int itemId = -99999;
+                    Int32.TryParse(item, out itemId);
 
-                    var itemIdIndex = item.IndexOf("/");
-                    if (itemIdIndex == -1)
-                        itemIdIndex = item.IndexOf("&");
+                    if (_itemSwaps.ContainsKey(itemId))
+                        itemId = _itemSwaps[itemId];
 
-                    item = item.Substring(0, itemIdIndex);
-                    var itemName = child.TextContent.Trim();
 
-                    bool skippedItem = false;
-                    foreach (var excludedName in excludedItemNames)
-                        if ((child.NextSibling?.TextContent.Trim().EndsWith(excludedName) ?? false) ||
-                            (child.NextSibling?.NextSibling?.TextContent.Trim().EndsWith(excludedName) ?? false) ||
-                            itemName.EndsWith(excludedName))
-                            skippedItem = true;
-
-                    if (!skippedItem)
+                    if (!items.ContainsKey(itemId))
                     {
-                        int itemId = -99999;
-                        Int32.TryParse(item, out itemId);
-
-                        if (_itemSwaps.ContainsKey(itemId))
-                            itemId = _itemSwaps[itemId];
-
-                        if (!items.ContainsKey(itemId))
+                        items.Add(itemId, new ItemSpec
                         {
-                            items.Add(itemId, new ItemSpec
-                            {
-                                ItemId = itemId,
-                                Name = itemName ?? "unknown",
-                                BisStatus = bisStatus ?? "unknown",
-                                Slot = slot,
-                                ItemOrder = itemOrderIndex
-                            });
-                        }
-                        else
+                            ItemId = itemId,
+                            Name = itemName ?? "unknown",
+                            BisStatus = bisStatus ?? "unknown",
+                            Slot = slot,
+                            ItemOrder = itemOrderIndex
+                        });
+                    }
+                    else
+                    {
+                        if (items[itemId].Slot != slot)
                         {
-                            if (items[itemId].Slot != slot)
-                            {
-                                items[itemId].Slot = $"{items[itemId].Slot}/{slot}";
-                                if (items[itemId].BisStatus != bisStatus)
-                                    items[itemId].BisStatus = $"{items[itemId].BisStatus}/{bisStatus}";
-                            }
+                            items[itemId].Slot = $"{items[itemId].Slot}/{slot}";
+                            if (items[itemId].BisStatus != bisStatus)
+                                items[itemId].BisStatus = $"{items[itemId].BisStatus}/{bisStatus}";
                         }
                     }
                 }
             }
-        }
+            return foundItem;
+        });
         if (!foundAnchor)
         {
             var itemId = -1 * _rand.Next(10000, 99999);
@@ -498,7 +499,7 @@ public class WowheadGuideParser
         }
     }
 
-    private void LoopThroughTable(IHtmlTableElement? table, Action<INode, INode?, int, bool> action)
+    private void LoopThroughTable(IHtmlTableElement? table, Action<INode, IElement?, int, bool> action)
     {
         var itemOrderIndex = 0;
         var firstRow = false;
@@ -516,14 +517,14 @@ public class WowheadGuideParser
                     continue;
                 }
 
-                INode? itemChild = null;
+                IElement? itemChild = null;
                 foreach (var rowChild in tableRow.ChildNodes)
                 {
                     if (rowChild.NodeType == NodeType.Element)
                     {
                         if (rowChild.ChildNodes.Any(n => n.NodeName == "A" && ((IHtmlAnchorElement)n).PathName.Contains("/item=")))
                         {
-                            itemChild = rowChild;
+                            itemChild = (IElement)rowChild;
                             break;
                         }
                     }

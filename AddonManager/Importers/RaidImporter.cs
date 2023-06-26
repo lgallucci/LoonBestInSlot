@@ -24,8 +24,8 @@ public class RaidImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=33993/emalon-the-storm-watcher#drops;mode:n25;100", "Emalon the Storm Watcher, Vault of Archavon (25)" },
         { @"https://www.wowhead.com/wotlk/npc=35013/koralon-the-flame-watcher#drops;mode:n10", "Koralon the Flame Watcher, Vault of Archavon (10)" },
         { @"https://www.wowhead.com/wotlk/npc=35013/koralon-the-flame-watcher#drops;mode:n25", "Koralon the Flame Watcher, Vault of Archavon (25)" },
-        //{ @"https://www.wowhead.com/wotlk/npc=38433/toravon-the-ice-watcher#drops;mode:n10", "Toravon the Ice Watcher, Vault of Archavon (10)" },
-        //{ @"https://www.wowhead.com/wotlk/npc=38433/toravon-the-ice-watcher#drops;mode:n25", "Toravon the Ice Watcher, Vault of Archavon (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=38433/toravon-the-ice-watcher#drops;mode:n10", "Toravon the Ice Watcher, Vault of Archavon (10)" },
+        { @"https://www.wowhead.com/wotlk/npc=38433/toravon-the-ice-watcher#drops;mode:n25", "Toravon the Ice Watcher, Vault of Archavon (25)" },
         //Naxxramas
         { @"https://www.wowhead.com/wotlk/npc=15956/anubrekhan#drops;mode:n25", "Anub'Rekhan, Naxxramas" },
         { @"https://www.wowhead.com/wotlk/npc=15953/grand-widow-faerlina#drops;mode:n25", "Grand Widow Faerlina, Naxxramas" },
@@ -89,10 +89,10 @@ public class RaidImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=34780/lord-jaraxxus#drops;mode:n25", "Lord Jaraxxus, Trial of the Crusader (25)" },
         { @"https://www.wowhead.com/wotlk/npc=34780/lord-jaraxxus#drops;mode:heroic10", "Lord Jaraxxus, Trial of the Grand Crusader (10)" },
         { @"https://www.wowhead.com/wotlk/npc=34780/lord-jaraxxus#drops;mode:heroic25", "Lord Jaraxxus, Trial of the Grand Crusader (25)" },
-        //{ @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:n10", "Faction Champions, Trial of the Crusader (10)" },
-        //{ @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:n25", "Faction Champions, Trial of the Crusader (25)" },
-        //{ @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:heroic10", "Faction Champions, Trial of the Grand Crusader (10)" },
-        //{ @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:heroic25", "Faction Champions, Trial of the Grand Crusader (25)" },
+        { @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:n10", "Faction Champions, Trial of the Crusader (10)" }, //DOESNT WORK :*(
+        { @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:n25", "Faction Champions, Trial of the Crusader (25)" }, //DOESNT WORK :*(
+        { @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:heroic10", "Faction Champions, Trial of the Grand Crusader (10)" }, //DOESNT WORK :*(
+        { @"https://www.wowhead.com/wotlk/npc=34444/thrakgar#drops;mode:heroic25", "Faction Champions, Trial of the Grand Crusader (25)" }, //DOESNT WORK :*(
         { @"https://www.wowhead.com/wotlk/npc=34497/fjola-lightbane#drops;mode:n10", "The Twin Val'kyr, Trial of the Crusader (10)" },
         { @"https://www.wowhead.com/wotlk/npc=34496/eydis-darkbane#drops;mode:n10", "The Twin Val'kyr, Trial of the Crusader (10)" },
         { @"https://www.wowhead.com/wotlk/npc=34497/fjola-lightbane#drops;mode:n25", "The Twin Val'kyr, Trial of the Crusader (25)" },
@@ -105,6 +105,66 @@ public class RaidImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=34564/anubarak#drops;mode:n25", "Anub'arak, Trial of the Crusader (25)" },
         { @"https://www.wowhead.com/wotlk/npc=34564/anubarak#drops;mode:heroic10", "Anub'arak, Trial of the Grand Crusader (10)" },
         { @"https://www.wowhead.com/wotlk/npc=34564/anubarak#drops;mode:heroic25", "Anub'arak, Trial of the Grand Crusader (25)" },
+        //Icecrown
+        //{ @"https://www.wowhead.com/wotlk/npc=36612/lord-marrowgar#drops;mode:n10", "Lord Marrowgar, Icecrown Citadel (10)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36612/lord-marrowgar#drops;mode:n25", "Lord Marrowgar, Icecrown Citadel (25)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36612/lord-marrowgar#drops;mode:heroic10", "Lord Marrowgar, Icecrown Citadel (10H)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36612/lord-marrowgar#drops;mode:heroic25", "Lord Marrowgar, Icecrown Citadel (25H)" },
+
+        //{ @"https://www.wowhead.com/wotlk/npc=36855/lady-deathwhisper#drops;mode:n10", "Lady Deathwhisper, Icecrown Citadel (10)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36855/lady-deathwhisper#drops;mode:n25", "Lady Deathwhisper, Icecrown Citadel (25)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36855/lady-deathwhisper#drops;mode:heroic10", "Lady Deathwhisper, Icecrown Citadel (10H)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36855/lady-deathwhisper#drops;mode:heroic25", "Lady Deathwhisper, Icecrown Citadel (25H)" },
+
+        //{ @"", "" },//Gunship Armory
+        //{ @"", "" },//Gunship Armory
+        //{ @"", "" },//Gunship Armory
+        //{ @"", "" },//Gunship Armory
+
+        //{ @"https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#drops;mode:n10", "Deathbringer Saurfang, Icecrown Citadel (10)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#drops;mode:n25", "Deathbringer Saurfang, Icecrown Citadel (25)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#drops;mode:heroic10", "Deathbringer Saurfang, Icecrown Citadel (10H)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#drops;mode:heroic25", "Deathbringer Saurfang, Icecrown Citadel (25H)" },
+
+        //{ @"https://www.wowhead.com/wotlk/npc=36626/festergut#drops;mode:n10", "Festergut, Icecrown Citadel (10)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36626/festergut#drops;mode:n25", "Festergut, Icecrown Citadel (25)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36626/festergut#drops;mode:heroic10", "Festergut, Icecrown Citadel (10H)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36626/festergut#drops;mode:heroic25", "Festergut, Icecrown Citadel (25H)" },
+
+        //{ @"https://www.wowhead.com/wotlk/npc=36627/rotface#drops;mode:n10", "Rotface, Icecrown Citadel (10)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36627/rotface#drops;mode:n25", "Rotface, Icecrown Citadel (25)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36627/rotface#drops;mode:heroic10", "Rotface, Icecrown Citadel (10H)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36627/rotface#drops;mode:heroic25", "Rotface, Icecrown Citadel (25H)" },
+
+        //{ @"https://www.wowhead.com/wotlk/npc=36678/professor-putricide#drops;mode:n10", "Professor Putricide, Icecrown Citadel (10)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36678/professor-putricide#drops;mode:n25", "Professor Putricide, Icecrown Citadel (25)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36678/professor-putricide#drops;mode:heroic10", "Professor Putricide, Icecrown Citadel (10H)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36678/professor-putricide#drops;mode:heroic25", "Professor Putricide, Icecrown Citadel (25H)" },
+
+        //{ @"https://www.wowhead.com/wotlk/npc=37970/prince-valanar#drops;mode:n10", "Prince Valanar, Icecrown Citadel (10)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=37970/prince-valanar#drops;mode:n25", "Prince Valanar, Icecrown Citadel (25)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=37970/prince-valanar#drops;mode:heroic10", "Prince Valanar, Icecrown Citadel (10H)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=37970/prince-valanar#drops;mode:heroic25", "Prince Valanar, Icecrown Citadel (25H)" },
+
+        //{ @"https://www.wowhead.com/wotlk/npc=37955/blood-queen-lanathel#drops;mode:n10", "Blood-Queen Lana'thel, Icecrown Citadel (10)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=37955/blood-queen-lanathel#drops;mode:n25", "Blood-Queen Lana'thel, Icecrown Citadel (25)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=37955/blood-queen-lanathel#drops;mode:heroic10", "Blood-Queen Lana'thel, Icecrown Citadel (10H)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=37955/blood-queen-lanathel#drops;mode:heroic25", "Blood-Queen Lana'thel, Icecrown Citadel (25H)" },
+
+        //{ @"https://www.wowhead.com/wotlk/npc=36789/valithria-dreamwalker#drops;mode:n10", "Valithria Dreamwalker, Icecrown Citadel (10)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36789/valithria-dreamwalker#drops;mode:n25", "Valithria Dreamwalker, Icecrown Citadel (25)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36789/valithria-dreamwalker#drops;mode:heroic10", "Valithria Dreamwalker, Icecrown Citadel (10H)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36789/valithria-dreamwalker#drops;mode:heroic25", "Valithria Dreamwalker, Icecrown Citadel (25H)" },
+
+        //{ @"https://www.wowhead.com/wotlk/npc=36853/sindragosa#drops;mode:n10", "Sindragosa, Icecrown Citadel (10)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36853/sindragosa#drops;mode:n25", "Sindragosa, Icecrown Citadel (25)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36853/sindragosa#drops;mode:heroic10", "Sindragosa, Icecrown Citadel (10H)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36853/sindragosa#drops;mode:heroic25", "Sindragosa, Icecrown Citadel (25H)" },
+
+        //{ @"https://www.wowhead.com/wotlk/npc=36597/the-lich-king#drops;mode:n10", "The Lich King, Icecrown Citadel (10)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36597/the-lich-king#drops;mode:n25", "The Lich King, Icecrown Citadel (25)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36597/the-lich-king#drops;mode:heroic10", "The Lich King, Icecrown Citadel (10H)" },
+        //{ @"https://www.wowhead.com/wotlk/npc=36597/the-lich-king#drops;mode:heroic25", "The Lich King, Icecrown Citadel (25H)" },
     };
     private Dictionary<string, string> wowheadContainsUriList = new Dictionary<string, string>
     {

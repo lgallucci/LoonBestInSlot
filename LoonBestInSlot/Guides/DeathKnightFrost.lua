@@ -181,6 +181,7 @@ LBIS:AddItem(spec2, "40207", LBIS.L["Ranged/Relic"], "BIS") --Sigil of Awareness
 LBIS:AddItem(spec3, "48493", LBIS.L["Head"], "BIS") --Koltira's Helmet of Triumph
 LBIS:AddItem(spec3, "48488", LBIS.L["Head"], "BIS") --Thassarian's Helmet of Triumph
 LBIS:AddItem(spec3, "48498", LBIS.L["Head"], "Alt") --Koltira's Helmet of Triumph
+LBIS:AddItem(spec3, "48483", LBIS.L["Head"], "Alt") --Thassarian's Helmet of Triumph
 LBIS:AddItem(spec3, "45472", LBIS.L["Head"], "Alt") --Warhelm of the Champion
 LBIS:AddItem(spec3, "46115", LBIS.L["Head"], "Alt") --Conqueror's Darkruned Helmet
 LBIS:AddItem(spec3, "48495", LBIS.L["Shoulder"], "BIS") --Koltira's Shoulderplates of Triumph
@@ -199,8 +200,8 @@ LBIS:AddItem(spec3, "46032", LBIS.L["Back"], "Alt") --Drape of the Faceless Gene
 LBIS:AddItem(spec3, "46320", LBIS.L["Back"], "Alt") --Drape of the Skyherald
 LBIS:AddItem(spec3, "48491", LBIS.L["Chest"], "BIS") --Koltira's Battleplate of Triumph
 LBIS:AddItem(spec3, "48490", LBIS.L["Chest"], "BIS") --Thassarian's Battleplate of Triumph
-LBIS:AddItem(spec3, "48500", LBIS.L["Chest"], "Alt") --Koltira's Battleplate of Triumph
 LBIS:AddItem(spec3, "48481", LBIS.L["Chest"], "Alt") --Thassarian's Battleplate of Triumph
+LBIS:AddItem(spec3, "48500", LBIS.L["Chest"], "Alt") --Koltira's Battleplate of Triumph
 LBIS:AddItem(spec3, "47449", LBIS.L["Chest"], "Alt") --Chestplate of the Frostwolf Hero
 LBIS:AddItem(spec3, "47086", LBIS.L["Chest"], "Alt") --Chestplate of the Frostborn Hero
 LBIS:AddItem(spec3, "46111", LBIS.L["Chest"], "Alt") --Conqueror's Darkruned Battleplate
