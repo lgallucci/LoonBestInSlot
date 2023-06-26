@@ -158,9 +158,13 @@ LBIS:AddItem(spec1, "40709", LBIS.L["Ranged/Relic"], "BIS") --Totem of Forest Gr
 LBIS:AddItem(spec1, "38368", LBIS.L["Ranged/Relic"], "Alt") --Totem of the Bay
 
 LBIS:AddItem(spec2, "46201", LBIS.L["Head"], "BIS") --Conqueror's Worldbreaker Headpiece
+LBIS:AddItem(spec2, "45639", LBIS.L["Head"], "BIS") --Crown of the Wayward Protector
 LBIS:AddItem(spec2, "45402", LBIS.L["Head"], "Alt") --Valorous Worldbreaker Headpiece
+LBIS:AddItem(spec2, "45648", LBIS.L["Head"], "Alt") --Helm of the Wayward Protector
 LBIS:AddItem(spec2, "46204", LBIS.L["Shoulder"], "BIS") --Conqueror's Worldbreaker Spaulders
+LBIS:AddItem(spec2, "45657", LBIS.L["Shoulder"], "BIS") --Mantle of the Wayward Protector
 LBIS:AddItem(spec2, "45404", LBIS.L["Shoulder"], "Alt") --Valorous Worldbreaker Spaulders
+LBIS:AddItem(spec2, "45660", LBIS.L["Shoulder"], "Alt") --Spaulders of the Wayward Protector
 LBIS:AddItem(spec2, "46044", LBIS.L["Shoulder"], "Alt") --Observer's Mantle
 LBIS:AddItem(spec2, "45474", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Combatant
 LBIS:AddItem(spec2, "45486", LBIS.L["Back"], "BIS") --Drape of the Sullen Goddess
@@ -169,19 +173,25 @@ LBIS:AddItem(spec2, "45541", LBIS.L["Back"], "Alt") --Shroud of Alteration
 LBIS:AddItem(spec2, "46341", LBIS.L["Back"], "Alt") --Drape of the Spellweaver
 LBIS:AddItem(spec2, "40724", LBIS.L["Back"], "Alt") --Cloak of Kea Feathers
 LBIS:AddItem(spec2, "46198", LBIS.L["Chest"], "BIS") --Conqueror's Worldbreaker Tunic
+LBIS:AddItem(spec2, "45633", LBIS.L["Chest"], "BIS") --Breastplate of the Wayward Protector
 LBIS:AddItem(spec2, "45867", LBIS.L["Chest"], "BIS") --Breastplate of the Stoneshaper
 LBIS:AddItem(spec2, "45405", LBIS.L["Chest"], "Alt") --Valorous Worldbreaker Tunic
+LBIS:AddItem(spec2, "45636", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Protector
 LBIS:AddItem(spec2, "45460", LBIS.L["Wrist"], "BIS") --Bindings of Winter Gale
 LBIS:AddItem(spec2, "45187", LBIS.L["Wrist"], "Alt") --Wristguards of the Firetender
 LBIS:AddItem(spec2, "45316", LBIS.L["Wrist"], "Alt") --Armbraces of the Vibrant Flame
 LBIS:AddItem(spec2, "45665", LBIS.L["Hands"], "BIS") --Pharos Gloves
 LBIS:AddItem(spec2, "46199", LBIS.L["Hands"], "BIS") --Conqueror's Worldbreaker Handguards
+LBIS:AddItem(spec2, "45642", LBIS.L["Hands"], "BIS") --Gauntlets of the Wayward Protector
+LBIS:AddItem(spec2, "45645", LBIS.L["Hands"], "Alt") --Gloves of the Wayward Protector
 LBIS:AddItem(spec2, "45401", LBIS.L["Hands"], "Alt") --Valorous Worldbreaker Handguards
 LBIS:AddItem(spec2, "45943", LBIS.L["Hands"], "Alt") --Gloves of Whispering Winds
 LBIS:AddItem(spec2, "45616", LBIS.L["Waist"], "BIS") --Star-beaded Clutch
 LBIS:AddItem(spec2, "45151", LBIS.L["Waist"], "BIS") --Belt of the Fallen Wyrm
 LBIS:AddItem(spec2, "45554", LBIS.L["Waist"], "Alt") --Blue Belt of Chaos
 LBIS:AddItem(spec2, "46202", LBIS.L["Legs"], "BIS") --Conqueror's Worldbreaker Legguards
+LBIS:AddItem(spec2, "45654", LBIS.L["Legs"], "BIS") --Legplates of the Wayward Protector
+LBIS:AddItem(spec2, "45651", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Protector
 LBIS:AddItem(spec2, "45403", LBIS.L["Legs"], "Alt") --Valorous Worldbreaker Legguards
 LBIS:AddItem(spec2, "45544", LBIS.L["Legs"], "Alt") --Leggings of the Tortured Earth
 LBIS:AddItem(spec2, "45845", LBIS.L["Legs"], "Alt") --Leggings of the Weary Mystic

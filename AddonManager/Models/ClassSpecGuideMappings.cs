@@ -1637,7 +1637,7 @@ public class ClassSpecGuideMappings
         {
             { ("Main Hand", "#weapons-for-elemental-shaman-dps-in-phase-2") },
             { ("Off Hand", "#shields-off-hands-for-elemental-shaman-dps-in-phase-2") },
-            { ("Ranged/Relic", "#totems-for-elemental-shaman-dps-in-phase-1") }
+            { ("Ranged/Relic", "#totems-for-elemental-shaman-dps-in-phase-2") }
         }));
 
         GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/shaman/elemental/dps-bis-gear-pve-phase-3",
