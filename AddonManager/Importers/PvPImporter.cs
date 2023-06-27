@@ -52,7 +52,7 @@ public class PvPImporter : LootImporter
 
         var total = wowheadUriList.Count;
         var count = 0;
-        await Common.LoadFromWebPages(wowheadUriList.Keys.ToList(), async (uri, content) => //TODO: Convert to Single Browser loop
+        await Common.LoadFromWebPages(wowheadUriList.Keys.ToList(), async (uri, content) => 
         {            
             writeToLog($"Reading from {uri} ({++count}/{total}");
             var parser = new HtmlParser();

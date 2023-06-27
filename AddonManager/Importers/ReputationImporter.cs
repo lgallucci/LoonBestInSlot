@@ -26,34 +26,25 @@ public class ReputationImporter : LootImporter
     {
         items.Items.Clear();
 
-        foreach (var repVendor in wowheadUriList)
+        await Common.ReadWowheadSellsList(wowheadUriList.Keys.ToList(), (uri, row, itemId, item) =>
         {
-            writeToLog($"Reading from: {repVendor.Key}");
-            await Common.LoadFromWebPage(repVendor.Key, async (content) => //TODO: Convert to Single Browser loop
+            var standingColumn = row.Children[5];
+            var itemName = item.TextContent;
+            if (standingColumn != null)
             {
-                var parser = new HtmlParser();
-                var doc = default(IHtmlDocument);
-                doc = await parser.ParseDocumentAsync(content);
-                Common.ReadWowheadSellsList(doc, repVendor.Key, (uri, row, itemId, item) =>
-                {
-                    var standingColumn = row.Children[5];
-                    var itemName = item.TextContent;
-                    if (standingColumn != null)
-                    {
-                        var reputation = standingColumn.TextContent;
+                var reputation = standingColumn.TextContent;
 
-                        var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
-                        {
-                            Name = itemName,
-                            SourceNumber = "0",
-                            Source = repVendor.Value,
-                            SourceLocation = reputation,
-                            SourceType = "Reputation"
-                        });
-                    }
+                var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
+                {
+                    Name = itemName,
+                    SourceNumber = "0",
+                    Source = wowheadUriList[uri],
+                    SourceLocation = reputation,
+                    SourceType = "Reputation"
                 });
-            });
-        }
+            }
+        }, writeToLog);
+
         return items;
     }
 }

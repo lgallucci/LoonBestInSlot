@@ -282,8 +282,8 @@ LBIS:AddItem(spec3, "48339", LBIS.L["Legs"], "Alt") --Thrall's Kilt of Conquest
 LBIS:AddItem(spec3, "46210", LBIS.L["Legs"], "Alt") --Conqueror's Worldbreaker Kilt
 LBIS:AddItem(spec3, "45654", LBIS.L["Legs"], "Alt") --Legplates of the Wayward Protector
 LBIS:AddItem(spec3, "45488", LBIS.L["Legs"], "Alt") --Leggings of the Enslaved Idol
-LBIS:AddItem(spec3, "47099", LBIS.L["Feet"], "BIS") --Boots of Tremoring Earth
 LBIS:AddItem(spec3, "47456", LBIS.L["Feet"], "BIS") --Sabatons of Tremoring Earth
+LBIS:AddItem(spec3, "47099", LBIS.L["Feet"], "BIS") --Boots of Tremoring Earth
 LBIS:AddItem(spec3, "45537", LBIS.L["Feet"], "Alt") --Treads of the False Oracle
 LBIS:AddItem(spec3, "45615", LBIS.L["Feet"], "Alt") --Planewalker Treads
 LBIS:AddItem(spec3, "45563", LBIS.L["Feet"], "Alt") --Lightning Grounded Boots
@@ -310,10 +310,12 @@ LBIS:AddItem(spec3, "45308", LBIS.L["Trinket"], "Alt") --Eye of the Broodmother
 LBIS:AddItem(spec3, "40432", LBIS.L["Trinket"], "Alt") --Illustration of the Dragon Soul
 LBIS:AddItem(spec3, "46980", LBIS.L["Main Hand"], "BIS") --Blade of Tarasque
 LBIS:AddItem(spec3, "47422", LBIS.L["Main Hand"], "BIS") --Barb of Tarasque
-LBIS:AddItem(spec3, "47206", LBIS.L["Main Hand"], "Alt") --Misery's End
 LBIS:AddItem(spec3, "47483", LBIS.L["Main Hand"], "Alt") --Suffering's End
+LBIS:AddItem(spec3, "47206", LBIS.L["Main Hand"], "Alt") --Misery's End
 LBIS:AddItem(spec3, "45612", LBIS.L["Main Hand"], "Alt") --Constellus
 LBIS:AddItem(spec3, "45620", LBIS.L["Main Hand"], "Alt") --Starshard Edge
+LBIS:AddItem(spec3, "48709", LBIS.L["Main Hand"], "Alt") --Heartcrusher
+LBIS:AddItem(spec3, "48693", LBIS.L["Main Hand"], "Alt") --Heartsmasher
 LBIS:AddItem(spec3, "46035", LBIS.L["Main Hand"], "Alt") --Aesuga, Hand of the Ardent Champion
 LBIS:AddItem(spec3, "45527", LBIS.L["Main Hand"], "Alt") --Soulscribe
 LBIS:AddItem(spec3, "47085", LBIS.L["Off Hand"], "BIS") --Bastion of Purity
