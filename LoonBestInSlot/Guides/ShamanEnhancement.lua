@@ -16,8 +16,8 @@ LBIS:AddEnchant(spec1, "59954", LBIS.L["Head"]) --Arcanum of Torment
 LBIS:AddEnchant(spec1, "61117", LBIS.L["Shoulder"]) --Master's Inscription of the Axe
 LBIS:AddEnchant(spec1, "59934", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
 LBIS:AddEnchant(spec1, "55777", LBIS.L["Back"]) --Swordguard Embroidery
+LBIS:AddEnchant(spec1, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
 LBIS:AddEnchant(spec1, "55002", LBIS.L["Back"]) --Flexweave Underlay
-LBIS:AddEnchant(spec1, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 LBIS:AddEnchant(spec1, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec1, "55628", LBIS.L["Wrist"]) --Socket Bracer
 LBIS:AddEnchant(spec1, "57683", LBIS.L["Wrist"]) --Fur Lining - Attack Power
