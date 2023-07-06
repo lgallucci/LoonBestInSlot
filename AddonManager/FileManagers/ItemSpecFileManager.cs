@@ -91,8 +91,7 @@ public static class ItemSpecFileManager
                 {
                     EnchantId = enchantId,
                     Name = itemSplit[4].Replace("]) --", ""),
-                    Slot = slot,
-                    IsSpell = false,
+                    Slot = slot                    
                 });
             }
             

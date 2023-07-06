@@ -202,14 +202,14 @@ public static class ItemSourceFileManager
         var scrollIndex = enchantSource.IndexOf("ScrollId =");
         var sourceIndex = enchantSource.IndexOf("Source =");
         var sourceLocationIndex = enchantSource.IndexOf("SourceLocation =");
-        var isSpellIndex = enchantSource.IndexOf("IsSpell =");
+        var textureIdIndex = enchantSource.IndexOf("TextureId =");
 
         var name = enchantSource.Substring(nameIndex, designIndex - nameIndex).Split("=")[1].Trim().Trim(',').Trim('"');
         var designId = enchantSource.Substring(designIndex, scrollIndex - designIndex).Split("=")[1].Trim().Trim(',').Trim('"');
         var scrollId = enchantSource.Substring(scrollIndex, sourceIndex - scrollIndex).Split("=")[1].Trim().Trim(',').Trim('"');
         var source = enchantSource.Substring(sourceIndex, sourceLocationIndex - sourceIndex).Split("=")[1].Trim().Trim(',').Trim('"'); ;
-        var sourceLocation = enchantSource.Substring(sourceLocationIndex, isSpellIndex - sourceLocationIndex).Split("=")[1].Trim().Trim(',').Trim('"');
-        var isSpell = enchantSource.Substring(isSpellIndex, enchantSource.Length - isSpellIndex - 3).Split("=")[1].Trim().Trim('"');
+        var sourceLocation = enchantSource.Substring(sourceLocationIndex, textureIdIndex - sourceLocationIndex).Split("=")[1].Trim().Trim(',').Trim('"');
+        var textureId = enchantSource.Substring(textureIdIndex, enchantSource.Length - textureIdIndex - 3).Split("=")[1].Trim().Trim('"');
 
         if (string.IsNullOrWhiteSpace(source))
             source = "\"\"";
@@ -229,7 +229,7 @@ public static class ItemSourceFileManager
             ScrollId = Int32.Parse(scrollId),
             Source = source,
             SourceLocation = sourceLocation,
-            IsSpell = bool.Parse(isSpell)
+            TextureId = textureId
         };
     }
 
@@ -322,7 +322,7 @@ public static class ItemSourceFileManager
                     $"ScrollId = \"{source.Value.ScrollId}\", " +
                     $"Source = {source.Value.Source}, " +
                     $"SourceLocation = {source.Value.SourceLocation}, " +
-                    $"IsSpell = \"{source.Value.IsSpell.ToString()}\" }},");
+                    $"TextureId = \"{source.Value.TextureId}\" }},");
         }
         itemSourceSB.AppendLine("}");
         System.IO.File.WriteAllText(Constants.AddonPath + "\\DB\\EnchantSources.lua", itemSourceSB.ToString());

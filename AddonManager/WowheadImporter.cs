@@ -295,7 +295,7 @@ public static class WowheadImporter
                         Name = enchant.Value.Name,
                         Source = "unknown",
                         SourceLocation = "unknown",
-                        IsSpell = enchant.Value.IsSpell
+                        TextureId = enchant.Value.TextureId
                     });
                 }
 

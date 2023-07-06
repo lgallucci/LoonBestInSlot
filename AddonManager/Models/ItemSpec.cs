@@ -56,5 +56,5 @@ public class EnchantSpec
     public int EnchantId { get; set; }
     public string Name { get; set; } = string.Empty;
     public string Slot { get; set; } = String.Empty;
-    public bool IsSpell { get; set; }
+    public string TextureId { get; set; }
 }

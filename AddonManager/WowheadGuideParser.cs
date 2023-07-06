@@ -355,15 +355,19 @@ public class WowheadGuideParser
                             }
                             else
                             {
+                                var textureId = "";
                                 if (isSpell == false && _enchantSwaps.ContainsKey(itemId))
+                                {
+                                    textureId = itemId.ToString();
                                     itemId = _enchantSwaps[itemId];
+                                }
 
                                 enchants.Add(itemId + heading.Key, new EnchantSpec
                                 {
                                     EnchantId = itemId,
                                     Name = itemName ?? "unknown",
                                     Slot = heading.Key,
-                                    IsSpell = isSpell,
+                                    TextureId = textureId
                                 });
                             }
                             return true;
