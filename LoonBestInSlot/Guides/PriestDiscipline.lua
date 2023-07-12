@@ -269,12 +269,14 @@ LBIS:AddItem(spec3, "47425", LBIS.L["Chest"], "Alt") --Flowing Robes of Ascent
 LBIS:AddItem(spec3, "45389", LBIS.L["Chest"], "Alt") --Valorous Robe of Sanctification
 LBIS:AddItem(spec3, "47605", LBIS.L["Chest"], "Alt") --Royal Moonshroud Robe
 LBIS:AddItem(spec3, "47606", LBIS.L["Chest"], "Alt") --Royal Moonshroud Robe
+LBIS:AddItem(spec3, "47986", LBIS.L["Chest"], "Alt") --Velen's Robe of Triumph
+LBIS:AddItem(spec3, "48063", LBIS.L["Chest"], "Alt") --Zabra's Robe of Triumph
 LBIS:AddItem(spec3, "45272", LBIS.L["Chest"], "Alt") --Robes of the Umbral Brute
 LBIS:AddItem(spec3, "45240", LBIS.L["Chest"], "Alt") --Raiments of the Iron Council
 LBIS:AddItem(spec3, "47143", LBIS.L["Wrist"], "BIS") --Bindings of Dark Essence
 LBIS:AddItem(spec3, "47467", LBIS.L["Wrist"], "BIS") --Dark Essence Bindings
-LBIS:AddItem(spec3, "47587", LBIS.L["Wrist"], "Alt") --Royal Moonshroud Bracers
 LBIS:AddItem(spec3, "47588", LBIS.L["Wrist"], "Alt") --Royal Moonshroud Bracers
+LBIS:AddItem(spec3, "47587", LBIS.L["Wrist"], "Alt") --Royal Moonshroud Bracers
 LBIS:AddItem(spec3, "47208", LBIS.L["Wrist"], "Alt") --Armbands of the Ashen Saint
 LBIS:AddItem(spec3, "47485", LBIS.L["Wrist"], "Alt") --Bindings of the Ashen Saint
 LBIS:AddItem(spec3, "45446", LBIS.L["Wrist"], "Alt") --Grasps of Reason
@@ -303,7 +305,7 @@ LBIS:AddItem(spec3, "46034", LBIS.L["Legs"], "Alt") --Leggings of Profound Darkn
 LBIS:AddItem(spec3, "45468", LBIS.L["Legs"], "Alt") --Leggings of Lost Love
 LBIS:AddItem(spec3, "47097", LBIS.L["Feet"], "BIS") --Boots of the Mourning Widow
 LBIS:AddItem(spec3, "47454", LBIS.L["Feet"], "BIS") --Sandals of the Mourning Widow
-LBIS:AddItem(spec3, "45537", LBIS.L["Feet"], "Alt") --Treads of the False Oracle
+LBIS:AddItem(spec3, "45537", LBIS.L["Feet"], "BIS") --Treads of the False Oracle
 LBIS:AddItem(spec3, "45135", LBIS.L["Feet"], "Alt") --Boots of Fiery Resolution
 LBIS:AddItem(spec3, "46050", LBIS.L["Feet"], "Alt") --Starlight Treads
 LBIS:AddItem(spec3, "49234", LBIS.L["Feet"], "Alt") --Boots of the Grieving Soul
@@ -341,12 +343,13 @@ LBIS:AddItem(spec3, "46051", LBIS.L["Trinket"], "Alt") --Meteorite Crystal
 LBIS:AddItem(spec3, "44255", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Greatness
 LBIS:AddItem(spec3, "45703", LBIS.L["Trinket"], "Alt") --Spark of Hope
 LBIS:AddItem(spec3, "46017", LBIS.L["Main Hand"], "BIS") --Val'anyr, Hammer of Ancient Kings
+LBIS:AddItem(spec3, "48408", LBIS.L["Main Hand"], "BIS") --Relentless Gladiator's Mageblade
 LBIS:AddItem(spec3, "48519", LBIS.L["Main Hand"], "BIS") --Relentless Gladiator's Salvation
 LBIS:AddItem(spec3, "47206", LBIS.L["Main Hand"], "BIS") --Misery's End
 LBIS:AddItem(spec3, "47483", LBIS.L["Main Hand"], "BIS") --Suffering's End
+LBIS:AddItem(spec3, "45612", LBIS.L["Main Hand"], "Alt") --Constellus
 LBIS:AddItem(spec3, "47524", LBIS.L["Main Hand"], "Alt") --Clemency
 LBIS:AddItem(spec3, "47525", LBIS.L["Main Hand"], "Alt") --Sufferance
-LBIS:AddItem(spec3, "45612", LBIS.L["Main Hand"], "Alt") --Constellus
 LBIS:AddItem(spec3, "45457", LBIS.L["Main Hand"], "Alt") --Staff of Endless Winter
 LBIS:AddItem(spec3, "48709", LBIS.L["Main Hand"], "Alt") --Heartcrusher
 LBIS:AddItem(spec3, "48693", LBIS.L["Main Hand"], "Alt") --Heartsmasher

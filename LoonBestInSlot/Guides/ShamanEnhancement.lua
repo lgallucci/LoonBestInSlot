@@ -333,10 +333,11 @@ LBIS:AddItem(spec3, "47188", LBIS.L["Trinket"], "BIS") --Reign of the Unliving
 LBIS:AddItem(spec3, "47477", LBIS.L["Trinket"], "BIS") --Reign of the Dead
 LBIS:AddItem(spec3, "45609", LBIS.L["Trinket"], "BIS") --Comet's Trail
 LBIS:AddItem(spec3, "46038", LBIS.L["Trinket"], "Alt") --Dark Matter
+LBIS:AddItem(spec3, "47734", LBIS.L["Trinket"], "Alt") --Mark of Supremacy
 LBIS:AddItem(spec3, "45263", LBIS.L["Trinket"], "Alt") --Wrathstone
 LBIS:AddItem(spec3, "45522", LBIS.L["Trinket"], "Alt") --Blood of the Old God
-LBIS:AddItem(spec3, "47483", LBIS.L["Main Hand"], "BIS") --Suffering's End
 LBIS:AddItem(spec3, "47206", LBIS.L["Main Hand"], "BIS") --Misery's End
+LBIS:AddItem(spec3, "47483", LBIS.L["Main Hand"], "BIS") --Suffering's End
 LBIS:AddItem(spec3, "46980", LBIS.L["Main Hand"], "BIS") --Blade of Tarasque
 LBIS:AddItem(spec3, "47422", LBIS.L["Main Hand"], "BIS") --Barb of Tarasque
 LBIS:AddItem(spec3, "45620", LBIS.L["Main Hand"], "Alt") --Starshard Edge

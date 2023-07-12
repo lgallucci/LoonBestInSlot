@@ -309,8 +309,8 @@ LBIS:AddItem(spec3, "47983", LBIS.L["Hands"], "Alt") --Velen's Gloves of Triumph
 LBIS:AddItem(spec3, "48066", LBIS.L["Hands"], "Alt") --Zabra's Gloves of Triumph
 LBIS:AddItem(spec3, "45520", LBIS.L["Hands"], "Alt") --Handwraps of the Vigilant
 LBIS:AddItem(spec3, "46188", LBIS.L["Hands"], "Alt") --Conqueror's Gloves of Sanctification
-LBIS:AddItem(spec3, "46973", LBIS.L["Waist"], "BIS") --Cord of the Tenebrous Mist
 LBIS:AddItem(spec3, "47419", LBIS.L["Waist"], "BIS") --Belt of the Tenebrous Mist
+LBIS:AddItem(spec3, "46973", LBIS.L["Waist"], "BIS") --Cord of the Tenebrous Mist
 LBIS:AddItem(spec3, "45619", LBIS.L["Waist"], "BIS") --Starwatcher's Binding
 LBIS:AddItem(spec3, "47084", LBIS.L["Waist"], "Alt") --Cord of Biting Cold
 LBIS:AddItem(spec3, "47447", LBIS.L["Waist"], "Alt") --Belt of Biting Cold
@@ -337,8 +337,8 @@ LBIS:AddItem(spec3, "45135", LBIS.L["Feet"], "Alt") --Boots of Fiery Resolution
 LBIS:AddItem(spec3, "45537", LBIS.L["Feet"], "Alt") --Treads of the False Oracle
 LBIS:AddItem(spec3, "46050", LBIS.L["Feet"], "Alt") --Starlight Treads
 LBIS:AddItem(spec3, "45566", LBIS.L["Feet"], "Alt") --Spellslinger's Slippers
-LBIS:AddItem(spec3, "49234", LBIS.L["Feet"], "Alt") --Boots of the Grieving Soul
 LBIS:AddItem(spec3, "49233", LBIS.L["Feet"], "Alt") --Sandals of the Grieving Soul
+LBIS:AddItem(spec3, "49234", LBIS.L["Feet"], "Alt") --Boots of the Grieving Soul
 LBIS:AddItem(spec3, "45567", LBIS.L["Feet"], "Alt") --Savior's Slippers
 LBIS:AddItem(spec3, "24116", LBIS.L["Neck"], "BIS") --Eye of the Night
 LBIS:AddItem(spec3, "24121", LBIS.L["Neck"], "BIS") --Chain of the Twilight Owl
@@ -355,13 +355,14 @@ LBIS:AddItem(spec3, "45116", LBIS.L["Neck"], "Alt") --Freya's Choker of Warding
 LBIS:AddItem(spec3, "45495", LBIS.L["Ring"], "BIS") --Conductive Seal
 LBIS:AddItem(spec3, "47224", LBIS.L["Ring"], "BIS") --Ring of the Darkmender
 LBIS:AddItem(spec3, "47439", LBIS.L["Ring"], "BIS") --Circle of the Darkmender
-LBIS:AddItem(spec3, "47237", LBIS.L["Ring"], "Alt") --Band of Deplorable Violence
 LBIS:AddItem(spec3, "47489", LBIS.L["Ring"], "Alt") --Lurid Manifestation
+LBIS:AddItem(spec3, "47237", LBIS.L["Ring"], "Alt") --Band of Deplorable Violence
 LBIS:AddItem(spec3, "45614", LBIS.L["Ring"], "Alt") --Starshine Circle
 LBIS:AddItem(spec3, "46046", LBIS.L["Ring"], "Alt") --Nebula Band
 LBIS:AddItem(spec3, "45946", LBIS.L["Ring"], "Alt") --Fire Orchid Signet
 LBIS:AddItem(spec3, "46096", LBIS.L["Ring"], "Alt") --Signet of Soft Lament
 LBIS:AddItem(spec3, "46323", LBIS.L["Ring"], "Alt") --Starshine Signet
+LBIS:AddItem(spec3, "45466", LBIS.L["Trinket"], "BIS") --Scale of Fates
 LBIS:AddItem(spec3, "47059", LBIS.L["Trinket"], "BIS") --Solace of the Defeated
 LBIS:AddItem(spec3, "47432", LBIS.L["Trinket"], "BIS") --Solace of the Fallen
 LBIS:AddItem(spec3, "45535", LBIS.L["Trinket"], "BIS") --Show of Faith
