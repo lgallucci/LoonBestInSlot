@@ -267,6 +267,8 @@ LBIS:AddItem(spec3, "45642", LBIS.L["Hands"], "Alt") --Gauntlets of the Wayward 
 LBIS:AddItem(spec3, "45943", LBIS.L["Hands"], "Alt") --Gloves of Whispering Winds
 LBIS:AddItem(spec3, "47084", LBIS.L["Waist"], "BIS") --Cord of Biting Cold
 LBIS:AddItem(spec3, "47447", LBIS.L["Waist"], "BIS") --Belt of Biting Cold
+LBIS:AddItem(spec3, "47994", LBIS.L["Waist"], "Alt") --Icehowl Binding
+LBIS:AddItem(spec3, "47921", LBIS.L["Waist"], "Alt") --Icehowl Cinch
 LBIS:AddItem(spec3, "45616", LBIS.L["Waist"], "Alt") --Star-beaded Clutch
 LBIS:AddItem(spec3, "45151", LBIS.L["Waist"], "Alt") --Belt of the Fallen Wyrm
 LBIS:AddItem(spec3, "45557", LBIS.L["Waist"], "Alt") --Sash of Ancient Power

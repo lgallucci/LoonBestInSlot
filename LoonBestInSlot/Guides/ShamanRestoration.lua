@@ -266,6 +266,7 @@ LBIS:AddItem(spec3, "45405", LBIS.L["Chest"], "Alt") --Valorous Worldbreaker Tun
 LBIS:AddItem(spec3, "45636", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Protector
 LBIS:AddItem(spec3, "48294", LBIS.L["Chest"], "Alt") --Nobundo's Tunic of Triumph
 LBIS:AddItem(spec3, "48305", LBIS.L["Chest"], "Alt") --Thrall's Tunic of Triumph
+LBIS:AddItem(spec3, "47603", LBIS.L["Chest"], "Alt") --Merlin's Robe
 LBIS:AddItem(spec3, "45867", LBIS.L["Chest"], "Alt") --Breastplate of the Stoneshaper
 LBIS:AddItem(spec3, "48285", LBIS.L["Chest"], "Alt") --Nobundo's Tunic of Triumph
 LBIS:AddItem(spec3, "48300", LBIS.L["Chest"], "Alt") --Thrall's Tunic of Triumph
@@ -286,8 +287,8 @@ LBIS:AddItem(spec3, "48306", LBIS.L["Hands"], "Alt") --Thrall's Handguards of Tr
 LBIS:AddItem(spec3, "45943", LBIS.L["Hands"], "Alt") --Gloves of Whispering Winds
 LBIS:AddItem(spec3, "48286", LBIS.L["Hands"], "Alt") --Nobundo's Handguards of Triumph
 LBIS:AddItem(spec3, "48301", LBIS.L["Hands"], "Alt") --Thrall's Handguards of Triumph
-LBIS:AddItem(spec3, "48284", LBIS.L["Hands"], "Alt") --Nobundo's Handguards of Conquest
 LBIS:AddItem(spec3, "48296", LBIS.L["Hands"], "Alt") --Thrall's Handguards of Conquest
+LBIS:AddItem(spec3, "48284", LBIS.L["Hands"], "Alt") --Nobundo's Handguards of Conquest
 LBIS:AddItem(spec3, "46991", LBIS.L["Waist"], "BIS") --Belt of the Ice Burrower
 LBIS:AddItem(spec3, "47426", LBIS.L["Waist"], "BIS") --Binding of the Ice Burrower
 LBIS:AddItem(spec3, "47145", LBIS.L["Waist"], "BIS") --Cord of Pale Thorns

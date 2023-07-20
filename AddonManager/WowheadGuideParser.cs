@@ -143,6 +143,7 @@ public class WowheadGuideParser
         "pre-raid",
         "pre-bis",
         "phase 1",
+        "phase 2",
         "p1",
         "alt",
         "10-man",

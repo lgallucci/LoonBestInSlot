@@ -256,9 +256,9 @@ LBIS:AddItem(spec3, "47550", LBIS.L["Back"], "BIS") --Cairne's Endurance
 LBIS:AddItem(spec3, "47549", LBIS.L["Back"], "BIS") --Magni's Resolution
 LBIS:AddItem(spec3, "48670", LBIS.L["Back"], "BIS") --Cloak of the Unflinching Guardian
 LBIS:AddItem(spec3, "48675", LBIS.L["Back"], "BIS") --Cloak of the Unmoving Guardian
-LBIS:AddItem(spec3, "45496", LBIS.L["Back"], "BIS") --Titanskin Cloak
 LBIS:AddItem(spec3, "47436", LBIS.L["Back"], "BIS") --Pride of the Demon Lord
 LBIS:AddItem(spec3, "47063", LBIS.L["Back"], "BIS") --Pride of the Eredar
+LBIS:AddItem(spec3, "45496", LBIS.L["Back"], "Alt") --Titanskin Cloak
 LBIS:AddItem(spec3, "47275", LBIS.L["Back"], "Alt") --Pride of the Demon Lord
 LBIS:AddItem(spec3, "47042", LBIS.L["Back"], "Alt") --Pride of the Eredar
 LBIS:AddItem(spec3, "47415", LBIS.L["Chest"], "BIS") --Hauberk of the Towering Monstrosity
@@ -276,18 +276,18 @@ LBIS:AddItem(spec3, "46962", LBIS.L["Chest"], "Alt") --Chestplate of the Towerin
 LBIS:AddItem(spec3, "47449", LBIS.L["Chest"], "Alt") --Chestplate of the Frostwolf Hero
 LBIS:AddItem(spec3, "47086", LBIS.L["Chest"], "Alt") --Chestplate of the Frostborn Hero
 LBIS:AddItem(spec3, "45334", LBIS.L["Chest"], "Alt") --Unbreakable Chestguard
-LBIS:AddItem(spec3, "47111", LBIS.L["Wrist"], "BIS") --Bracers of the Shieldmaiden
 LBIS:AddItem(spec3, "47459", LBIS.L["Wrist"], "BIS") --Armguards of the Shieldmaiden
-LBIS:AddItem(spec3, "45111", LBIS.L["Wrist"], "BIS") --Mimiron's Inferno Couplings
-LBIS:AddItem(spec3, "47918", LBIS.L["Wrist"], "Alt") --Dreadscale Armguards
+LBIS:AddItem(spec3, "47111", LBIS.L["Wrist"], "BIS") --Bracers of the Shieldmaiden
 LBIS:AddItem(spec3, "47991", LBIS.L["Wrist"], "Alt") --Dreadscale Bracers
+LBIS:AddItem(spec3, "47918", LBIS.L["Wrist"], "Alt") --Dreadscale Armguards
 LBIS:AddItem(spec3, "47571", LBIS.L["Wrist"], "Alt") --Saronite Swordbreakers
 LBIS:AddItem(spec3, "47570", LBIS.L["Wrist"], "Alt") --Saronite Swordbreakers
 LBIS:AddItem(spec3, "47298", LBIS.L["Wrist"], "Alt") --Armguards of the Shieldmaiden
 LBIS:AddItem(spec3, "47108", LBIS.L["Wrist"], "Alt") --Bracers of the Shieldmaiden
+LBIS:AddItem(spec3, "45111", LBIS.L["Wrist"], "Alt") --Mimiron's Inferno Couplings
 LBIS:AddItem(spec3, "48650", LBIS.L["Hands"], "BIS") --Liadrin's Handguards of Triumph
 LBIS:AddItem(spec3, "48643", LBIS.L["Hands"], "BIS") --Turalyon's Handguards of Triumph
-LBIS:AddItem(spec3, "45487", LBIS.L["Hands"], "BIS") --Handguards of Revitalization
+LBIS:AddItem(spec3, "45487", LBIS.L["Hands"], "Alt") --Handguards of Revitalization
 LBIS:AddItem(spec3, "48658", LBIS.L["Hands"], "Alt") --Liadrin's Handguards of Triumph
 LBIS:AddItem(spec3, "48640", LBIS.L["Hands"], "Alt") --Turalyon's Handguards of Triumph
 LBIS:AddItem(spec3, "48618", LBIS.L["Hands"], "Alt") --Liadrin's Gauntlets of Triumph
@@ -295,35 +295,35 @@ LBIS:AddItem(spec3, "48615", LBIS.L["Hands"], "Alt") --Turalyon's Gauntlets of T
 LBIS:AddItem(spec3, "45228", LBIS.L["Hands"], "Alt") --Handguards of the Enclave
 LBIS:AddItem(spec3, "47076", LBIS.L["Waist"], "BIS") --Girdle of Bloodied Scars
 LBIS:AddItem(spec3, "47444", LBIS.L["Waist"], "BIS") --Belt of Bloodied Scars
-LBIS:AddItem(spec3, "45551", LBIS.L["Waist"], "BIS") --Indestructible Plate Girdle
 LBIS:AddItem(spec3, "48009", LBIS.L["Waist"], "Alt") --Belt of the Nether Champion
 LBIS:AddItem(spec3, "47937", LBIS.L["Waist"], "Alt") --Girdle of the Nether Champion
 LBIS:AddItem(spec3, "47283", LBIS.L["Waist"], "Alt") --Belt of Bloodied Scars
 LBIS:AddItem(spec3, "47072", LBIS.L["Waist"], "Alt") --Girdle of Bloodied Scars
+LBIS:AddItem(spec3, "45551", LBIS.L["Waist"], "Alt") --Indestructible Plate Girdle
 LBIS:AddItem(spec3, "45241", LBIS.L["Waist"], "Alt") --Belt of Colossal Rage
 LBIS:AddItem(spec3, "45139", LBIS.L["Waist"], "Alt") --Dragonslayer's Brace
 LBIS:AddItem(spec3, "48648", LBIS.L["Legs"], "BIS") --Liadrin's Legguards of Triumph
 LBIS:AddItem(spec3, "48645", LBIS.L["Legs"], "BIS") --Turalyon's Legguards of Triumph
 LBIS:AddItem(spec3, "47434", LBIS.L["Legs"], "BIS") --Legplates of Feverish Dedication
 LBIS:AddItem(spec3, "47061", LBIS.L["Legs"], "BIS") --Legguards of Feverish Dedication
-LBIS:AddItem(spec3, "45594", LBIS.L["Legs"], "BIS") --Legplates of the Endless Void
 LBIS:AddItem(spec3, "48660", LBIS.L["Legs"], "Alt") --Liadrin's Legguards of Triumph
 LBIS:AddItem(spec3, "48638", LBIS.L["Legs"], "Alt") --Turalyon's Legguards of Triumph
+LBIS:AddItem(spec3, "45594", LBIS.L["Legs"], "Alt") --Legplates of the Endless Void
 LBIS:AddItem(spec3, "47273", LBIS.L["Legs"], "Alt") --Legplates of Feverish Dedication
 LBIS:AddItem(spec3, "47052", LBIS.L["Legs"], "Alt") --Legguards of Feverish Dedication
 LBIS:AddItem(spec3, "47430", LBIS.L["Feet"], "BIS") --Dawnbreaker Sabatons
 LBIS:AddItem(spec3, "47003", LBIS.L["Feet"], "BIS") --Dawnbreaker Greaves
 LBIS:AddItem(spec3, "48024", LBIS.L["Feet"], "BIS") --Greaves of the Lingering Vortex
 LBIS:AddItem(spec3, "47952", LBIS.L["Feet"], "BIS") --Sabatons of the Lingering Vortex
-LBIS:AddItem(spec3, "45988", LBIS.L["Feet"], "BIS") --Greaves of the Iron Army
 LBIS:AddItem(spec3, "47269", LBIS.L["Feet"], "Alt") --Dawnbreaker Sabatons
 LBIS:AddItem(spec3, "46997", LBIS.L["Feet"], "Alt") --Dawnbreaker Greaves
 LBIS:AddItem(spec3, "47885", LBIS.L["Feet"], "Alt") --Greaves of the Lingering Vortex
 LBIS:AddItem(spec3, "47738", LBIS.L["Feet"], "Alt") --Sabatons of the Lingering Vortex
+LBIS:AddItem(spec3, "45988", LBIS.L["Feet"], "Alt") --Greaves of the Iron Army
 LBIS:AddItem(spec3, "45542", LBIS.L["Feet"], "Alt") --Greaves of the Stonewarder
 LBIS:AddItem(spec3, "47466", LBIS.L["Neck"], "BIS") --Legionnaire's Gorget
 LBIS:AddItem(spec3, "47133", LBIS.L["Neck"], "BIS") --The Arbiter's Muse
-LBIS:AddItem(spec3, "45485", LBIS.L["Neck"], "BIS") --Bronze Pendant of the Vanir
+LBIS:AddItem(spec3, "45485", LBIS.L["Neck"], "Alt") --Bronze Pendant of the Vanir
 LBIS:AddItem(spec3, "48011", LBIS.L["Neck"], "Alt") --Fortitude of the Infernal
 LBIS:AddItem(spec3, "47939", LBIS.L["Neck"], "Alt") --Endurance of the Infernal
 LBIS:AddItem(spec3, "47305", LBIS.L["Neck"], "Alt") --Legionnaire's Gorget
@@ -333,8 +333,8 @@ LBIS:AddItem(spec3, "45262", LBIS.L["Neck"], "Alt") --Necklace of Unerring Mettl
 LBIS:AddItem(spec3, "44665", LBIS.L["Neck"], "Alt") --Nexus War Champion Beads
 LBIS:AddItem(spec3, "47476", LBIS.L["Ring"], "BIS") --Band of the Traitor King
 LBIS:AddItem(spec3, "47157", LBIS.L["Ring"], "BIS") --Signet of the Traitor King
-LBIS:AddItem(spec3, "45471", LBIS.L["Ring"], "BIS") --Fate's Clutch
 LBIS:AddItem(spec3, "45534", LBIS.L["Ring"], "BIS") --Seal of the Betrayed King
+LBIS:AddItem(spec3, "45471", LBIS.L["Ring"], "Alt") --Fate's Clutch
 LBIS:AddItem(spec3, "48027", LBIS.L["Ring"], "Alt") --Band of the Twin Val'kyr
 LBIS:AddItem(spec3, "47955", LBIS.L["Ring"], "Alt") --Loop of the Twin Val'kyr
 LBIS:AddItem(spec3, "47731", LBIS.L["Ring"], "Alt") --Clutch of Fortification
@@ -364,7 +364,7 @@ LBIS:AddItem(spec3, "47475", LBIS.L["Main Hand"], "BIS") --Hellscream Slicer
 LBIS:AddItem(spec3, "47156", LBIS.L["Main Hand"], "BIS") --Stormpike Cleaver
 LBIS:AddItem(spec3, "47528", LBIS.L["Main Hand"], "BIS") --Cudgel of the Damned
 LBIS:AddItem(spec3, "47526", LBIS.L["Main Hand"], "BIS") --Remorseless
-LBIS:AddItem(spec3, "46097", LBIS.L["Main Hand"], "BIS") --Caress of Insanity
+LBIS:AddItem(spec3, "46097", LBIS.L["Main Hand"], "Alt") --Caress of Insanity
 LBIS:AddItem(spec3, "45947", LBIS.L["Main Hand"], "Alt") --Serilas, Blood Blade of Invar One-Arm
 LBIS:AddItem(spec3, "48511", LBIS.L["Main Hand"], "Alt") --Relentless Gladiator's Truncheon
 LBIS:AddItem(spec3, "47314", LBIS.L["Main Hand"], "Alt") --Hellscream Slicer
@@ -375,7 +375,7 @@ LBIS:AddItem(spec3, "48043", LBIS.L["Main Hand"], "Alt") --Frostblade Hatchet
 LBIS:AddItem(spec3, "47966", LBIS.L["Main Hand"], "Alt") --The Lion's Maw
 LBIS:AddItem(spec3, "47421", LBIS.L["Off Hand"], "BIS") --Forlorn Barrier
 LBIS:AddItem(spec3, "46964", LBIS.L["Off Hand"], "BIS") --Crystal Plated Vanguard
-LBIS:AddItem(spec3, "45587", LBIS.L["Off Hand"], "BIS") --Bulwark of Algalon
+LBIS:AddItem(spec3, "45587", LBIS.L["Off Hand"], "Alt") --Bulwark of Algalon
 LBIS:AddItem(spec3, "45877", LBIS.L["Off Hand"], "Alt") --The Boreal Guard
 LBIS:AddItem(spec3, "48055", LBIS.L["Off Hand"], "Alt") --Aegis of the Coliseum
 LBIS:AddItem(spec3, "47978", LBIS.L["Off Hand"], "Alt") --Bulwark of the Royal Guard
@@ -386,5 +386,5 @@ LBIS:AddItem(spec3, "47835", LBIS.L["Off Hand"], "Alt") --Bulwark of the Royal G
 LBIS:AddItem(spec3, "45450", LBIS.L["Off Hand"], "Alt") --Northern Barrier
 LBIS:AddItem(spec3, "47664", LBIS.L["Ranged/Relic"], "BIS") --Libram of Defiance
 LBIS:AddItem(spec3, "47661", LBIS.L["Ranged/Relic"], "BIS") --Libram of Valiance
-LBIS:AddItem(spec3, "45145", LBIS.L["Ranged/Relic"], "BIS") --Libram of the Sacred Shield
+LBIS:AddItem(spec3, "45145", LBIS.L["Ranged/Relic"], "Alt") --Libram of the Sacred Shield
 LBIS:AddItem(spec3, "40707", LBIS.L["Ranged/Relic"], "Alt") --Libram of Obstruction
