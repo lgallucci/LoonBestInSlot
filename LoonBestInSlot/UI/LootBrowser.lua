@@ -320,7 +320,7 @@ local function createDropDowns(window)
         ['name']='zone',
         ['parent']=window,
         ['title']='Raid:',
-        ['items']= { LBIS.L["All"], LBIS.L["Naxxramas"], LBIS.L["The Eye of Eternity"], LBIS.L["The Obsidian Sanctum"], 
+        ['items']= { LBIS.L["All"], LBIS.L["Heroic"], LBIS.L["Naxxramas"], LBIS.L["The Eye of Eternity"], LBIS.L["The Obsidian Sanctum"], 
             LBIS.L["Ulduar (10)"], LBIS.L["Ulduar (25)"], 
             LBIS.L["Vault of Archavon (10)"], LBIS.L["Vault of Archavon (25)"], 
             LBIS.L["Trial of the Crusader (10)"], LBIS.L["Trial of the Crusader (25)"],
