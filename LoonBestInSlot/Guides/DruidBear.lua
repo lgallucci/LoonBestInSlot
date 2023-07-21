@@ -5,17 +5,14 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "4")
 local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "5")
 
-LBIS:AddGem(spec1, "41339", "3", "True") --Swift Skyflare Diamond
 LBIS:AddGem(spec1, "41380", "3", "True") --Austere Earthsiege Diamond
 LBIS:AddGem(spec1, "41377", "3", "True") --Effulgent Skyflare Diamond
-LBIS:AddGem(spec1, "40008", "3", "False") --Solid Sky Sapphire
+LBIS:AddGem(spec1, "41339", "3", "True") --Swift Skyflare Diamond
 LBIS:AddGem(spec1, "49110", "4", "False") --Nightmare Tear
-LBIS:AddGem(spec1, "40088", "3", "False") --Vivid Forest Emerald
-LBIS:AddGem(spec1, "40014", "3", "False") --Rigid Autumn's Glow
-LBIS:AddGem(spec1, "40058", "3", "False") --Accurate Monarch Topaz
-LBIS:AddGem(spec1, "40022", "3", "False") --Sovereign Twilight Opal
-LBIS:AddGem(spec1, "40091", "3", "False") --Forceful Forest Emerald
-LBIS:AddGem(spec1, "40003", "3", "False") --Precise Scarlet Ruby
+LBIS:AddGem(spec1, "40141", "4", "False") --Guardian's Dreadstone
+LBIS:AddGem(spec1, "40129", "4", "False") --Sovereign Dreadstone
+LBIS:AddGem(spec1, "40119", "4", "False") --Solid Majestic Zircon
+LBIS:AddGem(spec1, "40166", "4", "False") --Vivid Eye of Zul
 
 LBIS:AddEnchant(spec1, "67839", LBIS.L["Head"]) --Mind Amplification Dish
 LBIS:AddEnchant(spec1, "59955", LBIS.L["Head"]) --Arcanum of the Stalwart Protector

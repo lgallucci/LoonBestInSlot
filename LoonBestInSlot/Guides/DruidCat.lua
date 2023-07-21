@@ -6,11 +6,14 @@ local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "4")
 local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "5")
 
 LBIS:AddGem(spec1, "41398", "3", "True") --Relentless Earthsiege Diamond
-LBIS:AddGem(spec1, "39996", "3", "False") --Bold Scarlet Ruby
-LBIS:AddGem(spec1, "40014", "3", "False") --Rigid Autumn's Glow
-LBIS:AddGem(spec1, "40038", "3", "False") --Etched Monarch Topaz
-LBIS:AddGem(spec1, "40037", "3", "False") --Inscribed Monarch Topaz
 LBIS:AddGem(spec1, "49110", "4", "False") --Nightmare Tear
+LBIS:AddGem(spec1, "40117", "4", "False") --Fractured Cardinal Ruby
+LBIS:AddGem(spec1, "40118", "4", "False") --Precise Cardinal Ruby
+LBIS:AddGem(spec1, "40111", "4", "False") --Bold Cardinal Ruby
+LBIS:AddGem(spec1, "40125", "4", "False") --Rigid King's Amber
+LBIS:AddGem(spec1, "40162", "4", "False") --Accurate Ametrine
+LBIS:AddGem(spec1, "40142", "4", "False") --Inscribed Ametrine
+LBIS:AddGem(spec1, "40146", "4", "False") --Fierce Ametrine
 
 LBIS:AddEnchant(spec1, "59954", LBIS.L["Head"]) --Arcanum of Torment
 LBIS:AddEnchant(spec1, "35452", LBIS.L["Head"]) --Arcanum of Ferocity
