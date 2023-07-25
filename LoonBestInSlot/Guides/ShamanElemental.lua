@@ -40,23 +40,23 @@ LBIS:AddEnchant(spec1, "62948", LBIS.L["Main Hand"]) --Enchant Staff - Greater S
 LBIS:AddEnchant(spec1, "60653", LBIS.L["Off Hand"]) --Enchant Shield - Greater Intellect
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "39594", LBIS.L["Head"], "BIS") --Heroes' Earthshatter Helm
-LBIS:AddItem(spec0, "40518", LBIS.L["Shoulder"], "BIS") --Valorous Earthshatter Shoulderpads
-LBIS:AddItem(spec0, "41610", LBIS.L["Back"], "BIS") --Deathchill Cloak
-LBIS:AddItem(spec0, "39592", LBIS.L["Chest"], "BIS") --Heroes' Earthshatter Hauberk
-LBIS:AddItem(spec0, "37788", LBIS.L["Wrist"], "BIS") --Limb Regeneration Bracers
-LBIS:AddItem(spec0, "40302", LBIS.L["Hands"], "BIS") --Benefactor's Gauntlets
-LBIS:AddItem(spec0, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah
-LBIS:AddItem(spec0, "40517", LBIS.L["Legs"], "BIS") --Valorous Earthshatter Kilt
-LBIS:AddItem(spec0, "40519", LBIS.L["Feet"], "BIS") --Footsteps of Malygos
-LBIS:AddItem(spec0, "39472", LBIS.L["Neck"], "BIS") --Chain of Latent Energies
-LBIS:AddItem(spec0, "39389", LBIS.L["Ring"], "BIS") --Signet of the Malevolent
-LBIS:AddItem(spec0, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
-LBIS:AddItem(spec0, "37873", LBIS.L["Trinket"], "BIS") --Mark of the War Prisoner
-LBIS:AddItem(spec0, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spider
-LBIS:AddItem(spec0, "39423", LBIS.L["Main Hand"], "BIS") --Hammer of the Astral Plane
-LBIS:AddItem(spec0, "40698", LBIS.L["Off Hand"], "BIS") --Ward of the Violet Citadel
-LBIS:AddItem(spec0, "40267", LBIS.L["Ranged/Relic"], "BIS") --Totem of Hex
+LBIS:AddItem(spec0, "46209", LBIS.L["Head"], "BIS") --Conqueror's Worldbreaker Helm
+LBIS:AddItem(spec0, "45410", LBIS.L["Shoulder"], "BIS") --Valorous Worldbreaker Shoulderpads
+LBIS:AddItem(spec0, "46042", LBIS.L["Back"], "BIS") --Drape of the Messenger
+LBIS:AddItem(spec0, "46206", LBIS.L["Chest"], "BIS") --Conqueror's Worldbreaker Hauberk
+LBIS:AddItem(spec0, "47586", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
+LBIS:AddItem(spec0, "45943", LBIS.L["Hands"], "BIS") --Gloves of Whispering Winds
+LBIS:AddItem(spec0, "45557", LBIS.L["Waist"], "BIS") --Sash of Ancient Power
+LBIS:AddItem(spec0, "45409", LBIS.L["Legs"], "BIS") --Valorous Worldbreaker Kilt
+LBIS:AddItem(spec0, "46050", LBIS.L["Feet"], "BIS") --Starlight Treads
+LBIS:AddItem(spec0, "45933", LBIS.L["Neck"], "BIS") --Pendant of the Shallow Grave
+LBIS:AddItem(spec0, "48957", LBIS.L["Ring"], "BIS") --Etched Signet of the Kirin Tor
+LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
+LBIS:AddItem(spec0, "45308", LBIS.L["Trinket"], "BIS") --Eye of the Broodmother
+LBIS:AddItem(spec0, "47213", LBIS.L["Trinket"], "BIS") --Abyssal Rune
+LBIS:AddItem(spec0, "46035", LBIS.L["Main Hand"], "BIS") --Aesuga, Hand of the Ardent Champion
+LBIS:AddItem(spec0, "45887", LBIS.L["Off Hand"], "BIS") --Ice Layered Barrier
+LBIS:AddItem(spec0, "47666", LBIS.L["Ranged/Relic"], "BIS") --Totem of Electrifying Wind
 
 LBIS:AddItem(spec1, "40516", LBIS.L["Head"], "BIS") --Valorous Earthshatter Helm
 LBIS:AddItem(spec1, "40632", LBIS.L["Head"], "BIS") --Crown of the Lost Protector

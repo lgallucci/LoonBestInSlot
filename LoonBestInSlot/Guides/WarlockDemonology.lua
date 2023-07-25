@@ -39,22 +39,25 @@ LBIS:AddEnchant(spec1, "60714", LBIS.L["Main Hand"]) --Scroll of Enchant Weapon 
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Main Hand"]) --Scroll of Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "43995", LBIS.L["Head"], "BIS") --Enamored Cowl
-LBIS:AddItem(spec0, "40424", LBIS.L["Shoulder"], "BIS") --Valorous Plagueheart Shoulderpads
-LBIS:AddItem(spec0, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumiho
-LBIS:AddItem(spec0, "39497", LBIS.L["Chest"], "BIS") --Heroes' Plagueheart Robe
-LBIS:AddItem(spec0, "40740", LBIS.L["Wrist"], "BIS") --Wraps of the Astral Traveler
-LBIS:AddItem(spec0, "39500", LBIS.L["Hands"], "BIS") --Heroes' Plagueheart Gloves
-LBIS:AddItem(spec0, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah
-LBIS:AddItem(spec0, "40422", LBIS.L["Legs"], "BIS") --Valorous Plagueheart Leggings
-LBIS:AddItem(spec0, "44202", LBIS.L["Feet"], "BIS") --Sandals of Crimson Fury
-LBIS:AddItem(spec0, "39392", LBIS.L["Neck"], "BIS") --Veiled Amulet of Life
-LBIS:AddItem(spec0, "39389", LBIS.L["Ring"], "BIS") --Signet of the Malevolent
-LBIS:AddItem(spec0, "45691", LBIS.L["Ring"], "BIS") --Inscribed Signet of the Kirin Tor
-LBIS:AddItem(spec0, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spider
+LBIS:AddItem(spec0, "46140", LBIS.L["Head"], "BIS") --Conqueror's Deathbringer Hood
+LBIS:AddItem(spec0, "45422", LBIS.L["Shoulder"], "BIS") --Valorous Deathbringer Shoulderpads
+LBIS:AddItem(spec0, "46042", LBIS.L["Back"], "BIS") --Drape of the Messenger
+LBIS:AddItem(spec0, "47604", LBIS.L["Chest"], "BIS") --Merlin's Robe
+LBIS:AddItem(spec0, "47603", LBIS.L["Chest"], "BIS") --Merlin's Robe
+LBIS:AddItem(spec0, "47586", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
+LBIS:AddItem(spec0, "47585", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
+LBIS:AddItem(spec0, "45419", LBIS.L["Hands"], "BIS") --Valorous Deathbringer Gloves
+LBIS:AddItem(spec0, "45558", LBIS.L["Waist"], "BIS") --Cord of the White Dawn
+LBIS:AddItem(spec0, "45420", LBIS.L["Legs"], "BIS") --Valorous Deathbringer Leggings
+LBIS:AddItem(spec0, "46050", LBIS.L["Feet"], "BIS") --Starlight Treads
+LBIS:AddItem(spec0, "45447", LBIS.L["Neck"], "BIS") --Watchful Eye of Fate
+LBIS:AddItem(spec0, "45297", LBIS.L["Ring"], "BIS") --Shimmering Seal
+LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
+LBIS:AddItem(spec0, "47213", LBIS.L["Trinket"], "BIS") --Abyssal Rune
 LBIS:AddItem(spec0, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exiled
-LBIS:AddItem(spec0, "40489", LBIS.L["Two Hand"], "BIS") --Greatstaff of the Nexus
-LBIS:AddItem(spec0, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlich
+LBIS:AddItem(spec0, "45990", LBIS.L["Main Hand"], "BIS") --Fusion Blade
+LBIS:AddItem(spec0, "45314", LBIS.L["Off Hand"], "BIS") --Igniter Rod
+LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
 
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec1, "40421", LBIS.L["Head"], "BIS") --Valorous Plagueheart Circlet

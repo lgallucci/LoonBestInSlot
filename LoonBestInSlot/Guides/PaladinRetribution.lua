@@ -32,22 +32,22 @@ LBIS:AddEnchant(spec1, "59621", LBIS.L["Two Hand"]) --Enchant Weapon - Berserkin
 LBIS:AddEnchant(spec1, "60691", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Massacre
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
-LBIS:AddItem(spec0, "41386", LBIS.L["Head"], "BIS") --Spiked Titansteel Helm
-LBIS:AddItem(spec0, "40578", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Shoulderplates
-LBIS:AddItem(spec0, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloak
-LBIS:AddItem(spec0, "39633", LBIS.L["Chest"], "BIS") --Heroes' Redemption Chestpiece
-LBIS:AddItem(spec0, "41355", LBIS.L["Wrist"], "BIS") --Vengeance Bindings
-LBIS:AddItem(spec0, "39634", LBIS.L["Hands"], "BIS") --Heroes' Redemption Gauntlets
-LBIS:AddItem(spec0, "40694", LBIS.L["Waist"], "BIS") --Jorach's Crocolisk Skin Belt
-LBIS:AddItem(spec0, "40577", LBIS.L["Legs"], "BIS") --Valorous Redemption Legplates
-LBIS:AddItem(spec0, "44297", LBIS.L["Feet"], "BIS") --Boots of the Neverending Path
-LBIS:AddItem(spec0, "39421", LBIS.L["Neck"], "BIS") --Gem of Imprisoned Vassals
-LBIS:AddItem(spec0, "40717", LBIS.L["Ring"], "BIS") --Ring of Invincibility
-LBIS:AddItem(spec0, "39401", LBIS.L["Ring"], "BIS") --Circle of Death
-LBIS:AddItem(spec0, "39257", LBIS.L["Trinket"], "BIS") --Loatheb's Shadow
-LBIS:AddItem(spec0, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
-LBIS:AddItem(spec0, "39417", LBIS.L["Two Hand"], "BIS") --Death's Bite
-LBIS:AddItem(spec0, "42851", LBIS.L["Ranged/Relic"], "BIS") --Hateful Gladiator's Libram of Fortitude
+LBIS:AddItem(spec0, "45993", LBIS.L["Head"], "BIS") --Mimiron's Flight Goggles
+LBIS:AddItem(spec0, "46037", LBIS.L["Shoulder"], "BIS") --Shoulderplates of the Celestial Watch
+LBIS:AddItem(spec0, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless General
+LBIS:AddItem(spec0, "47589", LBIS.L["Chest"], "BIS") --Titanium Razorplate
+LBIS:AddItem(spec0, "47573", LBIS.L["Wrist"], "BIS") --Titanium Spikeguards
+LBIS:AddItem(spec0, "46043", LBIS.L["Hands"], "BIS") --Gloves of the Endless Dark
+LBIS:AddItem(spec0, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
+LBIS:AddItem(spec0, "45982", LBIS.L["Legs"], "BIS") --Fused Alloy Legplates
+LBIS:AddItem(spec0, "45989", LBIS.L["Feet"], "BIS") --Tempered Mercury Greaves
+LBIS:AddItem(spec0, "46040", LBIS.L["Neck"], "BIS") --Strength of the Heavens
+LBIS:AddItem(spec0, "45456", LBIS.L["Ring"], "BIS") --Loop of the Agile
+LBIS:AddItem(spec0, "46048", LBIS.L["Ring"], "BIS") --Band of Lights
+LBIS:AddItem(spec0, "46038", LBIS.L["Trinket"], "BIS") --Dark Matter
+LBIS:AddItem(spec0, "42028", LBIS.L["Trinket"], "BIS") --Deadly Gladiator's Pendant of Victory
+LBIS:AddItem(spec0, "45868", LBIS.L["Two Hand"], "BIS") --Aesir's Edge
+LBIS:AddItem(spec0, "47661", LBIS.L["Ranged/Relic"], "BIS") --Libram of Valiance
 
 LBIS:AddItem(spec1, "44006", LBIS.L["Head"], "BIS") --Obsidian Greathelm
 LBIS:AddItem(spec1, "40576", LBIS.L["Head"], "BIS") --Valorous Redemption Helm

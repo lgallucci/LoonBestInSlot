@@ -39,22 +39,22 @@ LBIS:AddEnchant(spec1, "59619", LBIS.L["Two Hand"]) --Enchant Weapon - Accuracy
 LBIS:AddEnchant(spec1, "56478", LBIS.L["Ranged/Relic"]) --Heartseeker Scope
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
-LBIS:AddItem(spec0, "40543", LBIS.L["Head"], "BIS") --Blue Aspect Helm
-LBIS:AddItem(spec0, "40507", LBIS.L["Shoulder"], "BIS") --Valorous Cryptstalker Spaulders
-LBIS:AddItem(spec0, "40403", LBIS.L["Back"], "BIS") --Drape of the Deadly Foe
-LBIS:AddItem(spec0, "43998", LBIS.L["Chest"], "BIS") --Chestguard of Flagrant Prowess
-LBIS:AddItem(spec0, "40282", LBIS.L["Wrist"], "BIS") --Slime Stream Bands
-LBIS:AddItem(spec0, "40541", LBIS.L["Hands"], "BIS") --Frosted Adroit Handguards
-LBIS:AddItem(spec0, "39762", LBIS.L["Waist"], "BIS") --Torn Web Wrapping
-LBIS:AddItem(spec0, "40331", LBIS.L["Legs"], "BIS") --Leggings of Failed Escape
-LBIS:AddItem(spec0, "40549", LBIS.L["Feet"], "BIS") --Boots of the Renewed Flight
-LBIS:AddItem(spec0, "44664", LBIS.L["Neck"], "BIS") --Favor of the Dragon Queen
-LBIS:AddItem(spec0, "40474", LBIS.L["Ring"], "BIS") --Surge Needle Ring
-LBIS:AddItem(spec0, "40074", LBIS.L["Ring"], "BIS") --Strong-Handed Ring
+LBIS:AddItem(spec0, "45361", LBIS.L["Head"], "BIS") --Valorous Scourgestalker Headpiece
+LBIS:AddItem(spec0, "45300", LBIS.L["Shoulder"], "BIS") --Mantle of Fiery Vengeance
+LBIS:AddItem(spec0, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless General
+LBIS:AddItem(spec0, "45364", LBIS.L["Chest"], "BIS") --Valorous Scourgestalker Tunic
+LBIS:AddItem(spec0, "45869", LBIS.L["Wrist"], "BIS") --Fluxing Energy Coils
+LBIS:AddItem(spec0, "45360", LBIS.L["Hands"], "BIS") --Valorous Scourgestalker Handguards
+LBIS:AddItem(spec0, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
+LBIS:AddItem(spec0, "46275", LBIS.L["Legs"], "BIS") --Scourgestalker Legguards
+LBIS:AddItem(spec0, "45989", LBIS.L["Feet"], "BIS") --Tempered Mercury Greaves
+LBIS:AddItem(spec0, "45820", LBIS.L["Neck"], "BIS") --Broach of the Wailing Night
+LBIS:AddItem(spec0, "45456", LBIS.L["Ring"], "BIS") --Loop of the Agile
+LBIS:AddItem(spec0, "46322", LBIS.L["Ring"], "BIS") --Brann's Sealing Ring
 LBIS:AddItem(spec0, "44253", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
-LBIS:AddItem(spec0, "39257", LBIS.L["Trinket"], "BIS") --Loatheb's Shadow
-LBIS:AddItem(spec0, "40388", LBIS.L["Main Hand"], "BIS") --Journey's End
-LBIS:AddItem(spec0, "40385", LBIS.L["Ranged/Relic"], "BIS") --Envoy of Mortality
+LBIS:AddItem(spec0, "46038", LBIS.L["Trinket"], "BIS") --Dark Matter
+LBIS:AddItem(spec0, "46033", LBIS.L["Main Hand"], "BIS") --Tortured Earth
+LBIS:AddItem(spec0, "45870", LBIS.L["Ranged/Relic"], "BIS") --Magnetized Projectile Emitter
 
 LBIS:AddItem(spec1, "40505", LBIS.L["Head"], "BIS") --Valorous Cryptstalker Headpiece
 LBIS:AddItem(spec1, "40543", LBIS.L["Head"], "Alt") --Blue Aspect Helm

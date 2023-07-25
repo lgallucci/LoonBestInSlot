@@ -158,6 +158,7 @@ public class WowheadGuideParser
             { "Boots", "Feet" },
             { "Belt", "Waist" },
             { "Finger", "Ring" },
+            { "Main-Hand", "Main Hand" },
             { "Main-Hand Weapon", "Main Hand" },
             { "Off-Hand Weapon", "Off Hand" },
             { "Off-Hand weapon", "Off Hand" },
@@ -165,6 +166,7 @@ public class WowheadGuideParser
             { "Shield", "Off Hand" },
             { "Weapon", "Two Hand" },
             { "Two-Hand Weapon", "Two Hand" },
+            { "Two Hand Weapon", "Two Hand" },
             { "Ranged Weapon", "Ranged/Relic" },
             { "Sigil", "Ranged/Relic" },
             { "Relic", "Ranged/Relic" },
@@ -172,6 +174,8 @@ public class WowheadGuideParser
             { "Idol", "Ranged/Relic" },
             { "Wand", "Ranged/Relic" },
             { "Ranged", "Ranged/Relic" },
+            { "Trinket - Throughput", "Trinket" },
+            { "Trinket - Sustain", "Trinket" }
         };
         // Setting up indexers
         public string this[string i]
@@ -243,7 +247,7 @@ public class WowheadGuideParser
 
         //    LoopThroughTable(tableElement, (tableRow, itemChild, itemOrderIndex, isTierList) =>
         //    {
-        //        var slotText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
+        //        var slotText = "unknown"; //TODO: FIGURE A WAY TO FIND THIS INFO ?
 
         //        if (itemChild != null)
         //            ParseItemCell(itemChild, "BIS", new SlotSwaps()[slotText], items, itemOrderIndex);

@@ -29,23 +29,23 @@ LBIS:AddEnchant(spec1, "60714", LBIS.L["Two Hand"]) --Enchant Weapon - Mighty Sp
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Two Hand"]) --Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "43995", LBIS.L["Head"], "BIS") --Enamored Cowl
-LBIS:AddItem(spec0, "40450", LBIS.L["Shoulder"], "BIS") --Valorous Shoulderpads of Faith
-LBIS:AddItem(spec0, "40724", LBIS.L["Back"], "BIS") --Cloak of Kea Feathers
-LBIS:AddItem(spec0, "39515", LBIS.L["Chest"], "BIS") --Heroes' Robe of Faith
-LBIS:AddItem(spec0, "40741", LBIS.L["Wrist"], "BIS") --Cuffs of the Shadow Ascendant
-LBIS:AddItem(spec0, "37172", LBIS.L["Hands"], "BIS") --Gloves of Glistening Runes
-LBIS:AddItem(spec0, "37242", LBIS.L["Waist"], "BIS") --Sash of the Servant
-LBIS:AddItem(spec0, "40448", LBIS.L["Legs"], "BIS") --Valorous Leggings of Faith
-LBIS:AddItem(spec0, "40751", LBIS.L["Feet"], "BIS") --Slippers of the Holy Light
-LBIS:AddItem(spec0, "40486", LBIS.L["Neck"], "BIS") --Necklace of the Glittering Chamber
-LBIS:AddItem(spec0, "40720", LBIS.L["Ring"], "BIS") --Renewal of Life
-LBIS:AddItem(spec0, "39193", LBIS.L["Ring"], "BIS") --Band of Neglected Pleas
+LBIS:AddItem(spec0, "46197", LBIS.L["Head"], "BIS") --Conqueror's Cowl of Sanctification
+LBIS:AddItem(spec0, "46068", LBIS.L["Shoulder"], "BIS") --Amice of Inconceivable Horror
+LBIS:AddItem(spec0, "46042", LBIS.L["Back"], "BIS") --Drape of the Messenger
+LBIS:AddItem(spec0, "46193", LBIS.L["Chest"], "BIS") --Conqueror's Robe of Sanctification
+LBIS:AddItem(spec0, "45423", LBIS.L["Wrist"], "BIS") --Runetouch Wristwraps
+LBIS:AddItem(spec0, "45387", LBIS.L["Hands"], "BIS") --Valorous Gloves of Sanctification
+LBIS:AddItem(spec0, "45558", LBIS.L["Waist"], "BIS") --Cord of the White Dawn
+LBIS:AddItem(spec0, "45388", LBIS.L["Legs"], "BIS") --Valorous Leggings of Sanctification
+LBIS:AddItem(spec0, "46050", LBIS.L["Feet"], "BIS") --Starlight Treads
+LBIS:AddItem(spec0, "45933", LBIS.L["Neck"], "BIS") --Pendant of the Shallow Grave
+LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
+LBIS:AddItem(spec0, "46096", LBIS.L["Ring"], "BIS") --Signet of Soft Lament
+LBIS:AddItem(spec0, "45929", LBIS.L["Trinket"], "BIS") --Sif's Remembrance
 LBIS:AddItem(spec0, "42988", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Illusion
-LBIS:AddItem(spec0, "42132", LBIS.L["Trinket"], "BIS") --Battlemaster's Bravery
-LBIS:AddItem(spec0, "39423", LBIS.L["Main Hand"], "BIS") --Hammer of the Astral Plane
-LBIS:AddItem(spec0, "39311", LBIS.L["Off Hand"], "BIS") --Scepter of Murmuring Spirits
-LBIS:AddItem(spec0, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlich
+LBIS:AddItem(spec0, "46035", LBIS.L["Main Hand"], "BIS") --Aesuga, Hand of the Ardent Champion
+LBIS:AddItem(spec0, "45314", LBIS.L["Off Hand"], "BIS") --Igniter Rod
+LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
 
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec1, "40456", LBIS.L["Head"], "BIS") --Valorous Circlet of Faith

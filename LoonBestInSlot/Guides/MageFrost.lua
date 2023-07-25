@@ -35,22 +35,22 @@ LBIS:AddEnchant(spec1, "59625", LBIS.L["Main Hand"]) --Enchant Weapon - Black Ma
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Main Hand"]) --Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "39491", LBIS.L["Head"], "BIS") --Heroes' Frostfire Circlet
-LBIS:AddItem(spec0, "40419", LBIS.L["Shoulder"], "BIS") --Valorous Frostfire Shoulderpads
-LBIS:AddItem(spec0, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumiho
-LBIS:AddItem(spec0, "39492", LBIS.L["Chest"], "BIS") --Heroes' Frostfire Robe
-LBIS:AddItem(spec0, "40740", LBIS.L["Wrist"], "BIS") --Wraps of the Astral Traveler
-LBIS:AddItem(spec0, "39495", LBIS.L["Hands"], "BIS") --Heroes' Frostfire Gloves
-LBIS:AddItem(spec0, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah
-LBIS:AddItem(spec0, "40417", LBIS.L["Legs"], "BIS") --Valorous Frostfire Leggings
-LBIS:AddItem(spec0, "40750", LBIS.L["Feet"], "BIS") --Xintor's Expeditionary Boots
-LBIS:AddItem(spec0, "39392", LBIS.L["Neck"], "BIS") --Veiled Amulet of Life
-LBIS:AddItem(spec0, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
-LBIS:AddItem(spec0, "45691", LBIS.L["Ring"], "BIS") --Inscribed Signet of the Kirin Tor
-LBIS:AddItem(spec0, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spider
+LBIS:AddItem(spec0, "46129", LBIS.L["Head"], "BIS") --Conqueror's Kirin Tor Hood
+LBIS:AddItem(spec0, "45369", LBIS.L["Shoulder"], "BIS") --Valorous Kirin Tor Shoulderpads
+LBIS:AddItem(spec0, "46042", LBIS.L["Back"], "BIS") --Drape of the Messenger
+LBIS:AddItem(spec0, "47604", LBIS.L["Chest"], "BIS") --Merlin's Robe
+LBIS:AddItem(spec0, "47586", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
+LBIS:AddItem(spec0, "46131", LBIS.L["Hands"], "BIS") --Valorous Kirin Tor Gauntlets
+LBIS:AddItem(spec0, "45558", LBIS.L["Waist"], "BIS") --Cord of the White Dawn
+LBIS:AddItem(spec0, "45367", LBIS.L["Legs"], "BIS") --Valorous Kirin Tor Leggings
+LBIS:AddItem(spec0, "45566", LBIS.L["Feet"], "BIS") --Spellslinger's Slippers
+LBIS:AddItem(spec0, "45933", LBIS.L["Neck"], "BIS") --Pendant of the Shallow Grave
+LBIS:AddItem(spec0, "46096", LBIS.L["Ring"], "BIS") --Signet of Soft Lament
+LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
+LBIS:AddItem(spec0, "45308", LBIS.L["Trinket"], "BIS") --Eye of the Broodmother
 LBIS:AddItem(spec0, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exiled
-LBIS:AddItem(spec0, "40489", LBIS.L["Main Hand"], "BIS") --Greatstaff of the Nexus
-LBIS:AddItem(spec0, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlich
+LBIS:AddItem(spec0, "45886", LBIS.L["Main Hand"], "BIS") --Icecore Staff
+LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
 
 LBIS:AddItem(spec1, "40416", LBIS.L["Head"], "BIS") --Valorous Frostfire Circlet
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "Alt") --Hood of Rationality

@@ -27,22 +27,24 @@ LBIS:AddEnchant(spec1, "60714", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty S
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Main Hand"]) --Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "39295", LBIS.L["Head"], "BIS") --Cowl of Sheet Lightning
-LBIS:AddItem(spec0, "39310", LBIS.L["Shoulder"], "BIS") --Mantle of the Extensive Mind
-LBIS:AddItem(spec0, "40723", LBIS.L["Back"], "BIS") --Disguise of the Kumiho
-LBIS:AddItem(spec0, "42102", LBIS.L["Chest"], "BIS") --Spellweave Robe
-LBIS:AddItem(spec0, "40741", LBIS.L["Wrist"], "BIS") --Cuffs of the Shadow Ascendant
-LBIS:AddItem(spec0, "39733", LBIS.L["Hands"], "BIS") --Gloves of Token Respect
+LBIS:AddItem(spec0, "47690", LBIS.L["Head"], "BIS") --Helm of Abundant Growth
+LBIS:AddItem(spec0, "47691", LBIS.L["Head"], "BIS") --Mask of Abundant Growth
+LBIS:AddItem(spec0, "46068", LBIS.L["Shoulder"], "BIS") --Amice of Inconceivable Horror
+LBIS:AddItem(spec0, "45317", LBIS.L["Back"], "BIS") --Shawl of the Caretaker
+LBIS:AddItem(spec0, "47603", LBIS.L["Chest"], "BIS") --Merlin's Robe
+LBIS:AddItem(spec0, "47604", LBIS.L["Chest"], "BIS") --Merlin's Robe
+LBIS:AddItem(spec0, "47586", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
+LBIS:AddItem(spec0, "47585", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
+LBIS:AddItem(spec0, "46045", LBIS.L["Hands"], "BIS") --Pulsar Gloves
 LBIS:AddItem(spec0, "45556", LBIS.L["Waist"], "BIS") --Belt of Arctic Life
-LBIS:AddItem(spec0, "39408", LBIS.L["Legs"], "BIS") --Leggings of Sapphiron
+LBIS:AddItem(spec0, "46049", LBIS.L["Legs"], "BIS") --Zodiac Leggings
 LBIS:AddItem(spec0, "45566", LBIS.L["Feet"], "BIS") --Spellslinger's Slippers
-LBIS:AddItem(spec0, "39392", LBIS.L["Neck"], "BIS") --Veiled Amulet of Life
-LBIS:AddItem(spec0, "45689", LBIS.L["Ring"], "BIS") --Inscribed Loop of the Kirin Tor
-LBIS:AddItem(spec0, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
+LBIS:AddItem(spec0, "45447", LBIS.L["Neck"], "BIS") --Watchful Eye of Fate
+LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
+LBIS:AddItem(spec0, "47732", LBIS.L["Ring"], "BIS") --Band of the Invoker
 LBIS:AddItem(spec0, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
-LBIS:AddItem(spec0, "37657", LBIS.L["Trinket"], "BIS") --Spark of Life
-LBIS:AddItem(spec0, "40488", LBIS.L["Main Hand"], "BIS") --Ice Spire Scepter
-LBIS:AddItem(spec0, "40699", LBIS.L["Off Hand"], "BIS") --Handbook of Obscure Remedies
+LBIS:AddItem(spec0, "45929", LBIS.L["Trinket"], "BIS") --Sif's Remembrance
+LBIS:AddItem(spec0, "45886", LBIS.L["Two Hand"], "BIS") --Icecore Staff
 LBIS:AddItem(spec0, "40342", LBIS.L["Ranged/Relic"], "BIS") --Idol of Awakening
 
 LBIS:AddItem(spec1, "44007", LBIS.L["Head"], "BIS") --Headpiece of Reconciliation

@@ -46,23 +46,23 @@ LBIS:AddEnchant(spec1, "62202", LBIS.L["Off Hand"]) --Titanium Plating
 LBIS:AddEnchant(spec1, "44489", LBIS.L["Off Hand"]) --Enchant Shield - Defense
 LBIS:AddEnchant(spec1, "56478", LBIS.L["Ranged/Relic"]) --Heartseeker Scope
 
-LBIS:AddItem(spec0, "39610", LBIS.L["Head"], "BIS") --Heroes' Dreadnaught Greathelm
-LBIS:AddItem(spec0, "39613", LBIS.L["Shoulder"], "BIS") --Heroes' Dreadnaught Pauldrons
-LBIS:AddItem(spec0, "40722", LBIS.L["Back"], "BIS") --Platinum Mesh Cloak
-LBIS:AddItem(spec0, "46058", LBIS.L["Chest"], "BIS") --Titan-Forged Breastplate of Triumph
-LBIS:AddItem(spec0, "40734", LBIS.L["Wrist"], "BIS") --Bracers of Dalaran's Parapets
-LBIS:AddItem(spec0, "39622", LBIS.L["Hands"], "BIS") --Heroes' Dreadnaught Handguards
-LBIS:AddItem(spec0, "39298", LBIS.L["Waist"], "BIS") --Waistguard of the Tutor
-LBIS:AddItem(spec0, "39258", LBIS.L["Legs"], "BIS") --Legplates of Inescapable Death
-LBIS:AddItem(spec0, "40743", LBIS.L["Feet"], "BIS") --Kyzoc's Ground Stompers
-LBIS:AddItem(spec0, "44660", LBIS.L["Neck"], "BIS") --Drakescale Collar
-LBIS:AddItem(spec0, "40718", LBIS.L["Ring"], "BIS") --Signet of the Impregnable Fortress
-LBIS:AddItem(spec0, "40426", LBIS.L["Ring"], "BIS") --Signet of the Accord
-LBIS:AddItem(spec0, "37220", LBIS.L["Trinket"], "BIS") --Essence of Gossamer
-LBIS:AddItem(spec0, "44063", LBIS.L["Trinket"], "BIS") --Figurine - Monarch Crab
-LBIS:AddItem(spec0, "39344", LBIS.L["Main Hand"], "BIS") --Slayer of the Lifeless
-LBIS:AddItem(spec0, "40475", LBIS.L["Off Hand"], "BIS") --Barricade of Eternity
-LBIS:AddItem(spec0, "41168", LBIS.L["Ranged/Relic"], "BIS") --Armor Plated Combat Shotgun
+LBIS:AddItem(spec0, "46166", LBIS.L["Head"], "BIS") --Conqueror's Siegebreaker Greathelm
+LBIS:AddItem(spec0, "45697", LBIS.L["Shoulder"], "BIS") --Shoulderguards of the Solemn Watch
+LBIS:AddItem(spec0, "45322", LBIS.L["Back"], "BIS") --Cloak of the Iron Council
+LBIS:AddItem(spec0, "46162", LBIS.L["Chest"], "BIS") --Conqueror's Siegebreaker Breastplate
+LBIS:AddItem(spec0, "47570", LBIS.L["Wrist"], "BIS") --Saronite Swordbreakers
+LBIS:AddItem(spec0, "46340", LBIS.L["Hands"], "BIS") --Adamant Handguards
+LBIS:AddItem(spec0, "45825", LBIS.L["Waist"], "BIS") --Shieldwarder Girdle
+LBIS:AddItem(spec0, "45842", LBIS.L["Legs"], "BIS") --Wyrmguard Legplates
+LBIS:AddItem(spec0, "45988", LBIS.L["Feet"], "BIS") --Greaves of the Iron Army
+LBIS:AddItem(spec0, "45821", LBIS.L["Neck"], "BIS") --Shard of the Crystal Forest
+LBIS:AddItem(spec0, "45247", LBIS.L["Ring"], "BIS") --Signet of the Earthshaker
+LBIS:AddItem(spec0, "45874", LBIS.L["Ring"], "BIS") --Signet of Winter
+LBIS:AddItem(spec0, "46021", LBIS.L["Trinket"], "BIS") --Royal Seal of King Llane
+LBIS:AddItem(spec0, "47216", LBIS.L["Trinket"], "BIS") --The Black Heart
+LBIS:AddItem(spec0, "45876", LBIS.L["Main Hand"], "BIS") --Shiver
+LBIS:AddItem(spec0, "45877", LBIS.L["Off Hand"], "BIS") --The Boreal Guard
+LBIS:AddItem(spec0, "45870", LBIS.L["Ranged/Relic"], "BIS") --Magnetized Projectile Emitter
 
 LBIS:AddItem(spec1, "40546", LBIS.L["Head"], "BIS") --Valorous Dreadnaught Greathelm
 LBIS:AddItem(spec1, "39610", LBIS.L["Head"], "Alt") --Heroes' Dreadnaught Greathelm

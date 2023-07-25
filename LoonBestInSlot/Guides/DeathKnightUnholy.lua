@@ -30,21 +30,21 @@ LBIS:AddEnchant(spec1, "53344", LBIS.L["Off Hand"]) --Rune of the Fallen Crusade
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
 LBIS:AddItem(spec0, "39619", LBIS.L["Head"], "BIS") --Heroes' Scourgeborne Helmet
-LBIS:AddItem(spec0, "39621", LBIS.L["Shoulder"], "BIS") --Heroes' Scourgeborne Shoulderplates
-LBIS:AddItem(spec0, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloak
+LBIS:AddItem(spec0, "46037", LBIS.L["Shoulder"], "BIS") --Shoulderplates of the Celestial Watch
+LBIS:AddItem(spec0, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless General
 LBIS:AddItem(spec0, "39617", LBIS.L["Chest"], "BIS") --Heroes' Scourgeborne Battleplate
-LBIS:AddItem(spec0, "40733", LBIS.L["Wrist"], "BIS") --Wristbands of the Sentinel Huntress
-LBIS:AddItem(spec0, "39618", LBIS.L["Hands"], "BIS") --Heroes' Scourgeborne Gauntlets
-LBIS:AddItem(spec0, "40688", LBIS.L["Waist"], "BIS") --Verdungo's Barbarian Cord
-LBIS:AddItem(spec0, "37193", LBIS.L["Legs"], "BIS") --Staggering Legplates
-LBIS:AddItem(spec0, "40742", LBIS.L["Feet"], "BIS") --Bladed Steelboots
-LBIS:AddItem(spec0, "39421", LBIS.L["Neck"], "BIS") --Gem of Imprisoned Vassals
-LBIS:AddItem(spec0, "39401", LBIS.L["Ring"], "BIS") --Circle of Death
-LBIS:AddItem(spec0, "45690", LBIS.L["Ring"], "BIS") --Inscribed Ring of the Kirin Tor
+LBIS:AddItem(spec0, "45888", LBIS.L["Wrist"], "BIS") --Bitter Cold Armguards
+LBIS:AddItem(spec0, "45833", LBIS.L["Hands"], "BIS") --Bladebreaker Gauntlets
+LBIS:AddItem(spec0, "46041", LBIS.L["Waist"], "BIS") --Starfall Girdle
+LBIS:AddItem(spec0, "45982", LBIS.L["Legs"], "BIS") --Fused Alloy Legplates
+LBIS:AddItem(spec0, "45330", LBIS.L["Feet"], "BIS") --Greaves of Iron Intensity
+LBIS:AddItem(spec0, "46040", LBIS.L["Neck"], "BIS") --Strength of the Heavens
+LBIS:AddItem(spec0, "45456", LBIS.L["Ring"], "BIS") --Loop of the Agile
+LBIS:AddItem(spec0, "46048", LBIS.L["Ring"], "BIS") --Band of Lights
 LBIS:AddItem(spec0, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
-LBIS:AddItem(spec0, "37390", LBIS.L["Trinket"], "BIS") --Meteorite Whetstone
-LBIS:AddItem(spec0, "40491", LBIS.L["Main Hand/Off Hand"], "BIS") --Hailstorm
-LBIS:AddItem(spec0, "42620", LBIS.L["Ranged/Relic"], "BIS") --Deadly Gladiator's Sigil of Strife
+LBIS:AddItem(spec0, "46038", LBIS.L["Trinket"], "BIS") --Dark Matter
+LBIS:AddItem(spec0, "46097", LBIS.L["Main Hand/Off Hand"], "BIS") --Caress of Insanity
+LBIS:AddItem(spec0, "45254", LBIS.L["Ranged/Relic"], "BIS") --Sigil of the Vengeful Heart
 
 LBIS:AddItem(spec1, "44006", LBIS.L["Head"], "BIS") --Obsidian Greathelm
 LBIS:AddItem(spec1, "40554", LBIS.L["Head"], "Alt") --Valorous Scourgeborne Helmet
@@ -168,8 +168,8 @@ LBIS:AddItem(spec2, "45263", LBIS.L["Trinket"], "Alt") --Wrathstone
 LBIS:AddItem(spec2, "46038", LBIS.L["Trinket"], "Alt") --Dark Matter
 LBIS:AddItem(spec2, "45522", LBIS.L["Trinket"], "Alt") --Blood of the Old God
 LBIS:AddItem(spec2, "45286", LBIS.L["Trinket"], "Alt") --Pyrite Infuser
-LBIS:AddItem(spec2, "45957", LBIS.L["Main Hand"], "BIS") --Furious Gladiator's Handaxe
 LBIS:AddItem(spec2, "46097", LBIS.L["Main Hand/Off Hand"], "BIS") --Caress of Insanity
+LBIS:AddItem(spec2, "45957", LBIS.L["Main Hand"], "BIS") --Furious Gladiator's Handaxe
 LBIS:AddItem(spec2, "46036", LBIS.L["Main Hand/Off Hand"], "Alt/BIS") --Void Sabre
 LBIS:AddItem(spec2, "45947", LBIS.L["Main Hand/Off Hand"], "Alt") --Serilas, Blood Blade of Invar One-Arm
 LBIS:AddItem(spec2, "45442", LBIS.L["Main Hand/Off Hand"], "Alt") --Sorthalis, Hammer of the Watchers

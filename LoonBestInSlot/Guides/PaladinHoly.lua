@@ -39,22 +39,22 @@ LBIS:AddEnchant(spec1, "27968", LBIS.L["Main Hand"]) --Enchant Weapon - Major In
 LBIS:AddEnchant(spec1, "60653", LBIS.L["Off Hand"]) --Enchant Shield - Greater Intellect
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "39260", LBIS.L["Head"], "BIS") --Helm of the Corrupted Mind
-LBIS:AddItem(spec0, "40573", LBIS.L["Shoulder"], "BIS") --Valorous Redemption Spaulders
-LBIS:AddItem(spec0, "40724", LBIS.L["Back"], "BIS") --Cloak of Kea Feathers
-LBIS:AddItem(spec0, "39629", LBIS.L["Chest"], "BIS") --Heroes' Redemption Tunic
-LBIS:AddItem(spec0, "40741", LBIS.L["Wrist"], "BIS") --Cuffs of the Shadow Ascendant
-LBIS:AddItem(spec0, "39632", LBIS.L["Hands"], "BIS") --Heroes' Redemption Gloves
-LBIS:AddItem(spec0, "40691", LBIS.L["Waist"], "BIS") --Magroth's Meditative Cincture
-LBIS:AddItem(spec0, "40572", LBIS.L["Legs"], "BIS") --Valorous Redemption Greaves
-LBIS:AddItem(spec0, "40519", LBIS.L["Feet"], "BIS") --Footsteps of Malygos
-LBIS:AddItem(spec0, "39232", LBIS.L["Neck"], "BIS") --Pendant of Lost Vocations
-LBIS:AddItem(spec0, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
-LBIS:AddItem(spec0, "44283", LBIS.L["Ring"], "BIS") --Signet of Hopeful Light
+LBIS:AddItem(spec0, "46180", LBIS.L["Head"], "BIS") --Conqueror's Aegis Headpiece
+LBIS:AddItem(spec0, "46044", LBIS.L["Shoulder"], "BIS") --Observer's Mantle
+LBIS:AddItem(spec0, "45317", LBIS.L["Back"], "BIS") --Shawl of the Caretaker
+LBIS:AddItem(spec0, "45867", LBIS.L["Chest"], "BIS") --Breastplate of the Stoneshaper
+LBIS:AddItem(spec0, "46345", LBIS.L["Wrist"], "BIS") --Bracers of Righteous Reformation
+LBIS:AddItem(spec0, "45928", LBIS.L["Hands"], "BIS") --Gauntlets of the Thunder God
+LBIS:AddItem(spec0, "45828", LBIS.L["Waist"], "BIS") --Windchill Binding
+LBIS:AddItem(spec0, "45845", LBIS.L["Legs"], "BIS") --Leggings of the Weary Mystic
+LBIS:AddItem(spec0, "46050", LBIS.L["Feet"], "BIS") --Starlight Treads
+LBIS:AddItem(spec0, "45933", LBIS.L["Neck"], "BIS") --Pendant of the Shallow Grave
+LBIS:AddItem(spec0, "45946", LBIS.L["Ring"], "BIS") --Fire Orchid Signet
+LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
 LBIS:AddItem(spec0, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
-LBIS:AddItem(spec0, "42413", LBIS.L["Trinket"], "BIS") --Figurine - Sapphire Owl
-LBIS:AddItem(spec0, "39423", LBIS.L["Main Hand"], "BIS") --Hammer of the Astral Plane
-LBIS:AddItem(spec0, "39233", LBIS.L["Off Hand"], "BIS") --Aegis of Damnation
+LBIS:AddItem(spec0, "46051", LBIS.L["Trinket"], "BIS") --Meteorite Crystal
+LBIS:AddItem(spec0, "46035", LBIS.L["Main Hand"], "BIS") --Aesuga, Hand of the Ardent Champion
+LBIS:AddItem(spec0, "45887", LBIS.L["Off Hand"], "BIS") --Ice Layered Barrier
 LBIS:AddItem(spec0, "40705", LBIS.L["Ranged/Relic"], "BIS") --Libram of Renewal
 
 LBIS:AddItem(spec1, "40298", LBIS.L["Head"], "BIS") --Faceguard of the Succumbed

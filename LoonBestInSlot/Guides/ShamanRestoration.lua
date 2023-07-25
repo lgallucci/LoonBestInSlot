@@ -41,23 +41,23 @@ LBIS:AddEnchant(spec1, "62948", LBIS.L["Main Hand"]) --Enchant Staff - Greater S
 LBIS:AddEnchant(spec1, "60653", LBIS.L["Off Hand"]) --Enchant Shield - Greater Intellect
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "39594", LBIS.L["Head"], "BIS") --Heroes' Earthshatter Helm
-LBIS:AddItem(spec0, "40513", LBIS.L["Shoulder"], "BIS") --Valorous Earthshatter Spaulders
-LBIS:AddItem(spec0, "40724", LBIS.L["Back"], "BIS") --Cloak of Kea Feathers
-LBIS:AddItem(spec0, "39588", LBIS.L["Chest"], "BIS") --Heroes' Earthshatter Tunic
-LBIS:AddItem(spec0, "40741", LBIS.L["Wrist"], "BIS") --Cuffs of the Shadow Ascendant
-LBIS:AddItem(spec0, "39591", LBIS.L["Hands"], "BIS") --Heroes' Earthshatter Handguards
-LBIS:AddItem(spec0, "40693", LBIS.L["Waist"], "BIS") --Beadwork Belt of Shamanic Vision
-LBIS:AddItem(spec0, "40512", LBIS.L["Legs"], "BIS") --Valorous Earthshatter Legguards
-LBIS:AddItem(spec0, "40519", LBIS.L["Feet"], "BIS") --Footsteps of Malygos
-LBIS:AddItem(spec0, "39232", LBIS.L["Neck"], "BIS") --Pendant of Lost Vocations
-LBIS:AddItem(spec0, "40719", LBIS.L["Ring"], "BIS") --Band of Channeled Magic
-LBIS:AddItem(spec0, "44283", LBIS.L["Ring"], "BIS") --Signet of Hopeful Light
+LBIS:AddItem(spec0, "46201", LBIS.L["Head"], "BIS") --Conqueror's Worldbreaker Headpiece
+LBIS:AddItem(spec0, "45404", LBIS.L["Shoulder"], "BIS") --Valorous Worldbreaker Spaulders
+LBIS:AddItem(spec0, "46341", LBIS.L["Back"], "BIS") --Drape of the Spellweaver
+LBIS:AddItem(spec0, "46198", LBIS.L["Chest"], "BIS") --Conqueror's Worldbreaker Tunic
+LBIS:AddItem(spec0, "47586", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
+LBIS:AddItem(spec0, "45943", LBIS.L["Hands"], "BIS") --Gloves of Whispering Winds
+LBIS:AddItem(spec0, "45554", LBIS.L["Waist"], "BIS") --Blue Belt of Chaos
+LBIS:AddItem(spec0, "45403", LBIS.L["Legs"], "BIS") --Valorous Worldbreaker Legguards
+LBIS:AddItem(spec0, "45563", LBIS.L["Feet"], "BIS") --Lightning Grounded Boots
+LBIS:AddItem(spec0, "45933", LBIS.L["Neck"], "BIS") --Pendant of the Shallow Grave
+LBIS:AddItem(spec0, "48957", LBIS.L["Ring"], "BIS") --Etched Signet of the Kirin Tor
+LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
+LBIS:AddItem(spec0, "45308", LBIS.L["Trinket"], "BIS") --Eye of the Broodmother
 LBIS:AddItem(spec0, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
-LBIS:AddItem(spec0, "40685", LBIS.L["Trinket"], "BIS") --The Egg of Mortal Essence
-LBIS:AddItem(spec0, "39423", LBIS.L["Main Hand"], "BIS") --Hammer of the Astral Plane
-LBIS:AddItem(spec0, "39233", LBIS.L["Off Hand"], "BIS") --Aegis of Damnation
-LBIS:AddItem(spec0, "40709", LBIS.L["Ranged/Relic"], "BIS") --Totem of Forest Growth
+LBIS:AddItem(spec0, "46035", LBIS.L["Main Hand"], "BIS") --Aesuga, Hand of the Ardent Champion
+LBIS:AddItem(spec0, "45887", LBIS.L["Off Hand"], "BIS") --Ice Layered Barrier
+LBIS:AddItem(spec0, "47665", LBIS.L["Ranged/Relic"], "BIS") --Totem of Calming Tides
 
 LBIS:AddItem(spec1, "40510", LBIS.L["Head"], "BIS") --Valorous Earthshatter Headpiece
 LBIS:AddItem(spec1, "40632", LBIS.L["Head"], "BIS") --Crown of the Lost Protector

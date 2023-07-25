@@ -38,22 +38,22 @@ LBIS:AddEnchant(spec1, "59621", LBIS.L["Main Hand"]) --Enchant Weapon - Berserki
 LBIS:AddEnchant(spec1, "56478", LBIS.L["Ranged/Relic"]) --Heartseeker Scope
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
-LBIS:AddItem(spec0, "39605", LBIS.L["Head"], "BIS") --Heroes' Dreadnaught Helmet
-LBIS:AddItem(spec0, "39608", LBIS.L["Shoulder"], "BIS") --Heroes' Dreadnaught Shoulderplates
-LBIS:AddItem(spec0, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloak
-LBIS:AddItem(spec0, "39606", LBIS.L["Chest"], "BIS") --Heroes' Dreadnaught Battleplate
-LBIS:AddItem(spec0, "40733", LBIS.L["Wrist"], "BIS") --Wristbands of the Sentinel Huntress
-LBIS:AddItem(spec0, "39609", LBIS.L["Hands"], "BIS") --Heroes' Dreadnaught Gauntlets
-LBIS:AddItem(spec0, "40688", LBIS.L["Waist"], "BIS") --Verdungo's Barbarian Cord
-LBIS:AddItem(spec0, "39607", LBIS.L["Legs"], "BIS") --Heroes' Dreadnaught Legplates
+LBIS:AddItem(spec0, "45431", LBIS.L["Head"], "BIS") --Valorous Siegebreaker Helmet
+LBIS:AddItem(spec0, "46037", LBIS.L["Shoulder"], "BIS") --Shoulderplates of the Celestial Watch
+LBIS:AddItem(spec0, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless General
+LBIS:AddItem(spec0, "45429", LBIS.L["Chest"], "BIS") --Valorous Siegebreaker Battleplate
+LBIS:AddItem(spec0, "45888", LBIS.L["Wrist"], "BIS") --Bitter Cold Armguards
+LBIS:AddItem(spec0, "45430", LBIS.L["Hands"], "BIS") --Valorous Siegebreaker Gauntlets
+LBIS:AddItem(spec0, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
+LBIS:AddItem(spec0, "45432", LBIS.L["Legs"], "BIS") --Valorous Siegebreaker Legplates
 LBIS:AddItem(spec0, "40742", LBIS.L["Feet"], "BIS") --Bladed Steelboots
-LBIS:AddItem(spec0, "39421", LBIS.L["Neck"], "BIS") --Gem of Imprisoned Vassals
-LBIS:AddItem(spec0, "40474", LBIS.L["Ring"], "BIS") --Surge Needle Ring
-LBIS:AddItem(spec0, "45690", LBIS.L["Ring"], "BIS") --Inscribed Ring of the Kirin Tor
-LBIS:AddItem(spec0, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
-LBIS:AddItem(spec0, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
-LBIS:AddItem(spec0, "39417", LBIS.L["Main Hand/Off Hand"], "BIS") --Death's Bite
-LBIS:AddItem(spec0, "39419", LBIS.L["Ranged/Relic"], "BIS") --Nerubian Conquerer
+LBIS:AddItem(spec0, "45945", LBIS.L["Neck"], "BIS") --Seed of Budding Carnage
+LBIS:AddItem(spec0, "46048", LBIS.L["Ring"], "BIS") --Band of Lights
+LBIS:AddItem(spec0, "45456", LBIS.L["Ring"], "BIS") --Loop of the Agile
+LBIS:AddItem(spec0, "46038", LBIS.L["Trinket"], "BIS") --Dark Matter
+LBIS:AddItem(spec0, "45931", LBIS.L["Trinket"], "BIS") --Mjolnir Runestone
+LBIS:AddItem(spec0, "45868", LBIS.L["Main Hand/Off Hand"], "BIS") --Aesir's Edge
+LBIS:AddItem(spec0, "45296", LBIS.L["Ranged/Relic"], "BIS") --Twirling Blades
 
 LBIS:AddItem(spec1, "40528", LBIS.L["Head"], "BIS") --Valorous Dreadnaught Helmet
 LBIS:AddItem(spec1, "44006", LBIS.L["Head"], "Alt") --Obsidian Greathelm

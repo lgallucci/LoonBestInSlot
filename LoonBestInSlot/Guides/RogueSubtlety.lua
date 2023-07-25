@@ -43,23 +43,23 @@ LBIS:AddEnchant(spec1, "56470", LBIS.L["Ranged/Relic"]) --Sun Scope
 LBIS:AddEnchant(spec1, "61471", LBIS.L["Ranged/Relic"]) --Diamond-cut Refractor Scope
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
-LBIS:AddItem(spec0, "39561", LBIS.L["Head"], "BIS") --Heroes' Bonescythe Helmet
-LBIS:AddItem(spec0, "40502", LBIS.L["Shoulder"], "BIS") --Valorous Bonescythe Pauldrons
-LBIS:AddItem(spec0, "40721", LBIS.L["Back"], "BIS") --Hammerhead Sharkskin Cloak
-LBIS:AddItem(spec0, "43990", LBIS.L["Chest"], "BIS") --Blade-Scarred Tunic
-LBIS:AddItem(spec0, "40738", LBIS.L["Wrist"], "BIS") --Wristwraps of the Cutthroat
-LBIS:AddItem(spec0, "39560", LBIS.L["Hands"], "BIS") --Heroes' Bonescythe Gauntlets
-LBIS:AddItem(spec0, "40694", LBIS.L["Waist"], "BIS") --Jorach's Crocolisk Skin Belt
-LBIS:AddItem(spec0, "40500", LBIS.L["Legs"], "BIS") --Valorous Bonescythe Legplates
-LBIS:AddItem(spec0, "40748", LBIS.L["Feet"], "BIS") --Boots of Captain Ellis
-LBIS:AddItem(spec0, "39421", LBIS.L["Neck"], "BIS") --Gem of Imprisoned Vassals
-LBIS:AddItem(spec0, "40474", LBIS.L["Ring"], "BIS") --Surge Needle Ring
-LBIS:AddItem(spec0, "40717", LBIS.L["Ring"], "BIS") --Ring of Invincibility
-LBIS:AddItem(spec0, "37166", LBIS.L["Trinket"], "BIS") --Sphere of Red Dragon's Blood
-LBIS:AddItem(spec0, "40684", LBIS.L["Trinket"], "BIS") --Mirror of Truth
-LBIS:AddItem(spec0, "39420", LBIS.L["Main Hand"], "BIS") --Anarchy
-LBIS:AddItem(spec0, "37856", LBIS.L["Off Hand"], "BIS") --Librarian's Paper Cutter
-LBIS:AddItem(spec0, "39296", LBIS.L["Ranged/Relic"], "BIS") --Accursed Bow of the Elite
+LBIS:AddItem(spec0, "46125", LBIS.L["Head"], "BIS") --Conqueror's Terrorblade Helmet
+LBIS:AddItem(spec0, "45400", LBIS.L["Shoulder"], "BIS") --Valorous Terrorblade Pauldrons
+LBIS:AddItem(spec0, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless General
+LBIS:AddItem(spec0, "46123", LBIS.L["Chest"], "BIS") --Conqueror's Terrorblade Breastplate
+LBIS:AddItem(spec0, "45869", LBIS.L["Wrist"], "BIS") --Fluxing Energy Coils
+LBIS:AddItem(spec0, "46043", LBIS.L["Hands"], "BIS") --Gloves of the Endless Dark
+LBIS:AddItem(spec0, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
+LBIS:AddItem(spec0, "45399", LBIS.L["Legs"], "BIS") --Valorous Terrorblade Legplates
+LBIS:AddItem(spec0, "45302", LBIS.L["Feet"], "BIS") --Treads of the Invader
+LBIS:AddItem(spec0, "45945", LBIS.L["Neck"], "BIS") --Seed of Budding Carnage
+LBIS:AddItem(spec0, "46048", LBIS.L["Ring"], "BIS") --Band of Lights
+LBIS:AddItem(spec0, "45456", LBIS.L["Ring"], "BIS") --Loop of the Agile
+LBIS:AddItem(spec0, "46038", LBIS.L["Trinket"], "BIS") --Dark Matter
+LBIS:AddItem(spec0, "45931", LBIS.L["Trinket"], "BIS") --Mjolnir Runestone
+LBIS:AddItem(spec0, "45449", LBIS.L["Main Hand"], "BIS") --The Masticator
+LBIS:AddItem(spec0, "45930", LBIS.L["Off Hand"], "BIS") --Combatant's Bootblade
+LBIS:AddItem(spec0, "45296", LBIS.L["Ranged/Relic"], "BIS") --Twirling Blades
 
 LBIS:AddItem(spec1, "40499", LBIS.L["Head"], "BIS") --Valorous Bonescythe Helmet
 LBIS:AddItem(spec1, "40329", LBIS.L["Head"], "Alt") --Hood of the Exodus

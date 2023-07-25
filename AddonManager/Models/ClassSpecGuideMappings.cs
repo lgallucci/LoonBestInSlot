@@ -109,7 +109,7 @@ public class ClassSpecGuideMappings
             { ("Main Hand", "h3#runewords+.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/death-knight/blood/tank-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/death-knight/blood/tank-bis-gear-pre-raid-pve-p3",
             "Blood", "Death Knight", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-blood-death-knight-tank-pre-raid") },
@@ -177,7 +177,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/death-knight/frost/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/death-knight/frost/dps-bis-gear-pre-raid-pve-p3",
             "Frost", "Death Knight", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-frost-death-knight-dps-pre-raid") },
@@ -246,7 +246,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/death-knight/unholy/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/death-knight/unholy/dps-bis-gear-pre-raid-pve-p3",
             "Unholy", "Death Knight", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-unholy-death-knight-dps-pre-raid") },
@@ -314,7 +314,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/balance/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/balance/dps-bis-gear-pre-raid-pve-p3",
             "Balance", "Druid", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-balance-druid-dps-pre-raid") },
@@ -387,7 +387,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/feral/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/feral/dps-bis-gear-pre-raid-pve-p3",
             "Cat", "Druid", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-feral-druid-dps-pre-raid") },
@@ -450,7 +450,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/feral/tank-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/feral/tank-bis-gear-pre-raid-pve-p3",
             "Bear", "Druid", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-feral-druid-tank-pre-raid") },
@@ -514,7 +514,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/restoration/healer-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/druid/restoration/healer-bis-gear-pre-raid-pve-p3",
             "Restoration", "Druid", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-restoration-druid-healer-pre-raid") },
@@ -587,7 +587,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/hunter/beast-mastery/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/hunter/beast-mastery/dps-bis-gear-pre-raid-pve-p3",
             "Beast Mastery", "Hunter", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-beast-mastery-hunter-dps-pre-raid") },
@@ -656,7 +656,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/hunter/marksmanship/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/hunter/marksmanship/dps-bis-gear-pre-raid-pve-p3",
             "Marksmanship", "Hunter", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-marksmanship-hunter-dps-pre-raid") },
@@ -725,7 +725,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/hunter/survival/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/hunter/survival/dps-bis-gear-pre-raid-pve-p3",
             "Survival", "Hunter", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-survival-hunter-dps-pre-raid") },
@@ -794,7 +794,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/mage/arcane/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/mage/arcane/dps-bis-gear-pre-raid-pve-p3",
             "Arcane", "Mage", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-arcane-mage-dps-pre-raid") },
@@ -863,7 +863,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/mage/fire/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/mage/fire/dps-bis-gear-pre-raid-pve-p3",
             "Fire", "Mage", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-fire-mage-dps-pre-raid") },
@@ -932,7 +932,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/mage/frost/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/mage/frost/dps-bis-gear-pre-raid-pve-p3",
             "Frost", "Mage", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-frost-mage-dps-pre-raid") },
@@ -1000,7 +1000,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/paladin/holy/healeer-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/paladin/holy/healer-bis-gear-pre-raid-pve-p3",
             "Holy", "Paladin", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-holy-paladin-healer-phase-1") },
@@ -1067,7 +1067,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/paladin/protection/tank-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/paladin/protection/tank-bis-gear-pre-raid-pve-p3",
             "Protection", "Paladin", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-protection-paladin-tank-pre-raid") },
@@ -1134,7 +1134,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/paladin/retribution/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/paladin/retribution/dps-bis-gear-pre-raid-pve-p3",
             "Retribution", "Paladin", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-retribution-paladin-pre-raid") },
@@ -1197,7 +1197,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/discipline/healer-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/discipline/healer-bis-gear-pre-raid-pve-p3",
             "Discipline", "Priest", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-discipline-priest-healer-pre-raid") },
@@ -1264,7 +1264,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/holy/healer-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/holy/healer-bis-gear-pre-raid-pve-p3",
             "Holy", "Priest", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-holy-priest-healer-pre-raid") },
@@ -1334,7 +1334,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/shadow/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/priest/shadow/dps-bis-gear-pre-raid-pve-p3",
             "Shadow", "Priest", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-shadow-priest-dps-pre-raid") },
@@ -1406,7 +1406,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/rogue/assassination/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/rogue/assassination/dps-bis-gear-pre-raid-pve-p3",
             "Assassination", "Rogue", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-assassination-rogue-dps-pre-raid") },
@@ -1470,7 +1470,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/rogue/combat/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/rogue/combat/dps-bis-gear-pre-raid-pve-p3",
             "Combat", "Rogue", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-combat-rogue-dps-pre-raid") },
@@ -1538,7 +1538,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/rogue/subtlety/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/rogue/subtlety/dps-bis-gear-pre-raid-pve-p3",
             "Subtlety", "Rogue", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-subtlety-rogue-dps-pre-raid") },
@@ -1604,7 +1604,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/shaman/elemental/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/shaman/elemental/dps-bis-gear-pre-raid-pve-p3",
             "Elemental", "Shaman", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-elemental-shaman-dps-in-pre-raid") },
@@ -1671,7 +1671,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/shaman/enhancement/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/shaman/enhancement/dps-bis-gear-pre-raid-pve-p3",
             "Enhancement", "Shaman", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-enhancement-shaman-dps-in-pre-raid") },
@@ -1735,7 +1735,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/shaman/restoration/healer-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/shaman/restoration/healer-bis-gear-pre-raid-pve-p3",
             "Restoration", "Shaman", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-restoration-shaman-healer-in-pre-raid") },
@@ -1802,7 +1802,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warlock/affliction/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warlock/affliction/dps-bis-gear-pre-raid-pve-p3",
             "Affliction", "Warlock", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Two Hand", "h3#weapons~h4") },
@@ -1861,7 +1861,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warlock/demonology/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warlock/demonology/dps-bis-gear-pre-raid-pve-p3",
             "Demonology", "Warlock", "Phase0", new List<(string, GuideMapping)>
         {
             { ("h3#weapons~h4", "Two Hand") },
@@ -1920,7 +1920,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warlock/destruction/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warlock/destruction/dps-bis-gear-pre-raid-pve-p3",
             "Destruction", "Warlock", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Two Hand", "h3#weapons~h4" ) },
@@ -1981,7 +1981,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warrior/arms/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warrior/arms/dps-bis-gear-pre-raid-pve-p3",
             "Arms", "Warrior", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-arms-warrior-dps-pre-raid") },
@@ -2046,7 +2046,7 @@ public class ClassSpecGuideMappings
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warrior/fury/dps-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warrior/fury/dps-bis-gear-pre-raid-pve-p3",
             "Fury", "Warrior", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-fury-warrior-dps-pre-raid") },
@@ -2110,7 +2110,7 @@ public class ClassSpecGuideMappings
             { ("Ranged/Relic", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         }));
 
-        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warrior/protection/tank-bis-gear-pre-raid-pve-p2",
+        GuideMappings.Add(new ClassGuideMapping("https://www.wowhead.com/wotlk/guide/classes/warrior/protection/tank-bis-gear-pre-raid-pve-p3",
             "Protection", "Warrior", "Phase0", new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-protection-warrior-tank-pre-raid") },

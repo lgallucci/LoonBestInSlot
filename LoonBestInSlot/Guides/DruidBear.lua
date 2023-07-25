@@ -30,22 +30,22 @@ LBIS:AddEnchant(spec1, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vita
 LBIS:AddEnchant(spec1, "27984", LBIS.L["Main Hand"]) --Enchant Weapon - Mongoose
 LBIS:AddEnchant(spec1, "59636", LBIS.L["Ring"]) --Enchant Ring - Stamina
 
-LBIS:AddItem(spec0, "39399", LBIS.L["Head"], "BIS") --Helm of the Vast Legions
-LBIS:AddItem(spec0, "40494", LBIS.L["Shoulder"], "BIS") --Valorous Dreamwalker Shoulderpads
-LBIS:AddItem(spec0, "40722", LBIS.L["Back"], "BIS") --Platinum Mesh Cloak
-LBIS:AddItem(spec0, "43990", LBIS.L["Chest"], "BIS") --Blade-Scarred Tunic
-LBIS:AddItem(spec0, "40738", LBIS.L["Wrist"], "BIS") --Wristwraps of the Cutthroat
-LBIS:AddItem(spec0, "39299", LBIS.L["Hands"], "BIS") --Rapid Attack Gloves
-LBIS:AddItem(spec0, "37194", LBIS.L["Waist"], "BIS") --Sharp-Barbed Leather Belt
-LBIS:AddItem(spec0, "40493", LBIS.L["Legs"], "BIS") --Valorous Dreamwalker Legguards
-LBIS:AddItem(spec0, "40748", LBIS.L["Feet"], "BIS") --Boots of Captain Ellis
-LBIS:AddItem(spec0, "39246", LBIS.L["Neck"], "BIS") --Amulet of Autopsy
-LBIS:AddItem(spec0, "37784", LBIS.L["Ring"], "BIS") --Keystone Great-Ring
-LBIS:AddItem(spec0, "43993", LBIS.L["Ring"], "BIS") --Greatring of Collision
-LBIS:AddItem(spec0, "37220", LBIS.L["Trinket"], "BIS") --Essence of Gossamer
-LBIS:AddItem(spec0, "40767", LBIS.L["Trinket"], "BIS") --Sonic Booster
-LBIS:AddItem(spec0, "39422", LBIS.L["Two Hand"], "BIS") --Staff of the Plaguehound
-LBIS:AddItem(spec0, "38365", LBIS.L["Ranged/Relic"], "BIS") --Idol of Perspicacious Attacks
+LBIS:AddItem(spec0, "46161", LBIS.L["Head"], "BIS") --Conqueror's Nightsong Headguard
+LBIS:AddItem(spec0, "45359", LBIS.L["Shoulder"], "BIS") --Valorous Nightsong Shoulderpads
+LBIS:AddItem(spec0, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless General
+LBIS:AddItem(spec0, "46159", LBIS.L["Chest"], "BIS") --Conqueror's Nightsong Raiments
+LBIS:AddItem(spec0, "45869", LBIS.L["Wrist"], "BIS") --Fluxing Energy Coils
+LBIS:AddItem(spec0, "46043", LBIS.L["Hands"], "BIS") --Gloves of the Endless Dark
+LBIS:AddItem(spec0, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
+LBIS:AddItem(spec0, "45357", LBIS.L["Legs"], "BIS") --Valorous Nightsong Legguards
+LBIS:AddItem(spec0, "45302", LBIS.L["Feet"], "BIS") --Treads of the Invader
+LBIS:AddItem(spec0, "45696", LBIS.L["Neck"], "BIS") --Mark of the Unyielding
+LBIS:AddItem(spec0, "45871", LBIS.L["Ring"], "BIS") --Seal of Ulduar
+LBIS:AddItem(spec0, "45874", LBIS.L["Ring"], "BIS") --Signet of Winter
+LBIS:AddItem(spec0, "47216", LBIS.L["Trinket"], "BIS") --The Black Heart
+LBIS:AddItem(spec0, "46021", LBIS.L["Trinket"], "BIS") --Royal Seal of King Llane
+LBIS:AddItem(spec0, "46033", LBIS.L["Two Hand"], "BIS") --Tortured Earth
+LBIS:AddItem(spec0, "45509", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Corruptor
 
 LBIS:AddItem(spec1, "40329", LBIS.L["Head"], "BIS") --Hood of the Exodus
 LBIS:AddItem(spec1, "40473", LBIS.L["Head"], "Alt") --Valorous Dreamwalker Headguard
