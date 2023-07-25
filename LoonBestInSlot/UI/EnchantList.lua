@@ -59,7 +59,7 @@ local function createItemRow(f, specEnchant, specEnchantSource)
         local bt = b:CreateTexture();
         bt:SetAllPoints();
         
-        if specEnchantSource.TextureId ~= nil and tonumber(specEnchantSource.TextureId) > 0 and tonumber(specEnchantSource.TextureId) < 99999 then
+        if specEnchantSource.TextureId ~= nil and specEnchantSource.TextureId ~= "" and tonumber(specEnchantSource.TextureId) > 0 and tonumber(specEnchantSource.TextureId) < 99999 then
             LBIS:GetItemInfo(tonumber(specEnchantSource.TextureId), function(textureItem)
                 bt:SetTexture(textureItem.Texture);
             end);
