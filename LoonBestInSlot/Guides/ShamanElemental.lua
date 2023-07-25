@@ -225,8 +225,8 @@ LBIS:AddItem(spec3, "48320", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderpads
 LBIS:AddItem(spec3, "48331", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads of Triumph
 LBIS:AddItem(spec3, "48315", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderpads of Conquest
 LBIS:AddItem(spec3, "48340", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads of Conquest
-LBIS:AddItem(spec3, "46211", LBIS.L["Shoulder"], "Alt") --Conqueror's Worldbreaker Shoulderpads
 LBIS:AddItem(spec3, "45657", LBIS.L["Shoulder"], "Alt") --Mantle of the Wayward Protector
+LBIS:AddItem(spec3, "46211", LBIS.L["Shoulder"], "Alt") --Conqueror's Worldbreaker Shoulderpads
 LBIS:AddItem(spec3, "46044", LBIS.L["Shoulder"], "Alt") --Observer's Mantle
 LBIS:AddItem(spec3, "45474", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Combatant
 LBIS:AddItem(spec3, "47552", LBIS.L["Back"], "BIS") --Jaina's Radiance
@@ -240,8 +240,8 @@ LBIS:AddItem(spec3, "46042", LBIS.L["Back"], "Alt") --Drape of the Messenger
 LBIS:AddItem(spec3, "49491", LBIS.L["Back"], "Alt") --Flowing Sapphiron Drape
 LBIS:AddItem(spec3, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
 LBIS:AddItem(spec3, "45486", LBIS.L["Back"], "Alt") --Drape of the Sullen Goddess
-LBIS:AddItem(spec3, "48325", LBIS.L["Chest"], "BIS") --Nobundo's Hauberk of Triumph
 LBIS:AddItem(spec3, "48326", LBIS.L["Chest"], "BIS") --Thrall's Hauberk of Triumph
+LBIS:AddItem(spec3, "48325", LBIS.L["Chest"], "BIS") --Nobundo's Hauberk of Triumph
 LBIS:AddItem(spec3, "47603", LBIS.L["Chest"], "Alt") --Merlin's Robe
 LBIS:AddItem(spec3, "47604", LBIS.L["Chest"], "Alt") --Merlin's Robe
 LBIS:AddItem(spec3, "48316", LBIS.L["Chest"], "Alt") --Nobundo's Hauberk of Triumph
@@ -284,8 +284,8 @@ LBIS:AddItem(spec3, "48339", LBIS.L["Legs"], "Alt") --Thrall's Kilt of Conquest
 LBIS:AddItem(spec3, "46210", LBIS.L["Legs"], "Alt") --Conqueror's Worldbreaker Kilt
 LBIS:AddItem(spec3, "45654", LBIS.L["Legs"], "Alt") --Legplates of the Wayward Protector
 LBIS:AddItem(spec3, "45488", LBIS.L["Legs"], "Alt") --Leggings of the Enslaved Idol
-LBIS:AddItem(spec3, "47456", LBIS.L["Feet"], "BIS") --Sabatons of Tremoring Earth
 LBIS:AddItem(spec3, "47099", LBIS.L["Feet"], "BIS") --Boots of Tremoring Earth
+LBIS:AddItem(spec3, "47456", LBIS.L["Feet"], "BIS") --Sabatons of Tremoring Earth
 LBIS:AddItem(spec3, "45537", LBIS.L["Feet"], "Alt") --Treads of the False Oracle
 LBIS:AddItem(spec3, "45615", LBIS.L["Feet"], "Alt") --Planewalker Treads
 LBIS:AddItem(spec3, "45563", LBIS.L["Feet"], "Alt") --Lightning Grounded Boots
@@ -299,12 +299,15 @@ LBIS:AddItem(spec3, "45495", LBIS.L["Ring"], "BIS") --Conductive Seal
 LBIS:AddItem(spec3, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
 LBIS:AddItem(spec3, "47928", LBIS.L["Ring"], "Alt") --Firestorm Ring
 LBIS:AddItem(spec3, "48001", LBIS.L["Ring"], "Alt") --Firestorm Band
+LBIS:AddItem(spec3, "47224", LBIS.L["Ring"], "Alt") --Ring of the Darkmender
+LBIS:AddItem(spec3, "47439", LBIS.L["Ring"], "Alt") --Circle of the Darkmender
 LBIS:AddItem(spec3, "45614", LBIS.L["Ring"], "Alt") --Starshine Circle
 LBIS:AddItem(spec3, "45168", LBIS.L["Ring"], "Alt") --Pyrelight Circle
 LBIS:AddItem(spec3, "45451", LBIS.L["Ring"], "Alt") --Frozen Loop
 LBIS:AddItem(spec3, "47188", LBIS.L["Trinket"], "BIS") --Reign of the Unliving
 LBIS:AddItem(spec3, "47477", LBIS.L["Trinket"], "BIS") --Reign of the Dead
 LBIS:AddItem(spec3, "45518", LBIS.L["Trinket"], "BIS") --Flare of the Heavens
+LBIS:AddItem(spec3, "47213", LBIS.L["Trinket"], "Alt") --Abyssal Rune
 LBIS:AddItem(spec3, "40255", LBIS.L["Trinket"], "Alt") --Dying Curse
 LBIS:AddItem(spec3, "45466", LBIS.L["Trinket"], "Alt") --Scale of Fates
 LBIS:AddItem(spec3, "45148", LBIS.L["Trinket"], "Alt") --Living Flame
@@ -312,8 +315,8 @@ LBIS:AddItem(spec3, "45308", LBIS.L["Trinket"], "Alt") --Eye of the Broodmother
 LBIS:AddItem(spec3, "40432", LBIS.L["Trinket"], "Alt") --Illustration of the Dragon Soul
 LBIS:AddItem(spec3, "46980", LBIS.L["Main Hand"], "BIS") --Blade of Tarasque
 LBIS:AddItem(spec3, "47422", LBIS.L["Main Hand"], "BIS") --Barb of Tarasque
-LBIS:AddItem(spec3, "47483", LBIS.L["Main Hand"], "Alt") --Suffering's End
 LBIS:AddItem(spec3, "47206", LBIS.L["Main Hand"], "Alt") --Misery's End
+LBIS:AddItem(spec3, "47483", LBIS.L["Main Hand"], "Alt") --Suffering's End
 LBIS:AddItem(spec3, "45612", LBIS.L["Main Hand"], "Alt") --Constellus
 LBIS:AddItem(spec3, "45620", LBIS.L["Main Hand"], "Alt") --Starshard Edge
 LBIS:AddItem(spec3, "48709", LBIS.L["Main Hand"], "Alt") --Heartcrusher

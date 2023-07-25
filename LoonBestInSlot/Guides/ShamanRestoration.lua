@@ -287,14 +287,16 @@ LBIS:AddItem(spec3, "48306", LBIS.L["Hands"], "Alt") --Thrall's Handguards of Tr
 LBIS:AddItem(spec3, "45943", LBIS.L["Hands"], "Alt") --Gloves of Whispering Winds
 LBIS:AddItem(spec3, "48286", LBIS.L["Hands"], "Alt") --Nobundo's Handguards of Triumph
 LBIS:AddItem(spec3, "48301", LBIS.L["Hands"], "Alt") --Thrall's Handguards of Triumph
-LBIS:AddItem(spec3, "48296", LBIS.L["Hands"], "Alt") --Thrall's Handguards of Conquest
 LBIS:AddItem(spec3, "48284", LBIS.L["Hands"], "Alt") --Nobundo's Handguards of Conquest
+LBIS:AddItem(spec3, "48296", LBIS.L["Hands"], "Alt") --Thrall's Handguards of Conquest
 LBIS:AddItem(spec3, "46991", LBIS.L["Waist"], "BIS") --Belt of the Ice Burrower
 LBIS:AddItem(spec3, "47426", LBIS.L["Waist"], "BIS") --Binding of the Ice Burrower
-LBIS:AddItem(spec3, "47145", LBIS.L["Waist"], "BIS") --Cord of Pale Thorns
-LBIS:AddItem(spec3, "47469", LBIS.L["Waist"], "BIS") --Belt of Pale Thorns
+LBIS:AddItem(spec3, "47145", LBIS.L["Waist"], "Alt") --Cord of Pale Thorns
+LBIS:AddItem(spec3, "47469", LBIS.L["Waist"], "Alt") --Belt of Pale Thorns
 LBIS:AddItem(spec3, "45616", LBIS.L["Waist"], "Alt") --Star-beaded Clutch
 LBIS:AddItem(spec3, "45151", LBIS.L["Waist"], "Alt") --Belt of the Fallen Wyrm
+LBIS:AddItem(spec3, "47932", LBIS.L["Waist"], "Alt") --Girdle of the Farseer
+LBIS:AddItem(spec3, "48005", LBIS.L["Waist"], "Alt") --Darkspear Ritual Binding
 LBIS:AddItem(spec3, "45554", LBIS.L["Waist"], "Alt") --Blue Belt of Chaos
 LBIS:AddItem(spec3, "47190", LBIS.L["Legs"], "BIS") --Legwraps of the Awakening
 LBIS:AddItem(spec3, "47479", LBIS.L["Legs"], "BIS") --Leggings of the Awakening
