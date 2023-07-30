@@ -276,8 +276,8 @@ LBIS:AddItem(spec3, "45272", LBIS.L["Chest"], "Alt") --Robes of the Umbral Brute
 LBIS:AddItem(spec3, "45240", LBIS.L["Chest"], "Alt") --Raiments of the Iron Council
 LBIS:AddItem(spec3, "47143", LBIS.L["Wrist"], "BIS") --Bindings of Dark Essence
 LBIS:AddItem(spec3, "47467", LBIS.L["Wrist"], "BIS") --Dark Essence Bindings
-LBIS:AddItem(spec3, "47587", LBIS.L["Wrist"], "Alt") --Royal Moonshroud Bracers
 LBIS:AddItem(spec3, "47588", LBIS.L["Wrist"], "Alt") --Royal Moonshroud Bracers
+LBIS:AddItem(spec3, "47587", LBIS.L["Wrist"], "Alt") --Royal Moonshroud Bracers
 LBIS:AddItem(spec3, "47208", LBIS.L["Wrist"], "Alt") --Armbands of the Ashen Saint
 LBIS:AddItem(spec3, "47485", LBIS.L["Wrist"], "Alt") --Bindings of the Ashen Saint
 LBIS:AddItem(spec3, "45446", LBIS.L["Wrist"], "Alt") --Grasps of Reason
@@ -292,8 +292,8 @@ LBIS:AddItem(spec3, "45387", LBIS.L["Hands"], "Alt") --Valorous Gloves of Sancti
 LBIS:AddItem(spec3, "47084", LBIS.L["Waist"], "BIS") --Cord of Biting Cold
 LBIS:AddItem(spec3, "47447", LBIS.L["Waist"], "BIS") --Belt of Biting Cold
 LBIS:AddItem(spec3, "45619", LBIS.L["Waist"], "BIS") --Starwatcher's Binding
-LBIS:AddItem(spec3, "47977", LBIS.L["Waist"], "Alt") --Cinch of the Undying
 LBIS:AddItem(spec3, "48054", LBIS.L["Waist"], "Alt") --Belt of the Eternal
+LBIS:AddItem(spec3, "47977", LBIS.L["Waist"], "Alt") --Cinch of the Undying
 LBIS:AddItem(spec3, "45558", LBIS.L["Waist"], "Alt") --Cord of the White Dawn
 LBIS:AddItem(spec3, "45831", LBIS.L["Waist"], "Alt") --Sash of Potent Incantations
 LBIS:AddItem(spec3, "40561", LBIS.L["Waist"], "Alt") --Leash of Heedless Magic
@@ -359,6 +359,8 @@ LBIS:AddItem(spec3, "47146", LBIS.L["Off Hand"], "BIS") --Chalice of Searing Lig
 LBIS:AddItem(spec3, "47470", LBIS.L["Off Hand"], "BIS") --Mystifying Charm
 LBIS:AddItem(spec3, "47064", LBIS.L["Off Hand"], "Alt") --Symbol of Transgression
 LBIS:AddItem(spec3, "47437", LBIS.L["Off Hand"], "Alt") --Talisman of Heedless Sins
+LBIS:AddItem(spec3, "47958", LBIS.L["Off Hand"], "Alt") --Chalice of Benedictus
+LBIS:AddItem(spec3, "48032", LBIS.L["Off Hand"], "Alt") --Lightbane Focus
 LBIS:AddItem(spec3, "45617", LBIS.L["Off Hand"], "Alt") --Cosmos
 LBIS:AddItem(spec3, "45271", LBIS.L["Off Hand"], "Alt") --Ironmender
 LBIS:AddItem(spec3, "45314", LBIS.L["Off Hand"], "Alt") --Igniter Rod

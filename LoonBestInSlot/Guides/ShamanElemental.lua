@@ -240,8 +240,8 @@ LBIS:AddItem(spec3, "46042", LBIS.L["Back"], "Alt") --Drape of the Messenger
 LBIS:AddItem(spec3, "49491", LBIS.L["Back"], "Alt") --Flowing Sapphiron Drape
 LBIS:AddItem(spec3, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
 LBIS:AddItem(spec3, "45486", LBIS.L["Back"], "Alt") --Drape of the Sullen Goddess
-LBIS:AddItem(spec3, "48326", LBIS.L["Chest"], "BIS") --Thrall's Hauberk of Triumph
 LBIS:AddItem(spec3, "48325", LBIS.L["Chest"], "BIS") --Nobundo's Hauberk of Triumph
+LBIS:AddItem(spec3, "48326", LBIS.L["Chest"], "BIS") --Thrall's Hauberk of Triumph
 LBIS:AddItem(spec3, "47603", LBIS.L["Chest"], "Alt") --Merlin's Robe
 LBIS:AddItem(spec3, "47604", LBIS.L["Chest"], "Alt") --Merlin's Robe
 LBIS:AddItem(spec3, "48316", LBIS.L["Chest"], "Alt") --Nobundo's Hauberk of Triumph
@@ -288,6 +288,8 @@ LBIS:AddItem(spec3, "47099", LBIS.L["Feet"], "BIS") --Boots of Tremoring Earth
 LBIS:AddItem(spec3, "47456", LBIS.L["Feet"], "BIS") --Sabatons of Tremoring Earth
 LBIS:AddItem(spec3, "45537", LBIS.L["Feet"], "Alt") --Treads of the False Oracle
 LBIS:AddItem(spec3, "45615", LBIS.L["Feet"], "Alt") --Planewalker Treads
+LBIS:AddItem(spec3, "49238", LBIS.L["Feet"], "Alt") --Boots of Tortured Space
+LBIS:AddItem(spec3, "49237", LBIS.L["Feet"], "Alt") --Sabatons of Tortured Space
 LBIS:AddItem(spec3, "45563", LBIS.L["Feet"], "Alt") --Lightning Grounded Boots
 LBIS:AddItem(spec3, "47144", LBIS.L["Neck"], "BIS") --Wail of the Val'kyr
 LBIS:AddItem(spec3, "47468", LBIS.L["Neck"], "BIS") --Cry of the Val'kyr
