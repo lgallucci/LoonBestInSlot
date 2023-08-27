@@ -199,14 +199,14 @@ LBIS:AddItem(spec3, "48396", LBIS.L["Chest"], "BIS") --Hellscream's Battleplate 
 LBIS:AddItem(spec3, "48385", LBIS.L["Chest"], "BIS") --Wrynn's Battleplate of Triumph
 LBIS:AddItem(spec3, "48376", LBIS.L["Chest"], "BIS") --Wrynn's Battleplate of Triumph
 LBIS:AddItem(spec3, "48391", LBIS.L["Chest"], "BIS") --Hellscream's Battleplate of Triumph
-LBIS:AddItem(spec3, "46146", LBIS.L["Chest"], "BIS") --Conqueror's Siegebreaker Battleplate
 LBIS:AddItem(spec3, "48026", LBIS.L["Chest"], "Alt") --Vest of Shifting Shadows
 LBIS:AddItem(spec3, "47954", LBIS.L["Chest"], "Alt") --Armor of Shifting Shadows
+LBIS:AddItem(spec3, "46146", LBIS.L["Chest"], "Alt") --Conqueror's Siegebreaker Battleplate
 LBIS:AddItem(spec3, "45473", LBIS.L["Chest"], "Alt") --Embrace of the Gladiator
 LBIS:AddItem(spec3, "47442", LBIS.L["Wrist"], "BIS") --Bracers of the Silent Massacre
 LBIS:AddItem(spec3, "47074", LBIS.L["Wrist"], "BIS") --Bracers of the Untold Massacre
-LBIS:AddItem(spec3, "48008", LBIS.L["Wrist"], "BIS") --Armplates of the Nether Lord
-LBIS:AddItem(spec3, "47935", LBIS.L["Wrist"], "BIS") --Armguards of the Nether Lord
+LBIS:AddItem(spec3, "48008", LBIS.L["Wrist"], "Alt") --Armplates of the Nether Lord
+LBIS:AddItem(spec3, "47935", LBIS.L["Wrist"], "Alt") --Armguards of the Nether Lord
 LBIS:AddItem(spec3, "47474", LBIS.L["Wrist"], "Alt") --Armbands of Dark Determination
 LBIS:AddItem(spec3, "47155", LBIS.L["Wrist"], "Alt") --Bracers of Dark Determination
 LBIS:AddItem(spec3, "45611", LBIS.L["Wrist"], "Alt") --Solar Bindings
@@ -215,9 +215,9 @@ LBIS:AddItem(spec3, "47492", LBIS.L["Hands"], "BIS") --Gauntlets of Bitter Repri
 LBIS:AddItem(spec3, "47240", LBIS.L["Hands"], "BIS") --Gloves of Bitter Reprisal
 LBIS:AddItem(spec3, "48017", LBIS.L["Hands"], "BIS") --Sunreaver Assassin's Gloves
 LBIS:AddItem(spec3, "47945", LBIS.L["Hands"], "BIS") --Gloves of the Silver Assassin
-LBIS:AddItem(spec3, "47990", LBIS.L["Hands"], "BIS") --Gauntlets of Mounting Anger
-LBIS:AddItem(spec3, "47917", LBIS.L["Hands"], "BIS") --Gauntlets of Rising Anger
-LBIS:AddItem(spec3, "46148", LBIS.L["Hands"], "BIS") --Conqueror's Siegebreaker Gauntlets
+LBIS:AddItem(spec3, "47990", LBIS.L["Hands"], "Alt") --Gauntlets of Mounting Anger
+LBIS:AddItem(spec3, "47917", LBIS.L["Hands"], "Alt") --Gauntlets of Rising Anger
+LBIS:AddItem(spec3, "46148", LBIS.L["Hands"], "Alt") --Conqueror's Siegebreaker Gauntlets
 LBIS:AddItem(spec3, "47472", LBIS.L["Waist"], "BIS") --Waistguard of Deathly Dominion
 LBIS:AddItem(spec3, "47153", LBIS.L["Waist"], "BIS") --Belt of Deathly Dominion
 LBIS:AddItem(spec3, "47460", LBIS.L["Waist"], "Alt") --Belt of the Pitiless Killer

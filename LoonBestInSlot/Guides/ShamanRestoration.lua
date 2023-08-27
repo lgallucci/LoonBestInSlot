@@ -241,8 +241,8 @@ LBIS:AddItem(spec3, "46204", LBIS.L["Shoulder"], "BIS") --Conqueror's Worldbreak
 LBIS:AddItem(spec3, "45657", LBIS.L["Shoulder"], "BIS") --Mantle of the Wayward Protector
 LBIS:AddItem(spec3, "45404", LBIS.L["Shoulder"], "Alt") --Valorous Worldbreaker Spaulders
 LBIS:AddItem(spec3, "45660", LBIS.L["Shoulder"], "Alt") --Spaulders of the Wayward Protector
-LBIS:AddItem(spec3, "48330", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads of Triumph
 LBIS:AddItem(spec3, "48321", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderpads of Triumph
+LBIS:AddItem(spec3, "48330", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads of Triumph
 LBIS:AddItem(spec3, "48320", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderpads of Triumph
 LBIS:AddItem(spec3, "48331", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads of Triumph
 LBIS:AddItem(spec3, "48315", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderpads of Conquest
@@ -274,8 +274,8 @@ LBIS:AddItem(spec3, "48281", LBIS.L["Chest"], "Alt") --Nobundo's Tunic of Conque
 LBIS:AddItem(spec3, "48295", LBIS.L["Chest"], "Alt") --Thrall's Tunic of Conquest
 LBIS:AddItem(spec3, "45460", LBIS.L["Wrist"], "BIS") --Bindings of Winter Gale
 LBIS:AddItem(spec3, "47586", LBIS.L["Wrist"], "Alt") --Bejeweled Wizard's Bracers
-LBIS:AddItem(spec3, "47068", LBIS.L["Wrist"], "Alt") --Bracers of Cloudy Omen
 LBIS:AddItem(spec3, "47441", LBIS.L["Wrist"], "Alt") --Wristwraps of Cloudy Omen
+LBIS:AddItem(spec3, "47068", LBIS.L["Wrist"], "Alt") --Bracers of Cloudy Omen
 LBIS:AddItem(spec3, "45187", LBIS.L["Wrist"], "Alt") --Wristguards of the Firetender
 LBIS:AddItem(spec3, "46199", LBIS.L["Hands"], "BIS") --Conqueror's Worldbreaker Handguards
 LBIS:AddItem(spec3, "45642", LBIS.L["Hands"], "BIS") --Gauntlets of the Wayward Protector
@@ -289,8 +289,8 @@ LBIS:AddItem(spec3, "48286", LBIS.L["Hands"], "Alt") --Nobundo's Handguards of T
 LBIS:AddItem(spec3, "48301", LBIS.L["Hands"], "Alt") --Thrall's Handguards of Triumph
 LBIS:AddItem(spec3, "48284", LBIS.L["Hands"], "Alt") --Nobundo's Handguards of Conquest
 LBIS:AddItem(spec3, "48296", LBIS.L["Hands"], "Alt") --Thrall's Handguards of Conquest
-LBIS:AddItem(spec3, "46991", LBIS.L["Waist"], "BIS") --Belt of the Ice Burrower
 LBIS:AddItem(spec3, "47426", LBIS.L["Waist"], "BIS") --Binding of the Ice Burrower
+LBIS:AddItem(spec3, "46991", LBIS.L["Waist"], "BIS") --Belt of the Ice Burrower
 LBIS:AddItem(spec3, "47145", LBIS.L["Waist"], "Alt") --Cord of Pale Thorns
 LBIS:AddItem(spec3, "47469", LBIS.L["Waist"], "Alt") --Belt of Pale Thorns
 LBIS:AddItem(spec3, "45616", LBIS.L["Waist"], "Alt") --Star-beaded Clutch
@@ -300,6 +300,8 @@ LBIS:AddItem(spec3, "48005", LBIS.L["Waist"], "Alt") --Darkspear Ritual Binding
 LBIS:AddItem(spec3, "45554", LBIS.L["Waist"], "Alt") --Blue Belt of Chaos
 LBIS:AddItem(spec3, "47190", LBIS.L["Legs"], "BIS") --Legwraps of the Awakening
 LBIS:AddItem(spec3, "47479", LBIS.L["Legs"], "BIS") --Leggings of the Awakening
+LBIS:AddItem(spec3, "47087", LBIS.L["Legs"], "Alt") --Legguards of Concealed Hatred
+LBIS:AddItem(spec3, "47450", LBIS.L["Legs"], "Alt") --Leggings of Concealed Hatred
 LBIS:AddItem(spec3, "48291", LBIS.L["Legs"], "Alt") --Nobundo's Legguards of Triumph
 LBIS:AddItem(spec3, "48308", LBIS.L["Legs"], "Alt") --Thrall's Legguards of Triumph
 LBIS:AddItem(spec3, "48303", LBIS.L["Legs"], "Alt") --Thrall's Legguards of Triumph

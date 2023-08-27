@@ -225,8 +225,8 @@ LBIS:AddItem(spec3, "48320", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderpads
 LBIS:AddItem(spec3, "48331", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads of Triumph
 LBIS:AddItem(spec3, "48315", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderpads of Conquest
 LBIS:AddItem(spec3, "48340", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads of Conquest
-LBIS:AddItem(spec3, "45657", LBIS.L["Shoulder"], "Alt") --Mantle of the Wayward Protector
 LBIS:AddItem(spec3, "46211", LBIS.L["Shoulder"], "Alt") --Conqueror's Worldbreaker Shoulderpads
+LBIS:AddItem(spec3, "45657", LBIS.L["Shoulder"], "Alt") --Mantle of the Wayward Protector
 LBIS:AddItem(spec3, "46044", LBIS.L["Shoulder"], "Alt") --Observer's Mantle
 LBIS:AddItem(spec3, "45474", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Combatant
 LBIS:AddItem(spec3, "47552", LBIS.L["Back"], "BIS") --Jaina's Radiance
@@ -242,8 +242,8 @@ LBIS:AddItem(spec3, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
 LBIS:AddItem(spec3, "45486", LBIS.L["Back"], "Alt") --Drape of the Sullen Goddess
 LBIS:AddItem(spec3, "48325", LBIS.L["Chest"], "BIS") --Nobundo's Hauberk of Triumph
 LBIS:AddItem(spec3, "48326", LBIS.L["Chest"], "BIS") --Thrall's Hauberk of Triumph
-LBIS:AddItem(spec3, "47603", LBIS.L["Chest"], "Alt") --Merlin's Robe
 LBIS:AddItem(spec3, "47604", LBIS.L["Chest"], "Alt") --Merlin's Robe
+LBIS:AddItem(spec3, "47603", LBIS.L["Chest"], "Alt") --Merlin's Robe
 LBIS:AddItem(spec3, "48316", LBIS.L["Chest"], "Alt") --Nobundo's Hauberk of Triumph
 LBIS:AddItem(spec3, "48335", LBIS.L["Chest"], "Alt") --Thrall's Hauberk of Triumph
 LBIS:AddItem(spec3, "48310", LBIS.L["Chest"], "Alt") --Nobundo's Hauberk of Conquest
@@ -253,6 +253,10 @@ LBIS:AddItem(spec3, "45633", LBIS.L["Chest"], "Alt") --Breastplate of the Waywar
 LBIS:AddItem(spec3, "45867", LBIS.L["Chest"], "Alt") --Breastplate of the Stoneshaper
 LBIS:AddItem(spec3, "45460", LBIS.L["Wrist"], "BIS") --Bindings of Winter Gale
 LBIS:AddItem(spec3, "47586", LBIS.L["Wrist"], "Alt") --Bejeweled Wizard's Bracers
+LBIS:AddItem(spec3, "47143", LBIS.L["Wrist"], "Alt") --Bindings of Dark Essence
+LBIS:AddItem(spec3, "47467", LBIS.L["Wrist"], "Alt") --Dark Essence Bindings
+LBIS:AddItem(spec3, "47927", LBIS.L["Wrist"], "Alt") --Felspark Bindings
+LBIS:AddItem(spec3, "48000", LBIS.L["Wrist"], "Alt") --Felspark Bracers
 LBIS:AddItem(spec3, "45275", LBIS.L["Wrist"], "Alt") --Bracers of Unleashed Magic
 LBIS:AddItem(spec3, "40324", LBIS.L["Wrist"], "Alt") --Bands of Mutual Respect
 LBIS:AddItem(spec3, "48324", LBIS.L["Hands"], "BIS") --Nobundo's Gloves of Triumph
