@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using AngleSharp.Text;
+using Newtonsoft.Json;
 
 namespace AddonManager.Models;
 public class DatabaseItems
@@ -31,7 +32,7 @@ public class DatabaseItems
         if (Items.ContainsKey(itemId))
         {
             Items[itemId].CombineCount++;
-            if (Items[itemId].SourceLocation == converted.SourceLocation)
+            if (Items[itemId].SourceLocation == converted.SourceLocation || Items[itemId].Source == "Various Bosses")
             {
                 if (Items[itemId].CombineCount > 3)
                     Items[itemId].Source = "Various Bosses";
@@ -41,7 +42,8 @@ public class DatabaseItems
             }
             else
             {
-                if (Items[itemId].Source != converted.Source)
+                var sources = Items[itemId].Source.Split('/');
+                if (!sources.Contains(converted.Source))
                 {
                     Items[itemId].Source += $"/{converted.Source}";
                     Items[itemId].SourceLocation += $"/{converted.SourceLocation}";

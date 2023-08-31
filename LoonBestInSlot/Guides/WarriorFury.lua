@@ -52,7 +52,7 @@ LBIS:AddItem(spec0, "46048", LBIS.L["Ring"], "BIS") --Band of Lights
 LBIS:AddItem(spec0, "45456", LBIS.L["Ring"], "BIS") --Loop of the Agile
 LBIS:AddItem(spec0, "46038", LBIS.L["Trinket"], "BIS") --Dark Matter
 LBIS:AddItem(spec0, "45931", LBIS.L["Trinket"], "BIS") --Mjolnir Runestone
-LBIS:AddItem(spec0, "45868", LBIS.L["Main Hand/Off Hand"], "BIS") --Aesir's Edge
+LBIS:AddItem(spec0, "45868", LBIS.L["Two Hand"], "BIS") --Aesir's Edge
 LBIS:AddItem(spec0, "45296", LBIS.L["Ranged/Relic"], "BIS") --Twirling Blades
 
 LBIS:AddItem(spec1, "40528", LBIS.L["Head"], "BIS") --Valorous Dreadnaught Helmet

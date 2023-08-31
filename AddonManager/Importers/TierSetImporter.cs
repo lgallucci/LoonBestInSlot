@@ -84,11 +84,17 @@ public class TierSetImporter : LootImporter
         @"https://www.wowhead.com/wotlk/item=47558/regalia-of-the-grand-protector#currency-for;50",
 
         @"https://www.wowhead.com/wotlk/item=52025/vanquishers-mark-of-sanctification#currency-for",
+        //@"https://www.wowhead.com/wotlk/item=52025/vanquishers-mark-of-sanctification#currency-for;50",
         @"https://www.wowhead.com/wotlk/item=52026/protectors-mark-of-sanctification#currency-for",
+        //@"https://www.wowhead.com/wotlk/item=52026/protectors-mark-of-sanctification#currency-for;50",
         @"https://www.wowhead.com/wotlk/item=52027/conquerors-mark-of-sanctification#currency-for",
+        //@"https://www.wowhead.com/wotlk/item=52027/conquerors-mark-of-sanctification#currency-for;50",
         @"https://www.wowhead.com/wotlk/item=52028/vanquishers-mark-of-sanctification#currency-for",
+        //@"https://www.wowhead.com/wotlk/item=52028/vanquishers-mark-of-sanctification#currency-for;50",
         @"https://www.wowhead.com/wotlk/item=52029/protectors-mark-of-sanctification#currency-for",
+        //@"https://www.wowhead.com/wotlk/item=52029/protectors-mark-of-sanctification#currency-for;50",
         @"https://www.wowhead.com/wotlk/item=52030/conquerors-mark-of-sanctification#currency-for",
+        //@"https://www.wowhead.com/wotlk/item=52030/conquerors-mark-of-sanctification#currency-for;50",
     };
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToText)
