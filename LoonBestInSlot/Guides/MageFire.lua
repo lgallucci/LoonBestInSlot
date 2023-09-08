@@ -238,8 +238,8 @@ LBIS:AddItem(spec3, "47775", LBIS.L["Legs"], "Alt") --Sunstrider's Leggings of C
 LBIS:AddItem(spec3, "47750", LBIS.L["Legs"], "Alt") --Khadgar's Leggings of Conquest
 LBIS:AddItem(spec3, "47435", LBIS.L["Legs"], "Alt") --Pants of the Soothing Touch
 LBIS:AddItem(spec3, "47062", LBIS.L["Legs"], "Alt") --Leggings of the Soothing Touch
-LBIS:AddItem(spec3, "47189", LBIS.L["Legs"], "Alt") --Leggings of the Deepening Void
 LBIS:AddItem(spec3, "47478", LBIS.L["Legs"], "Alt") --Breeches of the Deepening Void
+LBIS:AddItem(spec3, "47189", LBIS.L["Legs"], "Alt") --Leggings of the Deepening Void
 LBIS:AddItem(spec3, "45488", LBIS.L["Legs"], "Alt") --Leggings of the Enslaved Idol
 LBIS:AddItem(spec3, "46133", LBIS.L["Legs"], "Alt") --Conqueror's Kirin Tor Leggings
 LBIS:AddItem(spec3, "45367", LBIS.L["Legs"], "Alt") --Valorous Kirin Tor Leggings
@@ -267,6 +267,7 @@ LBIS:AddItem(spec3, "47489", LBIS.L["Ring"], "BIS") --Lurid Manifestation
 LBIS:AddItem(spec3, "47237", LBIS.L["Ring"], "BIS") --Band of Deplorable Violence
 LBIS:AddItem(spec3, "45495", LBIS.L["Ring"], "BIS") --Conductive Seal
 LBIS:AddItem(spec3, "46046", LBIS.L["Ring"], "Alt") --Nebula Band
+LBIS:AddItem(spec3, "47732", LBIS.L["Ring"], "Alt") --Band of the Invoker
 LBIS:AddItem(spec3, "48001", LBIS.L["Ring"], "Alt") --Firestorm Band
 LBIS:AddItem(spec3, "47928", LBIS.L["Ring"], "Alt") --Firestorm Ring
 LBIS:AddItem(spec3, "45297", LBIS.L["Ring"], "Alt") --Shimmering Seal
@@ -290,16 +291,16 @@ LBIS:AddItem(spec3, "48708", LBIS.L["Main Hand"], "Alt") --Spellstorm Blade
 LBIS:AddItem(spec3, "45990", LBIS.L["Main Hand"], "Alt") --Fusion Blade
 LBIS:AddItem(spec3, "47525", LBIS.L["Main Hand"], "Alt") --Sufferance
 LBIS:AddItem(spec3, "47524", LBIS.L["Main Hand"], "Alt") --Clemency
-LBIS:AddItem(spec3, "47960", LBIS.L["Main Hand"], "Alt") --Enlightenment
 LBIS:AddItem(spec3, "48036", LBIS.L["Main Hand"], "Alt") --Illumination
+LBIS:AddItem(spec3, "47960", LBIS.L["Main Hand"], "Alt") --Enlightenment
 LBIS:AddItem(spec3, "48045", LBIS.L["Main Hand"], "Alt") --Perdition
 LBIS:AddItem(spec3, "47968", LBIS.L["Main Hand"], "Alt") --Cold Convergence
 LBIS:AddItem(spec3, "45457", LBIS.L["Main Hand"], "Alt") --Staff of Endless Winter
 LBIS:AddItem(spec3, "45886", LBIS.L["Main Hand"], "Alt") --Icecore Staff
 LBIS:AddItem(spec3, "47437", LBIS.L["Off Hand"], "BIS") --Talisman of Heedless Sins
 LBIS:AddItem(spec3, "47064", LBIS.L["Off Hand"], "BIS") --Symbol of Transgression
-LBIS:AddItem(spec3, "47470", LBIS.L["Off Hand"], "BIS") --Mystifying Charm
 LBIS:AddItem(spec3, "47146", LBIS.L["Off Hand"], "BIS") --Chalice of Searing Light
+LBIS:AddItem(spec3, "47470", LBIS.L["Off Hand"], "BIS") --Mystifying Charm
 LBIS:AddItem(spec3, "48032", LBIS.L["Off Hand"], "BIS") --Lightbane Focus
 LBIS:AddItem(spec3, "47958", LBIS.L["Off Hand"], "BIS") --Chalice of Benedictus
 LBIS:AddItem(spec3, "45617", LBIS.L["Off Hand"], "Alt") --Cosmos
