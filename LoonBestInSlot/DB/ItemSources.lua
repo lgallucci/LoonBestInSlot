@@ -2515,6 +2515,8 @@ LBIS.ItemSources =
     [47576] = { Name = "Crusader's Dragonscale Bracers", SourceType = LBIS.L["Profession"], Source = LBIS.L["Leatherworking"], SourceNumber = "47631", SourceLocation = "67083", SourceFaction = "A" },
     [47577] = { Name = "Crusader's Dragonscale Bracers", SourceType = LBIS.L["Profession"], Source = LBIS.L["Leatherworking"], SourceNumber = "47648", SourceLocation = "67143", SourceFaction = "H" },
     [47578] = { Name = "Carnivorous Band", SourceType = LBIS.L["Drop"], Source = LBIS.L["The Beasts of Northrend"], SourceNumber = "0", SourceLocation = LBIS.L["Trial of the Crusader (10)"], SourceFaction = "A" },
+    [47579] = { Name = "Black Chitin Bracers", SourceType = LBIS.L["Profession"], Source = LBIS.L["Leatherworking"], SourceNumber = "47629", SourceLocation = "67081", SourceFaction = "A" },
+    [47580] = { Name = "Black Chitin Bracers", SourceType = LBIS.L["Profession"], Source = LBIS.L["Leatherworking"], SourceNumber = "47646", SourceLocation = "67137", SourceFaction = "H" },
     [47581] = { Name = "Bracers of Swift Death", SourceType = LBIS.L["Profession"], Source = LBIS.L["Leatherworking"], SourceNumber = "47635", SourceLocation = "67087", SourceFaction = "A" },
     [47582] = { Name = "Bracers of Swift Death", SourceType = LBIS.L["Profession"], Source = LBIS.L["Leatherworking"], SourceNumber = "47647", SourceLocation = "67139", SourceFaction = "H" },
     [47585] = { Name = "Bejeweled Wizard's Bracers", SourceType = LBIS.L["Profession"], Source = LBIS.L["Tailoring"], SourceNumber = "47654", SourceLocation = "67079", SourceFaction = "A" },
