@@ -253,10 +253,10 @@ LBIS:AddItem(spec3, "45390", LBIS.L["Shoulder"], "Alt") --Valorous Shoulderpads 
 LBIS:AddItem(spec3, "46068", LBIS.L["Shoulder"], "Alt") --Amice of Inconceivable Horror
 LBIS:AddItem(spec3, "47552", LBIS.L["Back"], "BIS") --Jaina's Radiance
 LBIS:AddItem(spec3, "47551", LBIS.L["Back"], "BIS") --Aethas' Intensity
-LBIS:AddItem(spec3, "47238", LBIS.L["Back"], "Alt") --Maiden's Favor
-LBIS:AddItem(spec3, "47490", LBIS.L["Back"], "Alt") --Maiden's Adoration
 LBIS:AddItem(spec3, "48671", LBIS.L["Back"], "Alt") --Drape of Bitter Incantation
 LBIS:AddItem(spec3, "48666", LBIS.L["Back"], "Alt") --Drape of the Sunreavers
+LBIS:AddItem(spec3, "47238", LBIS.L["Back"], "Alt") --Maiden's Favor
+LBIS:AddItem(spec3, "47490", LBIS.L["Back"], "Alt") --Maiden's Adoration
 LBIS:AddItem(spec3, "45486", LBIS.L["Back"], "Alt") --Drape of the Sullen Goddess
 LBIS:AddItem(spec3, "45618", LBIS.L["Back"], "Alt") --Sunglimmer Cloak
 LBIS:AddItem(spec3, "46042", LBIS.L["Back"], "Alt") --Drape of the Messenger
