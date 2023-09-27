@@ -29,10 +29,10 @@ LBIS:AddEnchant(spec1, "53343", LBIS.L["Main Hand"]) --Rune of Razorice
 LBIS:AddEnchant(spec1, "53344", LBIS.L["Off Hand"]) --Rune of the Fallen Crusader
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
-LBIS:AddItem(spec0, "39619", LBIS.L["Head"], "BIS") --Heroes' Scourgeborne Helmet
+LBIS:AddItem(spec0, "46115", LBIS.L["Head"], "BIS") --Conqueror's Darkruned Helmet
 LBIS:AddItem(spec0, "46037", LBIS.L["Shoulder"], "BIS") --Shoulderplates of the Celestial Watch
 LBIS:AddItem(spec0, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless General
-LBIS:AddItem(spec0, "39617", LBIS.L["Chest"], "BIS") --Heroes' Scourgeborne Battleplate
+LBIS:AddItem(spec0, "46111", LBIS.L["Chest"], "BIS") --Conqueror's Darkruned Battleplate
 LBIS:AddItem(spec0, "45888", LBIS.L["Wrist"], "BIS") --Bitter Cold Armguards
 LBIS:AddItem(spec0, "45833", LBIS.L["Hands"], "BIS") --Bladebreaker Gauntlets
 LBIS:AddItem(spec0, "46041", LBIS.L["Waist"], "BIS") --Starfall Girdle

@@ -45,7 +45,7 @@ LBIS:AddItem(spec0, "46040", LBIS.L["Neck"], "BIS") --Strength of the Heavens
 LBIS:AddItem(spec0, "45456", LBIS.L["Ring"], "BIS") --Loop of the Agile
 LBIS:AddItem(spec0, "46048", LBIS.L["Ring"], "BIS") --Band of Lights
 LBIS:AddItem(spec0, "46038", LBIS.L["Trinket"], "BIS") --Dark Matter
-LBIS:AddItem(spec0, "42028", LBIS.L["Trinket"], "BIS") --Deadly Gladiator's Pendant of Victory
+LBIS:AddItem(spec0, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec0, "45868", LBIS.L["Two Hand"], "BIS") --Aesir's Edge
 LBIS:AddItem(spec0, "47661", LBIS.L["Ranged/Relic"], "BIS") --Libram of Valiance
 

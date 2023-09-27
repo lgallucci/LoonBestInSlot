@@ -54,7 +54,7 @@ LBIS:AddItem(spec0, "45447", LBIS.L["Neck"], "BIS") --Watchful Eye of Fate
 LBIS:AddItem(spec0, "46096", LBIS.L["Ring"], "BIS") --Signet of Soft Lament
 LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
 LBIS:AddItem(spec0, "45308", LBIS.L["Trinket"], "BIS") --Eye of the Broodmother
-LBIS:AddItem(spec0, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exiled
+LBIS:AddItem(spec0, "47213", LBIS.L["Trinket"], "BIS") --Abyssal Rune
 LBIS:AddItem(spec0, "45990", LBIS.L["Main Hand"], "BIS") --Fusion Blade
 LBIS:AddItem(spec0, "45314", LBIS.L["Off Hand"], "BIS") --Igniter Rod
 LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig

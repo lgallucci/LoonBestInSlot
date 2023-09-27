@@ -50,11 +50,11 @@ LBIS:AddItem(spec0, "45419", LBIS.L["Hands"], "BIS") --Valorous Deathbringer Glo
 LBIS:AddItem(spec0, "45558", LBIS.L["Waist"], "BIS") --Cord of the White Dawn
 LBIS:AddItem(spec0, "45420", LBIS.L["Legs"], "BIS") --Valorous Deathbringer Leggings
 LBIS:AddItem(spec0, "46050", LBIS.L["Feet"], "BIS") --Starlight Treads
-LBIS:AddItem(spec0, "45447", LBIS.L["Neck"], "BIS") --Watchful Eye of Fate
+LBIS:AddItem(spec0, "45699", LBIS.L["Neck"], "BIS") --Pendant of the Piercing Glare
 LBIS:AddItem(spec0, "45297", LBIS.L["Ring"], "BIS") --Shimmering Seal
 LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
+LBIS:AddItem(spec0, "45308", LBIS.L["Trinket"], "BIS") --Eye of the Broodmother
 LBIS:AddItem(spec0, "47213", LBIS.L["Trinket"], "BIS") --Abyssal Rune
-LBIS:AddItem(spec0, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exiled
 LBIS:AddItem(spec0, "45990", LBIS.L["Main Hand"], "BIS") --Fusion Blade
 LBIS:AddItem(spec0, "45314", LBIS.L["Off Hand"], "BIS") --Igniter Rod
 LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
