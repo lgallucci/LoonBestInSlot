@@ -70,10 +70,18 @@ internal class RogueAssassinationMapping : SpecMapping
             { ("Ranged/Relic", "#guns-and-bows-for-assassination-rogue-dps-phase-3") }
         };
 
-    public override string Phase4Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+    public override string Phase4Url => "dps-bis-gear-pve-phase-4";
+    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#weapons-for-assassination-rogue-dps-phase-4") },
+            { ("Ranged/Relic", "#guns-and-bows-for-assassination-rogue-dps-phase-4") }
+        };
 
-    public override string Phase5Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
+    public override string Phase5Url => "dps-bis-gear-pve-phase-5";
+    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#weapons-for-assassination-rogue-dps-phase-5") },
+            { ("Ranged/Relic", "#guns-and-bows-for-assassination-rogue-dps-phase-5") }
+        };
 
 }

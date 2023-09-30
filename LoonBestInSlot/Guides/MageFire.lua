@@ -8,8 +8,8 @@ local spec5 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Fire"], "5")
 LBIS:AddGem(spec1, "41285", "3", "True") --Chaotic Skyflare Diamond
 LBIS:AddGem(spec3, "40113", "4", "False") --Runed Cardinal Ruby
 LBIS:AddGem(spec1, "42144", "4", "False") --Runed Dragon's Eye
-LBIS:AddGem(spec3, "40155", "4", "False") --Reckless Ametrine
 LBIS:AddGem(spec1, "40152", "4", "False") --Potent Ametrine
+LBIS:AddGem(spec3, "40155", "4", "False") --Reckless Ametrine
 LBIS:AddGem(spec3, "40153", "4", "False") --Veiled Ametrine
 LBIS:AddGem(spec3, "40133", "4", "False") --Purified Dreadstone
 

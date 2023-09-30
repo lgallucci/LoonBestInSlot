@@ -42,7 +42,7 @@ internal abstract class SpecMapping
 
         list.Add(new ClassGuideMapping(UrlBase + Phase4Url, Spec, Class, "Phase4", Phase4));
 
-        list.Add(new ClassGuideMapping(UrlBase + Phase5Url, Spec, Class, "Phase5", Phase5));
+        //list.Add(new ClassGuideMapping(UrlBase + Phase5Url, Spec, Class, "Phase5", Phase5));
 
         return list;
     }

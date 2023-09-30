@@ -75,10 +75,20 @@ internal class MageFrostMapping : SpecMapping
             { ("Ranged/Relic", "#wands-for-frost-mage-dps-phase-3") }
         };
 
-    public override string Phase4Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+    public override string Phase4Url => "dps-bis-gear-pve-phase-4";
+    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-frost-mage-dps-phase-4") },
+            { ("Off Hand", "#off-hand-weapons-for-frost-mage-dps-phase-4") },
+            { ("Ranged/Relic", "#wands-for-frost-mage-dps-phase-4") }
+        };
 
-    public override string Phase5Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
+    public override string Phase5Url => "dps-bis-gear-pve-phase-5";
+    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-frost-mage-dps-phase-5") },
+            { ("Off Hand", "#off-hand-weapons-for-frost-mage-dps-phase-5") },
+            { ("Ranged/Relic", "#wands-for-frost-mage-dps-phase-5") }
+        };
 
 }

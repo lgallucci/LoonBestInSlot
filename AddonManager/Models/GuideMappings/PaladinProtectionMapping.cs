@@ -73,10 +73,20 @@ internal class PaladinProtectionMapping : SpecMapping
             { ("Ranged/Relic", "h3#librams") }
         };
 
-    public override string Phase4Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+    public override string Phase4Url => "tank-bis-gear-pve-phase-4";
+    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "h3#weapons") },
+            { ("Off Hand", "h3#shields") },
+            { ("Ranged/Relic", "h3#librams") }
+        };
 
-    public override string Phase5Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
+    public override string Phase5Url => "tank-bis-gear-pve-phase-5";
+    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "h3#weapons") },
+            { ("Off Hand", "h3#shields") },
+            { ("Ranged/Relic", "h3#librams") }
+        };
 
 }

@@ -74,9 +74,19 @@ internal class ShamanRestorationMapping : SpecMapping
             { ("Ranged/Relic", "#totems-for-restoration-shaman-healer-in-phase-3") }
         };
 
-    public override string Phase4Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+    public override string Phase4Url => "healer-bis-gear-pve-phase-4";
+    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#weapons-for-restoration-shaman-healer-in-phase-4") },
+            { ("Off Hand", "#shields-off-hands-for-restoration-shaman-healer-in-phase-4") },
+            { ("Ranged/Relic", "#totems-for-restoration-shaman-healer-in-phase-4") }
+        };
 
-    public override string Phase5Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
+    public override string Phase5Url => "healer-bis-gear-pve-phase-5";
+    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#weapons-for-restoration-shaman-healer-in-phase-5") },
+            { ("Off Hand", "#shields-off-hands-for-restoration-shaman-healer-in-phase-5") },
+            { ("Ranged/Relic", "#totems-for-restoration-shaman-healer-in-phase-5") }
+        };
 }
