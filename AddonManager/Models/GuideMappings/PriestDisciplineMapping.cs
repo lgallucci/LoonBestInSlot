@@ -76,9 +76,9 @@ internal class PriestDisciplineMapping : SpecMapping
     public override string Phase4Url => "healer-bis-gear-pve-phase-4";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-and-two-handed-weapons-for-discipline-priest-healer-phase-3") },
-            { ("Off Hand", "#off-hands-for-discipline-priest-healer-phase-3") },
-            { ("Ranged/Relic", "#wands-for-discipline-priest-healer-phase-3") }
+            { ("Main Hand", "#main-and-two-handed-weapons-for-discipline-priest-healer-phase-4") },
+            { ("Off Hand", "#off-hands-for-discipline-priest-healer-phase-4") },
+            { ("Ranged/Relic", "#wands-for-discipline-priest-healer-phase-4") }
         };
 
     public override string Phase5Url => "healer-bis-gear-pve-phase-5";

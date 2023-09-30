@@ -79,13 +79,13 @@ internal class DeathKnightBloodMapping : SpecMapping
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
             { ("Two Hand", "h2#weapons~h3") },
-            { ("Ranged/Relic", "#sidgil") },
+            { ("Ranged/Relic", "#sigil") },
         };
 
     public override string Phase5Url => "tank-bis-gear-pve-phase-5";
     public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
         {
             { ("Two Hand", "h2#weapons~h3") },
-            { ("Ranged/Relic", "#sidgil") },
+            { ("Ranged/Relic", "#sigil") },
         };
 }

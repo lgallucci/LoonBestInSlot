@@ -81,7 +81,7 @@ internal class DruidRestoMapping : SpecMapping
     public override string Phase4Url => "healer-bis-gear-pve-phase-4";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand-weapons-for-restoration-druid-phase-4") },
+            { ("Main Hand", "#main-hand-weapons-for-restoration-druid-healer-phase-4") },
             { ("Two Hand", "#two-handed-weapons-for-restoration-druid-healer-phase-4") },
             { ("Off Hand", "#off-hand-weapons-for-restoration-druid-healer-phase-4") },
             { ("Ranged/Relic", "#idols-for-restoration-druid-healer-phase-4") }
@@ -90,7 +90,7 @@ internal class DruidRestoMapping : SpecMapping
     public override string Phase5Url => "healer-bis-gear-pve-phase-5";
     public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand-weapons-for-restoration-druid-phase-5") },
+            { ("Main Hand", "#main-hand-weapons-for-restoration-druid-healer-phase-5") },
             { ("Two Hand", "#two-handed-weapons-for-restoration-druid-healer-phase-5") },
             { ("Off Hand", "#off-hand-weapons-for-restoration-druid-healer-phase-5") },
             { ("Ranged/Relic", "#idols-for-restoration-druid-healer-phase-5") }

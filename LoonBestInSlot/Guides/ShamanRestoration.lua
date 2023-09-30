@@ -355,3 +355,110 @@ LBIS:AddItem(spec3, "47665", LBIS.L["Ranged/Relic"], "BIS") --Totem of Calming T
 LBIS:AddItem(spec3, "45114", LBIS.L["Ranged/Relic"], "Alt") --Steamcaller's Totem
 LBIS:AddItem(spec3, "40709", LBIS.L["Ranged/Relic"], "Alt") --Totem of Forest Growth
 LBIS:AddItem(spec3, "38368", LBIS.L["Ranged/Relic"], "Alt") --Totem of the Bay
+
+LBIS:AddItem(spec4, "51247", LBIS.L["Head"], "BIS") --Sanctified Frost Witch's Headpiece
+LBIS:AddItem(spec4, "51192", LBIS.L["Head"], "Alt") --Sanctified Frost Witch's Headpiece
+LBIS:AddItem(spec4, "50837", LBIS.L["Head"], "Alt") --Frost Witch's Headpiece
+LBIS:AddItem(spec4, "46201", LBIS.L["Head"], "Alt") --Conqueror's Worldbreaker Headpiece
+LBIS:AddItem(spec4, "45639", LBIS.L["Head"], "Alt") --Crown of the Wayward Protector
+LBIS:AddItem(spec4, "48323", LBIS.L["Head"], "Alt") --Nobundo's Helm of Triumph
+LBIS:AddItem(spec4, "48328", LBIS.L["Head"], "Alt") --Thrall's Helm of Triumph
+LBIS:AddItem(spec4, "51245", LBIS.L["Shoulder"], "BIS") --Sanctified Frost Witch's Spaulders
+LBIS:AddItem(spec4, "51194", LBIS.L["Shoulder"], "Alt") --Sanctified Frost Witch's Spaulders
+LBIS:AddItem(spec4, "50839", LBIS.L["Shoulder"], "Alt") --Frost Witch's Spaulders
+LBIS:AddItem(spec4, "46204", LBIS.L["Shoulder"], "Alt") --Conqueror's Worldbreaker Spaulders
+LBIS:AddItem(spec4, "45657", LBIS.L["Shoulder"], "Alt") --Mantle of the Wayward Protector
+LBIS:AddItem(spec4, "48330", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads of Triumph
+LBIS:AddItem(spec4, "48321", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderpads of Triumph
+LBIS:AddItem(spec4, "50628", LBIS.L["Back"], "BIS") --Frostbinder's Shredded Cape
+LBIS:AddItem(spec4, "47552", LBIS.L["Back"], "Alt") --Jaina's Radiance
+LBIS:AddItem(spec4, "47551", LBIS.L["Back"], "Alt") --Aethas' Intensity
+LBIS:AddItem(spec4, "48671", LBIS.L["Back"], "Alt") --Drape of Bitter Incantation
+LBIS:AddItem(spec4, "48666", LBIS.L["Back"], "Alt") --Drape of the Sunreavers
+LBIS:AddItem(spec4, "47238", LBIS.L["Back"], "Alt") --Maiden's Favor
+LBIS:AddItem(spec4, "47490", LBIS.L["Back"], "Alt") --Maiden's Adoration
+LBIS:AddItem(spec4, "45486", LBIS.L["Back"], "Alt") --Drape of the Sullen Goddess
+LBIS:AddItem(spec4, "51249", LBIS.L["Chest"], "BIS") --Sanctified Frost Witch's Tunic
+LBIS:AddItem(spec4, "51190", LBIS.L["Chest"], "Alt") --Sanctified Frost Witch's Tunic
+LBIS:AddItem(spec4, "50835", LBIS.L["Chest"], "Alt") --Frost Witch's Tunic
+LBIS:AddItem(spec4, "45633", LBIS.L["Chest"], "Alt") --Breastplate of the Wayward Protector
+LBIS:AddItem(spec4, "46198", LBIS.L["Chest"], "Alt") --Conqueror's Worldbreaker Tunic
+LBIS:AddItem(spec4, "48294", LBIS.L["Chest"], "Alt") --Nobundo's Tunic of Triumph
+LBIS:AddItem(spec4, "48305", LBIS.L["Chest"], "Alt") --Thrall's Tunic of Triumph
+LBIS:AddItem(spec4, "47603", LBIS.L["Chest"], "Alt") --Merlin's Robe
+LBIS:AddItem(spec4, "50687", LBIS.L["Wrist"], "BIS") --Bloodsunder's Bracers
+LBIS:AddItem(spec4, "45460", LBIS.L["Wrist"], "Alt") --Bindings of Winter Gale
+LBIS:AddItem(spec4, "47586", LBIS.L["Wrist"], "Alt") --Bejeweled Wizard's Bracers
+LBIS:AddItem(spec4, "47579", LBIS.L["Wrist"], "Alt") --Black Chitin Bracers
+LBIS:AddItem(spec4, "47580", LBIS.L["Wrist"], "Alt") --Black Chitin Bracers
+LBIS:AddItem(spec4, "50703", LBIS.L["Hands"], "BIS") --Unclean Surgical Gloves
+LBIS:AddItem(spec4, "51248", LBIS.L["Hands"], "BIS") --Sanctified Frost Witch's Handguards
+LBIS:AddItem(spec4, "51191", LBIS.L["Hands"], "Alt") --Sanctified Frost Witch's Handguards
+LBIS:AddItem(spec4, "50836", LBIS.L["Hands"], "Alt") --Frost Witch's Handguards
+LBIS:AddItem(spec4, "45642", LBIS.L["Hands"], "Alt") --Gauntlets of the Wayward Protector
+LBIS:AddItem(spec4, "46199", LBIS.L["Hands"], "Alt") --Conqueror's Worldbreaker Handguards
+LBIS:AddItem(spec4, "45665", LBIS.L["Hands"], "Alt") --Pharos Gloves
+LBIS:AddItem(spec4, "48293", LBIS.L["Hands"], "Alt") --Nobundo's Handguards of Triumph
+LBIS:AddItem(spec4, "48306", LBIS.L["Hands"], "Alt") --Thrall's Handguards of Triumph
+LBIS:AddItem(spec4, "50613", LBIS.L["Waist"], "BIS") --Crushing Coldwraith Belt
+LBIS:AddItem(spec4, "46991", LBIS.L["Waist"], "Alt") --Belt of the Ice Burrower
+LBIS:AddItem(spec4, "47426", LBIS.L["Waist"], "Alt") --Binding of the Ice Burrower
+LBIS:AddItem(spec4, "47145", LBIS.L["Waist"], "Alt") --Cord of Pale Thorns
+LBIS:AddItem(spec4, "47469", LBIS.L["Waist"], "Alt") --Belt of Pale Thorns
+LBIS:AddItem(spec4, "45616", LBIS.L["Waist"], "Alt") --Star-beaded Clutch
+LBIS:AddItem(spec4, "51246", LBIS.L["Legs"], "BIS") --Sanctified Frost Witch's Legguards
+LBIS:AddItem(spec4, "51193", LBIS.L["Legs"], "Alt") --Sanctified Frost Witch's Legguards
+LBIS:AddItem(spec4, "50838", LBIS.L["Legs"], "Alt") --Frost Witch's Legguards
+LBIS:AddItem(spec4, "49891", LBIS.L["Legs"], "Alt") --Leggings of Woven Death
+LBIS:AddItem(spec4, "49900", LBIS.L["Legs"], "Alt") --Lightning-Infused Leggings
+LBIS:AddItem(spec4, "47190", LBIS.L["Legs"], "Alt") --Legwraps of the Awakening
+LBIS:AddItem(spec4, "47479", LBIS.L["Legs"], "Alt") --Leggings of the Awakening
+LBIS:AddItem(spec4, "47087", LBIS.L["Legs"], "Alt") --Legguards of Concealed Hatred
+LBIS:AddItem(spec4, "47450", LBIS.L["Legs"], "Alt") --Leggings of Concealed Hatred
+LBIS:AddItem(spec4, "48291", LBIS.L["Legs"], "Alt") --Nobundo's Legguards of Triumph
+LBIS:AddItem(spec4, "48308", LBIS.L["Legs"], "Alt") --Thrall's Legguards of Triumph
+LBIS:AddItem(spec4, "46202", LBIS.L["Legs"], "Alt") --Conqueror's Worldbreaker Legguards
+LBIS:AddItem(spec4, "45654", LBIS.L["Legs"], "Alt") --Legplates of the Wayward Protector
+LBIS:AddItem(spec4, "50699", LBIS.L["Feet"], "BIS") --Plague Scientist's Boots
+LBIS:AddItem(spec4, "49896", LBIS.L["Feet"], "Alt") --Earthsoul Boots
+LBIS:AddItem(spec4, "47456", LBIS.L["Feet"], "Alt") --Sabatons of Tremoring Earth
+LBIS:AddItem(spec4, "47099", LBIS.L["Feet"], "Alt") --Boots of Tremoring Earth
+LBIS:AddItem(spec4, "45537", LBIS.L["Feet"], "Alt") --Treads of the False Oracle
+LBIS:AddItem(spec4, "50724", LBIS.L["Neck"], "BIS") --Blood Queen's Crimson Choker
+LBIS:AddItem(spec4, "51894", LBIS.L["Neck"], "Alt") --Soulcleave Pendant
+LBIS:AddItem(spec4, "47144", LBIS.L["Neck"], "Alt") --Wail of the Val'kyr
+LBIS:AddItem(spec4, "47468", LBIS.L["Neck"], "Alt") --Cry of the Val'kyr
+LBIS:AddItem(spec4, "45443", LBIS.L["Neck"], "Alt") --Charm of Meticulous Timing
+LBIS:AddItem(spec4, "50664", LBIS.L["Ring"], "BIS") --Ring of Rapid Ascent
+LBIS:AddItem(spec4, "50400", LBIS.L["Ring"], "BIS") --Ashen Band of Endless Wisdom
+LBIS:AddItem(spec4, "47224", LBIS.L["Ring"], "Alt") --Ring of the Darkmender
+LBIS:AddItem(spec4, "47439", LBIS.L["Ring"], "Alt") --Circle of the Darkmender
+LBIS:AddItem(spec4, "45614", LBIS.L["Ring"], "Alt") --Starshine Circle
+LBIS:AddItem(spec4, "46046", LBIS.L["Ring"], "Alt") --Nebula Band
+LBIS:AddItem(spec4, "45946", LBIS.L["Ring"], "Alt") --Fire Orchid Signet
+LBIS:AddItem(spec4, "50366", LBIS.L["Trinket"], "BIS") --Althor's Abacus
+LBIS:AddItem(spec4, "47059", LBIS.L["Trinket"], "BIS") --Solace of the Defeated
+LBIS:AddItem(spec4, "47432", LBIS.L["Trinket"], "BIS") --Solace of the Fallen
+LBIS:AddItem(spec4, "47041", LBIS.L["Trinket"], "Alt") --Solace of the Defeated
+LBIS:AddItem(spec4, "47271", LBIS.L["Trinket"], "Alt") --Solace of the Fallen
+LBIS:AddItem(spec4, "45535", LBIS.L["Trinket"], "Alt") --Show of Faith
+LBIS:AddItem(spec4, "45466", LBIS.L["Trinket"], "Alt") --Scale of Fates
+LBIS:AddItem(spec4, "37111", LBIS.L["Trinket"], "Alt") --Soul Preserver
+LBIS:AddItem(spec4, "45490", LBIS.L["Trinket"], "Alt") --Pandora's Plea
+LBIS:AddItem(spec4, "45929", LBIS.L["Trinket"], "Alt") --Sif's Remembrance
+LBIS:AddItem(spec4, "45308", LBIS.L["Trinket"], "Alt") --Eye of the Broodmother
+LBIS:AddItem(spec4, "40432", LBIS.L["Trinket"], "Alt") --Illustration of the Dragon Soul
+LBIS:AddItem(spec4, "46017", LBIS.L["Main Hand"], "BIS") --Val'anyr, Hammer of Ancient Kings
+LBIS:AddItem(spec4, "50685", LBIS.L["Main Hand"], "Alt") --Trauma
+LBIS:AddItem(spec4, "47483", LBIS.L["Main Hand"], "Alt") --Suffering's End
+LBIS:AddItem(spec4, "47206", LBIS.L["Main Hand"], "Alt") --Misery's End
+LBIS:AddItem(spec4, "45612", LBIS.L["Main Hand"], "Alt") --Constellus
+LBIS:AddItem(spec4, "46035", LBIS.L["Main Hand"], "Alt") --Aesuga, Hand of the Ardent Champion
+LBIS:AddItem(spec4, "50616", LBIS.L["Off Hand"], "BIS") --Bulwark of Smouldering Steel
+LBIS:AddItem(spec4, "51812", LBIS.L["Off Hand"], "Alt") --Lost Pavise of the Blue Flight
+LBIS:AddItem(spec4, "47085", LBIS.L["Off Hand"], "Alt") --Bastion of Purity
+LBIS:AddItem(spec4, "47448", LBIS.L["Off Hand"], "Alt") --Bastion of Resolve
+LBIS:AddItem(spec4, "45470", LBIS.L["Off Hand"], "Alt") --Wisdom's Hold
+LBIS:AddItem(spec4, "45887", LBIS.L["Off Hand"], "Alt") --Ice Layered Barrier
+LBIS:AddItem(spec4, "47665", LBIS.L["Ranged/Relic"], "BIS") --Totem of Calming Tides
+LBIS:AddItem(spec4, "40709", LBIS.L["Ranged/Relic"], "Alt") --Totem of Forest Growth
