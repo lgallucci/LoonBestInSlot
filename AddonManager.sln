@@ -59,42 +59,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Guides", "Guides", "{6685BDBB-9627-45A1-96D3-46D882F28A67}"
-	ProjectSection(SolutionItems) = preProject
-		LoonBestInSlot\Guides\DeathKnightBlood.lua = LoonBestInSlot\Guides\DeathKnightBlood.lua
-		LoonBestInSlot\Guides\DeathKnightFrost.lua = LoonBestInSlot\Guides\DeathKnightFrost.lua
-		LoonBestInSlot\Guides\DeathKnightUnholy.lua = LoonBestInSlot\Guides\DeathKnightUnholy.lua
-		LoonBestInSlot\Guides\DruidBalance.lua = LoonBestInSlot\Guides\DruidBalance.lua
-		LoonBestInSlot\Guides\DruidBear.lua = LoonBestInSlot\Guides\DruidBear.lua
-		LoonBestInSlot\Guides\DruidCat.lua = LoonBestInSlot\Guides\DruidCat.lua
-		LoonBestInSlot\Guides\DruidRestoration.lua = LoonBestInSlot\Guides\DruidRestoration.lua
-		LoonBestInSlot\Guides\Guides.xml = LoonBestInSlot\Guides\Guides.xml
-		LoonBestInSlot\Guides\HunterBeastMastery.lua = LoonBestInSlot\Guides\HunterBeastMastery.lua
-		LoonBestInSlot\Guides\HunterMarksmanship.lua = LoonBestInSlot\Guides\HunterMarksmanship.lua
-		LoonBestInSlot\Guides\HunterSurvival.lua = LoonBestInSlot\Guides\HunterSurvival.lua
-		LoonBestInSlot\Guides\MageArcane.lua = LoonBestInSlot\Guides\MageArcane.lua
-		LoonBestInSlot\Guides\MageFire.lua = LoonBestInSlot\Guides\MageFire.lua
-		LoonBestInSlot\Guides\MageFrost.lua = LoonBestInSlot\Guides\MageFrost.lua
-		LoonBestInSlot\Guides\PaladinHoly.lua = LoonBestInSlot\Guides\PaladinHoly.lua
-		LoonBestInSlot\Guides\PaladinProtection.lua = LoonBestInSlot\Guides\PaladinProtection.lua
-		LoonBestInSlot\Guides\PaladinRetribution.lua = LoonBestInSlot\Guides\PaladinRetribution.lua
-		LoonBestInSlot\Guides\PriestDiscipline.lua = LoonBestInSlot\Guides\PriestDiscipline.lua
-		LoonBestInSlot\Guides\PriestHoly.lua = LoonBestInSlot\Guides\PriestHoly.lua
-		LoonBestInSlot\Guides\PriestShadow.lua = LoonBestInSlot\Guides\PriestShadow.lua
-		LoonBestInSlot\Guides\RogueAssassination.lua = LoonBestInSlot\Guides\RogueAssassination.lua
-		LoonBestInSlot\Guides\RogueCombat.lua = LoonBestInSlot\Guides\RogueCombat.lua
-		LoonBestInSlot\Guides\RogueSubtlety.lua = LoonBestInSlot\Guides\RogueSubtlety.lua
-		LoonBestInSlot\Guides\ShamanElemental.lua = LoonBestInSlot\Guides\ShamanElemental.lua
-		LoonBestInSlot\Guides\ShamanEnhancement.lua = LoonBestInSlot\Guides\ShamanEnhancement.lua
-		LoonBestInSlot\Guides\ShamanRestoration.lua = LoonBestInSlot\Guides\ShamanRestoration.lua
-		LoonBestInSlot\Guides\WarlockAffliction.lua = LoonBestInSlot\Guides\WarlockAffliction.lua
-		LoonBestInSlot\Guides\WarlockDemonology.lua = LoonBestInSlot\Guides\WarlockDemonology.lua
-		LoonBestInSlot\Guides\WarlockDestruction.lua = LoonBestInSlot\Guides\WarlockDestruction.lua
-		LoonBestInSlot\Guides\WarriorArms.lua = LoonBestInSlot\Guides\WarriorArms.lua
-		LoonBestInSlot\Guides\WarriorFury.lua = LoonBestInSlot\Guides\WarriorFury.lua
-		LoonBestInSlot\Guides\WarriorProtection.lua = LoonBestInSlot\Guides\WarriorProtection.lua
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Localization", "Localization", "{248C145B-5864-4FE2-80B1-42D3565F2193}"
 	ProjectSection(SolutionItems) = preProject
 		LoonBestInSlot\Localization\localization.core.lua = LoonBestInSlot\Localization\localization.core.lua
@@ -290,7 +254,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6CCD2B99-F189-4674-A1A1-9B8BB8954ECD} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
 		{5D7B4E6E-0F3B-4D5C-B6FE-1447C37D766C} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
-		{6685BDBB-9627-45A1-96D3-46D882F28A67} = {248C145B-5864-4FE2-80B1-42D3565F2193}
 		{248C145B-5864-4FE2-80B1-42D3565F2193} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
 		{D120DA08-F676-42B9-8098-2932FCCC9423} = {5D7B4E6E-0F3B-4D5C-B6FE-1447C37D766C}
 		{79943468-39CC-47B8-9BA2-D1BEB1481B22} = {D120DA08-F676-42B9-8098-2932FCCC9423}
