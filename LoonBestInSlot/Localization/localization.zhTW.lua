@@ -167,6 +167,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Headless Horseman"] = "無頭騎士";
   LBIS.L["Heigan the Unclean"] = "『骯髒者』海根";
   LBIS.L["Herald Volazj"] = "信使沃菈齊";
+  LBIS.L["Heroic"] = "英雄模式";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "永恆之眼的英雄審判";
   LBIS.L["Heroic: All Is Well That Ends Well"] = "英雄:情況良好，完美收場";
   LBIS.L["Hodir"] = "霍迪爾";
@@ -176,7 +177,9 @@ if GetLocale() == "zhTW" then
   LBIS.L["Honored"] = "尊敬";
   LBIS.L["Icecrown"] = "寒冰皇冠";
   LBIS.L["Icecrown Citadel (10)"] = "冰冠城塞 (10)";
+--  LBIS.L["Icecrown Citadel (10H)"] = "冰冠城塞";
   LBIS.L["Icecrown Citadel (25)"] = "冰冠城塞 (25)";
+--  LBIS.L["Icecrown Citadel (25H)"] = "冰冠城塞";
   LBIS.L["Ichoron"] = "艾克膿";
   LBIS.L["Ignis the Furnace Master"] = "『火爐之主』伊格尼司";
   LBIS.L["Infinite Corruptor"] = "恆龍墮落者";
@@ -375,9 +378,11 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
 --  LBIS.L["Token"] = "";
+  LBIS.L["Toravon the Ice Watcher"] = "『寒冰看守者』拓拉梵";
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
   LBIS.L["Trash Mobs"] = "小怪";
+  LBIS.L["Trial of the Champion (Heroic)"] = "勇士試煉 (英雄模式)";
   LBIS.L["Trial of the Champion (Heroic++)"] = "勇士試煉 (英雄++)";
   LBIS.L["Trial of the Champion (Normal)"] = "勇士試煉 (一般)";
   LBIS.L["Trial of the Crusader (10)"] = "十字軍試煉 (10)";

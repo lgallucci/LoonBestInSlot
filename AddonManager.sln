@@ -195,6 +195,42 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{71B13F0F-1281-
 		LoonBestInSlot\DB\TierSources.lua = LoonBestInSlot\DB\TierSources.lua
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Guides", "Guides", "{64AD1802-BE68-4140-A2E9-588BA891143B}"
+	ProjectSection(SolutionItems) = preProject
+		LoonBestInSlot\Guides\DeathKnightBlood.lua = LoonBestInSlot\Guides\DeathKnightBlood.lua
+		LoonBestInSlot\Guides\DeathKnightFrost.lua = LoonBestInSlot\Guides\DeathKnightFrost.lua
+		LoonBestInSlot\Guides\DeathKnightUnholy.lua = LoonBestInSlot\Guides\DeathKnightUnholy.lua
+		LoonBestInSlot\Guides\DruidBalance.lua = LoonBestInSlot\Guides\DruidBalance.lua
+		LoonBestInSlot\Guides\DruidBear.lua = LoonBestInSlot\Guides\DruidBear.lua
+		LoonBestInSlot\Guides\DruidCat.lua = LoonBestInSlot\Guides\DruidCat.lua
+		LoonBestInSlot\Guides\DruidRestoration.lua = LoonBestInSlot\Guides\DruidRestoration.lua
+		LoonBestInSlot\Guides\Guides.xml = LoonBestInSlot\Guides\Guides.xml
+		LoonBestInSlot\Guides\HunterBeastMastery.lua = LoonBestInSlot\Guides\HunterBeastMastery.lua
+		LoonBestInSlot\Guides\HunterMarksmanship.lua = LoonBestInSlot\Guides\HunterMarksmanship.lua
+		LoonBestInSlot\Guides\HunterSurvival.lua = LoonBestInSlot\Guides\HunterSurvival.lua
+		LoonBestInSlot\Guides\MageArcane.lua = LoonBestInSlot\Guides\MageArcane.lua
+		LoonBestInSlot\Guides\MageFire.lua = LoonBestInSlot\Guides\MageFire.lua
+		LoonBestInSlot\Guides\MageFrost.lua = LoonBestInSlot\Guides\MageFrost.lua
+		LoonBestInSlot\Guides\PaladinHoly.lua = LoonBestInSlot\Guides\PaladinHoly.lua
+		LoonBestInSlot\Guides\PaladinProtection.lua = LoonBestInSlot\Guides\PaladinProtection.lua
+		LoonBestInSlot\Guides\PaladinRetribution.lua = LoonBestInSlot\Guides\PaladinRetribution.lua
+		LoonBestInSlot\Guides\PriestDiscipline.lua = LoonBestInSlot\Guides\PriestDiscipline.lua
+		LoonBestInSlot\Guides\PriestHoly.lua = LoonBestInSlot\Guides\PriestHoly.lua
+		LoonBestInSlot\Guides\PriestShadow.lua = LoonBestInSlot\Guides\PriestShadow.lua
+		LoonBestInSlot\Guides\RogueAssassination.lua = LoonBestInSlot\Guides\RogueAssassination.lua
+		LoonBestInSlot\Guides\RogueCombat.lua = LoonBestInSlot\Guides\RogueCombat.lua
+		LoonBestInSlot\Guides\RogueSubtlety.lua = LoonBestInSlot\Guides\RogueSubtlety.lua
+		LoonBestInSlot\Guides\ShamanElemental.lua = LoonBestInSlot\Guides\ShamanElemental.lua
+		LoonBestInSlot\Guides\ShamanEnhancement.lua = LoonBestInSlot\Guides\ShamanEnhancement.lua
+		LoonBestInSlot\Guides\ShamanRestoration.lua = LoonBestInSlot\Guides\ShamanRestoration.lua
+		LoonBestInSlot\Guides\WarlockAffliction.lua = LoonBestInSlot\Guides\WarlockAffliction.lua
+		LoonBestInSlot\Guides\WarlockDemonology.lua = LoonBestInSlot\Guides\WarlockDemonology.lua
+		LoonBestInSlot\Guides\WarlockDestruction.lua = LoonBestInSlot\Guides\WarlockDestruction.lua
+		LoonBestInSlot\Guides\WarriorArms.lua = LoonBestInSlot\Guides\WarriorArms.lua
+		LoonBestInSlot\Guides\WarriorFury.lua = LoonBestInSlot\Guides\WarriorFury.lua
+		LoonBestInSlot\Guides\WarriorProtection.lua = LoonBestInSlot\Guides\WarriorProtection.lua
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -265,6 +301,7 @@ Global
 		{E64D2CE7-C8D7-4DBE-9EE0-54BACA0579CC} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
 		{174CB7EB-7975-4A61-BFDD-3CED6D04FA17} = {5D7B4E6E-0F3B-4D5C-B6FE-1447C37D766C}
 		{71B13F0F-1281-47E2-BEC9-4D7D3021AAC4} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
+		{64AD1802-BE68-4140-A2E9-588BA891143B} = {FD14C287-3398-46A3-BCC5-F8C68903B6ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EC8A0A9-B7E7-48E2-9272-317A8A0C0916}

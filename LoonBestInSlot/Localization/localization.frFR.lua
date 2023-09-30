@@ -167,6 +167,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Headless Horseman"] = "Cavalier sans tête";
   LBIS.L["Heigan the Unclean"] = "Heigan l'Impur";
   LBIS.L["Herald Volazj"] = "Héraut Volazj";
+  LBIS.L["Heroic"] = "Héroïque";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "Jugement héroïque à l'Œil de l'éternité";
   LBIS.L["Heroic: All Is Well That Ends Well"] = "Héroïque : tout est bien qui finit bien";
   LBIS.L["Hodir"] = "Hodir";
@@ -176,7 +177,9 @@ if GetLocale() == "frFR" then
   LBIS.L["Honored"] = "Honoré";
   LBIS.L["Icecrown"] = "La Couronne de glace";
   LBIS.L["Icecrown Citadel (10)"] = "Citadelle de la Couronne de glace (10)";
+  LBIS.L["Icecrown Citadel (10H)"] = "Citadelle de la Couronne de glace (10H)";
   LBIS.L["Icecrown Citadel (25)"] = "Citadelle de la Couronne de glace (25)";
+  LBIS.L["Icecrown Citadel (25H)"] = "Citadelle de la Couronne de glace (25H)";
   LBIS.L["Ichoron"] = "Ichoron";
   LBIS.L["Ignis the Furnace Master"] = "Ignis le maître de la Fournaise";
   LBIS.L["Infinite Corruptor"] = "Corrupteur infini";
@@ -375,9 +378,11 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
 --  LBIS.L["Tirion's Gambit"] = "";
 --  LBIS.L["Token"] = "";
+  LBIS.L["Toravon the Ice Watcher"] = "Toravon la Sentinelle de glace";
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
   LBIS.L["Trash Mobs"] = "Ennemis communs";
+  LBIS.L["Trial of the Champion (Heroic)"] = "L’épreuve du champion (Héroïque)";
   LBIS.L["Trial of the Champion (Heroic++)"] = "L’épreuve du champion (Héroïque++)";
   LBIS.L["Trial of the Champion (Normal)"] = "L’épreuve du champion (Normal)";
   LBIS.L["Trial of the Crusader (10)"] = "L’épreuve du croisé (10)";

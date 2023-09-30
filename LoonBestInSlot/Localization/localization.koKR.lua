@@ -167,6 +167,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Headless Horseman"] = "저주받은 기사";
   LBIS.L["Heigan the Unclean"] = "부정의 헤이건";
   LBIS.L["Herald Volazj"] = "사자 볼라즈";
+  LBIS.L["Heroic"] = "영웅";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "영원의 눈에서의 영웅적 심판 (25인)";
   LBIS.L["Heroic: All Is Well That Ends Well"] = "영웅: 끝이 좋으면 다 좋다";
   LBIS.L["Hodir"] = "호디르";
@@ -176,7 +177,9 @@ if GetLocale() == "koKR" then
   LBIS.L["Honored"] = "우호적";
   LBIS.L["Icecrown"] = "얼음왕관";
   LBIS.L["Icecrown Citadel (10)"] = "얼음왕관 성채 (10)";
+  LBIS.L["Icecrown Citadel (10H)"] = "얼음왕관 성채 (10인 (영웅))";
   LBIS.L["Icecrown Citadel (25)"] = "얼음왕관 성채 (25)";
+  LBIS.L["Icecrown Citadel (25H)"] = "얼음왕관 성채 (25인 (영웅))";
   LBIS.L["Ichoron"] = "이코론";
   LBIS.L["Ignis the Furnace Master"] = "용광로 군주 이그니스";
   LBIS.L["Infinite Corruptor"] = "무한의 타락자";
@@ -375,9 +378,11 @@ if GetLocale() == "koKR" then
   LBIS.L["Tiny Titanium Lockbox"] = "작은 티타늄 금고";
   LBIS.L["Tirion's Gambit"] = "티리온의 계략";
   LBIS.L["Token"] = "토큰";
+  LBIS.L["Toravon the Ice Watcher"] = "얼음 감시자 토라본";
   LBIS.L["Transmute"] = "변환식";
   LBIS.L["Trash Drop"] = "일반 드롭";
   LBIS.L["Trash Mobs"] = "일반몹";
+  LBIS.L["Trial of the Champion (Heroic)"] = "용사의 시험장 (영웅)";
   LBIS.L["Trial of the Champion (Heroic++)"] = "용사의 시험장 (영웅++)";
   LBIS.L["Trial of the Champion (Normal)"] = "용사의 시험장 (일반)";
   LBIS.L["Trial of the Crusader (10)"] = "십자군의 시험장 (10인)";
