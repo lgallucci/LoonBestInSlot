@@ -113,7 +113,10 @@ public class WowheadGuideParser
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()
     {
-        { 49314, 49485 } //Sparkling Onyxia Tooth Pendant
+        { 49314, 49485 }, //Sparkling Onyxia Tooth Pendant
+        { 51704, 50821 }, //Lasherweave Cover
+        { 51714, 50277 }, //Bloodmage Leggings
+        { 51745, 50089 }, //Shadowblade Helmet
     };
 
     private Dictionary<string, string> _altModifierTextSwaps = new Dictionary<string, string>()

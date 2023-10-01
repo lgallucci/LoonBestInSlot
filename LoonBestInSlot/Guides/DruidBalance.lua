@@ -365,7 +365,7 @@ LBIS:AddItem(spec4, "51290", LBIS.L["Head"], "BIS") --Sanctified Lasherweave Cov
 LBIS:AddItem(spec4, "48174", LBIS.L["Head"], "BIS") --Runetotem's Cover of Triumph
 LBIS:AddItem(spec4, "48171", LBIS.L["Head"], "BIS") --Malfurion's Cover of Triumph
 LBIS:AddItem(spec4, "51149", LBIS.L["Head"], "Alt") --Sanctified Lasherweave Cover
-LBIS:AddItem(spec4, "51704", LBIS.L["Head"], "Alt") --Lasherweave Cover
+LBIS:AddItem(spec4, "50821", LBIS.L["Head"], "Alt") --Lasherweave Cover
 LBIS:AddItem(spec4, "51292", LBIS.L["Shoulder"], "BIS") --Sanctified Lasherweave Mantle
 LBIS:AddItem(spec4, "48177", LBIS.L["Shoulder"], "BIS") --Runetotem's Mantle of Triumph
 LBIS:AddItem(spec4, "48168", LBIS.L["Shoulder"], "BIS") --Malfurion's Mantle of Triumph

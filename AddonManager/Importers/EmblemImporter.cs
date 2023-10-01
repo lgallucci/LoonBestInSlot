@@ -64,6 +64,11 @@ public class EmblemImporter : LootImporter
         //@"https://www.wowhead.com/wotlk/npc=35497/rafael-langrom#sells;100",
 
         //evowow
+        @"https://wotlk.evowow.com/?npc=35498#currency-for:0-2",
+        @"https://wotlk.evowow.com/?npc=35498#currency-for:50-2",
+        @"https://wotlk.evowow.com/?npc=35498#currency-for:100-2",
+        @"https://wotlk.evowow.com/?npc=35496#currency-for:0-2",
+        @"https://wotlk.evowow.com/?npc=35496#currency-for:50-2",
         @"https://wotlk.evowow.com/?npc=35500#currency-for:0-2",
         @"https://wotlk.evowow.com/?npc=35500#currency-for:50-2",
         @"https://wotlk.evowow.com/?npc=35497#currency-for:0-2",
@@ -111,7 +116,8 @@ public class EmblemImporter : LootImporter
                     if (string.IsNullOrWhiteSpace(currencySource))
                         currencySource = sourceText;
                     else if (currencySource.Contains("'s Mark") && sourceText == "unknown")
-                        currencySource = $"{currencySource} & {{{item}}}";
+                        currencySource = $"{currencySource} & Lower Rank";
+                        //currencySource = $"{currencySource} & {{{item}}}";
                     else
                         currencySource = $"{currencySource} & {sourceText}";
 
@@ -125,7 +131,7 @@ public class EmblemImporter : LootImporter
                     else if (new[] { "52025", "52026", "52027" }.ToList().Contains(item))
                         currencySourceLocation = "Icecrown Citadel";
                     else if (new[] { "52028", "52029", "52030" }.ToList().Contains(item))
-                        currencySourceLocation = "Icecrown Citadel (H)";
+                        currencySourceLocation = "Icecrown Citadel (25H)";
                     else if (string.IsNullOrWhiteSpace(currencySourceLocation))
                         currencySourceLocation = "Emblem Vendor";
                 }
@@ -215,7 +221,7 @@ public class EmblemImporter : LootImporter
                         else if (new[] { "52025", "52026", "52027" }.ToList().Contains(item))
                             currencySourceLocation = "Icecrown Citadel";
                         else if (new[] { "52028", "52029", "52030" }.ToList().Contains(item))
-                            currencySourceLocation = "Icecrown Citadel (H)";
+                            currencySourceLocation = "Icecrown Citadel (25H)";
                         else if (string.IsNullOrWhiteSpace(currencySourceLocation))
                             currencySourceLocation = "Emblem Vendor";
                     }

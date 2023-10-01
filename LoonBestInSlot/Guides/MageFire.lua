@@ -381,7 +381,7 @@ LBIS:AddItem(spec4, "47258", LBIS.L["Waist"], "Alt") --Belt of the Tenebrous Mis
 LBIS:AddItem(spec4, "51282", LBIS.L["Legs"], "BIS") --Sanctified Bloodmage Leggings
 LBIS:AddItem(spec4, "50694", LBIS.L["Legs"], "Alt") --Plaguebringer's Stained Pants
 LBIS:AddItem(spec4, "51157", LBIS.L["Legs"], "Alt") --Sanctified Bloodmage Leggings
-LBIS:AddItem(spec4, "51714", LBIS.L["Legs"], "Alt") --Bloodmage Leggings
+LBIS:AddItem(spec4, "50277", LBIS.L["Legs"], "Alt") --Bloodmage Leggings
 LBIS:AddItem(spec4, "49891", LBIS.L["Legs"], "Alt") --Leggings of Woven Death
 LBIS:AddItem(spec4, "47765", LBIS.L["Legs"], "Alt") --Sunstrider's Leggings of Triumph
 LBIS:AddItem(spec4, "47760", LBIS.L["Legs"], "Alt") --Khadgar's Leggings of Triumph
