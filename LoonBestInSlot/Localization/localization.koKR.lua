@@ -351,7 +351,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Beasts of Northrend"] = "노스렌드의 야수";
   LBIS.L["The Black Knight"] = "흑기사";
   LBIS.L["The Champion of Anguish"] = "고뇌의 용사 탄생";
-  LBIS.L["The Cleansing Of Jintha'kalar'"] = "진타칼라르 정화";
+  LBIS.L["The Cleansing Of Jintha'kalar"] = "진타칼라르 정화";
   LBIS.L["The Crusaders' Pinnacle"] = "십자군 봉우리";
   LBIS.L["The Culling of Stratholme (Heroic)"] = "옛 스트라솔름 (영웅)";
   LBIS.L["The Culling of Stratholme (Heroic+)"] = "옛 스트라솔름 (영웅+)";

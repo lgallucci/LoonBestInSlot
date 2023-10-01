@@ -294,7 +294,7 @@ LBIS.ItemSources =
     [37886] = { Name = "Handgrips of the Savage Emissary", SourceType = LBIS.L["Drop"], Source = LBIS.L["Cyanigosa"], SourceNumber = "0", SourceLocation = LBIS.L["The Violet Hold (Heroic)"], SourceFaction = "B" },
     [37889] = { Name = "Prison Manifest", SourceType = LBIS.L["Drop"], Source = LBIS.L["Trash Mobs"], SourceNumber = "0", SourceLocation = LBIS.L["The Violet Hold (Heroic)"], SourceFaction = "B" },
     [37890] = { Name = "Chain Gang Legguards", SourceType = LBIS.L["Drop"], Source = LBIS.L["Trash Mobs"], SourceNumber = "0", SourceLocation = LBIS.L["The Violet Hold (Heroic)"], SourceFaction = "B" },
-    [38206] = { Name = "Wand of Blinding Light", SourceType = LBIS.L["Quest"], Source = LBIS.L["The Cleansing Of Jintha'kalar'"], SourceNumber = "0", SourceLocation = LBIS.L["Dragonblight"], SourceFaction = "B" },
+    [38206] = { Name = "Wand of Blinding Light", SourceType = LBIS.L["Quest"], Source = LBIS.L["The Cleansing Of Jintha'kalar"], SourceNumber = "0", SourceLocation = LBIS.L["Dragonblight"], SourceFaction = "B" },
     [38289] = { Name = "Coren's Lucky Coin", SourceType = LBIS.L["Drop"], Source = LBIS.L["Coren Direbrew"], SourceNumber = "0", SourceLocation = LBIS.L["Brewfest"], SourceFaction = "B" },
     [38295] = { Name = "Idol of the Wastes", SourceType = LBIS.L["Quest"], Source = LBIS.L["My Old Enemy"].."/"..LBIS.L["The Forsaken Blight"], SourceNumber = "0/0", SourceLocation = LBIS.L["Dragonblight"].."/"..LBIS.L["Dragonblight"], SourceFaction = "B" },
     [38322] = { Name = "Iron-bound Tome", SourceType = LBIS.L["Profession"], Source = LBIS.L["Inscription"], SourceNumber = "0", SourceLocation = "59497", SourceFaction = "B" },

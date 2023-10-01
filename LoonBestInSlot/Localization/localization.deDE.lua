@@ -1,8 +1,8 @@
 if GetLocale() == "deDE" then
   LBIS.L["# Best for:"] = "# Beste für";
   LBIS.L["10000 Honor (PvP)"] = "10.000 Ehrenpunkte (PvP)";
---  LBIS.L["A Victory For The Silver Covenant"] = "";
---  LBIS.L["A Victory For The Sunreavers"] = "";
+  LBIS.L["A Victory For The Silver Covenant"] = "Ein Sieg für den Silberbund";
+  LBIS.L["A Victory For The Sunreavers"] = "Ein Sieg für die Sonnenhäscher";
   LBIS.L["A Wing and a Prayer"] = "Schlacht in den Wolken";
   LBIS.L["Accessories Quartermaster"] = "Rüstmeister für Offizierszubehör";
   LBIS.L["Affliction"] = "Gebrechen";
@@ -61,7 +61,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Cenarion Expedition (Revered)"] = "Expedition des Cenarius (Respektvoll)";
   LBIS.L["Changing the Wind's Course"] = "Die Windrichtung ändern";
   LBIS.L["Chest"] = "Brust";
---  LBIS.L["Choose Your Path"] = "";
+  LBIS.L["Choose Your Path"] = "Wählt Euren Weg";
   LBIS.L["Chrono-Lord Epoch"] = "Chronolord Epoch";
   LBIS.L["Cielstrasza"] = "Cielstrasza";
   LBIS.L["Clipping Their Wings"] = "Ihre Flügel stutzen";
@@ -275,10 +275,10 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Open Settings"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "Ormorok der Baumformer";
   LBIS.L["Patchwerk"] = "Flickwerk";
---  LBIS.L["Path of Courage"] = "";
---  LBIS.L["Path of Destruction"] = "";
---  LBIS.L["Path of Might"] = "";
---  LBIS.L["Path of Vengeance"] = "";
+  LBIS.L["Path of Courage"] = "Weg des Mutes";
+  LBIS.L["Path of Destruction"] = "Weg der Zerstörung";
+  LBIS.L["Path of Might"] = "Weg der Macht";
+  LBIS.L["Path of Vengeance"] = "Weg der Vergeltung";
   LBIS.L["Path of Wisdom"] = "Die Oubliette des Runenmetzes";
   LBIS.L["Phase 1"] = "Phase 1";
   LBIS.L["Phase 2"] = "Phase 2";
@@ -321,9 +321,9 @@ if GetLocale() == "deDE" then
   LBIS.L["Select"] = "Auswählen";
   LBIS.L["Settings"] = "Einstellungen";
   LBIS.L["Shadow"] = "Schatten";
---  LBIS.L["Shadow's Edge"] = "";
+  LBIS.L["Shadow's Edge"] = "Schattenschneide";
   LBIS.L["Shadowmoon Valley"] = "Schattenmondtal";
---  LBIS.L["Shadowmourne..."] = "";
+  LBIS.L["Shadowmourne..."] = "Schattengram...";
   LBIS.L["Shattrath City"] = "Shattrath";
   LBIS.L["Shirt"] = "Hemd";
   LBIS.L["Sholazar Basin"] = "Das Sholazarbecken";
@@ -351,7 +351,7 @@ if GetLocale() == "deDE" then
   LBIS.L["The Beasts of Northrend"] = "Bestien von Nordend";
   LBIS.L["The Black Knight"] = "Der Schwarze Ritter";
   LBIS.L["The Champion of Anguish"] = "Der Champion der Agonie";
---  LBIS.L["The Cleansing Of Jintha'kalar'"] = "";
+  LBIS.L["The Cleansing Of Jintha'kalar"] = "Die Säuberung von Jintha'kalar";
   LBIS.L["The Crusaders' Pinnacle"] = "Der Kreuzfahrerturm";
   LBIS.L["The Culling of Stratholme (Heroic)"] = "Das Ausmerzen von Stratholme (Heroisch)";
   LBIS.L["The Culling of Stratholme (Heroic+)"] = "Das Ausmerzen von Stratholme (Heroisch+)";
@@ -360,8 +360,8 @@ if GetLocale() == "deDE" then
   LBIS.L["The Drakkensryd"] = "Der Drakkensryd";
   LBIS.L["The Eye of Eternity"] = "Das Auge der Ewigkeit";
   LBIS.L["The Eye of Eternity (25)"] = "Das Auge der Ewigkeit (25)";
---  LBIS.L["The Fate of Bloodbane"] = "";
---  LBIS.L["The Flesh Giant Champion"] = "";
+  LBIS.L["The Fate of Bloodbane"] = "Blutbanns Schicksal";
+  LBIS.L["The Flesh Giant Champion"] = "Der gigantische Fleischgigant";
   LBIS.L["The Forsaken Blight"] = "Die Seuche der Verlassenen";
   LBIS.L["The Four Horsemen"] = "Die Vier Reiter";
   LBIS.L["The Gifts of Loken"] = "Lokens Gaben";
@@ -407,7 +407,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Tiffany Cartier"] = "";
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
---  LBIS.L["Tirion's Gambit"] = "";
+  LBIS.L["Tirion's Gambit"] = "Tirions Schachzug";
   LBIS.L["Token"] = "Token";
   LBIS.L["Toravon the Ice Watcher"] = "Toravon der Eiswächter";
   LBIS.L["Transmute"] = "Transmutieren";

@@ -1,8 +1,8 @@
 if GetLocale() == "ruRU" then
   LBIS.L["# Best for:"] = "# Лучшее для";
 --  LBIS.L["10000 Honor (PvP)"] = " (PvP)";
---  LBIS.L["A Victory For The Silver Covenant"] = "";
---  LBIS.L["A Victory For The Sunreavers"] = "";
+  LBIS.L["A Victory For The Silver Covenant"] = "Победа Серебряного союза";
+  LBIS.L["A Victory For The Sunreavers"] = "Победа Похитителей Солнца";
   LBIS.L["A Wing and a Prayer"] = "Высокие ставки";
 --  LBIS.L["Accessories Quartermaster"] = "";
   LBIS.L["Affliction"] = "Колдовство";
@@ -61,7 +61,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Cenarion Expedition (Revered)"] = "Кенарийская экспедиция (Почтение)";
   LBIS.L["Changing the Wind's Course"] = "Чтобы ветер переменился";
   LBIS.L["Chest"] = "Грудь";
---  LBIS.L["Choose Your Path"] = "";
+  LBIS.L["Choose Your Path"] = "Выбери свой путь";
   LBIS.L["Chrono-Lord Epoch"] = "Хронолорд Эпох";
 --  LBIS.L["Cielstrasza"] = "";
   LBIS.L["Clipping Their Wings"] = "Подрезанные крылышки";
@@ -275,10 +275,10 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Open Settings"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "Орморок Воспитатель Дерев";
   LBIS.L["Patchwerk"] = "Лоскутик";
---  LBIS.L["Path of Courage"] = "";
---  LBIS.L["Path of Destruction"] = "";
---  LBIS.L["Path of Might"] = "";
---  LBIS.L["Path of Vengeance"] = "";
+  LBIS.L["Path of Courage"] = "Путь отваги";
+  LBIS.L["Path of Destruction"] = "Путь разрушения";
+  LBIS.L["Path of Might"] = "Путь силы";
+  LBIS.L["Path of Vengeance"] = "Путь мести";
   LBIS.L["Path of Wisdom"] = "Путь Мудрости";
 --  LBIS.L["Phase 1"] = "";
 --  LBIS.L["Phase 2"] = "";
@@ -321,9 +321,9 @@ if GetLocale() == "ruRU" then
   LBIS.L["Select"] = "Выбрать";
   LBIS.L["Settings"] = "Настройки";
   LBIS.L["Shadow"] = "Темная магия";
---  LBIS.L["Shadow's Edge"] = "";
+  LBIS.L["Shadow's Edge"] = "Грань Тьмы";
   LBIS.L["Shadowmoon Valley"] = "Долина Призрачной Луны";
---  LBIS.L["Shadowmourne..."] = "";
+  LBIS.L["Shadowmourne..."] = "Темная Скорбь...";
   LBIS.L["Shattrath City"] = "Шаттрат";
   LBIS.L["Shirt"] = "Рубашка";
   LBIS.L["Sholazar Basin"] = "Низина Шолазар";
@@ -351,7 +351,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Beasts of Northrend"] = "Чудовища Нордскола";
   LBIS.L["The Black Knight"] = "Черный рыцарь";
   LBIS.L["The Champion of Anguish"] = "Чемпион Амфитеатра Страданий";
---  LBIS.L["The Cleansing Of Jintha'kalar'"] = "";
+  LBIS.L["The Cleansing Of Jintha'kalar"] = "Очищение Джинта'калара";
   LBIS.L["The Crusaders' Pinnacle"] = "Вершина Рыцарей";
   LBIS.L["The Culling of Stratholme (Heroic)"] = "Очищение Стратхольма (Героический)";
   LBIS.L["The Culling of Stratholme (Heroic+)"] = "Очищение Стратхольма (Героический+)";
@@ -360,8 +360,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Drakkensryd"] = "Драконобойца";
   LBIS.L["The Eye of Eternity"] = "Око Вечности";
   LBIS.L["The Eye of Eternity (25)"] = "Око Вечности (25)";
---  LBIS.L["The Fate of Bloodbane"] = "";
---  LBIS.L["The Flesh Giant Champion"] = "";
+  LBIS.L["The Fate of Bloodbane"] = "Судьба Кровопорча";
+  LBIS.L["The Flesh Giant Champion"] = "Победитель мясистого великана";
   LBIS.L["The Forsaken Blight"] = "Гниль Отрекшихся";
   LBIS.L["The Four Horsemen"] = "Четыре Всадника";
   LBIS.L["The Gifts of Loken"] = "Дары Локена";
@@ -407,7 +407,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Tiffany Cartier"] = "";
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
---  LBIS.L["Tirion's Gambit"] = "";
+  LBIS.L["Tirion's Gambit"] = "Уловка Тириона";
 --  LBIS.L["Token"] = "";
   LBIS.L["Toravon the Ice Watcher"] = "Торавон Страж Льда";
 --  LBIS.L["Transmute"] = "";

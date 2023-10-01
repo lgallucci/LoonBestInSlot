@@ -1,8 +1,8 @@
 if GetLocale() == "zhCN" then
   LBIS.L["# Best for:"] = "# 最适合";
 --  LBIS.L["10000 Honor (PvP)"] = " (PvP)";
---  LBIS.L["A Victory For The Silver Covenant"] = "";
---  LBIS.L["A Victory For The Sunreavers"] = "";
+  LBIS.L["A Victory For The Silver Covenant"] = "银色盟约的胜利";
+  LBIS.L["A Victory For The Sunreavers"] = "夺日者的胜利";
   LBIS.L["A Wing and a Prayer"] = "龙翼之力";
 --  LBIS.L["Accessories Quartermaster"] = "";
   LBIS.L["Affliction"] = "痛苦";
@@ -61,7 +61,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Cenarion Expedition (Revered)"] = "塞纳里奥远征队 (崇敬)";
   LBIS.L["Changing the Wind's Course"] = "改变风向";
   LBIS.L["Chest"] = "胸部";
---  LBIS.L["Choose Your Path"] = "";
+  LBIS.L["Choose Your Path"] = "道路的选择";
   LBIS.L["Chrono-Lord Epoch"] = "时光领主埃博克";
 --  LBIS.L["Cielstrasza"] = "";
   LBIS.L["Clipping Their Wings"] = "蝙蝠翅膀";
@@ -275,10 +275,10 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Open Settings"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "塑树者奥莫洛克";
   LBIS.L["Patchwerk"] = "帕奇维克";
---  LBIS.L["Path of Courage"] = "";
---  LBIS.L["Path of Destruction"] = "";
---  LBIS.L["Path of Might"] = "";
---  LBIS.L["Path of Vengeance"] = "";
+  LBIS.L["Path of Courage"] = "勇气之路";
+  LBIS.L["Path of Destruction"] = "毁灭之路";
+  LBIS.L["Path of Might"] = "力量之路";
+  LBIS.L["Path of Vengeance"] = "复仇之路";
   LBIS.L["Path of Wisdom"] = "智慧之路";
 --  LBIS.L["Phase 1"] = "";
 --  LBIS.L["Phase 2"] = "";
@@ -321,9 +321,9 @@ if GetLocale() == "zhCN" then
   LBIS.L["Select"] = "选择";
   LBIS.L["Settings"] = "选项";
   LBIS.L["Shadow"] = "暗影";
---  LBIS.L["Shadow's Edge"] = "";
+  LBIS.L["Shadow's Edge"] = "影锋";
   LBIS.L["Shadowmoon Valley"] = "影月谷";
---  LBIS.L["Shadowmourne..."] = "";
+  LBIS.L["Shadowmourne..."] = "影之哀伤……";
   LBIS.L["Shattrath City"] = "沙塔斯城";
   LBIS.L["Shirt"] = "衬衣";
   LBIS.L["Sholazar Basin"] = "索拉查盆地";
@@ -351,7 +351,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["The Beasts of Northrend"] = "诺森德猛兽";
   LBIS.L["The Black Knight"] = "黑骑士";
   LBIS.L["The Champion of Anguish"] = "痛苦斗兽场的冠军";
---  LBIS.L["The Cleansing Of Jintha'kalar'"] = "";
+  LBIS.L["The Cleansing Of Jintha'kalar"] = "净化金萨卡拉";
   LBIS.L["The Crusaders' Pinnacle"] = "北伐军之峰";
   LBIS.L["The Culling of Stratholme (Heroic)"] = "净化斯坦索姆 (英雄)";
   LBIS.L["The Culling of Stratholme (Heroic+)"] = "净化斯坦索姆 (英雄+)";
@@ -360,8 +360,8 @@ if GetLocale() == "zhCN" then
   LBIS.L["The Drakkensryd"] = "驭龙赛";
   LBIS.L["The Eye of Eternity"] = "永恒之眼";
   LBIS.L["The Eye of Eternity (25)"] = "永恒之眼 (25)";
---  LBIS.L["The Fate of Bloodbane"] = "";
---  LBIS.L["The Flesh Giant Champion"] = "";
+  LBIS.L["The Fate of Bloodbane"] = "血毒的命运";
+  LBIS.L["The Flesh Giant Champion"] = "最强大的血肉巨人";
   LBIS.L["The Forsaken Blight"] = "被遗忘者的凋零药剂";
   LBIS.L["The Four Horsemen"] = "四骑士";
   LBIS.L["The Gifts of Loken"] = "洛肯的礼物";
@@ -407,7 +407,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Tiffany Cartier"] = "";
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
---  LBIS.L["Tirion's Gambit"] = "";
+  LBIS.L["Tirion's Gambit"] = "提里奥的尝试";
 --  LBIS.L["Token"] = "";
   LBIS.L["Toravon the Ice Watcher"] = "寒冰看守者图拉旺";
 --  LBIS.L["Transmute"] = "";

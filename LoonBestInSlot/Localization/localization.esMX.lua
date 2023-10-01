@@ -1,8 +1,8 @@
 if GetLocale() == "esMX" then
   LBIS.L["# Best for:"] = "# Mejor para";
 --  LBIS.L["10000 Honor (PvP)"] = " (JcJ)";
---  LBIS.L["A Victory For The Silver Covenant"] = "";
---  LBIS.L["A Victory For The Sunreavers"] = "";
+  LBIS.L["A Victory For The Silver Covenant"] = "Una victoria para El Pacto de Plata";
+  LBIS.L["A Victory For The Sunreavers"] = "Una victoria para los Atracasol";
   LBIS.L["A Wing and a Prayer"] = "Un ala y una oración";
 --  LBIS.L["Accessories Quartermaster"] = "";
   LBIS.L["Affliction"] = "Aflicción";
@@ -61,7 +61,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Cenarion Expedition (Revered)"] = "Expedición Cenarion (Reverenciado)";
   LBIS.L["Changing the Wind's Course"] = "Cambiar el curso del viento";
   LBIS.L["Chest"] = "Torso";
---  LBIS.L["Choose Your Path"] = "";
+  LBIS.L["Choose Your Path"] = "Elige tu camino";
   LBIS.L["Chrono-Lord Epoch"] = "Cronolord Época";
 --  LBIS.L["Cielstrasza"] = "";
   LBIS.L["Clipping Their Wings"] = "Cortar las alas";
@@ -275,10 +275,10 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Open Settings"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "Ormorok el cortador de árboles";
   LBIS.L["Patchwerk"] = "Remendejo";
---  LBIS.L["Path of Courage"] = "";
---  LBIS.L["Path of Destruction"] = "";
---  LBIS.L["Path of Might"] = "";
---  LBIS.L["Path of Vengeance"] = "";
+  LBIS.L["Path of Courage"] = "El camino del coraje";
+  LBIS.L["Path of Destruction"] = "El camino de la destrucción";
+  LBIS.L["Path of Might"] = "El camino del poderío";
+  LBIS.L["Path of Vengeance"] = "El camino de la venganza";
   LBIS.L["Path of Wisdom"] = "Senda de Sabiduría";
 --  LBIS.L["Phase 1"] = "";
 --  LBIS.L["Phase 2"] = "";
@@ -321,9 +321,9 @@ if GetLocale() == "esMX" then
   LBIS.L["Select"] = "Seleccionar";
   LBIS.L["Settings"] = "Configuración";
   LBIS.L["Shadow"] = "Sombra";
---  LBIS.L["Shadow's Edge"] = "";
+  LBIS.L["Shadow's Edge"] = "El Filo de las Sombras";
   LBIS.L["Shadowmoon Valley"] = "Valle Sombraluna";
---  LBIS.L["Shadowmourne..."] = "";
+  LBIS.L["Shadowmourne..."] = "Agonía de Sombras...";
   LBIS.L["Shattrath City"] = "Ciudad de Shattrath";
   LBIS.L["Shirt"] = "Camisa";
   LBIS.L["Sholazar Basin"] = "Cuenca de Sholazar";
@@ -351,7 +351,7 @@ if GetLocale() == "esMX" then
   LBIS.L["The Beasts of Northrend"] = "Las bestias de Rasganorte ";
   LBIS.L["The Black Knight"] = "El Caballero Negro";
   LBIS.L["The Champion of Anguish"] = "El campeón de angustia";
---  LBIS.L["The Cleansing Of Jintha'kalar'"] = "";
+  LBIS.L["The Cleansing Of Jintha'kalar"] = "La limpieza de Jintha'kalar";
   LBIS.L["The Crusaders' Pinnacle"] = "El Pináculo de los Cruzados";
   LBIS.L["The Culling of Stratholme (Heroic)"] = "La Matanza de Stratholme (Heroico)";
   LBIS.L["The Culling of Stratholme (Heroic+)"] = "La Matanza de Stratholme (Heroico+)";
@@ -360,8 +360,8 @@ if GetLocale() == "esMX" then
   LBIS.L["The Drakkensryd"] = "El Drakkensryd";
   LBIS.L["The Eye of Eternity"] = "El Ojo de la Eternidad";
   LBIS.L["The Eye of Eternity (25)"] = "El Ojo de la Eternidad (25)";
---  LBIS.L["The Fate of Bloodbane"] = "";
---  LBIS.L["The Flesh Giant Champion"] = "";
+  LBIS.L["The Fate of Bloodbane"] = "El destino de Malasangre";
+  LBIS.L["The Flesh Giant Champion"] = "El gigante de carne campeón";
   LBIS.L["The Forsaken Blight"] = "El añublo de los Renegados";
   LBIS.L["The Four Horsemen"] = "Los Cuatro Jinetes";
   LBIS.L["The Gifts of Loken"] = "Los obsequios de Loken";
@@ -407,7 +407,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Tiffany Cartier"] = "";
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
---  LBIS.L["Tirion's Gambit"] = "";
+  LBIS.L["Tirion's Gambit"] = "Gambito de Tirion";
 --  LBIS.L["Token"] = "";
   LBIS.L["Toravon the Ice Watcher"] = "Toravon el Vigía de Hielo";
 --  LBIS.L["Transmute"] = "";
