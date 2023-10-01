@@ -56,7 +56,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Blood"] = "Sang";
   LBIS.L["Blood-Queen Lana'thel"] = "Reine de sang Lana'thel";
   LBIS.L["Borean Tundra"] = "Toundra Boréenne";
---  LBIS.L["Brewfest"] = "";
+  LBIS.L["Brewfest"] = "Fête des Brasseurs";
 --  LBIS.L["Cat"] = "";
   LBIS.L["Cenarion Expedition (Revered)"] = "Expédition cénarienne (Révéré)";
   LBIS.L["Changing the Wind's Course"] = "Changer le sens du vent";
@@ -71,7 +71,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Commander Kolurg"] = "Commandant Kolurg";
   LBIS.L["Commander Stoutbeard"] = "Commandant Rudebarbe";
 --  LBIS.L["Conqueror's Mark"] = "";
---  LBIS.L["Conqueror's Mark (H)"] = "";
+--  LBIS.L["Conqueror's Mark (H)"] = " (H)";
   LBIS.L["Coren Direbrew"] = "Coren Navrebière";
   LBIS.L["Custom"] = "Personnalisé";
   LBIS.L["Cyanigosa"] = "Cyanigosa";
@@ -106,11 +106,11 @@ if GetLocale() == "frFR" then
   LBIS.L["Elder Nadox"] = "Ancien Nadox";
   LBIS.L["Elemental"] = "Élémentaire";
   LBIS.L["Emalon the Storm Watcher"] = "Emalon le Guetteur d'orage";
---  LBIS.L["Emblem of Conquest"] = "";
---  LBIS.L["Emblem of Frost"] = "";
---  LBIS.L["Emblem of Heroism"] = "";
---  LBIS.L["Emblem of Triumph"] = "";
---  LBIS.L["Emblem of Valor"] = "";
+  LBIS.L["Emblem of Conquest"] = "Emblème de conquête";
+  LBIS.L["Emblem of Frost"] = "Emblème de givre";
+  LBIS.L["Emblem of Heroism"] = "Emblème d'héroïsme";
+  LBIS.L["Emblem of Triumph"] = "Emblème de triomphe";
+  LBIS.L["Emblem of Valor"] = "Emblème de vaillance";
 --  LBIS.L["Emblem Vendor"] = "";
   LBIS.L["Enchants"] = "Enchantements";
   LBIS.L["Engineering"] = "Ingénierie";
@@ -161,7 +161,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Gundrak (Normal)"] = "Gundrak (Normal)";
 --  LBIS.L["Gunship Battle"] = "";
   LBIS.L["Hadronox"] = "Hadronox";
---  LBIS.L["Hallow's End"] = "";
+  LBIS.L["Hallow's End"] = "Sanssaint";
   LBIS.L["Halls of Lightning (Heroic)"] = "Les salles de Foudre (Héroïque)";
   LBIS.L["Halls of Lightning (Heroic+)"] = "Les salles de Foudre (Héroïque+)";
   LBIS.L["Halls of Lightning (Heroic++)"] = "Les salles de Foudre (Héroïque++)";
@@ -296,7 +296,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Professor Putricide"] = "Professeur Putricide";
   LBIS.L["Protection"] = "Protection";
 --  LBIS.L["Protector's Mark"] = "";
---  LBIS.L["Protector's Mark (H)"] = "";
+--  LBIS.L["Protector's Mark (H)"] = " (H)";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
   LBIS.L["PvP"] = "JcJ";
 --  LBIS.L["PvP Vendor"] = "";
@@ -331,7 +331,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
---  LBIS.L["Sidereal Essence"] = "";
+  LBIS.L["Sidereal Essence"] = "Essence sidérale";
   LBIS.L["Sindragosa"] = "Sindragosa";
   LBIS.L["Sjonnir The Ironshaper"] = "Sjonnir le Sculptefer";
   LBIS.L["Skadi the Ruthless"] = "Skadi le Brutal";
@@ -408,7 +408,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
   LBIS.L["Tirion's Gambit"] = "Le gambit de Tirion";
---  LBIS.L["Token"] = "";
+  LBIS.L["Token"] = "Marque d’ensemble";
   LBIS.L["Toravon the Ice Watcher"] = "Toravon la Sentinelle de glace";
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
@@ -445,7 +445,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Valkyrion Must Burn"] = "Brûle, Valkyrion, brûle !";
 --  LBIS.L["Vanessa Sellers"] = "";
 --  LBIS.L["Vanquisher's Mark"] = "";
---  LBIS.L["Vanquisher's Mark (H)"] = "";
+--  LBIS.L["Vanquisher's Mark (H)"] = " (H)";
 --  LBIS.L["Various Bosses"] = "";
   LBIS.L["Varos Cloudstrider"] = "Varos Arpentenuée";
   LBIS.L["Vault of Archavon (10)"] = "Caveau d’Archavon (10)";

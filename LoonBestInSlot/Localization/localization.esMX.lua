@@ -56,7 +56,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Blood"] = "Sangre";
   LBIS.L["Blood-Queen Lana'thel"] = "Reina de Sangre Lana'thel";
   LBIS.L["Borean Tundra"] = "Tundra Boreal";
---  LBIS.L["Brewfest"] = "";
+  LBIS.L["Brewfest"] = "Fiesta de la Cerveza";
 --  LBIS.L["Cat"] = "";
   LBIS.L["Cenarion Expedition (Revered)"] = "Expedición Cenarion (Reverenciado)";
   LBIS.L["Changing the Wind's Course"] = "Cambiar el curso del viento";
@@ -161,7 +161,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Gundrak (Normal)"] = "Gundrak (Normal)";
 --  LBIS.L["Gunship Battle"] = "";
   LBIS.L["Hadronox"] = "Hadronox";
---  LBIS.L["Hallow's End"] = "";
+  LBIS.L["Hallow's End"] = "Halloween";
   LBIS.L["Halls of Lightning (Heroic)"] = "Cámaras de Relámpagos (Heroico)";
   LBIS.L["Halls of Lightning (Heroic+)"] = "Cámaras de Relámpagos (Heroico+)";
   LBIS.L["Halls of Lightning (Heroic++)"] = "Cámaras de Relámpagos (Heroico++)";
@@ -189,9 +189,9 @@ if GetLocale() == "esMX" then
   LBIS.L["Icecrown"] = "Corona de Hielo";
   LBIS.L["Icecrown Citadel"] = "Ciudadela de la Corona de Hielo";
   LBIS.L["Icecrown Citadel (10)"] = "Ciudadela de la Corona de Hielo (10)";
---  LBIS.L["Icecrown Citadel (10H)"] = "Ciudadela de la Corona de Hielo";
+  LBIS.L["Icecrown Citadel (10H)"] = "Ciudadela de la Corona de Hielo (10H)";
   LBIS.L["Icecrown Citadel (25)"] = "Ciudadela de la Corona de Hielo (25)";
---  LBIS.L["Icecrown Citadel (25H)"] = "Ciudadela de la Corona de Hielo";
+  LBIS.L["Icecrown Citadel (25H)"] = "Ciudadela de la Corona de Hielo (25H)";
   LBIS.L["Ichoron"] = "Ícoron";
   LBIS.L["Ignis the Furnace Master"] = "Ignis el Maestro de la Caldera";
   LBIS.L["Infinite Corruptor"] = "Corruptor Infinito";

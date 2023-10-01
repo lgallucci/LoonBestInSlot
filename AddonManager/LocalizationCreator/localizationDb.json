@@ -397,7 +397,8 @@
       "Shadowmourne...": "Agonía de Sombras...",
       "The Fate of Bloodbane": "El destino de Malasangre",
       "The Flesh Giant Champion": "El gigante de carne campeón",
-      "Tirion's Gambit": "Gambito de Tirion"
+      "Tirion's Gambit": "Gambito de Tirion",
+      "The Cleansing Of Jintha'kalar": "La limpieza de Jintha'kalar"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -769,7 +770,10 @@
       "Shadowmourne...": "Agonía de Sombras...",
       "The Fate of Bloodbane": "El destino de Malasangre",
       "The Flesh Giant Champion": "El gigante de carne campeón",
-      "Tirion's Gambit": "Gambito de Tirion"
+      "Tirion's Gambit": "Gambito de Tirion",
+      "The Cleansing Of Jintha'kalar": "La limpieza de Jintha'kalar",
+      "Icecrown Citadel (10H)": "Ciudadela de la Corona de Hielo (10H)",
+      "Icecrown Citadel (25H)": "Ciudadela de la Corona de Hielo (25H)"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -1220,7 +1224,8 @@
       "Shadowmourne...": "Schattengram...",
       "The Fate of Bloodbane": "Blutbanns Schicksal",
       "The Flesh Giant Champion": "Der gigantische Fleischgigant",
-      "Tirion's Gambit": "Tirions Schachzug"
+      "Tirion's Gambit": "Tirions Schachzug",
+      "The Cleansing Of Jintha'kalar": "Die Säuberung von Jintha'kalar"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -1596,7 +1601,8 @@
       "Shadowmourne...": "Deuillelombre…",
       "The Fate of Bloodbane": "Le destin de Sangreplaie",
       "The Flesh Giant Champion": "Le champion des géants de chair",
-      "Tirion's Gambit": "Le gambit de Tirion"
+      "Tirion's Gambit": "Le gambit de Tirion",
+      "The Cleansing Of Jintha'kalar": "La purification de Jintha'kalar"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -1967,7 +1973,10 @@
       "Shadowmourne...": "Темная Скорбь...",
       "The Fate of Bloodbane": "Судьба Кровопорча",
       "The Flesh Giant Champion": "Победитель мясистого великана",
-      "Tirion's Gambit": "Уловка Тириона"
+      "Tirion's Gambit": "Уловка Тириона",
+      "The Cleansing Of Jintha'kalar": "Очищение Джинта'калара",
+      "Icecrown Citadel (10H)": "Цитадель Ледяной Короны (10 Гер )",
+      "Icecrown Citadel (25H)": "Цитадель Ледяной Короны (25 Гер)"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -2338,7 +2347,10 @@
       "Shadowmourne...": "影之哀伤……",
       "The Fate of Bloodbane": "血毒的命运",
       "The Flesh Giant Champion": "最强大的血肉巨人",
-      "Tirion's Gambit": "提里奥的尝试"
+      "Tirion's Gambit": "提里奥的尝试",
+      "The Cleansing Of Jintha'kalar": "净化金萨卡拉",
+      "Icecrown Citadel (10H)": "冰冠堡垒 (10人英雄)",
+      "Icecrown Citadel (25H)": "冰冠堡垒 (25人英雄)"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -2811,7 +2823,8 @@
       "Scourgelord Tyrannus": "스컬지군주 티라누스",
       "Sindragosa": "신드라고사",
       "The Lich King": "리치 왕",
-      "Valithria Dreamwalker": "발리스리아 드림워커"
+      "Valithria Dreamwalker": "발리스리아 드림워커",
+      "The Cleansing Of Jintha'kalar": "진타칼라르 정화"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -3181,7 +3194,10 @@
       "Shadowmourne...": "影之哀傷...",
       "The Fate of Bloodbane": "血禍的命運",
       "The Flesh Giant Champion": "血肉巨人鬥士",
-      "Tirion's Gambit": "提里奧的決斷"
+      "Tirion's Gambit": "提里奧的決斷",
+      "The Cleansing Of Jintha'kalar": "辛薩卡拉的淨化",
+      "Icecrown Citadel (10H)": "冰冠城塞 (10H)",
+      "Icecrown Citadel (25H)": "冰冠城塞 (25H)"
     }
   }
 }

@@ -56,7 +56,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Blood"] = "血魄";
   LBIS.L["Blood-Queen Lana'thel"] = "血腥女王菈娜薩爾";
   LBIS.L["Borean Tundra"] = "北風凍原";
---  LBIS.L["Brewfest"] = "";
+  LBIS.L["Brewfest"] = "啤酒節";
 --  LBIS.L["Cat"] = "";
   LBIS.L["Cenarion Expedition (Revered)"] = "塞納里奧遠征隊 (崇敬)";
   LBIS.L["Changing the Wind's Course"] = "改變風的吹向";
@@ -106,11 +106,11 @@ if GetLocale() == "zhTW" then
   LBIS.L["Elder Nadox"] = "那杜斯長老";
   LBIS.L["Elemental"] = "元素材料";
   LBIS.L["Emalon the Storm Watcher"] = "『風暴看守者』艾瑪隆";
---  LBIS.L["Emblem of Conquest"] = "";
---  LBIS.L["Emblem of Frost"] = "";
---  LBIS.L["Emblem of Heroism"] = "";
---  LBIS.L["Emblem of Triumph"] = "";
---  LBIS.L["Emblem of Valor"] = "";
+  LBIS.L["Emblem of Conquest"] = "征服纹章";
+  LBIS.L["Emblem of Frost"] = "冰霜纹章";
+  LBIS.L["Emblem of Heroism"] = "英雄紋章";
+  LBIS.L["Emblem of Triumph"] = "凯旋纹章";
+  LBIS.L["Emblem of Valor"] = "勇氣紋章";
 --  LBIS.L["Emblem Vendor"] = "";
   LBIS.L["Enchants"] = "附魔";
   LBIS.L["Engineering"] = "工程學";
@@ -161,7 +161,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Gundrak (Normal)"] = "剛德拉克 (一般)";
 --  LBIS.L["Gunship Battle"] = "";
   LBIS.L["Hadronox"] = "哈卓諾克斯";
---  LBIS.L["Hallow's End"] = "";
+  LBIS.L["Hallow's End"] = "萬鬼節";
   LBIS.L["Halls of Lightning (Heroic)"] = "雷光大廳 (英雄)";
   LBIS.L["Halls of Lightning (Heroic+)"] = "雷光大廳 (英雄+)";
   LBIS.L["Halls of Lightning (Heroic++)"] = "雷光大廳 (英雄++)";
@@ -189,9 +189,9 @@ if GetLocale() == "zhTW" then
   LBIS.L["Icecrown"] = "寒冰皇冠";
   LBIS.L["Icecrown Citadel"] = "冰冠城塞";
   LBIS.L["Icecrown Citadel (10)"] = "冰冠城塞 (10)";
---  LBIS.L["Icecrown Citadel (10H)"] = "冰冠城塞";
+  LBIS.L["Icecrown Citadel (10H)"] = "冰冠城塞 (10H)";
   LBIS.L["Icecrown Citadel (25)"] = "冰冠城塞 (25)";
---  LBIS.L["Icecrown Citadel (25H)"] = "冰冠城塞";
+  LBIS.L["Icecrown Citadel (25H)"] = "冰冠城塞 (25H)";
   LBIS.L["Ichoron"] = "艾克膿";
   LBIS.L["Ignis the Furnace Master"] = "『火爐之主』伊格尼司";
   LBIS.L["Infinite Corruptor"] = "恆龍墮落者";
@@ -408,7 +408,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
   LBIS.L["Tirion's Gambit"] = "提里奧的決斷";
---  LBIS.L["Token"] = "";
+  LBIS.L["Token"] = "代幣";
   LBIS.L["Toravon the Ice Watcher"] = "『寒冰看守者』拓拉梵";
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";

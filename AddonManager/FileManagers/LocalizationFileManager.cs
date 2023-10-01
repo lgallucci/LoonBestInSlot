@@ -428,36 +428,53 @@ public static class LocalizationFileManager
             localizations = new Dictionary<string, string>();
         }
         var alcPath = $@"{Constants.LocalizationPath}\AtlasLootClassic\";
+        var alcPath2 = $@"{Constants.LocalizationPath}\AtlasLootClassic_Collections\";
         switch (language)
         {
             case "esES":
                 alcPath += "constants.es.lua";
+                alcPath2 += "constants.es.lua";
                 break;
             case "esMX":
                 alcPath += "constants.mx.lua";
+                alcPath2 += "constants.mx.lua";
                 break;
             case "deDE":
                 alcPath += "constants.de.lua";
+                alcPath2 += "constants.de.lua";
                 break;
             case "frFR":
                 alcPath += "constants.fr.lua";
+                alcPath2 += "constants.fr.lua";
                 break;
             case "ruRU":
                 alcPath += "constants.ru.lua";
+                alcPath2 += "constants.ru.lua";
                 break;
             case "zhCN":
                 alcPath += "constants.cn.lua";
+                alcPath2 += "constants.cn.lua";
                 break;
             case "koKR":
                 alcPath += "constants.kr.lua";
+                alcPath2 += "constants.kr.lua";
                 break;
             case "zhTW":
                 alcPath += "constants.tw.lua";
+                alcPath2 += "constants.tw.lua";
                 break;
         }
 
         string[] itemSources = System.IO.File.ReadAllLines(alcPath);
         foreach (var line in itemSources)
+        {
+            if (!line.StartsWith("AL["))
+                continue;
+
+            AddStringToLocalization(ref localizations, line, 3);
+        }
+        string[] itemSources2 = System.IO.File.ReadAllLines(alcPath2);
+        foreach (var line in itemSources2)
         {
             if (!line.StartsWith("AL["))
                 continue;

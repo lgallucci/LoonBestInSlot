@@ -161,7 +161,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Gundrak (Normal)"] = "Gundrak (Normal)";
 --  LBIS.L["Gunship Battle"] = "";
   LBIS.L["Hadronox"] = "Hadronox";
---  LBIS.L["Hallow's End"] = "";
+  LBIS.L["Hallow's End"] = "Schlotternächte";
   LBIS.L["Halls of Lightning (Heroic)"] = "Hallen der Blitze (Heroisch)";
   LBIS.L["Halls of Lightning (Heroic+)"] = "Hallen der Blitze (Heroisch+)";
   LBIS.L["Halls of Lightning (Heroic++)"] = "Hallen der Blitze (Heroisch++)";

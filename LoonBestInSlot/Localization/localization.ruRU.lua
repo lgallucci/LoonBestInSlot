@@ -56,7 +56,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Blood"] = "Кровь";
   LBIS.L["Blood-Queen Lana'thel"] = "Кровавая королева Лана'тель";
   LBIS.L["Borean Tundra"] = "Борейская тундра";
---  LBIS.L["Brewfest"] = "";
+  LBIS.L["Brewfest"] = "Хмельной фестиваль";
 --  LBIS.L["Cat"] = "";
   LBIS.L["Cenarion Expedition (Revered)"] = "Кенарийская экспедиция (Почтение)";
   LBIS.L["Changing the Wind's Course"] = "Чтобы ветер переменился";
@@ -71,7 +71,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Commander Kolurg"] = "Командир Колург";
   LBIS.L["Commander Stoutbeard"] = "Командир Пивобород";
 --  LBIS.L["Conqueror's Mark"] = "";
---  LBIS.L["Conqueror's Mark (H)"] = "";
+--  LBIS.L["Conqueror's Mark (H)"] = " (Гер)";
   LBIS.L["Coren Direbrew"] = "Корен Худовар";
   LBIS.L["Custom"] = "Вручную";
   LBIS.L["Cyanigosa"] = "Синигоса";
@@ -106,11 +106,11 @@ if GetLocale() == "ruRU" then
   LBIS.L["Elder Nadox"] = "Старейшина Надокс";
   LBIS.L["Elemental"] = "Стихии";
   LBIS.L["Emalon the Storm Watcher"] = "Эмалон Страж Бури";
---  LBIS.L["Emblem of Conquest"] = "";
---  LBIS.L["Emblem of Frost"] = "";
---  LBIS.L["Emblem of Heroism"] = "";
---  LBIS.L["Emblem of Triumph"] = "";
---  LBIS.L["Emblem of Valor"] = "";
+  LBIS.L["Emblem of Conquest"] = "Эмблема завоевания";
+  LBIS.L["Emblem of Frost"] = "Эмблема Льда";
+  LBIS.L["Emblem of Heroism"] = "Эмблема героизма";
+  LBIS.L["Emblem of Triumph"] = "Эмблема триумфа";
+  LBIS.L["Emblem of Valor"] = "Эмблема доблести";
 --  LBIS.L["Emblem Vendor"] = "";
   LBIS.L["Enchants"] = "Чары на оружии";
   LBIS.L["Engineering"] = "Инженерное дело";
@@ -161,7 +161,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Gundrak (Normal)"] = "Гундрак (Обычный)";
 --  LBIS.L["Gunship Battle"] = "";
   LBIS.L["Hadronox"] = "Хадронокс";
---  LBIS.L["Hallow's End"] = "";
+  LBIS.L["Hallow's End"] = "Тыквовин";
   LBIS.L["Halls of Lightning (Heroic)"] = "Чертоги Молний (Героический)";
   LBIS.L["Halls of Lightning (Heroic+)"] = "Чертоги Молний (Героический+)";
   LBIS.L["Halls of Lightning (Heroic++)"] = "Чертоги Молний (Героический++)";
@@ -189,9 +189,9 @@ if GetLocale() == "ruRU" then
   LBIS.L["Icecrown"] = "Ледяная Корона";
   LBIS.L["Icecrown Citadel"] = "Цитадель Ледяной Короны";
   LBIS.L["Icecrown Citadel (10)"] = "Цитадель Ледяной Короны (10)";
---  LBIS.L["Icecrown Citadel (10H)"] = "Цитадель Ледяной Короны";
+  LBIS.L["Icecrown Citadel (10H)"] = "Цитадель Ледяной Короны (10 Гер )";
   LBIS.L["Icecrown Citadel (25)"] = "Цитадель Ледяной Короны (25)";
---  LBIS.L["Icecrown Citadel (25H)"] = "Цитадель Ледяной Короны";
+  LBIS.L["Icecrown Citadel (25H)"] = "Цитадель Ледяной Короны (25 Гер)";
   LBIS.L["Ichoron"] = "Гнойрон";
   LBIS.L["Ignis the Furnace Master"] = "Повелитель Горнов Игнис";
   LBIS.L["Infinite Corruptor"] = "Осквернитель из рода Бесконечности";
@@ -296,7 +296,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Professor Putricide"] = "Профессор Мерзоцид";
   LBIS.L["Protection"] = "Защита";
 --  LBIS.L["Protector's Mark"] = "";
---  LBIS.L["Protector's Mark (H)"] = "";
+--  LBIS.L["Protector's Mark (H)"] = " (Гер)";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
   LBIS.L["PvP"] = "PvP";
 --  LBIS.L["PvP Vendor"] = "";
@@ -408,7 +408,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
   LBIS.L["Tirion's Gambit"] = "Уловка Тириона";
---  LBIS.L["Token"] = "";
+  LBIS.L["Token"] = "Фрагмент";
   LBIS.L["Toravon the Ice Watcher"] = "Торавон Страж Льда";
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
@@ -445,7 +445,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Valkyrion Must Burn"] = "Гори, Валькирион, гори";
 --  LBIS.L["Vanessa Sellers"] = "";
 --  LBIS.L["Vanquisher's Mark"] = "";
---  LBIS.L["Vanquisher's Mark (H)"] = "";
+--  LBIS.L["Vanquisher's Mark (H)"] = " (Гер)";
 --  LBIS.L["Various Bosses"] = "";
   LBIS.L["Varos Cloudstrider"] = "Варос Заоблачный Странник";
   LBIS.L["Vault of Archavon (10)"] = "Хранилище Аркавона (10)";

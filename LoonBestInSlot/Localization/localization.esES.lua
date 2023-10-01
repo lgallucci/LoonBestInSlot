@@ -161,7 +161,7 @@ if GetLocale() == "esES" then
   LBIS.L["Gundrak (Normal)"] = "Gundrak (Normal)";
 --  LBIS.L["Gunship Battle"] = "";
   LBIS.L["Hadronox"] = "Hadronox";
---  LBIS.L["Hallow's End"] = "";
+  LBIS.L["Hallow's End"] = "Halloween";
   LBIS.L["Halls of Lightning (Heroic)"] = "Cámaras de Relámpagos (Heroico)";
   LBIS.L["Halls of Lightning (Heroic+)"] = "Cámaras de Relámpagos (Heroico+)";
   LBIS.L["Halls of Lightning (Heroic++)"] = "Cámaras de Relámpagos (Heroico++)";

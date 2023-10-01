@@ -107,9 +107,9 @@ if GetLocale() == "koKR" then
   LBIS.L["Elemental"] = "정기";
   LBIS.L["Emalon the Storm Watcher"] = "폭풍 감시자 에말론";
   LBIS.L["Emblem of Conquest"] = "정복의 문장";
---  LBIS.L["Emblem of Frost"] = "";
+  LBIS.L["Emblem of Frost"] = "서리의 문장";
   LBIS.L["Emblem of Heroism"] = "무용의 문장";
---  LBIS.L["Emblem of Triumph"] = "";
+  LBIS.L["Emblem of Triumph"] = "승전의 문장";
   LBIS.L["Emblem of Valor"] = "용맹의 문장";
   LBIS.L["Emblem Vendor"] = "문장 상인";
   LBIS.L["Enchants"] = "마법 부여";

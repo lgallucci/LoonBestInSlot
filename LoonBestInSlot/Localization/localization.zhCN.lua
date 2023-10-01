@@ -56,7 +56,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Blood"] = "鲜血";
   LBIS.L["Blood-Queen Lana'thel"] = "鲜血女王兰娜瑟尔";
   LBIS.L["Borean Tundra"] = "北风苔原";
---  LBIS.L["Brewfest"] = "";
+  LBIS.L["Brewfest"] = "美酒节";
 --  LBIS.L["Cat"] = "";
   LBIS.L["Cenarion Expedition (Revered)"] = "塞纳里奥远征队 (崇敬)";
   LBIS.L["Changing the Wind's Course"] = "改变风向";
@@ -71,7 +71,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Commander Kolurg"] = "指挥官库鲁尔格";
   LBIS.L["Commander Stoutbeard"] = "指挥官斯托比德";
 --  LBIS.L["Conqueror's Mark"] = "";
---  LBIS.L["Conqueror's Mark (H)"] = "";
+--  LBIS.L["Conqueror's Mark (H)"] = " (英雄)";
   LBIS.L["Coren Direbrew"] = "科林·烈酒";
   LBIS.L["Custom"] = "自定义";
   LBIS.L["Cyanigosa"] = "塞安妮苟萨";
@@ -106,11 +106,11 @@ if GetLocale() == "zhCN" then
   LBIS.L["Elder Nadox"] = "纳多克斯长老";
   LBIS.L["Elemental"] = "元素";
   LBIS.L["Emalon the Storm Watcher"] = "风暴看守者埃玛尔隆";
---  LBIS.L["Emblem of Conquest"] = "";
---  LBIS.L["Emblem of Frost"] = "";
---  LBIS.L["Emblem of Heroism"] = "";
---  LBIS.L["Emblem of Triumph"] = "";
---  LBIS.L["Emblem of Valor"] = "";
+  LBIS.L["Emblem of Conquest"] = "征服纹章";
+  LBIS.L["Emblem of Frost"] = "寒冰纹章";
+  LBIS.L["Emblem of Heroism"] = "英雄纹章";
+  LBIS.L["Emblem of Triumph"] = "凯旋纹章";
+  LBIS.L["Emblem of Valor"] = "勇气纹章";
 --  LBIS.L["Emblem Vendor"] = "";
   LBIS.L["Enchants"] = "附魔";
   LBIS.L["Engineering"] = "工程学";
@@ -161,7 +161,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Gundrak (Normal)"] = "古达克 (一般)";
 --  LBIS.L["Gunship Battle"] = "";
   LBIS.L["Hadronox"] = "哈多诺克斯";
---  LBIS.L["Hallow's End"] = "";
+  LBIS.L["Hallow's End"] = "万圣节";
   LBIS.L["Halls of Lightning (Heroic)"] = "闪电大厅 (英雄)";
   LBIS.L["Halls of Lightning (Heroic+)"] = "闪电大厅 (英雄+)";
   LBIS.L["Halls of Lightning (Heroic++)"] = "闪电大厅 (英雄++)";
@@ -189,9 +189,9 @@ if GetLocale() == "zhCN" then
   LBIS.L["Icecrown"] = "冰冠冰川";
   LBIS.L["Icecrown Citadel"] = "冰冠堡垒";
   LBIS.L["Icecrown Citadel (10)"] = "冰冠堡垒 (10)";
---  LBIS.L["Icecrown Citadel (10H)"] = "冰冠堡垒";
+  LBIS.L["Icecrown Citadel (10H)"] = "冰冠堡垒 (10人英雄)";
   LBIS.L["Icecrown Citadel (25)"] = "冰冠堡垒 (25)";
---  LBIS.L["Icecrown Citadel (25H)"] = "冰冠堡垒";
+  LBIS.L["Icecrown Citadel (25H)"] = "冰冠堡垒 (25人英雄)";
   LBIS.L["Ichoron"] = "艾库隆";
   LBIS.L["Ignis the Furnace Master"] = "掌炉者伊格尼斯";
   LBIS.L["Infinite Corruptor"] = "永恒腐蚀者";
@@ -296,7 +296,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Professor Putricide"] = "普崔塞德教授";
   LBIS.L["Protection"] = "防护";
 --  LBIS.L["Protector's Mark"] = "";
---  LBIS.L["Protector's Mark (H)"] = "";
+--  LBIS.L["Protector's Mark (H)"] = " (英雄)";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
   LBIS.L["PvP"] = "PvP";
 --  LBIS.L["PvP Vendor"] = "";
@@ -408,7 +408,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Timothy Jones"] = "";
 --  LBIS.L["Tiny Titanium Lockbox"] = "";
   LBIS.L["Tirion's Gambit"] = "提里奥的尝试";
---  LBIS.L["Token"] = "";
+  LBIS.L["Token"] = "代币";
   LBIS.L["Toravon the Ice Watcher"] = "寒冰看守者图拉旺";
 --  LBIS.L["Transmute"] = "";
 --  LBIS.L["Trash Drop"] = "";
@@ -445,7 +445,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Valkyrion Must Burn"] = "燃烧吧，瓦基里安";
 --  LBIS.L["Vanessa Sellers"] = "";
 --  LBIS.L["Vanquisher's Mark"] = "";
---  LBIS.L["Vanquisher's Mark (H)"] = "";
+--  LBIS.L["Vanquisher's Mark (H)"] = " (英雄)";
 --  LBIS.L["Various Bosses"] = "";
   LBIS.L["Varos Cloudstrider"] = "瓦尔洛斯·云击";
   LBIS.L["Vault of Archavon (10)"] = "阿尔卡冯的宝库 (10)";
