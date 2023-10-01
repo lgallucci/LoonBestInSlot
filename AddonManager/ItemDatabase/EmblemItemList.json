@@ -7751,6 +7751,1326 @@
       "SourceNumber": "1",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
+    },
+    "50078": {
+      "Name": "Ymirjar Lord's Battleplate",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50079": {
+      "Name": "Ymirjar Lord's Gauntlets",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50080": {
+      "Name": "Ymirjar Lord's Helmet",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50081": {
+      "Name": "Ymirjar Lord's Legplates",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50082": {
+      "Name": "Ymirjar Lord's Shoulderplates",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50087": {
+      "Name": "Shadowblade Breastplate",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50088": {
+      "Name": "Shadowblade Gauntlets",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50089": {
+      "Name": "Shadowblade Helmet",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50090": {
+      "Name": "Shadowblade Legplates",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50094": {
+      "Name": "Scourgelord Battleplate",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50095": {
+      "Name": "Scourgelord Gauntlets",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50096": {
+      "Name": "Scourgelord Helmet",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50097": {
+      "Name": "Scourgelord Legplates",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50098": {
+      "Name": "Scourgelord Shoulderplates",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50105": {
+      "Name": "Shadowblade Pauldrons",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50240": {
+      "Name": "Dark Coven Gloves",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50241": {
+      "Name": "Dark Coven Hood",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50242": {
+      "Name": "Dark Coven Leggings",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50243": {
+      "Name": "Dark Coven Robe",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50244": {
+      "Name": "Dark Coven Shoulderpads",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50324": {
+      "Name": "Lightsworn Shoulderplates",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50325": {
+      "Name": "Lightsworn Legplates",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50326": {
+      "Name": "Lightsworn Helmet",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50327": {
+      "Name": "Lightsworn Gauntlets",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50328": {
+      "Name": "Lightsworn Battleplate",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50391": {
+      "Name": "Crimson Acolyte Handwraps",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50392": {
+      "Name": "Crimson Acolyte Cowl",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50393": {
+      "Name": "Crimson Acolyte Pants",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50394": {
+      "Name": "Crimson Acolyte Raiments",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50396": {
+      "Name": "Crimson Acolyte Mantle",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50765": {
+      "Name": "Crimson Acolyte Hood",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50766": {
+      "Name": "Crimson Acolyte Gloves",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50767": {
+      "Name": "Crimson Acolyte Shoulderpads",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50768": {
+      "Name": "Crimson Acolyte Robe",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50769": {
+      "Name": "Crimson Acolyte Leggings",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50846": {
+      "Name": "Ymirjar Lord's Pauldrons",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50847": {
+      "Name": "Ymirjar Lord's Legguards",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50848": {
+      "Name": "Ymirjar Lord's Greathelm",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50849": {
+      "Name": "Ymirjar Lord's Handguards",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50850": {
+      "Name": "Ymirjar Lord's Breastplate",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50853": {
+      "Name": "Scourgelord Pauldrons",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50854": {
+      "Name": "Scourgelord Legguards",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50855": {
+      "Name": "Scourgelord Faceguard",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50856": {
+      "Name": "Scourgelord Handguards",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50857": {
+      "Name": "Scourgelord Chestguard",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50860": {
+      "Name": "Lightsworn Shoulderguards",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50861": {
+      "Name": "Lightsworn Legguards",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50862": {
+      "Name": "Lightsworn Faceguard",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50863": {
+      "Name": "Lightsworn Handguards",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50864": {
+      "Name": "Lightsworn Chestguard",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50865": {
+      "Name": "Lightsworn Spaulders",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50866": {
+      "Name": "Lightsworn Greaves",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50867": {
+      "Name": "Lightsworn Headpiece",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50868": {
+      "Name": "Lightsworn Gloves",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50869": {
+      "Name": "Lightsworn Tunic",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51125": {
+      "Name": "Sanctified Scourgelord Shoulderplates",
+      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51126": {
+      "Name": "Sanctified Scourgelord Legplates",
+      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51127": {
+      "Name": "Sanctified Scourgelord Helmet",
+      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51128": {
+      "Name": "Sanctified Scourgelord Gauntlets",
+      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51129": {
+      "Name": "Sanctified Scourgelord Battleplate",
+      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51130": {
+      "Name": "Sanctified Scourgelord Pauldrons",
+      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51131": {
+      "Name": "Sanctified Scourgelord Legguards",
+      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51132": {
+      "Name": "Sanctified Scourgelord Handguards",
+      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51133": {
+      "Name": "Sanctified Scourgelord Faceguard",
+      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51134": {
+      "Name": "Sanctified Scourgelord Chestguard",
+      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51160": {
+      "Name": "Sanctified Lightsworn Shoulderplates",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51161": {
+      "Name": "Sanctified Lightsworn Legplates",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51162": {
+      "Name": "Sanctified Lightsworn Helmet",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51163": {
+      "Name": "Sanctified Lightsworn Gauntlets",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51164": {
+      "Name": "Sanctified Lightsworn Battleplate",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51165": {
+      "Name": "Sanctified Lightsworn Tunic",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51166": {
+      "Name": "Sanctified Lightsworn Spaulders",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51167": {
+      "Name": "Sanctified Lightsworn Headpiece",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51168": {
+      "Name": "Sanctified Lightsworn Greaves",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51169": {
+      "Name": "Sanctified Lightsworn Gloves",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51170": {
+      "Name": "Sanctified Lightsworn Shoulderguards",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51171": {
+      "Name": "Sanctified Lightsworn Legguards",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51172": {
+      "Name": "Sanctified Lightsworn Handguards",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51173": {
+      "Name": "Sanctified Lightsworn Faceguard",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51174": {
+      "Name": "Sanctified Lightsworn Chestguard",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51175": {
+      "Name": "Sanctified Crimson Acolyte Shoulderpads",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51176": {
+      "Name": "Sanctified Crimson Acolyte Robe",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51177": {
+      "Name": "Sanctified Crimson Acolyte Leggings",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51178": {
+      "Name": "Sanctified Crimson Acolyte Hood",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51179": {
+      "Name": "Sanctified Crimson Acolyte Gloves",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51180": {
+      "Name": "Sanctified Crimson Acolyte Raiments",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51181": {
+      "Name": "Sanctified Crimson Acolyte Pants",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51182": {
+      "Name": "Sanctified Crimson Acolyte Mantle",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51183": {
+      "Name": "Sanctified Crimson Acolyte Handwraps",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51184": {
+      "Name": "Sanctified Crimson Acolyte Cowl",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51185": {
+      "Name": "Sanctified Shadowblade Pauldrons",
+      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51186": {
+      "Name": "Sanctified Shadowblade Legplates",
+      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51187": {
+      "Name": "Sanctified Shadowblade Helmet",
+      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51188": {
+      "Name": "Sanctified Shadowblade Gauntlets",
+      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51189": {
+      "Name": "Sanctified Shadowblade Breastplate",
+      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51205": {
+      "Name": "Sanctified Dark Coven Shoulderpads",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51206": {
+      "Name": "Sanctified Dark Coven Robe",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51207": {
+      "Name": "Sanctified Dark Coven Leggings",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51208": {
+      "Name": "Sanctified Dark Coven Hood",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51209": {
+      "Name": "Sanctified Dark Coven Gloves",
+      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51210": {
+      "Name": "Sanctified Ymirjar Lord's Shoulderplates",
+      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51211": {
+      "Name": "Sanctified Ymirjar Lord's Legplates",
+      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51212": {
+      "Name": "Sanctified Ymirjar Lord's Helmet",
+      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51213": {
+      "Name": "Sanctified Ymirjar Lord's Gauntlets",
+      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51214": {
+      "Name": "Sanctified Ymirjar Lord's Battleplate",
+      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51215": {
+      "Name": "Sanctified Ymirjar Lord's Pauldrons",
+      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51216": {
+      "Name": "Sanctified Ymirjar Lord's Legguards",
+      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51217": {
+      "Name": "Sanctified Ymirjar Lord's Handguards",
+      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51218": {
+      "Name": "Sanctified Ymirjar Lord's Greathelm",
+      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51219": {
+      "Name": "Sanctified Ymirjar Lord's Breastplate",
+      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51220": {
+      "Name": "Sanctified Ymirjar Lord's Breastplate",
+      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51221": {
+      "Name": "Sanctified Ymirjar Lord's Greathelm",
+      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51222": {
+      "Name": "Sanctified Ymirjar Lord's Handguards",
+      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51223": {
+      "Name": "Sanctified Ymirjar Lord's Legguards",
+      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51224": {
+      "Name": "Sanctified Ymirjar Lord's Pauldrons",
+      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51225": {
+      "Name": "Sanctified Ymirjar Lord's Battleplate",
+      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51226": {
+      "Name": "Sanctified Ymirjar Lord's Gauntlets",
+      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51227": {
+      "Name": "Sanctified Ymirjar Lord's Helmet",
+      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51228": {
+      "Name": "Sanctified Ymirjar Lord's Legplates",
+      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51229": {
+      "Name": "Sanctified Ymirjar Lord's Shoulderplates",
+      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51230": {
+      "Name": "Sanctified Dark Coven Gloves",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51231": {
+      "Name": "Sanctified Dark Coven Hood",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51232": {
+      "Name": "Sanctified Dark Coven Leggings",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51233": {
+      "Name": "Sanctified Dark Coven Robe",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51234": {
+      "Name": "Sanctified Dark Coven Shoulderpads",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51250": {
+      "Name": "Sanctified Shadowblade Breastplate",
+      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51251": {
+      "Name": "Sanctified Shadowblade Gauntlets",
+      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51252": {
+      "Name": "Sanctified Shadowblade Helmet",
+      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51253": {
+      "Name": "Sanctified Shadowblade Legplates",
+      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51254": {
+      "Name": "Sanctified Shadowblade Pauldrons",
+      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51255": {
+      "Name": "Sanctified Crimson Acolyte Cowl",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51256": {
+      "Name": "Sanctified Crimson Acolyte Handwraps",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51257": {
+      "Name": "Sanctified Crimson Acolyte Mantle",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51258": {
+      "Name": "Sanctified Crimson Acolyte Pants",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51259": {
+      "Name": "Sanctified Crimson Acolyte Raiments",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51260": {
+      "Name": "Sanctified Crimson Acolyte Gloves",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51261": {
+      "Name": "Sanctified Crimson Acolyte Hood",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51262": {
+      "Name": "Sanctified Crimson Acolyte Leggings",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51263": {
+      "Name": "Sanctified Crimson Acolyte Robe",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51264": {
+      "Name": "Sanctified Crimson Acolyte Shoulderpads",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51265": {
+      "Name": "Sanctified Lightsworn Chestguard",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51266": {
+      "Name": "Sanctified Lightsworn Faceguard",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51267": {
+      "Name": "Sanctified Lightsworn Handguards",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51268": {
+      "Name": "Sanctified Lightsworn Legguards",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51269": {
+      "Name": "Sanctified Lightsworn Shoulderguards",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51270": {
+      "Name": "Sanctified Lightsworn Gloves",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51271": {
+      "Name": "Sanctified Lightsworn Greaves",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51272": {
+      "Name": "Sanctified Lightsworn Headpiece",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51273": {
+      "Name": "Sanctified Lightsworn Spaulders",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51274": {
+      "Name": "Sanctified Lightsworn Tunic",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51275": {
+      "Name": "Sanctified Lightsworn Battleplate",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51276": {
+      "Name": "Sanctified Lightsworn Gauntlets",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51277": {
+      "Name": "Sanctified Lightsworn Helmet",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51278": {
+      "Name": "Sanctified Lightsworn Legplates",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51279": {
+      "Name": "Sanctified Lightsworn Shoulderplates",
+      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51305": {
+      "Name": "Sanctified Scourgelord Chestguard",
+      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51306": {
+      "Name": "Sanctified Scourgelord Faceguard",
+      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51307": {
+      "Name": "Sanctified Scourgelord Handguards",
+      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51308": {
+      "Name": "Sanctified Scourgelord Legguards",
+      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51309": {
+      "Name": "Sanctified Scourgelord Pauldrons",
+      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51310": {
+      "Name": "Sanctified Scourgelord Battleplate",
+      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51311": {
+      "Name": "Sanctified Scourgelord Gauntlets",
+      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51312": {
+      "Name": "Sanctified Scourgelord Helmet",
+      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51313": {
+      "Name": "Sanctified Scourgelord Legplates",
+      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "51314": {
+      "Name": "Sanctified Scourgelord Shoulderplates",
+      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
     }
   }
 }

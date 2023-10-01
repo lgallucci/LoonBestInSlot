@@ -19079,54 +19079,7 @@
             "SourceNumber": "0",
             "SourceLocation": "Icecrown Citadel (10H)",
             "SourceFaction": "B"
-        },
-        "52025": {
-            "Name": "Vanquisher's Mark of Sanctification",
-            "Source": "Various Bosses",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Icecrown Citadel",
-            "SourceFaction": "B"
-        },
-        "52026": {
-            "Name": "Protector's Mark of Sanctification",
-            "Source": "Various Bosses",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Icecrown Citadel",
-            "SourceFaction": "B"
-        },
-        "52027": {
-            "Name": "Conqueror's Mark of Sanctification",
-            "Source": "Various Bosses",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Icecrown Citadel",
-            "SourceFaction": "B"
-        },
-        "52028": {
-            "Name": "Vanquisher's Mark of Sanctification",
-            "Source": "Various Bosses",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Icecrown Citadel (25H)",
-            "SourceFaction": "B"
-        },
-        "52029": {
-            "Name": "Protector's Mark of Sanctification",
-            "Source": "Various Bosses",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Icecrown Citadel (25H)",
-            "SourceFaction": "B"
-        },
-        "52030": {
-            "Name": "Conqueror's Mark of Sanctification",
-            "Source": "Various Bosses",
-            "SourceType": "Drop",
-            "SourceNumber": "0",
-            "SourceLocation": "Icecrown Citadel (25H)",
-            "SourceFaction": "B"
         }
+        
     }
-    }
+}

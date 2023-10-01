@@ -9,62 +9,59 @@ public class EmblemImporter : LootImporter
 {
     private List<string> wowheadUriList = new List<string>
     {
-        @"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne",
-        @"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne#sells;50",
-        @"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne#sells;100",
-        @"https://www.wowhead.com/wotlk/npc=31582/magistrix-lambriesse",
-        @"https://www.wowhead.com/wotlk/npc=31582/magistrix-lambriesse#sells;50",
-        @"https://www.wowhead.com/wotlk/npc=31582/magistrix-lambriesse#sells;100",
-        @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin",
-        @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;50",
-        @"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;100",
-        @"https://www.wowhead.com/wotlk/npc=31581/magister-brasael",
-        @"https://www.wowhead.com/wotlk/npc=31581/magister-brasael#sells;50",
-        @"https://www.wowhead.com/wotlk/npc=31581/magister-brasael#sells;100",
-        @"https://www.wowhead.com/wotlk/npc=33964/arcanist-firael",
-        @"https://www.wowhead.com/wotlk/npc=33964/arcanist-firael#sells;50",
-        @"https://www.wowhead.com/wotlk/npc=33964/arcanist-firael#sells;100",
-        @"https://www.wowhead.com/wotlk/npc=33963/magister-sarien",
-        @"https://www.wowhead.com/wotlk/npc=33963/magister-sarien#sells;50",
-        @"https://www.wowhead.com/wotlk/npc=33963/magister-sarien#sells;100",
-        @"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina",
-        @"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina#sells;50",
-        @"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina#sells;100",
-        @"https://www.wowhead.com/wotlk/npc=35579/aspirant-forudir",
-        @"https://www.wowhead.com/wotlk/npc=35579/aspirant-forudir#sells;50",//TODO: More ?
-        @"https://www.wowhead.com/wotlk/npc=35577/valiant-laradia",
-        @"https://www.wowhead.com/wotlk/npc=35577/valiant-laradia#sells;50",//TODO: More ?
-        @"https://www.wowhead.com/wotlk/npc=35580/aspirant-naradiel",
-        @"https://www.wowhead.com/wotlk/npc=35580/aspirant-naradiel#sells;50",//TODO: More ?
-        @"https://www.wowhead.com/wotlk/npc=35578/valiant-bressia",
-        @"https://www.wowhead.com/wotlk/npc=35578/valiant-bressia#sells;50",//TODO: More ?
-        @"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia",
-        @"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia#sells;50",
-        @"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia#sells;100",
-        @"https://www.wowhead.com/wotlk/npc=207128/animated-constellation",
-        @"https://www.wowhead.com/wotlk/npc=207128/animated-constellation#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=28995/paldesse#sells",
-        //@"https://www.wowhead.com/wotlk/npc=28995/paldesse#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=28995/paldesse#sells;100",
-        //@"https://www.wowhead.com/wotlk/npc=35498/horace-hunderland",
-        //@"https://www.wowhead.com/wotlk/npc=35498/horace-hunderland#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=35498/horace-hunderland#sells;100",
-        //@"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink",
-        //@"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink#sells;100",
-        //@"https://www.wowhead.com/wotlk/npc=35497/rafael-langrom",
-        //@"https://www.wowhead.com/wotlk/npc=35497/rafael-langrom#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=35497/rafael-langrom#sells;100",
-        //@"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink",
-        //@"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink#sells;100"
+        //@"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne",
+        //@"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne#sells;50",
+        //@"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne#sells;100",
+        //@"https://www.wowhead.com/wotlk/npc=31582/magistrix-lambriesse",
+        //@"https://www.wowhead.com/wotlk/npc=31582/magistrix-lambriesse#sells;50",
+        //@"https://www.wowhead.com/wotlk/npc=31582/magistrix-lambriesse#sells;100",
+        //@"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin",
+        //@"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;50",
+        //@"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;100",
+        //@"https://www.wowhead.com/wotlk/npc=31581/magister-brasael",
+        //@"https://www.wowhead.com/wotlk/npc=31581/magister-brasael#sells;50",
+        //@"https://www.wowhead.com/wotlk/npc=31581/magister-brasael#sells;100",
+        //@"https://www.wowhead.com/wotlk/npc=33964/arcanist-firael",
+        //@"https://www.wowhead.com/wotlk/npc=33964/arcanist-firael#sells;50",
+        //@"https://www.wowhead.com/wotlk/npc=33964/arcanist-firael#sells;100",
+        //@"https://www.wowhead.com/wotlk/npc=33963/magister-sarien",
+        //@"https://www.wowhead.com/wotlk/npc=33963/magister-sarien#sells;50",
+        //@"https://www.wowhead.com/wotlk/npc=33963/magister-sarien#sells;100",
+        //@"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina",
+        //@"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina#sells;50",
+        //@"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina#sells;100",
+        //@"https://www.wowhead.com/wotlk/npc=35579/aspirant-forudir",
+        //@"https://www.wowhead.com/wotlk/npc=35579/aspirant-forudir#sells;50",//TODO: More ?
+        //@"https://www.wowhead.com/wotlk/npc=35577/valiant-laradia",
+        //@"https://www.wowhead.com/wotlk/npc=35577/valiant-laradia#sells;50",//TODO: More ?
+        //@"https://www.wowhead.com/wotlk/npc=35580/aspirant-naradiel",
+        //@"https://www.wowhead.com/wotlk/npc=35580/aspirant-naradiel#sells;50",//TODO: More ?
+        //@"https://www.wowhead.com/wotlk/npc=35578/valiant-bressia",
+        //@"https://www.wowhead.com/wotlk/npc=35578/valiant-bressia#sells;50",//TODO: More ?
+        //@"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia",
+        //@"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia#sells;50",
+        //@"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia#sells;100",
+        //@"https://www.wowhead.com/wotlk/npc=207128/animated-constellation",
+        //@"https://www.wowhead.com/wotlk/npc=207128/animated-constellation#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren",
+        @"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren#sells;100",
+        @"https://www.wowhead.com/wotlk/npc=35498/horace-hunderland",
+        @"https://www.wowhead.com/wotlk/npc=35498/horace-hunderland#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35498/horace-hunderland#sells;100",
+        @"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink",
+        @"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink#sells;100",
+        @"https://www.wowhead.com/wotlk/npc=35497/rafael-langrom",
+        @"https://www.wowhead.com/wotlk/npc=35497/rafael-langrom#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=35497/rafael-langrom#sells;100",
     };
 
     internal override string FileName { get => "EmblemItemList"; }
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
-        items.Items.Clear();
+        //items.Items.Clear();
 
         await Common.ReadWowheadSellsList(wowheadUriList, (uri, row, itemId, item) =>
         {
@@ -97,7 +94,13 @@ public class EmblemImporter : LootImporter
                             item == "301" ? "Emblem of Triumph" :
                             item == "341" ? "Emblem of Frost" :
                             item == "2589" ? "Sidereal Essence" :
-                            item == "47242" ? "Trophy" : "unknown";
+                            item == "47242" ? "Trophy" :
+                            item == "52025" ? "Vanquisher's Mark of Sanctification" :
+                            item == "52026" ? "Protector's Mark of Sanctification" :
+                            item == "52027" ? "Conqueror's Mark of Sanctification" :
+                            item == "52028" ? "Vanquisher's Mark of Sanctification (H)" :
+                            item == "52029" ? "Protector's Mark of Sanctification (H)" :
+                            item == "52030" ? "Conqueror's Mark of Sanctification (H)" : "unknown";
 
                         if (string.IsNullOrWhiteSpace(currencySource))
                             currencySource = sourceText;
