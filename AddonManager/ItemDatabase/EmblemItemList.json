@@ -864,6 +864,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "40792": {
+      "Name": "Relentless Gladiator's Scaled Chestpiece",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "40797": {
       "Name": "Savage Gladiator's Plate Gauntlets",
       "Source": "Emblem of Heroism",
@@ -957,6 +965,14 @@
       "Source": "Emblem of Triumph",
       "SourceType": "Dungeon Token",
       "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "40812": {
+      "Name": "Relentless Gladiator's Scaled Gauntlets",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1056,6 +1072,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "40831": {
+      "Name": "Relentless Gladiator's Scaled Helm",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "40836": {
       "Name": "Savage Gladiator's Plate Legguards",
       "Source": "Emblem of Heroism",
@@ -1149,6 +1173,14 @@
       "Source": "Emblem of Triumph",
       "SourceType": "Dungeon Token",
       "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "40852": {
+      "Name": "Relentless Gladiator's Scaled Legguards",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1248,6 +1280,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "40872": {
+      "Name": "Relentless Gladiator's Scaled Shoulders",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "40898": {
       "Name": "Savage Gladiator's Ornamented Chestguard",
       "Source": "Emblem of Heroism",
@@ -1277,6 +1317,14 @@
       "Source": "Emblem of Triumph",
       "SourceType": "Dungeon Token",
       "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "40910": {
+      "Name": "Relentless Gladiator's Ornamented Chestguard",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1312,6 +1360,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "40928": {
+      "Name": "Relentless Gladiator's Ornamented Gloves",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "40930": {
       "Name": "Savage Gladiator's Ornamented Headcover",
       "Source": "Emblem of Heroism",
@@ -1341,6 +1397,14 @@
       "Source": "Emblem of Triumph",
       "SourceType": "Dungeon Token",
       "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "40934": {
+      "Name": "Relentless Gladiator's Ornamented Headcover",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1376,6 +1440,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "40940": {
+      "Name": "Relentless Gladiator's Ornamented Legplates",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "40960": {
       "Name": "Savage Gladiator's Ornamented Spaulders",
       "Source": "Emblem of Heroism",
@@ -1405,6 +1477,14 @@
       "Source": "Emblem of Triumph",
       "SourceType": "Dungeon Token",
       "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "40964": {
+      "Name": "Relentless Gladiator's Ornamented Spaulders",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -3384,6 +3464,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "45133": {
+      "Name": "Pendant of Fiery Havoc",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "45144": {
       "Name": "Sigil of Deflection",
       "Source": "Emblem of Conquest",
@@ -3405,6 +3493,22 @@
       "Source": "Emblem of Conquest",
       "SourceType": "Dungeon Token",
       "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "45242": {
+      "Name": "Drape of Mortal Downfall",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "45243": {
+      "Name": "Sapphire Amulet of Renewal",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -3488,6 +3592,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "45443": {
+      "Name": "Charm of Meticulous Timing",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "45447": {
       "Name": "Watchful Eye of Fate",
       "Source": "Sidereal Essence",
@@ -3528,6 +3640,62 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "45459": {
+      "Name": "Frigid Strength of Hodir",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "45461": {
+      "Name": "Drape of Icy Intent",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "45471": {
+      "Name": "Fate's Clutch",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "45485": {
+      "Name": "Bronze Pendant of the Vanir",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "45486": {
+      "Name": "Drape of the Sullen Goddess",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "45495": {
+      "Name": "Conductive Seal",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "45496": {
+      "Name": "Titanskin Cloak",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "45509": {
       "Name": "Idol of the Corruptor",
       "Source": "Emblem of Conquest",
@@ -3541,6 +3709,46 @@
       "Source": "Emblem of Conquest",
       "SourceType": "Dungeon Token",
       "SourceNumber": "19",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "45517": {
+      "Name": "Pendulum of Infinity",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "45518": {
+      "Name": "Flare of the Heavens",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "45534": {
+      "Name": "Seal of the Betrayed King",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "45535": {
+      "Name": "Show of Faith",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "45609": {
+      "Name": "Comet's Trail",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -4223,6 +4431,974 @@
       "SourceNumber": "19",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
+    },
+    "46958": {
+      "Name": "Steel Bladebreaker",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "46959": {
+      "Name": "Band of the Violent Temperment",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "46961": {
+      "Name": "Boneshatter Armplates",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "46963": {
+      "Name": "Crystal Plated Vanguard",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "46970": {
+      "Name": "Drape of the Untamed Predator",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "46972": {
+      "Name": "Cord of the Tenebrous Mist",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "46976": {
+      "Name": "Shawl of the Refreshing Winds",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "46979": {
+      "Name": "Blade of Tarasque",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "46985": {
+      "Name": "Boots of the Courageous",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "46988": {
+      "Name": "Boots of the Unrelenting Storm",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "46990": {
+      "Name": "Belt of the Ice Burrower",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "46994": {
+      "Name": "Talonstrike",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "76",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "46996": {
+      "Name": "Lionhead Slasher",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "46997": {
+      "Name": "Dawnbreaker Greaves",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "46999": {
+      "Name": "Bloodbath Belt",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47041": {
+      "Name": "Solace of the Defeated",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47042": {
+      "Name": "Pride of the Eredar",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47043": {
+      "Name": "Charge of the Demon Lord",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47053": {
+      "Name": "Symbol of Transgression",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47054": {
+      "Name": "Band of Deplorable Violence",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47055": {
+      "Name": "Bracers of the Autumn Willow",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47056": {
+      "Name": "Bracers of Cloudy Omen",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47069": {
+      "Name": "Justicebringer",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "76",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47070": {
+      "Name": "Ring of Callous Aggression",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47071": {
+      "Name": "Treads of the Icewalker",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47072": {
+      "Name": "Girdle of Bloodied Scars",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47073": {
+      "Name": "Bracers of the Untold Massacre",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47079": {
+      "Name": "Bastion of Purity",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47080": {
+      "Name": "Satrina's Impeding Scarab",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47081": {
+      "Name": "Cord of Biting Cold",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47089": {
+      "Name": "Cloak of Displacement",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47090": {
+      "Name": "Boots of Tremoring Earth",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47092": {
+      "Name": "Boots of the Mourning Widow",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47093": {
+      "Name": "Vambraces of the Broken Bond",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47104": {
+      "Name": "Twin Spike",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47105": {
+      "Name": "The Executioner's Malice",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47106": {
+      "Name": "Sabatons of Ruthless Judgment",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47107": {
+      "Name": "Belt of the Merciless Killer",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47108": {
+      "Name": "Bracers of the Shieldmaiden",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47114": {
+      "Name": "Lupine Longstaff",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "76",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47115": {
+      "Name": "Death's Verdict",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47116": {
+      "Name": "The Arbiter's Muse",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47138": {
+      "Name": "Chalice of Searing Light",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47139": {
+      "Name": "Wail of the Val'kyr",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47140": {
+      "Name": "Cord of Pale Thorns",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47141": {
+      "Name": "Bindings of Dark Essence",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47148": {
+      "Name": "Stormpike Cleaver",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47149": {
+      "Name": "Signet of the Traitor King",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47150": {
+      "Name": "Greaves of the 7th Legion",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47151": {
+      "Name": "Bracers of Dark Determination",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47152": {
+      "Name": "Belt of Deathly Dominion",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47182": {
+      "Name": "Reign of the Unliving",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47183": {
+      "Name": "Strength of the Nerub",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47193": {
+      "Name": "Misery's End",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47194": {
+      "Name": "Footpads of the Icy Floe",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47195": {
+      "Name": "Belt of the Forgotten Martyr",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47203": {
+      "Name": "Armbands of the Ashen Saint",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47223": {
+      "Name": "Ring of the Darkmender",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47225": {
+      "Name": "Maiden's Favor",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47233": {
+      "Name": "Archon Glaive",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "76",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "A"
+    },
+    "47242": {
+      "Name": "Trophy of the Crusade",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "47252": {
+      "Name": "Ring of the Violent Temperament",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47253": {
+      "Name": "Boneshatter Vambraces",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47255": {
+      "Name": "Stygian Bladebreaker",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47256": {
+      "Name": "Drape of the Refreshing Winds",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47257": {
+      "Name": "Cloak of the Untamed Predator",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47258": {
+      "Name": "Belt of the Tenebrous Mist",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47260": {
+      "Name": "Forlorn Barrier",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47261": {
+      "Name": "Barb of Tarasque",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47262": {
+      "Name": "Boots of the Harsh Winter",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47263": {
+      "Name": "Sabatons of the Courageous",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47265": {
+      "Name": "Binding of the Ice Burrower",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47266": {
+      "Name": "Blood Fury",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47267": {
+      "Name": "Death's Head Crossbow",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "76",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47268": {
+      "Name": "Bloodbath Girdle",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47269": {
+      "Name": "Dawnbreaker Sabatons",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47271": {
+      "Name": "Solace of the Fallen",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47272": {
+      "Name": "Charge of the Eredar",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47275": {
+      "Name": "Pride of the Demon Lord",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47276": {
+      "Name": "Talisman of Heedless Sins",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47277": {
+      "Name": "Bindings of the Autumn Willow",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47278": {
+      "Name": "Circle of the Darkmender",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47280": {
+      "Name": "Wristwraps of Cloudy Omen",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47281": {
+      "Name": "Bracers of the Silent Massacre",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47282": {
+      "Name": "Band of Callous Aggression",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47283": {
+      "Name": "Belt of Bloodied Scars",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47284": {
+      "Name": "Icewalker Treads",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47285": {
+      "Name": "Dual-blade Butcher",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "76",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47286": {
+      "Name": "Belt of Biting Cold",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47287": {
+      "Name": "Bastion of Resolve",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47290": {
+      "Name": "Juggernaut's Vitality",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47291": {
+      "Name": "Shroud of Displacement",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47293": {
+      "Name": "Sandals of the Mourning Widow",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47294": {
+      "Name": "Bracers of the Broken Bond",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47295": {
+      "Name": "Sabatons of Tremoring Earth",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47296": {
+      "Name": "Greaves of Ruthless Judgment",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47297": {
+      "Name": "The Executioner's Vice",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47298": {
+      "Name": "Armguards of the Shieldmaiden",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47299": {
+      "Name": "Belt of the Pitiless Killer",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47300": {
+      "Name": "Gouge of the Frigid Heart",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47302": {
+      "Name": "Twin's Pact",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "76",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47303": {
+      "Name": "Death's Choice",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47305": {
+      "Name": "Legionnaire's Gorget",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47306": {
+      "Name": "Dark Essence Bindings",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47307": {
+      "Name": "Cry of the Val'kyr",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47308": {
+      "Name": "Belt of Pale Thorns",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47309": {
+      "Name": "Mystifying Charm",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47311": {
+      "Name": "Waistguard of Deathly Dominion",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47312": {
+      "Name": "Greaves of the Saronite Citadel",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47313": {
+      "Name": "Armbands of Dark Determination",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47314": {
+      "Name": "Hellscream Slicer",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47315": {
+      "Name": "Band of the Traitor King",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47316": {
+      "Name": "Reign of the Dead",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47320": {
+      "Name": "Might of the Nerub",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47321": {
+      "Name": "Boots of the Icy Floe",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47322": {
+      "Name": "Suffering's End",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47323": {
+      "Name": "Girdle of the Forgotten Martyr",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "38",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47324": {
+      "Name": "Bindings of the Ashen Saint",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47327": {
+      "Name": "Lurid Manifestation",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47328": {
+      "Name": "Maiden's Adoration",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
+    },
+    "47329": {
+      "Name": "Hellion Glaive",
+      "Source": "Defiler's Scourgestone",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "76",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "H"
     },
     "47556": {
       "Name": "Crusader Orb",
@@ -7752,6 +8928,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "49908": {
+      "Name": "Primordial Saronite",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "23",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "50078": {
       "Name": "Ymirjar Lord's Battleplate",
       "Source": "Emblem of Frost",
@@ -7952,6 +9136,38 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "50355": {
+      "Name": "Herkuml War Token",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50356": {
+      "Name": "Corroded Skeleton Key",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50357": {
+      "Name": "Maghia's Misguided Quill",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50358": {
+      "Name": "Purified Lunar Dust",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "50391": {
       "Name": "Crimson Acolyte Handwraps",
       "Source": "Emblem of Frost",
@@ -7989,6 +9205,142 @@
       "Source": "Emblem of Frost",
       "SourceType": "Dungeon Token",
       "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50454": {
+      "Name": "Idol of the Black Willow",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50455": {
+      "Name": "Libram of Three Truths",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50456": {
+      "Name": "Idol of the Crying Moon",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50457": {
+      "Name": "Idol of the Lunar Eclipse",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50458": {
+      "Name": "Bizuri's Totem of Shattered Ice",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50459": {
+      "Name": "Sigil of the Hanged Man",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50460": {
+      "Name": "Libram of Blinding Light",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50461": {
+      "Name": "Libram of the Eternal Tower",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50462": {
+      "Name": "Sigil of the Bone Gryphon",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50463": {
+      "Name": "Totem of the Avalanche",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50464": {
+      "Name": "Totem of the Surging Sea",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50466": {
+      "Name": "Sentinel's Winter Cloak",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50467": {
+      "Name": "Might of the Ocean Serpent",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50468": {
+      "Name": "Drape of the Violet Tower",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50469": {
+      "Name": "Volde's Cloak of the Night Sky",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50470": {
+      "Name": "Recovered Scarlet Onslaught Cape",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50474": {
+      "Name": "Shrapnel Star",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -8192,9 +9544,225 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "50965": {
+      "Name": "Castle Breaker's Battleplate",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50968": {
+      "Name": "Cataclysmic Chestguard",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50969": {
+      "Name": "Chestplate of Unspoken Truths",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50970": {
+      "Name": "Longstrider's Vest",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50971": {
+      "Name": "Mail of the Geyser",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50972": {
+      "Name": "Shadow Seeker's Tunic",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50973": {
+      "Name": "Vestments of Spruce and Fir",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50974": {
+      "Name": "Meteor Chaser's Raiment",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50975": {
+      "Name": "Ermine Coronation Robes",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50976": {
+      "Name": "Gauntlets of Overexposure",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50977": {
+      "Name": "Gatecrasher's Gauntlets",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50978": {
+      "Name": "Gauntlets of the Kraken",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50979": {
+      "Name": "Logsplitters",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50980": {
+      "Name": "Blizzard Keeper's Mitts",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50981": {
+      "Name": "Gloves of the Great Horned Owl",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50982": {
+      "Name": "Cat Burglar's Grips",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50983": {
+      "Name": "Gloves of False Gestures",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50984": {
+      "Name": "Gloves of Ambivalence",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50987": {
+      "Name": "Malevolent Girdle",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50989": {
+      "Name": "Lich Killer's Lanyard",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50991": {
+      "Name": "Verdigris Chain Belt",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50992": {
+      "Name": "Waistband of Despair",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50993": {
+      "Name": "Band of the Night Raven",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50994": {
+      "Name": "Belt of Petrified Ivy",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50995": {
+      "Name": "Vengeful Noose",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50996": {
+      "Name": "Belt of Omission",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50997": {
+      "Name": "Circle of Ossus",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "51125": {
       "Name": "Sanctified Scourgelord Shoulderplates",
-      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "Source": "Vanquisher's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8202,7 +9770,7 @@
     },
     "51126": {
       "Name": "Sanctified Scourgelord Legplates",
-      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "Source": "Vanquisher's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8210,7 +9778,7 @@
     },
     "51127": {
       "Name": "Sanctified Scourgelord Helmet",
-      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "Source": "Vanquisher's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8218,7 +9786,7 @@
     },
     "51128": {
       "Name": "Sanctified Scourgelord Gauntlets",
-      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "Source": "Vanquisher's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8226,7 +9794,7 @@
     },
     "51129": {
       "Name": "Sanctified Scourgelord Battleplate",
-      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "Source": "Vanquisher's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8234,7 +9802,7 @@
     },
     "51130": {
       "Name": "Sanctified Scourgelord Pauldrons",
-      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "Source": "Vanquisher's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8242,7 +9810,7 @@
     },
     "51131": {
       "Name": "Sanctified Scourgelord Legguards",
-      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "Source": "Vanquisher's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8250,7 +9818,7 @@
     },
     "51132": {
       "Name": "Sanctified Scourgelord Handguards",
-      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "Source": "Vanquisher's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8258,7 +9826,7 @@
     },
     "51133": {
       "Name": "Sanctified Scourgelord Faceguard",
-      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "Source": "Vanquisher's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8266,7 +9834,7 @@
     },
     "51134": {
       "Name": "Sanctified Scourgelord Chestguard",
-      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "Source": "Vanquisher's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8274,7 +9842,7 @@
     },
     "51160": {
       "Name": "Sanctified Lightsworn Shoulderplates",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8282,7 +9850,7 @@
     },
     "51161": {
       "Name": "Sanctified Lightsworn Legplates",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8290,7 +9858,7 @@
     },
     "51162": {
       "Name": "Sanctified Lightsworn Helmet",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8298,7 +9866,7 @@
     },
     "51163": {
       "Name": "Sanctified Lightsworn Gauntlets",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8306,7 +9874,7 @@
     },
     "51164": {
       "Name": "Sanctified Lightsworn Battleplate",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8314,7 +9882,7 @@
     },
     "51165": {
       "Name": "Sanctified Lightsworn Tunic",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8322,7 +9890,7 @@
     },
     "51166": {
       "Name": "Sanctified Lightsworn Spaulders",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8330,7 +9898,7 @@
     },
     "51167": {
       "Name": "Sanctified Lightsworn Headpiece",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8338,7 +9906,7 @@
     },
     "51168": {
       "Name": "Sanctified Lightsworn Greaves",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8346,7 +9914,7 @@
     },
     "51169": {
       "Name": "Sanctified Lightsworn Gloves",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8354,7 +9922,7 @@
     },
     "51170": {
       "Name": "Sanctified Lightsworn Shoulderguards",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8362,7 +9930,7 @@
     },
     "51171": {
       "Name": "Sanctified Lightsworn Legguards",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8370,7 +9938,7 @@
     },
     "51172": {
       "Name": "Sanctified Lightsworn Handguards",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8378,7 +9946,7 @@
     },
     "51173": {
       "Name": "Sanctified Lightsworn Faceguard",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8386,7 +9954,7 @@
     },
     "51174": {
       "Name": "Sanctified Lightsworn Chestguard",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8394,7 +9962,7 @@
     },
     "51175": {
       "Name": "Sanctified Crimson Acolyte Shoulderpads",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8402,7 +9970,7 @@
     },
     "51176": {
       "Name": "Sanctified Crimson Acolyte Robe",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8410,7 +9978,7 @@
     },
     "51177": {
       "Name": "Sanctified Crimson Acolyte Leggings",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8418,7 +9986,7 @@
     },
     "51178": {
       "Name": "Sanctified Crimson Acolyte Hood",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8426,7 +9994,7 @@
     },
     "51179": {
       "Name": "Sanctified Crimson Acolyte Gloves",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8434,7 +10002,7 @@
     },
     "51180": {
       "Name": "Sanctified Crimson Acolyte Raiments",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8442,7 +10010,7 @@
     },
     "51181": {
       "Name": "Sanctified Crimson Acolyte Pants",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8450,7 +10018,7 @@
     },
     "51182": {
       "Name": "Sanctified Crimson Acolyte Mantle",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8458,7 +10026,7 @@
     },
     "51183": {
       "Name": "Sanctified Crimson Acolyte Handwraps",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8466,7 +10034,7 @@
     },
     "51184": {
       "Name": "Sanctified Crimson Acolyte Cowl",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8474,7 +10042,7 @@
     },
     "51185": {
       "Name": "Sanctified Shadowblade Pauldrons",
-      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "Source": "Vanquisher's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8482,7 +10050,7 @@
     },
     "51186": {
       "Name": "Sanctified Shadowblade Legplates",
-      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "Source": "Vanquisher's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8490,7 +10058,7 @@
     },
     "51187": {
       "Name": "Sanctified Shadowblade Helmet",
-      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "Source": "Vanquisher's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8498,7 +10066,7 @@
     },
     "51188": {
       "Name": "Sanctified Shadowblade Gauntlets",
-      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "Source": "Vanquisher's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8506,7 +10074,7 @@
     },
     "51189": {
       "Name": "Sanctified Shadowblade Breastplate",
-      "Source": "Vanquisher's Mark of Sanctification & Lower Rank",
+      "Source": "Vanquisher's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8514,7 +10082,7 @@
     },
     "51205": {
       "Name": "Sanctified Dark Coven Shoulderpads",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8522,7 +10090,7 @@
     },
     "51206": {
       "Name": "Sanctified Dark Coven Robe",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8530,7 +10098,7 @@
     },
     "51207": {
       "Name": "Sanctified Dark Coven Leggings",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8538,7 +10106,7 @@
     },
     "51208": {
       "Name": "Sanctified Dark Coven Hood",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8546,7 +10114,7 @@
     },
     "51209": {
       "Name": "Sanctified Dark Coven Gloves",
-      "Source": "Conqueror's Mark of Sanctification & Lower Rank",
+      "Source": "Conqueror's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8554,7 +10122,7 @@
     },
     "51210": {
       "Name": "Sanctified Ymirjar Lord's Shoulderplates",
-      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "Source": "Protector's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8562,7 +10130,7 @@
     },
     "51211": {
       "Name": "Sanctified Ymirjar Lord's Legplates",
-      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "Source": "Protector's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8570,7 +10138,7 @@
     },
     "51212": {
       "Name": "Sanctified Ymirjar Lord's Helmet",
-      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "Source": "Protector's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8578,7 +10146,7 @@
     },
     "51213": {
       "Name": "Sanctified Ymirjar Lord's Gauntlets",
-      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "Source": "Protector's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8586,7 +10154,7 @@
     },
     "51214": {
       "Name": "Sanctified Ymirjar Lord's Battleplate",
-      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "Source": "Protector's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8594,7 +10162,7 @@
     },
     "51215": {
       "Name": "Sanctified Ymirjar Lord's Pauldrons",
-      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "Source": "Protector's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8602,7 +10170,7 @@
     },
     "51216": {
       "Name": "Sanctified Ymirjar Lord's Legguards",
-      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "Source": "Protector's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8610,7 +10178,7 @@
     },
     "51217": {
       "Name": "Sanctified Ymirjar Lord's Handguards",
-      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "Source": "Protector's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8618,7 +10186,7 @@
     },
     "51218": {
       "Name": "Sanctified Ymirjar Lord's Greathelm",
-      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "Source": "Protector's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8626,7 +10194,7 @@
     },
     "51219": {
       "Name": "Sanctified Ymirjar Lord's Breastplate",
-      "Source": "Protector's Mark of Sanctification & Lower Rank",
+      "Source": "Protector's Mark & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8634,7 +10202,7 @@
     },
     "51220": {
       "Name": "Sanctified Ymirjar Lord's Breastplate",
-      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8642,7 +10210,7 @@
     },
     "51221": {
       "Name": "Sanctified Ymirjar Lord's Greathelm",
-      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8650,7 +10218,7 @@
     },
     "51222": {
       "Name": "Sanctified Ymirjar Lord's Handguards",
-      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8658,7 +10226,7 @@
     },
     "51223": {
       "Name": "Sanctified Ymirjar Lord's Legguards",
-      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8666,7 +10234,7 @@
     },
     "51224": {
       "Name": "Sanctified Ymirjar Lord's Pauldrons",
-      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8674,7 +10242,7 @@
     },
     "51225": {
       "Name": "Sanctified Ymirjar Lord's Battleplate",
-      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8682,7 +10250,7 @@
     },
     "51226": {
       "Name": "Sanctified Ymirjar Lord's Gauntlets",
-      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8690,7 +10258,7 @@
     },
     "51227": {
       "Name": "Sanctified Ymirjar Lord's Helmet",
-      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8698,7 +10266,7 @@
     },
     "51228": {
       "Name": "Sanctified Ymirjar Lord's Legplates",
-      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8706,7 +10274,7 @@
     },
     "51229": {
       "Name": "Sanctified Ymirjar Lord's Shoulderplates",
-      "Source": "Protector's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8714,7 +10282,7 @@
     },
     "51230": {
       "Name": "Sanctified Dark Coven Gloves",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8722,7 +10290,7 @@
     },
     "51231": {
       "Name": "Sanctified Dark Coven Hood",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8730,7 +10298,7 @@
     },
     "51232": {
       "Name": "Sanctified Dark Coven Leggings",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8738,7 +10306,7 @@
     },
     "51233": {
       "Name": "Sanctified Dark Coven Robe",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8746,7 +10314,7 @@
     },
     "51234": {
       "Name": "Sanctified Dark Coven Shoulderpads",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8754,7 +10322,7 @@
     },
     "51250": {
       "Name": "Sanctified Shadowblade Breastplate",
-      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8762,7 +10330,7 @@
     },
     "51251": {
       "Name": "Sanctified Shadowblade Gauntlets",
-      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8770,7 +10338,7 @@
     },
     "51252": {
       "Name": "Sanctified Shadowblade Helmet",
-      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8778,7 +10346,7 @@
     },
     "51253": {
       "Name": "Sanctified Shadowblade Legplates",
-      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8786,7 +10354,7 @@
     },
     "51254": {
       "Name": "Sanctified Shadowblade Pauldrons",
-      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8794,7 +10362,7 @@
     },
     "51255": {
       "Name": "Sanctified Crimson Acolyte Cowl",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8802,7 +10370,7 @@
     },
     "51256": {
       "Name": "Sanctified Crimson Acolyte Handwraps",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8810,7 +10378,7 @@
     },
     "51257": {
       "Name": "Sanctified Crimson Acolyte Mantle",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8818,7 +10386,7 @@
     },
     "51258": {
       "Name": "Sanctified Crimson Acolyte Pants",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8826,7 +10394,7 @@
     },
     "51259": {
       "Name": "Sanctified Crimson Acolyte Raiments",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8834,7 +10402,7 @@
     },
     "51260": {
       "Name": "Sanctified Crimson Acolyte Gloves",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8842,7 +10410,7 @@
     },
     "51261": {
       "Name": "Sanctified Crimson Acolyte Hood",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8850,7 +10418,7 @@
     },
     "51262": {
       "Name": "Sanctified Crimson Acolyte Leggings",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8858,7 +10426,7 @@
     },
     "51263": {
       "Name": "Sanctified Crimson Acolyte Robe",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8866,7 +10434,7 @@
     },
     "51264": {
       "Name": "Sanctified Crimson Acolyte Shoulderpads",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8874,7 +10442,7 @@
     },
     "51265": {
       "Name": "Sanctified Lightsworn Chestguard",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8882,7 +10450,7 @@
     },
     "51266": {
       "Name": "Sanctified Lightsworn Faceguard",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8890,7 +10458,7 @@
     },
     "51267": {
       "Name": "Sanctified Lightsworn Handguards",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8898,7 +10466,7 @@
     },
     "51268": {
       "Name": "Sanctified Lightsworn Legguards",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8906,7 +10474,7 @@
     },
     "51269": {
       "Name": "Sanctified Lightsworn Shoulderguards",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8914,7 +10482,7 @@
     },
     "51270": {
       "Name": "Sanctified Lightsworn Gloves",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8922,7 +10490,7 @@
     },
     "51271": {
       "Name": "Sanctified Lightsworn Greaves",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8930,7 +10498,7 @@
     },
     "51272": {
       "Name": "Sanctified Lightsworn Headpiece",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8938,7 +10506,7 @@
     },
     "51273": {
       "Name": "Sanctified Lightsworn Spaulders",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8946,7 +10514,7 @@
     },
     "51274": {
       "Name": "Sanctified Lightsworn Tunic",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8954,7 +10522,7 @@
     },
     "51275": {
       "Name": "Sanctified Lightsworn Battleplate",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8962,7 +10530,7 @@
     },
     "51276": {
       "Name": "Sanctified Lightsworn Gauntlets",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8970,7 +10538,7 @@
     },
     "51277": {
       "Name": "Sanctified Lightsworn Helmet",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8978,7 +10546,7 @@
     },
     "51278": {
       "Name": "Sanctified Lightsworn Legplates",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8986,7 +10554,7 @@
     },
     "51279": {
       "Name": "Sanctified Lightsworn Shoulderplates",
-      "Source": "Conqueror's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -8994,7 +10562,7 @@
     },
     "51305": {
       "Name": "Sanctified Scourgelord Chestguard",
-      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -9002,7 +10570,7 @@
     },
     "51306": {
       "Name": "Sanctified Scourgelord Faceguard",
-      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -9010,7 +10578,7 @@
     },
     "51307": {
       "Name": "Sanctified Scourgelord Handguards",
-      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -9018,7 +10586,7 @@
     },
     "51308": {
       "Name": "Sanctified Scourgelord Legguards",
-      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -9026,7 +10594,7 @@
     },
     "51309": {
       "Name": "Sanctified Scourgelord Pauldrons",
-      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -9034,7 +10602,7 @@
     },
     "51310": {
       "Name": "Sanctified Scourgelord Battleplate",
-      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -9042,7 +10610,7 @@
     },
     "51311": {
       "Name": "Sanctified Scourgelord Gauntlets",
-      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -9050,7 +10618,7 @@
     },
     "51312": {
       "Name": "Sanctified Scourgelord Helmet",
-      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -9058,7 +10626,7 @@
     },
     "51313": {
       "Name": "Sanctified Scourgelord Legplates",
-      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",
@@ -9066,7 +10634,7 @@
     },
     "51314": {
       "Name": "Sanctified Scourgelord Shoulderplates",
-      "Source": "Vanquisher's Mark of Sanctification (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & Lower Rank",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Emblem Vendor",

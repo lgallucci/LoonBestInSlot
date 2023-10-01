@@ -43,6 +43,12 @@ public class EmblemImporter : LootImporter
         //@"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia#sells;100",
         //@"https://www.wowhead.com/wotlk/npc=207128/animated-constellation",
         //@"https://www.wowhead.com/wotlk/npc=207128/animated-constellation#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=211332/korralin-hoperender",
+        @"https://www.wowhead.com/wotlk/npc=211332/korralin-hoperender#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=211340/kolara-dreamsmasher",
+        @"https://www.wowhead.com/wotlk/npc=211340/kolara-dreamsmasher#sells;50",
+        @"https://www.wowhead.com/wotlk/npc=37941/magister-arlan",
+        @"https://www.wowhead.com/wotlk/npc=37941/magister-arlan#sells;50",
         @"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren",
         @"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren#sells;50",
         @"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren#sells;100",
@@ -94,16 +100,19 @@ public class EmblemImporter : LootImporter
                             item == "301" ? "Emblem of Triumph" :
                             item == "341" ? "Emblem of Frost" :
                             item == "2589" ? "Sidereal Essence" :
+                            item == "2711" ? "Defiler's Scourgestone" :
                             item == "47242" ? "Trophy" :
-                            item == "52025" ? "Vanquisher's Mark of Sanctification" :
-                            item == "52026" ? "Protector's Mark of Sanctification" :
-                            item == "52027" ? "Conqueror's Mark of Sanctification" :
-                            item == "52028" ? "Vanquisher's Mark of Sanctification (H)" :
-                            item == "52029" ? "Protector's Mark of Sanctification (H)" :
-                            item == "52030" ? "Conqueror's Mark of Sanctification (H)" : "unknown";
+                            item == "52025" ? "Vanquisher's Mark" :
+                            item == "52026" ? "Protector's Mark" :
+                            item == "52027" ? "Conqueror's Mark" :
+                            item == "52028" ? "Vanquisher's Mark (H)" :
+                            item == "52029" ? "Protector's Mark (H)" :
+                            item == "52030" ? "Conqueror's Mark (H)" : "unknown";
 
                         if (string.IsNullOrWhiteSpace(currencySource))
                             currencySource = sourceText;
+                        else if (currencySource.Contains("'s Mark") && sourceText == "unknown")
+                            currencySource = $"{currencySource} & Lower Rank";
                         else
                             currencySource = $"{currencySource} & {sourceText}";
 
