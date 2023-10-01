@@ -9762,882 +9762,882 @@
     },
     "51125": {
       "Name": "Sanctified Scourgelord Shoulderplates",
-      "Source": "Vanquisher's Mark & Lower Rank",
+      "Source": "Vanquisher's Mark & {50098}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51126": {
       "Name": "Sanctified Scourgelord Legplates",
-      "Source": "Vanquisher's Mark & Lower Rank",
+      "Source": "Vanquisher's Mark & {50097}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51127": {
       "Name": "Sanctified Scourgelord Helmet",
-      "Source": "Vanquisher's Mark & Lower Rank",
+      "Source": "Vanquisher's Mark & {50096}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51128": {
       "Name": "Sanctified Scourgelord Gauntlets",
-      "Source": "Vanquisher's Mark & Lower Rank",
+      "Source": "Vanquisher's Mark & {50095}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51129": {
       "Name": "Sanctified Scourgelord Battleplate",
-      "Source": "Vanquisher's Mark & Lower Rank",
+      "Source": "Vanquisher's Mark & {50094}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51130": {
       "Name": "Sanctified Scourgelord Pauldrons",
-      "Source": "Vanquisher's Mark & Lower Rank",
+      "Source": "Vanquisher's Mark & {50853}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51131": {
       "Name": "Sanctified Scourgelord Legguards",
-      "Source": "Vanquisher's Mark & Lower Rank",
+      "Source": "Vanquisher's Mark & {50854}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51132": {
       "Name": "Sanctified Scourgelord Handguards",
-      "Source": "Vanquisher's Mark & Lower Rank",
+      "Source": "Vanquisher's Mark & {50856}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51133": {
       "Name": "Sanctified Scourgelord Faceguard",
-      "Source": "Vanquisher's Mark & Lower Rank",
+      "Source": "Vanquisher's Mark & {50855}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51134": {
       "Name": "Sanctified Scourgelord Chestguard",
-      "Source": "Vanquisher's Mark & Lower Rank",
+      "Source": "Vanquisher's Mark & {50857}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51160": {
       "Name": "Sanctified Lightsworn Shoulderplates",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50324}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51161": {
       "Name": "Sanctified Lightsworn Legplates",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50325}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51162": {
       "Name": "Sanctified Lightsworn Helmet",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50326}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51163": {
       "Name": "Sanctified Lightsworn Gauntlets",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50327}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51164": {
       "Name": "Sanctified Lightsworn Battleplate",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50328}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51165": {
       "Name": "Sanctified Lightsworn Tunic",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50869}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51166": {
       "Name": "Sanctified Lightsworn Spaulders",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50865}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51167": {
       "Name": "Sanctified Lightsworn Headpiece",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50867}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51168": {
       "Name": "Sanctified Lightsworn Greaves",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50866}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51169": {
       "Name": "Sanctified Lightsworn Gloves",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50868}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51170": {
       "Name": "Sanctified Lightsworn Shoulderguards",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50860}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51171": {
       "Name": "Sanctified Lightsworn Legguards",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50861}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51172": {
       "Name": "Sanctified Lightsworn Handguards",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50863}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51173": {
       "Name": "Sanctified Lightsworn Faceguard",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50862}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51174": {
       "Name": "Sanctified Lightsworn Chestguard",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50864}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51175": {
       "Name": "Sanctified Crimson Acolyte Shoulderpads",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50767}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51176": {
       "Name": "Sanctified Crimson Acolyte Robe",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50768}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51177": {
       "Name": "Sanctified Crimson Acolyte Leggings",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50769}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51178": {
       "Name": "Sanctified Crimson Acolyte Hood",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50765}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51179": {
       "Name": "Sanctified Crimson Acolyte Gloves",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50766}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51180": {
       "Name": "Sanctified Crimson Acolyte Raiments",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50394}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51181": {
       "Name": "Sanctified Crimson Acolyte Pants",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50393}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51182": {
       "Name": "Sanctified Crimson Acolyte Mantle",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50396}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51183": {
       "Name": "Sanctified Crimson Acolyte Handwraps",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50391}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51184": {
       "Name": "Sanctified Crimson Acolyte Cowl",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50392}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51185": {
       "Name": "Sanctified Shadowblade Pauldrons",
-      "Source": "Vanquisher's Mark & Lower Rank",
+      "Source": "Vanquisher's Mark & {50105}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51186": {
       "Name": "Sanctified Shadowblade Legplates",
-      "Source": "Vanquisher's Mark & Lower Rank",
+      "Source": "Vanquisher's Mark & {50090}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51187": {
       "Name": "Sanctified Shadowblade Helmet",
-      "Source": "Vanquisher's Mark & Lower Rank",
+      "Source": "Vanquisher's Mark & {50089}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51188": {
       "Name": "Sanctified Shadowblade Gauntlets",
-      "Source": "Vanquisher's Mark & Lower Rank",
+      "Source": "Vanquisher's Mark & {50088}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51189": {
       "Name": "Sanctified Shadowblade Breastplate",
-      "Source": "Vanquisher's Mark & Lower Rank",
+      "Source": "Vanquisher's Mark & {50087}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51205": {
       "Name": "Sanctified Dark Coven Shoulderpads",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50244}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51206": {
       "Name": "Sanctified Dark Coven Robe",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50243}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51207": {
       "Name": "Sanctified Dark Coven Leggings",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50242}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51208": {
       "Name": "Sanctified Dark Coven Hood",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50241}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51209": {
       "Name": "Sanctified Dark Coven Gloves",
-      "Source": "Conqueror's Mark & Lower Rank",
+      "Source": "Conqueror's Mark & {50240}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51210": {
       "Name": "Sanctified Ymirjar Lord's Shoulderplates",
-      "Source": "Protector's Mark & Lower Rank",
+      "Source": "Protector's Mark & {50082}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51211": {
       "Name": "Sanctified Ymirjar Lord's Legplates",
-      "Source": "Protector's Mark & Lower Rank",
+      "Source": "Protector's Mark & {50081}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51212": {
       "Name": "Sanctified Ymirjar Lord's Helmet",
-      "Source": "Protector's Mark & Lower Rank",
+      "Source": "Protector's Mark & {50080}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51213": {
       "Name": "Sanctified Ymirjar Lord's Gauntlets",
-      "Source": "Protector's Mark & Lower Rank",
+      "Source": "Protector's Mark & {50079}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51214": {
       "Name": "Sanctified Ymirjar Lord's Battleplate",
-      "Source": "Protector's Mark & Lower Rank",
+      "Source": "Protector's Mark & {50078}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51215": {
       "Name": "Sanctified Ymirjar Lord's Pauldrons",
-      "Source": "Protector's Mark & Lower Rank",
+      "Source": "Protector's Mark & {50846}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51216": {
       "Name": "Sanctified Ymirjar Lord's Legguards",
-      "Source": "Protector's Mark & Lower Rank",
+      "Source": "Protector's Mark & {50847}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51217": {
       "Name": "Sanctified Ymirjar Lord's Handguards",
-      "Source": "Protector's Mark & Lower Rank",
+      "Source": "Protector's Mark & {50849}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51218": {
       "Name": "Sanctified Ymirjar Lord's Greathelm",
-      "Source": "Protector's Mark & Lower Rank",
+      "Source": "Protector's Mark & {50848}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51219": {
       "Name": "Sanctified Ymirjar Lord's Breastplate",
-      "Source": "Protector's Mark & Lower Rank",
+      "Source": "Protector's Mark & {50850}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51220": {
       "Name": "Sanctified Ymirjar Lord's Breastplate",
-      "Source": "Protector's Mark (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & {51219}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51221": {
       "Name": "Sanctified Ymirjar Lord's Greathelm",
-      "Source": "Protector's Mark (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & {51218}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51222": {
       "Name": "Sanctified Ymirjar Lord's Handguards",
-      "Source": "Protector's Mark (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & {51217}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51223": {
       "Name": "Sanctified Ymirjar Lord's Legguards",
-      "Source": "Protector's Mark (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & {51216}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51224": {
       "Name": "Sanctified Ymirjar Lord's Pauldrons",
-      "Source": "Protector's Mark (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & {51215}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51225": {
       "Name": "Sanctified Ymirjar Lord's Battleplate",
-      "Source": "Protector's Mark (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & {51214}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51226": {
       "Name": "Sanctified Ymirjar Lord's Gauntlets",
-      "Source": "Protector's Mark (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & {51213}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51227": {
       "Name": "Sanctified Ymirjar Lord's Helmet",
-      "Source": "Protector's Mark (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & {51212}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51228": {
       "Name": "Sanctified Ymirjar Lord's Legplates",
-      "Source": "Protector's Mark (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & {51211}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51229": {
       "Name": "Sanctified Ymirjar Lord's Shoulderplates",
-      "Source": "Protector's Mark (H) & Lower Rank",
+      "Source": "Protector's Mark (H) & {51210}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51230": {
       "Name": "Sanctified Dark Coven Gloves",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51209}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51231": {
       "Name": "Sanctified Dark Coven Hood",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51208}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51232": {
       "Name": "Sanctified Dark Coven Leggings",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51207}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51233": {
       "Name": "Sanctified Dark Coven Robe",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51206}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51234": {
       "Name": "Sanctified Dark Coven Shoulderpads",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51205}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51250": {
       "Name": "Sanctified Shadowblade Breastplate",
-      "Source": "Vanquisher's Mark (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & {51189}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51251": {
       "Name": "Sanctified Shadowblade Gauntlets",
-      "Source": "Vanquisher's Mark (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & {51188}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51252": {
       "Name": "Sanctified Shadowblade Helmet",
-      "Source": "Vanquisher's Mark (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & {51187}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51253": {
       "Name": "Sanctified Shadowblade Legplates",
-      "Source": "Vanquisher's Mark (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & {51186}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51254": {
       "Name": "Sanctified Shadowblade Pauldrons",
-      "Source": "Vanquisher's Mark (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & {51185}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51255": {
       "Name": "Sanctified Crimson Acolyte Cowl",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51184}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51256": {
       "Name": "Sanctified Crimson Acolyte Handwraps",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51183}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51257": {
       "Name": "Sanctified Crimson Acolyte Mantle",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51182}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51258": {
       "Name": "Sanctified Crimson Acolyte Pants",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51181}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51259": {
       "Name": "Sanctified Crimson Acolyte Raiments",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51180}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51260": {
       "Name": "Sanctified Crimson Acolyte Gloves",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51179}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51261": {
       "Name": "Sanctified Crimson Acolyte Hood",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51178}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51262": {
       "Name": "Sanctified Crimson Acolyte Leggings",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51177}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51263": {
       "Name": "Sanctified Crimson Acolyte Robe",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51176}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51264": {
       "Name": "Sanctified Crimson Acolyte Shoulderpads",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51175}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51265": {
       "Name": "Sanctified Lightsworn Chestguard",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51174}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51266": {
       "Name": "Sanctified Lightsworn Faceguard",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51173}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51267": {
       "Name": "Sanctified Lightsworn Handguards",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51172}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51268": {
       "Name": "Sanctified Lightsworn Legguards",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51171}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51269": {
       "Name": "Sanctified Lightsworn Shoulderguards",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51170}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51270": {
       "Name": "Sanctified Lightsworn Gloves",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51169}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51271": {
       "Name": "Sanctified Lightsworn Greaves",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51168}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51272": {
       "Name": "Sanctified Lightsworn Headpiece",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51167}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51273": {
       "Name": "Sanctified Lightsworn Spaulders",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51166}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51274": {
       "Name": "Sanctified Lightsworn Tunic",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51165}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51275": {
       "Name": "Sanctified Lightsworn Battleplate",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51164}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51276": {
       "Name": "Sanctified Lightsworn Gauntlets",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51163}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51277": {
       "Name": "Sanctified Lightsworn Helmet",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51162}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51278": {
       "Name": "Sanctified Lightsworn Legplates",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51161}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51279": {
       "Name": "Sanctified Lightsworn Shoulderplates",
-      "Source": "Conqueror's Mark (H) & Lower Rank",
+      "Source": "Conqueror's Mark (H) & {51160}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51305": {
       "Name": "Sanctified Scourgelord Chestguard",
-      "Source": "Vanquisher's Mark (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & {51134}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51306": {
       "Name": "Sanctified Scourgelord Faceguard",
-      "Source": "Vanquisher's Mark (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & {51133}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51307": {
       "Name": "Sanctified Scourgelord Handguards",
-      "Source": "Vanquisher's Mark (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & {51132}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51308": {
       "Name": "Sanctified Scourgelord Legguards",
-      "Source": "Vanquisher's Mark (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & {51131}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51309": {
       "Name": "Sanctified Scourgelord Pauldrons",
-      "Source": "Vanquisher's Mark (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & {51130}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51310": {
       "Name": "Sanctified Scourgelord Battleplate",
-      "Source": "Vanquisher's Mark (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & {51129}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51311": {
       "Name": "Sanctified Scourgelord Gauntlets",
-      "Source": "Vanquisher's Mark (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & {51128}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51312": {
       "Name": "Sanctified Scourgelord Helmet",
-      "Source": "Vanquisher's Mark (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & {51127}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51313": {
       "Name": "Sanctified Scourgelord Legplates",
-      "Source": "Vanquisher's Mark (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & {51126}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
     "51314": {
       "Name": "Sanctified Scourgelord Shoulderplates",
-      "Source": "Vanquisher's Mark (H) & Lower Rank",
+      "Source": "Vanquisher's Mark (H) & {51125}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Emblem Vendor",
+      "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     }
   }

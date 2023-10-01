@@ -28,7 +28,7 @@ public class EmblemImporter : LootImporter
         //@"https://www.wowhead.com/wotlk/npc=33963/magister-sarien#sells;50",
         //@"https://www.wowhead.com/wotlk/npc=33963/magister-sarien#sells;100",
         //@"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina",
-        //@"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina#sells;50",
+        //@"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina#sells;50",vvvvvvvvvvvvvvvvvvvvvvvvvv
         //@"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina#sells;100",
         //@"https://www.wowhead.com/wotlk/npc=35579/aspirant-forudir",
         //@"https://www.wowhead.com/wotlk/npc=35579/aspirant-forudir#sells;50",//TODO: More ?
@@ -80,7 +80,7 @@ public class EmblemImporter : LootImporter
 
             Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
             {
-                var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/wotlk", "").Replace("/currency=", "").Replace("/item=", "");
+                var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/wotlk", "").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", ""); ;
 
                 var currencyIdIndex = item.IndexOf("/");
                 if (currencyIdIndex == -1)
@@ -112,7 +112,7 @@ public class EmblemImporter : LootImporter
                         if (string.IsNullOrWhiteSpace(currencySource))
                             currencySource = sourceText;
                         else if (currencySource.Contains("'s Mark") && sourceText == "unknown")
-                            currencySource = $"{currencySource} & Lower Rank";
+                            currencySource = $"{currencySource} & {{{item}}}";
                         else
                             currencySource = $"{currencySource} & {sourceText}";
 
@@ -121,10 +121,14 @@ public class EmblemImporter : LootImporter
                         else
                             currencyNumber = $"{currencyNumber} & {anchorObject.TextContent}";
 
-                        if (item == "47242")
-                            currencySourceLocation = "Trial of the Crusader";
-                        else if (string.IsNullOrWhiteSpace(currencySourceLocation))
-                            currencySourceLocation = "Emblem Vendor";
+                    if (item == "47242")
+                        currencySourceLocation = "Trial of the Crusader";
+                    else if (new[] { "52025", "52026", "52027" }.ToList().Contains(item))
+                        currencySourceLocation = "Icecrown Citadel";
+                    else if (new[] { "52028", "52029", "52030" }.ToList().Contains(item))
+                        currencySourceLocation = "Icecrown Citadel (H)";
+                    else if (string.IsNullOrWhiteSpace(currencySourceLocation))
+                        currencySourceLocation = "Emblem Vendor";
                     }
                 }
                 return success;
