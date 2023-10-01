@@ -159,7 +159,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Gundrak (Heroic+)"] = "Gundrak (Heroisch+)";
   LBIS.L["Gundrak (Heroic++)"] = "Gundrak (Heroisch++)";
   LBIS.L["Gundrak (Normal)"] = "Gundrak (Normal)";
---  LBIS.L["Gunship Battle"] = "";
   LBIS.L["Hadronox"] = "Hadronox";
   LBIS.L["Hallow's End"] = "Schlotternächte";
   LBIS.L["Halls of Lightning (Heroic)"] = "Hallen der Blitze (Heroisch)";
@@ -192,6 +191,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Icecrown Citadel (10H)"] = "Die Eiskronenzitadelle (10H)";
   LBIS.L["Icecrown Citadel (25)"] = "Die Eiskronenzitadelle (25)";
   LBIS.L["Icecrown Citadel (25H)"] = "Die Eiskronenzitadelle (25H)";
+  LBIS.L["Icecrown Gunship Battle"] = "Luftschiffkampf um die Eiskronenzitadelle";
   LBIS.L["Ichoron"] = "Ichoron";
   LBIS.L["Ignis the Furnace Master"] = "Ignis, Meister des Eisenwerks";
   LBIS.L["Infinite Corruptor"] = "Ewiger Verderber";

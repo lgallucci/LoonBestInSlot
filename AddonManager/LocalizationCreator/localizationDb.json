@@ -1615,7 +1615,8 @@
       "Emblem of Valor": "Emblème de vaillance",
       "Hallow's End": "Sanssaint",
       "Sidereal Essence": "Essence sidérale",
-      "Token": "Marque d’ensemble"
+      "Token": "Marque d’ensemble",
+      "Argent Crusade Tribute Chest": "Coffre d'offrande de la Croisade d'argent"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -1997,7 +1998,8 @@
       "Emblem of Triumph": "Эмблема триумфа",
       "Emblem of Valor": "Эмблема доблести",
       "Hallow's End": "Тыквовин",
-      "Token": "Фрагмент"
+      "Token": "Фрагмент",
+      "Argent Crusade Tribute Chest": "Испытания Крестоносца поход за сундуком"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -2379,7 +2381,8 @@
       "Emblem of Triumph": "凯旋纹章",
       "Emblem of Valor": "勇气纹章",
       "Hallow's End": "万圣节",
-      "Token": "代币"
+      "Token": "代币",
+      "Argent Crusade Tribute Chest": "银色北伐军嘉奖宝箱"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -2855,7 +2858,8 @@
       "Valithria Dreamwalker": "발리스리아 드림워커",
       "The Cleansing Of Jintha'kalar": "진타칼라르 정화",
       "Emblem of Frost": "서리의 문장",
-      "Emblem of Triumph": "승전의 문장"
+      "Emblem of Triumph": "승전의 문장",
+      "Argent Crusade Tribute Chest": "십자군의 시험장 공물"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -3236,7 +3240,8 @@
       "Emblem of Triumph": "凯旋纹章",
       "Emblem of Valor": "勇氣紋章",
       "Hallow's End": "萬鬼節",
-      "Token": "代幣"
+      "Token": "代幣",
+      "Argent Crusade Tribute Chest": "銀白十字軍獻禮箱"
     }
   }
 }

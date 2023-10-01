@@ -159,7 +159,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Gundrak (Heroic+)"] = "古达克 (英雄+)";
   LBIS.L["Gundrak (Heroic++)"] = "古达克 (英雄++)";
   LBIS.L["Gundrak (Normal)"] = "古达克 (一般)";
---  LBIS.L["Gunship Battle"] = "";
   LBIS.L["Hadronox"] = "哈多诺克斯";
   LBIS.L["Hallow's End"] = "万圣节";
   LBIS.L["Halls of Lightning (Heroic)"] = "闪电大厅 (英雄)";
@@ -192,6 +191,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Icecrown Citadel (10H)"] = "冰冠堡垒 (10人英雄)";
   LBIS.L["Icecrown Citadel (25)"] = "冰冠堡垒 (25)";
   LBIS.L["Icecrown Citadel (25H)"] = "冰冠堡垒 (25人英雄)";
+  LBIS.L["Icecrown Gunship Battle"] = "冰冠炮舰战斗";
   LBIS.L["Ichoron"] = "艾库隆";
   LBIS.L["Ignis the Furnace Master"] = "掌炉者伊格尼斯";
   LBIS.L["Infinite Corruptor"] = "永恒腐蚀者";

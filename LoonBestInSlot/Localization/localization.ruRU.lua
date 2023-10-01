@@ -159,7 +159,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Gundrak (Heroic+)"] = "Гундрак (Героический+)";
   LBIS.L["Gundrak (Heroic++)"] = "Гундрак (Героический++)";
   LBIS.L["Gundrak (Normal)"] = "Гундрак (Обычный)";
---  LBIS.L["Gunship Battle"] = "";
   LBIS.L["Hadronox"] = "Хадронокс";
   LBIS.L["Hallow's End"] = "Тыквовин";
   LBIS.L["Halls of Lightning (Heroic)"] = "Чертоги Молний (Героический)";
@@ -192,6 +191,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Icecrown Citadel (10H)"] = "Цитадель Ледяной Короны (10 Гер )";
   LBIS.L["Icecrown Citadel (25)"] = "Цитадель Ледяной Короны (25)";
   LBIS.L["Icecrown Citadel (25H)"] = "Цитадель Ледяной Короны (25 Гер)";
+  LBIS.L["Icecrown Gunship Battle"] = "Бой на кораблях";
   LBIS.L["Ichoron"] = "Гнойрон";
   LBIS.L["Ignis the Furnace Master"] = "Повелитель Горнов Игнис";
   LBIS.L["Infinite Corruptor"] = "Осквернитель из рода Бесконечности";

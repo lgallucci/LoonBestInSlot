@@ -159,7 +159,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Gundrak (Heroic+)"] = "군드락 (영웅+)";
   LBIS.L["Gundrak (Heroic++)"] = "군드락 (영웅++)";
   LBIS.L["Gundrak (Normal)"] = "군드락 (일반)";
---  LBIS.L["Gunship Battle"] = "";
   LBIS.L["Hadronox"] = "하드로녹스";
   LBIS.L["Hallow's End"] = "할로윈 축제";
   LBIS.L["Halls of Lightning (Heroic)"] = "번개의 전당 (영웅)";
@@ -192,6 +191,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Icecrown Citadel (10H)"] = "얼음왕관 성채 (10인 (영웅))";
   LBIS.L["Icecrown Citadel (25)"] = "얼음왕관 성채 (25)";
   LBIS.L["Icecrown Citadel (25H)"] = "얼음왕관 성채 (25인 (영웅))";
+  LBIS.L["Icecrown Gunship Battle"] = "얼음왕관 비행포격선 전투";
   LBIS.L["Ichoron"] = "이코론";
   LBIS.L["Ignis the Furnace Master"] = "용광로 군주 이그니스";
   LBIS.L["Infinite Corruptor"] = "무한의 타락자";
