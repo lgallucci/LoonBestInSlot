@@ -8,7 +8,7 @@ using PuppeteerSharp;
 namespace AddonManager;
 public static class Common
 {
-    public static async Task LoadFromWebPages(List<string> pageAddresses, Func<string, string, Task> func, CancellationToken? cancelToken = null)
+    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Func<string, string, Task> func, CancellationToken? cancelToken = null)
     {
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
@@ -69,9 +69,9 @@ public static class Common
         }
     }
 
-    internal static async Task ReadWowheadContainsList(List<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
+    internal static async Task ReadWowheadContainsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
-        var total = webAddresses.Count;
+        var total = webAddresses.Count();
         var count = 0;
         await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
         {
@@ -84,9 +84,9 @@ public static class Common
         });
     }
 
-    internal static async Task ReadWowheadDropsList(List<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
+    internal static async Task ReadWowheadDropsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
-        var total = webAddresses.Count;
+        var total = webAddresses.Count();
         var count = 0;
         await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
         {
@@ -99,9 +99,31 @@ public static class Common
         });
     }
 
-    internal static async Task ReadWowheadSellsList(List<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
+    internal static async Task ReadEvoWowSellsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
-        var total = webAddresses.Count;
+        var total = webAddresses.Count();
+        var count = 0;
+        await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
+        {
+            writeToLog($"Reading from: {uri} {++count}/{total}");
+            var parser = new HtmlParser();
+            var doc = default(IHtmlDocument);
+            doc = await parser.ParseDocumentAsync(content);
+
+            ReadEvoWowSellsList(doc, uri, func);
+        });
+    }
+
+    internal static void ReadEvoWowSellsList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
+    {
+        var rowElements = doc.QuerySelectorAll("#tab-currency-for .listview-mode-default tr");
+
+        ReadEvoWowItemsList(doc, uri, rowElements, func);
+    }
+
+    internal static async Task ReadWowheadSellsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
+    {
+        var total = webAddresses.Count();
         var count = 0;
         await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
         {
@@ -134,7 +156,43 @@ public static class Common
         ReadWowheadItemsList(doc, uri, rowElements, func);
     }
 
-    private static void ReadWowheadItemsList(IHtmlDocument doc, string uri, IHtmlCollection<IElement> rowElements, Action<string, IElement, int, IElement> func) 
+    private static void ReadEvoWowItemsList(IHtmlDocument doc, string uri, IHtmlCollection<IElement> rowElements, Action<string, IElement, int, IElement> func)
+    {
+        if (rowElements != null && rowElements.Length > 0)
+        {
+            bool skipFirst = false;
+            foreach (var row in rowElements)
+            {
+                if (!skipFirst)
+                {
+                    skipFirst = true;
+                    continue;
+                }
+
+                var success = false;
+                var itemId = 0; // Get ItemId from Row
+                var itemName = "";
+
+                RecursiveBoxSearch(row.Children[2], (anchorObject) =>
+                {
+                    if (success) return true;
+
+                    var item = ((IHtmlAnchorElement)anchorObject).Search.Replace("?item=", "").Replace("?spell=", "");
+                    itemName = anchorObject.TextContent;
+
+                    success = Int32.TryParse(item, out itemId);
+
+                    func(uri, row, itemId, anchorObject);
+
+                    return success;
+                });
+
+            }
+        }
+    }
+
+
+    private static void ReadWowheadItemsList(IHtmlDocument doc, string uri, IHtmlCollection<IElement> rowElements, Action<string, IElement, int, IElement> func)
     {
         if (rowElements != null && rowElements.Length > 0)
         {

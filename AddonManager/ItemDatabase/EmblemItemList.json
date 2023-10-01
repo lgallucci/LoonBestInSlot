@@ -9056,6 +9056,86 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "50106": {
+      "Name": "Lasherweave Robes",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50107": {
+      "Name": "Lasherweave Gauntlets",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50108": {
+      "Name": "Lasherweave Helmet",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50109": {
+      "Name": "Lasherweave Legplates",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50113": {
+      "Name": "Lasherweave Pauldrons",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50114": {
+      "Name": "Ahn'Kahar Blood Hunter's Handguards",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50115": {
+      "Name": "Ahn'Kahar Blood Hunter's Headpiece",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50116": {
+      "Name": "Ahn'Kahar Blood Hunter's Legguards",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50117": {
+      "Name": "Ahn'Kahar Blood Hunter's Spaulders",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50118": {
+      "Name": "Ahn'Kahar Blood Hunter's Tunic",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "50240": {
       "Name": "Dark Coven Gloves",
       "Source": "Emblem of Frost",
@@ -9381,6 +9461,206 @@
       "Source": "Emblem of Frost",
       "SourceType": "Dungeon Token",
       "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50819": {
+      "Name": "Lasherweave Mantle",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50820": {
+      "Name": "Lasherweave Trousers",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50821": {
+      "Name": "Lasherweave Cover",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50822": {
+      "Name": "Lasherweave Gloves",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50823": {
+      "Name": "Lasherweave Vestment",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50824": {
+      "Name": "Lasherweave Shoulderpads",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50825": {
+      "Name": "Lasherweave Legguards",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50826": {
+      "Name": "Lasherweave Headguard",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50827": {
+      "Name": "Lasherweave Handgrips",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50828": {
+      "Name": "Lasherweave Raiment",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50830": {
+      "Name": "Frost Witch's Chestguard",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50831": {
+      "Name": "Frost Witch's Grips",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50832": {
+      "Name": "Frost Witch's Faceguard",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50833": {
+      "Name": "Frost Witch's War-Kilt",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50834": {
+      "Name": "Frost Witch's Shoulderguards",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50835": {
+      "Name": "Frost Witch's Tunic",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50836": {
+      "Name": "Frost Witch's Handguards",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50837": {
+      "Name": "Frost Witch's Headpiece",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50838": {
+      "Name": "Frost Witch's Legguards",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50839": {
+      "Name": "Frost Witch's Spaulders",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50841": {
+      "Name": "Frost Witch's Hauberk",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50842": {
+      "Name": "Frost Witch's Gloves",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50843": {
+      "Name": "Frost Witch's Helm",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50844": {
+      "Name": "Frost Witch's Kilt",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "95",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "50845": {
+      "Name": "Frost Witch's Shoulderpads",
+      "Source": "Emblem of Frost",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -9840,6 +10120,166 @@
       "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
+    "51135": {
+      "Name": "Sanctified Lasherweave Pauldrons",
+      "Source": "Vanquisher's Mark & {50113}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51136": {
+      "Name": "Sanctified Lasherweave Legplates",
+      "Source": "Vanquisher's Mark & {50109}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51137": {
+      "Name": "Sanctified Lasherweave Helmet",
+      "Source": "Vanquisher's Mark & {50108}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51138": {
+      "Name": "Sanctified Lasherweave Gauntlets",
+      "Source": "Vanquisher's Mark & {50107}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51139": {
+      "Name": "Sanctified Lasherweave Robes",
+      "Source": "Vanquisher's Mark & {50106}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51140": {
+      "Name": "Sanctified Lasherweave Shoulderpads",
+      "Source": "Vanquisher's Mark & {50824}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51141": {
+      "Name": "Sanctified Lasherweave Raiment",
+      "Source": "Vanquisher's Mark & {50828}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51142": {
+      "Name": "Sanctified Lasherweave Legguards",
+      "Source": "Vanquisher's Mark & {50825}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51143": {
+      "Name": "Sanctified Lasherweave Headguard",
+      "Source": "Vanquisher's Mark & {50826}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51144": {
+      "Name": "Sanctified Lasherweave Handgrips",
+      "Source": "Vanquisher's Mark & {50827}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51145": {
+      "Name": "Sanctified Lasherweave Vestment",
+      "Source": "Vanquisher's Mark & {50823}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51146": {
+      "Name": "Sanctified Lasherweave Trousers",
+      "Source": "Vanquisher's Mark & {50820}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51147": {
+      "Name": "Sanctified Lasherweave Mantle",
+      "Source": "Vanquisher's Mark & {50819}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51148": {
+      "Name": "Sanctified Lasherweave Gloves",
+      "Source": "Vanquisher's Mark & {50822}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51149": {
+      "Name": "Sanctified Lasherweave Cover",
+      "Source": "Vanquisher's Mark & {50821}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51150": {
+      "Name": "Sanctified Ahn'Kahar Blood Hunter's Tunic",
+      "Source": "Protector's Mark & {50118}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51151": {
+      "Name": "Sanctified Ahn'Kahar Blood Hunter's Spaulders",
+      "Source": "Protector's Mark & {50117}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51152": {
+      "Name": "Sanctified Ahn'Kahar Blood Hunter's Legguards",
+      "Source": "Protector's Mark & {50116}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51153": {
+      "Name": "Sanctified Ahn'Kahar Blood Hunter's Headpiece",
+      "Source": "Protector's Mark & {50115}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51154": {
+      "Name": "Sanctified Ahn'Kahar Blood Hunter's Handguards",
+      "Source": "Protector's Mark & {50114}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
     "51160": {
       "Name": "Sanctified Lightsworn Shoulderplates",
       "Source": "Conqueror's Mark & {50324}",
@@ -10075,6 +10515,126 @@
     "51189": {
       "Name": "Sanctified Shadowblade Breastplate",
       "Source": "Vanquisher's Mark & {50087}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51190": {
+      "Name": "Sanctified Frost Witch's Tunic",
+      "Source": "Protector's Mark & {50835}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51191": {
+      "Name": "Sanctified Frost Witch's Handguards",
+      "Source": "Protector's Mark & {50836}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51192": {
+      "Name": "Sanctified Frost Witch's Headpiece",
+      "Source": "Protector's Mark & {50837}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51193": {
+      "Name": "Sanctified Frost Witch's Legguards",
+      "Source": "Protector's Mark & {50838}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51194": {
+      "Name": "Sanctified Frost Witch's Spaulders",
+      "Source": "Protector's Mark & {50839}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51195": {
+      "Name": "Sanctified Frost Witch's Chestguard",
+      "Source": "Protector's Mark & {50830}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51196": {
+      "Name": "Sanctified Frost Witch's Grips",
+      "Source": "Protector's Mark & {50831}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51197": {
+      "Name": "Sanctified Frost Witch's Faceguard",
+      "Source": "Protector's Mark & {50832}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51198": {
+      "Name": "Sanctified Frost Witch's War-Kilt",
+      "Source": "Protector's Mark & {50833}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51199": {
+      "Name": "Sanctified Frost Witch's Shoulderguards",
+      "Source": "Protector's Mark & {50834}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51200": {
+      "Name": "Sanctified Frost Witch's Hauberk",
+      "Source": "Protector's Mark & {50841}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51201": {
+      "Name": "Sanctified Frost Witch's Gloves",
+      "Source": "Protector's Mark & {50842}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51202": {
+      "Name": "Sanctified Frost Witch's Helm",
+      "Source": "Protector's Mark & {50843}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51203": {
+      "Name": "Sanctified Frost Witch's Kilt",
+      "Source": "Protector's Mark & {50844}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51204": {
+      "Name": "Sanctified Frost Witch's Shoulderpads",
+      "Source": "Protector's Mark & {50845}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Icecrown Citadel",
@@ -10320,12 +10880,132 @@
       "SourceLocation": "Icecrown Citadel",
       "SourceFaction": "B"
     },
+    "51235": {
+      "Name": "Sanctified Frost Witch's Shoulderpads",
+      "Source": "Protector's Mark (H) & {51204}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51236": {
+      "Name": "Sanctified Frost Witch's Kilt",
+      "Source": "Protector's Mark (H) & {51203}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51237": {
+      "Name": "Sanctified Frost Witch's Helm",
+      "Source": "Protector's Mark (H) & {51202}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51238": {
+      "Name": "Sanctified Frost Witch's Gloves",
+      "Source": "Protector's Mark (H) & {51201}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51239": {
+      "Name": "Sanctified Frost Witch's Hauberk",
+      "Source": "Protector's Mark (H) & {51200}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51240": {
+      "Name": "Sanctified Frost Witch's Shoulderguards",
+      "Source": "Protector's Mark (H) & {51199}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51241": {
+      "Name": "Sanctified Frost Witch's War-Kilt",
+      "Source": "Protector's Mark (H) & {51198}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51242": {
+      "Name": "Sanctified Frost Witch's Faceguard",
+      "Source": "Protector's Mark (H) & {51197}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51243": {
+      "Name": "Sanctified Frost Witch's Grips",
+      "Source": "Protector's Mark (H) & {51196}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51244": {
+      "Name": "Sanctified Frost Witch's Chestguard",
+      "Source": "Protector's Mark (H) & {51195}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51245": {
+      "Name": "Sanctified Frost Witch's Spaulders",
+      "Source": "Protector's Mark (H) & {51194}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51246": {
+      "Name": "Sanctified Frost Witch's Legguards",
+      "Source": "Protector's Mark (H) & {51193}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51247": {
+      "Name": "Sanctified Frost Witch's Headpiece",
+      "Source": "Protector's Mark (H) & {51192}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51248": {
+      "Name": "Sanctified Frost Witch's Handguards",
+      "Source": "Protector's Mark (H) & {51191}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51249": {
+      "Name": "Sanctified Frost Witch's Tunic",
+      "Source": "Protector's Mark (H) & {51190}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
     "51250": {
       "Name": "Sanctified Shadowblade Breastplate",
       "Source": "Vanquisher's Mark (H) & {51189}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Icecrown Citadel",
+      "SourceLocation": "Icecrown Citadel (H)",
       "SourceFaction": "B"
     },
     "51251": {
@@ -10333,7 +11013,7 @@
       "Source": "Vanquisher's Mark (H) & {51188}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Icecrown Citadel",
+      "SourceLocation": "Icecrown Citadel (H)",
       "SourceFaction": "B"
     },
     "51252": {
@@ -10341,7 +11021,7 @@
       "Source": "Vanquisher's Mark (H) & {51187}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Icecrown Citadel",
+      "SourceLocation": "Icecrown Citadel (H)",
       "SourceFaction": "B"
     },
     "51253": {
@@ -10349,7 +11029,7 @@
       "Source": "Vanquisher's Mark (H) & {51186}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Icecrown Citadel",
+      "SourceLocation": "Icecrown Citadel (H)",
       "SourceFaction": "B"
     },
     "51254": {
@@ -10357,7 +11037,7 @@
       "Source": "Vanquisher's Mark (H) & {51185}",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
-      "SourceLocation": "Icecrown Citadel",
+      "SourceLocation": "Icecrown Citadel (H)",
       "SourceFaction": "B"
     },
     "51255": {
@@ -10558,6 +11238,166 @@
       "SourceType": "Dungeon Token",
       "SourceNumber": "1 & 1",
       "SourceLocation": "Icecrown Citadel",
+      "SourceFaction": "B"
+    },
+    "51285": {
+      "Name": "Sanctified Ahn'Kahar Blood Hunter's Handguards",
+      "Source": "Protector's Mark (H) & {51154}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51286": {
+      "Name": "Sanctified Ahn'Kahar Blood Hunter's Headpiece",
+      "Source": "Protector's Mark (H) & {51153}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51287": {
+      "Name": "Sanctified Ahn'Kahar Blood Hunter's Legguards",
+      "Source": "Protector's Mark (H) & {51152}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51288": {
+      "Name": "Sanctified Ahn'Kahar Blood Hunter's Spaulders",
+      "Source": "Protector's Mark (H) & {51151}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51289": {
+      "Name": "Sanctified Ahn'Kahar Blood Hunter's Tunic",
+      "Source": "Protector's Mark (H) & {51150}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51290": {
+      "Name": "Sanctified Lasherweave Cover",
+      "Source": "Vanquisher's Mark (H) & {51149}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51291": {
+      "Name": "Sanctified Lasherweave Gloves",
+      "Source": "Vanquisher's Mark (H) & {51148}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51292": {
+      "Name": "Sanctified Lasherweave Mantle",
+      "Source": "Vanquisher's Mark (H) & {51147}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51293": {
+      "Name": "Sanctified Lasherweave Trousers",
+      "Source": "Vanquisher's Mark (H) & {51146}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51294": {
+      "Name": "Sanctified Lasherweave Vestment",
+      "Source": "Vanquisher's Mark (H) & {51145}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51295": {
+      "Name": "Sanctified Lasherweave Handgrips",
+      "Source": "Vanquisher's Mark (H) & {51144}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51296": {
+      "Name": "Sanctified Lasherweave Headguard",
+      "Source": "Vanquisher's Mark (H) & {51143}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51297": {
+      "Name": "Sanctified Lasherweave Legguards",
+      "Source": "Vanquisher's Mark (H) & {51142}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51298": {
+      "Name": "Sanctified Lasherweave Raiment",
+      "Source": "Vanquisher's Mark (H) & {51141}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51299": {
+      "Name": "Sanctified Lasherweave Shoulderpads",
+      "Source": "Vanquisher's Mark (H) & {51140}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51300": {
+      "Name": "Sanctified Lasherweave Robes",
+      "Source": "Vanquisher's Mark (H) & {51139}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51301": {
+      "Name": "Sanctified Lasherweave Gauntlets",
+      "Source": "Vanquisher's Mark (H) & {51138}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51302": {
+      "Name": "Sanctified Lasherweave Helmet",
+      "Source": "Vanquisher's Mark (H) & {51137}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51303": {
+      "Name": "Sanctified Lasherweave Legplates",
+      "Source": "Vanquisher's Mark (H) & {51136}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
+      "SourceFaction": "B"
+    },
+    "51304": {
+      "Name": "Sanctified Lasherweave Pauldrons",
+      "Source": "Vanquisher's Mark (H) & {51135}",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1 & 1",
+      "SourceLocation": "Icecrown Citadel (H)",
       "SourceFaction": "B"
     },
     "51305": {
