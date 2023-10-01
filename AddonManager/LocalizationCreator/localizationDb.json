@@ -398,7 +398,8 @@
       "The Fate of Bloodbane": "El destino de Malasangre",
       "The Flesh Giant Champion": "El gigante de carne campeón",
       "Tirion's Gambit": "Gambito de Tirion",
-      "The Cleansing Of Jintha'kalar": "La limpieza de Jintha'kalar"
+      "The Cleansing Of Jintha'kalar": "La limpieza de Jintha'kalar",
+      "Hallow's End": "Halloween"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -773,7 +774,9 @@
       "Tirion's Gambit": "Gambito de Tirion",
       "The Cleansing Of Jintha'kalar": "La limpieza de Jintha'kalar",
       "Icecrown Citadel (10H)": "Ciudadela de la Corona de Hielo (10H)",
-      "Icecrown Citadel (25H)": "Ciudadela de la Corona de Hielo (25H)"
+      "Icecrown Citadel (25H)": "Ciudadela de la Corona de Hielo (25H)",
+      "Brewfest": "Fiesta de la Cerveza",
+      "Hallow's End": "Halloween"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -1225,7 +1228,8 @@
       "The Fate of Bloodbane": "Blutbanns Schicksal",
       "The Flesh Giant Champion": "Der gigantische Fleischgigant",
       "Tirion's Gambit": "Tirions Schachzug",
-      "The Cleansing Of Jintha'kalar": "Die Säuberung von Jintha'kalar"
+      "The Cleansing Of Jintha'kalar": "Die Säuberung von Jintha'kalar",
+      "Hallow's End": "Schlotternächte"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -1602,7 +1606,16 @@
       "The Fate of Bloodbane": "Le destin de Sangreplaie",
       "The Flesh Giant Champion": "Le champion des géants de chair",
       "Tirion's Gambit": "Le gambit de Tirion",
-      "The Cleansing Of Jintha'kalar": "La purification de Jintha'kalar"
+      "The Cleansing Of Jintha'kalar": "La purification de Jintha'kalar",
+      "Brewfest": "Fête des Brasseurs",
+      "Emblem of Conquest": "Emblème de conquête",
+      "Emblem of Frost": "Emblème de givre",
+      "Emblem of Heroism": "Emblème d'héroïsme",
+      "Emblem of Triumph": "Emblème de triomphe",
+      "Emblem of Valor": "Emblème de vaillance",
+      "Hallow's End": "Sanssaint",
+      "Sidereal Essence": "Essence sidérale",
+      "Token": "Marque d’ensemble"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -1976,7 +1989,15 @@
       "Tirion's Gambit": "Уловка Тириона",
       "The Cleansing Of Jintha'kalar": "Очищение Джинта'калара",
       "Icecrown Citadel (10H)": "Цитадель Ледяной Короны (10 Гер )",
-      "Icecrown Citadel (25H)": "Цитадель Ледяной Короны (25 Гер)"
+      "Icecrown Citadel (25H)": "Цитадель Ледяной Короны (25 Гер)",
+      "Brewfest": "Хмельной фестиваль",
+      "Emblem of Conquest": "Эмблема завоевания",
+      "Emblem of Frost": "Эмблема Льда",
+      "Emblem of Heroism": "Эмблема героизма",
+      "Emblem of Triumph": "Эмблема триумфа",
+      "Emblem of Valor": "Эмблема доблести",
+      "Hallow's End": "Тыквовин",
+      "Token": "Фрагмент"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -2350,7 +2371,15 @@
       "Tirion's Gambit": "提里奥的尝试",
       "The Cleansing Of Jintha'kalar": "净化金萨卡拉",
       "Icecrown Citadel (10H)": "冰冠堡垒 (10人英雄)",
-      "Icecrown Citadel (25H)": "冰冠堡垒 (25人英雄)"
+      "Icecrown Citadel (25H)": "冰冠堡垒 (25人英雄)",
+      "Brewfest": "美酒节",
+      "Emblem of Conquest": "征服纹章",
+      "Emblem of Frost": "寒冰纹章",
+      "Emblem of Heroism": "英雄纹章",
+      "Emblem of Triumph": "凯旋纹章",
+      "Emblem of Valor": "勇气纹章",
+      "Hallow's End": "万圣节",
+      "Token": "代币"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -2824,7 +2853,9 @@
       "Sindragosa": "신드라고사",
       "The Lich King": "리치 왕",
       "Valithria Dreamwalker": "발리스리아 드림워커",
-      "The Cleansing Of Jintha'kalar": "진타칼라르 정화"
+      "The Cleansing Of Jintha'kalar": "진타칼라르 정화",
+      "Emblem of Frost": "서리의 문장",
+      "Emblem of Triumph": "승전의 문장"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -3197,7 +3228,15 @@
       "Tirion's Gambit": "提里奧的決斷",
       "The Cleansing Of Jintha'kalar": "辛薩卡拉的淨化",
       "Icecrown Citadel (10H)": "冰冠城塞 (10H)",
-      "Icecrown Citadel (25H)": "冰冠城塞 (25H)"
+      "Icecrown Citadel (25H)": "冰冠城塞 (25H)",
+      "Brewfest": "啤酒節",
+      "Emblem of Conquest": "征服纹章",
+      "Emblem of Frost": "冰霜纹章",
+      "Emblem of Heroism": "英雄紋章",
+      "Emblem of Triumph": "凯旋纹章",
+      "Emblem of Valor": "勇氣紋章",
+      "Hallow's End": "萬鬼節",
+      "Token": "代幣"
     }
   }
 }

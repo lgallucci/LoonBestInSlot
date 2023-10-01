@@ -429,39 +429,48 @@ public static class LocalizationFileManager
         }
         var alcPath = $@"{Constants.LocalizationPath}\AtlasLootClassic\";
         var alcPath2 = $@"{Constants.LocalizationPath}\AtlasLootClassic_Collections\";
+        var alcPath3 = $@"{Constants.LocalizationPath}\AtlasLootClassic_DungeonAndRaid\";
         switch (language)
         {
             case "esES":
                 alcPath += "constants.es.lua";
                 alcPath2 += "constants.es.lua";
+                alcPath3 += "constants.es.lua";
                 break;
             case "esMX":
                 alcPath += "constants.mx.lua";
                 alcPath2 += "constants.mx.lua";
+                alcPath3 += "constants.mx.lua";
                 break;
             case "deDE":
                 alcPath += "constants.de.lua";
                 alcPath2 += "constants.de.lua";
+                alcPath3 += "constants.de.lua";
                 break;
             case "frFR":
                 alcPath += "constants.fr.lua";
                 alcPath2 += "constants.fr.lua";
+                alcPath3 += "constants.fr.lua";
                 break;
             case "ruRU":
                 alcPath += "constants.ru.lua";
                 alcPath2 += "constants.ru.lua";
+                alcPath3 += "constants.ru.lua";
                 break;
             case "zhCN":
                 alcPath += "constants.cn.lua";
                 alcPath2 += "constants.cn.lua";
+                alcPath3 += "constants.cn.lua";
                 break;
             case "koKR":
                 alcPath += "constants.kr.lua";
                 alcPath2 += "constants.kr.lua";
+                alcPath3 += "constants.kr.lua";
                 break;
             case "zhTW":
                 alcPath += "constants.tw.lua";
                 alcPath2 += "constants.tw.lua";
+                alcPath3 += "constants.tw.lua";
                 break;
         }
 
@@ -475,6 +484,14 @@ public static class LocalizationFileManager
         }
         string[] itemSources2 = System.IO.File.ReadAllLines(alcPath2);
         foreach (var line in itemSources2)
+        {
+            if (!line.StartsWith("AL["))
+                continue;
+
+            AddStringToLocalization(ref localizations, line, 3);
+        }
+        string[] itemSources3 = System.IO.File.ReadAllLines(alcPath3);
+        foreach (var line in itemSources3)
         {
             if (!line.StartsWith("AL["))
                 continue;

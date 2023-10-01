@@ -34,7 +34,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Argent Confessor Paletress"] = "银色神官帕尔崔丝";
   LBIS.L["Argent Crusade"] = "银色北伐军";
   LBIS.L["Argent Crusade (Revered)"] = "银色北伐军 (崇敬)";
---  LBIS.L["Argent Crusade Tribute Chest"] = "";
+  LBIS.L["Argent Crusade Tribute Chest"] = "银色北伐军嘉奖宝箱";
   LBIS.L["Arms"] = "武器";
   LBIS.L["Assassination"] = "奇袭";
   LBIS.L["Auriaya"] = "欧尔莉亚";

@@ -34,7 +34,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Argent Confessor Paletress"] = "은빛 고해사제 페일트리스";
   LBIS.L["Argent Crusade"] = "은빛십자군";
   LBIS.L["Argent Crusade (Revered)"] = "은빛십자군 (매우 우호적)";
---  LBIS.L["Argent Crusade Tribute Chest"] = "";
+  LBIS.L["Argent Crusade Tribute Chest"] = "십자군의 시험장 공물";
   LBIS.L["Arms"] = "무기";
   LBIS.L["Assassination"] = "암살";
   LBIS.L["Auriaya"] = "아우리아야";

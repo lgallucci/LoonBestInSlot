@@ -34,7 +34,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Argent Confessor Paletress"] = "Исповедница Серебряного Авангарда Пейлтресс";
   LBIS.L["Argent Crusade"] = "Серебряный Авангард";
   LBIS.L["Argent Crusade (Revered)"] = "Серебряный Авангард (Почтение)";
---  LBIS.L["Argent Crusade Tribute Chest"] = "";
+  LBIS.L["Argent Crusade Tribute Chest"] = "Испытания Крестоносца поход за сундуком";
   LBIS.L["Arms"] = "Оружие";
   LBIS.L["Assassination"] = "Убийство";
   LBIS.L["Auriaya"] = "Ауриайя";

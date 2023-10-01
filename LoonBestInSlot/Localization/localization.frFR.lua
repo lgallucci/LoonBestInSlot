@@ -34,7 +34,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Argent Confessor Paletress"] = "Confesseur d'argent Paletress";
   LBIS.L["Argent Crusade"] = "Croisade d'argent";
   LBIS.L["Argent Crusade (Revered)"] = "Croisade d'argent (Révéré)";
---  LBIS.L["Argent Crusade Tribute Chest"] = "";
+  LBIS.L["Argent Crusade Tribute Chest"] = "Coffre d'offrande de la Croisade d'argent";
   LBIS.L["Arms"] = "Armes";
   LBIS.L["Assassination"] = "Assassinat";
   LBIS.L["Auriaya"] = "Auriaya";
