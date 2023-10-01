@@ -289,10 +289,10 @@ LBIS:AddItem(spec4, "51214", LBIS.L["Chest"], "Alt") --Sanctified Ymirjar Lord's
 LBIS:AddItem(spec4, "50078", LBIS.L["Chest"], "Alt") --Ymirjar Lord's Battleplate
 LBIS:AddItem(spec4, "51923", LBIS.L["Chest"], "Alt") --Chestguard of the Frigid Noose
 LBIS:AddItem(spec4, "50670", LBIS.L["Wrist"], "BIS") --Toskk's Maximized Wristguards
-LBIS:AddItem(spec4, "47442", LBIS.L["Wrist"], "BIS") --Bracers of the Silent Massacre
-LBIS:AddItem(spec4, "47074", LBIS.L["Wrist"], "BIS") --Bracers of the Untold Massacre
 LBIS:AddItem(spec4, "50659", LBIS.L["Wrist"], "Alt") --Polar Bear Claw Bracers
 LBIS:AddItem(spec4, "50655", LBIS.L["Wrist"], "Alt") --Scourge Hunter's Vambraces
+LBIS:AddItem(spec4, "47442", LBIS.L["Wrist"], "Alt") --Bracers of the Silent Massacre
+LBIS:AddItem(spec4, "47074", LBIS.L["Wrist"], "Alt") --Bracers of the Untold Massacre
 LBIS:AddItem(spec4, "50675", LBIS.L["Hands"], "BIS") --Aldriana's Gloves of Secrecy
 LBIS:AddItem(spec4, "51904", LBIS.L["Hands"], "BIS") --Scourge Stranglers
 LBIS:AddItem(spec4, "50690", LBIS.L["Hands"], "Alt") --Fleshrending Gauntlets

@@ -473,7 +473,7 @@ LBIS:AddItem(spec4, "51866", LBIS.L["Head"], "Alt") --Discarded Bag of Entrails
 LBIS:AddItem(spec4, "50713", LBIS.L["Head"], "Alt") --Geistlord's Punishment Sack
 LBIS:AddItem(spec4, "51013", LBIS.L["Head"], "Alt") --Discarded Bag of Entrails
 LBIS:AddItem(spec4, "50073", LBIS.L["Head"], "Alt") --Geistlord's Punishment Sack
-LBIS:AddItem(spec4, "51745", LBIS.L["Head"], "Alt") --Shadowblade Helmet
+LBIS:AddItem(spec4, "50089", LBIS.L["Head"], "Alt") --Shadowblade Helmet
 LBIS:AddItem(spec4, "48230", LBIS.L["Head"], "Alt") --VanCleef's Helmet of Triumph
 LBIS:AddItem(spec4, "48235", LBIS.L["Head"], "Alt") --Garona's Helmet of Triumph
 LBIS:AddItem(spec4, "48225", LBIS.L["Head"], "Alt") --VanCleef's Helmet of Triumph

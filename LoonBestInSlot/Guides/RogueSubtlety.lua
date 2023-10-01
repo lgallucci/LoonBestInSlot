@@ -483,7 +483,7 @@ LBIS:AddItem(spec4, "50713", LBIS.L["Head"], "Alt") --Geistlord's Punishment Sac
 LBIS:AddItem(spec4, "51013", LBIS.L["Head"], "Alt") --Discarded Bag of Entrails
 LBIS:AddItem(spec4, "50073", LBIS.L["Head"], "Alt") --Geistlord's Punishment Sack
 LBIS:AddItem(spec4, "49477", LBIS.L["Head"], "Alt") --Bloodfang Hood
-LBIS:AddItem(spec4, "51745", LBIS.L["Head"], "Alt") --Shadowblade Helmet
+LBIS:AddItem(spec4, "50089", LBIS.L["Head"], "Alt") --Shadowblade Helmet
 LBIS:AddItem(spec4, "47689", LBIS.L["Head"], "Alt") --Hood of Lethal Intent
 LBIS:AddItem(spec4, "47688", LBIS.L["Head"], "Alt") --Mask of Lethal Intent
 LBIS:AddItem(spec4, "48230", LBIS.L["Head"], "Alt") --VanCleef's Helmet of Triumph
