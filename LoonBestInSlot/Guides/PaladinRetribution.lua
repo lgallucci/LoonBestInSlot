@@ -562,7 +562,6 @@ LBIS:AddItem(spec4, "45609", LBIS.L["Trinket"], "BIS") --Comet's Trail
 LBIS:AddItem(spec4, "46038", LBIS.L["Trinket"], "BIS") --Dark Matter
 LBIS:AddItem(spec4, "50343", LBIS.L["Trinket"], "Alt") --Whispering Fanged Skull
 LBIS:AddItem(spec4, "50363", LBIS.L["Trinket"], "Alt") --Deathbringer's Will
-LBIS:AddItem(spec4, "37813", LBIS.L["Trinket"], "Alt") --Banner Slicer
 LBIS:AddItem(spec4, "45263", LBIS.L["Trinket"], "Alt") --Wrathstone
 LBIS:AddItem(spec4, "40684", LBIS.L["Trinket"], "Alt") --Mirror of Truth
 LBIS:AddItem(spec4, "49623", LBIS.L["Two Hand"], "BIS") --Shadowmourne

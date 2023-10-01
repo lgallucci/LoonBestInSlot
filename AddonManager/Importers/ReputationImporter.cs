@@ -17,7 +17,8 @@ public class ReputationImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=32287/archmage-alvareaux", "Kirin Tor" },
         { @"https://www.wowhead.com/wotlk/npc=30431/veteran-crusader-aliocha-segard", "Argent Crusade" },
         { @"https://www.wowhead.com/wotlk/npc=32565/gara-skullcrush", "Horde Expedition" },
-        { @"https://www.wowhead.com/wotlk/npc=32773/logistics-officer-brighton", "Alliance Vanguard" }
+        { @"https://www.wowhead.com/wotlk/npc=32773/logistics-officer-brighton", "Alliance Vanguard" },
+        { @"https://www.wowhead.com/wotlk/npc=37687/alchemist-finklestein", "Ashen Verdict" }
     };
 
     internal override string FileName { get => "ReputationItemList"; }
