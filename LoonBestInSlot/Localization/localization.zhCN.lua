@@ -1,6 +1,8 @@
 if GetLocale() == "zhCN" then
   LBIS.L["# Best for:"] = "# 最适合";
 --  LBIS.L["10000 Honor (PvP)"] = " (PvP)";
+--  LBIS.L["A Victory For The Silver Covenant"] = "";
+--  LBIS.L["A Victory For The Sunreavers"] = "";
   LBIS.L["A Wing and a Prayer"] = "龙翼之力";
 --  LBIS.L["Accessories Quartermaster"] = "";
   LBIS.L["Affliction"] = "痛苦";
@@ -52,12 +54,14 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["BIS"] = "";
   LBIS.L["Blacksmithing"] = "锻造";
   LBIS.L["Blood"] = "鲜血";
+  LBIS.L["Blood-Queen Lana'thel"] = "鲜血女王兰娜瑟尔";
   LBIS.L["Borean Tundra"] = "北风苔原";
 --  LBIS.L["Brewfest"] = "";
 --  LBIS.L["Cat"] = "";
   LBIS.L["Cenarion Expedition (Revered)"] = "塞纳里奥远征队 (崇敬)";
   LBIS.L["Changing the Wind's Course"] = "改变风向";
   LBIS.L["Chest"] = "胸部";
+--  LBIS.L["Choose Your Path"] = "";
   LBIS.L["Chrono-Lord Epoch"] = "时光领主埃博克";
 --  LBIS.L["Cielstrasza"] = "";
   LBIS.L["Clipping Their Wings"] = "蝙蝠翅膀";
@@ -66,6 +70,8 @@ if GetLocale() == "zhCN" then
   LBIS.L["Combat"] = "战斗";
   LBIS.L["Commander Kolurg"] = "指挥官库鲁尔格";
   LBIS.L["Commander Stoutbeard"] = "指挥官斯托比德";
+--  LBIS.L["Conqueror's Mark"] = "";
+--  LBIS.L["Conqueror's Mark (H)"] = "";
   LBIS.L["Coren Direbrew"] = "科林·烈酒";
   LBIS.L["Custom"] = "自定义";
   LBIS.L["Cyanigosa"] = "塞安妮苟萨";
@@ -77,6 +83,8 @@ if GetLocale() == "zhCN" then
   LBIS.L["Darkmoon Prisms Deck"] = "暗月棱镜套牌";
   LBIS.L["Darkmoon Undeath Deck"] = "暗月死灵套牌";
   LBIS.L["Death to the Traitor King"] = "叛徒国王之死";
+  LBIS.L["Deathbringer Saurfang"] = "死亡使者萨鲁法尔";
+--  LBIS.L["Defiler's Scourgestone"] = "";
   LBIS.L["Demolitionist Extraordinaire"] = "杰出的爆破专家";
   LBIS.L["Demonology"] = "恶魔学识";
 --  LBIS.L["Deselect"] = "";
@@ -99,6 +107,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Elemental"] = "元素";
   LBIS.L["Emalon the Storm Watcher"] = "风暴看守者埃玛尔隆";
 --  LBIS.L["Emblem of Conquest"] = "";
+--  LBIS.L["Emblem of Frost"] = "";
 --  LBIS.L["Emblem of Heroism"] = "";
 --  LBIS.L["Emblem of Triumph"] = "";
 --  LBIS.L["Emblem of Valor"] = "";
@@ -113,6 +122,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Faction Champions"] = "阵营冠军";
 --  LBIS.L["Fedryen Swiftspear"] = "";
   LBIS.L["Feet"] = "脚";
+  LBIS.L["Festergut"] = "烂肠";
 --  LBIS.L["Final Boss"] = "";
   LBIS.L["Fire"] = "火焰";
   LBIS.L["Fishing"] = "钓鱼";
@@ -149,6 +159,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Gundrak (Heroic+)"] = "古达克 (英雄+)";
   LBIS.L["Gundrak (Heroic++)"] = "古达克 (英雄++)";
   LBIS.L["Gundrak (Normal)"] = "古达克 (一般)";
+--  LBIS.L["Gunship Battle"] = "";
   LBIS.L["Hadronox"] = "哈多诺克斯";
 --  LBIS.L["Hallow's End"] = "";
   LBIS.L["Halls of Lightning (Heroic)"] = "闪电大厅 (英雄)";
@@ -176,6 +187,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Honor Points"] = "荣誉点数";
   LBIS.L["Honored"] = "尊敬";
   LBIS.L["Icecrown"] = "冰冠冰川";
+  LBIS.L["Icecrown Citadel"] = "冰冠堡垒";
   LBIS.L["Icecrown Citadel (10)"] = "冰冠堡垒 (10)";
 --  LBIS.L["Icecrown Citadel (10H)"] = "冰冠堡垒";
   LBIS.L["Icecrown Citadel (25)"] = "冰冠堡垒 (25)";
@@ -208,6 +220,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Koralon the Flame Watcher"] = "火焰看守者科拉隆";
   LBIS.L["Krik'thir the Gatewatcher"] = "看门者克里克希尔";
   LBIS.L["Krystallus"] = "克莱斯塔卢斯";
+  LBIS.L["Lady Deathwhisper"] = "亡语者女士";
   LBIS.L["Lavanthor"] = "拉文索尔";
   LBIS.L["Leatherworking"] = "制皮";
   LBIS.L["Left Click"] = "鼠标左击";
@@ -220,6 +233,8 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Loon Best In Slot"] = "";
 --  LBIS.L["Loon Best In Slot Browser"] = "";
   LBIS.L["Lord Jaraxxus"] = "加拉克苏斯大王";
+  LBIS.L["Lord Marrowgar"] = "玛洛加尔领主";
+--  LBIS.L["Lower Rank"] = "";
 --  LBIS.L["Madame Ruby"] = "";
   LBIS.L["Maexxna"] = "迈克斯纳";
   LBIS.L["Mage-Lord Urom"] = "法师领主伊洛姆";
@@ -260,18 +275,28 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Open Settings"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "塑树者奥莫洛克";
   LBIS.L["Patchwerk"] = "帕奇维克";
+--  LBIS.L["Path of Courage"] = "";
+--  LBIS.L["Path of Destruction"] = "";
+--  LBIS.L["Path of Might"] = "";
+--  LBIS.L["Path of Vengeance"] = "";
+  LBIS.L["Path of Wisdom"] = "智慧之路";
 --  LBIS.L["Phase 1"] = "";
 --  LBIS.L["Phase 2"] = "";
 --  LBIS.L["Phase 3"] = "";
 --  LBIS.L["Phase 4"] = "";
 --  LBIS.L["Phase 5"] = "";
+  LBIS.L["Pit of Saron (Heroic)"] = "萨隆矿坑 (英雄)";
   LBIS.L["Plaguelands: The Scarlet Enclave"] = "东瘟疫之地：血色领地";
   LBIS.L["Post-partum Aggression"] = "母龙之怒";
 --  LBIS.L["PreRaid"] = "";
   LBIS.L["Prince Keleseth"] = "凯雷塞斯王子";
   LBIS.L["Prince Taldaram"] = "塔达拉姆王子";
+  LBIS.L["Prince Valanar"] = "瓦拉纳王子";
   LBIS.L["Profession"] = "专业技能";
+  LBIS.L["Professor Putricide"] = "普崔塞德教授";
   LBIS.L["Protection"] = "防护";
+--  LBIS.L["Protector's Mark"] = "";
+--  LBIS.L["Protector's Mark (H)"] = "";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
   LBIS.L["PvP"] = "PvP";
 --  LBIS.L["PvP Vendor"] = "";
@@ -287,14 +312,18 @@ if GetLocale() == "zhCN" then
   LBIS.L["Revered"] = "崇敬";
   LBIS.L["Right Click"] = "鼠标右击";
   LBIS.L["Ring"] = "手指";
+  LBIS.L["Rotface"] = "腐面";
   LBIS.L["Salramm the Fleshcrafter"] = "塑血者沙尔拉姆";
   LBIS.L["Sapphiron"] = "萨菲隆";
   LBIS.L["Sartharion"] = "萨塔里奥";
+  LBIS.L["Scourgelord Tyrannus"] = "天灾领主泰兰努斯";
 --  LBIS.L["Scribe Saalyn"] = "";
   LBIS.L["Select"] = "选择";
   LBIS.L["Settings"] = "选项";
   LBIS.L["Shadow"] = "暗影";
+--  LBIS.L["Shadow's Edge"] = "";
   LBIS.L["Shadowmoon Valley"] = "影月谷";
+--  LBIS.L["Shadowmourne..."] = "";
   LBIS.L["Shattrath City"] = "沙塔斯城";
   LBIS.L["Shirt"] = "衬衣";
   LBIS.L["Sholazar Basin"] = "索拉查盆地";
@@ -303,6 +332,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
 --  LBIS.L["Sidereal Essence"] = "";
+  LBIS.L["Sindragosa"] = "辛达苟萨";
   LBIS.L["Sjonnir The Ironshaper"] = "塑铁者斯约尼尔";
   LBIS.L["Skadi the Ruthless"] = "残忍的斯卡迪";
   LBIS.L["Skarvald the Constructor"] = "建筑师斯卡瓦尔德";
@@ -339,6 +369,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["The Iron Council (Hard)"] = "钢铁议会";
   LBIS.L["The Kalu'ak"] = "卡鲁亚克";
   LBIS.L["The Last Line Of Defense"] = "最后一道防线";
+  LBIS.L["The Lich King"] = "巫妖王";
   LBIS.L["The Nexus (Heroic)"] = "魔枢 (英雄)";
   LBIS.L["The Nexus (Heroic+)"] = "魔枢 (英雄+)";
   LBIS.L["The Nexus (Heroic++)"] = "魔枢 (英雄++)";
@@ -400,6 +431,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Ulduar (25)"] = "奥杜尔 (25)";
   LBIS.L["Unavailable"] = "不可用";
   LBIS.L["Unholy"] = "邪恶";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Unknown (Heroic+)"] = "未知目标 (英雄+)";
   LBIS.L["Utgarde Keep (Heroic)"] = "乌特加德城堡 (英雄)";
   LBIS.L["Utgarde Keep (Heroic+)"] = "乌特加德城堡 (英雄+)";
@@ -409,8 +441,11 @@ if GetLocale() == "zhCN" then
   LBIS.L["Utgarde Pinnacle (Heroic+)"] = "乌特加德之巅 (英雄+)";
   LBIS.L["Utgarde Pinnacle (Heroic++)"] = "乌特加德之巅 (英雄++)";
   LBIS.L["Utgarde Pinnacle (Normal)"] = "乌特加德之巅 (一般)";
+  LBIS.L["Valithria Dreamwalker"] = "踏梦者瓦莉瑟瑞娅";
   LBIS.L["Valkyrion Must Burn"] = "燃烧吧，瓦基里安";
 --  LBIS.L["Vanessa Sellers"] = "";
+--  LBIS.L["Vanquisher's Mark"] = "";
+--  LBIS.L["Vanquisher's Mark (H)"] = "";
 --  LBIS.L["Various Bosses"] = "";
   LBIS.L["Varos Cloudstrider"] = "瓦尔洛斯·云击";
   LBIS.L["Vault of Archavon (10)"] = "阿尔卡冯的宝库 (10)";

@@ -1,6 +1,8 @@
 if GetLocale() == "koKR" then
   LBIS.L["# Best for:"] = "# BIS 직업:";
   LBIS.L["10000 Honor (PvP)"] = "10000 명예 점수 (PvP)";
+--  LBIS.L["A Victory For The Silver Covenant"] = "";
+--  LBIS.L["A Victory For The Sunreavers"] = "";
   LBIS.L["A Wing and a Prayer"] = "기도는 날개를 타고";
   LBIS.L["Accessories Quartermaster"] = "보급품 병참장교";
   LBIS.L["Affliction"] = "고통";
@@ -52,12 +54,14 @@ if GetLocale() == "koKR" then
   LBIS.L["BIS"] = "BIS";
   LBIS.L["Blacksmithing"] = "대장기술";
   LBIS.L["Blood"] = "혈기";
+  LBIS.L["Blood-Queen Lana'thel"] = "피의 여왕 라나텔";
   LBIS.L["Borean Tundra"] = "북풍의 땅";
   LBIS.L["Brewfest"] = "가을 축제";
   LBIS.L["Cat"] = "표범";
   LBIS.L["Cenarion Expedition (Revered)"] = "세나리온 원정대 (매우 우호적)";
   LBIS.L["Changing the Wind's Course"] = "바람의 방향을 바꾸다";
   LBIS.L["Chest"] = "가슴";
+--  LBIS.L["Choose Your Path"] = "";
   LBIS.L["Chrono-Lord Epoch"] = "시간의 군주 에포크";
   LBIS.L["Cielstrasza"] = "시엘스트라자 (고룡쉼터 사원)";
   LBIS.L["Clipping Their Wings"] = "부러진 날개";
@@ -66,6 +70,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Combat"] = "전투";
   LBIS.L["Commander Kolurg"] = "사령관 콜루르그";
   LBIS.L["Commander Stoutbeard"] = "사령관 스타우트비어드";
+--  LBIS.L["Conqueror's Mark"] = "";
+--  LBIS.L["Conqueror's Mark (H)"] = "";
   LBIS.L["Coren Direbrew"] = "코렌 다이어브루";
   LBIS.L["Custom"] = "사용자 설정";
   LBIS.L["Cyanigosa"] = "시아니고사";
@@ -77,6 +83,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Darkmoon Prisms Deck"] = "다크문 프리즘 카드 한 벌";
   LBIS.L["Darkmoon Undeath Deck"] = "다크문 불사 카드 한 벌";
   LBIS.L["Death to the Traitor King"] = "배신자 왕에게 죽음을";
+  LBIS.L["Deathbringer Saurfang"] = "죽음의 인도자 사울팽";
+--  LBIS.L["Defiler's Scourgestone"] = "";
   LBIS.L["Demolitionist Extraordinaire"] = "최고의 폭파병";
   LBIS.L["Demonology"] = "악마";
   LBIS.L["Deselect"] = "선택 해제";
@@ -99,6 +107,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Elemental"] = "정기";
   LBIS.L["Emalon the Storm Watcher"] = "폭풍 감시자 에말론";
   LBIS.L["Emblem of Conquest"] = "정복의 문장";
+--  LBIS.L["Emblem of Frost"] = "";
   LBIS.L["Emblem of Heroism"] = "무용의 문장";
 --  LBIS.L["Emblem of Triumph"] = "";
   LBIS.L["Emblem of Valor"] = "용맹의 문장";
@@ -113,6 +122,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Faction Champions"] = "진영 대표 용사";
   LBIS.L["Fedryen Swiftspear"] = "페드리엔 스위프트스피어 <세나리온 원정대 병참장교>";
   LBIS.L["Feet"] = "발";
+  LBIS.L["Festergut"] = "구린속";
 --  LBIS.L["Final Boss"] = "";
   LBIS.L["Fire"] = "화염";
   LBIS.L["Fishing"] = "낚시";
@@ -149,6 +159,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Gundrak (Heroic+)"] = "군드락 (영웅+)";
   LBIS.L["Gundrak (Heroic++)"] = "군드락 (영웅++)";
   LBIS.L["Gundrak (Normal)"] = "군드락 (일반)";
+--  LBIS.L["Gunship Battle"] = "";
   LBIS.L["Hadronox"] = "하드로녹스";
   LBIS.L["Hallow's End"] = "할로윈 축제";
   LBIS.L["Halls of Lightning (Heroic)"] = "번개의 전당 (영웅)";
@@ -176,6 +187,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Honor Points"] = "명예 점수";
   LBIS.L["Honored"] = "우호적";
   LBIS.L["Icecrown"] = "얼음왕관";
+  LBIS.L["Icecrown Citadel"] = "얼음왕관 성채";
   LBIS.L["Icecrown Citadel (10)"] = "얼음왕관 성채 (10)";
   LBIS.L["Icecrown Citadel (10H)"] = "얼음왕관 성채 (10인 (영웅))";
   LBIS.L["Icecrown Citadel (25)"] = "얼음왕관 성채 (25)";
@@ -208,6 +220,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Koralon the Flame Watcher"] = "화염 감시자 코랄론";
   LBIS.L["Krik'thir the Gatewatcher"] = "문지기 크릭시르";
   LBIS.L["Krystallus"] = "크리스탈루스";
+  LBIS.L["Lady Deathwhisper"] = "여교주 데스위스퍼";
   LBIS.L["Lavanthor"] = "라반토르";
   LBIS.L["Leatherworking"] = "가죽세공";
   LBIS.L["Left Click"] = "마우스 왼쪽 클릭";
@@ -220,6 +233,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Loon Best In Slot"] = "BIS 아이템";
   LBIS.L["Loon Best In Slot Browser"] = "BIS 아이템 목록";
   LBIS.L["Lord Jaraxxus"] = "군주 자락서스";
+  LBIS.L["Lord Marrowgar"] = "군주 매로우가르";
+--  LBIS.L["Lower Rank"] = "";
   LBIS.L["Madame Ruby"] = "귀부인 루비 <마법부여용품 상인>";
   LBIS.L["Maexxna"] = "맥스나";
   LBIS.L["Mage-Lord Urom"] = "마법사 군주 우롬";
@@ -260,18 +275,28 @@ if GetLocale() == "koKR" then
   LBIS.L["Open Settings"] = "설정 창 열기";
   LBIS.L["Ormorok the Tree-Shaper"] = "정원사 오르모로크";
   LBIS.L["Patchwerk"] = "패치워크";
+--  LBIS.L["Path of Courage"] = "";
+--  LBIS.L["Path of Destruction"] = "";
+--  LBIS.L["Path of Might"] = "";
+--  LBIS.L["Path of Vengeance"] = "";
+  LBIS.L["Path of Wisdom"] = "지혜의 길";
   LBIS.L["Phase 1"] = "1 페이즈";
   LBIS.L["Phase 2"] = "2 페이즈";
   LBIS.L["Phase 3"] = "3 페이즈";
   LBIS.L["Phase 4"] = "4 페이즈";
   LBIS.L["Phase 5"] = "5 페이즈";
+  LBIS.L["Pit of Saron (Heroic)"] = "사론의 구덩이 (영웅)";
   LBIS.L["Plaguelands: The Scarlet Enclave"] = "동부 역병지대: 붉은십자군 초소";
   LBIS.L["Post-partum Aggression"] = "어미의 난폭함";
   LBIS.L["PreRaid"] = "레이드 이전";
   LBIS.L["Prince Keleseth"] = "공작 켈레세스";
   LBIS.L["Prince Taldaram"] = "공작 탈다람";
+  LBIS.L["Prince Valanar"] = "공작 발라나르";
   LBIS.L["Profession"] = "전문 기술";
+  LBIS.L["Professor Putricide"] = "교수 퓨트리사이드";
   LBIS.L["Protection"] = "방어/보호";
+--  LBIS.L["Protector's Mark"] = "";
+--  LBIS.L["Protector's Mark (H)"] = "";
   LBIS.L["Purkom (Venture Cove)"] = "<투자개발 만> 얼라-\"회색머리\" 아담스, 호드-푸르콤";
   LBIS.L["PvP"] = "PvP";
   LBIS.L["PvP Vendor"] = "PvP 상인";
@@ -287,14 +312,18 @@ if GetLocale() == "koKR" then
   LBIS.L["Revered"] = "매우 우호적";
   LBIS.L["Right Click"] = "마우스 오른쪽 클릭";
   LBIS.L["Ring"] = "손가락";
+  LBIS.L["Rotface"] = "썩은얼굴";
   LBIS.L["Salramm the Fleshcrafter"] = "살덩이창조자 살람";
   LBIS.L["Sapphiron"] = "사피론";
   LBIS.L["Sartharion"] = "살타리온";
+  LBIS.L["Scourgelord Tyrannus"] = "스컬지군주 티라누스";
   LBIS.L["Scribe Saalyn"] = "각인사 살린 <알도르 사제회 문양 상인>";
   LBIS.L["Select"] = "선택";
   LBIS.L["Settings"] = "설정";
   LBIS.L["Shadow"] = "암흑";
+--  LBIS.L["Shadow's Edge"] = "";
   LBIS.L["Shadowmoon Valley"] = "어둠달 골짜기";
+--  LBIS.L["Shadowmourne..."] = "";
   LBIS.L["Shattrath City"] = "샤트라스";
   LBIS.L["Shirt"] = "속옷";
   LBIS.L["Sholazar Basin"] = "숄라자르 분지";
@@ -303,6 +332,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Show Minimap Button"] = "미니맵 버튼 보이기";
   LBIS.L["Show Tooltip"] = "직업 툴팁 표시";
 --  LBIS.L["Sidereal Essence"] = "";
+  LBIS.L["Sindragosa"] = "신드라고사";
   LBIS.L["Sjonnir The Ironshaper"] = "무쇠구체자 쇼니르";
   LBIS.L["Skadi the Ruthless"] = "학살자 스카디";
   LBIS.L["Skarvald the Constructor"] = "건축가 스카발드";
@@ -339,6 +369,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["The Iron Council (Hard)"] = "무쇠 평의회";
   LBIS.L["The Kalu'ak"] = "칼루아크";
   LBIS.L["The Last Line Of Defense"] = "최후의 방어";
+  LBIS.L["The Lich King"] = "리치 왕";
   LBIS.L["The Nexus (Heroic)"] = "마력의 탑 (영웅)";
   LBIS.L["The Nexus (Heroic+)"] = "마력의 탑 (영웅+)";
   LBIS.L["The Nexus (Heroic++)"] = "마력의 탑 (영웅++)";
@@ -400,6 +431,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Ulduar (25)"] = "울두아르 (25인)";
   LBIS.L["Unavailable"] = "사용 불가";
   LBIS.L["Unholy"] = "부정";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Unknown (Heroic+)"] = "알수없음 (영웅+ 티탄 룬 모드)";
   LBIS.L["Utgarde Keep (Heroic)"] = "우트가드 성채 (영웅)";
   LBIS.L["Utgarde Keep (Heroic+)"] = "우트가드 성채 (영웅+)";
@@ -409,8 +441,11 @@ if GetLocale() == "koKR" then
   LBIS.L["Utgarde Pinnacle (Heroic+)"] = "우트가드 첨탑 (영웅+)";
   LBIS.L["Utgarde Pinnacle (Heroic++)"] = "우트가드 첨탑 (영웅++)";
   LBIS.L["Utgarde Pinnacle (Normal)"] = "우트가드 첨탑 (일반)";
+  LBIS.L["Valithria Dreamwalker"] = "발리스리아 드림워커";
   LBIS.L["Valkyrion Must Burn"] = "발키리온은 불타야 한다";
   LBIS.L["Vanessa Sellers"] = "바네사 셀러스 <결정 상인>";
+--  LBIS.L["Vanquisher's Mark"] = "";
+--  LBIS.L["Vanquisher's Mark (H)"] = "";
   LBIS.L["Various Bosses"] = "기타 보스들";
   LBIS.L["Varos Cloudstrider"] = "바로스 클라우드스트라이더";
   LBIS.L["Vault of Archavon (10)"] = "아카본 석실 (10인)";

@@ -1,6 +1,8 @@
 if GetLocale() == "frFR" then
   LBIS.L["# Best for:"] = "# Meilleur pour";
 --  LBIS.L["10000 Honor (PvP)"] = " (JcJ)";
+--  LBIS.L["A Victory For The Silver Covenant"] = "";
+--  LBIS.L["A Victory For The Sunreavers"] = "";
   LBIS.L["A Wing and a Prayer"] = "Une petite chance de réussir";
 --  LBIS.L["Accessories Quartermaster"] = "";
   LBIS.L["Affliction"] = "Affliction";
@@ -52,12 +54,14 @@ if GetLocale() == "frFR" then
 --  LBIS.L["BIS"] = "";
   LBIS.L["Blacksmithing"] = "Forge";
   LBIS.L["Blood"] = "Sang";
+  LBIS.L["Blood-Queen Lana'thel"] = "Reine de sang Lana'thel";
   LBIS.L["Borean Tundra"] = "Toundra Boréenne";
 --  LBIS.L["Brewfest"] = "";
 --  LBIS.L["Cat"] = "";
   LBIS.L["Cenarion Expedition (Revered)"] = "Expédition cénarienne (Révéré)";
   LBIS.L["Changing the Wind's Course"] = "Changer le sens du vent";
   LBIS.L["Chest"] = "Torse";
+--  LBIS.L["Choose Your Path"] = "";
   LBIS.L["Chrono-Lord Epoch"] = "Chronoseigneur Epoch";
 --  LBIS.L["Cielstrasza"] = "";
   LBIS.L["Clipping Their Wings"] = "Leur couper les ailes";
@@ -66,6 +70,8 @@ if GetLocale() == "frFR" then
   LBIS.L["Combat"] = "Combat";
   LBIS.L["Commander Kolurg"] = "Commandant Kolurg";
   LBIS.L["Commander Stoutbeard"] = "Commandant Rudebarbe";
+--  LBIS.L["Conqueror's Mark"] = "";
+--  LBIS.L["Conqueror's Mark (H)"] = "";
   LBIS.L["Coren Direbrew"] = "Coren Navrebière";
   LBIS.L["Custom"] = "Personnalisé";
   LBIS.L["Cyanigosa"] = "Cyanigosa";
@@ -77,6 +83,8 @@ if GetLocale() == "frFR" then
   LBIS.L["Darkmoon Prisms Deck"] = "Suite de Prismes de Sombrelune";
   LBIS.L["Darkmoon Undeath Deck"] = "Suite de Non-mort de Sombrelune";
   LBIS.L["Death to the Traitor King"] = "Mort au roi traître";
+  LBIS.L["Deathbringer Saurfang"] = "Porte-mort Saurcroc";
+--  LBIS.L["Defiler's Scourgestone"] = "";
   LBIS.L["Demolitionist Extraordinaire"] = "Artificier extraordinaire";
   LBIS.L["Demonology"] = "Démonologie";
 --  LBIS.L["Deselect"] = "";
@@ -99,6 +107,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Elemental"] = "Élémentaire";
   LBIS.L["Emalon the Storm Watcher"] = "Emalon le Guetteur d'orage";
 --  LBIS.L["Emblem of Conquest"] = "";
+--  LBIS.L["Emblem of Frost"] = "";
 --  LBIS.L["Emblem of Heroism"] = "";
 --  LBIS.L["Emblem of Triumph"] = "";
 --  LBIS.L["Emblem of Valor"] = "";
@@ -113,6 +122,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Faction Champions"] = "Champions de faction";
 --  LBIS.L["Fedryen Swiftspear"] = "";
   LBIS.L["Feet"] = "Pieds";
+  LBIS.L["Festergut"] = "Pulentraille";
 --  LBIS.L["Final Boss"] = "";
   LBIS.L["Fire"] = "Feu";
   LBIS.L["Fishing"] = "Pêche";
@@ -149,6 +159,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Gundrak (Heroic+)"] = "Gundrak (Héroïque+)";
   LBIS.L["Gundrak (Heroic++)"] = "Gundrak (Héroïque++)";
   LBIS.L["Gundrak (Normal)"] = "Gundrak (Normal)";
+--  LBIS.L["Gunship Battle"] = "";
   LBIS.L["Hadronox"] = "Hadronox";
 --  LBIS.L["Hallow's End"] = "";
   LBIS.L["Halls of Lightning (Heroic)"] = "Les salles de Foudre (Héroïque)";
@@ -176,6 +187,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Honor Points"] = "Points d'honneur";
   LBIS.L["Honored"] = "Honoré";
   LBIS.L["Icecrown"] = "La Couronne de glace";
+  LBIS.L["Icecrown Citadel"] = "Citadelle de la Couronne de glace";
   LBIS.L["Icecrown Citadel (10)"] = "Citadelle de la Couronne de glace (10)";
   LBIS.L["Icecrown Citadel (10H)"] = "Citadelle de la Couronne de glace (10H)";
   LBIS.L["Icecrown Citadel (25)"] = "Citadelle de la Couronne de glace (25)";
@@ -208,6 +220,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Koralon the Flame Watcher"] = "Koralon le Veilleur des flammes";
   LBIS.L["Krik'thir the Gatewatcher"] = "Krik'thir le Gardien de porte";
   LBIS.L["Krystallus"] = "Krystallus";
+  LBIS.L["Lady Deathwhisper"] = "Dame Murmemort";
   LBIS.L["Lavanthor"] = "Lavanthor";
   LBIS.L["Leatherworking"] = "Travail du cuir";
   LBIS.L["Left Click"] = "Clic Gauche";
@@ -220,6 +233,8 @@ if GetLocale() == "frFR" then
   LBIS.L["Loon Best In Slot"] = "Huard Meilleur dans la Fente";
   LBIS.L["Loon Best In Slot Browser"] = "Huard Meilleur dans le Navigateur de Machines à Sous";
   LBIS.L["Lord Jaraxxus"] = "Seigneur Jaraxxus";
+  LBIS.L["Lord Marrowgar"] = "Seigneur Gargamoelle";
+--  LBIS.L["Lower Rank"] = "";
 --  LBIS.L["Madame Ruby"] = "";
   LBIS.L["Maexxna"] = "Maexxna";
   LBIS.L["Mage-Lord Urom"] = "Seigneur-mage Urom";
@@ -260,18 +275,28 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Open Settings"] = "";
   LBIS.L["Ormorok the Tree-Shaper"] = "Ormorok le Sculpte-arbre";
   LBIS.L["Patchwerk"] = "Le Recousu";
+--  LBIS.L["Path of Courage"] = "";
+--  LBIS.L["Path of Destruction"] = "";
+--  LBIS.L["Path of Might"] = "";
+--  LBIS.L["Path of Vengeance"] = "";
+  LBIS.L["Path of Wisdom"] = "Voie de la sagesse";
 --  LBIS.L["Phase 1"] = "";
 --  LBIS.L["Phase 2"] = "";
 --  LBIS.L["Phase 3"] = "";
 --  LBIS.L["Phase 4"] = "";
 --  LBIS.L["Phase 5"] = "";
+  LBIS.L["Pit of Saron (Heroic)"] = "Fosse de Saron (Héroïque)";
   LBIS.L["Plaguelands: The Scarlet Enclave"] = "Maleterres : l’enclave Écarlate";
   LBIS.L["Post-partum Aggression"] = "Agression post-partum";
 --  LBIS.L["PreRaid"] = "";
   LBIS.L["Prince Keleseth"] = "Prince Keleseth";
   LBIS.L["Prince Taldaram"] = "Prince Taldaram";
+  LBIS.L["Prince Valanar"] = "Prince Valanar";
   LBIS.L["Profession"] = "Métier";
+  LBIS.L["Professor Putricide"] = "Professeur Putricide";
   LBIS.L["Protection"] = "Protection";
+--  LBIS.L["Protector's Mark"] = "";
+--  LBIS.L["Protector's Mark (H)"] = "";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
   LBIS.L["PvP"] = "JcJ";
 --  LBIS.L["PvP Vendor"] = "";
@@ -287,14 +312,18 @@ if GetLocale() == "frFR" then
   LBIS.L["Revered"] = "Révéré";
   LBIS.L["Right Click"] = "Clic droit";
   LBIS.L["Ring"] = "Anneau";
+  LBIS.L["Rotface"] = "Trognepus";
   LBIS.L["Salramm the Fleshcrafter"] = "Salramm le Façonneur de chair";
   LBIS.L["Sapphiron"] = "Saphiron";
   LBIS.L["Sartharion"] = "Sartharion";
+  LBIS.L["Scourgelord Tyrannus"] = "Seigneur du Fléau Tyrannus";
 --  LBIS.L["Scribe Saalyn"] = "";
   LBIS.L["Select"] = "Sélectionner";
   LBIS.L["Settings"] = "Paramètres";
   LBIS.L["Shadow"] = "Ombre";
+--  LBIS.L["Shadow's Edge"] = "";
   LBIS.L["Shadowmoon Valley"] = "Vallée d’Ombrelune";
+--  LBIS.L["Shadowmourne..."] = "";
   LBIS.L["Shattrath City"] = "Shattrath";
   LBIS.L["Shirt"] = "Chemise";
   LBIS.L["Sholazar Basin"] = "Bassin de Sholazar";
@@ -303,6 +332,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
 --  LBIS.L["Sidereal Essence"] = "";
+  LBIS.L["Sindragosa"] = "Sindragosa";
   LBIS.L["Sjonnir The Ironshaper"] = "Sjonnir le Sculptefer";
   LBIS.L["Skadi the Ruthless"] = "Skadi le Brutal";
   LBIS.L["Skarvald the Constructor"] = "Skarvald le Constructeur";
@@ -339,6 +369,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["The Iron Council (Hard)"] = "Assemblée du fer";
   LBIS.L["The Kalu'ak"] = "Kalu'aks";
   LBIS.L["The Last Line Of Defense"] = "La dernière ligne de défense";
+  LBIS.L["The Lich King"] = "Le roi-liche";
   LBIS.L["The Nexus (Heroic)"] = "Le Nexus (Héroïque)";
   LBIS.L["The Nexus (Heroic+)"] = "Le Nexus (Héroïque+)";
   LBIS.L["The Nexus (Heroic++)"] = "Le Nexus (Héroïque++)";
@@ -400,6 +431,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Ulduar (25)"] = "Ulduar (25)";
   LBIS.L["Unavailable"] = "Indisp.";
   LBIS.L["Unholy"] = "Impie";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Unknown (Heroic+)"] = "Inconnu (Héroïque+)";
   LBIS.L["Utgarde Keep (Heroic)"] = "Donjon d’Utgarde (Héroïque)";
   LBIS.L["Utgarde Keep (Heroic+)"] = "Donjon d’Utgarde (Héroïque+)";
@@ -409,8 +441,11 @@ if GetLocale() == "frFR" then
   LBIS.L["Utgarde Pinnacle (Heroic+)"] = "Cime d’Utgarde (Héroïque+)";
   LBIS.L["Utgarde Pinnacle (Heroic++)"] = "Cime d’Utgarde (Héroïque++)";
   LBIS.L["Utgarde Pinnacle (Normal)"] = "Cime d’Utgarde (Normal)";
+  LBIS.L["Valithria Dreamwalker"] = "Valithria Marcherêve";
   LBIS.L["Valkyrion Must Burn"] = "Brûle, Valkyrion, brûle !";
 --  LBIS.L["Vanessa Sellers"] = "";
+--  LBIS.L["Vanquisher's Mark"] = "";
+--  LBIS.L["Vanquisher's Mark (H)"] = "";
 --  LBIS.L["Various Bosses"] = "";
   LBIS.L["Varos Cloudstrider"] = "Varos Arpentenuée";
   LBIS.L["Vault of Archavon (10)"] = "Caveau d’Archavon (10)";

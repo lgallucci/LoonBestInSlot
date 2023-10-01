@@ -369,7 +369,8 @@
       "Trial of the Champion (Heroic++)": "Prueba del Campeón (Heroico++)",
       "Utgarde Keep (Heroic++)": "Fortaleza de Utgarde (Heroico++)",
       "Utgarde Pinnacle (Heroic++)": "Pináculo de Utgarde (Heroico++)",
-      "Ahn'kahet: The Old Kingdom (Heroic++)": "Ahn'kahet: El Antiguo Reino (Heroico++)"
+      "Ahn'kahet: The Old Kingdom (Heroic++)": "Ahn'kahet: El Antiguo Reino (Heroico++)",
+      "Trial of the Champion (Heroic)": "Prueba del Campeón (Heroico)"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -713,7 +714,8 @@
       "Trial of the Champion (Heroic++)": "Prueba del Campeón (Heroico++)",
       "Utgarde Keep (Heroic++)": "Fortaleza de Utgarde (Heroico++)",
       "Utgarde Pinnacle (Heroic++)": "Pináculo de Utgarde (Heroico++)",
-      "Ahn'kahet: The Old Kingdom (Heroic++)": "Ahn'kahet: El Antiguo Reino (Heroico++)"
+      "Ahn'kahet: The Old Kingdom (Heroic++)": "Ahn'kahet: El Antiguo Reino (Heroico++)",
+      "Trial of the Champion (Heroic)": "Prueba del Campeón (Heroico)"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -1135,7 +1137,10 @@
       "Trial of the Champion (Heroic++)": "Prüfung des Champions (Heroisch++)",
       "Utgarde Keep (Heroic++)": "Burg Utgarde (Heroisch++)",
       "Utgarde Pinnacle (Heroic++)": "Turm Utgarde (Heroisch++)",
-      "Ahn'kahet: The Old Kingdom (Heroic++)": "Ahn'kahet: Das Alte Königreich (Heroisch++)"
+      "Ahn'kahet: The Old Kingdom (Heroic++)": "Ahn'kahet: Das Alte Königreich (Heroisch++)",
+      "Icecrown Citadel (10H)": "Die Eiskronenzitadelle (10H)",
+      "Icecrown Citadel (25H)": "Die Eiskronenzitadelle (25H)",
+      "Trial of the Champion (Heroic)": "Prüfung des Champions (Heroisch)"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -1481,7 +1486,10 @@
       "Trial of the Champion (Heroic++)": "L’épreuve du champion (Héroïque++)",
       "Utgarde Keep (Heroic++)": "Donjon d’Utgarde (Héroïque++)",
       "Utgarde Pinnacle (Heroic++)": "Cime d’Utgarde (Héroïque++)",
-      "Ahn'kahet: The Old Kingdom (Heroic++)": "Ahn’kahet : l’Ancien royaume (Héroïque++)"
+      "Ahn'kahet: The Old Kingdom (Heroic++)": "Ahn’kahet : l’Ancien royaume (Héroïque++)",
+      "Icecrown Citadel (10H)": "Citadelle de la Couronne de glace (10H)",
+      "Icecrown Citadel (25H)": "Citadelle de la Couronne de glace (25H)",
+      "Trial of the Champion (Heroic)": "L’épreuve du champion (Héroïque)"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -1824,7 +1832,8 @@
       "Trial of the Champion (Heroic++)": "Испытание чемпиона (Героический++)",
       "Utgarde Keep (Heroic++)": "Крепость Утгард (Героический++)",
       "Utgarde Pinnacle (Heroic++)": "Вершина Утгард (Героический++)",
-      "Ahn'kahet: The Old Kingdom (Heroic++)": "Ан'кахет: Старое Королевство (Героический++)"
+      "Ahn'kahet: The Old Kingdom (Heroic++)": "Ан'кахет: Старое Королевство (Героический++)",
+      "Trial of the Champion (Heroic)": "Испытание чемпиона (Героический)"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -2167,7 +2176,8 @@
       "Trial of the Champion (Heroic++)": "冠军的试炼 (英雄++)",
       "Utgarde Keep (Heroic++)": "乌特加德城堡 (英雄++)",
       "Utgarde Pinnacle (Heroic++)": "乌特加德之巅 (英雄++)",
-      "Ahn'kahet: The Old Kingdom (Heroic++)": "安卡赫特：古代王国 (英雄++)"
+      "Ahn'kahet: The Old Kingdom (Heroic++)": "安卡赫特：古代王国 (英雄++)",
+      "Trial of the Champion (Heroic)": "冠军的试炼 (英雄)"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -2623,13 +2633,16 @@
       "Trial of the Champion (Heroic++)": "용사의 시험장 (영웅++)",
       "Utgarde Keep (Heroic++)": "우트가드 성채 (영웅++)",
       "Utgarde Pinnacle (Heroic++)": "우트가드 첨탑 (영웅++)",
-      "Ahn'kahet: The Old Kingdom (Heroic++)": "안카헤트: 고대 왕국 (영웅++)"
+      "Ahn'kahet: The Old Kingdom (Heroic++)": "안카헤트: 고대 왕국 (영웅++)",
+      "Icecrown Citadel (10H)": "얼음왕관 성채 (10인 (영웅))",
+      "Icecrown Citadel (25H)": "얼음왕관 성채 (25인 (영웅))",
+      "Trial of the Champion (Heroic)": "용사의 시험장 (영웅)"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
       "A Wing and a Prayer": "飛翼與祈禱",
       "Ahn'kahet: The Old Kingdom (Heroic)": "安卡罕特：古王國 (英雄)",
-      "Heroic": "英雄",
+      "Heroic": "英雄模式",
       "Heroic+": "英雄+",
       "Heroic++": "英雄++",
       "Alchemy": "鍊金術",
@@ -2965,7 +2978,8 @@
       "Trial of the Champion (Heroic++)": "勇士試煉 (英雄++)",
       "Utgarde Keep (Heroic++)": "俄特加德要塞 (英雄++)",
       "Utgarde Pinnacle (Heroic++)": "俄特加德之巔 (英雄++)",
-      "Ahn'kahet: The Old Kingdom (Heroic++)": "安卡罕特：古王國 (英雄++)"
+      "Ahn'kahet: The Old Kingdom (Heroic++)": "安卡罕特：古王國 (英雄++)",
+      "Trial of the Champion (Heroic)": "勇士試煉 (英雄模式)"
     }
   }
 }

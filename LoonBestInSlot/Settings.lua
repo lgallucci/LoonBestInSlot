@@ -51,7 +51,7 @@ LBISSettingsDefault =
 		[LBIS.L["Phase 1"]] = true,
 		[LBIS.L["Phase 2"]] = true,
 		[LBIS.L["Phase 3"]] = true,
-		--[LBIS.L["Phase 4"]] = true,
+		[LBIS.L["Phase 4"]] = true,
 		--[LBIS.L["Phase 5"]] = true
 	}
 };
