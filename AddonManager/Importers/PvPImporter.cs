@@ -54,7 +54,7 @@ public class PvPImporter : LootImporter
         var count = 0;
         await Common.LoadFromWebPages(wowheadUriList.Keys.ToList(), async (uri, content) => 
         {            
-            writeToLog($"Reading from {uri} ({++count}/{total}");
+            writeToLog($"Reading from {uri} ({++count}/{total})");
             var parser = new HtmlParser();
             var doc = default(IHtmlDocument);
             doc = await parser.ParseDocumentAsync(content);

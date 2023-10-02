@@ -37,8 +37,8 @@ public class DatabaseItems
                 if (Items[itemId].CombineCount > 3)
                     Items[itemId].Source = "Various Bosses";
                 else
-                    if (Items[itemId].Source != converted.Source)
-                    Items[itemId].Source += $" & {converted.Source}";
+                    if (!Items[itemId].Source.Contains(converted.Source))
+                        Items[itemId].Source += $" & {converted.Source}";
             }
             else
             {
