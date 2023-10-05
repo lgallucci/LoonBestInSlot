@@ -381,8 +381,8 @@ LBIS:AddItem(spec4, "45486", LBIS.L["Back"], "Alt") --Drape of the Sullen Goddes
 LBIS:AddItem(spec4, "51249", LBIS.L["Chest"], "BIS") --Sanctified Frost Witch's Tunic
 LBIS:AddItem(spec4, "51190", LBIS.L["Chest"], "Alt") --Sanctified Frost Witch's Tunic
 LBIS:AddItem(spec4, "50835", LBIS.L["Chest"], "Alt") --Frost Witch's Tunic
-LBIS:AddItem(spec4, "45633", LBIS.L["Chest"], "Alt") --Breastplate of the Wayward Protector
 LBIS:AddItem(spec4, "46198", LBIS.L["Chest"], "Alt") --Conqueror's Worldbreaker Tunic
+LBIS:AddItem(spec4, "45633", LBIS.L["Chest"], "Alt") --Breastplate of the Wayward Protector
 LBIS:AddItem(spec4, "48294", LBIS.L["Chest"], "Alt") --Nobundo's Tunic of Triumph
 LBIS:AddItem(spec4, "48305", LBIS.L["Chest"], "Alt") --Thrall's Tunic of Triumph
 LBIS:AddItem(spec4, "47603", LBIS.L["Chest"], "Alt") --Merlin's Robe
@@ -401,6 +401,7 @@ LBIS:AddItem(spec4, "45665", LBIS.L["Hands"], "Alt") --Pharos Gloves
 LBIS:AddItem(spec4, "48293", LBIS.L["Hands"], "Alt") --Nobundo's Handguards of Triumph
 LBIS:AddItem(spec4, "48306", LBIS.L["Hands"], "Alt") --Thrall's Handguards of Triumph
 LBIS:AddItem(spec4, "50613", LBIS.L["Waist"], "BIS") --Crushing Coldwraith Belt
+LBIS:AddItem(spec4, "50671", LBIS.L["Waist"], "Alt") --Belt of the Blood Nova
 LBIS:AddItem(spec4, "46991", LBIS.L["Waist"], "Alt") --Belt of the Ice Burrower
 LBIS:AddItem(spec4, "47426", LBIS.L["Waist"], "Alt") --Binding of the Ice Burrower
 LBIS:AddItem(spec4, "47145", LBIS.L["Waist"], "Alt") --Cord of Pale Thorns
@@ -449,6 +450,7 @@ LBIS:AddItem(spec4, "45929", LBIS.L["Trinket"], "Alt") --Sif's Remembrance
 LBIS:AddItem(spec4, "45308", LBIS.L["Trinket"], "Alt") --Eye of the Broodmother
 LBIS:AddItem(spec4, "40432", LBIS.L["Trinket"], "Alt") --Illustration of the Dragon Soul
 LBIS:AddItem(spec4, "46017", LBIS.L["Main Hand"], "BIS") --Val'anyr, Hammer of Ancient Kings
+LBIS:AddItem(spec4, "50734", LBIS.L["Main Hand"], "BIS") --Royal Scepter of Terenas II
 LBIS:AddItem(spec4, "50685", LBIS.L["Main Hand"], "Alt") --Trauma
 LBIS:AddItem(spec4, "47483", LBIS.L["Main Hand"], "Alt") --Suffering's End
 LBIS:AddItem(spec4, "47206", LBIS.L["Main Hand"], "Alt") --Misery's End

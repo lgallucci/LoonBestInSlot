@@ -381,8 +381,8 @@ LBIS:AddItem(spec4, "45242", LBIS.L["Back"], "Alt") --Drape of Mortal Downfall
 LBIS:AddItem(spec4, "51244", LBIS.L["Chest"], "BIS") --Sanctified Frost Witch's Chestguard
 LBIS:AddItem(spec4, "51195", LBIS.L["Chest"], "Alt") --Sanctified Frost Witch's Chestguard
 LBIS:AddItem(spec4, "50830", LBIS.L["Chest"], "Alt") --Frost Witch's Chestguard
-LBIS:AddItem(spec4, "47412", LBIS.L["Chest"], "Alt") --Cuirass of Cruel Intent
 LBIS:AddItem(spec4, "46965", LBIS.L["Chest"], "Alt") --Breastplate of Cruel Intent
+LBIS:AddItem(spec4, "47412", LBIS.L["Chest"], "Alt") --Cuirass of Cruel Intent
 LBIS:AddItem(spec4, "48355", LBIS.L["Chest"], "Alt") --Nobundo's Chestguard of Triumph
 LBIS:AddItem(spec4, "48356", LBIS.L["Chest"], "Alt") --Thrall's Chestguard of Triumph
 LBIS:AddItem(spec4, "48346", LBIS.L["Chest"], "Alt") --Nobundo's Chestguard of Triumph
@@ -410,8 +410,8 @@ LBIS:AddItem(spec4, "50613", LBIS.L["Waist"], "BIS") --Crushing Coldwraith Belt
 LBIS:AddItem(spec4, "50993", LBIS.L["Waist"], "Alt") --Band of the Night Raven
 LBIS:AddItem(spec4, "47112", LBIS.L["Waist"], "Alt") --Belt of the Merciless Killer
 LBIS:AddItem(spec4, "47460", LBIS.L["Waist"], "Alt") --Belt of the Pitiless Killer
-LBIS:AddItem(spec4, "47084", LBIS.L["Waist"], "Alt") --Cord of Biting Cold
 LBIS:AddItem(spec4, "47447", LBIS.L["Waist"], "Alt") --Belt of Biting Cold
+LBIS:AddItem(spec4, "47084", LBIS.L["Waist"], "Alt") --Cord of Biting Cold
 LBIS:AddItem(spec4, "45553", LBIS.L["Waist"], "Alt") --Belt of Dragons
 LBIS:AddItem(spec4, "45827", LBIS.L["Waist"], "Alt") --Belt of the Ardent Marksman
 LBIS:AddItem(spec4, "51241", LBIS.L["Legs"], "BIS") --Sanctified Frost Witch's War-Kilt
@@ -437,13 +437,15 @@ LBIS:AddItem(spec4, "45517", LBIS.L["Neck"], "Alt") --Pendulum of Infinity
 LBIS:AddItem(spec4, "45133", LBIS.L["Neck"], "Alt") --Pendant of Fiery Havoc
 LBIS:AddItem(spec4, "50604", LBIS.L["Ring"], "BIS") --Band of the Bone Colossus
 LBIS:AddItem(spec4, "50402", LBIS.L["Ring"], "BIS") --Ashen Band of Endless Vengeance
-LBIS:AddItem(spec4, "47443", LBIS.L["Ring"], "Alt") --Band of Callous Aggression
 LBIS:AddItem(spec4, "47075", LBIS.L["Ring"], "Alt") --Ring of Callous Aggression
+LBIS:AddItem(spec4, "47443", LBIS.L["Ring"], "Alt") --Band of Callous Aggression
 LBIS:AddItem(spec4, "46046", LBIS.L["Ring"], "Alt") --Nebula Band
 LBIS:AddItem(spec4, "45456", LBIS.L["Ring"], "Alt") --Loop of the Agile
 LBIS:AddItem(spec4, "50363", LBIS.L["Trinket"], "BIS") --Deathbringer's Will
 LBIS:AddItem(spec4, "50343", LBIS.L["Trinket"], "BIS") --Whispering Fanged Skull
 LBIS:AddItem(spec4, "50365", LBIS.L["Trinket"], "BIS") --Phylactery of the Nameless Lich
+LBIS:AddItem(spec4, "50357", LBIS.L["Trinket"], "BIS") --Maghia's Misguided Quill
+LBIS:AddItem(spec4, "50355", LBIS.L["Trinket"], "Alt") --Herkuml War Token
 LBIS:AddItem(spec4, "47188", LBIS.L["Trinket"], "Alt") --Reign of the Unliving
 LBIS:AddItem(spec4, "47477", LBIS.L["Trinket"], "Alt") --Reign of the Dead
 LBIS:AddItem(spec4, "45609", LBIS.L["Trinket"], "Alt") --Comet's Trail
@@ -454,6 +456,7 @@ LBIS:AddItem(spec4, "50734", LBIS.L["Main Hand"], "BIS") --Royal Scepter of Tere
 LBIS:AddItem(spec4, "50737", LBIS.L["Main Hand"], "BIS") --Havoc's Call, Blade of Lordaeron Kings
 LBIS:AddItem(spec4, "51939", LBIS.L["Main Hand"], "Alt") --Tel'thas, Dagger of the Blood King
 LBIS:AddItem(spec4, "50692", LBIS.L["Main Hand"], "Alt") --Black Bruise
+LBIS:AddItem(spec4, "51941", LBIS.L["Main Hand"], "Alt") --Pugius, Fist of Defiance
 LBIS:AddItem(spec4, "47206", LBIS.L["Main Hand"], "Alt") --Misery's End
 LBIS:AddItem(spec4, "47483", LBIS.L["Main Hand"], "Alt") --Suffering's End
 LBIS:AddItem(spec4, "46980", LBIS.L["Main Hand"], "Alt") --Blade of Tarasque
