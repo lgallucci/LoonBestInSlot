@@ -39,25 +39,40 @@ LBIS:AddEnchant(spec1, "60714", LBIS.L["Main Hand"]) --Scroll of Enchant Weapon 
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Main Hand"]) --Scroll of Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "46140", LBIS.L["Head"], "BIS") --Conqueror's Deathbringer Hood
-LBIS:AddItem(spec0, "45422", LBIS.L["Shoulder"], "BIS") --Valorous Deathbringer Shoulderpads
-LBIS:AddItem(spec0, "46042", LBIS.L["Back"], "BIS") --Drape of the Messenger
+LBIS:AddItem(spec0, "47807", LBIS.L["Shoulder"], "BIS") --Gul'dan's Shoulderpads of Triumph
+LBIS:AddItem(spec0, "47781", LBIS.L["Shoulder"], "BIS") --Kel'Thuzad's Shoulderpads of Triumph
+LBIS:AddItem(spec0, "47256", LBIS.L["Back"], "BIS") --Drape of the Refreshing Winds
+LBIS:AddItem(spec0, "46976", LBIS.L["Back"], "BIS") --Shawl of the Refreshing Winds
+LBIS:AddItem(spec0, "45493", LBIS.L["Back"], "BIS") --Asimov's Drape
+LBIS:AddItem(spec0, "47806", LBIS.L["Chest"], "BIS") --Gul'dan's Robe of Triumph
+LBIS:AddItem(spec0, "47779", LBIS.L["Chest"], "BIS") --Kel'Thuzad's Robe of Triumph
 LBIS:AddItem(spec0, "47604", LBIS.L["Chest"], "BIS") --Merlin's Robe
-LBIS:AddItem(spec0, "47603", LBIS.L["Chest"], "BIS") --Merlin's Robe
 LBIS:AddItem(spec0, "47586", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
 LBIS:AddItem(spec0, "47585", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
-LBIS:AddItem(spec0, "45419", LBIS.L["Hands"], "BIS") --Valorous Deathbringer Gloves
+LBIS:AddItem(spec0, "47782", LBIS.L["Hands"], "BIS") --Kel'Thuzad's Gloves of Triumph
+LBIS:AddItem(spec0, "47803", LBIS.L["Hands"], "BIS") --Gul'dan's Gloves of Triumph
+LBIS:AddItem(spec0, "46972", LBIS.L["Waist"], "BIS") --Cord of the Tenebrous Mist
+LBIS:AddItem(spec0, "47258", LBIS.L["Waist"], "BIS") --Belt of the Tenebrous Mist
+LBIS:AddItem(spec0, "45557", LBIS.L["Waist"], "BIS") --Sash of Ancient Power
 LBIS:AddItem(spec0, "45558", LBIS.L["Waist"], "BIS") --Cord of the White Dawn
-LBIS:AddItem(spec0, "45420", LBIS.L["Legs"], "BIS") --Valorous Deathbringer Leggings
-LBIS:AddItem(spec0, "46050", LBIS.L["Feet"], "BIS") --Starlight Treads
-LBIS:AddItem(spec0, "45699", LBIS.L["Neck"], "BIS") --Pendant of the Piercing Glare
-LBIS:AddItem(spec0, "45297", LBIS.L["Ring"], "BIS") --Shimmering Seal
+LBIS:AddItem(spec0, "49891", LBIS.L["Legs"], "BIS") --Leggings of Woven Death
+LBIS:AddItem(spec0, "49893", LBIS.L["Feet"], "BIS") --Sandals of Consecration
+LBIS:AddItem(spec0, "49890", LBIS.L["Feet"], "BIS") --Deathfrost Boots
+LBIS:AddItem(spec0, "50182", LBIS.L["Neck"], "BIS") --Blood Queen's Crimson Choker
+LBIS:AddItem(spec0, "45133", LBIS.L["Neck"], "BIS") --Pendant of Fiery Havoc
+LBIS:AddItem(spec0, "45495", LBIS.L["Ring"], "BIS") --Conductive Seal
 LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
-LBIS:AddItem(spec0, "45308", LBIS.L["Trinket"], "BIS") --Eye of the Broodmother
-LBIS:AddItem(spec0, "47213", LBIS.L["Trinket"], "BIS") --Abyssal Rune
-LBIS:AddItem(spec0, "45990", LBIS.L["Main Hand"], "BIS") --Fusion Blade
-LBIS:AddItem(spec0, "45314", LBIS.L["Off Hand"], "BIS") --Igniter Rod
+LBIS:AddItem(spec0, "47182", LBIS.L["Trinket"], "BIS") --Reign of the Unliving
+LBIS:AddItem(spec0, "47316", LBIS.L["Trinket"], "BIS") --Reign of the Dead
+LBIS:AddItem(spec0, "45518", LBIS.L["Trinket"], "BIS") --Flare of the Heavens
+LBIS:AddItem(spec0, "46979", LBIS.L["Main Hand"], "BIS") --Blade of Tarasque
+LBIS:AddItem(spec0, "47261", LBIS.L["Main Hand"], "BIS") --Barb of Tarasque
+LBIS:AddItem(spec0, "47309", LBIS.L["Off Hand"], "BIS") --Mystifying Charm
+LBIS:AddItem(spec0, "47138", LBIS.L["Off Hand"], "BIS") --Chalice of Searing Light
+LBIS:AddItem(spec0, "50472", LBIS.L["Ranged/Relic"], "BIS") --Nightmare Ender
 LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
+LBIS:AddItem(spec0, "49994", LBIS.L["unknown"], "BIS") --The Lady's Brittle Bracers
+LBIS:AddItem(spec0, "50047", LBIS.L["unknown"], "BIS") --Quel'Delar, Lens of the Mind
 
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec1, "43995", LBIS.L["Head"], "Alt") --Enamored Cowl

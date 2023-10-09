@@ -161,6 +161,9 @@ public class WowheadGuideParser
             { "Boots", "Feet" },
             { "Belt", "Waist" },
             { "Finger", "Ring" },
+            { "Bracers", "Wrist" },
+            { "Shoulders", "Shoulder" },
+            { "Cloak", "Back" },
             { "Main-Hand", "Main Hand" },
             { "Main-Hand Weapon", "Main Hand" },
             { "Off-Hand Weapon", "Off Hand" },
@@ -214,7 +217,7 @@ public class WowheadGuideParser
         public string Text(ICharacterData text) => text.Data;
     }
 
-    public async Task<Dictionary<int, ItemSpec>> ParsePreRaidWowheadGuide(string content)
+    public async Task<Dictionary<int, ItemSpec>> ParsePreRaidWowheadGuide(Tuple<Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>> guide, string content)
     {
         var items = new Dictionary<int, ItemSpec>();
 
@@ -230,7 +233,6 @@ public class WowheadGuideParser
 
             LoopThroughTable(tableElement, (tableRow, itemChild, itemOrderIndex, isTierList) =>
             {
-
                 var slotText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
 
                 if (itemChild != null)
@@ -242,24 +244,46 @@ public class WowheadGuideParser
             throw new ParseException($"PreRaid: Failed to find table for {htmlMapping}");
         }
 
-        //htmlMapping = "h2#best-bind-on-equip + div > table";
-        //headerElement = doc.QuerySelector(htmlMapping);
-        //if (headerElement is IHtmlTableElement)
-        //{
-        //    var tableElement = headerElement as IHtmlTableElement;
+        htmlMapping = "h2#best-bind-on-equip ~ div > table";
+        headerElement = doc.QuerySelector(htmlMapping);
+        if (headerElement is IHtmlTableElement)
+        {
+            var tableElement = headerElement as IHtmlTableElement;
 
-        //    LoopThroughTable(tableElement, (tableRow, itemChild, itemOrderIndex, isTierList) =>
-        //    {
-        //        var slotText = "unknown"; //TODO: FIGURE A WAY TO FIND THIS INFO ?
+            LoopThroughTable(tableElement, (tableRow, itemChild, itemOrderIndex, isTierList) =>
+            {
+                var slotText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
 
-        //        if (itemChild != null)
-        //            ParseItemCell(itemChild, "BIS", new SlotSwaps()[slotText], items, itemOrderIndex);
-        //    });
-        //}
-        //else
-        //{
-        //    throw new ParseException($"PreRaid: Failed to find table for {htmlMapping}");
-        //}
+                slotText = new SlotSwaps()[slotText];
+
+                if (!ItemSpec.SortOrder.ContainsKey(slotText))
+                {
+                    slotText = "unknown";
+                }
+
+                if (itemChild != null)
+                {
+                    int itemId = ParseItemCell(itemChild, "BIS", slotText, items, itemOrderIndex);
+
+                    if (items[itemId].Slot == "unknown")
+                    {
+                        for (int i = 0; i < 5; i++)
+                        {
+                            var item = guide.Item3[i].FirstOrDefault(isp => isp.ItemId == itemId);
+                            if (item != null)
+                            {
+                                items[itemId].Slot = item.Slot;
+                                return;
+                            }
+                        }
+                    }
+                }
+            });
+        }
+        else
+        {
+            throw new ParseException($"PreRaid: Failed to find table for {htmlMapping}");
+        }
 
         return items;
     }
@@ -437,9 +461,11 @@ public class WowheadGuideParser
         return bisText.Trim() + altText;
     }
 
-    private void ParseItemCell(IElement itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items, int itemOrderIndex)
+    private int ParseItemCell(IElement itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items, int itemOrderIndex)
     {
         bool foundAnchor = false;
+
+        int itemId = -99999;
 
         Common.RecursiveBoxSearch(itemChild, (child) =>
         {
@@ -466,7 +492,6 @@ public class WowheadGuideParser
 
                 if (!skippedItem)
                 {
-                    int itemId = -99999;
                     Int32.TryParse(item, out itemId);
 
                     if (_itemSwaps.ContainsKey(itemId))
@@ -499,16 +524,16 @@ public class WowheadGuideParser
         });
         if (!foundAnchor)
         {
-            var itemId = -1 * _rand.Next(10000, 99999);
             items.Add(itemId, new ItemSpec
             {
-                ItemId = itemId,
+                ItemId = -1 * _rand.Next(10000, 99999),
                 Name = "unknown",
                 BisStatus = "unknown",
                 Slot = slot,
                 ItemOrder = itemOrderIndex
             });
         }
+        return itemId;
     }
 
     private void LoopThroughTable(IHtmlTableElement? table, Action<INode, IElement?, int, bool> action)

@@ -36,23 +36,32 @@ LBIS:AddEnchant(spec1, "59625", LBIS.L["Main Hand"]) --Enchant Weapon - Black Ma
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Main Hand"]) --Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "46129", LBIS.L["Head"], "BIS") --Conqueror's Kirin Tor Hood
-LBIS:AddItem(spec0, "45369", LBIS.L["Shoulder"], "BIS") --Valorous Kirin Tor Shoulderpads
-LBIS:AddItem(spec0, "46042", LBIS.L["Back"], "BIS") --Drape of the Messenger
+LBIS:AddItem(spec0, "47771", LBIS.L["Head"], "BIS") --Sunstrider's Hood of Triumph
+LBIS:AddItem(spec0, "47768", LBIS.L["Shoulder"], "BIS") --Sunstrider's Shoulderpads of Triumph
+LBIS:AddItem(spec0, "45242", LBIS.L["Back"], "BIS") --Drape of Mortal Downfall
+LBIS:AddItem(spec0, "47769", LBIS.L["Chest"], "BIS") --Sunstrider's Robe of Triumph
 LBIS:AddItem(spec0, "47604", LBIS.L["Chest"], "BIS") --Merlin's Robe
+LBIS:AddItem(spec0, "49994", LBIS.L["Wrist"], "BIS") --The Lady's Brittle Bracers
 LBIS:AddItem(spec0, "47586", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
-LBIS:AddItem(spec0, "46131", LBIS.L["Hands"], "BIS") --Valorous Kirin Tor Gauntlets
+LBIS:AddItem(spec0, "47772", LBIS.L["Hands"], "BIS") --Sunstrider's Gauntlets of Triumph
+LBIS:AddItem(spec0, "47258", LBIS.L["Waist"], "BIS") --Belt of the Tenebrous Mist
 LBIS:AddItem(spec0, "45557", LBIS.L["Waist"], "BIS") --Sash of Ancient Power
-LBIS:AddItem(spec0, "45367", LBIS.L["Legs"], "BIS") --Valorous Kirin Tor Leggings
-LBIS:AddItem(spec0, "45566", LBIS.L["Feet"], "BIS") --Spellslinger's Slippers
-LBIS:AddItem(spec0, "45933", LBIS.L["Neck"], "BIS") --Pendant of the Shallow Grave
-LBIS:AddItem(spec0, "46096", LBIS.L["Ring"], "BIS") --Signet of Soft Lament
+LBIS:AddItem(spec0, "45558", LBIS.L["Waist"], "BIS") --Cord of the White Dawn
+LBIS:AddItem(spec0, "49891", LBIS.L["Legs"], "BIS") --Leggings of Woven Death
+LBIS:AddItem(spec0, "49890", LBIS.L["Feet"], "BIS") --Deathfrost Boots
+LBIS:AddItem(spec0, "49893", LBIS.L["Feet"], "BIS") --Sandals of Consecration
+LBIS:AddItem(spec0, "50182", LBIS.L["Neck"], "BIS") --Blood Queen's Crimson Choker
+LBIS:AddItem(spec0, "45133", LBIS.L["Neck"], "BIS") --Pendant of Fiery Havoc
+LBIS:AddItem(spec0, "45495", LBIS.L["Ring"], "BIS") --Conductive Seal
 LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
-LBIS:AddItem(spec0, "45308", LBIS.L["Trinket"], "BIS") --Eye of the Broodmother
-LBIS:AddItem(spec0, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exiled
-LBIS:AddItem(spec0, "45990", LBIS.L["Main Hand"], "BIS") --Fusion Blade
-LBIS:AddItem(spec0, "45314", LBIS.L["Off Hand"], "BIS") --Igniter Rod
+LBIS:AddItem(spec0, "45518", LBIS.L["Trinket"], "BIS") --Flare of the Heavens
+LBIS:AddItem(spec0, "47316", LBIS.L["Trinket"], "BIS") --Reign of the Dead
+LBIS:AddItem(spec0, "50047", LBIS.L["Main Hand"], "BIS") --Quel'Delar, Lens of the Mind
+LBIS:AddItem(spec0, "47261", LBIS.L["Main Hand"], "BIS") --Barb of Tarasque
+LBIS:AddItem(spec0, "47276", LBIS.L["Off Hand"], "BIS") --Talisman of Heedless Sins
+LBIS:AddItem(spec0, "50472", LBIS.L["Ranged/Relic"], "BIS") --Nightmare Ender
 LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
+LBIS:AddItem(spec0, "45493", LBIS.L["Back"], "BIS") --Asimov's Drape
 
 LBIS:AddItem(spec1, "40416", LBIS.L["Head"], "BIS") --Valorous Frostfire Circlet
 LBIS:AddItem(spec1, "39491", LBIS.L["Head"], "Alt") --Heroes' Frostfire Circlet

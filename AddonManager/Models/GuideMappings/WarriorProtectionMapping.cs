@@ -30,7 +30,7 @@ internal class WarriorProtectionMapping : SpecMapping
             { ("Ranged/Relic", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         };
 
-    public override string Phase0Url => "tank-bis-gear-pre-raid-pve-p3";
+    public override string Phase0Url => "tank-bis-gear-pre-raid-pve-p4";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-protection-warrior-tank-pre-raid") },

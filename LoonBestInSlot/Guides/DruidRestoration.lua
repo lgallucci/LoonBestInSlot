@@ -27,25 +27,49 @@ LBIS:AddEnchant(spec1, "60714", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty S
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Main Hand"]) --Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "47690", LBIS.L["Head"], "BIS") --Helm of Abundant Growth
-LBIS:AddItem(spec0, "47691", LBIS.L["Head"], "BIS") --Mask of Abundant Growth
-LBIS:AddItem(spec0, "46068", LBIS.L["Shoulder"], "BIS") --Amice of Inconceivable Horror
-LBIS:AddItem(spec0, "45317", LBIS.L["Back"], "BIS") --Shawl of the Caretaker
-LBIS:AddItem(spec0, "47603", LBIS.L["Chest"], "BIS") --Merlin's Robe
+LBIS:AddItem(spec0, "48134", LBIS.L["Head"], "BIS") --Malfurion's Headpiece of Triumph
+LBIS:AddItem(spec0, "48151", LBIS.L["Head"], "BIS") --Runetotem's Headpiece of Triumph
+LBIS:AddItem(spec0, "48137", LBIS.L["Shoulder"], "BIS") --Malfurion's Spaulders of Triumph
+LBIS:AddItem(spec0, "48148", LBIS.L["Shoulder"], "BIS") --Runetotem's Spaulders of Triumph
+LBIS:AddItem(spec0, "46976", LBIS.L["Back"], "BIS") --Shawl of the Refreshing Winds
+LBIS:AddItem(spec0, "47256", LBIS.L["Back"], "BIS") --Drape of the Refreshing Winds
 LBIS:AddItem(spec0, "47604", LBIS.L["Chest"], "BIS") --Merlin's Robe
+LBIS:AddItem(spec0, "47324", LBIS.L["Wrist"], "BIS") --Bindings of the Ashen Saint
+LBIS:AddItem(spec0, "47203", LBIS.L["Wrist"], "BIS") --Armbands of the Ashen Saint
 LBIS:AddItem(spec0, "47586", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
-LBIS:AddItem(spec0, "47585", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
-LBIS:AddItem(spec0, "46045", LBIS.L["Hands"], "BIS") --Pulsar Gloves
-LBIS:AddItem(spec0, "45556", LBIS.L["Waist"], "BIS") --Belt of Arctic Life
-LBIS:AddItem(spec0, "46049", LBIS.L["Legs"], "BIS") --Zodiac Leggings
-LBIS:AddItem(spec0, "45566", LBIS.L["Feet"], "BIS") --Spellslinger's Slippers
-LBIS:AddItem(spec0, "45447", LBIS.L["Neck"], "BIS") --Watchful Eye of Fate
-LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
-LBIS:AddItem(spec0, "47732", LBIS.L["Ring"], "BIS") --Band of the Invoker
-LBIS:AddItem(spec0, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
-LBIS:AddItem(spec0, "45929", LBIS.L["Trinket"], "BIS") --Sif's Remembrance
+LBIS:AddItem(spec0, "48133", LBIS.L["Hands"], "BIS") --Malfurion's Handguards of Triumph
+LBIS:AddItem(spec0, "48152", LBIS.L["Hands"], "BIS") --Runetotem's Handguards of Triumph
+LBIS:AddItem(spec0, "39733", LBIS.L["Hands"], "BIS") --Gloves of Token Respect
+LBIS:AddItem(spec0, "47308", LBIS.L["Waist"], "BIS") --Belt of Pale Thorns
+LBIS:AddItem(spec0, "47140", LBIS.L["Waist"], "BIS") --Cord of Pale Thorns
+LBIS:AddItem(spec0, "48135", LBIS.L["Legs"], "BIS") --Malfurion's Leggings of Triumph
+LBIS:AddItem(spec0, "48150", LBIS.L["Legs"], "BIS") --Runetotem's Leggings of Triumph
+LBIS:AddItem(spec0, "47092", LBIS.L["Feet"], "BIS") --Boots of the Mourning Widow
+LBIS:AddItem(spec0, "47293", LBIS.L["Feet"], "BIS") --Sandals of the Mourning Widow
+LBIS:AddItem(spec0, "49894", LBIS.L["Feet"], "BIS") --Blessed Cenarion Boots
+LBIS:AddItem(spec0, "45243", LBIS.L["Neck"], "BIS") --Sapphire Amulet of Renewal
+LBIS:AddItem(spec0, "45495", LBIS.L["Ring"], "BIS") --Conductive Seal
+LBIS:AddItem(spec0, "47223", LBIS.L["Ring"], "BIS") --Ring of the Darkmender
+LBIS:AddItem(spec0, "47278", LBIS.L["Ring"], "BIS") --Circle of the Darkmender
+LBIS:AddItem(spec0, "37835", LBIS.L["Trinket"], "BIS") --Je'Tze's Bell
+LBIS:AddItem(spec0, "47271", LBIS.L["Trinket"], "BIS") --Solace of the Fallen
+LBIS:AddItem(spec0, "47041", LBIS.L["Trinket"], "BIS") --Solace of the Defeated
+LBIS:AddItem(spec0, "45535", LBIS.L["Trinket"], "BIS") --Show of Faith
+LBIS:AddItem(spec0, "42988", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Illusion
 LBIS:AddItem(spec0, "45886", LBIS.L["Two Hand"], "BIS") --Icecore Staff
 LBIS:AddItem(spec0, "40342", LBIS.L["Ranged/Relic"], "BIS") --Idol of Awakening
+LBIS:AddItem(spec0, "45435", LBIS.L["unknown"], "BIS") --Cowl of the Absolute
+LBIS:AddItem(spec0, "50182", LBIS.L["unknown"], "BIS") --Blood Queen's Crimson Choker
+LBIS:AddItem(spec0, "50449", LBIS.L["unknown"], "BIS") --Stiffened Corpse Shoulderpads
+LBIS:AddItem(spec0, "47089", LBIS.L["unknown"], "BIS") --Cloak of Displacement
+LBIS:AddItem(spec0, "47291", LBIS.L["unknown"], "BIS") --Shroud of Displacement
+LBIS:AddItem(spec0, "47603", LBIS.L["unknown"], "BIS") --Merlin's Robe
+LBIS:AddItem(spec0, "47585", LBIS.L["unknown"], "BIS") --Bejeweled Wizard's Bracers
+LBIS:AddItem(spec0, "50069", LBIS.L["unknown"], "BIS") --Professor's Bloodied Smock
+LBIS:AddItem(spec0, "49891", LBIS.L["unknown"], "BIS") --Leggings of Woven Death
+LBIS:AddItem(spec0, "49967", LBIS.L["unknown"], "BIS") --Marrowgar's Frigid Eye
+LBIS:AddItem(spec0, "41384", LBIS.L["unknown"], "BIS") --Titansteel Guardian
+LBIS:AddItem(spec0, "44210", LBIS.L["unknown"], "BIS") --Faces of Doom
 
 LBIS:AddItem(spec1, "44007", LBIS.L["Head"], "BIS") --Headpiece of Reconciliation
 LBIS:AddItem(spec1, "40287", LBIS.L["Head"], "Alt") --Cowl of Vanity

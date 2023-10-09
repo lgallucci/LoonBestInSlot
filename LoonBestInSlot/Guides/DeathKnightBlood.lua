@@ -57,23 +57,37 @@ LBIS:AddEnchant(spec1, "54446", LBIS.L["Main Hand"]) --Rune of Swordbreaking
 LBIS:AddEnchant(spec1, "53344", LBIS.L["Main Hand"]) --Rune of the Fallen Crusader
 LBIS:AddEnchant(spec1, "53343", LBIS.L["Main Hand"]) --Rune of Razorice
 
-LBIS:AddItem(spec0, "47677", LBIS.L["Head"], "BIS") --Faceplate of the Honorbound
-LBIS:AddItem(spec0, "47698", LBIS.L["Shoulder"], "BIS") --Shoulderplates of Enduring Order
-LBIS:AddItem(spec0, "47699", LBIS.L["Shoulder"], "BIS") --Shoulderguards of Enduring Order
-LBIS:AddItem(spec0, "46014", LBIS.L["Back"], "BIS") --Saronite Animus Cloak
-LBIS:AddItem(spec0, "46039", LBIS.L["Chest"], "BIS") --Breastplate of the Timeless
+LBIS:AddItem(spec0, "41387", LBIS.L["Head"], "BIS") --Tempered Titansteel Helm
+LBIS:AddItem(spec0, "50855", LBIS.L["Head"], "BIS") --Scourgelord Faceguard
+LBIS:AddItem(spec0, "50853", LBIS.L["Shoulder"], "BIS") --Scourgelord Pauldrons
+LBIS:AddItem(spec0, "44312", LBIS.L["Shoulder"], "BIS") --Wapach's Spaulders of Solidarity
+LBIS:AddItem(spec0, "45322", LBIS.L["Back"], "BIS") --Cloak of the Iron Council
+LBIS:AddItem(spec0, "45496", LBIS.L["Back"], "BIS") --Titanskin Cloak
+LBIS:AddItem(spec0, "50968", LBIS.L["Chest"], "BIS") --Cataclysmic Chestguard
+LBIS:AddItem(spec0, "47592", LBIS.L["Chest"], "BIS") --Breastplate of the White Knight
+LBIS:AddItem(spec0, "47591", LBIS.L["Chest"], "BIS") --Breastplate of the White Knight
 LBIS:AddItem(spec0, "47570", LBIS.L["Wrist"], "BIS") --Saronite Swordbreakers
-LBIS:AddItem(spec0, "45834", LBIS.L["Hands"], "BIS") --Gauntlets of the Royal Watch
-LBIS:AddItem(spec0, "45825", LBIS.L["Waist"], "BIS") --Shieldwarder Girdle
-LBIS:AddItem(spec0, "45295", LBIS.L["Legs"], "BIS") --Gilded Steel Legplates
-LBIS:AddItem(spec0, "45988", LBIS.L["Feet"], "BIS") --Greaves of the Iron Army
-LBIS:AddItem(spec0, "45821", LBIS.L["Neck"], "BIS") --Shard of the Crystal Forest
-LBIS:AddItem(spec0, "45871", LBIS.L["Ring"], "BIS") --Seal of Ulduar
+LBIS:AddItem(spec0, "47571", LBIS.L["Wrist"], "BIS") --Saronite Swordbreakers
+LBIS:AddItem(spec0, "50978", LBIS.L["Hands"], "BIS") --Gauntlets of the Kraken
+LBIS:AddItem(spec0, "45551", LBIS.L["Waist"], "BIS") --Indestructible Plate Girdle
+LBIS:AddItem(spec0, "50991", LBIS.L["Waist"], "BIS") --Verdigris Chain Belt
+LBIS:AddItem(spec0, "49904", LBIS.L["Legs"], "BIS") --Pillars of Might
+LBIS:AddItem(spec0, "45560", LBIS.L["Feet"], "BIS") --Spiked Deathdealers
+LBIS:AddItem(spec0, "49907", LBIS.L["Feet"], "BIS") --Boots of Kingly Upheaval
+LBIS:AddItem(spec0, "42646", LBIS.L["Neck"], "BIS") --Titanium Earthguard Chain
+LBIS:AddItem(spec0, "45485", LBIS.L["Neck"], "BIS") --Bronze Pendant of the Vanir
+LBIS:AddItem(spec0, "50447", LBIS.L["Ring"], "BIS") --Harbinger's Bone Band
+LBIS:AddItem(spec0, "45874", LBIS.L["Ring"], "BIS") --Signet of Winter
+LBIS:AddItem(spec0, "40426", LBIS.L["Ring"], "BIS") --Signet of the Accord
+LBIS:AddItem(spec0, "45471", LBIS.L["Ring"], "BIS") --Fate's Clutch
 LBIS:AddItem(spec0, "47731", LBIS.L["Ring"], "BIS") --Clutch of Fortification
-LBIS:AddItem(spec0, "46021", LBIS.L["Trinket"], "BIS") --Royal Seal of King Llane
-LBIS:AddItem(spec0, "44063", LBIS.L["Trinket"], "BIS") --Figurine - Monarch Crab
+LBIS:AddItem(spec0, "42643", LBIS.L["Ring"], "BIS") --Titanium Earthguard Ring
+LBIS:AddItem(spec0, "47149", LBIS.L["Ring"], "BIS") --Signet of the Traitor King
+LBIS:AddItem(spec0, "47315", LBIS.L["Ring"], "BIS") --Band of the Traitor King
+LBIS:AddItem(spec0, "47080", LBIS.L["Trinket"], "BIS") --Satrina's Impeding Scarab
+LBIS:AddItem(spec0, "50356", LBIS.L["Trinket"], "BIS") --Corroded Skeleton Key
 LBIS:AddItem(spec0, "46067", LBIS.L["Two Hand"], "BIS") --Hammer of Crushing Whispers
-LBIS:AddItem(spec0, "47672", LBIS.L["Ranged/Relic"], "BIS") --Sigil of Insolence
+LBIS:AddItem(spec0, "50462", LBIS.L["Ranged/Relic"], "BIS") --Sigil of the Bone Gryphon
 
 LBIS:AddItem(spec1, "40565", LBIS.L["Head"], "BIS") --Valorous Scourgeborne Faceguard
 LBIS:AddItem(spec1, "40328", LBIS.L["Head"], "Alt") --Helm of Vital Protection

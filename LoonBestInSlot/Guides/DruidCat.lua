@@ -34,22 +34,31 @@ LBIS:AddEnchant(spec1, "59621", LBIS.L["Main Hand"]) --Enchant Weapon - Berserki
 LBIS:AddEnchant(spec1, "60691", LBIS.L["Main Hand"]) --Enchant 2H Weapon - Massacre
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
-LBIS:AddItem(spec0, "45993", LBIS.L["Head"], "BIS") --Mimiron's Flight Goggles
-LBIS:AddItem(spec0, "45359", LBIS.L["Shoulder"], "BIS") --Valorous Nightsong Shoulderpads
+LBIS:AddItem(spec0, "48194", LBIS.L["Head"], "BIS") --Runetotem's Headguard of Triumph
+LBIS:AddItem(spec0, "48211", LBIS.L["Head"], "BIS") --Malfurion's Headguard of Triumph
+LBIS:AddItem(spec0, "48197", LBIS.L["Shoulder"], "BIS") --Runetotem's Shoulderpads of Triumph
+LBIS:AddItem(spec0, "48208", LBIS.L["Shoulder"], "BIS") --Malfurion's Shoulderpads of Triumph
 LBIS:AddItem(spec0, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless General
-LBIS:AddItem(spec0, "46159", LBIS.L["Chest"], "BIS") --Conqueror's Nightsong Raiments
-LBIS:AddItem(spec0, "45869", LBIS.L["Wrist"], "BIS") --Fluxing Energy Coils
-LBIS:AddItem(spec0, "45355", LBIS.L["Hands"], "BIS") --Valorous Nightsong Handgrips
-LBIS:AddItem(spec0, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
-LBIS:AddItem(spec0, "45357", LBIS.L["Legs"], "BIS") --Valorous Nightsong Legguards
-LBIS:AddItem(spec0, "47248", LBIS.L["Feet"], "BIS") --Treads of Dismal Fortune
-LBIS:AddItem(spec0, "45820", LBIS.L["Neck"], "BIS") --Broach of the Wailing Night
+LBIS:AddItem(spec0, "48196", LBIS.L["Chest"], "BIS") --Runetotem's Raiments of Triumph
+LBIS:AddItem(spec0, "48209", LBIS.L["Chest"], "BIS") --Malfurion's Raiments of Triumph
+LBIS:AddItem(spec0, "47582", LBIS.L["Wrist"], "BIS") --Bracers of Swift Death
+LBIS:AddItem(spec0, "47581", LBIS.L["Wrist"], "BIS") --Bracers of Swift Death
+LBIS:AddItem(spec0, "48193", LBIS.L["Hands"], "BIS") --Runetotem's Handgrips of Triumph
+LBIS:AddItem(spec0, "48212", LBIS.L["Hands"], "BIS") --Malfurion's Handgrips of Triumph
+LBIS:AddItem(spec0, "47107", LBIS.L["Waist"], "BIS") --Belt of the Merciless Killer
+LBIS:AddItem(spec0, "47299", LBIS.L["Waist"], "BIS") --Belt of the Pitiless Killer
+LBIS:AddItem(spec0, "49899", LBIS.L["Legs"], "BIS") --Bladeborn Leggings
+LBIS:AddItem(spec0, "49895", LBIS.L["Feet"], "BIS") --Footpads of Impending Death
+LBIS:AddItem(spec0, "45945", LBIS.L["Neck"], "BIS") --Seed of Budding Carnage
 LBIS:AddItem(spec0, "46048", LBIS.L["Ring"], "BIS") --Band of Lights
-LBIS:AddItem(spec0, "45456", LBIS.L["Ring"], "BIS") --Loop of the Agile
+LBIS:AddItem(spec0, "47730", LBIS.L["Ring"], "BIS") --Dexterous Brightstone Ring
 LBIS:AddItem(spec0, "45931", LBIS.L["Trinket"], "BIS") --Mjolnir Runestone
-LBIS:AddItem(spec0, "46038", LBIS.L["Trinket"], "BIS") --Dark Matter
-LBIS:AddItem(spec0, "46033", LBIS.L["Two Hand"], "BIS") --Tortured Earth
-LBIS:AddItem(spec0, "40713", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Ravenous Beast
+LBIS:AddItem(spec0, "47303", LBIS.L["Trinket"], "BIS") --Death's Choice
+LBIS:AddItem(spec0, "47115", LBIS.L["Trinket"], "BIS") --Death's Verdict
+LBIS:AddItem(spec0, "47329", LBIS.L["Two Hand"], "BIS") --Hellion Glaive
+LBIS:AddItem(spec0, "47233", LBIS.L["Two Hand"], "BIS") --Archon Glaive
+LBIS:AddItem(spec0, "47668", LBIS.L["Ranged/Relic"], "BIS") --Idol of Mutilation
+LBIS:AddItem(spec0, "50452", LBIS.L["unknown"], "BIS") --Wodin's Lucky Necklace
 
 LBIS:AddItem(spec1, "40473", LBIS.L["Head"], "BIS") --Valorous Dreamwalker Headguard
 LBIS:AddItem(spec1, "40329", LBIS.L["Head"], "Alt") --Hood of the Exodus

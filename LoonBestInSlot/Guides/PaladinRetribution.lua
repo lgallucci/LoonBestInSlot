@@ -32,22 +32,31 @@ LBIS:AddEnchant(spec1, "59621", LBIS.L["Two Hand"]) --Enchant Weapon - Berserkin
 LBIS:AddEnchant(spec1, "60691", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Massacre
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
-LBIS:AddItem(spec0, "45993", LBIS.L["Head"], "BIS") --Mimiron's Flight Goggles
-LBIS:AddItem(spec0, "46037", LBIS.L["Shoulder"], "BIS") --Shoulderplates of the Celestial Watch
-LBIS:AddItem(spec0, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless General
+LBIS:AddItem(spec0, "48624", LBIS.L["Head"], "BIS") --Liadrin's Helm of Triumph
+LBIS:AddItem(spec0, "48609", LBIS.L["Head"], "BIS") --Turalyon's Helm of Triumph
+LBIS:AddItem(spec0, "47697", LBIS.L["Shoulder"], "BIS") --Pauldrons of Trembling Rage
+LBIS:AddItem(spec0, "50020", LBIS.L["Shoulder"], "BIS") --Raging Behemoth's Shoulderplates
+LBIS:AddItem(spec0, "47320", LBIS.L["Back"], "BIS") --Might of the Nerub
 LBIS:AddItem(spec0, "47589", LBIS.L["Chest"], "BIS") --Titanium Razorplate
-LBIS:AddItem(spec0, "47573", LBIS.L["Wrist"], "BIS") --Titanium Spikeguards
-LBIS:AddItem(spec0, "46043", LBIS.L["Hands"], "BIS") --Gloves of the Endless Dark
+LBIS:AddItem(spec0, "47590", LBIS.L["Chest"], "BIS") --Titanium Razorplate
+LBIS:AddItem(spec0, "47576", LBIS.L["Wrist"], "BIS") --Crusader's Dragonscale Bracers
+LBIS:AddItem(spec0, "47577", LBIS.L["Wrist"], "BIS") --Crusader's Dragonscale Bracers
+LBIS:AddItem(spec0, "48625", LBIS.L["Hands"], "BIS") --Liadrin's Gauntlets of Triumph
 LBIS:AddItem(spec0, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
-LBIS:AddItem(spec0, "45982", LBIS.L["Legs"], "BIS") --Fused Alloy Legplates
-LBIS:AddItem(spec0, "45989", LBIS.L["Feet"], "BIS") --Tempered Mercury Greaves
+LBIS:AddItem(spec0, "49903", LBIS.L["Legs"], "BIS") --Legplates of Painful Death
+LBIS:AddItem(spec0, "49895", LBIS.L["Feet"], "BIS") --Footpads of Impending Death
 LBIS:AddItem(spec0, "46040", LBIS.L["Neck"], "BIS") --Strength of the Heavens
-LBIS:AddItem(spec0, "45456", LBIS.L["Ring"], "BIS") --Loop of the Agile
-LBIS:AddItem(spec0, "46048", LBIS.L["Ring"], "BIS") --Band of Lights
-LBIS:AddItem(spec0, "46038", LBIS.L["Trinket"], "BIS") --Dark Matter
+LBIS:AddItem(spec0, "48608", LBIS.L["Neck"], "BIS") --Turalyon's Gauntlets of Triumph
+LBIS:AddItem(spec0, "45534", LBIS.L["Ring"], "BIS") --Seal of the Betrayed King
+LBIS:AddItem(spec0, "47729", LBIS.L["Ring"], "BIS") --Bloodshed Band
 LBIS:AddItem(spec0, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
-LBIS:AddItem(spec0, "45868", LBIS.L["Two Hand"], "BIS") --Aesir's Edge
+LBIS:AddItem(spec0, "47303", LBIS.L["Trinket"], "BIS") --Death's Choice
+LBIS:AddItem(spec0, "47285", LBIS.L["Main Hand"], "BIS") --Dual-blade Butcher
 LBIS:AddItem(spec0, "47661", LBIS.L["Ranged/Relic"], "BIS") --Libram of Valiance
+LBIS:AddItem(spec0, "50001", LBIS.L["unknown"], "BIS") --Ikfirus's Sack of Wonder
+LBIS:AddItem(spec0, "50038", LBIS.L["unknown"], "BIS") --Carapace of Forgotten Kings
+LBIS:AddItem(spec0, "50453", LBIS.L["unknown"], "BIS") --Ring of Rotting Sinew
+LBIS:AddItem(spec0, "50452", LBIS.L["unknown"], "BIS") --Wodin's Lucky Necklace
 
 LBIS:AddItem(spec1, "44006", LBIS.L["Head"], "BIS") --Obsidian Greathelm
 LBIS:AddItem(spec1, "40576", LBIS.L["Head"], "BIS") --Valorous Redemption Helm

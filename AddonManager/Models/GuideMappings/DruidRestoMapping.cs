@@ -30,7 +30,7 @@ internal class DruidRestoMapping : SpecMapping
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         };
 
-    public override string Phase0Url => "healer-bis-gear-pre-raid-pve-p3";
+    public override string Phase0Url => "healer-bis-gear-pre-raid-pve-p4";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-restoration-druid-healer-pre-raid") },

@@ -46,23 +46,30 @@ LBIS:AddEnchant(spec1, "62202", LBIS.L["Off Hand"]) --Titanium Plating
 LBIS:AddEnchant(spec1, "44489", LBIS.L["Off Hand"]) --Enchant Shield - Defense
 LBIS:AddEnchant(spec1, "56478", LBIS.L["Ranged/Relic"]) --Heartseeker Scope
 
-LBIS:AddItem(spec0, "46166", LBIS.L["Head"], "BIS") --Conqueror's Siegebreaker Greathelm
-LBIS:AddItem(spec0, "45697", LBIS.L["Shoulder"], "BIS") --Shoulderguards of the Solemn Watch
+LBIS:AddItem(spec0, "48430", LBIS.L["Head"], "BIS") --Wrynn's Greathelm of Triumph
+LBIS:AddItem(spec0, "48454", LBIS.L["Shoulder"], "BIS") --Wrynn's Pauldrons of Triumph
+LBIS:AddItem(spec0, "45496", LBIS.L["Back"], "BIS") --Titanskin Cloak
 LBIS:AddItem(spec0, "45322", LBIS.L["Back"], "BIS") --Cloak of the Iron Council
-LBIS:AddItem(spec0, "46162", LBIS.L["Chest"], "BIS") --Conqueror's Siegebreaker Breastplate
+LBIS:AddItem(spec0, "48450", LBIS.L["Chest"], "BIS") --Wrynn's Breastplate of Triumph
 LBIS:AddItem(spec0, "47570", LBIS.L["Wrist"], "BIS") --Saronite Swordbreakers
-LBIS:AddItem(spec0, "46340", LBIS.L["Hands"], "BIS") --Adamant Handguards
-LBIS:AddItem(spec0, "45825", LBIS.L["Waist"], "BIS") --Shieldwarder Girdle
-LBIS:AddItem(spec0, "45842", LBIS.L["Legs"], "BIS") --Wyrmguard Legplates
-LBIS:AddItem(spec0, "45988", LBIS.L["Feet"], "BIS") --Greaves of the Iron Army
-LBIS:AddItem(spec0, "45821", LBIS.L["Neck"], "BIS") --Shard of the Crystal Forest
+LBIS:AddItem(spec0, "48452", LBIS.L["Hands"], "BIS") --Wrynn's Handguards of Triumph
+LBIS:AddItem(spec0, "45551", LBIS.L["Waist"], "BIS") --Indestructible Plate Girdle
+LBIS:AddItem(spec0, "47072", LBIS.L["Waist"], "BIS") --Girdle of Bloodied Scars
+LBIS:AddItem(spec0, "49904", LBIS.L["Legs"], "BIS") --Pillars of Might
+LBIS:AddItem(spec0, "49907", LBIS.L["Feet"], "BIS") --Boots of Kingly Upheaval
+LBIS:AddItem(spec0, "47116", LBIS.L["Neck"], "BIS") --The Arbiter's Muse
+LBIS:AddItem(spec0, "50447", LBIS.L["Ring"], "BIS") --Harbinger's Bone Band
+LBIS:AddItem(spec0, "47149", LBIS.L["Ring"], "BIS") --Signet of the Traitor King
 LBIS:AddItem(spec0, "45247", LBIS.L["Ring"], "BIS") --Signet of the Earthshaker
 LBIS:AddItem(spec0, "45874", LBIS.L["Ring"], "BIS") --Signet of Winter
-LBIS:AddItem(spec0, "46021", LBIS.L["Trinket"], "BIS") --Royal Seal of King Llane
+LBIS:AddItem(spec0, "47731", LBIS.L["Ring"], "BIS") --Clutch of Fortification
+LBIS:AddItem(spec0, "45471", LBIS.L["Ring"], "BIS") --Fate's Clutch
+LBIS:AddItem(spec0, "47080", LBIS.L["Trinket"], "BIS") --Satrina's Impeding Scarab
 LBIS:AddItem(spec0, "47216", LBIS.L["Trinket"], "BIS") --The Black Heart
 LBIS:AddItem(spec0, "45876", LBIS.L["Main Hand"], "BIS") --Shiver
-LBIS:AddItem(spec0, "45877", LBIS.L["Off Hand"], "BIS") --The Boreal Guard
-LBIS:AddItem(spec0, "45870", LBIS.L["Ranged/Relic"], "BIS") --Magnetized Projectile Emitter
+LBIS:AddItem(spec0, "45450", LBIS.L["Off Hand"], "BIS") --Northern Barrier
+LBIS:AddItem(spec0, "46963", LBIS.L["Off Hand"], "BIS") --Crystal Plated Vanguard
+LBIS:AddItem(spec0, "47660", LBIS.L["Ranged/Relic"], "BIS") --Blades of the Sable Cross
 
 LBIS:AddItem(spec1, "40546", LBIS.L["Head"], "BIS") --Valorous Dreadnaught Greathelm
 LBIS:AddItem(spec1, "39610", LBIS.L["Head"], "Alt") --Heroes' Dreadnaught Greathelm

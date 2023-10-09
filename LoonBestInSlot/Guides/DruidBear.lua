@@ -30,22 +30,31 @@ LBIS:AddEnchant(spec1, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vita
 LBIS:AddEnchant(spec1, "27984", LBIS.L["Main Hand"]) --Enchant Weapon - Mongoose
 LBIS:AddEnchant(spec1, "59636", LBIS.L["Ring"]) --Enchant Ring - Stamina
 
-LBIS:AddItem(spec0, "46161", LBIS.L["Head"], "BIS") --Conqueror's Nightsong Headguard
-LBIS:AddItem(spec0, "45359", LBIS.L["Shoulder"], "BIS") --Valorous Nightsong Shoulderpads
-LBIS:AddItem(spec0, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless General
-LBIS:AddItem(spec0, "46159", LBIS.L["Chest"], "BIS") --Conqueror's Nightsong Raiments
-LBIS:AddItem(spec0, "45869", LBIS.L["Wrist"], "BIS") --Fluxing Energy Coils
-LBIS:AddItem(spec0, "46043", LBIS.L["Hands"], "BIS") --Gloves of the Endless Dark
+LBIS:AddItem(spec0, "48194", LBIS.L["Head"], "BIS") --Runetotem's Headguard of Triumph
+LBIS:AddItem(spec0, "48211", LBIS.L["Head"], "BIS") --Malfurion's Headguard of Triumph
+LBIS:AddItem(spec0, "48197", LBIS.L["Shoulder"], "BIS") --Runetotem's Shoulderpads of Triumph
+LBIS:AddItem(spec0, "48208", LBIS.L["Shoulder"], "BIS") --Malfurion's Shoulderpads of Triumph
+LBIS:AddItem(spec0, "45496", LBIS.L["Back"], "BIS") --Titanskin Cloak
+LBIS:AddItem(spec0, "47600", LBIS.L["Chest"], "BIS") --Knightbane Carapace
+LBIS:AddItem(spec0, "47599", LBIS.L["Chest"], "BIS") --Knightbane Carapace
+LBIS:AddItem(spec0, "51370", LBIS.L["Wrist"], "BIS") --Wrathful Gladiator's Armwraps of Triumph
+LBIS:AddItem(spec0, "48212", LBIS.L["Hands"], "BIS") --Malfurion's Handgrips of Triumph
+LBIS:AddItem(spec0, "48193", LBIS.L["Hands"], "BIS") --Runetotem's Handgrips of Triumph
 LBIS:AddItem(spec0, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
-LBIS:AddItem(spec0, "45357", LBIS.L["Legs"], "BIS") --Valorous Nightsong Legguards
-LBIS:AddItem(spec0, "45302", LBIS.L["Feet"], "BIS") --Treads of the Invader
-LBIS:AddItem(spec0, "45696", LBIS.L["Neck"], "BIS") --Mark of the Unyielding
-LBIS:AddItem(spec0, "45871", LBIS.L["Ring"], "BIS") --Seal of Ulduar
-LBIS:AddItem(spec0, "45874", LBIS.L["Ring"], "BIS") --Signet of Winter
-LBIS:AddItem(spec0, "47216", LBIS.L["Trinket"], "BIS") --The Black Heart
-LBIS:AddItem(spec0, "46021", LBIS.L["Trinket"], "BIS") --Royal Seal of King Llane
-LBIS:AddItem(spec0, "46033", LBIS.L["Two Hand"], "BIS") --Tortured Earth
+LBIS:AddItem(spec0, "49899", LBIS.L["Legs"], "BIS") --Bladeborn Leggings
+LBIS:AddItem(spec0, "49895", LBIS.L["Feet"], "BIS") --Footpads of Impending Death
+LBIS:AddItem(spec0, "47305", LBIS.L["Neck"], "BIS") --Legionnaire's Gorget
+LBIS:AddItem(spec0, "47116", LBIS.L["Neck"], "BIS") --The Arbiter's Muse
+LBIS:AddItem(spec0, "50447", LBIS.L["Ring"], "BIS") --Harbinger's Bone Band
+LBIS:AddItem(spec0, "47731", LBIS.L["Ring"], "BIS") --Clutch of Fortification
+LBIS:AddItem(spec0, "45471", LBIS.L["Ring"], "BIS") --Fate's Clutch
+LBIS:AddItem(spec0, "47290", LBIS.L["Trinket"], "BIS") --Juggernaut's Vitality
+LBIS:AddItem(spec0, "47080", LBIS.L["Trinket"], "BIS") --Satrina's Impeding Scarab
+LBIS:AddItem(spec0, "49118", LBIS.L["Trinket"], "BIS") --Bubbling Brightbrew Charm
+LBIS:AddItem(spec0, "49116", LBIS.L["Trinket"], "BIS") --Bitter Balebrew Charm
+LBIS:AddItem(spec0, "42391", LBIS.L["Two Hand"], "BIS") --Furious Gladiator's Staff
 LBIS:AddItem(spec0, "45509", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Corruptor
+LBIS:AddItem(spec0, "50001", LBIS.L["unknown"], "BIS") --Ikfirus's Sack of Wonder
 
 LBIS:AddItem(spec1, "40329", LBIS.L["Head"], "BIS") --Hood of the Exodus
 LBIS:AddItem(spec1, "40473", LBIS.L["Head"], "Alt") --Valorous Dreamwalker Headguard

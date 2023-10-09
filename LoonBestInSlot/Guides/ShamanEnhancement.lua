@@ -35,21 +35,25 @@ LBIS:AddEnchant(spec1, "59621", LBIS.L["Main Hand"]) --Enchant Weapon - Berserki
 LBIS:AddEnchant(spec1, "27984", LBIS.L["Main Hand"]) --Enchant Weapon - Mongoose
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
-LBIS:AddItem(spec0, "46212", LBIS.L["Head"], "BIS") --Conqueror's Worldbreaker Faceguard
-LBIS:AddItem(spec0, "45415", LBIS.L["Shoulder"], "BIS") --Valorous Worldbreaker Shoulderguards
-LBIS:AddItem(spec0, "46970", LBIS.L["Back"], "BIS") --Drape of the Untamed Predator
-LBIS:AddItem(spec0, "47257", LBIS.L["Back"], "BIS") --Cloak of the Untamed Predator
-LBIS:AddItem(spec0, "46205", LBIS.L["Chest"], "BIS") --Conqueror's Worldbreaker Chestguard
+LBIS:AddItem(spec0, "48348", LBIS.L["Head"], "BIS") --Nobundo's Faceguard of Triumph
+LBIS:AddItem(spec0, "48363", LBIS.L["Head"], "BIS") --Thrall's Faceguard of Triumph
+LBIS:AddItem(spec0, "48350", LBIS.L["Shoulder"], "BIS") --Nobundo's Shoulderguards of Triumph
+LBIS:AddItem(spec0, "48361", LBIS.L["Shoulder"], "BIS") --Thrall's Shoulderguards of Triumph
+LBIS:AddItem(spec0, "45461", LBIS.L["Back"], "BIS") --Drape of Icy Intent
+LBIS:AddItem(spec0, "48346", LBIS.L["Chest"], "BIS") --Nobundo's Chestguard of Triumph
+LBIS:AddItem(spec0, "48365", LBIS.L["Chest"], "BIS") --Thrall's Chestguard of Triumph
 LBIS:AddItem(spec0, "47582", LBIS.L["Wrist"], "BIS") --Bracers of Swift Death
-LBIS:AddItem(spec0, "46043", LBIS.L["Hands"], "BIS") --Gloves of the Endless Dark
-LBIS:AddItem(spec0, "45553", LBIS.L["Waist"], "BIS") --Belt of Dragons
-LBIS:AddItem(spec0, "45416", LBIS.L["Legs"], "BIS") --Valorous Worldbreaker War-Kilt
-LBIS:AddItem(spec0, "45989", LBIS.L["Feet"], "BIS") --Tempered Mercury Greaves
-LBIS:AddItem(spec0, "45933", LBIS.L["Neck"], "BIS") --Pendant of the Shallow Grave
-LBIS:AddItem(spec0, "45456", LBIS.L["Ring"], "BIS") --Loop of the Agile
+LBIS:AddItem(spec0, "48347", LBIS.L["Hands"], "BIS") --Nobundo's Grips of Triumph
+LBIS:AddItem(spec0, "48364", LBIS.L["Hands"], "BIS") --Thrall's Grips of Triumph
+LBIS:AddItem(spec0, "47107", LBIS.L["Waist"], "BIS") --Belt of the Merciless Killer
+LBIS:AddItem(spec0, "47299", LBIS.L["Waist"], "BIS") --Belt of the Pitiless Killer
+LBIS:AddItem(spec0, "49901", LBIS.L["Legs"], "BIS") --Draconic Bonesplinter Legguards
+LBIS:AddItem(spec0, "49897", LBIS.L["Feet"], "BIS") --Rock-Steady Treads
+LBIS:AddItem(spec0, "45133", LBIS.L["Neck"], "BIS") --Pendant of Fiery Havoc
+LBIS:AddItem(spec0, "47282", LBIS.L["Ring"], "BIS") --Band of Callous Aggression
 LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
-LBIS:AddItem(spec0, "47734", LBIS.L["Trinket"], "BIS") --Mark of Supremacy
-LBIS:AddItem(spec0, "46038", LBIS.L["Trinket"], "BIS") --Dark Matter
+LBIS:AddItem(spec0, "47316", LBIS.L["Trinket"], "BIS") --Reign of the Dead
+LBIS:AddItem(spec0, "45609", LBIS.L["Trinket"], "BIS") --Comet's Trail
 LBIS:AddItem(spec0, "46035", LBIS.L["Main Hand"], "BIS") --Aesuga, Hand of the Ardent Champion
 LBIS:AddItem(spec0, "46097", LBIS.L["Off Hand"], "BIS") --Caress of Insanity
 LBIS:AddItem(spec0, "47666", LBIS.L["Ranged/Relic"], "BIS") --Totem of Electrifying Wind

@@ -39,22 +39,35 @@ LBIS:AddEnchant(spec1, "27968", LBIS.L["Main Hand"]) --Enchant Weapon - Major In
 LBIS:AddEnchant(spec1, "60653", LBIS.L["Off Hand"]) --Enchant Shield - Greater Intellect
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "46180", LBIS.L["Head"], "BIS") --Conqueror's Aegis Headpiece
+LBIS:AddItem(spec0, "47686", LBIS.L["Head"], "BIS") --Helm of Inner Warmth
+LBIS:AddItem(spec0, "47687", LBIS.L["Head"], "BIS") --Headguard of Inner Warmth
 LBIS:AddItem(spec0, "46044", LBIS.L["Shoulder"], "BIS") --Observer's Mantle
-LBIS:AddItem(spec0, "45317", LBIS.L["Back"], "BIS") --Shawl of the Caretaker
-LBIS:AddItem(spec0, "45867", LBIS.L["Chest"], "BIS") --Breastplate of the Stoneshaper
-LBIS:AddItem(spec0, "46345", LBIS.L["Wrist"], "BIS") --Bracers of Righteous Reformation
-LBIS:AddItem(spec0, "45928", LBIS.L["Hands"], "BIS") --Gauntlets of the Thunder God
-LBIS:AddItem(spec0, "45828", LBIS.L["Waist"], "BIS") --Windchill Binding
-LBIS:AddItem(spec0, "45845", LBIS.L["Legs"], "BIS") --Leggings of the Weary Mystic
-LBIS:AddItem(spec0, "46050", LBIS.L["Feet"], "BIS") --Starlight Treads
-LBIS:AddItem(spec0, "45933", LBIS.L["Neck"], "BIS") --Pendant of the Shallow Grave
-LBIS:AddItem(spec0, "45946", LBIS.L["Ring"], "BIS") --Fire Orchid Signet
+LBIS:AddItem(spec0, "47089", LBIS.L["Back"], "BIS") --Cloak of Displacement
+LBIS:AddItem(spec0, "47291", LBIS.L["Back"], "BIS") --Shroud of Displacement
+LBIS:AddItem(spec0, "47603", LBIS.L["Chest"], "BIS") --Merlin's Robe
+LBIS:AddItem(spec0, "47604", LBIS.L["Chest"], "BIS") --Merlin's Robe
+LBIS:AddItem(spec0, "47586", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
+LBIS:AddItem(spec0, "47585", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
+LBIS:AddItem(spec0, "50175", LBIS.L["Wrist"], "BIS") --Crypt Keeper's Bracers
+LBIS:AddItem(spec0, "47235", LBIS.L["Hands"], "BIS") --Gloves of the Lifeless Touch
+LBIS:AddItem(spec0, "47326", LBIS.L["Hands"], "BIS") --Handwraps of the Lifeless Touch
+LBIS:AddItem(spec0, "50451", LBIS.L["Waist"], "BIS") --Belt of the Lonely Noble
+LBIS:AddItem(spec0, "50314", LBIS.L["Waist"], "BIS") --Strip of Remorse
+LBIS:AddItem(spec0, "49891", LBIS.L["Legs"], "BIS") --Leggings of Woven Death
+LBIS:AddItem(spec0, "49896", LBIS.L["Feet"], "BIS") --Earthsoul Boots
+LBIS:AddItem(spec0, "47307", LBIS.L["Neck"], "BIS") --Cry of the Val'kyr
+LBIS:AddItem(spec0, "47139", LBIS.L["Neck"], "BIS") --Wail of the Val'kyr
+LBIS:AddItem(spec0, "50182", LBIS.L["Neck"], "BIS") --Blood Queen's Crimson Choker
+LBIS:AddItem(spec0, "49967", LBIS.L["Ring"], "BIS") --Marrowgar's Frigid Eye
+LBIS:AddItem(spec0, "47223", LBIS.L["Ring"], "BIS") --Ring of the Darkmender
+LBIS:AddItem(spec0, "47278", LBIS.L["Ring"], "BIS") --Circle of the Darkmender
 LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
 LBIS:AddItem(spec0, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
 LBIS:AddItem(spec0, "46051", LBIS.L["Trinket"], "BIS") --Meteorite Crystal
-LBIS:AddItem(spec0, "46035", LBIS.L["Main Hand"], "BIS") --Aesuga, Hand of the Ardent Champion
-LBIS:AddItem(spec0, "45887", LBIS.L["Off Hand"], "BIS") --Ice Layered Barrier
+LBIS:AddItem(spec0, "47193", LBIS.L["Main Hand"], "BIS") --Misery's End
+LBIS:AddItem(spec0, "47322", LBIS.L["Main Hand"], "BIS") --Suffering's End
+LBIS:AddItem(spec0, "47079", LBIS.L["Off Hand"], "BIS") --Bastion of Purity
+LBIS:AddItem(spec0, "47287", LBIS.L["Off Hand"], "BIS") --Bastion of Resolve
 LBIS:AddItem(spec0, "40705", LBIS.L["Ranged/Relic"], "BIS") --Libram of Renewal
 
 LBIS:AddItem(spec1, "40298", LBIS.L["Head"], "BIS") --Faceguard of the Succumbed

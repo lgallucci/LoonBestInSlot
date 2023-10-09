@@ -32,7 +32,7 @@ internal class DeathKnightBloodMapping : SpecMapping
             { ("Main Hand", "h3#runewords+.box~.box~.box") },
         };
 
-    public override string Phase0Url => "tank-bis-gear-pre-raid-pve-p3";
+    public override string Phase0Url => "tank-bis-gear-pre-raid-pve-p4";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-blood-death-knight-tank-pre-raid") },

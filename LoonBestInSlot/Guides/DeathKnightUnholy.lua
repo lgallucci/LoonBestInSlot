@@ -29,22 +29,27 @@ LBIS:AddEnchant(spec1, "53344", LBIS.L["Main Hand"]) --Rune of the Fallen Crusad
 LBIS:AddEnchant(spec1, "53344", LBIS.L["Off Hand"]) --Rune of the Fallen Crusader
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
-LBIS:AddItem(spec0, "46115", LBIS.L["Head"], "BIS") --Conqueror's Darkruned Helmet
-LBIS:AddItem(spec0, "46037", LBIS.L["Shoulder"], "BIS") --Shoulderplates of the Celestial Watch
-LBIS:AddItem(spec0, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless General
-LBIS:AddItem(spec0, "46111", LBIS.L["Chest"], "BIS") --Conqueror's Darkruned Battleplate
-LBIS:AddItem(spec0, "45888", LBIS.L["Wrist"], "BIS") --Bitter Cold Armguards
-LBIS:AddItem(spec0, "45833", LBIS.L["Hands"], "BIS") --Bladebreaker Gauntlets
-LBIS:AddItem(spec0, "46041", LBIS.L["Waist"], "BIS") --Starfall Girdle
+LBIS:AddItem(spec0, "48503", LBIS.L["Head"], "BIS") --Koltira's Helmet of Conquest
+LBIS:AddItem(spec0, "48505", LBIS.L["Shoulder"], "BIS") --Koltira's Shoulderplates of Conquest
+LBIS:AddItem(spec0, "47320", LBIS.L["Back"], "BIS") --Might of the Nerub
+LBIS:AddItem(spec0, "48501", LBIS.L["Chest"], "BIS") --Koltira's Battleplate of Conquest
+LBIS:AddItem(spec0, "47573", LBIS.L["Wrist"], "BIS") --Titanium Spikeguards
+LBIS:AddItem(spec0, "47253", LBIS.L["Wrist"], "BIS") --Boneshatter Vambraces
+LBIS:AddItem(spec0, "48502", LBIS.L["Hands"], "BIS") --Koltira's Gauntlets of Conquest
+LBIS:AddItem(spec0, "47268", LBIS.L["Waist"], "BIS") --Bloodbath Girdle
 LBIS:AddItem(spec0, "45982", LBIS.L["Legs"], "BIS") --Fused Alloy Legplates
-LBIS:AddItem(spec0, "45330", LBIS.L["Feet"], "BIS") --Greaves of Iron Intensity
-LBIS:AddItem(spec0, "46040", LBIS.L["Neck"], "BIS") --Strength of the Heavens
-LBIS:AddItem(spec0, "45456", LBIS.L["Ring"], "BIS") --Loop of the Agile
-LBIS:AddItem(spec0, "46048", LBIS.L["Ring"], "BIS") --Band of Lights
-LBIS:AddItem(spec0, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
-LBIS:AddItem(spec0, "46038", LBIS.L["Trinket"], "BIS") --Dark Matter
+LBIS:AddItem(spec0, "47312", LBIS.L["Feet"], "BIS") --Greaves of the Saronite Citadel
+LBIS:AddItem(spec0, "45459", LBIS.L["Neck"], "BIS") --Frigid Strength of Hodir
+LBIS:AddItem(spec0, "50453", LBIS.L["Ring"], "BIS") --Ring of Rotting Sinew
+LBIS:AddItem(spec0, "47252", LBIS.L["Ring"], "BIS") --Ring of the Violent Temperament
+LBIS:AddItem(spec0, "45534", LBIS.L["Ring"], "BIS") --Seal of the Betrayed King
+LBIS:AddItem(spec0, "45609", LBIS.L["Trinket"], "BIS") --Comet's Trail
+LBIS:AddItem(spec0, "47303", LBIS.L["Trinket"], "BIS") --Death's Choice
 LBIS:AddItem(spec0, "46097", LBIS.L["Main Hand/Off Hand"], "BIS") --Caress of Insanity
-LBIS:AddItem(spec0, "45254", LBIS.L["Ranged/Relic"], "BIS") --Sigil of the Vengeful Heart
+LBIS:AddItem(spec0, "47673", LBIS.L["Ranged/Relic"], "BIS") --Sigil of Virulence
+LBIS:AddItem(spec0, "49906", LBIS.L["unknown"], "BIS") --Hellfrozen Bonegrinders
+LBIS:AddItem(spec0, "49903", LBIS.L["unknown"], "BIS") --Legplates of Painful Death
+LBIS:AddItem(spec0, "47590", LBIS.L["unknown"], "BIS") --Titanium Razorplate
 
 LBIS:AddItem(spec1, "44006", LBIS.L["Head"], "BIS") --Obsidian Greathelm
 LBIS:AddItem(spec1, "40554", LBIS.L["Head"], "Alt") --Valorous Scourgeborne Helmet

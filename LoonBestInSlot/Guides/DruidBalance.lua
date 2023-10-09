@@ -29,23 +29,26 @@ LBIS:AddEnchant(spec1, "60714", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty S
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Main Hand"]) --Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "46191", LBIS.L["Head"], "BIS") --Conqueror's Nightsong Cover
-LBIS:AddItem(spec0, "46068", LBIS.L["Shoulder"], "BIS") --Amice of Inconceivable Horror
-LBIS:AddItem(spec0, "46042", LBIS.L["Back"], "BIS") --Drape of the Messenger
-LBIS:AddItem(spec0, "47603", LBIS.L["Chest"], "BIS") --Merlin's Robe
+LBIS:AddItem(spec0, "48164", LBIS.L["Head"], "BIS") --Malfurion's Cover of Triumph
+LBIS:AddItem(spec0, "48167", LBIS.L["Shoulder"], "BIS") --Malfurion's Mantle of Triumph
+LBIS:AddItem(spec0, "45242", LBIS.L["Back"], "BIS") --Drape of Mortal Downfall
+LBIS:AddItem(spec0, "48166", LBIS.L["Chest"], "BIS") --Malfurion's Vestments of Triumph
 LBIS:AddItem(spec0, "47585", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
-LBIS:AddItem(spec0, "46045", LBIS.L["Hands"], "BIS") --Pulsar Gloves
-LBIS:AddItem(spec0, "45557", LBIS.L["Waist"], "BIS") --Sash of Ancient Power
-LBIS:AddItem(spec0, "45353", LBIS.L["Legs"], "BIS") --Valorous Nightsong Trousers
-LBIS:AddItem(spec0, "46050", LBIS.L["Feet"], "BIS") --Starlight Treads
+LBIS:AddItem(spec0, "48163", LBIS.L["Hands"], "BIS") --Malfurion's Gloves of Triumph
+LBIS:AddItem(spec0, "50069", LBIS.L["Waist"], "BIS") --Professor's Bloodied Smock
+LBIS:AddItem(spec0, "47081", LBIS.L["Waist"], "BIS") --Cord of Biting Cold
+LBIS:AddItem(spec0, "49891", LBIS.L["Legs"], "BIS") --Leggings of Woven Death
+LBIS:AddItem(spec0, "49890", LBIS.L["Feet"], "BIS") --Deathfrost Boots
+LBIS:AddItem(spec0, "50182", LBIS.L["Neck"], "BIS") --Blood Queen's Crimson Choker
 LBIS:AddItem(spec0, "45933", LBIS.L["Neck"], "BIS") --Pendant of the Shallow Grave
 LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
-LBIS:AddItem(spec0, "46096", LBIS.L["Ring"], "BIS") --Signet of Soft Lament
-LBIS:AddItem(spec0, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exiled
-LBIS:AddItem(spec0, "45308", LBIS.L["Trinket"], "BIS") --Eye of the Broodmother
-LBIS:AddItem(spec0, "46035", LBIS.L["Main Hand"], "BIS") --Aesuga, Hand of the Ardent Champion
-LBIS:AddItem(spec0, "45314", LBIS.L["Off Hand"], "BIS") --Igniter Rod
-LBIS:AddItem(spec0, "40321", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Shooting Star
+LBIS:AddItem(spec0, "45495", LBIS.L["Ring"], "BIS") --Conductive Seal
+LBIS:AddItem(spec0, "47182", LBIS.L["Trinket"], "BIS") --Reign of the Unliving
+LBIS:AddItem(spec0, "45518", LBIS.L["Trinket"], "BIS") --Flare of the Heavens
+LBIS:AddItem(spec0, "47193", LBIS.L["Main Hand"], "BIS") --Misery's End
+LBIS:AddItem(spec0, "47138", LBIS.L["Off Hand"], "BIS") --Chalice of Searing Light
+LBIS:AddItem(spec0, "47670", LBIS.L["Ranged/Relic"], "BIS") --Idol of Lunar Fury
+LBIS:AddItem(spec0, "49994", LBIS.L["unknown"], "BIS") --The Lady's Brittle Bracers
 
 LBIS:AddItem(spec1, "40467", LBIS.L["Head"], "BIS") --Valorous Dreamwalker Cover
 LBIS:AddItem(spec1, "39545", LBIS.L["Head"], "Alt") --Heroes' Dreamwalker Cover

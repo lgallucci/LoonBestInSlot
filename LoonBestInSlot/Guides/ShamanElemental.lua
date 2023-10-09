@@ -40,22 +40,29 @@ LBIS:AddEnchant(spec1, "62948", LBIS.L["Main Hand"]) --Enchant Staff - Greater S
 LBIS:AddEnchant(spec1, "60653", LBIS.L["Off Hand"]) --Enchant Shield - Greater Intellect
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "46209", LBIS.L["Head"], "BIS") --Conqueror's Worldbreaker Helm
-LBIS:AddItem(spec0, "45410", LBIS.L["Shoulder"], "BIS") --Valorous Worldbreaker Shoulderpads
-LBIS:AddItem(spec0, "46042", LBIS.L["Back"], "BIS") --Drape of the Messenger
-LBIS:AddItem(spec0, "46206", LBIS.L["Chest"], "BIS") --Conqueror's Worldbreaker Hauberk
+LBIS:AddItem(spec0, "48318", LBIS.L["Head"], "BIS") --Nobundo's Helm of Triumph
+LBIS:AddItem(spec0, "48333", LBIS.L["Head"], "BIS") --Thrall's Helm of Triumph
+LBIS:AddItem(spec0, "48320", LBIS.L["Shoulder"], "BIS") --Nobundo's Shoulderpads of Triumph
+LBIS:AddItem(spec0, "48331", LBIS.L["Shoulder"], "BIS") --Thrall's Shoulderpads of Triumph
+LBIS:AddItem(spec0, "45242", LBIS.L["Back"], "BIS") --Drape of Mortal Downfall
+LBIS:AddItem(spec0, "48316", LBIS.L["Chest"], "BIS") --Nobundo's Hauberk of Triumph
+LBIS:AddItem(spec0, "48335", LBIS.L["Chest"], "BIS") --Thrall's Hauberk of Triumph
 LBIS:AddItem(spec0, "47586", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
-LBIS:AddItem(spec0, "45943", LBIS.L["Hands"], "BIS") --Gloves of Whispering Winds
+LBIS:AddItem(spec0, "48334", LBIS.L["Hands"], "BIS") --Thrall's Gloves of Triumph
+LBIS:AddItem(spec0, "48317", LBIS.L["Hands"], "BIS") --Nobundo's Gloves of Triumph
 LBIS:AddItem(spec0, "45557", LBIS.L["Waist"], "BIS") --Sash of Ancient Power
-LBIS:AddItem(spec0, "45409", LBIS.L["Legs"], "BIS") --Valorous Worldbreaker Kilt
-LBIS:AddItem(spec0, "46050", LBIS.L["Feet"], "BIS") --Starlight Treads
-LBIS:AddItem(spec0, "45933", LBIS.L["Neck"], "BIS") --Pendant of the Shallow Grave
-LBIS:AddItem(spec0, "48957", LBIS.L["Ring"], "BIS") --Etched Signet of the Kirin Tor
+LBIS:AddItem(spec0, "47286", LBIS.L["Waist"], "BIS") --Belt of Biting Cold
+LBIS:AddItem(spec0, "47081", LBIS.L["Waist"], "BIS") --Cord of Biting Cold
+LBIS:AddItem(spec0, "49891", LBIS.L["Legs"], "BIS") --Leggings of Woven Death
+LBIS:AddItem(spec0, "49896", LBIS.L["Feet"], "BIS") --Earthsoul Boots
+LBIS:AddItem(spec0, "45133", LBIS.L["Neck"], "BIS") --Pendant of Fiery Havoc
+LBIS:AddItem(spec0, "45495", LBIS.L["Ring"], "BIS") --Conductive Seal
 LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
-LBIS:AddItem(spec0, "45308", LBIS.L["Trinket"], "BIS") --Eye of the Broodmother
-LBIS:AddItem(spec0, "47213", LBIS.L["Trinket"], "BIS") --Abyssal Rune
+LBIS:AddItem(spec0, "47316", LBIS.L["Trinket"], "BIS") --Reign of the Dead
+LBIS:AddItem(spec0, "45518", LBIS.L["Trinket"], "BIS") --Flare of the Heavens
 LBIS:AddItem(spec0, "46035", LBIS.L["Main Hand"], "BIS") --Aesuga, Hand of the Ardent Champion
-LBIS:AddItem(spec0, "45887", LBIS.L["Off Hand"], "BIS") --Ice Layered Barrier
+LBIS:AddItem(spec0, "47079", LBIS.L["Off Hand"], "BIS") --Bastion of Purity
+LBIS:AddItem(spec0, "47287", LBIS.L["Off Hand"], "BIS") --Bastion of Resolve
 LBIS:AddItem(spec0, "47666", LBIS.L["Ranged/Relic"], "BIS") --Totem of Electrifying Wind
 
 LBIS:AddItem(spec1, "40516", LBIS.L["Head"], "BIS") --Valorous Earthshatter Helm

@@ -30,22 +30,27 @@ LBIS:AddEnchant(spec1, "62948", LBIS.L["Two Hand"]) --Enchant Staff - Greater Sp
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
 LBIS:AddItem(spec0, "46197", LBIS.L["Head"], "BIS") --Conqueror's Cowl of Sanctification
-LBIS:AddItem(spec0, "46068", LBIS.L["Shoulder"], "BIS") --Amice of Inconceivable Horror
-LBIS:AddItem(spec0, "46042", LBIS.L["Back"], "BIS") --Drape of the Messenger
+LBIS:AddItem(spec0, "45390", LBIS.L["Shoulder"], "BIS") --Valorous Shoulderpads of Sanctification
+LBIS:AddItem(spec0, "45486", LBIS.L["Back"], "BIS") --Drape of the Sullen Goddess
 LBIS:AddItem(spec0, "46193", LBIS.L["Chest"], "BIS") --Conqueror's Robe of Sanctification
-LBIS:AddItem(spec0, "45423", LBIS.L["Wrist"], "BIS") --Runetouch Wristwraps
+LBIS:AddItem(spec0, "47587", LBIS.L["Wrist"], "BIS") --Royal Moonshroud Bracers
 LBIS:AddItem(spec0, "45387", LBIS.L["Hands"], "BIS") --Valorous Gloves of Sanctification
 LBIS:AddItem(spec0, "45558", LBIS.L["Waist"], "BIS") --Cord of the White Dawn
-LBIS:AddItem(spec0, "45388", LBIS.L["Legs"], "BIS") --Valorous Leggings of Sanctification
-LBIS:AddItem(spec0, "46050", LBIS.L["Feet"], "BIS") --Starlight Treads
+LBIS:AddItem(spec0, "47081", LBIS.L["Waist"], "BIS") --Cord of Biting Cold
+LBIS:AddItem(spec0, "47286", LBIS.L["Waist"], "BIS") --Belt of Biting Cold
+LBIS:AddItem(spec0, "49892", LBIS.L["Legs"], "BIS") --Lightweave Leggings
+LBIS:AddItem(spec0, "49893", LBIS.L["Feet"], "BIS") --Sandals of Consecration
 LBIS:AddItem(spec0, "45933", LBIS.L["Neck"], "BIS") --Pendant of the Shallow Grave
 LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
 LBIS:AddItem(spec0, "46096", LBIS.L["Ring"], "BIS") --Signet of Soft Lament
-LBIS:AddItem(spec0, "45929", LBIS.L["Trinket"], "BIS") --Sif's Remembrance
-LBIS:AddItem(spec0, "42988", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Illusion
+LBIS:AddItem(spec0, "47041", LBIS.L["Trinket"], "BIS") --Solace of the Defeated
+LBIS:AddItem(spec0, "47271", LBIS.L["Trinket"], "BIS") --Solace of the Fallen
+LBIS:AddItem(spec0, "45535", LBIS.L["Trinket"], "BIS") --Show of Faith
 LBIS:AddItem(spec0, "46035", LBIS.L["Main Hand"], "BIS") --Aesuga, Hand of the Ardent Champion
-LBIS:AddItem(spec0, "45314", LBIS.L["Off Hand"], "BIS") --Igniter Rod
+LBIS:AddItem(spec0, "47138", LBIS.L["Off Hand"], "BIS") --Chalice of Searing Light
+LBIS:AddItem(spec0, "47309", LBIS.L["Off Hand"], "BIS") --Mystifying Charm
 LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
+LBIS:AddItem(spec0, "50182", LBIS.L["unknown"], "BIS") --Blood Queen's Crimson Choker
 
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec1, "40456", LBIS.L["Head"], "BIS") --Valorous Circlet of Faith

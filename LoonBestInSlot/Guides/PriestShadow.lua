@@ -43,23 +43,36 @@ LBIS:AddEnchant(spec1, "60714", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty S
 LBIS:AddEnchant(spec1, "62948", LBIS.L["Two Hand"]) --Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 
-LBIS:AddItem(spec0, "46172", LBIS.L["Head"], "BIS") --Conqueror's Circlet of Sanctification
+LBIS:AddItem(spec0, "45391", LBIS.L["Head"], "BIS") --Valorous Circlet of Sanctification
 LBIS:AddItem(spec0, "46068", LBIS.L["Shoulder"], "BIS") --Amice of Inconceivable Horror
 LBIS:AddItem(spec0, "46042", LBIS.L["Back"], "BIS") --Drape of the Messenger
-LBIS:AddItem(spec0, "46168", LBIS.L["Chest"], "BIS") --Conqueror's Raiments of Sanctification
-LBIS:AddItem(spec0, "45291", LBIS.L["Wrist"], "BIS") --Combustion Bracers
-LBIS:AddItem(spec0, "45392", LBIS.L["Hands"], "BIS") --Valorous Handwraps of Sanctification
+LBIS:AddItem(spec0, "45395", LBIS.L["Chest"], "BIS") --Valorous Raiments of Sanctification
+LBIS:AddItem(spec0, "47324", LBIS.L["Wrist"], "BIS") --Bindings of the Ashen Saint
+LBIS:AddItem(spec0, "47203", LBIS.L["Wrist"], "BIS") --Armbands of the Ashen Saint
+LBIS:AddItem(spec0, "46045", LBIS.L["Hands"], "BIS") --Pulsar Gloves
+LBIS:AddItem(spec0, "46972", LBIS.L["Waist"], "BIS") --Cord of the Tenebrous Mist
+LBIS:AddItem(spec0, "47258", LBIS.L["Waist"], "BIS") --Belt of the Tenebrous Mist
 LBIS:AddItem(spec0, "45557", LBIS.L["Waist"], "BIS") --Sash of Ancient Power
+LBIS:AddItem(spec0, "49891", LBIS.L["Legs"], "BIS") --Leggings of Woven Death
 LBIS:AddItem(spec0, "46034", LBIS.L["Legs"], "BIS") --Leggings of Profound Darkness
-LBIS:AddItem(spec0, "46050", LBIS.L["Feet"], "BIS") --Starlight Treads
-LBIS:AddItem(spec0, "45447", LBIS.L["Neck"], "BIS") --Watchful Eye of Fate
+LBIS:AddItem(spec0, "49890", LBIS.L["Feet"], "BIS") --Deathfrost Boots
+LBIS:AddItem(spec0, "49893", LBIS.L["Feet"], "BIS") --Sandals of Consecration
+LBIS:AddItem(spec0, "47293", LBIS.L["Feet"], "BIS") --Sandals of the Mourning Widow
+LBIS:AddItem(spec0, "47092", LBIS.L["Feet"], "BIS") --Boots of the Mourning Widow
+LBIS:AddItem(spec0, "45133", LBIS.L["Neck"], "BIS") --Pendant of Fiery Havoc
 LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
-LBIS:AddItem(spec0, "45297", LBIS.L["Ring"], "BIS") --Shimmering Seal
-LBIS:AddItem(spec0, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spider
-LBIS:AddItem(spec0, "45308", LBIS.L["Trinket"], "BIS") --Eye of the Broodmother
+LBIS:AddItem(spec0, "45495", LBIS.L["Ring"], "BIS") --Conductive Seal
+LBIS:AddItem(spec0, "45518", LBIS.L["Trinket"], "BIS") --Flare of the Heavens
+LBIS:AddItem(spec0, "47182", LBIS.L["Trinket"], "BIS") --Reign of the Unliving
+LBIS:AddItem(spec0, "47316", LBIS.L["Trinket"], "BIS") --Reign of the Dead
 LBIS:AddItem(spec0, "46035", LBIS.L["Main Hand"], "BIS") --Aesuga, Hand of the Ardent Champion
-LBIS:AddItem(spec0, "45314", LBIS.L["Off Hand"], "BIS") --Igniter Rod
+LBIS:AddItem(spec0, "47053", LBIS.L["Off Hand"], "BIS") --Symbol of Transgression
+LBIS:AddItem(spec0, "47276", LBIS.L["Off Hand"], "BIS") --Talisman of Heedless Sins
 LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
+LBIS:AddItem(spec0, "50182", LBIS.L["unknown"], "BIS") --Blood Queen's Crimson Choker
+LBIS:AddItem(spec0, "49994", LBIS.L["unknown"], "BIS") --The Lady's Brittle Bracers
+LBIS:AddItem(spec0, "50449", LBIS.L["unknown"], "BIS") --Stiffened Corpse Shoulderpads
+LBIS:AddItem(spec0, "50472", LBIS.L["unknown"], "BIS") --Nightmare Ender
 
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec1, "40339", LBIS.L["Head"], "Alt") --Gothik's Cowl

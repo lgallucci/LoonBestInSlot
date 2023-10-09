@@ -43,20 +43,20 @@ LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpo
 
 LBIS:AddItem(spec0, "46201", LBIS.L["Head"], "BIS") --Conqueror's Worldbreaker Headpiece
 LBIS:AddItem(spec0, "45404", LBIS.L["Shoulder"], "BIS") --Valorous Worldbreaker Spaulders
-LBIS:AddItem(spec0, "46341", LBIS.L["Back"], "BIS") --Drape of the Spellweaver
+LBIS:AddItem(spec0, "45486", LBIS.L["Back"], "BIS") --Drape of the Sullen Goddess
 LBIS:AddItem(spec0, "46198", LBIS.L["Chest"], "BIS") --Conqueror's Worldbreaker Tunic
 LBIS:AddItem(spec0, "47586", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
-LBIS:AddItem(spec0, "45943", LBIS.L["Hands"], "BIS") --Gloves of Whispering Winds
-LBIS:AddItem(spec0, "45554", LBIS.L["Waist"], "BIS") --Blue Belt of Chaos
-LBIS:AddItem(spec0, "45403", LBIS.L["Legs"], "BIS") --Valorous Worldbreaker Legguards
-LBIS:AddItem(spec0, "45563", LBIS.L["Feet"], "BIS") --Lightning Grounded Boots
-LBIS:AddItem(spec0, "45933", LBIS.L["Neck"], "BIS") --Pendant of the Shallow Grave
-LBIS:AddItem(spec0, "48957", LBIS.L["Ring"], "BIS") --Etched Signet of the Kirin Tor
+LBIS:AddItem(spec0, "45401", LBIS.L["Hands"], "BIS") --Valorous Worldbreaker Handguards
+LBIS:AddItem(spec0, "47265", LBIS.L["Waist"], "BIS") --Binding of the Ice Burrower
+LBIS:AddItem(spec0, "49891", LBIS.L["Legs", "BIS") --Earthsoul Boots
+LBIS:AddItem(spec0, "45443", LBIS.L["Neck"], "BIS") --Charm of Meticulous Timing
+LBIS:AddItem(spec0, "47278", LBIS.L["Ring"], "BIS") --Circle of the Darkmender
 LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
-LBIS:AddItem(spec0, "45308", LBIS.L["Trinket"], "BIS") --Eye of the Broodmother
-LBIS:AddItem(spec0, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
+LBIS:AddItem(spec0, "45535", LBIS.L["Trinket"], "BIS") --Show of Faith
+LBIS:AddItem(spec0, "47271", LBIS.L["Trinket"], "BIS") --Solace of the Fallen
 LBIS:AddItem(spec0, "46035", LBIS.L["Main Hand"], "BIS") --Aesuga, Hand of the Ardent Champion
-LBIS:AddItem(spec0, "45887", LBIS.L["Off Hand"], "BIS") --Ice Layered Barrier
+LBIS:AddItem(spec0, "47287", LBIS.L["Off Hand"], "BIS") --Bastion of Resolve
+LBIS:AddItem(spec0, "47079", LBIS.L["Off Hand"], "BIS") --Bastion of Purity
 LBIS:AddItem(spec0, "47665", LBIS.L["Ranged/Relic"], "BIS") --Totem of Calming Tides
 
 LBIS:AddItem(spec1, "40510", LBIS.L["Head"], "BIS") --Valorous Earthshatter Headpiece

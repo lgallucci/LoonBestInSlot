@@ -31,7 +31,7 @@ internal class HunterSurvivalMapping : SpecMapping
             { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
         };
 
-    public override string Phase0Url => "dps-bis-gear-pre-raid-pve-p3";
+    public override string Phase0Url => "dps-bis-gear-pre-raid-pve-p4";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-survival-hunter-dps-pre-raid") },
