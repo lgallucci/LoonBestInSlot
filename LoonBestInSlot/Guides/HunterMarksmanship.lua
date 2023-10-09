@@ -70,9 +70,9 @@ LBIS:AddItem(spec0, "47303", LBIS.L["Trinket"], "BIS") --Death's Choice
 LBIS:AddItem(spec0, "47115", LBIS.L["Trinket"], "BIS") --Death's Verdict
 LBIS:AddItem(spec0, "47329", LBIS.L["Main Hand"], "BIS") --Hellion Glaive
 LBIS:AddItem(spec0, "47233", LBIS.L["Main Hand"], "BIS") --Archon Glaive
+LBIS:AddItem(spec0, "50444", LBIS.L["Ranged/Relic"], "BIS") --Rowan's Rifle of Silver Bullets
 LBIS:AddItem(spec0, "47267", LBIS.L["Ranged/Relic"], "BIS") --Death's Head Crossbow
 LBIS:AddItem(spec0, "46994", LBIS.L["Ranged/Relic"], "BIS") --Talonstrike
-LBIS:AddItem(spec0, "50444", LBIS.L["Ranged/Relic"], "BIS") --Rowan's Rifle of Silver Bullets
 
 LBIS:AddItem(spec1, "40543", LBIS.L["Head"], "BIS") --Blue Aspect Helm
 LBIS:AddItem(spec1, "40344", LBIS.L["Head"], "Alt") --Helm of the Grave

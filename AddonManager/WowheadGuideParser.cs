@@ -265,7 +265,7 @@ public class WowheadGuideParser
                 {
                     int itemId = ParseItemCell(itemChild, "BIS", slotText, items, itemOrderIndex);
 
-                    if (items[itemId].Slot == "unknown")
+                    if (items[itemId].Slot.Contains("unknown"))
                     {
                         for (int i = 0; i < 5; i++)
                         {

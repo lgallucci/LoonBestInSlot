@@ -50,7 +50,7 @@ LBIS:AddItem(spec0, "46035", LBIS.L["Main Hand"], "BIS") --Aesuga, Hand of the A
 LBIS:AddItem(spec0, "47138", LBIS.L["Off Hand"], "BIS") --Chalice of Searing Light
 LBIS:AddItem(spec0, "47309", LBIS.L["Off Hand"], "BIS") --Mystifying Charm
 LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
-LBIS:AddItem(spec0, "50182", LBIS.L["unknown"], "BIS") --Blood Queen's Crimson Choker
+LBIS:AddItem(spec0, "50182", LBIS.L["Neck"], "BIS") --Blood Queen's Crimson Choker
 
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec1, "40456", LBIS.L["Head"], "BIS") --Valorous Circlet of Faith

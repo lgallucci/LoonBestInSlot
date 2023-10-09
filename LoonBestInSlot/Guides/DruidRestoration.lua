@@ -58,18 +58,18 @@ LBIS:AddItem(spec0, "45535", LBIS.L["Trinket"], "BIS") --Show of Faith
 LBIS:AddItem(spec0, "42988", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Illusion
 LBIS:AddItem(spec0, "45886", LBIS.L["Two Hand"], "BIS") --Icecore Staff
 LBIS:AddItem(spec0, "40342", LBIS.L["Ranged/Relic"], "BIS") --Idol of Awakening
-LBIS:AddItem(spec0, "45435", LBIS.L["unknown"], "BIS") --Cowl of the Absolute
-LBIS:AddItem(spec0, "50182", LBIS.L["unknown"], "BIS") --Blood Queen's Crimson Choker
-LBIS:AddItem(spec0, "50449", LBIS.L["unknown"], "BIS") --Stiffened Corpse Shoulderpads
-LBIS:AddItem(spec0, "47089", LBIS.L["unknown"], "BIS") --Cloak of Displacement
-LBIS:AddItem(spec0, "47291", LBIS.L["unknown"], "BIS") --Shroud of Displacement
-LBIS:AddItem(spec0, "47603", LBIS.L["unknown"], "BIS") --Merlin's Robe
-LBIS:AddItem(spec0, "47585", LBIS.L["unknown"], "BIS") --Bejeweled Wizard's Bracers
-LBIS:AddItem(spec0, "50069", LBIS.L["unknown"], "BIS") --Professor's Bloodied Smock
-LBIS:AddItem(spec0, "49891", LBIS.L["unknown"], "BIS") --Leggings of Woven Death
-LBIS:AddItem(spec0, "49967", LBIS.L["unknown"], "BIS") --Marrowgar's Frigid Eye
-LBIS:AddItem(spec0, "41384", LBIS.L["unknown"], "BIS") --Titansteel Guardian
-LBIS:AddItem(spec0, "44210", LBIS.L["unknown"], "BIS") --Faces of Doom
+LBIS:AddItem(spec0, "45435", LBIS.L["Head"], "BIS") --Cowl of the Absolute
+LBIS:AddItem(spec0, "50182", LBIS.L["Neck"], "BIS") --Blood Queen's Crimson Choker
+LBIS:AddItem(spec0, "50449", LBIS.L["Shoulder"], "BIS") --Stiffened Corpse Shoulderpads
+LBIS:AddItem(spec0, "47089", LBIS.L["Back"], "BIS") --Cloak of Displacement
+LBIS:AddItem(spec0, "47291", LBIS.L["Back"], "BIS") --Shroud of Displacement
+LBIS:AddItem(spec0, "47603", LBIS.L["Chest"], "BIS") --Merlin's Robe
+LBIS:AddItem(spec0, "47585", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
+LBIS:AddItem(spec0, "50069", LBIS.L["Waist"], "BIS") --Professor's Bloodied Smock
+LBIS:AddItem(spec0, "49891", LBIS.L["Legs"], "BIS") --Leggings of Woven Death
+LBIS:AddItem(spec0, "49967", LBIS.L["Ring"], "BIS") --Marrowgar's Frigid Eye
+LBIS:AddItem(spec0, "41384", LBIS.L["Main Hand"], "BIS") --Titansteel Guardian
+LBIS:AddItem(spec0, "44210", LBIS.L["Off Hand"], "BIS") --Faces of Doom
 
 LBIS:AddItem(spec1, "44007", LBIS.L["Head"], "BIS") --Headpiece of Reconciliation
 LBIS:AddItem(spec1, "40287", LBIS.L["Head"], "Alt") --Cowl of Vanity

@@ -54,7 +54,7 @@ LBIS:AddItem(spec0, "46051", LBIS.L["Trinket"], "BIS") --Meteorite Crystal
 LBIS:AddItem(spec0, "46035", LBIS.L["Main Hand"], "BIS") --Aesuga, Hand of the Ardent Champion
 LBIS:AddItem(spec0, "50309", LBIS.L["Off Hand"], "BIS") --Shriveled Heart
 LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
-LBIS:AddItem(spec0, "50182", LBIS.L["unknown"], "BIS") --Blood Queen's Crimson Choker
+LBIS:AddItem(spec0, "50182", LBIS.L["Neck"], "BIS") --Blood Queen's Crimson Choker
 
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec1, "40287", LBIS.L["Head"], "BIS") --Cowl of Vanity

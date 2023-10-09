@@ -69,10 +69,10 @@ LBIS:AddItem(spec0, "46035", LBIS.L["Main Hand"], "BIS") --Aesuga, Hand of the A
 LBIS:AddItem(spec0, "47053", LBIS.L["Off Hand"], "BIS") --Symbol of Transgression
 LBIS:AddItem(spec0, "47276", LBIS.L["Off Hand"], "BIS") --Talisman of Heedless Sins
 LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
-LBIS:AddItem(spec0, "50182", LBIS.L["unknown"], "BIS") --Blood Queen's Crimson Choker
-LBIS:AddItem(spec0, "49994", LBIS.L["unknown"], "BIS") --The Lady's Brittle Bracers
-LBIS:AddItem(spec0, "50449", LBIS.L["unknown"], "BIS") --Stiffened Corpse Shoulderpads
-LBIS:AddItem(spec0, "50472", LBIS.L["unknown"], "BIS") --Nightmare Ender
+LBIS:AddItem(spec0, "50182", LBIS.L["Neck"], "BIS") --Blood Queen's Crimson Choker
+LBIS:AddItem(spec0, "49994", LBIS.L["Wrist"], "BIS") --The Lady's Brittle Bracers
+LBIS:AddItem(spec0, "50449", LBIS.L["Shoulder"], "BIS") --Stiffened Corpse Shoulderpads
+LBIS:AddItem(spec0, "50472", LBIS.L["Ranged/Relic"], "BIS") --Nightmare Ender
 
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec1, "40339", LBIS.L["Head"], "Alt") --Gothik's Cowl

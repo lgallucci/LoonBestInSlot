@@ -71,8 +71,8 @@ LBIS:AddItem(spec0, "47138", LBIS.L["Off Hand"], "BIS") --Chalice of Searing Lig
 LBIS:AddItem(spec0, "47309", LBIS.L["Off Hand"], "BIS") --Mystifying Charm
 LBIS:AddItem(spec0, "50472", LBIS.L["Ranged/Relic"], "BIS") --Nightmare Ender
 LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
-LBIS:AddItem(spec0, "50047", LBIS.L["unknown"], "BIS") --Quel'Delar, Lens of the Mind
-LBIS:AddItem(spec0, "45493", LBIS.L["unknown"], "BIS") --Asimov's Drape
+LBIS:AddItem(spec0, "50047", LBIS.L["Main Hand"], "BIS") --Quel'Delar, Lens of the Mind
+LBIS:AddItem(spec0, "45493", LBIS.L["Back"], "BIS") --Asimov's Drape
 
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec1, "40421", LBIS.L["Head"], "BIS") --Valorous Plagueheart Circlet

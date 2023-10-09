@@ -58,7 +58,7 @@ LBIS:AddItem(spec0, "47115", LBIS.L["Trinket"], "BIS") --Death's Verdict
 LBIS:AddItem(spec0, "47329", LBIS.L["Two Hand"], "BIS") --Hellion Glaive
 LBIS:AddItem(spec0, "47233", LBIS.L["Two Hand"], "BIS") --Archon Glaive
 LBIS:AddItem(spec0, "47668", LBIS.L["Ranged/Relic"], "BIS") --Idol of Mutilation
-LBIS:AddItem(spec0, "50452", LBIS.L["unknown"], "BIS") --Wodin's Lucky Necklace
+LBIS:AddItem(spec0, "50452", LBIS.L["Neck"], "BIS") --Wodin's Lucky Necklace
 
 LBIS:AddItem(spec1, "40473", LBIS.L["Head"], "BIS") --Valorous Dreamwalker Headguard
 LBIS:AddItem(spec1, "40329", LBIS.L["Head"], "Alt") --Hood of the Exodus

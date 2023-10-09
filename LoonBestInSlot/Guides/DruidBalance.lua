@@ -48,7 +48,7 @@ LBIS:AddItem(spec0, "45518", LBIS.L["Trinket"], "BIS") --Flare of the Heavens
 LBIS:AddItem(spec0, "47193", LBIS.L["Main Hand"], "BIS") --Misery's End
 LBIS:AddItem(spec0, "47138", LBIS.L["Off Hand"], "BIS") --Chalice of Searing Light
 LBIS:AddItem(spec0, "47670", LBIS.L["Ranged/Relic"], "BIS") --Idol of Lunar Fury
-LBIS:AddItem(spec0, "49994", LBIS.L["unknown"], "BIS") --The Lady's Brittle Bracers
+LBIS:AddItem(spec0, "49994", LBIS.L["Wrist"], "BIS") --The Lady's Brittle Bracers
 
 LBIS:AddItem(spec1, "40467", LBIS.L["Head"], "BIS") --Valorous Dreamwalker Cover
 LBIS:AddItem(spec1, "39545", LBIS.L["Head"], "Alt") --Heroes' Dreamwalker Cover

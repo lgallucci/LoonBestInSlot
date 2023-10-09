@@ -53,10 +53,10 @@ LBIS:AddItem(spec0, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatnes
 LBIS:AddItem(spec0, "47303", LBIS.L["Trinket"], "BIS") --Death's Choice
 LBIS:AddItem(spec0, "47285", LBIS.L["Main Hand"], "BIS") --Dual-blade Butcher
 LBIS:AddItem(spec0, "47661", LBIS.L["Ranged/Relic"], "BIS") --Libram of Valiance
-LBIS:AddItem(spec0, "50001", LBIS.L["unknown"], "BIS") --Ikfirus's Sack of Wonder
-LBIS:AddItem(spec0, "50038", LBIS.L["unknown"], "BIS") --Carapace of Forgotten Kings
-LBIS:AddItem(spec0, "50453", LBIS.L["unknown"], "BIS") --Ring of Rotting Sinew
-LBIS:AddItem(spec0, "50452", LBIS.L["unknown"], "BIS") --Wodin's Lucky Necklace
+LBIS:AddItem(spec0, "50001", LBIS.L["Chest"], "BIS") --Ikfirus's Sack of Wonder
+LBIS:AddItem(spec0, "50038", LBIS.L["Chest"], "BIS") --Carapace of Forgotten Kings
+LBIS:AddItem(spec0, "50453", LBIS.L["Ring"], "BIS") --Ring of Rotting Sinew
+LBIS:AddItem(spec0, "50452", LBIS.L["Neck"], "BIS") --Wodin's Lucky Necklace
 
 LBIS:AddItem(spec1, "44006", LBIS.L["Head"], "BIS") --Obsidian Greathelm
 LBIS:AddItem(spec1, "40576", LBIS.L["Head"], "BIS") --Valorous Redemption Helm
