@@ -43,6 +43,7 @@ LBIS:AddItem(spec0, "47807", LBIS.L["Shoulder"], "BIS") --Gul'dan's Shoulderpads
 LBIS:AddItem(spec0, "47781", LBIS.L["Shoulder"], "BIS") --Kel'Thuzad's Shoulderpads of Triumph
 LBIS:AddItem(spec0, "47256", LBIS.L["Back"], "BIS") --Drape of the Refreshing Winds
 LBIS:AddItem(spec0, "46976", LBIS.L["Back"], "BIS") --Shawl of the Refreshing Winds
+LBIS:AddItem(spec0, "45493", LBIS.L["Back"], "BIS") --Asimov's Drape
 LBIS:AddItem(spec0, "47806", LBIS.L["Chest"], "BIS") --Gul'dan's Robe of Triumph
 LBIS:AddItem(spec0, "47779", LBIS.L["Chest"], "BIS") --Kel'Thuzad's Robe of Triumph
 LBIS:AddItem(spec0, "47604", LBIS.L["Chest"], "BIS") --Merlin's Robe
@@ -65,14 +66,13 @@ LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
 LBIS:AddItem(spec0, "47182", LBIS.L["Trinket"], "BIS") --Reign of the Unliving
 LBIS:AddItem(spec0, "47316", LBIS.L["Trinket"], "BIS") --Reign of the Dead
 LBIS:AddItem(spec0, "45518", LBIS.L["Trinket"], "BIS") --Flare of the Heavens
-LBIS:AddItem(spec0, "46979", LBIS.L["Main Hand"], "BIS") --Blade of Tarasque
+LBIS:AddItem(spec0, "50047", LBIS.L["Main Hand"], "BIS") --Quel'Delar, Lens of the Mind
 LBIS:AddItem(spec0, "47261", LBIS.L["Main Hand"], "BIS") --Barb of Tarasque
-LBIS:AddItem(spec0, "47138", LBIS.L["Off Hand"], "BIS") --Chalice of Searing Light
+LBIS:AddItem(spec0, "46979", LBIS.L["Main Hand"], "BIS") --Blade of Tarasque
 LBIS:AddItem(spec0, "47309", LBIS.L["Off Hand"], "BIS") --Mystifying Charm
+LBIS:AddItem(spec0, "47138", LBIS.L["Off Hand"], "BIS") --Chalice of Searing Light
 LBIS:AddItem(spec0, "50472", LBIS.L["Ranged/Relic"], "BIS") --Nightmare Ender
 LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
-LBIS:AddItem(spec0, "50047", LBIS.L["Main Hand"], "BIS") --Quel'Delar, Lens of the Mind
-LBIS:AddItem(spec0, "45493", LBIS.L["Back"], "BIS") --Asimov's Drape
 
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec1, "40421", LBIS.L["Head"], "BIS") --Valorous Plagueheart Circlet
