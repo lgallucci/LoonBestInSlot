@@ -33,6 +33,7 @@ LBIS:AddItem(spec0, "48164", LBIS.L["Head"], "BIS") --Malfurion's Cover of Trium
 LBIS:AddItem(spec0, "48167", LBIS.L["Shoulder"], "BIS") --Malfurion's Mantle of Triumph
 LBIS:AddItem(spec0, "45242", LBIS.L["Back"], "BIS") --Drape of Mortal Downfall
 LBIS:AddItem(spec0, "48166", LBIS.L["Chest"], "BIS") --Malfurion's Vestments of Triumph
+LBIS:AddItem(spec0, "49994", LBIS.L["Wrist"], "BIS") --The Lady's Brittle Bracers
 LBIS:AddItem(spec0, "47585", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
 LBIS:AddItem(spec0, "48163", LBIS.L["Hands"], "BIS") --Malfurion's Gloves of Triumph
 LBIS:AddItem(spec0, "50069", LBIS.L["Waist"], "BIS") --Professor's Bloodied Smock
@@ -48,7 +49,6 @@ LBIS:AddItem(spec0, "45518", LBIS.L["Trinket"], "BIS") --Flare of the Heavens
 LBIS:AddItem(spec0, "47193", LBIS.L["Main Hand"], "BIS") --Misery's End
 LBIS:AddItem(spec0, "47138", LBIS.L["Off Hand"], "BIS") --Chalice of Searing Light
 LBIS:AddItem(spec0, "47670", LBIS.L["Ranged/Relic"], "BIS") --Idol of Lunar Fury
-LBIS:AddItem(spec0, "49994", LBIS.L["Wrist"], "BIS") --The Lady's Brittle Bracers
 
 LBIS:AddItem(spec1, "40467", LBIS.L["Head"], "BIS") --Valorous Dreamwalker Cover
 LBIS:AddItem(spec1, "39545", LBIS.L["Head"], "Alt") --Heroes' Dreamwalker Cover

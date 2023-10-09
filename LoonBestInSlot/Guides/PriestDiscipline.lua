@@ -41,6 +41,7 @@ LBIS:AddItem(spec0, "47286", LBIS.L["Waist"], "BIS") --Belt of Biting Cold
 LBIS:AddItem(spec0, "49892", LBIS.L["Legs"], "BIS") --Lightweave Leggings
 LBIS:AddItem(spec0, "49893", LBIS.L["Feet"], "BIS") --Sandals of Consecration
 LBIS:AddItem(spec0, "45933", LBIS.L["Neck"], "BIS") --Pendant of the Shallow Grave
+LBIS:AddItem(spec0, "50182", LBIS.L["Neck"], "BIS") --Blood Queen's Crimson Choker
 LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
 LBIS:AddItem(spec0, "46096", LBIS.L["Ring"], "BIS") --Signet of Soft Lament
 LBIS:AddItem(spec0, "47041", LBIS.L["Trinket"], "BIS") --Solace of the Defeated
@@ -50,7 +51,6 @@ LBIS:AddItem(spec0, "46035", LBIS.L["Main Hand"], "BIS") --Aesuga, Hand of the A
 LBIS:AddItem(spec0, "47138", LBIS.L["Off Hand"], "BIS") --Chalice of Searing Light
 LBIS:AddItem(spec0, "47309", LBIS.L["Off Hand"], "BIS") --Mystifying Charm
 LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
-LBIS:AddItem(spec0, "50182", LBIS.L["Neck"], "BIS") --Blood Queen's Crimson Choker
 
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "BIS") --Hood of Rationality
 LBIS:AddItem(spec1, "40456", LBIS.L["Head"], "BIS") --Valorous Circlet of Faith

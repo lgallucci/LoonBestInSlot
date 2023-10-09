@@ -50,6 +50,7 @@ LBIS:AddItem(spec0, "47299", LBIS.L["Waist"], "BIS") --Belt of the Pitiless Kill
 LBIS:AddItem(spec0, "49899", LBIS.L["Legs"], "BIS") --Bladeborn Leggings
 LBIS:AddItem(spec0, "49895", LBIS.L["Feet"], "BIS") --Footpads of Impending Death
 LBIS:AddItem(spec0, "45945", LBIS.L["Neck"], "BIS") --Seed of Budding Carnage
+LBIS:AddItem(spec0, "50452", LBIS.L["Neck"], "BIS") --Wodin's Lucky Necklace
 LBIS:AddItem(spec0, "46048", LBIS.L["Ring"], "BIS") --Band of Lights
 LBIS:AddItem(spec0, "47730", LBIS.L["Ring"], "BIS") --Dexterous Brightstone Ring
 LBIS:AddItem(spec0, "45931", LBIS.L["Trinket"], "BIS") --Mjolnir Runestone
@@ -58,7 +59,6 @@ LBIS:AddItem(spec0, "47115", LBIS.L["Trinket"], "BIS") --Death's Verdict
 LBIS:AddItem(spec0, "47329", LBIS.L["Two Hand"], "BIS") --Hellion Glaive
 LBIS:AddItem(spec0, "47233", LBIS.L["Two Hand"], "BIS") --Archon Glaive
 LBIS:AddItem(spec0, "47668", LBIS.L["Ranged/Relic"], "BIS") --Idol of Mutilation
-LBIS:AddItem(spec0, "50452", LBIS.L["Neck"], "BIS") --Wodin's Lucky Necklace
 
 LBIS:AddItem(spec1, "40473", LBIS.L["Head"], "BIS") --Valorous Dreamwalker Headguard
 LBIS:AddItem(spec1, "40329", LBIS.L["Head"], "Alt") --Hood of the Exodus

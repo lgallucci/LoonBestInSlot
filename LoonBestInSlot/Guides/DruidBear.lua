@@ -35,6 +35,7 @@ LBIS:AddItem(spec0, "48211", LBIS.L["Head"], "BIS") --Malfurion's Headguard of T
 LBIS:AddItem(spec0, "48197", LBIS.L["Shoulder"], "BIS") --Runetotem's Shoulderpads of Triumph
 LBIS:AddItem(spec0, "48208", LBIS.L["Shoulder"], "BIS") --Malfurion's Shoulderpads of Triumph
 LBIS:AddItem(spec0, "45496", LBIS.L["Back"], "BIS") --Titanskin Cloak
+LBIS:AddItem(spec0, "50001", LBIS.L["Chest"], "BIS") --Ikfirus's Sack of Wonder
 LBIS:AddItem(spec0, "47600", LBIS.L["Chest"], "BIS") --Knightbane Carapace
 LBIS:AddItem(spec0, "47599", LBIS.L["Chest"], "BIS") --Knightbane Carapace
 LBIS:AddItem(spec0, "51370", LBIS.L["Wrist"], "BIS") --Wrathful Gladiator's Armwraps of Triumph
@@ -54,7 +55,6 @@ LBIS:AddItem(spec0, "49118", LBIS.L["Trinket"], "BIS") --Bubbling Brightbrew Cha
 LBIS:AddItem(spec0, "49116", LBIS.L["Trinket"], "BIS") --Bitter Balebrew Charm
 LBIS:AddItem(spec0, "42391", LBIS.L["Two Hand"], "BIS") --Furious Gladiator's Staff
 LBIS:AddItem(spec0, "45509", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Corruptor
-LBIS:AddItem(spec0, "50001", LBIS.L["Chest"], "BIS") --Ikfirus's Sack of Wonder
 
 LBIS:AddItem(spec1, "40329", LBIS.L["Head"], "BIS") --Hood of the Exodus
 LBIS:AddItem(spec1, "40473", LBIS.L["Head"], "Alt") --Valorous Dreamwalker Headguard

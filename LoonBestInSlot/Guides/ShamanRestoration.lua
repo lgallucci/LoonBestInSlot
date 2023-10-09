@@ -48,7 +48,8 @@ LBIS:AddItem(spec0, "46198", LBIS.L["Chest"], "BIS") --Conqueror's Worldbreaker 
 LBIS:AddItem(spec0, "47586", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
 LBIS:AddItem(spec0, "45401", LBIS.L["Hands"], "BIS") --Valorous Worldbreaker Handguards
 LBIS:AddItem(spec0, "47265", LBIS.L["Waist"], "BIS") --Binding of the Ice Burrower
-LBIS:AddItem(spec0, "49891", LBIS.L["Legs", "BIS") --Earthsoul Boots
+LBIS:AddItem(spec0, "49891", LBIS.L["Legs"], "BIS") --Leggings of Woven Death
+LBIS:AddItem(spec0, "49896", LBIS.L["Feet"], "BIS") --Earthsoul Boots
 LBIS:AddItem(spec0, "45443", LBIS.L["Neck"], "BIS") --Charm of Meticulous Timing
 LBIS:AddItem(spec0, "47278", LBIS.L["Ring"], "BIS") --Circle of the Darkmender
 LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band
