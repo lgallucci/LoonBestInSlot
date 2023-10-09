@@ -20,15 +20,18 @@ public static class Common
             {
                 if (cancelToken != null && cancelToken.Value.IsCancellationRequested)
                 {
+                    System.Diagnostics.Debug.WriteLine($"Cancelled...");
                     break;
                 }
 
+                System.Diagnostics.Debug.WriteLine($"Starting WebPage...");
                 using (var page = await browser.NewPageAsync())
                 {
                     page.DefaultTimeout = 0; // or you can set this as 0
                     await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
                     var content = await page.GetContentAsync();
 
+                    System.Diagnostics.Debug.WriteLine($"Retrieved Content...");
                     await func(pageAddress, content);
                 }
             }

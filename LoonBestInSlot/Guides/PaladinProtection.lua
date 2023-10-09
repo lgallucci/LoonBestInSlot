@@ -57,6 +57,7 @@ LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
 LBIS:AddItem(spec0, "48639", LBIS.L["Head"], "BIS") --Turalyon's Faceguard of Triumph
 LBIS:AddItem(spec0, "48637", LBIS.L["Shoulder"], "BIS") --Turalyon's Shoulderguards of Triumph
+LBIS:AddItem(spec0, "44312", LBIS.L["Shoulder"], "BIS") --Wapach's Spaulders of Solidarity
 LBIS:AddItem(spec0, "45496", LBIS.L["Back"], "BIS") --Titanskin Cloak
 LBIS:AddItem(spec0, "47591", LBIS.L["Chest"], "BIS") --Breastplate of the White Knight
 LBIS:AddItem(spec0, "48641", LBIS.L["Chest"], "BIS") --Turalyon's Breastplate of Triumph
@@ -78,7 +79,6 @@ LBIS:AddItem(spec0, "46021", LBIS.L["Trinket"], "BIS") --Royal Seal of King Llan
 LBIS:AddItem(spec0, "47148", LBIS.L["Main Hand"], "BIS") --Stormpike Cleaver
 LBIS:AddItem(spec0, "46963", LBIS.L["Off Hand"], "BIS") --Crystal Plated Vanguard
 LBIS:AddItem(spec0, "47661", LBIS.L["Ranged/Relic"], "BIS") --Libram of Valiance
-LBIS:AddItem(spec0, "44312", LBIS.L["unknown"], "BIS") --Wapach's Spaulders of Solidarity
 
 LBIS:AddItem(spec1, "40581", LBIS.L["Head"], "BIS") --Valorous Redemption Faceguard
 LBIS:AddItem(spec1, "40328", LBIS.L["Head"], "Alt") --Helm of Vital Protection

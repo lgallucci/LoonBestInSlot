@@ -39,8 +39,10 @@ LBIS:AddEnchant(spec1, "56478", LBIS.L["Ranged/Relic"]) --Heartseeker Scope
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 
 LBIS:AddItem(spec0, "48378", LBIS.L["Head"], "BIS") --Wrynn's Helmet of Triumph
+LBIS:AddItem(spec0, "45107", LBIS.L["Head"], "BIS") --Iron Riveted War Helm
 LBIS:AddItem(spec0, "48380", LBIS.L["Shoulder"], "BIS") --Wrynn's Shoulderplates of Triumph
 LBIS:AddItem(spec0, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless General
+LBIS:AddItem(spec0, "45704", LBIS.L["Back"], "BIS") --Shawl of the Shattered Giant
 LBIS:AddItem(spec0, "48376", LBIS.L["Chest"], "BIS") --Wrynn's Battleplate of Triumph
 LBIS:AddItem(spec0, "47572", LBIS.L["Wrist"], "BIS") --Titanium Spikeguards
 LBIS:AddItem(spec0, "48377", LBIS.L["Hands"], "BIS") --Wrynn's Gauntlets of Triumph
@@ -49,17 +51,15 @@ LBIS:AddItem(spec0, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
 LBIS:AddItem(spec0, "49899", LBIS.L["Legs"], "BIS") --Bladeborn Leggings
 LBIS:AddItem(spec0, "45559", LBIS.L["Feet"], "BIS") --Battlelord's Plate Boots
 LBIS:AddItem(spec0, "49950", LBIS.L["Feet"], "BIS") --Frostbitten Fur Boots
+LBIS:AddItem(spec0, "50180", LBIS.L["Neck"], "BIS") --Lana'thel's Chain of Flagellation
 LBIS:AddItem(spec0, "47272", LBIS.L["Neck"], "BIS") --Charge of the Eredar
+LBIS:AddItem(spec0, "45480", LBIS.L["Neck"], "BIS") --Nymph Heart Charm
 LBIS:AddItem(spec0, "46048", LBIS.L["Ring"], "BIS") --Band of Lights
 LBIS:AddItem(spec0, "47070", LBIS.L["Ring"], "BIS") --Ring of Callous Aggression
 LBIS:AddItem(spec0, "47115", LBIS.L["Trinket"], "BIS") --Death's Verdict
 LBIS:AddItem(spec0, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec0, "47069", LBIS.L["Main Hand"], "BIS") --Justicebringer
 LBIS:AddItem(spec0, "45296", LBIS.L["Ranged/Relic"], "BIS") --Twirling Blades
-LBIS:AddItem(spec0, "50180", LBIS.L["unknown"], "BIS") --Lana'thel's Chain of Flagellation
-LBIS:AddItem(spec0, "45107", LBIS.L["unknown"], "BIS") --Iron Riveted War Helm
-LBIS:AddItem(spec0, "45480", LBIS.L["unknown"], "BIS") --Nymph Heart Charm
-LBIS:AddItem(spec0, "45704", LBIS.L["unknown"], "BIS") --Shawl of the Shattered Giant
 
 LBIS:AddItem(spec1, "40528", LBIS.L["Head"], "BIS") --Valorous Dreadnaught Helmet
 LBIS:AddItem(spec1, "44006", LBIS.L["Head"], "Alt") --Obsidian Greathelm

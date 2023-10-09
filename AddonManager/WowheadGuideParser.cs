@@ -217,8 +217,9 @@ public class WowheadGuideParser
         public string Text(ICharacterData text) => text.Data;
     }
 
-    public async Task<Dictionary<int, ItemSpec>> ParsePreRaidWowheadGuide(Tuple<Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>> guide, string content)
+    public async Task<Dictionary<int, ItemSpec>> ParsePreRaidWowheadGuide(string className, Tuple<Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>> guide, string content)
     {
+        System.Diagnostics.Debug.WriteLine($"Start Parsing {className}");
         var items = new Dictionary<int, ItemSpec>();
 
         var doc = default(IHtmlDocument);
@@ -275,7 +276,7 @@ public class WowheadGuideParser
                                 if (item != null)
                                 {
                                     items[itemId].Slot = item.Slot;
-                                    continue;
+                                    break;
                                 }
                             }
                         }
@@ -288,6 +289,7 @@ public class WowheadGuideParser
             throw new ParseException($"PreRaid: Failed to find table for {htmlMapping}");
         }
 
+        System.Diagnostics.Debug.WriteLine($"End Parsing {className}");
         return items;
     }
 

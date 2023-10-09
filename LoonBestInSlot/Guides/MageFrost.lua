@@ -38,6 +38,7 @@ LBIS:AddEnchant(spec1, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpo
 LBIS:AddItem(spec0, "47771", LBIS.L["Head"], "BIS") --Sunstrider's Hood of Triumph
 LBIS:AddItem(spec0, "47768", LBIS.L["Shoulder"], "BIS") --Sunstrider's Shoulderpads of Triumph
 LBIS:AddItem(spec0, "47256", LBIS.L["Back"], "BIS") --Drape of the Refreshing Winds
+LBIS:AddItem(spec0, "45493", LBIS.L["Back"], "BIS") --Asimov's Drape
 LBIS:AddItem(spec0, "47769", LBIS.L["Chest"], "BIS") --Sunstrider's Robe of Triumph
 LBIS:AddItem(spec0, "47604", LBIS.L["Chest"], "BIS") --Merlin's Robe
 LBIS:AddItem(spec0, "49994", LBIS.L["Wrist"], "BIS") --The Lady's Brittle Bracers
@@ -60,7 +61,6 @@ LBIS:AddItem(spec0, "47261", LBIS.L["Main Hand"], "BIS") --Barb of Tarasque
 LBIS:AddItem(spec0, "47309", LBIS.L["Off Hand"], "BIS") --Mystifying Charm
 LBIS:AddItem(spec0, "50472", LBIS.L["Ranged/Relic"], "BIS") --Nightmare Ender
 LBIS:AddItem(spec0, "45294", LBIS.L["Ranged/Relic"], "BIS") --Petrified Ivy Sprig
-LBIS:AddItem(spec0, "45493", LBIS.L["unknown"], "BIS") --Asimov's Drape
 
 LBIS:AddItem(spec1, "40416", LBIS.L["Head"], "BIS") --Valorous Frostfire Circlet
 LBIS:AddItem(spec1, "40562", LBIS.L["Head"], "Alt") --Hood of Rationality

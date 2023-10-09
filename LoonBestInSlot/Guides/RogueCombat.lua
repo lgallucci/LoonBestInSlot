@@ -48,14 +48,17 @@ LBIS:AddItem(spec0, "47709", LBIS.L["Shoulder"], "BIS") --Duskstalker Pauldrons
 LBIS:AddItem(spec0, "47708", LBIS.L["Shoulder"], "BIS") --Duskstalker Shoulderpads
 LBIS:AddItem(spec0, "45461", LBIS.L["Back"], "BIS") --Drape of Icy Intent
 LBIS:AddItem(spec0, "47257", LBIS.L["Back"], "BIS") --Cloak of the Untamed Predator
+LBIS:AddItem(spec0, "46970", LBIS.L["Back"], "BIS") --Drape of the Untamed Predator
 LBIS:AddItem(spec0, "45704", LBIS.L["Back"], "BIS") --Shawl of the Shattered Giant
 LBIS:AddItem(spec0, "50001", LBIS.L["Chest"], "BIS") --Ikfirus's Sack of Wonder
-LBIS:AddItem(spec0, "48223", LBIS.L["Chest"], "BIS") --VanCleef's Breastplate of Triumph
 LBIS:AddItem(spec0, "48242", LBIS.L["Chest"], "BIS") --Garona's Breastplate of Triumph
+LBIS:AddItem(spec0, "48223", LBIS.L["Chest"], "BIS") --VanCleef's Breastplate of Triumph
+LBIS:AddItem(spec0, "47599", LBIS.L["Chest"], "BIS") --Knightbane Carapace
 LBIS:AddItem(spec0, "47600", LBIS.L["Chest"], "BIS") --Knightbane Carapace
 LBIS:AddItem(spec0, "47313", LBIS.L["Wrist"], "BIS") --Armbands of Dark Determination
 LBIS:AddItem(spec0, "47151", LBIS.L["Wrist"], "BIS") --Bracers of Dark Determination
 LBIS:AddItem(spec0, "47582", LBIS.L["Wrist"], "BIS") --Bracers of Swift Death
+LBIS:AddItem(spec0, "47581", LBIS.L["Wrist"], "BIS") --Bracers of Swift Death
 LBIS:AddItem(spec0, "48241", LBIS.L["Hands"], "BIS") --Garona's Gauntlets of Triumph
 LBIS:AddItem(spec0, "48224", LBIS.L["Hands"], "BIS") --VanCleef's Gauntlets of Triumph
 LBIS:AddItem(spec0, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
@@ -65,10 +68,10 @@ LBIS:AddItem(spec0, "48239", LBIS.L["Legs"], "BIS") --Garona's Legplates of Triu
 LBIS:AddItem(spec0, "48226", LBIS.L["Legs"], "BIS") --VanCleef's Legplates of Triumph
 LBIS:AddItem(spec0, "49895", LBIS.L["Feet"], "BIS") --Footpads of Impending Death
 LBIS:AddItem(spec0, "45564", LBIS.L["Feet"], "BIS") --Footpads of Silence
-LBIS:AddItem(spec0, "47071", LBIS.L["Feet"], "BIS") --Treads of the Icewalker
 LBIS:AddItem(spec0, "47284", LBIS.L["Feet"], "BIS") --Icewalker Treads
-LBIS:AddItem(spec0, "50452", LBIS.L["Neck"], "BIS") --Wodin's Lucky Necklace
+LBIS:AddItem(spec0, "47071", LBIS.L["Feet"], "BIS") --Treads of the Icewalker
 LBIS:AddItem(spec0, "45517", LBIS.L["Neck"], "BIS") --Pendulum of Infinity
+LBIS:AddItem(spec0, "50452", LBIS.L["Neck"], "BIS") --Wodin's Lucky Necklace
 LBIS:AddItem(spec0, "45480", LBIS.L["Neck"], "BIS") --Nymph Heart Charm
 LBIS:AddItem(spec0, "47070", LBIS.L["Ring"], "BIS") --Ring of Callous Aggression
 LBIS:AddItem(spec0, "47282", LBIS.L["Ring"], "BIS") --Band of Callous Aggression
@@ -81,9 +84,6 @@ LBIS:AddItem(spec0, "47314", LBIS.L["Main Hand"], "BIS") --Hellscream Slicer
 LBIS:AddItem(spec0, "47148", LBIS.L["Main Hand"], "BIS") --Stormpike Cleaver
 LBIS:AddItem(spec0, "46036", LBIS.L["Off Hand"], "BIS") --Void Sabre
 LBIS:AddItem(spec0, "45296", LBIS.L["Ranged/Relic"], "BIS") --Twirling Blades
-LBIS:AddItem(spec0, "46970", LBIS.L["unknown"], "BIS") --Drape of the Untamed Predator
-LBIS:AddItem(spec0, "47599", LBIS.L["unknown"], "BIS") --Knightbane Carapace
-LBIS:AddItem(spec0, "47581", LBIS.L["unknown"], "BIS") --Bracers of Swift Death
 
 LBIS:AddItem(spec1, "40499", LBIS.L["Head"], "BIS") --Valorous Bonescythe Helmet
 LBIS:AddItem(spec1, "40329", LBIS.L["Head"], "Alt") --Hood of the Exodus

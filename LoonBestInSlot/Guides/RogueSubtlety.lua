@@ -49,13 +49,16 @@ LBIS:AddItem(spec0, "48238", LBIS.L["Shoulder"], "BIS") --Garona's Pauldrons of 
 LBIS:AddItem(spec0, "48227", LBIS.L["Shoulder"], "BIS") --VanCleef's Pauldrons of Triumph
 LBIS:AddItem(spec0, "45461", LBIS.L["Back"], "BIS") --Drape of Icy Intent
 LBIS:AddItem(spec0, "47257", LBIS.L["Back"], "BIS") --Cloak of the Untamed Predator
+LBIS:AddItem(spec0, "46970", LBIS.L["Back"], "BIS") --Drape of the Untamed Predator
 LBIS:AddItem(spec0, "45704", LBIS.L["Back"], "BIS") --Shawl of the Shattered Giant
 LBIS:AddItem(spec0, "50001", LBIS.L["Chest"], "BIS") --Ikfirus's Sack of Wonder
-LBIS:AddItem(spec0, "48223", LBIS.L["Chest"], "BIS") --VanCleef's Breastplate of Triumph
 LBIS:AddItem(spec0, "48242", LBIS.L["Chest"], "BIS") --Garona's Breastplate of Triumph
+LBIS:AddItem(spec0, "48223", LBIS.L["Chest"], "BIS") --VanCleef's Breastplate of Triumph
 LBIS:AddItem(spec0, "47600", LBIS.L["Chest"], "BIS") --Knightbane Carapace
-LBIS:AddItem(spec0, "47313", LBIS.L["Wrist"], "BIS") --Armbands of Dark Determination
+LBIS:AddItem(spec0, "47599", LBIS.L["Chest"], "BIS") --Knightbane Carapace
 LBIS:AddItem(spec0, "47151", LBIS.L["Wrist"], "BIS") --Bracers of Dark Determination
+LBIS:AddItem(spec0, "47313", LBIS.L["Wrist"], "BIS") --Armbands of Dark Determination
+LBIS:AddItem(spec0, "47581", LBIS.L["Wrist"], "BIS") --Bracers of Swift Death
 LBIS:AddItem(spec0, "47582", LBIS.L["Wrist"], "BIS") --Bracers of Swift Death
 LBIS:AddItem(spec0, "48241", LBIS.L["Hands"], "BIS") --Garona's Gauntlets of Triumph
 LBIS:AddItem(spec0, "48224", LBIS.L["Hands"], "BIS") --VanCleef's Gauntlets of Triumph
@@ -78,14 +81,11 @@ LBIS:AddItem(spec0, "44253", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatnes
 LBIS:AddItem(spec0, "47303", LBIS.L["Trinket"], "BIS") --Death's Choice
 LBIS:AddItem(spec0, "47115", LBIS.L["Trinket"], "BIS") --Death's Verdict
 LBIS:AddItem(spec0, "45609", LBIS.L["Trinket"], "BIS") --Comet's Trail
-LBIS:AddItem(spec0, "47300", LBIS.L["Main Hand"], "BIS") --Gouge of the Frigid Heart
 LBIS:AddItem(spec0, "47104", LBIS.L["Main Hand"], "BIS") --Twin Spike
+LBIS:AddItem(spec0, "47300", LBIS.L["Main Hand"], "BIS") --Gouge of the Frigid Heart
 LBIS:AddItem(spec0, "46958", LBIS.L["Off Hand"], "BIS") --Steel Bladebreaker
 LBIS:AddItem(spec0, "47255", LBIS.L["Off Hand"], "BIS") --Stygian Bladebreaker
 LBIS:AddItem(spec0, "45296", LBIS.L["Ranged/Relic"], "BIS") --Twirling Blades
-LBIS:AddItem(spec0, "46970", LBIS.L["unknown"], "BIS") --Drape of the Untamed Predator
-LBIS:AddItem(spec0, "47599", LBIS.L["unknown"], "BIS") --Knightbane Carapace
-LBIS:AddItem(spec0, "47581", LBIS.L["unknown"], "BIS") --Bracers of Swift Death
 
 LBIS:AddItem(spec1, "40499", LBIS.L["Head"], "BIS") --Valorous Bonescythe Helmet
 LBIS:AddItem(spec1, "40329", LBIS.L["Head"], "Alt") --Hood of the Exodus

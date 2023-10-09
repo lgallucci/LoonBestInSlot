@@ -195,7 +195,7 @@ public static class WowheadImporter
                 var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
 
                 if (phaseNumber == 0)
-                    items = await new WowheadGuideParser().ParsePreRaidWowheadGuide(guide, content);
+                    items = await new WowheadGuideParser().ParsePreRaidWowheadGuide(className, guide, content);
                 else
                     items = await new WowheadGuideParser().ParseWowheadGuide(classGuide, content);
 
