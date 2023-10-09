@@ -350,8 +350,8 @@ LBIS:AddItem(spec4, "50698", LBIS.L["Shoulder"], "BIS") --Horrific Flesh Epaulet
 LBIS:AddItem(spec4, "51235", LBIS.L["Shoulder"], "BIS") --Sanctified Frost Witch's Shoulderpads
 LBIS:AddItem(spec4, "51204", LBIS.L["Shoulder"], "Alt") --Sanctified Frost Witch's Shoulderpads
 LBIS:AddItem(spec4, "50845", LBIS.L["Shoulder"], "Alt") --Frost Witch's Shoulderpads
-LBIS:AddItem(spec4, "48330", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads of Triumph
 LBIS:AddItem(spec4, "48321", LBIS.L["Shoulder"], "Alt") --Nobundo's Shoulderpads of Triumph
+LBIS:AddItem(spec4, "48330", LBIS.L["Shoulder"], "Alt") --Thrall's Shoulderpads of Triumph
 LBIS:AddItem(spec4, "46044", LBIS.L["Shoulder"], "Alt") --Observer's Mantle
 LBIS:AddItem(spec4, "50628", LBIS.L["Back"], "BIS") --Frostbinder's Shredded Cape
 LBIS:AddItem(spec4, "47552", LBIS.L["Back"], "Alt") --Jaina's Radiance
@@ -385,6 +385,7 @@ LBIS:AddItem(spec4, "48324", LBIS.L["Hands"], "Alt") --Nobundo's Gloves of Trium
 LBIS:AddItem(spec4, "48327", LBIS.L["Hands"], "Alt") --Thrall's Gloves of Triumph
 LBIS:AddItem(spec4, "45943", LBIS.L["Hands"], "Alt") --Gloves of Whispering Winds
 LBIS:AddItem(spec4, "50613", LBIS.L["Waist"], "BIS") --Crushing Coldwraith Belt
+LBIS:AddItem(spec4, "50992", LBIS.L["Waist"], "Alt") --Waistband of Despair
 LBIS:AddItem(spec4, "47084", LBIS.L["Waist"], "Alt") --Cord of Biting Cold
 LBIS:AddItem(spec4, "47447", LBIS.L["Waist"], "Alt") --Belt of Biting Cold
 LBIS:AddItem(spec4, "47994", LBIS.L["Waist"], "Alt") --Icehowl Binding

@@ -3810,6 +3810,7 @@ LBIS.ItemSources =
     [50987] = { Name = "Malevolent Girdle", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Emblem of Frost"], SourceNumber = "60", SourceLocation = LBIS.L["Emblem Vendor"], SourceFaction = "B" },
     [50989] = { Name = "Lich Killer's Lanyard", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Emblem of Frost"], SourceNumber = "60", SourceLocation = LBIS.L["Emblem Vendor"], SourceFaction = "B" },
     [50991] = { Name = "Verdigris Chain Belt", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Emblem of Frost"], SourceNumber = "60", SourceLocation = LBIS.L["Emblem Vendor"], SourceFaction = "B" },
+    [50992] = { Name = "Waistband of Despair", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Emblem of Frost"], SourceNumber = "60", SourceLocation = LBIS.L["Emblem Vendor"], SourceFaction = "B" },
     [50993] = { Name = "Band of the Night Raven", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Emblem of Frost"], SourceNumber = "60", SourceLocation = LBIS.L["Emblem Vendor"], SourceFaction = "B" },
     [50994] = { Name = "Belt of Petrified Ivy", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Emblem of Frost"], SourceNumber = "60", SourceLocation = LBIS.L["Emblem Vendor"], SourceFaction = "B" },
     [50995] = { Name = "Vengeful Noose", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Emblem of Frost"], SourceNumber = "60", SourceLocation = LBIS.L["Emblem Vendor"], SourceFaction = "B" },
