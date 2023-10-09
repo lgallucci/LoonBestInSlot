@@ -33,11 +33,14 @@ LBIS:AddItem(spec0, "48503", LBIS.L["Head"], "BIS") --Koltira's Helmet of Conque
 LBIS:AddItem(spec0, "48505", LBIS.L["Shoulder"], "BIS") --Koltira's Shoulderplates of Conquest
 LBIS:AddItem(spec0, "47320", LBIS.L["Back"], "BIS") --Might of the Nerub
 LBIS:AddItem(spec0, "48501", LBIS.L["Chest"], "BIS") --Koltira's Battleplate of Conquest
+LBIS:AddItem(spec0, "47590", LBIS.L["Chest"], "BIS") --Titanium Razorplate
 LBIS:AddItem(spec0, "47573", LBIS.L["Wrist"], "BIS") --Titanium Spikeguards
 LBIS:AddItem(spec0, "47253", LBIS.L["Wrist"], "BIS") --Boneshatter Vambraces
 LBIS:AddItem(spec0, "48502", LBIS.L["Hands"], "BIS") --Koltira's Gauntlets of Conquest
 LBIS:AddItem(spec0, "47268", LBIS.L["Waist"], "BIS") --Bloodbath Girdle
+LBIS:AddItem(spec0, "49903", LBIS.L["Legs"], "BIS") --Legplates of Painful Death
 LBIS:AddItem(spec0, "45982", LBIS.L["Legs"], "BIS") --Fused Alloy Legplates
+LBIS:AddItem(spec0, "49906", LBIS.L["Feet"], "BIS") --Hellfrozen Bonegrinders
 LBIS:AddItem(spec0, "47312", LBIS.L["Feet"], "BIS") --Greaves of the Saronite Citadel
 LBIS:AddItem(spec0, "45459", LBIS.L["Neck"], "BIS") --Frigid Strength of Hodir
 LBIS:AddItem(spec0, "50453", LBIS.L["Ring"], "BIS") --Ring of Rotting Sinew
@@ -47,9 +50,6 @@ LBIS:AddItem(spec0, "45609", LBIS.L["Trinket"], "BIS") --Comet's Trail
 LBIS:AddItem(spec0, "47303", LBIS.L["Trinket"], "BIS") --Death's Choice
 LBIS:AddItem(spec0, "46097", LBIS.L["Main Hand/Off Hand"], "BIS") --Caress of Insanity
 LBIS:AddItem(spec0, "47673", LBIS.L["Ranged/Relic"], "BIS") --Sigil of Virulence
-LBIS:AddItem(spec0, "49906", LBIS.L["Feet"], "BIS") --Hellfrozen Bonegrinders
-LBIS:AddItem(spec0, "49903", LBIS.L["Legs"], "BIS") --Legplates of Painful Death
-LBIS:AddItem(spec0, "47590", LBIS.L["Chest"], "BIS") --Titanium Razorplate
 
 LBIS:AddItem(spec1, "44006", LBIS.L["Head"], "BIS") --Obsidian Greathelm
 LBIS:AddItem(spec1, "40554", LBIS.L["Head"], "Alt") --Valorous Scourgeborne Helmet

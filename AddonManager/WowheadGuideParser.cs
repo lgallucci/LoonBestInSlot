@@ -263,17 +263,20 @@ public class WowheadGuideParser
 
                 if (itemChild != null)
                 {
-                    int itemId = ParseItemCell(itemChild, "BIS", slotText, items, itemOrderIndex);
+                    var itemIds = ParseItemCell(itemChild, "BIS", slotText, items, itemOrderIndex);
 
-                    if (items[itemId].Slot.Contains("unknown"))
+                    foreach (var itemId in itemIds)
                     {
-                        for (int i = 0; i < 5; i++)
+                        if (items[itemId].Slot.Contains("unknown"))
                         {
-                            var item = guide.Item3[i].FirstOrDefault(isp => isp.ItemId == itemId);
-                            if (item != null)
+                            for (int i = 0; i < 5; i++)
                             {
-                                items[itemId].Slot = item.Slot;
-                                return;
+                                var item = guide.Item3[i].FirstOrDefault(isp => isp.ItemId == itemId);
+                                if (item != null)
+                                {
+                                    items[itemId].Slot = item.Slot;
+                                    continue;
+                                }
                             }
                         }
                     }
@@ -461,12 +464,11 @@ public class WowheadGuideParser
         return bisText.Trim() + altText;
     }
 
-    private int ParseItemCell(IElement itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items, int itemOrderIndex)
+    private List<int> ParseItemCell(IElement itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items, int itemOrderIndex)
     {
         bool foundAnchor = false;
 
-        int itemId = -99999;
-
+        List<int> itemIds = new List<int>();
         Common.RecursiveBoxSearch(itemChild, (child) =>
         {
             foundAnchor = true;
@@ -492,6 +494,7 @@ public class WowheadGuideParser
 
                 if (!skippedItem)
                 {
+                    int itemId = -99999;
                     Int32.TryParse(item, out itemId);
 
                     if (_itemSwaps.ContainsKey(itemId))
@@ -518,22 +521,25 @@ public class WowheadGuideParser
                                 items[itemId].BisStatus = $"{items[itemId].BisStatus}/{bisStatus}";
                         }
                     }
+                    itemIds.Add(itemId);
                 }
             }
             return foundItem;
         });
         if (!foundAnchor)
         {
+            int itemId = -1 * _rand.Next(10000, 99999);
             items.Add(itemId, new ItemSpec
             {
-                ItemId = -1 * _rand.Next(10000, 99999),
+                ItemId = itemId,
                 Name = "unknown",
                 BisStatus = "unknown",
                 Slot = slot,
                 ItemOrder = itemOrderIndex
             });
+            itemIds.Add(itemId);
         }
-        return itemId;
+        return itemIds;
     }
 
     private void LoopThroughTable(IHtmlTableElement? table, Action<INode, IElement?, int, bool> action)
