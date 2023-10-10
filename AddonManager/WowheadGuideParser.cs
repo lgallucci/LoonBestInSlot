@@ -151,8 +151,8 @@ public class WowheadGuideParser
         "p2",
         "phase 3",
         "p3",
-        //"phase 4",
-        //"p4",
+        "phase 4",
+        "p4",
         "alt",
         "10-man",
         "10 man"
@@ -317,7 +317,7 @@ public class WowheadGuideParser
 
                 htmlBisText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
 
-                var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList, first);
+                var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList, first, classGuide.Phase);
 
                 if (itemChild != null)
                     ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText), items, itemOrderIndex);
@@ -438,7 +438,7 @@ public class WowheadGuideParser
         return slot;
     }
 
-    private string GetBisStatus(string htmlBisText, string rankText, bool isTierList, bool first)
+    private string GetBisStatus(string htmlBisText, string rankText, bool isTierList, bool first, string phase)
     {
 
         var bisText = string.Empty;
@@ -450,7 +450,19 @@ public class WowheadGuideParser
         }
         else
         {
-            if (_altTextSwaps.Any(s => htmlBisText?.ToLower().Contains(s) ?? false))
+            if (_altTextSwaps.Any((s) =>
+            {
+                if (phase == "Phase1" && (s.ToLower() == "phase 1" || s.ToLower() == "p1"))
+                    return false;
+                if (phase == "Phase2" && (s.ToLower() == "phase 2" || s.ToLower() == "p2"))
+                    return false;
+                else if (phase == "Phase3" && (s.ToLower() == "phase 3" || s.ToLower() == "p3"))
+                    return false;
+                else if (phase == "Phase4" && (s.ToLower() == "phase 4" || s.ToLower() == "p4"))
+                    return false;
+
+                return htmlBisText?.ToLower().Contains(s) ?? false;
+            }))
             {
                 bisText = "Alt";
             }

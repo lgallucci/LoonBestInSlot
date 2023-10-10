@@ -297,14 +297,16 @@ LBIS:AddItem(spec3, "45387", LBIS.L["Hands"], "Alt") --Valorous Gloves of Sancti
 LBIS:AddItem(spec3, "47084", LBIS.L["Waist"], "BIS") --Cord of Biting Cold
 LBIS:AddItem(spec3, "47447", LBIS.L["Waist"], "BIS") --Belt of Biting Cold
 LBIS:AddItem(spec3, "45619", LBIS.L["Waist"], "BIS") --Starwatcher's Binding
-LBIS:AddItem(spec3, "48054", LBIS.L["Waist"], "Alt") --Belt of the Eternal
 LBIS:AddItem(spec3, "47977", LBIS.L["Waist"], "Alt") --Cinch of the Undying
+LBIS:AddItem(spec3, "48054", LBIS.L["Waist"], "Alt") --Belt of the Eternal
 LBIS:AddItem(spec3, "45558", LBIS.L["Waist"], "Alt") --Cord of the White Dawn
 LBIS:AddItem(spec3, "45831", LBIS.L["Waist"], "Alt") --Sash of Potent Incantations
 LBIS:AddItem(spec3, "40561", LBIS.L["Waist"], "Alt") --Leash of Heedless Magic
 LBIS:AddItem(spec3, "47189", LBIS.L["Legs"], "BIS") --Leggings of the Deepening Void
 LBIS:AddItem(spec3, "47478", LBIS.L["Legs"], "BIS") --Breeches of the Deepening Void
 LBIS:AddItem(spec3, "46195", LBIS.L["Legs"], "BIS") --Conqueror's Leggings of Sanctification
+LBIS:AddItem(spec3, "47931", LBIS.L["Legs"], "Alt") --Leggings of the Demonic Messenger
+LBIS:AddItem(spec3, "48004", LBIS.L["Legs"], "Alt") --Legwraps of the Demonic Messenger
 LBIS:AddItem(spec3, "45388", LBIS.L["Legs"], "Alt") --Valorous Leggings of Sanctification
 LBIS:AddItem(spec3, "45488", LBIS.L["Legs"], "Alt") --Leggings of the Enslaved Idol
 LBIS:AddItem(spec3, "46034", LBIS.L["Legs"], "Alt") --Leggings of Profound Darkness
@@ -360,8 +362,8 @@ LBIS:AddItem(spec3, "45457", LBIS.L["Main Hand"], "Alt") --Staff of Endless Wint
 LBIS:AddItem(spec3, "48709", LBIS.L["Main Hand"], "Alt") --Heartcrusher
 LBIS:AddItem(spec3, "48693", LBIS.L["Main Hand"], "Alt") --Heartsmasher
 LBIS:AddItem(spec3, "46035", LBIS.L["Main Hand"], "Alt") --Aesuga, Hand of the Ardent Champion
-LBIS:AddItem(spec3, "47146", LBIS.L["Off Hand"], "BIS") --Chalice of Searing Light
 LBIS:AddItem(spec3, "47470", LBIS.L["Off Hand"], "BIS") --Mystifying Charm
+LBIS:AddItem(spec3, "47146", LBIS.L["Off Hand"], "BIS") --Chalice of Searing Light
 LBIS:AddItem(spec3, "47064", LBIS.L["Off Hand"], "Alt") --Symbol of Transgression
 LBIS:AddItem(spec3, "47437", LBIS.L["Off Hand"], "Alt") --Talisman of Heedless Sins
 LBIS:AddItem(spec3, "47958", LBIS.L["Off Hand"], "Alt") --Chalice of Benedictus
