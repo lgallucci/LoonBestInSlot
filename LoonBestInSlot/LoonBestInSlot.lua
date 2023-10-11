@@ -38,6 +38,7 @@ function LBIS:Startup()
 	LBIS:CreateSettings();
 	LBIS:RegisterMiniMap();
     LBIS:PreCacheItems();
+	LBIS:InitializeUI();
 end
 
 function LBIS:RegisterEvent(...)

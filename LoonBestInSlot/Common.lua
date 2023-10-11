@@ -382,7 +382,11 @@ function LBIS:Debug(startString, object)
 end
 
 function LBIS:Error(startString, object)
-    print("LoonBestInSlot ERROR:"..startString..stringify(object));
+    if object == nil then
+        print("LoonBestInSlot ERROR:"..startString);
+    else
+        print("LoonBestInSlot ERROR:"..startString..stringify(object));
+    end
 end
 
 function LBIS:GetItemIdFromLink(itemLink)
@@ -405,4 +409,14 @@ function LBIS:DeepCopy(src, dst)
 		end
 	end
 	return dst
+end
+
+function LBIS:MeasureCode(codeName, func)
+
+    --local startTime = time();
+
+    func();
+
+    --print(codeName.." took "..time() - startTime);
+
 end
