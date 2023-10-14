@@ -4992,6 +4992,182 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "44891": {
+      "Name": "Titan-Forged Boots of Dominance",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44892": {
+      "Name": "Titan-Forged Boots of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44893": {
+      "Name": "Titan-Forged Boots of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44894": {
+      "Name": "Titan-Forged Greaves of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44895": {
+      "Name": "Titan-Forged Greaves of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44896": {
+      "Name": "Titan-Forged Sabatons of Dominance",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44897": {
+      "Name": "Titan-Forged Sabatons of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44898": {
+      "Name": "Titan-Forged Sabatons of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44899": {
+      "Name": "Titan-Forged Slippers of Dominance",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44900": {
+      "Name": "Titan-Forged Slippers of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44901": {
+      "Name": "Titan-Forged Plate Headcover of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44902": {
+      "Name": "Titan-Forged Plate Helm of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44903": {
+      "Name": "Titan-Forged Chain Helm of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44904": {
+      "Name": "Titan-Forged Mail Helm of Dominance",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44905": {
+      "Name": "Titan-Forged Ringmail Helm of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44906": {
+      "Name": "Titan-Forged Leather Helm of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44907": {
+      "Name": "Titan-Forged Leather Helm of Dominance",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44908": {
+      "Name": "Titan-Forged Leather Helm of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44909": {
+      "Name": "Titan-Forged Hood of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44910": {
+      "Name": "Titan-Forged Hood of Dominance",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44912": {
+      "Name": "Flow of Knowledge",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "25",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "44914": {
+      "Name": "Anvil of Titans",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "25",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
     "45937": {
       "Name": "Furious Gladiator's Shotgun",
       "Source": "Arena Points & Honor Points",
@@ -5206,6 +5382,206 @@
       "SourceType": "PvP",
       "SourceNumber": "1063 & 13150",
       "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "46057": {
+      "Name": "Titan-Forged Chestguard of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46058": {
+      "Name": "Titan-Forged Breastplate of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46059": {
+      "Name": "Titan-Forged Chain Armor of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46060": {
+      "Name": "Titan-Forged Ringmail of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46061": {
+      "Name": "Titan-Forged Mail Armor of Domination",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46062": {
+      "Name": "Titan-Forged Leather Tunic of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46063": {
+      "Name": "Titan-Forged Leather Chestguard of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46064": {
+      "Name": "Titan-Forged Leather Chestguard of Dominance",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46065": {
+      "Name": "Titan-Forged Raiment of Dominance",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46066": {
+      "Name": "Titan-Forged Raiment of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46071": {
+      "Name": "Titan-Forged Girdle of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46072": {
+      "Name": "Titan-Forged Girdle of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46073": {
+      "Name": "Titan-Forged Waistguard of Dominance",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46074": {
+      "Name": "Titan-Forged Waistguard of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46075": {
+      "Name": "Titan-Forged Waistguard of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46076": {
+      "Name": "Titan-Forged Belt of Dominance",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46077": {
+      "Name": "Titan-Forged Belt of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46078": {
+      "Name": "Titan-Forged Belt of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46079": {
+      "Name": "Titan-Forged Cord of Dominance",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46080": {
+      "Name": "Titan-Forged Cord of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46081": {
+      "Name": "Titan-Forged Rune of Audacity",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "25",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46082": {
+      "Name": "Titan-Forged Rune of Determination",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "25",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46083": {
+      "Name": "Titan-Forged Rune of Accuracy",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "25",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46084": {
+      "Name": "Titan-Forged Rune of Cruelty",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "25",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "46085": {
+      "Name": "Titan-Forged Rune of Alacrity",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "25",
+      "SourceLocation": "Wintergrasp Quartermaster",
       "SourceFaction": "B"
     },
     "46373": {
@@ -5438,6 +5814,174 @@
       "SourceType": "PvP",
       "SourceNumber": "2025",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "48974": {
+      "Name": "Titan-Forged Armwraps of Dominance",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48975": {
+      "Name": "Titan-Forged Armwraps of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48976": {
+      "Name": "Titan-Forged Armwraps of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48977": {
+      "Name": "Titan-Forged Bracers of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48978": {
+      "Name": "Titan-Forged Bracers of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48979": {
+      "Name": "Titan-Forged Cuffs of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48980": {
+      "Name": "Titan-Forged Wristguards of Dominance",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48981": {
+      "Name": "Titan-Forged Wristguards of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48982": {
+      "Name": "Titan-Forged Wristguards of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48983": {
+      "Name": "Titan-Forged Chain Leggings of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48987": {
+      "Name": "Titan-Forged Leather Legguards of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48988": {
+      "Name": "Titan-Forged Leather Legguards of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48990": {
+      "Name": "Titan-Forged Mail Leggings of Dominance",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48991": {
+      "Name": "Titan-Forged Cloth Leggings of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48992": {
+      "Name": "Titan-Forged Plate Legguards of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48993": {
+      "Name": "Titan-Forged Plate Legguards of Triumph",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48994": {
+      "Name": "Titan-Forged Ringmail Leggings of Salvation",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48997": {
+      "Name": "Titan-Forged Cloth Trousers of Domination",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48998": {
+      "Name": "Titan-Forged Leather Legguards of Dominance",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "40",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "48999": {
+      "Name": "Titan-Forged Band of Ascendancy",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
+      "SourceFaction": "B"
+    },
+    "49000": {
+      "Name": "Titan-Forged Band of Victory",
+      "Source": "Wintergrasp Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Wintergrasp Quartermaster",
       "SourceFaction": "B"
     },
     "49179": {

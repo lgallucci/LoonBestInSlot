@@ -57,9 +57,9 @@ public class PvPImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=32354/leeni-smiley-smalls#sells;150", new Tuple<string, string>("Furious, Deadly, Hateful, Savage", "Area52 PvP Vendor") },
         { @"https://www.wowhead.com/wotlk/npc=32354/leeni-smiley-smalls#sells;200", new Tuple<string, string>("Furious, Deadly, Hateful, Savage", "Area52 PvP Vendor") },
         { @"https://www.wowhead.com/wotlk/npc=32354/leeni-smiley-smalls#sells;250", new Tuple<string, string>("Furious, Deadly, Hateful, Savage", "Area52 PvP Vendor") },
-        { @"https://www.wowhead.com/wotlk/npc=32294/knight-dameron", new Tuple<string, string>("Titan-Forged", "Wintergrasp Quartermaster") },
-        { @"https://www.wowhead.com/wotlk/npc=32294/knight-dameron#sells;50", new Tuple<string, string>("Titan-Forged", "Wintergrasp Quartermaster") },
-        { @"https://www.wowhead.com/wotlk/npc=32294/knight-dameron#sells;100", new Tuple<string, string>("Titan-Forged", "Wintergrasp Quartermaster") },
+        { @"https://www.wowhead.com/wotlk/npc=32294/knight-dameron", new Tuple<string, string>("Titan-Forged, Flow of, Anvil of", "Wintergrasp Quartermaster") },
+        { @"https://www.wowhead.com/wotlk/npc=32294/knight-dameron#sells;50", new Tuple<string, string>("Titan-Forged, Flow of, Anvil of", "Wintergrasp Quartermaster") },
+        { @"https://www.wowhead.com/wotlk/npc=32294/knight-dameron#sells;100", new Tuple<string, string>("Titan-Forged, Flow of, Anvil of", "Wintergrasp Quartermaster") },
     };
 
     internal override string FileName { get => "PvPItemList"; }
@@ -113,7 +113,9 @@ public class PvPImporter : LootImporter
                                 currencySource += " & ";
                                 currencyNumber += " & ";
                             }
-                            var currentSource = item == "1901" ? "Honor Points" : "Arena Points";
+                            var currentSource = item == "1901" ? "Honor Points" : 
+                            item == "126" ? "Wintergrasp Marks" : 
+                            item == "1900" ? "Arena Points" : "Unknown Currency";
                             currencySource += currentSource;
 
                             var currencyAmount = int.Parse(anchorObject.TextContent);

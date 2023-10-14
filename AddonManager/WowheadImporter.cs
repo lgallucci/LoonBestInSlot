@@ -349,17 +349,17 @@ public static class WowheadImporter
 
         foreach (var itemSource in itemSources)
         {
-            if (itemSource.Value.SourceType == "PvP")
+            if (itemSource.Value.SourceType == "LBIS.L[\"PvP\"]")
             {
-                itemSource.Value.Source = "unavailable";
-                itemSource.Value.SourceLocation = "unavailable";
+                itemSource.Value.Source = AddLocalizeText("unavailable");
+                itemSource.Value.SourceLocation = AddLocalizeText("unavailable");
             }
             else if (itemSource.Value.SourceType.Contains("PvP"))
             {
-                itemSource.Value.SourceType = "\"unknown\"";
+                itemSource.Value.SourceType = AddLocalizeText("unknown");
                 itemSource.Value.SourceNumber = "unknown";
-                itemSource.Value.Source = "\"unknown\"";
-                itemSource.Value.SourceLocation = "\"unknown\"";
+                itemSource.Value.Source = AddLocalizeText("unknown");
+                itemSource.Value.SourceLocation = AddLocalizeText("unknown");
             }
 
             if (csvLootTable.ContainsKey(itemSource.Key))
@@ -445,7 +445,7 @@ public static class WowheadImporter
         }
     }
 
-    private static string? AddLocalizeText(string source)
+    private static string AddLocalizeText(string source)
     {
         if (string.IsNullOrWhiteSpace(source))
             return "\"\"";
