@@ -1,6 +1,7 @@
 ﻿using AddonManager.Models;
 using AngleSharp.Html.Dom;
 using AngleSharp.Html.Parser;
+using static System.Net.WebRequestMethods;
 
 namespace AddonManager.Importers;
 
@@ -49,7 +50,16 @@ public class PvPImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;450", new Tuple<string, string>("Relentless", "Dalaran PvP Vendor") },
         { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;500", new Tuple<string, string>("Relentless", "Dalaran PvP Vendor") },
         { @"https://www.wowhead.com/wotlk/npc=34087/trapjaw-rix#sells", new Tuple<string, string>("Wrathful", "Dalaran PvP Vendor") },
-        { @"https://www.wowhead.com/wotlk/npc=34087/trapjaw-rix#sells;50", new Tuple<string, string>("Wrathful", "Dalaran PvP Vendor") }
+        { @"https://www.wowhead.com/wotlk/npc=34087/trapjaw-rix#sells;50", new Tuple<string, string>("Wrathful", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32354/leeni-smiley-smalls#sells", new Tuple<string, string>("Furious, Deadly, Hateful, Savage", "Area52 PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32354/leeni-smiley-smalls#sells;50", new Tuple<string, string>("Furious, Deadly, Hateful, Savage", "Area52 PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32354/leeni-smiley-smalls#sells;100", new Tuple<string, string>("Furious, Deadly, Hateful, Savage", "Area52 PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32354/leeni-smiley-smalls#sells;150", new Tuple<string, string>("Furious, Deadly, Hateful, Savage", "Area52 PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32354/leeni-smiley-smalls#sells;200", new Tuple<string, string>("Furious, Deadly, Hateful, Savage", "Area52 PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32354/leeni-smiley-smalls#sells;250", new Tuple<string, string>("Furious, Deadly, Hateful, Savage", "Area52 PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32294/knight-dameron", new Tuple<string, string>("Titan-Forged", "Wintergrasp Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32294/knight-dameron#sells;50", new Tuple<string, string>("Titan-Forged", "Wintergrasp Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32294/knight-dameron#sells;100", new Tuple<string, string>("Titan-Forged", "Wintergrasp Vendor") },
     };
 
     internal override string FileName { get => "PvPItemList"; }
@@ -115,17 +125,8 @@ public class PvPImporter : LootImporter
                     return success;
                 });
 
-                if (items.Items.ContainsKey(itemId))
-                {
-                    if (items.Items[itemId].Source != currencySource)
-                    {
-                        items.Items[itemId].SourceNumber += "/" + currencyNumber;
-                        items.Items[itemId].Source += "/" + currencySource;
-                        items.Items[itemId].SourceLocation += "/" + currencySourceLocation;
-                    }
-                }
-                else
-                {
+                if (!items.Items.ContainsKey(itemId))
+                {                   
                     var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
                     {
                         Name = itemName,

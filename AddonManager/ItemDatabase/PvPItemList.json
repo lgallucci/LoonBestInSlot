@@ -1552,6 +1552,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "41275": {
+      "Name": "Furious Gladiator's Kodohide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6110",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "41276": {
       "Name": "Relentless Gladiator's Kodohide Spaulders",
       "Source": "Arena Points",
@@ -1584,6 +1592,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "41281": {
+      "Name": "Furious Gladiator's Wyrmhide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6110",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "41282": {
       "Name": "Relentless Gladiator's Wyrmhide Spaulders",
       "Source": "Arena Points",
@@ -1606,6 +1622,14 @@
       "SourceType": "PvP",
       "SourceNumber": "4520",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41287": {
+      "Name": "Furious Gladiator's Kodohide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4520",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "41288": {
@@ -1640,6 +1664,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "41293": {
+      "Name": "Furious Gladiator's Wyrmhide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4520",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "41294": {
       "Name": "Relentless Gladiator's Wyrmhide Gloves",
       "Source": "Arena Points",
@@ -1662,6 +1694,14 @@
       "SourceType": "PvP",
       "SourceNumber": "7700",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41298": {
+      "Name": "Furious Gladiator's Kodohide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7700",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "41299": {
@@ -1696,6 +1736,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "41304": {
+      "Name": "Furious Gladiator's Wyrmhide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7700",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "41305": {
       "Name": "Relentless Gladiator's Wyrmhide Legguards",
       "Source": "Arena Points",
@@ -1718,6 +1766,14 @@
       "SourceType": "PvP",
       "SourceNumber": "7700",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41310": {
+      "Name": "Furious Gladiator's Kodohide Robes",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7700",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "41311": {
@@ -1752,6 +1808,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "41316": {
+      "Name": "Furious Gladiator's Wyrmhide Robes",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7700",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "41317": {
       "Name": "Relentless Gladiator's Wyrmhide Robes",
       "Source": "Arena Points",
@@ -1774,6 +1838,14 @@
       "SourceType": "PvP",
       "SourceNumber": "7700",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41321": {
+      "Name": "Furious Gladiator's Kodohide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7700",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "41322": {
@@ -1806,6 +1878,14 @@
       "SourceType": "PvP",
       "SourceNumber": "7700",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41327": {
+      "Name": "Furious Gladiator's Wyrmhide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7700",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "41328": {
@@ -2024,6 +2104,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "41661": {
+      "Name": "Furious Gladiator's Dragonhide Robes",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7700",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "41662": {
       "Name": "Relentless Gladiator's Dragonhide Robes",
       "Source": "Arena Points",
@@ -2054,6 +2142,14 @@
       "SourceType": "PvP",
       "SourceNumber": "7700",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41667": {
+      "Name": "Furious Gladiator's Dragonhide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7700",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "41668": {
@@ -2112,6 +2208,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "41678": {
+      "Name": "Furious Gladiator's Dragonhide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7700",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "41679": {
       "Name": "Relentless Gladiator's Dragonhide Helm",
       "Source": "Arena Points",
@@ -2168,6 +2272,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "41715": {
+      "Name": "Furious Gladiator's Dragonhide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6110",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "41716": {
       "Name": "Relentless Gladiator's Dragonhide Spaulders",
       "Source": "Arena Points",
@@ -2222,6 +2334,14 @@
       "SourceType": "PvP",
       "SourceNumber": "4520",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "41773": {
+      "Name": "Furious Gladiator's Dragonhide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4520",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "41774": {
@@ -3544,6 +3664,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42209": {
+      "Name": "Furious Gladiator's Cleaver",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "13150",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42210": {
       "Name": "Relentless Gladiator's Cleaver",
       "Source": "Arena Points",
@@ -3568,6 +3696,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42228": {
+      "Name": "Furious Gladiator's Hacker",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5600",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42229": {
       "Name": "Relentless Gladiator's Hacker",
       "Source": "Arena Points",
@@ -3582,6 +3718,14 @@
       "SourceType": "PvP",
       "SourceNumber": "5600",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42233": {
+      "Name": "Furious Gladiator's Chopper",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5600",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42234": {
@@ -3616,6 +3760,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42243": {
+      "Name": "Furious Gladiator's Shanker",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "13150",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42244": {
       "Name": "Relentless Gladiator's Shanker",
       "Source": "Arena Points",
@@ -3630,6 +3782,14 @@
       "SourceType": "PvP",
       "SourceNumber": "5600",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42249": {
+      "Name": "Furious Gladiator's Shiv",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5600",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42250": {
@@ -3648,6 +3808,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42256": {
+      "Name": "Furious Gladiator's Mutilator",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5600",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42257": {
       "Name": "Relentless Gladiator's Mutilator",
       "Source": "Arena Points",
@@ -3662,6 +3830,14 @@
       "SourceType": "PvP",
       "SourceNumber": "13150",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42261": {
+      "Name": "Furious Gladiator's Right Ripper",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "13150",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42262": {
@@ -3680,6 +3856,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42266": {
+      "Name": "Furious Gladiator's Left Render",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5600",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42267": {
       "Name": "Relentless Gladiator's Left Render",
       "Source": "Arena Points",
@@ -3694,6 +3878,14 @@
       "SourceType": "PvP",
       "SourceNumber": "5600",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42271": {
+      "Name": "Furious Gladiator's Left Ripper",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5600",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42272": {
@@ -3712,6 +3904,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42276": {
+      "Name": "Furious Gladiator's Pummeler",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "13150",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42277": {
       "Name": "Relentless Gladiator's Pummeler",
       "Source": "Arena Points",
@@ -3726,6 +3926,14 @@
       "SourceType": "PvP",
       "SourceNumber": "5600",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42281": {
+      "Name": "Furious Gladiator's Bonecracker",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5600",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42282": {
@@ -3744,6 +3952,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42286": {
+      "Name": "Furious Gladiator's Slicer",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "13150",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42287": {
       "Name": "Relentless Gladiator's Slicer",
       "Source": "Arena Points",
@@ -3758,6 +3974,14 @@
       "SourceType": "PvP",
       "SourceNumber": "5600",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42291": {
+      "Name": "Furious Gladiator's Quickblade",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5600",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42292": {
@@ -3776,6 +4000,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42318": {
+      "Name": "Furious Gladiator's Decapitator",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42319": {
       "Name": "Relentless Gladiator's Decapitator",
       "Source": "Arena Points",
@@ -3790,6 +4022,14 @@
       "SourceType": "PvP",
       "SourceNumber": "19000",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42323": {
+      "Name": "Furious Gladiator's Bonegrinder",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "19000",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42324": {
@@ -3808,6 +4048,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42328": {
+      "Name": "Furious Gladiator's Pike",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42329": {
       "Name": "Relentless Gladiator's Pike",
       "Source": "Arena Points",
@@ -3822,6 +4070,14 @@
       "SourceType": "PvP",
       "SourceNumber": "19000",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42333": {
+      "Name": "Furious Gladiator's Greatsword",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "19000",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42334": {
@@ -3840,6 +4096,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42347": {
+      "Name": "Furious Gladiator's Spellblade",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "13150",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42348": {
       "Name": "Relentless Gladiator's Spellblade",
       "Source": "Arena Points",
@@ -3854,6 +4118,14 @@
       "SourceType": "PvP",
       "SourceNumber": "13150",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42353": {
+      "Name": "Furious Gladiator's Gavel",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "13150",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42354": {
@@ -3872,6 +4144,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42364": {
+      "Name": "Furious Gladiator's Battle Staff",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42366": {
       "Name": "Relentless Gladiator's Battle Staff",
       "Source": "Arena Points",
@@ -3888,6 +4168,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42385": {
+      "Name": "Furious Gladiator's Energy Staff",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42386": {
       "Name": "Relentless Gladiator's Energy Staff",
       "Source": "Arena Points",
@@ -3902,6 +4190,14 @@
       "SourceType": "PvP",
       "SourceNumber": "19000",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42391": {
+      "Name": "Furious Gladiator's Staff",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "19000",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42392": {
@@ -3944,6 +4240,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42451": {
+      "Name": "Furious Gladiator's War Edge",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3990",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42483": {
       "Name": "Relentless Gladiator's War Edge",
       "Source": "Arena Points",
@@ -3958,6 +4262,14 @@
       "SourceType": "PvP",
       "SourceNumber": "19000",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42486": {
+      "Name": "Furious Gladiator's Rifle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "19000",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42487": {
@@ -3976,6 +4288,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42491": {
+      "Name": "Furious Gladiator's Longbow",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42492": {
       "Name": "Relentless Gladiator's Longbow",
       "Source": "Arena Points",
@@ -3990,6 +4310,14 @@
       "SourceType": "PvP",
       "SourceNumber": "19000",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42496": {
+      "Name": "Furious Gladiator's Heavy Crossbow",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "19000",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42498": {
@@ -4014,6 +4342,14 @@
       "SourceType": "PvP",
       "SourceNumber": "3990",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42503": {
+      "Name": "Furious Gladiator's Touch of Defeat",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3990",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42504": {
@@ -4048,6 +4384,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42514": {
+      "Name": "Furious Gladiator's Baton of Light",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3990",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42515": {
       "Name": "Relentless Gladiator's Baton of Light",
       "Source": "Arena Points",
@@ -4080,6 +4424,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42520": {
+      "Name": "Furious Gladiator's Piercing Touch",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3990",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42521": {
       "Name": "Relentless Gladiator's Piercing Touch",
       "Source": "Arena Points",
@@ -4094,6 +4446,14 @@
       "SourceType": "PvP",
       "SourceNumber": "5600",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42526": {
+      "Name": "Furious Gladiator's Endgame",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5600",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42527": {
@@ -4112,6 +4472,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42532": {
+      "Name": "Furious Gladiator's Reprieve",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5600",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42533": {
       "Name": "Relentless Gladiator's Reprieve",
       "Source": "Arena Points",
@@ -4126,6 +4494,14 @@
       "SourceType": "PvP",
       "SourceNumber": "5600",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42538": {
+      "Name": "Furious Gladiator's Grimoire",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5600",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42539": {
@@ -4144,6 +4520,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42560": {
+      "Name": "Furious Gladiator's Shield Wall",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9500",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42561": {
       "Name": "Relentless Gladiator's Shield Wall",
       "Source": "Arena Points",
@@ -4160,6 +4544,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42565": {
+      "Name": "Furious Gladiator's Barrier",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9500",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42566": {
       "Name": "Relentless Gladiator's Barrier",
       "Source": "Arena Points",
@@ -4174,6 +4566,14 @@
       "SourceType": "PvP",
       "SourceNumber": "9500",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42571": {
+      "Name": "Furious Gladiator's Redoubt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9500",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42572": {
@@ -4224,6 +4624,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42579": {
+      "Name": "Furious Gladiator's Idol of Tenacity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3990",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42580": {
       "Name": "Relentless Gladiator's Idol of Tenacity",
       "Source": "Arena Points",
@@ -4248,6 +4656,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42584": {
+      "Name": "Furious Gladiator's Idol of Steadfastness",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3990",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42585": {
       "Name": "Relentless Gladiator's Idol of Steadfastness",
       "Source": "Arena Points",
@@ -4270,6 +4686,14 @@
       "SourceType": "PvP",
       "SourceNumber": "3990",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42589": {
+      "Name": "Furious Gladiator's Idol of Resolve",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3990",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42591": {
@@ -4320,6 +4744,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42598": {
+      "Name": "Furious Gladiator's Totem of the Third Wind",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3990",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42599": {
       "Name": "Relentless Gladiator's Totem of the Third Wind",
       "Source": "Arena Points",
@@ -4344,6 +4776,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42603": {
+      "Name": "Furious Gladiator's Totem of Survival",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3990",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42604": {
       "Name": "Relentless Gladiator's Totem of Survival",
       "Source": "Arena Points",
@@ -4366,6 +4806,14 @@
       "SourceType": "PvP",
       "SourceNumber": "3990",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42608": {
+      "Name": "Furious Gladiator's Totem of Indomitability",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3990",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42609": {
@@ -4408,6 +4856,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42615": {
+      "Name": "Furious Gladiator's Libram of Justice",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3990",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42616": {
       "Name": "Relentless Gladiator's Libram of Justice",
       "Source": "Arena Points",
@@ -4440,6 +4896,14 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "42621": {
+      "Name": "Furious Gladiator's Sigil of Strife",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3990",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "42622": {
       "Name": "Relentless Gladiator's Sigil of Strife",
       "Source": "Arena Points",
@@ -4462,6 +4926,14 @@
       "SourceType": "PvP",
       "SourceNumber": "3990",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "42853": {
+      "Name": "Furious Gladiator's Libram of Fortitude",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3990",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "42854": {
@@ -4488,6 +4960,22 @@
       "SourceLocation": "Dalaran PvP Vendor",
       "SourceFaction": "B"
     },
+    "44421": {
+      "Name": "Furious Gladiator's War Staff",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "44422": {
+      "Name": "Furious Gladiator's Focus Staff",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
     "44423": {
       "Name": "Relentless Gladiator's War Staff",
       "Source": "Arena Points",
@@ -4502,6 +4990,222 @@
       "SourceType": "PvP",
       "SourceNumber": "2025",
       "SourceLocation": "Dalaran PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45937": {
+      "Name": "Furious Gladiator's Shotgun",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1518 & 19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45938": {
+      "Name": "Furious Gladiator's Recurve",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1518 & 19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45939": {
+      "Name": "Furious Gladiator's Repeater",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1518 & 19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45948": {
+      "Name": "Furious Gladiator's Sunderer",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1518 & 19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45949": {
+      "Name": "Furious Gladiator's Crusher",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1518 & 19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45950": {
+      "Name": "Furious Gladiator's Claymore",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1518 & 19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45951": {
+      "Name": "Furious Gladiator's Halberd",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1518 & 19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45952": {
+      "Name": "Furious Gladiator's Greatstaff",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1518 & 19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45953": {
+      "Name": "Furious Gladiator's Combat Staff",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1518 & 19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45954": {
+      "Name": "Furious Gladiator's Acute Staff",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1518 & 19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45955": {
+      "Name": "Furious Gladiator's Skirmish Staff",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1518 & 19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45956": {
+      "Name": "Furious Gladiator's Light Staff",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1518 & 19000",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45957": {
+      "Name": "Furious Gladiator's Handaxe",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1063 & 13150",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45958": {
+      "Name": "Furious Gladiator's Spike",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1063 & 13150",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45959": {
+      "Name": "Furious Gladiator's Truncheon",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1063 & 13150",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45960": {
+      "Name": "Furious Gladiator's Longblade",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1063 & 13150",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45961": {
+      "Name": "Furious Gladiator's Dicer",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "455 & 5600",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45962": {
+      "Name": "Furious Gladiator's Dirk",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "455 & 5600",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45963": {
+      "Name": "Furious Gladiator's Left Razor",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "455 & 5600",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45964": {
+      "Name": "Furious Gladiator's Punisher",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "455 & 5600",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45965": {
+      "Name": "Furious Gladiator's Swiftblade",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "455 & 5600",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45966": {
+      "Name": "Furious Gladiator's Splitter",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "455 & 5600",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45967": {
+      "Name": "Furious Gladiator's Eviscerator",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "455 & 5600",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45968": {
+      "Name": "Furious Gladiator's Left Claw",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "455 & 5600",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45969": {
+      "Name": "Furious Gladiator's Grasp",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1063 & 13150",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45970": {
+      "Name": "Furious Gladiator's Mageblade",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1063 & 13150",
+      "SourceLocation": "Area52 PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "45971": {
+      "Name": "Furious Gladiator's Salvation",
+      "Source": "Arena Points & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1063 & 13150",
+      "SourceLocation": "Area52 PvP Vendor",
       "SourceFaction": "B"
     },
     "46373": {
