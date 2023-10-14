@@ -80,7 +80,7 @@ LBIS:AddItem(spec0, "44253", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatnes
 LBIS:AddItem(spec0, "47115", LBIS.L["Trinket"], "BIS") --Death's Verdict
 LBIS:AddItem(spec0, "47303", LBIS.L["Trinket"], "BIS") --Death's Choice
 LBIS:AddItem(spec0, "45609", LBIS.L["Trinket"], "BIS") --Comet's Trail
-LBIS:AddItem(spec0, "47255", LBIS.L["Main Hand/Off Hand"], "BIS") --Stygian Bladebreaker
+LBIS:AddItem(spec0, "45930", LBIS.L["Main Hand/Off Hand"], "BIS") --Combatant's Bootblade
 LBIS:AddItem(spec0, "46958", LBIS.L["Main Hand/Off Hand"], "BIS") --Steel Bladebreaker
 LBIS:AddItem(spec0, "45296", LBIS.L["Ranged/Relic"], "BIS") --Twirling Blades
 

@@ -40,10 +40,12 @@ LBIS:AddItem(spec0, "47603", LBIS.L["Chest"], "BIS") --Merlin's Robe
 LBIS:AddItem(spec0, "47585", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
 LBIS:AddItem(spec0, "47983", LBIS.L["Hands"], "BIS") --Velen's Gloves of Triumph
 LBIS:AddItem(spec0, "48066", LBIS.L["Hands"], "BIS") --Zabra's Gloves of Triumph
-LBIS:AddItem(spec0, "46972", LBIS.L["Waist"], "BIS") --Cord of the Tenebrous Mist
 LBIS:AddItem(spec0, "47258", LBIS.L["Waist"], "BIS") --Belt of the Tenebrous Mist
+LBIS:AddItem(spec0, "46972", LBIS.L["Waist"], "BIS") --Cord of the Tenebrous Mist
 LBIS:AddItem(spec0, "49891", LBIS.L["Legs"], "BIS") --Leggings of Woven Death
+LBIS:AddItem(spec0, "47985", LBIS.L["Feet"], "BIS") --Velen's Leggings of Triumph
 LBIS:AddItem(spec0, "49893", LBIS.L["Feet"], "BIS") --Sandals of Consecration
+LBIS:AddItem(spec0, "47092", LBIS.L["Feet"], "BIS") --Boots of the Mourning Widow
 LBIS:AddItem(spec0, "45933", LBIS.L["Neck"], "BIS") --Pendant of the Shallow Grave
 LBIS:AddItem(spec0, "50182", LBIS.L["Neck"], "BIS") --Blood Queen's Crimson Choker
 LBIS:AddItem(spec0, "46046", LBIS.L["Ring"], "BIS") --Nebula Band

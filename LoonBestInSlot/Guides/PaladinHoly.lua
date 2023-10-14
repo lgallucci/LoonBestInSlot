@@ -49,8 +49,8 @@ LBIS:AddItem(spec0, "47604", LBIS.L["Chest"], "BIS") --Merlin's Robe
 LBIS:AddItem(spec0, "47586", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
 LBIS:AddItem(spec0, "47585", LBIS.L["Wrist"], "BIS") --Bejeweled Wizard's Bracers
 LBIS:AddItem(spec0, "50175", LBIS.L["Wrist"], "BIS") --Crypt Keeper's Bracers
-LBIS:AddItem(spec0, "47235", LBIS.L["Hands"], "BIS") --Gloves of the Lifeless Touch
-LBIS:AddItem(spec0, "47326", LBIS.L["Hands"], "BIS") --Handwraps of the Lifeless Touch
+LBIS:AddItem(spec0, "48576", LBIS.L["Hands"], "BIS") --Turalyon's Gloves of Triumph
+LBIS:AddItem(spec0, "48593", LBIS.L["Hands"], "BIS") --Liadrin's Gloves of Triumph
 LBIS:AddItem(spec0, "50451", LBIS.L["Waist"], "BIS") --Belt of the Lonely Noble
 LBIS:AddItem(spec0, "50314", LBIS.L["Waist"], "BIS") --Strip of Remorse
 LBIS:AddItem(spec0, "49891", LBIS.L["Legs"], "BIS") --Leggings of Woven Death

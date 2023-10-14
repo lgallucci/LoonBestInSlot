@@ -186,7 +186,9 @@ public class WowheadGuideParser
             { "Wand", "Ranged/Relic" },
             { "Ranged", "Ranged/Relic" },
             { "Trinket - Throughput", "Trinket" },
-            { "Trinket - Sustain", "Trinket" }
+            { "Trinket - Sustain", "Trinket" },
+            { "Feet - Alternative", "Feet" },
+            { "Legs - Alternative", "Feet" }
         };
         // Setting up indexers
         public string this[string i]
