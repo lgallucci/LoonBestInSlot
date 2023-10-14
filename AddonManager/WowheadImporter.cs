@@ -351,8 +351,8 @@ public static class WowheadImporter
         {
             if (itemSource.Value.SourceType == "LBIS.L[\"PvP\"]")
             {
-                itemSource.Value.Source = AddLocalizeText("unavailable");
-                itemSource.Value.SourceLocation = AddLocalizeText("unavailable");
+                itemSource.Value.Source = AddLocalizeText("Unavailable");
+                itemSource.Value.SourceLocation = AddLocalizeText("Unavailable");
             }
             else if (itemSource.Value.SourceType.Contains("PvP"))
             {
