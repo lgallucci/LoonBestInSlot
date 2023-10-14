@@ -433,6 +433,7 @@ LBIS:AddItem(spec4, "50366", LBIS.L["Trinket"], "BIS") --Althor's Abacus
 LBIS:AddItem(spec4, "50358", LBIS.L["Trinket"], "Alt") --Purified Lunar Dust
 LBIS:AddItem(spec4, "50346", LBIS.L["Trinket"], "Alt") --Sliver of Pure Ice
 LBIS:AddItem(spec4, "46051", LBIS.L["Trinket"], "Alt") --Meteorite Crystal
+LBIS:AddItem(spec4, "45535", LBIS.L["Trinket"], "Alt") --Show of Faith
 LBIS:AddItem(spec4, "45703", LBIS.L["Trinket"], "Alt") --Spark of Hope
 LBIS:AddItem(spec4, "46017", LBIS.L["Main Hand"], "BIS") --Val'anyr, Hammer of Ancient Kings
 LBIS:AddItem(spec4, "50685", LBIS.L["Main Hand"], "Alt") --Trauma
