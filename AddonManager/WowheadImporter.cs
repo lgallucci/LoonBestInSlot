@@ -349,6 +349,19 @@ public static class WowheadImporter
 
         foreach (var itemSource in itemSources)
         {
+            if (itemSource.Value.SourceType == "PvP")
+            {
+                itemSource.Value.Source = "unavailable";
+                itemSource.Value.SourceLocation = "unavailable";
+            }
+            else if (itemSource.Value.SourceType.Contains("PvP"))
+            {
+                itemSource.Value.SourceType = "unknown";
+                itemSource.Value.SourceNumber = "unknown";
+                itemSource.Value.Source = "unknown";
+                itemSource.Value.SourceLocation = "unknown";
+            }
+
             if (csvLootTable.ContainsKey(itemSource.Key))
             {
                 //TODO ADD THE LBIS.L HERE AND NOWHERE ELSE !

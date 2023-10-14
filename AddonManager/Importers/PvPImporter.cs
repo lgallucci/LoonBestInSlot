@@ -6,42 +6,50 @@ namespace AddonManager.Importers;
 
 public class PvPImporter : LootImporter
 {
-    private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
+    private Dictionary<string, Tuple<string, string>> wowheadUriList = new Dictionary<string, Tuple<string, string>>
     {
-        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells", "Relentless, Battlemaster>245" },
-        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;50", "Relentless, Battlemaster>245" },
-        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;100", "Relentless, Battlemaster>245" },
-        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;150", "Relentless, Battlemaster>245" },
-        { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells", "Furious" },
-        { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;50","Furious" },
-        { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;100","Furious" },
-        { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;150","Furious" },
-        { @"https://www.wowhead.com/wotlk/npc=32381/captain-dirgehammer#sells", "Deadly, Battlemaster, Hateful" },
-        { @"https://www.wowhead.com/wotlk/npc=32381/captain-dirgehammer#sells;50", "Deadly, Battlemaster, Hateful" },
-        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells", "Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;50", "Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;100", "Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;150", "Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;200", "Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;250", "Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;300", "Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;350", "Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells", "Deadly, Hateful, Savage" },
-        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;50", "Deadly, Hateful, Savage" },
-        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;100", "Deadly, Hateful, Savage" },
-        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;150", "Deadly, Hateful, Savage" },
-        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;200", "Deadly, Hateful, Savage" },
-        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;250", "Deadly, Hateful, Savage" },
-        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells", "Furious, Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;50", "Furious, Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;100", "Furious, Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;150", "Furious, Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;200", "Furious, Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;250", "Furious, Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;300", "Furious, Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;350", "Furious, Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=34087/trapjaw-rix#sells", "Relentless" },
-        { @"https://www.wowhead.com/wotlk/npc=34087/trapjaw-rix#sells;50", "Relentless" }
+        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells", new Tuple<string, string>("Wrathful, Battlemaster>245", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;50", new Tuple<string, string>("Wrathful, Battlemaster>245", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;100", new Tuple<string, string>("Wrathful, Battlemaster>245", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells;150", new Tuple<string, string>("Wrathful, Battlemaster>245", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells", new Tuple<string, string>("Relentless, Battlemaster>245", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;50",new Tuple<string, string>("Relentless, Battlemaster>245", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;100",new Tuple<string, string>("Relentless, Battlemaster>245", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;150",new Tuple<string, string>("Relentless, Battlemaster>245", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32834/knight-lieutenant-moonstrike#sells;200",new Tuple<string, string>("Relentless, Battlemaster>245", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32381/captain-dirgehammer#sells", new Tuple<string, string>("Furious, Battlemaster, Deadly, Hateful", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32381/captain-dirgehammer#sells;50", new Tuple<string, string>("Furious, Battlemaster, Deadly, Hateful", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32381/captain-dirgehammer#sells;150", new Tuple<string, string>("Furious, Battlemaster, Deadly, Hateful", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells", new Tuple<string, string>("Wrathful", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;50", new Tuple<string, string>("Wrathful", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;100", new Tuple<string, string>("Wrathful", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;150",new Tuple<string, string>( "Wrathful", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;200", new Tuple<string, string>("Wrathful", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;250", new Tuple<string, string>("Wrathful", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;300", new Tuple<string, string>("Wrathful", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;350", new Tuple<string, string>("Wrathful", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;400", new Tuple<string, string>("Wrathful", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31863/nargle-lashcord#sells;450", new Tuple<string, string>("Wrathful", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells", new Tuple<string, string>("Deadly, Hateful, Savage", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;50", new Tuple<string, string>("Deadly, Hateful, Savage", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;100", new Tuple<string, string>("Deadly, Hateful, Savage", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;150", new Tuple<string, string>("Deadly, Hateful, Savage", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;200", new Tuple<string, string>("Deadly, Hateful, Savage", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;250", new Tuple<string, string>("Deadly, Hateful, Savage", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31865/zom-bocom#sells;300", new Tuple<string, string>("Deadly, Hateful, Savage", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells", new Tuple<string, string>("Relentless", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;50", new Tuple<string, string>("Relentless", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;100", new Tuple<string, string>("Relentless", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;150", new Tuple<string, string>("Relentless", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;200", new Tuple<string, string>("Relentless", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;250", new Tuple<string, string>("Relentless", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;300", new Tuple<string, string>("Relentless", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;350", new Tuple<string, string>("Relentless", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;400", new Tuple<string, string>("Relentless", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;450", new Tuple<string, string>("Relentless", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=31864/xazi-smolderpipe#sells;500", new Tuple<string, string>("Relentless", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=34087/trapjaw-rix#sells", new Tuple<string, string>("Wrathful", "Dalaran PvP Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=34087/trapjaw-rix#sells;50", new Tuple<string, string>("Wrathful", "Dalaran PvP Vendor") }
     };
 
     internal override string FileName { get => "PvPItemList"; }
@@ -52,8 +60,8 @@ public class PvPImporter : LootImporter
 
         var total = wowheadUriList.Count;
         var count = 0;
-        await Common.LoadFromWebPages(wowheadUriList.Keys.ToList(), async (uri, content) => 
-        {            
+        await Common.LoadFromWebPages(wowheadUriList.Keys.ToList(), async (uri, content) =>
+        {
             writeToLog($"Reading from {uri} ({++count}/{total})");
             var parser = new HtmlParser();
             var doc = default(IHtmlDocument);
@@ -68,7 +76,7 @@ public class PvPImporter : LootImporter
                 var itemName = item.TextContent;
 
                 Int32.TryParse(row.Children[3].TextContent, out int itemLevel);
-                var nameSplit = wowheadUriList[uri].Split(",");
+                var nameSplit = wowheadUriList[uri].Item1.Split(",");
                 var levelSplit = nameSplit.Select(n => n.Split('>'));
 
                 if (!levelSplit.Any(i => itemName.Contains(i[0].Trim()) && (i.Length < 2 || Int32.Parse(i[1]) < itemLevel)))
@@ -100,10 +108,7 @@ public class PvPImporter : LootImporter
 
                             var currencyAmount = int.Parse(anchorObject.TextContent);
                             currencyNumber += currencyAmount.ToString();
-                            if (currencySource.Contains("Arena"))
-                                currencySourceLocation = "Arena Vendor";
-                            else
-                                currencySourceLocation = "PvP Vendor";
+                            currencySourceLocation = wowheadUriList[uri].Item2;
                         }
 
                     }
