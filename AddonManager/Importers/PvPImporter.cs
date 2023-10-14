@@ -57,9 +57,9 @@ public class PvPImporter : LootImporter
         { @"https://www.wowhead.com/wotlk/npc=32354/leeni-smiley-smalls#sells;150", new Tuple<string, string>("Furious, Deadly, Hateful, Savage", "Area52 PvP Vendor") },
         { @"https://www.wowhead.com/wotlk/npc=32354/leeni-smiley-smalls#sells;200", new Tuple<string, string>("Furious, Deadly, Hateful, Savage", "Area52 PvP Vendor") },
         { @"https://www.wowhead.com/wotlk/npc=32354/leeni-smiley-smalls#sells;250", new Tuple<string, string>("Furious, Deadly, Hateful, Savage", "Area52 PvP Vendor") },
-        { @"https://www.wowhead.com/wotlk/npc=32294/knight-dameron", new Tuple<string, string>("Titan-Forged", "Wintergrasp Vendor") },
-        { @"https://www.wowhead.com/wotlk/npc=32294/knight-dameron#sells;50", new Tuple<string, string>("Titan-Forged", "Wintergrasp Vendor") },
-        { @"https://www.wowhead.com/wotlk/npc=32294/knight-dameron#sells;100", new Tuple<string, string>("Titan-Forged", "Wintergrasp Vendor") },
+        { @"https://www.wowhead.com/wotlk/npc=32294/knight-dameron", new Tuple<string, string>("Titan-Forged", "Wintergrasp Quartermaster") },
+        { @"https://www.wowhead.com/wotlk/npc=32294/knight-dameron#sells;50", new Tuple<string, string>("Titan-Forged", "Wintergrasp Quartermaster") },
+        { @"https://www.wowhead.com/wotlk/npc=32294/knight-dameron#sells;100", new Tuple<string, string>("Titan-Forged", "Wintergrasp Quartermaster") },
     };
 
     internal override string FileName { get => "PvPItemList"; }

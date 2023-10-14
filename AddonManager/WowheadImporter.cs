@@ -356,10 +356,10 @@ public static class WowheadImporter
             }
             else if (itemSource.Value.SourceType.Contains("PvP"))
             {
-                itemSource.Value.SourceType = "unknown";
+                itemSource.Value.SourceType = "\"unknown\"";
                 itemSource.Value.SourceNumber = "unknown";
-                itemSource.Value.Source = "unknown";
-                itemSource.Value.SourceLocation = "unknown";
+                itemSource.Value.Source = "\"unknown\"";
+                itemSource.Value.SourceLocation = "\"unknown\"";
             }
 
             if (csvLootTable.ContainsKey(itemSource.Key))
