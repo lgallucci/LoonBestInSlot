@@ -57,7 +57,7 @@ LBIS:AddItem(spec0, "45456", LBIS.L["Ring"], "BIS") --Loop of the Agile
 LBIS:AddItem(spec0, "47070", LBIS.L["Ring"], "BIS") --Ring of Callous Aggression
 LBIS:AddItem(spec0, "47115", LBIS.L["Trinket"], "BIS") --Death's Verdict
 LBIS:AddItem(spec0, "42987", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
-LBIS:AddItem(spec0, "45868", LBIS.L["Main Hand/Off Hand"], "BIS") --Aesir's Edge
+LBIS:AddItem(spec0, "45868", LBIS.L["Two Hand"], "BIS") --Aesir's Edge
 LBIS:AddItem(spec0, "45296", LBIS.L["Ranged/Relic"], "BIS") --Twirling Blades
 
 LBIS:AddItem(spec1, "40528", LBIS.L["Head"], "BIS") --Valorous Dreadnaught Helmet

@@ -103,7 +103,7 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 		return;
 	end	
 	
-		if not LBIS.ItemsByIdAndSpec[itemId] then
+	if not LBIS.ItemsByIdAndSpec[itemId] then
 		LBIS.ItemsByIdAndSpec[itemId] = {}
 	end
 	

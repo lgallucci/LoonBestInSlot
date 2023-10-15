@@ -8,6 +8,7 @@ LBISSettingsDefault =
 	SelectedZone = LBIS.L["All"], 
 	SelectedZoneNumber = LBIS.L["All"],
 	ShowCustom = false,
+	HideObsolete = false,
 	OpenTab = "ItemList",
 	minimap = {
 		hide = false,
@@ -518,7 +519,7 @@ local lbis_options = {
 			width = "full",
 			order = 46,
 		},
-		show = {
+		showCustom = {
 			type = "toggle",
 			name = LBIS.L["Show Custom"],
 			desc = LBIS.L["Show Custom"],
@@ -526,6 +527,15 @@ local lbis_options = {
 			set = function(info, val) LBISSettings.ShowCustom = val end,
 			width = 1.1,
 			order = 47,
+		},
+		hideObsolete = {
+			type = "toggle",
+			name = LBIS.L["Hide Obsolete Items"],
+			desc = LBIS.L["Hide Obsolete Items"],
+			get = function(info) return LBISSettings.HideObsolete end,
+			set = function(info, val) LBISSettings.HideObsolete = val end,
+			width = 1.1,
+			order = 48,
 		},
 	}
 };

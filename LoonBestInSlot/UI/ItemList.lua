@@ -183,6 +183,84 @@ local function IsNotInClassic(specItem)
     return true;
 end
 
+local slotToWowCodes = {}
+slotToWowCodes[LBIS.L["Head"]] = "HEADSLOT";
+slotToWowCodes[LBIS.L["Shoulder"]] = "SHOULDERSLOT";
+slotToWowCodes[LBIS.L["Back"]] = "BACKSLOT";
+slotToWowCodes[LBIS.L["Chest"]] = "CHESTSLOT";
+slotToWowCodes[LBIS.L["Wrist"]] = "WRISTSLOT";
+slotToWowCodes[LBIS.L["Hands"]] = "HANDSSLOT";
+slotToWowCodes[LBIS.L["Waist"]] = "WAISTSLOT";
+slotToWowCodes[LBIS.L["Legs"]] = "LEGSSLOT";
+slotToWowCodes[LBIS.L["Feet"]] = "FEETSLOT";
+slotToWowCodes[LBIS.L["Neck"]] = "NECKSLOT";
+slotToWowCodes[LBIS.L["Ring"]] = "FINGER0SLOT,FINGER1SLOT";
+slotToWowCodes[LBIS.L["Trinket"]] = "TRINKET0SLOT,TRINKET1SLOT";
+slotToWowCodes[LBIS.L["Main Hand"]] = "MAINHANDSLOT";
+slotToWowCodes[LBIS.L["Off Hand"]] = "SECONDARYHANDSLOT";
+slotToWowCodes[LBIS.L["Two Hand"]] = "MAINHANDSLOT";
+slotToWowCodes[LBIS.L["Ranged/Relic"]] = "RANGEDSLOT";
+local function IsNotObsolete(specItem)
+    if LBISSettings.HideObsolete then
+        
+        local itemId1, itemId2 = -1, -1;
+
+        if specItem.Slot == "Main Hand/Off Hand" then
+            itemId1 = LBIS.UserSlotCache[slotToWowCodes["Main Hand"]];
+            itemId2 = LBIS.UserSlotCache[slotToWowCodes["Off Hand"]];
+        else
+            local wowCodes = slotToWowCodes[specItem.Slot];
+            local wowCode1, wowCode2 = strsplit(",", wowCodes);
+            itemId1 = LBIS.UserSlotCache[wowCode1];
+            if wowCode2 ~= nil then
+                itemId2 = LBIS.UserSlotCache[wowCode2];
+            end
+        end
+
+        local equippedPhase1 = "6";
+        local equippedPhase2 = "6";
+        if itemId1 ~= nil and tonumber(itemId1) > 0 then
+            if LBIS.ItemsByIdAndSpec[tonumber(itemId1)] ~= nil then
+                local cachedItem1 = LBIS.ItemsByIdAndSpec[tonumber(itemId1)][LBIS.NameToSpecId[LBISSettings.SelectedSpec]];
+                if cachedItem1 ~= nil then
+                    equippedPhase1 = cachedItem1.Phase;
+                end
+            end
+        else
+            --get lowest of other specs?
+        end
+        
+        if itemId2 ~= nil and tonumber(itemId2) > 0 then    
+            if LBIS.ItemsByIdAndSpec[tonumber(itemId2)] ~= nil then    
+                local cachedItem2 = LBIS.ItemsByIdAndSpec[tonumber(itemId2)][LBIS.NameToSpecId[LBISSettings.SelectedSpec]];
+                if cachedItem2 ~= nil then
+                    equippedPhase2 = cachedItem2.Phase;
+                end
+            end
+        else
+            --get lowest of other specs?
+        end
+
+        local _, last1 = LBIS:GetPhaseNumbers(equippedPhase1);
+        local _, last2 = LBIS:GetPhaseNumbers(equippedPhase2);
+        local _, itemPhase = LBIS:GetPhaseNumbers(specItem.Phase);
+
+        local lowestLast = last1;
+        if tonumber(last2) < tonumber(lowestLast) then
+            lowestLast = last2
+        end
+
+        if lowestLast == "6" then
+            lowestLast = "-1"
+        end
+
+        if itemPhase ~= "P" and tonumber(itemPhase) < tonumber(lowestLast) then
+            return false;
+        end
+    end
+    return true;
+end
+
 local function createSourceTypeText(specItemSource)
 
     local function getSourceColor(sourceType)
@@ -356,7 +434,7 @@ function LBIS.ItemList:UpdateItems()
             if specItemSource == nil then
                 LBIS:Error("Missing item source: ", specItem);
             else
-                if IsInFaction(specItemSource) and IsInSlot(specItem) and IsInPhase(specItem, specItemSource) and IsInSource(specItemSource) and IsInZone(specItemSource) and IsNotInClassic(specItemSource) then
+                if IsInFaction(specItemSource) and IsInSlot(specItem) and IsInPhase(specItem, specItemSource) and IsInSource(specItemSource) and IsInZone(specItemSource) and IsNotInClassic(specItemSource) and IsNotObsolete(specItem) then
                     point = LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, LBISSettings.SelectedSpec.."_"..specItemSource.Name.."_"..specItem.Id, point, createItemRow);
                 end
             end
