@@ -1,6 +1,4 @@
-﻿using System;
-using System.Threading;
-using AngleSharp.Dom;
+﻿using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
 using AngleSharp.Html.Parser;
 using PuppeteerSharp;

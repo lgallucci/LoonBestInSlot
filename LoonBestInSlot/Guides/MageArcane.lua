@@ -416,8 +416,8 @@ LBIS:AddItem(spec4, "47765", LBIS.L["Legs"], "Alt") --Sunstrider's Leggings of T
 LBIS:AddItem(spec4, "47760", LBIS.L["Legs"], "Alt") --Khadgar's Leggings of Triumph
 LBIS:AddItem(spec4, "47770", LBIS.L["Legs"], "Alt") --Sunstrider's Leggings of Triumph
 LBIS:AddItem(spec4, "47755", LBIS.L["Legs"], "Alt") --Khadgar's Leggings of Triumph
-LBIS:AddItem(spec4, "47750", LBIS.L["Legs"], "Alt") --Khadgar's Leggings of Conquest
 LBIS:AddItem(spec4, "47775", LBIS.L["Legs"], "Alt") --Sunstrider's Leggings of Conquest
+LBIS:AddItem(spec4, "47750", LBIS.L["Legs"], "Alt") --Khadgar's Leggings of Conquest
 LBIS:AddItem(spec4, "50699", LBIS.L["Feet"], "BIS") --Plague Scientist's Boots
 LBIS:AddItem(spec4, "51850", LBIS.L["Feet"], "Alt") --Pale Corpse Boots
 LBIS:AddItem(spec4, "51899", LBIS.L["Feet"], "Alt") --Icecrown Spire Sandals
@@ -452,6 +452,7 @@ LBIS:AddItem(spec4, "47054", LBIS.L["Ring"], "Alt") --Band of Deplorable Violenc
 LBIS:AddItem(spec4, "50348", LBIS.L["Trinket"], "BIS") --Dislodged Foreign Object
 LBIS:AddItem(spec4, "47477", LBIS.L["Trinket"], "BIS") --Reign of the Dead
 LBIS:AddItem(spec4, "47188", LBIS.L["Trinket"], "BIS") --Reign of the Unliving
+LBIS:AddItem(spec4, "50365", LBIS.L["Trinket"], "Alt") --Phylactery of the Nameless Lich
 LBIS:AddItem(spec4, "47316", LBIS.L["Trinket"], "Alt") --Reign of the Dead
 LBIS:AddItem(spec4, "47182", LBIS.L["Trinket"], "Alt") --Reign of the Unliving
 LBIS:AddItem(spec4, "50345", LBIS.L["Trinket"], "Alt") --Muradin's Spyglass

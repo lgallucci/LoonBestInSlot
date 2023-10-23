@@ -402,6 +402,7 @@ LBIS:AddItem(spec4, "45557", LBIS.L["Waist"], "Alt") --Sash of Ancient Power
 LBIS:AddItem(spec4, "51236", LBIS.L["Legs"], "BIS") --Sanctified Frost Witch's Kilt
 LBIS:AddItem(spec4, "51203", LBIS.L["Legs"], "Alt") --Sanctified Frost Witch's Kilt
 LBIS:AddItem(spec4, "50844", LBIS.L["Legs"], "Alt") --Frost Witch's Kilt
+LBIS:AddItem(spec4, "50694", LBIS.L["Legs"], "Alt") --Plaguebringer's Stained Pants
 LBIS:AddItem(spec4, "49891", LBIS.L["Legs"], "Alt") --Leggings of Woven Death
 LBIS:AddItem(spec4, "49900", LBIS.L["Legs"], "Alt") --Lightning-Infused Leggings
 LBIS:AddItem(spec4, "47190", LBIS.L["Legs"], "Alt") --Legwraps of the Awakening
@@ -410,8 +411,8 @@ LBIS:AddItem(spec4, "48322", LBIS.L["Legs"], "Alt") --Nobundo's Kilt of Triumph
 LBIS:AddItem(spec4, "48329", LBIS.L["Legs"], "Alt") --Thrall's Kilt of Triumph
 LBIS:AddItem(spec4, "50699", LBIS.L["Feet"], "BIS") --Plague Scientist's Boots
 LBIS:AddItem(spec4, "49896", LBIS.L["Feet"], "Alt") --Earthsoul Boots
-LBIS:AddItem(spec4, "47456", LBIS.L["Feet"], "Alt") --Sabatons of Tremoring Earth
 LBIS:AddItem(spec4, "47099", LBIS.L["Feet"], "Alt") --Boots of Tremoring Earth
+LBIS:AddItem(spec4, "47456", LBIS.L["Feet"], "Alt") --Sabatons of Tremoring Earth
 LBIS:AddItem(spec4, "45537", LBIS.L["Feet"], "Alt") --Treads of the False Oracle
 LBIS:AddItem(spec4, "50658", LBIS.L["Neck"], "BIS") --Amulet of the Silent Eulogy
 LBIS:AddItem(spec4, "50724", LBIS.L["Neck"], "Alt") --Blood Queen's Crimson Choker
@@ -426,18 +427,18 @@ LBIS:AddItem(spec4, "45495", LBIS.L["Ring"], "Alt") --Conductive Seal
 LBIS:AddItem(spec4, "46046", LBIS.L["Ring"], "Alt") --Nebula Band
 LBIS:AddItem(spec4, "50348", LBIS.L["Trinket"], "BIS") --Dislodged Foreign Object
 LBIS:AddItem(spec4, "50365", LBIS.L["Trinket"], "BIS") --Phylactery of the Nameless Lich
-LBIS:AddItem(spec4, "50345", LBIS.L["Trinket"], "Alt") --Muradin's Spyglass
 LBIS:AddItem(spec4, "47188", LBIS.L["Trinket"], "Alt") --Reign of the Unliving
 LBIS:AddItem(spec4, "47477", LBIS.L["Trinket"], "Alt") --Reign of the Dead
 LBIS:AddItem(spec4, "45518", LBIS.L["Trinket"], "Alt") --Flare of the Heavens
+LBIS:AddItem(spec4, "50345", LBIS.L["Trinket"], "Alt") --Muradin's Spyglass
 LBIS:AddItem(spec4, "47182", LBIS.L["Trinket"], "Alt") --Reign of the Unliving
 LBIS:AddItem(spec4, "47316", LBIS.L["Trinket"], "Alt") --Reign of the Dead
 LBIS:AddItem(spec4, "50734", LBIS.L["Main Hand"], "BIS") --Royal Scepter of Terenas II
 LBIS:AddItem(spec4, "51939", LBIS.L["Main Hand"], "Alt") --Tel'thas, Dagger of the Blood King
 LBIS:AddItem(spec4, "46980", LBIS.L["Main Hand"], "Alt") --Blade of Tarasque
 LBIS:AddItem(spec4, "47422", LBIS.L["Main Hand"], "Alt") --Barb of Tarasque
-LBIS:AddItem(spec4, "47483", LBIS.L["Main Hand"], "Alt") --Suffering's End
 LBIS:AddItem(spec4, "47206", LBIS.L["Main Hand"], "Alt") --Misery's End
+LBIS:AddItem(spec4, "47483", LBIS.L["Main Hand"], "Alt") --Suffering's End
 LBIS:AddItem(spec4, "46035", LBIS.L["Main Hand"], "Alt") --Aesuga, Hand of the Ardent Champion
 LBIS:AddItem(spec4, "50616", LBIS.L["Off Hand"], "BIS") --Bulwark of Smouldering Steel
 LBIS:AddItem(spec4, "47085", LBIS.L["Off Hand"], "Alt") --Bastion of Purity

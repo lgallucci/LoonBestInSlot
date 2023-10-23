@@ -1,12 +1,8 @@
 ﻿using AddonManager.FileManagers;
 using AddonManager.Models;
 using Newtonsoft.Json;
-using System;
 using System.IO;
 using System.Security;
-using System.Threading;
-using System.Windows.Controls;
-using System.Windows.Shapes;
 
 namespace AddonManager;
 public static class WowheadImporter

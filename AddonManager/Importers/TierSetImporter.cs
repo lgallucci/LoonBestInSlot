@@ -3,7 +3,6 @@ using AddonManager.Models;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
 using AngleSharp.Html.Parser;
-using Newtonsoft.Json;
 
 namespace AddonManager.Importers;
 public class TierSetImporter : LootImporter

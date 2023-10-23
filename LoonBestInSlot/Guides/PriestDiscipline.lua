@@ -405,8 +405,8 @@ LBIS:AddItem(spec4, "45486", LBIS.L["Back"], "Alt") --Drape of the Sullen Goddes
 LBIS:AddItem(spec4, "45618", LBIS.L["Back"], "Alt") --Sunglimmer Cloak
 LBIS:AddItem(spec4, "46042", LBIS.L["Back"], "Alt") --Drape of the Messenger
 LBIS:AddItem(spec4, "51263", LBIS.L["Chest"], "BIS") --Sanctified Crimson Acolyte Robe
-LBIS:AddItem(spec4, "48031", LBIS.L["Chest"], "BIS") --Velen's Robe of Triumph
 LBIS:AddItem(spec4, "48060", LBIS.L["Chest"], "BIS") --Zabra's Robe of Triumph
+LBIS:AddItem(spec4, "48031", LBIS.L["Chest"], "BIS") --Velen's Robe of Triumph
 LBIS:AddItem(spec4, "46193", LBIS.L["Chest"], "BIS") --Conqueror's Robe of Sanctification
 LBIS:AddItem(spec4, "51176", LBIS.L["Chest"], "Alt") --Sanctified Crimson Acolyte Robe
 LBIS:AddItem(spec4, "50768", LBIS.L["Chest"], "Alt") --Crimson Acolyte Robe
@@ -414,8 +414,10 @@ LBIS:AddItem(spec4, "50629", LBIS.L["Chest"], "Alt") --Robe of the Waking Nightm
 LBIS:AddItem(spec4, "50975", LBIS.L["Chest"], "Alt") --Ermine Coronation Robes
 LBIS:AddItem(spec4, "50686", LBIS.L["Wrist"], "BIS") --Death Surgeon's Sleeves
 LBIS:AddItem(spec4, "51918", LBIS.L["Wrist"], "Alt") --Bracers of Dark Blessings
+LBIS:AddItem(spec4, "50032", LBIS.L["Wrist"], "Alt") --Death Surgeon's Sleeves
 LBIS:AddItem(spec4, "47143", LBIS.L["Wrist"], "Alt") --Bindings of Dark Essence
 LBIS:AddItem(spec4, "47467", LBIS.L["Wrist"], "Alt") --Dark Essence Bindings
+LBIS:AddItem(spec4, "50785", LBIS.L["Wrist"], "Alt") --Bracers of Dark Blessings
 LBIS:AddItem(spec4, "47587", LBIS.L["Wrist"], "Alt") --Royal Moonshroud Bracers
 LBIS:AddItem(spec4, "47588", LBIS.L["Wrist"], "Alt") --Royal Moonshroud Bracers
 LBIS:AddItem(spec4, "47208", LBIS.L["Wrist"], "Alt") --Armbands of the Ashen Saint
@@ -430,6 +432,8 @@ LBIS:AddItem(spec4, "50984", LBIS.L["Hands"], "Alt") --Gloves of Ambivalence
 LBIS:AddItem(spec4, "50702", LBIS.L["Waist"], "BIS") --Lingering Illness
 LBIS:AddItem(spec4, "50613", LBIS.L["Waist"], "BIS") --Crushing Coldwraith Belt
 LBIS:AddItem(spec4, "51862", LBIS.L["Waist"], "Alt") --Cauterized Cord
+LBIS:AddItem(spec4, "50063", LBIS.L["Waist"], "Alt") --Lingering Illness
+LBIS:AddItem(spec4, "49978", LBIS.L["Waist"], "Alt") --Crushing Coldwraith Belt
 LBIS:AddItem(spec4, "50996", LBIS.L["Waist"], "Alt") --Belt of Omission
 LBIS:AddItem(spec4, "47084", LBIS.L["Waist"], "Alt") --Cord of Biting Cold
 LBIS:AddItem(spec4, "47447", LBIS.L["Waist"], "Alt") --Belt of Biting Cold
@@ -449,6 +453,7 @@ LBIS:AddItem(spec4, "51177", LBIS.L["Legs"], "Alt") --Sanctified Crimson Acolyte
 LBIS:AddItem(spec4, "50769", LBIS.L["Legs"], "Alt") --Crimson Acolyte Leggings
 LBIS:AddItem(spec4, "50699", LBIS.L["Feet"], "BIS") --Plague Scientist's Boots
 LBIS:AddItem(spec4, "51850", LBIS.L["Feet"], "Alt") --Pale Corpse Boots
+LBIS:AddItem(spec4, "50062", LBIS.L["Feet"], "Alt") --Plague Scientist's Boots
 LBIS:AddItem(spec4, "49893", LBIS.L["Feet"], "Alt") --Sandals of Consecration
 LBIS:AddItem(spec4, "51899", LBIS.L["Feet"], "Alt") --Icecrown Spire Sandals
 LBIS:AddItem(spec4, "47097", LBIS.L["Feet"], "Alt") --Boots of the Mourning Widow
@@ -464,8 +469,8 @@ LBIS:AddItem(spec4, "51894", LBIS.L["Neck"], "Alt") --Soulcleave Pendant
 LBIS:AddItem(spec4, "47144", LBIS.L["Neck"], "Alt") --Wail of the Val'kyr
 LBIS:AddItem(spec4, "47468", LBIS.L["Neck"], "Alt") --Cry of the Val'kyr
 LBIS:AddItem(spec4, "51871", LBIS.L["Neck"], "Alt") --Choker of Filthy Diamonds
-LBIS:AddItem(spec4, "47930", LBIS.L["Neck"], "Alt") --Amulet of Binding Elements
 LBIS:AddItem(spec4, "48003", LBIS.L["Neck"], "Alt") --Pendant of Binding Elements
+LBIS:AddItem(spec4, "47930", LBIS.L["Neck"], "Alt") --Amulet of Binding Elements
 LBIS:AddItem(spec4, "45443", LBIS.L["Neck"], "Alt") --Charm of Meticulous Timing
 LBIS:AddItem(spec4, "45933", LBIS.L["Neck"], "Alt") --Pendant of the Shallow Grave
 LBIS:AddItem(spec4, "50720", LBIS.L["Ring"], "BIS") --Incarnadine Band of Mending

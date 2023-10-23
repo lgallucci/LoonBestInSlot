@@ -445,10 +445,10 @@ LBIS:AddItem(spec4, "51939", LBIS.L["Main Hand"], "Alt") --Tel'thas, Dagger of t
 LBIS:AddItem(spec4, "51943", LBIS.L["Main Hand"], "Alt") --Halion, Staff of Forgotten Love
 LBIS:AddItem(spec4, "50725", LBIS.L["Main Hand"], "Alt") --Dying Light
 LBIS:AddItem(spec4, "51932", LBIS.L["Main Hand"], "Alt") --Frost Needle
+LBIS:AddItem(spec4, "51898", LBIS.L["Main Hand"], "Alt") --Mag'hari Chieftain's Staff
 LBIS:AddItem(spec4, "51815", LBIS.L["Main Hand"], "Alt") --Bleak Coldarra Carver
 LBIS:AddItem(spec4, "47518", LBIS.L["Main Hand"], "Alt") --Mortalis
 LBIS:AddItem(spec4, "47517", LBIS.L["Main Hand"], "Alt") --Blade of the Unbroken Covenant
-LBIS:AddItem(spec4, "51898", LBIS.L["Main Hand"], "Alt") --Mag'hari Chieftain's Staff
 LBIS:AddItem(spec4, "47422", LBIS.L["Main Hand"], "Alt") --Barb of Tarasque
 LBIS:AddItem(spec4, "46980", LBIS.L["Main Hand"], "Alt") --Blade of Tarasque
 LBIS:AddItem(spec4, "50047", LBIS.L["Main Hand"], "Alt") --Quel'Delar, Lens of the Mind
