@@ -142,8 +142,9 @@ itemSlots["INVTYPE_QUIVER"] = LBIS.L["Quiver"];
 itemSlots["INVTYPE_RELIC"] = LBIS.L["Ranged/Relic"];
 function LBIS:GetItemInfo(itemId, returnFunc)
 
-    if not itemId or itemId <= 0 then
+    if itemId == nil or not itemId or itemId <= 0 then
         returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil, Class = nil, Slot = nil });
+        return;
     end
 
     local cachedItem = LBISServerSettings.ItemCache[itemId];
