@@ -445,21 +445,21 @@ LBIS:AddItem(spec4, "50377", LBIS.L["Ring"], "Alt") --Ashen Band of Destruction
 LBIS:AddItem(spec4, "50348", LBIS.L["Trinket"], "BIS") --Dislodged Foreign Object
 LBIS:AddItem(spec4, "50365", LBIS.L["Trinket"], "BIS") --Phylactery of the Nameless Lich
 LBIS:AddItem(spec4, "50360", LBIS.L["Trinket"], "Alt") --Phylactery of the Nameless Lich
-LBIS:AddItem(spec4, "47188", LBIS.L["Trinket"], "Alt") --Reign of the Unliving
 LBIS:AddItem(spec4, "47477", LBIS.L["Trinket"], "Alt") --Reign of the Dead
+LBIS:AddItem(spec4, "47188", LBIS.L["Trinket"], "Alt") --Reign of the Unliving
 LBIS:AddItem(spec4, "50353", LBIS.L["Trinket"], "Alt") --Dislodged Foreign Object
 LBIS:AddItem(spec4, "50345", LBIS.L["Trinket"], "Alt") --Muradin's Spyglass
 LBIS:AddItem(spec4, "45518", LBIS.L["Trinket"], "Alt") --Flare of the Heavens
 LBIS:AddItem(spec4, "50734", LBIS.L["Main Hand"], "BIS") --Royal Scepter of Terenas II
-LBIS:AddItem(spec4, "50608", LBIS.L["Main Hand"], "Alt") --Frozen Bonespike
 LBIS:AddItem(spec4, "51939", LBIS.L["Main Hand"], "Alt") --Tel'thas, Dagger of the Blood King
+LBIS:AddItem(spec4, "50608", LBIS.L["Main Hand"], "Alt") --Frozen Bonespike
 LBIS:AddItem(spec4, "50428", LBIS.L["Main Hand"], "Alt") --Royal Scepter of Terenas II
 LBIS:AddItem(spec4, "50685", LBIS.L["Main Hand"], "Alt") --Trauma
 LBIS:AddItem(spec4, "51944", LBIS.L["Main Hand"], "Alt") --Valius, Gavel of the Lightbringer
 LBIS:AddItem(spec4, "51875", LBIS.L["Main Hand"], "Alt") --Lockjaw
 LBIS:AddItem(spec4, "51815", LBIS.L["Main Hand"], "Alt") --Bleak Coldarra Carver
-LBIS:AddItem(spec4, "47483", LBIS.L["Main Hand"], "Alt") --Suffering's End
 LBIS:AddItem(spec4, "47206", LBIS.L["Main Hand"], "Alt") --Misery's End
+LBIS:AddItem(spec4, "47483", LBIS.L["Main Hand"], "Alt") --Suffering's End
 LBIS:AddItem(spec4, "46017", LBIS.L["Main Hand"], "Alt") --Val'anyr, Hammer of Ancient Kings
 LBIS:AddItem(spec4, "50719", LBIS.L["Off Hand"], "BIS") --Shadow Silk Spindle
 LBIS:AddItem(spec4, "50635", LBIS.L["Off Hand"], "Alt") --Sundial of Eternal Dusk
@@ -468,8 +468,7 @@ LBIS:AddItem(spec4, "50173", LBIS.L["Off Hand"], "Alt") --Shadow Silk Spindle
 LBIS:AddItem(spec4, "50423", LBIS.L["Off Hand"], "Alt") --Sundial of Eternal Dusk
 LBIS:AddItem(spec4, "47437", LBIS.L["Off Hand"], "Alt") --Talisman of Heedless Sins
 LBIS:AddItem(spec4, "47064", LBIS.L["Off Hand"], "Alt") --Symbol of Transgression
-LBIS:AddItem(spec4, "50648", LBIS.L["Two Hand"], "BIS") --Nibelung
-LBIS:AddItem(spec4, "50731", LBIS.L["Two Hand"], "Alt") --Archus, Greatstaff of Antonidas
-LBIS:AddItem(spec4, "50725", LBIS.L["Two Hand"], "Alt") --Dying Light
+LBIS:AddItem(spec4, "50731", LBIS.L["Two Hand"], "BIS") --Archus, Greatstaff of Antonidas
+LBIS:AddItem(spec4, "50648", LBIS.L["Two Hand"], "Alt") --Nibelung
 LBIS:AddItem(spec4, "51943", LBIS.L["Two Hand"], "Alt") --Halion, Staff of Forgotten Love
 LBIS:AddItem(spec4, "50457", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Lunar Eclipse

@@ -469,8 +469,8 @@ LBIS:AddItem(spec4, "51894", LBIS.L["Neck"], "Alt") --Soulcleave Pendant
 LBIS:AddItem(spec4, "47144", LBIS.L["Neck"], "Alt") --Wail of the Val'kyr
 LBIS:AddItem(spec4, "47468", LBIS.L["Neck"], "Alt") --Cry of the Val'kyr
 LBIS:AddItem(spec4, "51871", LBIS.L["Neck"], "Alt") --Choker of Filthy Diamonds
-LBIS:AddItem(spec4, "48003", LBIS.L["Neck"], "Alt") --Pendant of Binding Elements
 LBIS:AddItem(spec4, "47930", LBIS.L["Neck"], "Alt") --Amulet of Binding Elements
+LBIS:AddItem(spec4, "48003", LBIS.L["Neck"], "Alt") --Pendant of Binding Elements
 LBIS:AddItem(spec4, "45443", LBIS.L["Neck"], "Alt") --Charm of Meticulous Timing
 LBIS:AddItem(spec4, "45933", LBIS.L["Neck"], "Alt") --Pendant of the Shallow Grave
 LBIS:AddItem(spec4, "50720", LBIS.L["Ring"], "BIS") --Incarnadine Band of Mending
@@ -479,8 +479,8 @@ LBIS:AddItem(spec4, "50644", LBIS.L["Ring"], "BIS") --Ring of Maddening Whispers
 LBIS:AddItem(spec4, "50664", LBIS.L["Ring"], "BIS") --Ring of Rapid Ascent
 LBIS:AddItem(spec4, "50610", LBIS.L["Ring"], "Alt") --Marrowgar's Frigid Eye
 LBIS:AddItem(spec4, "51849", LBIS.L["Ring"], "Alt") --Cerise Coiled Ring
-LBIS:AddItem(spec4, "47237", LBIS.L["Ring"], "Alt") --Band of Deplorable Violence
 LBIS:AddItem(spec4, "47489", LBIS.L["Ring"], "Alt") --Lurid Manifestation
+LBIS:AddItem(spec4, "47237", LBIS.L["Ring"], "Alt") --Band of Deplorable Violence
 LBIS:AddItem(spec4, "47224", LBIS.L["Ring"], "Alt") --Ring of the Darkmender
 LBIS:AddItem(spec4, "47439", LBIS.L["Ring"], "Alt") --Circle of the Darkmender
 LBIS:AddItem(spec4, "46096", LBIS.L["Ring"], "Alt") --Signet of Soft Lament
@@ -504,6 +504,7 @@ LBIS:AddItem(spec4, "51944", LBIS.L["Main Hand"], "Alt") --Valius, Gavel of the 
 LBIS:AddItem(spec4, "46017", LBIS.L["Main Hand"], "Alt") --Val'anyr, Hammer of Ancient Kings
 LBIS:AddItem(spec4, "50428", LBIS.L["Main Hand"], "Alt") --Royal Scepter of Terenas II
 LBIS:AddItem(spec4, "51875", LBIS.L["Main Hand"], "Alt") --Lockjaw
+LBIS:AddItem(spec4, "51910", LBIS.L["Main Hand"], "Alt") --Midnight Sun
 LBIS:AddItem(spec4, "47206", LBIS.L["Main Hand"], "Alt") --Misery's End
 LBIS:AddItem(spec4, "47483", LBIS.L["Main Hand"], "Alt") --Suffering's End
 LBIS:AddItem(spec4, "46035", LBIS.L["Main Hand"], "Alt") --Aesuga, Hand of the Ardent Champion
