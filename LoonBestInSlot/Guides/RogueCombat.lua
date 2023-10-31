@@ -504,8 +504,8 @@ LBIS:AddItem(spec4, "48235", LBIS.L["Head"], "Alt") --Garona's Helmet of Triumph
 LBIS:AddItem(spec4, "48225", LBIS.L["Head"], "Alt") --VanCleef's Helmet of Triumph
 LBIS:AddItem(spec4, "48240", LBIS.L["Head"], "Alt") --Garona's Helmet of Triumph
 LBIS:AddItem(spec4, "49477", LBIS.L["Head"], "Alt") --Bloodfang Hood
-LBIS:AddItem(spec4, "47689", LBIS.L["Head"], "Alt") --Hood of Lethal Intent
 LBIS:AddItem(spec4, "47688", LBIS.L["Head"], "Alt") --Mask of Lethal Intent
+LBIS:AddItem(spec4, "47689", LBIS.L["Head"], "Alt") --Hood of Lethal Intent
 LBIS:AddItem(spec4, "45993", LBIS.L["Head"], "Alt") --Mimiron's Flight Goggles
 LBIS:AddItem(spec4, "51254", LBIS.L["Shoulder"], "BIS") --Sanctified Shadowblade Pauldrons
 LBIS:AddItem(spec4, "51185", LBIS.L["Shoulder"], "Alt") --Sanctified Shadowblade Pauldrons
@@ -519,8 +519,8 @@ LBIS:AddItem(spec4, "50105", LBIS.L["Shoulder"], "Alt") --Shadowblade Pauldrons
 LBIS:AddItem(spec4, "48227", LBIS.L["Shoulder"], "Alt") --VanCleef's Pauldrons of Triumph
 LBIS:AddItem(spec4, "48238", LBIS.L["Shoulder"], "Alt") --Garona's Pauldrons of Triumph
 LBIS:AddItem(spec4, "45245", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Intruder
-LBIS:AddItem(spec4, "48049", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Snow Bandit
 LBIS:AddItem(spec4, "47972", LBIS.L["Shoulder"], "Alt") --Spaulders of the Snow Bandit
+LBIS:AddItem(spec4, "48049", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Snow Bandit
 LBIS:AddItem(spec4, "47708", LBIS.L["Shoulder"], "Alt") --Duskstalker Shoulderpads
 LBIS:AddItem(spec4, "47709", LBIS.L["Shoulder"], "Alt") --Duskstalker Pauldrons
 LBIS:AddItem(spec4, "47545", LBIS.L["Back"], "BIS") --Vereesa's Dexterity
@@ -532,8 +532,8 @@ LBIS:AddItem(spec4, "48673", LBIS.L["Back"], "Alt") --Cloak of the Silver Covena
 LBIS:AddItem(spec4, "48668", LBIS.L["Back"], "Alt") --Cloak of Serrated Blades
 LBIS:AddItem(spec4, "49998", LBIS.L["Back"], "Alt") --Shadowvault Slayer's Cloak
 LBIS:AddItem(spec4, "50764", LBIS.L["Back"], "Alt") --Shawl of Nerubian Silk
-LBIS:AddItem(spec4, "46971", LBIS.L["Back"], "Alt") --Drape of the Untamed Predator
 LBIS:AddItem(spec4, "47418", LBIS.L["Back"], "Alt") --Cloak of the Untamed Predator
+LBIS:AddItem(spec4, "46971", LBIS.L["Back"], "Alt") --Drape of the Untamed Predator
 LBIS:AddItem(spec4, "46032", LBIS.L["Back"], "Alt") --Drape of the Faceless General
 LBIS:AddItem(spec4, "45461", LBIS.L["Back"], "Alt") --Drape of Icy Intent
 LBIS:AddItem(spec4, "50656", LBIS.L["Chest"], "BIS") --Ikfirus's Sack of Wonder
@@ -561,8 +561,8 @@ LBIS:AddItem(spec4, "47474", LBIS.L["Wrist"], "Alt") --Armbands of Dark Determin
 LBIS:AddItem(spec4, "45611", LBIS.L["Wrist"], "Alt") --Solar Bindings
 LBIS:AddItem(spec4, "47581", LBIS.L["Wrist"], "Alt") --Bracers of Swift Death
 LBIS:AddItem(spec4, "47582", LBIS.L["Wrist"], "Alt") --Bracers of Swift Death
-LBIS:AddItem(spec4, "47313", LBIS.L["Wrist"], "Alt") --Armbands of Dark Determination
 LBIS:AddItem(spec4, "47151", LBIS.L["Wrist"], "Alt") --Bracers of Dark Determination
+LBIS:AddItem(spec4, "47313", LBIS.L["Wrist"], "Alt") --Armbands of Dark Determination
 LBIS:AddItem(spec4, "51783", LBIS.L["Wrist"], "Alt") --Vambraces of the Frost Wyrm Queen
 LBIS:AddItem(spec4, "45869", LBIS.L["Wrist"], "Alt") --Fluxing Energy Coils
 LBIS:AddItem(spec4, "50675", LBIS.L["Hands"], "BIS") --Aldriana's Gloves of Secrecy
@@ -574,8 +574,8 @@ LBIS:AddItem(spec4, "50799", LBIS.L["Hands"], "Alt") --Scourge Stranglers
 LBIS:AddItem(spec4, "51188", LBIS.L["Hands"], "Alt") --Sanctified Shadowblade Gauntlets
 LBIS:AddItem(spec4, "47945", LBIS.L["Hands"], "Alt") --Gloves of the Silver Assassin
 LBIS:AddItem(spec4, "48017", LBIS.L["Hands"], "Alt") --Sunreaver Assassin's Gloves
-LBIS:AddItem(spec4, "48231", LBIS.L["Hands"], "Alt") --VanCleef's Gauntlets of Triumph
 LBIS:AddItem(spec4, "48234", LBIS.L["Hands"], "Alt") --Garona's Gauntlets of Triumph
+LBIS:AddItem(spec4, "48231", LBIS.L["Hands"], "Alt") --VanCleef's Gauntlets of Triumph
 LBIS:AddItem(spec4, "50088", LBIS.L["Hands"], "Alt") --Shadowblade Gauntlets
 LBIS:AddItem(spec4, "48224", LBIS.L["Hands"], "Alt") --VanCleef's Gauntlets of Triumph
 LBIS:AddItem(spec4, "48241", LBIS.L["Hands"], "Alt") --Garona's Gauntlets of Triumph
@@ -617,8 +617,8 @@ LBIS:AddItem(spec4, "47077", LBIS.L["Feet"], "Alt") --Treads of the Icewalker
 LBIS:AddItem(spec4, "47445", LBIS.L["Feet"], "Alt") --Icewalker Treads
 LBIS:AddItem(spec4, "49895", LBIS.L["Feet"], "Alt") --Footpads of Impending Death
 LBIS:AddItem(spec4, "51023", LBIS.L["Feet"], "Alt") --Taldaram's Soft Slippers
-LBIS:AddItem(spec4, "47284", LBIS.L["Feet"], "Alt") --Icewalker Treads
 LBIS:AddItem(spec4, "47071", LBIS.L["Feet"], "Alt") --Treads of the Icewalker
+LBIS:AddItem(spec4, "47284", LBIS.L["Feet"], "Alt") --Icewalker Treads
 LBIS:AddItem(spec4, "47919", LBIS.L["Feet"], "Alt") --Acidmaw Boots
 LBIS:AddItem(spec4, "47992", LBIS.L["Feet"], "Alt") --Acidmaw Treads
 LBIS:AddItem(spec4, "45564", LBIS.L["Feet"], "Alt") --Footpads of Silence
@@ -630,8 +630,8 @@ LBIS:AddItem(spec4, "51779", LBIS.L["Neck"], "Alt") --Rimetooth Pendant
 LBIS:AddItem(spec4, "50452", LBIS.L["Neck"], "Alt") --Wodin's Lucky Necklace
 LBIS:AddItem(spec4, "47060", LBIS.L["Neck"], "Alt") --Charge of the Demon Lord
 LBIS:AddItem(spec4, "47433", LBIS.L["Neck"], "Alt") --Charge of the Eredar
-LBIS:AddItem(spec4, "47915", LBIS.L["Neck"], "Alt") --Collar of Ceaseless Torment
 LBIS:AddItem(spec4, "47988", LBIS.L["Neck"], "Alt") --Collar of Unending Torment
+LBIS:AddItem(spec4, "47915", LBIS.L["Neck"], "Alt") --Collar of Ceaseless Torment
 LBIS:AddItem(spec4, "45517", LBIS.L["Neck"], "Alt") --Pendulum of Infinity
 LBIS:AddItem(spec4, "47043", LBIS.L["Neck"], "Alt") --Charge of the Demon Lord
 LBIS:AddItem(spec4, "47272", LBIS.L["Neck"], "Alt") --Charge of the Eredar
@@ -685,8 +685,6 @@ LBIS:AddItem(spec4, "50412", LBIS.L["Main Hand"], "Alt") --Bloodvenom Blade
 LBIS:AddItem(spec4, "51858", LBIS.L["Main Hand"], "Alt") --Soulbreaker
 LBIS:AddItem(spec4, "47156", LBIS.L["Main Hand"], "Alt") --Stormpike Cleaver
 LBIS:AddItem(spec4, "47475", LBIS.L["Main Hand"], "Alt") --Hellscream Slicer
-LBIS:AddItem(spec4, "50046", LBIS.L["Main Hand"], "Alt") --Quel'Delar, Cunning of the Shadows
-LBIS:AddItem(spec4, "45132", LBIS.L["Main Hand"], "Alt") --Golden Saronite Dragon
 LBIS:AddItem(spec4, "50654", LBIS.L["Off Hand"], "BIS") --Scourgeborne Waraxe
 LBIS:AddItem(spec4, "51938", LBIS.L["Off Hand"], "Alt") --Bone Warden's Splitter
 LBIS:AddItem(spec4, "50411", LBIS.L["Off Hand"], "Alt") --Scourgeborne Waraxe

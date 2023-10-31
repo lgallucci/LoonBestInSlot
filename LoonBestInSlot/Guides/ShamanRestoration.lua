@@ -394,6 +394,8 @@ LBIS:AddItem(spec4, "47579", LBIS.L["Wrist"], "Alt") --Black Chitin Bracers
 LBIS:AddItem(spec4, "47580", LBIS.L["Wrist"], "Alt") --Black Chitin Bracers
 LBIS:AddItem(spec4, "50703", LBIS.L["Hands"], "BIS") --Unclean Surgical Gloves
 LBIS:AddItem(spec4, "51248", LBIS.L["Hands"], "BIS") --Sanctified Frost Witch's Handguards
+LBIS:AddItem(spec4, "51827", LBIS.L["Hands"], "Alt") --Stormbringer Gloves
+LBIS:AddItem(spec4, "50980", LBIS.L["Hands"], "Alt") --Blizzard Keeper's Mitts
 LBIS:AddItem(spec4, "51191", LBIS.L["Hands"], "Alt") --Sanctified Frost Witch's Handguards
 LBIS:AddItem(spec4, "50836", LBIS.L["Hands"], "Alt") --Frost Witch's Handguards
 LBIS:AddItem(spec4, "46199", LBIS.L["Hands"], "Alt") --Conqueror's Worldbreaker Handguards
@@ -425,8 +427,8 @@ LBIS:AddItem(spec4, "45654", LBIS.L["Legs"], "Alt") --Legplates of the Wayward P
 LBIS:AddItem(spec4, "50699", LBIS.L["Feet"], "BIS") --Plague Scientist's Boots
 LBIS:AddItem(spec4, "51920", LBIS.L["Feet"], "Alt") --Boots of the Frozen Seed
 LBIS:AddItem(spec4, "49896", LBIS.L["Feet"], "Alt") --Earthsoul Boots
-LBIS:AddItem(spec4, "47099", LBIS.L["Feet"], "Alt") --Boots of Tremoring Earth
 LBIS:AddItem(spec4, "47456", LBIS.L["Feet"], "Alt") --Sabatons of Tremoring Earth
+LBIS:AddItem(spec4, "47099", LBIS.L["Feet"], "Alt") --Boots of Tremoring Earth
 LBIS:AddItem(spec4, "45537", LBIS.L["Feet"], "Alt") --Treads of the False Oracle
 LBIS:AddItem(spec4, "50724", LBIS.L["Neck"], "BIS") --Blood Queen's Crimson Choker
 LBIS:AddItem(spec4, "51894", LBIS.L["Neck"], "Alt") --Soulcleave Pendant
