@@ -384,8 +384,8 @@ LBIS:AddItem(spec4, "51190", LBIS.L["Chest"], "Alt") --Sanctified Frost Witch's 
 LBIS:AddItem(spec4, "50835", LBIS.L["Chest"], "Alt") --Frost Witch's Tunic
 LBIS:AddItem(spec4, "46198", LBIS.L["Chest"], "Alt") --Conqueror's Worldbreaker Tunic
 LBIS:AddItem(spec4, "45633", LBIS.L["Chest"], "Alt") --Breastplate of the Wayward Protector
-LBIS:AddItem(spec4, "48305", LBIS.L["Chest"], "Alt") --Thrall's Tunic of Triumph
 LBIS:AddItem(spec4, "48294", LBIS.L["Chest"], "Alt") --Nobundo's Tunic of Triumph
+LBIS:AddItem(spec4, "48305", LBIS.L["Chest"], "Alt") --Thrall's Tunic of Triumph
 LBIS:AddItem(spec4, "47603", LBIS.L["Chest"], "Alt") --Merlin's Robe
 LBIS:AddItem(spec4, "50687", LBIS.L["Wrist"], "BIS") --Bloodsunder's Bracers
 LBIS:AddItem(spec4, "45460", LBIS.L["Wrist"], "Alt") --Bindings of Winter Gale
@@ -427,8 +427,8 @@ LBIS:AddItem(spec4, "45654", LBIS.L["Legs"], "Alt") --Legplates of the Wayward P
 LBIS:AddItem(spec4, "50699", LBIS.L["Feet"], "BIS") --Plague Scientist's Boots
 LBIS:AddItem(spec4, "51920", LBIS.L["Feet"], "Alt") --Boots of the Frozen Seed
 LBIS:AddItem(spec4, "49896", LBIS.L["Feet"], "Alt") --Earthsoul Boots
-LBIS:AddItem(spec4, "47456", LBIS.L["Feet"], "Alt") --Sabatons of Tremoring Earth
 LBIS:AddItem(spec4, "47099", LBIS.L["Feet"], "Alt") --Boots of Tremoring Earth
+LBIS:AddItem(spec4, "47456", LBIS.L["Feet"], "Alt") --Sabatons of Tremoring Earth
 LBIS:AddItem(spec4, "45537", LBIS.L["Feet"], "Alt") --Treads of the False Oracle
 LBIS:AddItem(spec4, "50724", LBIS.L["Neck"], "BIS") --Blood Queen's Crimson Choker
 LBIS:AddItem(spec4, "51894", LBIS.L["Neck"], "Alt") --Soulcleave Pendant
@@ -449,6 +449,7 @@ LBIS:AddItem(spec4, "47059", LBIS.L["Trinket"], "BIS") --Solace of the Defeated
 LBIS:AddItem(spec4, "47432", LBIS.L["Trinket"], "BIS") --Solace of the Fallen
 LBIS:AddItem(spec4, "47041", LBIS.L["Trinket"], "Alt") --Solace of the Defeated
 LBIS:AddItem(spec4, "47271", LBIS.L["Trinket"], "Alt") --Solace of the Fallen
+LBIS:AddItem(spec4, "50358", LBIS.L["Trinket"], "Alt") --Purified Lunar Dust
 LBIS:AddItem(spec4, "45535", LBIS.L["Trinket"], "Alt") --Show of Faith
 LBIS:AddItem(spec4, "45466", LBIS.L["Trinket"], "Alt") --Scale of Fates
 LBIS:AddItem(spec4, "37111", LBIS.L["Trinket"], "Alt") --Soul Preserver
