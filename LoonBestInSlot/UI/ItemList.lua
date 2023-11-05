@@ -27,31 +27,29 @@ local function itemSortFunction(table, k1, k2)
     local item1Score = 0;
     local item2Score = 0;
     
-    if itemSlotOrder[item1.Slot] < itemSlotOrder[item2.Slot] then
-        item1Score = item1Score + 1000;
-    end
     if itemSlotOrder[item1.Slot] > itemSlotOrder[item2.Slot] then
-        item2Score = item2Score + 1000;
+        item1Score = item1Score * -10000;
     end
-
-    if string.find(item1.Bis, "BIS") ~= nil then
-        item1Score = item1Score + 100;
-    end    
-    if string.find(item2.Bis, "BIS") ~= nil then
-        item2Score = item2Score + 100;
+    if itemSlotOrder[item1.Slot] < itemSlotOrder[item2.Slot] then
+        item2Score = item2Score * -10000;
     end
 
     local _, lastNumber1 = LBIS:GetPhaseNumbers(item1.Phase)
     local _, lastNumber2 = LBIS:GetPhaseNumbers(item2.Phase)
 
-    item1Score = item1Score + lastNumber1;
-    item2Score = item2Score + lastNumber2;
+    item1Score = item1Score + (lastNumber1 * -1000);
+    item2Score = item2Score + (lastNumber2 * -1000);
 
-    if item1Score == item2Score then
-        return item1.Id > item2.Id;
-    else
-        return item1Score > item2Score
-    end
+    item1Score = item1Score + item1.SortOrder;
+    item2Score = item2Score + item2.SortOrder;
+
+    LBIS:GetItemInfo(item1.Id, function(item1print)
+        LBIS:GetItemInfo(item2.Id, function(item2print)
+            print(item1print.Name.."("..item1Score..")".." < "..item2print.Name.."("..item2Score..")");
+        end);
+    end);
+
+    return item1Score < item2Score;
 end
 
 local function printSource(itemId, specItemSource, dl)

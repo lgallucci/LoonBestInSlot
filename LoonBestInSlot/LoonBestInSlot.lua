@@ -91,7 +91,7 @@ function LBIS:RegisterSpec(class, spec, phase)
     return classSpec
 end
 
-function LBIS:AddItem(bisEntry, id, slot, bis)
+function LBIS:AddItem(bisEntry, id, slot, bis, order)
 
 	if strlen(id) <= 0 then
 		return
@@ -121,7 +121,7 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 
 	if searchedItem == nil then
 
-		searchedItem = { Id = itemId, Bis = bis, Phase = bisEntry.Phase, Slot = slot }
+		searchedItem = { Id = itemId, Bis = bis, Phase = bisEntry.Phase, Slot = slot, SortOrder = order }
 		
 		if not LBIS.ItemsBySpecAndId[bisEntry.Id] then
 			LBIS.ItemsBySpecAndId[bisEntry.Id] = {}
@@ -131,6 +131,8 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 		if bisEntry.Phase > searchedItem.Phase then
 			searchedItem.Bis = bis;
 		end
+
+		searchedItem.SortOrder = order;
 
 		local firstNumber, lastNumber = LBIS:GetPhaseNumbers(searchedItem.Phase);
 

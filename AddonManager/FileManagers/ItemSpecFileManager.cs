@@ -35,16 +35,17 @@ public static class ItemSpecFileManager
         {
             itemSB.AppendLine($"LBIS:AddEnchant(spec1, \"{enchant.Value.EnchantId}\", LBIS.L[\"{enchant.Value.Slot}\"]) --{enchant.Value.Name}");
         }
-
         foreach (var phaseItems in itemsList)
         {
             itemSB.AppendLine();
             var items = phaseItems.Value;
             items.Sort();
 
+            int count = 0;
             foreach (var item in items)
             {
-                itemSB.AppendLine($"LBIS:AddItem(spec{phaseItems.Key}, \"{item.ItemId}\", LBIS.L[\"{item.Slot}\"], \"{item.BisStatus}\") --{item.Name}");
+                itemSB.AppendLine($"LBIS:AddItem(spec{phaseItems.Key}, \"{item.ItemId}\", LBIS.L[\"{item.Slot}\"], \"{item.BisStatus}\", \"{count}\") --{item.Name}");
+                count++;
             }
         }
 
