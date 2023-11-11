@@ -12,7 +12,6 @@ internal class DeathKnightFrostMapping : SpecMapping
     public override string Spec => "Frost";
 
     public override string GemsUrl => "dps-enchants-gems-pve";
-
     public override List<(string, GuideMapping)> Gems => new List<(string, GuideMapping)>
         {
             { ("Meta", "h2#best-gems+.box") },
@@ -36,7 +35,6 @@ internal class DeathKnightFrostMapping : SpecMapping
         };
 
     public override string Phase0Url => "dps-bis-gear-pre-raid-pve-p4";
-
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-frost-death-knight-dps-pre-raid") },
@@ -57,7 +55,6 @@ internal class DeathKnightFrostMapping : SpecMapping
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";
-
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "#main-hand-weapons-for-frost-death-knight-dps-phase-1") },
@@ -66,7 +63,6 @@ internal class DeathKnightFrostMapping : SpecMapping
         };
 
     public override string Phase2Url => "dps-bis-gear-pve-phase-2";
-
     public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "#main-hand-weapons-for-frost-death-knight-dps-phase-2") },
@@ -75,7 +71,6 @@ internal class DeathKnightFrostMapping : SpecMapping
         };
 
     public override string Phase3Url => "dps-bis-gear-pve-phase-3";
-
     public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "#main-hand-weapons-for-frost-death-knight-dps-phase-3") },
@@ -84,7 +79,6 @@ internal class DeathKnightFrostMapping : SpecMapping
         };
 
     public override string Phase4Url => "dps-bis-gear-pve-phase-4";
-
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "#main-hand-weapons-for-frost-death-knight-dps-phase-4") },
@@ -93,7 +87,6 @@ internal class DeathKnightFrostMapping : SpecMapping
         };
 
     public override string Phase5Url => "dps-bis-gear-pve-phase-5";
-
     public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "#main-hand-weapons-for-frost-death-knight-dps-phase-5") },

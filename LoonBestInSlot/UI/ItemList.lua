@@ -43,12 +43,6 @@ local function itemSortFunction(table, k1, k2)
     item1Score = item1Score + item1.SortOrder;
     item2Score = item2Score + item2.SortOrder;
 
-    LBIS:GetItemInfo(item1.Id, function(item1print)
-        LBIS:GetItemInfo(item2.Id, function(item2print)
-            print(item1print.Name.."("..item1Score..")".." < "..item2print.Name.."("..item2Score..")");
-        end);
-    end);
-
     return item1Score < item2Score;
 end
 

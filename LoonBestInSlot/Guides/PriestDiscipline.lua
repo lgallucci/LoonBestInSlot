@@ -498,8 +498,8 @@ LBIS:AddItem(spec4, "46051", LBIS.L["Trinket"], "Alt", "112") --Meteorite Crysta
 LBIS:AddItem(spec4, "44255", LBIS.L["Trinket"], "Alt", "113") --Darkmoon Card: Greatness
 LBIS:AddItem(spec4, "45703", LBIS.L["Trinket"], "Alt", "114") --Spark of Hope
 LBIS:AddItem(spec4, "50734", LBIS.L["Main Hand"], "BIS", "115") --Royal Scepter of Terenas II
-LBIS:AddItem(spec4, "50608", LBIS.L["Main Hand"], "Alt", "116") --Frozen Bonespike
-LBIS:AddItem(spec4, "50685", LBIS.L["Main Hand"], "Alt", "117") --Trauma
+LBIS:AddItem(spec4, "50685", LBIS.L["Main Hand"], "Alt", "116") --Trauma
+LBIS:AddItem(spec4, "50608", LBIS.L["Main Hand"], "Alt", "117") --Frozen Bonespike
 LBIS:AddItem(spec4, "51944", LBIS.L["Main Hand"], "Alt", "118") --Valius, Gavel of the Lightbringer
 LBIS:AddItem(spec4, "46017", LBIS.L["Main Hand"], "Alt", "119") --Val'anyr, Hammer of Ancient Kings
 LBIS:AddItem(spec4, "50428", LBIS.L["Main Hand"], "Alt", "120") --Royal Scepter of Terenas II

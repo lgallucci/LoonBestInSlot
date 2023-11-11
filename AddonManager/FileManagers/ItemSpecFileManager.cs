@@ -110,7 +110,7 @@ public static class ItemSpecFileManager
                 {
                     ItemId = itemId,
                     Slot = itemSplit[3],
-                    Name = itemSplit[6].Replace(") --", ""),
+                    Name = itemSplit[8].Replace(") --", ""),
                     BisStatus = itemSplit[5],
                     ItemOrder = items[phase].Count(i => i.Slot == itemSplit[3])
                 });
