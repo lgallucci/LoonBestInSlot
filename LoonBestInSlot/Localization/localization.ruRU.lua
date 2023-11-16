@@ -29,8 +29,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["Arcane"] = "Тайная магия";
   LBIS.L["Archavon the Stone Watcher"] = "Аркавон Страж Камня";
 --  LBIS.L["Archmage Alvareaux"] = "";
+--  LBIS.L["Area52 PvP Vendor"] = "";
   LBIS.L["Arena Points"] = "Очки арены";
---  LBIS.L["Arena Vendor"] = "";
   LBIS.L["Argent Confessor Paletress"] = "Исповедница Серебряного Авангарда Пейлтресс";
   LBIS.L["Argent Crusade"] = "Серебряный Авангард";
   LBIS.L["Argent Crusade (Revered)"] = "Серебряный Авангард (Почтение)";
@@ -77,6 +77,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Cyanigosa"] = "Синигоса";
 --  LBIS.L["Daily Fishing Quest"] = "";
   LBIS.L["Dalaran"] = "Даларан";
+--  LBIS.L["Dalaran PvP Vendor"] = "";
   LBIS.L["Dalronn the Controller"] = "Далронн Контролирующий";
   LBIS.L["Darkmoon Faire"] = "Ярмарка Новолуния";
   LBIS.L["Darkmoon Nobles Deck"] = "Колода карт Новолуния: Аристократы";
@@ -120,6 +121,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Exalted"] = "Превознесение";
 --  LBIS.L["Eye of the Storm Marks"] = "";
   LBIS.L["Faction Champions"] = "Чемпионы фракций";
+--  LBIS.L["Faction PVP Vendor"] = "";
 --  LBIS.L["Fedryen Swiftspear"] = "";
   LBIS.L["Feet"] = "Ступни";
   LBIS.L["Festergut"] = "Тухлопуз";
@@ -165,6 +167,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Halls of Lightning (Heroic+)"] = "Чертоги Молний (Героический+)";
   LBIS.L["Halls of Lightning (Heroic++)"] = "Чертоги Молний (Героический++)";
   LBIS.L["Halls of Lightning (Normal)"] = "Чертоги Молний (Обычный)";
+  LBIS.L["Halls of Reflection (Heroic)"] = "Залы Отражений (Героический)";
   LBIS.L["Halls of Stone"] = "Чертоги Камня";
   LBIS.L["Halls of Stone (Heroic)"] = "Чертоги Камня (Героический)";
   LBIS.L["Halls of Stone (Heroic+)"] = "Чертоги Камня (Героический+)";
@@ -180,6 +183,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Heroic"] = "Героический";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "Героическое правосудие в Оке Вечности";
   LBIS.L["Heroic: All Is Well That Ends Well"] = "Все хорошо, что хорошо кончается (героич.)";
+--  LBIS.L["Hide Obsolete Items"] = "";
   LBIS.L["Hodir"] = "Ходир";
 --  LBIS.L["Hodir (Hard)"] = "Ходир";
   LBIS.L["Holy"] = "Свет";
@@ -299,7 +303,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Protector's Mark (H)"] = " (Гер)";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
   LBIS.L["PvP"] = "PvP";
---  LBIS.L["PvP Vendor"] = "";
 --  LBIS.L["Quartermasters"] = "";
   LBIS.L["Quest"] = "Задания";
   LBIS.L["Quiver"] = "Колчан";
@@ -431,8 +434,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Ulduar (25)"] = "Ульдуар (25)";
   LBIS.L["Unavailable"] = "Недоступно";
   LBIS.L["Unholy"] = "Нечестивость";
---  LBIS.L["unknown"] = "";
-  LBIS.L["Unknown (Heroic+)"] = "Неизвестно (Героический+)";
   LBIS.L["Utgarde Keep (Heroic)"] = "Крепость Утгард (Героический)";
   LBIS.L["Utgarde Keep (Heroic+)"] = "Крепость Утгард (Героический+)";
   LBIS.L["Utgarde Keep (Heroic++)"] = "Крепость Утгард (Героический++)";

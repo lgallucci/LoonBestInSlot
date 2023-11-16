@@ -29,8 +29,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Arcane"] = "비전";
   LBIS.L["Archavon the Stone Watcher"] = "바위 감시자 아카본";
   LBIS.L["Archmage Alvareaux"] = "대마법사 알바로 <키린 토 병참장교>";
+--  LBIS.L["Area52 PvP Vendor"] = "";
   LBIS.L["Arena Points"] = "투기장 점수";
-  LBIS.L["Arena Vendor"] = "투기장 상인";
   LBIS.L["Argent Confessor Paletress"] = "은빛 고해사제 페일트리스";
   LBIS.L["Argent Crusade"] = "은빛십자군";
   LBIS.L["Argent Crusade (Revered)"] = "은빛십자군 (매우 우호적)";
@@ -77,6 +77,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Cyanigosa"] = "시아니고사";
   LBIS.L["Daily Fishing Quest"] = "낚시 퀘스트 (일일)";
   LBIS.L["Dalaran"] = "달라란";
+--  LBIS.L["Dalaran PvP Vendor"] = "";
   LBIS.L["Dalronn the Controller"] = "감시자 달론";
   LBIS.L["Darkmoon Faire"] = "다크문 축제";
   LBIS.L["Darkmoon Nobles Deck"] = "다크문 귀족 카드 한 벌";
@@ -120,6 +121,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Exalted"] = "확고한 동맹";
   LBIS.L["Eye of the Storm Marks"] = "폭풍의 눈 명예 훈장";
   LBIS.L["Faction Champions"] = "진영 대표 용사";
+--  LBIS.L["Faction PVP Vendor"] = "";
   LBIS.L["Fedryen Swiftspear"] = "페드리엔 스위프트스피어 <세나리온 원정대 병참장교>";
   LBIS.L["Feet"] = "발";
   LBIS.L["Festergut"] = "구린속";
@@ -165,6 +167,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Halls of Lightning (Heroic+)"] = "번개의 전당 (영웅+)";
   LBIS.L["Halls of Lightning (Heroic++)"] = "번개의 전당 (영웅++)";
   LBIS.L["Halls of Lightning (Normal)"] = "번개의 전당 (일반)";
+  LBIS.L["Halls of Reflection (Heroic)"] = "투영의 전당 (영웅)";
   LBIS.L["Halls of Stone"] = "돌의 전당";
   LBIS.L["Halls of Stone (Heroic)"] = "돌의 전당 (영웅)";
   LBIS.L["Halls of Stone (Heroic+)"] = "돌의 전당 (영웅+)";
@@ -180,6 +183,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Heroic"] = "영웅";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "영원의 눈에서의 영웅적 심판 (25인)";
   LBIS.L["Heroic: All Is Well That Ends Well"] = "영웅: 끝이 좋으면 다 좋다";
+--  LBIS.L["Hide Obsolete Items"] = "";
   LBIS.L["Hodir"] = "호디르";
 --  LBIS.L["Hodir (Hard)"] = "호디르";
   LBIS.L["Holy"] = "신성";
@@ -299,7 +303,6 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Protector's Mark (H)"] = "";
   LBIS.L["Purkom (Venture Cove)"] = "<투자개발 만> 얼라-\"회색머리\" 아담스, 호드-푸르콤";
   LBIS.L["PvP"] = "PvP";
-  LBIS.L["PvP Vendor"] = "PvP 상인";
   LBIS.L["Quartermasters"] = "병참장교";
   LBIS.L["Quest"] = "퀘스트";
   LBIS.L["Quiver"] = "화살통";
@@ -431,8 +434,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Ulduar (25)"] = "울두아르 (25인)";
   LBIS.L["Unavailable"] = "사용 불가";
   LBIS.L["Unholy"] = "부정";
---  LBIS.L["unknown"] = "";
-  LBIS.L["Unknown (Heroic+)"] = "알수없음 (영웅+ 티탄 룬 모드)";
   LBIS.L["Utgarde Keep (Heroic)"] = "우트가드 성채 (영웅)";
   LBIS.L["Utgarde Keep (Heroic+)"] = "우트가드 성채 (영웅+)";
   LBIS.L["Utgarde Keep (Heroic++)"] = "우트가드 성채 (영웅++)";

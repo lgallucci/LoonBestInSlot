@@ -29,8 +29,8 @@ if GetLocale() == "esES" then
   LBIS.L["Arcane"] = "Arcano";
   LBIS.L["Archavon the Stone Watcher"] = "Archavon el Vigía de piedra";
 --  LBIS.L["Archmage Alvareaux"] = "";
+--  LBIS.L["Area52 PvP Vendor"] = "";
   LBIS.L["Arena Points"] = "Puntos de arena";
-  LBIS.L["Arena Vendor"] = "Vendedor de arena";
   LBIS.L["Argent Confessor Paletress"] = "Confesora Argenta Cabelloclaro";
   LBIS.L["Argent Crusade"] = "Cruzada Argenta";
   LBIS.L["Argent Crusade (Revered)"] = "Cruzada Argenta (Reverenciado)";
@@ -77,6 +77,7 @@ if GetLocale() == "esES" then
   LBIS.L["Cyanigosa"] = "Cyanigosa";
   LBIS.L["Daily Fishing Quest"] = "Misión de pesca diaria";
   LBIS.L["Dalaran"] = "Dalaran";
+--  LBIS.L["Dalaran PvP Vendor"] = "";
   LBIS.L["Dalronn the Controller"] = "Dalronn el Controlador";
   LBIS.L["Darkmoon Faire"] = "Feria de la Luna Negra";
   LBIS.L["Darkmoon Nobles Deck"] = "La baraja de Nobles de la Luna Negra";
@@ -120,6 +121,7 @@ if GetLocale() == "esES" then
   LBIS.L["Exalted"] = "Exaltado";
   LBIS.L["Eye of the Storm Marks"] = "Marcas del ojo de la tormenta";
   LBIS.L["Faction Champions"] = "Campeones de la facción";
+--  LBIS.L["Faction PVP Vendor"] = "";
 --  LBIS.L["Fedryen Swiftspear"] = "";
   LBIS.L["Feet"] = "Pies";
   LBIS.L["Festergut"] = "Panzachancro";
@@ -165,6 +167,7 @@ if GetLocale() == "esES" then
   LBIS.L["Halls of Lightning (Heroic+)"] = "Cámaras de Relámpagos (Heroico+)";
   LBIS.L["Halls of Lightning (Heroic++)"] = "Cámaras de Relámpagos (Heroico++)";
   LBIS.L["Halls of Lightning (Normal)"] = "Cámaras de Relámpagos (Normal)";
+  LBIS.L["Halls of Reflection (Heroic)"] = "Cámaras de Reflexión (Heroico)";
   LBIS.L["Halls of Stone"] = "Cámaras de Piedra";
   LBIS.L["Halls of Stone (Heroic)"] = "Cámaras de Piedra (Heroico)";
   LBIS.L["Halls of Stone (Heroic+)"] = "Cámaras de Piedra (Heroico+)";
@@ -180,6 +183,7 @@ if GetLocale() == "esES" then
   LBIS.L["Heroic"] = "Heroico";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "Heroico: Juicio en El Ojo de la Eternidad";
   LBIS.L["Heroic: All Is Well That Ends Well"] = "Heroico: Bien está lo que bien acaba";
+--  LBIS.L["Hide Obsolete Items"] = "";
   LBIS.L["Hodir"] = "Hodir";
 --  LBIS.L["Hodir (Hard)"] = "Hodir";
   LBIS.L["Holy"] = "Sagrado";
@@ -299,7 +303,6 @@ if GetLocale() == "esES" then
 --  LBIS.L["Protector's Mark (H)"] = "";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
   LBIS.L["PvP"] = "JcJ";
-  LBIS.L["PvP Vendor"] = "Proveedor JcJ";
 --  LBIS.L["Quartermasters"] = "";
   LBIS.L["Quest"] = "Misión";
   LBIS.L["Quiver"] = "Carcaj";
@@ -431,8 +434,6 @@ if GetLocale() == "esES" then
   LBIS.L["Ulduar (25)"] = "Ulduar (25)";
   LBIS.L["Unavailable"] = "No disponible";
   LBIS.L["Unholy"] = "Profano";
---  LBIS.L["unknown"] = "";
-  LBIS.L["Unknown (Heroic+)"] = "Entidad desconocida (Heroico+)";
   LBIS.L["Utgarde Keep (Heroic)"] = "Fortaleza de Utgarde (Heroico)";
   LBIS.L["Utgarde Keep (Heroic+)"] = "Fortaleza de Utgarde (Heroico+)";
   LBIS.L["Utgarde Keep (Heroic++)"] = "Fortaleza de Utgarde (Heroico++)";

@@ -29,8 +29,8 @@ if GetLocale() == "zhTW" then
   LBIS.L["Arcane"] = "秘法";
   LBIS.L["Archavon the Stone Watcher"] = "『石之看守者』亞夏梵";
 --  LBIS.L["Archmage Alvareaux"] = "";
+--  LBIS.L["Area52 PvP Vendor"] = "";
   LBIS.L["Arena Points"] = "競技場點數";
---  LBIS.L["Arena Vendor"] = "";
   LBIS.L["Argent Confessor Paletress"] = "銀白告解者帕爾璀絲";
   LBIS.L["Argent Crusade"] = "銀白十字軍";
   LBIS.L["Argent Crusade (Revered)"] = "銀白十字軍 (崇敬)";
@@ -77,6 +77,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Cyanigosa"] = "霞妮苟莎";
 --  LBIS.L["Daily Fishing Quest"] = "";
   LBIS.L["Dalaran"] = "達拉然";
+--  LBIS.L["Dalaran PvP Vendor"] = "";
   LBIS.L["Dalronn the Controller"] = "『控制者』達隆恩";
   LBIS.L["Darkmoon Faire"] = "暗月馬戲團";
   LBIS.L["Darkmoon Nobles Deck"] = "暗月貴族套卡";
@@ -120,6 +121,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Exalted"] = "崇拜";
 --  LBIS.L["Eye of the Storm Marks"] = "";
   LBIS.L["Faction Champions"] = "陣營勇士";
+--  LBIS.L["Faction PVP Vendor"] = "";
 --  LBIS.L["Fedryen Swiftspear"] = "";
   LBIS.L["Feet"] = "腳";
   LBIS.L["Festergut"] = "膿腸";
@@ -165,6 +167,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Halls of Lightning (Heroic+)"] = "雷光大廳 (英雄+)";
   LBIS.L["Halls of Lightning (Heroic++)"] = "雷光大廳 (英雄++)";
   LBIS.L["Halls of Lightning (Normal)"] = "雷光大廳 (一般)";
+  LBIS.L["Halls of Reflection (Heroic)"] = "倒影大廳 (英雄模式)";
   LBIS.L["Halls of Stone"] = "石之大廳";
   LBIS.L["Halls of Stone (Heroic)"] = "石之大廳 (英雄)";
   LBIS.L["Halls of Stone (Heroic+)"] = "石之大廳 (英雄+)";
@@ -180,6 +183,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Heroic"] = "英雄模式";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "永恆之眼的英雄審判";
   LBIS.L["Heroic: All Is Well That Ends Well"] = "英雄:情況良好，完美收場";
+--  LBIS.L["Hide Obsolete Items"] = "";
   LBIS.L["Hodir"] = "霍迪爾";
 --  LBIS.L["Hodir (Hard)"] = "霍迪爾";
   LBIS.L["Holy"] = "神聖";
@@ -299,7 +303,6 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Protector's Mark (H)"] = "";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
   LBIS.L["PvP"] = "PvP";
---  LBIS.L["PvP Vendor"] = "";
 --  LBIS.L["Quartermasters"] = "";
   LBIS.L["Quest"] = "任務";
   LBIS.L["Quiver"] = "箭袋";
@@ -431,8 +434,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Ulduar (25)"] = "奧杜亞 (25)";
   LBIS.L["Unavailable"] = "不可用";
   LBIS.L["Unholy"] = "穢邪";
---  LBIS.L["unknown"] = "";
-  LBIS.L["Unknown (Heroic+)"] = "未知目標 (英雄+)";
   LBIS.L["Utgarde Keep (Heroic)"] = "俄特加德要塞 (英雄)";
   LBIS.L["Utgarde Keep (Heroic+)"] = "俄特加德要塞 (英雄+)";
   LBIS.L["Utgarde Keep (Heroic++)"] = "俄特加德要塞 (英雄++)";

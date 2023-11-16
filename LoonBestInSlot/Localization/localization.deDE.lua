@@ -29,8 +29,8 @@ if GetLocale() == "deDE" then
   LBIS.L["Arcane"] = "Arkan";
   LBIS.L["Archavon the Stone Watcher"] = "Archavon der Steinwächter";
   LBIS.L["Archmage Alvareaux"] = "Erzmagier Alvareaux";
+--  LBIS.L["Area52 PvP Vendor"] = "";
   LBIS.L["Arena Points"] = "Arena-Punkte";
-  LBIS.L["Arena Vendor"] = "Arena-Verkäufer";
   LBIS.L["Argent Confessor Paletress"] = "Argentumbeichtpatin Blondlocke";
   LBIS.L["Argent Crusade"] = "Argentumkreuzzug";
   LBIS.L["Argent Crusade (Revered)"] = "Argentumkreuzzug (Respektvoll)";
@@ -77,6 +77,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Cyanigosa"] = "Cyanigosa";
   LBIS.L["Daily Fishing Quest"] = "Tägliche Angelquest";
   LBIS.L["Dalaran"] = "Dalaran";
+--  LBIS.L["Dalaran PvP Vendor"] = "";
   LBIS.L["Dalronn the Controller"] = "Dalronn der Aufseher";
   LBIS.L["Darkmoon Faire"] = "Dunkelmond-Jahrmarkt";
   LBIS.L["Darkmoon Nobles Deck"] = "Adligenkartenset des Dunkelmond-Jahrmarkts";
@@ -120,6 +121,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Exalted"] = "Ehrfürchtig";
   LBIS.L["Eye of the Storm Marks"] = "Auge der Sturmzeichen";
   LBIS.L["Faction Champions"] = "Fraktionschampions";
+--  LBIS.L["Faction PVP Vendor"] = "";
   LBIS.L["Fedryen Swiftspear"] = "Fedryen Flinkspeer";
   LBIS.L["Feet"] = "Füße";
   LBIS.L["Festergut"] = "Fauldarm";
@@ -165,6 +167,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Halls of Lightning (Heroic+)"] = "Hallen der Blitze (Heroisch+)";
   LBIS.L["Halls of Lightning (Heroic++)"] = "Hallen der Blitze (Heroisch++)";
   LBIS.L["Halls of Lightning (Normal)"] = "Hallen der Blitze (Normal)";
+  LBIS.L["Halls of Reflection (Heroic)"] = "Hallen der Reflexion (Heroisch)";
   LBIS.L["Halls of Stone"] = "Die Hallen des Steins";
   LBIS.L["Halls of Stone (Heroic)"] = "Die Hallen des Steins (Heroisch)";
   LBIS.L["Halls of Stone (Heroic+)"] = "Die Hallen des Steins (Heroisch+)";
@@ -180,6 +183,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Heroic"] = "Heroisch";
   LBIS.L["Heroic Judgment at the Eye of Eternity"] = "Heroische Entscheidung im Auge der Ewigkeit";
   LBIS.L["Heroic: All Is Well That Ends Well"] = "Heroisch: Ende gut, alles gut";
+--  LBIS.L["Hide Obsolete Items"] = "";
   LBIS.L["Hodir"] = "Hodir";
   LBIS.L["Hodir (Hard)"] = "Hodir (Schwierig)";
   LBIS.L["Holy"] = "Heilig";
@@ -299,7 +303,6 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Protector's Mark (H)"] = " (H)";
 --  LBIS.L["Purkom (Venture Cove)"] = "";
   LBIS.L["PvP"] = "PvP";
-  LBIS.L["PvP Vendor"] = "PvP Händler";
 --  LBIS.L["Quartermasters"] = "";
   LBIS.L["Quest"] = "Quest";
   LBIS.L["Quiver"] = "Köcher";
@@ -431,8 +434,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Ulduar (25)"] = "Ulduar (25)";
   LBIS.L["Unavailable"] = "Nicht verfügbar";
   LBIS.L["Unholy"] = "Unheilig";
---  LBIS.L["unknown"] = "";
-  LBIS.L["Unknown (Heroic+)"] = "Unbekannt (Heroisch+)";
   LBIS.L["Utgarde Keep (Heroic)"] = "Burg Utgarde (Heroisch)";
   LBIS.L["Utgarde Keep (Heroic+)"] = "Burg Utgarde (Heroisch+)";
   LBIS.L["Utgarde Keep (Heroic++)"] = "Burg Utgarde (Heroisch++)";
