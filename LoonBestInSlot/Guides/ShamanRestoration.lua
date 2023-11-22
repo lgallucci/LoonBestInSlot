@@ -460,15 +460,17 @@ LBIS:AddItem(spec4, "40432", LBIS.L["Trinket"], "Alt", "99") --Illustration of t
 LBIS:AddItem(spec4, "46017", LBIS.L["Main Hand"], "BIS", "100") --Val'anyr, Hammer of Ancient Kings
 LBIS:AddItem(spec4, "50734", LBIS.L["Main Hand"], "BIS", "101") --Royal Scepter of Terenas II
 LBIS:AddItem(spec4, "50685", LBIS.L["Main Hand"], "Alt", "102") --Trauma
-LBIS:AddItem(spec4, "47483", LBIS.L["Main Hand"], "Alt", "103") --Suffering's End
-LBIS:AddItem(spec4, "47206", LBIS.L["Main Hand"], "Alt", "104") --Misery's End
-LBIS:AddItem(spec4, "45612", LBIS.L["Main Hand"], "Alt", "105") --Constellus
-LBIS:AddItem(spec4, "46035", LBIS.L["Main Hand"], "Alt", "106") --Aesuga, Hand of the Ardent Champion
-LBIS:AddItem(spec4, "50616", LBIS.L["Off Hand"], "BIS", "107") --Bulwark of Smouldering Steel
-LBIS:AddItem(spec4, "51812", LBIS.L["Off Hand"], "Alt", "108") --Lost Pavise of the Blue Flight
-LBIS:AddItem(spec4, "47085", LBIS.L["Off Hand"], "Alt", "109") --Bastion of Purity
-LBIS:AddItem(spec4, "47448", LBIS.L["Off Hand"], "Alt", "110") --Bastion of Resolve
-LBIS:AddItem(spec4, "45470", LBIS.L["Off Hand"], "Alt", "111") --Wisdom's Hold
-LBIS:AddItem(spec4, "45887", LBIS.L["Off Hand"], "Alt", "112") --Ice Layered Barrier
-LBIS:AddItem(spec4, "47665", LBIS.L["Ranged/Relic"], "BIS", "113") --Totem of Calming Tides
-LBIS:AddItem(spec4, "40709", LBIS.L["Ranged/Relic"], "Alt", "114") --Totem of Forest Growth
+LBIS:AddItem(spec4, "51875", LBIS.L["Main Hand"], "Alt", "103") --Lockjaw
+LBIS:AddItem(spec4, "51910", LBIS.L["Main Hand"], "Alt", "104") --Midnight Sun
+LBIS:AddItem(spec4, "47483", LBIS.L["Main Hand"], "Alt", "105") --Suffering's End
+LBIS:AddItem(spec4, "47206", LBIS.L["Main Hand"], "Alt", "106") --Misery's End
+LBIS:AddItem(spec4, "45612", LBIS.L["Main Hand"], "Alt", "107") --Constellus
+LBIS:AddItem(spec4, "46035", LBIS.L["Main Hand"], "Alt", "108") --Aesuga, Hand of the Ardent Champion
+LBIS:AddItem(spec4, "50616", LBIS.L["Off Hand"], "BIS", "109") --Bulwark of Smouldering Steel
+LBIS:AddItem(spec4, "51812", LBIS.L["Off Hand"], "Alt", "110") --Lost Pavise of the Blue Flight
+LBIS:AddItem(spec4, "47085", LBIS.L["Off Hand"], "Alt", "111") --Bastion of Purity
+LBIS:AddItem(spec4, "47448", LBIS.L["Off Hand"], "Alt", "112") --Bastion of Resolve
+LBIS:AddItem(spec4, "45470", LBIS.L["Off Hand"], "Alt", "113") --Wisdom's Hold
+LBIS:AddItem(spec4, "45887", LBIS.L["Off Hand"], "Alt", "114") --Ice Layered Barrier
+LBIS:AddItem(spec4, "47665", LBIS.L["Ranged/Relic"], "BIS", "115") --Totem of Calming Tides
+LBIS:AddItem(spec4, "40709", LBIS.L["Ranged/Relic"], "Alt", "116") --Totem of Forest Growth

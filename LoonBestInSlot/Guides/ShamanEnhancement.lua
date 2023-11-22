@@ -448,27 +448,26 @@ LBIS:AddItem(spec4, "45456", LBIS.L["Ring"], "Alt", "86") --Loop of the Agile
 LBIS:AddItem(spec4, "50363", LBIS.L["Trinket"], "BIS", "87") --Deathbringer's Will
 LBIS:AddItem(spec4, "50343", LBIS.L["Trinket"], "BIS", "88") --Whispering Fanged Skull
 LBIS:AddItem(spec4, "50365", LBIS.L["Trinket"], "BIS", "89") --Phylactery of the Nameless Lich
-LBIS:AddItem(spec4, "50357", LBIS.L["Trinket"], "BIS", "90") --Maghia's Misguided Quill
-LBIS:AddItem(spec4, "50355", LBIS.L["Trinket"], "Alt", "91") --Herkuml War Token
-LBIS:AddItem(spec4, "47188", LBIS.L["Trinket"], "Alt", "92") --Reign of the Unliving
-LBIS:AddItem(spec4, "47477", LBIS.L["Trinket"], "Alt", "93") --Reign of the Dead
-LBIS:AddItem(spec4, "45609", LBIS.L["Trinket"], "Alt", "94") --Comet's Trail
-LBIS:AddItem(spec4, "47182", LBIS.L["Trinket"], "Alt", "95") --Reign of the Unliving
-LBIS:AddItem(spec4, "47316", LBIS.L["Trinket"], "Alt", "96") --Reign of the Dead
-LBIS:AddItem(spec4, "46038", LBIS.L["Trinket"], "Alt", "97") --Dark Matter
-LBIS:AddItem(spec4, "50734", LBIS.L["Main Hand"], "BIS", "98") --Royal Scepter of Terenas II
-LBIS:AddItem(spec4, "50737", LBIS.L["Main Hand"], "BIS", "99") --Havoc's Call, Blade of Lordaeron Kings
-LBIS:AddItem(spec4, "51939", LBIS.L["Main Hand"], "Alt", "100") --Tel'thas, Dagger of the Blood King
-LBIS:AddItem(spec4, "50692", LBIS.L["Main Hand"], "Alt", "101") --Black Bruise
-LBIS:AddItem(spec4, "51941", LBIS.L["Main Hand"], "Alt", "102") --Pugius, Fist of Defiance
-LBIS:AddItem(spec4, "47206", LBIS.L["Main Hand"], "Alt", "103") --Misery's End
-LBIS:AddItem(spec4, "47483", LBIS.L["Main Hand"], "Alt", "104") --Suffering's End
-LBIS:AddItem(spec4, "46980", LBIS.L["Main Hand"], "Alt", "105") --Blade of Tarasque
-LBIS:AddItem(spec4, "47422", LBIS.L["Main Hand"], "Alt", "106") --Barb of Tarasque
-LBIS:AddItem(spec4, "46035", LBIS.L["Main Hand"], "Alt", "107") --Aesuga, Hand of the Ardent Champion
-LBIS:AddItem(spec4, "50710", LBIS.L["Off Hand"], "Alt", "108") --Keleseth's Seducer
-LBIS:AddItem(spec4, "47156", LBIS.L["Off Hand"], "Alt", "109") --Stormpike Cleaver
-LBIS:AddItem(spec4, "47475", LBIS.L["Off Hand"], "Alt", "110") --Hellscream Slicer
-LBIS:AddItem(spec4, "46097", LBIS.L["Off Hand"], "Alt", "111") --Caress of Insanity
-LBIS:AddItem(spec4, "50458", LBIS.L["Ranged/Relic"], "BIS", "112") --Bizuri's Totem of Shattered Ice
-LBIS:AddItem(spec4, "47666", LBIS.L["Ranged/Relic"], "Alt", "113") --Totem of Electrifying Wind
+LBIS:AddItem(spec4, "50355", LBIS.L["Trinket"], "Alt", "90") --Herkuml War Token
+LBIS:AddItem(spec4, "47188", LBIS.L["Trinket"], "Alt", "91") --Reign of the Unliving
+LBIS:AddItem(spec4, "47477", LBIS.L["Trinket"], "Alt", "92") --Reign of the Dead
+LBIS:AddItem(spec4, "45609", LBIS.L["Trinket"], "Alt", "93") --Comet's Trail
+LBIS:AddItem(spec4, "47182", LBIS.L["Trinket"], "Alt", "94") --Reign of the Unliving
+LBIS:AddItem(spec4, "47316", LBIS.L["Trinket"], "Alt", "95") --Reign of the Dead
+LBIS:AddItem(spec4, "46038", LBIS.L["Trinket"], "Alt", "96") --Dark Matter
+LBIS:AddItem(spec4, "50734", LBIS.L["Main Hand"], "BIS", "97") --Royal Scepter of Terenas II
+LBIS:AddItem(spec4, "50737", LBIS.L["Main Hand"], "BIS", "98") --Havoc's Call, Blade of Lordaeron Kings
+LBIS:AddItem(spec4, "51939", LBIS.L["Main Hand"], "Alt", "99") --Tel'thas, Dagger of the Blood King
+LBIS:AddItem(spec4, "50692", LBIS.L["Main Hand"], "Alt", "100") --Black Bruise
+LBIS:AddItem(spec4, "51941", LBIS.L["Main Hand"], "Alt", "101") --Pugius, Fist of Defiance
+LBIS:AddItem(spec4, "47206", LBIS.L["Main Hand"], "Alt", "102") --Misery's End
+LBIS:AddItem(spec4, "47483", LBIS.L["Main Hand"], "Alt", "103") --Suffering's End
+LBIS:AddItem(spec4, "46980", LBIS.L["Main Hand"], "Alt", "104") --Blade of Tarasque
+LBIS:AddItem(spec4, "47422", LBIS.L["Main Hand"], "Alt", "105") --Barb of Tarasque
+LBIS:AddItem(spec4, "46035", LBIS.L["Main Hand"], "Alt", "106") --Aesuga, Hand of the Ardent Champion
+LBIS:AddItem(spec4, "50710", LBIS.L["Off Hand"], "Alt", "107") --Keleseth's Seducer
+LBIS:AddItem(spec4, "47156", LBIS.L["Off Hand"], "Alt", "108") --Stormpike Cleaver
+LBIS:AddItem(spec4, "47475", LBIS.L["Off Hand"], "Alt", "109") --Hellscream Slicer
+LBIS:AddItem(spec4, "46097", LBIS.L["Off Hand"], "Alt", "110") --Caress of Insanity
+LBIS:AddItem(spec4, "50458", LBIS.L["Ranged/Relic"], "BIS", "111") --Bizuri's Totem of Shattered Ice
+LBIS:AddItem(spec4, "47666", LBIS.L["Ranged/Relic"], "Alt", "112") --Totem of Electrifying Wind
