@@ -402,7 +402,8 @@
       "Hallow's End": "Halloween",
       "Icecrown Citadel (10H)": "Ciudadela de la Corona de Hielo (10H)",
       "Icecrown Citadel (25H)": "Ciudadela de la Corona de Hielo (25H)",
-      "Icecrown Gunship Battle": "Batalla aérea "
+      "Icecrown Gunship Battle": "Batalla aérea ",
+      "Halls of Reflection (Heroic)": "Cámaras de Reflexión (Heroico)"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -780,7 +781,8 @@
       "Icecrown Citadel (25H)": "Ciudadela de la Corona de Hielo (25H)",
       "Brewfest": "Fiesta de la Cerveza",
       "Hallow's End": "Halloween",
-      "Icecrown Gunship Battle": "Batalla de las Aeronaves de Corona de Hielo"
+      "Icecrown Gunship Battle": "Batalla de las Aeronaves de Corona de Hielo",
+      "Halls of Reflection (Heroic)": "Cámaras de Reflexión (Heroico)"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -1234,7 +1236,8 @@
       "Tirion's Gambit": "Tirions Schachzug",
       "The Cleansing Of Jintha'kalar": "Die Säuberung von Jintha'kalar",
       "Hallow's End": "Schlotternächte",
-      "Icecrown Gunship Battle": "Luftschiffkampf um die Eiskronenzitadelle"
+      "Icecrown Gunship Battle": "Luftschiffkampf um die Eiskronenzitadelle",
+      "Halls of Reflection (Heroic)": "Hallen der Reflexion (Heroisch)"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -1622,7 +1625,8 @@
       "Sidereal Essence": "Essence sidérale",
       "Token": "Marque d’ensemble",
       "Argent Crusade Tribute Chest": "Coffre d'offrande de la Croisade d'argent",
-      "Icecrown Gunship Battle": "Bataille des canonnières"
+      "Icecrown Gunship Battle": "Bataille des canonnières",
+      "Halls of Reflection (Heroic)": "Salles des Reflets (Héroïque)"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -2006,7 +2010,8 @@
       "Hallow's End": "Тыквовин",
       "Token": "Фрагмент",
       "Argent Crusade Tribute Chest": "Испытания Крестоносца поход за сундуком",
-      "Icecrown Gunship Battle": "Бой на кораблях"
+      "Icecrown Gunship Battle": "Бой на кораблях",
+      "Halls of Reflection (Heroic)": "Залы Отражений (Героический)"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -2390,7 +2395,8 @@
       "Hallow's End": "万圣节",
       "Token": "代币",
       "Argent Crusade Tribute Chest": "银色北伐军嘉奖宝箱",
-      "Icecrown Gunship Battle": "冰冠炮舰战斗"
+      "Icecrown Gunship Battle": "冰冠炮舰战斗",
+      "Halls of Reflection (Heroic)": "映像大厅 (英雄)"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -2868,7 +2874,8 @@
       "Emblem of Frost": "서리의 문장",
       "Emblem of Triumph": "승전의 문장",
       "Argent Crusade Tribute Chest": "십자군의 시험장 공물",
-      "Icecrown Gunship Battle": "얼음왕관 비행포격선 전투"
+      "Icecrown Gunship Battle": "얼음왕관 비행포격선 전투",
+      "Halls of Reflection (Heroic)": "투영의 전당 (영웅)"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -3251,7 +3258,8 @@
       "Hallow's End": "萬鬼節",
       "Token": "代幣",
       "Argent Crusade Tribute Chest": "銀白十字軍獻禮箱",
-      "Icecrown Gunship Battle": "冰冠城塞砲艇戰"
+      "Icecrown Gunship Battle": "冰冠城塞砲艇戰",
+      "Halls of Reflection (Heroic)": "倒影大廳 (英雄模式)"
     }
   }
 }

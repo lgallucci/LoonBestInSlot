@@ -106,6 +106,7 @@ LBIS.GemSources =
     [42144] = { Name = "Runed Dragon's Eye", DesignId = "42309", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
     [42148] = { Name = "Brilliant Dragon's Eye", DesignId = "42300", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
     [42150] = { Name = "Quick Dragon's Eye", DesignId = "42307", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
+    [42153] = { Name = "Fractured Dragon's Eye", DesignId = "42303", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
     [42156] = { Name = "Rigid Dragon's Eye", DesignId = "42308", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
     [42157] = { Name = "Thick Dragon's Eye", DesignId = "42315", Source = LBIS.L["Tiffany Cartier"], SourceLocation = LBIS.L["Dalaran"] },
     [42702] = { Name = "Enchanted Tear", DesignId = "0", Source = LBIS.L["Master Jewelcrafting Trainer"], SourceLocation = "" },

@@ -8,6 +8,8 @@ local spec5 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marksmanship"], "5")
 LBIS:AddGem(spec1, "41398", "3", "True") --Relentless Earthsiege Diamond
 LBIS:AddGem(spec1, "42143", "4", "False") --Delicate Dragon's Eye
 LBIS:AddGem(spec3, "40112", "4", "False") --Delicate Cardinal Ruby
+LBIS:AddGem(spec1, "42153", "4", "False") --Fractured Dragon's Eye
+LBIS:AddGem(spec1, "40117", "4", "False") --Fractured Cardinal Ruby
 LBIS:AddGem(spec3, "40125", "4", "False") --Rigid King's Amber
 LBIS:AddGem(spec1, "40147", "4", "False") --Deadly Ametrine
 LBIS:AddGem(spec3, "40148", "4", "False") --Glinting Ametrine
