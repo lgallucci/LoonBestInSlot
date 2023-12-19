@@ -55,7 +55,7 @@ public class DungeonImporter : LootImporter
 
     private void LoopThroughBosses(IElement bossesElement, Action<string, IElement> eachBossFunction)
     {
-        //find next boss until done        
+        //find next boss until done
         IElement element = bossesElement;
         while(element != null && element.Id != "quests")
         {
@@ -63,7 +63,7 @@ public class DungeonImporter : LootImporter
             {
                 eachBossFunction(element.TextContent, element);
             }
-            element = element.NextSibling as IElement;
+            element = element.NextElementSibling;
         }
     }
 
@@ -80,7 +80,7 @@ public class DungeonImporter : LootImporter
 
             if (element.TextContent == "Loot")
             {
-                foreach(var lootElement in element.NextSibling.ChildNodes)
+                foreach(var lootElement in element.NextElementSibling.ChildNodes)
                 {
                     var anchor = RecursivelyFindFirstAnchor(lootElement as IElement);
 

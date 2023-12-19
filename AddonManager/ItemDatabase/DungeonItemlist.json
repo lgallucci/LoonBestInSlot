@@ -1,5 +1,540 @@
 {
   "Items": {
-    
+    "1156": {
+      "Name": "Lavishly Jeweled Ring",
+      "Source": "Gilnid",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "1292": {
+      "Name": "Butcher's Cleaver",
+      "Source": "Razorclaw the Butcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "1937": {
+      "Name": "Buzz Saw",
+      "Source": "Sneed's Shredder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "2169": {
+      "Name": "Buzzer Blade",
+      "Source": "Sneed's Shredder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "2589": {
+      "Name": "Linen Cloth",
+      "Source": "Oggleflint & Bazzalan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ragefire Chasm",
+      "SourceFaction": "B"
+    },
+    "2874": {
+      "Name": "An Unsent Letter",
+      "Source": "Edwin Van Cleef",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "3191": {
+      "Name": "Arced War Axe",
+      "Source": "Commander Springvale",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "3230": {
+      "Name": "Black Wolf Bracers",
+      "Source": "Fenrus the Devourer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "3748": {
+      "Name": "Feline Mantle",
+      "Source": "Wolf Master Nandos",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "5187": {
+      "Name": "Rhahk'Zor's Hammer",
+      "Source": "Rhahk'zor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "5191": {
+      "Name": "Cruel Barb",
+      "Source": "Edwin Van Cleef",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "5192": {
+      "Name": "Thief's Blade",
+      "Source": "Mr. Smite",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "5193": {
+      "Name": "Cape of the Brotherhood",
+      "Source": "Edwin Van Cleef",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "5194": {
+      "Name": "Taskmaster Axe",
+      "Source": "Sneed's Shredder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "5195": {
+      "Name": "Gold-flecked Gloves",
+      "Source": "Sneed's Shredder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "5196": {
+      "Name": "Smite's Reaver",
+      "Source": "Mr. Smite",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "5197": {
+      "Name": "Cookie's Tenderizer",
+      "Source": "Cookie (Bonus Boss)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "5198": {
+      "Name": "Cookie's Stirring Rod",
+      "Source": "Cookie (Bonus Boss)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "5199": {
+      "Name": "Smelting Pants",
+      "Source": "Gilnid",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "5200": {
+      "Name": "Impaling Harpoon",
+      "Source": "Captain Greenskin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "5201": {
+      "Name": "Emberstone Staff",
+      "Source": "Captain Greenskin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "5202": {
+      "Name": "Corsair's Overshirt",
+      "Source": "Edwin Van Cleef",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "5243": {
+      "Name": "Firebelcher",
+      "Source": "Deviate Faerie Dragon (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "5254": {
+      "Name": "Rugged Spaulders",
+      "Source": "Rethilgore",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "5970": {
+      "Name": "Serpent Gloves",
+      "Source": "Lord Serpentis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6220": {
+      "Name": "Meteor Shard",
+      "Source": "Archmage Arugal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "6226": {
+      "Name": "Bloody Apron",
+      "Source": "Razorclaw the Butcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "6314": {
+      "Name": "Wolfmaster Cape",
+      "Source": "Wolf Master Nandos",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "6318": {
+      "Name": "Odo's Ley Staff",
+      "Source": "Odo the Blindwatcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "6319": {
+      "Name": "Girdle of the Blindwatcher",
+      "Source": "Odo the Blindwatcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "6320": {
+      "Name": "Commander's Crest",
+      "Source": "Commander Springvale",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "6321": {
+      "Name": "Silverlaine's Family Seal",
+      "Source": "Baron Silverlaine",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "6323": {
+      "Name": "Baron's Scepter",
+      "Source": "Baron Silverlaine",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "6324": {
+      "Name": "Robes of Arugal",
+      "Source": "Archmage Arugal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "6340": {
+      "Name": "Fenrus' Hide",
+      "Source": "Fenrus the Devourer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "6392": {
+      "Name": "Belt of Arugal",
+      "Source": "Archmage Arugal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "6447": {
+      "Name": "Worn Turtle Shell Shield",
+      "Source": "Kresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6448": {
+      "Name": "Tail Spike",
+      "Source": "Skum",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6449": {
+      "Name": "Glowing Lizardscale Cloak",
+      "Source": "Skum",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6459": {
+      "Name": "Savage Trodders",
+      "Source": "Lord Serpentis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6460": {
+      "Name": "Cobrahn's Grasp",
+      "Source": "Lord Cobrahn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6461": {
+      "Name": "Slime-encrusted Pads",
+      "Source": "The Naralex Event (Mutanus the Devourer)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6463": {
+      "Name": "Deep Fathom Ring",
+      "Source": "The Naralex Event (Mutanus the Devourer)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6465": {
+      "Name": "Robe of the Moccasin",
+      "Source": "Lord Cobrahn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6469": {
+      "Name": "Venomstrike",
+      "Source": "Lord Serpentis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6472": {
+      "Name": "Stinging Viper",
+      "Source": "Lord Pythas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6473": {
+      "Name": "Armor of the Fang",
+      "Source": "Lord Pythas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6627": {
+      "Name": "Mutant Scale Breastplate",
+      "Source": "The Naralex Event (Mutanus the Devourer)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6629": {
+      "Name": "Sporid Cape",
+      "Source": "Verdan the Everliving",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6630": {
+      "Name": "Seedcloud Buckler",
+      "Source": "Verdan the Everliving",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6631": {
+      "Name": "Living Root",
+      "Source": "Verdan the Everliving",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6632": {
+      "Name": "Feyscale Cloak",
+      "Source": "Deviate Faerie Dragon (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "6633": {
+      "Name": "Butcher's Slicer",
+      "Source": "Razorclaw the Butcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "6641": {
+      "Name": "Haunting Blade",
+      "Source": "Deathsworn Captain (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "6642": {
+      "Name": "Phantom Armor",
+      "Source": "Deathsworn Captain (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "7230": {
+      "Name": "Smite's Mighty Hammer",
+      "Source": "Mr. Smite",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "10399": {
+      "Name": "Blackened Defias Armor",
+      "Source": "Edwin Van Cleef",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "10403": {
+      "Name": "Blackened Defias Belt",
+      "Source": "Captain Greenskin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "10410": {
+      "Name": "Leggings of the Fang",
+      "Source": "Lord Cobrahn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "10411": {
+      "Name": "Footpads of the Fang",
+      "Source": "Lord Serpentis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "13245": {
+      "Name": "Kresh's Back",
+      "Source": "Kresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "14145": {
+      "Name": "Cursed Felblade",
+      "Source": "Taragaman the Hungerer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ragefire Chasm",
+      "SourceFaction": "B"
+    },
+    "14147": {
+      "Name": "Cavedweller Bracers",
+      "Source": "Jergosh the Invoker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ragefire Chasm",
+      "SourceFaction": "B"
+    },
+    "14148": {
+      "Name": "Crystalline Cuffs",
+      "Source": "Taragaman the Hungerer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ragefire Chasm",
+      "SourceFaction": "B"
+    },
+    "14149": {
+      "Name": "Subterranean Cape",
+      "Source": "Taragaman the Hungerer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ragefire Chasm",
+      "SourceFaction": "B"
+    },
+    "14150": {
+      "Name": "Robe of Evocation",
+      "Source": "Jergosh the Invoker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ragefire Chasm",
+      "SourceFaction": "B"
+    },
+    "14151": {
+      "Name": "Chanting Blade",
+      "Source": "Jergosh the Invoker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ragefire Chasm",
+      "SourceFaction": "B"
+    }
   }
 }
