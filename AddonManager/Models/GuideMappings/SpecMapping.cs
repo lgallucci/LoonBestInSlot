@@ -28,21 +28,16 @@ internal abstract class SpecMapping
 
     public List<ClassGuideMapping> ToList()
     {
-        var list = new List<ClassGuideMapping>();
-
-        list.Add(new ClassGuideMapping(UrlBase + GemsUrl, Spec, Class, "GemsEnchants", Gems));
-
-        list.Add(new ClassGuideMapping(UrlBase + Phase0Url, Spec, Class, "Phase0", Phase0));
-
-        list.Add(new ClassGuideMapping(UrlBase + Phase1Url, Spec, Class, "Phase1", Phase1));
-
-        list.Add(new ClassGuideMapping(UrlBase + Phase2Url, Spec, Class, "Phase2", Phase2));
-
-        list.Add(new ClassGuideMapping(UrlBase + Phase3Url, Spec, Class, "Phase3", Phase3));
-
-        list.Add(new ClassGuideMapping(UrlBase + Phase4Url, Spec, Class, "Phase4", Phase4));
-
-        //list.Add(new ClassGuideMapping(UrlBase + Phase5Url, Spec, Class, "Phase5", Phase5));
+        var list = new List<ClassGuideMapping>
+        {
+            // new ClassGuideMapping(UrlBase + GemsUrl, Spec, Class, "GemsEnchants", Gems),
+            // new ClassGuideMapping(UrlBase + Phase0Url, Spec, Class, "Phase0", Phase0),
+            new ClassGuideMapping(UrlBase + Phase1Url, Spec, Class, "Phase1", Phase1),
+            // new ClassGuideMapping(UrlBase + Phase2Url, Spec, Class, "Phase2", Phase2),
+            // new ClassGuideMapping(UrlBase + Phase3Url, Spec, Class, "Phase3", Phase3),
+            // new ClassGuideMapping(UrlBase + Phase4Url, Spec, Class, "Phase4", Phase4),
+            // new ClassGuideMapping(UrlBase + Phase5Url, Spec, Class, "Phase5", Phase5)
+        };
 
         return list;
     }

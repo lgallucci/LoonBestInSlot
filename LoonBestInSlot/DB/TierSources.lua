@@ -1,4 +1,4 @@
 LBIS.TierSources =
 {
-   
+    [0] = {  },   
 }

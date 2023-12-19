@@ -315,24 +315,6 @@ public static class WowheadImporter
     {
         var itemSources = ItemSourceFileManager.ReadItemSources();
         var csvLootTable = new Dictionary<int, CsvLootTable>();
-        var oldSources = ItemSourceFileManager.ReadTBCItemSources();
-
-        foreach (var oldSource in oldSources)
-        {
-            csvLootTable.Add(oldSource.Key, new CsvLootTable
-            {
-                ItemId = oldSource.Key,
-                Name = "",
-                IsLegacy = true,
-                ItemSource = { new ImportItemSource
-                {
-                    SourceType = oldSource.Value.SourceType,
-                    Source = oldSource.Value.Source,
-                    SourceNumber = oldSource.Value.SourceNumber,
-                    SourceLocation = oldSource.Value.SourceLocation,
-                } }
-            });
-        }
 
         GetItems(csvLootTable, "DungeonItemList");
         GetItems(csvLootTable, "RaidItemList");

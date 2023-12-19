@@ -86,36 +86,30 @@ public class ClassSpecGuideMappings
     {
         GuideMappings = new List<ClassGuideMapping>();
 
-        GuideMappings.AddRange(new DeathKnightBloodMapping().ToList());
-        GuideMappings.AddRange(new DeathKnightFrostMapping().ToList());
-        GuideMappings.AddRange(new DeathKnightUnholyMapping().ToList());
-        GuideMappings.AddRange(new DruidBalanceMapping().ToList());
-        GuideMappings.AddRange(new DruidCatMapping().ToList());
-        GuideMappings.AddRange(new DruidBearMapping().ToList());
-        GuideMappings.AddRange(new DruidRestoMapping().ToList());
-        GuideMappings.AddRange(new HunterBeastMasteryMapping().ToList());
-        GuideMappings.AddRange(new HunterMarksmanshipMapping().ToList());
-        GuideMappings.AddRange(new HunterSurvivalMapping().ToList());
-        GuideMappings.AddRange(new MageArcaneMapping().ToList());
-        GuideMappings.AddRange(new MageFireMapping().ToList());
-        GuideMappings.AddRange(new MageFrostMapping().ToList());
-        GuideMappings.AddRange(new PaladinHolyMapping().ToList());
-        GuideMappings.AddRange(new PaladinProtectionMapping().ToList());
-        GuideMappings.AddRange(new PaladinRetributionMapping().ToList());
-        GuideMappings.AddRange(new PriestDisciplineMapping().ToList());
-        GuideMappings.AddRange(new PriestHolyMapping().ToList());
-        GuideMappings.AddRange(new PriestShadowMapping().ToList());
-        GuideMappings.AddRange(new RogueAssassinationMapping().ToList());
-        GuideMappings.AddRange(new RogueCombatMapping().ToList());
-        GuideMappings.AddRange(new RogueSubtletyMapping().ToList());
-        GuideMappings.AddRange(new ShamanElementalMapping().ToList());
-        GuideMappings.AddRange(new ShamanEnhancementMapping().ToList());
-        GuideMappings.AddRange(new ShamanRestorationMapping().ToList());
-        GuideMappings.AddRange(new WarlockAfflictionMapping().ToList());
-        GuideMappings.AddRange(new WarlockDemonologyMapping().ToList());
-        GuideMappings.AddRange(new WarlockDestructionMapping().ToList());
-        GuideMappings.AddRange(new WarriorArmsMapping().ToList());
-        GuideMappings.AddRange(new WarriorFuryMapping().ToList());
-        GuideMappings.AddRange(new WarriorProtectionMapping().ToList());
+        GuideMappings.AddRange(new DruidBalanceDpsMapping().ToList());
+        GuideMappings.AddRange(new DruidFeralDpsMapping().ToList());
+        GuideMappings.AddRange(new HunterDpsMapping().ToList());
+        GuideMappings.AddRange(new MageDpsMapping().ToList());
+        GuideMappings.AddRange(new PaladinDpsMapping().ToList());
+        GuideMappings.AddRange(new PriestDpsMapping().ToList());
+        GuideMappings.AddRange(new RogueDpsMapping().ToList());
+        GuideMappings.AddRange(new ShamanElementalDpsMapping().ToList());
+        GuideMappings.AddRange(new ShamanEnhancementDpsMapping().ToList());
+        GuideMappings.AddRange(new WarlockDpsMapping().ToList());
+        GuideMappings.AddRange(new WarriorDpsMapping().ToList());
+        
+        GuideMappings.AddRange(new DruidHealerMapping().ToList());
+        GuideMappings.AddRange(new MageHealerMapping().ToList());
+        GuideMappings.AddRange(new PaladinHealerMapping().ToList());
+        GuideMappings.AddRange(new PriestHealerMapping().ToList());
+        GuideMappings.AddRange(new ShamanHealerMapping().ToList());
+        
+        GuideMappings.AddRange(new DruidTankMapping().ToList());
+        GuideMappings.AddRange(new PaladinTankMapping().ToList());
+        GuideMappings.AddRange(new RogueTankMapping().ToList());
+        GuideMappings.AddRange(new ShamanTankMapping().ToList());
+        GuideMappings.AddRange(new WarlockTankMapping().ToList());
+        GuideMappings.AddRange(new WarriorTankMapping().ToList());
     }
 }
+

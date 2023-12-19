@@ -183,21 +183,6 @@ public sealed partial class GuideImporter : Page
         }
         ItemSourceFileManager.WriteTierSources(tierSources);
 
-        foreach (var converted in ItemSourceFileManager.ReadTBCItemSources())
-        {
-            if (!dbItems.Items.ContainsKey(converted.Key))
-            {
-                dbItems.Items.Add(converted.Key, new DatabaseItem()
-                {
-                    Name = converted.Value.Name,
-                    Source = converted.Value.Source,
-                    SourceType = converted.Value.SourceType,
-                    SourceNumber = converted.Value.SourceNumber,
-                    SourceLocation = converted.Value.SourceLocation
-                });
-            }
-        }
-
         var itemSources = ItemSourceFileManager.ReadItemSources();
 
         foreach (var db in dbItems.Items)

@@ -58,6 +58,12 @@ public static class ItemSpecFileManager
         var enchants = new Dictionary<string, EnchantSpec>();
         var items = new Dictionary<int, List<ItemSpec>>();
 
+        if (!System.IO.File.Exists(path))
+            return new Tuple<Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>>(
+                new Dictionary<int, GemSpec>(), 
+                new Dictionary<string, EnchantSpec>(), 
+                new Dictionary<int, List<ItemSpec>>()); 
+
         string[] itemSpecLines = System.IO.File.ReadAllLines(path);
 
         foreach (var itemSpecLine in itemSpecLines)
