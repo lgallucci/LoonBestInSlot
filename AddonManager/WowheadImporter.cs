@@ -4,6 +4,9 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Security;
 using System.Linq;
+using AngleSharp.Html.Parser;
+using AngleSharp.Html.Dom;
+using AngleSharp.Dom;
 
 namespace AddonManager;
 public static class WowheadImporter
@@ -371,45 +374,71 @@ public static class WowheadImporter
         ItemSourceFileManager.WriteItemSources(itemSources);
     }
 
-    public static async Task UpdateItemsFromWowhead()
+    public static async Task UpdateItemsFromWowhead(CancellationToken cancelToken, Action<string> writeToLog)
     {
         var itemSources = ItemSourceFileManager.ReadItemSources();
 
         var sources = new Dictionary<int, List<(string, string)>>();
-        await Common.ReadWowheadDroppedByList(itemSources.Where((i) => i.Value.SourceType == @"LBIS[""unknown""]")
-                                           .Select((itemId, _) => $"https://www.wowhead.com/classic/item={itemId}/"),
-                (webAddress, row, itemId, item) =>
-                {
-                    if (sources.ContainsKey(itemId))
-                    {
-                        sources[itemId].Add((item.TextContent.Trim(), row.Children[2].TextContent.Trim()));
-                    }
-                    else 
-                    {
-                        sources.Add(itemId, new List<(string, string)> {
-                            (item.TextContent.Trim(), row.Children[2].TextContent.Trim())
-                        });
-                    }
-                },
-                (log) => {});
 
-        foreach(var source in sources)
+        var webAddresses = itemSources.Where((i) => i.Value.SourceType == @"LBIS.L[""unknown""]")
+                                           .Select((i) => $"https://www.wowhead.com/classic/item={i.Key}/");
+
+        var total = webAddresses.Count();
+        var count = 0;
+        await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
         {
-            if (source.Value.Count > 20)
+            writeToLog($"Reading from: {uri} {++count}/{total}");
+            var parser = new HtmlParser();
+            var doc = default(IHtmlDocument);
+            doc = await parser.ParseDocumentAsync(content);
+
+            var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/classic/item=", "").TrimEnd('/'));
+                var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
+            if (rowElements != null && rowElements.Length > 0)
             {
-                itemSources[source.Key].SourceType = AddLocalizeText("Drop");
-                itemSources[source.Key].Source = AddLocalizeText("World Drop");
-                itemSources[source.Key].SourceNumber = "0";
-                itemSources[source.Key].SourceLocation = string.Empty;
+                if (rowElements.Length > 20)
+                {
+                    itemSources[itemId].SourceType = AddLocalizeText("Drop");
+                    itemSources[itemId].Source = AddLocalizeText("World Drop");
+                    itemSources[itemId].SourceNumber = "0";
+                    itemSources[itemId].SourceLocation = string.Empty;
+                }
+                else if (rowElements.Length == 1)
+                {
+                    var location = rowElements[0].Children[2].TextContent.Trim();
+                    if (location == "Blackfathom Deeps")
+                        location = "Blackfathom Deeps (dungeon)";
+
+                    itemSources[itemId].SourceType = AddLocalizeText("Drop");
+                    itemSources[itemId].Source = AddLocalizeText(rowElements[0].Children[0].TextContent.Trim());
+                    itemSources[itemId].SourceNumber = "0";
+                    itemSources[itemId].SourceLocation = AddLocalizeText(location);
+                }
             } 
-            else if (source.Value.Count == 1)
-            {
-                itemSources[source.Key].SourceType = AddLocalizeText("Drop");
-                itemSources[source.Key].Source = source.Value[0].Item1;
-                itemSources[source.Key].SourceNumber = "0";
-                itemSources[source.Key].SourceLocation = source.Value[0].Item2;
+            else 
+            {                
+                rowElements = doc.QuerySelectorAll("#tab-reward-from-q .listview-mode-default .listview-row");
+                if (rowElements != null && rowElements.Length > 0)
+                {
+                    if (rowElements.Count() == 1)
+                    {
+                        var faction = "B";
+                        if (rowElements[0].Children[3].HasChildNodes && 
+                            rowElements[0].Children[3].Children[0].ClassName == "icon-alliance")
+                            faction = "A";
+                        else if (rowElements[0].Children[3].HasChildNodes && 
+                                 rowElements[0].Children[3].Children[0].ClassName == "icon-horde")
+                            faction = "H";
+
+                        itemSources[itemId].SourceType = AddLocalizeText("Quest");
+                        itemSources[itemId].Source = AddLocalizeText(rowElements[0].Children[0].TextContent.Trim());
+                        itemSources[itemId].SourceNumber = "0";
+                        itemSources[itemId].SourceLocation = AddLocalizeText(rowElements[0].Children[7].TextContent.Trim());
+                        itemSources[itemId].SourceFaction = faction;
+                    }
+                } 
             }
-        }
+        }, cancelToken);
         
         ItemSourceFileManager.WriteItemSources(itemSources);
     }    
