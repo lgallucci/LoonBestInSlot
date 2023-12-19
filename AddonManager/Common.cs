@@ -100,6 +100,21 @@ public static class Common
         });
     }
 
+    internal static async Task ReadWowheadDroppedByList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
+    {
+        var total = webAddresses.Count();
+        var count = 0;
+        await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
+        {
+            writeToLog($"Reading from: {uri} {++count}/{total}");
+            var parser = new HtmlParser();
+            var doc = default(IHtmlDocument);
+            doc = await parser.ParseDocumentAsync(content);
+
+            ReadWowheadDroppedByList(doc, uri, func);
+        });
+    }
+
     internal static async Task ReadEvoWowSellsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
         var total = webAddresses.Count();
@@ -147,6 +162,13 @@ public static class Common
     internal static void ReadWowheadDropsList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
     {
         var rowElements = doc.QuerySelectorAll("#tab-drops .listview-mode-default .listview-row");
+
+        ReadWowheadItemsList(doc, uri, rowElements, func);
+    }
+
+    internal static void ReadWowheadDroppedByList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
+    {
+        var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
 
         ReadWowheadItemsList(doc, uri, rowElements, func);
     }

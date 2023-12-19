@@ -142,11 +142,11 @@ public sealed partial class GuideImporter : Page
         this.Frame.Navigate(typeof(ItemImporter), null, new DrillInNavigationTransitionInfo());
     }
 
-    private void Refresh_Click(object sender, RoutedEventArgs e)
+    private async void Refresh_Click(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = "Refreshing Items...";
 
-        WowheadImporter.RefreshItems();
+        await WowheadImporter.UpdateItemsFromWowhead();
 
         ConsoleOut.Text = "Items Refreshed";
     }

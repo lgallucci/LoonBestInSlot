@@ -3,6 +3,7 @@ using AddonManager.Models;
 using Newtonsoft.Json;
 using System.IO;
 using System.Security;
+using System.Linq;
 
 namespace AddonManager;
 public static class WowheadImporter
@@ -369,6 +370,49 @@ public static class WowheadImporter
 
         ItemSourceFileManager.WriteItemSources(itemSources);
     }
+
+    public static async Task UpdateItemsFromWowhead()
+    {
+        var itemSources = ItemSourceFileManager.ReadItemSources();
+
+        var sources = new Dictionary<int, List<(string, string)>>();
+        await Common.ReadWowheadDroppedByList(itemSources.Where((i) => i.Value.SourceType == @"LBIS[""unknown""]")
+                                           .Select((itemId, _) => $"https://www.wowhead.com/classic/item={itemId}/"),
+                (webAddress, row, itemId, item) =>
+                {
+                    if (sources.ContainsKey(itemId))
+                    {
+                        sources[itemId].Add((item.TextContent.Trim(), row.Children[2].TextContent.Trim()));
+                    }
+                    else 
+                    {
+                        sources.Add(itemId, new List<(string, string)> {
+                            (item.TextContent.Trim(), row.Children[2].TextContent.Trim())
+                        });
+                    }
+                },
+                (log) => {});
+
+        foreach(var source in sources)
+        {
+            if (source.Value.Count > 20)
+            {
+                itemSources[source.Key].SourceType = AddLocalizeText("Drop");
+                itemSources[source.Key].Source = AddLocalizeText("World Drop");
+                itemSources[source.Key].SourceNumber = "0";
+                itemSources[source.Key].SourceLocation = string.Empty;
+            } 
+            else if (source.Value.Count == 1)
+            {
+                itemSources[source.Key].SourceType = AddLocalizeText("Drop");
+                itemSources[source.Key].Source = source.Value[0].Item1;
+                itemSources[source.Key].SourceNumber = "0";
+                itemSources[source.Key].SourceLocation = source.Value[0].Item2;
+            }
+        }
+        
+        ItemSourceFileManager.WriteItemSources(itemSources);
+    }    
 
     private static void UpdateProfessionItems(Dictionary<int, CsvLootTable> csvLootTable)
     {
