@@ -15,44 +15,35 @@ LBISSettingsDefault =
 		minimapPos = 180
 	},
 	Tooltip = {
-		[LBIS.L["Blood"]..LBIS.L["Death Knight"]] = true,
-		[LBIS.L["Frost"]..LBIS.L["Death Knight"]] = true,
-		[LBIS.L["Unholy"]..LBIS.L["Death Knight"]] = true,
-		[LBIS.L["Balance"]..LBIS.L["Druid"]] = true,
-		[LBIS.L["Bear"]..LBIS.L["Druid"]] = true,
-		[LBIS.L["Cat"]..LBIS.L["Druid"]] = true,
-		[LBIS.L["Restoration"]..LBIS.L["Druid"]] = true,
-		[LBIS.L["Beast Mastery"]..LBIS.L["Hunter"]] = true,
-		[LBIS.L["Marksmanship"]..LBIS.L["Hunter"]] = true,
-		[LBIS.L["Survival"]..LBIS.L["Hunter"]] = true,
-		[LBIS.L["Arcane"]..LBIS.L["Mage"]] = true,
-		[LBIS.L["Fire"]..LBIS.L["Mage"]] = true,
-		[LBIS.L["Frost"]..LBIS.L["Mage"]] = true,
-		[LBIS.L["Holy"]..LBIS.L["Paladin"]] = true,
-		[LBIS.L["Protection"]..LBIS.L["Paladin"]] = true,
-		[LBIS.L["Retribution"]..LBIS.L["Paladin"]] = true,
-		[LBIS.L["Discipline"]..LBIS.L["Priest"]] = true,
-		[LBIS.L["Holy"]..LBIS.L["Priest"]] = true,
-		[LBIS.L["Shadow"]..LBIS.L["Priest"]] = true,
-		[LBIS.L["Assassination"]..LBIS.L["Rogue"]] = true,
-		[LBIS.L["Combat"]..LBIS.L["Rogue"]] = true,
-		[LBIS.L["Subtlety"]..LBIS.L["Rogue"]] = true,
-		[LBIS.L["Elemental"]..LBIS.L["Shaman"]] = true,
-		[LBIS.L["Enhancement"]..LBIS.L["Shaman"]] = true,
-		[LBIS.L["Restoration"]..LBIS.L["Shaman"]] = true,
-		[LBIS.L["Affliction"]..LBIS.L["Warlock"]] = true,
-		[LBIS.L["Demonology"]..LBIS.L["Warlock"]] = true,
-		[LBIS.L["Destruction"]..LBIS.L["Warlock"]] = true,
-		[LBIS.L["Arms"]..LBIS.L["Warrior"]] = true,
-		[LBIS.L["Fury"]..LBIS.L["Warrior"]] = true,
-		[LBIS.L["Protection"]..LBIS.L["Warrior"]] = true
+		[LBIS.L["Balance Dps"]..LBIS.L["Druid"]] = true,
+		[LBIS.L["Feral Dps"]..LBIS.L["Druid"]] = true,
+		[LBIS.L["Healer"]..LBIS.L["Druid"]] = true,
+		[LBIS.L["Tank"]..LBIS.L["Druid"]] = true,
+		[LBIS.L["Dps"]..LBIS.L["Hunter"]] = true,
+		[LBIS.L["Dps"]..LBIS.L["Mage"]] = true,
+		[LBIS.L["Healer"]..LBIS.L["Mage"]] = true,
+		[LBIS.L["Dps"]..LBIS.L["Paladin"]] = true,
+		[LBIS.L["Healer"]..LBIS.L["Paladin"]] = true,
+		[LBIS.L["Tank"]..LBIS.L["Paladin"]] = true,
+		[LBIS.L["Dps"]..LBIS.L["Priest"]] = true,
+		[LBIS.L["Healer"]..LBIS.L["Priest"]] = true,
+		[LBIS.L["Dps"]..LBIS.L["Rogue"]] = true,
+		[LBIS.L["Tank"]..LBIS.L["Rogue"]] = true,
+		[LBIS.L["Elemental Dps"]..LBIS.L["Shaman"]] = true,
+		[LBIS.L["Enhancement Dps"]..LBIS.L["Shaman"]] = true,
+		[LBIS.L["Healer"]..LBIS.L["Shaman"]] = true,
+		[LBIS.L["Tank"]..LBIS.L["Shaman"]] = true,
+		[LBIS.L["Dps"]..LBIS.L["Warlock"]] = true,
+		[LBIS.L["Tank"]..LBIS.L["Warlock"]] = true,
+		[LBIS.L["Dps"]..LBIS.L["Warrior"]] = true,
+		[LBIS.L["Tank"]..LBIS.L["Warrior"]] = true,
 	},
 	PhaseTooltip = {
-		[LBIS.L["PreRaid"]] = true,
+		--[LBIS.L["PreRaid"]] = true,
 		[LBIS.L["Phase 1"]] = true,
-		[LBIS.L["Phase 2"]] = true,
-		[LBIS.L["Phase 3"]] = true,
-		[LBIS.L["Phase 4"]] = true,
+		--[LBIS.L["Phase 2"]] = true,
+		--[LBIS.L["Phase 3"]] = true,
+		--[LBIS.L["Phase 4"]] = true,
 		--[LBIS.L["Phase 5"]] = true
 	}
 };
@@ -92,322 +83,232 @@ local lbis_options = {
 			width = "full",
 			order = 3,
 		},
-		showBloodDk = {
+		showBalanceDruid = {
 			type = "toggle",
-			name = LBIS.L["Death Knight"]..": "..LBIS.L["Blood"],
-			desc = LBIS.L["Death Knight"]..": "..LBIS.L["Blood"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Blood"]..LBIS.L["Death Knight"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Blood"]..LBIS.L["Death Knight"]] = val end,
+			name = LBIS.L["Druid"]..": "..LBIS.L["Balance Dps"],
+			desc = LBIS.L["Druid"]..": "..LBIS.L["Balance Dps"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Balance Dps"]..LBIS.L["Druid"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Balance Dps"]..LBIS.L["Druid"]] = val end,
 			width = 1.1,
 			order = 4,
 		},
-		showFrostDk = {
+		showFeralDpsDruid = {
 			type = "toggle",
-			name = LBIS.L["Death Knight"]..": "..LBIS.L["Frost"],
-			desc = LBIS.L["Death Knight"]..": "..LBIS.L["Frost"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Frost"]..LBIS.L["Death Knight"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Frost"]..LBIS.L["Death Knight"]] = val end,
-			width = 1.1,
+			name = LBIS.L["Druid"]..": "..LBIS.L["Feral Dps"],
+			desc = LBIS.L["Druid"]..": "..LBIS.L["Feral Dps"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Feral Dps"]..LBIS.L["Druid"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Feral Dps"]..LBIS.L["Druid"]] = val end,
+			width = .825,
 			order = 5,
 		},
-		showUnholyDk = {
+		showHealerDruid = {
 			type = "toggle",
-			name = LBIS.L["Death Knight"]..": "..LBIS.L["Unholy"],
-			desc = LBIS.L["Death Knight"]..": "..LBIS.L["Unholy"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Unholy"]..LBIS.L["Death Knight"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Unholy"]..LBIS.L["Death Knight"]] = val end,
-			width = 1.1,
+			name = LBIS.L["Druid"]..": "..LBIS.L["Healer"],
+			desc = LBIS.L["Druid"]..": "..LBIS.L["Healer"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Druid"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Druid"]] = val end,
+			width = .825,
 			order = 6,
 		},
-		showBalanceDruid = {
+		showTankDruid = {
 			type = "toggle",
-			name = LBIS.L["Druid"]..": "..LBIS.L["Balance"],
-			desc = LBIS.L["Druid"]..": "..LBIS.L["Balance"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Balance"]..LBIS.L["Druid"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Balance"]..LBIS.L["Druid"]] = val end,
+			name = LBIS.L["Druid"]..": "..LBIS.L["Tank"],
+			desc = LBIS.L["Druid"]..": "..LBIS.L["Tank"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Druid"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Druid"]] = val end,
 			width = .825,
 			order = 7,
 		},
-		showBearDruid = {
+		showDpsHunter = {
 			type = "toggle",
-			name = LBIS.L["Druid"]..": "..LBIS.L["Bear"],
-			desc = LBIS.L["Druid"]..": "..LBIS.L["Bear"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Bear"]..LBIS.L["Druid"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Bear"]..LBIS.L["Druid"]] = val end,
-			width = .825,
+			name = LBIS.L["Hunter"]..": "..LBIS.L["Dps"],
+			desc = LBIS.L["Hunter"]..": "..LBIS.L["Dps"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Hunter"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Hunter"]] = val end,
+			width = 1.1,
 			order = 8,
 		},
-		showCatDruid = {
+		showDpsMage = {
 			type = "toggle",
-			name = LBIS.L["Druid"]..": "..LBIS.L["Cat"],
-			desc = LBIS.L["Druid"]..": "..LBIS.L["Cat"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Cat"]..LBIS.L["Druid"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Cat"]..LBIS.L["Druid"]] = val end,
-			width = .825,
+			name = LBIS.L["Dps"]..": "..LBIS.L["Mage"],
+			desc = LBIS.L["Dps"]..": "..LBIS.L["Mage"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Mage"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Mage"]] = val end,
+			width = 1.1,
 			order = 9,
 		},
-		showRestorationDruid = {
+		showHealerMage = {
 			type = "toggle",
-			name = LBIS.L["Druid"]..": "..LBIS.L["Restoration"],
-			desc = LBIS.L["Druid"]..": "..LBIS.L["Restoration"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Restoration"]..LBIS.L["Druid"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Restoration"]..LBIS.L["Druid"]] = val end,
-			width = .825,
+			name = LBIS.L["Mage"]..": "..LBIS.L["Healer"],
+			desc = LBIS.L["Mage"]..": "..LBIS.L["Healer"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Mage"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Mage"]] = val end,
+			width = 1.1,
 			order = 10,
 		},
-		showBmHunter = {
+		showDpsPaladin = {
 			type = "toggle",
-			name = LBIS.L["Hunter"]..": "..LBIS.L["Beast Mastery"],
-			desc = LBIS.L["Hunter"]..": "..LBIS.L["Beast Mastery"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Beast Mastery"]..LBIS.L["Hunter"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Beast Mastery"]..LBIS.L["Hunter"]] = val end,
+			name = LBIS.L["Paladin"]..": "..LBIS.L["Dps"],
+			desc = LBIS.L["Paladin"]..": "..LBIS.L["Dps"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Paladin"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Paladin"]] = val end,
 			width = 1.1,
 			order = 11,
 		},
-		showMarksHunter = {
+		showHealerPaladin = {
 			type = "toggle",
-			name = LBIS.L["Hunter"]..": "..LBIS.L["Marksmanship"],
-			desc = LBIS.L["Hunter"]..": "..LBIS.L["Marksmanship"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Marksmanship"]..LBIS.L["Hunter"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Marksmanship"]..LBIS.L["Hunter"]] = val end,
+			name = LBIS.L["Paladin"]..": "..LBIS.L["Healer"],
+			desc = LBIS.L["Paladin"]..": "..LBIS.L["Healer"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Paladin"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Paladin"]] = val end,
 			width = 1.1,
 			order = 12,
 		},
-		showSurvivalHunter = {
+		showTankPaladin = {
 			type = "toggle",
-			name = LBIS.L["Hunter"]..": "..LBIS.L["Survival"],
-			desc = LBIS.L["Hunter"]..": "..LBIS.L["Survival"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Survival"]..LBIS.L["Hunter"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Survival"]..LBIS.L["Hunter"]] = val end,
+			name = LBIS.L["Paladin"]..": "..LBIS.L["Tank"],
+			desc = LBIS.L["Paladin"]..": "..LBIS.L["Tank"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Paladin"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Paladin"]] = val end,
 			width = 1.1,
 			order = 13,
 		},
-		showArcaneMage = {
+		showDpsPriest = {
 			type = "toggle",
-			name = LBIS.L["Mage"]..": "..LBIS.L["Arcane"],
-			desc = LBIS.L["Mage"]..": "..LBIS.L["Arcane"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Arcane"]..LBIS.L["Mage"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Arcane"]..LBIS.L["Mage"]] = val end,
+			name = LBIS.L["Priest"]..": "..LBIS.L["Dps"],
+			desc = LBIS.L["Priest"]..": "..LBIS.L["Dps"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Priest"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Priest"]] = val end,
 			width = 1.1,
 			order = 14,
 		},
-		showFireMage = {
+		showHealerPriest = {
 			type = "toggle",
-			name = LBIS.L["Mage"]..": "..LBIS.L["Fire"],
-			desc = LBIS.L["Mage"]..": "..LBIS.L["Fire"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Fire"]..LBIS.L["Mage"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Fire"]..LBIS.L["Mage"]] = val end,
+			name = LBIS.L["Priest"]..": "..LBIS.L["Healer"],
+			desc = LBIS.L["Priest"]..": "..LBIS.L["Healer"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Priest"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Priest"]] = val end,
 			width = 1.1,
 			order = 15,
 		},
-		showFrostMage = {
+		showDpsRogue = {
 			type = "toggle",
-			name = LBIS.L["Mage"]..": "..LBIS.L["Frost"],
-			desc = LBIS.L["Mage"]..": "..LBIS.L["Frost"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Frost"]..LBIS.L["Mage"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Frost"]..LBIS.L["Mage"]] = val end,
+			name = LBIS.L["Rogue"].." "..LBIS.L["Dps"],
+			desc = LBIS.L["Rogue"].." "..LBIS.L["Dps"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Rogue"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Rogue"]] = val end,
 			width = 1.1,
 			order = 16,
 		},
-		showHolyPaladin = {
+		showTankRogue = {
 			type = "toggle",
-			name = LBIS.L["Paladin"]..": "..LBIS.L["Holy"],
-			desc = LBIS.L["Paladin"]..": "..LBIS.L["Holy"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Holy"]..LBIS.L["Paladin"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Holy"]..LBIS.L["Paladin"]] = val end,
+			name = LBIS.L["Rogue"]..": "..LBIS.L["Tank"],
+			desc = LBIS.L["Rogue"]..": "..LBIS.L["Tank"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Rogue"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Rogue"]] = val end,
 			width = 1.1,
 			order = 17,
 		},
-		showProtPaladin = {
+		showElementalDpsShaman = {
 			type = "toggle",
-			name = LBIS.L["Paladin"]..": "..LBIS.L["Protection"],
-			desc = LBIS.L["Paladin"]..": "..LBIS.L["Protection"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Protection"]..LBIS.L["Paladin"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Protection"]..LBIS.L["Paladin"]] = val end,
+			name = LBIS.L["Shaman"]..": "..LBIS.L["Elemental Dps"],
+			desc = LBIS.L["Shaman"]..": "..LBIS.L["Elemental Dps"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Elemental Dps"]..LBIS.L["Shaman"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Elemental Dps"]..LBIS.L["Shaman"]] = val end,
 			width = 1.1,
 			order = 18,
 		},
-		showRetPaladin = {
+		showEnhancementDpsShaman = {
 			type = "toggle",
-			name = LBIS.L["Paladin"].." "..LBIS.L["Retribution"],
-			desc = LBIS.L["Paladin"].." "..LBIS.L["Retribution"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Retribution"]..LBIS.L["Paladin"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Retribution"]..LBIS.L["Paladin"]] = val end,
+			name = LBIS.L["Shaman"]..": "..LBIS.L["Enhancement Dps"],
+			desc = LBIS.L["Shaman"]..": "..LBIS.L["Enhancement Dps"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Enhancement Dps"]..LBIS.L["Shaman"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Enhancement Dps"]..LBIS.L["Shaman"]] = val end,
 			width = 1.1,
 			order = 19,
 		},
-		showDiscPriest = {
+		showHealerShaman = {
 			type = "toggle",
-			name = LBIS.L["Priest"]..": "..LBIS.L["Discipline"],
-			desc = LBIS.L["Priest"]..": "..LBIS.L["Discipline"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Discipline"]..LBIS.L["Priest"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Discipline"]..LBIS.L["Priest"]] = val end,
+			name = LBIS.L["Shaman"]..": "..LBIS.L["Healer"],
+			desc = LBIS.L["Shaman"]..": "..LBIS.L["Healer"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Shaman"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Shaman"]] = val end,
 			width = 1.1,
 			order = 20,
 		},
-		showHolyPriest = {
+		showTankShaman = {
 			type = "toggle",
-			name = LBIS.L["Priest"]..": "..LBIS.L["Holy"],
-			desc = LBIS.L["Priest"]..": "..LBIS.L["Holy"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Holy"]..LBIS.L["Priest"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Holy"]..LBIS.L["Priest"]] = val end,
+			name = LBIS.L["Shaman"]..": "..LBIS.L["Tank"],
+			desc = LBIS.L["Shaman"]..": "..LBIS.L["Tank"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Shaman"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Shaman"]] = val end,
 			width = 1.1,
 			order = 21,
 		},
-		showShadowPriest = {
+		showDpsWarlock = {
 			type = "toggle",
-			name = LBIS.L["Priest"]..": "..LBIS.L["Shadow"],
-			desc = LBIS.L["Priest"]..": "..LBIS.L["Shadow"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Shadow"]..LBIS.L["Priest"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Shadow"]..LBIS.L["Priest"]] = val end,
+			name = LBIS.L["Warlock"]..": "..LBIS.L["Dps"],
+			desc = LBIS.L["Warlock"]..": "..LBIS.L["Dps"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Warlock"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Warlock"]] = val end,
 			width = 1.1,
 			order = 22,
 		},
-		showAssRogue = {
+		showTankWarlock = {
 			type = "toggle",
-			name = LBIS.L["Rogue"]..": "..LBIS.L["Assassination"],
-			desc = LBIS.L["Rogue"]..": "..LBIS.L["Assassination"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Assassination"]..LBIS.L["Rogue"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Assassination"]..LBIS.L["Rogue"]] = val end,
+			name = LBIS.L["Warlock"]..": "..LBIS.L["Tank"],
+			desc = LBIS.L["Warlock"]..": "..LBIS.L["Tank"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Warlock"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Warlock"]] = val end,
 			width = 1.1,
 			order = 23,
 		},
-		showCombatRogue = {
+		showDpsWarrior = {
 			type = "toggle",
-			name = LBIS.L["Rogue"]..": "..LBIS.L["Combat"],
-			desc = LBIS.L["Rogue"]..": "..LBIS.L["Combat"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Combat"]..LBIS.L["Rogue"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Combat"]..LBIS.L["Rogue"]] = val end,
+			name = LBIS.L["Warrior"]..": "..LBIS.L["Dps"],
+			desc = LBIS.L["Warrior"]..": "..LBIS.L["Dps"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Warrior"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Warrior"]] = val end,
 			width = 1.1,
 			order = 24,
 		},
-		showSubtletyRogue = {
+		showTankWarrior = {
 			type = "toggle",
-			name = LBIS.L["Rogue"]..": "..LBIS.L["Subtlety"],
-			desc = LBIS.L["Rogue"]..": "..LBIS.L["Subtlety"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Subtlety"]..LBIS.L["Rogue"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Subtlety"]..LBIS.L["Rogue"]] = val end,
+			name = LBIS.L["Warrior"]..": "..LBIS.L["Tank"],
+			desc = LBIS.L["Warrior"]..": "..LBIS.L["Tank"],
+			get = function(info) return LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Warrior"]] end,
+			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Warrior"]] = val end,
 			width = 1.1,
 			order = 25,
-		},
-		showEleShaman = {
-			type = "toggle",
-			name = LBIS.L["Shaman"]..": "..LBIS.L["Elemental"],
-			desc = LBIS.L["Shaman"]..": "..LBIS.L["Elemental"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Elemental"]..LBIS.L["Shaman"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Elemental"]..LBIS.L["Shaman"]] = val end,
-			width = 1.1,
-			order = 26,
-		},
-		showEnhShaman = {
-			type = "toggle",
-			name = LBIS.L["Shaman"]..": "..LBIS.L["Enhancement"],
-			desc = LBIS.L["Shaman"]..": "..LBIS.L["Enhancement"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Enhancement"]..LBIS.L["Shaman"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Enhancement"]..LBIS.L["Shaman"]] = val end,
-			width = 1.1,
-			order = 27,
-		},
-		showRestShaman = {
-			type = "toggle",
-			name = LBIS.L["Shaman"]..": "..LBIS.L["Restoration"],
-			desc = LBIS.L["Shaman"]..": "..LBIS.L["Restoration"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Restoration"]..LBIS.L["Shaman"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Restoration"]..LBIS.L["Shaman"]] = val end,
-			width = 1.1,
-			order = 28,
-		},
-		showAfflicWarlock = {
-			type = "toggle",
-			name = LBIS.L["Warlock"]..": "..LBIS.L["Affliction"],
-			desc = LBIS.L["Warlock"]..": "..LBIS.L["Affliction"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Affliction"]..LBIS.L["Warlock"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Affliction"]..LBIS.L["Warlock"]] = val end,
-			width = 1.1,
-			order = 29,
-		},
-		showDemonWarlock = {
-			type = "toggle",
-			name = LBIS.L["Warlock"]..": "..LBIS.L["Demonology"],
-			desc = LBIS.L["Warlock"]..": "..LBIS.L["Demonology"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Demonology"]..LBIS.L["Warlock"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Demonology"]..LBIS.L["Warlock"]] = val end,
-			width = 1.1,
-			order = 30,
-		},
-		showDestWarlock = {
-			type = "toggle",
-			name = LBIS.L["Warlock"]..": "..LBIS.L["Destruction"],
-			desc = LBIS.L["Warlock"]..": "..LBIS.L["Destruction"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Destruction"]..LBIS.L["Warlock"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Destruction"]..LBIS.L["Warlock"]] = val end,
-			width = 1.1,
-			order = 31,
-		},
-		showArmsWarrior = {
-			type = "toggle",
-			name = LBIS.L["Warrior"]..": "..LBIS.L["Arms"],
-			desc = LBIS.L["Warrior"]..": "..LBIS.L["Arms"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Arms"]..LBIS.L["Warrior"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Arms"]..LBIS.L["Warrior"]] = val end,
-			width = 1.1,
-			order = 32,
-		},
-		showFuryWarrior = {
-			type = "toggle",
-			name = LBIS.L["Warrior"]..": "..LBIS.L["Fury"],
-			desc = LBIS.L["Warrior"]..": "..LBIS.L["Fury"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Fury"]..LBIS.L["Warrior"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Fury"]..LBIS.L["Warrior"]] = val end,
-			width = 1.1,
-			order = 33,
-		},
-		showProtWarrior = {
-			type = "toggle",
-			name = LBIS.L["Warrior"]..": "..LBIS.L["Protection"],
-			desc = LBIS.L["Warrior"]..": "..LBIS.L["Protection"],
-			get = function(info) return LBISSettings.Tooltip[LBIS.L["Protection"]..LBIS.L["Warrior"]] end,
-			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Protection"]..LBIS.L["Warrior"]] = val end,
-			width = 1.1,
-			order = 34,
-		},
+		},		
 		selectAll = {
 			type = "execute",
 			name = LBIS.L["Select"].." "..LBIS.L["All"],
 			desc = LBIS.L["Select"].." "..LBIS.L["All"],
 			confirm = false,
 			func = function(info, val)
-				LBISSettings.Tooltip[LBIS.L["Blood"]..LBIS.L["Death Knight"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Frost"]..LBIS.L["Death Knight"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Unholy"]..LBIS.L["Death Knight"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Balance"]..LBIS.L["Druid"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Bear"]..LBIS.L["Druid"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Cat"]..LBIS.L["Druid"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Restoration"]..LBIS.L["Druid"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Beast Mastery"]..LBIS.L["Hunter"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Marksmanship"]..LBIS.L["Hunter"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Survival"]..LBIS.L["Hunter"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Arcane"]..LBIS.L["Mage"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Fire"]..LBIS.L["Mage"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Frost"]..LBIS.L["Mage"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Holy"]..LBIS.L["Paladin"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Protection"]..LBIS.L["Paladin"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Retribution"]..LBIS.L["Paladin"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Discipline"]..LBIS.L["Priest"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Holy"]..LBIS.L["Priest"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Shadow"]..LBIS.L["Priest"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Assassination"]..LBIS.L["Rogue"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Combat"]..LBIS.L["Rogue"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Subtlety"]..LBIS.L["Rogue"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Elemental"]..LBIS.L["Shaman"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Enhancement"]..LBIS.L["Shaman"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Restoration"]..LBIS.L["Shaman"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Affliction"]..LBIS.L["Warlock"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Demonology"]..LBIS.L["Warlock"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Destruction"]..LBIS.L["Warlock"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Arms"]..LBIS.L["Warrior"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Fury"]..LBIS.L["Warrior"]] = true;
-				LBISSettings.Tooltip[LBIS.L["Protection"]..LBIS.L["Warrior"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Balance Dps"]..LBIS.L["Druid"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Feral Dps"]..LBIS.L["Druid"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Druid"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Druid"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Hunter"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Mage"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Mage"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Paladin"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Paladin"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Paladin"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Priest"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Priest"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Rogue"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Rogue"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Elemental Dps"]..LBIS.L["Shaman"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Enhancement Dps"]..LBIS.L["Shaman"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Shaman"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Shaman"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Warlock"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Warlock"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Warrior"]] = true;
+				LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Warrior"]] = true;
 			end,
 			width = 1.6,
 			order = 37,
@@ -418,37 +319,28 @@ local lbis_options = {
 			desc = LBIS.L["Deselect"].." "..LBIS.L["All"],
 			confirm = false,
 			func = function(info, val)
-				LBISSettings.Tooltip[LBIS.L["Blood"]..LBIS.L["Death Knight"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Frost"]..LBIS.L["Death Knight"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Unholy"]..LBIS.L["Death Knight"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Balance"]..LBIS.L["Druid"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Bear"]..LBIS.L["Druid"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Cat"]..LBIS.L["Druid"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Restoration"]..LBIS.L["Druid"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Beast Mastery"]..LBIS.L["Hunter"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Marksmanship"]..LBIS.L["Hunter"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Survival"]..LBIS.L["Hunter"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Arcane"]..LBIS.L["Mage"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Fire"]..LBIS.L["Mage"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Frost"]..LBIS.L["Mage"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Holy"]..LBIS.L["Paladin"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Protection"]..LBIS.L["Paladin"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Retribution"]..LBIS.L["Paladin"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Discipline"]..LBIS.L["Priest"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Holy"]..LBIS.L["Priest"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Shadow"]..LBIS.L["Priest"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Assassination"]..LBIS.L["Rogue"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Combat"]..LBIS.L["Rogue"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Subtlety"]..LBIS.L["Rogue"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Elemental"]..LBIS.L["Shaman"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Enhancement"]..LBIS.L["Shaman"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Restoration"]..LBIS.L["Shaman"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Affliction"]..LBIS.L["Warlock"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Demonology"]..LBIS.L["Warlock"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Destruction"]..LBIS.L["Warlock"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Arms"]..LBIS.L["Warrior"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Fury"]..LBIS.L["Warrior"]] = false;
-				LBISSettings.Tooltip[LBIS.L["Protection"]..LBIS.L["Warrior"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Balance Dps"]..LBIS.L["Druid"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Feral Dps"]..LBIS.L["Druid"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Druid"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Druid"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Hunter"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Mage"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Mage"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Paladin"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Paladin"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Paladin"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Priest"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Priest"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Rogue"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Rogue"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Elemental Dps"]..LBIS.L["Shaman"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Enhancement Dps"]..LBIS.L["Shaman"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Shaman"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Shaman"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Warlock"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Warlock"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Warrior"]] = false;
+				LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Warrior"]] = false;
 			end,
 			width = 1.6,
 			order = 38,
@@ -459,15 +351,15 @@ local lbis_options = {
 			width = "full",
 			order = 39,
 		},
-		showPreRaid = {
-			type = "toggle",
-			name = LBIS.L["PreRaid"],
-			desc = LBIS.L["PreRaid"],
-			get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["PreRaid"]] end,
-			set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["PreRaid"]] = val end,
-			width = 1.1,
-			order = 40,
-		},
+		-- showPreRaid = {
+		-- 	type = "toggle",
+		-- 	name = LBIS.L["PreRaid"],
+		-- 	desc = LBIS.L["PreRaid"],
+		-- 	get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["PreRaid"]] end,
+		-- 	set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["PreRaid"]] = val end,
+		-- 	width = 1.1,
+		-- 	order = 40,
+		-- },
 		showPhase1 = {
 			type = "toggle",
 			name = LBIS.L["Phase 1"],
@@ -477,33 +369,33 @@ local lbis_options = {
 			width = 1.1,
 			order = 41,
 		},
-		showPhase2 = {
-		 	type = "toggle",
-		 	name = LBIS.L["Phase 2"],
-		 	desc = LBIS.L["Phase 2"],
-		 	get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 2"]] end,
-		 	set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 2"]] = val end,
-		 	width = 1.1,
-		 	order = 42,
-		},
-		showPhase3 = {
-		 	type = "toggle",
-		 	name = LBIS.L["Phase 3"],
-		 	desc = LBIS.L["Phase 3"],
-		 	get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 3"]] end,
-		 	set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 3"]] = val end,
-		 	width = 1.1,
-		 	order = 43,
-		},
-		showPhase4 = {
-			type = "toggle",
-			name = LBIS.L["Phase 4"],
-			desc = LBIS.L["Phase 4"],
-			get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 4"]] end,
-			set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 4"]] = val end,
-			width = 1.1,
-			order = 44,
-		},
+		-- showPhase2 = {
+		--  	type = "toggle",
+		--  	name = LBIS.L["Phase 2"],
+		--  	desc = LBIS.L["Phase 2"],
+		--  	get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 2"]] end,
+		--  	set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 2"]] = val end,
+		--  	width = 1.1,
+		--  	order = 42,
+		-- },
+		-- showPhase3 = {
+		--  	type = "toggle",
+		--  	name = LBIS.L["Phase 3"],
+		--  	desc = LBIS.L["Phase 3"],
+		--  	get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 3"]] end,
+		--  	set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 3"]] = val end,
+		--  	width = 1.1,
+		--  	order = 43,
+		-- },
+		-- showPhase4 = {
+		-- 	type = "toggle",
+		-- 	name = LBIS.L["Phase 4"],
+		-- 	desc = LBIS.L["Phase 4"],
+		-- 	get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 4"]] end,
+		-- 	set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 4"]] = val end,
+		-- 	width = 1.1,
+		-- 	order = 44,
+		-- },
 		-- showPhase5 = {
 		-- 	type = "toggle",
 		-- 	name = LBIS.L["Phase 5"],
@@ -513,7 +405,7 @@ local lbis_options = {
 		-- 	width = 1.1,
 		-- 	order = 45,
 		-- },
-		spacer2 = {
+		spacer3 = {
 			type = "header",
 			name = "",
 			width = "full",
