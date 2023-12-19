@@ -14,7 +14,7 @@ public class DungeonImporter : LootImporter
             { @"https://www.wowhead.com/classic/guide/deadmines-dungeon-strategy-wow-classic", "Deadmines" },
             { @"https://www.wowhead.com/classic/guide/shadowfang-keep-dungeon-strategy-wow-classic", "Shadowfang Keep" },
             { @"https://www.wowhead.com/classic/guide/the-stockade-dungeon-strategy-wow-classic", "The Stockade" },
-            { @"https://www.wowhead.com/classic/guide/razorfen-kraul-dungeon-strategy-wow-classic", "Razerfen Kraul" },
+            { @"https://www.wowhead.com/classic/guide/razorfen-kraul-dungeon-strategy-wow-classic", "Razorfen Kraul" },
             { @"https://www.wowhead.com/classic/guide/scarlet-monastery-dungeon-strategy-wow-classic", "Scarlet Monastery" },
             { @"https://www.wowhead.com/classic/guide/razorfen-downs-dungeon-strategy-wow-classic", "Razerfen Downs" }
         };
