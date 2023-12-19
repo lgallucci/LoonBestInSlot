@@ -6,7 +6,6 @@ LBIS.ItemsByIdAndSpec = {};
 LBIS.SpellsByIdAndSpec = {};
 
 LBIS.ItemsBySpecAndId = {};
-LBIS.GemsBySpecAndId = {};
 LBIS.EnchantsBySpecAndId = {};
 
 LBIS.SpellCache = {};
@@ -158,48 +157,6 @@ function LBIS:AddItem(bisEntry, id, slot, bis, order)
 		end			
 		LBIS.ItemsByIdAndSpec[tonumber(itemSource.SourceNumber)][bisEntry.Id] = searchedItem
 	end	
-end
-
-function LBIS:AddGem(bisEntry, id, quality, isMeta)
-
-	if strlen(id) <= 0 then
-		return
-	end
-
-	local gemId = tonumber(id);
-
-	if LBIS.CurrentPhase < tonumber(bisEntry.Phase) then
-		return;
-	end
-	
-	if not LBIS.ItemsByIdAndSpec[gemId] then
-		LBIS.ItemsByIdAndSpec[gemId] = {}
-	end	
-
-	local searchedItem = LBIS.ItemsByIdAndSpec[gemId][bisEntry.Id];
-
-	if searchedItem == nil then
-
-		searchedItem = { Id = gemId, Phase = "", Quality = quality, IsMeta = isMeta, Bis = "" }
-
-		if not LBIS.GemsBySpecAndId[bisEntry.Id] then
-			LBIS.GemsBySpecAndId[bisEntry.Id] = {}
-		end
-	end
-
-	LBIS.GemsBySpecAndId[bisEntry.Id][gemId] = searchedItem;
-	LBIS.ItemsByIdAndSpec[gemId][bisEntry.Id] = searchedItem
-
-	local gemSource = LBIS.GemSources[gemId];
-
-	local designId = tonumber(gemSource.DesignId);
-	if designId > 0 then		
-		if not LBIS.ItemsByIdAndSpec[designId] then
-			LBIS.ItemsByIdAndSpec[designId] = {}
-		end	
-
-		LBIS.ItemsByIdAndSpec[designId][bisEntry.Id] = searchedItem;
-	end
 end
 
 function LBIS:AddEnchant(bisEntry, id, slot)

@@ -6,8 +6,8 @@ internal class MageHealerMapping : SpecMapping
     public override string Class => "Mage";
     public override string Spec => "Healer";
 
-    public override string GemsUrl => "";
-    public override List<(string, GuideMapping)> Gems => new List<(string, GuideMapping)>
+    public override string EnchantsUrl => "";
+    public override List<(string, GuideMapping)> Enchants => new List<(string, GuideMapping)>
         {
         };
 

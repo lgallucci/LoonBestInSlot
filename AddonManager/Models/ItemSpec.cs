@@ -59,15 +59,6 @@ public int CompareTo(ItemSpec? other)
 
 }
 
-public class GemSpec
-{
-    public int GemId { get; set; }
-    public string Name { get; set; } = string.Empty;
-    public int Quality { get; set; }
-    public bool IsMeta { get; set; }
-    public int Phase { get; internal set; }
-}
-
 public class EnchantSpec
 {
     public int EnchantId { get; set; }

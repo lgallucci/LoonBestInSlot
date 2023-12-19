@@ -61,8 +61,8 @@ public sealed partial class GuideImporter : Page
 
         try
         {
-            if (phaseString == "GemsEnchants")
-                ConsoleOut.Text = await WowheadImporter.ImportGemsAndEnchants(specMapping);
+            if (phaseString == "Enchants")
+                ConsoleOut.Text = await WowheadImporter.ImportEnchants(specMapping);
             else
                 ConsoleOut.Text = await WowheadImporter.ImportClass(specMapping, phaseNumber);
 
@@ -88,8 +88,8 @@ public sealed partial class GuideImporter : Page
             phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
 
         string result = string.Empty;
-        if (phaseString == "GemsEnchants")
-            await WowheadImporter.ImportGemsAndEnchants(SpecList, _importCancelToken.Token, (log) => ConsoleOut.Text += log);
+        if (phaseString == "Enchants")
+            await WowheadImporter.ImportEnchants(SpecList, _importCancelToken.Token, (log) => ConsoleOut.Text += log);
         else
             await WowheadImporter.ImportClasses(SpecList, phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log);
     }
@@ -103,16 +103,16 @@ public sealed partial class GuideImporter : Page
             {
                 var phaseString = cmbPhase.SelectedValue.ToString();
 
-                if (phaseString == "GemsEnchants")
+                if (phaseString == "Enchants")
                 {
-                    ConsoleOut.Text = "Can't verify Gems";
+                    ConsoleOut.Text = "Can't verify Enchants";
                     return;
                 }
 
                 var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}"
                     && gm.Phase == phaseString);
 
-                var items = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{specMapping.ClassName.Replace(" ", "")}{specMapping.SpecName.Replace(" ", "")}").Item3;
+                var items = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{specMapping.ClassName.Replace(" ", "")}{specMapping.SpecName.Replace(" ", "")}").Item2;
 
                 WowheadImporter.VerifyGuide(items[Int32.Parse(phaseString.Replace("Phase", ""))]);
 

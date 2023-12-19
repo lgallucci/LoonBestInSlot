@@ -1,9 +1,9 @@
-local spec0 = LBIS:RegisterSpec(LBIS.L["Druid "], LBIS.L["Feral Dps"], "0")
-local spec1 = LBIS:RegisterSpec(LBIS.L["Druid "], LBIS.L["Feral Dps"], "1")
-local spec2 = LBIS:RegisterSpec(LBIS.L["Druid "], LBIS.L["Feral Dps"], "2")
-local spec3 = LBIS:RegisterSpec(LBIS.L["Druid "], LBIS.L["Feral Dps"], "3")
-local spec4 = LBIS:RegisterSpec(LBIS.L["Druid "], LBIS.L["Feral Dps"], "4")
-local spec5 = LBIS:RegisterSpec(LBIS.L["Druid "], LBIS.L["Feral Dps"], "5")
+local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Feral Dps"], "0")
+local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Feral Dps"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Feral Dps"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Feral Dps"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Feral Dps"], "4")
+local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Feral Dps"], "5")
 
 
 

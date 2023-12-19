@@ -129,7 +129,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E64D2CE7-C8D7-
 		LoonBestInSlot\UI\CustomEditList.lua = LoonBestInSlot\UI\CustomEditList.lua
 		LoonBestInSlot\UI\CustomItemList.lua = LoonBestInSlot\UI\CustomItemList.lua
 		LoonBestInSlot\UI\EnchantList.lua = LoonBestInSlot\UI\EnchantList.lua
-		LoonBestInSlot\UI\GemList.lua = LoonBestInSlot\UI\GemList.lua
 		LoonBestInSlot\UI\ItemList.lua = LoonBestInSlot\UI\ItemList.lua
 		LoonBestInSlot\UI\LootBrowser.lua = LoonBestInSlot\UI\LootBrowser.lua
 		LoonBestInSlot\UI\NewFeaturesWindow.lua = LoonBestInSlot\UI\NewFeaturesWindow.lua
@@ -148,7 +147,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{71B13F0F-1281-47E2-BEC9-4D7D3021AAC4}"
 	ProjectSection(SolutionItems) = preProject
 		LoonBestInSlot\DB\EnchantSources.lua = LoonBestInSlot\DB\EnchantSources.lua
-		LoonBestInSlot\DB\GemSources.lua = LoonBestInSlot\DB\GemSources.lua
 		LoonBestInSlot\DB\ItemSources.lua = LoonBestInSlot\DB\ItemSources.lua
 		LoonBestInSlot\DB\TierSources.lua = LoonBestInSlot\DB\TierSources.lua
 	EndProjectSection

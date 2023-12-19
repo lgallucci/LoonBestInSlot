@@ -5,8 +5,7 @@ namespace AddonManager.FileManagers;
 
 public static class ItemSpecFileManager
 {
-    public static void WriteItemSpec(string path, string className, string specName, 
-        Dictionary<int, GemSpec> gems, 
+    public static void WriteItemSpec(string path, string className, string specName,
         Dictionary<string, EnchantSpec> enchants,
         Dictionary<int, List<ItemSpec>> itemsList)
     {
@@ -18,17 +17,6 @@ public static class ItemSpecFileManager
         itemSB.AppendLine($"local spec3 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"3\")");
         itemSB.AppendLine($"local spec4 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"4\")");
         itemSB.AppendLine($"local spec5 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"5\")");
-
-        itemSB.AppendLine();
-        foreach (var gem in gems)
-        {
-            string specString = "spec";
-
-            if (gem.Value.Phase > 0)
-                specString += gem.Value.Phase;
-
-            itemSB.AppendLine($"LBIS:AddGem({specString}, \"{gem.Value.GemId}\", \"{gem.Value.Quality}\", \"{gem.Value.IsMeta.ToString()}\") --{gem.Value.Name}");
-        }
 
         itemSB.AppendLine();
         foreach (var enchant in enchants)
@@ -52,15 +40,13 @@ public static class ItemSpecFileManager
         System.IO.File.WriteAllText(path, itemSB.ToString());
     }
 
-    public static Tuple<Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>> ReadGuide(string path)
+    public static Tuple<Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>> ReadGuide(string path)
     {
-        var gems = new Dictionary<int, GemSpec>();
         var enchants = new Dictionary<string, EnchantSpec>();
         var items = new Dictionary<int, List<ItemSpec>>();
 
         if (!System.IO.File.Exists(path))
-            return new Tuple<Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>>(
-                new Dictionary<int, GemSpec>(), 
+            return new Tuple<Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>>(
                 new Dictionary<string, EnchantSpec>(), 
                 new Dictionary<int, List<ItemSpec>>()); 
 
@@ -71,21 +57,6 @@ public static class ItemSpecFileManager
             if (itemSpecLine.Contains("local spec"))
             {
                 continue;
-            }
-
-            if (itemSpecLine.Contains("LBIS:AddGem(spec"))
-            {
-                var itemSplit = itemSpecLine.Replace("LBIS:AddGem(spec", "").Trim().Split('"');
-
-                var gemId = Int32.Parse(itemSplit[1]);
-                gems.Add(gemId, new GemSpec
-                {
-                    GemId = gemId,
-                    Name = itemSplit[6].Replace(") --", ""),
-                    Phase = Int32.Parse(itemSplit[0].Replace(", ", "")),
-                    Quality = Int32.Parse(itemSplit[3]),
-                    IsMeta = bool.Parse(itemSplit[5])
-                });
             }
 
             if (itemSpecLine.Contains("LBIS:AddEnchant(spec"))
@@ -123,7 +94,7 @@ public static class ItemSpecFileManager
             }
         }
 
-        return new Tuple<Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>>(gems, enchants, items);
+        return new Tuple<Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>>(enchants, items);
 
     }
 }

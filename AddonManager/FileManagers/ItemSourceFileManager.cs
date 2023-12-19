@@ -70,66 +70,6 @@ public static class ItemSourceFileManager
         };
     }
 
-    public static SortedDictionary<int, GemSource> ReadGemSources()
-    {
-        SortedDictionary<int, GemSource> gems = new SortedDictionary<int, GemSource>();
-
-        string[] gemSources = System.IO.File.ReadAllLines($@"{Constants.AddonPath}\DB\GemSources.lua");
-
-        foreach (var gemSource in gemSources)
-        {
-            if (gemSource == "LBIS.GemSources =" ||
-                gemSource == "{" ||
-                gemSource == "}" ||
-                gemSource == String.Empty ||
-                gemSource.Trim().StartsWith("--"))
-            {
-                continue;
-            }
-
-            var openBracket = gemSource.IndexOf("[") + 1;
-            var closeBracket = gemSource.IndexOf("]");
-
-            var gemId = Int32.Parse(gemSource.Substring(openBracket, closeBracket - openBracket));
-
-            gems.Add(gemId, SplitGemLine(gemId, gemSource));
-        }
-
-        return gems;
-    }
-
-    private static GemSource SplitGemLine(int gemId, string gemSource)
-    {
-        var nameIndex = gemSource.IndexOf("Name =");
-        var designIndex = gemSource.IndexOf("DesignId =");
-        var sourceIndex = gemSource.IndexOf("Source =");
-        var sourceLocationIndex = gemSource.IndexOf("SourceLocation =");
-
-        var name = gemSource.Substring(nameIndex, designIndex - nameIndex).Split("=")[1].Trim().Trim(',').Trim('"');
-        var designId = gemSource.Substring(designIndex, sourceIndex - designIndex).Split("=")[1].Trim().Trim(',').Trim('"');
-        var source = gemSource.Substring(sourceIndex, sourceLocationIndex - sourceIndex).Split("=")[1].Trim().Trim(',').Trim('"'); ;
-        var sourceLocation = gemSource.Substring(sourceLocationIndex, gemSource.Length - sourceLocationIndex - 3).Split("=")[1].Trim().Trim('"');
-
-        if (string.IsNullOrWhiteSpace(source))
-            source = "\"\"";
-        else if (Int32.TryParse(source, out int result))
-            source = $"\"{source}\"";
-
-        if (string.IsNullOrWhiteSpace(sourceLocation))
-            sourceLocation = "\"\"";
-        else if (Int32.TryParse(sourceLocation, out int result))
-            sourceLocation = $"\"{sourceLocation}\"";
-
-        return new GemSource
-        {
-            GemId = gemId,
-            Name = name,
-            DesignId = Int32.Parse(designId),
-            Source = source,
-            SourceLocation = sourceLocation
-        };
-    }
-
     public static SortedDictionary<int, EnchantSource> ReadEnchantSources()
     {
         SortedDictionary<int, EnchantSource> enchants = new SortedDictionary<int, EnchantSource>();
@@ -251,24 +191,6 @@ public static class ItemSourceFileManager
         }
         itemSourceSB.AppendLine("}");
         System.IO.File.WriteAllText(Constants.AddonPath + "\\DB\\ItemSources.lua", itemSourceSB.ToString());
-    }
-
-    public static void WriteGemSources(SortedDictionary<int, GemSource> sources)
-    {
-        StringBuilder itemSourceSB = new StringBuilder();
-
-        itemSourceSB.AppendLine("LBIS.GemSources =");
-        itemSourceSB.AppendLine("{");
-        foreach (var source in sources)
-        {
-            itemSourceSB.AppendLine($"    [{source.Key}] = {{ " +
-                    $"Name = \"{source.Value.Name}\", " +
-                    $"DesignId = \"{source.Value.DesignId}\", " +
-                    $"Source = {source.Value.Source}, " +
-                    $"SourceLocation = {source.Value.SourceLocation} }},");
-        }
-        itemSourceSB.AppendLine("}");
-        System.IO.File.WriteAllText(Constants.AddonPath + "\\DB\\GemSources.lua", itemSourceSB.ToString());
     }
 
     public static void WriteEnchantSources(SortedDictionary<int, EnchantSource> sources)

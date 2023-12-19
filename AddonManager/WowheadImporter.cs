@@ -74,13 +74,13 @@ public static class WowheadImporter
     }
 
 
-    public static async Task ImportGemsAndEnchants(string[] specList, CancellationToken cancelToken, Action<string> logMethod)
+    public static async Task ImportEnchants(string[] specList, CancellationToken cancelToken, Action<string> logMethod)
     {
         var addresses = new List<string>();
         var addressToSpec = new Dictionary<string, ClassGuideMapping>();
         foreach (string spec in specList)
         {
-            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == "GemsEnchants");
+            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == "Enchants");
 
             if (specMapping == null)
             {
@@ -99,7 +99,7 @@ public static class WowheadImporter
             var spec = addressToSpec[address];
             try
             {
-                var result = await ImportGemsAndEnchantsInternal(spec, content);
+                var result = await ImportEnchantsInternal(spec, content);
 
                 logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!" + Environment.NewLine);
             }
@@ -158,12 +158,12 @@ public static class WowheadImporter
         logMethod($"Done!" + Environment.NewLine);
     }
 
-    public static async Task<string> ImportGemsAndEnchants(ClassGuideMapping classGuide)
+    public static async Task<string> ImportEnchants(ClassGuideMapping classGuide)
     {
         var result = string.Empty;
         await Common.LoadFromWebPage(classGuide.WebAddress, async (content) =>
         {
-            result = await ImportGemsAndEnchantsInternal(classGuide, content);
+            result = await ImportEnchantsInternal(classGuide, content);
         });
 
         return result;
@@ -235,10 +235,10 @@ public static class WowheadImporter
                     sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
                 }
 
-                guide.Item3[phaseNumber] = items.Values.ToList();
+                guide.Item2[phaseNumber] = items.Values.ToList();
 
                 ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName,
-                    guide.Item1, guide.Item2, guide.Item3);
+                    guide.Item1, guide.Item2);
 
                 ItemSourceFileManager.WriteItemSources(itemSources);
             }
@@ -255,36 +255,18 @@ public static class WowheadImporter
         return sb.ToString();
     }
 
-    private static async Task<string> ImportGemsAndEnchantsInternal(ClassGuideMapping classGuide, string content)
+    private static async Task<string> ImportEnchantsInternal(ClassGuideMapping classGuide, string content)
     {
         var sb = new StringBuilder();
         try
         {
             var className = $"{classGuide.ClassName}{classGuide.SpecName}";
-            var gemSources = ItemSourceFileManager.ReadGemSources();
             var enchantSources = ItemSourceFileManager.ReadEnchantSources();
-            var gemsEnchants = await new WowheadGuideParser().ParseGemEnchantsWowheadGuide(classGuide, content);
+            var enchants = await new WowheadGuideParser().ParseEnchantsWowheadGuide(classGuide, content);
 
             var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
 
-            foreach (var gem in gemsEnchants.Item1)
-            {
-                if (!gemSources.ContainsKey(gem.Value.GemId) && gem.Value.GemId > 0)
-                {
-                    gemSources.Add(gem.Value.GemId, new GemSource
-                    {
-                        GemId = gem.Value.GemId,
-                        DesignId = 99999,
-                        Name = gem.Value.Name,
-                        Source = "unknown",
-                        SourceLocation = "unknown"
-                    });
-                }
-
-                sb.AppendLine($"{gem.Value.GemId}: {gem.Value.Name} - {gem.Value.Quality} - {gem.Value.IsMeta}");
-            }
-
-            foreach (var enchant in gemsEnchants.Item2)
+            foreach (var enchant in enchants)
             {
                 if (!enchantSources.ContainsKey(enchant.Value.EnchantId) && enchant.Value.EnchantId > 0)
                 {
@@ -303,9 +285,8 @@ public static class WowheadImporter
             }
 
             ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName,
-                gemsEnchants.Item1, gemsEnchants.Item2, guide.Item3);
+                enchants, guide.Item2);
 
-            ItemSourceFileManager.WriteGemSources(gemSources);
             ItemSourceFileManager.WriteEnchantSources(enchantSources);
         }
         catch (Exception ex)

@@ -10,7 +10,7 @@ public class ClassGuideMapping
         ClassName = className;
         Phase = phase;
 
-        if (Phase == "GemsEnchants")
+        if (Phase == "Enchants")
         {
             _mappings.Clear();
             foreach (var mapping in guideMappings)

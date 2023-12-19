@@ -18,31 +18,6 @@ public class WowheadGuideParser
 
     private Random _rand = new Random(DateTime.Now.Millisecond);
 
-    private Dictionary<int, int> _gemPhases = new Dictionary<int, int>()
-    {
-        { 40112, 3 },
-        { 40113, 3 },
-        { 40114, 3 },
-        { 40119, 3 },
-        { 40123, 3 },
-        { 40125, 3 },
-        { 40126, 3 },
-        { 40128, 3 },
-        { 40129, 3 },
-        { 40133, 3 },
-        { 40141, 3 },
-        { 40148, 3 },
-        { 40150, 3 },
-        { 40153, 3 },
-        { 40155, 3 },
-        { 40157, 3 },
-        { 40159, 3 },
-        { 40162, 3 },
-        { 40166, 3 },
-        { 40167, 3 },
-        { 45880, 3 },
-    };
-
     private Dictionary<int, int> _enchantSwaps = new Dictionary<int, int>()
     {
         { 22530, 27906 }, //Enchant Bracer - Major Defense
@@ -105,11 +80,6 @@ public class WowheadGuideParser
         { 45056, 62948 }, //Enchant Staff - Greater Spellpower
         { 55656, 41611 }  //Eternal Belt Buckle
      };
-
-    private Dictionary<int, int> _gemSwaps = new Dictionary<int, int>()
-    {
-        { 55389, 41285 }, //Chaotic Skyflare Diamond
-    };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()
     {
@@ -224,7 +194,7 @@ public class WowheadGuideParser
         public string Text(ICharacterData text) => text.Data;
     }
 
-    public async Task<Dictionary<int, ItemSpec>> ParsePreRaidWowheadGuide(string className, Tuple<Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>> guide, string content)
+    public async Task<Dictionary<int, ItemSpec>> ParsePreRaidWowheadGuide(string className, Tuple<Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>> guide, string content)
     {
         System.Diagnostics.Debug.WriteLine($"Start Parsing {className}");
         var items = new Dictionary<int, ItemSpec>();
@@ -279,7 +249,7 @@ public class WowheadGuideParser
                         {
                             for (int i = 0; i < 5; i++)
                             {
-                                var item = guide.Item3[i].FirstOrDefault(isp => isp.ItemId == itemId);
+                                var item = guide.Item2[i].FirstOrDefault(isp => isp.ItemId == itemId);
                                 if (item != null)
                                 {
                                     items[itemId].Slot = item.Slot;
@@ -330,9 +300,8 @@ public class WowheadGuideParser
         return items;
     }
 
-    internal async Task<(Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>)> ParseGemEnchantsWowheadGuide(ClassGuideMapping classGuide, string content)
+    internal async Task<Dictionary<string, EnchantSpec>> ParseEnchantsWowheadGuide(ClassGuideMapping classGuide, string content)
     {
-        var gems = new Dictionary<int, GemSpec>();
         var enchants = new Dictionary<string, EnchantSpec>();
 
         var parser = new HtmlParser();
@@ -373,47 +342,20 @@ public class WowheadGuideParser
                             var itemName = boxElement.TextContent.Trim();
                             var itemId = Int32.Parse(item);
 
-                            if (heading.Key == "Meta" || heading.Key == "Gem")
+                            var textureId = "";
+                            if (isSpell == false && _enchantSwaps.ContainsKey(itemId))
                             {
-                                if (_gemSwaps.ContainsKey(itemId))
-                                    itemId = _gemSwaps[itemId];
-                                int itemQuality = 0;
-                                if (boxElement.ClassName.Contains("q1"))
-                                    itemQuality = 1;
-                                else if (boxElement.ClassName.Contains("q2"))
-                                    itemQuality = 2;
-                                else if (boxElement.ClassName.Contains("q3"))
-                                    itemQuality = 3;
-                                else if (boxElement.ClassName.Contains("q4"))
-                                    itemQuality = 4;
-
-                                if (!gems.ContainsKey(itemId))
-                                    gems.Add(itemId, new GemSpec
-                                    {
-                                        GemId = itemId,
-                                        Name = itemName ?? "unknown",
-                                        Phase = _gemPhases.ContainsKey(itemId) ? _gemPhases[itemId] : 1,
-                                        Quality = itemQuality,
-                                        IsMeta = heading.Key == "Meta"
-                                    });
+                                textureId = itemId.ToString();
+                                itemId = _enchantSwaps[itemId];
                             }
-                            else
+
+                            enchants.Add(itemId + heading.Key, new EnchantSpec
                             {
-                                var textureId = "";
-                                if (isSpell == false && _enchantSwaps.ContainsKey(itemId))
-                                {
-                                    textureId = itemId.ToString();
-                                    itemId = _enchantSwaps[itemId];
-                                }
-
-                                enchants.Add(itemId + heading.Key, new EnchantSpec
-                                {
-                                    EnchantId = itemId,
-                                    Name = itemName ?? "unknown",
-                                    Slot = heading.Key,
-                                    TextureId = textureId
-                                });
-                            }
+                                EnchantId = itemId,
+                                Name = itemName ?? "unknown",
+                                Slot = heading.Key,
+                                TextureId = textureId
+                            });
                             return true;
                         }
                         return false;
@@ -426,8 +368,7 @@ public class WowheadGuideParser
             }
         }
 
-        return (gems, enchants);
-
+        return enchants;
     }
 
     private string GetSlot(string slot, string bisStatus)

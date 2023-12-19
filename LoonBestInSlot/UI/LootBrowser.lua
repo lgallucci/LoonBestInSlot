@@ -48,9 +48,6 @@ function LBIS.BrowserWindow:RefreshItems()
         --LBIS:MeasureCode("RefreshItems", function()
             LBIS.ItemList:UpdateItems();
         --end);
-    elseif LBISSettings.OpenTab == "GemList" then
-        PanelTemplates_SetTab(LBIS.BrowserWindow.Window.Container, 2);
-        LBIS.GemList:UpdateItems();
     elseif LBISSettings.OpenTab == "EnchantList" then
         PanelTemplates_SetTab(LBIS.BrowserWindow.Window.Container, 3);
         LBIS.EnchantList:UpdateItems();        
@@ -183,23 +180,11 @@ local function createTabs(window, content)
         LBIS.BrowserWindow:RefreshItems();
     end);
 
-    -- local gemListTabButton = CreateFrame("Button", "ContainerTab2", window, "CharacterFrameTabButtonTemplate")
-    -- local gemListTabString = gemListTabButton:CreateFontString("GemListTabText", "OVERLAY", "GameFontNormalSmall");
-    -- gemListTabString:SetPoint("CENTER", gemListTabButton, "CENTER",  0, 3);
-    -- gemListTabString:SetText(LBIS.L["Gems"]);
-    -- gemListTabButton:SetPoint("LEFT", itemListTabButton, "RIGHT", -16, 0);
-    -- gemListTabButton:SetScript("OnClick", function(self)
-    --     PanelTemplates_SetTab(content, 2);
-    --     LBISSettings.OpenTab = "GemList";
-
-    --     LBIS.BrowserWindow:RefreshItems();
-    -- end);
-
     -- local enchantListTabButton = CreateFrame("Button", "ContainerTab3", window, "CharacterFrameTabButtonTemplate")
     -- local enchantListTabString = enchantListTabButton:CreateFontString("EnchantListTabText", "OVERLAY", "GameFontNormalSmall");
     -- enchantListTabString:SetPoint("CENTER", enchantListTabButton, "CENTER", 0, 3);
     -- enchantListTabString:SetText(LBIS.L["Enchants"]);
-    -- enchantListTabButton:SetPoint("LEFT", gemListTabButton, "RIGHT", -16, 0);
+    -- enchantListTabButton:SetPoint("LEFT", itemListTabButton, "RIGHT", -16, 0);
     -- enchantListTabButton:SetScript("OnClick", function(self)
     --     PanelTemplates_SetTab(content, 3);
     --     LBISSettings.OpenTab = "EnchantList";
