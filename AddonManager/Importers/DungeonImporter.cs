@@ -12,7 +12,8 @@ public class DungeonImporter : LootImporter
             { @"https://www.wowhead.com/classic/guide/ragefire-chasm-dungeon-strategy-wow-classic", "Ragefire Chasm"},
             { @"https://www.wowhead.com/classic/guide/wailing-caverns-dungeon-strategy-wow-classic", "Wailing Caverns"},
             { @"https://www.wowhead.com/classic/guide/deadmines-dungeon-strategy-wow-classic", "Deadmines" },
-            { @"https://www.wowhead.com/classic/guide/shadowfang-keep-dungeon-strategy-wow-classic", "Shadowfang Keep" }
+            { @"https://www.wowhead.com/classic/guide/shadowfang-keep-dungeon-strategy-wow-classic", "Shadowfang Keep" },
+            { @"https://www.wowhead.com/classic/guide/the-stockade-dungeon-strategy-wow-classic", "The Stockade" }
         };
 
     internal override string FileName { get => "DungeonItemList"; }

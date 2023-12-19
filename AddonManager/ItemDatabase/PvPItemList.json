@@ -1,5 +1,13 @@
 {
   "Items": {
+    "0": {
+      "Name": "Orc",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g58s82c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
     "15196": {
       "Name": "Private's Tabard",
       "Source": "PvP Vendor",
@@ -69,6 +77,38 @@
       "Source": "PvP Vendor",
       "SourceType": "PvP",
       "SourceNumber": "4g3s22c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "17348": {
+      "Name": "Major Healing Draught",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "17349": {
+      "Name": "Superior Healing Draught",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "17351": {
+      "Name": "Major Mana Draught",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "17352": {
+      "Name": "Superior Mana Draught",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5s",
       "SourceLocation": "Unknown Rank",
       "SourceFaction": "B"
     },
@@ -416,6 +456,934 @@
       "SourceLocation": "Unknown Rank",
       "SourceFaction": "B"
     },
+    "19060": {
+      "Name": "Warsong Gulch Enriched Ration",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "20s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19061": {
+      "Name": "Warsong Gulch Iron Ration",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19062": {
+      "Name": "Warsong Gulch Field Ration",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19066": {
+      "Name": "Warsong Gulch Runecloth Bandage",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "20s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19067": {
+      "Name": "Warsong Gulch Mageweave Bandage",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19068": {
+      "Name": "Warsong Gulch Silk Bandage",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19505": {
+      "Name": "Warsong Battle Tabard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19506": {
+      "Name": "Silverwing Battle Tabard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19510": {
+      "Name": "Legionnaire's Band",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19511": {
+      "Name": "Legionnaire's Band",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19512": {
+      "Name": "Legionnaire's Band",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19513": {
+      "Name": "Legionnaire's Band",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19514": {
+      "Name": "Protector's Band",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19515": {
+      "Name": "Protector's Band",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19516": {
+      "Name": "Protector's Band",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19517": {
+      "Name": "Protector's Band",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19518": {
+      "Name": "Advisor's Ring",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19519": {
+      "Name": "Advisor's Ring",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19520": {
+      "Name": "Advisor's Ring",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19521": {
+      "Name": "Advisor's Ring",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19522": {
+      "Name": "Lorekeeper's Ring",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19523": {
+      "Name": "Lorekeeper's Ring",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19524": {
+      "Name": "Lorekeeper's Ring",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19525": {
+      "Name": "Lorekeeper's Ring",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19526": {
+      "Name": "Battle Healer's Cloak",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g5s80c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19527": {
+      "Name": "Battle Healer's Cloak",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g81s58c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19528": {
+      "Name": "Battle Healer's Cloak",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g39s4c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19529": {
+      "Name": "Battle Healer's Cloak",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g6s13c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19530": {
+      "Name": "Caretaker's Cape",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g54s92c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19531": {
+      "Name": "Caretaker's Cape",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g2s42c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19532": {
+      "Name": "Caretaker's Cape",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g24s41c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19533": {
+      "Name": "Caretaker's Cape",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g7s72c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19534": {
+      "Name": "Scout's Medallion",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19535": {
+      "Name": "Scout's Medallion",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19536": {
+      "Name": "Scout's Medallion",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19537": {
+      "Name": "Scout's Medallion",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19538": {
+      "Name": "Sentinel's Medallion",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19539": {
+      "Name": "Sentinel's Medallion",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19540": {
+      "Name": "Sentinel's Medallion",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19541": {
+      "Name": "Sentinel's Medallion",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19542": {
+      "Name": "Scout's Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "28g1s62c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19543": {
+      "Name": "Scout's Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "16g46s21c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19544": {
+      "Name": "Scout's Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g16s85c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19545": {
+      "Name": "Scout's Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g27s95c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19546": {
+      "Name": "Sentinel's Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "26g42s2c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19547": {
+      "Name": "Sentinel's Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "16g49s81c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19548": {
+      "Name": "Sentinel's Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g18s82c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19549": {
+      "Name": "Sentinel's Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g32s91c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19550": {
+      "Name": "Legionnaire's Sword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "25g84s57c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19551": {
+      "Name": "Legionnaire's Sword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g13s24c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19552": {
+      "Name": "Legionnaire's Sword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g48s21c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19553": {
+      "Name": "Legionnaire's Sword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g22s4c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19554": {
+      "Name": "Protector's Sword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "27g46s11c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19555": {
+      "Name": "Protector's Sword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g13s24c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19556": {
+      "Name": "Protector's Sword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g48s21c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19557": {
+      "Name": "Protector's Sword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g42s84c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19558": {
+      "Name": "Outrider's Bow",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "20g71s14c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19559": {
+      "Name": "Outrider's Bow",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g34s94c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19560": {
+      "Name": "Outrider's Bow",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g61s16c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19561": {
+      "Name": "Outrider's Bow",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g41s52c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19562": {
+      "Name": "Outrunner's Bow",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "19g38s42c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19563": {
+      "Name": "Outrunner's Bow",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g34s94c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19564": {
+      "Name": "Outrunner's Bow",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g61s16c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19565": {
+      "Name": "Outrunner's Bow",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g41s52c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19566": {
+      "Name": "Advisor's Gnarled Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "33g2s18c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19567": {
+      "Name": "Advisor's Gnarled Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "18g91s56c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19568": {
+      "Name": "Advisor's Gnarled Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g35s27c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19569": {
+      "Name": "Advisor's Gnarled Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g2s55c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19570": {
+      "Name": "Lorekeeper's Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "33g51s97c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19571": {
+      "Name": "Lorekeeper's Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "19g69s71c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19572": {
+      "Name": "Lorekeeper's Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g77s54c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19573": {
+      "Name": "Lorekeeper's Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g22s30c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19578": {
+      "Name": "Berserker Bracers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g84s97c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19580": {
+      "Name": "Berserker Bracers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g81s75c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19581": {
+      "Name": "Berserker Bracers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g47s27c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19582": {
+      "Name": "Windtalker's Wristguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "12g11s2c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19583": {
+      "Name": "Windtalker's Wristguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g22s62c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19584": {
+      "Name": "Windtalker's Wristguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g70s90c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19587": {
+      "Name": "Forest Stalker's Bracers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g7s35c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19589": {
+      "Name": "Forest Stalker's Bracers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g2s17c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19590": {
+      "Name": "Forest Stalker's Bracers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g9s8c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19595": {
+      "Name": "Dryad's Wrist Bindings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g75s48c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19596": {
+      "Name": "Dryad's Wrist Bindings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g24s27c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "19597": {
+      "Name": "Dryad's Wrist Bindings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g70s6c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20425": {
+      "Name": "Advisor's Gnarled Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g43s16c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20426": {
+      "Name": "Advisor's Ring",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20427": {
+      "Name": "Battle Healer's Cloak",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "36s50c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20428": {
+      "Name": "Caretaker's Cape",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "36s50c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20429": {
+      "Name": "Legionnaire's Band",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20430": {
+      "Name": "Legionnaire's Sword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g14s52c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20431": {
+      "Name": "Lorekeeper's Ring",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20434": {
+      "Name": "Lorekeeper's Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g43s16c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20437": {
+      "Name": "Outrider's Bow",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "85s89c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20438": {
+      "Name": "Outrunner's Bow",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "85s89c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20439": {
+      "Name": "Protector's Band",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20440": {
+      "Name": "Protector's Sword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g21s50c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20441": {
+      "Name": "Scout's Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g14s52c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20442": {
+      "Name": "Scout's Medallion",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20443": {
+      "Name": "Sentinel's Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g22s82c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "20444": {
+      "Name": "Sentinel's Medallion",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "21565": {
+      "Name": "Rune of Perfection",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g23s52c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "21566": {
+      "Name": "Rune of Perfection",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g11s76c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "21567": {
+      "Name": "Rune of Duty",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g23s52c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "21568": {
+      "Name": "Rune of Duty",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g11s76c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "22651": {
+      "Name": "Outrider's Plate Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "16g57s37c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "22672": {
+      "Name": "Sentinel's Plate Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "16g63s47c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "22673": {
+      "Name": "Outrider's Chain Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "25g4s60c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "22676": {
+      "Name": "Outrider's Mail Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "25g32s52c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "22740": {
+      "Name": "Outrider's Leather Pants",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "21g96s77c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "22741": {
+      "Name": "Outrider's Lizardhide Pants",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "22g4s61c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "22747": {
+      "Name": "Outrider's Silk Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "16g76s32c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "22748": {
+      "Name": "Sentinel's Chain Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "24g22s7c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "22749": {
+      "Name": "Sentinel's Leather Pants",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "21g10s86c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "22750": {
+      "Name": "Sentinel's Lizardhide Pants",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "21g18s68c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "22752": {
+      "Name": "Sentinel's Silk Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "17g7s47c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "22753": {
+      "Name": "Sentinel's Lamellar Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "17g13s57c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
     "209612": {
       "Name": "Insignia of the Alliance",
       "Source": "PvP Vendor",
@@ -445,6 +1413,110 @@
       "Source": "PvP Vendor",
       "SourceType": "PvP",
       "SourceNumber": "21g17s64c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "211498": {
+      "Name": "Trainee's Sentinel Nightsaber",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "211499": {
+      "Name": "Trainee's Outrider Wolf",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g58s82c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "211500": {
+      "Name": "Resilient Cloth Headband",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g64s70c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "211856": {
+      "Name": "Resilient Mail Coif",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g64s70c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "211857": {
+      "Name": "Resilient Leather Mask",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g64s70c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "212580": {
+      "Name": "Lorekeeper's Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g25s80c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "212581": {
+      "Name": "Outrunner's Bow",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g2s90c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "212582": {
+      "Name": "Protector's Sword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g90s77c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "212583": {
+      "Name": "Sentinel's Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g79s55c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "212584": {
+      "Name": "Advisor's Gnarled Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g25s80c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "212585": {
+      "Name": "Outrider's Bow",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g2s90c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "212586": {
+      "Name": "Legionnaire's Sword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g90s77c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "212587": {
+      "Name": "Scout's Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g79s55c",
       "SourceLocation": "Unknown Rank",
       "SourceFaction": "B"
     },

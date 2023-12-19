@@ -40,6 +40,14 @@
       "SourceLocation": "Ragefire Chasm",
       "SourceFaction": "B"
     },
+    "2592": {
+      "Name": "Wool Cloth",
+      "Source": "Targorr the Dread",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Stockade",
+      "SourceFaction": "B"
+    },
     "2874": {
       "Name": "An Unsent Letter",
       "Source": "Edwin Van Cleef",
@@ -48,12 +56,36 @@
       "SourceLocation": "Deadmines",
       "SourceFaction": "B"
     },
+    "2941": {
+      "Name": "Prison Shank",
+      "Source": "Bruegal Ironknuckle (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Stockade",
+      "SourceFaction": "B"
+    },
+    "2942": {
+      "Name": "Iron Knuckles",
+      "Source": "Bruegal Ironknuckle (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Stockade",
+      "SourceFaction": "B"
+    },
     "3191": {
       "Name": "Arced War Axe",
       "Source": "Commander Springvale",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "3228": {
+      "Name": "Jimmied Handcuffs",
+      "Source": "Bruegal Ironknuckle (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Stockade",
       "SourceFaction": "B"
     },
     "3230": {
@@ -70,6 +102,14 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "4306": {
+      "Name": "Silk Cloth",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Stockade",
       "SourceFaction": "B"
     },
     "5187": {

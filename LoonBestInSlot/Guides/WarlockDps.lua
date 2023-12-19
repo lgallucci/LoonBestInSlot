@@ -64,7 +64,6 @@ LBIS:AddItem(spec1, "4829", LBIS.L["Waist"], "Alt", "53") --Dreamer's Belt
 LBIS:AddItem(spec1, "4828", LBIS.L["Waist"], "Alt", "54") --Nightwind Belt
 LBIS:AddItem(spec1, "14406", LBIS.L["Waist"], "Alt", "55") --Resilient Cord
 LBIS:AddItem(spec1, "209684", LBIS.L["Legs"], "BIS", "56") --Soul Leech Pants
-LBIS:AddItem(spec1, "23173", LBIS.L["Legs"], "Alt", "57") --Abomination Skin Leggings
 LBIS:AddItem(spec1, "14183", LBIS.L["Legs"], "Alt", "58") --Watcher's Leggings
 LBIS:AddItem(spec1, "209667", LBIS.L["Legs"], "Alt", "59") --Gaze Dreamer Leggings
 LBIS:AddItem(spec1, "3073", LBIS.L["Legs"], "Alt", "60") --Smoldering Pants

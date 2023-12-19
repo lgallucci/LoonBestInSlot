@@ -12,7 +12,9 @@ public class PvPImporter : LootImporter
         { @"https://www.wowhead.com/classic/npc=12799/sergeant-basha#sells", "H" },
         { @"https://www.wowhead.com/classic/npc=12805/officer-areyn#sells", "A" },
         { @"https://www.wowhead.com/classic/npc=14754/kelm-hargunth#sells", "H"},
-        { @"https://www.wowhead.com/classic/npc=14753/illiyana-moonblaze#sells", "A"}
+        { @"https://www.wowhead.com/classic/npc=14754/kelm-hargunth#sells;50", "H"},
+        { @"https://www.wowhead.com/classic/npc=14753/illiyana-moonblaze#sells", "A"},
+        { @"https://www.wowhead.com/classic/npc=14753/illiyana-moonblaze#sells;50", "A"}
     };
 
     internal override string FileName { get => "PvPItemList"; }
