@@ -7,9 +7,9 @@ global using System.Threading.Tasks;
 
 public static class Constants
 {
-    public static string AddonPath = @$"..\..\..\..\..\..\LoonBestInSlot";
+    public static string AddonPath = @$"C:\GIT\LoonBestInSlot\LoonBestInSlot";
 
-    public static string ItemDbPath = @$"..\..\..\..\..\..\AddonManager\ItemDatabase";
+    public static string ItemDbPath = @$"C:\GIT\LoonBestInSlot\AddonManager\ItemDatabase";
 
-    public static string LocalizationPath = @$"..\..\..\..\..\..\AddonManager\LocalizationCreator";
+    public static string LocalizationPath = @$"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator";
 }
