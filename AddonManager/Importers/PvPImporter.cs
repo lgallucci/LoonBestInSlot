@@ -7,9 +7,12 @@ namespace AddonManager.Importers;
 
 public class PvPImporter : LootImporter
 {
-    private Dictionary<string, Tuple<string, string>> wowheadUriList = new Dictionary<string, Tuple<string, string>>
+    private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
-        //{ @"https://www.wowhead.com/classic/npc=32380/lieutenant-tristia#sells", new Tuple<string, string>("Wrathful, Battlemaster>245", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/classic/npc=12799/sergeant-basha#sells", "H" },
+        { @"https://www.wowhead.com/classic/npc=12805/officer-areyn#sells", "A" },
+        { @"https://www.wowhead.com/classic/npc=14754/kelm-hargunth#sells", "H"},
+        { @"https://www.wowhead.com/classic/npc=14753/illiyana-moonblaze#sells", "A"}
     };
 
     internal override string FileName { get => "PvPItemList"; }
@@ -29,53 +32,34 @@ public class PvPImporter : LootImporter
 
             Common.ReadWowheadSellsList(doc, uri, (uri, row, itemId, item) =>
             {
-                var success = false;
-                var currencySource = "";
+                var currencySource = "PvP Vendor";
                 var currencyNumber = "";
-                var currencySourceLocation = "";
+                var currencySourceLocation = "Unknown Rank";
                 var itemName = item.TextContent;
 
                 Int32.TryParse(row.Children[3].TextContent, out int itemLevel);
-                var nameSplit = wowheadUriList[uri].Item1.Split(",");
-                var levelSplit = nameSplit.Select(n => n.Split('>'));
 
-                if (!levelSplit.Any(i => itemName.Contains(i[0].Trim()) && (i.Length < 2 || Int32.Parse(i[1]) < itemLevel)))
-                    return;
+                // var nameSplit = wowheadUriList[uri].Item1.Split(",");
+                // var levelSplit = nameSplit.Select(n => n.Split('>'));
 
-                Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
+                // if (!levelSplit.Any(i => itemName.Contains(i[0].Trim()) && (i.Length < 2 || Int32.Parse(i[1]) < itemLevel)))
+                //     return;
+
+                foreach(var currency in row.Children[10].Children)
                 {
-                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/classic", "").Replace("/currency=", "");
-
-                    var currencyIdIndex = item.IndexOf("/");
-                    if (currencyIdIndex == -1)
-                        currencyIdIndex = item.IndexOf("&");
-
-                    if (currencyIdIndex > -1)
+                    if (currency.ClassName == "moneygold") 
                     {
-                        item = item.Substring(0, currencyIdIndex);
-
-                        success = int.TryParse(item, out var currencyInteger);
-
-                        if (success)
-                        {
-                            if (!string.IsNullOrWhiteSpace(currencySource))
-                            {
-                                currencySource += " & ";
-                                currencyNumber += " & ";
-                            }
-                            var currentSource = item == "1901" ? "Honor Points" : 
-                            item == "126" ? "Wintergrasp Marks" : 
-                            item == "1900" ? "Arena Points" : "Unknown Currency";
-                            currencySource += currentSource;
-
-                            var currencyAmount = int.Parse(anchorObject.TextContent);
-                            currencyNumber += currencyAmount.ToString();
-                            currencySourceLocation = wowheadUriList[uri].Item2;
-                        }
-
+                        currencyNumber += $"{currency.TextContent.Trim()}g";
+                    } 
+                    else if (currency.ClassName == "moneysilver")
+                    {
+                        currencyNumber += $"{currency.TextContent.Trim()}s";
+                    } 
+                    else if (currency.ClassName == "moneycopper") 
+                    {
+                        currencyNumber += $"{currency.TextContent.Trim()}c";
                     }
-                    return success;
-                });
+                }
 
                 if (!items.Items.ContainsKey(itemId))
                 {                   

@@ -1,5 +1,468 @@
 {
-    "Items": {
-      
+  "Items": {
+    "15196": {
+      "Name": "Private's Tabard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "15197": {
+      "Name": "Scout's Tabard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "94s11c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "15200": {
+      "Name": "Senior Sergeant's Insignia",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g88s23c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "16335": {
+      "Name": "Senior Sergeant's Insignia",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g76s47c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "16341": {
+      "Name": "Sergeant's Cloak",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g1s64c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "16342": {
+      "Name": "Sergeant's Cape",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g41s54c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "16486": {
+      "Name": "First Sergeant's Silk Cuffs",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g99s75c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "16497": {
+      "Name": "First Sergeant's Leather Armguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g23s78c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "16532": {
+      "Name": "First Sergeant's Mail Wristguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g3s22c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18427": {
+      "Name": "Sergeant's Cloak",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "62s22c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18428": {
+      "Name": "Senior Sergeant's Insignia",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g82s35c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18429": {
+      "Name": "First Sergeant's Plate Bracers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g94s47c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18430": {
+      "Name": "First Sergeant's Plate Bracers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g29s52c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18432": {
+      "Name": "First Sergeant's Mail Wristguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g95s68c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18434": {
+      "Name": "First Sergeant's Dragonhide Armguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g94s40c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18435": {
+      "Name": "First Sergeant's Leather Armguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g72s34c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18436": {
+      "Name": "First Sergeant's Dragonhide Armguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g79s85c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18437": {
+      "Name": "First Sergeant's Silk Cuffs",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g44s43c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18440": {
+      "Name": "Sergeant's Cape",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "64s43c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18441": {
+      "Name": "Sergeant's Cape",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g8s91c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18442": {
+      "Name": "Master Sergeant's Insignia",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18443": {
+      "Name": "Master Sergeant's Insignia",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18444": {
+      "Name": "Master Sergeant's Insignia",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18445": {
+      "Name": "Sergeant Major's Plate Wristguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g90s21c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18447": {
+      "Name": "Sergeant Major's Plate Wristguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g42s35c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18448": {
+      "Name": "Sergeant Major's Chain Armguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g40s6c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18449": {
+      "Name": "Sergeant Major's Chain Armguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g15s6c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18452": {
+      "Name": "Sergeant Major's Leather Armsplints",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g63s71c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18453": {
+      "Name": "Sergeant Major's Leather Armsplints",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g77s78c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18454": {
+      "Name": "Sergeant Major's Dragonhide Armsplints",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g48s15c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18455": {
+      "Name": "Sergeant Major's Dragonhide Armsplints",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g70s20c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18456": {
+      "Name": "Sergeant Major's Silk Cuffs",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g49s46c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18457": {
+      "Name": "Sergeant Major's Silk Cuffs",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g18s86c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18461": {
+      "Name": "Sergeant's Cloak",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g3s64c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18664": {
+      "Name": "A Treatise on Military Ranks",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18675": {
+      "Name": "Military Ranks of the Horde & Alliance",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "90c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18834": {
+      "Name": "Insignia of the Horde",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g35s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18845": {
+      "Name": "Insignia of the Horde",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g35s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18846": {
+      "Name": "Insignia of the Horde",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g57s89c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18849": {
+      "Name": "Insignia of the Horde",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g41s17c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18850": {
+      "Name": "Insignia of the Horde",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g57s89c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18851": {
+      "Name": "Insignia of the Horde",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18852": {
+      "Name": "Insignia of the Horde",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18853": {
+      "Name": "Insignia of the Horde",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g57s89c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18854": {
+      "Name": "Insignia of the Alliance",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18856": {
+      "Name": "Insignia of the Alliance",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18857": {
+      "Name": "Insignia of the Alliance",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g57s89c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18858": {
+      "Name": "Insignia of the Alliance",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g33s33c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18859": {
+      "Name": "Insignia of the Alliance",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g41s17c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18862": {
+      "Name": "Insignia of the Alliance",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g57s89c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18863": {
+      "Name": "Insignia of the Alliance",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g50s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "18864": {
+      "Name": "Insignia of the Alliance",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g20s",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "209612": {
+      "Name": "Insignia of the Alliance",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "20g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "209622": {
+      "Name": "Insignia of the Horde",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "20g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "209623": {
+      "Name": "Insignia of the Horde",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "20g",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "209624": {
+      "Name": "Insignia of the Horde",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "21g17s64c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "213087": {
+      "Name": "Sergeant's Cloak",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "40s28c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
+    },
+    "213088": {
+      "Name": "Sergeant's Cloak",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "36s26c",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "B"
     }
+  }
 }

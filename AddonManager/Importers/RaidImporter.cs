@@ -1,99 +1,129 @@
 ﻿using AddonManager.Models;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
-using static System.Net.WebRequestMethods;
+using AngleSharp.Html.Parser;
 
 namespace AddonManager.Importers;
 
 public class RaidImporter : LootImporter
 {
-    private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
+    private Dictionary<string, string> raidUriList = new Dictionary<string, string>
     {
-        //{ @"https://www.wowhead.com/classic/npc=38433/toravon-the-ice-watcher#drops;mode:n10", "Toravon the Ice Watcher, Vault of Archavon (10)" },
-    };
-
-    private Dictionary<string, int> hardmodeLevels = new Dictionary<string, int>()
-    {
-        { "Ulduar (10)", 226 },
-        { "Ulduar (25)", 239 }
+        { @"https://www.wowhead.com/classic/guide/season-of-discovery/blackfathom-deeps-level-up-raid-loot", "Blackfathom Deeps" },
     };
 
     private List<string> excludedWords = new List<string>()
     {
-        "Reins of the",
-        "Plans: ",
-        "Pattern: ", 
-        "Formula: ",
-        "Trophy of the Crusade",
-        "Large Satchel",
-        "Dragon Hide Bag",
-        "Shadowfrost Shard"
+        "Satchel",
+        "Skin Bag",
     };
 
     internal override string FileName { get => "RaidItemList"; }
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
-        //items.Items.Clear();
+        items.Items.Clear();
 
-        await Common.ReadWowheadDropsList(wowheadUriList.Keys.ToList(), (webAddress, row, itemId, item) =>
+        await Common.LoadFromWebPages(raidUriList.Keys.ToList(), async (uri, content) =>
         {
-            Int32.TryParse(row.Children[4].TextContent, out int itemLevel);
-            InternalItemsParse(wowheadUriList, webAddress, row, itemId, itemLevel, item, items);
-        }, writeToLog);
+            writeToLog($"Reading from: {uri}");
+
+            var parser = new HtmlParser();
+            var doc = default(IHtmlDocument);
+            doc = await parser.ParseDocumentAsync(content);
+
+            var tableElements = doc.QuerySelectorAll("table.grid");
+
+            foreach(var table in tableElements)
+            {
+                LoopThroughTable(table as IHtmlTableElement,
+                    (itemId, itemName, bossName)=> {
+                        items.AddItem(itemId, new DatabaseItem 
+                        {
+                            Name = itemName,
+                            Source = bossName,
+                            SourceType = "Drop",
+                            SourceNumber = "0",
+                            SourceLocation = raidUriList[uri]
+                        });
+                    },
+                    (itemId, itemName, questName, faction) => {
+                        items.AddItem(itemId, new DatabaseItem 
+                        {
+                            Name = itemName,
+                            Source = questName,
+                            SourceType = "Quest",
+                            SourceNumber = "0",
+                            SourceLocation = raidUriList[uri],
+                            SourceFaction = faction
+                        });
+                    });
+            }            
+        });
 
         return items;
     }
 
-    private void InternalItemsParse(Dictionary<string, string> uriList, string webAddress, IElement row, int itemId, int itemLevel, IElement item, DatabaseItems items)
+    private (int, string) GetItemFromTableRow(IHtmlTableRowElement row)
     {
-        var itemName = item.TextContent;
-        var isPurple = item.ClassName.Contains("q4") || item.ClassName.Contains("q5");
-        if (!isPurple) return;
-        if (excludedWords.Any(w => itemName.Contains(w))) return;
-
-        var sourceFaction = "B";
-        if (row.Children[7].Children.Count() > 0)
+        var tableCell = row.Cells[1];
+        var itemId = 0;
+        var itemElement = tableCell.QuerySelector("a");
+        string name = string.Empty;
+        if (itemElement != null)
         {
-            var factionColumn = (IElement)row.Children[7].ChildNodes[0];
-            if (factionColumn?.ClassName == "icon-horde")
-                sourceFaction = "H";
-            else if (factionColumn?.ClassName == "icon-alliance")
-                sourceFaction = "A";
+            var item = ((IHtmlAnchorElement)itemElement).PathName.Replace("/classic", "").Replace("/item=", "");
+
+            var itemIdIndex = item.IndexOf("/");
+            if (itemIdIndex == -1)
+                itemIdIndex = item.IndexOf("&");
+
+            item = item.Substring(0, itemIdIndex);
+            int.TryParse(item, out itemId);
+            name = itemElement.TextContent.Trim();
         }
 
-        var sourceSplit = uriList[webAddress].Split(",");
-        var sourceName = sourceSplit[0].Trim();
-        if (hardmodeLevels.ContainsKey(sourceSplit[1].Trim()) &&
-            itemLevel > hardmodeLevels[sourceSplit[1].Trim()] &&
-            !sourceSplit[0].Trim().Contains("Algalon"))
-        {
-            sourceName += " (Hard)";
-        }
-
-        items.AddItem(itemId, new DatabaseItem
-        {
-            Name = itemName,
-            SourceNumber = "0",
-            Source = sourceName,
-            SourceLocation = sourceSplit[1].Trim(),
-            SourceType = "Drop",
-            SourceFaction = sourceFaction
-        });
+        return (itemId, name);
     }
 
-    private IHtmlAnchorElement? RecursivelyFindFirstAnchor(IElement element)
+    private void LoopThroughTable(IHtmlTableElement table, Action<int, string, string> bossFunc, Action<int, string, string, string> questFunc)
     {
-        IHtmlAnchorElement? result = null;
-        if (element is IHtmlAnchorElement && element.ClassName != "toggler-off")
-            result = element as IHtmlAnchorElement;
-        else
+        if (table == null)
+            return;
+
+        var isBoss = false;
+        var firstRow = false;
+        foreach (var row in table.Rows)
         {
-            foreach (var child in element.Children)
+            if (!firstRow)
             {
-                if (result == null)
-                    result = RecursivelyFindFirstAnchor(child);
+                firstRow = true;
+                if (row.Cells[2].TextContent.Trim() == "Boss")
+                    isBoss = true;
+                continue;
+            }
+
+            if (isBoss)
+            {
+                var (itemId, itemName) = GetItemFromTableRow(row);
+
+                bossFunc(itemId, itemName, row.Cells[2].TextContent);
+            } 
+            else
+            {
+                var (itemId, itemName) = GetItemFromTableRow(row);
+                
+                Common.RecursiveBoxSearch(row.Cells[2], (anchor) => 
+                {
+                    var faction = "B";
+                    if(anchor.Children[1].ClassName.Contains("icon-horde")) {
+                        faction = "H";
+                    } else if (anchor.Children[1].ClassName.Contains("icon-alliance")) {
+                        faction = "A";
+                    }
+                    questFunc(itemId, itemName, anchor.TextContent.Trim(), faction);
+                    return true;
+                });
             }
         }
-        return result;
     }
 }

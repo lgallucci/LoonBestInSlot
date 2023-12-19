@@ -1,5 +1,860 @@
 {
-    "Items": {
-      
+  "Items": {
+    "204804": {
+      "Name": "Hydraxian Bangles",
+      "Source": "Baron Aquanis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "204807": {
+      "Name": "Fathomblade",
+      "Source": "Baron Aquanis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209418": {
+      "Name": "Adamantine Tortoise Armor",
+      "Source": "Ghamoo-ra",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209421": {
+      "Name": "Cord of Aquanis",
+      "Source": "Baron Aquanis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209422": {
+      "Name": "High Tide Choker",
+      "Source": "Baron Aquanis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209423": {
+      "Name": "Flowing Scarf",
+      "Source": "Baron Aquanis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209424": {
+      "Name": "Shell Plate Barrier",
+      "Source": "Ghamoo-ra",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209432": {
+      "Name": "Ghamoo-ra's Cinch",
+      "Source": "Ghamoo-ra",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209436": {
+      "Name": "Chipped Bite of Serra'kis",
+      "Source": "Ghamoo-ra",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209523": {
+      "Name": "Shimmering Thresher Cape",
+      "Source": "Ghamoo-ra",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209524": {
+      "Name": "Bindings of Serra'kis",
+      "Source": "Ghamoo-ra",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209525": {
+      "Name": "Honed Darkwater Talwar",
+      "Source": "Lady Sarevess",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209527": {
+      "Name": "Naga Battle Gauntlets",
+      "Source": "Lady Saravess",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209534": {
+      "Name": "Azshari Arbalest",
+      "Source": "Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209559": {
+      "Name": "Twilight Sage's Walking Stick",
+      "Source": "Gelihast",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209560": {
+      "Name": "Hammer of Righteous Judgement",
+      "Source": "Lorgus Jett",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209561": {
+      "Name": "Rod of the Ancient Sleepwalker",
+      "Source": "Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209562": {
+      "Name": "Deadly Strike of the Hydra",
+      "Source": "Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209563": {
+      "Name": "Naga Heartrender",
+      "Source": "Lady Sarevess",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209564": {
+      "Name": "Guardian's Trident",
+      "Source": "Lady Sarevess",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209565": {
+      "Name": "Band of Deep Places",
+      "Source": "Lady Sarevess",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209566": {
+      "Name": "Leggings of the Faithful",
+      "Source": "Lady Sarevess",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209567": {
+      "Name": "Coral Reef Axe",
+      "Source": "Gelihast",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209568": {
+      "Name": "Algae Gauntlets",
+      "Source": "Gelihast",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209569": {
+      "Name": "Murloc Hide Kneeboots",
+      "Source": "Gelihast",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209570": {
+      "Name": "Tome of Cavern Lore",
+      "Source": "Gelihast",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209571": {
+      "Name": "Deadlight",
+      "Source": "Gelihast",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209572": {
+      "Name": "Black Boiled Leathers",
+      "Source": "Gelihast",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209573": {
+      "Name": "Wrathful Spire",
+      "Source": "Gelihast",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209574": {
+      "Name": "Discarded Tenets of the Silver Hand",
+      "Source": "Lorgus Jett",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209575": {
+      "Name": "Carved Driftwood Icon",
+      "Source": "Lorgus Jett",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209576": {
+      "Name": "Mind-Expanding Mushroom",
+      "Source": "Lorgus Jett",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209577": {
+      "Name": "Fist of the Wild",
+      "Source": "Lorgus Jett",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209578": {
+      "Name": "Glowing Leather Bands",
+      "Source": "Lorgus Jett",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209579": {
+      "Name": "Crashing Thunder",
+      "Source": "Lorgus Jett",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209580": {
+      "Name": "Gusting Wind",
+      "Source": "Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209581": {
+      "Name": "Silver Hand Sabatons",
+      "Source": "Lorgus Jett",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209590": {
+      "Name": "Cracked Water Globe",
+      "Source": "Baron Aquanis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209667": {
+      "Name": "Gaze Dreamer Leggings",
+      "Source": "Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209668": {
+      "Name": "Signet of the Twilight Lord",
+      "Source": "Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209669": {
+      "Name": "Twilight Invoker's Shoes",
+      "Source": "Gelihast, Lorgus Jett, Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209670": {
+      "Name": "Skinwalkers",
+      "Source": "Gelihast",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209671": {
+      "Name": "Twilight Invoker's Robes",
+      "Source": "Gelihast, Lorgus Jett",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209672": {
+      "Name": "Black Fingerless Gloves",
+      "Source": "Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209673": {
+      "Name": "Glowing Fetish Amulet",
+      "Source": "Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209674": {
+      "Name": "Phoenix Ignition",
+      "Source": "Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209675": {
+      "Name": "Clamweave Tunic",
+      "Source": "Ghamoo-ra",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209676": {
+      "Name": "Shoulderguards of Crushing Depths",
+      "Source": "Baron Aquanis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209677": {
+      "Name": "Loop of Swift Currents",
+      "Source": "Baron Aquanis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209678": {
+      "Name": "Mantle of the Thresher Slayer",
+      "Source": "Ghamoo-ra",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209679": {
+      "Name": "Azshari Novice's Shoulderpads",
+      "Source": "Lady Sarevess",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209680": {
+      "Name": "Waterproof Scarf",
+      "Source": "Lady Sarevess",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209681": {
+      "Name": "Black Murloc Egg",
+      "Source": "Gelihast",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209682": {
+      "Name": "Sturdy Hood",
+      "Source": "Lorgus Jett",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209683": {
+      "Name": "Twilight Invoker's Shawl",
+      "Source": "Gelihast, Lorgus Jett",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209684": {
+      "Name": "Soul Leech Pants",
+      "Source": "Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209685": {
+      "Name": "Ancient Moss Cinch",
+      "Source": "Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209686": {
+      "Name": "Jagged Bone Necklace",
+      "Source": "Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209687": {
+      "Name": "Hydra Hide Cuirass",
+      "Source": "Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209688": {
+      "Name": "Bael Modan Blunderbuss",
+      "Source": "Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209689": {
+      "Name": "Crabshell Waders",
+      "Source": "Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209690": {
+      "Name": "Shadowscale Coif",
+      "Source": "Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209691": {
+      "Name": "Vampiric Boot Knife",
+      "Source": "Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209692": {
+      "Name": "Sentinel Pauldrons",
+      "Source": "Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209694": {
+      "Name": "Blackfathom Ritual Dagger",
+      "Source": "Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209816": {
+      "Name": "Fetish of Mischief",
+      "Source": "Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209817": {
+      "Name": "Voidwalker Brooch",
+      "Source": "Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209818": {
+      "Name": "Sun-Touched Crescent",
+      "Source": "Lorgus Jett",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209820": {
+      "Name": "Black Shroud Choker",
+      "Source": "Gelihast",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209821": {
+      "Name": "Ring of Shadowsight",
+      "Source": "Gelihast",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209822": {
+      "Name": "Strength of Purpose",
+      "Source": "Lady Sarevess",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209823": {
+      "Name": "Signet of Beasts",
+      "Source": "Lady Sarevess",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209824": {
+      "Name": "Shimmering Shoulderpads",
+      "Source": "Ghamoo-ra",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209825": {
+      "Name": "Droplet Choker",
+      "Source": "Baron Aquanis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209828": {
+      "Name": "Sub-Zero Pauldrons",
+      "Source": "Baron Aquanis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "209830": {
+      "Name": "Ironhide Arbalest",
+      "Source": "Ghamoo-ra",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211449": {
+      "Name": "Avenger's Void Pearl",
+      "Source": "The Heart of the Void",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "H"
+    },
+    "211450": {
+      "Name": "Invoker's Void Pearl",
+      "Source": "The Heart of the Void",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "H"
+    },
+    "211451": {
+      "Name": "Acolyte's Void Pearl",
+      "Source": "The Heart of the Void",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "H"
+    },
+    "211455": {
+      "Name": "Slick Fingerless Gloves",
+      "Source": "Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211456": {
+      "Name": "Dagger of Willing Sacrifice",
+      "Source": "Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211457": {
+      "Name": "Twilight Defender's Girdle",
+      "Source": "Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211458": {
+      "Name": "Tome of Shadow Warding",
+      "Source": "Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211460": {
+      "Name": "Ancient Arctic Buckler",
+      "Source": "Blackfathom Villainy",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "H"
+    },
+    "211461": {
+      "Name": "Inscribed Gravestone Scepter",
+      "Source": "Blackfathom Villainy",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "H"
+    },
+    "211462": {
+      "Name": "Ever-Sustaining Ring",
+      "Source": "Knowledge in the Deeps",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "A"
+    },
+    "211463": {
+      "Name": "Chittering Beetle Clasps",
+      "Source": "Researching the Corruption",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "A"
+    },
+    "211464": {
+      "Name": "Worn Prelacy Cape",
+      "Source": "Researching the Corruption",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "A"
+    },
+    "211465": {
+      "Name": "Nimbus Boots of Insight",
+      "Source": "Twilight Falls",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "A"
+    },
+    "211466": {
+      "Name": "Tender's Heartwood Girdle",
+      "Source": "Twilight Falls",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "A"
+    },
+    "211467": {
+      "Name": "Band of the Iron Fist",
+      "Source": "Allegiance to the Old Gods",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "H"
+    },
+    "211468": {
+      "Name": "Frayed Chestnut Mantle",
+      "Source": "Allegiance to the Old Gods",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "H"
+    },
+    "211491": {
+      "Name": "Bottomless Murloc Skin Bag",
+      "Source": "Gelihast",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211492": {
+      "Name": "Kelris's Satchel",
+      "Source": "Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211504": {
+      "Name": "Twilight Avenger's Chain",
+      "Source": "Gelihast, Lorgus Jett, Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211505": {
+      "Name": "Twilight Avenger's Helm",
+      "Source": "Gelihast, Lorgus Jett, Twilight Lord Kelris, Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211506": {
+      "Name": "Twilight Avenger's Boots",
+      "Source": "Gelihast, Lorgus Jett, Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211507": {
+      "Name": "Twilight Elementalist's Cowl",
+      "Source": "Gelihast, Lorgus Jett, Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211508": {
+      "Name": "Twilight Elementalist's Footpads",
+      "Source": "Gelihast, Lorgus Jett, Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211509": {
+      "Name": "Twilight Elementalist's Robe",
+      "Source": "Gelihast, Lorgus Jett",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211510": {
+      "Name": "Twilight Slayer's Cowl",
+      "Source": "Gelihast, Lorgus Jett, Twilight Lord Kelris, Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211511": {
+      "Name": "Twilight Slayer's Footpads",
+      "Source": "Gelihast, Lorgus Jett, Twilight Lord Kelris, Aku'mai",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211512": {
+      "Name": "Twilight Slayer's Tunic",
+      "Source": "Gelihast, Lorgus Jett, Twilight Lord Kelris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211789": {
+      "Name": "Artemis Cowl",
+      "Source": "Lady Sarevess",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211842": {
+      "Name": "Rakkamar's Tattered Thinking Cap",
+      "Source": "Lady Sarevess",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211843": {
+      "Name": "Mask of Scorn",
+      "Source": "Lady Saravess",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
+    },
+    "211852": {
+      "Name": "Handwraps of Befouled Water",
+      "Source": "Baron Aquanis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackfathom Deeps",
+      "SourceFaction": "B"
     }
+  }
 }
