@@ -25,13 +25,12 @@ namespace AddonManager.Ui;
 /// </summary>
 public sealed partial class GuideImporter : Page
 {
-    public string[] SpecList = {"DeathKnightBlood", "DeathKnightFrost", "DeathKnightUnholy", "DruidBalance", "DruidBear", "DruidCat", "DruidRestoration",
-                                "HunterBeastMastery", "HunterMarksmanship", "HunterSurvival", "MageArcane", "MageFrost", "MageFire", "PaladinHoly", "PaladinProtection",
-                                "PaladinRetribution", "PriestHoly","PriestDiscipline", "PriestShadow", "RogueAssassination", "RogueSubtlety", "RogueCombat",
-                                "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAffliction", "WarlockDemonology", "WarlockDestruction", "WarriorArms",
-                                "WarriorFury", "WarriorProtection"};
+    public string[] SpecList = {"DruidBalanceDps", "DruidFeralDps", "HunterDps", "MageDps", "PaladinDps", "PriestDps", "RogueDps", 
+                                "ShamanElementalDps", "ShamanEnhancementDps", "WarlockDps", "WarriorDps", "DruidHealer", "MageHealer", 
+                                "PaladinHealer", "PriestHealer", "ShamanHealer", "DruidTank", "PaladinTank", "RogueTank", "ShamanTank", 
+                                "WarlockTank", "WarriorTank", };
 
-    public string[] PhaseList = { "GemsEnchants", "Phase0", "Phase1", "Phase2", "Phase3",  "Phase4" };
+    public string[] PhaseList = { "Phase1" };
 
     public GuideImporter()
     {
@@ -113,7 +112,7 @@ public sealed partial class GuideImporter : Page
                 var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}"
                     && gm.Phase == phaseString);
 
-                var items = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{specMapping.ClassName.Replace(" ", "")}{specMapping.SpecName.Replace(" ", "")}.lua").Item3;
+                var items = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{specMapping.ClassName.Replace(" ", "")}{specMapping.SpecName.Replace(" ", "")}").Item3;
 
                 WowheadImporter.VerifyGuide(items[Int32.Parse(phaseString.Replace("Phase", ""))]);
 
