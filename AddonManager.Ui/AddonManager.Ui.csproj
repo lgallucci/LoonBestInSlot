@@ -12,7 +12,7 @@
     <EnableMsixTooling>true</EnableMsixTooling>
     <UseWPF>False</UseWPF>
     <IsPublishable>True</IsPublishable>
-	<WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+	  <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
   </PropertyGroup>
 
   <ItemGroup>
