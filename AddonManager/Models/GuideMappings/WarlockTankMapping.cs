@@ -19,6 +19,8 @@ internal class WarlockTankMapping : SpecMapping
     public override string Phase1Url => "tank-bis-gear-pve-phase-1";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
+            { ("Wrist", "#wrists") },
+            { ("Ring", "#ring") },
             { ("Main Hand", "h3#main-hand") },
             { ("Off Hand", "h3#off-hand") },
             { ("Two Hand", "#staves") },

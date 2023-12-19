@@ -20,7 +20,7 @@ internal class WarriorDpsMapping : SpecMapping
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "#duel-wield") },
-            { ("Two Hand", "h3#two-handed") },
+            { ("Two Hand", "h3#two-hand") },
             { ("Ranged/Relic", "h3#ranged") },
         };
 

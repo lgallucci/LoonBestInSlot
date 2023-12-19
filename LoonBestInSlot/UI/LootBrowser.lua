@@ -183,29 +183,29 @@ local function createTabs(window, content)
         LBIS.BrowserWindow:RefreshItems();
     end);
 
-    local gemListTabButton = CreateFrame("Button", "ContainerTab2", window, "CharacterFrameTabButtonTemplate")
-    local gemListTabString = gemListTabButton:CreateFontString("GemListTabText", "OVERLAY", "GameFontNormalSmall");
-    gemListTabString:SetPoint("CENTER", gemListTabButton, "CENTER",  0, 3);
-    gemListTabString:SetText(LBIS.L["Gems"]);
-    gemListTabButton:SetPoint("LEFT", itemListTabButton, "RIGHT", -16, 0);
-    gemListTabButton:SetScript("OnClick", function(self)
-        PanelTemplates_SetTab(content, 2);
-        LBISSettings.OpenTab = "GemList";
+    -- local gemListTabButton = CreateFrame("Button", "ContainerTab2", window, "CharacterFrameTabButtonTemplate")
+    -- local gemListTabString = gemListTabButton:CreateFontString("GemListTabText", "OVERLAY", "GameFontNormalSmall");
+    -- gemListTabString:SetPoint("CENTER", gemListTabButton, "CENTER",  0, 3);
+    -- gemListTabString:SetText(LBIS.L["Gems"]);
+    -- gemListTabButton:SetPoint("LEFT", itemListTabButton, "RIGHT", -16, 0);
+    -- gemListTabButton:SetScript("OnClick", function(self)
+    --     PanelTemplates_SetTab(content, 2);
+    --     LBISSettings.OpenTab = "GemList";
 
-        LBIS.BrowserWindow:RefreshItems();
-    end);
+    --     LBIS.BrowserWindow:RefreshItems();
+    -- end);
 
-    local enchantListTabButton = CreateFrame("Button", "ContainerTab3", window, "CharacterFrameTabButtonTemplate")
-    local enchantListTabString = enchantListTabButton:CreateFontString("EnchantListTabText", "OVERLAY", "GameFontNormalSmall");
-    enchantListTabString:SetPoint("CENTER", enchantListTabButton, "CENTER", 0, 3);
-    enchantListTabString:SetText(LBIS.L["Enchants"]);
-    enchantListTabButton:SetPoint("LEFT", gemListTabButton, "RIGHT", -16, 0);
-    enchantListTabButton:SetScript("OnClick", function(self)
-        PanelTemplates_SetTab(content, 3);
-        LBISSettings.OpenTab = "EnchantList";
+    -- local enchantListTabButton = CreateFrame("Button", "ContainerTab3", window, "CharacterFrameTabButtonTemplate")
+    -- local enchantListTabString = enchantListTabButton:CreateFontString("EnchantListTabText", "OVERLAY", "GameFontNormalSmall");
+    -- enchantListTabString:SetPoint("CENTER", enchantListTabButton, "CENTER", 0, 3);
+    -- enchantListTabString:SetText(LBIS.L["Enchants"]);
+    -- enchantListTabButton:SetPoint("LEFT", gemListTabButton, "RIGHT", -16, 0);
+    -- enchantListTabButton:SetScript("OnClick", function(self)
+    --     PanelTemplates_SetTab(content, 3);
+    --     LBISSettings.OpenTab = "EnchantList";
 
-        LBIS.BrowserWindow:RefreshItems();
-    end);
+    --     LBIS.BrowserWindow:RefreshItems();
+    -- end);
 
 
     customListTabButton = CreateFrame("Button", "ContainerTab4", window, "CharacterFrameTabButtonTemplate")
@@ -272,7 +272,7 @@ local function createDropDowns(window)
         ['title']='Slot:',
         ['items']= { LBIS.L["All"], LBIS.L["Head"], LBIS.L["Shoulder"], LBIS.L["Back"], LBIS.L["Chest"], LBIS.L["Wrist"], 
             LBIS.L["Hands"], LBIS.L["Waist"], LBIS.L["Legs"], LBIS.L["Feet"], LBIS.L["Neck"], LBIS.L["Ring"], LBIS.L["Trinket"], 
-            LBIS.L["Main Hand"], LBIS.L["Off Hand"], LBIS.L["Two Hand"], LBIS.L["Ranged/Relic"] },        
+            LBIS.L["Main Hand"], LBIS.L["Off Hand"], LBIS.L["Two Hand"], LBIS.L["Ranged/Relic"] },
         ['defaultVal']=LBISSettings.SelectedSlot,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedSlot = dropdown_val;
@@ -286,7 +286,7 @@ local function createDropDowns(window)
         ['name']='phase',
         ['parent']=window,
         ['title']='Phase:',
-        ['items']= { LBIS.L["All"], LBIS.L["PreRaid"], LBIS.L["Phase 1"], LBIS.L["Phase 2"], LBIS.L["Phase 3"], LBIS.L["Phase 4"], "BIS" }, --LBIS.L["Phase 5"],
+        ['items']= { LBIS.L["All"], LBIS.L["PreRaid"], LBIS.L["Phase 1"], "BIS" }, --LBIS.L["Phase 2"], LBIS.L["Phase 3"], LBIS.L["Phase 4"], "BIS" }, --LBIS.L["Phase 5"],
         ['defaultVal']=LBISSettings.SelectedPhase,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedPhase = dropdown_val;
@@ -314,7 +314,8 @@ local function createDropDowns(window)
         ['name']='source',
         ['parent']=window,
         ['title']='Source:',
-        ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Dungeon Token"], LBIS.L["Vendor"], LBIS.L["Quest"], LBIS.L["PvP"] },
+        ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Dungeon Token"], LBIS.L["Vendor"], 
+            LBIS.L["Quest"], LBIS.L["PvP"] },
         ['defaultVal']= LBISSettings.SelectedSourceType,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedSourceType = dropdown_val;
@@ -327,15 +328,9 @@ local function createDropDowns(window)
     local zone_opts = {
         ['name']='zone',
         ['parent']=window,
-        ['title']='Raid:',
-        ['items']= { LBIS.L["All"], LBIS.L["Heroic"], LBIS.L["Naxxramas"], LBIS.L["The Eye of Eternity"], LBIS.L["The Obsidian Sanctum"], 
-            LBIS.L["Ulduar (10)"], LBIS.L["Ulduar (25)"], 
-            LBIS.L["Vault of Archavon (10)"], LBIS.L["Vault of Archavon (25)"], 
-            LBIS.L["Trial of the Crusader (10)"], LBIS.L["Trial of the Crusader (25)"],
-            LBIS.L["Trial of the Grand Crusader (10)"], LBIS.L["Trial of the Grand Crusader (25)"],
-            LBIS.L["Onyxia (10)"], LBIS.L["Onyxia (25)"], 
-            LBIS.L["Icecrown Citadel (10)"], LBIS.L["Icecrown Citadel (10H)"], LBIS.L["Icecrown Citadel (25)"], LBIS.L["Icecrown Citadel (25H)"]},
-            --LBIS.L["The Ruby Sanctum (10)"], LBIS.L["The Ruby Sanctum (25)"]},
+        ['title']='Zone:',
+        ['items']= { LBIS.L["All"], LBIS.L["Ragefire Chasm"], LBIS.L["Wailing Caverns"], LBIS.L["The Deadmines"], LBIS.L["Shadowfang Keep"], 
+            LBIS.L["Blackfathom Deeps"] },
         ['defaultVal']= LBISSettings.SelectedZone,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedZone = dropdown_val;

@@ -8,7 +8,7 @@ public class ReputationImporter : LootImporter
 {
     private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
-        //{ @"https://www.wowhead.com/wotlk/npc=31910/geen", "The Oracles" },
+        //{ @"https://www.wowhead.com/classic/npc=31910/geen", "The Oracles" },
     };
 
     internal override string FileName { get => "ReputationItemList"; }

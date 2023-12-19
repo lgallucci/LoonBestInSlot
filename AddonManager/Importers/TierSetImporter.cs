@@ -9,7 +9,7 @@ public class TierSetImporter : LootImporter
 {
     private List<string> armorTokenUris = new List<string>
     {
-        //@"https://www.wowhead.com/wotlk/item=40618/helm-of-the-lost-vanquisher#currency-for",
+        //@"https://www.wowhead.com/classic/item=40618/helm-of-the-lost-vanquisher#currency-for",
     };
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToText)
@@ -69,7 +69,7 @@ public class TierSetImporter : LootImporter
                     if (cellAnchor != null)
                     {
                         int itemId = 0, tokenId = 0;
-                        var item = cellAnchor.PathName.Replace("/wotlk", "").Replace("/item=", "");
+                        var item = cellAnchor.PathName.Replace("/classic", "").Replace("/item=", "");
 
                         var itemIdIndex = item.IndexOf("/");
                         if (itemIdIndex == -1)
@@ -77,7 +77,7 @@ public class TierSetImporter : LootImporter
                         item = item.Substring(0, itemIdIndex);
                         int.TryParse(item, out itemId);
 
-                        var token = uri.Replace("https://www.wowhead.com/wotlk/item=", "");
+                        var token = uri.Replace("https://www.wowhead.com/classic/item=", "");
 
                         var tokenIdIndex = token.IndexOf("/");
                         if (tokenIdIndex == -1)

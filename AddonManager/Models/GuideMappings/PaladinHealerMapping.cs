@@ -21,7 +21,7 @@ internal class PaladinHealerMapping : SpecMapping
         {
             { ("Main Hand", "h3#main-hand") },
             { ("Off Hand", "h3#off-hand") },
-            { ("Ranged/Relic", "h3#librams") },
+            { ("Ranged/Relic", "h3#libram") },
         };
 
     public override string Phase2Url => "healer-bis-gear-pve-phase-2";

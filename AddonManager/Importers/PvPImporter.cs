@@ -9,7 +9,7 @@ public class PvPImporter : LootImporter
 {
     private Dictionary<string, Tuple<string, string>> wowheadUriList = new Dictionary<string, Tuple<string, string>>
     {
-        //{ @"https://www.wowhead.com/wotlk/npc=32380/lieutenant-tristia#sells", new Tuple<string, string>("Wrathful, Battlemaster>245", "Faction PVP Vendor") },
+        //{ @"https://www.wowhead.com/classic/npc=32380/lieutenant-tristia#sells", new Tuple<string, string>("Wrathful, Battlemaster>245", "Faction PVP Vendor") },
     };
 
     internal override string FileName { get => "PvPItemList"; }
@@ -44,7 +44,7 @@ public class PvPImporter : LootImporter
 
                 Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
                 {
-                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/wotlk", "").Replace("/currency=", "");
+                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/classic", "").Replace("/currency=", "");
 
                     var currencyIdIndex = item.IndexOf("/");
                     if (currencyIdIndex == -1)
