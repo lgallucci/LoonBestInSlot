@@ -366,7 +366,7 @@ local function createItemRow(f, specItem, specItemSource)
                 local bt = tb:CreateTexture();
                 bt:SetAllPoints();
                 bt:SetTexture(professionSpell.Texture);
-                tb:SetPoint("BOTTOMLEFT", dl, "BOTTOMRIGHT", 5, -2);
+                tb:SetPoint("BOTTOMLEFT", dl, "BOTTOMRIGHT", 10, -2);
                 LBIS:SetTooltipOnButton(tb, professionSpell, true);
                 
                 dl:SetText(specItemSource.Source);

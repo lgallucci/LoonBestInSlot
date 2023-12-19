@@ -33,7 +33,7 @@ end
 
 local customListTabButton;
 local customEditTabButton;
-function LBIS.BrowserWindow:RefreshItems()    
+function LBIS.BrowserWindow:RefreshItems()
 
     if LBISSettings.ShowCustom then
         customListTabButton:Show()
@@ -49,13 +49,13 @@ function LBIS.BrowserWindow:RefreshItems()
             LBIS.ItemList:UpdateItems();
         --end);
     elseif LBISSettings.OpenTab == "EnchantList" then
-        PanelTemplates_SetTab(LBIS.BrowserWindow.Window.Container, 3);
+        PanelTemplates_SetTab(LBIS.BrowserWindow.Window.Container, 2);
         LBIS.EnchantList:UpdateItems();        
     elseif LBISSettings.OpenTab == "CustomItemList" then
-        PanelTemplates_SetTab(LBIS.BrowserWindow.Window.Container, 4);
+        PanelTemplates_SetTab(LBIS.BrowserWindow.Window.Container, 3);
         LBIS.CustomItemList:UpdateItems();
     elseif LBISSettings.OpenTab == "CustomEditList" then
-        PanelTemplates_SetTab(LBIS.BrowserWindow.Window.Container, 5);
+        PanelTemplates_SetTab(LBIS.BrowserWindow.Window.Container, 4);
         LBIS.CustomEditList:UpdateItems();
     end
 end
@@ -180,44 +180,43 @@ local function createTabs(window, content)
         LBIS.BrowserWindow:RefreshItems();
     end);
 
-    -- local enchantListTabButton = CreateFrame("Button", "ContainerTab3", window, "CharacterFrameTabButtonTemplate")
-    -- local enchantListTabString = enchantListTabButton:CreateFontString("EnchantListTabText", "OVERLAY", "GameFontNormalSmall");
-    -- enchantListTabString:SetPoint("CENTER", enchantListTabButton, "CENTER", 0, 3);
-    -- enchantListTabString:SetText(LBIS.L["Enchants"]);
-    -- enchantListTabButton:SetPoint("LEFT", itemListTabButton, "RIGHT", -16, 0);
-    -- enchantListTabButton:SetScript("OnClick", function(self)
-    --     PanelTemplates_SetTab(content, 3);
-    --     LBISSettings.OpenTab = "EnchantList";
+    local enchantListTabButton = CreateFrame("Button", "ContainerTab2", window, "CharacterFrameTabButtonTemplate")
+    local enchantListTabString = enchantListTabButton:CreateFontString("EnchantListTabText", "OVERLAY", "GameFontNormalSmall");
+    enchantListTabString:SetPoint("CENTER", enchantListTabButton, "CENTER", 0, 3);
+    enchantListTabString:SetText(LBIS.L["Enchants"]);
+    enchantListTabButton:SetPoint("LEFT", itemListTabButton, "RIGHT", -16, 0);
+    enchantListTabButton:SetScript("OnClick", function(self)
+        PanelTemplates_SetTab(content, 2);
+        LBISSettings.OpenTab = "EnchantList";
 
-    --     LBIS.BrowserWindow:RefreshItems();
-    -- end);
+        LBIS.BrowserWindow:RefreshItems();
+    end);
 
-
-    customListTabButton = CreateFrame("Button", "ContainerTab4", window, "CharacterFrameTabButtonTemplate")
+    customListTabButton = CreateFrame("Button", "ContainerTab3", window, "CharacterFrameTabButtonTemplate")
     local customListTabString = customListTabButton:CreateFontString("CustomListTabText", "OVERLAY", "GameFontNormalSmall");
     customListTabString:SetPoint("CENTER", customListTabButton, "CENTER", 0, 3);
     customListTabString:SetText(LBIS.L["Custom"]);
     customListTabButton:SetPoint("LEFT", enchantListTabButton, "RIGHT", -16, 0);
     customListTabButton:SetScript("OnClick", function(self)
-        PanelTemplates_SetTab(content, 4);
+        PanelTemplates_SetTab(content, 3);
         LBISSettings.OpenTab = "CustomItemList";
 
         LBIS.BrowserWindow:RefreshItems();
     end);
 
-    customEditTabButton = CreateFrame("Button", "ContainerTab5", window, "CharacterFrameTabButtonTemplate")
+    customEditTabButton = CreateFrame("Button", "ContainerTab4", window, "CharacterFrameTabButtonTemplate")
     local customEditTabString = customEditTabButton:CreateFontString("CustomEditTabText", "OVERLAY", "GameFontNormalSmall");
     customEditTabString:SetPoint("CENTER", customEditTabButton, "CENTER", 0, 3);
     customEditTabString:SetText(LBIS.L["Edit"]);
     customEditTabButton:SetPoint("LEFT", customListTabButton, "RIGHT", -16, 0);
     customEditTabButton:SetScript("OnClick", function(self)
-        PanelTemplates_SetTab(content, 5);
+        PanelTemplates_SetTab(content, 4);
         LBISSettings.OpenTab = "CustomEditList";
     
         LBIS.BrowserWindow:RefreshItems();
     end);
 
-    PanelTemplates_SetNumTabs(content, 5);
+    PanelTemplates_SetNumTabs(content, 4);
     PanelTemplates_SetTab(content, 1);
 end
 
@@ -394,7 +393,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     window:RegisterForDrag("LeftButton");
 
     local header = window:CreateFontString(nil, nil, "GameFontHighlightMed2");
-    header:SetText(LBIS.L["Loon Best In Slot Browser"]);
+    header:SetText(LBIS.L["Loon Best In Slot Browser (SOD)"]);
     header:SetPoint("TOP", window, -5, -5);
 
     local topLine = window:CreateLine();
@@ -454,7 +453,5 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     LBIS.BrowserWindow.Window.HideUnavailable = function () f:Hide() end;
 
     LBIS.SearchFrame:CreateSearch();
-
     LBIS:RegisterTooltip();
-
 end
