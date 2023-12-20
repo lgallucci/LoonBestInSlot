@@ -57,7 +57,7 @@ public class RaidImporter : LootImporter
                             SourceFaction = faction
                         });
                     });
-            }            
+            }
         });
 
         return items;

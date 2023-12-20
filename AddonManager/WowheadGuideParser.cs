@@ -283,28 +283,28 @@ public class WowheadGuideParser
         doc = await parser.ParseDocumentAsync(content);
 
         LoopThroughMappings(doc, classGuide, 
-        (enchantAnchor, slot) =>
-        {
-            ParseEnchant(enchantAnchor, slot, enchants);
-        },        
-        (table, slot, htmlId) =>
-        {
-            bool first = true;
-            LoopThroughTable(table, (tableRow, itemChild, itemOrderIndex, isTierList) =>
+            (enchantAnchor, slot) =>
             {
-                string htmlBisText = string.Empty, rankText = string.Empty;
-                if (isTierList)
-                    rankText = tableRow?.ChildNodes[1].TextContent.Trim() ?? string.Empty;
+                ParseEnchant(enchantAnchor, slot, enchants);
+            },
+            (table, slot, htmlId) =>
+            {
+                bool first = true;
+                LoopThroughTable(table, (tableRow, itemChild, itemOrderIndex, isTierList) =>
+                {
+                    string htmlBisText = string.Empty, rankText = string.Empty;
+                    if (isTierList)
+                        rankText = tableRow?.ChildNodes[1].TextContent.Trim() ?? string.Empty;
 
-                htmlBisText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
+                    htmlBisText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
 
-                var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList, first, classGuide.Phase);
+                    var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList, first, classGuide.Phase);
 
-                if (itemChild != null)
-                    ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText), items, itemOrderIndex);
-                first = false;
+                    if (itemChild != null)
+                        ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText), items, itemOrderIndex);
+                    first = false;
+                });
             });
-        });
 
         return (items, enchants);
     }
@@ -539,7 +539,7 @@ public class WowheadGuideParser
                             foundEnchantText = false;
                         }
 
-                        if (Regex.Match(nextSibling.TextContent.Trim(), "Recommended*.Enchant").Success)
+                        if (Regex.Match(nextSibling.TextContent.Trim(), "Recommended.*Enchant").Success)
                             foundEnchantText = true;
 
                         nextSibling = nextSibling?.NextSibling;

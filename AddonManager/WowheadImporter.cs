@@ -227,8 +227,8 @@ public static class WowheadImporter
                     EnchantId = enchant.Value.EnchantId,
                     DesignId = 99999,
                     Name = enchant.Value.Name,
-                    Source = "unknown",
-                    SourceLocation = "unknown",
+                    Source = "\"unknown\"",
+                    SourceLocation = "\"unknown\"",
                     TextureId = enchant.Value.TextureId
                 });
             }
