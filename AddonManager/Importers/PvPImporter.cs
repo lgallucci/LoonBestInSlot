@@ -47,6 +47,8 @@ public class PvPImporter : LootImporter
                 // if (!levelSplit.Any(i => itemName.Contains(i[0].Trim()) && (i.Length < 2 || Int32.Parse(i[1]) < itemLevel)))
                 //     return;
 
+                var faction = wowheadUriList[uri];
+
                 foreach(var currency in row.Children[10].Children)
                 {
                     if (currency.ClassName == "moneygold") 
@@ -71,7 +73,8 @@ public class PvPImporter : LootImporter
                         SourceNumber = currencyNumber,
                         Source = currencySource,
                         SourceLocation = currencySourceLocation,
-                        SourceType = "PvP"
+                        SourceType = "PvP",
+                        SourceFaction = faction
                     });
                 }
             });

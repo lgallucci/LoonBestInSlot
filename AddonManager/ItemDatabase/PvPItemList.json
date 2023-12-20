@@ -6,7 +6,7 @@
       "SourceType": "PvP",
       "SourceNumber": "10g58s82c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "15196": {
       "Name": "Private's Tabard",
@@ -14,7 +14,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "15197": {
       "Name": "Scout's Tabard",
@@ -22,7 +22,7 @@
       "SourceType": "PvP",
       "SourceNumber": "94s11c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "15200": {
       "Name": "Senior Sergeant's Insignia",
@@ -30,7 +30,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g88s23c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "16335": {
       "Name": "Senior Sergeant's Insignia",
@@ -38,7 +38,7 @@
       "SourceType": "PvP",
       "SourceNumber": "3g76s47c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "16341": {
       "Name": "Sergeant's Cloak",
@@ -46,7 +46,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g1s64c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "16342": {
       "Name": "Sergeant's Cape",
@@ -54,7 +54,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g41s54c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "16486": {
       "Name": "First Sergeant's Silk Cuffs",
@@ -62,7 +62,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g99s75c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "16497": {
       "Name": "First Sergeant's Leather Armguards",
@@ -70,7 +70,7 @@
       "SourceType": "PvP",
       "SourceNumber": "3g23s78c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "16532": {
       "Name": "First Sergeant's Mail Wristguards",
@@ -78,7 +78,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g3s22c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "17348": {
       "Name": "Major Healing Draught",
@@ -86,7 +86,7 @@
       "SourceType": "PvP",
       "SourceNumber": "10s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "17349": {
       "Name": "Superior Healing Draught",
@@ -94,7 +94,7 @@
       "SourceType": "PvP",
       "SourceNumber": "5s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "17351": {
       "Name": "Major Mana Draught",
@@ -102,7 +102,7 @@
       "SourceType": "PvP",
       "SourceNumber": "10s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "17352": {
       "Name": "Superior Mana Draught",
@@ -110,7 +110,7 @@
       "SourceType": "PvP",
       "SourceNumber": "5s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18427": {
       "Name": "Sergeant's Cloak",
@@ -118,7 +118,7 @@
       "SourceType": "PvP",
       "SourceNumber": "62s22c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18428": {
       "Name": "Senior Sergeant's Insignia",
@@ -126,7 +126,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g82s35c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18429": {
       "Name": "First Sergeant's Plate Bracers",
@@ -134,7 +134,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g94s47c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18430": {
       "Name": "First Sergeant's Plate Bracers",
@@ -142,7 +142,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g29s52c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18432": {
       "Name": "First Sergeant's Mail Wristguards",
@@ -150,7 +150,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g95s68c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18434": {
       "Name": "First Sergeant's Dragonhide Armguards",
@@ -158,7 +158,7 @@
       "SourceType": "PvP",
       "SourceNumber": "3g94s40c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18435": {
       "Name": "First Sergeant's Leather Armguards",
@@ -166,7 +166,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g72s34c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18436": {
       "Name": "First Sergeant's Dragonhide Armguards",
@@ -174,7 +174,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g79s85c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18437": {
       "Name": "First Sergeant's Silk Cuffs",
@@ -182,7 +182,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g44s43c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18440": {
       "Name": "Sergeant's Cape",
@@ -190,7 +190,7 @@
       "SourceType": "PvP",
       "SourceNumber": "64s43c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18441": {
       "Name": "Sergeant's Cape",
@@ -198,7 +198,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g8s91c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18442": {
       "Name": "Master Sergeant's Insignia",
@@ -206,7 +206,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18443": {
       "Name": "Master Sergeant's Insignia",
@@ -214,7 +214,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18444": {
       "Name": "Master Sergeant's Insignia",
@@ -222,7 +222,7 @@
       "SourceType": "PvP",
       "SourceNumber": "3g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18445": {
       "Name": "Sergeant Major's Plate Wristguards",
@@ -230,7 +230,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g90s21c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18447": {
       "Name": "Sergeant Major's Plate Wristguards",
@@ -238,7 +238,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g42s35c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18448": {
       "Name": "Sergeant Major's Chain Armguards",
@@ -246,7 +246,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g40s6c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18449": {
       "Name": "Sergeant Major's Chain Armguards",
@@ -254,7 +254,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g15s6c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18452": {
       "Name": "Sergeant Major's Leather Armsplints",
@@ -262,7 +262,7 @@
       "SourceType": "PvP",
       "SourceNumber": "3g63s71c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18453": {
       "Name": "Sergeant Major's Leather Armsplints",
@@ -270,7 +270,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g77s78c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18454": {
       "Name": "Sergeant Major's Dragonhide Armsplints",
@@ -278,7 +278,7 @@
       "SourceType": "PvP",
       "SourceNumber": "3g48s15c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18455": {
       "Name": "Sergeant Major's Dragonhide Armsplints",
@@ -286,7 +286,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g70s20c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18456": {
       "Name": "Sergeant Major's Silk Cuffs",
@@ -294,7 +294,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g49s46c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18457": {
       "Name": "Sergeant Major's Silk Cuffs",
@@ -302,7 +302,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g18s86c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18461": {
       "Name": "Sergeant's Cloak",
@@ -310,7 +310,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g3s64c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18664": {
       "Name": "A Treatise on Military Ranks",
@@ -318,7 +318,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18675": {
       "Name": "Military Ranks of the Horde & Alliance",
@@ -326,7 +326,7 @@
       "SourceType": "PvP",
       "SourceNumber": "90c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18834": {
       "Name": "Insignia of the Horde",
@@ -334,7 +334,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g35s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18845": {
       "Name": "Insignia of the Horde",
@@ -342,7 +342,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g35s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18846": {
       "Name": "Insignia of the Horde",
@@ -350,7 +350,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g57s89c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18849": {
       "Name": "Insignia of the Horde",
@@ -358,7 +358,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g41s17c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18850": {
       "Name": "Insignia of the Horde",
@@ -366,7 +366,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g57s89c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18851": {
       "Name": "Insignia of the Horde",
@@ -374,7 +374,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18852": {
       "Name": "Insignia of the Horde",
@@ -382,7 +382,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18853": {
       "Name": "Insignia of the Horde",
@@ -390,7 +390,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g57s89c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "18854": {
       "Name": "Insignia of the Alliance",
@@ -398,7 +398,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18856": {
       "Name": "Insignia of the Alliance",
@@ -406,7 +406,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18857": {
       "Name": "Insignia of the Alliance",
@@ -414,7 +414,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g57s89c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18858": {
       "Name": "Insignia of the Alliance",
@@ -422,7 +422,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g33s33c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18859": {
       "Name": "Insignia of the Alliance",
@@ -430,7 +430,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g41s17c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18862": {
       "Name": "Insignia of the Alliance",
@@ -438,7 +438,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g57s89c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18863": {
       "Name": "Insignia of the Alliance",
@@ -446,7 +446,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "18864": {
       "Name": "Insignia of the Alliance",
@@ -454,7 +454,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g20s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19060": {
       "Name": "Warsong Gulch Enriched Ration",
@@ -462,7 +462,7 @@
       "SourceType": "PvP",
       "SourceNumber": "20s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19061": {
       "Name": "Warsong Gulch Iron Ration",
@@ -470,7 +470,7 @@
       "SourceType": "PvP",
       "SourceNumber": "15s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19062": {
       "Name": "Warsong Gulch Field Ration",
@@ -478,7 +478,7 @@
       "SourceType": "PvP",
       "SourceNumber": "10s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19066": {
       "Name": "Warsong Gulch Runecloth Bandage",
@@ -486,7 +486,7 @@
       "SourceType": "PvP",
       "SourceNumber": "20s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19067": {
       "Name": "Warsong Gulch Mageweave Bandage",
@@ -494,7 +494,7 @@
       "SourceType": "PvP",
       "SourceNumber": "15s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19068": {
       "Name": "Warsong Gulch Silk Bandage",
@@ -502,7 +502,7 @@
       "SourceType": "PvP",
       "SourceNumber": "10s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19505": {
       "Name": "Warsong Battle Tabard",
@@ -510,7 +510,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19506": {
       "Name": "Silverwing Battle Tabard",
@@ -518,7 +518,7 @@
       "SourceType": "PvP",
       "SourceNumber": "5g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19510": {
       "Name": "Legionnaire's Band",
@@ -526,7 +526,7 @@
       "SourceType": "PvP",
       "SourceNumber": "7g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19511": {
       "Name": "Legionnaire's Band",
@@ -534,7 +534,7 @@
       "SourceType": "PvP",
       "SourceNumber": "6g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19512": {
       "Name": "Legionnaire's Band",
@@ -542,7 +542,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19513": {
       "Name": "Legionnaire's Band",
@@ -550,7 +550,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19514": {
       "Name": "Protector's Band",
@@ -558,7 +558,7 @@
       "SourceType": "PvP",
       "SourceNumber": "7g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19515": {
       "Name": "Protector's Band",
@@ -566,7 +566,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19516": {
       "Name": "Protector's Band",
@@ -574,7 +574,7 @@
       "SourceType": "PvP",
       "SourceNumber": "6g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19517": {
       "Name": "Protector's Band",
@@ -582,7 +582,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19518": {
       "Name": "Advisor's Ring",
@@ -590,7 +590,7 @@
       "SourceType": "PvP",
       "SourceNumber": "7g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19519": {
       "Name": "Advisor's Ring",
@@ -598,7 +598,7 @@
       "SourceType": "PvP",
       "SourceNumber": "6g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19520": {
       "Name": "Advisor's Ring",
@@ -606,7 +606,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19521": {
       "Name": "Advisor's Ring",
@@ -614,7 +614,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19522": {
       "Name": "Lorekeeper's Ring",
@@ -622,7 +622,7 @@
       "SourceType": "PvP",
       "SourceNumber": "7g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19523": {
       "Name": "Lorekeeper's Ring",
@@ -630,7 +630,7 @@
       "SourceType": "PvP",
       "SourceNumber": "6g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19524": {
       "Name": "Lorekeeper's Ring",
@@ -638,7 +638,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19525": {
       "Name": "Lorekeeper's Ring",
@@ -646,7 +646,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19526": {
       "Name": "Battle Healer's Cloak",
@@ -654,7 +654,7 @@
       "SourceType": "PvP",
       "SourceNumber": "9g5s80c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19527": {
       "Name": "Battle Healer's Cloak",
@@ -662,7 +662,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g81s58c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19528": {
       "Name": "Battle Healer's Cloak",
@@ -670,7 +670,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g39s4c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19529": {
       "Name": "Battle Healer's Cloak",
@@ -678,7 +678,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g6s13c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19530": {
       "Name": "Caretaker's Cape",
@@ -686,7 +686,7 @@
       "SourceType": "PvP",
       "SourceNumber": "8g54s92c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19531": {
       "Name": "Caretaker's Cape",
@@ -694,7 +694,7 @@
       "SourceType": "PvP",
       "SourceNumber": "5g2s42c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19532": {
       "Name": "Caretaker's Cape",
@@ -702,7 +702,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g24s41c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19533": {
       "Name": "Caretaker's Cape",
@@ -710,7 +710,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g7s72c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19534": {
       "Name": "Scout's Medallion",
@@ -718,7 +718,7 @@
       "SourceType": "PvP",
       "SourceNumber": "7g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19535": {
       "Name": "Scout's Medallion",
@@ -726,7 +726,7 @@
       "SourceType": "PvP",
       "SourceNumber": "6g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19536": {
       "Name": "Scout's Medallion",
@@ -734,7 +734,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19537": {
       "Name": "Scout's Medallion",
@@ -742,7 +742,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19538": {
       "Name": "Sentinel's Medallion",
@@ -750,7 +750,7 @@
       "SourceType": "PvP",
       "SourceNumber": "7g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19539": {
       "Name": "Sentinel's Medallion",
@@ -758,7 +758,7 @@
       "SourceType": "PvP",
       "SourceNumber": "6g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19540": {
       "Name": "Sentinel's Medallion",
@@ -766,7 +766,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g50s",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19541": {
       "Name": "Sentinel's Medallion",
@@ -774,7 +774,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19542": {
       "Name": "Scout's Blade",
@@ -782,7 +782,7 @@
       "SourceType": "PvP",
       "SourceNumber": "28g1s62c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19543": {
       "Name": "Scout's Blade",
@@ -790,7 +790,7 @@
       "SourceType": "PvP",
       "SourceNumber": "16g46s21c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19544": {
       "Name": "Scout's Blade",
@@ -798,7 +798,7 @@
       "SourceType": "PvP",
       "SourceNumber": "8g16s85c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19545": {
       "Name": "Scout's Blade",
@@ -806,7 +806,7 @@
       "SourceType": "PvP",
       "SourceNumber": "3g27s95c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19546": {
       "Name": "Sentinel's Blade",
@@ -814,7 +814,7 @@
       "SourceType": "PvP",
       "SourceNumber": "26g42s2c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19547": {
       "Name": "Sentinel's Blade",
@@ -822,7 +822,7 @@
       "SourceType": "PvP",
       "SourceNumber": "16g49s81c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19548": {
       "Name": "Sentinel's Blade",
@@ -830,7 +830,7 @@
       "SourceType": "PvP",
       "SourceNumber": "8g18s82c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19549": {
       "Name": "Sentinel's Blade",
@@ -838,7 +838,7 @@
       "SourceType": "PvP",
       "SourceNumber": "3g32s91c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19550": {
       "Name": "Legionnaire's Sword",
@@ -846,7 +846,7 @@
       "SourceType": "PvP",
       "SourceNumber": "25g84s57c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19551": {
       "Name": "Legionnaire's Sword",
@@ -854,7 +854,7 @@
       "SourceType": "PvP",
       "SourceNumber": "15g13s24c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19552": {
       "Name": "Legionnaire's Sword",
@@ -862,7 +862,7 @@
       "SourceType": "PvP",
       "SourceNumber": "7g48s21c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19553": {
       "Name": "Legionnaire's Sword",
@@ -870,7 +870,7 @@
       "SourceType": "PvP",
       "SourceNumber": "3g22s4c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19554": {
       "Name": "Protector's Sword",
@@ -878,7 +878,7 @@
       "SourceType": "PvP",
       "SourceNumber": "27g46s11c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19555": {
       "Name": "Protector's Sword",
@@ -886,7 +886,7 @@
       "SourceType": "PvP",
       "SourceNumber": "15g13s24c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19556": {
       "Name": "Protector's Sword",
@@ -894,7 +894,7 @@
       "SourceType": "PvP",
       "SourceNumber": "7g48s21c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19557": {
       "Name": "Protector's Sword",
@@ -902,7 +902,7 @@
       "SourceType": "PvP",
       "SourceNumber": "3g42s84c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19558": {
       "Name": "Outrider's Bow",
@@ -910,7 +910,7 @@
       "SourceType": "PvP",
       "SourceNumber": "20g71s14c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19559": {
       "Name": "Outrider's Bow",
@@ -918,7 +918,7 @@
       "SourceType": "PvP",
       "SourceNumber": "11g34s94c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19560": {
       "Name": "Outrider's Bow",
@@ -926,7 +926,7 @@
       "SourceType": "PvP",
       "SourceNumber": "5g61s16c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19561": {
       "Name": "Outrider's Bow",
@@ -934,7 +934,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g41s52c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19562": {
       "Name": "Outrunner's Bow",
@@ -942,7 +942,7 @@
       "SourceType": "PvP",
       "SourceNumber": "19g38s42c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19563": {
       "Name": "Outrunner's Bow",
@@ -950,7 +950,7 @@
       "SourceType": "PvP",
       "SourceNumber": "11g34s94c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19564": {
       "Name": "Outrunner's Bow",
@@ -958,7 +958,7 @@
       "SourceType": "PvP",
       "SourceNumber": "5g61s16c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19565": {
       "Name": "Outrunner's Bow",
@@ -966,7 +966,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g41s52c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19566": {
       "Name": "Advisor's Gnarled Staff",
@@ -974,7 +974,7 @@
       "SourceType": "PvP",
       "SourceNumber": "33g2s18c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19567": {
       "Name": "Advisor's Gnarled Staff",
@@ -982,7 +982,7 @@
       "SourceType": "PvP",
       "SourceNumber": "18g91s56c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19568": {
       "Name": "Advisor's Gnarled Staff",
@@ -990,7 +990,7 @@
       "SourceType": "PvP",
       "SourceNumber": "9g35s27c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19569": {
       "Name": "Advisor's Gnarled Staff",
@@ -998,7 +998,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g2s55c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19570": {
       "Name": "Lorekeeper's Staff",
@@ -1006,7 +1006,7 @@
       "SourceType": "PvP",
       "SourceNumber": "33g51s97c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19571": {
       "Name": "Lorekeeper's Staff",
@@ -1014,7 +1014,7 @@
       "SourceType": "PvP",
       "SourceNumber": "19g69s71c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19572": {
       "Name": "Lorekeeper's Staff",
@@ -1022,7 +1022,7 @@
       "SourceType": "PvP",
       "SourceNumber": "9g77s54c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19573": {
       "Name": "Lorekeeper's Staff",
@@ -1030,7 +1030,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g22s30c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "19578": {
       "Name": "Berserker Bracers",
@@ -1038,7 +1038,7 @@
       "SourceType": "PvP",
       "SourceNumber": "8g84s97c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19580": {
       "Name": "Berserker Bracers",
@@ -1046,7 +1046,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g81s75c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19581": {
       "Name": "Berserker Bracers",
@@ -1054,7 +1054,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g47s27c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19582": {
       "Name": "Windtalker's Wristguards",
@@ -1062,7 +1062,7 @@
       "SourceType": "PvP",
       "SourceNumber": "12g11s2c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19583": {
       "Name": "Windtalker's Wristguards",
@@ -1070,7 +1070,7 @@
       "SourceType": "PvP",
       "SourceNumber": "7g22s62c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19584": {
       "Name": "Windtalker's Wristguards",
@@ -1078,7 +1078,7 @@
       "SourceType": "PvP",
       "SourceNumber": "3g70s90c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19587": {
       "Name": "Forest Stalker's Bracers",
@@ -1086,7 +1086,7 @@
       "SourceType": "PvP",
       "SourceNumber": "8g7s35c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19589": {
       "Name": "Forest Stalker's Bracers",
@@ -1094,7 +1094,7 @@
       "SourceType": "PvP",
       "SourceNumber": "6g2s17c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19590": {
       "Name": "Forest Stalker's Bracers",
@@ -1102,7 +1102,7 @@
       "SourceType": "PvP",
       "SourceNumber": "3g9s8c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19595": {
       "Name": "Dryad's Wrist Bindings",
@@ -1110,7 +1110,7 @@
       "SourceType": "PvP",
       "SourceNumber": "8g75s48c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19596": {
       "Name": "Dryad's Wrist Bindings",
@@ -1118,7 +1118,7 @@
       "SourceType": "PvP",
       "SourceNumber": "5g24s27c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "19597": {
       "Name": "Dryad's Wrist Bindings",
@@ -1126,7 +1126,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g70s6c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "20425": {
       "Name": "Advisor's Gnarled Staff",
@@ -1134,7 +1134,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g43s16c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "20426": {
       "Name": "Advisor's Ring",
@@ -1142,7 +1142,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "20427": {
       "Name": "Battle Healer's Cloak",
@@ -1150,7 +1150,7 @@
       "SourceType": "PvP",
       "SourceNumber": "36s50c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "20428": {
       "Name": "Caretaker's Cape",
@@ -1158,7 +1158,7 @@
       "SourceType": "PvP",
       "SourceNumber": "36s50c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "20429": {
       "Name": "Legionnaire's Band",
@@ -1166,7 +1166,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "20430": {
       "Name": "Legionnaire's Sword",
@@ -1174,7 +1174,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g14s52c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "20431": {
       "Name": "Lorekeeper's Ring",
@@ -1182,7 +1182,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "20434": {
       "Name": "Lorekeeper's Staff",
@@ -1190,7 +1190,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g43s16c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "20437": {
       "Name": "Outrider's Bow",
@@ -1198,7 +1198,7 @@
       "SourceType": "PvP",
       "SourceNumber": "85s89c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "20438": {
       "Name": "Outrunner's Bow",
@@ -1206,7 +1206,7 @@
       "SourceType": "PvP",
       "SourceNumber": "85s89c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "20439": {
       "Name": "Protector's Band",
@@ -1214,7 +1214,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "20440": {
       "Name": "Protector's Sword",
@@ -1222,7 +1222,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g21s50c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "20441": {
       "Name": "Scout's Blade",
@@ -1230,7 +1230,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g14s52c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "20442": {
       "Name": "Scout's Medallion",
@@ -1238,7 +1238,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "20443": {
       "Name": "Sentinel's Blade",
@@ -1246,7 +1246,7 @@
       "SourceType": "PvP",
       "SourceNumber": "1g22s82c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "20444": {
       "Name": "Sentinel's Medallion",
@@ -1254,7 +1254,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "21565": {
       "Name": "Rune of Perfection",
@@ -1262,7 +1262,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g23s52c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "21566": {
       "Name": "Rune of Perfection",
@@ -1270,7 +1270,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g11s76c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "21567": {
       "Name": "Rune of Duty",
@@ -1278,7 +1278,7 @@
       "SourceType": "PvP",
       "SourceNumber": "4g23s52c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "21568": {
       "Name": "Rune of Duty",
@@ -1286,7 +1286,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g11s76c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "22651": {
       "Name": "Outrider's Plate Legguards",
@@ -1294,7 +1294,7 @@
       "SourceType": "PvP",
       "SourceNumber": "16g57s37c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "22672": {
       "Name": "Sentinel's Plate Legguards",
@@ -1302,7 +1302,7 @@
       "SourceType": "PvP",
       "SourceNumber": "16g63s47c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "22673": {
       "Name": "Outrider's Chain Leggings",
@@ -1310,7 +1310,7 @@
       "SourceType": "PvP",
       "SourceNumber": "25g4s60c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "22676": {
       "Name": "Outrider's Mail Leggings",
@@ -1318,7 +1318,7 @@
       "SourceType": "PvP",
       "SourceNumber": "25g32s52c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "22740": {
       "Name": "Outrider's Leather Pants",
@@ -1326,7 +1326,7 @@
       "SourceType": "PvP",
       "SourceNumber": "21g96s77c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "22741": {
       "Name": "Outrider's Lizardhide Pants",
@@ -1334,7 +1334,7 @@
       "SourceType": "PvP",
       "SourceNumber": "22g4s61c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "22747": {
       "Name": "Outrider's Silk Leggings",
@@ -1342,7 +1342,7 @@
       "SourceType": "PvP",
       "SourceNumber": "16g76s32c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "22748": {
       "Name": "Sentinel's Chain Leggings",
@@ -1350,7 +1350,7 @@
       "SourceType": "PvP",
       "SourceNumber": "24g22s7c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "22749": {
       "Name": "Sentinel's Leather Pants",
@@ -1358,7 +1358,7 @@
       "SourceType": "PvP",
       "SourceNumber": "21g10s86c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "22750": {
       "Name": "Sentinel's Lizardhide Pants",
@@ -1366,7 +1366,7 @@
       "SourceType": "PvP",
       "SourceNumber": "21g18s68c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "22752": {
       "Name": "Sentinel's Silk Leggings",
@@ -1374,7 +1374,7 @@
       "SourceType": "PvP",
       "SourceNumber": "17g7s47c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "22753": {
       "Name": "Sentinel's Lamellar Legguards",
@@ -1382,7 +1382,7 @@
       "SourceType": "PvP",
       "SourceNumber": "17g13s57c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "209612": {
       "Name": "Insignia of the Alliance",
@@ -1390,7 +1390,7 @@
       "SourceType": "PvP",
       "SourceNumber": "20g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "209622": {
       "Name": "Insignia of the Horde",
@@ -1398,7 +1398,7 @@
       "SourceType": "PvP",
       "SourceNumber": "20g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "209623": {
       "Name": "Insignia of the Horde",
@@ -1406,7 +1406,7 @@
       "SourceType": "PvP",
       "SourceNumber": "20g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "209624": {
       "Name": "Insignia of the Horde",
@@ -1414,7 +1414,7 @@
       "SourceType": "PvP",
       "SourceNumber": "21g17s64c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "211498": {
       "Name": "Trainee's Sentinel Nightsaber",
@@ -1422,7 +1422,7 @@
       "SourceType": "PvP",
       "SourceNumber": "9g",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "211499": {
       "Name": "Trainee's Outrider Wolf",
@@ -1430,7 +1430,7 @@
       "SourceType": "PvP",
       "SourceNumber": "10g58s82c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "211500": {
       "Name": "Resilient Cloth Headband",
@@ -1438,7 +1438,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g64s70c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "211856": {
       "Name": "Resilient Mail Coif",
@@ -1446,7 +1446,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g64s70c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "211857": {
       "Name": "Resilient Leather Mask",
@@ -1454,7 +1454,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g64s70c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "212580": {
       "Name": "Lorekeeper's Staff",
@@ -1462,7 +1462,7 @@
       "SourceType": "PvP",
       "SourceNumber": "3g25s80c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "212581": {
       "Name": "Outrunner's Bow",
@@ -1470,7 +1470,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g2s90c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "212582": {
       "Name": "Protector's Sword",
@@ -1478,7 +1478,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g90s77c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "212583": {
       "Name": "Sentinel's Blade",
@@ -1486,7 +1486,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g79s55c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "212584": {
       "Name": "Advisor's Gnarled Staff",
@@ -1494,7 +1494,7 @@
       "SourceType": "PvP",
       "SourceNumber": "3g25s80c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "212585": {
       "Name": "Outrider's Bow",
@@ -1502,7 +1502,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g2s90c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "212586": {
       "Name": "Legionnaire's Sword",
@@ -1510,7 +1510,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g90s77c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "212587": {
       "Name": "Scout's Blade",
@@ -1518,7 +1518,7 @@
       "SourceType": "PvP",
       "SourceNumber": "2g79s55c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     },
     "213087": {
       "Name": "Sergeant's Cloak",
@@ -1526,7 +1526,7 @@
       "SourceType": "PvP",
       "SourceNumber": "40s28c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "A"
     },
     "213088": {
       "Name": "Sergeant's Cloak",
@@ -1534,7 +1534,7 @@
       "SourceType": "PvP",
       "SourceNumber": "36s26c",
       "SourceLocation": "Unknown Rank",
-      "SourceFaction": "B"
+      "SourceFaction": "H"
     }
   }
 }
