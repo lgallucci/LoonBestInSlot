@@ -339,26 +339,7 @@ local function createItemRow(f, specItem, specItemSource)
 
         local dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
 
-        if specItemSource.SourceType == LBIS.L["Transmute"] then
-        
-            LBIS:GetItemInfo(tonumber(specItemSource.Source), function(transmuteItem)
-
-                local tb = CreateFrame("Button", nil, f);
-                tb:SetSize(32, 32);
-                local bt = tb:CreateTexture();
-                bt:SetAllPoints();
-                bt:SetTexture(transmuteItem.Texture);
-                tb:SetPoint("BOTTOMLEFT", dl, "BOTTOMRIGHT", 5, -2);
-                LBIS:SetTooltipOnButton(tb, transmuteItem);
-                                    
-                local ft = f:CreateFontString(nil, nil, "GameFontNormalSmall")
-                ft:SetText("From:");
-                ft:SetPoint("TOPRIGHT", tb, "TOPLEFT", -3, -3);
-            end);
-
-            dl:SetText(specItemSource.SourceLocation);
-            dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
-        elseif specItemSource.SourceType == LBIS.L["Profession"] and tonumber(specItemSource.SourceLocation) ~= nil then
+        if specItemSource.SourceType == LBIS.L["Profession"] and tonumber(specItemSource.SourceLocation) ~= nil then
             LBIS:GetSpellInfo(tonumber(specItemSource.SourceLocation), function(professionSpell)
 
                 local tb = CreateFrame("Button", nil, f);
@@ -366,7 +347,7 @@ local function createItemRow(f, specItem, specItemSource)
                 local bt = tb:CreateTexture();
                 bt:SetAllPoints();
                 bt:SetTexture(professionSpell.Texture);
-                tb:SetPoint("BOTTOMLEFT", dl, "BOTTOMRIGHT", 10, -2);
+                tb:SetPoint("BOTTOMLEFT", dl, "BOTTOMLEFT", 100, -2);
                 LBIS:SetTooltipOnButton(tb, professionSpell, true);
                 
                 dl:SetText(specItemSource.Source);
