@@ -110,7 +110,7 @@ public static class ItemSourceFileManager
         var name = enchantSource.Substring(nameIndex, designIndex - nameIndex).Split("=")[1].Trim().Trim(',').Trim('"');
         var designId = enchantSource.Substring(designIndex, scrollIndex - designIndex).Split("=")[1].Trim().Trim(',').Trim('"');
         var scrollId = enchantSource.Substring(scrollIndex, sourceIndex - scrollIndex).Split("=")[1].Trim().Trim(',').Trim('"');
-        var source = enchantSource.Substring(sourceIndex, sourceLocationIndex - sourceIndex).Split("=")[1].Trim().Trim(',').Trim('"'); ;
+        var source = enchantSource.Substring(sourceIndex, sourceLocationIndex - sourceIndex).Split("=")[1].Trim().Trim(',').Trim('"');
         var sourceLocation = enchantSource.Substring(sourceLocationIndex, textureIdIndex - sourceLocationIndex).Split("=")[1].Trim().Trim(',').Trim('"');
         var textureId = enchantSource.Substring(textureIdIndex, enchantSource.Length - textureIdIndex - 3).Split("=")[1].Trim().Trim('"');
 

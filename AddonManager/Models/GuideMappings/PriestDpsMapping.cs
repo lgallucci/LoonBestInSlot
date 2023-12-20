@@ -6,11 +6,6 @@ internal class PriestDpsMapping : SpecMapping
     public override string Class => "Priest";
     public override string Spec => "Dps";
 
-    public override string EnchantsUrl => "";
-    public override List<(string, GuideMapping)> Enchants => new List<(string, GuideMapping)>
-        {
-        };
-
     public override string Phase0Url => "";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {

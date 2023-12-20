@@ -73,49 +73,6 @@ public static class WowheadImporter
         return verificationSucceeded;
     }
 
-
-    public static async Task ImportEnchants(string[] specList, CancellationToken cancelToken, Action<string> logMethod)
-    {
-        var addresses = new List<string>();
-        var addressToSpec = new Dictionary<string, ClassGuideMapping>();
-        foreach (string spec in specList)
-        {
-            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == "Enchants");
-
-            if (specMapping == null)
-            {
-                logMethod($"{spec} Failed! - Can't find Spec!" + Environment.NewLine);
-                continue;
-            }
-            else
-            {
-                addresses.Add(specMapping.WebAddress);
-                addressToSpec.Add(specMapping.WebAddress, specMapping);
-            }
-        }
-
-        await Common.LoadFromWebPages(addresses, async (address, content) =>
-        {
-            var spec = addressToSpec[address];
-            try
-            {
-                var result = await ImportEnchantsInternal(spec, content);
-
-                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!" + Environment.NewLine);
-            }
-            catch (VerificationException vex)
-            {
-                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}..." + Environment.NewLine);
-            }
-            catch (ParseException ex)
-            {
-                logMethod($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}..." + Environment.NewLine);
-            }
-        }, cancelToken);
-
-        logMethod($"Done!" + Environment.NewLine);
-    }
-
     public static async Task ImportClasses(string[] specList, int phaseNumber, CancellationToken cancelToken, Action<string> logMethod)
     {
         var addresses = new List<string>();
@@ -158,17 +115,6 @@ public static class WowheadImporter
         logMethod($"Done!" + Environment.NewLine);
     }
 
-    public static async Task<string> ImportEnchants(ClassGuideMapping classGuide)
-    {
-        var result = string.Empty;
-        await Common.LoadFromWebPage(classGuide.WebAddress, async (content) =>
-        {
-            result = await ImportEnchantsInternal(classGuide, content);
-        });
-
-        return result;
-    }
-
     public static async Task<string> ImportClass(ClassGuideMapping classGuide, int phaseNumber)
     {
         var result = string.Empty;
@@ -180,67 +126,33 @@ public static class WowheadImporter
         return result;
     }
 
-    private static async Task<string> ImportClassInternal(ClassGuideMapping classGuide, int phaseNumber, string content)
+    private static async Task<string> ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, string content)
     {
         var sb = new StringBuilder();
-        var items = new Dictionary<int, ItemSpec>();
+        (Dictionary<int, ItemSpec>, Dictionary<string, EnchantSpec>) itemsAndEnchants;
         try
         {
-            var itemSources = ItemSourceFileManager.ReadItemSources();
+            var className = $"{classGuideMapping.ClassName.Replace(" ", "")}{classGuideMapping.SpecName}";
 
-            var className = $"{classGuide.ClassName.Replace(" ", "")}{classGuide.SpecName}";
-
-            if (classGuide != null && classGuide.WebAddress != "do_not_use")
+            if (classGuideMapping != null && classGuideMapping.WebAddress != "do_not_use")
             {
                 var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
 
                 if (phaseNumber == 0)
-                    items = await new WowheadGuideParser().ParsePreRaidWowheadGuide(className, guide, content);
+                    itemsAndEnchants = await new WowheadGuideParser().ParsePreRaidWowheadGuide(className, guide, content);
                 else
-                    items = await new WowheadGuideParser().ParseWowheadGuide(classGuide, content);
+                    itemsAndEnchants = await new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, content);
 
-                foreach (var item in items)
-                {
-                    if (items.Count(i => i.Value.Slot == item.Value.Slot) == 1)
-                    {
-                        if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
-                        {
-                            itemSources.Add(item.Value.ItemId, new ItemSource
-                            {
-                                ItemId = item.Value.ItemId,
-                                Name = item.Value.Name,
-                                SourceType = "LBIS.L[\"unknown\"]",
-                                Source = "LBIS.L[\"unknown\"]",
-                                SourceNumber = "0",
-                                SourceLocation = "LBIS.L[\"unknown\"]"
-                            });
-                        }
-                        item.Value.BisStatus = "BIS";
 
-                        sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
-                    }
-                    if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
-                    {
-                        itemSources.Add(item.Value.ItemId, new ItemSource
-                        {
-                            ItemId = item.Value.ItemId,
-                            Name = item.Value.Name,
-                            SourceType = "LBIS.L[\"unknown\"]",
-                            Source = "LBIS.L[\"unknown\"]",
-                            SourceNumber = "0",
-                            SourceLocation = "LBIS.L[\"unknown\"]"
-                        });
-                    }
+                WriteEnchantsInternal(itemsAndEnchants.Item2, phaseNumber, classGuideMapping);
 
-                    sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
-                }
+                WriteItemsInternal(itemsAndEnchants.Item1, guide.Item2, phaseNumber, classGuideMapping);
 
-                guide.Item2[phaseNumber] = items.Values.ToList();
+                guide.Item1[phaseNumber] = itemsAndEnchants.Item2.Values.ToList();
+                guide.Item2[phaseNumber] = itemsAndEnchants.Item1.Values.ToList();
 
-                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName,
+                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuideMapping.ClassName, classGuideMapping.SpecName,
                     guide.Item1, guide.Item2);
-
-                ItemSourceFileManager.WriteItemSources(itemSources);
             }
             else
             {
@@ -251,48 +163,81 @@ public static class WowheadImporter
         {
             throw new ParseException(ex.ToString(), ex);
         }
-        VerifyGuide(items.Values.ToList());
+        VerifyGuide(itemsAndEnchants.Item1.Values.ToList());
         return sb.ToString();
     }
 
-    private static async Task<string> ImportEnchantsInternal(ClassGuideMapping classGuide, string content)
+    private static string WriteItemsInternal(Dictionary<int, ItemSpec> items, Dictionary<int, List<ItemSpec>> guide, int phaseNumber, ClassGuideMapping classGuideMapping)
     {
-        var sb = new StringBuilder();
-        try
+        StringBuilder sb = new StringBuilder();
+        var itemSources = ItemSourceFileManager.ReadItemSources();
+        
+        foreach (var item in items)
         {
-            var className = $"{classGuide.ClassName}{classGuide.SpecName}";
-            var enchantSources = ItemSourceFileManager.ReadEnchantSources();
-            var enchants = await new WowheadGuideParser().ParseEnchantsWowheadGuide(classGuide, content);
-
-            var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
-
-            foreach (var enchant in enchants)
+            if (items.Count(i => i.Value.Slot == item.Value.Slot) == 1)
             {
-                if (!enchantSources.ContainsKey(enchant.Value.EnchantId) && enchant.Value.EnchantId > 0)
+                if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
                 {
-                    enchantSources.Add(enchant.Value.EnchantId, new EnchantSource
+                    itemSources.Add(item.Value.ItemId, new ItemSource
                     {
-                        EnchantId = enchant.Value.EnchantId,
-                        DesignId = 99999,
-                        Name = enchant.Value.Name,
-                        Source = "unknown",
-                        SourceLocation = "unknown",
-                        TextureId = enchant.Value.TextureId
+                        ItemId = item.Value.ItemId,
+                        Name = item.Value.Name,
+                        SourceType = "LBIS.L[\"unknown\"]",
+                        Source = "LBIS.L[\"unknown\"]",
+                        SourceNumber = "0",
+                        SourceLocation = "LBIS.L[\"unknown\"]"
                     });
                 }
+                item.Value.BisStatus = "BIS";
 
-                sb.AppendLine($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot}");
+                sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
+            }
+            if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
+            {
+                itemSources.Add(item.Value.ItemId, new ItemSource
+                {
+                    ItemId = item.Value.ItemId,
+                    Name = item.Value.Name,
+                    SourceType = "LBIS.L[\"unknown\"]",
+                    Source = "LBIS.L[\"unknown\"]",
+                    SourceNumber = "0",
+                    SourceLocation = "LBIS.L[\"unknown\"]"
+                });
             }
 
-            ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName,
-                enchants, guide.Item2);
+            sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
+        }
 
-            ItemSourceFileManager.WriteEnchantSources(enchantSources);
-        }
-        catch (Exception ex)
+        ItemSourceFileManager.WriteItemSources(itemSources);
+
+        return sb.ToString();
+    }
+
+    private static string WriteEnchantsInternal(Dictionary<string, EnchantSpec> enchants, int phaseNumber, ClassGuideMapping classGuideMapping)
+    {
+        var sb = new StringBuilder();
+        var enchantSources = ItemSourceFileManager.ReadEnchantSources();
+
+        foreach (var enchant in enchants)
         {
-            throw new ParseException(ex.ToString(), ex);
+            if (!enchantSources.ContainsKey(enchant.Value.EnchantId) && enchant.Value.EnchantId > 0)
+            {
+                enchantSources.Add(enchant.Value.EnchantId, new EnchantSource
+                {
+                    EnchantId = enchant.Value.EnchantId,
+                    DesignId = 99999,
+                    Name = enchant.Value.Name,
+                    Source = "unknown",
+                    SourceLocation = "unknown",
+                    TextureId = enchant.Value.TextureId
+                });
+            }
+
+            sb.AppendLine($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot}");
         }
+
+        ItemSourceFileManager.WriteEnchantSources(enchantSources);
+
         return sb.ToString();
     }
 

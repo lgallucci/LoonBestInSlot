@@ -61,10 +61,7 @@ public sealed partial class GuideImporter : Page
 
         try
         {
-            if (phaseString == "Enchants")
-                ConsoleOut.Text = await WowheadImporter.ImportEnchants(specMapping);
-            else
-                ConsoleOut.Text = await WowheadImporter.ImportClass(specMapping, phaseNumber);
+            ConsoleOut.Text = await WowheadImporter.ImportClass(specMapping, phaseNumber);
 
             ConsoleOut.Text += $"{spec} Completed! - Verification Passed!" + Environment.NewLine;
         }
@@ -88,10 +85,8 @@ public sealed partial class GuideImporter : Page
             phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
 
         string result = string.Empty;
-        if (phaseString == "Enchants")
-            await WowheadImporter.ImportEnchants(SpecList, _importCancelToken.Token, (log) => ConsoleOut.Text += log);
-        else
-            await WowheadImporter.ImportClasses(SpecList, phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log);
+
+        await WowheadImporter.ImportClasses(SpecList, phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log);
     }
 
     private void Verify_Click(object sender, RoutedEventArgs e)

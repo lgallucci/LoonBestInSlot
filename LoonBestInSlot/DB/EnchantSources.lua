@@ -1,4 +1,4 @@
 LBIS.EnchantSources =
-{    
-    [0] = { Name = "", DesignId = "", ScrollId = "", Source = "", SourceLocation = "", TextureId = "" },
+{
+    [0] = { Name = "", DesignId = "0", ScrollId = "0", Source = "", SourceLocation = "", TextureId = "" },
 }

@@ -1,4 +1,5 @@
 ﻿using System.Net.Http;
+using System.Text.RegularExpressions;
 using System.Windows.Documents;
 using System.Xml.Serialization;
 using AddonManager.Models;
@@ -194,10 +195,12 @@ public class WowheadGuideParser
         public string Text(ICharacterData text) => text.Data;
     }
 
-    public async Task<Dictionary<int, ItemSpec>> ParsePreRaidWowheadGuide(string className, Tuple<Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>> guide, string content)
+    public async Task<(Dictionary<int, ItemSpec>, Dictionary<string, EnchantSpec>)> ParsePreRaidWowheadGuide(string className, 
+        Tuple<Dictionary<int, List<EnchantSpec>>, Dictionary<int, List<ItemSpec>>> guide, string content)
     {
         System.Diagnostics.Debug.WriteLine($"Start Parsing {className}");
         var items = new Dictionary<int, ItemSpec>();
+        var enchants = new Dictionary<string, EnchantSpec>();
 
         var doc = default(IHtmlDocument);
         var parser = new HtmlParser();
@@ -267,18 +270,24 @@ public class WowheadGuideParser
         }
 
         System.Diagnostics.Debug.WriteLine($"End Parsing {className}");
-        return items;
+        return (items, enchants);
     }
 
-    public async Task<Dictionary<int, ItemSpec>> ParseWowheadGuide(ClassGuideMapping classGuide, string content)
+    public async Task<(Dictionary<int, ItemSpec>, Dictionary<string, EnchantSpec>)> ParseWowheadGuide(ClassGuideMapping classGuide, string content)
     {
         var items = new Dictionary<int, ItemSpec>();
+        var enchants = new Dictionary<string, EnchantSpec>();
 
         var doc = default(IHtmlDocument);
         var parser = new HtmlParser();
         doc = await parser.ParseDocumentAsync(content);
 
-        LoopThroughMappings(doc, classGuide, (table, slot, htmlId) =>
+        LoopThroughMappings(doc, classGuide, 
+        (enchantAnchor, slot) =>
+        {
+            ParseEnchant(enchantAnchor, slot, enchants);
+        },        
+        (table, slot, htmlId) =>
         {
             bool first = true;
             LoopThroughTable(table, (tableRow, itemChild, itemOrderIndex, isTierList) =>
@@ -297,78 +306,45 @@ public class WowheadGuideParser
             });
         });
 
-        return items;
+        return (items, enchants);
     }
 
-    internal async Task<Dictionary<string, EnchantSpec>> ParseEnchantsWowheadGuide(ClassGuideMapping classGuide, string content)
+    private void ParseEnchant(IHtmlAnchorElement enchantAnchor, string slot, Dictionary<string, EnchantSpec> enchants)
     {
-        var enchants = new Dictionary<string, EnchantSpec>();
+        bool isSpell = false;
+        if (enchantAnchor.PathName.Contains("/item="))
+            isSpell = false;
+        else if (enchantAnchor.PathName.Contains("/spell="))
+            isSpell = true;
+        else
+            return;
 
-        var parser = new HtmlParser();
-        var doc = default(IHtmlDocument);
-        doc = await parser.ParseDocumentAsync(content);
+        var item = enchantAnchor.PathName.Replace("/classic", "").Replace("/item=", "").Replace("/spell=", "");
+        var itemIdIndex = item.IndexOf("/");
+        if (itemIdIndex == -1)
+            itemIdIndex = item.IndexOf("&");
 
-        foreach (var heading in classGuide.GuideMappings)
+        if (itemIdIndex > -1)
         {
-            foreach (var htmlMapping in heading.Value.SlotHtmlId.Split(";"))
+            item = item.Substring(0, itemIdIndex);
+            var itemName = enchantAnchor.TextContent.Trim();
+            var itemId = Int32.Parse(item);
+
+            var textureId = "";
+            if (isSpell == false && _enchantSwaps.ContainsKey(itemId))
             {
-                var headerElement = doc.QuerySelector(htmlMapping);
-                if (headerElement != null)
-                {
-                    Common.RecursiveBoxSearch(headerElement, (boxElement) =>
-                    {
-                        bool isSpell = false;
-                        if (((IHtmlAnchorElement)boxElement).PathName.Contains("/item="))
-                        {
-                            isSpell = false;
-                        }
-                        else if (((IHtmlAnchorElement)boxElement).PathName.Contains("/spell="))
-                        {
-                            isSpell = true;
-                        }
-                        else
-                        {
-                            return false;
-                        }
-
-                        var item = ((IHtmlAnchorElement)boxElement).PathName.Replace("/classic", "").Replace("/item=", "").Replace("/spell=", "");
-                        var itemIdIndex = item.IndexOf("/");
-                        if (itemIdIndex == -1)
-                            itemIdIndex = item.IndexOf("&");
-
-                        if (itemIdIndex > -1)
-                        {
-                            item = item.Substring(0, itemIdIndex);
-                            var itemName = boxElement.TextContent.Trim();
-                            var itemId = Int32.Parse(item);
-
-                            var textureId = "";
-                            if (isSpell == false && _enchantSwaps.ContainsKey(itemId))
-                            {
-                                textureId = itemId.ToString();
-                                itemId = _enchantSwaps[itemId];
-                            }
-
-                            enchants.Add(itemId + heading.Key, new EnchantSpec
-                            {
-                                EnchantId = itemId,
-                                Name = itemName ?? "unknown",
-                                Slot = heading.Key,
-                                TextureId = textureId
-                            });
-                            return true;
-                        }
-                        return false;
-                    });
-                }
-                else
-                {
-                    throw new Exception($"Failed to find {htmlMapping}{heading.Key}");
-                }
+                textureId = itemId.ToString();
+                itemId = _enchantSwaps[itemId];
             }
-        }
 
-        return enchants;
+            enchants.Add(itemId + slot, new EnchantSpec
+            {
+                EnchantId = itemId,
+                Name = itemName ?? "unknown",
+                Slot = slot,
+                TextureId = textureId
+            });
+        }
     }
 
     private string GetSlot(string slot, string bisStatus)
@@ -462,7 +438,6 @@ public class WowheadGuideParser
                     if (_itemSwaps.ContainsKey(itemId))
                         itemId = _itemSwaps[itemId];
 
-
                     if (!items.ContainsKey(itemId))
                     {
                         items.Add(itemId, new ItemSpec
@@ -542,10 +517,11 @@ public class WowheadGuideParser
         }
     }
 
-    private void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlTableElement?, string, string> action)
+    private void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlAnchorElement, string> foundEnchant, Action<IHtmlTableElement?, string, string> foundTable)
     {
         foreach (var guideMapping in specMapping.GuideMappings)
         {
+            bool foundEnchantText = false;
             foreach (var htmlMapping in guideMapping.Value.SlotHtmlId.Split(";"))
             {
                 var headerElement = doc.QuerySelector(htmlMapping);
@@ -556,14 +532,23 @@ public class WowheadGuideParser
                     int elementCounter = 0;
                     while (nextSibling != null && (nextSibling is not IHtmlTableElement || nextSibling is IHtmlHeadingElement))
                     {
+                        //try to find enchant.
+                        if (nextSibling is IHtmlAnchorElement && foundEnchantText)
+                        {
+                            foundEnchant(nextSibling as IHtmlAnchorElement, guideMapping.Key);
+                            foundEnchantText = false;
+                        }
+
+                        if (Regex.Match(nextSibling.TextContent.Trim(), "Recommended*.Enchant").Success)
+                            foundEnchantText = true;
+
                         nextSibling = nextSibling?.NextSibling;
                         elementCounter++;
                     }
 
                     if (nextSibling is IHtmlTableElement)
                     {
-                        var tableElement = nextSibling as IHtmlTableElement;
-                        action(tableElement, guideMapping.Key, htmlMapping);
+                        foundTable(nextSibling as IHtmlTableElement, guideMapping.Key, htmlMapping);
                     }
                     else
                     {

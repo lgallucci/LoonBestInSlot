@@ -6,11 +6,6 @@ internal class ShamanElementalDpsMapping : SpecMapping
     public override string Class => "Shaman";
     public override string Spec => "Elemental Dps";
 
-    public override string EnchantsUrl => "";
-    public override List<(string, GuideMapping)> Enchants => new List<(string, GuideMapping)>
-        {
-        };
-
     public override string Phase0Url => "";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {

@@ -6,7 +6,7 @@ namespace AddonManager.FileManagers;
 public static class ItemSpecFileManager
 {
     public static void WriteItemSpec(string path, string className, string specName,
-        Dictionary<string, EnchantSpec> enchants,
+        Dictionary<int, List<EnchantSpec>> enchantsList,
         Dictionary<int, List<ItemSpec>> itemsList)
     {
         var itemSB = new StringBuilder();
@@ -18,10 +18,16 @@ public static class ItemSpecFileManager
         itemSB.AppendLine($"local spec4 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"4\")");
         itemSB.AppendLine($"local spec5 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"5\")");
 
-        itemSB.AppendLine();
-        foreach (var enchant in enchants)
-        {
-            itemSB.AppendLine($"LBIS:AddEnchant(spec1, \"{enchant.Value.EnchantId}\", LBIS.L[\"{enchant.Value.Slot}\"]) --{enchant.Value.Name}");
+        foreach (var phaseEnchants in enchantsList)
+        {   
+            itemSB.AppendLine();
+            var enchants = phaseEnchants.Value;
+
+            int count = 0;
+            foreach (var enchant in enchants)
+            {    
+                itemSB.AppendLine($"LBIS:AddEnchant(spec{phaseEnchants.Key}, \"{enchant.EnchantId}\", LBIS.L[\"{enchant.Slot}\"]) --{enchant.Name}");
+            }
         }
         foreach (var phaseItems in itemsList)
         {
@@ -40,14 +46,14 @@ public static class ItemSpecFileManager
         System.IO.File.WriteAllText(path, itemSB.ToString());
     }
 
-    public static Tuple<Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>> ReadGuide(string path)
+    public static Tuple<Dictionary<int, List<EnchantSpec>>, Dictionary<int, List<ItemSpec>>> ReadGuide(string path)
     {
-        var enchants = new Dictionary<string, EnchantSpec>();
+        var enchants = new Dictionary<int, List<EnchantSpec>>();
         var items = new Dictionary<int, List<ItemSpec>>();
 
         if (!System.IO.File.Exists(path))
-            return new Tuple<Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>>(
-                new Dictionary<string, EnchantSpec>(), 
+            return new Tuple<Dictionary<int, List<EnchantSpec>>, Dictionary<int, List<ItemSpec>>>(
+                new Dictionary<int, List<EnchantSpec>>(), 
                 new Dictionary<int, List<ItemSpec>>()); 
 
         string[] itemSpecLines = System.IO.File.ReadAllLines(path);
@@ -64,8 +70,10 @@ public static class ItemSpecFileManager
                 var itemSplit = itemSpecLine.Replace("LBIS:AddEnchant(spec", "").Trim().Split('"');
 
                 var enchantId = Int32.Parse(itemSplit[1]);
+                var phase = Int32.Parse(itemSplit[0].Replace(", ", ""));
+
                 var slot = itemSplit[3];
-                enchants.Add(enchantId + slot, new EnchantSpec
+                enchants[phase].Add(new EnchantSpec
                 {
                     EnchantId = enchantId,
                     Name = itemSplit[4].Replace("]) --", ""),
@@ -94,7 +102,7 @@ public static class ItemSpecFileManager
             }
         }
 
-        return new Tuple<Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>>(enchants, items);
+        return new Tuple<Dictionary<int, List<EnchantSpec>>, Dictionary<int, List<ItemSpec>>>(enchants, items);
 
     }
 }
