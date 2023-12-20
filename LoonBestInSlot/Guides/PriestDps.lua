@@ -3,7 +3,7 @@ local spec1 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Dps"], "1")
 LBIS:AddEnchant(spec1, "13522", LBIS.L["Back"]) --Enchant Cloak - Lesser Shadow Resistance
 LBIS:AddEnchant(spec1, "13626", LBIS.L["Chest"]) --Enchant Chest - Minor Stats
 LBIS:AddEnchant(spec1, "13622", LBIS.L["Wrist"]) --Enchant Bracer - Lesser Intellect
-LBIS:AddEnchant(spec1, "4265", LBIS.L["Hands"]) --Heavy Armor Kit
+LBIS:AddEnchant(spec1, "2833", LBIS.L["Hands"]) --Heavy Armor Kit
 LBIS:AddEnchant(spec1, "7863", LBIS.L["Feet"]) --Enchant Boots - Minor Stamina
 LBIS:AddEnchant(spec1, "7786", LBIS.L["Main Hand"]) --Enchant Weapon - Minor Beastslayer
 LBIS:AddEnchant(spec1, "7793", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Lesser Intellect

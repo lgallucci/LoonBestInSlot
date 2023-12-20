@@ -3,7 +3,7 @@ local spec1 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "1")
 LBIS:AddEnchant(spec1, "13522", LBIS.L["Back"]) --Enchant Cloak - Lesser Shadow Resistance
 LBIS:AddEnchant(spec1, "7857", LBIS.L["Chest"]) --Enchant Chest - Health
 LBIS:AddEnchant(spec1, "13622", LBIS.L["Wrist"]) --Enchant Bracer - Lesser Intellect
-LBIS:AddEnchant(spec1, "4265", LBIS.L["Hands"]) --Heavy Armor Kit
+LBIS:AddEnchant(spec1, "2833", LBIS.L["Hands"]) --Heavy Armor Kit
 LBIS:AddEnchant(spec1, "7863", LBIS.L["Feet"]) --Enchant Boots - Minor Stamina
 LBIS:AddEnchant(spec1, "7793", LBIS.L["Main Hand"]) --Enchant 2H Weapon - Lesser Intellect
 LBIS:AddEnchant(spec1, "13378", LBIS.L["Off Hand"]) --Enchant Shield - Minor Stamina

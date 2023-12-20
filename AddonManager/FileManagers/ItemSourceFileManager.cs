@@ -205,8 +205,8 @@ public static class ItemSourceFileManager
                     $"Name = \"{source.Value.Name}\", " +
                     $"DesignId = \"{source.Value.DesignId}\", " +
                     $"ScrollId = \"{source.Value.ScrollId}\", " +
-                    $"Source = {source.Value.Source}, " +
-                    $"SourceLocation = {source.Value.SourceLocation}, " +
+                    $"Source = \"{source.Value.Source}\", " +
+                    $"SourceLocation = \"{source.Value.SourceLocation}\", " +
                     $"TextureId = \"{source.Value.TextureId}\" }},");
         }
         itemSourceSB.AppendLine("}");
