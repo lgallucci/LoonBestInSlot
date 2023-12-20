@@ -456,4 +456,6 @@ LBIS.ItemSources =
     [212587] = { Name = "Scout's Blade", SourceType = LBIS.L["PvP"], Source = LBIS.L["PvP Vendor"], SourceNumber = "2g79s55c", SourceLocation = LBIS.L["Unknown Rank"], SourceFaction = "H" },
     [213087] = { Name = "Sergeant's Cloak", SourceType = LBIS.L["PvP"], Source = LBIS.L["PvP Vendor"], SourceNumber = "40s28c", SourceLocation = LBIS.L["Unknown Rank"], SourceFaction = "A" },
     [213088] = { Name = "Sergeant's Cloak", SourceType = LBIS.L["PvP"], Source = LBIS.L["PvP Vendor"], SourceNumber = "36s26c", SourceLocation = LBIS.L["Unknown Rank"], SourceFaction = "H" },
+    [215365] = { Name = "Invoker's Mantle", SourceType = LBIS.L["Profession"], Source = LBIS.L["Tailoring"], SourceNumber = "0", SourceLocation = "435848", SourceFaction = "B" },
+    [215366] = { Name = "Invoker's Cord", SourceType = LBIS.L["Profession"], Source = LBIS.L["Tailoring"], SourceNumber = "0", SourceLocation = "435841", SourceFaction = "B" },
 }

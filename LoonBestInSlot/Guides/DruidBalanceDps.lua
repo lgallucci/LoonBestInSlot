@@ -6,9 +6,8 @@ local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "4")
 local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "5")
 
 
-
 LBIS:AddItem(spec1, "211507", LBIS.L["Head"], "BIS", "0") --Twilight Elementalist's Cowl
-LBIS:AddItem(spec1, "211842", LBIS.L["Head"], "Alt", "1") --Rakkamar's Tattered Thinking Cap
+LBIS:AddItem(spec1, "211842", LBIS.L["Head"], "BIS", "1") --Rakkamar's Tattered Thinking Cap
 LBIS:AddItem(spec1, "4373", LBIS.L["Head"], "Alt", "2") --Shadow Goggles
 LBIS:AddItem(spec1, "12998", LBIS.L["Shoulder"], "BIS", "3") --Magician's Mantle
 LBIS:AddItem(spec1, "211468", LBIS.L["Shoulder"], "Alt", "4") --Frayed Chestnut Mantle
@@ -16,7 +15,7 @@ LBIS:AddItem(spec1, "209679", LBIS.L["Shoulder"], "Alt", "5") --Azshari Novice's
 LBIS:AddItem(spec1, "3748", LBIS.L["Shoulder"], "Alt", "6") --Feline Mantle
 LBIS:AddItem(spec1, "209423", LBIS.L["Back"], "BIS", "7") --Flowing Scarf
 LBIS:AddItem(spec1, "213087", LBIS.L["Back"], "Alt", "8") --Sergeant's Cloak
-LBIS:AddItem(spec1, "14400", LBIS.L["Back"], "Alt", "9") --Resilient Cape
+LBIS:AddItem(spec1, "15135", LBIS.L["Back"], "Alt", "9") --Cutthroat's Cape
 LBIS:AddItem(spec1, "211509", LBIS.L["Chest"], "BIS", "10") --Twilight Elementalist's Robe
 LBIS:AddItem(spec1, "2800", LBIS.L["Chest"], "Alt", "11") --Black Velvet Robes
 LBIS:AddItem(spec1, "2292", LBIS.L["Chest"], "Alt", "12") --Necrology Robes
@@ -36,8 +35,8 @@ LBIS:AddItem(spec1, "209684", LBIS.L["Legs"], "BIS", "25") --Soul Leech Pants
 LBIS:AddItem(spec1, "209667", LBIS.L["Legs"], "Alt", "26") --Gaze Dreamer Leggings
 LBIS:AddItem(spec1, "2954", LBIS.L["Legs"], "Alt", "27") --Night Watch Pantaloons
 LBIS:AddItem(spec1, "4037", LBIS.L["Legs"], "Alt", "28") --Silver-thread Pants
-LBIS:AddItem(spec1, "211508", LBIS.L["Feet"], "BIS", "29") --Twilight Elementalist's Footpads
-LBIS:AddItem(spec1, "210795", LBIS.L["Feet"], "Alt", "30") --Extraplanar Spidersilk Boots
+LBIS:AddItem(spec1, "210795", LBIS.L["Feet"], "BIS", "29") --Extraplanar Spidersilk Boots
+LBIS:AddItem(spec1, "211508", LBIS.L["Feet"], "BIS", "30") --Twilight Elementalist's Footpads
 LBIS:AddItem(spec1, "209569", LBIS.L["Feet"], "Alt", "31") --Murloc Hide Kneeboots
 LBIS:AddItem(spec1, "4320", LBIS.L["Feet"], "Alt", "32") --Spidersilk Boots
 LBIS:AddItem(spec1, "209686", LBIS.L["Neck"], "BIS", "33") --Jagged Bone Necklace
