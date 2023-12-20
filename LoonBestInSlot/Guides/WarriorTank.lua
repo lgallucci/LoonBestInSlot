@@ -3,10 +3,10 @@ local spec1 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Tank"], "1")
 LBIS:AddEnchant(spec1, "13419", LBIS.L["Back"]) --Enchant Cloak - Minor Agility
 LBIS:AddEnchant(spec1, "13626", LBIS.L["Chest"]) --Enchant Chest - Minor Stats
 LBIS:AddEnchant(spec1, "13501", LBIS.L["Wrist"]) --Enchant Bracer - Lesser Stamina
-LBIS:AddEnchant(spec1, "4265", LBIS.L["Hands"]) --Heavy Armor Kit
+LBIS:AddEnchant(spec1, "2833", LBIS.L["Hands"]) --Heavy Armor Kit
 LBIS:AddEnchant(spec1, "7867", LBIS.L["Feet"]) --Enchant Boots - Minor Agility
 LBIS:AddEnchant(spec1, "13503", LBIS.L["Main Hand"]) --Enchant Weapon - Lesser Striking
-LBIS:AddEnchant(spec1, "6042", LBIS.L["Off Hand"]) --Iron Shield Spike
+LBIS:AddEnchant(spec1, "7221", LBIS.L["Off Hand"]) --Iron Shield Spike
 
 LBIS:AddItem(spec1, "211505", LBIS.L["Head"], "BIS") --Twilight Avenger's Helm
 LBIS:AddItem(spec1, "209690", LBIS.L["Head"], "BIS Mit") --Shadowscale Coif

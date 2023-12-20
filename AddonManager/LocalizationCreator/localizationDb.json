@@ -516,7 +516,12 @@
       "Brutal Helm": "Yelmo brutal",
       "Cookie": "El Chef",
       "The Orb of Soran'ruk": "El orbe de Soran'ruk",
-      "You Have Served Us Well": "Nos has hecho un gran servicio"
+      "You Have Served Us Well": "Nos has hecho un gran servicio",
+      "Jin'Zil's Forest Magic": "Magia del bosque de Jin'Zil",
+      "Klockmort's Creation": "La creación de Klockmort",
+      "Main Hand/Off Hand/Off Hand": "Mano derecha/Mano izquierda/Mano izquierda",
+      "Main Hand/Off Hand/Off Hand/Off Hand": "Mano derecha/Mano izquierda/Mano izquierda/Mano izquierda",
+      "Shoulder/Back": "Hombro/Espalda"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -1007,7 +1012,12 @@
       "Brutal Helm": "Yelmo brutal",
       "Cookie": "Cocinitas",
       "The Orb of Soran'ruk": "El orbe de Soran'ruk",
-      "You Have Served Us Well": "Nos has hecho un gran servicio"
+      "You Have Served Us Well": "Nos has hecho un gran servicio",
+      "Jin'Zil's Forest Magic": "Magia del bosque de Jin'Zil",
+      "Klockmort's Creation": "La creación de Klockmort",
+      "Main Hand/Off Hand/Off Hand": "Mano derecha/Mano izquierda/Mano izquierda",
+      "Main Hand/Off Hand/Off Hand/Off Hand": "Mano derecha/Mano izquierda/Mano izquierda/Mano izquierda",
+      "Shoulder/Back": "Hombro/Espalda"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -1575,7 +1585,12 @@
       "Brutal Helm": "Brutaler Helm",
       "Cookie": "Cookie",
       "The Orb of Soran'ruk": "Die Kugel von Soran'ruk",
-      "You Have Served Us Well": "Ihr habt uns gut gedient"
+      "You Have Served Us Well": "Ihr habt uns gut gedient",
+      "Jin'Zil's Forest Magic": "Jin'Zils Waldmagie",
+      "Klockmort's Creation": "Klockmorts Kreation",
+      "Main Hand/Off Hand/Off Hand": "Waffenhand/Schildhand/Schildhand",
+      "Main Hand/Off Hand/Off Hand/Off Hand": "Waffenhand/Schildhand/Schildhand/Schildhand",
+      "Shoulder/Back": "Schulter/Rücken"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -2077,7 +2092,12 @@
       "Brutal Helm": "Camail de brutalité",
       "Cookie": "Macaron",
       "The Orb of Soran'ruk": "L'Orbe de Soran'ruk",
-      "You Have Served Us Well": "Vous nous avez bien servi"
+      "You Have Served Us Well": "Vous nous avez bien servi",
+      "Jin'Zil's Forest Magic": "Magie de la forêt de Jin'Zil",
+      "Klockmort's Creation": "La création de Pléthorloge",
+      "Main Hand/Off Hand/Off Hand": "Main droite/Main gauche/Main gauche",
+      "Main Hand/Off Hand/Off Hand/Off Hand": "Main droite/Main gauche/Main gauche/Main gauche",
+      "Shoulder/Back": "Épaule/Dos"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -2575,7 +2595,12 @@
       "Brutal Helm": "Шлем Жестокости",
       "Cookie": "Пирожок",
       "The Orb of Soran'ruk": "Шар Соран'рука",
-      "You Have Served Us Well": "За достойную службу"
+      "You Have Served Us Well": "За достойную службу",
+      "Jin'Zil's Forest Magic": "Лесная магия Джин'Зила",
+      "Klockmort's Creation": "Творение Клацморта",
+      "Main Hand/Off Hand/Off Hand": "Правая рука/Левая рука/Левая рука",
+      "Main Hand/Off Hand/Off Hand/Off Hand": "Правая рука/Левая рука/Левая рука/Левая рука",
+      "Shoulder/Back": "Плечо/Спина"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -3073,7 +3098,12 @@
       "Brutal Helm": "野蛮头盔",
       "Cookie": "曲奇",
       "The Orb of Soran'ruk": "索兰鲁克宝珠",
-      "You Have Served Us Well": "干得好"
+      "You Have Served Us Well": "干得好",
+      "Jin'Zil's Forest Magic": "金吉尔的森林魔法",
+      "Klockmort's Creation": "科罗莫特的成果",
+      "Main Hand/Off Hand/Off Hand": "主手/副手/副手",
+      "Main Hand/Off Hand/Off Hand/Off Hand": "主手/副手/副手/副手",
+      "Shoulder/Back": "肩部/背部"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -3665,7 +3695,12 @@
       "Brutal Helm": "투사 투구",
       "Cookie": "쿠키",
       "The Orb of Soran'ruk": "소랜루크 수정구",
-      "You Have Served Us Well": "수고의 대가"
+      "You Have Served Us Well": "수고의 대가",
+      "Jin'Zil's Forest Magic": "진질의 숲의 마법",
+      "Klockmort's Creation": "클락몰트의 창작품",
+      "Main Hand/Off Hand/Off Hand": "주장비/보조장비/보조장비",
+      "Main Hand/Off Hand/Off Hand/Off Hand": "주장비/보조장비/보조장비/보조장비",
+      "Shoulder/Back": "어깨/등"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -4162,7 +4197,12 @@
       "Brutal Helm": "野蠻頭盔",
       "Cookie": "廚師",
       "The Orb of Soran'ruk": "索蘭魯克寶珠",
-      "You Have Served Us Well": "幹得好"
+      "You Have Served Us Well": "幹得好",
+      "Jin'Zil's Forest Magic": "金吉爾的森林魔法",
+      "Klockmort's Creation": "科羅莫特的成果",
+      "Main Hand/Off Hand/Off Hand": "主手/副手/副手",
+      "Main Hand/Off Hand/Off Hand/Off Hand": "主手/副手/副手/副手",
+      "Shoulder/Back": "肩部/背部"
     }
   }
 }

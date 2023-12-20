@@ -1,10 +1,10 @@
 local spec1 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Tank"], "1")
 
 LBIS:AddEnchant(spec1, "13522", LBIS.L["Back"]) --Enchant Cloak - Lesser Shadow Resistance
-LBIS:AddEnchant(spec1, "4265", LBIS.L["Chest"]) --Heavy Armor Kit
+LBIS:AddEnchant(spec1, "2833", LBIS.L["Chest"]) --Heavy Armor Kit
 LBIS:AddEnchant(spec1, "13501", LBIS.L["Wrist"]) --Enchant Bracer - Lesser Stamina
-LBIS:AddEnchant(spec1, "4265", LBIS.L["Hands"]) --Heavy Armor Kit
-LBIS:AddEnchant(spec1, "4265", LBIS.L["Legs"]) --Heavy Armor Kit
+LBIS:AddEnchant(spec1, "2833", LBIS.L["Hands"]) --Heavy Armor Kit
+LBIS:AddEnchant(spec1, "2833", LBIS.L["Legs"]) --Heavy Armor Kit
 LBIS:AddEnchant(spec1, "7863", LBIS.L["Feet"]) --Enchant Boots - Minor Stamina
 LBIS:AddEnchant(spec1, "13503", LBIS.L["Main Hand"]) --Enchant Weapon - Lesser Striking
 LBIS:AddEnchant(spec1, "7793", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Lesser Intellect

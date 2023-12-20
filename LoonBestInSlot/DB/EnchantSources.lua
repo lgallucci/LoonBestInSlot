@@ -1,8 +1,7 @@
 LBIS.EnchantSources =
 {
-    [2833] = { Name = "Armor +24", DesignId = "99999", ScrollId = "0", Source = "unknown", SourceLocation = "unknown", TextureId = "" },
-    [4265] = { Name = "Heavy Armor Kit", DesignId = "99999", ScrollId = "0", Source = "unknown", SourceLocation = "unknown", TextureId = "" },
-    [6042] = { Name = "Iron Shield Spike", DesignId = "99999", ScrollId = "0", Source = "unknown", SourceLocation = "unknown", TextureId = "" },
+    [2833] = { Name = "Armor +24", DesignId = "99999", ScrollId = "0", Source = "unknown", SourceLocation = "unknown", TextureId = "4265" },   
+    [7221] = { Name = "Iron Shield Spike", DesignId = "99999", ScrollId = "0", Source = "unknown", SourceLocation = "unknown", TextureId = "6042" },
     [7779] = { Name = "Enchant Bracer - Minor Agility", DesignId = "99999", ScrollId = "0", Source = "unknown", SourceLocation = "unknown", TextureId = "" },
     [7786] = { Name = "Enchant Weapon - Minor Beastslayer", DesignId = "99999", ScrollId = "0", Source = "unknown", SourceLocation = "unknown", TextureId = "" },
     [7793] = { Name = "Enchant 2H Weapon - Lesser Intellect", DesignId = "99999", ScrollId = "0", Source = "unknown", SourceLocation = "unknown", TextureId = "" },

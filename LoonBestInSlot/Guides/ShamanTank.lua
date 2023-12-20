@@ -3,10 +3,10 @@ local spec1 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Tank"], "1")
 LBIS:AddEnchant(spec1, "13522", LBIS.L["Back"]) --Enchant Cloak - Lesser Shadow Resistance
 LBIS:AddEnchant(spec1, "13538", LBIS.L["Chest"]) --Enchant Chest - Lesser Absorption
 LBIS:AddEnchant(spec1, "13501", LBIS.L["Wrist"]) --Enchant Bracer - Lesser Stamina
-LBIS:AddEnchant(spec1, "4265", LBIS.L["Hands"]) --Heavy Armor Kit
-LBIS:AddEnchant(spec1, "4265", LBIS.L["Feet"]) --Heavy Armor Kit
+LBIS:AddEnchant(spec1, "2833", LBIS.L["Hands"]) --Heavy Armor Kit
+LBIS:AddEnchant(spec1, "2833", LBIS.L["Feet"]) --Heavy Armor Kit
 LBIS:AddEnchant(spec1, "13693", LBIS.L["Main Hand"]) --Enchant Weapon - Striking
-LBIS:AddEnchant(spec1, "6042", LBIS.L["Off Hand"]) --Iron Shield Spike
+LBIS:AddEnchant(spec1, "7221", LBIS.L["Off Hand"]) --Iron Shield Spike
 
 LBIS:AddItem(spec1, "211789", LBIS.L["Head"], "BIS") --Artemis Cowl
 LBIS:AddItem(spec1, "211510", LBIS.L["Head"], "Alt") --Twilight Slayer's Cowl
