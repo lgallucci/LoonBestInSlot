@@ -30,11 +30,9 @@ public static class ItemSpecFileManager
             var items = phaseItems.Value;
             items.Sort();
 
-            int count = 0;
             foreach (var item in items)
             {
-                itemSB.AppendLine($"LBIS:AddItem(spec{phaseItems.Key}, \"{item.ItemId}\", LBIS.L[\"{item.Slot}\"], \"{item.BisStatus}\", \"{count}\") --{item.Name}");
-                count++;
+                itemSB.AppendLine($"LBIS:AddItem(spec{phaseItems.Key}, \"{item.ItemId}\", LBIS.L[\"{item.Slot}\"], \"{item.BisStatus}\") --{item.Name}");
             }
         }
 
