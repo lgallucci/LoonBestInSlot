@@ -13,6 +13,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Arena Points"] = "투기장 점수";
   LBIS.L["Arugal Must Die"] = "아루갈의 최후";
   LBIS.L["Ashenvale"] = "잿빛 골짜기";
+--  LBIS.L["Ashenvale and Stonetalon"] = "";
   LBIS.L["Back"] = "등";
   LBIS.L["Badges of Justice"] = "정의의 휘장";
   LBIS.L["Bag"] = "가방";
@@ -62,6 +63,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Elixir of Pain"] = "고통의 비약";
   LBIS.L["Emblem of Heroism"] = "무용의 문장";
   LBIS.L["Emblem of Valor"] = "용맹의 문장";
+--  LBIS.L["Enchanting Trainer"] = "";
+--  LBIS.L["Enchanting Vendor"] = "";
   LBIS.L["Enchants"] = "마법 부여";
   LBIS.L["Engineering"] = "기계공학";
 --  LBIS.L["Enhancement Dps"] = "";
@@ -110,6 +113,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Lady Sarevess"] = "여왕 사레베스";
   LBIS.L["Leaders of the Fang"] = "송곳니의 드루이드 우두머리";
   LBIS.L["Leatherworking"] = "가죽세공";
+--  LBIS.L["Leatherworking Trainer"] = "";
 --  LBIS.L["Leech Widow"] = "";
   LBIS.L["Left Click"] = "마우스 왼쪽 클릭";
   LBIS.L["Legacy"] = "유산";
@@ -209,6 +213,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Weaver"] = "대마법사의 지팡이";
   LBIS.L["Thousand Needles"] = "버섯구름 봉우리";
   LBIS.L["Token"] = "토큰";
+--  LBIS.L["Trade Vendors"] = "";
   LBIS.L["Transmute"] = "변환식";
   LBIS.L["Trash Mobs"] = "일반몹";
   LBIS.L["Trinket"] = "장신구";
@@ -216,7 +221,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Twilight Lord Kelris"] = "황혼의 군주 켈리스";
   LBIS.L["Two Hand"] = "양손";
   LBIS.L["Unavailable"] = "사용 불가";
---  LBIS.L["unknown"] = "";
 --  LBIS.L["Unknown Rank"] = "";
 --  LBIS.L["Various Venders"] = "";
   LBIS.L["Vendor"] = "상인";
@@ -235,6 +239,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Willix the Importer"] = "수입업자 윌릭스";
   LBIS.L["Wolf Master Nandos"] = "늑대왕 난도스";
   LBIS.L["World Drop"] = "월드 드랍";
+--  LBIS.L["World Drop and Vendors"] = "";
   LBIS.L["Wrist"] = "손목";
   LBIS.L["You Have Served Us Well"] = "수고의 대가";
+--  LBIS.L["Zixil"] = "";
 end

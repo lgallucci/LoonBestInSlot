@@ -13,6 +13,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Arena Points"] = "Puntos de arena";
   LBIS.L["Arugal Must Die"] = "Arugal debe morir";
   LBIS.L["Ashenvale"] = "Vallefresno";
+--  LBIS.L["Ashenvale and Stonetalon"] = "";
   LBIS.L["Back"] = "Espalda";
 --  LBIS.L["Badges of Justice"] = "";
   LBIS.L["Bag"] = "Bolsa";
@@ -62,6 +63,8 @@ if GetLocale() == "esMX" then
   LBIS.L["Elixir of Pain"] = "Elixir de dolor";
 --  LBIS.L["Emblem of Heroism"] = "";
 --  LBIS.L["Emblem of Valor"] = "";
+--  LBIS.L["Enchanting Trainer"] = "";
+--  LBIS.L["Enchanting Vendor"] = "";
   LBIS.L["Enchants"] = "Encantamientos";
   LBIS.L["Engineering"] = "Ingeniería";
 --  LBIS.L["Enhancement Dps"] = "";
@@ -110,6 +113,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Lady Sarevess"] = "Lady Sarevess";
   LBIS.L["Leaders of the Fang"] = "Líderes del Colmillo";
   LBIS.L["Leatherworking"] = "Peletería";
+--  LBIS.L["Leatherworking Trainer"] = "";
 --  LBIS.L["Leech Widow"] = "";
   LBIS.L["Left Click"] = "Clic Izquierdo";
   LBIS.L["Legacy"] = "Legado";
@@ -209,6 +213,7 @@ if GetLocale() == "esMX" then
   LBIS.L["The Weaver"] = "El Tejedor";
   LBIS.L["Thousand Needles"] = "Las Mil Agujas";
 --  LBIS.L["Token"] = "";
+--  LBIS.L["Trade Vendors"] = "";
 --  LBIS.L["Transmute"] = "";
   LBIS.L["Trash Mobs"] = "Bichos";
   LBIS.L["Trinket"] = "Abalorio";
@@ -216,7 +221,6 @@ if GetLocale() == "esMX" then
   LBIS.L["Twilight Lord Kelris"] = "Señor Crepuscular Kelris";
   LBIS.L["Two Hand"] = "Dos Manos";
   LBIS.L["Unavailable"] = "No disponible";
---  LBIS.L["unknown"] = "";
 --  LBIS.L["Unknown Rank"] = "";
 --  LBIS.L["Various Venders"] = "";
   LBIS.L["Vendor"] = "Vendedor";
@@ -235,6 +239,8 @@ if GetLocale() == "esMX" then
   LBIS.L["Willix the Importer"] = "Willix el Importador";
   LBIS.L["Wolf Master Nandos"] = "Maestro de lobos Nandos";
 --  LBIS.L["World Drop"] = "";
+--  LBIS.L["World Drop and Vendors"] = "";
   LBIS.L["Wrist"] = "Muñeca";
   LBIS.L["You Have Served Us Well"] = "Nos has hecho un gran servicio";
+--  LBIS.L["Zixil"] = "";
 end

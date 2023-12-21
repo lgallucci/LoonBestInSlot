@@ -106,7 +106,6 @@ LBIS:AddItem(spec1, "4535", LBIS.L["Ring"], "Alt") --Ironforge Memorial Ring
 LBIS:AddItem(spec1, "4998", LBIS.L["Ring"], "Alt") --Blood Ring
 LBIS:AddItem(spec1, "5001", LBIS.L["Ring"], "Alt") --Heart Ring
 LBIS:AddItem(spec1, "2933", LBIS.L["Ring"], "Alt") --Seal of Wrynn
-LBIS:AddItem(spec1, "5000", LBIS.L["Ring"], "Alt") --Coral Band
 LBIS:AddItem(spec1, "1319", LBIS.L["Ring"], "Alt") --Ring of Iron Will
 LBIS:AddItem(spec1, "211450", LBIS.L["Trinket"], "BIS") --Invoker's Void Pearl
 LBIS:AddItem(spec1, "21566", LBIS.L["Trinket"], "Alt") --Rune of Perfection
@@ -146,7 +145,6 @@ LBIS:AddItem(spec1, "15109", LBIS.L["Two Hand"], "Alt") --Staff of Soran'ruk
 LBIS:AddItem(spec1, "6505", LBIS.L["Two Hand"], "Alt") --Crescent Staff
 LBIS:AddItem(spec1, "3452", LBIS.L["Two Hand"], "Alt") --Ceranium Rod
 LBIS:AddItem(spec1, "890", LBIS.L["Two Hand"], "Alt") --Twisted Chanter's Staff
-LBIS:AddItem(spec1, "3738", LBIS.L["Two Hand"], "Alt") --Brewing Rod
 LBIS:AddItem(spec1, "209674", LBIS.L["Ranged/Relic"], "BIS") --Phoenix Ignition
 LBIS:AddItem(spec1, "211461", LBIS.L["Ranged/Relic"], "Alt") --Inscribed Gravestone Scepter
 LBIS:AddItem(spec1, "209571", LBIS.L["Ranged/Relic"], "Alt") --Deadlight

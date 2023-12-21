@@ -13,6 +13,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Arena Points"] = "Points d'arène";
   LBIS.L["Arugal Must Die"] = "Arugal doit mourir";
   LBIS.L["Ashenvale"] = "Orneval";
+--  LBIS.L["Ashenvale and Stonetalon"] = "";
   LBIS.L["Back"] = "Dos";
 --  LBIS.L["Badges of Justice"] = "";
   LBIS.L["Bag"] = "Sac";
@@ -62,6 +63,8 @@ if GetLocale() == "frFR" then
   LBIS.L["Elixir of Pain"] = "L'élixir de douleur";
   LBIS.L["Emblem of Heroism"] = "Emblème d'héroïsme";
   LBIS.L["Emblem of Valor"] = "Emblème de vaillance";
+--  LBIS.L["Enchanting Trainer"] = "";
+--  LBIS.L["Enchanting Vendor"] = "";
   LBIS.L["Enchants"] = "Enchantements";
   LBIS.L["Engineering"] = "Ingénierie";
 --  LBIS.L["Enhancement Dps"] = "";
@@ -110,6 +113,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Lady Sarevess"] = "Dame Sarevess";
   LBIS.L["Leaders of the Fang"] = "Les druides du Croc";
   LBIS.L["Leatherworking"] = "Travail du cuir";
+--  LBIS.L["Leatherworking Trainer"] = "";
 --  LBIS.L["Leech Widow"] = "";
   LBIS.L["Left Click"] = "Clic Gauche";
   LBIS.L["Legacy"] = "Héritage";
@@ -209,6 +213,7 @@ if GetLocale() == "frFR" then
   LBIS.L["The Weaver"] = "Le Tisserand";
   LBIS.L["Thousand Needles"] = "Mille pointes";
   LBIS.L["Token"] = "Marque d’ensemble";
+--  LBIS.L["Trade Vendors"] = "";
 --  LBIS.L["Transmute"] = "";
   LBIS.L["Trash Mobs"] = "Ennemis communs";
   LBIS.L["Trinket"] = "Bijou";
@@ -216,7 +221,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Twilight Lord Kelris"] = "Seigneur du crépuscule Kelris";
   LBIS.L["Two Hand"] = "Deux mains";
   LBIS.L["Unavailable"] = "Indisp.";
---  LBIS.L["unknown"] = "";
 --  LBIS.L["Unknown Rank"] = "";
 --  LBIS.L["Various Venders"] = "";
   LBIS.L["Vendor"] = "Vendeur";
@@ -235,6 +239,8 @@ if GetLocale() == "frFR" then
   LBIS.L["Willix the Importer"] = "Willix l'Importateur";
   LBIS.L["Wolf Master Nandos"] = "Maître-loup Nandos";
 --  LBIS.L["World Drop"] = "";
+--  LBIS.L["World Drop and Vendors"] = "";
   LBIS.L["Wrist"] = "Poignets";
   LBIS.L["You Have Served Us Well"] = "Vous nous avez bien servi";
+--  LBIS.L["Zixil"] = "";
 end

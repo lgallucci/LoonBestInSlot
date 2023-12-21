@@ -22,14 +22,14 @@ public static class Common
                     break;
                 }
 
-                System.Diagnostics.Debug.WriteLine($"Starting WebPage...");
+                System.Diagnostics.Debug.WriteLine($"Starting WebPage ({pageAddress})...");
                 using (var page = await browser.NewPageAsync())
                 {
-                    page.DefaultTimeout = 0; // or you can set this as 0
-                    await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
+                    page.DefaultTimeout = 15000; // or you can set this as 0
+                    await page.GoToAsync(pageAddress, WaitUntilNavigation.DOMContentLoaded);
                     var content = await page.GetContentAsync();
 
-                    System.Diagnostics.Debug.WriteLine($"Retrieved Content...");
+                    System.Diagnostics.Debug.WriteLine($"Retrieved Content ({content.Substring(0, 10)})...");
                     await func(pageAddress, content);
                 }
             }

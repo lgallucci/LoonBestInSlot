@@ -13,6 +13,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Arena Points"] = "Arena-Punkte";
   LBIS.L["Arugal Must Die"] = "Arugal muss sterben";
   LBIS.L["Ashenvale"] = "Eschental";
+--  LBIS.L["Ashenvale and Stonetalon"] = "";
   LBIS.L["Back"] = "Rücken";
   LBIS.L["Badges of Justice"] = "Abzeichen der Gerechtigkeit";
   LBIS.L["Bag"] = "Tasche";
@@ -62,6 +63,8 @@ if GetLocale() == "deDE" then
   LBIS.L["Elixir of Pain"] = "Elixier der Schmerzen";
   LBIS.L["Emblem of Heroism"] = "Emblem des Heldentums";
   LBIS.L["Emblem of Valor"] = "Emblem der Ehre";
+--  LBIS.L["Enchanting Trainer"] = "";
+--  LBIS.L["Enchanting Vendor"] = "";
   LBIS.L["Enchants"] = "Verzauberungen";
   LBIS.L["Engineering"] = "Ingenieurskunst";
 --  LBIS.L["Enhancement Dps"] = "";
@@ -110,6 +113,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Lady Sarevess"] = "Lady Sarevess";
   LBIS.L["Leaders of the Fang"] = "Anführer der Giftzähne";
   LBIS.L["Leatherworking"] = "Lederverarbeitung";
+--  LBIS.L["Leatherworking Trainer"] = "";
 --  LBIS.L["Leech Widow"] = "";
   LBIS.L["Left Click"] = "Linksklick";
   LBIS.L["Legacy"] = "Klassisch";
@@ -209,6 +213,7 @@ if GetLocale() == "deDE" then
   LBIS.L["The Weaver"] = "Der Wirker";
   LBIS.L["Thousand Needles"] = "Tausend Nadeln";
   LBIS.L["Token"] = "Token";
+--  LBIS.L["Trade Vendors"] = "";
   LBIS.L["Transmute"] = "Transmutieren";
   LBIS.L["Trash Mobs"] = "Trash Mobs";
   LBIS.L["Trinket"] = "Schmuck";
@@ -216,7 +221,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Twilight Lord Kelris"] = "Lord des Schattenhammers Kelris";
   LBIS.L["Two Hand"] = "Zweihändig";
   LBIS.L["Unavailable"] = "Nicht verfügbar";
---  LBIS.L["unknown"] = "";
 --  LBIS.L["Unknown Rank"] = "";
 --  LBIS.L["Various Venders"] = "";
   LBIS.L["Vendor"] = "Händler";
@@ -235,6 +239,8 @@ if GetLocale() == "deDE" then
   LBIS.L["Willix the Importer"] = "Willix der Importeur";
   LBIS.L["Wolf Master Nandos"] = "Wolfmeister Nandos";
   LBIS.L["World Drop"] = "Welt Drop";
+--  LBIS.L["World Drop and Vendors"] = "";
   LBIS.L["Wrist"] = "Handgelenke";
   LBIS.L["You Have Served Us Well"] = "Ihr habt uns gut gedient";
+--  LBIS.L["Zixil"] = "";
 end

@@ -1,6 +1,6 @@
 LBIS.EnchantSources =
 {
-    [2833] = { Name = "Armor +24", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = "", TextureId = "4265" },   
+    [2833] = { Name = "Armor +24", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = "", TextureId = "4265" },
     [7221] = { Name = "Iron Shield Spike", DesignId = "6044", ScrollId = "0", Source = LBIS.L["World Drop"], SourceLocation = "", TextureId = "6042" },
     [7779] = { Name = "Enchant Bracer - Minor Agility", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L[""], TextureId = "" },
     [7786] = { Name = "Enchant Weapon - Minor Beastslayer", DesignId = "6348", ScrollId = "0", Source = LBIS.L["World Drop"], SourceLocation = LBIS.L[""], TextureId = "" },

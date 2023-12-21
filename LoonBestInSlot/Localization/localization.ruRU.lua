@@ -13,6 +13,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Arena Points"] = "Очки арены";
   LBIS.L["Arugal Must Die"] = "Смерть Аругалу!";
   LBIS.L["Ashenvale"] = "Ясеневый лес";
+--  LBIS.L["Ashenvale and Stonetalon"] = "";
   LBIS.L["Back"] = "Спина";
 --  LBIS.L["Badges of Justice"] = "";
   LBIS.L["Bag"] = "Сумка";
@@ -62,6 +63,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["Elixir of Pain"] = "Эликсир боли";
   LBIS.L["Emblem of Heroism"] = "Эмблема героизма";
   LBIS.L["Emblem of Valor"] = "Эмблема доблести";
+--  LBIS.L["Enchanting Trainer"] = "";
+--  LBIS.L["Enchanting Vendor"] = "";
   LBIS.L["Enchants"] = "Чары на оружии";
   LBIS.L["Engineering"] = "Инженерное дело";
 --  LBIS.L["Enhancement Dps"] = "";
@@ -110,6 +113,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Lady Sarevess"] = "Леди Саревесс";
   LBIS.L["Leaders of the Fang"] = "Повелители Змей";
   LBIS.L["Leatherworking"] = "Кожевничество";
+--  LBIS.L["Leatherworking Trainer"] = "";
 --  LBIS.L["Leech Widow"] = "";
   LBIS.L["Left Click"] = "ЛКМ";
   LBIS.L["Legacy"] = "Классические";
@@ -209,6 +213,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Weaver"] = "Ткач";
   LBIS.L["Thousand Needles"] = "Тысяча Игл";
   LBIS.L["Token"] = "Фрагмент";
+--  LBIS.L["Trade Vendors"] = "";
 --  LBIS.L["Transmute"] = "";
   LBIS.L["Trash Mobs"] = "Трешовые монстры";
   LBIS.L["Trinket"] = "Аксессуар";
@@ -216,7 +221,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Twilight Lord Kelris"] = "Повелитель сумрака Келрис";
   LBIS.L["Two Hand"] = "Двуручное";
   LBIS.L["Unavailable"] = "Недоступно";
---  LBIS.L["unknown"] = "";
 --  LBIS.L["Unknown Rank"] = "";
 --  LBIS.L["Various Venders"] = "";
   LBIS.L["Vendor"] = "Торговец";
@@ -235,6 +239,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["Willix the Importer"] = "Импортер Вилликс";
   LBIS.L["Wolf Master Nandos"] = "Командир воргенов Нандос";
 --  LBIS.L["World Drop"] = "";
+--  LBIS.L["World Drop and Vendors"] = "";
   LBIS.L["Wrist"] = "Запястья";
   LBIS.L["You Have Served Us Well"] = "За достойную службу";
+--  LBIS.L["Zixil"] = "";
 end

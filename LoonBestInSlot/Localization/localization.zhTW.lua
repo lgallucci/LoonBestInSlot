@@ -13,6 +13,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Arena Points"] = "競技場點數";
   LBIS.L["Arugal Must Die"] = "除掉阿魯高";
   LBIS.L["Ashenvale"] = "梣谷";
+--  LBIS.L["Ashenvale and Stonetalon"] = "";
   LBIS.L["Back"] = "背部";
 --  LBIS.L["Badges of Justice"] = "";
   LBIS.L["Bag"] = "背包";
@@ -62,6 +63,8 @@ if GetLocale() == "zhTW" then
   LBIS.L["Elixir of Pain"] = "痛苦藥劑";
   LBIS.L["Emblem of Heroism"] = "英雄紋章";
   LBIS.L["Emblem of Valor"] = "勇氣紋章";
+--  LBIS.L["Enchanting Trainer"] = "";
+--  LBIS.L["Enchanting Vendor"] = "";
   LBIS.L["Enchants"] = "附魔";
   LBIS.L["Engineering"] = "工程學";
 --  LBIS.L["Enhancement Dps"] = "";
@@ -110,6 +113,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Lady Sarevess"] = "薩利維絲女士";
   LBIS.L["Leaders of the Fang"] = "尖牙德魯伊";
   LBIS.L["Leatherworking"] = "製皮";
+--  LBIS.L["Leatherworking Trainer"] = "";
 --  LBIS.L["Leech Widow"] = "";
   LBIS.L["Left Click"] = "左鍵";
   LBIS.L["Legacy"] = "Legacy";
@@ -209,6 +213,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["The Weaver"] = "法師的頭領";
   LBIS.L["Thousand Needles"] = "千針石林";
   LBIS.L["Token"] = "代幣";
+--  LBIS.L["Trade Vendors"] = "";
 --  LBIS.L["Transmute"] = "";
   LBIS.L["Trash Mobs"] = "小怪";
   LBIS.L["Trinket"] = "飾品";
@@ -216,7 +221,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Twilight Lord Kelris"] = "暮光領主克爾里斯";
   LBIS.L["Two Hand"] = "雙手";
   LBIS.L["Unavailable"] = "不可用";
---  LBIS.L["unknown"] = "";
 --  LBIS.L["Unknown Rank"] = "";
 --  LBIS.L["Various Venders"] = "";
   LBIS.L["Vendor"] = "商人";
@@ -235,6 +239,8 @@ if GetLocale() == "zhTW" then
   LBIS.L["Willix the Importer"] = "進口商威利克斯";
   LBIS.L["Wolf Master Nandos"] = "狼王南杜斯";
 --  LBIS.L["World Drop"] = "";
+--  LBIS.L["World Drop and Vendors"] = "";
   LBIS.L["Wrist"] = "手腕";
   LBIS.L["You Have Served Us Well"] = "幹得好";
+--  LBIS.L["Zixil"] = "";
 end
