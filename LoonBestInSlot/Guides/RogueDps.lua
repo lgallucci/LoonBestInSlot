@@ -64,10 +64,10 @@ LBIS:AddItem(spec1, "21568", LBIS.L["Trinket"], "Alt") --Rune of Duty
 LBIS:AddItem(spec1, "18849", LBIS.L["Trinket"], "Alt") --Insignia of the Horde
 LBIS:AddItem(spec1, "18857", LBIS.L["Trinket"], "Alt") --Insignia of the Alliance
 LBIS:AddItem(spec1, "209525", LBIS.L["Main Hand"], "BIS") --Honed Darkwater Talwar
-LBIS:AddItem(spec1, "16886", LBIS.L["Main Hand/Off Hand"], "BIS") --Outlaw Sabre
 LBIS:AddItem(spec1, "209436", LBIS.L["Main Hand/Off Hand"], "BIS") --Chipped Bite of Serra'kis
-LBIS:AddItem(spec1, "212586", LBIS.L["Main Hand"], "Alt") --Legionnaire's Sword
+LBIS:AddItem(spec1, "16886", LBIS.L["Main Hand/Off Hand"], "Alt") --Outlaw Sabre
 LBIS:AddItem(spec1, "212582", LBIS.L["Main Hand"], "Alt") --Protector's Sword
+LBIS:AddItem(spec1, "212586", LBIS.L["Main Hand"], "Alt") --Legionnaire's Sword
 LBIS:AddItem(spec1, "13024", LBIS.L["Main Hand"], "Alt") --Beazel's Basher
 LBIS:AddItem(spec1, "5191", LBIS.L["Main Hand"], "Alt") --Cruel Barb
 LBIS:AddItem(spec1, "1482", LBIS.L["Main Hand"], "Alt") --Shadowfang

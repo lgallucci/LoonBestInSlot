@@ -17,6 +17,7 @@ LBIS:AddItem(spec1, "211500", LBIS.L["Head"], "Alt") --Resilient Cloth Headband
 LBIS:AddItem(spec1, "4368", LBIS.L["Head"], "Alt") --Flying Tiger Goggles
 LBIS:AddItem(spec1, "3732", LBIS.L["Head"], "Alt") --Hooded Cowl
 LBIS:AddItem(spec1, "7048", LBIS.L["Head"], "Alt") --Azure Silk Hood
+LBIS:AddItem(spec1, "215365", LBIS.L["Shoulder"], "BIS") --Invoker's Mantle
 LBIS:AddItem(spec1, "12998", LBIS.L["Shoulder"], "BIS") --Magician's Mantle
 LBIS:AddItem(spec1, "211468", LBIS.L["Shoulder"], "Alt") --Frayed Chestnut Mantle
 LBIS:AddItem(spec1, "3748", LBIS.L["Shoulder"], "Alt") --Feline Mantle
@@ -55,6 +56,7 @@ LBIS:AddItem(spec1, "892", LBIS.L["Hands"], "Alt") --Gnoll Casting Gloves
 LBIS:AddItem(spec1, "16740", LBIS.L["Hands"], "Alt") --Shredder Operating Gloves
 LBIS:AddItem(spec1, "9609", LBIS.L["Hands"], "Alt") --Shilly Mitts
 LBIS:AddItem(spec1, "10654", LBIS.L["Hands"], "Alt") --Jutebraid Gloves
+LBIS:AddItem(spec1, "215366", LBIS.L["Waist"], "BIS") --Invoker's Cord
 LBIS:AddItem(spec1, "6611", LBIS.L["Waist"], "BIS") --Sage's Sash
 LBIS:AddItem(spec1, "6392", LBIS.L["Waist"], "Alt") --Belt of Arugal
 LBIS:AddItem(spec1, "16975", LBIS.L["Waist"], "Alt") --Warsong Sash

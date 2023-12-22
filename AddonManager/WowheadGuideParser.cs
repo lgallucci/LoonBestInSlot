@@ -394,7 +394,7 @@ public class WowheadGuideParser
                     }
                     else
                     {
-                        if (items[itemId].Slot != slot)
+                        if (!items[itemId].Slot.Contains(slot))
                         {
                             items[itemId].Slot = $"{items[itemId].Slot}/{slot}";
                             if (items[itemId].BisStatus != bisStatus)

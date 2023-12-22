@@ -214,6 +214,7 @@ LBIS.ItemSources =
     [7133] = { Name = "Brutal Hauberk", SourceType = LBIS.L["Quest"], Source = LBIS.L["Brutal Hauberk"], SourceNumber = "0", SourceLocation = LBIS.L["Warrior"], SourceFaction = "H" },
     [7230] = { Name = "Smite's Mighty Hammer", SourceType = LBIS.L["Drop"], Source = LBIS.L["Mr. Smite"], SourceNumber = "0", SourceLocation = LBIS.L["Deadmines"], SourceFaction = "B" },
     [7334] = { Name = "Efflorescent Robe", SourceType = LBIS.L["Quest"], Source = LBIS.L["Reception from Tyrande"], SourceNumber = "0", SourceLocation = LBIS.L["Stonetalon Mountains"], SourceFaction = "A" },
+    [7344] = { Name = "Torch of Holy Flame", SourceType = LBIS.L["Quest"], Source = LBIS.L["Morbent Fel"], SourceNumber = "0", SourceLocation = LBIS.L["Duskwood"], SourceFaction = "A" },
     [7352] = { Name = "Earthen Leather Shoulders", SourceType = LBIS.L["Profession"], Source = LBIS.L["Leatherworking"], SourceNumber = "0", SourceLocation = "9147", SourceFaction = "B" },
     [7356] = { Name = "Elder's Cloak of Intellect", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [7358] = { Name = "Pilferer's Gloves", SourceType = LBIS.L["Profession"], Source = LBIS.L["Leatherworking"], SourceNumber = "0", SourceLocation = "9148", SourceFaction = "B" },

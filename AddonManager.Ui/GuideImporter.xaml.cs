@@ -61,7 +61,7 @@ public sealed partial class GuideImporter : Page
 
         try
         {
-            ConsoleOut.Text = await WowheadImporter.ImportClass(specMapping, phaseNumber);
+            await WowheadImporter.ImportClass(specMapping, phaseNumber, (log) => ConsoleOut.Text += log + Environment.NewLine);
 
             ConsoleOut.Text += $"{spec} Completed! - Verification Passed!" + Environment.NewLine;
         }
@@ -86,7 +86,7 @@ public sealed partial class GuideImporter : Page
 
         string result = string.Empty;
 
-        await WowheadImporter.ImportClasses(SpecList, phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log);
+        await WowheadImporter.ImportClasses(SpecList, phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
     }
 
     private void Verify_Click(object sender, RoutedEventArgs e)

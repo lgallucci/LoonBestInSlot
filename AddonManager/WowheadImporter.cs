@@ -73,7 +73,7 @@ public static class WowheadImporter
         return verificationSucceeded;
     }
 
-    public static async Task ImportClasses(string[] specList, int phaseNumber, CancellationToken cancelToken, Action<string> logMethod)
+    public static async Task ImportClasses(string[] specList, int phaseNumber, CancellationToken cancelToken, Action<string> logFunc)
     {
         var addresses = new List<string>();
         var addressToSpec = new Dictionary<string, ClassGuideMapping>();
@@ -83,7 +83,7 @@ public static class WowheadImporter
 
             if (specMapping == null)
             {
-                logMethod($"{spec} Failed! - Can't find Spec!" + Environment.NewLine);
+                logFunc($"{spec} Failed! - Can't find Spec!");
                 continue;
             } 
             else
@@ -98,35 +98,35 @@ public static class WowheadImporter
             var spec = addressToSpec[address];
             try
             {
-                var result = await ImportClassInternal(spec, phaseNumber, content);
+                var result = await ImportClassInternal(spec, phaseNumber, content, (s) => {});
 
-                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!" + Environment.NewLine);
+                logFunc($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!");
             }
             catch (VerificationException vex)
             {
-                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}..." + Environment.NewLine);
+                logFunc($"{spec.ClassName} {spec.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}...");
             }
             catch (ParseException ex)
             {
-                logMethod($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}..." + Environment.NewLine);
+                logFunc($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
             }
         }, cancelToken);
 
-        logMethod($"Done!" + Environment.NewLine);
+        logFunc($"Done!");
     }
 
-    public static async Task<string> ImportClass(ClassGuideMapping classGuide, int phaseNumber)
+    public static async Task<string> ImportClass(ClassGuideMapping classGuide, int phaseNumber, Action<string> logFunc)
     {
         var result = string.Empty;
         await Common.LoadFromWebPage(classGuide.WebAddress, async (content) =>
         {
-            result = await ImportClassInternal(classGuide, phaseNumber, content);
+            result = await ImportClassInternal(classGuide, phaseNumber, content, logFunc);
         });
 
         return result;
     }
 
-    private static async Task<string> ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, string content)
+    private static async Task<string> ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, string content, Action<string> logFunc)
     {
         var sb = new StringBuilder();
         (Dictionary<int, ItemSpec>, Dictionary<string, EnchantSpec>) itemsAndEnchants;
@@ -144,9 +144,9 @@ public static class WowheadImporter
                     itemsAndEnchants = await new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, content);
 
 
-                WriteEnchantsInternal(itemsAndEnchants.Item2, phaseNumber, classGuideMapping);
+                WriteEnchantsInternal(itemsAndEnchants.Item2, logFunc);
 
-                WriteItemsInternal(itemsAndEnchants.Item1, guide.Item2, phaseNumber, classGuideMapping);
+                WriteItemsInternal(itemsAndEnchants.Item1, logFunc);
 
                 guide.Item1[phaseNumber] = itemsAndEnchants.Item2.Values.ToList();
                 guide.Item2[phaseNumber] = itemsAndEnchants.Item1.Values.ToList();
@@ -167,9 +167,8 @@ public static class WowheadImporter
         return sb.ToString();
     }
 
-    private static string WriteItemsInternal(Dictionary<int, ItemSpec> items, Dictionary<int, List<ItemSpec>> guide, int phaseNumber, ClassGuideMapping classGuideMapping)
+    private static void WriteItemsInternal(Dictionary<int, ItemSpec> items, Action<string> logFunc)
     {
-        StringBuilder sb = new StringBuilder();
         var itemSources = ItemSourceFileManager.ReadItemSources();
         
         foreach (var item in items)
@@ -190,7 +189,7 @@ public static class WowheadImporter
                 }
                 item.Value.BisStatus = "BIS";
 
-                sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
+                logFunc($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
             }
             if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
             {
@@ -205,17 +204,14 @@ public static class WowheadImporter
                 });
             }
 
-            sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
+            logFunc($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
         }
 
         ItemSourceFileManager.WriteItemSources(itemSources);
-
-        return sb.ToString();
     }
 
-    private static string WriteEnchantsInternal(Dictionary<string, EnchantSpec> enchants, int phaseNumber, ClassGuideMapping classGuideMapping)
+    private static void WriteEnchantsInternal(Dictionary<string, EnchantSpec> enchants, Action<string> logFunc)
     {
-        var sb = new StringBuilder();
         var enchantSources = ItemSourceFileManager.ReadEnchantSources();
 
         foreach (var enchant in enchants)
@@ -233,12 +229,10 @@ public static class WowheadImporter
                 });
             }
 
-            sb.AppendLine($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot}");
+            logFunc($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot}");
         }
 
         ItemSourceFileManager.WriteEnchantSources(enchantSources);
-
-        return sb.ToString();
     }
 
     public static void RefreshItems()
