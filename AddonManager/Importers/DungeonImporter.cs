@@ -24,20 +24,14 @@ public class DungeonImporter : LootImporter
     {
         items.Items.Clear();
 
-        await Common.LoadFromWebPages(dungeonUriList.Keys.ToList(), async (uri, content) =>
+        await Common.LoadFromWebPages(dungeonUriList.Keys.ToList(), (uri, doc) =>
         {
-            writeToLog($"Reading from: {uri}");
-
-            var parser = new HtmlParser();
-            var doc = default(IHtmlDocument);
-            doc = await parser.ParseDocumentAsync(content);
-
             var bossesElement = doc.QuerySelector("h2#bosses");
 
             LoopThroughBosses(bossesElement, (bossName, be) => {
                 AddLootItems(be, dungeonUriList[uri], bossName, items);
             });
-        });
+        }, writeToLog);
         return items;
     }
 

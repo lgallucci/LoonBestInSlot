@@ -23,14 +23,8 @@ public class RaidImporter : LootImporter
     {
         items.Items.Clear();
 
-        await Common.LoadFromWebPages(raidUriList.Keys.ToList(), async (uri, content) =>
+        await Common.LoadFromWebPages(raidUriList.Keys.ToList(), (uri, doc) =>
         {
-            writeToLog($"Reading from: {uri}");
-
-            var parser = new HtmlParser();
-            var doc = default(IHtmlDocument);
-            doc = await parser.ParseDocumentAsync(content);
-
             var tableElements = doc.QuerySelectorAll("table.grid");
 
             foreach(var table in tableElements)
@@ -58,7 +52,7 @@ public class RaidImporter : LootImporter
                         });
                     });
             }
-        });
+        }, writeToLog);
 
         return items;
     }

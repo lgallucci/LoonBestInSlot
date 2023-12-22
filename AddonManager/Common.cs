@@ -6,7 +6,7 @@ using PuppeteerSharp;
 namespace AddonManager;
 public static class Common
 {
-    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Func<string, string, Task> func, CancellationToken? cancelToken = null)
+    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null)
     {
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
@@ -14,6 +14,8 @@ public static class Common
             Headless = true
         }))
         {
+            var total = pageAddresses.Count();
+            var count = 0;
             foreach (var pageAddress in pageAddresses)
             {
                 if (cancelToken != null && cancelToken.Value.IsCancellationRequested)
@@ -30,13 +32,20 @@ public static class Common
                     var content = await page.GetContentAsync();
 
                     System.Diagnostics.Debug.WriteLine($"Retrieved Content ({content.Substring(0, 10)})...");
-                    await func(pageAddress, content);
+
+                    writeToLog($"Reading from: {pageAddress} {++count}/{total}");
+
+                    var parser = new HtmlParser();
+                    var doc = default(IHtmlDocument);
+                    doc = await parser.ParseDocumentAsync(content);
+
+                    func(pageAddress, doc);
                 }
             }
         }
     }
 
-    internal static async Task LoadFromWebPage(string pageAddress, Func<string, Task> func)
+    internal static async Task LoadFromWebPage(string pageAddress, Action<IHtmlDocument> func, Action<string> writeToLog)
     {
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
@@ -49,7 +58,13 @@ public static class Common
             await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
             var content = await page.GetContentAsync();
 
-            await func(content);
+            writeToLog($"Reading from: {pageAddress}");
+
+            var parser = new HtmlParser();
+            var doc = default(IHtmlDocument);
+            doc = await parser.ParseDocumentAsync(content);
+
+            func(doc);
         }
     }
 
@@ -72,84 +87,32 @@ public static class Common
 
     internal static async Task ReadWowheadContainsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
-        var total = webAddresses.Count();
-        var count = 0;
-        await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
-        {
-            writeToLog($"Reading from: {uri} {++count}/{total}");
-            var parser = new HtmlParser();
-            var doc = default(IHtmlDocument);
-            doc = await parser.ParseDocumentAsync(content);
-
-            ReadWowheadContainsList(doc, uri, func);
-        });
+        await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadContainsList(doc, uri, func), writeToLog);
     }
 
     internal static async Task ReadWowheadDropsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
-        var total = webAddresses.Count();
-        var count = 0;
-        await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
-        {
-            writeToLog($"Reading from: {uri} {++count}/{total}");
-            var parser = new HtmlParser();
-            var doc = default(IHtmlDocument);
-            doc = await parser.ParseDocumentAsync(content);
-
-            ReadWowheadDropsList(doc, uri, func);
-        });
+        await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadDropsList(doc, uri, func), writeToLog);
     }
 
     internal static async Task ReadWowheadDroppedByList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
-        var total = webAddresses.Count();
-        var count = 0;
-        await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
-        {
-            writeToLog($"Reading from: {uri} {++count}/{total}");
-            var parser = new HtmlParser();
-            var doc = default(IHtmlDocument);
-            doc = await parser.ParseDocumentAsync(content);
-
-            ReadWowheadDroppedByList(doc, uri, func);
-        });
+        await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadDroppedByList(doc, uri, func), writeToLog);
     }
 
     internal static async Task ReadEvoWowSellsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
-        var total = webAddresses.Count();
-        var count = 0;
-        await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
+        await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
         {
-            writeToLog($"Reading from: {uri} {++count}/{total}");
-            var parser = new HtmlParser();
-            var doc = default(IHtmlDocument);
-            doc = await parser.ParseDocumentAsync(content);
+            var rowElements = doc.QuerySelectorAll("#tab-currency-for .listview-mode-default tr");
 
-            ReadEvoWowSellsList(doc, uri, func);
-        });
-    }
-
-    internal static void ReadEvoWowSellsList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
-    {
-        var rowElements = doc.QuerySelectorAll("#tab-currency-for .listview-mode-default tr");
-
-        ReadEvoWowItemsList(doc, uri, rowElements, func);
+            ReadEvoWowItemsList(doc, uri, rowElements, func);
+        }, writeToLog);
     }
 
     internal static async Task ReadWowheadSellsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
-        var total = webAddresses.Count();
-        var count = 0;
-        await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
-        {
-            writeToLog($"Reading from: {uri} {++count}/{total}");
-            var parser = new HtmlParser();
-            var doc = default(IHtmlDocument);
-            doc = await parser.ParseDocumentAsync(content);
-
-            ReadWowheadSellsList(doc, uri, func);
-        });
+        await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadSellsList(doc, uri, func), writeToLog);
     }
 
     internal static void ReadWowheadSellsList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
@@ -172,6 +135,7 @@ public static class Common
 
         ReadWowheadItemsList(doc, uri, rowElements, func);
     }
+    
     internal static void ReadWowheadContainsList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
     {
         var rowElements = doc.QuerySelectorAll("#tab-contains .listview-mode-default tr");
@@ -214,7 +178,6 @@ public static class Common
         }
     }
 
-
     private static void ReadWowheadItemsList(IHtmlDocument doc, string uri, IHtmlCollection<IElement> rowElements, Action<string, IElement, int, IElement> func)
     {
         if (rowElements != null && rowElements.Length > 0)
@@ -250,5 +213,4 @@ public static class Common
             }
         }
     }
-
 }

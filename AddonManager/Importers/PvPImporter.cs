@@ -23,15 +23,8 @@ public class PvPImporter : LootImporter
     {
         items.Items.Clear();
 
-        var total = wowheadUriList.Count;
-        var count = 0;
-        await Common.LoadFromWebPages(wowheadUriList.Keys.ToList(), async (uri, content) =>
+        await Common.LoadFromWebPages(wowheadUriList.Keys.ToList(), async (uri, doc) =>
         {
-            writeToLog($"Reading from {uri} ({++count}/{total})");
-            var parser = new HtmlParser();
-            var doc = default(IHtmlDocument);
-            doc = await parser.ParseDocumentAsync(content);
-
             Common.ReadWowheadSellsList(doc, uri, (uri, row, itemId, item) =>
             {
                 var currencySource = "PvP Vendor";
@@ -78,7 +71,7 @@ public class PvPImporter : LootImporter
                     });
                 }
             });
-        });
+        }, writeToLog);
 
         return items;
     }

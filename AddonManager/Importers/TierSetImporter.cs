@@ -41,16 +41,8 @@ public class TierSetImporter : LootImporter
     {
         var dbItems = new DatabaseItems();
 
-        int uriCount = 0;
-        await Common.LoadFromWebPages(uris, async (uri, content) =>
+        await Common.LoadFromWebPages(uris, (uri, doc) =>
         {
-            uriCount++;
-            writeToText($"Reading from: {uri} {uriCount}/{uris.Count}");
-
-            var parser = new HtmlParser();
-            var doc = default(IHtmlDocument);
-            doc = await parser.ParseDocumentAsync(content);
-
             var tableElement = doc.QuerySelector(".listview-mode-default");
 
             if (tableElement is IHtmlTableElement)
@@ -116,7 +108,7 @@ public class TierSetImporter : LootImporter
                     }
                 }
             }
-        });
+        }, writeToText);
 
         return dbItems;
     }

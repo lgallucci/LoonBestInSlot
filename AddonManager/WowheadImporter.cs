@@ -93,12 +93,12 @@ public static class WowheadImporter
             }
         }
 
-        await Common.LoadFromWebPages(addresses, async (address, content) =>
+        await Common.LoadFromWebPages(addresses, (address, doc) =>
         {
             var spec = addressToSpec[address];
             try
             {
-                var result = await ImportClassInternal(spec, phaseNumber, content, (s) => {});
+                var result = ImportClassInternal(spec, phaseNumber, doc, (s) => {});
 
                 logFunc($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!");
             }
@@ -110,7 +110,7 @@ public static class WowheadImporter
             {
                 logFunc($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
             }
-        }, cancelToken);
+        }, logFunc, cancelToken);
 
         logFunc($"Done!");
     }
@@ -118,15 +118,15 @@ public static class WowheadImporter
     public static async Task<string> ImportClass(ClassGuideMapping classGuide, int phaseNumber, Action<string> logFunc)
     {
         var result = string.Empty;
-        await Common.LoadFromWebPage(classGuide.WebAddress, async (content) =>
+        await Common.LoadFromWebPage(classGuide.WebAddress, (doc) =>
         {
-            result = await ImportClassInternal(classGuide, phaseNumber, content, logFunc);
-        });
+            result = ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
+        }, logFunc);
 
         return result;
     }
 
-    private static async Task<string> ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, string content, Action<string> logFunc)
+    private static string ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, IHtmlDocument doc, Action<string> logFunc)
     {
         var sb = new StringBuilder();
         (Dictionary<int, ItemSpec>, Dictionary<string, EnchantSpec>) itemsAndEnchants;
@@ -139,9 +139,9 @@ public static class WowheadImporter
                 var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
 
                 if (phaseNumber == 0)
-                    itemsAndEnchants = await new WowheadGuideParser().ParsePreRaidWowheadGuide(className, guide, content);
+                    itemsAndEnchants = new WowheadGuideParser().ParsePreRaidWowheadGuide(className, guide, doc);
                 else
-                    itemsAndEnchants = await new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, content);
+                    itemsAndEnchants = new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc);
 
 
                 WriteEnchantsInternal(itemsAndEnchants.Item2, logFunc);
@@ -303,15 +303,8 @@ public static class WowheadImporter
         var webAddresses = itemSources.Where((i) => i.Value.SourceType == @"LBIS.L[""unknown""]")
                                            .Select((i) => $"https://www.wowhead.com/classic/item={i.Key}/");
 
-        var total = webAddresses.Count();
-        var count = 0;
-        await Common.LoadFromWebPages(webAddresses, async (uri, content) =>
+        await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
         {
-            writeToLog($"Reading from: {uri} {++count}/{total}");
-            var parser = new HtmlParser();
-            var doc = default(IHtmlDocument);
-            doc = await parser.ParseDocumentAsync(content);
-
             var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/classic/item=", "").TrimEnd('/'));
                 var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
             if (rowElements != null && rowElements.Length > 0)
@@ -358,7 +351,7 @@ public static class WowheadImporter
                     }
                 } 
             }
-        }, cancelToken);
+        }, writeToLog, cancelToken);
         
         ItemSourceFileManager.WriteItemSources(itemSources);
     }    

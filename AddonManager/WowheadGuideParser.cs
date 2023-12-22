@@ -138,16 +138,12 @@ public class WowheadGuideParser
         public string Text(ICharacterData text) => text.Data;
     }
 
-    public async Task<(Dictionary<int, ItemSpec>, Dictionary<string, EnchantSpec>)> ParsePreRaidWowheadGuide(string className, 
-        Tuple<Dictionary<int, List<EnchantSpec>>, Dictionary<int, List<ItemSpec>>> guide, string content)
+    public (Dictionary<int, ItemSpec>, Dictionary<string, EnchantSpec>) ParsePreRaidWowheadGuide(string className, 
+        Tuple<Dictionary<int, List<EnchantSpec>>, Dictionary<int, List<ItemSpec>>> guide, IHtmlDocument doc)
     {
         System.Diagnostics.Debug.WriteLine($"Start Parsing {className}");
         var items = new Dictionary<int, ItemSpec>();
         var enchants = new Dictionary<string, EnchantSpec>();
-
-        var doc = default(IHtmlDocument);
-        var parser = new HtmlParser();
-        doc = await parser.ParseDocumentAsync(content);
 
         var htmlMapping = "h2#best-in-slot-list + table";
         var headerElement = doc.QuerySelector(htmlMapping);
@@ -216,14 +212,10 @@ public class WowheadGuideParser
         return (items, enchants);
     }
 
-    public async Task<(Dictionary<int, ItemSpec>, Dictionary<string, EnchantSpec>)> ParseWowheadGuide(ClassGuideMapping classGuide, string content)
+    public (Dictionary<int, ItemSpec>, Dictionary<string, EnchantSpec>) ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc)
     {
         var items = new Dictionary<int, ItemSpec>();
         var enchants = new Dictionary<string, EnchantSpec>();
-
-        var doc = default(IHtmlDocument);
-        var parser = new HtmlParser();
-        doc = await parser.ParseDocumentAsync(content);
 
         LoopThroughMappings(doc, classGuide, 
             (enchantAnchor, slot) =>
