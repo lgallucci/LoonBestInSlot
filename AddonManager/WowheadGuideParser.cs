@@ -1,6 +1,4 @@
-﻿using System.Net.Http;
-using System.Windows.Documents;
-using System.Xml.Serialization;
+﻿
 using AddonManager.Models;
 using AngleSharp;
 using AngleSharp.Dom;
@@ -224,14 +222,10 @@ public class WowheadGuideParser
         public string Text(ICharacterData text) => text.Data;
     }
 
-    public async Task<Dictionary<int, ItemSpec>> ParsePreRaidWowheadGuide(string className, Tuple<Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>> guide, string content)
+    public Dictionary<int, ItemSpec> ParsePreRaidWowheadGuide(string className, Tuple<Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, List<ItemSpec>>> guide, IHtmlDocument doc)
     {
         System.Diagnostics.Debug.WriteLine($"Start Parsing {className}");
         var items = new Dictionary<int, ItemSpec>();
-
-        var doc = default(IHtmlDocument);
-        var parser = new HtmlParser();
-        doc = await parser.ParseDocumentAsync(content);
 
         var htmlMapping = "h2#best-in-slot-list + table";
         var headerElement = doc.QuerySelector(htmlMapping);
@@ -300,13 +294,9 @@ public class WowheadGuideParser
         return items;
     }
 
-    public async Task<Dictionary<int, ItemSpec>> ParseWowheadGuide(ClassGuideMapping classGuide, string content)
+    public Dictionary<int, ItemSpec> ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc)
     {
         var items = new Dictionary<int, ItemSpec>();
-
-        var doc = default(IHtmlDocument);
-        var parser = new HtmlParser();
-        doc = await parser.ParseDocumentAsync(content);
 
         LoopThroughMappings(doc, classGuide, (table, slot, htmlId) =>
         {
@@ -330,14 +320,10 @@ public class WowheadGuideParser
         return items;
     }
 
-    internal async Task<(Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>)> ParseGemEnchantsWowheadGuide(ClassGuideMapping classGuide, string content)
+    internal (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>) ParseGemEnchantsWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc)
     {
         var gems = new Dictionary<int, GemSpec>();
         var enchants = new Dictionary<string, EnchantSpec>();
-
-        var parser = new HtmlParser();
-        var doc = default(IHtmlDocument);
-        doc = await parser.ParseDocumentAsync(content);
 
         foreach (var heading in classGuide.GuideMappings)
         {

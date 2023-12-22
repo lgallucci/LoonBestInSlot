@@ -63,9 +63,9 @@ public sealed partial class GuideImporter : Page
         try
         {
             if (phaseString == "GemsEnchants")
-                ConsoleOut.Text = await WowheadImporter.ImportGemsAndEnchants(specMapping);
+                ConsoleOut.Text = await WowheadImporter.ImportGemsAndEnchants(specMapping, (log) => ConsoleOut.Text += log);
             else
-                ConsoleOut.Text = await WowheadImporter.ImportClass(specMapping, phaseNumber);
+                ConsoleOut.Text = await WowheadImporter.ImportClass(specMapping, phaseNumber, (log) => ConsoleOut.Text += log);
 
             ConsoleOut.Text += $"{spec} Completed! - Verification Passed!" + Environment.NewLine;
         }
@@ -311,14 +311,9 @@ public sealed partial class GuideImporter : Page
 
         var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\EmblemItemList.json");
         DatabaseItems dbItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
-        int count = 0, total = urls.Count;
-        await Common.LoadFromWebPages(urls.ToList(), async (uri, content) =>
-        {
-            ConsoleOut.Text = $"Reading {uri} ({++count}/{total})" + Environment.NewLine + ConsoleOut.Text;
-            var parser = new HtmlParser();
-            var doc = default(IHtmlDocument);
-            doc = await parser.ParseDocumentAsync(content);
 
+        await Common.LoadFromWebPages(urls.ToList(), (uri, doc) =>
+        {
             var rowElements = doc.QuerySelectorAll("#tab-currency-for .listview-mode-default tr");
 
             if (rowElements != null && rowElements.Length > 0)
@@ -404,13 +399,13 @@ public sealed partial class GuideImporter : Page
                     });
                 }
             }
-        });
+        }, (log) => ConsoleOut.Text += log);
 
         //write dictionary to file
         File.WriteAllText(@$"{Constants.ItemDbPath}\EmblemItemList.json", JsonConvert.SerializeObject(dbItems, Formatting.Indented));
     }
 
-    private async Task TempImportRaidItems()
+    private async Task TempImportRaidItems(Action<string> writeToLog)
     {
         var urls = new Dictionary<string, string>()
         {
@@ -422,15 +417,9 @@ public sealed partial class GuideImporter : Page
 
         var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\RaidItemList.json");
         DatabaseItems dbItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
-        int count = 0, total = urls.Count;
-        await Common.LoadFromWebPages(urls.Keys.ToList(), async (uri, content) =>
+
+        await Common.LoadFromWebPages(urls.Keys.ToList(), (uri, doc) =>
         {
-
-            ConsoleOut.Text = $"Reading {uri} ({++count}/{total})" + Environment.NewLine + ConsoleOut.Text;
-            var parser = new HtmlParser();
-            var doc = default(IHtmlDocument);
-            doc = await parser.ParseDocumentAsync(content);
-
             var rowElements = doc.QuerySelectorAll("#tab-contains .listview-mode-default tr");
 
             if (rowElements != null && rowElements.Length > 0)
@@ -496,7 +485,7 @@ public sealed partial class GuideImporter : Page
                     });
                 }
             }
-        });
+        }, writeToLog);
 
         //write dictionary to file
         File.WriteAllText(@$"{Constants.ItemDbPath}\RaidItemList.json", JsonConvert.SerializeObject(dbItems, Formatting.Indented));

@@ -32,14 +32,8 @@ public class DungeonImporter : LootImporter
     {
         items.Items.Clear();
 
-        await Common.LoadFromWebPages(dungeonUriList.Keys.ToList(), async (uri, content) =>
+        await Common.LoadFromWebPages(dungeonUriList.Keys.ToList(), (uri, doc) =>
         {
-            writeToLog($"Reading from: {uri}");
-
-            var parser = new HtmlParser();
-            var doc = default(IHtmlDocument);
-            doc = await parser.ParseDocumentAsync(content);
-
             var htmlElements = doc.QuerySelectorAll("#guide-body h2");
             if (htmlElements != null && htmlElements.Length > 0)
             {
@@ -48,7 +42,7 @@ public class DungeonImporter : LootImporter
                     AddLootItems(htmlElement, dungeonUriList[uri], items);
                 }
             }
-        });
+        }, writeToLog);
         return items;
     }
 
