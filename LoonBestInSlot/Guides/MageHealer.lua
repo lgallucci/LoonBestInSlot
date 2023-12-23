@@ -14,7 +14,7 @@ LBIS:AddItem(spec1, "4373", LBIS.L["Head"], "Alt") --Shadow Goggles
 LBIS:AddItem(spec1, "4385", LBIS.L["Head"], "Alt") --Green Tinted Goggles
 LBIS:AddItem(spec1, "215365", LBIS.L["Shoulder"], "BIS") --Invoker's Mantle
 LBIS:AddItem(spec1, "12998", LBIS.L["Shoulder"], "BIS") --Magician's Mantle
-LBIS:AddItem(spec1, "6395", LBIS.L["Shoulder/Back"], "BIS") --Silver-thread Amice
+LBIS:AddItem(spec1, "6395", LBIS.L["Shoulder"], "BIS") --Silver-thread Amice
 LBIS:AddItem(spec1, "211468", LBIS.L["Shoulder"], "Alt") --Frayed Chestnut Mantle
 LBIS:AddItem(spec1, "209679", LBIS.L["Shoulder"], "Alt") --Azshari Novice's Shoulderpads
 LBIS:AddItem(spec1, "3748", LBIS.L["Shoulder"], "Alt") --Feline Mantle
