@@ -6,7 +6,7 @@ LBIS:AddEnchant(spec1, "7779", LBIS.L["Wrist"]) --Enchant Bracer - Minor Agility
 LBIS:AddEnchant(spec1, "7867", LBIS.L["Feet"]) --Enchant Boots - Minor Agility
 LBIS:AddEnchant(spec1, "13503", LBIS.L["Main Hand"]) --Enchant Weapon - Lesser Striking
 LBIS:AddEnchant(spec1, "13503", LBIS.L["Off Hand"]) --Enchant Weapon - Lesser Striking
-LBIS:AddEnchant(spec1, "13503", LBIS.L["Two Hand"]) --Enchant Weapon - Lesser Striking
+LBIS:AddEnchant(spec1, "13529", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Lesser Impact
 
 LBIS:AddItem(spec1, "211510", LBIS.L["Head"], "BIS") --Twilight Slayer's Cowl
 LBIS:AddItem(spec1, "211789", LBIS.L["Head"], "Alt") --Artemis Cowl
