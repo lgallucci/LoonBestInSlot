@@ -108,6 +108,7 @@ LBIS:AddItem(spec1, "4535", LBIS.L["Ring"], "Alt") --Ironforge Memorial Ring
 LBIS:AddItem(spec1, "4998", LBIS.L["Ring"], "Alt") --Blood Ring
 LBIS:AddItem(spec1, "5001", LBIS.L["Ring"], "Alt") --Heart Ring
 LBIS:AddItem(spec1, "2933", LBIS.L["Ring"], "Alt") --Seal of Wrynn
+LBIS:AddItem(spec1, "11994", LBIS.L["Ring"], "Alt") --Coral Band
 LBIS:AddItem(spec1, "1319", LBIS.L["Ring"], "Alt") --Ring of Iron Will
 LBIS:AddItem(spec1, "211450", LBIS.L["Trinket"], "BIS") --Invoker's Void Pearl
 LBIS:AddItem(spec1, "21566", LBIS.L["Trinket"], "Alt") --Rune of Perfection

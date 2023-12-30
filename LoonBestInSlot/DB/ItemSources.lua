@@ -241,6 +241,7 @@ LBIS.ItemSources =
     [11855] = { Name = "Tork Wrench", SourceType = LBIS.L["Quest"], Source = LBIS.L["Samophlange Manual"], SourceNumber = "0", SourceLocation = LBIS.L["The Barrens"], SourceFaction = "H" },
     [11983] = { Name = "Chrome Ring", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [11984] = { Name = "Cobalt Ring", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
+    [11994] = { Name = "Coral Band", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [12008] = { Name = "Savannah Ring", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [12047] = { Name = "Spectral Necklace", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [12977] = { Name = "Magefist Gloves", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
