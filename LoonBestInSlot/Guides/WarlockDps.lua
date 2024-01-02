@@ -78,7 +78,6 @@ LBIS:AddItem(spec1, "12987", LBIS.L["Legs"], "Alt") --Darkweave Breeches
 LBIS:AddItem(spec1, "6903", LBIS.L["Legs"], "Alt") --Gaze Dreamer Pants
 LBIS:AddItem(spec1, "210795", LBIS.L["Feet"], "BIS") --Extraplanar Spidersilk Boots
 LBIS:AddItem(spec1, "209669", LBIS.L["Feet"], "BIS") --Twilight Invoker's Shoes
-LBIS:AddItem(spec1, "7027", LBIS.L["Feet"], "Alt") --Boots of Darkness
 LBIS:AddItem(spec1, "6612", LBIS.L["Feet"], "Alt") --Sage's Boots
 LBIS:AddItem(spec1, "6394", LBIS.L["Feet"], "Alt") --Silver-thread Boots
 LBIS:AddItem(spec1, "211465", LBIS.L["Feet"], "Alt") --Nimbus Boots of Insight

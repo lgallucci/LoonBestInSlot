@@ -81,9 +81,8 @@ LBIS:AddItem(spec1, "3067", LBIS.L["Legs"], "Alt") --Bright Pants
 LBIS:AddItem(spec1, "4037", LBIS.L["Legs"], "Alt") --Silver-thread Pants
 LBIS:AddItem(spec1, "210795", LBIS.L["Feet"], "BIS") --Extraplanar Spidersilk Boots
 LBIS:AddItem(spec1, "6612", LBIS.L["Feet"], "BIS") --Sage's Boots
-LBIS:AddItem(spec1, "7027", LBIS.L["Feet"], "Alt") --Boots of Darkness
-LBIS:AddItem(spec1, "209669", LBIS.L["Feet"], "Alt") --Twilight Invoker's Shoes
 LBIS:AddItem(spec1, "2232", LBIS.L["Feet"], "Alt") --Dark Runner Boots
+LBIS:AddItem(spec1, "209669", LBIS.L["Feet"], "Alt") --Twilight Invoker's Shoes
 LBIS:AddItem(spec1, "3065", LBIS.L["Feet"], "Alt") --Bright Boots
 LBIS:AddItem(spec1, "4320", LBIS.L["Feet"], "Alt") --Spidersilk Boots
 LBIS:AddItem(spec1, "6394", LBIS.L["Feet"], "Alt") --Silver-thread Boots
