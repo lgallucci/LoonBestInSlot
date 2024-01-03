@@ -90,9 +90,9 @@ public sealed partial class GuideImporter : Page
 
         string result = string.Empty;
         if (phaseString == "GemsEnchants")
-            await WowheadImporter.ImportGemsAndEnchants(SpecList, _importCancelToken.Token, (log) => ConsoleOut.Text += log);
+            await WowheadImporter.ImportGemsAndEnchants(SpecList, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
         else
-            await WowheadImporter.ImportClasses(SpecList, phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log);
+            await WowheadImporter.ImportClasses(SpecList, phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
     }
 
     private void Verify_Click(object sender, RoutedEventArgs e)

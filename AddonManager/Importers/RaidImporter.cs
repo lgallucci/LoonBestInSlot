@@ -24,8 +24,8 @@ public class RaidImporter : LootImporter
         //{ @"https://www.wowhead.com/wotlk/npc=33993/emalon-the-storm-watcher#drops;mode:n25;100", "Emalon the Storm Watcher, Vault of Archavon (25)" },
         //{ @"https://www.wowhead.com/wotlk/npc=35013/koralon-the-flame-watcher#drops;mode:n10", "Koralon the Flame Watcher, Vault of Archavon (10)" },
         //{ @"https://www.wowhead.com/wotlk/npc=35013/koralon-the-flame-watcher#drops;mode:n25", "Koralon the Flame Watcher, Vault of Archavon (25)" },
-        { @"https://www.wowhead.com/wotlk/npc=38433/toravon-the-ice-watcher#drops;mode:n10", "Toravon the Ice Watcher, Vault of Archavon (10)" },
-        { @"https://www.wowhead.com/wotlk/npc=38433/toravon-the-ice-watcher#drops;mode:n25", "Toravon the Ice Watcher, Vault of Archavon (25)" },
+        // { @"https://www.wowhead.com/wotlk/npc=38433/toravon-the-ice-watcher#drops;mode:n10", "Toravon the Ice Watcher, Vault of Archavon (10)" },
+        // { @"https://www.wowhead.com/wotlk/npc=38433/toravon-the-ice-watcher#drops;mode:n25", "Toravon the Ice Watcher, Vault of Archavon (25)" },
         //Naxxramas
         //{ @"https://www.wowhead.com/wotlk/npc=15956/anubrekhan#drops;mode:n25", "Anub'Rekhan, Naxxramas" },
         //{ @"https://www.wowhead.com/wotlk/npc=15953/grand-widow-faerlina#drops;mode:n25", "Grand Widow Faerlina, Naxxramas" },
@@ -165,6 +165,12 @@ public class RaidImporter : LootImporter
         //{ @"https://www.wowhead.com/wotlk/npc=36597/the-lich-king#drops;mode:n25", "The Lich King, Icecrown Citadel (25)" },
         //{ @"https://www.wowhead.com/wotlk/npc=36597/the-lich-king#drops;mode:heroic10", "The Lich King, Icecrown Citadel (10H)" },
         //{ @"https://www.wowhead.com/wotlk/npc=36597/the-lich-king#drops;mode:heroic25", "The Lich King, Icecrown Citadel (25H)" },
+
+        //Ruby Sanctum
+        { @"https://www.wowhead.com/wotlk/npc=39863/halion#drops;mode:n10", "Halion, The Ruby Sanctum (10)"},
+        { @"https://www.wowhead.com/wotlk/npc=39863/halion#drops;mode:h10", "Halion, The Ruby Sanctum (10H)"},
+        { @"https://www.wowhead.com/wotlk/npc=39863/halion#drops;mode:n25", "Halion, The Ruby Sanctum (25)"},
+        { @"https://www.wowhead.com/wotlk/npc=39863/halion#drops;mode:h25", "Halion, The Ruby Sanctum (25H)"},
     };
     private Dictionary<string, string> wowheadContainsUriList = new Dictionary<string, string>
     {
