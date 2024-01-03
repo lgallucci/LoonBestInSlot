@@ -4184,5 +4184,6 @@ LBIS.ItemSources =
     [54584] = { Name = "Phaseshifter's Bracers", SourceType = LBIS.L["Drop"], Source = LBIS.L["Halion"], SourceNumber = "0", SourceLocation = LBIS.L["The Ruby Sanctum (25H)"], SourceFaction = "B" },
     [54585] = { Name = "Ring of Phased Regeneration", SourceType = LBIS.L["Drop"], Source = LBIS.L["Halion"], SourceNumber = "0", SourceLocation = LBIS.L["The Ruby Sanctum (25H)"], SourceFaction = "B" },
     [54588] = { Name = "Charred Twilight Scale", SourceType = LBIS.L["Drop"], Source = LBIS.L["Halion"], SourceNumber = "0", SourceLocation = LBIS.L["The Ruby Sanctum (25H)"], SourceFaction = "B" },
+    [54589] = { Name = "Glowing Twilight Scale", SourceType = LBIS.L["Drop"], Source = LBIS.L["Halion"], SourceNumber = "0", SourceLocation = LBIS.L["The Ruby Sanctum (25H)"], SourceFaction = "B" },
     [54591] = { Name = "Petrified Twilight Scale", SourceType = LBIS.L["Drop"], Source = LBIS.L["Halion"], SourceNumber = "0", SourceLocation = LBIS.L["The Ruby Sanctum (25H)"], SourceFaction = "B" },
 }

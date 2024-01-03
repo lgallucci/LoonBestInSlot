@@ -371,7 +371,8 @@ LBIS:AddItem(spec4, "50113", LBIS.L["Shoulder"], "Alt") --Lasherweave Pauldrons
 LBIS:AddItem(spec4, "50715", LBIS.L["Shoulder"], "Alt") --Shoulders of Frost-Tipped Thorns
 LBIS:AddItem(spec4, "50171", LBIS.L["Shoulder"], "Alt") --Shoulders of Frost-Tipped Thorns
 LBIS:AddItem(spec4, "51839", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Searing Kiss
-LBIS:AddItem(spec4, "50668", LBIS.L["Back"], "BIS") --Greatcloak of the Turned Champion
+LBIS:AddItem(spec4, "54583", LBIS.L["Back"], "BIS") --Cloak of Burning Dusk
+LBIS:AddItem(spec4, "50668", LBIS.L["Back"], "Alt") --Greatcloak of the Turned Champion
 LBIS:AddItem(spec4, "47553", LBIS.L["Back"], "Alt") --Bolvar's Devotion
 LBIS:AddItem(spec4, "47554", LBIS.L["Back"], "Alt") --Lady Liadrin's Conviction
 LBIS:AddItem(spec4, "50014", LBIS.L["Back"], "Alt") --Greatcloak of the Turned Champion
@@ -388,17 +389,20 @@ LBIS:AddItem(spec4, "50172", LBIS.L["Chest"], "Alt") --Sanguine Silk Robes
 LBIS:AddItem(spec4, "51294", LBIS.L["Chest"], "Alt") --Sanctified Lasherweave Vestment
 LBIS:AddItem(spec4, "46993", LBIS.L["Chest"], "Alt") --Flowing Vestments of Ascent
 LBIS:AddItem(spec4, "47425", LBIS.L["Chest"], "Alt") --Flowing Robes of Ascent
-LBIS:AddItem(spec4, "47453", LBIS.L["Chest"], "Alt") --Robes of the Shattered Fellowship
 LBIS:AddItem(spec4, "47096", LBIS.L["Chest"], "Alt") --Vestments of the Shattered Fellowship
-LBIS:AddItem(spec4, "50630", LBIS.L["Wrist"], "BIS") --Bracers of Eternal Dreaming
+LBIS:AddItem(spec4, "47453", LBIS.L["Chest"], "Alt") --Robes of the Shattered Fellowship
+LBIS:AddItem(spec4, "54582", LBIS.L["Wrist"], "BIS") --Bracers of Fiery Night
+LBIS:AddItem(spec4, "54584", LBIS.L["Wrist"], "Alt") --Phaseshifter's Bracers
 LBIS:AddItem(spec4, "47066", LBIS.L["Wrist"], "Alt") --Bracers of the Autumn Willow
 LBIS:AddItem(spec4, "47438", LBIS.L["Wrist"], "Alt") --Bindings of the Autumn Willow
 LBIS:AddItem(spec4, "47208", LBIS.L["Wrist"], "Alt") --Armbands of the Ashen Saint
 LBIS:AddItem(spec4, "47485", LBIS.L["Wrist"], "Alt") --Bindings of the Ashen Saint
+LBIS:AddItem(spec4, "50630", LBIS.L["Wrist"], "Alt") --Bracers of Eternal Dreaming
 LBIS:AddItem(spec4, "51301", LBIS.L["Hands"], "BIS") --Sanctified Lasherweave Gauntlets
 LBIS:AddItem(spec4, "51138", LBIS.L["Hands"], "Alt") --Sanctified Lasherweave Gauntlets
 LBIS:AddItem(spec4, "50722", LBIS.L["Hands"], "Alt") --San'layn Ritualist Gloves
 LBIS:AddItem(spec4, "50615", LBIS.L["Hands"], "Alt") --Handguards of Winter's Respite
+LBIS:AddItem(spec4, "54560", LBIS.L["Hands"], "Alt") --Changeling Gloves
 LBIS:AddItem(spec4, "50705", LBIS.L["Waist"], "BIS") --Professor's Bloodied Smock
 LBIS:AddItem(spec4, "50613", LBIS.L["Waist"], "Alt") --Crushing Coldwraith Belt
 LBIS:AddItem(spec4, "50069", LBIS.L["Waist"], "Alt") --Professor's Bloodied Smock
@@ -414,7 +418,8 @@ LBIS:AddItem(spec4, "50109", LBIS.L["Legs"], "Alt") --Lasherweave Legplates
 LBIS:AddItem(spec4, "50696", LBIS.L["Legs"], "Alt") --Leather of Stitched Scourge Parts
 LBIS:AddItem(spec4, "50041", LBIS.L["Legs"], "Alt") --Leather of Stitched Scourge Parts
 LBIS:AddItem(spec4, "51897", LBIS.L["Legs"], "Alt") --Leggings of Unrelenting Blood
-LBIS:AddItem(spec4, "50699", LBIS.L["Feet"], "BIS") --Plague Scientist's Boots
+LBIS:AddItem(spec4, "50665", LBIS.L["Feet"], "BIS") --Boots of Unnatural Growth
+LBIS:AddItem(spec4, "50699", LBIS.L["Feet"], "Alt") --Plague Scientist's Boots
 LBIS:AddItem(spec4, "49894", LBIS.L["Feet"], "Alt") --Blessed Cenarion Boots
 LBIS:AddItem(spec4, "47097", LBIS.L["Feet"], "Alt") --Boots of the Mourning Widow
 LBIS:AddItem(spec4, "47454", LBIS.L["Feet"], "Alt") --Sandals of the Mourning Widow
@@ -429,7 +434,8 @@ LBIS:AddItem(spec4, "51008", LBIS.L["Neck"], "Alt") --Choker of Filthy Diamonds
 LBIS:AddItem(spec4, "50182", LBIS.L["Neck"], "Alt") --Blood Queen's Crimson Choker
 LBIS:AddItem(spec4, "51894", LBIS.L["Neck"], "Alt") --Soulcleave Pendant
 LBIS:AddItem(spec4, "50400", LBIS.L["Ring"], "BIS") --Ashen Band of Endless Wisdom
-LBIS:AddItem(spec4, "50636", LBIS.L["Ring"], "BIS") --Memory of Malygos
+LBIS:AddItem(spec4, "54585", LBIS.L["Ring"], "BIS") --Ring of Phased Regeneration
+LBIS:AddItem(spec4, "50636", LBIS.L["Ring"], "Alt") --Memory of Malygos
 LBIS:AddItem(spec4, "50399", LBIS.L["Ring"], "Alt") --Ashen Band of Unmatched Wisdom
 LBIS:AddItem(spec4, "50610", LBIS.L["Ring"], "Alt") --Marrowgar's Frigid Eye
 LBIS:AddItem(spec4, "50424", LBIS.L["Ring"], "Alt") --Memory of Malygos
@@ -439,9 +445,10 @@ LBIS:AddItem(spec4, "51884", LBIS.L["Ring"], "Alt") --Signet of Putrefaction
 LBIS:AddItem(spec4, "45495", LBIS.L["Ring"], "Alt") --Conductive Seal
 LBIS:AddItem(spec4, "47224", LBIS.L["Ring"], "Alt") --Ring of the Darkmender
 LBIS:AddItem(spec4, "47439", LBIS.L["Ring"], "Alt") --Circle of the Darkmender
-LBIS:AddItem(spec4, "47059", LBIS.L["Trinket"], "BIS") --Solace of the Defeated
-LBIS:AddItem(spec4, "47432", LBIS.L["Trinket"], "BIS") --Solace of the Fallen
+LBIS:AddItem(spec4, "54589", LBIS.L["Trinket"], "BIS") --Glowing Twilight Scale
 LBIS:AddItem(spec4, "50366", LBIS.L["Trinket"], "BIS") --Althor's Abacus
+LBIS:AddItem(spec4, "47059", LBIS.L["Trinket"], "Alt") --Solace of the Defeated
+LBIS:AddItem(spec4, "47432", LBIS.L["Trinket"], "Alt") --Solace of the Fallen
 LBIS:AddItem(spec4, "47041", LBIS.L["Trinket"], "Alt") --Solace of the Defeated
 LBIS:AddItem(spec4, "47271", LBIS.L["Trinket"], "Alt") --Solace of the Fallen
 LBIS:AddItem(spec4, "50358", LBIS.L["Trinket"], "Alt") --Purified Lunar Dust

@@ -152,89 +152,21 @@ public sealed partial class GuideImporter : Page
         ConsoleOut.Text = "Items Refreshed";
     }
 
-    private void Refresh_All_Click(object sender, RoutedEventArgs e)
+    private async void Refresh_All_Click(object sender, RoutedEventArgs e)
     {
         int phaseNumber = 3;
-        RefreshAllItemSources(phaseNumber);
+        await RefreshAllItemSources(phaseNumber);
     }
 
-    private void RefreshAllItemSources(int phaseNumber)
+    private async Task RefreshAllItemSources(int phaseNumber)
     {
-        ConsoleOut.Text = $"Adding Phase {phaseNumber} items to ItemSource...";
+        _importCancelToken = new CancellationTokenSource();
 
-        //Read file into dictionary
-        DatabaseItems dbItems;
-        var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\RaidItemList.json");
-        dbItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
-
-        jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\DungeonItemList.json");
-        var dungeonItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
-        dbItems.AddItems(dungeonItems);
-
-        jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\TierSetList.json");
-        var tierItems = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
-        SortedDictionary<int, TierSource> tierSources = new SortedDictionary<int, TierSource>();
-        foreach (var tierItem in tierItems.Items)
-        {
-            var tierId = Int32.Parse(tierItem.Value.SourceNumber);
-            if (!tierSources.ContainsKey(tierId))
-                tierSources.Add(tierId, new TierSource { TierId = tierId, ItemIds = { tierItem.Key } });
-            else
-                tierSources[tierId].ItemIds.Add(tierItem.Key);
-        }
-        ItemSourceFileManager.WriteTierSources(tierSources);
-
-        foreach (var converted in ItemSourceFileManager.ReadTBCItemSources())
-        {
-            if (!dbItems.Items.ContainsKey(converted.Key))
-            {
-                dbItems.Items.Add(converted.Key, new DatabaseItem()
-                {
-                    Name = converted.Value.Name,
-                    Source = converted.Value.Source,
-                    SourceType = converted.Value.SourceType,
-                    SourceNumber = converted.Value.SourceNumber,
-                    SourceLocation = converted.Value.SourceLocation
-                });
-            }
-        }
-
-        var itemSources = ItemSourceFileManager.ReadItemSources();
-
-        foreach (var db in dbItems.Items)
-        {
-            string raidName, bossName;
-            if (db.Value.SourceType == "TierToken")
-            {
-                var tokenId = Int32.Parse(db.Value.SourceNumber);
-                var token = dbItems.Items[tokenId];
-                bossName = token.Source;
-                raidName = token.SourceLocation;
-            }
-            else
-            {
-                bossName = db.Value.Source;
-                raidName = db.Value.SourceLocation;
-            }
-            if (!itemSources.ContainsKey(db.Key) && IsInPhase(phaseNumber, bossName, raidName))
-            {
-                itemSources.Add(db.Key, new ItemSource
-                {
-                    ItemId = db.Key,
-                    Name = db.Value.Name,
-                    SourceType = "unknown",
-                    Source = "unknown",
-                    SourceNumber = "0",
-                    SourceLocation = "unknown"
-                });
-            }
-        }
-
-        ItemSourceFileManager.WriteItemSources(itemSources);
+        await WowheadImporter.UpdateItemsFromWowhead(_importCancelToken.Token, (s) => { ConsoleOut.Text = s + Environment.NewLine + ConsoleOut.Text; });
 
         WowheadImporter.RefreshItems();
 
-        ConsoleOut.Text = $"Phase {phaseNumber} items Added to ItemSource!";
+        ConsoleOut.Text += $"Refresh All Complete!";
     }
 
     private static bool IsInPhase(int phase, string bossName, string raidName)

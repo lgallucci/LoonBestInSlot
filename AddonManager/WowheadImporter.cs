@@ -252,6 +252,68 @@ public static class WowheadImporter
         return sb.ToString();
     }
 
+        public static async Task UpdateItemsFromWowhead(CancellationToken cancelToken, Action<string> writeToLog)
+    {
+        var itemSources = ItemSourceFileManager.ReadItemSources();
+
+        var sources = new Dictionary<int, List<(string, string)>>();
+
+        var webAddresses = itemSources.Where((i) => i.Value.SourceType == @"LBIS.L[""unknown""]")
+                                           .Select((i) => $"https://www.wowhead.com/wotlk/item={i.Key}/");
+
+        await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
+        {
+            var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/wotlk/item=", "").TrimEnd('/'));
+                var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
+            if (rowElements != null && rowElements.Length > 0)
+            {
+                if (rowElements.Length > 20)
+                {
+                    itemSources[itemId].SourceType = AddLocalizeText("Drop");
+                    itemSources[itemId].Source = AddLocalizeText("World Drop");
+                    itemSources[itemId].SourceNumber = "0";
+                    itemSources[itemId].SourceLocation = string.Empty;
+                }
+                else if (rowElements.Length == 1)
+                {
+                    var location = rowElements[0].Children[2].TextContent.Trim();
+                    if (location == "Blackfathom Deeps")
+                        location = "Blackfathom Deeps (dungeon)";
+
+                    itemSources[itemId].SourceType = AddLocalizeText("Drop");
+                    itemSources[itemId].Source = AddLocalizeText(rowElements[0].Children[0].TextContent.Trim());
+                    itemSources[itemId].SourceNumber = "0";
+                    itemSources[itemId].SourceLocation = AddLocalizeText(location);
+                }
+            } 
+            else 
+            {                
+                rowElements = doc.QuerySelectorAll("#tab-reward-from-q .listview-mode-default .listview-row");
+                if (rowElements != null && rowElements.Length > 0)
+                {
+                    if (rowElements.Count() == 1)
+                    {
+                        var faction = "B";
+                        if (rowElements[0].Children[3].HasChildNodes && 
+                            rowElements[0].Children[3].Children[0].ClassName == "icon-alliance")
+                            faction = "A";
+                        else if (rowElements[0].Children[3].HasChildNodes && 
+                                 rowElements[0].Children[3].Children[0].ClassName == "icon-horde")
+                            faction = "H";
+
+                        itemSources[itemId].SourceType = AddLocalizeText("Quest");
+                        itemSources[itemId].Source = AddLocalizeText(rowElements[0].Children[0].TextContent.Trim());
+                        itemSources[itemId].SourceNumber = "0";
+                        itemSources[itemId].SourceLocation = AddLocalizeText(rowElements[0].Children[7].TextContent.Trim());
+                        itemSources[itemId].SourceFaction = faction;
+                    }
+                } 
+            }
+        }, writeToLog, cancelToken);
+        
+        ItemSourceFileManager.WriteItemSources(itemSources);
+    }   
+
     private static string ImportGemsAndEnchantsInternal(ClassGuideMapping classGuide, IHtmlDocument doc)
     {
         var sb = new StringBuilder();
