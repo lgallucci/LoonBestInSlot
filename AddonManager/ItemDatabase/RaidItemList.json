@@ -19176,6 +19176,102 @@
       "SourceLocation": "The Ruby Sanctum (10)",
       "SourceFaction": "B"
     },
+    "53125": {
+      "Name": "Apocalypse's Advance",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
+      "SourceFaction": "B"
+    },
+    "53126": {
+      "Name": "Umbrage Armbands",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
+      "SourceFaction": "B"
+    },
+    "53127": {
+      "Name": "Returning Footfalls",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
+      "SourceFaction": "B"
+    },
+    "53129": {
+      "Name": "Treads of Impending Resurrection",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
+      "SourceFaction": "B"
+    },
+    "53132": {
+      "Name": "Penumbra Pendant",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
+      "SourceFaction": "B"
+    },
+    "53133": {
+      "Name": "Signet of Twilight",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
+      "SourceFaction": "B"
+    },
+    "53134": {
+      "Name": "Phaseshifter's Bracers",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
+      "SourceFaction": "B"
+    },
+    "53486": {
+      "Name": "Bracers of Fiery Night",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
+      "SourceFaction": "B"
+    },
+    "53487": {
+      "Name": "Foreshadow Steps",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
+      "SourceFaction": "B"
+    },
+    "53488": {
+      "Name": "Split Shape Belt",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
+      "SourceFaction": "B"
+    },
+    "53489": {
+      "Name": "Cloak of Burning Dusk",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
+      "SourceFaction": "B"
+    },
+    "53490": {
+      "Name": "Ring of Phased Regeneration",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
+      "SourceFaction": "B"
+    },
     "54556": {
       "Name": "Abduction's Cover",
       "Source": "Halion",
@@ -19270,6 +19366,38 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Ruby Sanctum (10H)",
+      "SourceFaction": "B"
+    },
+    "54569": {
+      "Name": "Sharpened Twilight Scale",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
+      "SourceFaction": "B"
+    },
+    "54571": {
+      "Name": "Petrified Twilight Scale",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
+      "SourceFaction": "B"
+    },
+    "54572": {
+      "Name": "Charred Twilight Scale",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
+      "SourceFaction": "B"
+    },
+    "54573": {
+      "Name": "Glowing Twilight Scale",
+      "Source": "Halion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Ruby Sanctum (25)",
       "SourceFaction": "B"
     },
     "54576": {
