@@ -353,8 +353,8 @@ LBIS:AddItem(spec4, "51219", LBIS.L["Chest"], "Alt") --Sanctified Ymirjar Lord's
 LBIS:AddItem(spec4, "51917", LBIS.L["Chest"], "Alt") --Ghoul Commander's Cuirass
 LBIS:AddItem(spec4, "50024", LBIS.L["Chest"], "Alt") --Blightborne Warplate
 LBIS:AddItem(spec4, "50850", LBIS.L["Chest"], "Alt") --Ymirjar Lord's Breastplate
-LBIS:AddItem(spec4, "47415", LBIS.L["Chest"], "Alt") --Hauberk of the Towering Monstrosity
 LBIS:AddItem(spec4, "46968", LBIS.L["Chest"], "Alt") --Chestplate of the Towering Monstrosity
+LBIS:AddItem(spec4, "47415", LBIS.L["Chest"], "Alt") --Hauberk of the Towering Monstrosity
 LBIS:AddItem(spec4, "50611", LBIS.L["Wrist"], "BIS") --Bracers of Dark Reckoning
 LBIS:AddItem(spec4, "51901", LBIS.L["Wrist"], "Alt") --Gargoyle Spit Bracers
 LBIS:AddItem(spec4, "49960", LBIS.L["Wrist"], "Alt Mit") --Bracers of Dark Reckoning
@@ -383,11 +383,14 @@ LBIS:AddItem(spec4, "50612", LBIS.L["Legs"], "Alt") --Legguards of Lost Hope
 LBIS:AddItem(spec4, "51895", LBIS.L["Legs"], "Alt") --Deathforged Legplates
 LBIS:AddItem(spec4, "49964", LBIS.L["Legs"], "Alt") --Legguards of Lost Hope
 LBIS:AddItem(spec4, "51216", LBIS.L["Legs"], "Alt") --Sanctified Ymirjar Lord's Legguards
-LBIS:AddItem(spec4, "48447", LBIS.L["Legs"], "Alt") --Wrynn's Legguards of Triumph
 LBIS:AddItem(spec4, "48469", LBIS.L["Legs"], "Alt") --Hellscream's Legguards of Triumph
+LBIS:AddItem(spec4, "48447", LBIS.L["Legs"], "Alt") --Wrynn's Legguards of Triumph
 LBIS:AddItem(spec4, "50847", LBIS.L["Legs"], "Alt") --Ymirjar Lord's Legguards
 LBIS:AddItem(spec4, "50625", LBIS.L["Feet"], "BIS") --Grinning Skull Greatboots
+LBIS:AddItem(spec4, "54579", LBIS.L["Feet"], "BIS Mit") --Treads of Impending Resurrection
 LBIS:AddItem(spec4, "51816", LBIS.L["Feet"], "Alt") --Scourge Fanged Stompers
+LBIS:AddItem(spec4, "53129", LBIS.L["Feet"], "Alt Mit") --Treads of Impending Resurrection
+LBIS:AddItem(spec4, "54564", LBIS.L["Feet"], "Alt Mit") --Scion's Treads
 LBIS:AddItem(spec4, "50190", LBIS.L["Feet"], "Alt") --Grinning Skull Greatboots
 LBIS:AddItem(spec4, "49907", LBIS.L["Feet"], "Alt") --Boots of Kingly Upheaval
 LBIS:AddItem(spec4, "47003", LBIS.L["Feet"], "Alt") --Dawnbreaker Greaves
@@ -414,6 +417,7 @@ LBIS:AddItem(spec4, "47157", LBIS.L["Ring"], "Alt") --Signet of the Traitor King
 LBIS:AddItem(spec4, "49489", LBIS.L["Ring"], "Alt") --Signified Ring of Binding
 LBIS:AddItem(spec4, "50364", LBIS.L["Trinket"], "BIS") --Sindragosa's Flawless Fang
 LBIS:AddItem(spec4, "50344", LBIS.L["Trinket"], "BIS") --Unidentifiable Organ
+LBIS:AddItem(spec4, "54591", LBIS.L["Trinket"], "Alt") --Petrified Twilight Scale
 LBIS:AddItem(spec4, "47088", LBIS.L["Trinket"], "Alt") --Satrina's Impeding Scarab
 LBIS:AddItem(spec4, "47451", LBIS.L["Trinket"], "Alt") --Juggernaut's Vitality
 LBIS:AddItem(spec4, "45158", LBIS.L["Trinket"], "Alt") --Heart of Iron

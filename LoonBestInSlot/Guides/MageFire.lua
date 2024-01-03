@@ -333,7 +333,8 @@ LBIS:AddItem(spec4, "47767", LBIS.L["Shoulder"], "Alt") --Sunstrider's Shoulderp
 LBIS:AddItem(spec4, "47758", LBIS.L["Shoulder"], "Alt") --Khadgar's Shoulderpads of Triumph
 LBIS:AddItem(spec4, "47768", LBIS.L["Shoulder"], "Alt") --Sunstrider's Shoulderpads of Triumph
 LBIS:AddItem(spec4, "47757", LBIS.L["Shoulder"], "Alt") --Khadgar's Shoulderpads of Triumph
-LBIS:AddItem(spec4, "50628", LBIS.L["Back"], "BIS") --Frostbinder's Shredded Cape
+LBIS:AddItem(spec4, "54583", LBIS.L["Back"], "BIS") --Cloak of Burning Dusk
+LBIS:AddItem(spec4, "50628", LBIS.L["Back"], "Alt") --Frostbinder's Shredded Cape
 LBIS:AddItem(spec4, "47551", LBIS.L["Back"], "Alt") --Aethas' Intensity
 LBIS:AddItem(spec4, "47552", LBIS.L["Back"], "Alt") --Jaina's Radiance
 LBIS:AddItem(spec4, "50668", LBIS.L["Back"], "Alt") --Greatcloak of the Turned Champion
@@ -353,8 +354,9 @@ LBIS:AddItem(spec4, "47766", LBIS.L["Chest"], "Alt") --Sunstrider's Robe of Triu
 LBIS:AddItem(spec4, "47759", LBIS.L["Chest"], "Alt") --Khadgar's Robe of Triumph
 LBIS:AddItem(spec4, "47769", LBIS.L["Chest"], "Alt") --Sunstrider's Robe of Triumph
 LBIS:AddItem(spec4, "47756", LBIS.L["Chest"], "Alt") --Khadgar's Robe of Triumph
-LBIS:AddItem(spec4, "50651", LBIS.L["Wrist"], "BIS") --The Lady's Brittle Bracers
-LBIS:AddItem(spec4, "50686", LBIS.L["Wrist"], "BIS") --Death Surgeon's Sleeves
+LBIS:AddItem(spec4, "54582", LBIS.L["Wrist"], "BIS") --Bracers of Fiery Night
+LBIS:AddItem(spec4, "50651", LBIS.L["Wrist"], "Alt") --The Lady's Brittle Bracers
+LBIS:AddItem(spec4, "50686", LBIS.L["Wrist"], "Alt") --Death Surgeon's Sleeves
 LBIS:AddItem(spec4, "49994", LBIS.L["Wrist"], "Alt") --The Lady's Brittle Bracers
 LBIS:AddItem(spec4, "51872", LBIS.L["Wrist"], "Alt") --Ether-Soaked Bracers
 LBIS:AddItem(spec4, "51918", LBIS.L["Wrist"], "Alt") --Bracers of Dark Blessings
@@ -429,16 +431,16 @@ LBIS:AddItem(spec4, "45495", LBIS.L["Ring"], "Alt") --Conductive Seal
 LBIS:AddItem(spec4, "46046", LBIS.L["Ring"], "Alt") --Nebula Band
 LBIS:AddItem(spec4, "47327", LBIS.L["Ring"], "Alt") --Lurid Manifestation
 LBIS:AddItem(spec4, "47054", LBIS.L["Ring"], "Alt") --Band of Deplorable Violence
-LBIS:AddItem(spec4, "50348", LBIS.L["Trinket"], "BIS") --Dislodged Foreign Object
 LBIS:AddItem(spec4, "50365", LBIS.L["Trinket"], "BIS") --Phylactery of the Nameless Lich
+LBIS:AddItem(spec4, "50348", LBIS.L["Trinket"], "BIS") --Dislodged Foreign Object
+LBIS:AddItem(spec4, "54588", LBIS.L["Trinket"], "Alt") --Charred Twilight Scale
 LBIS:AddItem(spec4, "50345", LBIS.L["Trinket"], "Alt") --Muradin's Spyglass
 LBIS:AddItem(spec4, "47477", LBIS.L["Trinket"], "Alt") --Reign of the Dead
 LBIS:AddItem(spec4, "47188", LBIS.L["Trinket"], "Alt") --Reign of the Unliving
 LBIS:AddItem(spec4, "45518", LBIS.L["Trinket"], "Alt") --Flare of the Heavens
-LBIS:AddItem(spec4, "47316", LBIS.L["Trinket"], "Alt") --Reign of the Dead
 LBIS:AddItem(spec4, "47182", LBIS.L["Trinket"], "Alt") --Reign of the Unliving
+LBIS:AddItem(spec4, "47316", LBIS.L["Trinket"], "Alt") --Reign of the Dead
 LBIS:AddItem(spec4, "50732", LBIS.L["Main Hand"], "BIS") --Bloodsurge, Kel'Thuzad's Blade of Agony
-LBIS:AddItem(spec4, "50648", LBIS.L["Main Hand"], "Alt") --Nibelung
 LBIS:AddItem(spec4, "50731", LBIS.L["Main Hand"], "Alt") --Archus, Greatstaff of Antonidas
 LBIS:AddItem(spec4, "50608", LBIS.L["Main Hand"], "Alt") --Frozen Bonespike
 LBIS:AddItem(spec4, "50704", LBIS.L["Main Hand"], "Alt") --Rigormortis
@@ -452,6 +454,7 @@ LBIS:AddItem(spec4, "47518", LBIS.L["Main Hand"], "Alt") --Mortalis
 LBIS:AddItem(spec4, "47517", LBIS.L["Main Hand"], "Alt") --Blade of the Unbroken Covenant
 LBIS:AddItem(spec4, "47422", LBIS.L["Main Hand"], "Alt") --Barb of Tarasque
 LBIS:AddItem(spec4, "46980", LBIS.L["Main Hand"], "Alt") --Blade of Tarasque
+LBIS:AddItem(spec4, "50648", LBIS.L["Main Hand"], "Alt") --Nibelung
 LBIS:AddItem(spec4, "50047", LBIS.L["Main Hand"], "Alt") --Quel'Delar, Lens of the Mind
 LBIS:AddItem(spec4, "45620", LBIS.L["Main Hand"], "Alt") --Starshard Edge
 LBIS:AddItem(spec4, "47261", LBIS.L["Main Hand"], "Alt") --Barb of Tarasque
