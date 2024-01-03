@@ -192,7 +192,7 @@ public static class Common
                 {
                     if (success) return true;
 
-                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/classic", "").Replace("/item=", "").Replace("/spell=", "");
+                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/classic", "").Replace("/wotlk", "").Replace("/item=", "").Replace("/spell=", "");
                     itemName = anchorObject.TextContent;
 
                     var itemIdIndex = item.IndexOf("/");
