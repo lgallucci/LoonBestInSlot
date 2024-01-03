@@ -274,7 +274,7 @@ public class RaidImporter : LootImporter
     private void InternalItemsParse(Dictionary<string, string> uriList, string webAddress, IElement row, int itemId, int itemLevel, IElement item, DatabaseItems items)
     {
         var itemName = item.TextContent;
-        var isPurple = item.ClassName.Contains("q4") || item.ClassName.Contains("q5");
+        var isPurple = (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q5") ?? false);
         if (!isPurple) return;
         if (excludedWords.Any(w => itemName.Contains(w))) return;
 

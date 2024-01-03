@@ -364,13 +364,13 @@ public class WowheadGuideParser
                                 if (_gemSwaps.ContainsKey(itemId))
                                     itemId = _gemSwaps[itemId];
                                 int itemQuality = 0;
-                                if (boxElement.ClassName.Contains("q1"))
+                                if (boxElement.ClassName?.Contains("q1") ?? false)
                                     itemQuality = 1;
-                                else if (boxElement.ClassName.Contains("q2"))
+                                else if (boxElement.ClassName?.Contains("q2") ?? false)
                                     itemQuality = 2;
-                                else if (boxElement.ClassName.Contains("q3"))
+                                else if (boxElement.ClassName?.Contains("q3") ?? false)
                                     itemQuality = 3;
-                                else if (boxElement.ClassName.Contains("q4"))
+                                else if (boxElement.ClassName?.Contains("q4") ?? false)
                                     itemQuality = 4;
 
                                 if (!gems.ContainsKey(itemId))

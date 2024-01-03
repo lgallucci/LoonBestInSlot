@@ -182,7 +182,7 @@ public class TierSetImporter : LootImporter
                             dbItems.Items.Add(itemId, new DatabaseItem()
                             {
                                 Name = cellAnchor.TextContent,
-                                Source = tokenName.TextContent,
+                                Source = tokenName?.TextContent ?? string.Empty,
                                 SourceLocation = "unknown",
                                 SourceNumber = tokenId.ToString(),
                                 SourceType = "TierToken",

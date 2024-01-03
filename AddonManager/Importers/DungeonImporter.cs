@@ -100,7 +100,7 @@ public class DungeonImporter : LootImporter
         }
     }
 
-    private IElement FindNextTableHeader(IElement currentElement, ref string dungeonModifier, ref string bossName)
+    private IElement? FindNextTableHeader(IElement? currentElement, ref string dungeonModifier, ref string bossName)
     {
         var foundTable = false;
         while (!foundTable)
@@ -136,12 +136,12 @@ public class DungeonImporter : LootImporter
                 foundTable = false;
 
             if (!foundTable)
-                currentElement = currentElement.NextElementSibling;
+                currentElement = currentElement?.NextElementSibling;
         }
         return currentElement;
     }
 
-    private void AddLootItems(IElement htmlElement, string dungeonName, DatabaseItems items)
+    private void AddLootItems(IElement? htmlElement, string dungeonName, DatabaseItems items)
     {
         var dungeonModifier = string.Empty;
         var bossName = string.Empty;
@@ -152,7 +152,7 @@ public class DungeonImporter : LootImporter
             var table = htmlElement.NextElementSibling;
             if (table is IHtmlTableElement)
             {
-                LoopThroughTable(table as IHtmlTableElement, bossName, dungeonName, dungeonModifier, items);
+                LoopThroughTable((IHtmlTableElement)table, bossName, dungeonName, dungeonModifier, items);
             }
 
             htmlElement = FindNextTableHeader(table, ref dungeonModifier, ref bossName);
