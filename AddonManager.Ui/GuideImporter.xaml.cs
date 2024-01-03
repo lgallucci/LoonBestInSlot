@@ -63,9 +63,9 @@ public sealed partial class GuideImporter : Page
         try
         {
             if (phaseString == "GemsEnchants")
-                ConsoleOut.Text = await WowheadImporter.ImportGemsAndEnchants(specMapping, (log) => ConsoleOut.Text += log);
+                ConsoleOut.Text = await WowheadImporter.ImportGemsAndEnchants(specMapping, (log) => ConsoleOut.Text += log + Environment.NewLine);
             else
-                ConsoleOut.Text = await WowheadImporter.ImportClass(specMapping, phaseNumber, (log) => ConsoleOut.Text += log);
+                ConsoleOut.Text = await WowheadImporter.ImportClass(specMapping, phaseNumber, (log) => ConsoleOut.Text += log + Environment.NewLine);
 
             ConsoleOut.Text += $"{spec} Completed! - Verification Passed!" + Environment.NewLine;
         }

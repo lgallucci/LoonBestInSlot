@@ -83,10 +83,10 @@ internal class PriestShadowMapping : SpecMapping
     public override string Phase4Url => "dps-bis-gear-pve-phase-4";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand-weapons-for-shadow-priest-dps-phase-4") },
-            { ("Off Hand", "#off-hands-for-shadow-priest-dps-phase-4") },
-            { ("Two Hand", "#two-handed-weapons-for-shadow-priest-dps-phase-4") },
-            { ("Ranged/Relic", "#wands-for-shadow-priest-dps-phase-4") }
+            { ("Main Hand", "#main-hand-weapons-for-shadow-priest-dps-phase-5") },
+            { ("Off Hand", "#off-hands-for-shadow-priest-dps-phase-5") },
+            { ("Two Hand", "#two-handed-weapons-for-shadow-priest-dps-phase-5") },
+            { ("Ranged/Relic", "#wands-for-shadow-priest-dps-phase-5") }
         };
 
     public override string Phase5Url => "dps-bis-gear-pve-phase-5";

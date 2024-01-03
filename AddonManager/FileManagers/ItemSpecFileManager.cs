@@ -58,6 +58,7 @@ public static class ItemSpecFileManager
 
         string[] itemSpecLines = System.IO.File.ReadAllLines(path);
 
+        int count = 0;        
         foreach (var itemSpecLine in itemSpecLines)
         {
             if (itemSpecLine.Contains("local spec"))
@@ -108,9 +109,11 @@ public static class ItemSpecFileManager
                 {
                     ItemId = itemId,
                     Slot = itemSplit[3],
-                    Name = itemSplit[8].Replace(") --", ""),
-                    BisStatus = itemSplit[5]
+                    Name = itemSplit[6].Replace(") --", ""),
+                    BisStatus = itemSplit[5],
+                    ItemOrder = count
                 });
+                count++;
             }
         }
 

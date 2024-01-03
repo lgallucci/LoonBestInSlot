@@ -1,6 +1,6 @@
 ﻿namespace AddonManager.Models;
 
-public class ItemSpec 
+public class ItemSpec : IComparable<ItemSpec>
 {
     public static Dictionary<string, int> SortOrder = new Dictionary<string, int> 
     { 
@@ -23,10 +23,39 @@ public class ItemSpec
         { "unknown", 16 } 
     };
 
+public int CompareTo(ItemSpec? other)
+    {
+        if (other == null)
+            return -1;
+
+        var slot = this.Slot.Split("/").First();
+        var otherSlot = other.Slot.Split("/").First();
+        if (SortOrder[slot] < SortOrder[otherSlot])
+        {
+            return -1;
+        }
+        else if (SortOrder[slot] > SortOrder[otherSlot])
+        {
+            return 1;
+        }
+        else
+        {
+            if (other.BisStatus.Contains("BIS") && !this.BisStatus.Contains("BIS"))
+                return 1;
+            else if (this.BisStatus.Contains("BIS") && !other.BisStatus.Contains("BIS"))
+                return -1;
+            else
+            {
+                return this.ItemOrder < other.ItemOrder ? -1 : 1;
+            }
+        }
+    }
+
     public int ItemId { get; set; }
     public string Name { get; set; } = string.Empty;
     public string Slot { get; set; } = string.Empty;
     public string BisStatus { get; set; } = string.Empty;
+    public int ItemOrder { get; set; }
 
 }
 
