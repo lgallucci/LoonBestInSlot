@@ -41,11 +41,9 @@ public static class ItemSpecFileManager
             var items = phaseItems.Value;
             items.Sort();
 
-            int count = 0;
             foreach (var item in items)
             {
-                itemSB.AppendLine($"LBIS:AddItem(spec{phaseItems.Key}, \"{item.ItemId}\", LBIS.L[\"{item.Slot}\"], \"{item.BisStatus}\", \"{count}\") --{item.Name}");
-                count++;
+                itemSB.AppendLine($"LBIS:AddItem(spec{phaseItems.Key}, \"{item.ItemId}\", LBIS.L[\"{item.Slot}\"], \"{item.BisStatus}\") --{item.Name}");
             }
         }
 
@@ -111,8 +109,7 @@ public static class ItemSpecFileManager
                     ItemId = itemId,
                     Slot = itemSplit[3],
                     Name = itemSplit[8].Replace(") --", ""),
-                    BisStatus = itemSplit[5],
-                    ItemOrder = items[phase].Count(i => i.Slot == itemSplit[3])
+                    BisStatus = itemSplit[5]
                 });
             }
         }

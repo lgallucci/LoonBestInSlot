@@ -91,7 +91,8 @@ function LBIS:RegisterSpec(class, spec, phase)
     return classSpec
 end
 
-function LBIS:AddItem(bisEntry, id, slot, bis, order)
+local addOrder = 0;
+function LBIS:AddItem(bisEntry, id, slot, bis)
 
 	if strlen(id) <= 0 then
 		return
@@ -121,7 +122,7 @@ function LBIS:AddItem(bisEntry, id, slot, bis, order)
 
 	if searchedItem == nil then
 
-		searchedItem = { Id = itemId, Bis = bis, Phase = bisEntry.Phase, Slot = slot, SortOrder = order }
+		searchedItem = { Id = itemId, Bis = bis, Phase = bisEntry.Phase, Slot = slot, SortOrder = addOrder }
 		
 		if not LBIS.ItemsBySpecAndId[bisEntry.Id] then
 			LBIS.ItemsBySpecAndId[bisEntry.Id] = {}
@@ -132,7 +133,7 @@ function LBIS:AddItem(bisEntry, id, slot, bis, order)
 			searchedItem.Bis = bis;
 		end
 
-		searchedItem.SortOrder = order;
+		searchedItem.SortOrder = addOrder;
 
 		local firstNumber, lastNumber = LBIS:GetPhaseNumbers(searchedItem.Phase);
 
@@ -158,6 +159,7 @@ function LBIS:AddItem(bisEntry, id, slot, bis, order)
 		end			
 		LBIS.ItemsByIdAndSpec[tonumber(itemSource.SourceNumber)][bisEntry.Id] = searchedItem
 	end	
+	addOrder = addOrder + 1;
 end
 
 function LBIS:AddGem(bisEntry, id, quality, isMeta)

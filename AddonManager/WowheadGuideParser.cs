@@ -233,12 +233,12 @@ public class WowheadGuideParser
         {
             var tableElement = headerElement as IHtmlTableElement;
 
-            LoopThroughTable(tableElement, (tableRow, itemChild, itemOrderIndex, isTierList) =>
+            LoopThroughTable(tableElement, (tableRow, itemChild, isTierList) =>
             {
                 var slotText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
 
                 if (itemChild != null)
-                    ParseItemCell(itemChild, "BIS", new SlotSwaps()[slotText], items, itemOrderIndex);
+                    ParseItemCell(itemChild, "BIS", new SlotSwaps()[slotText], items);
             });
         }
         else
@@ -252,7 +252,7 @@ public class WowheadGuideParser
         {
             var tableElement = headerElement as IHtmlTableElement;
 
-            LoopThroughTable(tableElement, (tableRow, itemChild, itemOrderIndex, isTierList) =>
+            LoopThroughTable(tableElement, (tableRow, itemChild, isTierList) =>
             {
                 var slotText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
 
@@ -265,7 +265,7 @@ public class WowheadGuideParser
 
                 if (itemChild != null)
                 {
-                    var itemIds = ParseItemCell(itemChild, "BIS", slotText, items, itemOrderIndex);
+                    var itemIds = ParseItemCell(itemChild, "BIS", slotText, items);
 
                     foreach (var itemId in itemIds)
                     {
@@ -301,7 +301,7 @@ public class WowheadGuideParser
         LoopThroughMappings(doc, classGuide, (table, slot, htmlId) =>
         {
             bool first = true;
-            LoopThroughTable(table, (tableRow, itemChild, itemOrderIndex, isTierList) =>
+            LoopThroughTable(table, (tableRow, itemChild, isTierList) =>
             {
                 string htmlBisText = string.Empty, rankText = string.Empty;
                 if (isTierList)
@@ -312,7 +312,7 @@ public class WowheadGuideParser
                 var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList, first, classGuide.Phase);
 
                 if (itemChild != null)
-                    ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText), items, itemOrderIndex);
+                    ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText), items);
                 first = false;
             });
         });
@@ -471,7 +471,7 @@ public class WowheadGuideParser
         return bisText.Trim() + altText;
     }
 
-    private List<int> ParseItemCell(IElement itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items, int itemOrderIndex)
+    private List<int> ParseItemCell(IElement itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items)
     {
         bool foundAnchor = false;
 
@@ -515,8 +515,7 @@ public class WowheadGuideParser
                             ItemId = itemId,
                             Name = itemName ?? "unknown",
                             BisStatus = bisStatus ?? "unknown",
-                            Slot = slot,
-                            ItemOrder = itemOrderIndex
+                            Slot = slot
                         });
                     }
                     else
@@ -541,17 +540,15 @@ public class WowheadGuideParser
                 ItemId = itemId,
                 Name = "unknown",
                 BisStatus = "unknown",
-                Slot = slot,
-                ItemOrder = itemOrderIndex
+                Slot = slot
             });
             itemIds.Add(itemId);
         }
         return itemIds;
     }
 
-    private void LoopThroughTable(IHtmlTableElement? table, Action<INode, IElement?, int, bool> action)
+    private void LoopThroughTable(IHtmlTableElement? table, Action<INode, IElement?, bool> action)
     {
-        var itemOrderIndex = 0;
         var firstRow = false;
         var tableRows = table?.FirstChild?.ChildNodes;
         if (tableRows != null)
@@ -580,9 +577,7 @@ public class WowheadGuideParser
                     }
                 }
 
-                action(tableRow, itemChild, itemOrderIndex, isTierList);
-
-                itemOrderIndex++;
+                action(tableRow, itemChild, isTierList);
             }
         }
     }
