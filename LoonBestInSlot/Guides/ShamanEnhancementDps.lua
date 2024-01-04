@@ -37,8 +37,8 @@ LBIS:AddItem(spec1, "4381", LBIS.L["Trinket"], "BIS") --Minor Recombobulator
 LBIS:AddItem(spec1, "2878", LBIS.L["Main Hand"], "BIS") --Bearded Boneaxe
 LBIS:AddItem(spec1, "4825", LBIS.L["Main Hand"], "Alt") --Callous Axe
 LBIS:AddItem(spec1, "7786", LBIS.L["Main Hand"], "Alt") --Headsplitter
+LBIS:AddItem(spec1, "13024", LBIS.L["Main Hand"], "Alt") --Beazel's Basher
 LBIS:AddItem(spec1, "1454", LBIS.L["Off Hand"], "BIS") --Axe of the Enforcer
 LBIS:AddItem(spec1, "209436", LBIS.L["Off Hand"], "Alt") --Chipped Bite of Serra'kis
-LBIS:AddItem(spec1, "13024", LBIS.L["Off Hand"], "Alt") --Beazel's Basher
 LBIS:AddItem(spec1, "2194", LBIS.L["Off Hand"], "Alt") --Diamond Hammer
 LBIS:AddItem(spec1, "209575", LBIS.L["Ranged/Relic"], "BIS") --Carved Driftwood Icon

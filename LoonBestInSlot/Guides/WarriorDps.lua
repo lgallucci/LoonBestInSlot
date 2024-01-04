@@ -4,7 +4,7 @@ LBIS:AddEnchant(spec1, "13419", LBIS.L["Back"]) --Enchant Cloak - Minor Agility
 LBIS:AddEnchant(spec1, "13626", LBIS.L["Chest"]) --Enchant Chest - Minor Stats
 LBIS:AddEnchant(spec1, "13536", LBIS.L["Wrist"]) --Enchant Bracer - Lesser Strength
 LBIS:AddEnchant(spec1, "7867", LBIS.L["Feet"]) --Enchant Boots - Minor Agility
-LBIS:AddEnchant(spec1, "13529", LBIS.L["Main Hand"]) --Enchant 2H Weapon - Lesser Impact
+LBIS:AddEnchant(spec1, "13503", LBIS.L["Main Hand"]) --Enchant Weapon - Lesser Striking
 LBIS:AddEnchant(spec1, "13529", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Lesser Impact
 
 LBIS:AddItem(spec1, "211505", LBIS.L["Head"], "BIS") --Twilight Avenger's Helm
@@ -49,7 +49,8 @@ LBIS:AddItem(spec1, "6749", LBIS.L["Ring"], "Alt") --Tiger Band
 LBIS:AddItem(spec1, "211449", LBIS.L["Trinket"], "BIS") --Avenger's Void Pearl
 LBIS:AddItem(spec1, "21568", LBIS.L["Trinket"], "BIS") --Rune of Duty
 LBIS:AddItem(spec1, "209525", LBIS.L["Main Hand"], "BIS") --Honed Darkwater Talwar
-LBIS:AddItem(spec1, "209436", LBIS.L["Main Hand"], "BIS") --Chipped Bite of Serra'kis
+LBIS:AddItem(spec1, "209694", LBIS.L["Main Hand"], "BIS") --Blackfathom Ritual Dagger
+LBIS:AddItem(spec1, "16886", LBIS.L["Main Hand"], "Alt") --Outlaw Sabre
 LBIS:AddItem(spec1, "1292", LBIS.L["Main Hand"], "Alt") --Butcher's Cleaver
 LBIS:AddItem(spec1, "5191", LBIS.L["Main Hand"], "Alt") --Cruel Barb
 LBIS:AddItem(spec1, "209562", LBIS.L["Two Hand"], "BIS") --Deadly Strike of the Hydra
