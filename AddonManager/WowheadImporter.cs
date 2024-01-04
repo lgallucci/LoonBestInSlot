@@ -81,7 +81,7 @@ public static class WowheadImporter
 
             if (specMapping == null)
             {
-                logMethod($"{spec} Failed! - Can't find Spec!" + Environment.NewLine);
+                logMethod($"{spec} Failed! - Can't find Spec!");
                 continue;
             }
             else
@@ -98,19 +98,19 @@ public static class WowheadImporter
             {
                 var result = ImportGemsAndEnchantsInternal(spec, content);
 
-                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!" + Environment.NewLine);
+                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!");
             }
             catch (VerificationException vex)
             {
-                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}..." + Environment.NewLine);
+                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}...");
             }
             catch (ParseException ex)
             {
-                logMethod($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}..." + Environment.NewLine);
+                logMethod($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
             }
         }, logMethod, cancelToken);
 
-        logMethod($"Done!" + Environment.NewLine);
+        logMethod($"Done!");
     }
 
     public static async Task ImportClasses(string[] specList, int phaseNumber, CancellationToken cancelToken, Action<string> logMethod)
@@ -123,7 +123,7 @@ public static class WowheadImporter
 
             if (specMapping == null)
             {
-                logMethod($"{spec} Failed! - Can't find Spec!" + Environment.NewLine);
+                logMethod($"{spec} Failed! - Can't find Spec!");
                 continue;
             } 
             else
@@ -140,19 +140,19 @@ public static class WowheadImporter
             {
                 var result = ImportClassInternal(spec, phaseNumber, doc);
 
-                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!" + Environment.NewLine);
+                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!");
             }
             catch (VerificationException vex)
             {
-                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}..." + Environment.NewLine);
+                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}...");
             }
             catch (ParseException ex)
             {
-                logMethod($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}..." + Environment.NewLine);
+                logMethod($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
             }
         }, logMethod, cancelToken);
 
-        logMethod($"Done!" + Environment.NewLine);
+        logMethod($"Done!");
     }
 
     public static async Task<string> ImportGemsAndEnchants(ClassGuideMapping classGuide, Action<string> writeToLog)
