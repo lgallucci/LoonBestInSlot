@@ -349,7 +349,8 @@ LBIS:AddItem(spec4, "51131", LBIS.L["Legs"], "Alt") --Sanctified Scourgelord Leg
 LBIS:AddItem(spec4, "51895", LBIS.L["Legs"], "Alt") --Deathforged Legplates
 LBIS:AddItem(spec4, "49904", LBIS.L["Legs"], "Alt") --Pillars of Might
 LBIS:AddItem(spec4, "50854", LBIS.L["Legs"], "Alt") --Scourgelord Legguards
-LBIS:AddItem(spec4, "50625", LBIS.L["Feet"], "BIS") --Grinning Skull Greatboots
+LBIS:AddItem(spec4, "54579", LBIS.L["Feet"], "BIS") --Treads of Impending Resurrection
+LBIS:AddItem(spec4, "50625", LBIS.L["Feet"], "Alt") --Grinning Skull Greatboots
 LBIS:AddItem(spec4, "50190", LBIS.L["Feet"], "Alt") --Grinning Skull Greatboots
 LBIS:AddItem(spec4, "51816", LBIS.L["Feet"], "Alt") --Scourge Fanged Stompers
 LBIS:AddItem(spec4, "49907", LBIS.L["Feet"], "Alt") --Boots of Kingly Upheaval
@@ -370,8 +371,9 @@ LBIS:AddItem(spec4, "50185", LBIS.L["Ring"], "Alt") --Devium's Eternally Cold Ri
 LBIS:AddItem(spec4, "49985", LBIS.L["Ring"], "Alt") --Juggernaut Band
 LBIS:AddItem(spec4, "50364", LBIS.L["Trinket"], "BIS") --Sindragosa's Flawless Fang
 LBIS:AddItem(spec4, "50344", LBIS.L["Trinket"], "BIS") --Unidentifiable Organ
-LBIS:AddItem(spec4, "47451", LBIS.L["Trinket"], "BIS") --Juggernaut's Vitality
 LBIS:AddItem(spec4, "47088", LBIS.L["Trinket"], "BIS") --Satrina's Impeding Scarab
+LBIS:AddItem(spec4, "47451", LBIS.L["Trinket"], "BIS") --Juggernaut's Vitality
+LBIS:AddItem(spec4, "54591", LBIS.L["Trinket"], "Alt") --Petrified Twilight Scale
 LBIS:AddItem(spec4, "50356", LBIS.L["Trinket"], "Alt") --Corroded Skeleton Key
 LBIS:AddItem(spec4, "50735", LBIS.L["Two Hand"], "BIS") --Oathbinder, Charge of the Ranger-General
 LBIS:AddItem(spec4, "50730", LBIS.L["Two Hand"], "BIS") --Glorenzelg, High-Blade of the Silver Hand
