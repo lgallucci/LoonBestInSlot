@@ -350,8 +350,8 @@ LBIS:AddItem(spec4, "48207", LBIS.L["Shoulder"], "Alt") --Malfurion's Shoulderpa
 LBIS:AddItem(spec4, "48198", LBIS.L["Shoulder"], "Alt") --Runetotem's Shoulderpads of Triumph
 LBIS:AddItem(spec4, "47546", LBIS.L["Back"], "BIS") --Sylvanas' Cunning
 LBIS:AddItem(spec4, "47545", LBIS.L["Back"], "BIS") --Vereesa's Dexterity
+LBIS:AddItem(spec4, "50653", LBIS.L["Back"], "BIS") --Shadowvault Slayer's Cloak
 LBIS:AddItem(spec4, "50470", LBIS.L["Back"], "Alt") --Recovered Scarlet Onslaught Cape
-LBIS:AddItem(spec4, "50653", LBIS.L["Back"], "Alt") --Shadowvault Slayer's Cloak
 LBIS:AddItem(spec4, "48668", LBIS.L["Back"], "Alt") --Cloak of Serrated Blades
 LBIS:AddItem(spec4, "48673", LBIS.L["Back"], "Alt") --Cloak of the Silver Covenant
 LBIS:AddItem(spec4, "51933", LBIS.L["Back"], "Alt") --Shawl of Nerubian Silk
@@ -360,13 +360,15 @@ LBIS:AddItem(spec4, "51298", LBIS.L["Chest"], "BIS") --Sanctified Lasherweave Ra
 LBIS:AddItem(spec4, "51141", LBIS.L["Chest"], "Alt") --Sanctified Lasherweave Raiment
 LBIS:AddItem(spec4, "50828", LBIS.L["Chest"], "Alt") --Lasherweave Raiment
 LBIS:AddItem(spec4, "50656", LBIS.L["Chest"], "Alt") --Ikfirus's Sack of Wonder
+LBIS:AddItem(spec4, "54561", LBIS.L["Chest"], "Alt") --Gloaming Sark
 LBIS:AddItem(spec4, "50670", LBIS.L["Wrist"], "BIS") --Toskk's Maximized Wristguards
+LBIS:AddItem(spec4, "54580", LBIS.L["Wrist"], "BIS") --Umbrage Armbands
+LBIS:AddItem(spec4, "53126", LBIS.L["Wrist"], "Alt") --Umbrage Armbands
 LBIS:AddItem(spec4, "50333", LBIS.L["Wrist"], "Alt") --Toskk's Maximized Wristguards
 LBIS:AddItem(spec4, "47474", LBIS.L["Wrist"], "Alt") --Armbands of Dark Determination
 LBIS:AddItem(spec4, "47155", LBIS.L["Wrist"], "Alt") --Bracers of Dark Determination
 LBIS:AddItem(spec4, "47582", LBIS.L["Wrist"], "Alt") --Bracers of Swift Death
 LBIS:AddItem(spec4, "47581", LBIS.L["Wrist"], "Alt") --Bracers of Swift Death
-LBIS:AddItem(spec4, "51820", LBIS.L["Wrist"], "Alt") --Vambraces of the Frost Wyrm Queen
 LBIS:AddItem(spec4, "50675", LBIS.L["Hands"], "BIS") --Aldriana's Gloves of Secrecy
 LBIS:AddItem(spec4, "51295", LBIS.L["Hands"], "BIS") --Sanctified Lasherweave Handgrips
 LBIS:AddItem(spec4, "51144", LBIS.L["Hands"], "Alt") --Sanctified Lasherweave Handgrips

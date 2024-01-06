@@ -521,8 +521,8 @@ LBIS:AddItem(spec4, "51923", LBIS.L["Chest"], "Alt") --Chestguard of the Frigid 
 LBIS:AddItem(spec4, "51189", LBIS.L["Chest"], "Alt") --Sanctified Shadowblade Breastplate
 LBIS:AddItem(spec4, "47004", LBIS.L["Chest"], "Alt") --Cuirass of Calamitous Fate
 LBIS:AddItem(spec4, "47431", LBIS.L["Chest"], "Alt") --Vest of Calamitous Fate
-LBIS:AddItem(spec4, "48233", LBIS.L["Chest"], "Alt") --Garona's Breastplate of Triumph
 LBIS:AddItem(spec4, "48232", LBIS.L["Chest"], "Alt") --VanCleef's Breastplate of Triumph
+LBIS:AddItem(spec4, "48233", LBIS.L["Chest"], "Alt") --Garona's Breastplate of Triumph
 LBIS:AddItem(spec4, "50780", LBIS.L["Chest"], "Alt") --Chestguard of the Frigid Noose
 LBIS:AddItem(spec4, "45473", LBIS.L["Chest"], "Alt") --Embrace of the Gladiator
 LBIS:AddItem(spec4, "50087", LBIS.L["Chest"], "Alt") --Shadowblade Breastplate
@@ -530,7 +530,8 @@ LBIS:AddItem(spec4, "47954", LBIS.L["Chest"], "Alt") --Armor of Shifting Shadows
 LBIS:AddItem(spec4, "48026", LBIS.L["Chest"], "Alt") --Vest of Shifting Shadows
 LBIS:AddItem(spec4, "47599", LBIS.L["Chest"], "Alt") --Knightbane Carapace
 LBIS:AddItem(spec4, "47600", LBIS.L["Chest"], "Alt") --Knightbane Carapace
-LBIS:AddItem(spec4, "50670", LBIS.L["Wrist"], "BIS") --Toskk's Maximized Wristguards
+LBIS:AddItem(spec4, "54580", LBIS.L["Wrist"], "BIS") --Umbrage Armbands
+LBIS:AddItem(spec4, "50670", LBIS.L["Wrist"], "Alt") --Toskk's Maximized Wristguards
 LBIS:AddItem(spec4, "51820", LBIS.L["Wrist"], "Alt") --Vambraces of the Frost Wyrm Queen
 LBIS:AddItem(spec4, "50333", LBIS.L["Wrist"], "Alt") --Toskk's Maximized Wristguards
 LBIS:AddItem(spec4, "47155", LBIS.L["Wrist"], "Alt") --Bracers of Dark Determination
@@ -614,7 +615,8 @@ LBIS:AddItem(spec4, "49485", LBIS.L["Neck"], "Alt") --Sparkling Onyxia Tooth Pen
 LBIS:AddItem(spec4, "47915", LBIS.L["Neck"], "Alt") --Collar of Ceaseless Torment
 LBIS:AddItem(spec4, "47988", LBIS.L["Neck"], "Alt") --Collar of Unending Torment
 LBIS:AddItem(spec4, "50402", LBIS.L["Ring"], "BIS") --Ashen Band of Endless Vengeance
-LBIS:AddItem(spec4, "50604", LBIS.L["Ring"], "BIS") --Band of the Bone Colossus
+LBIS:AddItem(spec4, "54576", LBIS.L["Ring"], "BIS") --Signet of Twilight
+LBIS:AddItem(spec4, "50604", LBIS.L["Ring"], "Alt") --Band of the Bone Colossus
 LBIS:AddItem(spec4, "50401", LBIS.L["Ring"], "Alt") --Ashen Band of Unmatched Vengeance
 LBIS:AddItem(spec4, "50618", LBIS.L["Ring"], "Alt") --Frostbrood Sapphire Ring
 LBIS:AddItem(spec4, "51843", LBIS.L["Ring"], "Alt") --Seal of the Twilight Queen
@@ -635,15 +637,16 @@ LBIS:AddItem(spec4, "48007", LBIS.L["Ring"], "Alt") --Planestalker Band
 LBIS:AddItem(spec4, "47730", LBIS.L["Ring"], "Alt") --Dexterous Brightstone Ring
 LBIS:AddItem(spec4, "46048", LBIS.L["Ring"], "Alt") --Band of Lights
 LBIS:AddItem(spec4, "50363", LBIS.L["Trinket"], "BIS") --Deathbringer's Will
-LBIS:AddItem(spec4, "50706", LBIS.L["Trinket"], "BIS") --Tiny Abomination in a Jar
+LBIS:AddItem(spec4, "54590", LBIS.L["Trinket"], "BIS") --Sharpened Twilight Scale
+LBIS:AddItem(spec4, "50706", LBIS.L["Trinket"], "Alt") --Tiny Abomination in a Jar
 LBIS:AddItem(spec4, "50343", LBIS.L["Trinket"], "Alt") --Whispering Fanged Skull
 LBIS:AddItem(spec4, "50355", LBIS.L["Trinket"], "Alt") --Herkuml War Token
 LBIS:AddItem(spec4, "50351", LBIS.L["Trinket"], "Alt") --Tiny Abomination in a Jar
 LBIS:AddItem(spec4, "50362", LBIS.L["Trinket"], "Alt") --Deathbringer's Will
 LBIS:AddItem(spec4, "45609", LBIS.L["Trinket"], "Alt") --Comet's Trail
 LBIS:AddItem(spec4, "50342", LBIS.L["Trinket"], "Alt") --Whispering Fanged Skull
-LBIS:AddItem(spec4, "47464", LBIS.L["Trinket"], "Alt") --Death's Choice
 LBIS:AddItem(spec4, "47131", LBIS.L["Trinket"], "Alt") --Death's Verdict
+LBIS:AddItem(spec4, "47464", LBIS.L["Trinket"], "Alt") --Death's Choice
 LBIS:AddItem(spec4, "47115", LBIS.L["Trinket"], "Alt") --Death's Verdict
 LBIS:AddItem(spec4, "47303", LBIS.L["Trinket"], "Alt") --Death's Choice
 LBIS:AddItem(spec4, "46038", LBIS.L["Trinket"], "Alt") --Dark Matter

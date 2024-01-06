@@ -344,24 +344,25 @@ LBIS:AddItem(spec4, "50824", LBIS.L["Shoulder"], "Alt") --Lasherweave Shoulderpa
 LBIS:AddItem(spec4, "49987", LBIS.L["Shoulder"], "Alt") --Cultist's Bloodsoaked Spaulders
 LBIS:AddItem(spec4, "45245", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Intruder
 LBIS:AddItem(spec4, "50466", LBIS.L["Back"], "BIS") --Sentinel's Winter Cloak
+LBIS:AddItem(spec4, "47546", LBIS.L["Back"], "BIS") --Sylvanas' Cunning
+LBIS:AddItem(spec4, "47545", LBIS.L["Back"], "BIS") --Vereesa's Dexterity
 LBIS:AddItem(spec4, "50718", LBIS.L["Back"], "Alt") --Royal Crimson Cloak
 LBIS:AddItem(spec4, "47550", LBIS.L["Back"], "Alt") --Cairne's Endurance
 LBIS:AddItem(spec4, "47549", LBIS.L["Back"], "Alt") --Magni's Resolution
 LBIS:AddItem(spec4, "50653", LBIS.L["Back"], "Alt") --Shadowvault Slayer's Cloak
 LBIS:AddItem(spec4, "50074", LBIS.L["Back"], "Alt") --Royal Crimson Cloak
-LBIS:AddItem(spec4, "47436", LBIS.L["Back"], "Alt") --Pride of the Demon Lord
-LBIS:AddItem(spec4, "47063", LBIS.L["Back"], "Alt") --Pride of the Eredar
 LBIS:AddItem(spec4, "50656", LBIS.L["Chest"], "BIS") --Ikfirus's Sack of Wonder
 LBIS:AddItem(spec4, "43590", LBIS.L["Chest"], "BIS") --Polar Vest
 LBIS:AddItem(spec4, "51298", LBIS.L["Chest"], "Alt") --Sanctified Lasherweave Raiment
 LBIS:AddItem(spec4, "51425", LBIS.L["Chest"], "Alt") --Wrathful Gladiator's Dragonhide Robes
 LBIS:AddItem(spec4, "50972", LBIS.L["Chest"], "Alt") --Shadow Seeker's Tunic
+LBIS:AddItem(spec4, "54580", LBIS.L["Wrist"], "BIS") --Umbrage Armbands
 LBIS:AddItem(spec4, "50670", LBIS.L["Wrist"], "BIS") --Toskk's Maximized Wristguards
 LBIS:AddItem(spec4, "47474", LBIS.L["Wrist"], "Alt") --Armbands of Dark Determination
 LBIS:AddItem(spec4, "47155", LBIS.L["Wrist"], "Alt") --Bracers of Dark Determination
+LBIS:AddItem(spec4, "53126", LBIS.L["Wrist"], "Alt") --Umbrage Armbands
 LBIS:AddItem(spec4, "50333", LBIS.L["Wrist"], "Alt") --Toskk's Maximized Wristguards
 LBIS:AddItem(spec4, "51820", LBIS.L["Wrist"], "Alt") --Vambraces of the Frost Wyrm Queen
-LBIS:AddItem(spec4, "51370", LBIS.L["Wrist"], "Alt") --Wrathful Gladiator's Armwraps of Triumph
 LBIS:AddItem(spec4, "50675", LBIS.L["Hands"], "BIS") --Aldriana's Gloves of Secrecy
 LBIS:AddItem(spec4, "51295", LBIS.L["Hands"], "BIS") --Sanctified Lasherweave Handgrips
 LBIS:AddItem(spec4, "51144", LBIS.L["Hands"], "Alt") --Sanctified Lasherweave Handgrips
@@ -388,12 +389,13 @@ LBIS:AddItem(spec4, "51369", LBIS.L["Feet"], "Alt") --Wrathful Gladiator's Boots
 LBIS:AddItem(spec4, "47445", LBIS.L["Feet"], "Alt") --Icewalker Treads
 LBIS:AddItem(spec4, "47077", LBIS.L["Feet"], "Alt") --Treads of the Icewalker
 LBIS:AddItem(spec4, "50682", LBIS.L["Neck"], "BIS") --Bile-Encrusted Medallion
+LBIS:AddItem(spec4, "50728", LBIS.L["Neck"], "BIS") --Lana'thel's Chain of Flagellation
 LBIS:AddItem(spec4, "50023", LBIS.L["Neck"], "Alt") --Bile-Encrusted Medallion
+LBIS:AddItem(spec4, "50633", LBIS.L["Neck"], "Alt") --Sindragosa's Cruel Claw
 LBIS:AddItem(spec4, "47466", LBIS.L["Neck"], "Alt") --Legionnaire's Gorget
 LBIS:AddItem(spec4, "47133", LBIS.L["Neck"], "Alt") --The Arbiter's Muse
+LBIS:AddItem(spec4, "54581", LBIS.L["Neck"], "Alt") --Penumbra Pendant
 LBIS:AddItem(spec4, "50627", LBIS.L["Neck"], "Alt") --Noose of Malachite
-LBIS:AddItem(spec4, "50195", LBIS.L["Neck"], "Alt") --Noose of Malachite
-LBIS:AddItem(spec4, "51934", LBIS.L["Neck"], "Alt") --Marrowgar's Scratching Choker
 LBIS:AddItem(spec4, "50622", LBIS.L["Ring"], "BIS") --Devium's Eternally Cold Ring
 LBIS:AddItem(spec4, "50185", LBIS.L["Ring"], "BIS") --Devium's Eternally Cold Ring
 LBIS:AddItem(spec4, "50404", LBIS.L["Ring"], "BIS") --Ashen Band of Endless Courage
@@ -401,9 +403,9 @@ LBIS:AddItem(spec4, "50678", LBIS.L["Ring"], "BIS") --Seal of Many Mouths
 LBIS:AddItem(spec4, "49489", LBIS.L["Ring"], "Alt") --Signified Ring of Binding
 LBIS:AddItem(spec4, "48027", LBIS.L["Ring"], "Alt") --Band of the Twin Val'kyr
 LBIS:AddItem(spec4, "47955", LBIS.L["Ring"], "Alt") --Loop of the Twin Val'kyr
+LBIS:AddItem(spec4, "54576", LBIS.L["Ring"], "Alt") --Signet of Twilight
+LBIS:AddItem(spec4, "50604", LBIS.L["Ring"], "Alt") --Band of the Bone Colossus
 LBIS:AddItem(spec4, "50642", LBIS.L["Ring"], "Alt") --Juggernaut Band
-LBIS:AddItem(spec4, "51913", LBIS.L["Ring"], "Alt") --Abomination's Bloody Ring
-LBIS:AddItem(spec4, "50447", LBIS.L["Ring"], "Alt") --Harbinger's Bone Band
 LBIS:AddItem(spec4, "47451", LBIS.L["Trinket"], "BIS") --Juggernaut's Vitality
 LBIS:AddItem(spec4, "47088", LBIS.L["Trinket"], "BIS") --Satrina's Impeding Scarab
 LBIS:AddItem(spec4, "50364", LBIS.L["Trinket"], "BIS") --Sindragosa's Flawless Fang
@@ -415,7 +417,7 @@ LBIS:AddItem(spec4, "50356", LBIS.L["Trinket"], "Alt") --Corroded Skeleton Key
 LBIS:AddItem(spec4, "50341", LBIS.L["Trinket"], "Alt") --Unidentifiable Organ
 LBIS:AddItem(spec4, "45158", LBIS.L["Trinket"], "Alt") --Heart of Iron
 LBIS:AddItem(spec4, "51432", LBIS.L["Two Hand"], "BIS") --Wrathful Gladiator's Greatstaff
-LBIS:AddItem(spec4, "50735", LBIS.L["Two Hand"], "Alt") --Oathbinder, Charge of the Ranger-General
+LBIS:AddItem(spec4, "50735", LBIS.L["Two Hand"], "BIS") --Oathbinder, Charge of the Ranger-General
 LBIS:AddItem(spec4, "51431", LBIS.L["Two Hand"], "Alt") --Wrathful Gladiator's Staff
 LBIS:AddItem(spec4, "50727", LBIS.L["Two Hand"], "Alt") --Bloodfall
 LBIS:AddItem(spec4, "48523", LBIS.L["Two Hand"], "Alt") --Relentless Gladiator's Greatstaff
