@@ -129,6 +129,12 @@ public class WowheadGuideParser
         { "threat", "Thrt" },
         { "ffb", "FFB" }
     };
+
+    private Dictionary<string, string> _altModifierNotSwaps = new Dictionary<string, string>()
+    {
+        { "armor", "armor pen" },
+    };
+
     private List<string> _bisTextSwaps = new()
     {
         "bis",
@@ -428,7 +434,6 @@ public class WowheadGuideParser
 
     private string GetBisStatus(string htmlBisText, string rankText, bool isTierList, bool first, string phase)
     {
-
         var bisText = string.Empty;
         if (first)
             bisText = "BIS";
@@ -465,8 +470,12 @@ public class WowheadGuideParser
             if ((!htmlBisText?.ToLower().Contains("no") ?? false) &&
                 (htmlBisText?.ToLower().Contains(tankSwap.Key) ?? false))
             {
-                altText = $" {tankSwap.Value}";
-                break;
+                if (!_altModifierNotSwaps.ContainsKey(tankSwap.Key) ||
+                    (!htmlBisText?.ToLower().Contains(_altModifierNotSwaps[tankSwap.Key]) ?? false))
+                {
+                    altText = $" {tankSwap.Value}";
+                    break;
+                }
             }
         return bisText.Trim() + altText;
     }
