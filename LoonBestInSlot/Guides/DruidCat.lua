@@ -395,24 +395,24 @@ LBIS:AddItem(spec4, "51023", LBIS.L["Feet"], "Alt") --Taldaram's Soft Slippers
 LBIS:AddItem(spec4, "50633", LBIS.L["Neck"], "BIS") --Sindragosa's Cruel Claw
 LBIS:AddItem(spec4, "51890", LBIS.L["Neck"], "Alt") --Precious's Putrid Collar
 LBIS:AddItem(spec4, "50421", LBIS.L["Neck"], "Alt") --Sindragosa's Cruel Claw
+LBIS:AddItem(spec4, "54581", LBIS.L["Neck"], "Alt") --Penumbra Pendant
 LBIS:AddItem(spec4, "51822", LBIS.L["Neck"], "Alt") --Rimetooth Pendant
-LBIS:AddItem(spec4, "50728", LBIS.L["Neck"], "Alt") --Lana'thel's Chain of Flagellation
-LBIS:AddItem(spec4, "50402", LBIS.L["Ring"], "BIS") --Ashen Band of Endless Vengeance
+LBIS:AddItem(spec4, "54557", LBIS.L["Neck"], "Alt") --Baltharus' Gift
+LBIS:AddItem(spec4, "54576", LBIS.L["Ring"], "BIS") --Signet of Twilight
 LBIS:AddItem(spec4, "50604", LBIS.L["Ring"], "BIS") --Band of the Bone Colossus
-LBIS:AddItem(spec4, "50618", LBIS.L["Ring"], "BIS Mit") --Frostbrood Sapphire Ring
+LBIS:AddItem(spec4, "50618", LBIS.L["Ring"], "BIS") --Frostbrood Sapphire Ring
+LBIS:AddItem(spec4, "50402", LBIS.L["Ring"], "Alt") --Ashen Band of Endless Vengeance
+LBIS:AddItem(spec4, "53133", LBIS.L["Ring"], "Alt") --Signet of Twilight
 LBIS:AddItem(spec4, "49949", LBIS.L["Ring"], "Alt") --Band of the Bone Colossus
-LBIS:AddItem(spec4, "51900", LBIS.L["Ring"], "Alt Mit") --Saurfang's Cold-Forged Band
-LBIS:AddItem(spec4, "48007", LBIS.L["Ring"], "Alt") --Planestalker Band
-LBIS:AddItem(spec4, "47934", LBIS.L["Ring"], "Alt") --Planestalker Signet
+LBIS:AddItem(spec4, "51900", LBIS.L["Ring"], "Alt") --Saurfang's Cold-Forged Band
 LBIS:AddItem(spec4, "50678", LBIS.L["Ring"], "Alt") --Seal of Many Mouths
-LBIS:AddItem(spec4, "46048", LBIS.L["Ring"], "Alt") --Band of Lights
 LBIS:AddItem(spec4, "50363", LBIS.L["Trinket"], "BIS") --Deathbringer's Will
 LBIS:AddItem(spec4, "50362", LBIS.L["Trinket"], "BIS") --Deathbringer's Will
-LBIS:AddItem(spec4, "50343", LBIS.L["Trinket"], "BIS") --Whispering Fanged Skull
+LBIS:AddItem(spec4, "54590", LBIS.L["Trinket"], "BIS") --Sharpened Twilight Scale
+LBIS:AddItem(spec4, "54569", LBIS.L["Trinket"], "BIS") --Sharpened Twilight Scale
+LBIS:AddItem(spec4, "50343", LBIS.L["Trinket"], "Alt") --Whispering Fanged Skull
 LBIS:AddItem(spec4, "47464", LBIS.L["Trinket"], "Alt") --Death's Choice
 LBIS:AddItem(spec4, "47131", LBIS.L["Trinket"], "Alt") --Death's Verdict
-LBIS:AddItem(spec4, "47734", LBIS.L["Trinket"], "Alt") --Mark of Supremacy
-LBIS:AddItem(spec4, "48722", LBIS.L["Trinket"], "Alt") --Shard of the Crystal Heart
 LBIS:AddItem(spec4, "50342", LBIS.L["Trinket"], "Alt") --Whispering Fanged Skull
 LBIS:AddItem(spec4, "50355", LBIS.L["Trinket"], "Alt") --Herkuml War Token
 LBIS:AddItem(spec4, "47303", LBIS.L["Trinket"], "Alt") --Death's Choice

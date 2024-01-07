@@ -402,7 +402,8 @@ LBIS:AddItem(spec4, "49988", LBIS.L["Legs"], "Alt") --Leggings of Northern Light
 LBIS:AddItem(spec4, "51287", LBIS.L["Legs"], "Alt") --Sanctified Ahn'Kahar Blood Hunter's Legguards
 LBIS:AddItem(spec4, "49899", LBIS.L["Legs"], "Alt") --Bladeborn Leggings
 LBIS:AddItem(spec4, "50697", LBIS.L["Legs"], "Alt") --Gangrenous Leggings
-LBIS:AddItem(spec4, "50607", LBIS.L["Feet"], "BIS") --Frostbitten Fur Boots
+LBIS:AddItem(spec4, "54577", LBIS.L["Feet"], "BIS") --Returning Footfalls
+LBIS:AddItem(spec4, "50607", LBIS.L["Feet"], "Alt") --Frostbitten Fur Boots
 LBIS:AddItem(spec4, "50711", LBIS.L["Feet"], "Alt") --Treads of the Wasteland
 LBIS:AddItem(spec4, "49897", LBIS.L["Feet"], "Alt") --Rock-Steady Treads
 LBIS:AddItem(spec4, "51856", LBIS.L["Feet"], "Alt") --Taldaram's Soft Slippers
@@ -412,16 +413,18 @@ LBIS:AddItem(spec4, "50421", LBIS.L["Neck"], "Alt") --Sindragosa's Cruel Claw
 LBIS:AddItem(spec4, "51822", LBIS.L["Neck"], "Alt") --Rimetooth Pendant
 LBIS:AddItem(spec4, "51890", LBIS.L["Neck"], "Alt") --Precious's Putrid Collar
 LBIS:AddItem(spec4, "50452", LBIS.L["Neck"], "Alt") --Wodin's Lucky Necklace
-LBIS:AddItem(spec4, "50402", LBIS.L["Ring"], "BIS") --Ashen Band of Endless Vengeance
+LBIS:AddItem(spec4, "54576", LBIS.L["Ring"], "BIS") --Signet of Twilight
 LBIS:AddItem(spec4, "50618", LBIS.L["Ring"], "BIS") --Frostbrood Sapphire Ring
+LBIS:AddItem(spec4, "50402", LBIS.L["Ring"], "Alt") --Ashen Band of Endless Vengeance
 LBIS:AddItem(spec4, "50186", LBIS.L["Ring"], "Alt") --Frostbrood Sapphire Ring
 LBIS:AddItem(spec4, "51900", LBIS.L["Ring"], "Alt") --Saurfang's Cold-Forged Band
 LBIS:AddItem(spec4, "50604", LBIS.L["Ring"], "Alt") --Band of the Bone Colossus
 LBIS:AddItem(spec4, "51843", LBIS.L["Ring"], "Alt") --Seal of the Twilight Queen
 LBIS:AddItem(spec4, "49949", LBIS.L["Ring"], "Alt") --Band of the Bone Colossus
+LBIS:AddItem(spec4, "54590", LBIS.L["Trinket"], "BIS") --Sharpened Twilight Scale
 LBIS:AddItem(spec4, "50363", LBIS.L["Trinket"], "BIS") --Deathbringer's Will
-LBIS:AddItem(spec4, "47464", LBIS.L["Trinket"], "BIS") --Death's Choice
-LBIS:AddItem(spec4, "47131", LBIS.L["Trinket"], "BIS") --Death's Verdict
+LBIS:AddItem(spec4, "47131", LBIS.L["Trinket"], "Alt") --Death's Verdict
+LBIS:AddItem(spec4, "47464", LBIS.L["Trinket"], "Alt") --Death's Choice
 LBIS:AddItem(spec4, "50362", LBIS.L["Trinket"], "Alt") --Deathbringer's Will
 LBIS:AddItem(spec4, "50343", LBIS.L["Trinket"], "Alt") --Whispering Fanged Skull
 LBIS:AddItem(spec4, "44253", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Greatness
