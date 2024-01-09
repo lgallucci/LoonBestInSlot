@@ -295,6 +295,7 @@ LBIS:AddItem(spec4, "51225", LBIS.L["Chest"], "BIS") --Sanctified Ymirjar Lord's
 LBIS:AddItem(spec4, "51214", LBIS.L["Chest"], "Alt") --Sanctified Ymirjar Lord's Battleplate
 LBIS:AddItem(spec4, "50078", LBIS.L["Chest"], "Alt") --Ymirjar Lord's Battleplate
 LBIS:AddItem(spec4, "51923", LBIS.L["Chest"], "Alt") --Chestguard of the Frigid Noose
+LBIS:AddItem(spec4, "54580", LBIS.L["Wrist"], "BIS") --Umbrage Armbands
 LBIS:AddItem(spec4, "50670", LBIS.L["Wrist"], "BIS") --Toskk's Maximized Wristguards
 LBIS:AddItem(spec4, "47442", LBIS.L["Wrist"], "BIS") --Bracers of the Silent Massacre
 LBIS:AddItem(spec4, "47074", LBIS.L["Wrist"], "BIS") --Bracers of the Untold Massacre
@@ -313,15 +314,17 @@ LBIS:AddItem(spec4, "50645", LBIS.L["Legs"], "BIS") --Leggings of Northern Light
 LBIS:AddItem(spec4, "51841", LBIS.L["Legs"], "Alt") --Ivory-Inlaid Leggings
 LBIS:AddItem(spec4, "51228", LBIS.L["Legs"], "Alt") --Sanctified Ymirjar Lord's Legplates
 LBIS:AddItem(spec4, "49903", LBIS.L["Legs"], "Alt") --Legplates of Painful Death
+LBIS:AddItem(spec4, "54578", LBIS.L["Feet"], "BIS") --Apocalypse's Advance
 LBIS:AddItem(spec4, "50639", LBIS.L["Feet"], "BIS") --Blood-Soaked Saronite Stompers
 LBIS:AddItem(spec4, "50607", LBIS.L["Feet"], "Alt") --Frostbitten Fur Boots
 LBIS:AddItem(spec4, "51856", LBIS.L["Feet"], "Alt") --Taldaram's Soft Slippers
 LBIS:AddItem(spec4, "49906", LBIS.L["Feet"], "Alt") --Hellfrozen Bonegrinders
+LBIS:AddItem(spec4, "54581", LBIS.L["Neck"], "BIS") --Penumbra Pendant
 LBIS:AddItem(spec4, "50728", LBIS.L["Neck"], "BIS") --Lana'thel's Chain of Flagellation
 LBIS:AddItem(spec4, "51822", LBIS.L["Neck"], "Alt") --Rimetooth Pendant
 LBIS:AddItem(spec4, "50633", LBIS.L["Neck"], "Alt") --Sindragosa's Cruel Claw
-LBIS:AddItem(spec4, "47433", LBIS.L["Neck"], "Alt") --Charge of the Eredar
 LBIS:AddItem(spec4, "47060", LBIS.L["Neck"], "Alt") --Charge of the Demon Lord
+LBIS:AddItem(spec4, "47433", LBIS.L["Neck"], "Alt") --Charge of the Eredar
 LBIS:AddItem(spec4, "50402", LBIS.L["Ring"], "BIS") --Ashen Band of Endless Vengeance
 LBIS:AddItem(spec4, "50618", LBIS.L["Ring"], "BIS") --Frostbrood Sapphire Ring
 LBIS:AddItem(spec4, "50693", LBIS.L["Ring"], "Alt") --Might of Blight
@@ -333,6 +336,7 @@ LBIS:AddItem(spec4, "45608", LBIS.L["Ring"], "Alt") --Brann's Signet Ring
 LBIS:AddItem(spec4, "50363", LBIS.L["Trinket"], "BIS") --Deathbringer's Will
 LBIS:AddItem(spec4, "50362", LBIS.L["Trinket"], "BIS") --Deathbringer's Will
 LBIS:AddItem(spec4, "50343", LBIS.L["Trinket"], "BIS") --Whispering Fanged Skull
+LBIS:AddItem(spec4, "54590", LBIS.L["Trinket"], "BIS") --Sharpened Twilight Scale
 LBIS:AddItem(spec4, "47464", LBIS.L["Trinket"], "BIS") --Death's Choice
 LBIS:AddItem(spec4, "47131", LBIS.L["Trinket"], "BIS") --Death's Verdict
 LBIS:AddItem(spec4, "45609", LBIS.L["Trinket"], "Alt") --Comet's Trail
