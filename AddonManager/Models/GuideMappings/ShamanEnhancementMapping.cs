@@ -72,8 +72,8 @@ internal class ShamanEnhancementMapping : SpecMapping
     public override string Phase4Url => "dps-bis-gear-pve-phase-4";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#weapons-for-enhancement-shaman-dps-in-phase-4") },
-            { ("Ranged/Relic", "#totems-for-enhancement-shaman-dps-in-phase-4") }
+            { ("Main Hand", "#weapons-for-enhancement-shaman-dps-in-phase-5") },
+            { ("Ranged/Relic", "#totems-for-enhancement-shaman-dps-in-phase-5") }
         };
 
     public override string Phase5Url => "dps-bis-gear-pve-phase-5";
