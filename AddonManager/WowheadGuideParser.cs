@@ -490,15 +490,17 @@ public class WowheadGuideParser
             foundAnchor = true;
             bool foundItem = false;
 
-            if (((IHtmlAnchorElement)child).PathName.Contains("/item="))
+            if (((IHtmlAnchorElement)child).Href.Contains("/item="))
             {
-                var item = ((IHtmlAnchorElement)child).PathName.Replace("/wotlk", "").Replace("/item=", "");
+                var item = ((IHtmlAnchorElement)child).Href.Replace("https://www.wowhead.com/wotlk", "").Replace("/item=", "");
 
                 var itemIdIndex = item.IndexOf("/");
                 if (itemIdIndex == -1)
                     itemIdIndex = item.IndexOf("&");
 
-                item = item.Substring(0, itemIdIndex);
+                if (itemIdIndex > 0 && !Int32.TryParse(item, out int tempId))
+                    item = item.Substring(0, itemIdIndex);
+
                 var itemName = child.TextContent.Trim();
 
                 bool skippedItem = false;
