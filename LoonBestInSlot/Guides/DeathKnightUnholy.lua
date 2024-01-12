@@ -327,13 +327,15 @@ LBIS:AddItem(spec4, "47132", LBIS.L["Legs"], "Alt") --Legguards of Ascension
 LBIS:AddItem(spec4, "45134", LBIS.L["Legs"], "Alt") --Plated Leggings of Ruination
 LBIS:AddItem(spec4, "48494", LBIS.L["Legs"], "Alt") --Koltira's Legplates of Triumph
 LBIS:AddItem(spec4, "48487", LBIS.L["Legs"], "Alt") --Thassarian's Legplates of Triumph
-LBIS:AddItem(spec4, "50639", LBIS.L["Feet"], "BIS") --Blood-Soaked Saronite Stompers
+LBIS:AddItem(spec4, "54578", LBIS.L["Feet"], "BIS") --Apocalypse's Advance
+LBIS:AddItem(spec4, "50639", LBIS.L["Feet"], "Alt") --Blood-Soaked Saronite Stompers
 LBIS:AddItem(spec4, "49983", LBIS.L["Feet"], "Alt") --Blood-Soaked Saronite Stompers
 LBIS:AddItem(spec4, "51915", LBIS.L["Feet"], "Alt") --Bone Drake's Enameled Boots
 LBIS:AddItem(spec4, "47473", LBIS.L["Feet"], "Alt") --Greaves of the Saronite Citadel
 LBIS:AddItem(spec4, "47154", LBIS.L["Feet"], "Alt") --Greaves of the 7th Legion
 LBIS:AddItem(spec4, "50647", LBIS.L["Neck"], "BIS") --Ahn'kahar Onyx Neckguard
 LBIS:AddItem(spec4, "51842", LBIS.L["Neck"], "BIS") --Collar of Haughty Disdain
+LBIS:AddItem(spec4, "54581", LBIS.L["Neck"], "BIS") --Penumbra Pendant
 LBIS:AddItem(spec4, "50728", LBIS.L["Neck"], "Alt") --Lana'thel's Chain of Flagellation
 LBIS:AddItem(spec4, "47458", LBIS.L["Neck"], "Alt") --The Executioner's Vice
 LBIS:AddItem(spec4, "47110", LBIS.L["Neck"], "Alt") --The Executioner's Malice
@@ -345,6 +347,7 @@ LBIS:AddItem(spec4, "50453", LBIS.L["Ring"], "Alt") --Ring of Rotting Sinew
 LBIS:AddItem(spec4, "47413", LBIS.L["Ring"], "Alt") --Ring of the Violent Temperament
 LBIS:AddItem(spec4, "46966", LBIS.L["Ring"], "Alt") --Band of the Violent Temperment
 LBIS:AddItem(spec4, "50363", LBIS.L["Trinket"], "BIS") --Deathbringer's Will
+LBIS:AddItem(spec4, "54590", LBIS.L["Trinket"], "BIS") --Sharpened Twilight Scale
 LBIS:AddItem(spec4, "47464", LBIS.L["Trinket"], "BIS") --Death's Choice
 LBIS:AddItem(spec4, "47131", LBIS.L["Trinket"], "BIS") --Death's Verdict
 LBIS:AddItem(spec4, "47303", LBIS.L["Trinket"], "BIS") --Death's Choice

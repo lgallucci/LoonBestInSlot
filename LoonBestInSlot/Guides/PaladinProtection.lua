@@ -445,6 +445,9 @@ LBIS:AddItem(spec4, "48645", LBIS.L["Legs"], "Alt") --Turalyon's Legguards of Tr
 LBIS:AddItem(spec4, "47434", LBIS.L["Legs"], "Alt") --Legplates of Feverish Dedication
 LBIS:AddItem(spec4, "47061", LBIS.L["Legs"], "Alt") --Legguards of Feverish Dedication
 LBIS:AddItem(spec4, "50625", LBIS.L["Feet"], "BIS") --Grinning Skull Greatboots
+LBIS:AddItem(spec4, "53129", LBIS.L["Feet"], "Alt Mit") --Treads of Impending Resurrection
+LBIS:AddItem(spec4, "54564", LBIS.L["Feet"], "Alt Mit") --Scion's Treads
+LBIS:AddItem(spec4, "54578", LBIS.L["Feet"], "Alt Thrt") --Apocalypse's Advance
 LBIS:AddItem(spec4, "51816", LBIS.L["Feet"], "Alt") --Scourge Fanged Stompers
 LBIS:AddItem(spec4, "50190", LBIS.L["Feet"], "Alt") --Grinning Skull Greatboots
 LBIS:AddItem(spec4, "49907", LBIS.L["Feet"], "Alt") --Boots of Kingly Upheaval
@@ -479,6 +482,7 @@ LBIS:AddItem(spec4, "47080", LBIS.L["Trinket"], "Alt Stam") --Satrina's Impeding
 LBIS:AddItem(spec4, "47290", LBIS.L["Trinket"], "Alt Stam") --Juggernaut's Vitality
 LBIS:AddItem(spec4, "45158", LBIS.L["Trinket"], "Alt Stam") --Heart of Iron
 LBIS:AddItem(spec4, "46021", LBIS.L["Trinket"], "Alt Stam") --Royal Seal of King Llane
+LBIS:AddItem(spec4, "54591", LBIS.L["Trinket"], "Alt") --Petrified Twilight Scale
 LBIS:AddItem(spec4, "50706", LBIS.L["Trinket"], "Alt") --Tiny Abomination in a Jar
 LBIS:AddItem(spec4, "47464", LBIS.L["Trinket"], "Alt") --Death's Choice
 LBIS:AddItem(spec4, "47131", LBIS.L["Trinket"], "Alt") --Death's Verdict
