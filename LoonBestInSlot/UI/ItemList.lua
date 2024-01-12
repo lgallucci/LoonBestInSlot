@@ -158,9 +158,12 @@ local function IsInSource(specItem)
 end
 
 local function IsInZone(specItem)
+
+    local zone, _ = gsub(gsub(specItem.SourceLocation, "%(25H%)", "(25)"), "%(10H%)", "(10)")
+
     if LBISSettings.SelectedZone == LBIS.L["All"] then
         return true;
-    elseif strfind(specItem.SourceLocation, gsub(gsub(LBISSettings.SelectedZone, "%(", "%%%("), "%)", "%%%)")) ~= nil then
+    elseif strfind(zone, gsub(gsub(LBISSettings.SelectedZone, "%(", "%%%("), "%)", "%%%)")) ~= nil then
         return true;
     end
     return false;
