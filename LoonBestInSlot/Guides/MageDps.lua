@@ -5,7 +5,6 @@ LBIS:AddEnchant(spec1, "13607", LBIS.L["Chest"]) --Enchant Chest - Mana
 LBIS:AddEnchant(spec1, "13622", LBIS.L["Wrist"]) --Enchant Bracer - Lesser Intellect
 LBIS:AddEnchant(spec1, "2833", LBIS.L["Hands"]) --Armor +24
 LBIS:AddEnchant(spec1, "7863", LBIS.L["Feet"]) --Enchant Boots - Minor Stamina
-LBIS:AddEnchant(spec1, "7793", LBIS.L["Main Hand"]) --Enchant 2H Weapon - Lesser Intellect
 LBIS:AddEnchant(spec1, "7793", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Lesser Intellect
 
 LBIS:AddItem(spec1, "211842", LBIS.L["Head"], "BIS") --Rakkamar's Tattered Thinking Cap

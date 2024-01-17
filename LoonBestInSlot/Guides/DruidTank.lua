@@ -13,10 +13,10 @@ LBIS:AddItem(spec1, "209692", LBIS.L["Shoulder"], "BIS") --Sentinel Pauldrons
 LBIS:AddItem(spec1, "2264", LBIS.L["Shoulder"], "Alt") --Mantle of Thieves
 LBIS:AddItem(spec1, "213088", LBIS.L["Back"], "BIS") --Sergeant's Cloak
 LBIS:AddItem(spec1, "2059", LBIS.L["Back"], "Alt") --Sentry Cloak
+LBIS:AddItem(spec1, "211512", LBIS.L["Chest"], "BIS Thrt") --Twilight Slayer's Tunic
 LBIS:AddItem(spec1, "209687", LBIS.L["Chest"], "BIS") --Hydra Hide Cuirass
 LBIS:AddItem(spec1, "209572", LBIS.L["Chest"], "Alt") --Black Boiled Leathers
 LBIS:AddItem(spec1, "209675", LBIS.L["Chest"], "Alt") --Clamweave Tunic
-LBIS:AddItem(spec1, "211512", LBIS.L["Chest"], "Alt") --Twilight Slayer's Tunic
 LBIS:AddItem(spec1, "209524", LBIS.L["Wrist"], "BIS") --Bindings of Serra'kis
 LBIS:AddItem(spec1, "15351", LBIS.L["Wrist"], "Alt") --Headhunter's Bands
 LBIS:AddItem(spec1, "211423", LBIS.L["Hands"], "BIS") --Void-Touched Leather Gloves
