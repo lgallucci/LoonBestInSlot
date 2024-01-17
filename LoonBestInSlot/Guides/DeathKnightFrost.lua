@@ -277,8 +277,8 @@ LBIS:AddItem(spec4, "51314", LBIS.L["Shoulder"], "BIS") --Sanctified Scourgelord
 LBIS:AddItem(spec4, "51125", LBIS.L["Shoulder"], "Alt") --Sanctified Scourgelord Shoulderplates
 LBIS:AddItem(spec4, "50674", LBIS.L["Shoulder"], "Alt") --Raging Behemoth's Shoulderplates
 LBIS:AddItem(spec4, "50020", LBIS.L["Shoulder"], "Alt") --Raging Behemoth's Shoulderplates
-LBIS:AddItem(spec4, "48495", LBIS.L["Shoulder"], "Alt") --Koltira's Shoulderplates of Triumph
 LBIS:AddItem(spec4, "48486", LBIS.L["Shoulder"], "Alt") --Thassarian's Shoulderplates of Triumph
+LBIS:AddItem(spec4, "48495", LBIS.L["Shoulder"], "Alt") --Koltira's Shoulderplates of Triumph
 LBIS:AddItem(spec4, "47548", LBIS.L["Back"], "BIS") --Garrosh's Rage
 LBIS:AddItem(spec4, "47547", LBIS.L["Back"], "BIS") --Varian's Furor
 LBIS:AddItem(spec4, "50677", LBIS.L["Back"], "BIS") --Winding Sheet
@@ -288,8 +288,8 @@ LBIS:AddItem(spec4, "51310", LBIS.L["Chest"], "BIS") --Sanctified Scourgelord Ba
 LBIS:AddItem(spec4, "50606", LBIS.L["Chest"], "BIS") --Gendarme's Cuirass
 LBIS:AddItem(spec4, "51129", LBIS.L["Chest"], "Alt") --Sanctified Scourgelord Battleplate
 LBIS:AddItem(spec4, "51902", LBIS.L["Chest"], "Alt") --Blade-Scored Carapace
-LBIS:AddItem(spec4, "48491", LBIS.L["Chest"], "Alt") --Koltira's Battleplate of Triumph
 LBIS:AddItem(spec4, "48490", LBIS.L["Chest"], "Alt") --Thassarian's Battleplate of Triumph
+LBIS:AddItem(spec4, "48491", LBIS.L["Chest"], "Alt") --Koltira's Battleplate of Triumph
 LBIS:AddItem(spec4, "50659", LBIS.L["Wrist"], "BIS") --Polar Bear Claw Bracers
 LBIS:AddItem(spec4, "50002", LBIS.L["Wrist"], "Alt") --Polar Bear Claw Bracers
 LBIS:AddItem(spec4, "51832", LBIS.L["Wrist"], "Alt") --Taiga Bindings
@@ -334,14 +334,15 @@ LBIS:AddItem(spec4, "50693", LBIS.L["Ring"], "BIS") --Might of Blight
 LBIS:AddItem(spec4, "50657", LBIS.L["Ring"], "Alt") --Skeleton Lord's Circle
 LBIS:AddItem(spec4, "51855", LBIS.L["Ring"], "Alt") --Thrice Fanged Signet
 LBIS:AddItem(spec4, "50453", LBIS.L["Ring"], "Alt") --Ring of Rotting Sinew
-LBIS:AddItem(spec4, "47413", LBIS.L["Ring"], "Alt") --Ring of the Violent Temperament
 LBIS:AddItem(spec4, "46966", LBIS.L["Ring"], "Alt") --Band of the Violent Temperment
+LBIS:AddItem(spec4, "47413", LBIS.L["Ring"], "Alt") --Ring of the Violent Temperament
 LBIS:AddItem(spec4, "50363", LBIS.L["Trinket"], "BIS") --Deathbringer's Will
+LBIS:AddItem(spec4, "54590", LBIS.L["Trinket"], "BIS") --Sharpened Twilight Scale
+LBIS:AddItem(spec4, "54569", LBIS.L["Trinket"], "BIS") --Sharpened Twilight Scale
 LBIS:AddItem(spec4, "47464", LBIS.L["Trinket"], "BIS") --Death's Choice
 LBIS:AddItem(spec4, "47131", LBIS.L["Trinket"], "BIS") --Death's Verdict
 LBIS:AddItem(spec4, "47303", LBIS.L["Trinket"], "BIS") --Death's Choice
 LBIS:AddItem(spec4, "47115", LBIS.L["Trinket"], "BIS") --Death's Verdict
-LBIS:AddItem(spec4, "54590", LBIS.L["Trinket"], "Alt") --Sharpened Twilight Scale
 LBIS:AddItem(spec4, "45931", LBIS.L["Trinket"], "Alt") --Mjolnir Runestone
 LBIS:AddItem(spec4, "50343", LBIS.L["Trinket"], "Alt") --Whispering Fanged Skull
 LBIS:AddItem(spec4, "50355", LBIS.L["Trinket"], "Alt") --Herkuml War Token
