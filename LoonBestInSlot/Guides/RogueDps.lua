@@ -69,8 +69,8 @@ LBIS:AddItem(spec1, "16886", LBIS.L["Main Hand/Off Hand"], "Alt") --Outlaw Sabre
 LBIS:AddItem(spec1, "212582", LBIS.L["Main Hand"], "Alt") --Protector's Sword
 LBIS:AddItem(spec1, "212586", LBIS.L["Main Hand"], "Alt") --Legionnaire's Sword
 LBIS:AddItem(spec1, "13024", LBIS.L["Main Hand"], "Alt") --Beazel's Basher
-LBIS:AddItem(spec1, "5191", LBIS.L["Main Hand"], "Alt") --Cruel Barb
 LBIS:AddItem(spec1, "1482", LBIS.L["Main Hand"], "Alt") --Shadowfang
+LBIS:AddItem(spec1, "5191", LBIS.L["Main Hand"], "Alt") --Cruel Barb
 LBIS:AddItem(spec1, "3186", LBIS.L["Main Hand"], "Alt") --Viking Sword
 LBIS:AddItem(spec1, "6472", LBIS.L["Main Hand"], "Alt") --Stinging Viper
 LBIS:AddItem(spec1, "209691", LBIS.L["Off Hand"], "BIS") --Vampiric Boot Knife
