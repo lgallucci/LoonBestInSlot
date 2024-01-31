@@ -4,7 +4,7 @@ LBIS:AddEnchant(spec1, "13419", LBIS.L["Back"]) --Enchant Cloak - Minor Agility
 LBIS:AddEnchant(spec1, "13626", LBIS.L["Chest"]) --Enchant Chest - Minor Stats
 LBIS:AddEnchant(spec1, "13536", LBIS.L["Wrist"]) --Enchant Bracer - Lesser Strength
 LBIS:AddEnchant(spec1, "2833", LBIS.L["Hands"]) --Armor +24
-LBIS:AddEnchant(spec1, "2833", LBIS.L["Feet"]) --Armor +24
+LBIS:AddEnchant(spec1, "7867", LBIS.L["Feet"]) --Enchant Boots - Minor Agility
 LBIS:AddEnchant(spec1, "13503", LBIS.L["Main Hand"]) --Enchant Weapon - Lesser Striking
 
 LBIS:AddItem(spec1, "211789", LBIS.L["Head"], "BIS") --Artemis Cowl
