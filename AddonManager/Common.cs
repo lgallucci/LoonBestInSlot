@@ -28,7 +28,7 @@ public static class Common
                 using (var page = await browser.NewPageAsync())
                 {
                     page.DefaultTimeout = 15000; // or you can set this as 0
-                    await page.GoToAsync(pageAddress, WaitUntilNavigation.DOMContentLoaded);
+                    await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
                     var content = await page.GetContentAsync();
 
                     System.Diagnostics.Debug.WriteLine($"Retrieved Content ({content.Substring(0, 10)})...");
