@@ -48,6 +48,12 @@ public class WowheadGuideParser
         { "armor", "armor pen" },
     };
 
+    private Dictionary<int, int> _duplicateItemIds = new Dictionary<int, int>() 
+    {
+        {213087, 213088},
+        {213088, 213087}
+    };
+
     private List<string> _bisTextSwaps = new()
     {
         "bis",
@@ -390,6 +396,17 @@ public class WowheadGuideParser
                             Slot = slot,
                             ItemOrder = itemOrderIndex
                         });
+                        if (_duplicateItemIds.ContainsKey(itemId) && !items.ContainsKey(_duplicateItemIds[itemId]))
+                        {
+                            items.Add(_duplicateItemIds[itemId], new ItemSpec
+                            {
+                                ItemId = _duplicateItemIds[itemId],
+                                Name = itemName ?? "unknown",
+                                BisStatus = bisStatus ?? "unknown",
+                                Slot = slot,
+                                ItemOrder = itemOrderIndex
+                            });
+                        }
                     }
                     else
                     {

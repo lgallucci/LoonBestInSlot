@@ -14,6 +14,7 @@ LBIS:AddItem(spec1, "6597", LBIS.L["Shoulder"], "Alt") --Battleforge Shouldergua
 LBIS:AddItem(spec1, "4835", LBIS.L["Shoulder"], "Alt") --Elite Shoulders
 LBIS:AddItem(spec1, "4705", LBIS.L["Shoulder"], "Alt") --Lambent Scale Pauldrons
 LBIS:AddItem(spec1, "213087", LBIS.L["Back"], "BIS") --Sergeant's Cloak
+LBIS:AddItem(spec1, "213088", LBIS.L["Back"], "BIS") --Sergeant's Cloak
 LBIS:AddItem(spec1, "7419", LBIS.L["Back"], "BIS") --Phalanx Cloak
 LBIS:AddItem(spec1, "9838", LBIS.L["Back"], "BIS") --Banded Cloak
 LBIS:AddItem(spec1, "15547", LBIS.L["Back"], "BIS") --Thick Scale Cloak

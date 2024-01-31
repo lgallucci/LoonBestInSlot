@@ -34,6 +34,7 @@ LBIS:AddItem(spec1, "7356", LBIS.L["Back"], "BIS") --Elder's Cloak
 LBIS:AddItem(spec1, "4643", LBIS.L["Back"], "Alt") --Grimsteel Cape
 LBIS:AddItem(spec1, "6751", LBIS.L["Back"], "Alt") --Mourning Shawl
 LBIS:AddItem(spec1, "213087", LBIS.L["Back"], "Alt") --Sergeant's Cloak
+LBIS:AddItem(spec1, "213088", LBIS.L["Back"], "Alt") --Sergeant's Cloak
 LBIS:AddItem(spec1, "14582", LBIS.L["Back"], "Alt") --Dokebi Cape
 LBIS:AddItem(spec1, "5193", LBIS.L["Back"], "Alt") --Cape of the Brotherhood
 LBIS:AddItem(spec1, "6667", LBIS.L["Back"], "Alt") --Engineer's Cloak
@@ -147,6 +148,7 @@ LBIS:AddItem(spec1, "15109", LBIS.L["Two Hand"], "Alt") --Staff of Soran'ruk
 LBIS:AddItem(spec1, "6505", LBIS.L["Two Hand"], "Alt") --Crescent Staff
 LBIS:AddItem(spec1, "3452", LBIS.L["Two Hand"], "Alt") --Ceranium Rod
 LBIS:AddItem(spec1, "890", LBIS.L["Two Hand"], "Alt") --Twisted Chanter's Staff
+LBIS:AddItem(spec1, "3738", LBIS.L["Two Hand"], "Alt") --Brewing Rod
 LBIS:AddItem(spec1, "209674", LBIS.L["Ranged/Relic"], "BIS") --Phoenix Ignition
 LBIS:AddItem(spec1, "211461", LBIS.L["Ranged/Relic"], "Alt") --Inscribed Gravestone Scepter
 LBIS:AddItem(spec1, "209571", LBIS.L["Ranged/Relic"], "Alt") --Deadlight

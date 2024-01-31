@@ -31,6 +31,7 @@ LBIS:AddItem(spec1, "209423", LBIS.L["Back"], "Alt") --Flowing Scarf
 LBIS:AddItem(spec1, "14400", LBIS.L["Back"], "Alt") --Resilient Cape
 LBIS:AddItem(spec1, "16661", LBIS.L["Back"], "Alt") --Soft Willow Cape
 LBIS:AddItem(spec1, "213087", LBIS.L["Back"], "Alt") --Sergeant's Cloak
+LBIS:AddItem(spec1, "213088", LBIS.L["Back"], "Alt") --Sergeant's Cloak
 LBIS:AddItem(spec1, "16315", LBIS.L["Back"], "Alt") --Sergeant Major's Cape
 LBIS:AddItem(spec1, "209671", LBIS.L["Chest"], "BIS") --Twilight Invoker's Robes
 LBIS:AddItem(spec1, "2800", LBIS.L["Chest"], "Alt") --Black Velvet Robes

@@ -12,6 +12,7 @@ LBIS:AddItem(spec1, "209682", LBIS.L["Head"], "Alt") --Sturdy Hood
 LBIS:AddItem(spec1, "209692", LBIS.L["Shoulder"], "BIS") --Sentinel Pauldrons
 LBIS:AddItem(spec1, "2264", LBIS.L["Shoulder"], "Alt") --Mantle of Thieves
 LBIS:AddItem(spec1, "213088", LBIS.L["Back"], "BIS") --Sergeant's Cloak
+LBIS:AddItem(spec1, "213087", LBIS.L["Back"], "BIS") --Sergeant's Cloak
 LBIS:AddItem(spec1, "2059", LBIS.L["Back"], "Alt") --Sentry Cloak
 LBIS:AddItem(spec1, "211512", LBIS.L["Chest"], "BIS Thrt") --Twilight Slayer's Tunic
 LBIS:AddItem(spec1, "209687", LBIS.L["Chest"], "BIS") --Hydra Hide Cuirass

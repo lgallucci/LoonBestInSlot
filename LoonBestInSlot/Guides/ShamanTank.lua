@@ -20,6 +20,7 @@ LBIS:AddItem(spec1, "2264", LBIS.L["Shoulder"], "Alt") --Mantle of Thieves
 LBIS:AddItem(spec1, "7352", LBIS.L["Shoulder"], "Alt") --Earthen Leather Shoulders
 LBIS:AddItem(spec1, "4251", LBIS.L["Shoulder"], "Alt") --Hillman's Shoulders
 LBIS:AddItem(spec1, "213088", LBIS.L["Back"], "BIS") --Sergeant's Cloak
+LBIS:AddItem(spec1, "213087", LBIS.L["Back"], "BIS") --Sergeant's Cloak
 LBIS:AddItem(spec1, "2059", LBIS.L["Back"], "Alt") --Sentry Cloak
 LBIS:AddItem(spec1, "5193", LBIS.L["Back"], "Alt") --Cape of the Brotherhood
 LBIS:AddItem(spec1, "14582", LBIS.L["Back"], "Alt") --Dokebi Cape

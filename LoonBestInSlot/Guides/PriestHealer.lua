@@ -22,6 +22,7 @@ LBIS:AddItem(spec1, "17047", LBIS.L["Shoulder"], "Alt") --Luminescent Amice
 LBIS:AddItem(spec1, "6617", LBIS.L["Shoulder"], "Alt") --Sage's Mantle of the Owl
 LBIS:AddItem(spec1, "209423", LBIS.L["Back"], "BIS") --Flowing Scarf
 LBIS:AddItem(spec1, "213087", LBIS.L["Back"], "Alt") --Sergeant's Cloak
+LBIS:AddItem(spec1, "213088", LBIS.L["Back"], "Alt") --Sergeant's Cloak
 LBIS:AddItem(spec1, "6614", LBIS.L["Back"], "Alt") --Sage's Cloak of the Owl
 LBIS:AddItem(spec1, "14400", LBIS.L["Back"], "Alt") --Resilient Cape
 LBIS:AddItem(spec1, "7356", LBIS.L["Back"], "Alt") --Elder's Cloak of Intellect

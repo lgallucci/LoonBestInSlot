@@ -21,6 +21,7 @@ LBIS:AddItem(spec1, "209676", LBIS.L["Shoulder"], "Alt") --Shoulderguards of Cru
 LBIS:AddItem(spec1, "15531", LBIS.L["Shoulder"], "Alt") --Sentry's Shoulderguards of the Monkey
 LBIS:AddItem(spec1, "4835", LBIS.L["Shoulder"], "Alt") --Elite Shoulders
 LBIS:AddItem(spec1, "213087", LBIS.L["Back"], "BIS") --Sergeant's Cloak
+LBIS:AddItem(spec1, "213088", LBIS.L["Back"], "BIS") --Sergeant's Cloak
 LBIS:AddItem(spec1, "5193", LBIS.L["Back"], "Alt") --Cape of the Brotherhood
 LBIS:AddItem(spec1, "2059", LBIS.L["Back"], "Alt") --Sentry Cloak
 LBIS:AddItem(spec1, "15135", LBIS.L["Back"], "Alt") --Cutthroat's Cape of the Monkey
