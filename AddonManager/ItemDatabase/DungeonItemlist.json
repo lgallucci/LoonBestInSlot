@@ -1,5 +1,13 @@
 {
   "Items": {
+    "932": {
+      "Name": "Fel Steed Saddlebags",
+      "Source": "Fel Steeds/Shadow Charger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
     "1156": {
       "Name": "Lavishly Jeweled Ring",
       "Source": "Gilnid",
@@ -14,6 +22,14 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "1520": {
+      "Name": "Troll Sweat",
+      "Source": "Theka the Martyr & Hydromancer Velratha",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
       "SourceFaction": "B"
     },
     "1937": {
@@ -238,6 +254,30 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep",
+      "SourceFaction": "B"
+    },
+    "5404": {
+      "Name": "Serpent's Shoulders",
+      "Source": "Lady Anacondra",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "5443": {
+      "Name": "Gold-plated Buckler",
+      "Source": "Miner Johnson (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
+      "SourceFaction": "B"
+    },
+    "5444": {
+      "Name": "Miner's Cape",
+      "Source": "Miner Johnson (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Deadmines",
       "SourceFaction": "B"
     },
     "5970": {
@@ -816,6 +856,278 @@
       "SourceLocation": "Scarlet Monastery",
       "SourceFaction": "B"
     },
+    "8053": {
+      "Name": "Obsidian Power Source",
+      "Source": "Obsidian Sentinel",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9379": {
+      "Name": "Sang'thraze the Deflector",
+      "Source": "Antu'sul <Overseer of Sul>",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "9387": {
+      "Name": "Revelosh's Boots",
+      "Source": "Revelosh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9388": {
+      "Name": "Revelosh's Armguards",
+      "Source": "Revelosh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9389": {
+      "Name": "Revelosh's Spaulders",
+      "Source": "Revelosh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9390": {
+      "Name": "Revelosh's Gloves",
+      "Source": "Revelosh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9399": {
+      "Name": "Precision Arrow",
+      "Source": "The Lost Dwarves",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "H"
+    },
+    "9400": {
+      "Name": "Baelog's Shortbow",
+      "Source": "The Lost Dwarves",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "H"
+    },
+    "9401": {
+      "Name": "Nordic Longshank",
+      "Source": "The Lost Dwarves",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "H"
+    },
+    "9407": {
+      "Name": "Stoneweaver Leggings",
+      "Source": "Ironaya",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9408": {
+      "Name": "Ironshod Bludgeon",
+      "Source": "Ironaya",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9409": {
+      "Name": "Ironaya's Bracers",
+      "Source": "Ironaya",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9410": {
+      "Name": "Cragfists",
+      "Source": "Ancient Stone Keeper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9411": {
+      "Name": "Rockshard Pauldrons",
+      "Source": "Ancient Stone Keeper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9412": {
+      "Name": "Galgann's Fireblaster",
+      "Source": "Galgann Firehammer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9413": {
+      "Name": "The Rockpounder",
+      "Source": "Archaedas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9414": {
+      "Name": "Oilskin Leggings",
+      "Source": "Grimlok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9415": {
+      "Name": "Grimlok's Tribal Vestments",
+      "Source": "Grimlok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9416": {
+      "Name": "Grimlok's Charge",
+      "Source": "Grimlok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9418": {
+      "Name": "Stoneslayer",
+      "Source": "Archaedas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9419": {
+      "Name": "Galgann's Firehammer",
+      "Source": "Galgann Firehammer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "9467": {
+      "Name": "Gahz'rilla Fang",
+      "Source": "Gahz'rilla",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "9469": {
+      "Name": "Gahz'rilla Scale Armor",
+      "Source": "Gahz'rilla",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "9470": {
+      "Name": "Bad Mojo Mask",
+      "Source": "Nekrum Gutchewer and Shadowpriest Sezz'ziz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "9473": {
+      "Name": "Jinxed Hoodoo Skin",
+      "Source": "Nekrum Gutchewer and Shadowpriest Sezz'ziz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "9474": {
+      "Name": "Jinxed Hoodoo Kilt",
+      "Source": "Nekrum Gutchewer and Shadowpriest Sezz'ziz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "9475": {
+      "Name": "Diabolic Skiver",
+      "Source": "Nekrum Gutchewer and Shadowpriest Sezz'ziz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "9476": {
+      "Name": "Big Bad Pauldrons",
+      "Source": "Chief Ukorz Sandscalp",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "9477": {
+      "Name": "The Chief's Enforcer",
+      "Source": "Chief Ukorz Sandscalp",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "9478": {
+      "Name": "Ripsaw",
+      "Source": "Chief Ukorz Sandscalp",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "9479": {
+      "Name": "Embrace of the Lycan",
+      "Source": "Chief Ukorz Sandscalp",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "9639": {
+      "Name": "The Hand of Antu'sul",
+      "Source": "Antu'sul <Overseer of Sul>",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "9640": {
+      "Name": "Vice Grips",
+      "Source": "Antu'sul <Overseer of Sul>",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "9641": {
+      "Name": "Lifeblood Amulet",
+      "Source": "Antu'sul <Overseer of Sul>",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
     "10330": {
       "Name": "Scarlet Leggings",
       "Source": "Herod & Scarlet Commander Mograine & High Inquisitor Whitemane",
@@ -851,6 +1163,14 @@
     "10411": {
       "Name": "Footpads of the Fang",
       "Source": "Lord Serpentis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "10412": {
+      "Name": "Belt of the Fang",
+      "Source": "Lady Anacondra",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Wailing Caverns",
@@ -936,6 +1256,30 @@
       "SourceLocation": "Razerfen Downs",
       "SourceFaction": "B"
     },
+    "10769": {
+      "Name": "Glowing Eye of Mordresh",
+      "Source": "Mordresh Fire Eye",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10770": {
+      "Name": "Mordresh's Lifeless Skull",
+      "Source": "Mordresh Fire Eye",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10771": {
+      "Name": "Deathmage Sash",
+      "Source": "Mordresh Fire Eye",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
     "10772": {
       "Name": "Glutton's Cleaver",
       "Source": "Glutton",
@@ -974,6 +1318,46 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "11086": {
+      "Name": "Jang'thraze the Protector",
+      "Source": "Chief Ukorz Sandscalp",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "11118": {
+      "Name": "Archaedic Stone",
+      "Source": "Archaedas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "11310": {
+      "Name": "Flameseer Mantle",
+      "Source": "Galgann Firehammer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "11311": {
+      "Name": "Emberscale Cape",
+      "Source": "Galgann Firehammer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
+    "12470": {
+      "Name": "Sandstalker Ankleguards",
+      "Source": "Zerillis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
       "SourceFaction": "B"
     },
     "13245": {
@@ -1038,6 +1422,22 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "18082": {
+      "Name": "Zum'rah's Vexing Cane",
+      "Source": "Witch Doctor Zum'rah",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "18083": {
+      "Name": "Jumanza Grips",
+      "Source": "Witch Doctor Zum'rah",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Farrak",
       "SourceFaction": "B"
     },
     "19507": {

@@ -7,18 +7,18 @@ namespace AddonManager.Importers;
 
 public class DungeonImporter : LootImporter
 {
-    private Dictionary<string, (string, string)> dungeonUriList = new Dictionary<string, (string, string)>
+    private Dictionary<string, string> dungeonUriList = new Dictionary<string, string>
         {
-            { @"https://www.wowhead.com/classic/guide/ragefire-chasm-dungeon-strategy-wow-classic", ("Ragefire Chasm", "h2#bosses") },
-            { @"https://www.wowhead.com/classic/guide/wailing-caverns-dungeon-strategy-wow-classic", ("Wailing Caverns", "h2#bosses") },
-            { @"https://www.wowhead.com/classic/guide/deadmines-dungeon-strategy-wow-classic", ("Deadmines", "h2#bosses") },
-            { @"https://www.wowhead.com/classic/guide/shadowfang-keep-dungeon-strategy-wow-classic", ("Shadowfang Keep", "h2#bosses") },
-            { @"https://www.wowhead.com/classic/guide/the-stockade-dungeon-strategy-wow-classic", ("The Stockade", "h2#bosses") },
-            { @"https://www.wowhead.com/classic/guide/razorfen-kraul-dungeon-strategy-wow-classic", ("Razorfen Kraul", "h2#razorfel-kraul-bosses")  },
-            { @"https://www.wowhead.com/classic/guide/scarlet-monastery-dungeon-strategy-wow-classic", ("Scarlet Monastery", "h2#scarlet-monastery-graveyard-bosses") },
-            { @"https://www.wowhead.com/classic/guide/razorfen-downs-dungeon-strategy-wow-classic", ("Razerfen Downs", "h2#razorfen-downs-bosses") },
-            { @"https://www.wowhead.com/classic/guide/uldaman-dungeon-strategy-wow-classic", ("Uldaman", "h2#uldaman-bosses")},
-            //{ @"https://www.wowhead.com/classic/guide/zulfarrak-dungeon-strategy-wow-classic", ("Zul'Farrak", "h2#zulfarrak-bosses")}
+            { @"https://www.wowhead.com/classic/guide/ragefire-chasm-dungeon-strategy-wow-classic", "Ragefire Chasm" },
+            { @"https://www.wowhead.com/classic/guide/wailing-caverns-dungeon-strategy-wow-classic", "Wailing Caverns" },
+            { @"https://www.wowhead.com/classic/guide/deadmines-dungeon-strategy-wow-classic", "Deadmines" },
+            { @"https://www.wowhead.com/classic/guide/shadowfang-keep-dungeon-strategy-wow-classic", "Shadowfang Keep" },
+            { @"https://www.wowhead.com/classic/guide/the-stockade-dungeon-strategy-wow-classic", "The Stockade" },
+            { @"https://www.wowhead.com/classic/guide/razorfen-kraul-dungeon-strategy-wow-classic", "Razorfen Kraul" },
+            { @"https://www.wowhead.com/classic/guide/scarlet-monastery-dungeon-strategy-wow-classic", "Scarlet Monastery" },
+            { @"https://www.wowhead.com/classic/guide/razorfen-downs-dungeon-strategy-wow-classic", "Razerfen Downs" },
+            { @"https://www.wowhead.com/classic/guide/uldaman-dungeon-strategy-wow-classic", "Uldaman"},
+            { @"https://www.wowhead.com/classic/guide/zulfarrak-dungeon-strategy-wow-classic", "Zul'Farrak"}
         };
 
     internal override string FileName { get => "DungeonItemList"; }
@@ -28,11 +28,20 @@ public class DungeonImporter : LootImporter
 
         await Common.LoadFromWebPages(dungeonUriList.Keys.ToList(), (uri, doc) =>
         {
-            var bossesElement = doc.QuerySelector(dungeonUriList[uri].Item2);
+            var bossElements = doc.QuerySelectorAll("h3 .q10");
+            
+            foreach (var bossElement in bossElements)
+            {
+                var bossName = bossElement.TextContent;
+                foreach(var replaceString in _bossNameRemovals)
+                    bossName = bossName.Replace(replaceString, "");
 
-            LoopThroughBosses(bossesElement, (bossName, be) => {
-                AddLootItems(be, dungeonUriList[uri].Item1, bossName, items);
-            });
+                var element = bossElement.ParentElement;                
+                while(element.ParentElement != null && element.ParentElement.Id != "guide-body")
+                    element = element.ParentElement;
+
+                AddLootItems(element, dungeonUriList[uri], bossName, items);
+            }
         }, writeToLog);
         return items;
     }
@@ -56,27 +65,8 @@ public class DungeonImporter : LootImporter
     private List<string> _bossNameRemovals = new List<string> 
     {
         " <Scarlet Champion>",
-        " (Bonus Boss)",
-
+        " (Bonus Boss)"
     };
-    
-    private void LoopThroughBosses(IElement bossesElement, Action<string, IElement> eachBossFunction)
-    {
-        //find next boss until done
-        IElement element = bossesElement;
-        while(element != null && element.Id != "quests")
-        {
-            var bossName = element.TextContent;
-            foreach(var replaceString in _bossNameRemovals)
-                bossName = bossName.Replace(replaceString, "");
-
-            if (element.ClassName == "r2")
-            {
-                eachBossFunction(element.TextContent, element);
-            }
-            element = element.NextElementSibling;
-        }
-    }
 
     private void AddLootItems(IElement htmlElement, string dungeonName, string bossName, DatabaseItems items)
     {
@@ -97,6 +87,12 @@ public class DungeonImporter : LootImporter
 
                     if (anchor != null)
                     {
+                        var sourceFaction = "B";
+                        if (element.TextContent.Contains("Horde"))
+                            sourceFaction = "H";
+                        else if (element.TextContent.Contains("Alliance"))
+                            sourceFaction = "A";
+
                         var item = anchor.PathName.Replace("/classic", "").Replace("/item=", "");
 
                         var itemIdIndex = item.IndexOf("/");
@@ -114,7 +110,8 @@ public class DungeonImporter : LootImporter
                             Source = bossName,
                             SourceType = "Drop",
                             SourceNumber = "0",
-                            SourceLocation = dungeonName
+                            SourceLocation = dungeonName,
+                            SourceFaction = sourceFaction
                         });
                     } else {
                         Console.WriteLine($"anchor is null for {bossName}");
