@@ -856,6 +856,126 @@
       "SourceLocation": "Wailing Caverns",
       "SourceFaction": "B"
     },
+    "10758": {
+      "Name": "X'caliboar",
+      "Source": "Ragglesnout (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10760": {
+      "Name": "Swine Fists",
+      "Source": "Plaguemaw the Rotting (Optional Event)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10761": {
+      "Name": "Coldrage Dagger",
+      "Source": "Amnennar the Coldbringer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10762": {
+      "Name": "Robes of the Lich",
+      "Source": "Amnennar the Coldbringer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10763": {
+      "Name": "Icemetal Barbute",
+      "Source": "Amnennar the Coldbringer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10764": {
+      "Name": "Deathchill Armor",
+      "Source": "Amnennar the Coldbringer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10765": {
+      "Name": "Bonefingers",
+      "Source": "Amnennar the Coldbringer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10766": {
+      "Name": "Plaguerot Sprig",
+      "Source": "Plaguemaw the Rotting (Optional Event)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10767": {
+      "Name": "Savage Boar's Guard",
+      "Source": "Ragglesnout (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10768": {
+      "Name": "Boar Champion's Belt",
+      "Source": "Ragglesnout (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10772": {
+      "Name": "Glutton's Cleaver",
+      "Source": "Glutton",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10774": {
+      "Name": "Fleshhide Shoulders",
+      "Source": "Glutton",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10775": {
+      "Name": "Carapace of Tuten'kash",
+      "Source": "Tuten'kash",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10776": {
+      "Name": "Silky Spider Cape",
+      "Source": "Tuten'kash",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
+    "10777": {
+      "Name": "Arachnid Gloves",
+      "Source": "Tuten'kash",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razerfen Downs",
+      "SourceFaction": "B"
+    },
     "13245": {
       "Name": "Kresh's Back",
       "Source": "Kresh",

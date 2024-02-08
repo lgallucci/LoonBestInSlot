@@ -17,7 +17,7 @@ public class DungeonImporter : LootImporter
             { @"https://www.wowhead.com/classic/guide/razorfen-kraul-dungeon-strategy-wow-classic", ("Razorfen Kraul", "h2#razorfel-kraul-bosses")  },
             { @"https://www.wowhead.com/classic/guide/scarlet-monastery-dungeon-strategy-wow-classic", ("Scarlet Monastery", "h2#scarlet-monastery-graveyard-bosses") },
             { @"https://www.wowhead.com/classic/guide/razorfen-downs-dungeon-strategy-wow-classic", ("Razerfen Downs", "h2#razorfen-downs-bosses") },
-            //{ @"https://www.wowhead.com/classic/guide/uldaman-dungeon-strategy-wow-classic", ("Uldaman", "h2#uldaman-bosses")},
+            { @"https://www.wowhead.com/classic/guide/uldaman-dungeon-strategy-wow-classic", ("Uldaman", "h2#uldaman-bosses")},
             //{ @"https://www.wowhead.com/classic/guide/zulfarrak-dungeon-strategy-wow-classic", ("Zul'Farrak", "h2#zulfarrak-bosses")}
         };
 
@@ -53,12 +53,23 @@ public class DungeonImporter : LootImporter
         return result;
     }
 
+    private List<string> _bossNameRemovals = new List<string> 
+    {
+        " <Scarlet Champion>",
+        " (Bonus Boss)",
+
+    };
+    
     private void LoopThroughBosses(IElement bossesElement, Action<string, IElement> eachBossFunction)
     {
         //find next boss until done
         IElement element = bossesElement;
         while(element != null && element.Id != "quests")
         {
+            var bossName = element.TextContent;
+            foreach(var replaceString in _bossNameRemovals)
+                bossName = bossName.Replace(replaceString, "");
+
             if (element.ClassName == "r2")
             {
                 eachBossFunction(element.TextContent, element);
