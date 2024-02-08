@@ -17,8 +17,8 @@ public class DungeonImporter : LootImporter
             { @"https://www.wowhead.com/classic/guide/razorfen-kraul-dungeon-strategy-wow-classic", ("Razorfen Kraul", "h2#razorfel-kraul-bosses")  },
             { @"https://www.wowhead.com/classic/guide/scarlet-monastery-dungeon-strategy-wow-classic", ("Scarlet Monastery", "h2#scarlet-monastery-graveyard-bosses") },
             { @"https://www.wowhead.com/classic/guide/razorfen-downs-dungeon-strategy-wow-classic", ("Razerfen Downs", "h2#razorfen-downs-bosses") },
-            { @"https://www.wowhead.com/classic/guide/uldaman-dungeon-strategy-wow-classic", ("Uldaman", "h2#uldaman-bosses")},
-            { @"https://www.wowhead.com/classic/guide/zulfarrak-dungeon-strategy-wow-classic", ("Zul'Farrak", "h2#zulfarrak-bosses")}
+            //{ @"https://www.wowhead.com/classic/guide/uldaman-dungeon-strategy-wow-classic", ("Uldaman", "h2#uldaman-bosses")},
+            //{ @"https://www.wowhead.com/classic/guide/zulfarrak-dungeon-strategy-wow-classic", ("Zul'Farrak", "h2#zulfarrak-bosses")}
         };
 
     internal override string FileName { get => "DungeonItemList"; }
@@ -78,7 +78,7 @@ public class DungeonImporter : LootImporter
             if (element == null)
                 return;
 
-            if (element.TextContent == "Loot")
+            if (element.TextContent.Contains("Loot"))
             {
                 foreach(var lootElement in element.NextElementSibling.ChildNodes)
                 {

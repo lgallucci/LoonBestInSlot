@@ -96,6 +96,14 @@
       "SourceLocation": "Shadowfang Keep",
       "SourceFaction": "B"
     },
+    "3456": {
+      "Name": "Dog Whistle",
+      "Source": "Houndmaster Loksey",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
     "3748": {
       "Name": "Feline Mantle",
       "Source": "Wolf Master Nandos",
@@ -608,6 +616,214 @@
       "SourceLocation": "Deadmines",
       "SourceFaction": "B"
     },
+    "7682": {
+      "Name": "Torturing Poker",
+      "Source": "Interrogator Vishas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7683": {
+      "Name": "Bloody Brass Knuckles",
+      "Source": "Interrogator Vishas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7684": {
+      "Name": "Bloodmage Mantle",
+      "Source": "Bloodmage Thalnos",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7685": {
+      "Name": "Orb of the Forgotten Seer",
+      "Source": "Bloodmage Thalnos",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7686": {
+      "Name": "Ironspine's Eye",
+      "Source": "Ironspine (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7687": {
+      "Name": "Ironspine's Fist",
+      "Source": "Ironspine (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7688": {
+      "Name": "Ironspine's Ribcage",
+      "Source": "Ironspine (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7689": {
+      "Name": "Morbid Dawn",
+      "Source": "Fallen Champion (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7690": {
+      "Name": "Ebon Vise",
+      "Source": "Fallen Champion (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7691": {
+      "Name": "Embalmed Shroud",
+      "Source": "Fallen Champion (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7708": {
+      "Name": "Necrotic Wand",
+      "Source": "Spawning Graveyard Rares & Azshir the Sleepless (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7709": {
+      "Name": "Blighted Leggings",
+      "Source": "Spawning Graveyard Rares & Azshir the Sleepless (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7710": {
+      "Name": "Loksey's Training Stick",
+      "Source": "Houndmaster Loksey",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7711": {
+      "Name": "Robe of Doan",
+      "Source": "Arcanist Doan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7712": {
+      "Name": "Mantle of Doan",
+      "Source": "Arcanist Doan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7713": {
+      "Name": "Illusionary Rod",
+      "Source": "Arcanist Doan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7714": {
+      "Name": "Hypnotic Blade",
+      "Source": "Arcanist Doan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7717": {
+      "Name": "Ravager",
+      "Source": "Herod",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7718": {
+      "Name": "Herod's Shoulder",
+      "Source": "Herod",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7719": {
+      "Name": "Raging Berserker's Helm",
+      "Source": "Herod",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7723": {
+      "Name": "Mograine's Might",
+      "Source": "Scarlet Commander Mograine & High Inquisitor Whitemane",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7724": {
+      "Name": "Gauntlets of Divinity",
+      "Source": "Scarlet Commander Mograine & High Inquisitor Whitemane",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7726": {
+      "Name": "Aegis of the Scarlet Commander",
+      "Source": "Scarlet Commander Mograine & High Inquisitor Whitemane",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7731": {
+      "Name": "Ghostshard Talisman",
+      "Source": "Spawning Graveyard Rares & Azshir the Sleepless (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7756": {
+      "Name": "Dog Training Gloves",
+      "Source": "Houndmaster Loksey",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "10330": {
+      "Name": "Scarlet Leggings",
+      "Source": "Herod & Scarlet Commander Mograine & High Inquisitor Whitemane",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
     "10399": {
       "Name": "Blackened Defias Armor",
       "Source": "Edwin Van Cleef",
@@ -702,6 +918,30 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "19507": {
+      "Name": "Inquisitor's Shawl",
+      "Source": "High Inquisitor Fairbanks",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "19508": {
+      "Name": "Branded Leather Bracers",
+      "Source": "High Inquisitor Fairbanks",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "19509": {
+      "Name": "Dusty Mail Boots",
+      "Source": "High Inquisitor Fairbanks",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
       "SourceFaction": "B"
     }
   }
