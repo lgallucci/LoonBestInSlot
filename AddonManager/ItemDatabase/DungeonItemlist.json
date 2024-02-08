@@ -480,6 +480,126 @@
       "SourceLocation": "Shadowfang Keep",
       "SourceFaction": "B"
     },
+    "6681": {
+      "Name": "Thornspike",
+      "Source": "Aggem Thorncurse",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "6682": {
+      "Name": "Death Speaker Robes",
+      "Source": "Death Speaker Jargba",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "6686": {
+      "Name": "Tusken Helm",
+      "Source": "Overlord Ramtusk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "6687": {
+      "Name": "Corpsemaker",
+      "Source": "Overlord Ramtusk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "6688": {
+      "Name": "Whisperwind Headdress",
+      "Source": "Earthcaller Halmgar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "6689": {
+      "Name": "Wind Spirit Staff",
+      "Source": "Earthcaller Halmgar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "6690": {
+      "Name": "Ferine Leggings",
+      "Source": "Agathelos the Raging",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "6691": {
+      "Name": "Swinetusk Shank",
+      "Source": "Agathelos the Raging",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "6692": {
+      "Name": "Pronged Reaver",
+      "Source": "Charlga Razorflank",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "6693": {
+      "Name": "Agamaggan's Clutch",
+      "Source": "Charlga Razorflank",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "6694": {
+      "Name": "Heart of Agamaggan",
+      "Source": "Charlga Razorflank",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "6695": {
+      "Name": "Stygian Bone Amulet",
+      "Source": "Blind Hunter (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "6696": {
+      "Name": "Nightstalker Bow",
+      "Source": "Blind Hunter (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "6697": {
+      "Name": "Batwing Mantle",
+      "Source": "Blind Hunter (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "6841": {
+      "Name": "Vial of Phlogiston",
+      "Source": "Roogug",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
     "7230": {
       "Name": "Smite's Mighty Hammer",
       "Source": "Mr. Smite",
@@ -574,6 +694,14 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ragefire Chasm",
+      "SourceFaction": "B"
+    },
+    "17008": {
+      "Name": "Small Scroll",
+      "Source": "Charlga Razorflank",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
       "SourceFaction": "B"
     }
   }

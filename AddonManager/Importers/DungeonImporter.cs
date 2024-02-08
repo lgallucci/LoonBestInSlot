@@ -7,16 +7,18 @@ namespace AddonManager.Importers;
 
 public class DungeonImporter : LootImporter
 {
-    private Dictionary<string, string> dungeonUriList = new Dictionary<string, string>
+    private Dictionary<string, (string, string)> dungeonUriList = new Dictionary<string, (string, string)>
         {
-            { @"https://www.wowhead.com/classic/guide/ragefire-chasm-dungeon-strategy-wow-classic", "Ragefire Chasm"},
-            { @"https://www.wowhead.com/classic/guide/wailing-caverns-dungeon-strategy-wow-classic", "Wailing Caverns"},
-            { @"https://www.wowhead.com/classic/guide/deadmines-dungeon-strategy-wow-classic", "Deadmines" },
-            { @"https://www.wowhead.com/classic/guide/shadowfang-keep-dungeon-strategy-wow-classic", "Shadowfang Keep" },
-            { @"https://www.wowhead.com/classic/guide/the-stockade-dungeon-strategy-wow-classic", "The Stockade" },
-            { @"https://www.wowhead.com/classic/guide/razorfen-kraul-dungeon-strategy-wow-classic", "Razorfen Kraul" },
-            { @"https://www.wowhead.com/classic/guide/scarlet-monastery-dungeon-strategy-wow-classic", "Scarlet Monastery" },
-            { @"https://www.wowhead.com/classic/guide/razorfen-downs-dungeon-strategy-wow-classic", "Razerfen Downs" }
+            { @"https://www.wowhead.com/classic/guide/ragefire-chasm-dungeon-strategy-wow-classic", ("Ragefire Chasm", "h2#bosses") },
+            { @"https://www.wowhead.com/classic/guide/wailing-caverns-dungeon-strategy-wow-classic", ("Wailing Caverns", "h2#bosses") },
+            { @"https://www.wowhead.com/classic/guide/deadmines-dungeon-strategy-wow-classic", ("Deadmines", "h2#bosses") },
+            { @"https://www.wowhead.com/classic/guide/shadowfang-keep-dungeon-strategy-wow-classic", ("Shadowfang Keep", "h2#bosses") },
+            { @"https://www.wowhead.com/classic/guide/the-stockade-dungeon-strategy-wow-classic", ("The Stockade", "h2#bosses") },
+            { @"https://www.wowhead.com/classic/guide/razorfen-kraul-dungeon-strategy-wow-classic", ("Razorfen Kraul", "h2#razorfel-kraul-bosses")  },
+            { @"https://www.wowhead.com/classic/guide/scarlet-monastery-dungeon-strategy-wow-classic", ("Scarlet Monastery", "h2#scarlet-monastery-graveyard-bosses") },
+            { @"https://www.wowhead.com/classic/guide/razorfen-downs-dungeon-strategy-wow-classic", ("Razerfen Downs", "h2#razorfen-downs-bosses") },
+            { @"https://www.wowhead.com/classic/guide/uldaman-dungeon-strategy-wow-classic", ("Uldaman", "h2#uldaman-bosses")},
+            { @"https://www.wowhead.com/classic/guide/zulfarrak-dungeon-strategy-wow-classic", ("Zul'Farrak", "h2#zulfarrak-bosses")}
         };
 
     internal override string FileName { get => "DungeonItemList"; }
@@ -26,10 +28,10 @@ public class DungeonImporter : LootImporter
 
         await Common.LoadFromWebPages(dungeonUriList.Keys.ToList(), (uri, doc) =>
         {
-            var bossesElement = doc.QuerySelector("h2#bosses");
+            var bossesElement = doc.QuerySelector(dungeonUriList[uri].Item2);
 
             LoopThroughBosses(bossesElement, (bossName, be) => {
-                AddLootItems(be, dungeonUriList[uri], bossName, items);
+                AddLootItems(be, dungeonUriList[uri].Item1, bossName, items);
             });
         }, writeToLog);
         return items;
@@ -82,25 +84,30 @@ public class DungeonImporter : LootImporter
                 {
                     var anchor = RecursivelyFindFirstAnchor(lootElement as IElement);
 
-                    var item = anchor.PathName.Replace("/classic", "").Replace("/item=", "");
-
-                    var itemIdIndex = item.IndexOf("/");
-                    if (itemIdIndex == -1)
-                        itemIdIndex = item.IndexOf("&");
-
-                    int itemId = -999;
-                    item = item.Substring(0, itemIdIndex);
-                    int.TryParse(item, out itemId);
-                    var name = anchor.TextContent.Trim();
-
-                    items.AddItem(itemId, new DatabaseItem 
+                    if (anchor != null)
                     {
-                        Name = name,
-                        Source = bossName,
-                        SourceType = "Drop",
-                        SourceNumber = "0",
-                        SourceLocation = dungeonName
-                    });
+                        var item = anchor.PathName.Replace("/classic", "").Replace("/item=", "");
+
+                        var itemIdIndex = item.IndexOf("/");
+                        if (itemIdIndex == -1)
+                            itemIdIndex = item.IndexOf("&");
+
+                        int itemId = -999;
+                        item = item.Substring(0, itemIdIndex);
+                        int.TryParse(item, out itemId);
+                        var name = anchor.TextContent.Trim();
+
+                        items.AddItem(itemId, new DatabaseItem 
+                        {
+                            Name = name,
+                            Source = bossName,
+                            SourceType = "Drop",
+                            SourceNumber = "0",
+                            SourceLocation = dungeonName
+                        });
+                    } else {
+                        Console.WriteLine($"anchor is null for {bossName}");
+                    }
                 }
             }
             else
