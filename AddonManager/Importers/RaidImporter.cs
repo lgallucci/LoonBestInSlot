@@ -1,7 +1,5 @@
 ﻿using AddonManager.Models;
-using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
-using AngleSharp.Html.Parser;
 
 namespace AddonManager.Importers;
 
@@ -10,6 +8,7 @@ public class RaidImporter : LootImporter
     private Dictionary<string, string> raidUriList = new Dictionary<string, string>
     {
         { @"https://www.wowhead.com/classic/guide/season-of-discovery/blackfathom-deeps-level-up-raid-loot", "Blackfathom Deeps" },
+        { @"https://www.wowhead.com/classic/guide/season-of-discovery/gnomeregan-level-up-raid-loot", "Gnomeregan" },
     };
 
     private List<string> excludedWords = new List<string>()

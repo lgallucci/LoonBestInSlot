@@ -39,6 +39,10 @@ end
 
 local function selectItem(button)
 
+    if button == nil then
+        return
+    end
+
     button:UnlockHighlight()
     local found = false;
     --TODO Check all items, not just items for that slot. (fucking double slot weapons :()
