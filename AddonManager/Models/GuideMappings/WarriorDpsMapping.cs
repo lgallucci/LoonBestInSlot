@@ -14,7 +14,7 @@ internal class WarriorDpsMapping : SpecMapping
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#duel-wield") },
+            { ("Main Hand", "#dual-wield") },
             { ("Two Hand", "h3#two-hand") },
             { ("Ranged/Relic", "h3#ranged") },
         };
