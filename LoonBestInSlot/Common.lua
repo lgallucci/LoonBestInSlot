@@ -1,4 +1,4 @@
-LBIS.ReCacheDate = time({year=2022, month=12, day=22, hour=22})
+LBIS.ReCacheDate = time({year=2024, month=2, day=15, hour=0})
 
 -- local itemIds = {
 --     { 1, 24283 }, -- Defaults
