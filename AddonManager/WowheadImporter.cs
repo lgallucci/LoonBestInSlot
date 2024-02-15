@@ -235,6 +235,38 @@ public static class WowheadImporter
         ItemSourceFileManager.WriteEnchantSources(enchantSources);
     }
 
+    public static void ImportNewItems()
+    {
+        var itemSources = ItemSourceFileManager.ReadItemSources();
+        var csvLootTable = new Dictionary<int, CsvLootTable>();
+
+        GetItems(csvLootTable, "DungeonItemList");
+        GetItems(csvLootTable, "RaidItemList");
+        GetItems(csvLootTable, "EmblemItemList");
+        GetItems(csvLootTable, "PvPItemList");
+        GetItems(csvLootTable, "ReputationItemList");
+        GetItems(csvLootTable, "ProfessionItemList");
+        
+        foreach (var csvItem in csvLootTable)
+        {
+            if (!itemSources.ContainsKey(csvItem.Key))
+            {
+                itemSources.Add(csvItem.Key, new ItemSource
+                {                    
+                    ItemId = csvItem.Value.ItemId,
+                    Name = csvItem.Value.Name,
+                    SourceType = string.Join("..\"/\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceType)).Distinct()),
+                    Source = string.Join("..\"/\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.Source))),
+                    SourceNumber = string.Join("/", csvItem.Value.ItemSource.Select(s => s.SourceNumber)),
+                    SourceLocation = string.Join("..\"/\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceLocation))),
+                    SourceFaction = string.Join("..\"/\"..", csvItem.Value.ItemSource.First().SourceFaction)
+                });
+            }
+        }
+
+        ItemSourceFileManager.WriteItemSources(itemSources);
+    }
+
     public static void RefreshItems()
     {
         var itemSources = ItemSourceFileManager.ReadItemSources();
@@ -245,7 +277,7 @@ public static class WowheadImporter
         GetItems(csvLootTable, "EmblemItemList");
         GetItems(csvLootTable, "PvPItemList");
         GetItems(csvLootTable, "ReputationItemList");
-        UpdateProfessionItems(csvLootTable);
+        GetItems(csvLootTable, "ProfessionItemList");
 
         var tokenKeys = UpdateTierPieces(csvLootTable, itemSources);
 
@@ -355,59 +387,6 @@ public static class WowheadImporter
         
         ItemSourceFileManager.WriteItemSources(itemSources);
     }    
-
-    private static void UpdateProfessionItems(Dictionary<int, CsvLootTable> csvLootTable)
-    {
-        DatabaseItems dbItem;
-        var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\ProfessionItemList.json");
-        dbItem = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
-
-        foreach (var item in dbItem.Items)
-        {
-            var ids = item.Value.SourceNumber.Split(",");
-            var itemId = Int32.Parse(ids[0]);
-            int spellId = 0;
-            if (ids.Length > 1)
-                spellId = Int32.Parse(ids[1]);
-            if (itemId > 0)
-            {
-                var itemName = item.Value.Name.Split(":")[1].Trim();
-                csvLootTable.Add(itemId, new CsvLootTable
-                {
-                    ItemId = itemId,
-                    Name = itemName,
-                    ItemSource =
-                    {
-                        new ImportItemSource
-                        {
-                            SourceType = "Profession",
-                            Source = item.Value.Source,
-                            SourceNumber = item.Key.ToString(),
-                            SourceLocation = spellId.ToString(),
-                            SourceFaction = item.Value.SourceFaction
-                        }
-                    }
-                });
-
-                csvLootTable.Add(item.Key, new CsvLootTable
-                {
-                    ItemId = item.Key,
-                    Name = item.Value.Name,
-                    ItemSource =
-                    {
-                        new ImportItemSource
-                        {
-                            SourceType = "Profession",
-                            Source = item.Value.Source,
-                            SourceNumber = "0",
-                            SourceLocation = item.Value.SourceLocation,
-                            SourceFaction = item.Value.SourceFaction
-                        }
-                    }
-                });
-            }
-        }
-    }
 
     private static string AddLocalizeText(string source)
     {

@@ -27,7 +27,7 @@ public static class Common
                 System.Diagnostics.Debug.WriteLine($"Starting WebPage ({pageAddress})...");
                 using (var page = await browser.NewPageAsync())
                 {
-                    page.DefaultTimeout = 15000; // or you can set this as 0
+                    page.DefaultTimeout = 30000; // or you can set this as 0
                     await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
                     var content = await page.GetContentAsync();
 

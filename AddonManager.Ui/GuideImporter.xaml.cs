@@ -155,6 +155,8 @@ public sealed partial class GuideImporter : Page
     private async Task RefreshAllItemSources(int phaseNumber)
     {
         _importCancelToken = new CancellationTokenSource();
+        
+        WowheadImporter.ImportNewItems();
 
         await WowheadImporter.UpdateItemsFromWowhead(_importCancelToken.Token, (s) => { ConsoleOut.Text = s + Environment.NewLine + ConsoleOut.Text; });
 

@@ -1,5 +1,18 @@
 LBIS.ReCacheDate = time({year=2022, month=12, day=22, hour=22})
 
+-- local itemIds = {
+--     { 1, 24283 }, -- Defaults
+--     { 122270 }, -- WoW Token (AH)
+--     { 122284 }, -- WoW Token
+--     { 172070 }, -- Customer Service Package
+--     { 180089 }, -- Panda Collar
+--     { 184937, 184938 }, -- Chronoboon Displacers
+--     { 189419, 189421 }, -- Fire Resist Gear
+--     { 189426, 189427 }, -- Raid Consumables
+--     -- Season of Discovery
+--      { 190179, 217704 }
+-- }
+
 function LBIS:PreCacheItems()
     if LBIS.AllItemsCached then return LBIS.AllItemsCached; end
 
@@ -41,6 +54,17 @@ function LBIS:PreCacheItems()
             LBIS:CacheItem(itemId);
         end
     end
+
+    -- for _, range in ipairs(itemIds) do
+    --     local lowId, highId = range[1], range[2] or range[1]
+
+    --     for itemId = lowId, highId do
+    --         if C_Item.DoesItemExistByID(itemId) then
+    --             LBIS:CacheItem(itemId);
+    --         end
+    --     end
+    -- end
+
     return LBIS.AllItemsCached;
 end
 
