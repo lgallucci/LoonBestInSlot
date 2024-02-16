@@ -51,7 +51,7 @@ public static class WowheadImporter
             if (!_allowedSlots.Contains(item.Slot))
                 throw new VerificationException($"Item ({item.Name}) created with slot ({item.Slot})");
 
-            foreach (var bisSlashSplit in item.BisStatus.Split("/"))
+            foreach (var bisSlashSplit in item.BisStatus.Split("|"))
             {
                 var firstWord = true;
                 foreach (var bisWord in bisSlashSplit.Split(" "))
@@ -252,11 +252,11 @@ public static class WowheadImporter
                 {                    
                     ItemId = csvItem.Value.ItemId,
                     Name = csvItem.Value.Name,
-                    SourceType = string.Join("..\"/\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceType)).Distinct()),
-                    Source = string.Join("..\"/\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.Source))),
-                    SourceNumber = string.Join("/", csvItem.Value.ItemSource.Select(s => s.SourceNumber)),
-                    SourceLocation = string.Join("..\"/\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceLocation))),
-                    SourceFaction = string.Join("..\"/\"..", csvItem.Value.ItemSource.First().SourceFaction)
+                    SourceType = string.Join("..\"|\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceType)).Distinct()),
+                    Source = string.Join("..\"|\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.Source))),
+                    SourceNumber = string.Join("|", csvItem.Value.ItemSource.Select(s => s.SourceNumber)),
+                    SourceLocation = string.Join("..\"|\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceLocation))),
+                    SourceFaction = string.Join("..\"|\"..", csvItem.Value.ItemSource.First().SourceFaction)
                 });
             }
         }
@@ -300,17 +300,17 @@ public static class WowheadImporter
                 if (csvItem.IsLegacy)
                 {
                     itemSource.Value.SourceType = "LBIS.L[\"Legacy\"]";
-                    itemSource.Value.Source = "\"\""; //string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.Source)));
-                    itemSource.Value.SourceNumber = ""; //string.Join("/", csvItem.ItemSource.Select(s => s.SourceNumber));
-                    itemSource.Value.SourceLocation = "\"\""; //string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
+                    itemSource.Value.Source = "\"\""; //string.Join("..\"|\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.Source)));
+                    itemSource.Value.SourceNumber = ""; //string.Join("|", csvItem.ItemSource.Select(s => s.SourceNumber));
+                    itemSource.Value.SourceLocation = "\"\""; //string.Join("..\"|\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
                 }
                 else
                 {
-                    itemSource.Value.SourceType = string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceType)).Distinct());
-                    itemSource.Value.Source = string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.Source)));
-                    itemSource.Value.SourceNumber = string.Join("/", csvItem.ItemSource.Select(s => s.SourceNumber));
-                    itemSource.Value.SourceLocation = string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
-                    itemSource.Value.SourceFaction = string.Join("..\"/\"..", csvItem.ItemSource.First().SourceFaction);
+                    itemSource.Value.SourceType = string.Join("..\"|\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceType)).Distinct());
+                    itemSource.Value.Source = string.Join("..\"|\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.Source)));
+                    itemSource.Value.SourceNumber = string.Join("|", csvItem.ItemSource.Select(s => s.SourceNumber));
+                    itemSource.Value.SourceLocation = string.Join("..\"|\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
+                    itemSource.Value.SourceFaction = string.Join("..\"|\"..", csvItem.ItemSource.First().SourceFaction);
 
                     if (tokenKeys.Contains(itemSource.Key) && itemSource.Key != 47242)
                     {
@@ -415,7 +415,7 @@ public static class WowheadImporter
             foreach (var split in stringSplit)
             {
                 if (first != true)
-                    sb.Append("..\"/\"..");
+                    sb.Append("..\"|\"..");
 
                 sb.Append($"LBIS.L[\"{split.Trim()}\"]");
 
@@ -497,9 +497,9 @@ public static class WowheadImporter
     {
         foreach (var item in dbItem.Items)
         {
-            var sourceSplit = item.Value.Source.Split("/");
-            var sourceNumberSplit = item.Value.SourceNumber.Split("/");
-            var sourceLocationSplit = item.Value.SourceLocation.Split("/");
+            var sourceSplit = item.Value.Source.Split("|");
+            var sourceNumberSplit = item.Value.SourceNumber.Split("|");
+            var sourceLocationSplit = item.Value.SourceLocation.Split("|");
 
             for (int i = 0; i < sourceSplit.Length; i++)
             {
