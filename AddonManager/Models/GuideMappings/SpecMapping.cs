@@ -29,8 +29,8 @@ internal abstract class SpecMapping
         var list = new List<ClassGuideMapping>
         {
             // new ClassGuideMapping(UrlBase + Phase0Url, Spec, Class, "Phase0", Phase0),
-            new ClassGuideMapping(UrlBase + Phase1Url, Spec, Class, "Phase1", Phase1),
-            // new ClassGuideMapping(UrlBase + Phase2Url, Spec, Class, "Phase2", Phase2),
+            //new ClassGuideMapping(UrlBase + Phase1Url, Spec, Class, "Phase1", Phase1),
+            new ClassGuideMapping(UrlBase + Phase2Url, Spec, Class, "Phase2", Phase2),
             // new ClassGuideMapping(UrlBase + Phase3Url, Spec, Class, "Phase3", Phase3),
             // new ClassGuideMapping(UrlBase + Phase4Url, Spec, Class, "Phase4", Phase4),
             // new ClassGuideMapping(UrlBase + Phase5Url, Spec, Class, "Phase5", Phase5)

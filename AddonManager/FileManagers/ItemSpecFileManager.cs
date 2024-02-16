@@ -12,9 +12,10 @@ public static class ItemSpecFileManager
         var itemSB = new StringBuilder();
 
         itemSB.AppendLine($"local spec1 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"1\")");
+        itemSB.AppendLine($"local spec2 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"2\")");
 
         foreach (var phaseEnchants in enchantsList)
-        {   
+        {
             itemSB.AppendLine();
             var enchants = phaseEnchants.Value;
 

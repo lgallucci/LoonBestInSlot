@@ -22,9 +22,13 @@ internal class HunterDpsMapping : SpecMapping
             { ("Ranged/Relic", "h3#ranged") },
         };
 
-    public override string Phase2Url => "dps-bis-gear-pve-phase-2";
+    public override string Phase2Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
         {
+            { ("Main Hand", "h3#main-hand") },
+            { ("Off Hand", "h3#off-hand") },
+            { ("Two Hand", "h3#two-handed") },
+            { ("Ranged/Relic", "h3#ranged") },
         };
 
     public override string Phase3Url => "dps-bis-gear-pve-phase-3";

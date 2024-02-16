@@ -20,9 +20,12 @@ internal class WarriorTankMapping : SpecMapping
             { ("Ranged/Relic", "h3#ranged") },
         };
 
-    public override string Phase2Url => "tank-bis-gear-pve-phase-2";
+    public override string Phase2Url => "tank-NOPE";//"tank-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
         {
+            { ("Main Hand", "h3#main-hand") },
+            { ("Off Hand", "#shield") },
+            { ("Ranged/Relic", "h3#ranged") },
         };
 
     public override string Phase3Url => "tank-bis-gear-pve-phase-3";
