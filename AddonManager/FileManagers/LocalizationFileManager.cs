@@ -86,7 +86,7 @@ public static class LocalizationFileManager
 
                     string[] localizeSplit;
                     if (slashSplit)
-                        localizeSplit = localizeTerm.Split('/');
+                        localizeSplit = localizeTerm.Split('|');
                     else
                         localizeSplit = localizeTerm.Split('&');
 

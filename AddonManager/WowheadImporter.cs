@@ -410,7 +410,7 @@ public static class WowheadImporter
         }
         else
         {
-            var stringSplit = source.Split('/');
+            var stringSplit = source.Split('|');
             var first = true;
             foreach (var split in stringSplit)
             {
