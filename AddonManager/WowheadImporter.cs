@@ -138,17 +138,14 @@ public static class WowheadImporter
             {
                 var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
 
-                if (phaseNumber == 0)
-                    itemsAndEnchants = new WowheadGuideParser().ParsePreRaidWowheadGuide(className, guide, doc);
-                else
-                    itemsAndEnchants = new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc);
-
+                itemsAndEnchants = new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc);
 
                 WriteEnchantsInternal(itemsAndEnchants.Item2, logFunc);
 
                 WriteItemsInternal(itemsAndEnchants.Item1, logFunc);
-
-                guide.Item1[phaseNumber] = itemsAndEnchants.Item2.Values.ToList();
+                
+                guide.Item1.Clear();
+                guide.Item1.AddRange(itemsAndEnchants.Item2.Values.ToList());
                 guide.Item2[phaseNumber] = itemsAndEnchants.Item1.Values.ToList();
 
                 ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuideMapping.ClassName, classGuideMapping.SpecName,

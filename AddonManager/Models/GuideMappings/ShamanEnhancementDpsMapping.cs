@@ -19,7 +19,7 @@ internal class ShamanEnhancementDpsMapping : SpecMapping
             { ("Ranged/Relic", "#relics") },
         };
 
-    public override string Phase2Url => "enh-NOPE";//"dps-bis-gear-pve";
+    public override string Phase2Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "h3#main-hand") },

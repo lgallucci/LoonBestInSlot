@@ -22,7 +22,7 @@ internal class WarlockTankMapping : SpecMapping
             { ("Ranged/Relic", "#wands") },
         };
 
-    public override string Phase2Url => "tank-NOPE"; //"tank-bis-gear-pve";
+    public override string Phase2Url => "tank-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
         {
             { ("Wrist", "#wrists") },

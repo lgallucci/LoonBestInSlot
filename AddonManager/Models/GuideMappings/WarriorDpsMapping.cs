@@ -19,7 +19,7 @@ internal class WarriorDpsMapping : SpecMapping
             { ("Ranged/Relic", "h3#ranged") },
         };
 
-    public override string Phase2Url => "dps-NOPE";//"dps-bis-gear-pve";
+    public override string Phase2Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "#dual-wield") },

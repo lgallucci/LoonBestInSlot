@@ -22,7 +22,7 @@ internal class WarlockDpsMapping : SpecMapping
             { ("Ranged/Relic", "#wands") },
         };
 
-    public override string Phase2Url => "dps-NOPE";//"dps-bis-gear-pve";
+    public override string Phase2Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
         {
             { ("Wrist", "#wrists") },
