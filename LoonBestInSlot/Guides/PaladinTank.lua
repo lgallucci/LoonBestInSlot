@@ -76,3 +76,70 @@ LBIS:AddItem(spec1, "209562", LBIS.L["Two Hand"], "BIS") --Deadly Strike of the 
 LBIS:AddItem(spec1, "204807", LBIS.L["Two Hand"], "Alt") --Fathomblade
 LBIS:AddItem(spec1, "6953", LBIS.L["Two Hand"], "Alt") --Verigan's Fist
 LBIS:AddItem(spec1, "209574", LBIS.L["Ranged/Relic"], "BIS") --Discarded Tenets of the Silver Hand
+
+LBIS:AddItem(spec2, "215161", LBIS.L["Head"], "BIS Mit") --Tempered Interference-Negating Helmet
+LBIS:AddItem(spec2, "10763", LBIS.L["Head"], "Alt") --Icemetal Barbute
+LBIS:AddItem(spec2, "7719", LBIS.L["Head"], "Alt") --Raging Berserker's Helm
+LBIS:AddItem(spec2, "14944", LBIS.L["Head"], "Alt") --Warbringer's Crown
+LBIS:AddItem(spec2, "20640", LBIS.L["Head"], "Alt") --Southsea Head Bucket
+LBIS:AddItem(spec2, "213305", LBIS.L["Shoulder"], "BIS") --Machined Alloy Shoulderplates
+LBIS:AddItem(spec2, "8144", LBIS.L["Shoulder"], "Alt") --Chromite Pauldrons
+LBIS:AddItem(spec2, "14909", LBIS.L["Shoulder"], "Alt") --Brutish Shoulders
+LBIS:AddItem(spec2, "7718", LBIS.L["Shoulder"], "Alt") --Herod's Shoulder
+LBIS:AddItem(spec2, "213307", LBIS.L["Back"], "BIS") --Drape of Dismantling
+LBIS:AddItem(spec2, "15382", LBIS.L["Back"], "Alt") --Rageclaw Cloak
+LBIS:AddItem(spec2, "217293", LBIS.L["Back"], "Alt") --Silky Spider Cape
+LBIS:AddItem(spec2, "213316", LBIS.L["Chest"], "BIS") --H.A.Z.A.R.D. Breastplate
+LBIS:AddItem(spec2, "10775", LBIS.L["Chest"], "Alt") --Carapace of Tuten'kash
+LBIS:AddItem(spec2, "19581", LBIS.L["Wrist"], "BIS") --Berserker Bracers
+LBIS:AddItem(spec2, "14956", LBIS.L["Wrist"], "Alt") --Bloodforged Bindings
+LBIS:AddItem(spec2, "216701", LBIS.L["Wrist"], "Alt") --Sergeant Major's Plate Wristguards
+LBIS:AddItem(spec2, "9432", LBIS.L["Wrist"], "Alt") --Skullplate Bracers
+LBIS:AddItem(spec2, "213418", LBIS.L["Wrist"], "Alt") --Welded Truesilver Ringlets
+LBIS:AddItem(spec2, "13071", LBIS.L["Hands"], "BIS") --Plated Fist of Hakoo
+LBIS:AddItem(spec2, "9410", LBIS.L["Hands"], "Alt") --Cragfists
+LBIS:AddItem(spec2, "14905", LBIS.L["Hands"], "Alt") --Brutish Gauntlets
+LBIS:AddItem(spec2, "213288", LBIS.L["Hands"], "Alt") --Grubbis Grubby Gauntlets
+LBIS:AddItem(spec2, "215380", LBIS.L["Waist"], "BIS") --Power-Assisted Lifting Belt
+LBIS:AddItem(spec2, "10768", LBIS.L["Waist"], "Alt") --Boar Champion's Belt
+LBIS:AddItem(spec2, "213327", LBIS.L["Waist"], "Alt") --Belt of the Trogg Berserker
+LBIS:AddItem(spec2, "20125", LBIS.L["Waist"], "Alt") --Highlander's Plate Girdle
+LBIS:AddItem(spec2, "8140", LBIS.L["Waist"], "Alt") --Chromite Girdle
+LBIS:AddItem(spec2, "10088", LBIS.L["Waist"], "Alt") --Gothic Plate Girdle
+LBIS:AddItem(spec2, "213330", LBIS.L["Legs"], "BIS") --H.A.Z.A.R.D. Legplates
+LBIS:AddItem(spec2, "10330", LBIS.L["Legs"], "Alt") --Scarlet Leggings
+LBIS:AddItem(spec2, "213335", LBIS.L["Feet"], "BIS") --H.A.Z.A.R.D. Boots
+LBIS:AddItem(spec2, "20110", LBIS.L["Feet"], "Alt") --Highlander's Lamellar Greaves
+LBIS:AddItem(spec2, "13068", LBIS.L["Feet"], "Alt") --Obsidian Greaves
+LBIS:AddItem(spec2, "217306", LBIS.L["Feet"], "Alt") --Revelosh's Boots
+LBIS:AddItem(spec2, "14839", LBIS.L["Feet"], "Alt") --Tyrant's Greaves
+LBIS:AddItem(spec2, "213344", LBIS.L["Neck"], "BIS") --Gnomeregan Peace Officer's Torque
+LBIS:AddItem(spec2, "213343", LBIS.L["Neck"], "BIS") --Justice Badge
+LBIS:AddItem(spec2, "13088", LBIS.L["Neck"], "Alt") --Gazlowe's Charm
+LBIS:AddItem(spec2, "19540", LBIS.L["Neck"], "Alt") --Sentinel's Medallion
+LBIS:AddItem(spec2, "213284", LBIS.L["Ring"], "BIS") --Hypercharged Gear of Devastation
+LBIS:AddItem(spec2, "19515", LBIS.L["Ring"], "BIS") --Protector's Band
+LBIS:AddItem(spec2, "216673", LBIS.L["Ring"], "Alt") --Talvash's Brilliant Gold Ring
+LBIS:AddItem(spec2, "13095", LBIS.L["Ring"], "Alt") --Assault Band
+LBIS:AddItem(spec2, "209565", LBIS.L["Ring"], "Alt") --Band of Deep Places
+LBIS:AddItem(spec2, "2262", LBIS.L["Ring"], "Alt") --Mark of Kern
+LBIS:AddItem(spec2, "213350", LBIS.L["Trinket"], "BIS Stam") --Wirdal's Hardened Core
+LBIS:AddItem(spec2, "216505", LBIS.L["Trinket"], "Alt") --Bloodlight Crusader's Radiance
+LBIS:AddItem(spec2, "213348", LBIS.L["Trinket"], "Alt") --Gyromatic Experiment 420b
+LBIS:AddItem(spec2, "21567", LBIS.L["Trinket"], "Alt Stam") --Rune of Duty
+LBIS:AddItem(spec2, "21568", LBIS.L["Trinket"], "Alt") --Rune of Duty
+LBIS:AddItem(spec2, "213286", LBIS.L["Main Hand"], "BIS") --Electrocutioner's Needle
+LBIS:AddItem(spec2, "209560", LBIS.L["Main Hand"], "Alt") --Hammer of Righteous Judgement
+LBIS:AddItem(spec2, "864", LBIS.L["Main Hand"], "Alt") --Knightly Longsword
+LBIS:AddItem(spec2, "213390", LBIS.L["Off Hand"], "BIS") --Whirling Truesilver Gearwall
+LBIS:AddItem(spec2, "7726", LBIS.L["Off Hand"], "Alt") --Aegis of the Scarlet Commander
+LBIS:AddItem(spec2, "213351", LBIS.L["Off Hand"], "Alt") --Irradiated Tower Shield
+LBIS:AddItem(spec2, "1204", LBIS.L["Off Hand"], "Alt") --The Green Tower
+LBIS:AddItem(spec2, "10767", LBIS.L["Off Hand"], "Alt") --Savage Boar's Guard
+LBIS:AddItem(spec2, "210741", LBIS.L["Two Hand"], "BIS") --Automatic Crowd Pummeler
+LBIS:AddItem(spec2, "9425", LBIS.L["Two Hand"], "BIS") --Pendulum of Doom
+LBIS:AddItem(spec2, "213416", LBIS.L["Two Hand"], "Alt") --Thermaplugg's Rocket Cleaver
+LBIS:AddItem(spec2, "216506", LBIS.L["Two Hand"], "Alt") --Bloodlight Avenger's Edge
+LBIS:AddItem(spec2, "6830", LBIS.L["Two Hand"], "Alt") --Bonebiter
+LBIS:AddItem(spec2, "215435", LBIS.L["Ranged/Relic"], "BIS") --Libram of Benediction
+LBIS:AddItem(spec2, "209574", LBIS.L["Ranged/Relic"], "Alt") --Discarded Tenets of the Silver Hand
