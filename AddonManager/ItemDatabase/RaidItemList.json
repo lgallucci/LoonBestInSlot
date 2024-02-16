@@ -1,5 +1,13 @@
 {
   "Items": {
+    "13325": {
+      "Name": "Fluorescent Green Mechanostrider",
+      "Source": "Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
     "204804": {
       "Name": "Hydraxian Bangles",
       "Source": "Baron Aquanis",
@@ -608,13 +616,21 @@
       "SourceLocation": "Blackfathom Deeps",
       "SourceFaction": "B"
     },
+    "210741": {
+      "Name": "Automatic Crowd Pummeler",
+      "Source": "Crowd Pummeler 9-60",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
     "211449": {
       "Name": "Avenger's Void Pearl",
       "Source": "The Heart of the Void",
       "SourceType": "Quest",
       "SourceNumber": "0",
       "SourceLocation": "Blackfathom Deeps",
-      "SourceFaction": "H"
+      "SourceFaction": "B"
     },
     "211450": {
       "Name": "Invoker's Void Pearl",
@@ -622,7 +638,7 @@
       "SourceType": "Quest",
       "SourceNumber": "0",
       "SourceLocation": "Blackfathom Deeps",
-      "SourceFaction": "H"
+      "SourceFaction": "B"
     },
     "211451": {
       "Name": "Acolyte's Void Pearl",
@@ -630,7 +646,7 @@
       "SourceType": "Quest",
       "SourceNumber": "0",
       "SourceLocation": "Blackfathom Deeps",
-      "SourceFaction": "H"
+      "SourceFaction": "B"
     },
     "211455": {
       "Name": "Slick Fingerless Gloves",
@@ -670,7 +686,7 @@
       "SourceType": "Quest",
       "SourceNumber": "0",
       "SourceLocation": "Blackfathom Deeps",
-      "SourceFaction": "H"
+      "SourceFaction": "B"
     },
     "211461": {
       "Name": "Inscribed Gravestone Scepter",
@@ -678,7 +694,7 @@
       "SourceType": "Quest",
       "SourceNumber": "0",
       "SourceLocation": "Blackfathom Deeps",
-      "SourceFaction": "H"
+      "SourceFaction": "B"
     },
     "211462": {
       "Name": "Ever-Sustaining Ring",
@@ -855,6 +871,854 @@
       "SourceNumber": "0",
       "SourceLocation": "Blackfathom Deeps",
       "SourceFaction": "B"
+    },
+    "213282": {
+      "Name": "Hypercharged Gear of Innovation",
+      "Source": "Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213283": {
+      "Name": "Hypercharged Gear of Conflagration",
+      "Source": "Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213284": {
+      "Name": "Hypercharged Gear of Devastation",
+      "Source": "Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213285": {
+      "Name": "Lev's Oil-Stained Bindings",
+      "Source": "Viscous Fallout",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213286": {
+      "Name": "Electrocutioner's Needle",
+      "Source": "Electrocutioner 6000",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213287": {
+      "Name": "Electrocutioner Hexnut",
+      "Source": "Electrocutioner 6000",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213288": {
+      "Name": "Grubbis Grubby Gauntlets",
+      "Source": "Grubbis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213289": {
+      "Name": "Hydrostaff",
+      "Source": "Viscous Fallout",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213290": {
+      "Name": "Acidic Waders",
+      "Source": "Viscous Fallout",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213291": {
+      "Name": "Toxic Revenger II",
+      "Source": "Viscous Fallout",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213292": {
+      "Name": "Gizmotron Gigachopper",
+      "Source": "Crowd Pummeler 9-60",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213293": {
+      "Name": "Hi-tech Supergun Mk.VII",
+      "Source": "Electrocutioner 6000",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213294": {
+      "Name": "Caverndeep Sabatons",
+      "Source": "Grubbis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213295": {
+      "Name": "Ultrasonic Vibroblade",
+      "Source": "Crowd Pummeler 9-60",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213296": {
+      "Name": "Supercharged Headchopper",
+      "Source": "STX-04/BD",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213297": {
+      "Name": "Oscillating Blasthammer",
+      "Source": "STX-04/BD",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213298": {
+      "Name": "Mechbuilder's Overalls",
+      "Source": "Electrocutioner 6000",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213299": {
+      "Name": "Petrolspill Pants",
+      "Source": "Viscous Fallout",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213300": {
+      "Name": "Fighter Ace Gloves",
+      "Source": "Electrocutioner 6000",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213301": {
+      "Name": "Synthetic Mantle",
+      "Source": "Viscous Fallout",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213302": {
+      "Name": "Mantle of the Cunning Negotiator",
+      "Source": "Viscous Fallout",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213303": {
+      "Name": "Lightning Rod Spaulders",
+      "Source": "STX-04/BD",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213304": {
+      "Name": "Troggslayer Pauldrons",
+      "Source": "Grubbis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213305": {
+      "Name": "Machined Alloy Shoulderplates",
+      "Source": "Crowd Pummeler 9-60",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213306": {
+      "Name": "Ingenuity's Cover",
+      "Source": "STX-04/BD",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213307": {
+      "Name": "Drape of Dismantling",
+      "Source": "Viscous Fallout",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213308": {
+      "Name": "Prototype Parachute Cloak",
+      "Source": "STX-04/BD",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213309": {
+      "Name": "Cloak of Invention",
+      "Source": "Electrocutioner 6000",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213310": {
+      "Name": "Hyperconductive Shimmershirt",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213311": {
+      "Name": "Hyperconductive Robe",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213312": {
+      "Name": "Insulated Apron",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213313": {
+      "Name": "Insulated Chestguard",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213314": {
+      "Name": "Electromantic Chainmail",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213315": {
+      "Name": "Electromantic Chainshirt",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213316": {
+      "Name": "H.A.Z.A.R.D. Breastplate",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213317": {
+      "Name": "Experimental Aim Stabilizers",
+      "Source": "Crowd Pummeler 9-60",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213318": {
+      "Name": "Ornate Dark Iron Bangles",
+      "Source": "STX-04/BD",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213319": {
+      "Name": "Machinist's Gloves",
+      "Source": "Electrocutioner 6000",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213320": {
+      "Name": "Fingers of Arcane Accuracy",
+      "Source": "STX-04/BD",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213321": {
+      "Name": "Volatile Concoction Belt",
+      "Source": "Grubbis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213322": {
+      "Name": "Skullduggery Waistband",
+      "Source": "Grubbis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213323": {
+      "Name": "Cord of Deep Earth",
+      "Source": "Grubbis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213324": {
+      "Name": "Electromagnetic Waistcord",
+      "Source": "Grubbis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213325": {
+      "Name": "Darkvision Girdle",
+      "Source": "STX-04/BD",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213326": {
+      "Name": "Girdle of Reclamation",
+      "Source": "Grubbis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213327": {
+      "Name": "Belt of the Trogg Berserker",
+      "Source": "Grubbis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213328": {
+      "Name": "Hyperconductive Pantaloons",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213329": {
+      "Name": "Hyperconductive Skirt",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213330": {
+      "Name": "H.A.Z.A.R.D. Legplates",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213331": {
+      "Name": "Insulated Leggings",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213332": {
+      "Name": "Insulated Legguards",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213333": {
+      "Name": "Electromantic Chausses",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213334": {
+      "Name": "Electromantic Gambeson",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213335": {
+      "Name": "H.A.Z.A.R.D. Boots",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213336": {
+      "Name": "Hyperconductive Walkers",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213337": {
+      "Name": "Hyperconductive Sandals",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213338": {
+      "Name": "Electromantic Grounding Boots",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213339": {
+      "Name": "Electromantic Grounding Sabatons",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213340": {
+      "Name": "Gnomebot Operators Boots",
+      "Source": "Crowd Pummeler 9-60",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213341": {
+      "Name": "Insulated Workboots",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213342": {
+      "Name": "Insulated Galoshes",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213343": {
+      "Name": "Justice Badge",
+      "Source": "The Mad King",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213344": {
+      "Name": "Gnomeregan Peace Officer's Torque",
+      "Source": "The Mad King",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213345": {
+      "Name": "Piston Pendant",
+      "Source": "The Mad King",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213346": {
+      "Name": "Pendant of Homecoming",
+      "Source": "The Mad King",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213347": {
+      "Name": "Miniaturized Combustion Chamber",
+      "Source": "Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213348": {
+      "Name": "Gyromatic Experiment 420b",
+      "Source": "Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213349": {
+      "Name": "Gniodine Pill Bottle",
+      "Source": "Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213350": {
+      "Name": "Wirdal's Hardened Core",
+      "Source": "Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213352": {
+      "Name": "Gear-Mender's Grace",
+      "Source": "Viscous Fallout",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213353": {
+      "Name": "Defibrillating Staff",
+      "Source": "Viscous Fallout",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213354": {
+      "Name": "Staff of the Evil Genius",
+      "Source": "Electrocutioner 6000",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213355": {
+      "Name": "Falco's Sting",
+      "Source": "Viscous Fallout",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213356": {
+      "Name": "Thermaplugg's Custom Blaster",
+      "Source": "Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213408": {
+      "Name": "Gyromatic Macro-Adjustor",
+      "Source": "Crowd Pummeler 9-60",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213409": {
+      "Name": "Mekkatorque's Arcano-Shredder",
+      "Source": "Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213410": {
+      "Name": "Glimmering Gizmoblade",
+      "Source": "STX-04/BD",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213411": {
+      "Name": "Izzleflick's Inextinguishable Igniter",
+      "Source": "STX-04/BD",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213413": {
+      "Name": "Generously Padded Shoulderpads",
+      "Source": "Viscous Fallout",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213414": {
+      "Name": "Mech-Mender's Sash",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213415": {
+      "Name": "Tinker's Wrist Wraps",
+      "Source": "Crowd Pummeler 9-60",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213416": {
+      "Name": "Thermaplugg's Rocket Cleaver",
+      "Source": "Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213418": {
+      "Name": "Welded Truesilver Ringlets",
+      "Source": "Electrocutioner 6000",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213419": {
+      "Name": "9-60 Repair Manual",
+      "Source": "Crowd Pummeler 9-60",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213442": {
+      "Name": "Cogmaster's Claw",
+      "Source": "Crowd Pummeler 9-60",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213542": {
+      "Name": "The Necro-Gnomicon",
+      "Source": "Grubbis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213559": {
+      "Name": "Mechanostrider Gear Shifter",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "213560": {
+      "Name": "Mechanostrider Muffler",
+      "Source": "Electrocutioner 6000",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "215377": {
+      "Name": "Irradiated Robe",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "215378": {
+      "Name": "Irradiated Boots",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "215379": {
+      "Name": "Irradiated Trousers",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "215380": {
+      "Name": "Power-Assisted Lifting Belt",
+      "Source": "STX-04/BD",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "215437": {
+      "Name": "Trogg Transfigurator 3000",
+      "Source": "Grubbis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "215461": {
+      "Name": "Domesticated Attack Chicken",
+      "Source": "Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "216484": {
+      "Name": "Shockforged Battleboots",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "216485": {
+      "Name": "Shockforged Breastplate",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "216486": {
+      "Name": "Shockforged Legplates",
+      "Source": "Electrocutioner 6000 & STX-04/BD & Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "216608": {
+      "Name": "Radiant Ray Reflectors",
+      "Source": "Mekgineer Thermaplugg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "216673": {
+      "Name": "Talvash's Brilliant Gold Ring",
+      "Source": "Gnome Improvement",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "A"
+    },
+    "216674": {
+      "Name": "Nogg's Brilliant Gold Ring",
+      "Source": "Nogg's Ring Redo",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "H"
+    },
+    "216675": {
+      "Name": "Pristine Civinad Robes",
+      "Source": "Rig Wars & The Grand Betrayal",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "216676": {
+      "Name": "Nimble Triprunner Dungarees",
+      "Source": "Rig Wars & The Grand Betrayal",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "216678": {
+      "Name": "Triple Reinforced Leggings",
+      "Source": "Rig Wars & The Grand Betrayal",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "216679": {
+      "Name": "Shoni's Dismantling Tool",
+      "Source": "Gyrodrillmatic Excavationators",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "A"
+    },
+    "216680": {
+      "Name": "Shilly Mittens",
+      "Source": "Gyrodrillmatic Excavationators",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "A"
+    },
+    "217005": {
+      "Name": "Repairman's Cape",
+      "Source": "Data Rescue",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Gnomeregan",
+      "SourceFaction": "A"
     }
   }
 }

@@ -39,6 +39,12 @@ public class DatabaseItems
                 else
                     if (!Items[itemId].Source.Contains(converted.Source))
                         Items[itemId].Source += $" & {converted.Source}";
+                        
+                if (Items[itemId].SourceFaction == "H" && converted.SourceFaction == "A" || 
+                    Items[itemId].SourceFaction == "A" && converted.SourceFaction == "H")
+                {
+                    Items[itemId].SourceFaction = "B";
+                }
             }
             else
             {

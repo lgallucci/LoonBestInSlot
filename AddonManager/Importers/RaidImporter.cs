@@ -1,4 +1,5 @@
 ﻿using AddonManager.Models;
+using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
 
 namespace AddonManager.Importers;
@@ -85,12 +86,22 @@ public class RaidImporter : LootImporter
 
         var isBoss = false;
         var firstRow = false;
+        var bossCell = 0;
         foreach (var row in table.Rows)
         {
             if (!firstRow)
             {
+                if (row.Cells.Length == 4)
+                {
+                    bossCell = 3;;
+                } else 
+                {
+                    bossCell = 2;
+                }
+
                 firstRow = true;
-                if (row.Cells[2].TextContent.Trim() == "Boss")
+                if (row.Cells[bossCell].TextContent.Trim() == "Boss" ||
+                    row.Cells[bossCell].TextContent.Trim() == "Source")
                     isBoss = true;
                 continue;
             }
@@ -99,13 +110,13 @@ public class RaidImporter : LootImporter
             {
                 var (itemId, itemName) = GetItemFromTableRow(row);
 
-                bossFunc(itemId, itemName, row.Cells[2].TextContent);
+                bossFunc(itemId, itemName, GetBossNames(row.Cells[bossCell]));
             } 
             else
             {
                 var (itemId, itemName) = GetItemFromTableRow(row);
                 
-                Common.RecursiveBoxSearch(row.Cells[2], (anchor) => 
+                Common.RecursiveBoxSearch(row.Cells[bossCell], (anchor) => 
                 {
                     var faction = "B";
                     if(anchor.Children[1].ClassName.Contains("icon-horde")) {
@@ -118,5 +129,26 @@ public class RaidImporter : LootImporter
                 });
             }
         }
+    }
+
+    private string GetBossNames(IHtmlTableCellElement htmlTableCellElement)
+    {
+        var bossNames = string.Empty;
+
+        if (htmlTableCellElement.Children.Length > 0)
+        {
+            var newLineSplit = htmlTableCellElement.Children;
+
+            foreach(var bossName in newLineSplit)
+            {
+                if (!string.IsNullOrWhiteSpace(bossName.TextContent))
+                    bossNames += $" {bossName.TextContent} &";
+            }
+        }
+        else 
+        {
+            bossNames = htmlTableCellElement.TextContent;
+        }
+        return bossNames.TrimEnd('&').Trim();
     }
 }

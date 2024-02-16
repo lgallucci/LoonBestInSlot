@@ -1,5 +1,196 @@
 {
-    "Items": {
-      
+  "Items": {
+    "213310": {
+      "Name": "Hyperconductive Shimmershirt",
+      "Source": "Power Depleted Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "217008",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213311": {
+      "Name": "Hyperconductive Robe",
+      "Source": "Power Depleted Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "217008",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213312": {
+      "Name": "Insulated Apron",
+      "Source": "Power Depleted Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "217008",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213313": {
+      "Name": "Insulated Chestguard",
+      "Source": "Power Depleted Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "217008",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213314": {
+      "Name": "Electromantic Chainmail",
+      "Source": "Power Depleted Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "217008",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213315": {
+      "Name": "Electromantic Chainshirt",
+      "Source": "Power Depleted Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "217008",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213316": {
+      "Name": "H.A.Z.A.R.D. Breastplate",
+      "Source": "Power Depleted Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "217008",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213328": {
+      "Name": "Hyperconductive Pantaloons",
+      "Source": "Power Depleted Legs",
+      "SourceType": "TierToken",
+      "SourceNumber": "217009",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213329": {
+      "Name": "Hyperconductive Skirt",
+      "Source": "Power Depleted Legs",
+      "SourceType": "TierToken",
+      "SourceNumber": "217009",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213330": {
+      "Name": "H.A.Z.A.R.D. Legplates",
+      "Source": "Power Depleted Legs",
+      "SourceType": "TierToken",
+      "SourceNumber": "217009",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213331": {
+      "Name": "Insulated Leggings",
+      "Source": "Power Depleted Legs",
+      "SourceType": "TierToken",
+      "SourceNumber": "217009",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213332": {
+      "Name": "Insulated Legguards",
+      "Source": "Power Depleted Legs",
+      "SourceType": "TierToken",
+      "SourceNumber": "217009",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213333": {
+      "Name": "Electromantic Chausses",
+      "Source": "Power Depleted Legs",
+      "SourceType": "TierToken",
+      "SourceNumber": "217009",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213334": {
+      "Name": "Electromantic Gambeson",
+      "Source": "Power Depleted Legs",
+      "SourceType": "TierToken",
+      "SourceNumber": "217009",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213335": {
+      "Name": "H.A.Z.A.R.D. Boots",
+      "Source": "Power Depleted Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "217007",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213336": {
+      "Name": "Hyperconductive Walkers",
+      "Source": "Power Depleted Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "217007",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213337": {
+      "Name": "Hyperconductive Sandals",
+      "Source": "Power Depleted Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "217007",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213338": {
+      "Name": "Electromantic Grounding Boots",
+      "Source": "Power Depleted Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "217007",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213339": {
+      "Name": "Electromantic Grounding Sabatons",
+      "Source": "Power Depleted Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "217007",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213341": {
+      "Name": "Insulated Workboots",
+      "Source": "Power Depleted Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "217007",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "213342": {
+      "Name": "Insulated Galoshes",
+      "Source": "Power Depleted Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "217007",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "216484": {
+      "Name": "Shockforged Battleboots",
+      "Source": "Power Depleted Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "217007",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "216485": {
+      "Name": "Shockforged Breastplate",
+      "Source": "Power Depleted Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "217008",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "216486": {
+      "Name": "Shockforged Legplates",
+      "Source": "Power Depleted Legs",
+      "SourceType": "TierToken",
+      "SourceNumber": "217009",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
     }
+  }
 }

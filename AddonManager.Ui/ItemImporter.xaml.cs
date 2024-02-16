@@ -18,8 +18,8 @@ public sealed partial class ItemImporter : Page
 {
     public string[] ImporterList = { 
         //"EmblemImporter", 
-        "ProfessionImporter", "DungeonImporter", "RaidImporter", "PvPImporter", 
-        //"ReputationImporter", "TierSetImporter" 
+        "ProfessionImporter", "DungeonImporter", "RaidImporter", "PvPImporter", "TierSetImporter"
+        //"ReputationImporter",  
         };
 
     public ItemImporter()

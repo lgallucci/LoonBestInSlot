@@ -9,7 +9,9 @@ public class TierSetImporter : LootImporter
 {
     private List<string> armorTokenUris = new List<string>
     {
-        //@"https://www.wowhead.com/classic/item=40618/helm-of-the-lost-vanquisher#currency-for",
+        @"https://www.wowhead.com/classic/item=217008/power-depleted-chest#currency-for",
+        @"https://www.wowhead.com/classic/item=217009/power-depleted-legs#currency-for",
+        @"https://www.wowhead.com/classic/item=217007/power-depleted-boots#currency-for"
     };
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToText)

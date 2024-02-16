@@ -13,7 +13,6 @@ namespace AddonManager;
 
 public class WowheadGuideParser
 {
-
     private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of Nature Protection",
                                                             "of the Tiger", "of Agility", "of the Squire" };
 
@@ -22,7 +21,10 @@ public class WowheadGuideParser
     private Dictionary<int, int> _enchantSwaps = new Dictionary<int, int>()
     {
         { 4265, 2833 }, //Heavy Armor Kit
-        { 6042, 7221}, //Iron Shield Spike
+        { 8173, 10344 }, //Thick Armor Kit
+        { 15564, 19057 }, //Rugged Armor Kit
+        { 6042, 7221 }, //Iron Shield Spike
+        { 6043, 7222 }, //Iron Counterweight
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()
