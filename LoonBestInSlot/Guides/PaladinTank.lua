@@ -115,9 +115,9 @@ LBIS:AddItem(spec2, "216701", LBIS.L["Wrist"], "Alt") --Sergeant Major's Plate W
 LBIS:AddItem(spec2, "9432", LBIS.L["Wrist"], "Alt") --Skullplate Bracers
 LBIS:AddItem(spec2, "213418", LBIS.L["Wrist"], "Alt") --Welded Truesilver Ringlets
 LBIS:AddItem(spec2, "13071", LBIS.L["Hands"], "BIS") --Plated Fist of Hakoo
+LBIS:AddItem(spec2, "213288", LBIS.L["Hands"], "Alt") --Grubbis Grubby Gauntlets
 LBIS:AddItem(spec2, "9410", LBIS.L["Hands"], "Alt") --Cragfists
 LBIS:AddItem(spec2, "14905", LBIS.L["Hands"], "Alt") --Brutish Gauntlets
-LBIS:AddItem(spec2, "213288", LBIS.L["Hands"], "Alt") --Grubbis Grubby Gauntlets
 LBIS:AddItem(spec2, "215380", LBIS.L["Waist"], "BIS") --Power-Assisted Lifting Belt
 LBIS:AddItem(spec2, "10768", LBIS.L["Waist"], "Alt") --Boar Champion's Belt
 LBIS:AddItem(spec2, "213327", LBIS.L["Waist"], "Alt") --Belt of the Trogg Berserker

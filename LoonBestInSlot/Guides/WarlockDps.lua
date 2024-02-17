@@ -193,7 +193,6 @@ LBIS:AddItem(spec2, "1974", LBIS.L["Wrist"], "Alt") --Mindthrust Bracers
 LBIS:AddItem(spec2, "10019", LBIS.L["Hands"], "BIS") --Dreamweave Gloves
 LBIS:AddItem(spec2, "14262", LBIS.L["Hands"], "Alt") --Bloodwoven Mitts
 LBIS:AddItem(spec2, "7064", LBIS.L["Hands"], "Alt") --Crimson Silk Gloves
-LBIS:AddItem(spec2, "10011", LBIS.L["Hands"], "Alt") --Stormcloth Gloves
 LBIS:AddItem(spec2, "10018", LBIS.L["Hands"], "Alt") --Red Mageweave Gloves
 LBIS:AddItem(spec2, "10003", LBIS.L["Hands"], "Alt") --Black Mageweave Gloves
 LBIS:AddItem(spec2, "213300", LBIS.L["Hands"], "Alt") --Fighter Ace Gloves
@@ -226,8 +225,8 @@ LBIS:AddItem(spec2, "210795", LBIS.L["Feet"], "Alt") --Extraplanar Spidersilk Bo
 LBIS:AddItem(spec2, "213290", LBIS.L["Feet"], "Alt") --Acidic Waders
 LBIS:AddItem(spec2, "213336", LBIS.L["Feet"], "Alt") --Hyperconductive Walkers
 LBIS:AddItem(spec2, "20641", LBIS.L["Feet"], "Alt") --Southsea Mojo Boots
-LBIS:AddItem(spec2, "20095", LBIS.L["Feet"], "Alt") --Highlander's Cloth Boots
 LBIS:AddItem(spec2, "20161", LBIS.L["Feet"], "Alt") --Defiler's Cloth Boots
+LBIS:AddItem(spec2, "20095", LBIS.L["Feet"], "Alt") --Highlander's Cloth Boots
 LBIS:AddItem(spec2, "9454", LBIS.L["Feet"], "Alt") --Acidic Walkers
 LBIS:AddItem(spec2, "217253", LBIS.L["Feet"], "Alt") --Boots of the Enchanter
 LBIS:AddItem(spec2, "213345", LBIS.L["Neck"], "BIS") --Piston Pendant

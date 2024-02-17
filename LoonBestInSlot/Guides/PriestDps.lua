@@ -123,6 +123,7 @@ LBIS:AddItem(spec2, "2620", LBIS.L["Head"], "Alt") --Augural Shroud
 LBIS:AddItem(spec2, "217294", LBIS.L["Head"], "Alt") --Embalmed Shroud
 LBIS:AddItem(spec2, "209683", LBIS.L["Head"], "Alt") --Twilight Invoker's Shawl
 LBIS:AddItem(spec2, "213301", LBIS.L["Shoulder"], "Alt") --Synthetic Mantle
+LBIS:AddItem(spec2, "19507", LBIS.L["Shoulder"], "Alt") --Inquisitor's Shawl
 LBIS:AddItem(spec2, "217250", LBIS.L["Shoulder"], "Alt") --Crimson Silk Shoulders
 LBIS:AddItem(spec2, "215365", LBIS.L["Shoulder"], "Alt") --Invoker's Mantle
 LBIS:AddItem(spec2, "216620", LBIS.L["Back"], "Alt") --Bloodrot Cloak
