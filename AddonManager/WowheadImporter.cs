@@ -419,7 +419,7 @@ public static class WowheadImporter
         ItemSourceFileManager.WriteItemSources(itemSources);
     }
 
-    private static List<string> _dungeons = new List<string>() {"ragefire chasm", "deadmines", "wailing caverns", 
+    private static List<string> _dungeons = new List<string>() {"ragefire chasm", "the deadmines", "wailing caverns", 
                                                                 "shadowfang keep", "the stockade", "razorfen kraul", 
                                                                 "scarlet monastery", "razorfen downs", "uldaman", 
                                                                 "zul'farrak"};

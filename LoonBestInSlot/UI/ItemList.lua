@@ -375,7 +375,7 @@ local function createItemRow(f, specItem, specItemSource)
     end);
 
     -- even if we are reusing, it may not be in the same order
-    local _, count = string.gsub(specItemSource.Source, "", "")
+    local _, count = string.gsub(specItemSource.Source, "~", "")
     if count > 1 then
         count = count - 1;
     else 

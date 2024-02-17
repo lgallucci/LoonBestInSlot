@@ -7,7 +7,7 @@ LBIS:AddEnchant(spec2, "13661", LBIS.L["Wrist"]) --Enchant Bracer - Strength
 LBIS:AddEnchant(spec2, "13815", LBIS.L["Hands"]) --Enchant Gloves - Agility
 LBIS:AddEnchant(spec2, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
 LBIS:AddEnchant(spec2, "435481", LBIS.L["Main Hand"]) --Enchant Weapon - Dismantle
-LBIS:AddEnchant(spec2, "7967", LBIS.L["Off Hand"]) --Mithril Shield Spike
+LBIS:AddEnchant(spec2, "9939", LBIS.L["Off Hand"]) --Mithril Shield Spike
 
 LBIS:AddItem(spec1, "211505", LBIS.L["Head"], "BIS") --Twilight Avenger's Helm
 LBIS:AddItem(spec1, "209690", LBIS.L["Head"], "BIS Mit") --Shadowscale Coif

@@ -26,6 +26,7 @@ public class WowheadGuideParser
         { 6042, 7221 }, //Iron Shield Spike
         { 6043, 7222 }, //Iron Counterweight
         { 7967, 9939 }, //Mithril Shield Spike
+        { 6041, 7224}, //Steel Weapon Chain
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()
@@ -503,6 +504,16 @@ public class WowheadGuideParser
 
                         if (Regex.Match(nextSibling.TextContent.Trim(), "Recommended.*Enchant").Success)
                             foundEnchantText = true;
+                        else if (Regex.Match(nextSibling.TextContent.Trim(), ".*Enchants:").Success)
+                        {
+                            foreach(var enchantChild in nextSibling.ChildNodes)
+                            {
+                                if (enchantChild is IHtmlAnchorElement)
+                                {
+                                    foundEnchant(enchantChild as IHtmlAnchorElement, guideMapping.Key);
+                                }
+                            }
+                        }
 
                         nextSibling = nextSibling?.NextSibling;
                         elementCounter++;

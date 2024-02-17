@@ -1,6 +1,23 @@
 local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "1")
 local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "2")
 
+LBIS:AddEnchant(spec2, "13746", LBIS.L["Back"]) --Enchant Cloak - Greater Defense
+LBIS:AddEnchant(spec2, "435903", LBIS.L["Chest"]) --Enchant Chest - Retricutioner
+LBIS:AddEnchant(spec2, "13700", LBIS.L["Chest"]) --Enchant Chest - Lesser Stats
+LBIS:AddEnchant(spec2, "13661", LBIS.L["Wrist"]) --Enchant Bracer - Strength
+LBIS:AddEnchant(spec2, "13648", LBIS.L["Wrist"]) --Enchant Bracer - Stamina
+LBIS:AddEnchant(spec2, "2833", LBIS.L["Hands"]) --Heavy Armor Kit
+LBIS:AddEnchant(spec2, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
+LBIS:AddEnchant(spec2, "13836", LBIS.L["Feet"]) --Enchant Boots - Stamina
+LBIS:AddEnchant(spec2, "435481", LBIS.L["Main Hand"]) --Enchant Weapon - Dismantle
+LBIS:AddEnchant(spec2, "13693", LBIS.L["Main Hand"]) --Enchant Weapon - Striking
+LBIS:AddEnchant(spec2, "7224", LBIS.L["Main Hand"]) --Steel Weapon Chain
+LBIS:AddEnchant(spec2, "9939", LBIS.L["Off Hand"]) --Mithril Shield Spike
+LBIS:AddEnchant(spec2, "13689", LBIS.L["Off Hand"]) --Enchant Shield - Lesser Block
+LBIS:AddEnchant(spec2, "13817", LBIS.L["Off Hand"]) --Enchant Shield - Stamina
+LBIS:AddEnchant(spec2, "435481", LBIS.L["Two Hand"]) --Enchant Weapon - Dismantle
+LBIS:AddEnchant(spec2, "20031", LBIS.L["Two Hand"]) --Enchant Weapon - Superior Striking
+LBIS:AddEnchant(spec2, "7224", LBIS.L["Two Hand"]) --Steel Weapon Chain
 
 LBIS:AddItem(spec1, "209690", LBIS.L["Head"], "BIS") --Shadowscale Coif
 LBIS:AddItem(spec1, "211843", LBIS.L["Head"], "Alt") --Mask of Scorn
