@@ -1272,6 +1272,14 @@
       "SourceLocation": "Unknown Rank",
       "SourceFaction": "A"
     },
+    "20068": {
+      "Name": "Deathguard's Cloak",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
     "20069": {
       "Name": "Ironbark Staff",
       "Source": "PvP Vendor",
@@ -1295,6 +1303,14 @@
       "SourceNumber": "",
       "SourceLocation": "Unknown Rank",
       "SourceFaction": "A"
+    },
+    "20072": {
+      "Name": "Defiler's Talisman",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
     },
     "20073": {
       "Name": "Cloak of the Honor Guard",
@@ -1591,6 +1607,374 @@
       "SourceNumber": "",
       "SourceLocation": "Unknown Rank",
       "SourceFaction": "A"
+    },
+    "20150": {
+      "Name": "Defiler's Chain Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20151": {
+      "Name": "Defiler's Chain Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20152": {
+      "Name": "Defiler's Chain Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20153": {
+      "Name": "Defiler's Chain Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20154": {
+      "Name": "Defiler's Chain Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20155": {
+      "Name": "Defiler's Chain Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20156": {
+      "Name": "Defiler's Chain Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20157": {
+      "Name": "Defiler's Chain Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20158": {
+      "Name": "Defiler's Chain Pauldrons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20159": {
+      "Name": "Defiler's Cloth Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20160": {
+      "Name": "Defiler's Cloth Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20161": {
+      "Name": "Defiler's Cloth Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20162": {
+      "Name": "Defiler's Cloth Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20163": {
+      "Name": "Defiler's Cloth Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20164": {
+      "Name": "Defiler's Cloth Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20165": {
+      "Name": "Defiler's Cloth Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20166": {
+      "Name": "Defiler's Cloth Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20167": {
+      "Name": "Defiler's Lizardhide Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20168": {
+      "Name": "Defiler's Lizardhide Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20169": {
+      "Name": "Defiler's Lizardhide Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20170": {
+      "Name": "Defiler's Lizardhide Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20171": {
+      "Name": "Defiler's Lizardhide Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20172": {
+      "Name": "Defiler's Lizardhide Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20173": {
+      "Name": "Defiler's Lizardhide Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20174": {
+      "Name": "Defiler's Lizardhide Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20175": {
+      "Name": "Defiler's Lizardhide Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20176": {
+      "Name": "Defiler's Epaulets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20186": {
+      "Name": "Defiler's Leather Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20187": {
+      "Name": "Defiler's Leather Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20188": {
+      "Name": "Defiler's Leather Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20189": {
+      "Name": "Defiler's Leather Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20190": {
+      "Name": "Defiler's Leather Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20191": {
+      "Name": "Defiler's Leather Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20192": {
+      "Name": "Defiler's Leather Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20193": {
+      "Name": "Defiler's Leather Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20194": {
+      "Name": "Defiler's Leather Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20195": {
+      "Name": "Defiler's Mail Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20196": {
+      "Name": "Defiler's Mail Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20197": {
+      "Name": "Defiler's Mail Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20198": {
+      "Name": "Defiler's Mail Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20199": {
+      "Name": "Defiler's Mail Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20200": {
+      "Name": "Defiler's Mail Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20201": {
+      "Name": "Defiler's Mail Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20202": {
+      "Name": "Defiler's Mail Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20203": {
+      "Name": "Defiler's Mail Pauldrons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
+    },
+    "20204": {
+      "Name": "Defiler's Plate Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Unknown Rank",
+      "SourceFaction": "H"
     },
     "20205": {
       "Name": "Defiler's Plate Girdle",
