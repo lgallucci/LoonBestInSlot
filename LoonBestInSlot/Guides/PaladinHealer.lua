@@ -1,12 +1,13 @@
 local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Healer"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Healer"], "2")
 
-LBIS:AddEnchant(spec1, "13522", LBIS.L["Back"]) --Enchant Cloak - Lesser Shadow Resistance
-LBIS:AddEnchant(spec1, "13607", LBIS.L["Chest"]) --Enchant Chest - Mana
-LBIS:AddEnchant(spec1, "13622", LBIS.L["Wrist"]) --Enchant Bracer - Lesser Intellect
-LBIS:AddEnchant(spec1, "2833", LBIS.L["Hands"]) --Heavy Armor Kit
-LBIS:AddEnchant(spec1, "7863", LBIS.L["Feet"]) --Enchant Boots - Minor Stamina
-LBIS:AddEnchant(spec1, "13503", LBIS.L["Main Hand"]) --Enchant Weapon - Lesser Striking
-LBIS:AddEnchant(spec1, "13378", LBIS.L["Off Hand"]) --Enchant Shield - Minor Stamina
+LBIS:AddEnchant(spec2, "13746", LBIS.L["Back"]) --Enchant Cloak - Greater Defense
+LBIS:AddEnchant(spec2, "13663", LBIS.L["Chest"]) --Enchant Chest - Greater Mana
+LBIS:AddEnchant(spec2, "13822", LBIS.L["Wrist"]) --Enchant Bracer - Intellect
+LBIS:AddEnchant(spec2, "19057", LBIS.L["Hands"]) --Rugged Armor Kit
+LBIS:AddEnchant(spec2, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
+LBIS:AddEnchant(spec2, "13503", LBIS.L["Main Hand"]) --Enchant Weapon - Lesser Striking
+LBIS:AddEnchant(spec2, "13378", LBIS.L["Off Hand"]) --Enchant Shield - Minor Stamina
 
 LBIS:AddItem(spec1, "211507", LBIS.L["Head"], "BIS") --Twilight Elementalist's Cowl
 LBIS:AddItem(spec1, "211842", LBIS.L["Head"], "Alt") --Rakkamar's Tattered Thinking Cap
@@ -50,3 +51,46 @@ LBIS:AddItem(spec1, "5611", LBIS.L["Off Hand"], "Alt") --Tear of Grief
 LBIS:AddItem(spec1, "4838", LBIS.L["Off Hand"], "Alt") --Orb of Power
 LBIS:AddItem(spec1, "6953", LBIS.L["Two Hand"], "BIS") --Verigan's Fist
 LBIS:AddItem(spec1, "209574", LBIS.L["Ranged/Relic"], "BIS") --Discarded Tenets of the Silver Hand
+
+LBIS:AddItem(spec2, "215167", LBIS.L["Head"], "BIS") --Reflective Truesilver Braincage
+LBIS:AddItem(spec2, "215114", LBIS.L["Head"], "BIS") --Glowing Hyperconductive Scale Coif
+LBIS:AddItem(spec2, "215111", LBIS.L["Head"], "BIS") --Gneuro-Linked Arcano-Filament Monocle
+LBIS:AddItem(spec2, "9431", LBIS.L["Head"], "BIS") --Papal Fez
+LBIS:AddItem(spec2, "2721", LBIS.L["Head"], "Alt") --Holy Shroud
+LBIS:AddItem(spec2, "217300", LBIS.L["Head"], "Alt") --Whitemane's Chapeau
+LBIS:AddItem(spec2, "213301", LBIS.L["Shoulder"], "BIS") --Synthetic Mantle
+LBIS:AddItem(spec2, "213413", LBIS.L["Shoulder"], "Alt") --Generously Padded Shoulderpads
+LBIS:AddItem(spec2, "19507", LBIS.L["Shoulder"], "Alt") --Inquisitor's Shawl
+LBIS:AddItem(spec2, "213309", LBIS.L["Back"], "BIS") --Cloak of Invention
+LBIS:AddItem(spec2, "216623", LBIS.L["Back"], "BIS") --Cape of Hemostasis
+LBIS:AddItem(spec2, "19532", LBIS.L["Back"], "Alt") --Caretaker's Cape
+LBIS:AddItem(spec2, "216485", LBIS.L["Chest"], "BIS") --Shockforged Breastplate
+LBIS:AddItem(spec2, "217289", LBIS.L["Chest"], "Alt") --Deathchill Armor
+LBIS:AddItem(spec2, "213415", LBIS.L["Wrist"], "BIS") --Tinker's Wrist Wraps
+LBIS:AddItem(spec2, "19597", LBIS.L["Wrist"], "Alt") --Dryad's Wrist Bindings
+LBIS:AddItem(spec2, "211455", LBIS.L["Hands"], "BIS") --Slick Fingerless Gloves
+LBIS:AddItem(spec2, "10019", LBIS.L["Hands"], "Alt") --Dreamweave Gloves
+LBIS:AddItem(spec2, "213414", LBIS.L["Waist"], "BIS") --Mech-Mender's Sash
+LBIS:AddItem(spec2, "213326", LBIS.L["Waist"], "Alt") --Girdle of Reclamation
+LBIS:AddItem(spec2, "217292", LBIS.L["Waist"], "Alt") --Deathmage Sash
+LBIS:AddItem(spec2, "216486", LBIS.L["Legs"], "BIS") --Shockforged Legplates
+LBIS:AddItem(spec2, "217303", LBIS.L["Legs"], "Alt") --Stoneweaver Leggings
+LBIS:AddItem(spec2, "216484", LBIS.L["Feet"], "BIS") --Shockforged Battleboots
+LBIS:AddItem(spec2, "20641", LBIS.L["Feet"], "Alt") --Southsea Mojo Boots
+LBIS:AddItem(spec2, "213346", LBIS.L["Neck"], "BIS") --Pendant of Homecoming
+LBIS:AddItem(spec2, "217301", LBIS.L["Neck"], "Alt") --Triune Amulet
+LBIS:AddItem(spec2, "213282", LBIS.L["Ring"], "BIS") --Hypercharged Gear of Innovation
+LBIS:AddItem(spec2, "19524", LBIS.L["Ring"], "BIS") --Lorekeeper's Ring
+LBIS:AddItem(spec2, "213287", LBIS.L["Ring"], "Alt") --Electrocutioner Hexnut
+LBIS:AddItem(spec2, "19525", LBIS.L["Ring"], "Alt") --Lorekeeper's Ring
+LBIS:AddItem(spec2, "211451", LBIS.L["Trinket"], "BIS") --Acolyte's Void Pearl
+LBIS:AddItem(spec2, "213347", LBIS.L["Trinket"], "BIS") --Miniaturized Combustion Chamber
+LBIS:AddItem(spec2, "2820", LBIS.L["Trinket"], "Alt") --Nifty Stopwatch
+LBIS:AddItem(spec2, "18864", LBIS.L["Trinket"], "Alt") --Insignia of the Alliance
+LBIS:AddItem(spec2, "213352", LBIS.L["Main Hand"], "BIS") --Gear-Mender's Grace
+LBIS:AddItem(spec2, "7721", LBIS.L["Main Hand"], "Alt") --Hand of Righteousness
+LBIS:AddItem(spec2, "213412", LBIS.L["Off Hand"], "BIS") --Dielectric Safety Shield
+LBIS:AddItem(spec2, "213419", LBIS.L["Off Hand"], "Alt") --9-60 Repair Manual
+LBIS:AddItem(spec2, "9393", LBIS.L["Off Hand"], "Alt") --Beacon of Hope
+LBIS:AddItem(spec2, "2943", LBIS.L["Off Hand"], "Alt") --Eye of Paleth
+LBIS:AddItem(spec2, "209574", LBIS.L["Ranged/Relic"], "BIS") --Discarded Tenets of the Silver Hand

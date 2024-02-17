@@ -4,7 +4,7 @@ local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Healer"], "2")
 LBIS:AddEnchant(spec2, "13794", LBIS.L["Back"]) --Enchant Cloak - Resistance
 LBIS:AddEnchant(spec2, "13700", LBIS.L["Chest"]) --Enchant Chest - Lesser Stats
 LBIS:AddEnchant(spec2, "13822", LBIS.L["Wrist"]) --Enchant Bracer - Intellect
-LBIS:AddEnchant(spec2, "8173", LBIS.L["Hands"]) --Thick Armor Kit
+LBIS:AddEnchant(spec2, "10344", LBIS.L["Hands"]) --Thick Armor Kit
 LBIS:AddEnchant(spec2, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
 LBIS:AddEnchant(spec2, "435481", LBIS.L["Main Hand"]) --Enchant Weapon - Dismantle
 LBIS:AddEnchant(spec2, "7793", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Lesser Intellect

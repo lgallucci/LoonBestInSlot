@@ -55,9 +55,9 @@ local function printSource(itemId, specItemSource, dl)
     local sourceNumberText = specItemSource.SourceNumber;
     local sourceLocationText = specItemSource.SourceLocation;
 
-    local sourceText1, sourceText2, sourceText3 = strsplit("|", sourceText);
-    local sourceNumberText1, sourceNumberText2, sourceNumberText3 = strsplit("|", sourceNumberText);
-    local sourceLocationText1, sourceLocationText2, sourceLocationText3 = strsplit("|", sourceLocationText);
+    local sourceText1, sourceText2, sourceText3 = strsplit("~", sourceText);
+    local sourceNumberText1, sourceNumberText2, sourceNumberText3 = strsplit("~", sourceNumberText);
+    local sourceLocationText1, sourceLocationText2, sourceLocationText3 = strsplit("~", sourceLocationText);
 
     if sourceText1 ~= nil and sourceText1 ~= "" then
 		text = sourceText1;	
@@ -150,7 +150,7 @@ local function createSourceTypeText(specItemSource)
         end
     end
 
-    local sourceType1, sourceType2 = strsplit("|", specItemSource.SourceType)    
+    local sourceType1, sourceType2 = strsplit("~", specItemSource.SourceType)    
 
     --Create Drop Text
     local dtColor = getSourceColor(sourceType1);
@@ -264,7 +264,7 @@ local function createItemRow(f, specItem, specItemSource)
     end);
 
     -- even if we are reusing, it may not be in the same order
-    local _, count = string.gsub(specItemSource.Source, "|", "")
+    local _, count = string.gsub(specItemSource.Source, "~", "")
     if count > 1 then
         count = count - 1;
     else 

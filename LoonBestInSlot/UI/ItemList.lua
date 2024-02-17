@@ -54,9 +54,9 @@ local function printSource(itemId, specItemSource, dl)
     local sourceNumberText = specItemSource.SourceNumber;
     local sourceLocationText = specItemSource.SourceLocation;
 
-    local sourceText1, sourceText2, sourceText3 = strsplit("|", sourceText);
-    local sourceNumberText1, sourceNumberText2, sourceNumberText3 = strsplit("|", sourceNumberText);
-    local sourceLocationText1, sourceLocationText2, sourceLocationText3 = strsplit("|", sourceLocationText);
+    local sourceText1, sourceText2, sourceText3 = strsplit("~", sourceText);
+    local sourceNumberText1, sourceNumberText2, sourceNumberText3 = strsplit("~", sourceNumberText);
+    local sourceLocationText1, sourceLocationText2, sourceLocationText3 = strsplit("~", sourceLocationText);
 
     local function printSourceText(sourceText, sourceNumberText, sourceLocationText, firstRow)
         if not firstRow then
@@ -277,7 +277,7 @@ local function createSourceTypeText(specItemSource)
         end
     end
 
-    local sourceType1, sourceType2 = strsplit("|", specItemSource.SourceType)    
+    local sourceType1, sourceType2 = strsplit("~", specItemSource.SourceType)    
 
     --Create Drop Text
     local dtColor = getSourceColor(sourceType1);
@@ -327,7 +327,7 @@ local function createItemRow(f, specItem, specItemSource)
         if specItem.Phase == "0" then
             pt:SetText("("..specItem.Bis..")");
         else
-            pt:SetText("("..specItem.Bis.." "..string.gsub(specItem.Phase, "0", "|")..")");
+            pt:SetText("("..specItem.Bis.." "..string.gsub(specItem.Phase, "0", "~")..")");
         end
         pt:SetPoint("TOPLEFT", t, "TOPRIGHT", 4, 0);
 

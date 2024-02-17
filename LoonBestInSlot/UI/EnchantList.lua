@@ -118,7 +118,7 @@ local function createItemRow(f, specEnchant, specEnchantSource)
     end);
                 
     -- even if we are reusing, it may not be in the same order
-    local _, count = string.gsub(specEnchantSource.Source, "|", "")
+    local _, count = string.gsub(specEnchantSource.Source, "~", "")
     if count > 1 then
         count = count - 1;
     else 

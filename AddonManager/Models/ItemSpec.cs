@@ -28,8 +28,8 @@ public int CompareTo(ItemSpec? other)
         if (other == null)
             return -1;
 
-        var slot = this.Slot.Split("|").First();
-        var otherSlot = other.Slot.Split("|").First();
+        var slot = this.Slot.Split("/").First();
+        var otherSlot = other.Slot.Split("/").First();
         if (SortOrder[slot] < SortOrder[otherSlot])
         {
             return -1;

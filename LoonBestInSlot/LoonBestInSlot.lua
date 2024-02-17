@@ -11,7 +11,7 @@ LBIS.EnchantsBySpecAndId = {};
 LBIS.SpellCache = {};
 
 LBIS.AllItemsCached = false;
-LBIS.CurrentPhase = 1;
+LBIS.CurrentPhase = 2;
 
 LBIS.EventFrame = CreateFrame("FRAME",addonName.."Events")
 

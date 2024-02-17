@@ -1,11 +1,5 @@
 local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Tank"], "1")
-
-LBIS:AddEnchant(spec1, "13522", LBIS.L["Back"]) --Enchant Cloak - Lesser Shadow Resistance
-LBIS:AddEnchant(spec1, "13626", LBIS.L["Chest"]) --Enchant Chest - Minor Stats
-LBIS:AddEnchant(spec1, "13501", LBIS.L["Wrist"]) --Enchant Bracer - Lesser Stamina
-LBIS:AddEnchant(spec1, "2833", LBIS.L["Hands"]) --Heavy Armor Kit
-LBIS:AddEnchant(spec1, "7863", LBIS.L["Feet"]) --Enchant Boots - Minor Stamina
-LBIS:AddEnchant(spec1, "7793", LBIS.L["Main Hand"]) --Enchant 2H Weapon - Lesser Intellect
+local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Tank"], "2")
 
 LBIS:AddEnchant(spec2, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
 LBIS:AddEnchant(spec2, "13700", LBIS.L["Chest"]) --Enchant Chest - Lesser Stats
@@ -96,6 +90,6 @@ LBIS:AddItem(spec2, "21565", LBIS.L["Trinket"], "BIS") --Rune of Perfection
 LBIS:AddItem(spec2, "211449", LBIS.L["Trinket"], "BIS") --Avenger's Void Pearl
 LBIS:AddItem(spec2, "4381", LBIS.L["Trinket"], "Alt") --Minor Recombobulator
 LBIS:AddItem(spec2, "210741", LBIS.L["Main Hand"], "BIS") --Automatic Crowd Pummeler
+LBIS:AddItem(spec2, "216499", LBIS.L["Main Hand"], "Alt") --Bloodbark Crusher
 LBIS:AddItem(spec2, "209577", LBIS.L["Main Hand"], "Alt") --Fist of the Wild
-LBIS:AddItem(spec2, "1976", LBIS.L["Main Hand"], "Alt") --Slaghammer
 LBIS:AddItem(spec2, "209576", LBIS.L["Ranged/Relic"], "BIS") --Mind-Expanding Mushroom

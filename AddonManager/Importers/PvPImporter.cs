@@ -7,18 +7,19 @@ namespace AddonManager.Importers;
 
 public class PvPImporter : LootImporter
 {
-    private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
+    private Dictionary<string, (string, string)> wowheadUriList = new Dictionary<string, (string, string)>
     {
-        { @"https://www.wowhead.com/classic/npc=12799/sergeant-basha#sells", "H" },
-        { @"https://www.wowhead.com/classic/npc=12805/officer-areyn#sells", "A" },
-        { @"https://www.wowhead.com/classic/npc=14754/kelm-hargunth#sells", "H"},
-        { @"https://www.wowhead.com/classic/npc=14754/kelm-hargunth#sells;50", "H"},
-        { @"https://www.wowhead.com/classic/npc=14753/illiyana-moonblaze#sells", "A"},
-        { @"https://www.wowhead.com/classic/npc=14753/illiyana-moonblaze#sells;50", "A"},
-        { @"https://www.wowhead.com/classic/npc=15127/samuel-hawke#sells", "A" },
-        { @"https://www.wowhead.com/classic/npc=15127/samuel-hawke#sells;50", "A" },
-        { @"https://www.wowhead.com/classic/npc=15126/rutherford-twing#sells", "H" },
-        { @"https://www.wowhead.com/classic/npc=15126/rutherford-twing#sells;50", "H" }
+        { @"https://www.wowhead.com/classic/npc=12799/sergeant-basha#sells", ("H", "Orgrimmar") },
+        { @"https://www.wowhead.com/classic/npc=12805/officer-areyn#sells", ("A", "Stormwind") },
+        { @"https://www.wowhead.com/classic/npc=14754/kelm-hargunth#sells", ("H", "Warsong Gulch")},
+        { @"https://www.wowhead.com/classic/npc=14754/kelm-hargunth#sells;50", ("H", "Warsong Gulch")},
+        { @"https://www.wowhead.com/classic/npc=14753/illiyana-moonblaze#sells", ("A", "Warsong Gulch")},
+        { @"https://www.wowhead.com/classic/npc=14753/illiyana-moonblaze#sells;50", ("A", "Warsong Gulch")},
+        { @"https://www.wowhead.com/classic/npc=15127/samuel-hawke#sells", ("A", "Arathi Basin") },
+        { @"https://www.wowhead.com/classic/npc=15127/samuel-hawke#sells;50", ("A", "Arathi Basin") },
+        { @"https://www.wowhead.com/classic/npc=15126/rutherford-twing#sells", ("H", "Arathi Basin") },
+        { @"https://www.wowhead.com/classic/npc=15126/rutherford-twing#sells;50", ("H", "Arathi Basin") },
+        { @"https://www.wowhead.com/classic/npc=218115/maizin", ("B", "Stranglethorn Vale") }
     };
 
     internal override string FileName { get => "PvPItemList"; }
@@ -33,7 +34,8 @@ public class PvPImporter : LootImporter
             {
                 var currencySource = "PvP Vendor";
                 var currencyNumber = "";
-                var currencySourceLocation = "Unknown Rank";
+                var currencySourceLocation = wowheadUriList[uri].Item2;
+                var faction = wowheadUriList[uri].Item1;
                 var itemName = item.TextContent;
 
                 Int32.TryParse(row.Children[3].TextContent, out int itemLevel);
@@ -44,7 +46,6 @@ public class PvPImporter : LootImporter
                 // if (!levelSplit.Any(i => itemName.Contains(i[0].Trim()) && (i.Length < 2 || Int32.Parse(i[1]) < itemLevel)))
                 //     return;
 
-                var faction = wowheadUriList[uri];
 
                 foreach(var currency in row.Children[10].Children)
                 {

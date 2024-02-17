@@ -6,7 +6,7 @@ LBIS:AddEnchant(spec2, "13700", LBIS.L["Chest"]) --Enchant Chest - Lesser Stats
 LBIS:AddEnchant(spec2, "13661", LBIS.L["Wrist"]) --Enchant Bracer - Strength
 LBIS:AddEnchant(spec2, "13887", LBIS.L["Hands"]) --Enchant Gloves - Strength
 LBIS:AddEnchant(spec2, "13637", LBIS.L["Feet"]) --Enchant Boots - Lesser Agility
-LBIS:AddEnchant(spec2, "6043", LBIS.L["Two Hand"]) --Iron Counterweight
+LBIS:AddEnchant(spec2, "7222", LBIS.L["Two Hand"]) --Iron Counterweight
 
 LBIS:AddItem(spec1, "211510", LBIS.L["Head"], "BIS") --Twilight Slayer's Cowl
 LBIS:AddItem(spec1, "211789", LBIS.L["Head"], "Alt") --Artemis Cowl
