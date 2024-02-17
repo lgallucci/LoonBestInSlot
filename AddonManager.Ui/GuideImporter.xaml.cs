@@ -157,7 +157,8 @@ public sealed partial class GuideImporter : Page
         _importCancelToken = new CancellationTokenSource();
         
         WowheadImporter.ImportNewItems();
-
+        
+        ConsoleOut.Text = string.Empty;
         await WowheadImporter.UpdateItemsFromWowhead(_importCancelToken.Token, (s) => { ConsoleOut.Text = s + Environment.NewLine + ConsoleOut.Text; });
 
         WowheadImporter.RefreshItems();

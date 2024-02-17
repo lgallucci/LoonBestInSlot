@@ -331,59 +331,102 @@ public static class WowheadImporter
 
         var webAddresses = itemSources.Where((i) => i.Value.SourceType == @"LBIS.L[""unknown""]")
                                            .Select((i) => $"https://www.wowhead.com/classic/item={i.Key}/");
-
-        await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
-        {
-            var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/classic/item=", "").TrimEnd('/'));
-                var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
-            if (rowElements != null && rowElements.Length > 0)
+        try {
+            
+            await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
             {
-                if (rowElements.Length > 20)
-                {
-                    itemSources[itemId].SourceType = AddLocalizeText("Drop");
-                    itemSources[itemId].Source = AddLocalizeText("World Drop");
-                    itemSources[itemId].SourceNumber = "0";
-                    itemSources[itemId].SourceLocation = string.Empty;
-                }
-                else if (rowElements.Length == 1)
-                {
-                    var location = rowElements[0].Children[2].TextContent.Trim();
-                    if (location == "Blackfathom Deeps")
-                        location = "Blackfathom Deeps (dungeon)";
-
-                    itemSources[itemId].SourceType = AddLocalizeText("Drop");
-                    itemSources[itemId].Source = AddLocalizeText(rowElements[0].Children[0].TextContent.Trim());
-                    itemSources[itemId].SourceNumber = "0";
-                    itemSources[itemId].SourceLocation = AddLocalizeText(location);
-                }
-            } 
-            else 
-            {                
-                rowElements = doc.QuerySelectorAll("#tab-reward-from-q .listview-mode-default .listview-row");
+                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/classic/item=", "").TrimEnd('/'));
+                    var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
                 if (rowElements != null && rowElements.Length > 0)
                 {
-                    if (rowElements.Count() == 1)
-                    {
-                        var faction = "B";
-                        if (rowElements[0].Children[3].HasChildNodes && 
-                            rowElements[0].Children[3].Children[0].ClassName == "icon-alliance")
-                            faction = "A";
-                        else if (rowElements[0].Children[3].HasChildNodes && 
-                                 rowElements[0].Children[3].Children[0].ClassName == "icon-horde")
-                            faction = "H";
+                    var source = rowElements[0].Children[0].TextContent.Trim();
+                    var location = rowElements[0].Children[2].TextContent.Trim();
 
-                        itemSources[itemId].SourceType = AddLocalizeText("Quest");
-                        itemSources[itemId].Source = AddLocalizeText(rowElements[0].Children[0].TextContent.Trim());
+                    if (rowElements.Length == 1)
+                    {
+                        if (location == "Blackfathom Deeps")
+                            location = "Blackfathom Deeps (dungeon)";
+
+                        itemSources[itemId].SourceType = AddLocalizeText("Drop");
+                        itemSources[itemId].Source = AddLocalizeText(source);
                         itemSources[itemId].SourceNumber = "0";
-                        itemSources[itemId].SourceLocation = AddLocalizeText(rowElements[0].Children[7].TextContent.Trim());
-                        itemSources[itemId].SourceFaction = faction;
+                        itemSources[itemId].SourceLocation = AddLocalizeText(location);
+                    }
+                    else if (rowElements.All(r => r.Children[2].TextContent.Trim() == location))
+                    {
+                        if (IsDungeonName(location))
+                            itemSources[itemId].Source = AddLocalizeText("Trash Mobs");
+                        else
+                            itemSources[itemId].Source = AddLocalizeText("World Drop");
+
+                        itemSources[itemId].SourceType = AddLocalizeText("Drop");
+                        itemSources[itemId].SourceNumber = "0";
+                        itemSources[itemId].SourceLocation = AddLocalizeText(location);
+                    }
+                    else
+                    {
+                        itemSources[itemId].SourceType = AddLocalizeText("Drop");
+                        itemSources[itemId].Source = AddLocalizeText("World Drop");
+                        itemSources[itemId].SourceNumber = "0";
+                        itemSources[itemId].SourceLocation = string.Empty;
                     }
                 } 
-            }
-        }, writeToLog, cancelToken);
-        
+                else 
+                {                
+                    rowElements = doc.QuerySelectorAll("#tab-reward-from-q .listview-mode-default .listview-row");
+                    if (rowElements != null && rowElements.Length > 0)
+                    {
+                        var source = string.Empty;
+                        var faction = string.Empty;
+                        var sourceLocation = string.Empty;
+                        foreach(var row in rowElements)
+                        {
+                            if (row.Children[3].HasChildNodes && row.Children[3].Children[0].ClassName == "icon-alliance" && string.IsNullOrWhiteSpace(faction))
+                                faction = "A";
+                            else if (row.Children[3].HasChildNodes && row.Children[3].Children[0].ClassName == "icon-horde" && string.IsNullOrWhiteSpace(faction))
+                                faction = "H";
+                            else 
+                                faction = "B";
+
+                            if (row.Children[0].TextContent.Trim() != source)
+                            {
+                                if (!string.IsNullOrWhiteSpace(source))
+                                    source += " & ";
+                                source += row.Children[0].TextContent.Trim();
+                            }
+
+                            if (row.Children[7].TextContent.Trim() != sourceLocation)
+                            {
+                                if (!string.IsNullOrWhiteSpace(sourceLocation))
+                                    sourceLocation += " & ";
+                                sourceLocation += row.Children[7].TextContent.Trim();
+                            }
+                        }
+                        
+                        itemSources[itemId].SourceType = AddLocalizeText("Quest");
+                        itemSources[itemId].Source = AddLocalizeText(source);
+                        itemSources[itemId].SourceNumber = "0";
+                        itemSources[itemId].SourceLocation = AddLocalizeText(sourceLocation);
+                        itemSources[itemId].SourceFaction = faction;
+                    } 
+                }
+            }, writeToLog, cancelToken);
+            
+        } catch
+        { 
+            writeToLog("Error !");
+        }
         ItemSourceFileManager.WriteItemSources(itemSources);
-    }    
+    }
+
+    private static List<string> _dungeons = new List<string>() {"ragefire chasm", "deadmines", "wailing caverns", 
+                                                                "shadowfang keep", "the stockade", "razorfen kraul", 
+                                                                "scarlet monastery", "razorfen downs", "uldaman", 
+                                                                "zul'farrak"};
+    private static bool IsDungeonName(string location)
+    {
+        return _dungeons.Contains(location.ToLower());
+    }
 
     private static string AddLocalizeText(string source)
     {

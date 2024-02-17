@@ -8,27 +8,26 @@ public class ProfessionImporter : LootImporter
 {
     private Dictionary<string, string> professionUriList = new Dictionary<string, string>
     {
-        { @"https://www.wowhead.com/classic/spells/professions/engineering", "Engineering" },
-        { @"https://www.wowhead.com/classic/spells/professions/engineering#50", "Engineering" },
-        { @"https://www.wowhead.com/classic/spells/professions/engineering#100", "Engineering" },
-        { @"https://www.wowhead.com/classic/spells/professions/engineering#150", "Engineering" },
-        { @"https://www.wowhead.com/classic/spells/professions/leatherworking", "Leatherworking" },
-        { @"https://www.wowhead.com/classic/spells/professions/leatherworking#50", "Leatherworking" },
-        { @"https://www.wowhead.com/classic/spells/professions/leatherworking#100", "Leatherworking" },
-        { @"https://www.wowhead.com/classic/spells/professions/leatherworking#150", "Leatherworking" },
-        { @"https://www.wowhead.com/classic/spells/professions/leatherworking#200", "Leatherworking" },
-        { @"https://www.wowhead.com/classic/spells/professions/leatherworking#250", "Leatherworking" },
-        { @"https://www.wowhead.com/classic/spells/professions/tailoring", "Tailoring" },
-        { @"https://www.wowhead.com/classic/spells/professions/tailoring#50", "Tailoring" },
-        { @"https://www.wowhead.com/classic/spells/professions/tailoring#100", "Tailoring" },
-        { @"https://www.wowhead.com/classic/spells/professions/tailoring#150", "Tailoring" },
-        { @"https://www.wowhead.com/classic/spells/professions/tailoring#200", "Tailoring" },
-        { @"https://www.wowhead.com/classic/spells/professions/blacksmithing", "Blacksmithing" },
-        { @"https://www.wowhead.com/classic/spells/professions/blacksmithing#50", "Blacksmithing" },
-        { @"https://www.wowhead.com/classic/spells/professions/blacksmithing#100", "Blacksmithing" },
-        { @"https://www.wowhead.com/classic/spells/professions/blacksmithing#150", "Blacksmithing" },
-        { @"https://www.wowhead.com/classic/spells/professions/blacksmithing#200", "Blacksmithing" },
-        { @"https://www.wowhead.com/classic/spells/professions/blacksmithing#250", "Blacksmithing" },
+        { @"https://www.wowhead.com/classic/skill=202/engineering#recipes", "Engineering" },
+        { @"https://www.wowhead.com/classic/skill=202/engineering#recipes;50", "Engineering" },
+        { @"https://www.wowhead.com/classic/skill=202/engineering#recipes;100", "Engineering" },
+        { @"https://www.wowhead.com/classic/skill=202/engineering#recipes;150", "Engineering" },
+        { @"https://www.wowhead.com/classic/skill=165/leatherworking#recipes", "Leatherworking" },
+        { @"https://www.wowhead.com/classic/skill=165/leatherworking#recipes;50", "Leatherworking" },
+        { @"https://www.wowhead.com/classic/skill=165/leatherworking#recipes;100", "Leatherworking" },
+        { @"https://www.wowhead.com/classic/skill=165/leatherworking#recipes;150", "Leatherworking" },
+        { @"https://www.wowhead.com/classic/skill=165/leatherworking#recipes;200", "Leatherworking" },
+        { @"https://www.wowhead.com/classic/skill=197/tailoring#recipes", "Tailoring" },
+        { @"https://www.wowhead.com/classic/skill=197/tailoring#recipes;50", "Tailoring" },
+        { @"https://www.wowhead.com/classic/skill=197/tailoring#recipes;100", "Tailoring" },
+        { @"https://www.wowhead.com/classic/skill=197/tailoring#recipes;150", "Tailoring" },
+        { @"https://www.wowhead.com/classic/skill=197/tailoring#recipes;200", "Tailoring" },
+        { @"https://www.wowhead.com/classic/skill=164/blacksmithing#recipes", "Blacksmithing" },
+        { @"https://www.wowhead.com/classic/skill=164/blacksmithing#recipes;50", "Blacksmithing" },
+        { @"https://www.wowhead.com/classic/skill=164/blacksmithing#recipes;100", "Blacksmithing" },
+        { @"https://www.wowhead.com/classic/skill=164/blacksmithing#recipes;150", "Blacksmithing" },
+        { @"https://www.wowhead.com/classic/skill=164/blacksmithing#recipes;200", "Blacksmithing" },
+        { @"https://www.wowhead.com/classic/skill=164/blacksmithing#recipes;250", "Blacksmithing" },
     };
 
     internal override string FileName { get => "ProfessionItemList"; }
@@ -38,7 +37,7 @@ public class ProfessionImporter : LootImporter
 
         await Common.LoadFromWebPages(professionUriList.Keys.ToList(), (uri, doc) =>
         {
-            var tableElements = doc.QuerySelectorAll("#lv-spells table .listview-row");
+            var tableElements = doc.QuerySelectorAll("#tab-recipes table .listview-row");
 
             foreach(var element in tableElements)
             {

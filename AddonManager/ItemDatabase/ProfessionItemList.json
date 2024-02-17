@@ -384,6 +384,14 @@
       "SourceLocation": "2670",
       "SourceFaction": "B"
     },
+    "2867": {
+      "Name": "Rough Bronze Bracers",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "2671",
+      "SourceFaction": "B"
+    },
     "2868": {
       "Name": "Patterned Bronze Bracers",
       "Source": "Blacksmithing",
@@ -2000,6 +2008,14 @@
       "SourceLocation": "7633",
       "SourceFaction": "B"
     },
+    "6243": {
+      "Name": "Green Woolen Robe",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "7636",
+      "SourceFaction": "B"
+    },
     "6263": {
       "Name": "Blue Overalls",
       "Source": "Tailoring",
@@ -2104,12 +2120,28 @@
       "SourceLocation": "8339",
       "SourceFaction": "B"
     },
+    "6730": {
+      "Name": "Ironforge Chain",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "8366",
+      "SourceFaction": "B"
+    },
     "6731": {
       "Name": "Ironforge Breastplate",
       "Source": "Blacksmithing",
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "8367",
+      "SourceFaction": "B"
+    },
+    "6733": {
+      "Name": "Ironforge Gauntlets",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "8368",
       "SourceFaction": "B"
     },
     "6786": {
@@ -2150,6 +2182,14 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "8776",
+      "SourceFaction": "B"
+    },
+    "7027": {
+      "Name": "Boots of Darkness",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "8778",
       "SourceFaction": "B"
     },
     "7046": {
@@ -2648,6 +2688,14 @@
       "SourceLocation": "9937",
       "SourceFaction": "B"
     },
+    "7925": {
+      "Name": "Mithril Scale Gloves",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "9942",
+      "SourceFaction": "B"
+    },
     "7926": {
       "Name": "Ornate Mithril Pants",
       "Source": "Blacksmithing",
@@ -3048,6 +3096,14 @@
       "SourceLocation": "10548",
       "SourceFaction": "B"
     },
+    "8195": {
+      "Name": "Nightscape Cloak",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "10550",
+      "SourceFaction": "B"
+    },
     "8197": {
       "Name": "Nightscape Boots",
       "Source": "Leatherworking",
@@ -3376,6 +3432,22 @@
       "SourceLocation": "12060",
       "SourceFaction": "B"
     },
+    "10010": {
+      "Name": "Stormcloth Pants",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "12062",
+      "SourceFaction": "B"
+    },
+    "10011": {
+      "Name": "Stormcloth Gloves",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "12063",
+      "SourceFaction": "B"
+    },
     "10018": {
       "Name": "Red Mageweave Gloves",
       "Source": "Tailoring",
@@ -3390,6 +3462,14 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "12067",
+      "SourceFaction": "B"
+    },
+    "10020": {
+      "Name": "Stormcloth Vest",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "12068",
       "SourceFaction": "B"
     },
     "10021": {
@@ -3472,6 +3552,14 @@
       "SourceLocation": "12082",
       "SourceFaction": "B"
     },
+    "10032": {
+      "Name": "Stormcloth Headband",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "12083",
+      "SourceFaction": "B"
+    },
     "10033": {
       "Name": "Red Mageweave Headband",
       "Source": "Tailoring",
@@ -3502,6 +3590,22 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "12093",
+      "SourceFaction": "B"
+    },
+    "10038": {
+      "Name": "Stormcloth Shoulders",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "12087",
+      "SourceFaction": "B"
+    },
+    "10039": {
+      "Name": "Stormcloth Boots",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "12090",
       "SourceFaction": "B"
     },
     "10040": {
@@ -3864,6 +3968,30 @@
       "SourceLocation": "12716",
       "SourceFaction": "B"
     },
+    "10579": {
+      "Name": "Explosive Arrow",
+      "Source": "Engineering",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "12719",
+      "SourceFaction": "B"
+    },
+    "10580": {
+      "Name": "Goblin 'Boom' Box",
+      "Source": "Engineering",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "12720",
+      "SourceFaction": "B"
+    },
+    "10585": {
+      "Name": "Goblin Radio",
+      "Source": "Engineering",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "12722",
+      "SourceFaction": "B"
+    },
     "10586": {
       "Name": "The Big One",
       "Source": "Engineering",
@@ -3928,6 +4056,14 @@
       "SourceLocation": "12899",
       "SourceFaction": "B"
     },
+    "10719": {
+      "Name": "Mobile Alarm",
+      "Source": "Engineering",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "12900",
+      "SourceFaction": "B"
+    },
     "10720": {
       "Name": "Gnomish Net-o-Matic Projector",
       "Source": "Engineering",
@@ -3942,6 +4078,14 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "12903",
+      "SourceFaction": "B"
+    },
+    "10723": {
+      "Name": "Gnomish Ham Radio",
+      "Source": "Engineering",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "12904",
       "SourceFaction": "B"
     },
     "10724": {
@@ -4400,6 +4544,30 @@
       "SourceLocation": "16651",
       "SourceFaction": "B"
     },
+    "12764": {
+      "Name": "Thorium Greatsword",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "16960",
+      "SourceFaction": "B"
+    },
+    "12769": {
+      "Name": "Bleakwood Hew",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "16965",
+      "SourceFaction": "B"
+    },
+    "12772": {
+      "Name": "Inlaid Thorium Hammer",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "16967",
+      "SourceFaction": "B"
+    },
     "12773": {
       "Name": "Ornate Thorium Handaxe",
       "Source": "Blacksmithing",
@@ -4438,6 +4606,14 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "16978",
+      "SourceFaction": "B"
+    },
+    "12779": {
+      "Name": "Rune Edge",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "16980",
       "SourceFaction": "B"
     },
     "12781": {
@@ -4496,6 +4672,14 @@
       "SourceLocation": "16993",
       "SourceFaction": "B"
     },
+    "12795": {
+      "Name": "Blood Talon",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "16986",
+      "SourceFaction": "B"
+    },
     "12796": {
       "Name": "Hammer of the Titans",
       "Source": "Blacksmithing",
@@ -4518,6 +4702,14 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "16991",
+      "SourceFaction": "B"
+    },
+    "12802": {
+      "Name": "Darkspear",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "16987",
       "SourceFaction": "B"
     },
     "13856": {
@@ -5318,6 +5510,14 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "19093",
+      "SourceFaction": "B"
+    },
+    "15141": {
+      "Name": "Onyxia Scale Breastplate",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "19106",
       "SourceFaction": "B"
     },
     "15407": {

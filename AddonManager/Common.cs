@@ -6,8 +6,7 @@ using PuppeteerSharp;
 namespace AddonManager;
 public static class Common
 {
-    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null)
-    {
+    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)    {
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
@@ -27,19 +26,29 @@ public static class Common
                 System.Diagnostics.Debug.WriteLine($"Starting WebPage ({pageAddress})...");
                 using (var page = await browser.NewPageAsync())
                 {
-                    page.DefaultTimeout = 30000; // or you can set this as 0
-                    await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
-                    var content = await page.GetContentAsync();
+                    try 
+                    {
+                        page.DefaultTimeout = 15000; // or you can set this as 0
+                        if (waitForIdle)
+                            await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
+                        else
+                            await page.GoToAsync(pageAddress, WaitUntilNavigation.DOMContentLoaded);
+                        var content = await page.GetContentAsync();
 
-                    System.Diagnostics.Debug.WriteLine($"Retrieved Content ({content.Substring(0, 10)})...");
+                        System.Diagnostics.Debug.WriteLine($"Retrieved Content ({content.Substring(0, 10)})...");
 
-                    writeToLog($"Reading from: {pageAddress} {++count}/{total}");
+                        writeToLog($"Reading from: {pageAddress} {++count}/{total}");
 
-                    var parser = new HtmlParser();
-                    var doc = default(IHtmlDocument);
-                    doc = await parser.ParseDocumentAsync(content);
+                        var parser = new HtmlParser();
+                        var doc = default(IHtmlDocument);
+                        doc = await parser.ParseDocumentAsync(content);
 
-                    func(pageAddress, doc);
+                        func(pageAddress, doc);
+                    } 
+                    catch 
+                    {
+                        writeToLog($"Failed to read from {pageAddress} {++count}/{total}");
+                    }
                 }
             }
         }
