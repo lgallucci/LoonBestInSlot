@@ -159,7 +159,6 @@ LBIS:AddItem(spec2, "213281", LBIS.L["Head"], "Alt") --Electromagnetic Hyperflux
 LBIS:AddItem(spec2, "2620", LBIS.L["Head"], "Alt") --Augural Shroud
 LBIS:AddItem(spec2, "9429", LBIS.L["Head"], "Alt") --Miner's Hat of the Deep
 LBIS:AddItem(spec2, "9915", LBIS.L["Head"], "Alt") --Royal Headband
-LBIS:AddItem(spec2, "15999", LBIS.L["Head"], "Alt") --Spellpower Goggles Xtreme Plus
 LBIS:AddItem(spec2, "211842", LBIS.L["Head"], "Alt") --Rakkamar's Tattered Thinking Cap
 LBIS:AddItem(spec2, "213301", LBIS.L["Shoulder"], "BIS") --Synthetic Mantle
 LBIS:AddItem(spec2, "217298", LBIS.L["Shoulder"], "Alt") --Mantle of Doan

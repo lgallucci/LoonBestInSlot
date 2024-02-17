@@ -28,7 +28,7 @@ public static class Common
                 {
                     try 
                     {
-                        page.DefaultTimeout = 15000; // or you can set this as 0
+                        page.DefaultTimeout = 30000; // or you can set this as 0
                         if (waitForIdle)
                             await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
                         else
