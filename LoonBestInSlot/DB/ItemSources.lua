@@ -782,7 +782,7 @@ LBIS.ItemSources =
     [9389] = { Name = "Revelosh's Spaulders", SourceType = LBIS.L["Drop"], Source = LBIS.L["Revelosh"], SourceNumber = "0", SourceLocation = LBIS.L["Uldaman"], SourceFaction = "B" },
     [9390] = { Name = "Revelosh's Gloves", SourceType = LBIS.L["Drop"], Source = LBIS.L["Revelosh"], SourceNumber = "0", SourceLocation = LBIS.L["Uldaman"], SourceFaction = "B" },
     [9393] = { Name = "Beacon of Hope", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
-    [9394] = { Name = "Horned Viking Helmet", SourceType = LBIS.L["Drop"], Source = LBIS.L["Eric "The Swift""], SourceNumber = "0", SourceLocation = LBIS.L["Uldaman"], SourceFaction = "B" },
+    [9394] = { Name = "Horned Viking Helmet", SourceType = LBIS.L["Drop"], Source = LBIS.L["Eric 'The Swift'"], SourceNumber = "0", SourceLocation = LBIS.L["Uldaman"], SourceFaction = "B" },
     [9396] = { Name = "Legguards of the Vault", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [9399] = { Name = "Precision Arrow", SourceType = LBIS.L["Drop"], Source = LBIS.L["The Lost Dwarves"], SourceNumber = "0", SourceLocation = LBIS.L["Uldaman"], SourceFaction = "H" },
     [9400] = { Name = "Baelog's Shortbow", SourceType = LBIS.L["Drop"], Source = LBIS.L["The Lost Dwarves"], SourceNumber = "0", SourceLocation = LBIS.L["Uldaman"], SourceFaction = "H" },

@@ -68,7 +68,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Chief Ukorz Sandscalp"] = "Вождь Укорз Песчаная Плешь";
   LBIS.L["Cleansing the Eye"] = "Проклятое Око";
   LBIS.L["Commander Springvale"] = "Командир Ручьедол";
-  LBIS.L["Compendium of the Fallen"] = "\"Компендиум павших\";
+  LBIS.L["Compendium of the Fallen"] = "Компендиум павших";
   LBIS.L["Confront Yeh'kinya"] = "Сопротивление Йекинье";
   LBIS.L["Cookie"] = "Пирожок";
 --  LBIS.L["Crimson Whelp"] = "";
