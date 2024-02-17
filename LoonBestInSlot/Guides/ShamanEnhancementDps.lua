@@ -62,6 +62,7 @@ LBIS:AddItem(spec2, "6773", LBIS.L["Chest"], "Alt") --Gelkis Marauder Chain
 LBIS:AddItem(spec2, "10583", LBIS.L["Chest"], "Alt") --Quillward Harness
 LBIS:AddItem(spec2, "1488", LBIS.L["Chest"], "Alt") --Avenger's Armor
 LBIS:AddItem(spec2, "19590", LBIS.L["Wrist"], "BIS") --Forest Stalker's Bracers
+LBIS:AddItem(spec2, "213317", LBIS.L["Wrist"], "Alt") --Experimental Aim Stabilizers
 LBIS:AddItem(spec2, "212994", LBIS.L["Wrist"], "Alt") --Stormchaser's Bindings
 LBIS:AddItem(spec2, "14770", LBIS.L["Wrist"], "Alt") --Ravager's Armguards
 LBIS:AddItem(spec2, "213318", LBIS.L["Wrist"], "Alt") --Ornate Dark Iron Bangles
@@ -97,13 +98,13 @@ LBIS:AddItem(spec2, "21565", LBIS.L["Trinket"], "Alt") --Rune of Perfection
 LBIS:AddItem(spec2, "216939", LBIS.L["Trinket"], "Alt") --Greater Insignia of the Horde
 LBIS:AddItem(spec2, "216938", LBIS.L["Trinket"], "Alt") --Greater Insignia of the Alliance
 LBIS:AddItem(spec2, "213409", LBIS.L["Main Hand"], "BIS") --Mekkatorque's Arcano-Shredder
+LBIS:AddItem(spec2, "934", LBIS.L["Main Hand/Off Hand"], "BIS") --Stalvan's Reaper
 LBIS:AddItem(spec2, "13026", LBIS.L["Main Hand"], "Alt") --Heaven's Light
 LBIS:AddItem(spec2, "213295", LBIS.L["Main Hand"], "Alt") --Ultrasonic Vibroblade
 LBIS:AddItem(spec2, "10744", LBIS.L["Main Hand"], "Alt") --Axe of the Ebon Drake
 LBIS:AddItem(spec2, "213442", LBIS.L["Off Hand"], "BIS") --Cogmaster's Claw
 LBIS:AddItem(spec2, "1602", LBIS.L["Off Hand"], "BIS") --Sickle Axe
 LBIS:AddItem(spec2, "9427", LBIS.L["Off Hand"], "Alt") --Stonevault Bonebreaker
-LBIS:AddItem(spec2, "934", LBIS.L["Off Hand"], "Alt") --Stalvan's Reaper
 LBIS:AddItem(spec2, "9378", LBIS.L["Off Hand"], "Alt") --Shovelphlange's Mining Axe
 LBIS:AddItem(spec2, "215436", LBIS.L["Ranged/Relic"], "BIS") --Totem of Invigorating Flame
 LBIS:AddItem(spec2, "209575", LBIS.L["Ranged/Relic"], "Alt") --Carved Driftwood Icon

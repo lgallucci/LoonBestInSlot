@@ -48,6 +48,7 @@ public static class ItemSpecFileManager
 
         string[] itemSpecLines = System.IO.File.ReadAllLines(path);
 
+        int count = 0;
         foreach (var itemSpecLine in itemSpecLines)
         {
             if (itemSpecLine.Contains("local spec"))
@@ -85,9 +86,11 @@ public static class ItemSpecFileManager
                     ItemId = itemId,
                     Slot = itemSplit[3],
                     Name = itemSplit[6].Replace(") --", ""),
-                    BisStatus = itemSplit[5]
+                    BisStatus = itemSplit[5],
+                    ItemOrder = count
                 });
             }
+            count++;
         }
 
         return new Tuple<List<EnchantSpec>, Dictionary<int, List<ItemSpec>>>(enchants, items);

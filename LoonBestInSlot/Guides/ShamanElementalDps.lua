@@ -107,6 +107,7 @@ LBIS:AddItem(spec2, "5201", LBIS.L["Main Hand"], "Alt") --Emberstone Staff
 LBIS:AddItem(spec2, "890", LBIS.L["Main Hand"], "Alt") --Twisted Chanter's Staff
 LBIS:AddItem(spec2, "216501", LBIS.L["Off Hand"], "BIS") --Bloodstorm Barrier
 LBIS:AddItem(spec2, "211456", LBIS.L["Off Hand"], "BIS") --Dagger of Willing Sacrifice
+LBIS:AddItem(spec2, "213351", LBIS.L["Off Hand"], "BIS") --Irradiated Tower Shield
 LBIS:AddItem(spec2, "209570", LBIS.L["Off Hand"], "Alt") --Tome of Cavern Lore
 LBIS:AddItem(spec2, "209590", LBIS.L["Off Hand"], "Alt") --Cracked Water Globe
 LBIS:AddItem(spec2, "211460", LBIS.L["Off Hand"], "Alt") --Ancient Arctic Buckler

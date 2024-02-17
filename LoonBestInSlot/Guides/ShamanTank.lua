@@ -128,7 +128,6 @@ LBIS:AddItem(spec2, "213314", LBIS.L["Chest"], "BIS") --Electromantic Chainmail
 LBIS:AddItem(spec2, "210794", LBIS.L["Chest"], "Alt") --Shifting Silver Breastplate
 LBIS:AddItem(spec2, "10328", LBIS.L["Chest"], "Alt") --Scarlet Chestpiece
 LBIS:AddItem(spec2, "1981", LBIS.L["Chest"], "Alt") --Icemail Jerkin
-LBIS:AddItem(spec2, "9650", LBIS.L["Chest"], "Alt") --Honorguard Chestpiece
 LBIS:AddItem(spec2, "7688", LBIS.L["Chest"], "Alt") --Ironspine's Ribcage
 LBIS:AddItem(spec2, "11193", LBIS.L["Chest"], "Alt") --Blazewind Breastplate
 LBIS:AddItem(spec2, "209687", LBIS.L["Chest"], "Alt") --Hydra Hide Cuirass
@@ -193,7 +192,6 @@ LBIS:AddItem(spec2, "10744", LBIS.L["Main Hand"], "Alt") --Axe of the Ebon Drake
 LBIS:AddItem(spec2, "9684", LBIS.L["Main Hand"], "Alt") --Force of the Hippogryph
 LBIS:AddItem(spec2, "213390", LBIS.L["Off Hand"], "BIS") --Whirling Truesilver Gearwall
 LBIS:AddItem(spec2, "7726", LBIS.L["Off Hand"], "Alt") --Aegis of the Scarlet Commander
-LBIS:AddItem(spec2, "10686", LBIS.L["Off Hand"], "Alt") --Aegis of Battle
 LBIS:AddItem(spec2, "213351", LBIS.L["Off Hand"], "Alt") --Irradiated Tower Shield
 LBIS:AddItem(spec2, "10767", LBIS.L["Off Hand"], "Alt") --Savage Boar's Guard
 LBIS:AddItem(spec2, "1204", LBIS.L["Off Hand"], "Alt") --The Green Tower

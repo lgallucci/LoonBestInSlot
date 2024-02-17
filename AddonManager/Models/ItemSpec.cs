@@ -23,7 +23,7 @@ public class ItemSpec : IComparable<ItemSpec>
         { "unknown", 16 } 
     };
 
-public int CompareTo(ItemSpec? other)
+    public int CompareTo(ItemSpec? other)
     {
         if (other == null)
             return -1;
@@ -56,7 +56,6 @@ public int CompareTo(ItemSpec? other)
     public string Slot { get; set; } = string.Empty;
     public string BisStatus { get; set; } = string.Empty;
     public int ItemOrder { get; set; }
-
 }
 
 public class EnchantSpec

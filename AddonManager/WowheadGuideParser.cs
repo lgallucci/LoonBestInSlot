@@ -25,6 +25,7 @@ public class WowheadGuideParser
         { 15564, 19057 }, //Rugged Armor Kit
         { 6042, 7221 }, //Iron Shield Spike
         { 6043, 7222 }, //Iron Counterweight
+        { 7967, 9939 }, //Mithril Shield Spike
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()
