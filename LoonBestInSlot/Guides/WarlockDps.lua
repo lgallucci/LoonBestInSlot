@@ -159,7 +159,6 @@ LBIS:AddItem(spec2, "211468", LBIS.L["Shoulder"], "Alt") --Frayed Chestnut Mantl
 LBIS:AddItem(spec2, "216620", LBIS.L["Back"], "BIS") --Bloodrot Cloak
 LBIS:AddItem(spec2, "213306", LBIS.L["Back"], "Alt") --Ingenuity's Cover
 LBIS:AddItem(spec2, "14270", LBIS.L["Back"], "Alt") --Gaea's Cloak
-LBIS:AddItem(spec2, "23178", LBIS.L["Back"], "Alt") --Mantle of Lady Falther'ess
 LBIS:AddItem(spec2, "217252", LBIS.L["Back"], "Alt") --Long Silken Cloak
 LBIS:AddItem(spec2, "217293", LBIS.L["Back"], "Alt") --Silky Spider Cape
 LBIS:AddItem(spec2, "216621", LBIS.L["Back"], "Alt") --Blooddrenched Drape
@@ -225,8 +224,8 @@ LBIS:AddItem(spec2, "210795", LBIS.L["Feet"], "Alt") --Extraplanar Spidersilk Bo
 LBIS:AddItem(spec2, "213290", LBIS.L["Feet"], "Alt") --Acidic Waders
 LBIS:AddItem(spec2, "213336", LBIS.L["Feet"], "Alt") --Hyperconductive Walkers
 LBIS:AddItem(spec2, "20641", LBIS.L["Feet"], "Alt") --Southsea Mojo Boots
-LBIS:AddItem(spec2, "20161", LBIS.L["Feet"], "Alt") --Defiler's Cloth Boots
 LBIS:AddItem(spec2, "20095", LBIS.L["Feet"], "Alt") --Highlander's Cloth Boots
+LBIS:AddItem(spec2, "20161", LBIS.L["Feet"], "Alt") --Defiler's Cloth Boots
 LBIS:AddItem(spec2, "9454", LBIS.L["Feet"], "Alt") --Acidic Walkers
 LBIS:AddItem(spec2, "217253", LBIS.L["Feet"], "Alt") --Boots of the Enchanter
 LBIS:AddItem(spec2, "213345", LBIS.L["Neck"], "BIS") --Piston Pendant
@@ -287,4 +286,3 @@ LBIS:AddItem(spec2, "217287", LBIS.L["Ranged/Relic"], "Alt") --Greater Mystic Wa
 LBIS:AddItem(spec2, "213411", LBIS.L["Ranged/Relic"], "Alt") --Izzleflick's Inextinguishable Igniter
 LBIS:AddItem(spec2, "13064", LBIS.L["Ranged/Relic"], "Alt") --Jaina's Firestarter
 LBIS:AddItem(spec2, "209674", LBIS.L["Ranged/Relic"], "Alt") --Phoenix Ignition
-LBIS:AddItem(spec2, "23177", LBIS.L["Ranged/Relic"], "Alt") --Lady Falther'ess' Finger

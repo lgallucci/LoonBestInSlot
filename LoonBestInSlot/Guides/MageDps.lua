@@ -142,6 +142,7 @@ LBIS:AddItem(spec2, "4381", LBIS.L["Trinket"], "Alt") --Minor Recombobulator
 LBIS:AddItem(spec2, "216939", LBIS.L["Trinket"], "Alt") --Greater Insignia of the Horde
 LBIS:AddItem(spec2, "216938", LBIS.L["Trinket"], "Alt") --Greater Insignia of the Alliance
 LBIS:AddItem(spec2, "213410", LBIS.L["Main Hand"], "BIS") --Glimmering Gizmoblade
+LBIS:AddItem(spec2, "217497", LBIS.L["Main Hand"], "Alt") --Narpas Sword
 LBIS:AddItem(spec2, "211456", LBIS.L["Main Hand"], "Alt") --Dagger of Willing Sacrifice
 LBIS:AddItem(spec2, "3187", LBIS.L["Main Hand"], "Alt") --Sacrificial Kris
 LBIS:AddItem(spec2, "7714", LBIS.L["Main Hand"], "Alt") --Hypnotic Blade
@@ -152,8 +153,8 @@ LBIS:AddItem(spec2, "2565", LBIS.L["Off Hand"], "Alt") --Rod of Molten Fire
 LBIS:AddItem(spec2, "7685", LBIS.L["Off Hand"], "Alt") --Orb of the Forgotten Seer
 LBIS:AddItem(spec2, "209561", LBIS.L["Two Hand"], "BIS") --Rod of the Ancient Sleepwalker
 LBIS:AddItem(spec2, "213353", LBIS.L["Two Hand"], "BIS") --Defibrillating Staff
-LBIS:AddItem(spec2, "873", LBIS.L["Two Hand"], "Alt") --Staff of Jordan
-LBIS:AddItem(spec2, "213354", LBIS.L["Two Hand"], "Alt") --Staff of the Evil Genius
+LBIS:AddItem(spec2, "873", LBIS.L["Two Hand"], "BIS") --Staff of Jordan
+LBIS:AddItem(spec2, "213354", LBIS.L["Two Hand"], "BIS") --Staff of the Evil Genius
 LBIS:AddItem(spec2, "9517", LBIS.L["Two Hand"], "Alt") --Celestial Stave
 LBIS:AddItem(spec2, "1613", LBIS.L["Two Hand"], "Alt") --Spiritchaser Staff
 LBIS:AddItem(spec2, "217299", LBIS.L["Two Hand"], "Alt") --Illusionary Rod

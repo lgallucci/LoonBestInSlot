@@ -967,8 +967,10 @@ LBIS.ItemSources =
     [10726] = { Name = "Gnomish Mind Control Cap", SourceType = LBIS.L["Profession"], Source = LBIS.L["Engineering"], SourceNumber = "0", SourceLocation = "12907", SourceFaction = "B" },
     [10727] = { Name = "Goblin Dragon Gun", SourceType = LBIS.L["Profession"], Source = LBIS.L["Engineering"], SourceNumber = "0", SourceLocation = "12908", SourceFaction = "B" },
     [10740] = { Name = "Centurion Legplates", SourceType = LBIS.L["Quest"], Source = LBIS.L["Rise, Obsidion!"], SourceNumber = "0", SourceLocation = LBIS.L["Searing Gorge"], SourceFaction = "A" },
+    [10741] = { Name = "Lordrec Helmet", SourceType = LBIS.L["Quest"], Source = LBIS.L["Rise, Obsidion!"], SourceNumber = "0", SourceLocation = LBIS.L["Searing Gorge"], SourceFaction = "A" },
     [10742] = { Name = "Dragonflight Leggings", SourceType = LBIS.L["Quest"], Source = LBIS.L["Set Them Ablaze!"], SourceNumber = "0", SourceLocation = LBIS.L["Searing Gorge"], SourceFaction = "B" },
     [10744] = { Name = "Axe of the Ebon Drake", SourceType = LBIS.L["Quest"], Source = LBIS.L["Set Them Ablaze!"], SourceNumber = "0", SourceLocation = LBIS.L["Searing Gorge"], SourceFaction = "B" },
+    [10748] = { Name = "Wanderlust Boots", SourceType = LBIS.L["Quest"], Source = LBIS.L["Mazen's Behest"], SourceNumber = "0", SourceLocation = LBIS.L["Stormwind City"], SourceFaction = "A" },
     [10758] = { Name = "X'caliboar", SourceType = LBIS.L["Drop"], Source = LBIS.L["Ragglesnout (Rare)"], SourceNumber = "0", SourceLocation = LBIS.L["Razorfen Downs"], SourceFaction = "B" },
     [10760] = { Name = "Swine Fists", SourceType = LBIS.L["Drop"], Source = LBIS.L["Plaguemaw the Rotting (Optional Event)"], SourceNumber = "0", SourceLocation = LBIS.L["Razorfen Downs"], SourceFaction = "B" },
     [10761] = { Name = "Coldrage Dagger", SourceType = LBIS.L["Drop"], Source = LBIS.L["Amnennar the Coldbringer"], SourceNumber = "0", SourceLocation = LBIS.L["Razorfen Downs"], SourceFaction = "B" },
@@ -2212,4 +2214,5 @@ LBIS.ItemSources =
     [217304] = { Name = "Revelosh's Gloves", SourceType = LBIS.L["Drop"], Source = LBIS.L["Revelosh"], SourceNumber = "0", SourceLocation = LBIS.L["Uldaman"], SourceFaction = "B" },
     [217305] = { Name = "Revelosh's Armguards", SourceType = LBIS.L["Drop"], Source = LBIS.L["Revelosh"], SourceNumber = "0", SourceLocation = LBIS.L["Uldaman"], SourceFaction = "B" },
     [217306] = { Name = "Revelosh's Boots", SourceType = LBIS.L["Drop"], Source = LBIS.L["Revelosh"], SourceNumber = "0", SourceLocation = LBIS.L["Uldaman"], SourceFaction = "B" },
+    [217497] = { Name = "Narpas Sword", SourceType = LBIS.L["Transmute"], Source = LBIS.L["Hypnotic Blade"], SourceNumber = "0", SourceLocation = LBIS.L["Mage"], SourceFaction = "B" },
 }

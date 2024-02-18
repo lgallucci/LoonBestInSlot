@@ -27,6 +27,7 @@ public class WowheadGuideParser
         { 6043, 7222 }, //Iron Counterweight
         { 7967, 9939 }, //Mithril Shield Spike
         { 6041, 7224}, //Steel Weapon Chain
+        { 5421, 6296 }, //Fiery Blaze
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()

@@ -94,6 +94,7 @@ LBIS:AddItem(spec2, "213342", LBIS.L["Feet"], "Alt") --Insulated Galoshes
 LBIS:AddItem(spec2, "15162", LBIS.L["Feet"], "Alt") --Imposing Boots
 LBIS:AddItem(spec2, "213345", LBIS.L["Neck"], "BIS") --Piston Pendant
 LBIS:AddItem(spec2, "209686", LBIS.L["Neck"], "Alt") --Jagged Bone Necklace
+LBIS:AddItem(spec2, "217296", LBIS.L["Neck"], "Alt") --Ghostshard Talisman
 LBIS:AddItem(spec2, "19524", LBIS.L["Ring"], "BIS") --Lorekeeper's Ring
 LBIS:AddItem(spec2, "19520", LBIS.L["Ring"], "BIS") --Advisor's Ring
 LBIS:AddItem(spec2, "213283", LBIS.L["Ring"], "BIS") --Hypercharged Gear of Conflagration

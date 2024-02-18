@@ -72,6 +72,7 @@ LBIS:AddItem(spec2, "9632", LBIS.L["Hands"], "Alt") --Jangdor's Handcrafted Glov
 LBIS:AddItem(spec2, "4063", LBIS.L["Hands"], "Alt") --Imperial Leather Gloves
 LBIS:AddItem(spec2, "9435", LBIS.L["Hands"], "Alt") --Reticulated Bone Gauntlets
 LBIS:AddItem(spec2, "213325", LBIS.L["Waist"], "BIS") --Darkvision Girdle
+LBIS:AddItem(spec2, "215380", LBIS.L["Waist"], "Alt") --Power-Assisted Lifting Belt
 LBIS:AddItem(spec2, "213322", LBIS.L["Waist"], "Alt") --Skullduggery Waistband
 LBIS:AddItem(spec2, "13117", LBIS.L["Waist"], "Alt") --Ogron's Sash
 LBIS:AddItem(spec2, "10768", LBIS.L["Waist"], "Alt") --Boar Champion's Belt
@@ -96,7 +97,6 @@ LBIS:AddItem(spec2, "213348", LBIS.L["Trinket"], "BIS") --Gyromatic Experiment 4
 LBIS:AddItem(spec2, "211449", LBIS.L["Trinket"], "BIS") --Avenger's Void Pearl
 LBIS:AddItem(spec2, "21565", LBIS.L["Trinket"], "Alt") --Rune of Perfection
 LBIS:AddItem(spec2, "216939", LBIS.L["Trinket"], "Alt") --Greater Insignia of the Horde
-LBIS:AddItem(spec2, "216938", LBIS.L["Trinket"], "Alt") --Greater Insignia of the Alliance
 LBIS:AddItem(spec2, "213409", LBIS.L["Main Hand"], "BIS") --Mekkatorque's Arcano-Shredder
 LBIS:AddItem(spec2, "934", LBIS.L["Main Hand/Off Hand"], "BIS") --Stalvan's Reaper
 LBIS:AddItem(spec2, "13026", LBIS.L["Main Hand"], "Alt") --Heaven's Light

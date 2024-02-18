@@ -70,6 +70,7 @@ LBIS:AddItem(spec1, "6469", LBIS.L["Ranged/Relic"], "Alt") --Venomstrike
 
 LBIS:AddItem(spec2, "215166", LBIS.L["Head"], "BIS") --Glowing Gneuro-Linked Cowl
 LBIS:AddItem(spec2, "213280", LBIS.L["Head"], "Alt") --Marksman's Scopevisor
+LBIS:AddItem(spec2, "10741", LBIS.L["Head"], "Alt") --Lordrec Helmet
 LBIS:AddItem(spec2, "211510", LBIS.L["Head"], "Alt") --Twilight Slayer's Cowl
 LBIS:AddItem(spec2, "211789", LBIS.L["Head"], "Alt") --Artemis Cowl
 LBIS:AddItem(spec2, "213304", LBIS.L["Shoulder"], "BIS") --Troggslayer Pauldrons
@@ -80,9 +81,9 @@ LBIS:AddItem(spec2, "5257", LBIS.L["Back"], "BIS") --Dark Hooded Cape
 LBIS:AddItem(spec2, "213308", LBIS.L["Back"], "BIS") --Prototype Parachute Cloak
 LBIS:AddItem(spec2, "213307", LBIS.L["Back"], "Alt") --Drape of Dismantling
 LBIS:AddItem(spec2, "6432", LBIS.L["Back"], "Alt") --Imperial Cloak
-LBIS:AddItem(spec2, "213314", LBIS.L["Chest"], "BIS") --Electromantic Chainmail
+LBIS:AddItem(spec2, "11193", LBIS.L["Chest"], "BIS") --Blazewind Breastplate
+LBIS:AddItem(spec2, "213314", LBIS.L["Chest"], "Alt") --Electromantic Chainmail
 LBIS:AddItem(spec2, "213313", LBIS.L["Chest"], "Alt") --Insulated Chestguard
-LBIS:AddItem(spec2, "11193", LBIS.L["Chest"], "Alt") --Blazewind Breastplate
 LBIS:AddItem(spec2, "10583", LBIS.L["Chest"], "Alt") --Quillward Harness
 LBIS:AddItem(spec2, "19590", LBIS.L["Wrist"], "BIS") --Forest Stalker's Bracers
 LBIS:AddItem(spec2, "213317", LBIS.L["Wrist"], "Alt") --Experimental Aim Stabilizers
@@ -101,11 +102,13 @@ LBIS:AddItem(spec2, "213333", LBIS.L["Legs"], "BIS") --Electromantic Chausses
 LBIS:AddItem(spec2, "213332", LBIS.L["Legs"], "Alt") --Insulated Legguards
 LBIS:AddItem(spec2, "216676", LBIS.L["Legs"], "Alt") --Nimble Triprunner Dungarees
 LBIS:AddItem(spec2, "10742", LBIS.L["Legs"], "Alt") --Dragonflight Leggings
-LBIS:AddItem(spec2, "6423", LBIS.L["Feet"], "BIS") --Blackforge Greaves
 LBIS:AddItem(spec2, "213339", LBIS.L["Feet"], "BIS") --Electromantic Grounding Sabatons
+LBIS:AddItem(spec2, "6423", LBIS.L["Feet"], "Alt") --Blackforge Greaves
 LBIS:AddItem(spec2, "6431", LBIS.L["Feet"], "Alt") --Imperial Leather Boots
 LBIS:AddItem(spec2, "213341", LBIS.L["Feet"], "Alt") --Insulated Workboots
 LBIS:AddItem(spec2, "213340", LBIS.L["Feet"], "Alt") --Gnomebot Operators Boots
+LBIS:AddItem(spec2, "4109", LBIS.L["Feet"], "Alt") --Excelsior Boots
+LBIS:AddItem(spec2, "10748", LBIS.L["Feet"], "Alt") --Wanderlust Boots
 LBIS:AddItem(spec2, "213344", LBIS.L["Neck"], "BIS") --Gnomeregan Peace Officer's Torque
 LBIS:AddItem(spec2, "19536", LBIS.L["Neck"], "Alt") --Scout's Medallion
 LBIS:AddItem(spec2, "19540", LBIS.L["Neck"], "Alt") --Sentinel's Medallion
