@@ -774,6 +774,7 @@ LBIS.ItemSources =
     [9312] = { Name = "Blue Firework", SourceType = LBIS.L["Profession"], Source = LBIS.L["Engineering"], SourceNumber = "0", SourceLocation = "23067", SourceFaction = "B" },
     [9313] = { Name = "Green Firework", SourceType = LBIS.L["Profession"], Source = LBIS.L["Engineering"], SourceNumber = "0", SourceLocation = "23068", SourceFaction = "B" },
     [9318] = { Name = "Red Firework", SourceType = LBIS.L["Profession"], Source = LBIS.L["Engineering"], SourceNumber = "0", SourceLocation = "23066", SourceFaction = "B" },
+    [9359] = { Name = "Southsea Lamp", SourceType = LBIS.L["Drop"], Source = LBIS.L["Cuergo's Hidden Treasure"], SourceNumber = "0", SourceLocation = LBIS.L["Tanaris"], SourceFaction = "B" },
     [9366] = { Name = "Golden Scale Gauntlets", SourceType = LBIS.L["Profession"], Source = LBIS.L["Blacksmithing"], SourceNumber = "0", SourceLocation = "11643", SourceFaction = "B" },
     [9378] = { Name = "Shovelphlange's Mining Axe", SourceType = LBIS.L["Drop"], Source = LBIS.L["Digmaster Shovelphlange"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [9379] = { Name = "Sang'thraze the Deflector", SourceType = LBIS.L["Drop"], Source = LBIS.L["Antu'sul <Overseer of Sul>"], SourceNumber = "0", SourceLocation = LBIS.L["Zul'Farrak"], SourceFaction = "B" },

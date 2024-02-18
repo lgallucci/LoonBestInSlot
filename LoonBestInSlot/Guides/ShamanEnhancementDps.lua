@@ -68,6 +68,7 @@ LBIS:AddItem(spec2, "14770", LBIS.L["Wrist"], "Alt") --Ravager's Armguards
 LBIS:AddItem(spec2, "213318", LBIS.L["Wrist"], "Alt") --Ornate Dark Iron Bangles
 LBIS:AddItem(spec2, "213319", LBIS.L["Hands"], "BIS") --Machinist's Gloves
 LBIS:AddItem(spec2, "211423", LBIS.L["Hands"], "BIS") --Void-Touched Leather Gloves
+LBIS:AddItem(spec2, "7724", LBIS.L["Hands"], "Alt") --Gauntlets of Divinity
 LBIS:AddItem(spec2, "9632", LBIS.L["Hands"], "Alt") --Jangdor's Handcrafted Gloves
 LBIS:AddItem(spec2, "4063", LBIS.L["Hands"], "Alt") --Imperial Leather Gloves
 LBIS:AddItem(spec2, "9435", LBIS.L["Hands"], "Alt") --Reticulated Bone Gauntlets
@@ -101,10 +102,12 @@ LBIS:AddItem(spec2, "213409", LBIS.L["Main Hand"], "BIS") --Mekkatorque's Arcano
 LBIS:AddItem(spec2, "934", LBIS.L["Main Hand/Off Hand"], "BIS") --Stalvan's Reaper
 LBIS:AddItem(spec2, "13026", LBIS.L["Main Hand"], "Alt") --Heaven's Light
 LBIS:AddItem(spec2, "213295", LBIS.L["Main Hand"], "Alt") --Ultrasonic Vibroblade
+LBIS:AddItem(spec2, "7721", LBIS.L["Main Hand"], "Alt") --Hand of Righteousness
 LBIS:AddItem(spec2, "10744", LBIS.L["Main Hand"], "Alt") --Axe of the Ebon Drake
 LBIS:AddItem(spec2, "213442", LBIS.L["Off Hand"], "BIS") --Cogmaster's Claw
 LBIS:AddItem(spec2, "1602", LBIS.L["Off Hand"], "BIS") --Sickle Axe
 LBIS:AddItem(spec2, "9427", LBIS.L["Off Hand"], "Alt") --Stonevault Bonebreaker
+LBIS:AddItem(spec2, "9359", LBIS.L["Off Hand"], "Alt") --Southsea Lamp
 LBIS:AddItem(spec2, "9378", LBIS.L["Off Hand"], "Alt") --Shovelphlange's Mining Axe
 LBIS:AddItem(spec2, "215436", LBIS.L["Ranged/Relic"], "BIS") --Totem of Invigorating Flame
 LBIS:AddItem(spec2, "209575", LBIS.L["Ranged/Relic"], "Alt") --Carved Driftwood Icon
