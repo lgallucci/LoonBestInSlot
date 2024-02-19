@@ -1,17 +1,17 @@
 LBIS.ReCacheDate = time({year=2024, month=2, day=15, hour=0})
 
--- local itemIds = {
---     { 1, 24283 }, -- Defaults
---     { 122270 }, -- WoW Token (AH)
---     { 122284 }, -- WoW Token
---     { 172070 }, -- Customer Service Package
---     { 180089 }, -- Panda Collar
---     { 184937, 184938 }, -- Chronoboon Displacers
---     { 189419, 189421 }, -- Fire Resist Gear
---     { 189426, 189427 }, -- Raid Consumables
---     -- Season of Discovery
---      { 190179, 217704 }
--- }
+local itemIds = {
+    { 1, 24283 }, -- Defaults
+    { 122270 }, -- WoW Token (AH)
+    { 122284 }, -- WoW Token
+    { 172070 }, -- Customer Service Package
+    { 180089 }, -- Panda Collar
+    { 184937, 184938 }, -- Chronoboon Displacers
+    { 189419, 189421 }, -- Fire Resist Gear
+    { 189426, 189427 }, -- Raid Consumables
+    -- Season of Discovery
+     { 190179, 217704 }
+}
 
 function LBIS:PreCacheItems()
     if LBIS.AllItemsCached then return LBIS.AllItemsCached; end
@@ -67,6 +67,63 @@ function LBIS:PreCacheItems()
 
     return LBIS.AllItemsCached;
 end
+
+
+function LBIS:RegisterEvent(...)
+	if not LBIS.EventFrame.RegisteredEvents then
+		LBIS.EventFrame.RegisteredEvents = { };
+		LBIS.EventFrame:SetScript("OnEvent", function(self, event, ...)
+			local handlers = self.RegisteredEvents[event];
+			if handlers then
+				for _, handler in ipairs(handlers) do
+					handler(...);
+				end
+			end
+		end);
+	end
+
+	local params = select("#", ...);
+
+	local handler = select(params, ...);
+	if type(handler) ~= "function" then
+		error("LoonMasterLoot:RegisterEvent: The last passed parameter must be the handler function");
+		return;
+	end
+
+	for i = 1, params - 1 do
+		local event = select(i, ...);
+		if type(event) == "string" then
+			LBIS.EventFrame:RegisterEvent(event);
+			LBIS.EventFrame.RegisteredEvents[event] = LBIS.EventFrame.RegisteredEvents[event] or { };
+			table.insert(LBIS.EventFrame.RegisteredEvents[event], handler);
+		else
+			error("LBIS:RegisterEvent: All but the last passed parameters must be event names");
+		end
+	end
+end
+
+local itemIsOnEnter = false;
+LBIS:RegisterEvent("MODIFIER_STATE_CHANGED", function(key, down)
+    if itemIsOnEnter then
+        if IsShiftKeyDown() then
+            GameTooltip_ShowCompareItem(itemIsOnEnter)
+        else
+            ShoppingTooltip1:Hide()
+            ShoppingTooltip2:Hide()
+        end
+    end
+end);
+
+local _itemCallbackFunction = {}
+LBIS:RegisterEvent("GET_ITEM_INFO_RECEIVED", function(itemId, success)
+    if success then
+        local returnFunc = _itemCallbackFunction[itemId];
+        if returnFunc == nil then
+            returnFunc = function() end
+        end
+        LBIS:GetItemInfo(itemId, returnFunc);
+    end
+end);
 
 --TODO: Remove this after a few months ?
 function LBIS:ConvertCustomList(list)
@@ -166,6 +223,7 @@ itemSlots["INVTYPE_QUIVER"] = LBIS.L["Quiver"];
 itemSlots["INVTYPE_RELIC"] = LBIS.L["Ranged/Relic"];
 function LBIS:GetItemInfo(itemId, returnFunc)
 
+    print("getiteminfo: "..itemId)
     if itemId == nil or not itemId or itemId <= 0 then
         returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil, Class = nil, Slot = nil });
         return;
@@ -176,32 +234,79 @@ function LBIS:GetItemInfo(itemId, returnFunc)
     if cachedItem then
         returnFunc(cachedItem);
     else
-        local itemCache = Item:CreateFromItemID(itemId)
+        print("uncached iteminfo: "..itemId)
+        _itemCallbackFunction[itemId] = returnFunc;
 
-        itemCache:ContinueOnItemLoad(function()
-            local itemId, itemType, subType, itemSlot, _, classId = GetItemInfoInstant(itemId);
-            local name = itemCache:GetItemName();
+        local itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType,
+        subType, itemStackCount, itemEquipLoc, itemTexture, itemSellPrice, classId = GetItemInfo(itemId)
+
+        if itemName ~= nil and not LBIS:IsDevItem(itemId, itemName) then
+
+            _itemCallbackFunction[itemId] = nil;
             
             local newItem = {
                 Id = itemId,
-                Name = name,
-                Link = itemCache:GetItemLink(),
-                Quality = itemCache:GetItemQuality(),
+                Name = itemName,
+                Link = itemLink,
+                Quality = itemRarity,
                 Type = itemType,
-                SubType = subType,                
-                Texture = itemCache:GetItemIcon(),
+                SubType = subType,         
+                Texture = itemTexture,
                 Class = classId,
-                Slot = itemSlots[itemSlot]
+                Slot =  itemSlots[itemEquipLoc]
             };
             
-            if name and LBIS.ItemSources[itemId] ~= nil then
+            if itemName then
                 LBISServerSettings.ItemCache[itemId] = newItem;
             end
             
             returnFunc(newItem);
-        end);
+        end
     end
 end
+
+
+function LBIS:IsDevItem(itemId, itemName)
+    local whitelistedIds = { 19971, 31716 }
+  
+    for _, whitelistedId in ipairs(whitelistedIds) do
+      if itemId == whitelistedId then
+        return false
+      end
+    end
+  
+    local devPatterns = {
+      -- LuaFormatter off
+      'Monster %-',
+      'Monster,',
+      'DEPRECATED',
+      'Dep[rt][ie]cated',
+      'DEP',
+      'DEBUG',
+      '%(old%d?%)',
+      'OLD',
+      '[ %(]test[%) ]',
+      '^test ',
+      'Testing ?%d?$',
+      'Test[%u) ]',
+      'Test$',
+      'Test_',
+      'TEST',
+      '^test$',
+      'UNUSED',
+      '^Unused ',
+      'PH',
+      -- LuaFormatter on
+    }
+  
+    for _, pattern in ipairs(devPatterns) do
+      if itemName:match(pattern) then
+        return true
+      end
+    end
+  
+    return false
+  end
 
 function LBIS:GetSpellInfo(spellId, returnFunc)
 
@@ -278,7 +383,6 @@ function LBIS:CreateDropdown(opts, width)
     return dropdown
 end
 
-local itemIsOnEnter = false;
 function LBIS:SetTooltipOnButton(b, item, isSpell)
     
     b.ItemId = item.Id;
@@ -330,19 +434,6 @@ function LBIS:SetTooltipOnButton(b, item, isSpell)
             GameTooltip:Hide();
         end
     );
-end
-
-function LBIS:RegisterTooltip()
-    LBIS:RegisterEvent("MODIFIER_STATE_CHANGED", function(key, down)
-        if itemIsOnEnter then
-            if IsShiftKeyDown() then
-                GameTooltip_ShowCompareItem(itemIsOnEnter)
-            else
-                ShoppingTooltip1:Hide()
-                ShoppingTooltip2:Hide()
-            end
-        end
-    end);
 end
 
 function LBIS:spairs(t, order)

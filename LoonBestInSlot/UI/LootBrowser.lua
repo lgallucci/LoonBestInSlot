@@ -454,5 +454,4 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     LBIS.BrowserWindow.Window.HideUnavailable = function () f:Hide() end;
 
     LBIS.SearchFrame:CreateSearch();
-    LBIS:RegisterTooltip();
 end

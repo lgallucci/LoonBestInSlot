@@ -40,39 +40,6 @@ function LBIS:Startup()
 	LBIS:InitializeUI();
 end
 
-function LBIS:RegisterEvent(...)
-	if not LBIS.EventFrame.RegisteredEvents then
-		LBIS.EventFrame.RegisteredEvents = { };
-		LBIS.EventFrame:SetScript("OnEvent", function(self, event, ...)
-			local handlers = self.RegisteredEvents[event];
-			if handlers then
-				for _, handler in ipairs(handlers) do
-					handler(...);
-				end
-			end
-		end);
-	end
-
-	local params = select("#", ...);
-
-	local handler = select(params, ...);
-	if type(handler) ~= "function" then
-		error("LoonMasterLoot:RegisterEvent: The last passed parameter must be the handler function");
-		return;
-	end
-
-	for i = 1, params - 1 do
-		local event = select(i, ...);
-		if type(event) == "string" then
-			LBIS.EventFrame:RegisterEvent(event);
-			LBIS.EventFrame.RegisteredEvents[event] = LBIS.EventFrame.RegisteredEvents[event] or { };
-			table.insert(LBIS.EventFrame.RegisteredEvents[event], handler);
-		else
-			error("LBIS:RegisterEvent: All but the last passed parameters must be event names");
-		end
-	end
-end
-
 function LBIS:RegisterSpec(class, spec, phase)
 	
 	if not spec then spec = "" end

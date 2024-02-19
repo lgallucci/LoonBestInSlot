@@ -157,6 +157,7 @@ LBIS:AddItem(spec2, "873", LBIS.L["Two Hand"], "BIS") --Staff of Jordan
 LBIS:AddItem(spec2, "213354", LBIS.L["Two Hand"], "BIS") --Staff of the Evil Genius
 LBIS:AddItem(spec2, "9517", LBIS.L["Two Hand"], "Alt") --Celestial Stave
 LBIS:AddItem(spec2, "1613", LBIS.L["Two Hand"], "Alt") --Spiritchaser Staff
+LBIS:AddItem(spec2, "7757", LBIS.L["Two Hand"], "Alt") --Windweaver Staff
 LBIS:AddItem(spec2, "217299", LBIS.L["Two Hand"], "Alt") --Illusionary Rod
 LBIS:AddItem(spec2, "7513", LBIS.L["Ranged/Relic"], "BIS") --Ragefire Wand
 LBIS:AddItem(spec2, "11263", LBIS.L["Ranged/Relic"], "BIS") --Nether Force Wand

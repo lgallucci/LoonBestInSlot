@@ -71,8 +71,10 @@ LBIS:AddItem(spec1, "209576", LBIS.L["Ranged/Relic"], "BIS") --Mind-Expanding Mu
 
 LBIS:AddItem(spec2, "215381", LBIS.L["Head"], "BIS") --Gneuro-Conductive Channeler's Hood
 LBIS:AddItem(spec2, "215111", LBIS.L["Head"], "Alt") --Gneuro-Linked Arcano-Filament Monocle
+LBIS:AddItem(spec2, "211842", LBIS.L["Head"], "Alt") --Rakkamar's Tattered Thinking Cap
 LBIS:AddItem(spec2, "8214", LBIS.L["Head"], "Alt") --Wild Leather Helmet
 LBIS:AddItem(spec2, "213301", LBIS.L["Shoulder"], "BIS") --Synthetic Mantle
+LBIS:AddItem(spec2, "19507", LBIS.L["Shoulder"], "Alt") --Inquisitor's Shawl
 LBIS:AddItem(spec2, "9912", LBIS.L["Shoulder"], "Alt") --Royal Amice
 LBIS:AddItem(spec2, "216620", LBIS.L["Back"], "BIS") --Bloodrot Cloak
 LBIS:AddItem(spec2, "213306", LBIS.L["Back"], "Alt") --Ingenuity's Cover
@@ -87,6 +89,7 @@ LBIS:AddItem(spec2, "10019", LBIS.L["Hands"], "BIS") --Dreamweave Gloves
 LBIS:AddItem(spec2, "213321", LBIS.L["Waist"], "BIS") --Volatile Concoction Belt
 LBIS:AddItem(spec2, "4329", LBIS.L["Waist"], "Alt") --Star Belt
 LBIS:AddItem(spec2, "213331", LBIS.L["Legs"], "BIS") --Insulated Leggings
+LBIS:AddItem(spec2, "10009", LBIS.L["Legs"], "Alt") --Red Mageweave Pants
 LBIS:AddItem(spec2, "15168", LBIS.L["Legs"], "Alt") --Imposing Pants
 LBIS:AddItem(spec2, "209684", LBIS.L["Legs"], "Alt") --Soul Leech Pants
 LBIS:AddItem(spec2, "215378", LBIS.L["Feet"], "BIS") --Irradiated Boots

@@ -132,6 +132,7 @@ LBIS:AddItem(spec2, "217250", LBIS.L["Shoulder"], "Alt") --Crimson Silk Shoulder
 LBIS:AddItem(spec2, "215365", LBIS.L["Shoulder"], "Alt") --Invoker's Mantle
 LBIS:AddItem(spec2, "12998", LBIS.L["Shoulder"], "Alt") --Magician's Mantle
 LBIS:AddItem(spec2, "211468", LBIS.L["Shoulder"], "Alt") --Frayed Chestnut Mantle
+LBIS:AddItem(spec2, "4197", LBIS.L["Shoulder"], "Alt") --Berylline Pads
 LBIS:AddItem(spec2, "209679", LBIS.L["Shoulder"], "Alt") --Azshari Novice's Shoulderpads
 LBIS:AddItem(spec2, "216620", LBIS.L["Back"], "BIS") --Bloodrot Cloak
 LBIS:AddItem(spec2, "213306", LBIS.L["Back"], "Alt") --Ingenuity's Cover

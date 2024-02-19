@@ -175,7 +175,6 @@ LBIS:AddItem(spec2, "18427", LBIS.L["Back"], "Alt") --Sergeant's Cloak
 LBIS:AddItem(spec2, "216620", LBIS.L["Back"], "Alt") --Bloodrot Cloak
 LBIS:AddItem(spec2, "213306", LBIS.L["Back"], "Alt") --Ingenuity's Cover
 LBIS:AddItem(spec2, "217293", LBIS.L["Back"], "Alt") --Silky Spider Cape
-LBIS:AddItem(spec2, "23178", LBIS.L["Back"], "Alt") --Mantle of Lady Falther'ess
 LBIS:AddItem(spec2, "20218", LBIS.L["Back"], "Alt") --Faded Hakkari Cloak
 LBIS:AddItem(spec2, "20219", LBIS.L["Back"], "Alt") --Tattered Hakkari Cape
 LBIS:AddItem(spec2, "216623", LBIS.L["Back"], "Alt") --Cape of Hemostasis
@@ -319,4 +318,3 @@ LBIS:AddItem(spec2, "217287", LBIS.L["Ranged/Relic"], "Alt") --Greater Mystic Wa
 LBIS:AddItem(spec2, "213411", LBIS.L["Ranged/Relic"], "Alt") --Izzleflick's Inextinguishable Igniter
 LBIS:AddItem(spec2, "13064", LBIS.L["Ranged/Relic"], "Alt") --Jaina's Firestarter
 LBIS:AddItem(spec2, "209674", LBIS.L["Ranged/Relic"], "Alt") --Phoenix Ignition
-LBIS:AddItem(spec2, "23177", LBIS.L["Ranged/Relic"], "Alt") --Lady Falther'ess' Finger

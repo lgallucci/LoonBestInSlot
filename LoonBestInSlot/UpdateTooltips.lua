@@ -127,40 +127,38 @@ local function onTooltipSetItem(tooltip, ...)
 	local itemString = string.match(itemLink, "item[%-?%d:]+")
 	local itemId = tonumber(({ strsplit(":", itemString) })[2])
 
-	LBIS:GetItemInfo(itemId, function(item)
-		local combinedTooltip = {};
-		local foundCustom = {};
+	local combinedTooltip = {};
+	local foundCustom = {};
 
-		
-		if LBIS.CustomEditList.Items[itemId] then
-			foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[itemId], combinedTooltip)
+	
+	if LBIS.CustomEditList.Items[itemId] then
+		foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[itemId], combinedTooltip)
+	end
+
+	local itemEntries = {};
+	if LBIS.ItemsByIdAndSpec[itemId] then		
+		for key, entry in pairs(LBIS.ItemsByIdAndSpec[itemId]) do 	
+			itemEntries[key] = entry;
 		end
+	end
 
-		local itemEntries = {};
-		if LBIS.ItemsByIdAndSpec[itemId] then		
-			for key, entry in pairs(LBIS.ItemsByIdAndSpec[itemId]) do 	
-				itemEntries[key] = entry;
+	if LBIS.TierSources[itemId] then
+		for k, v in pairs(LBIS.TierSources[itemId]) do
+			if LBIS.CustomEditList.Items[v] then
+				foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[v], combinedTooltip)
 			end
-		end
-
-		if LBIS.TierSources[itemId] then
-			for k, v in pairs(LBIS.TierSources[itemId]) do
-				if LBIS.CustomEditList.Items[v] then
-					foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[v], combinedTooltip)
-				end
-				
-				if LBIS.ItemsByIdAndSpec[v] then
-					for key, entry in pairs(LBIS.ItemsByIdAndSpec[v]) do 	
-						itemEntries[key] = entry;
-					end
+			
+			if LBIS.ItemsByIdAndSpec[v] then
+				for key, entry in pairs(LBIS.ItemsByIdAndSpec[v]) do 	
+					itemEntries[key] = entry;
 				end
 			end
 		end
+	end
 
-		buildCombinedTooltip(itemEntries, combinedTooltip, foundCustom);
+	buildCombinedTooltip(itemEntries, combinedTooltip, foundCustom);
 
-		buildTooltip(tooltip, combinedTooltip);
-	end)
+	buildTooltip(tooltip, combinedTooltip);
 end
 
 local function onTooltipCleared(tooltip)
