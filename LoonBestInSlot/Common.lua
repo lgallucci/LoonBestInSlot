@@ -2,29 +2,36 @@ LBIS.ReCacheDate = time({year=2024, month=2, day=15, hour=0})
 
 local itemIds = {
     { 1, 24283 }, -- Defaults
-    { 122270 }, -- WoW Token (AH)
-    { 122284 }, -- WoW Token
-    { 172070 }, -- Customer Service Package
     { 180089 }, -- Panda Collar
-    { 184937, 184938 }, -- Chronoboon Displacers
     { 189419, 189421 }, -- Fire Resist Gear
     { 189426, 189427 }, -- Raid Consumables
     -- Season of Discovery
      { 190179, 217704 }
 }
 
+local function GetTableLng(tbl)
+    local getN = 0
+    for n in pairs(tbl) do
+      getN = getN + 1
+    end
+    return getN
+end
+
 function LBIS:PreCacheItems()
+    LBIS:Debug("PreCacheItems");
     if LBIS.AllItemsCached then return LBIS.AllItemsCached; end
 
     LBIS.AllItemsCached = true;
     --If cache date is updated (because of cache changing) reset the cache
     if (not LBISServerSettings.LastCacheDate or LBISServerSettings.LastCacheDate < LBIS.ReCacheDate) then
+        LBIS:Debug("PreCacheItems:ClearingCache");
         LBISServerSettings.ItemCache = {};
         LBISServerSettings.LastCacheDate = time();
     end
 
     --If language is switched between logins, reset cache
     if (GetLocale() ~= LBISServerSettings.CurrentLocale) then
+        LBIS:Debug("PreCacheItems:ClearingCache:LocalizationChanged");
         LBISServerSettings.CurrentLocale = GetLocale();
         LBISServerSettings.ItemCache = {};
         LBISServerSettings.LastCacheDate = time();
@@ -37,7 +44,7 @@ function LBIS:PreCacheItems()
             LBIS:ConvertCustomList(LBISServerSettings.CustomList[prioSpec][prioSlot]);
 
             for _, item in pairs(LBISServerSettings.CustomList[prioSpec][prioSlot]) do
-                
+
                 if LBIS.CustomEditList.Items[item.ItemId] == nil then
                     LBIS.CustomEditList.Items[item.ItemId] = {};
                 end
@@ -65,11 +72,14 @@ function LBIS:PreCacheItems()
     --     end
     -- end
 
+    LBIS:Debug("PreCacheItems:Completed:ItemCache:Count:"..GetTableLng(LBISServerSettings.ItemCache));
+
     return LBIS.AllItemsCached;
 end
 
 
 function LBIS:RegisterEvent(...)
+    LBIS:Debug("RegisterEvent");
 	if not LBIS.EventFrame.RegisteredEvents then
 		LBIS.EventFrame.RegisteredEvents = { };
 		LBIS.EventFrame:SetScript("OnEvent", function(self, event, ...)
@@ -117,6 +127,7 @@ end);
 local _itemCallbackFunction = {}
 LBIS:RegisterEvent("GET_ITEM_INFO_RECEIVED", function(itemId, success)
     if success then
+        LBIS:Debug("GET_ITEM_INFO_RECEIVED:success");
         local returnFunc = _itemCallbackFunction[itemId];
         if returnFunc == nil then
             returnFunc = function() end
@@ -127,7 +138,7 @@ end);
 
 --TODO: Remove this after a few months ?
 function LBIS:ConvertCustomList(list)
-    
+
     local itemCount = 1;
     --Loop through all items in list
     for _, item in pairs(list) do
@@ -223,7 +234,7 @@ itemSlots["INVTYPE_QUIVER"] = LBIS.L["Quiver"];
 itemSlots["INVTYPE_RELIC"] = LBIS.L["Ranged/Relic"];
 function LBIS:GetItemInfo(itemId, returnFunc)
 
-    print("getiteminfo: "..itemId)
+    LBIS:Debug("GetItemInfo");
     if itemId == nil or not itemId or itemId <= 0 then
         returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil, Class = nil, Slot = nil });
         return;
@@ -234,32 +245,30 @@ function LBIS:GetItemInfo(itemId, returnFunc)
     if cachedItem then
         returnFunc(cachedItem);
     else
-        print("uncached iteminfo: "..itemId)
+        LBIS:Debug("GetItemInfo:NotCached");
         _itemCallbackFunction[itemId] = returnFunc;
 
         local itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType,
         subType, itemStackCount, itemEquipLoc, itemTexture, itemSellPrice, classId = GetItemInfo(itemId)
 
         if itemName ~= nil and not LBIS:IsDevItem(itemId, itemName) then
+            LBIS:Debug("GetItemInfo:FoundItem");
 
             _itemCallbackFunction[itemId] = nil;
-            
+
             local newItem = {
                 Id = itemId,
                 Name = itemName,
                 Link = itemLink,
                 Quality = itemRarity,
                 Type = itemType,
-                SubType = subType,         
+                SubType = subType,
                 Texture = itemTexture,
                 Class = classId,
                 Slot =  itemSlots[itemEquipLoc]
             };
-            
-            if itemName then
-                LBISServerSettings.ItemCache[itemId] = newItem;
-            end
-            
+
+            LBISServerSettings.ItemCache[itemId] = newItem;
             returnFunc(newItem);
         end
     end
@@ -268,13 +277,13 @@ end
 
 function LBIS:IsDevItem(itemId, itemName)
     local whitelistedIds = { 19971, 31716 }
-  
+
     for _, whitelistedId in ipairs(whitelistedIds) do
       if itemId == whitelistedId then
         return false
       end
     end
-  
+
     local devPatterns = {
       -- LuaFormatter off
       'Monster %-',
@@ -298,18 +307,19 @@ function LBIS:IsDevItem(itemId, itemName)
       'PH',
       -- LuaFormatter on
     }
-  
+
     for _, pattern in ipairs(devPatterns) do
       if itemName:match(pattern) then
         return true
       end
     end
-  
+
     return false
   end
 
 function LBIS:GetSpellInfo(spellId, returnFunc)
 
+    LBIS:Debug("GetSpellInfo");
     if not spellId or spellId <= 0 then
         returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil });
     end
@@ -319,11 +329,12 @@ function LBIS:GetSpellInfo(spellId, returnFunc)
     if cachedSpell then
         returnFunc(cachedSpell);
     else
+        LBIS:Debug("GetSpellInfo:NotCached");
         local spellCache = Spell:CreateFromSpellID(spellId)
 
         spellCache:ContinueOnSpellLoad(function()
             local name = spellCache:GetSpellName();
-            
+
             local newSpell = {
                 Id = spellId,
                 Name = name,
@@ -334,10 +345,10 @@ function LBIS:GetSpellInfo(spellId, returnFunc)
             if name then
                 LBIS.SpellCache[spellId] = newSpell;
             end
-            
+
             returnFunc(newSpell);
         end);
-    end           
+    end
 end
 
 local LibDD = LibStub:GetLibrary("LibUIDropDownMenu-4.0")
@@ -348,6 +359,7 @@ local LibDD = LibStub:GetLibrary("LibUIDropDownMenu-4.0")
 ---     defaultVal (String): String value for the dropdown to default to (empty otherwise).
 ---     changeFunc (Function): A custom function to be called, after selecting a dropdown option.
 function LBIS:CreateDropdown(opts, width)
+    LBIS:Debug("CreateDropdown");
     local dropdown_name = '$parent_' .. opts['name'] .. '_dropdown'
     local menu_items = opts['items'] or {}
     local title_text = opts['title'] or ''
@@ -384,7 +396,8 @@ function LBIS:CreateDropdown(opts, width)
 end
 
 function LBIS:SetTooltipOnButton(b, item, isSpell)
-    
+    LBIS:Debug("SetTooltipOnButton");
+
     b.ItemId = item.Id;
     b.ItemLink = item.Link;
 
@@ -398,7 +411,7 @@ function LBIS:SetTooltipOnButton(b, item, isSpell)
         GameTooltip:Hide();
     end
 
-    b:SetScript("OnClick", 
+    b:SetScript("OnClick",
         function(self, button)
             if button == "LeftButton" then
                 if isSpell then
@@ -410,7 +423,7 @@ function LBIS:SetTooltipOnButton(b, item, isSpell)
         end
     );
 
-    b:SetScript("OnEnter", 
+    b:SetScript("OnEnter",
         function(self)
             GameTooltip:SetOwner(self, "ANCHOR_LEFT");
             if isSpell == nil or isSpell == false then
@@ -420,14 +433,14 @@ function LBIS:SetTooltipOnButton(b, item, isSpell)
             end
             GameTooltip:Show();
             itemIsOnEnter = GameTooltip;
-                
+
             if IsShiftKeyDown() and itemIsOnEnter then
                 GameTooltip_ShowCompareItem(GameTooltip)
             end
         end
     );
 
-    b:SetScript("OnLeave", 
+    b:SetScript("OnLeave",
         function(self)
             itemIsOnEnter = nil;
             GameTooltip:SetOwner(UIParent, "ANCHOR_NONE");
@@ -443,14 +456,14 @@ function LBIS:spairs(t, order)
 
     if t ~= nil then
         for k in pairs(t) do keys[#keys+1] = k end
-        
+
         -- if order function given, sort by it by passing the table and keys a, b,
-        -- otherwise just sort the keys 
+        -- otherwise just sort the keys
         if order then
             table.sort(keys, function(a,b) return order(t, a, b) end)
         else
             table.sort(keys)
-        end    
+        end
     end
     -- return the iterator function
     local i = 0
@@ -494,7 +507,13 @@ local function stringify(object)
 end
 
 function LBIS:Debug(startString, object)
-    ChatFrame6:AddMessage("LBIS:"..startString..stringify(object));
+    if LBIS.Debugging then
+        if object == nil then
+            print("LBIS:"..startString);
+        else
+            print("LBIS:"..startString..stringify(object));
+        end
+    end
 end
 
 function LBIS:Error(startString, object)

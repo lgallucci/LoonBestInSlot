@@ -115,6 +115,7 @@ end
 
 local tooltip_modified = {}
 local function onTooltipSetItem(tooltip, ...)
+    LBIS:Debug("OnTooltipSetItem");
 
 	if tooltip_modified[tooltip:GetName()] then
 		-- this happens twice, because of how recipes work
@@ -162,10 +163,12 @@ local function onTooltipSetItem(tooltip, ...)
 end
 
 local function onTooltipCleared(tooltip)
+    LBIS:Debug("OnTooltipSetCleared");
     tooltip_modified[tooltip:GetName()] = nil
 end
 
 local function onTooltipSetSpell(tooltip, ...)
+    LBIS:Debug("OnTooltipSetSpell");
 
 	local _, spellId = tooltip:GetSpell()
     if not spellId then return end

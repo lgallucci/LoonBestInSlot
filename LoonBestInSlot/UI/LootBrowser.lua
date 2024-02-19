@@ -34,6 +34,7 @@ end
 local customListTabButton;
 local customEditTabButton;
 function LBIS.BrowserWindow:RefreshItems()
+    LBIS:Debug("BrowserWindow:RefreshItems");
 
     if LBISSettings.ShowCustom then
         customListTabButton:Show()
@@ -115,6 +116,7 @@ function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, frameName, p
 end
 
 function LBIS.BrowserWindow:UpdateItemsForSpec(rowFunc)
+    LBIS:Debug("BrowserWindow:UpdateItemsForSpec");
             
     if LBISSettings.SelectedSpec == "" then
         return;

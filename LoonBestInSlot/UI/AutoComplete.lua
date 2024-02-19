@@ -96,6 +96,7 @@ local function createButton()
 end
 
 function LBIS.AutoComplete:Clear()
+    LBIS:Debug("AutoComplete:Clear");
     local ac = LBIS.AutoComplete;
     if isEmpty() then
       return
@@ -115,6 +116,7 @@ function LBIS.AutoComplete:Clear()
 end
 
 function LBIS.AutoComplete:Add(item)
+    LBIS:Debug("AutoComplete:Add");
     local ac = LBIS.AutoComplete;
     ac.Frame:Show();
     ac.buttonCount = ac.buttonCount + 1
@@ -194,7 +196,8 @@ function LBIS.AutoComplete:HandleKeyDown(key)
       end
 end
 
-function LBIS.AutoComplete:Create(frame, selectFunc) 
+function LBIS.AutoComplete:Create(frame, selectFunc)
+    LBIS:Debug("AutoComplete:Create");
     local scrollframe = CreateFrame("ScrollFrame", nil, frame, 'BackdropTemplate');
     local scrollbar = CreateFrame("Slider", nil, scrollframe, "UIPanelScrollBarTemplate");
     local content = CreateFrame("Frame", nil, scrollframe);

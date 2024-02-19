@@ -10,6 +10,7 @@ LBIS.EnchantsBySpecAndId = {};
 
 LBIS.SpellCache = {};
 
+LBIS.Debugging = false;
 LBIS.AllItemsCached = false;
 LBIS.CurrentPhase = 2;
 

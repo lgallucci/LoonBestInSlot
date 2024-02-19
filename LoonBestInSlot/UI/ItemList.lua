@@ -194,7 +194,7 @@ slotToWowCodes[LBIS.L["Two Hand"]] = "MAINHANDSLOT";
 slotToWowCodes[LBIS.L["Ranged/Relic"]] = "RANGEDSLOT";
 local function IsNotObsolete(specItem)
     if LBISSettings.HideObsolete then
-        
+
         local itemId1, itemId2 = -1, -1;
 
         if specItem.Slot == "Main Hand/Off Hand" then
