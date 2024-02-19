@@ -74,6 +74,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Crimson Whelp"] = "";
   LBIS.L["Crowd Pummeler 9-60"] = "Meute-Verprügler 9-60";
 --  LBIS.L["Crushridge Warmonger"] = "";
+--  LBIS.L["Cuergo's Hidden Treasure"] = "";
   LBIS.L["Custom"] = "Benutzerdefiniert";
   LBIS.L["Dangerous!"] = "Gefährlich!";
 --  LBIS.L["Dark Iron Rifleman"] = "";
@@ -113,7 +114,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Enchants"] = "Verzauberungen";
   LBIS.L["Engineering"] = "Ingenieurskunst";
 --  LBIS.L["Enhancement Dps"] = "";
---  LBIS.L["Eric "The Swift"] = "";
+--  LBIS.L["Eric 'The Swift'"] = "";
   LBIS.L["Excelsior"] = "Exzelsior";
   LBIS.L["Eye of the Storm Marks"] = "Auge der Sturmzeichen";
   LBIS.L["Fallen Champion"] = "Gestürzter Held";
@@ -162,6 +163,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Houndmaster Loksey"] = "Hundemeister Loksey";
   LBIS.L["Howling in the Hills"] = "Geheul in den Hügeln";
   LBIS.L["Hydromancer Velratha"] = "Wasserbeschwörerin Velratha";
+--  LBIS.L["Hypnotic Blade"] = "";
   LBIS.L["In Nightmares"] = "Alptraum";
   LBIS.L["In the Name of the Light"] = "Im Namen des Lichts";
   LBIS.L["Interrogator Vishas"] = "Befrager Vishas";
@@ -206,6 +208,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Main Hand"] = "Waffenhand";
   LBIS.L["Main Hand/Off Hand"] = "Waffenhand/Schildhand";
   LBIS.L["Maraudon"] = "Maraudon";
+  LBIS.L["Mazen's Behest"] = "Mazens Befehl";
   LBIS.L["Mekgineer Thermaplugg"] = "Robogenieur Thermaplugg";
   LBIS.L["Miner Johnson (Rare)"] = "Minenarbeiter Johnson (Selten)";
   LBIS.L["Missing In Action"] = "Vermisst";
@@ -296,6 +299,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Show Custom"] = "";
   LBIS.L["Show Minimap Button"] = "Schaltfläche Minikarte anzeigen";
   LBIS.L["Show Tooltip"] = "Kurzinfo anzeigen";
+--  LBIS.L["Sigrun Ironhew"] = "";
   LBIS.L["Silithus"] = "Silithus";
   LBIS.L["Silverpine Forest"] = "Silberwald";
 --  LBIS.L["Skeletal Raider"] = "";

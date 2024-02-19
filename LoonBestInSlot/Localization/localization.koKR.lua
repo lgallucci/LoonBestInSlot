@@ -74,6 +74,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Crimson Whelp"] = "";
   LBIS.L["Crowd Pummeler 9-60"] = "고철 압축기 9-60";
 --  LBIS.L["Crushridge Warmonger"] = "";
+--  LBIS.L["Cuergo's Hidden Treasure"] = "";
   LBIS.L["Custom"] = "사용자 설정";
   LBIS.L["Dangerous!"] = "위험 인물 수배!";
 --  LBIS.L["Dark Iron Rifleman"] = "";
@@ -113,7 +114,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Enchants"] = "마법 부여";
   LBIS.L["Engineering"] = "기계공학";
 --  LBIS.L["Enhancement Dps"] = "";
---  LBIS.L["Eric "The Swift"] = "";
+--  LBIS.L["Eric 'The Swift'"] = "";
   LBIS.L["Excelsior"] = "덩치 큰 바다악어 가죽";
   LBIS.L["Eye of the Storm Marks"] = "폭풍의 눈 명예 훈장";
   LBIS.L["Fallen Champion"] = "타락한 용사";
@@ -162,6 +163,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Houndmaster Loksey"] = "사냥개 조련사 록시";
   LBIS.L["Howling in the Hills"] = "언덕에서 들려 오는 울음소리";
   LBIS.L["Hydromancer Velratha"] = "유체술사 벨라타";
+--  LBIS.L["Hypnotic Blade"] = "";
   LBIS.L["In Nightmares"] = "악몽";
   LBIS.L["In the Name of the Light"] = "빛의 이름으로!";
   LBIS.L["Interrogator Vishas"] = "심문관 비샤스";
@@ -206,6 +208,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Main Hand"] = "주장비";
   LBIS.L["Main Hand/Off Hand"] = "주장비/보조장비";
   LBIS.L["Maraudon"] = "마라우돈";
+  LBIS.L["Mazen's Behest"] = "마젠의 부탁";
   LBIS.L["Mekgineer Thermaplugg"] = "멕기니어 텔마플러그";
   LBIS.L["Miner Johnson (Rare)"] = "광부 존슨 (희귀)";
   LBIS.L["Missing In Action"] = "교전 중 실종";
@@ -296,6 +299,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Show Custom"] = "커스텀 보이기";
   LBIS.L["Show Minimap Button"] = "미니맵 버튼 보이기";
   LBIS.L["Show Tooltip"] = "직업 툴팁 표시";
+--  LBIS.L["Sigrun Ironhew"] = "";
   LBIS.L["Silithus"] = "실리더스";
   LBIS.L["Silverpine Forest"] = "은빛소나무 숲";
 --  LBIS.L["Skeletal Raider"] = "";

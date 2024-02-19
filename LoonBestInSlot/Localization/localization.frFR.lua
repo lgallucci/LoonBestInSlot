@@ -74,6 +74,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Crimson Whelp"] = "";
   LBIS.L["Crowd Pummeler 9-60"] = "Faucheur de foule 9-60";
 --  LBIS.L["Crushridge Warmonger"] = "";
+--  LBIS.L["Cuergo's Hidden Treasure"] = "";
   LBIS.L["Custom"] = "Personnalisé";
   LBIS.L["Dangerous!"] = "Dangereux !";
 --  LBIS.L["Dark Iron Rifleman"] = "";
@@ -113,7 +114,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Enchants"] = "Enchantements";
   LBIS.L["Engineering"] = "Ingénierie";
 --  LBIS.L["Enhancement Dps"] = "";
---  LBIS.L["Eric "The Swift"] = "";
+--  LBIS.L["Eric 'The Swift'"] = "";
   LBIS.L["Excelsior"] = "L'Excelsior de chez Drizzlik";
 --  LBIS.L["Eye of the Storm Marks"] = "";
   LBIS.L["Fallen Champion"] = "Champion mort";
@@ -162,6 +163,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Houndmaster Loksey"] = "Maître-chien Loksey";
   LBIS.L["Howling in the Hills"] = "Les collines aux hurlements";
   LBIS.L["Hydromancer Velratha"] = "Hydromancienne Velratha";
+--  LBIS.L["Hypnotic Blade"] = "";
   LBIS.L["In Nightmares"] = "Au cœur des cauchemars";
   LBIS.L["In the Name of the Light"] = "Au nom de la Lumière";
   LBIS.L["Interrogator Vishas"] = "Interrogateur Vishas";
@@ -206,6 +208,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Main Hand"] = "Main droite";
   LBIS.L["Main Hand/Off Hand"] = "Main droite/Main gauche";
   LBIS.L["Maraudon"] = "Maraudon";
+  LBIS.L["Mazen's Behest"] = "Les ordres de Mazen";
   LBIS.L["Mekgineer Thermaplugg"] = "Mekgénieur Thermaplugg";
   LBIS.L["Miner Johnson (Rare)"] = "Mineur Johnson (Rare)";
   LBIS.L["Missing In Action"] = "Porté disparu";
@@ -296,6 +299,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
+--  LBIS.L["Sigrun Ironhew"] = "";
   LBIS.L["Silithus"] = "Silithus";
   LBIS.L["Silverpine Forest"] = "Forêt des Pins-Argentés";
 --  LBIS.L["Skeletal Raider"] = "";

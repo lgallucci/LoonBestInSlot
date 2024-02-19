@@ -74,6 +74,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Crimson Whelp"] = "";
   LBIS.L["Crowd Pummeler 9-60"] = "Толпогон 9-60";
 --  LBIS.L["Crushridge Warmonger"] = "";
+--  LBIS.L["Cuergo's Hidden Treasure"] = "";
   LBIS.L["Custom"] = "Вручную";
   LBIS.L["Dangerous!"] = "Вооружены и очень опасны!";
 --  LBIS.L["Dark Iron Rifleman"] = "";
@@ -113,7 +114,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Enchants"] = "Чары на оружии";
   LBIS.L["Engineering"] = "Инженерное дело";
 --  LBIS.L["Enhancement Dps"] = "";
---  LBIS.L["Eric "The Swift"] = "";
+--  LBIS.L["Eric 'The Swift'"] = "";
   LBIS.L["Excelsior"] = "Эксельзиор";
 --  LBIS.L["Eye of the Storm Marks"] = "";
   LBIS.L["Fallen Champion"] = "Павший воитель";
@@ -162,6 +163,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Houndmaster Loksey"] = "Псарь Локси";
   LBIS.L["Howling in the Hills"] = "Вой в холмах";
   LBIS.L["Hydromancer Velratha"] = "Гидромант Велрата";
+--  LBIS.L["Hypnotic Blade"] = "";
   LBIS.L["In Nightmares"] = "Кошмары";
   LBIS.L["In the Name of the Light"] = "Во имя Света!";
   LBIS.L["Interrogator Vishas"] = "Дознаватель Вишас";
@@ -206,6 +208,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Main Hand"] = "Правая рука";
   LBIS.L["Main Hand/Off Hand"] = "Правая рука/Левая рука";
   LBIS.L["Maraudon"] = "Мародон";
+  LBIS.L["Mazen's Behest"] = "Задание Мазена";
   LBIS.L["Mekgineer Thermaplugg"] = "Мекжинер Термоштепсель";
   LBIS.L["Miner Johnson (Rare)"] = "Шахтер Джонсон (Редкое)";
   LBIS.L["Missing In Action"] = "Пропавший без вести";
@@ -296,6 +299,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
+--  LBIS.L["Sigrun Ironhew"] = "";
   LBIS.L["Silithus"] = "Силитус";
   LBIS.L["Silverpine Forest"] = "Серебряный бор";
 --  LBIS.L["Skeletal Raider"] = "";

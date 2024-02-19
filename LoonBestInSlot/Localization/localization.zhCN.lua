@@ -74,6 +74,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Crimson Whelp"] = "";
   LBIS.L["Crowd Pummeler 9-60"] = "群体打击者9-60";
 --  LBIS.L["Crushridge Warmonger"] = "";
+--  LBIS.L["Cuergo's Hidden Treasure"] = "";
   LBIS.L["Custom"] = "自定义";
   LBIS.L["Dangerous!"] = "危险！";
 --  LBIS.L["Dark Iron Rifleman"] = "";
@@ -113,7 +114,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Enchants"] = "附魔";
   LBIS.L["Engineering"] = "工程学";
 --  LBIS.L["Enhancement Dps"] = "";
---  LBIS.L["Eric "The Swift"] = "";
+--  LBIS.L["Eric 'The Swift'"] = "";
   LBIS.L["Excelsior"] = "刨花皮靴";
 --  LBIS.L["Eye of the Storm Marks"] = "";
   LBIS.L["Fallen Champion"] = "死灵勇士";
@@ -162,6 +163,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Houndmaster Loksey"] = "驯犬者洛克希";
   LBIS.L["Howling in the Hills"] = "群山中的嚎叫";
   LBIS.L["Hydromancer Velratha"] = "水占师维蕾萨";
+--  LBIS.L["Hypnotic Blade"] = "";
   LBIS.L["In Nightmares"] = "在噩梦中";
   LBIS.L["In the Name of the Light"] = "以圣光之名";
   LBIS.L["Interrogator Vishas"] = "审讯员韦沙斯";
@@ -206,6 +208,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Main Hand"] = "主手";
   LBIS.L["Main Hand/Off Hand"] = "主手/副手";
   LBIS.L["Maraudon"] = "玛拉顿";
+  LBIS.L["Mazen's Behest"] = "马森的请求";
   LBIS.L["Mekgineer Thermaplugg"] = "麦克尼尔·瑟玛普拉格";
   LBIS.L["Miner Johnson (Rare)"] = "矿工约翰森 (精良)";
   LBIS.L["Missing In Action"] = "失踪人员";
@@ -296,6 +299,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
+--  LBIS.L["Sigrun Ironhew"] = "";
   LBIS.L["Silithus"] = "希利苏斯";
   LBIS.L["Silverpine Forest"] = "银松森林";
 --  LBIS.L["Skeletal Raider"] = "";
