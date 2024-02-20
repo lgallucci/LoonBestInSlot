@@ -1,9 +1,10 @@
 local spec1 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Dps"], "1")
 local spec2 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Dps"], "2")
 
-LBIS:AddEnchant(spec2, "13419", LBIS.L["Back"]) --Enchant Cloak - Minor Agility
-LBIS:AddEnchant(spec2, "13626", LBIS.L["Chest"]) --Enchant Chest - Minor Stats
-LBIS:AddEnchant(spec2, "13536", LBIS.L["Wrist"]) --Enchant Bracer - Lesser Strength
+LBIS:AddEnchant(spec2, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
+LBIS:AddEnchant(spec2, "13700", LBIS.L["Chest"]) --Enchant Chest - Lesser Stats
+LBIS:AddEnchant(spec2, "13661", LBIS.L["Wrist"]) --Enchant Bracer - Strength
+LBIS:AddEnchant(spec2, "13887", LBIS.L["Hands"]) --Enchant Gloves - Strength
 LBIS:AddEnchant(spec2, "7867", LBIS.L["Feet"]) --Enchant Boots - Minor Agility
 LBIS:AddEnchant(spec2, "13503", LBIS.L["Main Hand"]) --Enchant Weapon - Lesser Striking
 LBIS:AddEnchant(spec2, "13529", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Lesser Impact

@@ -17,6 +17,24 @@ local function GetTableLng(tbl)
     return getN
 end
 
+function LBIS:Debug(startString, object)
+    if LBIS.Debugging then
+        if object == nil then
+            print("LBIS:"..startString);
+        else
+            print("LBIS:"..startString..stringify(object));
+        end
+    end
+end
+
+function LBIS:Error(startString, object)
+    if object == nil then
+        print("LoonBestInSlot ERROR:"..startString);
+    else
+        print("LoonBestInSlot ERROR:"..startString..stringify(object));
+    end
+end
+
 function LBIS:PreCacheItems()
     LBIS:Debug("PreCacheItems");
     if LBIS.AllItemsCached then return LBIS.AllItemsCached; end
@@ -76,7 +94,6 @@ function LBIS:PreCacheItems()
 
     return LBIS.AllItemsCached;
 end
-
 
 function LBIS:RegisterEvent(...)
     LBIS:Debug("RegisterEvent");
@@ -155,19 +172,23 @@ function LBIS:ConvertCustomList(list)
 end
 
 function LBIS:CacheItem(itemId)
-    LBIS:GetItemInfo(itemId, function(cacheItem)
-        if not cacheItem or cacheItem.Name == nil then
-            LBIS:ReCacheItem(itemId)
-        end
-    end);
+    if not LBISServerSettings.ItemCache[itemId] then
+        LBIS:GetItemInfo(itemId, function(cacheItem)
+            if not cacheItem or cacheItem.Name == nil then
+                LBIS:ReCacheItem(itemId)
+            end
+        end);
+    end
 end
 
 function LBIS:ReCacheItem(itemId)
-    LBIS:GetItemInfo(itemId, function(cacheItem)
-        if not cacheItem or cacheItem.Name == nil then
-            LBIS:Error("Failed to cache ("..itemId.."): ", cacheItem);
-        end
-    end);
+    if not LBISServerSettings.ItemCache[itemId] then
+        LBIS:GetItemInfo(itemId, function(cacheItem)
+            if not cacheItem or cacheItem.Name == nil then
+                LBIS:Error("Failed to cache ("..itemId.."): ", cacheItem);
+            end
+        end);
+    end
 end
 
 function LBIS:GetPhaseNumbers(phaseText)
@@ -234,7 +255,6 @@ itemSlots["INVTYPE_QUIVER"] = LBIS.L["Quiver"];
 itemSlots["INVTYPE_RELIC"] = LBIS.L["Ranged/Relic"];
 function LBIS:GetItemInfo(itemId, returnFunc)
 
-    LBIS:Debug("GetItemInfo");
     if itemId == nil or not itemId or itemId <= 0 then
         returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil, Class = nil, Slot = nil });
         return;
@@ -252,7 +272,7 @@ function LBIS:GetItemInfo(itemId, returnFunc)
         subType, itemStackCount, itemEquipLoc, itemTexture, itemSellPrice, classId = GetItemInfo(itemId)
 
         if itemName ~= nil and not LBIS:IsDevItem(itemId, itemName) then
-            LBIS:Debug("GetItemInfo:FoundItem");
+            LBIS:Debug("GetItemInfo:FoundItem:"..GetTableLng(_itemCallbackFunction));
 
             _itemCallbackFunction[itemId] = nil;
 
@@ -268,7 +288,10 @@ function LBIS:GetItemInfo(itemId, returnFunc)
                 Slot =  itemSlots[itemEquipLoc]
             };
 
-            LBISServerSettings.ItemCache[itemId] = newItem;
+            if itemRarity > 1 and (itemType == ARMOR or itemType == WEAPON) then
+                LBIS:Debug("GetItemInfo:FoundItem:CachingItem: "..itemId);
+                LBISServerSettings.ItemCache[itemId] = newItem;
+            end
             returnFunc(newItem);
         end
     end
@@ -504,24 +527,6 @@ local function stringify(object)
         debugString = "Tried to debug an unknown type: "..objectType;
     end
     return debugString
-end
-
-function LBIS:Debug(startString, object)
-    if LBIS.Debugging then
-        if object == nil then
-            print("LBIS:"..startString);
-        else
-            print("LBIS:"..startString..stringify(object));
-        end
-    end
-end
-
-function LBIS:Error(startString, object)
-    if object == nil then
-        print("LoonBestInSlot ERROR:"..startString);
-    else
-        print("LoonBestInSlot ERROR:"..startString..stringify(object));
-    end
 end
 
 function LBIS:GetItemIdFromLink(itemLink)

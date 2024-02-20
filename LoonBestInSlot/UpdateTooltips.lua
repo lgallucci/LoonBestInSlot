@@ -113,15 +113,8 @@ local function buildTooltip(tooltip, combinedTooltip)
 	end
 end
 
-local tooltip_modified = {}
 local function onTooltipSetItem(tooltip, ...)
-    LBIS:Debug("OnTooltipSetItem");
-
-	if tooltip_modified[tooltip:GetName()] then
-		-- this happens twice, because of how recipes work
-		return
-	end
-	tooltip_modified[tooltip:GetName()] = true
+    LBIS:Debug("OnTooltipSetItem:"..tooltip:GetName());
 
 	local _, itemLink = tooltip:GetItem()
     if not itemLink then return end
@@ -162,13 +155,8 @@ local function onTooltipSetItem(tooltip, ...)
 	buildTooltip(tooltip, combinedTooltip);
 end
 
-local function onTooltipCleared(tooltip)
-    LBIS:Debug("OnTooltipSetCleared");
-    tooltip_modified[tooltip:GetName()] = nil
-end
-
 local function onTooltipSetSpell(tooltip, ...)
-    LBIS:Debug("OnTooltipSetSpell");
+    LBIS:Debug("OnTooltipSetSpell:"..tooltip:GetName());
 
 	local _, spellId = tooltip:GetSpell()
     if not spellId then return end
@@ -182,37 +170,22 @@ local function onTooltipSetSpell(tooltip, ...)
 	buildTooltip(tooltip, combinedTooltip);
 end
 
-local hookStore = {};
-local function hookScript(tip, script, prehook)
-	if not hookStore[tip] then hookStore[tip] = {} end
-	local control
-	-- check for existing hook
-	control = hookStore[tip][script]
-	if control then
-		control[1] = prehook or control[1]
-		return
+local function hook(table, fn, cb)
+	if table and table[fn] then
+		hooksecurefunc(table, fn, cb)
 	end
-	-- prepare upvalues
-	local orig = tip:GetScript(script)
-	control = {prehook}
-	hookStore[tip][script] = control
-	-- install hook stub
-	local stub = function(...)
-		local h
-		-- prehook
-		h = control[1]
-		if h then h(...) end
-		-- original hook
-		if orig then orig(...) end
+end
+  
+local function hookScript(table, fn, cb)
+	if table and table:HasScript(fn) then
+		table:HookScript(fn, cb)
 	end
-	tip:SetScript(script, stub)
 end
 
 local function registerTooltip(tooltip)
 
-	hookScript(tooltip, "OnTooltipSetItem", onTooltipSetItem);
-	hookScript(tooltip, "OnTooltipSetSpell", onTooltipSetSpell);
-	hookScript(tooltip, "OnTooltipCleared", onTooltipCleared);
+	hookScript(tooltip, "OnTooltipSetItem", onTooltipSetItem)
+	hookScript(tooltip, "OnTooltipSetSpell", onTooltipSetSpell)
 
 end
 
@@ -228,8 +201,9 @@ LBIS:RegisterEvent("PLAYER_ENTERING_WORLD" , function ()
 	registerTooltip(ShoppingTooltip2);
 
 	registerTooltip(ItemRefTooltip);
-	registerTooltip(ItemRefShoppingTooltip1)
-	registerTooltip(ItemRefShoppingTooltip2)
+	registerTooltip(ItemRefShoppingTooltip1);
+	registerTooltip(ItemRefShoppingTooltip2);
+
 
 	if LinkWrangler then
         LinkWrangler.RegisterCallback("EdrikGameFixes", linkWranglerHook, "allocate", "allocatecomp")

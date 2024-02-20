@@ -49,6 +49,8 @@
         "GameTooltip_Hide",
         "RED_FONT_COLOR",
         "GameTooltip_AddErrorLine",
-        "FillLocalizedClassList"
+        "FillLocalizedClassList",
+        "TooltipDataProcessor",
+        "WEAPON"
     ]
 }

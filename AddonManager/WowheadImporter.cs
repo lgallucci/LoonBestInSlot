@@ -44,7 +44,7 @@ public static class WowheadImporter
     {
         bool verificationSucceeded = true;
         var requiredWords = new string[] { "BIS", "Alt" };
-        var allowableWords = new string[] { "Transmute", "Stam", "Mit", "Thrt", "FFB" };
+        var allowableWords = new string[] { "Transmute", "Stam", "Mit", "Thrt", "FFB", "Melee", "Ranged" };
 
         foreach (var item in items)
         {

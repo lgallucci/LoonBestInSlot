@@ -3,7 +3,7 @@ local spec2 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Dps"], "2")
 
 LBIS:AddEnchant(spec2, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
 LBIS:AddEnchant(spec2, "13700", LBIS.L["Chest"]) --Enchant Chest - Lesser Stats
-LBIS:AddEnchant(spec2, "7779", LBIS.L["Wrist"]) --Enchant Bracer - Minor Agility
+LBIS:AddEnchant(spec2, "13661", LBIS.L["Wrist"]) --Enchant Bracer - Strength
 LBIS:AddEnchant(spec2, "13815", LBIS.L["Hands"]) --Enchant Gloves - Agility
 LBIS:AddEnchant(spec2, "13637", LBIS.L["Feet"]) --Enchant Boots - Lesser Agility
 LBIS:AddEnchant(spec2, "435481", LBIS.L["Main Hand"]) --Enchant Weapon - Dismantle
@@ -70,19 +70,19 @@ LBIS:AddItem(spec1, "6469", LBIS.L["Ranged/Relic"], "Alt") --Venomstrike
 
 LBIS:AddItem(spec2, "215166", LBIS.L["Head"], "BIS") --Glowing Gneuro-Linked Cowl
 LBIS:AddItem(spec2, "213280", LBIS.L["Head"], "Alt") --Marksman's Scopevisor
-LBIS:AddItem(spec2, "10741", LBIS.L["Head"], "Alt") --Lordrec Helmet
+LBIS:AddItem(spec2, "10741", LBIS.L["Head"], "Alt Ranged") --Lordrec Helmet
 LBIS:AddItem(spec2, "211510", LBIS.L["Head"], "Alt") --Twilight Slayer's Cowl
 LBIS:AddItem(spec2, "211789", LBIS.L["Head"], "Alt") --Artemis Cowl
 LBIS:AddItem(spec2, "213304", LBIS.L["Shoulder"], "BIS") --Troggslayer Pauldrons
 LBIS:AddItem(spec2, "9647", LBIS.L["Shoulder"], "Alt") --Failed Flying Experiment
 LBIS:AddItem(spec2, "213302", LBIS.L["Shoulder"], "Alt") --Mantle of the Cunning Negotiator
 LBIS:AddItem(spec2, "2278", LBIS.L["Shoulder"], "Alt") --Forest Tracker Epaulets
-LBIS:AddItem(spec2, "5257", LBIS.L["Back"], "BIS") --Dark Hooded Cape
-LBIS:AddItem(spec2, "213308", LBIS.L["Back"], "BIS") --Prototype Parachute Cloak
+LBIS:AddItem(spec2, "5257", LBIS.L["Back"], "BIS Melee") --Dark Hooded Cape
+LBIS:AddItem(spec2, "213308", LBIS.L["Back"], "BIS Ranged") --Prototype Parachute Cloak
 LBIS:AddItem(spec2, "213307", LBIS.L["Back"], "Alt") --Drape of Dismantling
 LBIS:AddItem(spec2, "6432", LBIS.L["Back"], "Alt") --Imperial Cloak
 LBIS:AddItem(spec2, "11193", LBIS.L["Chest"], "BIS") --Blazewind Breastplate
-LBIS:AddItem(spec2, "213314", LBIS.L["Chest"], "Alt") --Electromantic Chainmail
+LBIS:AddItem(spec2, "213314", LBIS.L["Chest"], "Alt Melee") --Electromantic Chainmail
 LBIS:AddItem(spec2, "213313", LBIS.L["Chest"], "Alt") --Insulated Chestguard
 LBIS:AddItem(spec2, "10583", LBIS.L["Chest"], "Alt") --Quillward Harness
 LBIS:AddItem(spec2, "19590", LBIS.L["Wrist"], "BIS") --Forest Stalker's Bracers
@@ -93,7 +93,7 @@ LBIS:AddItem(spec2, "213278", LBIS.L["Hands"], "BIS") --Bonk-Maestro's Handguard
 LBIS:AddItem(spec2, "211423", LBIS.L["Hands"], "Alt") --Void-Touched Leather Gloves
 LBIS:AddItem(spec2, "213320", LBIS.L["Hands"], "Alt") --Fingers of Arcane Accuracy
 LBIS:AddItem(spec2, "213319", LBIS.L["Hands"], "Alt") --Machinist's Gloves
-LBIS:AddItem(spec2, "7724", LBIS.L["Hands"], "Alt") --Gauntlets of Divinity
+LBIS:AddItem(spec2, "7724", LBIS.L["Hands"], "Alt Melee") --Gauntlets of Divinity
 LBIS:AddItem(spec2, "215115", LBIS.L["Waist"], "BIS") --Hyperconductive Goldwrap
 LBIS:AddItem(spec2, "213325", LBIS.L["Waist"], "BIS") --Darkvision Girdle
 LBIS:AddItem(spec2, "213322", LBIS.L["Waist"], "Alt") --Skullduggery Waistband
@@ -102,8 +102,8 @@ LBIS:AddItem(spec2, "213333", LBIS.L["Legs"], "BIS") --Electromantic Chausses
 LBIS:AddItem(spec2, "213332", LBIS.L["Legs"], "Alt") --Insulated Legguards
 LBIS:AddItem(spec2, "216676", LBIS.L["Legs"], "Alt") --Nimble Triprunner Dungarees
 LBIS:AddItem(spec2, "10742", LBIS.L["Legs"], "Alt") --Dragonflight Leggings
-LBIS:AddItem(spec2, "213339", LBIS.L["Feet"], "BIS") --Electromantic Grounding Sabatons
-LBIS:AddItem(spec2, "6423", LBIS.L["Feet"], "Alt") --Blackforge Greaves
+LBIS:AddItem(spec2, "213339", LBIS.L["Feet"], "BIS Melee") --Electromantic Grounding Sabatons
+LBIS:AddItem(spec2, "6423", LBIS.L["Feet"], "Alt Melee") --Blackforge Greaves
 LBIS:AddItem(spec2, "6431", LBIS.L["Feet"], "Alt") --Imperial Leather Boots
 LBIS:AddItem(spec2, "213341", LBIS.L["Feet"], "Alt") --Insulated Workboots
 LBIS:AddItem(spec2, "213340", LBIS.L["Feet"], "Alt") --Gnomebot Operators Boots
@@ -116,24 +116,24 @@ LBIS:AddItem(spec2, "209422", LBIS.L["Neck"], "Alt") --High Tide Choker
 LBIS:AddItem(spec2, "213284", LBIS.L["Ring"], "BIS") --Hypercharged Gear of Devastation
 LBIS:AddItem(spec2, "19512", LBIS.L["Ring"], "BIS") --Legionnaire's Band
 LBIS:AddItem(spec2, "19515", LBIS.L["Ring"], "BIS") --Protector's Band
-LBIS:AddItem(spec2, "7686", LBIS.L["Ring"], "Alt") --Ironspine's Eye
+LBIS:AddItem(spec2, "7686", LBIS.L["Ring"], "Alt Melee") --Ironspine's Eye
 LBIS:AddItem(spec2, "2951", LBIS.L["Ring"], "Alt") --Ring of the Underwood
 LBIS:AddItem(spec2, "211449", LBIS.L["Trinket"], "BIS") --Avenger's Void Pearl
 LBIS:AddItem(spec2, "213348", LBIS.L["Trinket"], "BIS") --Gyromatic Experiment 420b
 LBIS:AddItem(spec2, "4381", LBIS.L["Trinket"], "Alt") --Minor Recombobulator
 LBIS:AddItem(spec2, "21568", LBIS.L["Trinket"], "Alt") --Rune of Duty
-LBIS:AddItem(spec2, "213409", LBIS.L["Main Hand"], "BIS") --Mekkatorque's Arcano-Shredder
+LBIS:AddItem(spec2, "213409", LBIS.L["Main Hand"], "BIS Melee") --Mekkatorque's Arcano-Shredder
 LBIS:AddItem(spec2, "19552", LBIS.L["Main Hand"], "Alt") --Legionnaire's Sword
 LBIS:AddItem(spec2, "19556", LBIS.L["Main Hand"], "Alt") --Protector's Sword
 LBIS:AddItem(spec2, "9684", LBIS.L["Main Hand"], "Alt") --Force of the Hippogryph
-LBIS:AddItem(spec2, "213442", LBIS.L["Off Hand"], "BIS") --Cogmaster's Claw
+LBIS:AddItem(spec2, "213442", LBIS.L["Off Hand"], "BIS Melee") --Cogmaster's Claw
 LBIS:AddItem(spec2, "10823", LBIS.L["Off Hand"], "Alt") --Vanquisher's Sword
 LBIS:AddItem(spec2, "9378", LBIS.L["Off Hand"], "Alt") --Shovelphlange's Mining Axe
-LBIS:AddItem(spec2, "213408", LBIS.L["Two Hand"], "BIS") --Gyromatic Macro-Adjustor
+LBIS:AddItem(spec2, "213408", LBIS.L["Two Hand"], "BIS Ranged") --Gyromatic Macro-Adjustor
 LBIS:AddItem(spec2, "10570", LBIS.L["Two Hand"], "Alt") --Manslayer
 LBIS:AddItem(spec2, "209562", LBIS.L["Two Hand"], "Alt") --Deadly Strike of the Hydra
-LBIS:AddItem(spec2, "216516", LBIS.L["Ranged/Relic"], "BIS") --Bloodlash Bow
-LBIS:AddItem(spec2, "213356", LBIS.L["Ranged/Relic"], "BIS") --Thermaplugg's Custom Blaster
+LBIS:AddItem(spec2, "216516", LBIS.L["Ranged/Relic"], "BIS Melee") --Bloodlash Bow
+LBIS:AddItem(spec2, "213356", LBIS.L["Ranged/Relic"], "BIS Ranged") --Thermaplugg's Custom Blaster
 LBIS:AddItem(spec2, "209534", LBIS.L["Ranged/Relic"], "Alt") --Azshari Arbalest
 LBIS:AddItem(spec2, "3430", LBIS.L["Ranged/Relic"], "Alt") --Sniper Rifle
 LBIS:AddItem(spec2, "10510", LBIS.L["Ranged/Relic"], "Alt") --Mithril Heavy-bore Rifle

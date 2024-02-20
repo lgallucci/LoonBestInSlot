@@ -64,16 +64,18 @@ LBIS:AddItem(spec1, "209574", LBIS.L["Ranged/Relic"], "BIS") --Discarded Tenets 
 LBIS:AddItem(spec2, "215161", LBIS.L["Head"], "BIS") --Tempered Interference-Negating Helmet
 LBIS:AddItem(spec2, "215166", LBIS.L["Head"], "BIS") --Glowing Gneuro-Linked Cowl
 LBIS:AddItem(spec2, "7719", LBIS.L["Head"], "Alt") --Raging Berserker's Helm
+LBIS:AddItem(spec2, "211505", LBIS.L["Head"], "Alt") --Twilight Avenger's Helm
 LBIS:AddItem(spec2, "213304", LBIS.L["Shoulder"], "BIS") --Troggslayer Pauldrons
 LBIS:AddItem(spec2, "9647", LBIS.L["Shoulder"], "Alt") --Failed Flying Experiment
 LBIS:AddItem(spec2, "213305", LBIS.L["Shoulder"], "Alt") --Machined Alloy Shoulderplates
 LBIS:AddItem(spec2, "213307", LBIS.L["Back"], "BIS") --Drape of Dismantling
-LBIS:AddItem(spec2, "216621", LBIS.L["Back"], "BIS") --Blooddrenched Drape
+LBIS:AddItem(spec2, "216621", LBIS.L["Back"], "Alt") --Blooddrenched Drape
 LBIS:AddItem(spec2, "5257", LBIS.L["Back"], "Alt") --Dark Hooded Cape
 LBIS:AddItem(spec2, "213313", LBIS.L["Chest"], "BIS") --Insulated Chestguard
 LBIS:AddItem(spec2, "213314", LBIS.L["Chest"], "BIS") --Electromantic Chainmail
 LBIS:AddItem(spec2, "213316", LBIS.L["Chest"], "Alt") --H.A.Z.A.R.D. Breastplate
 LBIS:AddItem(spec2, "11195", LBIS.L["Chest"], "Alt") --Warforged Chestplate
+LBIS:AddItem(spec2, "211504", LBIS.L["Chest"], "Alt") --Twilight Avenger's Chain
 LBIS:AddItem(spec2, "19581", LBIS.L["Wrist"], "BIS") --Berserker Bracers
 LBIS:AddItem(spec2, "213318", LBIS.L["Wrist"], "BIS") --Ornate Dark Iron Bangles
 LBIS:AddItem(spec2, "213317", LBIS.L["Wrist"], "BIS") --Experimental Aim Stabilizers
@@ -96,6 +98,7 @@ LBIS:AddItem(spec2, "213333", LBIS.L["Legs"], "Alt") --Electromantic Chausses
 LBIS:AddItem(spec2, "10740", LBIS.L["Legs"], "Alt") --Centurion Legplates
 LBIS:AddItem(spec2, "9637", LBIS.L["Feet"], "BIS") --Shinkicker Boots
 LBIS:AddItem(spec2, "6423", LBIS.L["Feet"], "BIS") --Blackforge Greaves
+LBIS:AddItem(spec2, "211506", LBIS.L["Feet"], "Alt") --Twilight Avenger's Boots
 LBIS:AddItem(spec2, "213340", LBIS.L["Feet"], "Alt") --Gnomebot Operators Boots
 LBIS:AddItem(spec2, "213341", LBIS.L["Feet"], "Alt") --Insulated Workboots
 LBIS:AddItem(spec2, "213335", LBIS.L["Feet"], "Alt") --H.A.Z.A.R.D. Boots
@@ -104,8 +107,9 @@ LBIS:AddItem(spec2, "213344", LBIS.L["Neck"], "BIS") --Gnomeregan Peace Officer'
 LBIS:AddItem(spec2, "12023", LBIS.L["Neck"], "Alt") --Tellurium Necklace
 LBIS:AddItem(spec2, "17772", LBIS.L["Neck"], "Alt") --Zealous Shadowshard Pendant
 LBIS:AddItem(spec2, "209422", LBIS.L["Neck"], "Alt") --High Tide Choker
-LBIS:AddItem(spec2, "213284", LBIS.L["Ring"], "BIS") --Hypercharged Gear of Devastation
 LBIS:AddItem(spec2, "19515", LBIS.L["Ring"], "BIS") --Protector's Band
+LBIS:AddItem(spec2, "213284", LBIS.L["Ring"], "BIS") --Hypercharged Gear of Devastation
+LBIS:AddItem(spec2, "19517", LBIS.L["Ring"], "Alt") --Protector's Band
 LBIS:AddItem(spec2, "11998", LBIS.L["Ring"], "Alt") --Jet Loop
 LBIS:AddItem(spec2, "13095", LBIS.L["Ring"], "Alt") --Assault Band
 LBIS:AddItem(spec2, "215461", LBIS.L["Trinket"], "BIS") --Domesticated Attack Chicken

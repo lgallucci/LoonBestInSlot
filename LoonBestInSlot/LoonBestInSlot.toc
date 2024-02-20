@@ -16,13 +16,12 @@ libs\LibUIDropDownMenu\LibUIDropDownMenu.xml
 
 Localization\Localization.xml
 
-Settings.lua
-
 DB\ItemSources.lua
 DB\EnchantSources.lua
 DB\TierSources.lua
 
 LoonBestInSlot.lua
+Settings.lua
 Common.lua
 Guides\Guides.xml
 UpdateTooltips.lua

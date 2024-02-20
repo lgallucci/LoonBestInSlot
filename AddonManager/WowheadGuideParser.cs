@@ -45,7 +45,9 @@ public class WowheadGuideParser
         { "parry", "Mit" },
         { "mit", "Mit" },
         { "threat", "Thrt" },
-        { "ffb", "FFB" }
+        { "ffb", "FFB" },
+        { "melee", "Melee" },
+        { "ranged", "Ranged" }
     };
 
     private Dictionary<string, string> _altModifierNotSwaps = new Dictionary<string, string>()
