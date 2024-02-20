@@ -83,6 +83,7 @@ LBIS:AddItem(spec2, "9409", LBIS.L["Wrist"], "Alt") --Ironaya's Bracers
 LBIS:AddItem(spec2, "213319", LBIS.L["Hands"], "BIS") --Machinist's Gloves
 LBIS:AddItem(spec2, "213288", LBIS.L["Hands"], "BIS") --Grubbis Grubby Gauntlets
 LBIS:AddItem(spec2, "211423", LBIS.L["Hands"], "Alt") --Void-Touched Leather Gloves
+LBIS:AddItem(spec2, "213320", LBIS.L["Hands"], "Alt") --Fingers of Arcane Accuracy
 LBIS:AddItem(spec2, "867", LBIS.L["Hands"], "Alt") --Gloves of Holy Might
 LBIS:AddItem(spec2, "7724", LBIS.L["Hands"], "Alt") --Gauntlets of Divinity
 LBIS:AddItem(spec2, "215380", LBIS.L["Waist"], "BIS") --Power-Assisted Lifting Belt
@@ -122,6 +123,7 @@ LBIS:AddItem(spec2, "216506", LBIS.L["Two Hand"], "BIS") --Bloodlight Avenger's 
 LBIS:AddItem(spec2, "9425", LBIS.L["Two Hand"], "Alt") --Pendulum of Doom
 LBIS:AddItem(spec2, "7717", LBIS.L["Two Hand"], "Alt") --Ravager
 LBIS:AddItem(spec2, "6830", LBIS.L["Two Hand"], "Alt") --Bonebiter
+LBIS:AddItem(spec2, "213292", LBIS.L["Two Hand"], "Alt") --Gizmotron Gigachopper
 LBIS:AddItem(spec2, "217302", LBIS.L["Two Hand"], "Alt") --Mograine's Might
 LBIS:AddItem(spec2, "6327", LBIS.L["Two Hand"], "Alt") --The Pacifier
 LBIS:AddItem(spec2, "215435", LBIS.L["Ranged/Relic"], "BIS") --Libram of Benediction
