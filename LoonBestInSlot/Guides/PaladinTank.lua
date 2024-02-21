@@ -6,7 +6,7 @@ LBIS:AddEnchant(spec2, "435903", LBIS.L["Chest"]) --Enchant Chest - Retricutione
 LBIS:AddEnchant(spec2, "13700", LBIS.L["Chest"]) --Enchant Chest - Lesser Stats
 LBIS:AddEnchant(spec2, "13661", LBIS.L["Wrist"]) --Enchant Bracer - Strength
 LBIS:AddEnchant(spec2, "13648", LBIS.L["Wrist"]) --Enchant Bracer - Stamina
-LBIS:AddEnchant(spec2, "2833", LBIS.L["Hands"]) --Heavy Armor Kit
+LBIS:AddEnchant(spec2, "10344", LBIS.L["Hands"]) --Thick Armor Kit
 LBIS:AddEnchant(spec2, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
 LBIS:AddEnchant(spec2, "13836", LBIS.L["Feet"]) --Enchant Boots - Stamina
 LBIS:AddEnchant(spec2, "6296", LBIS.L["Main Hand"]) --Fiery Blaze Enchantment

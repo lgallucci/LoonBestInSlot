@@ -2,11 +2,11 @@ local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Healer"], "1")
 local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Healer"], "2")
 
 LBIS:AddEnchant(spec2, "13746", LBIS.L["Back"]) --Enchant Cloak - Greater Defense
-LBIS:AddEnchant(spec2, "13663", LBIS.L["Chest"]) --Enchant Chest - Greater Mana
+LBIS:AddEnchant(spec2, "13700", LBIS.L["Chest"]) --Enchant Chest - Lesser Stats
 LBIS:AddEnchant(spec2, "13822", LBIS.L["Wrist"]) --Enchant Bracer - Intellect
-LBIS:AddEnchant(spec2, "19057", LBIS.L["Hands"]) --Rugged Armor Kit
+LBIS:AddEnchant(spec2, "13887", LBIS.L["Hands"]) --Enchant Gloves - Strength
 LBIS:AddEnchant(spec2, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
-LBIS:AddEnchant(spec2, "13503", LBIS.L["Main Hand"]) --Enchant Weapon - Lesser Striking
+LBIS:AddEnchant(spec2, "13693", LBIS.L["Main Hand"]) --Enchant Weapon - Striking
 LBIS:AddEnchant(spec2, "13378", LBIS.L["Off Hand"]) --Enchant Shield - Minor Stamina
 
 LBIS:AddItem(spec1, "211507", LBIS.L["Head"], "BIS") --Twilight Elementalist's Cowl

@@ -20,7 +20,7 @@ SLASH_LOONBESTINSLOT1 = '/bis'
 SLASH_LOONBESTINSLOT2 = '/비스'
 SlashCmdList["LOONBESTINSLOT"] = function(command)
 	command = command:lower()
-    
+
 	if command == "" then
 		LBIS.BrowserWindow:OpenWindow()
 	elseif command == "edit" then
@@ -50,7 +50,7 @@ function LBIS:RegisterSpec(class, spec, phase)
 		Spec = spec,
 		Phase = phase
 	}
-	
+
 	classSpec.Id = spec..class
 
     LBIS.ClassSpec[classSpec.Id] = classSpec

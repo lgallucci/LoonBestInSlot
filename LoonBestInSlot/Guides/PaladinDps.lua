@@ -7,7 +7,7 @@ LBIS:AddEnchant(spec2, "13661", LBIS.L["Wrist"]) --Enchant Bracer - Strength
 LBIS:AddEnchant(spec2, "13887", LBIS.L["Hands"]) --Enchant Gloves - Strength
 LBIS:AddEnchant(spec2, "19057", LBIS.L["Legs"]) --Rugged Armor Kit
 LBIS:AddEnchant(spec2, "13637", LBIS.L["Feet"]) --Enchant Boots - Lesser Agility
-LBIS:AddEnchant(spec2, "435481", LBIS.L["Two Hand"]) --Enchant Weapon - Dismantle
+LBIS:AddEnchant(spec2, "7222", LBIS.L["Two Hand"]) --Iron Counterweight
 
 LBIS:AddItem(spec1, "211505", LBIS.L["Head"], "BIS") --Twilight Avenger's Helm
 LBIS:AddItem(spec1, "211789", LBIS.L["Head"], "BIS") --Artemis Cowl
