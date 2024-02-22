@@ -846,6 +846,7 @@ LBIS.ItemSources =
     [9912] = { Name = "Royal Amice", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [9915] = { Name = "Royal Headband", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [9917] = { Name = "Tracker's Boots", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
+    [9925] = { Name = "Tracker's Wristguards", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [9932] = { Name = "Brigade Circlet", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [9966] = { Name = "Embossed Plate Armor of the Monkey", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [9998] = { Name = "Black Mageweave Vest", SourceType = LBIS.L["Profession"], Source = LBIS.L["Tailoring"], SourceNumber = "0", SourceLocation = "12048", SourceFaction = "B" },

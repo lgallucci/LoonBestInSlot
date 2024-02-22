@@ -63,7 +63,11 @@ LBIS:AddItem(spec2, "209687", LBIS.L["Chest"], "Alt") --Hydra Hide Cuirass
 LBIS:AddItem(spec2, "213298", LBIS.L["Chest"], "Alt") --Mechbuilder's Overalls
 LBIS:AddItem(spec2, "211512", LBIS.L["Chest"], "Alt") --Twilight Slayer's Tunic
 LBIS:AddItem(spec2, "19590", LBIS.L["Wrist"], "BIS") --Forest Stalker's Bracers
+LBIS:AddItem(spec2, "7534", LBIS.L["Wrist"], "Alt") --Cabalist Bracers
+LBIS:AddItem(spec2, "9925", LBIS.L["Wrist"], "Alt") --Tracker's Wristguards
 LBIS:AddItem(spec2, "209524", LBIS.L["Wrist"], "Alt") --Bindings of Serra'kis
+LBIS:AddItem(spec2, "19508", LBIS.L["Wrist"], "Alt") --Branded Leather Bracers
+LBIS:AddItem(spec2, "5783", LBIS.L["Wrist"], "Alt") --Murloc Scale Bracers
 LBIS:AddItem(spec2, "15351", LBIS.L["Wrist"], "Alt") --Headhunter's Bands
 LBIS:AddItem(spec2, "213319", LBIS.L["Hands"], "BIS") --Machinist's Gloves
 LBIS:AddItem(spec2, "211423", LBIS.L["Hands"], "BIS") --Void-Touched Leather Gloves
@@ -72,6 +76,7 @@ LBIS:AddItem(spec2, "1978", LBIS.L["Hands"], "Alt") --Wolfclaw Gloves
 LBIS:AddItem(spec2, "209527", LBIS.L["Hands"], "Alt") --Naga Battle Gauntlets
 LBIS:AddItem(spec2, "213322", LBIS.L["Waist"], "BIS") --Skullduggery Waistband
 LBIS:AddItem(spec2, "20116", LBIS.L["Waist"], "Alt") --Highlander's Leather Girdle
+LBIS:AddItem(spec2, "4264", LBIS.L["Waist"], "Alt") --Barbaric Belt
 LBIS:AddItem(spec2, "16659", LBIS.L["Waist"], "Alt") --Deftkin Belt
 LBIS:AddItem(spec2, "209421", LBIS.L["Waist"], "Alt") --Cord of Aquanis
 LBIS:AddItem(spec2, "6468", LBIS.L["Waist"], "Alt") --Deviate Scale Belt

@@ -93,7 +93,7 @@ LBIS:AddItem(spec2, "10009", LBIS.L["Legs"], "Alt") --Red Mageweave Pants
 LBIS:AddItem(spec2, "15168", LBIS.L["Legs"], "Alt") --Imposing Pants
 LBIS:AddItem(spec2, "209684", LBIS.L["Legs"], "Alt") --Soul Leech Pants
 LBIS:AddItem(spec2, "215378", LBIS.L["Feet"], "BIS") --Irradiated Boots
-LBIS:AddItem(spec2, "213342", LBIS.L["Feet"], "Alt") --Insulated Galoshes
+LBIS:AddItem(spec2, "213342", LBIS.L["Feet"], "BIS") --Insulated Galoshes
 LBIS:AddItem(spec2, "15162", LBIS.L["Feet"], "Alt") --Imposing Boots
 LBIS:AddItem(spec2, "213345", LBIS.L["Neck"], "BIS") --Piston Pendant
 LBIS:AddItem(spec2, "209686", LBIS.L["Neck"], "Alt") --Jagged Bone Necklace
