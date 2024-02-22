@@ -9,7 +9,6 @@ LBIS:AddEnchant(spec2, "13648", LBIS.L["Wrist"]) --Enchant Bracer - Stamina
 LBIS:AddEnchant(spec2, "10344", LBIS.L["Hands"]) --Thick Armor Kit
 LBIS:AddEnchant(spec2, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
 LBIS:AddEnchant(spec2, "13836", LBIS.L["Feet"]) --Enchant Boots - Stamina
-LBIS:AddEnchant(spec2, "6296", LBIS.L["Main Hand"]) --Fiery Blaze Enchantment
 LBIS:AddEnchant(spec2, "435481", LBIS.L["Main Hand"]) --Enchant Weapon - Dismantle
 LBIS:AddEnchant(spec2, "13693", LBIS.L["Main Hand"]) --Enchant Weapon - Striking
 LBIS:AddEnchant(spec2, "7224", LBIS.L["Main Hand"]) --Steel Weapon Chain
