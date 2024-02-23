@@ -54,7 +54,7 @@ public static class Common
         }
     }
 
-    internal static async Task LoadFromWebPage(string pageAddress, Action<IHtmlDocument> func, Action<string> writeToLog)
+    internal static async Task LoadFromWebPage(string pageAddress, Action<IHtmlDocument> func, Action<string> writeToLog, bool waitForIdle = true)
     {
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
@@ -64,7 +64,10 @@ public static class Common
         {
             var page = await browser.NewPageAsync();
             page.DefaultTimeout = 0; // or you can set this as 0
-            await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
+            if (waitForIdle)
+                await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
+            else
+                await page.GoToAsync(pageAddress, WaitUntilNavigation.DOMContentLoaded);
             var content = await page.GetContentAsync();
 
             writeToLog($"Reading from: {pageAddress}");

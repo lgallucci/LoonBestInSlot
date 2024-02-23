@@ -110,7 +110,7 @@ public static class WowheadImporter
             {
                 logFunc($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
             }
-        }, logFunc, cancelToken);
+        }, logFunc, cancelToken, false);
 
         logFunc($"Done!");
     }
@@ -121,7 +121,7 @@ public static class WowheadImporter
         await Common.LoadFromWebPage(classGuide.WebAddress, (doc) =>
         {
             result = ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
-        }, logFunc);
+        }, logFunc, false);
 
         return result;
     }
