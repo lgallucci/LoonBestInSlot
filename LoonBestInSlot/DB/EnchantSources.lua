@@ -34,6 +34,7 @@ LBIS.EnchantSources =
     [13663] = { Name = "Enchant Chest - Greater Mana", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [13689] = { Name = "Enchant Shield - Lesser Block", DesignId = "11168", ScrollId = "0", Source = LBIS.L["World Drop"], SourceLocation = "", TextureId = "" },
     [13693] = { Name = "Enchant Weapon - Striking", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
+    [13695] = { Name = "Enchant 2H Weapon - Impact", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [13700] = { Name = "Enchant Chest - Lesser Stats", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [13746] = { Name = "Enchant Cloak - Greater Defense", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [13794] = { Name = "Enchant Cloak - Resistance", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },

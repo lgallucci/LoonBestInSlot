@@ -6,8 +6,8 @@ LBIS:AddEnchant(spec2, "13700", LBIS.L["Chest"]) --Enchant Chest - Lesser Stats
 LBIS:AddEnchant(spec2, "13661", LBIS.L["Wrist"]) --Enchant Bracer - Strength
 LBIS:AddEnchant(spec2, "13887", LBIS.L["Hands"]) --Enchant Gloves - Strength
 LBIS:AddEnchant(spec2, "7867", LBIS.L["Feet"]) --Enchant Boots - Minor Agility
-LBIS:AddEnchant(spec2, "13503", LBIS.L["Main Hand"]) --Enchant Weapon - Lesser Striking
-LBIS:AddEnchant(spec2, "13529", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Lesser Impact
+LBIS:AddEnchant(spec2, "13693", LBIS.L["Main Hand"]) --Enchant Weapon - Striking
+LBIS:AddEnchant(spec2, "13695", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Impact
 
 LBIS:AddItem(spec1, "211505", LBIS.L["Head"], "BIS") --Twilight Avenger's Helm
 LBIS:AddItem(spec1, "1282", LBIS.L["Head"], "Alt") --Sparkmetal Coif
@@ -73,7 +73,8 @@ LBIS:AddItem(spec2, "9647", LBIS.L["Shoulder"], "Alt") --Failed Flying Experimen
 LBIS:AddItem(spec2, "213305", LBIS.L["Shoulder"], "Alt") --Machined Alloy Shoulderplates
 LBIS:AddItem(spec2, "213307", LBIS.L["Back"], "BIS") --Drape of Dismantling
 LBIS:AddItem(spec2, "216621", LBIS.L["Back"], "Alt") --Blooddrenched Drape
-LBIS:AddItem(spec2, "16336", LBIS.L["Back"], "Alt") --Sergeant Major's Cape
+LBIS:AddItem(spec2, "213087", LBIS.L["Back"], "Alt") --Sergeant's Cloak
+LBIS:AddItem(spec2, "213088", LBIS.L["Back"], "Alt") --Sergeant's Cloak
 LBIS:AddItem(spec2, "213313", LBIS.L["Chest"], "BIS") --Insulated Chestguard
 LBIS:AddItem(spec2, "210794", LBIS.L["Chest"], "Alt") --Shifting Silver Breastplate
 LBIS:AddItem(spec2, "11195", LBIS.L["Chest"], "Alt") --Warforged Chestplate
