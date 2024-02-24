@@ -87,10 +87,12 @@ public class DungeonImporter : LootImporter
         new List<string>{"Pusillin","Lethtendris","Hydrospawn","Zevrim Thornhoof","Alzzin the Wildshaper","Isalien"})}, //Figure out dealing with Isalien
 
         { @"https://www.wowhead.com/classic/guide/dire-maul-west-dungeon-strategy-wow-classic", ("Dire Maul West", 
-        new List<string>{"Tendris Warpwood","Magister Kalendris","Tzu'see","Illyanna Ravenoak","Immol'thar","Prince Tortheldrin","Lord Hel'nurath", "ABOUT THE AUTHOR"})},
+        new List<string>{"Tendris Warpwood","Magister Kalendris","Tzu'see","Illyanna Ravenoak","Immol'thar","Prince Tortheldrin",
+        "Lord Hel'nurath", "ABOUT THE AUTHOR"})},
 
         { @"https://www.wowhead.com/classic/guide/dire-maul-north-dungeon-strategy-wow-classic", ("Dire Maul North", 
-        new List<string>{"Guard Mol'dar","Stomper Kreeg","Guard Fengus","Guard Slip'kik","Captain Kromcrush","King Gordok & Cho'Rush the Observer", "Gordok Tribute", "Tribute Buffs"})}
+        new List<string>{"Guard Mol'dar", "Stomper Kreeg", "Guard Fengus", "Guard Slip'kik", "Captain Kromcrush", 
+        "King Gordok & Cho'Rush the Observer", "Gordok Tribute", "Tribute Buffs"})}
     };
 
     internal override string FileName { get => "DungeonItemList"; }
