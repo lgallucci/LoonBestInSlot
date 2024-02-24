@@ -16,6 +16,14 @@
       "SourceLocation": "The Deadmines",
       "SourceFaction": "B"
     },
+    "1177": {
+      "Name": "Oil of Olaf",
+      "Source": "The Lost Dwarves",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "H"
+    },
     "1292": {
       "Name": "Butcher's Cleaver",
       "Source": "Razorclaw the Butcher",
@@ -47,6 +55,14 @@
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines",
       "SourceFaction": "B"
+    },
+    "2459": {
+      "Name": "Swiftness Potion",
+      "Source": "The Lost Dwarves",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "H"
     },
     "2589": {
       "Name": "Linen Cloth",
@@ -754,7 +770,7 @@
     },
     "7708": {
       "Name": "Necrotic Wand",
-      "Source": "Spawning Graveyard Rares & Azshir the Sleepless (Rare)",
+      "Source": "Azshir the Sleepless (Rare)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Scarlet Monastery",
@@ -762,7 +778,7 @@
     },
     "7709": {
       "Name": "Blighted Leggings",
-      "Source": "Spawning Graveyard Rares & Azshir the Sleepless (Rare)",
+      "Source": "Azshir the Sleepless (Rare)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Scarlet Monastery",
@@ -832,9 +848,33 @@
       "SourceLocation": "Scarlet Monastery",
       "SourceFaction": "B"
     },
+    "7720": {
+      "Name": "Whitemane's Chapeau",
+      "Source": "High Inquisitor Whitemane",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7721": {
+      "Name": "Hand of Righteousness",
+      "Source": "High Inquisitor Whitemane",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "7722": {
+      "Name": "Triune Amulet",
+      "Source": "High Inquisitor Whitemane",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
     "7723": {
       "Name": "Mograine's Might",
-      "Source": "Scarlet Commander Mograine & High Inquisitor Whitemane",
+      "Source": "High Inquisitor Whitemane",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Scarlet Monastery",
@@ -842,7 +882,7 @@
     },
     "7724": {
       "Name": "Gauntlets of Divinity",
-      "Source": "Scarlet Commander Mograine & High Inquisitor Whitemane",
+      "Source": "High Inquisitor Whitemane",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Scarlet Monastery",
@@ -850,7 +890,7 @@
     },
     "7726": {
       "Name": "Aegis of the Scarlet Commander",
-      "Source": "Scarlet Commander Mograine & High Inquisitor Whitemane",
+      "Source": "High Inquisitor Whitemane",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Scarlet Monastery",
@@ -858,7 +898,7 @@
     },
     "7731": {
       "Name": "Ghostshard Talisman",
-      "Source": "Spawning Graveyard Rares & Azshir the Sleepless (Rare)",
+      "Source": "Azshir the Sleepless (Rare)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Scarlet Monastery",
@@ -870,14 +910,6 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Scarlet Monastery",
-      "SourceFaction": "B"
-    },
-    "8053": {
-      "Name": "Obsidian Power Source",
-      "Source": "Obsidian Sentinel",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Uldaman",
       "SourceFaction": "B"
     },
     "9379": {
@@ -920,6 +952,22 @@
       "SourceLocation": "Uldaman",
       "SourceFaction": "B"
     },
+    "9394": {
+      "Name": "Horned Viking Helmet",
+      "Source": "The Lost Dwarves",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "H"
+    },
+    "9398": {
+      "Name": "Worn Running Boots",
+      "Source": "The Lost Dwarves",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "H"
+    },
     "9399": {
       "Name": "Precision Arrow",
       "Source": "The Lost Dwarves",
@@ -938,6 +986,22 @@
     },
     "9401": {
       "Name": "Nordic Longshank",
+      "Source": "The Lost Dwarves",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "H"
+    },
+    "9403": {
+      "Name": "Battered Viking Shield",
+      "Source": "The Lost Dwarves",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "H"
+    },
+    "9404": {
+      "Name": "Olaf's All Purpose Shield",
       "Source": "The Lost Dwarves",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -1146,7 +1210,7 @@
     },
     "10330": {
       "Name": "Scarlet Leggings",
-      "Source": "Herod & Scarlet Commander Mograine & High Inquisitor Whitemane",
+      "Source": "Herod & High Inquisitor Whitemane",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Scarlet Monastery",
@@ -1202,7 +1266,7 @@
     },
     "10760": {
       "Name": "Swine Fists",
-      "Source": "Plaguemaw the Rotting (Optional Event)",
+      "Source": "Plaguemaw the Rotting",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Razorfen Downs",
@@ -1250,7 +1314,7 @@
     },
     "10766": {
       "Name": "Plaguerot Sprig",
-      "Source": "Plaguemaw the Rotting (Optional Event)",
+      "Source": "Plaguemaw the Rotting",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Razorfen Downs",
@@ -1850,7 +1914,7 @@
     },
     "13184": {
       "Name": "Fallbrush Handgrips",
-      "Source": "Crystal Fang (Rare) ",
+      "Source": "Crystal Fang (Rare)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lower Blackrock Spire",
@@ -1858,7 +1922,7 @@
     },
     "13185": {
       "Name": "Sunderseer Mantle",
-      "Source": "Crystal Fang (Rare) ",
+      "Source": "Crystal Fang (Rare)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lower Blackrock Spire",
@@ -1922,7 +1986,7 @@
     },
     "13218": {
       "Name": "Fang of the Crystal Spider",
-      "Source": "Crystal Fang (Rare) ",
+      "Source": "Crystal Fang (Rare)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lower Blackrock Spire",
@@ -2890,7 +2954,7 @@
     },
     "18250": {
       "Name": "Gordok Shackle Key",
-      "Source": "Guard Mol'dar & Guard Slip'kik",
+      "Source": "Guard Mol'dar & Guard Fengus & Guard Slip'kik",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Dire Maul North",
@@ -3434,7 +3498,7 @@
     },
     "18450": {
       "Name": "Robe of Combustion",
-      "Source": "Guard Mol'dar",
+      "Source": "Guard Mol'dar & Guard Fengus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Dire Maul North",
@@ -3442,7 +3506,7 @@
     },
     "18451": {
       "Name": "Hyena Hide Belt",
-      "Source": "Guard Mol'dar",
+      "Source": "Guard Mol'dar & Guard Fengus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Dire Maul North",
@@ -3450,7 +3514,7 @@
     },
     "18458": {
       "Name": "Modest Armguards",
-      "Source": "Guard Mol'dar",
+      "Source": "Guard Mol'dar & Guard Fengus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Dire Maul North",
@@ -3458,7 +3522,7 @@
     },
     "18459": {
       "Name": "Gallant's Wristguards",
-      "Source": "Guard Mol'dar & Guard Slip'kik",
+      "Source": "Guard Mol'dar & Guard Fengus & Guard Slip'kik",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Dire Maul North",
@@ -3474,7 +3538,7 @@
     },
     "18462": {
       "Name": "Jagged Bone Fist",
-      "Source": "Guard Mol'dar",
+      "Source": "Guard Mol'dar & Guard Fengus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Dire Maul North",
@@ -3482,7 +3546,7 @@
     },
     "18463": {
       "Name": "Ogre Pocket Knife",
-      "Source": "Guard Mol'dar",
+      "Source": "Guard Mol'dar & Guard Fengus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Dire Maul North",
@@ -3490,7 +3554,7 @@
     },
     "18464": {
       "Name": "Gordok Nose Ring",
-      "Source": "Guard Mol'dar",
+      "Source": "Guard Mol'dar & Guard Fengus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Dire Maul North",
@@ -3555,6 +3619,38 @@
     "18482": {
       "Name": "Ogre Toothpick Shooter",
       "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18483": {
+      "Name": "Mana Channeling Wand",
+      "Source": "King Gordok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18484": {
+      "Name": "Cho'Rush's Blade",
+      "Source": "King Gordok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18485": {
+      "Name": "Observer's Shield",
+      "Source": "King Gordok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18490": {
+      "Name": "Insightful Hood",
+      "Source": "King Gordok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Dire Maul North",
@@ -3658,7 +3754,7 @@
     },
     "18520": {
       "Name": "Barbarous Blade",
-      "Source": "King Gordok & Cho'Rush the Observer",
+      "Source": "King Gordok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Dire Maul North",
@@ -3666,7 +3762,7 @@
     },
     "18521": {
       "Name": "Grimy Metal Boots",
-      "Source": "King Gordok & Cho'Rush the Observer",
+      "Source": "King Gordok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Dire Maul North",
@@ -3922,7 +4018,7 @@
     },
     "18754": {
       "Name": "Fel Hardened Bracers",
-      "Source": "Special Boss: Lord Hel'nurath",
+      "Source": "Lord Hel'nurath",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Dire Maul West",
@@ -3930,7 +4026,7 @@
     },
     "18755": {
       "Name": "Xorothian Firestick",
-      "Source": "Special Boss: Lord Hel'nurath",
+      "Source": "Lord Hel'nurath",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Dire Maul West",
@@ -3938,7 +4034,7 @@
     },
     "18756": {
       "Name": "Dreadguard's Protector",
-      "Source": "Special Boss: Lord Hel'nurath",
+      "Source": "Lord Hel'nurath",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Dire Maul West",
@@ -3946,7 +4042,7 @@
     },
     "18757": {
       "Name": "Diabolic Mantle",
-      "Source": "Special Boss: Lord Hel'nurath",
+      "Source": "Lord Hel'nurath",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Dire Maul West",
