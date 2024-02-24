@@ -136,6 +136,14 @@
       "SourceLocation": "The Stockade",
       "SourceFaction": "B"
     },
+    "4595": {
+      "Name": "Junglevine Wine",
+      "Source": "Stomper Kreeg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
     "5187": {
       "Name": "Rhahk'Zor's Hammer",
       "Source": "Rhahk'zor",
@@ -646,6 +654,14 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "7091": {
+      "Name": "Pattern: Truefaith Gloves",
+      "Source": "Hydrospawn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
       "SourceFaction": "B"
     },
     "7230": {
@@ -1360,12 +1376,596 @@
       "SourceLocation": "Zul'Farrak",
       "SourceFaction": "B"
     },
+    "12582": {
+      "Name": "Keris of Zul'Serak",
+      "Source": "War Master Voone",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12608": {
+      "Name": "Butcher's Apron",
+      "Source": "Spirestone Butcher (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12621": {
+      "Name": "Demonfork",
+      "Source": "Bannok Grimaxe <Firebrand Legion Champion> (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12626": {
+      "Name": "Funeral Cuffs",
+      "Source": "Shadow Hunter Vosh’gajin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12634": {
+      "Name": "Chiselbrand Girdle",
+      "Source": "Bannok Grimaxe <Firebrand Legion Champion> (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12637": {
+      "Name": "Backusarian Gauntlets",
+      "Source": "Bannok Grimaxe <Firebrand Legion Champion> (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12651": {
+      "Name": "Blackcrow",
+      "Source": "Shadow Hunter Vosh’gajin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12653": {
+      "Name": "Riphook",
+      "Source": "Shadow Hunter Vosh’gajin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12654": {
+      "Name": "Doomshot",
+      "Source": "Shadow Hunter Vosh’gajin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12753": {
+      "Name": "Skin of Shadow",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "12835": {
+      "Name": "Plans: Annihilator",
+      "Source": "Quartermaster Zigris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12838": {
+      "Name": "Plans: Arcanite Reaper",
+      "Source": "Bannok Grimaxe <Firebrand Legion Champion> (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12841": {
+      "Name": "Invader's Scourgestone",
+      "Source": "Rattlegore & Lorekeeper Polkelt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "12843": {
+      "Name": "Corruptor's Scourgestone",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13143": {
+      "Name": "Mark of the Dragon Lord",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13148": {
+      "Name": "Chillpike",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13161": {
+      "Name": "Trindlehaven Staff",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13162": {
+      "Name": "Reiver Claws",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13163": {
+      "Name": "Relentless Scythe",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13164": {
+      "Name": "Heart of the Scale",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13166": {
+      "Name": "Slamshot Shoulders",
+      "Source": "Highlord Omokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13167": {
+      "Name": "Fist of Omokk",
+      "Source": "Highlord Omokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13168": {
+      "Name": "Plate of the Shaman King",
+      "Source": "Highlord Omokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13169": {
+      "Name": "Tressermane Leggings",
+      "Source": "Highlord Omokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13170": {
+      "Name": "Skyshroud Leggings",
+      "Source": "Highlord Omokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13173": {
+      "Name": "Flightblade Throwing Axe",
+      "Source": "War Master Voone",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13175": {
+      "Name": "Voone's Twitchbow",
+      "Source": "War Master Voone",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13177": {
+      "Name": "Talisman of Evasion",
+      "Source": "War Master Voone",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13178": {
+      "Name": "Rosewine Circle",
+      "Source": "Urok Doomhowl",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13179": {
+      "Name": "Brazecore Armguards",
+      "Source": "War Master Voone",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13183": {
+      "Name": "Venomspitter",
+      "Source": "Mother Smolderweb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13184": {
+      "Name": "Fallbrush Handgrips",
+      "Source": "Crystal Fang (Rare) ",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13185": {
+      "Name": "Sunderseer Mantle",
+      "Source": "Crystal Fang (Rare) ",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13205": {
+      "Name": "Rhombeard Protector",
+      "Source": "Gizrul the Slavener",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13206": {
+      "Name": "Wolfshear Leggings",
+      "Source": "Gizrul the Slavener",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13208": {
+      "Name": "Bleak Howler Armguards",
+      "Source": "Gizrul the Slavener",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13210": {
+      "Name": "Pads of the Dread Wolf",
+      "Source": "Halycon",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13211": {
+      "Name": "Slashclaw Bracers",
+      "Source": "Halycon",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13212": {
+      "Name": "Halycon's Spiked Collar",
+      "Source": "Halycon",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13213": {
+      "Name": "Smolderweb's Eye",
+      "Source": "Mother Smolderweb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13218": {
+      "Name": "Fang of the Crystal Spider",
+      "Source": "Crystal Fang (Rare) ",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13244": {
+      "Name": "Gilded Gauntlets",
+      "Source": "Mother Smolderweb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
     "13245": {
       "Name": "Kresh's Back",
       "Source": "Kresh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "13247": {
+      "Name": "Quartermaster Zigris' Footlocker",
+      "Source": "Quartermaster Zigris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13252": {
+      "Name": "Cloudrunner Girdle",
+      "Source": "Quartermaster Zigris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13253": {
+      "Name": "Hands of Power",
+      "Source": "Quartermaster Zigris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13255": {
+      "Name": "Trueaim Gauntlets",
+      "Source": "Shadow Hunter Vosh’gajin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13257": {
+      "Name": "Demonic Runed Spaulders",
+      "Source": "Shadow Hunter Vosh’gajin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13258": {
+      "Name": "Slaghide Gauntlets",
+      "Source": "Urok Doomhowl",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13259": {
+      "Name": "Ribsteel Footguards",
+      "Source": "Urok Doomhowl",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13284": {
+      "Name": "Swiftdart Battleboots",
+      "Source": "Spirestone Battle Lord (Rare) ",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13285": {
+      "Name": "The Blackrock Slicer",
+      "Source": "Spirestone Battle Lord (Rare) ",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13286": {
+      "Name": "Rivenspike",
+      "Source": "Spirestone Butcher (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13314": {
+      "Name": "Alanna's Embrace",
+      "Source": "Ras Frostwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13398": {
+      "Name": "Boots of the Shrieker",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13521": {
+      "Name": "Recipe: Flask of Supreme Power",
+      "Source": "Ras Frostwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13523": {
+      "Name": "Blood of Innocents",
+      "Source": "Blood Steward of Kirtonos & Jandice Barov & Doctor Theolen Krastinov <The Butcher>",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13873": {
+      "Name": "Viewing Room Key",
+      "Source": "Rattlegore",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13937": {
+      "Name": "Headmaster's Charge",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13938": {
+      "Name": "Bonecreeper Stylus",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13944": {
+      "Name": "Tombstone Breastplate",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13950": {
+      "Name": "Detention Strap",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13951": {
+      "Name": "Vigorsteel Vambraces",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13952": {
+      "Name": "Iceblade Hacker",
+      "Source": "Ras Frostwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13953": {
+      "Name": "Silent Fang",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13955": {
+      "Name": "Stoneform Shoulders",
+      "Source": "Kirtonos the Herald",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13956": {
+      "Name": "Clutch of Andros",
+      "Source": "Kirtonos the Herald",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13957": {
+      "Name": "Gargoyle Slashers",
+      "Source": "Kirtonos the Herald",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13960": {
+      "Name": "Heart of the Fiend",
+      "Source": "Kirtonos the Herald",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13964": {
+      "Name": "Witchblade",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13967": {
+      "Name": "Windreaver Greaves",
+      "Source": "Kirtonos the Herald",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13969": {
+      "Name": "Loomguard Armbraces",
+      "Source": "Kirtonos the Herald",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "13983": {
+      "Name": "Gravestone War Axe",
+      "Source": "Kirtonos the Herald",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14024": {
+      "Name": "Frightalon",
+      "Source": "Kirtonos the Herald",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
       "SourceFaction": "B"
     },
     "14145": {
@@ -1416,12 +2016,628 @@
       "SourceLocation": "Ragefire Chasm",
       "SourceFaction": "B"
     },
+    "14340": {
+      "Name": "Freezing Lich Robes",
+      "Source": "Ras Frostwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14487": {
+      "Name": "Bonechill Hammer",
+      "Source": "Ras Frostwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14502": {
+      "Name": "Frostbite Girdle",
+      "Source": "Ras Frostwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14503": {
+      "Name": "Death's Clutch",
+      "Source": "Ras Frostwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14514": {
+      "Name": "Pattern: Robe of the Void",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14522": {
+      "Name": "Maelstrom Leggings",
+      "Source": "Ras Frostwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14525": {
+      "Name": "Boneclenched Gauntlets",
+      "Source": "Ras Frostwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14528": {
+      "Name": "Rattlecage Buckler",
+      "Source": "Rattlegore",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14531": {
+      "Name": "Frightskull Shaft",
+      "Source": "Rattlegore",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14537": {
+      "Name": "Corpselight Greaves",
+      "Source": "Rattlegore",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14538": {
+      "Name": "Deadwalker Mantle",
+      "Source": "Rattlegore",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14539": {
+      "Name": "Bone Ring Helm",
+      "Source": "Rattlegore",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14541": {
+      "Name": "Barovian Family Sword",
+      "Source": "Jandice Barov",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14543": {
+      "Name": "Darkshade Gloves",
+      "Source": "Jandice Barov",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14545": {
+      "Name": "Ghostloom Leggings",
+      "Source": "Jandice Barov",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14548": {
+      "Name": "Royal Cap Spaulders",
+      "Source": "Jandice Barov",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14576": {
+      "Name": "Ebon Hilt of Marduk",
+      "Source": "Marduk Blackpool",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14577": {
+      "Name": "Skullsmoke Pants",
+      "Source": "Vectus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "14617": {
+      "Name": "Sawbones Shirt",
+      "Source": "Doctor Theolen Krastinov <The Butcher>",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16667": {
+      "Name": "Coif of Elements",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16670": {
+      "Name": "Boots of Elements",
+      "Source": "Highlord Omokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16676": {
+      "Name": "Beaststalker's Gloves",
+      "Source": "War Master Voone",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16677": {
+      "Name": "Beaststalker's Cap",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16679": {
+      "Name": "Beaststalker's Mantle",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16684": {
+      "Name": "Magister's Gloves",
+      "Source": "Doctor Theolen Krastinov <The Butcher>",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16686": {
+      "Name": "Magister's Crown",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16689": {
+      "Name": "Magister's Mantle",
+      "Source": "Ras Frostwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16693": {
+      "Name": "Devout Crown",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16698": {
+      "Name": "Dreadmist Mask",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16701": {
+      "Name": "Dreadmist Mantle",
+      "Source": "Jandice Barov",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16705": {
+      "Name": "Dreadmist Wraps",
+      "Source": "Lorekeeper Polkelt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16707": {
+      "Name": "Shadowcraft Cap",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16710": {
+      "Name": "Shadowcraft Bracers",
+      "Source": "Kormok & Instructor Malicia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16711": {
+      "Name": "Shadowcraft Boots",
+      "Source": "Rattlegore",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16712": {
+      "Name": "Shadowcraft Gloves",
+      "Source": "Shadow Hunter Vosh’gajin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16715": {
+      "Name": "Wildheart Boots",
+      "Source": "Mother Smolderweb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16716": {
+      "Name": "Wildheart Belt",
+      "Source": "The Ravenian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16718": {
+      "Name": "Wildheart Spaulders",
+      "Source": "Gizrul the Slavener",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16720": {
+      "Name": "Wildheart Cowl",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16722": {
+      "Name": "Lightforge Bracers",
+      "Source": "Lord Alexei Barov",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16727": {
+      "Name": "Lightforge Helm",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16731": {
+      "Name": "Helm of Valor",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "16734": {
+      "Name": "Boots of Valor",
+      "Source": "Kirtonos the Herald",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
     "17008": {
       "Name": "Small Scroll",
       "Source": "Charlga Razorflank",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
+    "17707": {
+      "Name": "Gemshard Heart",
+      "Source": "Princess Theradras",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17710": {
+      "Name": "Charstone Dirk",
+      "Source": "Princess Theradras",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17711": {
+      "Name": "Elemental Rockridge Leggings",
+      "Source": "Princess Theradras",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17713": {
+      "Name": "Blackstone Ring",
+      "Source": "Princess Theradras",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17714": {
+      "Name": "Bracers of the Stone Princess",
+      "Source": "Princess Theradras",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17715": {
+      "Name": "Eye of Theradras",
+      "Source": "Princess Theradras",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17717": {
+      "Name": "Megashot Rifle",
+      "Source": "Tinkerer Gizlock",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17718": {
+      "Name": "Gizlock's Hypertech Buckler",
+      "Source": "Tinkerer Gizlock",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17719": {
+      "Name": "Inventor's Focal Sword",
+      "Source": "Tinkerer Gizlock",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17728": {
+      "Name": "Albino Crocscale Boots",
+      "Source": "Rotgrip",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17730": {
+      "Name": "Gatorbite Axe",
+      "Source": "Rotgrip",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17732": {
+      "Name": "Rotgrip Mantle",
+      "Source": "Rotgrip",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17734": {
+      "Name": "Helm of the Mountain",
+      "Source": "Landslide",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17736": {
+      "Name": "Rockgrip Gauntlets",
+      "Source": "Landslide",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17737": {
+      "Name": "Cloud Stone",
+      "Source": "Landslide",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17738": {
+      "Name": "Claw of Celebras",
+      "Source": "Celebras the Cursed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17739": {
+      "Name": "Grovekeeper's Drape",
+      "Source": "Celebras the Cursed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17740": {
+      "Name": "Soothsayer's Headdress",
+      "Source": "Celebras the Cursed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17741": {
+      "Name": "Nature's Embrace",
+      "Source": "Meshlok the Harvester (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17742": {
+      "Name": "Fungus Shroud Armor",
+      "Source": "Meshlok the Harvester (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17744": {
+      "Name": "Heart of Noxxion",
+      "Source": "Noxxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17745": {
+      "Name": "Noxious Shooter",
+      "Source": "Noxxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17746": {
+      "Name": "Noxxion's Shackles",
+      "Source": "Noxxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17748": {
+      "Name": "Vinerot Sandals",
+      "Source": "Razorlash",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17749": {
+      "Name": "Phytoskin Spaulders",
+      "Source": "Razorlash",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17750": {
+      "Name": "Chloromesh Girdle",
+      "Source": "Razorlash",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17751": {
+      "Name": "Brusslehide Leggings",
+      "Source": "Razorlash",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17752": {
+      "Name": "Satyr's Lash",
+      "Source": "Lord Vyletongue",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17754": {
+      "Name": "Infernal Trickster Leggings",
+      "Source": "Lord Vyletongue",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17755": {
+      "Name": "Satyrmane Sash",
+      "Source": "Lord Vyletongue",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17766": {
+      "Name": "Princess Theradras' Scepter",
+      "Source": "Princess Theradras",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17767": {
+      "Name": "Bloomsprout Headpiece",
+      "Source": "Meshlok the Harvester (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17780": {
+      "Name": "Blade of Eternal Darkness",
+      "Source": "Princess Theradras",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
+      "SourceFaction": "B"
+    },
+    "17943": {
+      "Name": "Fist of Stone",
+      "Source": "Landslide",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Maraudon",
       "SourceFaction": "B"
     },
     "18082": {
@@ -1438,6 +2654,1118 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Farrak",
+      "SourceFaction": "B"
+    },
+    "18249": {
+      "Name": "Crescent Key",
+      "Source": "Pusillin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18250": {
+      "Name": "Gordok Shackle Key",
+      "Source": "Guard Mol'dar & Guard Slip'kik",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18261": {
+      "Name": "Book of Incantations",
+      "Source": "Pusillin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18267": {
+      "Name": "Recipe: Runn Tum Tuber Surprise",
+      "Source": "Pusillin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18268": {
+      "Name": "Gordok Inner Door Key",
+      "Source": "Guard Slip'kik",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18299": {
+      "Name": "Hydrospawn Essence",
+      "Source": "Hydrospawn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18301": {
+      "Name": "Lethtendris's Wand",
+      "Source": "Lethtendris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18302": {
+      "Name": "Band of Vigor",
+      "Source": "Lethtendris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18305": {
+      "Name": "Breakwater Legguards",
+      "Source": "Hydrospawn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18306": {
+      "Name": "Gloves of Shadowy Mist",
+      "Source": "Zevrim Thornhoof",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18307": {
+      "Name": "Riptide Shoes",
+      "Source": "Hydrospawn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18308": {
+      "Name": "Clever Hat",
+      "Source": "Zevrim Thornhoof",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18309": {
+      "Name": "Gloves of Restoration",
+      "Source": "Alzzin the Wildshaper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18310": {
+      "Name": "Fiendish Machete",
+      "Source": "Alzzin the Wildshaper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18311": {
+      "Name": "Quel'dorai Channeling Rod",
+      "Source": "Lethtendris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18312": {
+      "Name": "Energized Chestplate",
+      "Source": "Alzzin the Wildshaper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18313": {
+      "Name": "Helm of Awareness",
+      "Source": "Zevrim Thornhoof",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18314": {
+      "Name": "Ring of Demonic Guile",
+      "Source": "Alzzin the Wildshaper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18315": {
+      "Name": "Ring of Demonic Potency",
+      "Source": "Alzzin the Wildshaper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18317": {
+      "Name": "Tempest Talisman",
+      "Source": "Hydrospawn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18318": {
+      "Name": "Merciful Greaves",
+      "Source": "Alzzin the Wildshaper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18319": {
+      "Name": "Fervent Helm",
+      "Source": "Zevrim Thornhoof",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18321": {
+      "Name": "Energetic Rod",
+      "Source": "Alzzin the Wildshaper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18322": {
+      "Name": "Waterspout Boots",
+      "Source": "Hydrospawn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18323": {
+      "Name": "Satyr's Bow",
+      "Source": "Zevrim Thornhoof",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18324": {
+      "Name": "Waveslicer",
+      "Source": "Hydrospawn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18325": {
+      "Name": "Felhide Cap",
+      "Source": "Lethtendris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18326": {
+      "Name": "Razor Gauntlets",
+      "Source": "Alzzin the Wildshaper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18327": {
+      "Name": "Whipvine Cord",
+      "Source": "Alzzin the Wildshaper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18328": {
+      "Name": "Shadewood Cloak",
+      "Source": "Alzzin the Wildshaper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18345": {
+      "Name": "Murmuring Ring",
+      "Source": "Tzu'see",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18346": {
+      "Name": "Threadbare Trousers",
+      "Source": "Tzu'see",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18347": {
+      "Name": "Well Balanced Axe",
+      "Source": "Illyanna Ravenoak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18349": {
+      "Name": "Gauntlets of Accuracy",
+      "Source": "Illyanna Ravenoak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18350": {
+      "Name": "Amplifying Cloak",
+      "Source": "Magister Kalendris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18351": {
+      "Name": "Magically Sealed Bracers",
+      "Source": "Magister Kalendris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18352": {
+      "Name": "Petrified Bark Shield",
+      "Source": "Tendris Warpwood",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18353": {
+      "Name": "Stoneflower Staff",
+      "Source": "Tendris Warpwood",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18360": {
+      "Name": "Harnessing Shadows",
+      "Source": "Immol'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18370": {
+      "Name": "Vigilance Charm",
+      "Source": "Immol'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18371": {
+      "Name": "Mindtap Talisman",
+      "Source": "Magister Kalendris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18372": {
+      "Name": "Blade of the New Moon",
+      "Source": "Immol'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18373": {
+      "Name": "Chestplate of Tranquility",
+      "Source": "Prince Tortheldrin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18374": {
+      "Name": "Flamescarred Shoulders",
+      "Source": "Magister Kalendris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18375": {
+      "Name": "Bracers of the Eclipse",
+      "Source": "Prince Tortheldrin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18376": {
+      "Name": "Timeworn Mace",
+      "Source": "Prince Tortheldrin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18377": {
+      "Name": "Quickdraw Gloves",
+      "Source": "Immol'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18378": {
+      "Name": "Silvermoon Leggings",
+      "Source": "Prince Tortheldrin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18379": {
+      "Name": "Odious Greaves",
+      "Source": "Immol'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18380": {
+      "Name": "Eldritch Reinforced Legplates",
+      "Source": "Prince Tortheldrin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18381": {
+      "Name": "Evil Eye Pendant",
+      "Source": "Immol'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18382": {
+      "Name": "Fluctuating Cloak",
+      "Source": "Prince Tortheldrin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18383": {
+      "Name": "Force Imbued Gauntlets",
+      "Source": "Illyanna Ravenoak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18384": {
+      "Name": "Bile-etched Spaulders",
+      "Source": "Immol'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18385": {
+      "Name": "Robe of Everlasting Night",
+      "Source": "Immol'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18386": {
+      "Name": "Padre's Trousers",
+      "Source": "Illyanna Ravenoak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18387": {
+      "Name": "Brightspark Gloves",
+      "Source": "Tzu'see",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18388": {
+      "Name": "Stoneshatter",
+      "Source": "Prince Tortheldrin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18389": {
+      "Name": "Cloak of the Cosmos",
+      "Source": "Immol'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18390": {
+      "Name": "Tanglemoss Leggings",
+      "Source": "Tendris Warpwood",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18391": {
+      "Name": "Eyestalk Cord",
+      "Source": "Immol'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18392": {
+      "Name": "Distracting Dagger",
+      "Source": "Prince Tortheldrin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18393": {
+      "Name": "Warpwood Binding",
+      "Source": "Tendris Warpwood",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18394": {
+      "Name": "Demon Howl Wristguards",
+      "Source": "Immol'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18395": {
+      "Name": "Emerald Flame Ring",
+      "Source": "Prince Tortheldrin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18396": {
+      "Name": "Mind Carver",
+      "Source": "Prince Tortheldrin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18397": {
+      "Name": "Elder Magus Pendant",
+      "Source": "Magister Kalendris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18425": {
+      "Name": "Kreeg's Mug",
+      "Source": "Stomper Kreeg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18426": {
+      "Name": "Lethtendris's Web",
+      "Source": "Lethtendris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
+      "SourceFaction": "B"
+    },
+    "18450": {
+      "Name": "Robe of Combustion",
+      "Source": "Guard Mol'dar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18451": {
+      "Name": "Hyena Hide Belt",
+      "Source": "Guard Mol'dar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18458": {
+      "Name": "Modest Armguards",
+      "Source": "Guard Mol'dar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18459": {
+      "Name": "Gallant's Wristguards",
+      "Source": "Guard Mol'dar & Guard Slip'kik",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18460": {
+      "Name": "Unsophisticated Hand Cannon",
+      "Source": "Guard Mol'dar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18462": {
+      "Name": "Jagged Bone Fist",
+      "Source": "Guard Mol'dar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18463": {
+      "Name": "Ogre Pocket Knife",
+      "Source": "Guard Mol'dar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18464": {
+      "Name": "Gordok Nose Ring",
+      "Source": "Guard Mol'dar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18475": {
+      "Name": "Oddly Magical Belt",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18476": {
+      "Name": "Mud Stained Boots",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18477": {
+      "Name": "Shaggy Leggings",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18478": {
+      "Name": "Hyena Hide Jerkin",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18479": {
+      "Name": "Carrion Scorpid Helm",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18480": {
+      "Name": "Scarab Plate Helm",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18481": {
+      "Name": "Skullcracking Mace",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18482": {
+      "Name": "Ogre Toothpick Shooter",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18493": {
+      "Name": "Bulky Iron Spaulders",
+      "Source": "Guard Mol'dar & Guard Slip'kik",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18494": {
+      "Name": "Denwatcher's Shoulders",
+      "Source": "Guard Mol'dar & Guard Slip'kik",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18495": {
+      "Name": "Redoubt Cloak",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18496": {
+      "Name": "Heliotrope Cloak",
+      "Source": "Guard Mol'dar & Guard Slip'kik",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18497": {
+      "Name": "Sublime Wristguards",
+      "Source": "Guard Mol'dar & Guard Slip'kik",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18498": {
+      "Name": "Hedgecutter",
+      "Source": "Guard Mol'dar & Guard Slip'kik",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18499": {
+      "Name": "Barrier Shield",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18500": {
+      "Name": "Tarnished Elven Ring",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18502": {
+      "Name": "Monstrous Glaive",
+      "Source": "Captain Kromcrush",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18503": {
+      "Name": "Kromcrush's Chestplate",
+      "Source": "Captain Kromcrush",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18505": {
+      "Name": "Mugger's Belt",
+      "Source": "Captain Kromcrush",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18507": {
+      "Name": "Boots of the Full Moon",
+      "Source": "Captain Kromcrush",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18520": {
+      "Name": "Barbarous Blade",
+      "Source": "King Gordok & Cho'Rush the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18521": {
+      "Name": "Grimy Metal Boots",
+      "Source": "King Gordok & Cho'Rush the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18522": {
+      "Name": "Band of the Ogre King",
+      "Source": "King Gordok & Cho'Rush the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18523": {
+      "Name": "Brightly Glowing Stone",
+      "Source": "King Gordok & Cho'Rush the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18524": {
+      "Name": "Leggings of Destruction",
+      "Source": "King Gordok & Cho'Rush the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18525": {
+      "Name": "Bracers of Prosperity",
+      "Source": "King Gordok & Cho'Rush the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18526": {
+      "Name": "Crown of the Ogre King",
+      "Source": "King Gordok & Cho'Rush the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18527": {
+      "Name": "Harmonious Gauntlets",
+      "Source": "King Gordok & Cho'Rush the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18528": {
+      "Name": "Cyclone Spaulders",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18529": {
+      "Name": "Elemental Plate Girdle",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18530": {
+      "Name": "Ogre Forged Hauberk",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18531": {
+      "Name": "Unyielding Maul",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18532": {
+      "Name": "Mindsurge Robe",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18533": {
+      "Name": "Gordok Bracers of Power",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18534": {
+      "Name": "Rod of the Ogre Magi",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18537": {
+      "Name": "Counterattack Lodestone",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18538": {
+      "Name": "Treant's Bane",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18640": {
+      "Name": "Happy Fun Rock",
+      "Source": "Stomper Kreeg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18655": {
+      "Name": "Schematic: Major Recombobulator",
+      "Source": "Gordok Tribute",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18680": {
+      "Name": "Ancient Bone Bow",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "18681": {
+      "Name": "Burial Shawl",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "18682": {
+      "Name": "Ghoul Skin Leggings",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "18683": {
+      "Name": "Hammer of the Vesper",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "18684": {
+      "Name": "Dimly Opalescent Ring",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "18686": {
+      "Name": "Bone Golem Shoulders",
+      "Source": "Rattlegore",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "18689": {
+      "Name": "Phantasmal Cloak",
+      "Source": "Jandice Barov",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "18690": {
+      "Name": "Wraithplate Leggings",
+      "Source": "Jandice Barov",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "18691": {
+      "Name": "Dark Advisor's Pendant",
+      "Source": "Vectus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "18692": {
+      "Name": "Death Knight Sabatons",
+      "Source": "Marduk Blackpool",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "18693": {
+      "Name": "Shivery Handwraps",
+      "Source": "Ras Frostwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "18694": {
+      "Name": "Shadowy Mail Greaves",
+      "Source": "Ras Frostwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "18695": {
+      "Name": "Spellbound Tome",
+      "Source": "Ras Frostwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "18696": {
+      "Name": "Intricately Runed Shield",
+      "Source": "Ras Frostwhisper",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "18754": {
+      "Name": "Fel Hardened Bracers",
+      "Source": "Special Boss: Lord Hel'nurath",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18755": {
+      "Name": "Xorothian Firestick",
+      "Source": "Special Boss: Lord Hel'nurath",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18756": {
+      "Name": "Dreadguard's Protector",
+      "Source": "Special Boss: Lord Hel'nurath",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18757": {
+      "Name": "Diabolic Mantle",
+      "Source": "Special Boss: Lord Hel'nurath",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "18780": {
+      "Name": "Top Half of Advanced Armorsmithing: Volume I",
+      "Source": "King Gordok & Cho'Rush the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "18782": {
+      "Name": "Top Half of Advanced Armorsmithing: Volume II",
+      "Source": "Rattlegore",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "18784": {
+      "Name": "Top Half of Advanced Armorsmithing: Volume III",
+      "Source": "Urok Doomhowl",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "19258": {
+      "Name": "Ace of Warlords",
+      "Source": "King Gordok & Cho'Rush the Observer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul North",
+      "SourceFaction": "B"
+    },
+    "19268": {
+      "Name": "Ace of Elementals",
+      "Source": "Hydrospawn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul East",
       "SourceFaction": "B"
     },
     "19507": {
@@ -1462,6 +3790,78 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "20520": {
+      "Name": "Dark Rune",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "22232": {
+      "Name": "Marksman's Girdle",
+      "Source": "Urok Doomhowl",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "22309": {
+      "Name": "Pattern: Big Bag of Enchantment",
+      "Source": "Magister Kalendris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dire Maul West",
+      "SourceFaction": "B"
+    },
+    "22313": {
+      "Name": "Ironweave Bracers",
+      "Source": "Halycon",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "22321": {
+      "Name": "Heart of Wyrmthalak",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "22394": {
+      "Name": "Staff of Metanoia",
+      "Source": "Jandice Barov",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "22433": {
+      "Name": "Don Mauricio's Band of Domination",
+      "Source": "Darkmaster Gandling",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "23200": {
+      "Name": "Totem of Sustaining",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
+      "SourceFaction": "B"
+    },
+    "23201": {
+      "Name": "Libram of Divinity",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance",
       "SourceFaction": "B"
     }
   }
