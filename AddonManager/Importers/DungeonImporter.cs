@@ -20,14 +20,14 @@ public class DungeonImporter : LootImporter
             { @"https://www.wowhead.com/classic/guide/uldaman-dungeon-strategy-wow-classic", "Uldaman"},
             { @"https://www.wowhead.com/classic/guide/zulfarrak-dungeon-strategy-wow-classic", "Zul'Farrak"},
             { @"https://www.wowhead.com/classic/guide/maraudon-dungeon-strategy-wow-classic", "Maraudon" },
-            { @"https://www.wowhead.com/classic/guide/temple-of-atalhakkar-sunken-temple-dungeon-strategy-wow-classic", "Sunken Temple" }, // Fix
-            { @"https://www.wowhead.com/classic/guide/blackrock-depths-detention-block-dungeon-strategy-wow-classic", "Blackrock Depths" },// Fix
-            { @"https://www.wowhead.com/classic/guide/blackrock-depths-shadowforge-city-dungeon-strategy-wow-classic", "Blackrock Depths" },// Fix
+            { @"https://www.wowhead.com/classic/guide/temple-of-atalhakkar-sunken-temple-dungeon-strategy-wow-classic", "Sunken Temple" },
+            //{ @"https://www.wowhead.com/classic/guide/blackrock-depths-detention-block-dungeon-strategy-wow-classic", "Blackrock Depths" },
+            //{ @"https://www.wowhead.com/classic/guide/blackrock-depths-shadowforge-city-dungeon-strategy-wow-classic", "Blackrock Depths" },// Fix
             { @"https://www.wowhead.com/classic/guide/lower-blackrock-spire-lbrs-dungeon-strategy-wow-classic", "Lower Blackrock Spire" },
-            { @"https://www.wowhead.com/classic/guide/upper-blackrock-spire-ubrs-dungeon-strategy-wow-classic", "Upper Blackrock Spire" },// Fix
+            //{ @"https://www.wowhead.com/classic/guide/upper-blackrock-spire-ubrs-dungeon-strategy-wow-classic", "Upper Blackrock Spire" },// Fix
             { @"https://www.wowhead.com/classic/guide/scholomance-dungeon-strategy-wow-classic", "Scholomance"},
-            { @"https://www.wowhead.com/classic/guide/stratholme-live-dungeon-strategy-wow-classic", "Stratholme Live"},// Fix
-            { @"https://www.wowhead.com/classic/guide/stratholme-undead-dungeon-strategy-wow-classic", "Stratholme Undead"},// Fix
+            //{ @"https://www.wowhead.com/classic/guide/stratholme-live-dungeon-strategy-wow-classic", "Stratholme Live"},// Fix
+            //{ @"https://www.wowhead.com/classic/guide/stratholme-undead-dungeon-strategy-wow-classic", "Stratholme Undead"},// Fix
             { @"https://www.wowhead.com/classic/guide/dire-maul-east-dungeon-strategy-wow-classic", "Dire Maul East"},
             { @"https://www.wowhead.com/classic/guide/dire-maul-west-dungeon-strategy-wow-classic", "Dire Maul West"},
             { @"https://www.wowhead.com/classic/guide/dire-maul-north-dungeon-strategy-wow-classic", "Dire Maul North"}
@@ -40,8 +40,10 @@ public class DungeonImporter : LootImporter
 
         await Common.LoadFromWebPages(dungeonUriList.Keys.ToList(), (uri, doc) =>
         {
-            var bossElements = doc.QuerySelectorAll("h3 .q10");
+            var bossElements = doc.QuerySelectorAll("h3 .q10").ToList();
             
+            bossElements.AddRange(doc.QuerySelectorAll("h2 .q10").ToList());
+
             foreach (var bossElement in bossElements)
             {
                 var bossName = bossElement.TextContent;
