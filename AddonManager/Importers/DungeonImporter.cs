@@ -53,7 +53,7 @@ public class DungeonImporter : LootImporter
         "Princess Theradras","Rotgrip","Tinkerer Gizlock", "BoEs from Maraudon"}) },
 
         { @"https://www.wowhead.com/classic/guide/temple-of-atalhakkar-sunken-temple-dungeon-strategy-wow-classic", ("The Sunken Temple", 
-        new List<string>{"Atal’alrion <Guardian of the Idol>", "Jammal'an the Prophet","Weaver and Dreamscythe","Hazzas and Morphaz",
+        new List<string>{"Atal’alrion <Guardian of the Idol>", "Jammal'an the Prophet & Ogom the Wretched","Weaver and Dreamscythe","Hazzas and Morphaz",
         "The Shade of Eranikus","Avatar of Hakkar", "Noteworthy Sunken Temple BoE Loot"}) },
 
         //{ @"https://www.wowhead.com/classic/guide/blackrock-depths-detention-block-dungeon-strategy-wow-classic", ("Blackrock Depths", 
@@ -66,7 +66,7 @@ public class DungeonImporter : LootImporter
 
         { @"https://www.wowhead.com/classic/guide/lower-blackrock-spire-lbrs-dungeon-strategy-wow-classic", ("Lower Blackrock Spire", 
         new List<string>{"Spirestone Butcher (Rare)","Spirestone Battle Lord (Rare)","Highlord Omokk","Shadow Hunter Vosh’gajin",
-        "War Master Voone","Mor Grayhoof","Bannok Grimaxe <Firebrand Legion Champion> (Rare)","Mother Smolderweb", "Crystal Fang (Rare)",
+        "War Master Voone","Mor Grayhoof","Bannok Grimaxe","Mother Smolderweb", "Crystal Fang (Rare)",
         "Urok Doomhowl","Quartermaster Zigris","Halycon","Gizrul the Slavener", "Overlord Wyrmthalak", "Alliance LBRS Quests"}) },
 
         //{ @"https://www.wowhead.com/classic/guide/upper-blackrock-spire-ubrs-dungeon-strategy-wow-classic", ("Upper Blackrock Spire", 
@@ -129,7 +129,8 @@ public class DungeonImporter : LootImporter
 
     private Dictionary<string, string> _bossNameReplacements = new Dictionary<string, string> 
     {
-        {"Fel Steeds/Shadow Charger", "Fel Steeds & Shadow Charger"}
+        {"Fel Steeds/Shadow Charger", "Fel Steeds & Shadow Charger"},
+        {"Bannok Grimaxe", "Bannok Grimaxe (Rare)"}
     };
 
     private IHtmlAnchorElement? RecursivelyFindFirstAnchor(IElement element)
@@ -156,7 +157,9 @@ public class DungeonImporter : LootImporter
             if (element == null)
                 return;
 
-            if (nextBoss != null && element.TextContent.Contains(nextBoss))
+            if (nextBoss != null && element.TextContent.Contains(nextBoss) && 
+                (element.NodeName == "H3" || element.NodeName == "H2" || 
+                element.FirstChild.NodeName == "H3" || element.FirstChild.NodeName == "H2"))
                 return;
 
             if (element.TextContent.Contains("Loot"))

@@ -912,6 +912,14 @@
       "SourceLocation": "Scarlet Monastery",
       "SourceFaction": "B"
     },
+    "8053": {
+      "Name": "Obsidian Power Source",
+      "Source": "Obsidian Sentinel",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Uldaman",
+      "SourceFaction": "B"
+    },
     "9379": {
       "Name": "Sang'thraze the Deflector",
       "Source": "Antu'sul <Overseer of Sul>",
@@ -1448,6 +1456,30 @@
       "SourceLocation": "The Sunken Temple",
       "SourceFaction": "B"
     },
+    "10803": {
+      "Name": "Blade of the Wretched",
+      "Source": "Jammal'an the Prophet & Ogom the Wretched",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "10804": {
+      "Name": "Fist of the Damned",
+      "Source": "Jammal'an the Prophet & Ogom the Wretched",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "10805": {
+      "Name": "Eater of the Dead",
+      "Source": "Jammal'an the Prophet & Ogom the Wretched",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Sunken Temple",
+      "SourceFaction": "B"
+    },
     "10806": {
       "Name": "Vestments of the Atal'ai Prophet",
       "Source": "Jammal'an the Prophet & Ogom the Wretched",
@@ -1682,7 +1714,7 @@
     },
     "12621": {
       "Name": "Demonfork",
-      "Source": "Bannok Grimaxe <Firebrand Legion Champion> (Rare)",
+      "Source": "Bannok Grimaxe",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lower Blackrock Spire",
@@ -1698,7 +1730,7 @@
     },
     "12634": {
       "Name": "Chiselbrand Girdle",
-      "Source": "Bannok Grimaxe <Firebrand Legion Champion> (Rare)",
+      "Source": "Bannok Grimaxe",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lower Blackrock Spire",
@@ -1706,7 +1738,7 @@
     },
     "12637": {
       "Name": "Backusarian Gauntlets",
-      "Source": "Bannok Grimaxe <Firebrand Legion Champion> (Rare)",
+      "Source": "Bannok Grimaxe",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lower Blackrock Spire",
@@ -1754,7 +1786,7 @@
     },
     "12838": {
       "Name": "Plans: Arcanite Reaper",
-      "Source": "Bannok Grimaxe <Firebrand Legion Champion> (Rare)",
+      "Source": "Bannok Grimaxe",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lower Blackrock Spire",
@@ -2066,7 +2098,7 @@
     },
     "13284": {
       "Name": "Swiftdart Battleboots",
-      "Source": "Spirestone Battle Lord (Rare) ",
+      "Source": "Spirestone Battle Lord (Rare)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lower Blackrock Spire",
@@ -2074,7 +2106,7 @@
     },
     "13285": {
       "Name": "The Blackrock Slicer",
-      "Source": "Spirestone Battle Lord (Rare) ",
+      "Source": "Spirestone Battle Lord (Rare)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lower Blackrock Spire",
@@ -2562,7 +2594,7 @@
     },
     "16710": {
       "Name": "Shadowcraft Bracers",
-      "Source": "Kormok & Instructor Malicia",
+      "Source": "Instructor Malicia",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Scholomance",
