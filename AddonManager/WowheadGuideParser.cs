@@ -455,17 +455,26 @@ public class WowheadGuideParser
             bool isTierList = false;
             foreach (var tableRow in tableRows)
             {
+                var tierlistNumber = 0;
                 if (!firstRow || tableRow.NodeName != "TR")
                 {
+                    if (tableRow.ChildNodes[0].TextContent.Contains("Rank"))
+                    {   
+                        tierlistNumber = 0;
+                    }
                     if (tableRow.ChildNodes[1].TextContent.Contains("Rank"))
-                        isTierList = true;
+                    {
+                        tierlistNumber = 1;
+                    }
                     firstRow = true;
                     continue;
                 }
 
                 IElement? itemChild = null;
-                foreach (var rowChild in tableRow.ChildNodes)
+
+                for(int i = tierlistNumber + 1; i < tableRow.ChildNodes.Length; i++)
                 {
+                    var rowChild = tableRow.ChildNodes[i];
                     if (rowChild.NodeType == NodeType.Element)
                     {
                         if (rowChild.ChildNodes.Any(n => n.NodeName == "A" && ((IHtmlAnchorElement)n).PathName.Contains("/item=")))
