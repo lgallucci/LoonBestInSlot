@@ -110,6 +110,7 @@ LBIS:AddItem(spec2, "15382", LBIS.L["Back"], "Alt") --Rageclaw Cloak
 LBIS:AddItem(spec2, "217293", LBIS.L["Back"], "Alt") --Silky Spider Cape
 LBIS:AddItem(spec2, "216622", LBIS.L["Back"], "Alt") --Coagulated Cloak
 LBIS:AddItem(spec2, "213316", LBIS.L["Chest"], "BIS") --H.A.Z.A.R.D. Breastplate
+LBIS:AddItem(spec2, "210794", LBIS.L["Chest"], "BIS") --Shifting Silver Breastplate
 LBIS:AddItem(spec2, "10775", LBIS.L["Chest"], "Alt") --Carapace of Tuten'kash
 LBIS:AddItem(spec2, "19581", LBIS.L["Wrist"], "BIS") --Berserker Bracers
 LBIS:AddItem(spec2, "14956", LBIS.L["Wrist"], "Alt") --Bloodforged Bindings
@@ -150,7 +151,7 @@ LBIS:AddItem(spec2, "213348", LBIS.L["Trinket"], "Alt") --Gyromatic Experiment 4
 LBIS:AddItem(spec2, "21567", LBIS.L["Trinket"], "Alt Stam") --Rune of Duty
 LBIS:AddItem(spec2, "21568", LBIS.L["Trinket"], "Alt") --Rune of Duty
 LBIS:AddItem(spec2, "213286", LBIS.L["Main Hand"], "BIS") --Electrocutioner's Needle
-LBIS:AddItem(spec2, "209560", LBIS.L["Main Hand"], "Alt") --Hammer of Righteous Judgement
+LBIS:AddItem(spec2, "209560", LBIS.L["Main Hand"], "BIS") --Hammer of Righteous Judgement
 LBIS:AddItem(spec2, "864", LBIS.L["Main Hand"], "Alt") --Knightly Longsword
 LBIS:AddItem(spec2, "213390", LBIS.L["Off Hand"], "BIS") --Whirling Truesilver Gearwall
 LBIS:AddItem(spec2, "7726", LBIS.L["Off Hand"], "Alt") --Aegis of the Scarlet Commander
