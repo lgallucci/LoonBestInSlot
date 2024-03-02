@@ -97,7 +97,7 @@ public class DungeonImporter : LootImporter
 
     private HashSet<int> _excludedIds = new HashSet<int>()
     {
-        7740, 7741, 10588, 11207, 11610, 17191, 11813
+        2589, 2592, 4306, 7740, 7741, 10588, 11207, 11610, 17191, 11813, 
     };
 
     internal override string FileName { get => "DungeonItemList"; }
@@ -199,15 +199,16 @@ public class DungeonImporter : LootImporter
                         int.TryParse(item, out itemId);
                         var name = anchor.TextContent.Trim();
 
-                        items.AddItem(itemId, new DatabaseItem 
-                        {
-                            Name = name,
-                            Source = bossName,
-                            SourceType = "Drop",
-                            SourceNumber = "0",
-                            SourceLocation = dungeonName,
-                            SourceFaction = sourceFaction
-                        });
+                        if (_excludedIds.Contains(itemId))
+                            items.AddItem(itemId, new DatabaseItem 
+                            {
+                                Name = name,
+                                Source = bossName,
+                                SourceType = "Drop",
+                                SourceNumber = "0",
+                                SourceLocation = dungeonName,
+                                SourceFaction = sourceFaction
+                            });
                     }
                 }
             }

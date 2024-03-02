@@ -431,7 +431,10 @@ public static class WowheadImporter
     private static List<string> _dungeons = new List<string>() {"ragefire chasm", "the deadmines", "wailing caverns", 
                                                                 "shadowfang keep", "the stockade", "razorfen kraul", 
                                                                 "scarlet monastery", "razorfen downs", "uldaman", 
-                                                                "zul'farrak", "the temple of atal'hakkar" };
+                                                                "zul'farrak", "the temple of atal'hakkar", "blackrock depths", 
+                                                                "lower blackrock spire", "upper blackrock spire", "scholomance",
+                                                                "stratholme live", "stratholme undead",
+                                                                "dire maul: east", "dire maul: west", "dire maul: north" };
     private static bool IsDungeonName(string location)
     {
         return _dungeons.Contains(location.ToLower());
