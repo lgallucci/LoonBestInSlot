@@ -56,26 +56,26 @@ public class DungeonImporter : LootImporter
         new List<string>{"Atal’alrion <Guardian of the Idol>", "Jammal'an the Prophet & Ogom the Wretched", "Weaver and Dreamscythe",
         "Hazzas and Morphaz", "The Shade of Eranikus", "Avatar of Hakkar", "Noteworthy Sunken Temple BoE Loot"}) },
 
-        { @"https://www.wowhead.com/classic/guide/blackrock-depths-detention-block-dungeon-strategy-wow-classic", ("Blackrock Depths", 
-        new List<string>{"High Interrogator Gerstahn", "Lord Roccor", "Houndmaster Grebmar", "Ring of the Law", "Fineous Darkvire",
-        "Bael'gar", "Lord Incendius", "The Vault", "Notable Blackrock Depths BoE Loot"}) },
+        // { @"https://www.wowhead.com/classic/guide/blackrock-depths-detention-block-dungeon-strategy-wow-classic", ("Blackrock Depths", 
+        // new List<string>{"High Interrogator Gerstahn", "Lord Roccor", "Houndmaster Grebmar", "Ring of the Law", "Fineous Darkvire",
+        // "Bael'gar", "Lord Incendius", "The Vault", "Notable Blackrock Depths BoE Loot"}) },
 
-        { @"https://www.wowhead.com/classic/guide/blackrock-depths-shadowforge-city-dungeon-strategy-wow-classic", ("Blackrock Depths", 
-        new List<string>{"General Angerforge","Golem Lord Argelmach","The Grim Guzzler","Ambassador Flamelash","Panzor the Invincible",
-        "Chest of the Seven","The Lyceum Gauntlet","Magmus","Emperor Dagran Thaurissan", "Emperor Farming Runs"}) },
+        // { @"https://www.wowhead.com/classic/guide/blackrock-depths-shadowforge-city-dungeon-strategy-wow-classic", ("Blackrock Depths", 
+        // new List<string>{"General Angerforge","Golem Lord Argelmach","The Grim Guzzler","Ambassador Flamelash","Panzor the Invincible",
+        // "Chest of the Seven","The Lyceum Gauntlet","Magmus","Emperor Dagran Thaurissan", "Emperor Farming Runs"}) },
 
-        { @"https://www.wowhead.com/classic/guide/lower-blackrock-spire-lbrs-dungeon-strategy-wow-classic", ("Lower Blackrock Spire", 
-        new List<string>{"Spirestone Butcher (Rare)", "Spirestone Battle Lord (Rare)", "Highlord Omokk", "Shadow Hunter Vosh’gajin",
-        "War Master Voone", "Mor Grayhoof", "Bannok Grimaxe", "Mother Smolderweb", "Crystal Fang (Rare)",
-        "Urok Doomhowl", "Quartermaster Zigris", "Halycon", "Gizrul the Slavener", "Overlord Wyrmthalak", "Alliance LBRS Quests"}) },
+        // { @"https://www.wowhead.com/classic/guide/lower-blackrock-spire-lbrs-dungeon-strategy-wow-classic", ("Lower Blackrock Spire", 
+        // new List<string>{"Spirestone Butcher (Rare)", "Spirestone Battle Lord (Rare)", "Highlord Omokk", "Shadow Hunter Vosh’gajin",
+        // "War Master Voone", "Mor Grayhoof", "Bannok Grimaxe", "Mother Smolderweb", "Crystal Fang (Rare)",
+        // "Urok Doomhowl", "Quartermaster Zigris", "Halycon", "Gizrul the Slavener", "Overlord Wyrmthalak", "Alliance LBRS Quests"}) },
 
         //{ @"https://www.wowhead.com/classic/guide/upper-blackrock-spire-ubrs-dungeon-strategy-wow-classic", ("Upper Blackrock Spire", 
         //new List<string>{"","",}) },// Fix
 
-        { @"https://www.wowhead.com/classic/guide/scholomance-dungeon-strategy-wow-classic", ("Scholomance", 
-        new List<string>{"Blood Steward of Kirtonos","Kirtonos the Herald","Jandice Barov","Rattlegore","Marduk Blackpool",
-        "Vectus","Ras Frostwhisper","Kormok","Instructor Malicia","Doctor Theolen Krastinov <The Butcher>","Lorekeeper Polkelt","The Ravenian",
-        "Lord Alexei Barov","Lady Illucia Barov", "Darkmaster Gandling", "Noteworthy Trash Mobs in Scholomance"})},
+        // { @"https://www.wowhead.com/classic/guide/scholomance-dungeon-strategy-wow-classic", ("Scholomance", 
+        // new List<string>{"Blood Steward of Kirtonos","Kirtonos the Herald","Jandice Barov","Rattlegore","Marduk Blackpool",
+        // "Vectus","Ras Frostwhisper","Kormok","Instructor Malicia","Doctor Theolen Krastinov <The Butcher>","Lorekeeper Polkelt","The Ravenian",
+        // "Lord Alexei Barov","Lady Illucia Barov", "Darkmaster Gandling", "Noteworthy Trash Mobs in Scholomance"})},
 
         //{ @"https://www.wowhead.com/classic/guide/stratholme-live-dungeon-strategy-wow-classic", ("Stratholme Live", 
         //new List<string>{"","",})},// Fix
@@ -83,16 +83,16 @@ public class DungeonImporter : LootImporter
         //{ @"https://www.wowhead.com/classic/guide/stratholme-undead-dungeon-strategy-wow-classic", ("Stratholme Undead", 
         //new List<string>{"","",})},// Fix
 
-        { @"https://www.wowhead.com/classic/guide/dire-maul-east-dungeon-strategy-wow-classic", ("Dire Maul East", 
-        new List<string>{"Pusillin","Lethtendris","Hydrospawn","Zevrim Thornhoof","Alzzin the Wildshaper","Isalien"})}, //Figure out dealing with Isalien
+        // { @"https://www.wowhead.com/classic/guide/dire-maul-east-dungeon-strategy-wow-classic", ("Dire Maul East", 
+        // new List<string>{"Pusillin","Lethtendris","Hydrospawn","Zevrim Thornhoof","Alzzin the Wildshaper","Isalien"})}, //Figure out dealing with Isalien
 
-        { @"https://www.wowhead.com/classic/guide/dire-maul-west-dungeon-strategy-wow-classic", ("Dire Maul West", 
-        new List<string>{"Tendris Warpwood","Magister Kalendris","Tzu'see","Illyanna Ravenoak","Immol'thar","Prince Tortheldrin",
-        "Lord Hel'nurath", "ABOUT THE AUTHOR"})},
+        // { @"https://www.wowhead.com/classic/guide/dire-maul-west-dungeon-strategy-wow-classic", ("Dire Maul West", 
+        // new List<string>{"Tendris Warpwood","Magister Kalendris","Tzu'see","Illyanna Ravenoak","Immol'thar","Prince Tortheldrin",
+        // "Lord Hel'nurath", "ABOUT THE AUTHOR"})},
 
-        { @"https://www.wowhead.com/classic/guide/dire-maul-north-dungeon-strategy-wow-classic", ("Dire Maul North", 
-        new List<string>{"Guard Mol'dar", "Stomper Kreeg", "Guard Fengus", "Guard Slip'kik", "Captain Kromcrush", 
-        "King Gordok & Cho'Rush the Observer", "Gordok Tribute", "Tribute Buffs"})}
+        // { @"https://www.wowhead.com/classic/guide/dire-maul-north-dungeon-strategy-wow-classic", ("Dire Maul North", 
+        // new List<string>{"Guard Mol'dar", "Stomper Kreeg", "Guard Fengus", "Guard Slip'kik", "Captain Kromcrush", 
+        // "King Gordok & Cho'Rush the Observer", "Gordok Tribute", "Tribute Buffs"})}
     };
 
     internal override string FileName { get => "DungeonItemList"; }

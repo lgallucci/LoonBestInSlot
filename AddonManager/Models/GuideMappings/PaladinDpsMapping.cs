@@ -23,8 +23,9 @@ internal class PaladinDpsMapping : SpecMapping
     public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
         {
             { ("Feet", "#boots")},
+            { ("Two Hand", "h3#weapon-divine-storm-dwarf") },
+            { ("Two Hand", "h3#weapon-divine-storm-human") },
             { ("Two Hand", "h3#weapon-martyrdom") },
-            { ("Two Hand", "h3#weapon-divine-storm") },
             { ("Ranged/Relic", "h3#libram") },
         };
 

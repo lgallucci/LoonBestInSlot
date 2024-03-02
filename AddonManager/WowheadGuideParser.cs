@@ -288,13 +288,16 @@ public class WowheadGuideParser
                 itemId = _enchantSwaps[itemId];
             }
 
-            enchants.Add(itemId + slot, new EnchantSpec
+            if (!enchants.ContainsKey(itemId + slot))
             {
-                EnchantId = itemId,
-                Name = itemName ?? "unknown",
-                Slot = slot,
-                TextureId = textureId
-            });
+                enchants.Add(itemId + slot, new EnchantSpec
+                {
+                    EnchantId = itemId,
+                    Name = itemName ?? "unknown",
+                    Slot = slot,
+                    TextureId = textureId
+                });
+            }
         }
     }
 

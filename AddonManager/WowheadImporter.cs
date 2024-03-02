@@ -331,10 +331,11 @@ public static class WowheadImporter
 
         var webAddresses = itemSources.Where((i) => i.Value.SourceType == @"LBIS.L[""unknown""]")
                                            .Select((i) => $"https://www.wowhead.com/classic/item={i.Key}/");
-        try {
-            
+        try 
+        {
             await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
             {
+                var name = doc.Title?.Split("-")[0].Trim() ?? "unknown";
                 var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/classic/item=", "").TrimEnd('/'));
                     var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
                 if (rowElements != null && rowElements.Length > 0)
@@ -403,6 +404,7 @@ public static class WowheadImporter
                             }
                         }
                         
+                        itemSources[itemId].Name = name;
                         itemSources[itemId].SourceType = AddLocalizeText("Quest");
                         itemSources[itemId].Source = AddLocalizeText(source);
                         itemSources[itemId].SourceNumber = "0";

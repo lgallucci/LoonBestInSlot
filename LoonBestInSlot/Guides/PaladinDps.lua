@@ -6,8 +6,8 @@ LBIS:AddEnchant(spec2, "13700", LBIS.L["Chest"]) --Enchant Chest - Lesser Stats
 LBIS:AddEnchant(spec2, "13661", LBIS.L["Wrist"]) --Enchant Bracer - Strength
 LBIS:AddEnchant(spec2, "13887", LBIS.L["Hands"]) --Enchant Gloves - Strength
 LBIS:AddEnchant(spec2, "19057", LBIS.L["Legs"]) --Rugged Armor Kit
-LBIS:AddEnchant(spec2, "13637", LBIS.L["Feet"]) --Enchant Boots - Lesser Agility
 LBIS:AddEnchant(spec2, "7222", LBIS.L["Two Hand"]) --Iron Counterweight
+LBIS:AddEnchant(spec2, "13637", LBIS.L["Feet"]) --Enchant Boots - Lesser Agility
 
 LBIS:AddItem(spec1, "211505", LBIS.L["Head"], "BIS") --Twilight Avenger's Helm
 LBIS:AddItem(spec1, "211789", LBIS.L["Head"], "BIS") --Artemis Cowl
@@ -119,12 +119,20 @@ LBIS:AddItem(spec2, "211449", LBIS.L["Trinket"], "BIS") --Avenger's Void Pearl
 LBIS:AddItem(spec2, "216505", LBIS.L["Trinket"], "Alt") --Bloodlight Crusader's Radiance
 LBIS:AddItem(spec2, "4381", LBIS.L["Trinket"], "Alt") --Minor Recombobulator
 LBIS:AddItem(spec2, "213416", LBIS.L["Two Hand"], "BIS") --Thermaplugg's Rocket Cleaver
-LBIS:AddItem(spec2, "216506", LBIS.L["Two Hand"], "BIS") --Bloodlight Avenger's Edge
-LBIS:AddItem(spec2, "9425", LBIS.L["Two Hand"], "Alt") --Pendulum of Doom
-LBIS:AddItem(spec2, "7717", LBIS.L["Two Hand"], "Alt") --Ravager
-LBIS:AddItem(spec2, "6830", LBIS.L["Two Hand"], "Alt") --Bonebiter
+LBIS:AddItem(spec2, "210741", LBIS.L["Two Hand"], "BIS") --Automatic Crowd Pummeler
+LBIS:AddItem(spec2, "9423", LBIS.L["Two Hand"], "BIS") --The Jackhammer
+LBIS:AddItem(spec2, "216506", LBIS.L["Two Hand"], "Alt") --Bloodlight Avenger's Edge
 LBIS:AddItem(spec2, "213292", LBIS.L["Two Hand"], "Alt") --Gizmotron Gigachopper
+LBIS:AddItem(spec2, "9425", LBIS.L["Two Hand"], "Alt") --Pendulum of Doom
+LBIS:AddItem(spec2, "1982", LBIS.L["Two Hand"], "Alt") --Nightblade
+LBIS:AddItem(spec2, "6830", LBIS.L["Two Hand"], "Alt") --Bonebiter
+LBIS:AddItem(spec2, "7717", LBIS.L["Two Hand"], "Alt") --Ravager
 LBIS:AddItem(spec2, "217302", LBIS.L["Two Hand"], "Alt") --Mograine's Might
 LBIS:AddItem(spec2, "6327", LBIS.L["Two Hand"], "Alt") --The Pacifier
+LBIS:AddItem(spec2, "213408", LBIS.L["Two Hand"], "Alt") --Gyromatic Macro-Adjustor
+LBIS:AddItem(spec2, "10758", LBIS.L["Two Hand"], "Alt") --X'caliboar
+LBIS:AddItem(spec2, "213296", LBIS.L["Two Hand"], "Alt") --Supercharged Headchopper
+LBIS:AddItem(spec2, "870", LBIS.L["Two Hand"], "Alt") --Fiery War Axe
+LBIS:AddItem(spec2, "1722", LBIS.L["Two Hand"], "Alt") --Thornstone Sledgehammer
 LBIS:AddItem(spec2, "215435", LBIS.L["Ranged/Relic"], "BIS") --Libram of Benediction
 LBIS:AddItem(spec2, "209574", LBIS.L["Ranged/Relic"], "BIS") --Discarded Tenets of the Silver Hand

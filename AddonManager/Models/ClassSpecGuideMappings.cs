@@ -23,9 +23,18 @@ public class ClassGuideMapping
         }
         else
         {
-            foreach (var mapping in guideMappings)
+            foreach(var mapping in guideMappings)
             {
-                _mappings[mapping.Item1] = mapping.Item2;
+                if (_mappings.ContainsKey(mapping.Item1))
+                    _mappings.Remove(mapping.Item1);
+            }
+
+            foreach (var mapping in guideMappings)
+            {                
+                if (_mappings.ContainsKey(mapping.Item1))
+                    _mappings[mapping.Item1] = $"{_mappings[mapping.Item1].SlotHtmlId};{mapping.Item2.SlotHtmlId}";
+                else
+                    _mappings[mapping.Item1] = mapping.Item2;
             }
         }        
     }

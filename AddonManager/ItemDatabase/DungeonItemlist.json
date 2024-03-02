@@ -1440,6 +1440,56 @@
       "SourceLocation": "The Sunken Temple",
       "SourceFaction": "B"
     },
+    
+    "10783": {
+      "Name": "Atal'ai Spaulders",
+      "Source": "Atal'ai Defenders",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "10784": {
+      "Name": "Atal'ai Breastplate",
+      "Source": "Atal'ai Defenders",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "10785": {
+      "Name": "Atal'ai Leggings",
+      "Source": "Atal'ai Defenders",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "10786": {
+      "Name": "Atal'ai Boots",
+      "Source": "Atal'ai Defenders",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "10787": {
+      "Name": "Atal'ai Gloves",
+      "Source": "Atal'ai Defenders",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "10788": {
+      "Name": "Atal'ai Girdle",
+      "Source": "Atal'ai Defenders",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Sunken Temple",
+      "SourceFaction": "B"
+    },
+    
     "10799": {
       "Name": "Headspike",
       "Source": "Atal’alrion <Guardian of the Idol>",
