@@ -362,6 +362,9 @@ public static class WowheadImporter
                             itemSources[itemId].Source = AddLocalizeText("Trash Mobs");
                         else
                             itemSources[itemId].Source = AddLocalizeText("World Drop");
+                        
+                        if (location.ToLower() == "the temple of atal'hakkar")
+                            location = "The Sunken Temple";
 
                         itemSources[itemId].SourceType = AddLocalizeText("Drop");
                         itemSources[itemId].SourceNumber = "0";
@@ -376,7 +379,7 @@ public static class WowheadImporter
                         itemSources[itemId].SourceLocation = string.Empty;
                         itemSources[itemId].SourceFaction = "B";
                     }
-                } 
+                }
                 else 
                 {                
                     rowElements = doc.QuerySelectorAll("#tab-reward-from-q .listview-mode-default .listview-row");
