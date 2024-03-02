@@ -56,9 +56,9 @@ public class DungeonImporter : LootImporter
         new List<string>{"Atal’alrion <Guardian of the Idol>", "Jammal'an the Prophet & Ogom the Wretched", "Weaver and Dreamscythe",
         "Hazzas and Morphaz", "The Shade of Eranikus", "Avatar of Hakkar", "Noteworthy Sunken Temple BoE Loot"}) },
 
-        // { @"https://www.wowhead.com/classic/guide/blackrock-depths-detention-block-dungeon-strategy-wow-classic", ("Blackrock Depths", 
-        // new List<string>{"High Interrogator Gerstahn", "Lord Roccor", "Houndmaster Grebmar", "Ring of the Law", "Fineous Darkvire",
-        // "Bael'gar", "Lord Incendius", "The Vault", "Notable Blackrock Depths BoE Loot"}) },
+        { @"https://www.wowhead.com/classic/guide/blackrock-depths-detention-block-dungeon-strategy-wow-classic", ("Blackrock Depths", 
+        new List<string>{"High Interrogator Gerstahn", "Lord Roccor", "Houndmaster Grebmar", "Ring of the Law", "Fineous Darkvire", 
+        "Pyromancer Loregrain", "Bael'gar", "Lord Incendius", "The Vault", "Notable Blackrock Depths BoE Loot"}) },
 
         // { @"https://www.wowhead.com/classic/guide/blackrock-depths-shadowforge-city-dungeon-strategy-wow-classic", ("Blackrock Depths", 
         // new List<string>{"General Angerforge","Golem Lord Argelmach","The Grim Guzzler","Ambassador Flamelash","Panzor the Invincible",
@@ -93,6 +93,11 @@ public class DungeonImporter : LootImporter
         // { @"https://www.wowhead.com/classic/guide/dire-maul-north-dungeon-strategy-wow-classic", ("Dire Maul North", 
         // new List<string>{"Guard Mol'dar", "Stomper Kreeg", "Guard Fengus", "Guard Slip'kik", "Captain Kromcrush", 
         // "King Gordok & Cho'Rush the Observer", "Gordok Tribute", "Tribute Buffs"})}
+    };
+
+    private HashSet<int> _excludedIds = new HashSet<int>()
+    {
+        7740, 7741, 10588, 11207, 11610, 17191, 11813
     };
 
     internal override string FileName { get => "DungeonItemList"; }
@@ -203,8 +208,6 @@ public class DungeonImporter : LootImporter
                             SourceLocation = dungeonName,
                             SourceFaction = sourceFaction
                         });
-                    } else {
-                        Console.WriteLine($"anchor is null for {bossName}");
                     }
                 }
             }

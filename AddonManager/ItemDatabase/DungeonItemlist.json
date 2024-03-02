@@ -1672,6 +1672,446 @@
       "SourceLocation": "Uldaman",
       "SourceFaction": "B"
     },
+    "11623": {
+      "Name": "Spritecaster Cape",
+      "Source": "Houndmaster Grebmar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11624": {
+      "Name": "Kentic Amice",
+      "Source": "High Interrogator Gerstahn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11625": {
+      "Name": "Enthralled Sphere",
+      "Source": "High Interrogator Gerstahn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11626": {
+      "Name": "Blackveil Cape",
+      "Source": "High Interrogator Gerstahn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11627": {
+      "Name": "Fleetfoot Greaves",
+      "Source": "Houndmaster Grebmar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11628": {
+      "Name": "Houndmaster's Bow",
+      "Source": "Houndmaster Grebmar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11629": {
+      "Name": "Houndmaster's Rifle",
+      "Source": "Houndmaster Grebmar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11630": {
+      "Name": "Rockshard Pellets",
+      "Source": "Lord Roccor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11631": {
+      "Name": "Stoneshell Guard",
+      "Source": "Lord Roccor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11632": {
+      "Name": "Earthslag Shoulders",
+      "Source": "Lord Roccor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11633": {
+      "Name": "Spiderfang Carapace",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11634": {
+      "Name": "Silkweb Gloves",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11635": {
+      "Name": "Hookfang Shanker",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11662": {
+      "Name": "Ban'thok Sash",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11665": {
+      "Name": "Ogreseer Fists",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11675": {
+      "Name": "Shadefiend Boots",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11677": {
+      "Name": "Graverot Cape",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11678": {
+      "Name": "Carapace of Anub'shiah",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11679": {
+      "Name": "Rubicund Armguards",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11685": {
+      "Name": "Splinthide Shoulders",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11686": {
+      "Name": "Girdle of Beastial Fury",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11702": {
+      "Name": "Grizzle's Skinner",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11703": {
+      "Name": "Stonewall Girdle",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11722": {
+      "Name": "Dregmetal Spaulders",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11726": {
+      "Name": "Savage Gladiator Chain",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11728": {
+      "Name": "Savage Gladiator Leggings",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11729": {
+      "Name": "Savage Gladiator Helm",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11730": {
+      "Name": "Savage Gladiator Grips",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11731": {
+      "Name": "Savage Gladiator Greaves",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11747": {
+      "Name": "Flamestrider Robes",
+      "Source": "Fineous Darkvire",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11748": {
+      "Name": "Pyric Caduceus",
+      "Source": "Fineous Darkvire",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11749": {
+      "Name": "Searingscale Leggings",
+      "Source": "Fineous Darkvire",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11750": {
+      "Name": "Kindling Stave",
+      "Source": "Fineous Darkvire",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11755": {
+      "Name": "Verek's Collar",
+      "Source": "The Vault",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11764": {
+      "Name": "Cinderhide Armsplints",
+      "Source": "Lord Incendius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11765": {
+      "Name": "Pyremail Wristguards",
+      "Source": "Lord Incendius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11766": {
+      "Name": "Flameweave Cuffs",
+      "Source": "Lord Incendius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11767": {
+      "Name": "Emberplate Armguards",
+      "Source": "Lord Incendius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11782": {
+      "Name": "Boreal Mantle",
+      "Source": "The Vault",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11783": {
+      "Name": "Chillsteel Girdle",
+      "Source": "The Vault",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11784": {
+      "Name": "Arbiter's Blade",
+      "Source": "The Vault",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11802": {
+      "Name": "Lavacrest Leggings",
+      "Source": "Bael'gar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11803": {
+      "Name": "Force of Magma",
+      "Source": "Bael'gar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11805": {
+      "Name": "Rubidium Hammer",
+      "Source": "Bael'gar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11807": {
+      "Name": "Sash of the Burning Heart",
+      "Source": "Bael'gar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11813": {
+      "Name": "Formula: Smoking Heart of the Mountain",
+      "Source": "Lord Roccor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11824": {
+      "Name": "Cyclopean Band",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11839": {
+      "Name": "Chief Architect's Monocle",
+      "Source": "Fineous Darkvire",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11840": {
+      "Name": "Master Builder's Shirt",
+      "Source": "Fineous Darkvire",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11841": {
+      "Name": "Senior Designer's Pantaloons",
+      "Source": "Fineous Darkvire",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11842": {
+      "Name": "Lead Surveyor's Mantle",
+      "Source": "Fineous Darkvire",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11920": {
+      "Name": "Wraith Scythe",
+      "Source": "The Vault",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11923": {
+      "Name": "The Hammer of Grace",
+      "Source": "The Vault",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11926": {
+      "Name": "Deathdealer Breastplate",
+      "Source": "The Vault",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "11929": {
+      "Name": "Haunting Specter Leggings",
+      "Source": "The Vault",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
     "12243": {
       "Name": "Smoldering Claw",
       "Source": "Weaver and Dreamscythe & Hazzas and Morphaz",
@@ -2102,6 +2542,134 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Scarlet Monastery",
+      "SourceFaction": "B"
+    },
+    "21986": {
+      "Name": "Banner of Provocation",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22223": {
+      "Name": "Foreman's Head Protector",
+      "Source": "Fineous Darkvire",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22234": {
+      "Name": "Mantle of Lost Hope",
+      "Source": "Lord Roccor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22240": {
+      "Name": "Greaves of Withering Despair",
+      "Source": "High Interrogator Gerstahn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22241": {
+      "Name": "Dark Warder's Pauldrons",
+      "Source": "The Vault",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22242": {
+      "Name": "Verek's Leash",
+      "Source": "The Vault",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22254": {
+      "Name": "Wand of Eternal Light",
+      "Source": "The Vault",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22257": {
+      "Name": "Bloodclot Band",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22266": {
+      "Name": "Flarethorn",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22270": {
+      "Name": "Entrenching Boots",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22271": {
+      "Name": "Leggings of Frenzied Magic",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22305": {
+      "Name": "Ironweave Mantle",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22317": {
+      "Name": "Lefty's Brass Knuckle",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22318": {
+      "Name": "Malgen's Long Bow",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22330": {
+      "Name": "Shroud of Arcane Mastery",
+      "Source": "Ring of the Law",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22397": {
+      "Name": "Idol of Ferocity",
+      "Source": "Lord Roccor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackrock Depths",
       "SourceFaction": "B"
     }
   }
