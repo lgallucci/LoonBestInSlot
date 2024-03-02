@@ -152,31 +152,35 @@ public class DungeonImporter : LootImporter
     {
         IElement element = htmlElement;
         bool readingLoot = false;
+        IElement? lootElement = null;
         while (true)
         {
             if (element == null)
                 return;
 
-            if (nextBoss != null && element.TextContent.Contains(nextBoss) && 
-                (element.NodeName == "H3" || element.NodeName == "H2" || 
-                element.FirstChild.NodeName == "H3" || element.FirstChild.NodeName == "H2"))
+            if (nextBoss != null && 
+                (element.TextContent.Contains(nextBoss) || element.TextContent.Contains("Quest")) && 
+                (element.NodeName == "H3" || element.NodeName == "H2" || element.FirstChild.NodeName == "H3" || element.FirstChild.NodeName == "H2"))
                 return;
-
+                
             if (element.TextContent.Contains("Loot"))
+            {
+                lootElement = element;
                 readingLoot = true;
+            }
 
-            if (readingLoot)
+            if (readingLoot && lootElement != null)
             {
                 var anchors = RecursivelyFindAnchors(element as IElement);
 
                 foreach(var anchor in anchors)
                 {
-                    if (anchor != null)
+                    if (anchor != null && anchor.PathName.Contains("/item="))
                     {
                         var sourceFaction = "B";
-                        if (element.TextContent.Contains("Horde"))
+                        if (lootElement.TextContent.Contains("Horde"))
                             sourceFaction = "H";
-                        else if (element.TextContent.Contains("Alliance"))
+                        else if (lootElement.TextContent.Contains("Alliance"))
                             sourceFaction = "A";
 
                         var item = anchor.PathName.Replace("/classic", "").Replace("/item=", "");

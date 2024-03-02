@@ -1,5 +1,13 @@
 {
   "Items": {
+    "872": {
+      "Name": "Rockslicer",
+      "Source": "Rhahk'zor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Deadmines",
+      "SourceFaction": "B"
+    },
     "932": {
       "Name": "Fel Steed Saddlebags",
       "Source": "Fel Steeds & Shadow Charger",
@@ -64,20 +72,12 @@
       "SourceLocation": "Uldaman",
       "SourceFaction": "H"
     },
-    "2589": {
-      "Name": "Linen Cloth",
-      "Source": "Oggleflint & Bazzalan",
+    "2816": {
+      "Name": "Death Speaker Scepter",
+      "Source": "Death Speaker Jargba",
       "SourceType": "Drop",
       "SourceNumber": "0",
-      "SourceLocation": "Ragefire Chasm",
-      "SourceFaction": "B"
-    },
-    "2592": {
-      "Name": "Wool Cloth",
-      "Source": "Targorr the Dread",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "The Stockade",
+      "SourceLocation": "Razorfen Kraul",
       "SourceFaction": "B"
     },
     "2874": {
@@ -142,22 +142,6 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep",
-      "SourceFaction": "B"
-    },
-    "4306": {
-      "Name": "Silk Cloth",
-      "Source": "Various Bosses",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "The Stockade",
-      "SourceFaction": "B"
-    },
-    "4595": {
-      "Name": "Junglevine Wine",
-      "Source": "Stomper Kreeg",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Dire Maul North",
       "SourceFaction": "B"
     },
     "5187": {
@@ -568,6 +552,14 @@
       "SourceLocation": "Razorfen Kraul",
       "SourceFaction": "B"
     },
+    "6685": {
+      "Name": "Death Speaker Mantle",
+      "Source": "Death Speaker Jargba",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Razorfen Kraul",
+      "SourceFaction": "B"
+    },
     "6686": {
       "Name": "Tusken Helm",
       "Source": "Overlord Ramtusk",
@@ -670,14 +662,6 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Razorfen Kraul",
-      "SourceFaction": "B"
-    },
-    "7091": {
-      "Name": "Pattern: Truefaith Gloves",
-      "Source": "Hydrospawn",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Dire Maul East",
       "SourceFaction": "B"
     },
     "7230": {
@@ -1408,38 +1392,6 @@
       "SourceLocation": "Razorfen Downs",
       "SourceFaction": "B"
     },
-    "10795": {
-      "Name": "Drakeclaw Band",
-      "Source": "Weaver and Dreamscythe & Hazzas and Morphaz",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "The Sunken Temple",
-      "SourceFaction": "B"
-    },
-    "10796": {
-      "Name": "Drakestone",
-      "Source": "Weaver and Dreamscythe & Hazzas and Morphaz",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "The Sunken Temple",
-      "SourceFaction": "B"
-    },
-    "10797": {
-      "Name": "Firebreather",
-      "Source": "Weaver and Dreamscythe & Hazzas and Morphaz",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "The Sunken Temple",
-      "SourceFaction": "B"
-    },
-    "10798": {
-      "Name": "Atal'alarion's Tusk Ring",
-      "Source": "Atal’alrion <Guardian of the Idol>",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "The Sunken Temple",
-      "SourceFaction": "B"
-    },
     "10783": {
       "Name": "Atal'ai Spaulders",
       "Source": "Atal'ai Defenders",
@@ -1483,6 +1435,38 @@
     "10788": {
       "Name": "Atal'ai Girdle",
       "Source": "Atal'ai Defenders",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "10795": {
+      "Name": "Drakeclaw Band",
+      "Source": "Weaver and Dreamscythe & Hazzas and Morphaz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "10796": {
+      "Name": "Drakestone",
+      "Source": "Weaver and Dreamscythe & Hazzas and Morphaz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "10797": {
+      "Name": "Firebreather",
+      "Source": "Weaver and Dreamscythe & Hazzas and Morphaz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "10798": {
+      "Name": "Atal'alarion's Tusk Ring",
+      "Source": "Atal’alrion <Guardian of the Idol>",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Sunken Temple",
