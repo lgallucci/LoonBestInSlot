@@ -338,6 +338,8 @@ public static class WowheadImporter
                 var name = doc.Title?.Split("-")[0].Trim() ?? "unknown";
                 var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/classic/item=", "").TrimEnd('/'));
                     var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
+                
+                itemSources[itemId].Name = name;
                 if (rowElements != null && rowElements.Length > 0)
                 {
                     var source = rowElements[0].Children[0].TextContent.Trim();
@@ -352,6 +354,7 @@ public static class WowheadImporter
                         itemSources[itemId].Source = AddLocalizeText(source);
                         itemSources[itemId].SourceNumber = "0";
                         itemSources[itemId].SourceLocation = AddLocalizeText(location);
+                        itemSources[itemId].SourceFaction = "B";
                     }
                     else if (rowElements.All(r => r.Children[2].TextContent.Trim() == location))
                     {
@@ -363,6 +366,7 @@ public static class WowheadImporter
                         itemSources[itemId].SourceType = AddLocalizeText("Drop");
                         itemSources[itemId].SourceNumber = "0";
                         itemSources[itemId].SourceLocation = AddLocalizeText(location);
+                        itemSources[itemId].SourceFaction = "B";
                     }
                     else
                     {
@@ -370,6 +374,7 @@ public static class WowheadImporter
                         itemSources[itemId].Source = AddLocalizeText("World Drop");
                         itemSources[itemId].SourceNumber = "0";
                         itemSources[itemId].SourceLocation = string.Empty;
+                        itemSources[itemId].SourceFaction = "B";
                     }
                 } 
                 else 
@@ -404,7 +409,6 @@ public static class WowheadImporter
                             }
                         }
                         
-                        itemSources[itemId].Name = name;
                         itemSources[itemId].SourceType = AddLocalizeText("Quest");
                         itemSources[itemId].Source = AddLocalizeText(source);
                         itemSources[itemId].SourceNumber = "0";
