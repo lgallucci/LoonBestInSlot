@@ -133,25 +133,25 @@ public class DungeonImporter : LootImporter
         {"Bannok Grimaxe", "Bannok Grimaxe (Rare)"}
     };
 
-    private IHtmlAnchorElement? RecursivelyFindFirstAnchor(IElement element)
+    private List<IHtmlAnchorElement> RecursivelyFindAnchors(IElement element)
     {
-        IHtmlAnchorElement? result = null;
+        List<IHtmlAnchorElement> results = new List<IHtmlAnchorElement>();
         if (element is IHtmlAnchorElement && element.ClassName != "toggler-off")
-            result = element as IHtmlAnchorElement;
+            results.Add(element as IHtmlAnchorElement);
         else
         {
             foreach (var child in element.Children)
             {
-                if (result == null)
-                    result = RecursivelyFindFirstAnchor(child);
+                results.AddRange(RecursivelyFindAnchors(child));
             }
         }
-        return result;
+        return results;
     }
 
     private void AddLootItems(IElement htmlElement, string dungeonName, string bossName, string? nextBoss, DatabaseItems items)
     {
         IElement element = htmlElement;
+        bool readingLoot = false;
         while (true)
         {
             if (element == null)
@@ -163,14 +163,14 @@ public class DungeonImporter : LootImporter
                 return;
 
             if (element.TextContent.Contains("Loot"))
+                readingLoot = true;
+
+            if (readingLoot)
             {
-                foreach(var lootElement in element.NextElementSibling.ChildNodes)
+                var anchors = RecursivelyFindAnchors(element as IElement);
+
+                foreach(var anchor in anchors)
                 {
-                    if (lootElement is not IElement)
-                        continue;
-
-                    var anchor = RecursivelyFindFirstAnchor(lootElement as IElement);
-
                     if (anchor != null)
                     {
                         var sourceFaction = "B";
