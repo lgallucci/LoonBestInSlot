@@ -64,10 +64,10 @@ public class DungeonImporter : LootImporter
         new List<string>{"General Angerforge", "Golem Lord Argelmach", "The Grim Guzzler", "Ambassador Flamelash", "Panzor the Invincible",
         "Chest of the Seven", "The Lyceum Gauntlet", "Magmus", "Emperor Dagran Thaurissan", "Emperor Farming Runs"}) },
 
-        // { @"https://www.wowhead.com/classic/guide/lower-blackrock-spire-lbrs-dungeon-strategy-wow-classic", ("Lower Blackrock Spire", 
-        // new List<string>{"Spirestone Butcher (Rare)", "Spirestone Battle Lord (Rare)", "Highlord Omokk", "Shadow Hunter Vosh’gajin",
-        // "War Master Voone", "Mor Grayhoof", "Bannok Grimaxe", "Mother Smolderweb", "Crystal Fang (Rare)",
-        // "Urok Doomhowl", "Quartermaster Zigris", "Halycon", "Gizrul the Slavener", "Overlord Wyrmthalak", "Alliance LBRS Quests"}) },
+        { @"https://www.wowhead.com/classic/guide/lower-blackrock-spire-lbrs-dungeon-strategy-wow-classic", ("Lower Blackrock Spire", 
+        new List<string>{"Spirestone Butcher (Rare)", "Spirestone Battle Lord (Rare)", "Highlord Omokk", "Shadow Hunter Vosh’gajin",
+        "War Master Voone", "Mor Grayhoof", "Bannok Grimaxe", "Mother Smolderweb", "Crystal Fang (Rare)",
+        "Urok Doomhowl", "Quartermaster Zigris", "Halycon", "Gizrul the Slavener", "Overlord Wyrmthalak", "Alliance LBRS Quests"}) },
 
         //{ @"https://www.wowhead.com/classic/guide/upper-blackrock-spire-ubrs-dungeon-strategy-wow-classic", ("Upper Blackrock Spire", 
         //new List<string>{"","",}) },// Fix
