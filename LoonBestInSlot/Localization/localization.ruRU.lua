@@ -292,7 +292,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Mosshide Mistweaver"] = "";
   LBIS.L["Mother Smolderweb"] = "Мать Дымная Паутина";
   LBIS.L["Mr. Smite"] = "Мистер Каюк";
-  LBIS.L["Mythology of the Titans"] = "\"Мифология Титанов\";
+  LBIS.L["Mythology of the Titans"] = "\"Мифология Титанов\"";
 --  LBIS.L["N'ora Anyheart"] = "";
   LBIS.L["Neck"] = "Шея";
   LBIS.L["Necklace Recovery, Take 3"] = "Пропавшее ожерелье, этап 3";
