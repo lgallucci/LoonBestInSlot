@@ -60,9 +60,9 @@ public class DungeonImporter : LootImporter
         new List<string>{"High Interrogator Gerstahn", "Lord Roccor", "Houndmaster Grebmar", "Ring of the Law", "Fineous Darkvire", 
         "Pyromancer Loregrain", "Bael'gar", "Lord Incendius", "The Vault", "Notable Blackrock Depths BoE Loot"}) },
 
-        // { @"https://www.wowhead.com/classic/guide/blackrock-depths-shadowforge-city-dungeon-strategy-wow-classic", ("Blackrock Depths", 
-        // new List<string>{"General Angerforge","Golem Lord Argelmach","The Grim Guzzler","Ambassador Flamelash","Panzor the Invincible",
-        // "Chest of the Seven","The Lyceum Gauntlet","Magmus","Emperor Dagran Thaurissan", "Emperor Farming Runs"}) },
+        { @"https://www.wowhead.com/classic/guide/blackrock-depths-shadowforge-city-dungeon-strategy-wow-classic", ("Blackrock Depths", 
+        new List<string>{"General Angerforge", "Golem Lord Argelmach", "The Grim Guzzler", "Ambassador Flamelash", "Panzor the Invincible",
+        "Chest of the Seven", "The Lyceum Gauntlet", "Magmus", "Emperor Dagran Thaurissan", "Emperor Farming Runs"}) },
 
         // { @"https://www.wowhead.com/classic/guide/lower-blackrock-spire-lbrs-dungeon-strategy-wow-classic", ("Lower Blackrock Spire", 
         // new List<string>{"Spirestone Butcher (Rare)", "Spirestone Battle Lord (Rare)", "Highlord Omokk", "Shadow Hunter Vosh’gajin",
@@ -97,7 +97,7 @@ public class DungeonImporter : LootImporter
 
     private HashSet<int> _excludedIds = new HashSet<int>()
     {
-        2589, 2592, 4306, 7740, 7741, 10588, 11207, 11610, 17191, 11813, 
+        2589, 2592, 4306, 7740, 7741, 10588, 11207, 11610, 17191, 11813, 11325, 11602, 11612, 11742, 13459, 18653
     };
 
     internal override string FileName { get => "DungeonItemList"; }
@@ -199,7 +199,7 @@ public class DungeonImporter : LootImporter
                         int.TryParse(item, out itemId);
                         var name = anchor.TextContent.Trim();
 
-                        if (_excludedIds.Contains(itemId))
+                        if (!_excludedIds.Contains(itemId))
                             items.AddItem(itemId, new DatabaseItem 
                             {
                                 Name = name,
