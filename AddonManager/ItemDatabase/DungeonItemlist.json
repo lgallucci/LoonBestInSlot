@@ -1482,7 +1482,7 @@
     },
     "10798": {
       "Name": "Atal'alarion's Tusk Ring",
-      "Source": "Atal’alrion <Guardian of the Idol>",
+      "Source": "Atal’alrion",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Sunken Temple",
@@ -1490,7 +1490,7 @@
     },
     "10799": {
       "Name": "Headspike",
-      "Source": "Atal’alrion <Guardian of the Idol>",
+      "Source": "Atal’alrion",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Sunken Temple",
@@ -1498,7 +1498,7 @@
     },
     "10800": {
       "Name": "Darkwater Bracers",
-      "Source": "Atal’alrion <Guardian of the Idol>",
+      "Source": "Atal’alrion",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Sunken Temple",
