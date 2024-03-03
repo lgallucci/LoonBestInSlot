@@ -2496,14 +2496,6 @@
       "SourceLocation": "Lower Blackrock Spire",
       "SourceFaction": "B"
     },
-    "12586": {
-      "Name": "Immature Venom Sac",
-      "Source": "Mother Smolderweb",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Lower Blackrock Spire",
-      "SourceFaction": "B"
-    },
     "12608": {
       "Name": "Butcher's Apron",
       "Source": "Spirestone Butcher (Rare)",
