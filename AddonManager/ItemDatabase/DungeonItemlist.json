@@ -2488,6 +2488,86 @@
       "SourceLocation": "Blackrock Depths",
       "SourceFaction": "B"
     },
+    "12582": {
+      "Name": "Keris of Zul'Serak",
+      "Source": "War Master Voone",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12586": {
+      "Name": "Immature Venom Sac",
+      "Source": "Mother Smolderweb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12608": {
+      "Name": "Butcher's Apron",
+      "Source": "Spirestone Butcher (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12621": {
+      "Name": "Demonfork",
+      "Source": "Bannok Grimaxe (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12626": {
+      "Name": "Funeral Cuffs",
+      "Source": "Shadow Hunter Vosh’gajin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12634": {
+      "Name": "Chiselbrand Girdle",
+      "Source": "Bannok Grimaxe (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12637": {
+      "Name": "Backusarian Gauntlets",
+      "Source": "Bannok Grimaxe (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12651": {
+      "Name": "Blackcrow",
+      "Source": "Shadow Hunter Vosh’gajin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12653": {
+      "Name": "Riphook",
+      "Source": "Shadow Hunter Vosh’gajin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "12654": {
+      "Name": "Doomshot",
+      "Source": "Shadow Hunter Vosh’gajin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
     "12791": {
       "Name": "Barman Shanker",
       "Source": "The Grim Guzzler",
@@ -2504,12 +2584,308 @@
       "SourceLocation": "Blackrock Depths",
       "SourceFaction": "B"
     },
+    "13143": {
+      "Name": "Mark of the Dragon Lord",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13148": {
+      "Name": "Chillpike",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13161": {
+      "Name": "Trindlehaven Staff",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13162": {
+      "Name": "Reiver Claws",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13163": {
+      "Name": "Relentless Scythe",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13164": {
+      "Name": "Heart of the Scale",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13166": {
+      "Name": "Slamshot Shoulders",
+      "Source": "Highlord Omokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13167": {
+      "Name": "Fist of Omokk",
+      "Source": "Highlord Omokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13168": {
+      "Name": "Plate of the Shaman King",
+      "Source": "Highlord Omokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13169": {
+      "Name": "Tressermane Leggings",
+      "Source": "Highlord Omokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13170": {
+      "Name": "Skyshroud Leggings",
+      "Source": "Highlord Omokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13173": {
+      "Name": "Flightblade Throwing Axe",
+      "Source": "War Master Voone",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13175": {
+      "Name": "Voone's Twitchbow",
+      "Source": "War Master Voone",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13177": {
+      "Name": "Talisman of Evasion",
+      "Source": "War Master Voone",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13178": {
+      "Name": "Rosewine Circle",
+      "Source": "Urok Doomhowl",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13179": {
+      "Name": "Brazecore Armguards",
+      "Source": "War Master Voone",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13183": {
+      "Name": "Venomspitter",
+      "Source": "Mother Smolderweb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13184": {
+      "Name": "Fallbrush Handgrips",
+      "Source": "Crystal Fang (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13185": {
+      "Name": "Sunderseer Mantle",
+      "Source": "Crystal Fang (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13205": {
+      "Name": "Rhombeard Protector",
+      "Source": "Gizrul the Slavener",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13206": {
+      "Name": "Wolfshear Leggings",
+      "Source": "Gizrul the Slavener",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13208": {
+      "Name": "Bleak Howler Armguards",
+      "Source": "Gizrul the Slavener",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13210": {
+      "Name": "Pads of the Dread Wolf",
+      "Source": "Halycon",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13211": {
+      "Name": "Slashclaw Bracers",
+      "Source": "Halycon",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13212": {
+      "Name": "Halycon's Spiked Collar",
+      "Source": "Halycon",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13213": {
+      "Name": "Smolderweb's Eye",
+      "Source": "Mother Smolderweb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13218": {
+      "Name": "Fang of the Crystal Spider",
+      "Source": "Crystal Fang (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13244": {
+      "Name": "Gilded Gauntlets",
+      "Source": "Mother Smolderweb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
     "13245": {
       "Name": "Kresh's Back",
       "Source": "Kresh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Wailing Caverns",
+      "SourceFaction": "B"
+    },
+    "13252": {
+      "Name": "Cloudrunner Girdle",
+      "Source": "Quartermaster Zigris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13253": {
+      "Name": "Hands of Power",
+      "Source": "Quartermaster Zigris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13255": {
+      "Name": "Trueaim Gauntlets",
+      "Source": "Shadow Hunter Vosh’gajin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13257": {
+      "Name": "Demonic Runed Spaulders",
+      "Source": "Shadow Hunter Vosh’gajin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13258": {
+      "Name": "Slaghide Gauntlets",
+      "Source": "Urok Doomhowl",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13259": {
+      "Name": "Ribsteel Footguards",
+      "Source": "Urok Doomhowl",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13284": {
+      "Name": "Swiftdart Battleboots",
+      "Source": "Spirestone Battle Lord (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13285": {
+      "Name": "The Blackrock Slicer",
+      "Source": "Spirestone Battle Lord (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "13286": {
+      "Name": "Rivenspike",
+      "Source": "Spirestone Butcher (Rare)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
       "SourceFaction": "B"
     },
     "14145": {
@@ -2558,6 +2934,118 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ragefire Chasm",
+      "SourceFaction": "B"
+    },
+    "16670": {
+      "Name": "Boots of Elements",
+      "Source": "Highlord Omokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16673": {
+      "Name": "Cord of Elements",
+      "Source": "Quartermaster Zigris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16676": {
+      "Name": "Beaststalker's Gloves",
+      "Source": "War Master Voone",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16679": {
+      "Name": "Beaststalker's Mantle",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16680": {
+      "Name": "Beaststalker's Belt",
+      "Source": "Quartermaster Zigris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16683": {
+      "Name": "Magister's Bindings",
+      "Source": "Quartermaster Zigris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16696": {
+      "Name": "Devout Belt",
+      "Source": "Quartermaster Zigris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16703": {
+      "Name": "Dreadmist Bracers",
+      "Source": "Quartermaster Zigris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16712": {
+      "Name": "Shadowcraft Gloves",
+      "Source": "Shadow Hunter Vosh’gajin",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16713": {
+      "Name": "Shadowcraft Belt",
+      "Source": "Quartermaster Zigris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16715": {
+      "Name": "Wildheart Boots",
+      "Source": "Mother Smolderweb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16716": {
+      "Name": "Wildheart Belt",
+      "Source": "Quartermaster Zigris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16718": {
+      "Name": "Wildheart Spaulders",
+      "Source": "Gizrul the Slavener",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
+    "16735": {
+      "Name": "Bracers of Valor",
+      "Source": "Quartermaster Zigris",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
       "SourceFaction": "B"
     },
     "17008": {
@@ -2944,6 +3432,14 @@
       "SourceLocation": "Blackrock Depths",
       "SourceFaction": "B"
     },
+    "22232": {
+      "Name": "Marksman's Girdle",
+      "Source": "Urok Doomhowl",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
     "22234": {
       "Name": "Mantle of Lost Hope",
       "Source": "Lord Roccor",
@@ -3040,6 +3536,14 @@
       "SourceLocation": "Blackrock Depths",
       "SourceFaction": "B"
     },
+    "22313": {
+      "Name": "Ironweave Bracers",
+      "Source": "Halycon",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
+      "SourceFaction": "B"
+    },
     "22317": {
       "Name": "Lefty's Brass Knuckle",
       "Source": "Ring of the Law",
@@ -3054,6 +3558,14 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Depths",
+      "SourceFaction": "B"
+    },
+    "22321": {
+      "Name": "Heart of Wyrmthalak",
+      "Source": "Overlord Wyrmthalak",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire",
       "SourceFaction": "B"
     },
     "22330": {

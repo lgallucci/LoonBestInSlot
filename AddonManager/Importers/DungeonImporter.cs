@@ -70,7 +70,7 @@ public class DungeonImporter : LootImporter
         "Urok Doomhowl", "Quartermaster Zigris", "Halycon", "Gizrul the Slavener", "Overlord Wyrmthalak", "Alliance LBRS Quests"}) },
 
         //{ @"https://www.wowhead.com/classic/guide/upper-blackrock-spire-ubrs-dungeon-strategy-wow-classic", ("Upper Blackrock Spire", 
-        //new List<string>{"","",}) },// Fix
+        //new List<string>{"","",}) },
 
         // { @"https://www.wowhead.com/classic/guide/scholomance-dungeon-strategy-wow-classic", ("Scholomance", 
         // new List<string>{"Blood Steward of Kirtonos","Kirtonos the Herald","Jandice Barov","Rattlegore","Marduk Blackpool",
@@ -97,7 +97,8 @@ public class DungeonImporter : LootImporter
 
     private HashSet<int> _excludedIds = new HashSet<int>()
     {
-        2589, 2592, 4306, 7740, 7741, 10588, 11207, 11610, 17191, 11813, 11325, 11602, 11612, 11742, 13459, 18653
+        2589, 2592, 4306, 7740, 7741, 10588, 11207, 11610, 17191, 11813, 11325, 11602, 
+        11612, 11742, 13459, 18653, 12533, 12534, 12838, 18784, 12835, 13247, 12586
     };
 
     internal override string FileName { get => "DungeonItemList"; }
