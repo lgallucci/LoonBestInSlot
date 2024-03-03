@@ -82,7 +82,7 @@ LBIS:AddItem(spec2, "213308", LBIS.L["Back"], "BIS Ranged") --Prototype Parachut
 LBIS:AddItem(spec2, "213307", LBIS.L["Back"], "Alt") --Drape of Dismantling
 LBIS:AddItem(spec2, "6432", LBIS.L["Back"], "Alt") --Imperial Cloak
 LBIS:AddItem(spec2, "213314", LBIS.L["Chest"], "BIS Melee") --Electromantic Chainmail
-LBIS:AddItem(spec2, "11193", LBIS.L["Chest"], "Alt") --Blazewind Breastplate
+LBIS:AddItem(spec2, "11193", LBIS.L["Chest"], "BIS Melee") --Blazewind Breastplate
 LBIS:AddItem(spec2, "213313", LBIS.L["Chest"], "Alt") --Insulated Chestguard
 LBIS:AddItem(spec2, "10583", LBIS.L["Chest"], "Alt") --Quillward Harness
 LBIS:AddItem(spec2, "19590", LBIS.L["Wrist"], "BIS") --Forest Stalker's Bracers

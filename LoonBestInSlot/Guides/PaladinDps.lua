@@ -6,8 +6,8 @@ LBIS:AddEnchant(spec2, "13700", LBIS.L["Chest"]) --Enchant Chest - Lesser Stats
 LBIS:AddEnchant(spec2, "13661", LBIS.L["Wrist"]) --Enchant Bracer - Strength
 LBIS:AddEnchant(spec2, "13887", LBIS.L["Hands"]) --Enchant Gloves - Strength
 LBIS:AddEnchant(spec2, "19057", LBIS.L["Legs"]) --Rugged Armor Kit
-LBIS:AddEnchant(spec2, "7222", LBIS.L["Two Hand"]) --Iron Counterweight
 LBIS:AddEnchant(spec2, "13637", LBIS.L["Feet"]) --Enchant Boots - Lesser Agility
+LBIS:AddEnchant(spec2, "7222", LBIS.L["Two Hand"]) --Iron Counterweight
 
 LBIS:AddItem(spec1, "211505", LBIS.L["Head"], "BIS") --Twilight Avenger's Helm
 LBIS:AddItem(spec1, "211789", LBIS.L["Head"], "BIS") --Artemis Cowl
@@ -108,9 +108,11 @@ LBIS:AddItem(spec2, "213344", LBIS.L["Neck"], "BIS") --Gnomeregan Peace Officer'
 LBIS:AddItem(spec2, "12023", LBIS.L["Neck"], "Alt") --Tellurium Necklace
 LBIS:AddItem(spec2, "17772", LBIS.L["Neck"], "Alt") --Zealous Shadowshard Pendant
 LBIS:AddItem(spec2, "209422", LBIS.L["Neck"], "Alt") --High Tide Choker
+LBIS:AddItem(spec2, "19540", LBIS.L["Neck"], "Alt") --Sentinel's Medallion
 LBIS:AddItem(spec2, "19515", LBIS.L["Ring"], "BIS") --Protector's Band
 LBIS:AddItem(spec2, "213284", LBIS.L["Ring"], "BIS") --Hypercharged Gear of Devastation
 LBIS:AddItem(spec2, "19517", LBIS.L["Ring"], "Alt") --Protector's Band
+LBIS:AddItem(spec2, "13097", LBIS.L["Ring"], "Alt") --Thunderbrow Ring
 LBIS:AddItem(spec2, "11998", LBIS.L["Ring"], "Alt") --Jet Loop
 LBIS:AddItem(spec2, "13095", LBIS.L["Ring"], "Alt") --Assault Band
 LBIS:AddItem(spec2, "215461", LBIS.L["Trinket"], "BIS") --Domesticated Attack Chicken

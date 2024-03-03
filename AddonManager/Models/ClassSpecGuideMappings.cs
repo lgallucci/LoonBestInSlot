@@ -26,12 +26,12 @@ public class ClassGuideMapping
             foreach(var mapping in guideMappings)
             {
                 if (_mappings.ContainsKey(mapping.Item1))
-                    _mappings.Remove(mapping.Item1);
+                    _mappings[mapping.Item1] = new GuideMapping() { Enabled = false };
             }
 
             foreach (var mapping in guideMappings)
-            {                
-                if (_mappings.ContainsKey(mapping.Item1))
+            {
+                if (_mappings.ContainsKey(mapping.Item1) && _mappings[mapping.Item1].Enabled)
                     _mappings[mapping.Item1] = $"{_mappings[mapping.Item1].SlotHtmlId};{mapping.Item2.SlotHtmlId}";
                 else
                     _mappings[mapping.Item1] = mapping.Item2;

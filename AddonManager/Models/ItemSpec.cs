@@ -15,7 +15,7 @@ public class ItemSpec : IComparable<ItemSpec>
         { "Feet", 8 }, 
         { "Neck", 9 }, 
         { "Ring", 10 }, 
-        { "Trinket", 11 },  
+        { "Trinket", 11 },
         { "Main Hand", 12 }, 
         { "Off Hand", 13 },
         { "Two Hand", 14 }, 
