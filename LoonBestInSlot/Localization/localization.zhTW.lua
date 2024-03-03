@@ -1,7 +1,6 @@
 if GetLocale() == "zhTW" then
   LBIS.L["# Best for:"] = "# 最适合";
   LBIS.L["A Better Ingredient"] = "更好的材料";
---  LBIS.L["A Better IngredientDruid"] = "";
   LBIS.L["A Grim Discovery"] = "可怕的發現";
   LBIS.L["A King's Tribute"] = "國王的禮物";
   LBIS.L["A Terrible Purpose"] = "擺脫困境";
@@ -34,7 +33,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Arugal Must Die"] = "除掉阿魯高";
   LBIS.L["Ashenvale"] = "梣谷";
 --  LBIS.L["Ashenvale and Stonetalon"] = "";
---  LBIS.L["Atal’alrion <Guardian of the Idol>"] = "";
+--  LBIS.L["Atal’alrion"] = "";
   LBIS.L["Avatar of Hakkar"] = "哈卡的化身";
   LBIS.L["Azshir the Sleepless"] = "不眠的艾希爾";
   LBIS.L["Azshir the Sleepless (Rare)"] = "不眠的艾希爾 (精良)";
@@ -88,7 +87,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Collecting Memories"] = "收集記憶";
   LBIS.L["Commander Springvale"] = "指揮官斯普林瓦爾";
   LBIS.L["Compendium of the Fallen"] = "墮落者綱要";
---  LBIS.L["Compendium of the FallenOrc, Tauren, Troll"] = "";
   LBIS.L["Confront Yeh'kinya"] = "面對葉基亞";
   LBIS.L["Cookie"] = "廚師";
   LBIS.L["Cooking"] = "烹飪";
@@ -124,7 +122,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Dire Maul North"] = "厄運之槌 北";
   LBIS.L["Dire Maul West"] = "厄運之槌 西";
   LBIS.L["Divino-matic Rod"] = "探水棒";
---  LBIS.L["Doctor Theolen Krastinov <The Butcher>"] = "";
+  LBIS.L["Doctor Theolen Krastinov"] = "瑟爾林·卡斯迪諾夫教授";
   LBIS.L["Doling Justice"] = "菲拉斯的正義";
 --  LBIS.L["Dps"] = "";
 --  LBIS.L["Dragonmaw Centurion"] = "";
@@ -275,7 +273,6 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Lost Whelp"] = "";
   LBIS.L["Lower Blackrock Spire"] = "黑石塔下層";
   LBIS.L["Mage's Wand"] = "法師的魔杖";
---  LBIS.L["Mage's WandMage"] = "";
   LBIS.L["Magister Kalendris"] = "卡雷迪斯鎮長";
   LBIS.L["Magmus"] = "瑪格姆斯";
   LBIS.L["Main Hand"] = "主手";

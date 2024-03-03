@@ -1,7 +1,6 @@
 if GetLocale() == "ruRU" then
   LBIS.L["# Best for:"] = "# Лучшее для";
   LBIS.L["A Better Ingredient"] = "Лучший ингредиент";
---  LBIS.L["A Better IngredientDruid"] = "";
   LBIS.L["A Grim Discovery"] = "Зловещее открытие";
   LBIS.L["A King's Tribute"] = "Королевские почести";
   LBIS.L["A Terrible Purpose"] = "Ужасная цель";
@@ -34,7 +33,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Arugal Must Die"] = "Смерть Аругалу!";
   LBIS.L["Ashenvale"] = "Ясеневый лес";
 --  LBIS.L["Ashenvale and Stonetalon"] = "";
---  LBIS.L["Atal’alrion <Guardian of the Idol>"] = "";
+--  LBIS.L["Atal’alrion"] = "";
   LBIS.L["Avatar of Hakkar"] = "Аватара Хаккара";
   LBIS.L["Azshir the Sleepless"] = "Азшир Неспящий";
   LBIS.L["Azshir the Sleepless (Rare)"] = "Азшир Неспящий (Редкое)";
@@ -88,7 +87,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Collecting Memories"] = "Сбор воспоминаний";
   LBIS.L["Commander Springvale"] = "Командир Ручьедол";
   LBIS.L["Compendium of the Fallen"] = "Компендиум павших";
---  LBIS.L["Compendium of the FallenOrc, Tauren, Troll"] = "";
   LBIS.L["Confront Yeh'kinya"] = "Сопротивление Йекинье";
   LBIS.L["Cookie"] = "Пирожок";
   LBIS.L["Cooking"] = "Кулинария";
@@ -124,7 +122,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Dire Maul North"] = "Забытый Город Север";
   LBIS.L["Dire Maul West"] = "Забытый Город Запад";
   LBIS.L["Divino-matic Rod"] = "Изыскательский жезл";
---  LBIS.L["Doctor Theolen Krastinov <The Butcher>"] = "";
+  LBIS.L["Doctor Theolen Krastinov"] = "Доктор Теолен Крастинов";
   LBIS.L["Doling Justice"] = "Небольшое возмездие";
 --  LBIS.L["Dps"] = "";
 --  LBIS.L["Dragonmaw Centurion"] = "";
@@ -275,7 +273,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Lost Whelp"] = "";
   LBIS.L["Lower Blackrock Spire"] = "Нижняя часть вершины Черной Горы";
   LBIS.L["Mage's Wand"] = "Магический жезл";
---  LBIS.L["Mage's WandMage"] = "";
   LBIS.L["Magister Kalendris"] = "Магистр Календрис";
   LBIS.L["Magmus"] = "Магмус";
   LBIS.L["Main Hand"] = "Правая рука";

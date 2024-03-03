@@ -1,7 +1,6 @@
 if GetLocale() == "deDE" then
   LBIS.L["# Best for:"] = "# Beste für";
   LBIS.L["A Better Ingredient"] = "Eine bessere Zutat";
---  LBIS.L["A Better IngredientDruid"] = "";
   LBIS.L["A Grim Discovery"] = "Eine grausige Entdeckung";
   LBIS.L["A King's Tribute"] = "Ehrerbietung von einem König";
   LBIS.L["A Terrible Purpose"] = "Ein teuflischer Plan";
@@ -34,7 +33,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Arugal Must Die"] = "Arugal muss sterben";
   LBIS.L["Ashenvale"] = "Eschental";
 --  LBIS.L["Ashenvale and Stonetalon"] = "";
---  LBIS.L["Atal’alrion <Guardian of the Idol>"] = "";
+--  LBIS.L["Atal’alrion"] = "";
   LBIS.L["Avatar of Hakkar"] = "Avatar von Hakkar";
   LBIS.L["Azshir the Sleepless"] = "Azshir der Schlaflose";
   LBIS.L["Azshir the Sleepless (Rare)"] = "Azshir der Schlaflose (Selten)";
@@ -88,7 +87,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Collecting Memories"] = "Die Suche nach Andenken";
   LBIS.L["Commander Springvale"] = "Kommandant Springvale";
   LBIS.L["Compendium of the Fallen"] = "Kompendium der Gefallenen";
---  LBIS.L["Compendium of the FallenOrc, Tauren, Troll"] = "";
   LBIS.L["Confront Yeh'kinya"] = "Konfrontiert Yeh'kinya";
   LBIS.L["Cookie"] = "Cookie";
   LBIS.L["Cooking"] = "Kochkunst";
@@ -124,7 +122,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Dire Maul North"] = "Düsterbruch Nord";
   LBIS.L["Dire Maul West"] = "Düsterbruch West";
   LBIS.L["Divino-matic Rod"] = "Wünschel-mato-Rute";
---  LBIS.L["Doctor Theolen Krastinov <The Butcher>"] = "";
+  LBIS.L["Doctor Theolen Krastinov"] = "Doktor Theolen Krastinov";
   LBIS.L["Doling Justice"] = "Gerechtigkeit üben";
 --  LBIS.L["Dps"] = "";
 --  LBIS.L["Dragonmaw Centurion"] = "";
@@ -275,7 +273,6 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Lost Whelp"] = "";
   LBIS.L["Lower Blackrock Spire"] = "Untere Schwarzfelsspitze";
   LBIS.L["Mage's Wand"] = "Der Zauberstab des Magiers";
---  LBIS.L["Mage's WandMage"] = "";
   LBIS.L["Magister Kalendris"] = "Magister Kalendris";
   LBIS.L["Magmus"] = "Magmus";
   LBIS.L["Main Hand"] = "Waffenhand";

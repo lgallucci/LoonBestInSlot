@@ -1,7 +1,6 @@
 if GetLocale() == "koKR" then
   LBIS.L["# Best for:"] = "# BIS 직업:";
   LBIS.L["A Better Ingredient"] = "더욱 강력한 재료";
---  LBIS.L["A Better IngredientDruid"] = "";
   LBIS.L["A Grim Discovery"] = "불길한 발견";
   LBIS.L["A King's Tribute"] = "왕의 하사품";
   LBIS.L["A Terrible Purpose"] = "황혼의망치단의 존재";
@@ -34,7 +33,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Arugal Must Die"] = "아루갈의 최후";
   LBIS.L["Ashenvale"] = "잿빛 골짜기";
 --  LBIS.L["Ashenvale and Stonetalon"] = "";
---  LBIS.L["Atal’alrion <Guardian of the Idol>"] = "";
+--  LBIS.L["Atal’alrion"] = "";
   LBIS.L["Avatar of Hakkar"] = "학카르의 화신";
   LBIS.L["Azshir the Sleepless"] = "잠들지 않는 아즈시르";
   LBIS.L["Azshir the Sleepless (Rare)"] = "잠들지 않는 아즈시르 (희귀)";
@@ -88,7 +87,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Collecting Memories"] = "기억을 더듬어...";
   LBIS.L["Commander Springvale"] = "사령관 스프링베일";
   LBIS.L["Compendium of the Fallen"] = "타락의 개요";
---  LBIS.L["Compendium of the FallenOrc, Tauren, Troll"] = "";
   LBIS.L["Confront Yeh'kinya"] = "예킨야와의 대면";
   LBIS.L["Cookie"] = "쿠키";
   LBIS.L["Cooking"] = "요리";
@@ -124,7 +122,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Dire Maul North"] = "혈투의 전장 (북쪽)";
   LBIS.L["Dire Maul West"] = "혈투의 전장 (서쪽)";
   LBIS.L["Divino-matic Rod"] = "자동 탐사막대";
---  LBIS.L["Doctor Theolen Krastinov <The Butcher>"] = "";
+  LBIS.L["Doctor Theolen Krastinov"] = "학자 테올린 크라스티노브";
   LBIS.L["Doling Justice"] = "정의의 실현";
 --  LBIS.L["Dps"] = "";
 --  LBIS.L["Dragonmaw Centurion"] = "";
@@ -275,7 +273,6 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Lost Whelp"] = "";
   LBIS.L["Lower Blackrock Spire"] = "검은바위 첨탑 (하층)";
   LBIS.L["Mage's Wand"] = "마법사의 마법봉";
---  LBIS.L["Mage's WandMage"] = "";
   LBIS.L["Magister Kalendris"] = "마법사 칼렌드리스";
   LBIS.L["Magmus"] = "마그무스";
   LBIS.L["Main Hand"] = "주장비";
