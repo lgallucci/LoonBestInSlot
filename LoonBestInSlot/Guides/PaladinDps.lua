@@ -77,8 +77,8 @@ LBIS:AddItem(spec2, "213316", LBIS.L["Chest"], "Alt") --H.A.Z.A.R.D. Breastplate
 LBIS:AddItem(spec2, "11195", LBIS.L["Chest"], "Alt") --Warforged Chestplate
 LBIS:AddItem(spec2, "211504", LBIS.L["Chest"], "Alt") --Twilight Avenger's Chain
 LBIS:AddItem(spec2, "19581", LBIS.L["Wrist"], "BIS") --Berserker Bracers
-LBIS:AddItem(spec2, "213318", LBIS.L["Wrist"], "BIS") --Ornate Dark Iron Bangles
-LBIS:AddItem(spec2, "213317", LBIS.L["Wrist"], "BIS") --Experimental Aim Stabilizers
+LBIS:AddItem(spec2, "213318", LBIS.L["Wrist"], "Alt") --Ornate Dark Iron Bangles
+LBIS:AddItem(spec2, "213317", LBIS.L["Wrist"], "Alt") --Experimental Aim Stabilizers
 LBIS:AddItem(spec2, "9409", LBIS.L["Wrist"], "Alt") --Ironaya's Bracers
 LBIS:AddItem(spec2, "213319", LBIS.L["Hands"], "BIS") --Machinist's Gloves
 LBIS:AddItem(spec2, "213288", LBIS.L["Hands"], "BIS") --Grubbis Grubby Gauntlets
@@ -122,8 +122,8 @@ LBIS:AddItem(spec2, "216505", LBIS.L["Trinket"], "Alt") --Bloodlight Crusader's 
 LBIS:AddItem(spec2, "4381", LBIS.L["Trinket"], "Alt") --Minor Recombobulator
 LBIS:AddItem(spec2, "213416", LBIS.L["Two Hand"], "BIS") --Thermaplugg's Rocket Cleaver
 LBIS:AddItem(spec2, "210741", LBIS.L["Two Hand"], "BIS") --Automatic Crowd Pummeler
-LBIS:AddItem(spec2, "9423", LBIS.L["Two Hand"], "BIS") --The Jackhammer
 LBIS:AddItem(spec2, "216506", LBIS.L["Two Hand"], "Alt") --Bloodlight Avenger's Edge
+LBIS:AddItem(spec2, "9423", LBIS.L["Two Hand"], "Alt") --The Jackhammer
 LBIS:AddItem(spec2, "213292", LBIS.L["Two Hand"], "Alt") --Gizmotron Gigachopper
 LBIS:AddItem(spec2, "9425", LBIS.L["Two Hand"], "Alt") --Pendulum of Doom
 LBIS:AddItem(spec2, "1982", LBIS.L["Two Hand"], "Alt") --Nightblade
