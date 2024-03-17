@@ -67,29 +67,44 @@ LBIS:AddItem(spec2, "7719", LBIS.L["Head"], "Alt") --Raging Berserker's Helm
 LBIS:AddItem(spec2, "211505", LBIS.L["Head"], "Alt") --Twilight Avenger's Helm
 LBIS:AddItem(spec2, "213304", LBIS.L["Shoulder"], "BIS") --Troggslayer Pauldrons
 LBIS:AddItem(spec2, "9647", LBIS.L["Shoulder"], "Alt") --Failed Flying Experiment
+LBIS:AddItem(spec2, "14946", LBIS.L["Shoulder"], "Alt") --Warbringer's Spaulders
+LBIS:AddItem(spec2, "9971", LBIS.L["Shoulder"], "Alt") --Embossed Plate Pauldrons
+LBIS:AddItem(spec2, "14909", LBIS.L["Shoulder"], "Alt") --Brutish Shoulders
+LBIS:AddItem(spec2, "9292", LBIS.L["Shoulder"], "Alt") --Field Plate Pauldrons
+LBIS:AddItem(spec2, "14901", LBIS.L["Shoulder"], "Alt") --Saltstone Shoulder Pads
+LBIS:AddItem(spec2, "2278", LBIS.L["Shoulder"], "Alt") --Forest Tracker Epaulets
+LBIS:AddItem(spec2, "7755", LBIS.L["Shoulder"], "Alt") --Flintrock Shoulders
 LBIS:AddItem(spec2, "213305", LBIS.L["Shoulder"], "Alt") --Machined Alloy Shoulderplates
 LBIS:AddItem(spec2, "213307", LBIS.L["Back"], "BIS") --Drape of Dismantling
-LBIS:AddItem(spec2, "216621", LBIS.L["Back"], "Alt") --Blooddrenched Drape
 LBIS:AddItem(spec2, "5257", LBIS.L["Back"], "Alt") --Dark Hooded Cape
+LBIS:AddItem(spec2, "7492", LBIS.L["Back"], "Alt") --Captain's Cloak
+LBIS:AddItem(spec2, "9898", LBIS.L["Back"], "Alt") --Jazeraint Cloak
+LBIS:AddItem(spec2, "15594", LBIS.L["Back"], "Alt") --Steadfast Cloak
+LBIS:AddItem(spec2, "216621", LBIS.L["Back"], "Alt") --Blooddrenched Drape
 LBIS:AddItem(spec2, "213313", LBIS.L["Chest"], "BIS") --Insulated Chestguard
 LBIS:AddItem(spec2, "213314", LBIS.L["Chest"], "BIS") --Electromantic Chainmail
 LBIS:AddItem(spec2, "213316", LBIS.L["Chest"], "Alt") --H.A.Z.A.R.D. Breastplate
 LBIS:AddItem(spec2, "11195", LBIS.L["Chest"], "Alt") --Warforged Chestplate
 LBIS:AddItem(spec2, "211504", LBIS.L["Chest"], "Alt") --Twilight Avenger's Chain
+LBIS:AddItem(spec2, "10583", LBIS.L["Chest"], "Alt") --Quillward Harness
+LBIS:AddItem(spec2, "9966", LBIS.L["Chest"], "Alt") --Embossed Plate Armor
+LBIS:AddItem(spec2, "9286", LBIS.L["Chest"], "Alt") --Field Plate Armor
+LBIS:AddItem(spec2, "6773", LBIS.L["Chest"], "Alt") --Gelkis Marauder Chain
 LBIS:AddItem(spec2, "19581", LBIS.L["Wrist"], "BIS") --Berserker Bracers
-LBIS:AddItem(spec2, "213318", LBIS.L["Wrist"], "Alt") --Ornate Dark Iron Bangles
 LBIS:AddItem(spec2, "213317", LBIS.L["Wrist"], "Alt") --Experimental Aim Stabilizers
+LBIS:AddItem(spec2, "213318", LBIS.L["Wrist"], "Alt") --Ornate Dark Iron Bangles
 LBIS:AddItem(spec2, "9409", LBIS.L["Wrist"], "Alt") --Ironaya's Bracers
 LBIS:AddItem(spec2, "213319", LBIS.L["Hands"], "BIS") --Machinist's Gloves
 LBIS:AddItem(spec2, "213288", LBIS.L["Hands"], "BIS") --Grubbis Grubby Gauntlets
 LBIS:AddItem(spec2, "211423", LBIS.L["Hands"], "Alt") --Void-Touched Leather Gloves
-LBIS:AddItem(spec2, "213320", LBIS.L["Hands"], "Alt") --Fingers of Arcane Accuracy
 LBIS:AddItem(spec2, "867", LBIS.L["Hands"], "Alt") --Gloves of Holy Might
+LBIS:AddItem(spec2, "213320", LBIS.L["Hands"], "Alt") --Fingers of Arcane Accuracy
 LBIS:AddItem(spec2, "7724", LBIS.L["Hands"], "Alt") --Gauntlets of Divinity
 LBIS:AddItem(spec2, "215380", LBIS.L["Waist"], "BIS") --Power-Assisted Lifting Belt
 LBIS:AddItem(spec2, "215115", LBIS.L["Waist"], "BIS") --Hyperconductive Goldwrap
 LBIS:AddItem(spec2, "213325", LBIS.L["Waist"], "Alt") --Darkvision Girdle
 LBIS:AddItem(spec2, "213327", LBIS.L["Waist"], "Alt") --Belt of the Trogg Berserker
+LBIS:AddItem(spec2, "213322", LBIS.L["Waist"], "Alt") --Skullduggery Waistband
 LBIS:AddItem(spec2, "10768", LBIS.L["Waist"], "Alt") --Boar Champion's Belt
 LBIS:AddItem(spec2, "20125", LBIS.L["Waist"], "Alt") --Highlander's Plate Girdle
 LBIS:AddItem(spec2, "10706", LBIS.L["Waist"], "Alt") --Nightscale Girdle
@@ -97,6 +112,7 @@ LBIS:AddItem(spec2, "213332", LBIS.L["Legs"], "BIS") --Insulated Legguards
 LBIS:AddItem(spec2, "213330", LBIS.L["Legs"], "Alt") --H.A.Z.A.R.D. Legplates
 LBIS:AddItem(spec2, "213333", LBIS.L["Legs"], "Alt") --Electromantic Chausses
 LBIS:AddItem(spec2, "10740", LBIS.L["Legs"], "Alt") --Centurion Legplates
+LBIS:AddItem(spec2, "10330", LBIS.L["Legs"], "Alt") --Scarlet Leggings
 LBIS:AddItem(spec2, "9637", LBIS.L["Feet"], "BIS") --Shinkicker Boots
 LBIS:AddItem(spec2, "6423", LBIS.L["Feet"], "BIS") --Blackforge Greaves
 LBIS:AddItem(spec2, "211506", LBIS.L["Feet"], "Alt") --Twilight Avenger's Boots
