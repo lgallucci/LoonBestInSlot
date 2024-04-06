@@ -21,7 +21,7 @@ internal class DruidBalanceDpsMapping : SpecMapping
             { ("Ranged/Relic", "h3#ranged") },
         };
 
-    public override string Phase2Url => "dps-bis-gear-pve";
+    public override string Phase2Url => "dps-bis-gear-pve-phase-2";
     public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "h3#main-hand") },
@@ -29,7 +29,7 @@ internal class DruidBalanceDpsMapping : SpecMapping
             { ("Ranged/Relic", "h3#ranged") },
         };
 
-    public override string Phase3Url => "dps-bis-gear-pve-phase-3";
+    public override string Phase3Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
         {
         };
