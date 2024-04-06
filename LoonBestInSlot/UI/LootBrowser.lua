@@ -142,8 +142,8 @@ function LBIS.BrowserWindow:UpdateItemsForSpec(rowFunc)
     local topl = window.Container:CreateLine();
     topl:SetColorTexture(1,1,1,0.5);
     topl:SetThickness(1);
-    topl:SetStartPoint("TOPLEFT",5, 0);
-    topl:SetEndPoint("TOPRIGHT",-5, 0);
+    topl:SetStartPoint("TOPLEFT", 5, 0);
+    topl:SetEndPoint("TOPRIGHT", -5, 0);
     
     failedLoad = false;
 
@@ -402,8 +402,8 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     local topLine = window:CreateLine();
     topLine:SetColorTexture(1,1,1,0.5);
     topLine:SetThickness(2);
-    topLine:SetStartPoint("TOPLEFT",10, -59);
-    topLine:SetEndPoint("TOPRIGHT",-25, -59);
+    topLine:SetStartPoint("TOPLEFT", 10, -59);
+    topLine:SetEndPoint("TOPRIGHT", -25, -59);
 
     scrollframe:SetPoint("TOPLEFT", 10, -60);
     scrollframe:SetPoint("BOTTOMRIGHT", -25, 10);

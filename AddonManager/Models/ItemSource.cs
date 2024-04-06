@@ -19,7 +19,7 @@ public class EnchantSource
     public string Name { get; set; } = string.Empty;
     public string Source { get; set; } = string.Empty;
     public string SourceLocation { get; set; } = string.Empty;
-    public string TextureId { get; internal set; }
+    public string TextureId { get; set; } = string.Empty;
 }
 
 public class TierSource

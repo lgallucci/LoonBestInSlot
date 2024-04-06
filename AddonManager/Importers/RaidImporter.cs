@@ -24,7 +24,73 @@ public class RaidImporter : LootImporter
     {
         items.Items.Clear();
 
-        await Common.LoadFromWebPages(raidUriList.Keys.ToList(), (uri, doc) =>
+        foreach(var raidUri in raidUriList)
+        {
+            if (new string[]{"Blackfathom Deeps", "Gnomeregan"}.Contains(raidUri.Value))
+            {
+                items.AddItems(await ConvertFirstTwoRaids(raidUri, items, writeToLog));
+            } 
+            else 
+            {
+                items.AddItems(await ConvertSunkenTemple(raidUri, items, writeToLog));
+            }
+        }
+        return items;
+    }
+
+    private async Task<DatabaseItems> ConvertSunkenTemple(KeyValuePair<string, string> raidUri, DatabaseItems items, Action<string> writeToLog)
+    {
+        items.Items.Clear();
+
+        await Common.LoadFromWebPage(raidUri.Key, (doc) =>
+        {
+            var tooltipElements = doc.QuerySelectorAll("div.wowhead-tooltip");
+
+            foreach(var tooltip in tooltipElements)
+            {
+                Common.RecursiveBoxSearch(tooltip, (anchor) => {
+                    
+                    if (anchor is IHtmlAnchorElement)
+                    {
+                        if (((IHtmlAnchorElement)anchor).PathName.Contains("/item=")) {
+                            
+                            (int itemId, string name) = GetItemFromAnchor((IHtmlAnchorElement)anchor);
+
+                            items.AddItem(itemId, new DatabaseItem 
+                            {
+                                Name = name,
+                                Source = string.Empty,
+                                SourceType = "Drop",
+                                SourceNumber = "0",
+                                SourceLocation = raidUri.Value
+                            });
+                            return true;
+                        }
+                        else{
+                            return false;
+                        }
+                    }
+                    else {
+                        return false;
+                    }
+                });
+            }
+        }, writeToLog);
+
+        foreach(var item in items.Items.Where(i => i.Value.Source == string.Empty))
+        {
+            //set boss
+            item.Value.Source = string.Empty;
+        }
+
+        return items;
+    }
+
+    internal async Task<DatabaseItems> ConvertFirstTwoRaids(KeyValuePair<string, string> raidUri, DatabaseItems items, Action<string> writeToLog)
+    {
+        items.Items.Clear();
+
+        await Common.LoadFromWebPage(raidUri.Key, (doc) =>
         {
             var tableElements = doc.QuerySelectorAll("table.grid");
 
@@ -38,7 +104,7 @@ public class RaidImporter : LootImporter
                             Source = bossName,
                             SourceType = "Drop",
                             SourceNumber = "0",
-                            SourceLocation = raidUriList[uri]
+                            SourceLocation = raidUri.Value
                         });
                     },
                     (itemId, itemName, questName, faction) => {
@@ -48,7 +114,7 @@ public class RaidImporter : LootImporter
                             Source = questName,
                             SourceType = "Quest",
                             SourceNumber = "0",
-                            SourceLocation = raidUriList[uri],
+                            SourceLocation = raidUri.Value,
                             SourceFaction = faction
                         });
                     });
@@ -58,29 +124,35 @@ public class RaidImporter : LootImporter
         return items;
     }
 
-    private (int, string) GetItemFromTableRow(IHtmlTableRowElement row)
+    private (int, string) GetItemFromAnchor(IHtmlAnchorElement? anchor)
     {
-        var tableCell = row.Cells[1];
         var itemId = 0;
-        var itemElement = tableCell.QuerySelector("a");
         string name = string.Empty;
-        if (itemElement != null)
+
+        if (anchor != null)
         {
-            var item = ((IHtmlAnchorElement)itemElement).PathName.Replace("/classic", "").Replace("/item=", "");
+            var item = anchor.PathName.Replace("/classic", "").Replace("/item=", "");
 
             var itemIdIndex = item.IndexOf("/");
             if (itemIdIndex == -1)
                 itemIdIndex = item.IndexOf("&");
 
             item = item.Substring(0, itemIdIndex);
-            int.TryParse(item, out itemId);
-            name = itemElement.TextContent.Trim();
+            _ = int.TryParse(item, out itemId);
+            name = anchor.TextContent.Trim();
         }
-
         return (itemId, name);
     }
 
-    private void LoopThroughTable(IHtmlTableElement table, Action<int, string, string> bossFunc, Action<int, string, string, string> questFunc)
+    private (int, string) GetItemFromTableRow(IHtmlTableRowElement row)
+    {
+        var tableCell = row.Cells[1];
+        var itemElement = tableCell.QuerySelector("a");
+
+        return GetItemFromAnchor((IHtmlAnchorElement?)itemElement);
+    }
+
+    private void LoopThroughTable(IHtmlTableElement? table, Action<int, string, string> bossFunc, Action<int, string, string, string> questFunc)
     {
         if (table == null)
             return;
@@ -120,12 +192,12 @@ public class RaidImporter : LootImporter
                 Common.RecursiveBoxSearch(row.Cells[bossCell], (anchor) => 
                 {
                     var faction = "B";
-                    if(anchor.Children[1].ClassName.Contains("icon-horde")) {
+                    if(anchor?.Children[1]?.ClassName?.Contains("icon-horde") ?? false) {
                         faction = "H";
-                    } else if (anchor.Children[1].ClassName.Contains("icon-alliance")) {
+                    } else if (anchor?.Children[1]?.ClassName?.Contains("icon-alliance") ?? false) {
                         faction = "A";
                     }
-                    questFunc(itemId, itemName, anchor.TextContent.Trim(), faction);
+                    questFunc(itemId, itemName, anchor?.TextContent?.Trim() ?? string.Empty, faction);
                     return true;
                 });
             }

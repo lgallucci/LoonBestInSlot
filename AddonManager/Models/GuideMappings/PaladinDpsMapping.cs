@@ -19,7 +19,7 @@ internal class PaladinDpsMapping : SpecMapping
             { ("Ranged/Relic", "h3#libram") },
         };
 
-    public override string Phase2Url => "dps-bis-gear-pve";
+    public override string Phase2Url => "dps-bis-gear-pve-phase-2";
     public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
         {
             { ("Feet", "#boots")},
@@ -29,9 +29,14 @@ internal class PaladinDpsMapping : SpecMapping
             { ("Ranged/Relic", "h3#libram") },
         };
 
-    public override string Phase3Url => "dps-bis-gear-pve-phase-3";
+    public override string Phase3Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
         {
+            { ("Feet", "#boots")},
+            { ("Two Hand", "h3#weapon-divine-storm-dwarf") },
+            { ("Two Hand", "h3#weapon-divine-storm-human") },
+            { ("Two Hand", "h3#weapon-martyrdom") },
+            { ("Ranged/Relic", "h3#libram") },
         };
 
     public override string Phase4Url => "dps-bis-gear-pve-phase-4";
