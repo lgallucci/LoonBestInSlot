@@ -1,5 +1,13 @@
 {
   "Items": {
+    "1490": {
+      "Name": "Guardian Talisman",
+      "Source": "The Temple of Atal'Hakkar & Into The Temple of Atal'Hakkar",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
     "13325": {
       "Name": "Fluorescent Green Mechanostrider",
       "Source": "Mekgineer Thermaplugg",
@@ -1719,6 +1727,958 @@
       "SourceNumber": "0",
       "SourceLocation": "Gnomeregan",
       "SourceFaction": "A"
+    },
+    "220511": {
+      "Name": "Greathelm of the Nightmare",
+      "Source": "Atal'alarion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220512": {
+      "Name": "Immaculate Goldsteel Helmet",
+      "Source": "Hazzas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220514": {
+      "Name": "Visor of Verdant Feathers",
+      "Source": "Hazzas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220515": {
+      "Name": "Enchanted Emerald Helmet",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220516": {
+      "Name": "Gasher's Forgotten Visor",
+      "Source": "Gasher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220518": {
+      "Name": "Ba'ham's Dusty Hat",
+      "Source": "Festering Rotslime",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220519": {
+      "Name": "Voodoo Feathered Headdress",
+      "Source": "Dreamscythe",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220521": {
+      "Name": "Hakkari Ritualist's Headdress",
+      "Source": "Dreamscythe",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220522": {
+      "Name": "Soulcatcher Crown",
+      "Source": "Gasher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220523": {
+      "Name": "Visage of the Exiled",
+      "Source": "Shade of Eranikus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220527": {
+      "Name": "Atal'ai Berserker's Mantle",
+      "Source": "Atal'alarion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220528": {
+      "Name": "Atal'ai Huntsman's Shoulders",
+      "Source": "Gasher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220529": {
+      "Name": "Spaulders of Fanaticism",
+      "Source": "Atal'alarion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220530": {
+      "Name": "Will of the Atal'ai Warrior",
+      "Source": "Avatar of Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220532": {
+      "Name": "Reinforced Atal'ai Spaulders",
+      "Source": "Gasher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220533": {
+      "Name": "Reforged Atal'ai Breastplate",
+      "Source": "Gasher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220534": {
+      "Name": "Eternal Embrace of the Wind Serpent",
+      "Source": "Avatar of Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220535": {
+      "Name": "Garments of the Atal'ai Prophet",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220536": {
+      "Name": "Atal'ai Medicine Man's Wrists",
+      "Source": "Dreamscythe",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220537": {
+      "Name": "Dreamer's Darkwater Bracers",
+      "Source": "Atal'alarion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220538": {
+      "Name": "Cursed Slimescale Bracers",
+      "Source": "Festering Rotslime",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220539": {
+      "Name": "Warbands of Sacrifice",
+      "Source": "Atal'alarion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220540": {
+      "Name": "Corruption Laden Handguards",
+      "Source": "Festering Rotslime",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220541": {
+      "Name": "Disease-Ridden Plate Fists",
+      "Source": "Festering Rotslime",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220542": {
+      "Name": "Polluted Murkwater Gauntlets",
+      "Source": "Festering Rotslime",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220543": {
+      "Name": "Emerald Scalemail Gloves",
+      "Source": "Hazzas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220544": {
+      "Name": "Bloodflare Talons",
+      "Source": "Dreamscythe",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220545": {
+      "Name": "Foul Smelling Fighter's Gloves",
+      "Source": "Festering Rotslime",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220546": {
+      "Name": "Hands of the Tormented",
+      "Source": "Festering Rotslime",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220547": {
+      "Name": "Gloves of the Fallen Atal'ai Prophet",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220548": {
+      "Name": "Atal'ai Hexxer's Gloves",
+      "Source": "Gasher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220549": {
+      "Name": "Dawnspire Strap",
+      "Source": "Dreamscythe",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220550": {
+      "Name": "Temple Looter's Waistband",
+      "Source": "Festering Rotslime",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220551": {
+      "Name": "Devotee's Sash of the Emerald Dream",
+      "Source": "Dreamscythe",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220552": {
+      "Name": "Waistguard of Pain",
+      "Source": "Festering Rotslime",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220553": {
+      "Name": "Belt of the Forsaken Worshipper",
+      "Source": "Hazzas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220554": {
+      "Name": "Atal'alarion's Tusk Band",
+      "Source": "Atal'alarion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220555": {
+      "Name": "Atal'ai Serpentscale Girdle",
+      "Source": "Gasher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220556": {
+      "Name": "Kilt of the Fallen Atal'ai Prophet",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220557": {
+      "Name": "Cursed Windscale Sarong",
+      "Source": "Avatar of Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220558": {
+      "Name": "Atal'ai Assassin's Leggings",
+      "Source": "Gasher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220559": {
+      "Name": "Revitalized Drake Scale Leggings",
+      "Source": "Hazzas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220560": {
+      "Name": "Silvershell Legplates",
+      "Source": "Gasher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220561": {
+      "Name": "Tenacious Troll Kickers",
+      "Source": "Atal'alarion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220562": {
+      "Name": "Bloodshot Battle Greaves",
+      "Source": "Avatar of Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220563": {
+      "Name": "Boots of the Atal'ai Blood Shaman",
+      "Source": "Hazzas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220564": {
+      "Name": "Restored Slitherscale Boots",
+      "Source": "Shade of Eranikus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220565": {
+      "Name": "Ethereal Mistwalker Boots",
+      "Source": "Festering Rotslime",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220566": {
+      "Name": "Smolder Claw",
+      "Source": "Dreamscythe",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220567": {
+      "Name": "Bloodied Headspike",
+      "Source": "Atal'alarion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220568": {
+      "Name": "Temple Explorer's Gun Axe",
+      "Source": "Atal'alarion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220569": {
+      "Name": "Blistering Ragehammer",
+      "Source": "Festering Rotslime",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220571": {
+      "Name": "Stinging Longbow",
+      "Source": "Festering Rotslime",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220572": {
+      "Name": "Rinzo's Rapid Repeater",
+      "Source": "Gasher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220573": {
+      "Name": "Dreadstalker's Hunting Bow",
+      "Source": "Shade of Eranikus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220574": {
+      "Name": "Sharpened Tooth of Eranikus",
+      "Source": "Shade of Eranikus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220575": {
+      "Name": "Eater of the Damned",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220576": {
+      "Name": "Axe of the Atal'ai Executioner",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220577": {
+      "Name": "Might of the Blood Loa",
+      "Source": "Avatar of Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220578": {
+      "Name": "Fist of the Forsaken",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220579": {
+      "Name": "Witch Doctor's Stick of Mojo",
+      "Source": "Shade of Eranikus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220580": {
+      "Name": "Madness of the Avatar",
+      "Source": "Atal'alarion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220581": {
+      "Name": "Snake Clobberer",
+      "Source": "Dreamscythe",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220582": {
+      "Name": "Dragon's Cry",
+      "Source": "Shade of Eranikus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220583": {
+      "Name": "Vile Blade of the Wretched",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220584": {
+      "Name": "Flamebreath Blade",
+      "Source": "Dreamscythe",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220585": {
+      "Name": "Degraded Dire Nail",
+      "Source": "Shade of Eranikus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220586": {
+      "Name": "Hubris, the Bandit Brander",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220587": {
+      "Name": "Sacrificial Dream Dagger",
+      "Source": "Dreamscythe",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220588": {
+      "Name": "Cobra Fang Claw",
+      "Source": "Avatar of Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220589": {
+      "Name": "Serpent's Striker",
+      "Source": "Hazzas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220590": {
+      "Name": "Spire of Hakkari Worship",
+      "Source": "Avatar of Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220591": {
+      "Name": "Mijan's Restorative Rod",
+      "Source": "Gasher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220594": {
+      "Name": "Scythe of the Dream",
+      "Source": "Dreamscythe",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220595": {
+      "Name": "Nightmare Focus Staff",
+      "Source": "Shade of Eranikus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220596": {
+      "Name": "Ancient Divining Rod",
+      "Source": "Hazzas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220597": {
+      "Name": "Drakestone of the Dream Harbinger",
+      "Source": "Hazzas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220598": {
+      "Name": "Drakestone of the Nightmare Harbinger",
+      "Source": "Hazzas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220599": {
+      "Name": "Drakestone of the Blood Prophet",
+      "Source": "Hazzas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220600": {
+      "Name": "Crest of Preeminence",
+      "Source": "Shade of Eranikus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220601": {
+      "Name": "Hakkari Witch Doctor's Guard",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220602": {
+      "Name": "Sewer Turtle Half-Shell",
+      "Source": "Atal'alarion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220603": {
+      "Name": "Rod of Irreversible Corrosion",
+      "Source": "Shade of Eranikus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220604": {
+      "Name": "Nightmare Trophy",
+      "Source": "Shade of Eranikus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220605": {
+      "Name": "Libram of Sacrilege",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220606": {
+      "Name": "Idol of the Dream",
+      "Source": "Hazzas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220607": {
+      "Name": "Totem of Tormented Ancestry",
+      "Source": "Hazzas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220608": {
+      "Name": "Featherskin Drape",
+      "Source": "Avatar of Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220609": {
+      "Name": "Drape of Nightfall",
+      "Source": "Dreamscythe",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220611": {
+      "Name": "Hukku's Hex Cape",
+      "Source": "Gasher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220615": {
+      "Name": "Panther Fur Cloak",
+      "Source": "Atal'alarion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220619": {
+      "Name": "Atal'ai Blood Ceremony",
+      "Source": "TBD",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220622": {
+      "Name": "Perfectly Preserved Dragon's Eye",
+      "Source": "Shade of Eranikus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220623": {
+      "Name": "Jin'do's Lost Locket",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220624": {
+      "Name": "Bloodstained Charm of Valor",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220625": {
+      "Name": "Resilience of the Exiled",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220626": {
+      "Name": "Drakeclaw Band of the Berserker",
+      "Source": "A Broken Ritual & Avatar of Hakkar &  Scapula of the Fallen Avatar",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "H"
+    },
+    "220627": {
+      "Name": "Drakeclaw Band of the Stalker",
+      "Source": "A Broken Ritual & Avatar of Hakkar &  Scapula of the Fallen Avatar",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "H"
+    },
+    "220628": {
+      "Name": "Drakeclaw Band of the Harbinger",
+      "Source": "A Broken Ritual & Avatar of Hakkar &  Scapula of the Fallen Avatar",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "H"
+    },
+    "220629": {
+      "Name": "Drakeclaw Band of the Blood Prophet",
+      "Source": "A Broken Ritual & Avatar of Hakkar &  Scapula of the Fallen Avatar",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "H"
+    },
+    "220630": {
+      "Name": "Drakeclaw Band of the Juggernaut",
+      "Source": "A Broken Ritual & Avatar of Hakkar &  Scapula of the Fallen Avatar",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "H"
+    },
+    "220632": {
+      "Name": "Atal'ai Blood Ritual Medallion",
+      "Source": "Avatar of Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220633": {
+      "Name": "Atal'ai Blood Ritual Badge",
+      "Source": "Avatar of Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220634": {
+      "Name": "Atal'ai Blood Ritual Charm",
+      "Source": "Avatar of Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220635": {
+      "Name": "Atal'alarion's Enchanted Boulder",
+      "Source": "Atal'alarion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220638": {
+      "Name": "Unorthodox Hex Stick",
+      "Source": "Gasher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220674": {
+      "Name": "Debased Stealthblade",
+      "Source": "Gasher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220686": {
+      "Name": "Chieftain's Bane",
+      "Source": "Avatar of Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220965": {
+      "Name": "Scalebane Greataxe",
+      "Source": "Hazzas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "221474": {
+      "Name": "Chained Essence of Eranikus",
+      "Source": "The Essence of Eranikus",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "221484": {
+      "Name": "Witch Doctor's Hex Stick",
+      "Source": "Festering Rotslime",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "221781": {
+      "Name": "Avenguard Helm",
+      "Source": "The God Hakkar",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "221782": {
+      "Name": "Helm of Exile",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "223324": {
+      "Name": "Rainstrider Leggings",
+      "Source": "Jammal'an the Prophet",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "223325": {
+      "Name": "Hakkari Breastplate",
+      "Source": "Secret of the Circle",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "223326": {
+      "Name": "Hakkari Shroud",
+      "Source": "Secret of the Circle",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "223327": {
+      "Name": "Mark of Hakkar",
+      "Source": "Secret of the Circle",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "223328": {
+      "Name": "Gemburst Circlet",
+      "Source": "The God Hakkar",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "223329": {
+      "Name": "Lifeforce Dirk",
+      "Source": "The God Hakkar",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
     }
   }
 }

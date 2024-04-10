@@ -7,11 +7,10 @@ using AngleSharp.Html.Parser;
 namespace AddonManager.Importers;
 public class TierSetImporter : LootImporter
 {
-    private List<string> armorTokenUris = new List<string>
+    private Dictionary<string, string> armorTokenUris = new Dictionary<string, string>
     {
-        @"https://www.wowhead.com/classic/item=217008/power-depleted-chest#currency-for",
-        @"https://www.wowhead.com/classic/item=217009/power-depleted-legs#currency-for",
-        @"https://www.wowhead.com/classic/item=217007/power-depleted-boots#currency-for"
+        { @"https://www.wowhead.com/classic/item=220636/atalai-ritual-token#currency-for", "Sunken Temple" },
+        { @"https://www.wowhead.com/classic/item=220637/atalai-ritual-token#currency-for", "Sunken Temple" },
     };
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToText)
@@ -39,11 +38,11 @@ public class TierSetImporter : LootImporter
         return result;
     }
 
-    private async Task<DatabaseItems> ConvertArmorSets(List<string> uris, Action<string> writeToText)
+    private async Task<DatabaseItems> ConvertArmorSets(Dictionary<string, string> uris, Action<string> writeToText)
     {
         var dbItems = new DatabaseItems();
 
-        await Common.LoadFromWebPages(uris, (uri, doc) =>
+        await Common.LoadFromWebPages(uris.Keys, (uri, doc) =>
         {
             var tableElement = doc.QuerySelector(".listview-mode-default");
 
@@ -101,7 +100,7 @@ public class TierSetImporter : LootImporter
                             {
                                 Name = cellAnchor.TextContent,
                                 Source = tokenName.TextContent,
-                                SourceLocation = "unknown",
+                                SourceLocation = uris[uri],
                                 SourceNumber = tokenId.ToString(),
                                 SourceType = "TierToken",
                                 SourceFaction = sourceFaction

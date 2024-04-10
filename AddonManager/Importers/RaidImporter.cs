@@ -26,70 +26,13 @@ public class RaidImporter : LootImporter
 
         foreach(var raidUri in raidUriList)
         {
-            if (new string[]{"Blackfathom Deeps", "Gnomeregan"}.Contains(raidUri.Value))
-            {
-                items.AddItems(await ConvertFirstTwoRaids(raidUri, items, writeToLog));
-            } 
-            else 
-            {
-                items.AddItems(await ConvertSunkenTemple(raidUri, items, writeToLog));
-            }
+            items.AddItems(await ConvertRaidLoot(raidUri, items, writeToLog));
         }
         return items;
     }
 
-    private async Task<DatabaseItems> ConvertSunkenTemple(KeyValuePair<string, string> raidUri, DatabaseItems items, Action<string> writeToLog)
+    internal async Task<DatabaseItems> ConvertRaidLoot(KeyValuePair<string, string> raidUri, DatabaseItems items, Action<string> writeToLog)
     {
-        items.Items.Clear();
-
-        await Common.LoadFromWebPage(raidUri.Key, (doc) =>
-        {
-            var tooltipElements = doc.QuerySelectorAll("div.wowhead-tooltip");
-
-            foreach(var tooltip in tooltipElements)
-            {
-                Common.RecursiveBoxSearch(tooltip, (anchor) => {
-                    
-                    if (anchor is IHtmlAnchorElement)
-                    {
-                        if (((IHtmlAnchorElement)anchor).PathName.Contains("/item=")) {
-                            
-                            (int itemId, string name) = GetItemFromAnchor((IHtmlAnchorElement)anchor);
-
-                            items.AddItem(itemId, new DatabaseItem 
-                            {
-                                Name = name,
-                                Source = string.Empty,
-                                SourceType = "Drop",
-                                SourceNumber = "0",
-                                SourceLocation = raidUri.Value
-                            });
-                            return true;
-                        }
-                        else{
-                            return false;
-                        }
-                    }
-                    else {
-                        return false;
-                    }
-                });
-            }
-        }, writeToLog);
-
-        foreach(var item in items.Items.Where(i => i.Value.Source == string.Empty))
-        {
-            //set boss
-            item.Value.Source = string.Empty;
-        }
-
-        return items;
-    }
-
-    internal async Task<DatabaseItems> ConvertFirstTwoRaids(KeyValuePair<string, string> raidUri, DatabaseItems items, Action<string> writeToLog)
-    {
-        items.Items.Clear();
-
         await Common.LoadFromWebPage(raidUri.Key, (doc) =>
         {
             var tableElements = doc.QuerySelectorAll("table.grid");
@@ -167,9 +110,14 @@ public class RaidImporter : LootImporter
                 if (row.Cells.Length == 4)
                 {
                     bossCell = 3;;
-                } else 
+                } 
+                else if (row.Cells.Length == 3)
                 {
                     bossCell = 2;
+                } 
+                else 
+                {
+                    return;
                 }
 
                 firstRow = true;
@@ -183,7 +131,10 @@ public class RaidImporter : LootImporter
             {
                 var (itemId, itemName) = GetItemFromTableRow(row);
 
-                bossFunc(itemId, itemName, GetBossNames(row.Cells[bossCell]));
+                if (itemId > 0)
+                    bossFunc(itemId, itemName, GetBossNames(row.Cells[bossCell]));
+                else 
+                    Console.WriteLine($"{itemId} <= 0 for {itemName}");
             } 
             else
             {
@@ -197,7 +148,10 @@ public class RaidImporter : LootImporter
                     } else if (anchor?.Children[1]?.ClassName?.Contains("icon-alliance") ?? false) {
                         faction = "A";
                     }
-                    questFunc(itemId, itemName, anchor?.TextContent?.Trim() ?? string.Empty, faction);
+                    if (itemId > 0)
+                        questFunc(itemId, itemName, anchor?.TextContent?.Trim() ?? string.Empty, faction);
+                    else 
+                        Console.WriteLine($"{itemId} <= 0 for itemName");
                     return true;
                 });
             }

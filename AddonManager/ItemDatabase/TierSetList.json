@@ -1,2 +1,340 @@
 {
+  "Items": {
+    "220642": {
+      "Name": "Banished Martyr's Plate Armor",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220643": {
+      "Name": "Banished Martyr's Plate Legguards",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220648": {
+      "Name": "Banished Martyr's Plate Boots",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220650": {
+      "Name": "Obsessed Prophet's Chestplate",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220651": {
+      "Name": "Obsessed Prophet's Legguards",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220652": {
+      "Name": "Obsessed Prophet's Ornate Boots",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220653": {
+      "Name": "Wailing Berserker's Chestplate",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220654": {
+      "Name": "Wailing Berserker's Legplates",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220656": {
+      "Name": "Wailing Berserker's Battleboots",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220657": {
+      "Name": "Ostracized Berserker's Hauberk",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220658": {
+      "Name": "Ostracized Berserker's Legplates",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220659": {
+      "Name": "Ostracized Berserker's Chain Greaves",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220660": {
+      "Name": "Shunned Devotee's Chainshirt",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220661": {
+      "Name": "Shunned Devotee's Legguards",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220662": {
+      "Name": "Shunned Devotee's Scale Boots",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220663": {
+      "Name": "Corrupted Spiritweaver's Leggings",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220664": {
+      "Name": "Corrupted Spiritweaver's Sabatons",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220665": {
+      "Name": "Corrupted Spiritweaver's Breastplate",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220666": {
+      "Name": "Dread Hunter's Chainmail",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220667": {
+      "Name": "Dread Hunter's Chausses",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220668": {
+      "Name": "Dread Hunter's Greaves",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220669": {
+      "Name": "Exiled Prophet's Jerkin",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220670": {
+      "Name": "Exiled Prophet's Slippers",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220671": {
+      "Name": "Exiled Prophet's Leather Pants",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220672": {
+      "Name": "Lost Worshipper's Harness",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220673": {
+      "Name": "Lost Worshipper's Leggings",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220675": {
+      "Name": "Lost Worshipper's Treads",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220676": {
+      "Name": "Blood Corrupted Tunic",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220677": {
+      "Name": "Blood Corrupted Boots",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220678": {
+      "Name": "Blood Corrupted Pants",
+      "Source": "Atal'ai Blood Icon",
+      "SourceType": "TierToken",
+      "SourceNumber": "220636",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220679": {
+      "Name": "Malevolent Prophet's Leggings",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220680": {
+      "Name": "Malevolent Prophet's Vest",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220681": {
+      "Name": "Malevolent Prophet's Sandals",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220683": {
+      "Name": "Benevolent Prophet's Vest",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220684": {
+      "Name": "Benevolent Prophet's Leggings",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220685": {
+      "Name": "Benevolent Prophet's Sandals",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220778": {
+      "Name": "Coagulated Bloodguard Pants",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220779": {
+      "Name": "Coagulated Bloodguard Tunic",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220780": {
+      "Name": "Coagulated Bloodguard Boots",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220781": {
+      "Name": "Nightmare Prophet's Leggings",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220783": {
+      "Name": "Nightmare Prophet's Vestments",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220784": {
+      "Name": "Nightmare Prophet's Sandals",
+      "Source": "Atal'ai Ritual Token",
+      "SourceType": "TierToken",
+      "SourceNumber": "220637",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    }
+  }
 }
