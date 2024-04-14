@@ -2,13 +2,13 @@ local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Dps"], "1")
 local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Dps"], "2")
 local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Dps"], "3")
 
-LBIS:AddEnchant(spec3, "11645", LBIS.L["Head"]) --Lesser Arcanum of Voracity
-LBIS:AddEnchant(spec3, "221321", LBIS.L["Shoulder"]) --Atal'ai Signet of Might
+LBIS:AddEnchant(spec3, "15397", LBIS.L["Head"]) --Lesser Arcanum of Voracity
+LBIS:AddEnchant(spec3, "446451", LBIS.L["Shoulder"]) --Atal'ai Signet of Might
 LBIS:AddEnchant(spec3, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
 LBIS:AddEnchant(spec3, "13941", LBIS.L["Chest"]) --Enchant Chest - Stats
 LBIS:AddEnchant(spec3, "20081", LBIS.L["Wrist"]) --Formula: Enchant Bracer - Superior Strength
 LBIS:AddEnchant(spec3, "13948", LBIS.L["Hands"]) --Enchant Gloves - Minor Haste
-LBIS:AddEnchant(spec3, "11645", LBIS.L["Legs"]) --Lesser Arcanum of Voracity
+LBIS:AddEnchant(spec3, "15397", LBIS.L["Legs"]) --Lesser Arcanum of Voracity
 LBIS:AddEnchant(spec3, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
 LBIS:AddEnchant(spec3, "7222", LBIS.L["Two Hand"]) --Iron Counterweight
 

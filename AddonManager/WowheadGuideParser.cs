@@ -28,6 +28,16 @@ public class WowheadGuideParser
         { 7967, 9939 }, //Mithril Shield Spike
         { 6041, 7224}, //Steel Weapon Chain
         { 5421, 6296 }, //Fiery Blaze
+        { 11622, 15340}, //Lesser Arcanum of Rumination
+        { 11645, 15397}, //Lesser Arcanum of Voracity
+        { 11646, 15400}, //Lesser Arcanum of Voracity
+        { 11647, 15402}, //Lesser Arcanum of Voracity
+        { 11648, 15404}, //Lesser Arcanum of Voracity
+        { 12645, 16623}, //Thorium Shield Spike
+        { 212568, 432190 }, //Wolfshead Trophy
+        { 221321, 446451 }, //Atal'ai Signet of Might
+        { 221322, 446459 }, //Atal'ai Signet of Mojo
+        { 221323, 446472 }, //Atal'ai Signet of 
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()

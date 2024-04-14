@@ -2,8 +2,8 @@ local spec1 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Healer"], "1")
 local spec2 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Healer"], "2")
 local spec3 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Healer"], "3")
 
-LBIS:AddEnchant(spec3, "11622", LBIS.L["Head"]) --Lesser Arcanum of Rumination
-LBIS:AddEnchant(spec3, "221323", LBIS.L["Shoulder"]) --Atal'ai Signet of Serenity
+LBIS:AddEnchant(spec3, "15340", LBIS.L["Head"]) --Lesser Arcanum of Rumination
+LBIS:AddEnchant(spec3, "446472", LBIS.L["Shoulder"]) --Atal'ai Signet of Serenity
 LBIS:AddEnchant(spec3, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
 LBIS:AddEnchant(spec3, "20028", LBIS.L["Chest"]) --Enchant Chest - Major Mana
 LBIS:AddEnchant(spec3, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect

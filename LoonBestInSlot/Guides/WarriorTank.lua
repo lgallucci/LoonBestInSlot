@@ -2,8 +2,8 @@ local spec1 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Tank"], "1")
 local spec2 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Tank"], "2")
 local spec3 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Tank"], "3")
 
-LBIS:AddEnchant(spec3, "11647", LBIS.L["Head"]) --Lesser Arcanum of Voracity
-LBIS:AddEnchant(spec3, "221321", LBIS.L["Shoulder"]) --Atal'ai Signet of Might
+LBIS:AddEnchant(spec3, "15402", LBIS.L["Head"]) --Lesser Arcanum of Voracity
+LBIS:AddEnchant(spec3, "446451", LBIS.L["Shoulder"]) --Atal'ai Signet of Might
 LBIS:AddEnchant(spec3, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
 LBIS:AddEnchant(spec3, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
 LBIS:AddEnchant(spec3, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength

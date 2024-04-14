@@ -2,7 +2,7 @@ local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Feral Dps"], "1")
 local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Feral Dps"], "2")
 local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Feral Dps"], "3")
 
-LBIS:AddEnchant(spec3, "212568", LBIS.L["Head"]) --Wolfshead Trophy
+LBIS:AddEnchant(spec3, "432190", LBIS.L["Head"]) --Wolfshead Trophy
 LBIS:AddEnchant(spec3, "446451", LBIS.L["Shoulder"]) --Atal'ai Signet of Might
 LBIS:AddEnchant(spec3, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
 LBIS:AddEnchant(spec3, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats

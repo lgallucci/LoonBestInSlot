@@ -2,9 +2,9 @@ local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "1")
 local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "2")
 local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "3")
 
-LBIS:AddEnchant(spec3, "11645", LBIS.L["Head"]) --Lesser Arcanum of Voracity
-LBIS:AddEnchant(spec3, "11646", LBIS.L["Head"]) --Lesser Arcanum of Voracity
-LBIS:AddEnchant(spec3, "221321", LBIS.L["Shoulder"]) --Atal'ai Signet of Might
+LBIS:AddEnchant(spec3, "15397", LBIS.L["Head"]) --Lesser Arcanum of Voracity
+LBIS:AddEnchant(spec3, "15400", LBIS.L["Head"]) --Lesser Arcanum of Voracity
+LBIS:AddEnchant(spec3, "446451", LBIS.L["Shoulder"]) --Atal'ai Signet of Might
 LBIS:AddEnchant(spec3, "20015", LBIS.L["Back"]) --Enchant Cloak - Superior Defense
 LBIS:AddEnchant(spec3, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
 LBIS:AddEnchant(spec3, "435903", LBIS.L["Chest"]) --Enchant Chest - Retricutioner
@@ -20,7 +20,7 @@ LBIS:AddEnchant(spec3, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
 LBIS:AddEnchant(spec3, "23799", LBIS.L["Main Hand"]) --Enchant Weapon - Strength
 LBIS:AddEnchant(spec3, "23800", LBIS.L["Main Hand"]) --Enchant Weapon - Agility
 LBIS:AddEnchant(spec3, "7224", LBIS.L["Main Hand"]) --Steel Weapon Chain
-LBIS:AddEnchant(spec3, "12645", LBIS.L["Off Hand"]) --Thorium Shield Spike
+LBIS:AddEnchant(spec3, "16623", LBIS.L["Off Hand"]) --Thorium Shield Spike
 LBIS:AddEnchant(spec3, "20017", LBIS.L["Off Hand"]) --Enchant Shield - Greater Stamina
 LBIS:AddEnchant(spec3, "13689", LBIS.L["Off Hand"]) --Enchant Shield - Lesser Block
 LBIS:AddEnchant(spec3, "20034", LBIS.L["Two Hand"]) --Enchant Weapon - Crusader
