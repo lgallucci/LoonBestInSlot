@@ -317,7 +317,7 @@ local function createDropDowns(window)
         ['title']='Zone:',
         ['items']= { LBIS.L["All"], LBIS.L["Ragefire Chasm"], LBIS.L["Wailing Caverns"], LBIS.L["The Deadmines"], LBIS.L["Shadowfang Keep"], 
             LBIS.L["Blackfathom Deeps"], LBIS.L["The Stockade"], LBIS.L["Razorfen Kraul"], LBIS.L["Scarlet Monastery"], LBIS.L["Razorfen Downs"], 
-            LBIS.L["Uldaman"], LBIS.L["Gnomeregan"] },
+            LBIS.L["Uldaman"], LBIS.L["Gnomeregan"], LBIS.L["Zul'Farrak"], LBIS.L["Maraudon"], LBIS.L["Blackrock Depths"], LBIS.L["Sunken Temple"] },
         ['defaultVal']= LBISSettings.SelectedZone,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedZone = dropdown_val;

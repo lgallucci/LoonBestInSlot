@@ -364,7 +364,7 @@ public static class WowheadImporter
                             itemSources[itemId].Source = AddLocalizeText("World Drop");
                         
                         if (location.ToLower() == "the temple of atal'hakkar")
-                            location = "The Sunken Temple";
+                            location = "Sunken Temple";
 
                         itemSources[itemId].SourceType = AddLocalizeText("Drop");
                         itemSources[itemId].SourceNumber = "0";
