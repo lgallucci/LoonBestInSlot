@@ -26,7 +26,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Ancient Spirit"] = "Esprit d'un ancien";
   LBIS.L["Ancient Stone Keeper"] = "Ancien Gardien des pierres";
 --  LBIS.L["Antu'sul <Overseer of Sul>"] = "";
---  LBIS.L["Antu'sul <Overseer of Sul>"] = "";
   LBIS.L["Apprentice's Duties"] = "Les devoirs de l'apprenti";
   LBIS.L["Arathi Basin"] = "Bassin Arathi";
 --  LBIS.L["Arathi Basin Marks"] = "";
@@ -226,7 +225,6 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Gordok Tribute"] = "";
 --  LBIS.L["Grimand\'s Armor"] = "";
   LBIS.L["Grimlok"] = "Grimlok";
---  LBIS.L["Grimlok"] = "";
   LBIS.L["Grimtotem Spying"] = "Espionner le Totem-sinistre";
   LBIS.L["Grizzle"] = "Grison";
   LBIS.L["Grubbis"] = "Grubbis";
@@ -249,7 +247,6 @@ if GetLocale() == "frFR" then
   LBIS.L["High Inquisitor Fairbanks"] = "Grand Inquisiteur Fairbanks";
   LBIS.L["High Inquisitor Whitemane"] = "Grand Inquisiteur Whitemane";
   LBIS.L["High Interrogator Gerstahn"] = "Grand Interrogateur Gerstahn";
---  LBIS.L["High Interrogator Gerstahn"] = "";
   LBIS.L["Highlord Omokk"] = "Généralissime Omokk";
   LBIS.L["Highperch Venom"] = "Le venin de Haut-perchoir";
   LBIS.L["Hillsbrad Foothills"] = "Contreforts de Hautebrande";
@@ -291,7 +288,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Klockmort's Creation"] = "La création de Pléthorloge";
   LBIS.L["Knowledge in the Deeps"] = "La connaissance des profondeurs";
   LBIS.L["Kresh"] = "Kresh";
---  LBIS.L["Kroshius' Infernal Core"] = "";
+  LBIS.L["Kroshius' Infernal Core"] = "Le noyau infernal de Kroshius";
   LBIS.L["Lady Anacondra"] = "Dame Anacondra";
   LBIS.L["Lady Falther'ess"] = "Dame Falther'ess";
 --  LBIS.L["Lady Saravess"] = "";
@@ -504,7 +501,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Taragaman the Hungerer"] = "Taragaman l'Affameur";
   LBIS.L["Taretha's Gift"] = "Le cadeau de Taretha";
   LBIS.L["Targorr the Dread"] = "Targorr le Terrifiant";
---  LBIS.L["Avatar of Hakkar"] = "";
   LBIS.L["Tendris Warpwood"] = "Tendris Crochebois";
   LBIS.L["The Azure Key"] = "La clé d'azur";
 --  LBIS.L["The Bad News..."] = "";
@@ -583,7 +579,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Undercity"] = "Fossoyeuse";
   LBIS.L["Underground Assault"] = "Assaut souterrain";
   LBIS.L["Urok Doomhowl"] = "Urok Hurleruine";
---  LBIS.L["Various Vendors"] = "";
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Various Vendors"] = "";
   LBIS.L["Vectus"] = "Vectus";

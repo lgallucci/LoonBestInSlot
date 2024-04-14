@@ -26,7 +26,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Ancient Spirit"] = "Древний дух";
   LBIS.L["Ancient Stone Keeper"] = "Древний Хранитель Камня";
 --  LBIS.L["Antu'sul <Overseer of Sul>"] = "";
---  LBIS.L["Antu'sul <Overseer of Sul>"] = "";
   LBIS.L["Apprentice's Duties"] = "Тяжкая судьба помощника";
   LBIS.L["Arathi Basin"] = "Низина Арати";
 --  LBIS.L["Arathi Basin Marks"] = "";
@@ -226,7 +225,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Gordok Tribute"] = "";
 --  LBIS.L["Grimand\'s Armor"] = "";
   LBIS.L["Grimlok"] = "Гримлок";
---  LBIS.L["Grimlok"] = "";
   LBIS.L["Grimtotem Spying"] = "Наблюдение за Зловещим Тотемом";
   LBIS.L["Grizzle"] = "Гриззл";
   LBIS.L["Grubbis"] = "Грязнюк";
@@ -249,7 +247,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["High Inquisitor Fairbanks"] = "Верховный инквизитор Фэйрбанкс";
   LBIS.L["High Inquisitor Whitemane"] = "Верховный инквизитор Вайтмейн";
   LBIS.L["High Interrogator Gerstahn"] = "Верховный дознаватель Герштан";
---  LBIS.L["High Interrogator Gerstahn"] = "";
   LBIS.L["Highlord Omokk"] = "Вождь Омокк";
   LBIS.L["Highperch Venom"] = "Яд из Скального гнездовья";
   LBIS.L["Hillsbrad Foothills"] = "Предгорья Хилсбрада";
@@ -291,7 +288,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Klockmort's Creation"] = "Творение Клацморта";
   LBIS.L["Knowledge in the Deeps"] = "Знание в пучине";
   LBIS.L["Kresh"] = "Криг";
---  LBIS.L["Kroshius' Infernal Core"] = "";
+  LBIS.L["Kroshius' Infernal Core"] = "Огненное ядро Крошиуса";
   LBIS.L["Lady Anacondra"] = "Повелительница Анакондра";
   LBIS.L["Lady Falther'ess"] = "Леди Фалтер'есс";
 --  LBIS.L["Lady Saravess"] = "";
@@ -350,7 +347,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Mosshide Mistweaver"] = "";
   LBIS.L["Mother Smolderweb"] = "Мать Дымная Паутина";
   LBIS.L["Mr. Smite"] = "Мистер Каюк";
-  LBIS.L["Mythology of the Titans"] = "\"Мифология Титанов\";
+  LBIS.L["Mythology of the Titans"] = "Мифология Титанов";
 --  LBIS.L["Mythrin'dir"] = "";
 --  LBIS.L["N'ora Anyheart"] = "";
   LBIS.L["Neck"] = "Шея";
@@ -504,7 +501,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Taragaman the Hungerer"] = "Тарагаман Ненасытный";
   LBIS.L["Taretha's Gift"] = "Подарок Тареты";
   LBIS.L["Targorr the Dread"] = "Таргорр Ужасный";
---  LBIS.L["Avatar of Hakkar"] = "";
   LBIS.L["Tendris Warpwood"] = "Тендрис Криводрев";
   LBIS.L["The Azure Key"] = "Лазурный ключ";
 --  LBIS.L["The Bad News..."] = "";
@@ -583,7 +579,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Undercity"] = "Подгород";
   LBIS.L["Underground Assault"] = "Битва под землей";
   LBIS.L["Urok Doomhowl"] = "Аррок Смертный Вопль";
---  LBIS.L["Various Vendors"] = "";
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Various Vendors"] = "";
   LBIS.L["Vectus"] = "Вектус";

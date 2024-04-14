@@ -26,7 +26,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Ancient Spirit"] = "고대의 정령";
   LBIS.L["Ancient Stone Keeper"] = "고대 바위 문지기";
 --  LBIS.L["Antu'sul <Overseer of Sul>"] = "";
---  LBIS.L["Antu'sul <Overseer of Sul>"] = "";
   LBIS.L["Apprentice's Duties"] = "수습생의 임무";
   LBIS.L["Arathi Basin"] = "아라시 분지";
   LBIS.L["Arathi Basin Marks"] = "아라시 분지 명예 훈장";
@@ -226,7 +225,6 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Gordok Tribute"] = "";
 --  LBIS.L["Grimand\'s Armor"] = "";
   LBIS.L["Grimlok"] = "그림로크";
---  LBIS.L["Grimlok"] = "";
   LBIS.L["Grimtotem Spying"] = "그림토템부족 염탐";
   LBIS.L["Grizzle"] = "그리즐";
   LBIS.L["Grubbis"] = "그루비스 ";
@@ -249,7 +247,6 @@ if GetLocale() == "koKR" then
   LBIS.L["High Inquisitor Fairbanks"] = "종교재판관 페어뱅크스";
   LBIS.L["High Inquisitor Whitemane"] = "종교재판관 화이트메인";
   LBIS.L["High Interrogator Gerstahn"] = "대심문관 게르스탄";
---  LBIS.L["High Interrogator Gerstahn"] = "";
   LBIS.L["Highlord Omokk"] = "대군주 오모크";
   LBIS.L["Highperch Venom"] = "마루둥지 와이번의 독";
   LBIS.L["Hillsbrad Foothills"] = "언덕마루 구릉지";
@@ -291,7 +288,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Klockmort's Creation"] = "클락몰트의 창작품";
   LBIS.L["Knowledge in the Deeps"] = "심연의 지식";
   LBIS.L["Kresh"] = "크레쉬";
---  LBIS.L["Kroshius' Infernal Core"] = "";
+  LBIS.L["Kroshius' Infernal Core"] = "크로쉬우스의 지옥핵";
   LBIS.L["Lady Anacondra"] = "여군주 아나콘드라";
   LBIS.L["Lady Falther'ess"] = "귀부인 팔데리스";
 --  LBIS.L["Lady Saravess"] = "";
@@ -504,7 +501,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Taragaman the Hungerer"] = "욕망의 타라가만";
   LBIS.L["Taretha's Gift"] = "타레사의 선물";
   LBIS.L["Targorr the Dread"] = "흉악범 타고르";
---  LBIS.L["Avatar of Hakkar"] = "";
   LBIS.L["Tendris Warpwood"] = "굽이나무 텐드리스";
   LBIS.L["The Azure Key"] = "하늘색 열쇠";
 --  LBIS.L["The Bad News..."] = "";
@@ -583,7 +579,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Undercity"] = "언더시티";
   LBIS.L["Underground Assault"] = "지하 공격";
   LBIS.L["Urok Doomhowl"] = "우르크 둠하울";
---  LBIS.L["Various Vendors"] = "";
   LBIS.L["Various Bosses"] = "기타 보스들";
 --  LBIS.L["Various Vendors"] = "";
   LBIS.L["Vectus"] = "벡투스";

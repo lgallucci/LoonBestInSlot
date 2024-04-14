@@ -26,7 +26,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Ancient Spirit"] = "远古之灵";
   LBIS.L["Ancient Stone Keeper"] = "古代的石头看守者";
 --  LBIS.L["Antu'sul <Overseer of Sul>"] = "";
---  LBIS.L["Antu'sul <Overseer of Sul>"] = "";
   LBIS.L["Apprentice's Duties"] = "学徒的职责";
   LBIS.L["Arathi Basin"] = "阿拉希盆地";
 --  LBIS.L["Arathi Basin Marks"] = "";
@@ -226,7 +225,6 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Gordok Tribute"] = "";
 --  LBIS.L["Grimand\'s Armor"] = "";
   LBIS.L["Grimlok"] = "格瑞姆洛克";
---  LBIS.L["Grimlok"] = "";
   LBIS.L["Grimtotem Spying"] = "恐怖图腾的密信";
   LBIS.L["Grizzle"] = "格里兹尔";
   LBIS.L["Grubbis"] = "格鲁比斯";
@@ -249,7 +247,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["High Inquisitor Fairbanks"] = "大检察官法尔班克斯";
   LBIS.L["High Inquisitor Whitemane"] = "大检察官怀特迈恩";
   LBIS.L["High Interrogator Gerstahn"] = "审讯官格斯塔恩";
---  LBIS.L["High Interrogator Gerstahn"] = "";
   LBIS.L["Highlord Omokk"] = "欧莫克大王";
   LBIS.L["Highperch Venom"] = "风巢双足飞龙的毒囊";
   LBIS.L["Hillsbrad Foothills"] = "希尔斯布莱德丘陵";
@@ -291,7 +288,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Klockmort's Creation"] = "科罗莫特的成果";
   LBIS.L["Knowledge in the Deeps"] = "深渊中的知识";
   LBIS.L["Kresh"] = "克雷什";
---  LBIS.L["Kroshius' Infernal Core"] = "";
+  LBIS.L["Kroshius' Infernal Core"] = "克罗苏斯的恶魔之核";
   LBIS.L["Lady Anacondra"] = "安娜科德拉";
   LBIS.L["Lady Falther'ess"] = "法瑟蕾丝夫人";
 --  LBIS.L["Lady Saravess"] = "";
@@ -504,7 +501,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Taragaman the Hungerer"] = "饥饿者塔拉加曼";
   LBIS.L["Taretha's Gift"] = "塔蕾莎的礼物";
   LBIS.L["Targorr the Dread"] = "可怕的塔格尔";
---  LBIS.L["Avatar of Hakkar"] = "";
   LBIS.L["Tendris Warpwood"] = "特迪斯·扭木";
   LBIS.L["The Azure Key"] = "碧蓝钥匙";
 --  LBIS.L["The Bad News..."] = "";
@@ -583,7 +579,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Undercity"] = "幽暗城";
   LBIS.L["Underground Assault"] = "地底突袭";
   LBIS.L["Urok Doomhowl"] = "乌洛克";
---  LBIS.L["Various Vendors"] = "";
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Various Vendors"] = "";
   LBIS.L["Vectus"] = "维克图斯";

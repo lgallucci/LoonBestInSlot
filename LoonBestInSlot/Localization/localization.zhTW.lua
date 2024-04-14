@@ -26,7 +26,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Ancient Spirit"] = "遠古之靈";
   LBIS.L["Ancient Stone Keeper"] = "古代的石頭看守者";
 --  LBIS.L["Antu'sul <Overseer of Sul>"] = "";
---  LBIS.L["Antu'sul <Overseer of Sul>"] = "";
   LBIS.L["Apprentice's Duties"] = "學徒的職責";
   LBIS.L["Arathi Basin"] = "阿拉希盆地";
 --  LBIS.L["Arathi Basin Marks"] = "";
@@ -226,7 +225,6 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Gordok Tribute"] = "";
 --  LBIS.L["Grimand\'s Armor"] = "";
   LBIS.L["Grimlok"] = "格瑞姆洛克";
---  LBIS.L["Grimlok"] = "";
   LBIS.L["Grimtotem Spying"] = "偵察恐怖圖騰族";
   LBIS.L["Grizzle"] = "格里茲爾";
   LBIS.L["Grubbis"] = "格魯比斯";
@@ -249,7 +247,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["High Inquisitor Fairbanks"] = "高等審判官法爾班克斯";
   LBIS.L["High Inquisitor Whitemane"] = "高等審判官懷特邁恩";
   LBIS.L["High Interrogator Gerstahn"] = "高階審問者格斯塔恩";
---  LBIS.L["High Interrogator Gerstahn"] = "";
   LBIS.L["Highlord Omokk"] = "歐莫克大王";
   LBIS.L["Highperch Venom"] = "風巢雙足飛龍的毒囊";
   LBIS.L["Hillsbrad Foothills"] = "希爾斯布萊德丘陵";
@@ -291,7 +288,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Klockmort's Creation"] = "科羅莫特的成果";
   LBIS.L["Knowledge in the Deeps"] = "深淵中的知識";
   LBIS.L["Kresh"] = "克雷什";
---  LBIS.L["Kroshius' Infernal Core"] = "";
+  LBIS.L["Kroshius' Infernal Core"] = "克羅蘇斯的煉獄火之核";
   LBIS.L["Lady Anacondra"] = "安娜科德拉";
   LBIS.L["Lady Falther'ess"] = "法瑟蕾絲夫人";
 --  LBIS.L["Lady Saravess"] = "";
@@ -504,7 +501,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Taragaman the Hungerer"] = "『飢餓者』塔拉加曼";
   LBIS.L["Taretha's Gift"] = "塔蕾莎的禮物";
   LBIS.L["Targorr the Dread"] = "可怕的塔高爾";
---  LBIS.L["Avatar of Hakkar"] = "";
   LBIS.L["Tendris Warpwood"] = "特迪斯·扭木";
   LBIS.L["The Azure Key"] = "蒼藍鑰匙";
 --  LBIS.L["The Bad News..."] = "";
@@ -583,7 +579,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Undercity"] = "幽暗城";
   LBIS.L["Underground Assault"] = "地底突襲";
   LBIS.L["Urok Doomhowl"] = "烏洛克";
---  LBIS.L["Various Vendors"] = "";
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Various Vendors"] = "";
   LBIS.L["Vectus"] = "維克圖斯";

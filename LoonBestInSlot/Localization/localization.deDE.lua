@@ -225,7 +225,6 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Gordok Tribute"] = "";
 --  LBIS.L["Grimand\'s Armor"] = "";
   LBIS.L["Grimlok"] = "Grimlok";
---  LBIS.L["Grimlok"] = "";
   LBIS.L["Grimtotem Spying"] = "Grimmtotemspionage";
   LBIS.L["Grizzle"] = "Grizzle";
   LBIS.L["Grubbis"] = "Grubbis";
@@ -248,7 +247,6 @@ if GetLocale() == "deDE" then
   LBIS.L["High Inquisitor Fairbanks"] = "Hochinquisitor Schönufer";
   LBIS.L["High Inquisitor Whitemane"] = "Hochinquisitorin Weißsträhne";
   LBIS.L["High Interrogator Gerstahn"] = "Verhörmeisterin Gerstahn";
---  LBIS.L["High Interrogator Gerstahn"] = "";
   LBIS.L["Highlord Omokk"] = "Hochlord Omokk";
   LBIS.L["Highperch Venom"] = "Steilhanggift";
   LBIS.L["Hillsbrad Foothills"] = "Vorgebirge des Hügellands";
@@ -290,7 +288,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Klockmort's Creation"] = "Klockmorts Kreation";
   LBIS.L["Knowledge in the Deeps"] = "Wissen in der Tiefe";
   LBIS.L["Kresh"] = "Kresh";
---  LBIS.L["Kroshius' Infernal Core"] = "";
+  LBIS.L["Kroshius' Infernal Core"] = "Kroshius Höllenbestienkern";
   LBIS.L["Lady Anacondra"] = "Lady Anacondra";
   LBIS.L["Lady Falther'ess"] = "Lady Falther'ess";
 --  LBIS.L["Lady Saravess"] = "";
@@ -503,7 +501,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Taragaman the Hungerer"] = "Taragaman der Hungerleider";
   LBIS.L["Taretha's Gift"] = "Tarethas Geschenk";
   LBIS.L["Targorr the Dread"] = "Targorr der Schreckliche";
---  LBIS.L["Avatar of Hakkar"] = "";
   LBIS.L["Tendris Warpwood"] = "Tendris Wucherborke";
   LBIS.L["The Azure Key"] = "Der azurblaue Schlüssel";
 --  LBIS.L["The Bad News..."] = "";
@@ -582,7 +579,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Undercity"] = "Unterstadt";
   LBIS.L["Underground Assault"] = "Unterirdischer Angriff";
   LBIS.L["Urok Doomhowl"] = "Urok Schreckensbote";
---  LBIS.L["Various Vendors"] = "";
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Various Vendors"] = "";
   LBIS.L["Vectus"] = "Vectus";
