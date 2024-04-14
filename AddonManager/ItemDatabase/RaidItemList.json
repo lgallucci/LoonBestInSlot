@@ -2568,6 +2568,22 @@
       "SourceLocation": "Sunken Temple",
       "SourceFaction": "B"
     },
+    "220636": {
+      "Name": "Atal'ai Blood Icon",
+      "Source": "Various Bosses",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "220637": {
+      "Name": "Atal'ai Ritual Token",
+      "Source": "Various Bosses",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
     "220638": {
       "Name": "Unorthodox Hex Stick",
       "Source": "Gasher",
