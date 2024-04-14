@@ -227,7 +227,6 @@ LBIS:AddItem(spec3, "19121", LBIS.L["Back"], "BIS") --Deep Woodlands Cloak
 LBIS:AddItem(spec3, "220611", LBIS.L["Back"], "Alt") --Hukku's Hex Cape
 LBIS:AddItem(spec3, "216620", LBIS.L["Back"], "Alt") --Bloodrot Cloak
 LBIS:AddItem(spec3, "16341", LBIS.L["Back"], "Alt") --Sergeant's Cloak
-LBIS:AddItem(spec3, "11626", LBIS.L["Back"], "Alt") --Blackveil Cape
 LBIS:AddItem(spec3, "11623", LBIS.L["Back"], "Alt") --Spritecaster Cape
 LBIS:AddItem(spec3, "220609", LBIS.L["Back"], "Alt") --Drape of Nightfall
 LBIS:AddItem(spec3, "213307", LBIS.L["Back"], "Alt") --Drape of Dismantling

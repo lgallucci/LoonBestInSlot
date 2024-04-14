@@ -2,6 +2,7 @@ local spec1 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "1")
 local spec2 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "2")
 local spec3 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "3")
 
+LBIS:AddEnchant(spec3, "11648", LBIS.L["Head"]) --Lesser Arcanum of Voracity
 LBIS:AddEnchant(spec3, "13794", LBIS.L["Back"]) --Enchant Cloak - Resistance
 LBIS:AddEnchant(spec3, "13700", LBIS.L["Chest"]) --Enchant Chest - Lesser Stats
 LBIS:AddEnchant(spec3, "13822", LBIS.L["Wrist"]) --Enchant Bracer - Intellect
@@ -130,12 +131,10 @@ LBIS:AddItem(spec2, "215436", LBIS.L["Ranged/Relic"], "BIS") --Totem of Invigora
 LBIS:AddItem(spec2, "209575", LBIS.L["Ranged/Relic"], "Alt") --Carved Driftwood Icon
 
 LBIS:AddItem(spec3, "215114", LBIS.L["Head"], "BIS") --Glowing Hyperconductive Scale Coif
-LBIS:AddItem(spec3, "215111", LBIS.L["Head"], "BIS") --Gneuro-Linked Arcano-Filament Monocle
+LBIS:AddItem(spec3, "220523", LBIS.L["Head"], "Alt") --Visage of the Exiled
+LBIS:AddItem(spec3, "220521", LBIS.L["Head"], "Alt") --Hakkari Ritualist's Headdress
 LBIS:AddItem(spec3, "213279", LBIS.L["Head"], "Alt") --Reflective Skullcap
 LBIS:AddItem(spec3, "217300", LBIS.L["Head"], "Alt") --Whitemane's Chapeau
-LBIS:AddItem(spec3, "211842", LBIS.L["Head"], "Alt") --Rakkamar's Tattered Thinking Cap
-LBIS:AddItem(spec3, "211507", LBIS.L["Head"], "Alt") --Twilight Elementalist's Cowl
-LBIS:AddItem(spec3, "209683", LBIS.L["Head"], "Alt") --Twilight Invoker's Shawl
 LBIS:AddItem(spec3, "213303", LBIS.L["Shoulder"], "BIS") --Lightning Rod Spaulders
 LBIS:AddItem(spec3, "213301", LBIS.L["Shoulder"], "Alt") --Synthetic Mantle
 LBIS:AddItem(spec3, "19507", LBIS.L["Shoulder"], "Alt") --Inquisitor's Shawl

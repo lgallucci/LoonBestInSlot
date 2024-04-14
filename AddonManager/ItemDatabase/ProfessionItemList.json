@@ -7487,6 +7487,126 @@
       "SourceNumber": "0",
       "SourceLocation": "439132",
       "SourceFaction": "B"
+    },
+    "220738": {
+      "Name": "Shoulderplates of Dread",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "446179",
+      "SourceFaction": "B"
+    },
+    "220739": {
+      "Name": "Baleful Pauldrons",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "446191",
+      "SourceFaction": "B"
+    },
+    "220740": {
+      "Name": "Fearmonger's Shoulderguards",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "446188",
+      "SourceFaction": "B"
+    },
+    "220742": {
+      "Name": "Shrieking Spaulders",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "446185",
+      "SourceFaction": "B"
+    },
+    "220743": {
+      "Name": "Cacophonous Chain Shoulderguards",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "446186",
+      "SourceFaction": "B"
+    },
+    "220744": {
+      "Name": "Wailing Chain Mantle",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "446190",
+      "SourceFaction": "B"
+    },
+    "220745": {
+      "Name": "Membrane of Dark Neurosis",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "446192",
+      "SourceFaction": "B"
+    },
+    "220747": {
+      "Name": "Paranoia Mantle",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "446183",
+      "SourceFaction": "B"
+    },
+    "220748": {
+      "Name": "Shoulderpads of Obsession",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "446189",
+      "SourceFaction": "B"
+    },
+    "220749": {
+      "Name": "Mantle of Insanity",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "446194",
+      "SourceFaction": "B"
+    },
+    "220750": {
+      "Name": "Fractured Mind Pauldrons",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "446193",
+      "SourceFaction": "B"
+    },
+    "220751": {
+      "Name": "Shoulderpads of the Deranged",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "446195",
+      "SourceFaction": "B"
+    },
+    "221025": {
+      "Name": "Void-Powered Invoker's Vambraces",
+      "Source": "Engineering",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "446236",
+      "SourceFaction": "B"
+    },
+    "221026": {
+      "Name": "Void-Powered Slayer's Vambraces",
+      "Source": "Engineering",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "446237",
+      "SourceFaction": "B"
+    },
+    "221027": {
+      "Name": "Void-Powered Protector's Vambraces",
+      "Source": "Engineering",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "446238",
+      "SourceFaction": "B"
     }
   }
 }

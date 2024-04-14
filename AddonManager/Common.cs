@@ -14,47 +14,15 @@ public static class Common
         }))
         {
             var total = pageAddresses.Count();
-            var count = 0;
+            int count = 0;
             foreach (var pageAddress in pageAddresses)
             {
-                if (cancelToken != null && cancelToken.Value.IsCancellationRequested)
-                {
-                    System.Diagnostics.Debug.WriteLine($"Cancelled...");
-                    break;
-                }
-
-                System.Diagnostics.Debug.WriteLine($"Starting WebPage ({pageAddress})...");
-                using (var page = await browser.NewPageAsync())
-                {
-                    try 
-                    {
-                        page.DefaultTimeout = 30000; // or you can set this as 0
-                        if (waitForIdle)
-                            await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
-                        else
-                            await page.GoToAsync(pageAddress, WaitUntilNavigation.DOMContentLoaded);
-                        var content = await page.GetContentAsync();
-
-                        System.Diagnostics.Debug.WriteLine($"Retrieved Content ({content.Substring(0, 10)})...");
-
-                        writeToLog($"Reading from: {pageAddress} {++count}/{total}");
-
-                        var parser = new HtmlParser();
-                        var doc = default(IHtmlDocument);
-                        doc = await parser.ParseDocumentAsync(content);
-
-                        func(pageAddress, doc);
-                    } 
-                    catch 
-                    {
-                        writeToLog($"Failed to read from {pageAddress} {++count}/{total}");
-                    }
-                }
+                await RetryPageLoad(browser, pageAddress, func, writeToLog, cancelToken, ++count, total, waitForIdle);                
             }
         }
     }
 
-    internal static async Task LoadFromWebPage(string pageAddress, Action<IHtmlDocument> func, Action<string> writeToLog, bool waitForIdle = true)
+    internal static async Task LoadFromWebPage(string pageAddress, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)
     {
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
@@ -62,21 +30,50 @@ public static class Common
             Headless = true
         }))
         {
-            var page = await browser.NewPageAsync();
-            page.DefaultTimeout = 0; // or you can set this as 0
-            if (waitForIdle)
-                await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
-            else
-                await page.GoToAsync(pageAddress, WaitUntilNavigation.DOMContentLoaded);
-            var content = await page.GetContentAsync();
+            await RetryPageLoad(browser, pageAddress, func,  writeToLog, cancelToken, 1, 1, waitForIdle);
+        }
+    }
 
-            writeToLog($"Reading from: {pageAddress}");
+    private static async Task RetryPageLoad(Browser browser, string pageAddress, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken, int count, int total, bool waitForIdle)
+    {
+        for(var i = 0; i < 3; i++)
+        {
+            if (i > 0)
+                writeToLog($"Retrying from: {pageAddress} {count}/{total}");
 
-            var parser = new HtmlParser();
-            var doc = default(IHtmlDocument);
-            doc = await parser.ParseDocumentAsync(content);
+            if (cancelToken != null && cancelToken.Value.IsCancellationRequested)
+            {
+                System.Diagnostics.Debug.WriteLine($"Cancelled...");
+                break;
+            }
+            System.Diagnostics.Debug.WriteLine($"Starting WebPage ({pageAddress})...");
+            using (var page = await browser.NewPageAsync())
+            {
+                try 
+                {
+                    page.DefaultTimeout = 30000; // or you can set this as 0
+                    if (waitForIdle)
+                        await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
+                    else
+                        await page.GoToAsync(pageAddress, WaitUntilNavigation.DOMContentLoaded);
+                    var content = await page.GetContentAsync();
 
-            func(doc);
+                    System.Diagnostics.Debug.WriteLine($"Retrieved Content ({content.Substring(0, 10)})...");
+
+                    writeToLog($"Reading from: {pageAddress} {count}/{total}");
+
+                    var parser = new HtmlParser();
+                    var doc = default(IHtmlDocument);
+                    doc = await parser.ParseDocumentAsync(content);
+
+                    func(pageAddress, doc);
+                    break;
+                } 
+                catch 
+                {
+                    writeToLog($"Failed to read from {pageAddress} {count}/{total}");
+                }
+            }
         }
     }
 

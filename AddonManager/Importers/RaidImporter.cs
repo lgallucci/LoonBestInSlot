@@ -33,7 +33,7 @@ public class RaidImporter : LootImporter
 
     internal async Task<DatabaseItems> ConvertRaidLoot(KeyValuePair<string, string> raidUri, DatabaseItems items, Action<string> writeToLog)
     {
-        await Common.LoadFromWebPage(raidUri.Key, (doc) =>
+        await Common.LoadFromWebPage(raidUri.Key, (uri, doc) =>
         {
             var tableElements = doc.QuerySelectorAll("table.grid");
 

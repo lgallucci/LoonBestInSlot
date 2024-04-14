@@ -61,7 +61,7 @@ public sealed partial class GuideImporter : Page
 
         try
         {
-            await WowheadImporter.ImportClass(specMapping, phaseNumber, (log) => ConsoleOut.Text += log + Environment.NewLine);
+            await WowheadImporter.ImportClass(specMapping, phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
 
             ConsoleOut.Text += $"{spec} Completed! - Verification Passed!" + Environment.NewLine;
         }

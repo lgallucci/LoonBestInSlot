@@ -115,13 +115,13 @@ public static class WowheadImporter
         logFunc($"Done!");
     }
 
-    public static async Task<string> ImportClass(ClassGuideMapping classGuide, int phaseNumber, Action<string> logFunc)
+    public static async Task<string> ImportClass(ClassGuideMapping classGuide, int phaseNumber, CancellationToken cancelToken, Action<string> logFunc)
     {
         var result = string.Empty;
-        await Common.LoadFromWebPage(classGuide.WebAddress, (doc) =>
+        await Common.LoadFromWebPage(classGuide.WebAddress, (uri, doc) =>
         {
             result = ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
-        }, logFunc, false);
+        }, logFunc, cancelToken, false);
 
         return result;
     }
