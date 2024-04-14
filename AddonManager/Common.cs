@@ -69,7 +69,7 @@ public static class Common
                 } 
                 catch 
                 {
-                    writeToLog($"Failed to read from {pageAddress} {count}/{total} ({i}/3)");
+                    writeToLog($"Failed to read from {pageAddress} {count}/{total} ({i+1}/3)");
                 }
             }
         }

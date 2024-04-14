@@ -10,7 +10,9 @@ public class PvPImporter : LootImporter
     private Dictionary<string, (string, string)> wowheadUriList = new Dictionary<string, (string, string)>
     {
         { @"https://www.wowhead.com/classic/npc=12799/sergeant-basha#sells", ("H", "Orgrimmar") },
+        { @"https://www.wowhead.com/classic/npc=12799/sergeant-basha#sells;50", ("H", "Orgrimmar") },
         { @"https://www.wowhead.com/classic/npc=12805/officer-areyn#sells", ("A", "Stormwind") },
+        { @"https://www.wowhead.com/classic/npc=12805/officer-areyn#sells;50", ("A", "Stormwind") },
         { @"https://www.wowhead.com/classic/npc=14754/kelm-hargunth#sells", ("H", "Warsong Gulch")},
         { @"https://www.wowhead.com/classic/npc=14754/kelm-hargunth#sells;50", ("H", "Warsong Gulch")},
         { @"https://www.wowhead.com/classic/npc=14753/illiyana-moonblaze#sells", ("A", "Warsong Gulch")},
@@ -19,7 +21,8 @@ public class PvPImporter : LootImporter
         { @"https://www.wowhead.com/classic/npc=15127/samuel-hawke#sells;50", ("A", "Arathi Basin") },
         { @"https://www.wowhead.com/classic/npc=15126/rutherford-twing#sells", ("H", "Arathi Basin") },
         { @"https://www.wowhead.com/classic/npc=15126/rutherford-twing#sells;50", ("H", "Arathi Basin") },
-        { @"https://www.wowhead.com/classic/npc=218115/maizin", ("B", "Stranglethorn Vale") }
+        { @"https://www.wowhead.com/classic/npc=218115/maizin#sells", ("B", "Stranglethorn Vale") },
+        { @"https://www.wowhead.com/classic/npc=218115/maizin#sells;50", ("B", "Stranglethorn Vale") }
     };
 
     internal override string FileName { get => "PvPItemList"; }
