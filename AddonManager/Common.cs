@@ -38,8 +38,6 @@ public static class Common
     {
         for(var i = 0; i < 3; i++)
         {
-            if (i > 0)
-                writeToLog($"Retrying from: {pageAddress} {count}/{total}");
 
             if (cancelToken != null && cancelToken.Value.IsCancellationRequested)
             {
@@ -71,7 +69,7 @@ public static class Common
                 } 
                 catch 
                 {
-                    writeToLog($"Failed to read from {pageAddress} {count}/{total}");
+                    writeToLog($"Failed to read from {pageAddress} {count}/{total} ({i}/3)");
                 }
             }
         }
