@@ -32,9 +32,8 @@ internal class MageHealerMapping : SpecMapping
     public override string Phase3Url => "healer-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "h3#main-hand ~ h3#main-hand") },
+            { ("Main Hand", "h3#main-hand") },
             { ("Off Hand", "h3#off-hand") },
-            { ("Two Hand", "h3#main-hand") },
             { ("Ranged/Relic", "h3#ranged") },
         };
 

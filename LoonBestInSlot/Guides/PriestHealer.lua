@@ -1,13 +1,15 @@
 local spec1 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Healer"], "1")
 local spec2 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Healer"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Healer"], "3")
 
-LBIS:AddEnchant(spec2, "13657", LBIS.L["Back"]) --Enchant Cloak - Fire Resistance
-LBIS:AddEnchant(spec2, "13700", LBIS.L["Chest"]) --Enchant Chest - Lesser Stats
-LBIS:AddEnchant(spec2, "13822", LBIS.L["Wrist"]) --Enchant Bracer - Intellect
-LBIS:AddEnchant(spec2, "10344", LBIS.L["Hands"]) --Thick Armor Kit
-LBIS:AddEnchant(spec2, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
-LBIS:AddEnchant(spec2, "435481", LBIS.L["Main Hand"]) --Enchant Weapon - Dismantle
-LBIS:AddEnchant(spec2, "435481", LBIS.L["Two Hand"]) --Enchant Weapon - Dismantle
+LBIS:AddEnchant(spec3, "11622", LBIS.L["Head"]) --Lesser Arcanum of Rumination
+LBIS:AddEnchant(spec3, "221323", LBIS.L["Shoulder"]) --Atal'ai Signet of Serenity
+LBIS:AddEnchant(spec3, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
+LBIS:AddEnchant(spec3, "20028", LBIS.L["Chest"]) --Enchant Chest - Major Mana
+LBIS:AddEnchant(spec3, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
+LBIS:AddEnchant(spec3, "19057", LBIS.L["Hands"]) --Rugged Armor Kit
+LBIS:AddEnchant(spec3, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
+LBIS:AddEnchant(spec3, "7793", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Lesser Intellect
 
 LBIS:AddItem(spec1, "211842", LBIS.L["Head"], "BIS") --Rakkamar's Tattered Thinking Cap
 LBIS:AddItem(spec1, "209683", LBIS.L["Head"], "BIS") --Twilight Invoker's Shawl
@@ -236,3 +238,201 @@ LBIS:AddItem(spec2, "217287", LBIS.L["Ranged/Relic"], "Alt") --Greater Mystic Wa
 LBIS:AddItem(spec2, "213411", LBIS.L["Ranged/Relic"], "Alt") --Izzleflick's Inextinguishable Igniter
 LBIS:AddItem(spec2, "13064", LBIS.L["Ranged/Relic"], "Alt") --Jaina's Firestarter
 LBIS:AddItem(spec2, "209674", LBIS.L["Ranged/Relic"], "Alt") --Phoenix Ignition
+
+LBIS:AddItem(spec3, "220522", LBIS.L["Head"], "BIS") --Soulcatcher Crown
+LBIS:AddItem(spec3, "220523", LBIS.L["Head"], "BIS") --Visage of the Exiled
+LBIS:AddItem(spec3, "223193", LBIS.L["Head"], "Alt") --Crown of the Dreamweaver
+LBIS:AddItem(spec3, "221437", LBIS.L["Head"], "Alt") --Emerald Woven Circlet
+LBIS:AddItem(spec3, "220896", LBIS.L["Head"], "Alt") --Knight-Lieutenant's Satin Cover
+LBIS:AddItem(spec3, "220899", LBIS.L["Head"], "Alt") --Blood Guard's Satin Cover
+LBIS:AddItem(spec3, "13102", LBIS.L["Head"], "Alt") --Cassandra's Grace
+LBIS:AddItem(spec3, "215111", LBIS.L["Head"], "Alt") --Gneuro-Linked Arcano-Filament Monocle
+LBIS:AddItem(spec3, "223328", LBIS.L["Head"], "Alt") --Gemburst Circlet
+LBIS:AddItem(spec3, "10041", LBIS.L["Head"], "Alt") --Dreamweave Circlet
+LBIS:AddItem(spec3, "213281", LBIS.L["Head"], "Alt") --Electromagnetic Hyperflux Reactivator
+LBIS:AddItem(spec3, "220907", LBIS.L["Head"], "Alt") --Blood Guard's Dreadweave Hat
+LBIS:AddItem(spec3, "220889", LBIS.L["Head"], "Alt") --Knight-Lieutenant's Dreadweave Hat
+LBIS:AddItem(spec3, "223519", LBIS.L["Head"], "Alt") --Eye of Theradras
+LBIS:AddItem(spec3, "221425", LBIS.L["Head"], "Alt") --Emerald Enchanted Circlet
+LBIS:AddItem(spec3, "220749", LBIS.L["Shoulder"], "BIS") --Mantle of Insanity
+LBIS:AddItem(spec3, "220750", LBIS.L["Shoulder"], "BIS") --Fractured Mind Pauldrons
+LBIS:AddItem(spec3, "220894", LBIS.L["Shoulder"], "Alt") --Knight-Lieutenant's Satin Pads
+LBIS:AddItem(spec3, "220901", LBIS.L["Shoulder"], "Alt") --Blood Guard's Satin Pads
+LBIS:AddItem(spec3, "221432", LBIS.L["Shoulder"], "Alt") --Emerald Woven Mantle
+LBIS:AddItem(spec3, "11624", LBIS.L["Shoulder"], "Alt") --Kentic Amice
+LBIS:AddItem(spec3, "220751", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Deranged
+LBIS:AddItem(spec3, "223521", LBIS.L["Shoulder"], "Alt") --Rotgrip Mantle
+LBIS:AddItem(spec3, "220887", LBIS.L["Shoulder"], "Alt") --Knight-Lieutenant's Dreadweave Mantle
+LBIS:AddItem(spec3, "220905", LBIS.L["Shoulder"], "Alt") --Blood Guard's Dreadweave Mantle
+LBIS:AddItem(spec3, "221431", LBIS.L["Shoulder"], "Alt") --Emerald Enchanted Shoulders
+LBIS:AddItem(spec3, "220608", LBIS.L["Back"], "BIS") --Featherskin Drape
+LBIS:AddItem(spec3, "220611", LBIS.L["Back"], "BIS") --Hukku's Hex Cape
+LBIS:AddItem(spec3, "19531", LBIS.L["Back"], "Alt") --Caretaker's Cape
+LBIS:AddItem(spec3, "19527", LBIS.L["Back"], "Alt") --Battle Healer's Cloak
+LBIS:AddItem(spec3, "213309", LBIS.L["Back"], "Alt") --Cloak of Invention
+LBIS:AddItem(spec3, "216623", LBIS.L["Back"], "Alt") --Cape of Hemostasis
+LBIS:AddItem(spec3, "11623", LBIS.L["Back"], "Alt") --Spritecaster Cape
+LBIS:AddItem(spec3, "216620", LBIS.L["Back"], "Alt") --Bloodrot Cloak
+LBIS:AddItem(spec3, "213306", LBIS.L["Back"], "Alt") --Ingenuity's Cover
+LBIS:AddItem(spec3, "217252", LBIS.L["Back"], "Alt") --Long Silken Cloak
+LBIS:AddItem(spec3, "220534", LBIS.L["Chest"], "BIS") --Eternal Embrace of the Wind Serpent
+LBIS:AddItem(spec3, "220535", LBIS.L["Chest"], "BIS") --Garments of the Atal'ai Prophet
+LBIS:AddItem(spec3, "220683", LBIS.L["Chest"], "Alt") --Benevolent Prophet's Vest
+LBIS:AddItem(spec3, "223256", LBIS.L["Chest"], "Alt") --Fel Cloth Robes of Restoration
+LBIS:AddItem(spec3, "221434", LBIS.L["Chest"], "Alt") --Emerald Woven Robes
+LBIS:AddItem(spec3, "220892", LBIS.L["Chest"], "Alt") --Knight's Satin Armor
+LBIS:AddItem(spec3, "220903", LBIS.L["Chest"], "Alt") --Stone Guard's Satin Armor
+LBIS:AddItem(spec3, "213310", LBIS.L["Chest"], "Alt") --Hyperconductive Shimmershirt
+LBIS:AddItem(spec3, "220680", LBIS.L["Chest"], "Alt") --Malevolent Prophet's Vest
+LBIS:AddItem(spec3, "223535", LBIS.L["Chest"], "Alt") --Grimlok's Tribal Vestments
+LBIS:AddItem(spec3, "213311", LBIS.L["Chest"], "Alt") --Hyperconductive Robe
+LBIS:AddItem(spec3, "215377", LBIS.L["Chest"], "Alt") --Irradiated Robe
+LBIS:AddItem(spec3, "10021", LBIS.L["Chest"], "Alt") --Dreamweave Vest
+LBIS:AddItem(spec3, "221430", LBIS.L["Chest"], "Alt") --Emerald Enchanted Robes
+LBIS:AddItem(spec3, "220886", LBIS.L["Chest"], "Alt") --Knight's Dreadweave Vest
+LBIS:AddItem(spec3, "220904", LBIS.L["Chest"], "Alt") --Stone Guard's Dreadweave Vest
+LBIS:AddItem(spec3, "220536", LBIS.L["Wrist"], "BIS") --Atal'ai Medicine Man's Wrists
+LBIS:AddItem(spec3, "19596", LBIS.L["Wrist"], "BIS") --Dryad's Wrist Bindings
+LBIS:AddItem(spec3, "221025", LBIS.L["Wrist"], "BIS") --Void-Powered Invoker's Vambraces
+LBIS:AddItem(spec3, "213415", LBIS.L["Wrist"], "Alt") --Tinker's Wrist Wraps
+LBIS:AddItem(spec3, "213285", LBIS.L["Wrist"], "Alt") --Lev's Oil-Stained Bindings
+LBIS:AddItem(spec3, "216702", LBIS.L["Wrist"], "Alt") --Sergeant Major's Silk Cuffs
+LBIS:AddItem(spec3, "216707", LBIS.L["Wrist"], "Alt") --First Sergeant's Silk Cuffs
+LBIS:AddItem(spec3, "11962", LBIS.L["Wrist"], "Alt") --Manacle Cuffs
+LBIS:AddItem(spec3, "11469", LBIS.L["Wrist"], "Alt") --Bloodband Bracers
+LBIS:AddItem(spec3, "10705", LBIS.L["Wrist"], "Alt") --Firwillow Wristbands
+LBIS:AddItem(spec3, "220547", LBIS.L["Hands"], "BIS") --Gloves of the Fallen Atal'ai Prophet
+LBIS:AddItem(spec3, "220548", LBIS.L["Hands"], "BIS") --Atal'ai Hexxer's Gloves
+LBIS:AddItem(spec3, "220897", LBIS.L["Hands"], "Alt") --Sergeant Major's Satin Gloves
+LBIS:AddItem(spec3, "220898", LBIS.L["Hands"], "Alt") --First Sergeant's Satin Gloves
+LBIS:AddItem(spec3, "221436", LBIS.L["Hands"], "Alt") --Emerald Woven Gloves
+LBIS:AddItem(spec3, "19116", LBIS.L["Hands"], "Alt") --Greenleaf Handwraps
+LBIS:AddItem(spec3, "223984", LBIS.L["Hands"], "Alt") --Silkweb Gloves
+LBIS:AddItem(spec3, "221427", LBIS.L["Hands"], "Alt") --Emerald Enchanted Gloves
+LBIS:AddItem(spec3, "220890", LBIS.L["Hands"], "Alt") --Sergeant Major's Dreadweave Gloves
+LBIS:AddItem(spec3, "220908", LBIS.L["Hands"], "Alt") --First Sergeant's Dreadweave Gloves
+LBIS:AddItem(spec3, "10019", LBIS.L["Hands"], "Alt") --Dreamweave Gloves
+LBIS:AddItem(spec3, "21318", LBIS.L["Hands"], "Alt") --Earth Warder's Gloves
+LBIS:AddItem(spec3, "223534", LBIS.L["Hands"], "Alt") --Jumanza Grips
+LBIS:AddItem(spec3, "13863", LBIS.L["Hands"], "Alt") --Runecloth Gloves
+LBIS:AddItem(spec3, "220549", LBIS.L["Waist"], "BIS") --Dawnspire Strap
+LBIS:AddItem(spec3, "223192", LBIS.L["Waist"], "BIS") --Cord of the Untamed
+LBIS:AddItem(spec3, "213414", LBIS.L["Waist"], "Alt") --Mech-Mender's Sash
+LBIS:AddItem(spec3, "20097", LBIS.L["Waist"], "Alt") --Highlander's Cloth Girdle
+LBIS:AddItem(spec3, "20165", LBIS.L["Waist"], "Alt") --Defiler's Cloth Girdle
+LBIS:AddItem(spec3, "11662", LBIS.L["Waist"], "Alt") --Ban'thok Sash
+LBIS:AddItem(spec3, "213321", LBIS.L["Waist"], "Alt") --Volatile Concoction Belt
+LBIS:AddItem(spec3, "217292", LBIS.L["Waist"], "Alt") --Deathmage Sash
+LBIS:AddItem(spec3, "217255", LBIS.L["Waist"], "Alt") --Crimson Silk Belt
+LBIS:AddItem(spec3, "215115", LBIS.L["Waist"], "Alt") --Hyperconductive Goldwrap
+LBIS:AddItem(spec3, "220684", LBIS.L["Legs"], "BIS") --Benevolent Prophet's Leggings
+LBIS:AddItem(spec3, "220679", LBIS.L["Legs"], "BIS") --Malevolent Prophet's Leggings
+LBIS:AddItem(spec3, "220893", LBIS.L["Legs"], "Alt") --Knight's Satin Leggings
+LBIS:AddItem(spec3, "220902", LBIS.L["Legs"], "Alt") --Stone Guard's Satin Leggings
+LBIS:AddItem(spec3, "221435", LBIS.L["Legs"], "Alt") --Emerald Woven Pants
+LBIS:AddItem(spec3, "11841", LBIS.L["Legs"], "Alt") --Senior Designer's Pantaloons
+LBIS:AddItem(spec3, "223324", LBIS.L["Legs"], "Alt") --Rainstrider Leggings
+LBIS:AddItem(spec3, "223248", LBIS.L["Legs"], "Alt") --Fel Cloth Legs of Restoration
+LBIS:AddItem(spec3, "213328", LBIS.L["Legs"], "Alt") --Hyperconductive Pantaloons
+LBIS:AddItem(spec3, "9484", LBIS.L["Legs"], "Alt") --Spellshock Leggings
+LBIS:AddItem(spec3, "220556", LBIS.L["Legs"], "Alt") --Kilt of the Fallen Atal'ai Prophet
+LBIS:AddItem(spec3, "221429", LBIS.L["Legs"], "Alt") --Emerald Enchanted Pants
+LBIS:AddItem(spec3, "220906", LBIS.L["Legs"], "Alt") --Stone Guard's Dreadweave Leggings
+LBIS:AddItem(spec3, "220888", LBIS.L["Legs"], "Alt") --Knight's Dreadweave Leggings
+LBIS:AddItem(spec3, "213329", LBIS.L["Legs"], "Alt") --Hyperconductive Skirt
+LBIS:AddItem(spec3, "215379", LBIS.L["Legs"], "Alt") --Irradiated Trousers
+LBIS:AddItem(spec3, "217303", LBIS.L["Legs"], "Alt") --Stoneweaver Leggings
+LBIS:AddItem(spec3, "10009", LBIS.L["Legs"], "Alt") --Red Mageweave Pants
+LBIS:AddItem(spec3, "220565", LBIS.L["Feet"], "BIS") --Ethereal Mistwalker Boots
+LBIS:AddItem(spec3, "220891", LBIS.L["Feet"], "BIS") --Sergeant Major's Dreadweave Boots
+LBIS:AddItem(spec3, "220909", LBIS.L["Feet"], "BIS") --First Sergeant's Dreadweave Boots
+LBIS:AddItem(spec3, "220685", LBIS.L["Feet"], "Alt") --Benevolent Prophet's Sandals
+LBIS:AddItem(spec3, "220900", LBIS.L["Feet"], "Alt") --First Sergeant's Satin Boots
+LBIS:AddItem(spec3, "220895", LBIS.L["Feet"], "Alt") --Sergeant Major's Satin Boots
+LBIS:AddItem(spec3, "221438", LBIS.L["Feet"], "Alt") --Emerald Woven Boots
+LBIS:AddItem(spec3, "213337", LBIS.L["Feet"], "Alt") --Hyperconductive Sandals
+LBIS:AddItem(spec3, "221426", LBIS.L["Feet"], "Alt") --Emerald Enchanted Boots
+LBIS:AddItem(spec3, "220681", LBIS.L["Feet"], "Alt") --Malevolent Prophet's Sandals
+LBIS:AddItem(spec3, "223543", LBIS.L["Feet"], "Alt") --Vinerot Sandals
+LBIS:AddItem(spec3, "213336", LBIS.L["Feet"], "Alt") --Hyperconductive Walkers
+LBIS:AddItem(spec3, "213290", LBIS.L["Feet"], "Alt") --Acidic Waders
+LBIS:AddItem(spec3, "215378", LBIS.L["Feet"], "Alt") --Irradiated Boots
+LBIS:AddItem(spec3, "20094", LBIS.L["Feet"], "Alt") --Highlander's Cloth Boots
+LBIS:AddItem(spec3, "20160", LBIS.L["Feet"], "Alt") --Defiler's Cloth Boots
+LBIS:AddItem(spec3, "20641", LBIS.L["Feet"], "Alt") --Southsea Mojo Boots
+LBIS:AddItem(spec3, "220622", LBIS.L["Neck"], "BIS") --Perfectly Preserved Dragon's Eye
+LBIS:AddItem(spec3, "220623", LBIS.L["Neck"], "BIS") --Jin'do's Lost Locket
+LBIS:AddItem(spec3, "213346", LBIS.L["Neck"], "Alt") --Pendant of Homecoming
+LBIS:AddItem(spec3, "217301", LBIS.L["Neck"], "Alt") --Triune Amulet
+LBIS:AddItem(spec3, "223541", LBIS.L["Neck"], "Alt") --Gemshard Heart
+LBIS:AddItem(spec3, "217290", LBIS.L["Neck"], "Alt") --Glowing Eye of Mordresh
+LBIS:AddItem(spec3, "213345", LBIS.L["Neck"], "Alt") --Piston Pendant
+LBIS:AddItem(spec3, "209686", LBIS.L["Neck"], "Alt") --Jagged Bone Necklace
+LBIS:AddItem(spec3, "217296", LBIS.L["Neck"], "Alt") --Ghostshard Talisman
+LBIS:AddItem(spec3, "221459", LBIS.L["Ring"], "BIS") --Seal of the Sacrificed
+LBIS:AddItem(spec3, "220629", LBIS.L["Ring"], "BIS") --Drakeclaw Band of the Blood Prophet
+LBIS:AddItem(spec3, "223985", LBIS.L["Ring"], "BIS") --Cyclopean Band
+LBIS:AddItem(spec3, "220628", LBIS.L["Ring"], "BIS") --Drakeclaw Band of the Harbinger
+LBIS:AddItem(spec3, "213282", LBIS.L["Ring"], "Alt") --Hypercharged Gear of Innovation
+LBIS:AddItem(spec3, "216518", LBIS.L["Ring"], "Alt") --Blood Covenant Seal
+LBIS:AddItem(spec3, "19523", LBIS.L["Ring"], "Alt") --Lorekeeper's Ring
+LBIS:AddItem(spec3, "19519", LBIS.L["Ring"], "Alt") --Advisor's Ring
+LBIS:AddItem(spec3, "7553", LBIS.L["Ring"], "Alt") --Band of the Unicorn
+LBIS:AddItem(spec3, "213283", LBIS.L["Ring"], "Alt") --Hypercharged Gear of Conflagration
+LBIS:AddItem(spec3, "19524", LBIS.L["Ring"], "Alt") --Lorekeeper's Ring
+LBIS:AddItem(spec3, "19520", LBIS.L["Ring"], "Alt") --Advisor's Ring
+LBIS:AddItem(spec3, "224006", LBIS.L["Ring"], "Alt") --Emerald Ring
+LBIS:AddItem(spec3, "213287", LBIS.L["Ring"], "Alt") --Electrocutioner Hexnut
+LBIS:AddItem(spec3, "221308", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Overgrowth
+LBIS:AddItem(spec3, "19990", LBIS.L["Trinket"], "BIS") --Blessed Prayer Beads
+LBIS:AddItem(spec3, "223195", LBIS.L["Trinket"], "BIS") --Breadth of the Beast
+LBIS:AddItem(spec3, "220634", LBIS.L["Trinket"], "Alt") --Atal'ai Blood Ritual Charm
+LBIS:AddItem(spec3, "221443", LBIS.L["Trinket"], "Alt") --Roar of the Grove
+LBIS:AddItem(spec3, "213347", LBIS.L["Trinket"], "Alt") --Miniaturized Combustion Chamber
+LBIS:AddItem(spec3, "211451", LBIS.L["Trinket"], "Alt") --Acolyte's Void Pearl
+LBIS:AddItem(spec3, "211450", LBIS.L["Trinket"], "Alt") --Invoker's Void Pearl
+LBIS:AddItem(spec3, "213349", LBIS.L["Trinket"], "Alt") --Gniodine Pill Bottle
+LBIS:AddItem(spec3, "4381", LBIS.L["Trinket"], "Alt") --Minor Recombobulator
+LBIS:AddItem(spec3, "211420", LBIS.L["Trinket"], "Alt") --Shifting Scale Talisman
+LBIS:AddItem(spec3, "21565", LBIS.L["Trinket"], "Alt") --Rune of Perfection
+LBIS:AddItem(spec3, "220579", LBIS.L["Main Hand"], "BIS") --Witch Doctor's Stick of Mojo
+LBIS:AddItem(spec3, "223964", LBIS.L["Main Hand"], "BIS") --Blade of Eternal Darkness
+LBIS:AddItem(spec3, "220587", LBIS.L["Main Hand"], "Alt") --Sacrificial Dream Dagger
+LBIS:AddItem(spec3, "220586", LBIS.L["Main Hand"], "Alt") --Hubris, the Bandit Brander
+LBIS:AddItem(spec3, "213352", LBIS.L["Main Hand"], "Alt") --Gear-Mender's Grace
+LBIS:AddItem(spec3, "213410", LBIS.L["Main Hand"], "Alt") --Glimmering Gizmoblade
+LBIS:AddItem(spec3, "223518", LBIS.L["Main Hand"], "Alt") --Charstone Dirk
+LBIS:AddItem(spec3, "223524", LBIS.L["Main Hand"], "Alt") --Fist of Stone
+LBIS:AddItem(spec3, "7721", LBIS.L["Main Hand"], "Alt") --Hand of Righteousness
+LBIS:AddItem(spec3, "220580", LBIS.L["Main Hand"], "Alt") --Madness of the Avatar
+LBIS:AddItem(spec3, "211456", LBIS.L["Main Hand"], "Alt") --Dagger of Willing Sacrifice
+LBIS:AddItem(spec3, "7714", LBIS.L["Main Hand"], "Alt") --Hypnotic Blade
+LBIS:AddItem(spec3, "220599", LBIS.L["Off Hand"], "BIS") --Drakestone of the Blood Prophet
+LBIS:AddItem(spec3, "223539", LBIS.L["Off Hand"], "BIS") --Enthralled Sphere
+LBIS:AddItem(spec3, "15936", LBIS.L["Off Hand"], "Alt") --Duskwoven Branch
+LBIS:AddItem(spec3, "213419", LBIS.L["Off Hand"], "Alt") --9-60 Repair Manual
+LBIS:AddItem(spec3, "223523", LBIS.L["Off Hand"], "Alt") --Cloud Stone
+LBIS:AddItem(spec3, "11904", LBIS.L["Off Hand"], "Alt") --Spirit of Aquementas
+LBIS:AddItem(spec3, "223533", LBIS.L["Off Hand"], "Alt") --Desertwalker Cane
+LBIS:AddItem(spec3, "213542", LBIS.L["Off Hand"], "Alt") --The Necro-Gnomicon
+LBIS:AddItem(spec3, "7344", LBIS.L["Off Hand"], "Alt") --Torch of Holy Flame
+LBIS:AddItem(spec3, "2943", LBIS.L["Off Hand"], "Alt") --Eye of Paleth
+LBIS:AddItem(spec3, "7685", LBIS.L["Off Hand"], "Alt") --Orb of the Forgotten Seer
+LBIS:AddItem(spec3, "9393", LBIS.L["Off Hand"], "Alt") --Beacon of Hope
+LBIS:AddItem(spec3, "220591", LBIS.L["Two Hand"], "BIS") --Mijan's Restorative Rod
+LBIS:AddItem(spec3, "220595", LBIS.L["Two Hand"], "BIS") --Nightmare Focus Staff
+LBIS:AddItem(spec3, "213353", LBIS.L["Two Hand"], "Alt") --Defibrillating Staff
+LBIS:AddItem(spec3, "209561", LBIS.L["Two Hand"], "Alt") --Rod of the Ancient Sleepwalker
+LBIS:AddItem(spec3, "873", LBIS.L["Two Hand"], "Alt") --Staff of Jordan
+LBIS:AddItem(spec3, "213354", LBIS.L["Two Hand"], "Alt") --Staff of the Evil Genius
+LBIS:AddItem(spec3, "220590", LBIS.L["Two Hand"], "Alt") --Spire of Hakkari Worship
+LBIS:AddItem(spec3, "18082", LBIS.L["Two Hand"], "Alt") --Zum'rah's Vexing Cane
+LBIS:AddItem(spec3, "223538", LBIS.L["Two Hand"], "Alt") --Kindling Stave
+LBIS:AddItem(spec3, "217299", LBIS.L["Two Hand"], "Alt") --Illusionary Rod
+LBIS:AddItem(spec3, "220604", LBIS.L["Ranged/Relic"], "BIS") --Nightmare Trophy
+LBIS:AddItem(spec3, "220603", LBIS.L["Ranged/Relic"], "Alt") --Rod of Irreversible Corrosion
+LBIS:AddItem(spec3, "213559", LBIS.L["Ranged/Relic"], "Alt") --Mechanostrider Gear Shifter
+LBIS:AddItem(spec3, "213411", LBIS.L["Ranged/Relic"], "Alt") --Izzleflick's Inextinguishable Igniter
+LBIS:AddItem(spec3, "217295", LBIS.L["Ranged/Relic"], "Alt") --Necrotic Wand
+LBIS:AddItem(spec3, "217287", LBIS.L["Ranged/Relic"], "Alt") --Greater Mystic Wand
+LBIS:AddItem(spec3, "13064", LBIS.L["Ranged/Relic"], "Alt") --Jaina's Firestarter
