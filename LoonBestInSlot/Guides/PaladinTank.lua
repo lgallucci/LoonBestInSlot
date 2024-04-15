@@ -189,10 +189,10 @@ LBIS:AddItem(spec3, "15190", LBIS.L["Back"], "Alt") --Grand Cloak
 LBIS:AddItem(spec3, "18441", LBIS.L["Back"], "Alt") --Sergeant's Cape
 LBIS:AddItem(spec3, "216622", LBIS.L["Back"], "Alt") --Coagulated Cloak
 LBIS:AddItem(spec3, "220653", LBIS.L["Chest"], "BIS") --Wailing Berserker's Chestplate
-LBIS:AddItem(spec3, "210794", LBIS.L["Chest"], "BIS") --Shifting Silver Breastplate
 LBIS:AddItem(spec3, "220794", LBIS.L["Chest"], "Alt") --Knight's Plate Hauberk
 LBIS:AddItem(spec3, "11678", LBIS.L["Chest"], "Alt") --Carapace of Anub'shiah
 LBIS:AddItem(spec3, "221380", LBIS.L["Chest"], "Alt") --Emerald Dream Breastplate
+LBIS:AddItem(spec3, "210794", LBIS.L["Chest"], "Alt") --Shifting Silver Breastplate
 LBIS:AddItem(spec3, "19580", LBIS.L["Wrist"], "BIS") --Berserker Bracers
 LBIS:AddItem(spec3, "221027", LBIS.L["Wrist"], "Alt") --Void-Powered Protector's Vambraces
 LBIS:AddItem(spec3, "220539", LBIS.L["Wrist"], "Alt") --Warbands of Sacrifice

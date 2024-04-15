@@ -94,7 +94,8 @@ public class WowheadGuideParser
         "p4",
         "alt",
         "10-man",
-        "10 man"
+        "10 man",
+        "potentially bis"
     };
 
     private class SlotSwaps
