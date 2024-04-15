@@ -7,10 +7,9 @@ LBIS:AddEnchant(spec3, "446472", LBIS.L["Shoulder"]) --Atal'ai Signet of Serenit
 LBIS:AddEnchant(spec3, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
 LBIS:AddEnchant(spec3, "13941", LBIS.L["Chest"]) --Enchant Chest - Stats
 LBIS:AddEnchant(spec3, "23802", LBIS.L["Wrist"]) --Enchant Bracer - Healing Power
-LBIS:AddEnchant(spec3, "20013", LBIS.L["Hands"]) --Enchant Gloves - Greater Strength
+LBIS:AddEnchant(spec3, "13887", LBIS.L["Hands"]) --Enchant Gloves - Strength
 LBIS:AddEnchant(spec3, "15404", LBIS.L["Legs"]) --Lesser Arcanum of Voracity
 LBIS:AddEnchant(spec3, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
-LBIS:AddEnchant(spec3, "23804", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Intellect
 LBIS:AddEnchant(spec3, "20017", LBIS.L["Off Hand"]) --Enchant Shield - Greater Stamina
 
 LBIS:AddItem(spec1, "211507", LBIS.L["Head"], "BIS") --Twilight Elementalist's Cowl
@@ -106,8 +105,7 @@ LBIS:AddItem(spec3, "220810", LBIS.L["Head"], "Alt") --Knight-Lieutenant's Imbue
 LBIS:AddItem(spec3, "221384", LBIS.L["Head"], "Alt") --Emerald Encrusted Helmet
 LBIS:AddItem(spec3, "220739", LBIS.L["Shoulder"], "BIS") --Baleful Pauldrons
 LBIS:AddItem(spec3, "220744", LBIS.L["Shoulder"], "BIS") --Wailing Chain Mantle
-LBIS:AddItem(spec3, "22234", LBIS.L["Shoulder"], "BIS") --Mantle of Lost Hope
-LBIS:AddItem(spec3, "220808", LBIS.L["Shoulder"], "Alt") --Knight-Lieutenant's Imbued Pauldrons
+LBIS:AddItem(spec3, "220808", LBIS.L["Shoulder"], "BIS") --Knight-Lieutenant's Imbued Pauldrons
 LBIS:AddItem(spec3, "221386", LBIS.L["Shoulder"], "Alt") --Emerald Encrusted Spaulders
 LBIS:AddItem(spec3, "220608", LBIS.L["Back"], "BIS") --Featherskin Drape
 LBIS:AddItem(spec3, "19531", LBIS.L["Back"], "Alt") --Caretaker's Cape
@@ -145,6 +143,7 @@ LBIS:AddItem(spec3, "223985", LBIS.L["Ring"], "Alt") --Cyclopean Band
 LBIS:AddItem(spec3, "220634", LBIS.L["Trinket"], "BIS") --Atal'ai Blood Ritual Charm
 LBIS:AddItem(spec3, "221455", LBIS.L["Trinket"], "BIS") --Bloodlight Reverence
 LBIS:AddItem(spec3, "211451", LBIS.L["Trinket"], "Alt") --Acolyte's Void Pearl
+LBIS:AddItem(spec3, "223195", LBIS.L["Trinket"], "Alt") --Breadth of the Beast
 LBIS:AddItem(spec3, "213347", LBIS.L["Trinket"], "Alt") --Miniaturized Combustion Chamber
 LBIS:AddItem(spec3, "2820", LBIS.L["Trinket"], "Alt") --Nifty Stopwatch
 LBIS:AddItem(spec3, "18864", LBIS.L["Trinket"], "Alt") --Insignia of the Alliance

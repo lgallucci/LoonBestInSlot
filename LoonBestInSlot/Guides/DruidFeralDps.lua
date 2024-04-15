@@ -7,7 +7,7 @@ LBIS:AddEnchant(spec3, "446451", LBIS.L["Shoulder"]) --Atal'ai Signet of Might
 LBIS:AddEnchant(spec3, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
 LBIS:AddEnchant(spec3, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
 LBIS:AddEnchant(spec3, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
-LBIS:AddEnchant(spec3, "20023", LBIS.L["Hands"]) --Enchant Boots - Greater Agility
+LBIS:AddEnchant(spec3, "20012", LBIS.L["Hands"]) --Enchant Gloves - Greater Agility
 LBIS:AddEnchant(spec3, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
 LBIS:AddEnchant(spec3, "27837", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Agility
 
