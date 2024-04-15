@@ -146,7 +146,6 @@ LBIS:AddItem(spec3, "220801", LBIS.L["Chest"], "Alt") --Stone Guard's Plate Armo
 LBIS:AddItem(spec3, "213313", LBIS.L["Chest"], "Alt") --Insulated Chestguard
 LBIS:AddItem(spec3, "221026", LBIS.L["Wrist"], "BIS") --Void-Powered Slayer's Vambraces
 LBIS:AddItem(spec3, "19580", LBIS.L["Wrist"], "BIS") --Berserker Bracers
-LBIS:AddItem(spec3, "4438", LBIS.L["Wrist"], "BIS") --Pugilist Bracers
 LBIS:AddItem(spec3, "19589", LBIS.L["Wrist"], "Alt") --Forest Stalker's Bracers
 LBIS:AddItem(spec3, "213317", LBIS.L["Wrist"], "Alt") --Experimental Aim Stabilizers
 LBIS:AddItem(spec3, "220540", LBIS.L["Hands"], "Alt") --Corruption Laden Handguards
@@ -190,6 +189,7 @@ LBIS:AddItem(spec3, "220173", LBIS.L["Two Hand"], "BIS") --Parasomnia
 LBIS:AddItem(spec3, "213416", LBIS.L["Two Hand"], "Alt") --Thermaplugg's Rocket Cleaver
 LBIS:AddItem(spec3, "9425", LBIS.L["Two Hand"], "Alt") --Pendulum of Doom
 LBIS:AddItem(spec3, "220571", LBIS.L["Ranged/Relic"], "BIS") --Stinging Longbow
+LBIS:AddItem(spec3, "13039", LBIS.L["Ranged/Relic"], "BIS") --Skull Splitting Crossbow
 LBIS:AddItem(spec3, "2100", LBIS.L["Ranged/Relic"], "Alt") --Precisely Calibrated Boomstick
 LBIS:AddItem(spec3, "13139", LBIS.L["Ranged/Relic"], "Alt") --Guttbuster
 LBIS:AddItem(spec3, "9426", LBIS.L["Ranged/Relic"], "Alt") --Monolithic Bow
