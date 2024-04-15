@@ -665,9 +665,9 @@ LBIS:AddItem(spec4, "50170", LBIS.L["Ring"], "Alt") --Valanar's Other Signet Rin
 LBIS:AddItem(spec4, "50614", LBIS.L["Ring"], "Alt") --Loop of the Endless Labyrinth
 LBIS:AddItem(spec4, "53116", LBIS.L["Ring"], "Alt") --Saviana's Tribute
 LBIS:AddItem(spec4, "45495", LBIS.L["Ring"], "Alt") --Conductive Seal
+LBIS:AddItem(spec4, "54588", LBIS.L["Trinket"], "BIS") --Charred Twilight Scale
 LBIS:AddItem(spec4, "50365", LBIS.L["Trinket"], "BIS") --Phylactery of the Nameless Lich
-LBIS:AddItem(spec4, "50348", LBIS.L["Trinket"], "BIS") --Dislodged Foreign Object
-LBIS:AddItem(spec4, "54588", LBIS.L["Trinket"], "Alt") --Charred Twilight Scale
+LBIS:AddItem(spec4, "50348", LBIS.L["Trinket"], "Alt") --Dislodged Foreign Object
 LBIS:AddItem(spec4, "50360", LBIS.L["Trinket"], "Alt") --Phylactery of the Nameless Lich
 LBIS:AddItem(spec4, "50353", LBIS.L["Trinket"], "Alt") --Dislodged Foreign Object
 LBIS:AddItem(spec4, "54572", LBIS.L["Trinket"], "Alt") --Charred Twilight Scale

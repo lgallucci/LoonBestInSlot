@@ -676,8 +676,8 @@ LBIS:AddItem(spec4, "51899", LBIS.L["Feet"], "Alt") --Icecrown Spire Sandals
 LBIS:AddItem(spec4, "47482", LBIS.L["Feet"], "Alt") --Boots of the Icy Floe
 LBIS:AddItem(spec4, "47205", LBIS.L["Feet"], "Alt") --Footpads of the Icy Floe
 LBIS:AddItem(spec4, "51850", LBIS.L["Feet"], "Alt") --Pale Corpse Boots
-LBIS:AddItem(spec4, "47454", LBIS.L["Feet"], "Alt") --Sandals of the Mourning Widow
 LBIS:AddItem(spec4, "47097", LBIS.L["Feet"], "Alt") --Boots of the Mourning Widow
+LBIS:AddItem(spec4, "47454", LBIS.L["Feet"], "Alt") --Sandals of the Mourning Widow
 LBIS:AddItem(spec4, "49893", LBIS.L["Feet"], "Alt") --Sandals of Consecration
 LBIS:AddItem(spec4, "45537", LBIS.L["Feet"], "Alt") --Treads of the False Oracle
 LBIS:AddItem(spec4, "45135", LBIS.L["Feet"], "Alt") --Boots of Fiery Resolution
@@ -688,8 +688,8 @@ LBIS:AddItem(spec4, "50609", LBIS.L["Neck"], "Alt") --Bone Sentinel's Amulet
 LBIS:AddItem(spec4, "51863", LBIS.L["Neck"], "Alt") --Pendant of Split Veins
 LBIS:AddItem(spec4, "50182", LBIS.L["Neck"], "Alt") --Blood Queen's Crimson Choker
 LBIS:AddItem(spec4, "51894", LBIS.L["Neck"], "Alt") --Soulcleave Pendant
-LBIS:AddItem(spec4, "47468", LBIS.L["Neck"], "Alt") --Cry of the Val'kyr
 LBIS:AddItem(spec4, "47144", LBIS.L["Neck"], "Alt") --Wail of the Val'kyr
+LBIS:AddItem(spec4, "47468", LBIS.L["Neck"], "Alt") --Cry of the Val'kyr
 LBIS:AddItem(spec4, "49975", LBIS.L["Neck"], "Alt") --Bone Sentinel's Amulet
 LBIS:AddItem(spec4, "50809", LBIS.L["Neck"], "Alt") --Soulcleave Pendant
 LBIS:AddItem(spec4, "50664", LBIS.L["Ring"], "BIS") --Ring of Rapid Ascent
@@ -706,17 +706,17 @@ LBIS:AddItem(spec4, "51849", LBIS.L["Ring"], "Alt") --Cerise Coiled Ring
 LBIS:AddItem(spec4, "53490", LBIS.L["Ring"], "Alt") --Ring of Phased Regeneration
 LBIS:AddItem(spec4, "50170", LBIS.L["Ring"], "Alt") --Valanar's Other Signet Ring
 LBIS:AddItem(spec4, "53116", LBIS.L["Ring"], "Alt") --Saviana's Tribute
+LBIS:AddItem(spec4, "54588", LBIS.L["Trinket"], "BIS") --Charred Twilight Scale
 LBIS:AddItem(spec4, "50365", LBIS.L["Trinket"], "BIS") --Phylactery of the Nameless Lich
-LBIS:AddItem(spec4, "50348", LBIS.L["Trinket"], "BIS") --Dislodged Foreign Object
+LBIS:AddItem(spec4, "50348", LBIS.L["Trinket"], "Alt") --Dislodged Foreign Object
 LBIS:AddItem(spec4, "50360", LBIS.L["Trinket"], "Alt") --Phylactery of the Nameless Lich
 LBIS:AddItem(spec4, "50353", LBIS.L["Trinket"], "Alt") --Dislodged Foreign Object
-LBIS:AddItem(spec4, "54588", LBIS.L["Trinket"], "Alt") --Charred Twilight Scale
-LBIS:AddItem(spec4, "47477", LBIS.L["Trinket"], "Alt") --Reign of the Dead
+LBIS:AddItem(spec4, "54572", LBIS.L["Trinket"], "Alt") --Charred Twilight Scale
 LBIS:AddItem(spec4, "47188", LBIS.L["Trinket"], "Alt") --Reign of the Unliving
+LBIS:AddItem(spec4, "47477", LBIS.L["Trinket"], "Alt") --Reign of the Dead
 LBIS:AddItem(spec4, "47316", LBIS.L["Trinket"], "Alt") --Reign of the Dead
 LBIS:AddItem(spec4, "47182", LBIS.L["Trinket"], "Alt") --Reign of the Unliving
 LBIS:AddItem(spec4, "45518", LBIS.L["Trinket"], "Alt") --Flare of the Heavens
-LBIS:AddItem(spec4, "54572", LBIS.L["Trinket"], "Alt") --Charred Twilight Scale
 LBIS:AddItem(spec4, "50345", LBIS.L["Trinket"], "Alt") --Muradin's Spyglass
 LBIS:AddItem(spec4, "45466", LBIS.L["Trinket"], "Alt") --Scale of Fates
 LBIS:AddItem(spec4, "50357", LBIS.L["Trinket"], "Alt") --Maghia's Misguided Quill
@@ -736,8 +736,8 @@ LBIS:AddItem(spec4, "51922", LBIS.L["Off Hand"], "Alt") --Scourgelord's Baton
 LBIS:AddItem(spec4, "50423", LBIS.L["Off Hand"], "Alt") --Sundial of Eternal Dusk
 LBIS:AddItem(spec4, "47470", LBIS.L["Off Hand"], "Alt") --Mystifying Charm
 LBIS:AddItem(spec4, "47146", LBIS.L["Off Hand"], "Alt") --Chalice of Searing Light
-LBIS:AddItem(spec4, "47064", LBIS.L["Off Hand"], "Alt") --Symbol of Transgression
 LBIS:AddItem(spec4, "47437", LBIS.L["Off Hand"], "Alt") --Talisman of Heedless Sins
+LBIS:AddItem(spec4, "47064", LBIS.L["Off Hand"], "Alt") --Symbol of Transgression
 LBIS:AddItem(spec4, "45617", LBIS.L["Off Hand"], "Alt") --Cosmos
 LBIS:AddItem(spec4, "50781", LBIS.L["Off Hand"], "Alt") --Scourgelord's Baton
 LBIS:AddItem(spec4, "48032", LBIS.L["Off Hand"], "Alt") --Lightbane Focus
