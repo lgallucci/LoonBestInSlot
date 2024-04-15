@@ -558,7 +558,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Timbermaw Hold - Friendly"] = "";
 --  LBIS.L["Timbermaw Hold - Honored"] = "";
   LBIS.L["Tinkerer Gizlock"] = "技工吉茲洛克";
-  LBIS.L["Token"] = "代幣";
+  LBIS.L["Dungeon Token"] = "代幣";
   LBIS.L["Tooga's Quest"] = "圖加的任務";
 --  LBIS.L["Trade Vendors"] = "";
 --  LBIS.L["Transmute"] = "";

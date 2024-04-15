@@ -558,7 +558,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Timbermaw Hold - Friendly"] = "";
 --  LBIS.L["Timbermaw Hold - Honored"] = "";
   LBIS.L["Tinkerer Gizlock"] = "Manitas Gizlock";
---  LBIS.L["Token"] = "";
+--  LBIS.L["Dungeon Token"] = "";
   LBIS.L["Tooga's Quest"] = "La misión de Tooga";
 --  LBIS.L["Trade Vendors"] = "";
 --  LBIS.L["Transmute"] = "";

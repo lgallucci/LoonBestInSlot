@@ -404,10 +404,26 @@ function LBIS.ItemList:UpdateItems()
             
             local specItemSource = LBIS.ItemSources[specItem.Id];
 
+			if specItem.Id == LBIS.DebuggingItem then
+				LBIS:Debug("TRYING TO DISPLAY"..LBIS:Dump(specItem).." - "..LBIS:Dump(specItemSource)..
+				" IsInFaction ("..LBIS:Dump(IsInFaction(specItemSource))..")"..
+				" IsInSlot ("..LBIS:Dump(IsInSlot(specItem))..")"..
+				" IsInPhase ("..LBIS:Dump(IsInPhase(specItem, specItemSource))..")"..
+				" IsInSource ("..LBIS:Dump(IsInSource(specItemSource))..")"..
+				" IsInZone ("..LBIS:Dump(IsInZone(specItemSource))..")"..
+				" IsNotInClassic ("..LBIS:Dump(IsNotInClassic(specItemSource))..")"..
+				" IsNotObsolete ("..LBIS:Dump(IsNotObsolete(specItem))..")")
+			end
+
             if specItemSource == nil then
                 LBIS:Error("Missing item source: ", specItem);
             else
                 if IsInFaction(specItemSource) and IsInSlot(specItem) and IsInPhase(specItem, specItemSource) and IsInSource(specItemSource) and IsInZone(specItemSource) and IsNotInClassic(specItemSource) and IsNotObsolete(specItem) then
+                    
+					if specItem.Id == LBIS.DebuggingItem then
+						LBIS:Debug("DISPLAYING SPEC ITEM!: ("..specItemSource.Name..")");
+					end
+
                     point = LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, LBISSettings.SelectedSpec.."_"..specItemSource.Name.."_"..specItem.Id, point, createItemRow);
                 end
             end

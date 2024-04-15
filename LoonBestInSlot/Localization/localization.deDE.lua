@@ -558,7 +558,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Timbermaw Hold - Friendly"] = "";
 --  LBIS.L["Timbermaw Hold - Honored"] = "";
   LBIS.L["Tinkerer Gizlock"] = "Tüftler Gizlock";
-  LBIS.L["Token"] = "Token";
+  LBIS.L["Dungeon Token"] = "Token";
   LBIS.L["Tooga's Quest"] = "Toogas Bitte";
 --  LBIS.L["Trade Vendors"] = "";
   LBIS.L["Transmute"] = "Transmutieren";

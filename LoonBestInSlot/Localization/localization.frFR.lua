@@ -558,7 +558,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Timbermaw Hold - Friendly"] = "";
 --  LBIS.L["Timbermaw Hold - Honored"] = "";
   LBIS.L["Tinkerer Gizlock"] = "Artisan Gizlock";
-  LBIS.L["Token"] = "Marque d’ensemble";
+  LBIS.L["Dungeon Token"] = "Marque d’ensemble";
   LBIS.L["Tooga's Quest"] = "La quête de Tooga";
 --  LBIS.L["Trade Vendors"] = "";
 --  LBIS.L["Transmute"] = "";

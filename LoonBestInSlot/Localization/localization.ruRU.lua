@@ -558,7 +558,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Timbermaw Hold - Friendly"] = "";
 --  LBIS.L["Timbermaw Hold - Honored"] = "";
   LBIS.L["Tinkerer Gizlock"] = "Ремонтник Гизлок";
-  LBIS.L["Token"] = "Фрагмент";
+  LBIS.L["Dungeon Token"] = "Фрагмент";
   LBIS.L["Tooga's Quest"] = "Задание Туги";
 --  LBIS.L["Trade Vendors"] = "";
 --  LBIS.L["Transmute"] = "";

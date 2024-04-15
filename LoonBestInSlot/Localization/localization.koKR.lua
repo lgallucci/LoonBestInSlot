@@ -558,7 +558,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Timbermaw Hold - Friendly"] = "";
 --  LBIS.L["Timbermaw Hold - Honored"] = "";
   LBIS.L["Tinkerer Gizlock"] = "땜장이 기즐록";
-  LBIS.L["Token"] = "토큰";
+  LBIS.L["Dungeon Token"] = "토큰";
   LBIS.L["Tooga's Quest"] = "길 잃은 투가";
 --  LBIS.L["Trade Vendors"] = "";
   LBIS.L["Transmute"] = "변환식";
