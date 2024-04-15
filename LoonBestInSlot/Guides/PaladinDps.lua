@@ -178,8 +178,6 @@ LBIS:AddItem(spec3, "220615", LBIS.L["Back"], "BIS") --Panther Fur Cloak
 LBIS:AddItem(spec3, "11626", LBIS.L["Back"], "Alt") --Blackveil Cape
 LBIS:AddItem(spec3, "213307", LBIS.L["Back"], "Alt") --Drape of Dismantling
 LBIS:AddItem(spec3, "216621", LBIS.L["Back"], "Alt") --Blooddrenched Drape
-LBIS:AddItem(spec3, "213087", LBIS.L["Back"], "Alt") --Sergeant's Cloak
-LBIS:AddItem(spec3, "213088", LBIS.L["Back"], "Alt") --Sergeant's Cloak
 LBIS:AddItem(spec3, "220653", LBIS.L["Chest"], "BIS") --Wailing Berserker's Chestplate
 LBIS:AddItem(spec3, "213313", LBIS.L["Chest"], "Alt") --Insulated Chestguard
 LBIS:AddItem(spec3, "220794", LBIS.L["Chest"], "Alt") --Knight's Plate Hauberk
@@ -213,7 +211,7 @@ LBIS:AddItem(spec3, "215115", LBIS.L["Waist"], "BIS") --Hyperconductive Goldwrap
 LBIS:AddItem(spec3, "213325", LBIS.L["Waist"], "BIS") --Darkvision Girdle
 LBIS:AddItem(spec3, "220552", LBIS.L["Waist"], "BIS") --Waistguard of Pain
 LBIS:AddItem(spec3, "13134", LBIS.L["Waist"], "Alt") --Belt of the Gladiator
-LBIS:AddItem(spec3, "20124", LBIS.L["Waist"], "Alt") --Highlander's Plate Girdle
+LBIS:AddItem(spec3, "20106", LBIS.L["Waist"], "Alt") --Highlander's Lamellar Girdle
 LBIS:AddItem(spec3, "220654", LBIS.L["Legs"], "BIS") --Wailing Berserker's Legplates
 LBIS:AddItem(spec3, "220560", LBIS.L["Legs"], "BIS") --Silvershell Legplates
 LBIS:AddItem(spec3, "213332", LBIS.L["Legs"], "Alt") --Insulated Legguards
@@ -227,7 +225,7 @@ LBIS:AddItem(spec3, "220561", LBIS.L["Feet"], "Alt") --Tenacious Troll Kickers
 LBIS:AddItem(spec3, "12555", LBIS.L["Feet"], "Alt") --Battlechaser's Greaves
 LBIS:AddItem(spec3, "220563", LBIS.L["Feet"], "Alt") --Boots of the Atal'ai Blood Shaman
 LBIS:AddItem(spec3, "12470", LBIS.L["Feet"], "Alt") --Sandstalker Ankleguards
-LBIS:AddItem(spec3, "20127", LBIS.L["Feet"], "Alt") --Highlander's Plate Greaves
+LBIS:AddItem(spec3, "20109", LBIS.L["Feet"], "Alt") --Highlander's Lamellar Greaves
 LBIS:AddItem(spec3, "220624", LBIS.L["Neck"], "BIS") --Bloodstained Charm of Valor
 LBIS:AddItem(spec3, "213344", LBIS.L["Neck"], "BIS") --Gnomeregan Peace Officer's Torque
 LBIS:AddItem(spec3, "220625", LBIS.L["Neck"], "BIS") --Resilience of the Exiled
@@ -254,6 +252,7 @@ LBIS:AddItem(spec3, "211449", LBIS.L["Trinket"], "Alt") --Avenger's Void Pearl
 LBIS:AddItem(spec3, "223526", LBIS.L["Two Hand"], "BIS") --Sul'thraze the Lasher
 LBIS:AddItem(spec3, "210741", LBIS.L["Two Hand"], "BIS") --Automatic Crowd Pummeler
 LBIS:AddItem(spec3, "221518", LBIS.L["Two Hand"], "Alt") --Whisper
+LBIS:AddItem(spec3, "9423", LBIS.L["Two Hand"], "Alt") --The Jackhammer
 LBIS:AddItem(spec3, "2915", LBIS.L["Two Hand"], "Alt") --Taran Icebreaker
 LBIS:AddItem(spec3, "220686", LBIS.L["Two Hand"], "Alt") --Chieftain's Bane
 LBIS:AddItem(spec3, "220173", LBIS.L["Two Hand"], "Alt") --Parasomnia

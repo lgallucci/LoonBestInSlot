@@ -53,7 +53,6 @@ public class WowheadGuideParser
         { "armor", "Mit" },
         { "dodge", "Mit" },
         { "parry", "Mit" },
-        { "mit", "Mit" },
         { "threat", "Thrt" },
         { "ffb", "FFB" },
         { "melee", "Melee" },

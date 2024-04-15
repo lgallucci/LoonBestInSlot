@@ -329,7 +329,6 @@ LBIS:AddItem(spec3, "19121", LBIS.L["Back"], "Alt") --Deep Woodlands Cloak
 LBIS:AddItem(spec3, "14044", LBIS.L["Back"], "Alt") --Cindercloth Cloak
 LBIS:AddItem(spec3, "216620", LBIS.L["Back"], "Alt") --Bloodrot Cloak
 LBIS:AddItem(spec3, "213306", LBIS.L["Back"], "Alt") --Ingenuity's Cover
-LBIS:AddItem(spec3, "23178", LBIS.L["Back"], "Alt") --Mantle of Lady Falther'ess
 LBIS:AddItem(spec3, "220680", LBIS.L["Chest"], "BIS") --Malevolent Prophet's Vest
 LBIS:AddItem(spec3, "220535", LBIS.L["Chest"], "Alt") --Garments of the Atal'ai Prophet
 LBIS:AddItem(spec3, "220783", LBIS.L["Chest"], "Alt") --Nightmare Prophet's Vestments
@@ -340,8 +339,8 @@ LBIS:AddItem(spec3, "10042", LBIS.L["Chest"], "Alt") --Cindercloth Robe
 LBIS:AddItem(spec3, "221430", LBIS.L["Chest"], "Alt") --Emerald Enchanted Robes
 LBIS:AddItem(spec3, "223256", LBIS.L["Chest"], "Alt") --Fel Cloth Robes
 LBIS:AddItem(spec3, "1716", LBIS.L["Chest"], "Alt") --Robe of the Magi
-LBIS:AddItem(spec3, "220886", LBIS.L["Chest"], "Alt") --Knight's Dreadweave Vest
 LBIS:AddItem(spec3, "220904", LBIS.L["Chest"], "Alt") --Stone Guard's Dreadweave Vest
+LBIS:AddItem(spec3, "220886", LBIS.L["Chest"], "Alt") --Knight's Dreadweave Vest
 LBIS:AddItem(spec3, "14042", LBIS.L["Chest"], "Alt") --Cindercloth Vest
 LBIS:AddItem(spec3, "213311", LBIS.L["Chest"], "Alt") --Hyperconductive Robe
 LBIS:AddItem(spec3, "9434", LBIS.L["Chest"], "Alt") --Elemental Raiment
@@ -352,8 +351,8 @@ LBIS:AddItem(spec3, "19596", LBIS.L["Wrist"], "BIS") --Dryad's Wrist Bindings
 LBIS:AddItem(spec3, "14311", LBIS.L["Wrist"], "Alt") --Celestial Bindings
 LBIS:AddItem(spec3, "210781", LBIS.L["Wrist"], "Alt") --Phoenix Bindings
 LBIS:AddItem(spec3, "213285", LBIS.L["Wrist"], "Alt") --Lev's Oil-Stained Bindings
-LBIS:AddItem(spec3, "216702", LBIS.L["Wrist"], "Alt") --Sergeant Major's Silk Cuffs
 LBIS:AddItem(spec3, "216707", LBIS.L["Wrist"], "Alt") --First Sergeant's Silk Cuffs
+LBIS:AddItem(spec3, "216702", LBIS.L["Wrist"], "Alt") --Sergeant Major's Silk Cuffs
 LBIS:AddItem(spec3, "18709", LBIS.L["Wrist"], "Alt") --Arena Wristguards
 LBIS:AddItem(spec3, "10461", LBIS.L["Wrist"], "Alt") --Shadowy Bracers
 LBIS:AddItem(spec3, "220548", LBIS.L["Hands"], "BIS") --Atal'ai Hexxer's Gloves
@@ -411,6 +410,7 @@ LBIS:AddItem(spec3, "209686", LBIS.L["Neck"], "Alt") --Jagged Bone Necklace
 LBIS:AddItem(spec3, "217296", LBIS.L["Neck"], "Alt") --Ghostshard Talisman
 LBIS:AddItem(spec3, "219135", LBIS.L["Neck"], "Alt") --Curiosity Pendant
 LBIS:AddItem(spec3, "220628", LBIS.L["Ring"], "BIS") --Drakeclaw Band of the Harbinger
+LBIS:AddItem(spec3, "221440", LBIS.L["Ring"], "BIS") --Roar of the Dream
 LBIS:AddItem(spec3, "223985", LBIS.L["Ring"], "BIS") --Cyclopean Band
 LBIS:AddItem(spec3, "221466", LBIS.L["Ring"], "BIS") --Loop of Burning Blood
 LBIS:AddItem(spec3, "221467", LBIS.L["Ring"], "BIS") --Eye of the Bloodmoon
@@ -428,7 +428,7 @@ LBIS:AddItem(spec3, "19524", LBIS.L["Ring"], "Alt") --Lorekeeper's Ring
 LBIS:AddItem(spec3, "224006", LBIS.L["Ring"], "Alt") --Emerald Ring
 LBIS:AddItem(spec3, "216509", LBIS.L["Trinket"], "BIS") --Infernal Pact Essence
 LBIS:AddItem(spec3, "223195", LBIS.L["Trinket"], "BIS") --Breadth of the Beast
-LBIS:AddItem(spec3, "221307", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Decay
+LBIS:AddItem(spec3, "221307", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Decay
 LBIS:AddItem(spec3, "213347", LBIS.L["Trinket"], "Alt") --Miniaturized Combustion Chamber
 LBIS:AddItem(spec3, "16022", LBIS.L["Trinket"], "Alt") --Arcanite Dragonling
 LBIS:AddItem(spec3, "223214", LBIS.L["Trinket"], "Alt") --Zila Gular
@@ -478,7 +478,6 @@ LBIS:AddItem(spec3, "2549", LBIS.L["Two Hand"], "Alt") --Staff of the Shade
 LBIS:AddItem(spec3, "11748", LBIS.L["Ranged/Relic"], "BIS") --Pyric Caduceus
 LBIS:AddItem(spec3, "220604", LBIS.L["Ranged/Relic"], "BIS") --Nightmare Trophy
 LBIS:AddItem(spec3, "15280", LBIS.L["Ranged/Relic"], "Alt") --Wizard's Hand
-LBIS:AddItem(spec3, "23177", LBIS.L["Ranged/Relic"], "Alt") --Lady Falther'ess' Finger
 LBIS:AddItem(spec3, "213559", LBIS.L["Ranged/Relic"], "Alt") --Mechanostrider Gear Shifter
 LBIS:AddItem(spec3, "217295", LBIS.L["Ranged/Relic"], "Alt") --Necrotic Wand
 LBIS:AddItem(spec3, "223215", LBIS.L["Ranged/Relic"], "Alt") --Orah Raka

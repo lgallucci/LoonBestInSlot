@@ -349,8 +349,8 @@ LBIS:AddItem(spec3, "223521", LBIS.L["Shoulder"], "Alt") --Rotgrip Mantle
 LBIS:AddItem(spec3, "221431", LBIS.L["Shoulder"], "Alt") --Emerald Enchanted Shoulders
 LBIS:AddItem(spec3, "11310", LBIS.L["Shoulder"], "Alt") --Flameseer Mantle
 LBIS:AddItem(spec3, "10172", LBIS.L["Shoulder"], "Alt") --Mystical Mantle
-LBIS:AddItem(spec3, "16341", LBIS.L["Back"], "BIS") --Sergeant's Cloak
 LBIS:AddItem(spec3, "18441", LBIS.L["Back"], "BIS") --Sergeant's Cape
+LBIS:AddItem(spec3, "16341", LBIS.L["Back"], "BIS") --Sergeant's Cloak
 LBIS:AddItem(spec3, "220611", LBIS.L["Back"], "BIS Thrt") --Hukku's Hex Cape
 LBIS:AddItem(spec3, "216622", LBIS.L["Back"], "Alt") --Coagulated Cloak
 LBIS:AddItem(spec3, "18427", LBIS.L["Back"], "Alt") --Sergeant's Cloak
@@ -389,8 +389,8 @@ LBIS:AddItem(spec3, "217288", LBIS.L["Chest"], "Alt") --Robes of the Lich
 LBIS:AddItem(spec3, "221025", LBIS.L["Wrist"], "BIS") --Void-Powered Invoker's Vambraces
 LBIS:AddItem(spec3, "19596", LBIS.L["Wrist"], "BIS") --Dryad's Wrist Bindings
 LBIS:AddItem(spec3, "14311", LBIS.L["Wrist"], "Alt") --Celestial Bindings
-LBIS:AddItem(spec3, "216702", LBIS.L["Wrist"], "Alt") --Sergeant Major's Silk Cuffs
 LBIS:AddItem(spec3, "216707", LBIS.L["Wrist"], "Alt") --First Sergeant's Silk Cuffs
+LBIS:AddItem(spec3, "216702", LBIS.L["Wrist"], "Alt") --Sergeant Major's Silk Cuffs
 LBIS:AddItem(spec3, "213285", LBIS.L["Wrist"], "Alt") --Lev's Oil-Stained Bindings
 LBIS:AddItem(spec3, "18709", LBIS.L["Wrist"], "Alt") --Arena Wristguards
 LBIS:AddItem(spec3, "11962", LBIS.L["Wrist"], "Alt") --Manacle Cuffs
@@ -454,15 +454,15 @@ LBIS:AddItem(spec3, "213345", LBIS.L["Neck"], "Alt") --Piston Pendant
 LBIS:AddItem(spec3, "217296", LBIS.L["Neck"], "Alt") --Ghostshard Talisman
 LBIS:AddItem(spec3, "19535", LBIS.L["Neck"], "Alt") --Scout's Medallion
 LBIS:AddItem(spec3, "19539", LBIS.L["Neck"], "Alt") --Sentinel's Medallion
-LBIS:AddItem(spec3, "15855", LBIS.L["Ring"], "BIS") --Ring of Protection
 LBIS:AddItem(spec3, "220630", LBIS.L["Ring"], "BIS") --Drakeclaw Band of the Juggernaut
 LBIS:AddItem(spec3, "220628", LBIS.L["Ring"], "BIS Thrt") --Drakeclaw Band of the Harbinger
-LBIS:AddItem(spec3, "9642", LBIS.L["Ring"], "Alt") --Band of the Great Tortoise
+LBIS:AddItem(spec3, "9642", LBIS.L["Ring"], "BIS") --Band of the Great Tortoise
 LBIS:AddItem(spec3, "216674", LBIS.L["Ring"], "Alt") --Nogg's Brilliant Gold Ring
 LBIS:AddItem(spec3, "216673", LBIS.L["Ring"], "Alt") --Talvash's Brilliant Gold Ring
+LBIS:AddItem(spec3, "221440", LBIS.L["Ring"], "Alt") --Roar of the Dream
+LBIS:AddItem(spec3, "223985", LBIS.L["Ring"], "Alt") --Cyclopean Band
 LBIS:AddItem(spec3, "11118", LBIS.L["Ring"], "Alt") --Archaedic Stone
 LBIS:AddItem(spec3, "12985", LBIS.L["Ring"], "Alt") --Ring of Defense
-LBIS:AddItem(spec3, "223985", LBIS.L["Ring"], "Alt") --Cyclopean Band
 LBIS:AddItem(spec3, "221466", LBIS.L["Ring"], "Alt") --Loop of Burning Blood
 LBIS:AddItem(spec3, "7553", LBIS.L["Ring"], "Alt") --Band of the Unicorn
 LBIS:AddItem(spec3, "19519", LBIS.L["Ring"], "Alt") --Advisor's Ring
@@ -533,7 +533,6 @@ LBIS:AddItem(spec3, "217295", LBIS.L["Ranged/Relic"], "Alt") --Necrotic Wand
 LBIS:AddItem(spec3, "223215", LBIS.L["Ranged/Relic"], "Alt") --Orah Raka
 LBIS:AddItem(spec3, "15280", LBIS.L["Ranged/Relic"], "Alt") --Wizard's Hand
 LBIS:AddItem(spec3, "217287", LBIS.L["Ranged/Relic"], "Alt") --Greater Mystic Wand
-LBIS:AddItem(spec3, "23177", LBIS.L["Ranged/Relic"], "Alt") --Lady Falther'ess' Finger
 LBIS:AddItem(spec3, "19118", LBIS.L["Ranged/Relic"], "Alt") --Nature's Breath
 LBIS:AddItem(spec3, "213411", LBIS.L["Ranged/Relic"], "Alt") --Izzleflick's Inextinguishable Igniter
 LBIS:AddItem(spec3, "17745", LBIS.L["Ranged/Relic"], "Alt") --Noxious Shooter
