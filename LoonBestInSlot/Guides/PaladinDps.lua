@@ -235,7 +235,6 @@ LBIS:AddItem(spec3, "12025", LBIS.L["Neck"], "Alt") --Selenium Chain
 LBIS:AddItem(spec3, "220626", LBIS.L["Ring"], "BIS") --Drakeclaw Band of the Berserker
 LBIS:AddItem(spec3, "223194", LBIS.L["Ring"], "BIS") --Band of the Wilds
 LBIS:AddItem(spec3, "19516", LBIS.L["Ring"], "BIS") --Protector's Band
-LBIS:AddItem(spec3, "12548", LBIS.L["Ring"], "Alt") --Magni's Will
 LBIS:AddItem(spec3, "17713", LBIS.L["Ring"], "Alt") --Blackstone Ring
 LBIS:AddItem(spec3, "11945", LBIS.L["Ring"], "Alt") --Dark Iron Ring
 LBIS:AddItem(spec3, "12002", LBIS.L["Ring"], "Alt") --Marble Circle

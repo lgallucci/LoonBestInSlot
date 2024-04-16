@@ -16,14 +16,12 @@ LBIS:AddEnchant(spec3, "13887", LBIS.L["Hands"]) --Enchant Gloves - Strength
 LBIS:AddEnchant(spec3, "20012", LBIS.L["Hands"]) --Enchant Gloves - Greater Agility
 LBIS:AddEnchant(spec3, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
 LBIS:AddEnchant(spec3, "20020", LBIS.L["Feet"]) --Enchant Boots - Greater Stamina
-LBIS:AddEnchant(spec3, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
 LBIS:AddEnchant(spec3, "23799", LBIS.L["Main Hand"]) --Enchant Weapon - Strength
 LBIS:AddEnchant(spec3, "23800", LBIS.L["Main Hand"]) --Enchant Weapon - Agility
 LBIS:AddEnchant(spec3, "7224", LBIS.L["Main Hand"]) --Steel Weapon Chain
 LBIS:AddEnchant(spec3, "16623", LBIS.L["Off Hand"]) --Thorium Shield Spike
 LBIS:AddEnchant(spec3, "20017", LBIS.L["Off Hand"]) --Enchant Shield - Greater Stamina
 LBIS:AddEnchant(spec3, "13689", LBIS.L["Off Hand"]) --Enchant Shield - Lesser Block
-LBIS:AddEnchant(spec3, "20034", LBIS.L["Two Hand"]) --Enchant Weapon - Crusader
 LBIS:AddEnchant(spec3, "23799", LBIS.L["Two Hand"]) --Enchant Weapon - Strength
 LBIS:AddEnchant(spec3, "23800", LBIS.L["Two Hand"]) --Enchant Weapon - Agility
 LBIS:AddEnchant(spec3, "7224", LBIS.L["Two Hand"]) --Steel Weapon Chain
