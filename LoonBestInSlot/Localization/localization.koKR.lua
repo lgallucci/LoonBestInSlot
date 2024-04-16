@@ -558,7 +558,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Timbermaw Hold - Friendly"] = "";
 --  LBIS.L["Timbermaw Hold - Honored"] = "";
   LBIS.L["Tinkerer Gizlock"] = "땜장이 기즐록";
-  LBIS.L["Dungeon Token"] = "토큰";
+  LBIS.L["Token"] = "토큰";
   LBIS.L["Tooga's Quest"] = "길 잃은 투가";
 --  LBIS.L["Trade Vendors"] = "";
   LBIS.L["Transmute"] = "변환식";
@@ -578,6 +578,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Unavailable"] = "사용 불가";
   LBIS.L["Undercity"] = "언더시티";
   LBIS.L["Underground Assault"] = "지하 공격";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Urok Doomhowl"] = "우르크 둠하울";
   LBIS.L["Various Bosses"] = "기타 보스들";
 --  LBIS.L["Various Vendors"] = "";
@@ -613,7 +614,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Wetlands"] = "저습지";
   LBIS.L["What Comes Around..."] = "사필귀정";
   LBIS.L["Whirlwind Weapon"] = "소용돌이 무기";
---  LBIS.L["Wild Offering"] = "";
   LBIS.L["Willix the Importer"] = "수입업자 윌릭스";
 --  LBIS.L["Winter Veil (Seasonal)"] = "";
   LBIS.L["Winterfall Activity"] = "눈사태일족의 동태";

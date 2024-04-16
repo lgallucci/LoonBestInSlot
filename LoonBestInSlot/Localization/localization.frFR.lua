@@ -155,7 +155,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Dun Garok Priest"] = "";
 --  LBIS.L["Dun Garok Rifleman"] = "";
   LBIS.L["Dun Morogh"] = "Dun Morogh";
---  LBIS.L["Dungeon Token"] = "";
+  LBIS.L["Dungeon Token"] = "Marque d’ensemble";
   LBIS.L["Duskwood"] = "Bois de la Pénombre";
 --  LBIS.L["Duskwood, Elwynn Forest"] = "";
   LBIS.L["Dustwallow Marsh"] = "Marécage d’Âprefange";
@@ -558,7 +558,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Timbermaw Hold - Friendly"] = "";
 --  LBIS.L["Timbermaw Hold - Honored"] = "";
   LBIS.L["Tinkerer Gizlock"] = "Artisan Gizlock";
-  LBIS.L["Dungeon Token"] = "Marque d’ensemble";
+  LBIS.L["Token"] = "Marque d’ensemble";
   LBIS.L["Tooga's Quest"] = "La quête de Tooga";
 --  LBIS.L["Trade Vendors"] = "";
 --  LBIS.L["Transmute"] = "";
@@ -578,6 +578,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Unavailable"] = "Indisp.";
   LBIS.L["Undercity"] = "Fossoyeuse";
   LBIS.L["Underground Assault"] = "Assaut souterrain";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Urok Doomhowl"] = "Urok Hurleruine";
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Various Vendors"] = "";
@@ -613,7 +614,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Wetlands"] = "Les Paluns";
   LBIS.L["What Comes Around..."] = "Ce qui se passait ailleurs...";
   LBIS.L["Whirlwind Weapon"] = "Arme Tourbillon";
---  LBIS.L["Wild Offering"] = "";
   LBIS.L["Willix the Importer"] = "Willix l'Importateur";
 --  LBIS.L["Winter Veil (Seasonal)"] = "";
   LBIS.L["Winterfall Activity"] = "Les Tombe-hiver s'agitent";

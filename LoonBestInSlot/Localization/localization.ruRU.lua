@@ -155,7 +155,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Dun Garok Priest"] = "";
 --  LBIS.L["Dun Garok Rifleman"] = "";
   LBIS.L["Dun Morogh"] = "Дун Морог";
---  LBIS.L["Dungeon Token"] = "";
+  LBIS.L["Dungeon Token"] = "Фрагмент";
   LBIS.L["Duskwood"] = "Сумеречный лес";
 --  LBIS.L["Duskwood, Elwynn Forest"] = "";
   LBIS.L["Dustwallow Marsh"] = "Пылевые топи";
@@ -523,7 +523,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["The God Hakkar"] = "Бог Хаккар";
   LBIS.L["The Grand Betrayal"] = "Великое предательство";
   LBIS.L["The Green Drake"] = "Зеленый дракон";
-  LBIS.L["The Grim Guzzler"] = "Трактир \"Угрюмый обжора\"";
+  LBIS.L["The Grim Guzzler"] = "Трактир \"Угрюмый обжора\";
 --  LBIS.L["The Heart of the Void"] = "";
   LBIS.L["The Hidden Chamber"] = "Потайной чертог";
   LBIS.L["The Hinterlands"] = "Внутренние земли";
@@ -558,7 +558,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Timbermaw Hold - Friendly"] = "";
 --  LBIS.L["Timbermaw Hold - Honored"] = "";
   LBIS.L["Tinkerer Gizlock"] = "Ремонтник Гизлок";
-  LBIS.L["Dungeon Token"] = "Фрагмент";
+  LBIS.L["Token"] = "Фрагмент";
   LBIS.L["Tooga's Quest"] = "Задание Туги";
 --  LBIS.L["Trade Vendors"] = "";
 --  LBIS.L["Transmute"] = "";
@@ -578,6 +578,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Unavailable"] = "Недоступно";
   LBIS.L["Undercity"] = "Подгород";
   LBIS.L["Underground Assault"] = "Битва под землей";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Urok Doomhowl"] = "Аррок Смертный Вопль";
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Various Vendors"] = "";
@@ -613,7 +614,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Wetlands"] = "Болотина";
   LBIS.L["What Comes Around..."] = "Что происходит?";
   LBIS.L["Whirlwind Weapon"] = "Оружие вихря";
---  LBIS.L["Wild Offering"] = "";
   LBIS.L["Willix the Importer"] = "Импортер Вилликс";
 --  LBIS.L["Winter Veil (Seasonal)"] = "";
   LBIS.L["Winterfall Activity"] = "Боевые действия в деревне Зимней Спячки";

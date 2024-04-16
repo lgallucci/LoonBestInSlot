@@ -558,7 +558,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Timbermaw Hold - Friendly"] = "";
 --  LBIS.L["Timbermaw Hold - Honored"] = "";
   LBIS.L["Tinkerer Gizlock"] = "Tüftler Gizlock";
-  LBIS.L["Dungeon Token"] = "Token";
+  LBIS.L["Token"] = "Token";
   LBIS.L["Tooga's Quest"] = "Toogas Bitte";
 --  LBIS.L["Trade Vendors"] = "";
   LBIS.L["Transmute"] = "Transmutieren";
@@ -578,6 +578,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Unavailable"] = "Nicht verfügbar";
   LBIS.L["Undercity"] = "Unterstadt";
   LBIS.L["Underground Assault"] = "Unterirdischer Angriff";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Urok Doomhowl"] = "Urok Schreckensbote";
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Various Vendors"] = "";
@@ -613,7 +614,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Wetlands"] = "Sumpfland";
   LBIS.L["What Comes Around..."] = "Verbrechen lohnt sich nicht";
   LBIS.L["Whirlwind Weapon"] = "Wirbelwaffe";
---  LBIS.L["Wild Offering"] = "";
   LBIS.L["Willix the Importer"] = "Willix der Importeur";
 --  LBIS.L["Winter Veil (Seasonal)"] = "";
   LBIS.L["Winterfall Activity"] = "Aktivität der Winterfelle";

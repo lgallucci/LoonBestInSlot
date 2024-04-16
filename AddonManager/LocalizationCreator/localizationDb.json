@@ -3332,7 +3332,8 @@
       "Western Plaguelands": "Maleterres de l’Ouest",
       "Winterfall Activity": "Les Tombe-hiver s'agitent",
       "Yojamba Isle": "Île de Yojamba",
-      "Kroshius' Infernal Core": "Le noyau infernal de Kroshius"
+      "Kroshius' Infernal Core": "Le noyau infernal de Kroshius",
+      "Dungeon Token": "Marque d’ensemble"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -4144,7 +4145,8 @@
       "Western Plaguelands": "Западные Чумные земли",
       "Winterfall Activity": "Боевые действия в деревне Зимней Спячки",
       "Yojamba Isle": "Остров Йоджамба",
-      "Kroshius' Infernal Core": "Огненное ядро Крошиуса"
+      "Kroshius' Infernal Core": "Огненное ядро Крошиуса",
+      "Dungeon Token": "Фрагмент"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -4956,7 +4958,8 @@
       "Western Plaguelands": "西瘟疫之地",
       "Winterfall Activity": "冬泉熊怪的活动",
       "Yojamba Isle": "尤亚姆巴岛",
-      "Kroshius' Infernal Core": "克罗苏斯的恶魔之核"
+      "Kroshius' Infernal Core": "克罗苏斯的恶魔之核",
+      "Dungeon Token": "代币"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -6673,7 +6676,8 @@
       "Western Plaguelands": "西瘟疫之地",
       "Winterfall Activity": "冬泉熊怪的活動",
       "Yojamba Isle": "尤亞姆巴島",
-      "Kroshius' Infernal Core": "克羅蘇斯的煉獄火之核"
+      "Kroshius' Infernal Core": "克羅蘇斯的煉獄火之核",
+      "Dungeon Token": "代幣"
     }
   }
 }
