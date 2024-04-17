@@ -2,6 +2,7 @@ local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "1")
 local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "2")
 local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "3")
 
+LBIS:AddEnchant(spec3, "22840", LBIS.L["Head"]) --Arcanum of Rapidity
 LBIS:AddEnchant(spec3, "15397", LBIS.L["Head"]) --Lesser Arcanum of Voracity
 LBIS:AddEnchant(spec3, "15400", LBIS.L["Head"]) --Lesser Arcanum of Voracity
 LBIS:AddEnchant(spec3, "446451", LBIS.L["Shoulder"]) --Atal'ai Signet of Might
@@ -11,7 +12,6 @@ LBIS:AddEnchant(spec3, "435903", LBIS.L["Chest"]) --Enchant Chest - Retricutione
 LBIS:AddEnchant(spec3, "13941", LBIS.L["Chest"]) --Enchant Chest - Stats
 LBIS:AddEnchant(spec3, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
 LBIS:AddEnchant(spec3, "20011", LBIS.L["Wrist"]) --Enchant Bracer - Superior Stamina
-LBIS:AddEnchant(spec3, "20013", LBIS.L["Hands"]) --Enchant Gloves - Greater Strength
 LBIS:AddEnchant(spec3, "13887", LBIS.L["Hands"]) --Enchant Gloves - Strength
 LBIS:AddEnchant(spec3, "20012", LBIS.L["Hands"]) --Enchant Gloves - Greater Agility
 LBIS:AddEnchant(spec3, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
@@ -22,6 +22,7 @@ LBIS:AddEnchant(spec3, "7224", LBIS.L["Main Hand"]) --Steel Weapon Chain
 LBIS:AddEnchant(spec3, "16623", LBIS.L["Off Hand"]) --Thorium Shield Spike
 LBIS:AddEnchant(spec3, "20017", LBIS.L["Off Hand"]) --Enchant Shield - Greater Stamina
 LBIS:AddEnchant(spec3, "13689", LBIS.L["Off Hand"]) --Enchant Shield - Lesser Block
+LBIS:AddEnchant(spec3, "7222", LBIS.L["Two Hand"]) --Iron Counterweight
 LBIS:AddEnchant(spec3, "23799", LBIS.L["Two Hand"]) --Enchant Weapon - Strength
 LBIS:AddEnchant(spec3, "23800", LBIS.L["Two Hand"]) --Enchant Weapon - Agility
 LBIS:AddEnchant(spec3, "7224", LBIS.L["Two Hand"]) --Steel Weapon Chain
@@ -222,6 +223,7 @@ LBIS:AddItem(spec3, "223194", LBIS.L["Ring"], "BIS") --Band of the Wilds
 LBIS:AddItem(spec3, "17713", LBIS.L["Ring"], "Alt") --Blackstone Ring
 LBIS:AddItem(spec3, "19516", LBIS.L["Ring"], "Alt") --Protector's Band
 LBIS:AddItem(spec3, "223327", LBIS.L["Ring"], "Alt") --Mark of Hakkar
+LBIS:AddItem(spec3, "220630", LBIS.L["Ring"], "Alt") --Drakeclaw Band of the Juggernaut
 LBIS:AddItem(spec3, "216673", LBIS.L["Ring"], "Alt") --Talvash's Brilliant Gold Ring
 LBIS:AddItem(spec3, "15855", LBIS.L["Ring"], "Alt") --Ring of Protection
 LBIS:AddItem(spec3, "223195", LBIS.L["Trinket"], "BIS") --Breadth of the Beast

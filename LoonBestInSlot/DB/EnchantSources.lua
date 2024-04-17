@@ -74,6 +74,7 @@ LBIS.EnchantSources =
     [20034] = { Name = "Enchant Weapon - Crusader", DesignId = "16252", ScrollId = "0", Source = LBIS.L["Scarlet Spellbinder"], SourceLocation = LBIS.L["Western Plaguelands"], TextureId = "" },
     [20081] = { Name = "Formula: Enchant Bracer - Superior Strength", DesignId = "16246", ScrollId = "0", Source = LBIS.L["Deadwind Warlock"], SourceLocation = LBIS.L["Deadwind Pass"], TextureId = "" },
     [21931] = { Name = "Enchant Weapon - Winter's Might", DesignId = "17725", ScrollId = "0", Source = LBIS.L["Present"], SourceLocation = LBIS.L["Winter Veil (Seasonal)"], TextureId = "" },
+    [22840] = { Name = "Arcanum of Rapidity", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Lorekeeper Lydros (Librams)"], SourceLocation = LBIS.L["Dire Maul"], TextureId = "18329" },
     [23799] = { Name = "Enchant Weapon - Strength", DesignId = "19444", ScrollId = "0", Source = LBIS.L["Thorium Brotherhood"], SourceLocation = LBIS.L["Blackrock Depths"], TextureId = "" },
     [23800] = { Name = "Enchant Weapon - Agility", DesignId = "19445", ScrollId = "0", Source = LBIS.L["Timbermaw Hold - Honored"], SourceLocation = LBIS.L["Felwood"], TextureId = "" },
     [23802] = { Name = "Enchant Bracer - Healing Power", DesignId = "19447", ScrollId = "0", Source = LBIS.L["Argent Dawn - Revered"], SourceLocation = LBIS.L["Eastern Plaguelands"], TextureId = "" },

@@ -33,6 +33,7 @@ public class WowheadGuideParser
         { 11646, 15400}, //Lesser Arcanum of Voracity
         { 11647, 15402}, //Lesser Arcanum of Voracity
         { 11648, 15404}, //Lesser Arcanum of Voracity
+        { 18329, 22840}, //Arcanum of Rapidity
         { 12645, 16623}, //Thorium Shield Spike
         { 212568, 432190 }, //Wolfshead Trophy
         { 221321, 446451 }, //Atal'ai Signet of Might
