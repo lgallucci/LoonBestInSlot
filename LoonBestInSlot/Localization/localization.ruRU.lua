@@ -524,7 +524,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["The God Hakkar"] = "Бог Хаккар";
   LBIS.L["The Grand Betrayal"] = "Великое предательство";
   LBIS.L["The Green Drake"] = "Зеленый дракон";
-  LBIS.L["The Grim Guzzler"] = "Трактир \"Угрюмый обжора\";
+  LBIS.L["The Grim Guzzler"] = "Трактир \"Угрюмый обжора\"";
 --  LBIS.L["The Heart of the Void"] = "";
   LBIS.L["The Hidden Chamber"] = "Потайной чертог";
   LBIS.L["The Hinterlands"] = "Внутренние земли";
