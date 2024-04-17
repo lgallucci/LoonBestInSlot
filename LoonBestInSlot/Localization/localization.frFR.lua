@@ -459,6 +459,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Shadow Hunter Vosh’gajin"] = "";
   LBIS.L["Shadoweaver"] = "Les tisseuses d'ombre";
   LBIS.L["Shadowfang Keep"] = "Donjon d’Ombrecroc";
+  LBIS.L["Shadowpriest Sezz'ziz"] = "Prêtre des ombres Sezz'ziz";
   LBIS.L["Shadowshard Fragments"] = "Fragments d'Ombréclat";
 --  LBIS.L["Shadowtooth Emissary"] = "";
 --  LBIS.L["Shifting Scale Talisman"] = "";
@@ -578,7 +579,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Unavailable"] = "Indisp.";
   LBIS.L["Undercity"] = "Fossoyeuse";
   LBIS.L["Underground Assault"] = "Assaut souterrain";
---  LBIS.L["unknown"] = "";
   LBIS.L["Urok Doomhowl"] = "Urok Hurleruine";
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Various Vendors"] = "";

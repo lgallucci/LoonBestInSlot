@@ -459,6 +459,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Shadow Hunter Vosh’gajin"] = "";
   LBIS.L["Shadoweaver"] = "Las tejedoras de sombra";
   LBIS.L["Shadowfang Keep"] = "Castillo de Colmillo Oscuro";
+  LBIS.L["Shadowpriest Sezz'ziz"] = "Sacerdote oscuro Sezz'ziz";
   LBIS.L["Shadowshard Fragments"] = "Trozos Oscuros";
 --  LBIS.L["Shadowtooth Emissary"] = "";
 --  LBIS.L["Shifting Scale Talisman"] = "";
@@ -578,7 +579,6 @@ if GetLocale() == "esMX" then
   LBIS.L["Unavailable"] = "No disponible";
   LBIS.L["Undercity"] = "Entrañas";
   LBIS.L["Underground Assault"] = "Asalto subterráneo";
---  LBIS.L["unknown"] = "";
   LBIS.L["Urok Doomhowl"] = "Urok Aullasino";
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Various Vendors"] = "";

@@ -459,6 +459,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Shadow Hunter Vosh’gajin"] = "";
   LBIS.L["Shadoweaver"] = "Мастер по тенеткани";
   LBIS.L["Shadowfang Keep"] = "Крепость Темного Клыка";
+  LBIS.L["Shadowpriest Sezz'ziz"] = "Темный жрец Шезз'зиз";
   LBIS.L["Shadowshard Fragments"] = "Фрагменты осколка сумрака";
 --  LBIS.L["Shadowtooth Emissary"] = "";
 --  LBIS.L["Shifting Scale Talisman"] = "";
@@ -578,7 +579,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Unavailable"] = "Недоступно";
   LBIS.L["Undercity"] = "Подгород";
   LBIS.L["Underground Assault"] = "Битва под землей";
---  LBIS.L["unknown"] = "";
   LBIS.L["Urok Doomhowl"] = "Аррок Смертный Вопль";
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Various Vendors"] = "";

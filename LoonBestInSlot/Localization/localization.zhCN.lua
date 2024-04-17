@@ -459,6 +459,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Shadow Hunter Vosh’gajin"] = "";
   LBIS.L["Shadoweaver"] = "暗影蛛丝";
   LBIS.L["Shadowfang Keep"] = "影牙城堡";
+  LBIS.L["Shadowpriest Sezz'ziz"] = "暗影祭司塞瑟斯";
   LBIS.L["Shadowshard Fragments"] = "暗影残片";
 --  LBIS.L["Shadowtooth Emissary"] = "";
 --  LBIS.L["Shifting Scale Talisman"] = "";
@@ -578,7 +579,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Unavailable"] = "不可用";
   LBIS.L["Undercity"] = "幽暗城";
   LBIS.L["Underground Assault"] = "地底突袭";
---  LBIS.L["unknown"] = "";
   LBIS.L["Urok Doomhowl"] = "乌洛克";
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Various Vendors"] = "";

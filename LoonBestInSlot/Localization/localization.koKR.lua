@@ -186,7 +186,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Fallen Champion"] = "타락한 용사";
   LBIS.L["Fallen Champion (Rare)"] = "타락한 용사 (희귀)";
   LBIS.L["Fallen Sky Lake"] = "유성 호수";
-  LBIS.L["Feet"] = "발";
+  LBIS.L["Feet"] = "신발";
 --  LBIS.L["Fel Interloper"] = "";
 --  LBIS.L["Fel Steeds"] = "";
   LBIS.L["Felwood"] = "악령숲";
@@ -234,7 +234,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Gyrodrillmatic Excavationators"] = "회전천공식 발굴기";
   LBIS.L["Halycon"] = "할리콘";
 --  LBIS.L["Handor"] = "";
-  LBIS.L["Hands"] = "손";
+  LBIS.L["Hands"] = "장갑";
   LBIS.L["Hazzas"] = "하자스";
 --  LBIS.L["Hazzas and Morphaz"] = "";
   LBIS.L["Head"] = "머리";
@@ -350,7 +350,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Mythology of the Titans"] = "티탄 신화";
 --  LBIS.L["Mythrin'dir"] = "";
 --  LBIS.L["N'ora Anyheart"] = "";
-  LBIS.L["Neck"] = "목";
+  LBIS.L["Neck"] = "목걸이";
   LBIS.L["Necklace Recovery, Take 3"] = "목걸이 회수 - 3차 시도";
 --  LBIS.L["Nekrum Gutchewer and Shadowpriest Sezz'ziz"] = "";
 --  LBIS.L["Nether Sorceress"] = "";
@@ -459,6 +459,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Shadow Hunter Vosh’gajin"] = "";
   LBIS.L["Shadoweaver"] = "그림자매듭";
   LBIS.L["Shadowfang Keep"] = "그림자송곳니 성채";
+  LBIS.L["Shadowpriest Sezz'ziz"] = "어둠의사제 세즈지즈";
   LBIS.L["Shadowshard Fragments"] = "음영석 조각";
 --  LBIS.L["Shadowtooth Emissary"] = "";
 --  LBIS.L["Shifting Scale Talisman"] = "";
@@ -578,7 +579,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Unavailable"] = "사용 불가";
   LBIS.L["Undercity"] = "언더시티";
   LBIS.L["Underground Assault"] = "지하 공격";
---  LBIS.L["unknown"] = "";
   LBIS.L["Urok Doomhowl"] = "우르크 둠하울";
   LBIS.L["Various Bosses"] = "기타 보스들";
 --  LBIS.L["Various Vendors"] = "";

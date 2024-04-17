@@ -459,6 +459,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Shadow Hunter Vosh’gajin"] = "";
   LBIS.L["Shadoweaver"] = "Schattenweber";
   LBIS.L["Shadowfang Keep"] = "Burg Schattenfang";
+  LBIS.L["Shadowpriest Sezz'ziz"] = "Schattenpriester Sezz'ziz";
   LBIS.L["Shadowshard Fragments"] = "Schattensplitter";
 --  LBIS.L["Shadowtooth Emissary"] = "";
 --  LBIS.L["Shifting Scale Talisman"] = "";
@@ -578,7 +579,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Unavailable"] = "Nicht verfügbar";
   LBIS.L["Undercity"] = "Unterstadt";
   LBIS.L["Underground Assault"] = "Unterirdischer Angriff";
---  LBIS.L["unknown"] = "";
   LBIS.L["Urok Doomhowl"] = "Urok Schreckensbote";
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Various Vendors"] = "";
