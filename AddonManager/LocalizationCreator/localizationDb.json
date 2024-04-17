@@ -830,7 +830,8 @@
       "Western Plaguelands": "Tierras de la Peste del Oeste",
       "Winterfall Activity": "Actividad de los Nevada",
       "Yojamba Isle": "Isla Yojamba",
-      "Kroshius' Infernal Core": "El núcleo infernal de Kroshius"
+      "Kroshius' Infernal Core": "El núcleo infernal de Kroshius",
+      "Shadowpriest Sezz'ziz": "Sacerdote oscuro Sezz'ziz"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -1634,7 +1635,8 @@
       "Western Plaguelands": "Tierras de la Peste del Oeste",
       "Winterfall Activity": "Actividad de los Nevada",
       "Yojamba Isle": "Isla Yojamba",
-      "Kroshius' Infernal Core": "El núcleo infernal de Kroshius"
+      "Kroshius' Infernal Core": "El núcleo infernal de Kroshius",
+      "Shadowpriest Sezz'ziz": "Sacerdote oscuro Sezz'ziz"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -2516,7 +2518,8 @@
       "Western Plaguelands": "Westliche Pestländer",
       "Winterfall Activity": "Aktivität der Winterfelle",
       "Yojamba Isle": "Die Insel Yojamba",
-      "Kroshius' Infernal Core": "Kroshius Höllenbestienkern"
+      "Kroshius' Infernal Core": "Kroshius Höllenbestienkern",
+      "Shadowpriest Sezz'ziz": "Schattenpriester Sezz'ziz"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -3333,7 +3336,8 @@
       "Winterfall Activity": "Les Tombe-hiver s'agitent",
       "Yojamba Isle": "Île de Yojamba",
       "Kroshius' Infernal Core": "Le noyau infernal de Kroshius",
-      "Dungeon Token": "Marque d’ensemble"
+      "Dungeon Token": "Marque d’ensemble",
+      "Shadowpriest Sezz'ziz": "Prêtre des ombres Sezz'ziz"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -4078,7 +4082,7 @@
       "The Fury Runs Deep": "Успокоить Гневливого",
       "The God Hakkar": "Бог Хаккар",
       "The Green Drake": "Зеленый дракон",
-      "The Grim Guzzler": "Трактир \\\"Угрюмый обжора\\",
+      "The Grim Guzzler": "Трактир \\\"Угрюмый обжора\\\"",
       "The Hidden Chamber": "Потайной чертог",
       "The Lost Tablets of Will": "Утерянные таблички Воли",
       "The Pack Mistress": "Праматерь стаи",
@@ -4146,7 +4150,8 @@
       "Winterfall Activity": "Боевые действия в деревне Зимней Спячки",
       "Yojamba Isle": "Остров Йоджамба",
       "Kroshius' Infernal Core": "Огненное ядро Крошиуса",
-      "Dungeon Token": "Фрагмент"
+      "Dungeon Token": "Фрагмент",
+      "Shadowpriest Sezz'ziz": "Темный жрец Шезз'зиз"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -4959,7 +4964,8 @@
       "Winterfall Activity": "冬泉熊怪的活动",
       "Yojamba Isle": "尤亚姆巴岛",
       "Kroshius' Infernal Core": "克罗苏斯的恶魔之核",
-      "Dungeon Token": "代币"
+      "Dungeon Token": "代币",
+      "Shadowpriest Sezz'ziz": "暗影祭司塞瑟斯"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -5865,7 +5871,8 @@
       "Western Plaguelands": "서부 역병지대",
       "Winterfall Activity": "눈사태일족의 동태",
       "Yojamba Isle": "요잠바 섬",
-      "Kroshius' Infernal Core": "크로쉬우스의 지옥핵"
+      "Kroshius' Infernal Core": "크로쉬우스의 지옥핵",
+      "Shadowpriest Sezz'ziz": "어둠의사제 세즈지즈"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -6677,7 +6684,8 @@
       "Winterfall Activity": "冬泉熊怪的活動",
       "Yojamba Isle": "尤亞姆巴島",
       "Kroshius' Infernal Core": "克羅蘇斯的煉獄火之核",
-      "Dungeon Token": "代幣"
+      "Dungeon Token": "代幣",
+      "Shadowpriest Sezz'ziz": "暗影祭司塞瑟斯"
     }
   }
 }

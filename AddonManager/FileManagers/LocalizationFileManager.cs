@@ -540,13 +540,27 @@ public static class LocalizationFileManager
                 localizedString += localSplit[0][position];
                 position++;
             }
-            localizedString = localizedString.Trim('\"');
 
-            translatedLocalizations.Add(localizedString, localSplit[1].Trim(' ').Trim(';').Trim('"'));
+            localizedString = localizedString.TrimSingleChar('\"');
+
+            translatedLocalizations.Add(localizedString, localSplit[1].Trim(' ').Trim(';').TrimSingleChar('\"'));
 
             lineCount++;
         }
         return translatedLocalizations;
+    }
+
+    private static string TrimSingleChar(this string text, char removedChar)
+    {
+        string ret = text;
+
+        if (text[0] == removedChar)
+            ret = text.Substring(1);
+        
+        if (ret[ret.Length - 1] == removedChar)
+            ret = ret.Substring(0, ret.Length - 1);
+
+        return ret;
     }
 
     private static HashSet<string> RecursivelySearch(DirectoryInfo di)
