@@ -7,7 +7,7 @@ LBIS:AddEnchant(spec3, "446451", LBIS.L["Shoulder"]) --Atal'ai Signet of Might
 LBIS:AddEnchant(spec3, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
 LBIS:AddEnchant(spec3, "13941", LBIS.L["Chest"]) --Enchant Chest - Stats
 LBIS:AddEnchant(spec3, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
-LBIS:AddEnchant(spec3, "20012", LBIS.L["Hands"]) --Enchant Gloves - Greater Agility
+LBIS:AddEnchant(spec3, "13948", LBIS.L["Hands"]) --Enchant Gloves - Minor Haste
 LBIS:AddEnchant(spec3, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
 LBIS:AddEnchant(spec3, "23799", LBIS.L["Main Hand"]) --Enchant Weapon - Strength
 LBIS:AddEnchant(spec3, "23799", LBIS.L["Off Hand"]) --Enchant Weapon - Strength
@@ -117,54 +117,58 @@ LBIS:AddItem(spec2, "9378", LBIS.L["Off Hand"], "Alt") --Shovelphlange's Mining 
 LBIS:AddItem(spec2, "215436", LBIS.L["Ranged/Relic"], "BIS") --Totem of Invigorating Flame
 LBIS:AddItem(spec2, "209575", LBIS.L["Ranged/Relic"], "Alt") --Carved Driftwood Icon
 
-LBIS:AddItem(spec3, "221782", LBIS.L["Head"], "BIS") --Helm of Exile
+LBIS:AddItem(spec3, "215166", LBIS.L["Head"], "BIS") --Glowing Gneuro-Linked Cowl
+LBIS:AddItem(spec3, "221782", LBIS.L["Head"], "Alt") --Helm of Exile
 LBIS:AddItem(spec3, "223963", LBIS.L["Head"], "Alt") --Embrace of the Lycan
-LBIS:AddItem(spec3, "215166", LBIS.L["Head"], "Alt") --Glowing Gneuro-Linked Cowl
 LBIS:AddItem(spec3, "220743", LBIS.L["Shoulder"], "BIS") --Cacophonous Chain Shoulderguards
+LBIS:AddItem(spec3, "220527", LBIS.L["Shoulder"], "Alt") --Atal'ai Berserker's Mantle
 LBIS:AddItem(spec3, "223544", LBIS.L["Shoulder"], "Alt") --Dregmetal Spaulders
-LBIS:AddItem(spec3, "213304", LBIS.L["Shoulder"], "Alt") --Troggslayer Pauldrons
 LBIS:AddItem(spec3, "220615", LBIS.L["Back"], "BIS") --Panther Fur Cloak
 LBIS:AddItem(spec3, "11626", LBIS.L["Back"], "Alt") --Blackveil Cape
 LBIS:AddItem(spec3, "213307", LBIS.L["Back"], "Alt") --Drape of Dismantling
 LBIS:AddItem(spec3, "220657", LBIS.L["Chest"], "BIS") --Ostracized Berserker's Hauberk
 LBIS:AddItem(spec3, "213314", LBIS.L["Chest"], "Alt") --Electromantic Chainmail
+LBIS:AddItem(spec3, "213313", LBIS.L["Chest"], "Alt") --Insulated Chestguard
+LBIS:AddItem(spec3, "223528", LBIS.L["Chest"], "Alt") --Gahz'rilla Scale Armor
 LBIS:AddItem(spec3, "19583", LBIS.L["Wrist"], "BIS") --Windtalker's Wristguards
 LBIS:AddItem(spec3, "221026", LBIS.L["Wrist"], "Alt") --Void-Powered Slayer's Vambraces
 LBIS:AddItem(spec3, "17714", LBIS.L["Wrist"], "Alt") --Bracers of the Stone Princess
-LBIS:AddItem(spec3, "220542", LBIS.L["Hands"], "BIS") --Polluted Murkwater Gauntlets
+LBIS:AddItem(spec3, "220831", LBIS.L["Hands"], "BIS") --First Sergeant's Mail Gauntlets
+LBIS:AddItem(spec3, "220542", LBIS.L["Hands"], "Alt") --Polluted Murkwater Gauntlets
 LBIS:AddItem(spec3, "21319", LBIS.L["Hands"], "Alt") --Gloves of the Pathfinder
-LBIS:AddItem(spec3, "12114", LBIS.L["Hands"], "Alt") --Nightfall Gloves
-LBIS:AddItem(spec3, "8260", LBIS.L["Hands"], "Alt") --Serpentskin Gloves
+LBIS:AddItem(spec3, "17736", LBIS.L["Hands"], "Alt") --Rockgrip Gauntlets
 LBIS:AddItem(spec3, "220552", LBIS.L["Waist"], "BIS") --Waistguard of Pain
 LBIS:AddItem(spec3, "11686", LBIS.L["Waist"], "Alt") --Girdle of Beastial Fury
-LBIS:AddItem(spec3, "220550", LBIS.L["Waist"], "Alt") --Temple Looter's Waistband
+LBIS:AddItem(spec3, "13134", LBIS.L["Waist"], "Alt") --Belt of the Gladiator
 LBIS:AddItem(spec3, "220658", LBIS.L["Legs"], "BIS") --Ostracized Berserker's Legplates
 LBIS:AddItem(spec3, "213333", LBIS.L["Legs"], "Alt") --Electromantic Chausses
+LBIS:AddItem(spec3, "213332", LBIS.L["Legs"], "Alt") --Insulated Legguards
+LBIS:AddItem(spec3, "220834", LBIS.L["Legs"], "Alt") --Stone Guard's Mail Legplates
 LBIS:AddItem(spec3, "220659", LBIS.L["Feet"], "BIS") --Ostracized Berserker's Chain Greaves
-LBIS:AddItem(spec3, "15181", LBIS.L["Feet"], "Alt") --Praetorian Boots
+LBIS:AddItem(spec3, "213339", LBIS.L["Feet"], "Alt") --Electromantic Grounding Sabatons
+LBIS:AddItem(spec3, "213341", LBIS.L["Feet"], "Alt") --Insulated Workboots
+LBIS:AddItem(spec3, "11675", LBIS.L["Feet"], "Alt") --Shadefiend Boots
 LBIS:AddItem(spec3, "223962", LBIS.L["Feet"], "Alt") --Sandstalker Ankleguards
 LBIS:AddItem(spec3, "220624", LBIS.L["Neck"], "BIS") --Bloodstained Charm of Valor
 LBIS:AddItem(spec3, "213344", LBIS.L["Neck"], "Alt") --Gnomeregan Peace Officer's Torque
 LBIS:AddItem(spec3, "19159", LBIS.L["Neck"], "Alt") --Woven Ivy Necklace
-LBIS:AddItem(spec3, "220626", LBIS.L["Ring"], "BIS") --Drakeclaw Band of the Berserker
 LBIS:AddItem(spec3, "19511", LBIS.L["Ring"], "BIS") --Legionnaire's Band
-LBIS:AddItem(spec3, "19516", LBIS.L["Ring"], "BIS") --Protector's Band
+LBIS:AddItem(spec3, "220626", LBIS.L["Ring"], "BIS") --Drakeclaw Band of the Berserker
 LBIS:AddItem(spec3, "17713", LBIS.L["Ring"], "Alt") --Blackstone Ring
 LBIS:AddItem(spec3, "223194", LBIS.L["Ring"], "Alt") --Band of the Wilds
+LBIS:AddItem(spec3, "12002", LBIS.L["Ring"], "Alt") --Marble Circle
 LBIS:AddItem(spec3, "221307", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Decay
-LBIS:AddItem(spec3, "19120", LBIS.L["Trinket"], "BIS") --Rune of the Guard Captain
+LBIS:AddItem(spec3, "221309", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Sandstorm
+LBIS:AddItem(spec3, "19120", LBIS.L["Trinket"], "Alt") --Rune of the Guard Captain
+LBIS:AddItem(spec3, "223195", LBIS.L["Trinket"], "Alt") --Breadth of the Beast
 LBIS:AddItem(spec3, "213348", LBIS.L["Trinket"], "Alt") --Gyromatic Experiment 420b
-LBIS:AddItem(spec3, "220632", LBIS.L["Trinket"], "Alt") --Atal'ai Blood Ritual Medallion
-LBIS:AddItem(spec3, "221309", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Sandstorm
-LBIS:AddItem(spec3, "12527", LBIS.L["Main Hand"], "BIS") --Ribsplitter
-LBIS:AddItem(spec3, "220576", LBIS.L["Main Hand/Off Hand"], "BIS") --Axe of the Atal'ai Executioner
-LBIS:AddItem(spec3, "220588", LBIS.L["Main Hand"], "Alt") --Cobra Fang Claw
+LBIS:AddItem(spec3, "220588", LBIS.L["Main Hand"], "BIS") --Cobra Fang Claw
+LBIS:AddItem(spec3, "12527", LBIS.L["Main Hand"], "Alt") --Ribsplitter
+LBIS:AddItem(spec3, "220576", LBIS.L["Main Hand/Off Hand"], "Alt") --Axe of the Atal'ai Executioner
+LBIS:AddItem(spec3, "220574", LBIS.L["Main Hand/Off Hand"], "Alt") --Sharpened Tooth of Eranikus
 LBIS:AddItem(spec3, "11120", LBIS.L["Main Hand"], "Alt") --Belgrom's Hammer
-LBIS:AddItem(spec3, "11702", LBIS.L["Main Hand"], "Alt") --Grizzle's Skinner
+LBIS:AddItem(spec3, "224409", LBIS.L["Off Hand"], "BIS") --Serpent's Striker
 LBIS:AddItem(spec3, "15228", LBIS.L["Off Hand"], "Alt") --Smashing Star
-LBIS:AddItem(spec3, "15237", LBIS.L["Off Hand"], "Alt") --Corpse Harvester
-LBIS:AddItem(spec3, "220574", LBIS.L["Off Hand"], "Alt") --Sharpened Tooth of Eranikus
-LBIS:AddItem(spec3, "220581", LBIS.L["Off Hand"], "Alt") --Snake Clobberer
 LBIS:AddItem(spec3, "220607", LBIS.L["Ranged/Relic"], "BIS") --Totem of Tormented Ancestry
 LBIS:AddItem(spec3, "215436", LBIS.L["Ranged/Relic"], "Alt") --Totem of Invigorating Flame
 LBIS:AddItem(spec3, "209575", LBIS.L["Ranged/Relic"], "Alt") --Carved Driftwood Icon

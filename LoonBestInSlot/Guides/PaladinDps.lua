@@ -10,7 +10,7 @@ LBIS:AddEnchant(spec3, "20081", LBIS.L["Wrist"]) --Formula: Enchant Bracer - Sup
 LBIS:AddEnchant(spec3, "13948", LBIS.L["Hands"]) --Enchant Gloves - Minor Haste
 LBIS:AddEnchant(spec3, "15397", LBIS.L["Legs"]) --Lesser Arcanum of Voracity
 LBIS:AddEnchant(spec3, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
-LBIS:AddEnchant(spec3, "7222", LBIS.L["Two Hand"]) --Iron Counterweight
+LBIS:AddEnchant(spec3, "23799", LBIS.L["Two Hand"]) --Enchant Weapon - Strength
 
 LBIS:AddItem(spec1, "211505", LBIS.L["Head"], "BIS") --Twilight Avenger's Helm
 LBIS:AddItem(spec1, "211789", LBIS.L["Head"], "BIS") --Artemis Cowl
@@ -249,13 +249,9 @@ LBIS:AddItem(spec3, "20512", LBIS.L["Trinket"], "Alt") --Sanctified Orb
 LBIS:AddItem(spec3, "221442", LBIS.L["Trinket"], "Alt") --Roar of the Guardian
 LBIS:AddItem(spec3, "211449", LBIS.L["Trinket"], "Alt") --Avenger's Void Pearl
 LBIS:AddItem(spec3, "220632", LBIS.L["Trinket"], "Alt") --Atal'ai Blood Ritual Medallion
-LBIS:AddItem(spec3, "223526", LBIS.L["Two Hand"], "BIS") --Sul'thraze the Lasher
-LBIS:AddItem(spec3, "210741", LBIS.L["Two Hand"], "BIS") --Automatic Crowd Pummeler
-LBIS:AddItem(spec3, "221518", LBIS.L["Two Hand"], "Alt") --Whisper
-LBIS:AddItem(spec3, "9423", LBIS.L["Two Hand"], "Alt") --The Jackhammer
-LBIS:AddItem(spec3, "2915", LBIS.L["Two Hand"], "Alt") --Taran Icebreaker
-LBIS:AddItem(spec3, "220686", LBIS.L["Two Hand"], "Alt") --Chieftain's Bane
-LBIS:AddItem(spec3, "220173", LBIS.L["Two Hand"], "Alt") --Parasomnia
+LBIS:AddItem(spec3, "871", LBIS.L["Two Hand"], "BIS") --Flurry Axe
+LBIS:AddItem(spec3, "223520", LBIS.L["Two Hand"], "BIS") --Inventor's Focal Sword
+LBIS:AddItem(spec3, "221456", LBIS.L["Two Hand"], "Alt") --Eclipsed Sanguine Saber
 LBIS:AddItem(spec3, "221457", LBIS.L["Ranged/Relic"], "BIS") --Libram of Draconic Destruction
 LBIS:AddItem(spec3, "209574", LBIS.L["Ranged/Relic"], "BIS") --Discarded Tenets of the Silver Hand
 LBIS:AddItem(spec3, "215435", LBIS.L["Ranged/Relic"], "BIS") --Libram of Benediction

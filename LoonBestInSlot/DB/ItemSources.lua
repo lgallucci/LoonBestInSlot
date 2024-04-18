@@ -3617,4 +3617,5 @@ LBIS.ItemSources =
     [224004] = { Name = "Emerald Ring", SourceType = LBIS.L["Reputation"], Source = LBIS.L["Emerald Wardens"], SourceNumber = "0", SourceLocation = LBIS.L["Friendly"], SourceFaction = "B" },
     [224005] = { Name = "Emerald Ring", SourceType = LBIS.L["Reputation"], Source = LBIS.L["Emerald Wardens"], SourceNumber = "0", SourceLocation = LBIS.L["Friendly"], SourceFaction = "B" },
     [224006] = { Name = "Emerald Ring", SourceType = LBIS.L["Reputation"], Source = LBIS.L["Emerald Wardens"], SourceNumber = "0", SourceLocation = LBIS.L["Honored"], SourceFaction = "B" },
+    [224409] = { Name = "Serpent's Striker", SourceType = LBIS.L["Drop"], Source = LBIS.L["Hazzas"], SourceNumber = "0", SourceLocation = LBIS.L["Sunken Temple"], SourceFaction = "B" },
 }
