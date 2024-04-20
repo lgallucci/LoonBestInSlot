@@ -204,12 +204,12 @@ LBIS:AddItem(spec3, "213288", LBIS.L["Hands"], "Alt") --Grubbis Grubby Gauntlets
 LBIS:AddItem(spec3, "213319", LBIS.L["Hands"], "Alt") --Machinist's Gloves
 LBIS:AddItem(spec3, "220806", LBIS.L["Hands"], "Alt") --Sergeant Major's Plate Gauntlets
 LBIS:AddItem(spec3, "221378", LBIS.L["Hands"], "Alt") --Emerald Dream Gauntlets
-LBIS:AddItem(spec3, "11686", LBIS.L["Waist"], "BIS") --Girdle of Beastial Fury
 LBIS:AddItem(spec3, "220554", LBIS.L["Waist"], "BIS") --Atal'alarion's Tusk Band
 LBIS:AddItem(spec3, "215380", LBIS.L["Waist"], "BIS") --Power-Assisted Lifting Belt
 LBIS:AddItem(spec3, "215115", LBIS.L["Waist"], "BIS") --Hyperconductive Goldwrap
 LBIS:AddItem(spec3, "213325", LBIS.L["Waist"], "BIS") --Darkvision Girdle
-LBIS:AddItem(spec3, "220552", LBIS.L["Waist"], "BIS") --Waistguard of Pain
+LBIS:AddItem(spec3, "11686", LBIS.L["Waist"], "BIS") --Girdle of Beastial Fury
+LBIS:AddItem(spec3, "220552", LBIS.L["Waist"], "Alt") --Waistguard of Pain
 LBIS:AddItem(spec3, "13134", LBIS.L["Waist"], "Alt") --Belt of the Gladiator
 LBIS:AddItem(spec3, "20106", LBIS.L["Waist"], "Alt") --Highlander's Lamellar Girdle
 LBIS:AddItem(spec3, "220654", LBIS.L["Legs"], "BIS") --Wailing Berserker's Legplates

@@ -78,6 +78,7 @@ LBIS.EnchantSources =
     [23799] = { Name = "Enchant Weapon - Strength", DesignId = "19444", ScrollId = "0", Source = LBIS.L["Thorium Brotherhood"], SourceLocation = LBIS.L["Blackrock Depths"], TextureId = "" },
     [23800] = { Name = "Enchant Weapon - Agility", DesignId = "19445", ScrollId = "0", Source = LBIS.L["Timbermaw Hold - Honored"], SourceLocation = LBIS.L["Felwood"], TextureId = "" },
     [23802] = { Name = "Enchant Bracer - Healing Power", DesignId = "19447", ScrollId = "0", Source = LBIS.L["Argent Dawn - Revered"], SourceLocation = LBIS.L["Eastern Plaguelands"], TextureId = "" },
+    [23803] = { Name = "Enchant Weapon - Mighty Spirit", DesignId = "19448", ScrollId = "0", Source = LBIS.L["Thorium Brotherhood"], SourceLocation = LBIS.L["Blackrock Depths"], TextureId = "" },
     [23804] = { Name = "Enchant Weapon - Mighty Intellect", DesignId = "19449", ScrollId = "0", Source = LBIS.L["Thorium Brotherhood"], SourceLocation = LBIS.L["Blackrock Depths"], TextureId = "" },
     [27837] = { Name = "Enchant 2H Weapon - Agility", DesignId = "22392", ScrollId = "0", Source = LBIS.L["Timbermaw Hold - Friendly"], SourceLocation = LBIS.L["Felwood"], TextureId = "" },
     [432190] = { Name = "Wolfshead Trophy", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Emerald Wardens Vendors"], SourceLocation = LBIS.L["Various Vendors"], TextureId = "212568" },
