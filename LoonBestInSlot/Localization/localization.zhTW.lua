@@ -141,6 +141,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Deviate Hides"] = "變異皮革";
   LBIS.L["Dig Rat Stew"] = "掘地鼠燉肉";
   LBIS.L["Digmaster Shovelphlange"] = "挖掘專家舒爾弗拉格";
+  LBIS.L["Dire Maul"] = "厄運之槌";
   LBIS.L["Dire Maul East"] = "厄運之槌 東";
   LBIS.L["Dire Maul North"] = "厄運之槌 北";
   LBIS.L["Dire Maul West"] = "厄運之槌 西";
@@ -317,6 +318,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Lord Roccor"] = "洛考爾領主";
   LBIS.L["Lord Serpentis"] = "瑟芬迪斯領主";
   LBIS.L["Lord Vyletongue"] = "維利塔恩領主";
+--  LBIS.L["Lorekeeper Lydros (Librams)"] = " (聖契)";
   LBIS.L["Lorekeeper Polkelt"] = "博學者普克爾特";
 --  LBIS.L["Lorelae Wintersong"] = "";
   LBIS.L["Lorgus Jett"] = "洛古斯·傑特";

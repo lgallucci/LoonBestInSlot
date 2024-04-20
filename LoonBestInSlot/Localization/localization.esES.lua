@@ -141,6 +141,7 @@ if GetLocale() == "esES" then
   LBIS.L["Deviate Hides"] = "Pellejo de los descarriados";
   LBIS.L["Dig Rat Stew"] = "Estofado de ratas de madriguera";
   LBIS.L["Digmaster Shovelphlange"] = "Maestro de excavación Palatiro";
+  LBIS.L["Dire Maul"] = "La Masacre";
   LBIS.L["Dire Maul East"] = "La Masacre Este";
   LBIS.L["Dire Maul North"] = "La Masacre Norte";
   LBIS.L["Dire Maul West"] = "La Masacre Oeste";
@@ -317,6 +318,7 @@ if GetLocale() == "esES" then
   LBIS.L["Lord Roccor"] = "Lord Roccor";
   LBIS.L["Lord Serpentis"] = "Lord Serpentis";
   LBIS.L["Lord Vyletongue"] = "Lord Lenguavil";
+--  LBIS.L["Lorekeeper Lydros (Librams)"] = " (Tratados)";
   LBIS.L["Lorekeeper Polkelt"] = "Tradicionalista Polkelt";
 --  LBIS.L["Lorelae Wintersong"] = "";
   LBIS.L["Lorgus Jett"] = "Lorgus Jett";

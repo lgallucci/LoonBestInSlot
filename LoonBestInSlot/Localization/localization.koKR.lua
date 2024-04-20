@@ -141,6 +141,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Deviate Hides"] = "돌연변이 통가죽";
   LBIS.L["Dig Rat Stew"] = "들쥐 고기 스튜";
   LBIS.L["Digmaster Shovelphlange"] = "발굴단장 쇼벨플랜지";
+  LBIS.L["Dire Maul"] = "혈투의 전장";
   LBIS.L["Dire Maul East"] = "혈투의 전장 (동쪽)";
   LBIS.L["Dire Maul North"] = "혈투의 전장 (북쪽)";
   LBIS.L["Dire Maul West"] = "혈투의 전장 (서쪽)";
@@ -317,6 +318,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Lord Roccor"] = "불의군주 록코르";
   LBIS.L["Lord Serpentis"] = "군주 서펜디스";
   LBIS.L["Lord Vyletongue"] = "군주 바일텅";
+--  LBIS.L["Lorekeeper Lydros (Librams)"] = " (고서)";
   LBIS.L["Lorekeeper Polkelt"] = "현자 폴켈트";
 --  LBIS.L["Lorelae Wintersong"] = "";
   LBIS.L["Lorgus Jett"] = "로구스 제트";

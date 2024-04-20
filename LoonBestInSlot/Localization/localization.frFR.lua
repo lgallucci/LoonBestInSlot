@@ -141,6 +141,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Deviate Hides"] = "Les peaux de déviants";
   LBIS.L["Dig Rat Stew"] = "Brouet de rat";
   LBIS.L["Digmaster Shovelphlange"] = "Maître des fouilles Pellaphlange";
+  LBIS.L["Dire Maul"] = "Hache-Tripes";
   LBIS.L["Dire Maul East"] = "Hache-Tripes Est";
   LBIS.L["Dire Maul North"] = "Hache-Tripes Nord";
   LBIS.L["Dire Maul West"] = "Hache-Tripes Ouest";
@@ -317,6 +318,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Lord Roccor"] = "Seigneur Roccor";
   LBIS.L["Lord Serpentis"] = "Seigneur Serpentis";
   LBIS.L["Lord Vyletongue"] = "Seigneur Vylelangue";
+--  LBIS.L["Lorekeeper Lydros (Librams)"] = " (Librams)";
   LBIS.L["Lorekeeper Polkelt"] = "Gardien du savoir Polkelt";
 --  LBIS.L["Lorelae Wintersong"] = "";
   LBIS.L["Lorgus Jett"] = "Lorgus Jett";

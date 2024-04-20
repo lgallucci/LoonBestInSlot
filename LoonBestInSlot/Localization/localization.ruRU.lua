@@ -141,6 +141,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Deviate Hides"] = "Шкуры загадочных существ";
   LBIS.L["Dig Rat Stew"] = "Похлебка из пещерной крысы";
   LBIS.L["Digmaster Shovelphlange"] = "Мастер Лопаторук";
+  LBIS.L["Dire Maul"] = "Забытый город";
   LBIS.L["Dire Maul East"] = "Забытый Город Восток";
   LBIS.L["Dire Maul North"] = "Забытый Город Север";
   LBIS.L["Dire Maul West"] = "Забытый Город Запад";
@@ -317,6 +318,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Lord Roccor"] = "Лорд Роккор";
   LBIS.L["Lord Serpentis"] = "Лорд Серпентис";
   LBIS.L["Lord Vyletongue"] = "Лорд Злоязыкий";
+--  LBIS.L["Lorekeeper Lydros (Librams)"] = " (Манускрипты)";
   LBIS.L["Lorekeeper Polkelt"] = "Сказитель Полкелт";
 --  LBIS.L["Lorelae Wintersong"] = "";
   LBIS.L["Lorgus Jett"] = "Лоргус Джетт";
