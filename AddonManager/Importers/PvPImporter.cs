@@ -29,7 +29,6 @@ public class PvPImporter : LootImporter
         { @"https://www.wowhead.com/classic/npc=15127/samuel-hawke#sells;50", ("A", "Arathi Basin") },
         { @"https://www.wowhead.com/classic/npc=15126/rutherford-twing#sells", ("H", "Arathi Basin") },
         { @"https://www.wowhead.com/classic/npc=15126/rutherford-twing#sells;50", ("H", "Arathi Basin") },
-
         { @"https://www.wowhead.com/classic/npc=218115/maizin#sells", ("B", "Stranglethorn Vale") },
         { @"https://www.wowhead.com/classic/npc=218115/maizin#sells;50", ("B", "Stranglethorn Vale") }
     };
