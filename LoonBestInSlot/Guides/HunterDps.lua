@@ -196,8 +196,8 @@ LBIS:AddItem(spec3, "17713", LBIS.L["Ring"], "BIS Melee") --Blackstone Ring
 LBIS:AddItem(spec3, "220626", LBIS.L["Ring"], "BIS Melee") --Drakeclaw Band of the Berserker
 LBIS:AddItem(spec3, "9533", LBIS.L["Ring"], "BIS Ranged") --Masons Fraternity Ring
 LBIS:AddItem(spec3, "220627", LBIS.L["Ring"], "BIS Ranged") --Drakeclaw Band of the Stalker
-LBIS:AddItem(spec3, "11945", LBIS.L["Ring"], "Alt Ranged") --Dark Iron Ring
 LBIS:AddItem(spec3, "223194", LBIS.L["Ring"], "Alt Melee") --Band of the Wilds
+LBIS:AddItem(spec3, "11945", LBIS.L["Ring"], "Alt Ranged") --Dark Iron Ring
 LBIS:AddItem(spec3, "213284", LBIS.L["Ring"], "Alt") --Hypercharged Gear of Devastation
 LBIS:AddItem(spec3, "19511", LBIS.L["Ring"], "Alt") --Legionnaire's Band
 LBIS:AddItem(spec3, "19516", LBIS.L["Ring"], "Alt") --Protector's Band
