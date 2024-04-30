@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class PaladinHolyMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/wotlk/guide/classes/paladin/holy/";
+    public override string UrlBase => "https://www.wowhead.com/cata/guide/classes/paladin/holy/";
     public override string Class => "Paladin";
     public override string Spec => "Holy";
 

@@ -354,7 +354,7 @@ public class WowheadGuideParser
                             return false;
                         }
 
-                        var item = ((IHtmlAnchorElement)boxElement).PathName.Replace("/wotlk", "").Replace("/item=", "").Replace("/spell=", "");
+                        var item = ((IHtmlAnchorElement)boxElement).PathName.Replace("/cata", "").Replace("/item=", "").Replace("/spell=", "");
                         var itemIdIndex = item.IndexOf("/");
                         if (itemIdIndex == -1)
                             itemIdIndex = item.IndexOf("&");
@@ -492,7 +492,7 @@ public class WowheadGuideParser
 
             if (((IHtmlAnchorElement)child).Href.Contains("/item="))
             {
-                var item = ((IHtmlAnchorElement)child).Href.Replace("https://www.wowhead.com/wotlk", "").Replace("/item=", "");
+                var item = ((IHtmlAnchorElement)child).Href.Replace("https://www.wowhead.com/cata", "").Replace("/item=", "");
 
                 var itemIdIndex = item.IndexOf("/");
                 if (itemIdIndex == -1)

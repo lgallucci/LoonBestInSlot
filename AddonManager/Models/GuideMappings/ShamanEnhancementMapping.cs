@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class ShamanEnhancementMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/wotlk/guide/classes/shaman/enhancement/";
+    public override string UrlBase => "https://www.wowhead.com/cata/guide/classes/shaman/enhancement/";
     public override string Class => "Shaman";
     public override string Spec => "Enhancement";
 

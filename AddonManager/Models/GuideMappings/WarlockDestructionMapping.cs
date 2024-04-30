@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class WarlockDestructionMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/wotlk/guide/classes/warlock/destruction/";
+    public override string UrlBase => "https://www.wowhead.com/cata/guide/classes/warlock/destruction/";
     public override string Class => "Warlock";
     public override string Spec => "Destruction";
 

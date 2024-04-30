@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class WarriorFuryMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/wotlk/guide/classes/warrior/fury/";
+    public override string UrlBase => "https://www.wowhead.com/cata/guide/classes/warrior/fury/";
     public override string Class => "Warrior";
     public override string Spec => "Fury";
 

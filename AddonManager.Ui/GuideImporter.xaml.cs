@@ -225,20 +225,6 @@ public sealed partial class GuideImporter : Page
     {
         var urls = new List<string>()
         {
-            @"https://wotlk.evowow.com/?npc=35573#currency-for:0-2",
-            @"https://wotlk.evowow.com/?npc=35573#currency-for:50-2",
-            @"https://wotlk.evowow.com/?npc=35573#currency-for:100-2",
-            @"https://wotlk.evowow.com/?npc=35579#currency-for:0-2",
-            @"https://wotlk.evowow.com/?npc=35579#currency-for:50-2",
-            @"https://wotlk.evowow.com/?npc=35577#currency-for:0-2",
-            @"https://wotlk.evowow.com/?npc=35577#currency-for:50-2",
-            @"https://wotlk.evowow.com/?npc=35580#currency-for:0-2",
-            @"https://wotlk.evowow.com/?npc=35580#currency-for:50-2",
-            @"https://wotlk.evowow.com/?npc=35578#currency-for:0-2",
-            @"https://wotlk.evowow.com/?npc=35578#currency-for:50-2",
-            @"https://wotlk.evowow.com/?npc=35574#currency-for:0-2",
-            @"https://wotlk.evowow.com/?npc=35574#currency-for:50-2",
-            @"https://wotlk.evowow.com/?npc=35574#currency-for:100-2"
         };
 
         var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\EmblemItemList.json");
@@ -341,10 +327,6 @@ public sealed partial class GuideImporter : Page
     {
         var urls = new Dictionary<string, string>()
         {
-            { @"https://wotlk.evowow.com/?object=195631#contains", "Faction Champions, Trial of the Crusader (10)" },
-            { @"https://wotlk.evowow.com/?object=195632#contains", "Faction Champions, Trial of the Crusader (25)" },
-            { @"https://wotlk.evowow.com/?object=195633#contains", "Faction Champions, Trial of the Grand Crusader (10)" },
-            { @"https://wotlk.evowow.com/?object=195635#contains", "Faction Champions, Trial of the Grand Crusader (25)" },
         };
 
         var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\RaidItemList.json");

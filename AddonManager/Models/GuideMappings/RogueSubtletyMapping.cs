@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class RogueSubtletyMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/wotlk/guide/classes/rogue/subtlety/";
+    public override string UrlBase => "https://www.wowhead.com/cata/guide/classes/rogue/subtlety/";
     public override string Class => "Rogue";
     public override string Spec => "Subtlety";
 

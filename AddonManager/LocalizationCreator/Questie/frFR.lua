@@ -8285,7 +8285,6 @@ l10n.questLookup["frFR"] = {
 [13120] = {"Le regard de la mort", nil, {"Utilisez l'Orbe du regard de la mort pour placer des orbes sur le Socle de l'orbe du laboratoire des abominations, sur le Socle de l'orbe du laboratoire des géants de chair et sur le Socle de l'orbe de la zone du chaudron, puis retournez voir la Cavalière noire Arly au Guet noir."}},
 [13121] = {"À travers l'Œil", nil, {"La Sorcière des ossements, à Njorndar, vous a demandé d'utiliser l'Œil du roi-liche pour obtenir des informations."}},
 [13122] = {"La pierre du Fléau", nil, {"Le Gardien d'ébène, de la Vallée des Échos dans la Couronne de glace, vous a demandé de lui apporter 15 Pierres du Fléau."}},
-[13123] = {"WotLK Collector's Edition: - DEM - E - FLAG", nil, nil},
 [13124] = {"La lutte continue", nil, {"Raelorasz veut que vous pénétriez dans l'Oculus et que vous sauviez Belgaristrasz et ses compagnons."}},
 [13125] = {"L'air est immobile", nil, {"Le Gardien d'ébène, de la Vallée des Échos dans la Couronne de glace, vous a demandé de tuer Salranax le Tranche-chair, le Sous-roi Talonox et le Grand prêtre Yath'amon."}},
 [13126] = {"Un front uni", nil, {"Belgaristrasz veut que vous tuiez 10 Assemblages centrifuges pour détruire le Bouclier de Varos. Vous devez ensuite détruire Varos Arpentenuée."}},

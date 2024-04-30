@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class PriestShadowMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/wotlk/guide/classes/priest/shadow/";
+    public override string UrlBase => "https://www.wowhead.com/cata/guide/classes/priest/shadow/";
     public override string Class => "Priest";
     public override string Spec => "Shadow";
 

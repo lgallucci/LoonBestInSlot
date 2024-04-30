@@ -5,7 +5,7 @@ namespace AddonManager.Models.GuideMappings;
 internal class DeathKnightFrostMapping : SpecMapping
 {
 
-    public override string UrlBase => "https://www.wowhead.com/wotlk/guide/classes/death-knight/frost/";
+    public override string UrlBase => "https://www.wowhead.com/cata/guide/classes/death-knight/frost/";
 
     public override string Class => "Death Knight";
 

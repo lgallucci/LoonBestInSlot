@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class MageFireMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/wotlk/guide/classes/mage/fire/";
+    public override string UrlBase => "https://www.wowhead.com/cata/guide/classes/mage/fire/";
     public override string Class => "Mage";
     public override string Spec => "Fire";
 

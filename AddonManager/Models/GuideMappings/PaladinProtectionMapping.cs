@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class PaladinProtectionMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/wotlk/guide/classes/paladin/protection/";
+    public override string UrlBase => "https://www.wowhead.com/cata/guide/classes/paladin/protection/";
     public override string Class => "Paladin";
     public override string Spec => "Protection";
 

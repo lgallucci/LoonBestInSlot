@@ -259,11 +259,11 @@ public static class WowheadImporter
         var sources = new Dictionary<int, List<(string, string)>>();
 
         var webAddresses = itemSources.Where((i) => i.Value.SourceType == @"LBIS.L[""unknown""]")
-                                           .Select((i) => $"https://www.wowhead.com/wotlk/item={i.Key}/");
+                                           .Select((i) => $"https://www.wowhead.com/cata/item={i.Key}/");
 
         await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
         {
-            var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/wotlk/item=", "").TrimEnd('/'));
+            var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/cata/item=", "").TrimEnd('/'));
                 var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
             if (rowElements != null && rowElements.Length > 0)
             {

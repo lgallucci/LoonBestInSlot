@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class DruidCatMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/wotlk/guide/classes/druid/feral/";
+    public override string UrlBase => "https://www.wowhead.com/cata/guide/classes/druid/feral/";
     public override string Class => "Druid";
     public override string Spec => "Cat";
 

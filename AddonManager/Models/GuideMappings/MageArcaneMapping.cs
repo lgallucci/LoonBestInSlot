@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class MageArcaneMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/wotlk/guide/classes/mage/arcane/";
+    public override string UrlBase => "https://www.wowhead.com/cata/guide/classes/mage/arcane/";
     public override string Class => "Mage";
     public override string Spec => "Arcane";
 

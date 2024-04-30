@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class RogueAssassinationMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/wotlk/guide/classes/rogue/assassination/";
+    public override string UrlBase => "https://www.wowhead.com/cata/guide/classes/rogue/assassination/";
     public override string Class => "Rogue";
     public override string Spec => "Assassination";
 

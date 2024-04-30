@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class HunterBeastMasteryMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/wotlk/guide/classes/hunter/beast-mastery/";
+    public override string UrlBase => "https://www.wowhead.com/cata/guide/classes/hunter/beast-mastery/";
     public override string Class => "Hunter";
     public override string Spec => "Beast Mastery";
 

@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class DeathKnightBloodMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/wotlk/guide/classes/death-knight/blood/";
+    public override string UrlBase => "https://www.wowhead.com/cata/guide/classes/death-knight/blood/";
     public override string Class => "Death Knight";
     public override string Spec => "Blood";
 
