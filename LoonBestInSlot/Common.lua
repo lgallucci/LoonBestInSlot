@@ -1,4 +1,5 @@
 LBIS.ReCacheDate = time({year=2022, month=12, day=22, hour=22})
+LBIS.SpellCache = {};
 
 function LBIS:PreCacheItems()
     if LBIS.AllItemsCached then return LBIS.AllItemsCached; end

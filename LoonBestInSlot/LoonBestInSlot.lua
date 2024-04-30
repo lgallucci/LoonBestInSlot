@@ -9,12 +9,10 @@ LBIS.ItemsBySpecAndId = {};
 LBIS.GemsBySpecAndId = {};
 LBIS.EnchantsBySpecAndId = {};
 
-LBIS.SpellCache = {};
-
 LBIS.AllItemsCached = false;
 LBIS.CurrentPhase = 1;
 
-LBIS.EventFrame = CreateFrame("FRAME",addonName.."Events")
+LBIS.EventFrame = CreateFrame("FRAME", addonName.."Events")
 
 SLASH_LOONBESTINSLOT1 = '/bis'
 SLASH_LOONBESTINSLOT2 = '/비스'
