@@ -1,4 +1,9 @@
-## Interface: 30403
+## Interface: 40400
+## X-Min-Interface: 100206
+## X-Min-Interface-Classic: 11501
+## X-Min-Interface-BCC: 20504
+## X-Min-Interface-Wrath: 30403
+## X-Min-Interface-Cata: 40400
 ## Title: Loon Best In Slot
 ## Notes: 
 ## OptionalDeps: LinkWrangler

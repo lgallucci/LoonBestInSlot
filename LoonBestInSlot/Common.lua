@@ -1,4 +1,4 @@
-LBIS.ReCacheDate = time({year=2022, month=12, day=22, hour=22})
+LBIS.ReCacheDate = time({year=2024, month=05, day=01, hour=00})
 LBIS.SpellCache = {};
 
 function LBIS:PreCacheItems()
@@ -7,6 +7,7 @@ function LBIS:PreCacheItems()
     LBIS.AllItemsCached = true;
     --If cache date is updated (because of cache changing) reset the cache
     if (not LBISServerSettings.LastCacheDate or LBISServerSettings.LastCacheDate < LBIS.ReCacheDate) then
+        print("LBIS: Clearing Cache");
         LBISServerSettings.ItemCache = {};
         LBISServerSettings.LastCacheDate = time();
     end
@@ -380,7 +381,9 @@ local function stringify(object)
 end
 
 function LBIS:Debug(startString, object)
-    ChatFrame6:AddMessage("LBIS:"..startString..stringify(object));
+    if LBIS.Debugging then
+        print("LBIS:"..startString..stringify(object));
+    end
 end
 
 function LBIS:Error(startString, object)
