@@ -93,4 +93,11 @@ internal class DeathKnightFrostMapping : SpecMapping
             { ("Off Hand", "#off-hand-weapons-for-frost-death-knight-dps-phase-5") },
             { ("Ranged/Relic", "#sigils-for-frost-death-knight-dps-phase-5") },
         };
+
+    public override string PrePatchUrl => "dps-bis-gear-pve";
+    public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
+    {
+        { ("Main Hand", "h3#weapons") },
+        { ("Ranged/Relic", "h3#sigil") },
+    };
 }

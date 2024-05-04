@@ -98,4 +98,11 @@ internal class DruidBalanceMapping : SpecMapping
             { ("Off Hand", "#off-hand-weapons-for-balance-druid-dps-phase-5") },
             { ("Ranged/Relic", "#idols-for-balance-druid-dps-phase-5") }
         };
+
+    public override string PrePatchUrl => "dps-bis-gear-pve";
+    public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
+    {
+        { ("Main Hand", "h3#weapons") },
+        { ("Ranged/Relic", "h3#sigil") },
+    };
 }

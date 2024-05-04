@@ -88,4 +88,10 @@ internal class RogueSubtletyMapping : SpecMapping
             { ("Ranged/Relic", "#guns-and-bows-for-subtlety-rogue-dps-phase-5") }
         };
 
+    public override string PrePatchUrl => "dps-bis-gear-pve";
+    public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
+    {
+        { ("Main Hand", "h3#weapons") },
+        { ("Ranged/Relic", "h3#sigil") },
+    };
 }

@@ -88,4 +88,12 @@ internal class DeathKnightBloodMapping : SpecMapping
             { ("Two Hand", "h2#weapons~h3") },
             { ("Ranged/Relic", "#sigil") },
         };
+
+    public override string PrePatchUrl => "tank-bis-gear-pve";
+
+    public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
+    {
+        { ("Two Hand", "h2#weapons~h3") },
+        { ("Ranged/Relic", "#sigil") },
+    };
 }
