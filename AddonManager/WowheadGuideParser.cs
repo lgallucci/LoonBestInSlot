@@ -272,14 +272,14 @@ public class WowheadGuideParser
                 });
             });
 
-        // foreach(var gem in gems) 
-        // {
-        //     var gemData = WowheadImporter.GetGemFromWowhead(gem.Key, logFunc).Result;
-        //     gem.Value.Name = gemData.Name;
-        //     gem.Value.Phase = gemData.Phase;
-        //     gem.Value.IsMeta    = gemData.IsMeta;
-        //     gem.Value.Quality = gemData.Quality;
-        // }
+        foreach(var gem in gems) 
+        {
+            var gemData = WowheadImporter.GetGemFromWowhead(gem.Key, logFunc).Result;
+            gem.Value.Name = gemData.Name;
+            gem.Value.Phase = gemData.Phase;
+            gem.Value.IsMeta    = gemData.IsMeta;
+            gem.Value.Quality = gemData.Quality;
+        }
         return (gems, enchants, items);
     }
 

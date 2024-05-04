@@ -27,7 +27,13 @@ public sealed partial class MainWindow : Window
         size.Width = 1280;
         size.Height = 800;
 
+        this.Closed += Window_Closed;
+
         appWindow.Resize(size);
     }
 
+    private void Window_Closed(object sender, WindowEventArgs args)
+    {
+        Common.DestroyBrowser();
+    }
 }

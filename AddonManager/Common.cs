@@ -6,54 +6,71 @@ using PuppeteerSharp;
 namespace AddonManager;
 public static class Common
 {
-    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)    
+    private static Browser? _browser;
+    private static async Task CreateBrowser()
     {        
-        IHtmlDocument content;
         await new BrowserFetcher().DownloadAsync();
-        using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
+        _browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
             Headless = true
-        }))
+        });
+    }
+
+    public static void DestroyBrowser()
+    {        
+        _browser?.Dispose();
+        _browser = null;
+    }
+
+    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)    
+    {        
+        IHtmlDocument? content;
+
+        if (_browser == null) {
+            await CreateBrowser();
+        }
+
+        var total = pageAddresses.Count();
+        int count = 0;
+        foreach (var pageAddress in pageAddresses)
         {
-            var total = pageAddresses.Count();
-            int count = 0;
-            foreach (var pageAddress in pageAddresses)
-            {
-                content = await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, ++count, total, waitForIdle);     
-                if (content != null)
-                    func(pageAddress, content);         
-            }
+            content = await RetryPageLoad(pageAddress, writeToLog, cancelToken, ++count, total, waitForIdle);  
+
+            if (content != null)
+                func(pageAddress, content);         
         }
     }
 
     internal static async Task LoadFromWebPage(string pageAddress, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)
     {
-        IHtmlDocument content;
-        await new BrowserFetcher().DownloadAsync();
-        using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
-        {
-            Headless = true
-        }))
-        {
-            content = await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, 1, 1, waitForIdle);
+        IHtmlDocument? content;
+
+        if (_browser == null) {
+            await CreateBrowser();
         }
+        
+        content = await RetryPageLoad(pageAddress, writeToLog, cancelToken, 1, 1, waitForIdle);
 
         if (content != null)
             func(pageAddress, content);
     }
 
-    private static async Task<IHtmlDocument> RetryPageLoad(Browser browser, string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken, int count, int total, bool waitForIdle)
+    private static async Task<IHtmlDocument?> RetryPageLoad(string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken, int count, int total, bool waitForIdle)
     {
+        if (_browser == null) 
+        {
+            throw new InvalidOperationException("Trying to use a null browser somehow!");
+        }
+
         for(var i = 0; i < 3; i++)
         {
-
             if (cancelToken != null && cancelToken.Value.IsCancellationRequested)
             {
                 System.Diagnostics.Debug.WriteLine($"Cancelled...");
                 break;
             }
             System.Diagnostics.Debug.WriteLine($"Starting WebPage ({pageAddress})...");
-            using (var page = await browser.NewPageAsync())
+            using (var page = await _browser.NewPageAsync())
             {
                 try 
                 {
