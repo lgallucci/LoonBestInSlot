@@ -150,6 +150,8 @@ public static class WowheadImporter
                 guide.Item2.AddRange(itemsAndEnchants.Item2.Values.ToList());
                 if (!guide.Item3.ContainsKey(phaseNumber))
                     guide.Item3.Add(phaseNumber, new List<ItemSpec>());
+                else
+                    guide.Item3[phaseNumber].Clear();
                 guide.Item3[phaseNumber].AddRange(itemsAndEnchants.Item3.Values.ToList());
 
                 ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuideMapping.ClassName, classGuideMapping.SpecName,

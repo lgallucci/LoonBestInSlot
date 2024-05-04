@@ -266,21 +266,29 @@ public class WowheadGuideParser
                     if (itemChild != null)
                     {
                         ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText), items, itemOrderIndex);
-                        await ParseGemCell(tableRow, gems, logFunc);
+                        ParseGemCell(tableRow, gems, logFunc);
                     }
                     first = false;
                 });
             });
 
+        // foreach(var gem in gems) 
+        // {
+        //     var gemData = WowheadImporter.GetGemFromWowhead(gem.Key, logFunc).Result;
+        //     gem.Value.Name = gemData.Name;
+        //     gem.Value.Phase = gemData.Phase;
+        //     gem.Value.IsMeta    = gemData.IsMeta;
+        //     gem.Value.Quality = gemData.Quality;
+        // }
         return (gems, enchants, items);
     }
 
-    private async Task ParseGemCell(INode? tableRow, Dictionary<int, GemSpec> gems, Action<string> logFunc)
+    private void ParseGemCell(INode? tableRow, Dictionary<int, GemSpec> gems, Action<string> logFunc)
     {
         var gemCell = tableRow?.ChildNodes[2];
         if (gemCell != null)
         {
-            await Common.RecursiveBoxSearch((IElement)gemCell, async (anchorElement) => {
+            Common.RecursiveBoxSearch((IElement)gemCell, (anchorElement) => {
 
                 if (((IHtmlAnchorElement)anchorElement).PathName.Contains("/item="))
                 {
@@ -291,12 +299,15 @@ public class WowheadGuideParser
                         itemIdIndex = item.IndexOf("&");
                     if (itemIdIndex != -1)
                         item = item.Substring(0, itemIdIndex);
-                        
+
                     var gemId = Int32.Parse(item);
 
                     if (!gems.ContainsKey(gemId))
                     {
-                        gems.Add(gemId, await WowheadImporter.GetGemFromWowhead(gemId, logFunc));
+                        gems.Add(gemId, new GemSpec {
+                            GemId = gemId,
+                            Phase = 99
+                        });
                     }
                 }
                 return false;

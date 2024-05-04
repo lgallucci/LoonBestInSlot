@@ -6,7 +6,9 @@ using PuppeteerSharp;
 namespace AddonManager;
 public static class Common
 {
-    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)    {
+    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)    
+    {        
+        IHtmlDocument content;
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
@@ -17,24 +19,30 @@ public static class Common
             int count = 0;
             foreach (var pageAddress in pageAddresses)
             {
-                await RetryPageLoad(browser, pageAddress, func, writeToLog, cancelToken, ++count, total, waitForIdle);                
+                content = await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, ++count, total, waitForIdle);     
+                if (content != null)
+                    func(pageAddress, content);         
             }
         }
     }
 
     internal static async Task LoadFromWebPage(string pageAddress, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)
     {
+        IHtmlDocument content;
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
             Headless = true
         }))
         {
-            await RetryPageLoad(browser, pageAddress, func,  writeToLog, cancelToken, 1, 1, waitForIdle);
+            content = await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, 1, 1, waitForIdle);
         }
+
+        if (content != null)
+            func(pageAddress, content);
     }
 
-    private static async Task RetryPageLoad(Browser browser, string pageAddress, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken, int count, int total, bool waitForIdle)
+    private static async Task<IHtmlDocument> RetryPageLoad(Browser browser, string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken, int count, int total, bool waitForIdle)
     {
         for(var i = 0; i < 3; i++)
         {
@@ -64,8 +72,7 @@ public static class Common
                     var doc = default(IHtmlDocument);
                     doc = await parser.ParseDocumentAsync(content);
 
-                    func(pageAddress, doc);
-                    break;
+                    return doc;
                 } 
                 catch 
                 {
@@ -73,6 +80,7 @@ public static class Common
                 }
             }
         }
+        return null;
     }
 
     internal static async Task RecursiveBoxSearch(IElement headerElement, Func<IElement, Task<bool>> action)
