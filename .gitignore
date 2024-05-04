@@ -365,6 +365,6 @@ FodyWeavers.xsd
 *.zip
 *.csv
 *.csv#
-/ClassicLootAssistant2.8
+/cataLootAssistant2.8
 
 .local-chromium/

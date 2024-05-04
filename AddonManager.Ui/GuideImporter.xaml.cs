@@ -31,7 +31,7 @@ public sealed partial class GuideImporter : Page
                                 "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAffliction", "WarlockDemonology", "WarlockDestruction", "WarriorArms",
                                 "WarriorFury", "WarriorProtection"};
 
-    public string[] PhaseList = { /*"GemsEnchants", "Phase0", "Phase1", "Phase2", "Phase3",  "Phase4",*/ "PrePatch" };
+    public string[] PhaseList = { /*"Phase0", "Phase1", "Phase2", "Phase3",  "Phase4",*/ "PrePatch" };
 
     public GuideImporter()
     {
@@ -46,7 +46,7 @@ public sealed partial class GuideImporter : Page
         ConsoleOut.Text = string.Empty;
         _importCancelToken = new CancellationTokenSource();
         var phaseString = cmbPhase.SelectedValue.ToString();
-        var phaseNumber = -1;
+        var phaseNumber = 99;
         if (phaseString.Contains("Phase"))
             phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
 
@@ -62,10 +62,7 @@ public sealed partial class GuideImporter : Page
 
         try
         {
-            if (phaseString == "GemsEnchants")
-                ConsoleOut.Text = await WowheadImporter.ImportGemsAndEnchants(specMapping, (log) => ConsoleOut.Text += log + Environment.NewLine);
-            else
-                ConsoleOut.Text = await WowheadImporter.ImportClass(specMapping, phaseNumber, (log) => ConsoleOut.Text += log + Environment.NewLine);
+            ConsoleOut.Text = await WowheadImporter.ImportClass(specMapping, phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
 
             ConsoleOut.Text += $"{spec} Completed! - Verification Passed!" + Environment.NewLine;
         }
@@ -89,10 +86,8 @@ public sealed partial class GuideImporter : Page
             phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
 
         string result = string.Empty;
-        if (phaseString == "GemsEnchants")
-            await WowheadImporter.ImportGemsAndEnchants(SpecList, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
-        else
-            await WowheadImporter.ImportClasses(SpecList, phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
+
+        await WowheadImporter.ImportClasses(SpecList, phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
     }
 
     private void Verify_Click(object sender, RoutedEventArgs e)

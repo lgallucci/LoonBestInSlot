@@ -1,9 +1,12 @@
 ﻿using AddonManager.FileManagers;
 using AddonManager.Models;
-using AngleSharp.Html.Dom;
 using Newtonsoft.Json;
 using System.IO;
 using System.Security;
+using System.Linq;
+using AngleSharp.Html.Parser;
+using AngleSharp.Html.Dom;
+using AngleSharp.Dom;
 
 namespace AddonManager;
 public static class WowheadImporter
@@ -41,7 +44,7 @@ public static class WowheadImporter
     {
         bool verificationSucceeded = true;
         var requiredWords = new string[] { "BIS", "Alt" };
-        var allowableWords = new string[] { "Transmute", "Stam", "Mit", "Thrt", "FFB" };
+        var allowableWords = new string[] { "Transmute", "Stam", "Mit", "Thrt", "FFB", "Melee", "Ranged" };
 
         foreach (var item in items)
         {
@@ -70,50 +73,7 @@ public static class WowheadImporter
         return verificationSucceeded;
     }
 
-
-    public static async Task ImportGemsAndEnchants(string[] specList, CancellationToken cancelToken, Action<string> logMethod)
-    {
-        var addresses = new List<string>();
-        var addressToSpec = new Dictionary<string, ClassGuideMapping>();
-        foreach (string spec in specList)
-        {
-            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == "GemsEnchants");
-
-            if (specMapping == null)
-            {
-                logMethod($"{spec} Failed! - Can't find Spec!");
-                continue;
-            }
-            else
-            {
-                addresses.Add(specMapping.WebAddress);
-                addressToSpec.Add(specMapping.WebAddress, specMapping);
-            }
-        }
-
-        await Common.LoadFromWebPages(addresses, (address, content) =>
-        {
-            var spec = addressToSpec[address];
-            try
-            {
-                var result = ImportGemsAndEnchantsInternal(spec, content);
-
-                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!");
-            }
-            catch (VerificationException vex)
-            {
-                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}...");
-            }
-            catch (ParseException ex)
-            {
-                logMethod($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
-            }
-        }, logMethod, cancelToken);
-
-        logMethod($"Done!");
-    }
-
-    public static async Task ImportClasses(string[] specList, int phaseNumber, CancellationToken cancelToken, Action<string> logMethod)
+    public static async Task ImportClasses(string[] specList, int phaseNumber, CancellationToken cancelToken, Action<string> logFunc)
     {
         var addresses = new List<string>();
         var addressToSpec = new Dictionary<string, ClassGuideMapping>();
@@ -123,7 +83,7 @@ public static class WowheadImporter
 
             if (specMapping == null)
             {
-                logMethod($"{spec} Failed! - Can't find Spec!");
+                logFunc($"{spec} Failed! - Can't find Spec!");
                 continue;
             } 
             else
@@ -138,106 +98,62 @@ public static class WowheadImporter
             var spec = addressToSpec[address];
             try
             {
-                var result = ImportClassInternal(spec, phaseNumber, doc);
+                var result = ImportClassInternal(spec, phaseNumber, doc, (s) => {});
 
-                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!");
+                logFunc($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!");
             }
             catch (VerificationException vex)
             {
-                logMethod($"{spec.ClassName} {spec.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}...");
+                logFunc($"{spec.ClassName} {spec.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}...");
             }
             catch (ParseException ex)
             {
-                logMethod($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
+                logFunc($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
             }
-        }, logMethod, cancelToken);
+        }, logFunc, cancelToken, false);
 
-        logMethod($"Done!");
+        logFunc($"Done!");
     }
 
-    public static async Task<string> ImportGemsAndEnchants(ClassGuideMapping classGuide, Action<string> writeToLog)
+    public static async Task<string> ImportClass(ClassGuideMapping classGuide, int phaseNumber, CancellationToken cancelToken, Action<string> logFunc)
     {
         var result = string.Empty;
-        await Common.LoadFromWebPage(classGuide.WebAddress, (doc) =>
+        await Common.LoadFromWebPage(classGuide.WebAddress, (uri, doc) =>
         {
-            result = ImportGemsAndEnchantsInternal(classGuide, doc);
-        }, writeToLog);
+            result = ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
+        }, logFunc, cancelToken, false);
 
         return result;
     }
 
-    public static async Task<string> ImportClass(ClassGuideMapping classGuide, int phaseNumber, Action<string> writeToLog)
-    {
-        var result = string.Empty;
-        await Common.LoadFromWebPage(classGuide.WebAddress, (doc) =>
-        {
-            result = ImportClassInternal(classGuide, phaseNumber, doc);
-        }, writeToLog);
-
-        return result;
-    }
-
-    private static string ImportClassInternal(ClassGuideMapping classGuide, int phaseNumber, IHtmlDocument doc)
+    private static string ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, IHtmlDocument doc, Action<string> logFunc)
     {
         var sb = new StringBuilder();
-        var items = new Dictionary<int, ItemSpec>();
+        (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, ItemSpec>) itemsAndEnchants;
         try
         {
-            var itemSources = ItemSourceFileManager.ReadItemSources();
+            var className = $"{classGuideMapping.ClassName.Replace(" ", "")}{classGuideMapping.SpecName}";
 
-            var className = $"{classGuide.ClassName.Replace(" ", "")}{classGuide.SpecName}";
-
-            if (classGuide != null && classGuide.WebAddress != "do_not_use")
+            if (classGuideMapping != null && classGuideMapping.WebAddress != "do_not_use")
             {
                 var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
 
-                if (phaseNumber == 0)
-                    items = new WowheadGuideParser().ParsePreRaidWowheadGuide(className, guide, doc);
-                else
-                    items = new WowheadGuideParser().ParseWowheadGuide(classGuide, doc);
+                itemsAndEnchants = new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc, logFunc);
 
-                foreach (var item in items)
-                {
-                    if (items.Count(i => i.Value.Slot == item.Value.Slot) == 1)
-                    {
-                        if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
-                        {
-                            itemSources.Add(item.Value.ItemId, new ItemSource
-                            {
-                                ItemId = item.Value.ItemId,
-                                Name = item.Value.Name,
-                                SourceType = "LBIS.L[\"unknown\"]",
-                                Source = "LBIS.L[\"unknown\"]",
-                                SourceNumber = "0",
-                                SourceLocation = "LBIS.L[\"unknown\"]"
-                            });
-                        }
-                        item.Value.BisStatus = "BIS";
+                WriteGemsInternal(itemsAndEnchants.Item1, logFunc);
+                WriteEnchantsInternal(itemsAndEnchants.Item2, logFunc);
+                WriteItemsInternal(itemsAndEnchants.Item3, logFunc);
+                
+                guide.Item1.Clear();
+                guide.Item1.AddRange(itemsAndEnchants.Item1.Values.ToList());
+                guide.Item2.Clear();
+                guide.Item2.AddRange(itemsAndEnchants.Item2.Values.ToList());
+                if (!guide.Item3.ContainsKey(phaseNumber))
+                    guide.Item3.Add(phaseNumber, new List<ItemSpec>());
+                guide.Item3[phaseNumber].AddRange(itemsAndEnchants.Item3.Values.ToList());
 
-                        sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
-                    }
-                    if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
-                    {
-                        itemSources.Add(item.Value.ItemId, new ItemSource
-                        {
-                            ItemId = item.Value.ItemId,
-                            Name = item.Value.Name,
-                            SourceType = "LBIS.L[\"unknown\"]",
-                            Source = "LBIS.L[\"unknown\"]",
-                            SourceNumber = "0",
-                            SourceLocation = "LBIS.L[\"unknown\"]"
-                        });
-                    }
-
-                    sb.AppendLine($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
-                }
-
-                guide.Item3[phaseNumber] = items.Values.ToList();
-
-                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName,
+                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuideMapping.ClassName, classGuideMapping.SpecName,
                     guide.Item1, guide.Item2, guide.Item3);
-
-                ItemSourceFileManager.WriteItemSources(itemSources);
             }
             else
             {
@@ -248,161 +164,145 @@ public static class WowheadImporter
         {
             throw new ParseException(ex.ToString(), ex);
         }
-        VerifyGuide(items.Values.ToList());
+        VerifyGuide(itemsAndEnchants.Item3.Values.ToList());
         return sb.ToString();
     }
 
-        public static async Task UpdateItemsFromWowhead(CancellationToken cancelToken, Action<string> writeToLog)
+    private static void WriteGemsInternal(Dictionary<int, GemSpec> gems, Action<string> logFunc)
+    {
+        var gemSources = ItemSourceFileManager.ReadGemSources();
+
+        foreach (var gem in gems)
+        {
+            if (!gemSources.ContainsKey(gem.Value.GemId) && gem.Value.GemId > 0)
+            {
+                gemSources.Add(gem.Value.GemId, new GemSource
+                {
+                    GemId = gem.Value.GemId,
+                    DesignId = 99999,
+                    Name = gem.Value.Name,
+                    Source = "\"unknown\"",
+                    SourceLocation = "\"unknown\"",
+                });
+            }
+
+            logFunc($"{gem.Value.GemId}: {gem.Value.Name}");
+        }
+
+        ItemSourceFileManager.WriteGemSources(gemSources);
+    }
+
+    private static void WriteItemsInternal(Dictionary<int, ItemSpec> items, Action<string> logFunc)
     {
         var itemSources = ItemSourceFileManager.ReadItemSources();
-
-        var sources = new Dictionary<int, List<(string, string)>>();
-
-        var webAddresses = itemSources.Where((i) => i.Value.SourceType == @"LBIS.L[""unknown""]")
-                                           .Select((i) => $"https://www.wowhead.com/cata/item={i.Key}/");
-
-        await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
-        {
-            var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/cata/item=", "").TrimEnd('/'));
-                var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
-            if (rowElements != null && rowElements.Length > 0)
-            {
-                if (rowElements.Length > 20)
-                {
-                    itemSources[itemId].SourceType = AddLocalizeText("Drop");
-                    itemSources[itemId].Source = AddLocalizeText("World Drop");
-                    itemSources[itemId].SourceNumber = "0";
-                    itemSources[itemId].SourceLocation = string.Empty;
-                }
-                else if (rowElements.Length == 1)
-                {
-                    var location = rowElements[0].Children[2].TextContent.Trim();
-                    if (location == "Blackfathom Deeps")
-                        location = "Blackfathom Deeps (dungeon)";
-
-                    itemSources[itemId].SourceType = AddLocalizeText("Drop");
-                    itemSources[itemId].Source = AddLocalizeText(rowElements[0].Children[0].TextContent.Trim());
-                    itemSources[itemId].SourceNumber = "0";
-                    itemSources[itemId].SourceLocation = AddLocalizeText(location);
-                }
-            } 
-            else 
-            {                
-                rowElements = doc.QuerySelectorAll("#tab-reward-from-q .listview-mode-default .listview-row");
-                if (rowElements != null && rowElements.Length > 0)
-                {
-                    if (rowElements.Count() == 1)
-                    {
-                        var faction = "B";
-                        if (rowElements[0].Children[3].HasChildNodes && 
-                            rowElements[0].Children[3].Children[0].ClassName == "icon-alliance")
-                            faction = "A";
-                        else if (rowElements[0].Children[3].HasChildNodes && 
-                                 rowElements[0].Children[3].Children[0].ClassName == "icon-horde")
-                            faction = "H";
-
-                        itemSources[itemId].SourceType = AddLocalizeText("Quest");
-                        itemSources[itemId].Source = AddLocalizeText(rowElements[0].Children[0].TextContent.Trim());
-                        itemSources[itemId].SourceNumber = "0";
-                        itemSources[itemId].SourceLocation = AddLocalizeText(rowElements[0].Children[7].TextContent.Trim());
-                        itemSources[itemId].SourceFaction = faction;
-                    }
-                } 
-            }
-        }, writeToLog, cancelToken);
         
+        foreach (var item in items)
+        {
+            if (items.Count(i => i.Value.Slot == item.Value.Slot) == 1)
+            {
+                if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
+                {
+                    itemSources.Add(item.Value.ItemId, new ItemSource
+                    {
+                        ItemId = item.Value.ItemId,
+                        Name = item.Value.Name,
+                        SourceType = "LBIS.L[\"unknown\"]",
+                        Source = "LBIS.L[\"unknown\"]",
+                        SourceNumber = "0",
+                        SourceLocation = "LBIS.L[\"unknown\"]"
+                    });
+                }
+                item.Value.BisStatus = "BIS";
+
+                logFunc($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
+            }
+            if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
+            {
+                itemSources.Add(item.Value.ItemId, new ItemSource
+                {
+                    ItemId = item.Value.ItemId,
+                    Name = item.Value.Name,
+                    SourceType = "LBIS.L[\"unknown\"]",
+                    Source = "LBIS.L[\"unknown\"]",
+                    SourceNumber = "0",
+                    SourceLocation = "LBIS.L[\"unknown\"]"
+                });
+            }
+
+            logFunc($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
+        }
+
         ItemSourceFileManager.WriteItemSources(itemSources);
-    }   
-
-    private static string ImportGemsAndEnchantsInternal(ClassGuideMapping classGuide, IHtmlDocument doc)
-    {
-        var sb = new StringBuilder();
-        try
-        {
-            var className = $"{classGuide.ClassName}{classGuide.SpecName}";
-            var gemSources = ItemSourceFileManager.ReadGemSources();
-            var enchantSources = ItemSourceFileManager.ReadEnchantSources();
-            var gemsEnchants = new WowheadGuideParser().ParseGemEnchantsWowheadGuide(classGuide, doc);
-
-            var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
-
-            foreach (var gem in gemsEnchants.Item1)
-            {
-                if (!gemSources.ContainsKey(gem.Value.GemId) && gem.Value.GemId > 0)
-                {
-                    gemSources.Add(gem.Value.GemId, new GemSource
-                    {
-                        GemId = gem.Value.GemId,
-                        DesignId = 99999,
-                        Name = gem.Value.Name,
-                        Source = "unknown",
-                        SourceLocation = "unknown"
-                    });
-                }
-
-                sb.AppendLine($"{gem.Value.GemId}: {gem.Value.Name} - {gem.Value.Quality} - {gem.Value.IsMeta}");
-            }
-
-            foreach (var enchant in gemsEnchants.Item2)
-            {
-                if (!enchantSources.ContainsKey(enchant.Value.EnchantId) && enchant.Value.EnchantId > 0)
-                {
-                    enchantSources.Add(enchant.Value.EnchantId, new EnchantSource
-                    {
-                        EnchantId = enchant.Value.EnchantId,
-                        DesignId = 99999,
-                        Name = enchant.Value.Name,
-                        Source = "unknown",
-                        SourceLocation = "unknown",
-                        TextureId = enchant.Value.TextureId
-                    });
-                }
-
-                sb.AppendLine($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot}");
-            }
-
-            ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuide.ClassName, classGuide.SpecName,
-                gemsEnchants.Item1, gemsEnchants.Item2, guide.Item3);
-
-            ItemSourceFileManager.WriteGemSources(gemSources);
-            ItemSourceFileManager.WriteEnchantSources(enchantSources);
-        }
-        catch (Exception ex)
-        {
-            throw new ParseException(ex.ToString(), ex);
-        }
-        return sb.ToString();
     }
 
-    public static void RefreshItems()
+    private static void WriteEnchantsInternal(Dictionary<string, EnchantSpec> enchants, Action<string> logFunc)
+    {
+        var enchantSources = ItemSourceFileManager.ReadEnchantSources();
+
+        foreach (var enchant in enchants)
+        {
+            if (!enchantSources.ContainsKey(enchant.Value.EnchantId) && enchant.Value.EnchantId > 0)
+            {
+                enchantSources.Add(enchant.Value.EnchantId, new EnchantSource
+                {
+                    EnchantId = enchant.Value.EnchantId,
+                    DesignId = 99999,
+                    Name = enchant.Value.Name,
+                    Source = "\"unknown\"",
+                    SourceLocation = "\"unknown\"",
+                    TextureId = enchant.Value.TextureId
+                });
+            }
+
+            logFunc($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot}");
+        }
+
+        ItemSourceFileManager.WriteEnchantSources(enchantSources);
+    }
+
+    public static void ImportNewItems()
     {
         var itemSources = ItemSourceFileManager.ReadItemSources();
         var csvLootTable = new Dictionary<int, CsvLootTable>();
-        var oldSources = ItemSourceFileManager.ReadTBCItemSources();
-
-        foreach (var oldSource in oldSources)
-        {
-            csvLootTable.Add(oldSource.Key, new CsvLootTable
-            {
-                ItemId = oldSource.Key,
-                Name = "",
-                IsLegacy = true,
-                ItemSource = { new ImportItemSource
-                {
-                    SourceType = oldSource.Value.SourceType,
-                    Source = oldSource.Value.Source,
-                    SourceNumber = oldSource.Value.SourceNumber,
-                    SourceLocation = oldSource.Value.SourceLocation,
-                } }
-            });
-        }
 
         GetItems(csvLootTable, "DungeonItemList");
         GetItems(csvLootTable, "RaidItemList");
         GetItems(csvLootTable, "EmblemItemList");
         GetItems(csvLootTable, "PvPItemList");
         GetItems(csvLootTable, "ReputationItemList");
-        UpdateProfessionItems(csvLootTable);
+        GetItems(csvLootTable, "ProfessionItemList");
+        
+        foreach (var csvItem in csvLootTable)
+        {
+            if (!itemSources.ContainsKey(csvItem.Key))
+            {
+                itemSources.Add(csvItem.Key, new ItemSource
+                {                    
+                    ItemId = csvItem.Value.ItemId,
+                    Name = csvItem.Value.Name,
+                    SourceType = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceType)).Distinct()),
+                    Source = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.Source))),
+                    SourceNumber = string.Join("~", csvItem.Value.ItemSource.Select(s => s.SourceNumber)),
+                    SourceLocation = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceLocation))),
+                    SourceFaction = string.Join("..\"~\"..", csvItem.Value.ItemSource.First().SourceFaction)
+                });
+            }
+        }
+
+        ItemSourceFileManager.WriteItemSources(itemSources);
+    }
+
+    public static void RefreshItems()
+    {
+        var itemSources = ItemSourceFileManager.ReadItemSources();
+        var csvLootTable = new Dictionary<int, CsvLootTable>();
+
+        GetItems(csvLootTable, "DungeonItemList");
+        GetItems(csvLootTable, "RaidItemList");
+        GetItems(csvLootTable, "EmblemItemList");
+        GetItems(csvLootTable, "PvPItemList");
+        GetItems(csvLootTable, "ReputationItemList");
+        GetItems(csvLootTable, "ProfessionItemList");
 
         var tokenKeys = UpdateTierPieces(csvLootTable, itemSources);
 
@@ -428,17 +328,17 @@ public static class WowheadImporter
                 if (csvItem.IsLegacy)
                 {
                     itemSource.Value.SourceType = "LBIS.L[\"Legacy\"]";
-                    itemSource.Value.Source = "\"\""; //string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.Source)));
-                    itemSource.Value.SourceNumber = ""; //string.Join("/", csvItem.ItemSource.Select(s => s.SourceNumber));
-                    itemSource.Value.SourceLocation = "\"\""; //string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
+                    itemSource.Value.Source = "\"\""; //string.Join("..\"~\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.Source)));
+                    itemSource.Value.SourceNumber = ""; //string.Join("~", csvItem.ItemSource.Select(s => s.SourceNumber));
+                    itemSource.Value.SourceLocation = "\"\""; //string.Join("..\"~\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
                 }
                 else
                 {
-                    itemSource.Value.SourceType = string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceType)).Distinct());
-                    itemSource.Value.Source = string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.Source)));
-                    itemSource.Value.SourceNumber = string.Join("/", csvItem.ItemSource.Select(s => s.SourceNumber));
-                    itemSource.Value.SourceLocation = string.Join("..\"/\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
-                    itemSource.Value.SourceFaction = string.Join("..\"/\"..", csvItem.ItemSource.First().SourceFaction);
+                    itemSource.Value.SourceType = string.Join("..\"~\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceType)).Distinct());
+                    itemSource.Value.Source = string.Join("..\"~\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.Source)));
+                    itemSource.Value.SourceNumber = string.Join("~", csvItem.ItemSource.Select(s => s.SourceNumber));
+                    itemSource.Value.SourceLocation = string.Join("..\"~\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
+                    itemSource.Value.SourceFaction = string.Join("..\"~\"..", csvItem.ItemSource.First().SourceFaction);
 
                     if (tokenKeys.Contains(itemSource.Key) && itemSource.Key != 47242)
                     {
@@ -451,57 +351,160 @@ public static class WowheadImporter
         ItemSourceFileManager.WriteItemSources(itemSources);
     }
 
-    private static void UpdateProfessionItems(Dictionary<int, CsvLootTable> csvLootTable)
+    public static async Task<GemSpec> GetGemFromWowhead(int gemId, Action<string> writeToLog)
     {
-        DatabaseItems dbItem;
-        var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\ProfessionItemList.json");
-        dbItem = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
-
-        foreach (var item in dbItem.Items)
+        GemSpec gemSpec = null;
+        try 
         {
-            var ids = item.Value.SourceNumber.Split(",");
-            var itemId = Int32.Parse(ids[0]);
-            int spellId = 0;
-            if (ids.Length > 1)
-                spellId = Int32.Parse(ids[1]);
-            if (itemId > 0)
+            await Common.LoadFromWebPage($"https://www.wowhead.com/cata/item={gemId}/", (uri, doc) =>
             {
-                var itemName = item.Value.Name.Split(":")[1].Trim();
-                csvLootTable.Add(itemId, new CsvLootTable
+                if (doc != null)
                 {
-                    ItemId = itemId,
-                    Name = itemName,
-                    ItemSource =
-                    {
-                        new ImportItemSource
-                        {
-                            SourceType = "Profession",
-                            Source = item.Value.Source,
-                            SourceNumber = item.Key.ToString(),
-                            SourceLocation = spellId.ToString(),
-                            SourceFaction = item.Value.SourceFaction
-                        }
-                    }
-                });
+                    var name = doc.Title?.Split("-")[0].Trim() ?? "unknown";
+                    var isMeta = doc.QuerySelector("#main-precontents div span ~ span ~ span ~ span")?.TextContent == "Meta";
+                    var quality = doc.QuerySelector(".wowhead-tooltip b")?.ClassName;
 
-                csvLootTable.Add(item.Key, new CsvLootTable
-                {
-                    ItemId = item.Key,
-                    Name = item.Value.Name,
-                    ItemSource =
-                    {
-                        new ImportItemSource
-                        {
-                            SourceType = "Profession",
-                            Source = item.Value.Source,
-                            SourceNumber = "0",
-                            SourceLocation = item.Value.SourceLocation,
-                            SourceFaction = item.Value.SourceFaction
-                        }
-                    }
-                });
-            }
+                    int itemQuality = 0;
+                    if (quality?.Contains("q1") ?? false)
+                        itemQuality = 1;
+                    else if (quality?.Contains("q2") ?? false)
+                        itemQuality = 2;
+                    else if (quality?.Contains("q3") ?? false)
+                        itemQuality = 3;
+                    else if (quality?.Contains("q4") ?? false)
+                        itemQuality = 4;
+
+                    gemSpec = new GemSpec {
+                        GemId = gemId,
+                        Name = name,
+                        IsMeta = isMeta,
+                        Phase = -1,
+                        Quality = itemQuality
+                    };
+                }
+            }, writeToLog);
+        } catch
+        { 
+            writeToLog("Error !");
         }
+        return gemSpec;
+    }
+
+    public static async Task UpdateItemsFromWowhead(CancellationToken cancelToken, Action<string> writeToLog)
+    {
+        var itemSources = ItemSourceFileManager.ReadItemSources();
+
+        var sources = new Dictionary<int, List<(string, string)>>();
+
+        var webAddresses = itemSources.Where((i) => i.Value.SourceType == @"LBIS.L[""unknown""]")
+                                           .Select((i) => $"https://www.wowhead.com/cata/item={i.Key}/");
+        try 
+        {
+            await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
+            {
+                var name = doc.Title?.Split("-")[0].Trim() ?? "unknown";
+                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/cata/item=", "").TrimEnd('/'));
+                    var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
+                
+                itemSources[itemId].Name = name;
+                if (rowElements != null && rowElements.Length > 0)
+                {
+                    var source = rowElements[0].Children[0].TextContent.Trim();
+                    var location = rowElements[0].Children[2].TextContent.Trim();
+
+                    if (rowElements.Length == 1)
+                    {
+                        if (location == "Blackfathom Deeps")
+                            location = "Blackfathom Deeps (dungeon)";
+
+                        itemSources[itemId].SourceType = AddLocalizeText("Drop");
+                        itemSources[itemId].Source = AddLocalizeText(source);
+                        itemSources[itemId].SourceNumber = "0";
+                        itemSources[itemId].SourceLocation = AddLocalizeText(location);
+                        itemSources[itemId].SourceFaction = "B";
+                    }
+                    else if (rowElements.All(r => r.Children[2].TextContent.Trim() == location))
+                    {
+                        if (IsDungeonName(location))
+                            itemSources[itemId].Source = AddLocalizeText("Trash Mobs");
+                        else
+                            itemSources[itemId].Source = AddLocalizeText("World Drop");
+                        
+                        if (location.ToLower() == "the temple of atal'hakkar")
+                            location = "Sunken Temple";
+
+                        itemSources[itemId].SourceType = AddLocalizeText("Drop");
+                        itemSources[itemId].SourceNumber = "0";
+                        itemSources[itemId].SourceLocation = AddLocalizeText(location);
+                        itemSources[itemId].SourceFaction = "B";
+                    }
+                    else
+                    {
+                        itemSources[itemId].SourceType = AddLocalizeText("Drop");
+                        itemSources[itemId].Source = AddLocalizeText("World Drop");
+                        itemSources[itemId].SourceNumber = "0";
+                        itemSources[itemId].SourceLocation = string.Empty;
+                        itemSources[itemId].SourceFaction = "B";
+                    }
+                }
+                else 
+                {                
+                    rowElements = doc.QuerySelectorAll("#tab-reward-from-q .listview-mode-default .listview-row");
+                    if (rowElements != null && rowElements.Length > 0)
+                    {
+                        var source = string.Empty;
+                        var faction = string.Empty;
+                        var sourceLocation = string.Empty;
+                        foreach(var row in rowElements)
+                        {
+                            if (row.Children[3].HasChildNodes && row.Children[3].Children[0].ClassName == "icon-alliance" && string.IsNullOrWhiteSpace(faction))
+                                faction = "A";
+                            else if (row.Children[3].HasChildNodes && row.Children[3].Children[0].ClassName == "icon-horde" && string.IsNullOrWhiteSpace(faction))
+                                faction = "H";
+                            else 
+                                faction = "B";
+
+                            if (row.Children[0].TextContent.Trim() != source)
+                            {
+                                if (!string.IsNullOrWhiteSpace(source))
+                                    source += " & ";
+                                source += row.Children[0].TextContent.Trim();
+                            }
+
+                            if (row.Children[7].TextContent.Trim() != sourceLocation)
+                            {
+                                if (!string.IsNullOrWhiteSpace(sourceLocation))
+                                    sourceLocation += " & ";
+                                sourceLocation += row.Children[7].TextContent.Trim();
+                            }
+                        }
+                        
+                        itemSources[itemId].SourceType = AddLocalizeText("Quest");
+                        itemSources[itemId].Source = AddLocalizeText(source);
+                        itemSources[itemId].SourceNumber = "0";
+                        itemSources[itemId].SourceLocation = AddLocalizeText(sourceLocation);
+                        itemSources[itemId].SourceFaction = faction;
+                    } 
+                }
+            }, writeToLog, cancelToken);
+            
+        } catch
+        { 
+            writeToLog("Error !");
+        }
+        ItemSourceFileManager.WriteItemSources(itemSources);
+    }
+
+    private static List<string> _dungeons = new List<string>() {"ragefire chasm", "the deadmines", "wailing caverns", 
+                                                                "shadowfang keep", "the stockade", "razorfen kraul", 
+                                                                "scarlet monastery", "razorfen downs", "uldaman", 
+                                                                "zul'farrak", "the temple of atal'hakkar", "blackrock depths", 
+                                                                "lower blackrock spire", "upper blackrock spire", "scholomance",
+                                                                "stratholme live", "stratholme undead",
+                                                                "dire maul: east", "dire maul: west", "dire maul: north" };
+    private static bool IsDungeonName(string location)
+    {
+        return _dungeons.Contains(location.ToLower());
     }
 
     private static string AddLocalizeText(string source)
@@ -529,12 +532,12 @@ public static class WowheadImporter
         }
         else
         {
-            var stringSplit = source.Split('/');
+            var stringSplit = source.Split("~");
             var first = true;
             foreach (var split in stringSplit)
             {
                 if (first != true)
-                    sb.Append("..\"/\"..");
+                    sb.Append("..\"~\"..");
 
                 sb.Append($"LBIS.L[\"{split.Trim()}\"]");
 
@@ -616,9 +619,9 @@ public static class WowheadImporter
     {
         foreach (var item in dbItem.Items)
         {
-            var sourceSplit = item.Value.Source.Split("/");
-            var sourceNumberSplit = item.Value.SourceNumber.Split("/");
-            var sourceLocationSplit = item.Value.SourceLocation.Split("/");
+            var sourceSplit = item.Value.Source.Split("~");
+            var sourceNumberSplit = item.Value.SourceNumber.Split("~");
+            var sourceLocationSplit = item.Value.SourceLocation.Split("~");
 
             for (int i = 0; i < sourceSplit.Length; i++)
             {
@@ -654,4 +657,3 @@ public static class WowheadImporter
     }
 
 }
-
