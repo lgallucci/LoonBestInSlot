@@ -10,7 +10,7 @@ LBIS.GemsBySpecAndId = {};
 LBIS.EnchantsBySpecAndId = {};
 
 LBIS.AllItemsCached = false;
-LBIS.CurrentPhase = 1;
+LBIS.CurrentPhase = 99;
 LBIS.Debugging = false;
 
 LBIS.EventFrame = CreateFrame("FRAME", addonName.."Events")
@@ -113,6 +113,8 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 
 	if bisEntry.Phase == "0" then
 		bis = LBIS.L["PreRaid"];
+	elseif bisEntry.Phase == "99" then
+		bis = LBIS.L["PrePatch"];
 	elseif tonumber(bisEntry.Phase) < LBIS.CurrentPhase then
 		bis = string.gsub(bis, "BIS", "Alt");
 	end

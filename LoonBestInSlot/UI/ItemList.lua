@@ -132,6 +132,8 @@ local function IsInPhase(specItem, specItemSource)
         return false;
     elseif LBISSettings.SelectedPhase == LBIS.L["All"] and specItem.Phase ~= "0" then
         return true;
+    elseif LBISSettings.SelectedPhase == LBIS.L["PrePatch"] and LBIS:FindInPhase(specItem.Phase, "99") then
+        return true;
     elseif LBISSettings.SelectedPhase == LBIS.L["PreRaid"] and LBIS:FindInPhase(specItem.Phase, "0") then
         return true;
     elseif LBISSettings.SelectedPhase == LBIS.L["Phase 1"] and LBIS:FindInPhase(specItem.Phase, "1") then

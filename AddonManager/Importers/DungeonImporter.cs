@@ -47,7 +47,7 @@ public class DungeonImporter : LootImporter
         string name = string.Empty;
         if (itemElement != null)
         {
-            var item = ((IHtmlAnchorElement)itemElement).PathName.Replace("/cata", "").Replace("/item=", "");
+            var item = ((IHtmlAnchorElement)itemElement).PathName.Replace("/cata/", "/").Replace("/item=", "");
 
             var itemIdIndex = item.IndexOf("/");
             if (itemIdIndex == -1)

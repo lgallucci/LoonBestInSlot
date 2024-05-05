@@ -337,7 +337,7 @@ public class WowheadGuideParser
             {
                 if (((IHtmlAnchorElement)anchorElement).PathName.Contains("/item="))
                 {
-                    var item = ((IHtmlAnchorElement)anchorElement).PathName.Replace("/wotlk", "").Replace("/cata", "").Replace("/item=", "");
+                    var item = ((IHtmlAnchorElement)anchorElement).PathName.Replace("/wotlk", "").Replace("/cata/", "/").Replace("/item=", "");
 
                     var itemIdIndex = item.IndexOf("/");
                     if (itemIdIndex == -1)
@@ -375,7 +375,7 @@ public class WowheadGuideParser
         else
             return;
 
-        var item = enchantAnchor.PathName.Replace("/wotlk", "").Replace("/cata", "").Replace("/item=", "").Replace("/spell=", "");
+        var item = enchantAnchor.PathName.Replace("/wotlk", "").Replace("/cata/", "/").Replace("/item=", "").Replace("/spell=", "");
         var itemIdIndex = item.IndexOf("/");
         if (itemIdIndex == -1)
             itemIdIndex = item.IndexOf("&");
@@ -477,7 +477,7 @@ public class WowheadGuideParser
 
             if (child.PathName.Contains("/item="))
             {
-                var item = child.PathName.Replace("/wotlk", "").Replace("/cata", "").Replace("/item=", "");
+                var item = child.PathName.Replace("/wotlk", "").Replace("/cata/", "/").Replace("/item=", "");
 
                 var itemIdIndex = item.IndexOf("/");
                 if (itemIdIndex == -1)

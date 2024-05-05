@@ -38,7 +38,7 @@ LBIS:AddItem(spec99, "50860", LBIS.L["Shoulder"], "Alt") --Lightsworn Shouldergu
 LBIS:AddItem(spec99, "50718", LBIS.L["Back"], "BIS") --Royal Crimson Cloak
 LBIS:AddItem(spec99, "50466", LBIS.L["Back"], "Alt") --Sentinel's Winter Cloak
 LBIS:AddItem(spec99, "51174", LBIS.L["Chest"], "BIS") --Sanctified Lightsworn Chestguard
-LBIS:AddItem(spec99, "0", LBIS.L["Chest"], "Alt") --Cataclysmic Chestguard
+LBIS:AddItem(spec99, "50968", LBIS.L["Chest"], "Alt") --Cataclysmic Chestguard
 LBIS:AddItem(spec99, "50611", LBIS.L["Wrist"], "BIS") --Bracers of Dark Reckoning
 LBIS:AddItem(spec99, "47571", LBIS.L["Wrist"], "Alt") --Saronite Swordbreakers
 LBIS:AddItem(spec99, "47570", LBIS.L["Wrist"], "Alt") --Saronite Swordbreakers

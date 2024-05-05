@@ -37,6 +37,12 @@ local function isInEnabledPhase(phaseText)
 			return true;
 		end
 	end
+--For Prepatch
+	if  LBIS.CurrentPhase >= 99 then
+		if LBIS:FindInPhase(phaseText, "99") then
+			return true;
+		end
+	end
 	
 	return false;
 end

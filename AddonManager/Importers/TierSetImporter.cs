@@ -61,7 +61,7 @@ public class TierSetImporter : LootImporter
                     if (cellAnchor != null)
                     {
                         int itemId = 0, tokenId = 0;
-                        var item = cellAnchor.PathName.Replace("/cata", "").Replace("/item=", "");
+                        var item = cellAnchor.PathName.Replace("/cata/", "/").Replace("/item=", "");
 
                         var itemIdIndex = item.IndexOf("/");
                         if (itemIdIndex == -1)

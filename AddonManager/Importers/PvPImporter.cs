@@ -37,7 +37,7 @@ public class PvPImporter : LootImporter
 
                 Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
                 {
-                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/cata", "").Replace("/currency=", "");
+                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/cata/", "/").Replace("/currency=", "");
 
                     var currencyIdIndex = item.IndexOf("/");
                     if (currencyIdIndex == -1)

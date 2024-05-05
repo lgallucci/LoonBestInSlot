@@ -122,7 +122,7 @@ public class EmblemImporter : LootImporter
 
             Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
             {
-                var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/cata", "").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", ""); ;
+                var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/cata/", "/").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", ""); ;
 
                 var currencyIdIndex = item.IndexOf("/");
                 if (currencyIdIndex == -1)
