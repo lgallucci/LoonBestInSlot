@@ -5,14 +5,14 @@ LBIS:AddGem(spec99, "40114", "4", "False") --Delicate Cardinal Ruby
 LBIS:AddGem(spec99, "40147", "4", "False") --Deadly Ametrine
 LBIS:AddGem(spec99, "40113", "4", "False") --Brilliant Cardinal Ruby
 
-LBIS:AddEnchant(spec99, "44879", LBIS.L["Head"]) --Arcanum of Torment
+LBIS:AddEnchant(spec99, "59954", LBIS.L["Head"]) --Arcanum of Torment
 LBIS:AddEnchant(spec99, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec99, "44575", LBIS.L["Wrist"]) --Enchant Bracer - Greater Assault
 LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
 LBIS:AddEnchant(spec99, "60668", LBIS.L["Hands"]) --Enchant Gloves - Crusher
-LBIS:AddEnchant(spec99, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
-LBIS:AddEnchant(spec99, "41118", LBIS.L["Waist"]) --Nitro Boosts
+LBIS:AddEnchant(spec99, "55655", LBIS.L["Waist"]) --Eternal Belt Buckle
+LBIS:AddEnchant(spec99, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec99, "44589", LBIS.L["Feet"]) --Enchant Boots - Superior Agility
 LBIS:AddEnchant(spec99, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 LBIS:AddEnchant(spec99, "59621", LBIS.L["Main Hand"]) --Enchant Weapon - Berserking

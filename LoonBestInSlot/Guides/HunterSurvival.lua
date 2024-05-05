@@ -10,16 +10,16 @@ LBIS:AddGem(spec99, "40150", "4", "False") --Deft Ametrine
 LBIS:AddGem(spec99, "40147", "4", "False") --Deadly Ametrine
 LBIS:AddGem(spec99, "40130", "4", "False") --Shifting Dreadstone
 
-LBIS:AddEnchant(spec99, "50367", LBIS.L["Head"]) --Arcanum of Torment
-LBIS:AddEnchant(spec99, "50335", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
-LBIS:AddEnchant(spec99, "38959", LBIS.L["Back"]) --Scroll of Enchant Cloak - Superior Agility
+LBIS:AddEnchant(spec99, "59954", LBIS.L["Head"]) --Arcanum of Torment
+LBIS:AddEnchant(spec99, "59934", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
+LBIS:AddEnchant(spec99, "44500", LBIS.L["Back"]) --Scroll of Enchant Cloak - Superior Agility
 LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec99, "44575", LBIS.L["Wrist"]) --Enchant Bracers - Greater Assault
 LBIS:AddEnchant(spec99, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
 LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
-LBIS:AddEnchant(spec99, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
-LBIS:AddEnchant(spec99, "38374", LBIS.L["Legs"]) --Icescale Leg Armor
-LBIS:AddEnchant(spec99, "38976", LBIS.L["Feet"]) --Scroll of Enchant Boots - Superior Agility
+LBIS:AddEnchant(spec99, "55655", LBIS.L["Waist"]) --Eternal Belt Buckle
+LBIS:AddEnchant(spec99, "60582", LBIS.L["Legs"]) --Icescale Leg Armor
+LBIS:AddEnchant(spec99, "44589", LBIS.L["Feet"]) --Scroll of Enchant Boots - Superior Agility
 LBIS:AddEnchant(spec99, "60707", LBIS.L["Main Hand"]) --Enchant Weapon - Superior Potency
 LBIS:AddEnchant(spec99, "60691", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Massacre
 

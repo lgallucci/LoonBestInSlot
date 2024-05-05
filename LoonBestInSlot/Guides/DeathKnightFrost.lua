@@ -4,7 +4,7 @@ LBIS:AddGem(spec99, "40111", "4", "False") --Bold Cardinal Ruby
 LBIS:AddGem(spec99, "41285", "3", "True") --Chaotic Skyflare Diamond
 LBIS:AddGem(spec99, "40142", "4", "False") --Inscribed Ametrine
 
-LBIS:AddEnchant(spec99, "50367", LBIS.L["Head"]) --Arcanum of Torment
+LBIS:AddEnchant(spec99, "59954", LBIS.L["Head"]) --Arcanum of Torment
 LBIS:AddEnchant(spec99, "59934", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
 LBIS:AddEnchant(spec99, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
 LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats

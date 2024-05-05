@@ -3,14 +3,14 @@ local spec99 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental"], "99")
 LBIS:AddGem(spec99, "41285", "3", "True") --Chaotic Skyflare Diamond
 LBIS:AddGem(spec99, "40113", "4", "False") --Brilliant Cardinal Ruby
 
-LBIS:AddEnchant(spec99, "44159", LBIS.L["Head"]) --Arcanum of Burning Mysteries
+LBIS:AddEnchant(spec99, "59970", LBIS.L["Head"]) --Arcanum of Burning Mysteries
 LBIS:AddEnchant(spec99, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
 LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec99, "60767", LBIS.L["Wrist"]) --Enchant Bracer - Superior Spellpower
 LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
 LBIS:AddEnchant(spec99, "44592", LBIS.L["Hands"]) --Enchant Gloves - Exceptional Spellpower
-LBIS:AddEnchant(spec99, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
-LBIS:AddEnchant(spec99, "41118", LBIS.L["Waist"]) --Nitro Boosts
+LBIS:AddEnchant(spec99, "55655", LBIS.L["Waist"]) --Eternal Belt Buckle
+LBIS:AddEnchant(spec99, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec99, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
 LBIS:AddEnchant(spec99, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 LBIS:AddEnchant(spec99, "60714", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Spellpower

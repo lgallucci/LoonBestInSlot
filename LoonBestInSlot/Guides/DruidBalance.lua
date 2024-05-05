@@ -4,15 +4,15 @@ LBIS:AddGem(spec99, "41285", "3", "True") --Chaotic Skyflare Diamond
 LBIS:AddGem(spec99, "40113", "4", "False") --Brilliant Cardinal Ruby
 LBIS:AddGem(spec99, "40155", "4", "False") --Reckless Ametrine
 
-LBIS:AddEnchant(spec99, "50368", LBIS.L["Head"]) --Arcanum of Burning Mysteries
-LBIS:AddEnchant(spec99, "44135", LBIS.L["Shoulder"]) --Greater Inscription of the Storm
+LBIS:AddEnchant(spec99, "59970", LBIS.L["Head"]) --Arcanum of Burning Mysteries
+LBIS:AddEnchant(spec99, "59937", LBIS.L["Shoulder"]) --Greater Inscription of the Storm
 LBIS:AddEnchant(spec99, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
 LBIS:AddEnchant(spec99, "55642", LBIS.L["Back"]) --Lightweave Embroidery
 LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec99, "60767", LBIS.L["Wrist"]) --Enchant Bracer - Superior Spellpower
 LBIS:AddEnchant(spec99, "44592", LBIS.L["Hands"]) --Enchant Gloves - Exceptional Spellpower
 LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
-LBIS:AddEnchant(spec99, "41602", LBIS.L["Legs"]) --Brilliant Spellthread
+LBIS:AddEnchant(spec99, "55631", LBIS.L["Legs"]) --Brilliant Spellthread
 LBIS:AddEnchant(spec99, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
 LBIS:AddEnchant(spec99, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 LBIS:AddEnchant(spec99, "62948", LBIS.L["Main Hand"]) --Enchant Staff - Greater Spellpower

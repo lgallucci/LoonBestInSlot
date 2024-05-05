@@ -6,20 +6,20 @@ LBIS:AddGem(spec99, "40150", "4", "False") --Deft Ametrine
 LBIS:AddGem(spec99, "40157", "4", "False") --Glinting Dreadstone
 LBIS:AddGem(spec99, "49110", "4", "False") --Nightmare Tear
 
-LBIS:AddEnchant(spec99, "50367", LBIS.L["Head"]) --Arcanum of Torment
-LBIS:AddEnchant(spec99, "44133", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
+LBIS:AddEnchant(spec99, "59954", LBIS.L["Head"]) --Arcanum of Torment
+LBIS:AddEnchant(spec99, "59934", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
 LBIS:AddEnchant(spec99, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec99, "44575", LBIS.L["Wrist"]) --Enchant Bracer - Greater Assault
 LBIS:AddEnchant(spec99, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
 LBIS:AddEnchant(spec99, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec99, "38374", LBIS.L["Legs"]) --Icescale Leg Armor
-LBIS:AddEnchant(spec99, "35299", LBIS.L["Feet"]) --Formula: Enchant Boots - Cat's Swiftness
+LBIS:AddEnchant(spec99, "60582", LBIS.L["Legs"]) --Icescale Leg Armor
+LBIS:AddEnchant(spec99, "34007", LBIS.L["Feet"]) --Formula: Enchant Boots - Cat's Swiftness
 LBIS:AddEnchant(spec99, "44589", LBIS.L["Feet"]) --Enchant Boots - Superior Agility
 LBIS:AddEnchant(spec99, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
-LBIS:AddEnchant(spec99, "44493", LBIS.L["Main Hand"]) --Enchant Weapon - Berserking
-LBIS:AddEnchant(spec99, "6947", LBIS.L["Main Hand"]) --Instant Poison
-LBIS:AddEnchant(spec99, "2892", LBIS.L["Main Hand"]) --Deadly Poison
+LBIS:AddEnchant(spec99, "59621", LBIS.L["Main Hand"]) --Enchant Weapon - Berserking
+LBIS:AddEnchant(spec99, "8679", LBIS.L["Main Hand"]) --Instant Poison
+LBIS:AddEnchant(spec99, "2823", LBIS.L["Main Hand"]) --Deadly Poison
 
 LBIS:AddItem(spec99, "51252", LBIS.L["Head"], "BIS") --Sanctified Shadowblade Helmet
 LBIS:AddItem(spec99, "51187", LBIS.L["Head"], "Alt") --Sanctified Shadowblade Helmet

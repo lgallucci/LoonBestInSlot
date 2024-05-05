@@ -5,26 +5,26 @@ LBIS:AddGem(spec99, "40153", "4", "False") --Veiled Dreadstone
 LBIS:AddGem(spec99, "40155", "4", "False") --Reckless Ametrine
 LBIS:AddGem(spec99, "40113", "4", "False") --Brilliant Cardinal Ruby
 
-LBIS:AddEnchant(spec99, "50368", LBIS.L["Head"]) --Arcanum of Burning Mysteries
-LBIS:AddEnchant(spec99, "44075", LBIS.L["Head"]) --Arcanum of Dominance
+LBIS:AddEnchant(spec99, "59970", LBIS.L["Head"]) --Arcanum of Burning Mysteries
+LBIS:AddEnchant(spec99, "59784", LBIS.L["Head"]) --Arcanum of Dominance
 LBIS:AddEnchant(spec99, "55642", LBIS.L["Back"]) --Lightweave Embroidery
 LBIS:AddEnchant(spec99, "63765", LBIS.L["Back"]) --Springy Arachnoweave
-LBIS:AddEnchant(spec99, "39003", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
-LBIS:AddEnchant(spec99, "38928", LBIS.L["Chest"]) --Enchant Chest - Major Spirit
-LBIS:AddEnchant(spec99, "44465", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
+LBIS:AddEnchant(spec99, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
+LBIS:AddEnchant(spec99, "33990", LBIS.L["Chest"]) --Enchant Chest - Major Spirit
+LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec99, "57691", LBIS.L["Wrist"]) --Fur Lining - Spell Power
-LBIS:AddEnchant(spec99, "44470", LBIS.L["Wrist"]) --Enchant Bracer - Superior Spellpower
+LBIS:AddEnchant(spec99, "60767", LBIS.L["Wrist"]) --Enchant Bracer - Superior Spellpower
 LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
-LBIS:AddEnchant(spec99, "38979", LBIS.L["Hands"]) --Enchant Gloves - Exceptional Spellpower
-LBIS:AddEnchant(spec99, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
+LBIS:AddEnchant(spec99, "44592", LBIS.L["Hands"]) --Enchant Gloves - Exceptional Spellpower
+LBIS:AddEnchant(spec99, "55655", LBIS.L["Waist"]) --Eternal Belt Buckle
 LBIS:AddEnchant(spec99, "54793", LBIS.L["Waist"]) --Frag Belt
 LBIS:AddEnchant(spec99, "55016", LBIS.L["Feet"]) --Nitro Boosts
-LBIS:AddEnchant(spec99, "39006", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
+LBIS:AddEnchant(spec99, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
 LBIS:AddEnchant(spec99, "60623", LBIS.L["Feet"]) --Enchant Boots - Icewalker
 LBIS:AddEnchant(spec99, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
-LBIS:AddEnchant(spec99, "44467", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Spellpower
+LBIS:AddEnchant(spec99, "60714", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Spellpower
 LBIS:AddEnchant(spec99, "59625", LBIS.L["Main Hand"]) --Enchant Weapon - Black Magic
-LBIS:AddEnchant(spec99, "45056", LBIS.L["Two Hand"]) --Enchant Staff - Greater Spellpower
+LBIS:AddEnchant(spec99, "62948", LBIS.L["Two Hand"]) --Enchant Staff - Greater Spellpower
 
 LBIS:AddItem(spec99, "51231", LBIS.L["Head"], "BIS") --Sanctified Dark Coven Hood
 LBIS:AddItem(spec99, "51208", LBIS.L["Head"], "Alt") --Sanctified Dark Coven Hood

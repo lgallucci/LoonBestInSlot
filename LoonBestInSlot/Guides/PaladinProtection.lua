@@ -4,10 +4,10 @@ LBIS:AddGem(spec99, "40141", "4", "False") --Guardian's Dreadstone
 LBIS:AddGem(spec99, "41380", "3", "True") --Austere Earthsiege Diamond
 LBIS:AddGem(spec99, "40119", "4", "False") --Solid Majestic Zircon
 
-LBIS:AddEnchant(spec99, "50369", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
-LBIS:AddEnchant(spec99, "44957", LBIS.L["Shoulder"]) --Greater Inscription of the Gladiator
+LBIS:AddEnchant(spec99, "59955", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
+LBIS:AddEnchant(spec99, "62384", LBIS.L["Shoulder"]) --Greater Inscription of the Gladiator
 LBIS:AddEnchant(spec99, "61119", LBIS.L["Shoulder"]) --Master's Inscription of the Pinnacle
-LBIS:AddEnchant(spec99, "50337", LBIS.L["Shoulder"]) --Greater Inscription of the Pinnacle
+LBIS:AddEnchant(spec99, "59941", LBIS.L["Shoulder"]) --Greater Inscription of the Pinnacle
 LBIS:AddEnchant(spec99, "47672", LBIS.L["Back"]) --Enchant Cloak - Mighty Armor
 LBIS:AddEnchant(spec99, "44591", LBIS.L["Back"]) --Enchant Cloak - Superior Dodge
 LBIS:AddEnchant(spec99, "47900", LBIS.L["Chest"]) --Enchant Chest - Super Health
@@ -18,16 +18,16 @@ LBIS:AddEnchant(spec99, "55628", LBIS.L["Wrist"]) --Socket Bracer
 LBIS:AddEnchant(spec99, "63770", LBIS.L["Hands"]) --Reticulated Armor Webbing
 LBIS:AddEnchant(spec99, "44484", LBIS.L["Hands"]) --Enchant Gloves - Expertise
 LBIS:AddEnchant(spec99, "55641", LBIS.L["Hands"]) --Socket Gloves
-LBIS:AddEnchant(spec99, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
+LBIS:AddEnchant(spec99, "55655", LBIS.L["Waist"]) --Eternal Belt Buckle
 LBIS:AddEnchant(spec99, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec99, "38373", LBIS.L["Legs"]) --Frosthide Leg Armor
+LBIS:AddEnchant(spec99, "60581", LBIS.L["Legs"]) --Frosthide Leg Armor
 LBIS:AddEnchant(spec99, "60583", LBIS.L["Legs"]) --Jormungar Leg Reinforcements
 LBIS:AddEnchant(spec99, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
 LBIS:AddEnchant(spec99, "44528", LBIS.L["Feet"]) --Enchant Boots - Greater Fortitude
 LBIS:AddEnchant(spec99, "59636", LBIS.L["Ring"]) --Enchant Ring - Stamina
 LBIS:AddEnchant(spec99, "64579", LBIS.L["Main Hand"]) --Enchant Weapon - Blood Draining
 LBIS:AddEnchant(spec99, "59619", LBIS.L["Main Hand"]) --Enchant Weapon - Accuracy
-LBIS:AddEnchant(spec99, "41976", LBIS.L["Main Hand"]) --Titanium Weapon Chain
+LBIS:AddEnchant(spec99, "55836", LBIS.L["Main Hand"]) --Titanium Weapon Chain
 LBIS:AddEnchant(spec99, "34009", LBIS.L["Off Hand"]) --Enchant Shield - Major Stamina
 
 LBIS:AddItem(spec99, "50640", LBIS.L["Head"], "BIS") --Broken Ram Skull Helm
@@ -38,7 +38,7 @@ LBIS:AddItem(spec99, "50860", LBIS.L["Shoulder"], "Alt") --Lightsworn Shouldergu
 LBIS:AddItem(spec99, "50718", LBIS.L["Back"], "BIS") --Royal Crimson Cloak
 LBIS:AddItem(spec99, "50466", LBIS.L["Back"], "Alt") --Sentinel's Winter Cloak
 LBIS:AddItem(spec99, "51174", LBIS.L["Chest"], "BIS") --Sanctified Lightsworn Chestguard
-LBIS:AddItem(spec99, "50968", LBIS.L["Chest"], "Alt") --Cataclysmic Chestguard
+LBIS:AddItem(spec99, "0", LBIS.L["Chest"], "Alt") --Cataclysmic Chestguard
 LBIS:AddItem(spec99, "50611", LBIS.L["Wrist"], "BIS") --Bracers of Dark Reckoning
 LBIS:AddItem(spec99, "47571", LBIS.L["Wrist"], "Alt") --Saronite Swordbreakers
 LBIS:AddItem(spec99, "47570", LBIS.L["Wrist"], "Alt") --Saronite Swordbreakers

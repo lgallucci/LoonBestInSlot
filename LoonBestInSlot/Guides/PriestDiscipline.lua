@@ -6,16 +6,16 @@ LBIS:AddGem(spec99, "40113", "4", "False") --Brilliant Cardinal Ruby
 LBIS:AddGem(spec99, "40134", "4", "False") --Purified Dreadstone
 LBIS:AddGem(spec99, "40151", "4", "False") --Purified Dreadstone
 
-LBIS:AddEnchant(spec99, "50370", LBIS.L["Head"]) --Arcanum of Blissful Mending
-LBIS:AddEnchant(spec99, "50336", LBIS.L["Shoulder"]) --Greater Inscription of the Crag
-LBIS:AddEnchant(spec99, "50338", LBIS.L["Shoulder"]) --Greater Inscription of the Storm
+LBIS:AddEnchant(spec99, "59960", LBIS.L["Head"]) --Arcanum of Blissful Mending
+LBIS:AddEnchant(spec99, "59936", LBIS.L["Shoulder"]) --Greater Inscription of the Crag
+LBIS:AddEnchant(spec99, "59937", LBIS.L["Shoulder"]) --Greater Inscription of the Storm
 LBIS:AddEnchant(spec99, "63765", LBIS.L["Back"]) --Springy Arachnoweave
 LBIS:AddEnchant(spec99, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
 LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec99, "57691", LBIS.L["Wrist"]) --Fur Lining - Spell Power
 LBIS:AddEnchant(spec99, "60767", LBIS.L["Wrist"]) --Enchant Bracer - Superior Spellpower
 LBIS:AddEnchant(spec99, "44592", LBIS.L["Hands"]) --Enchant Gloves - Exceptional Spellpower
-LBIS:AddEnchant(spec99, "41604", LBIS.L["Legs"]) --Sapphire Spellthread
+LBIS:AddEnchant(spec99, "55634", LBIS.L["Legs"]) --Sapphire Spellthread
 LBIS:AddEnchant(spec99, "44508", LBIS.L["Feet"]) --Enchant Boots - Greater Spirit
 LBIS:AddEnchant(spec99, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
 LBIS:AddEnchant(spec99, "60714", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Spellpower

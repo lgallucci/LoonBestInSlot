@@ -6,21 +6,21 @@ LBIS:AddGem(spec99, "40167", "4", "False") --Regal Eye of Zul
 LBIS:AddGem(spec99, "40119", "4", "False") --Solid Majestic Zircon
 LBIS:AddGem(spec99, "40130", "4", "False") --Shifting Dreadstone
 
-LBIS:AddEnchant(spec99, "44878", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
+LBIS:AddEnchant(spec99, "59955", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
 LBIS:AddEnchant(spec99, "44591", LBIS.L["Back"]) --Enchant Cloak - Superior Dodge
 LBIS:AddEnchant(spec99, "47672", LBIS.L["Back"]) --Enchant Cloak - Mighty Armor
-LBIS:AddEnchant(spec99, "38376", LBIS.L["Chest"]) --Heavy Borean Armor Kit
+LBIS:AddEnchant(spec99, "50909", LBIS.L["Chest"]) --Heavy Borean Armor Kit
 LBIS:AddEnchant(spec99, "57690", LBIS.L["Wrist"]) --Fur Lining - Stamina
 LBIS:AddEnchant(spec99, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamina
-LBIS:AddEnchant(spec99, "38376", LBIS.L["Hands"]) --Heavy Borean Armor Kit
+LBIS:AddEnchant(spec99, "50909", LBIS.L["Hands"]) --Heavy Borean Armor Kit
 LBIS:AddEnchant(spec99, "63770", LBIS.L["Hands"]) --Reticulated Armor Webbing
-LBIS:AddEnchant(spec99, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
-LBIS:AddEnchant(spec99, "38373", LBIS.L["Legs"]) --Frosthide Leg Armor
+LBIS:AddEnchant(spec99, "55655", LBIS.L["Waist"]) --Eternal Belt Buckle
+LBIS:AddEnchant(spec99, "60581", LBIS.L["Legs"]) --Frosthide Leg Armor
 LBIS:AddEnchant(spec99, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
 LBIS:AddEnchant(spec99, "59619", LBIS.L["Main Hand"]) --Enchant Weapon - Accuracy
 LBIS:AddEnchant(spec99, "64579", LBIS.L["Main Hand"]) --Enchant Weapon - Blood Draining
 LBIS:AddEnchant(spec99, "34009", LBIS.L["Off Hand"]) --Enchant Shield - Major Stamina
-LBIS:AddEnchant(spec99, "44936", LBIS.L["Off Hand"]) --Titanium Plating
+LBIS:AddEnchant(spec99, "62201", LBIS.L["Off Hand"]) --Titanium Plating
 
 LBIS:AddItem(spec99, "51221", LBIS.L["Head"], "BIS") --Sanctified Ymirjar Lord's Greathelm
 LBIS:AddItem(spec99, "50640", LBIS.L["Head"], "Alt") --Broken Ram Skull Helm

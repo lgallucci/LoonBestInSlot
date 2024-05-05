@@ -13,7 +13,7 @@ LBIS:AddEnchant(spec99, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stami
 LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
 LBIS:AddEnchant(spec99, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
 LBIS:AddEnchant(spec99, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec99, "38373", LBIS.L["Legs"]) --Frosthide Leg Armor
+LBIS:AddEnchant(spec99, "60581", LBIS.L["Legs"]) --Frosthide Leg Armor
 LBIS:AddEnchant(spec99, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
 
 LBIS:AddItem(spec99, "51296", LBIS.L["Head"], "BIS") --Sanctified Lasherweave Headguard

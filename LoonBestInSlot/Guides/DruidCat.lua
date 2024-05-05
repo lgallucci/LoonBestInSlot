@@ -2,8 +2,8 @@ local spec99 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "99")
 
 LBIS:AddGem(spec99, "40112", "4", "False") --Delicate Cardinal Ruby
 
-LBIS:AddEnchant(spec99, "50367", LBIS.L["Head"]) --Arcanum of Torment
-LBIS:AddEnchant(spec99, "50335", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
+LBIS:AddEnchant(spec99, "59954", LBIS.L["Head"]) --Arcanum of Torment
+LBIS:AddEnchant(spec99, "59934", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
 LBIS:AddEnchant(spec99, "55002", LBIS.L["Back"]) --Flexweave Underlay
 LBIS:AddEnchant(spec99, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
@@ -11,7 +11,7 @@ LBIS:AddEnchant(spec99, "44575", LBIS.L["Wrist"]) --Enchant Bracer - Greater Ass
 LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
 LBIS:AddEnchant(spec99, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
 LBIS:AddEnchant(spec99, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec99, "38374", LBIS.L["Legs"]) --Icescale Leg Armor
+LBIS:AddEnchant(spec99, "60582", LBIS.L["Legs"]) --Icescale Leg Armor
 LBIS:AddEnchant(spec99, "44589", LBIS.L["Feet"]) --Enchant Boots - Superior Agility
 
 LBIS:AddItem(spec99, "51296", LBIS.L["Head"], "BIS") --Sanctified Lasherweave Headguard

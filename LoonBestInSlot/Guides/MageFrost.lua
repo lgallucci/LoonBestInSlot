@@ -5,17 +5,17 @@ LBIS:AddGem(spec99, "40153", "4", "False") --Veiled Dreadstone
 LBIS:AddGem(spec99, "40152", "4", "False") --Potent Ametrine
 LBIS:AddGem(spec99, "40113", "4", "False") --Brilliant Cardinal Ruby
 
-LBIS:AddEnchant(spec99, "50368", LBIS.L["Head"]) --Arcanum of Burning Mysteries
-LBIS:AddEnchant(spec99, "50338", LBIS.L["Shoulder"]) --Greater Inscription of the Storm
+LBIS:AddEnchant(spec99, "59970", LBIS.L["Head"]) --Arcanum of Burning Mysteries
+LBIS:AddEnchant(spec99, "59937", LBIS.L["Shoulder"]) --Greater Inscription of the Storm
 LBIS:AddEnchant(spec99, "55642", LBIS.L["Back"]) --Lightweave Embroidery
 LBIS:AddEnchant(spec99, "63765", LBIS.L["Back"]) --Springy Arachnoweave
 LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec99, "60767", LBIS.L["Wrist"]) --Enchant Bracer - Superior Spellpower
 LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
 LBIS:AddEnchant(spec99, "44592", LBIS.L["Hands"]) --Enchant Gloves - Exceptional Spellpower
-LBIS:AddEnchant(spec99, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
+LBIS:AddEnchant(spec99, "55655", LBIS.L["Waist"]) --Eternal Belt Buckle
 LBIS:AddEnchant(spec99, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec99, "41602", LBIS.L["Legs"]) --Brilliant Spellthread
+LBIS:AddEnchant(spec99, "55631", LBIS.L["Legs"]) --Brilliant Spellthread
 LBIS:AddEnchant(spec99, "56039", LBIS.L["Legs"]) --Sanctified Spellthread
 LBIS:AddEnchant(spec99, "60623", LBIS.L["Feet"]) --Enchant Boots - Icewalker
 LBIS:AddEnchant(spec99, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower

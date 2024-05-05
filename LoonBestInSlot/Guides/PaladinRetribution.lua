@@ -4,17 +4,17 @@ LBIS:AddGem(spec99, "40111", "4", "False") --Bold Cardinal Ruby
 LBIS:AddGem(spec99, "41285", "3", "True") --Chaotic Skyflare Diamond
 LBIS:AddGem(spec99, "42142", "4", "False") --Bold Dragon's Eye
 
-LBIS:AddEnchant(spec99, "50367", LBIS.L["Head"]) --Arcanum of Torment
-LBIS:AddEnchant(spec99, "50335", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
-LBIS:AddEnchant(spec99, "39003", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
-LBIS:AddEnchant(spec99, "44465", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
-LBIS:AddEnchant(spec99, "44815", LBIS.L["Wrist"]) --Enchant Bracer - Greater Assault
+LBIS:AddEnchant(spec99, "59954", LBIS.L["Head"]) --Arcanum of Torment
+LBIS:AddEnchant(spec99, "59934", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
+LBIS:AddEnchant(spec99, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
+LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
+LBIS:AddEnchant(spec99, "44575", LBIS.L["Wrist"]) --Enchant Bracer - Greater Assault
 LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
 LBIS:AddEnchant(spec99, "60668", LBIS.L["Hands"]) --Enchant Gloves - Crusher
-LBIS:AddEnchant(spec99, "41118", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec99, "38374", LBIS.L["Legs"]) --Icescale Leg Armor
-LBIS:AddEnchant(spec99, "44469", LBIS.L["Feet"]) --Enchant Boots - Greater Assault
-LBIS:AddEnchant(spec99, "44493", LBIS.L["Two Hand"]) --Enchant Weapon - Berserking
+LBIS:AddEnchant(spec99, "55016", LBIS.L["Waist"]) --Nitro Boosts
+LBIS:AddEnchant(spec99, "60582", LBIS.L["Legs"]) --Icescale Leg Armor
+LBIS:AddEnchant(spec99, "60763", LBIS.L["Feet"]) --Enchant Boots - Greater Assault
+LBIS:AddEnchant(spec99, "59621", LBIS.L["Two Hand"]) --Enchant Weapon - Berserking
 
 LBIS:AddItem(spec99, "51277", LBIS.L["Head"], "BIS") --Sanctified Lightsworn Helmet
 LBIS:AddItem(spec99, "50712", LBIS.L["Head"], "Alt") --Landsoul's Horned Greathelm
