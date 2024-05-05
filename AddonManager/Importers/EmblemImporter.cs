@@ -10,6 +10,15 @@ public class EmblemImporter : LootImporter
 {
     private List<string> wowheadUriList = new List<string>
     {
+        "https://www.wowhead.com/cata/npc=37941/magister-arlan#sells",
+        "https://www.wowhead.com/cata/npc=37941/magister-arlan#sells;50",
+        "https://www.wowhead.com/cata/npc=37941/magister-arlan#sells;100",
+        "https://www.wowhead.com/cata/npc=31580/arcanist-ivrenne#sells",
+        "https://www.wowhead.com/cata/npc=31580/arcanist-ivrenne#sells;50",
+        "https://www.wowhead.com/cata/npc=31580/arcanist-ivrenne#sells;100",
+        "https://www.wowhead.com/cata/npc=31579/arcanist-adurin#sells",
+        "https://www.wowhead.com/cata/npc=31579/arcanist-adurin#sells;50",
+        "https://www.wowhead.com/cata/npc=31579/arcanist-adurin#sells;100"
     };
 
     internal override string FileName { get => "EmblemItemList"; }
