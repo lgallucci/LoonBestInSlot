@@ -70,43 +70,6 @@ public static class ItemSourceFileManager
         };
     }
 
-    public static SortedDictionary<int, ItemSource> ReadTBCItemSources()
-    {
-        SortedDictionary<int, ItemSource> items = new SortedDictionary<int, ItemSource>();
-
-        string[] itemSources = System.IO.File.ReadAllLines(@$"{Constants.ItemDbPath}\TBCItemSources.lua");
-
-        foreach (var itemSource in itemSources)
-        {
-            if (itemSource == "LBIS.ItemSources =" ||
-                itemSource == "{" ||
-                itemSource == "}" ||
-                itemSource == String.Empty ||
-                itemSource.Trim().StartsWith("--"))
-            {
-                continue;
-            }
-
-            var openBracket = itemSource.IndexOf("[") + 1;
-            var closeBracket = itemSource.IndexOf("]");
-
-            var itemId = Int32.Parse(itemSource.Substring(openBracket, closeBracket - openBracket));
-            var sourceSplit = itemSource.Split("\"");
-
-            items.Add(itemId, new ItemSource
-            {
-                ItemId = itemId,
-                Name = sourceSplit[1],
-                SourceType = sourceSplit[3],
-                Source = sourceSplit[5],
-                SourceNumber = sourceSplit[7],
-                SourceLocation = sourceSplit[9]
-            });
-        }
-
-        return items;
-    }
-
     public static SortedDictionary<int, GemSource> ReadGemSources()
     {
         SortedDictionary<int, GemSource> gems = new SortedDictionary<int, GemSource>();

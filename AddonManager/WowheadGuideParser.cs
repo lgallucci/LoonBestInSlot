@@ -558,7 +558,7 @@ public class WowheadGuideParser
                     while (nextSibling != null && (nextSibling is not IHtmlTableElement || nextSibling is IHtmlHeadingElement))
                     {
                         if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*for new").Success)
-                            break;
+                            foundEnchantText = false;
 
                         //try to find enchant.
                         if (nextSibling is IHtmlAnchorElement && foundEnchantText)
