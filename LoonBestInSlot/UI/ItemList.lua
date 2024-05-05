@@ -54,9 +54,9 @@ local function printSource(itemId, specItemSource, dl)
     local sourceNumberText = specItemSource.SourceNumber;
     local sourceLocationText = specItemSource.SourceLocation;
 
-    local sourceText1, sourceText2, sourceText3 = strsplit("/", sourceText);
-    local sourceNumberText1, sourceNumberText2, sourceNumberText3 = strsplit("/", sourceNumberText);
-    local sourceLocationText1, sourceLocationText2, sourceLocationText3 = strsplit("/", sourceLocationText);
+    local sourceText1, sourceText2, sourceText3 = strsplit("~", sourceText);
+    local sourceNumberText1, sourceNumberText2, sourceNumberText3 = strsplit("~", sourceNumberText);
+    local sourceLocationText1, sourceLocationText2, sourceLocationText3 = strsplit("~", sourceLocationText);
 
     local function printSourceText(sourceText, sourceNumberText, sourceLocationText, firstRow)
         if not firstRow then
@@ -280,7 +280,7 @@ local function createSourceTypeText(specItemSource)
         end
     end
 
-    local sourceType1, sourceType2 = strsplit("/", specItemSource.SourceType)    
+    local sourceType1, sourceType2 = strsplit("~", specItemSource.SourceType)    
 
     --Create Drop Text
     local dtColor = getSourceColor(sourceType1);
@@ -327,7 +327,7 @@ local function createItemRow(f, specItem, specItemSource)
         st:SetPoint("BOTTOMLEFT", b, "BOTTOMRIGHT", 2, 2);
 
         local pt = f:CreateFontString(nil, nil, "GameFontNormal");
-        if specItem.Phase == "0" then
+        if specItem.Phase == "0" or specItem.Phase == "99" then
             pt:SetText("("..specItem.Bis..")");
         else
             pt:SetText("("..specItem.Bis.." "..string.gsub(specItem.Phase, "0", "PreRaid")..")");
@@ -397,7 +397,7 @@ local function createItemRow(f, specItem, specItemSource)
     end);
 
     -- even if we are reusing, it may not be in the same order
-    local _, count = string.gsub(specItemSource.Source, "/", "")
+    local _, count = string.gsub(specItemSource.Source, "~", "")
     if count > 1 then
         count = count - 1;
     else 
