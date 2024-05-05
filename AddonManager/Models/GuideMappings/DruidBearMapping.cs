@@ -83,7 +83,7 @@ internal class DruidBearMapping : SpecMapping
             { ("Ranged/Relic", "#idols-for-feral-druid-tank-phase-5") }
         };
 
-    public override string PrePatchUrl => "dps-bis-gear-pve";
+    public override string PrePatchUrl => "tank-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
         { ("Head", "#head-for-feral-druid-tank-cataclysm-pre-patch")},

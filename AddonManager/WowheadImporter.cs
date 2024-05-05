@@ -74,9 +74,17 @@ public static class WowheadImporter
     {
         var addresses = new List<string>();
         var addressToSpec = new Dictionary<string, ClassGuideMapping>();
+        string phaseString = string.Empty;
         foreach (string spec in specList)
         {
-            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == $"Phase{phaseNumber}");
+            if (phaseNumber == 0)
+                phaseString = "PreRaid";
+            else if (phaseNumber == 99)
+                phaseString = "PrePatch";
+            else 
+                phaseString = $"Phase{phaseNumber}";
+
+            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == phaseString);
 
             if (specMapping == null)
             {

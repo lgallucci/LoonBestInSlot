@@ -89,7 +89,7 @@ internal class PaladinProtectionMapping : SpecMapping
             { ("Ranged/Relic", "h3#librams") }
         };
 
-    public override string PrePatchUrl => "dps-bis-gear-pve";
+    public override string PrePatchUrl => "tank-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "h3#weapons") },

@@ -90,7 +90,7 @@ internal class ShamanRestorationMapping : SpecMapping
             { ("Ranged/Relic", "#totems-for-restoration-shaman-healer-in-phase-5") }
         };
         
-    public override string PrePatchUrl => "dps-bis-gear-pve";
+    public override string PrePatchUrl => "healer-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
         { ("Main Hand", "#weapons-for-restoration-shaman-healer-in-pre-patch") },

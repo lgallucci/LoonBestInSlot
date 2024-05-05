@@ -89,7 +89,7 @@ internal class PriestHolyMapping : SpecMapping
             { ("Ranged/Relic", "#wands-for-holy-priest-healer-phase-5") }
         };
 
-    public override string PrePatchUrl => "dps-bis-gear-pve";
+    public override string PrePatchUrl => "healer-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
         { ("Head", "#head-for-holy-priest-healer")},

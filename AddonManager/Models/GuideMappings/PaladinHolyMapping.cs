@@ -90,7 +90,7 @@ internal class PaladinHolyMapping : SpecMapping
             { ("Ranged/Relic", "#librams-for-holy-paladin-healer-phase-5") }
         };
 
-    public override string PrePatchUrl => "dps-bis-gear-pve";
+    public override string PrePatchUrl => "healer-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
         { ("Main Hand", "#main-hand-weapons-for-holy-paladin-healer") },

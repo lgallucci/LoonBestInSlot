@@ -102,7 +102,7 @@ internal class WarriorProtectionMapping : SpecMapping
             { ("Ranged/Relic", "#ranged") }
         };
 
-    public override string PrePatchUrl => "dps-bis-gear-pve";
+    public override string PrePatchUrl => "tank-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
         { ("Head", "#head-for-protection-warrior-tank")},
