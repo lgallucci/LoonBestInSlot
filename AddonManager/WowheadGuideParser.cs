@@ -284,7 +284,7 @@ public class WowheadGuideParser
             {
                 if (((IHtmlAnchorElement)anchorElement).PathName.Contains("/item="))
                 {
-                    var item = ((IHtmlAnchorElement)anchorElement).PathName.Replace("/cata", "").Replace("/item=", "");
+                    var item = ((IHtmlAnchorElement)anchorElement).PathName.Replace("/wotlk", "").Replace("/cata", "").Replace("/item=", "");
 
                     var itemIdIndex = item.IndexOf("/");
                     if (itemIdIndex == -1)
@@ -317,7 +317,7 @@ public class WowheadGuideParser
         else
             return;
 
-        var item = enchantAnchor.PathName.Replace("/cata", "").Replace("/item=", "").Replace("/spell=", "");
+        var item = enchantAnchor.PathName.Replace("/wotlk", "").Replace("/cata", "").Replace("/item=", "").Replace("/spell=", "");
         var itemIdIndex = item.IndexOf("/");
         if (itemIdIndex == -1)
             itemIdIndex = item.IndexOf("&");
@@ -417,9 +417,9 @@ public class WowheadGuideParser
             foundAnchor = true;
             bool foundItem = false;
 
-            if (((IHtmlAnchorElement)child).PathName.Contains("/item="))
+            if (child.PathName.Contains("/item="))
             {
-                var item = ((IHtmlAnchorElement)child).PathName.Replace("/cata", "").Replace("/item=", "");
+                var item = child.PathName.Replace("/wotlk", "").Replace("/cata", "").Replace("/item=", "");
 
                 var itemIdIndex = item.IndexOf("/");
                 if (itemIdIndex == -1)
@@ -577,10 +577,10 @@ public class WowheadGuideParser
 
                         if (foundEnchantText)
                         {
-                            Common.RecursiveBoxSearch((IElement)nextSibling, (anchorElement) => {
-
-                                if (anchorElement != null && anchorElement is IHtmlAnchorElement)
-                                    foundEnchant(anchorElement as IHtmlAnchorElement, guideMapping.Key);
+                            Common.RecursiveBoxSearch(nextSibling, (anchorElement) => 
+                            {
+                                if (anchorElement != null)
+                                    foundEnchant(anchorElement, guideMapping.Key);
 
                                 return false;
                             });

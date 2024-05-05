@@ -105,7 +105,8 @@ internal class RogueCombatMapping : SpecMapping
         { ("Neck", "#neck-for-combat-rogue-dps") },
         { ("Ring", "#rings-for-combat-rogue-dps") },
         { ("Trinket", "#trinkets-for-combat-rogue-dps") },
-        { ("Main Hand", "#weapons-for-combat-rogue-dps-pre-patch") },
+        { ("Main Hand", "#main-hand-weapons-for-combat-rogue-dps") },
+        { ("Off Hand", "#off-hand-weapons-for-combat-rogue-dps") },
         { ("Ranged/Relic", "#guns-bows-and-thrown-weapons-for-combat-rogue-dps") },
     };
 }

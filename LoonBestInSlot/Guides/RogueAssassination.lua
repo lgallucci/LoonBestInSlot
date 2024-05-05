@@ -13,9 +13,13 @@ LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Sta
 LBIS:AddEnchant(spec99, "44575", LBIS.L["Wrist"]) --Enchant Bracer - Greater Assault
 LBIS:AddEnchant(spec99, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
 LBIS:AddEnchant(spec99, "55016", LBIS.L["Waist"]) --Nitro Boosts
+LBIS:AddEnchant(spec99, "38374", LBIS.L["Legs"]) --Icescale Leg Armor
 LBIS:AddEnchant(spec99, "35299", LBIS.L["Feet"]) --Formula: Enchant Boots - Cat's Swiftness
+LBIS:AddEnchant(spec99, "44589", LBIS.L["Feet"]) --Enchant Boots - Superior Agility
 LBIS:AddEnchant(spec99, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 LBIS:AddEnchant(spec99, "44493", LBIS.L["Main Hand"]) --Enchant Weapon - Berserking
+LBIS:AddEnchant(spec99, "6947", LBIS.L["Main Hand"]) --Instant Poison
+LBIS:AddEnchant(spec99, "2892", LBIS.L["Main Hand"]) --Deadly Poison
 
 LBIS:AddItem(spec99, "51252", LBIS.L["Head"], "BIS") --Sanctified Shadowblade Helmet
 LBIS:AddItem(spec99, "51187", LBIS.L["Head"], "Alt") --Sanctified Shadowblade Helmet

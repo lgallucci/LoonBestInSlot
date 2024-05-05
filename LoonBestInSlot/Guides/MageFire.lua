@@ -18,6 +18,7 @@ LBIS:AddEnchant(spec99, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec99, "41602", LBIS.L["Legs"]) --Brilliant Spellthread
 LBIS:AddEnchant(spec99, "56039", LBIS.L["Legs"]) --Sanctified Spellthread
 LBIS:AddEnchant(spec99, "60623", LBIS.L["Feet"]) --Enchant Boots - Icewalker
+LBIS:AddEnchant(spec99, "44636", LBIS.L["Ring"]) --Enchant Ring - Greater Spellpower
 LBIS:AddEnchant(spec99, "62948", LBIS.L["Main Hand"]) --Enchant Staff - Greater Spellpower
 LBIS:AddEnchant(spec99, "60714", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Spellpower
 

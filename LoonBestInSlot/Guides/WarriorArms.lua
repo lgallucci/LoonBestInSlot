@@ -7,11 +7,15 @@ LBIS:AddGem(spec99, "40143", "4", "False") --Etched Dreadstone
 
 LBIS:AddEnchant(spec99, "44879", LBIS.L["Head"]) --Arcanum of Torment
 LBIS:AddEnchant(spec99, "44871", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
+LBIS:AddEnchant(spec99, "44131", LBIS.L["Shoulder"]) --Lesser Inscription of the Axe
 LBIS:AddEnchant(spec99, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec99, "44575", LBIS.L["Wrist"]) --Enchant Bracer - Greater Assault
 LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
+LBIS:AddEnchant(spec99, "60668", LBIS.L["Hands"]) --Enchant Gloves - Crusher
 LBIS:AddEnchant(spec99, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
+LBIS:AddEnchant(spec99, "38374", LBIS.L["Legs"]) --Icescale Leg Armor
+LBIS:AddEnchant(spec99, "38372", LBIS.L["Legs"]) --Nerubian Leg Armor
 LBIS:AddEnchant(spec99, "55016", LBIS.L["Feet"]) --Nitro Boosts
 LBIS:AddEnchant(spec99, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 LBIS:AddEnchant(spec99, "59621", LBIS.L["Two Hand"]) --Enchant Weapon - Berserking

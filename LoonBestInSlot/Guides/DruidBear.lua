@@ -7,9 +7,11 @@ LBIS:AddGem(spec99, "40112", "4", "False") --Delicate Cardinal Ruby
 LBIS:AddEnchant(spec99, "59955", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
 LBIS:AddEnchant(spec99, "59941", LBIS.L["Shoulder"]) --Greater Inscription of the Pinnacle
 LBIS:AddEnchant(spec99, "55002", LBIS.L["Back"]) --Flexweave Underlay
+LBIS:AddEnchant(spec99, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec99, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamina
 LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
+LBIS:AddEnchant(spec99, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
 LBIS:AddEnchant(spec99, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec99, "38373", LBIS.L["Legs"]) --Frosthide Leg Armor
 LBIS:AddEnchant(spec99, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality

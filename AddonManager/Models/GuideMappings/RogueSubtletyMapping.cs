@@ -103,7 +103,7 @@ internal class RogueSubtletyMapping : SpecMapping
         { ("Neck", "#neck-for-subtlety-rogue-dps") },
         { ("Ring", "#rings-for-subtlety-rogue-dps") },
         { ("Trinket", "#trinkets-for-subtlety-rogue-dps") },
-        { ("Main Hand", "#weapons-for-subtlety-rogue-dps-pre-patch") },
+        { ("Main Hand", "#weapons-for-subtlety-rogue-dps") },
         { ("Ranged/Relic", "#guns-bows-and-thrown-weapons-for-subtlety-rogue-dps") },
     };
 }

@@ -10,6 +10,7 @@ LBIS:AddEnchant(spec99, "39003", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
 LBIS:AddEnchant(spec99, "44465", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec99, "44815", LBIS.L["Wrist"]) --Enchant Bracer - Greater Assault
 LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
+LBIS:AddEnchant(spec99, "60668", LBIS.L["Hands"]) --Enchant Gloves - Crusher
 LBIS:AddEnchant(spec99, "41118", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec99, "38374", LBIS.L["Legs"]) --Icescale Leg Armor
 LBIS:AddEnchant(spec99, "44469", LBIS.L["Feet"]) --Enchant Boots - Greater Assault

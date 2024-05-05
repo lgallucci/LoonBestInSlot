@@ -10,7 +10,9 @@ LBIS:AddEnchant(spec99, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec99, "44575", LBIS.L["Wrist"]) --Enchant Bracer - Greater Assault
 LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
+LBIS:AddEnchant(spec99, "60668", LBIS.L["Hands"]) --Enchant Gloves - Crusher
 LBIS:AddEnchant(spec99, "41611", LBIS.L["Waist"]) --Eternal Belt Buckle
+LBIS:AddEnchant(spec99, "41118", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec99, "44589", LBIS.L["Feet"]) --Enchant Boots - Superior Agility
 LBIS:AddEnchant(spec99, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 LBIS:AddEnchant(spec99, "59621", LBIS.L["Main Hand"]) --Enchant Weapon - Berserking

@@ -92,6 +92,18 @@ internal class PaladinProtectionMapping : SpecMapping
     public override string PrePatchUrl => "tank-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
         {
+            { ("Head", "#head-for-protection-paladin-tanking") },
+            { ("Shoulder", "#shoulders-for-protection-paladintanking") },
+            { ("Back", "#cloak-for-protection-paladin-tanking") },
+            { ("Chest", "#chest-for-protection-paladin-tanking") },
+            { ("Wrist", "#bracer-for-protection-paladin-tanking") },
+            { ("Hands", "#gloves-for-protection-paladin-tanking") },
+            { ("Waist", "#belt-for-protection-paladin-tanking") },
+            { ("Legs", "#legs-for-protection-paladin-tanking") },
+            { ("Feet", "#boots-for-protection-paladin-tanking") },
+            { ("Neck", "#neck-for-protection-paladin-tanking") },
+            { ("Ring", "#rings-for-protection-paladin-tanking") },
+            { ("Trinket", "#trinkets-for-protection-paladin-tanking") },
             { ("Main Hand", "h3#weapons") },
             { ("Off Hand", "h3#shields") },
             { ("Ranged/Relic", "h3#librams") },

@@ -92,7 +92,7 @@ internal class PriestDisciplineMapping : SpecMapping
     public override string PrePatchUrl => "healer-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
-        { ("Head", "#head-for-balance-druid-dps")},
+        { ("Head", "#head-for-discipline-priest-healer")},
         { ("Shoulder", "#shoulders-for-discipline-priest-healer") },
         { ("Back", "#back-for-discipline-priest-healer") },
         { ("Chest", "#chest-for-discipline-priest-healer") },
