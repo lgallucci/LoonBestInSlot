@@ -149,15 +149,12 @@ public static class WowheadImporter
 
                 foreach(var gem in itemsAndEnchants.Item1) 
                 {
-                    var gemData = await GetGemFromWowhead(gem.Key, logFunc);
-                    gem.Value.Name = gemData.Name;
-                    gem.Value.Phase = gemData.Phase;
-                    gem.Value.IsMeta = gemData.IsMeta;
-                    gem.Value.Quality = gemData.Quality;
+                    if (!guide.Item1.Any(g => g.GemId == gem.Key))
+                    {
+                        guide.Item1.Add(await GetGemFromWowhead(gem.Key, logFunc));
+                    }
                 }
 
-                guide.Item1.Clear();
-                guide.Item1.AddRange(itemsAndEnchants.Item1.Values.ToList());
                 guide.Item2.Clear();
                 guide.Item2.AddRange(itemsAndEnchants.Item2.Values.ToList());
                 if (!guide.Item3.ContainsKey(phaseNumber))

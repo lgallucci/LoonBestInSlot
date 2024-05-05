@@ -41,6 +41,25 @@ public static class Common
         }
     }
 
+    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Func<string, IHtmlDocument, Task> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)    
+    {        
+        IHtmlDocument? content;
+
+        if (_browser == null) {
+            await CreateBrowser();
+        }
+
+        var total = pageAddresses.Count();
+        int count = 0;
+        foreach (var pageAddress in pageAddresses)
+        {
+            content = await RetryPageLoad(pageAddress, writeToLog, cancelToken, ++count, total, waitForIdle);  
+
+            if (content != null)
+                await func(pageAddress, content);         
+        }
+    }
+
     internal static async Task<IHtmlDocument?> LoadFromWebPage(string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)
     {
         IHtmlDocument? content;
@@ -97,7 +116,7 @@ public static class Common
         return null;
     }
 
-    internal static async Task RecursiveBoxSearch(IElement headerElement, Func<IElement, Task<bool>> action)
+    public static async Task RecursiveBoxSearchAsync(IElement headerElement, Func<IElement, Task<bool>> action)
     {
         foreach (var boxElement in headerElement.Children)
         {
@@ -105,16 +124,16 @@ public static class Common
             {
                 bool goodAnchor = await action(boxElement);
                 if (!goodAnchor)
-                    await RecursiveBoxSearch(boxElement, action);
+                    await RecursiveBoxSearchAsync(boxElement, action);
             }
             else
             {
-                await RecursiveBoxSearch(boxElement, action);
+                await RecursiveBoxSearchAsync(boxElement, action);
             }
         }
     }
 
-    internal static void RecursiveBoxSearch(IElement headerElement, Func<IElement, bool> action)
+    public static void RecursiveBoxSearch(IElement headerElement, Func<IElement, bool> action)
     {
         foreach (var boxElement in headerElement.Children)
         {

@@ -99,6 +99,5 @@ internal class DeathKnightFrostMapping : SpecMapping
     {
             { ("Neck", "#neck-for-frost-death-knight-dps") },
             { ("Two Hand", "h3#weapons") },
-            { ("Ranged/Relic", "#sigil") },
     };
 }

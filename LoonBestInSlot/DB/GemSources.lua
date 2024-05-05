@@ -63,6 +63,7 @@ LBIS.GemSources =
     [40133] = { Name = "Purified Dreadstone", DesignId = "46937", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [40134] = { Name = "Royal Dreadstone", DesignId = "46939", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [40138] = { Name = "Regal Dreadstone", DesignId = "46940", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
+    [40139] = { Name = "Defender's Dreadstone", DesignId = "46941", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [40140] = { Name = "Puissant Dreadstone", DesignId = "46944", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [40141] = { Name = "Guardian's Dreadstone", DesignId = "46942", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },
     [40142] = { Name = "Inscribed Ametrine", DesignId = "46948", Source = LBIS.L["Timothy Jones"], SourceLocation = LBIS.L["Dalaran"] },

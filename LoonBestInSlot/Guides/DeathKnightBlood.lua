@@ -6,11 +6,19 @@ LBIS:AddGem(spec99, "40119", "4", "False") --Solid Majestic Zircon
 
 LBIS:AddEnchant(spec99, "50369", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
 LBIS:AddEnchant(spec99, "50337", LBIS.L["Shoulder"]) --Greater Inscription of the Pinnacle
+LBIS:AddEnchant(spec99, "44957", LBIS.L["Shoulder"]) --Greater Inscription of the Gladiator
 LBIS:AddEnchant(spec99, "41111", LBIS.L["Back"]) --Flexweave Underlay
+LBIS:AddEnchant(spec99, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
+LBIS:AddEnchant(spec99, "44590", LBIS.L["Back"]) --Enchant Cloak - Superior Shadow Resistance
 LBIS:AddEnchant(spec99, "44465", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
+LBIS:AddEnchant(spec99, "39005", LBIS.L["Chest"]) --Enchant Chest - Super Health
 LBIS:AddEnchant(spec99, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamina
+LBIS:AddEnchant(spec99, "57690", LBIS.L["Wrist"]) --Fur Lining - Stamina
 LBIS:AddEnchant(spec99, "38376", LBIS.L["Hands"]) --Heavy Borean Armor Kit
+LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
+LBIS:AddEnchant(spec99, "63770", LBIS.L["Hands"]) --Reticulated Armor Webbing
 LBIS:AddEnchant(spec99, "41118", LBIS.L["Feet"]) --Nitro Boosts
+LBIS:AddEnchant(spec99, "44491", LBIS.L["Feet"]) --Formula: Enchant Boots - Tuskarr's Vitality
 LBIS:AddEnchant(spec99, "59636", LBIS.L["Ring"]) --Enchant Ring - Stamina
 
 LBIS:AddItem(spec99, "50640", LBIS.L["Head"], "BIS") --Broken Ram Skull Helm

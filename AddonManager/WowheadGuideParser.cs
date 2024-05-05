@@ -280,8 +280,8 @@ public class WowheadGuideParser
         var gemCell = tableRow?.ChildNodes[2];
         if (gemCell != null)
         {
-            Common.RecursiveBoxSearch((IElement)gemCell, (anchorElement) => {
-
+            Common.RecursiveBoxSearch((IElement)gemCell, (anchorElement) => 
+            {
                 if (((IHtmlAnchorElement)anchorElement).PathName.Contains("/item="))
                 {
                     var item = ((IHtmlAnchorElement)anchorElement).PathName.Replace("/cata", "").Replace("/item=", "");
@@ -557,32 +557,42 @@ public class WowheadGuideParser
                     int elementCounter = 0;
                     while (nextSibling != null && (nextSibling is not IHtmlTableElement || nextSibling is IHtmlHeadingElement))
                     {
+                        if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*for new").Success)
+                            break;
+
                         //try to find enchant.
                         if (nextSibling is IHtmlAnchorElement && foundEnchantText)
                         {
                             foundEnchant(nextSibling as IHtmlAnchorElement, guideMapping.Key);
-                            foundEnchantText = false;
                         }
 
-                        if (Regex.Match(nextSibling.TextContent.Trim(), "Recommended.*Enchant").Success)
-                            foundEnchantText = true;
-                        else if (Regex.Match(nextSibling.TextContent.Trim(), ".*Enchants:").Success)
+                        if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*enchant").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*armor").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "best.*enchant").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), ".*enchants:").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), ".*enchant:").Success)
                         {
-                            foreach(var enchantChild in nextSibling.ChildNodes)
-                            {
-                                if (enchantChild is IHtmlAnchorElement)
-                                {
-                                    foundEnchant(enchantChild as IHtmlAnchorElement, guideMapping.Key);
-                                }
-                            }
+                            foundEnchantText = true;
+                        }
+
+                        if (foundEnchantText)
+                        {
+                            Common.RecursiveBoxSearch((IElement)nextSibling, (anchorElement) => {
+
+                                if (anchorElement != null && anchorElement is IHtmlAnchorElement)
+                                    foundEnchant(anchorElement as IHtmlAnchorElement, guideMapping.Key);
+
+                                return false;
+                            });
                         }
 
                         nextSibling = nextSibling?.NextSibling;
                         elementCounter++;
                     }
 
+                    foundEnchantText = false;
                     if (nextSibling is IHtmlTableElement)
-                    {
+                    {                            
                         foundTable(nextSibling as IHtmlTableElement, guideMapping.Key, htmlMapping);
                     }
                     else

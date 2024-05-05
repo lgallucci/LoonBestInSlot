@@ -96,6 +96,5 @@ internal class DeathKnightUnholyMapping : SpecMapping
         {
             { ("Neck", "#neck-for-unholy-death-knight-dps") },
             { ("Two Hand", "h3#weapons") },
-            { ("Ranged/Relic", "#sigil") },
         };
 }

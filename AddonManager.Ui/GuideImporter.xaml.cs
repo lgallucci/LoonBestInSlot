@@ -240,7 +240,7 @@ public sealed partial class GuideImporter : Page
                     var sourceFaction = "B";
                     var itemName = "";
 
-                    RecursiveBoxSearch(row.Children[2], (anchorObject) =>
+                    Common.RecursiveBoxSearch(row.Children[2], (anchorObject) =>
                     {
                         if (success) return true;
 
@@ -265,7 +265,7 @@ public sealed partial class GuideImporter : Page
                                     sourceFaction = "A";
                             }
 
-                            RecursiveBoxSearch(row.Children[10], (currencyObject) =>
+                            Common.RecursiveBoxSearch(row.Children[10], (currencyObject) =>
                             {
                                 var currency = ((IHtmlAnchorElement)currencyObject).Search.Replace("?currency=", "").Replace("?item=", "");
                                 var currencySuccess = Int32.TryParse(currency, out int currencyId);
@@ -339,7 +339,7 @@ public sealed partial class GuideImporter : Page
                     var itemId = 0; // Get ItemId from Row
                     var itemName = "";
 
-                    RecursiveBoxSearch(row.Children[2], (anchorObject) =>
+                    Common.RecursiveBoxSearch(row.Children[2], (anchorObject) =>
                     {
                         if (success) return true;
 
@@ -398,22 +398,5 @@ public sealed partial class GuideImporter : Page
 
         //write dictionary to file
         File.WriteAllText(@$"{Constants.ItemDbPath}\RaidItemList.json", JsonConvert.SerializeObject(dbItems, Formatting.Indented));
-    }
-
-    internal static void RecursiveBoxSearch(IElement headerElement, Func<IElement, bool> action)
-    {
-        foreach (var boxElement in headerElement.Children)
-        {
-            if (boxElement is IHtmlAnchorElement)
-            {
-                bool goodAnchor = action(boxElement);
-                if (!goodAnchor)
-                    RecursiveBoxSearch(boxElement, action);
-            }
-            else
-            {
-                RecursiveBoxSearch(boxElement, action);
-            }
-        }
     }
 }
