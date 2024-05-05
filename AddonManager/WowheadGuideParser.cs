@@ -44,6 +44,54 @@ public class WowheadGuideParser
         { 221321, 446451 }, //Atal'ai Signet of Might
         { 221322, 446459 }, //Atal'ai Signet of Mojo
         { 221323, 446472 }, //Atal'ai Signet of 
+        { 35299, 34007 }, //Enchant Boots: Cat's Swiftness
+        { 2892, 2823}, //Deadly Poison
+        { 6947, 8679 }, //Instant Poison
+        { 38372, 50902 }, //Nerubian Leg Armor
+        { 38373, 60581 }, //Frosthide Leg Armor
+        { 38374, 60582 }, //Icescale Leg Armor
+        { 38376, 50909 }, //Heavy Borean Armor Kit
+        { 38928, 33990 }, //Enchant Chest - Major Spirit
+        { 38959, 44500 }, //Enchant Cloak - Superior Agility
+        { 38976, 44589 }, //Enchant Boots - Superior Agility
+        { 38979, 44592 }, //Enchant Gloves - Exceptional Spellpower
+        { 39003, 47898 }, //Enchant Cloak - Greater Speed
+        { 39005, 47900 }, //Enchant Chest - Super Health
+        { 39006, 47901 }, //Enchant Boots - Tuskarr's Vitality
+        { 50370, 59960 }, //Arcanum of Blissful Mending
+        { 41118, 55016 }, //Nitro Boosts
+        { 41111, 55002 }, //Flexweave Underlay
+        { 44491, 47901 }, //Enchant Boots - Tuskarr's Vitality
+        { 44493, 59621 }, //Enchant Weapon - Berserking
+        { 50369, 59955 }, //Arcanum of the Stalwart Protector
+        { 50368, 59970 }, //Arcanum of Burning Mysteries
+        { 50367, 59954 }, //Arcanum of Torment
+        { 50338, 59937 }, //Greater Inscription of the Storm
+        { 50337, 59941 }, //Greater Inscription of the Pinnacle
+        { 50336, 59936 }, //Greater Inscription of the Crag
+        { 50335, 59934 }, //Greater Inscription of the Axe
+        { 45056, 62948 }, //Enchant Staff - Greater Spellpower
+        { 44957, 62384 }, //Greater Inscription of the Gladiator
+        { 44936, 62201 }, //Titanium Plating
+        { 44879, 59954 }, //Arcanum of Torment
+        { 44878, 59955 }, //Arcanum of the Stalwart Protector
+        { 44871, 59934 }, //Greater Inscription of the Axe
+        { 44815, 44575 }, //Enchant Bracer - Greater Assault
+        { 44629, 61067 }, //Cask of Peaked Dalaran Red
+        { 41167, 55135 }, //Heartseeker Scope
+        { 41602, 55631 }, //Brilliant Spellthread
+        { 41604, 55634 }, //Sapphire Spellthread
+        { 41611, 55655 }, //Eternal Belt Buckle
+        { 41976, 55836 }, //Titanium Weapon Chain
+        { 44075, 59784 }, //Arcanum of Dominance
+        { 44131, 59929 }, //Lesser Inscription of the Axe
+        { 44133, 59934 }, //Greater Inscription of the Axe
+        { 44135, 59937 }, //Greater Inscription of the Storm
+        { 44159, 59970 }, //Arcanum of Burning Mysteries
+        { 44465, 60692 }, //Enchant Chest - Powerful Stats
+        { 44467, 60714 }, //Enchant Weapon - Mighty Spellpower
+        { 44469, 60763 }, //Enchant Boots - Greater Assault
+        { 44470, 60767 }, //Enchant Bracer - Superior Spellpower
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()
