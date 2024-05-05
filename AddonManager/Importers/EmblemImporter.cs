@@ -39,7 +39,8 @@ public class EmblemImporter : LootImporter
                         item == "102" ? "Emblem of Valor" :
                         item == "221" ? "Emblem of Conquest" :
                         item == "301" ? "Emblem of Triumph" :
-                        item == "341" ? "Emblem of Frost" :
+                        item == "341" ? "Emblem of Frost" : 
+                        item == "395" ? "Justice Points" :
                         item == "2589" ? "Sidereal Essence" :
                         item == "2711" ? "Defiler's Scourgestone" :
                         item == "47242" ? "Trophy" :
@@ -131,6 +132,7 @@ public class EmblemImporter : LootImporter
                             item == "221" ? "Emblem of Conquest" :
                             item == "301" ? "Emblem of Triumph" :
                             item == "341" ? "Emblem of Frost" :
+                            item == "395" ? "Justice Points" :
                             item == "2589" ? "Sidereal Essence" :
                             item == "2711" ? "Defiler's Scourgestone" :
                             item == "47242" ? "Trophy" :

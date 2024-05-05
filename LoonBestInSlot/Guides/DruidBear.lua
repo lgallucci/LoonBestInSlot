@@ -32,6 +32,7 @@ LBIS:AddItem(spec99, "54580", LBIS.L["Wrist"], "BIS") --Umbrage Armbands
 LBIS:AddItem(spec99, "50670", LBIS.L["Wrist"], "Alt") --Toskk's Maximized Wristguards
 LBIS:AddItem(spec99, "53126", LBIS.L["Wrist"], "Alt") --Umbrage Armbands
 LBIS:AddItem(spec99, "51295", LBIS.L["Hands"], "BIS") --Sanctified Lasherweave Handgrips
+LBIS:AddItem(spec99, "50675", LBIS.L["Hands"], "Alt") --(Item #50675)
 LBIS:AddItem(spec99, "50707", LBIS.L["Waist"], "BIS") --Astrylian's Sutured Cinch
 LBIS:AddItem(spec99, "50995", LBIS.L["Waist"], "Alt") --Vengeful Noose
 LBIS:AddItem(spec99, "51925", LBIS.L["Waist"], "Alt") --Soulthief's Braided Belt

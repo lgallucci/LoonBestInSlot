@@ -276,8 +276,10 @@ public sealed partial class GuideImporter : Page
                                         currencyId == 221 ? "Emblem of Conquest" :
                                         currencyId == 301 ? "Emblem of Triumph" :
                                         currencyId == 341 ? "Emblem of Frost" :
+                                        currencyId == 395 ? "Justice Points" :
                                         currencyId == 2589 ? "Sidereal Essence" :
-                                        currencyId == 47242 ? "Trophy of the Crusade" : "unknown";
+                                        currencyId == 47242 ? "Trophy of the Crusade" : 
+                                        currencyId == 395 ? "Justice Points" :"unknown";
 
                                     if (string.IsNullOrWhiteSpace(currencySource))
                                         currencySource = sourceText;

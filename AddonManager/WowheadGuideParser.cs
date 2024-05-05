@@ -18,6 +18,11 @@ public class WowheadGuideParser
 
     private Random _rand = new Random(DateTime.Now.Millisecond);
 
+    private Dictionary<int, int> _gemSwaps = new Dictionary<int, int>()
+    {
+        { 4013, 40133 },
+    };
+
     private Dictionary<int, int> _enchantSwaps = new Dictionary<int, int>()
     {
         { 4265, 2833 }, //Heavy Armor Kit
@@ -294,6 +299,11 @@ public class WowheadGuideParser
 
                     var gemId = Int32.Parse(item);
 
+                    if (_gemSwaps.ContainsKey(gemId))
+                    {
+                        gemId = _gemSwaps[gemId];
+                    }
+
                     if (!gems.ContainsKey(gemId))
                     {
                         gems.Add(gemId, new GemSpec {
@@ -424,8 +434,9 @@ public class WowheadGuideParser
                 var itemIdIndex = item.IndexOf("/");
                 if (itemIdIndex == -1)
                     itemIdIndex = item.IndexOf("&");
-
-                item = item.Substring(0, itemIdIndex);
+                if (itemIdIndex != -1)
+                    item = item.Substring(0, itemIdIndex);
+                    
                 var itemName = child.TextContent.Trim();
 
                 bool skippedItem = false;

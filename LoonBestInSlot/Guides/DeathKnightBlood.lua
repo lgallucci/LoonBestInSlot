@@ -12,11 +12,13 @@ LBIS:AddEnchant(spec99, "47898", LBIS.L["Back"]) --Enchant Cloak - Greater Speed
 LBIS:AddEnchant(spec99, "44590", LBIS.L["Back"]) --Enchant Cloak - Superior Shadow Resistance
 LBIS:AddEnchant(spec99, "44465", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec99, "39005", LBIS.L["Chest"]) --Enchant Chest - Super Health
+LBIS:AddEnchant(spec99, "93099", LBIS.L["Chest"]) --Vengeance
 LBIS:AddEnchant(spec99, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamina
 LBIS:AddEnchant(spec99, "57690", LBIS.L["Wrist"]) --Fur Lining - Stamina
 LBIS:AddEnchant(spec99, "38376", LBIS.L["Hands"]) --Heavy Borean Armor Kit
 LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
 LBIS:AddEnchant(spec99, "63770", LBIS.L["Hands"]) --Reticulated Armor Webbing
+LBIS:AddEnchant(spec99, "38373", LBIS.L["Legs"]) --Frosthide Leg Armor
 LBIS:AddEnchant(spec99, "41118", LBIS.L["Feet"]) --Nitro Boosts
 LBIS:AddEnchant(spec99, "44491", LBIS.L["Feet"]) --Formula: Enchant Boots - Tuskarr's Vitality
 LBIS:AddEnchant(spec99, "59636", LBIS.L["Ring"]) --Enchant Ring - Stamina
