@@ -41,7 +41,7 @@ public static class Common
         }
     }
 
-    internal static async Task LoadFromWebPage(string pageAddress, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)
+    internal static async Task<IHtmlDocument?> LoadFromWebPage(string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)
     {
         IHtmlDocument? content;
 
@@ -49,10 +49,7 @@ public static class Common
             await CreateBrowser();
         }
         
-        content = await RetryPageLoad(pageAddress, writeToLog, cancelToken, 1, 1, waitForIdle);
-
-        if (content != null)
-            func(pageAddress, content);
+        return await RetryPageLoad(pageAddress, writeToLog, cancelToken, 1, 1, waitForIdle);
     }
 
     private static async Task<IHtmlDocument?> RetryPageLoad(string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken, int count, int total, bool waitForIdle)

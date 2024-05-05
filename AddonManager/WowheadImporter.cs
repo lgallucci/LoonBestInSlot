@@ -3,10 +3,7 @@ using AddonManager.Models;
 using Newtonsoft.Json;
 using System.IO;
 using System.Security;
-using System.Linq;
-using AngleSharp.Html.Parser;
 using AngleSharp.Html.Dom;
-using AngleSharp.Dom;
 
 namespace AddonManager;
 public static class WowheadImporter
@@ -93,12 +90,12 @@ public static class WowheadImporter
             }
         }
 
-        await Common.LoadFromWebPages(addresses, (address, doc) =>
+        await Common.LoadFromWebPages(addresses, async (address, doc) =>
         {
             var spec = addressToSpec[address];
             try
             {
-                var result = ImportClassInternal(spec, phaseNumber, doc, (s) => {});
+                var result = await ImportClassInternal(spec, phaseNumber, doc, (s) => {});
 
                 logFunc($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!");
             }
@@ -118,15 +115,13 @@ public static class WowheadImporter
     public static async Task<string> ImportClass(ClassGuideMapping classGuide, int phaseNumber, CancellationToken cancelToken, Action<string> logFunc)
     {
         var result = string.Empty;
-        await Common.LoadFromWebPage(classGuide.WebAddress, (uri, doc) =>
-        {
-            result = ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
-        }, logFunc, cancelToken, false);
 
-        return result;
+        var doc =await Common.LoadFromWebPage(classGuide.WebAddress, logFunc, cancelToken, false);
+
+        return await ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
     }
 
-    private static string ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, IHtmlDocument doc, Action<string> logFunc)
+    private static async Task<string> ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, IHtmlDocument doc, Action<string> logFunc)
     {
         var sb = new StringBuilder();
         (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, ItemSpec>) itemsAndEnchants;
@@ -143,7 +138,16 @@ public static class WowheadImporter
                 WriteGemsInternal(itemsAndEnchants.Item1, logFunc);
                 WriteEnchantsInternal(itemsAndEnchants.Item2, logFunc);
                 WriteItemsInternal(itemsAndEnchants.Item3, logFunc);
-                
+
+                foreach(var gem in itemsAndEnchants.Item1) 
+                {
+                    var gemData = await GetGemFromWowhead(gem.Key, logFunc);
+                    gem.Value.Name = gemData.Name;
+                    gem.Value.Phase = gemData.Phase;
+                    gem.Value.IsMeta = gemData.IsMeta;
+                    gem.Value.Quality = gemData.Quality;
+                }
+
                 guide.Item1.Clear();
                 guide.Item1.AddRange(itemsAndEnchants.Item1.Values.ToList());
                 guide.Item2.Clear();
@@ -353,38 +357,37 @@ public static class WowheadImporter
         ItemSourceFileManager.WriteItemSources(itemSources);
     }
 
-    public static async Task<GemSpec> GetGemFromWowhead(int gemId, Action<string> writeToLog)
+    public static async Task<GemSpec?> GetGemFromWowhead(int gemId, Action<string> writeToLog)
     {
-        GemSpec gemSpec = null;
+        GemSpec? gemSpec = null;
         try 
         {
-            await Common.LoadFromWebPage($"https://www.wowhead.com/cata/item={gemId}/", (uri, doc) =>
+            IHtmlDocument? doc = await Common.LoadFromWebPage($"https://www.wowhead.com/cata/item={gemId}/", writeToLog);
+
+            if (doc != null)
             {
-                if (doc != null)
-                {
-                    var name = doc.Title?.Split("-")[0].Trim() ?? "unknown";
-                    var isMeta = doc.QuerySelector("#main-precontents div span ~ span ~ span ~ span")?.TextContent == "Meta";
-                    var quality = doc.QuerySelector(".wowhead-tooltip b")?.ClassName;
+                var name = doc.Title?.Split("-")[0].Trim() ?? "unknown";
+                var isMeta = doc.QuerySelector("#main-precontents div span ~ span ~ span ~ span")?.TextContent == "Meta";
+                var quality = doc.QuerySelector(".wowhead-tooltip b")?.ClassName;
 
-                    int itemQuality = 0;
-                    if (quality?.Contains("q1") ?? false)
-                        itemQuality = 1;
-                    else if (quality?.Contains("q2") ?? false)
-                        itemQuality = 2;
-                    else if (quality?.Contains("q3") ?? false)
-                        itemQuality = 3;
-                    else if (quality?.Contains("q4") ?? false)
-                        itemQuality = 4;
+                int itemQuality = 0;
+                if (quality?.Contains("q1") ?? false)
+                    itemQuality = 1;
+                else if (quality?.Contains("q2") ?? false)
+                    itemQuality = 2;
+                else if (quality?.Contains("q3") ?? false)
+                    itemQuality = 3;
+                else if (quality?.Contains("q4") ?? false)
+                    itemQuality = 4;
 
-                    gemSpec = new GemSpec {
-                        GemId = gemId,
-                        Name = name,
-                        IsMeta = isMeta,
-                        Phase = -1,
-                        Quality = itemQuality
-                    };
-                }
-            }, writeToLog);
+                gemSpec = new GemSpec {
+                    GemId = gemId,
+                    Name = name,
+                    IsMeta = isMeta,
+                    Phase = 99,
+                    Quality = itemQuality
+                };
+            }
         } catch
         { 
             writeToLog("Error !");

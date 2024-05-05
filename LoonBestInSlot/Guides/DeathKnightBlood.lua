@@ -1,8 +1,8 @@
 local spec99 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "99")
 
-LBIS:AddGem(spec99, "40129", "0", "False") --
-LBIS:AddGem(spec99, "41380", "0", "False") --
-LBIS:AddGem(spec99, "40119", "0", "False") --
+LBIS:AddGem(spec99, "40129", "4", "False") --Sovereign Dreadstone
+LBIS:AddGem(spec99, "41380", "3", "True") --Austere Earthsiege Diamond
+LBIS:AddGem(spec99, "40119", "4", "False") --Solid Majestic Zircon
 
 LBIS:AddEnchant(spec99, "50369", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
 LBIS:AddEnchant(spec99, "50337", LBIS.L["Shoulder"]) --Greater Inscription of the Pinnacle
