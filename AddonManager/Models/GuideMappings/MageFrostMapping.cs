@@ -93,8 +93,9 @@ internal class MageFrostMapping : SpecMapping
 
     public override string PrePatchUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
-    {
-        { ("Main Hand", "h3#weapons") },
-        { ("Ranged/Relic", "h3#sigil") },
-    };
+        {
+            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-frost-mage-dps-pre-patch") },
+            { ("Off Hand", "#off-hand-weapons-for-frost-mage-dps-pre-patch") },
+            { ("Ranged/Relic", "#wands-for-frost-mage-dps-pre-patch") },
+        };
 }

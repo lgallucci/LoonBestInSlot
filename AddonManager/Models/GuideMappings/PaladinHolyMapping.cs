@@ -93,7 +93,8 @@ internal class PaladinHolyMapping : SpecMapping
     public override string PrePatchUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
-        { ("Main Hand", "h3#weapons") },
-        { ("Ranged/Relic", "h3#sigil") },
+        { ("Main Hand", "#main-hand-weapons-for-holy-paladin-healer") },
+        { ("Off Hand", "#shields-and-off-hands-for-holy-paladin-healer") },
+        { ("Ranged/Relic", "#librams-for-holy-paladin-healer-phase-4") },
     };
 }

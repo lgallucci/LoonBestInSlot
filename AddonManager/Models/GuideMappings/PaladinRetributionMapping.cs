@@ -86,7 +86,19 @@ internal class PaladinRetributionMapping : SpecMapping
     public override string PrePatchUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
-        { ("Main Hand", "h3#weapons") },
-        { ("Ranged/Relic", "h3#sigil") },
+        { ("Head", "#head-for-retribution-paladin-dps")},
+        { ("Shoulder", "#shoulders-for-retribution-paladin-dps") },
+        { ("Back", "#back-for-retribution-paladin-dps") },
+        { ("Chest", "#chest-for-retribution-paladin-dps") },
+        { ("Wrist", "#wrist-for-retribution-paladin-dps") },
+        { ("Hands", "#hands-for-retribution-paladin-dps") },
+        { ("Waist", "#waist-for-retribution-paladin-dps") },
+        { ("Legs", "#legs-for-retribution-paladin-dps") },
+        { ("Feet", "#feet-for-retribution-paladin-dps") },
+        { ("Neck", "#neck-for-retribution-paladin-dps") },
+        { ("Ring", "#rings-for-retribution-paladin-dps") },
+        { ("Trinket", "#trinkets-for-retribution-paladin-dps") },
+        { ("Two Hand", "#weapons-for-retribution-paladin-dps") },
+        { ("Ranged/Relic", "#librams-for-retribution-paladin-dps") },
     };
 }

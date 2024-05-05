@@ -94,7 +94,8 @@ internal class MageArcaneMapping : SpecMapping
     public override string PrePatchUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
-        { ("Main Hand", "h3#weapons") },
-        { ("Ranged/Relic", "h3#sigil") },
+        { ("Main Hand", "#main-hand-and-two-handed-weapons-for-arcane-mage-dps-pre-patch")},
+        { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-pre-patch") },
+        { ("Ranged/Relic", "#wands-for-arcane-mage-dps-pre-patch") },
     };
 }

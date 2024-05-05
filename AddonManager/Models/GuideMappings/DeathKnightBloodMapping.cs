@@ -92,7 +92,7 @@ internal class DeathKnightBloodMapping : SpecMapping
     public override string PrePatchUrl => "tank-bis-gear-pve";
 
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
-    {
+        {
             { ("Head", "#head-for-blood-death-knight-tanking") },
             { ("Shoulder", "#shoulders-for-blood-death-knight-tanking") },
             { ("Back", "#cloak-for-blood-death-knight-tanking") },
@@ -107,5 +107,5 @@ internal class DeathKnightBloodMapping : SpecMapping
             { ("Trinket", "#trinkets-for-blood-death-knight-tanking") },
             { ("Two Hand", "h3#weapons~h4") },
             { ("Ranged/Relic", "#relics-for-blood-death-knight-tanking") },
-    };
+        };
 }

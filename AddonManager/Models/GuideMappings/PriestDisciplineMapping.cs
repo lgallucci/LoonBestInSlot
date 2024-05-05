@@ -92,7 +92,20 @@ internal class PriestDisciplineMapping : SpecMapping
     public override string PrePatchUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
-        { ("Main Hand", "h3#weapons") },
-        { ("Ranged/Relic", "h3#sigil") },
+        { ("Head", "#head-for-balance-druid-dps")},
+        { ("Shoulder", "#shoulders-for-discipline-priest-healer") },
+        { ("Back", "#back-for-discipline-priest-healer") },
+        { ("Chest", "#chest-for-discipline-priest-healer") },
+        { ("Wrist", "#wrist-for-discipline-priest-healer") },
+        { ("Hands", "#hands-for-discipline-priest-healer") },
+        { ("Waist", "#waist-for-discipline-priest-healer") },
+        { ("Legs", "#legs-for-discipline-priest-healer") },
+        { ("Feet", "#feet-for-discipline-priest-healer") },
+        { ("Neck", "#neck-for-discipline-priest-healer") },
+        { ("Ring", "#rings-for-discipline-priest-healer") },
+        { ("Trinket", "#trinkets-for-discipline-priest-healer") },
+        { ("Main Hand", "#main-hand-weapons-for-discipline-priest-healer") },
+        { ("Off Hand", "#off-hand-weapons-for-discipline-priest-healer") },
+        { ("Ranged/Relic", "#wands-for-discipline-priest-healer") },
     };
 }

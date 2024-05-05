@@ -91,7 +91,19 @@ internal class RogueSubtletyMapping : SpecMapping
     public override string PrePatchUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
-        { ("Main Hand", "h3#weapons") },
-        { ("Ranged/Relic", "h3#sigil") },
+        { ("Head", "#head-for-subtlety-rogue-dps")},
+        { ("Shoulder", "#shoulders-for-subtlety-rogue-dps") },
+        { ("Back", "#back-for-subtlety-rogue-dps") },
+        { ("Chest", "#chest-for-subtlety-rogue-dps") },
+        { ("Wrist", "#wrist-for-subtlety-rogue-dps") },
+        { ("Hands", "#hands-for-subtlety-rogue-dps") },
+        { ("Waist", "#waist-for-subtlety-rogue-dps") },
+        { ("Legs", "#legs-for-subtlety-rogue-dps") },
+        { ("Feet", "#feet-for-subtlety-rogue-dps") },
+        { ("Neck", "#neck-for-subtlety-rogue-dps") },
+        { ("Ring", "#rings-for-subtlety-rogue-dps") },
+        { ("Trinket", "#trinkets-for-subtlety-rogue-dps") },
+        { ("Main Hand", "#weapons-for-subtlety-rogue-dps-pre-patch") },
+        { ("Ranged/Relic", "#guns-bows-and-thrown-weapons-for-subtlety-rogue-dps") },
     };
 }

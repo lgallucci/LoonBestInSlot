@@ -87,7 +87,19 @@ internal class RogueAssassinationMapping : SpecMapping
     public override string PrePatchUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
-        { ("Main Hand", "h3#weapons") },
-        { ("Ranged/Relic", "h3#sigil") },
+        { ("Head", "#head-for-assassination-rogue-dps")},
+        { ("Shoulder", "#shoulders-for-assassination-rogue-dps") },
+        { ("Back", "#back-for-assassination-rogue-dps") },
+        { ("Chest", "#chest-for-assassination-rogue-dps") },
+        { ("Wrist", "#wrist-for-assassination-rogue-dps") },
+        { ("Hands", "#hands-for-assassination-rogue-dps") },
+        { ("Waist", "#waist-for-assassination-rogue-dps") },
+        { ("Legs", "#legs-for-assassination-rogue-dps") },
+        { ("Feet", "#feet-for-assassination-rogue-dps") },
+        { ("Neck", "#neck-for-assassination-rogue-dps") },
+        { ("Ring", "#rings-for-assassination-rogue-dps") },
+        { ("Trinket", "#trinkets-for-assassination-rogue-dps") },
+        { ("Main Hand", "#weapons-for-assassination-rogue-dps-pre-patch") },
+        { ("Ranged/Relic", "#guns-bows-and-thrown-weapons-for-assassination-rogue-dps") },
     };
 }

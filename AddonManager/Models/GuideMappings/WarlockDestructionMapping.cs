@@ -86,7 +86,9 @@ internal class WarlockDestructionMapping : SpecMapping
     public override string PrePatchUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
-        { ("Main Hand", "h3#weapons") },
-        { ("Ranged/Relic", "h3#sigil") },
+        { ("Main Hand", "h2#weapons ~ h3 ~ h3") },
+        { ("Off Hand", "#offhand") },
+        { ("Two Hand", "h2#weapons ~ h3") },
+        { ("Ranged/Relic", "#wand") },
     };
 }

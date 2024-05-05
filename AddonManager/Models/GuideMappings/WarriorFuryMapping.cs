@@ -88,7 +88,7 @@ internal class WarriorFuryMapping : SpecMapping
     public override string PrePatchUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
-        { ("Main Hand", "h3#weapons") },
-        { ("Ranged/Relic", "h3#sigil") },
+        { ("Two Hand", "#two-handed-weapons-for-fury-warrior-dps-in-prepatch") },
+        { ("Ranged/Relic", "#ranged-weapons-for-fury-warrior-dps-in-prepatch") },
     };
 }

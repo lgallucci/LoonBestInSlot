@@ -105,7 +105,20 @@ internal class WarriorProtectionMapping : SpecMapping
     public override string PrePatchUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
-        { ("Main Hand", "h3#weapons") },
-        { ("Ranged/Relic", "h3#sigil") },
+        { ("Head", "#head-for-protection-warrior-tank")},
+        { ("Shoulder", "#shoulders-for-protection-warrior-tank") },
+        { ("Back", "#back-for-protection-warrior-tank") },
+        { ("Chest", "#chest-for-protection-warrior-tank") },
+        { ("Wrist", "#wrist-for-protection-warrior-tank") },
+        { ("Hands", "#hands-for-protection-warrior-tank") },
+        { ("Waist", "#waist-for-protection-warrior-tank") },
+        { ("Legs", "#legs-for-protection-warrior-tank") },
+        { ("Feet", "#feet-for-protection-warrior-tank") },
+        { ("Neck", "#neck-for-protection-warrior-tank") },
+        { ("Ring", "#rings-for-protection-warrior-tank") },
+        { ("Trinket", "#trinkets-for-protection-warrior-tank") },
+        { ("Main Hand", "#main-hand-weapons-for-protection-warrior-tank") },
+        { ("Off Hand", "#shields-for-protection-warrior-tank") },
+        { ("Ranged/Relic", "#ranged-weapons-for-protection-warrior-tank") },
     };
 }

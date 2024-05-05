@@ -86,7 +86,19 @@ internal class DruidBearMapping : SpecMapping
     public override string PrePatchUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
-        { ("Main Hand", "h3#weapons") },
-        { ("Ranged/Relic", "h3#sigil") },
+        { ("Head", "#head-for-feral-druid-tank-cataclysm-pre-patch")},
+        { ("Shoulder", "#shoulders-for-feral-druid-tank-cataclysm-pre-patch") },
+        { ("Back", "#back-for-feral-druid-tank-cataclysm-pre-patch") },
+        { ("Chest", "#chest-for-feral-druid-tank-cataclysm-pre-patch") },
+        { ("Wrist", "#wrist-for-feral-druid-tank-cataclysm-pre-patch") },
+        { ("Hands", "#gloves-for-feral-druid-tank-cataclysm-pre-patch") },
+        { ("Waist", "#waist-for-feral-druid-tank-cataclysm-pre-patch") },
+        { ("Legs", "#legs-for-feral-druid-tank-cataclysm-pre-patch") },
+        { ("Feet", "#feet-for-feral-druid-tank-cataclysm-pre-patch") },
+        { ("Neck", "#jewelry") },
+        { ("Ring", "#rings-for-feral-druid-tank-cataclysm-pre-patch") },
+        { ("Trinket", "#trinkets-for-feral-druid-tank-cataclysm-pre-patch") },
+        { ("Two Hand", "#weapons-for-feral-druid-tank-cataclysm-pre-patch") },
+        { ("Ranged/Relic", "#relics-for-feral-druid-tank-cataclysm-pre-patch") },
     };
 }

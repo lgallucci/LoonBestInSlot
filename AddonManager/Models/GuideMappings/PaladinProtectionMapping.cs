@@ -91,8 +91,9 @@ internal class PaladinProtectionMapping : SpecMapping
 
     public override string PrePatchUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
-    {
-        { ("Main Hand", "h3#weapons") },
-        { ("Ranged/Relic", "h3#sigil") },
-    };
+        {
+            { ("Main Hand", "h3#weapons") },
+            { ("Off Hand", "h3#shields") },
+            { ("Ranged/Relic", "h3#librams") },
+        };
 }

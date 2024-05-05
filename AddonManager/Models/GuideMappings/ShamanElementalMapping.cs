@@ -93,7 +93,8 @@ internal class ShamanElementalMapping : SpecMapping
     public override string PrePatchUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
-        { ("Main Hand", "h3#weapons") },
-        { ("Ranged/Relic", "h3#sigil") },
+        { ("Main Hand", "#weapons-for-elemental-shaman-dps-in-pre-patch") },
+        { ("Off Hand", "#shields-off-hands-for-elemental-shaman-dps-in-pre-patch") },
+        { ("Ranged/Relic", "#totems-for-elemental-shaman-dps-in-pre-patch") },
     };
 }

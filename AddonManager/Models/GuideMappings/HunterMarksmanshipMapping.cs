@@ -94,7 +94,8 @@ internal class HunterMarksmanshipMapping : SpecMapping
     public override string PrePatchUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
     {
-        { ("Main Hand", "h3#weapons") },
-        { ("Ranged/Relic", "h3#sigil") },
+        { ("Main Hand", "#one-handed-weapons-for-marksmanship-hunter-dps-pre-patch") },
+        { ("Two Hand", "#two-hand-weapons-for-marksmanship-hunter-dps-pre-patch") },
+        { ("Ranged/Relic", "#guns-and-bows-for-marksmanship-hunter-dps-pre-patch") },
     };
 }
