@@ -106,7 +106,7 @@ local function buildTooltip(tooltip, combinedTooltip)
 		local coords = CLASS_ICON_TCOORDS[class]
 		local classfontstring = "|T" .. iconpath .. ":14:14:::256:256:" .. iconOffset(coords[1] * 4, coords[3] * 4) .. "|t"
 		
-        if v.Phase == "0" then
+        if v.Phase == "0" or v.Phase == "99" then
             tooltip:AddDoubleLine(classfontstring .. " " .. v.Class .. " " .. v.Spec, v.Bis, color.r, color.g, color.b, color.r, color.g, color.b, true)
         else
             tooltip:AddDoubleLine(classfontstring .. " " .. v.Class .. " " .. v.Spec, v.Bis.." "..string.gsub(v.Phase, "0", "P"), color.r, color.g, color.b, color.r, color.g, color.b, true)
