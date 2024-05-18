@@ -26,7 +26,7 @@ local function itemSortFunction(table, k1, k2)
 
     local item1Score = 0;
     local item2Score = 0;
-    
+
     if itemSlotOrder[item1.Slot] > itemSlotOrder[item2.Slot] then
         item1Score = item1Score * -10000;
     end
@@ -65,7 +65,7 @@ local function printSource(itemId, specItemSource, dl)
 
         local sourceSplit = { strsplit("&", sourceText) };
         local sourceNumberSplit = { strsplit("&", sourceNumberText) };
-               
+
 		local first = false;
         for index, source in pairs(sourceSplit) do		
 			if first then
@@ -98,14 +98,14 @@ local function printSource(itemId, specItemSource, dl)
     if sourceText3 ~= nil and sourceText3 ~= "" then
 		printSourceText(sourceText3, sourceNumberText3, sourceLocationText3, false);
     end
-	
+
     dl:SetText(text);
 end
 
 local function IsInFaction(specItemSource)
 
     local englishFaction, _ = UnitFactionGroup("PLAYER");
-    
+
     if specItemSource.SourceFaction == "B" then
         return true;
     elseif englishFaction == "Alliance" and specItemSource.SourceFaction == "A" then
@@ -197,7 +197,7 @@ slotToWowCodes[LBIS.L["Two Hand"]] = "MAINHANDSLOT";
 slotToWowCodes[LBIS.L["Ranged/Relic"]] = "RANGEDSLOT";
 local function IsNotObsolete(specItem)
     if LBISSettings.HideObsolete then
-        
+
         local itemId1, itemId2 = -1, -1;
 
         if specItem.Slot == "Main Hand/Off Hand" then
@@ -224,7 +224,7 @@ local function IsNotObsolete(specItem)
         else
             --get lowest of other specs?
         end
-        
+
         if itemId2 ~= nil and tonumber(itemId2) > 0 then    
             if LBIS.ItemsByIdAndSpec[tonumber(itemId2)] ~= nil then    
                 local cachedItem2 = LBIS.ItemsByIdAndSpec[tonumber(itemId2)][LBIS.NameToSpecId[LBISSettings.SelectedSpec]];
@@ -294,7 +294,7 @@ local function createSourceTypeText(specItemSource)
 end
 
 local function createItemRow(f, specItem, specItemSource)
-    
+
     LBIS:GetItemInfo(specItem.Id, function(item)
         local window = LBIS.BrowserWindow.Window;
 
@@ -343,7 +343,7 @@ local function createItemRow(f, specItem, specItemSource)
         local dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
 
         if specItemSource.SourceType == LBIS.L["Transmute"] then
-        
+
             LBIS:GetItemInfo(tonumber(specItemSource.Source), function(transmuteItem)
 
                 local tb = CreateFrame("Button", nil, f);
@@ -353,7 +353,7 @@ local function createItemRow(f, specItem, specItemSource)
                 bt:SetTexture(transmuteItem.Texture);
                 tb:SetPoint("BOTTOMLEFT", dl, "BOTTOMRIGHT", 5, -2);
                 LBIS:SetTooltipOnButton(tb, transmuteItem);
-                                    
+
                 local ft = f:CreateFontString(nil, nil, "GameFontNormalSmall")
                 ft:SetText("From:");
                 ft:SetPoint("TOPRIGHT", tb, "TOPLEFT", -3, -3);
@@ -371,14 +371,14 @@ local function createItemRow(f, specItem, specItemSource)
                 bt:SetTexture(professionSpell.Texture);
                 tb:SetPoint("BOTTOMLEFT", dl, "BOTTOMRIGHT", 5, -2);
                 LBIS:SetTooltipOnButton(tb, professionSpell, true);
-                
+
                 dl:SetText(specItemSource.Source);
                 dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
             end);
         else
             printSource(specItem.Id, specItemSource, dl)
             dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
-        end      
+        end
         dl:SetJustifyH("LEFT");
 
         local userItemCache = LBIS.UserItems[item.Id];
@@ -407,7 +407,7 @@ local function createItemRow(f, specItem, specItemSource)
 end
 
 function LBIS.ItemList:UpdateItems()
-    
+
     LBIS.BrowserWindow.Window.SlotDropDown:Show();
     LBIS.BrowserWindow.Window.PhaseDropDown:Show();
     LBIS.BrowserWindow.Window.RankDropDown:Hide();
@@ -415,15 +415,14 @@ function LBIS.ItemList:UpdateItems()
     LBIS.BrowserWindow.Window.RaidDropDown:Show();
 
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
-        
+
         local specItems = LBIS.ItemsBySpecAndId[LBIS.NameToSpecId[LBISSettings.SelectedSpec]];
-        
+
         if specItems == nil then
             LBIS.BrowserWindow.Window.ShowUnavailable();
         end
 
         for itemId, specItem in LBIS:spairs(specItems, itemSortFunction) do
-            
             local specItemSource = LBIS.ItemSources[specItem.Id];
 
             if specItemSource == nil then

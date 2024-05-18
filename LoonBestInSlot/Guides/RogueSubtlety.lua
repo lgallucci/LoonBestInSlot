@@ -8,9 +8,12 @@ LBIS:AddGem(spec99, "49110", "4", "False") --Nightmare Tear
 LBIS:AddEnchant(spec99, "59954", LBIS.L["Head"]) --Arcanum of Torment
 LBIS:AddEnchant(spec99, "59934", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
 LBIS:AddEnchant(spec99, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
+LBIS:AddEnchant(spec99, "55002", LBIS.L["Back"]) --Flexweave Underlay
 LBIS:AddEnchant(spec99, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec99, "44575", LBIS.L["Wrist"]) --Enchant Bracer - Greater Assault
 LBIS:AddEnchant(spec99, "25080", LBIS.L["Hands"]) --Enchant Gloves - Superior Agility
+LBIS:AddEnchant(spec99, "54999", LBIS.L["Hands"]) --Hyperspeed Accelerators
+LBIS:AddEnchant(spec99, "55655", LBIS.L["Waist"]) --Eternal Belt Buckle
 LBIS:AddEnchant(spec99, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec99, "60582", LBIS.L["Legs"]) --Icescale Leg Armor
 LBIS:AddEnchant(spec99, "34007", LBIS.L["Feet"]) --Formula: Enchant Boots - Cat's Swiftness
