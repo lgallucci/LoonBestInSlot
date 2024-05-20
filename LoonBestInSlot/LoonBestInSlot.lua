@@ -10,7 +10,7 @@ LBIS.GemsBySpecAndId = {};
 LBIS.EnchantsBySpecAndId = {};
 
 LBIS.AllItemsCached = false;
-LBIS.CurrentPhase = 99;
+LBIS.CurrentPhase = 1;
 LBIS.Debugging = false;
 
 LBIS.EventFrame = CreateFrame("FRAME", addonName.."Events")
