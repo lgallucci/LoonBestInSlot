@@ -23,8 +23,9 @@ internal class PriestHolyMapping : SpecMapping
             { ("Neck", "#neck-for-holy-priest-healer") },
             { ("Ring", "#rings-for-holy-priest-healer") },
             { ("Trinket", "#trinkets-for-holy-priest-healer") },
-            { ("Main Hand", "#main-and-two-handed-weapons-for-holy-priest-healer") },
-            { ("Off Hand", "#off-hands-for-holy-priest-healer") },
+            { ("Main Hand", "#main-hand-weapons-for-holy-priest-healer") },
+            { ("Two Hand", "#staves-for-holy-priest-healer")},
+            { ("Off Hand", "#off-hands-for-holy-priest-healerh") },
             { ("Ranged/Relic", "#wands-for-holy-priest-healer") }
         };
 

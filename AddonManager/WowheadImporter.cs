@@ -143,10 +143,6 @@ public static class WowheadImporter
 
                 itemsAndEnchants = new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc, logFunc);
 
-                WriteGemsInternal(itemsAndEnchants.Item1, logFunc);
-                WriteEnchantsInternal(itemsAndEnchants.Item2, logFunc);
-                WriteItemsInternal(itemsAndEnchants.Item3, logFunc);
-
                 foreach(var gem in itemsAndEnchants.Item1) 
                 {
                     if (!guide.Item1.Any(g => g.GemId == gem.Key))
@@ -162,6 +158,10 @@ public static class WowheadImporter
                 else
                     guide.Item3[phaseNumber].Clear();
                 guide.Item3[phaseNumber].AddRange(itemsAndEnchants.Item3.Values.ToList());
+                
+                WriteGemsInternal(guide.Item1, logFunc);
+                WriteEnchantsInternal(guide.Item2, logFunc);
+                WriteItemsInternal(guide.Item3[phaseNumber], logFunc);
 
                 ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuideMapping.ClassName, classGuideMapping.SpecName,
                     guide.Item1, guide.Item2, guide.Item3);
@@ -179,60 +179,60 @@ public static class WowheadImporter
         return sb.ToString();
     }
 
-    private static void WriteGemsInternal(Dictionary<int, GemSpec> gems, Action<string> logFunc)
+    private static void WriteGemsInternal(List<GemSpec> gems, Action<string> logFunc)
     {
         var gemSources = ItemSourceFileManager.ReadGemSources();
 
         foreach (var gem in gems)
         {
-            if (!gemSources.ContainsKey(gem.Value.GemId) && gem.Value.GemId > 0)
+            if (!gemSources.ContainsKey(gem.GemId) && gem.GemId > 0)
             {
-                gemSources.Add(gem.Value.GemId, new GemSource
+                gemSources.Add(gem.GemId, new GemSource
                 {
-                    GemId = gem.Value.GemId,
+                    GemId = gem.GemId,
                     DesignId = 99999,
-                    Name = gem.Value.Name,
+                    Name = gem.Name,
                     Source = "\"unknown\"",
                     SourceLocation = "\"unknown\"",
                 });
             }
 
-            logFunc($"{gem.Value.GemId}: {gem.Value.Name}");
+            logFunc($"{gem.GemId}: {gem.Name}");
         }
 
         ItemSourceFileManager.WriteGemSources(gemSources);
     }
 
-    private static void WriteItemsInternal(Dictionary<int, ItemSpec> items, Action<string> logFunc)
+    private static void WriteItemsInternal(List<ItemSpec> items, Action<string> logFunc)
     {
         var itemSources = ItemSourceFileManager.ReadItemSources();
         
         foreach (var item in items)
         {
-            if (items.Count(i => i.Value.Slot == item.Value.Slot) == 1)
+            if (items.Count(i => i.Slot == item.Slot) == 1)
             {
-                if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
+                if (!itemSources.ContainsKey(item.ItemId) && item.ItemId > 0)
                 {
-                    itemSources.Add(item.Value.ItemId, new ItemSource
+                    itemSources.Add(item.ItemId, new ItemSource
                     {
-                        ItemId = item.Value.ItemId,
-                        Name = item.Value.Name,
+                        ItemId = item.ItemId,
+                        Name = item.Name,
                         SourceType = "LBIS.L[\"unknown\"]",
                         Source = "LBIS.L[\"unknown\"]",
                         SourceNumber = "0",
                         SourceLocation = "LBIS.L[\"unknown\"]"
                     });
                 }
-                item.Value.BisStatus = "BIS";
+                item.BisStatus = "BIS";
 
-                logFunc($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
+                logFunc($"{item.ItemId}: {item.Name} - {item.Slot} - {item.BisStatus}");
             }
-            if (!itemSources.ContainsKey(item.Value.ItemId) && item.Value.ItemId > 0)
+            if (!itemSources.ContainsKey(item.ItemId) && item.ItemId > 0)
             {
-                itemSources.Add(item.Value.ItemId, new ItemSource
+                itemSources.Add(item.ItemId, new ItemSource
                 {
-                    ItemId = item.Value.ItemId,
-                    Name = item.Value.Name,
+                    ItemId = item.ItemId,
+                    Name = item.Name,
                     SourceType = "LBIS.L[\"unknown\"]",
                     Source = "LBIS.L[\"unknown\"]",
                     SourceNumber = "0",
@@ -240,32 +240,32 @@ public static class WowheadImporter
                 });
             }
 
-            logFunc($"{item.Value.ItemId}: {item.Value.Name} - {item.Value.Slot} - {item.Value.BisStatus}");
+            logFunc($"{item.ItemId}: {item.Name} - {item.Slot} - {item.BisStatus}");
         }
 
         ItemSourceFileManager.WriteItemSources(itemSources);
     }
 
-    private static void WriteEnchantsInternal(Dictionary<string, EnchantSpec> enchants, Action<string> logFunc)
+    private static void WriteEnchantsInternal(List<EnchantSpec> enchants, Action<string> logFunc)
     {
         var enchantSources = ItemSourceFileManager.ReadEnchantSources();
 
         foreach (var enchant in enchants)
         {
-            if (!enchantSources.ContainsKey(enchant.Value.EnchantId) && enchant.Value.EnchantId > 0)
+            if (!enchantSources.ContainsKey(enchant.EnchantId) && enchant.EnchantId > 0)
             {
-                enchantSources.Add(enchant.Value.EnchantId, new EnchantSource
+                enchantSources.Add(enchant.EnchantId, new EnchantSource
                 {
-                    EnchantId = enchant.Value.EnchantId,
+                    EnchantId = enchant.EnchantId,
                     DesignId = 99999,
-                    Name = enchant.Value.Name,
+                    Name = enchant.Name,
                     Source = "\"unknown\"",
                     SourceLocation = "\"unknown\"",
-                    TextureId = enchant.Value.TextureId
+                    TextureId = enchant.TextureId
                 });
             }
 
-            logFunc($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot}");
+            logFunc($"{enchant.EnchantId}: {enchant.Name} - {enchant.Slot}");
         }
 
         ItemSourceFileManager.WriteEnchantSources(enchantSources);
@@ -346,7 +346,7 @@ public static class WowheadImporter
         GemSpec? gemSpec = null;
         try 
         {
-            IHtmlDocument? doc = await Common.LoadFromWebPage($"https://www.wowhead.com/cata/item={gemId}/", writeToLog);
+            IHtmlDocument? doc = await Common.LoadFromWebPage($"https://www.wowhead.com/cata/item={gemId}#taught-by-item", writeToLog);
 
             if (doc != null)
             {
@@ -368,7 +368,7 @@ public static class WowheadImporter
                     GemId = gemId,
                     Name = name,
                     IsMeta = isMeta,
-                    Phase = 99,
+                    Phase = 0,
                     Quality = itemQuality
                 };
             }

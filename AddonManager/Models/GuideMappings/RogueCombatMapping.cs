@@ -25,7 +25,7 @@ internal class RogueCombatMapping : SpecMapping
             { ("Trinket", "#trinkets-for-combat-rogue-dps") },
             { ("Main Hand", "#main-hand-weapons-for-combat-rogue-dps") },
             { ("Off Hand", "#off-hand-weapons-for-combat-rogue-dps") },
-            { ("Ranged/Relic", "#guns-and-bows-for-combat-rogue-dps") }
+            { ("Ranged/Relic", "#guns-bows-and-thrown-weapons-for-combat-rogue-dps") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

@@ -11,21 +11,10 @@ internal class MageFrostMapping : SpecMapping
     public override string Phase0Url => "dps-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-frost-mage-dps") },
-            { ("Shoulder", "#shoulders-for-frost-mage-dps") },
-            { ("Back", "#back-for-frost-mage-dps") },
-            { ("Chest", "#chest-for-frost-mage-dps") },
-            { ("Wrist", "#wrist-for-frost-mage-dps") },
-            { ("Hands", "#hands-for-frost-mage-dps") },
-            { ("Waist", "#waist-for-frost-mage-dps") },
-            { ("Legs", "#legs-for-frost-mage-dps") },
-            { ("Feet", "#feet-for-frost-mage-dps") },
-            { ("Neck", "#neck-for-frost-mage-dps") },
-            { ("Ring", "#rings-for-frost-mage-dps") },
-            { ("Trinket", "#trinkets-for-frost-mage-dps") },
-            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-frost-mage-dps") },
-            { ("Off Hand", "#off-hand-weapons-for-frost-mage-dps") },
-            { ("Ranged/Relic", "#wands-for-frost-mage-dps") }
+            { ("Main Hand", "#main-hand-weapons-for-frost-mage-dps-phase-1-pre-raid") },
+            { ("Two Hand", "#two-handed-weapons-for-frost-mage-dps-phase-1-pre-raid") },
+            { ("Off Hand", "#off-hand-weapons-for-frost-mage-dps-phase-1-pre-raid") },
+            { ("Ranged/Relic", "#wands-for-frost-mage-dps-phase-1-pre-raid") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

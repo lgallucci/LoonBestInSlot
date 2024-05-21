@@ -23,9 +23,9 @@ internal class WarriorProtectionMapping : SpecMapping
             { ("Neck", "#neck-for-protection-warrior-tank") },
             { ("Ring", "#rings-for-protection-warrior-tank") },
             { ("Trinket", "#trinkets-for-protection-warrior-tank") },
-            { ("Main Hand", "#one-handed-weapons-for-protection-warrior-tank") },
+            { ("Main Hand", "#main-hand-weapons-for-protection-warrior-tank") },
             { ("Off Hand", "#shields-for-protection-warrior-tank") },
-            { ("Ranged/Relic", "#guns-and-bows-for-protection-warrior-tank") }
+            { ("Ranged/Relic", "#ranged-weapons-for-protection-warrior-tank") }
         };
 
     public override string Phase1Url => "tank-bis-gear-pve-phase-1";

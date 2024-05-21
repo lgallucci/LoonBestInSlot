@@ -23,9 +23,8 @@ internal class HunterSurvivalMapping : SpecMapping
             { ("Neck", "#neck-for-survival-hunter-dps") },
             { ("Ring", "#rings-for-survival-hunter-dps") },
             { ("Trinket", "#trinkets-for-survival-hunter-dps") },
-            { ("Main Hand", "#one-handed-weapons-for-survival-hunter-dps") },
-            { ("Two Hand", "#two-hand-weapons-for-survival-hunter-dps") },
-            { ("Ranged/Relic", "#guns-and-bows-for-survival-hunter-dps") }
+            { ("Two Hand", "#melee-weapons-for-survival-hunter-dps") },
+            { ("Ranged/Relic", "#ranged-weapon-for-survival-hunter-dps") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

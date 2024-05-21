@@ -23,8 +23,8 @@ internal class DruidBearMapping : SpecMapping
             { ("Neck", "#neck-for-feral-druid-tank") },
             { ("Ring", "#rings-for-feral-druid-tank") },
             { ("Trinket", "#trinkets-for-feral-druid-tank") },
-            { ("Two Hand", "#weapons-for-feral-druid-tank") },
-            { ("Ranged/Relic", "#idols-for-feral-druid-tank") }
+            { ("Two Hand", "#two-handed-weapons-for-feral-druid-tank") },
+            { ("Ranged/Relic", "#relics-for-feral-druid-tank") }
         };
 
     public override string Phase1Url => "tank-bis-gear-pve-phase-1";

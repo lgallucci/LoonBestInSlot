@@ -11,8 +11,8 @@ internal class WarlockDemonologyMapping : SpecMapping
     public override string Phase0Url => "dps-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("h3#weapons~h4", "Two Hand") },
-            { ("h3#weapons~h4~h4", "Main Hand") },
+            { ("Two Hand", "h2#weapons~h3") },
+            { ("Main Hand", "h2#weapons~h3~h3") },
             { ("Off Hand", "#offhand") },
             { ("Ranged/Relic", "#wand") }
         };

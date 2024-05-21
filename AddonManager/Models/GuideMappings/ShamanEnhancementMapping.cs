@@ -11,20 +11,20 @@ internal class ShamanEnhancementMapping : SpecMapping
     public override string Phase0Url => "dps-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-enhancement-shaman-dps-in") },
-            { ("Shoulder", "#shoulder-for-enhancement-shaman-dps-in") },
-            { ("Back", "#back-for-enhancement-shaman-dps-in") },
-            { ("Chest", "#chest-for-enhancement-shaman-dps-in") },
-            { ("Wrist", "#wrist-for-enhancement-shaman-dps-in") },
-            { ("Hands", "#hands-for-enhancement-shaman-dps-in") },
-            { ("Waist", "#waist-for-enhancement-shaman-dps-in") },
-            { ("Legs", "#legs-for-enhancement-shaman-dps-in") },
-            { ("Feet", "#feet-for-enhancement-shaman-dps-in") },
-            { ("Neck", "#neck-for-enhancement-shaman-dps-in") },
-            { ("Ring", "#finger-for-enhancement-shaman-dps-in") },
-            { ("Trinket", "#trinket-for-enhancement-shaman-dps-in") },
-            { ("Main Hand", "#weapons-for-enhancement-shaman-dps-in") },
-            { ("Ranged/Relic", "#totems-for-enhancement-shaman-dps-in") }
+            { ("Head", "#head-for-enhancement-shaman-dps") },
+            { ("Shoulder", "#shoulders-for-enhancement-shaman-dps") },
+            { ("Back", "#back-for-enhancement-shaman-dps") },
+            { ("Chest", "#chest-for-enhancement-shaman-dps") },
+            { ("Wrist", "#wrist-for-enhancement-shaman-dps") },
+            { ("Hands", "#hands-for-enhancement-shaman-dps") },
+            { ("Waist", "#waist-for-enhancement-shaman-dps") },
+            { ("Legs", "#legs-for-enhancement-shaman-dps") },
+            { ("Feet", "#feet-for-enhancement-shaman-dps") },
+            { ("Neck", "#neck-for-enhancement-shaman-dps") },
+            { ("Ring", "#rings-for-enhancement-shaman-dps") },
+            { ("Trinket", "#trinkets-for-enhancement-shaman-dps") },
+            { ("Main Hand", "#weapons-for-enhancement-shaman-dps") },
+            { ("Ranged/Relic", "#relics-for-enhancement-shaman-dps") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

@@ -21,6 +21,7 @@ public class WowheadGuideParser
     private Dictionary<int, int> _gemSwaps = new Dictionary<int, int>()
     {
         { 4013, 40133 },
+        { 32206, 68778 },
     };
 
     private Dictionary<int, int> _enchantSwaps = new Dictionary<int, int>()
@@ -318,7 +319,7 @@ public class WowheadGuideParser
 
                     if (itemChild != null)
                     {
-                        ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText), items, itemOrderIndex);
+                        ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText, itemChild), items, itemOrderIndex);
                         ParseGemCell(tableRow, gems, logFunc);
                     }
                     first = false;
@@ -335,9 +336,9 @@ public class WowheadGuideParser
         {
             Common.RecursiveBoxSearch((IElement)gemCell, (anchorElement) => 
             {
-                if (((IHtmlAnchorElement)anchorElement).PathName.Contains("/item="))
+                if (anchorElement.PathName.Contains("/item="))
                 {
-                    var item = ((IHtmlAnchorElement)anchorElement).PathName.Replace("/wotlk", "").Replace("/cata/", "/").Replace("/item=", "");
+                    var item = anchorElement.PathName.Replace("/wotlk", "").Replace("/cata/", "/").Replace("/item=", "");
 
                     var itemIdIndex = item.IndexOf("/");
                     if (itemIdIndex == -1)
@@ -356,7 +357,7 @@ public class WowheadGuideParser
                     {
                         gems.Add(gemId, new GemSpec {
                             GemId = gemId,
-                            Phase = 99
+                            Phase = 0
                         });
                     }
                 }
@@ -406,11 +407,11 @@ public class WowheadGuideParser
         }
     }
 
-    private string GetSlot(string slot, string bisStatus)
+    private string GetSlot(string slot, string bisStatus, IElement itemChild)
     {
         if (slot == "Main Hand" && bisStatus.ToUpper().Contains("OH") && !bisStatus.Contains("MH"))
             return "Off Hand";
-        else if (slot == "Main Hand" && bisStatus.ToUpper().Contains("2H") && !bisStatus.Contains("MH"))
+        else if (slot == "Main Hand" && bisStatus.ToUpper().Contains("2H") && !bisStatus.Contains("MH") || itemChild.TextContent.Contains("Staff"))
             return "Two Hand";
 
         return slot;
@@ -627,6 +628,7 @@ public class WowheadGuideParser
 
                         if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*enchant").Success ||
                             Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*armor").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*scope").Success ||
                             Regex.Match(nextSibling.TextContent.Trim().ToLower(), "best.*enchant").Success ||
                             Regex.Match(nextSibling.TextContent.Trim().ToLower(), ".*enchants:").Success ||
                             Regex.Match(nextSibling.TextContent.Trim().ToLower(), ".*enchant:").Success)

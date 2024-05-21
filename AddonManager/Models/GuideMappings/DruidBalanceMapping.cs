@@ -23,10 +23,9 @@ internal class DruidBalanceMapping : SpecMapping
             { ("Neck", "#neck-for-balance-druid-dps") },
             { ("Ring", "#rings-for-balance-druid-dps") },
             { ("Trinket", "#trinkets-for-balance-druid-dps") },
-            { ("Main Hand", "#main-hand-weapons-for-balance-druid-dps") },
-            { ("Two Hand", "#two-handed-weapons-for-balance-druid-dps") },
-            { ("Off Hand", "#off-hand-weapons-for-balance-druid-dps") },
-            { ("Ranged/Relic", "#idols-for-balance-druid-dps") }
+            { ("Main Hand", "#weapons-for-balance-druid-dps") },
+            { ("Off Hand", "#off-hand-items-for-balance-druid-dps") },
+            { ("Ranged/Relic", "#relic-for-balance-druid-dps") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

@@ -23,8 +23,9 @@ internal class RogueAssassinationMapping : SpecMapping
             { ("Neck", "#neck-for-assassination-rogue-dps") },
             { ("Ring", "#rings-for-assassination-rogue-dps") },
             { ("Trinket", "#trinkets-for-assassination-rogue-dps") },
-            { ("Main Hand", "#weapons-for-assassination-rogue-dps") },
-            { ("Ranged/Relic", "#guns-and-bows-for-assassination-rogue-dps") }
+            { ("Main Hand", "#main-hand-weapons-for-assassination-rogue-dps") },
+            { ("Off Hand", "#off-hand-weapons-for-assassination-rogue-dps") },
+            { ("Ranged/Relic", "#guns-bows-and-thrown-weapons-for-assassination-rogue-dps") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

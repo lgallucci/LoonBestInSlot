@@ -23,8 +23,9 @@ internal class RogueSubtletyMapping : SpecMapping
             { ("Neck", "#neck-for-subtlety-rogue-dps") },
             { ("Ring", "#rings-for-subtlety-rogue-dps") },
             { ("Trinket", "#trinkets-for-subtlety-rogue-dps") },
-            { ("Main Hand", "#weapons-for-subtlety-rogue-dps") },
-            { ("Ranged/Relic", "#guns-and-bows-for-subtlety-rogue-dps") }
+            { ("Main Hand", "#main-hand-weapons-for-subtlety-rogue-dps") },
+            { ("Off Hand", "#off-hand-weapons-for-subtlety-rogue-dps") },
+            { ("Ranged/Relic", "#guns-bows-and-thrown-weapons-for-subtlety-rogue-dps") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

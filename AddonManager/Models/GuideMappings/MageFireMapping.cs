@@ -11,21 +11,10 @@ internal class MageFireMapping : SpecMapping
     public override string Phase0Url => "dps-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-fire-mage-dps") },
-            { ("Shoulder", "#shoulders-for-fire-mage-dps") },
-            { ("Back", "#back-for-fire-mage-dps") },
-            { ("Chest", "#chest-for-fire-mage-dps") },
-            { ("Wrist", "#wrist-for-fire-mage-dps") },
-            { ("Hands", "#hands-for-fire-mage-dps") },
-            { ("Waist", "#waist-for-fire-mage-dps") },
-            { ("Legs", "#legs-for-fire-mage-dps") },
-            { ("Feet", "#feet-for-fire-mage-dps") },
-            { ("Neck", "#neck-for-fire-mage-dps") },
-            { ("Ring", "#rings-for-fire-mage-dps") },
-            { ("Trinket", "#trinkets-for-fire-mage-dps") },
-            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-fire-mage-dps") },
-            { ("Off Hand", "#off-hand-weapons-for-fire-mage-dps") },
-            { ("Ranged/Relic", "#wands-for-fire-mage-dps") }
+            { ("Main Hand", "#main-hand-weapons-for-fire-mage-dps-phase-1-pre-raid") },
+            { ("Two Hand", "#two-handed-weapons-for-fire-mage-dps-phase-1-pre-raid") },
+            { ("Off Hand", "#off-hand-weapons-for-fire-mage-dps-phase-1-pre-raid") },
+            { ("Ranged/Relic", "#wands-for-fire-mage-dps-phase-1-pre-raid") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

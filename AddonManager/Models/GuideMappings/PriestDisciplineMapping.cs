@@ -23,8 +23,9 @@ internal class PriestDisciplineMapping : SpecMapping
             { ("Neck", "#neck-for-discipline-priest-healer") },
             { ("Ring", "#rings-for-discipline-priest-healer") },
             { ("Trinket", "#trinkets-for-discipline-priest-healer") },
-            { ("Main Hand", "#main-and-two-handed-weapons-for-discipline-priest-healer") },
-            { ("Off Hand", "#off-hands-for-discipline-priest-healer") },
+            { ("Main Hand", "#main-hand-weapons-for-discipline-priest-healer") },
+            { ("Two Hand", "#staves-for-discipline-priest-healer")},
+            { ("Off Hand", "#off-hands-for-discipline-priest-healerh") },
             { ("Ranged/Relic", "#wands-for-discipline-priest-healer") }
         };
 

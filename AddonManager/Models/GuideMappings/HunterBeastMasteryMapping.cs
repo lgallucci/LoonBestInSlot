@@ -23,9 +23,8 @@ internal class HunterBeastMasteryMapping : SpecMapping
             { ("Neck", "#neck-for-beast-mastery-hunter-dps") },
             { ("Ring", "#rings-for-beast-mastery-hunter-dps") },
             { ("Trinket", "#trinkets-for-beast-mastery-hunter-dps") },
-            { ("Main Hand", "#one-handed-weapons-for-beast-mastery-hunter-dps") },
-            { ("Two Hand", "#two-hand-weapons-for-beast-mastery-hunter-dps") },
-            { ("Ranged/Relic", "#guns-and-bows-for-beast-mastery-hunter-dps") }
+            { ("Two Hand", "#melee-weapons-for-beast-mastery-hunter-dps") },
+            { ("Ranged/Relic", "#ranged-weapon-for-beast-mastery-hunter-dps") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

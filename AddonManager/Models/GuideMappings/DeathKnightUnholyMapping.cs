@@ -20,11 +20,10 @@ internal class DeathKnightUnholyMapping : SpecMapping
             { ("Waist", "#waist-for-unholy-death-knight-dps") },
             { ("Legs", "#legs-for-unholy-death-knight-dps") },
             { ("Feet", "#feet-for-unholy-death-knight-dps") },
-            { ("Neck", "#neck-for-unholy-death-knight-dps") },
+            { ("Neck", "#neck-for-unholy-dps") },
             { ("Ring", "#rings-for-unholy-death-knight-dps") },
             { ("Trinket", "#trinkets-for-unholy-death-knight-dps") },
-            { ("Main Hand", "#main-hand-weapons-for-unholy-death-knight-dps") },
-            { ("Off Hand", "#off-hand-weapons-for-unholy-death-knight-dps") },
+            { ("Two Hand", "#weapons-for-unholy-death-knight-dps") },
             { ("Ranged/Relic", "#sigils-for-unholy-death-knight-dps") },
         };
 

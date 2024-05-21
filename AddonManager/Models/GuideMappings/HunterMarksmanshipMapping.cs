@@ -23,9 +23,8 @@ internal class HunterMarksmanshipMapping : SpecMapping
             { ("Neck", "#neck-for-marksmanship-hunter-dps") },
             { ("Ring", "#rings-for-marksmanship-hunter-dps") },
             { ("Trinket", "#trinkets-for-marksmanship-hunter-dps") },
-            { ("Main Hand", "#one-handed-weapons-for-marksmanship-hunter-dps") },
-            { ("Two Hand", "#two-hand-weapons-for-marksmanship-hunter-dps") },
-            { ("Ranged/Relic", "#guns-and-bows-for-marksmanship-hunter-dps") }
+            { ("Two Hand", "#melee-weapons-for-marksmanship-hunter-dps") },
+            { ("Ranged/Relic", "#ranged-weapon-for-marksmanship-hunter-dps") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

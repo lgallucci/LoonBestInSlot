@@ -23,8 +23,8 @@ internal class DruidCatMapping : SpecMapping
             { ("Neck", "#neck-for-feral-druid-dps") },
             { ("Ring", "#rings-for-feral-druid-dps") },
             { ("Trinket", "#trinkets-for-feral-druid-dps") },
-            { ("Two Hand", "#weapons-for-feral-druid-dps") },
-            { ("Ranged/Relic", "#idols-for-feral-druid-dps") }
+            { ("Two Hand", "#two-handed-weapons-for-feral-druid-dps") },
+            { ("Ranged/Relic", "#relics-for-feral-druid-dps") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

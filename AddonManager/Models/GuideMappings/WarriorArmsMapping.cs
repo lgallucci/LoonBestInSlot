@@ -23,8 +23,8 @@ internal class WarriorArmsMapping : SpecMapping
             { ("Neck", "#neck-for-arms-warrior-dps") },
             { ("Ring", "#rings-for-arms-warrior-dps") },
             { ("Trinket", "#trinkets-for-arms-warrior-dps") },
-            { ("Two Hand", "#two-handed-weapons-for-arms-warrior-dps") },
-            { ("Ranged/Relic", "#ranged-weapons-for-arms-warrior-dps") },
+            { ("Two Hand", "#weapons-for-arms-warrior-dps") },
+            { ("Ranged/Relic", "#ranged-weapon-for-arms-warrior-dps") },
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

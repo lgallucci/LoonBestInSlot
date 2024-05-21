@@ -11,20 +11,20 @@ internal class PaladinRetributionMapping : SpecMapping
     public override string Phase0Url => "dps-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-retribution-paladin") },
-            { ("Shoulder", "#shoulders-for-retribution-paladin") },
-            { ("Back", "#back-for-retribution-paladin") },
-            { ("Chest", "#chest-for-retribution-paladin") },
-            { ("Wrist", "#wrist-for-retribution-paladin") },
-            { ("Hands", "#hands-for-retribution-paladin") },
-            { ("Waist", "#waist-for-retribution-paladin") },
-            { ("Legs", "#legs-for-retribution-paladin") },
-            { ("Feet", "#feet-for-retribution-paladin") },
-            { ("Neck", "#neck-for-retribution-paladin") },
-            { ("Ring", "#rings-for-retribution-paladin") },
-            { ("Trinket", "#trinkets-for-retribution-paladin") },
-            { ("Two Hand", "#two-hand-weapons-for-retribution-paladin") },
-            { ("Ranged/Relic", "#libram") }
+            { ("Head", "#head-for-retribution-paladin-dps") },
+            { ("Shoulder", "#shoulders-for-retribution-paladin-dps") },
+            { ("Back", "#back-for-retribution-paladin-dps") },
+            { ("Chest", "#chest-for-retribution-paladin-dps") },
+            { ("Wrist", "#wrist-for-retribution-paladin-dps") },
+            { ("Hands", "#gloves-for-retribution-paladin-dps") },
+            { ("Waist", "#waist-for-retribution-paladin-dps") },
+            { ("Legs", "#legs-for-retribution-paladin-dps") },
+            { ("Feet", "#boots-for-retribution-paladin-dps") },
+            { ("Neck", "#neck-for-retribution-paladin-dps") },
+            { ("Ring", "#rings-for-retribution-paladin-dps") },
+            { ("Trinket", "#trinkets-for-retribution-paladin-dps") },
+            { ("Two Hand", "#two-handed-weapons-for-retribution-paladin-dps") },
+            { ("Ranged/Relic", "#librams-for-retribution-paladin-dps") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

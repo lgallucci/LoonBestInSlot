@@ -24,9 +24,9 @@ internal class DruidRestoMapping : SpecMapping
             { ("Ring", "#rings-for-restoration-druid-healer") },
             { ("Trinket", "#trinkets-for-restoration-druid-healer") },
             { ("Main Hand", "#main-hand-weapons-for-restoration-druid-healer") },
-            { ("Two Hand", "#two-handed-weapons-for-restoration-druid-healer") },
-            { ("Off Hand", "#off-hand-weapons-for-restoration-druid-healer") },
-            { ("Ranged/Relic", "#idols-for-restoration-druid-healer") }
+            { ("Two Hand", "#staff-weapons-for-restoration-druid-healer") },
+            { ("Off Hand", "#off-hands-for-restoration-druid-healer") },
+            { ("Ranged/Relic", "#relics-for-restoration-druid-healer") }
         };
 
     public override string Phase1Url => "healer-bis-gear-pve-phase-1";

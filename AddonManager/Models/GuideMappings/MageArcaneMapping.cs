@@ -11,21 +11,10 @@ internal class MageArcaneMapping : SpecMapping
     public override string Phase0Url => "dps-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-arcane-mage-dps") },
-            { ("Shoulder", "#shoulders-for-arcane-mage-dps") },
-            { ("Back", "#back-for-arcane-mage-dps") },
-            { ("Chest", "#chest-for-arcane-mage-dps") },
-            { ("Wrist", "#wrist-for-arcane-mage-dps") },
-            { ("Hands", "#hands-for-arcane-mage-dps") },
-            { ("Waist", "#waist-for-arcane-mage-dps") },
-            { ("Legs", "#legs-for-arcane-mage-dps") },
-            { ("Feet", "#feet-for-arcane-mage-dps") },
-            { ("Neck", "#neck-for-arcane-mage-dps") },
-            { ("Ring", "#rings-for-arcane-mage-dps") },
-            { ("Trinket", "#trinkets-for-arcane-mage-dps") },
-            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-arcane-mage-dps") },
-            { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps") },
-            { ("Ranged/Relic", "#wands-for-arcane-mage-dps") }
+            { ("Main Hand", "#main-hand-weapons-for-arcane-mage-dps-phase-1-pre-raid") },
+            { ("Two Hand", "#two-handed-weapons-for-arcane-mage-dps-phase-1-pre-raid") },
+            { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-phase-1-pre-raid") },
+            { ("Ranged/Relic", "#wands-for-arcane-mage-dps-phase-1-pre-raid") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";
