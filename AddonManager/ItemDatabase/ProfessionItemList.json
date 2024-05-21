@@ -1,4 +1,1996 @@
 {
-    "Items": {
+  "Items": {
+    "40727": {
+      "Name": "Gnomish Gravity Well",
+      "Source": "Engineering (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "95705",
+      "SourceFaction": "B"
+    },
+    "54440": {
+      "Name": "Dream of Destruction",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "94743",
+      "SourceFaction": "B"
+    },
+    "54441": {
+      "Name": "Black Embersilk Gown",
+      "Source": "Tailoring (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75288",
+      "SourceFaction": "B"
+    },
+    "54443": {
+      "Name": "Embersilk Bag",
+      "Source": "Tailoring (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75264",
+      "SourceFaction": "B"
+    },
+    "54444": {
+      "Name": "Illusionary Bag",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75308",
+      "SourceFaction": "B"
+    },
+    "54445": {
+      "Name": "Otherworldly Bag",
+      "Source": "Tailoring (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75265",
+      "SourceFaction": "B"
+    },
+    "54446": {
+      "Name": "Hyjal Expedition Bag",
+      "Source": "Tailoring (490)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75268",
+      "SourceFaction": "B"
+    },
+    "54448": {
+      "Name": "Powerful Enchanted Spellthread",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75309",
+      "SourceFaction": "B"
+    },
+    "54449": {
+      "Name": "Ghostly Spellthread",
+      "Source": "Tailoring (460)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75255",
+      "SourceFaction": "B"
+    },
+    "54450": {
+      "Name": "Powerful Ghostly Spellthread",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75310",
+      "SourceFaction": "B"
+    },
+    "54451": {
+      "Name": "High Society Top Hat",
+      "Source": "Tailoring (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75289",
+      "SourceFaction": "B"
+    },
+    "54472": {
+      "Name": "Deathsilk Leggings",
+      "Source": "Tailoring (460)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75254",
+      "SourceFaction": "B"
+    },
+    "54474": {
+      "Name": "Deathsilk Shoulders",
+      "Source": "Tailoring (455)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75251",
+      "SourceFaction": "B"
+    },
+    "54475": {
+      "Name": "Deathsilk Robe",
+      "Source": "Tailoring (465)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75257",
+      "SourceFaction": "B"
+    },
+    "54476": {
+      "Name": "Deathsilk Cowl",
+      "Source": "Tailoring (465)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75256",
+      "SourceFaction": "B"
+    },
+    "54477": {
+      "Name": "Deathsilk Boots",
+      "Source": "Tailoring (455)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75252",
+      "SourceFaction": "B"
+    },
+    "54478": {
+      "Name": "Deathsilk Gloves",
+      "Source": "Tailoring (460)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75253",
+      "SourceFaction": "B"
+    },
+    "54479": {
+      "Name": "Spiritmend Shoulders",
+      "Source": "Tailoring (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75260",
+      "SourceFaction": "B"
+    },
+    "54480": {
+      "Name": "Spiritmend Bracers",
+      "Source": "Tailoring (470)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75259",
+      "SourceFaction": "B"
+    },
+    "54481": {
+      "Name": "Spiritmend Belt",
+      "Source": "Tailoring (470)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75258",
+      "SourceFaction": "B"
+    },
+    "54482": {
+      "Name": "Spiritmend Boots",
+      "Source": "Tailoring (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75261",
+      "SourceFaction": "B"
+    },
+    "54483": {
+      "Name": "Spiritmend Leggings",
+      "Source": "Tailoring (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75263",
+      "SourceFaction": "B"
+    },
+    "54484": {
+      "Name": "Spiritmend Gloves",
+      "Source": "Tailoring (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75262",
+      "SourceFaction": "B"
+    },
+    "54485": {
+      "Name": "Spiritmend Cowl",
+      "Source": "Tailoring (485)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75266",
+      "SourceFaction": "B"
+    },
+    "54486": {
+      "Name": "Spiritmend Robe",
+      "Source": "Tailoring (485)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75267",
+      "SourceFaction": "B"
+    },
+    "54487": {
+      "Name": "Fireweave Shoulders",
+      "Source": "Tailoring (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75292",
+      "SourceFaction": "B"
+    },
+    "54488": {
+      "Name": "Fireweave Bracers",
+      "Source": "Tailoring (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75290",
+      "SourceFaction": "B"
+    },
+    "54489": {
+      "Name": "Fireweave Belt",
+      "Source": "Tailoring (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75269",
+      "SourceFaction": "B"
+    },
+    "54490": {
+      "Name": "Fireweave Boots",
+      "Source": "Tailoring (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75294",
+      "SourceFaction": "B"
+    },
+    "54491": {
+      "Name": "Fireweave Pants",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75302",
+      "SourceFaction": "B"
+    },
+    "54492": {
+      "Name": "Fireweave Gloves",
+      "Source": "Tailoring (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75296",
+      "SourceFaction": "B"
+    },
+    "54493": {
+      "Name": "Fireweave Cowl",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75304",
+      "SourceFaction": "B"
+    },
+    "54494": {
+      "Name": "Fireweave Robe",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75303",
+      "SourceFaction": "B"
+    },
+    "54495": {
+      "Name": "Emberfire Robe",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75305",
+      "SourceFaction": "B"
+    },
+    "54496": {
+      "Name": "Emberfire Cowl",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75306",
+      "SourceFaction": "B"
+    },
+    "54497": {
+      "Name": "Emberfire Gloves",
+      "Source": "Tailoring (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75295",
+      "SourceFaction": "B"
+    },
+    "54498": {
+      "Name": "Emberfire Pants",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75307",
+      "SourceFaction": "B"
+    },
+    "54499": {
+      "Name": "Emberfire Boots",
+      "Source": "Tailoring (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75297",
+      "SourceFaction": "B"
+    },
+    "54500": {
+      "Name": "Emberfire Belt",
+      "Source": "Tailoring (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75293",
+      "SourceFaction": "B"
+    },
+    "54501": {
+      "Name": "Emberfire Bracers",
+      "Source": "Tailoring (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75270",
+      "SourceFaction": "B"
+    },
+    "54502": {
+      "Name": "Emberfire Shoulders",
+      "Source": "Tailoring (505)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75291",
+      "SourceFaction": "B"
+    },
+    "54503": {
+      "Name": "Dreamless Belt",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75299",
+      "SourceFaction": "B"
+    },
+    "54504": {
+      "Name": "Belt of the Depths",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75298",
+      "SourceFaction": "B"
+    },
+    "54505": {
+      "Name": "Breeches of Mended Nightmares",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75300",
+      "SourceFaction": "B"
+    },
+    "54506": {
+      "Name": "Flame-Ascended Pantaloons",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "75301",
+      "SourceFaction": "B"
+    },
+    "54853": {
+      "Name": "Hardened Obsidium Belt",
+      "Source": "Blacksmithing (460)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76181",
+      "SourceFaction": "B"
+    },
+    "54854": {
+      "Name": "Hardened Obsidium Boots",
+      "Source": "Blacksmithing (470)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76182",
+      "SourceFaction": "B"
+    },
+    "54876": {
+      "Name": "Hardened Obsidium Shoulders",
+      "Source": "Blacksmithing (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76258",
+      "SourceFaction": "B"
+    },
+    "55022": {
+      "Name": "Hardened Obsidium Legguards",
+      "Source": "Blacksmithing (490)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76259",
+      "SourceFaction": "B"
+    },
+    "55023": {
+      "Name": "Hardened Obsidium Helm",
+      "Source": "Blacksmithing (490)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76260",
+      "SourceFaction": "B"
+    },
+    "55024": {
+      "Name": "Hardened Obsidium Breastplate",
+      "Source": "Blacksmithing (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76261",
+      "SourceFaction": "B"
+    },
+    "55027": {
+      "Name": "Redsteel Belt",
+      "Source": "Blacksmithing (460)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76264",
+      "SourceFaction": "B"
+    },
+    "55028": {
+      "Name": "Redsteel Boots",
+      "Source": "Blacksmithing (470)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76265",
+      "SourceFaction": "B"
+    },
+    "55029": {
+      "Name": "Redsteel Shoulders",
+      "Source": "Blacksmithing (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76266",
+      "SourceFaction": "B"
+    },
+    "55030": {
+      "Name": "Redsteel Legguards",
+      "Source": "Blacksmithing (490)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76267",
+      "SourceFaction": "B"
+    },
+    "55031": {
+      "Name": "Redsteel Helm",
+      "Source": "Blacksmithing (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76269",
+      "SourceFaction": "B"
+    },
+    "55032": {
+      "Name": "Redsteel Breastplate",
+      "Source": "Blacksmithing (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76270",
+      "SourceFaction": "B"
+    },
+    "55035": {
+      "Name": "Stormforged Belt",
+      "Source": "Blacksmithing (460)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76283",
+      "SourceFaction": "B"
+    },
+    "55036": {
+      "Name": "Stormforged Boots",
+      "Source": "Blacksmithing (470)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76285",
+      "SourceFaction": "B"
+    },
+    "55037": {
+      "Name": "Stormforged Shoulders",
+      "Source": "Blacksmithing (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76286",
+      "SourceFaction": "B"
+    },
+    "55038": {
+      "Name": "Stormforged Legguards",
+      "Source": "Blacksmithing (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76287",
+      "SourceFaction": "B"
+    },
+    "55039": {
+      "Name": "Stormforged Helm",
+      "Source": "Blacksmithing (490)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76288",
+      "SourceFaction": "B"
+    },
+    "55040": {
+      "Name": "Stormforged Breastplate",
+      "Source": "Blacksmithing (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76289",
+      "SourceFaction": "B"
+    },
+    "55042": {
+      "Name": "Stormforged Shield",
+      "Source": "Blacksmithing (470)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76293",
+      "SourceFaction": "B"
+    },
+    "55043": {
+      "Name": "Decapitator's Razor",
+      "Source": "Blacksmithing (460)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76433",
+      "SourceFaction": "B"
+    },
+    "55044": {
+      "Name": "Cold-Forged Shank",
+      "Source": "Blacksmithing (470)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76434",
+      "SourceFaction": "B"
+    },
+    "55045": {
+      "Name": "Fire-Etched Dagger",
+      "Source": "Blacksmithing (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76435",
+      "SourceFaction": "B"
+    },
+    "55046": {
+      "Name": "Lifeforce Hammer",
+      "Source": "Blacksmithing (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76436",
+      "SourceFaction": "B"
+    },
+    "55052": {
+      "Name": "Obsidium Executioner",
+      "Source": "Blacksmithing (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76437",
+      "SourceFaction": "B"
+    },
+    "55053": {
+      "Name": "Obsidium Skeleton Key",
+      "Source": "Blacksmithing (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76438",
+      "SourceFaction": "B"
+    },
+    "55054": {
+      "Name": "Ebonsteel Belt Buckle",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76439",
+      "SourceFaction": "B"
+    },
+    "55055": {
+      "Name": "Elementium Shield Spike",
+      "Source": "Blacksmithing (490)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76441",
+      "SourceFaction": "B"
+    },
+    "55056": {
+      "Name": "Pyrium Shield Spike",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76440",
+      "SourceFaction": "B"
+    },
+    "55057": {
+      "Name": "Pyrium Weapon Chain",
+      "Source": "Blacksmithing (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76442",
+      "SourceFaction": "B"
+    },
+    "55058": {
+      "Name": "Hardened Elementium Hauberk",
+      "Source": "Blacksmithing (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76443",
+      "SourceFaction": "B"
+    },
+    "55059": {
+      "Name": "Hardened Elementium Girdle",
+      "Source": "Blacksmithing (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76444",
+      "SourceFaction": "B"
+    },
+    "55060": {
+      "Name": "Elementium Deathplate",
+      "Source": "Blacksmithing (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76445",
+      "SourceFaction": "B"
+    },
+    "55061": {
+      "Name": "Elementium Girdle of Pain",
+      "Source": "Blacksmithing (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76446",
+      "SourceFaction": "B"
+    },
+    "55062": {
+      "Name": "Light Elementium Chestguard",
+      "Source": "Blacksmithing (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76447",
+      "SourceFaction": "B"
+    },
+    "55063": {
+      "Name": "Light Elementium Belt",
+      "Source": "Blacksmithing (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76448",
+      "SourceFaction": "B"
+    },
+    "55064": {
+      "Name": "Elementium Spellblade",
+      "Source": "Blacksmithing (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76449",
+      "SourceFaction": "B"
+    },
+    "55065": {
+      "Name": "Elementium Hammer",
+      "Source": "Blacksmithing (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76450",
+      "SourceFaction": "B"
+    },
+    "55066": {
+      "Name": "Elementium Poleaxe",
+      "Source": "Blacksmithing (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76451",
+      "SourceFaction": "B"
+    },
+    "55067": {
+      "Name": "Elementium Bonesplitter",
+      "Source": "Blacksmithing (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76452",
+      "SourceFaction": "B"
+    },
+    "55068": {
+      "Name": "Elementium Shank",
+      "Source": "Blacksmithing (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76453",
+      "SourceFaction": "B"
+    },
+    "55069": {
+      "Name": "Elementium Earthguard",
+      "Source": "Blacksmithing (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76454",
+      "SourceFaction": "B"
+    },
+    "55070": {
+      "Name": "Elementium Stormshield",
+      "Source": "Blacksmithing (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76455",
+      "SourceFaction": "B"
+    },
+    "55071": {
+      "Name": "Bloodied Pyrium Bracers",
+      "Source": "Blacksmithing (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76456",
+      "SourceFaction": "B"
+    },
+    "55072": {
+      "Name": "Bloodied Pyrium Gauntlets",
+      "Source": "Blacksmithing (505)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76457",
+      "SourceFaction": "B"
+    },
+    "55073": {
+      "Name": "Bloodied Pyrium Belt",
+      "Source": "Blacksmithing (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76458",
+      "SourceFaction": "B"
+    },
+    "55074": {
+      "Name": "Bloodied Pyrium Boots",
+      "Source": "Blacksmithing (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76459",
+      "SourceFaction": "B"
+    },
+    "55075": {
+      "Name": "Bloodied Pyrium Shoulders",
+      "Source": "Blacksmithing (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76461",
+      "SourceFaction": "B"
+    },
+    "55076": {
+      "Name": "Bloodied Pyrium Legguards",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76462",
+      "SourceFaction": "B"
+    },
+    "55077": {
+      "Name": "Bloodied Pyrium Helm",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76463",
+      "SourceFaction": "B"
+    },
+    "55078": {
+      "Name": "Bloodied Pyrium Breastplate",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76464",
+      "SourceFaction": "B"
+    },
+    "55079": {
+      "Name": "Ornate Pyrium Bracers",
+      "Source": "Blacksmithing (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76465",
+      "SourceFaction": "B"
+    },
+    "55080": {
+      "Name": "Ornate Pyrium Gauntlets",
+      "Source": "Blacksmithing (505)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76466",
+      "SourceFaction": "B"
+    },
+    "55081": {
+      "Name": "Ornate Pyrium Belt",
+      "Source": "Blacksmithing (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76467",
+      "SourceFaction": "B"
+    },
+    "55082": {
+      "Name": "Ornate Pyrium Boots",
+      "Source": "Blacksmithing (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76468",
+      "SourceFaction": "B"
+    },
+    "55083": {
+      "Name": "Ornate Pyrium Shoulders",
+      "Source": "Blacksmithing (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76469",
+      "SourceFaction": "B"
+    },
+    "55084": {
+      "Name": "Ornate Pyrium Legguards",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76470",
+      "SourceFaction": "B"
+    },
+    "55085": {
+      "Name": "Ornate Pyrium Helm",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76471",
+      "SourceFaction": "B"
+    },
+    "55086": {
+      "Name": "Ornate Pyrium Breastplate",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76472",
+      "SourceFaction": "B"
+    },
+    "55246": {
+      "Name": "Obsidium Bladespear",
+      "Source": "Blacksmithing (470)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "76474",
+      "SourceFaction": "B"
+    },
+    "56480": {
+      "Name": "Savage Cloak",
+      "Source": "Leatherworking (460)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78380",
+      "SourceFaction": "B"
+    },
+    "56481": {
+      "Name": "Tsunami Bracers",
+      "Source": "Leatherworking (460)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78388",
+      "SourceFaction": "B"
+    },
+    "56482": {
+      "Name": "Tsunami Belt",
+      "Source": "Leatherworking (470)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78396",
+      "SourceFaction": "B"
+    },
+    "56484": {
+      "Name": "Darkbrand Gloves",
+      "Source": "Leatherworking (465)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78399",
+      "SourceFaction": "B"
+    },
+    "56489": {
+      "Name": "Hardened Scale Cloak",
+      "Source": "Leatherworking (470)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78405",
+      "SourceFaction": "B"
+    },
+    "56490": {
+      "Name": "Tsunami Gloves",
+      "Source": "Leatherworking (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78406",
+      "SourceFaction": "B"
+    },
+    "56491": {
+      "Name": "Darkbrand Boots",
+      "Source": "Leatherworking (465)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78407",
+      "SourceFaction": "B"
+    },
+    "56495": {
+      "Name": "Darkbrand Shoulders",
+      "Source": "Leatherworking (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78411",
+      "SourceFaction": "B"
+    },
+    "56498": {
+      "Name": "Tsunami Shoulders",
+      "Source": "Leatherworking (455)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78415",
+      "SourceFaction": "B"
+    },
+    "56499": {
+      "Name": "Darkbrand Belt",
+      "Source": "Leatherworking (455)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78416",
+      "SourceFaction": "B"
+    },
+    "56502": {
+      "Name": "Scorched Leg Armor",
+      "Source": "Leatherworking (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78419",
+      "SourceFaction": "B"
+    },
+    "56503": {
+      "Name": "Twilight Leg Armor",
+      "Source": "Leatherworking (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78420",
+      "SourceFaction": "B"
+    },
+    "56504": {
+      "Name": "Tsunami Chestguard",
+      "Source": "Leatherworking (490)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78423",
+      "SourceFaction": "B"
+    },
+    "56505": {
+      "Name": "Darkbrand Helm",
+      "Source": "Leatherworking (490)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78424",
+      "SourceFaction": "B"
+    },
+    "56508": {
+      "Name": "Tsunami Leggings",
+      "Source": "Leatherworking (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78427",
+      "SourceFaction": "B"
+    },
+    "56509": {
+      "Name": "Darkbrand Chestguard",
+      "Source": "Leatherworking (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78428",
+      "SourceFaction": "B"
+    },
+    "56512": {
+      "Name": "Tsunami Helm",
+      "Source": "Leatherworking (485)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78432",
+      "SourceFaction": "B"
+    },
+    "56513": {
+      "Name": "Darkbrand Leggings",
+      "Source": "Leatherworking (485)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78433",
+      "SourceFaction": "B"
+    },
+    "56516": {
+      "Name": "Heavy Savage Leather",
+      "Source": "Leatherworking (485)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78436",
+      "SourceFaction": "B"
+    },
+    "56517": {
+      "Name": "Heavy Savage Armor Kit",
+      "Source": "Leatherworking (485)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78437",
+      "SourceFaction": "B"
+    },
+    "56518": {
+      "Name": "Cloak of Beasts",
+      "Source": "Leatherworking (495)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78438",
+      "SourceFaction": "B"
+    },
+    "56519": {
+      "Name": "Cloak of War",
+      "Source": "Leatherworking (495)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78439",
+      "SourceFaction": "B"
+    },
+    "56520": {
+      "Name": "Bloodied Wyrmhide Bracers",
+      "Source": "Leatherworking (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78444",
+      "SourceFaction": "B"
+    },
+    "56521": {
+      "Name": "Bloodied Wyrmhide Belt",
+      "Source": "Leatherworking (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78445",
+      "SourceFaction": "B"
+    },
+    "56522": {
+      "Name": "Bloodied Leather Bracers",
+      "Source": "Leatherworking (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78446",
+      "SourceFaction": "B"
+    },
+    "56523": {
+      "Name": "Bloodied Leather Gloves",
+      "Source": "Leatherworking (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78447",
+      "SourceFaction": "B"
+    },
+    "56524": {
+      "Name": "Bloodied Scale Bracers",
+      "Source": "Leatherworking (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78448",
+      "SourceFaction": "B"
+    },
+    "56525": {
+      "Name": "Bloodied Scale Gloves",
+      "Source": "Leatherworking (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78449",
+      "SourceFaction": "B"
+    },
+    "56526": {
+      "Name": "Bloodied Dragonscale Bracers",
+      "Source": "Leatherworking (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78450",
+      "SourceFaction": "B"
+    },
+    "56527": {
+      "Name": "Bloodied Dragonscale Shoulders",
+      "Source": "Leatherworking (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78451",
+      "SourceFaction": "B"
+    },
+    "56528": {
+      "Name": "Bloodied Wyrmhide Gloves",
+      "Source": "Leatherworking (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78452",
+      "SourceFaction": "B"
+    },
+    "56529": {
+      "Name": "Bloodied Wyrmhide Boots",
+      "Source": "Leatherworking (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78453",
+      "SourceFaction": "B"
+    },
+    "56530": {
+      "Name": "Bloodied Leather Boots",
+      "Source": "Leatherworking (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78454",
+      "SourceFaction": "B"
+    },
+    "56531": {
+      "Name": "Bloodied Leather Shoulders",
+      "Source": "Leatherworking (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78455",
+      "SourceFaction": "B"
+    },
+    "56532": {
+      "Name": "Bloodied Scale Boots",
+      "Source": "Leatherworking (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78456",
+      "SourceFaction": "B"
+    },
+    "56533": {
+      "Name": "Bloodied Scale Belt",
+      "Source": "Leatherworking (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78457",
+      "SourceFaction": "B"
+    },
+    "56534": {
+      "Name": "Bloodied Dragonscale Boots",
+      "Source": "Leatherworking (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78458",
+      "SourceFaction": "B"
+    },
+    "56535": {
+      "Name": "Bloodied Dragonscale Gloves",
+      "Source": "Leatherworking (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78459",
+      "SourceFaction": "B"
+    },
+    "56536": {
+      "Name": "Lightning Lash",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78460",
+      "SourceFaction": "B"
+    },
+    "56537": {
+      "Name": "Belt of Nefarious Whispers",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78461",
+      "SourceFaction": "B"
+    },
+    "56538": {
+      "Name": "Stormleather Sash",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78462",
+      "SourceFaction": "B"
+    },
+    "56539": {
+      "Name": "Corded Viper Belt",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78463",
+      "SourceFaction": "B"
+    },
+    "56540": {
+      "Name": "Bloodied Wyrmhide Shoulders",
+      "Source": "Leatherworking (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78464",
+      "SourceFaction": "B"
+    },
+    "56541": {
+      "Name": "Bloodied Wyrmhide Chest",
+      "Source": "Leatherworking (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78467",
+      "SourceFaction": "B"
+    },
+    "56542": {
+      "Name": "Bloodied Leather Belt",
+      "Source": "Leatherworking (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78468",
+      "SourceFaction": "B"
+    },
+    "56543": {
+      "Name": "Bloodied Leather Helm",
+      "Source": "Leatherworking (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78469",
+      "SourceFaction": "B"
+    },
+    "56544": {
+      "Name": "Bloodied Scale Shoulders",
+      "Source": "Leatherworking (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78470",
+      "SourceFaction": "B"
+    },
+    "56545": {
+      "Name": "Bloodied Scale Legs",
+      "Source": "Leatherworking (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78471",
+      "SourceFaction": "B"
+    },
+    "56546": {
+      "Name": "Bloodied Dragonscale Belt",
+      "Source": "Leatherworking (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78473",
+      "SourceFaction": "B"
+    },
+    "56547": {
+      "Name": "Bloodied Dragonscale Helm",
+      "Source": "Leatherworking (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78474",
+      "SourceFaction": "B"
+    },
+    "56548": {
+      "Name": "Razor-Edged Cloak",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78475",
+      "SourceFaction": "B"
+    },
+    "56549": {
+      "Name": "Twilight Dragonscale Cloak",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78476",
+      "SourceFaction": "B"
+    },
+    "56550": {
+      "Name": "Dragonscale Leg Armor",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78477",
+      "SourceFaction": "B"
+    },
+    "56551": {
+      "Name": "Charscale Leg Armor",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78478",
+      "SourceFaction": "B"
+    },
+    "56552": {
+      "Name": "Bloodied Wyrmhide Legs",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78479",
+      "SourceFaction": "B"
+    },
+    "56553": {
+      "Name": "Bloodied Wyrmhide Helm",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78480",
+      "SourceFaction": "B"
+    },
+    "56554": {
+      "Name": "Bloodied Leather Chest",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78481",
+      "SourceFaction": "B"
+    },
+    "56555": {
+      "Name": "Bloodied Leather Legs",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78482",
+      "SourceFaction": "B"
+    },
+    "56556": {
+      "Name": "Bloodied Scale Chest",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78483",
+      "SourceFaction": "B"
+    },
+    "56557": {
+      "Name": "Bloodied Scale Helm",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78484",
+      "SourceFaction": "B"
+    },
+    "56558": {
+      "Name": "Bloodied Dragonscale Legs",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78485",
+      "SourceFaction": "B"
+    },
+    "56559": {
+      "Name": "Bloodied Dragonscale Chest",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78486",
+      "SourceFaction": "B"
+    },
+    "56561": {
+      "Name": "Chestguard of Nature's Fury",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78487",
+      "SourceFaction": "B"
+    },
+    "56562": {
+      "Name": "Assassin's Chestplate",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78488",
+      "SourceFaction": "B"
+    },
+    "56563": {
+      "Name": "Twilight Scale Chestguard",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78489",
+      "SourceFaction": "B"
+    },
+    "56564": {
+      "Name": "Dragonkiller Tunic",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "78490",
+      "SourceFaction": "B"
+    },
+    "59359": {
+      "Name": "Reinforced Bio-Optic Killshades",
+      "Source": "Engineering (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "81714",
+      "SourceFaction": "B"
+    },
+    "59364": {
+      "Name": "Overpowered Chicken Splitter",
+      "Source": "Engineering (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "84431",
+      "SourceFaction": "B"
+    },
+    "59367": {
+      "Name": "Kickback 5000",
+      "Source": "Engineering (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "84432",
+      "SourceFaction": "B"
+    },
+    "59448": {
+      "Name": "Specialized Bio-Optic Killshades",
+      "Source": "Engineering (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "81715",
+      "SourceFaction": "B"
+    },
+    "59449": {
+      "Name": "Lightweight Bio-Optic Killshades",
+      "Source": "Engineering (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "81725",
+      "SourceFaction": "B"
+    },
+    "59453": {
+      "Name": "Camouflage Bio-Optic Killshades",
+      "Source": "Engineering (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "81724",
+      "SourceFaction": "B"
+    },
+    "59455": {
+      "Name": "Agile Bio-Optic Killshades",
+      "Source": "Engineering (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "81722",
+      "SourceFaction": "B"
+    },
+    "59456": {
+      "Name": "Deadly Bio-Optic Killshades",
+      "Source": "Engineering (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "81716",
+      "SourceFaction": "B"
+    },
+    "59458": {
+      "Name": "Energized Bio-Optic Killshades",
+      "Source": "Engineering (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "81720",
+      "SourceFaction": "B"
+    },
+    "59594": {
+      "Name": "Gnomish X-Ray Scope",
+      "Source": "Engineering (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "84428",
+      "SourceFaction": "B"
+    },
+    "59597": {
+      "Name": "Personal World Destroyer",
+      "Source": "Engineering (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "84412",
+      "SourceFaction": "B"
+    },
+    "59598": {
+      "Name": "Finely-Tuned Throat Needler",
+      "Source": "Engineering (490)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "84420",
+      "SourceFaction": "B"
+    },
+    "59599": {
+      "Name": "Volatile Thunderstick",
+      "Source": "Engineering (495)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "84417",
+      "SourceFaction": "B"
+    },
+    "60216": {
+      "Name": "De-Weaponized Mechanical Companion",
+      "Source": "Engineering (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "84413",
+      "SourceFaction": "B"
+    },
+    "60217": {
+      "Name": "Elementium Toolbox",
+      "Source": "Engineering (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "84416",
+      "SourceFaction": "B"
+    },
+    "60218": {
+      "Name": "Lure Master Tackle Box",
+      "Source": "Engineering (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "84415",
+      "SourceFaction": "B"
+    },
+    "60223": {
+      "Name": "High-Powered Bolt Gun",
+      "Source": "Engineering (465)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "84411",
+      "SourceFaction": "B"
+    },
+    "60403": {
+      "Name": "Elementium Dragonling",
+      "Source": "Engineering (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "84418",
+      "SourceFaction": "B"
+    },
+    "60853": {
+      "Name": "Volatile Seaforium Blastpack",
+      "Source": "Engineering (455)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "84409",
+      "SourceFaction": "B"
+    },
+    "60854": {
+      "Name": "Loot-a-Rang",
+      "Source": "Engineering (490)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "84421",
+      "SourceFaction": "B"
+    },
+    "60858": {
+      "Name": "Goblin Barbecue",
+      "Source": "Engineering (505)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "84429",
+      "SourceFaction": "B"
+    },
+    "63396": {
+      "Name": "Big Daddy",
+      "Source": "Engineering (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "95707",
+      "SourceFaction": "B"
+    },
+    "65358": {
+      "Name": "Elementium Rod",
+      "Source": "Blacksmithing (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "92375",
+      "SourceFaction": "B"
+    },
+    "67602": {
+      "Name": "Elementium Gutslicer",
+      "Source": "Blacksmithing (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "94718",
+      "SourceFaction": "B"
+    },
+    "67605": {
+      "Name": "Forged Elementium Mindcrusher",
+      "Source": "Blacksmithing (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "94732",
+      "SourceFaction": "B"
+    },
+    "68049": {
+      "Name": "Heat-Treated Spinning Lure",
+      "Source": "Engineering (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "84430",
+      "SourceFaction": "B"
+    },
+    "69936": {
+      "Name": "Fists of Fury",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99439",
+      "SourceFaction": "B"
+    },
+    "69937": {
+      "Name": "Eternal Elementium Handguards",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99440",
+      "SourceFaction": "B"
+    },
+    "69938": {
+      "Name": "Holy Flame Gauntlets",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99441",
+      "SourceFaction": "B"
+    },
+    "69939": {
+      "Name": "Dragonfire Gloves",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99443",
+      "SourceFaction": "B"
+    },
+    "69941": {
+      "Name": "Gloves of Unforgiving Flame",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99445",
+      "SourceFaction": "B"
+    },
+    "69942": {
+      "Name": "Clutches of Evil",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99446",
+      "SourceFaction": "B"
+    },
+    "69943": {
+      "Name": "Heavenly Gloves of the Moon",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99447",
+      "SourceFaction": "B"
+    },
+    "69944": {
+      "Name": "Grips of Altered Reality",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99448",
+      "SourceFaction": "B"
+    },
+    "69945": {
+      "Name": "Don Tayo's Inferno Mittens",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99449",
+      "SourceFaction": "B"
+    },
+    "69946": {
+      "Name": "Warboots of Mighty Lords",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99452",
+      "SourceFaction": "B"
+    },
+    "69947": {
+      "Name": "Mirrored Boots",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99453",
+      "SourceFaction": "B"
+    },
+    "69948": {
+      "Name": "Emberforged Elementium Boots",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99454",
+      "SourceFaction": "B"
+    },
+    "69949": {
+      "Name": "Earthen Scale Sabatons",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99455",
+      "SourceFaction": "B"
+    },
+    "69950": {
+      "Name": "Footwraps of Quenched Fire",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99456",
+      "SourceFaction": "B"
+    },
+    "69951": {
+      "Name": "Treads of the Craft",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99457",
+      "SourceFaction": "B"
+    },
+    "69952": {
+      "Name": "Ethereal Footfalls",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99458",
+      "SourceFaction": "B"
+    },
+    "69953": {
+      "Name": "Endless Dream Walkers",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99459",
+      "SourceFaction": "B"
+    },
+    "69954": {
+      "Name": "Boots of the Black Flame",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99460",
+      "SourceFaction": "B"
+    },
+    "70136": {
+      "Name": "Royal Scribe's Satchel",
+      "Source": "Leatherworking (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "100583",
+      "SourceFaction": "B"
+    },
+    "70137": {
+      "Name": "Triple-Reinforced Mining Bag",
+      "Source": "Leatherworking (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "100586",
+      "SourceFaction": "B"
+    },
+    "70138": {
+      "Name": "Luxurious Silk Gem Bag",
+      "Source": "Tailoring (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "100585",
+      "SourceFaction": "B"
+    },
+    "70139": {
+      "Name": "Flintlocke's Woodchucker",
+      "Source": "Engineering (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "100587",
+      "SourceFaction": "B"
+    },
+    "70155": {
+      "Name": "Brainsplinter",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99652",
+      "SourceFaction": "B"
+    },
+    "70156": {
+      "Name": "Masterwork Elementium Spellblade",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99653",
+      "SourceFaction": "B"
+    },
+    "70157": {
+      "Name": "Lightforged Elementium Hammer",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99654",
+      "SourceFaction": "B"
+    },
+    "70158": {
+      "Name": "Elementium-Edged Scalper",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99655",
+      "SourceFaction": "B"
+    },
+    "70162": {
+      "Name": "Pyrium Spellward",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99656",
+      "SourceFaction": "B"
+    },
+    "70163": {
+      "Name": "Unbreakable Guardian",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99657",
+      "SourceFaction": "B"
+    },
+    "70164": {
+      "Name": "Masterwork Elementium Deathblade",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99658",
+      "SourceFaction": "B"
+    },
+    "70165": {
+      "Name": "Witch-Hunter's Harvester",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99660",
+      "SourceFaction": "B"
+    },
+    "71077": {
+      "Name": "Extreme-Impact Hole Puncher",
+      "Source": "Engineering (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "100687",
+      "SourceFaction": "B"
+    },
+    "71720": {
+      "Name": "Drakehide Leg Armor",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101599",
+      "SourceFaction": "B"
+    },
+    "71980": {
+      "Name": "Lavaquake Legwraps",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101921",
+      "SourceFaction": "B"
+    },
+    "71981": {
+      "Name": "World Mender's Pants",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101920",
+      "SourceFaction": "B"
+    },
+    "71982": {
+      "Name": "Pyrium Legplates of Purified Evil",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101924",
+      "SourceFaction": "B"
+    },
+    "71983": {
+      "Name": "Unstoppable Destroyer's Legplates",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101925",
+      "SourceFaction": "B"
+    },
+    "71984": {
+      "Name": "Foundations of Courage",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101928",
+      "SourceFaction": "B"
+    },
+    "71985": {
+      "Name": "Bladeshadow Leggings",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101935",
+      "SourceFaction": "B"
+    },
+    "71986": {
+      "Name": "Leggings of Nature's Champion",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101933",
+      "SourceFaction": "B"
+    },
+    "71987": {
+      "Name": "Rended Earth Leggings",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101936",
+      "SourceFaction": "B"
+    },
+    "71988": {
+      "Name": "Deathscale Leggings",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101934",
+      "SourceFaction": "B"
+    },
+    "71989": {
+      "Name": "Bracers of Unconquered Power",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101923",
+      "SourceFaction": "B"
+    },
+    "71990": {
+      "Name": "Dreamwraps of the Light",
+      "Source": "Tailoring (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101922",
+      "SourceFaction": "B"
+    },
+    "71991": {
+      "Name": "Soul Redeemer Bracers",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101929",
+      "SourceFaction": "B"
+    },
+    "71992": {
+      "Name": "Bracers of Destructive Strength",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101931",
+      "SourceFaction": "B"
+    },
+    "71993": {
+      "Name": "Titanguard Wristplates",
+      "Source": "Blacksmithing (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101932",
+      "SourceFaction": "B"
+    },
+    "71994": {
+      "Name": "Bladeshadow Wristguards",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101940",
+      "SourceFaction": "B"
+    },
+    "71995": {
+      "Name": "Bracers of Flowing Serenity",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101937",
+      "SourceFaction": "B"
+    },
+    "71996": {
+      "Name": "Bracers of the Hunter-Killer",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101941",
+      "SourceFaction": "B"
+    },
+    "71997": {
+      "Name": "Thundering Deathscale Wristguards",
+      "Source": "Leatherworking (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101939",
+      "SourceFaction": "B"
+    },
+    "75065": {
+      "Name": "Vicious Embersilk Cape",
+      "Source": "Tailoring (490)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99537",
+      "SourceFaction": "B"
+    },
+    "75076": {
+      "Name": "Vicious Fur Cloak",
+      "Source": "Leatherworking (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99536",
+      "SourceFaction": "B"
+    },
+    "75077": {
+      "Name": "Vicious Hide Cloak",
+      "Source": "Leatherworking (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99535",
+      "SourceFaction": "B"
     }
+  }
 }

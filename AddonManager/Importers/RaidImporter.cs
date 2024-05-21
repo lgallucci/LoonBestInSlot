@@ -9,21 +9,70 @@ public class RaidImporter : LootImporter
 {
     private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
-        //Vault
-        //{ @"https://www.wowhead.com/cata/npc=31125/archavon-the-stone-watcher#drops;mode:n10", "Archavon the Stone Watcher, Vault of Archavon (10)" },
+        //Throne of the Four Winds
+        { @"https://www.wowhead.com/cata/npc=45871/nezir#drops;mode:n10", "Conclave of Wind, Throne of the Four Winds (10)" },
+        { @"https://www.wowhead.com/cata/npc=45871/nezir#drops;mode:h10", "Conclave of Wind, Throne of the Four Winds (10H)" },
+        { @"https://www.wowhead.com/cata/npc=45871/nezir#drops;mode:n25", "Conclave of Wind, Throne of the Four Winds (25)" },
+        { @"https://www.wowhead.com/cata/npc=45871/nezir#drops;mode:h25", "Conclave of Wind, Throne of the Four Winds (25H)" },
+        { @"https://www.wowhead.com/cata/npc=46753/alakir#drops;mode:n10", "Al'Akir, Throne of the Four Winds (10)" },
+        { @"https://www.wowhead.com/cata/npc=46753/alakir#drops;mode:h10", "Al'Akir, Throne of the Four Winds (10H)" },
+        { @"https://www.wowhead.com/cata/npc=46753/alakir#drops;mode:n25", "Al'Akir, Throne of the Four Winds (25)" },
+        { @"https://www.wowhead.com/cata/npc=46753/alakir#drops;mode:h25", "Al'Akir, Throne of the Four Winds (25H)" },
+
+        //Blackwing Descent
+        { @"https://www.wowhead.com/cata/npc=41570/magmaw#drops;mode:n10", "Magmaw, Blackwing Descent (10)"},
+        { @"https://www.wowhead.com/cata/npc=41570/magmaw#drops;mode:h10", "Magmaw, Blackwing Descent (10H)"},
+        { @"https://www.wowhead.com/cata/npc=41570/magmaw#drops;mode:n25", "Magmaw, Blackwing Descent (25)"},
+        { @"https://www.wowhead.com/cata/npc=41570/magmaw#drops;mode:h25", "Magmaw, Blackwing Descent (25H)"},
+        { @"https://www.wowhead.com/cata/npc=42166/arcanotron#drops;mode:n10", "Arcanotron, Blackwing Descent (10)"},
+        { @"https://www.wowhead.com/cata/npc=42166/arcanotron#drops;mode:h10", "Arcanotron, Blackwing Descent (10H)"},
+        { @"https://www.wowhead.com/cata/npc=42166/arcanotron#drops;mode:n25", "Arcanotron, Blackwing Descent (25)"},
+        { @"https://www.wowhead.com/cata/npc=42166/arcanotron#drops;mode:h25", "Arcanotron, Blackwing Descent (25H)"},
+        { @"https://www.wowhead.com/cata/npc=41378/maloriak#drops;mode:n10", "Maloriak, Blackwing Descent (10)"},
+        { @"https://www.wowhead.com/cata/npc=41378/maloriak#drops;mode:h10", "Maloriak, Blackwing Descent (10H)"},
+        { @"https://www.wowhead.com/cata/npc=41378/maloriak#drops;mode:n25", "Maloriak, Blackwing Descent (25)"},
+        { @"https://www.wowhead.com/cata/npc=41378/maloriak#drops;mode:h25", "Maloriak, Blackwing Descent (25H)"},
+        { @"https://www.wowhead.com/cata/npc=41442/atramedes#drops;mode:n10", "Atramedes, Blackwing Descent (10)"},
+        { @"https://www.wowhead.com/cata/npc=41442/atramedes#drops;mode:h10", "Atramedes, Blackwing Descent (10H)"},
+        { @"https://www.wowhead.com/cata/npc=41442/atramedes#drops;mode:n25", "Atramedes, Blackwing Descent (25)"},
+        { @"https://www.wowhead.com/cata/npc=41442/atramedes#drops;mode:h25", "Atramedes, Blackwing Descent (25H)"},
+        { @"https://www.wowhead.com/cata/npc=43296/chimaeron#drops;mode:n10", "Chimaeron, Blackwing Descent (10)"},
+        { @"https://www.wowhead.com/cata/npc=43296/chimaeron#drops;mode:h10", "Chimaeron, Blackwing Descent (10H)"},
+        { @"https://www.wowhead.com/cata/npc=43296/chimaeron#drops;mode:n25", "Chimaeron, Blackwing Descent (25)"},
+        { @"https://www.wowhead.com/cata/npc=43296/chimaeron#drops;mode:h25", "Chimaeron, Blackwing Descent (25H)"},
+        { @"https://www.wowhead.com/cata/npc=41376/nefarian#drops;mode:n10", "Nefarian, Blackwing Descent (10)"},
+        { @"https://www.wowhead.com/cata/npc=41376/nefarian#drops;mode:h10", "Nefarian, Blackwing Descent (10H)"},
+        { @"https://www.wowhead.com/cata/npc=41376/nefarian#drops;mode:n25", "Nefarian, Blackwing Descent (25)"},
+        { @"https://www.wowhead.com/cata/npc=41376/nefarian#drops;mode:h25", "Nefarian, Blackwing Descent (25H)"},
+
+        //Bastion of Twilight
+        { @"https://www.wowhead.com/cata/npc=44600/halfus-wyrmbreaker#drops;mode:n10", "Halfus Wyrmbreaker, The Bastion of Twilight (10)"},
+        { @"https://www.wowhead.com/cata/npc=44600/halfus-wyrmbreaker#drops;mode:h10", "Halfus Wyrmbreaker, The Bastion of Twilight (10H)"},
+        { @"https://www.wowhead.com/cata/npc=44600/halfus-wyrmbreaker#drops;mode:n25", "Halfus Wyrmbreaker, The Bastion of Twilight (25)"},
+        { @"https://www.wowhead.com/cata/npc=44600/halfus-wyrmbreaker#drops;mode:h25", "Halfus Wyrmbreaker, The Bastion of Twilight (25H)"},
+        { @"https://www.wowhead.com/cata/npc=45992/valiona#drops;mode:n10", "Valiona & Theralion, The Bastion of Twilight (10)"},
+        { @"https://www.wowhead.com/cata/npc=45992/valion#drops;mode:h10", "Valiona & Theralion, The Bastion of Twilight (10H)"},
+        { @"https://www.wowhead.com/cata/npc=45992/valion#drops;mode:n25", "Valiona & Theralion, The Bastion of Twilight (25)"},
+        { @"https://www.wowhead.com/cata/npc=45992/valion#drops;mode:h25", "Valiona & Theralion, The Bastion of Twilight (25H)"},
+        { @"https://www.wowhead.com/cata/npc=43687/feludius#drops;mode:n10", "Ascendant Council, The Bastion of Twilight (10)"},
+        { @"https://www.wowhead.com/cata/npc=43687/feludius#drops;mode:h10", "Ascendant Council, The Bastion of Twilight (10H)"},
+        { @"https://www.wowhead.com/cata/npc=43687/feludius#drops;mode:n25", "Ascendant Council, The Bastion of Twilight (25)"},
+        { @"https://www.wowhead.com/cata/npc=43687/feludius#drops;mode:h25", "Ascendant Council, The Bastion of Twilight (25H)"},
+        { @"https://www.wowhead.com/cata/npc=43324/chogall#drops;mode:n10", "Cho'gall, The Bastion of Twilight (10)"},
+        { @"https://www.wowhead.com/cata/npc=43324/chogall#drops;mode:h10", "Cho'gall, The Bastion of Twilight (10H)"},
+        { @"https://www.wowhead.com/cata/npc=43324/chogall#drops;mode:n25", "Cho'gall, The Bastion of Twilight (25)"},
+        { @"https://www.wowhead.com/cata/npc=43324/chogall#drops;mode:h25", "Cho'gall, The Bastion of Twilight (25H)"},
+        { @"https://www.wowhead.com/cata/npc=45213/sinestra#drops;mode:h10", "Sinestra, The Bastion of Twilight (10H)"},
+        { @"https://www.wowhead.com/cata/npc=45213/sinestra#drops;mode:h25", "Sinestra, The Bastion of Twilight (25H)"},
+
     };
     private Dictionary<string, string> wowheadContainsUriList = new Dictionary<string, string>
     {
         //{ @"https://www.wowhead.com/cata/object=194201/rare-cache-of-winter", "Hodir, Ulduar (25)" },
     };
-    private Dictionary<int, DatabaseItem> trashDrops = new Dictionary<int, DatabaseItem>
-    {
-        //{ 40406, new DatabaseItem() { Name = "Inevitable Defeat", Source = "Trash Mobs", SourceLocation = "Naxxramas", SourceNumber = "0", SourceType = "Drop", SourceFaction = "B"} },
-    };
 
-    private Dictionary<string, int> hardmodeLevels = new Dictionary<string, int>()
+    private Dictionary<int, DatabaseItem> trashDrops = new Dictionary<int, DatabaseItem>()
     {
-        //{ "Ulduar (10)", 226 },
     };
 
     private List<string> excludedWords = new List<string>()
@@ -57,15 +106,7 @@ public class RaidImporter : LootImporter
 
         foreach (var trashDrop in trashDrops)
         {
-            items.AddItem(trashDrop.Key, new DatabaseItem
-            {
-                Name = trashDrop.Value.Name,
-                SourceNumber = trashDrop.Value.SourceNumber,
-                Source = trashDrop.Value.Source,
-                SourceLocation = trashDrop.Value.SourceLocation,
-                SourceType = trashDrop.Value.SourceType,
-                SourceFaction = trashDrop.Value.SourceFaction
-            });
+            items.AddItem(trashDrop.Key, trashDrop.Value);
         }
 
         return items;
@@ -90,12 +131,6 @@ public class RaidImporter : LootImporter
 
         var sourceSplit = uriList[webAddress].Split(",");
         var sourceName = sourceSplit[0].Trim();
-        if (hardmodeLevels.ContainsKey(sourceSplit[1].Trim()) &&
-            itemLevel > hardmodeLevels[sourceSplit[1].Trim()] &&
-            !sourceSplit[0].Trim().Contains("Algalon"))
-        {
-            sourceName += " (Hard)";
-        }
 
         items.AddItem(itemId, new DatabaseItem
         {

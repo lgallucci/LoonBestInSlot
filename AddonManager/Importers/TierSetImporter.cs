@@ -9,7 +9,48 @@ public class TierSetImporter : LootImporter
 {
     private List<string> armorTokenUris = new List<string>
     {
-        //@"https://www.wowhead.com/cata/item=40618/helm-of-the-lost-vanquisher#currency-for", 
+        //Tier 11
+        @"https://www.wowhead.com/cata/item=63683/helm-of-the-forlorn-conqueror#currency-for",
+        @"https://www.wowhead.com/cata/item=63684/helm-of-the-forlorn-protector#currency-for",
+        @"https://www.wowhead.com/cata/item=63682/helm-of-the-forlorn-vanquisher#currency-for",
+        
+        @"https://www.wowhead.com/cata/item=64315/mantle-of-the-forlorn-conqueror#currency-for",
+        @"https://www.wowhead.com/cata/item=64316/mantle-of-the-forlorn-protector#currency-for",
+        @"https://www.wowhead.com/cata/item=64314/mantle-of-the-forlorn-vanquisher#currency-for",
+
+        //These are sold for valor points ?
+        // @"",
+        // @"",
+        // @"",
+
+        // @"",
+        // @"",
+        // @"",
+        
+        // @"",
+        // @"",
+        // @"",
+
+        //Tier 11 Heroic
+        @"https://www.wowhead.com/cata/item=65001/crown-of-the-forlorn-conqueror#currency-for", 
+        @"https://www.wowhead.com/cata/item=65000/crown-of-the-forlorn-protector#currency-for", 
+        @"https://www.wowhead.com/cata/item=65002/crown-of-the-forlorn-vanquisher#currency-for",
+
+        @"https://www.wowhead.com/cata/item=65088/shoulders-of-the-forlorn-conqueror#currency-for",
+        @"https://www.wowhead.com/cata/item=65087/shoulders-of-the-forlorn-protector#currency-for",
+        @"https://www.wowhead.com/cata/item=65089/shoulders-of-the-forlorn-vanquisher#currency-for",
+
+        @"https://www.wowhead.com/cata/item=67423/chest-of-the-forlorn-conqueror#currency-for",
+        @"https://www.wowhead.com/cata/item=67424/chest-of-the-forlorn-protector#currency-for",
+        @"https://www.wowhead.com/cata/item=67425/chest-of-the-forlorn-vanquisher#currency-for",
+    
+        @"https://www.wowhead.com/cata/item=67428/leggings-of-the-forlorn-conqueror#currency-for",
+        @"https://www.wowhead.com/cata/item=67427/leggings-of-the-forlorn-protector#currency-for",
+        @"https://www.wowhead.com/cata/item=67426/leggings-of-the-forlorn-vanquisher#currency-for",
+
+        @"https://www.wowhead.com/cata/item=67429/gauntlets-of-the-forlorn-conqueror#currency-for",
+        @"https://www.wowhead.com/cata/item=67430/gauntlets-of-the-forlorn-protector#currency-for",
+        @"https://www.wowhead.com/cata/item=67431/gauntlets-of-the-forlorn-vanquisher#currency-for",
     };
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToText)

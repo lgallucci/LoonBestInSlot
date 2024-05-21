@@ -1,4 +1,692 @@
 {
   "Items": {
+    "58180": {
+      "Name": "License to Slay",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58181": {
+      "Name": "Fluid Death",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58182": {
+      "Name": "Bedrock Talisman",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58183": {
+      "Name": "Soul Casket",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58184": {
+      "Name": "Core of Ripeness",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58185": {
+      "Name": "Band of Bees",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58187": {
+      "Name": "Ring of the Battle Anthem",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58188": {
+      "Name": "Band of Secret Names",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58189": {
+      "Name": "Twined Band of Flowers",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58190": {
+      "Name": "Floating Web",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58191": {
+      "Name": "Viewless Wings",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58192": {
+      "Name": "Gray Hair Cloak",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58193": {
+      "Name": "Haunt of Flies",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58194": {
+      "Name": "Heavenly Breeze",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58195": {
+      "Name": "Woe Breeder's Boots",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58197": {
+      "Name": "Rock Furrow Boots",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58198": {
+      "Name": "Eternal Pathfinders",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58199": {
+      "Name": "Moccasins of Verdurous Glooms",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58481": {
+      "Name": "Boots of the Perilous Seas",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58482": {
+      "Name": "Treads of Fleeting Joy",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58484": {
+      "Name": "Fading Violet Sandals",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58485": {
+      "Name": "Melodious Slippers",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58486": {
+      "Name": "Slippers of Moving Waters",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60244": {
+      "Name": "Firelord's Robes",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60245": {
+      "Name": "Firelord's Leggings",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60247": {
+      "Name": "Firelord's Gloves",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60248": {
+      "Name": "Shadowflame Handwraps",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60250": {
+      "Name": "Shadowflame Leggings",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60251": {
+      "Name": "Shadowflame Robes",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60254": {
+      "Name": "Mercurial Vestment",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60255": {
+      "Name": "Mercurial Leggings",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60257": {
+      "Name": "Mercurial Gloves",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60259": {
+      "Name": "Mercurial Robes",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60261": {
+      "Name": "Mercurial Legwraps",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60275": {
+      "Name": "Mercurial Handwraps",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60276": {
+      "Name": "Stormrider's Robes",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60278": {
+      "Name": "Stormrider's Legwraps",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60280": {
+      "Name": "Stormrider's Handwraps",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60281": {
+      "Name": "Stormrider's Vestment",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60283": {
+      "Name": "Stormrider's Leggings",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60285": {
+      "Name": "Stormrider's Gloves",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60287": {
+      "Name": "Stormrider's Raiment",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60288": {
+      "Name": "Stormrider's Legguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60290": {
+      "Name": "Stormrider's Grips",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60298": {
+      "Name": "Wind Dancer's Gloves",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60300": {
+      "Name": "Wind Dancer's Legguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60301": {
+      "Name": "Wind Dancer's Tunic",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60304": {
+      "Name": "Lightning-Charged Tunic",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60305": {
+      "Name": "Lightning-Charged Legguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60307": {
+      "Name": "Lightning-Charged Gloves",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60309": {
+      "Name": "Tunic of the Raging Elements",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60310": {
+      "Name": "Legwraps of the Raging Elements",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60312": {
+      "Name": "Handwraps of the Raging Elements",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60313": {
+      "Name": "Hauberk of the Raging Elements",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60314": {
+      "Name": "Gloves of the Raging Elements",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60316": {
+      "Name": "Kilt of the Raging Elements",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60318": {
+      "Name": "Cuirass of the Raging Elements",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60319": {
+      "Name": "Grips of the Raging Elements",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60321": {
+      "Name": "Legguards of the Raging Elements",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60323": {
+      "Name": "Earthen Battleplate",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60324": {
+      "Name": "Earthen Legplates",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60326": {
+      "Name": "Earthen Gauntlets",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60329": {
+      "Name": "Earthen Chestguard",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60330": {
+      "Name": "Earthen Legguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60332": {
+      "Name": "Earthen Handguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60339": {
+      "Name": "Magma Plated Battleplate",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60340": {
+      "Name": "Magma Plated Gauntlets",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60342": {
+      "Name": "Magma Plated Legplates",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60344": {
+      "Name": "Reinforced Sapphirium Battleplate",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60345": {
+      "Name": "Reinforced Sapphirium Gauntlets",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60347": {
+      "Name": "Reinforced Sapphirium Legplates",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60349": {
+      "Name": "Magma Plated Chestguard",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60350": {
+      "Name": "Magma Plated Handguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60352": {
+      "Name": "Magma Plated Legguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60354": {
+      "Name": "Reinforced Sapphirium Chestguard",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60355": {
+      "Name": "Reinforced Sapphirium Handguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60357": {
+      "Name": "Reinforced Sapphirium Legguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60360": {
+      "Name": "Reinforced Sapphirium Breastplate",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60361": {
+      "Name": "Reinforced Sapphirium Greaves",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60363": {
+      "Name": "Reinforced Sapphirium Gloves",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "64671": {
+      "Name": "Relic of Golganneth",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "700",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "64672": {
+      "Name": "Relic of Norgannon",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "700",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "64673": {
+      "Name": "Relic of Eonar",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "700",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "64674": {
+      "Name": "Relic of Aggramar",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "700",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "64676": {
+      "Name": "Relic of Khaz'goroth",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "700",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "68812": {
+      "Name": "Hornet-Sting Band",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    }
   }
 }
