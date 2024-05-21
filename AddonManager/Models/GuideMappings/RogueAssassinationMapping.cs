@@ -8,45 +8,23 @@ internal class RogueAssassinationMapping : SpecMapping
     public override string Class => "Rogue";
     public override string Spec => "Assassination";
 
-    public override string GemsUrl => "dps-enchants-gems-pve";
-    public override List<(string, GuideMapping)> Gems => new List<(string, GuideMapping)>
-        {
-            { ("Meta", "h2#best-gems+.box") },
-            { ("Gem", "h2#best-gems+.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box") },
-
-            { ("Head", "h2#best-enchants~.box") },
-            { ("Shoulder", "h2#best-enchants~.box~.box") },
-            { ("Back", "h2#best-enchants~.box~.box~.box") },
-            { ("Chest", "h2#best-enchants~.box~.box~.box~.box") },
-            { ("Wrist", "h2#best-enchants~.box~.box~.box~.box~.box") },
-            { ("Hands", "h2#best-enchants~.box~.box~.box~.box~.box~.box") },
-            { ("Legs", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Feet", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Main Hand", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Ranged/Relic", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-        };
-
-    public override string Phase0Url => "dps-bis-gear-pre-raid-pve-p4";
+    public override string Phase0Url => "dps-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-assassination-rogue-dps-pre-raid") },
-            { ("Shoulder", "#shoulders-for-assassination-rogue-dps-pre-raid") },
-            { ("Back", "#back-for-assassination-rogue-dps-pre-raid") },
-            { ("Chest", "#chest-for-assassination-rogue-dps-pre-raid") },
-            { ("Wrist", "#wrist-for-assassination-rogue-dps-pre-raid") },
-            { ("Hands", "#hands-for-assassination-rogue-dps-pre-raid") },
-            { ("Waist", "#waist-for-assassination-rogue-dps-pre-raid") },
-            { ("Legs", "#legs-for-assassination-rogue-dps-pre-raid") },
-            { ("Feet", "#feet-for-assassination-rogue-dps-pre-raid") },
-            { ("Neck", "#neck-for-assassination-rogue-dps-pre-raid") },
-            { ("Ring", "#rings-for-assassination-rogue-dps-pre-raid") },
-            { ("Trinket", "#trinkets-for-assassination-rogue-dps-pre-raid") },
-            { ("Main Hand", "#weapons-for-assassination-rogue-dps-pre-raid") },
-            { ("Ranged/Relic", "#guns-and-bows-for-assassination-rogue-dps-pre-raid") }
+            { ("Head", "#head-for-assassination-rogue-dps") },
+            { ("Shoulder", "#shoulders-for-assassination-rogue-dps") },
+            { ("Back", "#back-for-assassination-rogue-dps") },
+            { ("Chest", "#chest-for-assassination-rogue-dps") },
+            { ("Wrist", "#wrist-for-assassination-rogue-dps") },
+            { ("Hands", "#hands-for-assassination-rogue-dps") },
+            { ("Waist", "#waist-for-assassination-rogue-dps") },
+            { ("Legs", "#legs-for-assassination-rogue-dps") },
+            { ("Feet", "#feet-for-assassination-rogue-dps") },
+            { ("Neck", "#neck-for-assassination-rogue-dps") },
+            { ("Ring", "#rings-for-assassination-rogue-dps") },
+            { ("Trinket", "#trinkets-for-assassination-rogue-dps") },
+            { ("Main Hand", "#weapons-for-assassination-rogue-dps") },
+            { ("Ranged/Relic", "#guns-and-bows-for-assassination-rogue-dps") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

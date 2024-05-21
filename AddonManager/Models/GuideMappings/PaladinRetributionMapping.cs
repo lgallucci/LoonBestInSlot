@@ -8,43 +8,22 @@ internal class PaladinRetributionMapping : SpecMapping
     public override string Class => "Paladin";
     public override string Spec => "Retribution";
 
-    public override string GemsUrl => "dps-enchants-gems-pve";
-    public override List<(string, GuideMapping)> Gems => new List<(string, GuideMapping)>
-        {
-            { ("Meta", "h2#best-gems+.box") },
-            { ("Gem", "h2#best-gems+.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box") },
-
-            //{ ("Head", "h2#best-enchants~.box") },
-            { ("Shoulder", "h2#best-enchants~.box") },
-            { ("Back", "h2#best-enchants~.box~.box") },
-            { ("Chest", "h2#best-enchants~.box~.box~.box") },
-            { ("Wrist", "h2#best-enchants~.box~.box~.box~.box") },
-            { ("Hands", "h2#best-enchants~.box~.box~.box~.box~.box") },
-            { ("Legs", "h2#best-enchants~.box~.box~.box~.box~.box~.box") },
-            { ("Feet", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Two Hand", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-        };
-
-    public override string Phase0Url => "dps-bis-gear-pre-raid-pve-p4";
+    public override string Phase0Url => "dps-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-retribution-paladin-pre-raid") },
-            { ("Shoulder", "#shoulders-for-retribution-paladin-pre-raid") },
-            { ("Back", "#back-for-retribution-paladin-pre-raid") },
-            { ("Chest", "#chest-for-retribution-paladin-pre-raid") },
-            { ("Wrist", "#wrist-for-retribution-paladin-pre-raid") },
-            { ("Hands", "#hands-for-retribution-paladin-pre-raid") },
-            { ("Waist", "#waist-for-retribution-paladin-pre-raid") },
-            { ("Legs", "#legs-for-retribution-paladin-pre-raid") },
-            { ("Feet", "#feet-for-retribution-paladin-pre-raid") },
-            { ("Neck", "#neck-for-retribution-paladin-pre-raid") },
-            { ("Ring", "#rings-for-retribution-paladin-pre-raid") },
-            { ("Trinket", "#trinkets-for-retribution-paladin-pre-raid") },
-            { ("Two Hand", "#two-hand-weapons-for-retribution-paladin-pre-raid") },
+            { ("Head", "#head-for-retribution-paladin") },
+            { ("Shoulder", "#shoulders-for-retribution-paladin") },
+            { ("Back", "#back-for-retribution-paladin") },
+            { ("Chest", "#chest-for-retribution-paladin") },
+            { ("Wrist", "#wrist-for-retribution-paladin") },
+            { ("Hands", "#hands-for-retribution-paladin") },
+            { ("Waist", "#waist-for-retribution-paladin") },
+            { ("Legs", "#legs-for-retribution-paladin") },
+            { ("Feet", "#feet-for-retribution-paladin") },
+            { ("Neck", "#neck-for-retribution-paladin") },
+            { ("Ring", "#rings-for-retribution-paladin") },
+            { ("Trinket", "#trinkets-for-retribution-paladin") },
+            { ("Two Hand", "#two-hand-weapons-for-retribution-paladin") },
             { ("Ranged/Relic", "#libram") }
         };
 

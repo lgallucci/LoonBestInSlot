@@ -8,46 +8,24 @@ internal class WarriorProtectionMapping : SpecMapping
     public override string Class => "Warrior";
     public override string Spec => "Protection";
 
-    public override string GemsUrl => "tank-enchants-gems-pve";
-    public override List<(string, GuideMapping)> Gems => new List<(string, GuideMapping)>
-        {
-            { ("Meta", "h2#best-gems+.box") },
-            { ("Gem", "h2#best-gems+.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box") },
-
-            { ("Head", "h2#best-enchants~.box") },
-            { ("Shoulder", "h2#best-enchants~.box~.box") },
-            { ("Back", "h2#best-enchants~.box~.box~.box") },
-            { ("Chest", "h2#best-enchants~.box~.box~.box~.box") },
-            { ("Wrist", "h2#best-enchants~.box~.box~.box~.box~.box") },
-            { ("Hands", "h2#best-enchants~.box~.box~.box~.box~.box~.box") },
-            { ("Legs", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Feet", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Main Hand", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Off Hand", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Ranged/Relic", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-        };
-
-    public override string Phase0Url => "tank-bis-gear-pre-raid-pve-p4";
+    public override string Phase0Url => "tank-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-protection-warrior-tank-pre-raid") },
-            { ("Shoulder", "#shoulders-for-protection-warrior-tank-pre-raid") },
-            { ("Back", "#back-for-protection-warrior-tank-pre-raid") },
-            { ("Chest", "#chest-for-protection-warrior-tank-pre-raid") },
-            { ("Wrist", "#wrist-for-protection-warrior-tank-pre-raid") },
-            { ("Hands", "#hands-for-protection-warrior-tank-pre-raid") },
-            { ("Waist", "#waist-for-protection-warrior-tank-pre-raid") },
-            { ("Legs", "#legs-for-protection-warrior-tank-pre-raid") },
-            { ("Feet", "#feet-for-protection-warrior-tank-pre-raid") },
-            { ("Neck", "#neck-for-protection-warrior-tank-pre-raid") },
-            { ("Ring", "#rings-for-protection-warrior-tank-pre-raid") },
-            { ("Trinket", "#trinkets-for-protection-warrior-tank-pre-raid") },
-            { ("Main Hand", "#one-handed-weapons-for-protection-warrior-tank-pre-raid") },
-            { ("Off Hand", "#shields-for-protection-warrior-tank-pre-raid") },
-            { ("Ranged/Relic", "#guns-and-bows-for-protection-warrior-tank-pre-raid") }
+            { ("Head", "#head-for-protection-warrior-tank") },
+            { ("Shoulder", "#shoulders-for-protection-warrior-tank") },
+            { ("Back", "#back-for-protection-warrior-tank") },
+            { ("Chest", "#chest-for-protection-warrior-tank") },
+            { ("Wrist", "#wrist-for-protection-warrior-tank") },
+            { ("Hands", "#hands-for-protection-warrior-tank") },
+            { ("Waist", "#waist-for-protection-warrior-tank") },
+            { ("Legs", "#legs-for-protection-warrior-tank") },
+            { ("Feet", "#feet-for-protection-warrior-tank") },
+            { ("Neck", "#neck-for-protection-warrior-tank") },
+            { ("Ring", "#rings-for-protection-warrior-tank") },
+            { ("Trinket", "#trinkets-for-protection-warrior-tank") },
+            { ("Main Hand", "#one-handed-weapons-for-protection-warrior-tank") },
+            { ("Off Hand", "#shields-for-protection-warrior-tank") },
+            { ("Ranged/Relic", "#guns-and-bows-for-protection-warrior-tank") }
         };
 
     public override string Phase1Url => "tank-bis-gear-pve-phase-1";

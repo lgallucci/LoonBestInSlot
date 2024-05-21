@@ -11,9 +11,6 @@ internal abstract class SpecMapping
     public abstract string Class { get; }
     public abstract string Spec { get; }
 
-    public abstract string GemsUrl { get; }
-    public abstract List<(string, GuideMapping)> Gems { get; }
-
     public abstract string PrePatchUrl {get; }    
     public abstract List<(string, GuideMapping)> PrePatch { get; }
     public abstract string Phase0Url { get; }
@@ -33,11 +30,9 @@ internal abstract class SpecMapping
     {
         var list = new List<ClassGuideMapping>();
 
-        // list.Add(new ClassGuideMapping(UrlBase + GemsUrl, Spec, Class, "GemsEnchants", Gems));
+        list.Add(new ClassGuideMapping(UrlBase + Phase0Url, Spec, Class, "Phase0", Phase0));
 
-        // list.Add(new ClassGuideMapping(UrlBase + Phase0Url, Spec, Class, "Phase0", Phase0));
-
-        // list.Add(new ClassGuideMapping(UrlBase + Phase1Url, Spec, Class, "Phase1", Phase1));
+        list.Add(new ClassGuideMapping(UrlBase + Phase1Url, Spec, Class, "Phase1", Phase1));
 
         // list.Add(new ClassGuideMapping(UrlBase + Phase2Url, Spec, Class, "Phase2", Phase2));
 
@@ -45,7 +40,7 @@ internal abstract class SpecMapping
 
         // list.Add(new ClassGuideMapping(UrlBase + Phase4Url, Spec, Class, "Phase4", Phase4));
 
-        list.Add(new ClassGuideMapping(UrlBase + PrePatchUrl, Spec, Class, "PrePatch", PrePatch));
+        //list.Add(new ClassGuideMapping(UrlBase + PrePatchUrl, Spec, Class, "PrePatch", PrePatch));
 
         return list;
     }

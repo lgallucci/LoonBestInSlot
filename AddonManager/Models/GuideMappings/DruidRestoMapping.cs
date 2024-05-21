@@ -8,47 +8,25 @@ internal class DruidRestoMapping : SpecMapping
     public override string Class => "Druid";
     public override string Spec => "Restoration";
 
-    public override string GemsUrl => "healer-enchants-gems-pve";
-    public override List<(string, GuideMapping)> Gems => new List<(string, GuideMapping)>
-        {
-            { ("Meta", "h2#best-gems+.box") },
-            { ("Gem", "h2#best-gems+.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box~.box") },
-
-            { ("Head", "h2#best-enchants~.box") },
-            { ("Shoulder", "h2#best-enchants~.box~.box") },
-            { ("Back", "h2#best-enchants~.box~.box~.box") },
-            { ("Chest", "h2#best-enchants~.box~.box~.box~.box") },
-            { ("Wrist", "h2#best-enchants~.box~.box~.box~.box~.box") },
-            { ("Hands", "h2#best-enchants~.box~.box~.box~.box~.box~.box") },
-            { ("Legs", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Feet", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Main Hand", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-        };
-
-    public override string Phase0Url => "healer-bis-gear-pre-raid-pve-p4";
+    public override string Phase0Url => "healer-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-restoration-druid-healer-pre-raid") },
-            { ("Shoulder", "#shoulders-for-restoration-druid-healer-pre-raid") },
-            { ("Back", "#back-for-restoration-druid-healer-pre-raid") },
-            { ("Chest", "#chest-for-restoration-druid-healer-pre-raid") },
-            { ("Wrist", "#wrist-for-restoration-druid-healer-pre-raid") },
-            { ("Hands", "#hands-for-restoration-druid-healer-pre-raid") },
-            { ("Waist", "#waist-for-restoration-druid-healer-pre-raid") },
-            { ("Legs", "#legs-for-restoration-druid-healer-pre-raid") },
-            { ("Feet", "#feet-for-restoration-druid-healer-pre-raid") },
-            { ("Neck", "#neck-for-restoration-druid-healer-pre-raid") },
-            { ("Ring", "#rings-for-restoration-druid-healer-pre-raid") },
-            { ("Trinket", "#trinkets-for-restoration-druid-healer-pre-raid") },
-            { ("Main Hand", "#main-hand-weapons-for-restoration-druid-healer-pre-raid") },
-            { ("Two Hand", "#two-handed-weapons-for-restoration-druid-healer-pre-raid") },
-            { ("Off Hand", "#off-hand-weapons-for-restoration-druid-healer-pre-raid") },
-            { ("Ranged/Relic", "#idols-for-restoration-druid-healer-pre-raid") }
+            { ("Head", "#head-for-restoration-druid-healer") },
+            { ("Shoulder", "#shoulders-for-restoration-druid-healer") },
+            { ("Back", "#back-for-restoration-druid-healer") },
+            { ("Chest", "#chest-for-restoration-druid-healer") },
+            { ("Wrist", "#wrist-for-restoration-druid-healer") },
+            { ("Hands", "#hands-for-restoration-druid-healer") },
+            { ("Waist", "#waist-for-restoration-druid-healer") },
+            { ("Legs", "#legs-for-restoration-druid-healer") },
+            { ("Feet", "#feet-for-restoration-druid-healer") },
+            { ("Neck", "#neck-for-restoration-druid-healer") },
+            { ("Ring", "#rings-for-restoration-druid-healer") },
+            { ("Trinket", "#trinkets-for-restoration-druid-healer") },
+            { ("Main Hand", "#main-hand-weapons-for-restoration-druid-healer") },
+            { ("Two Hand", "#two-handed-weapons-for-restoration-druid-healer") },
+            { ("Off Hand", "#off-hand-weapons-for-restoration-druid-healer") },
+            { ("Ranged/Relic", "#idols-for-restoration-druid-healer") }
         };
 
     public override string Phase1Url => "healer-bis-gear-pve-phase-1";

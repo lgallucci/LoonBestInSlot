@@ -8,47 +8,24 @@ internal class HunterBeastMasteryMapping : SpecMapping
     public override string Class => "Hunter";
     public override string Spec => "Beast Mastery";
 
-    public override string GemsUrl => "dps-enchants-gems-pve";
-    public override List<(string, GuideMapping)> Gems => new List<(string, GuideMapping)>
-        {
-            { ("Meta", "h2#best-gems+.box") },
-            { ("Gem", "h2#best-gems+.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box") },
-
-            { ("Head", "h2#best-enchants~.box") },
-            { ("Shoulder", "h2#best-enchants~.box~.box") },
-            { ("Back", "h2#best-enchants~.box~.box~.box") },
-            { ("Chest", "h2#best-enchants~.box~.box~.box~.box") },
-            { ("Wrist", "h2#best-enchants~.box~.box~.box~.box~.box") },
-            { ("Hands", "h2#best-enchants~.box~.box~.box~.box~.box~.box") },
-            { ("Legs", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Feet", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Main Hand", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Two Hand", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Ranged/Relic", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-        };
-
-    public override string Phase0Url => "dps-bis-gear-pre-raid-pve-p4";
+    public override string Phase0Url => "dps-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-beast-mastery-hunter-dps-pre-raid") },
-            { ("Shoulder", "#shoulders-for-beast-mastery-hunter-dps-pre-raid") },
-            { ("Back", "#back-for-beast-mastery-hunter-dps-pre-raid") },
-            { ("Chest", "#chest-for-beast-mastery-hunter-dps-pre-raid") },
-            { ("Wrist", "#wrist-for-beast-mastery-hunter-dps-pre-raid") },
-            { ("Hands", "#hands-for-beast-mastery-hunter-dps-pre-raid") },
-            { ("Waist", "#waist-for-beast-mastery-hunter-dps-pre-raid") },
-            { ("Legs", "#legs-for-beast-mastery-hunter-dps-pre-raid") },
-            { ("Feet", "#feet-for-beast-mastery-hunter-dps-pre-raid") },
-            { ("Neck", "#neck-for-beast-mastery-hunter-dps-pre-raid") },
-            { ("Ring", "#rings-for-beast-mastery-hunter-dps-pre-raid") },
-            { ("Trinket", "#trinkets-for-beast-mastery-hunter-dps-pre-raid") },
-            { ("Main Hand", "#one-handed-weapons-for-beast-mastery-hunter-dps-pre-raid") },
-            { ("Two Hand", "#two-hand-weapons-for-beast-mastery-hunter-dps-pre-raid") },
-            { ("Ranged/Relic", "#guns-and-bows-for-beast-mastery-hunter-dps-pre-raid") }
+            { ("Head", "#head-for-beast-mastery-hunter-dps") },
+            { ("Shoulder", "#shoulders-for-beast-mastery-hunter-dps") },
+            { ("Back", "#back-for-beast-mastery-hunter-dps") },
+            { ("Chest", "#chest-for-beast-mastery-hunter-dps") },
+            { ("Wrist", "#wrist-for-beast-mastery-hunter-dps") },
+            { ("Hands", "#hands-for-beast-mastery-hunter-dps") },
+            { ("Waist", "#waist-for-beast-mastery-hunter-dps") },
+            { ("Legs", "#legs-for-beast-mastery-hunter-dps") },
+            { ("Feet", "#feet-for-beast-mastery-hunter-dps") },
+            { ("Neck", "#neck-for-beast-mastery-hunter-dps") },
+            { ("Ring", "#rings-for-beast-mastery-hunter-dps") },
+            { ("Trinket", "#trinkets-for-beast-mastery-hunter-dps") },
+            { ("Main Hand", "#one-handed-weapons-for-beast-mastery-hunter-dps") },
+            { ("Two Hand", "#two-hand-weapons-for-beast-mastery-hunter-dps") },
+            { ("Ranged/Relic", "#guns-and-bows-for-beast-mastery-hunter-dps") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

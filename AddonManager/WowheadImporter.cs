@@ -271,38 +271,6 @@ public static class WowheadImporter
         ItemSourceFileManager.WriteEnchantSources(enchantSources);
     }
 
-    public static void ImportNewItems()
-    {
-        var itemSources = ItemSourceFileManager.ReadItemSources();
-        var csvLootTable = new Dictionary<int, CsvLootTable>();
-
-        GetItems(csvLootTable, "DungeonItemList");
-        GetItems(csvLootTable, "RaidItemList");
-        GetItems(csvLootTable, "EmblemItemList");
-        GetItems(csvLootTable, "PvPItemList");
-        GetItems(csvLootTable, "ReputationItemList");
-        GetItems(csvLootTable, "ProfessionItemList");
-        
-        foreach (var csvItem in csvLootTable)
-        {
-            if (!itemSources.ContainsKey(csvItem.Key))
-            {
-                itemSources.Add(csvItem.Key, new ItemSource
-                {                    
-                    ItemId = csvItem.Value.ItemId,
-                    Name = csvItem.Value.Name,
-                    SourceType = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceType)).Distinct()),
-                    Source = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.Source))),
-                    SourceNumber = string.Join("~", csvItem.Value.ItemSource.Select(s => s.SourceNumber)),
-                    SourceLocation = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceLocation))),
-                    SourceFaction = string.Join("..\"~\"..", csvItem.Value.ItemSource.First().SourceFaction)
-                });
-            }
-        }
-
-        ItemSourceFileManager.WriteItemSources(itemSources);
-    }
-
     public static void RefreshItems()
     {
         var itemSources = ItemSourceFileManager.ReadItemSources();
@@ -317,43 +285,54 @@ public static class WowheadImporter
 
         var tokenKeys = UpdateTierPieces(csvLootTable, itemSources);
 
-        foreach (var itemSource in itemSources)
+        foreach (var csvItem in csvLootTable)
         {
-            if (itemSource.Value.SourceType == "LBIS.L[\"PvP\"]")
+            if (!itemSources.ContainsKey(csvItem.Key))
             {
-                itemSource.Value.Source = AddLocalizeText("Unavailable");
-                itemSource.Value.SourceLocation = AddLocalizeText("Unavailable");
-            }
-            else if (itemSource.Value.SourceType.Contains("PvP"))
-            {
-                itemSource.Value.SourceType = AddLocalizeText("unknown");
-                itemSource.Value.SourceNumber = "unknown";
-                itemSource.Value.Source = AddLocalizeText("unknown");
-                itemSource.Value.SourceLocation = AddLocalizeText("unknown");
-            }
-
-            if (csvLootTable.ContainsKey(itemSource.Key))
-            {
-                //TODO ADD THE LBIS.L HERE AND NOWHERE ELSE !
-                var csvItem = csvLootTable[itemSource.Key];
-                if (csvItem.IsLegacy)
+                itemSources.Add(csvItem.Key, new ItemSource
+                {                    
+                    ItemId = csvItem.Value.ItemId,
+                    Name = csvItem.Value.Name,
+                    SourceType = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceType)).Distinct()),
+                    Source = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.Source))),
+                    SourceNumber = string.Join("~", csvItem.Value.ItemSource.Select(s => s.SourceNumber)),
+                    SourceLocation = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceLocation))),
+                    SourceFaction = string.Join("..\"~\"..", csvItem.Value.ItemSource.First().SourceFaction)
+                });
+            } else
+            {                
+                if (itemSources[csvItem.Key].SourceType == "LBIS.L[\"PvP\"]")
                 {
-                    itemSource.Value.SourceType = "LBIS.L[\"Legacy\"]";
-                    itemSource.Value.Source = "\"\""; //string.Join("..\"~\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.Source)));
-                    itemSource.Value.SourceNumber = ""; //string.Join("~", csvItem.ItemSource.Select(s => s.SourceNumber));
-                    itemSource.Value.SourceLocation = "\"\""; //string.Join("..\"~\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
+                    itemSources[csvItem.Key].Source = AddLocalizeText("Unavailable");
+                    itemSources[csvItem.Key].SourceLocation = AddLocalizeText("Unavailable");
+                }
+                else if (itemSources[csvItem.Key].SourceType.Contains("PvP"))
+                {
+                    itemSources[csvItem.Key].SourceType = AddLocalizeText("unknown");
+                    itemSources[csvItem.Key].SourceNumber = "unknown";
+                    itemSources[csvItem.Key].Source = AddLocalizeText("unknown");
+                    itemSources[csvItem.Key].SourceLocation = AddLocalizeText("unknown");
+                }
+
+                //TODO ADD THE LBIS.L HERE AND NOWHERE ELSE !
+                if (csvItem.Value.IsLegacy)
+                {
+                    itemSources[csvItem.Key].SourceType = "LBIS.L[\"Legacy\"]";
+                    itemSources[csvItem.Key].Source = "\"\""; //string.Join("..\"~\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.Source)));
+                    itemSources[csvItem.Key].SourceNumber = ""; //string.Join("~", csvItem.ItemSource.Select(s => s.SourceNumber));
+                    itemSources[csvItem.Key].SourceLocation = "\"\""; //string.Join("..\"~\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
                 }
                 else
                 {
-                    itemSource.Value.SourceType = string.Join("..\"~\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceType)).Distinct());
-                    itemSource.Value.Source = string.Join("..\"~\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.Source)));
-                    itemSource.Value.SourceNumber = string.Join("~", csvItem.ItemSource.Select(s => s.SourceNumber));
-                    itemSource.Value.SourceLocation = string.Join("..\"~\"..", csvItem.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
-                    itemSource.Value.SourceFaction = string.Join("..\"~\"..", csvItem.ItemSource.First().SourceFaction);
+                    itemSources[csvItem.Key].SourceType = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceType)).Distinct());
+                    itemSources[csvItem.Key].Source = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.Source)));
+                    itemSources[csvItem.Key].SourceNumber = string.Join("~", csvItem.Value.ItemSource.Select(s => s.SourceNumber));
+                    itemSources[csvItem.Key].SourceLocation = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
+                    itemSources[csvItem.Key].SourceFaction = string.Join("..\"~\"..", csvItem.Value.ItemSource.First().SourceFaction);
 
-                    if (tokenKeys.Contains(itemSource.Key) && itemSource.Key != 47242)
+                    if (tokenKeys.Contains(csvItem.Key) && csvItem.Key != 47242)
                     {
-                        itemSource.Value.SourceType = "LBIS.L[\"Token\"]";
+                        itemSources[csvItem.Key].SourceType = "LBIS.L[\"Token\"]";
                     }
                 }
             }
@@ -535,7 +514,7 @@ public static class WowheadImporter
                 if (first != true)
                     sb.Append("..\" & \"..");
 
-                sb.Append($"LBIS.L[\"{split.Trim()}\"]");
+                sb.Append($"LBIS.L[\"{split.Replace("\"", "\\\"").Trim()}\"]");
 
                 first = false;
             }
@@ -549,7 +528,7 @@ public static class WowheadImporter
                 if (first != true)
                     sb.Append("..\"~\"..");
 
-                sb.Append($"LBIS.L[\"{split.Trim()}\"]");
+                sb.Append($"LBIS.L[\"{split.Replace("\"", "\\\"").Trim()}\"]");
 
                 first = false;
             }

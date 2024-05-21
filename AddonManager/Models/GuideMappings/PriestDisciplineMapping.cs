@@ -8,45 +8,24 @@ internal class PriestDisciplineMapping : SpecMapping
     public override string Class => "Priest";
     public override string Spec => "Discipline";
 
-    public override string GemsUrl => "healer-enchants-gems-pve";
-    public override List<(string, GuideMapping)> Gems => new List<(string, GuideMapping)>
-        {
-            { ("Meta", "h2#best-gems+.box") },
-            { ("Gem", "h2#best-gems+.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box") },
-
-            { ("Head", "h2#best-enchants~.box") },
-            { ("Shoulder", "h2#best-enchants~.box~.box") },
-            { ("Back", "h2#best-enchants~.box~.box~.box") },
-            { ("Chest", "h2#best-enchants~.box~.box~.box~.box") },
-            { ("Waist", "h2#best-enchants~.box~.box~.box~.box~.box") },
-            { ("Wrist", "h2#best-enchants~.box~.box~.box~.box~.box~.box") },
-            { ("Hands", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Legs", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Feet", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Two Hand", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-        };
-
-    public override string Phase0Url => "healer-bis-gear-pre-raid-pve-p4";
+    public override string Phase0Url => "healer-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-discipline-priest-healer-pre-raid") },
-            { ("Shoulder", "#shoulders-for-discipline-priest-healer-pre-raid") },
-            { ("Back", "#back-for-discipline-priest-healer-pre-raid") },
-            { ("Chest", "#chest-for-discipline-priest-healer-pre-raid") },
-            { ("Wrist", "#wrist-for-discipline-priest-healer-pre-raid") },
-            { ("Hands", "#hands-for-discipline-priest-healer-pre-raid") },
-            { ("Waist", "#waist-for-discipline-priest-healer-pre-raid") },
-            { ("Legs", "#legs-for-discipline-priest-healer-pre-raid") },
-            { ("Feet", "#feet-for-discipline-priest-healer-pre-raid") },
-            { ("Neck", "#neck-for-discipline-priest-healer-pre-raid") },
-            { ("Ring", "#rings-for-discipline-priest-healer-pre-raid") },
-            { ("Trinket", "#trinkets-for-discipline-priest-healer-pre-raid") },
-            { ("Main Hand", "#main-and-two-handed-weapons-for-discipline-priest-healer-pre-raid") },
-            { ("Off Hand", "#off-hands-for-discipline-priest-healer-pre-raid") },
-            { ("Ranged/Relic", "#wands-for-discipline-priest-healer-pre-raid") }
+            { ("Head", "#head-for-discipline-priest-healer") },
+            { ("Shoulder", "#shoulders-for-discipline-priest-healer") },
+            { ("Back", "#back-for-discipline-priest-healer") },
+            { ("Chest", "#chest-for-discipline-priest-healer") },
+            { ("Wrist", "#wrist-for-discipline-priest-healer") },
+            { ("Hands", "#hands-for-discipline-priest-healer") },
+            { ("Waist", "#waist-for-discipline-priest-healer") },
+            { ("Legs", "#legs-for-discipline-priest-healer") },
+            { ("Feet", "#feet-for-discipline-priest-healer") },
+            { ("Neck", "#neck-for-discipline-priest-healer") },
+            { ("Ring", "#rings-for-discipline-priest-healer") },
+            { ("Trinket", "#trinkets-for-discipline-priest-healer") },
+            { ("Main Hand", "#main-and-two-handed-weapons-for-discipline-priest-healer") },
+            { ("Off Hand", "#off-hands-for-discipline-priest-healer") },
+            { ("Ranged/Relic", "#wands-for-discipline-priest-healer") }
         };
 
     public override string Phase1Url => "healer-bis-gear-pve-phase-1";

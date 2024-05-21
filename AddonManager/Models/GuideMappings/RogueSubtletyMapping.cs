@@ -8,45 +8,23 @@ internal class RogueSubtletyMapping : SpecMapping
     public override string Class => "Rogue";
     public override string Spec => "Subtlety";
 
-    public override string GemsUrl => "dps-enchants-gems-pve";
-    public override List<(string, GuideMapping)> Gems => new List<(string, GuideMapping)>
-        {
-            { ("Meta", "h2#best-gems+.box") },
-            { ("Gem", "h2#best-gems+.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box") },
-
-            { ("Head", "h2#best-enchants~.box") },
-            { ("Shoulder", "h2#best-enchants~.box~.box") },
-            { ("Back", "h2#best-enchants~.box~.box~.box") },
-            { ("Chest", "h2#best-enchants~.box~.box~.box~.box") },
-            { ("Wrist", "h2#best-enchants~.box~.box~.box~.box~.box") },
-            { ("Hands", "h2#best-enchants~.box~.box~.box~.box~.box~.box") },
-            { ("Legs", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Feet", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Main Hand", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Ranged/Relic", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-        };
-
-    public override string Phase0Url => "dps-bis-gear-pre-raid-pve-p4";
+    public override string Phase0Url => "dps-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-subtlety-rogue-dps-pre-raid") },
-            { ("Shoulder", "#shoulders-for-subtlety-rogue-dps-pre-raid") },
-            { ("Back", "#back-for-subtlety-rogue-dps-pre-raid") },
-            { ("Chest", "#chest-for-subtlety-rogue-dps-pre-raid") },
-            { ("Wrist", "#wrist-for-subtlety-rogue-dps-pre-raid") },
-            { ("Hands", "#hands-for-subtlety-rogue-dps-pre-raid") },
-            { ("Waist", "#waist-for-subtlety-rogue-dps-pre-raid") },
-            { ("Legs", "#legs-for-subtlety-rogue-dps-pre-raid") },
-            { ("Feet", "#feet-for-subtlety-rogue-dps-pre-raid") },
-            { ("Neck", "#neck-for-subtlety-rogue-dps-pre-raid") },
-            { ("Ring", "#rings-for-subtlety-rogue-dps-pre-raid") },
-            { ("Trinket", "#trinkets-for-subtlety-rogue-dps-pre-raid") },
-            { ("Main Hand", "#weapons-for-subtlety-rogue-dps-pre-raid") },
-            { ("Ranged/Relic", "#guns-and-bows-for-subtlety-rogue-dps-pre-raid") }
+            { ("Head", "#head-for-subtlety-rogue-dps") },
+            { ("Shoulder", "#shoulders-for-subtlety-rogue-dps") },
+            { ("Back", "#back-for-subtlety-rogue-dps") },
+            { ("Chest", "#chest-for-subtlety-rogue-dps") },
+            { ("Wrist", "#wrist-for-subtlety-rogue-dps") },
+            { ("Hands", "#hands-for-subtlety-rogue-dps") },
+            { ("Waist", "#waist-for-subtlety-rogue-dps") },
+            { ("Legs", "#legs-for-subtlety-rogue-dps") },
+            { ("Feet", "#feet-for-subtlety-rogue-dps") },
+            { ("Neck", "#neck-for-subtlety-rogue-dps") },
+            { ("Ring", "#rings-for-subtlety-rogue-dps") },
+            { ("Trinket", "#trinkets-for-subtlety-rogue-dps") },
+            { ("Main Hand", "#weapons-for-subtlety-rogue-dps") },
+            { ("Ranged/Relic", "#guns-and-bows-for-subtlety-rogue-dps") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

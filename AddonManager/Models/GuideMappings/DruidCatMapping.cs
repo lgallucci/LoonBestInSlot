@@ -8,45 +8,23 @@ internal class DruidCatMapping : SpecMapping
     public override string Class => "Druid";
     public override string Spec => "Cat";
 
-    public override string GemsUrl => "dps-enchants-gems-pve";
-    public override List<(string, GuideMapping)> Gems => new List<(string, GuideMapping)>
-        {
-            { ("Meta", "h2#best-gems+.box") },
-            { ("Gem", "h2#best-gems+.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box~.box~.box") },
-
-            { ("Head", "h2#best-enchants~.box") },
-            { ("Shoulder", "h2#best-enchants~.box~.box") },
-            { ("Back", "h2#best-enchants~.box~.box~.box") },
-            { ("Chest", "h2#best-enchants~.box~.box~.box~.box") },
-            { ("Wrist", "h2#best-enchants~.box~.box~.box~.box~.box") },
-            { ("Hands", "h2#best-enchants~.box~.box~.box~.box~.box~.box") },
-            { ("Legs", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Feet", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Main Hand", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-            { ("Ring", "h2#best-enchants~.box~.box~.box~.box~.box~.box~.box~.box~.box~.box") },
-        };
-
-    public override string Phase0Url => "dps-bis-gear-pre-raid-pve-p4";
+    public override string Phase0Url => "dps-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-feral-druid-dps-pre-raid") },
-            { ("Shoulder", "#shoulders-for-feral-druid-dps-pre-raid") },
-            { ("Back", "#back-for-feral-druid-dps-pre-raid") },
-            { ("Chest", "#chest-for-feral-druid-dps-pre-raid") },
-            { ("Wrist", "#wrist-for-feral-druid-dps-pre-raid") },
-            { ("Hands", "#hands-for-feral-druid-dps-pre-raid") },
-            { ("Waist", "#waist-for-feral-druid-dps-pre-raid") },
-            { ("Legs", "#legs-for-feral-druid-dps-pre-raid") },
-            { ("Feet", "#feet-for-feral-druid-dps-pre-raid") },
-            { ("Neck", "#neck-for-feral-druid-dps-pre-raid") },
-            { ("Ring", "#rings-for-feral-druid-dps-pre-raid") },
-            { ("Trinket", "#trinkets-for-feral-druid-dps-pre-raid") },
-            { ("Two Hand", "#weapons-for-feral-druid-dps-pre-raid") },
-            { ("Ranged/Relic", "#idols-for-feral-druid-dps-pre-raid") }
+            { ("Head", "#head-for-feral-druid-dps") },
+            { ("Shoulder", "#shoulders-for-feral-druid-dps") },
+            { ("Back", "#back-for-feral-druid-dps") },
+            { ("Chest", "#chest-for-feral-druid-dps") },
+            { ("Wrist", "#wrist-for-feral-druid-dps") },
+            { ("Hands", "#hands-for-feral-druid-dps") },
+            { ("Waist", "#waist-for-feral-druid-dps") },
+            { ("Legs", "#legs-for-feral-druid-dps") },
+            { ("Feet", "#feet-for-feral-druid-dps") },
+            { ("Neck", "#neck-for-feral-druid-dps") },
+            { ("Ring", "#rings-for-feral-druid-dps") },
+            { ("Trinket", "#trinkets-for-feral-druid-dps") },
+            { ("Two Hand", "#weapons-for-feral-druid-dps") },
+            { ("Ranged/Relic", "#idols-for-feral-druid-dps") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";

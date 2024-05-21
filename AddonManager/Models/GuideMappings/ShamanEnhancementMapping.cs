@@ -8,44 +8,23 @@ internal class ShamanEnhancementMapping : SpecMapping
     public override string Class => "Shaman";
     public override string Spec => "Enhancement";
 
-    public override string GemsUrl => "dps-enchants-gems-pve";
-    public override List<(string, GuideMapping)> Gems => new List<(string, GuideMapping)>
-        {
-            { ("Meta", "h2#best-gems+.box") },
-            { ("Gem", "h2#best-gems+.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box") },
-            { ("Gem", "h2#best-gems+.box~.box~.box~.box") },
-
-            { ("Head", "h2#best-enchants~.box") },
-            { ("Shoulder", "h2#best-enchants~.box~.box") },
-            { ("Back", "h2#best-enchants~.box~.box~.box") },
-            { ("Chest", "h2#best-enchants~.box~.box~.box~.box") },
-            { ("Wrist", "h2#best-enchants~.box~.box~.box~.box~.box") },
-            { ("Hands", "h2#best-enchants~.box~.socket-prismatic>.box") },
-            { ("Waist", "h2#best-enchants~.box~.socket-prismatic>.box~.socket-prismatic>.box") },
-            { ("Legs", "h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box") },
-            { ("Feet", "h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box") },
-            { ("Main Hand", "h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box") },
-            { ("Ring", "h2#best-enchants~.socket-prismatic>.box~.socket-prismatic>.box~.socket-prismatic>.box~.box~.box~.box") },
-        };
-
-    public override string Phase0Url => "dps-bis-gear-pre-raid-pve-p4";
+    public override string Phase0Url => "dps-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-enhancement-shaman-dps-in-pre-raid") },
-            { ("Shoulder", "#shoulder-for-enhancement-shaman-dps-in-pre-raid") },
-            { ("Back", "#back-for-enhancement-shaman-dps-in-pre-raid") },
-            { ("Chest", "#chest-for-enhancement-shaman-dps-in-pre-raid") },
-            { ("Wrist", "#wrist-for-enhancement-shaman-dps-in-pre-raid") },
-            { ("Hands", "#hands-for-enhancement-shaman-dps-in-pre-raid") },
-            { ("Waist", "#waist-for-enhancement-shaman-dps-in-pre-raid") },
-            { ("Legs", "#legs-for-enhancement-shaman-dps-in-pre-raid") },
-            { ("Feet", "#feet-for-enhancement-shaman-dps-in-pre-raid") },
-            { ("Neck", "#neck-for-enhancement-shaman-dps-in-pre-raid") },
-            { ("Ring", "#finger-for-enhancement-shaman-dps-in-pre-raid") },
-            { ("Trinket", "#trinket-for-enhancement-shaman-dps-in-pre-raid") },
-            { ("Main Hand", "#weapons-for-enhancement-shaman-dps-in-pre-raid") },
-            { ("Ranged/Relic", "#totems-for-enhancement-shaman-dps-in-pre-raid") }
+            { ("Head", "#head-for-enhancement-shaman-dps-in") },
+            { ("Shoulder", "#shoulder-for-enhancement-shaman-dps-in") },
+            { ("Back", "#back-for-enhancement-shaman-dps-in") },
+            { ("Chest", "#chest-for-enhancement-shaman-dps-in") },
+            { ("Wrist", "#wrist-for-enhancement-shaman-dps-in") },
+            { ("Hands", "#hands-for-enhancement-shaman-dps-in") },
+            { ("Waist", "#waist-for-enhancement-shaman-dps-in") },
+            { ("Legs", "#legs-for-enhancement-shaman-dps-in") },
+            { ("Feet", "#feet-for-enhancement-shaman-dps-in") },
+            { ("Neck", "#neck-for-enhancement-shaman-dps-in") },
+            { ("Ring", "#finger-for-enhancement-shaman-dps-in") },
+            { ("Trinket", "#trinket-for-enhancement-shaman-dps-in") },
+            { ("Main Hand", "#weapons-for-enhancement-shaman-dps-in") },
+            { ("Ranged/Relic", "#totems-for-enhancement-shaman-dps-in") }
         };
 
     public override string Phase1Url => "dps-bis-gear-pve-phase-1";
