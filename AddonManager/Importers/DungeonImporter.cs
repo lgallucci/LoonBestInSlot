@@ -9,15 +9,15 @@ public class DungeonImporter : LootImporter
 {
     private Dictionary<string, string> dungeonUriList = new Dictionary<string, string>
         {
-            {@"", "Blackrock Caverns"},
-            {@"", "The Deadmines"},
-            {@"", "Grim Batol"},
-            {@"", "Halls of Origination"},
-            {@"", "Lost City of the Tol'vir"},
-            {@"", "Shadowfang Keep"},
-            {@"", "The Stonecore"},
-            {@"", "Throne of the Tides"},
-            {@"", "Vortex Pinnacle"},
+            {@"https://www.wowhead.com/cata/guide/dungeons/blackrock-caverns-loot-guide", "Blackrock Caverns"},
+            {@"https://www.wowhead.com/cata/guide/dungeons/deadmines-loot-guide", "The Deadmines"},
+            {@"https://www.wowhead.com/cata/guide/dungeons/grim-batol-loot-guide", "Grim Batol"},
+            {@"https://www.wowhead.com/cata/guide/dungeons/halls-of-origination-loot-guide", "Halls of Origination"},
+            {@"https://www.wowhead.com/cata/guide/dungeons/lost-city-of-tolvir-loot-guide", "Lost City of the Tol'vir"},
+            {@"https://www.wowhead.com/cata/guide/dungeons/shadowfang-keep-loot-guide", "Shadowfang Keep"},
+            {@"https://www.wowhead.com/cata/guide/dungeons/the-stonecore-loot-guide", "The Stonecore"},
+            {@"https://www.wowhead.com/cata/guide/dungeons/throne-of-the-tides-loot-guide", "Throne of the Tides"},
+            {@"https://www.wowhead.com/cata/guide/dungeons/vortex-pinnacle-loot-guide", "Vortex Pinnacle"},
         };
 
     internal override string FileName { get => "DungeonItemList"; }
@@ -27,7 +27,7 @@ public class DungeonImporter : LootImporter
 
         await Common.LoadFromWebPages(dungeonUriList.Keys.ToList(), (uri, doc) =>
         {
-            var htmlElements = doc.QuerySelectorAll("#guide-body h2");
+            var htmlElements = doc.QuerySelectorAll("#guide-body h3");
             if (htmlElements != null && htmlElements.Length > 0)
             {
                 foreach (var htmlElement in htmlElements)
@@ -53,9 +53,12 @@ public class DungeonImporter : LootImporter
             if (itemIdIndex == -1)
                 itemIdIndex = item.IndexOf("&");
 
-            item = item.Substring(0, itemIdIndex);
-            int.TryParse(item, out itemId);
-            name = itemElement.TextContent.Trim();
+            if (itemIdIndex != -1)
+            {
+                item = item.Substring(0, itemIdIndex);
+                int.TryParse(item, out itemId);
+                name = itemElement.TextContent.Trim();
+            }
         }
 
         return (itemId, name);
@@ -76,18 +79,21 @@ public class DungeonImporter : LootImporter
             }
 
             var rowValues = GetItemFromTableRow(row);
-            if (!items.Items.TryAdd(rowValues.Item1, new DatabaseItem
+            if (rowValues.Item1 > 0)
             {
-                Name = rowValues.Item2,
-                SourceNumber = "0",
-                Source = bossName,
-                SourceLocation = $"{dungeonName} ({dungeonModifier})",
-                SourceType = "Drop"
-            }))
-            {
-                if (!items.Items[rowValues.Item1].Source.Contains(bossName))
+                if (!items.Items.TryAdd(rowValues.Item1, new DatabaseItem
                 {
-                    items.Items[rowValues.Item1].Source = $"{items.Items[rowValues.Item1].Source} & {bossName}";
+                    Name = rowValues.Item2,
+                    SourceNumber = "0",
+                    Source = bossName,
+                    SourceLocation = $"{dungeonName} ({dungeonModifier})",
+                    SourceType = "Drop"
+                }))
+                {
+                    if (!items.Items[rowValues.Item1].Source.Contains(bossName))
+                    {
+                        items.Items[rowValues.Item1].Source = $"{items.Items[rowValues.Item1].Source} & {bossName}";
+                    }
                 }
             }
         }
@@ -110,18 +116,24 @@ public class DungeonImporter : LootImporter
             }
             else if (currentElement.NodeName == "H3")
             {
-                var bossContent = currentElement.TextContent.Split('(');
-                bossName = bossContent[0].Replace("/", " & ").Replace("  ", " ").Trim();
+                var bossContent = currentElement.TextContent;
+                bossName = bossContent.Replace("/", " & ").Replace("  ", " ").Replace("(", "").Replace(")", "").Trim();
 
                 if (bossName == "Trash")
                     bossName = "Trash Mobs";
                 else if (bossName == "Tribunal Chest")
                     bossName = "The Tribunal of Ages";
 
-                if (bossContent[1].Contains("Normal"))
+                if (bossContent.Contains("Normal"))
+                {
+                    bossName = bossName.Replace("Normal", "");
                     dungeonModifier = "Normal";
-                else if (bossContent[1].Contains("Heroic"))
+                }
+                else if (bossContent.Contains("Heroic"))
+                {
+                    bossName = bossName.Replace("Heroic", "");
                     dungeonModifier = "Heroic";
+                }
                 else
                     foundTable = false;
             }
