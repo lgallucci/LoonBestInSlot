@@ -126,12 +126,12 @@ public class DungeonImporter : LootImporter
 
                 if (bossContent.Contains("Normal"))
                 {
-                    bossName = bossName.Replace("Normal", "");
+                    bossName = bossName.Replace("Normal", "").Trim();
                     dungeonModifier = "Normal";
                 }
                 else if (bossContent.Contains("Heroic"))
                 {
-                    bossName = bossName.Replace("Heroic", "");
+                    bossName = bossName.Replace("Heroic", "").Trim();
                     dungeonModifier = "Heroic";
                 }
                 else

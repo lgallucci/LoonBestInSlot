@@ -2,7 +2,7 @@
   "Items": {
     "872": {
       "Name": "Rockslicer",
-      "Source": "Admiral Ripsnarl ",
+      "Source": "Admiral Ripsnarl",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -10,7 +10,7 @@
     },
     "1156": {
       "Name": "Lavishly Jeweled Ring",
-      "Source": "Admiral Ripsnarl ",
+      "Source": "Admiral Ripsnarl",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -18,7 +18,7 @@
     },
     "1292": {
       "Name": "Butcher's Cleaver",
-      "Source": "Lord Walden ",
+      "Source": "Lord Walden",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -26,7 +26,7 @@
     },
     "1925": {
       "Name": "Defias Rapier",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -34,7 +34,7 @@
     },
     "1930": {
       "Name": "Stonemason Cloak",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -42,7 +42,7 @@
     },
     "1936": {
       "Name": "Goblin Screwdriver",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -50,7 +50,7 @@
     },
     "1943": {
       "Name": "Goblin Mail Leggings",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -58,7 +58,7 @@
     },
     "1944": {
       "Name": "Metalworking Gloves",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -66,7 +66,7 @@
     },
     "1945": {
       "Name": "Woodworking Gloves",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -74,7 +74,7 @@
     },
     "1951": {
       "Name": "Blackwater Cutlass",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -82,7 +82,7 @@
     },
     "2169": {
       "Name": "Buzzer Blade",
-      "Source": "Glubtok ",
+      "Source": "Glubtok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -90,7 +90,7 @@
     },
     "3191": {
       "Name": "Arced War Axe",
-      "Source": "Commander Springvale ",
+      "Source": "Commander Springvale",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -98,7 +98,7 @@
     },
     "3230": {
       "Name": "Black Wolf Bracers",
-      "Source": "Lord Walden ",
+      "Source": "Lord Walden",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -106,7 +106,7 @@
     },
     "3748": {
       "Name": "Feline Mantle",
-      "Source": "Lord Godfrey ",
+      "Source": "Lord Godfrey",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -114,7 +114,7 @@
     },
     "5187": {
       "Name": "Foe Reaper",
-      "Source": "Foe Reaper 5000 ",
+      "Source": "Foe Reaper 5000",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -122,7 +122,7 @@
     },
     "5191": {
       "Name": "Cruel Barb",
-      "Source": "Helix Gearbreaker  & Foe Reaper 5000 ",
+      "Source": "Helix Gearbreaker & Foe Reaper 5000",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -130,7 +130,7 @@
     },
     "5192": {
       "Name": "Thief's Blade",
-      "Source": "\"Captain\" Cookie ",
+      "Source": "\"Captain\" Cookie",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -138,7 +138,7 @@
     },
     "5193": {
       "Name": "Cape of the Brotherhood",
-      "Source": "\"Captain\" Cookie ",
+      "Source": "\"Captain\" Cookie",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -146,7 +146,7 @@
     },
     "5195": {
       "Name": "Gold-Flecked Gloves",
-      "Source": "Glubtok ",
+      "Source": "Glubtok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -154,7 +154,7 @@
     },
     "5196": {
       "Name": "Smite's Reaver",
-      "Source": "Admiral Ripsnarl ",
+      "Source": "Admiral Ripsnarl",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -162,7 +162,7 @@
     },
     "5197": {
       "Name": "Cookie's Tenderizer",
-      "Source": "\"Captain\" Cookie ",
+      "Source": "\"Captain\" Cookie",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -170,7 +170,7 @@
     },
     "5198": {
       "Name": "Cookie's Stirring Rod",
-      "Source": "\"Captain\" Cookie ",
+      "Source": "\"Captain\" Cookie",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -178,7 +178,7 @@
     },
     "5199": {
       "Name": "Smelting Pants",
-      "Source": "Helix Gearbreaker ",
+      "Source": "Helix Gearbreaker",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -186,7 +186,7 @@
     },
     "5200": {
       "Name": "Impaling Harpoon",
-      "Source": "Helix Gearbreaker ",
+      "Source": "Helix Gearbreaker",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -194,7 +194,7 @@
     },
     "5201": {
       "Name": "Emberstone Staff",
-      "Source": "Foe Reaper 5000 ",
+      "Source": "Foe Reaper 5000",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -202,7 +202,7 @@
     },
     "5202": {
       "Name": "Corsair's Overshirt",
-      "Source": "\"Captain\" Cookie ",
+      "Source": "\"Captain\" Cookie",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -210,7 +210,7 @@
     },
     "5254": {
       "Name": "Rugged Spaulders",
-      "Source": "Baron Silverlaine ",
+      "Source": "Baron Silverlaine",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -218,7 +218,7 @@
     },
     "5443": {
       "Name": "Gold-Plated Buckler",
-      "Source": "Helix Gearbreaker ",
+      "Source": "Helix Gearbreaker",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -226,7 +226,7 @@
     },
     "5444": {
       "Name": "Miner's Cape",
-      "Source": "Glubtok ",
+      "Source": "Glubtok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -234,7 +234,7 @@
     },
     "5943": {
       "Name": "Rift Bracers",
-      "Source": "Baron Silverlaine ",
+      "Source": "Baron Silverlaine",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -242,7 +242,7 @@
     },
     "6220": {
       "Name": "Meteor Shard",
-      "Source": "Lord Godfrey ",
+      "Source": "Lord Godfrey",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -250,7 +250,7 @@
     },
     "6314": {
       "Name": "Wolfmaster Cape",
-      "Source": "Baron Ashbury ",
+      "Source": "Baron Ashbury",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -258,7 +258,7 @@
     },
     "6318": {
       "Name": "Odo's Ley Staff",
-      "Source": "Lord Godfrey ",
+      "Source": "Lord Godfrey",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -266,7 +266,7 @@
     },
     "6319": {
       "Name": "Girdle of the Blindwatcher",
-      "Source": "Baron Silverlaine ",
+      "Source": "Baron Silverlaine",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -274,7 +274,7 @@
     },
     "6320": {
       "Name": "Commander's Crest",
-      "Source": "Commander Springvale ",
+      "Source": "Commander Springvale",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -282,7 +282,7 @@
     },
     "6321": {
       "Name": "Silverlaine's Family Seal",
-      "Source": "Baron Silverlaine ",
+      "Source": "Baron Silverlaine",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -290,7 +290,7 @@
     },
     "6323": {
       "Name": "Baron's Scepter",
-      "Source": "Baron Ashbury ",
+      "Source": "Baron Ashbury",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -298,7 +298,7 @@
     },
     "6324": {
       "Name": "Robes of Arugal",
-      "Source": "Baron Ashbury ",
+      "Source": "Baron Ashbury",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -306,7 +306,7 @@
     },
     "6341": {
       "Name": "Eerie Stable Lantern",
-      "Source": "Lord Walden ",
+      "Source": "Lord Walden",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -314,7 +314,7 @@
     },
     "6641": {
       "Name": "Haunting Blade",
-      "Source": "Lord Godfrey ",
+      "Source": "Lord Godfrey",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -322,7 +322,7 @@
     },
     "6642": {
       "Name": "Phantom Armor",
-      "Source": "Lord Walden ",
+      "Source": "Lord Walden",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Normal)",
@@ -330,7 +330,7 @@
     },
     "52078": {
       "Name": "Chaos Orb",
-      "Source": "Siamat  & Asaad ",
+      "Source": "Siamat & Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -338,7 +338,7 @@
     },
     "55195": {
       "Name": "Wrasse Handwraps",
-      "Source": "Lady Naz'jar ",
+      "Source": "Lady Naz'jar",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -346,7 +346,7 @@
     },
     "55198": {
       "Name": "Aurelian Mitre",
-      "Source": "Lady Naz'jar ",
+      "Source": "Lady Naz'jar",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -354,7 +354,7 @@
     },
     "55201": {
       "Name": "Entwined Nereis",
-      "Source": "Lady Naz'jar ",
+      "Source": "Lady Naz'jar",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -362,7 +362,7 @@
     },
     "55202": {
       "Name": "Periwinkle Cloak",
-      "Source": "Lady Naz'jar ",
+      "Source": "Lady Naz'jar",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -370,7 +370,7 @@
     },
     "55203": {
       "Name": "Lightning Whelk Axe",
-      "Source": "Lady Naz'jar ",
+      "Source": "Lady Naz'jar",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -378,7 +378,7 @@
     },
     "55204": {
       "Name": "Caridean Epaulettes",
-      "Source": "Commander Ulthok ",
+      "Source": "Commander Ulthok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -386,7 +386,7 @@
     },
     "55205": {
       "Name": "Chromis Chestpiece",
-      "Source": "Commander Ulthok ",
+      "Source": "Commander Ulthok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -394,7 +394,7 @@
     },
     "55206": {
       "Name": "Eagle Ray Cloak",
-      "Source": "Commander Ulthok ",
+      "Source": "Commander Ulthok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -402,7 +402,7 @@
     },
     "55207": {
       "Name": "Harp Shell Pauldrons",
-      "Source": "Commander Ulthok ",
+      "Source": "Commander Ulthok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -410,7 +410,7 @@
     },
     "55228": {
       "Name": "Cerith Spire Staff",
-      "Source": "Commander Ulthok ",
+      "Source": "Commander Ulthok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -418,7 +418,7 @@
     },
     "55229": {
       "Name": "Anomuran Helm",
-      "Source": "Mindbender Ghur'sha ",
+      "Source": "Mindbender Ghur'sha",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -426,7 +426,7 @@
     },
     "55235": {
       "Name": "Decapod Slippers",
-      "Source": "Mindbender Ghur'sha ",
+      "Source": "Mindbender Ghur'sha",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -434,7 +434,7 @@
     },
     "55236": {
       "Name": "Anthia's Ring",
-      "Source": "Mindbender Ghur'sha ",
+      "Source": "Mindbender Ghur'sha",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -442,7 +442,7 @@
     },
     "55237": {
       "Name": "Porcelain Crab",
-      "Source": "Mindbender Ghur'sha ",
+      "Source": "Mindbender Ghur'sha",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -450,7 +450,7 @@
     },
     "55249": {
       "Name": "Triton Legplates",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -458,7 +458,7 @@
     },
     "55250": {
       "Name": "Nautilus Ring",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -466,7 +466,7 @@
     },
     "55251": {
       "Name": "Might of the Ocean",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -474,7 +474,7 @@
     },
     "55252": {
       "Name": "Whitefin Axe",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -482,7 +482,7 @@
     },
     "55253": {
       "Name": "Wentletrap Vest",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -490,7 +490,7 @@
     },
     "55254": {
       "Name": "Abalone Plate Armor",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -498,7 +498,7 @@
     },
     "55255": {
       "Name": "Mnemiopsis Gloves",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -506,7 +506,7 @@
     },
     "55256": {
       "Name": "Sea Star",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -514,7 +514,7 @@
     },
     "55258": {
       "Name": "Pipefish Cord",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -522,7 +522,7 @@
     },
     "55259": {
       "Name": "Bioluminescent Lamp",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Normal)",
@@ -530,7 +530,7 @@
     },
     "55263": {
       "Name": "Renouncer's Cowl",
-      "Source": "Corla, Herald of Twilight ",
+      "Source": "Corla, Herald of Twilight",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -538,7 +538,7 @@
     },
     "55264": {
       "Name": "Armbands of Change",
-      "Source": "Corla, Herald of Twilight ",
+      "Source": "Corla, Herald of Twilight",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -546,7 +546,7 @@
     },
     "55265": {
       "Name": "Signet of Transformation",
-      "Source": "Corla, Herald of Twilight ",
+      "Source": "Corla, Herald of Twilight",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -554,7 +554,7 @@
     },
     "55266": {
       "Name": "Grace of the Herald",
-      "Source": "Corla, Herald of Twilight ",
+      "Source": "Corla, Herald of Twilight",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -562,7 +562,7 @@
     },
     "55267": {
       "Name": "Corla's Baton",
-      "Source": "Corla, Herald of Twilight ",
+      "Source": "Corla, Herald of Twilight",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -570,7 +570,7 @@
     },
     "55268": {
       "Name": "Bracers of Cooled Anger",
-      "Source": "Karsh Steelbender ",
+      "Source": "Karsh Steelbender",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -578,7 +578,7 @@
     },
     "55269": {
       "Name": "Heat Wave Leggings",
-      "Source": "Karsh Steelbender ",
+      "Source": "Karsh Steelbender",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -586,7 +586,7 @@
     },
     "55270": {
       "Name": "Burned Gatherings",
-      "Source": "Karsh Steelbender ",
+      "Source": "Karsh Steelbender",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -594,7 +594,7 @@
     },
     "55271": {
       "Name": "Quicksilver Amulet",
-      "Source": "Karsh Steelbender ",
+      "Source": "Karsh Steelbender",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -602,7 +602,7 @@
     },
     "55272": {
       "Name": "Steelbender's Masterpiece",
-      "Source": "Karsh Steelbender ",
+      "Source": "Karsh Steelbender",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -610,7 +610,7 @@
     },
     "55273": {
       "Name": "Beauty's Chew Toy",
-      "Source": "Beauty ",
+      "Source": "Beauty",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -618,7 +618,7 @@
     },
     "55274": {
       "Name": "Beauty's Plate",
-      "Source": "Beauty ",
+      "Source": "Beauty",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -626,7 +626,7 @@
     },
     "55275": {
       "Name": "Beauty's Silken Ribbon",
-      "Source": "Beauty ",
+      "Source": "Beauty",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -634,7 +634,7 @@
     },
     "55276": {
       "Name": "Kibble",
-      "Source": "Beauty ",
+      "Source": "Beauty",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -642,7 +642,7 @@
     },
     "55277": {
       "Name": "Beauty's Favorite Bone",
-      "Source": "Beauty ",
+      "Source": "Beauty",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -650,7 +650,7 @@
     },
     "55278": {
       "Name": "Inquisition Robes",
-      "Source": "Rom'ogg Bonecrusher ",
+      "Source": "Rom'ogg Bonecrusher",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -658,7 +658,7 @@
     },
     "55279": {
       "Name": "Manacles of Pain",
-      "Source": "Rom'ogg Bonecrusher ",
+      "Source": "Rom'ogg Bonecrusher",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -666,7 +666,7 @@
     },
     "55776": {
       "Name": "Skullcracker Ring",
-      "Source": "Rom'ogg Bonecrusher ",
+      "Source": "Rom'ogg Bonecrusher",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -674,7 +674,7 @@
     },
     "55777": {
       "Name": "Torturer's Mercy",
-      "Source": "Rom'ogg Bonecrusher ",
+      "Source": "Rom'ogg Bonecrusher",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -682,7 +682,7 @@
     },
     "55778": {
       "Name": "Shield of the Iron Maiden",
-      "Source": "Rom'ogg Bonecrusher ",
+      "Source": "Rom'ogg Bonecrusher",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -690,7 +690,7 @@
     },
     "55779": {
       "Name": "Raz's Pauldrons",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -698,7 +698,7 @@
     },
     "55780": {
       "Name": "Twitching Shadows",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -706,7 +706,7 @@
     },
     "55781": {
       "Name": "Carrier Wave Pendant",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -714,7 +714,7 @@
     },
     "55782": {
       "Name": "Amber Messenger",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -722,7 +722,7 @@
     },
     "55783": {
       "Name": "Sandshift Relic",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -730,7 +730,7 @@
     },
     "55784": {
       "Name": "Clutches of Dying Light",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -738,7 +738,7 @@
     },
     "55785": {
       "Name": "Willowy Crown",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -746,7 +746,7 @@
     },
     "55786": {
       "Name": "Kyrstel Mantle",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -754,7 +754,7 @@
     },
     "55787": {
       "Name": "Witching Hourglass",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -762,7 +762,7 @@
     },
     "55788": {
       "Name": "Crepuscular Shield",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Normal)",
@@ -770,7 +770,7 @@
     },
     "55792": {
       "Name": "Cinnabar Shoulders",
-      "Source": "Corborus ",
+      "Source": "Corborus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -778,7 +778,7 @@
     },
     "55793": {
       "Name": "Dolomite Adorned Gloves",
-      "Source": "Corborus ",
+      "Source": "Corborus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -786,7 +786,7 @@
     },
     "55794": {
       "Name": "Phosphorescent Ring",
-      "Source": "Corborus ",
+      "Source": "Corborus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -794,7 +794,7 @@
     },
     "55795": {
       "Name": "Key to the Endless Chamber",
-      "Source": "Corborus ",
+      "Source": "Corborus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -802,7 +802,7 @@
     },
     "55796": {
       "Name": "Fist of Pained Senses",
-      "Source": "Corborus ",
+      "Source": "Corborus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -810,7 +810,7 @@
     },
     "55797": {
       "Name": "Hematite Plate Gloves",
-      "Source": "Slabhide ",
+      "Source": "Slabhide",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -818,7 +818,7 @@
     },
     "55798": {
       "Name": "Deep Delving Gloves",
-      "Source": "Slabhide ",
+      "Source": "Slabhide",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -826,7 +826,7 @@
     },
     "55799": {
       "Name": "Rose Quartz Band",
-      "Source": "Slabhide ",
+      "Source": "Slabhide",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -834,7 +834,7 @@
     },
     "55800": {
       "Name": "Stalagmite Dragon",
-      "Source": "Slabhide ",
+      "Source": "Slabhide",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -842,7 +842,7 @@
     },
     "55801": {
       "Name": "Quicksilver Blade",
-      "Source": "Slabhide ",
+      "Source": "Slabhide",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -850,7 +850,7 @@
     },
     "55802": {
       "Name": "Elementium Scale Bracers",
-      "Source": "Ozruk ",
+      "Source": "Ozruk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -858,7 +858,7 @@
     },
     "55803": {
       "Name": "Belt of the Ringworm",
-      "Source": "Ozruk ",
+      "Source": "Ozruk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -866,7 +866,7 @@
     },
     "55804": {
       "Name": "Pendant of the Lightless Grotto",
-      "Source": "Ozruk ",
+      "Source": "Ozruk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -874,7 +874,7 @@
     },
     "55810": {
       "Name": "Tendrils of Burrowing Dark",
-      "Source": "Ozruk ",
+      "Source": "Ozruk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -882,7 +882,7 @@
     },
     "55811": {
       "Name": "Sword of the Bottomless Pit",
-      "Source": "Ozruk ",
+      "Source": "Ozruk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -890,7 +890,7 @@
     },
     "55812": {
       "Name": "Helm of Numberless Shadows",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -898,7 +898,7 @@
     },
     "55813": {
       "Name": "Elementium Fang",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -906,7 +906,7 @@
     },
     "55814": {
       "Name": "Magnetite Mirror",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -914,7 +914,7 @@
     },
     "55815": {
       "Name": "Darkling Staff",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -922,7 +922,7 @@
     },
     "55816": {
       "Name": "Leaden Despair",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -930,7 +930,7 @@
     },
     "55817": {
       "Name": "Slippers of the Twilight Prophet",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -938,7 +938,7 @@
     },
     "55818": {
       "Name": "Cowl of the Unseen World",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -946,7 +946,7 @@
     },
     "55819": {
       "Name": "Tear of Blood",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -954,7 +954,7 @@
     },
     "55820": {
       "Name": "Prophet's Scepter",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -962,7 +962,7 @@
     },
     "55821": {
       "Name": "Book of Dark Prophecies",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -970,7 +970,7 @@
     },
     "55830": {
       "Name": "Stratosphere Belt",
-      "Source": "Grand Vizier Ertan ",
+      "Source": "Grand Vizier Ertan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -978,7 +978,7 @@
     },
     "55831": {
       "Name": "Headcover of Fog",
-      "Source": "Grand Vizier Ertan ",
+      "Source": "Grand Vizier Ertan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -986,7 +986,7 @@
     },
     "55832": {
       "Name": "Fallen Snow Shoulderguards",
-      "Source": "Grand Vizier Ertan ",
+      "Source": "Grand Vizier Ertan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -994,7 +994,7 @@
     },
     "55833": {
       "Name": "Red Sky Pendant",
-      "Source": "Grand Vizier Ertan ",
+      "Source": "Grand Vizier Ertan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1002,7 +1002,7 @@
     },
     "55834": {
       "Name": "Biting Wind",
-      "Source": "Grand Vizier Ertan ",
+      "Source": "Grand Vizier Ertan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1010,7 +1010,7 @@
     },
     "55835": {
       "Name": "Hail-Strung Belt",
-      "Source": "Altairus ",
+      "Source": "Altairus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1018,7 +1018,7 @@
     },
     "55838": {
       "Name": "Mantle of Bestilled Winds",
-      "Source": "Altairus ",
+      "Source": "Altairus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1026,7 +1026,7 @@
     },
     "55839": {
       "Name": "Skyshard Ring",
-      "Source": "Altairus ",
+      "Source": "Altairus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1034,7 +1034,7 @@
     },
     "55840": {
       "Name": "Amulet of Tender Breath",
-      "Source": "Altairus ",
+      "Source": "Altairus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1042,7 +1042,7 @@
     },
     "55841": {
       "Name": "Axe of the Eclipse",
-      "Source": "Altairus ",
+      "Source": "Altairus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1050,7 +1050,7 @@
     },
     "55842": {
       "Name": "Legguards of Winnowing Wind",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1058,7 +1058,7 @@
     },
     "55844": {
       "Name": "Gloves of Haze",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1066,7 +1066,7 @@
     },
     "55845": {
       "Name": "Heart of Thunder",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1074,7 +1074,7 @@
     },
     "55846": {
       "Name": "Lightningflash",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1082,7 +1082,7 @@
     },
     "55847": {
       "Name": "Billowing Cape",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1090,7 +1090,7 @@
     },
     "55848": {
       "Name": "Lunar Halo",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1098,7 +1098,7 @@
     },
     "55849": {
       "Name": "Leggings of Iridescent Clouds",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1106,7 +1106,7 @@
     },
     "55850": {
       "Name": "Shadow of Perfect Bliss",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1114,7 +1114,7 @@
     },
     "55851": {
       "Name": "Ring of Frozen Rain",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1122,7 +1122,7 @@
     },
     "55853": {
       "Name": "Thundercall",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -1130,7 +1130,7 @@
     },
     "55856": {
       "Name": "Greaves of Wu the Elder",
-      "Source": "General Husam ",
+      "Source": "General Husam",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1138,7 +1138,7 @@
     },
     "55857": {
       "Name": "Ionic Gloves",
-      "Source": "General Husam ",
+      "Source": "General Husam",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1146,7 +1146,7 @@
     },
     "55858": {
       "Name": "Kaleki Cloak",
-      "Source": "General Husam ",
+      "Source": "General Husam",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1154,7 +1154,7 @@
     },
     "55859": {
       "Name": "Spirit Creeper Ring",
-      "Source": "General Husam ",
+      "Source": "General Husam",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1162,7 +1162,7 @@
     },
     "55860": {
       "Name": "Seliza's Spear",
-      "Source": "General Husam ",
+      "Source": "General Husam",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1170,7 +1170,7 @@
     },
     "55861": {
       "Name": "Balkar's Waders",
-      "Source": "High Prophet Barim ",
+      "Source": "High Prophet Barim",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1178,7 +1178,7 @@
     },
     "55862": {
       "Name": "Greaves of Wu the Younger",
-      "Source": "High Prophet Barim ",
+      "Source": "High Prophet Barim",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1186,7 +1186,7 @@
     },
     "55863": {
       "Name": "Ring of the Darkest Day",
-      "Source": "High Prophet Barim ",
+      "Source": "High Prophet Barim",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1194,7 +1194,7 @@
     },
     "55864": {
       "Name": "Tauntka's Necklace",
-      "Source": "High Prophet Barim ",
+      "Source": "High Prophet Barim",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1202,7 +1202,7 @@
     },
     "55865": {
       "Name": "Resonant Kris",
-      "Source": "High Prophet Barim ",
+      "Source": "High Prophet Barim",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1210,7 +1210,7 @@
     },
     "55866": {
       "Name": "Sand Silk Wristband",
-      "Source": "Lockmaw ",
+      "Source": "Lockmaw",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1218,7 +1218,7 @@
     },
     "55867": {
       "Name": "Sand Dune Belt",
-      "Source": "Lockmaw ",
+      "Source": "Lockmaw",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1226,7 +1226,7 @@
     },
     "55868": {
       "Name": "Heart of Solace",
-      "Source": "Lockmaw ",
+      "Source": "Lockmaw",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1234,7 +1234,7 @@
     },
     "55869": {
       "Name": "Veneficial Band",
-      "Source": "Lockmaw ",
+      "Source": "Lockmaw",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1242,7 +1242,7 @@
     },
     "55870": {
       "Name": "Barim's Main Gauche",
-      "Source": "Lockmaw ",
+      "Source": "Lockmaw",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1250,7 +1250,7 @@
     },
     "55871": {
       "Name": "Crafty's Gaiters",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1258,7 +1258,7 @@
     },
     "55872": {
       "Name": "Geordan's Cloak",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1266,7 +1266,7 @@
     },
     "55873": {
       "Name": "Ring of Three Lights",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1274,7 +1274,7 @@
     },
     "55874": {
       "Name": "Tia's Grace",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1282,7 +1282,7 @@
     },
     "55875": {
       "Name": "Hammer of Sparks",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1290,7 +1290,7 @@
     },
     "55876": {
       "Name": "Mantle of Master Cho",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1298,7 +1298,7 @@
     },
     "55877": {
       "Name": "Leggings of the Path",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1306,7 +1306,7 @@
     },
     "55878": {
       "Name": "Evelyn's Belt",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1314,7 +1314,7 @@
     },
     "55879": {
       "Name": "Sorrowsong",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1322,7 +1322,7 @@
     },
     "55880": {
       "Name": "Zora's Ward",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1330,7 +1330,7 @@
     },
     "55882": {
       "Name": "Oasis Bracers",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1338,7 +1338,7 @@
     },
     "55884": {
       "Name": "Mirage Ring",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1346,7 +1346,7 @@
     },
     "55886": {
       "Name": "Poison Fang Bracers",
-      "Source": "Temple Guardian Anhuur ",
+      "Source": "Temple Guardian Anhuur",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1354,7 +1354,7 @@
     },
     "55887": {
       "Name": "Belt of Petrified Tears",
-      "Source": "Temple Guardian Anhuur ",
+      "Source": "Temple Guardian Anhuur",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1362,7 +1362,7 @@
     },
     "55888": {
       "Name": "Darkhowl Amulet",
-      "Source": "Temple Guardian Anhuur ",
+      "Source": "Temple Guardian Anhuur",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1370,7 +1370,7 @@
     },
     "55889": {
       "Name": "Anhuur's Hymnal",
-      "Source": "Temple Guardian Anhuur ",
+      "Source": "Temple Guardian Anhuur",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1378,7 +1378,7 @@
     },
     "55890": {
       "Name": "Awakening Footfalls",
-      "Source": "Temple Guardian Anhuur ",
+      "Source": "Temple Guardian Anhuur",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1386,7 +1386,7 @@
     },
     "55992": {
       "Name": "Armguards of Unearthly Light",
-      "Source": "Isiset ",
+      "Source": "Isiset",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1394,7 +1394,7 @@
     },
     "55993": {
       "Name": "Legwraps of Astral Rain",
-      "Source": "Isiset ",
+      "Source": "Isiset",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1402,7 +1402,7 @@
     },
     "55994": {
       "Name": "Ring of Blinding Stars",
-      "Source": "Isiset ",
+      "Source": "Isiset",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1410,7 +1410,7 @@
     },
     "55995": {
       "Name": "Blood of Isiset",
-      "Source": "Isiset ",
+      "Source": "Isiset",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1418,7 +1418,7 @@
     },
     "55996": {
       "Name": "Nova Band",
-      "Source": "Isiset ",
+      "Source": "Isiset",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1426,7 +1426,7 @@
     },
     "55997": {
       "Name": "Bloodpetal Mantle",
-      "Source": "Ammunae ",
+      "Source": "Ammunae",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1434,7 +1434,7 @@
     },
     "55998": {
       "Name": "Robes of Rampant Growth",
-      "Source": "Ammunae ",
+      "Source": "Ammunae",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1442,7 +1442,7 @@
     },
     "55999": {
       "Name": "Seedling Pod",
-      "Source": "Ammunae ",
+      "Source": "Ammunae",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1450,7 +1450,7 @@
     },
     "56000": {
       "Name": "Band of Life Energy",
-      "Source": "Ammunae ",
+      "Source": "Ammunae",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1458,7 +1458,7 @@
     },
     "56093": {
       "Name": "Breastplate of the Risen Land",
-      "Source": "Earthrager Ptah ",
+      "Source": "Earthrager Ptah",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1466,7 +1466,7 @@
     },
     "56094": {
       "Name": "Underworld Cord",
-      "Source": "Earthrager Ptah ",
+      "Source": "Earthrager Ptah",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1474,7 +1474,7 @@
     },
     "56095": {
       "Name": "Mouth of the Earth",
-      "Source": "Earthrager Ptah ",
+      "Source": "Earthrager Ptah",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1482,7 +1482,7 @@
     },
     "56096": {
       "Name": "Bulwark of the Primordial Mound",
-      "Source": "Earthrager Ptah ",
+      "Source": "Earthrager Ptah",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1490,7 +1490,7 @@
     },
     "56097": {
       "Name": "Soul Releaser",
-      "Source": "Earthrager Ptah ",
+      "Source": "Earthrager Ptah",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1498,7 +1498,7 @@
     },
     "56098": {
       "Name": "Red Beam Cord",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1506,7 +1506,7 @@
     },
     "56099": {
       "Name": "Fingers of Light",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1514,7 +1514,7 @@
     },
     "56100": {
       "Name": "Right Eye of Rajh",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1522,7 +1522,7 @@
     },
     "56101": {
       "Name": "Sun Strike",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1530,7 +1530,7 @@
     },
     "56102": {
       "Name": "Left Eye of Rajh",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1538,7 +1538,7 @@
     },
     "56104": {
       "Name": "Legguards of Noon",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1546,7 +1546,7 @@
     },
     "56105": {
       "Name": "Hekatic Slippers",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1554,7 +1554,7 @@
     },
     "56106": {
       "Name": "Band of Rays",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1562,7 +1562,7 @@
     },
     "56107": {
       "Name": "Solar Wind Cloak",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1570,7 +1570,7 @@
     },
     "56108": {
       "Name": "Blade of the Burning Sun",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1578,7 +1578,7 @@
     },
     "56109": {
       "Name": "Book of Origination",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1586,7 +1586,7 @@
     },
     "56110": {
       "Name": "Charm of the Muse",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1594,7 +1594,7 @@
     },
     "56111": {
       "Name": "Temple Band",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1602,7 +1602,7 @@
     },
     "56112": {
       "Name": "Wildhammer Riding Helm",
-      "Source": "General Umbriss ",
+      "Source": "General Umbriss",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1610,7 +1610,7 @@
     },
     "56113": {
       "Name": "Cursed Skardyn Vest",
-      "Source": "General Umbriss ",
+      "Source": "General Umbriss",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1618,7 +1618,7 @@
     },
     "56114": {
       "Name": "Umbriss Band",
-      "Source": "General Umbriss ",
+      "Source": "General Umbriss",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1626,7 +1626,7 @@
     },
     "56115": {
       "Name": "Skardyn's Grace",
-      "Source": "General Umbriss ",
+      "Source": "General Umbriss",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1634,7 +1634,7 @@
     },
     "56116": {
       "Name": "Modgud's Blade",
-      "Source": "General Umbriss ",
+      "Source": "General Umbriss",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1642,7 +1642,7 @@
     },
     "56118": {
       "Name": "Belt of the Forgemaster",
-      "Source": "Forgemaster Throngus ",
+      "Source": "Forgemaster Throngus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1650,7 +1650,7 @@
     },
     "56119": {
       "Name": "Dark Iron Chain Boots",
-      "Source": "Forgemaster Throngus ",
+      "Source": "Forgemaster Throngus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1658,7 +1658,7 @@
     },
     "56120": {
       "Name": "Ring of Dun Algaz",
-      "Source": "Forgemaster Throngus ",
+      "Source": "Forgemaster Throngus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1666,7 +1666,7 @@
     },
     "56121": {
       "Name": "Throngus's Finger",
-      "Source": "Forgemaster Throngus ",
+      "Source": "Forgemaster Throngus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1674,7 +1674,7 @@
     },
     "56122": {
       "Name": "Wand of Untainted Power",
-      "Source": "Forgemaster Throngus ",
+      "Source": "Forgemaster Throngus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1682,7 +1682,7 @@
     },
     "56123": {
       "Name": "Red Scale Boots",
-      "Source": "Drahga Shadowburner ",
+      "Source": "Drahga Shadowburner",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1690,7 +1690,7 @@
     },
     "56124": {
       "Name": "Earthshape Pauldrons",
-      "Source": "Drahga Shadowburner ",
+      "Source": "Drahga Shadowburner",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1698,7 +1698,7 @@
     },
     "56125": {
       "Name": "Crimsonborne Bracers",
-      "Source": "Drahga Shadowburner ",
+      "Source": "Drahga Shadowburner",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1706,7 +1706,7 @@
     },
     "56126": {
       "Name": "Azureborne Cloak",
-      "Source": "Drahga Shadowburner ",
+      "Source": "Drahga Shadowburner",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1714,7 +1714,7 @@
     },
     "56127": {
       "Name": "Windwalker Blade",
-      "Source": "Drahga Shadowburner ",
+      "Source": "Drahga Shadowburner",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1722,7 +1722,7 @@
     },
     "56128": {
       "Name": "Vest of Misshapen Hides",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1730,7 +1730,7 @@
     },
     "56129": {
       "Name": "Circle of Bone",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1738,7 +1738,7 @@
     },
     "56130": {
       "Name": "Mace of Transformed Bone",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1746,7 +1746,7 @@
     },
     "56131": {
       "Name": "Wild Hammer",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1754,7 +1754,7 @@
     },
     "56132": {
       "Name": "Mark of Khardros",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1762,7 +1762,7 @@
     },
     "56133": {
       "Name": "Crown of Enfeebled Bodies",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1770,7 +1770,7 @@
     },
     "56135": {
       "Name": "Bracers of Umbral Mending",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1778,7 +1778,7 @@
     },
     "56136": {
       "Name": "Corrupted Egg Shell",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1786,7 +1786,7 @@
     },
     "56137": {
       "Name": "Staff of Siphoned Essences",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1794,7 +1794,7 @@
     },
     "56138": {
       "Name": "Gale of Shadows",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Normal)",
@@ -1802,7 +1802,7 @@
     },
     "56266": {
       "Name": "Lightning Whelk Axe",
-      "Source": "Lady Naz'jar ",
+      "Source": "Lady Naz'jar",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1810,7 +1810,7 @@
     },
     "56267": {
       "Name": "Periwinkle Cloak",
-      "Source": "Lady Naz'jar ",
+      "Source": "Lady Naz'jar",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1818,7 +1818,7 @@
     },
     "56268": {
       "Name": "Wrasse Handwraps",
-      "Source": "Lady Naz'jar ",
+      "Source": "Lady Naz'jar",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1826,7 +1826,7 @@
     },
     "56269": {
       "Name": "Aurelian Mitre",
-      "Source": "Lady Naz'jar ",
+      "Source": "Lady Naz'jar",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1834,7 +1834,7 @@
     },
     "56270": {
       "Name": "Entwined Nereis",
-      "Source": "Lady Naz'jar ",
+      "Source": "Lady Naz'jar",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1842,7 +1842,7 @@
     },
     "56271": {
       "Name": "Cerith Spire Staff",
-      "Source": "Commander Ulthok ",
+      "Source": "Commander Ulthok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1850,7 +1850,7 @@
     },
     "56272": {
       "Name": "Harp Shell Pauldrons",
-      "Source": "Commander Ulthok ",
+      "Source": "Commander Ulthok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1858,7 +1858,7 @@
     },
     "56273": {
       "Name": "Caridean Epaulettes",
-      "Source": "Commander Ulthok ",
+      "Source": "Commander Ulthok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1866,7 +1866,7 @@
     },
     "56274": {
       "Name": "Chromis Chestpiece",
-      "Source": "Commander Ulthok ",
+      "Source": "Commander Ulthok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1874,7 +1874,7 @@
     },
     "56275": {
       "Name": "Eagle Ray Cloak",
-      "Source": "Commander Ulthok ",
+      "Source": "Commander Ulthok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1882,7 +1882,7 @@
     },
     "56276": {
       "Name": "Anthia's Ring",
-      "Source": "Mindbender Ghur'sha ",
+      "Source": "Mindbender Ghur'sha",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1890,7 +1890,7 @@
     },
     "56277": {
       "Name": "Decapod Slippers",
-      "Source": "Mindbender Ghur'sha ",
+      "Source": "Mindbender Ghur'sha",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1898,7 +1898,7 @@
     },
     "56278": {
       "Name": "Anomuran Helm",
-      "Source": "Mindbender Ghur'sha ",
+      "Source": "Mindbender Ghur'sha",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1906,7 +1906,7 @@
     },
     "56280": {
       "Name": "Porcelain Crab",
-      "Source": "Mindbender Ghur'sha ",
+      "Source": "Mindbender Ghur'sha",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1914,7 +1914,7 @@
     },
     "56281": {
       "Name": "Wentletrap Vest",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1922,7 +1922,7 @@
     },
     "56282": {
       "Name": "Nautilus Ring",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1930,7 +1930,7 @@
     },
     "56283": {
       "Name": "Triton Legplates",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1938,7 +1938,7 @@
     },
     "56284": {
       "Name": "Whitefin Axe",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1946,7 +1946,7 @@
     },
     "56285": {
       "Name": "Might of the Ocean",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1954,7 +1954,7 @@
     },
     "56286": {
       "Name": "Mnemiopsis Gloves",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1962,7 +1962,7 @@
     },
     "56288": {
       "Name": "Pipefish Cord",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1970,7 +1970,7 @@
     },
     "56289": {
       "Name": "Bioluminescent Lamp",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1978,7 +1978,7 @@
     },
     "56290": {
       "Name": "Sea Star",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1986,7 +1986,7 @@
     },
     "56291": {
       "Name": "Abalone Plate Armor",
-      "Source": "Ozumat ",
+      "Source": "Ozumat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Tides (Heroic)",
@@ -1994,7 +1994,7 @@
     },
     "56295": {
       "Name": "Grace of the Herald",
-      "Source": "Corla, Herald of Twilight ",
+      "Source": "Corla, Herald of Twilight",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2002,7 +2002,7 @@
     },
     "56296": {
       "Name": "Corla's Baton",
-      "Source": "Corla, Herald of Twilight ",
+      "Source": "Corla, Herald of Twilight",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2010,7 +2010,7 @@
     },
     "56297": {
       "Name": "Armbands of Change",
-      "Source": "Corla, Herald of Twilight ",
+      "Source": "Corla, Herald of Twilight",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2018,7 +2018,7 @@
     },
     "56298": {
       "Name": "Renouncer's Cowl",
-      "Source": "Corla, Herald of Twilight ",
+      "Source": "Corla, Herald of Twilight",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2026,7 +2026,7 @@
     },
     "56299": {
       "Name": "Signet of Transformation",
-      "Source": "Corla, Herald of Twilight ",
+      "Source": "Corla, Herald of Twilight",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2034,7 +2034,7 @@
     },
     "56300": {
       "Name": "Quicksilver Amulet",
-      "Source": "Karsh Steelbender ",
+      "Source": "Karsh Steelbender",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2042,7 +2042,7 @@
     },
     "56301": {
       "Name": "Bracers of Cooled Anger",
-      "Source": "Karsh Steelbender ",
+      "Source": "Karsh Steelbender",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2050,7 +2050,7 @@
     },
     "56302": {
       "Name": "Steelbender's Masterpiece",
-      "Source": "Karsh Steelbender ",
+      "Source": "Karsh Steelbender",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2058,7 +2058,7 @@
     },
     "56303": {
       "Name": "Heat Wave Leggings",
-      "Source": "Karsh Steelbender ",
+      "Source": "Karsh Steelbender",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2066,7 +2066,7 @@
     },
     "56304": {
       "Name": "Burned Gatherings",
-      "Source": "Karsh Steelbender ",
+      "Source": "Karsh Steelbender",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2074,7 +2074,7 @@
     },
     "56305": {
       "Name": "Beauty's Silken Ribbon",
-      "Source": "Beauty ",
+      "Source": "Beauty",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2082,7 +2082,7 @@
     },
     "56306": {
       "Name": "Beauty's Favorite Bone",
-      "Source": "Beauty ",
+      "Source": "Beauty",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2090,7 +2090,7 @@
     },
     "56307": {
       "Name": "Kibble",
-      "Source": "Beauty ",
+      "Source": "Beauty",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2098,7 +2098,7 @@
     },
     "56308": {
       "Name": "Beauty's Plate",
-      "Source": "Beauty ",
+      "Source": "Beauty",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2106,7 +2106,7 @@
     },
     "56309": {
       "Name": "Beauty's Chew Toy",
-      "Source": "Beauty ",
+      "Source": "Beauty",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2114,7 +2114,7 @@
     },
     "56310": {
       "Name": "Skullcracker Ring",
-      "Source": "Rom'ogg Bonecrusher ",
+      "Source": "Rom'ogg Bonecrusher",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2122,7 +2122,7 @@
     },
     "56311": {
       "Name": "Inquisition Robes",
-      "Source": "Rom'ogg Bonecrusher ",
+      "Source": "Rom'ogg Bonecrusher",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2130,7 +2130,7 @@
     },
     "56312": {
       "Name": "Torturer's Mercy",
-      "Source": "Rom'ogg Bonecrusher ",
+      "Source": "Rom'ogg Bonecrusher",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2138,7 +2138,7 @@
     },
     "56313": {
       "Name": "Manacles of Pain",
-      "Source": "Rom'ogg Bonecrusher ",
+      "Source": "Rom'ogg Bonecrusher",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2146,7 +2146,7 @@
     },
     "56314": {
       "Name": "Shield of the Iron Maiden",
-      "Source": "Rom'ogg Bonecrusher ",
+      "Source": "Rom'ogg Bonecrusher",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2154,7 +2154,7 @@
     },
     "56315": {
       "Name": "Twitching Shadows",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2162,7 +2162,7 @@
     },
     "56316": {
       "Name": "Sandshift Relic",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2170,7 +2170,7 @@
     },
     "56317": {
       "Name": "Amber Messenger",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2178,7 +2178,7 @@
     },
     "56318": {
       "Name": "Raz's Pauldrons",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2186,7 +2186,7 @@
     },
     "56319": {
       "Name": "Carrier Wave Pendant",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2194,7 +2194,7 @@
     },
     "56320": {
       "Name": "Witching Hourglass",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2202,7 +2202,7 @@
     },
     "56321": {
       "Name": "Willowy Crown",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2210,7 +2210,7 @@
     },
     "56322": {
       "Name": "Crepuscular Shield",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2218,7 +2218,7 @@
     },
     "56323": {
       "Name": "Clutches of Dying Light",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2226,7 +2226,7 @@
     },
     "56324": {
       "Name": "Kyrstel Mantle",
-      "Source": "Ascendant Lord Obsidius ",
+      "Source": "Ascendant Lord Obsidius",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackrock Caverns (Heroic)",
@@ -2234,7 +2234,7 @@
     },
     "56328": {
       "Name": "Key to the Endless Chamber",
-      "Source": "Corborus ",
+      "Source": "Corborus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2242,7 +2242,7 @@
     },
     "56329": {
       "Name": "Fist of Pained Senses",
-      "Source": "Corborus ",
+      "Source": "Corborus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2250,7 +2250,7 @@
     },
     "56330": {
       "Name": "Cinnabar Shoulders",
-      "Source": "Corborus ",
+      "Source": "Corborus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2258,7 +2258,7 @@
     },
     "56331": {
       "Name": "Dolomite Adorned Gloves",
-      "Source": "Corborus ",
+      "Source": "Corborus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2266,7 +2266,7 @@
     },
     "56332": {
       "Name": "Phosphorescent Ring",
-      "Source": "Corborus ",
+      "Source": "Corborus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2274,7 +2274,7 @@
     },
     "56333": {
       "Name": "Rose Quartz Band",
-      "Source": "Slabhide ",
+      "Source": "Slabhide",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2282,7 +2282,7 @@
     },
     "56334": {
       "Name": "Deep Delving Gloves",
-      "Source": "Slabhide ",
+      "Source": "Slabhide",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2290,7 +2290,7 @@
     },
     "56335": {
       "Name": "Quicksilver Blade",
-      "Source": "Slabhide ",
+      "Source": "Slabhide",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2298,7 +2298,7 @@
     },
     "56336": {
       "Name": "Hematite Plate Gloves",
-      "Source": "Slabhide ",
+      "Source": "Slabhide",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2306,7 +2306,7 @@
     },
     "56337": {
       "Name": "Stalagmite Dragon",
-      "Source": "Slabhide ",
+      "Source": "Slabhide",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2314,7 +2314,7 @@
     },
     "56338": {
       "Name": "Pendant of the Lightless Grotto",
-      "Source": "Ozruk ",
+      "Source": "Ozruk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2322,7 +2322,7 @@
     },
     "56339": {
       "Name": "Tendrils of Burrowing Dark",
-      "Source": "Ozruk ",
+      "Source": "Ozruk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2330,7 +2330,7 @@
     },
     "56340": {
       "Name": "Elementium Scale Bracers",
-      "Source": "Ozruk ",
+      "Source": "Ozruk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2338,7 +2338,7 @@
     },
     "56341": {
       "Name": "Belt of the Ringworm",
-      "Source": "Ozruk ",
+      "Source": "Ozruk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2346,7 +2346,7 @@
     },
     "56342": {
       "Name": "Sword of the Bottomless Pit",
-      "Source": "Ozruk ",
+      "Source": "Ozruk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2354,7 +2354,7 @@
     },
     "56343": {
       "Name": "Darkling Staff",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2362,7 +2362,7 @@
     },
     "56344": {
       "Name": "Helm of Numberless Shadows",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2370,7 +2370,7 @@
     },
     "56345": {
       "Name": "Magnetite Mirror",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2378,7 +2378,7 @@
     },
     "56346": {
       "Name": "Elementium Fang",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2386,7 +2386,7 @@
     },
     "56347": {
       "Name": "Leaden Despair",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2394,7 +2394,7 @@
     },
     "56348": {
       "Name": "Slippers of the Twilight Prophet",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2402,7 +2402,7 @@
     },
     "56349": {
       "Name": "Prophet's Scepter",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2410,7 +2410,7 @@
     },
     "56350": {
       "Name": "Book of Dark Prophecies",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2418,7 +2418,7 @@
     },
     "56351": {
       "Name": "Tear of Blood",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2426,7 +2426,7 @@
     },
     "56352": {
       "Name": "Cowl of the Unseen World",
-      "Source": "High Priestess Azil ",
+      "Source": "High Priestess Azil",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Heroic)",
@@ -2434,7 +2434,7 @@
     },
     "56356": {
       "Name": "Stratosphere Belt",
-      "Source": "Grand Vizier Ertan ",
+      "Source": "Grand Vizier Ertan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2442,7 +2442,7 @@
     },
     "56357": {
       "Name": "Biting Wind",
-      "Source": "Grand Vizier Ertan ",
+      "Source": "Grand Vizier Ertan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2450,7 +2450,7 @@
     },
     "56358": {
       "Name": "Headcover of Fog",
-      "Source": "Grand Vizier Ertan ",
+      "Source": "Grand Vizier Ertan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2458,7 +2458,7 @@
     },
     "56359": {
       "Name": "Fallen Snow Shoulderguards",
-      "Source": "Grand Vizier Ertan ",
+      "Source": "Grand Vizier Ertan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2466,7 +2466,7 @@
     },
     "56360": {
       "Name": "Red Sky Pendant",
-      "Source": "Grand Vizier Ertan ",
+      "Source": "Grand Vizier Ertan",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2474,7 +2474,7 @@
     },
     "56361": {
       "Name": "Mantle of Bestilled Winds",
-      "Source": "Altairus ",
+      "Source": "Altairus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2482,7 +2482,7 @@
     },
     "56362": {
       "Name": "Amulet of Tender Breath",
-      "Source": "Altairus ",
+      "Source": "Altairus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2490,7 +2490,7 @@
     },
     "56363": {
       "Name": "Hail-Strung Belt",
-      "Source": "Altairus ",
+      "Source": "Altairus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2498,7 +2498,7 @@
     },
     "56364": {
       "Name": "Axe of the Eclipse",
-      "Source": "Altairus ",
+      "Source": "Altairus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2506,7 +2506,7 @@
     },
     "56365": {
       "Name": "Skyshard Ring",
-      "Source": "Altairus ",
+      "Source": "Altairus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2514,7 +2514,7 @@
     },
     "56366": {
       "Name": "Lightningflash",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2522,7 +2522,7 @@
     },
     "56367": {
       "Name": "Legguards of Winnowing Wind",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2530,7 +2530,7 @@
     },
     "56368": {
       "Name": "Gloves of Haze",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2538,7 +2538,7 @@
     },
     "56369": {
       "Name": "Billowing Cape",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2546,7 +2546,7 @@
     },
     "56370": {
       "Name": "Heart of Thunder",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2554,7 +2554,7 @@
     },
     "56371": {
       "Name": "Shadow of Perfect Bliss",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2562,7 +2562,7 @@
     },
     "56373": {
       "Name": "Ring of Frozen Rain",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2570,7 +2570,7 @@
     },
     "56374": {
       "Name": "Lunar Halo",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2578,7 +2578,7 @@
     },
     "56375": {
       "Name": "Leggings of Iridescent Clouds",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2586,7 +2586,7 @@
     },
     "56376": {
       "Name": "Thundercall",
-      "Source": "Asaad ",
+      "Source": "Asaad",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Heroic)",
@@ -2594,7 +2594,7 @@
     },
     "56380": {
       "Name": "Spirit Creeper Ring",
-      "Source": "General Husam ",
+      "Source": "General Husam",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2602,7 +2602,7 @@
     },
     "56381": {
       "Name": "Greaves of Wu the Elder",
-      "Source": "General Husam ",
+      "Source": "General Husam",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2610,7 +2610,7 @@
     },
     "56382": {
       "Name": "Seliza's Spear",
-      "Source": "General Husam ",
+      "Source": "General Husam",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2618,7 +2618,7 @@
     },
     "56383": {
       "Name": "Ionic Gloves",
-      "Source": "General Husam ",
+      "Source": "General Husam",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2626,7 +2626,7 @@
     },
     "56384": {
       "Name": "Resonant Kris",
-      "Source": "High Prophet Barim ",
+      "Source": "High Prophet Barim",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2634,7 +2634,7 @@
     },
     "56385": {
       "Name": "Tauntka's Necklace",
-      "Source": "High Prophet Barim ",
+      "Source": "High Prophet Barim",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2642,7 +2642,7 @@
     },
     "56386": {
       "Name": "Balkar's Waders",
-      "Source": "High Prophet Barim ",
+      "Source": "High Prophet Barim",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2650,7 +2650,7 @@
     },
     "56387": {
       "Name": "Greaves of Wu the Younger",
-      "Source": "High Prophet Barim ",
+      "Source": "High Prophet Barim",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2658,7 +2658,7 @@
     },
     "56388": {
       "Name": "Ring of the Darkest Day",
-      "Source": "High Prophet Barim ",
+      "Source": "High Prophet Barim",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2666,7 +2666,7 @@
     },
     "56389": {
       "Name": "Sand Silk Wristband",
-      "Source": "Lockmaw ",
+      "Source": "Lockmaw",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2674,7 +2674,7 @@
     },
     "56390": {
       "Name": "Barim's Main Gauche",
-      "Source": "Lockmaw ",
+      "Source": "Lockmaw",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2682,7 +2682,7 @@
     },
     "56391": {
       "Name": "Veneficial Band",
-      "Source": "Lockmaw ",
+      "Source": "Lockmaw",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2690,7 +2690,7 @@
     },
     "56392": {
       "Name": "Sand Dune Belt",
-      "Source": "Lockmaw ",
+      "Source": "Lockmaw",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2698,7 +2698,7 @@
     },
     "56393": {
       "Name": "Heart of Solace",
-      "Source": "Lockmaw ",
+      "Source": "Lockmaw",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2706,7 +2706,7 @@
     },
     "56394": {
       "Name": "Tia's Grace",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2714,7 +2714,7 @@
     },
     "56395": {
       "Name": "Crafty's Gaiters",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2722,7 +2722,7 @@
     },
     "56396": {
       "Name": "Hammer of Sparks",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2730,7 +2730,7 @@
     },
     "56397": {
       "Name": "Geordan's Cloak",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2738,7 +2738,7 @@
     },
     "56398": {
       "Name": "Ring of Three Lights",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2746,7 +2746,7 @@
     },
     "56399": {
       "Name": "Mantle of Master Cho",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2754,7 +2754,7 @@
     },
     "56400": {
       "Name": "Sorrowsong",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2762,7 +2762,7 @@
     },
     "56401": {
       "Name": "Leggings of the Path",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2770,7 +2770,7 @@
     },
     "56402": {
       "Name": "Zora's Ward",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2778,7 +2778,7 @@
     },
     "56403": {
       "Name": "Evelyn's Belt",
-      "Source": "Siamat ",
+      "Source": "Siamat",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2786,7 +2786,7 @@
     },
     "56404": {
       "Name": "Mirage Ring",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2794,7 +2794,7 @@
     },
     "56405": {
       "Name": "Oasis Bracers",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2802,7 +2802,7 @@
     },
     "56407": {
       "Name": "Anhuur's Hymnal",
-      "Source": "Temple Guardian Anhuur ",
+      "Source": "Temple Guardian Anhuur",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2810,7 +2810,7 @@
     },
     "56408": {
       "Name": "Awakening Footfalls",
-      "Source": "Temple Guardian Anhuur ",
+      "Source": "Temple Guardian Anhuur",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2818,7 +2818,7 @@
     },
     "56409": {
       "Name": "Poison Fang Bracers",
-      "Source": "Temple Guardian Anhuur ",
+      "Source": "Temple Guardian Anhuur",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2826,7 +2826,7 @@
     },
     "56410": {
       "Name": "Belt of Petrified Tears",
-      "Source": "Temple Guardian Anhuur ",
+      "Source": "Temple Guardian Anhuur",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2834,7 +2834,7 @@
     },
     "56411": {
       "Name": "Darkhowl Amulet",
-      "Source": "Temple Guardian Anhuur ",
+      "Source": "Temple Guardian Anhuur",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2842,7 +2842,7 @@
     },
     "56412": {
       "Name": "Ring of Blinding Stars",
-      "Source": "Isiset ",
+      "Source": "Isiset",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2850,7 +2850,7 @@
     },
     "56413": {
       "Name": "Legwraps of Astral Rain",
-      "Source": "Isiset ",
+      "Source": "Isiset",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2858,7 +2858,7 @@
     },
     "56414": {
       "Name": "Blood of Isiset",
-      "Source": "Isiset ",
+      "Source": "Isiset",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2866,7 +2866,7 @@
     },
     "56415": {
       "Name": "Nova Band",
-      "Source": "Isiset ",
+      "Source": "Isiset",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2874,7 +2874,7 @@
     },
     "56416": {
       "Name": "Armguards of Unearthly Light",
-      "Source": "Isiset ",
+      "Source": "Isiset",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2882,7 +2882,7 @@
     },
     "56417": {
       "Name": "Robes of Rampant Growth",
-      "Source": "Ammunae ",
+      "Source": "Ammunae",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2890,7 +2890,7 @@
     },
     "56418": {
       "Name": "Band of Life Energy",
-      "Source": "Ammunae ",
+      "Source": "Ammunae",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2898,7 +2898,7 @@
     },
     "56419": {
       "Name": "Bloodpetal Mantle",
-      "Source": "Ammunae ",
+      "Source": "Ammunae",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2906,7 +2906,7 @@
     },
     "56421": {
       "Name": "Seedling Pod",
-      "Source": "Ammunae ",
+      "Source": "Ammunae",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2914,7 +2914,7 @@
     },
     "56422": {
       "Name": "Mouth of the Earth",
-      "Source": "Earthrager Ptah ",
+      "Source": "Earthrager Ptah",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2922,7 +2922,7 @@
     },
     "56423": {
       "Name": "Underworld Cord",
-      "Source": "Earthrager Ptah ",
+      "Source": "Earthrager Ptah",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2930,7 +2930,7 @@
     },
     "56424": {
       "Name": "Soul Releaser",
-      "Source": "Earthrager Ptah ",
+      "Source": "Earthrager Ptah",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2938,7 +2938,7 @@
     },
     "56425": {
       "Name": "Breastplate of the Risen Land",
-      "Source": "Earthrager Ptah ",
+      "Source": "Earthrager Ptah",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2946,7 +2946,7 @@
     },
     "56426": {
       "Name": "Bulwark of the Primordial Mound",
-      "Source": "Earthrager Ptah ",
+      "Source": "Earthrager Ptah",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2954,7 +2954,7 @@
     },
     "56427": {
       "Name": "Left Eye of Rajh",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2962,7 +2962,7 @@
     },
     "56428": {
       "Name": "Fingers of Light",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2970,7 +2970,7 @@
     },
     "56429": {
       "Name": "Red Beam Cord",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2978,7 +2978,7 @@
     },
     "56430": {
       "Name": "Sun Strike",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2986,7 +2986,7 @@
     },
     "56431": {
       "Name": "Right Eye of Rajh",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -2994,7 +2994,7 @@
     },
     "56432": {
       "Name": "Band of Rays",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3002,7 +3002,7 @@
     },
     "56433": {
       "Name": "Blade of the Burning Sun",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3010,7 +3010,7 @@
     },
     "56434": {
       "Name": "Solar Wind Cloak",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3018,7 +3018,7 @@
     },
     "56435": {
       "Name": "Legguards of Noon",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3026,7 +3026,7 @@
     },
     "56436": {
       "Name": "Hekatic Slippers",
-      "Source": "Rajh ",
+      "Source": "Rajh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3034,7 +3034,7 @@
     },
     "56437": {
       "Name": "Charm of the Muse",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3042,7 +3042,7 @@
     },
     "56438": {
       "Name": "Book of Origination",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3050,7 +3050,7 @@
     },
     "56439": {
       "Name": "Temple Band",
-      "Source": "Trash ",
+      "Source": "Trash",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3058,7 +3058,7 @@
     },
     "56440": {
       "Name": "Skardyn's Grace",
-      "Source": "General Umbriss ",
+      "Source": "General Umbriss",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3066,7 +3066,7 @@
     },
     "56441": {
       "Name": "Modgud's Blade",
-      "Source": "General Umbriss ",
+      "Source": "General Umbriss",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3074,7 +3074,7 @@
     },
     "56442": {
       "Name": "Cursed Skardyn Vest",
-      "Source": "General Umbriss ",
+      "Source": "General Umbriss",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3082,7 +3082,7 @@
     },
     "56443": {
       "Name": "Wildhammer Riding Helm",
-      "Source": "General Umbriss ",
+      "Source": "General Umbriss",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3090,7 +3090,7 @@
     },
     "56444": {
       "Name": "Umbriss Band",
-      "Source": "General Umbriss ",
+      "Source": "General Umbriss",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3098,7 +3098,7 @@
     },
     "56445": {
       "Name": "Ring of Dun Algaz",
-      "Source": "Forgemaster Throngus ",
+      "Source": "Forgemaster Throngus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3106,7 +3106,7 @@
     },
     "56446": {
       "Name": "Wand of Untainted Power",
-      "Source": "Forgemaster Throngus ",
+      "Source": "Forgemaster Throngus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3114,7 +3114,7 @@
     },
     "56447": {
       "Name": "Belt of the Forgemaster",
-      "Source": "Forgemaster Throngus ",
+      "Source": "Forgemaster Throngus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3122,7 +3122,7 @@
     },
     "56448": {
       "Name": "Dark Iron Chain Boots",
-      "Source": "Forgemaster Throngus ",
+      "Source": "Forgemaster Throngus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3130,7 +3130,7 @@
     },
     "56449": {
       "Name": "Throngus's Finger",
-      "Source": "Forgemaster Throngus ",
+      "Source": "Forgemaster Throngus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3138,7 +3138,7 @@
     },
     "56450": {
       "Name": "Azureborne Cloak",
-      "Source": "Drahga Shadowburner ",
+      "Source": "Drahga Shadowburner",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3146,7 +3146,7 @@
     },
     "56452": {
       "Name": "Earthshape Pauldrons",
-      "Source": "Drahga Shadowburner ",
+      "Source": "Drahga Shadowburner",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3154,7 +3154,7 @@
     },
     "56453": {
       "Name": "Crimsonborne Bracers",
-      "Source": "Drahga Shadowburner ",
+      "Source": "Drahga Shadowburner",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3162,7 +3162,7 @@
     },
     "56454": {
       "Name": "Windwalker Blade",
-      "Source": "Drahga Shadowburner ",
+      "Source": "Drahga Shadowburner",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3170,7 +3170,7 @@
     },
     "56455": {
       "Name": "Vest of Misshapen Hides",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3178,7 +3178,7 @@
     },
     "56456": {
       "Name": "Wild Hammer",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3186,7 +3186,7 @@
     },
     "56457": {
       "Name": "Circle of Bone",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3194,7 +3194,7 @@
     },
     "56458": {
       "Name": "Mark of Khardros",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3202,7 +3202,7 @@
     },
     "56459": {
       "Name": "Mace of Transformed Bone",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3210,7 +3210,7 @@
     },
     "56460": {
       "Name": "Crown of Enfeebled Bodies",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3218,7 +3218,7 @@
     },
     "56461": {
       "Name": "Staff of Siphoned Essences",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3226,7 +3226,7 @@
     },
     "56462": {
       "Name": "Gale of Shadows",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3234,7 +3234,7 @@
     },
     "56463": {
       "Name": "Corrupted Egg Shell",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3242,7 +3242,7 @@
     },
     "56464": {
       "Name": "Bracers of Umbral Mending",
-      "Source": "Erudax ",
+      "Source": "Erudax",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Grim Batol (Heroic)",
@@ -3250,7 +3250,7 @@
     },
     "57855": {
       "Name": "Alpha Bracers",
-      "Source": "Anraphet ",
+      "Source": "Anraphet",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -3258,7 +3258,7 @@
     },
     "57856": {
       "Name": "Omega Breastplate",
-      "Source": "Anraphet ",
+      "Source": "Anraphet",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -3266,7 +3266,7 @@
     },
     "57857": {
       "Name": "Boots of Crumbling Ruin",
-      "Source": "Anraphet ",
+      "Source": "Anraphet",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -3274,7 +3274,7 @@
     },
     "57858": {
       "Name": "Mantle of Soft Shadows",
-      "Source": "Anraphet ",
+      "Source": "Anraphet",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -3282,7 +3282,7 @@
     },
     "57860": {
       "Name": "Anraphet's Regalia",
-      "Source": "Anraphet ",
+      "Source": "Anraphet",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -3290,7 +3290,7 @@
     },
     "57861": {
       "Name": "Helm of Setesh",
-      "Source": "Setesh ",
+      "Source": "Setesh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -3298,7 +3298,7 @@
     },
     "57862": {
       "Name": "Chaotic Wrappings",
-      "Source": "Setesh ",
+      "Source": "Setesh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -3306,7 +3306,7 @@
     },
     "57863": {
       "Name": "Hieroglyphic Vest",
-      "Source": "Setesh ",
+      "Source": "Setesh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -3314,7 +3314,7 @@
     },
     "57864": {
       "Name": "Helm of the Typhonic Beast",
-      "Source": "Setesh ",
+      "Source": "Setesh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -3322,7 +3322,7 @@
     },
     "57865": {
       "Name": "Scepter of Power",
-      "Source": "Setesh ",
+      "Source": "Setesh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -3330,7 +3330,7 @@
     },
     "57866": {
       "Name": "Mantle of Soft Shadows",
-      "Source": "Anraphet ",
+      "Source": "Anraphet",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3338,7 +3338,7 @@
     },
     "57867": {
       "Name": "Boots of Crumbling Ruin",
-      "Source": "Anraphet ",
+      "Source": "Anraphet",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3346,7 +3346,7 @@
     },
     "57868": {
       "Name": "Anraphet's Regalia",
-      "Source": "Anraphet ",
+      "Source": "Anraphet",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3354,7 +3354,7 @@
     },
     "57869": {
       "Name": "Omega Breastplate",
-      "Source": "Anraphet ",
+      "Source": "Anraphet",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3362,7 +3362,7 @@
     },
     "57870": {
       "Name": "Alpha Bracers",
-      "Source": "Anraphet ",
+      "Source": "Anraphet",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3370,7 +3370,7 @@
     },
     "57871": {
       "Name": "Helm of the Typhonic Beast",
-      "Source": "Setesh ",
+      "Source": "Setesh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3378,7 +3378,7 @@
     },
     "57872": {
       "Name": "Scepter of Power",
-      "Source": "Setesh ",
+      "Source": "Setesh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3386,7 +3386,7 @@
     },
     "57873": {
       "Name": "Helm of Setesh",
-      "Source": "Setesh ",
+      "Source": "Setesh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3394,7 +3394,7 @@
     },
     "57874": {
       "Name": "Hieroglyphic Vest",
-      "Source": "Setesh ",
+      "Source": "Setesh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3402,7 +3402,7 @@
     },
     "57875": {
       "Name": "Chaotic Wrappings",
-      "Source": "Setesh ",
+      "Source": "Setesh",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3410,7 +3410,7 @@
     },
     "63040": {
       "Name": "Reins of the Drake of the North Wind",
-      "Source": "Altairus ",
+      "Source": "Altairus",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Vortex Pinnacle (Normal)",
@@ -3418,7 +3418,7 @@
     },
     "63043": {
       "Name": "Reins of the Vitreous Stone Drake",
-      "Source": "Slabhide ",
+      "Source": "Slabhide",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Stonecore (Normal)",
@@ -3426,7 +3426,7 @@
     },
     "63433": {
       "Name": "Robes of Arugal",
-      "Source": "Baron Ashbury ",
+      "Source": "Baron Ashbury",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3434,7 +3434,7 @@
     },
     "63434": {
       "Name": "Gloves of the Greymane Wall",
-      "Source": "Baron Ashbury ",
+      "Source": "Baron Ashbury",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3442,7 +3442,7 @@
     },
     "63435": {
       "Name": "Boots of the Predator",
-      "Source": "Baron Ashbury ",
+      "Source": "Baron Ashbury",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3450,7 +3450,7 @@
     },
     "63436": {
       "Name": "Traitor's Grips",
-      "Source": "Baron Ashbury ",
+      "Source": "Baron Ashbury",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3458,7 +3458,7 @@
     },
     "63437": {
       "Name": "Baron Ashbury's Cuffs",
-      "Source": "Baron Ashbury ",
+      "Source": "Baron Ashbury",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3466,7 +3466,7 @@
     },
     "63438": {
       "Name": "Baroness Silverlaine's Locket",
-      "Source": "Baron Silverlaine ",
+      "Source": "Baron Silverlaine",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3474,7 +3474,7 @@
     },
     "63439": {
       "Name": "Gloves of the Uplifted Cup",
-      "Source": "Baron Silverlaine ",
+      "Source": "Baron Silverlaine",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3482,7 +3482,7 @@
     },
     "63440": {
       "Name": "Boots of Lingering Sorrow",
-      "Source": "Baron Silverlaine ",
+      "Source": "Baron Silverlaine",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3490,7 +3490,7 @@
     },
     "63441": {
       "Name": "Pendant of the Keep",
-      "Source": "Baron Silverlaine ",
+      "Source": "Baron Silverlaine",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3498,7 +3498,7 @@
     },
     "63444": {
       "Name": "Baron Silverlaine's Greaves",
-      "Source": "Baron Silverlaine ",
+      "Source": "Baron Silverlaine",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3506,7 +3506,7 @@
     },
     "63446": {
       "Name": "Haunting Footfalls",
-      "Source": "Commander Springvale ",
+      "Source": "Commander Springvale",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3514,7 +3514,7 @@
     },
     "63447": {
       "Name": "Breastplate of the Stilled Heart",
-      "Source": "Commander Springvale ",
+      "Source": "Commander Springvale",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3522,7 +3522,7 @@
     },
     "63448": {
       "Name": "Springvale's Cloak",
-      "Source": "Commander Springvale ",
+      "Source": "Commander Springvale",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3530,7 +3530,7 @@
     },
     "63449": {
       "Name": "Thieving Spaulders",
-      "Source": "Commander Springvale ",
+      "Source": "Commander Springvale",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3538,7 +3538,7 @@
     },
     "63450": {
       "Name": "Phantom Armor",
-      "Source": "Lord Walden ",
+      "Source": "Lord Walden",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3546,7 +3546,7 @@
     },
     "63452": {
       "Name": "Burden of Lost Humanity",
-      "Source": "Lord Walden ",
+      "Source": "Lord Walden",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3554,7 +3554,7 @@
     },
     "63453": {
       "Name": "Iron Will Girdle",
-      "Source": "Lord Walden ",
+      "Source": "Lord Walden",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3562,7 +3562,7 @@
     },
     "63454": {
       "Name": "Double Dealing Bracers",
-      "Source": "Lord Walden ",
+      "Source": "Lord Walden",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3570,7 +3570,7 @@
     },
     "63456": {
       "Name": "Meteor Shard",
-      "Source": "Lord Godfrey ",
+      "Source": "Lord Godfrey",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3578,7 +3578,7 @@
     },
     "63457": {
       "Name": "Shackles of Undeath",
-      "Source": "Lord Godfrey ",
+      "Source": "Lord Godfrey",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3586,7 +3586,7 @@
     },
     "63458": {
       "Name": "Lord Walden's Breastplate",
-      "Source": "Lord Godfrey ",
+      "Source": "Lord Godfrey",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3594,7 +3594,7 @@
     },
     "63459": {
       "Name": "Worgen Hunter's Helm",
-      "Source": "Lord Godfrey ",
+      "Source": "Lord Godfrey",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3602,7 +3602,7 @@
     },
     "63460": {
       "Name": "Relic of Arathor",
-      "Source": "Lord Godfrey ",
+      "Source": "Lord Godfrey",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3610,7 +3610,7 @@
     },
     "63462": {
       "Name": "Helm of Untold Stories",
-      "Source": "Lord Godfrey ",
+      "Source": "Lord Godfrey",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3618,7 +3618,7 @@
     },
     "63463": {
       "Name": "Mantle of the Eastern Lords",
-      "Source": "Lord Godfrey ",
+      "Source": "Lord Godfrey",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3626,7 +3626,7 @@
     },
     "63464": {
       "Name": "Greaves of the Misguided",
-      "Source": "Lord Godfrey ",
+      "Source": "Lord Godfrey",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3634,7 +3634,7 @@
     },
     "63465": {
       "Name": "Mantle of Loss",
-      "Source": "Lord Godfrey ",
+      "Source": "Lord Godfrey",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Shadowfang Keep (Heroic)",
@@ -3642,7 +3642,7 @@
     },
     "63467": {
       "Name": "Shadow of the Past",
-      "Source": "Glubtok ",
+      "Source": "Glubtok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3650,7 +3650,7 @@
     },
     "63468": {
       "Name": "Defias Brotherhood Vest",
-      "Source": "Glubtok ",
+      "Source": "Glubtok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3658,7 +3658,7 @@
     },
     "63470": {
       "Name": "Missing Diplomat's Pauldrons",
-      "Source": "Glubtok ",
+      "Source": "Glubtok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3666,7 +3666,7 @@
     },
     "63471": {
       "Name": "Vest of the Curious Visitor",
-      "Source": "Glubtok ",
+      "Source": "Glubtok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3674,7 +3674,7 @@
     },
     "63473": {
       "Name": "Cloak of Thredd",
-      "Source": "Helix Gearbreaker ",
+      "Source": "Helix Gearbreaker",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3682,7 +3682,7 @@
     },
     "63474": {
       "Name": "Gear-Marked Gauntlets",
-      "Source": "Helix Gearbreaker ",
+      "Source": "Helix Gearbreaker",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3690,7 +3690,7 @@
     },
     "63475": {
       "Name": "Old Friend's Gloves",
-      "Source": "Helix Gearbreaker ",
+      "Source": "Helix Gearbreaker",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3698,7 +3698,7 @@
     },
     "63476": {
       "Name": "Gearbreaker's Bindings",
-      "Source": "Helix Gearbreaker ",
+      "Source": "Helix Gearbreaker",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3706,7 +3706,7 @@
     },
     "63478": {
       "Name": "Stonemason's Helm",
-      "Source": "Vanessa VanCleef ",
+      "Source": "Vanessa VanCleef",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3714,7 +3714,7 @@
     },
     "63479": {
       "Name": "Bracers of Some Consequence",
-      "Source": "Vanessa VanCleef ",
+      "Source": "Vanessa VanCleef",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3722,7 +3722,7 @@
     },
     "63480": {
       "Name": "Record of the Brotherhood's End",
-      "Source": "Vanessa VanCleef ",
+      "Source": "Vanessa VanCleef",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3730,7 +3730,7 @@
     },
     "63482": {
       "Name": "Daughter's Hands",
-      "Source": "Vanessa VanCleef ",
+      "Source": "Vanessa VanCleef",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3738,7 +3738,7 @@
     },
     "63483": {
       "Name": "Guildmaster's Greaves",
-      "Source": "Vanessa VanCleef ",
+      "Source": "Vanessa VanCleef",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3746,7 +3746,7 @@
     },
     "63484": {
       "Name": "Armbands of Exiled Architects",
-      "Source": "Vanessa VanCleef ",
+      "Source": "Vanessa VanCleef",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3754,7 +3754,7 @@
     },
     "63485": {
       "Name": "Cowl of Rebellion",
-      "Source": "Vanessa VanCleef ",
+      "Source": "Vanessa VanCleef",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3762,7 +3762,7 @@
     },
     "63486": {
       "Name": "Shackles of the Betrayed",
-      "Source": "Vanessa VanCleef ",
+      "Source": "Vanessa VanCleef",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3770,7 +3770,7 @@
     },
     "63487": {
       "Name": "Book of the Well Sung Song",
-      "Source": "Vanessa VanCleef ",
+      "Source": "Vanessa VanCleef",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3778,7 +3778,7 @@
     },
     "65163": {
       "Name": "Buzzer Blade",
-      "Source": "Glubtok ",
+      "Source": "Glubtok",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3786,7 +3786,7 @@
     },
     "65164": {
       "Name": "Cruel Barb",
-      "Source": "Helix Gearbreaker  & Foe Reaper 5000 ",
+      "Source": "Helix Gearbreaker & Foe Reaper 5000",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3794,7 +3794,7 @@
     },
     "65165": {
       "Name": "Foe Reaper",
-      "Source": "Foe Reaper 5000 ",
+      "Source": "Foe Reaper 5000",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3802,7 +3802,7 @@
     },
     "65167": {
       "Name": "Emberstone Staff",
-      "Source": "Foe Reaper 5000 ",
+      "Source": "Foe Reaper 5000",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3810,7 +3810,7 @@
     },
     "65168": {
       "Name": "Rockslicer",
-      "Source": "Admiral Ripsnarl ",
+      "Source": "Admiral Ripsnarl",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3818,7 +3818,7 @@
     },
     "65169": {
       "Name": "Lavishly Jeweled Ring",
-      "Source": "Admiral Ripsnarl ",
+      "Source": "Admiral Ripsnarl",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3826,7 +3826,7 @@
     },
     "65170": {
       "Name": "Smite's Reaver",
-      "Source": "Admiral Ripsnarl ",
+      "Source": "Admiral Ripsnarl",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3834,7 +3834,7 @@
     },
     "65171": {
       "Name": "Cookie's Tenderizer",
-      "Source": "\"Captain\" Cookie ",
+      "Source": "\"Captain\" Cookie",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3842,7 +3842,7 @@
     },
     "65172": {
       "Name": "Cookie's Stirring Rod",
-      "Source": "\"Captain\" Cookie ",
+      "Source": "\"Captain\" Cookie",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3850,7 +3850,7 @@
     },
     "65173": {
       "Name": "Thief's Blade",
-      "Source": "\"Captain\" Cookie ",
+      "Source": "\"Captain\" Cookie",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3858,7 +3858,7 @@
     },
     "65174": {
       "Name": "Corsair's Overshirt",
-      "Source": "\"Captain\" Cookie ",
+      "Source": "\"Captain\" Cookie",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3866,7 +3866,7 @@
     },
     "65177": {
       "Name": "Cape of the Brotherhood",
-      "Source": "\"Captain\" Cookie ",
+      "Source": "\"Captain\" Cookie",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
@@ -3874,7 +3874,7 @@
     },
     "65178": {
       "Name": "VanCleef's Boots",
-      "Source": "Vanessa VanCleef ",
+      "Source": "Vanessa VanCleef",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
