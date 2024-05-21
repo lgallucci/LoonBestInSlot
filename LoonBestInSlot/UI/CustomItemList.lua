@@ -33,20 +33,6 @@ local function slotSortFunction(table, k1, k2)
     return item1Score > item2Score
 end
 
-local alSources = {};
-alSources["honor"] = LBIS.L["Honor Points"];
-alSources["honorA"] = LBIS.L["Honor Points"];
-alSources["honorH"] = LBIS.L["Honor Points"];
-alSources["BoJ"] = LBIS.L["Badges of Justice"];
-alSources["SpiritShard"] = LBIS.L["Spirit Shards"];
-alSources["pvpArathi"] = LBIS.L["Arathi Basin Marks"];
-alSources["pvpWarsong"] = LBIS.L["Warsong Gulch Marks"];
-alSources["pvpAlterac"] = LBIS.L["Alterac Vally Marks"];
-alSources["pvpEye"] = LBIS.L["Eye of the Storm Marks"];
-alSources["arena"] = LBIS.L["Arena Points"];
-alSources["EmblemOfValor"] = LBIS.L["Emblem of Valor"];
-alSources["EmblemOfHeroism"] = LBIS.L["Emblem of Heroism"];
-
 local function printSource(itemId, specItemSource, dl)
 
     local text = "";

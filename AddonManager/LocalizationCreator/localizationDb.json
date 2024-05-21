@@ -403,7 +403,10 @@
       "Icecrown Citadel (10H)": "Ciudadela de la Corona de Hielo (10H)",
       "Icecrown Citadel (25H)": "Ciudadela de la Corona de Hielo (25H)",
       "Icecrown Gunship Battle": "Batalla aérea ",
-      "Halls of Reflection (Heroic)": "Cámaras de Reflexión (Heroico)"
+      "Halls of Reflection (Heroic)": "Cámaras de Reflexión (Heroico)",
+      "Blackwing Descent": "Descenso de Alanegra",
+      "The Bastion of Twilight": "El Bastión del Crepúsculo",
+      "Throne of the Four Winds": "Trono de los Cuatro Vientos"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -782,7 +785,10 @@
       "Brewfest": "Fiesta de la Cerveza",
       "Hallow's End": "Halloween",
       "Icecrown Gunship Battle": "Batalla de las Aeronaves de Corona de Hielo",
-      "Halls of Reflection (Heroic)": "Cámaras de Reflexión (Heroico)"
+      "Halls of Reflection (Heroic)": "Cámaras de Reflexión (Heroico)",
+      "Blackwing Descent": "Descenso de Alanegra",
+      "The Bastion of Twilight": "El Bastión del Crepúsculo",
+      "Throne of the Four Winds": "Trono de los Cuatro Vientos"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -1237,7 +1243,10 @@
       "The Cleansing Of Jintha'kalar": "Die Säuberung von Jintha'kalar",
       "Hallow's End": "Schlotternächte",
       "Icecrown Gunship Battle": "Luftschiffkampf um die Eiskronenzitadelle",
-      "Halls of Reflection (Heroic)": "Hallen der Reflexion (Heroisch)"
+      "Halls of Reflection (Heroic)": "Hallen der Reflexion (Heroisch)",
+      "Blackwing Descent": "Der Pechschwingenabstieg",
+      "The Bastion of Twilight": "Die Bastion des Zwielichts",
+      "Throne of the Four Winds": "Thron der Vier Winde"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -1626,7 +1635,10 @@
       "Token": "Marque d’ensemble",
       "Argent Crusade Tribute Chest": "Coffre d'offrande de la Croisade d'argent",
       "Icecrown Gunship Battle": "Bataille des canonnières",
-      "Halls of Reflection (Heroic)": "Salles des Reflets (Héroïque)"
+      "Halls of Reflection (Heroic)": "Salles des Reflets (Héroïque)",
+      "Blackwing Descent": "Descente de l’Aile noire",
+      "The Bastion of Twilight": "Le bastion du Crépuscule",
+      "Throne of the Four Winds": "Trône des quatre vents"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -2011,7 +2023,10 @@
       "Token": "Фрагмент",
       "Argent Crusade Tribute Chest": "Испытания Крестоносца поход за сундуком",
       "Icecrown Gunship Battle": "Бой на кораблях",
-      "Halls of Reflection (Heroic)": "Залы Отражений (Героический)"
+      "Halls of Reflection (Heroic)": "Залы Отражений (Героический)",
+      "Blackwing Descent": "Твердыня Крыла Тьмы",
+      "The Bastion of Twilight": "Сумеречный бастион",
+      "Throne of the Four Winds": "Трон Четырех Ветров"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -2396,7 +2411,10 @@
       "Token": "代币",
       "Argent Crusade Tribute Chest": "银色北伐军嘉奖宝箱",
       "Icecrown Gunship Battle": "冰冠炮舰战斗",
-      "Halls of Reflection (Heroic)": "映像大厅 (英雄)"
+      "Halls of Reflection (Heroic)": "映像大厅 (英雄)",
+      "Blackwing Descent": "黑翼血环",
+      "The Bastion of Twilight": "暮光堡垒",
+      "Throne of the Four Winds": "风神王座"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -2875,7 +2893,10 @@
       "Emblem of Triumph": "승전의 문장",
       "Argent Crusade Tribute Chest": "십자군의 시험장 공물",
       "Icecrown Gunship Battle": "얼음왕관 비행포격선 전투",
-      "Halls of Reflection (Heroic)": "투영의 전당 (영웅)"
+      "Halls of Reflection (Heroic)": "투영의 전당 (영웅)",
+      "Blackwing Descent": "검은날개 강림지",
+      "The Bastion of Twilight": "황혼의 요새",
+      "Throne of the Four Winds": "네 바람의 왕좌"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -3259,7 +3280,10 @@
       "Token": "代幣",
       "Argent Crusade Tribute Chest": "銀白十字軍獻禮箱",
       "Icecrown Gunship Battle": "冰冠城塞砲艇戰",
-      "Halls of Reflection (Heroic)": "倒影大廳 (英雄模式)"
+      "Halls of Reflection (Heroic)": "倒影大廳 (英雄模式)",
+      "Blackwing Descent": "黑翼陷窟",
+      "The Bastion of Twilight": "暮光堡壘",
+      "Throne of the Four Winds": "四風王座"
     }
   }
 }
