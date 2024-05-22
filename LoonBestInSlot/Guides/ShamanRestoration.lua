@@ -23,7 +23,7 @@ LBIS:AddEnchant(spec0, "74132", LBIS.L["Hands"]) --Enchant Gloves - Mastery
 LBIS:AddEnchant(spec0, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec0, "55641", LBIS.L["Hands"]) --Socket Gloves
 LBIS:AddEnchant(spec0, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
-LBIS:AddEnchant(spec0, "41118", LBIS.L["Waist"]) --Nitro Boosts
+LBIS:AddEnchant(spec0, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec0, "75150", LBIS.L["Legs"]) --Powerful Ghostly Spellthread
 LBIS:AddEnchant(spec0, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
 LBIS:AddEnchant(spec0, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect

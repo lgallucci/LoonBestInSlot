@@ -64,6 +64,9 @@ public class WowheadGuideParser
         { 68784, 96264 }, //Enchant Bracer - Agility
         { 68786, 96262 }, //Enchant Bracer - Mighty Intellect
         { 71720, 101598 }, //Drakehide Leg Armor
+        { 59594, 81932 }, //Gnomish X-Ray Scope
+        { 41111, 55002 }, //Flexweave Underlay
+        { 41118, 55016 }, //Nitro Boosts
      };
 
     private Dictionary<int, string> _itemSwaps = new Dictionary<int, string>()

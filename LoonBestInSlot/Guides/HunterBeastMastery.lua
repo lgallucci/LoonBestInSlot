@@ -17,7 +17,7 @@ LBIS:AddEnchant(spec0, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agilit
 LBIS:AddEnchant(spec0, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
 LBIS:AddEnchant(spec0, "74252", LBIS.L["Feet"]) --Enchant Boots - Assassin's Step
 LBIS:AddEnchant(spec0, "95471", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Mighty Agility
-LBIS:AddEnchant(spec0, "59594", LBIS.L["Ranged/Relic"]) --Gnomish X-Ray Scope
+LBIS:AddEnchant(spec0, "81932", LBIS.L["Ranged/Relic"]) --Gnomish X-Ray Scope
 
 LBIS:AddItem(spec0, "59456", LBIS.L["Head"], "BIS") --Deadly Bio-Optic Killshades
 LBIS:AddItem(spec0, "62429", LBIS.L["Head"], "BIS") --Windhome Helm

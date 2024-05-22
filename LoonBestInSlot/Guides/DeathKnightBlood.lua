@@ -12,7 +12,7 @@ LBIS:AddEnchant(spec0, "86931", LBIS.L["Head"]) --Arcanum of the Earthen Ring
 LBIS:AddEnchant(spec0, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
 LBIS:AddEnchant(spec0, "74247", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
 LBIS:AddEnchant(spec0, "44590", LBIS.L["Back"]) --Enchant Cloak - Superior Shadow Resistance
-LBIS:AddEnchant(spec0, "41111", LBIS.L["Back"]) --Flexweave Underlay
+LBIS:AddEnchant(spec0, "55002", LBIS.L["Back"]) --Flexweave Underlay
 LBIS:AddEnchant(spec0, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
 LBIS:AddEnchant(spec0, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamina
 LBIS:AddEnchant(spec0, "85007", LBIS.L["Wrist"]) --Draconic Embossment - Stamina

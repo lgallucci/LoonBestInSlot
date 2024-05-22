@@ -22,7 +22,7 @@ LBIS:AddEnchant(spec0, "74220", LBIS.L["Hands"]) --Enchant Gloves - Greater Expe
 LBIS:AddEnchant(spec0, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec0, "55641", LBIS.L["Hands"]) --Socket Gloves
 LBIS:AddEnchant(spec0, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
-LBIS:AddEnchant(spec0, "41118", LBIS.L["Waist"]) --Nitro Boosts
+LBIS:AddEnchant(spec0, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec0, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
 LBIS:AddEnchant(spec0, "74213", LBIS.L["Feet"]) --Enchant Boots - Major Agility
 LBIS:AddEnchant(spec0, "74216", LBIS.L["Ring"]) --Enchant Ring - Agility
