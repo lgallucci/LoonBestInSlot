@@ -66,7 +66,7 @@ end
 local failedLoad = false;
 local window_cache = {};
 
-function LBIS:InitializeUI()    
+function LBIS:InitializeUI()
     for specId, spec in pairs(LBIS.ClassSpec) do
         if strlen(spec.Spec) > 0 then
             window_cache[spec.Class..": "..spec.Spec] = {};
@@ -78,7 +78,7 @@ function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, frameName, p
     local window = LBIS.BrowserWindow.Window;
     local spacing = 1;
     local reusing = false;
-    
+
     local f = nil;
     if(next(window_cache[LBISSettings.SelectedSpec]) ~= nil) then
 		for i=1, #window_cache[LBISSettings.SelectedSpec] do			
@@ -89,7 +89,7 @@ function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, frameName, p
             end
         end
     end
-    
+
     if not reusing then        
         f = CreateFrame("Frame", frameName, window.Container);
 
@@ -286,7 +286,7 @@ local function createDropDowns(window)
         ['name']='phase',
         ['parent']=window,
         ['title']='Phase:',
-        ['items']= { LBIS.L["All"], LBIS.L["PrePatch"]},-- "BIS" },
+        ['items']= { LBIS.L["All"], LBIS.L["PreRaid"]}, --, LBIS.L["BIS"] },
         ['defaultVal']=LBISSettings.SelectedPhase,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedPhase = dropdown_val;

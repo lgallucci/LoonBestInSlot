@@ -1079,22 +1079,6 @@
       "SourceNumber": "0",
       "SourceLocation": "",
       "SourceFaction": "A"
-    },
-    "90897": {
-      "Name": "Fox Kit",
-      "Source": "Baradin's Wardens",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "A"
-    },
-    "90898": {
-      "Name": "Fox Kit",
-      "Source": "Hellscream's Reach",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "H"
     }
   }
 }

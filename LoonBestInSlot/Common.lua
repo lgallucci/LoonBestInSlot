@@ -1,4 +1,4 @@
-LBIS.ReCacheDate = time({year=2024, month=05, day=01, hour=00})
+LBIS.ReCacheDate = time({year=2024, month=05, day=22, hour=00})
 LBIS.SpellCache = {};
 
 function LBIS:PreCacheItems()

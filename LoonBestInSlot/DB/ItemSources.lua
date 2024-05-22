@@ -1495,6 +1495,4 @@ LBIS.ItemSources =
     [75076] = { Name = "Vicious Fur Cloak", SourceType = LBIS.L["Profession"], Source = LBIS.L["Leatherworking (500)"], SourceNumber = "0", SourceLocation = "99536", SourceFaction = "B" },
     [75077] = { Name = "Vicious Hide Cloak", SourceType = LBIS.L["Profession"], Source = LBIS.L["Leatherworking (500)"], SourceNumber = "0", SourceLocation = "99535", SourceFaction = "B" },
     [75079] = { Name = "Vicious Charm of Triumph", SourceType = LBIS.L["Profession"], Source = LBIS.L["Inscription (510)"], SourceNumber = "0", SourceLocation = "99547", SourceFaction = "B" },
-    [90897] = { Name = "Fox Kit", SourceType = LBIS.L["Reputation"], Source = LBIS.L["Baradin's Wardens"], SourceNumber = "0", SourceLocation = LBIS.L["Exalted"], SourceFaction = "A" },
-    [90898] = { Name = "Fox Kit", SourceType = LBIS.L["Reputation"], Source = LBIS.L["Hellscream's Reach"], SourceNumber = "0", SourceLocation = LBIS.L["Exalted"], SourceFaction = "H" },
 }

@@ -130,7 +130,7 @@ local function IsInPhase(specItem, specItemSource)
         return false;
     elseif strfind(specItem.Bis, LBIS.L["Transmute"]) ~= nil then
         return false;
-    elseif LBISSettings.SelectedPhase == LBIS.L["All"] and specItem.Phase ~= "0" then
+    elseif LBISSettings.SelectedPhase == LBIS.L["All"] then --  and specItem.Phase ~= "0" then
         return true;
     elseif LBISSettings.SelectedPhase == LBIS.L["PrePatch"] and LBIS:FindInPhase(specItem.Phase, "99") then
         return true;
