@@ -1528,12 +1528,220 @@
       "SourceLocation": "84429",
       "SourceFaction": "B"
     },
+    "61981": {
+      "Name": "Inferno Ink",
+      "Source": "Inscription (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86005",
+      "SourceFaction": "B"
+    },
+    "61987": {
+      "Name": "Darkmoon Card of Destruction",
+      "Source": "Inscription (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86615",
+      "SourceFaction": "B"
+    },
+    "62056": {
+      "Name": "AllianceForged Documents",
+      "Source": "Inscription (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "89244",
+      "SourceFaction": "A"
+    },
+    "62231": {
+      "Name": "Book of Blood",
+      "Source": "Inscription (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86616",
+      "SourceFaction": "B"
+    },
+    "62233": {
+      "Name": "Lord Rottington's Pressed Wisp Book",
+      "Source": "Inscription (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86640",
+      "SourceFaction": "B"
+    },
+    "62234": {
+      "Name": "Dungeoneering Guide",
+      "Source": "Inscription (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86641",
+      "SourceFaction": "B"
+    },
+    "62235": {
+      "Name": "Divine Companion",
+      "Source": "Inscription (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86642",
+      "SourceFaction": "B"
+    },
+    "62236": {
+      "Name": "Battle Tome",
+      "Source": "Inscription (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86643",
+      "SourceFaction": "B"
+    },
+    "62237": {
+      "Name": "Adventurer's Journal",
+      "Source": "Inscription (460)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "89367",
+      "SourceFaction": "B"
+    },
+    "62238": {
+      "Name": "Origami Rock",
+      "Source": "Inscription (490)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86645",
+      "SourceFaction": "B"
+    },
+    "62239": {
+      "Name": "Origami Slime",
+      "Source": "Inscription (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86644",
+      "SourceFaction": "B"
+    },
+    "62240": {
+      "Name": "Etched Horn",
+      "Source": "Inscription (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86647",
+      "SourceFaction": "B"
+    },
+    "62241": {
+      "Name": "Manual of the Planes",
+      "Source": "Inscription (480)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86648",
+      "SourceFaction": "B"
+    },
+    "62242": {
+      "Name": "Runed Dragonscale",
+      "Source": "Inscription (505)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86649",
+      "SourceFaction": "B"
+    },
+    "62243": {
+      "Name": "Notched Jawbone",
+      "Source": "Inscription (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86650",
+      "SourceFaction": "B"
+    },
+    "62244": {
+      "Name": "Tattooed Eyeball",
+      "Source": "Inscription (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86652",
+      "SourceFaction": "B"
+    },
+    "62245": {
+      "Name": "Silver Inlaid Leaf",
+      "Source": "Inscription (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86653",
+      "SourceFaction": "B"
+    },
+    "62251": {
+      "Name": "Runescroll of Fortitude II",
+      "Source": "Inscription (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "85785",
+      "SourceFaction": "B"
+    },
+    "63246": {
+      "Name": "Origami Beetle",
+      "Source": "Inscription (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86646",
+      "SourceFaction": "B"
+    },
+    "63276": {
+      "Name": "HordeForged Documents",
+      "Source": "Inscription (500)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "86654",
+      "SourceFaction": "H"
+    },
+    "63303": {
+      "Name": "Scroll of Agility IX",
+      "Source": "Inscription (470)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "89370",
+      "SourceFaction": "B"
+    },
+    "63304": {
+      "Name": "Scroll of Strength IX",
+      "Source": "Inscription (465)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "89369",
+      "SourceFaction": "B"
+    },
+    "63306": {
+      "Name": "Scroll of Stamina IX",
+      "Source": "Inscription (460)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "89372",
+      "SourceFaction": "B"
+    },
+    "63307": {
+      "Name": "Scroll of Spirit IX",
+      "Source": "Inscription (455)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "89371",
+      "SourceFaction": "B"
+    },
+    "63388": {
+      "Name": "Dust of Disappearance",
+      "Source": "Inscription (475)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "92027",
+      "SourceFaction": "B"
+    },
     "63396": {
       "Name": "Big Daddy",
       "Source": "Engineering (500)",
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "95707",
+      "SourceFaction": "B"
+    },
+    "63481": {
+      "Name": "Glyph of Colossus Smash",
+      "Source": "Inscription (465)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "89815",
       "SourceFaction": "B"
     },
     "65358": {
@@ -1976,6 +2184,22 @@
       "SourceLocation": "99537",
       "SourceFaction": "B"
     },
+    "75066": {
+      "Name": "Vicious Eyeball of Dominance",
+      "Source": "Inscription (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99548",
+      "SourceFaction": "B"
+    },
+    "75069": {
+      "Name": "Vicious Jawbone of Conquest",
+      "Source": "Inscription (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99549",
+      "SourceFaction": "B"
+    },
     "75076": {
       "Name": "Vicious Fur Cloak",
       "Source": "Leatherworking (500)",
@@ -1990,6 +2214,14 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "99535",
+      "SourceFaction": "B"
+    },
+    "75079": {
+      "Name": "Vicious Charm of Triumph",
+      "Source": "Inscription (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99547",
       "SourceFaction": "B"
     }
   }

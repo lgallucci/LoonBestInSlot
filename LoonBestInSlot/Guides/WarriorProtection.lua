@@ -8,18 +8,18 @@ LBIS:AddGem(spec0, "52231", "3", "False") --Puissant Dream Emerald
 LBIS:AddGem(spec0, "52242", "3", "False") --Solid Ocean Sapphire
 LBIS:AddGem(spec0, "52210", "3", "False") --Defender's Demonseye
 
-LBIS:AddEnchant(spec0, "62366", LBIS.L["Head"]) --Arcanum of the Earthen Ring
+LBIS:AddEnchant(spec0, "86931", LBIS.L["Head"]) --Arcanum of the Earthen Ring
 LBIS:AddEnchant(spec0, "74234", LBIS.L["Back"]) --Enchant Cloak - Protection
 LBIS:AddEnchant(spec0, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
 LBIS:AddEnchant(spec0, "85007", LBIS.L["Wrist"]) --Draconic Embossment - Stamina
 LBIS:AddEnchant(spec0, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamina
 LBIS:AddEnchant(spec0, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
-LBIS:AddEnchant(spec0, "55054", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
-LBIS:AddEnchant(spec0, "71720", LBIS.L["Legs"]) --Drakehide Leg Armor
+LBIS:AddEnchant(spec0, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
+LBIS:AddEnchant(spec0, "101598", LBIS.L["Legs"]) --Drakehide Leg Armor
 LBIS:AddEnchant(spec0, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
 LBIS:AddEnchant(spec0, "74244", LBIS.L["Main Hand"]) --Enchant Weapon - Windwalk
 LBIS:AddEnchant(spec0, "74226", LBIS.L["Off Hand"]) --Enchant Shield - Mastery
-LBIS:AddEnchant(spec0, "59595", LBIS.L["Ranged/Relic"]) --R19 Threatfinder
+LBIS:AddEnchant(spec0, "81933", LBIS.L["Ranged/Relic"]) --R19 Threatfinder
 
 LBIS:AddItem(spec0, "59359", LBIS.L["Head"], "BIS") --Reinforced Bio-Optic Killshades
 LBIS:AddItem(spec0, "58103", LBIS.L["Head"], "Alt") --Helm of the Proud

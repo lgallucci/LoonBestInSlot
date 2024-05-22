@@ -4,7 +4,6 @@ local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "1")
 LBIS:AddGem(spec0, "59478", "3", "False") --Smooth Cogwheel
 LBIS:AddGem(spec0, "59489", "3", "False") --Precise Cogwheel
 LBIS:AddGem(spec0, "68778", "3", "True") --Agile Shadowspirit Diamond
-LBIS:AddGem(spec0, "32206", "4", "False") --Rigid Empyrean Sapphire
 LBIS:AddGem(spec0, "52220", "3", "False") --Glinting Demonseye
 LBIS:AddGem(spec0, "52212", "3", "False") --Delicate Inferno Ruby
 

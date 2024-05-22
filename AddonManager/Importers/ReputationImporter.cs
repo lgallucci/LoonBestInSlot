@@ -13,10 +13,10 @@ public class ReputationImporter : LootImporter
         { @"https://www.wowhead.com/cata/npc=45408/dlom-the-collector", "Therazane, B" },
         { @"https://www.wowhead.com/cata/npc=48617/blacksmith-abasi", "Ramkahen, B" },
         { @"https://www.wowhead.com/cata/npc=50324/provisioner-arok", "The Earthen Ring, B" },
-        { @"https://www.wowhead.com/cata/npc=49386/craw-macgraw", "The Wildhammer Clan, A" },
-        { @"https://www.wowhead.com/cata/npc=49387/grot-deathblow", "The Dragonmaw Clan, H" },
-        { @"https://www.wowhead.com/cata/npc=47328/quartermaster-brazie", "Baradin's Wardens, A" },
-        { @"https://www.wowhead.com/cata/npc=48531/pogg", "Hellscream's Reach, H" },
+        { @"https://www.wowhead.com/npc=49386/craw-macgraw", "The Wildhammer Clan, A" },
+        { @"https://www.wowhead.com/npc=49387/grot-deathblow", "The Dragonmaw Clan, H" },
+        { @"https://www.wowhead.com/npc=47328/quartermaster-brazie", "Baradin's Wardens, A" },
+        { @"https://www.wowhead.com/npc=48531/pogg", "Hellscream's Reach, H" },
     };
 
     internal override string FileName { get => "ReputationItemList"; }

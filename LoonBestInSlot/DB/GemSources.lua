@@ -12,6 +12,7 @@ LBIS.GemSources =
     [52217] = { Name = "Veiled Demonseye", DesignId = "52408", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52219] = { Name = "Fractured Amberjewel", DesignId = "52398", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52220] = { Name = "Glinting Demonseye", DesignId = "52406", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
+    [52221] = { Name = "Guardian's Demonseye", DesignId = "52403", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52224] = { Name = "Keen Ember Topaz", DesignId = "52422", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52231] = { Name = "Puissant Dream Emerald", DesignId = "52430", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52233] = { Name = "Regal Dream Emerald", DesignId = "52423", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },

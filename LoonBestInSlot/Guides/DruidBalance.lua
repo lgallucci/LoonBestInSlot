@@ -7,8 +7,8 @@ LBIS:AddGem(spec0, "59496", "3", "False") --Sparkling Cogwheel
 LBIS:AddGem(spec0, "52208", "3", "False") --Reckless Ember Topaz
 LBIS:AddGem(spec0, "52207", "3", "False") --Brilliant Inferno Ruby
 
-LBIS:AddEnchant(spec0, "62367", LBIS.L["Head"]) --Arcanum of Hyjal
-LBIS:AddEnchant(spec0, "62343", LBIS.L["Shoulder"]) --Greater Inscription of Charged Lodestone
+LBIS:AddEnchant(spec0, "86932", LBIS.L["Head"]) --Arcanum of Hyjal
+LBIS:AddEnchant(spec0, "86899", LBIS.L["Shoulder"]) --Greater Inscription of Charged Lodestone
 LBIS:AddEnchant(spec0, "74240", LBIS.L["Back"]) --Enchant Cloak - Greater Intellect
 LBIS:AddEnchant(spec0, "75172", LBIS.L["Back"]) --Lightweave Embroidery
 LBIS:AddEnchant(spec0, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
@@ -16,7 +16,7 @@ LBIS:AddEnchant(spec0, "96262", LBIS.L["Wrist"]) --Enchant Bracer - Mighty Intel
 LBIS:AddEnchant(spec0, "85010", LBIS.L["Wrist"]) --Draconic Embossment - Intellect
 LBIS:AddEnchant(spec0, "74198", LBIS.L["Hands"]) --Enchant Gloves - Haste
 LBIS:AddEnchant(spec0, "82175", LBIS.L["Hands"]) --Synapse Springs
-LBIS:AddEnchant(spec0, "54450", LBIS.L["Legs"]) --Powerful Ghostly Spellthread
+LBIS:AddEnchant(spec0, "75150", LBIS.L["Legs"]) --Powerful Ghostly Spellthread
 LBIS:AddEnchant(spec0, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
 LBIS:AddEnchant(spec0, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect
 LBIS:AddEnchant(spec0, "74242", LBIS.L["Main Hand"]) --Enchant Weapon - Power Torrent
@@ -62,7 +62,8 @@ LBIS:AddItem(spec0, "62047", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Volcano
 LBIS:AddItem(spec0, "56320", LBIS.L["Trinket"], "BIS") --Witching Hourglass
 LBIS:AddItem(spec0, "56462", LBIS.L["Trinket"], "Alt") --Gale of Shadows
 LBIS:AddItem(spec0, "64645", LBIS.L["Trinket"], "Alt") --Tyrande's Favorite Doll
-LBIS:AddItem(spec0, "68710", LBIS.L["Trinket"], "Alt") --Stump of Time
+LBIS:AddItem(spec0, "62465", LBIS.L["Trinket"], "Alt") --Stump of Time
+LBIS:AddItem(spec0, "62470", LBIS.L["Trinket"], "Alt") --Stump of Time
 LBIS:AddItem(spec0, "56339", LBIS.L["Trinket"], "Alt") --Tendrils of Burrowing Dark
 LBIS:AddItem(spec0, "56407", LBIS.L["Trinket"], "Alt") --Anhuur's Hymnal
 LBIS:AddItem(spec0, "57872", LBIS.L["Main Hand"], "Alt") --Scepter of Power

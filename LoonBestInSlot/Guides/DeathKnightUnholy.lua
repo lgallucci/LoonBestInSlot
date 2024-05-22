@@ -7,17 +7,16 @@ LBIS:AddGem(spec0, "59478", "3", "False") --Smooth Cogwheel
 LBIS:AddGem(spec0, "52243", "3", "False") --Sovereign Demonseye
 LBIS:AddGem(spec0, "52206", "3", "False") --Bold Inferno Ruby
 
-LBIS:AddEnchant(spec0, "62368", LBIS.L["Head"]) --Arcanum of the Dragonmaw
-LBIS:AddEnchant(spec0, "62422", LBIS.L["Head"]) --Arcanum of the Wildhammer
-LBIS:AddEnchant(spec0, "62345", LBIS.L["Shoulder"]) --Greater Inscription of Jagged Stone
+LBIS:AddEnchant(spec0, "86933", LBIS.L["Head"]) --Arcanum of the Dragonmaw
+LBIS:AddEnchant(spec0, "86901", LBIS.L["Shoulder"]) --Greater Inscription of Jagged Stone
 LBIS:AddEnchant(spec0, "74247", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
 LBIS:AddEnchant(spec0, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
 LBIS:AddEnchant(spec0, "96261", LBIS.L["Wrist"]) --Enchant Bracer - Major Strength
 LBIS:AddEnchant(spec0, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec0, "74254", LBIS.L["Hands"]) --Enchant Gloves - Mighty Strength
-LBIS:AddEnchant(spec0, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec0, "55054", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
-LBIS:AddEnchant(spec0, "56550", LBIS.L["Legs"]) --Dragonscale Leg Armor
+LBIS:AddEnchant(spec0, "41118", LBIS.L["Waist"]) --Nitro Boosts
+LBIS:AddEnchant(spec0, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
+LBIS:AddEnchant(spec0, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
 LBIS:AddEnchant(spec0, "74199", LBIS.L["Feet"]) --Enchant Boots - Haste
 LBIS:AddEnchant(spec0, "74215", LBIS.L["Ring"]) --Enchant Ring - Strength
 LBIS:AddEnchant(spec0, "53344", LBIS.L["Two Hand"]) --Rune of the Fallen Crusader
@@ -61,7 +60,8 @@ LBIS:AddItem(spec0, "56299", LBIS.L["Ring"], "Alt") --Signet of Transformation
 LBIS:AddItem(spec0, "56457", LBIS.L["Ring"], "Alt") --Circle of Bone
 LBIS:AddItem(spec0, "56415", LBIS.L["Ring"], "Alt") --Nova Band
 LBIS:AddItem(spec0, "58180", LBIS.L["Trinket"], "BIS") --License to Slay
-LBIS:AddItem(spec0, "68712", LBIS.L["Trinket"], "BIS") --Impatience of Youth
+LBIS:AddItem(spec0, "62464", LBIS.L["Trinket"], "BIS") --Impatience of Youth
+LBIS:AddItem(spec0, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec0, "56393", LBIS.L["Trinket"], "Alt") --Heart of Solace
 LBIS:AddItem(spec0, "56100", LBIS.L["Trinket"], "Alt") --Right Eye of Rajh
 LBIS:AddItem(spec0, "56345", LBIS.L["Trinket"], "Alt") --Magnetite Mirror

@@ -51,6 +51,16 @@ public class ProfessionImporter : LootImporter
         { @"https://www.wowhead.com/cata/skill=164/blacksmithing#recipes;500", "Blacksmithing" },
         { @"https://www.wowhead.com/cata/skill=164/blacksmithing#recipes;550", "Blacksmithing" },
         { @"https://www.wowhead.com/cata/skill=164/blacksmithing#recipes;600", "Blacksmithing" },
+        { @"https://www.wowhead.com/cata/skill=773/inscription#recipes", "Inscription"},
+        { @"https://www.wowhead.com/cata/skill=773/inscription#recipes;50", "Inscription"},
+        { @"https://www.wowhead.com/cata/skill=773/inscription#recipes;100", "Inscription"},
+        { @"https://www.wowhead.com/cata/skill=773/inscription#recipes;150", "Inscription"},
+        { @"https://www.wowhead.com/cata/skill=773/inscription#recipes;200", "Inscription"},
+        { @"https://www.wowhead.com/cata/skill=773/inscription#recipes;250", "Inscription"},
+        { @"https://www.wowhead.com/cata/skill=773/inscription#recipes;300", "Inscription"},
+        { @"https://www.wowhead.com/cata/skill=773/inscription#recipes;350", "Inscription"},
+        { @"https://www.wowhead.com/cata/skill=773/inscription#recipes;400", "Inscription"},
+        { @"https://www.wowhead.com/cata/skill=773/inscription#recipes;450", "Inscription"},
     };
     private int minSkillLevel = 451;
 

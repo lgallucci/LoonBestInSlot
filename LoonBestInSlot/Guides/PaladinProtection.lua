@@ -8,9 +8,9 @@ LBIS:AddGem(spec0, "52219", "3", "False") --Fractured Amberjewel
 LBIS:AddGem(spec0, "52224", "3", "False") --Keen Ember Topaz
 LBIS:AddGem(spec0, "52231", "3", "False") --Puissant Dream Emerald
 
-LBIS:AddEnchant(spec0, "62366", LBIS.L["Head"]) --Arcanum of the Earthen Ring
+LBIS:AddEnchant(spec0, "86931", LBIS.L["Head"]) --Arcanum of the Earthen Ring
 LBIS:AddEnchant(spec0, "86402", LBIS.L["Shoulder"]) --Inscription of the Earth Prince
-LBIS:AddEnchant(spec0, "62333", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
+LBIS:AddEnchant(spec0, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
 LBIS:AddEnchant(spec0, "74234", LBIS.L["Back"]) --Enchant Cloak - Protection
 LBIS:AddEnchant(spec0, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
 LBIS:AddEnchant(spec0, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
@@ -19,9 +19,9 @@ LBIS:AddEnchant(spec0, "74239", LBIS.L["Wrist"]) --Enchant Bracer - Greater Expe
 LBIS:AddEnchant(spec0, "74232", LBIS.L["Wrist"]) --Enchant Bracer - Precision
 LBIS:AddEnchant(spec0, "82177", LBIS.L["Hands"]) --Quickflip Deflection Plates
 LBIS:AddEnchant(spec0, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
-LBIS:AddEnchant(spec0, "55054", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
+LBIS:AddEnchant(spec0, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec0, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec0, "71720", LBIS.L["Legs"]) --Drakehide Leg Armor
+LBIS:AddEnchant(spec0, "101598", LBIS.L["Legs"]) --Drakehide Leg Armor
 LBIS:AddEnchant(spec0, "101600", LBIS.L["Legs"]) --Drakehide Leg Reinforcements
 LBIS:AddEnchant(spec0, "74238", LBIS.L["Feet"]) --Enchant Boots - Mastery
 LBIS:AddEnchant(spec0, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker

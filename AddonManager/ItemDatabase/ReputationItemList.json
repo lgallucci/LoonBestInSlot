@@ -1,4 +1,1100 @@
 {
-  "Items": {    
+  "Items": {
+    "62321": {
+      "Name": "Lesser Inscription of Unbreakable Quartz",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62333": {
+      "Name": "Greater Inscription of Unbreakable Quartz",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62342": {
+      "Name": "Lesser Inscription of Charged Lodestone",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62343": {
+      "Name": "Greater Inscription of Charged Lodestone",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62344": {
+      "Name": "Lesser Inscription of Jagged Stone",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62345": {
+      "Name": "Greater Inscription of Jagged Stone",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62346": {
+      "Name": "Greater Inscription of Shattered Crystal",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62347": {
+      "Name": "Lesser Inscription of Shattered Crystal",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62348": {
+      "Name": "Terrath's Signet of Balance",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62350": {
+      "Name": "Gorsik's Band of Shattering",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62351": {
+      "Name": "Felsen's Ring of Resolve",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62352": {
+      "Name": "Diamant's Ring of Temperance",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62353": {
+      "Name": "Mantle of Moss",
+      "Source": "The Earthen Ring",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62354": {
+      "Name": "Pendant of Elemental Balance",
+      "Source": "The Earthen Ring",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62355": {
+      "Name": "Stone-Wrapped Greaves",
+      "Source": "The Earthen Ring",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62356": {
+      "Name": "Helm of Temperance",
+      "Source": "The Earthen Ring",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62357": {
+      "Name": "Cloak of Ancient Wisdom",
+      "Source": "The Earthen Ring",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62358": {
+      "Name": "Leggings of Clutching Roots",
+      "Source": "The Earthen Ring",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62359": {
+      "Name": "Peacemaker's Breastplate",
+      "Source": "The Earthen Ring",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62361": {
+      "Name": "Softwind Cape",
+      "Source": "The Earthen Ring",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62362": {
+      "Name": "Signet of the Elder Council",
+      "Source": "The Earthen Ring",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62363": {
+      "Name": "Earthmender's Boots",
+      "Source": "The Earthen Ring",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62364": {
+      "Name": "Flamebloom Gloves",
+      "Source": "The Earthen Ring",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62365": {
+      "Name": "World Keeper's Gauntlets",
+      "Source": "The Earthen Ring",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62366": {
+      "Name": "Arcanum of the Earthen Ring",
+      "Source": "The Earthen Ring",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62367": {
+      "Name": "Arcanum of Hyjal",
+      "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62369": {
+      "Name": "Arcanum of the Ramkahen",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62374": {
+      "Name": "Sly Fox Jerkin",
+      "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62375": {
+      "Name": "Galrond's Band",
+      "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62376": {
+      "Name": "Mountain's Mouth",
+      "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62377": {
+      "Name": "Cloak of the Dryads",
+      "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62378": {
+      "Name": "Acorn of the Daughter Tree",
+      "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62380": {
+      "Name": "Wilderness Legguards",
+      "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62381": {
+      "Name": "Aessina-Blessed Gloves",
+      "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62382": {
+      "Name": "Waywatcher's Boots",
+      "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62383": {
+      "Name": "Wrap of the Great Turtle",
+      "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62384": {
+      "Name": "Belt of the Ferocious Wolf",
+      "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62385": {
+      "Name": "Treads of Malorne",
+      "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62386": {
+      "Name": "Cord of the Raven Queen",
+      "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62404": {
+      "Name": "Spaulders of the Endless Plains",
+      "Source": "The Dragonmaw Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "62405": {
+      "Name": "Leggings of the Impenitent",
+      "Source": "The Dragonmaw Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "62406": {
+      "Name": "Bone Fever Gloves",
+      "Source": "The Dragonmaw Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "62407": {
+      "Name": "Helm of the Brown Lands",
+      "Source": "The Dragonmaw Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "62408": {
+      "Name": "Gauntlets of Rattling Bones",
+      "Source": "The Dragonmaw Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "62409": {
+      "Name": "Snarling Helm",
+      "Source": "The Dragonmaw Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "62410": {
+      "Name": "Grinning Fang Helm",
+      "Source": "The Dragonmaw Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "62415": {
+      "Name": "Band of Lamentation",
+      "Source": "The Dragonmaw Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "62416": {
+      "Name": "Yellow Smoke Pendant",
+      "Source": "The Dragonmaw Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "62417": {
+      "Name": "Liar's Handwraps",
+      "Source": "The Dragonmaw Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "62418": {
+      "Name": "Boots of Sullen Rock",
+      "Source": "The Dragonmaw Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "62420": {
+      "Name": "Withered Dream Belt",
+      "Source": "The Dragonmaw Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "62423": {
+      "Name": "Helm of the Skyborne",
+      "Source": "The Wildhammer Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "62424": {
+      "Name": "Gloves of Aetherial Rumors",
+      "Source": "The Wildhammer Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "62425": {
+      "Name": "Swiftflight Leggings",
+      "Source": "The Wildhammer Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "62426": {
+      "Name": "Mantle of Wild Feathers",
+      "Source": "The Wildhammer Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "62427": {
+      "Name": "Band of Singing Grass",
+      "Source": "The Wildhammer Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "62428": {
+      "Name": "Crown of Wings",
+      "Source": "The Wildhammer Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "62429": {
+      "Name": "Windhome Helm",
+      "Source": "The Wildhammer Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "62430": {
+      "Name": "Gryphon Talon Gauntlets",
+      "Source": "The Wildhammer Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "62431": {
+      "Name": "Belt of the Untamed",
+      "Source": "The Wildhammer Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "62432": {
+      "Name": "Gryphon Rider's Boots",
+      "Source": "The Wildhammer Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "62433": {
+      "Name": "Stormbolt Gloves",
+      "Source": "The Wildhammer Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "62434": {
+      "Name": "Lightning Flash Pendant",
+      "Source": "The Wildhammer Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "62436": {
+      "Name": "Ammunae's Blessing",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62437": {
+      "Name": "Shroud of the Dead",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62438": {
+      "Name": "Drystone Greaves",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62439": {
+      "Name": "Belt of the Stargazer",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "62440": {
+      "Name": "Red Rock Band",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62441": {
+      "Name": "Robes of Orsis",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62445": {
+      "Name": "Sash of Prophecy",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62446": {
+      "Name": "Quicksand Belt",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "62447": {
+      "Name": "Gift of Nadun",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62448": {
+      "Name": "Sun King's Girdle",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62449": {
+      "Name": "Sandguard Bracers",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62450": {
+      "Name": "Desert Walker Sandals",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "62454": {
+      "Name": "Blade of the Fearless",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "62455": {
+      "Name": "Spear of Trailing Shadows",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "62456": {
+      "Name": "Dagger of Restless Nights",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "62457": {
+      "Name": "Ravening Slicer",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "62458": {
+      "Name": "Insidious Staff",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "62459": {
+      "Name": "Shimmering Morningstar",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "62460": {
+      "Name": "Sky Piercer",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "62463": {
+      "Name": "Unsolvable Riddle",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "62464": {
+      "Name": "Impatience of Youth",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "62465": {
+      "Name": "Stump of Time",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "62466": {
+      "Name": "Mirror of Broken Images",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "62467": {
+      "Name": "Mandala of Stirring Patterns",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "62468": {
+      "Name": "Unsolvable Riddle",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "62469": {
+      "Name": "Impatience of Youth",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "62470": {
+      "Name": "Stump of Time",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "62471": {
+      "Name": "Mirror of Broken Images",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "62472": {
+      "Name": "Mandala of Stirring Patterns",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "62473": {
+      "Name": "Blade of the Fearless",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "62474": {
+      "Name": "Spear of Trailing Shadows",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "62475": {
+      "Name": "Dagger of Restless Nights",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "62476": {
+      "Name": "Ravening Slicer",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "62477": {
+      "Name": "Insidious Staff",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "62478": {
+      "Name": "Shimmering Morningstar",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "62479": {
+      "Name": "Sky Piercer",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "63039": {
+      "Name": "Reins of the Drake of the West Wind",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "63044": {
+      "Name": "Reins of the Brown Riding Camel",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "63045": {
+      "Name": "Reins of the Tan Riding Camel",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "63141": {
+      "Name": "Tol Barad Searchlight",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "63144": {
+      "Name": "Baradin's Wardens Healing Potion",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "A"
+    },
+    "63145": {
+      "Name": "Baradin's Wardens Mana Potion",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "A"
+    },
+    "63355": {
+      "Name": "Rustberg Gull",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "63376": {
+      "Name": "Hellscream's Reach Battle Standard",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "63377": {
+      "Name": "Baradin's Wardens Battle Standard",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "63378": {
+      "Name": "Hellscream's Reach Tabard",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "63379": {
+      "Name": "Baradin's Wardens Tabard",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "63391": {
+      "Name": "Baradin's Wardens Bandage",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "A"
+    },
+    "63517": {
+      "Name": "Baradin's Wardens Commendation",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "A"
+    },
+    "63518": {
+      "Name": "Hellscream's Reach Commendation",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "H"
+    },
+    "64993": {
+      "Name": "Hellscream's Reach Mana Potion",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "H"
+    },
+    "64994": {
+      "Name": "Hellscream's Reach Healing Potion",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "H"
+    },
+    "64995": {
+      "Name": "Hellscream's Reach Bandage",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "H"
+    },
+    "64996": {
+      "Name": "Rustberg Gull",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "64997": {
+      "Name": "Tol Barad Searchlight",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "64998": {
+      "Name": "Reins of the Spectral Steed",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "64999": {
+      "Name": "Reins of the Spectral Wolf",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "65175": {
+      "Name": "Baradin Footman's Tags",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "65176": {
+      "Name": "Baradin Grunt's Talisman",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "65356": {
+      "Name": "Reins of the Drake of the West Wind",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "65904": {
+      "Name": "Tabard of Ramkahen",
+      "Source": "Ramkahen",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "65905": {
+      "Name": "Tabard of the Earthen Ring",
+      "Source": "The Earthen Ring",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "65906": {
+      "Name": "Tabard of the Guardians of Hyjal",
+      "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "65907": {
+      "Name": "Tabard of Therazane",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "65908": {
+      "Name": "Tabard of the Wildhammer Clan",
+      "Source": "The Wildhammer Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "A"
+    },
+    "65909": {
+      "Name": "Tabard of the Dragonmaw Clan",
+      "Source": "The Dragonmaw Clan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "H"
+    },
+    "68739": {
+      "Name": "Darkheart Hacker",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "68740": {
+      "Name": "Darkheart Hacker",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "68765": {
+      "Name": "Arcanum of Hyjal",
+      "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "68772": {
+      "Name": "Greater Inscription of Vicious Intellect",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "A"
+    },
+    "68773": {
+      "Name": "Greater Inscription of Vicious Strength",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "A"
+    },
+    "68774": {
+      "Name": "Greater Inscription of Vicious Agility",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "A"
+    },
+    "90897": {
+      "Name": "Fox Kit",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "90898": {
+      "Name": "Fox Kit",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    }
   }
 }

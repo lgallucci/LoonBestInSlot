@@ -7,22 +7,22 @@ LBIS:AddGem(spec0, "59493", "3", "False") --Rigid Cogwheel
 LBIS:AddGem(spec0, "52220", "3", "False") --Glinting Demonseye
 LBIS:AddGem(spec0, "52212", "3", "False") --Delicate Inferno Ruby
 
-LBIS:AddEnchant(spec0, "62369", LBIS.L["Head"]) --Arcanum of the Ramkahen
-LBIS:AddEnchant(spec0, "62346", LBIS.L["Shoulder"]) --Greater Inscription of Shattered Crystal
-LBIS:AddEnchant(spec0, "44457", LBIS.L["Back"]) --Enchant Cloak - Major Agility
+LBIS:AddEnchant(spec0, "86934", LBIS.L["Head"]) --Arcanum of the Ramkahen
+LBIS:AddEnchant(spec0, "86907", LBIS.L["Shoulder"]) --Greater Inscription of Shattered Crystal
+LBIS:AddEnchant(spec0, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 LBIS:AddEnchant(spec0, "75178", LBIS.L["Back"]) --Swordguard Embroidery
-LBIS:AddEnchant(spec0, "52779", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
-LBIS:AddEnchant(spec0, "68784", LBIS.L["Wrist"]) --Enchant Bracer - Agility
-LBIS:AddEnchant(spec0, "38967", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
+LBIS:AddEnchant(spec0, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
+LBIS:AddEnchant(spec0, "96264", LBIS.L["Wrist"]) --Enchant Bracer - Agility
+LBIS:AddEnchant(spec0, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
 LBIS:AddEnchant(spec0, "82175", LBIS.L["Hands"]) --Synapse Springs
-LBIS:AddEnchant(spec0, "55054", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
+LBIS:AddEnchant(spec0, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec0, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec0, "56550", LBIS.L["Legs"]) --Dragonscale Leg Armor
-LBIS:AddEnchant(spec0, "52781", LBIS.L["Feet"]) --Enchant Boots - Assassin's Step
+LBIS:AddEnchant(spec0, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
+LBIS:AddEnchant(spec0, "74252", LBIS.L["Feet"]) --Enchant Boots - Assassin's Step
 LBIS:AddEnchant(spec0, "74216", LBIS.L["Ring"]) --Enchant Ring - Agility
-LBIS:AddEnchant(spec0, "52776", LBIS.L["Main Hand"]) --Enchant Weapon - Landslide
+LBIS:AddEnchant(spec0, "74246", LBIS.L["Main Hand"]) --Enchant Weapon - Landslide
 LBIS:AddEnchant(spec0, "8679", LBIS.L["Main Hand"]) --Instant Poison
-LBIS:AddEnchant(spec0, "52776", LBIS.L["Off Hand"]) --Enchant Weapon - Landslide
+LBIS:AddEnchant(spec0, "74246", LBIS.L["Off Hand"]) --Enchant Weapon - Landslide
 LBIS:AddEnchant(spec0, "2823", LBIS.L["Off Hand"]) --Deadly Poison
 
 LBIS:AddItem(spec0, "59455", LBIS.L["Head"], "BIS") --Agile Bio-Optic Killshades
@@ -70,7 +70,7 @@ LBIS:AddItem(spec0, "56338", LBIS.L["Neck"], "Alt") --Pendant of the Lightless G
 LBIS:AddItem(spec0, "62362", LBIS.L["Ring"], "BIS") --Signet of the Elder Council
 LBIS:AddItem(spec0, "67136", LBIS.L["Ring"], "BIS") --Gilnean Ring of Ruination
 LBIS:AddItem(spec0, "68812", LBIS.L["Ring"], "BIS") --Hornet-Sting Band
-LBIS:AddItem(spec0, "58186", LBIS.L["Ring"], "Alt") --Skullcracker Ring
+LBIS:AddItem(spec0, "56310", LBIS.L["Ring"], "Alt") --Skullcracker Ring
 LBIS:AddItem(spec0, "56282", LBIS.L["Ring"], "Alt") --Nautilus Ring
 LBIS:AddItem(spec0, "56412", LBIS.L["Ring"], "Alt") --Ring of Blinding Stars
 LBIS:AddItem(spec0, "56445", LBIS.L["Ring"], "Alt") --Ring of Dun Algaz
@@ -80,7 +80,8 @@ LBIS:AddItem(spec0, "56427", LBIS.L["Trinket"], "BIS") --Left Eye of Rajh
 LBIS:AddItem(spec0, "56328", LBIS.L["Trinket"], "Alt") --Key to the Endless Chamber
 LBIS:AddItem(spec0, "56394", LBIS.L["Trinket"], "Alt") --Tia's Grace
 LBIS:AddItem(spec0, "68776", LBIS.L["Trinket"], "Alt") --Quicksilver Alchemist Stone
-LBIS:AddItem(spec0, "68709", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
+LBIS:AddItem(spec0, "62463", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
+LBIS:AddItem(spec0, "62468", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
 LBIS:AddItem(spec0, "56440", LBIS.L["Trinket"], "Alt") --Skardyn's Grace
 LBIS:AddItem(spec0, "56295", LBIS.L["Trinket"], "Alt") --Grace of the Herald
 LBIS:AddItem(spec0, "55068", LBIS.L["Main Hand"], "BIS") --Elementium Shank

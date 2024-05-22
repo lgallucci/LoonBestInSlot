@@ -8,21 +8,21 @@ LBIS:AddGem(spec0, "52221", "3", "False") --Guardian's Demonseye
 LBIS:AddGem(spec0, "52242", "3", "False") --Solid Ocean Sapphire
 LBIS:AddGem(spec0, "52231", "3", "False") --Puissant Dream Emerald
 
-LBIS:AddEnchant(spec0, "62366", LBIS.L["Head"]) --Arcanum of the Earthen Ring
-LBIS:AddEnchant(spec0, "62333", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
-LBIS:AddEnchant(spec0, "52777", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
+LBIS:AddEnchant(spec0, "86931", LBIS.L["Head"]) --Arcanum of the Earthen Ring
+LBIS:AddEnchant(spec0, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
+LBIS:AddEnchant(spec0, "74247", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
 LBIS:AddEnchant(spec0, "44590", LBIS.L["Back"]) --Enchant Cloak - Superior Shadow Resistance
-LBIS:AddEnchant(spec0, "55002", LBIS.L["Back"]) --Flexweave Underlay
-LBIS:AddEnchant(spec0, "52780", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
+LBIS:AddEnchant(spec0, "41111", LBIS.L["Back"]) --Flexweave Underlay
+LBIS:AddEnchant(spec0, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
 LBIS:AddEnchant(spec0, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamina
 LBIS:AddEnchant(spec0, "85007", LBIS.L["Wrist"]) --Draconic Embossment - Stamina
-LBIS:AddEnchant(spec0, "56517", LBIS.L["Hands"]) --Heavy Savage Armor Kit
-LBIS:AddEnchant(spec0, "52784", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
+LBIS:AddEnchant(spec0, "78166", LBIS.L["Hands"]) --Heavy Savage Armor Kit
+LBIS:AddEnchant(spec0, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
 LBIS:AddEnchant(spec0, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec0, "82177", LBIS.L["Hands"]) --Quickflip Deflection Plates
-LBIS:AddEnchant(spec0, "71720", LBIS.L["Legs"]) --Drakehide Leg Armor
-LBIS:AddEnchant(spec0, "52743", LBIS.L["Feet"]) --Enchant Boots - Earthen Vitality
-LBIS:AddEnchant(spec0, "52782", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
+LBIS:AddEnchant(spec0, "101598", LBIS.L["Legs"]) --Drakehide Leg Armor
+LBIS:AddEnchant(spec0, "74189", LBIS.L["Feet"]) --Enchant Boots - Earthen Vitality
+LBIS:AddEnchant(spec0, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
 LBIS:AddEnchant(spec0, "74218", LBIS.L["Ring"]) --Enchant Ring - Greater Stamina
 
 LBIS:AddItem(spec0, "59359", LBIS.L["Head"], "BIS") --Reinforced Bio-Optic Killshades

@@ -20,7 +20,11 @@ public class EmblemImporter : LootImporter
         "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;50",
         "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;100",
         "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;150",
-        "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;200"
+        "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;200",
+        "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells",
+        "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;50",
+        "https://www.wowhead.com/cata/npc=46555/gunra#sells",
+        "https://www.wowhead.com/cata/npc=46555/gunra#sells;50",
     };
 
     internal override string FileName { get => "EmblemItemList"; }

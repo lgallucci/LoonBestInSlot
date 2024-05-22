@@ -16,15 +16,15 @@ LBIS:AddEnchant(spec0, "85010", LBIS.L["Wrist"]) --Draconic Embossment - Intelle
 LBIS:AddEnchant(spec0, "96262", LBIS.L["Wrist"]) --Enchant Bracer - Mighty Intellect
 LBIS:AddEnchant(spec0, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec0, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
-LBIS:AddEnchant(spec0, "55054", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
+LBIS:AddEnchant(spec0, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec0, "84427", LBIS.L["Waist"]) --Grounded Plasma Shield
-LBIS:AddEnchant(spec0, "52782", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
-LBIS:AddEnchant(spec0, "52769", LBIS.L["Feet"]) --Enchant Boots - Precision
+LBIS:AddEnchant(spec0, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
+LBIS:AddEnchant(spec0, "74236", LBIS.L["Feet"]) --Enchant Boots - Precision
 LBIS:AddEnchant(spec0, "55016", LBIS.L["Feet"]) --Nitro Boosts
 LBIS:AddEnchant(spec0, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect
-LBIS:AddEnchant(spec0, "52774", LBIS.L["Main Hand"]) --Enchant Weapon - Power Torrent
-LBIS:AddEnchant(spec0, "52768", LBIS.L["Off Hand"]) --Enchant Off-Hand - Superior Intellect
-LBIS:AddEnchant(spec0, "52774", LBIS.L["Two Hand"]) --Enchant Weapon - Power Torrent
+LBIS:AddEnchant(spec0, "74242", LBIS.L["Main Hand"]) --Enchant Weapon - Power Torrent
+LBIS:AddEnchant(spec0, "74235", LBIS.L["Off Hand"]) --Enchant Off-Hand - Superior Intellect
+LBIS:AddEnchant(spec0, "74242", LBIS.L["Two Hand"]) --Enchant Weapon - Power Torrent
 
 LBIS:AddItem(spec0, "59449", LBIS.L["Head"], "BIS") --Lightweight Bio-Optic Killshades
 LBIS:AddItem(spec0, "58155", LBIS.L["Head"], "Alt") --Cowl of Pleasant Gloom

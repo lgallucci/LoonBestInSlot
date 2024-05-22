@@ -1,5 +1,533 @@
 {
   "Items": {
+    "57913": {
+      "Name": "Beech Green Belt",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57914": {
+      "Name": "Girdle of the Mountains",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57915": {
+      "Name": "Belt of Barred Clouds",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57916": {
+      "Name": "Belt of the Dim Forest",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57917": {
+      "Name": "Belt of the Still Stream",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57918": {
+      "Name": "Sash of Musing",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57919": {
+      "Name": "Thatch Eave Vines",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57921": {
+      "Name": "Incense Infused Cummerbund",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57922": {
+      "Name": "Belt of the Falling Rain",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57923": {
+      "Name": "Hermit's Lamp",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "950",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57924": {
+      "Name": "Apple-Bent Bough",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "950",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57925": {
+      "Name": "Shield of the Mists",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "950",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57926": {
+      "Name": "Shield of the Four Grey Towers",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "950",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57927": {
+      "Name": "Throat Slasher",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "950",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57928": {
+      "Name": "Windslicer",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "950",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57929": {
+      "Name": "Dawnblaze Blade",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "950",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57930": {
+      "Name": "Pendant of Quiet Breath",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57931": {
+      "Name": "Amulet of Dull Dreaming",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57932": {
+      "Name": "The Lustrous Eye",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57933": {
+      "Name": "String of Beaded Bubbles",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "57934": {
+      "Name": "Celadon Pendant",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58096": {
+      "Name": "Breastplate of Raging Fury",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58097": {
+      "Name": "Greaves of Gallantry",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58098": {
+      "Name": "Helm of Easeful Death",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58099": {
+      "Name": "Reaping Gauntlets",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58100": {
+      "Name": "Pauldrons of the High Requiem",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58101": {
+      "Name": "Chestplate of the Steadfast",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58102": {
+      "Name": "Greaves of Splendor",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58103": {
+      "Name": "Helm of the Proud",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58104": {
+      "Name": "Sunburnt Pauldrons",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58105": {
+      "Name": "Numbing Handguards",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58106": {
+      "Name": "Chestguard of Dancing Waves",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58107": {
+      "Name": "Legguards of the Gentle",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58108": {
+      "Name": "Crown of the Blazing Sun",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58109": {
+      "Name": "Pauldrons of the Forlorn",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58110": {
+      "Name": "Gloves of Curious Conscience",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58121": {
+      "Name": "Vest of the True Companion",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58122": {
+      "Name": "Hillside Striders",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58123": {
+      "Name": "Willow Mask",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58124": {
+      "Name": "Wrap of the Valley Glades",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58125": {
+      "Name": "Gloves of the Passing Night",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58126": {
+      "Name": "Vest of the Waking Dream",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58127": {
+      "Name": "Leggings of Soothing Silence",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58128": {
+      "Name": "Helm of the Inward Eye",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58129": {
+      "Name": "Seafoam Mantle",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58130": {
+      "Name": "Gleaning Gloves",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58131": {
+      "Name": "Tunic of Sinking Envy",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58132": {
+      "Name": "Leggings of the Burrowing Mole",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58133": {
+      "Name": "Mask of Vines",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58134": {
+      "Name": "Embrace of the Night",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58138": {
+      "Name": "Sticky Fingers",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58139": {
+      "Name": "Chestguard of Forgetfulness",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58140": {
+      "Name": "Leggings of Late Blooms",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58150": {
+      "Name": "Cluster of Stars",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58151": {
+      "Name": "Somber Shawl",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58152": {
+      "Name": "Blessed Hands of Elune",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58153": {
+      "Name": "Robes of Embalmed Darkness",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58154": {
+      "Name": "Pensive Legwraps",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58155": {
+      "Name": "Cowl of Pleasant Gloom",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58157": {
+      "Name": "Meadow Mantle",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58158": {
+      "Name": "Gloves of the Painless Midnight",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58159": {
+      "Name": "Musk Rose Robes",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58160": {
+      "Name": "Leggings of Charity",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58161": {
+      "Name": "Mask of New Snow",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58162": {
+      "Name": "Summer Song Shoulderwraps",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "58163": {
+      "Name": "Gloves of Purification",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "58180": {
       "Name": "License to Slay",
       "Source": "Valor Points",

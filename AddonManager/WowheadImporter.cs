@@ -77,9 +77,7 @@ public static class WowheadImporter
         string phaseString = string.Empty;
         foreach (string spec in specList)
         {
-            if (phaseNumber == 0)
-                phaseString = "PreRaid";
-            else if (phaseNumber == 99)
+            if (phaseNumber == 99)
                 phaseString = "PrePatch";
             else 
                 phaseString = $"Phase{phaseNumber}";
@@ -393,7 +391,7 @@ public static class WowheadImporter
             {
                 var name = doc.Title?.Split("-")[0].Trim() ?? "unknown";
                 var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/cata/item=", "").TrimEnd('/'));
-                    var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
+                var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
                 
                 itemSources[itemId].Name = name;
                 if (rowElements != null && rowElements.Length > 0)
@@ -446,9 +444,9 @@ public static class WowheadImporter
                         var sourceLocation = string.Empty;
                         foreach(var row in rowElements)
                         {
-                            if (row.Children[3].HasChildNodes && row.Children[3].Children[0].ClassName == "icon-alliance" && string.IsNullOrWhiteSpace(faction))
+                            if (row.Children[3].Children.Length > 0 && row.Children[3].Children[0].ClassName == "icon-alliance" && string.IsNullOrWhiteSpace(faction))
                                 faction = "A";
-                            else if (row.Children[3].HasChildNodes && row.Children[3].Children[0].ClassName == "icon-horde" && string.IsNullOrWhiteSpace(faction))
+                            else if (row.Children[3].Children.Length > 0 && row.Children[3].Children[0].ClassName == "icon-horde" && string.IsNullOrWhiteSpace(faction))
                                 faction = "H";
                             else 
                                 faction = "B";

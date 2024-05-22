@@ -9,24 +9,24 @@ LBIS:AddGem(spec0, "52212", "3", "False") --Delicate Inferno Ruby
 LBIS:AddGem(spec0, "52204", "3", "False") --Adept Ember Topaz
 LBIS:AddGem(spec0, "52220", "3", "False") --Glinting Demonseye
 
-LBIS:AddEnchant(spec0, "62367", LBIS.L["Head"]) --Arcanum of Hyjal
+LBIS:AddEnchant(spec0, "86932", LBIS.L["Head"]) --Arcanum of Hyjal
 LBIS:AddEnchant(spec0, "86375", LBIS.L["Shoulder"]) --Swiftsteel Inscription
-LBIS:AddEnchant(spec0, "62346", LBIS.L["Shoulder"]) --Greater Inscription of Shattered Crystal
+LBIS:AddEnchant(spec0, "86907", LBIS.L["Shoulder"]) --Greater Inscription of Shattered Crystal
 LBIS:AddEnchant(spec0, "75178", LBIS.L["Back"]) --Swordguard Embroidery
-LBIS:AddEnchant(spec0, "44457", LBIS.L["Back"]) --Enchant Cloak - Major Agility
+LBIS:AddEnchant(spec0, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 LBIS:AddEnchant(spec0, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
 LBIS:AddEnchant(spec0, "85008", LBIS.L["Wrist"]) --Draconic Embossment - Agility
-LBIS:AddEnchant(spec0, "68784", LBIS.L["Wrist"]) --Enchant Bracer - Agility
+LBIS:AddEnchant(spec0, "96264", LBIS.L["Wrist"]) --Enchant Bracer - Agility
 LBIS:AddEnchant(spec0, "55628", LBIS.L["Wrist"]) --Socket Bracer
 LBIS:AddEnchant(spec0, "74220", LBIS.L["Hands"]) --Enchant Gloves - Greater Expertise
 LBIS:AddEnchant(spec0, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec0, "55641", LBIS.L["Hands"]) --Socket Gloves
-LBIS:AddEnchant(spec0, "55054", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
-LBIS:AddEnchant(spec0, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec0, "56550", LBIS.L["Legs"]) --Dragonscale Leg Armor
-LBIS:AddEnchant(spec0, "52757", LBIS.L["Feet"]) --Enchant Boots - Major Agility
+LBIS:AddEnchant(spec0, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
+LBIS:AddEnchant(spec0, "41118", LBIS.L["Waist"]) --Nitro Boosts
+LBIS:AddEnchant(spec0, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
+LBIS:AddEnchant(spec0, "74213", LBIS.L["Feet"]) --Enchant Boots - Major Agility
 LBIS:AddEnchant(spec0, "74216", LBIS.L["Ring"]) --Enchant Ring - Agility
-LBIS:AddEnchant(spec0, "52776", LBIS.L["Main Hand"]) --Enchant Weapon - Landslide
+LBIS:AddEnchant(spec0, "74246", LBIS.L["Main Hand"]) --Enchant Weapon - Landslide
 
 LBIS:AddItem(spec0, "59456", LBIS.L["Head"], "BIS") --Deadly Bio-Optic Killshades
 LBIS:AddItem(spec0, "62429", LBIS.L["Head"], "Alt") --Windhome Helm

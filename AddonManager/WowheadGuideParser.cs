@@ -26,79 +26,56 @@ public class WowheadGuideParser
 
     private Dictionary<int, int> _enchantSwaps = new Dictionary<int, int>()
     {
-        { 4265, 2833 }, //Heavy Armor Kit
-        { 8173, 10344 }, //Thick Armor Kit
-        { 15564, 19057 }, //Rugged Armor Kit
-        { 6042, 7221 }, //Iron Shield Spike
-        { 6043, 7222 }, //Iron Counterweight
-        { 7967, 9939 }, //Mithril Shield Spike
-        { 6041, 7224}, //Steel Weapon Chain
-        { 5421, 6296 }, //Fiery Blaze
-        { 11622, 15340}, //Lesser Arcanum of Rumination
-        { 11645, 15397}, //Lesser Arcanum of Voracity
-        { 11646, 15400}, //Lesser Arcanum of Voracity
-        { 11647, 15402}, //Lesser Arcanum of Voracity
-        { 11648, 15404}, //Lesser Arcanum of Voracity
-        { 18329, 22840}, //Arcanum of Rapidity
-        { 12645, 16623}, //Thorium Shield Spike
-        { 212568, 432190 }, //Wolfshead Trophy
-        { 221321, 446451 }, //Atal'ai Signet of Might
-        { 221322, 446459 }, //Atal'ai Signet of Mojo
-        { 221323, 446472 }, //Atal'ai Signet of 
-        { 35299, 34007 }, //Enchant Boots: Cat's Swiftness
         { 2892, 2823}, //Deadly Poison
         { 6947, 8679 }, //Instant Poison
-        { 38372, 50902 }, //Nerubian Leg Armor
-        { 38373, 60581 }, //Frosthide Leg Armor
-        { 38374, 60582 }, //Icescale Leg Armor
-        { 38376, 50909 }, //Heavy Borean Armor Kit
-        { 38928, 33990 }, //Enchant Chest - Major Spirit
-        { 38959, 44500 }, //Enchant Cloak - Superior Agility
-        { 38976, 44589 }, //Enchant Boots - Superior Agility
-        { 38979, 44592 }, //Enchant Gloves - Exceptional Spellpower
-        { 39003, 47898 }, //Enchant Cloak - Greater Speed
-        { 39005, 47900 }, //Enchant Chest - Super Health
-        { 39006, 47901 }, //Enchant Boots - Tuskarr's Vitality
-        { 50370, 59960 }, //Arcanum of Blissful Mending
-        { 41118, 55016 }, //Nitro Boosts
-        { 41111, 55002 }, //Flexweave Underlay
-        { 44491, 47901 }, //Enchant Boots - Tuskarr's Vitality
-        { 44493, 59621 }, //Enchant Weapon - Berserking
-        { 50369, 59955 }, //Arcanum of the Stalwart Protector
-        { 50368, 59970 }, //Arcanum of Burning Mysteries
-        { 50367, 59954 }, //Arcanum of Torment
-        { 50338, 59937 }, //Greater Inscription of the Storm
-        { 50337, 59941 }, //Greater Inscription of the Pinnacle
-        { 50336, 59936 }, //Greater Inscription of the Crag
-        { 50335, 59934 }, //Greater Inscription of the Axe
-        { 45056, 62948 }, //Enchant Staff - Greater Spellpower
-        { 44957, 62384 }, //Greater Inscription of the Gladiator
-        { 44936, 62201 }, //Titanium Plating
-        { 44879, 59954 }, //Arcanum of Torment
-        { 44878, 59955 }, //Arcanum of the Stalwart Protector
-        { 44871, 59934 }, //Greater Inscription of the Axe
-        { 44815, 44575 }, //Enchant Bracer - Greater Assault
-        { 44629, 61067 }, //Cask of Peaked Dalaran Red
-        { 41167, 55135 }, //Heartseeker Scope
-        { 41602, 55631 }, //Brilliant Spellthread
-        { 41604, 55634 }, //Sapphire Spellthread
-        { 41611, 55655 }, //Eternal Belt Buckle
-        { 41976, 55836 }, //Titanium Weapon Chain
-        { 44075, 59784 }, //Arcanum of Dominance
-        { 44131, 59929 }, //Lesser Inscription of the Axe
-        { 44133, 59934 }, //Greater Inscription of the Axe
-        { 44135, 59937 }, //Greater Inscription of the Storm
-        { 44159, 59970 }, //Arcanum of Burning Mysteries
-        { 44465, 60692 }, //Enchant Chest - Powerful Stats
-        { 44467, 60714 }, //Enchant Weapon - Mighty Spellpower
-        { 44469, 60763 }, //Enchant Boots - Greater Assault
-        { 44470, 60767 }, //Enchant Bracer - Superior Spellpower
+        { 38967, 44529 }, //Enchant Gloves - Major Agility
+        { 39300, 52639 }, //Spring Loaded Cloak Expander
+        { 44457, 60663 }, //Enchant Cloak - Major Agility
+        { 52743, 74189 }, //Enchant Boots - Earthen Vitality
+        { 52749, 74198 }, //Enchant Gloves - Haste
+        { 52757, 74213 }, //Enchant Boots - Major Agility
+        { 52768, 74235 }, //Enchant Off-Hand - Superior Intellect
+        { 52769, 74236 }, //Enchant Boots - Precision
+        { 52773, 74240 }, //Enchant Cloak - Greater Intellect
+        { 52774, 74242 }, //Enchant Weapon - Power Torrent
+        { 52776, 74246 }, //Enchant Weapon - Landslide
+        { 52777, 74247 }, //Enchant Cloak - Greater Critical Strike
+        { 52779, 74250 }, //Enchant Chest - Peerless Stats
+        { 52780, 74251 }, //Enchant Chest - Greater Stamina
+        { 52781, 74252 }, //Enchant Boots - Assassin's Step
+        { 52782, 74253 }, //Enchant Boots - Lavawalker
+        { 52784, 74255 }, //Enchant Gloves - Greater Mastery
+        { 54448, 75152 }, //Powerful Enchanted Spellthread
+        { 54450, 75150 }, //Powerful Ghostly Spellthread
+        { 55054, 76168 }, //Ebonsteel Belt Buckle
+        { 56517, 78166 }, //Heavy Savage Armor Kit
+        { 56550, 78171 }, //Dragonscale Leg Armor
+        { 59595, 81933 }, //R19 Threatfinder
+        { 62333, 86854 }, //Greater Inscription of Unbreakable Quartz
+        { 62343, 86899 }, //Greater Inscription of Charged Lodestone
+        { 62345, 86901 }, //Greater Inscription of Jagged Stone
+        { 62346, 86907 }, //Greater Inscription of Shattered Crystal
+        { 62366, 86931 }, //Arcanum of the Earthen Ring
+        { 62367, 86932 }, //Arcanum of Hyjal
+        { 62368, 86933 }, //Arcanum of the Dragonmaw
+        { 62369, 86934 }, //Arcanum of the Ramkahen
+        { 62422, 86933 }, //Arcanum of the Wildhammer
+        { 68134, 95471 }, //Enchant 2H Weapon - Mighty Agility
+        { 68784, 96264 }, //Enchant Bracer - Agility
+        { 68786, 96262 }, //Enchant Bracer - Mighty Intellect
+        { 71720, 101598 }, //Drakehide Leg Armor
      };
 
-    private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()
+    private Dictionary<int, string> _itemSwaps = new Dictionary<int, string>()
     {
-        { 5000, 11994 }, //Coral Band
+        { 5000, "11994" }, //Coral Band
+        { 58186, "56310" }, //Skullcracker Ring
+        { 68712, "62464,62469"}, //Impatience of Youth
+        { 68710, "62465,62470" }, //Stump of Time
+        { 68709, "62463,62468" }, //Unsolvable Riddle
     };
+
+    
 
     private Dictionary<string, string> _altModifierTextSwaps = new Dictionary<string, string>()
     {
@@ -497,44 +474,50 @@ public class WowheadGuideParser
 
                 if (!skippedItem)
                 {
-                    int itemId = -99999;
-                    Int32.TryParse(item, out itemId);
+                    int guideItemId = -99999;
+                    Int32.TryParse(item, out guideItemId);
+                    List<int> guideItemIds = new List<int> { guideItemId };
 
-                    if (_itemSwaps.ContainsKey(itemId))
-                        itemId = _itemSwaps[itemId];
-
-                    if (!items.ContainsKey(itemId))
+                    if (_itemSwaps.ContainsKey(guideItemId))
                     {
-                        items.Add(itemId, new ItemSpec
+                        guideItemIds = _itemSwaps[guideItemId].Split(',').Select(i => int.Parse(i.Trim())).ToList();
+                    }
+
+                    foreach(var itemId in guideItemIds)
+                    {
+                        if (!items.ContainsKey(itemId))
                         {
-                            ItemId = itemId,
-                            Name = itemName ?? "unknown",
-                            BisStatus = bisStatus ?? "unknown",
-                            Slot = slot,
-                            ItemOrder = itemOrderIndex
-                        });
-                        if (_duplicateItemIds.ContainsKey(itemId) && !items.ContainsKey(_duplicateItemIds[itemId]))
-                        {
-                            items.Add(_duplicateItemIds[itemId], new ItemSpec
+                            items.Add(itemId, new ItemSpec
                             {
-                                ItemId = _duplicateItemIds[itemId],
+                                ItemId = itemId,
                                 Name = itemName ?? "unknown",
                                 BisStatus = bisStatus ?? "unknown",
                                 Slot = slot,
                                 ItemOrder = itemOrderIndex
                             });
+                            if (_duplicateItemIds.ContainsKey(itemId) && !items.ContainsKey(_duplicateItemIds[itemId]))
+                            {
+                                items.Add(_duplicateItemIds[itemId], new ItemSpec
+                                {
+                                    ItemId = _duplicateItemIds[itemId],
+                                    Name = itemName ?? "unknown",
+                                    BisStatus = bisStatus ?? "unknown",
+                                    Slot = slot,
+                                    ItemOrder = itemOrderIndex
+                                });
+                            }
                         }
-                    }
-                    else
-                    {
-                        if (!items[itemId].Slot.Contains(slot))
+                        else
                         {
-                            items[itemId].Slot = $"{items[itemId].Slot}/{slot}";
-                            if (items[itemId].BisStatus != bisStatus)
-                                items[itemId].BisStatus = $"{items[itemId].BisStatus}/{bisStatus}";
+                            if (!items[itemId].Slot.Contains(slot))
+                            {
+                                items[itemId].Slot = $"{items[itemId].Slot}/{slot}";
+                                if (items[itemId].BisStatus != bisStatus)
+                                    items[itemId].BisStatus = $"{items[itemId].BisStatus}/{bisStatus}";
+                            }
                         }
+                        itemIds.Add(itemId);
                     }
-                    itemIds.Add(itemId);
                 }
             }
             return foundItem;

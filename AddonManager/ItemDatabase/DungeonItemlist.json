@@ -26,7 +26,7 @@
     },
     "1925": {
       "Name": "Defias Rapier",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -34,7 +34,7 @@
     },
     "1930": {
       "Name": "Stonemason Cloak",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -42,7 +42,7 @@
     },
     "1936": {
       "Name": "Goblin Screwdriver",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -50,7 +50,7 @@
     },
     "1943": {
       "Name": "Goblin Mail Leggings",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -58,7 +58,7 @@
     },
     "1944": {
       "Name": "Metalworking Gloves",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -66,7 +66,7 @@
     },
     "1945": {
       "Name": "Woodworking Gloves",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -74,7 +74,7 @@
     },
     "1951": {
       "Name": "Blackwater Cutlass",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Normal)",
@@ -1330,7 +1330,7 @@
     },
     "55882": {
       "Name": "Oasis Bracers",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1338,7 +1338,7 @@
     },
     "55884": {
       "Name": "Mirage Ring",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Normal)",
@@ -1578,7 +1578,7 @@
     },
     "56109": {
       "Name": "Book of Origination",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1586,7 +1586,7 @@
     },
     "56110": {
       "Name": "Charm of the Muse",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -1594,7 +1594,7 @@
     },
     "56111": {
       "Name": "Temple Band",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Normal)",
@@ -2786,7 +2786,7 @@
     },
     "56404": {
       "Name": "Mirage Ring",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -2794,7 +2794,7 @@
     },
     "56405": {
       "Name": "Oasis Bracers",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Lost City of the Tol'vir (Heroic)",
@@ -3034,7 +3034,7 @@
     },
     "56437": {
       "Name": "Charm of the Muse",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3042,7 +3042,7 @@
     },
     "56438": {
       "Name": "Book of Origination",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",
@@ -3050,7 +3050,7 @@
     },
     "56439": {
       "Name": "Temple Band",
-      "Source": "Trash",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Halls of Origination (Heroic)",

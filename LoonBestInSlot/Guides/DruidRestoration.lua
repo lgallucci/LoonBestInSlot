@@ -8,12 +8,12 @@ LBIS:AddGem(spec0, "52207", "3", "False") --Brilliant Inferno Ruby
 LBIS:AddGem(spec0, "52208", "3", "False") --Reckless Ember Topaz
 LBIS:AddGem(spec0, "52236", "3", "False") --Purified Demonseye
 
-LBIS:AddEnchant(spec0, "62367", LBIS.L["Head"]) --Arcanum of Hyjal
+LBIS:AddEnchant(spec0, "86932", LBIS.L["Head"]) --Arcanum of Hyjal
 LBIS:AddEnchant(spec0, "86403", LBIS.L["Shoulder"]) --Felfire Inscription
-LBIS:AddEnchant(spec0, "62343", LBIS.L["Shoulder"]) --Greater Inscription of Charged Lodestone
+LBIS:AddEnchant(spec0, "86899", LBIS.L["Shoulder"]) --Greater Inscription of Charged Lodestone
 LBIS:AddEnchant(spec0, "75172", LBIS.L["Back"]) --Lightweave Embroidery
 LBIS:AddEnchant(spec0, "74240", LBIS.L["Back"]) --Enchant Cloak - Greater Intellect
-LBIS:AddEnchant(spec0, "39300", LBIS.L["Back"]) --Spring Loaded Cloak Expander
+LBIS:AddEnchant(spec0, "52639", LBIS.L["Back"]) --Spring Loaded Cloak Expander
 LBIS:AddEnchant(spec0, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
 LBIS:AddEnchant(spec0, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec0, "85010", LBIS.L["Wrist"]) --Draconic Embossment - Intellect
@@ -25,9 +25,9 @@ LBIS:AddEnchant(spec0, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mast
 LBIS:AddEnchant(spec0, "74132", LBIS.L["Hands"]) --Enchant Gloves - Mastery
 LBIS:AddEnchant(spec0, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec0, "55641", LBIS.L["Hands"]) --Socket Gloves
-LBIS:AddEnchant(spec0, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec0, "55054", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
-LBIS:AddEnchant(spec0, "54450", LBIS.L["Legs"]) --Powerful Ghostly Spellthread
+LBIS:AddEnchant(spec0, "41118", LBIS.L["Waist"]) --Nitro Boosts
+LBIS:AddEnchant(spec0, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
+LBIS:AddEnchant(spec0, "75150", LBIS.L["Legs"]) --Powerful Ghostly Spellthread
 LBIS:AddEnchant(spec0, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
 LBIS:AddEnchant(spec0, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
 LBIS:AddEnchant(spec0, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect

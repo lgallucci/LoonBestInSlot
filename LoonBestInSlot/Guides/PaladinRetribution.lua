@@ -7,9 +7,8 @@ LBIS:AddGem(spec0, "59489", "3", "False") --Precise Cogwheel
 LBIS:AddGem(spec0, "52206", "3", "False") --Bold Inferno Ruby
 LBIS:AddGem(spec0, "52213", "3", "False") --Etched Demonseye
 
-LBIS:AddEnchant(spec0, "62422", LBIS.L["Head"]) --Arcanum of the Wildhammer
-LBIS:AddEnchant(spec0, "62368", LBIS.L["Head"]) --Arcanum of the Dragonmaw
-LBIS:AddEnchant(spec0, "62345", LBIS.L["Shoulder"]) --Greater Inscription of Jagged Stone
+LBIS:AddEnchant(spec0, "86933", LBIS.L["Head"]) --Arcanum of the Wildhammer
+LBIS:AddEnchant(spec0, "86901", LBIS.L["Shoulder"]) --Greater Inscription of Jagged Stone
 LBIS:AddEnchant(spec0, "75178", LBIS.L["Back"]) --Swordguard Embroidery
 LBIS:AddEnchant(spec0, "74247", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
 LBIS:AddEnchant(spec0, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
@@ -17,8 +16,8 @@ LBIS:AddEnchant(spec0, "96261", LBIS.L["Wrist"]) --Enchant Bracer - Major Streng
 LBIS:AddEnchant(spec0, "74254", LBIS.L["Hands"]) --Enchant Gloves - Mighty Strength
 LBIS:AddEnchant(spec0, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec0, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec0, "55054", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
-LBIS:AddEnchant(spec0, "56550", LBIS.L["Legs"]) --Dragonscale Leg Armor
+LBIS:AddEnchant(spec0, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
+LBIS:AddEnchant(spec0, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
 LBIS:AddEnchant(spec0, "74236", LBIS.L["Feet"]) --Enchant Boots - Precision
 LBIS:AddEnchant(spec0, "74238", LBIS.L["Feet"]) --Enchant Boots - Mastery
 LBIS:AddEnchant(spec0, "74215", LBIS.L["Ring"]) --Enchant Ring - Strength
@@ -63,7 +62,8 @@ LBIS:AddItem(spec0, "56365", LBIS.L["Ring"], "BIS") --Skyshard Ring
 LBIS:AddItem(spec0, "69852", LBIS.L["Ring"], "BIS") --Punisher's Band
 LBIS:AddItem(spec0, "56299", LBIS.L["Ring"], "Alt") --Signet of Transformation
 LBIS:AddItem(spec0, "62350", LBIS.L["Ring"], "Alt") --Gorsik's Band of Shattering
-LBIS:AddItem(spec0, "68712", LBIS.L["Trinket"], "BIS") --Impatience of Youth
+LBIS:AddItem(spec0, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
+LBIS:AddItem(spec0, "62464", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec0, "56393", LBIS.L["Trinket"], "BIS") --Heart of Solace
 LBIS:AddItem(spec0, "68775", LBIS.L["Trinket"], "Alt") --Volatile Alchemist Stone
 LBIS:AddItem(spec0, "52351", LBIS.L["Trinket"], "Alt") --Figurine - King of Boars
