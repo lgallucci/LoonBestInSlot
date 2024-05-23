@@ -7,6 +7,7 @@ LBIS:AddGem(spec0, "59480", "3", "False") --Fractured Cogwheel
 LBIS:AddGem(spec0, "52205", "3", "False") --Artful Ember Topaz
 LBIS:AddGem(spec0, "52217", "3", "False") --Veiled Demonseye
 LBIS:AddGem(spec0, "52207", "3", "False") --Brilliant Inferno Ruby
+LBIS:AddGem(spec0, "68780", "3", "True") --Burning Shadowspirit Diamond
 
 LBIS:AddEnchant(spec0, "86932", LBIS.L["Head"]) --Arcanum of Hyjal
 LBIS:AddEnchant(spec0, "75172", LBIS.L["Back"]) --Lightweave Embroidery
@@ -20,7 +21,6 @@ LBIS:AddEnchant(spec0, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec0, "84427", LBIS.L["Waist"]) --Grounded Plasma Shield
 LBIS:AddEnchant(spec0, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
 LBIS:AddEnchant(spec0, "74236", LBIS.L["Feet"]) --Enchant Boots - Precision
-LBIS:AddEnchant(spec0, "55016", LBIS.L["Feet"]) --Nitro Boosts
 LBIS:AddEnchant(spec0, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect
 LBIS:AddEnchant(spec0, "74242", LBIS.L["Main Hand"]) --Enchant Weapon - Power Torrent
 LBIS:AddEnchant(spec0, "74235", LBIS.L["Off Hand"]) --Enchant Off-Hand - Superior Intellect

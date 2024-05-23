@@ -43,7 +43,7 @@ LBIS:AddItem(spec0, "62408", LBIS.L["Hands"], "Alt") --Gauntlets of Rattling Bon
 LBIS:AddItem(spec0, "62430", LBIS.L["Hands"], "Alt") --Gryphon Talon Gauntlets
 LBIS:AddItem(spec0, "63474", LBIS.L["Hands"], "Alt") --Gear-Marked Gauntlets
 LBIS:AddItem(spec0, "62384", LBIS.L["Waist"], "BIS") --Belt of the Ferocious Wolf
-LBIS:AddItem(spec0, "69842", LBIS.L["Waist"], "Alt") --Garr's Reinforced Girdle of Memories
+LBIS:AddItem(spec0, "55061", LBIS.L["Waist"], "Alt") --Elementium Girdle of Pain
 LBIS:AddItem(spec0, "56447", LBIS.L["Waist"], "Alt") --Belt of the Forgemaster
 LBIS:AddItem(spec0, "67141", LBIS.L["Legs"], "BIS") --Corefire Legplates
 LBIS:AddItem(spec0, "58097", LBIS.L["Legs"], "Alt") --Greaves of Gallantry

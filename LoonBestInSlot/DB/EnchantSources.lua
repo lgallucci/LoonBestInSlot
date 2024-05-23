@@ -18,6 +18,7 @@ LBIS.EnchantSources =
     [62256] = { Name = "Enchant Bracer - Major Stamina", DesignId = "44944", ScrollId = "0", Source = LBIS.L["Shard Trader"], SourceLocation = LBIS.L["Dalaran"], TextureId = "" },
     [74132] = { Name = "Enchant Gloves - Mastery", DesignId = "52687", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74189] = { Name = "Enchant Boots - Earthen Vitality", DesignId = "52743", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
+    [74191] = { Name = "Enchant Chest - Mighty Stats", DesignId = "52744", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74198] = { Name = "Enchant Gloves - Haste", DesignId = "52749", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74199] = { Name = "Enchant Boots - Haste", DesignId = "52750", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74213] = { Name = "Enchant Boots - Major Agility", DesignId = "52757", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },

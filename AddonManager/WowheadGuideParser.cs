@@ -14,7 +14,7 @@ namespace AddonManager;
 public class WowheadGuideParser
 {
     private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of Nature Protection",
-                                                            "of the Tiger", "of Agility", "of the Squire" };
+                                                            "of the Tiger", "of Agility", "of the Squire", "Stolen Silver" };
 
     private Random _rand = new Random(DateTime.Now.Millisecond);
 
