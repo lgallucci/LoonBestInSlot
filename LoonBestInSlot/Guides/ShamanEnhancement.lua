@@ -9,7 +9,7 @@ LBIS:AddGem(spec0, "52212", "3", "False") --Delicate Inferno Ruby
 LBIS:AddGem(spec0, "52204", "3", "False") --Adept Ember Topaz
 LBIS:AddGem(spec0, "52220", "3", "False") --Glinting Demonseye
 
-LBIS:AddEnchant(spec0, "86932", LBIS.L["Head"]) --Arcanum of Hyjal
+LBIS:AddEnchant(spec0, "86934", LBIS.L["Head"]) --Arcanum of the Ramkahen
 LBIS:AddEnchant(spec0, "86375", LBIS.L["Shoulder"]) --Swiftsteel Inscription
 LBIS:AddEnchant(spec0, "86907", LBIS.L["Shoulder"]) --Greater Inscription of Shattered Crystal
 LBIS:AddEnchant(spec0, "75178", LBIS.L["Back"]) --Swordguard Embroidery

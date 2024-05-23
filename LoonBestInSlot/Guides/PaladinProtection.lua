@@ -14,7 +14,7 @@ LBIS:AddEnchant(spec0, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unb
 LBIS:AddEnchant(spec0, "74234", LBIS.L["Back"]) --Enchant Cloak - Protection
 LBIS:AddEnchant(spec0, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
 LBIS:AddEnchant(spec0, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
-LBIS:AddEnchant(spec0, "52763", LBIS.L["Wrist"]) --Arc Weld
+LBIS:AddEnchant(spec0, "74229", LBIS.L["Wrist"]) --Enchant Bracer - Superior Dodge
 LBIS:AddEnchant(spec0, "74239", LBIS.L["Wrist"]) --Enchant Bracer - Greater Expertise
 LBIS:AddEnchant(spec0, "74232", LBIS.L["Wrist"]) --Enchant Bracer - Precision
 LBIS:AddEnchant(spec0, "82177", LBIS.L["Hands"]) --Quickflip Deflection Plates

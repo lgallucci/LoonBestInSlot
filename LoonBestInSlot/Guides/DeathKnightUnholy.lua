@@ -60,9 +60,9 @@ LBIS:AddItem(spec0, "56299", LBIS.L["Ring"], "Alt") --Signet of Transformation
 LBIS:AddItem(spec0, "56457", LBIS.L["Ring"], "Alt") --Circle of Bone
 LBIS:AddItem(spec0, "56415", LBIS.L["Ring"], "Alt") --Nova Band
 LBIS:AddItem(spec0, "58180", LBIS.L["Trinket"], "BIS") --License to Slay
+LBIS:AddItem(spec0, "56393", LBIS.L["Trinket"], "BIS") --Heart of Solace
 LBIS:AddItem(spec0, "62464", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec0, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
-LBIS:AddItem(spec0, "56393", LBIS.L["Trinket"], "Alt") --Heart of Solace
 LBIS:AddItem(spec0, "56100", LBIS.L["Trinket"], "Alt") --Right Eye of Rajh
 LBIS:AddItem(spec0, "56345", LBIS.L["Trinket"], "Alt") --Magnetite Mirror
 LBIS:AddItem(spec0, "64377", LBIS.L["Two Hand"], "BIS") --Zin'rokh, Destroyer of Worlds

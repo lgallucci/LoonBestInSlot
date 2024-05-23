@@ -29,6 +29,7 @@ LBIS.EnchantSources =
     [74220] = { Name = "Enchant Gloves - Greater Expertise", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74225] = { Name = "Enchant Weapon - Heartsong", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74226] = { Name = "Enchant Shield - Mastery", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
+    [74229] = { Name = "Enchant Bracer - Superior Dodge", DesignId = "52763", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74232] = { Name = "Enchant Bracer - Precision", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74234] = { Name = "Enchant Cloak - Protection", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74235] = { Name = "Enchant Off-Hand - Superior Intellect", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
