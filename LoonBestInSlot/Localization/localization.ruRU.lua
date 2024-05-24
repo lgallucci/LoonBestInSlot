@@ -6,9 +6,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["Abyssal Depths"] = "Бездонные глубины";
   LBIS.L["Admiral Ripsnarl"] = "Адмирал Терзающий Рев";
   LBIS.L["Affliction"] = "Колдовство";
+--  LBIS.L["Akma'hat"] = "";
   LBIS.L["Al'Akir"] = "Ал'акир";
-  LBIS.L["Al'Akir/Cho'gall"] = "Ал'акир/Чо'Галл";
-  LBIS.L["Al'Akir/Nefarian"] = "Ал'акир/Нефариан";
   LBIS.L["Alchemy (500)"] = "Алхимия (500)";
   LBIS.L["All"] = "Все";
   LBIS.L["Altairus"] = "Альтаирий";
@@ -51,8 +50,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Blacksmithing Supplies"] = "";
 --  LBIS.L["Blacksmithing Trainer"] = "";
   LBIS.L["Blackwing Descent"] = "Твердыня Крыла Тьмы";
-  LBIS.L["Blackwing Descent (10)"] = "Твердыня Крыла Тьмы (10)";
-  LBIS.L["Blackwing Descent (10H)"] = "Твердыня Крыла Тьмы (10 Гер )";
+  LBIS.L["Blackwing Descent (Heroic)"] = "Твердыня Крыла Тьмы (Героический)";
 --  LBIS.L["Blazewing"] = "";
   LBIS.L["Blood"] = "Кровь";
 --  LBIS.L["Cat"] = "";
@@ -288,8 +286,8 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Terborus"] = "";
   LBIS.L["The Bastion of Twilight"] = "Сумеречный бастион";
   LBIS.L["The Bastion of Twilight (10)"] = "Сумеречный бастион (10)";
-  LBIS.L["The Bastion of Twilight (10H)"] = "Сумеречный бастион (10 Гер )";
---  LBIS.L["The BindingAuto Accept"] = "";
+  LBIS.L["The Bastion of Twilight (Heroic)"] = "Сумеречный бастион (Героический)";
+  LBIS.L["The Binding"] = "Связывание";
 --  LBIS.L["The Crucible of Carnage: The Twilight Terror!"] = "";
   LBIS.L["The Deadmines (Heroic)"] = "Мертвые копи (Героический)";
   LBIS.L["The Deadmines (Normal)"] = "Мертвые копи (Норм.)";
@@ -306,12 +304,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Therazane"] = "Теразан";
   LBIS.L["Therazane (Exalted)"] = "Теразан (Превознесение)";
   LBIS.L["Throne of the Four Winds"] = "Трон Четырех Ветров";
-  LBIS.L["Throne of the Four Winds (10)"] = "Трон Четырех Ветров (10)";
-  LBIS.L["Throne of the Four Winds (10)/Blackwing Descent (10)"] = "Трон Четырех Ветров (10)/Твердыня Крыла Тьмы (10)";
-  LBIS.L["Throne of the Four Winds (10)/The Bastion of Twilight (10)"] = "Трон Четырех Ветров (10)/Сумеречный бастион (10)";
-  LBIS.L["Throne of the Four Winds (10H)"] = "Трон Четырех Ветров (10 Гер )";
-  LBIS.L["Throne of the Four Winds (10H)/Blackwing Descent (10H)"] = "Трон Четырех Ветров (10 Гер )/Твердыня Крыла Тьмы (10 Гер )";
-  LBIS.L["Throne of the Four Winds (10H)/The Bastion of Twilight (10H)"] = "Трон Четырех Ветров (10 Гер )/Сумеречный бастион (10 Гер )";
+  LBIS.L["Throne of the Four Winds (Heroic)"] = "Трон Четырех Ветров (Героический)";
   LBIS.L["Throne of the Tides"] = "Трон Приливов";
   LBIS.L["Throne of the Tides (Heroic)"] = "Трон Приливов (Героический)";
   LBIS.L["Throne of the Tides (Normal)"] = "Трон Приливов (Норм.)";

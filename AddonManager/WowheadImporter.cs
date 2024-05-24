@@ -388,13 +388,13 @@ public static class WowheadImporter
         var sources = new Dictionary<int, List<(string, string)>>();
 
         var webAddresses = itemSources.Where((i) => i.Value.SourceType == @"LBIS.L[""unknown""]")
-                                           .Select((i) => $"https://www.wowhead.com/cata/item={i.Key}/");
+                                           .Select((i) => $"https://www.wowhead.com/item={i.Key}/");
         try 
         {
             await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
             {
                 var name = doc.Title?.Split("-")[0].Trim() ?? "unknown";
-                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/cata/item=", "").TrimEnd('/'));
+                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/item=", "").TrimEnd('/'));
                 var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
                 
                 itemSources[itemId].Name = name;
@@ -562,9 +562,9 @@ public static class WowheadImporter
                         {
                             csvLootTable[tierPiece.Key].AddItem(new ImportItemSource
                             {
-                                SourceType = tierPiece.Value.SourceType,
+                                SourceType = source.SourceType, //tierPiece.Value.SourceType,
                                 Source = source.Source,
-                                SourceNumber = tierPiece.Key.ToString(),
+                                SourceNumber = source.SourceNumber, //tierPiece.Key.ToString(),
                                 SourceLocation = source.SourceLocation,
                                 SourceFaction = tierPiece.Value.SourceFaction
                             });
@@ -582,9 +582,9 @@ public static class WowheadImporter
                     {
                         newLootTable.AddItem(new ImportItemSource
                         {
-                            SourceType = tierPiece.Value.SourceType,
+                            SourceType = source.SourceType, //tierPiece.Value.SourceType,
                             Source = source.Source,
-                            SourceNumber = tierPiece.Key.ToString(),
+                            SourceNumber = source.SourceNumber, //tierPiece.Key.ToString(),
                             SourceLocation = source.SourceLocation,
                             SourceFaction = tierPiece.Value.SourceFaction
                         });

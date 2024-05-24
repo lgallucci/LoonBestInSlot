@@ -6,9 +6,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Abyssal Depths"] = "심연의 나락";
   LBIS.L["Admiral Ripsnarl"] = "제독 으르렁니";
   LBIS.L["Affliction"] = "고통";
+--  LBIS.L["Akma'hat"] = "";
   LBIS.L["Al'Akir"] = "알아키르";
-  LBIS.L["Al'Akir/Cho'gall"] = "알아키르/초갈";
-  LBIS.L["Al'Akir/Nefarian"] = "알아키르/네파리안";
   LBIS.L["Alchemy (500)"] = "연금술 (500)";
   LBIS.L["All"] = "전체";
   LBIS.L["Altairus"] = "알타이루스";
@@ -51,8 +50,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Blacksmithing Supplies"] = "";
 --  LBIS.L["Blacksmithing Trainer"] = "";
   LBIS.L["Blackwing Descent"] = "검은날개 강림지";
-  LBIS.L["Blackwing Descent (10)"] = "검은날개 강림지 (10)";
-  LBIS.L["Blackwing Descent (10H)"] = "검은날개 강림지 (10인 (영웅))";
+  LBIS.L["Blackwing Descent (Heroic)"] = "검은날개 강림지 (영웅)";
 --  LBIS.L["Blazewing"] = "";
   LBIS.L["Blood"] = "혈기";
   LBIS.L["Cat"] = "표범";
@@ -288,8 +286,8 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Terborus"] = "";
   LBIS.L["The Bastion of Twilight"] = "황혼의 요새";
   LBIS.L["The Bastion of Twilight (10)"] = "황혼의 요새 (10)";
-  LBIS.L["The Bastion of Twilight (10H)"] = "황혼의 요새 (10인 (영웅))";
---  LBIS.L["The BindingAuto Accept"] = "";
+  LBIS.L["The Bastion of Twilight (Heroic)"] = "황혼의 요새 (영웅)";
+  LBIS.L["The Binding"] = "결속";
 --  LBIS.L["The Crucible of Carnage: The Twilight Terror!"] = "";
   LBIS.L["The Deadmines (Heroic)"] = "죽음의 폐광 (영웅)";
   LBIS.L["The Deadmines (Normal)"] = "죽음의 폐광 (일반)";
@@ -306,12 +304,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Therazane"] = "테라제인";
   LBIS.L["Therazane (Exalted)"] = "테라제인 (확고한 동맹)";
   LBIS.L["Throne of the Four Winds"] = "네 바람의 왕좌";
-  LBIS.L["Throne of the Four Winds (10)"] = "네 바람의 왕좌 (10)";
-  LBIS.L["Throne of the Four Winds (10)/Blackwing Descent (10)"] = "네 바람의 왕좌 (10)/검은날개 강림지 (10)";
-  LBIS.L["Throne of the Four Winds (10)/The Bastion of Twilight (10)"] = "네 바람의 왕좌 (10)/황혼의 요새 (10)";
-  LBIS.L["Throne of the Four Winds (10H)"] = "네 바람의 왕좌 (10인 (영웅))";
-  LBIS.L["Throne of the Four Winds (10H)/Blackwing Descent (10H)"] = "네 바람의 왕좌 (10인 (영웅))/검은날개 강림지 (10인 (영웅))";
-  LBIS.L["Throne of the Four Winds (10H)/The Bastion of Twilight (10H)"] = "네 바람의 왕좌 (10인 (영웅))/황혼의 요새 (10인 (영웅))";
+  LBIS.L["Throne of the Four Winds (Heroic)"] = "네 바람의 왕좌 (영웅)";
   LBIS.L["Throne of the Tides"] = "파도의 왕좌";
   LBIS.L["Throne of the Tides (Heroic)"] = "파도의 왕좌 (영웅)";
   LBIS.L["Throne of the Tides (Normal)"] = "파도의 왕좌 (일반)";

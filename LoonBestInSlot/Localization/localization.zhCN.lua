@@ -6,9 +6,8 @@ if GetLocale() == "zhCN" then
   LBIS.L["Abyssal Depths"] = "无底海渊";
   LBIS.L["Admiral Ripsnarl"] = "撕心狼将军";
   LBIS.L["Affliction"] = "痛苦";
+--  LBIS.L["Akma'hat"] = "";
   LBIS.L["Al'Akir"] = "奥拉基尔";
-  LBIS.L["Al'Akir/Cho'gall"] = "奥拉基尔/古加尔";
-  LBIS.L["Al'Akir/Nefarian"] = "奥拉基尔/奈法利安";
   LBIS.L["Alchemy (500)"] = "炼金术 (500)";
   LBIS.L["All"] = "全部";
   LBIS.L["Altairus"] = "阿尔泰鲁斯";
@@ -51,8 +50,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Blacksmithing Supplies"] = "";
 --  LBIS.L["Blacksmithing Trainer"] = "";
   LBIS.L["Blackwing Descent"] = "黑翼血环";
-  LBIS.L["Blackwing Descent (10)"] = "黑翼血环 (10)";
-  LBIS.L["Blackwing Descent (10H)"] = "黑翼血环 (10人英雄)";
+  LBIS.L["Blackwing Descent (Heroic)"] = "黑翼血环 (英雄)";
 --  LBIS.L["Blazewing"] = "";
   LBIS.L["Blood"] = "鲜血";
 --  LBIS.L["Cat"] = "";
@@ -288,8 +286,8 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Terborus"] = "";
   LBIS.L["The Bastion of Twilight"] = "暮光堡垒";
   LBIS.L["The Bastion of Twilight (10)"] = "暮光堡垒 (10)";
-  LBIS.L["The Bastion of Twilight (10H)"] = "暮光堡垒 (10人英雄)";
---  LBIS.L["The BindingAuto Accept"] = "";
+  LBIS.L["The Bastion of Twilight (Heroic)"] = "暮光堡垒 (英雄)";
+  LBIS.L["The Binding"] = "誓缚";
 --  LBIS.L["The Crucible of Carnage: The Twilight Terror!"] = "";
   LBIS.L["The Deadmines (Heroic)"] = "死亡矿井 (英雄)";
   LBIS.L["The Deadmines (Normal)"] = "死亡矿井 (正常)";
@@ -306,12 +304,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Therazane"] = "塞拉赞恩";
   LBIS.L["Therazane (Exalted)"] = "塞拉赞恩 (崇拜)";
   LBIS.L["Throne of the Four Winds"] = "风神王座";
-  LBIS.L["Throne of the Four Winds (10)"] = "风神王座 (10)";
-  LBIS.L["Throne of the Four Winds (10)/Blackwing Descent (10)"] = "风神王座 (10)/黑翼血环 (10)";
-  LBIS.L["Throne of the Four Winds (10)/The Bastion of Twilight (10)"] = "风神王座 (10)/暮光堡垒 (10)";
-  LBIS.L["Throne of the Four Winds (10H)"] = "风神王座 (10人英雄)";
-  LBIS.L["Throne of the Four Winds (10H)/Blackwing Descent (10H)"] = "风神王座 (10人英雄)/黑翼血环 (10人英雄)";
-  LBIS.L["Throne of the Four Winds (10H)/The Bastion of Twilight (10H)"] = "风神王座 (10人英雄)/暮光堡垒 (10人英雄)";
+  LBIS.L["Throne of the Four Winds (Heroic)"] = "风神王座 (英雄)";
   LBIS.L["Throne of the Tides"] = "潮汐王座";
   LBIS.L["Throne of the Tides (Heroic)"] = "潮汐王座 (英雄)";
   LBIS.L["Throne of the Tides (Normal)"] = "潮汐王座 (正常)";

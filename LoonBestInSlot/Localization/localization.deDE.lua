@@ -6,9 +6,8 @@ if GetLocale() == "deDE" then
   LBIS.L["Abyssal Depths"] = "Abyssische Tiefen";
   LBIS.L["Admiral Ripsnarl"] = "Admiral Knurrreißer";
   LBIS.L["Affliction"] = "Gebrechen";
+--  LBIS.L["Akma'hat"] = "";
   LBIS.L["Al'Akir"] = "Al'Akir";
-  LBIS.L["Al'Akir/Cho'gall"] = "Al'Akir/Cho'gall";
-  LBIS.L["Al'Akir/Nefarian"] = "Al'Akir/Nefarian";
   LBIS.L["Alchemy (500)"] = "Alchemie (500)";
   LBIS.L["All"] = "Alle";
   LBIS.L["Altairus"] = "Altairus";
@@ -51,8 +50,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Blacksmithing Supplies"] = "";
 --  LBIS.L["Blacksmithing Trainer"] = "";
   LBIS.L["Blackwing Descent"] = "Der Pechschwingenabstieg";
-  LBIS.L["Blackwing Descent (10)"] = "Der Pechschwingenabstieg (10)";
-  LBIS.L["Blackwing Descent (10H)"] = "Der Pechschwingenabstieg (10H)";
+  LBIS.L["Blackwing Descent (Heroic)"] = "Der Pechschwingenabstieg (Heroisch)";
 --  LBIS.L["Blazewing"] = "";
   LBIS.L["Blood"] = "Blut";
   LBIS.L["Cat"] = "Katze";
@@ -288,8 +286,8 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Terborus"] = "";
   LBIS.L["The Bastion of Twilight"] = "Die Bastion des Zwielichts";
   LBIS.L["The Bastion of Twilight (10)"] = "Die Bastion des Zwielichts (10)";
-  LBIS.L["The Bastion of Twilight (10H)"] = "Die Bastion des Zwielichts (10H)";
---  LBIS.L["The BindingAuto Accept"] = "";
+  LBIS.L["The Bastion of Twilight (Heroic)"] = "Die Bastion des Zwielichts (Heroisch)";
+  LBIS.L["The Binding"] = "Die Bindung";
 --  LBIS.L["The Crucible of Carnage: The Twilight Terror!"] = "";
   LBIS.L["The Deadmines (Heroic)"] = "Die Todesminen (Heroisch)";
   LBIS.L["The Deadmines (Normal)"] = "Die Todesminen (Normal)";
@@ -306,12 +304,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Therazane"] = "Therazane";
   LBIS.L["Therazane (Exalted)"] = "Therazane (Ehrfürchtig)";
   LBIS.L["Throne of the Four Winds"] = "Thron der Vier Winde";
-  LBIS.L["Throne of the Four Winds (10)"] = "Thron der Vier Winde (10)";
-  LBIS.L["Throne of the Four Winds (10)/Blackwing Descent (10)"] = "Thron der Vier Winde (10)/Der Pechschwingenabstieg (10)";
-  LBIS.L["Throne of the Four Winds (10)/The Bastion of Twilight (10)"] = "Thron der Vier Winde (10)/Die Bastion des Zwielichts (10)";
-  LBIS.L["Throne of the Four Winds (10H)"] = "Thron der Vier Winde (10H)";
-  LBIS.L["Throne of the Four Winds (10H)/Blackwing Descent (10H)"] = "Thron der Vier Winde (10H)/Der Pechschwingenabstieg (10H)";
-  LBIS.L["Throne of the Four Winds (10H)/The Bastion of Twilight (10H)"] = "Thron der Vier Winde (10H)/Die Bastion des Zwielichts (10H)";
+  LBIS.L["Throne of the Four Winds (Heroic)"] = "Thron der Vier Winde (Heroisch)";
   LBIS.L["Throne of the Tides"] = "Thron der Gezeiten";
   LBIS.L["Throne of the Tides (Heroic)"] = "Thron der Gezeiten (Heroisch)";
   LBIS.L["Throne of the Tides (Normal)"] = "Thron der Gezeiten (Normal)";

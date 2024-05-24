@@ -6,9 +6,8 @@ if GetLocale() == "zhTW" then
   LBIS.L["Abyssal Depths"] = "地獄深淵";
   LBIS.L["Admiral Ripsnarl"] = "利普斯納爾上將";
 --  LBIS.L["Affliction"] = "";
+--  LBIS.L["Akma'hat"] = "";
   LBIS.L["Al'Akir"] = "奧拉基爾";
-  LBIS.L["Al'Akir/Cho'gall"] = "奧拉基爾/丘加利";
-  LBIS.L["Al'Akir/Nefarian"] = "奧拉基爾/奈法利安";
   LBIS.L["Alchemy (500)"] = "鍊金術 (500)";
   LBIS.L["All"] = "全部";
   LBIS.L["Altairus"] = "艾塔伊洛斯";
@@ -51,8 +50,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Blacksmithing Supplies"] = "";
 --  LBIS.L["Blacksmithing Trainer"] = "";
   LBIS.L["Blackwing Descent"] = "黑翼陷窟";
-  LBIS.L["Blackwing Descent (10)"] = "黑翼陷窟 (10)";
-  LBIS.L["Blackwing Descent (10H)"] = "黑翼陷窟 (10H)";
+  LBIS.L["Blackwing Descent (Heroic)"] = "黑翼陷窟 (英雄模式)";
 --  LBIS.L["Blazewing"] = "";
   LBIS.L["Blood"] = "血魄";
 --  LBIS.L["Cat"] = "";
@@ -288,8 +286,8 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Terborus"] = "";
   LBIS.L["The Bastion of Twilight"] = "暮光堡壘";
   LBIS.L["The Bastion of Twilight (10)"] = "暮光堡壘 (10)";
-  LBIS.L["The Bastion of Twilight (10H)"] = "暮光堡壘 (10H)";
---  LBIS.L["The BindingAuto Accept"] = "";
+  LBIS.L["The Bastion of Twilight (Heroic)"] = "暮光堡壘 (英雄模式)";
+  LBIS.L["The Binding"] = "誓縛";
 --  LBIS.L["The Crucible of Carnage: The Twilight Terror!"] = "";
   LBIS.L["The Deadmines (Heroic)"] = "死亡礦坑 (英雄模式)";
   LBIS.L["The Deadmines (Normal)"] = "死亡礦坑 (一般)";
@@ -306,12 +304,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Therazane"] = "瑟拉贊恩";
   LBIS.L["Therazane (Exalted)"] = "瑟拉贊恩 (崇拜)";
   LBIS.L["Throne of the Four Winds"] = "四風王座";
-  LBIS.L["Throne of the Four Winds (10)"] = "四風王座 (10)";
-  LBIS.L["Throne of the Four Winds (10)/Blackwing Descent (10)"] = "四風王座 (10)/黑翼陷窟 (10)";
-  LBIS.L["Throne of the Four Winds (10)/The Bastion of Twilight (10)"] = "四風王座 (10)/暮光堡壘 (10)";
-  LBIS.L["Throne of the Four Winds (10H)"] = "四風王座 (10H)";
-  LBIS.L["Throne of the Four Winds (10H)/Blackwing Descent (10H)"] = "四風王座 (10H)/黑翼陷窟 (10H)";
-  LBIS.L["Throne of the Four Winds (10H)/The Bastion of Twilight (10H)"] = "四風王座 (10H)/暮光堡壘 (10H)";
+  LBIS.L["Throne of the Four Winds (Heroic)"] = "四風王座 (英雄模式)";
   LBIS.L["Throne of the Tides"] = "海潮王座";
   LBIS.L["Throne of the Tides (Heroic)"] = "海潮王座 (英雄模式)";
   LBIS.L["Throne of the Tides (Normal)"] = "海潮王座 (一般)";
