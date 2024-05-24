@@ -16,4 +16,10 @@ public abstract class LootImporter
 
     internal abstract string FileName { get; }
     internal abstract Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog);
+
+    internal CancellationToken _importCancelToken;
+    public LootImporter(CancellationToken cancellationToken)
+    {
+        _importCancelToken = cancellationToken;
+    }
 }

@@ -1242,74 +1242,74 @@
     },
     "63682": {
       "Name": "Helm of the Forlorn Vanquisher",
-      "Source": "Al'Akir/Nefarian",
+      "Source": "Al'Akir~Nefarian",
       "SourceType": "Drop",
-      "SourceNumber": "0/0",
-      "SourceLocation": "Throne of the Four Winds/Blackwing Descent",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Throne of the Four Winds~Blackwing Descent",
       "SourceFaction": "B"
     },
     "63683": {
       "Name": "Helm of the Forlorn Conqueror",
-      "Source": "Al'Akir/Nefarian",
+      "Source": "Al'Akir~Nefarian",
       "SourceType": "Drop",
-      "SourceNumber": "0/0",
-      "SourceLocation": "Throne of the Four Winds/Blackwing Descent",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Throne of the Four Winds~Blackwing Descent",
       "SourceFaction": "B"
     },
     "63684": {
       "Name": "Helm of the Forlorn Protector",
-      "Source": "Al'Akir/Nefarian",
+      "Source": "Al'Akir~Nefarian",
       "SourceType": "Drop",
-      "SourceNumber": "0/0",
-      "SourceLocation": "Throne of the Four Winds/Blackwing Descent",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Throne of the Four Winds~Blackwing Descent",
       "SourceFaction": "B"
     },
     "64314": {
       "Name": "Mantle of the Forlorn Vanquisher",
-      "Source": "Al'Akir/Cho'gall",
+      "Source": "Al'Akir~Cho'gall",
       "SourceType": "Drop",
-      "SourceNumber": "0/0",
-      "SourceLocation": "Throne of the Four Winds/The Bastion of Twilight",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Throne of the Four Winds~The Bastion of Twilight",
       "SourceFaction": "B"
     },
     "64315": {
       "Name": "Mantle of the Forlorn Conqueror",
-      "Source": "Al'Akir/Cho'gall",
+      "Source": "Al'Akir~Cho'gall",
       "SourceType": "Drop",
-      "SourceNumber": "0/0",
-      "SourceLocation": "Throne of the Four Winds/The Bastion of Twilight",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Throne of the Four Winds~The Bastion of Twilight",
       "SourceFaction": "B"
     },
     "64316": {
       "Name": "Mantle of the Forlorn Protector",
-      "Source": "Al'Akir/Cho'gall",
+      "Source": "Al'Akir~Cho'gall",
       "SourceType": "Drop",
-      "SourceNumber": "0/0",
-      "SourceLocation": "Throne of the Four Winds/The Bastion of Twilight",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Throne of the Four Winds~The Bastion of Twilight",
       "SourceFaction": "B"
     },
     "65000": {
       "Name": "Crown of the Forlorn Protector",
-      "Source": "Al'Akir/Nefarian",
+      "Source": "Al'Akir~Nefarian",
       "SourceType": "Drop",
-      "SourceNumber": "0/0",
-      "SourceLocation": "Throne of the Four Winds (Heroic)/Blackwing Descent (Heroic)",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Throne of the Four Winds (Heroic)~Blackwing Descent (Heroic)",
       "SourceFaction": "B"
     },
     "65001": {
       "Name": "Crown of the Forlorn Conqueror",
-      "Source": "Al'Akir/Nefarian",
+      "Source": "Al'Akir~Nefarian",
       "SourceType": "Drop",
-      "SourceNumber": "0/0",
-      "SourceLocation": "Throne of the Four Winds (Heroic)/Blackwing Descent (Heroic)",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Throne of the Four Winds (Heroic)~Blackwing Descent (Heroic)",
       "SourceFaction": "B"
     },
     "65002": {
       "Name": "Crown of the Forlorn Vanquisher",
-      "Source": "Al'Akir/Nefarian",
+      "Source": "Al'Akir~Nefarian",
       "SourceType": "Drop",
-      "SourceNumber": "0/0",
-      "SourceLocation": "Throne of the Four Winds (Heroic)/Blackwing Descent (Heroic)",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Throne of the Four Winds (Heroic)~Blackwing Descent (Heroic)",
       "SourceFaction": "B"
     },
     "65003": {
@@ -1898,26 +1898,26 @@
     },
     "65087": {
       "Name": "Shoulders of the Forlorn Protector",
-      "Source": "Al'Akir/Cho'gall",
+      "Source": "Al'Akir~Cho'gall",
       "SourceType": "Drop",
-      "SourceNumber": "0/0",
-      "SourceLocation": "Throne of the Four Winds (Heroic)/The Bastion of Twilight (Heroic)",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Throne of the Four Winds (Heroic)~The Bastion of Twilight (Heroic)",
       "SourceFaction": "B"
     },
     "65088": {
       "Name": "Shoulders of the Forlorn Conqueror",
-      "Source": "Al'Akir/Cho'gall",
+      "Source": "Al'Akir~Cho'gall",
       "SourceType": "Drop",
-      "SourceNumber": "0/0",
-      "SourceLocation": "Throne of the Four Winds (Heroic)/The Bastion of Twilight (Heroic)",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Throne of the Four Winds (Heroic)~The Bastion of Twilight (Heroic)",
       "SourceFaction": "B"
     },
     "65089": {
       "Name": "Shoulders of the Forlorn Vanquisher",
-      "Source": "Al'Akir/Cho'gall",
+      "Source": "Al'Akir~Cho'gall",
       "SourceType": "Drop",
-      "SourceNumber": "0/0",
-      "SourceLocation": "Throne of the Four Winds (Heroic)/The Bastion of Twilight (Heroic)",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Throne of the Four Winds (Heroic)~The Bastion of Twilight (Heroic)",
       "SourceFaction": "B"
     },
     "65090": {

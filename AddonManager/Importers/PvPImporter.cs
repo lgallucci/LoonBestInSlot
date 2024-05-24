@@ -12,6 +12,10 @@ public class PvPImporter : LootImporter
         { @"https://www.wowhead.com/cata/", new Tuple<string, string>("Wrathful, Battlemaster>245", "Faction PVP Vendor") },
     };
 
+    public PvPImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
+
     internal override string FileName { get => "PvPItemList"; }
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
@@ -82,7 +86,7 @@ public class PvPImporter : LootImporter
                     });
                 }
             });
-        }, writeToLog);
+        }, writeToLog, _importCancelToken);
 
         return items;
     }

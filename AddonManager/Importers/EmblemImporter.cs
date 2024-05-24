@@ -27,6 +27,10 @@ public class EmblemImporter : LootImporter
         "https://www.wowhead.com/cata/npc=46555/gunra#sells;50",
     };
 
+    public EmblemImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
+
     internal override string FileName { get => "EmblemItemList"; }
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
@@ -117,7 +121,7 @@ public class EmblemImporter : LootImporter
                     SourceFaction = sourceFaction
                 });
             }
-        }, writeToLog);
+        }, writeToLog, _importCancelToken);
 
         return items;
     }

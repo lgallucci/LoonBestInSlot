@@ -53,6 +53,10 @@ public class TierSetImporter : LootImporter
         @"https://www.wowhead.com/cata/item=67431/gauntlets-of-the-forlorn-vanquisher#currency-for",
     };
 
+    public TierSetImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
+
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToText)
     {
         items.Items.Clear();
@@ -142,14 +146,14 @@ public class TierSetImporter : LootImporter
                                 Source = tokenName?.TextContent ?? string.Empty,
                                 SourceLocation = "unknown",
                                 SourceNumber = tokenId.ToString(),
-                                SourceType = "TierToken",
+                                SourceType = "Dungeon Token",
                                 SourceFaction = sourceFaction
                             });
                         }
                     }
                 }
             }
-        }, writeToText);
+        }, writeToText, _importCancelToken);
 
         return dbItems;
     }

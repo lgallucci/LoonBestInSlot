@@ -150,14 +150,14 @@ public static class Common
         }
     }
 
-    internal static async Task ReadWowheadContainsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
+    internal static async Task ReadWowheadContainsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog, CancellationToken? _importCancelToken)
     {
-        await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadContainsList(doc, uri, func), writeToLog);
+        await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadContainsList(doc, uri, func), writeToLog, _importCancelToken);
     }
 
-    internal static async Task ReadWowheadDropsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
+    internal static async Task ReadWowheadDropsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog, CancellationToken? _importCancelToken)
     {
-        await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadDropsList(doc, uri, func), writeToLog);
+        await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadDropsList(doc, uri, func), writeToLog, _importCancelToken);
     }
 
     internal static async Task ReadWowheadDroppedByList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
@@ -175,9 +175,9 @@ public static class Common
         }, writeToLog);
     }
 
-    internal static async Task ReadWowheadSellsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
+    internal static async Task ReadWowheadSellsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog, CancellationToken? cancelToken = null)
     {
-        await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadSellsList(doc, uri, func), writeToLog);
+        await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadSellsList(doc, uri, func), writeToLog, cancelToken);
     }
 
     internal static void ReadWowheadSellsList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)

@@ -19,6 +19,10 @@ public class ReputationImporter : LootImporter
         { @"https://www.wowhead.com/npc=48531/pogg", "Hellscream's Reach, H" },
     };
 
+    public ReputationImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
+
     internal override string FileName { get => "ReputationItemList"; }
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
@@ -45,7 +49,7 @@ public class ReputationImporter : LootImporter
                     SourceFaction = sourceSplit[1].Trim()
                 });
             }
-        }, writeToLog);
+        }, writeToLog, _importCancelToken);
 
         return items;
     }

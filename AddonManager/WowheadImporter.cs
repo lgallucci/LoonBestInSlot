@@ -558,9 +558,9 @@ public static class WowheadImporter
                         {
                             csvLootTable[tierPiece.Key].AddItem(new ImportItemSource
                             {
-                                SourceType = source.SourceType,
+                                SourceType = tierPiece.Value.SourceType,
                                 Source = source.Source,
-                                SourceNumber = source.SourceNumber,
+                                SourceNumber = tierPiece.Key.ToString(),
                                 SourceLocation = source.SourceLocation,
                                 SourceFaction = tierPiece.Value.SourceFaction
                             });
@@ -578,9 +578,9 @@ public static class WowheadImporter
                     {
                         newLootTable.AddItem(new ImportItemSource
                         {
-                            SourceType = source.SourceType,
+                            SourceType = tierPiece.Value.SourceType,
                             Source = source.Source,
-                            SourceNumber = source.SourceNumber,
+                            SourceNumber = tierPiece.Key.ToString(),
                             SourceLocation = source.SourceLocation,
                             SourceFaction = tierPiece.Value.SourceFaction
                         });

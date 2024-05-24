@@ -169,7 +169,7 @@ function LBIS.BrowserWindow:UpdateItemsForSpec(rowFunc)
     window.ScrollFrame:SetScrollChild(window.Container);
 end
 
-local function createTabs(window, content) 
+local function createTabs(window, content)
 
     local itemListTabButton = CreateFrame("Button", "ContainerTab1", window, "CharacterFrameTabButtonTemplate")
     local itemListTabString = itemListTabButton:CreateFontString("ItemListTabText", "OVERLAY", "GameFontNormalSmall");
@@ -207,7 +207,6 @@ local function createTabs(window, content)
         LBIS.BrowserWindow:RefreshItems();
     end);
 
-
     customListTabButton = CreateFrame("Button", "ContainerTab4", window, "CharacterFrameTabButtonTemplate")
     local customListTabString = customListTabButton:CreateFontString("CustomListTabText", "OVERLAY", "GameFontNormalSmall");
     customListTabString:SetPoint("CENTER", customListTabButton, "CENTER", 0, 3);
@@ -228,7 +227,7 @@ local function createTabs(window, content)
     customEditTabButton:SetScript("OnClick", function(self)
         PanelTemplates_SetTab(content, 5);
         LBISSettings.OpenTab = "CustomEditList";
-    
+
         LBIS.BrowserWindow:RefreshItems();
     end);
 

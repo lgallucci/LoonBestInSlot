@@ -64,6 +64,10 @@ public class ProfessionImporter : LootImporter
     };
     private int minSkillLevel = 451;
 
+    public ProfessionImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
+
     internal override string FileName { get => "ProfessionItemList"; }
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
@@ -119,7 +123,7 @@ public class ProfessionImporter : LootImporter
                         SourceFaction = sourceFaction
                     });
             }
-        }, writeToLog);
+        }, writeToLog, _importCancelToken);
 
         return items;
     }

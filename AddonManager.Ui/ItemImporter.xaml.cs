@@ -1,6 +1,7 @@
 // Copyright (c) Microsoft Corporation and Contributors.
 // Licensed under the MIT License.
 
+using System.Threading;
 using AddonManager.Importers;
 using AddonManager.Models;
 using Microsoft.UI.Xaml;
@@ -28,6 +29,7 @@ public sealed partial class ItemImporter : Page
 
     private async void Convert_Click(object sender, RoutedEventArgs e)
     {
+        _importCancelToken = new CancellationTokenSource();
         var importerType = cmbImporterType.SelectedValue.ToString();
         lblStatus.Text = "Processing...";
         txtJsonToParse.Text = "";
@@ -35,25 +37,25 @@ public sealed partial class ItemImporter : Page
         switch (importerType)
         {
             case "EmblemImporter":
-                importer = new EmblemImporter();
+                importer = new EmblemImporter(_importCancelToken.Token);
                 break;
             case "ProfessionImporter":
-                importer = new ProfessionImporter();
+                importer = new ProfessionImporter(_importCancelToken.Token);
                 break;
             case "DungeonImporter":
-                importer = new DungeonImporter();
+                importer = new DungeonImporter(_importCancelToken.Token);
                 break;
             case "RaidImporter":
-                importer = new RaidImporter();
+                importer = new RaidImporter(_importCancelToken.Token);
                 break;
             case "PvPImporter":
-                importer = new PvPImporter();
+                importer = new PvPImporter(_importCancelToken.Token);
                 break;
             case "ReputationImporter":
-                importer = new ReputationImporter();
+                importer = new ReputationImporter(_importCancelToken.Token);
                 break;
             case "TierSetImporter":
-                importer = new TierSetImporter();
+                importer = new TierSetImporter(_importCancelToken.Token);
                 break;
             default:
                 txtJsonToParse.Text = "Choose a Importer !";
@@ -69,5 +71,11 @@ public sealed partial class ItemImporter : Page
     private void Importers_Click(object sender, RoutedEventArgs e)
     {
         this.Frame.Navigate(typeof(GuideImporter), null, new DrillInNavigationTransitionInfo());
+    }
+
+    CancellationTokenSource _importCancelToken = new CancellationTokenSource();
+    private void Cancel_Click(object sender, RoutedEventArgs e)
+    {
+        _importCancelToken.Cancel();
     }
 }

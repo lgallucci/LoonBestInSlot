@@ -62,6 +62,10 @@ public class RaidImporter : LootImporter
         "Shadowfrost Shard"
     };
 
+    public RaidImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
+
     internal override string FileName { get => "RaidItemList"; }
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
@@ -71,13 +75,13 @@ public class RaidImporter : LootImporter
         {
             Int32.TryParse(row.Children[4].TextContent, out int itemLevel);
             InternalItemsParse(wowheadUriList, webAddress, row, itemId, itemLevel, item, items);
-        }, writeToLog);
+        }, writeToLog, _importCancelToken);
 
         await Common.ReadWowheadContainsList(wowheadContainsUriList.Keys.ToList(), (webAddress, row, itemId, item) =>
         {
             Int32.TryParse(row.Children[3].TextContent, out int itemLevel);
             InternalItemsParse(wowheadContainsUriList, webAddress, row, itemId, itemLevel, item, items);
-        }, writeToLog);
+        }, writeToLog, _importCancelToken);
 
         foreach (var trashDrop in trashDrops)
         {

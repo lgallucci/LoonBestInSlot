@@ -20,6 +20,10 @@ public class DungeonImporter : LootImporter
             {@"https://www.wowhead.com/cata/guide/dungeons/vortex-pinnacle-loot-guide", "Vortex Pinnacle"},
         };
 
+    public DungeonImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
+
     internal override string FileName { get => "DungeonItemList"; }
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
@@ -35,7 +39,7 @@ public class DungeonImporter : LootImporter
                     AddLootItems(htmlElement, dungeonUriList[uri], items);
                 }
             }
-        }, writeToLog);
+        }, writeToLog, _importCancelToken);
         return items;
     }
 

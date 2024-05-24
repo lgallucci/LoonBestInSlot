@@ -14,7 +14,8 @@
     <Grid>
         <Button Content="Import" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="Convert_Click"/>
         <ComboBox x:Name="cmbImporterType" HorizontalAlignment="Left" Margin="75,9,0,0" Text="EmblemImporter" VerticalAlignment="Top" Width="150"/>
-        <TextBlock x:Name="lblStatus" HorizontalAlignment="Left" Margin="255,14,0,0" Width="150" Text="Ready !"/>
+        <Button x:Name="btnCancel" Content="Cancel" Margin="255,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Left" Click="Cancel_Click"/>
+        <TextBlock x:Name="lblStatus" HorizontalAlignment="Left" Margin="355,14,0,0" Width="150" Text="Ready !"/>
         <ScrollViewer Margin="0,50,0,0" BorderBrush="Gray" BorderThickness="1">
             <TextBox x:Name="txtJsonToParse" TextWrapping="Wrap" />
         </ScrollViewer>
