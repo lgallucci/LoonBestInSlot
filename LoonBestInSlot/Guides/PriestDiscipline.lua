@@ -20,16 +20,12 @@ LBIS:AddEnchant(spec1, "55628", LBIS.L["Wrist"]) --Socket Bracer
 LBIS:AddEnchant(spec1, "74198", LBIS.L["Hands"]) --Enchant Gloves - Haste
 LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec1, "55641", LBIS.L["Hands"]) --Socket Gloves
-LBIS:AddEnchant(spec1, "65034", LBIS.L["Waist"]) --Belt of Arcane Storms
-LBIS:AddEnchant(spec1, "65376", LBIS.L["Waist"]) --Soul Breath Belt of the Undertow
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec1, "75150", LBIS.L["Legs"]) --Powerful Ghostly Spellthread
 LBIS:AddEnchant(spec1, "74199", LBIS.L["Feet"]) --Enchant Boots - Haste
 LBIS:AddEnchant(spec1, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
 LBIS:AddEnchant(spec1, "65112", LBIS.L["Neck"]) --Valiona's Medallion
-LBIS:AddEnchant(spec1, "65076", LBIS.L["Ring"]) --Security Measure Alpha
-LBIS:AddEnchant(spec1, "65373", LBIS.L["Ring"]) --Planetary Band
 LBIS:AddEnchant(spec1, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect
 LBIS:AddEnchant(spec1, "74242", LBIS.L["Main Hand"]) --Enchant Weapon - Power Torrent
 LBIS:AddEnchant(spec1, "74235", LBIS.L["Off Hand"]) --Enchant Off-Hand - Superior Intellect

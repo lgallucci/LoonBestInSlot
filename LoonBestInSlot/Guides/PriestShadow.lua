@@ -19,8 +19,6 @@ LBIS:AddEnchant(spec1, "55628", LBIS.L["Wrist"]) --Socket Bracer
 LBIS:AddEnchant(spec1, "74198", LBIS.L["Hands"]) --Enchant Gloves - Haste
 LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec1, "55641", LBIS.L["Hands"]) --Socket Gloves
-LBIS:AddEnchant(spec1, "65079", LBIS.L["Waist"]) --X-Tron Duct Tape
-LBIS:AddEnchant(spec1, "65034", LBIS.L["Waist"]) --Belt of Arcane Storms
 LBIS:AddEnchant(spec1, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "75150", LBIS.L["Legs"]) --Powerful Ghostly Spellthread

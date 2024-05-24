@@ -616,9 +616,7 @@ public class WowheadGuideParser
                         if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*enchant").Success ||
                             Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*armor").Success ||
                             Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*scope").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "best.*enchant").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), ".*enchants:").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), ".*enchant:").Success)
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "best.*enchant").Success)
                         {
                             foundEnchantText = true;
                         }
