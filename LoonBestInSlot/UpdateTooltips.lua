@@ -43,7 +43,7 @@ local function isInEnabledPhase(phaseText)
 			return true;
 		end
 	end
-	
+
 	return false;
 end
 
@@ -59,12 +59,12 @@ local function buildCombinedTooltip(entry, combinedTooltip, foundCustom)
 			classCount[classSpec.Class..v.Bis..v.Phase] = (classCount[classSpec.Class..v.Bis..v.Phase] or 0) + 1;
 			if (combinedSpecs[classSpec.Class..v.Bis..v.Phase] == nil) then
 				combinedSpecs[classSpec.Class..v.Bis..v.Phase] = { Class = classSpec.Class, Spec = classSpec.Spec, Bis = v.Bis, Phase = v.Phase }
-			else				
+			else
 				combinedSpecs[classSpec.Class..v.Bis..v.Phase].Spec = combinedSpecs[classSpec.Class..v.Bis..v.Phase].Spec..", "..classSpec.Spec;
 			end
 		end
 	end
-	
+
 	for _, v in pairs(combinedSpecs) do
 		if (v.Class ~= "Druid" and classCount[v.Class..v.Bis..v.Phase] == 3) then
 			v.Spec = "";
@@ -81,10 +81,10 @@ local function buildCustomTooltip(priorityEntry, combinedTooltip)
 	local showTooltip = false;
 	if LBISSettings.ShowCustom and priorityEntry ~= nil then
 		for k, v in pairs(priorityEntry) do
-		
+
 			local classSpec = LBIS.ClassSpec[k]
 			foundCustom[k] = true;
-				
+
 			table.insert(combinedTooltip, { Class = classSpec.Class, Spec = classSpec.Spec, Bis = v.TooltipText, Phase = "" })
 		end
 	end
@@ -105,7 +105,7 @@ local function buildTooltip(tooltip, combinedTooltip)
 		local color = RAID_CLASS_COLORS[class]
 		local coords = CLASS_ICON_TCOORDS[class]
 		local classfontstring = "|T" .. iconpath .. ":14:14:::256:256:" .. iconOffset(coords[1] * 4, coords[3] * 4) .. "|t"
-		
+
         if v.Phase == "0" or v.Phase == "99" then
             tooltip:AddDoubleLine(classfontstring .. " " .. v.Class .. " " .. v.Spec, v.Bis, color.r, color.g, color.b, color.r, color.g, color.b, true)
         else
@@ -132,7 +132,6 @@ local function onTooltipSetItem(tooltip, ...)
 		local combinedTooltip = {};
 		local foundCustom = {};
 
-		
 		if LBIS.CustomEditList.Items[itemId] then
 			foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[itemId], combinedTooltip)
 		end
@@ -149,7 +148,7 @@ local function onTooltipSetItem(tooltip, ...)
 				if LBIS.CustomEditList.Items[v] then
 					foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[v], combinedTooltip)
 				end
-				
+
 				if LBIS.ItemsByIdAndSpec[v] then
 					for key, entry in pairs(LBIS.ItemsByIdAndSpec[v]) do 	
 						itemEntries[key] = entry;

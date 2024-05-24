@@ -1,11 +1,11 @@
 LBISSettingsDefault =
 {
-	SelectedSpec = "", 
-	SelectedSlot = LBIS.L["All"], 
-	SelectedPhase = LBIS.L["All"], 
-	SelectedRank = LBIS.L["All"], 
-	SelectedSourceType = LBIS.L["All"], 
-	SelectedZone = LBIS.L["All"], 
+	SelectedSpec = "",
+	SelectedSlot = LBIS.L["All"],
+	SelectedPhase = LBIS.L["All"],
+	SelectedRank = LBIS.L["All"],
+	SelectedSourceType = LBIS.L["All"],
+	SelectedZone = LBIS.L["All"],
 	SelectedZoneNumber = LBIS.L["All"],
 	ShowCustom = false,
 	HideObsolete = false,
@@ -56,7 +56,7 @@ LBISSettingsDefault =
 	}
 };
 
-LBISServerSettingsDefault = 
+LBISServerSettingsDefault =
 {
 	ItemCache = {},
 	CustomList = {},
@@ -102,7 +102,7 @@ local function CreatePhaseOptions(lbis_options)
 			order = 42,
 	   };
 	end
-	if (LBIS.CurrentPhase >= 2) then
+	if (LBIS.CurrentPhase >= 3) then
 		lbis_options.args["showPhase3"] = {
 			type = "toggle",
 			name = LBIS.L["Phase 3"],
@@ -113,7 +113,7 @@ local function CreatePhaseOptions(lbis_options)
 			order = 43,
 	   };
 	end
-	if (LBIS.CurrentPhase >= 2) then
+	if (LBIS.CurrentPhase >= 4) then
 		lbis_options.args["showPhase4"] = {
 			type = "toggle",
 			name = LBIS.L["Phase 4"],

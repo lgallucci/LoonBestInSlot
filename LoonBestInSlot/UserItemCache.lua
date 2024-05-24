@@ -19,7 +19,7 @@ local readBagsWithApi = function()
                     LBIS.UserItems[tonumber(itemId)] = "bank";
                 else
                     LBIS.UserItems[tonumber(itemId)] = "bag";
-                end     
+                end
             end
         end
     end
@@ -42,7 +42,6 @@ local readBagsWithBagnon = function ()
                 end
             end
         end
-
     end
 end
 
@@ -58,7 +57,7 @@ function LBIS:BuildItemCache()
 
     for i, slotCode in ipairs(wowSlotCodes) do
         local itemLink = GetInventoryItemLink("player",GetInventorySlotInfo(slotCode));
-        
+
         if itemLink then
             local itemId = LBIS:GetItemIdFromLink(itemLink);
             LBIS.UserItems[tonumber(itemId)] = "player";

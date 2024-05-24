@@ -26,7 +26,7 @@ function LBIS:PreCacheItems()
             LBIS:ConvertCustomList(LBISServerSettings.CustomList[prioSpec][prioSlot]);
 
             for _, item in pairs(LBISServerSettings.CustomList[prioSpec][prioSlot]) do
-                
+
                 if LBIS.CustomEditList.Items[item.ItemId] == nil then
                     LBIS.CustomEditList.Items[item.ItemId] = {};
                 end
@@ -48,7 +48,7 @@ end
 
 --TODO: Remove this after a few months ?
 function LBIS:ConvertCustomList(list)
-    
+
     local itemCount = 1;
     --Loop through all items in list
     for _, item in pairs(list) do
@@ -159,7 +159,7 @@ function LBIS:GetItemInfo(itemId, returnFunc)
         itemCache:ContinueOnItemLoad(function()
             local itemId, itemType, subType, itemSlot, _, classId = GetItemInfoInstant(itemId);
             local name = itemCache:GetItemName();
-            
+
             local newItem = {
                 Id = itemId,
                 Name = name,
@@ -171,11 +171,11 @@ function LBIS:GetItemInfo(itemId, returnFunc)
                 Class = classId,
                 Slot = itemSlots[itemSlot]
             };
-            
+
             if name and LBIS.ItemSources[itemId] ~= nil then
                 LBISServerSettings.ItemCache[itemId] = newItem;
             end
-            
+
             returnFunc(newItem);
         end);
     end
@@ -196,7 +196,7 @@ function LBIS:GetSpellInfo(spellId, returnFunc)
 
         spellCache:ContinueOnSpellLoad(function()
             local name = spellCache:GetSpellName();
-            
+
             local newSpell = {
                 Id = spellId,
                 Name = name,
@@ -207,10 +207,10 @@ function LBIS:GetSpellInfo(spellId, returnFunc)
             if name then
                 LBIS.SpellCache[spellId] = newSpell;
             end
-            
+
             returnFunc(newSpell);
         end);
-    end           
+    end
 end
 
 local LibDD = LibStub:GetLibrary("LibUIDropDownMenu-4.0")
@@ -258,7 +258,7 @@ end
 
 local itemIsOnEnter = false;
 function LBIS:SetTooltipOnButton(b, item, isSpell)
-    
+
     b.ItemId = item.Id;
     b.ItemLink = item.Link;
 
@@ -284,7 +284,7 @@ function LBIS:SetTooltipOnButton(b, item, isSpell)
         end
     );
 
-    b:SetScript("OnEnter", 
+    b:SetScript("OnEnter",
         function(self)
             GameTooltip:SetOwner(self, "ANCHOR_LEFT");
             if isSpell == nil or isSpell == false then
@@ -294,7 +294,7 @@ function LBIS:SetTooltipOnButton(b, item, isSpell)
             end
             GameTooltip:Show();
             itemIsOnEnter = GameTooltip;
-                
+
             if IsShiftKeyDown() and itemIsOnEnter then
                 GameTooltip_ShowCompareItem(GameTooltip)
             end
@@ -330,14 +330,14 @@ function LBIS:spairs(t, order)
 
     if t ~= nil then
         for k in pairs(t) do keys[#keys+1] = k end
-        
+
         -- if order function given, sort by it by passing the table and keys a, b,
         -- otherwise just sort the keys 
         if order then
             table.sort(keys, function(a,b) return order(t, a, b) end)
         else
             table.sort(keys)
-        end    
+        end
     end
     -- return the iterator function
     local i = 0
