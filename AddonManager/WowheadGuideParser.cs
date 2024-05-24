@@ -67,6 +67,7 @@ public class WowheadGuideParser
         { 59594, 81932 }, //Gnomish X-Ray Scope
         { 41111, 55002 }, //Flexweave Underlay
         { 41118, 55016 }, //Nitro Boosts
+        { 52750, 74199 }, //Enchant Boots - Haste
      };
 
     private Dictionary<int, string> _itemSwaps = new Dictionary<int, string>()

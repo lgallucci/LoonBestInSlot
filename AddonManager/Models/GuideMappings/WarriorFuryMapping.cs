@@ -44,7 +44,7 @@ internal class WarriorFuryMapping : SpecMapping
             { ("Ring", "#rings-for-fury-warrior-dps") },
             { ("Trinket", "#trinkets-for-fury-warrior-dps") },
             { ("Two Hand", "#two-handed-weapons-for-fury-warrior-dps") },
-            { ("Main Hand", "#one-handed-weapons-for-fury-warrior-dps") },
+            { ("Main Hand", "#duel-wield-weapons-for-fury-warrior-dps") },
             { ("Ranged/Relic", "#ranged-weapon-for-fury-warrior-dps") },
         };
 

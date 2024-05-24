@@ -14,9 +14,9 @@ public class DatabaseItems
             {
                 if (Items[converted.Key].Source != converted.Value.Source)
                 {
-                    Items[converted.Key].Source += $"/{converted.Value.Source}";
-                    Items[converted.Key].SourceLocation += $"/{converted.Value.SourceLocation}";
-                    Items[converted.Key].SourceNumber += $"/{converted.Value.SourceNumber}";
+                    Items[converted.Key].Source += $"~{converted.Value.Source}";
+                    Items[converted.Key].SourceLocation += $"~{converted.Value.SourceLocation}";
+                    Items[converted.Key].SourceNumber += $"~{converted.Value.SourceNumber}";
                 }
             }
             else
@@ -42,12 +42,12 @@ public class DatabaseItems
             }
             else
             {
-                var sources = Items[itemId].Source.Split('/');
+                var sources = Items[itemId].Source.Split('~');
                 if (!sources.Contains(converted.Source))
                 {
-                    Items[itemId].Source += $"/{converted.Source}";
-                    Items[itemId].SourceLocation += $"/{converted.SourceLocation}";
-                    Items[itemId].SourceNumber += $"/{converted.SourceNumber}";
+                    Items[itemId].Source += $"~{converted.Source}";
+                    Items[itemId].SourceLocation += $"~{converted.SourceLocation}";
+                    Items[itemId].SourceNumber += $"~{converted.SourceNumber}";
                 }
             }
         }

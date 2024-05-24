@@ -45,7 +45,7 @@ internal class PriestShadowMapping : SpecMapping
             { ("Ring", "#rings-for-shadow-priest-dps") },
             { ("Trinket", "#trinkets-for-shadow-priest-dps") },
             { ("Main Hand", "#main-hand-weapons-for-shadow-priest-dps") },
-            { ("Off Hand", "#off-hands-for-shadow-priest-dpsh") },
+            { ("Off Hand", "#off-hands-for-shadow-priest-dps") },
             { ("Two Hand", "#staves-for-shadow-priest-dps") },
             { ("Ranged/Relic", "#wands-for-shadow-priest-dps") }
         };
