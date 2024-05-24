@@ -543,10 +543,14 @@ public class WowheadGuideParser
                             foundEnchant(nextSibling as IHtmlAnchorElement, guideMapping.Key);
                         }
 
-                        if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*enchant").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*armor").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*scope").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "best.*enchant").Success)
+                        if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*enchant").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*armor").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*scope").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*inscription").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*tinker").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*runeforge").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended shield enchant").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "bis.*enchant").Success)
                         {
                             foundEnchantText = true;
                         }

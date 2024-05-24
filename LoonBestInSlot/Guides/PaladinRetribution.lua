@@ -10,7 +10,6 @@ LBIS:AddGem(spec0, "52240", "3", "False") --Skillful Ember Topaz
 
 LBIS:AddEnchant(spec1, "86933", LBIS.L["Head"]) --Arcanum of the Wildhammer
 LBIS:AddEnchant(spec1, "86901", LBIS.L["Shoulder"]) --Greater Inscription of Jagged Stone
-LBIS:AddEnchant(spec1, "65117", LBIS.L["Back"]) --Glittering Epidermis
 LBIS:AddEnchant(spec1, "74247", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
 LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
 LBIS:AddEnchant(spec1, "96261", LBIS.L["Wrist"]) --Enchant Bracer - Major Strength
@@ -21,8 +20,6 @@ LBIS:AddEnchant(spec1, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec1, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
 LBIS:AddEnchant(spec1, "74236", LBIS.L["Feet"]) --Enchant Boots - Precision
 LBIS:AddEnchant(spec1, "74238", LBIS.L["Feet"]) --Enchant Boots - Mastery
-LBIS:AddEnchant(spec1, "65382", LBIS.L["Ring"]) --Cloudburst Ring
-LBIS:AddEnchant(spec1, "65106", LBIS.L["Ring"]) --Ring of Rivalry
 LBIS:AddEnchant(spec1, "74215", LBIS.L["Ring"]) --Enchant Ring - Strength
 LBIS:AddEnchant(spec1, "74246", LBIS.L["Two Hand"]) --Enchant Weapon - Landslide
 
@@ -51,9 +48,11 @@ LBIS:AddItem(spec0, "55061", LBIS.L["Waist"], "Alt") --Elementium Girdle of Pain
 LBIS:AddItem(spec0, "57913", LBIS.L["Waist"], "Alt") --Beech Green Belt
 LBIS:AddItem(spec0, "56447", LBIS.L["Waist"], "Alt") --Belt of the Forgemaster
 LBIS:AddItem(spec0, "60347", LBIS.L["Legs"], "BIS") --Reinforced Sapphirium Legplates
+LBIS:AddItem(spec0, "67141", LBIS.L["Legs"], "Alt") --Corefire Legplates
 LBIS:AddItem(spec0, "56367", LBIS.L["Legs"], "Alt") --Legguards of Winnowing Wind
 LBIS:AddItem(spec0, "58097", LBIS.L["Legs"], "Alt") --Greaves of Gallantry
 LBIS:AddItem(spec0, "62418", LBIS.L["Feet"], "BIS") --Boots of Sullen Rock
+LBIS:AddItem(spec0, "58195", LBIS.L["Feet"], "BIS") --Woe Breeder's Boots
 LBIS:AddItem(spec0, "56381", LBIS.L["Feet"], "Alt") --Greaves of Wu the Elder
 LBIS:AddItem(spec0, "62382", LBIS.L["Feet"], "Alt") --Waywatcher's Boots
 LBIS:AddItem(spec0, "67138", LBIS.L["Neck"], "BIS") --Buc-Zakai Choker
@@ -67,8 +66,8 @@ LBIS:AddItem(spec0, "56388", LBIS.L["Ring"], "Alt") --Ring of the Darkest Day
 LBIS:AddItem(spec0, "56365", LBIS.L["Ring"], "Alt") --Skyshard Ring
 LBIS:AddItem(spec0, "56299", LBIS.L["Ring"], "Alt") --Signet of Transformation
 LBIS:AddItem(spec0, "62350", LBIS.L["Ring"], "Alt") --Gorsik's Band of Shattering
-LBIS:AddItem(spec0, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec0, "62464", LBIS.L["Trinket"], "BIS") --Impatience of Youth
+LBIS:AddItem(spec0, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec0, "56393", LBIS.L["Trinket"], "BIS") --Heart of Solace
 LBIS:AddItem(spec0, "68775", LBIS.L["Trinket"], "Alt") --Volatile Alchemist Stone
 LBIS:AddItem(spec0, "52351", LBIS.L["Trinket"], "Alt") --Figurine - King of Boars

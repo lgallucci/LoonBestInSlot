@@ -9,6 +9,7 @@ LBIS:AddGem(spec0, "52242", "3", "False") --Solid Ocean Sapphire
 LBIS:AddGem(spec0, "52210", "3", "False") --Defender's Demonseye
 
 LBIS:AddEnchant(spec1, "86931", LBIS.L["Head"]) --Arcanum of the Earthen Ring
+LBIS:AddEnchant(spec1, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
 LBIS:AddEnchant(spec1, "74234", LBIS.L["Back"]) --Enchant Cloak - Protection
 LBIS:AddEnchant(spec1, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
 LBIS:AddEnchant(spec1, "85007", LBIS.L["Wrist"]) --Draconic Embossment - Stamina

@@ -11,6 +11,7 @@ LBIS:AddGem(spec0, "52213", "3", "False") --Etched Demonseye
 
 LBIS:AddEnchant(spec1, "86933", LBIS.L["Head"]) --Arcanum of the Dragonmaw
 LBIS:AddEnchant(spec1, "86901", LBIS.L["Shoulder"]) --Greater Inscription of Jagged Stone
+LBIS:AddEnchant(spec1, "75178", LBIS.L["Back"]) --Swordguard Embroidery
 LBIS:AddEnchant(spec1, "74247", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
 LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
 LBIS:AddEnchant(spec1, "96261", LBIS.L["Wrist"]) --Enchant Bracer - Major Strength

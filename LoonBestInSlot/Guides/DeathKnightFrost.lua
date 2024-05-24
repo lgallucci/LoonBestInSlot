@@ -12,6 +12,7 @@ LBIS:AddGem(spec0, "52213", "3", "False") --Etched Demonseye
 
 LBIS:AddEnchant(spec1, "86933", LBIS.L["Head"]) --Arcanum of the Dragonmaw
 LBIS:AddEnchant(spec1, "86901", LBIS.L["Shoulder"]) --Greater Inscription of Jagged Stone
+LBIS:AddEnchant(spec1, "75178", LBIS.L["Back"]) --Swordguard Embroidery
 LBIS:AddEnchant(spec1, "74247", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
 LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
 LBIS:AddEnchant(spec1, "96261", LBIS.L["Wrist"]) --Enchant Bracer - Major Strength
@@ -24,6 +25,7 @@ LBIS:AddEnchant(spec1, "74199", LBIS.L["Feet"]) --Enchant Boots - Haste
 LBIS:AddEnchant(spec1, "74215", LBIS.L["Ring"]) --Enchant Ring - Strength
 LBIS:AddEnchant(spec1, "53343", LBIS.L["Main Hand"]) --Rune of Razorice
 LBIS:AddEnchant(spec1, "53344", LBIS.L["Off Hand"]) --Rune of the Fallen Crusader
+LBIS:AddEnchant(spec1, "53344", LBIS.L["Two Hand"]) --Rune of the Fallen Crusader
 
 LBIS:AddItem(spec0, "59359", LBIS.L["Head"], "BIS") --Reinforced Bio-Optic Killshades
 LBIS:AddItem(spec0, "63478", LBIS.L["Head"], "Alt") --Stonemason's Helm
@@ -74,6 +76,9 @@ LBIS:AddItem(spec0, "64885", LBIS.L["Main Hand/Off Hand"], "BIS") --Scimitar of 
 LBIS:AddItem(spec0, "65171", LBIS.L["Main Hand/Off Hand"], "Alt") --Cookie's Tenderizer
 LBIS:AddItem(spec0, "68161", LBIS.L["Main Hand/Off Hand"], "Alt") --Krol Decapitator
 LBIS:AddItem(spec0, "56384", LBIS.L["Main Hand/Off Hand"], "Alt") --Resonant Kris
+LBIS:AddItem(spec0, "64377", LBIS.L["Two Hand"], "BIS") --Zin'rokh, Destroyer of Worlds
+LBIS:AddItem(spec0, "56342", LBIS.L["Two Hand"], "Alt") --Sword of the Bottomless Pit
+LBIS:AddItem(spec0, "56456", LBIS.L["Two Hand"], "Alt") --Wild Hammer
 LBIS:AddItem(spec0, "64674", LBIS.L["Ranged/Relic"], "BIS") --Relic of Aggramar
 LBIS:AddItem(spec0, "56279", LBIS.L["Ranged/Relic"], "Alt") --Conch of Thundering Waves
 LBIS:AddItem(spec0, "62243", LBIS.L["Ranged/Relic"], "Alt") --Notched Jawbone
@@ -128,5 +133,9 @@ LBIS:AddItem(spec1, "65047", LBIS.L["Main Hand/Off Hand"], "Alt/BIS") --Lava Spi
 LBIS:AddItem(spec1, "64885", LBIS.L["Main Hand/Off Hand"], "Alt") --Scimitar of the Sirocco
 LBIS:AddItem(spec1, "65036", LBIS.L["Off Hand"], "Alt") --Mace of Acrid Death
 LBIS:AddItem(spec1, "59521", LBIS.L["Off Hand"], "Alt") --Soul Blade
+LBIS:AddItem(spec1, "65003", LBIS.L["Two Hand"], "BIS") --Reclaimed Ashkandi, Greatsword of the Brotherhood
+LBIS:AddItem(spec1, "59492", LBIS.L["Two Hand"], "Alt") --Akirus the Worm-Breaker
+LBIS:AddItem(spec1, "65145", LBIS.L["Two Hand"], "Alt") --Shalug'doom, the Axe of Unmaking
+LBIS:AddItem(spec1, "63679", LBIS.L["Two Hand"], "Alt") --Reclaimed Ashkandi, Greatsword of the Brotherhood
 LBIS:AddItem(spec1, "64674", LBIS.L["Ranged/Relic"], "BIS") --Relic of Aggramar
 LBIS:AddItem(spec1, "56279", LBIS.L["Ranged/Relic"], "Alt") --Conch of Thundering Waves

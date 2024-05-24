@@ -15,6 +15,7 @@ LBIS.EnchantSources =
     [55641] = { Name = "Socket Gloves", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Blacksmithing Trainer"], SourceLocation = "", TextureId = "" },
     [60663] = { Name = "Enchant Cloak - Major Agility", DesignId = "44457", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [60692] = { Name = "Enchant Chest - Powerful Stats", DesignId = "44489", ScrollId = "0", Source = LBIS.L["Shard Trader"], SourceLocation = LBIS.L["Dalaran"], TextureId = "" },
+    [62158] = { Name = "Rune of the Stoneskin Gargoyle", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Death Knight Skill"], SourceLocation = "", TextureId = "" },
     [62256] = { Name = "Enchant Bracer - Major Stamina", DesignId = "44944", ScrollId = "0", Source = LBIS.L["Shard Trader"], SourceLocation = LBIS.L["Dalaran"], TextureId = "" },
     [74132] = { Name = "Enchant Gloves - Mastery", DesignId = "52687", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74189] = { Name = "Enchant Boots - Earthen Vitality", DesignId = "52743", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
