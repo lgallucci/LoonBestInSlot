@@ -3,7 +3,7 @@
     "60243": {
       "Name": "Firelord's Hood",
       "Source": "Helm of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63682",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -11,7 +11,7 @@
     "60246": {
       "Name": "Firelord's Mantle",
       "Source": "Mantle of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64314",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -19,7 +19,7 @@
     "60249": {
       "Name": "Shadowflame Hood",
       "Source": "Helm of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63683",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -27,7 +27,7 @@
     "60252": {
       "Name": "Shadowflame Mantle",
       "Source": "Mantle of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64315",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -35,7 +35,7 @@
     "60253": {
       "Name": "Mercurial Shoulderwraps",
       "Source": "Mantle of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64315",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -43,7 +43,7 @@
     "60256": {
       "Name": "Mercurial Hood",
       "Source": "Helm of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63683",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -51,7 +51,7 @@
     "60258": {
       "Name": "Mercurial Cowl",
       "Source": "Helm of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63683",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -59,7 +59,7 @@
     "60262": {
       "Name": "Mercurial Mantle",
       "Source": "Mantle of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64315",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -67,7 +67,7 @@
     "60277": {
       "Name": "Stormrider's Helm",
       "Source": "Helm of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63682",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -75,7 +75,7 @@
     "60279": {
       "Name": "Stormrider's Mantle",
       "Source": "Mantle of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64314",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -83,7 +83,7 @@
     "60282": {
       "Name": "Stormrider's Cover",
       "Source": "Helm of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63682",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -91,7 +91,7 @@
     "60284": {
       "Name": "Stormrider's Shoulderwraps",
       "Source": "Mantle of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64314",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -99,7 +99,7 @@
     "60286": {
       "Name": "Stormrider's Headpiece",
       "Source": "Helm of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63682",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -107,7 +107,7 @@
     "60289": {
       "Name": "Stormrider's Spaulders",
       "Source": "Mantle of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64314",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -115,7 +115,7 @@
     "60299": {
       "Name": "Wind Dancer's Helmet",
       "Source": "Helm of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63682",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -123,7 +123,7 @@
     "60302": {
       "Name": "Wind Dancer's Spaulders",
       "Source": "Mantle of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64314",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -131,7 +131,7 @@
     "60303": {
       "Name": "Lightning-Charged Headguard",
       "Source": "Helm of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63684",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -139,7 +139,7 @@
     "60306": {
       "Name": "Lightning-Charged Spaulders",
       "Source": "Mantle of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64316",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -147,7 +147,7 @@
     "60308": {
       "Name": "Faceguard of the Raging Elements",
       "Source": "Helm of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63684",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -155,7 +155,7 @@
     "60311": {
       "Name": "Mantle of the Raging Elements",
       "Source": "Mantle of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64316",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -163,7 +163,7 @@
     "60315": {
       "Name": "Headpiece of the Raging Elements",
       "Source": "Helm of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63684",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -171,7 +171,7 @@
     "60317": {
       "Name": "Shoulderwraps of the Raging Elements",
       "Source": "Mantle of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64316",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -179,7 +179,7 @@
     "60320": {
       "Name": "Helmet of the Raging Elements",
       "Source": "Helm of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63684",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -187,7 +187,7 @@
     "60322": {
       "Name": "Spaulders of the Raging Elements",
       "Source": "Mantle of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64316",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -195,7 +195,7 @@
     "60325": {
       "Name": "Earthen Helmet",
       "Source": "Helm of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63684",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -203,7 +203,7 @@
     "60327": {
       "Name": "Earthen Pauldrons",
       "Source": "Mantle of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64316",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -211,7 +211,7 @@
     "60328": {
       "Name": "Earthen Faceguard",
       "Source": "Helm of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63684",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -219,7 +219,7 @@
     "60331": {
       "Name": "Earthen Shoulderguards",
       "Source": "Mantle of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64316",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -227,7 +227,7 @@
     "60341": {
       "Name": "Magma Plated Helmet",
       "Source": "Helm of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63682",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -235,7 +235,7 @@
     "60343": {
       "Name": "Magma Plated Pauldrons",
       "Source": "Mantle of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64314",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -243,7 +243,7 @@
     "60346": {
       "Name": "Reinforced Sapphirium Helmet",
       "Source": "Helm of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63683",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -251,7 +251,7 @@
     "60348": {
       "Name": "Reinforced Sapphirium Pauldrons",
       "Source": "Mantle of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64315",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -259,7 +259,7 @@
     "60351": {
       "Name": "Magma Plated Faceguard",
       "Source": "Helm of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63682",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -267,7 +267,7 @@
     "60353": {
       "Name": "Magma Plated Shoulderguards",
       "Source": "Mantle of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64314",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -275,7 +275,7 @@
     "60356": {
       "Name": "Reinforced Sapphirium Faceguard",
       "Source": "Helm of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63683",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -283,7 +283,7 @@
     "60358": {
       "Name": "Reinforced Sapphirium Shoulderguards",
       "Source": "Mantle of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64315",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -291,7 +291,7 @@
     "60359": {
       "Name": "Reinforced Sapphirium Headguard",
       "Source": "Helm of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "63683",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -299,7 +299,7 @@
     "60362": {
       "Name": "Reinforced Sapphirium Mantle",
       "Source": "Mantle of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "64315",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -307,7 +307,7 @@
     "65179": {
       "Name": "Magma Plated Battleplate",
       "Source": "Chest of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67425",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -315,7 +315,7 @@
     "65180": {
       "Name": "Magma Plated Gauntlets",
       "Source": "Gauntlets of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67431",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -323,7 +323,7 @@
     "65181": {
       "Name": "Magma Plated Helmet",
       "Source": "Crown of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65002",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -331,7 +331,7 @@
     "65182": {
       "Name": "Magma Plated Legplates",
       "Source": "Leggings of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67426",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -339,7 +339,7 @@
     "65183": {
       "Name": "Magma Plated Pauldrons",
       "Source": "Shoulders of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65089",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -347,7 +347,7 @@
     "65184": {
       "Name": "Magma Plated Chestguard",
       "Source": "Chest of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67425",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -355,7 +355,7 @@
     "65185": {
       "Name": "Magma Plated Handguards",
       "Source": "Gauntlets of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67431",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -363,7 +363,7 @@
     "65186": {
       "Name": "Magma Plated Faceguard",
       "Source": "Crown of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65002",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -371,7 +371,7 @@
     "65187": {
       "Name": "Magma Plated Legguards",
       "Source": "Leggings of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67426",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -379,7 +379,7 @@
     "65188": {
       "Name": "Magma Plated Shoulderguards",
       "Source": "Shoulders of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65089",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -387,7 +387,7 @@
     "65189": {
       "Name": "Stormrider's Grips",
       "Source": "Gauntlets of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67431",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -395,7 +395,7 @@
     "65190": {
       "Name": "Stormrider's Headpiece",
       "Source": "Crown of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65002",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -403,7 +403,7 @@
     "65191": {
       "Name": "Stormrider's Legguards",
       "Source": "Leggings of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67426",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -411,7 +411,7 @@
     "65192": {
       "Name": "Stormrider's Raiment",
       "Source": "Chest of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67425",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -419,7 +419,7 @@
     "65193": {
       "Name": "Stormrider's Spaulders",
       "Source": "Shoulders of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65089",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -427,7 +427,7 @@
     "65194": {
       "Name": "Stormrider's Handwraps",
       "Source": "Gauntlets of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67431",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -435,7 +435,7 @@
     "65195": {
       "Name": "Stormrider's Helm",
       "Source": "Crown of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65002",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -443,7 +443,7 @@
     "65196": {
       "Name": "Stormrider's Legwraps",
       "Source": "Leggings of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67426",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -451,7 +451,7 @@
     "65197": {
       "Name": "Stormrider's Robes",
       "Source": "Chest of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67425",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -459,7 +459,7 @@
     "65198": {
       "Name": "Stormrider's Mantle",
       "Source": "Shoulders of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65089",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -467,7 +467,7 @@
     "65199": {
       "Name": "Stormrider's Gloves",
       "Source": "Gauntlets of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67431",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -475,7 +475,7 @@
     "65200": {
       "Name": "Stormrider's Cover",
       "Source": "Crown of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65002",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -483,7 +483,7 @@
     "65201": {
       "Name": "Stormrider's Leggings",
       "Source": "Leggings of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67426",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -491,7 +491,7 @@
     "65202": {
       "Name": "Stormrider's Vestment",
       "Source": "Chest of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67425",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -499,7 +499,7 @@
     "65203": {
       "Name": "Stormrider's Shoulderwraps",
       "Source": "Shoulders of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65089",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -507,7 +507,7 @@
     "65204": {
       "Name": "Lightning-Charged Tunic",
       "Source": "Chest of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67424",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -515,7 +515,7 @@
     "65205": {
       "Name": "Lightning-Charged Gloves",
       "Source": "Gauntlets of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67430",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -523,7 +523,7 @@
     "65206": {
       "Name": "Lightning-Charged Headguard",
       "Source": "Crown of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65000",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -531,7 +531,7 @@
     "65207": {
       "Name": "Lightning-Charged Legguards",
       "Source": "Leggings of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67427",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -539,7 +539,7 @@
     "65208": {
       "Name": "Lightning-Charged Spaulders",
       "Source": "Shoulders of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65087",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -547,7 +547,7 @@
     "65209": {
       "Name": "Firelord's Gloves",
       "Source": "Gauntlets of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67431",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -555,7 +555,7 @@
     "65210": {
       "Name": "Firelord's Hood",
       "Source": "Crown of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65002",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -563,7 +563,7 @@
     "65211": {
       "Name": "Firelord's Leggings",
       "Source": "Leggings of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67426",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -571,7 +571,7 @@
     "65212": {
       "Name": "Firelord's Robes",
       "Source": "Chest of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67425",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -579,7 +579,7 @@
     "65213": {
       "Name": "Firelord's Mantle",
       "Source": "Shoulders of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65089",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -587,7 +587,7 @@
     "65214": {
       "Name": "Reinforced Sapphirium Battleplate",
       "Source": "Chest of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67423",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -595,7 +595,7 @@
     "65215": {
       "Name": "Reinforced Sapphirium Gauntlets",
       "Source": "Gauntlets of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67429",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -603,7 +603,7 @@
     "65216": {
       "Name": "Reinforced Sapphirium Helmet",
       "Source": "Crown of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65001",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -611,7 +611,7 @@
     "65217": {
       "Name": "Reinforced Sapphirium Legplates",
       "Source": "Leggings of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67428",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -619,7 +619,7 @@
     "65218": {
       "Name": "Reinforced Sapphirium Pauldrons",
       "Source": "Shoulders of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65088",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -627,7 +627,7 @@
     "65219": {
       "Name": "Reinforced Sapphirium Breastplate",
       "Source": "Chest of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67423",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -635,7 +635,7 @@
     "65220": {
       "Name": "Reinforced Sapphirium Gloves",
       "Source": "Gauntlets of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67429",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -643,7 +643,7 @@
     "65221": {
       "Name": "Reinforced Sapphirium Headguard",
       "Source": "Crown of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65001",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -651,7 +651,7 @@
     "65222": {
       "Name": "Reinforced Sapphirium Greaves",
       "Source": "Leggings of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67428",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -659,7 +659,7 @@
     "65223": {
       "Name": "Reinforced Sapphirium Mantle",
       "Source": "Shoulders of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65088",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -667,7 +667,7 @@
     "65224": {
       "Name": "Reinforced Sapphirium Chestguard",
       "Source": "Chest of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67423",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -675,7 +675,7 @@
     "65225": {
       "Name": "Reinforced Sapphirium Handguards",
       "Source": "Gauntlets of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67429",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -683,7 +683,7 @@
     "65226": {
       "Name": "Reinforced Sapphirium Faceguard",
       "Source": "Crown of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65001",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -691,7 +691,7 @@
     "65227": {
       "Name": "Reinforced Sapphirium Legguards",
       "Source": "Leggings of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67428",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -699,7 +699,7 @@
     "65228": {
       "Name": "Reinforced Sapphirium Shoulderguards",
       "Source": "Shoulders of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65088",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -707,7 +707,7 @@
     "65229": {
       "Name": "Mercurial Handwraps",
       "Source": "Gauntlets of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67429",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -715,7 +715,7 @@
     "65230": {
       "Name": "Mercurial Cowl",
       "Source": "Crown of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65001",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -723,7 +723,7 @@
     "65231": {
       "Name": "Mercurial Legwraps",
       "Source": "Leggings of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67428",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -731,7 +731,7 @@
     "65232": {
       "Name": "Mercurial Robes",
       "Source": "Chest of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67423",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -739,7 +739,7 @@
     "65233": {
       "Name": "Mercurial Mantle",
       "Source": "Shoulders of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65088",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -747,7 +747,7 @@
     "65234": {
       "Name": "Mercurial Gloves",
       "Source": "Gauntlets of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67429",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -755,7 +755,7 @@
     "65235": {
       "Name": "Mercurial Hood",
       "Source": "Crown of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65001",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -763,7 +763,7 @@
     "65236": {
       "Name": "Mercurial Leggings",
       "Source": "Leggings of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67428",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -771,7 +771,7 @@
     "65237": {
       "Name": "Mercurial Vestment",
       "Source": "Chest of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67423",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -779,7 +779,7 @@
     "65238": {
       "Name": "Mercurial Shoulderwraps",
       "Source": "Shoulders of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65088",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -787,7 +787,7 @@
     "65239": {
       "Name": "Wind Dancer's Tunic",
       "Source": "Chest of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67425",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -795,7 +795,7 @@
     "65240": {
       "Name": "Wind Dancer's Gloves",
       "Source": "Gauntlets of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67431",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -803,7 +803,7 @@
     "65241": {
       "Name": "Wind Dancer's Helmet",
       "Source": "Crown of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65002",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -811,7 +811,7 @@
     "65242": {
       "Name": "Wind Dancer's Legguards",
       "Source": "Leggings of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67426",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -819,7 +819,7 @@
     "65243": {
       "Name": "Wind Dancer's Spaulders",
       "Source": "Shoulders of the Forlorn Vanquisher",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65089",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -827,7 +827,7 @@
     "65244": {
       "Name": "Tunic of the Raging Elements",
       "Source": "Chest of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67424",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -835,7 +835,7 @@
     "65245": {
       "Name": "Handwraps of the Raging Elements",
       "Source": "Gauntlets of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67430",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -843,7 +843,7 @@
     "65246": {
       "Name": "Faceguard of the Raging Elements",
       "Source": "Crown of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65000",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -851,7 +851,7 @@
     "65247": {
       "Name": "Legwraps of the Raging Elements",
       "Source": "Leggings of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67427",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -859,7 +859,7 @@
     "65248": {
       "Name": "Mantle of the Raging Elements",
       "Source": "Shoulders of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65087",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -867,7 +867,7 @@
     "65249": {
       "Name": "Cuirass of the Raging Elements",
       "Source": "Chest of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67424",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -875,7 +875,7 @@
     "65250": {
       "Name": "Grips of the Raging Elements",
       "Source": "Gauntlets of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67430",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -883,7 +883,7 @@
     "65251": {
       "Name": "Helmet of the Raging Elements",
       "Source": "Crown of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65000",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -891,7 +891,7 @@
     "65252": {
       "Name": "Legguards of the Raging Elements",
       "Source": "Leggings of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67427",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -899,7 +899,7 @@
     "65253": {
       "Name": "Spaulders of the Raging Elements",
       "Source": "Shoulders of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65087",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -907,7 +907,7 @@
     "65254": {
       "Name": "Hauberk of the Raging Elements",
       "Source": "Chest of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67424",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -915,7 +915,7 @@
     "65255": {
       "Name": "Gloves of the Raging Elements",
       "Source": "Gauntlets of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67430",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -923,7 +923,7 @@
     "65256": {
       "Name": "Headpiece of the Raging Elements",
       "Source": "Crown of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65000",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -931,7 +931,7 @@
     "65257": {
       "Name": "Kilt of the Raging Elements",
       "Source": "Leggings of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67427",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -939,7 +939,7 @@
     "65258": {
       "Name": "Shoulderwraps of the Raging Elements",
       "Source": "Shoulders of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65087",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -947,7 +947,7 @@
     "65259": {
       "Name": "Shadowflame Handwraps",
       "Source": "Gauntlets of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67429",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -955,7 +955,7 @@
     "65260": {
       "Name": "Shadowflame Hood",
       "Source": "Crown of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65001",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -963,7 +963,7 @@
     "65261": {
       "Name": "Shadowflame Leggings",
       "Source": "Leggings of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67428",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -971,7 +971,7 @@
     "65262": {
       "Name": "Shadowflame Robes",
       "Source": "Chest of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67423",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -979,7 +979,7 @@
     "65263": {
       "Name": "Shadowflame Mantle",
       "Source": "Shoulders of the Forlorn Conqueror",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65088",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -987,7 +987,7 @@
     "65264": {
       "Name": "Earthen Battleplate",
       "Source": "Chest of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67424",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -995,7 +995,7 @@
     "65265": {
       "Name": "Earthen Gauntlets",
       "Source": "Gauntlets of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67430",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -1003,7 +1003,7 @@
     "65266": {
       "Name": "Earthen Helmet",
       "Source": "Crown of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65000",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -1011,7 +1011,7 @@
     "65267": {
       "Name": "Earthen Legplates",
       "Source": "Leggings of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67427",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -1019,7 +1019,7 @@
     "65268": {
       "Name": "Earthen Pauldrons",
       "Source": "Shoulders of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65087",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -1027,7 +1027,7 @@
     "65269": {
       "Name": "Earthen Chestguard",
       "Source": "Chest of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67424",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -1035,7 +1035,7 @@
     "65270": {
       "Name": "Earthen Handguards",
       "Source": "Gauntlets of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67430",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -1043,7 +1043,7 @@
     "65271": {
       "Name": "Earthen Faceguard",
       "Source": "Crown of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65000",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -1051,7 +1051,7 @@
     "65272": {
       "Name": "Earthen Legguards",
       "Source": "Leggings of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "67427",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
@@ -1059,7 +1059,7 @@
     "65273": {
       "Name": "Earthen Shoulderguards",
       "Source": "Shoulders of the Forlorn Protector",
-      "SourceType": "TierToken",
+      "SourceType": "Tier Token",
       "SourceNumber": "65087",
       "SourceLocation": "unknown",
       "SourceFaction": "B"

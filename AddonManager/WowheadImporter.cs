@@ -41,7 +41,7 @@ public static class WowheadImporter
     {
         bool verificationSucceeded = true;
         var requiredWords = new string[] { "BIS", "Alt" };
-        var allowableWords = new string[] { "Transmute", "Stam", "Mit", "Thrt", "FFB", "Melee", "Ranged" };
+        var allowableWords = new string[] { "Stam", "Mit", "Thrt", "FFB", "Melee", "Ranged" };
 
         foreach (var item in items)
         {
@@ -562,9 +562,9 @@ public static class WowheadImporter
                         {
                             csvLootTable[tierPiece.Key].AddItem(new ImportItemSource
                             {
-                                SourceType = source.SourceType, //tierPiece.Value.SourceType,
+                                SourceType = tierPiece.Value.SourceType,
                                 Source = source.Source,
-                                SourceNumber = source.SourceNumber, //tierPiece.Key.ToString(),
+                                SourceNumber = tierPiece.Value.SourceNumber,
                                 SourceLocation = source.SourceLocation,
                                 SourceFaction = tierPiece.Value.SourceFaction
                             });
@@ -582,9 +582,9 @@ public static class WowheadImporter
                     {
                         newLootTable.AddItem(new ImportItemSource
                         {
-                            SourceType = source.SourceType, //tierPiece.Value.SourceType,
+                            SourceType = tierPiece.Value.SourceType,
                             Source = source.Source,
-                            SourceNumber = source.SourceNumber, //tierPiece.Key.ToString(),
+                            SourceNumber = tierPiece.Value.SourceNumber,
                             SourceLocation = source.SourceLocation,
                             SourceFaction = tierPiece.Value.SourceFaction
                         });

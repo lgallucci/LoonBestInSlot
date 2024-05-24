@@ -416,6 +416,242 @@ function LBIS:DeepCopy(src, dst)
 	return dst
 end
 
+
+local function printItemSource(itemId, specItemSource, dl, printNumber, printLocation)
+
+    local text = "";
+
+    if printNumber == nil then
+        printNumber = true;
+    end
+    if printLocation == nil then
+        printLocation = true;
+    end
+    local sourceText = specItemSource.Source;
+    local sourceNumberText = specItemSource.SourceNumber;
+    local sourceLocationText = specItemSource.SourceLocation;
+
+    local sourceText1, sourceText2, sourceText3 = strsplit("~", sourceText);
+    local sourceNumberText1, sourceNumberText2, sourceNumberText3 = strsplit("~", sourceNumberText);
+    local sourceLocationText1, sourceLocationText2, sourceLocationText3 = strsplit("~", sourceLocationText);
+
+    local function printSourceText(sourceText, sourceNumberText, sourceLocationText, firstRow)
+        if not firstRow then
+            text = text.."\n"
+        end
+
+        local sourceSplit = { strsplit("&", sourceText) };
+        local sourceNumberSplit = { strsplit("&", sourceNumberText) };
+
+		local first = false;
+        for index, source in pairs(sourceSplit) do		
+			if first then
+				text = text.." & ";
+			else
+				first = true;
+			end
+            text = text..strtrim(source);
+			if sourceNumberSplit[index] ~= nil and printNumber then
+				local trimNumber = strtrim(sourceNumberSplit[index]);
+				if trimNumber ~= "" and trimNumber ~= "0" and trimNumber ~= "1" then
+					text = text.." ("..trimNumber..")";
+				end
+			end
+        end
+
+        if sourceLocationText ~= nil and sourceLocationText ~= "" and printLocation then
+            text = text.." - "..sourceLocationText;
+        end
+    end
+
+    if sourceText1 ~= nil and sourceText1 ~= "" then
+        printSourceText(sourceText1, sourceNumberText1, sourceLocationText1, true);
+    end
+
+    if sourceText2 ~= nil and sourceText2 ~= "" then
+        printSourceText(sourceText2, sourceNumberText2, sourceLocationText2, false);       	
+    end
+
+    if sourceText3 ~= nil and sourceText3 ~= "" then
+		printSourceText(sourceText3, sourceNumberText3, sourceLocationText3, false);
+    end
+
+    dl:SetText(text);
+end
+
+local function createSourceTypeText(specItemSource)
+
+    local function getSourceColor(sourceType)
+        if sourceType == LBIS.L["Profession"] then
+            return "|cFF33ADFF";
+        elseif sourceType == LBIS.L["Reputation"] then
+            return "|cFF23E4C4";
+        elseif sourceType == LBIS.L["Quest"] then
+            return "|cFFFFEF27";
+        elseif sourceType == LBIS.L["Dungeon Token"] then
+            return "|cFFFF276D";
+        elseif sourceType == LBIS.L["Tier Token"] then
+            return "|cFFFC6A03";
+        elseif sourceType == LBIS.L["Vendor"] then
+            return "|cFF43DC00";
+        elseif sourceType == LBIS.L["PvP"] then
+            return "|cFFE52AED";
+        elseif sourceType == LBIS.L["Drop"] then
+            return "|cFF7727FF";
+        else
+            return "|cFFFFFFFF";
+        end
+    end
+
+    local sourceType1, sourceType2 = strsplit("~", specItemSource.SourceType)    
+
+    --Create Drop Text
+    local dtColor = getSourceColor(sourceType1);
+    local text = dtColor..sourceType1;
+
+    if sourceType2 ~= nil then
+        dtColor = getSourceColor(sourceType2);
+        text = text.."|cFFFFD100/"..dtColor..sourceType2;
+    end
+	return text;
+end
+
+function LBIS.CreateItemRow(f, specItem, specItemSource)
+
+    LBIS:GetItemInfo(specItem.Id, function(item)
+        local window = LBIS.BrowserWindow.Window;
+
+        if item == nil or item.Id == nil or item.Link == nil or item.Type == nil then
+            LBIS:Error("Failed Load: "..specItem.Id);
+            failedLoad = true;
+        end
+        --Create Item Button and Text
+
+        local b = CreateFrame("Button", nil, f);
+        b:SetSize(32, 32);
+        local bt = b:CreateTexture();
+        bt:SetAllPoints();
+        bt:SetTexture(item.Texture);
+        b:SetPoint("TOPLEFT", f, 2, -5);
+
+        LBIS:SetTooltipOnButton(b, item);
+
+        local t = f:CreateFontString(nil, nil, "GameFontNormal");
+        t:SetText((item.Link or item.Name):gsub("[%[%]]", ""));
+        t:SetPoint("TOPLEFT", b, "TOPRIGHT", 2, -2);
+
+        local type = item.Type;
+        if item.Subtype and item.Type ~= item.Subtype then
+            type = item.Type .. ", " .. item.Subtype;
+        end
+        type = type.. ", "..specItem.Slot;
+        local st = f:CreateFontString(nil, nil,"GameFontNormalGraySmall");
+        st:SetText(type);
+        st:SetPoint("BOTTOMLEFT", b, "BOTTOMRIGHT", 2, 2);
+
+        local pt = f:CreateFontString(nil, nil, "GameFontNormal");
+        if specItem.Phase == "0" or specItem.Phase == "99" then
+            pt:SetText("("..specItem.Bis..")");
+        else
+            pt:SetText("("..specItem.Bis.." "..string.gsub(specItem.Phase, "0", "PreRaid")..")");
+        end
+        pt:SetPoint("TOPLEFT", t, "TOPRIGHT", 4, 0);
+
+		local d = f:CreateFontString(nil, nil, "GameFontNormal");
+		d:SetText(createSourceTypeText(specItemSource));
+		d:SetJustifyH("LEFT");
+		d:SetWidth(window.ScrollFrame:GetWidth() / 2);
+		d:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
+
+        local dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
+
+        local function showSourceButton(item, text, isSpell)
+            local tb = CreateFrame("Button", nil, f);
+            tb:SetSize(32, 32);
+            local bt = tb:CreateTexture();
+            bt:SetAllPoints();
+            bt:SetTexture(item.Texture);
+            tb:SetPoint("TOPRIGHT", -40, -6);
+            LBIS:SetTooltipOnButton(tb, item, isSpell);
+
+            local ft = f:CreateFontString(nil, nil, "GameFontNormalSmall")
+            ft:SetText(text);
+            ft:SetPoint("TOPRIGHT", tb, "TOPLEFT", 0, -3);
+        end
+
+        if specItemSource.SourceType == LBIS.L["Tier Token"] then
+            local tokenNumber = strsplit('~', specItemSource.SourceNumber);
+            LBIS:GetItemInfo(tonumber(tokenNumber), function(tierToken)
+                showSourceButton(tierToken, "Token:", false);
+            end);
+            printItemSource(specItem.Id, specItemSource, dl, false, true)
+            dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
+        elseif specItemSource.SourceType == LBIS.L["Profession"] and tonumber(specItemSource.SourceLocation) ~= nil then
+            LBIS:GetSpellInfo(tonumber(specItemSource.SourceLocation), function(professionSpell)
+                showSourceButton(professionSpell, "Skill:", true);
+            end);
+            printItemSource(specItem.Id, specItemSource, dl, false, false)
+            dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
+        else
+            printItemSource(specItem.Id, specItemSource, dl)
+            dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
+        end
+        dl:SetJustifyH("LEFT");
+
+        local userItemCache = LBIS.UserItems[item.Id];
+        if userItemCache then
+            local ot = f:CreateTexture(nil,"BACKGROUND")
+            ot:SetSize(24, 24);
+            if userItemCache == "player" then
+                ot:SetTexture("Interface/AddOns/LoonBestInSlot/Icons/checkmark.tga")
+            elseif userItemCache == "bag" then
+                ot:SetTexture("Interface/AddOns/LoonBestInSlot/Icons/bag.tga")
+            elseif userItemCache == "bank" then
+                ot:SetTexture("Interface/AddOns/LoonBestInSlot/Icons/bank.tga")
+            end
+            ot:SetPoint("TOPRIGHT", -2, -6);
+        end
+    end);
+
+    -- even if we are reusing, it may not be in the same order
+    local _, count = string.gsub(specItemSource.Source, "~", "")
+    if count > 1 then
+        count = count - 1;
+    else 
+        count = 0;
+    end
+    return (46 + (count * 10));
+end
+
+function LBIS:IsInZone(specItem)
+    local zone, _ = gsub(gsub(specItem.SourceLocation, "%(25H%)", "(25)"), "%(10H%)", "(10)")
+
+    if LBISSettings.SelectedZone == LBIS.L["All"] then
+        return true;
+    elseif strfind(zone, gsub(gsub(LBISSettings.SelectedZone, "%(", "%%%("), "%)", "%%%)")) ~= nil then
+        return true;
+    end
+    return false;
+end
+
+function LBIS:IsInSlot(specItem)
+    if LBISSettings.SelectedSlot == LBIS.L["All"] then
+        return true;
+    elseif strfind(specItem.Slot, LBISSettings.SelectedSlot) ~= nil then
+        return true;
+    end
+    return false;
+end
+
+function LBIS:IsInSource(specItem)
+    if LBISSettings.SelectedSourceType == LBIS.L["All"] then
+        return true;
+    elseif strfind(specItem.SourceType, LBISSettings.SelectedSourceType) ~= nil then
+        return true;
+    end
+    return false;
+end
+
 function LBIS:MeasureCode(codeName, func)
 
     --local startTime = time();

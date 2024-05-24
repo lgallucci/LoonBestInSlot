@@ -313,7 +313,7 @@ local function createDropDowns(window)
         ['name']='source',
         ['parent']=window,
         ['title']='Source:',
-        ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Dungeon Token"], LBIS.L["Vendor"], LBIS.L["Quest"], LBIS.L["PvP"] },
+        ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Token"], LBIS.L["Vendor"], LBIS.L["Quest"], LBIS.L["PvP"] },
         ['defaultVal']= LBISSettings.SelectedSourceType,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedSourceType = dropdown_val;

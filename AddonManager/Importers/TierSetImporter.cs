@@ -146,7 +146,7 @@ public class TierSetImporter : LootImporter
                                 Source = tokenName?.TextContent ?? string.Empty,
                                 SourceLocation = "unknown",
                                 SourceNumber = tokenId.ToString(),
-                                SourceType = "Dungeon Token",
+                                SourceType = "Tier Token",
                                 SourceFaction = sourceFaction
                             });
                         }
