@@ -27,11 +27,23 @@ internal class PaladinRetributionMapping : SpecMapping
             { ("Ranged/Relic", "#librams-for-retribution-paladin-dps") }
         };
 
-    public override string Phase1Url => "dps-bis-gear-pve-phase-1";
+    public override string Phase1Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Two Hand", "#two-hand-weapons-for-retribution-paladin-phase-1") },
-            { ("Ranged/Relic", "#libram") }
+            { ("Head", "#head-for-retribution-paladin-dps") },
+            { ("Shoulder", "#shoulders-for-retribution-paladin-dps") },
+            { ("Back", "#back-for-retribution-paladin-dps") },
+            { ("Chest", "#chest-for-retribution-paladin-dps") },
+            { ("Wrist", "#wrist-for-retribution-paladin-dps") },
+            { ("Hands", "#gloves-for-retribution-paladin-dps") },
+            { ("Waist", "#waist-for-retribution-paladin-dps") },
+            { ("Legs", "#legs-for-retribution-paladin-dps") },
+            { ("Feet", "#boots-for-retribution-paladin-dps") },
+            { ("Neck", "#neck-for-retribution-paladin-dps") },
+            { ("Ring", "#rings-for-retribution-paladin-dps") },
+            { ("Trinket", "#trinkets-for-retribution-paladin-dps") },
+            { ("Two Hand", "#two-handed-weapons-for-retribution-paladin-dps") },
+            { ("Ranged/Relic", "#librams-for-retribution-paladin-dps") }
         };
 
     public override string Phase2Url => "dps-bis-gear-pve-phase-2";

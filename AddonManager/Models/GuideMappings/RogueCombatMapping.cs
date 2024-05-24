@@ -28,12 +28,24 @@ internal class RogueCombatMapping : SpecMapping
             { ("Ranged/Relic", "#guns-bows-and-thrown-weapons-for-combat-rogue-dps") }
         };
 
-    public override string Phase1Url => "dps-bis-gear-pve-phase-1";
+    public override string Phase1Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand-weapons-for-combat-rogue-dps-phase-1") },
-            { ("Off Hand", "#off-hand-weapons-for-combat-rogue-dps-phase-1") },
-            { ("Ranged/Relic", "#guns-and-bows-for-combat-rogue-dps-phase-1") }
+            { ("Head", "#head-for-combat-rogue-dps") },
+            { ("Shoulder", "#shoulders-for-combat-rogue-dps") },
+            { ("Back", "#back-for-combat-rogue-dps") },
+            { ("Chest", "#chest-for-combat-rogue-dps") },
+            { ("Wrist", "#wrist-for-combat-rogue-dps") },
+            { ("Hands", "#hands-for-combat-rogue-dps") },
+            { ("Waist", "#waist-for-combat-rogue-dps") },
+            { ("Legs", "#legs-for-combat-rogue-dps") },
+            { ("Feet", "#feet-for-combat-rogue-dps") },
+            { ("Neck", "#neck-for-combat-rogue-dps") },
+            { ("Ring", "#rings-for-combat-rogue-dps") },
+            { ("Trinket", "#trinkets-for-combat-rogue-dps") },
+            { ("Main Hand", "#main-hand-weapons-for-combat-rogue-dps") },
+            { ("Off Hand", "#off-hand-weapons-for-combat-rogue-dps") },
+            { ("Ranged/Relic", "#guns-bows-and-thrown-weapons-for-combat-rogue-dps") }
         };
 
     public override string Phase2Url => "dps-bis-gear-pve-phase-2";

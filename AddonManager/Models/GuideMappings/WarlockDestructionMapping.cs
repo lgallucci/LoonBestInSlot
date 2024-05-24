@@ -17,11 +17,11 @@ internal class WarlockDestructionMapping : SpecMapping
             { ("Ranged/Relic", "#wand") }
         };
 
-    public override string Phase1Url => "dps-bis-gear-pve-phase-1";
+    public override string Phase1Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Two Hand", "h2#weapons~h4") },
-            { ("Main Hand", "h2#weapons~h4~h4") },
+            { ("Two Hand", "h2#weapons~h3") },
+            { ("Main Hand", "h2#weapons~h3~h3") },
             { ("Off Hand", "#offhand") },
             { ("Ranged/Relic", "#wand") }
         };

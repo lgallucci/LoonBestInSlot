@@ -28,12 +28,24 @@ internal class PaladinProtectionMapping : SpecMapping
             { ("Ranged/Relic", "#relics-for-protection-paladin-tank-pre-raid") }
         };
 
-    public override string Phase1Url => "tank-bis-gear-pve-phase-1";
+    public override string Phase1Url => "tank-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
+            { ("Head", "#head-for-protection-paladin-tank-phase-1") },
+            { ("Shoulder", "#shoulders-for-protection-paladin-tank-phase-1") },
+            { ("Back", "#back-for-protection-paladin-tank-phase-1") },
+            { ("Chest", "#chest-for-protection-paladin-tank-phase-1") },
+            { ("Wrist", "#wrist-for-protection-paladin-tank-phase-1") },
+            { ("Hands", "#hands-for-protection-paladin-tank-phase-1") },
+            { ("Waist", "#waist-for-protection-paladin-tank-phase-1") },
+            { ("Legs", "#legs-for-protection-paladin-tank-phase-1") },
+            { ("Feet", "#feet-for-protection-paladin-tank-phase-1") },
+            { ("Neck", "#neck-for-protection-paladin-tank-phase-1") },
+            { ("Ring", "#rings-for-protection-paladin-tank-phase-1") },
+            { ("Trinket", "#trinkets-for-protection-paladin-tank-phase-1") },
             { ("Main Hand", "#weapons-for-protection-paladin-tank-phase-1") },
             { ("Off Hand", "#shields-for-protection-paladin-tank-phase-1") },
-            { ("Ranged/Relic", "#librams-for-protection-paladin-tank-phase-1") }
+            { ("Ranged/Relic", "#relics-for-protection-paladin-tank-phase-1") }
         };
 
     public override string Phase2Url => "tank-bis-gear-pve-phase-2";

@@ -27,12 +27,23 @@ internal class DeathKnightBloodMapping : SpecMapping
             { ("Ranged/Relic", "#relics-for-blood-death-knight-tanking") },
         };
 
-    public override string Phase1Url => "tank-bis-gear-pve-phase-1";
+    public override string Phase1Url => "tank-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Two Hand", "h2#weapons~h4") },
-            { ("Main Hand", "h2#weapons~h4~h4") },
-            { ("Ranged/Relic", "#relics-for-blood-death-knight-tank-phase-1") },
+            { ("Head", "#helm-for-blood-death-knight-tanking") },
+            { ("Shoulder", "#shoulders-for-blood-death-knight-tanking") },
+            { ("Back", "#cloak-for-blood-death-knight-tanking") },
+            { ("Chest", "#chest-for-blood-death-knight-tanking") },
+            { ("Wrist", "#bracer-for-blood-death-knight-tanking") },
+            { ("Hands", "#gloves-for-blood-death-knight-tanking") },
+            { ("Waist", "#belt-for-blood-death-knight-tanking") },
+            { ("Legs", "#legs-for-blood-death-knight-tanking") },
+            { ("Feet", "#boots-for-blood-death-knight-tanking") },
+            { ("Neck", "#neck-for-blood-death-knight-tanking") },
+            { ("Ring", "#rings-for-blood-death-knight-tanking") },
+            { ("Trinket", "#trinkets-for-blood-death-knight-tanking") },
+            { ("Two Hand", "h3#weapons~h4") },
+            { ("Ranged/Relic", "#relics-for-blood-death-knight-tanking") },
         };
 
     public override string Phase2Url => "tank-bis-gear-pve-phase-2";

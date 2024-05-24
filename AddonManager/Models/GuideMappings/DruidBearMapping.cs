@@ -27,11 +27,23 @@ internal class DruidBearMapping : SpecMapping
             { ("Ranged/Relic", "#relics-for-feral-druid-tank") }
         };
 
-    public override string Phase1Url => "tank-bis-gear-pve-phase-1";
+    public override string Phase1Url => "tank-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Two Hand", "#weapons-for-feral-druid-tank-phase-1") },
-            { ("Ranged/Relic", "#idols-for-feral-druid-tank-phase-1") }
+            { ("Head", "#head-for-feral-druid-tank") },
+            { ("Shoulder", "#shoulders-for-feral-druid-tank") },
+            { ("Back", "#back-for-feral-druid-tank") },
+            { ("Chest", "#chest-for-feral-druid-tank") },
+            { ("Wrist", "#wrist-for-feral-druid-tank") },
+            { ("Hands", "#hands-for-feral-druid-tank") },
+            { ("Waist", "#waist-for-feral-druid-tank") },
+            { ("Legs", "#legs-for-feral-druid-tank") },
+            { ("Feet", "#feet-for-feral-druid-tank") },
+            { ("Neck", "#neck-for-feral-druid-tank") },
+            { ("Ring", "#rings-for-feral-druid-tank") },
+            { ("Trinket", "#trinkets-for-feral-druid-tank") },
+            { ("Two Hand", "#two-handed-weapons-for-feral-druid-tank") },
+            { ("Ranged/Relic", "#relics-for-feral-druid-tank") }
         };
 
     public override string Phase2Url => "tank-bis-gear-pve-phase-2";

@@ -28,11 +28,24 @@ internal class WarriorFuryMapping : SpecMapping
             { ("Ranged/Relic", "#ranged-weapon-for-fury-warrior-dps") },
         };
 
-    public override string Phase1Url => "dps-bis-gear-pve-phase-1";
+    public override string Phase1Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Two Hand", "#two-handed-weapons-for-fury-warrior-dps-in-phase-1") },
-            { ("Ranged/Relic", "#ranged-weapons-for-fury-warrior-dps-in-phase-1") },
+            { ("Head", "#head-for-fury-warrior-dps") },
+            { ("Shoulder", "#shoulders-for-fury-warrior-dps") },
+            { ("Back", "#back-for-fury-warrior-dps") },
+            { ("Chest", "#chest-for-fury-warrior-dps") },
+            { ("Wrist", "#wrist-for-fury-warrior-dps") },
+            { ("Hands", "#hands-for-fury-warrior-dps") },
+            { ("Waist", "#waist-for-fury-warrior-dps") },
+            { ("Legs", "#legs-for-fury-warrior-dps") },
+            { ("Feet", "#feet-for-fury-warrior-dps") },
+            { ("Neck", "#neck-for-fury-warrior-dps") },
+            { ("Ring", "#rings-for-fury-warrior-dps") },
+            { ("Trinket", "#trinkets-for-fury-warrior-dps") },
+            { ("Two Hand", "#two-handed-weapons-for-fury-warrior-dps") },
+            { ("Main Hand", "#one-handed-weapons-for-fury-warrior-dps") },
+            { ("Ranged/Relic", "#ranged-weapon-for-fury-warrior-dps") },
         };
 
     public override string Phase2Url => "dps-bis-gear-pve-phase-2";

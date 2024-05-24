@@ -27,12 +27,23 @@ internal class HunterSurvivalMapping : SpecMapping
             { ("Ranged/Relic", "#ranged-weapon-for-survival-hunter-dps") }
         };
 
-    public override string Phase1Url => "dps-bis-gear-pve-phase-1";
+    public override string Phase1Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#one-handed-weapons-for-survival-hunter-dps-phase-1") },
-            { ("Two Hand", "#two-hand-weapons-for-survival-hunter-dps-phase-1") },
-            { ("Ranged/Relic", "#guns-and-bows-for-survival-hunter-dps-phase-1") }
+            { ("Head", "#head-for-survival-hunter-dps") },
+            { ("Shoulder", "#shoulders-for-survival-hunter-dps") },
+            { ("Back", "#back-for-survival-hunter-dps") },
+            { ("Chest", "#chest-for-survival-hunter-dps") },
+            { ("Wrist", "#wrist-for-survival-hunter-dps") },
+            { ("Hands", "#hands-for-survival-hunter-dps") },
+            { ("Waist", "#waist-for-survival-hunter-dps") },
+            { ("Legs", "#legs-for-survival-hunter-dps") },
+            { ("Feet", "#feet-for-survival-hunter-dps") },
+            { ("Neck", "#neck-for-survival-hunter-dps") },
+            { ("Ring", "#rings-for-survival-hunter-dps") },
+            { ("Trinket", "#trinkets-for-survival-hunter-dps") },
+            { ("Two Hand", "#melee-weapons-for-survival-hunter-dps") },
+            { ("Ranged/Relic", "#ranged-weapon-for-survival-hunter-dps") }
         };
 
     public override string Phase2Url => "dps-bis-gear-pve-phase-2";

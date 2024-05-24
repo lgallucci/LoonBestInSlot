@@ -28,12 +28,24 @@ internal class WarriorProtectionMapping : SpecMapping
             { ("Ranged/Relic", "#ranged-weapons-for-protection-warrior-tank") }
         };
 
-    public override string Phase1Url => "tank-bis-gear-pve-phase-1";
+    public override string Phase1Url => "tank-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#one-handed-weapons-for-protection-warrior-tank-in-phase-1") },
-            { ("Off Hand", "#shields-for-protection-warrior-tank-in-phase-1") },
-            { ("Ranged/Relic", "#guns-and-bows-for-protection-warrior-tank-in-phase-1") }
+            { ("Head", "#head-for-protection-warrior-tank") },
+            { ("Shoulder", "#shoulders-for-protection-warrior-tank") },
+            { ("Back", "#back-for-protection-warrior-tank") },
+            { ("Chest", "#chest-for-protection-warrior-tank") },
+            { ("Wrist", "#wrist-for-protection-warrior-tank") },
+            { ("Hands", "#hands-for-protection-warrior-tank") },
+            { ("Waist", "#waist-for-protection-warrior-tank") },
+            { ("Legs", "#legs-for-protection-warrior-tank") },
+            { ("Feet", "#feet-for-protection-warrior-tank") },
+            { ("Neck", "#neck-for-protection-warrior-tank") },
+            { ("Ring", "#rings-for-protection-warrior-tank") },
+            { ("Trinket", "#trinkets-for-protection-warrior-tank") },
+            { ("Main Hand", "#main-hand-weapons-for-protection-warrior-tank") },
+            { ("Off Hand", "#shields-for-protection-warrior-tank") },
+            { ("Ranged/Relic", "#ranged-weapons-for-protection-warrior-tank") }
         };
 
     public override string Phase2Url => "tank-bis-gear-pve-phase-2";

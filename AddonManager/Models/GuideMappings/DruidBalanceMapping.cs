@@ -28,13 +28,24 @@ internal class DruidBalanceMapping : SpecMapping
             { ("Ranged/Relic", "#relic-for-balance-druid-dps") }
         };
 
-    public override string Phase1Url => "dps-bis-gear-pve-phase-1";
+    public override string Phase1Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand-weapons-for-balance-druid-dps-phase-1") },
-            { ("Two Hand", "#two-handed-weapons-for-balance-druid-dps-phase-1") },
-            { ("Off Hand", "#off-hand-weapons-for-balance-druid-dps-phase-1") },
-            { ("Ranged/Relic", "#idols-for-balance-druid-dps-phase-1") }
+            { ("Head", "#head-for-balance-druid-dps") },
+            { ("Shoulder", "#shoulders-for-balance-druid-dps") },
+            { ("Back", "#back-for-balance-druid-dps") },
+            { ("Chest", "#chest-for-balance-druid-dps") },
+            { ("Wrist", "#wrist-for-balance-druid-dps") },
+            { ("Hands", "#hands-for-balance-druid-dps") },
+            { ("Waist", "#waist-for-balance-druid-dps") },
+            { ("Legs", "#legs-for-balance-druid-dps") },
+            { ("Feet", "#feet-for-balance-druid-dps") },
+            { ("Neck", "#neck-for-balance-druid-dps") },
+            { ("Ring", "#rings-for-balance-druid-dps") },
+            { ("Trinket", "#trinkets-for-balance-druid-dps") },
+            { ("Main Hand", "#weapons-for-balance-druid-dps") },
+            { ("Off Hand", "#off-hand-items-for-balance-druid-dps") },
+            { ("Ranged/Relic", "#relic-for-balance-druid-dps") }
         };
 
     public override string Phase2Url => "dps-bis-gear-pve-phase-2";

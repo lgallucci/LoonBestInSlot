@@ -17,10 +17,10 @@ internal class MageFrostMapping : SpecMapping
             { ("Ranged/Relic", "#wands-for-frost-mage-dps-phase-1-pre-raid") }
         };
 
-    public override string Phase1Url => "dps-bis-gear-pve-phase-1";
+    public override string Phase1Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-frost-mage-dps-phase-1") },
+            { ("Main Hand", "#main-hand-two-handed-weapons-for-fire-mage-dps-phase-1") },
             { ("Off Hand", "#off-hand-weapons-for-frost-mage-dps-phase-1") },
             { ("Ranged/Relic", "#wands-for-frost-mage-dps-phase-1") }
         };

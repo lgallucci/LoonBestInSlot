@@ -27,11 +27,23 @@ internal class DruidCatMapping : SpecMapping
             { ("Ranged/Relic", "#relics-for-feral-druid-dps") }
         };
 
-    public override string Phase1Url => "dps-bis-gear-pve-phase-1";
+    public override string Phase1Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Two Hand", "#weapons-for-feral-druid-dps-phase-1") },
-            { ("Ranged/Relic", "#idols-for-feral-druid-dps-phase-1") }
+            { ("Head", "#head-for-feral-druid-dps") },
+            { ("Shoulder", "#shoulders-for-feral-druid-dps") },
+            { ("Back", "#back-for-feral-druid-dps") },
+            { ("Chest", "#chest-for-feral-druid-dps") },
+            { ("Wrist", "#wrist-for-feral-druid-dps") },
+            { ("Hands", "#hands-for-feral-druid-dps") },
+            { ("Waist", "#waist-for-feral-druid-dps") },
+            { ("Legs", "#legs-for-feral-druid-dps") },
+            { ("Feet", "#feet-for-feral-druid-dps") },
+            { ("Neck", "#neck-for-feral-druid-dps") },
+            { ("Ring", "#rings-for-feral-druid-dps") },
+            { ("Trinket", "#trinkets-for-feral-druid-dps") },
+            { ("Two Hand", "#two-handed-weapons-for-feral-druid-dps") },
+            { ("Ranged/Relic", "#relics-for-feral-druid-dps") }
         };
 
     public override string Phase2Url => "dps-bis-gear-pve-phase-2";

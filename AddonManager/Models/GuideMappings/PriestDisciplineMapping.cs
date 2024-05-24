@@ -29,12 +29,25 @@ internal class PriestDisciplineMapping : SpecMapping
             { ("Ranged/Relic", "#wands-for-discipline-priest-healer") }
         };
 
-    public override string Phase1Url => "healer-bis-gear-pve-phase-1";
+    public override string Phase1Url => "healer-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-and-two-handed-weapons-for-discipline-priest-healer-phase-1") },
-            { ("Off Hand", "#off-hands-for-discipline-priest-healer-phase-1") },
-            { ("Ranged/Relic", "#wands-for-discipline-priest-healer-phase-1") }
+            { ("Head", "#head-for-discipline-priest-healer") },
+            { ("Shoulder", "#shoulders-for-discipline-priest-healer") },
+            { ("Back", "#back-for-discipline-priest-healer") },
+            { ("Chest", "#chest-for-discipline-priest-healer") },
+            { ("Wrist", "#wrist-for-discipline-priest-healer") },
+            { ("Hands", "#hands-for-discipline-priest-healer") },
+            { ("Waist", "#waist-for-discipline-priest-healer") },
+            { ("Legs", "#legs-for-discipline-priest-healer") },
+            { ("Feet", "#feet-for-discipline-priest-healer") },
+            { ("Neck", "#neck-for-discipline-priest-healer") },
+            { ("Ring", "#rings-for-discipline-priest-healer") },
+            { ("Trinket", "#trinkets-for-discipline-priest-healer") },
+            { ("Main Hand", "#main-hand-weapons-for-discipline-priest-healer") },
+            { ("Two Hand", "#staves-for-discipline-priest-healer")},
+            { ("Off Hand", "#off-hands-for-discipline-priest-healerh") },
+            { ("Ranged/Relic", "#wands-for-discipline-priest-healer") }
         };
 
     public override string Phase2Url => "healer-bis-gear-pve-phase-2";

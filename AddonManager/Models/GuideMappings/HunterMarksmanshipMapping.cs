@@ -27,12 +27,23 @@ internal class HunterMarksmanshipMapping : SpecMapping
             { ("Ranged/Relic", "#ranged-weapon-for-marksmanship-hunter-dps") }
         };
 
-    public override string Phase1Url => "dps-bis-gear-pve-phase-1";
+    public override string Phase1Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#one-handed-weapons-for-marksmanship-hunter-dps-phase-1") },
-            { ("Two Hand", "#two-hand-weapons-for-marksmanship-hunter-dps-phase-1") },
-            { ("Ranged/Relic", "#guns-and-bows-for-marksmanship-hunter-dps-phase-1") }
+            { ("Head", "#head-for-marksmanship-hunter-dps") },
+            { ("Shoulder", "#shoulders-for-marksmanship-hunter-dps") },
+            { ("Back", "#back-for-marksmanship-hunter-dps") },
+            { ("Chest", "#chest-for-marksmanship-hunter-dps") },
+            { ("Wrist", "#wrist-for-marksmanship-hunter-dps") },
+            { ("Hands", "#hands-for-marksmanship-hunter-dps") },
+            { ("Waist", "#waist-for-marksmanship-hunter-dps") },
+            { ("Legs", "#legs-for-marksmanship-hunter-dps") },
+            { ("Feet", "#feet-for-marksmanship-hunter-dps") },
+            { ("Neck", "#neck-for-marksmanship-hunter-dps") },
+            { ("Ring", "#rings-for-marksmanship-hunter-dps") },
+            { ("Trinket", "#trinkets-for-marksmanship-hunter-dps") },
+            { ("Two Hand", "#melee-weapons-for-marksmanship-hunter-dps") },
+            { ("Ranged/Relic", "#ranged-weapon-for-marksmanship-hunter-dps") }
         };
 
     public override string Phase2Url => "dps-bis-gear-pve-phase-2";

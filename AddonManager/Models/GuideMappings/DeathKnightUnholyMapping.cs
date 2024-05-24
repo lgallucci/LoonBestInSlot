@@ -27,12 +27,23 @@ internal class DeathKnightUnholyMapping : SpecMapping
             { ("Ranged/Relic", "#sigils-for-unholy-death-knight-dps") },
         };
 
-    public override string Phase1Url => "dps-bis-gear-pve-phase-1";
+    public override string Phase1Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand-weapons-for-unholy-death-knight-dps-phase-1") },
-            { ("Off Hand", "#off-hand-weapons-for-unholy-death-knight-dps-phase-1") },
-            { ("Ranged/Relic", "#sigils-for-unholy-death-knight-dps-phase-1") },
+            { ("Head", "#head-for-unholy-death-knight-dps") },
+            { ("Shoulder", "#shoulders-for-unholy-death-knight-dps") },
+            { ("Back", "#back-for-unholy-death-knight-dps") },
+            { ("Chest", "#chest-for-unholy-death-knight-dps") },
+            { ("Wrist", "#wrist-for-unholy-death-knight-dps") },
+            { ("Hands", "#hands-for-unholy-death-knight-dps") },
+            { ("Waist", "#waist-for-unholy-death-knight-dps") },
+            { ("Legs", "#legs-for-unholy-death-knight-dps") },
+            { ("Feet", "#feet-for-unholy-death-knight-dps") },
+            { ("Neck", "#neck-for-unholy-dps") },
+            { ("Ring", "#rings-for-unholy-death-knight-dps") },
+            { ("Trinket", "#trinkets-for-unholy-death-knight-dps") },
+            { ("Two Hand", "#weapons-for-unholy-death-knight-dps") },
+            { ("Ranged/Relic", "#sigils-for-unholy-death-knight-dps") },
         };
 
     public override string Phase2Url => "dps-bis-gear-pve-phase-2";
