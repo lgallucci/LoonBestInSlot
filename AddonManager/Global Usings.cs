@@ -12,4 +12,6 @@ public static class Constants
     public static string ItemDbPath = @$"C:\GIT\LoonBestInSlot\AddonManager\ItemDatabase";
 
     public static string LocalizationPath = @$"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator";
+
+    public static int CurrentPhase = 1;
 }

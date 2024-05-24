@@ -149,8 +149,12 @@ public static class WowheadImporter
                     }
                 }
 
-                guide.Item2.Clear();
-                guide.Item2.AddRange(itemsAndEnchants.Item2.Values.ToList());
+                if (itemsAndEnchants.Item2.Count() > 0)
+                {
+                    guide.Item2.Clear();
+                    guide.Item2.AddRange(itemsAndEnchants.Item2.Values.ToList());
+                }
+
                 if (!guide.Item3.ContainsKey(phaseNumber))
                     guide.Item3.Add(phaseNumber, new List<ItemSpec>());
                 else

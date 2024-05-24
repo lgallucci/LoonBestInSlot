@@ -200,90 +200,19 @@ public class WowheadGuideParser
         public string Text(ICharacterData text) => text.Data;
     }
 
-    public (Dictionary<int, ItemSpec>, Dictionary<string, EnchantSpec>) ParsePreRaidWowheadGuide(string className, 
-        Tuple<Dictionary<int, List<EnchantSpec>>, Dictionary<int, List<ItemSpec>>> guide, IHtmlDocument doc)
-    {
-        System.Diagnostics.Debug.WriteLine($"Start Parsing {className}");
-        var items = new Dictionary<int, ItemSpec>();
-        var enchants = new Dictionary<string, EnchantSpec>();
-
-        var htmlMapping = "h2#best-in-slot-list + table";
-        var headerElement = doc.QuerySelector(htmlMapping);
-        if (headerElement is IHtmlTableElement)
-        {
-            var tableElement = headerElement as IHtmlTableElement;
-
-            LoopThroughTable(tableElement, (tableRow, itemChild, itemOrderIndex, isTierList) =>
-            {
-                var slotText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
-
-                if (itemChild != null)
-                    ParseItemCell(itemChild, "BIS", new SlotSwaps()[slotText], items, itemOrderIndex);
-            });
-        }
-        else
-        {
-            throw new ParseException($"PreRaid: Failed to find table for {htmlMapping}");
-        }
-
-        htmlMapping = "h2#best-bind-on-equip ~ div > table";
-        headerElement = doc.QuerySelector(htmlMapping);
-        if (headerElement is IHtmlTableElement)
-        {
-            var tableElement = headerElement as IHtmlTableElement;
-
-            LoopThroughTable(tableElement, (tableRow, itemChild, itemOrderIndex, isTierList) =>
-            {
-                var slotText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
-
-                slotText = new SlotSwaps()[slotText];
-
-                if (!ItemSpec.SortOrder.ContainsKey(slotText))
-                {
-                    slotText = "unknown";
-                }
-
-                if (itemChild != null)
-                {
-                    var itemIds = ParseItemCell(itemChild, "BIS", slotText, items, itemOrderIndex);
-
-                    foreach (var itemId in itemIds)
-                    {
-                        if (items[itemId].Slot.Contains("unknown"))
-                        {
-                            for (int i = 0; i < 5; i++)
-                            {
-                                var item = guide.Item2[i].FirstOrDefault(isp => isp.ItemId == itemId);
-                                if (item != null)
-                                {
-                                    items[itemId].Slot = item.Slot;
-                                    break;
-                                }
-                            }
-                        }
-                    }
-                }
-            });
-        }
-        else
-        {
-            throw new ParseException($"PreRaid: Failed to find table for {htmlMapping}");
-        }
-
-        System.Diagnostics.Debug.WriteLine($"End Parsing {className}");
-        return (items, enchants);
-    }
-
     public (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>,Dictionary<int, ItemSpec>) ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc, Action<string> logFunc)
     {
         var items = new Dictionary<int, ItemSpec>();
         var enchants = new Dictionary<string, EnchantSpec>();
         var gems = new Dictionary<int, GemSpec>();
 
+        bool enchantsAndGems = int.Parse(classGuide.Phase.Replace("Phase", "")) == Constants.CurrentPhase;
+
         LoopThroughMappings(doc, classGuide, 
             (enchantAnchor, slot) =>
             {
-                ParseEnchant(enchantAnchor, slot, enchants);
+                if (enchantsAndGems)
+                    ParseEnchant(enchantAnchor, slot, enchants);
             },
             (table, slot, htmlId) =>
             {
@@ -301,7 +230,8 @@ public class WowheadGuideParser
                     if (itemChild != null)
                     {
                         ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText, itemChild), items, itemOrderIndex);
-                        ParseGemCell(tableRow, gems, logFunc);
+                        if (enchantsAndGems)
+                            ParseGemCell(tableRow, gems, logFunc);
                     }
                     first = false;
                 });
