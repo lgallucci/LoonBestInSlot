@@ -7,15 +7,15 @@ LBIS:AddGem(spec0, "52294", "3", "True") --Austere Shadowspirit Diamond
 LBIS:AddGem(spec0, "52242", "3", "False") --Solid Ocean Sapphire
 LBIS:AddGem(spec0, "52233", "3", "False") --Regal Dream Emerald
 
-LBIS:AddEnchant(spec0, "86931", LBIS.L["Head"]) --Arcanum of the Earthern Ring
-LBIS:AddEnchant(spec0, "86402", LBIS.L["Shoulder"]) --Inscription of the Earth Prince
-LBIS:AddEnchant(spec0, "74234", LBIS.L["Back"]) --Enchant Cloak - Protection
-LBIS:AddEnchant(spec0, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
-LBIS:AddEnchant(spec0, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamina
-LBIS:AddEnchant(spec0, "78166", LBIS.L["Hands"]) --Heavy Savage Armor Kit
-LBIS:AddEnchant(spec0, "101600", LBIS.L["Legs"]) --Drakehide Leg Reinforcements
-LBIS:AddEnchant(spec0, "74213", LBIS.L["Feet"]) --Enchant Boots - Major Agility
-LBIS:AddEnchant(spec0, "95471", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Mighty Agility
+LBIS:AddEnchant(spec1, "86931", LBIS.L["Head"]) --Arcanum of the Earthern Ring
+LBIS:AddEnchant(spec1, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
+LBIS:AddEnchant(spec1, "74234", LBIS.L["Back"]) --Enchant Cloak - Protection
+LBIS:AddEnchant(spec1, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
+LBIS:AddEnchant(spec1, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamina
+LBIS:AddEnchant(spec1, "78166", LBIS.L["Hands"]) --Heavy Savage Armor Kit
+LBIS:AddEnchant(spec1, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
+LBIS:AddEnchant(spec1, "74189", LBIS.L["Feet"]) --Enchant Boots - Earthen Vitality
+LBIS:AddEnchant(spec1, "95471", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Mighty Agility
 
 LBIS:AddItem(spec0, "59455", LBIS.L["Head"], "BIS") --Agile Bio-Optic Killshades
 LBIS:AddItem(spec0, "56344", LBIS.L["Head"], "Alt") --Helm of Numberless Shadows
@@ -61,3 +61,47 @@ LBIS:AddItem(spec0, "55066", LBIS.L["Two Hand"], "Alt") --Elementium Poleaxe
 LBIS:AddItem(spec0, "56316", LBIS.L["Ranged/Relic"], "BIS") --Sandshift Relic
 LBIS:AddItem(spec0, "64671", LBIS.L["Ranged/Relic"], "Alt") --Relic of Golganneth
 LBIS:AddItem(spec0, "63460", LBIS.L["Ranged/Relic"], "Alt") --Relic of Arathor
+
+LBIS:AddItem(spec1, "65190", LBIS.L["Head"], "BIS") --Stormrider's Headpiece
+LBIS:AddItem(spec1, "60286", LBIS.L["Head"], "Alt") --Stormrider's Headpiece
+LBIS:AddItem(spec1, "65129", LBIS.L["Head"], "Alt") --Membrane of C'Thun
+LBIS:AddItem(spec1, "65193", LBIS.L["Shoulder"], "BIS") --Stormrider's Spaulders
+LBIS:AddItem(spec1, "65083", LBIS.L["Shoulder"], "Alt") --Poison Protocol Pauldrons
+LBIS:AddItem(spec1, "56273", LBIS.L["Shoulder"], "Alt") --Caridean Epaulettes
+LBIS:AddItem(spec1, "65035", LBIS.L["Back"], "BIS") --Cloak of Biting Chill
+LBIS:AddItem(spec1, "67134", LBIS.L["Back"], "Alt") --Dory's Finery
+LBIS:AddItem(spec1, "58191", LBIS.L["Back"], "Alt") --Viewless Wings
+LBIS:AddItem(spec1, "65192", LBIS.L["Chest"], "BIS") --Stormrider's Raiment
+LBIS:AddItem(spec1, "60287", LBIS.L["Chest"], "Alt") --Stormrider's Raiment
+LBIS:AddItem(spec1, "65060", LBIS.L["Chest"], "Alt") --Sark of the Unwatched
+LBIS:AddItem(spec1, "65050", LBIS.L["Wrist"], "BIS") --Parasitic Bands
+LBIS:AddItem(spec1, "59329", LBIS.L["Wrist"], "Alt") --Parasitic Bands
+LBIS:AddItem(spec1, "65073", LBIS.L["Hands"], "BIS") --Double Attack Handguards
+LBIS:AddItem(spec1, "65189", LBIS.L["Hands"], "Alt") --Stormrider's Grips
+LBIS:AddItem(spec1, "62417", LBIS.L["Hands"], "Alt") --Liar's Handwraps
+LBIS:AddItem(spec1, "62433", LBIS.L["Hands"], "Alt") --Stormbolt Gloves
+LBIS:AddItem(spec1, "60231", LBIS.L["Waist"], "BIS") --Belt of the Fallen Brood
+LBIS:AddItem(spec1, "65122", LBIS.L["Waist"], "Alt") --Dispersing Belt
+LBIS:AddItem(spec1, "56537", LBIS.L["Waist"], "Alt") --Belt of Nefarious Whispers
+LBIS:AddItem(spec1, "65191", LBIS.L["Legs"], "BIS") --Stormrider's Legguards
+LBIS:AddItem(spec1, "65381", LBIS.L["Legs"], "Alt") --Wind Stalker Leggings
+LBIS:AddItem(spec1, "58132", LBIS.L["Legs"], "Alt") --Leggings of the Burrowing Mole
+LBIS:AddItem(spec1, "65144", LBIS.L["Feet"], "BIS") --Storm Rider's Boots
+LBIS:AddItem(spec1, "58482", LBIS.L["Feet"], "Alt") --Treads of Fleeting Joy
+LBIS:AddItem(spec1, "59469", LBIS.L["Feet"], "Alt") --Storm Rider's Boots
+LBIS:AddItem(spec1, "65107", LBIS.L["Neck"], "BIS") --Necklace of Strife
+LBIS:AddItem(spec1, "67137", LBIS.L["Neck"], "Alt") --Don Rodrigo's Fabulous Necklace
+LBIS:AddItem(spec1, "52350", LBIS.L["Neck"], "Alt") --Brazen Elementium Medallion
+LBIS:AddItem(spec1, "65082", LBIS.L["Ring"], "BIS") --Lightning Conductor Band
+LBIS:AddItem(spec1, "65367", LBIS.L["Ring"], "BIS") --Mistral Circle
+LBIS:AddItem(spec1, "62362", LBIS.L["Ring"], "Alt") --Signet of the Elder Council
+LBIS:AddItem(spec1, "67136", LBIS.L["Ring"], "Alt") --Gilnean Ring of Ruination
+LBIS:AddItem(spec1, "65048", LBIS.L["Trinket"], "BIS") --Symbiotic Worm
+LBIS:AddItem(spec1, "65109", LBIS.L["Trinket"], "BIS") --Vial of Stolen Memories
+LBIS:AddItem(spec1, "62471", LBIS.L["Trinket"], "Alt") --Mirror of Broken Images
+LBIS:AddItem(spec1, "65139", LBIS.L["Two Hand"], "BIS") --Malevolence
+LBIS:AddItem(spec1, "59474", LBIS.L["Two Hand"], "Alt") --Malevolence
+LBIS:AddItem(spec1, "55066", LBIS.L["Two Hand"], "Alt") --Elementium Poleaxe
+LBIS:AddItem(spec1, "64671", LBIS.L["Ranged/Relic"], "BIS") --Relic of Golganneth
+LBIS:AddItem(spec1, "56316", LBIS.L["Ranged/Relic"], "Alt") --Sandshift Relic
+LBIS:AddItem(spec1, "63460", LBIS.L["Ranged/Relic"], "Alt") --Relic of Arathor
