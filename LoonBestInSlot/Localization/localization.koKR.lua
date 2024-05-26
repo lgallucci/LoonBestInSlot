@@ -23,7 +23,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Ascendant Lord Obsidius"] = "승천 군주 옵시디우스";
   LBIS.L["Assassination"] = "암살";
   LBIS.L["Atramedes"] = "아트라메데스";
-  LBIS.L["Back"] = "등";
+  LBIS.L["Back"] = "망토";
   LBIS.L["Bag"] = "가방";
   LBIS.L["Balance"] = "조화";
   LBIS.L["Baradin's Wardens"] = "바라딘 집행단";
@@ -110,7 +110,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Erudax"] = "에루닥스";
   LBIS.L["Exalted"] = "확고한 동맹";
 --  LBIS.L["Faction Capital"] = "";
-  LBIS.L["Feet"] = "발";
+  LBIS.L["Feet"] = "신발";
   LBIS.L["Fire"] = "화염";
 --  LBIS.L["Firing Squad"] = "";
 --  LBIS.L["Flame-Scarred Junkbox"] = "";
@@ -136,7 +136,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Halls of Origination"] = "시초의 전당";
   LBIS.L["Halls of Origination (Heroic)"] = "시초의 전당 (영웅)";
   LBIS.L["Halls of Origination (Normal)"] = "시초의 전당 (일반)";
-  LBIS.L["Hands"] = "손";
+  LBIS.L["Hands"] = "장갑";
 --  LBIS.L["Harrison Jones and the Temple of Uldum"] = "";
   LBIS.L["Head"] = "머리";
   LBIS.L["Helix Gearbreaker"] = "헬릭스 기어브레이커";
@@ -206,7 +206,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Mindbender Ghur'sha"] = "환각술사 구르샤";
   LBIS.L["Mount Hyjal"] = "하이잘 산";
 --  LBIS.L["Narkrall, The Drake-Tamer"] = "";
-  LBIS.L["Neck"] = "목";
+  LBIS.L["Neck"] = "목걸이";
   LBIS.L["Nefarian"] = "네파리안";
   LBIS.L["New Features"] = "새로운 기능";
 --  LBIS.L["Night Terrors"] = "";
@@ -238,7 +238,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Retribution"] = "징벌";
   LBIS.L["Revered"] = "매우 우호적";
   LBIS.L["Right Click"] = "마우스 오른쪽 클릭";
-  LBIS.L["Ring"] = "손가락";
+  LBIS.L["Ring"] = "반지";
 --  LBIS.L["Rogue Skill"] = "";
   LBIS.L["Rom'ogg Bonecrusher"] = "롬오그 해골분쇄자";
   LBIS.L["Ruins of Uldum"] = "울둠 폐허";
@@ -314,7 +314,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Trash Mobs"] = "일반몹";
   LBIS.L["Trinket"] = "장신구";
   LBIS.L["Twilight Highlands"] = "황혼의 고원";
-  LBIS.L["Two Hand"] = "양손";
+  LBIS.L["Two Hand"] = "양손 무기";
   LBIS.L["Uldum"] = "울둠";
   LBIS.L["Unholy"] = "부정";
   LBIS.L["Valiona"] = "발리오나";

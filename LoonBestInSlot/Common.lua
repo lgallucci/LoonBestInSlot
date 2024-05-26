@@ -550,7 +550,7 @@ function LBIS.CreateItemRow(f, specItem, specItemSource)
         st:SetPoint("BOTTOMLEFT", b, "BOTTOMRIGHT", 2, 2);
 
         local pt = f:CreateFontString(nil, nil, "GameFontNormal");
-        if specItem.Phase == "0" or specItem.Phase == "99" then
+        if specItem.Phase == nil or specItem.Phase == "0" or specItem.Phase == "99" then
             pt:SetText("("..specItem.Bis..")");
         else
             pt:SetText("("..specItem.Bis.." "..string.gsub(specItem.Phase, "0", "PreRaid")..")");
