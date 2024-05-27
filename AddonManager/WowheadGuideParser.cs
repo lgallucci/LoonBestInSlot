@@ -14,7 +14,7 @@ namespace AddonManager;
 public class WowheadGuideParser
 {
     private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of Nature Protection",
-                                                            "of the Tiger", "of Agility", "of the Squire", "Stolen Silver" };
+                                                            "of the Tiger", "of Agility", "of the Squire", "Stolen Silver", "Rocket Fuel Leak" };
 
     private Random _rand = new Random(DateTime.Now.Millisecond);
 
@@ -298,22 +298,31 @@ public class WowheadGuideParser
             var itemName = enchantAnchor.TextContent.Trim();
             var itemId = Int32.Parse(item);
 
-            var textureId = "";
-            if (isSpell == false && _enchantSwaps.ContainsKey(itemId))
-            {
-                textureId = itemId.ToString();
-                itemId = _enchantSwaps[itemId];
-            }
 
-            if (!enchants.ContainsKey(itemId + slot))
+            bool skippedItem = false;
+            foreach (var excludedName in excludedItemNames)
+                if (itemName.EndsWith(excludedName))
+                    skippedItem = true;
+
+            if (!skippedItem)
             {
-                enchants.Add(itemId + slot, new EnchantSpec
+                var textureId = "";
+                if (isSpell == false && _enchantSwaps.ContainsKey(itemId))
                 {
-                    EnchantId = itemId,
-                    Name = itemName ?? "unknown",
-                    Slot = slot,
-                    TextureId = textureId
-                });
+                    textureId = itemId.ToString();
+                    itemId = _enchantSwaps[itemId];
+                }
+
+                if (!enchants.ContainsKey(itemId + slot))
+                {
+                    enchants.Add(itemId + slot, new EnchantSpec
+                    {
+                        EnchantId = itemId,
+                        Name = itemName ?? "unknown",
+                        Slot = slot,
+                        TextureId = textureId
+                    });
+                }
             }
         }
     }
