@@ -308,6 +308,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Throne of the Tides"] = "파도의 왕좌";
   LBIS.L["Throne of the Tides (Heroic)"] = "파도의 왕좌 (영웅)";
   LBIS.L["Throne of the Tides (Normal)"] = "파도의 왕좌 (일반)";
+--  LBIS.L["Tier Token"] = "";
   LBIS.L["Token"] = "토큰";
 --  LBIS.L["Traitor's Bait"] = "";
   LBIS.L["Transmute"] = "변환식";

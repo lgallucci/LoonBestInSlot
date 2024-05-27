@@ -308,6 +308,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Throne of the Tides"] = "Thron der Gezeiten";
   LBIS.L["Throne of the Tides (Heroic)"] = "Thron der Gezeiten (Heroisch)";
   LBIS.L["Throne of the Tides (Normal)"] = "Thron der Gezeiten (Normal)";
+--  LBIS.L["Tier Token"] = "";
   LBIS.L["Token"] = "Token";
 --  LBIS.L["Traitor's Bait"] = "";
   LBIS.L["Transmute"] = "Transmutieren";

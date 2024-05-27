@@ -308,6 +308,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Throne of the Tides"] = "潮汐王座";
   LBIS.L["Throne of the Tides (Heroic)"] = "潮汐王座 (英雄)";
   LBIS.L["Throne of the Tides (Normal)"] = "潮汐王座 (正常)";
+--  LBIS.L["Tier Token"] = "";
   LBIS.L["Token"] = "代币";
 --  LBIS.L["Traitor's Bait"] = "";
 --  LBIS.L["Transmute"] = "";

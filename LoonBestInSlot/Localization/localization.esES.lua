@@ -308,6 +308,7 @@ if GetLocale() == "esES" then
   LBIS.L["Throne of the Tides"] = "Trono de las Mareas";
   LBIS.L["Throne of the Tides (Heroic)"] = "Trono de las Mareas (Heroico)";
   LBIS.L["Throne of the Tides (Normal)"] = "Trono de las Mareas (Normal)";
+--  LBIS.L["Tier Token"] = "";
   LBIS.L["Token"] = "Ficha";
 --  LBIS.L["Traitor's Bait"] = "";
   LBIS.L["Transmute"] = "Transmutar";

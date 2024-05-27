@@ -308,6 +308,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Throne of the Tides"] = "Трон Приливов";
   LBIS.L["Throne of the Tides (Heroic)"] = "Трон Приливов (Героический)";
   LBIS.L["Throne of the Tides (Normal)"] = "Трон Приливов (Норм.)";
+--  LBIS.L["Tier Token"] = "";
   LBIS.L["Token"] = "Фрагмент";
 --  LBIS.L["Traitor's Bait"] = "";
 --  LBIS.L["Transmute"] = "";
