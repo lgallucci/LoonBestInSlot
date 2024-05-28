@@ -31,6 +31,7 @@ LBIS:AddItem(spec0, "56318", LBIS.L["Shoulder"], "BIS") --Raz's Pauldrons
 LBIS:AddItem(spec0, "58100", LBIS.L["Shoulder"], "Alt") --Pauldrons of the High Requiem
 LBIS:AddItem(spec0, "63470", LBIS.L["Shoulder"], "Alt") --Missing Diplomat's Pauldrons
 LBIS:AddItem(spec0, "67140", LBIS.L["Back"], "BIS") --Drape of Inimitable Fate
+LBIS:AddItem(spec0, "62383", LBIS.L["Back"], "Alt") --Wrap of the Great Turtle
 LBIS:AddItem(spec0, "56397", LBIS.L["Back"], "Alt") --Geordan's Cloak
 LBIS:AddItem(spec0, "56275", LBIS.L["Back"], "Alt") --Eagle Ray Cloak
 LBIS:AddItem(spec0, "63467", LBIS.L["Back"], "Alt") --Shadow of the Past
@@ -77,6 +78,10 @@ LBIS:AddItem(spec0, "56431", LBIS.L["Trinket"], "Alt") --Right Eye of Rajh
 LBIS:AddItem(spec0, "64377", LBIS.L["Two Hand"], "BIS") --Zin'rokh, Destroyer of Worlds
 LBIS:AddItem(spec0, "62454", LBIS.L["Two Hand"], "Alt") --Blade of the Fearless
 LBIS:AddItem(spec0, "56342", LBIS.L["Two Hand"], "Alt") --Sword of the Bottomless Pit
+LBIS:AddItem(spec0, "65165", LBIS.L["Two Hand"], "Alt") --Foe Reaper
+LBIS:AddItem(spec0, "56456", LBIS.L["Two Hand"], "Alt") --Wild Hammer
+LBIS:AddItem(spec0, "56284", LBIS.L["Two Hand"], "Alt") --Whitefin Axe
+LBIS:AddItem(spec0, "63445", LBIS.L["Two Hand"], "Alt") --Arced War Axe
 LBIS:AddItem(spec0, "62243", LBIS.L["Ranged/Relic"], "BIS") --Notched Jawbone
 LBIS:AddItem(spec0, "63480", LBIS.L["Ranged/Relic"], "Alt") --Record of the Brotherhood's End
 LBIS:AddItem(spec0, "56279", LBIS.L["Ranged/Relic"], "Alt") --Conch of Thundering Waves

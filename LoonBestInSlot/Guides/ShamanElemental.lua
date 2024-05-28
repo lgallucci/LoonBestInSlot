@@ -112,7 +112,7 @@ LBIS:AddItem(spec0, "62244", LBIS.L["Ranged/Relic"], "Alt") --Tattooed Eyeball
 
 LBIS:AddItem(spec1, "65256", LBIS.L["Head"], "BIS") --Headpiece of the Raging Elements
 LBIS:AddItem(spec1, "65136", LBIS.L["Head"], "Alt") --Helm of the Nether Scion
-LBIS:AddItem(spec1, "59453", LBIS.L["Head"], "Alt") --Camouflage Bio-Optic Killshades
+LBIS:AddItem(spec1, "59456", LBIS.L["Head"], "Alt") --Deadly Bio-Optic Killshades
 LBIS:AddItem(spec1, "65114", LBIS.L["Shoulder"], "BIS") --Feludius' Mantle
 LBIS:AddItem(spec1, "65248", LBIS.L["Shoulder"], "BIS") --Mantle of the Raging Elements
 LBIS:AddItem(spec1, "60311", LBIS.L["Shoulder"], "Alt") --Mantle of the Raging Elements

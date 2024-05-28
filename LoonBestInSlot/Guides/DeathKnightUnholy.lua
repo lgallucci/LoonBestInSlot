@@ -74,6 +74,7 @@ LBIS:AddItem(spec0, "56284", LBIS.L["Two Hand"], "Alt") --Whitefin Axe
 LBIS:AddItem(spec0, "56456", LBIS.L["Two Hand"], "Alt") --Wild Hammer
 LBIS:AddItem(spec0, "64674", LBIS.L["Ranged/Relic"], "BIS") --Relic of Aggramar
 LBIS:AddItem(spec0, "56279", LBIS.L["Ranged/Relic"], "Alt") --Conch of Thundering Waves
+LBIS:AddItem(spec0, "63480", LBIS.L["Ranged/Relic"], "Alt") --Record of the Brotherhood's End
 LBIS:AddItem(spec0, "62243", LBIS.L["Ranged/Relic"], "Alt") --Notched Jawbone
 
 LBIS:AddItem(spec1, "65181", LBIS.L["Head"], "BIS") --Magma Plated Helmet

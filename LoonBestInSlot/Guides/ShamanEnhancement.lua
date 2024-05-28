@@ -77,8 +77,9 @@ LBIS:AddItem(spec0, "56310", LBIS.L["Ring"], "Alt") --Skullcracker Ring
 LBIS:AddItem(spec0, "56445", LBIS.L["Ring"], "Alt") --Ring of Dun Algaz
 LBIS:AddItem(spec0, "52318", LBIS.L["Ring"], "Alt") --Band of Blades
 LBIS:AddItem(spec0, "56282", LBIS.L["Ring"], "Alt") --Nautilus Ring
-LBIS:AddItem(spec0, "56427", LBIS.L["Trinket"], "BIS") --Left Eye of Rajh
 LBIS:AddItem(spec0, "58181", LBIS.L["Trinket"], "BIS") --Fluid Death
+LBIS:AddItem(spec0, "56427", LBIS.L["Trinket"], "BIS") --Left Eye of Rajh
+LBIS:AddItem(spec0, "62463", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
 LBIS:AddItem(spec0, "56394", LBIS.L["Trinket"], "Alt") --Tia's Grace
 LBIS:AddItem(spec0, "56328", LBIS.L["Trinket"], "Alt") --Key to the Endless Chamber
 LBIS:AddItem(spec0, "62051", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Hurricane
@@ -130,6 +131,7 @@ LBIS:AddItem(spec1, "58181", LBIS.L["Trinket"], "BIS") --Fluid Death
 LBIS:AddItem(spec1, "65026", LBIS.L["Trinket"], "Alt") --Prestor's Talisman of Machination
 LBIS:AddItem(spec1, "56427", LBIS.L["Trinket"], "Alt") --Left Eye of Rajh
 LBIS:AddItem(spec1, "56394", LBIS.L["Trinket"], "Alt") --Tia's Grace
+LBIS:AddItem(spec1, "62463", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
 LBIS:AddItem(spec1, "56440", LBIS.L["Trinket"], "Alt") --Skardyn's Grace
 LBIS:AddItem(spec1, "56328", LBIS.L["Trinket"], "Alt") --Key to the Endless Chamber
 LBIS:AddItem(spec1, "62051", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Hurricane
