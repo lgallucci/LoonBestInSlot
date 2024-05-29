@@ -40,6 +40,20 @@ public class RaidImporter : LootImporter
         { @"https://www.wowhead.com/cata/npc=43324/chogall#drops;mode:h10", "Cho'gall, The Bastion of Twilight (Heroic)"},
         { @"https://www.wowhead.com/cata/npc=45213/sinestra#drops;mode:h10", "Sinestra, The Bastion of Twilight (Heroic)"},
 
+        //Baradin Hold
+        { @"https://www.wowhead.com/cata/npc=47120/argaloth#drops;mode:n10", "Argaloth, Baradin Hold"},
+        { @"https://www.wowhead.com/cata/npc=55869/argaloth#drops;mode:n10;50", "Argaloth, Baradin Hold"},
+        { @"https://www.wowhead.com/cata/npc=55869/argaloth#drops;mode:n10;100", "Argaloth, Baradin Hold"},
+        { @"https://www.wowhead.com/cata/npc=52363/occuthar#drops;mode:n10", "Occu'thar, Baradin Hold"},
+        { @"https://www.wowhead.com/cata/npc=55869/occuthar#drops;mode:n10;50", "Occu'thar, Baradin Hold"},
+        { @"https://www.wowhead.com/cata/npc=55869/occuthar#drops;mode:n10;100", "Occu'thar, Baradin Hold"},
+        { @"https://www.wowhead.com/cata/npc=55869/occuthar#drops;mode:n10;150", "Occu'thar, Baradin Hold"},
+        { @"https://www.wowhead.com/cata/npc=55869/alizabal#drops;mode:n10", "Alizabal, Baradin Hold"},
+        { @"https://www.wowhead.com/cata/npc=55869/alizabal#drops;mode:n10;50", "Alizabal, Baradin Hold"},
+        { @"https://www.wowhead.com/cata/npc=55869/alizabal#drops;mode:n10;100", "Alizabal, Baradin Hold"},
+        { @"https://www.wowhead.com/cata/npc=55869/alizabal#drops;mode:n10;150", "Alizabal, Baradin Hold"},
+
+
     };
     private Dictionary<string, string> wowheadContainsUriList = new Dictionary<string, string>
     {

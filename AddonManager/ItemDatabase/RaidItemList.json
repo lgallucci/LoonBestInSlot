@@ -1008,6 +1008,406 @@
       "SourceLocation": "The Bastion of Twilight (Heroic)",
       "SourceFaction": "B"
     },
+    "60245": {
+      "Name": "Firelord's Leggings",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60247": {
+      "Name": "Firelord's Gloves",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60248": {
+      "Name": "Shadowflame Handwraps",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60250": {
+      "Name": "Shadowflame Leggings",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60255": {
+      "Name": "Mercurial Leggings",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60257": {
+      "Name": "Mercurial Gloves",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60261": {
+      "Name": "Mercurial Legwraps",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60275": {
+      "Name": "Mercurial Handwraps",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60278": {
+      "Name": "Stormrider's Legwraps",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60280": {
+      "Name": "Stormrider's Handwraps",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60283": {
+      "Name": "Stormrider's Leggings",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60285": {
+      "Name": "Stormrider's Gloves",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60288": {
+      "Name": "Stormrider's Legguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60290": {
+      "Name": "Stormrider's Grips",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60305": {
+      "Name": "Lightning-Charged Legguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60307": {
+      "Name": "Lightning-Charged Gloves",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60310": {
+      "Name": "Legwraps of the Raging Elements",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60312": {
+      "Name": "Handwraps of the Raging Elements",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60314": {
+      "Name": "Gloves of the Raging Elements",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60316": {
+      "Name": "Kilt of the Raging Elements",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60319": {
+      "Name": "Grips of the Raging Elements",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60321": {
+      "Name": "Legguards of the Raging Elements",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60324": {
+      "Name": "Earthen Legplates",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60326": {
+      "Name": "Earthen Gauntlets",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60330": {
+      "Name": "Earthen Legguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60332": {
+      "Name": "Earthen Handguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60340": {
+      "Name": "Magma Plated Gauntlets",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60342": {
+      "Name": "Magma Plated Legplates",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60345": {
+      "Name": "Reinforced Sapphirium Gauntlets",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60347": {
+      "Name": "Reinforced Sapphirium Legplates",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60350": {
+      "Name": "Magma Plated Handguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60352": {
+      "Name": "Magma Plated Legguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60355": {
+      "Name": "Reinforced Sapphirium Handguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60357": {
+      "Name": "Reinforced Sapphirium Legguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60361": {
+      "Name": "Reinforced Sapphirium Greaves",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60363": {
+      "Name": "Reinforced Sapphirium Gloves",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60424": {
+      "Name": "Vicious Gladiator's Chain Gauntlets",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60426": {
+      "Name": "Vicious Gladiator's Chain Leggings",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60580": {
+      "Name": "Vicious Gladiator's Belt of Meditation",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60583": {
+      "Name": "Vicious Gladiator's Belt of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60587": {
+      "Name": "Vicious Gladiator's Boots of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60593": {
+      "Name": "Vicious Gladiator's Boots of Alacrity",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60645": {
+      "Name": "Vicious Gladiator's Band of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60647": {
+      "Name": "Vicious Gladiator's Band of Accuracy",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60649": {
+      "Name": "Vicious Gladiator's Band of Meditation",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60670": {
+      "Name": "Vicious Gladiator's Choker of Proficiency",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60673": {
+      "Name": "Vicious Gladiator's Choker of Accuracy",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60779": {
+      "Name": "Vicious Gladiator's Cape of Prowess",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60783": {
+      "Name": "Vicious Gladiator's Cape of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "61033": {
+      "Name": "Vicious Gladiator's Badge of Conquest",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "63488": {
       "Name": "Mistral Circle",
       "Source": "Conclave of Wind",
@@ -2726,6 +3126,1614 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of the Four Winds (Heroic)",
+      "SourceFaction": "B"
+    },
+    "70322": {
+      "Name": "Ruthless Gladiator's Armplates of Alacrity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70327": {
+      "Name": "Ruthless Gladiator's Armplates of Proficiency",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70330": {
+      "Name": "Ruthless Gladiator's Armbands of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70342": {
+      "Name": "Ruthless Gladiator's Armbands of Prowess",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70350": {
+      "Name": "Ruthless Gladiator's Armwraps of Accuracy",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70352": {
+      "Name": "Ruthless Gladiator's Armwraps of Alacrity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70369": {
+      "Name": "Ruthless Gladiator's Band of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70370": {
+      "Name": "Ruthless Gladiator's Band of Accuracy",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70371": {
+      "Name": "Ruthless Gladiator's Band of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70399": {
+      "Name": "Ruthless Gladiator's Badge of Conquest",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70400": {
+      "Name": "Ruthless Gladiator's Badge of Victory",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70401": {
+      "Name": "Ruthless Gladiator's Badge of Dominance",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70942": {
+      "Name": "Legguards of the Molten Giant",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70943": {
+      "Name": "Handguards of the Molten Giant",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70947": {
+      "Name": "Immolation Legguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70949": {
+      "Name": "Immolation Handguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70952": {
+      "Name": "Elementium Deathplate Legguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70953": {
+      "Name": "Elementium Deathplate Handguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71046": {
+      "Name": "Dark Phoenix Gloves",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71048": {
+      "Name": "Dark Phoenix Legguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71050": {
+      "Name": "Flamewaker's Gloves",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71052": {
+      "Name": "Flamewaker's Legguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71059": {
+      "Name": "Elementium Deathplate Gauntlets",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71061": {
+      "Name": "Elementium Deathplate Greaves",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71064": {
+      "Name": "Immolation Gauntlets",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71066": {
+      "Name": "Immolation Legplates",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71069": {
+      "Name": "Gauntlets of the Molten Giant",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71071": {
+      "Name": "Legplates of the Molten Giant",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71092": {
+      "Name": "Immolation Gloves",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71094": {
+      "Name": "Immolation Greaves",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71097": {
+      "Name": "Obsidian Arborweave Grips",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71099": {
+      "Name": "Obsidian Arborweave Legguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71102": {
+      "Name": "Obsidian Arborweave Handwraps",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71104": {
+      "Name": "Obsidian Arborweave Legwraps",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71107": {
+      "Name": "Obsidian Arborweave Gloves",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71109": {
+      "Name": "Obsidian Arborweave Leggings",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71271": {
+      "Name": "Handwraps of the Cleansing Flame",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71273": {
+      "Name": "Legwraps of the Cleansing Flame",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71276": {
+      "Name": "Gloves of the Cleansing Flame",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71278": {
+      "Name": "Leggings of the Cleansing Flame",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71281": {
+      "Name": "Balespider's Handwraps",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71283": {
+      "Name": "Balespider's Leggings",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71286": {
+      "Name": "Firehawk Gloves",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71288": {
+      "Name": "Firehawk Leggings",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71292": {
+      "Name": "Erupting Volcanic Gloves",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71294": {
+      "Name": "Erupting Volcanic Kilt",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71297": {
+      "Name": "Erupting Volcanic Handwraps",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71299": {
+      "Name": "Erupting Volcanic Legwraps",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71302": {
+      "Name": "Erupting Volcanic Grips",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71304": {
+      "Name": "Erupting Volcanic Legguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73479": {
+      "Name": "Cataclysmic Gladiator's Plate Legguards",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73481": {
+      "Name": "Cataclysmic Gladiator's Plate Gauntlets",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73485": {
+      "Name": "Cataclysmic Gladiator's Felweave Trousers",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73487": {
+      "Name": "Cataclysmic Gladiator's Felweave Handguards",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73488": {
+      "Name": "Cataclysmic Gladiator's Signet of Accuracy",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73489": {
+      "Name": "Cataclysmic Gladiator's Signet of Cruelty",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73491": {
+      "Name": "Cataclysmic Gladiator's Insignia of Victory",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73492": {
+      "Name": "Cataclysmic Gladiator's Choker of Accuracy",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73493": {
+      "Name": "Cataclysmic Gladiator's Choker of Proficiency",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73494": {
+      "Name": "Cataclysmic Gladiator's Cloak of Prowess",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73495": {
+      "Name": "Cataclysmic Gladiator's Cloak of Alacrity",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73496": {
+      "Name": "Cataclysmic Gladiator's Badge of Victory",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73497": {
+      "Name": "Cataclysmic Gladiator's Insignia of Dominance",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73498": {
+      "Name": "Cataclysmic Gladiator's Badge of Dominance",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73503": {
+      "Name": "Cataclysmic Gladiator's Mail Leggings",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73505": {
+      "Name": "Cataclysmic Gladiator's Mail Gauntlets",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73507": {
+      "Name": "Cataclysmic Gladiator's Waistguard of Cruelty",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73509": {
+      "Name": "Cataclysmic Gladiator's Linked Leggings",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73511": {
+      "Name": "Cataclysmic Gladiator's Linked Gauntlets",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73514": {
+      "Name": "Cataclysmic Gladiator's Ringmail Leggings",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73516": {
+      "Name": "Cataclysmic Gladiator's Ringmail Gauntlets",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73518": {
+      "Name": "Cataclysmic Gladiator's Armbands of Meditation",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73519": {
+      "Name": "Cataclysmic Gladiator's Armbands of Prowess",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73520": {
+      "Name": "Cataclysmic Gladiator's Sabatons of Meditation",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73521": {
+      "Name": "Cataclysmic Gladiator's Sabatons of Alacrity",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73522": {
+      "Name": "Cataclysmic Gladiator's Waistguard of Meditation",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73524": {
+      "Name": "Cataclysmic Gladiator's Leather Legguards",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73526": {
+      "Name": "Cataclysmic Gladiator's Leather Gloves",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73528": {
+      "Name": "Cataclysmic Gladiator's Armwraps of Accuracy",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73529": {
+      "Name": "Cataclysmic Gladiator's Armwraps of Alacrity",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73530": {
+      "Name": "Cataclysmic Gladiator's Boots of Alacrity",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73531": {
+      "Name": "Cataclysmic Gladiator's Boots of Cruelty",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73532": {
+      "Name": "Cataclysmic Gladiator's Waistband of Accuracy",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73533": {
+      "Name": "Cataclysmic Gladiator's Waistband of Cruelty",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73534": {
+      "Name": "Cataclysmic Gladiator's Medallion of Meditation",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73535": {
+      "Name": "Cataclysmic Gladiator's Medallion of Meditation",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73536": {
+      "Name": "Cataclysmic Gladiator's Medallion of Tenacity",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73537": {
+      "Name": "Cataclysmic Gladiator's Medallion of Tenacity",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73538": {
+      "Name": "Cataclysmic Gladiator's Medallion of Cruelty",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73539": {
+      "Name": "Cataclysmic Gladiator's Medallion of Cruelty",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73542": {
+      "Name": "Cataclysmic Gladiator's Satin Leggings",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73544": {
+      "Name": "Cataclysmic Gladiator's Satin Gloves",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73547": {
+      "Name": "Cataclysmic Gladiator's Mooncloth Leggings",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73549": {
+      "Name": "Cataclysmic Gladiator's Mooncloth Gloves",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73550": {
+      "Name": "Cataclysmic Gladiator's Armplates of Alacrity",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73551": {
+      "Name": "Cataclysmic Gladiator's Armplates of Proficiency",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73552": {
+      "Name": "Cataclysmic Gladiator's Warboots of Alacrity",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73553": {
+      "Name": "Cataclysmic Gladiator's Warboots of Cruelty",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73554": {
+      "Name": "Cataclysmic Gladiator's Girdle of Prowess",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73555": {
+      "Name": "Cataclysmic Gladiator's Girdle of Cruelty",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73557": {
+      "Name": "Cataclysmic Gladiator's Ornamented Legplates",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73559": {
+      "Name": "Cataclysmic Gladiator's Ornamented Gloves",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73561": {
+      "Name": "Cataclysmic Gladiator's Bracers of Meditation",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73562": {
+      "Name": "Cataclysmic Gladiator's Bracers of Prowess",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73563": {
+      "Name": "Cataclysmic Gladiator's Greaves of Meditation",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73564": {
+      "Name": "Cataclysmic Gladiator's Greaves of Alacrity",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73565": {
+      "Name": "Cataclysmic Gladiator's Clasp of Meditation",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73566": {
+      "Name": "Cataclysmic Gladiator's Clasp of Cruelty",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73568": {
+      "Name": "Cataclysmic Gladiator's Scaled Legguards",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73570": {
+      "Name": "Cataclysmic Gladiator's Scaled Gauntlets",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73574": {
+      "Name": "Cataclysmic Gladiator's Silk Trousers",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73576": {
+      "Name": "Cataclysmic Gladiator's Silk Handguards",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73581": {
+      "Name": "Cataclysmic Gladiator's Chain Leggings",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73583": {
+      "Name": "Cataclysmic Gladiator's Chain Gauntlets",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73585": {
+      "Name": "Cataclysmic Gladiator's Wristguards of Accuracy",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73586": {
+      "Name": "Cataclysmic Gladiator's Wristguards of Alacrity",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73587": {
+      "Name": "Cataclysmic Gladiator's Sabatons of Alacrity",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73588": {
+      "Name": "Cataclysmic Gladiator's Sabatons of Cruelty",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73589": {
+      "Name": "Cataclysmic Gladiator's Links of Accuracy",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73590": {
+      "Name": "Cataclysmic Gladiator's Links of Cruelty",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73591": {
+      "Name": "Cataclysmic Gladiator's Emblem of Meditation",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73592": {
+      "Name": "Cataclysmic Gladiator's Emblem of Tenacity",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73593": {
+      "Name": "Cataclysmic Gladiator's Emblem of Cruelty",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73597": {
+      "Name": "Cataclysmic Gladiator's Wyrmhide Legguards",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73599": {
+      "Name": "Cataclysmic Gladiator's Wyrmhide Gloves",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73600": {
+      "Name": "Cataclysmic Gladiator's Bindings of Prowess",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73601": {
+      "Name": "Cataclysmic Gladiator's Footguards of Alacrity",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73602": {
+      "Name": "Cataclysmic Gladiator's Belt of Cruelty",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73605": {
+      "Name": "Cataclysmic Gladiator's Kodohide Legguards",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73607": {
+      "Name": "Cataclysmic Gladiator's Kodohide Gloves",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73608": {
+      "Name": "Cataclysmic Gladiator's Bindings of Meditation",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73609": {
+      "Name": "Cataclysmic Gladiator's Footguards of Meditation",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73610": {
+      "Name": "Cataclysmic Gladiator's Belt of Meditation",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73613": {
+      "Name": "Cataclysmic Gladiator's Dragonhide Legguards",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73615": {
+      "Name": "Cataclysmic Gladiator's Dragonhide Gloves",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73617": {
+      "Name": "Cataclysmic Gladiator's Dreadplate Legguards",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73619": {
+      "Name": "Cataclysmic Gladiator's Dreadplate Gauntlets",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73621": {
+      "Name": "Cataclysmic Gladiator's Band of Meditation",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73622": {
+      "Name": "Cataclysmic Gladiator's Band of Accuracy",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73623": {
+      "Name": "Cataclysmic Gladiator's Band of Cruelty",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73625": {
+      "Name": "Cataclysmic Gladiator's Pendant of Meditation",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73626": {
+      "Name": "Cataclysmic Gladiator's Pendant of Diffusion",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73627": {
+      "Name": "Cataclysmic Gladiator's Pendant of Alacrity",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73628": {
+      "Name": "Cataclysmic Gladiator's Drape of Meditation",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73629": {
+      "Name": "Cataclysmic Gladiator's Drape of Diffusion",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73630": {
+      "Name": "Cataclysmic Gladiator's Drape of Prowess",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73631": {
+      "Name": "Cataclysmic Gladiator's Cuffs of Meditation",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73632": {
+      "Name": "Cataclysmic Gladiator's Cuffs of Prowess",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73633": {
+      "Name": "Cataclysmic Gladiator's Cuffs of Accuracy",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73634": {
+      "Name": "Cataclysmic Gladiator's Treads of Meditation",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73635": {
+      "Name": "Cataclysmic Gladiator's Treads of Alacrity",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73636": {
+      "Name": "Cataclysmic Gladiator's Treads of Cruelty",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73637": {
+      "Name": "Cataclysmic Gladiator's Cord of Meditation",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73638": {
+      "Name": "Cataclysmic Gladiator's Cord of Accuracy",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73639": {
+      "Name": "Cataclysmic Gladiator's Cord of Cruelty",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73640": {
+      "Name": "Cataclysmic Gladiator's Ring of Accuracy",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73641": {
+      "Name": "Cataclysmic Gladiator's Ring of Cruelty",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73643": {
+      "Name": "Cataclysmic Gladiator's Insignia of Conquest",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73644": {
+      "Name": "Cataclysmic Gladiator's Necklace of Prowess",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73645": {
+      "Name": "Cataclysmic Gladiator's Necklace of Proficiency",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73646": {
+      "Name": "Cataclysmic Gladiator's Cape of Prowess",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73647": {
+      "Name": "Cataclysmic Gladiator's Cape of Cruelty",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "73648": {
+      "Name": "Cataclysmic Gladiator's Badge of Conquest",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76212": {
+      "Name": "Time Lord's Gloves",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76214": {
+      "Name": "Time Lord's Leggings",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76341": {
+      "Name": "Leggings of the Faceless Shroud",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76343": {
+      "Name": "Gloves of the Faceless Shroud",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76346": {
+      "Name": "Leggings of Dying Light",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76348": {
+      "Name": "Gloves of Dying Light",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76357": {
+      "Name": "Handwraps of Dying Light",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76359": {
+      "Name": "Legwraps of Dying Light",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76749": {
+      "Name": "Deep Earth Handwraps",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76751": {
+      "Name": "Deep Earth Legwraps",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76757": {
+      "Name": "Spiritwalker's Handwraps",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76759": {
+      "Name": "Spiritwalker's Legwraps",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76766": {
+      "Name": "Gloves of Radiant Glory",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76768": {
+      "Name": "Greaves of Radiant Glory",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76875": {
+      "Name": "Gauntlets of Radiant Glory",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76877": {
+      "Name": "Legplates of Radiant Glory",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76975": {
+      "Name": "Necrotic Boneplate Gauntlets",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76977": {
+      "Name": "Necrotic Boneplate Greaves",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76985": {
+      "Name": "Colossal Dragonplate Gauntlets",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76986": {
+      "Name": "Colossal Dragonplate Legplates",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76989": {
+      "Name": "Colossal Dragonplate Handguards",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "76991": {
+      "Name": "Colossal Dragonplate Legguards",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77004": {
+      "Name": "Handguards of Radiant Glory",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77006": {
+      "Name": "Legguards of Radiant Glory",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77009": {
+      "Name": "Necrotic Boneplate Handguards",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77011": {
+      "Name": "Necrotic Boneplate Legguards",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77014": {
+      "Name": "Deep Earth Grips",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77016": {
+      "Name": "Deep Earth Legguards",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77018": {
+      "Name": "Deep Earth Gloves",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77020": {
+      "Name": "Deep Earth Leggings",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77024": {
+      "Name": "Blackfang Battleweave Gloves",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77026": {
+      "Name": "Blackfang Battleweave Legguards",
+      "Source": "Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77029": {
+      "Name": "Wyrmstalker's Gloves",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77031": {
+      "Name": "Wyrmstalker's Legguards",
+      "Source": "Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77036": {
+      "Name": "Spiritwalker's Kilt",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77038": {
+      "Name": "Spiritwalker's Gloves",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77041": {
+      "Name": "Spiritwalker's Grips",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77043": {
+      "Name": "Spiritwalker's Legguards",
+      "Source": "Argaloth & Occu'thar & Alizabal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     }
   }
