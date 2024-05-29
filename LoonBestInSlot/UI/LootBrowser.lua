@@ -326,9 +326,10 @@ local function createDropDowns(window)
     local zone_opts = {
         ['name']='zone',
         ['parent']=window,
-        ['title']='Raid:',
-        ['items']= { LBIS.L["All"], LBIS.L["Heroic"],
-            LBIS.L["Throne of the Four Winds"], LBIS.L["Blackwing Descent"], LBIS.L["The Bastion of Twilight"] --Phase 1
+        ['title']='Zone:',
+        ['items']= { LBIS.L["All"], LBIS.L["Blackrock Caverns"], LBIS.L["The Deadmines"], LBIS.L["Grim Batol"], LBIS.L["Halls of Origination"], LBIS.L["Lost City of the Tol'vir"],
+            LBIS.L["Shadowfang Keep"], LBIS.L["The Stonecore"], LBIS.L["Throne of the Tides"], LBIS.L["Vortex Pinnacle"],-- Phase 0
+            LBIS.L["Throne of the Four Winds"], LBIS.L["Blackwing Descent"], LBIS.L["The Bastion of Twilight"] , LBIS.L["Baradin Hold"]--Phase 1
         },
         ['defaultVal']= LBISSettings.SelectedZone,
         ['changeFunc']=function(dropdown_frame, dropdown_val)

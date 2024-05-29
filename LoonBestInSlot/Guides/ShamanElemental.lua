@@ -113,9 +113,9 @@ LBIS:AddItem(spec0, "62244", LBIS.L["Ranged/Relic"], "Alt") --Tattooed Eyeball
 LBIS:AddItem(spec1, "65256", LBIS.L["Head"], "BIS") --Headpiece of the Raging Elements
 LBIS:AddItem(spec1, "65136", LBIS.L["Head"], "Alt") --Helm of the Nether Scion
 LBIS:AddItem(spec1, "59456", LBIS.L["Head"], "Alt") --Deadly Bio-Optic Killshades
-LBIS:AddItem(spec1, "65114", LBIS.L["Shoulder"], "BIS") --Feludius' Mantle
-LBIS:AddItem(spec1, "65248", LBIS.L["Shoulder"], "BIS") --Mantle of the Raging Elements
-LBIS:AddItem(spec1, "60311", LBIS.L["Shoulder"], "Alt") --Mantle of the Raging Elements
+LBIS:AddItem(spec1, "65258", LBIS.L["Shoulder"], "BIS") --Shoulderwraps of the Raging Elements
+LBIS:AddItem(spec1, "65114", LBIS.L["Shoulder"], "Alt") --Feludius' Mantle
+LBIS:AddItem(spec1, "60317", LBIS.L["Shoulder"], "Alt") --Shoulderwraps of the Raging Elements
 LBIS:AddItem(spec1, "63452", LBIS.L["Shoulder"], "Alt") --Burden of Lost Humanity
 LBIS:AddItem(spec1, "60232", LBIS.L["Back"], "BIS") --Shroud of Endless Grief
 LBIS:AddItem(spec1, "65108", LBIS.L["Back"], "Alt") --Drape of the Twins
@@ -123,8 +123,8 @@ LBIS:AddItem(spec1, "69881", LBIS.L["Back"], "Alt") --Planetary Drape
 LBIS:AddItem(spec1, "65018", LBIS.L["Back"], "Alt") --Shadow of Dread
 LBIS:AddItem(spec1, "67131", LBIS.L["Back"], "Alt") --Ritssyn's Ruminous Drape
 LBIS:AddItem(spec1, "58194", LBIS.L["Back"], "Alt") --Heavenly Breeze
-LBIS:AddItem(spec1, "65254", LBIS.L["Chest"], "BIS") --Hauberk of the Raging Elements
-LBIS:AddItem(spec1, "65004", LBIS.L["Chest"], "Alt") --Circuit Design Breastplate
+LBIS:AddItem(spec1, "65004", LBIS.L["Chest"], "BIS") --Circuit Design Breastplate
+LBIS:AddItem(spec1, "65254", LBIS.L["Chest"], "Alt") --Hauberk of the Raging Elements
 LBIS:AddItem(spec1, "56563", LBIS.L["Chest"], "Alt") --Twilight Scale Chestguard
 LBIS:AddItem(spec1, "65068", LBIS.L["Wrist"], "BIS") --Chaos Beast Bracers
 LBIS:AddItem(spec1, "59310", LBIS.L["Wrist"], "Alt") --Chaos Beast Bracers
