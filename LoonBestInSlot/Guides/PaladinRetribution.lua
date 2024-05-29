@@ -27,7 +27,8 @@ LBIS:AddItem(spec0, "59359", LBIS.L["Head"], "BIS") --Reinforced Bio-Optic Kills
 LBIS:AddItem(spec0, "56278", LBIS.L["Head"], "BIS") --Anomuran Helm
 LBIS:AddItem(spec0, "58098", LBIS.L["Head"], "Alt") --Helm of Easeful Death
 LBIS:AddItem(spec0, "63478", LBIS.L["Head"], "Alt") --Stonemason's Helm
-LBIS:AddItem(spec0, "56318", LBIS.L["Shoulder"], "BIS") --Raz's Pauldrons
+LBIS:AddItem(spec0, "60417", LBIS.L["Shoulder"], "BIS") --Vicious Gladiator's Scaled Shoulders
+LBIS:AddItem(spec0, "56318", LBIS.L["Shoulder"], "Alt") --Raz's Pauldrons
 LBIS:AddItem(spec0, "58100", LBIS.L["Shoulder"], "Alt") --Pauldrons of the High Requiem
 LBIS:AddItem(spec0, "63470", LBIS.L["Shoulder"], "Alt") --Missing Diplomat's Pauldrons
 LBIS:AddItem(spec0, "67140", LBIS.L["Back"], "BIS") --Drape of Inimitable Fate
@@ -41,7 +42,8 @@ LBIS:AddItem(spec0, "56425", LBIS.L["Chest"], "Alt") --Breastplate of the Risen 
 LBIS:AddItem(spec0, "63458", LBIS.L["Chest"], "Alt") --Lord Walden's Breastplate
 LBIS:AddItem(spec0, "57870", LBIS.L["Wrist"], "BIS") --Alpha Bracers
 LBIS:AddItem(spec0, "56301", LBIS.L["Wrist"], "Alt") --Bracers of Cooled Anger
-LBIS:AddItem(spec0, "58099", LBIS.L["Hands"], "BIS") --Reaping Gauntlets
+LBIS:AddItem(spec0, "60414", LBIS.L["Hands"], "BIS") --Vicious Gladiator's Scaled Gauntlets
+LBIS:AddItem(spec0, "58099", LBIS.L["Hands"], "Alt") --Reaping Gauntlets
 LBIS:AddItem(spec0, "63474", LBIS.L["Hands"], "Alt") --Gear-Marked Gauntlets
 LBIS:AddItem(spec0, "62408", LBIS.L["Hands"], "Alt") --Gauntlets of Rattling Bones
 LBIS:AddItem(spec0, "62384", LBIS.L["Waist"], "BIS") --Belt of the Ferocious Wolf
@@ -52,12 +54,13 @@ LBIS:AddItem(spec0, "60347", LBIS.L["Legs"], "BIS") --Reinforced Sapphirium Legp
 LBIS:AddItem(spec0, "67141", LBIS.L["Legs"], "Alt") --Corefire Legplates
 LBIS:AddItem(spec0, "56367", LBIS.L["Legs"], "Alt") --Legguards of Winnowing Wind
 LBIS:AddItem(spec0, "58097", LBIS.L["Legs"], "Alt") --Greaves of Gallantry
-LBIS:AddItem(spec0, "62418", LBIS.L["Feet"], "BIS") --Boots of Sullen Rock
 LBIS:AddItem(spec0, "58195", LBIS.L["Feet"], "BIS") --Woe Breeder's Boots
+LBIS:AddItem(spec0, "62418", LBIS.L["Feet"], "Alt") --Boots of Sullen Rock
 LBIS:AddItem(spec0, "56381", LBIS.L["Feet"], "Alt") --Greaves of Wu the Elder
 LBIS:AddItem(spec0, "62382", LBIS.L["Feet"], "Alt") --Waywatcher's Boots
 LBIS:AddItem(spec0, "67138", LBIS.L["Neck"], "BIS") --Buc-Zakai Choker
 LBIS:AddItem(spec0, "62447", LBIS.L["Neck"], "BIS") --Gift of Nadun
+LBIS:AddItem(spec0, "57930", LBIS.L["Neck"], "Alt") --Pendant of Quiet Breath
 LBIS:AddItem(spec0, "56360", LBIS.L["Neck"], "Alt") --Red Sky Pendant
 LBIS:AddItem(spec0, "63438", LBIS.L["Neck"], "Alt") --Baroness Silverlaine's Locket
 LBIS:AddItem(spec0, "67139", LBIS.L["Ring"], "BIS") --Blauvelt's Family Crest

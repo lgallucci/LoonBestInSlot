@@ -86,6 +86,7 @@ LBIS:AddItem(spec0, "62051", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Hurrican
 LBIS:AddItem(spec0, "56440", LBIS.L["Trinket"], "Alt") --Skardyn's Grace
 LBIS:AddItem(spec0, "67602", LBIS.L["Main Hand"], "BIS") --Elementium Gutslicer
 LBIS:AddItem(spec0, "56266", LBIS.L["Main Hand"], "BIS") --Lightning Whelk Axe
+LBIS:AddItem(spec0, "57928", LBIS.L["Main Hand"], "Alt") --Windslicer
 LBIS:AddItem(spec0, "65171", LBIS.L["Main Hand"], "Alt") --Cookie's Tenderizer
 LBIS:AddItem(spec0, "62476", LBIS.L["Main Hand"], "Alt") --Ravening Slicer
 LBIS:AddItem(spec0, "56329", LBIS.L["Main Hand"], "Alt") --Fist of Pained Senses

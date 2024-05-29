@@ -1120,6 +1120,22 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "60298": {
+      "Name": "Wind Dancer's Gloves",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60300": {
+      "Name": "Wind Dancer's Legguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "60305": {
       "Name": "Lightning-Charged Legguards",
       "Source": "Argaloth",
@@ -1296,6 +1312,38 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "60414": {
+      "Name": "Vicious Gladiator's Scaled Gauntlets",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60416": {
+      "Name": "Vicious Gladiator's Scaled Legguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60419": {
+      "Name": "Vicious Gladiator's Plate Gauntlets",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60421": {
+      "Name": "Vicious Gladiator's Plate Legguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "60424": {
       "Name": "Vicious Gladiator's Chain Gauntlets",
       "Source": "Argaloth",
@@ -1306,6 +1354,134 @@
     },
     "60426": {
       "Name": "Vicious Gladiator's Chain Leggings",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60429": {
+      "Name": "Vicious Gladiator's Ringmail Gauntlets",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60431": {
+      "Name": "Vicious Gladiator's Ringmail Leggings",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60453": {
+      "Name": "Vicious Gladiator's Wyrmhide Gloves",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60455": {
+      "Name": "Vicious Gladiator's Wyrmhide Legguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60463": {
+      "Name": "Vicious Gladiator's Silk Handguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60465": {
+      "Name": "Vicious Gladiator's Silk Trousers",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60473": {
+      "Name": "Vicious Gladiator's Satin Gloves",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60475": {
+      "Name": "Vicious Gladiator's Satin Leggings",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60509": {
+      "Name": "Vicious Gladiator's Warboots of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60513": {
+      "Name": "Vicious Gladiator's Warboots of Alacrity",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60533": {
+      "Name": "Vicious Gladiator's Waistguard of Meditation",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60534": {
+      "Name": "Vicious Gladiator's Sabatons of Meditation",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60536": {
+      "Name": "Vicious Gladiator's Waistguard of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60554": {
+      "Name": "Vicious Gladiator's Sabatons of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60557": {
+      "Name": "Vicious Gladiator's Sabatons of Alacrity",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60567": {
+      "Name": "Vicious Gladiator's Sabatons of Alacrity",
       "Source": "Argaloth",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -1328,6 +1504,14 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "60586": {
+      "Name": "Vicious Gladiator's Waistband of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "60587": {
       "Name": "Vicious Gladiator's Boots of Cruelty",
       "Source": "Argaloth",
@@ -1336,8 +1520,40 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "60589": {
+      "Name": "Vicious Gladiator's Waistband of Accuracy",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "60593": {
       "Name": "Vicious Gladiator's Boots of Alacrity",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60613": {
+      "Name": "Vicious Gladiator's Treads of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60630": {
+      "Name": "Vicious Gladiator's Treads of Alacrity",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60636": {
+      "Name": "Vicious Gladiator's Treads of Meditation",
       "Source": "Argaloth",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -1362,6 +1578,62 @@
     },
     "60649": {
       "Name": "Vicious Gladiator's Band of Meditation",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60650": {
+      "Name": "Vicious Gladiator's Signet of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60651": {
+      "Name": "Vicious Gladiator's Signet of Accuracy",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60658": {
+      "Name": "Vicious Gladiator's Ring of Accuracy",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60659": {
+      "Name": "Vicious Gladiator's Ring of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60661": {
+      "Name": "Vicious Gladiator's Pendant of Diffusion",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60662": {
+      "Name": "Vicious Gladiator's Pendant of Alacrity",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60664": {
+      "Name": "Vicious Gladiator's Pendant of Meditation",
       "Source": "Argaloth",
       "SourceType": "Drop",
       "SourceNumber": "0",
