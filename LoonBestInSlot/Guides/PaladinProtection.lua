@@ -128,6 +128,7 @@ LBIS:AddItem(spec1, "65025", LBIS.L["Neck"], "Alt") --Rage of Ages
 LBIS:AddItem(spec1, "59319", LBIS.L["Neck"], "Alt") --Ironstar Amulet
 LBIS:AddItem(spec1, "57932", LBIS.L["Neck"], "Alt") --The Lustrous Eye
 LBIS:AddItem(spec1, "65372", LBIS.L["Ring"], "BIS") --Permafrost Signet
+LBIS:AddItem(spec1, "60226", LBIS.L["Ring"], "BIS") --Dargonax's Signet
 LBIS:AddItem(spec1, "58187", LBIS.L["Ring"], "Alt") --Ring of the Battle Anthem
 LBIS:AddItem(spec1, "63489", LBIS.L["Ring"], "Alt") --Permafrost Signet
 LBIS:AddItem(spec1, "56444", LBIS.L["Ring"], "Alt") --Umbriss Band

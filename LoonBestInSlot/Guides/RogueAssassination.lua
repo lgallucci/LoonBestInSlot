@@ -9,6 +9,8 @@ LBIS:AddGem(spec0, "52220", "3", "False") --Glinting Demonseye
 LBIS:AddGem(spec0, "52212", "3", "False") --Delicate Inferno Ruby
 LBIS:AddGem(spec0, "52211", "3", "False") --Deft Ember Topaz
 LBIS:AddGem(spec1, "52204", "3", "False") --Adept Ember Topaz
+LBIS:AddGem(spec0, "59480", "3", "False") --Fractured Cogwheel
+LBIS:AddGem(spec0, "59479", "3", "False") --Quick Cogwheel
 
 LBIS:AddEnchant(spec1, "86934", LBIS.L["Head"]) --Arcanum of the Ramkahen
 LBIS:AddEnchant(spec1, "86907", LBIS.L["Shoulder"]) --Greater Inscription of Shattered Crystal
@@ -215,14 +217,14 @@ LBIS:AddItem(spec1, "56310", LBIS.L["Ring"], "Alt") --Skullcracker Ring
 LBIS:AddItem(spec1, "56282", LBIS.L["Ring"], "Alt") --Nautilus Ring
 LBIS:AddItem(spec1, "58181", LBIS.L["Trinket"], "BIS") --Fluid Death
 LBIS:AddItem(spec1, "65026", LBIS.L["Trinket"], "BIS") --Prestor's Talisman of Machination
+LBIS:AddItem(spec1, "62463", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
+LBIS:AddItem(spec1, "62468", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
 LBIS:AddItem(spec1, "56328", LBIS.L["Trinket"], "Alt") --Key to the Endless Chamber
 LBIS:AddItem(spec1, "56394", LBIS.L["Trinket"], "Alt") --Tia's Grace
 LBIS:AddItem(spec1, "59441", LBIS.L["Trinket"], "Alt") --Prestor's Talisman of Machination
 LBIS:AddItem(spec1, "59520", LBIS.L["Trinket"], "Alt") --Unheeded Warning
 LBIS:AddItem(spec1, "56427", LBIS.L["Trinket"], "Alt") --Left Eye of Rajh
 LBIS:AddItem(spec1, "65140", LBIS.L["Trinket"], "Alt") --Essence of the Cyclone
-LBIS:AddItem(spec1, "62463", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
-LBIS:AddItem(spec1, "62468", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
 LBIS:AddItem(spec1, "68776", LBIS.L["Trinket"], "Alt") --Quicksilver Alchemist Stone
 LBIS:AddItem(spec1, "59473", LBIS.L["Trinket"], "Alt") --Essence of the Cyclone
 LBIS:AddItem(spec1, "56440", LBIS.L["Trinket"], "Alt") --Skardyn's Grace
@@ -232,7 +234,7 @@ LBIS:AddItem(spec1, "59122", LBIS.L["Main Hand"], "Alt") --Organic Lifeform Inve
 LBIS:AddItem(spec1, "56302", LBIS.L["Main Hand"], "Alt") --Steelbender's Masterpiece
 LBIS:AddItem(spec1, "55068", LBIS.L["Main Hand"], "Alt") --Elementium Shank
 LBIS:AddItem(spec1, "56454", LBIS.L["Main Hand"], "Alt") --Windwalker Blade
-LBIS:AddItem(spec1, "63477", LBIS.L["Main Hand"], "Alt") --Wicked Dagger
+LBIS:AddItem(spec1, "63456", LBIS.L["Main Hand"], "Alt") --Meteor Shard
 LBIS:AddItem(spec1, "68600", LBIS.L["Off Hand"], "BIS") --Uhn'agh Fash, the Darkest Betrayal
 LBIS:AddItem(spec1, "68601", LBIS.L["Off Hand"], "Alt") --Scaleslicer
 LBIS:AddItem(spec1, "59494", LBIS.L["Off Hand"], "Alt") --Uhn'agh Fash, the Darkest Betrayal
@@ -245,6 +247,7 @@ LBIS:AddItem(spec1, "65095", LBIS.L["Ranged/Relic"], "BIS") --Dragonheart Pierce
 LBIS:AddItem(spec1, "68608", LBIS.L["Ranged/Relic"], "Alt") --Dragonwreck Throwing Axe
 LBIS:AddItem(spec1, "68162", LBIS.L["Ranged/Relic"], "Alt") --Spinerender
 LBIS:AddItem(spec1, "59320", LBIS.L["Ranged/Relic"], "Alt") --Themios the Darkbringer
+LBIS:AddItem(spec1, "59367", LBIS.L["Ranged/Relic"], "Alt") --Kickback 5000
 LBIS:AddItem(spec1, "63532", LBIS.L["Ranged/Relic"], "Alt") --Dragonheart Piercer
 LBIS:AddItem(spec1, "56420", LBIS.L["Ranged/Relic"], "Alt") --Slashing Thorns
 LBIS:AddItem(spec1, "56317", LBIS.L["Ranged/Relic"], "Alt") --Amber Messenger

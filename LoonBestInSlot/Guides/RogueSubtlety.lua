@@ -174,8 +174,8 @@ LBIS:AddItem(spec1, "59502", LBIS.L["Waist"], "Alt") --Dispersing Belt
 LBIS:AddItem(spec1, "63493", LBIS.L["Waist"], "Alt") --Wind Stalker Belt
 LBIS:AddItem(spec1, "56537", LBIS.L["Waist"], "Alt") --Belt of Nefarious Whispers
 LBIS:AddItem(spec1, "69877", LBIS.L["Waist"], "Alt") --Belt of a Thousand Gaping Mouths
-LBIS:AddItem(spec1, "56429", LBIS.L["Waist"], "Alt") --Red Beam Cord
 LBIS:AddItem(spec1, "57918", LBIS.L["Waist"], "Alt") --Sash of Musing
+LBIS:AddItem(spec1, "56429", LBIS.L["Waist"], "Alt") --Red Beam Cord
 LBIS:AddItem(spec1, "62446", LBIS.L["Waist"], "Alt") --Quicksand Belt
 LBIS:AddItem(spec1, "65381", LBIS.L["Legs"], "BIS") --Wind Stalker Leggings
 LBIS:AddItem(spec1, "65039", LBIS.L["Legs"], "Alt") --Aberration's Leggings
@@ -185,8 +185,8 @@ LBIS:AddItem(spec1, "59343", LBIS.L["Legs"], "Alt") --Aberration's Leggings
 LBIS:AddItem(spec1, "60300", LBIS.L["Legs"], "Alt") --Wind Dancer's Legguards
 LBIS:AddItem(spec1, "56309", LBIS.L["Legs"], "Alt") --Beauty's Chew Toy
 LBIS:AddItem(spec1, "58132", LBIS.L["Legs"], "Alt") --Leggings of the Burrowing Mole
-LBIS:AddItem(spec1, "62405", LBIS.L["Legs"], "Alt") --Leggings of the Impenitent
 LBIS:AddItem(spec1, "62425", LBIS.L["Legs"], "Alt") --Swiftflight Leggings
+LBIS:AddItem(spec1, "62405", LBIS.L["Legs"], "Alt") --Leggings of the Impenitent
 LBIS:AddItem(spec1, "65144", LBIS.L["Feet"], "BIS") --Storm Rider's Boots
 LBIS:AddItem(spec1, "58482", LBIS.L["Feet"], "Alt") --Treads of Fleeting Joy
 LBIS:AddItem(spec1, "59469", LBIS.L["Feet"], "Alt") --Storm Rider's Boots
@@ -218,14 +218,14 @@ LBIS:AddItem(spec1, "65026", LBIS.L["Trinket"], "BIS") --Prestor's Talisman of M
 LBIS:AddItem(spec1, "65140", LBIS.L["Trinket"], "BIS") --Essence of the Cyclone
 LBIS:AddItem(spec1, "58181", LBIS.L["Trinket"], "BIS") --Fluid Death
 LBIS:AddItem(spec1, "59441", LBIS.L["Trinket"], "Alt") --Prestor's Talisman of Machination
+LBIS:AddItem(spec1, "62463", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
+LBIS:AddItem(spec1, "62468", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
 LBIS:AddItem(spec1, "56427", LBIS.L["Trinket"], "Alt") --Left Eye of Rajh
 LBIS:AddItem(spec1, "56328", LBIS.L["Trinket"], "Alt") --Key to the Endless Chamber
 LBIS:AddItem(spec1, "59520", LBIS.L["Trinket"], "Alt") --Unheeded Warning
 LBIS:AddItem(spec1, "59473", LBIS.L["Trinket"], "Alt") --Essence of the Cyclone
 LBIS:AddItem(spec1, "56394", LBIS.L["Trinket"], "Alt") --Tia's Grace
 LBIS:AddItem(spec1, "68776", LBIS.L["Trinket"], "Alt") --Quicksilver Alchemist Stone
-LBIS:AddItem(spec1, "62463", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
-LBIS:AddItem(spec1, "62468", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
 LBIS:AddItem(spec1, "56440", LBIS.L["Trinket"], "Alt") --Skardyn's Grace
 LBIS:AddItem(spec1, "56295", LBIS.L["Trinket"], "Alt") --Grace of the Herald
 LBIS:AddItem(spec1, "65081", LBIS.L["Main Hand"], "BIS") --Organic Lifeform Inverter
@@ -237,12 +237,14 @@ LBIS:AddItem(spec1, "63477", LBIS.L["Main Hand"], "Alt") --Wicked Dagger
 LBIS:AddItem(spec1, "68600", LBIS.L["Off Hand"], "BIS") --Uhn'agh Fash, the Darkest Betrayal
 LBIS:AddItem(spec1, "68601", LBIS.L["Off Hand"], "Alt") --Scaleslicer
 LBIS:AddItem(spec1, "59494", LBIS.L["Off Hand"], "Alt") --Uhn'agh Fash, the Darkest Betrayal
-LBIS:AddItem(spec1, "56335", LBIS.L["Off Hand"], "Alt") --Quicksilver Blade
+LBIS:AddItem(spec1, "68161", LBIS.L["Off Hand"], "Alt") --Krol Decapitator
 LBIS:AddItem(spec1, "65163", LBIS.L["Off Hand"], "Alt") --Buzzer Blade
-LBIS:AddItem(spec1, "56390", LBIS.L["Off Hand"], "Alt") --Barim's Main Gauche
+LBIS:AddItem(spec1, "56335", LBIS.L["Off Hand"], "Alt") --Quicksilver Blade
 LBIS:AddItem(spec1, "57927", LBIS.L["Off Hand"], "Alt") --Throat Slasher
+LBIS:AddItem(spec1, "56390", LBIS.L["Off Hand"], "Alt") --Barim's Main Gauche
 LBIS:AddItem(spec1, "65095", LBIS.L["Ranged/Relic"], "BIS") --Dragonheart Piercer
 LBIS:AddItem(spec1, "65058", LBIS.L["Ranged/Relic"], "Alt") --Themios the Darkbringer
+LBIS:AddItem(spec1, "59367", LBIS.L["Ranged/Relic"], "Alt") --Kickback 5000
 LBIS:AddItem(spec1, "63532", LBIS.L["Ranged/Relic"], "Alt") --Dragonheart Piercer
 LBIS:AddItem(spec1, "68608", LBIS.L["Ranged/Relic"], "Alt") --Dragonwreck Throwing Axe
 LBIS:AddItem(spec1, "68162", LBIS.L["Ranged/Relic"], "Alt") --Spinerender

@@ -159,7 +159,6 @@ LBIS:AddItem(spec1, "63468", LBIS.L["Chest"], "Alt") --Defias Brotherhood Vest
 LBIS:AddItem(spec1, "56455", LBIS.L["Chest"], "Alt") --Vest of Misshapen Hides
 LBIS:AddItem(spec1, "57874", LBIS.L["Chest"], "Alt") --Hieroglyphic Vest
 LBIS:AddItem(spec1, "58131", LBIS.L["Chest"], "Alt") --Tunic of Sinking Envy
-LBIS:AddItem(spec1, "62374", LBIS.L["Chest"], "Alt") --Sly Fox Jerkin
 LBIS:AddItem(spec1, "65050", LBIS.L["Wrist"], "BIS") --Parasitic Bands
 LBIS:AddItem(spec1, "59329", LBIS.L["Wrist"], "Alt") --Parasitic Bands
 LBIS:AddItem(spec1, "56409", LBIS.L["Wrist"], "Alt") --Poison Fang Bracers
@@ -200,9 +199,9 @@ LBIS:AddItem(spec1, "65178", LBIS.L["Feet"], "Alt") --VanCleef's Boots
 LBIS:AddItem(spec1, "63435", LBIS.L["Feet"], "Alt") --Boots of the Predator
 LBIS:AddItem(spec1, "65107", LBIS.L["Neck"], "BIS") --Necklace of Strife
 LBIS:AddItem(spec1, "69880", LBIS.L["Neck"], "BIS") --Mistral Pendant
-LBIS:AddItem(spec1, "67137", LBIS.L["Neck"], "BIS") --Don Rodrigo's Fabulous Necklace
 LBIS:AddItem(spec1, "59517", LBIS.L["Neck"], "Alt") --Necklace of Strife
 LBIS:AddItem(spec1, "69827", LBIS.L["Neck"], "Alt") --Mistral Pendant
+LBIS:AddItem(spec1, "67137", LBIS.L["Neck"], "Alt") --Don Rodrigo's Fabulous Necklace
 LBIS:AddItem(spec1, "56422", LBIS.L["Neck"], "Alt") --Mouth of the Earth
 LBIS:AddItem(spec1, "62378", LBIS.L["Neck"], "Alt") --Acorn of the Daughter Tree
 LBIS:AddItem(spec1, "56338", LBIS.L["Neck"], "Alt") --Pendant of the Lightless Grotto
@@ -229,8 +228,8 @@ LBIS:AddItem(spec1, "56328", LBIS.L["Trinket"], "Alt") --Key to the Endless Cham
 LBIS:AddItem(spec1, "59520", LBIS.L["Trinket"], "Alt") --Unheeded Warning
 LBIS:AddItem(spec1, "59473", LBIS.L["Trinket"], "Alt") --Essence of the Cyclone
 LBIS:AddItem(spec1, "68776", LBIS.L["Trinket"], "Alt") --Quicksilver Alchemist Stone
-LBIS:AddItem(spec1, "62463", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
 LBIS:AddItem(spec1, "62468", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
+LBIS:AddItem(spec1, "62463", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
 LBIS:AddItem(spec1, "56440", LBIS.L["Trinket"], "Alt") --Skardyn's Grace
 LBIS:AddItem(spec1, "56295", LBIS.L["Trinket"], "Alt") --Grace of the Herald
 LBIS:AddItem(spec1, "68130", LBIS.L["Main Hand"], "BIS") --Stormwake, the Tempest's Reach
@@ -258,6 +257,7 @@ LBIS:AddItem(spec1, "57927", LBIS.L["Off Hand"], "Alt") --Throat Slasher
 LBIS:AddItem(spec1, "65058", LBIS.L["Ranged/Relic"], "BIS") --Themios the Darkbringer
 LBIS:AddItem(spec1, "65095", LBIS.L["Ranged/Relic"], "BIS") --Dragonheart Piercer
 LBIS:AddItem(spec1, "68608", LBIS.L["Ranged/Relic"], "Alt") --Dragonwreck Throwing Axe
+LBIS:AddItem(spec1, "59367", LBIS.L["Ranged/Relic"], "Alt") --Kickback 5000
 LBIS:AddItem(spec1, "59320", LBIS.L["Ranged/Relic"], "Alt") --Themios the Darkbringer
 LBIS:AddItem(spec1, "63532", LBIS.L["Ranged/Relic"], "Alt") --Dragonheart Piercer
 LBIS:AddItem(spec1, "68162", LBIS.L["Ranged/Relic"], "Alt") --Spinerender

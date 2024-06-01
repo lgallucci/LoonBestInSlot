@@ -10,6 +10,7 @@ LBIS:AddGem(spec0, "52240", "3", "False") --Skillful Ember Topaz
 
 LBIS:AddEnchant(spec1, "86933", LBIS.L["Head"]) --Arcanum of the Wildhammer
 LBIS:AddEnchant(spec1, "86901", LBIS.L["Shoulder"]) --Greater Inscription of Jagged Stone
+LBIS:AddEnchant(spec1, "75178", LBIS.L["Back"]) --Swordguard Embroidery
 LBIS:AddEnchant(spec1, "74247", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
 LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
 LBIS:AddEnchant(spec1, "96261", LBIS.L["Wrist"]) --Enchant Bracer - Major Strength
@@ -112,12 +113,12 @@ LBIS:AddItem(spec1, "65025", LBIS.L["Neck"], "Alt") --Rage of Ages
 LBIS:AddItem(spec1, "60226", LBIS.L["Ring"], "BIS") --Dargonax's Signet
 LBIS:AddItem(spec1, "65382", LBIS.L["Ring"], "BIS") --Cloudburst Ring
 LBIS:AddItem(spec1, "65106", LBIS.L["Ring"], "Alt") --Ring of Rivalry
-LBIS:AddItem(spec1, "65072", LBIS.L["Trinket"], "BIS") --Heart of Rage
 LBIS:AddItem(spec1, "62464", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec1, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
-LBIS:AddItem(spec1, "65118", LBIS.L["Trinket"], "Alt") --Crushing Weight
-LBIS:AddItem(spec1, "68775", LBIS.L["Trinket"], "Alt") --Volatile Alchemist Stone
+LBIS:AddItem(spec1, "65072", LBIS.L["Trinket"], "BIS") --Heart of Rage
 LBIS:AddItem(spec1, "58180", LBIS.L["Trinket"], "Alt") --License to Slay
+LBIS:AddItem(spec1, "65118", LBIS.L["Trinket"], "Alt") --Crushing Weight
+LBIS:AddItem(spec1, "56393", LBIS.L["Trinket"], "Alt") --Heart of Solace
 LBIS:AddItem(spec1, "65003", LBIS.L["Two Hand"], "BIS") --Reclaimed Ashkandi, Greatsword of the Brotherhood
 LBIS:AddItem(spec1, "65007", LBIS.L["Two Hand"], "Alt") --Akirus the Worm-Breaker
 LBIS:AddItem(spec1, "65145", LBIS.L["Two Hand"], "Alt") --Shalug'doom, the Axe of Unmaking
