@@ -85,4 +85,25 @@ internal class HunterBeastMasteryMapping : SpecMapping
         { ("Two Hand", "#two-hand-weapons-for-beast-mastery-hunter-dps-pre-patch") },
         { ("Ranged/Relic", "#guns-and-bows-for-beast-mastery-hunter-dps-pre-patch") },
     };
+
+    public override string GemsEnchantsUrl => "dps-enchants-gems-pve";
+    public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>
+    {
+        //Gems
+        { ("Meta", ".box:nth-of-type(1)") },
+        { ("Gem", ".box:nth-of-type(2)") },
+        { ("Gem", ".box:nth-of-type(3)") },
+        { ("Gem", ".box:nth-of-type(4)") },
+        //Enchants
+        { ("Head", ".box:nth-of-type(5)") },
+        { ("Shoulder", ".box:nth-of-type(6)") },
+        { ("Back", ".box:nth-of-type(7)") },
+        { ("Chest", ".box:nth-of-type(8)") },
+        { ("Wrist", ".box:nth-of-type(9)") },
+        { ("Hands", ".box:nth-of-type(10)") },
+        { ("Legs", ".box:nth-of-type(11)") },
+        { ("Feet", ".box:nth-of-type(12)") },
+        { ("Main Hand", ".box:nth-of-type(13)") },
+        { ("Ranged/Relic", ".box:nth-of-type(14)") },
+    };
 }

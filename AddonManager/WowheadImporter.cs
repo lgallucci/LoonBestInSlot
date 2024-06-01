@@ -101,7 +101,7 @@ public static class WowheadImporter
             var spec = addressToSpec[address];
             try
             {
-                var result = await ImportClassInternal(spec, phaseNumber, doc, (s) => {});
+                var result = ImportClassInternal(spec, phaseNumber, doc, (s) => {});
 
                 logFunc($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!");
             }
@@ -122,15 +122,15 @@ public static class WowheadImporter
     {
         var result = string.Empty;
 
-        var doc =await Common.LoadFromWebPage(classGuide.WebAddress, logFunc, cancelToken, false);
+        var doc = await Common.LoadFromWebPage(classGuide.WebAddress, logFunc, cancelToken, false);
 
-        return await ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
+        return ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
     }
 
-    private static async Task<string> ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, IHtmlDocument doc, Action<string> logFunc)
+    private static string ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, IHtmlDocument doc, Action<string> logFunc)
     {
         var sb = new StringBuilder();
-        (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, ItemSpec>) itemsAndEnchants;
+        Dictionary<int, ItemSpec> items;
         try
         {
             var className = $"{classGuideMapping.ClassName.Replace(" ", "")}{classGuideMapping.SpecName}";
@@ -139,27 +139,30 @@ public static class WowheadImporter
             {
                 var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
 
-                itemsAndEnchants = new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc, logFunc);
+                var wowheadGuideParser = new WowheadGuideParser();
 
-                foreach(var gem in itemsAndEnchants.Item1) 
+                items = wowheadGuideParser.ParseWowheadGuide(classGuideMapping, doc);
+                var gemsEnchants = wowheadGuideParser.ParseGemEnchantsWowheadGuide(classGuideMapping, doc);
+
+                foreach(var gem in gemsEnchants.Item1) 
                 {
                     if (!guide.Item1.Any(g => g.GemId == gem.Key))
                     {
-                        guide.Item1.Add(await GetGemFromWowhead(gem.Key, logFunc));
+                        guide.Item1.Add(gem.Value);
                     }
                 }
 
-                if (itemsAndEnchants.Item2.Count() > 0)
+                if (gemsEnchants.Item2.Count() > 0)
                 {
                     guide.Item2.Clear();
-                    guide.Item2.AddRange(itemsAndEnchants.Item2.Values.ToList());
+                    guide.Item2.AddRange(gemsEnchants.Item2.Values.ToList());
                 }
 
                 if (!guide.Item3.ContainsKey(phaseNumber))
                     guide.Item3.Add(phaseNumber, new List<ItemSpec>());
                 else
                     guide.Item3[phaseNumber].Clear();
-                guide.Item3[phaseNumber].AddRange(itemsAndEnchants.Item3.Values.ToList());
+                guide.Item3[phaseNumber].AddRange(items.Values.ToList());
                 
                 WriteGemsInternal(guide.Item1, logFunc);
                 WriteEnchantsInternal(guide.Item2, logFunc);
@@ -177,7 +180,7 @@ public static class WowheadImporter
         {
             throw new ParseException(ex.ToString(), ex);
         }
-        VerifyGuide(itemsAndEnchants.Item3.Values.ToList());
+        VerifyGuide(items.Values.ToList());
         return sb.ToString();
     }
 
@@ -343,44 +346,6 @@ public static class WowheadImporter
         ItemSourceFileManager.WriteItemSources(itemSources);
     }
 
-    public static async Task<GemSpec?> GetGemFromWowhead(int gemId, Action<string> writeToLog)
-    {
-        GemSpec? gemSpec = null;
-        try 
-        {
-            IHtmlDocument? doc = await Common.LoadFromWebPage($"https://www.wowhead.com/cata/item={gemId}#taught-by-item", writeToLog);
-
-            if (doc != null)
-            {
-                var name = doc.Title?.Split("-")[0].Trim() ?? "unknown";
-                var isMeta = doc.QuerySelector("#main-precontents div span ~ span ~ span ~ span")?.TextContent == "Meta";
-                var quality = doc.QuerySelector(".wowhead-tooltip b")?.ClassName;
-
-                int itemQuality = 0;
-                if (quality?.Contains("q1") ?? false)
-                    itemQuality = 1;
-                else if (quality?.Contains("q2") ?? false)
-                    itemQuality = 2;
-                else if (quality?.Contains("q3") ?? false)
-                    itemQuality = 3;
-                else if (quality?.Contains("q4") ?? false)
-                    itemQuality = 4;
-
-                gemSpec = new GemSpec {
-                    GemId = gemId,
-                    Name = name,
-                    IsMeta = isMeta,
-                    Phase = 0,
-                    Quality = itemQuality
-                };
-            }
-        } catch
-        { 
-            writeToLog("Error !");
-        }
-        return gemSpec;
-    }
-
     public static async Task UpdateItemsFromWowhead(CancellationToken cancelToken, Action<string> writeToLog)
     {
         var itemSources = ItemSourceFileManager.ReadItemSources();
@@ -493,6 +458,7 @@ public static class WowheadImporter
                                                                 "lower blackrock spire", "upper blackrock spire", "scholomance",
                                                                 "stratholme live", "stratholme undead",
                                                                 "dire maul: east", "dire maul: west", "dire maul: north" };
+    
     private static bool IsDungeonName(string location)
     {
         return _dungeons.Contains(location.ToLower());

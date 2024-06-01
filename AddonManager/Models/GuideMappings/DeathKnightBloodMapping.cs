@@ -94,4 +94,26 @@ internal class DeathKnightBloodMapping : SpecMapping
             { ("Two Hand", "h3#weapons~h4") },
             { ("Ranged/Relic", "#relics-for-blood-death-knight-tanking") },
         };
+
+    public override string GemsEnchantsUrl => "tank-enchants-gems-pve";
+    public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>
+    {
+        //Gems
+        { ("Meta", ".box:nth-of-type(1)") },
+        { ("Gem", ".box:nth-of-type(2)") },
+        { ("Gem", ".box:nth-of-type(3)") },
+        { ("Gem", ".box:nth-of-type(4)") },
+        { ("Gem", ".box:nth-of-type(5)") },
+        //Enchants
+        { ("Head", ".box:nth-of-type(6)") },
+        { ("Shoulder", ".box:nth-of-type(7)") },
+        { ("Back", ".box:nth-of-type(8)") },
+        { ("Chest", ".box:nth-of-type(9)") },
+        { ("Wrist", ".box:nth-of-type(10)") },
+        { ("Hands", ".box:nth-of-type(11)") },
+        { ("Legs", ".box:nth-of-type(12)") },
+        { ("Feet", ".box:nth-of-type(13)") },
+        { ("Main Hand", ".box:nth-of-type(14)") },
+        { ("Ring", ".box:nth-of-type(15)") },
+    };
 }

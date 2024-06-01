@@ -94,4 +94,28 @@ internal class DruidRestoMapping : SpecMapping
         { ("Two Hand", "#two-handed-weapons-for-restoration-druid-healer") },
         { ("Ranged/Relic", "#idols-for-restoration-druid-healer") },
     };
+
+    public override string GemsEnchantsUrl => "healer-enchants-gems-pve";
+
+    public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>
+    {
+        //Gems
+        { ("Meta", ".box:nth-of-type(1)") },
+        { ("Gem", ".box:nth-of-type(2)") },
+        { ("Gem", ".box:nth-of-type(3)") },
+        { ("Gem", ".box:nth-of-type(4)") },
+
+        { ("Head", ".box:nth-of-type(5)") },
+        { ("Shoulder", ".box:nth-of-type(6)") },
+        { ("Back", ".box:nth-of-type(7)") },
+        { ("Chest", ".box:nth-of-type(8)") },
+        { ("Wrist", ".box:nth-of-type(9)") },
+        { ("Hands", ".box:nth-of-type(10)") },
+        { ("Waist", ".box:nth-of-type(11)") },
+        { ("Legs", ".box:nth-of-type(12)") },
+        { ("Feet", ".box:nth-of-type(13)") },
+        { ("Main Hand", ".box:nth-of-type(14)") },
+        { ("Off Hand", ".box:nth-of-type(15)") },
+        { ("Ring", ".box:nth-of-type(16)") },
+    };
 }

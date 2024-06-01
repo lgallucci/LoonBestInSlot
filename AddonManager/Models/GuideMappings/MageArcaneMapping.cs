@@ -64,4 +64,28 @@ internal class MageArcaneMapping : SpecMapping
         { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-pre-patch") },
         { ("Ranged/Relic", "#wands-for-arcane-mage-dps-pre-patch") },
     };
+
+    public override string GemsEnchantsUrl => "dps-enchants-gems-pve";
+    public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>
+    {
+        //Gems
+        { ("Meta", ".box:nth-of-type(1)") },
+        { ("Gem", ".box:nth-of-type(2)") },
+        { ("Gem", ".box:nth-of-type(3)") },
+        { ("Gem", ".box:nth-of-type(4)") },
+        { ("Gem", ".box:nth-of-type(5)") },
+        //Enchants
+        { ("Head", ".box:nth-of-type(6)") },
+        { ("Shoulder", ".box:nth-of-type(7)") },
+        { ("Back", ".box:nth-of-type(8)") },
+        { ("Chest", ".box:nth-of-type(9)") },
+        { ("Waist", ".box:nth-of-type(10)") },
+        { ("Wrist", ".box:nth-of-type(11)") },
+        { ("Hands", ".box:nth-of-type(12)") },
+        { ("Legs", ".box:nth-of-type(13)") },
+        { ("Feet", ".box:nth-of-type(14)") },
+        { ("Main Hand", ".box:nth-of-type(15)") },
+        { ("Off Hand", ".box:nth-of-type(16)") },
+        { ("Ring", ".box:nth-of-type(17)") },
+    };
 }

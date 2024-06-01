@@ -11,6 +11,9 @@ internal abstract class SpecMapping
     public abstract string Class { get; }
     public abstract string Spec { get; }
 
+    public abstract string GemsEnchantsUrl { get; }
+    public abstract List<(string, GuideMapping)> GemsEnchants { get; }
+
     public abstract string PrePatchUrl {get; }    
     public abstract List<(string, GuideMapping)> PrePatch { get; }
     public abstract string Phase0Url { get; }
