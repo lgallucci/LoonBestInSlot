@@ -582,7 +582,16 @@
       "Shoulder/Legs": "Hombro/Piernas",
       "The Bastion of Twilight (Heroic)": "El Bastión del Crepúsculo (Heroico)",
       "The Binding": "El vínculo",
-      "Throne of the Four Winds (Heroic)": "Trono de los Cuatro Vientos (Heroico)"
+      "Throne of the Four Winds (Heroic)": "Trono de los Cuatro Vientos (Heroico)",
+      "Alizabal": "Alizabal",
+      "Argaloth": "Argaloth",
+      "Baradin Hold": "Bastión de Baradin",
+      "Blackrock Caverns": "Cavernas Roca Negra",
+      "Dragonmaw/Wildhammer Clan (Revered)": "Clan Faucedraco/Martillo Salvaje (Venerada)",
+      "Occu'thar": "Occu'thar",
+      "Shadowfang Keep": "Castillo de Colmillo Oscuro",
+      "The Deadmines": "Las Minas de la Muerte",
+      "Vortex Pinnacle": "Cumbre del Vórtice"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -1096,7 +1105,13 @@
       "Shoulder/Legs": "Hombro/Piernas",
       "The Bastion of Twilight (Heroic)": "El Bastión del Crepúsculo (Heroico)",
       "The Binding": "El vínculo",
-      "Throne of the Four Winds (Heroic)": "Trono de los Cuatro Vientos (Heroico)"
+      "Throne of the Four Winds (Heroic)": "Trono de los Cuatro Vientos (Heroico)",
+      "Baradin Hold": "Bastión de Baradin",
+      "Blackrock Caverns": "Cavernas Roca Negra",
+      "Dragonmaw/Wildhammer Clan (Revered)": "Clan Faucedraco/Martillo Salvaje (Venerada)",
+      "Shadowfang Keep": "Castillo de Colmillo Oscuro",
+      "The Deadmines": "Las Minas de la Muerte",
+      "Vortex Pinnacle": "Cumbre del Vórtice"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -1735,7 +1750,16 @@
       "Shoulder/Legs": "Schulter/Beine",
       "The Bastion of Twilight (Heroic)": "Die Bastion des Zwielichts (Heroisch)",
       "The Binding": "Die Bindung",
-      "Throne of the Four Winds (Heroic)": "Thron der Vier Winde (Heroisch)"
+      "Throne of the Four Winds (Heroic)": "Thron der Vier Winde (Heroisch)",
+      "Alizabal": "Alizabal",
+      "Argaloth": "Argaloth",
+      "Baradin Hold": "Baradinfestung",
+      "Blackrock Caverns": "Schwarzfelshöhlen",
+      "Dragonmaw/Wildhammer Clan (Revered)": "Drachenmalklan/Wildhammerklan (Respektvoll)",
+      "Occu'thar": "Occu'thar",
+      "Shadowfang Keep": "Burg Schattenfang",
+      "The Deadmines": "Die Todesminen",
+      "Vortex Pinnacle": "Vortexgipfel"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -2309,7 +2333,16 @@
       "Shoulder/Legs": "Épaule/Jambes",
       "The Bastion of Twilight (Heroic)": "Le bastion du Crépuscule (Héroïque)",
       "The Binding": "Le lien",
-      "Throne of the Four Winds (Heroic)": "Trône des quatre vents (Héroïque)"
+      "Throne of the Four Winds (Heroic)": "Trône des quatre vents (Héroïque)",
+      "Alizabal": "Alizabal",
+      "Argaloth": "Argaloth",
+      "Baradin Hold": "Bastion de Baradin",
+      "Blackrock Caverns": "Cavernes de Rochenoire",
+      "Dragonmaw/Wildhammer Clan (Revered)": "Clan Gueule-de-dragon/Marteau-Hardi (Révérée)",
+      "Occu'thar": "Occu'thar",
+      "Shadowfang Keep": "Donjon d’Ombrecroc",
+      "The Deadmines": "Les Mortemines",
+      "Vortex Pinnacle": "Cime du vortex"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -2879,7 +2912,16 @@
       "Shoulder/Legs": "Плечо/Ноги",
       "The Bastion of Twilight (Heroic)": "Сумеречный бастион (Героический)",
       "The Binding": "Связывание",
-      "Throne of the Four Winds (Heroic)": "Трон Четырех Ветров (Героический)"
+      "Throne of the Four Winds (Heroic)": "Трон Четырех Ветров (Героический)",
+      "Alizabal": "Ализабаль",
+      "Argaloth": "Аргалот",
+      "Baradin Hold": "Крепость Барадин",
+      "Blackrock Caverns": "Пещеры Черной горы",
+      "Dragonmaw/Wildhammer Clan (Revered)": "Клан Драконьей Пасти/Громового Молота (Почтение)",
+      "Occu'thar": "Оку'тар",
+      "Shadowfang Keep": "Крепость Темного Клыка",
+      "The Deadmines": "Мертвые копи",
+      "Vortex Pinnacle": "Вершина Смерча"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -3449,7 +3491,16 @@
       "Shoulder/Legs": "肩部/腿部",
       "The Bastion of Twilight (Heroic)": "暮光堡垒 (英雄)",
       "The Binding": "誓缚",
-      "Throne of the Four Winds (Heroic)": "风神王座 (英雄)"
+      "Throne of the Four Winds (Heroic)": "风神王座 (英雄)",
+      "Alizabal": "阿丽萨巴尔",
+      "Argaloth": "阿尔加洛斯",
+      "Baradin Hold": "巴拉丁监狱",
+      "Blackrock Caverns": "黑石岩窟",
+      "Dragonmaw/Wildhammer Clan (Revered)": "龙喉氏族/蛮锤部族 (崇敬)",
+      "Occu'thar": "欧库塔尔",
+      "Shadowfang Keep": "影牙城堡",
+      "The Deadmines": "死亡矿井",
+      "Vortex Pinnacle": "漩涡峰"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -4112,7 +4163,16 @@
       "Shoulder/Legs": "어깨/다리",
       "The Bastion of Twilight (Heroic)": "황혼의 요새 (영웅)",
       "The Binding": "결속",
-      "Throne of the Four Winds (Heroic)": "네 바람의 왕좌 (영웅)"
+      "Throne of the Four Winds (Heroic)": "네 바람의 왕좌 (영웅)",
+      "Alizabal": "알리자발",
+      "Argaloth": "아르갈로스",
+      "Baradin Hold": "바라딘 요새",
+      "Blackrock Caverns": "검은바위 동굴",
+      "Dragonmaw/Wildhammer Clan (Revered)": "용아귀 부족/와일드해머 드워프 (매우 우호적)",
+      "Occu'thar": "오쿠타르",
+      "Shadowfang Keep": "그림자송곳니 성채",
+      "The Deadmines": "죽음의 폐광",
+      "Vortex Pinnacle": "소용돌이 고원"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -4681,7 +4741,16 @@
       "Shoulder/Legs": "肩部/腿部",
       "The Bastion of Twilight (Heroic)": "暮光堡壘 (英雄模式)",
       "The Binding": "誓縛",
-      "Throne of the Four Winds (Heroic)": "四風王座 (英雄模式)"
+      "Throne of the Four Winds (Heroic)": "四風王座 (英雄模式)",
+      "Alizabal": "阿利札巴",
+      "Argaloth": "阿加羅斯",
+      "Baradin Hold": "巴拉丁堡",
+      "Blackrock Caverns": "黑石洞穴",
+      "Dragonmaw/Wildhammer Clan (Revered)": "龍喉氏族/蠻錘氏族 (崇敬)",
+      "Occu'thar": "歐庫薩",
+      "Shadowfang Keep": "影牙城堡",
+      "The Deadmines": "死亡礦坑",
+      "Vortex Pinnacle": "漩渦尖塔"
     }
   }
 }

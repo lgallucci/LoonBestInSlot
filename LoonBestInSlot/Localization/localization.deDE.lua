@@ -115,6 +115,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Erudax"] = "Erudax";
   LBIS.L["Exalted"] = "Ehrfürchtig";
 --  LBIS.L["Faction Capital"] = "";
+--  LBIS.L["Faction PVP Vendor"] = "";
   LBIS.L["Feet"] = "Füße";
   LBIS.L["Fire"] = "Feuer";
 --  LBIS.L["Firing Squad"] = "";
@@ -150,6 +151,7 @@ if GetLocale() == "deDE" then
   LBIS.L["High Priestess Azil"] = "Hohepriesterin Azil";
   LBIS.L["High Prophet Barim"] = "Hochprophet Barim";
   LBIS.L["Holy"] = "Heilig";
+  LBIS.L["Honor Points"] = "Ehrenpunkte";
   LBIS.L["Honored"] = "Wohlwollend";
   LBIS.L["Icecrown"] = "Eiskrone";
   LBIS.L["Inscription (455)"] = "Inschriftenkunde (455)";
@@ -326,7 +328,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Two Hand"] = "Zweihändig";
   LBIS.L["Uldum"] = "Uldum";
   LBIS.L["Unholy"] = "Unheilig";
---  LBIS.L["unknown"] = "";
   LBIS.L["Valiona"] = "Valiona";
 --  LBIS.L["Valor Points"] = "";
   LBIS.L["Vanessa VanCleef"] = "Vanessa van Cleef";

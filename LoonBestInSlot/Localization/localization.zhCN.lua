@@ -115,6 +115,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Erudax"] = "埃鲁达克";
   LBIS.L["Exalted"] = "崇拜";
 --  LBIS.L["Faction Capital"] = "";
+--  LBIS.L["Faction PVP Vendor"] = "";
   LBIS.L["Feet"] = "脚";
   LBIS.L["Fire"] = "火焰";
 --  LBIS.L["Firing Squad"] = "";
@@ -150,6 +151,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["High Priestess Azil"] = "高阶女祭司艾苏尔";
   LBIS.L["High Prophet Barim"] = "高阶预言者巴林姆";
   LBIS.L["Holy"] = "神圣";
+  LBIS.L["Honor Points"] = "荣誉点数";
   LBIS.L["Honored"] = "尊敬";
   LBIS.L["Icecrown"] = "冰冠冰川";
   LBIS.L["Inscription (455)"] = "铭文 (455)";
@@ -326,7 +328,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Two Hand"] = "双手";
   LBIS.L["Uldum"] = "奥丹姆";
   LBIS.L["Unholy"] = "邪恶";
---  LBIS.L["unknown"] = "";
   LBIS.L["Valiona"] = "瓦里昂娜";
 --  LBIS.L["Valor Points"] = "";
   LBIS.L["Vanessa VanCleef"] = "梵妮莎·范克里夫";

@@ -115,6 +115,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Erudax"] = "Эрудакс";
   LBIS.L["Exalted"] = "Превознесение";
 --  LBIS.L["Faction Capital"] = "";
+--  LBIS.L["Faction PVP Vendor"] = "";
   LBIS.L["Feet"] = "Ступни";
   LBIS.L["Fire"] = "Огонь";
 --  LBIS.L["Firing Squad"] = "";
@@ -150,6 +151,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["High Priestess Azil"] = "Верховная жрица Азил";
   LBIS.L["High Prophet Barim"] = "Верховный пророк Барим";
   LBIS.L["Holy"] = "Свет";
+  LBIS.L["Honor Points"] = "Очки чести";
   LBIS.L["Honored"] = "Уважение";
   LBIS.L["Icecrown"] = "Ледяная Корона";
   LBIS.L["Inscription (455)"] = "Начертание (455)";
@@ -326,7 +328,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Two Hand"] = "Двуручное";
   LBIS.L["Uldum"] = "Ульдум";
   LBIS.L["Unholy"] = "Нечестивость";
---  LBIS.L["unknown"] = "";
   LBIS.L["Valiona"] = "Валиона";
 --  LBIS.L["Valor Points"] = "";
   LBIS.L["Vanessa VanCleef"] = "Ванесса ван Клиф";

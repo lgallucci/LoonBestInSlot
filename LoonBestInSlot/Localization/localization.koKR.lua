@@ -115,6 +115,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Erudax"] = "에루닥스";
   LBIS.L["Exalted"] = "확고한 동맹";
 --  LBIS.L["Faction Capital"] = "";
+--  LBIS.L["Faction PVP Vendor"] = "";
   LBIS.L["Feet"] = "신발";
   LBIS.L["Fire"] = "화염";
 --  LBIS.L["Firing Squad"] = "";
@@ -150,6 +151,7 @@ if GetLocale() == "koKR" then
   LBIS.L["High Priestess Azil"] = "대여사제 아질";
   LBIS.L["High Prophet Barim"] = "고위 사제 바림";
   LBIS.L["Holy"] = "신성";
+  LBIS.L["Honor Points"] = "명예 점수";
   LBIS.L["Honored"] = "우호적";
   LBIS.L["Icecrown"] = "얼음왕관";
   LBIS.L["Inscription (455)"] = "주문각인 (455)";
@@ -326,7 +328,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Two Hand"] = "양손 무기";
   LBIS.L["Uldum"] = "울둠";
   LBIS.L["Unholy"] = "부정";
---  LBIS.L["unknown"] = "";
   LBIS.L["Valiona"] = "발리오나";
 --  LBIS.L["Valor Points"] = "";
   LBIS.L["Vanessa VanCleef"] = "바네사 밴클리프";
