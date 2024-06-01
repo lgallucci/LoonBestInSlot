@@ -9,7 +9,10 @@ public class PvPImporter : LootImporter
 {
     private Dictionary<string, Tuple<string, string>> wowheadUriList = new Dictionary<string, Tuple<string, string>>
     {
-        { @"https://www.wowhead.com/cata/", new Tuple<string, string>("Wrathful, Battlemaster>245", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/cata/npc=46595/blood-guard-zarshi#sells", new Tuple<string, string>("Bloodthirsty, Arcanum of Vicious, Greater Inscription of Vicious", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/cata/npc=46595/blood-guard-zarshi#sells;50", new Tuple<string, string>("Bloodthirsty, Arcanum of Vicious, Greater Inscription of Vicious", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/cata/npc=46595/blood-guard-zarshi#sells;100", new Tuple<string, string>("Bloodthirsty, Arcanum of Vicious, Greater Inscription of Vicious", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/cata/npc=46595/blood-guard-zarshi#sells;150", new Tuple<string, string>("Bloodthirsty, Arcanum of Vicious, Greater Inscription of Vicious", "Faction PVP Vendor") },
     };
 
     public PvPImporter(CancellationToken cancellationToken) : base(cancellationToken)

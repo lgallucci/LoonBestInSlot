@@ -1,5 +1,1348 @@
-
 {
-    "Items": {
+  "Items": {
+    "64681": {
+      "Name": "Bloodthirsty Gladiator's Armbands of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64682": {
+      "Name": "Bloodthirsty Gladiator's Armbands of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64683": {
+      "Name": "Bloodthirsty Gladiator's Armplates of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64684": {
+      "Name": "Bloodthirsty Gladiator's Armplates of Proficiency",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64685": {
+      "Name": "Bloodthirsty Gladiator's Armwraps of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64686": {
+      "Name": "Bloodthirsty Gladiator's Armwraps of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64687": {
+      "Name": "Bloodthirsty Gladiator's Badge of Conquest",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64688": {
+      "Name": "Bloodthirsty Gladiator's Badge of Dominance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64689": {
+      "Name": "Bloodthirsty Gladiator's Badge of Victory",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64690": {
+      "Name": "Bloodthirsty Gladiator's Band of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64691": {
+      "Name": "Bloodthirsty Gladiator's Band of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64692": {
+      "Name": "Bloodthirsty Gladiator's Band of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64696": {
+      "Name": "Bloodthirsty Gladiator's Belt of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64697": {
+      "Name": "Bloodthirsty Gladiator's Belt of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64698": {
+      "Name": "Bloodthirsty Gladiator's Bindings of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64699": {
+      "Name": "Bloodthirsty Gladiator's Bindings of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64702": {
+      "Name": "Bloodthirsty Gladiator's Boots of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64703": {
+      "Name": "Bloodthirsty Gladiator's Boots of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64704": {
+      "Name": "Bloodthirsty Gladiator's Bracers of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64705": {
+      "Name": "Bloodthirsty Gladiator's Bracers of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64706": {
+      "Name": "Bloodthirsty Gladiator's Cape of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64707": {
+      "Name": "Bloodthirsty Gladiator's Cape of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64708": {
+      "Name": "Bloodthirsty Gladiator's Chain Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64709": {
+      "Name": "Bloodthirsty Gladiator's Chain Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64710": {
+      "Name": "Bloodthirsty Gladiator's Chain Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64711": {
+      "Name": "Bloodthirsty Gladiator's Chain Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64712": {
+      "Name": "Bloodthirsty Gladiator's Chain Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64713": {
+      "Name": "Bloodthirsty Gladiator's Choker of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64714": {
+      "Name": "Bloodthirsty Gladiator's Choker of Proficiency",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64715": {
+      "Name": "Bloodthirsty Gladiator's Clasp of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64716": {
+      "Name": "Bloodthirsty Gladiator's Clasp of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64718": {
+      "Name": "Bloodthirsty Gladiator's Cloak of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64719": {
+      "Name": "Bloodthirsty Gladiator's Cloak of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64720": {
+      "Name": "Bloodthirsty Gladiator's Cord of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64721": {
+      "Name": "Bloodthirsty Gladiator's Cord of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64722": {
+      "Name": "Bloodthirsty Gladiator's Cord of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64723": {
+      "Name": "Bloodthirsty Gladiator's Cuffs of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64724": {
+      "Name": "Bloodthirsty Gladiator's Cuffs of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64725": {
+      "Name": "Bloodthirsty Gladiator's Cuffs of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64727": {
+      "Name": "Bloodthirsty Gladiator's Dragonhide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64728": {
+      "Name": "Bloodthirsty Gladiator's Dragonhide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64729": {
+      "Name": "Bloodthirsty Gladiator's Dragonhide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64730": {
+      "Name": "Bloodthirsty Gladiator's Dragonhide Robes",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64731": {
+      "Name": "Bloodthirsty Gladiator's Dragonhide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64732": {
+      "Name": "Bloodthirsty Gladiator's Drape of Diffusion",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64733": {
+      "Name": "Bloodthirsty Gladiator's Drape of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64734": {
+      "Name": "Bloodthirsty Gladiator's Drape of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64735": {
+      "Name": "Bloodthirsty Gladiator's Dreadplate Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64736": {
+      "Name": "Bloodthirsty Gladiator's Dreadplate Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64737": {
+      "Name": "Bloodthirsty Gladiator's Dreadplate Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64738": {
+      "Name": "Bloodthirsty Gladiator's Dreadplate Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64739": {
+      "Name": "Bloodthirsty Gladiator's Dreadplate Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64740": {
+      "Name": "Bloodthirsty Gladiator's Emblem of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64741": {
+      "Name": "Bloodthirsty Gladiator's Emblem of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64742": {
+      "Name": "Bloodthirsty Gladiator's Emblem of Tenacity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64745": {
+      "Name": "Bloodthirsty Gladiator's Felweave Amice",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64746": {
+      "Name": "Bloodthirsty Gladiator's Felweave Cowl",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64747": {
+      "Name": "Bloodthirsty Gladiator's Felweave Handguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64748": {
+      "Name": "Bloodthirsty Gladiator's Felweave Raiment",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64749": {
+      "Name": "Bloodthirsty Gladiator's Felweave Trousers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64750": {
+      "Name": "Bloodthirsty Gladiator's Footguards of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64751": {
+      "Name": "Bloodthirsty Gladiator's Footguards of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64753": {
+      "Name": "Bloodthirsty Gladiator's Girdle of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64754": {
+      "Name": "Bloodthirsty Gladiator's Girdle of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64756": {
+      "Name": "Bloodthirsty Gladiator's Greaves of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64757": {
+      "Name": "Bloodthirsty Gladiator's Greaves of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64761": {
+      "Name": "Bloodthirsty Gladiator's Insignia of Conquest",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64762": {
+      "Name": "Bloodthirsty Gladiator's Insignia of Dominance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64763": {
+      "Name": "Bloodthirsty Gladiator's Insignia of Victory",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64764": {
+      "Name": "Bloodthirsty Gladiator's Kodohide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64765": {
+      "Name": "Bloodthirsty Gladiator's Kodohide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64766": {
+      "Name": "Bloodthirsty Gladiator's Kodohide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64767": {
+      "Name": "Bloodthirsty Gladiator's Kodohide Robes",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64768": {
+      "Name": "Bloodthirsty Gladiator's Kodohide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64769": {
+      "Name": "Bloodthirsty Gladiator's Leather Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64770": {
+      "Name": "Bloodthirsty Gladiator's Leather Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64771": {
+      "Name": "Bloodthirsty Gladiator's Leather Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64772": {
+      "Name": "Bloodthirsty Gladiator's Leather Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64773": {
+      "Name": "Bloodthirsty Gladiator's Leather Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64776": {
+      "Name": "Bloodthirsty Gladiator's Linked Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64777": {
+      "Name": "Bloodthirsty Gladiator's Linked Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64778": {
+      "Name": "Bloodthirsty Gladiator's Linked Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64779": {
+      "Name": "Bloodthirsty Gladiator's Linked Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64780": {
+      "Name": "Bloodthirsty Gladiator's Linked Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64781": {
+      "Name": "Bloodthirsty Gladiator's Links of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64782": {
+      "Name": "Bloodthirsty Gladiator's Links of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64784": {
+      "Name": "Bloodthirsty Gladiator's Mail Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64785": {
+      "Name": "Bloodthirsty Gladiator's Mail Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64786": {
+      "Name": "Bloodthirsty Gladiator's Mail Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64787": {
+      "Name": "Bloodthirsty Gladiator's Mail Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64788": {
+      "Name": "Bloodthirsty Gladiator's Mail Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64789": {
+      "Name": "Bloodthirsty Gladiator's Medallion of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64792": {
+      "Name": "Bloodthirsty Gladiator's Medallion of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64794": {
+      "Name": "Bloodthirsty Gladiator's Medallion of Tenacity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64795": {
+      "Name": "Bloodthirsty Gladiator's Mooncloth Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64796": {
+      "Name": "Bloodthirsty Gladiator's Mooncloth Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64797": {
+      "Name": "Bloodthirsty Gladiator's Mooncloth Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64798": {
+      "Name": "Bloodthirsty Gladiator's Mooncloth Mantle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64799": {
+      "Name": "Bloodthirsty Gladiator's Mooncloth Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64800": {
+      "Name": "Bloodthirsty Gladiator's Necklace of Proficiency",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64801": {
+      "Name": "Bloodthirsty Gladiator's Necklace of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64802": {
+      "Name": "Bloodthirsty Gladiator's Ornamented Chestguard",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64803": {
+      "Name": "Bloodthirsty Gladiator's Ornamented Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64804": {
+      "Name": "Bloodthirsty Gladiator's Ornamented Headcover",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64805": {
+      "Name": "Bloodthirsty Gladiator's Ornamented Legplates",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64806": {
+      "Name": "Bloodthirsty Gladiator's Ornamented Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64807": {
+      "Name": "Bloodthirsty Gladiator's Pendant of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64808": {
+      "Name": "Bloodthirsty Gladiator's Pendant of Diffusion",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64809": {
+      "Name": "Bloodthirsty Gladiator's Pendant of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64811": {
+      "Name": "Bloodthirsty Gladiator's Plate Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64812": {
+      "Name": "Bloodthirsty Gladiator's Plate Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64813": {
+      "Name": "Bloodthirsty Gladiator's Plate Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64814": {
+      "Name": "Bloodthirsty Gladiator's Plate Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64815": {
+      "Name": "Bloodthirsty Gladiator's Plate Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64819": {
+      "Name": "Bloodthirsty Gladiator's Relic of Conquest",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "700",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64820": {
+      "Name": "Bloodthirsty Gladiator's Relic of Dominance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "700",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64821": {
+      "Name": "Bloodthirsty Gladiator's Relic of Salvation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "700",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64822": {
+      "Name": "Bloodthirsty Gladiator's Relic of Triumph",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "700",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64827": {
+      "Name": "Bloodthirsty Gladiator's Ringmail Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64828": {
+      "Name": "Bloodthirsty Gladiator's Ringmail Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64829": {
+      "Name": "Bloodthirsty Gladiator's Ringmail Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64830": {
+      "Name": "Bloodthirsty Gladiator's Ringmail Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64831": {
+      "Name": "Bloodthirsty Gladiator's Ringmail Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64832": {
+      "Name": "Bloodthirsty Gladiator's Ring of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64833": {
+      "Name": "Bloodthirsty Gladiator's Ring of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64834": {
+      "Name": "Bloodthirsty Gladiator's Sabatons of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64835": {
+      "Name": "Bloodthirsty Gladiator's Sabatons of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64836": {
+      "Name": "Bloodthirsty Gladiator's Sabatons of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64837": {
+      "Name": "Bloodthirsty Gladiator's Sabatons of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64838": {
+      "Name": "Bloodthirsty Gladiator's Satin Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64839": {
+      "Name": "Bloodthirsty Gladiator's Satin Hood",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64840": {
+      "Name": "Bloodthirsty Gladiator's Satin Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64841": {
+      "Name": "Bloodthirsty Gladiator's Satin Mantle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64842": {
+      "Name": "Bloodthirsty Gladiator's Satin Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64843": {
+      "Name": "Bloodthirsty Gladiator's Scaled Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64844": {
+      "Name": "Bloodthirsty Gladiator's Scaled Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64845": {
+      "Name": "Bloodthirsty Gladiator's Scaled Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64846": {
+      "Name": "Bloodthirsty Gladiator's Scaled Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64847": {
+      "Name": "Bloodthirsty Gladiator's Scaled Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64851": {
+      "Name": "Bloodthirsty Gladiator's Signet of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64852": {
+      "Name": "Bloodthirsty Gladiator's Signet of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64853": {
+      "Name": "Bloodthirsty Gladiator's Silk Amice",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64854": {
+      "Name": "Bloodthirsty Gladiator's Silk Cowl",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64855": {
+      "Name": "Bloodthirsty Gladiator's Silk Handguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64856": {
+      "Name": "Bloodthirsty Gladiator's Silk Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64857": {
+      "Name": "Bloodthirsty Gladiator's Silk Trousers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64862": {
+      "Name": "Bloodthirsty Gladiator's Treads of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64863": {
+      "Name": "Bloodthirsty Gladiator's Treads of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64864": {
+      "Name": "Bloodthirsty Gladiator's Treads of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64865": {
+      "Name": "Bloodthirsty Gladiator's Waistband of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64866": {
+      "Name": "Bloodthirsty Gladiator's Waistband of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64867": {
+      "Name": "Bloodthirsty Gladiator's Waistguard of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64868": {
+      "Name": "Bloodthirsty Gladiator's Waistguard of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64869": {
+      "Name": "Bloodthirsty Gladiator's Warboots of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64870": {
+      "Name": "Bloodthirsty Gladiator's Warboots of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64872": {
+      "Name": "Bloodthirsty Gladiator's Wristguards of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64873": {
+      "Name": "Bloodthirsty Gladiator's Wristguards of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64874": {
+      "Name": "Bloodthirsty Gladiator's Wyrmhide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64875": {
+      "Name": "Bloodthirsty Gladiator's Wyrmhide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64876": {
+      "Name": "Bloodthirsty Gladiator's Wyrmhide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64877": {
+      "Name": "Bloodthirsty Gladiator's Wyrmhide Robes",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "64878": {
+      "Name": "Bloodthirsty Gladiator's Wyrmhide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "68768": {
+      "Name": "Arcanum of Vicious Strength",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1000",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "68769": {
+      "Name": "Arcanum of Vicious Agility",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1000",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "68770": {
+      "Name": "Arcanum of Vicious Intellect",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1000",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "68772": {
+      "Name": "Greater Inscription of Vicious Intellect",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2000",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "68773": {
+      "Name": "Greater Inscription of Vicious Strength",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2000",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "68774": {
+      "Name": "Greater Inscription of Vicious Agility",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2000",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
     }
+  }
 }
