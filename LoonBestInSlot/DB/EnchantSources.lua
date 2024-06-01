@@ -86,7 +86,7 @@ LBIS.EnchantSources =
     [86907] = { Name = "Greater Inscription of Shattered Crystal", DesignId = "62346", ScrollId = "0", Source = LBIS.L["Therazane (Exalted)"], SourceLocation = LBIS.L["Deepholm"], TextureId = "" },
     [86931] = { Name = "Arcanum of the Earthern Ring", DesignId = "62366", ScrollId = "0", Source = LBIS.L["Earthen Ring (Revered)"], SourceLocation = LBIS.L["Shimmering Expanse"], TextureId = "" },
     [86932] = { Name = "Arcanum of Hyjal", DesignId = "62367", ScrollId = "0", Source = LBIS.L["Guardians of Hyjal (Revered)"], SourceLocation = LBIS.L["Mount Hyjal"], TextureId = "" },
-    [86933] = { Name = "Arcanum of the Dragonmaw", DesignId = "62368", ScrollId = "0", Source = LBIS.L["Dragonmaw Clan (Revered)"], SourceLocation = LBIS.L["Twilight Highlands"], TextureId = "62368" },
+    [86933] = { Name = "Arcanum of the Dragonmaw/Wildhammer", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Dragonmaw/Wildhammer (Revered)"], SourceLocation = LBIS.L["Twilight Highlands"], TextureId = "62368" },
     [86934] = { Name = "Arcanum of Ramkahen", DesignId = "62369", ScrollId = "0", Source = LBIS.L["Ramkahen (Revered)"], SourceLocation = LBIS.L["Uldum"], TextureId = "" },
     [95471] = { Name = "Enchant 2H Weapon - Mighty Agility", DesignId = "68134", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [96261] = { Name = "Enchant Bracer - Major Strength", DesignId = "68788", ScrollId = "0", Source = LBIS.L["World Drop"], SourceLocation = "", TextureId = "" },
