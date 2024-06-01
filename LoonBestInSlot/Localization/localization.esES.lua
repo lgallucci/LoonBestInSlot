@@ -9,6 +9,7 @@ if GetLocale() == "esES" then
 --  LBIS.L["Akma'hat"] = "";
   LBIS.L["Al'Akir"] = "Al'Akir";
   LBIS.L["Alchemy (500)"] = "Alquimia (500)";
+  LBIS.L["Alizabal"] = "Alizabal";
   LBIS.L["All"] = "Todos";
   LBIS.L["Altairus"] = "Altairus";
   LBIS.L["Ammo"] = "Munición";
@@ -17,6 +18,7 @@ if GetLocale() == "esES" then
   LBIS.L["Arcane"] = "Arcano";
   LBIS.L["Arcanotron"] = "Arcanotron";
   LBIS.L["Archaeology (525)"] = "Arqueología (525)";
+  LBIS.L["Argaloth"] = "Argaloth";
   LBIS.L["Arms"] = "Armas";
   LBIS.L["Asaad"] = "Asaad";
   LBIS.L["Ascendant Council"] = "Consejo de ascendientes";
@@ -26,6 +28,7 @@ if GetLocale() == "esES" then
   LBIS.L["Back"] = "Espalda";
   LBIS.L["Bag"] = "Bolsa";
   LBIS.L["Balance"] = "Balaza";
+  LBIS.L["Baradin Hold"] = "Bastión de Baradin";
   LBIS.L["Baradin's Wardens"] = "Celadores de Baradin";
   LBIS.L["Baron Ashbury"] = "Barón Ashbury";
   LBIS.L["Baron Silverlaine"] = "Barón Filargenta";
@@ -34,6 +37,7 @@ if GetLocale() == "esES" then
   LBIS.L["Beast Mastery"] = "Dominio de bestias";
   LBIS.L["Beauty"] = "Bella";
   LBIS.L["BIS"] = "BIS";
+  LBIS.L["Blackrock Caverns"] = "Cavernas Roca Negra";
   LBIS.L["Blackrock Caverns (Heroic)"] = "Cavernas Roca Negra (Heroico)";
   LBIS.L["Blackrock Caverns (Normal)"] = "Cavernas Roca Negra (Normal)";
   LBIS.L["Blacksmithing (460)"] = "Herrería (460)";
@@ -64,6 +68,7 @@ if GetLocale() == "esES" then
   LBIS.L["Conclave of Wind"] = "Cónclave del Viento";
   LBIS.L["Corborus"] = "Corborus";
   LBIS.L["Corla, Herald of Twilight"] = "Corla, Heraldo del Crepúsculo";
+--  LBIS.L["Cult Alchemist"] = "";
 --  LBIS.L["Cultist Shard Watcher"] = "";
   LBIS.L["Custom"] = "Personalizado";
   LBIS.L["Dalaran"] = "Dalaran";
@@ -81,7 +86,7 @@ if GetLocale() == "esES" then
   LBIS.L["Discipline"] = "Disciplina";
 --  LBIS.L["Doing It Like a Dunwald"] = "";
 --  LBIS.L["Doing it the Hard Way"] = "";
-  LBIS.L["Dragonmaw Clan (Revered)"] = "Clan Faucedraco (Venerada)";
+  LBIS.L["Dragonmaw/Wildhammer Clan (Revered)"] = "Clan Faucedraco/Martillo Salvaje (Venerada)";
   LBIS.L["Drahga Shadowburner"] = "Drahga Quemasombras";
 --  LBIS.L["Drahga Shadowburner<Twilight's Hammer Courier>"] = "";
   LBIS.L["Drop"] = "Soltar";
@@ -141,7 +146,6 @@ if GetLocale() == "esES" then
   LBIS.L["Head"] = "Cabeza";
   LBIS.L["Helix Gearbreaker"] = "Helix Rompengranajes";
   LBIS.L["Hellscream's Reach"] = "Mando Grito Infernal";
-  LBIS.L["Heroic"] = "Heroico";
 --  LBIS.L["Hide Obsolete Items"] = "";
   LBIS.L["High Priestess Azil"] = "Suma sacerdotisa Azil";
   LBIS.L["High Prophet Barim"] = "Sumo profeta Barim";
@@ -165,6 +169,7 @@ if GetLocale() == "esES" then
   LBIS.L["Items"] = "Objetos";
   LBIS.L["Jewelcrafting (525)"] = "Joyería (525)";
 --  LBIS.L["Jewelcrafting Supplies"] = "";
+--  LBIS.L["Jewelcrafting Trainer"] = "";
 --  LBIS.L["Julak-Doom"] = "";
 --  LBIS.L["Justice Points"] = "";
   LBIS.L["Karsh Steelbender"] = "Karsh Doblacero";
@@ -211,6 +216,7 @@ if GetLocale() == "esES" then
 --  LBIS.L["New Features"] = "";
 --  LBIS.L["Night Terrors"] = "";
   LBIS.L["None"] = "Nada";
+  LBIS.L["Occu'thar"] = "Occu'thar";
   LBIS.L["Off Hand"] = "Mano Izquierda";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
@@ -246,6 +252,7 @@ if GetLocale() == "esES" then
   LBIS.L["Setesh"] = "Setesh";
   LBIS.L["Settings"] = "Configuración";
   LBIS.L["Shadow"] = "Sombra";
+  LBIS.L["Shadowfang Keep"] = "Castillo de Colmillo Oscuro";
   LBIS.L["Shadowfang Keep (Heroic)"] = "Castillo de Colmillo Oscuro (Heroico)";
   LBIS.L["Shadowfang Keep (Normal)"] = "Castillo de Colmillo Oscuro (Normal)";
 --  LBIS.L["Shard Trader"] = "";
@@ -289,6 +296,7 @@ if GetLocale() == "esES" then
   LBIS.L["The Bastion of Twilight (Heroic)"] = "El Bastión del Crepúsculo (Heroico)";
   LBIS.L["The Binding"] = "El vínculo";
 --  LBIS.L["The Crucible of Carnage: The Twilight Terror!"] = "";
+  LBIS.L["The Deadmines"] = "Las Minas de la Muerte";
   LBIS.L["The Deadmines (Heroic)"] = "Las Minas de la Muerte (Heroico)";
   LBIS.L["The Deadmines (Normal)"] = "Las Minas de la Muerte (Normal)";
 --  LBIS.L["The Dragonmaw Clan"] = "";
@@ -318,10 +326,12 @@ if GetLocale() == "esES" then
   LBIS.L["Two Hand"] = "2H";
   LBIS.L["Uldum"] = "Uldum";
   LBIS.L["Unholy"] = "Profano";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Valiona"] = "Valiona";
 --  LBIS.L["Valor Points"] = "";
   LBIS.L["Vanessa VanCleef"] = "Vanessa VanCleef";
   LBIS.L["Vendor"] = "Vendedor";
+  LBIS.L["Vortex Pinnacle"] = "Cumbre del Vórtice";
   LBIS.L["Vortex Pinnacle (Heroic)"] = "Cumbre del Vórtice (Heroico)";
   LBIS.L["Vortex Pinnacle (Normal)"] = "Cumbre del Vórtice (Normal)";
   LBIS.L["Waist"] = "Cintura";

@@ -9,6 +9,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Akma'hat"] = "";
   LBIS.L["Al'Akir"] = "알아키르";
   LBIS.L["Alchemy (500)"] = "연금술 (500)";
+  LBIS.L["Alizabal"] = "알리자발";
   LBIS.L["All"] = "전체";
   LBIS.L["Altairus"] = "알타이루스";
   LBIS.L["Ammo"] = "탄약";
@@ -17,6 +18,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Arcane"] = "비전";
   LBIS.L["Arcanotron"] = "비전골렘";
   LBIS.L["Archaeology (525)"] = "고고학 (525)";
+  LBIS.L["Argaloth"] = "아르갈로스";
   LBIS.L["Arms"] = "무기";
   LBIS.L["Asaad"] = "아사드";
   LBIS.L["Ascendant Council"] = "승천 의회";
@@ -26,6 +28,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Back"] = "망토";
   LBIS.L["Bag"] = "가방";
   LBIS.L["Balance"] = "조화";
+  LBIS.L["Baradin Hold"] = "바라딘 요새";
   LBIS.L["Baradin's Wardens"] = "바라딘 집행단";
   LBIS.L["Baron Ashbury"] = "남작 애쉬버리";
   LBIS.L["Baron Silverlaine"] = "남작 실버레인";
@@ -34,6 +37,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Beast Mastery"] = "야수";
   LBIS.L["Beauty"] = "아름이";
   LBIS.L["BIS"] = "BIS";
+  LBIS.L["Blackrock Caverns"] = "검은바위 동굴";
   LBIS.L["Blackrock Caverns (Heroic)"] = "검은바위 동굴 (영웅)";
   LBIS.L["Blackrock Caverns (Normal)"] = "검은바위 동굴 (일반)";
   LBIS.L["Blacksmithing (460)"] = "대장기술 (460)";
@@ -64,6 +68,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Conclave of Wind"] = "바람의 비밀의회";
   LBIS.L["Corborus"] = "코보루스";
   LBIS.L["Corla, Herald of Twilight"] = "황혼의 전령 코를라";
+--  LBIS.L["Cult Alchemist"] = "";
 --  LBIS.L["Cultist Shard Watcher"] = "";
   LBIS.L["Custom"] = "사용자 설정";
   LBIS.L["Dalaran"] = "달라란";
@@ -81,7 +86,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Discipline"] = "수양";
 --  LBIS.L["Doing It Like a Dunwald"] = "";
 --  LBIS.L["Doing it the Hard Way"] = "";
-  LBIS.L["Dragonmaw Clan (Revered)"] = "용아귀 부족 (매우 우호적)";
+  LBIS.L["Dragonmaw/Wildhammer Clan (Revered)"] = "용아귀 부족/와일드해머 드워프 (매우 우호적)";
   LBIS.L["Drahga Shadowburner"] = "드라가 섀도버너";
 --  LBIS.L["Drahga Shadowburner<Twilight's Hammer Courier>"] = "";
   LBIS.L["Drop"] = "드롭";
@@ -141,7 +146,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Head"] = "머리";
   LBIS.L["Helix Gearbreaker"] = "헬릭스 기어브레이커";
   LBIS.L["Hellscream's Reach"] = "헬스크림 세력단";
-  LBIS.L["Heroic"] = "영웅";
 --  LBIS.L["Hide Obsolete Items"] = "";
   LBIS.L["High Priestess Azil"] = "대여사제 아질";
   LBIS.L["High Prophet Barim"] = "고위 사제 바림";
@@ -165,6 +169,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Items"] = "아이템";
   LBIS.L["Jewelcrafting (525)"] = "보석세공 (525)";
 --  LBIS.L["Jewelcrafting Supplies"] = "";
+--  LBIS.L["Jewelcrafting Trainer"] = "";
 --  LBIS.L["Julak-Doom"] = "";
 --  LBIS.L["Justice Points"] = "";
   LBIS.L["Karsh Steelbender"] = "카쉬 스틸벤더";
@@ -211,6 +216,7 @@ if GetLocale() == "koKR" then
   LBIS.L["New Features"] = "새로운 기능";
 --  LBIS.L["Night Terrors"] = "";
   LBIS.L["None"] = "없음";
+  LBIS.L["Occu'thar"] = "오쿠타르";
   LBIS.L["Off Hand"] = "보조장비";
   LBIS.L["Open Browser Window"] = "창 열기";
   LBIS.L["Open Settings"] = "설정 창 열기";
@@ -246,6 +252,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Setesh"] = "세테쉬";
   LBIS.L["Settings"] = "설정";
   LBIS.L["Shadow"] = "암흑";
+  LBIS.L["Shadowfang Keep"] = "그림자송곳니 성채";
   LBIS.L["Shadowfang Keep (Heroic)"] = "그림자송곳니 성채 (영웅)";
   LBIS.L["Shadowfang Keep (Normal)"] = "그림자송곳니 성채 (일반)";
 --  LBIS.L["Shard Trader"] = "";
@@ -289,6 +296,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Bastion of Twilight (Heroic)"] = "황혼의 요새 (영웅)";
   LBIS.L["The Binding"] = "결속";
 --  LBIS.L["The Crucible of Carnage: The Twilight Terror!"] = "";
+  LBIS.L["The Deadmines"] = "죽음의 폐광";
   LBIS.L["The Deadmines (Heroic)"] = "죽음의 폐광 (영웅)";
   LBIS.L["The Deadmines (Normal)"] = "죽음의 폐광 (일반)";
 --  LBIS.L["The Dragonmaw Clan"] = "";
@@ -318,10 +326,12 @@ if GetLocale() == "koKR" then
   LBIS.L["Two Hand"] = "양손 무기";
   LBIS.L["Uldum"] = "울둠";
   LBIS.L["Unholy"] = "부정";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Valiona"] = "발리오나";
 --  LBIS.L["Valor Points"] = "";
   LBIS.L["Vanessa VanCleef"] = "바네사 밴클리프";
   LBIS.L["Vendor"] = "상인";
+  LBIS.L["Vortex Pinnacle"] = "소용돌이 고원";
   LBIS.L["Vortex Pinnacle (Heroic)"] = "소용돌이 고원 (영웅)";
   LBIS.L["Vortex Pinnacle (Normal)"] = "소용돌이 고원 (일반)";
   LBIS.L["Waist"] = "허리";

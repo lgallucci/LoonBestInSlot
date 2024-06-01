@@ -9,6 +9,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Akma'hat"] = "";
   LBIS.L["Al'Akir"] = "Al'Akir";
   LBIS.L["Alchemy (500)"] = "Alchemie (500)";
+  LBIS.L["Alizabal"] = "Alizabal";
   LBIS.L["All"] = "Alle";
   LBIS.L["Altairus"] = "Altairus";
   LBIS.L["Ammo"] = "Munition";
@@ -17,6 +18,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Arcane"] = "Arkan";
   LBIS.L["Arcanotron"] = "Arkanotron";
   LBIS.L["Archaeology (525)"] = "Archäologie (525)";
+  LBIS.L["Argaloth"] = "Argaloth";
   LBIS.L["Arms"] = "Waffen";
   LBIS.L["Asaad"] = "Asaad";
   LBIS.L["Ascendant Council"] = "Rat der Aszendenten";
@@ -26,6 +28,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Back"] = "Rücken";
   LBIS.L["Bag"] = "Tasche";
   LBIS.L["Balance"] = "Gleichgewicht";
+  LBIS.L["Baradin Hold"] = "Baradinfestung";
   LBIS.L["Baradin's Wardens"] = "Wächter von Baradin";
   LBIS.L["Baron Ashbury"] = "Baron Ashbury";
   LBIS.L["Baron Silverlaine"] = "Baron Silberlein";
@@ -34,6 +37,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Beast Mastery"] = "Tierherrschaft";
   LBIS.L["Beauty"] = "Bella";
   LBIS.L["BIS"] = "BIS";
+  LBIS.L["Blackrock Caverns"] = "Schwarzfelshöhlen";
   LBIS.L["Blackrock Caverns (Heroic)"] = "Schwarzfelshöhlen (Heroisch)";
   LBIS.L["Blackrock Caverns (Normal)"] = "Schwarzfelshöhlen (Normal)";
   LBIS.L["Blacksmithing (460)"] = "Schmiedekunst (460)";
@@ -64,6 +68,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Conclave of Wind"] = "Konklave des Windes";
   LBIS.L["Corborus"] = "Corborus";
   LBIS.L["Corla, Herald of Twilight"] = "Corla, Botin des Zwielichts";
+--  LBIS.L["Cult Alchemist"] = "";
 --  LBIS.L["Cultist Shard Watcher"] = "";
   LBIS.L["Custom"] = "Benutzerdefiniert";
   LBIS.L["Dalaran"] = "Dalaran";
@@ -81,7 +86,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Discipline"] = "Disziplin";
 --  LBIS.L["Doing It Like a Dunwald"] = "";
 --  LBIS.L["Doing it the Hard Way"] = "";
-  LBIS.L["Dragonmaw Clan (Revered)"] = "Drachenmalklan (Respektvoll)";
+  LBIS.L["Dragonmaw/Wildhammer Clan (Revered)"] = "Drachenmalklan/Wildhammerklan (Respektvoll)";
   LBIS.L["Drahga Shadowburner"] = "Drahga Schattenbrenner";
 --  LBIS.L["Drahga Shadowburner<Twilight's Hammer Courier>"] = "";
   LBIS.L["Drop"] = "Raid";
@@ -141,7 +146,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Head"] = "Kopf";
   LBIS.L["Helix Gearbreaker"] = "Helix Ritzelbrecher";
   LBIS.L["Hellscream's Reach"] = "Höllschreis Hand";
-  LBIS.L["Heroic"] = "Heroisch";
 --  LBIS.L["Hide Obsolete Items"] = "";
   LBIS.L["High Priestess Azil"] = "Hohepriesterin Azil";
   LBIS.L["High Prophet Barim"] = "Hochprophet Barim";
@@ -165,6 +169,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Items"] = "Gegenstände";
   LBIS.L["Jewelcrafting (525)"] = "Juwelierskunst (525)";
 --  LBIS.L["Jewelcrafting Supplies"] = "";
+--  LBIS.L["Jewelcrafting Trainer"] = "";
 --  LBIS.L["Julak-Doom"] = "";
 --  LBIS.L["Justice Points"] = "";
   LBIS.L["Karsh Steelbender"] = "Karsh Stahlbieger";
@@ -211,6 +216,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["New Features"] = "";
 --  LBIS.L["Night Terrors"] = "";
   LBIS.L["None"] = "Keine";
+  LBIS.L["Occu'thar"] = "Occu'thar";
   LBIS.L["Off Hand"] = "Schildhand";
   LBIS.L["Open Browser Window"] = "Browserfenster öffnen";
 --  LBIS.L["Open Settings"] = "";
@@ -246,6 +252,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Setesh"] = "Setesh";
   LBIS.L["Settings"] = "Einstellungen";
   LBIS.L["Shadow"] = "Schatten";
+  LBIS.L["Shadowfang Keep"] = "Burg Schattenfang";
   LBIS.L["Shadowfang Keep (Heroic)"] = "Burg Schattenfang (Heroisch)";
   LBIS.L["Shadowfang Keep (Normal)"] = "Burg Schattenfang (Normal)";
 --  LBIS.L["Shard Trader"] = "";
@@ -289,6 +296,7 @@ if GetLocale() == "deDE" then
   LBIS.L["The Bastion of Twilight (Heroic)"] = "Die Bastion des Zwielichts (Heroisch)";
   LBIS.L["The Binding"] = "Die Bindung";
 --  LBIS.L["The Crucible of Carnage: The Twilight Terror!"] = "";
+  LBIS.L["The Deadmines"] = "Die Todesminen";
   LBIS.L["The Deadmines (Heroic)"] = "Die Todesminen (Heroisch)";
   LBIS.L["The Deadmines (Normal)"] = "Die Todesminen (Normal)";
 --  LBIS.L["The Dragonmaw Clan"] = "";
@@ -318,10 +326,12 @@ if GetLocale() == "deDE" then
   LBIS.L["Two Hand"] = "Zweihändig";
   LBIS.L["Uldum"] = "Uldum";
   LBIS.L["Unholy"] = "Unheilig";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Valiona"] = "Valiona";
 --  LBIS.L["Valor Points"] = "";
   LBIS.L["Vanessa VanCleef"] = "Vanessa van Cleef";
   LBIS.L["Vendor"] = "Händler";
+  LBIS.L["Vortex Pinnacle"] = "Vortexgipfel";
   LBIS.L["Vortex Pinnacle (Heroic)"] = "Vortexgipfel (Heroisch)";
   LBIS.L["Vortex Pinnacle (Normal)"] = "Vortexgipfel (Normal)";
   LBIS.L["Waist"] = "Taille";

@@ -9,6 +9,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Akma'hat"] = "";
   LBIS.L["Al'Akir"] = "奥拉基尔";
   LBIS.L["Alchemy (500)"] = "炼金术 (500)";
+  LBIS.L["Alizabal"] = "阿丽萨巴尔";
   LBIS.L["All"] = "全部";
   LBIS.L["Altairus"] = "阿尔泰鲁斯";
   LBIS.L["Ammo"] = "弹药";
@@ -17,6 +18,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Arcane"] = "奥术";
   LBIS.L["Arcanotron"] = "奥能金刚";
   LBIS.L["Archaeology (525)"] = "考古学 (525)";
+  LBIS.L["Argaloth"] = "阿尔加洛斯";
   LBIS.L["Arms"] = "武器";
   LBIS.L["Asaad"] = "阿萨德";
   LBIS.L["Ascendant Council"] = "升腾者议会";
@@ -26,6 +28,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Back"] = "背部";
   LBIS.L["Bag"] = "背包";
   LBIS.L["Balance"] = "平衡";
+  LBIS.L["Baradin Hold"] = "巴拉丁监狱";
   LBIS.L["Baradin's Wardens"] = "巴拉丁典狱官";
   LBIS.L["Baron Ashbury"] = "埃什博瑞男爵";
   LBIS.L["Baron Silverlaine"] = "席瓦莱恩男爵";
@@ -34,6 +37,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Beast Mastery"] = "野兽控制";
   LBIS.L["Beauty"] = "如花";
 --  LBIS.L["BIS"] = "";
+  LBIS.L["Blackrock Caverns"] = "黑石岩窟";
   LBIS.L["Blackrock Caverns (Heroic)"] = "黑石岩窟 (英雄)";
   LBIS.L["Blackrock Caverns (Normal)"] = "黑石岩窟 (正常)";
   LBIS.L["Blacksmithing (460)"] = "锻造 (460)";
@@ -64,6 +68,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Conclave of Wind"] = "风之议会";
   LBIS.L["Corborus"] = "克伯鲁斯";
   LBIS.L["Corla, Herald of Twilight"] = "柯尔拉";
+--  LBIS.L["Cult Alchemist"] = "";
 --  LBIS.L["Cultist Shard Watcher"] = "";
   LBIS.L["Custom"] = "自定义";
   LBIS.L["Dalaran"] = "达拉然";
@@ -81,7 +86,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Discipline"] = "戒律";
 --  LBIS.L["Doing It Like a Dunwald"] = "";
 --  LBIS.L["Doing it the Hard Way"] = "";
-  LBIS.L["Dragonmaw Clan (Revered)"] = "龙喉氏族 (崇敬)";
+  LBIS.L["Dragonmaw/Wildhammer Clan (Revered)"] = "龙喉氏族/蛮锤部族 (崇敬)";
   LBIS.L["Drahga Shadowburner"] = "达加·燃影者";
 --  LBIS.L["Drahga Shadowburner<Twilight's Hammer Courier>"] = "";
   LBIS.L["Drop"] = "掉落";
@@ -141,7 +146,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Head"] = "头部";
   LBIS.L["Helix Gearbreaker"] = "赫利克斯·破甲";
   LBIS.L["Hellscream's Reach"] = "地狱咆哮近卫军";
-  LBIS.L["Heroic"] = "英雄";
 --  LBIS.L["Hide Obsolete Items"] = "";
   LBIS.L["High Priestess Azil"] = "高阶女祭司艾苏尔";
   LBIS.L["High Prophet Barim"] = "高阶预言者巴林姆";
@@ -165,6 +169,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Items"] = "物品";
   LBIS.L["Jewelcrafting (525)"] = "珠宝加工 (525)";
 --  LBIS.L["Jewelcrafting Supplies"] = "";
+--  LBIS.L["Jewelcrafting Trainer"] = "";
 --  LBIS.L["Julak-Doom"] = "";
 --  LBIS.L["Justice Points"] = "";
   LBIS.L["Karsh Steelbender"] = "卡尔什·断钢";
@@ -211,6 +216,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["New Features"] = "";
 --  LBIS.L["Night Terrors"] = "";
   LBIS.L["None"] = "暂无";
+  LBIS.L["Occu'thar"] = "欧库塔尔";
   LBIS.L["Off Hand"] = "副手";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
@@ -246,6 +252,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Setesh"] = "塞特斯";
   LBIS.L["Settings"] = "选项";
   LBIS.L["Shadow"] = "暗影";
+  LBIS.L["Shadowfang Keep"] = "影牙城堡";
   LBIS.L["Shadowfang Keep (Heroic)"] = "影牙城堡 (英雄)";
   LBIS.L["Shadowfang Keep (Normal)"] = "影牙城堡 (正常)";
 --  LBIS.L["Shard Trader"] = "";
@@ -289,6 +296,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["The Bastion of Twilight (Heroic)"] = "暮光堡垒 (英雄)";
   LBIS.L["The Binding"] = "誓缚";
 --  LBIS.L["The Crucible of Carnage: The Twilight Terror!"] = "";
+  LBIS.L["The Deadmines"] = "死亡矿井";
   LBIS.L["The Deadmines (Heroic)"] = "死亡矿井 (英雄)";
   LBIS.L["The Deadmines (Normal)"] = "死亡矿井 (正常)";
 --  LBIS.L["The Dragonmaw Clan"] = "";
@@ -318,10 +326,12 @@ if GetLocale() == "zhCN" then
   LBIS.L["Two Hand"] = "双手";
   LBIS.L["Uldum"] = "奥丹姆";
   LBIS.L["Unholy"] = "邪恶";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Valiona"] = "瓦里昂娜";
 --  LBIS.L["Valor Points"] = "";
   LBIS.L["Vanessa VanCleef"] = "梵妮莎·范克里夫";
   LBIS.L["Vendor"] = "商人";
+  LBIS.L["Vortex Pinnacle"] = "漩涡峰";
   LBIS.L["Vortex Pinnacle (Heroic)"] = "漩涡峰 (英雄)";
   LBIS.L["Vortex Pinnacle (Normal)"] = "漩涡峰 (正常)";
   LBIS.L["Waist"] = "腰部";
