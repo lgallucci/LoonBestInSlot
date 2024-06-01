@@ -143,7 +143,7 @@ LBIS:AddItem(spec2, "215436", LBIS.L["Ranged/Relic"], "Alt") --Totem of Invigora
 
 LBIS:AddItem(spec3, "220522", LBIS.L["Head"], "BIS") --Soulcatcher Crown
 LBIS:AddItem(spec3, "220523", LBIS.L["Head"], "BIS") --Visage of the Exiled
-LBIS:AddItem(spec3, "220514", LBIS.L["Head"], "Alt") --Visor of Verdant Feathers
+LBIS:AddItem(spec3, "220514", LBIS.L["Head"], "BIS") --Visor of Verdant Feathers
 LBIS:AddItem(spec3, "220521", LBIS.L["Head"], "Alt") --Hakkari Ritualist's Headdress
 LBIS:AddItem(spec3, "223525", LBIS.L["Head"], "Alt") --Soothsayer's Headdress
 LBIS:AddItem(spec3, "213279", LBIS.L["Head"], "Alt") --Reflective Skullcap
@@ -225,9 +225,9 @@ LBIS:AddItem(spec3, "223964", LBIS.L["Main Hand"], "Alt") --Blade of Eternal Dar
 LBIS:AddItem(spec3, "223518", LBIS.L["Main Hand"], "Alt") --Charstone Dirk
 LBIS:AddItem(spec3, "213352", LBIS.L["Main Hand"], "Alt") --Gear-Mender's Grace
 LBIS:AddItem(spec3, "7721", LBIS.L["Main Hand"], "Alt") --Hand of Righteousness
-LBIS:AddItem(spec3, "213412", LBIS.L["Off Hand"], "BIS") --Dielectric Safety Shield
 LBIS:AddItem(spec3, "220602", LBIS.L["Off Hand"], "BIS") --Sewer Turtle Half-Shell
 LBIS:AddItem(spec3, "7714", LBIS.L["Off Hand"], "BIS") --Hypnotic Blade
+LBIS:AddItem(spec3, "213412", LBIS.L["Off Hand"], "Alt") --Dielectric Safety Shield
 LBIS:AddItem(spec3, "220601", LBIS.L["Off Hand"], "Alt") --Hakkari Witch Doctor's Guard
 LBIS:AddItem(spec3, "213351", LBIS.L["Off Hand"], "Alt") --Irradiated Tower Shield
 LBIS:AddItem(spec3, "220607", LBIS.L["Ranged/Relic"], "BIS") --Totem of Tormented Ancestry

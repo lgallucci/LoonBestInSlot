@@ -333,9 +333,9 @@ LBIS:AddItem(spec3, "221435", LBIS.L["Legs"], "Alt") --Emerald Woven Pants
 LBIS:AddItem(spec3, "11841", LBIS.L["Legs"], "Alt") --Senior Designer's Pantaloons
 LBIS:AddItem(spec3, "223324", LBIS.L["Legs"], "Alt") --Rainstrider Leggings
 LBIS:AddItem(spec3, "223248", LBIS.L["Legs"], "Alt") --Fel Cloth Legs of Restoration
+LBIS:AddItem(spec3, "220556", LBIS.L["Legs"], "Alt") --Kilt of the Fallen Atal'ai Prophet
 LBIS:AddItem(spec3, "213328", LBIS.L["Legs"], "Alt") --Hyperconductive Pantaloons
 LBIS:AddItem(spec3, "9484", LBIS.L["Legs"], "Alt") --Spellshock Leggings
-LBIS:AddItem(spec3, "220556", LBIS.L["Legs"], "Alt") --Kilt of the Fallen Atal'ai Prophet
 LBIS:AddItem(spec3, "221429", LBIS.L["Legs"], "Alt") --Emerald Enchanted Pants
 LBIS:AddItem(spec3, "220906", LBIS.L["Legs"], "Alt") --Stone Guard's Dreadweave Leggings
 LBIS:AddItem(spec3, "220888", LBIS.L["Legs"], "Alt") --Knight's Dreadweave Leggings
@@ -422,15 +422,15 @@ LBIS:AddItem(spec3, "9393", LBIS.L["Off Hand"], "Alt") --Beacon of Hope
 LBIS:AddItem(spec3, "220591", LBIS.L["Two Hand"], "BIS") --Mijan's Restorative Rod
 LBIS:AddItem(spec3, "220595", LBIS.L["Two Hand"], "BIS") --Nightmare Focus Staff
 LBIS:AddItem(spec3, "213353", LBIS.L["Two Hand"], "Alt") --Defibrillating Staff
+LBIS:AddItem(spec3, "220590", LBIS.L["Two Hand"], "Alt") --Spire of Hakkari Worship
 LBIS:AddItem(spec3, "209561", LBIS.L["Two Hand"], "Alt") --Rod of the Ancient Sleepwalker
 LBIS:AddItem(spec3, "873", LBIS.L["Two Hand"], "Alt") --Staff of Jordan
 LBIS:AddItem(spec3, "213354", LBIS.L["Two Hand"], "Alt") --Staff of the Evil Genius
-LBIS:AddItem(spec3, "220590", LBIS.L["Two Hand"], "Alt") --Spire of Hakkari Worship
 LBIS:AddItem(spec3, "18082", LBIS.L["Two Hand"], "Alt") --Zum'rah's Vexing Cane
 LBIS:AddItem(spec3, "223538", LBIS.L["Two Hand"], "Alt") --Kindling Stave
 LBIS:AddItem(spec3, "217299", LBIS.L["Two Hand"], "Alt") --Illusionary Rod
+LBIS:AddItem(spec3, "220603", LBIS.L["Ranged/Relic"], "BIS") --Rod of Irreversible Corrosion
 LBIS:AddItem(spec3, "220604", LBIS.L["Ranged/Relic"], "BIS") --Nightmare Trophy
-LBIS:AddItem(spec3, "220603", LBIS.L["Ranged/Relic"], "Alt") --Rod of Irreversible Corrosion
 LBIS:AddItem(spec3, "213559", LBIS.L["Ranged/Relic"], "Alt") --Mechanostrider Gear Shifter
 LBIS:AddItem(spec3, "213411", LBIS.L["Ranged/Relic"], "Alt") --Izzleflick's Inextinguishable Igniter
 LBIS:AddItem(spec3, "217295", LBIS.L["Ranged/Relic"], "Alt") --Necrotic Wand

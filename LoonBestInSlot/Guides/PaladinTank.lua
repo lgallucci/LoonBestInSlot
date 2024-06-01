@@ -233,15 +233,16 @@ LBIS:AddItem(spec3, "17774", LBIS.L["Trinket"], "Alt") --Mark of the Chosen
 LBIS:AddItem(spec3, "221442", LBIS.L["Trinket"], "Alt Stam") --Roar of the Guardian
 LBIS:AddItem(spec3, "220633", LBIS.L["Trinket"], "Alt Mit") --Atal'ai Blood Ritual Badge
 LBIS:AddItem(spec3, "213350", LBIS.L["Trinket"], "Alt Stam") --Wirdal's Hardened Core
-LBIS:AddItem(spec3, "871", LBIS.L["Main Hand"], "BIS") --Flurry Axe
+LBIS:AddItem(spec3, "220578", LBIS.L["Main Hand"], "BIS") --Fist of the Forsaken
+LBIS:AddItem(spec3, "871", LBIS.L["Main Hand"], "Alt") --Flurry Axe
 LBIS:AddItem(spec3, "223520", LBIS.L["Main Hand"], "Alt") --Inventor's Focal Sword
 LBIS:AddItem(spec3, "221456", LBIS.L["Main Hand"], "Alt") --Eclipsed Sanguine Saber
 LBIS:AddItem(spec3, "1979", LBIS.L["Off Hand"], "BIS") --Wall of the Dead
+LBIS:AddItem(spec3, "220600", LBIS.L["Off Hand"], "Alt") --Crest of Preeminence
 LBIS:AddItem(spec3, "1203", LBIS.L["Off Hand"], "Alt") --Aegis of Stormwind
 LBIS:AddItem(spec3, "223197", LBIS.L["Off Hand"], "Alt") --Defender of the Wilds
 LBIS:AddItem(spec3, "11631", LBIS.L["Off Hand"], "Alt") --Stoneshell Guard
 LBIS:AddItem(spec3, "213390", LBIS.L["Off Hand"], "Alt") --Whirling Truesilver Gearwall
-LBIS:AddItem(spec3, "220600", LBIS.L["Off Hand"], "Alt") --Crest of Preeminence
 LBIS:AddItem(spec3, "210741", LBIS.L["Two Hand"], "BIS") --Automatic Crowd Pummeler
 LBIS:AddItem(spec3, "223526", LBIS.L["Two Hand"], "Alt") --Sul'thraze the Lasher
 LBIS:AddItem(spec3, "221457", LBIS.L["Ranged/Relic"], "BIS") --Libram of Draconic Destruction

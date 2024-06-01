@@ -10,6 +10,7 @@ LBIS:AddEnchant(spec3, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Inte
 LBIS:AddEnchant(spec3, "19057", LBIS.L["Hands"]) --Armor +40
 LBIS:AddEnchant(spec3, "15404", LBIS.L["Legs"]) --Lesser Arcane Amalgamation
 LBIS:AddEnchant(spec3, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
+LBIS:AddEnchant(spec3, "21931", LBIS.L["Main Hand"]) --Enchant Weapon - Winter's Might
 
 LBIS:AddItem(spec1, "211842", LBIS.L["Head"], "BIS") --Rakkamar's Tattered Thinking Cap
 LBIS:AddItem(spec1, "209683", LBIS.L["Head"], "Alt") --Twilight Invoker's Shawl
@@ -181,8 +182,8 @@ LBIS:AddItem(spec3, "220679", LBIS.L["Legs"], "BIS") --Malevolent Prophet's Legg
 LBIS:AddItem(spec3, "215379", LBIS.L["Legs"], "Alt") --Irradiated Trousers
 LBIS:AddItem(spec3, "220681", LBIS.L["Feet"], "BIS") --Malevolent Prophet's Sandals
 LBIS:AddItem(spec3, "215378", LBIS.L["Feet"], "Alt") --Irradiated Boots
-LBIS:AddItem(spec3, "20037", LBIS.L["Neck"], "BIS") --Arcane Crystal Pendant
-LBIS:AddItem(spec3, "220623", LBIS.L["Neck"], "Alt") --Jin'do's Lost Locket
+LBIS:AddItem(spec3, "220623", LBIS.L["Neck"], "BIS") --Jin'do's Lost Locket
+LBIS:AddItem(spec3, "20037", LBIS.L["Neck"], "Alt") --Arcane Crystal Pendant
 LBIS:AddItem(spec3, "213345", LBIS.L["Neck"], "Alt") --Piston Pendant
 LBIS:AddItem(spec3, "220628", LBIS.L["Ring"], "BIS") --Drakeclaw Band of the Harbinger
 LBIS:AddItem(spec3, "221452", LBIS.L["Ring"], "BIS") --Bloodfocused Arcane Band
@@ -193,8 +194,8 @@ LBIS:AddItem(spec3, "213347", LBIS.L["Trinket"], "BIS") --Miniaturized Combustio
 LBIS:AddItem(spec3, "220634", LBIS.L["Trinket"], "BIS") --Atal'ai Blood Ritual Charm
 LBIS:AddItem(spec3, "211450", LBIS.L["Trinket"], "Alt") --Invoker's Void Pearl
 LBIS:AddItem(spec3, "223195", LBIS.L["Trinket"], "Alt") --Breadth of the Beast
+LBIS:AddItem(spec3, "220586", LBIS.L["Main Hand"], "BIS") --Hubris, the Bandit Brander
 LBIS:AddItem(spec3, "223964", LBIS.L["Main Hand"], "BIS") --Blade of Eternal Darkness
-LBIS:AddItem(spec3, "220586", LBIS.L["Main Hand"], "Alt") --Hubris, the Bandit Brander
 LBIS:AddItem(spec3, "213410", LBIS.L["Main Hand"], "Alt") --Glimmering Gizmoblade
 LBIS:AddItem(spec3, "223520", LBIS.L["Main Hand"], "Alt") --Inventor's Focal Sword
 LBIS:AddItem(spec3, "217497", LBIS.L["Main Hand"], "Alt") --Narpas Sword

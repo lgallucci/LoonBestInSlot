@@ -163,9 +163,10 @@ LBIS:AddItem(spec3, "19120", LBIS.L["Trinket"], "Alt") --Rune of the Guard Capta
 LBIS:AddItem(spec3, "223195", LBIS.L["Trinket"], "Alt") --Breadth of the Beast
 LBIS:AddItem(spec3, "213348", LBIS.L["Trinket"], "Alt") --Gyromatic Experiment 420b
 LBIS:AddItem(spec3, "220588", LBIS.L["Main Hand"], "BIS") --Cobra Fang Claw
+LBIS:AddItem(spec3, "220574", LBIS.L["Main Hand/Off Hand"], "Alt") --Sharpened Tooth of Eranikus
+LBIS:AddItem(spec3, "220581", LBIS.L["Main Hand/Off Hand"], "Alt") --Snake Clobberer
 LBIS:AddItem(spec3, "12527", LBIS.L["Main Hand"], "Alt") --Ribsplitter
 LBIS:AddItem(spec3, "220576", LBIS.L["Main Hand/Off Hand"], "Alt") --Axe of the Atal'ai Executioner
-LBIS:AddItem(spec3, "220574", LBIS.L["Main Hand/Off Hand"], "Alt") --Sharpened Tooth of Eranikus
 LBIS:AddItem(spec3, "11120", LBIS.L["Main Hand"], "Alt") --Belgrom's Hammer
 LBIS:AddItem(spec3, "224409", LBIS.L["Off Hand"], "BIS") --Serpent's Striker
 LBIS:AddItem(spec3, "15228", LBIS.L["Off Hand"], "Alt") --Smashing Star

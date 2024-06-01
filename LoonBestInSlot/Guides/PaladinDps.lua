@@ -249,8 +249,9 @@ LBIS:AddItem(spec3, "20512", LBIS.L["Trinket"], "Alt") --Sanctified Orb
 LBIS:AddItem(spec3, "221442", LBIS.L["Trinket"], "Alt") --Roar of the Guardian
 LBIS:AddItem(spec3, "211449", LBIS.L["Trinket"], "Alt") --Avenger's Void Pearl
 LBIS:AddItem(spec3, "220632", LBIS.L["Trinket"], "Alt") --Atal'ai Blood Ritual Medallion
-LBIS:AddItem(spec3, "871", LBIS.L["Two Hand"], "BIS") --Flurry Axe
-LBIS:AddItem(spec3, "223520", LBIS.L["Two Hand"], "BIS") --Inventor's Focal Sword
+LBIS:AddItem(spec3, "220578", LBIS.L["Two Hand"], "BIS") --Fist of the Forsaken
+LBIS:AddItem(spec3, "871", LBIS.L["Two Hand"], "Alt") --Flurry Axe
+LBIS:AddItem(spec3, "223520", LBIS.L["Two Hand"], "Alt") --Inventor's Focal Sword
 LBIS:AddItem(spec3, "221456", LBIS.L["Two Hand"], "Alt") --Eclipsed Sanguine Saber
 LBIS:AddItem(spec3, "221457", LBIS.L["Ranged/Relic"], "BIS") --Libram of Draconic Destruction
 LBIS:AddItem(spec3, "209574", LBIS.L["Ranged/Relic"], "BIS") --Discarded Tenets of the Silver Hand
