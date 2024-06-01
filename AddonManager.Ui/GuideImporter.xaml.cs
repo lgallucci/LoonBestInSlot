@@ -31,7 +31,7 @@ public sealed partial class GuideImporter : Page
                                 "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAffliction", "WarlockDemonology", "WarlockDestruction", "WarriorArms",
                                 "WarriorFury", "WarriorProtection"};
 
-    public string[] PhaseList = { "Phase0", "Phase1", /* "Phase2", "Phase3",  "Phase4", "PrePatch"*/ };
+    public string[] PhaseList = { "GemsEnchants", "Phase0", "Phase1", /* "Phase2", "Phase3",  "Phase4", "PrePatch"*/ };
 
     public GuideImporter()
     {
@@ -47,7 +47,12 @@ public sealed partial class GuideImporter : Page
         _importCancelToken = new CancellationTokenSource();
         var phaseString = cmbPhase.SelectedValue.ToString();
         var phaseNumber = 0;
-        if (phaseString.Contains("Phase"))
+
+        if (phaseString == "GemsEnchants")
+        {
+            phaseNumber = -1;
+        }
+        else if (phaseString.Contains("Phase"))
             phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
 
         var spec = cmbSpec.SelectedValue.ToString();
@@ -82,7 +87,12 @@ public sealed partial class GuideImporter : Page
         _importCancelToken = new CancellationTokenSource();
         var phaseString = cmbPhase.SelectedValue.ToString();
         var phaseNumber = 0;
-        if (phaseString.Contains("Phase"))
+        
+        if (phaseString == "GemsEnchants")
+        {
+            phaseNumber = -1;
+        }
+        else if (phaseString.Contains("Phase"))
             phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
 
         string result = string.Empty;

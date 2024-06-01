@@ -2,6 +2,7 @@ LBIS.EnchantSources =
 {
     [2823] = { Name = "Deadly Poison", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Rogue Skill"], SourceLocation = "", TextureId = "2892" },
     [8679] = { Name = "Instant Poison", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Rogue Skill"], SourceLocation = "", TextureId = "6947" },
+    [44494] = { Name = "Enchant Cloak - Superior Nature Resistance", DesignId = "37333", ScrollId = "0", Source = LBIS.L["Cult Alchemist"], SourceLocation = LBIS.L["Icecrown"], TextureId = "38956" },
     [44529] = { Name = "Enchant Gloves - Major Agility", DesignId = "38967", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [44590] = { Name = "Enchant Cloak - Superior Shadow Resistance", DesignId = "37334", ScrollId = "0", Source = LBIS.L["Cultist Shard Watcher"], SourceLocation = LBIS.L["Icecrown"], TextureId = "" },
     [47901] = { Name = "Enchant Boots - Tuskarr's Vitality", DesignId = "44491", ScrollId = "0", Source = LBIS.L["Shard Trader"], SourceLocation = LBIS.L["Dalaran"], TextureId = "" },
@@ -55,8 +56,10 @@ LBIS.EnchantSources =
     [75172] = { Name = "Lightweave Embroidery", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Tailoring Trainer"], SourceLocation = "", TextureId = "" },
     [75178] = { Name = "Swordguard Embroidery", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Tailoring Trainer"], SourceLocation = "", TextureId = "" },
     [76168] = { Name = "Ebonsteel Belt Buckle", DesignId = "55054", ScrollId = "0", Source = LBIS.L["Blacksmithing Supplies"], SourceLocation = "", TextureId = "55054" },
+    [77513] = { Name = "Blood Shield", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Death Knight Skill"], SourceLocation = "", TextureId = "" },
     [78166] = { Name = "Heavy Savage Armor Kit", DesignId = "56517", ScrollId = "0", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = "", TextureId = "56517" },
     [78171] = { Name = "Dragonscale Leg Armor", DesignId = "56550", ScrollId = "0", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = "", TextureId = "56550" },
+    [78172] = { Name = "Charscale Leg Armor", DesignId = "56551", ScrollId = "0", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = "", TextureId = "56551" },
     [81932] = { Name = "Gnomish X-Ray Scope", DesignId = "59594", ScrollId = "0", Source = LBIS.L["Engineering Trainer"], SourceLocation = "", TextureId = "59594" },
     [81933] = { Name = "R19 Threatfinder", DesignId = "59595", ScrollId = "0", Source = LBIS.L["Engineering Trainer"], SourceLocation = "", TextureId = "59595" },
     [82175] = { Name = "Synapse Springs", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Engineering Trainer"], SourceLocation = "", TextureId = "" },

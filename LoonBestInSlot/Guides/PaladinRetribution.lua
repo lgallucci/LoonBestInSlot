@@ -72,12 +72,9 @@ LBIS:AddItem(spec0, "56299", LBIS.L["Ring"], "Alt") --Signet of Transformation
 LBIS:AddItem(spec0, "62350", LBIS.L["Ring"], "Alt") --Gorsik's Band of Shattering
 LBIS:AddItem(spec0, "62464", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec0, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
-LBIS:AddItem(spec0, "56393", LBIS.L["Trinket"], "BIS") --Heart of Solace
-LBIS:AddItem(spec0, "68775", LBIS.L["Trinket"], "Alt") --Volatile Alchemist Stone
 LBIS:AddItem(spec0, "52351", LBIS.L["Trinket"], "Alt") --Figurine - King of Boars
-LBIS:AddItem(spec0, "56345", LBIS.L["Trinket"], "Alt") --Magnetite Mirror
 LBIS:AddItem(spec0, "56285", LBIS.L["Trinket"], "Alt") --Might of the Ocean
-LBIS:AddItem(spec0, "56431", LBIS.L["Trinket"], "Alt") --Right Eye of Rajh
+LBIS:AddItem(spec0, "56345", LBIS.L["Trinket"], "Alt") --Magnetite Mirror
 LBIS:AddItem(spec0, "64377", LBIS.L["Two Hand"], "BIS") --Zin'rokh, Destroyer of Worlds
 LBIS:AddItem(spec0, "62454", LBIS.L["Two Hand"], "Alt") --Blade of the Fearless
 LBIS:AddItem(spec0, "56342", LBIS.L["Two Hand"], "Alt") --Sword of the Bottomless Pit
@@ -86,8 +83,8 @@ LBIS:AddItem(spec0, "56456", LBIS.L["Two Hand"], "Alt") --Wild Hammer
 LBIS:AddItem(spec0, "56284", LBIS.L["Two Hand"], "Alt") --Whitefin Axe
 LBIS:AddItem(spec0, "63445", LBIS.L["Two Hand"], "Alt") --Arced War Axe
 LBIS:AddItem(spec0, "62243", LBIS.L["Ranged/Relic"], "BIS") --Notched Jawbone
-LBIS:AddItem(spec0, "63480", LBIS.L["Ranged/Relic"], "Alt") --Record of the Brotherhood's End
 LBIS:AddItem(spec0, "56279", LBIS.L["Ranged/Relic"], "Alt") --Conch of Thundering Waves
+LBIS:AddItem(spec0, "63480", LBIS.L["Ranged/Relic"], "Alt") --Record of the Brotherhood's End
 
 LBIS:AddItem(spec1, "65216", LBIS.L["Head"], "BIS") --Reinforced Sapphirium Helmet
 LBIS:AddItem(spec1, "65038", LBIS.L["Head"], "Alt") --Dragon Bone Warhelm

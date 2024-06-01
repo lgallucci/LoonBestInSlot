@@ -27,6 +27,7 @@ LBIS.GemSources =
     [52291] = { Name = "Chaotic Shadowspirit Diamond", DesignId = "52434", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52293] = { Name = "Eternal Shadowspirit Diamond", DesignId = "52436", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52294] = { Name = "Austere Shadowspirit Diamond", DesignId = "52437", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
+    [52295] = { Name = "Effulgent Shadowspirit Diamond", DesignId = "52438", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52296] = { Name = "Ember Shadowspirit Diamond", DesignId = "52439", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [59477] = { Name = "Subtle Cogwheel", DesignId = "99999", Source = LBIS.L["Engineering Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [59478] = { Name = "Smooth Cogwheel", DesignId = "99999", Source = LBIS.L["Engineering Supplies"], SourceLocation = LBIS.L["Faction Capital"] },

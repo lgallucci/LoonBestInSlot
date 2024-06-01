@@ -33,6 +33,8 @@ internal abstract class SpecMapping
     {
         var list = new List<ClassGuideMapping>();
 
+        list.Add(new ClassGuideMapping(UrlBase + GemsEnchantsUrl, Spec, Class, "GemsEnchants", GemsEnchants));
+
         list.Add(new ClassGuideMapping(UrlBase + Phase0Url, Spec, Class, "Phase0", Phase0));
 
         list.Add(new ClassGuideMapping(UrlBase + Phase1Url, Spec, Class, "Phase1", Phase1));

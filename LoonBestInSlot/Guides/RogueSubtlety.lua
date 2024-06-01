@@ -29,6 +29,7 @@ LBIS:AddEnchant(spec1, "2823", LBIS.L["Off Hand"]) --Deadly Poison
 LBIS:AddItem(spec0, "59455", LBIS.L["Head"], "BIS") --Agile Bio-Optic Killshades
 LBIS:AddItem(spec0, "58133", LBIS.L["Head"], "Alt") --Mask of Vines
 LBIS:AddItem(spec0, "56344", LBIS.L["Head"], "Alt") --Helm of Numberless Shadows
+LBIS:AddItem(spec0, "60462", LBIS.L["Shoulder"], "BIS") --Vicious Gladiator's Leather Spaulders
 LBIS:AddItem(spec0, "56273", LBIS.L["Shoulder"], "BIS") --Caridean Epaulettes
 LBIS:AddItem(spec0, "63449", LBIS.L["Shoulder"], "Alt") --Thieving Spaulders
 LBIS:AddItem(spec0, "58134", LBIS.L["Shoulder"], "Alt") --Embrace of the Night
@@ -40,6 +41,7 @@ LBIS:AddItem(spec0, "56315", LBIS.L["Back"], "Alt") --Twitching Shadows
 LBIS:AddItem(spec0, "56379", LBIS.L["Back"], "Alt") --Kaleki Cloak
 LBIS:AddItem(spec0, "63473", LBIS.L["Back"], "Alt") --Cloak of Thredd
 LBIS:AddItem(spec0, "56562", LBIS.L["Chest"], "BIS") --Assassin's Chestplate
+LBIS:AddItem(spec0, "67135", LBIS.L["Chest"], "BIS") --Morrie's Waywalker Wrap
 LBIS:AddItem(spec0, "63468", LBIS.L["Chest"], "Alt") --Defias Brotherhood Vest
 LBIS:AddItem(spec0, "57874", LBIS.L["Chest"], "Alt") --Hieroglyphic Vest
 LBIS:AddItem(spec0, "58131", LBIS.L["Chest"], "Alt") --Tunic of Sinking Envy
@@ -47,11 +49,13 @@ LBIS:AddItem(spec0, "56455", LBIS.L["Chest"], "Alt") --Vest of Misshapen Hides
 LBIS:AddItem(spec0, "62374", LBIS.L["Chest"], "Alt") --Sly Fox Jerkin
 LBIS:AddItem(spec0, "56409", LBIS.L["Wrist"], "BIS") --Poison Fang Bracers
 LBIS:AddItem(spec0, "63454", LBIS.L["Wrist"], "Alt") --Double Dealing Bracers
+LBIS:AddItem(spec0, "60459", LBIS.L["Hands"], "BIS") --Vicious Gladiator's Leather Gloves
 LBIS:AddItem(spec0, "62417", LBIS.L["Hands"], "BIS") --Liar's Handwraps
 LBIS:AddItem(spec0, "62433", LBIS.L["Hands"], "BIS") --Stormbolt Gloves
 LBIS:AddItem(spec0, "58138", LBIS.L["Hands"], "Alt") --Sticky Fingers
 LBIS:AddItem(spec0, "56368", LBIS.L["Hands"], "Alt") --Gloves of Haze
 LBIS:AddItem(spec0, "56537", LBIS.L["Waist"], "BIS") --Belt of Nefarious Whispers
+LBIS:AddItem(spec0, "69877", LBIS.L["Waist"], "BIS") --Belt of a Thousand Gaping Mouths
 LBIS:AddItem(spec0, "57918", LBIS.L["Waist"], "Alt") --Sash of Musing
 LBIS:AddItem(spec0, "56429", LBIS.L["Waist"], "Alt") --Red Beam Cord
 LBIS:AddItem(spec0, "62446", LBIS.L["Waist"], "Alt") --Quicksand Belt
@@ -77,22 +81,25 @@ LBIS:AddItem(spec0, "56412", LBIS.L["Ring"], "Alt") --Ring of Blinding Stars
 LBIS:AddItem(spec0, "56445", LBIS.L["Ring"], "Alt") --Ring of Dun Algaz
 LBIS:AddItem(spec0, "62348", LBIS.L["Ring"], "Alt") --Terrath's Signet of Balance
 LBIS:AddItem(spec0, "58181", LBIS.L["Trinket"], "BIS") --Fluid Death
+LBIS:AddItem(spec0, "62463", LBIS.L["Trinket"], "BIS") --Unsolvable Riddle
+LBIS:AddItem(spec0, "62468", LBIS.L["Trinket"], "BIS") --Unsolvable Riddle
 LBIS:AddItem(spec0, "56427", LBIS.L["Trinket"], "BIS") --Left Eye of Rajh
-LBIS:AddItem(spec0, "56328", LBIS.L["Trinket"], "Alt") --Key to the Endless Chamber
+LBIS:AddItem(spec0, "56328", LBIS.L["Trinket"], "BIS") --Key to the Endless Chamber
 LBIS:AddItem(spec0, "56394", LBIS.L["Trinket"], "Alt") --Tia's Grace
 LBIS:AddItem(spec0, "68776", LBIS.L["Trinket"], "Alt") --Quicksilver Alchemist Stone
-LBIS:AddItem(spec0, "62463", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
-LBIS:AddItem(spec0, "62468", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
 LBIS:AddItem(spec0, "56440", LBIS.L["Trinket"], "Alt") --Skardyn's Grace
 LBIS:AddItem(spec0, "56295", LBIS.L["Trinket"], "Alt") --Grace of the Herald
+LBIS:AddItem(spec0, "52199", LBIS.L["Trinket"], "Alt") --Figurine - Demon Panther
 LBIS:AddItem(spec0, "55068", LBIS.L["Main Hand"], "BIS") --Elementium Shank
 LBIS:AddItem(spec0, "56454", LBIS.L["Main Hand"], "Alt") --Windwalker Blade
-LBIS:AddItem(spec0, "63477", LBIS.L["Main Hand"], "Alt") --Wicked Dagger
 LBIS:AddItem(spec0, "56302", LBIS.L["Main Hand"], "Alt") --Steelbender's Masterpiece
+LBIS:AddItem(spec0, "63456", LBIS.L["Main Hand"], "Alt") --Meteor Shard
+LBIS:AddItem(spec0, "68161", LBIS.L["Off Hand"], "BIS") --Krol Decapitator
 LBIS:AddItem(spec0, "65163", LBIS.L["Off Hand"], "BIS") --Buzzer Blade
 LBIS:AddItem(spec0, "56335", LBIS.L["Off Hand"], "Alt") --Quicksilver Blade
 LBIS:AddItem(spec0, "57927", LBIS.L["Off Hand"], "Alt") --Throat Slasher
 LBIS:AddItem(spec0, "56390", LBIS.L["Off Hand"], "Alt") --Barim's Main Gauche
+LBIS:AddItem(spec0, "59367", LBIS.L["Ranged/Relic"], "BIS") --Kickback 5000
 LBIS:AddItem(spec0, "68162", LBIS.L["Ranged/Relic"], "BIS") --Spinerender
 LBIS:AddItem(spec0, "56420", LBIS.L["Ranged/Relic"], "Alt") --Slashing Thorns
 LBIS:AddItem(spec0, "56317", LBIS.L["Ranged/Relic"], "Alt") --Amber Messenger

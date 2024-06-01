@@ -133,8 +133,8 @@ LBIS:AddItem(spec0, "58184", LBIS.L["Trinket"], "Alt") --Core of Ripeness
 LBIS:AddItem(spec0, "56320", LBIS.L["Trinket"], "Alt") --Witching Hourglass
 LBIS:AddItem(spec0, "56351", LBIS.L["Trinket"], "Alt") --Tear of Blood
 LBIS:AddItem(spec0, "52354", LBIS.L["Trinket"], "Alt") --Figurine - Dream Owl
-LBIS:AddItem(spec0, "56462", LBIS.L["Trinket"], "Alt") --Gale of Shadows
 LBIS:AddItem(spec0, "56414", LBIS.L["Trinket"], "Alt") --Blood of Isiset
+LBIS:AddItem(spec0, "56462", LBIS.L["Trinket"], "Alt") --Gale of Shadows
 LBIS:AddItem(spec0, "58183", LBIS.L["Trinket"], "Alt") --Soul Casket
 LBIS:AddItem(spec0, "56339", LBIS.L["Trinket"], "Alt") --Tendrils of Burrowing Dark
 LBIS:AddItem(spec0, "56400", LBIS.L["Trinket"], "Alt") --Sorrowsong

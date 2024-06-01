@@ -79,7 +79,9 @@ public static class WowheadImporter
         {
             if (phaseNumber == 99)
                 phaseString = "PrePatch";
-            else 
+            else if (phaseNumber < 0)
+                phaseString = "GemsEnchants";
+            else
                 phaseString = $"Phase{phaseNumber}";
 
             var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == phaseString);
@@ -101,8 +103,15 @@ public static class WowheadImporter
             var spec = addressToSpec[address];
             try
             {
-                var result = ImportClassInternal(spec, phaseNumber, doc, (s) => {});
-
+                string result;
+                if (spec.Phase == "GemsEnchants")
+                {
+                    result = ImportGemsEnchants(spec, doc, (s) => {});
+                }
+                else
+                {
+                    result = await ImportClassInternal(spec, phaseNumber, doc, (s) => {});
+                }
                 logFunc($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!");
             }
             catch (VerificationException vex)
@@ -124,12 +133,111 @@ public static class WowheadImporter
 
         var doc = await Common.LoadFromWebPage(classGuide.WebAddress, logFunc, cancelToken, false);
 
-        return ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
+        if (classGuide.Phase == "GemsEnchants")
+        {
+            return ImportGemsEnchants(classGuide, doc, logFunc);
+        }
+        else
+        {
+            return await ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
+        }
     }
 
-    private static string ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, IHtmlDocument doc, Action<string> logFunc)
+    private static async Task<string> ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, IHtmlDocument doc, Action<string> logFunc)
     {
         var sb = new StringBuilder();
+        (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, ItemSpec>) itemsAndEnchants;
+        try
+        {
+            var className = $"{classGuideMapping.ClassName.Replace(" ", "")}{classGuideMapping.SpecName}";
+            if (classGuideMapping != null && classGuideMapping.WebAddress != "do_not_use")
+            {
+                var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
+
+                itemsAndEnchants = new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc, logFunc);
+
+                foreach(var gem in itemsAndEnchants.Item1) 
+                {
+                    if (!guide.Item1.Any(g => g.GemId == gem.Key))
+                    {
+                        guide.Item1.Add(await GetGemFromWowhead(gem.Key, logFunc));
+                    }
+                }
+
+                foreach(var enchant in itemsAndEnchants.Item2) 
+                {
+                    if (!guide.Item2.Any(g => g.EnchantId == enchant.Value.EnchantId))
+                    {
+                        guide.Item2.Add(enchant.Value);
+                    }
+                }
+
+                if (!guide.Item3.ContainsKey(phaseNumber))
+                    guide.Item3.Add(phaseNumber, new List<ItemSpec>());
+                else
+                    guide.Item3[phaseNumber].Clear();
+                guide.Item3[phaseNumber].AddRange(itemsAndEnchants.Item3.Values.ToList());
+
+                WriteGemsInternal(guide.Item1, logFunc);
+                WriteEnchantsInternal(guide.Item2, logFunc);
+                WriteItemsInternal(guide.Item3[phaseNumber], logFunc);
+                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuideMapping.ClassName, classGuideMapping.SpecName,
+                    guide.Item1, guide.Item2, guide.Item3);
+            }
+            else
+            {
+                throw new ParseException($"Couldn't find spec: {className}");
+            }
+        }
+        catch (Exception ex)
+        {
+            throw new ParseException(ex.ToString(), ex);
+        }
+        VerifyGuide(itemsAndEnchants.Item3.Values.ToList());
+        return sb.ToString();
+    }
+
+    public static async Task<GemSpec?> GetGemFromWowhead(int gemId, Action<string> writeToLog)
+    {
+        GemSpec? gemSpec = null;
+        try 
+        {
+            IHtmlDocument? doc = await Common.LoadFromWebPage($"https://www.wowhead.com/cata/item={gemId}#taught-by-item", writeToLog);
+
+            if (doc != null)
+            {
+                var name = doc.Title?.Split("-")[0].Trim() ?? "unknown";
+                var isMeta = doc.QuerySelector("#main-precontents div span ~ span ~ span ~ span")?.TextContent == "Meta";
+                var quality = doc.QuerySelector(".wowhead-tooltip b")?.ClassName;
+
+                int itemQuality = 0;
+                if (quality?.Contains("q1") ?? false)
+                    itemQuality = 1;
+                else if (quality?.Contains("q2") ?? false)
+                    itemQuality = 2;
+                else if (quality?.Contains("q3") ?? false)
+                    itemQuality = 3;
+                else if (quality?.Contains("q4") ?? false)
+                    itemQuality = 4;
+
+                gemSpec = new GemSpec {
+                    GemId = gemId,
+                    Name = name,
+                    IsMeta = isMeta,
+                    Phase = 0,
+                    Quality = itemQuality
+                };
+            }
+        } catch
+        { 
+            writeToLog("Error !");
+        }
+        return gemSpec;
+    }
+
+    private static string ImportGemsEnchants(ClassGuideMapping classGuideMapping, IHtmlDocument doc, Action<string> logFunc)
+    {
+         var sb = new StringBuilder();
         Dictionary<int, ItemSpec> items;
         try
         {
@@ -140,8 +248,6 @@ public static class WowheadImporter
                 var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
 
                 var wowheadGuideParser = new WowheadGuideParser();
-
-                items = wowheadGuideParser.ParseWowheadGuide(classGuideMapping, doc);
                 var gemsEnchants = wowheadGuideParser.ParseGemEnchantsWowheadGuide(classGuideMapping, doc);
 
                 foreach(var gem in gemsEnchants.Item1) 
@@ -152,21 +258,16 @@ public static class WowheadImporter
                     }
                 }
 
-                if (gemsEnchants.Item2.Count() > 0)
+                foreach(var enchant in gemsEnchants.Item2) 
                 {
-                    guide.Item2.Clear();
-                    guide.Item2.AddRange(gemsEnchants.Item2.Values.ToList());
+                    if (!guide.Item2.Any(g => g.EnchantId == enchant.Value.EnchantId))
+                    {
+                        guide.Item2.Add(enchant.Value);
+                    }
                 }
-
-                if (!guide.Item3.ContainsKey(phaseNumber))
-                    guide.Item3.Add(phaseNumber, new List<ItemSpec>());
-                else
-                    guide.Item3[phaseNumber].Clear();
-                guide.Item3[phaseNumber].AddRange(items.Values.ToList());
                 
                 WriteGemsInternal(guide.Item1, logFunc);
                 WriteEnchantsInternal(guide.Item2, logFunc);
-                WriteItemsInternal(guide.Item3[phaseNumber], logFunc);
 
                 ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuideMapping.ClassName, classGuideMapping.SpecName,
                     guide.Item1, guide.Item2, guide.Item3);
@@ -180,7 +281,6 @@ public static class WowheadImporter
         {
             throw new ParseException(ex.ToString(), ex);
         }
-        VerifyGuide(items.Values.ToList());
         return sb.ToString();
     }
 

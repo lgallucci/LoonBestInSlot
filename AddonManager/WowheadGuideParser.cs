@@ -93,6 +93,9 @@ public class WowheadGuideParser
         { 41111, 55002 }, //Flexweave Underlay
         { 41118, 55016 }, //Nitro Boosts
         { 52750, 74199 }, //Enchant Boots - Haste
+        { 38956, 44494 }, //Enchant Cloak - Superior Nature Resistance
+        { 44947, 62256 }, //Enchant Bracer - Major Stamina
+        { 56551, 78172 }, //Charscale Leg Armor
      };
 
     private Dictionary<int, string> _itemSwaps = new Dictionary<int, string>()
@@ -225,7 +228,7 @@ public class WowheadGuideParser
         public string Text(ICharacterData text) => text.Data;
     }
 
-    public Dictionary<int, ItemSpec> ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc)
+public (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>,Dictionary<int, ItemSpec>) ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc, Action<string> logFunc)
     {
         var items = new Dictionary<int, ItemSpec>();
         var enchants = new Dictionary<string, EnchantSpec>();
@@ -233,28 +236,112 @@ public class WowheadGuideParser
 
         bool enchantsAndGems = int.Parse(classGuide.Phase.Replace("Phase", "")) == Constants.CurrentPhase;
 
-        LoopThroughMappings(doc, classGuide, (table, slot, htmlId) =>
-        {
-            bool first = true;
-            LoopThroughTable(table, async (tableRow, itemChild, itemOrderIndex, isTierList) =>
+        LoopThroughMappings(doc, classGuide, 
+            (enchantAnchor, slot) =>
             {
-                string htmlBisText = string.Empty, rankText = string.Empty;
-                if (isTierList)
-                    rankText = tableRow?.ChildNodes[1].TextContent.Trim() ?? string.Empty;
-
-                htmlBisText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
-
-                var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList, first, classGuide.Phase);
-
-                if (itemChild != null)
+                if (enchantsAndGems)
+                    ParseEnchant(enchantAnchor, slot, enchants);
+            },
+            (table, slot, htmlId) =>
+            {
+                bool first = true;
+                LoopThroughTable(table, async (tableRow, itemChild, itemOrderIndex, isTierList) =>
                 {
-                    ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText, itemChild), items, itemOrderIndex);
-                }
-                first = false;
+                    string htmlBisText = string.Empty, rankText = string.Empty;
+                    if (isTierList)
+                        rankText = tableRow?.ChildNodes[1].TextContent.Trim() ?? string.Empty;
+                    htmlBisText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
+                    var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList, first, classGuide.Phase);
+                    if (itemChild != null)
+                    {
+                        ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText, itemChild), items, itemOrderIndex);
+                        if (enchantsAndGems)
+                            ParseGemCell(tableRow, gems, logFunc);
+                    }
+                    first = false;
+                });
             });
-        });
-            
-        return items;
+
+        return (gems, enchants, items);
+    }
+
+    private void ParseGemCell(INode? tableRow, Dictionary<int, GemSpec> gems, Action<string> logFunc)
+    {
+        var gemCell = tableRow?.ChildNodes[2];
+        if (gemCell != null)
+        {
+            Common.RecursiveBoxSearch((IElement)gemCell, (anchorElement) => 
+            {
+                if (anchorElement.PathName.Contains("/item="))
+                {
+                    var item = anchorElement.PathName.Replace("/wotlk", "").Replace("/cata/", "/").Replace("/item=", "");
+                    var itemIdIndex = item.IndexOf("/");
+                    if (itemIdIndex == -1)
+                        itemIdIndex = item.IndexOf("&");
+                    if (itemIdIndex != -1)
+                        item = item.Substring(0, itemIdIndex);
+                    var gemId = Int32.Parse(item);
+                    if (_gemSwaps.ContainsKey(gemId))
+                    {
+                        gemId = _gemSwaps[gemId];
+                    }
+                    if (!gems.ContainsKey(gemId))
+                    {
+                        gems.Add(gemId, new GemSpec {
+                            GemId = gemId,
+                            Phase = 0
+                        });
+                    }
+                }
+                return false;
+            });
+        }
+    }
+
+    private void ParseEnchant(IHtmlAnchorElement enchantAnchor, string slot, Dictionary<string, EnchantSpec> enchants)
+    {
+        bool isSpell = false;
+        if (enchantAnchor.PathName.Contains("/item="))
+            isSpell = false;
+        else if (enchantAnchor.PathName.Contains("/spell="))
+            isSpell = true;
+        else
+            return;
+
+        var item = enchantAnchor.PathName.Replace("/wotlk", "").Replace("/cata/", "/").Replace("/item=", "").Replace("/spell=", "");
+        var itemIdIndex = item.IndexOf("/");
+        if (itemIdIndex == -1)
+            itemIdIndex = item.IndexOf("&");
+
+        if (itemIdIndex > -1)
+        {
+            item = item.Substring(0, itemIdIndex);
+            var itemName = enchantAnchor.TextContent.Trim();
+            var itemId = Int32.Parse(item);
+            bool skippedItem = false;
+            foreach (var excludedName in excludedItemNames)
+                if (itemName.EndsWith(excludedName))
+                    skippedItem = true;
+            if (!skippedItem)
+            {
+                var textureId = "";
+                if (isSpell == false && _enchantSwaps.ContainsKey(itemId))
+                {
+                    textureId = itemId.ToString();
+                    itemId = _enchantSwaps[itemId];
+                }
+                if (!enchants.ContainsKey(itemId + slot))
+                {
+                    enchants.Add(itemId + slot, new EnchantSpec
+                    {
+                        EnchantId = itemId,
+                        Name = itemName ?? "unknown",
+                        Slot = slot,
+                        TextureId = textureId
+                    });
+                }
+            }
+        }
     }
 
     internal (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>) ParseGemEnchantsWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc)
@@ -321,7 +408,7 @@ public class WowheadGuideParser
                     gems.Add(gemId, new GemSpec
                     {
                         GemId = gemId,
-                        Name = anchorElement.TextContent ?? "unknown",
+                        Name = anchorElement.TextContent.Trim() ?? "unknown",
                         Phase = _gemPhases.ContainsKey(gemId) ? _gemPhases[gemId] : 1,
                         Quality = itemQuality,
                         IsMeta = gemType == "Meta"
@@ -342,7 +429,7 @@ public class WowheadGuideParser
             else if (enchantAnchor.PathName.Contains("/spell="))
                 isSpell = true;
             else
-                throw new Exception("Tried to read a non spell/item enchant");
+                return false;
 
             var item = enchantAnchor.PathName.Replace("/wotlk", "").Replace("/cata/", "/").Replace("/item=", "").Replace("/spell=", "");
             var itemIdIndex = item.IndexOf("/");
@@ -354,7 +441,6 @@ public class WowheadGuideParser
                 item = item.Substring(0, itemIdIndex);
                 var itemName = enchantAnchor.TextContent.Trim();
                 var itemId = Int32.Parse(item);
-
 
                 bool skippedItem = false;
                 foreach (var excludedName in excludedItemNames)
@@ -369,7 +455,7 @@ public class WowheadGuideParser
                         textureId = itemId.ToString();
                         itemId = _enchantSwaps[itemId];
                     } 
-                    else 
+                    else if (isSpell == false)
                     {
                         throw new Exception($"Couldn't find spell for enchant: {itemName}");
                     }
@@ -591,24 +677,56 @@ public class WowheadGuideParser
         }
     }
 
-    private void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlTableElement?, string, string> foundTable)
+    private void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlAnchorElement, string> foundEnchant, Action<IHtmlTableElement?, string, string> foundTable)
     {
         foreach (var guideMapping in specMapping.GuideMappings)
         {
+            bool foundEnchantText = false;
             foreach (var htmlMapping in guideMapping.Value.SlotHtmlId.Split(";"))
             {
                 var headerElement = doc.QuerySelector(htmlMapping);
-
                 if (headerElement != null)
                 {
                     var nextSibling = headerElement.NextSibling;
                     int elementCounter = 0;
                     while (nextSibling != null && (nextSibling is not IHtmlTableElement || nextSibling is IHtmlHeadingElement))
                     {
+                        if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*for new").Success)
+                            foundEnchantText = false;
+
+                        //try to find enchant.
+                        if (nextSibling is IHtmlAnchorElement && foundEnchantText)
+                        {
+                            foundEnchant(nextSibling as IHtmlAnchorElement, guideMapping.Key);
+                        }
+
+                        if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*enchant").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*armor").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*scope").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*inscription").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*tinker").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*runeforge").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended shield enchant").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "bis.*enchant").Success)
+                        {
+                            foundEnchantText = true;
+                        }
+
+                        if (foundEnchantText)
+                        {
+                            Common.RecursiveBoxSearch(nextSibling, (anchorElement) => 
+                            {
+                                if (anchorElement != null)
+                                    foundEnchant(anchorElement, guideMapping.Key);
+                                return false;
+                            });
+                        }
+
                         nextSibling = nextSibling?.NextSibling;
                         elementCounter++;
                     }
 
+                    foundEnchantText = false;
                     if (nextSibling is IHtmlTableElement)
                     {                            
                         foundTable(nextSibling as IHtmlTableElement, guideMapping.Key, htmlMapping);
