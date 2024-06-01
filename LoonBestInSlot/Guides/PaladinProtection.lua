@@ -10,24 +10,24 @@ LBIS:AddGem(spec0, "52231", "3", "False") --Puissant Dream Emerald
 LBIS:AddGem(spec0, "52221", "3", "False") --Guardian's Demonseye
 
 LBIS:AddEnchant(spec1, "86931", LBIS.L["Head"]) --Arcanum of the Earthen Ring
-LBIS:AddEnchant(spec1, "86402", LBIS.L["Shoulder"]) --Inscription of the Earth Prince
 LBIS:AddEnchant(spec1, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
+LBIS:AddEnchant(spec1, "86402", LBIS.L["Shoulder"]) --Inscription of the Earth Prince
 LBIS:AddEnchant(spec1, "74234", LBIS.L["Back"]) --Enchant Cloak - Protection
 LBIS:AddEnchant(spec1, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
 LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
-LBIS:AddEnchant(spec1, "74229", LBIS.L["Wrist"]) --Enchant Bracer - Superior Dodge
 LBIS:AddEnchant(spec1, "74239", LBIS.L["Wrist"]) --Enchant Bracer - Greater Expertise
 LBIS:AddEnchant(spec1, "74232", LBIS.L["Wrist"]) --Enchant Bracer - Precision
+LBIS:AddEnchant(spec1, "74229", LBIS.L["Wrist"]) --Enchant Bracer - Superior Dodge
 LBIS:AddEnchant(spec1, "82177", LBIS.L["Hands"]) --Quickflip Deflection Plates
 LBIS:AddEnchant(spec1, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
 LBIS:AddEnchant(spec1, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec1, "101598", LBIS.L["Legs"]) --Drakehide Leg Armor
 LBIS:AddEnchant(spec1, "101600", LBIS.L["Legs"]) --Drakehide Leg Reinforcements
-LBIS:AddEnchant(spec1, "74238", LBIS.L["Feet"]) --Enchant Boots - Mastery
+LBIS:AddEnchant(spec1, "101598", LBIS.L["Legs"]) --Drakehide Leg Armor
 LBIS:AddEnchant(spec1, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
-LBIS:AddEnchant(spec1, "74189", LBIS.L["Feet"]) --Enchant Boots - Earthen Vitality
+LBIS:AddEnchant(spec1, "74238", LBIS.L["Feet"]) --Enchant Boots - Mastery
 LBIS:AddEnchant(spec1, "74236", LBIS.L["Feet"]) --Enchant Boots - Precision
+LBIS:AddEnchant(spec1, "74189", LBIS.L["Feet"]) --Enchant Boots - Earthen Vitality
 LBIS:AddEnchant(spec1, "74218", LBIS.L["Ring"]) --Enchant Ring - Greater Stamina
 LBIS:AddEnchant(spec1, "74244", LBIS.L["Main Hand"]) --Enchant Weapon - Windwalk
 LBIS:AddEnchant(spec1, "74226", LBIS.L["Off Hand"]) --Enchant Shield - Mastery

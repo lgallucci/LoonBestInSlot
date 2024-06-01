@@ -2,28 +2,37 @@ local spec0 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "0")
 local spec1 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "1")
 
 LBIS:AddGem(spec0, "52294", "3", "True") --Austere Shadowspirit Diamond
+LBIS:AddGem(spec1, "52295", "3", "True") --Effulgent Shadowspirit Diamond
 LBIS:AddGem(spec0, "59480", "3", "False") --Fractured Cogwheel
 LBIS:AddGem(spec0, "59493", "3", "False") --Rigid Cogwheel
 LBIS:AddGem(spec0, "52221", "3", "False") --Guardian's Demonseye
 LBIS:AddGem(spec0, "52242", "3", "False") --Solid Ocean Sapphire
 LBIS:AddGem(spec0, "52231", "3", "False") --Puissant Dream Emerald
+LBIS:AddGem(spec1, "52243", "3", "False") --Sovereign Demonseye
+LBIS:AddGem(spec1, "52224", "3", "False") --Keen Ember Topaz
+LBIS:AddGem(spec1, "52240", "3", "False") --Skillful Ember Topaz
+LBIS:AddGem(spec1, "52219", "3", "False") --Fractured Amberjewel
 
 LBIS:AddEnchant(spec1, "86931", LBIS.L["Head"]) --Arcanum of the Earthen Ring
 LBIS:AddEnchant(spec1, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
+LBIS:AddEnchant(spec1, "86402", LBIS.L["Shoulder"]) --Inscription of the Earth Prince
 LBIS:AddEnchant(spec1, "74247", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
-LBIS:AddEnchant(spec1, "44590", LBIS.L["Back"]) --Enchant Cloak - Superior Shadow Resistance
 LBIS:AddEnchant(spec1, "55002", LBIS.L["Back"]) --Flexweave Underlay
+LBIS:AddEnchant(spec1, "44590", LBIS.L["Back"]) --Enchant Cloak - Superior Shadow Resistance
+LBIS:AddEnchant(spec1, "44494", LBIS.L["Back"]) --Enchant Cloak - Superior Nature Resistance
 LBIS:AddEnchant(spec1, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
-LBIS:AddEnchant(spec1, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamina
 LBIS:AddEnchant(spec1, "85007", LBIS.L["Wrist"]) --Draconic Embossment - Stamina
-LBIS:AddEnchant(spec1, "78166", LBIS.L["Hands"]) --Heavy Savage Armor Kit
-LBIS:AddEnchant(spec1, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
-LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --Synapse Springs
+LBIS:AddEnchant(spec1, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamina
 LBIS:AddEnchant(spec1, "82177", LBIS.L["Hands"]) --Quickflip Deflection Plates
+LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --Synapse Springs
+LBIS:AddEnchant(spec1, "78166", LBIS.L["Hands"]) --Heavy Savage Armor Kit
+LBIS:AddEnchant(spec1, "77513", LBIS.L["Hands"]) --Blood Shield
+LBIS:AddEnchant(spec1, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "101598", LBIS.L["Legs"]) --Drakehide Leg Armor
-LBIS:AddEnchant(spec1, "74189", LBIS.L["Feet"]) --Enchant Boots - Earthen Vitality
+LBIS:AddEnchant(spec1, "78172", LBIS.L["Legs"]) --Charscale Leg Armor
 LBIS:AddEnchant(spec1, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
+LBIS:AddEnchant(spec1, "74189", LBIS.L["Feet"]) --Enchant Boots - Earthen Vitality
 LBIS:AddEnchant(spec1, "74218", LBIS.L["Ring"]) --Enchant Ring - Greater Stamina
 LBIS:AddEnchant(spec1, "62158", LBIS.L["Two Hand"]) --Rune of the Stoneskin Gargoyle
 LBIS:AddEnchant(spec1, "53344", LBIS.L["Two Hand"]) --Rune of the Fallen Crusader

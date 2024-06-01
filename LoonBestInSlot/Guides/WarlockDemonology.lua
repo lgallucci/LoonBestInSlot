@@ -2,23 +2,33 @@ local spec0 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "0")
 local spec1 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "1")
 
 LBIS:AddGem(spec0, "52291", "3", "True") --Chaotic Shadowspirit Diamond
+LBIS:AddGem(spec0, "68780", "3", "True") --Burning Shadowspirit Diamond
+LBIS:AddGem(spec1, "52257", "4", "False") --Brilliant Chimera's Eye
+LBIS:AddGem(spec1, "71881", "4", "False") --Brilliant Queen's Garnet
+LBIS:AddGem(spec1, "71854", "4", "False") --Artful Lava Coral
+LBIS:AddGem(spec1, "71877", "4", "False") --Fractured Lightstone
+LBIS:AddGem(spec1, "71864", "4", "False") --Veiled Shadow Spinel
 LBIS:AddGem(spec0, "59493", "3", "False") --Rigid Cogwheel
 LBIS:AddGem(spec0, "59480", "3", "False") --Fractured Cogwheel
 LBIS:AddGem(spec0, "52205", "3", "False") --Artful Ember Topaz
 LBIS:AddGem(spec0, "52217", "3", "False") --Veiled Demonseye
 LBIS:AddGem(spec0, "52207", "3", "False") --Brilliant Inferno Ruby
-LBIS:AddGem(spec0, "68780", "3", "True") --Burning Shadowspirit Diamond
+LBIS:AddGem(spec1, "52219", "3", "False") --Fractured Amberjewel
 
 LBIS:AddEnchant(spec1, "86932", LBIS.L["Head"]) --Arcanum of Hyjal
+LBIS:AddEnchant(spec1, "86899", LBIS.L["Shoulder"]) --Greater Inscription of Charged Lodestone
+LBIS:AddEnchant(spec1, "86403", LBIS.L["Shoulder"]) --Felfire Inscription
 LBIS:AddEnchant(spec1, "75172", LBIS.L["Back"]) --Lightweave Embroidery
 LBIS:AddEnchant(spec1, "74240", LBIS.L["Back"]) --Enchant Cloak - Greater Intellect
 LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
-LBIS:AddEnchant(spec1, "85010", LBIS.L["Wrist"]) --Draconic Embossment - Intellect
 LBIS:AddEnchant(spec1, "96262", LBIS.L["Wrist"]) --Enchant Bracer - Mighty Intellect
+LBIS:AddEnchant(spec1, "85010", LBIS.L["Wrist"]) --Draconic Embossment - Intellect
 LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec1, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
-LBIS:AddEnchant(spec1, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec1, "84427", LBIS.L["Waist"]) --Grounded Plasma Shield
+LBIS:AddEnchant(spec1, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
+LBIS:AddEnchant(spec1, "75154", LBIS.L["Legs"]) --Master's Spellthread
+LBIS:AddEnchant(spec1, "75152", LBIS.L["Legs"]) --Powerful Enchanted Spellthread
 LBIS:AddEnchant(spec1, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
 LBIS:AddEnchant(spec1, "74236", LBIS.L["Feet"]) --Enchant Boots - Precision
 LBIS:AddEnchant(spec1, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect

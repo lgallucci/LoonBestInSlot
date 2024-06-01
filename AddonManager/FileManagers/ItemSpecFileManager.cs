@@ -21,6 +21,7 @@ public static class ItemSpecFileManager
         //itemSB.AppendLine($"local spec99 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"99\")");
 
         itemSB.AppendLine();
+        gems.Sort();
         foreach (var gem in gems)
         {
             string specString = $"spec{gem.Phase}";
@@ -29,6 +30,7 @@ public static class ItemSpecFileManager
         }
 
         itemSB.AppendLine();
+        enchants.Sort();
         foreach (var enchant in enchants)
         {
             itemSB.AppendLine($"LBIS:AddEnchant(spec{itemsList.Keys.Max()}, \"{enchant.EnchantId}\", LBIS.L[\"{enchant.Slot}\"]) --{enchant.Name}");

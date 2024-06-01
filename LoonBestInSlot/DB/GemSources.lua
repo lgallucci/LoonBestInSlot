@@ -1,5 +1,7 @@
 LBIS.GemSources =
 {
+    [52149] = { Name = "Perfect Inscribed Hessonite", DesignId = "99999", Source = LBIS.L["Jewelcrafting Trainer"], SourceLocation = LBIS.L["Faction Capital"] },
+    [52176] = { Name = "Perfect Bold Carnelian", DesignId = "99999", Source = LBIS.L["Jewelcrafting Trainer"], SourceLocation = LBIS.L["Faction Capital"] },
     [52204] = { Name = "Adept Ember Topaz", DesignId = "52419", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52205] = { Name = "Artful Ember Topaz", DesignId = "52421", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52206] = { Name = "Bold Inferno Ruby", DesignId = "52362", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
@@ -15,6 +17,7 @@ LBIS.GemSources =
     [52219] = { Name = "Fractured Amberjewel", DesignId = "52398", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52220] = { Name = "Glinting Demonseye", DesignId = "52406", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52221] = { Name = "Guardian's Demonseye", DesignId = "52403", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
+    [52222] = { Name = "Inscribed Ember Topaz", DesignId = "52412", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52224] = { Name = "Keen Ember Topaz", DesignId = "52422", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52231] = { Name = "Puissant Dream Emerald", DesignId = "52430", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52233] = { Name = "Regal Dream Emerald", DesignId = "52423", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
@@ -23,6 +26,7 @@ LBIS.GemSources =
     [52240] = { Name = "Skillful Ember Topaz", DesignId = "52418", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52242] = { Name = "Solid Ocean Sapphire", DesignId = "52390", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52243] = { Name = "Sovereign Demonseye", DesignId = "52399", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
+    [52257] = { Name = "Brilliant Chimera's Eye", DesignId = "52449", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52258] = { Name = "Delicate Chimera's Eye", DesignId = "52447", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52291] = { Name = "Chaotic Shadowspirit Diamond", DesignId = "52434", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [52293] = { Name = "Eternal Shadowspirit Diamond", DesignId = "52436", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
@@ -39,4 +43,12 @@ LBIS.GemSources =
     [68778] = { Name = "Agile Shadowspirit Diamond", DesignId = "68781", Source = LBIS.L["World Drop"], SourceLocation = "" },
     [68779] = { Name = "Reverberating Shadowspirit Diamond", DesignId = "68782", Source = LBIS.L["World Drop"], SourceLocation = "" },
     [68780] = { Name = "Burning Shadowspirit Diamond", DesignId = "68783", Source = LBIS.L["World Drop"], SourceLocation = "" },
+    [71820] = { Name = "Solid Deepholm Iolite", DesignId = "71886", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
+    [71838] = { Name = "Puissant Elven Peridot", DesignId = "71903", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
+    [71850] = { Name = "Reckless Lava Coral", DesignId = "71915", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
+    [71854] = { Name = "Artful Lava Coral", DesignId = "71919", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
+    [71864] = { Name = "Veiled Shadow Spinel", DesignId = "71929", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
+    [71872] = { Name = "Defender's Shadow Spinel", DesignId = "71937", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
+    [71877] = { Name = "Fractured Lightstone", DesignId = "71947", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
+    [71881] = { Name = "Brilliant Queen's Garnet", DesignId = "71941", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
 }

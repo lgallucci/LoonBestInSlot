@@ -96,6 +96,18 @@ public class WowheadGuideParser
         { 38956, 44494 }, //Enchant Cloak - Superior Nature Resistance
         { 44947, 62256 }, //Enchant Bracer - Major Stamina
         { 56551, 78172 }, //Charscale Leg Armor
+        { 56502, 78169 }, //Scorched Leg Armor
+        { 52744, 74191 }, //Enchant Chest - Mighty Stats
+        { 44815, 44575 }, //Enchant Bracer - Greater Assault
+        { 52760, 74223 }, //Enchant Weapon - Hurricane
+        { 44465, 60692 }, //Enchant Chest - Powerful Stats
+        { 52785, 74256 }, //Enchant Bracer - Greater Speed
+        { 52766, 74232 }, //Enchant Bracer - Precision
+        { 52687, 74132 }, //Enchant Gloves - Mastery
+        { 44493, 59621 }, //Enchant Weapon - Berserking
+        { 52772, 74239 }, //Enchant Bracer - Greater Expertise
+        { 68763, 86933 }, //Arcanum of the Dragonmaw
+        { 68716, 86901 }, //Greater Inscription of Jagged Stone
      };
 
     private Dictionary<int, string> _itemSwaps = new Dictionary<int, string>()
@@ -106,8 +118,6 @@ public class WowheadGuideParser
         { 68710, "62465,62470" }, //Stump of Time
         { 68709, "62463,62468" }, //Unsolvable Riddle
     };
-
-    
 
     private Dictionary<string, string> _altModifierTextSwaps = new Dictionary<string, string>()
     {
@@ -228,7 +238,7 @@ public class WowheadGuideParser
         public string Text(ICharacterData text) => text.Data;
     }
 
-public (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>,Dictionary<int, ItemSpec>) ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc, Action<string> logFunc)
+public (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, ItemSpec>) ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc, Action<string> logFunc)
     {
         var items = new Dictionary<int, ItemSpec>();
         var enchants = new Dictionary<string, EnchantSpec>();

@@ -2,6 +2,9 @@ local spec0 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "0")
 local spec1 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "1")
 
 LBIS:AddGem(spec0, "52293", "3", "True") --Eternal Shadowspirit Diamond
+LBIS:AddGem(spec1, "71820", "4", "False") --Solid Deepholm Iolite
+LBIS:AddGem(spec1, "71872", "4", "False") --Defender's Shadow Spinel
+LBIS:AddGem(spec1, "71838", "4", "False") --Puissant Elven Peridot
 LBIS:AddGem(spec0, "59480", "3", "False") --Fractured Cogwheel
 LBIS:AddGem(spec0, "59477", "3", "False") --Subtle Cogwheel
 LBIS:AddGem(spec0, "52231", "3", "False") --Puissant Dream Emerald
@@ -12,12 +15,19 @@ LBIS:AddEnchant(spec1, "86931", LBIS.L["Head"]) --Arcanum of the Earthen Ring
 LBIS:AddEnchant(spec1, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
 LBIS:AddEnchant(spec1, "74234", LBIS.L["Back"]) --Enchant Cloak - Protection
 LBIS:AddEnchant(spec1, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
+LBIS:AddEnchant(spec1, "55002", LBIS.L["Chest"]) --Flexweave Underlay
 LBIS:AddEnchant(spec1, "85007", LBIS.L["Wrist"]) --Draconic Embossment - Stamina
 LBIS:AddEnchant(spec1, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamina
 LBIS:AddEnchant(spec1, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
+LBIS:AddEnchant(spec1, "82175", LBIS.L["Waist"]) --Synapse Springs
+LBIS:AddEnchant(spec1, "78166", LBIS.L["Waist"]) --Heavy Savage Armor Kit
 LBIS:AddEnchant(spec1, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec1, "101598", LBIS.L["Legs"]) --Drakehide Leg Armor
+LBIS:AddEnchant(spec1, "84427", LBIS.L["Legs"]) --Grounded Plasma Shield
+LBIS:AddEnchant(spec1, "55016", LBIS.L["Legs"]) --Nitro Boosts
+LBIS:AddEnchant(spec1, "101600", LBIS.L["Feet"]) --Drakehide Leg Reinforcements
 LBIS:AddEnchant(spec1, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
+LBIS:AddEnchant(spec1, "74218", LBIS.L["Ring"]) --Enchant Ring - Greater Stamina
 LBIS:AddEnchant(spec1, "74244", LBIS.L["Main Hand"]) --Enchant Weapon - Windwalk
 LBIS:AddEnchant(spec1, "74226", LBIS.L["Off Hand"]) --Enchant Shield - Mastery
 LBIS:AddEnchant(spec1, "81933", LBIS.L["Ranged/Relic"]) --R19 Threatfinder

@@ -2,18 +2,22 @@ local spec0 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marksmanship"], "0")
 local spec1 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marksmanship"], "1")
 
 LBIS:AddGem(spec0, "68778", "3", "True") --Agile Shadowspirit Diamond
+LBIS:AddGem(spec0, "52258", "4", "False") --Delicate Chimera's Eye
 LBIS:AddGem(spec0, "59478", "3", "False") --Smooth Cogwheel
 LBIS:AddGem(spec0, "59479", "3", "False") --Quick Cogwheel
 LBIS:AddGem(spec0, "52209", "3", "False") --Deadly Ember Topaz
 LBIS:AddGem(spec0, "52212", "3", "False") --Delicate Inferno Ruby
-LBIS:AddGem(spec0, "52258", "4", "False") --Delicate Chimera's Eye
 LBIS:AddGem(spec0, "52220", "3", "False") --Glinting Demonseye
 
 LBIS:AddEnchant(spec1, "86934", LBIS.L["Head"]) --Arcanum of the Ramkahen
 LBIS:AddEnchant(spec1, "86907", LBIS.L["Shoulder"]) --Greater Inscription of Shattered Crystal
+LBIS:AddEnchant(spec1, "74247", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
 LBIS:AddEnchant(spec1, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
+LBIS:AddEnchant(spec1, "74191", LBIS.L["Chest"]) --Enchant Chest - Mighty Stats
 LBIS:AddEnchant(spec1, "96264", LBIS.L["Wrist"]) --Enchant Bracer - Agility
+LBIS:AddEnchant(spec1, "44575", LBIS.L["Wrist"]) --Enchant Bracer - Greater Assault
+LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec1, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
 LBIS:AddEnchant(spec1, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
 LBIS:AddEnchant(spec1, "74252", LBIS.L["Feet"]) --Enchant Boots - Assassin's Step

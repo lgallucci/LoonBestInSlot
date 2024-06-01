@@ -2,26 +2,40 @@ local spec0 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Assassination"], "0")
 local spec1 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Assassination"], "1")
 
 LBIS:AddGem(spec0, "68778", "3", "True") --Agile Shadowspirit Diamond
+LBIS:AddGem(spec1, "52258", "4", "False") --Delicate Chimera's Eye
 LBIS:AddGem(spec0, "59489", "3", "False") --Precise Cogwheel
 LBIS:AddGem(spec0, "59493", "3", "False") --Rigid Cogwheel
 LBIS:AddGem(spec0, "52220", "3", "False") --Glinting Demonseye
 LBIS:AddGem(spec0, "52212", "3", "False") --Delicate Inferno Ruby
 LBIS:AddGem(spec0, "52211", "3", "False") --Deft Ember Topaz
+LBIS:AddGem(spec1, "52204", "3", "False") --Adept Ember Topaz
 
 LBIS:AddEnchant(spec1, "86934", LBIS.L["Head"]) --Arcanum of the Ramkahen
 LBIS:AddEnchant(spec1, "86907", LBIS.L["Shoulder"]) --Greater Inscription of Shattered Crystal
-LBIS:AddEnchant(spec1, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
+LBIS:AddEnchant(spec1, "86375", LBIS.L["Shoulder"]) --Swiftsteel Inscription
 LBIS:AddEnchant(spec1, "75178", LBIS.L["Back"]) --Swordguard Embroidery
+LBIS:AddEnchant(spec1, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
+LBIS:AddEnchant(spec1, "55002", LBIS.L["Back"]) --Flexweave Underlay
 LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
+LBIS:AddEnchant(spec1, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec1, "96264", LBIS.L["Wrist"]) --Enchant Bracer - Agility
-LBIS:AddEnchant(spec1, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
+LBIS:AddEnchant(spec1, "85008", LBIS.L["Wrist"]) --Draconic Embossment - Agility
+LBIS:AddEnchant(spec1, "74256", LBIS.L["Wrist"]) --Enchant Bracer - Greater Speed
+LBIS:AddEnchant(spec1, "74232", LBIS.L["Wrist"]) --Enchant Bracer - Precision
 LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --Synapse Springs
+LBIS:AddEnchant(spec1, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
+LBIS:AddEnchant(spec1, "74132", LBIS.L["Hands"]) --Enchant Gloves - Mastery
+LBIS:AddEnchant(spec1, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
 LBIS:AddEnchant(spec1, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
+LBIS:AddEnchant(spec1, "78169", LBIS.L["Legs"]) --Scorched Leg Armor
 LBIS:AddEnchant(spec1, "74252", LBIS.L["Feet"]) --Enchant Boots - Assassin's Step
+LBIS:AddEnchant(spec1, "74213", LBIS.L["Feet"]) --Enchant Boots - Major Agility
 LBIS:AddEnchant(spec1, "74216", LBIS.L["Ring"]) --Enchant Ring - Agility
 LBIS:AddEnchant(spec1, "74246", LBIS.L["Main Hand"]) --Enchant Weapon - Landslide
+LBIS:AddEnchant(spec1, "74223", LBIS.L["Main Hand"]) --Enchant Weapon - Hurricane
+LBIS:AddEnchant(spec1, "59621", LBIS.L["Main Hand"]) --Enchant Weapon - Berserking
 LBIS:AddEnchant(spec1, "8679", LBIS.L["Main Hand"]) --Instant Poison
 LBIS:AddEnchant(spec1, "74246", LBIS.L["Off Hand"]) --Enchant Weapon - Landslide
 LBIS:AddEnchant(spec1, "2823", LBIS.L["Off Hand"]) --Deadly Poison

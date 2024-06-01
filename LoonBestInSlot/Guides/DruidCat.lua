@@ -1,19 +1,24 @@
 local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "0")
 local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "1")
 
+LBIS:AddGem(spec0, "68778", "3", "True") --Agile Shadowspirit Diamond
 LBIS:AddGem(spec0, "59478", "3", "False") --Smooth Cogwheel
 LBIS:AddGem(spec0, "59489", "3", "False") --Precise Cogwheel
-LBIS:AddGem(spec0, "68778", "3", "True") --Agile Shadowspirit Diamond
 LBIS:AddGem(spec0, "52220", "3", "False") --Glinting Demonseye
 LBIS:AddGem(spec0, "52212", "3", "False") --Delicate Inferno Ruby
 LBIS:AddGem(spec0, "52210", "3", "False") --Defender's Demonseye
+LBIS:AddGem(spec1, "52204", "3", "False") --Adept Ember Topaz
+LBIS:AddGem(spec1, "59493", "3", "False") --Rigid Cogwheel
 
 LBIS:AddEnchant(spec1, "86934", LBIS.L["Head"]) --Arcanum of Ramkahen
 LBIS:AddEnchant(spec1, "86907", LBIS.L["Shoulder"]) --Greater Inscription of Shattered Crystal
 LBIS:AddEnchant(spec1, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
 LBIS:AddEnchant(spec1, "96264", LBIS.L["Wrist"]) --Enchant Bracer - Agility
+LBIS:AddEnchant(spec1, "85008", LBIS.L["Wrist"]) --Draconic Embossment - Agility
 LBIS:AddEnchant(spec1, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
+LBIS:AddEnchant(spec1, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
+LBIS:AddEnchant(spec1, "78172", LBIS.L["Legs"]) --Charscale Leg Armor
 LBIS:AddEnchant(spec1, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
 LBIS:AddEnchant(spec1, "74213", LBIS.L["Feet"]) --Enchant Boots - Major Agility
 LBIS:AddEnchant(spec1, "95471", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Mighty Agility

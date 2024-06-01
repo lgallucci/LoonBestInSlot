@@ -8,18 +8,28 @@ LBIS:AddGem(spec0, "52206", "3", "False") --Bold Inferno Ruby
 LBIS:AddGem(spec0, "52243", "3", "False") --Sovereign Demonseye
 LBIS:AddGem(spec0, "52214", "3", "False") --Fierce Ember Topaz
 LBIS:AddGem(spec0, "52213", "3", "False") --Etched Demonseye
+LBIS:AddGem(spec1, "52222", "3", "False") --Inscribed Ember Topaz
+LBIS:AddGem(spec1, "52176", "2", "False") --Perfect Bold Carnelian
+LBIS:AddGem(spec1, "52149", "2", "False") --Perfect Inscribed Hessonite
 
 LBIS:AddEnchant(spec1, "86933", LBIS.L["Head"]) --Arcanum of the Dragonmaw
 LBIS:AddEnchant(spec1, "86901", LBIS.L["Shoulder"]) --Greater Inscription of Jagged Stone
+LBIS:AddEnchant(spec1, "86401", LBIS.L["Shoulder"]) --Lionsmane Inscription
 LBIS:AddEnchant(spec1, "75178", LBIS.L["Back"]) --Swordguard Embroidery
 LBIS:AddEnchant(spec1, "74247", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
+LBIS:AddEnchant(spec1, "74230", LBIS.L["Back"]) --Enchant Cloak - Critical Strike
 LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
+LBIS:AddEnchant(spec1, "74191", LBIS.L["Chest"]) --Enchant Chest - Mighty Stats
 LBIS:AddEnchant(spec1, "96261", LBIS.L["Wrist"]) --Enchant Bracer - Major Strength
+LBIS:AddEnchant(spec1, "85009", LBIS.L["Wrist"]) --Draconic Embossment - Strength
 LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec1, "74254", LBIS.L["Hands"]) --Enchant Gloves - Mighty Strength
-LBIS:AddEnchant(spec1, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
+LBIS:AddEnchant(spec1, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
+LBIS:AddEnchant(spec1, "78169", LBIS.L["Legs"]) --Scorched Leg Armor
+LBIS:AddEnchant(spec1, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
+LBIS:AddEnchant(spec1, "74238", LBIS.L["Feet"]) --Enchant Boots - Mastery
 LBIS:AddEnchant(spec1, "74199", LBIS.L["Feet"]) --Enchant Boots - Haste
 LBIS:AddEnchant(spec1, "74215", LBIS.L["Ring"]) --Enchant Ring - Strength
 LBIS:AddEnchant(spec1, "74246", LBIS.L["Two Hand"]) --Enchant Weapon - Landslide
