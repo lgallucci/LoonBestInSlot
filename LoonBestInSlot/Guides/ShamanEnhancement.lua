@@ -135,6 +135,7 @@ LBIS:AddItem(spec1, "52348", LBIS.L["Ring"], "Alt") --Elementium Destroyer's Rin
 LBIS:AddItem(spec1, "65140", LBIS.L["Trinket"], "BIS") --Essence of the Cyclone
 LBIS:AddItem(spec1, "58181", LBIS.L["Trinket"], "BIS") --Fluid Death
 LBIS:AddItem(spec1, "65026", LBIS.L["Trinket"], "Alt") --Prestor's Talisman of Machination
+LBIS:AddItem(spec1, "59520", LBIS.L["Trinket"], "Alt") --Unheeded Warning
 LBIS:AddItem(spec1, "56427", LBIS.L["Trinket"], "Alt") --Left Eye of Rajh
 LBIS:AddItem(spec1, "56394", LBIS.L["Trinket"], "Alt") --Tia's Grace
 LBIS:AddItem(spec1, "62463", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
