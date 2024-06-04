@@ -13,6 +13,10 @@ public class PvPImporter : LootImporter
         { @"https://www.wowhead.com/cata/npc=46595/blood-guard-zarshi#sells;50", new Tuple<string, string>("Bloodthirsty, Arcanum of Vicious, Greater Inscription of Vicious", "Faction PVP Vendor") },
         { @"https://www.wowhead.com/cata/npc=46595/blood-guard-zarshi#sells;100", new Tuple<string, string>("Bloodthirsty, Arcanum of Vicious, Greater Inscription of Vicious", "Faction PVP Vendor") },
         { @"https://www.wowhead.com/cata/npc=46595/blood-guard-zarshi#sells;150", new Tuple<string, string>("Bloodthirsty, Arcanum of Vicious, Greater Inscription of Vicious", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/cata/npc=46594/sergeant-thunderhorn#sells", new Tuple<string, string>("Vicious", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/cata/npc=46594/sergeant-thunderhorn#sells;50", new Tuple<string, string>("Vicious", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/cata/npc=46594/sergeant-thunderhorn#sells;100", new Tuple<string, string>("Vicious", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/cata/npc=46594/sergeant-thunderhorn#sells;150", new Tuple<string, string>("Vicious", "Faction PVP Vendor") },
     };
 
     public PvPImporter(CancellationToken cancellationToken) : base(cancellationToken)
@@ -65,6 +69,7 @@ public class PvPImporter : LootImporter
                             }
                             var currentSource = item == "1901" ? "Honor Points" : 
                             item == "126" ? "Wintergrasp Marks" : 
+                            item == "390" ? "Conquest Points" :
                             item == "1900" ? "Arena Points" : "Unknown Currency";
                             currencySource += currentSource;
 

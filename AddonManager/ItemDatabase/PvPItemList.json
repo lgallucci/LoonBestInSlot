@@ -1,5 +1,1565 @@
 {
   "Items": {
+    "60408": {
+      "Name": "Vicious Gladiator's Dreadplate Chestpiece",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60409": {
+      "Name": "Vicious Gladiator's Dreadplate Gauntlets",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60410": {
+      "Name": "Vicious Gladiator's Dreadplate Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60411": {
+      "Name": "Vicious Gladiator's Dreadplate Legguards",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60412": {
+      "Name": "Vicious Gladiator's Dreadplate Shoulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60413": {
+      "Name": "Vicious Gladiator's Scaled Chestpiece",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60414": {
+      "Name": "Vicious Gladiator's Scaled Gauntlets",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60415": {
+      "Name": "Vicious Gladiator's Scaled Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60416": {
+      "Name": "Vicious Gladiator's Scaled Legguards",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60417": {
+      "Name": "Vicious Gladiator's Scaled Shoulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60418": {
+      "Name": "Vicious Gladiator's Plate Chestpiece",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60419": {
+      "Name": "Vicious Gladiator's Plate Gauntlets",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60420": {
+      "Name": "Vicious Gladiator's Plate Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60421": {
+      "Name": "Vicious Gladiator's Plate Legguards",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60422": {
+      "Name": "Vicious Gladiator's Plate Shoulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60423": {
+      "Name": "Vicious Gladiator's Chain Armor",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60424": {
+      "Name": "Vicious Gladiator's Chain Gauntlets",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60425": {
+      "Name": "Vicious Gladiator's Chain Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60426": {
+      "Name": "Vicious Gladiator's Chain Leggings",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60427": {
+      "Name": "Vicious Gladiator's Chain Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60428": {
+      "Name": "Vicious Gladiator's Ringmail Armor",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60429": {
+      "Name": "Vicious Gladiator's Ringmail Gauntlets",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60430": {
+      "Name": "Vicious Gladiator's Ringmail Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60431": {
+      "Name": "Vicious Gladiator's Ringmail Leggings",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60432": {
+      "Name": "Vicious Gladiator's Ringmail Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60433": {
+      "Name": "Vicious Gladiator's Linked Armor",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60434": {
+      "Name": "Vicious Gladiator's Linked Gauntlets",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60435": {
+      "Name": "Vicious Gladiator's Linked Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60436": {
+      "Name": "Vicious Gladiator's Linked Leggings",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60437": {
+      "Name": "Vicious Gladiator's Linked Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60438": {
+      "Name": "Vicious Gladiator's Mail Armor",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60439": {
+      "Name": "Vicious Gladiator's Mail Gauntlets",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60440": {
+      "Name": "Vicious Gladiator's Mail Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60441": {
+      "Name": "Vicious Gladiator's Mail Leggings",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60442": {
+      "Name": "Vicious Gladiator's Mail Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60443": {
+      "Name": "Vicious Gladiator's Dragonhide Gloves",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60444": {
+      "Name": "Vicious Gladiator's Dragonhide Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60445": {
+      "Name": "Vicious Gladiator's Dragonhide Legguards",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60446": {
+      "Name": "Vicious Gladiator's Dragonhide Robes",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60447": {
+      "Name": "Vicious Gladiator's Dragonhide Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60448": {
+      "Name": "Vicious Gladiator's Kodohide Gloves",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60449": {
+      "Name": "Vicious Gladiator's Kodohide Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60450": {
+      "Name": "Vicious Gladiator's Kodohide Legguards",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60451": {
+      "Name": "Vicious Gladiator's Kodohide Robes",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60452": {
+      "Name": "Vicious Gladiator's Kodohide Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60453": {
+      "Name": "Vicious Gladiator's Wyrmhide Gloves",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60454": {
+      "Name": "Vicious Gladiator's Wyrmhide Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60455": {
+      "Name": "Vicious Gladiator's Wyrmhide Legguards",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60456": {
+      "Name": "Vicious Gladiator's Wyrmhide Robes",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60457": {
+      "Name": "Vicious Gladiator's Wyrmhide Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60458": {
+      "Name": "Vicious Gladiator's Leather Tunic",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60459": {
+      "Name": "Vicious Gladiator's Leather Gloves",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60460": {
+      "Name": "Vicious Gladiator's Leather Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60461": {
+      "Name": "Vicious Gladiator's Leather Legguards",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60462": {
+      "Name": "Vicious Gladiator's Leather Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60463": {
+      "Name": "Vicious Gladiator's Silk Handguards",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60464": {
+      "Name": "Vicious Gladiator's Silk Cowl",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60465": {
+      "Name": "Vicious Gladiator's Silk Trousers",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60466": {
+      "Name": "Vicious Gladiator's Silk Robe",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60467": {
+      "Name": "Vicious Gladiator's Silk Amice",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60468": {
+      "Name": "Vicious Gladiator's Mooncloth Gloves",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60469": {
+      "Name": "Vicious Gladiator's Mooncloth Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60470": {
+      "Name": "Vicious Gladiator's Mooncloth Leggings",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60471": {
+      "Name": "Vicious Gladiator's Mooncloth Robe",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60472": {
+      "Name": "Vicious Gladiator's Mooncloth Mantle",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60473": {
+      "Name": "Vicious Gladiator's Satin Gloves",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60474": {
+      "Name": "Vicious Gladiator's Satin Hood",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60475": {
+      "Name": "Vicious Gladiator's Satin Leggings",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60476": {
+      "Name": "Vicious Gladiator's Satin Robe",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60477": {
+      "Name": "Vicious Gladiator's Satin Mantle",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60478": {
+      "Name": "Vicious Gladiator's Felweave Handguards",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60479": {
+      "Name": "Vicious Gladiator's Felweave Cowl",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60480": {
+      "Name": "Vicious Gladiator's Felweave Trousers",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60481": {
+      "Name": "Vicious Gladiator's Felweave Raiment",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60482": {
+      "Name": "Vicious Gladiator's Felweave Amice",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60505": {
+      "Name": "Vicious Gladiator's Clasp of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60508": {
+      "Name": "Vicious Gladiator's Girdle of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60509": {
+      "Name": "Vicious Gladiator's Warboots of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60512": {
+      "Name": "Vicious Gladiator's Armplates of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60513": {
+      "Name": "Vicious Gladiator's Warboots of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60516": {
+      "Name": "Vicious Gladiator's Greaves of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60520": {
+      "Name": "Vicious Gladiator's Bracers of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60521": {
+      "Name": "Vicious Gladiator's Girdle of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60523": {
+      "Name": "Vicious Gladiator's Armplates of Proficiency",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60533": {
+      "Name": "Vicious Gladiator's Waistguard of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60534": {
+      "Name": "Vicious Gladiator's Sabatons of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60535": {
+      "Name": "Vicious Gladiator's Armbands of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60536": {
+      "Name": "Vicious Gladiator's Waistguard of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60539": {
+      "Name": "Vicious Gladiator's Clasp of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60540": {
+      "Name": "Vicious Gladiator's Greaves of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60541": {
+      "Name": "Vicious Gladiator's Bracers of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60554": {
+      "Name": "Vicious Gladiator's Sabatons of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60555": {
+      "Name": "Vicious Gladiator's Links of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60557": {
+      "Name": "Vicious Gladiator's Sabatons of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60559": {
+      "Name": "Vicious Gladiator's Wristguards of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60564": {
+      "Name": "Vicious Gladiator's Links of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60565": {
+      "Name": "Vicious Gladiator's Wristguards of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60567": {
+      "Name": "Vicious Gladiator's Sabatons of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60569": {
+      "Name": "Vicious Gladiator's Armbands of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60580": {
+      "Name": "Vicious Gladiator's Belt of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60581": {
+      "Name": "Vicious Gladiator's Footguards of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60582": {
+      "Name": "Vicious Gladiator's Bindings of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60583": {
+      "Name": "Vicious Gladiator's Belt of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60586": {
+      "Name": "Vicious Gladiator's Waistband of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60587": {
+      "Name": "Vicious Gladiator's Boots of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60589": {
+      "Name": "Vicious Gladiator's Waistband of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60591": {
+      "Name": "Vicious Gladiator's Armwraps of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60593": {
+      "Name": "Vicious Gladiator's Boots of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60594": {
+      "Name": "Vicious Gladiator's Armwraps of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60601": {
+      "Name": "Vicious Gladiator's Ornamented Chestguard",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60602": {
+      "Name": "Vicious Gladiator's Ornamented Gloves",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60603": {
+      "Name": "Vicious Gladiator's Ornamented Headcover",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60604": {
+      "Name": "Vicious Gladiator's Ornamented Legplates",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2200",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60605": {
+      "Name": "Vicious Gladiator's Ornamented Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60607": {
+      "Name": "Vicious Gladiator's Footguards of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60611": {
+      "Name": "Vicious Gladiator's Bindings of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60612": {
+      "Name": "Vicious Gladiator's Cord of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60613": {
+      "Name": "Vicious Gladiator's Treads of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60626": {
+      "Name": "Vicious Gladiator's Cord of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60628": {
+      "Name": "Vicious Gladiator's Cuffs of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60630": {
+      "Name": "Vicious Gladiator's Treads of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60634": {
+      "Name": "Vicious Gladiator's Cuffs of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60635": {
+      "Name": "Vicious Gladiator's Cuffs of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60636": {
+      "Name": "Vicious Gladiator's Treads of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60637": {
+      "Name": "Vicious Gladiator's Cord of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60645": {
+      "Name": "Vicious Gladiator's Band of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60647": {
+      "Name": "Vicious Gladiator's Band of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60649": {
+      "Name": "Vicious Gladiator's Band of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60650": {
+      "Name": "Vicious Gladiator's Signet of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60651": {
+      "Name": "Vicious Gladiator's Signet of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60658": {
+      "Name": "Vicious Gladiator's Ring of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60659": {
+      "Name": "Vicious Gladiator's Ring of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60661": {
+      "Name": "Vicious Gladiator's Pendant of Diffusion",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60662": {
+      "Name": "Vicious Gladiator's Pendant of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60664": {
+      "Name": "Vicious Gladiator's Pendant of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60668": {
+      "Name": "Vicious Gladiator's Necklace of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60669": {
+      "Name": "Vicious Gladiator's Necklace of Proficiency",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60670": {
+      "Name": "Vicious Gladiator's Choker of Proficiency",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60673": {
+      "Name": "Vicious Gladiator's Choker of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60776": {
+      "Name": "Vicious Gladiator's Cloak of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60778": {
+      "Name": "Vicious Gladiator's Cloak of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60779": {
+      "Name": "Vicious Gladiator's Cape of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60783": {
+      "Name": "Vicious Gladiator's Cape of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60786": {
+      "Name": "Vicious Gladiator's Drape of Diffusion",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60787": {
+      "Name": "Vicious Gladiator's Drape of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60788": {
+      "Name": "Vicious Gladiator's Drape of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60801": {
+      "Name": "Vicious Gladiator's Medallion of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60806": {
+      "Name": "Vicious Gladiator's Medallion of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "60807": {
+      "Name": "Vicious Gladiator's Medallion of Tenacity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61026": {
+      "Name": "Vicious Gladiator's Emblem of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61031": {
+      "Name": "Vicious Gladiator's Emblem of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61032": {
+      "Name": "Vicious Gladiator's Emblem of Tenacity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61033": {
+      "Name": "Vicious Gladiator's Badge of Conquest",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61034": {
+      "Name": "Vicious Gladiator's Badge of Victory",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61035": {
+      "Name": "Vicious Gladiator's Badge of Dominance",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61045": {
+      "Name": "Vicious Gladiator's Insignia of Dominance",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61046": {
+      "Name": "Vicious Gladiator's Insignia of Victory",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61047": {
+      "Name": "Vicious Gladiator's Insignia of Conquest",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1650",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61324": {
+      "Name": "Vicious Gladiator's Cleaver",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2450",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61325": {
+      "Name": "Vicious Gladiator's Hacker",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2450",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61326": {
+      "Name": "Vicious Gladiator's Decapitator",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3400",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61327": {
+      "Name": "Vicious Gladiator's Shanker",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2450",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61328": {
+      "Name": "Vicious Gladiator's Shiv",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "950",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61329": {
+      "Name": "Vicious Gladiator's Spellblade",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2450",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61330": {
+      "Name": "Vicious Gladiator's Right Ripper",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2450",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61331": {
+      "Name": "Vicious Gladiator's Left Ripper",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "950",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61332": {
+      "Name": "Vicious Gladiator's Left Render",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "950",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61333": {
+      "Name": "Vicious Gladiator's Right Render",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2450",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61335": {
+      "Name": "Vicious Gladiator's Pummeler",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2450",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61336": {
+      "Name": "Vicious Gladiator's Bonecracker",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2450",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61338": {
+      "Name": "Vicious Gladiator's Gavel",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2450",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61339": {
+      "Name": "Vicious Gladiator's Bonegrinder",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3400",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61340": {
+      "Name": "Vicious Gladiator's Pike",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3400",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61341": {
+      "Name": "Vicious Gladiator's Battle Staff",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3400",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61342": {
+      "Name": "Vicious Gladiator's Energy Staff",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3400",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61343": {
+      "Name": "Vicious Gladiator's Staff",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3400",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61344": {
+      "Name": "Vicious Gladiator's Slicer",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2450",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61345": {
+      "Name": "Vicious Gladiator's Quickblade",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2450",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61346": {
+      "Name": "Vicious Gladiator's Greatsword",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3400",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61347": {
+      "Name": "Vicious Gladiator's War Edge",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "700",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61348": {
+      "Name": "Vicious Gladiator's Hatchet",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "700",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61350": {
+      "Name": "Vicious Gladiator's Touch of Defeat",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "700",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61351": {
+      "Name": "Vicious Gladiator's Baton of Light",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "700",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61353": {
+      "Name": "Vicious Gladiator's Longbow",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3400",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61354": {
+      "Name": "Vicious Gladiator's Rifle",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3400",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61355": {
+      "Name": "Vicious Gladiator's Heavy Crossbow",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3400",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61357": {
+      "Name": "Vicious Gladiator's Endgame",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "950",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61358": {
+      "Name": "Vicious Gladiator's Reprieve",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "950",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61359": {
+      "Name": "Vicious Gladiator's Shield Wall",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "950",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61360": {
+      "Name": "Vicious Gladiator's Barrier",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "950",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61361": {
+      "Name": "Vicious Gladiator's Redoubt",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "950",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61388": {
+      "Name": "Vicious Gladiator's Relic of Dominance",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "700",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61389": {
+      "Name": "Vicious Gladiator's Relic of Salvation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "700",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61390": {
+      "Name": "Vicious Gladiator's Relic of Triumph",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "700",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
+    "61391": {
+      "Name": "Vicious Gladiator's Relic of Conquest",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "700",
+      "SourceLocation": "Faction PVP Vendor",
+      "SourceFaction": "B"
+    },
     "64681": {
       "Name": "Bloodthirsty Gladiator's Armbands of Meditation",
       "Source": "Honor Points",
