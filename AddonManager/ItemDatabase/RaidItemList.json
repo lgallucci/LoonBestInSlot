@@ -2502,7 +2502,7 @@
       "SourceType": "Quest",
       "SourceNumber": "0",
       "SourceLocation": "Sunken Temple",
-      "SourceFaction": "H"
+      "SourceFaction": "B"
     },
     "220627": {
       "Name": "Drakeclaw Band of the Stalker",
@@ -2510,7 +2510,7 @@
       "SourceType": "Quest",
       "SourceNumber": "0",
       "SourceLocation": "Sunken Temple",
-      "SourceFaction": "H"
+      "SourceFaction": "B"
     },
     "220628": {
       "Name": "Drakeclaw Band of the Harbinger",
@@ -2518,7 +2518,7 @@
       "SourceType": "Quest",
       "SourceNumber": "0",
       "SourceLocation": "Sunken Temple",
-      "SourceFaction": "H"
+      "SourceFaction": "B"
     },
     "220629": {
       "Name": "Drakeclaw Band of the Blood Prophet",
@@ -2526,7 +2526,7 @@
       "SourceType": "Quest",
       "SourceNumber": "0",
       "SourceLocation": "Sunken Temple",
-      "SourceFaction": "H"
+      "SourceFaction": "B"
     },
     "220630": {
       "Name": "Drakeclaw Band of the Juggernaut",
@@ -2534,7 +2534,7 @@
       "SourceType": "Quest",
       "SourceNumber": "0",
       "SourceLocation": "Sunken Temple",
-      "SourceFaction": "H"
+      "SourceFaction": "B"
     },
     "220632": {
       "Name": "Atal'ai Blood Ritual Medallion",

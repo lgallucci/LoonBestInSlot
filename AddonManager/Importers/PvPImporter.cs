@@ -85,6 +85,11 @@ public class PvPImporter : LootImporter
                         SourceType = "PvP",
                         SourceFaction = faction
                     });
+                } else {
+                    if (items.Items[itemId].SourceFaction != faction)
+                    {
+                        items.Items[itemId].SourceFaction = "B";
+                    }
                 }
             });
         }, writeToLog);
