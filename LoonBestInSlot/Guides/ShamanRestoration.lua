@@ -29,6 +29,7 @@ LBIS:AddEnchant(spec1, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "75150", LBIS.L["Legs"]) --Powerful Ghostly Spellthread
 LBIS:AddEnchant(spec1, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
+LBIS:AddEnchant(spec1, "74189", LBIS.L["Feet"]) --Enchant Boots - Earthen Vitality
 LBIS:AddEnchant(spec1, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
 LBIS:AddEnchant(spec1, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect
 LBIS:AddEnchant(spec1, "74242", LBIS.L["Main Hand"]) --Enchant Weapon - Power Torrent

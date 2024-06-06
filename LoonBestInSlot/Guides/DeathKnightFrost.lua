@@ -93,15 +93,15 @@ LBIS:AddItem(spec0, "63480", LBIS.L["Ranged/Relic"], "Alt") --Record of the Brot
 LBIS:AddItem(spec0, "56279", LBIS.L["Ranged/Relic"], "Alt") --Conch of Thundering Waves
 LBIS:AddItem(spec0, "62243", LBIS.L["Ranged/Relic"], "Alt") --Notched Jawbone
 
-LBIS:AddItem(spec1, "65181", LBIS.L["Head"], "BIS") --Magma Plated Helmet
-LBIS:AddItem(spec1, "65130", LBIS.L["Head"], "Alt") --Helm of Maddening Whispers
+LBIS:AddItem(spec1, "65130", LBIS.L["Head"], "BIS") --Helm of Maddening Whispers
+LBIS:AddItem(spec1, "65181", LBIS.L["Head"], "Alt") --Magma Plated Helmet
 LBIS:AddItem(spec1, "60341", LBIS.L["Head"], "Alt") --Magma Plated Helmet
 LBIS:AddItem(spec1, "59359", LBIS.L["Head"], "Alt") --Reinforced Bio-Optic Killshades
 LBIS:AddItem(spec1, "65183", LBIS.L["Shoulder"], "BIS") --Magma Plated Pauldrons
 LBIS:AddItem(spec1, "65142", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Great Ettin
 LBIS:AddItem(spec1, "60343", LBIS.L["Shoulder"], "Alt") --Magma Plated Pauldrons
-LBIS:AddItem(spec1, "69879", LBIS.L["Back"], "BIS") --Cloudburst Cloak
-LBIS:AddItem(spec1, "65117", LBIS.L["Back"], "Alt") --Glittering Epidermis
+LBIS:AddItem(spec1, "65117", LBIS.L["Back"], "BIS") --Glittering Epidermis
+LBIS:AddItem(spec1, "69879", LBIS.L["Back"], "Alt") --Cloudburst Cloak
 LBIS:AddItem(spec1, "67140", LBIS.L["Back"], "Alt") --Drape of Inimitable Fate
 LBIS:AddItem(spec1, "65179", LBIS.L["Chest"], "BIS") --Magma Plated Battleplate
 LBIS:AddItem(spec1, "65062", LBIS.L["Chest"], "Alt") --Battleplate of Ancient Kings
@@ -115,21 +115,21 @@ LBIS:AddItem(spec1, "65180", LBIS.L["Hands"], "BIS") --Magma Plated Gauntlets
 LBIS:AddItem(spec1, "65071", LBIS.L["Hands"], "Alt") --Plated Fists of Provocation
 LBIS:AddItem(spec1, "60340", LBIS.L["Hands"], "Alt") --Magma Plated Gauntlets
 LBIS:AddItem(spec1, "56336", LBIS.L["Hands"], "Alt") --Hematite Plate Gloves
-LBIS:AddItem(spec1, "65369", LBIS.L["Waist"], "BIS") --Sky Strider Belt
-LBIS:AddItem(spec1, "65040", LBIS.L["Waist"], "Alt") --Belt of Absolute Zero
+LBIS:AddItem(spec1, "65040", LBIS.L["Waist"], "BIS") --Belt of Absolute Zero
+LBIS:AddItem(spec1, "65369", LBIS.L["Waist"], "Alt") --Sky Strider Belt
 LBIS:AddItem(spec1, "55061", LBIS.L["Waist"], "Alt") --Elementium Girdle of Pain
-LBIS:AddItem(spec1, "65379", LBIS.L["Legs"], "BIS") --Sky Strider Greaves
+LBIS:AddItem(spec1, "65182", LBIS.L["Legs"], "BIS") --Magma Plated Legplates
+LBIS:AddItem(spec1, "65379", LBIS.L["Legs"], "Alt") --Sky Strider Greaves
 LBIS:AddItem(spec1, "65121", LBIS.L["Legs"], "Alt") --Terrastra's Legguards
-LBIS:AddItem(spec1, "65182", LBIS.L["Legs"], "Alt") --Magma Plated Legplates
 LBIS:AddItem(spec1, "65075", LBIS.L["Feet"], "BIS") --Massacre Treads
 LBIS:AddItem(spec1, "58195", LBIS.L["Feet"], "Alt") --Woe Breeder's Boots
-LBIS:AddItem(spec1, "69885", LBIS.L["Neck"], "BIS") --Cloudburst Necklace
+LBIS:AddItem(spec1, "65025", LBIS.L["Neck"], "BIS") --Rage of Ages
+LBIS:AddItem(spec1, "69885", LBIS.L["Neck"], "Alt") --Cloudburst Necklace
 LBIS:AddItem(spec1, "60227", LBIS.L["Neck"], "Alt") --Caelestrasz's Will
-LBIS:AddItem(spec1, "65025", LBIS.L["Neck"], "Alt") --Rage of Ages
 LBIS:AddItem(spec1, "62447", LBIS.L["Neck"], "Alt") --Gift of Nadun
 LBIS:AddItem(spec1, "60226", LBIS.L["Ring"], "BIS") --Dargonax's Signet
+LBIS:AddItem(spec1, "65106", LBIS.L["Ring"], "BIS") --Ring of Rivalry
 LBIS:AddItem(spec1, "65382", LBIS.L["Ring"], "BIS") --Cloudburst Ring
-LBIS:AddItem(spec1, "65106", LBIS.L["Ring"], "Alt") --Ring of Rivalry
 LBIS:AddItem(spec1, "67139", LBIS.L["Ring"], "Alt") --Blauvelt's Family Crest
 LBIS:AddItem(spec1, "58185", LBIS.L["Ring"], "Alt") --Band of Bees
 LBIS:AddItem(spec1, "65072", LBIS.L["Trinket"], "BIS") --Heart of Rage
@@ -138,8 +138,8 @@ LBIS:AddItem(spec1, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec1, "56393", LBIS.L["Trinket"], "Alt") --Heart of Solace
 LBIS:AddItem(spec1, "65118", LBIS.L["Trinket"], "Alt") --Crushing Weight
 LBIS:AddItem(spec1, "58180", LBIS.L["Trinket"], "Alt") --License to Slay
+LBIS:AddItem(spec1, "65047", LBIS.L["Main Hand/Off Hand"], "BIS") --Lava Spine
 LBIS:AddItem(spec1, "68131", LBIS.L["Main Hand"], "BIS") --Stormwake, the Tempest's Reach
-LBIS:AddItem(spec1, "65047", LBIS.L["Main Hand/Off Hand"], "Alt/BIS") --Lava Spine
 LBIS:AddItem(spec1, "64885", LBIS.L["Main Hand/Off Hand"], "Alt") --Scimitar of the Sirocco
 LBIS:AddItem(spec1, "65036", LBIS.L["Off Hand"], "Alt") --Mace of Acrid Death
 LBIS:AddItem(spec1, "59521", LBIS.L["Off Hand"], "Alt") --Soul Blade

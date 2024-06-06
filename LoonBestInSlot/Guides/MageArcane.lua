@@ -83,7 +83,6 @@ LBIS:AddItem(spec0, "62047", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Volcano
 LBIS:AddItem(spec0, "56320", LBIS.L["Trinket"], "Alt") --Witching Hourglass
 LBIS:AddItem(spec0, "56339", LBIS.L["Trinket"], "Alt") --Tendrils of Burrowing Dark
 LBIS:AddItem(spec0, "56407", LBIS.L["Trinket"], "Alt") --Anhuur's Hymnal
-LBIS:AddItem(spec0, "56462", LBIS.L["Trinket"], "Alt") --Gale of Shadows
 LBIS:AddItem(spec0, "69844", LBIS.L["Main Hand"], "BIS") --Vitreous Beak of Julak-Doom
 LBIS:AddItem(spec0, "56357", LBIS.L["Main Hand"], "Alt") --Biting Wind
 LBIS:AddItem(spec0, "56433", LBIS.L["Main Hand"], "Alt") --Blade of the Burning Sun
