@@ -30,6 +30,7 @@ LBIS:AddEnchant(spec1, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "75150", LBIS.L["Legs"]) --Powerful Ghostly Spellthread
 LBIS:AddEnchant(spec1, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
+LBIS:AddEnchant(spec1, "74199", LBIS.L["Feet"]) --Enchant Boots - Haste
 LBIS:AddEnchant(spec1, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
 LBIS:AddEnchant(spec1, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect
 LBIS:AddEnchant(spec1, "74242", LBIS.L["Main Hand"]) --Enchant Weapon - Power Torrent
@@ -194,10 +195,10 @@ LBIS:AddItem(spec1, "63494", LBIS.L["Ring"], "Alt") --Planetary Band
 LBIS:AddItem(spec1, "58189", LBIS.L["Ring"], "Alt") --Twined Band of Flowers
 LBIS:AddItem(spec1, "58188", LBIS.L["Ring"], "Alt") --Band of Secret Names
 LBIS:AddItem(spec1, "64904", LBIS.L["Ring"], "Alt") --Ring of the Boy Emperor
-LBIS:AddItem(spec1, "60233", LBIS.L["Trinket"], "BIS") --Shard of Woe
+LBIS:AddItem(spec1, "65124", LBIS.L["Trinket"], "BIS") --Fall of Mortality
 LBIS:AddItem(spec1, "64645", LBIS.L["Trinket"], "BIS") --Tyrande's Favorite Doll
-LBIS:AddItem(spec1, "65124", LBIS.L["Trinket"], "Alt") --Fall of Mortality
 LBIS:AddItem(spec1, "62050", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Tsunami
+LBIS:AddItem(spec1, "60233", LBIS.L["Trinket"], "Alt") --Shard of Woe
 LBIS:AddItem(spec1, "59500", LBIS.L["Trinket"], "Alt") --Fall of Mortality
 LBIS:AddItem(spec1, "68777", LBIS.L["Trinket"], "Alt") --Vibrant Alchemist Stone
 LBIS:AddItem(spec1, "58184", LBIS.L["Trinket"], "Alt") --Core of Ripeness
@@ -217,8 +218,8 @@ LBIS:AddItem(spec1, "67149", LBIS.L["Off Hand"], "Alt") --Heartbound Tome
 LBIS:AddItem(spec1, "64489", LBIS.L["Two Hand"], "BIS") --Staff of Sorcerer-Thane Thaurissan
 LBIS:AddItem(spec1, "64880", LBIS.L["Two Hand"], "BIS") --Staff of Ammunae
 LBIS:AddItem(spec1, "59525", LBIS.L["Two Hand"], "BIS") --Chelley's Staff of Dark Mending
-LBIS:AddItem(spec1, "64673", LBIS.L["Ranged/Relic"], "BIS") --Relic of Eonar
 LBIS:AddItem(spec1, "64672", LBIS.L["Ranged/Relic"], "BIS") --Relic of Norgannon
+LBIS:AddItem(spec1, "64673", LBIS.L["Ranged/Relic"], "BIS") --Relic of Eonar
 LBIS:AddItem(spec1, "56350", LBIS.L["Ranged/Relic"], "Alt") --Book of Dark Prophecies
 LBIS:AddItem(spec1, "63487", LBIS.L["Ranged/Relic"], "Alt") --Book of the Well Sung Song
 LBIS:AddItem(spec1, "56372", LBIS.L["Ranged/Relic"], "Alt") --Captured Lightning

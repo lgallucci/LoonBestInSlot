@@ -17,6 +17,7 @@ LBIS:AddEnchant(spec1, "75178", LBIS.L["Back"]) --Swordguard Embroidery
 LBIS:AddEnchant(spec1, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 LBIS:AddEnchant(spec1, "55002", LBIS.L["Back"]) --Flexweave Underlay
 LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
+LBIS:AddEnchant(spec1, "74191", LBIS.L["Chest"]) --Enchant Chest - Mighty Stats
 LBIS:AddEnchant(spec1, "96264", LBIS.L["Wrist"]) --Enchant Bracer - Agility
 LBIS:AddEnchant(spec1, "85008", LBIS.L["Wrist"]) --Draconic Embossment - Agility
 LBIS:AddEnchant(spec1, "55628", LBIS.L["Wrist"]) --Socket Bracer

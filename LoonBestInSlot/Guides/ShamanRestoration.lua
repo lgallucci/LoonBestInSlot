@@ -15,6 +15,7 @@ LBIS:AddEnchant(spec1, "75172", LBIS.L["Back"]) --Lightweave Embroidery
 LBIS:AddEnchant(spec1, "74240", LBIS.L["Back"]) --Enchant Cloak - Greater Intellect
 LBIS:AddEnchant(spec1, "52639", LBIS.L["Back"]) --Spring Loaded Cloak Expander
 LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
+LBIS:AddEnchant(spec1, "74191", LBIS.L["Chest"]) --Enchant Chest - Mighty Stats
 LBIS:AddEnchant(spec1, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec1, "96262", LBIS.L["Wrist"]) --Enchant Bracer - Mighty Intellect
 LBIS:AddEnchant(spec1, "85010", LBIS.L["Wrist"]) --Draconic Embossment - Intellect

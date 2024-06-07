@@ -66,6 +66,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Commander Springvale"] = "指挥官斯普林瓦尔";
   LBIS.L["Commander Ulthok"] = "指挥官乌尔索克";
   LBIS.L["Conclave of Wind"] = "风之议会";
+--  LBIS.L["Conquest Points"] = "";
   LBIS.L["Corborus"] = "克伯鲁斯";
   LBIS.L["Corla, Herald of Twilight"] = "柯尔拉";
 --  LBIS.L["Cult Alchemist"] = "";

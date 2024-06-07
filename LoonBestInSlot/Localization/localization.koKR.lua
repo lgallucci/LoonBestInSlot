@@ -66,6 +66,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Commander Springvale"] = "사령관 스프링베일";
   LBIS.L["Commander Ulthok"] = "사령관 울톡";
   LBIS.L["Conclave of Wind"] = "바람의 비밀의회";
+--  LBIS.L["Conquest Points"] = "";
   LBIS.L["Corborus"] = "코보루스";
   LBIS.L["Corla, Herald of Twilight"] = "황혼의 전령 코를라";
 --  LBIS.L["Cult Alchemist"] = "";

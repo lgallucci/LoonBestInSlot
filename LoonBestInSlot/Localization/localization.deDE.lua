@@ -66,6 +66,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Commander Springvale"] = "Kommandant Springvale";
   LBIS.L["Commander Ulthok"] = "Kommandant Ulthok";
   LBIS.L["Conclave of Wind"] = "Konklave des Windes";
+--  LBIS.L["Conquest Points"] = "";
   LBIS.L["Corborus"] = "Corborus";
   LBIS.L["Corla, Herald of Twilight"] = "Corla, Botin des Zwielichts";
 --  LBIS.L["Cult Alchemist"] = "";

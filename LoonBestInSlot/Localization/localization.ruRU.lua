@@ -66,6 +66,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Commander Springvale"] = "Командир Ручьедол";
   LBIS.L["Commander Ulthok"] = "Командир Улток";
   LBIS.L["Conclave of Wind"] = "Конклав Ветра";
+--  LBIS.L["Conquest Points"] = "";
   LBIS.L["Corborus"] = "Корбор";
   LBIS.L["Corla, Herald of Twilight"] = "Глашатай сумрака Корла";
 --  LBIS.L["Cult Alchemist"] = "";

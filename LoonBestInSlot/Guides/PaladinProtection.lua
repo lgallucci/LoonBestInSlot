@@ -105,6 +105,7 @@ LBIS:AddItem(spec1, "62383", LBIS.L["Back"], "Alt") --Wrap of the Great Turtle
 LBIS:AddItem(spec1, "65224", LBIS.L["Chest"], "BIS") --Reinforced Sapphirium Chestguard
 LBIS:AddItem(spec1, "60354", LBIS.L["Chest"], "Alt") --Reinforced Sapphirium Chestguard
 LBIS:AddItem(spec1, "65143", LBIS.L["Wrist"], "BIS") --Bracers of Impossible Strength
+LBIS:AddItem(spec1, "59470", LBIS.L["Wrist"], "Alt") --Bracers of Impossible Strength
 LBIS:AddItem(spec1, "57870", LBIS.L["Wrist"], "Alt") --Alpha Bracers
 LBIS:AddItem(spec1, "65119", LBIS.L["Hands"], "BIS") --Gravitational Pull
 LBIS:AddItem(spec1, "59505", LBIS.L["Hands"], "Alt") --Gravitational Pull
@@ -136,12 +137,12 @@ LBIS:AddItem(spec1, "62440", LBIS.L["Ring"], "Alt") --Red Rock Band
 LBIS:AddItem(spec1, "58483", LBIS.L["Trinket"], "BIS Stam") --Lifebound Alchemist Stone
 LBIS:AddItem(spec1, "62466", LBIS.L["Trinket"], "Alt") --Mirror of Broken Images
 LBIS:AddItem(spec1, "62471", LBIS.L["Trinket"], "Alt") --Mirror of Broken Images
-LBIS:AddItem(spec1, "62464", LBIS.L["Trinket"], "Alt") --Impatience of Youth
-LBIS:AddItem(spec1, "62469", LBIS.L["Trinket"], "Alt") --Impatience of Youth
 LBIS:AddItem(spec1, "65048", LBIS.L["Trinket"], "Alt Stam") --Symbiotic Worm
 LBIS:AddItem(spec1, "65109", LBIS.L["Trinket"], "Alt Stam") --Vial of Stolen Memories
 LBIS:AddItem(spec1, "59332", LBIS.L["Trinket"], "Alt Stam") --Symbiotic Worm
 LBIS:AddItem(spec1, "59515", LBIS.L["Trinket"], "Alt Stam") --Vial of Stolen Memories
+LBIS:AddItem(spec1, "62464", LBIS.L["Trinket"], "Alt") --Impatience of Youth
+LBIS:AddItem(spec1, "62469", LBIS.L["Trinket"], "Alt") --Impatience of Youth
 LBIS:AddItem(spec1, "52352", LBIS.L["Trinket"], "Alt Stam") --Figurine - Earthen Guardian
 LBIS:AddItem(spec1, "56347", LBIS.L["Trinket"], "Alt Stam") --Leaden Despair
 LBIS:AddItem(spec1, "65036", LBIS.L["Main Hand"], "BIS") --Mace of Acrid Death

@@ -235,12 +235,12 @@ LBIS:AddItem(spec1, "56295", LBIS.L["Trinket"], "Alt") --Grace of the Herald
 LBIS:AddItem(spec1, "68130", LBIS.L["Main Hand"], "BIS") --Stormwake, the Tempest's Reach
 LBIS:AddItem(spec1, "65024", LBIS.L["Main Hand"], "BIS") --Crul'korak, the Lightning's Arc
 LBIS:AddItem(spec1, "65094", LBIS.L["Main Hand"], "BIS") --Fang of Twilight
-LBIS:AddItem(spec1, "68161", LBIS.L["Main Hand"], "BIS") --Krol Decapitator
-LBIS:AddItem(spec1, "65164", LBIS.L["Main Hand"], "BIS") --Cruel Barb
 LBIS:AddItem(spec1, "68129", LBIS.L["Main Hand"], "Alt") --Stormwake, the Tempest's Reach
+LBIS:AddItem(spec1, "68161", LBIS.L["Main Hand"], "Alt") --Krol Decapitator
 LBIS:AddItem(spec1, "59443", LBIS.L["Main Hand"], "Alt") --Crul'korak, the Lightning's Arc
 LBIS:AddItem(spec1, "63533", LBIS.L["Main Hand"], "Alt") --Fang of Twilight
 LBIS:AddItem(spec1, "63537", LBIS.L["Main Hand"], "Alt") --Claws of Torment
+LBIS:AddItem(spec1, "65164", LBIS.L["Main Hand"], "Alt") --Cruel Barb
 LBIS:AddItem(spec1, "65173", LBIS.L["Main Hand"], "Alt") --Thief's Blade
 LBIS:AddItem(spec1, "62476", LBIS.L["Main Hand"], "Alt") --Ravening Slicer
 LBIS:AddItem(spec1, "67602", LBIS.L["Main Hand"], "Alt") --Elementium Gutslicer
