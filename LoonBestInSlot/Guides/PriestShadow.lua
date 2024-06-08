@@ -254,10 +254,10 @@ LBIS:AddItem(spec1, "59336", LBIS.L["Legs"], "Alt") --Flame Pillar Leggings
 LBIS:AddItem(spec1, "63507", LBIS.L["Legs"], "Alt") --Soul Breath Leggings of the Undertow
 LBIS:AddItem(spec1, "54505", LBIS.L["Legs"], "Alt") --Breeches of Mended Nightmares
 LBIS:AddItem(spec1, "54506", LBIS.L["Legs"], "Alt") --Flame-Ascended Pantaloons
-LBIS:AddItem(spec1, "65069", LBIS.L["Feet"], "BIS") --Einhorn's Galoshes
+LBIS:AddItem(spec1, "65069", LBIS.L["Feet"], "BIS") --Quickstep Galoshes
 LBIS:AddItem(spec1, "65116", LBIS.L["Feet"], "Alt") --Treads of Liquid Ice
 LBIS:AddItem(spec1, "58486", LBIS.L["Feet"], "Alt") --Slippers of Moving Waters
-LBIS:AddItem(spec1, "59234", LBIS.L["Feet"], "Alt") --Einhorn's Galoshes
+LBIS:AddItem(spec1, "59234", LBIS.L["Feet"], "Alt") --Quickstep Galoshes
 LBIS:AddItem(spec1, "59508", LBIS.L["Feet"], "Alt") --Treads of Liquid Ice
 LBIS:AddItem(spec1, "62450", LBIS.L["Feet"], "Alt") --Desert Walker Sandals
 LBIS:AddItem(spec1, "69882", LBIS.L["Neck"], "BIS") --Planetary Amulet of the Undertow
@@ -308,6 +308,6 @@ LBIS:AddItem(spec1, "67149", LBIS.L["Off Hand"], "Alt") --Heartbound Tome
 LBIS:AddItem(spec1, "59525", LBIS.L["Two Hand"], "BIS") --Chelley's Staff of Dark Mending
 LBIS:AddItem(spec1, "64489", LBIS.L["Two Hand"], "Alt") --Staff of Sorcerer-Thane Thaurissan
 LBIS:AddItem(spec1, "64880", LBIS.L["Two Hand"], "Alt") --Staff of Ammunae
-LBIS:AddItem(spec1, "65064", LBIS.L["Ranged/Relic"], "BIS") --Finkle's Mixer Upper
-LBIS:AddItem(spec1, "59314", LBIS.L["Ranged/Relic"], "Alt") --Finkle's Mixer Upper
+LBIS:AddItem(spec1, "65064", LBIS.L["Ranged/Relic"], "BIS") --Pip's Solution Agitator
+LBIS:AddItem(spec1, "59314", LBIS.L["Ranged/Relic"], "Alt") --Pip's Solution Agitator
 LBIS:AddItem(spec1, "59460", LBIS.L["Ranged/Relic"], "Alt") --Theresa's Booklight

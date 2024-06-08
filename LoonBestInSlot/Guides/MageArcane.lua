@@ -128,7 +128,7 @@ LBIS:AddItem(spec1, "54503", LBIS.L["Waist"], "Alt") --Dreamless Belt
 LBIS:AddItem(spec1, "65211", LBIS.L["Legs"], "BIS") --Firelord's Leggings
 LBIS:AddItem(spec1, "60245", LBIS.L["Legs"], "Alt") --Firelord's Leggings
 LBIS:AddItem(spec1, "54505", LBIS.L["Legs"], "Alt") --Breeches of Mended Nightmares
-LBIS:AddItem(spec1, "65069", LBIS.L["Feet"], "BIS") --Einhorn's Galoshes
+LBIS:AddItem(spec1, "65069", LBIS.L["Feet"], "BIS") --Quickstep Galoshes
 LBIS:AddItem(spec1, "62450", LBIS.L["Feet"], "Alt") --Desert Walker Sandals
 LBIS:AddItem(spec1, "69882", LBIS.L["Neck"], "BIS") --Planetary Amulet
 LBIS:AddItem(spec1, "65112", LBIS.L["Neck"], "Alt") --Valiona's Medallion

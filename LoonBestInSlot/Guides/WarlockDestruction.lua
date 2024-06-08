@@ -201,10 +201,10 @@ LBIS:AddItem(spec1, "60250", LBIS.L["Legs"], "Alt") --Shadowflame Leggings
 LBIS:AddItem(spec1, "59336", LBIS.L["Legs"], "Alt") --Flame Pillar Leggings
 LBIS:AddItem(spec1, "54505", LBIS.L["Legs"], "Alt") --Breeches of Mended Nightmares
 LBIS:AddItem(spec1, "54506", LBIS.L["Legs"], "Alt") --Flame-Ascended Pantaloons
-LBIS:AddItem(spec1, "65069", LBIS.L["Feet"], "BIS") --Einhorn's Galoshes
+LBIS:AddItem(spec1, "65069", LBIS.L["Feet"], "BIS") --Quickstep Galoshes
 LBIS:AddItem(spec1, "62450", LBIS.L["Feet"], "Alt") --Desert Walker Sandals
 LBIS:AddItem(spec1, "58485", LBIS.L["Feet"], "Alt") --Melodious Slippers
-LBIS:AddItem(spec1, "59234", LBIS.L["Feet"], "Alt") --Einhorn's Galoshes
+LBIS:AddItem(spec1, "59234", LBIS.L["Feet"], "Alt") --Quickstep Galoshes
 LBIS:AddItem(spec1, "69882", LBIS.L["Neck"], "BIS") --Planetary Amulet
 LBIS:AddItem(spec1, "65112", LBIS.L["Neck"], "Alt") --Valiona's Medallion
 LBIS:AddItem(spec1, "69830", LBIS.L["Neck"], "Alt") --Planetary Amulet
@@ -250,7 +250,7 @@ LBIS:AddItem(spec1, "64489", LBIS.L["Two Hand"], "BIS") --Staff of Sorcerer-Than
 LBIS:AddItem(spec1, "59525", LBIS.L["Two Hand"], "Alt") --Chelley's Staff of Dark Mending
 LBIS:AddItem(spec1, "56271", LBIS.L["Two Hand"], "Alt") --Cerith Spire Staff
 LBIS:AddItem(spec1, "59460", LBIS.L["Ranged/Relic"], "BIS") --Theresa's Booklight
-LBIS:AddItem(spec1, "65064", LBIS.L["Ranged/Relic"], "Alt") --Finkle's Mixer Upper
+LBIS:AddItem(spec1, "65064", LBIS.L["Ranged/Relic"], "Alt") --Pip's Solution Agitator
 LBIS:AddItem(spec1, "65172", LBIS.L["Ranged/Relic"], "Alt") --Cookie's Stirring Rod
 LBIS:AddItem(spec1, "56296", LBIS.L["Ranged/Relic"], "Alt") --Corla's Baton
-LBIS:AddItem(spec1, "59314", LBIS.L["Ranged/Relic"], "Alt") --Finkle's Mixer Upper
+LBIS:AddItem(spec1, "59314", LBIS.L["Ranged/Relic"], "Alt") --Pip's Solution Agitator

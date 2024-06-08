@@ -215,6 +215,7 @@ LBIS:AddItem(spec1, "63680", LBIS.L["Main Hand"], "Alt") --Twilight's Hammer
 LBIS:AddItem(spec1, "65111", LBIS.L["Off Hand"], "BIS") --Scepter of Ice
 LBIS:AddItem(spec1, "59513", LBIS.L["Off Hand"], "Alt") --Scepter of Ice
 LBIS:AddItem(spec1, "67149", LBIS.L["Off Hand"], "Alt") --Heartbound Tome
+LBIS:AddItem(spec1, "57924", LBIS.L["Off Hand"], "Alt") --Apple-Bent Bough
 LBIS:AddItem(spec1, "64489", LBIS.L["Two Hand"], "BIS") --Staff of Sorcerer-Thane Thaurissan
 LBIS:AddItem(spec1, "64880", LBIS.L["Two Hand"], "BIS") --Staff of Ammunae
 LBIS:AddItem(spec1, "59525", LBIS.L["Two Hand"], "BIS") --Chelley's Staff of Dark Mending
