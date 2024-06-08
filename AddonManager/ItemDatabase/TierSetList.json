@@ -308,7 +308,7 @@
       "Name": "Magma Plated Battleplate",
       "Source": "Chest of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67425",
+      "SourceNumber": "67425~60339",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -316,7 +316,7 @@
       "Name": "Magma Plated Gauntlets",
       "Source": "Gauntlets of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67431",
+      "SourceNumber": "67431~60340",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -332,7 +332,7 @@
       "Name": "Magma Plated Legplates",
       "Source": "Leggings of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67426",
+      "SourceNumber": "67426~60342",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -348,7 +348,7 @@
       "Name": "Magma Plated Chestguard",
       "Source": "Chest of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67425",
+      "SourceNumber": "67425~60349",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -356,7 +356,7 @@
       "Name": "Magma Plated Handguards",
       "Source": "Gauntlets of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67431",
+      "SourceNumber": "67431~60350",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -372,7 +372,7 @@
       "Name": "Magma Plated Legguards",
       "Source": "Leggings of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67426",
+      "SourceNumber": "67426~60352",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -388,7 +388,7 @@
       "Name": "Stormrider's Grips",
       "Source": "Gauntlets of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67431",
+      "SourceNumber": "67431~60290",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -404,7 +404,7 @@
       "Name": "Stormrider's Legguards",
       "Source": "Leggings of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67426",
+      "SourceNumber": "67426~60288",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -412,7 +412,7 @@
       "Name": "Stormrider's Raiment",
       "Source": "Chest of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67425",
+      "SourceNumber": "67425~60287",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -428,7 +428,7 @@
       "Name": "Stormrider's Handwraps",
       "Source": "Gauntlets of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67431",
+      "SourceNumber": "67431~60280",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -444,7 +444,7 @@
       "Name": "Stormrider's Legwraps",
       "Source": "Leggings of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67426",
+      "SourceNumber": "67426~60278",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -452,7 +452,7 @@
       "Name": "Stormrider's Robes",
       "Source": "Chest of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67425",
+      "SourceNumber": "67425~60276",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -468,7 +468,7 @@
       "Name": "Stormrider's Gloves",
       "Source": "Gauntlets of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67431",
+      "SourceNumber": "67431~60285",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -484,7 +484,7 @@
       "Name": "Stormrider's Leggings",
       "Source": "Leggings of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67426",
+      "SourceNumber": "67426~60283",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -492,7 +492,7 @@
       "Name": "Stormrider's Vestment",
       "Source": "Chest of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67425",
+      "SourceNumber": "67425~60281",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -508,7 +508,7 @@
       "Name": "Lightning-Charged Tunic",
       "Source": "Chest of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67424",
+      "SourceNumber": "67424~60304",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -516,7 +516,7 @@
       "Name": "Lightning-Charged Gloves",
       "Source": "Gauntlets of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67430",
+      "SourceNumber": "67430~60307",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -532,7 +532,7 @@
       "Name": "Lightning-Charged Legguards",
       "Source": "Leggings of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67427",
+      "SourceNumber": "67427~60305",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -548,7 +548,7 @@
       "Name": "Firelord's Gloves",
       "Source": "Gauntlets of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67431",
+      "SourceNumber": "67431~60247",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -564,7 +564,7 @@
       "Name": "Firelord's Leggings",
       "Source": "Leggings of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67426",
+      "SourceNumber": "67426~60245",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -572,7 +572,7 @@
       "Name": "Firelord's Robes",
       "Source": "Chest of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67425",
+      "SourceNumber": "67425~60244",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -588,7 +588,7 @@
       "Name": "Reinforced Sapphirium Battleplate",
       "Source": "Chest of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67423",
+      "SourceNumber": "67423~60344",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -596,7 +596,7 @@
       "Name": "Reinforced Sapphirium Gauntlets",
       "Source": "Gauntlets of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67429",
+      "SourceNumber": "67429~60345",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -612,7 +612,7 @@
       "Name": "Reinforced Sapphirium Legplates",
       "Source": "Leggings of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67428",
+      "SourceNumber": "67428~60347",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -628,7 +628,7 @@
       "Name": "Reinforced Sapphirium Breastplate",
       "Source": "Chest of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67423",
+      "SourceNumber": "67423~60360",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -636,7 +636,7 @@
       "Name": "Reinforced Sapphirium Gloves",
       "Source": "Gauntlets of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67429",
+      "SourceNumber": "67429~60363",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -652,7 +652,7 @@
       "Name": "Reinforced Sapphirium Greaves",
       "Source": "Leggings of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67428",
+      "SourceNumber": "67428~60361",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -668,7 +668,7 @@
       "Name": "Reinforced Sapphirium Chestguard",
       "Source": "Chest of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67423",
+      "SourceNumber": "67423~60354",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -676,7 +676,7 @@
       "Name": "Reinforced Sapphirium Handguards",
       "Source": "Gauntlets of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67429",
+      "SourceNumber": "67429~60355",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -692,7 +692,7 @@
       "Name": "Reinforced Sapphirium Legguards",
       "Source": "Leggings of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67428",
+      "SourceNumber": "67428~60357",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -708,7 +708,7 @@
       "Name": "Mercurial Handwraps",
       "Source": "Gauntlets of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67429",
+      "SourceNumber": "67429~60275",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -724,7 +724,7 @@
       "Name": "Mercurial Legwraps",
       "Source": "Leggings of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67428",
+      "SourceNumber": "67428~60261",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -732,7 +732,7 @@
       "Name": "Mercurial Robes",
       "Source": "Chest of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67423",
+      "SourceNumber": "67423~60259",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -748,7 +748,7 @@
       "Name": "Mercurial Gloves",
       "Source": "Gauntlets of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67429",
+      "SourceNumber": "67429~60257",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -764,7 +764,7 @@
       "Name": "Mercurial Leggings",
       "Source": "Leggings of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67428",
+      "SourceNumber": "67428~60255",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -772,7 +772,7 @@
       "Name": "Mercurial Vestment",
       "Source": "Chest of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67423",
+      "SourceNumber": "67423~60254",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -788,7 +788,7 @@
       "Name": "Wind Dancer's Tunic",
       "Source": "Chest of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67425",
+      "SourceNumber": "67425~60301",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -796,7 +796,7 @@
       "Name": "Wind Dancer's Gloves",
       "Source": "Gauntlets of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67431",
+      "SourceNumber": "67431~60298",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -812,7 +812,7 @@
       "Name": "Wind Dancer's Legguards",
       "Source": "Leggings of the Forlorn Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "67426",
+      "SourceNumber": "67426~60300",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -828,7 +828,7 @@
       "Name": "Tunic of the Raging Elements",
       "Source": "Chest of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67424",
+      "SourceNumber": "67424~60309",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -836,7 +836,7 @@
       "Name": "Handwraps of the Raging Elements",
       "Source": "Gauntlets of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67430",
+      "SourceNumber": "67430~60312",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -852,7 +852,7 @@
       "Name": "Legwraps of the Raging Elements",
       "Source": "Leggings of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67427",
+      "SourceNumber": "67427~60310",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -868,7 +868,7 @@
       "Name": "Cuirass of the Raging Elements",
       "Source": "Chest of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67424",
+      "SourceNumber": "67424~60318",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -876,7 +876,7 @@
       "Name": "Grips of the Raging Elements",
       "Source": "Gauntlets of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67430",
+      "SourceNumber": "67430~60319",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -892,7 +892,7 @@
       "Name": "Legguards of the Raging Elements",
       "Source": "Leggings of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67427",
+      "SourceNumber": "67427~60321",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -908,7 +908,7 @@
       "Name": "Hauberk of the Raging Elements",
       "Source": "Chest of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67424",
+      "SourceNumber": "67424~60313",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -916,7 +916,7 @@
       "Name": "Gloves of the Raging Elements",
       "Source": "Gauntlets of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67430",
+      "SourceNumber": "67430~60314",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -932,7 +932,7 @@
       "Name": "Kilt of the Raging Elements",
       "Source": "Leggings of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67427",
+      "SourceNumber": "67427~60316",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -948,7 +948,7 @@
       "Name": "Shadowflame Handwraps",
       "Source": "Gauntlets of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67429",
+      "SourceNumber": "67429~60248",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -964,7 +964,7 @@
       "Name": "Shadowflame Leggings",
       "Source": "Leggings of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67428",
+      "SourceNumber": "67428~60250",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -972,7 +972,7 @@
       "Name": "Shadowflame Robes",
       "Source": "Chest of the Forlorn Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "67423",
+      "SourceNumber": "67423~60251",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -988,7 +988,7 @@
       "Name": "Earthen Battleplate",
       "Source": "Chest of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67424",
+      "SourceNumber": "67424~60323",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -996,7 +996,7 @@
       "Name": "Earthen Gauntlets",
       "Source": "Gauntlets of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67430",
+      "SourceNumber": "67430~60326",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -1012,7 +1012,7 @@
       "Name": "Earthen Legplates",
       "Source": "Leggings of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67427",
+      "SourceNumber": "67427~60324",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -1028,7 +1028,7 @@
       "Name": "Earthen Chestguard",
       "Source": "Chest of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67424",
+      "SourceNumber": "67424~60329",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -1036,7 +1036,7 @@
       "Name": "Earthen Handguards",
       "Source": "Gauntlets of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67430",
+      "SourceNumber": "67430~60332",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -1052,7 +1052,7 @@
       "Name": "Earthen Legguards",
       "Source": "Leggings of the Forlorn Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "67427",
+      "SourceNumber": "67427~60330",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },

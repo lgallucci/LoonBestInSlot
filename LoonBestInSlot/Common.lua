@@ -523,7 +523,6 @@ function LBIS.CreateItemRow(f, specItem, specItemSource)
 
         if item == nil or item.Id == nil or item.Link == nil or item.Type == nil then
             LBIS:Error("Failed Load: "..specItem.Id);
-            failedLoad = true;
         end
         --Create Item Button and Text
 
@@ -565,30 +564,60 @@ function LBIS.CreateItemRow(f, specItem, specItemSource)
 
         local dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
 
-        local function showSourceButton(item, text, isSpell)
+        local function showSourceButton(item, item2, text, isSpell)
+			
+			local itemSize = 28;
+			if item2 ~= nil then
+				itemSize = 22;
+			end
+		
             local tb = CreateFrame("Button", nil, f);
-            tb:SetSize(32, 32);
+            tb:SetSize(itemSize, itemSize);
             local bt = tb:CreateTexture();
             bt:SetAllPoints();
             bt:SetTexture(item.Texture);
-            tb:SetPoint("TOPRIGHT", -40, -6);
+            tb:SetPoint("TOPRIGHT", -40, -16);
             LBIS:SetTooltipOnButton(tb, item, isSpell);
 
-            local ft = f:CreateFontString(nil, nil, "GameFontNormalSmall")
-            ft:SetText(text);
-            ft:SetPoint("TOPRIGHT", tb, "TOPLEFT", 0, -3);
+            if item2 ~= nil then                
+                local ft = f:CreateFontString(nil, nil, "GameFontNormalSmall")
+                ft:SetText("+");
+                ft:SetPoint("RIGHT", tb, "LEFT", -1, 0);
+
+                local tb2 = CreateFrame("Button", nil, f);
+                tb2:SetSize(itemSize, itemSize);
+                local bt2 = tb2:CreateTexture();
+                bt2:SetAllPoints();
+                bt2:SetTexture(item2.Texture);
+                tb2:SetPoint("RIGHT", ft, "LEFT", -1, 0);
+                LBIS:SetTooltipOnButton(tb2, item2, isSpell);
+
+                local ft2 = f:CreateFontString(nil, nil, "GameFontNormalSmall")
+                ft2:SetText(text);
+                ft2:SetPoint("BOTTOMLEFT", tb2, "TOPLEFT", 0, 3);
+            else
+                local ft = f:CreateFontString(nil, nil, "GameFontNormalSmall")
+                ft:SetText(text);
+                ft:SetPoint("BOTTOMLEFT", tb, "TOPLEFT", 0, 3);
+            end
         end
 
         if specItemSource.SourceType == LBIS.L["Tier Token"] then
-            local tokenNumber = strsplit('~', specItemSource.SourceNumber);
+            local tokenNumber, tokenNumber2 = strsplit('~', specItemSource.SourceNumber);
             LBIS:GetItemInfo(tonumber(tokenNumber), function(tierToken)
-                showSourceButton(tierToken, "Token:", false);
+                if tokenNumber2 ~= nil and tokenNumber2 ~= tokenNumber then
+                    LBIS:GetItemInfo(tonumber(tokenNumber2), function(tierToken2)
+                        showSourceButton(tierToken, tierToken2, "Token:", false);
+                    end);
+                else                    
+                    showSourceButton(tierToken, nil, "Token:", false);
+                end
             end);
             printItemSource(specItem.Id, specItemSource, dl, false, true)
             dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
         elseif specItemSource.SourceType == LBIS.L["Profession"] and tonumber(specItemSource.SourceLocation) ~= nil then
             LBIS:GetSpellInfo(tonumber(specItemSource.SourceLocation), function(professionSpell)
-                showSourceButton(professionSpell, "Skill:", true);
+                showSourceButton(professionSpell, nil, "Skill:", true);
             end);
             printItemSource(specItem.Id, specItemSource, dl, false, false)
             dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);

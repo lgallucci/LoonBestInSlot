@@ -395,7 +395,7 @@ public static class WowheadImporter
             if (!itemSources.ContainsKey(csvItem.Key))
             {
                 itemSources.Add(csvItem.Key, new ItemSource
-                {                    
+                {
                     ItemId = csvItem.Value.ItemId,
                     Name = csvItem.Value.Name,
                     SourceType = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceType)).Distinct()),
@@ -613,7 +613,7 @@ public static class WowheadImporter
         var tokenKeys = new HashSet<int>();
         foreach (var tierPiece in tierPieces.Items)
         {
-            var tokenKey = Int32.Parse(tierPiece.Value.SourceNumber);
+            var tokenKey = Int32.Parse(tierPiece.Value.SourceNumber.Split("~")[0]);
             if (!tokenKeys.Contains(tokenKey))
             {
                 tokenKeys.Add(tokenKey);

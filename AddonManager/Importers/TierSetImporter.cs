@@ -114,14 +114,6 @@ public class TierSetImporter : LootImporter
                         item = item.Substring(0, itemIdIndex);
                         int.TryParse(item, out itemId);
 
-                        var token = uri.Replace("https://www.wowhead.com/cata/item=", "");
-
-                        var tokenIdIndex = token.IndexOf("/");
-                        if (tokenIdIndex == -1)
-                            tokenIdIndex = token.IndexOf("&");
-                        token = token.Substring(0, tokenIdIndex);
-                        int.TryParse(token, out tokenId);
-
                         var tokenName = doc.QuerySelector(".heading-size-1");
 
                         var sourceFaction = "B";
@@ -134,6 +126,24 @@ public class TierSetImporter : LootImporter
                                 sourceFaction = "A";
                         }
 
+                        var tokens = string.Empty;
+                        Common.RecursiveBoxSearch(row.Children[10], (anchor) => {
+                            var token = anchor.PathName.Replace("/cata/", "/").Replace("/item=", "");
+
+                            var tokenIdIndex = token.IndexOf("/");
+                            if (tokenIdIndex == -1)
+                                tokenIdIndex = token.IndexOf("&");
+                            token = token.Substring(0, tokenIdIndex);
+
+                            if (!string.IsNullOrEmpty(tokens))
+                            {
+                                tokens+="~";
+                            }
+                            tokens += token;
+                            
+                            return false;
+                        });
+
                         if (itemId == 0)
                         {
                             Console.WriteLine("item is 0?");
@@ -145,7 +155,7 @@ public class TierSetImporter : LootImporter
                                 Name = cellAnchor.TextContent,
                                 Source = tokenName?.TextContent ?? string.Empty,
                                 SourceLocation = "unknown",
-                                SourceNumber = tokenId.ToString(),
+                                SourceNumber = tokens,
                                 SourceType = "Tier Token",
                                 SourceFaction = sourceFaction
                             });
