@@ -112,6 +112,7 @@ LBIS:AddItem(spec1, "65071", LBIS.L["Hands"], "Alt") --Plated Fists of Provocati
 LBIS:AddItem(spec1, "65119", LBIS.L["Hands"], "Alt") --Gravitational Pull
 LBIS:AddItem(spec1, "65040", LBIS.L["Waist"], "BIS") --Belt of Absolute Zero
 LBIS:AddItem(spec1, "65369", LBIS.L["Waist"], "Alt") --Sky Strider Belt
+LBIS:AddItem(spec1, "65370", LBIS.L["Waist"], "Alt") --Thunder Wall Belt
 LBIS:AddItem(spec1, "65217", LBIS.L["Legs"], "BIS") --Reinforced Sapphirium Legplates
 LBIS:AddItem(spec1, "65379", LBIS.L["Legs"], "Alt") --Sky Strider Greaves
 LBIS:AddItem(spec1, "65121", LBIS.L["Legs"], "Alt") --Terrastra's Legguards

@@ -238,10 +238,10 @@ public class WowheadGuideParser
         public string Text(ICharacterData text) => text.Data;
     }
 
-public (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, ItemSpec>) ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc, Action<string> logFunc)
+public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, ItemSpec>) ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc, Action<string> logFunc)
     {
         var items = new Dictionary<int, ItemSpec>();
-        var enchants = new Dictionary<string, EnchantSpec>();
+        var enchants = new Dictionary<int, EnchantSpec>();
         var gems = new Dictionary<int, GemSpec>();
 
         bool enchantsAndGems = int.Parse(classGuide.Phase.Replace("Phase", "")) == Constants.CurrentPhase;
@@ -308,7 +308,7 @@ public (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<in
         }
     }
 
-    private void ParseEnchant(IHtmlAnchorElement enchantAnchor, string slot, Dictionary<string, EnchantSpec> enchants)
+    private void ParseEnchant(IHtmlAnchorElement enchantAnchor, string slot, Dictionary<int, EnchantSpec> enchants)
     {
         bool isSpell = false;
         if (enchantAnchor.PathName.Contains("/item="))
@@ -340,24 +340,31 @@ public (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<in
                     textureId = itemId.ToString();
                     itemId = _enchantSwaps[itemId];
                 }
-                if (!enchants.ContainsKey(itemId + slot))
+                if (!enchants.ContainsKey(itemId))
                 {
-                    enchants.Add(itemId + slot, new EnchantSpec
+                    enchants.Add(itemId, new EnchantSpec
                     {
                         EnchantId = itemId,
                         Name = itemName ?? "unknown",
                         Slot = slot,
                         TextureId = textureId
                     });
+                }            
+                else
+                {
+                    if (!enchants[itemId].Slot.Contains(slot))
+                    {
+                        enchants[itemId].Slot = $"{enchants[itemId].Slot}/{slot}";
+                    }
                 }
             }
         }
     }
 
-    internal (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>) ParseGemEnchantsWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc)
+    internal (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>) ParseGemEnchantsWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc)
     {
         var gems = new Dictionary<int, GemSpec>();
-        var enchants = new Dictionary<string, EnchantSpec>();
+        var enchants = new Dictionary<int, EnchantSpec>();
 
         foreach (var heading in classGuide.GuideMappings)
         {
@@ -429,7 +436,7 @@ public (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<in
         });
     }
 
-    private void ParseEnchants(IElement enchantBox, string slot, Dictionary<string, EnchantSpec> enchants)
+    private void ParseEnchants(IElement enchantBox, string slot, Dictionary<int, EnchantSpec> enchants)
     {   
         Common.RecursiveBoxSearch(enchantBox, (enchantAnchor) => 
         {
@@ -470,15 +477,22 @@ public (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<in
                         throw new Exception($"Couldn't find spell for enchant: {itemName}");
                     }
 
-                    if (!enchants.ContainsKey(itemId + slot))
+                    if (!enchants.ContainsKey(itemId))
                     {
-                        enchants.Add(itemId + slot, new EnchantSpec
+                        enchants.Add(itemId, new EnchantSpec
                         {
                             EnchantId = itemId,
                             Name = itemName ?? "unknown",
                             Slot = slot,
                             TextureId = textureId
                         });
+                    }
+                    else
+                    {
+                        if (!enchants[itemId].Slot.Contains(slot))
+                        {
+                            enchants[itemId].Slot = $"{enchants[itemId].Slot}/{slot}";
+                        }
                     }
                 }
             }

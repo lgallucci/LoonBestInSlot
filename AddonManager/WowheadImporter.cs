@@ -35,7 +35,7 @@ public static class WowheadImporter
 
     private static List<string> _allowedSlots = new List<string>()
     { "Head", "Shoulder", "Back", "Chest", "Wrist", "Hands", "Waist", "Legs", "Feet", "Neck", "Ring",
-    "Trinket", "Main Hand", "Off Hand", "Main Hand/Off Hand", "Two Hand", "Ranged/Relic"};
+    "Trinket", "Main Hand", "Off Hand", "Main Hand/Off Hand", "Two Hand", "Main Hand/Two Hand", "Ranged/Relic"};
 
     public static bool VerifyGuide(List<ItemSpec> items)
     {
@@ -146,7 +146,7 @@ public static class WowheadImporter
     private static async Task<string> ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, IHtmlDocument doc, Action<string> logFunc)
     {
         var sb = new StringBuilder();
-        (Dictionary<int, GemSpec>, Dictionary<string, EnchantSpec>, Dictionary<int, ItemSpec>) itemsAndEnchants;
+        (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, ItemSpec>) itemsAndEnchants;
         try
         {
             var className = $"{classGuideMapping.ClassName.Replace(" ", "")}{classGuideMapping.SpecName}";

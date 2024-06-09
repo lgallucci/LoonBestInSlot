@@ -107,8 +107,8 @@ LBIS:AddItem(spec1, "65123", LBIS.L["Ring"], "BIS") --Signet of the Fifth Circle
 LBIS:AddItem(spec1, "65373", LBIS.L["Ring"], "BIS") --Planetary Band
 LBIS:AddItem(spec1, "65076", LBIS.L["Ring"], "Alt") --Security Measure Alpha
 LBIS:AddItem(spec1, "62047", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Volcano
-LBIS:AddItem(spec1, "65110", LBIS.L["Trinket"], "BIS") --Heart of Ignacious
 LBIS:AddItem(spec1, "65105", LBIS.L["Trinket"], "BIS") --Theralion's Mirror
+LBIS:AddItem(spec1, "65110", LBIS.L["Trinket"], "BIS") --Heart of Ignacious
 LBIS:AddItem(spec1, "65053", LBIS.L["Trinket"], "Alt") --Bell of Enraging Resonance
 LBIS:AddItem(spec1, "65041", LBIS.L["Main Hand"], "BIS") --Incineratus
 LBIS:AddItem(spec1, "65090", LBIS.L["Main Hand"], "BIS") --Twilight's Hammer

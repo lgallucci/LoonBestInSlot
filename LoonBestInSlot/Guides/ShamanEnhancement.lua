@@ -120,8 +120,8 @@ LBIS:AddItem(spec1, "65141", LBIS.L["Hands"], "Alt") --Proto-Handler's Gauntlets
 LBIS:AddItem(spec1, "65132", LBIS.L["Waist"], "BIS") --Coil of Ten-Thousand Screams
 LBIS:AddItem(spec1, "65368", LBIS.L["Waist"], "Alt") --Star Chaser Belt
 LBIS:AddItem(spec1, "56539", LBIS.L["Waist"], "Alt") --Corded Viper Belt
-LBIS:AddItem(spec1, "60230", LBIS.L["Legs"], "BIS") --Twilight Scale Leggings
 LBIS:AddItem(spec1, "65252", LBIS.L["Legs"], "BIS") --Legguards of the Raging Elements
+LBIS:AddItem(spec1, "60230", LBIS.L["Legs"], "BIS") --Twilight Scale Leggings
 LBIS:AddItem(spec1, "65049", LBIS.L["Legs"], "Alt") --Leggings of Lethal Force
 LBIS:AddItem(spec1, "65063", LBIS.L["Feet"], "BIS") --Boots of Vertigo
 LBIS:AddItem(spec1, "62385", LBIS.L["Feet"], "Alt") --Treads of Malorne
@@ -146,6 +146,7 @@ LBIS:AddItem(spec1, "62051", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Hurrican
 LBIS:AddItem(spec1, "65024", LBIS.L["Main Hand"], "BIS") --Crul'korak, the Lightning's Arc
 LBIS:AddItem(spec1, "59443", LBIS.L["Main Hand"], "Alt") --Crul'korak, the Lightning's Arc
 LBIS:AddItem(spec1, "63537", LBIS.L["Main Hand"], "Alt") --Claws of Torment
+LBIS:AddItem(spec1, "59462", LBIS.L["Main Hand"], "Alt") --Maimgor's Bite
 LBIS:AddItem(spec1, "64671", LBIS.L["Ranged/Relic"], "BIS") --Relic of Golganneth
 LBIS:AddItem(spec1, "56316", LBIS.L["Ranged/Relic"], "Alt") --Sandshift Relic
 LBIS:AddItem(spec1, "63460", LBIS.L["Ranged/Relic"], "Alt") --Relic of Arathor
