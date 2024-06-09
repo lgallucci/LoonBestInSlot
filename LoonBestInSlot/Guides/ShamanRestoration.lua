@@ -33,11 +33,9 @@ LBIS:AddEnchant(spec1, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
 LBIS:AddEnchant(spec1, "74189", LBIS.L["Feet"]) --Enchant Boots - Earthen Vitality
 LBIS:AddEnchant(spec1, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
 LBIS:AddEnchant(spec1, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect
-LBIS:AddEnchant(spec1, "74242", LBIS.L["Main Hand"]) --Enchant Weapon - Power Torrent
-LBIS:AddEnchant(spec1, "74225", LBIS.L["Main Hand"]) --Enchant Weapon - Heartsong
+LBIS:AddEnchant(spec1, "74242", LBIS.L["Main Hand/Two Hand"]) --Enchant Weapon - Power Torrent
+LBIS:AddEnchant(spec1, "74225", LBIS.L["Main Hand/Two Hand"]) --Enchant Weapon - Heartsong
 LBIS:AddEnchant(spec1, "74235", LBIS.L["Off Hand"]) --Enchant Off-Hand - Superior Intellect
-LBIS:AddEnchant(spec1, "74242", LBIS.L["Two Hand"]) --Enchant Weapon - Power Torrent
-LBIS:AddEnchant(spec1, "74225", LBIS.L["Two Hand"]) --Enchant Weapon - Heartsong
 
 LBIS:AddItem(spec0, "59458", LBIS.L["Head"], "BIS") --Energized Bio-Optic Killshades
 LBIS:AddItem(spec0, "58128", LBIS.L["Head"], "Alt") --Helm of the Inward Eye
