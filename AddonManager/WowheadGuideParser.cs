@@ -349,7 +349,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                         Slot = slot,
                         TextureId = textureId
                     });
-                }            
+                }
                 else
                 {
                     if (!enchants[itemId].Slot.Contains(slot))

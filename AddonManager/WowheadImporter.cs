@@ -169,6 +169,14 @@ public static class WowheadImporter
                     if (!guide.Item2.Any(g => g.EnchantId == enchant.Value.EnchantId))
                     {
                         guide.Item2.Add(enchant.Value);
+                    }                    
+                    else
+                    {
+                        var matchingEnchant = guide.Item2.First(g => g.EnchantId == enchant.Value.EnchantId);
+                        if (!matchingEnchant.Slot.Contains(enchant.Value.Slot))
+                        {
+                            matchingEnchant.Slot += $"/{enchant.Value.Slot}";
+                        }
                     }
                 }
 
