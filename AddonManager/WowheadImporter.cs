@@ -163,22 +163,7 @@ public static class WowheadImporter
                         guide.Item1.Add(await GetGemFromWowhead(gem.Key, logFunc));
                     }
                 }
-
-                foreach(var enchant in itemsAndEnchants.Item2) 
-                {
-                    if (!guide.Item2.Any(g => g.EnchantId == enchant.Value.EnchantId))
-                    {
-                        guide.Item2.Add(enchant.Value);
-                    }                    
-                    else
-                    {
-                        var matchingEnchant = guide.Item2.First(g => g.EnchantId == enchant.Value.EnchantId);
-                        if (!matchingEnchant.Slot.Contains(enchant.Value.Slot))
-                        {
-                            matchingEnchant.Slot += $"/{enchant.Value.Slot}";
-                        }
-                    }
-                }
+                UpdateEnchants(guide.Item2, itemsAndEnchants.Item2);
 
                 if (!guide.Item3.ContainsKey(phaseNumber))
                     guide.Item3.Add(phaseNumber, new List<ItemSpec>());
@@ -203,6 +188,31 @@ public static class WowheadImporter
         }
         VerifyGuide(itemsAndEnchants.Item3.Values.ToList());
         return sb.ToString();
+    }
+
+    private static void UpdateEnchants(List<EnchantSpec> guide, Dictionary<int, EnchantSpec> itemsAndEnchants)
+    {
+        foreach(var enchant in itemsAndEnchants) 
+        {
+            if (!guide.Any(g => g.EnchantId == enchant.Value.EnchantId))
+            {
+                guide.Add(enchant.Value);
+            }
+            else
+            {
+                var matchingEnchant = guide.First(g => g.EnchantId == enchant.Value.EnchantId);
+
+                var newSlotList = enchant.Value.Slot.Split("~")
+                                                    .Union(matchingEnchant.Slot.Split("~")).Distinct()
+                                                    .ToList();
+                newSlotList.Sort((x, y) => {
+                                                return ItemSpec.SortOrder[x] > ItemSpec.SortOrder[y] ? 1 : 
+                                                ItemSpec.SortOrder[x] == ItemSpec.SortOrder[y] ? 0 : -1;
+                                            });
+
+                matchingEnchant.Slot = string.Join("~", newSlotList);
+            }
+        }
     }
 
     public static async Task<GemSpec?> GetGemFromWowhead(int gemId, Action<string> writeToLog)
@@ -265,14 +275,8 @@ public static class WowheadImporter
                         guide.Item1.Add(gem.Value);
                     }
                 }
-
-                foreach(var enchant in gemsEnchants.Item2) 
-                {
-                    if (!guide.Item2.Any(g => g.EnchantId == enchant.Value.EnchantId))
-                    {
-                        guide.Item2.Add(enchant.Value);
-                    }
-                }
+                
+                UpdateEnchants(guide.Item2, gemsEnchants.Item2);
                 
                 WriteGemsInternal(guide.Item1, logFunc);
                 WriteEnchantsInternal(guide.Item2, logFunc);

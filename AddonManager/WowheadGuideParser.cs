@@ -352,10 +352,9 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                 }
                 else
                 {
-                    if (!enchants[itemId].Slot.Contains(slot))
-                    {
-                        enchants[itemId].Slot = $"{enchants[itemId].Slot}/{slot}";
-                    }
+                    var slotList = enchants[itemId].Slot.Split("~").ToList();
+                    slotList.Add(slot);
+                    enchants[itemId].Slot = string.Join("~", slotList.Distinct());
                 }
             }
         }
@@ -489,10 +488,9 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                     }
                     else
                     {
-                        if (!enchants[itemId].Slot.Contains(slot))
-                        {
-                            enchants[itemId].Slot = $"{enchants[itemId].Slot}/{slot}";
-                        }
+                        var slotList = enchants[itemId].Slot.Split("~").ToList();
+                        slotList.Add(slot);
+                        enchants[itemId].Slot = string.Join("~", slotList.Distinct());
                     }
                 }
             }

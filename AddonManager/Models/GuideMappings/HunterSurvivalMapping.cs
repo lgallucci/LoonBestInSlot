@@ -103,7 +103,7 @@ internal class HunterSurvivalMapping : SpecMapping
         { ("Hands", ".box:nth-of-type(10)") },
         { ("Legs", ".box:nth-of-type(11)") },
         { ("Feet", ".box:nth-of-type(12)") },
-        { ("Main Hand", ".box:nth-of-type(13)") },
+        { ("Two Hand", ".box:nth-of-type(13)") },
         { ("Ranged/Relic", ".box:nth-of-type(14)") },
     };
 }

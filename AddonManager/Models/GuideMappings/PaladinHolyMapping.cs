@@ -88,7 +88,7 @@ internal class PaladinHolyMapping : SpecMapping
         { ("Ranged/Relic", "#librams-for-holy-paladin-healer-phase-4") },
     };
 
-    public override string GemsEnchantsUrl => "healer-bis-gear-pve";
+    public override string GemsEnchantsUrl => "healer-enchants-gems-pve";
     public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>
     {
         //Gems

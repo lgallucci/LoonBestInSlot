@@ -100,7 +100,7 @@ internal class PaladinProtectionMapping : SpecMapping
             { ("Ranged/Relic", "h3#librams") },
         };
 
-    public override string GemsEnchantsUrl => "tank-bis-gear-pve";
+    public override string GemsEnchantsUrl => "tank-enchants-gems-pve";
     public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>
     {
         //Gems

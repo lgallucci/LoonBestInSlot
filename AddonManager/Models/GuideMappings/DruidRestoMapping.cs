@@ -114,6 +114,7 @@ internal class DruidRestoMapping : SpecMapping
         { ("Waist", ".box:nth-of-type(11)") },
         { ("Legs", ".box:nth-of-type(12)") },
         { ("Feet", ".box:nth-of-type(13)") },
+        { ("Two Hand", ".box:nth-of-type(14)") },
         { ("Main Hand", ".box:nth-of-type(14)") },
         { ("Off Hand", ".box:nth-of-type(15)") },
         { ("Ring", ".box:nth-of-type(16)") },

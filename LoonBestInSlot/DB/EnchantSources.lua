@@ -25,6 +25,7 @@ LBIS.EnchantSources =
     [74191] = { Name = "Enchant Chest - Mighty Stats", DesignId = "52744", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74198] = { Name = "Enchant Gloves - Haste", DesignId = "52749", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74199] = { Name = "Enchant Boots - Haste", DesignId = "52750", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
+    [74200] = { Name = "Enchant Chest - Stamina", DesignId = "52751", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74201] = { Name = "Enchant Bracer - Critical Strike", DesignId = "42752", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74212] = { Name = "Enchant Gloves - Exceptional Strength", DesignId = "52756", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74213] = { Name = "Enchant Boots - Major Agility", DesignId = "52757", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },

@@ -93,7 +93,7 @@ internal class PaladinRetributionMapping : SpecMapping
         { ("Ranged/Relic", "#librams-for-retribution-paladin-dps") },
     };
 
-    public override string GemsEnchantsUrl => "dps-bis-gear-pve";
+    public override string GemsEnchantsUrl => "dps-enchants-gems-pve";
     public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>
     {
         //Gems

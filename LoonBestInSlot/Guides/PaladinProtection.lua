@@ -2,12 +2,18 @@ local spec0 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "0")
 local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "1")
 
 LBIS:AddGem(spec0, "52293", "3", "True") --Eternal Shadowspirit Diamond
+LBIS:AddGem(spec1, "52294", "3", "True") --Austere Shadowspirit Diamond
+LBIS:AddGem(spec1, "52295", "3", "True") --Effulgent Shadowspirit Diamond
+LBIS:AddGem(spec1, "52289", "3", "True") --Fleet Shadowspirit Diamond
 LBIS:AddGem(spec0, "59480", "3", "False") --Fractured Cogwheel
 LBIS:AddGem(spec0, "59489", "3", "False") --Precise Cogwheel
 LBIS:AddGem(spec0, "52219", "3", "False") --Fractured Amberjewel
 LBIS:AddGem(spec0, "52224", "3", "False") --Keen Ember Topaz
 LBIS:AddGem(spec0, "52231", "3", "False") --Puissant Dream Emerald
 LBIS:AddGem(spec0, "52221", "3", "False") --Guardian's Demonseye
+LBIS:AddGem(spec1, "52242", "3", "False") --Solid Ocean Sapphire
+LBIS:AddGem(spec1, "52237", "3", "False") --Sensei's Dream Emerald
+LBIS:AddGem(spec1, "52230", "3", "False") --Precise Inferno Ruby
 
 LBIS:AddEnchant(spec1, "86931", LBIS.L["Head"]) --Arcanum of the Earthen Ring
 LBIS:AddEnchant(spec1, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
@@ -17,9 +23,12 @@ LBIS:AddEnchant(spec1, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stami
 LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
 LBIS:AddEnchant(spec1, "74239", LBIS.L["Wrist"]) --Enchant Bracer - Greater Expertise
 LBIS:AddEnchant(spec1, "74232", LBIS.L["Wrist"]) --Enchant Bracer - Precision
+LBIS:AddEnchant(spec1, "74200", LBIS.L["Chest"]) --Enchant Chest - Stamina
+LBIS:AddEnchant(spec1, "85007", LBIS.L["Wrist"]) --Draconic Embossment - Stamina
 LBIS:AddEnchant(spec1, "74229", LBIS.L["Wrist"]) --Enchant Bracer - Superior Dodge
 LBIS:AddEnchant(spec1, "82177", LBIS.L["Hands"]) --Quickflip Deflection Plates
 LBIS:AddEnchant(spec1, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
+LBIS:AddEnchant(spec1, "74132", LBIS.L["Hands"]) --Enchant Gloves - Mastery
 LBIS:AddEnchant(spec1, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "101600", LBIS.L["Legs"]) --Drakehide Leg Reinforcements

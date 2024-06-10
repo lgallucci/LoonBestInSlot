@@ -102,7 +102,7 @@ internal class PriestHolyMapping : SpecMapping
         { ("Ranged/Relic", "#wands-for-holy-priest-healer") },
     };
 
-    public override string GemsEnchantsUrl => "healer-bis-gear-pve";
+    public override string GemsEnchantsUrl => "healer-enchants-gems-pve";
     public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>
     {
         //Gems

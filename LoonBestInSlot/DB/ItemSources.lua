@@ -1888,6 +1888,7 @@ LBIS.ItemSources =
     [67429] = { Name = "Gauntlets of the Forlorn Conqueror", SourceType = LBIS.L["Token"], Source = LBIS.L["Atramedes"], SourceNumber = "0", SourceLocation = LBIS.L["Blackwing Descent (Heroic)"], SourceFaction = "B" },
     [67430] = { Name = "Gauntlets of the Forlorn Protector", SourceType = LBIS.L["Token"], Source = LBIS.L["Atramedes"], SourceNumber = "0", SourceLocation = LBIS.L["Blackwing Descent (Heroic)"], SourceFaction = "B" },
     [67431] = { Name = "Gauntlets of the Forlorn Vanquisher", SourceType = LBIS.L["Token"], Source = LBIS.L["Atramedes"], SourceNumber = "0", SourceLocation = LBIS.L["Blackwing Descent (Heroic)"], SourceFaction = "B" },
+    [67447] = { Name = "Vicious Gladiator's Greatsword", SourceType = LBIS.L["PvP"], Source = LBIS.L["Conquest Points"], SourceNumber = "3400", SourceLocation = LBIS.L["Faction PVP Vendor"], SourceFaction = "B" },
     [67602] = { Name = "Elementium Gutslicer", SourceType = LBIS.L["Profession"], Source = LBIS.L["Blacksmithing (515)"], SourceNumber = "0", SourceLocation = "94718", SourceFaction = "B" },
     [67605] = { Name = "Forged Elementium Mindcrusher", SourceType = LBIS.L["Profession"], Source = LBIS.L["Blacksmithing (520)"], SourceNumber = "0", SourceLocation = "94732", SourceFaction = "B" },
     [68049] = { Name = "Heat-Treated Spinning Lure", SourceType = LBIS.L["Profession"], Source = LBIS.L["Engineering (510)"], SourceNumber = "0", SourceLocation = "84430", SourceFaction = "B" },

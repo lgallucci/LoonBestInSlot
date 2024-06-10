@@ -19,7 +19,7 @@ public class ItemSpec : IComparable<ItemSpec>
         { "Main Hand", 12 }, 
         { "Off Hand", 13 },
         { "Two Hand", 14 }, 
-        { "Ranged", 15 },
+        { "Ranged/Relic", 15 },
         { "unknown", 16 } 
     };
 
@@ -28,8 +28,8 @@ public class ItemSpec : IComparable<ItemSpec>
         if (other == null)
             return -1;
 
-        var slot = this.Slot.Split("/").First();
-        var otherSlot = other.Slot.Split("/").First();
+        var slot = this.Slot.Split("~").First();
+        var otherSlot = other.Slot.Split("~").First();
         if (SortOrder[slot] < SortOrder[otherSlot])
         {
             return -1;
@@ -101,7 +101,7 @@ public class EnchantSpec : IComparable<EnchantSpec>
         { "Main Hand", 12 }, 
         { "Off Hand", 13 },
         { "Two Hand", 14 }, 
-        { "Ranged", 15 },
+        { "Ranged/Relic", 15 },
         { "unknown", 16 } 
     };
 
@@ -110,8 +110,8 @@ public class EnchantSpec : IComparable<EnchantSpec>
         if (other == null)
             return -1;
 
-        var slot = this.Slot.Split("/").First();
-        var otherSlot = other.Slot.Split("/").First();
+        var slot = this.Slot.Split("~").First();
+        var otherSlot = other.Slot.Split("~").First();
         if (SortOrder[slot] < SortOrder[otherSlot])
         {
             return -1;

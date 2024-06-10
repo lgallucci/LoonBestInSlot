@@ -107,7 +107,7 @@ internal class PriestShadowMapping : SpecMapping
         { ("Ranged/Relic", "#wands-for-shadow-priest-dps") },
     };
 
-    public override string GemsEnchantsUrl => "dps-bis-gear-pve";
+    public override string GemsEnchantsUrl => "dps-enchants-gems-pve";
     public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>
     {
         //Gems
