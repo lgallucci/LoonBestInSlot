@@ -16,7 +16,6 @@ LBIS:AddEnchant(spec1, "74240", LBIS.L["Back"]) --Enchant Cloak - Greater Intell
 LBIS:AddEnchant(spec1, "52639", LBIS.L["Back"]) --Spring Loaded Cloak Expander
 LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
 LBIS:AddEnchant(spec1, "74191", LBIS.L["Chest"]) --Enchant Chest - Mighty Stats
-LBIS:AddEnchant(spec1, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec1, "96262", LBIS.L["Wrist"]) --Enchant Bracer - Mighty Intellect
 LBIS:AddEnchant(spec1, "85010", LBIS.L["Wrist"]) --Draconic Embossment - Intellect
 LBIS:AddEnchant(spec1, "74237", LBIS.L["Wrist"]) --Enchant Bracer - Exceptional Spirit
@@ -31,10 +30,9 @@ LBIS:AddEnchant(spec1, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "75150", LBIS.L["Legs"]) --Powerful Ghostly Spellthread
 LBIS:AddEnchant(spec1, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
 LBIS:AddEnchant(spec1, "74189", LBIS.L["Feet"]) --Enchant Boots - Earthen Vitality
-LBIS:AddEnchant(spec1, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
 LBIS:AddEnchant(spec1, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect
-LBIS:AddEnchant(spec1, "74242", LBIS.L["Main Hand/Two Hand"]) --Enchant Weapon - Power Torrent
-LBIS:AddEnchant(spec1, "74225", LBIS.L["Main Hand/Two Hand"]) --Enchant Weapon - Heartsong
+LBIS:AddEnchant(spec1, "74242", LBIS.L["Main Hand~Two Hand"]) --Enchant Weapon - Power Torrent
+LBIS:AddEnchant(spec1, "74225", LBIS.L["Main Hand~Two Hand"]) --Enchant Weapon - Heartsong
 LBIS:AddEnchant(spec1, "74235", LBIS.L["Off Hand"]) --Enchant Off-Hand - Superior Intellect
 
 LBIS:AddItem(spec0, "59458", LBIS.L["Head"], "BIS") --Energized Bio-Optic Killshades

@@ -32,14 +32,12 @@ LBIS:AddEnchant(spec1, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
 LBIS:AddEnchant(spec1, "78169", LBIS.L["Legs"]) --Scorched Leg Armor
-LBIS:AddEnchant(spec1, "74252", LBIS.L["Feet"]) --Enchant Boots - Assassin's Step
 LBIS:AddEnchant(spec1, "74213", LBIS.L["Feet"]) --Enchant Boots - Major Agility
 LBIS:AddEnchant(spec1, "74216", LBIS.L["Ring"]) --Enchant Ring - Agility
-LBIS:AddEnchant(spec1, "74246", LBIS.L["Main Hand"]) --Enchant Weapon - Landslide
+LBIS:AddEnchant(spec1, "74246", LBIS.L["Main Hand~Off Hand"]) --Enchant Weapon - Landslide
 LBIS:AddEnchant(spec1, "74223", LBIS.L["Main Hand"]) --Enchant Weapon - Hurricane
 LBIS:AddEnchant(spec1, "59621", LBIS.L["Main Hand"]) --Enchant Weapon - Berserking
 LBIS:AddEnchant(spec1, "8679", LBIS.L["Main Hand"]) --Instant Poison
-LBIS:AddEnchant(spec1, "74246", LBIS.L["Off Hand"]) --Enchant Weapon - Landslide
 LBIS:AddEnchant(spec1, "2823", LBIS.L["Off Hand"]) --Deadly Poison
 
 LBIS:AddItem(spec0, "59455", LBIS.L["Head"], "BIS") --Agile Bio-Optic Killshades

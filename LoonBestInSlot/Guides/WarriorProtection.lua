@@ -14,18 +14,18 @@ LBIS:AddGem(spec0, "52210", "3", "False") --Defender's Demonseye
 LBIS:AddEnchant(spec1, "86931", LBIS.L["Head"]) --Arcanum of the Earthen Ring
 LBIS:AddEnchant(spec1, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
 LBIS:AddEnchant(spec1, "74234", LBIS.L["Back"]) --Enchant Cloak - Protection
+LBIS:AddEnchant(spec1, "55002", LBIS.L["Back"]) --Flexweave Underlay
 LBIS:AddEnchant(spec1, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
-LBIS:AddEnchant(spec1, "55002", LBIS.L["Chest"]) --Flexweave Underlay
 LBIS:AddEnchant(spec1, "85007", LBIS.L["Wrist"]) --Draconic Embossment - Stamina
 LBIS:AddEnchant(spec1, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamina
+LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --Synapse Springs
+LBIS:AddEnchant(spec1, "78166", LBIS.L["Hands"]) --Heavy Savage Armor Kit
 LBIS:AddEnchant(spec1, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
-LBIS:AddEnchant(spec1, "82175", LBIS.L["Waist"]) --Synapse Springs
-LBIS:AddEnchant(spec1, "78166", LBIS.L["Waist"]) --Heavy Savage Armor Kit
+LBIS:AddEnchant(spec1, "84427", LBIS.L["Waist"]) --Grounded Plasma Shield
 LBIS:AddEnchant(spec1, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
+LBIS:AddEnchant(spec1, "55016", LBIS.L["Waist"]) --Nitro Boosts
+LBIS:AddEnchant(spec1, "101600", LBIS.L["Legs"]) --Drakehide Leg Reinforcements
 LBIS:AddEnchant(spec1, "101598", LBIS.L["Legs"]) --Drakehide Leg Armor
-LBIS:AddEnchant(spec1, "84427", LBIS.L["Legs"]) --Grounded Plasma Shield
-LBIS:AddEnchant(spec1, "55016", LBIS.L["Legs"]) --Nitro Boosts
-LBIS:AddEnchant(spec1, "101600", LBIS.L["Feet"]) --Drakehide Leg Reinforcements
 LBIS:AddEnchant(spec1, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
 LBIS:AddEnchant(spec1, "74218", LBIS.L["Ring"]) --Enchant Ring - Greater Stamina
 LBIS:AddEnchant(spec1, "74244", LBIS.L["Main Hand"]) --Enchant Weapon - Windwalk

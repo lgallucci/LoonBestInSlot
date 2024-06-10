@@ -7,6 +7,8 @@ LBIS:AddGem(spec0, "59489", "3", "False") --Precise Cogwheel
 LBIS:AddGem(spec0, "52206", "3", "False") --Bold Inferno Ruby
 LBIS:AddGem(spec0, "52213", "3", "False") --Etched Demonseye
 LBIS:AddGem(spec0, "52240", "3", "False") --Skillful Ember Topaz
+LBIS:AddGem(spec1, "52203", "3", "False") --Accurate Demonseye
+LBIS:AddGem(spec0, "59493", "3", "False") --Rigid Cogwheel
 
 LBIS:AddEnchant(spec1, "86933", LBIS.L["Head"]) --Arcanum of the Wildhammer
 LBIS:AddEnchant(spec1, "86901", LBIS.L["Shoulder"]) --Greater Inscription of Jagged Stone
@@ -78,13 +80,15 @@ LBIS:AddItem(spec0, "56388", LBIS.L["Ring"], "Alt") --Ring of the Darkest Day
 LBIS:AddItem(spec0, "56365", LBIS.L["Ring"], "Alt") --Skyshard Ring
 LBIS:AddItem(spec0, "56299", LBIS.L["Ring"], "Alt") --Signet of Transformation
 LBIS:AddItem(spec0, "62350", LBIS.L["Ring"], "Alt") --Gorsik's Band of Shattering
-LBIS:AddItem(spec0, "62464", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec0, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
+LBIS:AddItem(spec0, "62464", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec0, "52351", LBIS.L["Trinket"], "Alt") --Figurine - King of Boars
 LBIS:AddItem(spec0, "56285", LBIS.L["Trinket"], "Alt") --Might of the Ocean
 LBIS:AddItem(spec0, "56345", LBIS.L["Trinket"], "Alt") --Magnetite Mirror
+LBIS:AddItem(spec0, "67447", LBIS.L["Two Hand"], "BIS") --Vicious Gladiator's Greatsword
 LBIS:AddItem(spec0, "64377", LBIS.L["Two Hand"], "BIS") --Zin'rokh, Destroyer of Worlds
 LBIS:AddItem(spec0, "62454", LBIS.L["Two Hand"], "Alt") --Blade of the Fearless
+LBIS:AddItem(spec0, "61346", LBIS.L["Two Hand"], "Alt") --Vicious Gladiator's Greatsword
 LBIS:AddItem(spec0, "56342", LBIS.L["Two Hand"], "Alt") --Sword of the Bottomless Pit
 LBIS:AddItem(spec0, "65165", LBIS.L["Two Hand"], "Alt") --Foe Reaper
 LBIS:AddItem(spec0, "56456", LBIS.L["Two Hand"], "Alt") --Wild Hammer
@@ -100,6 +104,7 @@ LBIS:AddItem(spec1, "65038", LBIS.L["Head"], "Alt") --Dragon Bone Warhelm
 LBIS:AddItem(spec1, "65130", LBIS.L["Head"], "Alt") --Helm of Maddening Whispers
 LBIS:AddItem(spec1, "65142", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Great Ettin
 LBIS:AddItem(spec1, "65218", LBIS.L["Shoulder"], "Alt") --Reinforced Sapphirium Pauldrons
+LBIS:AddItem(spec1, "60417", LBIS.L["Shoulder"], "Alt") --Vicious Gladiator's Scaled Shoulders
 LBIS:AddItem(spec1, "69879", LBIS.L["Back"], "BIS") --Cloudburst Cloak
 LBIS:AddItem(spec1, "65117", LBIS.L["Back"], "Alt") --Glittering Epidermis
 LBIS:AddItem(spec1, "65214", LBIS.L["Chest"], "BIS") --Reinforced Sapphirium Battleplate
@@ -123,6 +128,7 @@ LBIS:AddItem(spec1, "65025", LBIS.L["Neck"], "Alt") --Rage of Ages
 LBIS:AddItem(spec1, "60226", LBIS.L["Ring"], "BIS") --Dargonax's Signet
 LBIS:AddItem(spec1, "65382", LBIS.L["Ring"], "BIS") --Cloudburst Ring
 LBIS:AddItem(spec1, "65106", LBIS.L["Ring"], "Alt") --Ring of Rivalry
+LBIS:AddItem(spec1, "65372", LBIS.L["Ring"], "Alt") --Permafrost Signet
 LBIS:AddItem(spec1, "62464", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec1, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec1, "65072", LBIS.L["Trinket"], "BIS") --Heart of Rage
@@ -132,6 +138,7 @@ LBIS:AddItem(spec1, "56393", LBIS.L["Trinket"], "Alt") --Heart of Solace
 LBIS:AddItem(spec1, "65003", LBIS.L["Two Hand"], "BIS") --Reclaimed Ashkandi, Greatsword of the Brotherhood
 LBIS:AddItem(spec1, "65007", LBIS.L["Two Hand"], "Alt") --Akirus the Worm-Breaker
 LBIS:AddItem(spec1, "65145", LBIS.L["Two Hand"], "Alt") --Shalug'doom, the Axe of Unmaking
+LBIS:AddItem(spec1, "67447", LBIS.L["Two Hand"], "Alt") --Vicious Gladiator's Greatsword
 LBIS:AddItem(spec1, "63679", LBIS.L["Two Hand"], "Alt") --Reclaimed Ashkandi, Greatsword of the Brotherhood
 LBIS:AddItem(spec1, "64377", LBIS.L["Two Hand"], "Alt") --Zin'rokh, Destroyer of Worlds
 LBIS:AddItem(spec1, "62243", LBIS.L["Ranged/Relic"], "BIS") --Notched Jawbone

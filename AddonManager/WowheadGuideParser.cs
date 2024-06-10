@@ -625,7 +625,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                         {
                             if (!items[itemId].Slot.Contains(slot))
                             {
-                                items[itemId].Slot = $"{items[itemId].Slot}/{slot}";
+                                items[itemId].Slot = $"{items[itemId].Slot}~{slot}";
                                 if (items[itemId].BisStatus != bisStatus)
                                     items[itemId].BisStatus = $"{items[itemId].BisStatus}/{bisStatus}";
                             }
@@ -723,6 +723,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                         }
 
                         if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*enchant").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*enchants").Success ||
                             Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*armor").Success ||
                             Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*scope").Success ||
                             Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*inscription").Success ||

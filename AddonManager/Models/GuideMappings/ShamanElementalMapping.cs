@@ -108,7 +108,7 @@ internal class ShamanElementalMapping : SpecMapping
         { ("Legs", "#legs-enchant-powerful-ghostly-spellthread") },
         { ("Feet", "#boots-enchant-enchant-boots-lavawalker-enchant-boots-haste") },
         { ("Main Hand", "#weapon-enchant-enchant-weapon-power-torrent-enchant-weapon-hurricane") },
-        { ("#Off Hand", "#off-hand-enchant-enchant-off-hand-superior-intellect") },
+        { ("Off Hand", "#off-hand-enchant-enchant-off-hand-superior-intellect") },
         { ("Ring", "#ring-enchant-enchant-ring-intellect") },
     };
 }

@@ -32,8 +32,7 @@ LBIS:AddEnchant(spec1, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
 LBIS:AddEnchant(spec1, "74238", LBIS.L["Feet"]) --Enchant Boots - Mastery
 LBIS:AddEnchant(spec1, "74199", LBIS.L["Feet"]) --Enchant Boots - Haste
 LBIS:AddEnchant(spec1, "74215", LBIS.L["Ring"]) --Enchant Ring - Strength
-LBIS:AddEnchant(spec1, "74246", LBIS.L["Main Hand"]) --Enchant Weapon - Landslide
-LBIS:AddEnchant(spec1, "74246", LBIS.L["Two Hand"]) --Enchant Weapon - Landslide
+LBIS:AddEnchant(spec1, "74246", LBIS.L["Main Hand~Two Hand"]) --Enchant Weapon - Landslide
 
 LBIS:AddItem(spec0, "59359", LBIS.L["Head"], "BIS") --Reinforced Bio-Optic Killshades
 LBIS:AddItem(spec0, "56278", LBIS.L["Head"], "BIS") --Anomuran Helm

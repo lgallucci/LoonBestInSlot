@@ -112,6 +112,6 @@ internal class PaladinRetributionMapping : SpecMapping
         { ("Legs", ".box:nth-of-type(12)") },
         { ("Feet", ".box:nth-of-type(13)") },
         { ("Ring", ".box:nth-of-type(14)") },
-        { ("Main Hand", ".box:nth-of-type(15)") },
+        { ("Two Hand", ".box:nth-of-type(15)") },
     };
 }
