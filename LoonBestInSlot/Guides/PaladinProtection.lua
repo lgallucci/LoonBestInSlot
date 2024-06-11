@@ -21,10 +21,10 @@ LBIS:AddEnchant(spec1, "86402", LBIS.L["Shoulder"]) --Inscription of the Earth P
 LBIS:AddEnchant(spec1, "74234", LBIS.L["Back"]) --Enchant Cloak - Protection
 LBIS:AddEnchant(spec1, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
 LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
-LBIS:AddEnchant(spec1, "74239", LBIS.L["Wrist"]) --Enchant Bracer - Greater Expertise
-LBIS:AddEnchant(spec1, "74232", LBIS.L["Wrist"]) --Enchant Bracer - Precision
 LBIS:AddEnchant(spec1, "74200", LBIS.L["Chest"]) --Enchant Chest - Stamina
 LBIS:AddEnchant(spec1, "85007", LBIS.L["Wrist"]) --Draconic Embossment - Stamina
+LBIS:AddEnchant(spec1, "74239", LBIS.L["Wrist"]) --Enchant Bracer - Greater Expertise
+LBIS:AddEnchant(spec1, "74232", LBIS.L["Wrist"]) --Enchant Bracer - Precision
 LBIS:AddEnchant(spec1, "74229", LBIS.L["Wrist"]) --Enchant Bracer - Superior Dodge
 LBIS:AddEnchant(spec1, "82177", LBIS.L["Hands"]) --Quickflip Deflection Plates
 LBIS:AddEnchant(spec1, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery

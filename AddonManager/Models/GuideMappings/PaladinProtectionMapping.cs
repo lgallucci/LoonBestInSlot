@@ -118,6 +118,7 @@ internal class PaladinProtectionMapping : SpecMapping
         { ("Legs", ".box:nth-of-type(11)") },
         { ("Feet", ".box:nth-of-type(12)") },
         { ("Main Hand", ".box:nth-of-type(13)") },
-        { ("Ring", ".box:nth-of-type(14)") },
+        { ("Off Hand", ".box:nth-of-type(14)") },
+        { ("Ring", ".box:nth-of-type(15)") },
     };
 }

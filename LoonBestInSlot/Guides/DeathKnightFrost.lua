@@ -80,10 +80,10 @@ LBIS:AddItem(spec0, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec0, "56393", LBIS.L["Trinket"], "Alt") --Heart of Solace
 LBIS:AddItem(spec0, "56100", LBIS.L["Trinket"], "Alt") --Right Eye of Rajh
 LBIS:AddItem(spec0, "56345", LBIS.L["Trinket"], "Alt") --Magnetite Mirror
-LBIS:AddItem(spec0, "64885", LBIS.L["Main Hand/Off Hand"], "BIS") --Scimitar of the Sirocco
-LBIS:AddItem(spec0, "65171", LBIS.L["Main Hand/Off Hand"], "Alt") --Cookie's Tenderizer
-LBIS:AddItem(spec0, "68161", LBIS.L["Main Hand/Off Hand"], "Alt") --Krol Decapitator
-LBIS:AddItem(spec0, "56384", LBIS.L["Main Hand/Off Hand"], "Alt") --Resonant Kris
+LBIS:AddItem(spec0, "64885", LBIS.L["Main Hand~Off Hand"], "BIS") --Scimitar of the Sirocco
+LBIS:AddItem(spec0, "65171", LBIS.L["Main Hand~Off Hand"], "Alt") --Cookie's Tenderizer
+LBIS:AddItem(spec0, "68161", LBIS.L["Main Hand~Off Hand"], "Alt") --Krol Decapitator
+LBIS:AddItem(spec0, "56384", LBIS.L["Main Hand~Off Hand"], "Alt") --Resonant Kris
 LBIS:AddItem(spec0, "64377", LBIS.L["Two Hand"], "BIS") --Zin'rokh, Destroyer of Worlds
 LBIS:AddItem(spec0, "56342", LBIS.L["Two Hand"], "Alt") --Sword of the Bottomless Pit
 LBIS:AddItem(spec0, "56456", LBIS.L["Two Hand"], "Alt") --Wild Hammer
@@ -137,9 +137,9 @@ LBIS:AddItem(spec1, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec1, "56393", LBIS.L["Trinket"], "Alt") --Heart of Solace
 LBIS:AddItem(spec1, "65118", LBIS.L["Trinket"], "Alt") --Crushing Weight
 LBIS:AddItem(spec1, "58180", LBIS.L["Trinket"], "Alt") --License to Slay
-LBIS:AddItem(spec1, "65047", LBIS.L["Main Hand/Off Hand"], "BIS") --Lava Spine
+LBIS:AddItem(spec1, "65047", LBIS.L["Main Hand~Off Hand"], "BIS") --Lava Spine
 LBIS:AddItem(spec1, "68131", LBIS.L["Main Hand"], "BIS") --Stormwake, the Tempest's Reach
-LBIS:AddItem(spec1, "64885", LBIS.L["Main Hand/Off Hand"], "Alt") --Scimitar of the Sirocco
+LBIS:AddItem(spec1, "64885", LBIS.L["Main Hand~Off Hand"], "Alt") --Scimitar of the Sirocco
 LBIS:AddItem(spec1, "65036", LBIS.L["Off Hand"], "Alt") --Mace of Acrid Death
 LBIS:AddItem(spec1, "59521", LBIS.L["Off Hand"], "Alt") --Soul Blade
 LBIS:AddItem(spec1, "65003", LBIS.L["Two Hand"], "BIS") --Reclaimed Ashkandi, Greatsword of the Brotherhood

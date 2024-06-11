@@ -35,7 +35,7 @@ public static class WowheadImporter
 
     private static List<string> _allowedSlots = new List<string>()
     { "Head", "Shoulder", "Back", "Chest", "Wrist", "Hands", "Waist", "Legs", "Feet", "Neck", "Ring",
-    "Trinket", "Main Hand", "Off Hand", "Main Hand/Off Hand", "Two Hand", "Main Hand/Two Hand", "Ranged/Relic"};
+    "Trinket", "Main Hand", "Off Hand", "Main Hand~Off Hand", "Two Hand", "Main Hand~Two Hand", "Ranged/Relic"};
 
     public static bool VerifyGuide(List<ItemSpec> items)
     {

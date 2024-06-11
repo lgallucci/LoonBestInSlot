@@ -25,6 +25,7 @@ LBIS:AddEnchant(spec1, "96262", LBIS.L["Wrist"]) --Enchant Bracer - Mighty Intel
 LBIS:AddEnchant(spec1, "85010", LBIS.L["Wrist"]) --Draconic Embossment - Intellect
 LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec1, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
+LBIS:AddEnchant(spec1, "74198", LBIS.L["Hands"]) --Enchant Gloves - Haste
 LBIS:AddEnchant(spec1, "84427", LBIS.L["Waist"]) --Grounded Plasma Shield
 LBIS:AddEnchant(spec1, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec1, "75154", LBIS.L["Legs"]) --Master's Spellthread

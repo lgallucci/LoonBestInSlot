@@ -15,9 +15,10 @@ itemSlotOrder[LBIS.L["Ring"]] = 10;
 itemSlotOrder[LBIS.L["Trinket"]] = 11;
 itemSlotOrder[LBIS.L["Main Hand"]] = 12;
 itemSlotOrder[LBIS.L["Off Hand"]] = 13;
-itemSlotOrder[LBIS.L["Main Hand/Off Hand"]] = 14;
+itemSlotOrder[LBIS.L["Main Hand~Off Hand"]] = 14;
 itemSlotOrder[LBIS.L["Two Hand"]] = 15;
-itemSlotOrder[LBIS.L["Ranged/Relic"]] = 16;
+itemSlotOrder[LBIS.L["Main Hand~Two Hand"]] = 16;
+itemSlotOrder[LBIS.L["Ranged/Relic"]] = 17;
 
 local function itemSortFunction(table, k1, k2)
 
@@ -114,7 +115,7 @@ local function IsNotObsolete(specItem)
 
         local itemId1, itemId2 = -1, -1;
 
-        if specItem.Slot == "Main Hand/Off Hand" then
+        if specItem.Slot == "Main Hand~Off Hand" then
             itemId1 = LBIS.UserSlotCache[slotToWowCodes["Main Hand"]];
             itemId2 = LBIS.UserSlotCache[slotToWowCodes["Off Hand"]];
         else
