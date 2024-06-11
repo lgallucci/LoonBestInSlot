@@ -545,7 +545,7 @@ function LBIS.CreateItemRow(f, specItem, specItemSource)
         end
         type = type.. ", "..specItem.Slot;
         local st = f:CreateFontString(nil, nil,"GameFontNormalGraySmall");
-        st:SetText(type);
+        st:SetText(type:gsub("~", "/"));
         st:SetPoint("BOTTOMLEFT", b, "BOTTOMRIGHT", 2, 2);
 
         local pt = f:CreateFontString(nil, nil, "GameFontNormal");

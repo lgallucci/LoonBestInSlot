@@ -148,19 +148,19 @@ function LBIS.EnchantList:UpdateItems()
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
 
         local specEnchants = LBIS.EnchantsBySpecAndId[LBIS.NameToSpecId[LBISSettings.SelectedSpec]];
-                
+
         if specEnchants == nil then
             LBIS.BrowserWindow.Window.ShowUnavailable();
         end
 
         for enchantId, specEnchant in LBIS:spairs(specEnchants, itemSortFunction) do
-        
+
             local specEnchantSource = LBIS.EnchantSources[specEnchant.Id];
-    
+
             if specEnchantSource == nil then
                 LBIS:Error("Missing Enchant source: ", specEnchant);
             else
-                if IsInSlot(specEnchant) then
+                if LBIS:IsInSlot(specEnchant) then
                     point = LBIS.BrowserWindow:CreateItemRow(specEnchant, specEnchantSource, LBISSettings.SelectedSpec.."_"..specEnchantSource.Name.."_"..specEnchant.Id, point, createItemRow)
                 end
             end
