@@ -89,9 +89,9 @@ LBIS:AddItem(spec1, "65266", LBIS.L["Head"], "BIS") --Earthen Helmet
 LBIS:AddItem(spec1, "60325", LBIS.L["Head"], "Alt") --Earthen Helmet
 LBIS:AddItem(spec1, "65130", LBIS.L["Head"], "Alt") --Helm of Maddening Whispers
 LBIS:AddItem(spec1, "59359", LBIS.L["Head"], "Alt") --Reinforced Bio-Optic Killshades
-LBIS:AddItem(spec1, "65273", LBIS.L["Shoulder"], "BIS") --Earthen Shoulderguards
+LBIS:AddItem(spec1, "65268", LBIS.L["Shoulder"], "BIS") --Earthen Pauldrons
+LBIS:AddItem(spec1, "60327", LBIS.L["Shoulder"], "Alt") --Earthen Pauldrons
 LBIS:AddItem(spec1, "65142", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Great Ettin
-LBIS:AddItem(spec1, "60331", LBIS.L["Shoulder"], "Alt") --Earthen Shoulderguards
 LBIS:AddItem(spec1, "65117", LBIS.L["Back"], "BIS") --Glittering Epidermis
 LBIS:AddItem(spec1, "69834", LBIS.L["Back"], "Alt") --Cloudburst Cloak
 LBIS:AddItem(spec1, "67140", LBIS.L["Back"], "Alt") --Drape of Inimitable Fate
