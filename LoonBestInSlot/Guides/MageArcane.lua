@@ -117,6 +117,7 @@ LBIS:AddItem(spec1, "60244", LBIS.L["Chest"], "Alt") --Firelord's Robes
 LBIS:AddItem(spec1, "56311", LBIS.L["Chest"], "Alt") --Inquisition Robes
 LBIS:AddItem(spec1, "58153", LBIS.L["Chest"], "Alt") --Robes of Embalmed Darkness
 LBIS:AddItem(spec1, "65138", LBIS.L["Wrist"], "BIS") --Bracers of the Bronze Flight
+LBIS:AddItem(spec1, "60211", LBIS.L["Wrist"], "Alt") --Bracers of the Dark Pool
 LBIS:AddItem(spec1, "56389", LBIS.L["Wrist"], "Alt") --Sand Silk Wristband
 LBIS:AddItem(spec1, "63484", LBIS.L["Wrist"], "Alt") --Armbands of Exiled Architects
 LBIS:AddItem(spec1, "65209", LBIS.L["Hands"], "BIS") --Firelord's Gloves
