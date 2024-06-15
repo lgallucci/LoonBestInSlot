@@ -125,6 +125,7 @@ LBIS:AddItem(spec1, "65075", LBIS.L["Feet"], "BIS") --Massacre Treads
 LBIS:AddItem(spec1, "58195", LBIS.L["Feet"], "Alt") --Woe Breeder's Boots
 LBIS:AddItem(spec1, "60227", LBIS.L["Neck"], "BIS") --Caelestrasz's Will
 LBIS:AddItem(spec1, "65025", LBIS.L["Neck"], "Alt") --Rage of Ages
+LBIS:AddItem(spec1, "69885", LBIS.L["Neck"], "Alt") --Cloudburst Necklace
 LBIS:AddItem(spec1, "60226", LBIS.L["Ring"], "BIS") --Dargonax's Signet
 LBIS:AddItem(spec1, "65382", LBIS.L["Ring"], "BIS") --Cloudburst Ring
 LBIS:AddItem(spec1, "65106", LBIS.L["Ring"], "Alt") --Ring of Rivalry
