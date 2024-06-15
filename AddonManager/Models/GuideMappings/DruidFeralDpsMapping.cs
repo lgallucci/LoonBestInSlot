@@ -34,9 +34,11 @@ internal class DruidFeralDpsMapping: SpecMapping
             { ("Ranged/Relic", "#idol") },
         };
 
-    public override string Phase4Url => "dps-bis-gear-pve-phase-4";
+    public override string Phase4Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
+            { ("Two Hand", "#weapons") },
+            { ("Ranged/Relic", "#idol") },
         };
 
     public override string Phase5Url => "dps-bis-gear-pve-phase-5";

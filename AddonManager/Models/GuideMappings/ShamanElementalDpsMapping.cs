@@ -35,9 +35,12 @@ internal class ShamanElementalDpsMapping : SpecMapping
             { ("Ranged/Relic", "#relics") },
         };
 
-    public override string Phase4Url => "dps-bis-gear-pve-phase-4";
+    public override string Phase4Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
+            { ("Main Hand", "h3#main-hand") },
+            { ("Off Hand", "h3#off-hand") },
+            { ("Ranged/Relic", "#relics") },
         };
 
     public override string Phase5Url => "dps-bis-gear-pve-phase-5";

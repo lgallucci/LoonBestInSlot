@@ -38,9 +38,13 @@ internal class DruidHealerMapping : SpecMapping
             { ("Ranged/Relic", "#idol") },
         };
 
-    public override string Phase4Url => "healer-bis-gear-pve-phase-4";
+    public override string Phase4Url => "healer-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
+            { ("Main Hand", "h3#main-hand") },
+            { ("Off Hand", "h3#off-hand") },
+            { ("Two Hand", "h3#two-handed") },
+            { ("Ranged/Relic", "#idol") },
         };
 
     public override string Phase5Url => "healer-bis-gear-pve-phase-5";
