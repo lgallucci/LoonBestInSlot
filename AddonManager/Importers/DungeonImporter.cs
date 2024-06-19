@@ -65,31 +65,35 @@ public class DungeonImporter : LootImporter
         "War Master Voone", "Mor Grayhoof", "Bannok Grimaxe", "Mother Smolderweb", "Crystal Fang (Rare)",
         "Urok Doomhowl", "Quartermaster Zigris", "Halycon", "Gizrul the Slavener", "Overlord Wyrmthalak", "Alliance LBRS Quests"}) },
 
-        // { @"https://www.wowhead.com/classic/guide/upper-blackrock-spire-ubrs-dungeon-strategy-wow-classic", ("Upper Blackrock Spire", 
-        // new List<string>{"Pyroguard Emberseer","The Rookery - Father Flame", "Goraluk Anvilcrack", "Jed Runewatcher", "Warchief Rend Blackhand", 
-        // "The Beast", "Lord Valthalak", "General Drakkisath"}) },
+        { @"https://www.wowhead.com/classic/guide/upper-blackrock-spire-ubrs-dungeon-strategy-wow-classic", ("Upper Blackrock Spire", 
+        new List<string>{"Pyroguard Emberseer","The Rookery - Father Flame", "Goraluk Anvilcrack", "Jed Runewatcher", "Warchief Rend Blackhand", 
+        "The Beast", "Lord Valthalak", "General Drakkisath", "Horde UBRS Quests"}) },
 
-        // { @"https://www.wowhead.com/classic/guide/scholomance-dungeon-strategy-wow-classic", ("Scholomance", 
-        // new List<string>{"Blood Steward of Kirtonos","Kirtonos the Herald","Jandice Barov","Rattlegore","Marduk Blackpool",
-        // "Vectus","Ras Frostwhisper","Kormok","Instructor Malicia","Doctor Theolen Krastinov <The Butcher>","Lorekeeper Polkelt","The Ravenian",
-        // "Lord Alexei Barov","Lady Illucia Barov", "Darkmaster Gandling", "Noteworthy Trash Mobs in Scholomance"})},
+        { @"https://www.wowhead.com/classic/guide/scholomance-dungeon-strategy-wow-classic", ("Scholomance", 
+        new List<string>{"Blood Steward of Kirtonos","Kirtonos the Herald","Jandice Barov","Rattlegore","Marduk Blackpool",
+        "Vectus","Ras Frostwhisper","Kormok","Instructor Malicia","Doctor Theolen Krastinov <The Butcher>","Lorekeeper Polkelt","The Ravenian",
+        "Lord Alexei Barov","Lady Illucia Barov", "Darkmaster Gandling", "Noteworthy Trash Mobs in Scholomance"})},
 
-        //{ @"https://www.wowhead.com/classic/guide/stratholme-live-dungeon-strategy-wow-classic", ("Stratholme Live", 
-        //new List<string>{"","",})},// Fix
+        { @"https://www.wowhead.com/classic/guide/stratholme-live-dungeon-strategy-wow-classic", ("Stratholme Live", 
+        new List<string>{"Skul (rare)","Hearthsinger Forresten (rare)","The Unforgiven","Balzaphon (scourge event only)",
+        "Postmaster Malown","Timmy the Cruel","Cannon Master Willey","Archivist Galford","Grand Crusader Dathrohan/Balnazzar",
+        "Jarien and Sothos","Noteworthy Stratholme Live BoE Loot",})},
 
-        //{ @"https://www.wowhead.com/classic/guide/stratholme-undead-dungeon-strategy-wow-classic", ("Stratholme Undead", 
-        //new List<string>{"","",})},// Fix
+        { @"https://www.wowhead.com/classic/guide/stratholme-undead-dungeon-strategy-wow-classic", ("Stratholme Undead", 
+        new List<string>{"Magistrate Barthilas","Stonespine (Rare Spawn)","Nerub'enkan","Baroness Anastari","Maleki the Pallid",
+        "Ramstein the Gorger","Baron Rivendare","Noteworthy Stratholme Undead BoE Loot"})},
 
-        // { @"https://www.wowhead.com/classic/guide/dire-maul-east-dungeon-strategy-wow-classic", ("Dire Maul East", 
-        // new List<string>{"Pusillin","Lethtendris","Hydrospawn","Zevrim Thornhoof","Alzzin the Wildshaper","Isalien"})}, //Figure out dealing with Isalien
+        { @"https://www.wowhead.com/classic/guide/dire-maul-east-dungeon-strategy-wow-classic", ("Dire Maul East", 
+        new List<string>{"Pusillin","Lethtendris","Hydrospawn","Zevrim Thornhoof","Alzzin the Wildshaper",
+        "Isalien", "ABOUT THE AUTHOR"})},
 
-        // { @"https://www.wowhead.com/classic/guide/dire-maul-west-dungeon-strategy-wow-classic", ("Dire Maul West", 
-        // new List<string>{"Tendris Warpwood","Magister Kalendris","Tzu'see","Illyanna Ravenoak","Immol'thar","Prince Tortheldrin",
-        // "Lord Hel'nurath", "ABOUT THE AUTHOR"})},
+        { @"https://www.wowhead.com/classic/guide/dire-maul-west-dungeon-strategy-wow-classic", ("Dire Maul West", 
+        new List<string>{"Tendris Warpwood","Magister Kalendris","Tzu'see","Illyanna Ravenoak","Immol'thar","Prince Tortheldrin",
+        "Lord Hel'nurath", "ABOUT THE AUTHOR"})},
 
-        // { @"https://www.wowhead.com/classic/guide/dire-maul-north-dungeon-strategy-wow-classic", ("Dire Maul North", 
-        // new List<string>{"Guard Mol'dar", "Stomper Kreeg", "Guard Fengus", "Guard Slip'kik", "Captain Kromcrush", 
-        // "King Gordok & Cho'Rush the Observer", "Gordok Tribute", "Tribute Buffs"})}
+        { @"https://www.wowhead.com/classic/guide/dire-maul-north-dungeon-strategy-wow-classic", ("Dire Maul North", 
+        new List<string>{"Guard Mol'dar", "Stomper Kreeg", "Guard Fengus", "Guard Slip'kik", "Captain Kromcrush", 
+        "King Gordok & Cho'Rush the Observer", "Gordok Tribute", "Tribute Buffs"})}
     };
 
     private HashSet<int> _excludedIds = new HashSet<int>()
@@ -101,7 +105,7 @@ public class DungeonImporter : LootImporter
     internal override string FileName { get => "DungeonItemList"; }
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
-        items.Items.Clear();
+        //items.Items.Clear();
 
         await Common.LoadFromWebPages(dungeonUriList.Keys.ToList(), (uri, doc) =>
         {
