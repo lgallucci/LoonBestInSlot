@@ -65,6 +65,7 @@ LBIS:AddItem(spec0, "67141", LBIS.L["Legs"], "Alt") --Corefire Legplates
 LBIS:AddItem(spec0, "56367", LBIS.L["Legs"], "Alt") --Legguards of Winnowing Wind
 LBIS:AddItem(spec0, "58097", LBIS.L["Legs"], "Alt") --Greaves of Gallantry
 LBIS:AddItem(spec0, "58195", LBIS.L["Feet"], "BIS") --Woe Breeder's Boots
+LBIS:AddItem(spec0, "62432", LBIS.L["Feet"], "Alt") --Gryphon Rider's Boots
 LBIS:AddItem(spec0, "62418", LBIS.L["Feet"], "Alt") --Boots of Sullen Rock
 LBIS:AddItem(spec0, "56381", LBIS.L["Feet"], "Alt") --Greaves of Wu the Elder
 LBIS:AddItem(spec0, "62382", LBIS.L["Feet"], "Alt") --Waywatcher's Boots
@@ -80,8 +81,8 @@ LBIS:AddItem(spec0, "56388", LBIS.L["Ring"], "Alt") --Ring of the Darkest Day
 LBIS:AddItem(spec0, "56365", LBIS.L["Ring"], "Alt") --Skyshard Ring
 LBIS:AddItem(spec0, "56299", LBIS.L["Ring"], "Alt") --Signet of Transformation
 LBIS:AddItem(spec0, "62350", LBIS.L["Ring"], "Alt") --Gorsik's Band of Shattering
-LBIS:AddItem(spec0, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec0, "62464", LBIS.L["Trinket"], "BIS") --Impatience of Youth
+LBIS:AddItem(spec0, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec0, "52351", LBIS.L["Trinket"], "Alt") --Figurine - King of Boars
 LBIS:AddItem(spec0, "56285", LBIS.L["Trinket"], "Alt") --Might of the Ocean
 LBIS:AddItem(spec0, "56345", LBIS.L["Trinket"], "Alt") --Magnetite Mirror
@@ -133,6 +134,7 @@ LBIS:AddItem(spec1, "65372", LBIS.L["Ring"], "Alt") --Permafrost Signet
 LBIS:AddItem(spec1, "62464", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec1, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec1, "65072", LBIS.L["Trinket"], "BIS") --Heart of Rage
+LBIS:AddItem(spec1, "59224", LBIS.L["Trinket"], "Alt") --Heart of Rage
 LBIS:AddItem(spec1, "58180", LBIS.L["Trinket"], "Alt") --License to Slay
 LBIS:AddItem(spec1, "65118", LBIS.L["Trinket"], "Alt") --Crushing Weight
 LBIS:AddItem(spec1, "56393", LBIS.L["Trinket"], "Alt") --Heart of Solace

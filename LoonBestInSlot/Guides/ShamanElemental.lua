@@ -114,7 +114,8 @@ LBIS:AddItem(spec0, "62244", LBIS.L["Ranged/Relic"], "Alt") --Tattooed Eyeball
 LBIS:AddItem(spec1, "65256", LBIS.L["Head"], "BIS") --Headpiece of the Raging Elements
 LBIS:AddItem(spec1, "65136", LBIS.L["Head"], "Alt") --Helm of the Nether Scion
 LBIS:AddItem(spec1, "59458", LBIS.L["Head"], "Alt") --Energized Bio-Optic Killshades
-LBIS:AddItem(spec1, "65258", LBIS.L["Shoulder"], "BIS") --Shoulderwraps of the Raging Elements
+LBIS:AddItem(spec1, "65248", LBIS.L["Shoulder"], "BIS") --Mantle of the Raging Elements
+LBIS:AddItem(spec1, "65258", LBIS.L["Shoulder"], "Alt") --Shoulderwraps of the Raging Elements
 LBIS:AddItem(spec1, "65114", LBIS.L["Shoulder"], "Alt") --Feludius' Mantle
 LBIS:AddItem(spec1, "60317", LBIS.L["Shoulder"], "Alt") --Shoulderwraps of the Raging Elements
 LBIS:AddItem(spec1, "63452", LBIS.L["Shoulder"], "Alt") --Burden of Lost Humanity
@@ -124,8 +125,8 @@ LBIS:AddItem(spec1, "69881", LBIS.L["Back"], "Alt") --Planetary Drape
 LBIS:AddItem(spec1, "65018", LBIS.L["Back"], "Alt") --Shadow of Dread
 LBIS:AddItem(spec1, "67131", LBIS.L["Back"], "Alt") --Ritssyn's Ruminous Drape
 LBIS:AddItem(spec1, "58194", LBIS.L["Back"], "Alt") --Heavenly Breeze
-LBIS:AddItem(spec1, "65004", LBIS.L["Chest"], "BIS") --Circuit Design Breastplate
-LBIS:AddItem(spec1, "65254", LBIS.L["Chest"], "Alt") --Hauberk of the Raging Elements
+LBIS:AddItem(spec1, "65254", LBIS.L["Chest"], "BIS") --Hauberk of the Raging Elements
+LBIS:AddItem(spec1, "65004", LBIS.L["Chest"], "Alt") --Circuit Design Breastplate
 LBIS:AddItem(spec1, "56563", LBIS.L["Chest"], "Alt") --Twilight Scale Chestguard
 LBIS:AddItem(spec1, "65068", LBIS.L["Wrist"], "BIS") --Chaos Beast Bracers
 LBIS:AddItem(spec1, "59310", LBIS.L["Wrist"], "Alt") --Chaos Beast Bracers
@@ -144,14 +145,14 @@ LBIS:AddItem(spec1, "60201", LBIS.L["Legs"], "Alt") --Phase-Twister Leggings
 LBIS:AddItem(spec1, "60235", LBIS.L["Feet"], "BIS") --Boots of Az'galada
 LBIS:AddItem(spec1, "65033", LBIS.L["Feet"], "Alt") --Treads of Flawless Creation
 LBIS:AddItem(spec1, "62363", LBIS.L["Feet"], "Alt") --Earthmender's Boots
+LBIS:AddItem(spec1, "65112", LBIS.L["Neck"], "BIS") --Valiona's Medallion
 LBIS:AddItem(spec1, "69882", LBIS.L["Neck"], "BIS") --Planetary Amulet
-LBIS:AddItem(spec1, "65134", LBIS.L["Neck"], "BIS") --Wyrmbreaker's Amulet
-LBIS:AddItem(spec1, "65112", LBIS.L["Neck"], "Alt") --Valiona's Medallion
+LBIS:AddItem(spec1, "65134", LBIS.L["Neck"], "Alt") --Wyrmbreaker's Amulet
 LBIS:AddItem(spec1, "67130", LBIS.L["Neck"], "Alt") --Dorian's Lost Necklace
 LBIS:AddItem(spec1, "62416", LBIS.L["Neck"], "Alt") --Yellow Smoke Pendant
 LBIS:AddItem(spec1, "65123", LBIS.L["Ring"], "BIS") --Signet of the Fifth Circle
 LBIS:AddItem(spec1, "65373", LBIS.L["Ring"], "BIS") --Planetary Band
-LBIS:AddItem(spec1, "65076", LBIS.L["Ring"], "Alt") --Security Measure Alpha
+LBIS:AddItem(spec1, "65076", LBIS.L["Ring"], "BIS") --Security Measure Alpha
 LBIS:AddItem(spec1, "58189", LBIS.L["Ring"], "Alt") --Twined Band of Flowers
 LBIS:AddItem(spec1, "64904", LBIS.L["Ring"], "Alt") --Ring of the Boy Emperor
 LBIS:AddItem(spec1, "58188", LBIS.L["Ring"], "Alt") --Band of Secret Names
@@ -163,6 +164,7 @@ LBIS:AddItem(spec1, "65017", LBIS.L["Main Hand"], "BIS") --Andoros, Fist of the 
 LBIS:AddItem(spec1, "65041", LBIS.L["Main Hand"], "Alt") --Incineratus
 LBIS:AddItem(spec1, "65090", LBIS.L["Main Hand"], "Alt") --Twilight's Hammer
 LBIS:AddItem(spec1, "65091", LBIS.L["Main Hand"], "Alt") --Blade of the Witching Hour
+LBIS:AddItem(spec1, "65133", LBIS.L["Off Hand"], "BIS") --Book of Binding Will
 LBIS:AddItem(spec1, "65052", LBIS.L["Off Hand"], "BIS") --Kingdom's Heart
 LBIS:AddItem(spec1, "55070", LBIS.L["Off Hand"], "Alt") --Elementium Stormshield
 LBIS:AddItem(spec1, "56402", LBIS.L["Off Hand"], "Alt") --Zora's Ward
