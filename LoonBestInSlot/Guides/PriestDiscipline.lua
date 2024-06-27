@@ -256,21 +256,22 @@ LBIS:AddItem(spec1, "58189", LBIS.L["Ring"], "Alt") --Twined Band of Flowers
 LBIS:AddItem(spec1, "65124", LBIS.L["Trinket"], "BIS") --Fall of Mortality
 LBIS:AddItem(spec1, "60233", LBIS.L["Trinket"], "BIS") --Shard of Woe
 LBIS:AddItem(spec1, "65105", LBIS.L["Trinket"], "Alt") --Theralion's Mirror
-LBIS:AddItem(spec1, "59500", LBIS.L["Trinket"], "Alt") --Fall of Mortality
-LBIS:AddItem(spec1, "59519", LBIS.L["Trinket"], "Alt") --Theralion's Mirror
 LBIS:AddItem(spec1, "62050", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Tsunami
+LBIS:AddItem(spec1, "59500", LBIS.L["Trinket"], "Alt") --Fall of Mortality
 LBIS:AddItem(spec1, "64645", LBIS.L["Trinket"], "Alt") --Tyrande's Favorite Doll
 LBIS:AddItem(spec1, "68777", LBIS.L["Trinket"], "Alt") --Vibrant Alchemist Stone
+LBIS:AddItem(spec1, "59519", LBIS.L["Trinket"], "Alt") --Theralion's Mirror
 LBIS:AddItem(spec1, "58184", LBIS.L["Trinket"], "Alt") --Core of Ripeness
 LBIS:AddItem(spec1, "65029", LBIS.L["Trinket"], "Alt") --Jar of Ancient Remedies
 LBIS:AddItem(spec1, "59354", LBIS.L["Trinket"], "Alt") --Jar of Ancient Remedies
 LBIS:AddItem(spec1, "65090", LBIS.L["Main Hand"], "BIS") --Twilight's Hammer
 LBIS:AddItem(spec1, "65041", LBIS.L["Main Hand"], "Alt") --Incineratus
 LBIS:AddItem(spec1, "65017", LBIS.L["Main Hand"], "Alt") --Andoros, Fist of the Dragon King
-LBIS:AddItem(spec1, "63536", LBIS.L["Main Hand"], "Alt") --Blade of the Witching Hour
+LBIS:AddItem(spec1, "65091", LBIS.L["Main Hand"], "Alt") --Blade of the Witching Hour
 LBIS:AddItem(spec1, "63680", LBIS.L["Main Hand"], "Alt") --Twilight's Hammer
 LBIS:AddItem(spec1, "59341", LBIS.L["Main Hand"], "Alt") --Incineratus
 LBIS:AddItem(spec1, "59459", LBIS.L["Main Hand"], "Alt") --Andoros, Fist of the Dragon King
+LBIS:AddItem(spec1, "63536", LBIS.L["Main Hand"], "Alt") --Blade of the Witching Hour
 LBIS:AddItem(spec1, "65111", LBIS.L["Off Hand"], "BIS") --Scepter of Ice
 LBIS:AddItem(spec1, "59513", LBIS.L["Off Hand"], "Alt") --Scepter of Ice
 LBIS:AddItem(spec1, "67149", LBIS.L["Off Hand"], "Alt") --Heartbound Tome

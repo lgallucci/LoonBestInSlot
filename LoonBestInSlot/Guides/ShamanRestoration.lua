@@ -48,18 +48,21 @@ LBIS:AddItem(spec0, "56267", LBIS.L["Back"], "Alt") --Periwinkle Cloak
 LBIS:AddItem(spec0, "56434", LBIS.L["Back"], "Alt") --Solar Wind Cloak
 LBIS:AddItem(spec0, "63448", LBIS.L["Back"], "Alt") --Springvale's Cloak
 LBIS:AddItem(spec0, "56450", LBIS.L["Back"], "Alt") --Azureborne Cloak
-LBIS:AddItem(spec0, "56563", LBIS.L["Chest"], "BIS") --Twilight Scale Chestguard
+LBIS:AddItem(spec0, "60309", LBIS.L["Chest"], "BIS") --Tunic of the Raging Elements
+LBIS:AddItem(spec0, "56563", LBIS.L["Chest"], "Alt") --Twilight Scale Chestguard
 LBIS:AddItem(spec0, "58126", LBIS.L["Chest"], "Alt") --Vest of the Waking Dream
 LBIS:AddItem(spec0, "56274", LBIS.L["Chest"], "Alt") --Chromis Chestpiece
 LBIS:AddItem(spec0, "63486", LBIS.L["Wrist"], "BIS") --Shackles of the Betrayed
 LBIS:AddItem(spec0, "56313", LBIS.L["Wrist"], "Alt") --Manacles of Pain
-LBIS:AddItem(spec0, "63475", LBIS.L["Hands"], "BIS") --Old Friend's Gloves
+LBIS:AddItem(spec0, "60312", LBIS.L["Hands"], "BIS") --Handwraps of the Raging Elements
+LBIS:AddItem(spec0, "63475", LBIS.L["Hands"], "Alt") --Old Friend's Gloves
 LBIS:AddItem(spec0, "58130", LBIS.L["Hands"], "Alt") --Gleaning Gloves
 LBIS:AddItem(spec0, "56383", LBIS.L["Hands"], "Alt") --Ionic Gloves
 LBIS:AddItem(spec0, "56538", LBIS.L["Waist"], "BIS") --Stormleather Sash
 LBIS:AddItem(spec0, "62445", LBIS.L["Waist"], "Alt") --Sash of Prophecy
 LBIS:AddItem(spec0, "57917", LBIS.L["Waist"], "Alt") --Belt of the Still Stream
-LBIS:AddItem(spec0, "67148", LBIS.L["Legs"], "BIS") --Kilt of Trollish Dreams
+LBIS:AddItem(spec0, "60310", LBIS.L["Legs"], "BIS") --Legwraps of the Raging Elements
+LBIS:AddItem(spec0, "67148", LBIS.L["Legs"], "Alt") --Kilt of Trollish Dreams
 LBIS:AddItem(spec0, "60201", LBIS.L["Legs"], "Alt") --Phase-Twister Leggings
 LBIS:AddItem(spec0, "62380", LBIS.L["Legs"], "Alt") --Wilderness Legguards
 LBIS:AddItem(spec0, "62363", LBIS.L["Feet"], "BIS") --Earthmender's Boots
