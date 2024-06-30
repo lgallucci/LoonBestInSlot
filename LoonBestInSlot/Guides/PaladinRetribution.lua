@@ -118,8 +118,8 @@ LBIS:AddItem(spec1, "65215", LBIS.L["Hands"], "BIS") --Reinforced Sapphirium Gau
 LBIS:AddItem(spec1, "65071", LBIS.L["Hands"], "Alt") --Plated Fists of Provocation
 LBIS:AddItem(spec1, "60414", LBIS.L["Hands"], "Alt") --Vicious Gladiator's Scaled Gauntlets
 LBIS:AddItem(spec1, "65119", LBIS.L["Hands"], "Alt") --Gravitational Pull
-LBIS:AddItem(spec1, "65369", LBIS.L["Waist"], "BIS") --Sky Strider Belt
-LBIS:AddItem(spec1, "65040", LBIS.L["Waist"], "Alt") --Belt of Absolute Zero
+LBIS:AddItem(spec1, "65040", LBIS.L["Waist"], "BIS") --Belt of Absolute Zero
+LBIS:AddItem(spec1, "65369", LBIS.L["Waist"], "Alt") --Sky Strider Belt
 LBIS:AddItem(spec1, "65370", LBIS.L["Waist"], "Alt") --Thunder Wall Belt
 LBIS:AddItem(spec1, "65217", LBIS.L["Legs"], "BIS") --Reinforced Sapphirium Legplates
 LBIS:AddItem(spec1, "65379", LBIS.L["Legs"], "Alt") --Sky Strider Greaves
@@ -128,7 +128,7 @@ LBIS:AddItem(spec1, "65075", LBIS.L["Feet"], "BIS") --Massacre Treads
 LBIS:AddItem(spec1, "59464", LBIS.L["Feet"], "Alt") --Treads of Savage Beatings
 LBIS:AddItem(spec1, "58195", LBIS.L["Feet"], "Alt") --Woe Breeder's Boots
 LBIS:AddItem(spec1, "65025", LBIS.L["Neck"], "BIS") --Rage of Ages
-LBIS:AddItem(spec1, "60227", LBIS.L["Neck"], "Alt") --Caelestrasz's Will
+LBIS:AddItem(spec1, "60227", LBIS.L["Neck"], "BIS") --Caelestrasz's Will
 LBIS:AddItem(spec1, "69885", LBIS.L["Neck"], "Alt") --Cloudburst Necklace
 LBIS:AddItem(spec1, "60226", LBIS.L["Ring"], "BIS") --Dargonax's Signet
 LBIS:AddItem(spec1, "65382", LBIS.L["Ring"], "BIS") --Cloudburst Ring
