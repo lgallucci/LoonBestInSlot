@@ -61,6 +61,7 @@ LBIS.EnchantSources =
     [75150] = { Name = "Powerful Ghostly Spellthread", DesignId = "54450", ScrollId = "0", Source = LBIS.L["Tailoring Supplies"], SourceLocation = "", TextureId = "54450" },
     [75152] = { Name = "Powerful Enchanted Spellthread", DesignId = "54448", ScrollId = "0", Source = LBIS.L["Tailoring Supplies"], SourceLocation = "", TextureId = "54448" },
     [75154] = { Name = "Master's Spellthread", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Tailoring Trainer"], SourceLocation = "", TextureId = "" },
+    [75155] = { Name = "Sanctified Spellthread", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Tailoring Trainer"], SourceLocation = "", TextureId = "" },
     [75172] = { Name = "Lightweave Embroidery", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Tailoring Trainer"], SourceLocation = "", TextureId = "" },
     [75178] = { Name = "Swordguard Embroidery", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Tailoring Trainer"], SourceLocation = "", TextureId = "" },
     [76168] = { Name = "Ebonsteel Belt Buckle", DesignId = "55054", ScrollId = "0", Source = LBIS.L["Blacksmithing Supplies"], SourceLocation = "", TextureId = "55054" },
