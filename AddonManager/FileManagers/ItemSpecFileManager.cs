@@ -11,15 +11,18 @@ public static class ItemSpecFileManager
     {
         var itemSB = new StringBuilder();
 
-        itemSB.AppendLine($"local spec1 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"1\")");
-        itemSB.AppendLine($"local spec2 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"2\")");
-        itemSB.AppendLine($"local spec3 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"3\")");
+        itemSB.AppendLine("local function LoadData()");
+
+        itemSB.AppendLine($"  local spec1 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"1\")");
+        itemSB.AppendLine($"  local spec2 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"2\")");
+        itemSB.AppendLine($"  local spec3 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"3\")");
+        itemSB.AppendLine($"  local spec4 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"4\")");
 
         itemSB.AppendLine();
 
         foreach (var enchant in enchantsList)
         {
-            itemSB.AppendLine($"LBIS:AddEnchant(spec{itemsList.Keys.Max()}, \"{enchant.EnchantId}\", LBIS.L[\"{enchant.Slot}\"]) --{enchant.Name}");
+            itemSB.AppendLine($"  LBIS:AddEnchant(spec{itemsList.Keys.Max()}, \"{enchant.EnchantId}\", LBIS.L[\"{enchant.Slot}\"]) --{enchant.Name}");
         }
 
         foreach (var phaseItems in itemsList)
@@ -30,9 +33,15 @@ public static class ItemSpecFileManager
 
             foreach (var item in items)
             {
-                itemSB.AppendLine($"LBIS:AddItem(spec{phaseItems.Key}, \"{item.ItemId}\", LBIS.L[\"{item.Slot}\"], \"{item.BisStatus}\") --{item.Name}");
+                itemSB.AppendLine($"  LBIS:AddItem(spec{phaseItems.Key}, \"{item.ItemId}\", LBIS.L[\"{item.Slot}\"], \"{item.BisStatus}\") --{item.Name}");
             }
         }
+
+        itemSB.AppendLine("end");
+
+        itemSB.AppendLine("if C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then");
+        itemSB.AppendLine("  LoadData();");
+        itemSB.AppendLine("end");
 
         System.IO.File.WriteAllText(path, itemSB.ToString());
     }

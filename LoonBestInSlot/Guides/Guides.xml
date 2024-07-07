@@ -1,29 +1,32 @@
 ﻿<Ui xmlns="http://www.blizzard.com/wow/ui/">
 
-	<Script file="DruidBalanceDps.lua" />
-	<Script file="DruidFeralDps.lua" />
-	<Script file="HunterDps.lua" />
-	<Script file="MageDps.lua" />
-	<Script file="PaladinDps.lua" />
-	<Script file="PriestDps.lua" />
-	<Script file="RogueDps.lua" />
-	<Script file="ShamanElementalDps.lua" />
-	<Script file="ShamanEnhancementDps.lua" />
-	<Script file="WarlockDps.lua" />
-	<Script file="WarriorDps.lua" />
+<!-- Season of Discovery Guides -->
+	<Script file="SOD\DruidBalanceDps.lua" />
+	<Script file="SOD\DruidFeralDps.lua" />
+	<Script file="SOD\HunterDps.lua" />
+	<Script file="SOD\MageDps.lua" />
+	<Script file="SOD\PaladinDps.lua" />
+	<Script file="SOD\PriestDps.lua" />
+	<Script file="SOD\RogueDps.lua" />
+	<Script file="SOD\ShamanElementalDps.lua" />
+	<Script file="SOD\ShamanEnhancementDps.lua" />
+	<Script file="SOD\WarlockDps.lua" />
+	<Script file="SOD\WarriorDps.lua" />
 	
-	<Script file="DruidHealer.lua" />
-	<Script file="MageHealer.lua" />
-	<Script file="PaladinHealer.lua" />
-	<Script file="PriestHealer.lua" />
-	<Script file="ShamanHealer.lua" />
+	<Script file="SOD\DruidHealer.lua" />
+	<Script file="SOD\MageHealer.lua" />
+	<Script file="SOD\PaladinHealer.lua" />
+	<Script file="SOD\PriestHealer.lua" />
+	<Script file="SOD\ShamanHealer.lua" />
 	
-	<Script file="DruidTank.lua" />
-	<Script file="PaladinTank.lua" />
-	<Script file="RogueTank.lua" />
-	<Script file="ShamanTank.lua" />
-	<Script file="WarlockTank.lua" />
-	<Script file="WarriorTank.lua" />
+	<Script file="SOD\DruidTank.lua" />
+	<Script file="SOD\PaladinTank.lua" />
+	<Script file="SOD\RogueTank.lua" />
+	<Script file="SOD\ShamanTank.lua" />
+	<Script file="SOD\WarlockTank.lua" />
+	<Script file="SOD\WarriorTank.lua" />
+
+<!-- Classic Era/Hardcore Guides -->
 
 
 </Ui>
