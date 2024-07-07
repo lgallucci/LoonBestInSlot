@@ -26,7 +26,6 @@ LBIS:AddEnchant(spec1, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamin
 LBIS:AddEnchant(spec1, "82177", LBIS.L["Hands"]) --Quickflip Deflection Plates
 LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec1, "78166", LBIS.L["Hands"]) --Heavy Savage Armor Kit
-LBIS:AddEnchant(spec1, "77513", LBIS.L["Hands~Feet"]) --Blood Shield
 LBIS:AddEnchant(spec1, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
 LBIS:AddEnchant(spec1, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec1, "101598", LBIS.L["Legs"]) --Drakehide Leg Armor
