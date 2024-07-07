@@ -30,7 +30,7 @@ public sealed partial class GuideImporter : Page
                                 "PaladinHealer", "PriestHealer", "ShamanHealer", "DruidTank", "PaladinTank", "RogueTank", "ShamanTank", 
                                 "WarlockTank", "WarriorTank", };
 
-    public string[] PhaseList = { "Phase4" };
+    public string[] PhaseList = { "Phase3", "Phase4" };
 
     public GuideImporter()
     {
@@ -107,7 +107,7 @@ public sealed partial class GuideImporter : Page
                 var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}"
                     && gm.Phase == phaseString);
 
-                var items = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{specMapping.ClassName.Replace(" ", "")}{specMapping.SpecName.Replace(" ", "")}").Item2;
+                var items = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\SOD\{specMapping.ClassName.Replace(" ", "")}{specMapping.SpecName.Replace(" ", "")}").Item2;
 
                 WowheadImporter.VerifyGuide(items[Int32.Parse(phaseString.Replace("Phase", ""))]);
 

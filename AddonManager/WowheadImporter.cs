@@ -136,7 +136,7 @@ public static class WowheadImporter
 
             if (classGuideMapping != null && classGuideMapping.WebAddress != "do_not_use")
             {
-                var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
+                var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\SOD\{className.Replace(" ", "")}.lua");
 
                 itemsAndEnchants = new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc);
 

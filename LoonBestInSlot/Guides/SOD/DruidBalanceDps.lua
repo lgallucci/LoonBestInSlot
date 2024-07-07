@@ -2,14 +2,15 @@ local function LoadData()
     local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "1")
     local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "2")
     local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "3")
-    
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "4")
+
     LBIS:AddEnchant(spec3, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
     LBIS:AddEnchant(spec3, "13941", LBIS.L["Chest"]) --Enchant Chest - Stats
     LBIS:AddEnchant(spec3, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
     LBIS:AddEnchant(spec3, "20013", LBIS.L["Hands"]) --Enchant Gloves - Greater Strength
     LBIS:AddEnchant(spec3, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec3, "13898", LBIS.L["Main Hand"]) --Enchant Weapon - Fiery Weapon
-    
+
     LBIS:AddItem(spec1, "211507", LBIS.L["Head"], "BIS") --Twilight Elementalist's Cowl
     LBIS:AddItem(spec1, "211842", LBIS.L["Head"], "BIS") --Rakkamar's Tattered Thinking Cap
     LBIS:AddItem(spec1, "4373", LBIS.L["Head"], "Alt") --Shadow Goggles
@@ -69,7 +70,7 @@ local function LoadData()
     LBIS:AddItem(spec1, "209590", LBIS.L["Off Hand"], "Alt") --Cracked Water Globe
     LBIS:AddItem(spec1, "15973", LBIS.L["Off Hand"], "Alt") --Watcher's Star
     LBIS:AddItem(spec1, "209576", LBIS.L["Ranged/Relic"], "BIS") --Mind-Expanding Mushroom
-    
+
     LBIS:AddItem(spec2, "215381", LBIS.L["Head"], "BIS") --Gneuro-Conductive Channeler's Hood
     LBIS:AddItem(spec2, "215111", LBIS.L["Head"], "Alt") --Gneuro-Linked Arcano-Filament Monocle
     LBIS:AddItem(spec2, "211842", LBIS.L["Head"], "Alt") --Rakkamar's Tattered Thinking Cap
@@ -116,7 +117,7 @@ local function LoadData()
     LBIS:AddItem(spec2, "213542", LBIS.L["Off Hand"], "Alt") --The Necro-Gnomicon
     LBIS:AddItem(spec2, "7685", LBIS.L["Off Hand"], "Alt") --Orb of the Forgotten Seer
     LBIS:AddItem(spec2, "216490", LBIS.L["Ranged/Relic"], "BIS") --Idol of Wrath
-    
+
     LBIS:AddItem(spec3, "220523", LBIS.L["Head"], "BIS") --Visage of the Exiled
     LBIS:AddItem(spec3, "220521", LBIS.L["Head"], "Alt") --Hakkari Ritualist's Headdress
     LBIS:AddItem(spec3, "215381", LBIS.L["Head"], "Alt") --Gneuro-Conductive Channeler's Hood
@@ -182,7 +183,6 @@ local function LoadData()
     LBIS:AddItem(spec3, "7685", LBIS.L["Off Hand"], "Alt") --Orb of the Forgotten Seer
     LBIS:AddItem(spec3, "216490", LBIS.L["Ranged/Relic"], "BIS") --Idol of Wrath
 end
-
 if C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
     LoadData();
 end
