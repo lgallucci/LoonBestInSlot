@@ -39,7 +39,7 @@ public static class ItemSpecFileManager
 
         itemSB.AppendLine("end");
 
-        itemSB.AppendLine("if C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then");
+        itemSB.AppendLine("if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then");
         itemSB.AppendLine("    LoadData();");
         itemSB.AppendLine("end");
 

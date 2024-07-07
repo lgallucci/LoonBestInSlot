@@ -259,6 +259,6 @@ local function LoadData()
     LBIS:AddItem(spec3, "209574", LBIS.L["Ranged/Relic"], "BIS") --Discarded Tenets of the Silver Hand
     LBIS:AddItem(spec3, "215435", LBIS.L["Ranged/Relic"], "BIS") --Libram of Benediction
 end
-if C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
+if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
     LoadData();
 end

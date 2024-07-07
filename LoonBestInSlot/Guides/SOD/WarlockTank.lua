@@ -541,6 +541,6 @@ local function LoadData()
     LBIS:AddItem(spec3, "13064", LBIS.L["Ranged/Relic"], "Alt") --Jaina's Firestarter
     LBIS:AddItem(spec3, "209674", LBIS.L["Ranged/Relic"], "Alt") --Phoenix Ignition
 end
-if C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
+if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
     LoadData();
 end

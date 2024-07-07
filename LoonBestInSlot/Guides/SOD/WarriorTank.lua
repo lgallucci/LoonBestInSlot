@@ -260,6 +260,6 @@ local function LoadData()
     LBIS:AddItem(spec3, "19563", LBIS.L["Ranged/Relic"], "Alt") --Outrunner's Bow
     LBIS:AddItem(spec3, "19559", LBIS.L["Ranged/Relic"], "Alt") --Outrider's Bow
 end
-if C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
+if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
     LoadData();
 end

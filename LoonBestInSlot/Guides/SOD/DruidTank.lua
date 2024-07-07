@@ -212,6 +212,6 @@ local function LoadData()
     LBIS:AddItem(spec3, "220606", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Dream
     LBIS:AddItem(spec3, "209576", LBIS.L["Ranged/Relic"], "Alt") --Mind-Expanding Mushroom
 end
-if C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
+if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
     LoadData();
 end

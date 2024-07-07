@@ -234,6 +234,6 @@ local function LoadData()
     LBIS:AddItem(spec3, "7513", LBIS.L["Ranged/Relic"], "Alt") --Ragefire Wand
     LBIS:AddItem(spec3, "213559", LBIS.L["Ranged/Relic"], "Alt") --Mechanostrider Gear Shifter
 end
-if C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
+if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
     LoadData();
 end

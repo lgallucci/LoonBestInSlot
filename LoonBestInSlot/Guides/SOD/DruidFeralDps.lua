@@ -195,6 +195,6 @@ local function LoadData()
     LBIS:AddItem(spec3, "210741", LBIS.L["Two Hand"], "Alt") --Automatic Crowd Pummeler
     LBIS:AddItem(spec3, "220606", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Dream
 end
-if C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
+if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
     LoadData();
 end

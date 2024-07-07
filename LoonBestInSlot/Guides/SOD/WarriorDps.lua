@@ -198,6 +198,6 @@ local function LoadData()
     LBIS:AddItem(spec3, "9426", LBIS.L["Ranged/Relic"], "Alt") --Monolithic Bow
     LBIS:AddItem(spec3, "213355", LBIS.L["Ranged/Relic"], "Alt") --Falco's Sting
 end
-if C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
+if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
     LoadData();
 end
