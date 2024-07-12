@@ -119,8 +119,18 @@ public static class WowheadImporter
     {
         var result = string.Empty;
         await Common.LoadFromWebPage(classGuide.WebAddress, (uri, doc) =>
-        {
-            result = ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
+        {  try
+            {
+                result = ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
+            }
+            catch (VerificationException vex)
+            {
+                logFunc($"{classGuide.ClassName} {classGuide.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}...");
+            }
+            catch (ParseException ex)
+            {
+                logFunc($"{classGuide.ClassName} {classGuide.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
+            }
         }, logFunc, cancelToken, false);
 
         return result;

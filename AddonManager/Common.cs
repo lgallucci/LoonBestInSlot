@@ -10,7 +10,8 @@ public static class Common
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
-            Headless = true
+            Headless = true,            
+            IgnoreHTTPSErrors = true,
         }))
         {
             var total = pageAddresses.Count();
@@ -27,7 +28,8 @@ public static class Common
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
-            Headless = true
+            Headless = true,
+            IgnoreHTTPSErrors = true,
         }))
         {
             await RetryPageLoad(browser, pageAddress, func,  writeToLog, cancelToken, 1, 1, waitForIdle);
@@ -66,8 +68,8 @@ public static class Common
 
                     func(pageAddress, doc);
                     break;
-                } 
-                catch 
+                }
+                catch
                 {
                     writeToLog($"Failed to read from {pageAddress} {count}/{total} ({i+1}/3)");
                 }

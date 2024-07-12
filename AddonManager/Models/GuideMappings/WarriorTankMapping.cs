@@ -40,7 +40,7 @@ internal class WarriorTankMapping : SpecMapping
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "h3#main-hand") },
-            { ("Off Hand", "#shield") },
+            { ("Off Hand", "#off-hand-weapons") },
             { ("Ranged/Relic", "h3#ranged") },
         };
 

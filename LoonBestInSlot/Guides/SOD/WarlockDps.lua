@@ -4,13 +4,13 @@ local function LoadData()
     local spec3 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "3")
     local spec4 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "4")
 
-    LBIS:AddEnchant(spec4, "18330", LBIS.L["Head"]) --Arcanum of Focus
+    LBIS:AddEnchant(spec4, "22844", LBIS.L["Head"]) --Arcanum of Focus
     LBIS:AddEnchant(spec4, "446459", LBIS.L["Shoulder"]) --Atal'ai Signet of Mojo
     LBIS:AddEnchant(spec4, "13746", LBIS.L["Back"]) --Enchant Cloak - Greater Defense
     LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec4, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
     LBIS:AddEnchant(spec4, "10344", LBIS.L["Hands"]) --Armor +32
-    LBIS:AddEnchant(spec4, "18330", LBIS.L["Legs"]) --Arcanum of Focus
+    LBIS:AddEnchant(spec4, "22844", LBIS.L["Legs"]) --Arcanum of Focus
     LBIS:AddEnchant(spec4, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec4, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
     LBIS:AddEnchant(spec4, "22749", LBIS.L["Two Hand"]) --Enchant Weapon - Spell Power

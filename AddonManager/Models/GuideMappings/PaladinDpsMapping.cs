@@ -40,8 +40,8 @@ internal class PaladinDpsMapping : SpecMapping
     public override string Phase4Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
-            { ("Feet", "#boots")},
-            { ("Two Hand", "h3#weapons") },
+            { ("Two Hand", "h3#weapon-seal-twisting") },
+            { ("Two Hand", "h3#weapon-exodin") },
             { ("Ranged/Relic", "h3#libram") },
         };
 

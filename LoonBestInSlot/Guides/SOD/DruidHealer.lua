@@ -4,7 +4,7 @@ local function LoadData()
     local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Healer"], "3")
     local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Healer"], "4")
 
-    LBIS:AddEnchant(spec4, "18330", LBIS.L["Head"]) --Arcanum of Focus
+    LBIS:AddEnchant(spec4, "22844", LBIS.L["Head"]) --Arcanum of Focus
     LBIS:AddEnchant(spec4, "446472", LBIS.L["Shoulder"]) --Atal'ai Signet of Serenity
     LBIS:AddEnchant(spec4, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
     LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats

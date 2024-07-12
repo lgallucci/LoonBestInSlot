@@ -389,8 +389,9 @@ public class WowheadGuideParser
                 var itemIdIndex = item.IndexOf("/");
                 if (itemIdIndex == -1)
                     itemIdIndex = item.IndexOf("&");
-
-                item = item.Substring(0, itemIdIndex);
+                if (itemIdIndex != -1)
+                    item = item.Substring(0, itemIdIndex);
+                    
                 var itemName = child.TextContent.Trim();
 
                 bool skippedItem = false;

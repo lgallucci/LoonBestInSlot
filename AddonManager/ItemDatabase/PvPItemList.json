@@ -1,5 +1,21 @@
 {
   "Items": {
+    "0": {
+      "Name": "Orc",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g",
+      "SourceLocation": "Warsong Gulch",
+      "SourceFaction": "B"
+    },
+    "12584": {
+      "Name": "Grand Marshal's Longsword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "22g33s64c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
     "15196": {
       "Name": "Private's Tabard",
       "Source": "PvP Vendor",
@@ -47,6 +63,14 @@
       "SourceNumber": "4g15s56c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
+    },
+    "16345": {
+      "Name": "High Warlord's Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "22g26s74c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
     },
     "16437": {
       "Name": "Marshal's Silk Footwraps",
@@ -348,7 +372,7 @@
       "Name": "First Sergeant's Leather Armguards",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "3g44s2c",
+      "SourceNumber": "3g9s62c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -892,7 +916,7 @@
       "Name": "First Sergeant's Plate Bracers",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "3g9s96c",
+      "SourceNumber": "2g77s15c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -900,7 +924,7 @@
       "Name": "First Sergeant's Plate Bracers",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g51s48c",
+      "SourceNumber": "1g35s44c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -924,7 +948,7 @@
       "Name": "First Sergeant's Leather Armguards",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g83s11c",
+      "SourceNumber": "1g64s80c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -988,7 +1012,7 @@
       "Name": "Sergeant Major's Plate Wristguards",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g73s14c",
+      "SourceNumber": "2g74s93c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -996,7 +1020,7 @@
       "Name": "Sergeant Major's Plate Wristguards",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g33s97c",
+      "SourceNumber": "1g34s86c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -1004,7 +1028,7 @@
       "Name": "Sergeant Major's Chain Armguards",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "4g14s18c",
+      "SourceNumber": "4g65s95c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -1012,7 +1036,7 @@
       "Name": "Sergeant Major's Chain Armguards",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g2s42c",
+      "SourceNumber": "2g27s71c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -1020,7 +1044,7 @@
       "Name": "Sergeant Major's Leather Armsplints",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "3g7s13c",
+      "SourceNumber": "3g10s98c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -1028,7 +1052,7 @@
       "Name": "Sergeant Major's Leather Armsplints",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g50s13c",
+      "SourceNumber": "1g52s1c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -1052,7 +1076,7 @@
       "Name": "Sergeant Major's Silk Cuffs",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g64s14c",
+      "SourceNumber": "2g80s64c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -1060,7 +1084,7 @@
       "Name": "Sergeant Major's Silk Cuffs",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g25s85c",
+      "SourceNumber": "1g33s73c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -1084,16 +1108,128 @@
       "Name": "Military Ranks of the Horde & Alliance",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1s5c",
+      "SourceNumber": "94c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
+    },
+    "18825": {
+      "Name": "Grand Marshal's Aegis",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "14g31s32c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "18826": {
+      "Name": "High Warlord's Shield Wall",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "14g36s28c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "18827": {
+      "Name": "Grand Marshal's Handaxe",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "22g52s17c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "18828": {
+      "Name": "High Warlord's Cleaver",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "22g60s14c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "18830": {
+      "Name": "Grand Marshal's Sunderer",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "25g75s23c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "18831": {
+      "Name": "High Warlord's Battle Axe",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "25g85s20c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "18833": {
+      "Name": "Grand Marshal's Bullseye",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g62s91c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
     },
     "18834": {
       "Name": "Insignia of the Horde",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g57s89c",
+      "SourceNumber": "1g41s17c",
       "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "18835": {
+      "Name": "High Warlord's Recurve",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g74s87c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "18836": {
+      "Name": "Grand Marshal's Repeater",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g80s85c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "18837": {
+      "Name": "High Warlord's Crossbow",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g86s67c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "18838": {
+      "Name": "Grand Marshal's Dirk",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "21g80s64c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "18840": {
+      "Name": "High Warlord's Razor",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "21g96s58c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "18843": {
+      "Name": "Grand Marshal's Right Hand Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "22g20s28c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "18844": {
+      "Name": "High Warlord's Right Claw",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "22g28s26c",
+      "SourceLocation": "Battlegrounds",
       "SourceFaction": "H"
     },
     "18845": {
@@ -1112,11 +1248,27 @@
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
+    "18847": {
+      "Name": "Grand Marshal's Left Hand Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "22g51s96c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "18848": {
+      "Name": "High Warlord's Left Claw",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "22g59s71c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
     "18849": {
       "Name": "Insignia of the Horde",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g50s",
+      "SourceNumber": "1g35s",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -1124,7 +1276,7 @@
       "Name": "Insignia of the Horde",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g42s10c",
+      "SourceNumber": "1g20s",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -1156,15 +1308,23 @@
       "Name": "Insignia of the Alliance",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g41s17c",
+      "SourceNumber": "1g42s10c",
       "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "18855": {
+      "Name": "Grand Marshal's Hand Cannon",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "16g17s53c",
+      "SourceLocation": "Battlegrounds",
       "SourceFaction": "A"
     },
     "18856": {
       "Name": "Insignia of the Alliance",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g41s17c",
+      "SourceNumber": "1g58s82c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -1172,7 +1332,7 @@
       "Name": "Insignia of the Alliance",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g33s33c",
+      "SourceNumber": "1g35s",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -1180,7 +1340,7 @@
       "Name": "Insignia of the Alliance",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g57s89c",
+      "SourceNumber": "1g41s17c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -1188,9 +1348,17 @@
       "Name": "Insignia of the Alliance",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g41s17c",
+      "SourceNumber": "1g50s",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
+    },
+    "18860": {
+      "Name": "High Warlord's Street Sweeper",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "16g47s11c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
     },
     "18862": {
       "Name": "Insignia of the Alliance",
@@ -1215,6 +1383,134 @@
       "SourceNumber": "1g33s33c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
+    },
+    "18865": {
+      "Name": "Grand Marshal's Punisher",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "22g35s80c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "18866": {
+      "Name": "High Warlord's Bludgeon",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "22g43s77c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "18867": {
+      "Name": "Grand Marshal's Battle Hammer",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "28g14s41c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "18868": {
+      "Name": "High Warlord's Pulverizer",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "28g24s37c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "18869": {
+      "Name": "Grand Marshal's Glaive",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "25g64s72c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "18871": {
+      "Name": "High Warlord's Pig Sticker",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "26g55s76c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "18873": {
+      "Name": "Grand Marshal's Stave",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "26g75s69c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "18874": {
+      "Name": "High Warlord's War Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "26g85s66c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "18876": {
+      "Name": "Grand Marshal's Claymore",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "27g5s33c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "18877": {
+      "Name": "High Warlord's Greatsword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "27g15s29c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "19029": {
+      "Name": "Horn of the Frostwolf Howler",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "800g",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "H"
+    },
+    "19030": {
+      "Name": "Stormpike Battle Charger",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "800g",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "A"
+    },
+    "19031": {
+      "Name": "Frostwolf Battle Tabard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "1g",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "H"
+    },
+    "19032": {
+      "Name": "Stormpike Battle Tabard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "94s11c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "A"
+    },
+    "19045": {
+      "Name": "Stormpike Battle Standard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "A"
+    },
+    "19046": {
+      "Name": "Frostwolf Battle Standard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "H"
     },
     "19060": {
       "Name": "Warsong Gulch Enriched Ration",
@@ -1264,6 +1560,318 @@
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "B"
     },
+    "19083": {
+      "Name": "Frostwolf Legionnaire's Cloak",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g52s23c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "H"
+    },
+    "19084": {
+      "Name": "Stormpike Soldier's Cloak",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g10s58c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "A"
+    },
+    "19085": {
+      "Name": "Frostwolf Advisor's Cloak",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g57s76c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "H"
+    },
+    "19086": {
+      "Name": "Stormpike Sage's Cloak",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g60s45c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "A"
+    },
+    "19087": {
+      "Name": "Frostwolf Plate Belt",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g8s81c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "H"
+    },
+    "19088": {
+      "Name": "Frostwolf Mail Belt",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g65s97c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "H"
+    },
+    "19089": {
+      "Name": "Frostwolf Leather Belt",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g93s3c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "H"
+    },
+    "19090": {
+      "Name": "Frostwolf Cloth Belt",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g14s27c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "H"
+    },
+    "19091": {
+      "Name": "Stormpike Plate Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g74s42c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "A"
+    },
+    "19092": {
+      "Name": "Stormpike Mail Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g11s65c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "A"
+    },
+    "19093": {
+      "Name": "Stormpike Leather Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g93s3c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "A"
+    },
+    "19094": {
+      "Name": "Stormpike Cloth Girdle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g74s42c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "A"
+    },
+    "19095": {
+      "Name": "Frostwolf Legionnaire's Pendant",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g16s47c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "H"
+    },
+    "19096": {
+      "Name": "Frostwolf Advisor's Pendant",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g16s47c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "H"
+    },
+    "19097": {
+      "Name": "Stormpike Soldier's Pendant",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g74s32c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "A"
+    },
+    "19098": {
+      "Name": "Stormpike Sage's Pendant",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g74s32c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "A"
+    },
+    "19099": {
+      "Name": "Glacial Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "31g53s28c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "H"
+    },
+    "19100": {
+      "Name": "Electrified Dagger",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "31g65s2c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "A"
+    },
+    "19101": {
+      "Name": "Whiteout Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "39g70s57c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "H"
+    },
+    "19102": {
+      "Name": "Crackling Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "39g85s25c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "A"
+    },
+    "19103": {
+      "Name": "Frostbite",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "31g99s95c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "H"
+    },
+    "19104": {
+      "Name": "Stormstrike Hammer",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "32g11s37c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "A"
+    },
+    "19301": {
+      "Name": "Alterac Manna Biscuit",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "70s",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19307": {
+      "Name": "Alterac Heavy Runecloth Bandage",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "80s",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19308": {
+      "Name": "Tome of Arcane Domination",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "50g",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19309": {
+      "Name": "Tome of Shadow Force",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "50g",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19310": {
+      "Name": "Tome of the Ice Lord",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "50g",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19311": {
+      "Name": "Tome of Fiery Arcana",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "50g",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19312": {
+      "Name": "Lei of the Lifegiver",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "50g",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19315": {
+      "Name": "Therazane's Touch",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "50g",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19316": {
+      "Name": "Ice Threaded Arrow",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "60s",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19317": {
+      "Name": "Ice Threaded Bullet",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "60s",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19318": {
+      "Name": "Bottled Alterac Spring Water",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "50s",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19319": {
+      "Name": "Harpy Hide Quiver",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "35g",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19320": {
+      "Name": "Gnoll Skin Bandolier",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "35g",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19321": {
+      "Name": "The Immovable Object",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "79g52s97c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19323": {
+      "Name": "The Unstoppable Force",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "156g49s",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19324": {
+      "Name": "The Lobotomizer",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "125g66s17c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
+    "19325": {
+      "Name": "Don Julio's Band",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "75g55s55c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
     "19505": {
       "Name": "Warsong Battle Tabard",
       "Source": "PvP Vendor",
@@ -1276,7 +1884,7 @@
       "Name": "Silverwing Battle Tabard",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "5g62s50c",
+      "SourceNumber": "5g",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1316,7 +1924,7 @@
       "Name": "Protector's Band",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "7g50s",
+      "SourceNumber": "6g",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1324,7 +1932,7 @@
       "Name": "Protector's Band",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "4g50s",
+      "SourceNumber": "3g60s",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1332,7 +1940,7 @@
       "Name": "Protector's Band",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "6g",
+      "SourceNumber": "4g80s",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1340,7 +1948,7 @@
       "Name": "Protector's Band",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g",
+      "SourceNumber": "1g60s",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1380,7 +1988,7 @@
       "Name": "Lorekeeper's Ring",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "7g50s",
+      "SourceNumber": "6g",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1388,7 +1996,7 @@
       "Name": "Lorekeeper's Ring",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "6g",
+      "SourceNumber": "4g80s",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1396,7 +2004,7 @@
       "Name": "Lorekeeper's Ring",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "4g50s",
+      "SourceNumber": "3g60s",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1404,7 +2012,7 @@
       "Name": "Lorekeeper's Ring",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g",
+      "SourceNumber": "1g60s",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1444,7 +2052,7 @@
       "Name": "Caretaker's Cape",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "8g54s92c",
+      "SourceNumber": "6g83s94c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1452,7 +2060,7 @@
       "Name": "Caretaker's Cape",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "5g2s42c",
+      "SourceNumber": "4g1s94c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1460,7 +2068,7 @@
       "Name": "Caretaker's Cape",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g49s34c",
+      "SourceNumber": "1g99s47c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1468,7 +2076,7 @@
       "Name": "Caretaker's Cape",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g7s72c",
+      "SourceNumber": "86s18c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1508,7 +2116,7 @@
       "Name": "Sentinel's Medallion",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "7g50s",
+      "SourceNumber": "6g",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1516,7 +2124,7 @@
       "Name": "Sentinel's Medallion",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "6g",
+      "SourceNumber": "4g80s",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1524,7 +2132,7 @@
       "Name": "Sentinel's Medallion",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "4g50s",
+      "SourceNumber": "3g60s",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1532,7 +2140,7 @@
       "Name": "Sentinel's Medallion",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g",
+      "SourceNumber": "1g60s",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1572,7 +2180,7 @@
       "Name": "Sentinel's Blade",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "31g58s5c",
+      "SourceNumber": "22g45s72c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1580,7 +2188,7 @@
       "Name": "Sentinel's Blade",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "18g56s3c",
+      "SourceNumber": "13g19s85c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1588,7 +2196,7 @@
       "Name": "Sentinel's Blade",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "9g21s17c",
+      "SourceNumber": "6g55s6c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1596,7 +2204,7 @@
       "Name": "Sentinel's Blade",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "3g97s93c",
+      "SourceNumber": "2g82s98c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1636,7 +2244,7 @@
       "Name": "Protector's Sword",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "30g89s37c",
+      "SourceNumber": "21g96s89c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1644,7 +2252,7 @@
       "Name": "Protector's Sword",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "18g8s81c",
+      "SourceNumber": "12g86s26c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1652,7 +2260,7 @@
       "Name": "Protector's Sword",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "8g94s35c",
+      "SourceNumber": "6g35s98c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1660,7 +2268,7 @@
       "Name": "Protector's Sword",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "4g9s80c",
+      "SourceNumber": "2g91s42c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1700,7 +2308,7 @@
       "Name": "Outrunner's Bow",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "23g17s2c",
+      "SourceNumber": "16g47s66c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1708,7 +2316,7 @@
       "Name": "Outrunner's Bow",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "13g56s60c",
+      "SourceNumber": "9g64s70c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1716,7 +2324,7 @@
       "Name": "Outrunner's Bow",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "6g70s77c",
+      "SourceNumber": "4g76s99c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1724,7 +2332,7 @@
       "Name": "Outrunner's Bow",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g88s71c",
+      "SourceNumber": "2g5s30c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1764,7 +2372,7 @@
       "Name": "Lorekeeper's Staff",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "40g6s66c",
+      "SourceNumber": "28g49s18c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1772,7 +2380,7 @@
       "Name": "Lorekeeper's Staff",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "23g54s42c",
+      "SourceNumber": "16g74s26c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1780,7 +2388,7 @@
       "Name": "Lorekeeper's Staff",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "11g68s47c",
+      "SourceNumber": "8g30s91c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -1788,7 +2396,7 @@
       "Name": "Lorekeeper's Staff",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "5g4s78c",
+      "SourceNumber": "3g58s96c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -2940,7 +3548,7 @@
       "Name": "Caretaker's Cape",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "36s50c",
+      "SourceNumber": "29s20c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -2964,7 +3572,7 @@
       "Name": "Lorekeeper's Ring",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g",
+      "SourceNumber": "1g60s",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -2972,7 +3580,7 @@
       "Name": "Lorekeeper's Staff",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g71s12c",
+      "SourceNumber": "1g21s69c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -2988,7 +3596,7 @@
       "Name": "Outrunner's Bow",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g2s66c",
+      "SourceNumber": "73s1c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -2996,7 +3604,7 @@
       "Name": "Protector's Band",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g",
+      "SourceNumber": "1g60s",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -3004,7 +3612,7 @@
       "Name": "Protector's Sword",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g45s23c",
+      "SourceNumber": "1g3s28c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -3028,7 +3636,7 @@
       "Name": "Sentinel's Blade",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g46s81c",
+      "SourceNumber": "1g4s40c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -3036,7 +3644,7 @@
       "Name": "Sentinel's Medallion",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g",
+      "SourceNumber": "1g60s",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -3088,11 +3696,19 @@
       "SourceLocation": "Arathi Basin",
       "SourceFaction": "H"
     },
+    "21563": {
+      "Name": "Don Rodrigo's Band",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "75g55s55c",
+      "SourceLocation": "Alterac Mountains",
+      "SourceFaction": "B"
+    },
     "21565": {
       "Name": "Rune of Perfection",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "3g60s",
+      "SourceNumber": "4g",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "B"
     },
@@ -3108,7 +3724,7 @@
       "Name": "Rune of Duty",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "3g60s",
+      "SourceNumber": "4g",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "B"
     },
@@ -3984,6 +4600,102 @@
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
+    "23451": {
+      "Name": "Grand Marshal's Mageblade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "20g55s22c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "23452": {
+      "Name": "Grand Marshal's Tome of Power",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "27g16s29c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "23453": {
+      "Name": "Grand Marshal's Tome of Restoration",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "27g16s29c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "23454": {
+      "Name": "Grand Marshal's Warhammer",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "20g55s22c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "23455": {
+      "Name": "Grand Marshal's Demolisher",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "25g67s42c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "23456": {
+      "Name": "Grand Marshal's Swiftblade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "20g55s22c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "A"
+    },
+    "23464": {
+      "Name": "High Warlord's Battle Mace",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "20g55s22c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "23465": {
+      "Name": "High Warlord's Destroyer",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "25g69s3c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "23466": {
+      "Name": "High Warlord's Spellblade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "20g55s22c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "23467": {
+      "Name": "High Warlord's Quickblade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "20g55s22c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "23468": {
+      "Name": "High Warlord's Tome of Destruction",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "27g16s29c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
+    "23469": {
+      "Name": "High Warlord's Tome of Mending",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "27g16s29c",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "H"
+    },
     "209611": {
       "Name": "Insignia of the Alliance",
       "Source": "PvP Vendor",
@@ -3996,7 +4708,7 @@
       "Name": "Insignia of the Alliance",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "20g",
+      "SourceNumber": "18g",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -4028,7 +4740,7 @@
       "Name": "Insignia of the Alliance",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "21g5s26c",
+      "SourceNumber": "18g",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -4044,7 +4756,7 @@
       "Name": "Insignia of the Horde",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "20g",
+      "SourceNumber": "21g5s26c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -4052,7 +4764,7 @@
       "Name": "Insignia of the Horde",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "21g5s26c",
+      "SourceNumber": "20g",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -4068,7 +4780,7 @@
       "Name": "Insignia of the Horde",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "21g5s26c",
+      "SourceNumber": "20g",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -4076,7 +4788,7 @@
       "Name": "Insignia of the Horde",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "20g",
+      "SourceNumber": "18g",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -4108,7 +4820,7 @@
       "Name": "Trainee's Sentinel Nightsaber",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "9g",
+      "SourceNumber": "8g",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -4116,7 +4828,7 @@
       "Name": "Trainee's Outrider Wolf",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "10g58s82c",
+      "SourceNumber": "10g",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "H"
     },
@@ -4124,7 +4836,7 @@
       "Name": "Resilient Cloth Headband",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g64s70c",
+      "SourceNumber": "2g50s",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "B"
     },
@@ -4132,7 +4844,7 @@
       "Name": "Resilient Mail Coif",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g25s",
+      "SourceNumber": "2g50s",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "B"
     },
@@ -4140,7 +4852,7 @@
       "Name": "Resilient Leather Mask",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g64s70c",
+      "SourceNumber": "2g50s",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "B"
     },
@@ -4148,7 +4860,7 @@
       "Name": "Lorekeeper's Staff",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g76s93c",
+      "SourceNumber": "2g46s16c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -4156,7 +4868,7 @@
       "Name": "Outrunner's Bow",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g72s47c",
+      "SourceNumber": "1g53s30c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -4164,7 +4876,7 @@
       "Name": "Protector's Sword",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g47s16c",
+      "SourceNumber": "2g19s70c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -4172,7 +4884,7 @@
       "Name": "Sentinel's Blade",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g37s62c",
+      "SourceNumber": "2g11s22c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "A"
     },
@@ -4180,7 +4892,7 @@
       "Name": "Advisor's Gnarled Staff",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g76s93c",
+      "SourceNumber": "3g7s70c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "H"
     },
@@ -4188,7 +4900,7 @@
       "Name": "Outrider's Bow",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g72s47c",
+      "SourceNumber": "1g91s62c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "H"
     },
@@ -4196,7 +4908,7 @@
       "Name": "Legionnaire's Sword",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g47s16c",
+      "SourceNumber": "2g74s62c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "H"
     },
@@ -4204,7 +4916,7 @@
       "Name": "Scout's Blade",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g37s62c",
+      "SourceNumber": "2g64s2c",
       "SourceLocation": "Warsong Gulch",
       "SourceFaction": "H"
     },
@@ -4540,7 +5252,7 @@
       "Name": "Sergeant Major's Dragonhide Armsplints",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g61s24c",
+      "SourceNumber": "1g60s18c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -4548,7 +5260,7 @@
       "Name": "Sergeant Major's Chain Armguards",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g2s42c",
+      "SourceNumber": "2g26s38c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -4556,7 +5268,7 @@
       "Name": "Sergeant Major's Leather Armsplints",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g50s13c",
+      "SourceNumber": "1g52s1c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -4564,7 +5276,7 @@
       "Name": "Sergeant Major's Plate Wristguards",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g33s97c",
+      "SourceNumber": "1g42s35c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -4572,7 +5284,7 @@
       "Name": "Sergeant Major's Silk Cuffs",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g25s85c",
+      "SourceNumber": "1g33s73c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -4580,7 +5292,7 @@
       "Name": "First Sergeant's Mail Wristguards",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g17s42c",
+      "SourceNumber": "1g93s26c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -4588,7 +5300,7 @@
       "Name": "First Sergeant's Dragonhide Armguards",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g61s86c",
+      "SourceNumber": "1g51s87c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -4596,7 +5308,7 @@
       "Name": "First Sergeant's Plate Bracers",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g51s48c",
+      "SourceNumber": "1g29s52c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -4604,7 +5316,7 @@
       "Name": "First Sergeant's Leather Armguards",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g62s76c",
+      "SourceNumber": "1g83s11c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -4612,12 +5324,12 @@
       "Name": "First Sergeant's Silk Cuffs",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g37s21c",
+      "SourceNumber": "1g21s96c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
     "216914": {
-      "Name": "Bloodstained Commendation",
+      "Name": "Tarnished Commendation",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
       "SourceNumber": "",
@@ -4628,7 +5340,7 @@
       "Name": "Greater Insignia of the Alliance",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g33s33c",
+      "SourceNumber": "1g41s17c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -4636,7 +5348,7 @@
       "Name": "Greater Insignia of the Horde",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "1g42s10c",
+      "SourceNumber": "1g33s33c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -4708,7 +5420,7 @@
       "Name": "Sergeant Major's Plate Greaves",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "7g58s47c",
+      "SourceNumber": "8g5s88c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -4716,7 +5428,7 @@
       "Name": "First Sergeant's Plate Greaves",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "8g48s29c",
+      "SourceNumber": "7g25s29c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -4748,7 +5460,7 @@
       "Name": "Sergeant Major's Plate Gauntlets",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "5g9s51c",
+      "SourceNumber": "5g41s36c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -4756,7 +5468,7 @@
       "Name": "First Sergeant's Plate Gauntlets",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "5g69s85c",
+      "SourceNumber": "4g87s22c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -4788,7 +5500,7 @@
       "Name": "Sergeant Major's Imbued Greaves",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "8g5s88c",
+      "SourceNumber": "8g5s87c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -4796,7 +5508,7 @@
       "Name": "Sergeant Major's Imbued Gauntlets",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "5g41s36c",
+      "SourceNumber": "5g41s35c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -4812,7 +5524,7 @@
       "Name": "Sergeant Major's Lamellar Boots",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "8g5s88c",
+      "SourceNumber": "8g5s87c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -4836,7 +5548,7 @@
       "Name": "Sergeant Major's Lamellar Gauntlets",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "5g41s36c",
+      "SourceNumber": "5g41s35c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -4932,7 +5644,7 @@
       "Name": "Sergeant Major's Chain Gauntlets",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "4g43s35c",
+      "SourceNumber": "4g95s85c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -4948,7 +5660,7 @@
       "Name": "First Sergeant's Mail Gauntlets",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "4g71s6c",
+      "SourceNumber": "4g18s72c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -4980,7 +5692,7 @@
       "Name": "First Sergeant's Mail Sabatons",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "7g9s73c",
+      "SourceNumber": "6g30s86c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -4996,7 +5708,7 @@
       "Name": "Sergeant Major's Chain Sabatons",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "6g67s97c",
+      "SourceNumber": "7g47s8c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -5148,7 +5860,7 @@
       "Name": "Sergeant Major's Leather Gauntlets",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "3g49s10c",
+      "SourceNumber": "3g69s63c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -5156,7 +5868,7 @@
       "Name": "First Sergeant's Leather Gauntlets",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "3g72s7c",
+      "SourceNumber": "3g53s47c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -5180,7 +5892,7 @@
       "Name": "Sergeant Major's Leather Boots",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "5g13s26c",
+      "SourceNumber": "5g43s45c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -5188,7 +5900,7 @@
       "Name": "First Sergeant's Leather Boots",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "5g47s3c",
+      "SourceNumber": "5g19s68c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -5196,7 +5908,7 @@
       "Name": "Sergeant Major's Crackling Leather Boots",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "5g47s3c",
+      "SourceNumber": "5g43s45c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -5204,7 +5916,7 @@
       "Name": "First Sergeant's Crackling Leather Boots",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "5g13s26c",
+      "SourceNumber": "6g7s81c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -5228,7 +5940,7 @@
       "Name": "Sergeant Major's Crackling Leather Gauntlets",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "3g72s7c",
+      "SourceNumber": "3g69s63c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -5236,7 +5948,7 @@
       "Name": "First Sergeant's Crackling Leather Gauntlets",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "3g49s10c",
+      "SourceNumber": "4g13s41c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -5340,7 +6052,7 @@
       "Name": "Sergeant Major's Restored Leather Gloves",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "3g72s7c",
+      "SourceNumber": "3g69s63c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -5348,7 +6060,7 @@
       "Name": "First Sergeant's Restored Leather Gloves",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "3g49s10c",
+      "SourceNumber": "4g13s41c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -5372,7 +6084,7 @@
       "Name": "Sergeant Major's Restored Leather Boots",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "5g47s3c",
+      "SourceNumber": "5g43s45c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -5380,7 +6092,7 @@
       "Name": "First Sergeant's Restored Leather Boots",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "5g13s26c",
+      "SourceNumber": "6g7s81c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -5420,7 +6132,7 @@
       "Name": "Sergeant Major's Dreadweave Gloves",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g96s32c",
+      "SourceNumber": "3g14s84c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -5428,7 +6140,7 @@
       "Name": "Sergeant Major's Dreadweave Boots",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "4g44s96c",
+      "SourceNumber": "4g72s76c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -5460,7 +6172,7 @@
       "Name": "Sergeant Major's Satin Boots",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "4g44s96c",
+      "SourceNumber": "4g72s76c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -5476,7 +6188,7 @@
       "Name": "Sergeant Major's Satin Gloves",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g96s32c",
+      "SourceNumber": "3g14s84c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -5564,7 +6276,7 @@
       "Name": "First Sergeant's Dreadweave Gloves",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "2g83s36c",
+      "SourceNumber": "2g79s86c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -5572,7 +6284,7 @@
       "Name": "First Sergeant's Dreadweave Boots",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "4g25s49c",
+      "SourceNumber": "4g20s24c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
@@ -5796,7 +6508,7 @@
       "Name": "Sergeant Major's Mail Gauntlets",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "4g43s35c",
+      "SourceNumber": "4g95s85c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -5804,7 +6516,7 @@
       "Name": "Sergeant Major's Mail Sabatons",
       "Source": "PvP Vendor",
       "SourceType": "PvP",
-      "SourceNumber": "6g67s97c",
+      "SourceNumber": "7g47s8c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
@@ -5821,6 +6533,358 @@
       "Source": "PvP Vendor",
       "SourceType": "PvP",
       "SourceNumber": "",
+      "SourceLocation": "Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "227067": {
+      "Name": "Champion's Chain Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g27s28c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227069": {
+      "Name": "Champion's Chain Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g34s16c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227071": {
+      "Name": "Legionnaire's Chain Hauberk",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g60s38c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227073": {
+      "Name": "Legionnaire's Chain Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g64s5c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227074": {
+      "Name": "Blood Guard's Chain Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g78s80c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227075": {
+      "Name": "Blood Guard's Chain Vices",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g48s82c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227078": {
+      "Name": "Champion's Chain Pauldrons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g34s16c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227079": {
+      "Name": "Legionnaire's Chain Legplates",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g64s5c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227080": {
+      "Name": "Champion's Chain Greathelm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g27s28c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227081": {
+      "Name": "Blood Guard's Chain Grips",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g48s82c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227082": {
+      "Name": "Blood Guard's Chain Sabatons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g78s80c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227083": {
+      "Name": "Legionnaire's Chain Armor",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g60s38c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227118": {
+      "Name": "Champion's Satin Hood",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g87s81c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227120": {
+      "Name": "Champion's Satin Mantle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g89s93c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227123": {
+      "Name": "Legionnaire's Satin Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g59s70c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227124": {
+      "Name": "Legionnaire's Satin Tunic",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g66s97c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227126": {
+      "Name": "Blood Guard's Satin Handwraps",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g6s95c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227127": {
+      "Name": "Blood Guard's Satin Walkers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g29s16c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227130": {
+      "Name": "Champion's Satin Epaulets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g89s93c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227131": {
+      "Name": "Legionnaire's Satin Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g59s70c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227132": {
+      "Name": "Champion's Satin Crown",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g87s81c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227133": {
+      "Name": "Blood Guard's Satin Grips",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g6s95c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227134": {
+      "Name": "Blood Guard's Satin Treads",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g29s16c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227135": {
+      "Name": "Legionnaire's Satin Robe",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g66s97c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227154": {
+      "Name": "Champion's Mail Pauldrons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g82s52c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227155": {
+      "Name": "Champion's Mail Headguard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g75s43c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227156": {
+      "Name": "Legionnaire's Mail Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g7s81c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227157": {
+      "Name": "Legionnaire's Mail Hauberk",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g67s72c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227158": {
+      "Name": "Blood Guard's Mail Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g63s81c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227159": {
+      "Name": "Blood Guard's Mail Vices",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g57s10c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227160": {
+      "Name": "Champion's Mail Spaulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g82s52c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227161": {
+      "Name": "Legionnaire's Mail Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g7s81c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227162": {
+      "Name": "Champion's Mail Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g75s43c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227163": {
+      "Name": "Blood Guard's Mail Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g57s10c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227164": {
+      "Name": "Blood Guard's Mail Sabatons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g63s81c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227165": {
+      "Name": "Legionnaire's Mail Breastplate",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g67s72c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227166": {
+      "Name": "Champion's Mail Epaulets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g82s52c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227167": {
+      "Name": "Legionnaire's Mail Pants",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g7s81c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227168": {
+      "Name": "Champion's Mail Skullcap",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g75s43c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227169": {
+      "Name": "Blood Guard's Mail Gloves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g57s10c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227170": {
+      "Name": "Blood Guard's Mail Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g63s81c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227171": {
+      "Name": "Legionnaire's Mail Chestguard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g67s72c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "228747": {
+      "Name": "Reins of the Golden Sabercat",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "800g",
+      "SourceLocation": "Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "228748": {
+      "Name": "Whistle of the Mottled Blood Raptor",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "800g",
       "SourceLocation": "Stranglethorn Vale",
       "SourceFaction": "B"
     }
