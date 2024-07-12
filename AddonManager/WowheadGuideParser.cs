@@ -45,6 +45,7 @@ public class WowheadGuideParser
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()
     {
         { 5000, 11994 }, //Coral Band
+        //{ 228460, 228299 } //Spinal Reaper (molten ?)
     };
 
     private Dictionary<string, string> _altModifierTextSwaps = new Dictionary<string, string>()
