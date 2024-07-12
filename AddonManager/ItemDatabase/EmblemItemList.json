@@ -1,3 +1,244 @@
 {
-  "Items": {}
+  "Items": {
+    "13518": {
+      "Name": "Recipe: Flask of Petrification",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "13519": {
+      "Name": "Recipe: Flask of the Titans",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "13520": {
+      "Name": "Recipe: Flask of Distilled Wisdom",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "13521": {
+      "Name": "Recipe: Flask of Supreme Power",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "13522": {
+      "Name": "Recipe: Flask of Chromatic Resistance",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226405": {
+      "Name": "Damaged Undermine Supply Crate",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "227279": {
+      "Name": "Loop of the Magister",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "227280": {
+      "Name": "Craft of the Shadows",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "227282": {
+      "Name": "Ring of the Dreaded Mist",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228121": {
+      "Name": "Pattern: Leather-Reinforced Runecloth Bag",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228168": {
+      "Name": "Goblin Gear Grinder",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228169": {
+      "Name": "The Attitude Adjustor",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228170": {
+      "Name": "Makeshift South Sea Oar",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228171": {
+      "Name": "Kezan Cash Carrier",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228173": {
+      "Name": "Libram of the Consecrated",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228174": {
+      "Name": "Libram of the Devoted",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228175": {
+      "Name": "Libram of Holy Alacrity",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228176": {
+      "Name": "Totem of Thunder",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228177": {
+      "Name": "Totem of Raging Fire",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228178": {
+      "Name": "Totem of Earthen Vitality",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228179": {
+      "Name": "Totem of the Plains",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228180": {
+      "Name": "Idol of the Swarm",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228181": {
+      "Name": "Idol of Exsanguination (Cat)",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228182": {
+      "Name": "Idol of Exsanguination (Bear)",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228183": {
+      "Name": "Idol of the Grove",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228184": {
+      "Name": "Goblin Clothesline",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228185": {
+      "Name": "Broken Bottle of Goblino Noir",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228186": {
+      "Name": "Abandoned Wedding Band",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228187": {
+      "Name": "Stick of the South Sea",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228189": {
+      "Name": "Gift of Gob",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    }
+  }
 }

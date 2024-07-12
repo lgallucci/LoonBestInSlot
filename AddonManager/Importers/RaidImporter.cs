@@ -8,9 +8,11 @@ public class RaidImporter : LootImporter
 {
     private Dictionary<string, string> raidUriList = new Dictionary<string, string>
     {
-        { @"https://www.wowhead.com/classic/guide/season-of-discovery/blackfathom-deeps-level-up-raid-loot", "Blackfathom Deeps" },
-        { @"https://www.wowhead.com/classic/guide/season-of-discovery/gnomeregan-level-up-raid-loot", "Gnomeregan" },
-        { @"https://www.wowhead.com/classic/guide/season-of-discovery/sunken-temple-level-up-raid-loot", "Sunken Temple" }
+        // { @"https://www.wowhead.com/classic/guide/season-of-discovery/blackfathom-deeps-level-up-raid-loot", "Blackfathom Deeps" },
+        // { @"https://www.wowhead.com/classic/guide/season-of-discovery/gnomeregan-level-up-raid-loot", "Gnomeregan" },
+        // { @"https://www.wowhead.com/classic/guide/season-of-discovery/sunken-temple-level-up-raid-loot", "Sunken Temple" }
+        { @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/molten-core-overview-loot", "Molten Core"},
+        { @"https://www.wowhead.com/classic/guide/season-of-discovery/onyxias-lair-overview-loot", "Onyxia"},
     };
 
     private List<string> excludedWords = new List<string>()
@@ -19,10 +21,33 @@ public class RaidImporter : LootImporter
         "Skin Bag",
     };
 
+    private Dictionary<string, string> bossTableQueries = new Dictionary<string, string>()
+    {
+        { "#tab-lucifron-main-drop-table .clean-markup-table-borders", "Lucifron" },
+        { "#tab-lucifron-shared-boss-loot .clean-markup-table-borders", "Lucifron" },
+        { "#tab-magmadar-main-drop-table .clean-markup-table-borders", "Magmadar" },
+        { "#tab-magmadar-shared-loot .clean-markup-table-borders", "Magmadar" },
+        { "#tab-gehennas-main-drop-table .clean-markup-table-borders", "Gehennas" },
+        { "#tab-gehennas-shared-boss-loot .clean-markup-table-borders", "Gehennas" },        
+        { "#tab-garr-main-drop-table .clean-markup-table-borders", "Garr" },
+        { "#tab-garr-shared-boss-loot .clean-markup-table-borders", "Garr" },
+        { "#tab-shazzrah-main-drop-table .clean-markup-table-borders", "Shazzrah" },
+        { "#tab-shazzrah-shared-boss-loot .clean-markup-table-borders", "Shazzrah" },
+        { "#tab-baron-geddon-main-drop-table .clean-markup-table-borders", "Baron Geddon" },
+        { "#tab-baron-geddon-shared-boss-loot .clean-markup-table-borders", "Baron Geddon" },
+        { "#tab-golemagg-main-drop-table .clean-markup-table-borders", "Golemagg the Incinerator"},
+        { "#tab-golemagg-shared-boss-loot .clean-markup-table-borders", "Golemagg the Incinerator"},
+        { "#tab-sulfuron-harbinger-main-drop-table .clean-markup-table-borders", "Sulfuron Harbinger"},
+        { "#tab-sulfuron-harbinger-shared-boss-loot .clean-markup-table-borders", "Sulfuron Harbinger"},
+        { "#tab-majordomo-main-drop-table .clean-markup-table-borders", "Majordomo Executus" },
+        { "#tab-majordomo-shared-boss-loot .clean-markup-table-borders", "Majordomo Executus" },
+        { "#tab-ragnaros-main-drop-table .clean-markup-table-borders", "Ragnaros"},
+    };
+
     internal override string FileName { get => "RaidItemList"; }
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
-        items.Items.Clear();
+        //items.Items.Clear();
 
         foreach(var raidUri in raidUriList)
         {
@@ -35,32 +60,32 @@ public class RaidImporter : LootImporter
     {
         await Common.LoadFromWebPage(raidUri.Key, (uri, doc) =>
         {
-            var tableElements = doc.QuerySelectorAll("table.grid");
-
-            foreach(var table in tableElements)
+            foreach(var boss in bossTableQueries)
             {
-                LoopThroughTable(table as IHtmlTableElement,
-                    (itemId, itemName, bossName)=> {
-                        items.AddItem(itemId, new DatabaseItem 
+                var bossTable = doc.QuerySelector(boss.Key);
+                var table = bossTable as IHtmlTableElement;
+                var firstRow = false;
+
+                if (table != null)
+                    foreach (var row in table.Rows)
+                    {
+                        if (!firstRow)
+                        {
+                            firstRow = true;
+                            continue;
+                        }
+                        var (itemId, itemName) = GetItemFromTableRow(row);
+
+                        items.AddItem(itemId, new DatabaseItem() 
                         {
                             Name = itemName,
-                            Source = bossName,
+                            Source = boss.Value,
                             SourceType = "Drop",
                             SourceNumber = "0",
-                            SourceLocation = raidUri.Value
-                        });
-                    },
-                    (itemId, itemName, questName, faction) => {
-                        items.AddItem(itemId, new DatabaseItem 
-                        {
-                            Name = itemName,
-                            Source = questName,
-                            SourceType = "Quest",
-                            SourceNumber = "0",
                             SourceLocation = raidUri.Value,
-                            SourceFaction = faction
                         });
-                    });
+                    }
+
             }
         }, writeToLog);
 
@@ -89,7 +114,7 @@ public class RaidImporter : LootImporter
 
     private (int, string) GetItemFromTableRow(IHtmlTableRowElement row)
     {
-        var tableCell = row.Cells[1];
+        var tableCell = row.Cells[0];
         var itemElement = tableCell.QuerySelector("a");
 
         return GetItemFromAnchor((IHtmlAnchorElement?)itemElement);
@@ -109,7 +134,7 @@ public class RaidImporter : LootImporter
             {
                 if (row.Cells.Length == 4)
                 {
-                    bossCell = 3;;
+                    bossCell = 3;
                 } 
                 else if (row.Cells.Length == 3)
                 {

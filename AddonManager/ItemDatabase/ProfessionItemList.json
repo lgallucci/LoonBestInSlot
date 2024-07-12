@@ -7512,6 +7512,14 @@
       "SourceLocation": "446188",
       "SourceFaction": "B"
     },
+    "220741": {
+      "Name": "Screaming Chain Pauldrons",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "451706",
+      "SourceFaction": "B"
+    },
     "220742": {
       "Name": "Shrieking Spaulders",
       "Source": "Leatherworking",
@@ -7606,6 +7614,334 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "446238",
+      "SourceFaction": "B"
+    },
+    "227684": {
+      "Name": "Sulfuron Hammer",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "460460",
+      "SourceFaction": "B"
+    },
+    "227844": {
+      "Name": "Leather-Reinforced Runecloth Bag",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461727",
+      "SourceFaction": "B"
+    },
+    "227845": {
+      "Name": "Refined Arcanite Reaper",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461675",
+      "SourceFaction": "B"
+    },
+    "227847": {
+      "Name": "Devilcore Leggings",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461724",
+      "SourceFaction": "B"
+    },
+    "227848": {
+      "Name": "Devilcore Gauntlets",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461722",
+      "SourceFaction": "B"
+    },
+    "227849": {
+      "Name": "Fiery Core Sharpshooter Rifle",
+      "Source": "Engineering",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461710",
+      "SourceFaction": "B"
+    },
+    "227850": {
+      "Name": "Sageblade of the Archmagus",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461743",
+      "SourceFaction": "B"
+    },
+    "227851": {
+      "Name": "Hardened Black Dragonscale Breastplate",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461655",
+      "SourceFaction": "B"
+    },
+    "227852": {
+      "Name": "Hardened Black Dragonscale Leggings",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461657",
+      "SourceFaction": "B"
+    },
+    "227853": {
+      "Name": "Hardened Black Dragonscale Shoulders",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461659",
+      "SourceFaction": "B"
+    },
+    "227854": {
+      "Name": "Mastercrafted Shifting Cloak",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461690",
+      "SourceFaction": "B"
+    },
+    "227855": {
+      "Name": "Synthetic Gordok Ogre Suit",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461692",
+      "SourceFaction": "B"
+    },
+    "227857": {
+      "Name": "Desecration",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461714",
+      "SourceFaction": "B"
+    },
+    "227860": {
+      "Name": "Incandescent Mooncloth Vest",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461747",
+      "SourceFaction": "B"
+    },
+    "227861": {
+      "Name": "Incandescent Mooncloth Robe",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461708",
+      "SourceFaction": "B"
+    },
+    "227863": {
+      "Name": "Incandescent Mooncloth Circlet",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461750",
+      "SourceFaction": "B"
+    },
+    "227864": {
+      "Name": "Incandescent Mooncloth Leggings",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461752",
+      "SourceFaction": "B"
+    },
+    "227865": {
+      "Name": "Fiery Plate Gauntlets of the Hidden Technique",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461651",
+      "SourceFaction": "B"
+    },
+    "227866": {
+      "Name": "Masterwork Volcanic Shoulders",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461663",
+      "SourceFaction": "B"
+    },
+    "227868": {
+      "Name": "Masterwork Volcanic Breastplate",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461661",
+      "SourceFaction": "B"
+    },
+    "227869": {
+      "Name": "Brilliant Chromatic Cloak",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461653",
+      "SourceFaction": "B"
+    },
+    "227870": {
+      "Name": "Tempest Gauntlets",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461737",
+      "SourceFaction": "B"
+    },
+    "227871": {
+      "Name": "Tempered Dark Iron Plate",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461667",
+      "SourceFaction": "B"
+    },
+    "227872": {
+      "Name": "Warcrest of the Great Chief",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461739",
+      "SourceFaction": "B"
+    },
+    "227873": {
+      "Name": "Honed Blue Dragonscale Shoulders",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461645",
+      "SourceFaction": "B"
+    },
+    "227874": {
+      "Name": "Honed Blue Dragonscale Leggings",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "462227",
+      "SourceFaction": "B"
+    },
+    "227875": {
+      "Name": "Honed Blue Dragonscale Breastplate",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461673",
+      "SourceFaction": "B"
+    },
+    "227876": {
+      "Name": "Invincible Mail",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461735",
+      "SourceFaction": "B"
+    },
+    "227877": {
+      "Name": "Living Green Dragonscale Leggings",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461649",
+      "SourceFaction": "B"
+    },
+    "227878": {
+      "Name": "Living Green Dragonscale Gauntlets",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461677",
+      "SourceFaction": "B"
+    },
+    "227879": {
+      "Name": "Living Green Dragonscale Breastplate",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461720",
+      "SourceFaction": "B"
+    },
+    "227880": {
+      "Name": "Finely-Enchanted Battlehammer",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461733",
+      "SourceFaction": "B"
+    },
+    "227881": {
+      "Name": "Tranquility",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461718",
+      "SourceFaction": "B"
+    },
+    "227882": {
+      "Name": "Girdle of Arcane Insight",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461754",
+      "SourceFaction": "B"
+    },
+    "227883": {
+      "Name": "Swift Flight Vambraces",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461706",
+      "SourceFaction": "B"
+    },
+    "227884": {
+      "Name": "Deadly Heartseeker",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461716",
+      "SourceFaction": "B"
+    },
+    "227885": {
+      "Name": "Stronger-hold Gauntlets",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461671",
+      "SourceFaction": "B"
+    },
+    "227886": {
+      "Name": "Skyrider's Masterwork Stormhammer",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461647",
+      "SourceFaction": "B"
+    },
+    "227887": {
+      "Name": "Hardened Frostguard",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461730",
+      "SourceFaction": "B"
+    },
+    "228125": {
+      "Name": "Refined Arcanite Champion",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461669",
+      "SourceFaction": "B"
+    },
+    "228230": {
+      "Name": "Refined Hammer of the Titans",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "461712",
       "SourceFaction": "B"
     }
   }

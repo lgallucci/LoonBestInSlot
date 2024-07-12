@@ -34,7 +34,7 @@ public class DatabaseItems
             Items[itemId].CombineCount++;
             if (Items[itemId].SourceLocation == converted.SourceLocation || Items[itemId].Source == "Various Bosses")
             {
-                if (Items[itemId].CombineCount > 3)
+                if (Items[itemId].CombineCount > 4)
                     Items[itemId].Source = "Various Bosses";
                 else
                     if (!Items[itemId].Source.Contains(converted.Source))

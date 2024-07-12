@@ -16,6 +16,62 @@
       "SourceLocation": "Gnomeregan",
       "SourceFaction": "B"
     },
+    "18252": {
+      "Name": "Pattern: Core Armor Kit",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "18260": {
+      "Name": "Formula: Enchant Weapon - Healing Power",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "18264": {
+      "Name": "Plans: Elemental Sharpening Stone",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "18291": {
+      "Name": "Schematic: Force Reactive Disk",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "18564": {
+      "Name": "Bindings of the Windseeker",
+      "Source": "Garr",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "18646": {
+      "Name": "The Eye of Divinity",
+      "Source": "Majordomo Executus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "18703": {
+      "Name": "Ancient Petrified Leaf",
+      "Source": "Majordomo Executus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "204804": {
       "Name": "Hydraxian Bangles",
       "Source": "Baron Aquanis",
@@ -2694,6 +2750,590 @@
       "SourceType": "Quest",
       "SourceNumber": "0",
       "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "227532": {
+      "Name": "Incandescent Hood",
+      "Source": "Garr",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227533": {
+      "Name": "Incandescent Gloves",
+      "Source": "Lucifron & Gehennas & Shazzrah",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227534": {
+      "Name": "Incandescent Leggings",
+      "Source": "Magmadar & Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227535": {
+      "Name": "Incandescent Robe",
+      "Source": "Golemagg the Incinerator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227536": {
+      "Name": "Incandescent Boots",
+      "Source": "Lucifron & Shazzrah",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227537": {
+      "Name": "Incandescent Shoulderpads",
+      "Source": "Baron Geddon & Sulfuron Harbinger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227752": {
+      "Name": "Molten Scaled Shoulderpads",
+      "Source": "Baron Geddon & Sulfuron Harbinger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227754": {
+      "Name": "Molten Scaled Leggings",
+      "Source": "Magmadar & Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227755": {
+      "Name": "Molten Scaled Helm",
+      "Source": "Garr",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227756": {
+      "Name": "Molten Scaled Gloves",
+      "Source": "Gehennas & Shazzrah",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227757": {
+      "Name": "Molten Scaled Boots",
+      "Source": "Lucifron & Gehennas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227758": {
+      "Name": "Molten Scaled Chest",
+      "Source": "Golemagg the Incinerator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227759": {
+      "Name": "Scorched Core Gloves",
+      "Source": "Lucifron & Gehennas & Shazzrah",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227762": {
+      "Name": "Scorched Core Shoulderpads",
+      "Source": "Baron Geddon & Sulfuron Harbinger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227763": {
+      "Name": "Scorched Core Leggings",
+      "Source": "Magmadar & Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227764": {
+      "Name": "Scorched Core  Helm",
+      "Source": "Garr",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227765": {
+      "Name": "Scorched Core Boots",
+      "Source": "Lucifron & Gehennas & Shazzrah",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227766": {
+      "Name": "Scorched Core Chest",
+      "Source": "Golemagg the Incinerator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228229": {
+      "Name": "Obsidian Edged Blade",
+      "Source": "Garr & Baron Geddon & Golemagg the Incinerator & Magmadar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228239": {
+      "Name": "Robe of Volatile Power",
+      "Source": "Lucifron & Gehennas & Shazzrah",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228240": {
+      "Name": "Flamewaker Legplates",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228242": {
+      "Name": "Heavy Dark Iron Ring",
+      "Source": "Lucifron & Gehennas & Sulfuron Harbinger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228243": {
+      "Name": "Ring of Spell Power",
+      "Source": "Lucifron & Gehennas & Shazzrah & Sulfuron Harbinger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228244": {
+      "Name": "Manastorm Leggings",
+      "Source": "Lucifron & Gehennas & Sulfuron Harbinger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228245": {
+      "Name": "Salamander Scale Pants",
+      "Source": "Lucifron & Gehennas & Shazzrah & Sulfuron Harbinger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228246": {
+      "Name": "Wristguards of Stability",
+      "Source": "Lucifron & Gehennas & Shazzrah & Sulfuron Harbinger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228247": {
+      "Name": "Choker of Enlightenment",
+      "Source": "Lucifron",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228248": {
+      "Name": "Earthshaker",
+      "Source": "Magmadar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228249": {
+      "Name": "Medallion of Steadfast Might",
+      "Source": "Magmadar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228252": {
+      "Name": "Striker's Mark",
+      "Source": "Magmadar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228253": {
+      "Name": "Sabatons of the Flamewalker",
+      "Source": "Garr & Baron Geddon & Golemagg the Incinerator & Magmadar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228254": {
+      "Name": "Magma Tempered Boots",
+      "Source": "Garr & Baron Geddon & Magmadar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228255": {
+      "Name": "Talisman of Ephemeral Power",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228256": {
+      "Name": "Mana Igniting Cord",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228257": {
+      "Name": "Aged Core Leather Gloves",
+      "Source": "Garr & Baron Geddon & Golemagg the Incinerator & Magmadar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228258": {
+      "Name": "Deep Earth Spaulders",
+      "Source": "Garr & Magmadar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228259": {
+      "Name": "Fire Runed Grimoire",
+      "Source": "Garr & Baron Geddon & Golemagg the Incinerator & Magmadar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228260": {
+      "Name": "Flameguard Gauntlets",
+      "Source": "Garr & Baron Geddon & Golemagg the Incinerator & Magmadar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228261": {
+      "Name": "Quick Strike Ring",
+      "Source": "Garr & Baron Geddon & Golemagg the Incinerator & Magmadar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228262": {
+      "Name": "Crimson Shocker",
+      "Source": "Gehennas & Shazzrah & Sulfuron Harbinger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228263": {
+      "Name": "Sorcerous Dagger",
+      "Source": "Gehennas & Shazzrah & Sulfuron Harbinger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228264": {
+      "Name": "Aurastone Hammer",
+      "Source": "Garr",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228265": {
+      "Name": "Brutality Blade",
+      "Source": "Garr",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228266": {
+      "Name": "Drillborer Disk",
+      "Source": "Garr",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228267": {
+      "Name": "Gutgore Ripper",
+      "Source": "Garr",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228268": {
+      "Name": "Seal of the Archmagus",
+      "Source": "Baron Geddon",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228269": {
+      "Name": "Azuresong Mageblade",
+      "Source": "Golemagg the Incinerator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228270": {
+      "Name": "Blastershot Launcher",
+      "Source": "Golemagg the Incinerator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228271": {
+      "Name": "Staff of Dominance",
+      "Source": "Golemagg the Incinerator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228272": {
+      "Name": "Shadowstrike",
+      "Source": "Sulfuron Harbinger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228274": {
+      "Name": "Cauterizing Band",
+      "Source": "Majordomo Executus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228275": {
+      "Name": "Core Forged Greaves",
+      "Source": "Majordomo Executus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228277": {
+      "Name": "Core Hound Tooth",
+      "Source": "Majordomo Executus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228278": {
+      "Name": "Hyperthermically Insulated Lava Dredger",
+      "Source": "Majordomo Executus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228279": {
+      "Name": "Fireguard Shoulders",
+      "Source": "Majordomo Executus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228280": {
+      "Name": "Fireproof Cloak",
+      "Source": "Majordomo Executus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228281": {
+      "Name": "Gloves of the Hypnotic Flame",
+      "Source": "Majordomo Executus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228282": {
+      "Name": "Sash of Whispered Secrets",
+      "Source": "Majordomo Executus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228284": {
+      "Name": "Wristguards of True Flight",
+      "Source": "Majordomo Executus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228286": {
+      "Name": "Band of Accuria",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228287": {
+      "Name": "Band of Sulfuras",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228288": {
+      "Name": "Bonereaver's Edge",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228289": {
+      "Name": "Choker of the Fire Lord",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228290": {
+      "Name": "Cloak of the Shrouded Mists",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228291": {
+      "Name": "Crown of Destruction",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228292": {
+      "Name": "Dragon's Blood Cape",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228293": {
+      "Name": "Essence of the Pure Flame",
+      "Source": "Majordomo Executus & Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228294": {
+      "Name": "Malistar's Defender",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228295": {
+      "Name": "Onslaught Girdle",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228296": {
+      "Name": "Perdition's Blade",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228297": {
+      "Name": "Shard of the Flame",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228299": {
+      "Name": "Spinal Reaper",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228350": {
+      "Name": "Eskhandar's Right Claw",
+      "Source": "Magmadar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     }
   }

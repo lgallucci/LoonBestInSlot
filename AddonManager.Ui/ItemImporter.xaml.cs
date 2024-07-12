@@ -17,7 +17,7 @@ namespace AddonManager.Ui;
 public sealed partial class ItemImporter : Page
 {
     public string[] ImporterList = { 
-        //"EmblemImporter", 
+        "EmblemImporter", 
         "ProfessionImporter", "DungeonImporter", "RaidImporter", "PvPImporter", "TierSetImporter", "ReputationImporter",  
         };
 
