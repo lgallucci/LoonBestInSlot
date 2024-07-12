@@ -39,6 +39,7 @@ public class WowheadGuideParser
         { 221321, 446451 }, //Atal'ai Signet of Might
         { 221322, 446459 }, //Atal'ai Signet of Mojo
         { 221323, 446472 }, //Atal'ai Signet of 
+        { 18330, 22844 }, //Arcanum of Focus
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()

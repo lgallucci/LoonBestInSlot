@@ -4,15 +4,15 @@ local function LoadData()
     local spec3 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Healer"], "3")
     local spec4 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Healer"], "4")
 
-    LBIS:AddEnchant(spec3, "15340", LBIS.L["Head"]) --Lesser Arcanum of Rumination
-    LBIS:AddEnchant(spec3, "446472", LBIS.L["Shoulder"]) --Atal'ai Signet of Serenity
-    LBIS:AddEnchant(spec3, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
-    LBIS:AddEnchant(spec3, "20028", LBIS.L["Chest"]) --Enchant Chest - Major Mana
-    LBIS:AddEnchant(spec3, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
-    LBIS:AddEnchant(spec3, "10344", LBIS.L["Hands"]) --Thick Armor Kit
-    LBIS:AddEnchant(spec3, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
-    LBIS:AddEnchant(spec3, "23804", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Intellect
-    LBIS:AddEnchant(spec3, "13817", LBIS.L["Off Hand"]) --Enchant Shield - Stamina
+    LBIS:AddEnchant(spec4, "15340", LBIS.L["Head"]) --Lesser Arcanum of Rumination
+    LBIS:AddEnchant(spec4, "446472", LBIS.L["Shoulder"]) --Atal'ai Signet of Serenity
+    LBIS:AddEnchant(spec4, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
+    LBIS:AddEnchant(spec4, "20028", LBIS.L["Chest"]) --Enchant Chest - Major Mana
+    LBIS:AddEnchant(spec4, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
+    LBIS:AddEnchant(spec4, "10344", LBIS.L["Hands"]) --Thick Armor Kit
+    LBIS:AddEnchant(spec4, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
+    LBIS:AddEnchant(spec4, "23804", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Intellect
+    LBIS:AddEnchant(spec4, "13817", LBIS.L["Off Hand"]) --Enchant Shield - Stamina
 
     LBIS:AddItem(spec1, "211842", LBIS.L["Head"], "BIS") --Rakkamar's Tattered Thinking Cap
     LBIS:AddItem(spec1, "211507", LBIS.L["Head"], "Alt") --Twilight Elementalist's Cowl
@@ -235,6 +235,99 @@ local function LoadData()
     LBIS:AddItem(spec3, "220607", LBIS.L["Ranged/Relic"], "BIS") --Totem of Tormented Ancestry
     LBIS:AddItem(spec3, "209575", LBIS.L["Ranged/Relic"], "Alt") --Carved Driftwood Icon
     LBIS:AddItem(spec3, "215436", LBIS.L["Ranged/Relic"], "Alt") --Totem of Invigorating Flame
+
+    LBIS:AddItem(spec4, "220522", LBIS.L["Head"], "BIS") --Soulcatcher Crown
+    LBIS:AddItem(spec4, "220523", LBIS.L["Head"], "BIS") --Visage of the Exiled
+    LBIS:AddItem(spec4, "220514", LBIS.L["Head"], "BIS") --Visor of Verdant Feathers
+    LBIS:AddItem(spec4, "220521", LBIS.L["Head"], "Alt") --Hakkari Ritualist's Headdress
+    LBIS:AddItem(spec4, "223525", LBIS.L["Head"], "Alt") --Soothsayer's Headdress
+    LBIS:AddItem(spec4, "213279", LBIS.L["Head"], "Alt") --Reflective Skullcap
+    LBIS:AddItem(spec4, "217300", LBIS.L["Head"], "Alt") --Whitemane's Chapeau
+    LBIS:AddItem(spec4, "220744", LBIS.L["Shoulder"], "BIS") --Wailing Chain Mantle
+    LBIS:AddItem(spec4, "220749", LBIS.L["Shoulder"], "Alt") --Mantle of Insanity
+    LBIS:AddItem(spec4, "11842", LBIS.L["Shoulder"], "Alt") --Lead Surveyor's Mantle
+    LBIS:AddItem(spec4, "11624", LBIS.L["Shoulder"], "Alt") --Kentic Amice
+    LBIS:AddItem(spec4, "15061", LBIS.L["Shoulder"], "Alt") --Living Shoulders
+    LBIS:AddItem(spec4, "213301", LBIS.L["Shoulder"], "Alt") --Synthetic Mantle
+    LBIS:AddItem(spec4, "213413", LBIS.L["Shoulder"], "Alt") --Generously Padded Shoulderpads
+    LBIS:AddItem(spec4, "220608", LBIS.L["Back"], "BIS") --Featherskin Drape
+    LBIS:AddItem(spec4, "220611", LBIS.L["Back"], "Alt") --Hukku's Hex Cape
+    LBIS:AddItem(spec4, "19527", LBIS.L["Back"], "Alt") --Battle Healer's Cloak
+    LBIS:AddItem(spec4, "11623", LBIS.L["Back"], "Alt") --Spritecaster Cape
+    LBIS:AddItem(spec4, "213309", LBIS.L["Back"], "Alt") --Cloak of Invention
+    LBIS:AddItem(spec4, "220665", LBIS.L["Chest"], "BIS") --Corrupted Spiritweaver's Breastplate
+    LBIS:AddItem(spec4, "220660", LBIS.L["Chest"], "BIS") --Shunned Devotee's Chainshirt
+    LBIS:AddItem(spec4, "220534", LBIS.L["Chest"], "Alt") --Eternal Embrace of the Wind Serpent
+    LBIS:AddItem(spec4, "221395", LBIS.L["Chest"], "Alt") --Emerald Laden Breastplate
+    LBIS:AddItem(spec4, "220535", LBIS.L["Chest"], "Alt") --Garments of the Atal'ai Prophet
+    LBIS:AddItem(spec4, "223981", LBIS.L["Chest"], "Alt") --Flamestrider Robes
+    LBIS:AddItem(spec4, "213310", LBIS.L["Chest"], "Alt") --Hyperconductive Shimmershirt
+    LBIS:AddItem(spec4, "213315", LBIS.L["Chest"], "Alt") --Electromantic Chainshirt
+    LBIS:AddItem(spec4, "221025", LBIS.L["Wrist"], "BIS") --Void-Powered Invoker's Vambraces
+    LBIS:AddItem(spec4, "19596", LBIS.L["Wrist"], "Alt") --Dryad's Wrist Bindings
+    LBIS:AddItem(spec4, "220536", LBIS.L["Wrist"], "Alt") --Atal'ai Medicine Man's Wrists
+    LBIS:AddItem(spec4, "213415", LBIS.L["Wrist"], "Alt") --Tinker's Wrist Wraps
+    LBIS:AddItem(spec4, "213285", LBIS.L["Wrist"], "Alt") --Lev's Oil-Stained Bindings
+    LBIS:AddItem(spec4, "220548", LBIS.L["Hands"], "BIS") --Atal'ai Hexxer's Gloves
+    LBIS:AddItem(spec4, "220547", LBIS.L["Hands"], "Alt") --Gloves of the Fallen Atal'ai Prophet
+    LBIS:AddItem(spec4, "220544", LBIS.L["Hands"], "Alt") --Bloodflare Talons
+    LBIS:AddItem(spec4, "211455", LBIS.L["Hands"], "Alt") --Slick Fingerless Gloves
+    LBIS:AddItem(spec4, "10019", LBIS.L["Hands"], "Alt") --Dreamweave Gloves
+    LBIS:AddItem(spec4, "21318", LBIS.L["Hands"], "Alt") --Earth Warder's Gloves
+    LBIS:AddItem(spec4, "220553", LBIS.L["Waist"], "BIS") --Belt of the Forsaken Worshipper
+    LBIS:AddItem(spec4, "220551", LBIS.L["Waist"], "Alt") --Devotee's Sash of the Emerald Dream
+    LBIS:AddItem(spec4, "220549", LBIS.L["Waist"], "Alt") --Dawnspire Strap
+    LBIS:AddItem(spec4, "223192", LBIS.L["Waist"], "Alt") --Cord of the Untamed
+    LBIS:AddItem(spec4, "11662", LBIS.L["Waist"], "Alt") --Ban'thok Sash
+    LBIS:AddItem(spec4, "213414", LBIS.L["Waist"], "Alt") --Mech-Mender's Sash
+    LBIS:AddItem(spec4, "213324", LBIS.L["Waist"], "Alt") --Electromagnetic Waistcord
+    LBIS:AddItem(spec4, "220663", LBIS.L["Legs"], "BIS") --Corrupted Spiritweaver's Leggings
+    LBIS:AddItem(spec4, "220661", LBIS.L["Legs"], "BIS") --Shunned Devotee's Legguards
+    LBIS:AddItem(spec4, "220556", LBIS.L["Legs"], "Alt") --Kilt of the Fallen Atal'ai Prophet
+    LBIS:AddItem(spec4, "11841", LBIS.L["Legs"], "Alt") --Senior Designer's Pantaloons
+    LBIS:AddItem(spec4, "213334", LBIS.L["Legs"], "Alt") --Electromantic Gambeson
+    LBIS:AddItem(spec4, "10009", LBIS.L["Legs"], "Alt") --Red Mageweave Pants
+    LBIS:AddItem(spec4, "220662", LBIS.L["Feet"], "BIS") --Shunned Devotee's Scale Boots
+    LBIS:AddItem(spec4, "220664", LBIS.L["Feet"], "BIS") --Corrupted Spiritweaver's Sabatons
+    LBIS:AddItem(spec4, "213338", LBIS.L["Feet"], "BIS") --Electromantic Grounding Boots
+    LBIS:AddItem(spec4, "220565", LBIS.L["Feet"], "Alt") --Ethereal Mistwalker Boots
+    LBIS:AddItem(spec4, "223543", LBIS.L["Feet"], "Alt") --Vinerot Sandals
+    LBIS:AddItem(spec4, "213290", LBIS.L["Feet"], "Alt") --Acidic Waders
+    LBIS:AddItem(spec4, "220622", LBIS.L["Neck"], "BIS") --Perfectly Preserved Dragon's Eye
+    LBIS:AddItem(spec4, "223541", LBIS.L["Neck"], "Alt") --Gemshard Heart
+    LBIS:AddItem(spec4, "220623", LBIS.L["Neck"], "Alt") --Jin'do's Lost Locket
+    LBIS:AddItem(spec4, "213345", LBIS.L["Neck"], "Alt") --Piston Pendant
+    LBIS:AddItem(spec4, "213346", LBIS.L["Neck"], "Alt") --Pendant of Homecoming
+    LBIS:AddItem(spec4, "217301", LBIS.L["Neck"], "Alt") --Triune Amulet
+    LBIS:AddItem(spec4, "220629", LBIS.L["Ring"], "BIS") --Drakeclaw Band of the Blood Prophet
+    LBIS:AddItem(spec4, "220628", LBIS.L["Ring"], "BIS") --Drakeclaw Band of the Harbinger
+    LBIS:AddItem(spec4, "223985", LBIS.L["Ring"], "BIS") --Cyclopean Band
+    LBIS:AddItem(spec4, "213283", LBIS.L["Ring"], "Alt") --Hypercharged Gear of Conflagration
+    LBIS:AddItem(spec4, "213282", LBIS.L["Ring"], "Alt") --Hypercharged Gear of Innovation
+    LBIS:AddItem(spec4, "19519", LBIS.L["Ring"], "Alt") --Advisor's Ring
+    LBIS:AddItem(spec4, "19520", LBIS.L["Ring"], "Alt") --Advisor's Ring
+    LBIS:AddItem(spec4, "221308", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Overgrowth
+    LBIS:AddItem(spec4, "221463", LBIS.L["Trinket"], "BIS") --Ancestral Voodoo Doll
+    LBIS:AddItem(spec4, "220634", LBIS.L["Trinket"], "BIS") --Atal'ai Blood Ritual Charm
+    LBIS:AddItem(spec4, "223195", LBIS.L["Trinket"], "Alt") --Breadth of the Beast
+    LBIS:AddItem(spec4, "213347", LBIS.L["Trinket"], "Alt") --Miniaturized Combustion Chamber
+    LBIS:AddItem(spec4, "211451", LBIS.L["Trinket"], "Alt") --Acolyte's Void Pearl
+    LBIS:AddItem(spec4, "220579", LBIS.L["Main Hand"], "BIS") --Witch Doctor's Stick of Mojo
+    LBIS:AddItem(spec4, "220586", LBIS.L["Main Hand"], "Alt") --Hubris, the Bandit Brander
+    LBIS:AddItem(spec4, "213410", LBIS.L["Main Hand"], "Alt") --Glimmering Gizmoblade
+    LBIS:AddItem(spec4, "220587", LBIS.L["Main Hand"], "Alt") --Sacrificial Dream Dagger
+    LBIS:AddItem(spec4, "223964", LBIS.L["Main Hand"], "Alt") --Blade of Eternal Darkness
+    LBIS:AddItem(spec4, "223518", LBIS.L["Main Hand"], "Alt") --Charstone Dirk
+    LBIS:AddItem(spec4, "213352", LBIS.L["Main Hand"], "Alt") --Gear-Mender's Grace
+    LBIS:AddItem(spec4, "7721", LBIS.L["Main Hand"], "Alt") --Hand of Righteousness
+    LBIS:AddItem(spec4, "220602", LBIS.L["Off Hand"], "BIS") --Sewer Turtle Half-Shell
+    LBIS:AddItem(spec4, "7714", LBIS.L["Off Hand"], "BIS") --Hypnotic Blade
+    LBIS:AddItem(spec4, "213412", LBIS.L["Off Hand"], "Alt") --Dielectric Safety Shield
+    LBIS:AddItem(spec4, "220601", LBIS.L["Off Hand"], "Alt") --Hakkari Witch Doctor's Guard
+    LBIS:AddItem(spec4, "213351", LBIS.L["Off Hand"], "Alt") --Irradiated Tower Shield
+    LBIS:AddItem(spec4, "220607", LBIS.L["Ranged/Relic"], "BIS") --Totem of Tormented Ancestry
+    LBIS:AddItem(spec4, "209575", LBIS.L["Ranged/Relic"], "Alt") --Carved Driftwood Icon
+    LBIS:AddItem(spec4, "215436", LBIS.L["Ranged/Relic"], "Alt") --Totem of Invigorating Flame
 end
 if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
     LoadData();

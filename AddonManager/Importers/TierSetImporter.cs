@@ -11,6 +11,9 @@ public class TierSetImporter : LootImporter
     {
         { @"https://www.wowhead.com/classic/item=220636/atalai-ritual-token#currency-for", "Sunken Temple" },
         { @"https://www.wowhead.com/classic/item=220637/atalai-ritual-token#currency-for", "Sunken Temple" },
+        { @"https://www.wowhead.com/classic/item=227535/incandescent-robe#currency-for", ""},
+        { @"https://www.wowhead.com/classic/item=227766/scorched-core-chest#currency-for", ""},
+        { @"https://www.wowhead.com/classic/item=227758/molten-scaled-chest#currency-for", ""}
     };
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToText)

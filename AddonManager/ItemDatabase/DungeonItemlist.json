@@ -3490,7 +3490,7 @@
     },
     "13523": {
       "Name": "Blood of Innocents",
-      "Source": "Blood Steward of Kirtonos & Jandice Barov & Doctor Theolen Krastinov <The Butcher>",
+      "Source": "Blood Steward of Kirtonos & Jandice Barov & Doctor Theolen Krastinov",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Scholomance",
@@ -3962,7 +3962,7 @@
     },
     "14617": {
       "Name": "Sawbones Shirt",
-      "Source": "Doctor Theolen Krastinov <The Butcher>",
+      "Source": "Doctor Theolen Krastinov",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Scholomance",
@@ -4106,7 +4106,7 @@
     },
     "16684": {
       "Name": "Magister's Gloves",
-      "Source": "Doctor Theolen Krastinov <The Butcher>",
+      "Source": "Doctor Theolen Krastinov",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Scholomance",

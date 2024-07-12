@@ -138,7 +138,8 @@ public class DungeonImporter : LootImporter
     {
         {"Fel Steeds/Shadow Charger", "Fel Steeds & Shadow Charger"},
         {"Bannok Grimaxe", "Bannok Grimaxe (Rare)"},
-        {"The Rookery - Father Flame", "Solakar Flamewreath"}
+        {"The Rookery - Father Flame", "Solakar Flamewreath"},
+        { "Doctor Theolen Krastinov <The Butcher>", "Doctor Theolen Krastinov"},
     };
 
     private List<IHtmlAnchorElement> RecursivelyFindAnchors(IElement element)

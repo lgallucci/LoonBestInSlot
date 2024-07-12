@@ -4,15 +4,15 @@ local function LoadData()
     local spec3 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "3")
     local spec4 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "4")
 
-    LBIS:AddEnchant(spec3, "15404", LBIS.L["Head"]) --Lesser Arcanum of Voracity
-    LBIS:AddEnchant(spec3, "446459", LBIS.L["Shoulder"]) --Atal'ai Signet of Mojo
-    LBIS:AddEnchant(spec3, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
-    LBIS:AddEnchant(spec3, "13941", LBIS.L["Chest"]) --Enchant Chest - Stats
-    LBIS:AddEnchant(spec3, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
-    LBIS:AddEnchant(spec3, "19057", LBIS.L["Hands"]) --Armor +40
-    LBIS:AddEnchant(spec3, "15404", LBIS.L["Legs"]) --Lesser Arcane Amalgamation
-    LBIS:AddEnchant(spec3, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
-    LBIS:AddEnchant(spec3, "21931", LBIS.L["Main Hand"]) --Enchant Weapon - Winter's Might
+    LBIS:AddEnchant(spec4, "22844", LBIS.L["Head"]) --Arcanum of Focus
+    LBIS:AddEnchant(spec4, "446459", LBIS.L["Shoulder"]) --Atal'ai Signet of Mojo
+    LBIS:AddEnchant(spec4, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
+    LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
+    LBIS:AddEnchant(spec4, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
+    LBIS:AddEnchant(spec4, "19057", LBIS.L["Hands"]) --Armor +40
+    LBIS:AddEnchant(spec4, "22844", LBIS.L["Legs"]) --Arcanum of Focus
+    LBIS:AddEnchant(spec4, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
+    LBIS:AddEnchant(spec4, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
 
     LBIS:AddItem(spec1, "211842", LBIS.L["Head"], "BIS") --Rakkamar's Tattered Thinking Cap
     LBIS:AddItem(spec1, "209683", LBIS.L["Head"], "Alt") --Twilight Invoker's Shawl
@@ -233,6 +233,79 @@ local function LoadData()
     LBIS:AddItem(spec3, "220604", LBIS.L["Ranged/Relic"], "Alt") --Nightmare Trophy
     LBIS:AddItem(spec3, "7513", LBIS.L["Ranged/Relic"], "Alt") --Ragefire Wand
     LBIS:AddItem(spec3, "213559", LBIS.L["Ranged/Relic"], "Alt") --Mechanostrider Gear Shifter
+
+    LBIS:AddItem(spec4, "226935", LBIS.L["Head"], "BIS") --Sorcerer's Crown
+    LBIS:AddItem(spec4, "226562", LBIS.L["Head"], "Alt") --Arcanist Crown
+    LBIS:AddItem(spec4, "22267", LBIS.L["Head"], "Alt") --Spellweaver's Turban
+    LBIS:AddItem(spec4, "23263", LBIS.L["Head"], "Alt") --Champion's Silk Cowl
+    LBIS:AddItem(spec4, "23318", LBIS.L["Head"], "Alt") --Lieutenant Commander's Silk Cowl
+    LBIS:AddItem(spec4, "3075", LBIS.L["Head"], "Alt") --Eye of Flame
+    LBIS:AddItem(spec4, "227808", LBIS.L["Shoulder"], "BIS") --Rugged Mantle of the Timbermaw
+    LBIS:AddItem(spec4, "226560", LBIS.L["Shoulder"], "Alt") --Arcanist Mantle
+    LBIS:AddItem(spec4, "226936", LBIS.L["Shoulder"], "Alt") --Sorcerer's Mantle
+    LBIS:AddItem(spec4, "227104", LBIS.L["Shoulder"], "Alt") --Champion's Silk Mantle
+    LBIS:AddItem(spec4, "227102", LBIS.L["Shoulder"], "Alt") --Lieutenant Commander's Silk Mantle
+    LBIS:AddItem(spec4, "227869", LBIS.L["Back"], "BIS") --Brilliant Chromatic Cloak
+    LBIS:AddItem(spec4, "228100", LBIS.L["Back"], "Alt") --Drape of the Fire Lord
+    LBIS:AddItem(spec4, "13007", LBIS.L["Back"], "Alt") --Mageflame Cloak
+    LBIS:AddItem(spec4, "226559", LBIS.L["Chest"], "BIS") --Arcanist Robes
+    LBIS:AddItem(spec4, "228239", LBIS.L["Chest"], "BIS") --Robe of Volatile Power
+    LBIS:AddItem(spec4, "14152", LBIS.L["Chest"], "Alt") --Robe of the Archmage
+    LBIS:AddItem(spec4, "226932", LBIS.L["Chest"], "Alt") --Sorcerer's Robes
+    LBIS:AddItem(spec4, "220680", LBIS.L["Chest"], "Alt") --Malevolent Prophet's Vest
+    LBIS:AddItem(spec4, "22886", LBIS.L["Chest"], "Alt") --Legionnaire's Silk Tunic
+    LBIS:AddItem(spec4, "227108", LBIS.L["Chest"], "Alt") --Knight-Captain's Silk Tunic
+    LBIS:AddItem(spec4, "226929", LBIS.L["Wrist"], "BIS") --Sorcerer's Bindings
+    LBIS:AddItem(spec4, "228357", LBIS.L["Wrist"], "Alt") --Blacklight Bracer
+    LBIS:AddItem(spec4, "19595", LBIS.L["Wrist"], "Alt") --Dryad's Wrist Bindings
+    LBIS:AddItem(spec4, "226558", LBIS.L["Wrist"], "Alt") --Arcanist Bindings
+    LBIS:AddItem(spec4, "220538", LBIS.L["Wrist"], "Alt") --Cursed Slimescale Bracers
+    LBIS:AddItem(spec4, "226556", LBIS.L["Hands"], "BIS") --Arcanist Gloves
+    LBIS:AddItem(spec4, "228281", LBIS.L["Hands"], "Alt") --Gloves of the Hypnotic Flame
+    LBIS:AddItem(spec4, "18408", LBIS.L["Hands"], "Alt") --Inferno Gloves
+    LBIS:AddItem(spec4, "226930", LBIS.L["Hands"], "Alt") --Sorcerer's Gauntlets
+    LBIS:AddItem(spec4, "228190", LBIS.L["Waist"], "BIS") --Knowledge of the Timbermaw
+    LBIS:AddItem(spec4, "228256", LBIS.L["Waist"], "BIS") --Mana Igniting Cord
+    LBIS:AddItem(spec4, "226555", LBIS.L["Waist"], "Alt") --Arcanist Belt
+    LBIS:AddItem(spec4, "226934", LBIS.L["Waist"], "Alt") --Sorcerer's Belt
+    LBIS:AddItem(spec4, "228282", LBIS.L["Waist"], "Alt") --Sash of Whispered Secrets
+    LBIS:AddItem(spec4, "223192", LBIS.L["Waist"], "Alt") --Cord of the Untamed
+    LBIS:AddItem(spec4, "226561", LBIS.L["Legs"], "BIS") --Arcanist Leggings
+    LBIS:AddItem(spec4, "226933", LBIS.L["Legs"], "Alt") --Sorcerer's Leggings
+    LBIS:AddItem(spec4, "227107", LBIS.L["Legs"], "Alt") --Legionnaire's Silk Legguards
+    LBIS:AddItem(spec4, "23304", LBIS.L["Legs"], "Alt") --Knight-Captain's Silk Legguards
+    LBIS:AddItem(spec4, "226557", LBIS.L["Feet"], "BIS") --Arcanist Boots
+    LBIS:AddItem(spec4, "226931", LBIS.L["Feet"], "Alt") --Sorcerer's Sandals
+    LBIS:AddItem(spec4, "228384", LBIS.L["Feet"], "Alt") --Snowblind Shoes
+    LBIS:AddItem(spec4, "220681", LBIS.L["Feet"], "Alt") --Malevolent Prophet's Sandals
+    LBIS:AddItem(spec4, "227965", LBIS.L["Feet"], "Alt") --Omnicast Boots
+    LBIS:AddItem(spec4, "18814", LBIS.L["Neck"], "BIS") --Choker of the Fire Lord
+    LBIS:AddItem(spec4, "228247", LBIS.L["Neck"], "Alt") --Choker of Enlightenment
+    LBIS:AddItem(spec4, "23125", LBIS.L["Neck"], "Alt") --Chains of the Lich
+    LBIS:AddItem(spec4, "22403", LBIS.L["Neck"], "Alt") --Nacreous Shell Necklace
+    LBIS:AddItem(spec4, "228536", LBIS.L["Neck"], "Alt") --Star of Mystaria
+    LBIS:AddItem(spec4, "228287", LBIS.L["Ring"], "BIS") --Band of Sulfuras
+    LBIS:AddItem(spec4, "228687", LBIS.L["Ring"], "BIS") --Dragonslayer's Signet
+    LBIS:AddItem(spec4, "228076", LBIS.L["Ring"], "BIS") --Burning Ring of Fire
+    LBIS:AddItem(spec4, "228243", LBIS.L["Ring"], "BIS") --Ring of Spell Power
+    LBIS:AddItem(spec4, "228683", LBIS.L["Ring"], "Alt") --Rune Band of Wizardry
+    LBIS:AddItem(spec4, "228046", LBIS.L["Ring"], "Alt") --Don Mauricio's Band of Domination
+    LBIS:AddItem(spec4, "12926", LBIS.L["Ring"], "Alt") --Flaming Band
+    LBIS:AddItem(spec4, "228255", LBIS.L["Trinket"], "BIS") --Talisman of Ephemeral Power
+    LBIS:AddItem(spec4, "12930", LBIS.L["Trinket"], "BIS") --Briarwood Reed
+    LBIS:AddItem(spec4, "13968", LBIS.L["Trinket"], "BIS") --Eye of the Beast
+    LBIS:AddItem(spec4, "223195", LBIS.L["Trinket"], "Alt") --Breadth of the Beast
+    LBIS:AddItem(spec4, "227972", LBIS.L["Trinket"], "Alt") --Burst of Knowledge
+    LBIS:AddItem(spec4, "228166", LBIS.L["Main Hand"], "BIS") --Key to the City
+    LBIS:AddItem(spec4, "20220", LBIS.L["Main Hand"], "Alt") --Ironbark Staff
+    LBIS:AddItem(spec4, "228271", LBIS.L["Main Hand"], "Alt") --Staff of Dominance
+    LBIS:AddItem(spec4, "19311", LBIS.L["Off Hand"], "BIS") --Tome of Fiery Arcana
+    LBIS:AddItem(spec4, "220599", LBIS.L["Off Hand"], "Alt") --Drakestone of the Blood Prophet
+    LBIS:AddItem(spec4, "228548", LBIS.L["Off Hand"], "Alt") --Scepter of Interminable Focus
+    LBIS:AddItem(spec4, "228262", LBIS.L["Ranged/Relic"], "BIS") --Crimson Shocker
+    LBIS:AddItem(spec4, "11748", LBIS.L["Ranged/Relic"], "Alt") --Pyric Caduceus
+    LBIS:AddItem(spec4, "220604", LBIS.L["Ranged/Relic"], "Alt") --Nightmare Trophy
+    LBIS:AddItem(spec4, "13938", LBIS.L["Ranged/Relic"], "Alt") --Bonecreeper Stylus
 end
 if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
     LoadData();
