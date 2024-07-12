@@ -35,10 +35,6 @@ public class PvPImporter : LootImporter
         // { @"https://www.wowhead.com/classic/npc=14581/sergeant-thunderhorn#sells", ("H", "Battlegrounds") }
         // { @"https://www.wowhead.com/classic/npc=13219/jekyll-flandring#sells", ("H", "Alterac Mountains") },
         // { @"https://www.wowhead.com/classic/npc=13217/thanthaldis-snowgleam#sells", ("A", "Alterac Mountains") },
-        { @"https://www.wowhead.com/classic/npc=12792/lady-palanseer#sells", ("H", "Battlegrounds") },
-        { @"https://www.wowhead.com/classic/npc=12792/lady-palanseer#sells;50", ("H", "Battlegrounds") },
-        { @"https://www.wowhead.com/classic/npc=12792/lady-palanseer#sells;100", ("H", "Battlegrounds") },
-        { @"https://www.wowhead.com/classic/npc=12792/lady-palanseer#sells;150", ("H", "Battlegrounds") },
     };
 
     internal override string FileName { get => "PvPItemList"; }
