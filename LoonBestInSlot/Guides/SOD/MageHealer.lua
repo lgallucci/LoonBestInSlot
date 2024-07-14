@@ -237,7 +237,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "228357", LBIS.L["Wrist"], "Alt") --Blacklight Bracer
     LBIS:AddItem(spec4, "220538", LBIS.L["Wrist"], "Alt") --Cursed Slimescale Bracers
     LBIS:AddItem(spec4, "226556", LBIS.L["Hands"], "BIS") --Arcanist Gloves
-    LBIS:AddItem(spec4, "226569", LBIS.L["Hands/Waist"], "BIS") --Arcanist Handguards
+    LBIS:AddItem(spec4, "226569", LBIS.L["Hands"], "BIS") --Arcanist Handguards
     LBIS:AddItem(spec4, "226930", LBIS.L["Hands"], "Alt") --Sorcerer's Gauntlets
     LBIS:AddItem(spec4, "228256", LBIS.L["Waist"], "BIS") --Mana Igniting Cord
     LBIS:AddItem(spec4, "228190", LBIS.L["Waist"], "Alt") --Knowledge of the Timbermaw

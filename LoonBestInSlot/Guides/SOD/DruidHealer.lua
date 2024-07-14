@@ -346,7 +346,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "12554", LBIS.L["Hands"], "Alt") --Hands of the Exalted Herald
     LBIS:AddItem(spec4, "18309", LBIS.L["Hands"], "Alt") --Gloves of Restoration
     LBIS:AddItem(spec4, "220547", LBIS.L["Hands"], "Alt") --Gloves of the Fallen Atal'ai Prophet
-    LBIS:AddItem(spec4, "227837", LBIS.L["Waist"], "BIS") --Thick Corehound Belt
+    LBIS:AddItem(spec4, "19162", LBIS.L["Waist"], "BIS") --Corehound Belt
     LBIS:AddItem(spec4, "14553", LBIS.L["Waist"], "Alt") --Sash of Mercy
     LBIS:AddItem(spec4, "226650", LBIS.L["Waist"], "Alt") --Cenarion Belt
     LBIS:AddItem(spec4, "226780", LBIS.L["Waist"], "Alt") --Feralheart Cord
@@ -415,8 +415,8 @@ local function LoadData()
     LBIS:AddItem(spec4, "22406", LBIS.L["Two Hand"], "Alt") --Redemption
     LBIS:AddItem(spec4, "228544", LBIS.L["Two Hand"], "Alt") --Hammer of the Grand Crusader
     LBIS:AddItem(spec4, "11932", LBIS.L["Two Hand"], "Alt") --Guiding Stave of Wisdom
-    LBIS:AddItem(spec4, "22398", LBIS.L["Ranged/Relic"], "BIS") --Idol of Rejuvenation
-    LBIS:AddItem(spec4, "228183", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Grove
+    LBIS:AddItem(spec4, "228183", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Grove
+    LBIS:AddItem(spec4, "22398", LBIS.L["Ranged/Relic"], "Alt") --Idol of Rejuvenation
     LBIS:AddItem(spec4, "209576", LBIS.L["Ranged/Relic"], "Alt") --Mind-Expanding Mushroom
 end
 if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then

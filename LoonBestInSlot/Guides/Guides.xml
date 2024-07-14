@@ -27,6 +27,7 @@
 	<Script file="SOD\WarriorTank.lua" />
 
 <!-- Classic Era/Hardcore Guides -->
+	<Script file="ERA\WarriorProtection.lua" />
 
 
 </Ui>

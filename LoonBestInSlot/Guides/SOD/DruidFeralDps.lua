@@ -253,7 +253,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "13968", LBIS.L["Trinket"], "BIS") --Eye of the Beast
     LBIS:AddItem(spec4, "223195", LBIS.L["Trinket"], "Alt") --Breadth of the Beast
     LBIS:AddItem(spec4, "227683", LBIS.L["Two Hand"], "BIS") --Sulfuras, Hand of Ragnaros
-    LBIS:AddItem(spec4, "220596", LBIS.L["Two Hand/Ranged/Relic"], "BIS") --Ancient Divining Rod
+    LBIS:AddItem(spec4, "220596", LBIS.L["Two Hand"], "BIS") --Ancient Divining Rod
     LBIS:AddItem(spec4, "227833", LBIS.L["Two Hand"], "Alt") --Glaive of Obsidian Fury
     LBIS:AddItem(spec4, "228272", LBIS.L["Two Hand"], "Alt") --Shadowstrike
     LBIS:AddItem(spec4, "228230", LBIS.L["Two Hand"], "Alt") --Refined Hammer of the Titans

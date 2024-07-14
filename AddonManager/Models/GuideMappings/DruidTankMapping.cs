@@ -35,8 +35,8 @@ internal class DruidTankMapping : SpecMapping
     public override string Phase4Url => "tank-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "h3#weapons") },
-            { ("Ranged/Relic", "#relics") },
+            { ("Main Hand", "h3#weapon") },
+            { ("Ranged/Relic", "#relic") },
         };
 
     public override string Phase5Url => "tank-bis-gear-pve-phase-5";

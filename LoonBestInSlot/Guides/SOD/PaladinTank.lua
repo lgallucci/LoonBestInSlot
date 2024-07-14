@@ -268,6 +268,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "228260", LBIS.L["Hands"], "BIS") --Flameguard Gauntlets
     LBIS:AddItem(spec4, "226600", LBIS.L["Hands"], "Alt") --Lawbringer Grips
     LBIS:AddItem(spec4, "226608", LBIS.L["Hands"], "Alt") --Lawbringer Handguards
+    LBIS:AddItem(spec4, "226990", LBIS.L["Hands"], "Alt") --Soulforge Handguards
     LBIS:AddItem(spec4, "226597", LBIS.L["Waist"], "BIS") --Lawbringer Girdle
     LBIS:AddItem(spec4, "226604", LBIS.L["Waist"], "Alt") --Lawbringer Battlebelt
     LBIS:AddItem(spec4, "228295", LBIS.L["Waist"], "Alt") --Onslaught Girdle
@@ -288,7 +289,10 @@ local function LoadData()
     LBIS:AddItem(spec4, "19325", LBIS.L["Ring"], "Alt") --Don Julio's Band
     LBIS:AddItem(spec4, "220626", LBIS.L["Ring"], "Alt") --Drakeclaw Band of the Berserker
     LBIS:AddItem(spec4, "228080", LBIS.L["Ring"], "Alt") --Resin Loop
+    LBIS:AddItem(spec4, "228242", LBIS.L["Ring"], "Alt") --Heavy Dark Iron Ring
     LBIS:AddItem(spec4, "2246", LBIS.L["Ring"], "Alt") --Myrmidon's Signet
+    LBIS:AddItem(spec4, "228186", LBIS.L["Ring"], "Alt Thrt") --Abandoned Wedding Band
+    LBIS:AddItem(spec4, "216673", LBIS.L["Ring"], "Alt") --Talvash's Brilliant Gold Ring
     LBIS:AddItem(spec4, "22331", LBIS.L["Ring"], "Alt Mit") --Band of the Steadfast Hero
     LBIS:AddItem(spec4, "228057", LBIS.L["Ring"], "Alt") --Ring of Demonic Potency
     LBIS:AddItem(spec4, "228686", LBIS.L["Trinket"], "BIS Stam") --Onyxia Blood Talisman
@@ -306,8 +310,8 @@ local function LoadData()
     LBIS:AddItem(spec4, "221442", LBIS.L["Trinket"], "Alt Stam") --Roar of the Guardian
     LBIS:AddItem(spec4, "220633", LBIS.L["Trinket"], "Alt Mit") --Atal'ai Blood Ritual Badge
     LBIS:AddItem(spec4, "213350", LBIS.L["Trinket"], "Alt Stam") --Wirdal's Hardened Core
-    LBIS:AddItem(spec4, "227887", LBIS.L["Main Hand"], "BIS") --Hardened Frostguard
-    LBIS:AddItem(spec4, "227840", LBIS.L["Main Hand"], "Alt") --Implacable Blackguard
+    LBIS:AddItem(spec4, "227840", LBIS.L["Main Hand"], "BIS") --Implacable Blackguard
+    LBIS:AddItem(spec4, "227887", LBIS.L["Main Hand"], "Alt") --Hardened Frostguard
     LBIS:AddItem(spec4, "228139", LBIS.L["Main Hand"], "Alt") --Fist of the Firesworn
     LBIS:AddItem(spec4, "228266", LBIS.L["Off Hand"], "BIS") --Drillborer Disk
     LBIS:AddItem(spec4, "19321", LBIS.L["Off Hand"], "Alt") --The Immovable Object

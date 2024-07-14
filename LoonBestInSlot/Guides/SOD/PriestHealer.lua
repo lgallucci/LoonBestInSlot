@@ -494,14 +494,13 @@ local function LoadData()
     LBIS:AddItem(spec4, "228298", LBIS.L["Trinket"], "BIS") --Shard of the Scale
     LBIS:AddItem(spec4, "228297", LBIS.L["Trinket"], "BIS") --Shard of the Flame
     LBIS:AddItem(spec4, "18469", LBIS.L["Trinket"], "Alt") --Royal Seal of Eldre'Thalas
-    LBIS:AddItem(spec4, "19288", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Blue Dragon
     LBIS:AddItem(spec4, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
     LBIS:AddItem(spec4, "221308", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Overgrowth
     LBIS:AddItem(spec4, "228188", LBIS.L["Trinket"], "Alt") --Prestor's Hairpin
     LBIS:AddItem(spec4, "228255", LBIS.L["Trinket"], "Alt") --Talisman of Ephemeral Power
     LBIS:AddItem(spec4, "228264", LBIS.L["Main Hand"], "BIS") --Aurastone Hammer
+    LBIS:AddItem(spec4, "228168", LBIS.L["Main Hand"], "BIS") --Goblin Gear Grinder
     LBIS:AddItem(spec4, "17070", LBIS.L["Main Hand"], "Alt") --Fang of the Mystics
-    LBIS:AddItem(spec4, "228168", LBIS.L["Main Hand"], "Alt") --Goblin Gear Grinder
     LBIS:AddItem(spec4, "228263", LBIS.L["Main Hand"], "Alt") --Sorcerous Dagger
     LBIS:AddItem(spec4, "11923", LBIS.L["Main Hand"], "Alt") --The Hammer of Grace
     LBIS:AddItem(spec4, "19312", LBIS.L["Off Hand"], "BIS") --Lei of the Lifegiver
