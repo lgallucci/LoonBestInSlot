@@ -6,7 +6,8 @@ using PuppeteerSharp;
 namespace AddonManager;
 public static class Common
 {
-    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)    {
+    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null)    
+    {
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
@@ -18,12 +19,12 @@ public static class Common
             int count = 0;
             foreach (var pageAddress in pageAddresses)
             {
-                await RetryPageLoad(browser, pageAddress, func, writeToLog, cancelToken, ++count, total, waitForIdle);                
+                await RetryPageLoad(browser, pageAddress, func, writeToLog, cancelToken, ++count, total);                
             }
         }
     }
 
-    internal static async Task LoadFromWebPage(string pageAddress, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)
+    internal static async Task LoadFromWebPage(string pageAddress, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null)
     {
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
@@ -32,11 +33,11 @@ public static class Common
             IgnoreHTTPSErrors = true,
         }))
         {
-            await RetryPageLoad(browser, pageAddress, func,  writeToLog, cancelToken, 1, 1, waitForIdle);
+            await RetryPageLoad(browser, pageAddress, func,  writeToLog, cancelToken, 1, 1);
         }
     }
 
-    private static async Task RetryPageLoad(Browser browser, string pageAddress, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken, int count, int total, bool waitForIdle)
+    private static async Task RetryPageLoad(IBrowser browser, string pageAddress, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken, int count, int total)
     {
         for(var i = 0; i < 3; i++)
         {
@@ -52,10 +53,10 @@ public static class Common
                 try 
                 {
                     page.DefaultTimeout = 30000; // or you can set this as 0
-                    if (waitForIdle)
-                        await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
-                    else
-                        await page.GoToAsync(pageAddress, WaitUntilNavigation.DOMContentLoaded);
+
+                    await page.GoToAsync(pageAddress);
+                    await page.WaitForSelectorAsync("#main-contents");
+
                     var content = await page.GetContentAsync();
 
                     System.Diagnostics.Debug.WriteLine($"Retrieved Content ({content.Substring(0, 10)})...");
@@ -109,16 +110,6 @@ public static class Common
         await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadDroppedByList(doc, uri, func), writeToLog);
     }
 
-    internal static async Task ReadEvoWowSellsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
-    {
-        await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
-        {
-            var rowElements = doc.QuerySelectorAll("#tab-currency-for .listview-mode-default tr");
-
-            ReadEvoWowItemsList(doc, uri, rowElements, func);
-        }, writeToLog);
-    }
-
     internal static async Task ReadWowheadSellsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
     {
         await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadSellsList(doc, uri, func), writeToLog);
@@ -126,6 +117,7 @@ public static class Common
 
     internal static void ReadWowheadSellsList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
     {
+        
         var rowElements = doc.QuerySelectorAll("#tab-sells .listview-mode-default .listview-row");
 
         ReadWowheadItemsList(doc, uri, rowElements, func);

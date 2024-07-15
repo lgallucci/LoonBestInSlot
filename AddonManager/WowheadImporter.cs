@@ -110,7 +110,7 @@ public static class WowheadImporter
             {
                 logFunc($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
             }
-        }, logFunc, cancelToken, false);
+        }, logFunc, cancelToken);
 
         logFunc($"Done!");
     }
@@ -131,7 +131,7 @@ public static class WowheadImporter
             {
                 logFunc($"{classGuide.ClassName} {classGuide.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
             }
-        }, logFunc, cancelToken, false);
+        }, logFunc, cancelToken);
 
         return result;
     }
@@ -333,6 +333,8 @@ public static class WowheadImporter
         ItemSourceFileManager.WriteItemSources(itemSources);
     }
 
+    private static List<string> allianceCities = new List<string> { "Ironforge", "Stormwind", "Darnassus"};
+    private static List<string> hordeCities  = new List<string> { "Orgrimmar", "Thunder Bluff", "Undercity"};
     public static async Task UpdateItemsFromWowhead(CancellationToken cancelToken, Action<string> writeToLog)
     {
         var itemSources = ItemSourceFileManager.ReadItemSources();
@@ -347,7 +349,7 @@ public static class WowheadImporter
             {
                 var name = doc.Title?.Split("-")[0].Trim() ?? "unknown";
                 var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/classic/item=", "").TrimEnd('/'));
-                    var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
+                var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
                 
                 itemSources[itemId].Name = name;
                 if (rowElements != null && rowElements.Length > 0)
@@ -400,9 +402,13 @@ public static class WowheadImporter
                         var sourceLocation = string.Empty;
                         foreach(var row in rowElements)
                         {
-                            if (row.Children[3].HasChildNodes && row.Children[3].Children[0].ClassName == "icon-alliance" && string.IsNullOrWhiteSpace(faction))
+                            if (row.Children[3].HasChildNodes && row.Children[3].Children.Length > 0 && row.Children[3].Children[0].ClassName == "icon-alliance" && string.IsNullOrWhiteSpace(faction) && faction == string.Empty)
                                 faction = "A";
-                            else if (row.Children[3].HasChildNodes && row.Children[3].Children[0].ClassName == "icon-horde" && string.IsNullOrWhiteSpace(faction))
+                            else if (row.Children[3].HasChildNodes && row.Children[3].Children.Length > 0 && row.Children[3].Children[0].ClassName == "icon-horde" && string.IsNullOrWhiteSpace(faction) && faction == string.Empty)
+                                faction = "H";
+                            else if (allianceCities.Contains(row.Children[7].TextContent) && faction == string.Empty)
+                                faction = "A";
+                            else if (hordeCities.Contains(row.Children[7].TextContent) && faction == string.Empty)
                                 faction = "H";
                             else 
                                 faction = "B";
@@ -443,7 +449,7 @@ public static class WowheadImporter
                                                                 "scarlet monastery", "razorfen downs", "uldaman", 
                                                                 "zul'farrak", "the temple of atal'hakkar", "blackrock depths", 
                                                                 "lower blackrock spire", "upper blackrock spire", "scholomance",
-                                                                "stratholme live", "stratholme undead",
+                                                                "stratholme live", "stratholme undead", "blackrock spire",
                                                                 "dire maul: east", "dire maul: west", "dire maul: north" };
     private static bool IsDungeonName(string location)
     {

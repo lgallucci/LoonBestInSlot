@@ -130,7 +130,7 @@ public class DungeonImporter : LootImporter
 
                 AddLootItems(element, dungeonUriList[uri].Item1, bossName, nextBoss, items);
             }
-        }, writeToLog, null, false);
+        }, writeToLog, null);
         return items;
     }
 

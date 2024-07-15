@@ -16,9 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AngleSharp" Version="0.16.1" />
+    <PackageReference Include="AngleSharp" Version="1.1.2" />
     <PackageReference Include="CsvHelper" Version="30.0.1" />
-    <PackageReference Include="PuppeteerSharp" Version="7.1.0" />
+    <PackageReference Include="PuppeteerSharp" Version="18.0.3" />
   </ItemGroup>
 
   <ItemGroup>
