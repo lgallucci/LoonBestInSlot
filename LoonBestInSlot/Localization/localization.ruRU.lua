@@ -714,7 +714,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Warder Stilgiss"] = "Тюремщик Стилгисс";
 --  LBIS.L["Warlock Spell"] = "";
   LBIS.L["Warlord's Command"] = "Приказ полководца";
-  LBIS.L["Warrior "] = "Воин";
   LBIS.L["Warsong Gulch"] = "Ущелье Песни Войны";
 --  LBIS.L["Warsong Gulch Marks"] = "";
   LBIS.L["Warsong Supplies"] = "Поставка для клана Песни Войны";

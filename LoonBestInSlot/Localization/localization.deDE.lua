@@ -714,7 +714,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Warder Stilgiss"] = "Wärter Stilgiss";
 --  LBIS.L["Warlock Spell"] = "";
   LBIS.L["Warlord's Command"] = "Befehl des Kriegsherrn";
-  LBIS.L["Warrior "] = "Krieger";
   LBIS.L["Warsong Gulch"] = "Die Kriegshymnenschlucht";
   LBIS.L["Warsong Gulch Marks"] = "Spuren der Kriegshymnenschlucht";
   LBIS.L["Warsong Supplies"] = "Nachschub des Kriegshymnenklans";

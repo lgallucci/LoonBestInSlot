@@ -714,7 +714,6 @@ if GetLocale() == "esES" then
   LBIS.L["Warder Stilgiss"] = "Guarda Stilgiss";
 --  LBIS.L["Warlock Spell"] = "";
   LBIS.L["Warlord's Command"] = "La orden del Señor de la Guerra";
-  LBIS.L["Warrior "] = "LOCALIZED_CLASS_NAMES_MALE.WARRIOR";
   LBIS.L["Warsong Gulch"] = "Garganta Grito de Guerra";
   LBIS.L["Warsong Gulch Marks"] = "Marcas de la Quebrada Grito de Guerra";
   LBIS.L["Warsong Supplies"] = "Suministros Grito de Guerra";

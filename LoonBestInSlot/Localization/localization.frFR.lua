@@ -714,7 +714,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Warder Stilgiss"] = "Gardien Stilgiss";
 --  LBIS.L["Warlock Spell"] = "";
   LBIS.L["Warlord's Command"] = "Ordre du chef de guerre";
-  LBIS.L["Warrior "] = "Guerrier";
   LBIS.L["Warsong Gulch"] = "Goulet des Chanteguerres";
 --  LBIS.L["Warsong Gulch Marks"] = "";
   LBIS.L["Warsong Supplies"] = "Fournitures Chanteguerre";

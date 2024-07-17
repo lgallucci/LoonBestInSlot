@@ -714,7 +714,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Warder Stilgiss"] = "문지기 스틸기스";
 --  LBIS.L["Warlock Spell"] = "";
   LBIS.L["Warlord's Command"] = "장군의 명령";
-  LBIS.L["Warrior "] = "전사";
   LBIS.L["Warsong Gulch"] = "전쟁노래 협곡";
   LBIS.L["Warsong Gulch Marks"] = "전쟁노래 협곡 명예 훈장";
   LBIS.L["Warsong Supplies"] = "전쟁노래부족 보급품";

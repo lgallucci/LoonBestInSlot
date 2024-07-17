@@ -714,7 +714,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Warder Stilgiss"] = "典狱官斯迪尔基斯";
 --  LBIS.L["Warlock Spell"] = "";
   LBIS.L["Warlord's Command"] = "高图斯的命令";
-  LBIS.L["Warrior "] = "LOCALIZED_CLASS_NAMES_MALE.WARRIOR";
   LBIS.L["Warsong Gulch"] = "战歌峡谷";
 --  LBIS.L["Warsong Gulch Marks"] = "";
   LBIS.L["Warsong Supplies"] = "战歌氏族的补给品";
