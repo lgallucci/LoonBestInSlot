@@ -75,7 +75,7 @@ public class DungeonImporter : LootImporter
         "Lord Alexei Barov","Lady Illucia Barov", "Darkmaster Gandling", "Noteworthy Trash Mobs in Scholomance"})},
 
         { @"https://www.wowhead.com/classic/guide/stratholme-live-dungeon-strategy-wow-classic", ("Stratholme Live", 
-        new List<string>{"Skul (rare)","Hearthsinger Forresten (rare)","The Unforgiven","Balzaphon (scourge event only)",
+        new List<string>{"Skul (Rare)","Hearthsinger Forresten (Rare)","The Unforgiven","Balzaphon (scourge event only)",
         "Postmaster Malown","Timmy the Cruel","Cannon Master Willey","Archivist Galford","Grand Crusader Dathrohan/Balnazzar",
         "Jarien and Sothos","Noteworthy Stratholme Live BoE Loot",})},
 

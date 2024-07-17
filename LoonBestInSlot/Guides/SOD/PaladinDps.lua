@@ -323,6 +323,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "227683", LBIS.L["Two Hand"], "BIS") --Sulfuras, Hand of Ragnaros
     LBIS:AddItem(spec4, "228347", LBIS.L["Two Hand"], "BIS") --Typhoon
     LBIS:AddItem(spec4, "228125", LBIS.L["Two Hand"], "BIS") --Refined Arcanite Champion
+    LBIS:AddItem(spec4, "228410", LBIS.L["Two Hand"], "Alt") --Dreadblade of the Destructor
     LBIS:AddItem(spec4, "228460", LBIS.L["Two Hand"], "Alt") --Spinal Reaper
     LBIS:AddItem(spec4, "228230", LBIS.L["Two Hand"], "Alt") --Refined Hammer of the Titans
     LBIS:AddItem(spec4, "228229", LBIS.L["Two Hand"], "Alt") --Obsidian Edged Blade
