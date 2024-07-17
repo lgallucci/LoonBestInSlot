@@ -915,7 +915,10 @@
       "Timmy the Cruel": "Timmy el Cruel",
       "Veteran's Battlegear": "Equipamiento de Veterano",
       "Warrior ": "LOCALIZED_CLASS_NAMES_MALE.WARRIOR",
-      "Ysondre": "Ysondre"
+      "Ysondre": "Ysondre",
+      "Hearthsinger Forresten (Rare)": "Escupezones Foreste (Raro)",
+      "Skul (Rare)": "Skul (Raro)",
+      "The Darkreaver Menace": "La amenaza de Atracoscuro"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -1804,7 +1807,10 @@
       "Timmy the Cruel": "Timmy el Cruel",
       "Veteran's Battlegear": "Equipamiento de Veterano",
       "Warrior ": "LOCALIZED_CLASS_NAMES_MALE.WARRIOR",
-      "Ysondre": "Ysondre"
+      "Ysondre": "Ysondre",
+      "Hearthsinger Forresten (Rare)": "Cantachimeneas Forresten (Raro)",
+      "Skul (Rare)": "Skul (Raro)",
+      "The Darkreaver Menace": "La amenaza de Atracoscuro"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -2771,7 +2777,10 @@
       "Timmy the Cruel": "Timmy der Grausame",
       "Veteran's Battlegear": "Schlachtrüstung des Veteranen",
       "Warrior ": "Krieger",
-      "Ysondre": "Ysondre"
+      "Ysondre": "Ysondre",
+      "Hearthsinger Forresten (Rare)": "Herdsinger Forresten (Selten)",
+      "Skul (Rare)": "Skul (Selten)",
+      "The Darkreaver Menace": "Die Bedrohung durch Schattensichel"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -3673,7 +3682,10 @@
       "Timmy the Cruel": "Timmy le Cruel",
       "Veteran's Battlegear": "La tenue de combat de vétéran",
       "Warrior ": "Guerrier",
-      "Ysondre": "Ysondre"
+      "Ysondre": "Ysondre",
+      "Hearthsinger Forresten (Rare)": "Hearthsinger Forresten (Rare)",
+      "Skul (Rare)": "Krân (Rare)",
+      "The Darkreaver Menace": "La menace de Ravassombre"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -4571,7 +4583,10 @@
       "Timmy the Cruel": "Тимми Жестокий",
       "Veteran's Battlegear": "Броня ветерана",
       "Warrior ": "Воин",
-      "Ysondre": "Исондра"
+      "Ysondre": "Исондра",
+      "Hearthsinger Forresten (Rare)": "Певчий Форрестен (Редкое)",
+      "Skul (Rare)": "Череп (Редкое)",
+      "The Darkreaver Menace": "Угроза Темного Губителя"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -5469,7 +5484,10 @@
       "Timmy the Cruel": "悲惨的提米",
       "Veteran's Battlegear": "精兵的装备",
       "Warrior ": "LOCALIZED_CLASS_NAMES_MALE.WARRIOR",
-      "Ysondre": "绿龙"
+      "Ysondre": "绿龙",
+      "Hearthsinger Forresten (Rare)": "弗雷斯特恩 (精良)",
+      "Skul (Rare)": "斯库尔 (精良)",
+      "The Darkreaver Menace": "达克雷尔的威胁"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -6460,7 +6478,10 @@
       "Timmy the Cruel": "잔혹한 티미",
       "Veteran's Battlegear": "정예 용사의 전투장비",
       "Warrior ": "전사",
-      "Ysondre": "이손드레"
+      "Ysondre": "이손드레",
+      "Hearthsinger Forresten (Rare)": "하스싱어 포레스턴 (희귀)",
+      "Skul (Rare)": "스컬 (희귀)",
+      "The Darkreaver Menace": "다크리버의 위협"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -7357,7 +7378,10 @@
       "Timmy the Cruel": "悲慘的提米",
       "Veteran's Battlegear": "精兵的裝備",
       "Warrior ": "戰士",
-      "Ysondre": "伊索德雷"
+      "Ysondre": "伊索德雷",
+      "Hearthsinger Forresten (Rare)": "弗雷斯特恩 (精良)",
+      "Skul (Rare)": "斯庫爾 (精良)",
+      "The Darkreaver Menace": "達克雷爾的威脅"
     }
   }
 }

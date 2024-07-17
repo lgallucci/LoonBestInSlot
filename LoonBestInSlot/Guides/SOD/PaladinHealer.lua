@@ -9,11 +9,10 @@ local function LoadData()
     LBIS:AddEnchant(spec4, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
     LBIS:AddEnchant(spec4, "13941", LBIS.L["Chest"]) --Enchant Chest - Stats
     LBIS:AddEnchant(spec4, "23802", LBIS.L["Wrist"]) --Enchant Bracer - Healing Power
-    LBIS:AddEnchant(spec4, "13887", LBIS.L["Hands"]) --Enchant Gloves - Strength
     LBIS:AddEnchant(spec4, "15404", LBIS.L["Legs"]) --Lesser Arcanum of Voracity
     LBIS:AddEnchant(spec4, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec4, "23804", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Intellect
-    LBIS:AddEnchant(spec4, "20017", LBIS.L["Off Hand"]) --Enchant Shield - Greater Stamina
+    LBIS:AddEnchant(spec4, "463871", LBIS.L["Off Hand"]) --Enchant Shield - Law of Nature
 
     LBIS:AddItem(spec1, "211507", LBIS.L["Head"], "BIS") --Twilight Elementalist's Cowl
     LBIS:AddItem(spec1, "211842", LBIS.L["Head"], "Alt") --Rakkamar's Tattered Thinking Cap
@@ -161,12 +160,14 @@ local function LoadData()
     LBIS:AddItem(spec3, "215435", LBIS.L["Ranged/Relic"], "BIS") --Libram of Benediction
 
     LBIS:AddItem(spec4, "228385", LBIS.L["Head"], "BIS") --Crystal Adorned Crown
+    LBIS:AddItem(spec4, "226590", LBIS.L["Head"], "Alt") --Lawbringer Helm
     LBIS:AddItem(spec4, "226981", LBIS.L["Head"], "Alt") --Soulforge Crown
     LBIS:AddItem(spec4, "220512", LBIS.L["Head"], "Alt") --Immaculate Goldsteel Helmet
     LBIS:AddItem(spec4, "220522", LBIS.L["Head"], "Alt") --Soulcatcher Crown
     LBIS:AddItem(spec4, "18490", LBIS.L["Head"], "Alt") --Insightful Hood
-    LBIS:AddItem(spec4, "228283", LBIS.L["Shoulder"], "BIS") --Wild Growth Spaulders
-    LBIS:AddItem(spec4, "226979", LBIS.L["Shoulder"], "Alt") --Soulforge Epaulets
+    LBIS:AddItem(spec4, "226979", LBIS.L["Shoulder"], "BIS") --Soulforge Epaulets
+    LBIS:AddItem(spec4, "226588", LBIS.L["Shoulder"], "BIS") --Lawbringer Spaulders
+    LBIS:AddItem(spec4, "228283", LBIS.L["Shoulder"], "Alt") --Wild Growth Spaulders
     LBIS:AddItem(spec4, "220739", LBIS.L["Shoulder"], "Alt") --Baleful Pauldrons
     LBIS:AddItem(spec4, "220744", LBIS.L["Shoulder"], "Alt") --Wailing Chain Mantle
     LBIS:AddItem(spec4, "22234", LBIS.L["Shoulder"], "Alt") --Mantle of Lost Hope
@@ -175,23 +176,29 @@ local function LoadData()
     LBIS:AddItem(spec4, "220608", LBIS.L["Back"], "Alt") --Featherskin Drape
     LBIS:AddItem(spec4, "228664", LBIS.L["Back"], "Alt") --Frostweaver Cape
     LBIS:AddItem(spec4, "226984", LBIS.L["Chest"], "BIS") --Soulforge Embrace
+    LBIS:AddItem(spec4, "226610", LBIS.L["Chest"], "BIS") --Lawbringer Chestplate
     LBIS:AddItem(spec4, "13346", LBIS.L["Chest"], "Alt") --Robes of the Exalted
     LBIS:AddItem(spec4, "220650", LBIS.L["Chest"], "Alt") --Obsessed Prophet's Chestplate
-    LBIS:AddItem(spec4, "226977", LBIS.L["Wrist"], "BIS") --Soulforge Bindings
+    LBIS:AddItem(spec4, "226589", LBIS.L["Wrist"], "BIS") --Lawbringer Bracers
+    LBIS:AddItem(spec4, "226977", LBIS.L["Wrist"], "Alt") --Soulforge Bindings
     LBIS:AddItem(spec4, "18459", LBIS.L["Wrist"], "Alt") --Gallant's Wristguards
     LBIS:AddItem(spec4, "228532", LBIS.L["Wrist"], "Alt") --Morlune's Bracer
-    LBIS:AddItem(spec4, "226982", LBIS.L["Hands"], "BIS") --Soulforge Fists
+    LBIS:AddItem(spec4, "226591", LBIS.L["Hands"], "BIS") --Lawbringer Gauntlets
+    LBIS:AddItem(spec4, "226982", LBIS.L["Hands"], "Alt") --Soulforge Fists
     LBIS:AddItem(spec4, "18527", LBIS.L["Hands"], "Alt") --Harmonious Gauntlets
     LBIS:AddItem(spec4, "220546", LBIS.L["Hands"], "Alt") --Hands of the Tormented
-    LBIS:AddItem(spec4, "19162", LBIS.L["Waist"], "BIS") --Corehound Belt
-    LBIS:AddItem(spec4, "14553", LBIS.L["Waist"], "Alt") --Sash of Mercy
+    LBIS:AddItem(spec4, "226592", LBIS.L["Waist"], "BIS") --Lawbringer Belt
     LBIS:AddItem(spec4, "226978", LBIS.L["Waist"], "Alt") --Soulforge Cord
+    LBIS:AddItem(spec4, "19162", LBIS.L["Waist"], "Alt") --Corehound Belt
+    LBIS:AddItem(spec4, "14553", LBIS.L["Waist"], "Alt") --Sash of Mercy
     LBIS:AddItem(spec4, "220551", LBIS.L["Waist"], "Alt") --Devotee's Sash of the Emerald Dream
-    LBIS:AddItem(spec4, "226980", LBIS.L["Legs"], "BIS") --Soulforge Leggings
+    LBIS:AddItem(spec4, "226594", LBIS.L["Legs"], "BIS") --Lawbringer Legplates
+    LBIS:AddItem(spec4, "226980", LBIS.L["Legs"], "Alt") --Soulforge Leggings
     LBIS:AddItem(spec4, "18386", LBIS.L["Legs"], "Alt") --Padre's Trousers
     LBIS:AddItem(spec4, "228040", LBIS.L["Legs"], "Alt") --Ghostloom Leggings
     LBIS:AddItem(spec4, "228044", LBIS.L["Legs"], "Alt") --Maelstrom Leggings
-    LBIS:AddItem(spec4, "226983", LBIS.L["Feet"], "BIS") --Soulforge Treads
+    LBIS:AddItem(spec4, "226593", LBIS.L["Feet"], "BIS") --Lawbringer Boots
+    LBIS:AddItem(spec4, "226983", LBIS.L["Feet"], "Alt") --Soulforge Treads
     LBIS:AddItem(spec4, "22247", LBIS.L["Feet"], "Alt") --Faith Healer's Boots
     LBIS:AddItem(spec4, "18507", LBIS.L["Feet"], "Alt") --Boots of the Full Moon
     LBIS:AddItem(spec4, "13954", LBIS.L["Feet"], "Alt") --Verdant Footpads
@@ -214,10 +221,11 @@ local function LoadData()
     LBIS:AddItem(spec4, "11923", LBIS.L["Main Hand"], "Alt") --The Hammer of Grace
     LBIS:AddItem(spec4, "22315", LBIS.L["Main Hand"], "Alt") --Hammer of Revitalization
     LBIS:AddItem(spec4, "228294", LBIS.L["Off Hand"], "BIS") --Malistar's Defender
-    LBIS:AddItem(spec4, "220599", LBIS.L["Off Hand"], "Alt") --Drakestone of the Blood Prophet
     LBIS:AddItem(spec4, "220602", LBIS.L["Off Hand"], "Alt") --Sewer Turtle Half-Shell
+    LBIS:AddItem(spec4, "220599", LBIS.L["Off Hand"], "Alt") --Drakestone of the Blood Prophet
     LBIS:AddItem(spec4, "18523", LBIS.L["Off Hand"], "Alt") --Brightly Glowing Stone
-    LBIS:AddItem(spec4, "23201", LBIS.L["Ranged/Relic"], "BIS") --Libram of Divinity
+    LBIS:AddItem(spec4, "228175", LBIS.L["Ranged/Relic"], "BIS") --Libram of Holy Alacrity
+    LBIS:AddItem(spec4, "23201", LBIS.L["Ranged/Relic"], "Alt") --Libram of Divinity
     LBIS:AddItem(spec4, "215435", LBIS.L["Ranged/Relic"], "Alt") --Libram of Benediction
 end
 if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
