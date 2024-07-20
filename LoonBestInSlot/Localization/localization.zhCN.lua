@@ -150,6 +150,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Deadwind Warlock"] = "";
   LBIS.L["Deadwood of the North"] = "北方的死木熊怪";
   LBIS.L["Death From Below"] = "水下伏兵";
+  LBIS.L["Death Knight Darkreaver"] = "死亡骑士达克雷尔";
   LBIS.L["Death Speaker Jargba"] = "亡语者贾格巴";
   LBIS.L["Deathsworn Captain (Rare)"] = "死亡之誓 (精良)";
 --  LBIS.L["Defias Enchanter"] = "";
@@ -165,6 +166,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Diathorus the Seeker"] = "";
   LBIS.L["Dig Rat Stew"] = "掘地鼠炖肉";
   LBIS.L["Digmaster Shovelphlange"] = "挖掘专家舒尔弗拉格";
+--  LBIS.L["Diplomat Ring"] = "";
   LBIS.L["Dire Maul"] = "厄运之槌";
   LBIS.L["Dire Maul East"] = "厄运之槌 东";
   LBIS.L["Dire Maul North"] = "厄运之槌 北";
@@ -520,6 +522,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Rotgrip"] = "洛特格里普";
   LBIS.L["Samophlange Manual"] = "主动式负载平衡器说明书";
   LBIS.L["Saving Sharpbeak"] = "拯救沙普比克";
+  LBIS.L["Saving the Best for Last"] = "最后的奖赏";
   LBIS.L["Saving Yenniku"] = "拯救耶尼库";
 --  LBIS.L["Scapula of the Fallen Avatar"] = "";
 --  LBIS.L["Scarlet Centurion"] = "";
@@ -583,6 +586,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Stormwind"] = "暴风城";
   LBIS.L["Stormwind City"] = "暴风城";
   LBIS.L["Stranglethorn Vale"] = "荆棘谷";
+  LBIS.L["Stratholme"] = "斯坦索姆";
 --  LBIS.L["Stratholme Live"] = "";
 --  LBIS.L["Stratholme Undead"] = "";
 --  LBIS.L["STX-04/BD"] = "";

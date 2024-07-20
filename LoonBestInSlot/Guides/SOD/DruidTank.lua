@@ -294,6 +294,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "227833", LBIS.L["Main Hand"], "Alt") --Glaive of Obsidian Fury
     LBIS:AddItem(spec4, "228272", LBIS.L["Main Hand"], "Alt") --Shadowstrike
     LBIS:AddItem(spec4, "228230", LBIS.L["Main Hand"], "Alt") --Refined Hammer of the Titans
+    LBIS:AddItem(spec4, "228666", LBIS.L["Main Hand"], "Alt") --Seeping Willow
     LBIS:AddItem(spec4, "221446", LBIS.L["Main Hand"], "Alt") --Ritualist's Hammer
     LBIS:AddItem(spec4, "220596", LBIS.L["Main Hand"], "Alt") --Ancient Divining Rod
     LBIS:AddItem(spec4, "228181", LBIS.L["Ranged/Relic"], "BIS") --Idol of Exsanguination (Cat)

@@ -150,6 +150,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Deadwind Warlock"] = "";
   LBIS.L["Deadwood of the North"] = "북방의 마른가지일족";
   LBIS.L["Death From Below"] = "나가의 공격";
+  LBIS.L["Death Knight Darkreaver"] = "죽음의 기사 다크리버";
   LBIS.L["Death Speaker Jargba"] = "죽음의 예언자 잘그바";
   LBIS.L["Deathsworn Captain (Rare)"] = "죽음의 경비대장 (희귀)";
 --  LBIS.L["Defias Enchanter"] = "";
@@ -165,6 +166,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Diathorus the Seeker"] = "";
   LBIS.L["Dig Rat Stew"] = "들쥐 고기 스튜";
   LBIS.L["Digmaster Shovelphlange"] = "발굴단장 쇼벨플랜지";
+--  LBIS.L["Diplomat Ring"] = "";
   LBIS.L["Dire Maul"] = "혈투의 전장";
   LBIS.L["Dire Maul East"] = "혈투의 전장 (동쪽)";
   LBIS.L["Dire Maul North"] = "혈투의 전장 (북쪽)";
@@ -520,6 +522,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Rotgrip"] = "썩은 아귀";
   LBIS.L["Samophlange Manual"] = "사모플랜지 설명서";
   LBIS.L["Saving Sharpbeak"] = "뾰족부리 구출";
+  LBIS.L["Saving the Best for Last"] = "은혜의 보답";
   LBIS.L["Saving Yenniku"] = "예니쿠 구출";
 --  LBIS.L["Scapula of the Fallen Avatar"] = "";
 --  LBIS.L["Scarlet Centurion"] = "";
@@ -583,6 +586,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Stormwind"] = "스톰윈드";
   LBIS.L["Stormwind City"] = "스톰윈드";
   LBIS.L["Stranglethorn Vale"] = "가시덤불 골짜기";
+  LBIS.L["Stratholme"] = "스트라솔름";
 --  LBIS.L["Stratholme Live"] = "";
 --  LBIS.L["Stratholme Undead"] = "";
 --  LBIS.L["STX-04/BD"] = "";

@@ -150,6 +150,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Deadwind Warlock"] = "";
   LBIS.L["Deadwood of the North"] = "Северные фурболги Мертвого Леса";
   LBIS.L["Death From Below"] = "Смерть со дна морского";
+  LBIS.L["Death Knight Darkreaver"] = "Рыцарь смерти Темный Терзатель";
   LBIS.L["Death Speaker Jargba"] = "Вестник смерти Джаргба";
   LBIS.L["Deathsworn Captain (Rare)"] = "Капитан служителей Смерти (Редкое)";
 --  LBIS.L["Defias Enchanter"] = "";
@@ -165,6 +166,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Diathorus the Seeker"] = "";
   LBIS.L["Dig Rat Stew"] = "Похлебка из пещерной крысы";
   LBIS.L["Digmaster Shovelphlange"] = "Мастер Лопаторук";
+--  LBIS.L["Diplomat Ring"] = "";
   LBIS.L["Dire Maul"] = "Забытый город";
   LBIS.L["Dire Maul East"] = "Забытый Город Восток";
   LBIS.L["Dire Maul North"] = "Забытый Город Север";
@@ -520,6 +522,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Rotgrip"] = "Гнилопасть";
   LBIS.L["Samophlange Manual"] = "Руководство по самофланжу";
   LBIS.L["Saving Sharpbeak"] = "Спасение Остроклюва";
+  LBIS.L["Saving the Best for Last"] = "Сладкое – на закуску";
   LBIS.L["Saving Yenniku"] = "Спасение Йеннику";
 --  LBIS.L["Scapula of the Fallen Avatar"] = "";
 --  LBIS.L["Scarlet Centurion"] = "";
@@ -583,6 +586,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Stormwind"] = "Штормград";
   LBIS.L["Stormwind City"] = "Штормград";
   LBIS.L["Stranglethorn Vale"] = "Тернистая долина";
+  LBIS.L["Stratholme"] = "Стратхольм";
 --  LBIS.L["Stratholme Live"] = "";
 --  LBIS.L["Stratholme Undead"] = "";
 --  LBIS.L["STX-04/BD"] = "";

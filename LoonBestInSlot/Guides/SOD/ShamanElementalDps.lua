@@ -279,7 +279,8 @@ local function LoadData()
     LBIS:AddItem(spec4, "213351", LBIS.L["Off Hand"], "Alt") --Irradiated Tower Shield
     LBIS:AddItem(spec4, "19315", LBIS.L["Off Hand"], "Alt") --Therazane's Touch
     LBIS:AddItem(spec4, "228176", LBIS.L["Ranged/Relic"], "BIS") --Totem of Thunder
-    LBIS:AddItem(spec4, "220607", LBIS.L["Ranged/Relic"], "BIS") --Totem of Tormented Ancestry
+    LBIS:AddItem(spec4, "23199", LBIS.L["Ranged/Relic"], "Alt") --Totem of the Storm
+    LBIS:AddItem(spec4, "220607", LBIS.L["Ranged/Relic"], "Alt") --Totem of Tormented Ancestry
     LBIS:AddItem(spec4, "215436", LBIS.L["Ranged/Relic"], "Alt") --Totem of Invigorating Flame
 end
 if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then

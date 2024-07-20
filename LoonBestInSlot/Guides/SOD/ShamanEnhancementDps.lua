@@ -4,7 +4,7 @@ local function LoadData()
     local spec3 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement Dps"], "3")
     local spec4 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement Dps"], "4")
 
-    LBIS:AddEnchant(spec4, "15397", LBIS.L["Head"]) --Lesser Arcane Amalgamation
+    LBIS:AddEnchant(spec4, "22840", LBIS.L["Head"]) --Arcanum of Rapidity
     LBIS:AddEnchant(spec4, "446451", LBIS.L["Shoulder"]) --Atal'ai Signet of Might
     LBIS:AddEnchant(spec4, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
     LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
@@ -176,8 +176,8 @@ local function LoadData()
     LBIS:AddItem(spec3, "215436", LBIS.L["Ranged/Relic"], "Alt") --Totem of Invigorating Flame
     LBIS:AddItem(spec3, "209575", LBIS.L["Ranged/Relic"], "Alt") --Carved Driftwood Icon
 
-    LBIS:AddItem(spec4, "228291", LBIS.L["Head"], "BIS") --Crown of Destruction
     LBIS:AddItem(spec4, "226638", LBIS.L["Head"], "BIS") --Earthfury Headpiece
+    LBIS:AddItem(spec4, "228291", LBIS.L["Head"], "Alt") --Crown of Destruction
     LBIS:AddItem(spec4, "227021", LBIS.L["Head"], "Alt") --Face of The Five Thunders
     LBIS:AddItem(spec4, "226640", LBIS.L["Shoulder"], "BIS") --Earthfury Spaulders
     LBIS:AddItem(spec4, "227019", LBIS.L["Shoulder"], "Alt") --Spaulders of The Five Thunders
@@ -185,16 +185,16 @@ local function LoadData()
     LBIS:AddItem(spec4, "228102", LBIS.L["Back"], "BIS") --Majordomo's Drape
     LBIS:AddItem(spec4, "228383", LBIS.L["Back"], "Alt") --Puissant Cape
     LBIS:AddItem(spec4, "22337", LBIS.L["Back"], "Alt") --Shroud of Domination
-    LBIS:AddItem(spec4, "226635", LBIS.L["Chest"], "BIS") --Earthfury Chainmail
-    LBIS:AddItem(spec4, "227024", LBIS.L["Chest"], "Alt") --Chain of The Five Thunders
+    LBIS:AddItem(spec4, "227024", LBIS.L["Chest"], "BIS") --Chain of The Five Thunders
+    LBIS:AddItem(spec4, "226635", LBIS.L["Chest"], "Alt") --Earthfury Chainmail
     LBIS:AddItem(spec4, "227952", LBIS.L["Chest"], "Alt") --Savage Gladiator Chain
     LBIS:AddItem(spec4, "220657", LBIS.L["Chest"], "Alt") --Ostracized Berserker's Hauberk
-    LBIS:AddItem(spec4, "228246", LBIS.L["Wrist"], "BIS") --Wristguards of Stability
-    LBIS:AddItem(spec4, "228284", LBIS.L["Wrist"], "Alt") --Wristguards of True Flight
+    LBIS:AddItem(spec4, "226642", LBIS.L["Wrist"], "BIS") --Earthfury Bindings
+    LBIS:AddItem(spec4, "228246", LBIS.L["Wrist"], "Alt") --Wristguards of Stability
     LBIS:AddItem(spec4, "19582", LBIS.L["Wrist"], "Alt") --Windtalker's Wristguards
-    LBIS:AddItem(spec4, "226637", LBIS.L["Hands"], "BIS") --Earthfury Grips
+    LBIS:AddItem(spec4, "227022", LBIS.L["Hands"], "BIS") --Fists of The Five Thunders
+    LBIS:AddItem(spec4, "226637", LBIS.L["Hands"], "Alt") --Earthfury Grips
     LBIS:AddItem(spec4, "227838", LBIS.L["Hands"], "Alt") --Shining Chromatic Gauntlets
-    LBIS:AddItem(spec4, "227022", LBIS.L["Hands"], "Alt") --Fists of The Five Thunders
     LBIS:AddItem(spec4, "14551", LBIS.L["Hands"], "Alt") --Edgemaster's Handguards
     LBIS:AddItem(spec4, "226641", LBIS.L["Waist"], "BIS") --Earthfury Girdle
     LBIS:AddItem(spec4, "227018", LBIS.L["Waist"], "Alt") --Girdle of The Five Thunders
@@ -205,9 +205,9 @@ local function LoadData()
     LBIS:AddItem(spec4, "226636", LBIS.L["Feet"], "BIS") --Earthfury Battleboots
     LBIS:AddItem(spec4, "227023", LBIS.L["Feet"], "Alt") --Treads of The Five Thunders
     LBIS:AddItem(spec4, "228091", LBIS.L["Feet"], "Alt") --Thorned Boots
+    LBIS:AddItem(spec4, "228147", LBIS.L["Neck"], "BIS") --Magmadar's Horn
     LBIS:AddItem(spec4, "228685", LBIS.L["Neck"], "BIS") --Onyxia Tooth Pendant
     LBIS:AddItem(spec4, "19491", LBIS.L["Neck"], "Alt") --Amulet of the Darkmoon
-    LBIS:AddItem(spec4, "228147", LBIS.L["Neck"], "Alt") --Magmadar's Horn
     LBIS:AddItem(spec4, "228286", LBIS.L["Ring"], "BIS") --Band of Accuria
     LBIS:AddItem(spec4, "228261", LBIS.L["Ring"], "BIS") --Quick Strike Ring
     LBIS:AddItem(spec4, "19325", LBIS.L["Ring"], "Alt") --Don Julio's Band

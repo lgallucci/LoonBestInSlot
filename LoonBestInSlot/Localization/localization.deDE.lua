@@ -150,6 +150,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Deadwind Warlock"] = "";
   LBIS.L["Deadwood of the North"] = "Totenwaldfelle des Nordens";
   LBIS.L["Death From Below"] = "Tod von unten";
+  LBIS.L["Death Knight Darkreaver"] = "Todesritter Schattensichel";
   LBIS.L["Death Speaker Jargba"] = "Todessprecher Jargba";
   LBIS.L["Deathsworn Captain (Rare)"] = "Todeshöriger Captain (Selten)";
 --  LBIS.L["Defias Enchanter"] = "";
@@ -165,6 +166,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Diathorus the Seeker"] = "";
   LBIS.L["Dig Rat Stew"] = "Grubenratteneintopf";
   LBIS.L["Digmaster Shovelphlange"] = "Grubenmeister Schaufelphlansch";
+--  LBIS.L["Diplomat Ring"] = "";
   LBIS.L["Dire Maul"] = "Düsterbruch";
   LBIS.L["Dire Maul East"] = "Düsterbruch Ost";
   LBIS.L["Dire Maul North"] = "Düsterbruch Nord";
@@ -520,6 +522,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Rotgrip"] = "Faulschnapper";
   LBIS.L["Samophlange Manual"] = "Samophlanghandbuch";
   LBIS.L["Saving Sharpbeak"] = "Scharfschnabels Rettung";
+  LBIS.L["Saving the Best for Last"] = "Das Beste gibt's zum Schluss";
   LBIS.L["Saving Yenniku"] = "Yennikus Rettung";
 --  LBIS.L["Scapula of the Fallen Avatar"] = "";
 --  LBIS.L["Scarlet Centurion"] = "";
@@ -583,6 +586,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Stormwind"] = "Sturmwind";
   LBIS.L["Stormwind City"] = "Sturmwind";
   LBIS.L["Stranglethorn Vale"] = "Schlingendorntal";
+  LBIS.L["Stratholme"] = "Stratholme";
 --  LBIS.L["Stratholme Live"] = "";
 --  LBIS.L["Stratholme Undead"] = "";
 --  LBIS.L["STX-04/BD"] = "";
