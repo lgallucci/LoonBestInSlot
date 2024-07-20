@@ -17,6 +17,7 @@ LBIS:AddEnchant(spec1, "86931", LBIS.L["Head"]) --Arcanum of the Earthen Ring
 LBIS:AddEnchant(spec1, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
 LBIS:AddEnchant(spec1, "86402", LBIS.L["Shoulder"]) --Inscription of the Earth Prince
 LBIS:AddEnchant(spec1, "74247", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
+LBIS:AddEnchant(spec1, "74234", LBIS.L["Back"]) --Enchant Cloak - Protection
 LBIS:AddEnchant(spec1, "55002", LBIS.L["Back"]) --Flexweave Underlay
 LBIS:AddEnchant(spec1, "44590", LBIS.L["Back"]) --Enchant Cloak - Superior Shadow Resistance
 LBIS:AddEnchant(spec1, "44494", LBIS.L["Back"]) --Enchant Cloak - Superior Nature Resistance
@@ -88,6 +89,7 @@ LBIS:AddItem(spec1, "65184", LBIS.L["Chest"], "BIS") --Magma Plated Chestguard
 LBIS:AddItem(spec1, "65131", LBIS.L["Chest"], "BIS") --Battleplate of the Apocalypse
 LBIS:AddItem(spec1, "60228", LBIS.L["Wrist"], "BIS") --Bracers of the Mat'redor
 LBIS:AddItem(spec1, "65143", LBIS.L["Wrist"], "BIS") --Bracers of Impossible Strength
+LBIS:AddItem(spec1, "65180", LBIS.L["Hands"], "BIS") --Magma Plated Gauntlets
 LBIS:AddItem(spec1, "65185", LBIS.L["Hands"], "BIS") --Magma Plated Handguards
 LBIS:AddItem(spec1, "65119", LBIS.L["Hands"], "BIS") --Gravitational Pull
 LBIS:AddItem(spec1, "65370", LBIS.L["Waist"], "BIS") --Thunder Wall Belt
@@ -95,8 +97,8 @@ LBIS:AddItem(spec1, "65086", LBIS.L["Waist"], "BIS") --Jumbotron Power Belt
 LBIS:AddItem(spec1, "65369", LBIS.L["Waist"], "BIS") --Sky Strider Belt
 LBIS:AddItem(spec1, "65182", LBIS.L["Legs"], "BIS") --Magma Plated Legplates
 LBIS:AddItem(spec1, "65061", LBIS.L["Legs"], "BIS") --Legguards of the Unseeing
-LBIS:AddItem(spec1, "65380", LBIS.L["Legs"], "Alt") --Thunder Wall Greaves
 LBIS:AddItem(spec1, "65379", LBIS.L["Legs"], "Alt") --Sky Strider Greaves
+LBIS:AddItem(spec1, "65380", LBIS.L["Legs"], "Alt") --Thunder Wall Greaves
 LBIS:AddItem(spec1, "60229", LBIS.L["Feet"], "BIS") --War-Torn Crushers
 LBIS:AddItem(spec1, "65075", LBIS.L["Feet"], "Alt") --Massacre Treads
 LBIS:AddItem(spec1, "65051", LBIS.L["Feet"], "Alt") --Molten Tantrum Boots

@@ -108,6 +108,7 @@ public class WowheadGuideParser
         { 52772, 74239 }, //Enchant Bracer - Greater Expertise
         { 68763, 86933 }, //Arcanum of the Dragonmaw
         { 68716, 86901 }, //Greater Inscription of Jagged Stone
+        { 52767, 74234 }, //Enchant Cloak - Protection
      };
 
     private Dictionary<int, string> _itemSwaps = new Dictionary<int, string>()
