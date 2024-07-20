@@ -9,7 +9,7 @@ local function LoadData()
     LBIS:AddEnchant(spec4, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
     LBIS:AddEnchant(spec4, "20028", LBIS.L["Chest"]) --Enchant Chest - Major Mana
     LBIS:AddEnchant(spec4, "23802", LBIS.L["Wrist"]) --Enchant Bracer - Healing Power
-    LBIS:AddEnchant(spec4, "25079", LBIS.L["Hands"]) --Enchant Gloves - Healing Power
+    LBIS:AddEnchant(spec4, "19058", LBIS.L["Hands"]) --Rugged Armor Kit
     LBIS:AddEnchant(spec4, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec4, "22750", LBIS.L["Main Hand"]) --Enchant Weapon - Healing Power
     LBIS:AddEnchant(spec4, "22750", LBIS.L["Two Hand"]) --Enchant Weapon - Healing Power

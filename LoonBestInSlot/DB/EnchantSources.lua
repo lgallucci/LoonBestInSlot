@@ -59,6 +59,7 @@ LBIS.EnchantSources =
     [15404] = { Name = "Lesser Arcane Amalgamation", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Mathredis Firestar (Librams)"], SourceLocation = LBIS.L["Burning Steppes"], TextureId = "11648" },
     [16623] = { Name = "Thorium Shield Spike", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Blacksmithing Trainer"], SourceLocation = "", TextureId = "12645" },
     [19057] = { Name = "Rugged Armor Kit", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = "", TextureId = "15564" },
+    [19058] = { Name = "Rugged Armor Kit", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = "", TextureId = "15564" },
     [20008] = { Name = "Enchant Bracer - Greater Intellect", DesignId = "16214", ScrollId = "0", Source = LBIS.L["Vilebranch Shadowcaster"], SourceLocation = LBIS.L["The Hinterlands"], TextureId = "" },
     [20009] = { Name = "Enchant Bracer - Superior Spirit", DesignId = "16218", ScrollId = "0", Source = LBIS.L["World Drop"], SourceLocation = "", TextureId = "" },
     [20010] = { Name = "Enchant Bracer - Superior Strength", DesignId = "16246", ScrollId = "0", Source = LBIS.L["Deadwind Warlock"], SourceLocation = LBIS.L["Deadwind Pass"], TextureId = "" },
