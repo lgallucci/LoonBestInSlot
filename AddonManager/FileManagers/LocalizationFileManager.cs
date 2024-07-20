@@ -81,12 +81,12 @@ public static class LocalizationFileManager
                     var slashSplit = false;
                     var ampersandSplit = false;
 
-                    slashSplit = localizeTerm.Contains("/");
+                    slashSplit = localizeTerm.Contains("~");
                     ampersandSplit = localizeTerm.Contains("&");
 
                     string[] localizeSplit;
                     if (slashSplit)
-                        localizeSplit = localizeTerm.Split('/');
+                        localizeSplit = localizeTerm.Split('~');
                     else
                         localizeSplit = localizeTerm.Split('&');
 
@@ -95,7 +95,7 @@ public static class LocalizationFileManager
                     foreach (var localizeSlash in localizeSplit)
                     {
                         if (skipFirst && slashSplit)
-                            localizedString += "/";
+                            localizedString += "~";
                         else if (skipFirst)
                             localizedString += " & ";
 

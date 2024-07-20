@@ -208,7 +208,8 @@ if GetLocale() == "esMX" then
   LBIS.L["Lost City of the Tol'vir (Normal)"] = "Ciudad Perdida de los Tol'vir (Normal)";
 --  LBIS.L["Magmaw"] = "";
   LBIS.L["Main Hand"] = "Mano Derecha";
-  LBIS.L["Main Hand/Off Hand"] = "Mano derecha/Mano izquierda";
+  LBIS.L["Main Hand~Off Hand"] = "Mano derecha~Mano izquierda";
+  LBIS.L["Main Hand~Two Hand"] = "Mano derecha~Dos Manos";
 --  LBIS.L["Maloriak"] = "";
   LBIS.L["Marksmanship"] = "Puntería";
 --  LBIS.L["Mindbender Ghur'sha"] = "";
@@ -221,6 +222,7 @@ if GetLocale() == "esMX" then
   LBIS.L["None"] = "Ninguna";
 --  LBIS.L["Occu'thar"] = "";
   LBIS.L["Off Hand"] = "Mano Izquierda";
+  LBIS.L["Off Hand~Two Hand"] = "Mano izquierda~Dos Manos";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
   LBIS.L["Orgrimmar"] = "Orgrimmar";

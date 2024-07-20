@@ -208,7 +208,8 @@ if GetLocale() == "zhCN" then
   LBIS.L["Lost City of the Tol'vir (Normal)"] = "托维尔失落之城 (正常)";
   LBIS.L["Magmaw"] = "熔喉";
   LBIS.L["Main Hand"] = "主手";
-  LBIS.L["Main Hand/Off Hand"] = "主手/副手";
+  LBIS.L["Main Hand~Off Hand"] = "主手~副手";
+  LBIS.L["Main Hand~Two Hand"] = "主手~双手";
   LBIS.L["Maloriak"] = "马洛拉克";
   LBIS.L["Marksmanship"] = "射击";
   LBIS.L["Mindbender Ghur'sha"] = "蛊心魔古厄夏";
@@ -221,6 +222,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["None"] = "暂无";
   LBIS.L["Occu'thar"] = "欧库塔尔";
   LBIS.L["Off Hand"] = "副手";
+  LBIS.L["Off Hand~Two Hand"] = "副手~双手";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
   LBIS.L["Orgrimmar"] = "奥格瑞玛";

@@ -208,7 +208,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Lost City of the Tol'vir (Normal)"] = "톨비르의 잃어버린 도시 (일반)";
   LBIS.L["Magmaw"] = "용암아귀";
   LBIS.L["Main Hand"] = "주장비";
-  LBIS.L["Main Hand/Off Hand"] = "주장비/보조장비";
+  LBIS.L["Main Hand~Off Hand"] = "주장비~보조장비";
+  LBIS.L["Main Hand~Two Hand"] = "주장비~양손";
   LBIS.L["Maloriak"] = "말로리악";
   LBIS.L["Marksmanship"] = "사격";
   LBIS.L["Mindbender Ghur'sha"] = "환각술사 구르샤";
@@ -221,6 +222,7 @@ if GetLocale() == "koKR" then
   LBIS.L["None"] = "없음";
   LBIS.L["Occu'thar"] = "오쿠타르";
   LBIS.L["Off Hand"] = "보조장비";
+  LBIS.L["Off Hand~Two Hand"] = "보조장비~양손";
   LBIS.L["Open Browser Window"] = "창 열기";
   LBIS.L["Open Settings"] = "설정 창 열기";
   LBIS.L["Orgrimmar"] = "오그리마";

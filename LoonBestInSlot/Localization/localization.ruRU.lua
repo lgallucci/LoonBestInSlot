@@ -208,7 +208,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["Lost City of the Tol'vir (Normal)"] = "Затерянный город Тол'вир (Норм.)";
   LBIS.L["Magmaw"] = "Магмарь";
   LBIS.L["Main Hand"] = "Правая рука";
-  LBIS.L["Main Hand/Off Hand"] = "Правая рука/Левая рука";
+  LBIS.L["Main Hand~Off Hand"] = "Правая рука~Левая рука";
+  LBIS.L["Main Hand~Two Hand"] = "Правая рука~Двуручное";
   LBIS.L["Maloriak"] = "Малориак";
   LBIS.L["Marksmanship"] = "Стрельба";
   LBIS.L["Mindbender Ghur'sha"] = "Подчиняющий разум Гур'ша";
@@ -221,6 +222,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["None"] = "Нет";
   LBIS.L["Occu'thar"] = "Оку'тар";
   LBIS.L["Off Hand"] = "Левая рука";
+  LBIS.L["Off Hand~Two Hand"] = "Левая рука~Двуручное";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
   LBIS.L["Orgrimmar"] = "Оргриммар";
