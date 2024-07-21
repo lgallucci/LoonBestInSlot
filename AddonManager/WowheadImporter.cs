@@ -347,7 +347,7 @@ public static class WowheadImporter
         {
             await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
             {
-                var name = doc.Title?.Split("-")[0].Trim() ?? "unknown";
+                var name = doc.Title?.Replace(" - Item - Classic World of Warcraft", "") ?? "unknown";
                 var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/classic/item=", "").TrimEnd('/'));
                 var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
                 
