@@ -918,7 +918,10 @@
       "Ysondre": "Ysondre",
       "Hearthsinger Forresten (Rare)": "Escupezones Foreste (Raro)",
       "Skul (Rare)": "Skul (Raro)",
-      "The Darkreaver Menace": "La amenaza de Atracoscuro"
+      "The Darkreaver Menace": "La amenaza de Atracoscuro",
+      "Death Knight Darkreaver": "Caballero de la Muerte Atracoscuro",
+      "Saving the Best for Last": "Guardar lo mejor para el final",
+      "Stratholme": "Stratholme"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -1810,7 +1813,10 @@
       "Ysondre": "Ysondre",
       "Hearthsinger Forresten (Rare)": "Cantachimeneas Forresten (Raro)",
       "Skul (Rare)": "Skul (Raro)",
-      "The Darkreaver Menace": "La amenaza de Atracoscuro"
+      "The Darkreaver Menace": "La amenaza de Atracoscuro",
+      "Death Knight Darkreaver": "Caballero de la Muerte Atracoscuro",
+      "Saving the Best for Last": "Guardar lo mejor para el final",
+      "Stratholme": "Stratholme"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -2780,7 +2786,10 @@
       "Ysondre": "Ysondre",
       "Hearthsinger Forresten (Rare)": "Herdsinger Forresten (Selten)",
       "Skul (Rare)": "Skul (Selten)",
-      "The Darkreaver Menace": "Die Bedrohung durch Schattensichel"
+      "The Darkreaver Menace": "Die Bedrohung durch Schattensichel",
+      "Death Knight Darkreaver": "Todesritter Schattensichel",
+      "Saving the Best for Last": "Das Beste gibt's zum Schluss",
+      "Stratholme": "Stratholme"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -3685,7 +3694,10 @@
       "Ysondre": "Ysondre",
       "Hearthsinger Forresten (Rare)": "Hearthsinger Forresten (Rare)",
       "Skul (Rare)": "Krân (Rare)",
-      "The Darkreaver Menace": "La menace de Ravassombre"
+      "The Darkreaver Menace": "La menace de Ravassombre",
+      "Death Knight Darkreaver": "Chevalier de la mort Ravassombre",
+      "Saving the Best for Last": "Garder le meilleur pour la fin",
+      "Stratholme": "Stratholme"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -4586,7 +4598,10 @@
       "Ysondre": "Исондра",
       "Hearthsinger Forresten (Rare)": "Певчий Форрестен (Редкое)",
       "Skul (Rare)": "Череп (Редкое)",
-      "The Darkreaver Menace": "Угроза Темного Губителя"
+      "The Darkreaver Menace": "Угроза Темного Губителя",
+      "Death Knight Darkreaver": "Рыцарь смерти Темный Терзатель",
+      "Saving the Best for Last": "Сладкое – на закуску",
+      "Stratholme": "Стратхольм"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -5487,7 +5502,10 @@
       "Ysondre": "绿龙",
       "Hearthsinger Forresten (Rare)": "弗雷斯特恩 (精良)",
       "Skul (Rare)": "斯库尔 (精良)",
-      "The Darkreaver Menace": "达克雷尔的威胁"
+      "The Darkreaver Menace": "达克雷尔的威胁",
+      "Death Knight Darkreaver": "死亡骑士达克雷尔",
+      "Saving the Best for Last": "最后的奖赏",
+      "Stratholme": "斯坦索姆"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -6481,7 +6499,10 @@
       "Ysondre": "이손드레",
       "Hearthsinger Forresten (Rare)": "하스싱어 포레스턴 (희귀)",
       "Skul (Rare)": "스컬 (희귀)",
-      "The Darkreaver Menace": "다크리버의 위협"
+      "The Darkreaver Menace": "다크리버의 위협",
+      "Death Knight Darkreaver": "죽음의 기사 다크리버",
+      "Saving the Best for Last": "은혜의 보답",
+      "Stratholme": "스트라솔름"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -7381,7 +7402,10 @@
       "Ysondre": "伊索德雷",
       "Hearthsinger Forresten (Rare)": "弗雷斯特恩 (精良)",
       "Skul (Rare)": "斯庫爾 (精良)",
-      "The Darkreaver Menace": "達克雷爾的威脅"
+      "The Darkreaver Menace": "達克雷爾的威脅",
+      "Death Knight Darkreaver": "死亡騎士達克雷爾",
+      "Saving the Best for Last": "最後的獎賞",
+      "Stratholme": "斯坦索姆"
     }
   }
 }
