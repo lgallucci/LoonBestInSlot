@@ -7042,10 +7042,10 @@
     },
     "226704": {
       "Name": "Shadowcraft Bracers",
-      "Source": "Trash Mobs|Trash Mobs",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
-      "SourceNumber": "0|0",
-      "SourceLocation": "Scholomance|Stratholme",
+      "SourceNumber": "0",
+      "SourceLocation": "Scholomance/Stratholme",
       "SourceFaction": "B"
     },
     "226705": {
@@ -7106,10 +7106,10 @@
     },
     "226712": {
       "Name": "Wildheart Belt",
-      "Source": "Trash Mobs|Trash Mobs",
+      "Source": "Trash Mobs",
       "SourceType": "Drop",
-      "SourceNumber": "0|0",
-      "SourceLocation": "Lower Blackrock Spire|Scholomance",
+      "SourceNumber": "0",
+      "SourceLocation": "Lower Blackrock Spire/Scholomance",
       "SourceFaction": "B"
     },
     "226713": {
@@ -7376,6 +7376,14 @@
       "SourceLocation": "Stratholme Undead",
       "SourceFaction": "B"
     },
+    "226751": {
+      "Name": "Bindings of Elements",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Stratholme Undead/Scholomance",
+      "SourceFaction": "B"
+    },
     "226752": {
       "Name": "Boots of Elements",
       "Source": "Highlord Omokk",
@@ -7446,6 +7454,14 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Stratholme Undead",
+      "SourceFaction": "B"
+    },
+    "226761": {
+      "Name": "Dreadmist Belt",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Stratholme Undead/Scholomance",
       "SourceFaction": "B"
     },
     "226762": {
