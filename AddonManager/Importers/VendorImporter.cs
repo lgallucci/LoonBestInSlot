@@ -1,26 +1,31 @@
-﻿
+﻿using System;
+using AddonManager.Importers;
 using AddonManager.Models;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
-using static System.Net.WebRequestMethods;
 
-namespace AddonManager.Importers;
+namespace AddonManager;
 
-public class EmblemImporter : LootImporter
+public class VendorImporter : LootImporter
 {
     private List<string> wowheadUriList = new List<string>
     {
-        { @"https://www.wowhead.com/classic/npc=227853/pix-xizzix#sells"},
-        { @"https://www.wowhead.com/classic/npc=227853/pix-xizzix#sells;50"},
-        { @"https://www.wowhead.com/classic/npc=227853/pix-xizzix#sells;100"},
+        { @"https://www.wowhead.com/classic/npc=230319/deliana#sells" },
+        { @"https://www.wowhead.com/classic/npc=230319/deliana#sells;50"},
+        { @"https://www.wowhead.com/classic/npc=230319/deliana#sells;100"},
+        { @"https://www.wowhead.com/classic/npc=230319/deliana#sells;150"},
+        
+        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells"},
+        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;50"},
+        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;50"},
+        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;100"},
+        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;150"}
     };
 
     internal override string FileName { get => "EmblemItemList"; }
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
-        //items.Items.Clear();
-
         await Common.ReadWowheadSellsList(wowheadUriList.Where(u => u.Contains("wowhead")), (uri, row, itemId, item) =>
         {
             var success = false;
@@ -88,6 +93,22 @@ public class EmblemImporter : LootImporter
                 }
                 return success;
             });
+            
+            foreach(var currency in row.Children[10].Children)
+            {
+                if (currency.ClassName == "moneygold") 
+                {
+                    currencyNumber += $"{currency.TextContent.Trim()}g";
+                } 
+                else if (currency.ClassName == "moneysilver")
+                {
+                    currencyNumber += $"{currency.TextContent.Trim()}s";
+                } 
+                else if (currency.ClassName == "moneycopper") 
+                {
+                    currencyNumber += $"{currency.TextContent.Trim()}c";
+                }
+            }
 
             if (row.Children[6].Children.Count() > 0)
             {

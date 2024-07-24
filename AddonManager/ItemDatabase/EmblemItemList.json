@@ -40,11 +40,611 @@
       "SourceLocation": "Pix Xizzix - Booty Bay",
       "SourceFaction": "B"
     },
+    "220597": {
+      "Name": "Drakestone of the Dream Harbinger",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "220598": {
+      "Name": "Drakestone of the Nightmare Harbinger",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "220599": {
+      "Name": "Drakestone of the Blood Prophet",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
     "226405": {
       "Name": "Damaged Undermine Supply Crate",
       "Source": "Tarnished Undermine Real",
       "SourceType": "Dungeon Token",
       "SourceNumber": "5",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226700": {
+      "Name": "Shadowcraft Tunic",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226701": {
+      "Name": "Shadowcraft Belt",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226702": {
+      "Name": "Shadowcraft Gloves",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226703": {
+      "Name": "Shadowcraft Boots",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226704": {
+      "Name": "Shadowcraft Bracers",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226705": {
+      "Name": "Shadowcraft Pants",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226706": {
+      "Name": "Shadowcraft Spaulders",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226707": {
+      "Name": "Shadowcraft Cap",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226708": {
+      "Name": "Wildheart Cowl",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226709": {
+      "Name": "Wildheart Kilt",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226710": {
+      "Name": "Wildheart Spaulders",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226711": {
+      "Name": "Wildheart Gloves",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226712": {
+      "Name": "Wildheart Belt",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226713": {
+      "Name": "Wildheart Boots",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226714": {
+      "Name": "Wildheart Bracers",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226715": {
+      "Name": "Wildheart Vest",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226716": {
+      "Name": "Beaststalker's Mantle",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226717": {
+      "Name": "Beaststalker's Bindings",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226718": {
+      "Name": "Beaststalker's Belt",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226719": {
+      "Name": "Beaststalker's Pants",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226720": {
+      "Name": "Beaststalker's Cap",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226721": {
+      "Name": "Beaststalker's Gloves",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226722": {
+      "Name": "Beaststalker's Boots",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226723": {
+      "Name": "Beaststalker's Tunic",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226724": {
+      "Name": "Magister's Belt",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226725": {
+      "Name": "Magister's Bindings",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226726": {
+      "Name": "Magister's Mantle",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226727": {
+      "Name": "Magister's Leggings",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226728": {
+      "Name": "Magister's Crown",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226729": {
+      "Name": "Magister's Robes",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226730": {
+      "Name": "Magister's Boots",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226731": {
+      "Name": "Magister's Gloves",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226732": {
+      "Name": "Lightforge Belt",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226733": {
+      "Name": "Lightforge Helm",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226734": {
+      "Name": "Lightforge Breastplate",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226735": {
+      "Name": "Lightforge Spaulders",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226736": {
+      "Name": "Lightforge Legplates",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226737": {
+      "Name": "Lightforge Gauntlets",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226738": {
+      "Name": "Lightforge Boots",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226739": {
+      "Name": "Lightforge Bracers",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226740": {
+      "Name": "Devout Gloves",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226741": {
+      "Name": "Devout Mantle",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226742": {
+      "Name": "Devout Bracers",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226743": {
+      "Name": "Devout Sandals",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226744": {
+      "Name": "Devout Belt",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226745": {
+      "Name": "Devout Robe",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226746": {
+      "Name": "Devout Crown",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226747": {
+      "Name": "Devout Skirt",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226748": {
+      "Name": "Gauntlets of Elements",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226749": {
+      "Name": "Vest of Elements",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226750": {
+      "Name": "Kilt of Elements",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226751": {
+      "Name": "Bindings of Elements",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226752": {
+      "Name": "Boots of Elements",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226753": {
+      "Name": "Pauldrons of Elements",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226754": {
+      "Name": "Cord of Elements",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226755": {
+      "Name": "Coif of Elements",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226756": {
+      "Name": "Dreadmist Mantle",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226757": {
+      "Name": "Dreadmist Robe",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226758": {
+      "Name": "Dreadmist Wraps",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226759": {
+      "Name": "Dreadmist Bracers",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226760": {
+      "Name": "Dreadmist Leggings",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226761": {
+      "Name": "Dreadmist Belt",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226762": {
+      "Name": "Dreadmist Mask",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226763": {
+      "Name": "Dreadmist Sandals",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226764": {
+      "Name": "Boots of Valor",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226765": {
+      "Name": "Belt of Valor",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226766": {
+      "Name": "Bracers of Valor",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226767": {
+      "Name": "Legplates of Valor",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226768": {
+      "Name": "Spaulders of Valor",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226769": {
+      "Name": "Helm of Valor",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226770": {
+      "Name": "Breastplate of Valor",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "226771": {
+      "Name": "Gauntlets of Valor",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
       "SourceLocation": "Pix Xizzix - Booty Bay",
       "SourceFaction": "B"
     },
@@ -66,6 +666,22 @@
     },
     "227282": {
       "Name": "Ring of the Dreaded Mist",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "227284": {
+      "Name": "Band of the Beast",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "227990": {
+      "Name": "Hand of Injustice",
       "Source": "Tarnished Undermine Real",
       "SourceType": "Dungeon Token",
       "SourceNumber": "50",
@@ -237,6 +853,14 @@
       "Source": "Tarnished Undermine Real",
       "SourceType": "Dungeon Token",
       "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "228432": {
+      "Name": "Whistle of the Beast",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
       "SourceLocation": "Pix Xizzix - Booty Bay",
       "SourceFaction": "B"
     }
