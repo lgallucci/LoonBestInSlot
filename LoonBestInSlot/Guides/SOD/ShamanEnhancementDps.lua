@@ -214,11 +214,10 @@ local function LoadData()
     LBIS:AddItem(spec4, "228080", LBIS.L["Ring"], "Alt") --Resin Loop
     LBIS:AddItem(spec4, "220626", LBIS.L["Ring"], "Alt") --Drakeclaw Band of the Berserker
     LBIS:AddItem(spec4, "228078", LBIS.L["Trinket"], "BIS") --Accursed Chalice
-    LBIS:AddItem(spec4, "221307", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Decay
+    LBIS:AddItem(spec4, "228722", LBIS.L["Trinket"], "BIS") --Hand of Justice
     LBIS:AddItem(spec4, "228089", LBIS.L["Trinket"], "Alt") --Woodcarved Moonstalker
     LBIS:AddItem(spec4, "223195", LBIS.L["Trinket"], "Alt") --Breadth of the Beast
     LBIS:AddItem(spec4, "221309", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Sandstorm
-    LBIS:AddItem(spec4, "228722", LBIS.L["Trinket"], "Alt") --Hand of Justice
     LBIS:AddItem(spec4, "17068", LBIS.L["Main Hand/Off Hand"], "BIS") --Deathbringer
     LBIS:AddItem(spec4, "228508", LBIS.L["Main Hand/Off Hand"], "Alt") --Hammer of The Black Anvil
     LBIS:AddItem(spec4, "228350", LBIS.L["Main Hand"], "Alt") --Eskhandar's Right Claw

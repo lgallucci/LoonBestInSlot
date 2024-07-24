@@ -311,7 +311,6 @@ local function LoadData()
     LBIS:AddItem(spec4, "220633", LBIS.L["Trinket"], "Alt Mit") --Atal'ai Blood Ritual Badge
     LBIS:AddItem(spec4, "213350", LBIS.L["Trinket"], "Alt Stam") --Wirdal's Hardened Core
     LBIS:AddItem(spec4, "227840", LBIS.L["Main Hand"], "BIS") --Implacable Blackguard
-    LBIS:AddItem(spec4, "227887", LBIS.L["Main Hand"], "Alt") --Hardened Frostguard
     LBIS:AddItem(spec4, "228139", LBIS.L["Main Hand"], "Alt") --Fist of the Firesworn
     LBIS:AddItem(spec4, "228266", LBIS.L["Off Hand"], "BIS") --Drillborer Disk
     LBIS:AddItem(spec4, "19321", LBIS.L["Off Hand"], "Alt") --The Immovable Object

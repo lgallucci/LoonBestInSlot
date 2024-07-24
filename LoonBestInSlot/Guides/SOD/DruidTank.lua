@@ -288,7 +288,6 @@ local function LoadData()
     LBIS:AddItem(spec4, "228089", LBIS.L["Trinket"], "BIS") --Woodcarved Moonstalker
     LBIS:AddItem(spec4, "221309", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Sandstorm
     LBIS:AddItem(spec4, "227915", LBIS.L["Trinket"], "Alt") --Duke's Domain
-    LBIS:AddItem(spec4, "221307", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Decay
     LBIS:AddItem(spec4, "223195", LBIS.L["Trinket"], "Alt") --Breadth of the Beast
     LBIS:AddItem(spec4, "227683", LBIS.L["Main Hand"], "BIS") --Sulfuras, Hand of Ragnaros
     LBIS:AddItem(spec4, "227833", LBIS.L["Main Hand"], "Alt") --Glaive of Obsidian Fury
