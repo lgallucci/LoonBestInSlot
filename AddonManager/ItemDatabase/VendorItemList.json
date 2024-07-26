@@ -1,0 +1,1484 @@
+{
+  "Items": {
+    "226705": {
+      "Name": "Shadowcraft Pants",
+      "Source": "Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "1",
+      "SourceLocation": "Ironforge",
+      "SourceFaction": "B"
+    },
+    "226709": {
+      "Name": "Wildheart Kilt",
+      "Source": "Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "1",
+      "SourceLocation": "Ironforge",
+      "SourceFaction": "B"
+    },
+    "226719": {
+      "Name": "Beaststalker's Pants",
+      "Source": "Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "1",
+      "SourceLocation": "Ironforge",
+      "SourceFaction": "B"
+    },
+    "226727": {
+      "Name": "Magister's Leggings",
+      "Source": "Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "1",
+      "SourceLocation": "Ironforge",
+      "SourceFaction": "B"
+    },
+    "226736": {
+      "Name": "Lightforge Legplates",
+      "Source": "Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "1",
+      "SourceLocation": "Ironforge",
+      "SourceFaction": "B"
+    },
+    "226747": {
+      "Name": "Devout Skirt",
+      "Source": "Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "1",
+      "SourceLocation": "Ironforge",
+      "SourceFaction": "B"
+    },
+    "226750": {
+      "Name": "Kilt of Elements",
+      "Source": "Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "1",
+      "SourceLocation": "Ironforge",
+      "SourceFaction": "B"
+    },
+    "226760": {
+      "Name": "Dreadmist Leggings",
+      "Source": "Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "1",
+      "SourceLocation": "Ironforge",
+      "SourceFaction": "B"
+    },
+    "226767": {
+      "Name": "Legplates of Valor",
+      "Source": "Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "1",
+      "SourceLocation": "Ironforge",
+      "SourceFaction": "B"
+    },
+    "226772": {
+      "Name": "Feralheart Sash",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226773": {
+      "Name": "Feralheart Cowl",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226774": {
+      "Name": "Feralheart Galoshes",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226775": {
+      "Name": "Feralheart Wraps",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226776": {
+      "Name": "Feralheart Vest",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226777": {
+      "Name": "Feralheart Hands",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226778": {
+      "Name": "Feralheart Spaulders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226779": {
+      "Name": "Feralheart Kilt",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226780": {
+      "Name": "Feralheart Cord",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226781": {
+      "Name": "Feralheart Sandals",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226782": {
+      "Name": "Feralheart Bindings",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226783": {
+      "Name": "Feralheart Embrace",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226784": {
+      "Name": "Feralheart Gauntlets",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226785": {
+      "Name": "Feralheart Mantle",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226786": {
+      "Name": "Feralheart Headdress",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226787": {
+      "Name": "Feralheart Pants",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226788": {
+      "Name": "Feralheart Bands",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226789": {
+      "Name": "Feralheart Girdle",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226790": {
+      "Name": "Feralheart Epaulets",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226791": {
+      "Name": "Feralheart Trousers",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226792": {
+      "Name": "Feralheart Cap",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226793": {
+      "Name": "Feralheart Fists",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226794": {
+      "Name": "Feralheart Walkers",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226795": {
+      "Name": "Feralheart Tunic",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226796": {
+      "Name": "Feralheart Wristguards",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226797": {
+      "Name": "Feralheart Waistguard",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226798": {
+      "Name": "Feralheart Pauldrons",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226799": {
+      "Name": "Feralheart Legguards",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226801": {
+      "Name": "Feralheart Faceguard",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226802": {
+      "Name": "Feralheart Grips",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226803": {
+      "Name": "Feralheart Treads",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226804": {
+      "Name": "Feralheart Armor",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226825": {
+      "Name": "Darkmantle Tunic",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226826": {
+      "Name": "Darkmantle Spaulders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226827": {
+      "Name": "Darkmantle Pants",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226828": {
+      "Name": "Darkmantle Grips",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226829": {
+      "Name": "Darkmantle Cap",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226830": {
+      "Name": "Darkmantle Bracers",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226831": {
+      "Name": "Darkmantle Footpads",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226832": {
+      "Name": "Darkmantle Belt",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226835": {
+      "Name": "Darkmantle Wristguards",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226836": {
+      "Name": "Darkmantle Waistguard",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226837": {
+      "Name": "Darkmantle Pauldrons",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226838": {
+      "Name": "Darkmantle Legguards",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226840": {
+      "Name": "Darkmantle Handguards",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226841": {
+      "Name": "Darkmantle Faceguard",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226842": {
+      "Name": "Darkmantle Treads",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226843": {
+      "Name": "Darkmantle Armor",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226857": {
+      "Name": "Battleboots of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226858": {
+      "Name": "Spaulders of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226859": {
+      "Name": "Legplates of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226860": {
+      "Name": "Crown of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226861": {
+      "Name": "Gauntlets of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226862": {
+      "Name": "Breastplate of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226863": {
+      "Name": "Bracers of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226864": {
+      "Name": "Belt of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226865": {
+      "Name": "Wristguards of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226866": {
+      "Name": "Waistguard of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226867": {
+      "Name": "Pauldrons of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226868": {
+      "Name": "Legguards of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226869": {
+      "Name": "Faceguard of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226870": {
+      "Name": "Handguards of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226871": {
+      "Name": "Sabatons of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226872": {
+      "Name": "Chestguard of Heroism",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226881": {
+      "Name": "Beastmaster's Treads",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226882": {
+      "Name": "Beastmaster's Pants",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226883": {
+      "Name": "Beastmaster's Gauntlets",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226884": {
+      "Name": "Beastmaster's Mantle",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226885": {
+      "Name": "Beastmaster's Bindings",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226886": {
+      "Name": "Beastmaster's Tunic",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226887": {
+      "Name": "Beastmaster's Cap",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226888": {
+      "Name": "Beastmaster's Belt",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226889": {
+      "Name": "Beastmaster's Bracers",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226890": {
+      "Name": "Beastmaster's Waistwrap",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226891": {
+      "Name": "Beastmaster's Pauldrons",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226892": {
+      "Name": "Beastmaster's Leggings",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226893": {
+      "Name": "Beastmaster's Coif",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226894": {
+      "Name": "Beastmaster's Fists",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226895": {
+      "Name": "Beastmaster's Greaves",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226896": {
+      "Name": "Beastmaster's Chain",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226905": {
+      "Name": "Deathmist Belt",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226906": {
+      "Name": "Deathmist Robe",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226907": {
+      "Name": "Deathmist Bracers",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226908": {
+      "Name": "Deathmist Sandals",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226909": {
+      "Name": "Deathmist Mask",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226910": {
+      "Name": "Deathmist Leggings",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226911": {
+      "Name": "Deathmist Wraps",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226912": {
+      "Name": "Deathmist Mantle",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226913": {
+      "Name": "Deathmist Bindings",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226914": {
+      "Name": "Deathmist Cord",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226915": {
+      "Name": "Deathmist Epaulets",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226916": {
+      "Name": "Deathmist Pants",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226917": {
+      "Name": "Deathmist Hood",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226918": {
+      "Name": "Deathmist Grasps",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226919": {
+      "Name": "Deathmist Treads",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226920": {
+      "Name": "Deathmist Embrace",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226929": {
+      "Name": "Sorcerer's Bindings",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226930": {
+      "Name": "Sorcerer's Gauntlets",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226931": {
+      "Name": "Sorcerer's Sandals",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226932": {
+      "Name": "Sorcerer's Robes",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226933": {
+      "Name": "Sorcerer's Leggings",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226934": {
+      "Name": "Sorcerer's Belt",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226935": {
+      "Name": "Sorcerer's Crown",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226936": {
+      "Name": "Sorcerer's Mantle",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226945": {
+      "Name": "Virtuous Robe",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226946": {
+      "Name": "Virtuous Skirt",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226947": {
+      "Name": "Virtuous Crown",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226948": {
+      "Name": "Virtuous Belt",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226949": {
+      "Name": "Virtuous Bracers",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226950": {
+      "Name": "Virtuous Mitts",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226951": {
+      "Name": "Virtuous Mantle",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226952": {
+      "Name": "Virtuous Sandals",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226953": {
+      "Name": "Virtuous Wraps",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226954": {
+      "Name": "Virtuous Cord",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226955": {
+      "Name": "Virtuous Epaulets",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226956": {
+      "Name": "Virtuous Leggings",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226957": {
+      "Name": "Virtuous Cowl",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226958": {
+      "Name": "Virtuous Hands",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226959": {
+      "Name": "Virtuous Slippers",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226960": {
+      "Name": "Virtuous Gown",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226969": {
+      "Name": "Soulforge Spaulders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226970": {
+      "Name": "Soulforge Bracers",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226971": {
+      "Name": "Soulforge Belt",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226972": {
+      "Name": "Soulforge Legplates",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226973": {
+      "Name": "Soulforge Breastplate",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226974": {
+      "Name": "Soulforge Warboots",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226975": {
+      "Name": "Soulforge Gauntlets",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226976": {
+      "Name": "Soulforge Greathelm",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226977": {
+      "Name": "Soulforge Bindings",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226978": {
+      "Name": "Soulforge Cord",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226979": {
+      "Name": "Soulforge Epaulets",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226980": {
+      "Name": "Soulforge Leggings",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226981": {
+      "Name": "Soulforge Crown",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226982": {
+      "Name": "Soulforge Fists",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226983": {
+      "Name": "Soulforge Treads",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226984": {
+      "Name": "Soulforge Embrace",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226985": {
+      "Name": "Soulforge Wristguards",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226986": {
+      "Name": "Soulforge Waistguard",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226987": {
+      "Name": "Soulforge Pauldrons",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226988": {
+      "Name": "Soulforge Legguards",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226989": {
+      "Name": "Soulforge Faceguard",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226990": {
+      "Name": "Soulforge Handguards",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226991": {
+      "Name": "Soulforge Sabatons",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "226992": {
+      "Name": "Soulforge Chestguards",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227001": {
+      "Name": "Bindings of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227002": {
+      "Name": "Coif of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227003": {
+      "Name": "Pauldrons of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227004": {
+      "Name": "Vest of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227005": {
+      "Name": "Kilt of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227006": {
+      "Name": "Gauntlets of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227007": {
+      "Name": "Slippers of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227008": {
+      "Name": "Cord of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227009": {
+      "Name": "Bracers of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227010": {
+      "Name": "Sash of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227011": {
+      "Name": "Mantle of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227012": {
+      "Name": "Leggings of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227013": {
+      "Name": "Crown of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227014": {
+      "Name": "Grasp of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227015": {
+      "Name": "Greaves of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227016": {
+      "Name": "Tunic of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227017": {
+      "Name": "Bands of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227018": {
+      "Name": "Girdle of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227019": {
+      "Name": "Spaulders of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227020": {
+      "Name": "Legplates of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227021": {
+      "Name": "Face of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227022": {
+      "Name": "Fists of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227023": {
+      "Name": "Treads of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227024": {
+      "Name": "Chain of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227025": {
+      "Name": "Wristguards of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "26g31s57c~25g",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227026": {
+      "Name": "Waistguard of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227027": {
+      "Name": "Shoulderguards of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "20g~26g31s57c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227028": {
+      "Name": "Legguards of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227029": {
+      "Name": "Headpiece of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227030": {
+      "Name": "Handguards of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227031": {
+      "Name": "Sabatons of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "40g~52g63s15c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227032": {
+      "Name": "Chestguard of The Five Thunders",
+      "Source": "Mokvar~Deliana",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g~88g88s88c",
+      "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    }
+  }
+}

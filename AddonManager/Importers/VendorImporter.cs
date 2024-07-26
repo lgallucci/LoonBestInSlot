@@ -8,24 +8,24 @@ namespace AddonManager;
 
 public class VendorImporter : LootImporter
 {
-    private List<string> wowheadUriList = new List<string>
+    private Dictionary<string, (string, string)> wowheadUriList = new Dictionary<string, (string, string)>
     {
-        { @"https://www.wowhead.com/classic/npc=230319/deliana#sells" },
-        { @"https://www.wowhead.com/classic/npc=230319/deliana#sells;50"},
-        { @"https://www.wowhead.com/classic/npc=230319/deliana#sells;100"},
-        { @"https://www.wowhead.com/classic/npc=230319/deliana#sells;150"},
+        { @"https://www.wowhead.com/classic/npc=230319/deliana#sells", ("Deliana", "Ironforge") },
+        { @"https://www.wowhead.com/classic/npc=230319/deliana#sells;50", ("Deliana", "Ironforge")},
+        { @"https://www.wowhead.com/classic/npc=230319/deliana#sells;100", ("Deliana", "Ironforge")},
+        { @"https://www.wowhead.com/classic/npc=230319/deliana#sells;150", ("Deliana", "Ironforge")},
         
-        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells"},
-        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;50"},
-        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;100"},
-        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;150"}
+        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells", ("Mokvar", "Orgrimmar")},
+        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;50", ("Mokvar", "Orgrimmar")},
+        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;100", ("Mokvar", "Orgrimmar")},
+        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;150", ("Mokvar", "Orgrimmar")}
     };
 
-    internal override string FileName { get => "EmblemItemList"; }
+    internal override string FileName { get => "VendorItemList"; }
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
-        await Common.ReadWowheadSellsList(wowheadUriList.Where(u => u.Contains("wowhead")), (uri, row, itemId, item) =>
+        await Common.ReadWowheadSellsList(wowheadUriList.Keys.ToList(), (uri, row, itemId, item) =>
         {
             var success = false;
             var currencySource = "";
@@ -118,17 +118,19 @@ public class VendorImporter : LootImporter
                     sourceFaction = "A";
             }
 
-            if (items.Items.ContainsKey(itemId))
-            {
-                items.Items.Remove(itemId);
-            }
-            var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
+            if (!string.IsNullOrWhiteSpace(wowheadUriList[uri].Item1))
+                currencySource = wowheadUriList[uri].Item1;
+
+            if (!string.IsNullOrWhiteSpace(wowheadUriList[uri].Item2))
+                currencySourceLocation = wowheadUriList[uri].Item2;
+
+            items.AddItem(itemId, new DatabaseItem
             {
                 Name = itemName,
                 SourceNumber = currencyNumber,
                 Source = currencySource,
                 SourceLocation = currencySourceLocation,
-                SourceType = "Dungeon Token",
+                SourceType = "Vendor",
                 SourceFaction = sourceFaction
             });
         }, writeToLog);

@@ -6288,6 +6288,22 @@
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
+    "221365": {
+      "Name": "Silver Massacre Coin",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "221366": {
+      "Name": "Gold Massacre Coin",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
     "221367": {
       "Name": "Satchel of Copper Massacre Coins",
       "Source": "PvP Vendor",
@@ -6536,6 +6552,206 @@
       "SourceLocation": "Stranglethorn Vale",
       "SourceFaction": "B"
     },
+    "227042": {
+      "Name": "Champion's Plate Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g92s12c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227043": {
+      "Name": "Champion's Plate Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g94s24c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227044": {
+      "Name": "Lieutenant Commander's Plate Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g72s82c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227045": {
+      "Name": "Lieutenant Commander's Plate Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g74s95c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227046": {
+      "Name": "Knight-Captain's Plate Hauberk",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g74s45c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227047": {
+      "Name": "Knight-Captain's Plate Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g76s90c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227048": {
+      "Name": "Legionnaire's Plate Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g37s88c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227049": {
+      "Name": "Legionnaire's Plate Hauberk",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g35s43c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227050": {
+      "Name": "Blood Guard's Plate Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g86s10c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227051": {
+      "Name": "Blood Guard's Plate Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g42s25c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227052": {
+      "Name": "Knight-Lieutenant's Plate Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g70s47c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227053": {
+      "Name": "Knight-Lieutenant's Plate Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g12s53c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227054": {
+      "Name": "Lieutenant Commander's Leather Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g13s44c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227055": {
+      "Name": "Lieutenant Commander's Leather Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g10s78c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227056": {
+      "Name": "Champion's Leather Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g26s87c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227057": {
+      "Name": "Champion's Leather Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g5s26c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227058": {
+      "Name": "Knight-Captain's Leather Chestpiece",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g37s3c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227059": {
+      "Name": "Legionnaire's Leather Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g18s60c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227060": {
+      "Name": "Legionnaire's Leather Chestpiece",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g15s54c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227061": {
+      "Name": "Knight-Captain's Leather Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g40s1c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227062": {
+      "Name": "Blood Guard's Leather Walkers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g48s65c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227063": {
+      "Name": "Blood Guard's Leather Grips",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g76s79c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227064": {
+      "Name": "Knight-Lieutenant's Leather Walkers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g83s92c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227065": {
+      "Name": "Knight-Lieutenant's Leather Grips",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g87s89c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227066": {
+      "Name": "Lieutenant Commander's Chain Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g33s99c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
     "227067": {
       "Name": "Champion's Chain Helm",
       "Source": "PvP Vendor",
@@ -6543,6 +6759,14 @@
       "SourceNumber": "8g27s28c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
+    },
+    "227068": {
+      "Name": "Lieutenant Commander's Chain Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g40s82c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
     },
     "227069": {
       "Name": "Champion's Chain Shoulders",
@@ -6552,6 +6776,14 @@
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
+    "227070": {
+      "Name": "Knight-Captain's Chain Hauberk",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g82s51c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
     "227071": {
       "Name": "Legionnaire's Chain Hauberk",
       "Source": "PvP Vendor",
@@ -6559,6 +6791,14 @@
       "SourceNumber": "9g60s38c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
+    },
+    "227072": {
+      "Name": "Knight-Captain's Chain Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g86s18c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
     },
     "227073": {
       "Name": "Legionnaire's Chain Legguards",
@@ -6583,6 +6823,22 @@
       "SourceNumber": "4g48s82c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
+    },
+    "227076": {
+      "Name": "Knight-Lieutenant's Chain Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g86s39c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227077": {
+      "Name": "Knight-Lieutenant's Chain Vices",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g57s24c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
     },
     "227078": {
       "Name": "Champion's Chain Pauldrons",
@@ -6632,6 +6888,262 @@
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
+    "227084": {
+      "Name": "Lieutenant Commander's Chain Pauldrons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g40s82c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227085": {
+      "Name": "Knight-Captain's Chain Legplates",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g86s18c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227086": {
+      "Name": "Lieutenant Commander's Chain Greathelm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g33s99c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227087": {
+      "Name": "Knight-Lieutenant's Chain Grips",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g57s24c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227088": {
+      "Name": "Knight-Lieutenant's Chain Sabatons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g86s39c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227089": {
+      "Name": "Knight-Captain's Chain Armor",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g82s51c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227090": {
+      "Name": "Champion's Dreadweave Cowl",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g59s95c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227091": {
+      "Name": "Lieutenant Commander's Dreadweave Spaulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g66s50c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227092": {
+      "Name": "Champion's Dreadweave Spaulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g62s9c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227093": {
+      "Name": "Lieutenant Commander's Dreadweave Cowl",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g64s38c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227094": {
+      "Name": "Legionnaire's Dreadweave Tunic",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g64s60c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227095": {
+      "Name": "Knight-Captain's Dreadweave Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g64s73c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227096": {
+      "Name": "Knight-Captain's Dreadweave Tunic",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g67s17c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227097": {
+      "Name": "Legionnaire's Dreadweave Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g57s25c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227098": {
+      "Name": "Blood Guard's Dreadweave Walkers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g29s16c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227099": {
+      "Name": "Blood Guard's Dreadweave Handwraps",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g2s54c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227100": {
+      "Name": "Knight-Lieutenant's Dreadweave Handwraps",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g8s12c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227101": {
+      "Name": "Knight-Lieutenant's Dreadweave Walkers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g63s85c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227102": {
+      "Name": "Lieutenant Commander's Silk Mantle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g83s39c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227103": {
+      "Name": "Lieutenant Commander's Silk Cowl",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g81s26c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227104": {
+      "Name": "Champion's Silk Mantle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g94s18c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227105": {
+      "Name": "Champion's Silk Cowl",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g92s6c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227106": {
+      "Name": "Legionnaire's Silk Tunic",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g69s42c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227107": {
+      "Name": "Legionnaire's Silk Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g62s15c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227108": {
+      "Name": "Knight-Captain's Silk Tunic",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g86s62c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227109": {
+      "Name": "Knight-Captain's Silk Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g84s17c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227110": {
+      "Name": "Blood Guard's Silk Walkers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g45s54c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227111": {
+      "Name": "Blood Guard's Silk Handwraps",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g8s3c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227112": {
+      "Name": "Knight-Lieutenant's Silk Walkers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g43s96c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227113": {
+      "Name": "Knight-Lieutenant's Silk Handwraps",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g94s86c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227114": {
+      "Name": "Knight-Lieutenant's Silk Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g94s86c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227115": {
+      "Name": "Blood Guard's Silk Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g8s3c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
     "227118": {
       "Name": "Champion's Satin Hood",
       "Source": "PvP Vendor",
@@ -6640,6 +7152,14 @@
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
+    "227119": {
+      "Name": "Lieutenant Commander's Satin Mantle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g79s20c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
     "227120": {
       "Name": "Champion's Satin Mantle",
       "Source": "PvP Vendor",
@@ -6647,6 +7167,22 @@
       "SourceNumber": "5g89s93c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
+    },
+    "227121": {
+      "Name": "Lieutenant Commander's Satin Hood",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g77s7c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227122": {
+      "Name": "Knight-Captain's Satin Tunic",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g81s72c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
     },
     "227123": {
       "Name": "Legionnaire's Satin Legguards",
@@ -6664,6 +7200,14 @@
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
     },
+    "227125": {
+      "Name": "Knight-Captain's Satin Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g79s35c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
     "227126": {
       "Name": "Blood Guard's Satin Handwraps",
       "Source": "PvP Vendor",
@@ -6679,6 +7223,22 @@
       "SourceNumber": "4g29s16c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
+    },
+    "227128": {
+      "Name": "Knight-Lieutenant's Satin Handwraps",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g14s72c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227129": {
+      "Name": "Knight-Lieutenant's Satin Walkers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g28s71c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
     },
     "227130": {
       "Name": "Champion's Satin Epaulets",
@@ -6727,6 +7287,150 @@
       "SourceNumber": "6g66s97c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
+    },
+    "227136": {
+      "Name": "Lieutenant Commander's Satin Epaulets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g79s20c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227137": {
+      "Name": "Knight-Captain's Satin Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g79s35c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227138": {
+      "Name": "Lieutenant Commander's Satin Crown",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g77s7c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227139": {
+      "Name": "Knight-Lieutenant's Satin Grips",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g14s72c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227140": {
+      "Name": "Knight-Lieutenant's Satin Treads",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g28s71c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227141": {
+      "Name": "Knight-Captain's Satin Robe",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g81s72c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227142": {
+      "Name": "Knight-Captain's Lamellar Breastplate",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g37s60c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227143": {
+      "Name": "Knight-Captain's Lamellar Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g39s99c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227144": {
+      "Name": "Lieutenant Commander's Lamellar Headguard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g77s19c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227145": {
+      "Name": "Lieutenant Commander's Lamellar Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g79s31c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227146": {
+      "Name": "Knight-Lieutenant's Lamellar Sabatons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g50s62c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227147": {
+      "Name": "Knight-Lieutenant's Lamellar Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g99s30c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227148": {
+      "Name": "Lieutenant Commander's Lamellar Pauldrons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g79s31c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227149": {
+      "Name": "Lieutenant Commander's Lamellar Helmet",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g77s19c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227150": {
+      "Name": "Knight-Captain's Lamellar Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g39s99c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227151": {
+      "Name": "Knight-Captain's Lamellar Chestplate",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g37s60c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227152": {
+      "Name": "Knight-Lieutenant's Lamellar Gloves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "2g99s30c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227153": {
+      "Name": "Knight-Lieutenant's Lamellar Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g50s62c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
     },
     "227154": {
       "Name": "Champion's Mail Pauldrons",
@@ -6871,6 +7575,302 @@
       "SourceNumber": "9g67s72c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
+    },
+    "227172": {
+      "Name": "Lieutenant Commander's Dragonhide Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g2s89c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227173": {
+      "Name": "Lieutenant Commander's Dragonhide Headguard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g24c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227174": {
+      "Name": "Champion's Dragonhide Headguard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g94s71c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227175": {
+      "Name": "Champion's Dragonhide Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g97s29c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227176": {
+      "Name": "Knight-Captain's Dragonhide Chestpiece",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g24s88c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227177": {
+      "Name": "Legionnaire's Dragonhide Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g12s48c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227178": {
+      "Name": "Knight-Captain's Dragonhide Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g27s85c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227179": {
+      "Name": "Legionnaire's Dragonhide Chestpiece",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g9s42c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227180": {
+      "Name": "Blood Guard's Dragonhide Grips",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g57s63c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227181": {
+      "Name": "Blood Guard's Dragonhide Treads",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g36s44c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227182": {
+      "Name": "Knight-Lieutenant's Dragonhide Treads",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g75s65c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227183": {
+      "Name": "Knight-Lieutenant's Dragonhide Grips",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g82s37c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227184": {
+      "Name": "Champion's Dragonhide Spaulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g97s29c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227185": {
+      "Name": "Legionnaire's Dragonhide Pants",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g12s48c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227186": {
+      "Name": "Champion's Dragonhide Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g94s71c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227187": {
+      "Name": "Blood Guard's Dragonhide Gloves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g57s63c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227188": {
+      "Name": "Blood Guard's Dragonhide Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g36s44c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227189": {
+      "Name": "Legionnaire's Dragonhide Armor",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g9s42c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227190": {
+      "Name": "Lieutenant Commander's Dragonhide Spaulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g2s89c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227191": {
+      "Name": "Knight-Captain's Dragonhide Pants",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g27s85c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227192": {
+      "Name": "Lieutenant Commander's Dragonhide Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g24c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227193": {
+      "Name": "Knight-Lieutenant's Dragonhide Gloves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g82s37c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227194": {
+      "Name": "Knight-Lieutenant's Dragonhide Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g75s65c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227195": {
+      "Name": "Knight-Captain's Dragonhide Armor",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g24s88c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227196": {
+      "Name": "Knight-Captain's Dragonhide Tunic",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g24s88c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227197": {
+      "Name": "Knight-Lieutenant's Dragonhide Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g75s65c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227198": {
+      "Name": "Knight-Lieutenant's Dragonhide Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g82s37c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227199": {
+      "Name": "Lieutenant Commander's Dragonhide Headdress",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g24c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227200": {
+      "Name": "Knight-Captain's Dragonhide Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g27s85c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227201": {
+      "Name": "Lieutenant Commander's Dragonhide Pauldrons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g2s89c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "227202": {
+      "Name": "Legionnaire's Dragonhide Tunic",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g9s42c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227203": {
+      "Name": "Blood Guard's Dragonhide Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g36s44c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227204": {
+      "Name": "Blood Guard's Dragonhide Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "3g57s63c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227205": {
+      "Name": "Champion's Dragonhide Headdress",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g94s71c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227206": {
+      "Name": "Legionnaire's Dragonhide Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g12s48c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "227207": {
+      "Name": "Champion's Dragonhide Pauldrons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g97s29c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "228326": {
+      "Name": "Satchel of Copper Slaughter Coins",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Stranglethorn Vale",
+      "SourceFaction": "B"
     },
     "228747": {
       "Name": "Reins of the Golden Sabercat",
