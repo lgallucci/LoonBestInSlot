@@ -1,5 +1,61 @@
 {
   "Items": {
+    "12698": {
+      "Name": "Plans: Dawnbringer Shoulders",
+      "Source": "Quartermaster Miranda Breechlock",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "The Argent Dawn",
+      "SourceFaction": "B"
+    },
+    "17049": {
+      "Name": "Plans: Fiery Chain Girdle",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "17051": {
+      "Name": "Plans: Dark Iron Bracers",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "17052": {
+      "Name": "Plans: Dark Iron Leggings",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "17053": {
+      "Name": "Plans: Fiery Chain Shoulders",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "17059": {
+      "Name": "Plans: Dark Iron Reaver",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "17060": {
+      "Name": "Plans: Dark Iron Destroyer",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
     "226705": {
       "Name": "Shadowcraft Pants",
       "Source": "Deliana",
@@ -1478,6 +1534,382 @@
       "SourceType": "Vendor",
       "SourceNumber": "80g~88g88s88c",
       "SourceLocation": "Orgrimmar~Ironforge",
+      "SourceFaction": "B"
+    },
+    "227803": {
+      "Name": "Dire Warbear Harness",
+      "Source": "Meilosh",
+      "SourceType": "Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "Timermaul Hold",
+      "SourceFaction": "B"
+    },
+    "227804": {
+      "Name": "Dire Warbear Woolies",
+      "Source": "Meilosh",
+      "SourceType": "Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "Timermaul Hold",
+      "SourceFaction": "B"
+    },
+    "227805": {
+      "Name": "Ferocity of the Timbermaw",
+      "Source": "Meilosh",
+      "SourceType": "Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "Timermaul Hold",
+      "SourceFaction": "B"
+    },
+    "227807": {
+      "Name": "Dense Timbermaw Belt",
+      "Source": "Meilosh",
+      "SourceType": "Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "Timermaul Hold",
+      "SourceFaction": "B"
+    },
+    "227808": {
+      "Name": "Rugged Mantle of the Timbermaw",
+      "Source": "Meilosh",
+      "SourceType": "Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "Timermaul Hold",
+      "SourceFaction": "B"
+    },
+    "227809": {
+      "Name": "Studded Timbermaw Brawlers",
+      "Source": "Meilosh",
+      "SourceType": "Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "Timermaul Hold",
+      "SourceFaction": "B"
+    },
+    "227810": {
+      "Name": "Dense Timbermaw Boots",
+      "Source": "Meilosh",
+      "SourceType": "Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "Timermaul Hold",
+      "SourceFaction": "B"
+    },
+    "227814": {
+      "Name": "Radiant Girdle of the Dawn",
+      "Source": "Quartermaster Miranda Breechlock",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "The Argent Dawn",
+      "SourceFaction": "B"
+    },
+    "227815": {
+      "Name": "Fine Dawn Treaders",
+      "Source": "Quartermaster Miranda Breechlock",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "The Argent Dawn",
+      "SourceFaction": "B"
+    },
+    "227816": {
+      "Name": "Argent Elite Boots",
+      "Source": "Quartermaster Miranda Breechlock",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "The Argent Dawn",
+      "SourceFaction": "B"
+    },
+    "227817": {
+      "Name": "Radiant Gloves of the Dawn",
+      "Source": "Quartermaster Miranda Breechlock",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "The Argent Dawn",
+      "SourceFaction": "B"
+    },
+    "227818": {
+      "Name": "Glowing Mantle of the Dawn",
+      "Source": "Quartermaster Miranda Breechlock",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "The Argent Dawn",
+      "SourceFaction": "B"
+    },
+    "227819": {
+      "Name": "Blessed Flame Mantle of the Dawn",
+      "Source": "Quartermaster Miranda Breechlock",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "The Argent Dawn",
+      "SourceFaction": "B"
+    },
+    "227820": {
+      "Name": "Tempered Dark Iron Bracers",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227821": {
+      "Name": "Flamekissed Molten Helm",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227822": {
+      "Name": "Thick Corehound Boots",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227823": {
+      "Name": "Fine Flarecore Gloves",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227824": {
+      "Name": "Tempered Dark Iron Helm",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227825": {
+      "Name": "Molten Dark Iron Destroyer",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227826": {
+      "Name": "Dark Iron Flame Reaver",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227827": {
+      "Name": "Molten Chain Girdle",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227828": {
+      "Name": "Lavawalker Belt",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227829": {
+      "Name": "Hardened Black Dragonscale Boots",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227830": {
+      "Name": "Fine Flarecore Mantle",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227831": {
+      "Name": "Fine Flarecore Robe",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227832": {
+      "Name": "Tempered Black Amnesty",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227833": {
+      "Name": "Glaive of Obsidian Fury",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227834": {
+      "Name": "Molten Chain Shoulders",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227835": {
+      "Name": "Tempered Dark Iron Gauntlets",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227836": {
+      "Name": "Tempered Dark Iron Leggings",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227837": {
+      "Name": "Thick Corehound Belt",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227838": {
+      "Name": "Shining Chromatic Gauntlets",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227839": {
+      "Name": "Fine Flarecore Leggings",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227840": {
+      "Name": "Implacable Blackguard",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227841": {
+      "Name": "Tempered Dark Iron Boots",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227842": {
+      "Name": "Ebon Fist",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "227859": {
+      "Name": "Shimmering Dawnbringer Shoulders",
+      "Source": "Quartermaster Miranda Breechlock",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "The Argent Dawn",
+      "SourceFaction": "B"
+    },
+    "227862": {
+      "Name": "Incandescent Mooncloth Boots",
+      "Source": "Meilosh",
+      "SourceType": "Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "Timermaul Hold",
+      "SourceFaction": "B"
+    },
+    "227888": {
+      "Name": "Argent Elite Shoulders",
+      "Source": "Quartermaster Miranda Breechlock",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "The Argent Dawn",
+      "SourceFaction": "B"
+    },
+    "228190": {
+      "Name": "Knowledge of the Timbermaw",
+      "Source": "Meilosh",
+      "SourceType": "Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "Timermaul Hold",
+      "SourceFaction": "B"
+    },
+    "228924": {
+      "Name": "Tempered Dark Iron Boots",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "228925": {
+      "Name": "Tempered Dark Iron Boots",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "228926": {
+      "Name": "Tempered Dark Iron Boots",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "228927": {
+      "Name": "Tempered Dark Iron Boots",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "228928": {
+      "Name": "Tempered Dark Iron Boots",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "228929": {
+      "Name": "Tempered Dark Iron Boots",
+      "Source": "Lokhtos Darkbargainer",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Thorium Brotherhood",
+      "SourceFaction": "B"
+    },
+    "228982": {
+      "Name": "Formula: Enchant Shield - Law of Nature",
+      "Source": "Meilosh",
+      "SourceType": "Vendor",
+      "SourceNumber": "0",
+      "SourceLocation": "Timermaul Hold",
       "SourceFaction": "B"
     }
   }

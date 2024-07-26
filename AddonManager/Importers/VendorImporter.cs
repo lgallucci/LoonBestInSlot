@@ -18,7 +18,12 @@ public class VendorImporter : LootImporter
         { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells", ("Mokvar", "Orgrimmar")},
         { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;50", ("Mokvar", "Orgrimmar")},
         { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;100", ("Mokvar", "Orgrimmar")},
-        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;150", ("Mokvar", "Orgrimmar")}
+        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;150", ("Mokvar", "Orgrimmar")},
+
+        { @"https://www.wowhead.com/classic/npc=11557/meilosh#sells", ("Meilosh", "Timermaul Hold")},
+        { @"https://www.wowhead.com/classic/npc=11536/quartermaster-miranda-breechlock#sells", ("Quartermaster Miranda Breechlock", "The Argent Dawn")},
+        { @"https://www.wowhead.com/classic/npc=12944/lokhtos-darkbargainer#sells", ("Lokhtos Darkbargainer", "Thorium Brotherhood")},
+        { @"https://www.wowhead.com/classic/npc=12944/lokhtos-darkbargainer#sells;50", ("Lokhtos Darkbargainer", "Thorium Brotherhood")}
     };
 
     internal override string FileName { get => "VendorItemList"; }
@@ -109,6 +114,13 @@ public class VendorImporter : LootImporter
                 }
             }
 
+            if ((item?.ClassName?.Contains("q0") ?? false) || 
+                (item?.ClassName?.Contains("q1") ?? false) || 
+                (item?.ClassName?.Contains("q2") ?? false))
+            {
+                return;
+            }
+            
             if (row.Children[6].Children.Count() > 0)
             {
                 var factionColumn = (IElement)row.Children[6].ChildNodes[0];
