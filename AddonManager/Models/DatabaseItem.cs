@@ -32,7 +32,7 @@ public class DatabaseItems
         if (Items.ContainsKey(itemId))
         {
             Items[itemId].CombineCount++;
-            if (Items[itemId].SourceLocation == converted.SourceLocation || Items[itemId].Source == "Various Bosses")
+            if (Items[itemId].SourceLocation == converted.SourceLocation)
             {
                 if (Items[itemId].CombineCount > 4)
                     Items[itemId].Source = "Various Bosses";

@@ -16,6 +16,142 @@
       "SourceLocation": "Gnomeregan",
       "SourceFaction": "B"
     },
+    "16900": {
+      "Name": "Stormrage Cover",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "16908": {
+      "Name": "Bloodfang Hood",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "16914": {
+      "Name": "Netherwind Crown",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "16921": {
+      "Name": "Halo of Transcendence",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "16929": {
+      "Name": "Nemesis Skullcap",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "16939": {
+      "Name": "Dragonstalker's Helm",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "16955": {
+      "Name": "Judgement Crown",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "16963": {
+      "Name": "Helm of Wrath",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "17064": {
+      "Name": "Shard of the Scale",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "17067": {
+      "Name": "Ancient Cornerstone Grimoire",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "17068": {
+      "Name": "Deathbringer",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "17075": {
+      "Name": "Vis'kag the Bloodletter",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "17078": {
+      "Name": "Sapphiron Drape",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "17964": {
+      "Name": "Gray Sack of Gems",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "17966": {
+      "Name": "Onyxia Hide Backpack",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "17969": {
+      "Name": "Red Sack of Gems",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "18205": {
+      "Name": "Eskhandar's Collar",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
     "18252": {
       "Name": "Pattern: Core Armor Kit",
       "Source": "Various Bosses",
@@ -48,6 +184,14 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "18423": {
+      "Name": "Head of Onyxia",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
     "18564": {
       "Name": "Bindings of the Windseeker",
       "Source": "Garr",
@@ -70,6 +214,22 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "18705": {
+      "Name": "Mature Black Dragon Sinew",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "18813": {
+      "Name": "Ring of Binding",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
       "SourceFaction": "B"
     },
     "204804": {
@@ -2762,114 +2922,114 @@
     },
     "227531": {
       "Name": "Incandescent Bindings",
-      "Source": "Various Bosses",
+      "Source": "Various Bosses~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227532": {
       "Name": "Incandescent Hood",
-      "Source": "Garr",
+      "Source": "Garr~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227533": {
       "Name": "Incandescent Gloves",
-      "Source": "Lucifron & Gehennas & Shazzrah",
+      "Source": "Lucifron & Gehennas & Shazzrah~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227534": {
       "Name": "Incandescent Leggings",
-      "Source": "Magmadar & Ragnaros",
+      "Source": "Magmadar & Ragnaros~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227535": {
       "Name": "Incandescent Robe",
-      "Source": "Golemagg the Incinerator",
+      "Source": "Golemagg the Incinerator~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227536": {
       "Name": "Incandescent Boots",
-      "Source": "Lucifron & Shazzrah",
+      "Source": "Lucifron & Shazzrah~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227537": {
       "Name": "Incandescent Shoulderpads",
-      "Source": "Baron Geddon & Sulfuron Harbinger",
+      "Source": "Baron Geddon & Sulfuron Harbinger~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227750": {
       "Name": "Molten Scaled Bindings",
-      "Source": "Various Bosses",
+      "Source": "Various Bosses~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227751": {
       "Name": "Molten Scaled Belt",
-      "Source": "Various Bosses",
+      "Source": "Various Bosses~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227752": {
       "Name": "Molten Scaled Shoulderpads",
-      "Source": "Baron Geddon & Sulfuron Harbinger",
+      "Source": "Baron Geddon & Sulfuron Harbinger~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227754": {
       "Name": "Molten Scaled Leggings",
-      "Source": "Magmadar & Ragnaros",
+      "Source": "Magmadar & Ragnaros~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227755": {
       "Name": "Molten Scaled Helm",
-      "Source": "Garr",
+      "Source": "Garr~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227756": {
       "Name": "Molten Scaled Gloves",
-      "Source": "Gehennas & Shazzrah",
+      "Source": "Gehennas & Shazzrah~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227757": {
       "Name": "Molten Scaled Boots",
-      "Source": "Lucifron & Gehennas",
+      "Source": "Lucifron & Gehennas~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227758": {
@@ -2882,12 +3042,12 @@
     },
     "227759": {
       "Name": "Scorched Core Gloves",
-      "Source": "Lucifron & Gehennas & Shazzrah",
+      "Source": "Lucifron & Gehennas & Shazzrah~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
-    },    
+    },
     "227760": {
       "Name": "Scorched Core Bindings",
       "Source": "Various Bosses",
@@ -2898,42 +3058,42 @@
     },
     "227761": {
       "Name": "Scorched Core Belt",
-      "Source": "Various Bosses",
+      "Source": "Various Bosses~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227762": {
       "Name": "Scorched Core Shoulderpads",
-      "Source": "Baron Geddon & Sulfuron Harbinger",
+      "Source": "Baron Geddon & Sulfuron Harbinger~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227763": {
       "Name": "Scorched Core Leggings",
-      "Source": "Magmadar & Ragnaros",
+      "Source": "Magmadar & Ragnaros~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227764": {
       "Name": "Scorched Core  Helm",
-      "Source": "Garr",
+      "Source": "Garr~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227765": {
       "Name": "Scorched Core Boots",
-      "Source": "Lucifron & Gehennas & Shazzrah",
+      "Source": "Lucifron & Gehennas & Shazzrah~Onyxia",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Molten Core",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Molten Core~Onyxia's Lair",
       "SourceFaction": "B"
     },
     "227766": {
@@ -2942,6 +3102,46 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228162": {
+      "Name": "Deceit",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "228163": {
+      "Name": "Broodmother's Brooch",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "228165": {
+      "Name": "Dragonslayer's Javelin",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "228166": {
+      "Name": "Key to the City",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "228188": {
+      "Name": "Prestor's Hairpin",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
       "SourceFaction": "B"
     },
     "228229": {
@@ -3030,6 +3230,14 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228250": {
+      "Name": "Plans: Stronger-hold Gauntlets",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
       "SourceFaction": "B"
     },
     "228252": {
@@ -3368,6 +3576,14 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "228298": {
+      "Name": "Shard of the Scale",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
     "228299": {
       "Name": "Spinal Reaper",
       "Source": "Ragnaros",
@@ -3382,6 +3598,30 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "228759": {
+      "Name": "Eskhandar's Collar",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "228955": {
+      "Name": "Ancient Cornerstone Grimoire",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "228992": {
+      "Name": "Onyxia Hide Backpack",
+      "Source": "Onyxia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Onyxia's Lair",
       "SourceFaction": "B"
     }
   }
