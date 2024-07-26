@@ -8,6 +8,22 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "216919": {
+      "Name": "Felheart Sash",
+      "Source": "Incandescent Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227530",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "216920": {
+      "Name": "Felheart Bindings",
+      "Source": "Incandescent Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227531",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "216921": {
       "Name": "Felheart Grips",
       "Source": "Incandescent Gloves",
@@ -400,11 +416,27 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "226440": {
+      "Name": "Nightslayer Belt",
+      "Source": "Scorched Core Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227761",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "226441": {
       "Name": "Nightslayer Gloves",
       "Source": "Scorched Core Gloves",
       "SourceType": "TierToken",
       "SourceNumber": "227759",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226442": {
+      "Name": "Nightslayer Bracelets",
+      "Source": "Scorched Core Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227760",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
@@ -456,11 +488,27 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "226474": {
+      "Name": "Nightslayer Waistguard",
+      "Source": "Scorched Core Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227761",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "226475": {
       "Name": "Nightslayer Handguards",
       "Source": "Scorched Core Gloves",
       "SourceType": "TierToken",
       "SourceNumber": "227759",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226476": {
+      "Name": "Nightslayer Bracers",
+      "Source": "Scorched Core Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227760",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
@@ -493,6 +541,22 @@
       "Source": "Scorched Core  Helm",
       "SourceType": "TierToken",
       "SourceNumber": "227764",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226484": {
+      "Name": "Bracers of Might",
+      "Source": "Scorched Core Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227760",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226485": {
+      "Name": "Belt of Might",
+      "Source": "Scorched Core Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227761",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
@@ -592,6 +656,22 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "226498": {
+      "Name": "Sash of Might",
+      "Source": "Scorched Core Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227761",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226499": {
+      "Name": "Armguards of Might",
+      "Source": "Scorched Core Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227760",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "226527": {
       "Name": "Giantstalker's Epaulets",
       "Source": "Molten Scaled Shoulderpads",
@@ -605,6 +685,22 @@
       "Source": "Molten Scaled Gloves",
       "SourceType": "TierToken",
       "SourceNumber": "227756",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226529": {
+      "Name": "Giantstalker's Belt",
+      "Source": "Molten Scaled Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227751",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226530": {
+      "Name": "Giantstalker's Bracers",
+      "Source": "Molten Scaled Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227750",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
@@ -680,6 +776,22 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "226541": {
+      "Name": "Giantstalker's Wristguards",
+      "Source": "Molten Scaled Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227750",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226542": {
+      "Name": "Giantstalker's Girdle",
+      "Source": "Molten Scaled Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227751",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "226543": {
       "Name": "Giantstalker's Spauldrons",
       "Source": "Molten Scaled Shoulderpads",
@@ -720,6 +832,14 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "226551": {
+      "Name": "Felheart Belt",
+      "Source": "Incandescent Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227530",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "226552": {
       "Name": "Felheart Gloves",
       "Source": "Incandescent Gloves",
@@ -728,11 +848,27 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "226553": {
+      "Name": "Felheart Bracers",
+      "Source": "Incandescent Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227531",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "226554": {
       "Name": "Felheart Slippers",
       "Source": "Incandescent Boots",
       "SourceType": "TierToken",
       "SourceNumber": "227536",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226555": {
+      "Name": "Arcanist Belt",
+      "Source": "Incandescent Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227530",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
@@ -749,6 +885,14 @@
       "Source": "Incandescent Boots",
       "SourceType": "TierToken",
       "SourceNumber": "227536",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226558": {
+      "Name": "Arcanist Bindings",
+      "Source": "Incandescent Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227531",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
@@ -816,6 +960,14 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "226567": {
+      "Name": "Arcanist Wristwraps",
+      "Source": "Incandescent Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227531",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "226568": {
       "Name": "Arcanist Sandals",
       "Source": "Incandescent Boots",
@@ -829,6 +981,14 @@
       "Source": "Incandescent Gloves",
       "SourceType": "TierToken",
       "SourceNumber": "227533",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226570": {
+      "Name": "Arcanist Cord",
+      "Source": "Incandescent Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227530",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
@@ -877,6 +1037,38 @@
       "Source": "Incandescent Shoulderpads",
       "SourceType": "TierToken",
       "SourceNumber": "227537",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226577": {
+      "Name": "Girdle of Prophecy",
+      "Source": "Incandescent Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227530",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226578": {
+      "Name": "Vambraces of Prophecy",
+      "Source": "Incandescent Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227531",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226579": {
+      "Name": "Wristwraps of Prophecy",
+      "Source": "Incandescent Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227531",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226580": {
+      "Name": "Belt of Prophecy",
+      "Source": "Incandescent Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227530",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
@@ -936,6 +1128,14 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "226589": {
+      "Name": "Lawbringer Bracers",
+      "Source": "Molten Scaled Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227750",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "226590": {
       "Name": "Lawbringer Helm",
       "Source": "Molten Scaled Helm",
@@ -949,6 +1149,14 @@
       "Source": "Molten Scaled Gloves",
       "SourceType": "TierToken",
       "SourceNumber": "227756",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226592": {
+      "Name": "Lawbringer Belt",
+      "Source": "Molten Scaled Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227751",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
@@ -973,6 +1181,22 @@
       "Source": "Molten Scaled Chest",
       "SourceType": "TierToken",
       "SourceNumber": "227758",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226596": {
+      "Name": "Lawbringer Warbands",
+      "Source": "Molten Scaled Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227750",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226597": {
+      "Name": "Lawbringer Girdle",
+      "Source": "Molten Scaled Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227751",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
@@ -1013,6 +1237,22 @@
       "Source": "Molten Scaled Chest",
       "SourceType": "TierToken",
       "SourceNumber": "227758",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226603": {
+      "Name": "Lawbringer Vambraces",
+      "Source": "Molten Scaled Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227750",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226604": {
+      "Name": "Lawbringer Battlebelt",
+      "Source": "Molten Scaled Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227751",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
@@ -1104,11 +1344,27 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "226616": {
+      "Name": "Earthfury Belt",
+      "Source": "Molten Scaled Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227751",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "226617": {
       "Name": "Earthfury Vestments",
       "Source": "Molten Scaled Chest",
       "SourceType": "TierToken",
       "SourceNumber": "227758",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226618": {
+      "Name": "Earthfury Bracers",
+      "Source": "Molten Scaled Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227750",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
@@ -1160,6 +1416,22 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "226625": {
+      "Name": "Earthfury Cord",
+      "Source": "Molten Scaled Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227751",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226626": {
+      "Name": "Earthfury Wristbands",
+      "Source": "Molten Scaled Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227750",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "226627": {
       "Name": "Earthfury Scalemail",
       "Source": "Molten Scaled Chest",
@@ -1205,6 +1477,22 @@
       "Source": "Molten Scaled Shoulderpads",
       "SourceType": "TierToken",
       "SourceNumber": "227752",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226633": {
+      "Name": "Earthfury Waistguard",
+      "Source": "Molten Scaled Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227751",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226634": {
+      "Name": "Earthfury Wristguards",
+      "Source": "Molten Scaled Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227750",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
@@ -1256,6 +1544,22 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "226641": {
+      "Name": "Earthfury Girdle",
+      "Source": "Molten Scaled Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227751",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226642": {
+      "Name": "Earthfury Bindings",
+      "Source": "Molten Scaled Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227750",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "226644": {
       "Name": "Cenarion Spaulders",
       "Source": "Scorched Core Shoulderpads",
@@ -1296,6 +1600,22 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "226649": {
+      "Name": "Cenarion Bracers",
+      "Source": "Scorched Core Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227760",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226650": {
+      "Name": "Cenarion Belt",
+      "Source": "Scorched Core Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227761",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "226651": {
       "Name": "Cenarion Pants",
       "Source": "Scorched Core Leggings",
@@ -1328,11 +1648,27 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "226655": {
+      "Name": "Cenarion Wrists",
+      "Source": "Scorched Core Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227760",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "226656": {
       "Name": "Cenarion Embrace",
       "Source": "Scorched Core Chest",
       "SourceType": "TierToken",
       "SourceNumber": "227766",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226657": {
+      "Name": "Cenarion Cord",
+      "Source": "Scorched Core Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227761",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
@@ -1352,11 +1688,27 @@
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
+    "226660": {
+      "Name": "Cenarion Girdle",
+      "Source": "Scorched Core Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227761",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "226661": {
       "Name": "Cenarion Tunic",
       "Source": "Scorched Core Chest",
       "SourceType": "TierToken",
       "SourceNumber": "227766",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226662": {
+      "Name": "Cenarion Bands",
+      "Source": "Scorched Core Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227760",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },
@@ -1389,6 +1741,22 @@
       "Source": "Scorched Core Leggings",
       "SourceType": "TierToken",
       "SourceNumber": "227763",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226667": {
+      "Name": "Cenarion Waistguard",
+      "Source": "Scorched Core Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "227761",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226668": {
+      "Name": "Cenarion Wristguards",
+      "Source": "Scorched Core Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227760",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     },

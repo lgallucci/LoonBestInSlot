@@ -19,6 +19,8 @@ public class TierSetImporter : LootImporter
         { @"https://www.wowhead.com/classic/item=227535/incandescent-robe#currency-for", "Molten Core"},
         { @"https://www.wowhead.com/classic/item=227534/incandescent-leggings#currency-for", "Molten Core"},
         { @"https://www.wowhead.com/classic/item=227536/incandescent-boots#currency-for", "Molten Core"},
+        { @"https://www.wowhead.com/classic/item=227530/incandescent-belt#currency-for", "Molten Core"},
+        { @"https://www.wowhead.com/classic/item=227531/incandescent-bindings#currency-for", "Molten Core"},
 
         { @"https://www.wowhead.com/classic/item=227764/scorched-core-helm#currency-for", "Molten Core"},
         { @"https://www.wowhead.com/classic/item=227762/scorched-core-shoulderpads#currency-for", "Molten Core"},
@@ -26,6 +28,8 @@ public class TierSetImporter : LootImporter
         { @"https://www.wowhead.com/classic/item=227766/scorched-core-chest#currency-for", "Molten Core"},
         { @"https://www.wowhead.com/classic/item=227763/scorched-core-leggings#currency-for", "Molten Core"},        
         { @"https://www.wowhead.com/classic/item=227765/scorched-core-boots#currency-for", "Molten Core"},
+        { @"https://www.wowhead.com/classic/item=227761/scorched-core-belt#currency-for", "Molten Core"},
+        { @"https://www.wowhead.com/classic/item=227760/scorched-core-bindings#currency-for", "Molten Core"},
 
         { @"https://www.wowhead.com/classic/item=227755/molten-scaled-helm#currency-for", "Molten Core"},
         { @"https://www.wowhead.com/classic/item=227752/molten-scaled-shoulderpads#currency-for", "Molten Core"},
@@ -33,6 +37,8 @@ public class TierSetImporter : LootImporter
         { @"https://www.wowhead.com/classic/item=227758/molten-scaled-chest#currency-for", "Molten Core"},
         { @"https://www.wowhead.com/classic/item=227754/molten-scaled-leggings#currency-for", "Molten Core"},
         { @"https://www.wowhead.com/classic/item=227757/molten-scaled-boots#currency-for", "Molten Core"},
+        { @"https://www.wowhead.com/classic/item=227751/molten-scaled-belt#currency-for", "Molten Core"},
+        { @"https://www.wowhead.com/classic/item=227750/molten-scaled-bindings#currency-for", "Molten Core"},
     };
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToText)

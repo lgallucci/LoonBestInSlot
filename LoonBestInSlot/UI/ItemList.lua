@@ -277,7 +277,7 @@ local function createSourceTypeText(specItemSource)
         end
     end
 
-    local sourceType1, sourceType2 = strsplit("~", specItemSource.SourceType)    
+    local sourceType1, sourceType2 = strsplit("~", specItemSource.SourceType)
 
     --Create Drop Text
     local dtColor = getSourceColor(sourceType1);

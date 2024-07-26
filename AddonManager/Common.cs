@@ -120,28 +120,28 @@ public static class Common
         
         var rowElements = doc.QuerySelectorAll("#tab-sells .listview-mode-default .listview-row");
 
-        ReadWowheadItemsList(doc, uri, rowElements, func);
+        ReadWowheadItemsList(uri, rowElements, func);
     }
 
     internal static void ReadWowheadDropsList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
     {
         var rowElements = doc.QuerySelectorAll("#tab-drops .listview-mode-default .listview-row");
 
-        ReadWowheadItemsList(doc, uri, rowElements, func);
+        ReadWowheadItemsList(uri, rowElements, func);
     }
 
     internal static void ReadWowheadDroppedByList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
     {
         var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
 
-        ReadWowheadItemsList(doc, uri, rowElements, func);
+        ReadWowheadItemsList(uri, rowElements, func);
     }
     
     internal static void ReadWowheadContainsList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
     {
         var rowElements = doc.QuerySelectorAll("#tab-contains .listview-mode-default tr");
 
-        ReadWowheadItemsList(doc, uri, rowElements, func);
+        ReadWowheadItemsList(uri, rowElements, func);
     }
 
     private static void ReadEvoWowItemsList(IHtmlDocument doc, string uri, IHtmlCollection<IElement> rowElements, Action<string, IElement, int, IElement> func)
@@ -179,7 +179,7 @@ public static class Common
         }
     }
 
-    private static void ReadWowheadItemsList(IHtmlDocument doc, string uri, IHtmlCollection<IElement> rowElements, Action<string, IElement, int, IElement> func)
+    private static void ReadWowheadItemsList(string uri, IHtmlCollection<IElement> rowElements, Action<string, IElement, int, IElement> func)
     {
         if (rowElements != null && rowElements.Length > 0)
         {

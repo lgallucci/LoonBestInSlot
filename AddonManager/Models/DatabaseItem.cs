@@ -51,9 +51,9 @@ public class DatabaseItems
                 var sources = Items[itemId].Source.Split("~");
                 if (!sources.Contains(converted.Source))
                 {
-                    Items[itemId].Source += $"|{converted.Source}";
-                    Items[itemId].SourceLocation += $"|{converted.SourceLocation}";
-                    Items[itemId].SourceNumber += $"|{converted.SourceNumber}";
+                    Items[itemId].Source += $"~{converted.Source}";
+                    Items[itemId].SourceLocation += $"~{converted.SourceLocation}";
+                    Items[itemId].SourceNumber += $"~{converted.SourceNumber}";
                 }
             }
         }

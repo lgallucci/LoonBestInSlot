@@ -17,7 +17,6 @@ public class VendorImporter : LootImporter
         
         { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells"},
         { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;50"},
-        { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;50"},
         { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;100"},
         { @"https://www.wowhead.com/classic/npc=230317/mokvar#sells;150"}
     };

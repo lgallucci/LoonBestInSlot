@@ -2752,6 +2752,22 @@
       "SourceLocation": "Sunken Temple",
       "SourceFaction": "B"
     },
+    "227530": {
+      "Name": "Incandescent Belt",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227531": {
+      "Name": "Incandescent Bindings",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "227532": {
       "Name": "Incandescent Hood",
       "Source": "Garr",
@@ -2795,6 +2811,22 @@
     "227537": {
       "Name": "Incandescent Shoulderpads",
       "Source": "Baron Geddon & Sulfuron Harbinger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227750": {
+      "Name": "Molten Scaled Bindings",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227751": {
+      "Name": "Molten Scaled Belt",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Molten Core",
@@ -2851,6 +2883,22 @@
     "227759": {
       "Name": "Scorched Core Gloves",
       "Source": "Lucifron & Gehennas & Shazzrah",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },    
+    "227760": {
+      "Name": "Scorched Core Bindings",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "227761": {
+      "Name": "Scorched Core Belt",
+      "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Molten Core",

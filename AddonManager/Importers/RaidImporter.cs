@@ -49,11 +49,37 @@ public class RaidImporter : LootImporter
     {
         //items.Items.Clear();
 
-        foreach(var raidUri in raidUriList)
-        {
-            items.AddItems(await ConvertRaidLoot(raidUri, items, writeToLog));
-        }
+        //foreach(var raidUri in raidUriList)
+        //{
+            //items.AddItems(await ConvertRaidLoot(raidUri, items, writeToLog));
+            await GetItemDrops(items, writeToLog);
+        //}
         return items;
+    }
+
+    private async Task GetItemDrops(DatabaseItems items, Action<string> writeToLog)
+    {
+        await Common.ReadWowheadDropsList(raidUriList.Keys.ToList(), (uri, row, itemId, item) => {
+            var sourceFaction = "B";
+            if (row.Children[6].Children.Count() > 0)
+            {
+                var factionColumn = (IElement)row.Children[6].ChildNodes[0];
+                if (factionColumn?.ClassName == "icon-horde")
+                    sourceFaction = "H";
+                else if (factionColumn?.ClassName == "icon-alliance")
+                    sourceFaction = "A";
+            }
+
+            items.AddItem(itemId, new DatabaseItem 
+            {
+                Name = item?.TextContent ?? "unknown",
+                Source = "Onyxia",
+                SourceType = "Drop",
+                SourceNumber = "0",
+                SourceLocation = "Onyxia's Lair",
+                SourceFaction = sourceFaction
+            });
+        }, writeToLog);
     }
 
     internal async Task<DatabaseItems> ConvertRaidLoot(KeyValuePair<string, string> raidUri, DatabaseItems items, Action<string> writeToLog)
