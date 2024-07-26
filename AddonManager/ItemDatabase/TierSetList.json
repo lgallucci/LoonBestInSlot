@@ -1,5 +1,53 @@
 {
   "Items": {
+    "216918": {
+      "Name": "Felheart Boots",
+      "Source": "Incandescent Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227536",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "216921": {
+      "Name": "Felheart Grips",
+      "Source": "Incandescent Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227533",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "216922": {
+      "Name": "Felheart Crown",
+      "Source": "Incandescent Hood",
+      "SourceType": "TierToken",
+      "SourceNumber": "227532",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "216923": {
+      "Name": "Felheart Leggings",
+      "Source": "Incandescent Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227534",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "216924": {
+      "Name": "Felheart Embrace",
+      "Source": "Incandescent Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "227535",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "216925": {
+      "Name": "Felheart Mantle",
+      "Source": "Incandescent Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227537",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
     "220642": {
       "Name": "Banished Martyr's Plate Armor",
       "Source": "Atal'ai Blood Icon",
@@ -334,6 +382,1062 @@
       "SourceType": "TierToken",
       "SourceNumber": "220637",
       "SourceLocation": "Sunken Temple",
+      "SourceFaction": "B"
+    },
+    "221783": {
+      "Name": "Lawbringer Spaulders",
+      "Source": "Molten Scaled Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227752",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "221785": {
+      "Name": "Cenarion Vestments",
+      "Source": "Scorched Core Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227766",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226441": {
+      "Name": "Nightslayer Gloves",
+      "Source": "Scorched Core Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227759",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226443": {
+      "Name": "Nightslayer Boots",
+      "Source": "Scorched Core Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227765",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226444": {
+      "Name": "Nightslayer Shoulder Pads",
+      "Source": "Scorched Core Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227762",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226445": {
+      "Name": "Nightslayer Pants",
+      "Source": "Scorched Core Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227763",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226446": {
+      "Name": "Nightslayer Cover",
+      "Source": "Scorched Core  Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227764",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226447": {
+      "Name": "Nightslayer Chestpiece",
+      "Source": "Scorched Core Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227766",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226473": {
+      "Name": "Nightslayer Cuirass",
+      "Source": "Scorched Core Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227766",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226475": {
+      "Name": "Nightslayer Handguards",
+      "Source": "Scorched Core Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227759",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226477": {
+      "Name": "Nightslayer Tabi",
+      "Source": "Scorched Core Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227765",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226478": {
+      "Name": "Nightslayer Pauldrons",
+      "Source": "Scorched Core Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227762",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226479": {
+      "Name": "Nightslayer Legguards",
+      "Source": "Scorched Core Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227763",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226480": {
+      "Name": "Nightslayer Hood",
+      "Source": "Scorched Core  Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227764",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226486": {
+      "Name": "Gauntlets of Might",
+      "Source": "Scorched Core Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227759",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226487": {
+      "Name": "Sabatons of Might",
+      "Source": "Scorched Core Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227765",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226488": {
+      "Name": "Helm of Might",
+      "Source": "Scorched Core  Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227764",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226489": {
+      "Name": "Breastplate of Might",
+      "Source": "Scorched Core Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227766",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226490": {
+      "Name": "Legplates of Might",
+      "Source": "Scorched Core Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227763",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226491": {
+      "Name": "Shoulderplates of Might",
+      "Source": "Scorched Core Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227762",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226492": {
+      "Name": "Pauldrons of Might",
+      "Source": "Scorched Core Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227762",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226493": {
+      "Name": "Leggings of Might",
+      "Source": "Scorched Core Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227763",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226494": {
+      "Name": "Hauberk of Might",
+      "Source": "Scorched Core Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227766",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226495": {
+      "Name": "Jaws of Might",
+      "Source": "Scorched Core  Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227764",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226496": {
+      "Name": "Treads of Might",
+      "Source": "Scorched Core Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227765",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226497": {
+      "Name": "Hands of Might",
+      "Source": "Scorched Core Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227759",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226527": {
+      "Name": "Giantstalker's Epaulets",
+      "Source": "Molten Scaled Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227752",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226528": {
+      "Name": "Giantstalker's Gloves",
+      "Source": "Molten Scaled Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227756",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226531": {
+      "Name": "Giantstalker's Boots",
+      "Source": "Molten Scaled Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227757",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226532": {
+      "Name": "Giantstalker's Leggings",
+      "Source": "Molten Scaled Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227754",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226533": {
+      "Name": "Giantstalker's Helmet",
+      "Source": "Molten Scaled Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227755",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226534": {
+      "Name": "Giantstalker's Breastplate",
+      "Source": "Molten Scaled Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227758",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226535": {
+      "Name": "Giantstalker's Chainmail",
+      "Source": "Molten Scaled Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227758",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226536": {
+      "Name": "Giantstalker's Guise",
+      "Source": "Molten Scaled Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227755",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226537": {
+      "Name": "Giantstalker's Chain Leggings",
+      "Source": "Molten Scaled Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227754",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226538": {
+      "Name": "Giantstalker's Sabatons",
+      "Source": "Molten Scaled Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227757",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226540": {
+      "Name": "Giantstalker's Handguards",
+      "Source": "Molten Scaled Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227756",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226543": {
+      "Name": "Giantstalker's Spauldrons",
+      "Source": "Molten Scaled Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227752",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226547": {
+      "Name": "Felheart Pants",
+      "Source": "Incandescent Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227534",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226548": {
+      "Name": "Felheart Robes",
+      "Source": "Incandescent Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "227535",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226549": {
+      "Name": "Felheart Horns",
+      "Source": "Incandescent Hood",
+      "SourceType": "TierToken",
+      "SourceNumber": "227532",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226550": {
+      "Name": "Felheart Shoulder Pads",
+      "Source": "Incandescent Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227537",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226552": {
+      "Name": "Felheart Gloves",
+      "Source": "Incandescent Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227533",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226554": {
+      "Name": "Felheart Slippers",
+      "Source": "Incandescent Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227536",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226556": {
+      "Name": "Arcanist Gloves",
+      "Source": "Incandescent Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227533",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226557": {
+      "Name": "Arcanist Boots",
+      "Source": "Incandescent Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227536",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226559": {
+      "Name": "Arcanist Robes",
+      "Source": "Incandescent Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "227535",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226560": {
+      "Name": "Arcanist Mantle",
+      "Source": "Incandescent Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227537",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226561": {
+      "Name": "Arcanist Leggings",
+      "Source": "Incandescent Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227534",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226562": {
+      "Name": "Arcanist Crown",
+      "Source": "Incandescent Hood",
+      "SourceType": "TierToken",
+      "SourceNumber": "227532",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226563": {
+      "Name": "Arcanist Garments",
+      "Source": "Incandescent Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "227535",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226564": {
+      "Name": "Arcanist Headdress",
+      "Source": "Incandescent Hood",
+      "SourceType": "TierToken",
+      "SourceNumber": "227532",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226565": {
+      "Name": "Arcanist Pants",
+      "Source": "Incandescent Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227534",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226566": {
+      "Name": "Arcanist Shoulders",
+      "Source": "Incandescent Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227537",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226568": {
+      "Name": "Arcanist Sandals",
+      "Source": "Incandescent Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227536",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226569": {
+      "Name": "Arcanist Handguards",
+      "Source": "Incandescent Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227533",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226571": {
+      "Name": "Boots of Prophecy",
+      "Source": "Incandescent Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227536",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226572": {
+      "Name": "Gloves of Prophecy",
+      "Source": "Incandescent Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227533",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226573": {
+      "Name": "Circlet of Prophecy",
+      "Source": "Incandescent Hood",
+      "SourceType": "TierToken",
+      "SourceNumber": "227532",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226574": {
+      "Name": "Pants of Prophecy",
+      "Source": "Incandescent Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227534",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226575": {
+      "Name": "Robes of Prophecy",
+      "Source": "Incandescent Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "227535",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226576": {
+      "Name": "Mantle of Prophecy",
+      "Source": "Incandescent Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227537",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226581": {
+      "Name": "Shoulderpads of Prophecy",
+      "Source": "Incandescent Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227537",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226582": {
+      "Name": "Garments of Prophecy",
+      "Source": "Incandescent Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "227535",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226583": {
+      "Name": "Leggings of Prophecy",
+      "Source": "Incandescent Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227534",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226584": {
+      "Name": "Crown of Prophecy",
+      "Source": "Incandescent Hood",
+      "SourceType": "TierToken",
+      "SourceNumber": "227532",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226585": {
+      "Name": "Hands of Prophecy",
+      "Source": "Incandescent Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227533",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226586": {
+      "Name": "Sandals of Prophecy",
+      "Source": "Incandescent Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227536",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226588": {
+      "Name": "Lawbringer Spaulders",
+      "Source": "Molten Scaled Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227752",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226590": {
+      "Name": "Lawbringer Helm",
+      "Source": "Molten Scaled Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227755",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226591": {
+      "Name": "Lawbringer Gauntlets",
+      "Source": "Molten Scaled Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227756",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226593": {
+      "Name": "Lawbringer Boots",
+      "Source": "Molten Scaled Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227757",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226594": {
+      "Name": "Lawbringer Legplates",
+      "Source": "Molten Scaled Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227754",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226595": {
+      "Name": "Lawbringer Chestguard",
+      "Source": "Molten Scaled Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227758",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226598": {
+      "Name": "Lawbringer Leggings",
+      "Source": "Molten Scaled Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227754",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226599": {
+      "Name": "Lawbringer Crown",
+      "Source": "Molten Scaled Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227755",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226600": {
+      "Name": "Lawbringer Grips",
+      "Source": "Molten Scaled Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227756",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226601": {
+      "Name": "Lawbringer Battleboots",
+      "Source": "Molten Scaled Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227757",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226602": {
+      "Name": "Lawbringer Breastplate",
+      "Source": "Molten Scaled Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227758",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226605": {
+      "Name": "Lawbringer Pauldrons",
+      "Source": "Molten Scaled Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227752",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226606": {
+      "Name": "Lawbringer Legguards",
+      "Source": "Molten Scaled Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227754",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226607": {
+      "Name": "Lawbringer Headguard",
+      "Source": "Molten Scaled Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227755",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226608": {
+      "Name": "Lawbringer Handguards",
+      "Source": "Molten Scaled Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227756",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226609": {
+      "Name": "Lawbringer Sabatons",
+      "Source": "Molten Scaled Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227757",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226610": {
+      "Name": "Lawbringer Chestplate",
+      "Source": "Molten Scaled Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227758",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226611": {
+      "Name": "Earthfury Epaulets",
+      "Source": "Molten Scaled Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227752",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226612": {
+      "Name": "Earthfury Helmet",
+      "Source": "Molten Scaled Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227755",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226613": {
+      "Name": "Earthfury Boots",
+      "Source": "Molten Scaled Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227757",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226614": {
+      "Name": "Earthfury Legguards",
+      "Source": "Molten Scaled Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227754",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226615": {
+      "Name": "Earthfury Gauntlets",
+      "Source": "Molten Scaled Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227756",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226617": {
+      "Name": "Earthfury Vestments",
+      "Source": "Molten Scaled Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227758",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226619": {
+      "Name": "Earthfury Ringmail",
+      "Source": "Molten Scaled Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227758",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226620": {
+      "Name": "Earthfury Walkers",
+      "Source": "Molten Scaled Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227757",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226621": {
+      "Name": "Earthfury Hands",
+      "Source": "Molten Scaled Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227756",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226622": {
+      "Name": "Earthfury Visor",
+      "Source": "Molten Scaled Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227755",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226623": {
+      "Name": "Earthfury Leggings",
+      "Source": "Molten Scaled Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227754",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226624": {
+      "Name": "Earthfury Mantle",
+      "Source": "Molten Scaled Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227752",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226627": {
+      "Name": "Earthfury Scalemail",
+      "Source": "Molten Scaled Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227758",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226628": {
+      "Name": "Earthfury Sabatons",
+      "Source": "Molten Scaled Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227757",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226629": {
+      "Name": "Earthfury Handguards",
+      "Source": "Molten Scaled Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227756",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226630": {
+      "Name": "Earthfury Greathelm",
+      "Source": "Molten Scaled Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227755",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226631": {
+      "Name": "Earthfury Scaled Leggings",
+      "Source": "Molten Scaled Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227754",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226632": {
+      "Name": "Earthfury Pauldrons",
+      "Source": "Molten Scaled Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227752",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226635": {
+      "Name": "Earthfury Chainmail",
+      "Source": "Molten Scaled Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227758",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226636": {
+      "Name": "Earthfury Battleboots",
+      "Source": "Molten Scaled Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227757",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226637": {
+      "Name": "Earthfury Grips",
+      "Source": "Molten Scaled Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227756",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226638": {
+      "Name": "Earthfury Headpiece",
+      "Source": "Molten Scaled Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227755",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226639": {
+      "Name": "Earthfury Chain Leggings",
+      "Source": "Molten Scaled Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227754",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226640": {
+      "Name": "Earthfury Spaulders",
+      "Source": "Molten Scaled Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227752",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226644": {
+      "Name": "Cenarion Spaulders",
+      "Source": "Scorched Core Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227762",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226645": {
+      "Name": "Cenarion Boots",
+      "Source": "Scorched Core Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227765",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226646": {
+      "Name": "Cenarion Leggings",
+      "Source": "Scorched Core Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227763",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226647": {
+      "Name": "Cenarion Helm",
+      "Source": "Scorched Core  Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227764",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226648": {
+      "Name": "Cenarion Gloves",
+      "Source": "Scorched Core Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227759",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226651": {
+      "Name": "Cenarion Pants",
+      "Source": "Scorched Core Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227763",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226652": {
+      "Name": "Cenarion Sandals",
+      "Source": "Scorched Core Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227765",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226653": {
+      "Name": "Cenarion Mantle",
+      "Source": "Scorched Core Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227762",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226654": {
+      "Name": "Cenarion Gauntlets",
+      "Source": "Scorched Core Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227759",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226656": {
+      "Name": "Cenarion Embrace",
+      "Source": "Scorched Core Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227766",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226658": {
+      "Name": "Cenarion Antlers",
+      "Source": "Scorched Core  Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227764",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226659": {
+      "Name": "Cenarion Horns",
+      "Source": "Scorched Core  Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227764",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226661": {
+      "Name": "Cenarion Tunic",
+      "Source": "Scorched Core Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227766",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226663": {
+      "Name": "Cenarion Treads",
+      "Source": "Scorched Core Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227765",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226664": {
+      "Name": "Cenarion Fists",
+      "Source": "Scorched Core Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227759",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226665": {
+      "Name": "Cenarion Shoulders",
+      "Source": "Scorched Core Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227762",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226666": {
+      "Name": "Cenarion Trousers",
+      "Source": "Scorched Core Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227763",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226669": {
+      "Name": "Cenarion Grips",
+      "Source": "Scorched Core Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "227759",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226670": {
+      "Name": "Cenarion Crown",
+      "Source": "Scorched Core  Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "227764",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226671": {
+      "Name": "Cenarion Legguards",
+      "Source": "Scorched Core Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "227763",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226673": {
+      "Name": "Cenarion Walkers",
+      "Source": "Scorched Core Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "227765",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226674": {
+      "Name": "Cenarion Pauldrons",
+      "Source": "Scorched Core Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "227762",
+      "SourceLocation": "Molten Core",
+      "SourceFaction": "B"
+    },
+    "226675": {
+      "Name": "Cenarion Armor",
+      "Source": "Scorched Core Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "227766",
+      "SourceLocation": "Molten Core",
       "SourceFaction": "B"
     }
   }

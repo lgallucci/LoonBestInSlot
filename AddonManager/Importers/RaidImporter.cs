@@ -11,8 +11,8 @@ public class RaidImporter : LootImporter
         // { @"https://www.wowhead.com/classic/guide/season-of-discovery/blackfathom-deeps-level-up-raid-loot", "Blackfathom Deeps" },
         // { @"https://www.wowhead.com/classic/guide/season-of-discovery/gnomeregan-level-up-raid-loot", "Gnomeregan" },
         // { @"https://www.wowhead.com/classic/guide/season-of-discovery/sunken-temple-level-up-raid-loot", "Sunken Temple" }
-        { @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/molten-core-overview-loot", "Molten Core"},
-        { @"https://www.wowhead.com/classic/guide/season-of-discovery/onyxias-lair-overview-loot", "Onyxia"},
+        //{ @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/molten-core-overview-loot", "Molten Core"},
+        { @"https://www.wowhead.com/classic/npc=10184/onyxia#drops;mode:som40", "Onyxia"},
     };
 
     private List<string> excludedWords = new List<string>()
