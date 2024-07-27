@@ -7,6 +7,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["A Broken Ritual"] = "";
   LBIS.L["A Final Blow"] = "Der endgültige Schlag";
   LBIS.L["A Grim Discovery"] = "Eine grausige Entdeckung";
+  LBIS.L["A Hero's Reward"] = "Die Belohnung eines Helden";
   LBIS.L["A King's Tribute"] = "Ehrerbietung von einem König";
 --  LBIS.L["A Lesson in Grace"] = "";
 --  LBIS.L["A Lesson in Literacy"] = "";
@@ -27,11 +28,9 @@ if GetLocale() == "deDE" then
   LBIS.L["Ammo"] = "Munition";
   LBIS.L["Amnennar the Coldbringer"] = "Amnennar der Kältebringer";
   LBIS.L["An Audience with the King"] = "Eine Audienz beim König";
-  LBIS.L["An Earnest Proposition"] = "Ein aufrichtiges Angebot";
   LBIS.L["An Unholy Alliance"] = "Eine unheilige Allianz";
   LBIS.L["Ancient Spirit"] = "Alter Geist";
   LBIS.L["Ancient Stone Keeper"] = "Uralter Steinbewahrer";
-  LBIS.L["Anthion's Parting Words"] = "Anthions Abschiedsworte";
 --  LBIS.L["Antu'sul <Overseer of Sul>"] = "";
   LBIS.L["Apprentice's Duties"] = "Lehrlingspflichten";
   LBIS.L["Arathi Basin"] = "Das Arathibecken";
@@ -63,7 +62,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Bag"] = "Tasche";
 --  LBIS.L["Balance Dps"] = "";
 --  LBIS.L["Balzaphon (scourge event only)"] = "Balzaphon";
-  LBIS.L["Bannok Grimaxe"] = "Bannok Grimmaxt";
   LBIS.L["Bannok Grimaxe (Rare)"] = "Bannok Grimmaxt (Selten)";
   LBIS.L["Baron Aquanis"] = "Baron Aquanis";
   LBIS.L["Baron Geddon"] = "Baron Geddon";
@@ -128,7 +126,6 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Crimson Whelp"] = "";
   LBIS.L["Crowd Pummeler 9-60"] = "Meute-Verprügler 9-60";
 --  LBIS.L["Crushridge Warmonger"] = "";
-  LBIS.L["Crystal Fang"] = "Kristallfangzahn";
   LBIS.L["Crystal Fang (Rare)"] = "Kristallfangzahn (Selten)";
 --  LBIS.L["Cuergo's Hidden Treasure"] = "";
   LBIS.L["Custom"] = "Benutzerdefiniert";
@@ -155,6 +152,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Deathsworn Captain (Rare)"] = "Todeshöriger Captain (Selten)";
 --  LBIS.L["Defias Enchanter"] = "";
 --  LBIS.L["Defias Strip Miner"] = "";
+--  LBIS.L["Deliana"] = "";
   LBIS.L["Deliver to MacKinley"] = "Lieferung für MacKinley";
   LBIS.L["Demon Fall Canyon"] = "Dämonensturz";
 --  LBIS.L["Deselect"] = "";
@@ -192,6 +190,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Eastern Plaguelands"] = "Die Östlichen Pestländer";
   LBIS.L["Edit"] = "Bearbeiten";
 --  LBIS.L["Edwin Van Cleef"] = "";
+--  LBIS.L["Eitrigg"] = "";
   LBIS.L["Electrocutioner 6000"] = "Elektrokutionator 6000";
 --  LBIS.L["Elemental Dps"] = "";
   LBIS.L["Elixir of Pain"] = "Elixier der Schmerzen";
@@ -204,6 +203,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Enchanting Trainer"] = "";
 --  LBIS.L["Enchanting Vendor"] = "";
   LBIS.L["Enchants"] = "Verzauberungen";
+--  LBIS.L["Endgame Dungeons"] = "";
   LBIS.L["Engineering"] = "Ingenieurskunst";
 --  LBIS.L["Enhancement Dps"] = "";
   LBIS.L["Epic Armaments of Battle - Exalted Amongst the Dawn"] = "Epische Kampfausrüstung - Ehrfurcht der Dämmerung";
@@ -211,6 +211,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Exalted"] = "Ehrfürchtig";
   LBIS.L["Excelsior"] = "Exzelsior";
   LBIS.L["Extinguishing the Idol"] = "Ausschalten des Götzen";
+--  LBIS.L["Eye of Sulfuras"] = "";
   LBIS.L["Eye of the Storm Marks"] = "Auge der Sturmzeichen";
   LBIS.L["Fallen Champion"] = "Gestürzter Held";
   LBIS.L["Fallen Champion (Rare)"] = "Gestürzter Held (Selten)";
@@ -263,7 +264,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Goraluk Anvilcrack"] = "Goraluk Hammerbruch";
 --  LBIS.L["Gordok Tribute"] = "";
   LBIS.L["Gorosh the Dervish"] = "Gorosh der Derwisch";
-  LBIS.L["Grand Crusader Dathrohan"] = "Oberster Kreuzzügler Dathrohan";
 --  LBIS.L["Grand Crusader Dathrohan/Balnazzar"] = "";
 --  LBIS.L["Grimand\'s Armor"] = "";
   LBIS.L["Grimlok"] = "Grimlok";
@@ -284,7 +284,6 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Hazzas and Morphaz"] = "";
   LBIS.L["Head"] = "Kopf";
   LBIS.L["Healer"] = "Heilung";
-  LBIS.L["Hearthsinger Forresten"] = "Herdsinger Forresten";
   LBIS.L["Hearthsinger Forresten (Rare)"] = "Herdsinger Forresten (Selten)";
   LBIS.L["Hedrum the Creeper"] = "Hedrum der Krabbler";
 --  LBIS.L["Hellscream's Phantom"] = "";
@@ -337,7 +336,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Jergosh the Invoker"] = "Jergosh der Herbeirufer";
   LBIS.L["Jin'Zil's Forest Magic"] = "Jin'Zils Waldmagie";
   LBIS.L["Job Opening: Guard Captain of Revantusk Village"] = "Offener Posten: Wachbefehlshaber der Bruchhauer";
-  LBIS.L["Just Compensation"] = "Die angemessene Entlohnung";
   LBIS.L["Kam Deepfury"] = "Kam Tiefenzorn";
   LBIS.L["Khan Hratha"] = "Khan Hratha";
   LBIS.L["King Gordok"] = "König Gordok";
@@ -366,6 +364,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Level 10-20 Zones"] = "";
 --  LBIS.L["Lo'Grosh"] = "";
   LBIS.L["Loch Modan"] = "Loch Modan";
+  LBIS.L["Lokhtos Darkbargainer"] = "Lokhtos Düsterfeilsch";
   LBIS.L["Look To The Stars"] = "Der Blick zu den Sternen";
   LBIS.L["Loon Best In Slot"] = "Loon Best in Slot";
 --  LBIS.L["Loon Best In Slot Browser (SOD)"] = "Loon Best in Slot Browser";
@@ -387,7 +386,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Lorgus Jett"] = "Lorgus Jett";
 --  LBIS.L["Lost Whelp"] = "";
   LBIS.L["Lower Blackrock Spire"] = "Untere Schwarzfelsspitze";
---  LBIS.L["Lower Blackrock Spire|Scholomance"] = "";
+--  LBIS.L["Lower Blackrock Spire/Scholomance"] = "";
   LBIS.L["Lucifron"] = "Lucifron";
   LBIS.L["Mage's Wand"] = "Der Zauberstab des Magiers";
   LBIS.L["Magister Kalendris"] = "Magister Kalendris";
@@ -405,12 +404,14 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Mathredis Firestar (Librams)"] = " (Buchband)";
   LBIS.L["Maxwell's Mission"] = "Maxwells Mission";
   LBIS.L["Mazen's Behest"] = "Mazens Befehl";
+--  LBIS.L["Meilosh"] = "";
   LBIS.L["Mekgineer Thermaplugg"] = "Robogenieur Thermaplugg";
   LBIS.L["Meshlok the Harvester (Rare)"] = "Meshlok der Ernter (Selten)";
   LBIS.L["Miner Johnson (Rare)"] = "Minenarbeiter Johnson (Selten)";
   LBIS.L["Missing In Action"] = "Vermisst";
 --  LBIS.L["Mith'rethis the Enchanter"] = "";
 --  LBIS.L["Mok'rash"] = "";
+--  LBIS.L["Mokvar"] = "";
   LBIS.L["Molten Core"] = "Der Geschmolzene Kern";
   LBIS.L["Moonglade"] = "Mondlichtung";
   LBIS.L["Mor Grayhoof"] = "Mor Grauhuf";
@@ -444,6 +445,8 @@ if GetLocale() == "deDE" then
   LBIS.L["Oh Brother. . ."] = "Oh Bruder...";
   LBIS.L["Ok'thor the Breaker"] = "Ok'thor der Zerstörer";
   LBIS.L["Onyxia"] = "Onyxia";
+--  LBIS.L["Onyxia Attunement"] = "";
+--  LBIS.L["Onyxia's Head"] = "";
   LBIS.L["Onyxia's Lair"] = "Onyxias Hort";
   LBIS.L["Open Browser Window"] = "Browserfenster öffnen";
 --  LBIS.L["Open Settings"] = "";
@@ -479,8 +482,8 @@ if GetLocale() == "deDE" then
   LBIS.L["Pyroguard Emberseer"] = "Feuerwache Glutseher";
   LBIS.L["Pyromancer Loregrain"] = "Pyromant Weiskorn";
 --  LBIS.L["Qia"] = "";
+--  LBIS.L["Quartermaster Miranda Breechlock"] = "";
   LBIS.L["Quartermaster Zigris"] = "Rüstmeister Zigris";
---  LBIS.L["Quartermaster Zigris|The Ravenian"] = "";
   LBIS.L["Quest"] = "Quest";
   LBIS.L["Quiver"] = "Köcher";
   LBIS.L["Ragefire Chasm"] = "Der Flammenschlund";
@@ -522,7 +525,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Rotgrip"] = "Faulschnapper";
   LBIS.L["Samophlange Manual"] = "Samophlanghandbuch";
   LBIS.L["Saving Sharpbeak"] = "Scharfschnabels Rettung";
-  LBIS.L["Saving the Best for Last"] = "Das Beste gibt's zum Schluss";
   LBIS.L["Saving Yenniku"] = "Yennikus Rettung";
 --  LBIS.L["Scapula of the Fallen Avatar"] = "";
 --  LBIS.L["Scarlet Centurion"] = "";
@@ -532,6 +534,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Scarlet Monastery"] = "Das Scharlachrote Kloster";
 --  LBIS.L["Scarlet Spellbinder"] = "";
   LBIS.L["Scholomance"] = "Scholomance";
+--  LBIS.L["Scholomance/Stratholme"] = "";
   LBIS.L["Search for Incendicite"] = "Auf der Suche nach Pyrophor";
   LBIS.L["Searing Gorge"] = "Sengende Schlucht";
   LBIS.L["Secret of the Circle"] = "Das Geheimnis des Kreises";
@@ -548,6 +551,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Shadow Hunter Vosh’gajin"] = "";
   LBIS.L["Shadoweaver"] = "Schattenweber";
   LBIS.L["Shadowfang Keep"] = "Burg Schattenfang";
+--  LBIS.L["Shadowflame Skull"] = "";
   LBIS.L["Shadowpriest Sezz'ziz"] = "Schattenpriester Sezz'ziz";
   LBIS.L["Shadowshard Fragments"] = "Schattensplitter";
 --  LBIS.L["Shadowtooth Emissary"] = "";
@@ -569,13 +573,14 @@ if GetLocale() == "deDE" then
   LBIS.L["Sneed's Shredder"] = "Sneeds Schredder";
   LBIS.L["Solakar Flamewreath"] = "Solakar Feuerkrone";
   LBIS.L["Solution to Doom"] = "Lösung der Verdammnis";
+--  LBIS.L["Sothos and Jarien"] = "";
   LBIS.L["Southsea Shakedown"] = "Gaunerei und Erpressung im Südmeer";
---  LBIS.L["Spire Spider"] = "";
   LBIS.L["Spirestone Battle Lord (Rare)"] = "Kampflord der Felsspitzoger (Selten)";
   LBIS.L["Spirestone Butcher (Rare)"] = "Metzger der Felsspitzoger (Selten)";
 --  LBIS.L["Spirestone Mystic"] = "";
   LBIS.L["Spirit Shards"] = "Geistersplitter";
 --  LBIS.L["Splinter Fist"] = "";
+--  LBIS.L["Squire Rowe"] = "";
 --  LBIS.L["Stitches"] = "";
   LBIS.L["Stomper Kreeg"] = "Stampfer Kreeg";
   LBIS.L["Stone Is Better than Cloth"] = "Stein ist besser als Stoff";
@@ -589,6 +594,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Stratholme"] = "Stratholme";
 --  LBIS.L["Stratholme Live"] = "";
 --  LBIS.L["Stratholme Undead"] = "";
+--  LBIS.L["Stratholme Undead/Scholomance"] = "";
 --  LBIS.L["STX-04/BD"] = "";
   LBIS.L["Sulfuron Harbinger"] = "Sulfuronherold";
   LBIS.L["Sunken Temple"] = "Versunkener Tempel";
@@ -605,6 +611,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Tendris Warpwood"] = "Tendris Wucherborke";
   LBIS.L["The Ancient Leaf"] = "Das uralte Blatt";
   LBIS.L["The Arcanist's Cookbook"] = "Das Arkanistenkochbuch";
+--  LBIS.L["The Argent Dawn"] = "";
   LBIS.L["The Azure Key"] = "Der azurblaue Schlüssel";
 --  LBIS.L["The Bad News..."] = "";
   LBIS.L["The Balance of Light and Shadow"] = "Die Waage von Licht und Schatten";
@@ -667,6 +674,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Timbermaw Hold"] = "Holzschlundfeste";
 --  LBIS.L["Timbermaw Hold - Friendly"] = "";
 --  LBIS.L["Timbermaw Hold - Honored"] = "";
+--  LBIS.L["Timermaul Hold"] = "";
   LBIS.L["Timmy the Cruel"] = "Timmy der Grausame";
   LBIS.L["Tinkerer Gizlock"] = "Tüftler Gizlock";
   LBIS.L["Token"] = "Token";
@@ -678,6 +686,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Tremors of the Earth"] = "Erdbeben";
   LBIS.L["Trinket"] = "Schmuck";
   LBIS.L["Trolls of a Feather"] = "Federn von Trollen";
+  LBIS.L["Tsu'zee"] = "Tsu'zee";
   LBIS.L["Tuten'kash"] = "Tuten'kash";
   LBIS.L["Twilight Falls"] = "Schatten des Hammers";
   LBIS.L["Twilight Lord Kelris"] = "Lord des Schattenhammers Kelris";

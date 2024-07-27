@@ -7,6 +7,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["A Broken Ritual"] = "";
   LBIS.L["A Final Blow"] = "마지막 일격";
   LBIS.L["A Grim Discovery"] = "불길한 발견";
+  LBIS.L["A Hero's Reward"] = "영웅의 보상";
   LBIS.L["A King's Tribute"] = "왕의 하사품";
 --  LBIS.L["A Lesson in Grace"] = "";
 --  LBIS.L["A Lesson in Literacy"] = "";
@@ -27,11 +28,9 @@ if GetLocale() == "koKR" then
   LBIS.L["Ammo"] = "탄약";
   LBIS.L["Amnennar the Coldbringer"] = "혹한의 암네나르";
   LBIS.L["An Audience with the King"] = "국왕 알현";
-  LBIS.L["An Earnest Proposition"] = "진지한 제안";
   LBIS.L["An Unholy Alliance"] = "사악한 동맹";
   LBIS.L["Ancient Spirit"] = "고대의 정령";
   LBIS.L["Ancient Stone Keeper"] = "고대 바위 문지기";
-  LBIS.L["Anthion's Parting Words"] = "안시온의 작별 인사";
 --  LBIS.L["Antu'sul <Overseer of Sul>"] = "";
   LBIS.L["Apprentice's Duties"] = "수습생의 임무";
   LBIS.L["Arathi Basin"] = "아라시 분지";
@@ -63,7 +62,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Bag"] = "가방";
 --  LBIS.L["Balance Dps"] = "";
 --  LBIS.L["Balzaphon (scourge event only)"] = "발자폰";
-  LBIS.L["Bannok Grimaxe"] = "반노크 그림액스";
   LBIS.L["Bannok Grimaxe (Rare)"] = "반노크 그림액스 (희귀)";
   LBIS.L["Baron Aquanis"] = "남작 아쿠아니스";
   LBIS.L["Baron Geddon"] = "남작 게돈";
@@ -128,7 +126,6 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Crimson Whelp"] = "";
   LBIS.L["Crowd Pummeler 9-60"] = "고철 압축기 9-60";
 --  LBIS.L["Crushridge Warmonger"] = "";
-  LBIS.L["Crystal Fang"] = "수정 맹독 거미";
   LBIS.L["Crystal Fang (Rare)"] = "수정 맹독 거미 (희귀)";
 --  LBIS.L["Cuergo's Hidden Treasure"] = "";
   LBIS.L["Custom"] = "사용자 설정";
@@ -155,6 +152,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Deathsworn Captain (Rare)"] = "죽음의 경비대장 (희귀)";
 --  LBIS.L["Defias Enchanter"] = "";
 --  LBIS.L["Defias Strip Miner"] = "";
+--  LBIS.L["Deliana"] = "";
   LBIS.L["Deliver to MacKinley"] = "맥킨리에게 배달";
   LBIS.L["Demon Fall Canyon"] = "악마벼락 협곡";
   LBIS.L["Deselect"] = "선택 해제";
@@ -192,6 +190,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Eastern Plaguelands"] = "동부 역병지대";
   LBIS.L["Edit"] = "편집";
 --  LBIS.L["Edwin Van Cleef"] = "";
+--  LBIS.L["Eitrigg"] = "";
   LBIS.L["Electrocutioner 6000"] = "기계화 문지기 6000";
 --  LBIS.L["Elemental Dps"] = "";
   LBIS.L["Elixir of Pain"] = "고통의 비약";
@@ -204,6 +203,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Enchanting Trainer"] = "";
 --  LBIS.L["Enchanting Vendor"] = "";
   LBIS.L["Enchants"] = "마법 부여";
+--  LBIS.L["Endgame Dungeons"] = "";
   LBIS.L["Engineering"] = "기계공학";
 --  LBIS.L["Enhancement Dps"] = "";
   LBIS.L["Epic Armaments of Battle - Exalted Amongst the Dawn"] = "영웅을 위한 전투 장비: 여명회의 확고한 동맹";
@@ -211,6 +211,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Exalted"] = "확고한 동맹";
   LBIS.L["Excelsior"] = "덩치 큰 바다악어 가죽";
   LBIS.L["Extinguishing the Idol"] = "우상 진화";
+--  LBIS.L["Eye of Sulfuras"] = "";
   LBIS.L["Eye of the Storm Marks"] = "폭풍의 눈 명예 훈장";
   LBIS.L["Fallen Champion"] = "타락한 용사";
   LBIS.L["Fallen Champion (Rare)"] = "타락한 용사 (희귀)";
@@ -263,7 +264,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Goraluk Anvilcrack"] = "고랄루크 앤빌크랙";
 --  LBIS.L["Gordok Tribute"] = "";
   LBIS.L["Gorosh the Dervish"] = "광신자 고로쉬";
-  LBIS.L["Grand Crusader Dathrohan"] = "붉은십자군 사령관 다스로한";
 --  LBIS.L["Grand Crusader Dathrohan/Balnazzar"] = "";
 --  LBIS.L["Grimand\'s Armor"] = "";
   LBIS.L["Grimlok"] = "그림로크";
@@ -284,7 +284,6 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Hazzas and Morphaz"] = "";
   LBIS.L["Head"] = "머리";
   LBIS.L["Healer"] = "치유 전담";
-  LBIS.L["Hearthsinger Forresten"] = "하스싱어 포레스턴";
   LBIS.L["Hearthsinger Forresten (Rare)"] = "하스싱어 포레스턴 (희귀)";
   LBIS.L["Hedrum the Creeper"] = "왕거미 헤드룸";
 --  LBIS.L["Hellscream's Phantom"] = "";
@@ -337,7 +336,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Jergosh the Invoker"] = "기원사 제로쉬";
   LBIS.L["Jin'Zil's Forest Magic"] = "진질의 숲의 마법";
   LBIS.L["Job Opening: Guard Captain of Revantusk Village"] = "구인광고: 레반터스크 마을의 경비대장";
-  LBIS.L["Just Compensation"] = "정당한 보상";
   LBIS.L["Kam Deepfury"] = "캄 딥퓨리";
   LBIS.L["Khan Hratha"] = "칸 흐라사";
   LBIS.L["King Gordok"] = "왕 고르독";
@@ -366,6 +364,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Level 10-20 Zones"] = "";
 --  LBIS.L["Lo'Grosh"] = "";
   LBIS.L["Loch Modan"] = "모단 호수";
+  LBIS.L["Lokhtos Darkbargainer"] = "로크토스 다크바게이너";
   LBIS.L["Look To The Stars"] = "별 관측";
   LBIS.L["Loon Best In Slot"] = "BIS 아이템";
 --  LBIS.L["Loon Best In Slot Browser (SOD)"] = "BIS 아이템 목록";
@@ -387,7 +386,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Lorgus Jett"] = "로구스 제트";
 --  LBIS.L["Lost Whelp"] = "";
   LBIS.L["Lower Blackrock Spire"] = "검은바위 첨탑 (하층)";
---  LBIS.L["Lower Blackrock Spire|Scholomance"] = "";
+--  LBIS.L["Lower Blackrock Spire/Scholomance"] = "";
   LBIS.L["Lucifron"] = "루시프론";
   LBIS.L["Mage's Wand"] = "마법사의 마법봉";
   LBIS.L["Magister Kalendris"] = "마법사 칼렌드리스";
@@ -405,12 +404,14 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Mathredis Firestar (Librams)"] = " (고서)";
   LBIS.L["Maxwell's Mission"] = "맥스웰의 임무";
   LBIS.L["Mazen's Behest"] = "마젠의 부탁";
+--  LBIS.L["Meilosh"] = "";
   LBIS.L["Mekgineer Thermaplugg"] = "멕기니어 텔마플러그";
   LBIS.L["Meshlok the Harvester (Rare)"] = "정원사 메슬로크 (희귀)";
   LBIS.L["Miner Johnson (Rare)"] = "광부 존슨 (희귀)";
   LBIS.L["Missing In Action"] = "교전 중 실종";
 --  LBIS.L["Mith'rethis the Enchanter"] = "";
 --  LBIS.L["Mok'rash"] = "";
+--  LBIS.L["Mokvar"] = "";
   LBIS.L["Molten Core"] = "화산 심장부";
   LBIS.L["Moonglade"] = "달숲";
   LBIS.L["Mor Grayhoof"] = "모르 그레이후프";
@@ -444,6 +445,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Oh Brother. . ."] = "형제여...";
   LBIS.L["Ok'thor the Breaker"] = "파괴자 오크토르";
   LBIS.L["Onyxia"] = "오닉시아";
+--  LBIS.L["Onyxia Attunement"] = "";
+--  LBIS.L["Onyxia's Head"] = "";
   LBIS.L["Onyxia's Lair"] = "오닉시아의 둥지";
   LBIS.L["Open Browser Window"] = "창 열기";
   LBIS.L["Open Settings"] = "설정 창 열기";
@@ -479,8 +482,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Pyroguard Emberseer"] = "불의 수호자 엠버시어";
   LBIS.L["Pyromancer Loregrain"] = "화염술사 로어그레인";
 --  LBIS.L["Qia"] = "";
+--  LBIS.L["Quartermaster Miranda Breechlock"] = "";
   LBIS.L["Quartermaster Zigris"] = "병참장교 지그리스";
---  LBIS.L["Quartermaster Zigris|The Ravenian"] = "";
   LBIS.L["Quest"] = "퀘스트";
   LBIS.L["Quiver"] = "화살통";
   LBIS.L["Ragefire Chasm"] = "성난불길 협곡";
@@ -522,7 +525,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Rotgrip"] = "썩은 아귀";
   LBIS.L["Samophlange Manual"] = "사모플랜지 설명서";
   LBIS.L["Saving Sharpbeak"] = "뾰족부리 구출";
-  LBIS.L["Saving the Best for Last"] = "은혜의 보답";
   LBIS.L["Saving Yenniku"] = "예니쿠 구출";
 --  LBIS.L["Scapula of the Fallen Avatar"] = "";
 --  LBIS.L["Scarlet Centurion"] = "";
@@ -532,6 +534,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Scarlet Monastery"] = "붉은십자군 수도원";
 --  LBIS.L["Scarlet Spellbinder"] = "";
   LBIS.L["Scholomance"] = "스칼로맨스";
+--  LBIS.L["Scholomance/Stratholme"] = "";
   LBIS.L["Search for Incendicite"] = "발연 광석을 찾아서";
   LBIS.L["Searing Gorge"] = "이글거리는 협곡";
   LBIS.L["Secret of the Circle"] = "돌무리의 비밀";
@@ -548,6 +551,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Shadow Hunter Vosh’gajin"] = "";
   LBIS.L["Shadoweaver"] = "그림자매듭";
   LBIS.L["Shadowfang Keep"] = "그림자송곳니 성채";
+--  LBIS.L["Shadowflame Skull"] = "";
   LBIS.L["Shadowpriest Sezz'ziz"] = "어둠의사제 세즈지즈";
   LBIS.L["Shadowshard Fragments"] = "음영석 조각";
 --  LBIS.L["Shadowtooth Emissary"] = "";
@@ -569,13 +573,14 @@ if GetLocale() == "koKR" then
   LBIS.L["Sneed's Shredder"] = "스니드의 벌목기";
   LBIS.L["Solakar Flamewreath"] = "화염고리 솔라카르";
   LBIS.L["Solution to Doom"] = "멸망의 해결책";
+--  LBIS.L["Sothos and Jarien"] = "";
   LBIS.L["Southsea Shakedown"] = "남쪽바다해적단 처리반";
---  LBIS.L["Spire Spider"] = "";
   LBIS.L["Spirestone Battle Lord (Rare)"] = "뾰족바위일족 전투대장 (희귀)";
   LBIS.L["Spirestone Butcher (Rare)"] = "뾰족바위일족 학살자 (희귀)";
 --  LBIS.L["Spirestone Mystic"] = "";
   LBIS.L["Spirit Shards"] = "유령의 조각";
 --  LBIS.L["Splinter Fist"] = "";
+--  LBIS.L["Squire Rowe"] = "";
 --  LBIS.L["Stitches"] = "";
   LBIS.L["Stomper Kreeg"] = "천둥발 크리그";
   LBIS.L["Stone Is Better than Cloth"] = "돌로 만든 보호구";
@@ -589,6 +594,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Stratholme"] = "스트라솔름";
 --  LBIS.L["Stratholme Live"] = "";
 --  LBIS.L["Stratholme Undead"] = "";
+--  LBIS.L["Stratholme Undead/Scholomance"] = "";
 --  LBIS.L["STX-04/BD"] = "";
   LBIS.L["Sulfuron Harbinger"] = "설퍼론 사자";
   LBIS.L["Sunken Temple"] = "가라앉은 사원";
@@ -605,6 +611,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Tendris Warpwood"] = "굽이나무 텐드리스";
   LBIS.L["The Ancient Leaf"] = "고대의 잎사귀";
   LBIS.L["The Arcanist's Cookbook"] = "신비술사의 요리책";
+--  LBIS.L["The Argent Dawn"] = "";
   LBIS.L["The Azure Key"] = "하늘색 열쇠";
 --  LBIS.L["The Bad News..."] = "";
   LBIS.L["The Balance of Light and Shadow"] = "빛과 어둠의 균형";
@@ -667,6 +674,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Timbermaw Hold"] = "나무구렁 요새";
 --  LBIS.L["Timbermaw Hold - Friendly"] = "";
 --  LBIS.L["Timbermaw Hold - Honored"] = "";
+--  LBIS.L["Timermaul Hold"] = "";
   LBIS.L["Timmy the Cruel"] = "잔혹한 티미";
   LBIS.L["Tinkerer Gizlock"] = "땜장이 기즐록";
   LBIS.L["Token"] = "토큰";
@@ -678,6 +686,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Tremors of the Earth"] = "대지의 진동";
   LBIS.L["Trinket"] = "장신구";
   LBIS.L["Trolls of a Feather"] = "트롤의 깃털";
+  LBIS.L["Tsu'zee"] = "츄지";
   LBIS.L["Tuten'kash"] = "투텐카쉬";
   LBIS.L["Twilight Falls"] = "황혼의망치단의 몰락";
   LBIS.L["Twilight Lord Kelris"] = "황혼의 군주 켈리스";
