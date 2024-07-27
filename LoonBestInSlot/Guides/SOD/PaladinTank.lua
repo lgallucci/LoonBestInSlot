@@ -7,9 +7,9 @@ local function LoadData()
     LBIS:AddEnchant(spec4, "22840", LBIS.L["Head"]) --Arcanum of Rapidity
     LBIS:AddEnchant(spec4, "15397", LBIS.L["Head"]) --Lesser Arcanum of Voracity
     LBIS:AddEnchant(spec4, "15400", LBIS.L["Head"]) --Lesser Arcanum of Voracity
-    LBIS:AddEnchant(spec4, "11644", LBIS.L["Head"]) --Lesser Arcanum of Resilience
+    LBIS:AddEnchant(spec4, "15394", LBIS.L["Head"]) --Lesser Arcanum of Resilience
     LBIS:AddEnchant(spec4, "446451", LBIS.L["Shoulder"]) --Atal'ai Signet of Might
-    LBIS:AddEnchant(spec4, "227819", LBIS.L["Shoulder"]) --Blessed Flame Mantle of the Dawn
+    LBIS:AddEnchant(spec4, "460963", LBIS.L["Shoulder"]) --Blessed Flame Mantle of the Dawn
     LBIS:AddEnchant(spec4, "20015", LBIS.L["Back"]) --Enchant Cloak - Superior Defense
     LBIS:AddEnchant(spec4, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
     LBIS:AddEnchant(spec4, "461129", LBIS.L["Back"]) --Hydraxian Coronation

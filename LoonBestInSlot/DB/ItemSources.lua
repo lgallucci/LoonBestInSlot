@@ -5045,6 +5045,7 @@ LBIS.ItemSources =
     [228748] = { Name = "Whistle of the Mottled Blood Raptor", SourceType = LBIS.L["PvP"], Source = LBIS.L["PvP Vendor"], SourceNumber = "800g", SourceLocation = LBIS.L["Stranglethorn Vale"], SourceFaction = "B" },
     [228757] = { Name = "Felstriker", SourceType = LBIS.L["Drop"], Source = LBIS.L["Warchief Rend Blackhand"], SourceNumber = "0", SourceLocation = LBIS.L["Upper Blackrock Spire"], SourceFaction = "B" },
     [228759] = { Name = "Eskhandar's Collar", SourceType = LBIS.L["Drop"], Source = LBIS.L["Onyxia"], SourceNumber = "0", SourceLocation = LBIS.L["Onyxia's Lair"], SourceFaction = "B" },
+    [228924] = { Name = "Tempered Dark Iron Boots", SourceType = LBIS.L["Vendor"], Source = LBIS.L["Lokhtos Darkbargainer"], SourceNumber = "", SourceLocation = LBIS.L["Thorium Brotherhood"], SourceFaction = "B" },
     [228925] = { Name = "Tempered Dark Iron Boots", SourceType = LBIS.L["Vendor"], Source = LBIS.L["Lokhtos Darkbargainer"], SourceNumber = "", SourceLocation = LBIS.L["Thorium Brotherhood"], SourceFaction = "B" },
     [228955] = { Name = "Ancient Cornerstone Grimoire", SourceType = LBIS.L["Drop"], Source = LBIS.L["Onyxia"], SourceNumber = "0", SourceLocation = LBIS.L["Onyxia's Lair"], SourceFaction = "B" },
     [228992] = { Name = "Onyxia Hide Backpack", SourceType = LBIS.L["Drop"], Source = LBIS.L["Onyxia"], SourceNumber = "0", SourceLocation = LBIS.L["Onyxia's Lair"], SourceFaction = "B" },

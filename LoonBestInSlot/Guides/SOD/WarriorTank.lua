@@ -291,6 +291,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "226493", LBIS.L["Legs"], "BIS") --Leggings of Might
     LBIS:AddItem(spec4, "226490", LBIS.L["Legs"], "BIS") --Legplates of Might
     LBIS:AddItem(spec4, "226859", LBIS.L["Legs"], "Alt") --Legplates of Heroism
+    LBIS:AddItem(spec4, "228924", LBIS.L["Feet"], "BIS") --Tempered Dark Iron Boots
     LBIS:AddItem(spec4, "226496", LBIS.L["Feet"], "BIS") --Treads of Might
     LBIS:AddItem(spec4, "226487", LBIS.L["Feet"], "BIS") --Sabatons of Might
     LBIS:AddItem(spec4, "226857", LBIS.L["Feet"], "BIS") --Battleboots of Heroism

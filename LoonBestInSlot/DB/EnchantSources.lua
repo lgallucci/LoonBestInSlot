@@ -95,6 +95,7 @@ LBIS.EnchantSources =
     [446451] = { Name = "Atal'ai Signet of Might", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Zalgo the Explorer"], SourceLocation = LBIS.L["Yojamba Isle"], TextureId = "221321" },
     [446459] = { Name = "Atal'ai Signet of Mojo", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Zalgo the Explorer"], SourceLocation = LBIS.L["Yojamba Isle"], TextureId = "221322" },
     [446472] = { Name = "Atal'ai Signet of Serenity", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Zalgo the Explorer"], SourceLocation = LBIS.L["Yojamba Isle"], TextureId = "221323" },
+    [460963] = { Name = "Blessed Flame Mantle of the Dawn", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Quartermaster Miranda Breechlock"], SourceLocation = LBIS.L["Argent Dawn"], TextureId = "227819" },
     [461129] = { Name = "Hydraxian Coronation", DesignId = "227926", ScrollId = "0", Source = LBIS.L["Duke Hydraxis"], SourceLocation = LBIS.L["Azshara"], TextureId = "" },
     [463871] = { Name = "Enchant Shield - Law of Nature", DesignId = "228982", ScrollId = "0", Source = LBIS.L["Timbermaw Hold"], SourceLocation = LBIS.L["Revered"], TextureId = "" },
 }
