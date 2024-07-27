@@ -7,10 +7,12 @@ local function LoadData()
     LBIS:AddEnchant(spec4, "22840", LBIS.L["Head"]) --Arcanum of Rapidity
     LBIS:AddEnchant(spec4, "15397", LBIS.L["Head"]) --Lesser Arcanum of Voracity
     LBIS:AddEnchant(spec4, "15400", LBIS.L["Head"]) --Lesser Arcanum of Voracity
+    LBIS:AddEnchant(spec4, "11644", LBIS.L["Head"]) --Lesser Arcanum of Resilience
     LBIS:AddEnchant(spec4, "446451", LBIS.L["Shoulder"]) --Atal'ai Signet of Might
+    LBIS:AddEnchant(spec4, "227819", LBIS.L["Shoulder"]) --Blessed Flame Mantle of the Dawn
     LBIS:AddEnchant(spec4, "20015", LBIS.L["Back"]) --Enchant Cloak - Superior Defense
     LBIS:AddEnchant(spec4, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
-    LBIS:AddEnchant(spec4, "13657", LBIS.L["Back"]) --Enchant Cloak - Fire Resistance
+    LBIS:AddEnchant(spec4, "461129", LBIS.L["Back"]) --Hydraxian Coronation
     LBIS:AddEnchant(spec4, "20026", LBIS.L["Chest"]) --Enchant Chest - Major Health
     LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec4, "435903", LBIS.L["Chest"]) --Enchant Chest - Retricutioner
@@ -265,6 +267,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "226992", LBIS.L["Chest"], "Alt") --Soulforge Chestguards
     LBIS:AddItem(spec4, "226596", LBIS.L["Wrist"], "BIS") --Lawbringer Warbands
     LBIS:AddItem(spec4, "226603", LBIS.L["Wrist"], "Alt") --Lawbringer Vambraces
+    LBIS:AddItem(spec4, "227820", LBIS.L["Wrist"], "Alt") --Tempered Dark Iron Bracers
     LBIS:AddItem(spec4, "228260", LBIS.L["Hands"], "BIS") --Flameguard Gauntlets
     LBIS:AddItem(spec4, "226600", LBIS.L["Hands"], "Alt") --Lawbringer Grips
     LBIS:AddItem(spec4, "226608", LBIS.L["Hands"], "Alt") --Lawbringer Handguards
@@ -278,18 +281,20 @@ local function LoadData()
     LBIS:AddItem(spec4, "22672", LBIS.L["Legs"], "Alt") --Sentinel's Plate Legguards
     LBIS:AddItem(spec4, "226601", LBIS.L["Feet"], "BIS") --Lawbringer Battleboots
     LBIS:AddItem(spec4, "226609", LBIS.L["Feet"], "Alt") --Lawbringer Sabatons
-    LBIS:AddItem(spec4, "228275", LBIS.L["Feet"], "Alt") --Core Forged Greaves
+    LBIS:AddItem(spec4, "228925", LBIS.L["Feet"], "Alt") --Tempered Dark Iron Boots
     LBIS:AddItem(spec4, "228249", LBIS.L["Neck"], "BIS") --Medallion of Steadfast Might
     LBIS:AddItem(spec4, "228685", LBIS.L["Neck"], "Alt") --Onyxia Tooth Pendant
     LBIS:AddItem(spec4, "19491", LBIS.L["Neck"], "Alt") --Amulet of the Darkmoon
     LBIS:AddItem(spec4, "228759", LBIS.L["Neck"], "Alt") --Eskhandar's Collar
     LBIS:AddItem(spec4, "228147", LBIS.L["Neck"], "Alt") --Magmadar's Horn
+    LBIS:AddItem(spec4, "226500", LBIS.L["Neck"], "Alt") --Chipped Drakefire Amulet
     LBIS:AddItem(spec4, "228286", LBIS.L["Ring"], "BIS") --Band of Accuria
     LBIS:AddItem(spec4, "228261", LBIS.L["Ring"], "Alt") --Quick Strike Ring
     LBIS:AddItem(spec4, "19325", LBIS.L["Ring"], "Alt") --Don Julio's Band
     LBIS:AddItem(spec4, "220626", LBIS.L["Ring"], "Alt") --Drakeclaw Band of the Berserker
     LBIS:AddItem(spec4, "228080", LBIS.L["Ring"], "Alt") --Resin Loop
     LBIS:AddItem(spec4, "228242", LBIS.L["Ring"], "Alt") --Heavy Dark Iron Ring
+    LBIS:AddItem(spec4, "227455", LBIS.L["Ring"], "Alt") --Ocean's Breeze
     LBIS:AddItem(spec4, "2246", LBIS.L["Ring"], "Alt") --Myrmidon's Signet
     LBIS:AddItem(spec4, "228186", LBIS.L["Ring"], "Alt Thrt") --Abandoned Wedding Band
     LBIS:AddItem(spec4, "216673", LBIS.L["Ring"], "Alt") --Talvash's Brilliant Gold Ring

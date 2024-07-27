@@ -29,6 +29,7 @@ public class WowheadGuideParser
         { 6041, 7224}, //Steel Weapon Chain
         { 5421, 6296 }, //Fiery Blaze
         { 11622, 15340}, //Lesser Arcanum of Rumination
+        { 11644, 15394}, //
         { 11645, 15397}, //Lesser Arcanum of Voracity
         { 11646, 15400}, //Lesser Arcanum of Voracity
         { 11647, 15402}, //Lesser Arcanum of Voracity
@@ -40,6 +41,8 @@ public class WowheadGuideParser
         { 221322, 446459 }, //Atal'ai Signet of Mojo
         { 221323, 446472 }, //Atal'ai Signet of 
         { 18330, 22844 }, //Arcanum of Focus
+        { 227819, 460963}, //Blessed Flame Mantle of the Dawn
+        { 227926, 461129}, //Hydraxian Coronation
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()
