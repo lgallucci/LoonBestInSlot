@@ -274,8 +274,8 @@ local function LoadData()
     LBIS:AddItem(spec4, "18204", LBIS.L["Back"], "Alt") --Eskhandar's Pelt
     LBIS:AddItem(spec4, "20073", LBIS.L["Back"], "Alt") --Cloak of the Honor Guard
     LBIS:AddItem(spec4, "20068", LBIS.L["Back"], "Alt") --Deathguard's Cloak
-    LBIS:AddItem(spec4, "226494", LBIS.L["Chest"], "BIS") --Hauberk of Might
     LBIS:AddItem(spec4, "226489", LBIS.L["Chest"], "BIS") --Breastplate of Might
+    LBIS:AddItem(spec4, "226494", LBIS.L["Chest"], "BIS") --Hauberk of Might
     LBIS:AddItem(spec4, "226499", LBIS.L["Wrist"], "BIS") --Armguards of Might
     LBIS:AddItem(spec4, "226484", LBIS.L["Wrist"], "BIS") --Bracers of Might
     LBIS:AddItem(spec4, "19578", LBIS.L["Wrist"], "Alt") --Berserker Bracers
@@ -288,8 +288,8 @@ local function LoadData()
     LBIS:AddItem(spec4, "226498", LBIS.L["Waist"], "Alt") --Sash of Might
     LBIS:AddItem(spec4, "226485", LBIS.L["Waist"], "Alt") --Belt of Might
     LBIS:AddItem(spec4, "215115", LBIS.L["Waist"], "Alt Thrt") --Hyperconductive Goldwrap
-    LBIS:AddItem(spec4, "226493", LBIS.L["Legs"], "BIS") --Leggings of Might
     LBIS:AddItem(spec4, "226490", LBIS.L["Legs"], "BIS") --Legplates of Might
+    LBIS:AddItem(spec4, "226493", LBIS.L["Legs"], "BIS") --Leggings of Might
     LBIS:AddItem(spec4, "226859", LBIS.L["Legs"], "Alt") --Legplates of Heroism
     LBIS:AddItem(spec4, "228924", LBIS.L["Feet"], "BIS") --Tempered Dark Iron Boots
     LBIS:AddItem(spec4, "226496", LBIS.L["Feet"], "BIS") --Treads of Might
@@ -297,6 +297,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "226857", LBIS.L["Feet"], "BIS") --Battleboots of Heroism
     LBIS:AddItem(spec4, "228685", LBIS.L["Neck"], "BIS") --Onyxia Tooth Pendant
     LBIS:AddItem(spec4, "228759", LBIS.L["Neck"], "BIS") --Eskhandar's Collar
+    LBIS:AddItem(spec4, "228249", LBIS.L["Neck"], "Alt") --Medallion of Steadfast Might
     LBIS:AddItem(spec4, "15411", LBIS.L["Neck"], "Alt") --Mark of Fordring
     LBIS:AddItem(spec4, "19491", LBIS.L["Neck"], "Alt") --Amulet of the Darkmoon
     LBIS:AddItem(spec4, "19325", LBIS.L["Ring"], "BIS") --Don Julio's Band
