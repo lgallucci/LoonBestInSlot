@@ -99,8 +99,8 @@ LBIS:AddItem(spec1, "59359", LBIS.L["Head"], "Alt") --Reinforced Bio-Optic Kills
 LBIS:AddItem(spec1, "65183", LBIS.L["Shoulder"], "BIS") --Magma Plated Pauldrons
 LBIS:AddItem(spec1, "65142", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Great Ettin
 LBIS:AddItem(spec1, "60343", LBIS.L["Shoulder"], "Alt") --Magma Plated Pauldrons
-LBIS:AddItem(spec1, "65117", LBIS.L["Back"], "BIS") --Glittering Epidermis
-LBIS:AddItem(spec1, "69879", LBIS.L["Back"], "Alt") --Cloudburst Cloak
+LBIS:AddItem(spec1, "69879", LBIS.L["Back"], "BIS") --Cloudburst Cloak
+LBIS:AddItem(spec1, "65117", LBIS.L["Back"], "Alt") --Glittering Epidermis
 LBIS:AddItem(spec1, "67140", LBIS.L["Back"], "Alt") --Drape of Inimitable Fate
 LBIS:AddItem(spec1, "65179", LBIS.L["Chest"], "BIS") --Magma Plated Battleplate
 LBIS:AddItem(spec1, "65062", LBIS.L["Chest"], "Alt") --Battleplate of Ancient Kings
@@ -127,15 +127,15 @@ LBIS:AddItem(spec1, "69885", LBIS.L["Neck"], "Alt") --Cloudburst Necklace
 LBIS:AddItem(spec1, "60227", LBIS.L["Neck"], "Alt") --Caelestrasz's Will
 LBIS:AddItem(spec1, "62447", LBIS.L["Neck"], "Alt") --Gift of Nadun
 LBIS:AddItem(spec1, "60226", LBIS.L["Ring"], "BIS") --Dargonax's Signet
-LBIS:AddItem(spec1, "65106", LBIS.L["Ring"], "BIS") --Ring of Rivalry
 LBIS:AddItem(spec1, "65382", LBIS.L["Ring"], "BIS") --Cloudburst Ring
+LBIS:AddItem(spec1, "65106", LBIS.L["Ring"], "Alt") --Ring of Rivalry
 LBIS:AddItem(spec1, "67139", LBIS.L["Ring"], "Alt") --Blauvelt's Family Crest
 LBIS:AddItem(spec1, "58185", LBIS.L["Ring"], "Alt") --Band of Bees
 LBIS:AddItem(spec1, "65072", LBIS.L["Trinket"], "BIS") --Heart of Rage
-LBIS:AddItem(spec1, "62464", LBIS.L["Trinket"], "BIS") --Impatience of Youth
-LBIS:AddItem(spec1, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
+LBIS:AddItem(spec1, "65118", LBIS.L["Trinket"], "BIS") --Crushing Weight
 LBIS:AddItem(spec1, "56393", LBIS.L["Trinket"], "Alt") --Heart of Solace
-LBIS:AddItem(spec1, "65118", LBIS.L["Trinket"], "Alt") --Crushing Weight
+LBIS:AddItem(spec1, "62464", LBIS.L["Trinket"], "Alt") --Impatience of Youth
+LBIS:AddItem(spec1, "62469", LBIS.L["Trinket"], "Alt") --Impatience of Youth
 LBIS:AddItem(spec1, "58180", LBIS.L["Trinket"], "Alt") --License to Slay
 LBIS:AddItem(spec1, "65047", LBIS.L["Main Hand~Off Hand"], "BIS") --Lava Spine
 LBIS:AddItem(spec1, "68131", LBIS.L["Main Hand"], "BIS") --Stormwake, the Tempest's Reach
