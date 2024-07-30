@@ -31,21 +31,21 @@ internal class PaladinProtectionMapping : SpecMapping
     public override string CurrentPhaseUrl => "tank-bis-gear-pve";
     public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-protection-paladin-tank-phase-1") },
-            { ("Shoulder", "#shoulders-for-protection-paladin-tank-phase-1") },
-            { ("Back", "#back-for-protection-paladin-tank-phase-1") },
-            { ("Chest", "#chest-for-protection-paladin-tank-phase-1") },
-            { ("Wrist", "#wrist-for-protection-paladin-tank-phase-1") },
-            { ("Hands", "#hands-for-protection-paladin-tank-phase-1") },
-            { ("Waist", "#waist-for-protection-paladin-tank-phase-1") },
-            { ("Legs", "#legs-for-protection-paladin-tank-phase-1") },
-            { ("Feet", "#feet-for-protection-paladin-tank-phase-1") },
-            { ("Neck", "#neck-for-protection-paladin-tank-phase-1") },
-            { ("Ring", "#rings-for-protection-paladin-tank-phase-1") },
-            { ("Trinket", "#trinkets-for-protection-paladin-tank-phase-1") },
-            { ("Main Hand", "#weapons-for-protection-paladin-tank-phase-1") },
-            { ("Off Hand", "#shields-for-protection-paladin-tank-phase-1") },
-            { ("Ranged/Relic", "#relics-for-protection-paladin-tank-phase-1") }
+            { ("Head", "#head-for-protection-paladin-tank") },
+            { ("Shoulder", "#shoulders-for-protection-paladin-tank") },
+            { ("Back", "#back-for-protection-paladin-tank") },
+            { ("Chest", "#chest-for-protection-paladin-tank") },
+            { ("Wrist", "#wrist-for-protection-paladin-tank") },
+            { ("Hands", "#hands-for-protection-paladin-tank") },
+            { ("Waist", "#waist-for-protection-paladin-tank") },
+            { ("Legs", "#legs-for-protection-paladin-tank") },
+            { ("Feet", "#feet-for-protection-paladin-tank") },
+            { ("Neck", "#neck-for-protection-paladin-tank") },
+            { ("Ring", "#rings-for-protection-paladin-tank") },
+            { ("Trinket", "#trinkets-for-protection-paladin-tank") },
+            { ("Main Hand", "#weapons-for-protection-paladin-tank") },
+            { ("Off Hand", "#shields-for-protection-paladin-tank") },
+            { ("Ranged/Relic", "#relics-for-protection-paladin-tank") }
         };
 
     public override string GemsEnchantsUrl => "tank-enchants-gems-pve";

@@ -20,9 +20,9 @@ internal class MageFrostMapping : SpecMapping
     public override string CurrentPhaseUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand-two-handed-weapons-for-fire-mage-dps-phase-2") },
-            { ("Off Hand", "#off-hand-weapons-for-frost-mage-dps-phase-2") },
-            { ("Ranged/Relic", "#wands-for-frost-mage-dps-phase-2") }
+            { ("Main Hand", "#main-hand-two-handed-weapons-for-fire-mage-dps") },
+            { ("Off Hand", "#off-hand-weapons-for-frost-mage-dps") },
+            { ("Ranged/Relic", "#wands-for-frost-mage-dps") }
         };
 
     public override string GemsEnchantsUrl => "dps-enchants-gems-pve";

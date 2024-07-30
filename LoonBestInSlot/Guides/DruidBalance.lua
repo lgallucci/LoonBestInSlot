@@ -8,24 +8,24 @@ LBIS:AddGem(spec0, "52208", "3", "False") --Reckless Ember Topaz
 LBIS:AddGem(spec0, "52207", "3", "False") --Brilliant Inferno Ruby
 LBIS:AddGem(spec0, "52236", "3", "False") --Purified Demonseye
 
-LBIS:AddEnchant(spec1, "86932", LBIS.L["Head"]) --Arcanum of Hyjal
-LBIS:AddEnchant(spec1, "86899", LBIS.L["Shoulder"]) --Greater Inscription of Charged Lodestone
-LBIS:AddEnchant(spec1, "86403", LBIS.L["Shoulder"]) --Felfire Inscription
-LBIS:AddEnchant(spec1, "75172", LBIS.L["Back"]) --Lightweave Embroidery
-LBIS:AddEnchant(spec1, "74240", LBIS.L["Back"]) --Enchant Cloak - Greater Intellect
-LBIS:AddEnchant(spec1, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
-LBIS:AddEnchant(spec1, "96262", LBIS.L["Wrist"]) --Enchant Bracer - Mighty Intellect
-LBIS:AddEnchant(spec1, "85010", LBIS.L["Wrist"]) --Draconic Embossment - Intellect
-LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --Synapse Springs
-LBIS:AddEnchant(spec1, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
-LBIS:AddEnchant(spec1, "74198", LBIS.L["Hands"]) --Enchant Gloves - Haste
-LBIS:AddEnchant(spec1, "75150", LBIS.L["Legs"]) --Powerful Ghostly Spellthread
-LBIS:AddEnchant(spec1, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
-LBIS:AddEnchant(spec1, "74199", LBIS.L["Feet"]) --Enchant Boots - Haste
-LBIS:AddEnchant(spec1, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect
-LBIS:AddEnchant(spec1, "74242", LBIS.L["Main Hand"]) --Enchant Weapon - Power Torrent
-LBIS:AddEnchant(spec1, "74223", LBIS.L["Main Hand"]) --Enchant Weapon - Hurricane
-LBIS:AddEnchant(spec1, "74235", LBIS.L["Off Hand"]) --Enchant Off-Hand - Superior Intellect
+LBIS:AddEnchant(spec2, "86932", LBIS.L["Head"]) --Arcanum of Hyjal
+LBIS:AddEnchant(spec2, "86899", LBIS.L["Shoulder"]) --Greater Inscription of Charged Lodestone
+LBIS:AddEnchant(spec2, "86403", LBIS.L["Shoulder"]) --Felfire Inscription
+LBIS:AddEnchant(spec2, "75172", LBIS.L["Back"]) --Lightweave Embroidery
+LBIS:AddEnchant(spec2, "74240", LBIS.L["Back"]) --Enchant Cloak - Greater Intellect
+LBIS:AddEnchant(spec2, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
+LBIS:AddEnchant(spec2, "96262", LBIS.L["Wrist"]) --Enchant Bracer - Mighty Intellect
+LBIS:AddEnchant(spec2, "85010", LBIS.L["Wrist"]) --Draconic Embossment - Intellect
+LBIS:AddEnchant(spec2, "82175", LBIS.L["Hands"]) --Synapse Springs
+LBIS:AddEnchant(spec2, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
+LBIS:AddEnchant(spec2, "74198", LBIS.L["Hands"]) --Enchant Gloves - Haste
+LBIS:AddEnchant(spec2, "75150", LBIS.L["Legs"]) --Powerful Ghostly Spellthread
+LBIS:AddEnchant(spec2, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
+LBIS:AddEnchant(spec2, "74199", LBIS.L["Feet"]) --Enchant Boots - Haste
+LBIS:AddEnchant(spec2, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect
+LBIS:AddEnchant(spec2, "74242", LBIS.L["Main Hand"]) --Enchant Weapon - Power Torrent
+LBIS:AddEnchant(spec2, "74223", LBIS.L["Main Hand"]) --Enchant Weapon - Hurricane
+LBIS:AddEnchant(spec2, "74235", LBIS.L["Off Hand"]) --Enchant Off-Hand - Superior Intellect
 
 LBIS:AddItem(spec0, "59453", LBIS.L["Head"], "BIS") --Camouflage Bio-Optic Killshades
 LBIS:AddItem(spec0, "69579", LBIS.L["Head"], "BIS") --Amani Headdress
@@ -111,3 +111,39 @@ LBIS:AddItem(spec1, "65133", LBIS.L["Off Hand"], "BIS") --Book of Binding Will
 LBIS:AddItem(spec1, "65111", LBIS.L["Off Hand"], "Alt") --Scepter of Ice
 LBIS:AddItem(spec1, "64672", LBIS.L["Ranged/Relic"], "BIS") --Relic of Norgannon
 LBIS:AddItem(spec1, "64673", LBIS.L["Ranged/Relic"], "Alt") --Relic of Eonar
+
+LBIS:AddItem(spec2, "65200", LBIS.L["Head"], "BIS") --Stormrider's Cover
+LBIS:AddItem(spec2, "65066", LBIS.L["Head"], "Alt") --Helm of the Blind Seer
+LBIS:AddItem(spec2, "65203", LBIS.L["Shoulder"], "BIS") --Stormrider's Shoulderwraps
+LBIS:AddItem(spec2, "65078", LBIS.L["Shoulder"], "Alt") --Passive Resistor Spaulders
+LBIS:AddItem(spec2, "60232", LBIS.L["Back"], "BIS") --Shroud of Endless Grief
+LBIS:AddItem(spec2, "65108", LBIS.L["Back"], "Alt") --Drape of the Twins
+LBIS:AddItem(spec2, "69881", LBIS.L["Back"], "Alt") --Planetary Drape
+LBIS:AddItem(spec2, "65045", LBIS.L["Chest"], "BIS") --Scorched Wormling Vest
+LBIS:AddItem(spec2, "65202", LBIS.L["Chest"], "Alt") --Stormrider's Vestment
+LBIS:AddItem(spec2, "65021", LBIS.L["Wrist"], "BIS") --Manacles of the Sleeping Beast
+LBIS:AddItem(spec2, "65199", LBIS.L["Hands"], "BIS") --Stormrider's Gloves
+LBIS:AddItem(spec2, "65113", LBIS.L["Hands"], "Alt") --Hydrolance Gloves
+LBIS:AddItem(spec2, "65374", LBIS.L["Waist"], "BIS") --Gale Rouser Belt
+LBIS:AddItem(spec2, "65057", LBIS.L["Waist"], "Alt") --Belt of the Nightmare
+LBIS:AddItem(spec2, "65201", LBIS.L["Legs"], "BIS") --Stormrider's Leggings
+LBIS:AddItem(spec2, "65384", LBIS.L["Legs"], "Alt") --Gale Rouser Leggings
+LBIS:AddItem(spec2, "60236", LBIS.L["Feet"], "BIS") --Nightmare Rider's Boots
+LBIS:AddItem(spec2, "65128", LBIS.L["Feet"], "Alt") --Treads of Hideous Transformation
+LBIS:AddItem(spec2, "65112", LBIS.L["Neck"], "BIS") --Valiona's Medallion
+LBIS:AddItem(spec2, "69882", LBIS.L["Neck"], "BIS") --Planetary Amulet
+LBIS:AddItem(spec2, "65123", LBIS.L["Ring"], "BIS") --Signet of the Fifth Circle
+LBIS:AddItem(spec2, "65373", LBIS.L["Ring"], "BIS") --Planetary Band
+LBIS:AddItem(spec2, "65076", LBIS.L["Ring"], "Alt") --Security Measure Alpha
+LBIS:AddItem(spec2, "62047", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Volcano
+LBIS:AddItem(spec2, "65105", LBIS.L["Trinket"], "BIS") --Theralion's Mirror
+LBIS:AddItem(spec2, "65110", LBIS.L["Trinket"], "BIS") --Heart of Ignacious
+LBIS:AddItem(spec2, "65053", LBIS.L["Trinket"], "Alt") --Bell of Enraging Resonance
+LBIS:AddItem(spec2, "65041", LBIS.L["Main Hand"], "BIS") --Incineratus
+LBIS:AddItem(spec2, "65090", LBIS.L["Main Hand"], "BIS") --Twilight's Hammer
+LBIS:AddItem(spec2, "65091", LBIS.L["Main Hand"], "Alt") --Blade of the Witching Hour
+LBIS:AddItem(spec2, "65017", LBIS.L["Main Hand"], "Alt") --Andoros, Fist of the Dragon King
+LBIS:AddItem(spec2, "65133", LBIS.L["Off Hand"], "BIS") --Book of Binding Will
+LBIS:AddItem(spec2, "65111", LBIS.L["Off Hand"], "Alt") --Scepter of Ice
+LBIS:AddItem(spec2, "64672", LBIS.L["Ranged/Relic"], "BIS") --Relic of Norgannon
+LBIS:AddItem(spec2, "64673", LBIS.L["Ranged/Relic"], "Alt") --Relic of Eonar
