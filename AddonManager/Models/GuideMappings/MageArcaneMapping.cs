@@ -11,18 +11,18 @@ internal class MageArcaneMapping : SpecMapping
     public override string Phase0Url => "dps-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand-weapons-for-arcane-mage-dps-phase-1-pre-raid") },
-            { ("Two Hand", "#two-handed-weapons-for-arcane-mage-dps-phase-1-pre-raid") },
-            { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-phase-1-pre-raid") },
-            { ("Ranged/Relic", "#wands-for-arcane-mage-dps-phase-1-pre-raid") }
+            { ("Main Hand", "#main-hand-weapons-for-arcane-mage-dps-phase-2-pre-raid") },
+            { ("Two Hand", "#two-handed-weapons-for-arcane-mage-dps-phase-2-pre-raid") },
+            { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-phase-2-pre-raid") },
+            { ("Ranged/Relic", "#wands-for-arcane-mage-dps-phase-2-pre-raid") }
         };
 
     public override string CurrentPhaseUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand-two-handed-weapons-for-arcane-mage-dps-phase-1") },
-            { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-phase-1") },
-            { ("Ranged/Relic", "#wands-for-arcane-mage-dps-phase-1") }
+            { ("Main Hand", "#main-hand-two-handed-weapons-for-arcane-mage-dps-phase-2") },
+            { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-phase-2") },
+            { ("Ranged/Relic", "#wands-for-arcane-mage-dps-phase-2") }
         };
 
     public override string GemsEnchantsUrl => "dps-enchants-gems-pve";

@@ -465,13 +465,13 @@ public static class WowheadImporter
         var sources = new Dictionary<int, List<(string, string)>>();
 
         var webAddresses = itemSources.Where((i) => i.Value.SourceType == @"LBIS.L[""unknown""]")
-                                           .Select((i) => $"https://www.wowhead.com/item={i.Key}/");
+                                           .Select((i) => $"https://www.wowhead.com/cata/item={i.Key}/");
         try 
         {
             await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
             {
                 var name = doc.Title?.Replace(" - Item - Cataclysm Classic", "").Trim() ?? "unknown";
-                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/item=", "").TrimEnd('/'));
+                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/cata/item=", "").TrimEnd('/'));
                 var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
                 
                 itemSources[itemId].Name = name;
@@ -482,9 +482,6 @@ public static class WowheadImporter
 
                     if (rowElements.Length == 1)
                     {
-                        if (location == "Blackfathom Deeps")
-                            location = "Blackfathom Deeps (dungeon)";
-
                         itemSources[itemId].SourceType = AddLocalizeText("Drop");
                         itemSources[itemId].Source = AddLocalizeText(source);
                         itemSources[itemId].SourceNumber = "0";
@@ -497,9 +494,6 @@ public static class WowheadImporter
                             itemSources[itemId].Source = AddLocalizeText("Trash Mobs");
                         else
                             itemSources[itemId].Source = AddLocalizeText("World Drop");
-                        
-                        if (location.ToLower() == "the temple of atal'hakkar")
-                            location = "Sunken Temple";
 
                         itemSources[itemId].SourceType = AddLocalizeText("Drop");
                         itemSources[itemId].SourceNumber = "0";
@@ -563,13 +557,7 @@ public static class WowheadImporter
         ItemSourceFileManager.WriteItemSources(itemSources);
     }
 
-    private static List<string> _dungeons = new List<string>() {"ragefire chasm", "the deadmines", "wailing caverns", 
-                                                                "shadowfang keep", "the stockade", "razorfen kraul", 
-                                                                "scarlet monastery", "razorfen downs", "uldaman", 
-                                                                "zul'farrak", "the temple of atal'hakkar", "blackrock depths", 
-                                                                "lower blackrock spire", "upper blackrock spire", "scholomance",
-                                                                "stratholme live", "stratholme undead",
-                                                                "dire maul: east", "dire maul: west", "dire maul: north" };
+    private static List<string> _dungeons = new List<string>() { "zul'gurub","zul'aman",};
     
     private static bool IsDungeonName(string location)
     {

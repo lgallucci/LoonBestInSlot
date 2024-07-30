@@ -43,12 +43,14 @@ LBIS:AddEnchant(spec1, "74226", LBIS.L["Off Hand"]) --Enchant Shield - Mastery
 
 LBIS:AddItem(spec0, "59359", LBIS.L["Head"], "BIS") --Reinforced Bio-Optic Killshades
 LBIS:AddItem(spec0, "56278", LBIS.L["Head"], "Alt") --Anomuran Helm
+LBIS:AddItem(spec0, "69558", LBIS.L["Head"], "Alt") --Spiritshield Mask
 LBIS:AddItem(spec0, "58098", LBIS.L["Head"], "Alt") --Helm of Easeful Death
 LBIS:AddItem(spec0, "58103", LBIS.L["Head"], "Alt") --Helm of the Proud
 LBIS:AddItem(spec0, "57873", LBIS.L["Head"], "Alt") --Helm of Setesh
 LBIS:AddItem(spec0, "62410", LBIS.L["Head"], "Alt") --Grinning Fang Helm
 LBIS:AddItem(spec0, "62428", LBIS.L["Head"], "Alt") --Crown of Wings
 LBIS:AddItem(spec0, "67144", LBIS.L["Shoulder"], "BIS") --Pauldrons of Edward the Odd
+LBIS:AddItem(spec0, "69573", LBIS.L["Shoulder"], "Alt") --Pauldrons of Sacrifice
 LBIS:AddItem(spec0, "56452", LBIS.L["Shoulder"], "Alt") --Earthshape Pauldrons
 LBIS:AddItem(spec0, "56318", LBIS.L["Shoulder"], "Alt") --Raz's Pauldrons
 LBIS:AddItem(spec0, "58100", LBIS.L["Shoulder"], "Alt") --Pauldrons of the High Requiem
@@ -62,12 +64,14 @@ LBIS:AddItem(spec0, "55058", LBIS.L["Chest"], "Alt") --Hardened Elementium Haube
 LBIS:AddItem(spec0, "57870", LBIS.L["Wrist"], "BIS") --Alpha Bracers
 LBIS:AddItem(spec0, "67238", LBIS.L["Wrist"], "Alt") --Terborus's Rotating Bands
 LBIS:AddItem(spec0, "62449", LBIS.L["Wrist"], "Alt") --Sandguard Bracers
-LBIS:AddItem(spec0, "56428", LBIS.L["Hands"], "BIS") --Fingers of Light
+LBIS:AddItem(spec0, "69619", LBIS.L["Hands"], "BIS") --Bone Plate Handguards
+LBIS:AddItem(spec0, "56428", LBIS.L["Hands"], "Alt") --Fingers of Light
 LBIS:AddItem(spec0, "58105", LBIS.L["Hands"], "Alt") --Numbing Handguards
 LBIS:AddItem(spec0, "55059", LBIS.L["Waist"], "BIS") --Hardened Elementium Girdle
 LBIS:AddItem(spec0, "62384", LBIS.L["Waist"], "Alt") --Belt of the Ferocious Wolf
 LBIS:AddItem(spec0, "57913", LBIS.L["Waist"], "Alt") --Beech Green Belt
-LBIS:AddItem(spec0, "56367", LBIS.L["Legs"], "BIS") --Legguards of Winnowing Wind
+LBIS:AddItem(spec0, "69583", LBIS.L["Legs"], "BIS") --Legguards of the Unforgiving
+LBIS:AddItem(spec0, "56367", LBIS.L["Legs"], "Alt") --Legguards of Winnowing Wind
 LBIS:AddItem(spec0, "56283", LBIS.L["Legs"], "Alt") --Triton Legplates
 LBIS:AddItem(spec0, "58102", LBIS.L["Legs"], "Alt") --Greaves of Splendor
 LBIS:AddItem(spec0, "62418", LBIS.L["Feet"], "BIS") --Boots of Sullen Rock
@@ -83,18 +87,20 @@ LBIS:AddItem(spec0, "62440", LBIS.L["Ring"], "Alt") --Red Rock Band
 LBIS:AddItem(spec0, "56398", LBIS.L["Ring"], "Alt") --Ring of Three Lights
 LBIS:AddItem(spec0, "62351", LBIS.L["Ring"], "Alt") --Felsen's Ring of Resolve
 LBIS:AddItem(spec0, "58483", LBIS.L["Trinket"], "BIS Stam") --Lifebound Alchemist Stone
-LBIS:AddItem(spec0, "62471", LBIS.L["Trinket"], "Alt") --Mirror of Broken Images
 LBIS:AddItem(spec0, "62466", LBIS.L["Trinket"], "Alt") --Mirror of Broken Images
+LBIS:AddItem(spec0, "62471", LBIS.L["Trinket"], "Alt") --Mirror of Broken Images
 LBIS:AddItem(spec0, "62464", LBIS.L["Trinket"], "Alt") --Impatience of Youth
 LBIS:AddItem(spec0, "62469", LBIS.L["Trinket"], "Alt") --Impatience of Youth
 LBIS:AddItem(spec0, "52352", LBIS.L["Trinket"], "Alt Stam") --Figurine - Earthen Guardian
 LBIS:AddItem(spec0, "56347", LBIS.L["Trinket"], "Alt Stam") --Leaden Despair
 LBIS:AddItem(spec0, "56346", LBIS.L["Main Hand"], "BIS") --Elementium Fang
 LBIS:AddItem(spec0, "65171", LBIS.L["Main Hand"], "Alt") --Cookie's Tenderizer
+LBIS:AddItem(spec0, "69609", LBIS.L["Main Hand"], "Alt") --Bloodlord's Protector
 LBIS:AddItem(spec0, "64885", LBIS.L["Main Hand"], "Alt") --Scimitar of the Sirocco
 LBIS:AddItem(spec0, "67145", LBIS.L["Off Hand"], "BIS") --Blockade's Lost Shield
 LBIS:AddItem(spec0, "55069", LBIS.L["Off Hand"], "Alt") --Elementium Earthguard
 LBIS:AddItem(spec0, "69764", LBIS.L["Off Hand"], "Alt") --Extinct Turtle Shell
+LBIS:AddItem(spec0, "69629", LBIS.L["Off Hand"], "Alt") --Shield of the Blood God
 LBIS:AddItem(spec0, "57926", LBIS.L["Off Hand"], "Alt") --Shield of the Four Grey Towers
 LBIS:AddItem(spec0, "56337", LBIS.L["Ranged/Relic"], "BIS") --Stalagmite Dragon
 LBIS:AddItem(spec0, "62243", LBIS.L["Ranged/Relic"], "Alt") --Notched Jawbone
