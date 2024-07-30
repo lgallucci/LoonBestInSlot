@@ -14,20 +14,11 @@ internal abstract class SpecMapping
     public abstract string GemsEnchantsUrl { get; }
     public abstract List<(string, GuideMapping)> GemsEnchants { get; }
 
-    public abstract string PrePatchUrl {get; }    
-    public abstract List<(string, GuideMapping)> PrePatch { get; }
     public abstract string Phase0Url { get; }
     public abstract List<(string, GuideMapping)> Phase0 { get; }
-    public abstract string Phase1Url { get; }
-    public abstract List<(string, GuideMapping)> Phase1 { get; }
-    public abstract string Phase2Url { get; }
-    public abstract List<(string, GuideMapping)> Phase2 { get; }
-    public abstract string Phase3Url { get; }
-    public abstract List<(string, GuideMapping)> Phase3 { get; }
-    public abstract string Phase4Url { get; }
-    public abstract List<(string, GuideMapping)> Phase4 { get; }
-    public abstract string Phase5Url { get; }
-    public abstract List<(string, GuideMapping)> Phase5 { get; }
+    public abstract string CurrentPhaseUrl { get; }
+    public abstract List<(string, GuideMapping)> CurrentPhase { get; }
+
 
     public List<ClassGuideMapping> ToList()
     {
@@ -37,9 +28,9 @@ internal abstract class SpecMapping
 
         list.Add(new ClassGuideMapping(UrlBase + Phase0Url, Spec, Class, "Phase0", Phase0));
 
-        list.Add(new ClassGuideMapping(UrlBase + Phase1Url, Spec, Class, "Phase1", Phase1));
+        //list.Add(new ClassGuideMapping(UrlBase + Phase1Url, Spec, Class, "Phase1", Phase1));
 
-        // list.Add(new ClassGuideMapping(UrlBase + Phase2Url, Spec, Class, "Phase2", Phase2));
+        list.Add(new ClassGuideMapping(UrlBase + CurrentPhaseUrl, Spec, Class, "Phase2", CurrentPhase));
 
         // list.Add(new ClassGuideMapping(UrlBase + Phase3Url, Spec, Class, "Phase3", Phase3));
 

@@ -28,8 +28,8 @@ internal class PaladinProtectionMapping : SpecMapping
             { ("Ranged/Relic", "#relics-for-protection-paladin-tank-pre-raid") }
         };
 
-    public override string Phase1Url => "tank-bis-gear-pve";
-    public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
+    public override string CurrentPhaseUrl => "tank-bis-gear-pve";
+    public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-protection-paladin-tank-phase-1") },
             { ("Shoulder", "#shoulders-for-protection-paladin-tank-phase-1") },
@@ -46,58 +46,6 @@ internal class PaladinProtectionMapping : SpecMapping
             { ("Main Hand", "#weapons-for-protection-paladin-tank-phase-1") },
             { ("Off Hand", "#shields-for-protection-paladin-tank-phase-1") },
             { ("Ranged/Relic", "#relics-for-protection-paladin-tank-phase-1") }
-        };
-
-    public override string Phase2Url => "tank-bis-gear-pve-phase-2";
-    public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "h3#weapons") },
-            { ("Off Hand", "h3#shields") },
-            { ("Ranged/Relic", "h3#librams") }
-        };
-
-    public override string Phase3Url => "tank-bis-gear-pve-phase-3";
-    public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "h3#weapons") },
-            { ("Off Hand", "h3#shields") },
-            { ("Ranged/Relic", "h3#librams") }
-        };
-
-    public override string Phase4Url => "tank-bis-gear-pve-phase-4";
-    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "h3#weapons") },
-            { ("Off Hand", "h3#shields") },
-            { ("Ranged/Relic", "h3#librams") }
-        };
-
-    public override string Phase5Url => "tank-bis-gear-pve-phase-5";
-    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "h3#weapons") },
-            { ("Off Hand", "h3#shields") },
-            { ("Ranged/Relic", "h3#librams") }
-        };
-
-    public override string PrePatchUrl => "tank-bis-gear-pve";
-    public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
-        {
-            { ("Head", "#head-for-protection-paladin-tanking") },
-            { ("Shoulder", "#shoulders-for-protection-paladintanking") },
-            { ("Back", "#cloak-for-protection-paladin-tanking") },
-            { ("Chest", "#chest-for-protection-paladin-tanking") },
-            { ("Wrist", "#bracer-for-protection-paladin-tanking") },
-            { ("Hands", "#gloves-for-protection-paladin-tanking") },
-            { ("Waist", "#belt-for-protection-paladin-tanking") },
-            { ("Legs", "#legs-for-protection-paladin-tanking") },
-            { ("Feet", "#boots-for-protection-paladin-tanking") },
-            { ("Neck", "#neck-for-protection-paladin-tanking") },
-            { ("Ring", "#rings-for-protection-paladin-tanking") },
-            { ("Trinket", "#trinkets-for-protection-paladin-tanking") },
-            { ("Main Hand", "h3#weapons") },
-            { ("Off Hand", "h3#shields") },
-            { ("Ranged/Relic", "h3#librams") },
         };
 
     public override string GemsEnchantsUrl => "tank-enchants-gems-pve";

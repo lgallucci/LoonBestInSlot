@@ -28,8 +28,8 @@ internal class PaladinHolyMapping : SpecMapping
             { ("Ranged/Relic", "#relics-for-holy-paladin-healer") }
         };
 
-    public override string Phase1Url => "healer-bis-gear-pve";
-    public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
+    public override string CurrentPhaseUrl => "healer-bis-gear-pve";
+    public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-holy-paladin-healer") },
             { ("Shoulder", "#shoulders-for-holy-paladin-healer") },
@@ -47,46 +47,6 @@ internal class PaladinHolyMapping : SpecMapping
             { ("Off Hand", "#off-hands-and-shields-for-holy-paladin-healer") },
             { ("Ranged/Relic", "#relics-for-holy-paladin-healer") }
         };
-
-    public override string Phase2Url => "healer-bis-gear-pve-phase-2";
-    public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-weapons-for-holy-paladin-healer-phase-2") },
-            { ("Off Hand", "#shields-and-off-hands-for-holy-paladin-healer-phase-2") },
-            { ("Ranged/Relic", "#librams-for-holy-paladin-healer-phase-2") }
-        };
-
-    public override string Phase3Url => "healer-bis-gear-pve-phase-3";
-    public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-weapons-for-holy-paladin-healer-phase-3") },
-            { ("Off Hand", "#shields-and-off-hands-for-holy-paladin-healer-phase-3") },
-            { ("Ranged/Relic", "#librams-for-holy-paladin-healer-phase-3") }
-        };
-
-    public override string Phase4Url => "healer-bis-gear-pve-phase-4";
-    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-weapons-for-holy-paladin-healer-phase-4") },
-            { ("Off Hand", "#shields-and-off-hands-for-holy-paladin-healer-phase-4") },
-            { ("Ranged/Relic", "#librams-for-holy-paladin-healer-phase-4") }
-        };
-
-    public override string Phase5Url => "healer-bis-gear-pve-phase-5";
-    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-weapons-for-holy-paladin-healer-phase-5") },
-            { ("Off Hand", "#shields-and-off-hands-for-holy-paladin-healer-phase-5") },
-            { ("Ranged/Relic", "#librams-for-holy-paladin-healer-phase-5") }
-        };
-
-    public override string PrePatchUrl => "healer-bis-gear-pve";
-    public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
-    {
-        { ("Main Hand", "#main-hand-weapons-for-holy-paladin-healer") },
-        { ("Off Hand", "#shields-and-off-hands-for-holy-paladin-healer") },
-        { ("Ranged/Relic", "#librams-for-holy-paladin-healer-phase-4") },
-    };
 
     public override string GemsEnchantsUrl => "healer-enchants-gems-pve";
     public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>

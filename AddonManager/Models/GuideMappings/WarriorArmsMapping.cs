@@ -27,8 +27,8 @@ internal class WarriorArmsMapping : SpecMapping
             { ("Ranged/Relic", "#ranged-weapon-for-arms-warrior-dps") },
         };
 
-    public override string Phase1Url => "dps-bis-gear-pve";
-    public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
+    public override string CurrentPhaseUrl => "dps-bis-gear-pve";
+    public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-arms-warrior-dps") },
             { ("Shoulder", "#shoulders-for-arms-warrior-dps") },
@@ -45,42 +45,6 @@ internal class WarriorArmsMapping : SpecMapping
             { ("Two Hand", "#weapons-for-arms-warrior-dps") },
             { ("Ranged/Relic", "#ranged-weapon-for-arms-warrior-dps") },
         };
-
-    public override string Phase2Url => "dps-bis-gear-pve-phase-2";
-    public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
-        {
-            { ("Two Hand", "#two-handed-weapons-for-arms-warrior-dps-in-phase-2") },
-            { ("Ranged/Relic", "#ranged-weapons-for-arms-warrior-dps-in-phase-2") },
-        };
-
-    public override string Phase3Url => "dps-bis-gear-pve-phase-3";
-    public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
-        {
-            { ("Two Hand", "#two-handed-weapons-for-arms-warrior-dps-in-phase-3") },
-            { ("Ranged/Relic", "#ranged-weapons-for-arms-warrior-dps-in-phase-3") },
-        };
-
-    public override string Phase4Url => "dps-bis-gear-pve-phase-4";
-    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
-        {
-            { ("Two Hand", "#two-handed-weapons-for-arms-warrior-dps-in-phase-4") },
-            { ("Ranged/Relic", "#ranged-weapons-for-arms-warrior-dps-in-phase-4") },
-        };
-
-    public override string Phase5Url => "dps-bis-gear-pve-phase-5";
-    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
-        {
-            { ("Two Hand", "#two-handed-weapons-for-arms-warrior-dps-in-phase-5") },
-            { ("Ranged/Relic", "#ranged-weapons-for-arms-warrior-dps-in-phase-5") },
-        };
-
-    public override string PrePatchUrl => "dps-bis-gear-pve";
-    public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
-    {
-        { ("Two Hand", "#two-handed-weapons-for-arms-warrior-dps-in-prepatch") },
-        { ("Ranged/Relic", "#ranged-weapons-for-arms-warrior-dps-in-prepatch") },
-    };
-
     public override string GemsEnchantsUrl => "dps-enchants-gems-pve";
     public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>
     {

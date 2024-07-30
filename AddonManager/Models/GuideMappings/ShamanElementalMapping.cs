@@ -29,8 +29,8 @@ internal class ShamanElementalMapping : SpecMapping
             { ("Ranged/Relic", "#relics-for-elemental-shaman-dps") }
         };
 
-    public override string Phase1Url => "dps-bis-gear-pve";
-    public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
+    public override string CurrentPhaseUrl => "dps-bis-gear-pve";
+    public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-elemental-shaman-dps") },
             { ("Shoulder", "#shoulders-for-elemental-shaman-dps") },
@@ -49,46 +49,6 @@ internal class ShamanElementalMapping : SpecMapping
             { ("Off Hand", "#off-hands-for-elemental-shaman-dps") },
             { ("Ranged/Relic", "#relics-for-elemental-shaman-dps") }
         };
-
-    public override string Phase2Url => "dps-bis-gear-pve-phase-2";
-    public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#weapons-for-elemental-shaman-dps-in-phase-2") },
-            { ("Off Hand", "#shields-off-hands-for-elemental-shaman-dps-in-phase-2") },
-            { ("Ranged/Relic", "#totems-for-elemental-shaman-dps-in-phase-2") }
-        };
-
-    public override string Phase3Url => "dps-bis-gear-pve-phase-3";
-    public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#weapons-for-elemental-shaman-dps-in-phase-3") },
-            { ("Off Hand", "#shields-off-hands-for-elemental-shaman-dps-in-phase-3") },
-            { ("Ranged/Relic", "#totems-for-elemental-shaman-dps-in-phase-3") }
-        };
-
-    public override string Phase4Url => "dps-bis-gear-pve-phase-4";
-    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#weapons-for-elemental-shaman-dps-in-phase-5") },
-            { ("Off Hand", "#shields-off-hands-for-elemental-shaman-dps-in-phase-5") },
-            { ("Ranged/Relic", "#totems-for-elemental-shaman-dps-in-phase-5") }
-        };
-
-    public override string Phase5Url => "dps-bis-gear-pve-phase-5";
-    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#weapons-for-elemental-shaman-dps-in-phase-5") },
-            { ("Off Hand", "#shields-off-hands-for-elemental-shaman-dps-in-phase-5") },
-            { ("Ranged/Relic", "#totems-for-elemental-shaman-dps-in-phase-5") }
-        };
-        
-    public override string PrePatchUrl => "dps-bis-gear-pve";
-    public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
-    {
-        { ("Main Hand", "#weapons-for-elemental-shaman-dps-in-pre-patch") },
-        { ("Off Hand", "#shields-off-hands-for-elemental-shaman-dps-in-pre-patch") },
-        { ("Ranged/Relic", "#totems-for-elemental-shaman-dps-in-pre-patch") },
-    };
 
     public override string GemsEnchantsUrl => "dps-enchants-gems-pve";
     public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>

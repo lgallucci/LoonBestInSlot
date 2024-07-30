@@ -17,53 +17,13 @@ internal class MageArcaneMapping : SpecMapping
             { ("Ranged/Relic", "#wands-for-arcane-mage-dps-phase-1-pre-raid") }
         };
 
-    public override string Phase1Url => "dps-bis-gear-pve";
-    public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
+    public override string CurrentPhaseUrl => "dps-bis-gear-pve";
+    public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "#main-hand-two-handed-weapons-for-arcane-mage-dps-phase-1") },
             { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-phase-1") },
             { ("Ranged/Relic", "#wands-for-arcane-mage-dps-phase-1") }
         };
-
-    public override string Phase2Url => "dps-bis-gear-pve-phase-2";
-    public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-arcane-mage-dps-phase-2") },
-            { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-phase-2") },
-            { ("Ranged/Relic", "#wands-for-arcane-mage-dps-phase-2") }
-        };
-
-    public override string Phase3Url => "dps-bis-gear-pve-phase-3";
-    public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-arcane-mage-dps-phase-3") },
-            { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-phase-3") },
-            { ("Ranged/Relic", "#wands-for-arcane-mage-dps-phase-3") }
-        };
-
-    public override string Phase4Url => "dps-bis-gear-pve-phase-4";
-    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-arcane-mage-dps-phase-4") },
-            { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-phase-4") },
-            { ("Ranged/Relic", "#wands-for-arcane-mage-dps-phase-4") }
-        };
-
-    public override string Phase5Url => "dps-bis-gear-pve-phase-5";
-    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-arcane-mage-dps-phase-5") },
-            { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-phase-5") },
-            { ("Ranged/Relic", "#wands-for-arcane-mage-dps-phase-5") }
-        };
-
-    public override string PrePatchUrl => "dps-bis-gear-pve";
-    public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
-    {
-        { ("Main Hand", "#main-hand-and-two-handed-weapons-for-arcane-mage-dps-pre-patch")},
-        { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-pre-patch") },
-        { ("Ranged/Relic", "#wands-for-arcane-mage-dps-pre-patch") },
-    };
 
     public override string GemsEnchantsUrl => "dps-enchants-gems-pve";
     public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>

@@ -29,8 +29,8 @@ internal class DruidRestoMapping : SpecMapping
             { ("Ranged/Relic", "#relics-for-restoration-druid-healer") }
         };
 
-    public override string Phase1Url => "healer-bis-gear-pve";
-    public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
+    public override string CurrentPhaseUrl => "healer-bis-gear-pve";
+    public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-restoration-druid-healer") },
             { ("Shoulder", "#shoulders-for-restoration-druid-healer") },
@@ -49,51 +49,6 @@ internal class DruidRestoMapping : SpecMapping
             { ("Off Hand", "#off-hands-for-restoration-druid-healer") },
             { ("Ranged/Relic", "#relics-for-restoration-druid-healer") }
         };
-
-    public override string Phase2Url => "healer-bis-gear-pve-phase-2";
-    public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-weapons-for-restoration-druid-healer-phase-2") },
-            { ("Two Hand", "#two-handed-weapons-for-restoration-druid-healer-phase-2") },
-            { ("Off Hand", "#off-hand-weapons-for-restoration-druid-healer-phase-2") },
-            { ("Ranged/Relic", "#idols-for-restoration-druid-healer-phase-2") }
-        };
-
-    public override string Phase3Url => "healer-bis-gear-pve-phase-3";
-    public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-weapons-for-restoration-druid-phase-3") },
-            { ("Two Hand", "#two-handed-weapons-for-restoration-druid-healer-phase-3") },
-            { ("Off Hand", "#off-hand-weapons-for-restoration-druid-healer-phase-3") },
-            { ("Ranged/Relic", "#idols-for-restoration-druid-healer-phase-3") }
-        };
-
-    public override string Phase4Url => "healer-bis-gear-pve-phase-4";
-    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-weapons-for-restoration-druid-healer-phase-4") },
-            { ("Two Hand", "#two-handed-weapons-for-restoration-druid-healer-phase-4") },
-            { ("Off Hand", "#off-hand-weapons-for-restoration-druid-healer-phase-4") },
-            { ("Ranged/Relic", "#idols-for-restoration-druid-healer-phase-4") }
-        };
-
-    public override string Phase5Url => "healer-bis-gear-pve-phase-5";
-    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-weapons-for-restoration-druid-healer-phase-5") },
-            { ("Two Hand", "#two-handed-weapons-for-restoration-druid-healer-phase-5") },
-            { ("Off Hand", "#off-hand-weapons-for-restoration-druid-healer-phase-5") },
-            { ("Ranged/Relic", "#idols-for-restoration-druid-healer-phase-5") }
-        };
-
-    public override string PrePatchUrl => "healer-bis-gear-pve";
-    public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
-    {
-        { ("Main Hand", "#main-hand-weapons-for-restoration-druid-healer")},
-        { ("Off Hand", "#off-hand-weapons-for-restoration-druid-healer") },
-        { ("Two Hand", "#two-handed-weapons-for-restoration-druid-healer") },
-        { ("Ranged/Relic", "#idols-for-restoration-druid-healer") },
-    };
 
     public override string GemsEnchantsUrl => "healer-enchants-gems-pve";
 

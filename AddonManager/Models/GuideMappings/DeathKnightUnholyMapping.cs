@@ -27,8 +27,8 @@ internal class DeathKnightUnholyMapping : SpecMapping
             { ("Ranged/Relic", "#sigils-for-unholy-death-knight-dps") },
         };
 
-    public override string Phase1Url => "dps-bis-gear-pve";
-    public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
+    public override string CurrentPhaseUrl => "dps-bis-gear-pve";
+    public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-unholy-death-knight-dps") },
             { ("Shoulder", "#shoulders-for-unholy-death-knight-dps") },
@@ -44,45 +44,6 @@ internal class DeathKnightUnholyMapping : SpecMapping
             { ("Trinket", "#trinkets-for-unholy-death-knight-dps") },
             { ("Two Hand", "#weapons-for-unholy-death-knight-dps") },
             { ("Ranged/Relic", "#sigils-for-unholy-death-knight-dps") },
-        };
-
-    public override string Phase2Url => "dps-bis-gear-pve-phase-2";
-    public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-weapons-for-unholy-death-knight-dps-phase-2") },
-            { ("Off Hand", "#off-hand-weapons-for-unholy-death-knight-dps-phase-2") },
-            { ("Ranged/Relic", "#sigils-for-unholy-death-knight-dps-phase-2") },
-        };
-
-    public override string Phase3Url => "dps-bis-gear-pve-phase-3";
-    public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-weapons-for-unholy-death-knight-dps-phase-3") },
-            { ("Off Hand", "#off-hand-weapons-for-unholy-death-knight-dps-phase-3") },
-            { ("Ranged/Relic", "#sigils-for-unholy-death-knight-dps-phase-3") },
-        };
-
-    public override string Phase4Url => "dps-bis-gear-pve-phase-4";
-    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-weapons-for-unholy-death-knight-dps-phase-4") },
-            { ("Off Hand", "#off-hand-weapons-for-unholy-death-knight-dps-phase-4") },
-            { ("Ranged/Relic", "#sigils-for-unholy-death-knight-dps-phase-4") },
-        };
-
-    public override string Phase5Url => "dps-bis-gear-pve-phase-5";
-    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#main-hand-weapons-for-unholy-death-knight-dps-phase-5") },
-            { ("Off Hand", "#off-hand-weapons-for-unholy-death-knight-dps-phase-5") },
-            { ("Ranged/Relic", "#sigils-for-unholy-death-knight-dps-phase-5") },
-        };
-
-    public override string PrePatchUrl => "dps-bis-gear-pve";
-    public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
-        {
-            { ("Neck", "#neck-for-unholy-death-knight-dps") },
-            { ("Two Hand", "h3#weapons") },
         };
 
     public override string GemsEnchantsUrl => "dps-enchants-gems-pve";

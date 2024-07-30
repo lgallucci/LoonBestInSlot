@@ -29,8 +29,8 @@ internal class ShamanRestorationMapping : SpecMapping
             { ("Ranged/Relic", "#relics-for-restoration-shaman-healer") }
         };
 
-    public override string Phase1Url => "healer-bis-gear-pve";
-    public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
+    public override string CurrentPhaseUrl => "healer-bis-gear-pve";
+    public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-restoration-shaman-healer") },
             { ("Shoulder", "#shoulders-for-restoration-shaman-healer") },
@@ -49,47 +49,7 @@ internal class ShamanRestorationMapping : SpecMapping
             { ("Off Hand", "#off-hands-for-restoration-shaman-healer") },
             { ("Ranged/Relic", "#relics-for-restoration-shaman-healer") }
         };
-
-    public override string Phase2Url => "healer-bis-gear-pve-phase-2";
-    public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#weapons-for-restoration-shaman-healer-in-phase-2") },
-            { ("Off Hand", "#shields-off-hands-for-restoration-shaman-healer-in-phase-2") },
-            { ("Ranged/Relic", "#totems-for-restoration-shaman-healer-in-phase-2") }
-        };
-
-    public override string Phase3Url => "healer-bis-gear-pve-phase-3";
-    public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#weapons-for-restoration-shaman-healer-in-phase-3") },
-            { ("Off Hand", "#shields-off-hands-for-restoration-shaman-healer-in-phase-3") },
-            { ("Ranged/Relic", "#totems-for-restoration-shaman-healer-in-phase-3") }
-        };
-
-    public override string Phase4Url => "healer-bis-gear-pve-phase-4";
-    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#weapons-for-restoration-shaman-healer-in-phase-5") },
-            { ("Off Hand", "#shields-off-hands-for-restoration-shaman-healer-in-phase-5") },
-            { ("Ranged/Relic", "#totems-for-restoration-shaman-healer-in-phase-5") }
-        };
-
-    public override string Phase5Url => "healer-bis-gear-pve-phase-5";
-    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "#weapons-for-restoration-shaman-healer-in-phase-5") },
-            { ("Off Hand", "#shields-off-hands-for-restoration-shaman-healer-in-phase-5") },
-            { ("Ranged/Relic", "#totems-for-restoration-shaman-healer-in-phase-5") }
-        };
         
-    public override string PrePatchUrl => "healer-bis-gear-pve";
-    public override List<(string, GuideMapping)> PrePatch => new List<(string, GuideMapping)>
-    {
-        { ("Main Hand", "#weapons-for-restoration-shaman-healer-in-pre-patch") },
-        { ("Off Hand", "#shields-off-hands-for-restoration-shaman-healer-in-pre-patch") },
-        { ("Ranged/Relic", "#totems-for-restoration-shaman-healer-in-pre-patch") },
-    };
-
     public override string GemsEnchantsUrl => "healer-enchants-gems-pve";
     public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>
     {
