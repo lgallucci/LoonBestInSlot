@@ -1,5 +1,8 @@
 local spec0 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "0")
 local spec1 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "4")
 
 LBIS:AddGem(spec0, "68780", "3", "True") --Burning Shadowspirit Diamond
 LBIS:AddGem(spec0, "59496", "3", "False") --Sparkling Cogwheel

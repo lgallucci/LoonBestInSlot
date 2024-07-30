@@ -1,5 +1,8 @@
 local spec0 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "0")
 local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "4")
 
 LBIS:AddGem(spec0, "52293", "3", "True") --Eternal Shadowspirit Diamond
 LBIS:AddGem(spec1, "52294", "3", "True") --Austere Shadowspirit Diamond

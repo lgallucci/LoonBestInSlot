@@ -1,5 +1,8 @@
 local spec0 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Frost"], "0")
 local spec1 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Frost"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Frost"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Frost"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Frost"], "4")
 
 LBIS:AddGem(spec0, "68779", "3", "True") --Reverberating Shadowspirit Diamond
 LBIS:AddGem(spec1, "52291", "3", "True") --Chaotic Shadowspirit Diamond

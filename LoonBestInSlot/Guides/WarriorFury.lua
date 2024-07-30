@@ -1,5 +1,8 @@
 local spec0 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "0")
 local spec1 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "4")
 
 LBIS:AddGem(spec0, "68779", "3", "True") --Reverberating Shadowspirit Diamond
 LBIS:AddGem(spec0, "59478", "3", "False") --Smooth Cogwheel

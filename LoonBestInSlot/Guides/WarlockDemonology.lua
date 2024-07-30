@@ -1,5 +1,8 @@
 local spec0 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "0")
 local spec1 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "1")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "2")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "3")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "4")
 
 LBIS:AddGem(spec0, "52291", "3", "True") --Chaotic Shadowspirit Diamond
 LBIS:AddGem(spec0, "68780", "3", "True") --Burning Shadowspirit Diamond
