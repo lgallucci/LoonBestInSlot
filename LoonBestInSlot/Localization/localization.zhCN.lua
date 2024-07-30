@@ -6,6 +6,8 @@ if GetLocale() == "zhCN" then
   LBIS.L["Abyssal Depths"] = "无底海渊";
   LBIS.L["Admiral Ripsnarl"] = "撕心狼将军";
   LBIS.L["Affliction"] = "痛苦";
+  LBIS.L["Ahune"] = "埃霍恩";
+  LBIS.L["Akil'zon"] = "埃基尔松";
 --  LBIS.L["Akma'hat"] = "";
   LBIS.L["Al'Akir"] = "奥拉基尔";
   LBIS.L["Alchemy (500)"] = "炼金术 (500)";
@@ -57,6 +59,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Blackwing Descent (Heroic)"] = "黑翼血环 (英雄)";
 --  LBIS.L["Blazewing"] = "";
   LBIS.L["Blood"] = "鲜血";
+  LBIS.L["Bloodlord Mandokir"] = "血领主曼多基尔";
 --  LBIS.L["Cat"] = "";
   LBIS.L["Chest"] = "胸部";
   LBIS.L["Chimaeron"] = "奇美隆";
@@ -72,6 +75,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Cult Alchemist"] = "";
 --  LBIS.L["Cultist Shard Watcher"] = "";
   LBIS.L["Custom"] = "自定义";
+  LBIS.L["Daakara"] = "达卡拉";
   LBIS.L["Dalaran"] = "达拉然";
 --  LBIS.L["Dark Assassins"] = "";
 --  LBIS.L["Darkmoon Earthquake Deck"] = "";
@@ -134,22 +138,28 @@ if GetLocale() == "zhCN" then
   LBIS.L["General Umbriss"] = "乌比斯将军";
   LBIS.L["Glubtok"] = "格拉布托克";
   LBIS.L["Grand Vizier Ertan"] = "大宰相埃尔坦";
+  LBIS.L["Gri'lek"] = "格里雷克";
   LBIS.L["Grim Batol"] = "格瑞姆巴托";
   LBIS.L["Grim Batol (Heroic)"] = "格瑞姆巴托 (英雄)";
   LBIS.L["Grim Batol (Normal)"] = "格瑞姆巴托 (正常)";
   LBIS.L["Guardians of Hyjal"] = "海加尔守护者";
   LBIS.L["Guardians of Hyjal (Revered)"] = "海加尔守护者 (崇敬)";
+  LBIS.L["Halazzi"] = "哈尔拉兹";
   LBIS.L["Halfus Wyrmbreaker"] = "哈尔弗斯·碎龙者";
   LBIS.L["Halls of Origination"] = "起源大厅";
   LBIS.L["Halls of Origination (Heroic)"] = "起源大厅 (英雄)";
   LBIS.L["Halls of Origination (Normal)"] = "起源大厅 (正常)";
   LBIS.L["Hands"] = "手";
 --  LBIS.L["Harrison Jones and the Temple of Uldum"] = "";
+  LBIS.L["Hazza'rah"] = "哈扎拉尔";
   LBIS.L["Head"] = "头部";
   LBIS.L["Helix Gearbreaker"] = "赫利克斯·破甲";
   LBIS.L["Hellscream's Reach"] = "地狱咆哮近卫军";
+  LBIS.L["Hex Lord Malacrass"] = "妖术领主玛拉卡斯";
 --  LBIS.L["Hide Obsolete Items"] = "";
+  LBIS.L["High Priest Venoxis"] = "高阶祭司温诺希斯";
   LBIS.L["High Priestess Azil"] = "高阶女祭司艾苏尔";
+  LBIS.L["High Priestess Kilnara"] = "高阶祭司基尔娜拉";
   LBIS.L["High Prophet Barim"] = "高阶预言者巴林姆";
   LBIS.L["Holy"] = "神圣";
   LBIS.L["Honor Points"] = "荣誉点数";
@@ -170,9 +180,11 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Inscription Trainer"] = "";
   LBIS.L["Isiset"] = "伊希斯特";
   LBIS.L["Items"] = "物品";
+  LBIS.L["Jan'alai"] = "加亚莱";
   LBIS.L["Jewelcrafting (525)"] = "珠宝加工 (525)";
 --  LBIS.L["Jewelcrafting Supplies"] = "";
 --  LBIS.L["Jewelcrafting Trainer"] = "";
+  LBIS.L["Jin'do the Godbreaker"] = "碎神者金度";
 --  LBIS.L["Julak-Doom"] = "";
 --  LBIS.L["Justice Points"] = "";
   LBIS.L["Karsh Steelbender"] = "卡尔什·断钢";
@@ -212,8 +224,10 @@ if GetLocale() == "zhCN" then
   LBIS.L["Main Hand~Two Hand"] = "主手~双手";
   LBIS.L["Maloriak"] = "马洛拉克";
   LBIS.L["Marksmanship"] = "射击";
+  LBIS.L["Midsummer Festival"] = "仲夏火焰节";
   LBIS.L["Mindbender Ghur'sha"] = "蛊心魔古厄夏";
   LBIS.L["Mount Hyjal"] = "海加尔山";
+  LBIS.L["Nalorakk"] = "纳洛拉克";
 --  LBIS.L["Narkrall, The Drake-Tamer"] = "";
   LBIS.L["Neck"] = "颈部";
   LBIS.L["Nefarian"] = "奈法利安";
@@ -244,6 +258,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Ramkahen"] = "拉穆卡恒";
   LBIS.L["Ramkahen (Revered)"] = "拉穆卡恒 (崇敬)";
   LBIS.L["Ranged/Relic"] = "远程/圣物";
+  LBIS.L["Renataki"] = "雷纳塔基";
   LBIS.L["Reputation"] = "声望";
   LBIS.L["Restoration"] = "恢复";
   LBIS.L["Retribution"] = "惩戒";
@@ -253,6 +268,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Rogue Skill"] = "";
   LBIS.L["Rom'ogg Bonecrusher"] = "摧骨者罗姆欧格";
   LBIS.L["Ruins of Uldum"] = "奥丹姆遗迹";
+--  LBIS.L["Second Timed Chest"] = "";
   LBIS.L["Select"] = "选择";
   LBIS.L["Setesh"] = "塞特斯";
   LBIS.L["Settings"] = "选项";
@@ -316,6 +332,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Theralion"] = "瑟纳利昂";
   LBIS.L["Therazane"] = "塞拉赞恩";
   LBIS.L["Therazane (Exalted)"] = "塞拉赞恩 (崇拜)";
+--  LBIS.L["Third Timed Chest"] = "";
   LBIS.L["Throne of the Four Winds"] = "风神王座";
   LBIS.L["Throne of the Four Winds (Heroic)"] = "风神王座 (英雄)";
   LBIS.L["Throne of the Tides"] = "潮汐王座";
@@ -343,4 +360,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["World Drop (Pickpocket)"] = "";
   LBIS.L["Wrist"] = "手腕";
 --  LBIS.L["Xariona"] = "";
+  LBIS.L["Zanzil"] = "赞吉尔";
+  LBIS.L["Zul'Aman"] = "祖阿曼";
+  LBIS.L["Zul'Gurub"] = "祖尔格拉布";
 end

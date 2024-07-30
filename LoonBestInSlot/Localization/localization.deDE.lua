@@ -6,6 +6,8 @@ if GetLocale() == "deDE" then
   LBIS.L["Abyssal Depths"] = "Abyssische Tiefen";
   LBIS.L["Admiral Ripsnarl"] = "Admiral Knurrreißer";
   LBIS.L["Affliction"] = "Gebrechen";
+  LBIS.L["Ahune"] = "Ahune";
+  LBIS.L["Akil'zon"] = "Akil'zon";
 --  LBIS.L["Akma'hat"] = "";
   LBIS.L["Al'Akir"] = "Al'Akir";
   LBIS.L["Alchemy (500)"] = "Alchemie (500)";
@@ -57,6 +59,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Blackwing Descent (Heroic)"] = "Der Pechschwingenabstieg (Heroisch)";
 --  LBIS.L["Blazewing"] = "";
   LBIS.L["Blood"] = "Blut";
+  LBIS.L["Bloodlord Mandokir"] = "Blutfürst Mandokir";
   LBIS.L["Cat"] = "Katze";
   LBIS.L["Chest"] = "Brust";
   LBIS.L["Chimaeron"] = "Schimaeron";
@@ -72,6 +75,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Cult Alchemist"] = "";
 --  LBIS.L["Cultist Shard Watcher"] = "";
   LBIS.L["Custom"] = "Benutzerdefiniert";
+  LBIS.L["Daakara"] = "Daakara";
   LBIS.L["Dalaran"] = "Dalaran";
 --  LBIS.L["Dark Assassins"] = "";
 --  LBIS.L["Darkmoon Earthquake Deck"] = "";
@@ -134,22 +138,28 @@ if GetLocale() == "deDE" then
   LBIS.L["General Umbriss"] = "General Umbriss";
   LBIS.L["Glubtok"] = "Glubtok";
   LBIS.L["Grand Vizier Ertan"] = "Großwesir Ertan";
+  LBIS.L["Gri'lek"] = "Gri'lek";
   LBIS.L["Grim Batol"] = "Grim Batol";
   LBIS.L["Grim Batol (Heroic)"] = "Grim Batol (Heroisch)";
   LBIS.L["Grim Batol (Normal)"] = "Grim Batol (Normal)";
   LBIS.L["Guardians of Hyjal"] = "Wächter des Hyjal";
   LBIS.L["Guardians of Hyjal (Revered)"] = "Wächter des Hyjal (Respektvoll)";
+  LBIS.L["Halazzi"] = "Halazzi";
   LBIS.L["Halfus Wyrmbreaker"] = "Halfus Wyrmbrecher";
   LBIS.L["Halls of Origination"] = "Die Hallen des Ursprungs";
   LBIS.L["Halls of Origination (Heroic)"] = "Die Hallen des Ursprungs (Heroisch)";
   LBIS.L["Halls of Origination (Normal)"] = "Die Hallen des Ursprungs (Normal)";
   LBIS.L["Hands"] = "Hände";
 --  LBIS.L["Harrison Jones and the Temple of Uldum"] = "";
+  LBIS.L["Hazza'rah"] = "Hazza'rah";
   LBIS.L["Head"] = "Kopf";
   LBIS.L["Helix Gearbreaker"] = "Helix Ritzelbrecher";
   LBIS.L["Hellscream's Reach"] = "Höllschreis Hand";
+  LBIS.L["Hex Lord Malacrass"] = "Hexlord Malacrass";
 --  LBIS.L["Hide Obsolete Items"] = "";
+  LBIS.L["High Priest Venoxis"] = "Hohepriester Venoxis";
   LBIS.L["High Priestess Azil"] = "Hohepriesterin Azil";
+  LBIS.L["High Priestess Kilnara"] = "Hohepriesterin Kilnara";
   LBIS.L["High Prophet Barim"] = "Hochprophet Barim";
   LBIS.L["Holy"] = "Heilig";
   LBIS.L["Honor Points"] = "Ehrenpunkte";
@@ -170,9 +180,11 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Inscription Trainer"] = "";
   LBIS.L["Isiset"] = "Isiset";
   LBIS.L["Items"] = "Gegenstände";
+  LBIS.L["Jan'alai"] = "Jan'alai";
   LBIS.L["Jewelcrafting (525)"] = "Juwelierskunst (525)";
 --  LBIS.L["Jewelcrafting Supplies"] = "";
 --  LBIS.L["Jewelcrafting Trainer"] = "";
+  LBIS.L["Jin'do the Godbreaker"] = "Jin'do der Götterbrecher";
 --  LBIS.L["Julak-Doom"] = "";
 --  LBIS.L["Justice Points"] = "";
   LBIS.L["Karsh Steelbender"] = "Karsh Stahlbieger";
@@ -212,8 +224,10 @@ if GetLocale() == "deDE" then
   LBIS.L["Main Hand~Two Hand"] = "Waffenhand~Zweihändig";
   LBIS.L["Maloriak"] = "Maloriak";
   LBIS.L["Marksmanship"] = "Treffsicherheit";
+  LBIS.L["Midsummer Festival"] = "Sonnenwendfest";
   LBIS.L["Mindbender Ghur'sha"] = "Geistbeuger Ghur'sha";
   LBIS.L["Mount Hyjal"] = "Hyjal";
+  LBIS.L["Nalorakk"] = "Nalorakk";
 --  LBIS.L["Narkrall, The Drake-Tamer"] = "";
   LBIS.L["Neck"] = "Hals";
   LBIS.L["Nefarian"] = "Nefarian";
@@ -244,6 +258,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Ramkahen"] = "Ramkahen";
   LBIS.L["Ramkahen (Revered)"] = "Ramkahen (Respektvoll)";
   LBIS.L["Ranged/Relic"] = "Distanz/Relikt";
+  LBIS.L["Renataki"] = "Renataki";
   LBIS.L["Reputation"] = "Ruf";
   LBIS.L["Restoration"] = "Wiederherstellung";
   LBIS.L["Retribution"] = "Vergeltung";
@@ -253,6 +268,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Rogue Skill"] = "";
   LBIS.L["Rom'ogg Bonecrusher"] = "Rom'ogg Knochenbrecher";
   LBIS.L["Ruins of Uldum"] = "Ruinen von Uldum";
+--  LBIS.L["Second Timed Chest"] = "";
   LBIS.L["Select"] = "Auswählen";
   LBIS.L["Setesh"] = "Setesh";
   LBIS.L["Settings"] = "Einstellungen";
@@ -316,6 +332,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Theralion"] = "Theralion";
   LBIS.L["Therazane"] = "Therazane";
   LBIS.L["Therazane (Exalted)"] = "Therazane (Ehrfürchtig)";
+--  LBIS.L["Third Timed Chest"] = "";
   LBIS.L["Throne of the Four Winds"] = "Thron der Vier Winde";
   LBIS.L["Throne of the Four Winds (Heroic)"] = "Thron der Vier Winde (Heroisch)";
   LBIS.L["Throne of the Tides"] = "Thron der Gezeiten";
@@ -343,4 +360,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["World Drop (Pickpocket)"] = "Welt Drop";
   LBIS.L["Wrist"] = "Handgelenke";
 --  LBIS.L["Xariona"] = "";
+  LBIS.L["Zanzil"] = "Zanzil";
+  LBIS.L["Zul'Aman"] = "Zul'Aman";
+  LBIS.L["Zul'Gurub"] = "Zul'Gurub";
 end
