@@ -174,27 +174,23 @@ LBIS:AddItem(spec2, "59449", LBIS.L["Head"], "Alt") --Lightweight Bio-Optic Kill
 LBIS:AddItem(spec2, "60243", LBIS.L["Head"], "Alt") --Firelord's Hood
 LBIS:AddItem(spec2, "65213", LBIS.L["Shoulder"], "BIS") --Firelord's Mantle
 LBIS:AddItem(spec2, "60246", LBIS.L["Shoulder"], "Alt") --Firelord's Mantle
-LBIS:AddItem(spec2, "56399", LBIS.L["Shoulder"], "Alt") --Mantle of Master Cho
+LBIS:AddItem(spec2, "69560", LBIS.L["Shoulder"], "Alt") --Jan'alai's Spaulders
 LBIS:AddItem(spec2, "60232", LBIS.L["Back"], "BIS") --Shroud of Endless Grief
 LBIS:AddItem(spec2, "69881", LBIS.L["Back"], "Alt") --Planetary Drape
 LBIS:AddItem(spec2, "65018", LBIS.L["Back"], "Alt") --Shadow of Dread
 LBIS:AddItem(spec2, "58193", LBIS.L["Back"], "Alt") --Haunt of Flies
-LBIS:AddItem(spec2, "56371", LBIS.L["Back"], "Alt") --Shadow of Perfect Bliss
 LBIS:AddItem(spec2, "65212", LBIS.L["Chest"], "BIS") --Firelord's Robes
 LBIS:AddItem(spec2, "60244", LBIS.L["Chest"], "Alt") --Firelord's Robes
-LBIS:AddItem(spec2, "62441", LBIS.L["Chest"], "Alt") --Robes of Orsis
 LBIS:AddItem(spec2, "65138", LBIS.L["Wrist"], "BIS") --Bracers of the Bronze Flight
 LBIS:AddItem(spec2, "60211", LBIS.L["Wrist"], "Alt") --Bracers of the Dark Pool
-LBIS:AddItem(spec2, "56389", LBIS.L["Wrist"], "Alt") --Sand Silk Wristband
+LBIS:AddItem(spec2, "69585", LBIS.L["Wrist"], "Alt") --Wristwraps of Madness
 LBIS:AddItem(spec2, "65209", LBIS.L["Hands"], "BIS") --Firelord's Gloves
 LBIS:AddItem(spec2, "60247", LBIS.L["Hands"], "Alt") --Firelord's Gloves
-LBIS:AddItem(spec2, "62364", LBIS.L["Hands"], "Alt") --Flamebloom Gloves
 LBIS:AddItem(spec2, "65034", LBIS.L["Waist"], "BIS") --Belt of Arcane Storms
 LBIS:AddItem(spec2, "63498", LBIS.L["Waist"], "Alt") --Soul Breath Belt
 LBIS:AddItem(spec2, "54503", LBIS.L["Waist"], "Alt") --Dreamless Belt
 LBIS:AddItem(spec2, "65211", LBIS.L["Legs"], "BIS") --Firelord's Leggings
 LBIS:AddItem(spec2, "60245", LBIS.L["Legs"], "Alt") --Firelord's Leggings
-LBIS:AddItem(spec2, "54505", LBIS.L["Legs"], "Alt") --Breeches of Mended Nightmares
 LBIS:AddItem(spec2, "65069", LBIS.L["Feet"], "BIS") --Quickstep Galoshes
 LBIS:AddItem(spec2, "62450", LBIS.L["Feet"], "Alt") --Desert Walker Sandals
 LBIS:AddItem(spec2, "69882", LBIS.L["Neck"], "BIS") --Planetary Amulet
@@ -209,11 +205,11 @@ LBIS:AddItem(spec2, "58183", LBIS.L["Trinket"], "Alt") --Soul Casket
 LBIS:AddItem(spec2, "68132", LBIS.L["Main Hand"], "BIS") --Stormwake, the Tempest's Reach
 LBIS:AddItem(spec2, "65091", LBIS.L["Main Hand"], "Alt") --Blade of the Witching Hour
 LBIS:AddItem(spec2, "65041", LBIS.L["Main Hand"], "Alt") --Incineratus
-LBIS:AddItem(spec2, "55064", LBIS.L["Main Hand"], "Alt") --Elementium Spellblade
+LBIS:AddItem(spec2, "69591", LBIS.L["Main Hand"], "Alt") --Voodoo Hexblade
+LBIS:AddItem(spec2, "69624", LBIS.L["Main Hand"], "Alt") --Legacy of Arlokk
 LBIS:AddItem(spec2, "65133", LBIS.L["Off Hand"], "BIS") --Book of Binding Will
 LBIS:AddItem(spec2, "56306", LBIS.L["Off Hand"], "Alt") --Beauty's Favorite Bone
 LBIS:AddItem(spec2, "57923", LBIS.L["Off Hand"], "Alt") --Hermit's Lamp
 LBIS:AddItem(spec2, "64489", LBIS.L["Two Hand"], "BIS") --Staff of Sorcerer-Thane Thaurissan
 LBIS:AddItem(spec2, "59460", LBIS.L["Ranged/Relic"], "BIS") --Theresa's Booklight
-LBIS:AddItem(spec2, "56296", LBIS.L["Ranged/Relic"], "Alt") --Corla's Baton
-LBIS:AddItem(spec2, "65172", LBIS.L["Ranged/Relic"], "Alt") --Cookie's Stirring Rod
+LBIS:AddItem(spec2, "69607", LBIS.L["Ranged/Relic"], "Alt") --Touch of Discord
