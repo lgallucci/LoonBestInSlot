@@ -62,8 +62,6 @@ public static class Common
 
     internal static async Task<IHtmlDocument?> LoadFromWebPage(string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)
     {
-        IHtmlDocument? content;
-
         if (_browser == null) {
             await CreateBrowser();
         }

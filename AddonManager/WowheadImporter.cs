@@ -256,7 +256,6 @@ public static class WowheadImporter
     private static string ImportGemsEnchants(ClassGuideMapping classGuideMapping, IHtmlDocument doc, Action<string> logFunc)
     {
          var sb = new StringBuilder();
-        Dictionary<int, ItemSpec> items;
         try
         {
             var className = $"{classGuideMapping.ClassName.Replace(" ", "")}{classGuideMapping.SpecName}";

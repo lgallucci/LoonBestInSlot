@@ -256,7 +256,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
             (table, slot, htmlId) =>
             {
                 bool first = true;
-                LoopThroughTable(table, async (tableRow, itemChild, itemOrderIndex, isTierList) =>
+                LoopThroughTable(table, (tableRow, itemChild, itemOrderIndex, isTierList) =>
                 {
                     string htmlBisText = string.Empty, rankText = string.Empty;
                     if (isTierList)
@@ -720,7 +720,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                         //try to find enchant.
                         if (nextSibling is IHtmlAnchorElement && foundEnchantText)
                         {
-                            foundEnchant(nextSibling as IHtmlAnchorElement, guideMapping.Key);
+                            foundEnchant((IHtmlAnchorElement)nextSibling, guideMapping.Key);
                         }
 
                         if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*enchant").Success ||

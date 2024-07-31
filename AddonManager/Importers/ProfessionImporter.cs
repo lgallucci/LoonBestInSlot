@@ -143,9 +143,11 @@ public class ProfessionImporter : LootImporter
 
     private void FindAllAnchors(IElement element, Action<IHtmlAnchorElement> anchorAction)
     {
-        IHtmlAnchorElement? result = null;
+        if (element == null)
+            return;
+
         if (element is IHtmlAnchorElement && element.ClassName != "toggler-off")
-            anchorAction(element as IHtmlAnchorElement);
+            anchorAction((IHtmlAnchorElement)element);
         else
         {
             foreach (var child in element.Children)
