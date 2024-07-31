@@ -608,7 +608,11 @@
       "Zanzil": "Zanzil",
       "Zul'Aman": "Zul'Aman",
       "Zul'Gurub": "Zul'Gurub",
-      "Daakara": "Daakara"
+      "Daakara": "Daakara",
+      "Akil'zon": "Akil'zon",
+      "Halazzi": "Halazzi",
+      "Jan'alai": "Jan'alai",
+      "Nalorakk": "Nalorakk"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -1141,7 +1145,11 @@
       "Midsummer Festival": "Festival de Fuego del Solsticio de Verano",
       "Renataki": "Renataki",
       "Zul'Aman": "Zul'Aman",
-      "Zul'Gurub": "Zul'Gurub"
+      "Zul'Gurub": "Zul'Gurub",
+      "Akil'zon": "Akil'zon",
+      "Halazzi": "Halazzi",
+      "Jan'alai": "Jan'alai",
+      "Nalorakk": "Nalorakk"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -1806,7 +1814,11 @@
       "Zanzil": "Zanzil",
       "Zul'Aman": "Zul'Aman",
       "Zul'Gurub": "Zul'Gurub",
-      "Daakara": "Daakara"
+      "Daakara": "Daakara",
+      "Akil'zon": "Akil'zon",
+      "Halazzi": "Halazzi",
+      "Jan'alai": "Jan'alai",
+      "Nalorakk": "Nalorakk"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -2406,7 +2418,11 @@
       "Zanzil": "Zanzil",
       "Zul'Aman": "Zul'Aman",
       "Zul'Gurub": "Zul'Gurub",
-      "Daakara": "Daakara"
+      "Daakara": "Daakara",
+      "Akil'zon": "Akil'zon",
+      "Halazzi": "Halazzi",
+      "Jan'alai": "Jan'alai",
+      "Nalorakk": "Nalorakk"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -3002,7 +3018,11 @@
       "Zanzil": "Занзил",
       "Zul'Aman": "Зул'Аман",
       "Zul'Gurub": "Зул'Гуруб",
-      "Daakara": "Даакара"
+      "Daakara": "Даакара",
+      "Akil'zon": "Акил'зон",
+      "Halazzi": "Халаззи",
+      "Jan'alai": "Джан'алай",
+      "Nalorakk": "Налоракк"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -3598,7 +3618,11 @@
       "Zanzil": "赞吉尔",
       "Zul'Aman": "祖阿曼",
       "Zul'Gurub": "祖尔格拉布",
-      "Daakara": "达卡拉"
+      "Daakara": "达卡拉",
+      "Akil'zon": "埃基尔松",
+      "Halazzi": "哈尔拉兹",
+      "Jan'alai": "加亚莱",
+      "Nalorakk": "纳洛拉克"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -4287,7 +4311,11 @@
       "Zanzil": "잔질",
       "Zul'Aman": "줄아만",
       "Zul'Gurub": "줄구룹",
-      "Daakara": "다카라"
+      "Daakara": "다카라",
+      "Akil'zon": "아킬존 <독수리의 화신>",
+      "Halazzi": "할라지 <스라소니의 화신>",
+      "Jan'alai": "잔알라이 <용매의 화신>",
+      "Nalorakk": "날로라크 <곰의 화신>"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -4882,7 +4910,11 @@
       "Zanzil": "贊吉爾",
       "Zul'Aman": "祖阿曼",
       "Zul'Gurub": "祖爾格拉布",
-      "Daakara": "達卡拉"
+      "Daakara": "達卡拉",
+      "Akil'zon": "阿奇爾森",
+      "Halazzi": "哈拉齊",
+      "Jan'alai": "賈納雷",
+      "Nalorakk": "納羅拉克"
     }
   }
 }
