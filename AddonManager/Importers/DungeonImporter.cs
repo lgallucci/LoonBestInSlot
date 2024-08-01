@@ -9,15 +9,17 @@ public class DungeonImporter : LootImporter
 {
     private Dictionary<string, string> dungeonUriList = new Dictionary<string, string>
         {
-            {@"https://www.wowhead.com/cata/guide/dungeons/blackrock-caverns-loot-guide", "Blackrock Caverns"},
-            {@"https://www.wowhead.com/cata/guide/dungeons/deadmines-loot-guide", "The Deadmines"},
-            {@"https://www.wowhead.com/cata/guide/dungeons/grim-batol-loot-guide", "Grim Batol"},
-            {@"https://www.wowhead.com/cata/guide/dungeons/halls-of-origination-loot-guide", "Halls of Origination"},
-            {@"https://www.wowhead.com/cata/guide/dungeons/lost-city-of-tolvir-loot-guide", "Lost City of the Tol'vir"},
-            {@"https://www.wowhead.com/cata/guide/dungeons/shadowfang-keep-loot-guide", "Shadowfang Keep"},
-            {@"https://www.wowhead.com/cata/guide/dungeons/the-stonecore-loot-guide", "The Stonecore"},
-            {@"https://www.wowhead.com/cata/guide/dungeons/throne-of-the-tides-loot-guide", "Throne of the Tides"},
-            {@"https://www.wowhead.com/cata/guide/dungeons/vortex-pinnacle-loot-guide", "Vortex Pinnacle"},
+            // {@"https://www.wowhead.com/cata/guide/dungeons/blackrock-caverns-loot-guide", "Blackrock Caverns"},
+            // {@"https://www.wowhead.com/cata/guide/dungeons/deadmines-loot-guide", "The Deadmines"},
+            // {@"https://www.wowhead.com/cata/guide/dungeons/grim-batol-loot-guide", "Grim Batol"},
+            // {@"https://www.wowhead.com/cata/guide/dungeons/halls-of-origination-loot-guide", "Halls of Origination"},
+            // {@"https://www.wowhead.com/cata/guide/dungeons/lost-city-of-tolvir-loot-guide", "Lost City of the Tol'vir"},
+            // {@"https://www.wowhead.com/cata/guide/dungeons/shadowfang-keep-loot-guide", "Shadowfang Keep"},
+            // {@"https://www.wowhead.com/cata/guide/dungeons/the-stonecore-loot-guide", "The Stonecore"},
+            // {@"https://www.wowhead.com/cata/guide/dungeons/throne-of-the-tides-loot-guide", "Throne of the Tides"},
+            // {@"https://www.wowhead.com/cata/guide/dungeons/vortex-pinnacle-loot-guide", "Vortex Pinnacle"},
+            { @"https://www.wowhead.com/cata/guide/dungeons/zulaman-loot", "Zul'Aman" },
+            { @"https://www.wowhead.com/cata/guide/dungeons/zulgurub-loot", "Zul'Gurub" },
         };
 
     public DungeonImporter(CancellationToken cancellationToken) : base(cancellationToken)

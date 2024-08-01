@@ -77,6 +77,7 @@ LBIS:AddItem(spec0, "63704", LBIS.L["Chest"], "Alt") --Overly Intelligent Robes
 LBIS:AddItem(spec0, "55998", LBIS.L["Chest"], "Alt") --Robes of Rampant Growth
 LBIS:AddItem(spec0, "54486", LBIS.L["Chest"], "Alt") --Spiritmend Robe
 LBIS:AddItem(spec0, "69567", LBIS.L["Wrist"], "BIS") --Wristwraps of Departed Spirits
+LBIS:AddItem(spec0, "69585", LBIS.L["Wrist"], "Alt") --Wristwraps of Madness
 LBIS:AddItem(spec0, "63437", LBIS.L["Wrist"], "Alt") --Baron Ashbury's Cuffs
 LBIS:AddItem(spec0, "63484", LBIS.L["Wrist"], "Alt") --Armbands of Exiled Architects
 LBIS:AddItem(spec0, "56453", LBIS.L["Wrist"], "Alt") --Crimsonborne Bracers
@@ -159,6 +160,7 @@ LBIS:AddItem(spec0, "65804", LBIS.L["Trinket"], "Alt") --Talisman of Sinister Or
 LBIS:AddItem(spec0, "63839", LBIS.L["Trinket"], "Alt") --Harmlight Token
 LBIS:AddItem(spec0, "55787", LBIS.L["Trinket"], "Alt") --Witching Hourglass
 LBIS:AddItem(spec0, "69581", LBIS.L["Main Hand"], "BIS") --Amani Scepter of Rites
+LBIS:AddItem(spec0, "69591", LBIS.L["Main Hand"], "Alt") --Voodoo Hexblade
 LBIS:AddItem(spec0, "57872", LBIS.L["Main Hand"], "Alt") --Scepter of Power
 LBIS:AddItem(spec0, "56312", LBIS.L["Main Hand"], "Alt") --Torturer's Mercy
 LBIS:AddItem(spec0, "56357", LBIS.L["Main Hand"], "Alt") --Biting Wind

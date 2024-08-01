@@ -189,6 +189,7 @@ LBIS:AddItem(spec2, "58181", LBIS.L["Trinket"], "Alt") --Fluid Death
 LBIS:AddItem(spec2, "62468", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
 LBIS:AddItem(spec2, "65139", LBIS.L["Two Hand"], "BIS") --Malevolence
 LBIS:AddItem(spec2, "59474", LBIS.L["Two Hand"], "Alt") --Malevolence
+LBIS:AddItem(spec2, "69843", LBIS.L["Two Hand"], "Alt") --Mobus's Dripping Halberd
 LBIS:AddItem(spec2, "61340", LBIS.L["Two Hand"], "Alt") --Vicious Gladiator's Pike
 LBIS:AddItem(spec2, "69626", LBIS.L["Two Hand"], "Alt") --Jin'do's Verdict
 LBIS:AddItem(spec2, "64671", LBIS.L["Ranged/Relic"], "BIS") --Relic of Golganneth
