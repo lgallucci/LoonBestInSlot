@@ -36,6 +36,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Baron Silverlaine"] = "席瓦莱恩男爵";
 --  LBIS.L["Battle of Life and Death"] = "";
 --  LBIS.L["Bear"] = "";
+--  LBIS.L["Bear Timed Chest"] = "";
   LBIS.L["Beast Mastery"] = "野兽控制";
   LBIS.L["Beauty"] = "如花";
 --  LBIS.L["BIS"] = "";
@@ -91,6 +92,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Discipline"] = "戒律";
 --  LBIS.L["Doing It Like a Dunwald"] = "";
 --  LBIS.L["Doing it the Hard Way"] = "";
+--  LBIS.L["Dragonhawk Timed Chest"] = "";
   LBIS.L["Dragonmaw/Wildhammer Clan (Revered)"] = "龙喉氏族/蛮锤部族 (崇敬)";
   LBIS.L["Drahga Shadowburner"] = "达加·燃影者";
 --  LBIS.L["Drahga Shadowburner<Twilight's Hammer Courier>"] = "";
@@ -226,6 +228,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Marksmanship"] = "射击";
   LBIS.L["Midsummer Festival"] = "仲夏火焰节";
   LBIS.L["Mindbender Ghur'sha"] = "蛊心魔古厄夏";
+--  LBIS.L["Mobus"] = "";
   LBIS.L["Mount Hyjal"] = "海加尔山";
   LBIS.L["Nalorakk"] = "纳洛拉克";
 --  LBIS.L["Narkrall, The Drake-Tamer"] = "";
@@ -268,7 +271,6 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Rogue Skill"] = "";
   LBIS.L["Rom'ogg Bonecrusher"] = "摧骨者罗姆欧格";
   LBIS.L["Ruins of Uldum"] = "奥丹姆遗迹";
---  LBIS.L["Second Timed Chest"] = "";
   LBIS.L["Select"] = "选择";
   LBIS.L["Setesh"] = "塞特斯";
   LBIS.L["Settings"] = "选项";
@@ -322,6 +324,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["The Deadmines (Normal)"] = "死亡矿井 (正常)";
 --  LBIS.L["The Dragonmaw Clan"] = "";
   LBIS.L["The Earthen Ring"] = "大地之环";
+--  LBIS.L["The Hex Lord's Fetish"] = "";
 --  LBIS.L["The Source of Their Power"] = "";
   LBIS.L["The Stonecore"] = "巨石之核";
   LBIS.L["The Stonecore (Heroic)"] = "巨石之核 (英雄)";
@@ -332,7 +335,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Theralion"] = "瑟纳利昂";
   LBIS.L["Therazane"] = "塞拉赞恩";
   LBIS.L["Therazane (Exalted)"] = "塞拉赞恩 (崇拜)";
---  LBIS.L["Third Timed Chest"] = "";
   LBIS.L["Throne of the Four Winds"] = "风神王座";
   LBIS.L["Throne of the Four Winds (Heroic)"] = "风神王座 (英雄)";
   LBIS.L["Throne of the Tides"] = "潮汐王座";

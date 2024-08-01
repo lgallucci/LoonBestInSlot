@@ -36,6 +36,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Baron Silverlaine"] = "Барон Сребролен";
 --  LBIS.L["Battle of Life and Death"] = "";
 --  LBIS.L["Bear"] = "";
+--  LBIS.L["Bear Timed Chest"] = "";
   LBIS.L["Beast Mastery"] = "Чувство зверя";
   LBIS.L["Beauty"] = "Красавица";
 --  LBIS.L["BIS"] = "";
@@ -91,6 +92,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Discipline"] = "Послушание";
 --  LBIS.L["Doing It Like a Dunwald"] = "";
 --  LBIS.L["Doing it the Hard Way"] = "";
+--  LBIS.L["Dragonhawk Timed Chest"] = "";
   LBIS.L["Dragonmaw/Wildhammer Clan (Revered)"] = "Клан Драконьей Пасти/Громового Молота (Почтение)";
   LBIS.L["Drahga Shadowburner"] = "Драгх Горячий Мрак";
 --  LBIS.L["Drahga Shadowburner<Twilight's Hammer Courier>"] = "";
@@ -226,6 +228,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Marksmanship"] = "Стрельба";
   LBIS.L["Midsummer Festival"] = "Огненный солнцеворот";
   LBIS.L["Mindbender Ghur'sha"] = "Подчиняющий разум Гур'ша";
+--  LBIS.L["Mobus"] = "";
   LBIS.L["Mount Hyjal"] = "Гора Хиджал";
   LBIS.L["Nalorakk"] = "Налоракк";
 --  LBIS.L["Narkrall, The Drake-Tamer"] = "";
@@ -268,7 +271,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Rogue Skill"] = "";
   LBIS.L["Rom'ogg Bonecrusher"] = "Ром'огг Костекрушитель";
   LBIS.L["Ruins of Uldum"] = "Руины Ульдума";
---  LBIS.L["Second Timed Chest"] = "";
   LBIS.L["Select"] = "Выбрать";
   LBIS.L["Setesh"] = "Сетеш";
   LBIS.L["Settings"] = "Настройки";
@@ -322,6 +324,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Deadmines (Normal)"] = "Мертвые копи (Норм.)";
 --  LBIS.L["The Dragonmaw Clan"] = "";
   LBIS.L["The Earthen Ring"] = "Служители Земли";
+--  LBIS.L["The Hex Lord's Fetish"] = "";
 --  LBIS.L["The Source of Their Power"] = "";
   LBIS.L["The Stonecore"] = "Каменные Недра";
   LBIS.L["The Stonecore (Heroic)"] = "Каменные Недра (Героический)";
@@ -332,7 +335,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Theralion"] = "Тералион";
   LBIS.L["Therazane"] = "Теразан";
   LBIS.L["Therazane (Exalted)"] = "Теразан (Превознесение)";
---  LBIS.L["Third Timed Chest"] = "";
   LBIS.L["Throne of the Four Winds"] = "Трон Четырех Ветров";
   LBIS.L["Throne of the Four Winds (Heroic)"] = "Трон Четырех Ветров (Героический)";
   LBIS.L["Throne of the Tides"] = "Трон Приливов";

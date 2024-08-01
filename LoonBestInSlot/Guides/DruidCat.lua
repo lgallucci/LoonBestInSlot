@@ -83,14 +83,15 @@ LBIS:AddItem(spec0, "58181", LBIS.L["Trinket"], "BIS") --Fluid Death
 LBIS:AddItem(spec0, "56328", LBIS.L["Trinket"], "BIS") --Key to the Endless Chamber
 LBIS:AddItem(spec0, "62468", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
 LBIS:AddItem(spec0, "56394", LBIS.L["Trinket"], "Alt") --Tia's Grace
-LBIS:AddItem(spec0, "61340", LBIS.L["Two Hand"], "BIS") --Vicious Gladiator's Pike
+LBIS:AddItem(spec0, "69843", LBIS.L["Two Hand"], "BIS") --Mobus's Dripping Halberd
+LBIS:AddItem(spec0, "61340", LBIS.L["Two Hand"], "Alt") --Vicious Gladiator's Pike
 LBIS:AddItem(spec0, "69626", LBIS.L["Two Hand"], "Alt") --Jin'do's Verdict
 LBIS:AddItem(spec0, "55066", LBIS.L["Two Hand"], "Alt") --Elementium Poleaxe
 LBIS:AddItem(spec0, "56343", LBIS.L["Two Hand"], "Alt") --Darkling Staff
 LBIS:AddItem(spec0, "56382", LBIS.L["Two Hand"], "Alt") --Seliza's Spear
 LBIS:AddItem(spec0, "64671", LBIS.L["Ranged/Relic"], "BIS") --Relic of Golganneth
 LBIS:AddItem(spec0, "56316", LBIS.L["Ranged/Relic"], "Alt") --Sandshift Relic
-LBIS:AddItem(spec0, "63460", LBIS.L["Ranged/Relic"], "Alt") --Relic of Arathor
+LBIS:AddItem(spec0, "62245", LBIS.L["Ranged/Relic"], "Alt") --Silver Inlaid Leaf
 
 LBIS:AddItem(spec1, "65190", LBIS.L["Head"], "BIS") --Stormrider's Headpiece
 LBIS:AddItem(spec1, "65129", LBIS.L["Head"], "Alt") --Membrane of C'Thun

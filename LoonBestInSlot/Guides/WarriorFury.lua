@@ -42,6 +42,7 @@ LBIS:AddItem(spec0, "56278", LBIS.L["Head"], "BIS") --Anomuran Helm
 LBIS:AddItem(spec0, "63478", LBIS.L["Head"], "Alt") --Stonemason's Helm
 LBIS:AddItem(spec0, "58098", LBIS.L["Head"], "Alt") --Helm of Easeful Death
 LBIS:AddItem(spec0, "58100", LBIS.L["Shoulder"], "BIS") --Pauldrons of the High Requiem
+LBIS:AddItem(spec0, "69582", LBIS.L["Shoulder"], "BIS") --Skullpiercer Pauldrons
 LBIS:AddItem(spec0, "56318", LBIS.L["Shoulder"], "BIS") --Raz's Pauldrons
 LBIS:AddItem(spec0, "63470", LBIS.L["Shoulder"], "Alt") --Missing Diplomat's Pauldrons
 LBIS:AddItem(spec0, "67140", LBIS.L["Back"], "BIS") --Drape of Inimitable Fate
@@ -50,7 +51,8 @@ LBIS:AddItem(spec0, "63467", LBIS.L["Back"], "Alt") --Shadow of the Past
 LBIS:AddItem(spec0, "55060", LBIS.L["Chest"], "BIS") --Elementium Deathplate
 LBIS:AddItem(spec0, "58096", LBIS.L["Chest"], "Alt") --Breastplate of Raging Fury
 LBIS:AddItem(spec0, "63458", LBIS.L["Chest"], "Alt") --Lord Walden's Breastplate
-LBIS:AddItem(spec0, "56301", LBIS.L["Wrist"], "BIS") --Bracers of Cooled Anger
+LBIS:AddItem(spec0, "69608", LBIS.L["Wrist"], "BIS") --Deathcharged Wristguards
+LBIS:AddItem(spec0, "56301", LBIS.L["Wrist"], "Alt") --Bracers of Cooled Anger
 LBIS:AddItem(spec0, "57870", LBIS.L["Wrist"], "Alt") --Alpha Bracers
 LBIS:AddItem(spec0, "67238", LBIS.L["Wrist"], "Alt") --Terborus's Rotating Bands
 LBIS:AddItem(spec0, "58099", LBIS.L["Hands"], "BIS") --Reaping Gauntlets
@@ -71,6 +73,7 @@ LBIS:AddItem(spec0, "56421", LBIS.L["Neck"], "Alt") --Seedling Pod
 LBIS:AddItem(spec0, "63438", LBIS.L["Neck"], "Alt") --Baroness Silverlaine's Locket
 LBIS:AddItem(spec0, "67139", LBIS.L["Ring"], "BIS") --Blauvelt's Family Crest
 LBIS:AddItem(spec0, "58185", LBIS.L["Ring"], "BIS") --Band of Bees
+LBIS:AddItem(spec0, "69802", LBIS.L["Ring"], "BIS") --Band of the Gurubashi Berserker
 LBIS:AddItem(spec0, "56415", LBIS.L["Ring"], "BIS") --Nova Band
 LBIS:AddItem(spec0, "62350", LBIS.L["Ring"], "Alt") --Gorsik's Band of Shattering
 LBIS:AddItem(spec0, "56299", LBIS.L["Ring"], "Alt") --Signet of Transformation
@@ -86,8 +89,10 @@ LBIS:AddItem(spec0, "65170", LBIS.L["Main Hand"], "BIS") --Smite's Reaver
 LBIS:AddItem(spec0, "65171", LBIS.L["Main Hand"], "Alt") --Cookie's Tenderizer
 LBIS:AddItem(spec0, "65166", LBIS.L["Main Hand"], "Alt") --Buzz Saw
 LBIS:AddItem(spec0, "64377", LBIS.L["Two Hand"], "BIS") --Zin'rokh, Destroyer of Worlds
+LBIS:AddItem(spec0, "69592", LBIS.L["Two Hand"], "BIS") --Reforged Trollbane
 LBIS:AddItem(spec0, "56342", LBIS.L["Two Hand"], "Alt") --Sword of the Bottomless Pit
 LBIS:AddItem(spec0, "56456", LBIS.L["Two Hand"], "Alt") --Wild Hammer
+LBIS:AddItem(spec0, "69596", LBIS.L["Ranged/Relic"], "BIS") --Voodoo Hunting Bow
 LBIS:AddItem(spec0, "59367", LBIS.L["Ranged/Relic"], "BIS") --Kickback 5000
 LBIS:AddItem(spec0, "56376", LBIS.L["Ranged/Relic"], "Alt") --Thundercall
 

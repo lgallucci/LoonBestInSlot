@@ -36,6 +36,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Baron Silverlaine"] = "남작 실버레인";
 --  LBIS.L["Battle of Life and Death"] = "";
   LBIS.L["Bear"] = "곰";
+--  LBIS.L["Bear Timed Chest"] = "";
   LBIS.L["Beast Mastery"] = "야수";
   LBIS.L["Beauty"] = "아름이";
   LBIS.L["BIS"] = "BIS";
@@ -91,6 +92,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Discipline"] = "수양";
 --  LBIS.L["Doing It Like a Dunwald"] = "";
 --  LBIS.L["Doing it the Hard Way"] = "";
+--  LBIS.L["Dragonhawk Timed Chest"] = "";
   LBIS.L["Dragonmaw/Wildhammer Clan (Revered)"] = "용아귀 부족/와일드해머 드워프 (매우 우호적)";
   LBIS.L["Drahga Shadowburner"] = "드라가 섀도버너";
 --  LBIS.L["Drahga Shadowburner<Twilight's Hammer Courier>"] = "";
@@ -226,6 +228,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Marksmanship"] = "사격";
   LBIS.L["Midsummer Festival"] = "한여름 축제";
   LBIS.L["Mindbender Ghur'sha"] = "환각술사 구르샤";
+--  LBIS.L["Mobus"] = "";
   LBIS.L["Mount Hyjal"] = "하이잘 산";
   LBIS.L["Nalorakk"] = "날로라크 <곰의 화신>";
 --  LBIS.L["Narkrall, The Drake-Tamer"] = "";
@@ -268,7 +271,6 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Rogue Skill"] = "";
   LBIS.L["Rom'ogg Bonecrusher"] = "롬오그 해골분쇄자";
   LBIS.L["Ruins of Uldum"] = "울둠 폐허";
---  LBIS.L["Second Timed Chest"] = "";
   LBIS.L["Select"] = "선택";
   LBIS.L["Setesh"] = "세테쉬";
   LBIS.L["Settings"] = "설정";
@@ -322,6 +324,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Deadmines (Normal)"] = "죽음의 폐광 (일반)";
 --  LBIS.L["The Dragonmaw Clan"] = "";
   LBIS.L["The Earthen Ring"] = "대지 고리회";
+--  LBIS.L["The Hex Lord's Fetish"] = "";
 --  LBIS.L["The Source of Their Power"] = "";
   LBIS.L["The Stonecore"] = "바위심장부";
   LBIS.L["The Stonecore (Heroic)"] = "바위심장부 (영웅)";
@@ -332,7 +335,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Theralion"] = "테랄리온";
   LBIS.L["Therazane"] = "테라제인";
   LBIS.L["Therazane (Exalted)"] = "테라제인 (확고한 동맹)";
---  LBIS.L["Third Timed Chest"] = "";
   LBIS.L["Throne of the Four Winds"] = "네 바람의 왕좌";
   LBIS.L["Throne of the Four Winds (Heroic)"] = "네 바람의 왕좌 (영웅)";
   LBIS.L["Throne of the Tides"] = "파도의 왕좌";
