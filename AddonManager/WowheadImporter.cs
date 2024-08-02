@@ -133,14 +133,17 @@ public static class WowheadImporter
 
         var doc = await Common.LoadFromWebPage(classGuide.WebAddress, logFunc, cancelToken, false);
 
-        if (classGuide.Phase == "GemsEnchants")
-        {
-            return ImportGemsEnchants(classGuide, doc, logFunc);
-        }
-        else
-        {
-            return await ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
-        }
+        if (doc != null)
+            if (classGuide.Phase == "GemsEnchants")
+            {
+                result = ImportGemsEnchants(classGuide, doc, logFunc);
+            }
+            else
+            {
+                result = await ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
+            }
+
+        return result;
     }
 
     private static async Task<string> ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, IHtmlDocument doc, Action<string> logFunc)
@@ -160,7 +163,9 @@ public static class WowheadImporter
                 {
                     if (!guide.Item1.Any(g => g.GemId == gem.Key))
                     {
-                        guide.Item1.Add(await GetGemFromWowhead(gem.Key, logFunc));
+                        var gemSource = await GetGemFromWowhead(gem.Key, logFunc);
+                        if (gemSource != null)
+                            guide.Item1.Add(gemSource);
                     }
                 }
                 UpdateEnchants(guide.Item2, itemsAndEnchants.Item2);
