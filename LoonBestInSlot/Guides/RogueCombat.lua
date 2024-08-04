@@ -83,6 +83,7 @@ LBIS:AddItem(spec0, "69877", LBIS.L["Waist"], "BIS") --Belt of a Thousand Gaping
 LBIS:AddItem(spec0, "57918", LBIS.L["Waist"], "Alt") --Sash of Musing
 LBIS:AddItem(spec0, "62446", LBIS.L["Waist"], "Alt") --Quicksand Belt
 LBIS:AddItem(spec0, "56429", LBIS.L["Waist"], "Alt") --Red Beam Cord
+LBIS:AddItem(spec0, "60461", LBIS.L["Legs"], "BIS") --Vicious Gladiator's Leather Legguards
 LBIS:AddItem(spec0, "58132", LBIS.L["Legs"], "BIS") --Leggings of the Burrowing Mole
 LBIS:AddItem(spec0, "69589", LBIS.L["Legs"], "BIS") --Leggings of Dancing Blades
 LBIS:AddItem(spec0, "56309", LBIS.L["Legs"], "BIS") --Beauty's Chew Toy

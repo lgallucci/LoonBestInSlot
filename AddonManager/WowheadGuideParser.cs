@@ -118,6 +118,7 @@ public class WowheadGuideParser
         { 68712, "62464,62469"}, //Impatience of Youth
         { 68710, "62465,62470" }, //Stump of Time
         { 68709, "62463,62468" }, //Unsolvable Riddle
+        { 65546, "60461"}, //Vicious Gladiator Legs
     };
 
     private Dictionary<string, string> _altModifierTextSwaps = new Dictionary<string, string>()
