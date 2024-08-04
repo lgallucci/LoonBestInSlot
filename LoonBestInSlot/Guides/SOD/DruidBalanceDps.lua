@@ -193,6 +193,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "220745", LBIS.L["Shoulder"], "Alt") --Membrane of Dark Neurosis
     LBIS:AddItem(spec4, "20686", LBIS.L["Shoulder"], "Alt") --Abyssal Cloth Amice
     LBIS:AddItem(spec4, "228100", LBIS.L["Back"], "BIS") --Drape of the Fire Lord
+    LBIS:AddItem(spec4, "227869", LBIS.L["Back"], "Alt") --Brilliant Chromatic Cloak
     LBIS:AddItem(spec4, "20697", LBIS.L["Back"], "Alt") --Crystalline Threaded Cape
     LBIS:AddItem(spec4, "18350", LBIS.L["Back"], "Alt") --Amplifying Cloak
     LBIS:AddItem(spec4, "226656", LBIS.L["Chest"], "BIS") --Cenarion Embrace
@@ -206,9 +207,9 @@ local function LoadData()
     LBIS:AddItem(spec4, "226654", LBIS.L["Hands"], "Alt") --Cenarion Gauntlets
     LBIS:AddItem(spec4, "220544", LBIS.L["Hands"], "Alt") --Bloodflare Talons
     LBIS:AddItem(spec4, "226657", LBIS.L["Waist"], "BIS") --Cenarion Cord
+    LBIS:AddItem(spec4, "227882", LBIS.L["Waist"], "Alt") --Girdle of Arcane Insight
     LBIS:AddItem(spec4, "223192", LBIS.L["Waist"], "Alt") --Cord of the Untamed
     LBIS:AddItem(spec4, "228256", LBIS.L["Waist"], "Alt") --Mana Igniting Cord
-    LBIS:AddItem(spec4, "228355", LBIS.L["Waist"], "Alt") --Flayed Doomguard Belt
     LBIS:AddItem(spec4, "228282", LBIS.L["Waist"], "Alt") --Sash of Whispered Secrets
     LBIS:AddItem(spec4, "226651", LBIS.L["Legs"], "BIS") --Cenarion Pants
     LBIS:AddItem(spec4, "227191", LBIS.L["Legs"], "Alt") --Knight-Captain's Dragonhide Pants
@@ -231,6 +232,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "228678", LBIS.L["Trinket"], "Alt") --Draconic Infused Emblem
     LBIS:AddItem(spec4, "227972", LBIS.L["Trinket"], "Alt") --Burst of Knowledge
     LBIS:AddItem(spec4, "228081", LBIS.L["Trinket"], "Alt") --Germinating Poisonseed
+    LBIS:AddItem(spec4, "223195", LBIS.L["Trinket"], "Alt") --Breadth of the Beast
     LBIS:AddItem(spec4, "13968", LBIS.L["Trinket"], "Alt") --Eye of the Beast
     LBIS:AddItem(spec4, "228382", LBIS.L["Main Hand"], "BIS") --Fang of the Mystics
     LBIS:AddItem(spec4, "20070", LBIS.L["Main Hand"], "Alt") --Sageclaw
@@ -239,7 +241,8 @@ local function LoadData()
     LBIS:AddItem(spec4, "223964", LBIS.L["Main Hand"], "Alt") --Blade of Eternal Darkness
     LBIS:AddItem(spec4, "228548", LBIS.L["Off Hand"], "BIS") --Scepter of Interminable Focus
     LBIS:AddItem(spec4, "223539", LBIS.L["Off Hand"], "Alt") --Enthralled Sphere
-    LBIS:AddItem(spec4, "216490", LBIS.L["Ranged/Relic"], "BIS") --Idol of Wrath
+    LBIS:AddItem(spec4, "228180", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Swarm
+    LBIS:AddItem(spec4, "216490", LBIS.L["Ranged/Relic"], "Alt") --Idol of Wrath
     LBIS:AddItem(spec4, "23197", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Moon
 end
 if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then

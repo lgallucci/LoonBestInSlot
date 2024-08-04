@@ -379,6 +379,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "228274", LBIS.L["Ring"], "BIS") --Cauterizing Band
     LBIS:AddItem(spec4, "228585", LBIS.L["Ring"], "BIS") --Mark of the Dragon Lord
     LBIS:AddItem(spec4, "227454", LBIS.L["Ring"], "Alt") --Tidal Loop
+    LBIS:AddItem(spec4, "228687", LBIS.L["Ring"], "Alt") --Dragonslayer's Signet
     LBIS:AddItem(spec4, "228359", LBIS.L["Ring"], "Alt") --Ring of Entropy
     LBIS:AddItem(spec4, "16058", LBIS.L["Ring"], "Alt") --Fordring's Seal
     LBIS:AddItem(spec4, "22334", LBIS.L["Ring"], "Alt") --Band of Mending

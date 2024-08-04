@@ -284,6 +284,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "228925", LBIS.L["Feet"], "Alt") --Tempered Dark Iron Boots
     LBIS:AddItem(spec4, "228249", LBIS.L["Neck"], "BIS") --Medallion of Steadfast Might
     LBIS:AddItem(spec4, "228685", LBIS.L["Neck"], "Alt") --Onyxia Tooth Pendant
+    LBIS:AddItem(spec4, "228354", LBIS.L["Neck"], "Alt") --Blazefury Medallion
     LBIS:AddItem(spec4, "19491", LBIS.L["Neck"], "Alt") --Amulet of the Darkmoon
     LBIS:AddItem(spec4, "228759", LBIS.L["Neck"], "Alt") --Eskhandar's Collar
     LBIS:AddItem(spec4, "228147", LBIS.L["Neck"], "Alt") --Magmadar's Horn
@@ -316,6 +317,8 @@ local function LoadData()
     LBIS:AddItem(spec4, "220633", LBIS.L["Trinket"], "Alt Mit") --Atal'ai Blood Ritual Badge
     LBIS:AddItem(spec4, "213350", LBIS.L["Trinket"], "Alt Stam") --Wirdal's Hardened Core
     LBIS:AddItem(spec4, "227840", LBIS.L["Main Hand"], "BIS") --Implacable Blackguard
+    LBIS:AddItem(spec4, "228679", LBIS.L["Main Hand"], "Alt") --Quel'Serrar
+    LBIS:AddItem(spec4, "227887", LBIS.L["Main Hand"], "Alt") --Hardened Frostguard
     LBIS:AddItem(spec4, "228139", LBIS.L["Main Hand"], "Alt") --Fist of the Firesworn
     LBIS:AddItem(spec4, "228266", LBIS.L["Off Hand"], "BIS") --Drillborer Disk
     LBIS:AddItem(spec4, "19321", LBIS.L["Off Hand"], "Alt") --The Immovable Object

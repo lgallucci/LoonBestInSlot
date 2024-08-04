@@ -6,9 +6,9 @@ local function LoadData()
 
     LBIS:AddEnchant(spec4, "22844", LBIS.L["Head"]) --Arcanum of Focus
     LBIS:AddEnchant(spec4, "446459", LBIS.L["Shoulder"]) --Atal'ai Signet of Mojo
-    LBIS:AddEnchant(spec4, "13746", LBIS.L["Back"]) --Enchant Cloak - Greater Defense
+    LBIS:AddEnchant(spec4, "461129", LBIS.L["Back"]) --Hydraxian Coronation
     LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
-    LBIS:AddEnchant(spec4, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
+    LBIS:AddEnchant(spec4, "20009", LBIS.L["Wrist"]) --Enchant Bracer - Superior Spirit
     LBIS:AddEnchant(spec4, "10344", LBIS.L["Hands"]) --Armor +32
     LBIS:AddEnchant(spec4, "22844", LBIS.L["Legs"]) --Arcanum of Focus
     LBIS:AddEnchant(spec4, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
@@ -487,84 +487,99 @@ local function LoadData()
     LBIS:AddItem(spec3, "213411", LBIS.L["Ranged/Relic"], "Alt") --Izzleflick's Inextinguishable Igniter
 
     LBIS:AddItem(spec4, "226909", LBIS.L["Head"], "BIS") --Deathmist Mask
-    LBIS:AddItem(spec4, "220523", LBIS.L["Head"], "BIS") --Visage of the Exiled
     LBIS:AddItem(spec4, "22267", LBIS.L["Head"], "Alt") --Spellweaver's Turban
+    LBIS:AddItem(spec4, "226549", LBIS.L["Head"], "Alt") --Felheart Horns
+    LBIS:AddItem(spec4, "3075", LBIS.L["Head"], "Alt") --Eye of Flame
+    LBIS:AddItem(spec4, "228480", LBIS.L["Head"], "Alt") --Crown of the Ogre King
+    LBIS:AddItem(spec4, "220523", LBIS.L["Head"], "Alt") --Visage of the Exiled
     LBIS:AddItem(spec4, "227090", LBIS.L["Head"], "Alt") --Champion's Dreadweave Cowl
     LBIS:AddItem(spec4, "227093", LBIS.L["Head"], "Alt") --Lieutenant Commander's Dreadweave Cowl
-    LBIS:AddItem(spec4, "226917", LBIS.L["Head"], "Alt") --Deathmist Hood
-    LBIS:AddItem(spec4, "3075", LBIS.L["Head"], "Alt") --Eye of Flame
-    LBIS:AddItem(spec4, "16929", LBIS.L["Head"], "Alt") --Nemesis Skullcap
-    LBIS:AddItem(spec4, "226762", LBIS.L["Head"], "Alt") --Dreadmist Mask
     LBIS:AddItem(spec4, "226728", LBIS.L["Head"], "Alt") --Magister's Crown
     LBIS:AddItem(spec4, "18727", LBIS.L["Head"], "Alt") --Crimson Felt Hat
     LBIS:AddItem(spec4, "10504", LBIS.L["Head"], "Alt") --Green Lens
-    LBIS:AddItem(spec4, "221425", LBIS.L["Head"], "Alt") --Emerald Enchanted Circlet
-    LBIS:AddItem(spec4, "226549", LBIS.L["Head"], "Alt") --Felheart Horns
-    LBIS:AddItem(spec4, "20686", LBIS.L["Shoulder"], "BIS") --Abyssal Cloth Amice
-    LBIS:AddItem(spec4, "227092", LBIS.L["Shoulder"], "BIS") --Champion's Dreadweave Spaulders
-    LBIS:AddItem(spec4, "227091", LBIS.L["Shoulder"], "BIS") --Lieutenant Commander's Dreadweave Spaulders
-    LBIS:AddItem(spec4, "226912", LBIS.L["Shoulder"], "Alt") --Deathmist Mantle
-    LBIS:AddItem(spec4, "228520", LBIS.L["Shoulder"], "Alt") --Soulstealer Mantle
-    LBIS:AddItem(spec4, "228546", LBIS.L["Shoulder"], "Alt") --Shroud of the Nathrezim
-    LBIS:AddItem(spec4, "18681", LBIS.L["Shoulder"], "Alt") --Burial Shawl
-    LBIS:AddItem(spec4, "228475", LBIS.L["Shoulder"], "Alt") --Diabolic Mantle
+    LBIS:AddItem(spec4, "226917", LBIS.L["Head"], "Alt") --Deathmist Hood
+    LBIS:AddItem(spec4, "226762", LBIS.L["Head"], "Alt") --Dreadmist Mask
+    LBIS:AddItem(spec4, "228528", LBIS.L["Head"], "Alt") --The Postmaster's Band
+    LBIS:AddItem(spec4, "227808", LBIS.L["Shoulder"], "BIS") --Rugged Mantle of the Timbermaw
+    LBIS:AddItem(spec4, "226550", LBIS.L["Shoulder"], "BIS") --Felheart Shoulder Pads
+    LBIS:AddItem(spec4, "20686", LBIS.L["Shoulder"], "Alt") --Abyssal Cloth Amice
     LBIS:AddItem(spec4, "220750", LBIS.L["Shoulder"], "Alt") --Fractured Mind Pauldrons
-    LBIS:AddItem(spec4, "14112", LBIS.L["Shoulder"], "Alt") --Felcloth Shoulders
+    LBIS:AddItem(spec4, "227091", LBIS.L["Shoulder"], "Alt") --Lieutenant Commander's Dreadweave Spaulders
+    LBIS:AddItem(spec4, "227092", LBIS.L["Shoulder"], "Alt") --Champion's Dreadweave Spaulders
+    LBIS:AddItem(spec4, "228546", LBIS.L["Shoulder"], "Alt") --Shroud of the Nathrezim
+    LBIS:AddItem(spec4, "228520", LBIS.L["Shoulder"], "Alt") --Soulstealer Mantle
+    LBIS:AddItem(spec4, "226912", LBIS.L["Shoulder"], "Alt") --Deathmist Mantle
+    LBIS:AddItem(spec4, "227830", LBIS.L["Shoulder"], "Alt") --Fine Flarecore Mantle
+    LBIS:AddItem(spec4, "18681", LBIS.L["Shoulder"], "Alt") --Burial Shawl
+    LBIS:AddItem(spec4, "226726", LBIS.L["Shoulder"], "Alt") --Magister's Mantle
+    LBIS:AddItem(spec4, "228475", LBIS.L["Shoulder"], "Alt") --Diabolic Mantle
     LBIS:AddItem(spec4, "228100", LBIS.L["Back"], "BIS") --Drape of the Fire Lord
-    LBIS:AddItem(spec4, "17078", LBIS.L["Back"], "Alt") --Sapphiron Drape
-    LBIS:AddItem(spec4, "22330", LBIS.L["Back"], "Alt") --Shroud of Arcane Mastery
-    LBIS:AddItem(spec4, "220611", LBIS.L["Back"], "Alt") --Hukku's Hex Cape
+    LBIS:AddItem(spec4, "227869", LBIS.L["Back"], "BIS") --Brilliant Chromatic Cloak
     LBIS:AddItem(spec4, "13386", LBIS.L["Back"], "Alt") --Archivist Cape
     LBIS:AddItem(spec4, "13007", LBIS.L["Back"], "Alt") --Mageflame Cloak
-    LBIS:AddItem(spec4, "228505", LBIS.L["Back"], "Alt") --Royal Tribunal Cloak
     LBIS:AddItem(spec4, "18350", LBIS.L["Back"], "Alt") --Amplifying Cloak
-    LBIS:AddItem(spec4, "220535", LBIS.L["Chest"], "BIS") --Garments of the Atal'ai Prophet
+    LBIS:AddItem(spec4, "17078", LBIS.L["Back"], "Alt") --Sapphiron Drape
+    LBIS:AddItem(spec4, "11623", LBIS.L["Back"], "Alt") --Spritecaster Cape
+    LBIS:AddItem(spec4, "220611", LBIS.L["Back"], "Alt") --Hukku's Hex Cape
+    LBIS:AddItem(spec4, "228505", LBIS.L["Back"], "Alt") --Royal Tribunal Cloak
+    LBIS:AddItem(spec4, "22330", LBIS.L["Back"], "Alt") --Shroud of Arcane Mastery
+    LBIS:AddItem(spec4, "226548", LBIS.L["Chest"], "BIS") --Felheart Robes
     LBIS:AddItem(spec4, "228239", LBIS.L["Chest"], "Alt") --Robe of Volatile Power
-    LBIS:AddItem(spec4, "20635", LBIS.L["Chest"], "Alt") --Jade Inlaid Vestments
     LBIS:AddItem(spec4, "226906", LBIS.L["Chest"], "Alt") --Deathmist Robe
     LBIS:AddItem(spec4, "14153", LBIS.L["Chest"], "Alt") --Robe of the Void
-    LBIS:AddItem(spec4, "14136", LBIS.L["Chest"], "Alt") --Robe of Winter Night
-    LBIS:AddItem(spec4, "226920", LBIS.L["Chest"], "Alt") --Deathmist Embrace
-    LBIS:AddItem(spec4, "226548", LBIS.L["Chest"], "Alt") --Felheart Robes
-    LBIS:AddItem(spec4, "20626", LBIS.L["Wrist"], "BIS") --Black Bark Wristbands
+    LBIS:AddItem(spec4, "228023", LBIS.L["Chest"], "Alt") --Alanna's Embrace
+    LBIS:AddItem(spec4, "227831", LBIS.L["Chest"], "Alt") --Fine Flarecore Robe
+    LBIS:AddItem(spec4, "227860", LBIS.L["Chest"], "Alt") --Incandescent Mooncloth Vest
+    LBIS:AddItem(spec4, "215377", LBIS.L["Chest"], "Alt") --Irradiated Robe
+    LBIS:AddItem(spec4, "220535", LBIS.L["Chest"], "Alt") --Garments of the Atal'ai Prophet
+    LBIS:AddItem(spec4, "226553", LBIS.L["Wrist"], "BIS") --Felheart Bracers
     LBIS:AddItem(spec4, "228357", LBIS.L["Wrist"], "BIS") --Blacklight Bracer
-    LBIS:AddItem(spec4, "220538", LBIS.L["Wrist"], "BIS") --Cursed Slimescale Bracers
     LBIS:AddItem(spec4, "19595", LBIS.L["Wrist"], "Alt") --Dryad's Wrist Bindings
+    LBIS:AddItem(spec4, "220538", LBIS.L["Wrist"], "Alt") --Cursed Slimescale Bracers
     LBIS:AddItem(spec4, "221025", LBIS.L["Wrist"], "Alt") --Void-Powered Invoker's Vambraces
     LBIS:AddItem(spec4, "19596", LBIS.L["Wrist"], "Alt") --Dryad's Wrist Bindings
     LBIS:AddItem(spec4, "226907", LBIS.L["Wrist"], "Alt") --Deathmist Bracers
     LBIS:AddItem(spec4, "11766", LBIS.L["Wrist"], "Alt") --Flameweave Cuffs
     LBIS:AddItem(spec4, "13409", LBIS.L["Wrist"], "Alt") --Tearfall Bracers
-    LBIS:AddItem(spec4, "226553", LBIS.L["Wrist"], "Alt") --Felheart Bracers
+    LBIS:AddItem(spec4, "226552", LBIS.L["Hands"], "BIS") --Felheart Gloves
     LBIS:AddItem(spec4, "228281", LBIS.L["Hands"], "BIS") --Gloves of the Hypnotic Flame
     LBIS:AddItem(spec4, "226911", LBIS.L["Hands"], "Alt") --Deathmist Wraps
-    LBIS:AddItem(spec4, "20618", LBIS.L["Hands"], "Alt") --Gloves of Delusional Power
-    LBIS:AddItem(spec4, "226918", LBIS.L["Hands"], "Alt") --Deathmist Grasps
     LBIS:AddItem(spec4, "18408", LBIS.L["Hands"], "Alt") --Inferno Gloves
     LBIS:AddItem(spec4, "18407", LBIS.L["Hands"], "Alt") --Felcloth Gloves
     LBIS:AddItem(spec4, "13253", LBIS.L["Hands"], "Alt") --Hands of Power
+    LBIS:AddItem(spec4, "14146", LBIS.L["Hands"], "Alt") --Gloves of Spell Mastery
     LBIS:AddItem(spec4, "220548", LBIS.L["Hands"], "Alt") --Atal'ai Hexxer's Gloves
+    LBIS:AddItem(spec4, "228061", LBIS.L["Hands"], "Alt") --Brightspark Gloves
+    LBIS:AddItem(spec4, "226731", LBIS.L["Hands"], "Alt") --Magister's Gloves
+    LBIS:AddItem(spec4, "227823", LBIS.L["Hands"], "Alt") --Fine Flarecore Gloves
     LBIS:AddItem(spec4, "227099", LBIS.L["Hands"], "Alt") --Blood Guard's Dreadweave Handwraps
     LBIS:AddItem(spec4, "227100", LBIS.L["Hands"], "Alt") --Knight-Lieutenant's Dreadweave Handwraps
-    LBIS:AddItem(spec4, "226731", LBIS.L["Hands"], "Alt") --Magister's Gloves
-    LBIS:AddItem(spec4, "226552", LBIS.L["Hands"], "Alt") --Felheart Gloves
     LBIS:AddItem(spec4, "228256", LBIS.L["Waist"], "BIS") --Mana Igniting Cord
+    LBIS:AddItem(spec4, "228190", LBIS.L["Waist"], "BIS") --Knowledge of the Timbermaw
+    LBIS:AddItem(spec4, "228184", LBIS.L["Waist"], "Alt") --Goblin Clothesline
+    LBIS:AddItem(spec4, "228476", LBIS.L["Waist"], "Alt") --Embroidered Belt of the Archmage
     LBIS:AddItem(spec4, "226905", LBIS.L["Waist"], "Alt") --Deathmist Belt
-    LBIS:AddItem(spec4, "18809", LBIS.L["Waist"], "Alt") --Sash of Whispered Secrets
-    LBIS:AddItem(spec4, "223192", LBIS.L["Waist"], "Alt") --Cord of the Untamed
-    LBIS:AddItem(spec4, "11662", LBIS.L["Waist"], "Alt") --Ban'thok Sash
+    LBIS:AddItem(spec4, "228282", LBIS.L["Waist"], "Alt") --Sash of Whispered Secrets
     LBIS:AddItem(spec4, "226551", LBIS.L["Waist"], "Alt") --Felheart Belt
+    LBIS:AddItem(spec4, "228005", LBIS.L["Waist"], "Alt") --Clutch of Andros
+    LBIS:AddItem(spec4, "223192", LBIS.L["Waist"], "Alt") --Cord of the Untamed
+    LBIS:AddItem(spec4, "20047", LBIS.L["Waist"], "Alt") --Highlander's Cloth Girdle
+    LBIS:AddItem(spec4, "20163", LBIS.L["Waist"], "Alt") --Defiler's Cloth Girdle
+    LBIS:AddItem(spec4, "11662", LBIS.L["Waist"], "Alt") --Ban'thok Sash
     LBIS:AddItem(spec4, "228531", LBIS.L["Waist"], "Alt") --Thuzadin Sash
-    LBIS:AddItem(spec4, "226914", LBIS.L["Waist"], "Alt") --Deathmist Cord
     LBIS:AddItem(spec4, "19133", LBIS.L["Legs"], "BIS") --Fel Infused Leggings
-    LBIS:AddItem(spec4, "227095", LBIS.L["Legs"], "Alt") --Knight-Captain's Dreadweave Legguards
-    LBIS:AddItem(spec4, "227097", LBIS.L["Legs"], "Alt") --Legionnaire's Dreadweave Legguards
-    LBIS:AddItem(spec4, "16930", LBIS.L["Legs"], "Alt") --Nemesis Leggings
-    LBIS:AddItem(spec4, "228244", LBIS.L["Legs"], "Alt") --Manastorm Leggings
+    LBIS:AddItem(spec4, "226547", LBIS.L["Legs"], "BIS") --Felheart Pants
+    LBIS:AddItem(spec4, "227839", LBIS.L["Legs"], "Alt") --Fine Flarecore Leggings
     LBIS:AddItem(spec4, "19165", LBIS.L["Legs"], "Alt") --Flarecore Leggings
-    LBIS:AddItem(spec4, "226547", LBIS.L["Legs"], "Alt") --Felheart Pants
+    LBIS:AddItem(spec4, "228244", LBIS.L["Legs"], "Alt") --Manastorm Leggings
     LBIS:AddItem(spec4, "22342", LBIS.L["Legs"], "Alt") --Leggings of Torment
+    LBIS:AddItem(spec4, "13170", LBIS.L["Legs"], "Alt") --Skyshroud Leggings
     LBIS:AddItem(spec4, "226910", LBIS.L["Legs"], "Alt") --Deathmist Leggings
+    LBIS:AddItem(spec4, "20674", LBIS.L["Legs"], "Alt") --Abyssal Cloth Pants
+    LBIS:AddItem(spec4, "220556", LBIS.L["Legs"], "Alt") --Kilt of the Fallen Atal'ai Prophet
+    LBIS:AddItem(spec4, "226727", LBIS.L["Legs"], "Alt") --Magister's Leggings
+    LBIS:AddItem(spec4, "227097", LBIS.L["Legs"], "Alt") --Legionnaire's Dreadweave Legguards
+    LBIS:AddItem(spec4, "227095", LBIS.L["Legs"], "Alt") --Knight-Captain's Dreadweave Legguards
     LBIS:AddItem(spec4, "226908", LBIS.L["Feet"], "BIS") --Deathmist Sandals
     LBIS:AddItem(spec4, "227965", LBIS.L["Feet"], "Alt") --Omnicast Boots
     LBIS:AddItem(spec4, "228384", LBIS.L["Feet"], "Alt") --Snowblind Shoes

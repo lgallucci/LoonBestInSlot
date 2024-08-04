@@ -312,6 +312,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "227915", LBIS.L["Trinket"], "Alt") --Duke's Domain
     LBIS:AddItem(spec4, "227991", LBIS.L["Main Hand"], "BIS") --Ironfoe
     LBIS:AddItem(spec4, "228397", LBIS.L["Main Hand"], "BIS") --Empyrean Demolisher
+    LBIS:AddItem(spec4, "228350", LBIS.L["Main Hand"], "BIS") --Eskhandar's Right Claw
     LBIS:AddItem(spec4, "228757", LBIS.L["Main Hand/Off Hand"], "Alt/BIS") --Felstriker
     LBIS:AddItem(spec4, "228506", LBIS.L["Main Hand/Off Hand"], "Alt") --Brutality Blade
     LBIS:AddItem(spec4, "228270", LBIS.L["Ranged/Relic"], "BIS") --Blastershot Launcher

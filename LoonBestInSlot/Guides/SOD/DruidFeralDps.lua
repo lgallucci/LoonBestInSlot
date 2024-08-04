@@ -245,8 +245,8 @@ local function LoadData()
     LBIS:AddItem(spec4, "22150", LBIS.L["Neck"], "Alt") --Beads of Ogre Might
     LBIS:AddItem(spec4, "228261", LBIS.L["Ring"], "BIS") --Quick Strike Ring
     LBIS:AddItem(spec4, "228080", LBIS.L["Ring"], "BIS") --Resin Loop
-    LBIS:AddItem(spec4, "19510", LBIS.L["Ring"], "Alt") --Legionnaire's Band
     LBIS:AddItem(spec4, "19514", LBIS.L["Ring"], "Alt") --Protector's Band
+    LBIS:AddItem(spec4, "19510", LBIS.L["Ring"], "Alt") --Legionnaire's Band
     LBIS:AddItem(spec4, "18500", LBIS.L["Ring"], "Alt") --Tarnished Elven Ring
     LBIS:AddItem(spec4, "228089", LBIS.L["Trinket"], "BIS") --Woodcarved Moonstalker
     LBIS:AddItem(spec4, "228078", LBIS.L["Trinket"], "BIS") --Accursed Chalice
@@ -259,8 +259,9 @@ local function LoadData()
     LBIS:AddItem(spec4, "228272", LBIS.L["Two Hand"], "Alt") --Shadowstrike
     LBIS:AddItem(spec4, "228230", LBIS.L["Two Hand"], "Alt") --Refined Hammer of the Titans
     LBIS:AddItem(spec4, "220596", LBIS.L["Two Hand"], "Alt") --Ancient Divining Rod
-    LBIS:AddItem(spec4, "220606", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Dream
+    LBIS:AddItem(spec4, "22397", LBIS.L["Ranged/Relic"], "BIS") --Idol of Ferocity
     LBIS:AddItem(spec4, "228181", LBIS.L["Ranged/Relic"], "Alt") --Idol of Exsanguination (Cat)
+    LBIS:AddItem(spec4, "220606", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Dream
 end
 if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
     LoadData();
