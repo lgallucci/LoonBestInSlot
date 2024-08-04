@@ -4938,7 +4938,7 @@ LBIS.ItemSources =
     [228473] = { Name = "Unyielding Maul", SourceType = LBIS.L["Drop"], Source = LBIS.L["Gordok Tribute"], SourceNumber = "0", SourceLocation = LBIS.L["Dire Maul North"], SourceFaction = "B" },
     [228474] = { Name = "Mindsurge Robe", SourceType = LBIS.L["Drop"], Source = LBIS.L["Gordok Tribute"], SourceNumber = "0", SourceLocation = LBIS.L["Dire Maul North"], SourceFaction = "B" },
     [228475] = { Name = "Diabolic Mantle", SourceType = LBIS.L["Drop"], Source = LBIS.L["Lord Hel'nurath"], SourceNumber = "0", SourceLocation = LBIS.L["Dire Maul West"], SourceFaction = "B" },
-    [228476] = { Name = "Embroidered Belt of the Archmage", SourceType = LBIS.L["Profession"], Source = LBIS.L["Tailoring"], SourceNumber = "0", SourceLocation = "228477", SourceFaction = "B" },
+    [228476] = { Name = "Embroidered Belt of the Archmage", SourceType = LBIS.L["Profession"], Source = LBIS.L["Tailoring"], SourceNumber = "0", SourceLocation = "462282", SourceFaction = "B" },
     [228478] = { Name = "Barbarous Blade", SourceType = LBIS.L["Drop"], Source = LBIS.L["King Gordok"], SourceNumber = "0", SourceLocation = LBIS.L["Dire Maul North"], SourceFaction = "B" },
     [228479] = { Name = "Leggings of Destruction", SourceType = LBIS.L["Drop"], Source = LBIS.L["King Gordok"], SourceNumber = "0", SourceLocation = LBIS.L["Dire Maul North"], SourceFaction = "B" },
     [228480] = { Name = "Crown of the Ogre King", SourceType = LBIS.L["Drop"], Source = LBIS.L["King Gordok"], SourceNumber = "0", SourceLocation = LBIS.L["Dire Maul North"], SourceFaction = "B" },
