@@ -41,7 +41,8 @@ LBIS:AddEnchant(spec2, "74235", LBIS.L["Off Hand"]) --Enchant Off-Hand - Superio
 LBIS:AddItem(spec0, "59458", LBIS.L["Head"], "BIS") --Energized Bio-Optic Killshades
 LBIS:AddItem(spec0, "58128", LBIS.L["Head"], "Alt") --Helm of the Inward Eye
 LBIS:AddItem(spec0, "56352", LBIS.L["Head"], "Alt") --Cowl of the Unseen World
-LBIS:AddItem(spec0, "63452", LBIS.L["Shoulder"], "BIS") --Burden of Lost Humanity
+LBIS:AddItem(spec0, "69616", LBIS.L["Shoulder"], "BIS") --Spiritbinder Spaulders
+LBIS:AddItem(spec0, "63452", LBIS.L["Shoulder"], "Alt") --Burden of Lost Humanity
 LBIS:AddItem(spec0, "58129", LBIS.L["Shoulder"], "Alt") --Seafoam Mantle
 LBIS:AddItem(spec0, "56359", LBIS.L["Shoulder"], "Alt") --Fallen Snow Shoulderguards
 LBIS:AddItem(spec0, "58194", LBIS.L["Back"], "BIS") --Heavenly Breeze
@@ -55,7 +56,8 @@ LBIS:AddItem(spec0, "60309", LBIS.L["Chest"], "BIS") --Tunic of the Raging Eleme
 LBIS:AddItem(spec0, "56563", LBIS.L["Chest"], "Alt") --Twilight Scale Chestguard
 LBIS:AddItem(spec0, "58126", LBIS.L["Chest"], "Alt") --Vest of the Waking Dream
 LBIS:AddItem(spec0, "56274", LBIS.L["Chest"], "Alt") --Chromis Chestpiece
-LBIS:AddItem(spec0, "63486", LBIS.L["Wrist"], "BIS") --Shackles of the Betrayed
+LBIS:AddItem(spec0, "69568", LBIS.L["Wrist"], "BIS") --Shadowmender Wristguards
+LBIS:AddItem(spec0, "63486", LBIS.L["Wrist"], "Alt") --Shackles of the Betrayed
 LBIS:AddItem(spec0, "56313", LBIS.L["Wrist"], "Alt") --Manacles of Pain
 LBIS:AddItem(spec0, "60312", LBIS.L["Hands"], "BIS") --Handwraps of the Raging Elements
 LBIS:AddItem(spec0, "63475", LBIS.L["Hands"], "Alt") --Old Friend's Gloves
