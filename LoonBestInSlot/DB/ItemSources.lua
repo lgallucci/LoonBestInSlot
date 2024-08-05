@@ -1335,6 +1335,7 @@ LBIS.ItemSources =
     [12470] = { Name = "Sandstalker Ankleguards", SourceType = LBIS.L["Drop"], Source = LBIS.L["Zerillis"], SourceNumber = "0", SourceLocation = LBIS.L["Zul'Farrak"], SourceFaction = "B" },
     [12527] = { Name = "Ribsplitter", SourceType = LBIS.L["Drop"], Source = LBIS.L["Trash Mobs"], SourceNumber = "0", SourceLocation = LBIS.L["Blackrock Depths"], SourceFaction = "B" },
     [12543] = { Name = "Songstone of Ironforge", SourceType = LBIS.L["Quest"], Source = LBIS.L["The Princess's Surprise"], SourceNumber = "0", SourceLocation = LBIS.L["Blackrock Depths"], SourceFaction = "A" },
+    [12545] = { Name = "Eye of Orgrimmar", SourceType = LBIS.L["Quest"], Source = LBIS.L["The Princess Saved?"], SourceNumber = "0", SourceLocation = LBIS.L["Blackrock Depths"], SourceFaction = "H" },
     [12546] = { Name = "Aristocratic Cuffs", SourceType = LBIS.L["Drop"], Source = LBIS.L["Trash Mobs"], SourceNumber = "0", SourceLocation = LBIS.L["Blackrock Depths"], SourceFaction = "B" },
     [12548] = { Name = "Magni's Will", SourceType = LBIS.L["Quest"], Source = LBIS.L["The Princess's Surprise"], SourceNumber = "0", SourceLocation = LBIS.L["Blackrock Depths"], SourceFaction = "A" },
     [12550] = { Name = "Runed Golem Shackles", SourceType = LBIS.L["Drop"], Source = LBIS.L["Trash Mobs"], SourceNumber = "0", SourceLocation = LBIS.L["Blackrock Depths"], SourceFaction = "B" },
