@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 --[[
     Language Localization: koKR
     Translated by: BlueNyx <bluenyx@gmail.com>
@@ -17,10 +18,6 @@ WIM.AddLocale("koKR", {
     ["<Right-Click>"] = "오른쪽 클릭",
     ["<Left-Click>"] = "왼쪽 클릭",
     ["OK"] = "확인",
-    ["Cancel"] = "취소",
-    ["Unknown"] = "알 수 없음",
-    ["Click to update..."] = "클릭 - 위치 정보 갱신",
-    ["Usage"] = "사용",
 
     ["state_resting"] = "대도시",
     ["state_combat"] = "전투중",
@@ -29,8 +26,6 @@ WIM.AddLocale("koKR", {
     ["state_party"] = "파티",
     ["state_raid"] = "레이드",
     ["state_other"] = "일반 (기타)",
-
-    ["<Shift-Click> to close window."] = "<Shift-Click> 창 닫기",
 
     ["A new version of WIM is available!\nYou can download the latest version by going to:\n\n http://www.wimaddon.com"] = "새로운 버전의 WIM이 확인되었습니다!\n가장 최신의 버전을 다운로드 하려면 사이트로 이동하세요:\n\n http://www.wimaddon.com 또는 http://wow.somegate.com",
 
@@ -54,13 +49,6 @@ WIM.AddLocale("koKR", {
     ["Week"] = "일주일",
     ["Month"] = "한 달",
     ["Drag to set default spawn/position for message windows."] = "드래그해서 대화창이 생성될 \n기본 위치를 정하십시오.",
-    ["Up"] = "위",
-    ["Down"] = "아래",
-    ["Left"] = "왼쪽",
-    ["Right"] = "오른쪽",
-    ["Ignore"] = "무시",
-    ["Block"] = "차단",
-    ["Enable WIM"] = "WIM 사용",
 
     ["Auto Close Friends after:"] = "친구와의 대화창 자동 종료 :",
     ["Auto Close Non-Friends after:"] = "친구 이외의 대화창 자동 종료 :",
@@ -79,14 +67,10 @@ WIM.AddLocale("koKR", {
     ["Display time stamps"] = "도착 시간 보기",
     ["This setting limits the\nwindow's minimum height."] = "이 설정은 대화창의 최대 높이에 제한을 줍니다.",
     ["Requires /who querying."] = "/who 질의 포함",
-    ["Enable window fading effects."] = "창 투명화 효과 기능",
     ["Enable window animations."] = "창 애니메이션 기능",
 
     ["Display minimap icon."] = "미니맵 아이콘 표시",
 
-    ["General"] = "일반",
-    ["History"] = "대화기록",
-    ["Filters"] = "필터",
     ["Plugins"] = "플러그인",
 
     ["Auto focus when window is shown."] = "대화창 팝업 시 자동으로 커서를 입력창에 위치",
@@ -166,8 +150,6 @@ WIM.AddLocale("koKR", {
     ["Apply to messages received."] = "메세지 받기 허용",
     ["Apply to messages sent."] = "메세지 보내기 허용",
     ["Action to Perform:"] = "Action to Perform:",
-    ["Allow"] = "허용",
-    ["Ignore"] = "무시",
     ["Blocked"] = "차단",
     ["Save"] = "저장",
     ["Cancel"] = "취소",
@@ -315,7 +297,6 @@ WIM.AddLocale("koKR", {
     ["Color: URL - Web Addresses"] = "컬러: URL - 웹 주소",
     ["Color: History Messages Sent"] = "컬러: 예전에 보냈던 메세지",
     ["Color: History Messages Received"] = "컬러: 예전에 받았던 메세지",
-    ["Use colors suggested by skin."] = "스킨에서 제공하는 컬러 사용",
     ["Enable window fading effects."] = "창 페이딩 이펙트 사용",
     ["Enable window animation effects."] = "창 에니메이션 이펙트 사용",
     ["Display item links when hovering over them."] = "Display item links when hovering over them.",

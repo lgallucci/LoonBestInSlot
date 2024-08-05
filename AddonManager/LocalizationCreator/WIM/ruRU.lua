@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 --[[
     Language Localization: ruRU
     Translated by: StingerSoft <stingersoft@iti.lt>
@@ -17,10 +18,6 @@ WIM.AddLocale("ruRU", {
 	["<Right-Click>"] = "<Правый-Клик>",
 	["<Left-Click>"] = "<Левый-Клик>",
 	["OK"] = "OK",
-	["Cancel"] = "Отмена",
-	["Unknown"] = "Неизвестно",
-	["Click to update..."] = "Кликните для обновления...",
-	["Usage"] = "Используется",
 
 	["state_resting"] = "Отдыхает",
 	["state_combat"] = "В бою",
@@ -29,8 +26,6 @@ WIM.AddLocale("ruRU", {
 	["state_party"] = "В групповом инстансе",
 	["state_raid"] = "В рейдовом инстансе",
 	["state_other"] = "Обычный (Другое)",
-
-	["<Shift-Click> to close window."] = "<Shift-Клик> для закрытия окна.",
 
 	["A new version of WIM is available!\nYou can download the latest version by going to:\n\n http://www.wimaddon.com"] = "Доступна новая версия WIM!\nВы можете скачать её с сайта:\n\n http://www.wimaddon.com",
 
@@ -54,13 +49,6 @@ WIM.AddLocale("ruRU", {
 	["Week"] = "Неделя",
 	["Month"] = "Месяц",
 	["Drag to set default spawn/position for message windows."] = "Переместите для установки позиции\nокна сообщения по умолчанию.",
-	["Up"] = "Вверх",
-	["Down"] = "Вниз",
-	["Left"] = "Влево",
-	["Right"] = "Вправо",
-	["Ignore"] = "Игнорировать",
-	["Block"] = "Блокировать",
-	["Enable WIM"] = "Включить WIM",
 
 	["Auto Close Friends after:"] = "Авто закрытие друзей после:",
 	["Auto Close Non-Friends after:"] = "Авто закрытие остальных после:",
@@ -79,14 +67,10 @@ WIM.AddLocale("ruRU", {
 	["Display time stamps"] = "Отображать время",
 	["This setting limits the\nwindow's minimum height."] = "Данная настройка ограничит\nминимальную высоту окна.",
 	["Requires /who querying."] = "Требуется запрос /who.",
-	["Enable window fading effects."] = "Включить затухание.",
 	["Enable window animations."] = "Включить анимацию.",
 
 	["Display minimap icon."] = "Отображать иконку у мини-карты.",
 
-	["General"] = "Основное",
-	["History"] = "История",
-	["Filters"] = "Фильтры",
 	["Plugins"] = "Плагины",
 
 	["Auto focus when window is shown."] = "Авто фокус окна при открытии.",
@@ -104,7 +88,6 @@ WIM.AddLocale("ruRU", {
 	["Ignore arrow keys while typing."] = "Игнорировать клавиши курсора при наборе сообщения.",
 	["Requires using <Alt> to navigate text."] = "Для навигации по тексту нужно использовать <Alt>.",
 	["Display emoticons."] = "Отображать эмоции.",
-	["Display URLs as Links"] = "Отображать URL-адрес как ссылку.",
 	["Display floating item links."] = "Отображать ссылки на предмет.",
 
 	["Cascade windows."] = "Каскад окон",
@@ -168,8 +151,6 @@ WIM.AddLocale("ruRU", {
 	["Apply to messages sent."] = "К исходящим сообщениям",
 	["Apply to messages received."] = "К входящим сообщениям",
 	["Action to Perform:"] = "Выполняемое действие:",
-	["Allow"] = "Разрешить",
-	["Ignore"] = "Игнорировать",
 	["Blocked"] = "Блокировать",
 	["Save"] = "Сохранить",
 	["Cancel"] = "Отмена",
@@ -200,7 +181,6 @@ WIM.AddLocale("ruRU", {
 
     -- Menu.lua --
 	["Whispers"] = "Сообщения",
-	["Chat"] = "Чат",
 
     -- Negotiate.lua --
 	["WIM Update Available!"] = "Доступно обновление WIMа!",
@@ -340,7 +320,6 @@ WIM.AddLocale("ruRU", {
 	["Color: Messages Received"] = "Цвет: получаемых сообщений",
 	["Color: BNet Messages Sent"] = "Цвет: высылаемых BNet сообщений",
 	["Color: BNet Messages Received"] = "Цвет: получаемых BNet сообщений",
-	["Use colors suggested by skin."] = "Исп. встроенные цвета шкурки.",
 	["Display user class icons and details."] = "Отображать иконку класса пользователя и другие детали.",
 	["Requires who lookups."] = "Требует поиск через команду /who",
 	["Display Shortcut Bar"] = "Отображать панель ярлыков",

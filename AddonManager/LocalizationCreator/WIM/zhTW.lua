@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 --[[
     Update:2010/07/04
     Language Localization: zhTW
@@ -18,10 +19,6 @@ WIM.AddLocale("zhTW", {
     ["<Right-Click>"] = "<滑鼠右鍵>",
     ["<Left-Click>"] = "<滑鼠左鍵>",
     ["OK"] = "確認",
-    ["Cancel"] = "取消",
-    ["Unknown"] = "未知",
-    ["Click to update..."] = "點擊更新...",
-    ["Usage"] = "使用",
 
     ["state_resting"] = "休息",
     ["state_combat"] = "戰鬥",
@@ -30,8 +27,6 @@ WIM.AddLocale("zhTW", {
     ["state_party"] = "組隊",
     ["state_raid"] = "團隊",
     ["state_other"] = "一般 (其他)",
-
-    ["<Shift-Click> to close window."] = "<Shift-左鍵> 關閉視窗",
 
     ["A new version of WIM is available!\nYou can download the latest version by going to:\n\n http://www.wimaddon.com"] = "目前已經有新版的 WIM!\n您可以到http://www.wimaddon.com 下載新版本",
 
@@ -55,13 +50,6 @@ WIM.AddLocale("zhTW", {
     ["Week"] = "週",
     ["Month"] = "月",
     ["Drag to set default spawn/position for message windows."] = "拖曳來設定對話視窗預設位置。",
-    ["Up"] = "上",
-    ["Down"] = "下",
-    ["Left"] = "左",
-    ["Right"] = "右",
-    ["Ignore"] = "忽略",
-    ["Block"] = "封鎖",
-    ["Enable WIM"] = "開啟 WIM",
 
     ["Auto Close Friends after:"] = "好友自動關閉時間:",
     ["Auto Close Non-Friends after:"] = "非好友自動關閉時間:",
@@ -80,14 +68,10 @@ WIM.AddLocale("zhTW", {
     ["Display time stamps"] = "顯示時間標記",
     ["This setting limits the\nwindow's minimum height."] = "此設定受限於視窗最小高度",
     ["Requires /who querying."] = "請輸入 /who 查詢",
-    ["Enable window fading effects."] = "開啟視窗淡化效果",
     ["Enable window animations."] = "開啟視窗動態效果",
 
     ["Display minimap icon."] = "顯示小地圖按鈕",
 
-    ["General"] = "一般",
-    ["History"] = "聊天記錄",
-    ["Filters"] = "過濾條件",
     ["Plugins"] = "插件",
 
     ["Auto focus when window is shown."] = "當對話視窗出現，自動跳到最上層/獲得焦點",
@@ -170,8 +154,6 @@ WIM.AddLocale("zhTW", {
     ["Apply to messages received."] = "套用到接收訊息規則",
     ["Apply to messages sent."] = "套用到傳送訊息規則",
     ["Action to Perform:"] = "執行動作:",
-    ["Allow"] = "允許",
-    ["Ignore"] = "忽略",
     ["Blocked"] = "封鎖",
     ["Save"] = "儲存",
     ["Cancel"] = "取消",
@@ -202,7 +184,6 @@ WIM.AddLocale("zhTW", {
 
     -- Menu.lua --
     ["Whispers"] = "密語",
-    ["Chat"] = "聊天訊息",
 
     -- Negotiate.lua --
     ["WIM Update Available!"] = "WIM 已有新的更新!",
@@ -326,7 +307,6 @@ WIM.AddLocale("zhTW", {
     ["Color: URL - Web Addresses"] = "顏色: 網址連結",
     ["Color: History Messages Sent"] = "顏色: 對話記錄-送出",
     ["Color: History Messages Received"] = "顏色: 對話記錄-收到",
-    ["Use colors suggested by skin."] = "使用面版建議色彩",
     ["Enable window fading effects."] = "開啟視窗淡化效果",
     ["Enable window animation effects."] = "開啟視窗動態效果",
     ["Display item links when hovering over them."] = "當滑鼠移至物品連結上時，直接顯示物品說明",

@@ -1,4 +1,5 @@
-﻿local AL = _G.AtlasLoot.GetLocales("koKR")
+﻿---@diagnostic disable: undefined-field, undefined-global
+local AL = _G.AtlasLoot.GetLocales("koKR")
 
 if not AL then return end
 

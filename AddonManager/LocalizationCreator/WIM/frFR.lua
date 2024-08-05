@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 --[[
     Language Localization: frFR
     Translated by: name <email address>
@@ -18,10 +19,6 @@ WIM.AddLocale("frFR", {
     ["<Right-Click>"] = "<Clic-droit>",
     ["<Left-Click>"] = "<Clic-gauche>",
     ["OK"] = "Ok",
-    ["Cancel"] = "Annuler",
-    ["Unknown"] = "Inconnu",
-    ["Click to update..."] = "Cliquez pour mettre à jour ...",
-    ["Usage"] = "Usage",
 
     ["state_resting"] = "Repos",
     ["state_combat"] = "Combat",
@@ -30,8 +27,6 @@ WIM.AddLocale("frFR", {
     ["state_party"] = "Instance de Groupe",
     ["state_raid"] = "Raid Instance",
     ["state_other"] = "Normal (Divers)",
-
-    ["<Shift-Click> to close window."] = "<Clic-Shift> pour fermer la fenêtre.",
 
     ["A new version of WIM is available!\nYou can download the latest version by going to:\n\n http://www.wimaddon.com"] = "Une nouvelle version de WIM est disponible!\n Vous pouvez télécharger la dernière version en allant sur: \n\n http://www.wimaddon.com",
 
@@ -55,13 +50,6 @@ WIM.AddLocale("frFR", {
     ["Week"] = "Semaine",
     ["Month"] = "Mois",
     ["Drag to set default spawn/position for message windows."] = "Faites glisser pour régler par défaut la multitude/position pour les fenêtres de message.",
-    ["Up"] = "Haut",
-    ["Down"] = "Bas",
-    ["Left"] = "Gauche",
-    ["Right"] = "Droit",
-    ["Ignore"] = "Ignore",
-    ["Block"] = "Bloque",
-    ["Enable WIM"] = "Activer WIM",
 
     ["Auto Close Friends after:"] = "Ferme automatiquement les ami(e)s après",
     ["Auto Close Non-Friends after:"] = "Ferme automatiquement non amis après",
@@ -80,14 +68,10 @@ WIM.AddLocale("frFR", {
     ["Display time stamps"] = "Affichage de l'heure",
     ["This setting limits the\nwindow's minimum height."] = "Ce paramètre limite la hauteur minimale de la \nfenêtre.",
     ["Requires /who querying."] = "Nécessite /qui interroge ",
-    ["Enable window fading effects."] = "Active les effets ",
     ["Enable window animations."] = "Activer les animations de la fenêtre.",
 
     ["Display minimap icon."] = "Affiche l'icône sur la minicarte",
 
-    ["General"] = "Général",
-    ["History"] = "Historique",
-    ["Filters"] = "Filtres",
     ["Plugins"] = "Plugins",
 
     ["Auto focus when window is shown."] = "Auto focus lorsque la fenêtre est affichée.",
@@ -167,8 +151,6 @@ WIM.AddLocale("frFR", {
     ["Apply to messages received."] = "S'appliquent aux messages reçus.",
     ["Apply to messages sent."] = "S'appliquent aux messages envoyés.",
     ["Action to Perform:"] = "Action à exécuter:",
-    ["Allow"] = "Autoriser",
-    ["Ignore"] = "Ignorer",
     ["Blocked"] = "Bloqué",
     ["Save"] = "Sauver",
     ["Cancel"] = "Annuler",
@@ -199,7 +181,6 @@ WIM.AddLocale("frFR", {
 
     -- Menu.lua --
     ["Whispers"] = "Chuchotement",
-    ["Chat"] = "Chat",
 
     -- Negotiate.lua --
     ["WIM Update Available!"] = "WIM Mise à jour disponible!",
@@ -328,7 +309,6 @@ WIM.AddLocale("frFR", {
     ["Color: URL - Web Addresses"] = "Couleur : URL - Adresses de Web",
     ["Color: History Messages Sent"] = "Couleur: historique des messages envoyés",
     ["Color: History Messages Received"] = "Couleur: historique des messages reçus",
-    ["Use colors suggested by skin."] = "Utilisez des couleurs proposé pour le skin",
     ["Enable window fading effects."] = "Activer la fenêtre des effets.",
     ["Enable window animation effects."] = "Activer les effets d'animation de la fenêtre.",
     ["Display item links when hovering over them."] = "Affiche le lien vers les objets lors du survol de la souris.",

@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 --[[
     Language Localization: ptBR
 ]]
@@ -16,10 +17,6 @@ WIM.AddLocale("ptBR", {
     ["<Right-Click>"] = "<Clique-Direita>",
     ["<Left-Click>"] = "<Clique-Esquerda>",
     ["OK"] = "OK",
-    ["Cancel"] = "Cancelar",
-    ["Unknown"] = "Desconhecido",
-    ["Click to update..."] = "Clique para atualizar...",
-    ["Usage"] = "Uso",
 
     ["state_resting"] = "Descansando",
     ["state_combat"] = "Combate",
@@ -28,8 +25,6 @@ WIM.AddLocale("ptBR", {
     ["state_party"] = "Grupo da Masmorra",
     ["state_raid"] = "Instância da Raide",
     ["state_other"] = "Normal (Outro)",
-
-    ["<Shift-Click> to close window."] = "<Shift-Clique> para fechar a janela.",
 
     ["A new version of WIM is available!\nYou can download the latest version from curse"] = "Uma nova versão do WIM está disponível!\nVocê poderá fazer o download da nova versão indo em curse",
 
@@ -53,13 +48,6 @@ WIM.AddLocale("ptBR", {
     ["Week"] = "Semana",
     ["Month"] = "Mês",
     ["Drag to set default spawn/position for message windows."] = "Arraste para definir padrão de surgimento/posição para as janelas de mensagem.",
-    ["Up"] = "Cima",
-    ["Down"] = "Baixo",
-    ["Left"] = "Esquerda",
-    ["Right"] = "Direita",
-    ["Ignore"] = "Ignorar",
-    ["Block"] = "Bloqueio",
-    ["Enable WIM"] = "Habilitar WIM",
 
     ["Auto Close Friends after:"] = "Fechar Amigos Automaticamente após:",
     ["Auto Close Non-Friends after:"] = "Fechar Não-Amigos Automaticamente após:",
@@ -78,14 +66,10 @@ WIM.AddLocale("ptBR", {
     ["Display time stamps"] = "Exibir Carimbos de Tempo",
     ["This setting limits the\nwindow's minimum height."] = "Esta configuração limita o\naltura minima da janela.",
     ["Requires /who querying."] = "Exige Consultar /quem.",
-    ["Enable window fading effects."] = "Habilitar efeitos de desbotamento na janela",
     ["Enable window animations."] = "Habilitar animação de janela.",
 
     ["Display minimap icon."] = "Exibir ícone no minimapa",
 
-    ["General"] = "Geral",
-    ["History"] = "História",
-    ["Filters"] = "Filtros",
     ["Plugins"] = "Adicionais",
 
     ["Auto focus when window is shown."] = "Focar na janela automaticamente quando ela aparecer.",
@@ -171,8 +155,6 @@ WIM.AddLocale("ptBR", {
     ["Apply to messages received."] = "Aplicar as mensagens recebidas.",
     ["Apply to messages sent."] = "Aplicar as mensagens enviadas",
     ["Action to Perform:"] = "Ação a ser executada:",
-    ["Allow"] = "Permitir",
-    ["Ignore"] = "Ignorar",
     ["Blocked"] = "Bloqueado",
     ["Save"] = "Salvo",
     ["Cancel"] = "Cancelar",
@@ -203,7 +185,6 @@ WIM.AddLocale("ptBR", {
 
     -- Menu.lua --
     ["Whispers"] = "Sussurros",
-    ["Chat"] = "Bate-Papo",
 
     -- Negotiate.lua --
     ["WIM Update Available!"] = "Atualização Disponível do WIM!",
@@ -332,7 +313,6 @@ WIM.AddLocale("ptBR", {
     ["Color: URL - Web Addresses"] = "Cor: URL - Endereços de Sites",
     ["Color: History Messages Sent"] = "Cor: Histórico de Mensagens Enviadas",
     ["Color: History Messages Received"] = "Cor: Histórico de Mensagens Recebidas",
-    ["Use colors suggested by skin."] = "Usar cores sugerido pela pele.",
     ["Enable window fading effects."] = "Habilitar efeitos de desbotamento na janela",
     ["Enable window animation effects."] = "Habilitar efeitos de animação na janela.",
     ["Display item links when hovering over them."] = "Exibir links de item quando pairar o ponteiro sobre.",

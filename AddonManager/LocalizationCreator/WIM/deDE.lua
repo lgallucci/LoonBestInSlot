@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 --[[
 	Language Localization: deDE
 	Translated by: Chiaki EU-Frostwolf <chiakiaccess@hotmail.com>
@@ -27,10 +28,6 @@ WIM.AddLocale("deDE", {
     ["<Right-Click>"] = "<Rechts-Klick>",
     ["<Left-Click>"] = "<Links-Klick>",
     ["OK"] = true,
-    ["Cancel"] = "Abbrechen",
-    ["Unknown"] = "Unbekannt",
-    ["Click to update..."] = "Klicke um ein Update zu starten...",
-    ["Usage"] = "Gebrauch",
 
     ["state_resting"] = "Ruhend",
     ["state_combat"] = "Kampf",
@@ -39,8 +36,6 @@ WIM.AddLocale("deDE", {
     ["state_party"] = "Gruppeninstanz",
     ["state_raid"] = "Schlachtzuginstanz",
     ["state_other"] = "Normal (Sonstiges)",
-
-    ["<Shift-Click> to close window."] = "<Shift-Klick> zum Schlie\195\159en des Fensters.",
 
     ["A new version of WIM is available!\nYou can download the latest version by going to:\n\n http://www.wimaddon.com"] = "Eine neue Version von WIM ist verf\195\188gbar!\nDu kannst die neueste Version auf http://www.wimaddon.com/ herunterladen.",
 
@@ -64,13 +59,6 @@ WIM.AddLocale("deDE", {
     ["Week"] = "Woche",
     ["Month"] = "Monat",
     ["Drag to set default spawn/position for message windows."] = "Ziehe um die Ausgangsposition f\195\188r die Erzeugung von Nachrichtenfenstern festzulegen.",
-    ["Up"] = "Oben",
-    ["Down"] = "Unten",
-    ["Left"] = "Links",
-    ["Right"] = "Rechts",
-    ["Ignore"] = "Ignorieren",
-    ["Block"] = "Blockieren",
-    ["Enable WIM"] = "WIM aktivieren",
 
     ["Auto Close Friends after:"] = "Schlie\195\159e Freundesnachrichten automatisch nachdem:",
     ["Auto Close Non-Friends after:"] = "Schlie\195\159e Nicht-Freundesnachrichten automatisch nachdem:",
@@ -89,14 +77,10 @@ WIM.AddLocale("deDE", {
     ["Display time stamps"] = "Zeige Zeitstempel an",
     ["This setting limits the\nwindow's minimum height."] = "Diese Einstellung begrenzt die\n Minimalh\195\182he des Fensters.",
     ["Requires /who querying."] = "Ben\195\182tigt /who Abfragen.",
-    ["Enable window fading effects."] = "Fenster-Verblassungseffekte aktivieren.",
     ["Enable window animations."] = "Fenster-Animationen aktivieren.",
 
     ["Display minimap icon."] = "Minimap-Symbol anzeigen.",
 
-    ["General"] = "Allgemein",
-    ["History"] = "Verlauf",
-    ["Filters"] = "Filter",
     ["Plugins"] = true,
 
     ["Auto focus when window is shown."] = "Automatischer Textcursor-Fokus wenn sich ein Fenster \195\182ffnet.",
@@ -176,8 +160,6 @@ WIM.AddLocale("deDE", {
     ["Apply to messages received."] = "F\195\188r eingehende Nachrichten \195\188bernehmen.",
     ["Apply to messages sent."] = "F\195\188r ausgehende Nachrichten \195\188bernehmen.",
     ["Action to Perform:"] = "Durchzuf\195\188hrende Aktion:",
-    ["Allow"] = "Erlauben",
-    ["Ignore"] = "Ignorieren",
     ["Blocked"] = "Blockieren",
     ["Save"] = "Speichern",
     ["Cancel"] = "Abbrechen",
@@ -325,7 +307,6 @@ WIM.AddLocale("deDE", {
     ["Color: URL - Web Addresses"] = "Farbe: Internetadressen",
     ["Color: History Messages Sent"] = "Farbe: Versendete Nachrichten im Nachrichtenverlauf",
     ["Color: History Messages Received"] = "Farbe: Empfangene Nachrichten im Nachrichtenverlauf",
-    ["Use colors suggested by skin."] = "Verwende f\195\188r den Skin empfohlene Farben.",
     ["Enable window fading effects."] = "Fenster-Verblassungseffekte aktivieren.",
     ["Enable window animation effects."] = "Fenster-Animationseffekte aktivieren.",
     ["Display item links when hovering over them."] = "Itemlinks bei Mouseover anzeigen.",

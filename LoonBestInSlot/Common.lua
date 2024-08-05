@@ -157,7 +157,7 @@ function LBIS:GetItemInfo(itemId, returnFunc)
         local itemCache = Item:CreateFromItemID(itemId)
 
         itemCache:ContinueOnItemLoad(function()
-            local itemId, itemType, subType, itemSlot, _, classId = GetItemInfoInstant(itemId);
+            local itemId, itemType, subType, itemSlot, _, classId = C_Item.GetItemInfoInstant(itemId);
             local name = itemCache:GetItemName();
 
             local newItem = {
@@ -225,11 +225,14 @@ function LBIS:CreateDropdown(opts, width)
     local menu_items = opts['items'] or {}
     local title_text = opts['title'] or ''
     local default_val = opts['defaultVal'] or ''
-    local change_func = opts['changeFunc'] or function (dropdown_val) end
+    local change_func = opts['changeFunc'] or function (dropdown_frame, dropdown_val) end
 
+---@diagnostic disable-next-line: undefined-field
     local dropdown = LibDD:Create_UIDropDownMenu(dropdown_name, opts['parent'])
 
+---@diagnostic disable-next-line: undefined-field
     LibDD:UIDropDownMenu_Initialize(dropdown, function(self, level, _)
+        ---@diagnostic disable-next-line: undefined-field
         local info = LibDD:UIDropDownMenu_CreateInfo()
         for key, val in pairs(menu_items) do
             info.text = val;
@@ -237,16 +240,21 @@ function LBIS:CreateDropdown(opts, width)
             info.isNotRadio = true;
             info.noClickSound = true
             info.func = function(b)
+                ---@diagnostic disable-next-line: undefined-field
                 LibDD:UIDropDownMenu_SetSelectedValue(dropdown, b.value, b.value)
+                ---@diagnostic disable-next-line: undefined-field
                 LibDD:UIDropDownMenu_SetText(dropdown, b.value)
                 info.checked = true
                 change_func(dropdown, b.value)
             end
+            ---@diagnostic disable-next-line: undefined-field
             LibDD:UIDropDownMenu_AddButton(info)
         end
     end)
 
+---@diagnostic disable-next-line: undefined-field
     LibDD:UIDropDownMenu_SetText(dropdown, default_val)
+    ---@diagnostic disable-next-line: undefined-field
     LibDD:UIDropDownMenu_SetWidth(dropdown, width, 0)
 
     local dd_title = dropdown:CreateFontString(nil, 'OVERLAY', 'GameFontNormalSmall')

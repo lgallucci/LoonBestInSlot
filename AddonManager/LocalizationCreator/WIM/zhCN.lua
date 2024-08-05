@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 --[[
     Language Localization: zhCN
     Translated by: MouJiaoZi  moujiaozi@outlook.com
@@ -17,10 +18,6 @@ WIM.AddLocale("zhCN", {
     ["<Right-Click>"] = "<右键>",
     ["<Left-Click>"] = "<左键>",
     ["OK"] = "确认",
-    ["Cancel"] = "取消",
-    ["Unknown"] = "未知",
-    ["Click to update..."] = "点击更新...",
-    ["Usage"] = "使用方法",
 
     ["state_resting"] = "休息",
     ["state_combat"] = "战斗中",
@@ -29,8 +26,6 @@ WIM.AddLocale("zhCN", {
     ["state_party"] = "在小队中",
     ["state_raid"] = "在团队中",
     ["state_other"] = "其他情况",
-
-    ["<Shift-Click> to close window."] = "按住Shift点击关闭窗口。",
 
     ["A new version of WIM is available!\nYou can download the latest version from curse"] = "WIM的新版本已经可用！\n你可以在Curse中进行更新。",
 
@@ -54,13 +49,6 @@ WIM.AddLocale("zhCN", {
     ["Week"] = "周",
     ["Month"] = "月",
     ["Drag to set default spawn/position for message windows."] = "拖动以设置聊天窗口的默认打开位置。",
-    ["Up"] = "上",
-    ["Down"] = "下",
-    ["Left"] = "左",
-    ["Right"] = "右",
-    ["Ignore"] = "忽略",
-    ["Block"] = "屏蔽",
-    ["Enable WIM"] = "开启WIM",
 
     ["Auto Close Friends after:"] = "在一定时间后自动关闭好友的对话：",
     ["Auto Close Non-Friends after:"] = "在一定时间后自动关闭非好友的对话：",
@@ -79,14 +67,10 @@ WIM.AddLocale("zhCN", {
     ["Display time stamps"] = "显示时间",
     ["This setting limits the\nwindow's minimum height."] = "本设置限制了\n窗口的最低高度。",
     ["Requires /who querying."] = "需要使用/who查询。",
-    ["Enable window fading effects."] = "开启窗口渐隐效果。",
     ["Enable window animations."] = "开启窗口动画效果。",
 
     ["Display minimap icon."] = "显示小地图图标。",
 
-    ["General"] = "一般",
-    ["History"] = "历史记录",
-    ["Filters"] = "过滤",
     ["Plugins"] = "插件",
 
     ["Auto focus when window is shown."] = "窗口出现时自动进入输入文字状态。",
@@ -172,8 +156,6 @@ WIM.AddLocale("zhCN", {
     ["Apply to messages received."] = "应用至收到的信息。",
     ["Apply to messages sent."] = "应用到发送的信息。",
     ["Action to Perform:"] = "操作：",
-    ["Allow"] = "允许",
-    ["Ignore"] = "忽略",
     ["Blocked"] = "屏蔽",
     ["Save"] = "保存",
     ["Cancel"] = "取消",
@@ -204,7 +186,6 @@ WIM.AddLocale("zhCN", {
 
     -- Menu.lua --
     ["Whispers"] = "悄悄话",
-    ["Chat"] = "聊天",
 
     -- Negotiate.lua --
     ["WIM Update Available!"] = "WIM的新版本已经可用！",
@@ -333,7 +314,6 @@ WIM.AddLocale("zhCN", {
     ["Color: URL - Web Addresses"] = "网址链接颜色",
     ["Color: History Messages Sent"] = "发送的消息颜色",
     ["Color: History Messages Received"] = "收到的消息颜色",
-    ["Use colors suggested by skin."] = "使用皮肤推荐的颜色设置。",
     ["Enable window fading effects."] = "开启窗口渐隐效果。",
     ["Enable window animation effects."] = "开启窗口动画效果。",
     ["Display item links when hovering over them."] = "鼠标悬停时显示物品链接。",
