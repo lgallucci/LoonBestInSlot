@@ -53,5 +53,8 @@
         "TooltipDataProcessor",
         "WEAPON",
         "enabled"
+    ],
+    "Lua.diagnostics.disable": [
+        "undefined-global"
     ]
 }
