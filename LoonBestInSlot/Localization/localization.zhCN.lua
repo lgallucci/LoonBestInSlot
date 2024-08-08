@@ -358,6 +358,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Vortex Pinnacle (Heroic)"] = "漩涡峰 (英雄)";
   LBIS.L["Vortex Pinnacle (Normal)"] = "漩涡峰 (正常)";
   LBIS.L["Waist"] = "腰部";
+--  LBIS.L["Warlord of the Amani"] = "";
 --  LBIS.L["World Drop"] = "";
 --  LBIS.L["World Drop (Pickpocket)"] = "";
   LBIS.L["Wrist"] = "手腕";

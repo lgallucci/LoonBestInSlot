@@ -358,6 +358,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Vortex Pinnacle (Heroic)"] = "Cime du vortex (Héroïque)";
   LBIS.L["Vortex Pinnacle (Normal)"] = "Cime du vortex (Normal)";
   LBIS.L["Waist"] = "Taille";
+--  LBIS.L["Warlord of the Amani"] = "";
 --  LBIS.L["World Drop"] = "";
 --  LBIS.L["World Drop (Pickpocket)"] = "";
   LBIS.L["Wrist"] = "Poignets";

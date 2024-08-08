@@ -358,6 +358,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Vortex Pinnacle (Heroic)"] = "Vortexgipfel (Heroisch)";
   LBIS.L["Vortex Pinnacle (Normal)"] = "Vortexgipfel (Normal)";
   LBIS.L["Waist"] = "Taille";
+--  LBIS.L["Warlord of the Amani"] = "";
   LBIS.L["World Drop"] = "Welt Drop";
 --  LBIS.L["World Drop (Pickpocket)"] = "Welt Drop";
   LBIS.L["Wrist"] = "Handgelenke";

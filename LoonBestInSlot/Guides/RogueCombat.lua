@@ -139,6 +139,7 @@ LBIS:AddItem(spec0, "56390", LBIS.L["Off Hand"], "Alt") --Barim's Main Gauche
 LBIS:AddItem(spec0, "57927", LBIS.L["Off Hand"], "Alt") --Throat Slasher
 LBIS:AddItem(spec0, "59367", LBIS.L["Ranged/Relic"], "BIS") --Kickback 5000
 LBIS:AddItem(spec0, "68162", LBIS.L["Ranged/Relic"], "BIS") --Spinerender
+LBIS:AddItem(spec0, "69597", LBIS.L["Ranged/Relic"], "Alt") --Zulian Throwing Axe
 LBIS:AddItem(spec0, "69625", LBIS.L["Ranged/Relic"], "Alt") --Mandokir's Tribute
 LBIS:AddItem(spec0, "56420", LBIS.L["Ranged/Relic"], "Alt") --Slashing Thorns
 LBIS:AddItem(spec0, "56317", LBIS.L["Ranged/Relic"], "Alt") --Amber Messenger

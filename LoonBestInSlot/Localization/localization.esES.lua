@@ -358,6 +358,7 @@ if GetLocale() == "esES" then
   LBIS.L["Vortex Pinnacle (Heroic)"] = "Cumbre del Vórtice (Heroico)";
   LBIS.L["Vortex Pinnacle (Normal)"] = "Cumbre del Vórtice (Normal)";
   LBIS.L["Waist"] = "Cintura";
+--  LBIS.L["Warlord of the Amani"] = "";
   LBIS.L["World Drop"] = "Gota mundial";
 --  LBIS.L["World Drop (Pickpocket)"] = "Gota mundial";
   LBIS.L["Wrist"] = "Brazales";

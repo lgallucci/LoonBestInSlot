@@ -358,6 +358,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Vortex Pinnacle (Heroic)"] = "Вершина Смерча (Героический)";
   LBIS.L["Vortex Pinnacle (Normal)"] = "Вершина Смерча (Норм.)";
   LBIS.L["Waist"] = "Пояс";
+--  LBIS.L["Warlord of the Amani"] = "";
 --  LBIS.L["World Drop"] = "";
 --  LBIS.L["World Drop (Pickpocket)"] = "";
   LBIS.L["Wrist"] = "Запястья";

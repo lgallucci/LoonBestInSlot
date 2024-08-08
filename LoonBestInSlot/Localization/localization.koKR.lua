@@ -358,6 +358,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Vortex Pinnacle (Heroic)"] = "소용돌이 고원 (영웅)";
   LBIS.L["Vortex Pinnacle (Normal)"] = "소용돌이 고원 (일반)";
   LBIS.L["Waist"] = "허리";
+--  LBIS.L["Warlord of the Amani"] = "";
   LBIS.L["World Drop"] = "월드 드랍";
 --  LBIS.L["World Drop (Pickpocket)"] = "월드 드랍";
   LBIS.L["Wrist"] = "손목";
