@@ -552,8 +552,8 @@ local function LoadData()
     LBIS:AddItem(spec4, "228061", LBIS.L["Hands"], "Alt") --Brightspark Gloves
     LBIS:AddItem(spec4, "226731", LBIS.L["Hands"], "Alt") --Magister's Gloves
     LBIS:AddItem(spec4, "227823", LBIS.L["Hands"], "Alt") --Fine Flarecore Gloves
-    LBIS:AddItem(spec4, "227099", LBIS.L["Hands"], "Alt") --Blood Guard's Dreadweave Handwraps
     LBIS:AddItem(spec4, "227100", LBIS.L["Hands"], "Alt") --Knight-Lieutenant's Dreadweave Handwraps
+    LBIS:AddItem(spec4, "227099", LBIS.L["Hands"], "Alt") --Blood Guard's Dreadweave Handwraps
     LBIS:AddItem(spec4, "228256", LBIS.L["Waist"], "BIS") --Mana Igniting Cord
     LBIS:AddItem(spec4, "228190", LBIS.L["Waist"], "BIS") --Knowledge of the Timbermaw
     LBIS:AddItem(spec4, "228184", LBIS.L["Waist"], "Alt") --Goblin Clothesline
@@ -608,8 +608,8 @@ local function LoadData()
     LBIS:AddItem(spec4, "228533", LBIS.L["Neck"], "Alt") --Nacreous Shell Necklace
     LBIS:AddItem(spec4, "22657", LBIS.L["Neck"], "Alt") --Amulet of the Dawn
     LBIS:AddItem(spec4, "228287", LBIS.L["Ring"], "BIS") --Band of Sulfuras
-    LBIS:AddItem(spec4, "228243", LBIS.L["Ring"], "Alt") --Ring of Spell Power
-    LBIS:AddItem(spec4, "228687", LBIS.L["Ring"], "Alt") --Dragonslayer's Signet
+    LBIS:AddItem(spec4, "228243", LBIS.L["Ring"], "BIS") --Ring of Spell Power
+    LBIS:AddItem(spec4, "228687", LBIS.L["Ring"], "BIS") --Dragonslayer's Signet
     LBIS:AddItem(spec4, "228076", LBIS.L["Ring"], "Alt") --Burning Ring of Fire
     LBIS:AddItem(spec4, "12926", LBIS.L["Ring"], "Alt") --Flaming Band
     LBIS:AddItem(spec4, "228045", LBIS.L["Ring"], "Alt") --Necromantic Band
@@ -624,6 +624,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "227282", LBIS.L["Ring"], "Alt") --Ring of the Dreaded Mist
     LBIS:AddItem(spec4, "228524", LBIS.L["Ring"], "Alt") --The Postmaster's Seal
     LBIS:AddItem(spec4, "228085", LBIS.L["Ring"], "Alt") --Phaseshifted Legion Band
+    LBIS:AddItem(spec4, "227454", LBIS.L["Ring"], "Alt") --Tidal Loop
     LBIS:AddItem(spec4, "228255", LBIS.L["Trinket"], "BIS") --Talisman of Ephemeral Power
     LBIS:AddItem(spec4, "223195", LBIS.L["Trinket"], "BIS") --Breadth of the Beast
     LBIS:AddItem(spec4, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
@@ -634,28 +635,35 @@ local function LoadData()
     LBIS:AddItem(spec4, "223214", LBIS.L["Trinket"], "Alt") --Zila Gular
     LBIS:AddItem(spec4, "228269", LBIS.L["Main Hand"], "BIS") --Azuresong Mageblade
     LBIS:AddItem(spec4, "228382", LBIS.L["Main Hand"], "Alt") --Fang of the Mystics
-    LBIS:AddItem(spec4, "228263", LBIS.L["Main Hand"], "Alt") --Sorcerous Dagger
-    LBIS:AddItem(spec4, "20214", LBIS.L["Main Hand"], "Alt") --Mindfang
+    LBIS:AddItem(spec4, "227850", LBIS.L["Main Hand"], "Alt") --Sageblade of the Archmagus
     LBIS:AddItem(spec4, "20070", LBIS.L["Main Hand"], "Alt") --Sageclaw
+    LBIS:AddItem(spec4, "20214", LBIS.L["Main Hand"], "Alt") --Mindfang
+    LBIS:AddItem(spec4, "228263", LBIS.L["Main Hand"], "Alt") --Sorcerous Dagger
     LBIS:AddItem(spec4, "223964", LBIS.L["Main Hand"], "Alt") --Blade of Eternal Darkness
+    LBIS:AddItem(spec4, "227832", LBIS.L["Main Hand"], "Alt") --Tempered Black Amnesty
     LBIS:AddItem(spec4, "220586", LBIS.L["Main Hand"], "Alt") --Hubris, the Bandit Brander
     LBIS:AddItem(spec4, "20698", LBIS.L["Main Hand"], "Alt") --Elemental Attuned Blade
+    LBIS:AddItem(spec4, "228028", LBIS.L["Main Hand"], "Alt") --Blade of Necromancy
+    LBIS:AddItem(spec4, "223198", LBIS.L["Main Hand"], "Alt") --Modas Karkun
+    LBIS:AddItem(spec4, "223520", LBIS.L["Main Hand"], "Alt") --Inventor's Focal Sword
     LBIS:AddItem(spec4, "220598", LBIS.L["Off Hand"], "BIS") --Drakestone of the Nightmare Harbinger
-    LBIS:AddItem(spec4, "220599", LBIS.L["Off Hand"], "Alt") --Drakestone of the Blood Prophet
+    LBIS:AddItem(spec4, "220599", LBIS.L["Off Hand"], "BIS") --Drakestone of the Blood Prophet
     LBIS:AddItem(spec4, "22329", LBIS.L["Off Hand"], "Alt") --Scepter of Interminable Focus
+    LBIS:AddItem(spec4, "228955", LBIS.L["Off Hand"], "Alt") --Ancient Cornerstone Grimoire
     LBIS:AddItem(spec4, "228259", LBIS.L["Off Hand"], "Alt") --Fire Runed Grimoire
-    LBIS:AddItem(spec4, "20582", LBIS.L["Off Hand"], "Alt") --Trance Stone
     LBIS:AddItem(spec4, "228166", LBIS.L["Two Hand"], "BIS") --Key to the City
     LBIS:AddItem(spec4, "228271", LBIS.L["Two Hand"], "Alt") --Staff of Dominance
     LBIS:AddItem(spec4, "228356", LBIS.L["Two Hand"], "Alt") --Amberseal Keeper
     LBIS:AddItem(spec4, "220590", LBIS.L["Two Hand"], "Alt") --Spire of Hakkari Worship
     LBIS:AddItem(spec4, "20069", LBIS.L["Two Hand"], "Alt") --Ironbark Staff
+    LBIS:AddItem(spec4, "23124", LBIS.L["Two Hand"], "Alt") --Staff of Balzaphon
+    LBIS:AddItem(spec4, "22335", LBIS.L["Two Hand"], "Alt") --Lord Valthalak's Staff of Command
     LBIS:AddItem(spec4, "220595", LBIS.L["Two Hand"], "Alt") --Nightmare Focus Staff
-    LBIS:AddItem(spec4, "220604", LBIS.L["Ranged/Relic"], "Alt") --Nightmare Trophy
-    LBIS:AddItem(spec4, "228262", LBIS.L["Ranged/Relic"], "Alt") --Crimson Shocker
-    LBIS:AddItem(spec4, "13396", LBIS.L["Ranged/Relic"], "Alt") --Skul's Ghastly Touch
-    LBIS:AddItem(spec4, "13938", LBIS.L["Ranged/Relic"], "Alt") --Bonecreeper Stylus
+    LBIS:AddItem(spec4, "220604", LBIS.L["Ranged/Relic"], "BIS") --Nightmare Trophy
+    LBIS:AddItem(spec4, "13396", LBIS.L["Ranged/Relic"], "BIS") --Skul's Ghastly Touch
+    LBIS:AddItem(spec4, "228262", LBIS.L["Ranged/Relic"], "BIS") --Crimson Shocker
     LBIS:AddItem(spec4, "11748", LBIS.L["Ranged/Relic"], "Alt") --Pyric Caduceus
+    LBIS:AddItem(spec4, "13938", LBIS.L["Ranged/Relic"], "Alt") --Bonecreeper Stylus
     LBIS:AddItem(spec4, "22408", LBIS.L["Ranged/Relic"], "Alt") --Ritssyn's Wand of Bad Mojo
 end
 if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then

@@ -542,18 +542,19 @@ local function LoadData()
     LBIS:AddItem(spec3, "209674", LBIS.L["Ranged/Relic"], "Alt") --Phoenix Ignition
 
     LBIS:AddItem(spec4, "226917", LBIS.L["Head"], "BIS") --Deathmist Hood
-    LBIS:AddItem(spec4, "226909", LBIS.L["Head"], "BIS Thrt") --Deathmist Mask
+    LBIS:AddItem(spec4, "216922", LBIS.L["Head"], "Alt") --Felheart Crown
+    LBIS:AddItem(spec4, "226909", LBIS.L["Head"], "Alt Thrt") --Deathmist Mask
+    LBIS:AddItem(spec4, "226549", LBIS.L["Head"], "Alt Thrt") --Felheart Horns
+    LBIS:AddItem(spec4, "3075", LBIS.L["Head"], "Alt") --Eye of Flame
     LBIS:AddItem(spec4, "22267", LBIS.L["Head"], "Alt") --Spellweaver's Turban
-    LBIS:AddItem(spec4, "220523", LBIS.L["Head"], "Alt") --Visage of the Exiled
-    LBIS:AddItem(spec4, "16929", LBIS.L["Head"], "Alt") --Nemesis Skullcap
     LBIS:AddItem(spec4, "22302", LBIS.L["Head"], "Alt") --Ironweave Cowl
     LBIS:AddItem(spec4, "227090", LBIS.L["Head"], "Alt") --Champion's Dreadweave Cowl
     LBIS:AddItem(spec4, "227093", LBIS.L["Head"], "Alt") --Lieutenant Commander's Dreadweave Cowl
+    LBIS:AddItem(spec4, "220523", LBIS.L["Head"], "Alt") --Visage of the Exiled
+    LBIS:AddItem(spec4, "22225", LBIS.L["Head"], "Alt") --Dragonskin Cowl
+    LBIS:AddItem(spec4, "228480", LBIS.L["Head"], "Alt") --Crown of the Ogre King
     LBIS:AddItem(spec4, "226762", LBIS.L["Head"], "Alt") --Dreadmist Mask
-    LBIS:AddItem(spec4, "226728", LBIS.L["Head"], "Alt") --Magister's Crown
-    LBIS:AddItem(spec4, "3075", LBIS.L["Head"], "Alt") --Eye of Flame
-    LBIS:AddItem(spec4, "216922", LBIS.L["Head"], "Alt") --Felheart Crown
-    LBIS:AddItem(spec4, "18727", LBIS.L["Head"], "Alt") --Crimson Felt Hat
+    LBIS:AddItem(spec4, "227973", LBIS.L["Head"], "Alt") --Circle of Flame
     LBIS:AddItem(spec4, "20061", LBIS.L["Shoulder"], "BIS") --Highlander's Epaulets
     LBIS:AddItem(spec4, "20176", LBIS.L["Shoulder"], "BIS") --Defiler's Epaulets
     LBIS:AddItem(spec4, "226756", LBIS.L["Shoulder"], "Alt") --Dreadmist Mantle
@@ -561,8 +562,8 @@ local function LoadData()
     LBIS:AddItem(spec4, "226915", LBIS.L["Shoulder"], "Alt") --Deathmist Epaulets
     LBIS:AddItem(spec4, "20686", LBIS.L["Shoulder"], "Alt") --Abyssal Cloth Amice
     LBIS:AddItem(spec4, "22305", LBIS.L["Shoulder"], "Alt") --Ironweave Mantle
-    LBIS:AddItem(spec4, "227092", LBIS.L["Shoulder"], "Alt") --Champion's Dreadweave Spaulders
     LBIS:AddItem(spec4, "227091", LBIS.L["Shoulder"], "Alt") --Lieutenant Commander's Dreadweave Spaulders
+    LBIS:AddItem(spec4, "227092", LBIS.L["Shoulder"], "Alt") --Champion's Dreadweave Spaulders
     LBIS:AddItem(spec4, "220751", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Deranged
     LBIS:AddItem(spec4, "226912", LBIS.L["Shoulder"], "Alt") --Deathmist Mantle
     LBIS:AddItem(spec4, "228546", LBIS.L["Shoulder"], "Alt") --Shroud of the Nathrezim
