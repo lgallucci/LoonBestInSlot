@@ -43,6 +43,7 @@ public class WowheadGuideParser
         { 18330, 22844 }, //Arcanum of Focus
         { 227819, 460963}, //Blessed Flame Mantle of the Dawn
         { 227926, 461129}, //Hydraxian Coronation
+        { 18251, 22725}, //Core Armor Kit
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()

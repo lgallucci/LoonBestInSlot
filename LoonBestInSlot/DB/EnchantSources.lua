@@ -78,6 +78,7 @@ LBIS.EnchantSources =
     [20034] = { Name = "Enchant Weapon - Crusader", DesignId = "16252", ScrollId = "0", Source = LBIS.L["Scarlet Spellbinder"], SourceLocation = LBIS.L["Western Plaguelands"], TextureId = "" },
     [20081] = { Name = "Formula: Enchant Bracer - Superior Strength", DesignId = "16246", ScrollId = "0", Source = LBIS.L["Deadwind Warlock"], SourceLocation = LBIS.L["Deadwind Pass"], TextureId = "" },
     [21931] = { Name = "Enchant Weapon - Winter's Might", DesignId = "17725", ScrollId = "0", Source = LBIS.L["Present"], SourceLocation = LBIS.L["Winter Veil (Seasonal)"], TextureId = "" },
+    [22725] = { Name = "Core Armor Kit", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = "", TextureId = "18251" },
     [22749] = { Name = "Enchant Weapon - Spell Power", DesignId = "18259", ScrollId = "0", Source = LBIS.L["Boss Drop"], SourceLocation = LBIS.L["Molten Core"], TextureId = "" },
     [22750] = { Name = "Enchant Weapon - Healing Power", DesignId = "18260", ScrollId = "0", Source = LBIS.L["Boss Drop"], SourceLocation = LBIS.L["Molten Core"], TextureId = "" },
     [22840] = { Name = "Arcanum of Rapidity", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Lorekeeper Lydros (Librams)"], SourceLocation = LBIS.L["Dire Maul"], TextureId = "18329" },

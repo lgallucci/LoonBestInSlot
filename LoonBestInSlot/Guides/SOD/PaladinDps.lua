@@ -264,6 +264,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "221783", LBIS.L["Shoulder"], "BIS") --Lawbringer Spaulders
     LBIS:AddItem(spec4, "226969", LBIS.L["Shoulder"], "Alt") --Soulforge Spaulders
     LBIS:AddItem(spec4, "20058", LBIS.L["Shoulder"], "Alt") --Highlander's Lamellar Spaulders
+    LBIS:AddItem(spec4, "227834", LBIS.L["Shoulder"], "Alt") --Molten Chain Shoulders
     LBIS:AddItem(spec4, "220529", LBIS.L["Shoulder"], "Alt") --Spaulders of Fanaticism
     LBIS:AddItem(spec4, "20683", LBIS.L["Shoulder"], "Alt") --Abyssal Plate Epaulets
     LBIS:AddItem(spec4, "228102", LBIS.L["Back"], "BIS") --Majordomo's Drape
@@ -281,6 +282,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "228127", LBIS.L["Wrist"], "Alt") --Wristguards of Instability
     LBIS:AddItem(spec4, "228246", LBIS.L["Wrist"], "Alt") --Wristguards of Stability
     LBIS:AddItem(spec4, "19578", LBIS.L["Wrist"], "Alt") --Berserker Bracers
+    LBIS:AddItem(spec4, "227820", LBIS.L["Wrist"], "Alt") --Tempered Dark Iron Bracers
     LBIS:AddItem(spec4, "226970", LBIS.L["Wrist"], "Alt") --Soulforge Bracers
     LBIS:AddItem(spec4, "228260", LBIS.L["Hands"], "BIS") --Flameguard Gauntlets
     LBIS:AddItem(spec4, "226600", LBIS.L["Hands"], "Alt") --Lawbringer Grips
@@ -294,17 +296,20 @@ local function LoadData()
     LBIS:AddItem(spec4, "226597", LBIS.L["Waist"], "Alt") --Lawbringer Girdle
     LBIS:AddItem(spec4, "227814", LBIS.L["Waist"], "Alt") --Radiant Girdle of the Dawn
     LBIS:AddItem(spec4, "215380", LBIS.L["Waist"], "Alt") --Power-Assisted Lifting Belt
+    LBIS:AddItem(spec4, "227828", LBIS.L["Waist"], "Alt") --Lavawalker Belt
     LBIS:AddItem(spec4, "228670", LBIS.L["Waist"], "Alt") --Brigam Girdle
     LBIS:AddItem(spec4, "20041", LBIS.L["Waist"], "Alt") --Highlander's Plate Girdle
     LBIS:AddItem(spec4, "22197", LBIS.L["Waist"], "Alt") --Heavy Obsidian Belt
     LBIS:AddItem(spec4, "226598", LBIS.L["Legs"], "BIS") --Lawbringer Leggings
     LBIS:AddItem(spec4, "22385", LBIS.L["Legs"], "Alt") --Titanic Leggings
     LBIS:AddItem(spec4, "227847", LBIS.L["Legs"], "Alt") --Devilcore Leggings
+    LBIS:AddItem(spec4, "227836", LBIS.L["Legs"], "Alt") --Tempered Dark Iron Leggings
     LBIS:AddItem(spec4, "220654", LBIS.L["Legs"], "Alt") --Wailing Berserker's Legplates
     LBIS:AddItem(spec4, "226972", LBIS.L["Legs"], "Alt") --Soulforge Legplates
     LBIS:AddItem(spec4, "14554", LBIS.L["Legs"], "Alt") --Cloudkeeper Legplates
     LBIS:AddItem(spec4, "226601", LBIS.L["Feet"], "BIS") --Lawbringer Battleboots
     LBIS:AddItem(spec4, "220656", LBIS.L["Feet"], "Alt") --Wailing Berserker's Battleboots
+    LBIS:AddItem(spec4, "228924", LBIS.L["Feet"], "Alt") --Tempered Dark Iron Boots
     LBIS:AddItem(spec4, "226974", LBIS.L["Feet"], "Alt") --Soulforge Warboots
     LBIS:AddItem(spec4, "226764", LBIS.L["Feet"], "Alt") --Boots of Valor
     LBIS:AddItem(spec4, "228759", LBIS.L["Neck"], "BIS") --Eskhandar's Collar
@@ -328,6 +333,8 @@ local function LoadData()
     LBIS:AddItem(spec4, "228078", LBIS.L["Trinket"], "BIS") --Accursed Chalice
     LBIS:AddItem(spec4, "10725", LBIS.L["Trinket"], "BIS") --Gnomish Battle Chicken
     LBIS:AddItem(spec4, "227915", LBIS.L["Trinket"], "Alt") --Duke's Domain
+    LBIS:AddItem(spec4, "228084", LBIS.L["Trinket"], "Alt") --Miniaturized Fire Extinguisher
+    LBIS:AddItem(spec4, "13164", LBIS.L["Trinket"], "Alt") --Heart of the Scale
     LBIS:AddItem(spec4, "221307", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Decay
     LBIS:AddItem(spec4, "221309", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Sandstorm
     LBIS:AddItem(spec4, "13965", LBIS.L["Trinket"], "Alt") --Blackhand's Breadth
@@ -339,12 +346,13 @@ local function LoadData()
     LBIS:AddItem(spec4, "228230", LBIS.L["Two Hand"], "Alt") --Refined Hammer of the Titans
     LBIS:AddItem(spec4, "228460", LBIS.L["Two Hand"], "Alt") --Spinal Reaper
     LBIS:AddItem(spec4, "227691", LBIS.L["Two Hand"], "Alt") --Blade of Hanna
-    LBIS:AddItem(spec4, "228229", LBIS.L["Two Hand"], "Alt") --Obsidian Edged Blade
     LBIS:AddItem(spec4, "227960", LBIS.L["Two Hand"], "Alt") --Impervious Giant
+    LBIS:AddItem(spec4, "228229", LBIS.L["Two Hand"], "Alt") --Obsidian Edged Blade
     LBIS:AddItem(spec4, "227845", LBIS.L["Two Hand"], "Alt") --Refined Arcanite Reaper
     LBIS:AddItem(spec4, "1263", LBIS.L["Two Hand"], "Alt") --Brain Hacker
     LBIS:AddItem(spec4, "228160", LBIS.L["Two Hand"], "Alt") --Faithbringer
     LBIS:AddItem(spec4, "223526", LBIS.L["Two Hand"], "Alt") --Sul'thraze the Lasher
+    LBIS:AddItem(spec4, "227684", LBIS.L["Two Hand"], "Alt") --Sulfuron Hammer
     LBIS:AddItem(spec4, "23203", LBIS.L["Ranged/Relic"], "BIS") --Libram of Fervor
     LBIS:AddItem(spec4, "221457", LBIS.L["Ranged/Relic"], "Alt") --Libram of Draconic Destruction
     LBIS:AddItem(spec4, "209574", LBIS.L["Ranged/Relic"], "Alt") --Discarded Tenets of the Silver Hand

@@ -320,8 +320,8 @@ local function LoadData()
     LBIS:AddItem(spec4, "226443", LBIS.L["Feet"], "BIS") --Nightslayer Boots
     LBIS:AddItem(spec4, "228091", LBIS.L["Feet"], "Alt") --Thorned Boots
     LBIS:AddItem(spec4, "226831", LBIS.L["Feet"], "Alt") --Darkmantle Footpads
-    LBIS:AddItem(spec4, "20186", LBIS.L["Feet"], "Alt") --Defiler's Leather Boots
     LBIS:AddItem(spec4, "20052", LBIS.L["Feet"], "Alt") --Highlander's Leather Boots
+    LBIS:AddItem(spec4, "20186", LBIS.L["Feet"], "Alt") --Defiler's Leather Boots
     LBIS:AddItem(spec4, "16711", LBIS.L["Feet"], "Alt") --Shadowcraft Boots
     LBIS:AddItem(spec4, "228685", LBIS.L["Neck"], "BIS") --Onyxia Tooth Pendant
     LBIS:AddItem(spec4, "228759", LBIS.L["Neck"], "BIS") --Eskhandar's Collar
@@ -357,15 +357,17 @@ local function LoadData()
     LBIS:AddItem(spec4, "228757", LBIS.L["Main Hand"], "BIS") --Felstriker
     LBIS:AddItem(spec4, "228350", LBIS.L["Main Hand"], "BIS") --Eskhandar's Right Claw
     LBIS:AddItem(spec4, "228277", LBIS.L["Main Hand/Off Hand"], "Alt/BIS") --Core Hound Tooth
-    LBIS:AddItem(spec4, "228296", LBIS.L["Main Hand"], "Alt") --Perdition's Blade
+    LBIS:AddItem(spec4, "228162", LBIS.L["Main Hand/Off Hand"], "Alt") --Deceit
     LBIS:AddItem(spec4, "13368", LBIS.L["Main Hand/Off Hand"], "Alt") --Bonescraper
+    LBIS:AddItem(spec4, "14555", LBIS.L["Main Hand/Off Hand"], "Alt") --Alcor's Sunrazor
+    LBIS:AddItem(spec4, "228296", LBIS.L["Main Hand"], "Alt") --Perdition's Blade
     LBIS:AddItem(spec4, "220585", LBIS.L["Main Hand"], "Alt") --Degraded Dire Nail
     LBIS:AddItem(spec4, "19324", LBIS.L["Main Hand"], "Alt") --The Lobotomizer
     LBIS:AddItem(spec4, "19542", LBIS.L["Main Hand"], "Alt") --Scout's Blade
     LBIS:AddItem(spec4, "19546", LBIS.L["Main Hand"], "Alt") --Sentinel's Blade
-    LBIS:AddItem(spec4, "228265", LBIS.L["Main Hand"], "Alt") --Brutality Blade
     LBIS:AddItem(spec4, "227991", LBIS.L["Main Hand"], "Alt") --Ironfoe
     LBIS:AddItem(spec4, "17112", LBIS.L["Main Hand"], "Alt") --Empyrean Demolisher
+    LBIS:AddItem(spec4, "228265", LBIS.L["Main Hand"], "Alt") --Brutality Blade
     LBIS:AddItem(spec4, "17075", LBIS.L["Main Hand"], "Alt") --Vis'kag the Bloodletter
     LBIS:AddItem(spec4, "228653", LBIS.L["Main Hand"], "Alt") --Dal'Rend's Sacred Charge
     LBIS:AddItem(spec4, "228143", LBIS.L["Off Hand"], "BIS") --Shadowflame Sword

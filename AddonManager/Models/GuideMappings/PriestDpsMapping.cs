@@ -41,7 +41,7 @@ internal class PriestDpsMapping : SpecMapping
     public override string Phase4Url => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "h3#main-hand ~ h3#main-hand") },
+            { ("Main Hand", "#main-hand-2") },
             { ("Off Hand", "h3#off-hand") },
             { ("Two Hand", "h3#main-hand") },
             { ("Ranged/Relic", "h3#ranged") },
