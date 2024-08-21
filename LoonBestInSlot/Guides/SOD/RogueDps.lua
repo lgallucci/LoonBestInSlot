@@ -335,8 +335,8 @@ local function LoadData()
     LBIS:AddItem(spec4, "19538", LBIS.L["Neck"], "Alt") --Sentinel's Medallion
     LBIS:AddItem(spec4, "19534", LBIS.L["Neck"], "Alt") --Scout's Medallion
     LBIS:AddItem(spec4, "228286", LBIS.L["Ring"], "BIS") --Band of Accuria
-    LBIS:AddItem(spec4, "228261", LBIS.L["Ring"], "BIS") --Quick Strike Ring
-    LBIS:AddItem(spec4, "227280", LBIS.L["Ring"], "Alt") --Craft of the Shadows
+    LBIS:AddItem(spec4, "227280", LBIS.L["Ring"], "BIS") --Craft of the Shadows
+    LBIS:AddItem(spec4, "228261", LBIS.L["Ring"], "Alt") --Quick Strike Ring
     LBIS:AddItem(spec4, "228469", LBIS.L["Ring"], "Alt") --Tarnished Elven Ring
     LBIS:AddItem(spec4, "228080", LBIS.L["Ring"], "Alt") --Resin Loop
     LBIS:AddItem(spec4, "19325", LBIS.L["Ring"], "Alt") --Don Julio's Band
