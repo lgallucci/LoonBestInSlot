@@ -1048,9 +1048,25 @@
       "SourceLocation": "Revered",
       "SourceFaction": "H"
     },
+    "68764": {
+      "Name": "Arcanum of the Earthen Ring",
+      "Source": "The Earthen Ring",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
     "68765": {
       "Name": "Arcanum of Hyjal",
       "Source": "Guardians of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "68766": {
+      "Name": "Arcanum of the Ramkahen",
+      "Source": "Ramkahen",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "",
@@ -1079,6 +1095,238 @@
       "SourceNumber": "0",
       "SourceLocation": "",
       "SourceFaction": "A"
+    },
+    "68996": {
+      "Name": "Stay of Execution",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "68998": {
+      "Name": "Rune of Zeth",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "69000": {
+      "Name": "Fiery Quintessence",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "69001": {
+      "Name": "Ancient Petrified Seed",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "69002": {
+      "Name": "Essence of the Eternal Flame",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "70930": {
+      "Name": "Durable Flamewrath Greatcloak",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "70933": {
+      "Name": "Girdle of the Indomitable Flame",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "70934": {
+      "Name": "Adamantine Signet of the Avengers",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "71131": {
+      "Name": "Flamebinding Girdle",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "71215": {
+      "Name": "Obsidian Signet of the Avengers",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "71216": {
+      "Name": "Viridian Signet of the Avengers",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "71217": {
+      "Name": "Infernal Signet of the Avengers",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "71227": {
+      "Name": "Bladed Flamewrath Cover",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "71228": {
+      "Name": "Sleek Flamewrath Cloak",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "71229": {
+      "Name": "Flowing Flamewrath Cape",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "71230": {
+      "Name": "Rippling Flamewrath Drape",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "71237": {
+      "Name": "Quicksilver Signet of the Avengers",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "71249": {
+      "Name": "Firescar Sash",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "71250": {
+      "Name": "Cinch of the Flaming Ember",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "71253": {
+      "Name": "Belt of the Seven Seals",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "71254": {
+      "Name": "Firemend Cinch",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "71255": {
+      "Name": "Firearrow Belt",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "71258": {
+      "Name": "Embereye Belt",
+      "Source": "Avengers of Hyjal",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "90897": {
+      "Name": "Fox Kit",
+      "Source": "Baradin's Wardens",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "90898": {
+      "Name": "Fox Kit",
+      "Source": "Hellscream's Reach",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "226459": {
+      "Name": "Greater Inscription of Unbreakable Quartz",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "226460": {
+      "Name": "Greater Inscription of Shattered Crystal",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "226462": {
+      "Name": "Greater Inscription of Jagged Stone",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "226463": {
+      "Name": "Greater Inscription of Charged Lodestone",
+      "Source": "Therazane",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
     }
   }
 }

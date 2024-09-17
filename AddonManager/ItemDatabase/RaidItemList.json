@@ -3272,6 +3272,142 @@
       "SourceLocation": "The Bastion of Twilight (Heroic)",
       "SourceFaction": "B"
     },
+    "68925": {
+      "Name": "Variable Pulse Lightning Capacitor",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "68926": {
+      "Name": "Jaws of Defeat",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "68927": {
+      "Name": "The Hungerer",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "68981": {
+      "Name": "Spidersilk Spindle",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "68982": {
+      "Name": "Necromantic Focus",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "68983": {
+      "Name": "Eye of Blazing Power",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "68994": {
+      "Name": "Matrix Restabilizer",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "68995": {
+      "Name": "Vessel of Acceleration",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "69110": {
+      "Name": "Variable Pulse Lightning Capacitor",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "69111": {
+      "Name": "Jaws of Defeat",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "69112": {
+      "Name": "The Hungerer",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "69138": {
+      "Name": "Spidersilk Spindle",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "69139": {
+      "Name": "Necromantic Focus",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "69149": {
+      "Name": "Eye of Blazing Power",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "69150": {
+      "Name": "Matrix Restabilizer",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "69167": {
+      "Name": "Vessel of Acceleration",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "69224": {
+      "Name": "Smoldering Egg of Millagazor",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
     "69827": {
       "Name": "Mistral Pendant",
       "Source": "Al'Akir",
@@ -3400,6 +3536,14 @@
       "SourceLocation": "Throne of the Four Winds (Heroic)",
       "SourceFaction": "B"
     },
+    "69897": {
+      "Name": "Fandral's Flamescythe",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
     "70322": {
       "Name": "Ruthless Gladiator's Armplates of Alacrity",
       "Source": "Occu'thar",
@@ -3496,6 +3640,142 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "70723": {
+      "Name": "Sulfuras, the Extinguished Hand",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70733": {
+      "Name": "Alysra's Razor",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70734": {
+      "Name": "Greathelm of the Voracious Maw",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70735": {
+      "Name": "Flickering Wristbands",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70736": {
+      "Name": "Moltenfeather Leggings",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70737": {
+      "Name": "Spaulders of Recurring Flame",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70738": {
+      "Name": "Alysrazor's Band",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70739": {
+      "Name": "Lavaworm Legplates",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70912": {
+      "Name": "Cracked Obsidian Stompers",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70913": {
+      "Name": "Legplates of Frenzied Devotion",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70914": {
+      "Name": "Carapace of Imbibed Flame",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70915": {
+      "Name": "Shard of Torment",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70916": {
+      "Name": "Helm of Blazing Glory",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70917": {
+      "Name": "Flickering Handguards",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70920": {
+      "Name": "Bracers of the Fiery Path",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70921": {
+      "Name": "Pauldrons of Roaring Flame",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70922": {
+      "Name": "Mandible of Beth'tilac",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
     "70942": {
       "Name": "Legguards of the Molten Giant",
       "Source": "Occu'thar",
@@ -3542,6 +3822,342 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70985": {
+      "Name": "Craterflame Spaulders",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70986": {
+      "Name": "Clawshaper Gauntlets",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70987": {
+      "Name": "Phoenix-Down Treads",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70988": {
+      "Name": "Clutch of the Firemother",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70989": {
+      "Name": "Leggings of Billowing Fire",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70990": {
+      "Name": "Wings of Flame",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70991": {
+      "Name": "Arbalest of Erupting Fury",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70992": {
+      "Name": "Dreadfire Drape",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "70993": {
+      "Name": "Fireskin Gauntlets",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71003": {
+      "Name": "Hood of Rampant Disdain",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71004": {
+      "Name": "Earthcrack Bracers",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71005": {
+      "Name": "Flaming Core Chestguard",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71006": {
+      "Name": "Volcanospike",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71007": {
+      "Name": "Grips of the Raging Giant",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71009": {
+      "Name": "Lava Line Wristbands",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71010": {
+      "Name": "Incendic Chestguard",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71011": {
+      "Name": "Flickering Cowl",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71012": {
+      "Name": "Heartstone of Rhyolith",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71013": {
+      "Name": "Feeding Frenzy",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71014": {
+      "Name": "Skullstealer Greataxe",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71018": {
+      "Name": "Scalp of the Bandit Prince",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71019": {
+      "Name": "Necklace of Fetishes",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71020": {
+      "Name": "Gloves of Dissolving Smoke",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71021": {
+      "Name": "Uncrushable Belt of Fury",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71022": {
+      "Name": "Goblet of Anger",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71023": {
+      "Name": "Coalwalker Sandals",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71024": {
+      "Name": "Crystal Prison Band",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71025": {
+      "Name": "Flickering Shoulderpads",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71026": {
+      "Name": "Bracers of the Dread Hunter",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71027": {
+      "Name": "Treads of Implicit Obedience",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71028": {
+      "Name": "Legplates of Absolute Control",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71029": {
+      "Name": "Arachnaflame Treads",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71030": {
+      "Name": "Flickering Shoulders",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71031": {
+      "Name": "Cinderweb Leggings",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71032": {
+      "Name": "Widow's Kiss",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71038": {
+      "Name": "Ward of the Red Widow",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71039": {
+      "Name": "Funeral Pyre",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71040": {
+      "Name": "Cowl of the Clicking Menace",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71041": {
+      "Name": "Robes of Smoldering Devastation",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71042": {
+      "Name": "Thoracic Flame Kilt",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71043": {
+      "Name": "Spaulders of Manifold Eyes",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71044": {
+      "Name": "Cindersilk Gloves",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
       "SourceFaction": "B"
     },
     "71046": {
@@ -3798,6 +4414,1158 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "71312": {
+      "Name": "Gatecrasher",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71313": {
+      "Name": "Sandals of Leaping Coals",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71314": {
+      "Name": "Breastplate of the Incendiary Soul",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71315": {
+      "Name": "Decimation Treads",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71323": {
+      "Name": "Molten Scream",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71340": {
+      "Name": "Gatekeeper's Embrace",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71341": {
+      "Name": "Glowing Wing Bracers",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71342": {
+      "Name": "Casque of Flame",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71343": {
+      "Name": "Mantle of Closed Doors",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71344": {
+      "Name": "Breastplate of Shifting Visions",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71345": {
+      "Name": "Shoulderpads of the Forgotten Gate",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71346": {
+      "Name": "Grips of Unerring Precision",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71347": {
+      "Name": "Stinger of the Flaming Scorpion",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71348": {
+      "Name": "Flowform Choker",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71349": {
+      "Name": "Firecat Leggings",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71350": {
+      "Name": "Wristwraps of Arrogant Doom",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71351": {
+      "Name": "Treads of the Penitent Man",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71352": {
+      "Name": "Sulfuras, the Extinguished Hand",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71353": {
+      "Name": "Arathar, the Eye of Flame",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71354": {
+      "Name": "Choker of the Vanquished Lord",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71355": {
+      "Name": "Ko'gun, Hammer of the Firelord",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71356": {
+      "Name": "Crown of Flame",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71357": {
+      "Name": "Majordomo's Chain of Office",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71358": {
+      "Name": "Fingers of Incineration",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71401": {
+      "Name": "Widow's Kiss",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71402": {
+      "Name": "Cinderweb Leggings",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71403": {
+      "Name": "Flickering Shoulders",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71404": {
+      "Name": "Arachnaflame Treads",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71405": {
+      "Name": "Carapace of Imbibed Flame",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71406": {
+      "Name": "Mandible of Beth'tilac",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71407": {
+      "Name": "Robes of Smoldering Devastation",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71408": {
+      "Name": "Ward of the Red Widow",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71409": {
+      "Name": "Funeral Pyre",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71410": {
+      "Name": "Cindersilk Gloves",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71411": {
+      "Name": "Cowl of the Clicking Menace",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71412": {
+      "Name": "Thoracic Flame Kilt",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71413": {
+      "Name": "Spaulders of Manifold Eyes",
+      "Source": "Beth'tilac",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71414": {
+      "Name": "Arbalest of Erupting Fury",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71415": {
+      "Name": "Dreadfire Drape",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71416": {
+      "Name": "Hood of Rampant Disdain",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71417": {
+      "Name": "Flaming Core Chestguard",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71418": {
+      "Name": "Earthcrack Bracers",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71419": {
+      "Name": "Fireskin Gauntlets",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71420": {
+      "Name": "Cracked Obsidian Stompers",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71421": {
+      "Name": "Flickering Cowl",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71422": {
+      "Name": "Volcanospike",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71423": {
+      "Name": "Heartstone of Rhyolith",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71424": {
+      "Name": "Incendic Chestguard",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71425": {
+      "Name": "Lava Line Wristbands",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71426": {
+      "Name": "Grips of the Raging Giant",
+      "Source": "Lord Rhyolith",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71427": {
+      "Name": "Alysra's Razor",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71428": {
+      "Name": "Flickering Wristbands",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71429": {
+      "Name": "Moltenfeather Leggings",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71430": {
+      "Name": "Greathelm of the Voracious Maw",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71431": {
+      "Name": "Lavaworm Legplates",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71432": {
+      "Name": "Spaulders of Recurring Flame",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71433": {
+      "Name": "Alysrazor's Band",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71434": {
+      "Name": "Wings of Flame",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71435": {
+      "Name": "Leggings of Billowing Fire",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71436": {
+      "Name": "Phoenix-Down Treads",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71437": {
+      "Name": "Clawshaper Gauntlets",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71438": {
+      "Name": "Craterflame Spaulders",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71439": {
+      "Name": "Clutch of the Firemother",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71440": {
+      "Name": "Gloves of Dissolving Smoke",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71441": {
+      "Name": "Feeding Frenzy",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71442": {
+      "Name": "Scalp of the Bandit Prince",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71443": {
+      "Name": "Uncrushable Belt of Fury",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71444": {
+      "Name": "Legplates of Frenzied Devotion",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71445": {
+      "Name": "Skullstealer Greataxe",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71446": {
+      "Name": "Necklace of Fetishes",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71447": {
+      "Name": "Coalwalker Sandals",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71448": {
+      "Name": "Goblet of Anger",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71449": {
+      "Name": "Crystal Prison Band",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71450": {
+      "Name": "Flickering Shoulderpads",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71451": {
+      "Name": "Treads of Implicit Obedience",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71452": {
+      "Name": "Bracers of the Dread Hunter",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71453": {
+      "Name": "Legplates of Absolute Control",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71454": {
+      "Name": "Gatecrasher",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71455": {
+      "Name": "Breastplate of the Incendiary Soul",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71456": {
+      "Name": "Shoulderpads of the Forgotten Gate",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71457": {
+      "Name": "Decimation Treads",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71458": {
+      "Name": "Flickering Handguards",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71459": {
+      "Name": "Helm of Blazing Glory",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71460": {
+      "Name": "Shard of Torment",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71461": {
+      "Name": "Mantle of Closed Doors",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71462": {
+      "Name": "Molten Scream",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71463": {
+      "Name": "Glowing Wing Bracers",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71464": {
+      "Name": "Gatekeeper's Embrace",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71465": {
+      "Name": "Casque of Flame",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71466": {
+      "Name": "Fandral's Flamescythe",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71467": {
+      "Name": "Sandals of Leaping Coals",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71468": {
+      "Name": "Grips of Unerring Precision",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71469": {
+      "Name": "Breastplate of Shifting Visions",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71470": {
+      "Name": "Bracers of the Fiery Path",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71471": {
+      "Name": "Wristwraps of Arrogant Doom",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71472": {
+      "Name": "Flowform Choker",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71473": {
+      "Name": "Stinger of the Flaming Scorpion",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71474": {
+      "Name": "Firecat Leggings",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71475": {
+      "Name": "Treads of the Penitent Man",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71610": {
+      "Name": "Choker of the Vanquished Lord",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71611": {
+      "Name": "Arathar, the Eye of Flame",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71612": {
+      "Name": "Pauldrons of Roaring Flame",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71613": {
+      "Name": "Majordomo's Chain of Office",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71614": {
+      "Name": "Fingers of Incineration",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71615": {
+      "Name": "Ko'gun, Hammer of the Firelord",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71616": {
+      "Name": "Crown of Flame",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71617": {
+      "Name": "Crystallized Firestone",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71668": {
+      "Name": "Helm of the Fiery Vanquisher",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71669": {
+      "Name": "Gauntlets of the Fiery Vanquisher",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71670": {
+      "Name": "Crown of the Fiery Vanquisher",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71671": {
+      "Name": "Leggings of the Fiery Vanquisher",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71672": {
+      "Name": "Chest of the Fiery Vanquisher",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71673": {
+      "Name": "Shoulders of the Fiery Vanquisher",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71674": {
+      "Name": "Mantle of the Fiery Vanquisher",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71675": {
+      "Name": "Helm of the Fiery Conqueror",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71676": {
+      "Name": "Gauntlets of the Fiery Conqueror",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71677": {
+      "Name": "Crown of the Fiery Conqueror",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71678": {
+      "Name": "Leggings of the Fiery Conqueror",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71679": {
+      "Name": "Chest of the Fiery Conqueror",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71680": {
+      "Name": "Shoulders of the Fiery Conqueror",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71681": {
+      "Name": "Mantle of the Fiery Conqueror",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71682": {
+      "Name": "Helm of the Fiery Protector",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71683": {
+      "Name": "Gauntlets of the Fiery Protector",
+      "Source": "Baleroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71684": {
+      "Name": "Crown of the Fiery Protector",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71685": {
+      "Name": "Leggings of the Fiery Protector",
+      "Source": "Shannox",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71686": {
+      "Name": "Chest of the Fiery Protector",
+      "Source": "Alysrazor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71687": {
+      "Name": "Shoulders of the Fiery Protector",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71688": {
+      "Name": "Mantle of the Fiery Protector",
+      "Source": "Majordomo Staghelm",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71774": {
+      "Name": "Smoldering Censer of Purity",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71775": {
+      "Name": "Smoldering Censer of Purity",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71776": {
+      "Name": "Eye of Purification",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71777": {
+      "Name": "Eye of Purification",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71778": {
+      "Name": "Avool's Incendiary Shanker",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71779": {
+      "Name": "Avool's Incendiary Shanker",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71780": {
+      "Name": "Zoid's Firelit Greatsword",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71781": {
+      "Name": "Zoid's Firelit Greatsword",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71782": {
+      "Name": "Shatterskull Bonecrusher",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71783": {
+      "Name": "Shatterskull Bonecrusher",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71784": {
+      "Name": "Firethorn Mindslicer",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71785": {
+      "Name": "Firethorn Mindslicer",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71786": {
+      "Name": "Entrail Disgorger",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71787": {
+      "Name": "Entrail Disgorger",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71797": {
+      "Name": "Sho'ravon, Greatstaff of Annihilation",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
+      "SourceFaction": "B"
+    },
+    "71798": {
+      "Name": "Sho'ravon, Greatstaff of Annihilation",
+      "Source": "Ragnaros",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Firelands",
       "SourceFaction": "B"
     },
     "73479": {
