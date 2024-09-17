@@ -281,15 +281,29 @@ local function createDropDowns(window)
     window.SlotDropDown = LBIS:CreateDropdown(slot_opts, 90);
     window.SlotDropDown:SetPoint("TOPLEFT", window, 195, -28);
 
+    local function getPhases()
+        local phases = { LBIS.L["All"], LBIS.L["PreRaid"] };
+        if LBIS.CurrentPhase >= 1 then
+            table.insert(phases, LBIS.L["Phase 1"]);
+        end
+        if LBIS.CurrentPhase >= 2 then
+            table.insert(phases, LBIS.L["Phase 2"]);
+        end
+        if LBIS.CurrentPhase >= 3 then
+            table.insert(phases, LBIS.L["Phase 3"]);
+        end
+        if LBIS.CurrentPhase >= 4 then
+            table.insert(phases, LBIS.L["Phase 4"]);
+        end
+        table.insert(phases, LBIS.L["BIS"]);
+        return phases;
+    end
+
     local phase_opts = {
         ['name']='phase',
         ['parent']=window,
         ['title']='Phase:',
-        ['items']= { LBIS.L["All"], LBIS.L["PreRaid"], LBIS.L["Phase 1"],
-            LBIS.L["Phase 2"],
-            LBIS.L["Phase 3"],
-            --LBIS.L["Phase 4"],
-            LBIS.L["BIS"] },
+        ['items']= getPhases(),
         ['defaultVal']=LBISSettings.SelectedPhase,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedPhase = dropdown_val;
@@ -327,16 +341,38 @@ local function createDropDowns(window)
     window.SourceDropDown = LBIS:CreateDropdown(source_opts, 110);
     window.SourceDropDown:SetPoint("TOPLEFT", window, 450, -28);
 
+    local function getZoneItems()
+        local items = { LBIS.L["All"], LBIS.L["Blackrock Caverns"], LBIS.L["The Deadmines"], LBIS.L["Grim Batol"], LBIS.L["Halls of Origination"], LBIS.L["Lost City of the Tol'vir"],
+            LBIS.L["Shadowfang Keep"], LBIS.L["The Stonecore"], LBIS.L["Throne of the Tides"], LBIS.L["Vortex Pinnacle"]}-- Phase 0
+
+        if LBIS.CurrentPhase >= 2 then
+            table.insert(items, LBIS.L["Zul'Aman"]);
+            table.insert(items, LBIS.L["Zul'Gurub"]);
+        end
+
+        if LBIS.CurrentPhase >= 1 then            
+            table.insert(items, LBIS.L["Throne of the Four Winds"]);
+            table.insert(items, LBIS.L["Blackwing Descent"]);
+            table.insert(items, LBIS.L["The Bastion of Twilight"]);
+            table.insert(items, LBIS.L["Baradin Hold"]);
+        end
+
+        if LBIS.CurrentPhase >= 3 then
+            table.insert(LBIS.L["Firelands"]);
+        end
+
+        if LBIS.CurrentPhase >= 4 then
+            table.insert(LBIS.L["Dragon Soul"]);
+        end
+
+        return items;
+    end
+
     local zone_opts = {
         ['name']='zone',
         ['parent']=window,
         ['title']='Zone:',
-        ['items']= { LBIS.L["All"], LBIS.L["Blackrock Caverns"], LBIS.L["The Deadmines"], LBIS.L["Grim Batol"], LBIS.L["Halls of Origination"], LBIS.L["Lost City of the Tol'vir"],
-            LBIS.L["Shadowfang Keep"], LBIS.L["The Stonecore"], LBIS.L["Throne of the Tides"], LBIS.L["Vortex Pinnacle"],-- Phase 0
-            LBIS.L["Zul'Aman"], LBIS.L["Zul'Gurub"],--Phase 2
-            LBIS.L["Throne of the Four Winds"], LBIS.L["Blackwing Descent"], LBIS.L["The Bastion of Twilight"] , LBIS.L["Baradin Hold"],--Phase 1
-            LBIS.L["Firelands"] -- Phase 3
-        },
+        ['items']= getZoneItems(),
         ['defaultVal']= LBISSettings.SelectedZone,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedZone = dropdown_val;
