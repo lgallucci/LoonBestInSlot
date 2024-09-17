@@ -1280,22 +1280,6 @@
       "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
-    "90897": {
-      "Name": "Fox Kit",
-      "Source": "Baradin's Wardens",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "A"
-    },
-    "90898": {
-      "Name": "Fox Kit",
-      "Source": "Hellscream's Reach",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "H"
-    },
     "226459": {
       "Name": "Greater Inscription of Unbreakable Quartz",
       "Source": "Therazane",

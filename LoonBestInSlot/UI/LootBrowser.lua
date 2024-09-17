@@ -358,11 +358,11 @@ local function createDropDowns(window)
         end
 
         if LBIS.CurrentPhase >= 3 then
-            table.insert(LBIS.L["Firelands"]);
+            table.insert(items, LBIS.L["Firelands"]);
         end
 
         if LBIS.CurrentPhase >= 4 then
-            table.insert(LBIS.L["Dragon Soul"]);
+            table.insert(items, LBIS.L["Dragon Soul"]);
         end
 
         return items;
