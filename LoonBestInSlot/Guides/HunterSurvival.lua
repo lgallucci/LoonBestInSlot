@@ -270,8 +270,8 @@ LBIS:AddItem(spec2, "56325", LBIS.L["Two Hand"], "Alt") --Berto's Staff
 LBIS:AddItem(spec2, "62474", LBIS.L["Two Hand"], "Alt") --Spear of Trailing Shadows
 LBIS:AddItem(spec2, "62455", LBIS.L["Two Hand"], "Alt") --Spear of Trailing Shadows
 LBIS:AddItem(spec2, "56343", LBIS.L["Two Hand"], "Alt") --Darkling Staff
+LBIS:AddItem(spec2, "65095", LBIS.L["Ranged/Relic"], "BIS") --Dragonheart Piercer
 LBIS:AddItem(spec2, "65058", LBIS.L["Ranged/Relic"], "BIS") --Themios the Darkbringer
-LBIS:AddItem(spec2, "65095", LBIS.L["Ranged/Relic"], "Alt") --Dragonheart Piercer
 LBIS:AddItem(spec2, "59320", LBIS.L["Ranged/Relic"], "Alt") --Themios the Darkbringer
 LBIS:AddItem(spec2, "56317", LBIS.L["Ranged/Relic"], "Alt") --Amber Messenger
 LBIS:AddItem(spec2, "56366", LBIS.L["Ranged/Relic"], "Alt") --Lightningflash

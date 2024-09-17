@@ -44,18 +44,19 @@ LBIS:AddItem(spec0, "62428", LBIS.L["Head"], "Alt") --Crown of Wings
 LBIS:AddItem(spec0, "56358", LBIS.L["Head"], "Alt") --Headcover of Fog
 LBIS:AddItem(spec0, "67144", LBIS.L["Shoulder"], "BIS") --Pauldrons of Edward the Odd
 LBIS:AddItem(spec0, "69573", LBIS.L["Shoulder"], "BIS") --Pauldrons of Sacrifice
+LBIS:AddItem(spec0, "56452", LBIS.L["Shoulder"], "Alt") --Earthshape Pauldrons
 LBIS:AddItem(spec0, "69582", LBIS.L["Shoulder"], "Alt") --Skullpiercer Pauldrons
 LBIS:AddItem(spec0, "56318", LBIS.L["Shoulder"], "Alt") --Raz's Pauldrons
-LBIS:AddItem(spec0, "63470", LBIS.L["Shoulder"], "Alt") --Missing Diplomat's Pauldrons
 LBIS:AddItem(spec0, "58104", LBIS.L["Shoulder"], "Alt") --Sunburnt Pauldrons
+LBIS:AddItem(spec0, "63470", LBIS.L["Shoulder"], "Alt") --Missing Diplomat's Pauldrons
 LBIS:AddItem(spec0, "65831", LBIS.L["Shoulder"], "Alt") --Pharoah's Burial Spaulders
-LBIS:AddItem(spec0, "62383", LBIS.L["Back"], "BIS") --Wrap of the Great Turtle
+LBIS:AddItem(spec0, "71270", LBIS.L["Back"], "BIS") --Mantle of Patience
+LBIS:AddItem(spec0, "62383", LBIS.L["Back"], "Alt") --Wrap of the Great Turtle
 LBIS:AddItem(spec0, "56549", LBIS.L["Back"], "Alt") --Twilight Dragonscale Cloak
 LBIS:AddItem(spec0, "69770", LBIS.L["Back"], "Alt") --Icebound Cloak
 LBIS:AddItem(spec0, "56369", LBIS.L["Back"], "Alt") --Billowing Cape
 LBIS:AddItem(spec0, "69800", LBIS.L["Back"], "Alt") --Spiritguard Drape
 LBIS:AddItem(spec0, "69572", LBIS.L["Back"], "Alt") --Hex Lord's Bloody Cloak
-LBIS:AddItem(spec0, "56304", LBIS.L["Back"], "Alt") --Burned Gatherings
 LBIS:AddItem(spec0, "60329", LBIS.L["Chest"], "BIS") --Earthen Chestguard
 LBIS:AddItem(spec0, "67143", LBIS.L["Chest"], "Alt") --Icebone Hauberk
 LBIS:AddItem(spec0, "58101", LBIS.L["Chest"], "Alt") --Chestplate of the Steadfast

@@ -2087,6 +2087,7 @@ LBIS.ItemSources =
     [71104] = { Name = "Obsidian Arborweave Legwraps", SourceType = LBIS.L["Drop"], Source = LBIS.L["Occu'thar"], SourceNumber = "0", SourceLocation = LBIS.L["Baradin Hold"], SourceFaction = "B" },
     [71107] = { Name = "Obsidian Arborweave Gloves", SourceType = LBIS.L["Drop"], Source = LBIS.L["Occu'thar"], SourceNumber = "0", SourceLocation = LBIS.L["Baradin Hold"], SourceFaction = "B" },
     [71109] = { Name = "Obsidian Arborweave Leggings", SourceType = LBIS.L["Drop"], Source = LBIS.L["Occu'thar"], SourceNumber = "0", SourceLocation = LBIS.L["Baradin Hold"], SourceFaction = "B" },
+    [71270] = { Name = "Mantle of Patience", SourceType = LBIS.L["Quest"], Source = LBIS.L["Elemental Bonds: The Vow"], SourceNumber = "0", SourceLocation = LBIS.L["Mount Hyjal"], SourceFaction = "B" },
     [71271] = { Name = "Handwraps of the Cleansing Flame", SourceType = LBIS.L["Drop"], Source = LBIS.L["Occu'thar"], SourceNumber = "0", SourceLocation = LBIS.L["Baradin Hold"], SourceFaction = "B" },
     [71273] = { Name = "Legwraps of the Cleansing Flame", SourceType = LBIS.L["Drop"], Source = LBIS.L["Occu'thar"], SourceNumber = "0", SourceLocation = LBIS.L["Baradin Hold"], SourceFaction = "B" },
     [71276] = { Name = "Gloves of the Cleansing Flame", SourceType = LBIS.L["Drop"], Source = LBIS.L["Occu'thar"], SourceNumber = "0", SourceLocation = LBIS.L["Baradin Hold"], SourceFaction = "B" },
