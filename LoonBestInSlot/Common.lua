@@ -201,7 +201,7 @@ function LBIS:GetSpellInfo(spellId, returnFunc)
                 Id = spellId,
                 Name = name,
                 SubText = spellCache:GetSpellSubtext(),
-                Texture = GetSpellTexture(spellId)
+                Texture = C_Spell.GetSpellTexture(spellId)
             };
 
             if name then
@@ -264,7 +264,7 @@ function LBIS:CreateDropdown(opts, width)
     return dropdown
 end
 
-local itemIsOnEnter = false;
+local itemIsOnEnter = nil;
 function LBIS:SetTooltipOnButton(b, item, isSpell)
 
     b.ItemId = item.Id;

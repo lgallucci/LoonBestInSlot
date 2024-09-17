@@ -12,8 +12,7 @@ local function defaultFunc(L, key)
 end
 setmetatable(L, {__index=defaultFunc});
 
-local CLASS_NAMES = {};
-FillLocalizedClassList(CLASS_NAMES)
+local CLASS_NAMES = LocalizedClassList();
 L["Druid"] = CLASS_NAMES.DRUID;
 L["Hunter"] = CLASS_NAMES.HUNTER;
 L["Mage"] = CLASS_NAMES.MAGE;
