@@ -297,7 +297,6 @@ local function createItemRow(f, specItem, specItemSource)
 
         if item == nil or item.Id == nil or item.Link == nil or item.Type == nil then
             LBIS:Error("Failed Load: "..specItem.Id);
-            failedLoad = true;
         end
         --Create Item Button and Text
 

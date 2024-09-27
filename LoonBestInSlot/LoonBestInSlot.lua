@@ -75,10 +75,6 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 	if not LBIS.ItemsByIdAndSpec[itemId] then
 		LBIS.ItemsByIdAndSpec[itemId] = {}
 	end
-	
-	if zone == nil then
-		zone = "";
-	end
 
 	if bisEntry.Phase == "0" then
 		bis = LBIS.L["PreRaid"];

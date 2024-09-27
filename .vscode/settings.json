@@ -64,7 +64,10 @@
         "CreateFromMixins",
         "EventRegistry",
         "SOUNDKIT",
-        "BackdropTemplateMixin"
+        "BackdropTemplateMixin",
+        "InterfaceOptionsFrame_Show",
+        "InterfaceOptionsFramePanelContainer",
+        "LinkWrangler"
     ],
     "Lua.runtime.version": "Lua 5.1",
     "Lua.runtime.builtin": {

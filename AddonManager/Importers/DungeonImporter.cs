@@ -250,7 +250,7 @@ public class DungeonImporter : LootImporter
                     bossName = bossName.Replace(replaceString, _bossNameReplacements[replaceString]);
 
                 var element = bossElement;
-                while(element.ParentElement != null && element.ParentElement.Id != "guide-body")
+                while(element != null && element.ParentElement != null && element.ParentElement.Id != "guide-body")
                     element = element.ParentElement;
 
                 AddLootItems(element, dungeonUriList[uri].Item1, bossName, nextBoss, items);
