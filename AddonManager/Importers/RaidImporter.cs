@@ -11,8 +11,18 @@ public class RaidImporter : LootImporter
         // { @"https://www.wowhead.com/classic/guide/season-of-discovery/blackfathom-deeps-level-up-raid-loot", "Blackfathom Deeps" },
         // { @"https://www.wowhead.com/classic/guide/season-of-discovery/gnomeregan-level-up-raid-loot", "Gnomeregan" },
         // { @"https://www.wowhead.com/classic/guide/season-of-discovery/sunken-temple-level-up-raid-loot", "Sunken Temple" }
-        //{ @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/molten-core-overview-loot", "Molten Core"},
-        { @"https://www.wowhead.com/classic/npc=10184/onyxia#drops;mode:som40", "Onyxia"},
+        // //{ @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/molten-core-overview-loot", "Molten Core"},
+        // { @"https://www.wowhead.com/classic/npc=10184/onyxia#drops;mode:som40", ("Onyxia", "Onyxia's Lair")},
+        // { @"https://www.wowhead.com/classic/npc=12435/razorgore-the-untamed", ("Razorgore the Untamed", "Blackwing Lair") },
+        // { @"https://www.wowhead.com/classic/npc=13020/vaelastrasz-the-corrupt", ("Vaelastrasz the Corrupt", "Blackwing Lair") },
+        // { @"https://www.wowhead.com/classic/npc=12017/broodlord-lashlayer", ("Broodlord Lashlayer", "Blackwing Lair") },
+        // { @"https://www.wowhead.com/classic/npc=11983/firemaw", ("Firemaw", "Blackwing Lair") },
+        // { @"https://www.wowhead.com/classic/npc=14601/ebonroc", ("Ebonroc", "Blackwing Lair") },
+        // { @"https://www.wowhead.com/classic/npc=11981/flamegor", ("Flamegor", "Blackwing Lair") },
+        // { @"https://www.wowhead.com/classic/npc=14020/chromaggus", ("Chromaggus", "Blackwing Lair") },
+        // { @"https://www.wowhead.com/classic/npc=11583/nefarian", ("Nefarian", "Blackwing Lair") },
+        //{ @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/blackwing-lair-loot", "Blackwing Lair" },
+        { @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/zul-gurub-loot", "Zul'Gurub" },
     };
 
     private List<string> excludedWords = new List<string>()
@@ -23,25 +33,41 @@ public class RaidImporter : LootImporter
 
     private Dictionary<string, string> bossTableQueries = new Dictionary<string, string>()
     {
-        { "#tab-lucifron-main-drop-table .clean-markup-table-borders", "Lucifron" },
-        { "#tab-lucifron-shared-boss-loot .clean-markup-table-borders", "Lucifron" },
-        { "#tab-magmadar-main-drop-table .clean-markup-table-borders", "Magmadar" },
-        { "#tab-magmadar-shared-loot .clean-markup-table-borders", "Magmadar" },
-        { "#tab-gehennas-main-drop-table .clean-markup-table-borders", "Gehennas" },
-        { "#tab-gehennas-shared-boss-loot .clean-markup-table-borders", "Gehennas" },        
-        { "#tab-garr-main-drop-table .clean-markup-table-borders", "Garr" },
-        { "#tab-garr-shared-boss-loot .clean-markup-table-borders", "Garr" },
-        { "#tab-shazzrah-main-drop-table .clean-markup-table-borders", "Shazzrah" },
-        { "#tab-shazzrah-shared-boss-loot .clean-markup-table-borders", "Shazzrah" },
-        { "#tab-baron-geddon-main-drop-table .clean-markup-table-borders", "Baron Geddon" },
-        { "#tab-baron-geddon-shared-boss-loot .clean-markup-table-borders", "Baron Geddon" },
-        { "#tab-golemagg-main-drop-table .clean-markup-table-borders", "Golemagg the Incinerator"},
-        { "#tab-golemagg-shared-boss-loot .clean-markup-table-borders", "Golemagg the Incinerator"},
-        { "#tab-sulfuron-harbinger-main-drop-table .clean-markup-table-borders", "Sulfuron Harbinger"},
-        { "#tab-sulfuron-harbinger-shared-boss-loot .clean-markup-table-borders", "Sulfuron Harbinger"},
-        { "#tab-majordomo-main-drop-table .clean-markup-table-borders", "Majordomo Executus" },
-        { "#tab-majordomo-shared-boss-loot .clean-markup-table-borders", "Majordomo Executus" },
-        { "#tab-ragnaros-main-drop-table .clean-markup-table-borders", "Ragnaros"},
+        // { "#razorgore-the-untamed-loot ~ .clean-markup-table-borders", "Razorgore the Untamed" },
+        // { "#razorgore-the-untamed-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Razorgore the Untamed" },
+        // { "#razorgore-the-untamed-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Razorgore the Untamed" },
+        // { "#vaelastrasz-the-corrupt-loot ~ .clean-markup-table-borders", "Vaelastrasz the Corrupt" },
+        // { "#vaelastrasz-the-corrupt-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Vaelastrasz the Corrupt" },
+        // { "#vaelastrasz-the-corrupt-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Vaelastrasz the Corrupt" },
+        // { "#broodlord-lashlayer-loot ~ .clean-markup-table-borders", "Broodlord Lashlayer" },
+        // { "#broodlord-lashlayer-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Broodlord Lashlayer" },
+        // { "#firemaw-loot ~ .clean-markup-table-borders", "Firemaw" },
+        // { "#firemaw-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Firemaw" },
+        // { "#firemaw-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Firemaw" },
+        // { "#ebonroc-loot ~ .clean-markup-table-borders", "Ebonroc" },
+        // { "#ebonroc-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Ebonroc" },
+        // { "#ebonroc-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Ebonroc" },
+        // { "#ebonroc-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Ebonroc" },
+        // { "#ebonroc-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Ebonroc" },
+        // { "#flamegor-loot ~ .clean-markup-table-borders", "Flamegor" },
+        // { "#flamegor-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Flamegor" },
+        // { "#flamegor-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Flamegor" },
+        // { "#chromaggus-loot ~ .clean-markup-table-borders", "Chromaggus" },
+        // { "#chromaggus-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Chromaggus" },
+        // { "#nefarian-loot ~ .clean-markup-table-borders", "Nefarian" },
+        // { "#nefarian-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Nefarian" },
+        // { "#nefarian-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Nefarian" },
+        // { "#classic-blackwing-lair-trash-loot ~ .clean-markup-table-borders", "Trash Mobs" },
+        { "#high-priests-shared-loot-table ~ .clean-markup-table-borders", "High Priests Shared" },
+        { "#high-priest-venoxis ~ .clean-markup-table-borders", "High Priest Venoxis" },
+        { "#high-priest-jeklik ~ .clean-markup-table-borders", "High Priest Jeklik"},
+        { "#high-priest-marli ~ .clean-markup-table-borders", "High Priest Mar'li"},
+        { "#high-priest-thekal ~ .clean-markup-table-borders", "High Priest Thekal"},
+        { "#high-priestess-arlokk ~ .clean-markup-table-borders", "High Priestess Arlokk"},
+        { "#hakkar ~ .clean-markup-table-borders", "Hakkar"},
+        { "#bloodlord-mandokir ~ .clean-markup-table-borders", "Bloodlord Mandokir"},
+        { "#jindo-the-hexxer ~ .clean-markup-table-borders", "Jin'do the Hexxer"},
+        { "#gahzranka ~ .clean-markup-table-borders", "Gahz'ranka"},
     };
 
     internal override string FileName { get => "RaidItemList"; }
@@ -49,11 +75,11 @@ public class RaidImporter : LootImporter
     {
         //items.Items.Clear();
 
-        //foreach(var raidUri in raidUriList)
-        //{
-            //items.AddItems(await ConvertRaidLoot(raidUri, items, writeToLog));
-            await GetItemDrops(items, writeToLog);
-        //}
+        foreach(var raidUri in raidUriList)
+        {
+            items.AddItems(await ConvertRaidLoot(raidUri, items, writeToLog));
+            //await GetItemDrops(items, writeToLog);
+        }
         return items;
     }
 
@@ -61,6 +87,8 @@ public class RaidImporter : LootImporter
     {
         await Common.ReadWowheadDropsList(raidUriList.Keys.ToList(), (uri, row, itemId, item) => {
             var sourceFaction = "B";
+            var isPurple = (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q5") ?? false);
+            if (!isPurple) return;
             if (row.Children[6].Children.Count() > 0)
             {
                 var factionColumn = (IElement)row.Children[6].ChildNodes[0];
@@ -73,10 +101,10 @@ public class RaidImporter : LootImporter
             items.AddItem(itemId, new DatabaseItem 
             {
                 Name = item?.TextContent ?? "unknown",
-                Source = "Onyxia",
+                Source = "", //raidUriList[uri].Item1,
                 SourceType = "Drop",
                 SourceNumber = "0",
-                SourceLocation = "Onyxia's Lair",
+                SourceLocation = "", //raidUriList[uri].Item2,
                 SourceFaction = sourceFaction
             });
         }, writeToLog);

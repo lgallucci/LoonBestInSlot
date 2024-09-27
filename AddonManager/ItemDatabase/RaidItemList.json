@@ -192,6 +192,14 @@
       "SourceLocation": "Onyxia's Lair",
       "SourceFaction": "B"
     },
+    "18562": {
+      "Name": "Elementium Ore",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
     "18564": {
       "Name": "Bindings of the Windseeker",
       "Source": "Garr",
@@ -230,6 +238,110 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "19002": {
+      "Name": "Head of Nefarian",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19716": {
+      "Name": "Primal Hakkari Bindings",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19717": {
+      "Name": "Primal Hakkari Armsplint",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19718": {
+      "Name": "Primal Hakkari Stanchion",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19719": {
+      "Name": "Primal Hakkari Girdle",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19720": {
+      "Name": "Primal Hakkari Sash",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19721": {
+      "Name": "Primal Hakkari Shawl",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19722": {
+      "Name": "Primal Hakkari Tabard",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19723": {
+      "Name": "Primal Hakkari Kossack",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19724": {
+      "Name": "Primal Hakkari Aegis",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19802": {
+      "Name": "Heart of Hakkar",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19872": {
+      "Name": "Swift Razzashi Raptor",
+      "Source": "Bloodlord Mandokir",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "22739": {
+      "Name": "Tome of Polymorph: Turtle",
+      "Source": "Gahz'ranka",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
       "SourceFaction": "B"
     },
     "204804": {
@@ -3622,6 +3734,1758 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "230237": {
+      "Name": "Arcane Infused Gem",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230238": {
+      "Name": "The Black Book",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230239": {
+      "Name": "Gloves of Rapid Evolution",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230240": {
+      "Name": "Mantle of the Blackwing Cabal",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230241": {
+      "Name": "Spineshatter",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230242": {
+      "Name": "The Untamed Blade",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230243": {
+      "Name": "Mind Quickening Gem",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230244": {
+      "Name": "Shapeshifter's Sigil",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230245": {
+      "Name": "Pendant of the Fallen Dragon",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230246": {
+      "Name": "Helm of Endless Rage",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230247": {
+      "Name": "Dragonfang Blade",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230248": {
+      "Name": "Red Dragonscale Protector",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230249": {
+      "Name": "Lifegiving Gem",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230250": {
+      "Name": "Venomous Totem",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230251": {
+      "Name": "Black Brood Pauldrons",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230252": {
+      "Name": "Bracers of Arcane Accuracy",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230253": {
+      "Name": "Heartstriker",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230254": {
+      "Name": "Maladath, Runed Blade of the Black Flight",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230255": {
+      "Name": "Taut Dragonhide Belt",
+      "Source": "Firemaw & Ebonroc & Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230256": {
+      "Name": "Drake Talon Pauldrons",
+      "Source": "Firemaw & Ebonroc & Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230257": {
+      "Name": "Ring of Blackrock",
+      "Source": "Firemaw & Ebonroc & Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230269": {
+      "Name": "Rejuvenating Gem",
+      "Source": "Firemaw & Ebonroc & Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230270": {
+      "Name": "Shadow Wing Focus Staff",
+      "Source": "Firemaw & Ebonroc & Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230271": {
+      "Name": "Drake Talon Cleaver",
+      "Source": "Firemaw & Ebonroc & Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230272": {
+      "Name": "Scrolls of Blinding Light",
+      "Source": "Firemaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230273": {
+      "Name": "Natural Alignment Crystal",
+      "Source": "Firemaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230274": {
+      "Name": "Black Ash Robe",
+      "Source": "Firemaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230275": {
+      "Name": "Firemaw's Clutch",
+      "Source": "Firemaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230276": {
+      "Name": "Claw of the Black Drake",
+      "Source": "Firemaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230277": {
+      "Name": "Cloak of Firemaw",
+      "Source": "Firemaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230278": {
+      "Name": "Legguards of the Fallen Crusader",
+      "Source": "Firemaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230279": {
+      "Name": "Primalist's Linked Legguards",
+      "Source": "Firemaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230280": {
+      "Name": "Aegis of Preservation",
+      "Source": "Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230281": {
+      "Name": "Band of Forced Concentration",
+      "Source": "Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230282": {
+      "Name": "Drake Fang Talisman",
+      "Source": "Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230723": {
+      "Name": "Ebony Flame Gloves",
+      "Source": "Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230725": {
+      "Name": "Malfurion's Blessed Bulwark",
+      "Source": "Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230726": {
+      "Name": "Dragonbreath Hand Cannon",
+      "Source": "Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230733": {
+      "Name": "Shroud of Pure Thought",
+      "Source": "Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230734": {
+      "Name": "Circle of Applied Force",
+      "Source": "Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230735": {
+      "Name": "Emberweave Leggings",
+      "Source": "Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230736": {
+      "Name": "Styleen's Impeding Scarab",
+      "Source": "Firemaw & Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230737": {
+      "Name": "Dragon's Touch",
+      "Source": "Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230738": {
+      "Name": "Herald of Woe",
+      "Source": "Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230739": {
+      "Name": "Angelista's Grasp",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230740": {
+      "Name": "Taut Dragonhide Shoulderpads",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230741": {
+      "Name": "Chromatic Boots",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230742": {
+      "Name": "Taut Dragonhide Gloves",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230743": {
+      "Name": "Shimmering Geta",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230744": {
+      "Name": "Elementium Threaded Cloak",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230745": {
+      "Name": "Girdle of the Fallen Crusader",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230746": {
+      "Name": "Empowered Leggings",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230747": {
+      "Name": "Chromatically Tempered Sword",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230794": {
+      "Name": "Claw of Chromaggus",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230800": {
+      "Name": "Primalist's Linked Waistguard",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230801": {
+      "Name": "Ashjre'thul, Crossbow of Smiting",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230802": {
+      "Name": "Elementium Reinforced Bulwark",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230804": {
+      "Name": "Cloak of the Brood Lord",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230805": {
+      "Name": "Boots of the Shadow Flame",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230806": {
+      "Name": "Therazane's Link",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230808": {
+      "Name": "Archimtiros' Ring of Reckoning",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230810": {
+      "Name": "Neltharion's Tear",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230811": {
+      "Name": "Pure Elementium Band",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230812": {
+      "Name": "Mish'undare, Circlet of the Mind Flayer",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230813": {
+      "Name": "Staff of the Shadow Flame",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230818": {
+      "Name": "Ashkandi, Greatsword of the Brotherhood",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230837": {
+      "Name": "Crul'shorukh, Edge of Chaos",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230838": {
+      "Name": "Lok'amir il Romathis",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230842": {
+      "Name": "Cloak of Draconic Might",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230843": {
+      "Name": "Boots of Pure Thought",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230844": {
+      "Name": "Draconic Maul",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230845": {
+      "Name": "Doom's Edge",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230846": {
+      "Name": "Band of Dark Dominion",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230847": {
+      "Name": "Essence Gatherer",
+      "Source": "Ebonroc & Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230848": {
+      "Name": "Interlaced Shadow Jerkin",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230854": {
+      "Name": "Band of Servitude",
+      "Source": "High Priests Shared",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230855": {
+      "Name": "Seal of the Gurubashi Berserker",
+      "Source": "High Priests Shared",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230856": {
+      "Name": "Belt of Untapped Power",
+      "Source": "High Priests Shared",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230857": {
+      "Name": "Blooddrenched Mask",
+      "Source": "High Priests Shared",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230858": {
+      "Name": "Cloak of the Hakkari Worshipers",
+      "Source": "High Priests Shared",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230859": {
+      "Name": "Gloves of the Tormented",
+      "Source": "High Priests Shared",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230860": {
+      "Name": "Might of the Tribe",
+      "Source": "High Priests Shared",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230861": {
+      "Name": "Sacrificial Gauntlets",
+      "Source": "High Priests Shared",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230862": {
+      "Name": "Zulian Headdress",
+      "Source": "High Priests Shared",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230863": {
+      "Name": "Zulian Scepter of Rites",
+      "Source": "High Priests Shared",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230864": {
+      "Name": "Runed Bloodstained Hauberk",
+      "Source": "High Priest Venoxis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230865": {
+      "Name": "Fang of Venoxis",
+      "Source": "High Priest Venoxis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230866": {
+      "Name": "Blooddrenched Footpads",
+      "Source": "High Priest Venoxis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230867": {
+      "Name": "Zanzil's Band",
+      "Source": "High Priest Venoxis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230868": {
+      "Name": "Zulian Stone Axe",
+      "Source": "High Priest Venoxis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230911": {
+      "Name": "Jeklik's Crusher",
+      "Source": "High Priest Jeklik",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230912": {
+      "Name": "Animist's Spaulders",
+      "Source": "High Priest Jeklik",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230913": {
+      "Name": "Jeklik's Opaline Talisman",
+      "Source": "High Priest Jeklik",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230914": {
+      "Name": "Peacekeeper Boots",
+      "Source": "High Priest Jeklik",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230915": {
+      "Name": "Primalist's Band",
+      "Source": "High Priest Jeklik & High Priest Mar'li",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230916": {
+      "Name": "Seafury Boots",
+      "Source": "High Priest Jeklik",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230917": {
+      "Name": "Flowing Ritual Robes",
+      "Source": "High Priest Mar'li",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230918": {
+      "Name": "Mar'li's Touch",
+      "Source": "High Priest Mar'li",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230919": {
+      "Name": "Bloodstained Greaves",
+      "Source": "High Priest Mar'li",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230920": {
+      "Name": "Mar'li's Eye",
+      "Source": "High Priest Mar'li",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230921": {
+      "Name": "Band of Jin",
+      "Source": "High Priest Mar'li",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230922": {
+      "Name": "Talisman of Protection",
+      "Source": "High Priest Mar'li",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230923": {
+      "Name": "Betrayer's Boots",
+      "Source": "High Priest Thekal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230925": {
+      "Name": "Thekal's Grasp",
+      "Source": "High Priest Thekal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230926": {
+      "Name": "Peacekeeper Leggings",
+      "Source": "High Priest Thekal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230927": {
+      "Name": "Ritualistic Legguards",
+      "Source": "High Priest Thekal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230928": {
+      "Name": "Seafury Leggings",
+      "Source": "High Priest Thekal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230929": {
+      "Name": "Seal of Jin",
+      "Source": "High Priest Thekal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230930": {
+      "Name": "Zulian Slicer",
+      "Source": "High Priest Thekal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230934": {
+      "Name": "Arlokk's Grasp",
+      "Source": "High Priestess Arlokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230939": {
+      "Name": "Will of Arlokk",
+      "Source": "High Priestess Arlokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230941": {
+      "Name": "Arlokk's Hoodoo Stick",
+      "Source": "High Priestess Arlokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230942": {
+      "Name": "Bloodsoaked Greaves",
+      "Source": "High Priestess Arlokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230943": {
+      "Name": "Overlord's Onyx Band",
+      "Source": "High Priestess Arlokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230944": {
+      "Name": "Panther Hide Sack",
+      "Source": "High Priestess Arlokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230991": {
+      "Name": "Halberd of Smiting",
+      "Source": "Bloodlord Mandokir",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230992": {
+      "Name": "Warblade of the Hakkari",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230993": {
+      "Name": "Mandokir's Sting",
+      "Source": "Bloodlord Mandokir",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230994": {
+      "Name": "Animist's Leggings",
+      "Source": "Bloodlord Mandokir",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230995": {
+      "Name": "Blooddrenched Grips",
+      "Source": "Bloodlord Mandokir",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230996": {
+      "Name": "Bloodsoaked Pauldrons",
+      "Source": "Bloodlord Mandokir",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230997": {
+      "Name": "Bloodtinged Kilt",
+      "Source": "Bloodlord Mandokir",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230998": {
+      "Name": "Hakkari Loa Cloak",
+      "Source": "Bloodlord Mandokir",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230999": {
+      "Name": "Overlord's Crimson Band",
+      "Source": "Bloodlord Mandokir",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231000": {
+      "Name": "Primalist's Seal",
+      "Source": "Bloodlord Mandokir",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231001": {
+      "Name": "Zanzil's Seal",
+      "Source": "Bloodlord Mandokir",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231002": {
+      "Name": "Jin'do's Hexxer",
+      "Source": "Jin'do the Hexxer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231003": {
+      "Name": "Jin'do's Evil Eye",
+      "Source": "Jin'do the Hexxer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231004": {
+      "Name": "Jin'do's Judgement",
+      "Source": "Jin'do the Hexxer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231006": {
+      "Name": "Animist's Boots",
+      "Source": "Jin'do the Hexxer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231007": {
+      "Name": "Bloodstained Coif",
+      "Source": "Jin'do the Hexxer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231009": {
+      "Name": "Blooddrenched Leggings",
+      "Source": "Jin'do the Hexxer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231010": {
+      "Name": "Bloodsoaked Gauntlets",
+      "Source": "Jin'do the Hexxer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231011": {
+      "Name": "Bloodtinged Gloves",
+      "Source": "Jin'do the Hexxer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231012": {
+      "Name": "Overlord's Embrace",
+      "Source": "Jin'do the Hexxer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231013": {
+      "Name": "The Hexxer's Cover",
+      "Source": "Jin'do the Hexxer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231014": {
+      "Name": "Lizardscale Eyepatch",
+      "Source": "Gahz'ranka",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231016": {
+      "Name": "Nat Pagle's Fish Terminator",
+      "Source": "Gahz'ranka",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231271": {
+      "Name": "Nat Pagle's Broken Reel",
+      "Source": "Gahz'ranka",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231272": {
+      "Name": "Tigule's Harpoon",
+      "Source": "Gahz'ranka",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231289": {
+      "Name": "Aegis of the Blood God",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231293": {
+      "Name": "Ancient Hakkari Manslayer",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231296": {
+      "Name": "Bloodcaller",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231299": {
+      "Name": "Bloodsoaked Legplates",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231300": {
+      "Name": "Cloak of Consumption",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231301": {
+      "Name": "Fang of the Faceless",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231302": {
+      "Name": "Gurubashi Dwarf Destroyer",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231303": {
+      "Name": "Peacekeeper Gauntlets",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231305": {
+      "Name": "Seafury Gauntlets",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231306": {
+      "Name": "Soul Corrupter's Necklace",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231307": {
+      "Name": "The Eye of Hakkar",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231308": {
+      "Name": "Touch of Chaos",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231309": {
+      "Name": "Warblade of the Hakkari",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231315": {
+      "Name": "Zin'rokh, Destroyer of Worlds",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231512": {
+      "Name": "Primal Hakkari Idol",
+      "Source": "Bloodlord Mandokir & Jin'do the Hexxer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231707": {
+      "Name": "Draconian Bindings",
+      "Source": "Razorgore the Untamed & Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231708": {
+      "Name": "Draconian Belt",
+      "Source": "Vaelastrasz the Corrupt & Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231709": {
+      "Name": "Draconian Shoulderpads",
+      "Source": "Chromaggus & Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231712": {
+      "Name": "Draconian Gloves",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231713": {
+      "Name": "Draconian Boots",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231714": {
+      "Name": "Draconian Robe",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231715": {
+      "Name": "Primeval Bindings",
+      "Source": "Razorgore the Untamed & Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231716": {
+      "Name": "Primeval Belt",
+      "Source": "Vaelastrasz the Corrupt & Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231717": {
+      "Name": "Primeval Shoulderpads",
+      "Source": "Chromaggus & Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231720": {
+      "Name": "Primeval Gloves",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231721": {
+      "Name": "Primeval Boots",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231723": {
+      "Name": "Primeval Chest",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231724": {
+      "Name": "Ancient Bindings",
+      "Source": "Razorgore the Untamed & Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231725": {
+      "Name": "Ancient Belt",
+      "Source": "Vaelastrasz the Corrupt & Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231726": {
+      "Name": "Ancient Shoulderpads",
+      "Source": "Chromaggus & Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231729": {
+      "Name": "Ancient Gloves",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231730": {
+      "Name": "Ancient Boots",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231731": {
+      "Name": "Ancient Chest",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231803": {
+      "Name": "Prestor's Talisman of Connivery",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231814": {
+      "Name": "Chromatic Heart",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231848": {
+      "Name": "Nat Pagle's Fish Terminator",
+      "Source": "Gahz'ranka",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231849": {
+      "Name": "Tigule's Harpoon",
+      "Source": "Gahz'ranka",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231850": {
+      "Name": "Will of Arlokk",
+      "Source": "High Priestess Arlokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231851": {
+      "Name": "Arlokk's Grasp",
+      "Source": "High Priestess Arlokk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231852": {
+      "Name": "Gurubashi Dwarf Destroyer",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231853": {
+      "Name": "Warblade of the Hakkari",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231854": {
+      "Name": "Zin'rokh, Destroyer of Worlds",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231855": {
+      "Name": "Fang of the Faceless",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231856": {
+      "Name": "Ancient Hakkari Manslayer",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231857": {
+      "Name": "Touch of Chaos",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231858": {
+      "Name": "Bloodcaller",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231859": {
+      "Name": "Jin'do's Hexxer",
+      "Source": "Jin'do the Hexxer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231860": {
+      "Name": "Jin'do's Judgement",
+      "Source": "Jin'do the Hexxer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231861": {
+      "Name": "Jeklik's Crusher",
+      "Source": "High Priest Jeklik",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231865": {
+      "Name": "Zulian Scepter of Rites",
+      "Source": "High Priests Shared",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231868": {
+      "Name": "Mandokir's Sting",
+      "Source": "Bloodlord Mandokir",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231869": {
+      "Name": "Warblade of the Hakkari",
+      "Source": "Hakkar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231870": {
+      "Name": "Halberd of Smiting",
+      "Source": "Bloodlord Mandokir",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231873": {
+      "Name": "Zulian Stone Axe",
+      "Source": "High Priest Venoxis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231874": {
+      "Name": "Fang of Venoxis",
+      "Source": "High Priest Venoxis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231875": {
+      "Name": "Thekal's Grasp",
+      "Source": "High Priest Thekal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231876": {
+      "Name": "Zulian Slicer",
+      "Source": "High Priest Thekal",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231995": {
+      "Name": "Hardened Elementium Slag",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232299": {
+      "Name": "Zulian Defender",
+      "Source": "High Priest Jeklik",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "232311": {
+      "Name": "Zulian Tigerhide Cloak",
+      "Source": "High Priest Venoxis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "232550": {
+      "Name": "Ashkandi, Greatsword of the Brotherhood",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232551": {
+      "Name": "Draconic Maul",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232552": {
+      "Name": "Lok'amir il Romathis",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232555": {
+      "Name": "Crul'shorukh, Edge of Chaos",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232556": {
+      "Name": "Staff of the Shadow Flame",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232557": {
+      "Name": "Claw of Chromaggus",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232558": {
+      "Name": "Chromatically Tempered Sword",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232559": {
+      "Name": "Herald of Woe",
+      "Source": "Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232561": {
+      "Name": "Claw of the Black Drake",
+      "Source": "Firemaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232562": {
+      "Name": "Drake Talon Cleaver",
+      "Source": "Firemaw & Ebonroc & Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232563": {
+      "Name": "Shadow Wing Focus Staff",
+      "Source": "Firemaw & Ebonroc & Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232564": {
+      "Name": "Maladath, Runed Blade of the Black Flight",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232565": {
+      "Name": "Dragonfang Blade",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232566": {
+      "Name": "The Untamed Blade",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232567": {
+      "Name": "Spineshatter",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232577": {
+      "Name": "Doom's Edge",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232606": {
+      "Name": "Ashjre'thul, Crossbow of Smiting",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232607": {
+      "Name": "Heartstriker",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232608": {
+      "Name": "Dragonbreath Hand Cannon",
+      "Source": "Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
     }
   }
