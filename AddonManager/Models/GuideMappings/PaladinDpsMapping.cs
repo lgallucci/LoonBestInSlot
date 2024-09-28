@@ -14,9 +14,10 @@ internal class PaladinDpsMapping : SpecMapping
     public override string CurrentUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
-            { ("Two Hand", "h3#weapon-seal-twisting") },
-            { ("Two Hand", "h3#weapon-exodin") },
-            { ("Ranged/Relic", "h3#libram") },
+            { ("Two Hand", "h5#weapons-for-seal-twisting") },
+            { ("Two Hand", "h5#weapons-for-exodin") },
+            { ("Ranged/Relic", "h5#damage-librams") },
+            { ("Ranged/Relic", "h5#mana-librams") },
         };
 }
 

@@ -3,16 +3,18 @@ local function LoadData()
     local spec2 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "2")
     local spec3 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "3")
     local spec4 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "4")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "5")
+    local spec6 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "6")
 
-    LBIS:AddEnchant(spec4, "22844", LBIS.L["Head"]) --Arcanum of Focus
-    LBIS:AddEnchant(spec4, "446459", LBIS.L["Shoulder"]) --Atal'ai Signet of Mojo
-    LBIS:AddEnchant(spec4, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
-    LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
-    LBIS:AddEnchant(spec4, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
-    LBIS:AddEnchant(spec4, "19057", LBIS.L["Hands"]) --Armor +40
-    LBIS:AddEnchant(spec4, "22844", LBIS.L["Legs"]) --Arcanum of Focus
-    LBIS:AddEnchant(spec4, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
-    LBIS:AddEnchant(spec4, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
+    LBIS:AddEnchant(spec5, "22844", LBIS.L["Head"]) --Arcanum of Focus
+    LBIS:AddEnchant(spec5, "446459", LBIS.L["Shoulder"]) --Atal'ai Signet of Mojo
+    LBIS:AddEnchant(spec5, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
+    LBIS:AddEnchant(spec5, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
+    LBIS:AddEnchant(spec5, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
+    LBIS:AddEnchant(spec5, "19057", LBIS.L["Hands"]) --Armor +40
+    LBIS:AddEnchant(spec5, "22844", LBIS.L["Legs"]) --Arcanum of Focus
+    LBIS:AddEnchant(spec5, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
+    LBIS:AddEnchant(spec5, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
 
     LBIS:AddItem(spec1, "211842", LBIS.L["Head"], "BIS") --Rakkamar's Tattered Thinking Cap
     LBIS:AddItem(spec1, "209683", LBIS.L["Head"], "Alt") --Twilight Invoker's Shawl
@@ -307,6 +309,52 @@ local function LoadData()
     LBIS:AddItem(spec4, "11748", LBIS.L["Ranged/Relic"], "Alt") --Pyric Caduceus
     LBIS:AddItem(spec4, "220604", LBIS.L["Ranged/Relic"], "Alt") --Nightmare Trophy
     LBIS:AddItem(spec4, "13938", LBIS.L["Ranged/Relic"], "Alt") --Bonecreeper Stylus
+
+    LBIS:AddItem(spec5, "230812", LBIS.L["Head"], "BIS") --Mish'undare, Circlet of the Mind Flayer
+    LBIS:AddItem(spec5, "226562", LBIS.L["Head"], "Alt") --Arcanist Crown
+    LBIS:AddItem(spec5, "232129", LBIS.L["Shoulder"], "BIS") --Netherwind Mantle
+    LBIS:AddItem(spec5, "227808", LBIS.L["Shoulder"], "BIS") --Rugged Mantle of the Timbermaw
+    LBIS:AddItem(spec5, "230804", LBIS.L["Back"], "BIS") --Cloak of the Brood Lord
+    LBIS:AddItem(spec5, "228100", LBIS.L["Back"], "Alt") --Drape of the Fire Lord
+    LBIS:AddItem(spec5, "232134", LBIS.L["Chest"], "BIS") --Netherwind Robes
+    LBIS:AddItem(spec5, "226559", LBIS.L["Chest"], "BIS") --Arcanist Robes
+    LBIS:AddItem(spec5, "14152", LBIS.L["Chest"], "Alt") --Robe of the Archmage
+    LBIS:AddItem(spec5, "231107", LBIS.L["Wrist"], "BIS") --Netherwind Bindings
+    LBIS:AddItem(spec5, "226929", LBIS.L["Wrist"], "BIS") --Sorcerer's Bindings
+    LBIS:AddItem(spec5, "19595", LBIS.L["Wrist"], "Alt") --Dryad's Wrist Bindings
+    LBIS:AddItem(spec5, "231102", LBIS.L["Hands"], "BIS") --Netherwind Gloves
+    LBIS:AddItem(spec5, "228281", LBIS.L["Hands"], "Alt") --Gloves of the Hypnotic Flame
+    LBIS:AddItem(spec5, "18408", LBIS.L["Hands"], "Alt") --Inferno Gloves
+    LBIS:AddItem(spec5, "226930", LBIS.L["Hands"], "Alt") --Sorcerer's Gauntlets
+    LBIS:AddItem(spec5, "228256", LBIS.L["Waist"], "BIS") --Mana Igniting Cord
+    LBIS:AddItem(spec5, "231100", LBIS.L["Waist"], "BIS") --Netherwind Belt
+    LBIS:AddItem(spec5, "226555", LBIS.L["Waist"], "Alt") --Arcanist Belt
+    LBIS:AddItem(spec5, "231104", LBIS.L["Legs"], "BIS") --Netherwind Pants
+    LBIS:AddItem(spec5, "226933", LBIS.L["Legs"], "Alt") --Sorcerer's Leggings
+    LBIS:AddItem(spec5, "226557", LBIS.L["Feet"], "BIS") --Arcanist Boots
+    LBIS:AddItem(spec5, "226931", LBIS.L["Feet"], "Alt") --Sorcerer's Sandals
+    LBIS:AddItem(spec5, "228384", LBIS.L["Feet"], "Alt") --Snowblind Shoes
+    LBIS:AddItem(spec5, "18814", LBIS.L["Neck"], "BIS") --Choker of the Fire Lord
+    LBIS:AddItem(spec5, "231324", LBIS.L["Neck"], "BIS") --Jewel of Kajaro
+    LBIS:AddItem(spec5, "228287", LBIS.L["Ring"], "BIS") --Band of Sulfuras
+    LBIS:AddItem(spec5, "228687", LBIS.L["Ring"], "BIS") --Dragonslayer's Signet
+    LBIS:AddItem(spec5, "228076", LBIS.L["Ring"], "Alt") --Burning Ring of Fire
+    LBIS:AddItem(spec5, "228243", LBIS.L["Ring"], "Alt") --Ring of Spell Power
+    LBIS:AddItem(spec5, "230243", LBIS.L["Trinket"], "BIS") --Mind Quickening Gem
+    LBIS:AddItem(spec5, "230810", LBIS.L["Trinket"], "BIS") --Neltharion's Tear
+    LBIS:AddItem(spec5, "13968", LBIS.L["Trinket"], "BIS") --Eye of the Beast
+    LBIS:AddItem(spec5, "228678", LBIS.L["Trinket"], "Alt") --Draconic Infused Emblem
+    LBIS:AddItem(spec5, "223195", LBIS.L["Trinket"], "Alt") --Breadth of the Beast
+    LBIS:AddItem(spec5, "227972", LBIS.L["Trinket"], "Alt") --Burst of Knowledge
+    LBIS:AddItem(spec5, "229972", LBIS.L["Main Hand"], "BIS") --Staff of Rime
+    LBIS:AddItem(spec5, "20220", LBIS.L["Main Hand"], "Alt") --Ironbark Staff
+    LBIS:AddItem(spec5, "228271", LBIS.L["Main Hand"], "Alt") --Staff of Dominance
+    LBIS:AddItem(spec5, "19311", LBIS.L["Off Hand"], "BIS") --Tome of Fiery Arcana
+    LBIS:AddItem(spec5, "220599", LBIS.L["Off Hand"], "Alt") --Drakestone of the Blood Prophet
+    LBIS:AddItem(spec5, "228548", LBIS.L["Off Hand"], "Alt") --Scepter of Interminable Focus
+    LBIS:AddItem(spec5, "231857", LBIS.L["Ranged/Relic"], "BIS") --Touch of Chaos
+    LBIS:AddItem(spec5, "228381", LBIS.L["Ranged/Relic"], "BIS") --Cold Snap
+    LBIS:AddItem(spec5, "11748", LBIS.L["Ranged/Relic"], "Alt") --Pyric Caduceus
 end
 if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
     LoadData();

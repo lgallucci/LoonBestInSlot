@@ -14,9 +14,9 @@ internal class PriestHealerMapping : SpecMapping
     public override string CurrentUrl => "healer-bis-gear-pve";
     public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "h3#main-hand-2") },
+            { ("Main Hand", "h3#main-hand") },
             { ("Off Hand", "h3#off-hand") },
-            { ("Two Hand", "h3#main-hand") },
+            { ("Two Hand", "h3#staves") },
             { ("Ranged/Relic", "h3#ranged") },
         };
 }

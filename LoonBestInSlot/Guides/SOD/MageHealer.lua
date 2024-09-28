@@ -3,16 +3,18 @@ local function LoadData()
     local spec2 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Healer"], "2")
     local spec3 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Healer"], "3")
     local spec4 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Healer"], "4")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Healer"], "5")
+    local spec6 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Healer"], "6")
 
-    LBIS:AddEnchant(spec4, "22844", LBIS.L["Head"]) --Arcanum of Focus
-    LBIS:AddEnchant(spec4, "446459", LBIS.L["Shoulder"]) --Atal'ai Signet of Mojo
-    LBIS:AddEnchant(spec4, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
-    LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
-    LBIS:AddEnchant(spec4, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
-    LBIS:AddEnchant(spec4, "19057", LBIS.L["Hands"]) --Armor +40
-    LBIS:AddEnchant(spec4, "22844", LBIS.L["Legs"]) --Arcanum of Focus
-    LBIS:AddEnchant(spec4, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
-    LBIS:AddEnchant(spec4, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
+    LBIS:AddEnchant(spec5, "22844", LBIS.L["Head"]) --Arcanum of Focus
+    LBIS:AddEnchant(spec5, "446459", LBIS.L["Shoulder"]) --Atal'ai Signet of Mojo
+    LBIS:AddEnchant(spec5, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
+    LBIS:AddEnchant(spec5, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
+    LBIS:AddEnchant(spec5, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
+    LBIS:AddEnchant(spec5, "19057", LBIS.L["Hands"]) --Armor +40
+    LBIS:AddEnchant(spec5, "22844", LBIS.L["Legs"]) --Arcanum of Focus
+    LBIS:AddEnchant(spec5, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
+    LBIS:AddEnchant(spec5, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
 
     LBIS:AddItem(spec1, "211842", LBIS.L["Head"], "BIS") --Rakkamar's Tattered Thinking Cap
     LBIS:AddItem(spec1, "209683", LBIS.L["Head"], "Alt") --Twilight Invoker's Shawl

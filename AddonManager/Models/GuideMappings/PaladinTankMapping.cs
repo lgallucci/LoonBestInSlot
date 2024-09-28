@@ -16,7 +16,6 @@ internal class PaladinTankMapping : SpecMapping
         {
             { ("Main Hand", "h3#main-hand") },
             { ("Off Hand", "h3#off-hand") },
-            { ("Two Hand", "h3#two-handed") },
             { ("Ranged/Relic", "h3#librams") },
         };
 }
