@@ -1807,6 +1807,2950 @@
       "SourceNumber": "227766",
       "SourceLocation": "Molten Core",
       "SourceFaction": "B"
+    },
+    "231023": {
+      "Name": "Wristguards of Wrath",
+      "Source": "Primeval Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231024": {
+      "Name": "Waistguard of Wrath",
+      "Source": "Primeval Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231025": {
+      "Name": "Pauldrons of Wrath",
+      "Source": "Primeval Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231026": {
+      "Name": "Legguards of Wrath",
+      "Source": "Primeval Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231027": {
+      "Name": "Faceguard of Wrath",
+      "Source": "Primeval Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231028": {
+      "Name": "Handguards of Wrath",
+      "Source": "Primeval Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231029": {
+      "Name": "Sabatons of Wrath",
+      "Source": "Primeval Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231030": {
+      "Name": "Chestguard of Wrath",
+      "Source": "Primeval Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231031": {
+      "Name": "Bracers of Wrath",
+      "Source": "Primeval Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231032": {
+      "Name": "Belt of Wrath",
+      "Source": "Primeval Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231033": {
+      "Name": "Shoulders of Wrath",
+      "Source": "Primeval Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231034": {
+      "Name": "Legplates of Wrath",
+      "Source": "Primeval Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231035": {
+      "Name": "Helm of Wrath",
+      "Source": "Primeval Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231036": {
+      "Name": "Gauntlets of Wrath",
+      "Source": "Primeval Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231037": {
+      "Name": "Greaves of Wrath",
+      "Source": "Primeval Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231038": {
+      "Name": "Breastplate of Wrath",
+      "Source": "Primeval Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231039": {
+      "Name": "Bloodfang Spaulders",
+      "Source": "Primeval Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231040": {
+      "Name": "Bloodfang Chestpiece",
+      "Source": "Primeval Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231041": {
+      "Name": "Bloodfang Boots",
+      "Source": "Primeval Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231042": {
+      "Name": "Bloodfang Gloves",
+      "Source": "Primeval Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231043": {
+      "Name": "Bloodfang Hood",
+      "Source": "Primeval Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231044": {
+      "Name": "Bloodfang Pants",
+      "Source": "Primeval Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231045": {
+      "Name": "Bloodfang Belt",
+      "Source": "Primeval Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231046": {
+      "Name": "Bloodfang Bracers",
+      "Source": "Primeval Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231047": {
+      "Name": "Bloodfang Shoulderpads",
+      "Source": "Primeval Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231048": {
+      "Name": "Bloodfang Chestguard",
+      "Source": "Primeval Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231049": {
+      "Name": "Bloodfang Footpads",
+      "Source": "Primeval Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231050": {
+      "Name": "Bloodfang Handguards",
+      "Source": "Primeval Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231051": {
+      "Name": "Bloodfang Cowl",
+      "Source": "Primeval Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231052": {
+      "Name": "Bloodfang Legguards",
+      "Source": "Primeval Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231053": {
+      "Name": "Bloodfang Waistguard",
+      "Source": "Primeval Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231054": {
+      "Name": "Bloodfang Wristguards",
+      "Source": "Primeval Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231055": {
+      "Name": "Dragonstalker's Bracers",
+      "Source": "Ancient Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231056": {
+      "Name": "Dragonstalker's Belt",
+      "Source": "Ancient Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231057": {
+      "Name": "Dragonstalker's Spaulders",
+      "Source": "Ancient Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231058": {
+      "Name": "Dragonstalker's Legguards",
+      "Source": "Ancient Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231059": {
+      "Name": "Dragonstalker's Helm",
+      "Source": "Ancient Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231060": {
+      "Name": "Dragonstalker's Gauntlets",
+      "Source": "Ancient Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231061": {
+      "Name": "Dragonstalker's Greaves",
+      "Source": "Ancient Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231062": {
+      "Name": "Dragonstalker's Breastplate",
+      "Source": "Ancient Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231063": {
+      "Name": "Dragonstalker's Vambraces",
+      "Source": "Ancient Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231065": {
+      "Name": "Dragonstalker's Girdle",
+      "Source": "Ancient Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231066": {
+      "Name": "Dragonstalker's Pauldrons",
+      "Source": "Ancient Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231067": {
+      "Name": "Dragonstalker's Pants",
+      "Source": "Ancient Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231068": {
+      "Name": "Dragonstalker's Skullcap",
+      "Source": "Ancient Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231069": {
+      "Name": "Dragonstalker's Grips",
+      "Source": "Ancient Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231070": {
+      "Name": "Dragonstalker's Sabatons",
+      "Source": "Ancient Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231071": {
+      "Name": "Dragonstalker's Armor",
+      "Source": "Ancient Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231072": {
+      "Name": "Nemesis Boots",
+      "Source": "Draconian Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231713",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231073": {
+      "Name": "Nemesis Gloves",
+      "Source": "Draconian Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231712",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231074": {
+      "Name": "Nemesis Skullcap",
+      "Source": "Draconian Hood",
+      "SourceType": "TierToken",
+      "SourceNumber": "231711",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231075": {
+      "Name": "Nemesis Leggings",
+      "Source": "Draconian Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231710",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231076": {
+      "Name": "Nemesis Robes",
+      "Source": "Draconian Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "231714",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231077": {
+      "Name": "Nemesis Spaulders",
+      "Source": "Draconian Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231709",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231078": {
+      "Name": "Nemesis Belt",
+      "Source": "Draconian Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231708",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231079": {
+      "Name": "Nemesis Bracers",
+      "Source": "Draconian Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231707",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231090": {
+      "Name": "Nemesis Treads",
+      "Source": "Draconian Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231713",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231091": {
+      "Name": "Nemesis Handguards",
+      "Source": "Draconian Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231712",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231092": {
+      "Name": "Nemesis Cowl",
+      "Source": "Draconian Hood",
+      "SourceType": "TierToken",
+      "SourceNumber": "231711",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231093": {
+      "Name": "Nemesis Pants",
+      "Source": "Draconian Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231710",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231095": {
+      "Name": "Nemesis Garb",
+      "Source": "Draconian Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "231714",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231096": {
+      "Name": "Nemesis Shoulderpads",
+      "Source": "Draconian Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231709",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231097": {
+      "Name": "Nemesis Cord",
+      "Source": "Draconian Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231708",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231098": {
+      "Name": "Nemesis Wraps",
+      "Source": "Draconian Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231707",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231100": {
+      "Name": "Netherwind Belt",
+      "Source": "Draconian Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231708",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231101": {
+      "Name": "Netherwind Boots",
+      "Source": "Draconian Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231713",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231102": {
+      "Name": "Netherwind Gloves",
+      "Source": "Draconian Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231712",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231103": {
+      "Name": "Netherwind Crown",
+      "Source": "Draconian Hood",
+      "SourceType": "TierToken",
+      "SourceNumber": "231711",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231104": {
+      "Name": "Netherwind Pants",
+      "Source": "Draconian Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231710",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231105": {
+      "Name": "Netherwind Robes",
+      "Source": "Draconian Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "231714",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231106": {
+      "Name": "Netherwind Mantle",
+      "Source": "Draconian Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231709",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231107": {
+      "Name": "Netherwind Bindings",
+      "Source": "Draconian Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231707",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231108": {
+      "Name": "Netherwind Sash",
+      "Source": "Draconian Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231708",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231109": {
+      "Name": "Netherwind Slippers",
+      "Source": "Draconian Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231713",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231110": {
+      "Name": "Netherwind Mitts",
+      "Source": "Draconian Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231712",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231111": {
+      "Name": "Netherwind Mask",
+      "Source": "Draconian Hood",
+      "SourceType": "TierToken",
+      "SourceNumber": "231711",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231112": {
+      "Name": "Netherwind Leggings",
+      "Source": "Draconian Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231710",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231113": {
+      "Name": "Netherwind Vestments",
+      "Source": "Draconian Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "231714",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231114": {
+      "Name": "Netherwind Shoulders",
+      "Source": "Draconian Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231709",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231115": {
+      "Name": "Netherwind Wraps",
+      "Source": "Draconian Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231707",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231155": {
+      "Name": "Boots of Transcendence",
+      "Source": "Draconian Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231713",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231156": {
+      "Name": "Handguards of Transcendence",
+      "Source": "Draconian Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231712",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231157": {
+      "Name": "Halo of Transcendence",
+      "Source": "Draconian Hood",
+      "SourceType": "TierToken",
+      "SourceNumber": "231711",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231158": {
+      "Name": "Leggings of Transcendence",
+      "Source": "Draconian Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231710",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231159": {
+      "Name": "Robes of Transcendence",
+      "Source": "Draconian Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "231714",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231160": {
+      "Name": "Pauldrons of Transcendence",
+      "Source": "Draconian Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231709",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231161": {
+      "Name": "Belt of Transcendence",
+      "Source": "Draconian Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231708",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231162": {
+      "Name": "Bindings of Transcendence",
+      "Source": "Draconian Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231707",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231165": {
+      "Name": "Treads of Transcendence",
+      "Source": "Draconian Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231713",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231166": {
+      "Name": "Gloves of Transcendence",
+      "Source": "Draconian Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231712",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231167": {
+      "Name": "Crown of Transcendence",
+      "Source": "Draconian Hood",
+      "SourceType": "TierToken",
+      "SourceNumber": "231711",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231168": {
+      "Name": "Pants of Transcendence",
+      "Source": "Draconian Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231710",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231169": {
+      "Name": "Garb of Transcendence",
+      "Source": "Draconian Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "231714",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231170": {
+      "Name": "Mantle of Transcendence",
+      "Source": "Draconian Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231709",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231171": {
+      "Name": "Cord of Transcendence",
+      "Source": "Draconian Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231708",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231172": {
+      "Name": "Bracers of Transcendence",
+      "Source": "Draconian Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231707",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231174": {
+      "Name": "Judgement Bindings",
+      "Source": "Ancient Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231175": {
+      "Name": "Judgement Belt",
+      "Source": "Ancient Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231176": {
+      "Name": "Judgement Spaulders",
+      "Source": "Ancient Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231177": {
+      "Name": "Judgement Legplates",
+      "Source": "Ancient Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231178": {
+      "Name": "Judgement Crown",
+      "Source": "Ancient Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231179": {
+      "Name": "Judgement Gauntlets",
+      "Source": "Ancient Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231180": {
+      "Name": "Judgement Sabatons",
+      "Source": "Ancient Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231181": {
+      "Name": "Judgement Breastplate",
+      "Source": "Ancient Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231182": {
+      "Name": "Judgement Vambraces",
+      "Source": "Ancient Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231183": {
+      "Name": "Judgement Waistguard",
+      "Source": "Ancient Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231184": {
+      "Name": "Judgement Pauldrons",
+      "Source": "Ancient Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231185": {
+      "Name": "Judgement Legguards",
+      "Source": "Ancient Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231186": {
+      "Name": "Judgement Great Helm",
+      "Source": "Ancient Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231187": {
+      "Name": "Judgement Chestguard",
+      "Source": "Ancient Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231188": {
+      "Name": "Judgement Handguards",
+      "Source": "Ancient Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231189": {
+      "Name": "Judgement Greaves",
+      "Source": "Ancient Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231190": {
+      "Name": "Judgement Bracers",
+      "Source": "Ancient Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231191": {
+      "Name": "Judgement Girdle",
+      "Source": "Ancient Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231192": {
+      "Name": "Judgement Mantle",
+      "Source": "Ancient Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231193": {
+      "Name": "Judgement Plate Skirt",
+      "Source": "Ancient Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231194": {
+      "Name": "Judgement Helm",
+      "Source": "Ancient Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231195": {
+      "Name": "Judgement Gloves",
+      "Source": "Ancient Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231196": {
+      "Name": "Judgement Treads",
+      "Source": "Ancient Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231197": {
+      "Name": "Judgement Cuirass",
+      "Source": "Ancient Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231198": {
+      "Name": "Gauntlets of Ten Storms",
+      "Source": "Ancient Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231199": {
+      "Name": "Bracers of Ten Storms",
+      "Source": "Ancient Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231200": {
+      "Name": "Belt of Ten Storms",
+      "Source": "Ancient Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231201": {
+      "Name": "Epaulets of Ten Storms",
+      "Source": "Ancient Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231202": {
+      "Name": "Legplates of Ten Storms",
+      "Source": "Ancient Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231203": {
+      "Name": "Helmet of Ten Storms",
+      "Source": "Ancient Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231204": {
+      "Name": "Greaves of Ten Storms",
+      "Source": "Ancient Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231205": {
+      "Name": "Breastplate of Ten Storms",
+      "Source": "Ancient Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231206": {
+      "Name": "Handguards of Ten Storms",
+      "Source": "Ancient Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231207": {
+      "Name": "Wristguards of Ten Storms",
+      "Source": "Ancient Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231208": {
+      "Name": "Waistguard of Ten Storms",
+      "Source": "Ancient Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231209": {
+      "Name": "Pauldrons of Ten Storms",
+      "Source": "Ancient Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231210": {
+      "Name": "Legguards of Ten Storms",
+      "Source": "Ancient Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231211": {
+      "Name": "Faceguard of Ten Storms",
+      "Source": "Ancient Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231212": {
+      "Name": "Sabatons of Ten Storms",
+      "Source": "Ancient Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231213": {
+      "Name": "Chestguard of Ten Storms",
+      "Source": "Ancient Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231214": {
+      "Name": "Gloves of Ten Storms",
+      "Source": "Ancient Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231215": {
+      "Name": "Bindings of Ten Storms",
+      "Source": "Ancient Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231216": {
+      "Name": "Cord of Ten Storms",
+      "Source": "Ancient Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231217": {
+      "Name": "Mantle of Ten Storms",
+      "Source": "Ancient Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231218": {
+      "Name": "Kilt of Ten Storms",
+      "Source": "Ancient Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231219": {
+      "Name": "Headdress of Ten Storms",
+      "Source": "Ancient Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231220": {
+      "Name": "Boots of Ten Storms",
+      "Source": "Ancient Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231221": {
+      "Name": "Embrace of Ten Storms",
+      "Source": "Ancient Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231222": {
+      "Name": "Grips of Ten Storms",
+      "Source": "Ancient Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231223": {
+      "Name": "Vambraces of Ten Storms",
+      "Source": "Ancient Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231224": {
+      "Name": "Girdle of Ten Storms",
+      "Source": "Ancient Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231225": {
+      "Name": "Spaulders of Ten Storms",
+      "Source": "Ancient Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231226": {
+      "Name": "Leggings of Ten Storms",
+      "Source": "Ancient Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231227": {
+      "Name": "Crown of Ten Storms",
+      "Source": "Ancient Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231228": {
+      "Name": "Treads of Ten Storms",
+      "Source": "Ancient Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231229": {
+      "Name": "Armor of Ten Storms",
+      "Source": "Ancient Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231230": {
+      "Name": "Stormrage Chestguard",
+      "Source": "Primeval Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231231": {
+      "Name": "Stormrage Boots",
+      "Source": "Primeval Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231232": {
+      "Name": "Stormrage Handguards",
+      "Source": "Primeval Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231233": {
+      "Name": "Stormrage Cover",
+      "Source": "Primeval Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231234": {
+      "Name": "Stormrage Legguards",
+      "Source": "Primeval Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231235": {
+      "Name": "Stormrage Pauldrons",
+      "Source": "Primeval Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231236": {
+      "Name": "Stormrage Belt",
+      "Source": "Primeval Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231237": {
+      "Name": "Stormrage Bracers",
+      "Source": "Primeval Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231238": {
+      "Name": "Stormrage Armor",
+      "Source": "Primeval Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231239": {
+      "Name": "Stormrage Treads",
+      "Source": "Primeval Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231240": {
+      "Name": "Stormrage Gauntlets",
+      "Source": "Primeval Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231241": {
+      "Name": "Stormrage Headdress",
+      "Source": "Primeval Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231242": {
+      "Name": "Stormrage Leggings",
+      "Source": "Primeval Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231243": {
+      "Name": "Stormrage Spaulders",
+      "Source": "Primeval Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231244": {
+      "Name": "Stormrage Waistguard",
+      "Source": "Primeval Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231245": {
+      "Name": "Stormrage Wristguards",
+      "Source": "Primeval Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231246": {
+      "Name": "Stormrage Leathers",
+      "Source": "Primeval Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231247": {
+      "Name": "Stormrage Sandals",
+      "Source": "Primeval Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231248": {
+      "Name": "Stormrage Mitts",
+      "Source": "Primeval Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231249": {
+      "Name": "Stormrage Antlers",
+      "Source": "Primeval Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231250": {
+      "Name": "Stormrage Kilt",
+      "Source": "Primeval Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231251": {
+      "Name": "Stormrage Mantle",
+      "Source": "Primeval Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231252": {
+      "Name": "Stormrage Cord",
+      "Source": "Primeval Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231253": {
+      "Name": "Stormrage Bindings",
+      "Source": "Primeval Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231254": {
+      "Name": "Stormrage Vest",
+      "Source": "Primeval Chest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231255": {
+      "Name": "Stormrage Stompers",
+      "Source": "Primeval Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231256": {
+      "Name": "Stormrage Grips",
+      "Source": "Primeval Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231257": {
+      "Name": "Stormrage Cowl",
+      "Source": "Primeval Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231258": {
+      "Name": "Stormrage Trousers",
+      "Source": "Primeval Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231259": {
+      "Name": "Stormrage Shoulderpads",
+      "Source": "Primeval Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231260": {
+      "Name": "Stormrage Sash",
+      "Source": "Primeval Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231261": {
+      "Name": "Stormrage Wraps",
+      "Source": "Primeval Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232079": {
+      "Name": "Stormrage Bindings",
+      "Source": "Stormrage Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232080": {
+      "Name": "Stormrage Cord",
+      "Source": "Stormrage Cord",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232081": {
+      "Name": "Stormrage Mantle",
+      "Source": "Stormrage Mantle",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232082": {
+      "Name": "Stormrage Kilt",
+      "Source": "Stormrage Kilt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232083": {
+      "Name": "Stormrage Antlers",
+      "Source": "Stormrage Antlers",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232084": {
+      "Name": "Stormrage Mitts",
+      "Source": "Stormrage Mitts",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232085": {
+      "Name": "Stormrage Sandals",
+      "Source": "Stormrage Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232086": {
+      "Name": "Stormrage Leathers",
+      "Source": "Stormrage Leathers",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232087": {
+      "Name": "Stormrage Bracers",
+      "Source": "Stormrage Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232088": {
+      "Name": "Stormrage Belt",
+      "Source": "Stormrage Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232089": {
+      "Name": "Stormrage Pauldrons",
+      "Source": "Stormrage Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232090": {
+      "Name": "Stormrage Legguards",
+      "Source": "Stormrage Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232091": {
+      "Name": "Stormrage Cover",
+      "Source": "Stormrage Cover",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232092": {
+      "Name": "Stormrage Handguards",
+      "Source": "Stormrage Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232093": {
+      "Name": "Stormrage Boots",
+      "Source": "Stormrage Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232094": {
+      "Name": "Stormrage Chestguard",
+      "Source": "Stormrage Chestguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232095": {
+      "Name": "Stormrage Wraps",
+      "Source": "Stormrage Wraps",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232096": {
+      "Name": "Stormrage Sash",
+      "Source": "Stormrage Sash",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232097": {
+      "Name": "Stormrage Shoulderpads",
+      "Source": "Stormrage Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232098": {
+      "Name": "Stormrage Trousers",
+      "Source": "Stormrage Trousers",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232099": {
+      "Name": "Stormrage Cowl",
+      "Source": "Stormrage Cowl",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232100": {
+      "Name": "Stormrage Grips",
+      "Source": "Stormrage Grips",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232101": {
+      "Name": "Stormrage Stompers",
+      "Source": "Stormrage Stompers",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232102": {
+      "Name": "Stormrage Vest",
+      "Source": "Stormrage Vest",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232103": {
+      "Name": "Stormrage Wristguards",
+      "Source": "Stormrage Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232104": {
+      "Name": "Stormrage Waistguard",
+      "Source": "Stormrage Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232105": {
+      "Name": "Stormrage Spaulders",
+      "Source": "Stormrage Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232106": {
+      "Name": "Stormrage Leggings",
+      "Source": "Stormrage Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232107": {
+      "Name": "Stormrage Headdress",
+      "Source": "Stormrage Headdress",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232108": {
+      "Name": "Stormrage Gauntlets",
+      "Source": "Stormrage Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232109": {
+      "Name": "Stormrage Treads",
+      "Source": "Stormrage Treads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232110": {
+      "Name": "Stormrage Armor",
+      "Source": "Stormrage Armor",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232111": {
+      "Name": "Dragonstalker's Vambraces",
+      "Source": "Dragonstalker's Vambraces",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232112": {
+      "Name": "Dragonstalker's Girdle",
+      "Source": "Dragonstalker's Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232113": {
+      "Name": "Dragonstalker's Pauldrons",
+      "Source": "Dragonstalker's Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232114": {
+      "Name": "Dragonstalker's Pants",
+      "Source": "Dragonstalker's Pants",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232115": {
+      "Name": "Dragonstalker's Skullcap",
+      "Source": "Dragonstalker's Skullcap",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232116": {
+      "Name": "Dragonstalker's Grips",
+      "Source": "Dragonstalker's Grips",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232117": {
+      "Name": "Dragonstalker's Sabatons",
+      "Source": "Dragonstalker's Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232118": {
+      "Name": "Dragonstalker's Armor",
+      "Source": "Dragonstalker's Armor",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232119": {
+      "Name": "Dragonstalker's Bracers",
+      "Source": "Dragonstalker's Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232120": {
+      "Name": "Dragonstalker's Belt",
+      "Source": "Dragonstalker's Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232121": {
+      "Name": "Dragonstalker's Spaulders",
+      "Source": "Dragonstalker's Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232122": {
+      "Name": "Dragonstalker's Legguards",
+      "Source": "Dragonstalker's Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232123": {
+      "Name": "Dragonstalker's Helm",
+      "Source": "Dragonstalker's Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232124": {
+      "Name": "Dragonstalker's Gauntlets",
+      "Source": "Dragonstalker's Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232125": {
+      "Name": "Dragonstalker's Greaves",
+      "Source": "Dragonstalker's Greaves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232126": {
+      "Name": "Dragonstalker's Breastplate",
+      "Source": "Dragonstalker's Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232127": {
+      "Name": "Netherwind Bindings",
+      "Source": "Netherwind Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231707",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232128": {
+      "Name": "Netherwind Belt",
+      "Source": "Netherwind Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231708",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232129": {
+      "Name": "Netherwind Mantle",
+      "Source": "Netherwind Mantle",
+      "SourceType": "TierToken",
+      "SourceNumber": "231709",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232130": {
+      "Name": "Netherwind Pants",
+      "Source": "Netherwind Pants",
+      "SourceType": "TierToken",
+      "SourceNumber": "231710",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232131": {
+      "Name": "Netherwind Crown",
+      "Source": "Netherwind Crown",
+      "SourceType": "TierToken",
+      "SourceNumber": "231711",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232132": {
+      "Name": "Netherwind Gloves",
+      "Source": "Netherwind Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231712",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232133": {
+      "Name": "Netherwind Boots",
+      "Source": "Netherwind Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231713",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232134": {
+      "Name": "Netherwind Robes",
+      "Source": "Netherwind Robes",
+      "SourceType": "TierToken",
+      "SourceNumber": "231714",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232135": {
+      "Name": "Netherwind Wraps",
+      "Source": "Netherwind Wraps",
+      "SourceType": "TierToken",
+      "SourceNumber": "231707",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232136": {
+      "Name": "Netherwind Sash",
+      "Source": "Netherwind Sash",
+      "SourceType": "TierToken",
+      "SourceNumber": "231708",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232137": {
+      "Name": "Netherwind Shoulders",
+      "Source": "Netherwind Shoulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "231709",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232138": {
+      "Name": "Netherwind Leggings",
+      "Source": "Netherwind Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231710",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232139": {
+      "Name": "Netherwind Mask",
+      "Source": "Netherwind Mask",
+      "SourceType": "TierToken",
+      "SourceNumber": "231711",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232140": {
+      "Name": "Netherwind Mitts",
+      "Source": "Netherwind Mitts",
+      "SourceType": "TierToken",
+      "SourceNumber": "231712",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232141": {
+      "Name": "Netherwind Slippers",
+      "Source": "Netherwind Slippers",
+      "SourceType": "TierToken",
+      "SourceNumber": "231713",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232142": {
+      "Name": "Netherwind Vestments",
+      "Source": "Netherwind Vestments",
+      "SourceType": "TierToken",
+      "SourceNumber": "231714",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232143": {
+      "Name": "Judgement Bindings",
+      "Source": "Judgement Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232144": {
+      "Name": "Judgement Belt",
+      "Source": "Judgement Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232145": {
+      "Name": "Judgement Spaulders",
+      "Source": "Judgement Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232146": {
+      "Name": "Judgement Legplates",
+      "Source": "Judgement Legplates",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232147": {
+      "Name": "Judgement Crown",
+      "Source": "Judgement Crown",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232148": {
+      "Name": "Judgement Gauntlets",
+      "Source": "Judgement Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232149": {
+      "Name": "Judgement Sabatons",
+      "Source": "Judgement Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232150": {
+      "Name": "Judgement Breastplate",
+      "Source": "Judgement Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232151": {
+      "Name": "Judgement Bracers",
+      "Source": "Judgement Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232152": {
+      "Name": "Judgement Girdle",
+      "Source": "Judgement Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232153": {
+      "Name": "Judgement Mantle",
+      "Source": "Judgement Mantle",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232154": {
+      "Name": "Judgement Plate Skirt",
+      "Source": "Judgement Plate Skirt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232155": {
+      "Name": "Judgement Helm",
+      "Source": "Judgement Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232156": {
+      "Name": "Judgement Gloves",
+      "Source": "Judgement Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232157": {
+      "Name": "Judgement Treads",
+      "Source": "Judgement Treads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232158": {
+      "Name": "Judgement Cuirass",
+      "Source": "Judgement Cuirass",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232159": {
+      "Name": "Judgement Vambraces",
+      "Source": "Judgement Vambraces",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232160": {
+      "Name": "Judgement Waistguard",
+      "Source": "Judgement Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232161": {
+      "Name": "Judgement Pauldrons",
+      "Source": "Judgement Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232162": {
+      "Name": "Judgement Legguards",
+      "Source": "Judgement Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232163": {
+      "Name": "Judgement Great Helm",
+      "Source": "Judgement Great Helm",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232164": {
+      "Name": "Judgement Handguards",
+      "Source": "Judgement Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232165": {
+      "Name": "Judgement Greaves",
+      "Source": "Judgement Greaves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232166": {
+      "Name": "Judgement Chestguard",
+      "Source": "Judgement Chestguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232167": {
+      "Name": "Bracers of Transcendence",
+      "Source": "Bracers of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231707",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232168": {
+      "Name": "Cord of Transcendence",
+      "Source": "Cord of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231708",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232169": {
+      "Name": "Mantle of Transcendence",
+      "Source": "Mantle of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231709",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232170": {
+      "Name": "Pants of Transcendence",
+      "Source": "Pants of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231710",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232171": {
+      "Name": "Crown of Transcendence",
+      "Source": "Crown of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231711",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232172": {
+      "Name": "Gloves of Transcendence",
+      "Source": "Gloves of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231712",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232173": {
+      "Name": "Treads of Transcendence",
+      "Source": "Treads of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231713",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232174": {
+      "Name": "Garb of Transcendence",
+      "Source": "Garb of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231714",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232175": {
+      "Name": "Bindings of Transcendence",
+      "Source": "Bindings of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231707",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232176": {
+      "Name": "Belt of Transcendence",
+      "Source": "Belt of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231708",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232177": {
+      "Name": "Pauldrons of Transcendence",
+      "Source": "Pauldrons of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231709",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232178": {
+      "Name": "Leggings of Transcendence",
+      "Source": "Leggings of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231710",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232179": {
+      "Name": "Halo of Transcendence",
+      "Source": "Halo of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231711",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232180": {
+      "Name": "Handguards of Transcendence",
+      "Source": "Handguards of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231712",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232181": {
+      "Name": "Boots of Transcendence",
+      "Source": "Boots of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231713",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232182": {
+      "Name": "Robes of Transcendence",
+      "Source": "Robes of Transcendence",
+      "SourceType": "TierToken",
+      "SourceNumber": "231714",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232183": {
+      "Name": "Bloodfang Bracers",
+      "Source": "Bloodfang Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232184": {
+      "Name": "Bloodfang Belt",
+      "Source": "Bloodfang Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232185": {
+      "Name": "Bloodfang Spaulders",
+      "Source": "Bloodfang Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232186": {
+      "Name": "Bloodfang Pants",
+      "Source": "Bloodfang Pants",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232187": {
+      "Name": "Bloodfang Hood",
+      "Source": "Bloodfang Hood",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232188": {
+      "Name": "Bloodfang Gloves",
+      "Source": "Bloodfang Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232189": {
+      "Name": "Bloodfang Boots",
+      "Source": "Bloodfang Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232190": {
+      "Name": "Bloodfang Chestpiece",
+      "Source": "Bloodfang Chestpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232191": {
+      "Name": "Bloodfang Wristguards",
+      "Source": "Bloodfang Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232192": {
+      "Name": "Bloodfang Waistguard",
+      "Source": "Bloodfang Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232193": {
+      "Name": "Bloodfang Shoulderpads",
+      "Source": "Bloodfang Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232194": {
+      "Name": "Bloodfang Legguards",
+      "Source": "Bloodfang Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232195": {
+      "Name": "Bloodfang Cowl",
+      "Source": "Bloodfang Cowl",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232196": {
+      "Name": "Bloodfang Handguards",
+      "Source": "Bloodfang Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232197": {
+      "Name": "Bloodfang Footpads",
+      "Source": "Bloodfang Footpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232198": {
+      "Name": "Bloodfang Chestguard",
+      "Source": "Bloodfang Chestguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232199": {
+      "Name": "Bindings of Ten Storms",
+      "Source": "Bindings of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232200": {
+      "Name": "Cord of Ten Storms",
+      "Source": "Cord of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232201": {
+      "Name": "Mantle of Ten Storms",
+      "Source": "Mantle of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232202": {
+      "Name": "Kilt of Ten Storms",
+      "Source": "Kilt of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232203": {
+      "Name": "Headdress of Ten Storms",
+      "Source": "Headdress of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232204": {
+      "Name": "Gloves of Ten Storms",
+      "Source": "Gloves of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232205": {
+      "Name": "Boots of Ten Storms",
+      "Source": "Boots of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232206": {
+      "Name": "Embrace of Ten Storms",
+      "Source": "Embrace of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232207": {
+      "Name": "Bracers of Ten Storms",
+      "Source": "Bracers of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232208": {
+      "Name": "Belt of Ten Storms",
+      "Source": "Belt of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232209": {
+      "Name": "Epaulets of Ten Storms",
+      "Source": "Epaulets of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232210": {
+      "Name": "Legplates of Ten Storms",
+      "Source": "Legplates of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232211": {
+      "Name": "Helmet of Ten Storms",
+      "Source": "Helmet of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232212": {
+      "Name": "Gauntlets of Ten Storms",
+      "Source": "Gauntlets of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232213": {
+      "Name": "Greaves of Ten Storms",
+      "Source": "Greaves of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232214": {
+      "Name": "Breastplate of Ten Storms",
+      "Source": "Breastplate of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232215": {
+      "Name": "Vambraces of Ten Storms",
+      "Source": "Vambraces of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232216": {
+      "Name": "Girdle of Ten Storms",
+      "Source": "Girdle of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232217": {
+      "Name": "Spaulders of Ten Storms",
+      "Source": "Spaulders of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232218": {
+      "Name": "Leggings of Ten Storms",
+      "Source": "Leggings of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232219": {
+      "Name": "Crown of Ten Storms",
+      "Source": "Crown of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232220": {
+      "Name": "Grips of Ten Storms",
+      "Source": "Grips of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232221": {
+      "Name": "Treads of Ten Storms",
+      "Source": "Treads of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232222": {
+      "Name": "Armor of Ten Storms",
+      "Source": "Armor of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232223": {
+      "Name": "Wristguards of Ten Storms",
+      "Source": "Wristguards of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231724",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232224": {
+      "Name": "Waistguard of Ten Storms",
+      "Source": "Waistguard of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231725",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232225": {
+      "Name": "Pauldrons of Ten Storms",
+      "Source": "Pauldrons of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231726",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232226": {
+      "Name": "Legguards of Ten Storms",
+      "Source": "Legguards of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231727",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232227": {
+      "Name": "Faceguard of Ten Storms",
+      "Source": "Faceguard of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231728",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232228": {
+      "Name": "Handguards of Ten Storms",
+      "Source": "Handguards of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231729",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232229": {
+      "Name": "Sabatons of Ten Storms",
+      "Source": "Sabatons of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231730",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232230": {
+      "Name": "Chestguard of Ten Storms",
+      "Source": "Chestguard of Ten Storms",
+      "SourceType": "TierToken",
+      "SourceNumber": "231731",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232231": {
+      "Name": "Nemesis Bracers",
+      "Source": "Nemesis Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "231707",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232232": {
+      "Name": "Nemesis Belt",
+      "Source": "Nemesis Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "231708",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232233": {
+      "Name": "Nemesis Spaulders",
+      "Source": "Nemesis Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "231709",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232234": {
+      "Name": "Nemesis Leggings",
+      "Source": "Nemesis Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "231710",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232235": {
+      "Name": "Nemesis Skullcap",
+      "Source": "Nemesis Skullcap",
+      "SourceType": "TierToken",
+      "SourceNumber": "231711",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232236": {
+      "Name": "Nemesis Gloves",
+      "Source": "Nemesis Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "231712",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232237": {
+      "Name": "Nemesis Boots",
+      "Source": "Nemesis Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "231713",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232238": {
+      "Name": "Nemesis Robes",
+      "Source": "Nemesis Robes",
+      "SourceType": "TierToken",
+      "SourceNumber": "231714",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232239": {
+      "Name": "Nemesis Wraps",
+      "Source": "Nemesis Wraps",
+      "SourceType": "TierToken",
+      "SourceNumber": "231707",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232240": {
+      "Name": "Nemesis Cord",
+      "Source": "Nemesis Cord",
+      "SourceType": "TierToken",
+      "SourceNumber": "231708",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232241": {
+      "Name": "Nemesis Shoulderpads",
+      "Source": "Nemesis Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231709",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232242": {
+      "Name": "Nemesis Pants",
+      "Source": "Nemesis Pants",
+      "SourceType": "TierToken",
+      "SourceNumber": "231710",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232243": {
+      "Name": "Nemesis Cowl",
+      "Source": "Nemesis Cowl",
+      "SourceType": "TierToken",
+      "SourceNumber": "231711",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232244": {
+      "Name": "Nemesis Handguards",
+      "Source": "Nemesis Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "231712",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232245": {
+      "Name": "Nemesis Treads",
+      "Source": "Nemesis Treads",
+      "SourceType": "TierToken",
+      "SourceNumber": "231713",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232246": {
+      "Name": "Nemesis Garb",
+      "Source": "Nemesis Garb",
+      "SourceType": "TierToken",
+      "SourceNumber": "231714",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232247": {
+      "Name": "Bracers of Wrath",
+      "Source": "Bracers of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232248": {
+      "Name": "Belt of Wrath",
+      "Source": "Belt of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232249": {
+      "Name": "Shoulders of Wrath",
+      "Source": "Shoulders of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232250": {
+      "Name": "Legplates of Wrath",
+      "Source": "Legplates of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232251": {
+      "Name": "Helm of Wrath",
+      "Source": "Helm of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232252": {
+      "Name": "Gauntlets of Wrath",
+      "Source": "Gauntlets of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232253": {
+      "Name": "Greaves of Wrath",
+      "Source": "Greaves of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232254": {
+      "Name": "Breastplate of Wrath",
+      "Source": "Breastplate of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232255": {
+      "Name": "Wristguards of Wrath",
+      "Source": "Wristguards of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231715",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232256": {
+      "Name": "Waistguard of Wrath",
+      "Source": "Waistguard of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231716",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232257": {
+      "Name": "Pauldrons of Wrath",
+      "Source": "Pauldrons of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231717",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232258": {
+      "Name": "Legguards of Wrath",
+      "Source": "Legguards of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231718",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232259": {
+      "Name": "Faceguard of Wrath",
+      "Source": "Faceguard of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231719",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232260": {
+      "Name": "Handguards of Wrath",
+      "Source": "Handguards of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231720",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232261": {
+      "Name": "Sabatons of Wrath",
+      "Source": "Sabatons of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231721",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232262": {
+      "Name": "Chestguard of Wrath",
+      "Source": "Chestguard of Wrath",
+      "SourceType": "TierToken",
+      "SourceNumber": "231723",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
     }
   }
 }

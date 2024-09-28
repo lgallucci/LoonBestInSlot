@@ -79,7 +79,7 @@ public class TierSetImporter : LootImporter
 
     internal override string FileName { get { return "TierSetList"; } }
 
-    private List<int> recursiveItemsToQuery = new List<int>();
+    private List<(int, int)> recursiveItemsToQuery = new List<(int, int)>();
 
     private IHtmlAnchorElement? RecursivelyFindFirstAnchor(IElement element)
     {
@@ -103,20 +103,29 @@ public class TierSetImporter : LootImporter
 
         await Common.LoadFromWebPages(uris.Keys, (uri, doc) =>
         {
-            AddCurrencyItem(dbItems, uri, doc, uris[uri]);
+            var tokenId = 0;
+            var token = uri.Replace("https://www.wowhead.com/classic/item=", "");
+
+            var tokenIdIndex = token.IndexOf("/");
+            if (tokenIdIndex == -1)
+                tokenIdIndex = token.IndexOf("&");
+            token = token.Substring(0, tokenIdIndex);
+            int.TryParse(token, out tokenId);
+
+            AddCurrencyItem(dbItems, doc, tokenId, uris[uri]);
         }, writeToText);
 
         foreach(var item in recursiveItemsToQuery)
         {
-            await Common.LoadFromWebPage($"https://www.wowhead.com/classic/item={item}/#currency-for", (uri, doc) => {
-                AddCurrencyItem(dbItems, uri, doc, "Molten Core", false);
+            await Common.LoadFromWebPage($"https://www.wowhead.com/classic/item={item.Item1}/#currency-for", (uri, doc) => {
+                AddCurrencyItem(dbItems, doc, item.Item2, "Molten Core", false);
             }, writeToText);
         }
 
         return dbItems;
     }
 
-    private void AddCurrencyItem(DatabaseItems dbItems, string uri, IHtmlDocument doc, string location, bool recursive = true)
+    private void AddCurrencyItem(DatabaseItems dbItems, IHtmlDocument doc, int tokenId, string location, bool recursive = true)
     {
         var tableElement = doc.QuerySelector("#tab-currency-for .listview-mode-default");
 
@@ -135,7 +144,7 @@ public class TierSetImporter : LootImporter
 
                 if (cellAnchor != null)
                 {
-                    int itemId = 0, tokenId = 0;
+                    int itemId = 0;
                     var item = cellAnchor.PathName.Replace("/classic", "").Replace("/item=", "");
 
                     var itemIdIndex = item.IndexOf("/");
@@ -143,14 +152,6 @@ public class TierSetImporter : LootImporter
                         itemIdIndex = item.IndexOf("&");
                     item = item.Substring(0, itemIdIndex);
                     int.TryParse(item, out itemId);
-
-                    var token = uri.Replace("https://www.wowhead.com/classic/item=", "");
-
-                    var tokenIdIndex = token.IndexOf("/");
-                    if (tokenIdIndex == -1)
-                        tokenIdIndex = token.IndexOf("&");
-                    token = token.Substring(0, tokenIdIndex);
-                    int.TryParse(token, out tokenId);
 
                     var tokenName = doc.QuerySelector(".heading-size-1");
 
@@ -180,7 +181,7 @@ public class TierSetImporter : LootImporter
                             SourceFaction = sourceFaction
                         });
                         if (recursive)
-                            recursiveItemsToQuery.Add(itemId);
+                            recursiveItemsToQuery.Add((itemId, tokenId));
                     }
                 }
             }

@@ -7887,6 +7887,1078 @@
       "SourceNumber": "800g",
       "SourceLocation": "Stranglethorn Vale",
       "SourceFaction": "B"
+    },
+    "231530": {
+      "Name": "Warlord's Plate Armor",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g78s5c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231531": {
+      "Name": "General's Plate Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g74s49c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231532": {
+      "Name": "General's Plate Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g21s94c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231533": {
+      "Name": "General's Plate Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g25s19c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231534": {
+      "Name": "Warlord's Plate Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g93s28c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231535": {
+      "Name": "Warlord's Plate Headpiece",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g86s82c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231536": {
+      "Name": "Field Marshal's Plate Armor",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g29s82c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231537": {
+      "Name": "Field Marshal's Plate Shoulderguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g57s12c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231538": {
+      "Name": "Field Marshal's Plate Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g50s64c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231539": {
+      "Name": "Marshal's Plate Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g48s91c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231540": {
+      "Name": "Marshal's Plate Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g83s54c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231541": {
+      "Name": "Marshal's Plate Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g1s11c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231543": {
+      "Name": "Field Marshal's Leather Chestpiece",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "14g99s59c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231544": {
+      "Name": "Marshal's Leather Handgrips",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g50s",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231545": {
+      "Name": "Field Marshal's Leather Mask",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g32s78c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231546": {
+      "Name": "Marshal's Leather Footguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g46s85c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231547": {
+      "Name": "Field Marshal's Leather Epaulets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g40s87c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231548": {
+      "Name": "Marshal's Leather Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g9s44c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231549": {
+      "Name": "Warlord's Leather Breastplate",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "14g83s19c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231551": {
+      "Name": "Warlord's Leather Spaulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g8s40c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231552": {
+      "Name": "General's Leather Treads",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g43s41c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231553": {
+      "Name": "Warlord's Leather Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g4s30c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231554": {
+      "Name": "General's Leather Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "12g85s96c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231555": {
+      "Name": "General's Leather Mitts",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g33s60c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231557": {
+      "Name": "Field Marshal's Chain Pauldrons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g30s92c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231558": {
+      "Name": "Marshal's Chain Legplates",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g20s49c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231560": {
+      "Name": "Marshal's Chain Grips",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g48s99c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231561": {
+      "Name": "Marshal's Chain Sabatons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g24s21c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231562": {
+      "Name": "Field Marshal's Chain Greathelm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g10s27c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231563": {
+      "Name": "Field Marshal's Chain Armor",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "17g53s60c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231576": {
+      "Name": "Field Marshal's Chain Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g30s92c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231577": {
+      "Name": "Marshal's Chain Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g20s49c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231578": {
+      "Name": "Marshal's Chain Vices",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g48s99c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231579": {
+      "Name": "Marshal's Chain Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g24s21c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231580": {
+      "Name": "Field Marshal's Chain Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g10s27c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231581": {
+      "Name": "Field Marshal's Chain Hauberk",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "17g53s60c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231582": {
+      "Name": "Field Marshal's Dreadweave Robe",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g90s92c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231583": {
+      "Name": "Field Marshal's Dreadweave Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g89s91c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231584": {
+      "Name": "Field Marshal's Coronal",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g83s44c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231585": {
+      "Name": "Marshal's Dreadweave Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g77s16c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231586": {
+      "Name": "Marshal's Dreadweave Gloves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g33s52c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231587": {
+      "Name": "Marshal's Dreadweave Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g21s31c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231594": {
+      "Name": "Warlord's Silk Amice",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g43s82c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231595": {
+      "Name": "General's Silk Trousers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g66s54c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231596": {
+      "Name": "Warlord's Silk Raiment",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "12g39s2c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231597": {
+      "Name": "General's Silk Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g57s64c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231599": {
+      "Name": "General's Silk Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g6s92c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231600": {
+      "Name": "General's Silk Handwraps",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g6s92c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231601": {
+      "Name": "Warlord's Silk Cowl",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g22s71c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231602": {
+      "Name": "Field Marshal's Silk Spaulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g70s42c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231603": {
+      "Name": "Field Marshal's Silk Vestments",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g56s18c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231604": {
+      "Name": "Field Marshal's Coronet",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g25s90c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231605": {
+      "Name": "Marshal's Silk Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g70s11c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231606": {
+      "Name": "Marshal's Silk Footwraps",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g88s57c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231608": {
+      "Name": "Marshal's Silk Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g31s32c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231609": {
+      "Name": "Marshal's Silk Handwraps",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g31s32c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231610": {
+      "Name": "General's Satin Treads",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g83s21c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231611": {
+      "Name": "Warlord's Satin Epaulets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g19s69c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231612": {
+      "Name": "Warlord's Satin Robes",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "12g35s1c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231613": {
+      "Name": "General's Satin Grips",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g25s92c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231614": {
+      "Name": "General's Satin Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g70s52c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231615": {
+      "Name": "Warlord's Satin Crown",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g22s98c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231616": {
+      "Name": "Field Marshal's Satin Crown",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g19s78c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231617": {
+      "Name": "Marshal's Satin Grips",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g89s88c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231618": {
+      "Name": "Field Marshal's Satin Robe",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "12g39s50c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231619": {
+      "Name": "Marshal's Satin Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g63s17c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231620": {
+      "Name": "Marshal's Satin Treads",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g31s99c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231621": {
+      "Name": "Field Marshal's Satin Epaulets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g26s34c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231622": {
+      "Name": "Field Marshal's Satin Hood",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g19s78c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231623": {
+      "Name": "Marshal's Satin Handwraps",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "4g89s88c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231624": {
+      "Name": "Field Marshal's Satin Tunic",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "12g39s50c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231626": {
+      "Name": "Marshal's Satin Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g63s17c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231627": {
+      "Name": "Marshal's Satin Walkers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g31s99c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231628": {
+      "Name": "Field Marshal's Satin Mantle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g26s34c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231630": {
+      "Name": "General's Satin Walkers",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g83s21c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231631": {
+      "Name": "Warlord's Satin Mantle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g19s69c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231632": {
+      "Name": "Warlord's Satin Tunic",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "12g35s1c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231633": {
+      "Name": "General's Satin Handwraps",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g25s92c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231634": {
+      "Name": "General's Satin Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g70s52c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231635": {
+      "Name": "Warlord's Satin Hood",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g22s98c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231653": {
+      "Name": "Warlord's Mail Hauberk",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "17g40s65c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231654": {
+      "Name": "Warlord's Mail Pauldrons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g25s98c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231655": {
+      "Name": "General's Mail Vices",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g43s32c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231656": {
+      "Name": "General's Mail Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g15s78c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231657": {
+      "Name": "Warlord's Mail Headguard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g10s27c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231658": {
+      "Name": "General's Mail Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g14s82c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231659": {
+      "Name": "Warlord's Mail Spaulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g25s98c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231660": {
+      "Name": "General's Mail Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g43s32c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231661": {
+      "Name": "General's Mail Sabatons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g15s78c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231662": {
+      "Name": "Warlord's Mail Breastplate",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "17g40s65c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231663": {
+      "Name": "Warlord's Mail Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g10s27c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231664": {
+      "Name": "General's Mail Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g14s82c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231665": {
+      "Name": "Warlord's Mail Epaulets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g25s98c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231666": {
+      "Name": "General's Mail Gloves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g43s32c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231667": {
+      "Name": "General's Mail Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g15s78c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231668": {
+      "Name": "Warlord's Mail Chestguard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "17g40s65c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231669": {
+      "Name": "Warlord's Mail Skullcap",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g10s27c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231670": {
+      "Name": "General's Mail Pants",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g14s82c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231671": {
+      "Name": "General's Dragonhide Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g99s78c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231672": {
+      "Name": "Warlord's Dragonhide Pauldrons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g45s19c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231673": {
+      "Name": "General's Dragonhide Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g23s60c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231674": {
+      "Name": "Warlord's Dragonhide Tunic",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g15s99c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231675": {
+      "Name": "Warlord's Dragonhide Headdress",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g41s9c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231676": {
+      "Name": "General's Dragonhide Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g21s86c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231677": {
+      "Name": "General's Dragonhide Gloves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g21s86c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231678": {
+      "Name": "Warlord's Dragonhide Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g41s9c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231679": {
+      "Name": "Warlord's Dragonhide Armor",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g15s99c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231680": {
+      "Name": "General's Dragonhide Pants",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g23s60c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231681": {
+      "Name": "Warlord's Dragonhide Spaulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g45s19c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231682": {
+      "Name": "General's Dragonhide Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g99s78c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231683": {
+      "Name": "General's Dragonhide Treads",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g99s78c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231684": {
+      "Name": "Warlord's Dragonhide Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g45s19c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231685": {
+      "Name": "General's Dragonhide Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g23s60c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231686": {
+      "Name": "Warlord's Dragonhide Chestpiece",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g15s99c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231687": {
+      "Name": "Warlord's Dragonhide Headguard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g41s9c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231688": {
+      "Name": "General's Dragonhide Grips",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g21s86c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231689": {
+      "Name": "Field Marshal's Dragonhide Headguard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g16s50c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231690": {
+      "Name": "Field Marshal's Dragonhide Chestpiece",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "14g94s13c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231691": {
+      "Name": "Marshal's Dragonhide Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "12g81s24c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231692": {
+      "Name": "Marshal's Dragonhide Treads",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g22s17c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231693": {
+      "Name": "Field Marshal's Dragonhide Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g8s40c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231694": {
+      "Name": "Marshal's Dragonhide Grips",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g35s96c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231695": {
+      "Name": "Field Marshal's Dragonhide Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g16s50c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231696": {
+      "Name": "Field Marshal's Dragonhide Armor",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "14g94s13c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231697": {
+      "Name": "Marshal's Dragonhide Pants",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "12g81s24c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231698": {
+      "Name": "Marshal's Dragonhide Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g22s17c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231699": {
+      "Name": "Field Marshal's Dragonhide Spaulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g8s40c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231700": {
+      "Name": "Marshal's Dragonhide Gloves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g35s96c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231701": {
+      "Name": "Field Marshal's Dragonhide Headdress",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g16s50c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231702": {
+      "Name": "Field Marshal's Dragonhide Tunic",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "14g94s13c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231703": {
+      "Name": "Marshal's Dragonhide Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "12g81s24c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231704": {
+      "Name": "Marshal's Dragonhide Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g22s17c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231705": {
+      "Name": "Field Marshal's Dragonhide Pauldrons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g8s40c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231706": {
+      "Name": "Marshal's Dragonhide Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "6g35s96c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
     }
   }
 }
