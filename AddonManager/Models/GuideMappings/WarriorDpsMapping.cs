@@ -26,7 +26,7 @@ internal class WarriorDpsMapping : SpecMapping
             { ("Neck", "#neck-for-dps-warrior") },
             { ("Ring", "#rings-for-dps-warrior") },
             { ("Trinket", "#trinkets-for-dps-warrior") },
-            { ("Main Hand", "#main-hand") },
-            { ("Ranged/Relic", "h3#ranged") },
+            { ("Main Hand", "#main-hand-weapons-for-dps-warrior") },
+            { ("Ranged/Relic", "h3#ranged-weapons-for-dps-warrior") },
         };
 }

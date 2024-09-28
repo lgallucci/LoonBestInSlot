@@ -6,13 +6,13 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Dps"], "6")
 
-    LBIS:AddEnchant(spec5, "231367", LBIS.L["Head"]) --Prophetic Curse
-    LBIS:AddEnchant(spec5, "20076", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
+    LBIS:AddEnchant(spec5, "468344", LBIS.L["Head"]) --Prophetic Curse
+    LBIS:AddEnchant(spec5, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
     LBIS:AddEnchant(spec5, "461129", LBIS.L["Back"]) --Hydraxian Coronation
     LBIS:AddEnchant(spec5, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec5, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
     LBIS:AddEnchant(spec5, "10344", LBIS.L["Hands"]) --Thick Armor Kit
-    LBIS:AddEnchant(spec5, "231367", LBIS.L["Legs"]) --Prophetic Curse
+    LBIS:AddEnchant(spec5, "468344", LBIS.L["Legs"]) --Prophetic Curse
     LBIS:AddEnchant(spec5, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec5, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
     LBIS:AddEnchant(spec5, "22749", LBIS.L["Two Hand"]) --Enchant Weapon - Spell Power

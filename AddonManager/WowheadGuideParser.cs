@@ -43,7 +43,19 @@ public class WowheadGuideParser
         { 18330, 22844 }, //Arcanum of Focus
         { 227819, 460963}, //Blessed Flame Mantle of the Dawn
         { 227926, 461129}, //Hydraxian Coronation
-        { 18251, 22725}, //Core Armor Kit
+        { 18251, 22725 }, //Core Armor Kit
+        { 20078, 24420 }, //Zandalar Signet of Serenity
+        { 20076, 24421 }, //Zandalar Signet of Mojo
+        { 20077, 24422 }, //Zandalar Signet of Might
+        { 231354, 468314 }, //Animist's Caress
+        { 231359, 468325 }, //Falcon's Call
+        { 231366, 468342 }, //Prophetic Aura
+        { 231367, 468344 }, //Prophetic Curse
+        { 231368, 468347 }, //Death's Embrace
+        { 231370, 468349 }, //Death's Advance
+        { 231375, 468362 }, //Vodouisant's Vigilance
+        { 231376, 468365 }, //Hoodoo Hex
+        { 231377, 468368 }, //Hoodoo Curse
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()

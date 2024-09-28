@@ -6,13 +6,13 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Tank"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Tank"], "6")
 
-    LBIS:AddEnchant(spec5, "231375", LBIS.L["Head"]) --Vodouisant's Vigilance
-    LBIS:AddEnchant(spec5, "20076", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
+    LBIS:AddEnchant(spec5, "468362", LBIS.L["Head"]) --Vodouisant's Vigilance
+    LBIS:AddEnchant(spec5, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
     LBIS:AddEnchant(spec5, "461129", LBIS.L["Back"]) --Hydraxian Coronation
     LBIS:AddEnchant(spec5, "22725", LBIS.L["Chest"]) --Core Armor Kit
     LBIS:AddEnchant(spec5, "13931", LBIS.L["Wrist"]) --Enchant Bracer - Deflection
     LBIS:AddEnchant(spec5, "22725", LBIS.L["Hands"]) --Core Armor Kit
-    LBIS:AddEnchant(spec5, "231375", LBIS.L["Legs"]) --Vodouisant's Vigilance
+    LBIS:AddEnchant(spec5, "468362", LBIS.L["Legs"]) --Vodouisant's Vigilance
     LBIS:AddEnchant(spec5, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec5, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
     LBIS:AddEnchant(spec5, "463871", LBIS.L["Off Hand"]) --Enchant Shield - Law of Nature

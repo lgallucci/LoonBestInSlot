@@ -6,13 +6,13 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "6")
 
-    LBIS:AddEnchant(spec5, "231376", LBIS.L["Head"]) --Hoodoo Hex
-    LBIS:AddEnchant(spec5, "20076", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
+    LBIS:AddEnchant(spec5, "468365", LBIS.L["Head"]) --Hoodoo Hex
+    LBIS:AddEnchant(spec5, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
     LBIS:AddEnchant(spec5, "461129", LBIS.L["Back"]) --Hydraxian Coronation
     LBIS:AddEnchant(spec5, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec5, "20009", LBIS.L["Wrist"]) --Enchant Bracer - Superior Spirit
     LBIS:AddEnchant(spec5, "19057", LBIS.L["Hands"]) --Rugged Armor Kit
-    LBIS:AddEnchant(spec5, "231376", LBIS.L["Legs"]) --Hoodoo Hex
+    LBIS:AddEnchant(spec5, "468365", LBIS.L["Legs"]) --Hoodoo Hex
     LBIS:AddEnchant(spec5, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec5, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
     LBIS:AddEnchant(spec5, "22749", LBIS.L["Two Hand"]) --Enchant Weapon - Spell Power

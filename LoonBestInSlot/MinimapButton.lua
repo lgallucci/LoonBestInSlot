@@ -17,8 +17,9 @@ function LBIS:RegisterMiniMap()
                 if button == "LeftButton" then 
                     LBIS.BrowserWindow:ToggleWindow()
                 elseif button == "RightButton" then
-		            InterfaceOptionsFrame_Show()
-		            InterfaceOptionsFrame_OpenToCategory("Loon Best In Slot")
+		            -- InterfaceOptionsFrame_Show()
+		            -- InterfaceOptionsFrame_OpenToCategory("Loon Best In Slot")
+                    Settings.OpenToCategory("Loon Best In Slot")
                 end
 
             end,

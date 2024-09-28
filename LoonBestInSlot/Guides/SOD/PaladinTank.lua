@@ -9,7 +9,7 @@ local function LoadData()
     LBIS:AddEnchant(spec5, "19783", LBIS.L["Head"]) --Syncretist's Sigil
     LBIS:AddEnchant(spec5, "22840", LBIS.L["Head"]) --Arcanum of Rapidity
     LBIS:AddEnchant(spec5, "15394", LBIS.L["Head"]) --Lesser Arcanum of Resilience
-    LBIS:AddEnchant(spec5, "20077", LBIS.L["Shoulder"]) --Zandalar Signet of Might
+    LBIS:AddEnchant(spec5, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
     LBIS:AddEnchant(spec5, "460963", LBIS.L["Shoulder"]) --Blessed Flame Mantle of the Dawn
     LBIS:AddEnchant(spec5, "20015", LBIS.L["Back"]) --Enchant Cloak - Superior Defense
     LBIS:AddEnchant(spec5, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility

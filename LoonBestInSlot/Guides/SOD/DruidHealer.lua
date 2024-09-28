@@ -6,8 +6,8 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Healer"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Healer"], "6")
 
-    LBIS:AddEnchant(spec5, "231354", LBIS.L["Head"]) --Animist's Caress
-    LBIS:AddEnchant(spec5, "20078", LBIS.L["Shoulder"]) --Zandalar Signet of Serenity
+    LBIS:AddEnchant(spec5, "468314", LBIS.L["Head"]) --Animist's Caress
+    LBIS:AddEnchant(spec5, "24420", LBIS.L["Shoulder"]) --Zandalar Signet of Serenity
     LBIS:AddEnchant(spec5, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
     LBIS:AddEnchant(spec5, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec5, "23802", LBIS.L["Wrist"]) --Enchant Bracer - Healing Power

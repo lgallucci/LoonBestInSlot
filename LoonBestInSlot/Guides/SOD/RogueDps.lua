@@ -6,8 +6,8 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "6")
 
-    LBIS:AddEnchant(spec5, "231370", LBIS.L["Head"]) --Death's Advance
-    LBIS:AddEnchant(spec5, "20077", LBIS.L["Shoulder"]) --Zandalar Signet of Might
+    LBIS:AddEnchant(spec5, "468349", LBIS.L["Head"]) --Death's Advance
+    LBIS:AddEnchant(spec5, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
     LBIS:AddEnchant(spec5, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
     LBIS:AddEnchant(spec5, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec5, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength

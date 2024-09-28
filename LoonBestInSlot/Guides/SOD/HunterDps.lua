@@ -6,13 +6,13 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Dps"], "6")
 
-    LBIS:AddEnchant(spec5, "231359", LBIS.L["Head"]) --Falcon's Call
-    LBIS:AddEnchant(spec5, "20077", LBIS.L["Shoulder"]) --Zandalar Signet of Might
+    LBIS:AddEnchant(spec5, "468325", LBIS.L["Head"]) --Falcon's Call
+    LBIS:AddEnchant(spec5, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
     LBIS:AddEnchant(spec5, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
     LBIS:AddEnchant(spec5, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec5, "7779", LBIS.L["Wrist"]) --Enchant Bracer - Minor Agility
     LBIS:AddEnchant(spec5, "20012", LBIS.L["Hands"]) --Enchant Gloves - Greater Agility
-    LBIS:AddEnchant(spec5, "231359", LBIS.L["Legs"]) --Falcon's Call
+    LBIS:AddEnchant(spec5, "468325", LBIS.L["Legs"]) --Falcon's Call
     LBIS:AddEnchant(spec5, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
     LBIS:AddEnchant(spec5, "23800", LBIS.L["Main Hand"]) --Enchant Weapon - Agility
     LBIS:AddEnchant(spec5, "27837", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Agility
