@@ -13,15 +13,7 @@ public class RaidImporter : LootImporter
         // { @"https://www.wowhead.com/classic/guide/season-of-discovery/sunken-temple-level-up-raid-loot", "Sunken Temple" }
         // //{ @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/molten-core-overview-loot", "Molten Core"},
         // { @"https://www.wowhead.com/classic/npc=10184/onyxia#drops;mode:som40", ("Onyxia", "Onyxia's Lair")},
-        // { @"https://www.wowhead.com/classic/npc=12435/razorgore-the-untamed", ("Razorgore the Untamed", "Blackwing Lair") },
-        // { @"https://www.wowhead.com/classic/npc=13020/vaelastrasz-the-corrupt", ("Vaelastrasz the Corrupt", "Blackwing Lair") },
-        // { @"https://www.wowhead.com/classic/npc=12017/broodlord-lashlayer", ("Broodlord Lashlayer", "Blackwing Lair") },
-        // { @"https://www.wowhead.com/classic/npc=11983/firemaw", ("Firemaw", "Blackwing Lair") },
-        // { @"https://www.wowhead.com/classic/npc=14601/ebonroc", ("Ebonroc", "Blackwing Lair") },
-        // { @"https://www.wowhead.com/classic/npc=11981/flamegor", ("Flamegor", "Blackwing Lair") },
-        // { @"https://www.wowhead.com/classic/npc=14020/chromaggus", ("Chromaggus", "Blackwing Lair") },
-        // { @"https://www.wowhead.com/classic/npc=11583/nefarian", ("Nefarian", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/blackwing-lair-loot", "Blackwing Lair" },
+        //{ @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/blackwing-lair-loot", "Blackwing Lair" },
         //{ @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/zul-gurub-loot", "Zul'Gurub" },
     };
 
@@ -70,22 +62,42 @@ public class RaidImporter : LootImporter
         // { "#gahzranka ~ .clean-markup-table-borders", "Gahz'ranka"},
     };
 
+
+    private Dictionary<string, (string, string)> bossUriList = new Dictionary<string, (string, string)>
+    {
+        { @"https://www.wowhead.com/classic/npc=12435/razorgore-the-untamed#drops;mode:seasonal40", ("Razorgore the Untamed", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=13020/vaelastrasz-the-corrupt#drops;mode:seasonal40", ("Vaelastrasz the Corrupt", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=12017/broodlord-lashlayer#drops;mode:seasonal40", ("Broodlord Lashlayer", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=11983/firemaw#drops;mode:seasonal40", ("Firemaw", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=14601/ebonroc#drops;mode:seasonal40", ("Ebonroc", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=11981/flamegor#drops;mode:seasonal40", ("Flamegor", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=14020/chromaggus#drops;mode:seasonal40", ("Chromaggus", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=11583/nefarian#drops;mode:seasonal40", ("Nefarian", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=11583/nefarian#drops;mode:seasonal40;50", ("Nefarian", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=11583/nefarian#drops;mode:seasonal40;100", ("Nefarian", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=231494/prince-thunderaan#drops", ("Prince Thunderaan", "The Crystal Vale")}
+    };
+    
+
     internal override string FileName { get => "RaidItemList"; }
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
         //items.Items.Clear();
 
-        foreach(var raidUri in raidUriList)
-        {
-            items.AddItems(await ConvertRaidLoot(raidUri, items, writeToLog));
-            //await GetItemDrops(items, writeToLog);
-        }
+        // foreach(var raidUri in raidUriList)
+        // {
+        //     items.AddItems(await ConvertRaidLoot(raidUri, items, writeToLog));
+        // }
+
+
+        await GetItemDrops(items, writeToLog);
+
         return items;
     }
 
     private async Task GetItemDrops(DatabaseItems items, Action<string> writeToLog)
     {
-        await Common.ReadWowheadDropsList(raidUriList.Keys.ToList(), (uri, row, itemId, item) => {
+        await Common.ReadWowheadDropsList(bossUriList.Keys.ToList(), (uri, row, itemId, item) => {
             var sourceFaction = "B";
             var isPurple = (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q5") ?? false);
             if (!isPurple) return;
@@ -101,10 +113,10 @@ public class RaidImporter : LootImporter
             items.AddItem(itemId, new DatabaseItem 
             {
                 Name = item?.TextContent ?? "unknown",
-                Source = "", //raidUriList[uri].Item1,
+                Source = bossUriList[uri].Item1,
                 SourceType = "Drop",
                 SourceNumber = "0",
-                SourceLocation = "", //raidUriList[uri].Item2,
+                SourceLocation = bossUriList[uri].Item2,
                 SourceFaction = sourceFaction
             });
         }, writeToLog);

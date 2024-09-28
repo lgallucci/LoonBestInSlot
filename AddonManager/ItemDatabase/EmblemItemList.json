@@ -40,6 +40,30 @@
       "SourceLocation": "Pix Xizzix - Booty Bay",
       "SourceFaction": "B"
     },
+    "17010": {
+      "Name": "Fiery Core",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "17011": {
+      "Name": "Lava Core",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "17012": {
+      "Name": "Core Leather",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "10",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
     "220597": {
       "Name": "Drakestone of the Dream Harbinger",
       "Source": "Tarnished Undermine Real",
@@ -861,6 +885,166 @@
       "Source": "Tarnished Undermine Real",
       "SourceType": "Dungeon Token",
       "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "231707": {
+      "Name": "Draconian Bindings",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "125",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "231715": {
+      "Name": "Primeval Bindings",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "125",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "231724": {
+      "Name": "Ancient Bindings",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "125",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "231811": {
+      "Name": "Libram of Awe",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "231996": {
+      "Name": "Supercharged Gobmogrifier",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "232389": {
+      "Name": "Libram of Plenty",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "232390": {
+      "Name": "Idol of Celestial Focus",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "232391": {
+      "Name": "Idol of Feline Focus",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "232392": {
+      "Name": "Totem of Relentless Thunder",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "232409": {
+      "Name": "Totem of the Elements",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "232416": {
+      "Name": "Totem of Astral Flow",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "232419": {
+      "Name": "Totem of Conductive Currents",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "232420": {
+      "Name": "Libram of Wrath",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "232421": {
+      "Name": "Libram of Avenging",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "232423": {
+      "Name": "Idol of Nurture",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "232424": {
+      "Name": "Idol of Cruelty",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "232454": {
+      "Name": "Emblem of the Wild Gods",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "232455": {
+      "Name": "Emblem of Dishonor",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "232456": {
+      "Name": "Emblem of the Violet Eye",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Pix Xizzix - Booty Bay",
+      "SourceFaction": "B"
+    },
+    "232457": {
+      "Name": "Emblem of the Worldcore",
+      "Source": "Tarnished Undermine Real",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
       "SourceLocation": "Pix Xizzix - Booty Bay",
       "SourceFaction": "B"
     }

@@ -8,12 +8,44 @@
       "SourceLocation": "Sunken Temple",
       "SourceFaction": "B"
     },
+    "12717": {
+      "Name": "Plans: Lionheart Helm",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
     "13325": {
       "Name": "Fluorescent Green Mechanostrider",
       "Source": "Mekgineer Thermaplugg",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Gnomeregan",
+      "SourceFaction": "B"
+    },
+    "16818": {
+      "Name": "Netherwind Belt",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16897": {
+      "Name": "Stormrage Chestguard",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16898": {
+      "Name": "Stormrage Boots",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
     },
     "16900": {
@@ -24,12 +56,76 @@
       "SourceLocation": "Onyxia's Lair",
       "SourceFaction": "B"
     },
+    "16902": {
+      "Name": "Stormrage Pauldrons",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16903": {
+      "Name": "Stormrage Belt",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16904": {
+      "Name": "Stormrage Bracers",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16905": {
+      "Name": "Bloodfang Chestpiece",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16906": {
+      "Name": "Bloodfang Boots",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
     "16908": {
       "Name": "Bloodfang Hood",
       "Source": "Onyxia",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "16910": {
+      "Name": "Bloodfang Belt",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16911": {
+      "Name": "Bloodfang Bracers",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16912": {
+      "Name": "Netherwind Boots",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
     },
     "16914": {
@@ -40,12 +136,76 @@
       "SourceLocation": "Onyxia's Lair",
       "SourceFaction": "B"
     },
+    "16917": {
+      "Name": "Netherwind Mantle",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16918": {
+      "Name": "Netherwind Bindings",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16919": {
+      "Name": "Boots of Transcendence",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16920": {
+      "Name": "Handguards of Transcendence",
+      "Source": "Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
     "16921": {
       "Name": "Halo of Transcendence",
       "Source": "Onyxia",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "16924": {
+      "Name": "Pauldrons of Transcendence",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16926": {
+      "Name": "Bindings of Transcendence",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16927": {
+      "Name": "Nemesis Boots",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16928": {
+      "Name": "Nemesis Gloves",
+      "Source": "Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
     },
     "16929": {
@@ -56,12 +216,60 @@
       "SourceLocation": "Onyxia's Lair",
       "SourceFaction": "B"
     },
+    "16932": {
+      "Name": "Nemesis Spaulders",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16934": {
+      "Name": "Nemesis Bracers",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16935": {
+      "Name": "Dragonstalker's Bracers",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16937": {
+      "Name": "Dragonstalker's Spaulders",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
     "16939": {
       "Name": "Dragonstalker's Helm",
       "Source": "Onyxia",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "16940": {
+      "Name": "Dragonstalker's Gauntlets",
+      "Source": "Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "16941": {
+      "Name": "Dragonstalker's Greaves",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
     },
     "16955": {
@@ -72,12 +280,28 @@
       "SourceLocation": "Onyxia's Lair",
       "SourceFaction": "B"
     },
+    "16958": {
+      "Name": "Judgement Breastplate",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
     "16963": {
       "Name": "Helm of Wrath",
       "Source": "Onyxia",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Onyxia's Lair",
+      "SourceFaction": "B"
+    },
+    "16965": {
+      "Name": "Sabatons of Wrath",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
     },
     "17064": {
@@ -192,14 +416,6 @@
       "SourceLocation": "Onyxia's Lair",
       "SourceFaction": "B"
     },
-    "18562": {
-      "Name": "Elementium Ore",
-      "Source": "Trash Mobs",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Blackwing Lair",
-      "SourceFaction": "B"
-    },
     "18564": {
       "Name": "Bindings of the Windseeker",
       "Source": "Garr",
@@ -243,6 +459,294 @@
     "19002": {
       "Name": "Head of Nefarian",
       "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19003": {
+      "Name": "Head of Nefarian",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19334": {
+      "Name": "The Untamed Blade",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19335": {
+      "Name": "Spineshatter",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19336": {
+      "Name": "Arcane Infused Gem",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19339": {
+      "Name": "Mind Quickening Gem",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19340": {
+      "Name": "Rune of Metamorphosis",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19341": {
+      "Name": "Lifegiving Gem",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19342": {
+      "Name": "Venomous Totem",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19345": {
+      "Name": "Aegis of Preservation",
+      "Source": "Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19347": {
+      "Name": "Claw of Chromaggus",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19350": {
+      "Name": "Heartstriker",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19351": {
+      "Name": "Maladath, Runed Blade of the Black Flight",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19361": {
+      "Name": "Ashjre'thul, Crossbow of Smiting",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19364": {
+      "Name": "Ashkandi, Greatsword of the Brotherhood",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19365": {
+      "Name": "Claw of the Black Drake",
+      "Source": "Firemaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19368": {
+      "Name": "Dragonbreath Hand Cannon",
+      "Source": "Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19369": {
+      "Name": "Gloves of Rapid Evolution",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19371": {
+      "Name": "Pendant of the Fallen Dragon",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19372": {
+      "Name": "Helm of Endless Rage",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19373": {
+      "Name": "Black Brood Pauldrons",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19374": {
+      "Name": "Bracers of Arcane Accuracy",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19375": {
+      "Name": "Mish'undare, Circlet of the Mind Flayer",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19378": {
+      "Name": "Cloak of the Brood Lord",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19381": {
+      "Name": "Boots of the Shadow Flame",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19385": {
+      "Name": "Empowered Leggings",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19387": {
+      "Name": "Chromatic Boots",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19391": {
+      "Name": "Shimmering Geta",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19392": {
+      "Name": "Girdle of the Fallen Crusader",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19394": {
+      "Name": "Drake Talon Pauldrons",
+      "Source": "Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19397": {
+      "Name": "Ring of Blackrock",
+      "Source": "Flamegor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19398": {
+      "Name": "Cloak of Firemaw",
+      "Source": "Firemaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19400": {
+      "Name": "Firemaw's Clutch",
+      "Source": "Firemaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19402": {
+      "Name": "Legguards of the Fallen Crusader",
+      "Source": "Firemaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19403": {
+      "Name": "Band of Forced Concentration",
+      "Source": "Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19407": {
+      "Name": "Ebony Flame Gloves",
+      "Source": "Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "19430": {
+      "Name": "Shroud of Pure Thought",
+      "Source": "Flamegor",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -3736,6 +4240,22 @@
       "SourceLocation": "Onyxia's Lair",
       "SourceFaction": "B"
     },
+    "229352": {
+      "Name": "Intelligence Findings",
+      "Source": "Razorgore the Untamed",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "229906": {
+      "Name": "Tarnished Bronze Scale",
+      "Source": "Chromaggus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
     "230237": {
       "Name": "Arcane Infused Gem",
       "Source": "Razorgore the Untamed",
@@ -3882,7 +4402,7 @@
     },
     "230255": {
       "Name": "Taut Dragonhide Belt",
-      "Source": "Firemaw & Ebonroc & Flamegor",
+      "Source": "Flamegor",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -3890,7 +4410,7 @@
     },
     "230256": {
       "Name": "Drake Talon Pauldrons",
-      "Source": "Firemaw & Ebonroc & Flamegor",
+      "Source": "Firemaw & Flamegor",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -3898,7 +4418,7 @@
     },
     "230257": {
       "Name": "Ring of Blackrock",
-      "Source": "Firemaw & Ebonroc & Flamegor",
+      "Source": "Firemaw",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -3906,7 +4426,7 @@
     },
     "230269": {
       "Name": "Rejuvenating Gem",
-      "Source": "Firemaw & Ebonroc & Flamegor",
+      "Source": "Firemaw & Flamegor",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -3914,7 +4434,7 @@
     },
     "230270": {
       "Name": "Shadow Wing Focus Staff",
-      "Source": "Firemaw & Ebonroc & Flamegor",
+      "Source": "Firemaw & Flamegor",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -3922,7 +4442,7 @@
     },
     "230271": {
       "Name": "Drake Talon Cleaver",
-      "Source": "Firemaw & Ebonroc & Flamegor",
+      "Source": "Ebonroc",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -4010,7 +4530,7 @@
     },
     "230282": {
       "Name": "Drake Fang Talisman",
-      "Source": "Ebonroc",
+      "Source": "Firemaw & Flamegor",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -4282,7 +4802,7 @@
     },
     "230842": {
       "Name": "Cloak of Draconic Might",
-      "Source": "Trash Mobs",
+      "Source": "Firemaw & Flamegor",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -4290,7 +4810,7 @@
     },
     "230843": {
       "Name": "Boots of Pure Thought",
-      "Source": "Trash Mobs",
+      "Source": "Vaelastrasz the Corrupt",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -4298,7 +4818,7 @@
     },
     "230844": {
       "Name": "Draconic Maul",
-      "Source": "Trash Mobs",
+      "Source": "Firemaw & Flamegor",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -4306,7 +4826,7 @@
     },
     "230845": {
       "Name": "Doom's Edge",
-      "Source": "Trash Mobs",
+      "Source": "Vaelastrasz the Corrupt",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -4314,7 +4834,7 @@
     },
     "230846": {
       "Name": "Band of Dark Dominion",
-      "Source": "Trash Mobs",
+      "Source": "Vaelastrasz the Corrupt",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -4322,7 +4842,7 @@
     },
     "230847": {
       "Name": "Essence Gatherer",
-      "Source": "Ebonroc & Trash Mobs",
+      "Source": "Firemaw & Flamegor",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -4330,6 +4850,14 @@
     },
     "230848": {
       "Name": "Interlaced Shadow Jerkin",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "230849": {
+      "Name": "Ringo's Blizzard Boots",
       "Source": "Vaelastrasz the Corrupt",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -4454,6 +4982,14 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "230904": {
+      "Name": "Scroll: SEENECS FO RIEF",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
     },
     "230911": {
@@ -4968,6 +5504,30 @@
       "SourceLocation": "Zul'Gurub",
       "SourceFaction": "B"
     },
+    "231378": {
+      "Name": "Shimmering Golden Disk",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231387": {
+      "Name": "Stormwrath, Sanctified Shortblade of the Galefinder",
+      "Source": "Prince Thunderaan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Crystal Vale",
+      "SourceFaction": "B"
+    },
+    "231452": {
+      "Name": "Blood of the Lightbringer",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
     "231512": {
       "Name": "Primal Hakkari Idol",
       "Source": "Bloodlord Mandokir & Jin'do the Hexxer",
@@ -4976,25 +5536,33 @@
       "SourceLocation": "Zul'Gurub",
       "SourceFaction": "B"
     },
-    "231707": {
-      "Name": "Draconian Bindings",
-      "Source": "Razorgore the Untamed & Ebonroc",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Blackwing Lair",
-      "SourceFaction": "B"
-    },
     "231708": {
       "Name": "Draconian Belt",
-      "Source": "Vaelastrasz the Corrupt & Ebonroc",
+      "Source": "Prince Thunderaan",
       "SourceType": "Drop",
       "SourceNumber": "0",
-      "SourceLocation": "Blackwing Lair",
+      "SourceLocation": "The Crystal Vale",
       "SourceFaction": "B"
     },
     "231709": {
       "Name": "Draconian Shoulderpads",
-      "Source": "Chromaggus & Nefarian",
+      "Source": "Ebonroc & Chromaggus & Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231710": {
+      "Name": "Draconian Leggings",
+      "Source": "Vaelastrasz the Corrupt & Firemaw & Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231711": {
+      "Name": "Draconian Hood",
+      "Source": "Ebonroc & Nefarian",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -5002,7 +5570,7 @@
     },
     "231712": {
       "Name": "Draconian Gloves",
-      "Source": "Various Bosses",
+      "Source": "Razorgore the Untamed & Ebonroc & Nefarian",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -5010,7 +5578,7 @@
     },
     "231713": {
       "Name": "Draconian Boots",
-      "Source": "Broodlord Lashlayer",
+      "Source": "Broodlord Lashlayer & Ebonroc & Nefarian",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -5024,20 +5592,12 @@
       "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
     },
-    "231715": {
-      "Name": "Primeval Bindings",
-      "Source": "Razorgore the Untamed & Ebonroc",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Blackwing Lair",
-      "SourceFaction": "B"
-    },
     "231716": {
       "Name": "Primeval Belt",
-      "Source": "Vaelastrasz the Corrupt & Ebonroc",
+      "Source": "Vaelastrasz the Corrupt & Ebonroc~Prince Thunderaan",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Blackwing Lair",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Blackwing Lair~The Crystal Vale",
       "SourceFaction": "B"
     },
     "231717": {
@@ -5048,9 +5608,25 @@
       "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
     },
+    "231718": {
+      "Name": "Primeval Leggings",
+      "Source": "Vaelastrasz the Corrupt & Firemaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231719": {
+      "Name": "Primeval Helm",
+      "Source": "Ebonroc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
     "231720": {
       "Name": "Primeval Gloves",
-      "Source": "Various Bosses",
+      "Source": "Razorgore the Untamed & Vaelastrasz the Corrupt",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -5058,7 +5634,15 @@
     },
     "231721": {
       "Name": "Primeval Boots",
-      "Source": "Broodlord Lashlayer",
+      "Source": "Broodlord Lashlayer & Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231722": {
+      "Name": "Depleted Scythe of Chaos",
+      "Source": "Razorgore the Untamed",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -5072,25 +5656,33 @@
       "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
     },
-    "231724": {
-      "Name": "Ancient Bindings",
-      "Source": "Razorgore the Untamed & Ebonroc",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Blackwing Lair",
-      "SourceFaction": "B"
-    },
     "231725": {
       "Name": "Ancient Belt",
-      "Source": "Vaelastrasz the Corrupt & Ebonroc",
+      "Source": "Nefarian~Prince Thunderaan",
       "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Blackwing Lair",
+      "SourceNumber": "0~0",
+      "SourceLocation": "Blackwing Lair~The Crystal Vale",
       "SourceFaction": "B"
     },
     "231726": {
       "Name": "Ancient Shoulderpads",
-      "Source": "Chromaggus & Nefarian",
+      "Source": "Vaelastrasz the Corrupt & Chromaggus & Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231727": {
+      "Name": "Ancient Leggings",
+      "Source": "Vaelastrasz the Corrupt & Firemaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231728": {
+      "Name": "Ancient Helm",
+      "Source": "Ebonroc",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -5098,7 +5690,7 @@
     },
     "231729": {
       "Name": "Ancient Gloves",
-      "Source": "Various Bosses",
+      "Source": "Razorgore the Untamed & Nefarian",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -5106,7 +5698,7 @@
     },
     "231730": {
       "Name": "Ancient Boots",
-      "Source": "Broodlord Lashlayer",
+      "Source": "Vaelastrasz the Corrupt & Broodlord Lashlayer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -5118,6 +5710,62 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231753": {
+      "Name": "Skywall's Solace",
+      "Source": "Prince Thunderaan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Crystal Vale",
+      "SourceFaction": "B"
+    },
+    "231777": {
+      "Name": "Crystallized Qiraji Limb",
+      "Source": "Prince Thunderaan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Crystal Vale",
+      "SourceFaction": "B"
+    },
+    "231781": {
+      "Name": "Soul of Thunder",
+      "Source": "Prince Thunderaan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Crystal Vale",
+      "SourceFaction": "B"
+    },
+    "231782": {
+      "Name": "Crown of the Successor",
+      "Source": "Prince Thunderaan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Crystal Vale",
+      "SourceFaction": "B"
+    },
+    "231783": {
+      "Name": "Drape of the Windlord",
+      "Source": "Prince Thunderaan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Crystal Vale",
+      "SourceFaction": "B"
+    },
+    "231784": {
+      "Name": "Lightning's Cell",
+      "Source": "Prince Thunderaan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Crystal Vale",
+      "SourceFaction": "B"
+    },
+    "231785": {
+      "Name": "Echoes of Betrayal",
+      "Source": "Prince Thunderaan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Crystal Vale",
       "SourceFaction": "B"
     },
     "231803": {
@@ -5134,6 +5782,30 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231815": {
+      "Name": "Flashrend",
+      "Source": "Prince Thunderaan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Crystal Vale",
+      "SourceFaction": "B"
+    },
+    "231817": {
+      "Name": "Windstriker",
+      "Source": "Prince Thunderaan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Crystal Vale",
+      "SourceFaction": "B"
+    },
+    "231823": {
+      "Name": "Geddon's Glaive",
+      "Source": "Prince Thunderaan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Crystal Vale",
       "SourceFaction": "B"
     },
     "231848": {
@@ -5312,12 +5984,28 @@
       "SourceLocation": "Zul'Gurub",
       "SourceFaction": "B"
     },
+    "231882": {
+      "Name": "Suppression Device Receipt",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
     "231995": {
       "Name": "Hardened Elementium Slag",
       "Source": "Broodlord Lashlayer",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "232018": {
+      "Name": "Dormant Wind Kissed Blade",
+      "Source": "Prince Thunderaan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Crystal Vale",
       "SourceFaction": "B"
     },
     "232299": {
@@ -5334,6 +6022,14 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "232357": {
+      "Name": "Draconic Avenger",
+      "Source": "Vaelastrasz the Corrupt",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
     },
     "232550": {
