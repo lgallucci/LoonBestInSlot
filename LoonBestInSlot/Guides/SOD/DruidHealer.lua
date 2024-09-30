@@ -525,6 +525,7 @@ local function LoadData()
     LBIS:AddItem(spec5, "230269", LBIS.L["Trinket"], "BIS") --Rejuvenating Gem
     LBIS:AddItem(spec5, "231280", LBIS.L["Trinket"], "BIS") --Wushoolay's Charm of Nature
     LBIS:AddItem(spec5, "230810", LBIS.L["Trinket"], "BIS") --Neltharion's Tear
+    LBIS:AddItem(spec5, "230920", LBIS.L["Trinket"], "Alt") --Mar'li's Eye
     LBIS:AddItem(spec5, "18470", LBIS.L["Trinket"], "Alt") --Royal Seal of Eldre'Thalas
     LBIS:AddItem(spec5, "221448", LBIS.L["Trinket"], "Alt") --Talisman of the Corrupted Grove
     LBIS:AddItem(spec5, "231784", LBIS.L["Trinket"], "Alt") --Lightning's Cell
@@ -532,6 +533,7 @@ local function LoadData()
     LBIS:AddItem(spec5, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
     LBIS:AddItem(spec5, "19288", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Blue Dragon
     LBIS:AddItem(spec5, "228188", LBIS.L["Trinket"], "Alt") --Prestor's Hairpin
+    LBIS:AddItem(spec5, "19950", LBIS.L["Trinket"], "Alt") --Zandalarian Hero Charm
     LBIS:AddItem(spec5, "231753", LBIS.L["Main Hand"], "BIS") --Skywall's Solace
     LBIS:AddItem(spec5, "231387", LBIS.L["Main Hand"], "BIS") --Stormwrath, Sanctified Shortblade of the Galefinder
     LBIS:AddItem(spec5, "230838", LBIS.L["Main Hand"], "Alt") --Lok'amir il Romathis

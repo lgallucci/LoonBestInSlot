@@ -3011,7 +3011,7 @@ LBIS.ItemSources =
     [20645] = { Name = "Nature's Whisper", SourceType = LBIS.L["Quest"], Source = LBIS.L["A Terrible Purpose"], SourceNumber = "0", SourceLocation = LBIS.L["Silithus"], SourceFaction = "B" },
     [20657] = { Name = "Crystal Tipped Stiletto", SourceType = LBIS.L["Drop"], Source = LBIS.L["Crimson Templar"], SourceNumber = "0", SourceLocation = LBIS.L["Silithus"], SourceFaction = "B" },
     [20672] = { Name = "Sparkling Crystal Wand", SourceType = LBIS.L["Drop"], Source = LBIS.L["The Duke of Shards"], SourceNumber = "0", SourceLocation = LBIS.L["Silithus"], SourceFaction = "B" },
-    [20674] = { Name = "Abyssal Cloth Pants", SourceType = LBIS.L["Drop"], Source = LBIS.L["The Duke of Zephyrs<Abyssal Council>"], SourceNumber = "0", SourceLocation = LBIS.L["Silithus"], SourceFaction = "B" },
+    [20674] = { Name = "Abyssal Cloth Pants", SourceType = LBIS.L["Drop"], Source = LBIS.L["The Duke of Zephyrs"], SourceNumber = "0", SourceLocation = LBIS.L["Silithus"], SourceFaction = "B" },
     [20682] = { Name = "Elemental Focus Band", SourceType = LBIS.L["Drop"], Source = LBIS.L["Prince Skaldrenox"], SourceNumber = "0", SourceLocation = LBIS.L["Silithus"], SourceFaction = "B" },
     [20683] = { Name = "Abyssal Plate Epaulets", SourceType = LBIS.L["Drop"], Source = LBIS.L["Lord Skwol"], SourceNumber = "0", SourceLocation = LBIS.L["Silithus"], SourceFaction = "B" },
     [20686] = { Name = "Abyssal Cloth Amice", SourceType = LBIS.L["Drop"], Source = LBIS.L["Baron Kazum"], SourceNumber = "0", SourceLocation = LBIS.L["Silithus"], SourceFaction = "B" },

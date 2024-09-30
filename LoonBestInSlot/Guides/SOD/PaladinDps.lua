@@ -478,13 +478,13 @@ local function LoadData()
     LBIS:AddItem(spec5, "230844", LBIS.L["Two Hand"], "Alt") --Draconic Maul
     LBIS:AddItem(spec5, "232357", LBIS.L["Two Hand"], "Alt") --Draconic Avenger
     LBIS:AddItem(spec5, "231823", LBIS.L["Two Hand"], "Alt") --Geddon's Glaive
+    LBIS:AddItem(spec5, "228229", LBIS.L["Two Hand"], "Alt") --Obsidian Edged Blade
     LBIS:AddItem(spec5, "228410", LBIS.L["Two Hand"], "Alt") --Dreadblade of the Destructor
-    LBIS:AddItem(spec5, "228460", LBIS.L["Two Hand"], "Alt") --Spinal Reaper
     LBIS:AddItem(spec5, "227691", LBIS.L["Two Hand"], "Alt") --Blade of Hanna
-    LBIS:AddItem(spec5, "228606", LBIS.L["Two Hand"], "Alt") --Blackblade of Shahram
+    LBIS:AddItem(spec5, "228460", LBIS.L["Two Hand"], "Alt") --Spinal Reaper
     LBIS:AddItem(spec5, "227960", LBIS.L["Two Hand"], "Alt") --Impervious Giant
     LBIS:AddItem(spec5, "1263", LBIS.L["Two Hand"], "Alt") --Brain Hacker
-    LBIS:AddItem(spec5, "228229", LBIS.L["Two Hand"], "Alt") --Obsidian Edged Blade
+    LBIS:AddItem(spec5, "228606", LBIS.L["Two Hand"], "Alt") --Blackblade of Shahram
     LBIS:AddItem(spec5, "227845", LBIS.L["Two Hand"], "Alt") --Refined Arcanite Reaper
     LBIS:AddItem(spec5, "223526", LBIS.L["Two Hand"], "Alt") --Sul'thraze the Lasher
     LBIS:AddItem(spec5, "228160", LBIS.L["Two Hand"], "Alt") --Faithbringer
