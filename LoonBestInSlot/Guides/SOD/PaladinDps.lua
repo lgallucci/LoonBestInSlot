@@ -417,13 +417,13 @@ local function LoadData()
     LBIS:AddItem(spec5, "226597", LBIS.L["Waist"], "Alt") --Lawbringer Girdle
     LBIS:AddItem(spec5, "230745", LBIS.L["Waist"], "Alt") --Girdle of the Fallen Crusader
     LBIS:AddItem(spec5, "227814", LBIS.L["Waist"], "Alt") --Radiant Girdle of the Dawn
+    LBIS:AddItem(spec5, "20216", LBIS.L["Waist"], "Alt") --Belt of Preserved Heads
     LBIS:AddItem(spec5, "215380", LBIS.L["Waist"], "Alt") --Power-Assisted Lifting Belt
     LBIS:AddItem(spec5, "227828", LBIS.L["Waist"], "Alt") --Lavawalker Belt
     LBIS:AddItem(spec5, "231177", LBIS.L["Legs"], "BIS") --Judgement Legplates
     LBIS:AddItem(spec5, "232146", LBIS.L["Legs"], "BIS") --Judgement Legplates
     LBIS:AddItem(spec5, "220654", LBIS.L["Legs"], "Alt") --Wailing Berserker's Legplates
     LBIS:AddItem(spec5, "226598", LBIS.L["Legs"], "Alt") --Lawbringer Leggings
-    LBIS:AddItem(spec5, "22385", LBIS.L["Legs"], "Alt") --Titanic Leggings
     LBIS:AddItem(spec5, "230278", LBIS.L["Legs"], "Alt") --Legguards of the Fallen Crusader
     LBIS:AddItem(spec5, "226972", LBIS.L["Legs"], "Alt") --Soulforge Legplates
     LBIS:AddItem(spec5, "14554", LBIS.L["Legs"], "Alt") --Cloudkeeper Legplates
