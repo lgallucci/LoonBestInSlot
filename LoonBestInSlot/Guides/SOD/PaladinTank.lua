@@ -6,7 +6,7 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "6")
 
-    LBIS:AddEnchant(spec5, "19783", LBIS.L["Head"]) --Syncretist's Sigil
+    LBIS:AddEnchant(spec5, "24160", LBIS.L["Head"]) --Syncretist's Sigil
     LBIS:AddEnchant(spec5, "22840", LBIS.L["Head"]) --Arcanum of Rapidity
     LBIS:AddEnchant(spec5, "15394", LBIS.L["Head"]) --Lesser Arcanum of Resilience
     LBIS:AddEnchant(spec5, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
