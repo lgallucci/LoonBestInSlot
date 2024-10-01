@@ -8128,6 +8128,102 @@
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
+    "231564": {
+      "Name": "General's Chain Sabatons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g83s73c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231565": {
+      "Name": "Warlord's Chain Pauldrons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g65s38c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231566": {
+      "Name": "Warlord's Chain Armor",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "17g92s95c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231567": {
+      "Name": "General's Chain Legplates",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g60s",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231568": {
+      "Name": "Warlord's Chain Greathelm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g49s63c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231569": {
+      "Name": "General's Chain Grips",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g34s90c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231570": {
+      "Name": "General's Chain Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g83s73c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231571": {
+      "Name": "Warlord's Chain Helm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g49s63c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231572": {
+      "Name": "Warlord's Chain Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "13g65s38c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231573": {
+      "Name": "Warlord's Chain Hauberk",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "17g92s95c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231574": {
+      "Name": "General's Chain Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "15g60s",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231575": {
+      "Name": "General's Chain Vices",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g34s90c",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
     "231576": {
       "Name": "Field Marshal's Chain Shoulders",
       "Source": "PvP Vendor",
@@ -8527,6 +8623,102 @@
       "SourceNumber": "9g22s98c",
       "SourceLocation": "Orgrimmar",
       "SourceFaction": "H"
+    },
+    "231639": {
+      "Name": "Marshal's Lamellar Legguards",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g70s72c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231640": {
+      "Name": "Field Marshal's Lamellar Helmet",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g2s85c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231641": {
+      "Name": "Field Marshal's Lamellar Chestplate",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g99s43c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231643": {
+      "Name": "Marshal's Lamellar Gloves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g14s33c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231645": {
+      "Name": "Field Marshal's Lamellar Pauldrons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g44s8c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231646": {
+      "Name": "Marshal's Lamellar Greaves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g74s25c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231647": {
+      "Name": "Marshal's Lamellar Leggings",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "10g70s72c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231648": {
+      "Name": "Field Marshal's Lamellar Headguard",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "9g2s85c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231649": {
+      "Name": "Field Marshal's Lamellar Breastplate",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "11g99s43c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231650": {
+      "Name": "Marshal's Lamellar Gauntlets",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "5g14s33c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231651": {
+      "Name": "Field Marshal's Lamellar Shoulders",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "8g44s8c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
+    },
+    "231652": {
+      "Name": "Marshal's Lamellar Sabatons",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "7g74s25c",
+      "SourceLocation": "Stormwind",
+      "SourceFaction": "A"
     },
     "231653": {
       "Name": "Warlord's Mail Hauberk",
