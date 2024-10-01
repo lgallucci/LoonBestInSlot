@@ -13,5 +13,5 @@ public static class Constants
 
     public static string LocalizationPath = @$"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator";
 
-    public static int CurrentPhase = 1;
+    public static int CurrentPhase = 3;
 }
