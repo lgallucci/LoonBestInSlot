@@ -283,6 +283,48 @@ local function LoadData()
     LBIS:AddItem(spec4, "228262", LBIS.L["Ranged/Relic"], "Alt") --Crimson Shocker
     LBIS:AddItem(spec4, "220604", LBIS.L["Ranged/Relic"], "Alt") --Nightmare Trophy
     LBIS:AddItem(spec4, "13938", LBIS.L["Ranged/Relic"], "Alt") --Bonecreeper Stylus
+
+    LBIS:AddItem(spec5, "231111", LBIS.L["Head"], "BIS") --Netherwind Mask
+    LBIS:AddItem(spec5, "230812", LBIS.L["Head"], "BIS") --Mish'undare, Circlet of the Mind Flayer
+    LBIS:AddItem(spec5, "231114", LBIS.L["Shoulder"], "BIS") --Netherwind Shoulders
+    LBIS:AddItem(spec5, "231325", LBIS.L["Shoulder"], "BIS") --Zandalar Illusionist's Mantle
+    LBIS:AddItem(spec5, "230240", LBIS.L["Shoulder"], "Alt") --Mantle of the Blackwing Cabal
+    LBIS:AddItem(spec5, "230804", LBIS.L["Back"], "BIS") --Cloak of the Brood Lord
+    LBIS:AddItem(spec5, "19857", LBIS.L["Back"], "BIS") --Cloak of Consumption
+    LBIS:AddItem(spec5, "228100", LBIS.L["Back"], "Alt") --Drape of the Fire Lord
+    LBIS:AddItem(spec5, "231113", LBIS.L["Chest"], "BIS") --Netherwind Vestments
+    LBIS:AddItem(spec5, "231327", LBIS.L["Chest"], "BIS") --Zandalar Illusionist's Robe
+    LBIS:AddItem(spec5, "14152", LBIS.L["Chest"], "Alt") --Robe of the Archmage
+    LBIS:AddItem(spec5, "231115", LBIS.L["Wrist"], "BIS") --Netherwind Wraps
+    LBIS:AddItem(spec5, "231326", LBIS.L["Wrist"], "BIS") --Zandalar Illusionist's Wraps
+    LBIS:AddItem(spec5, "19595", LBIS.L["Wrist"], "Alt") --Dryad's Wrist Bindings
+    LBIS:AddItem(spec5, "232140", LBIS.L["Hands"], "BIS") --Netherwind Mitts
+    LBIS:AddItem(spec5, "226556", LBIS.L["Hands"], "Alt") --Arcanist Gloves
+    LBIS:AddItem(spec5, "231108", LBIS.L["Waist"], "BIS") --Netherwind Sash
+    LBIS:AddItem(spec5, "228256", LBIS.L["Waist"], "Alt") --Mana Igniting Cord
+    LBIS:AddItem(spec5, "232138", LBIS.L["Legs"], "BIS") --Netherwind Leggings
+    LBIS:AddItem(spec5, "231109", LBIS.L["Feet"], "BIS") --Netherwind Slippers
+    LBIS:AddItem(spec5, "230849", LBIS.L["Feet"], "Alt") --Ringo's Blizzard Boots
+    LBIS:AddItem(spec5, "228384", LBIS.L["Feet"], "Alt") --Snowblind Shoes
+    LBIS:AddItem(spec5, "18814", LBIS.L["Neck"], "BIS") --Choker of the Fire Lord
+    LBIS:AddItem(spec5, "231324", LBIS.L["Neck"], "BIS") --Jewel of Kajaro
+    LBIS:AddItem(spec5, "228287", LBIS.L["Ring"], "BIS") --Band of Sulfuras
+    LBIS:AddItem(spec5, "228243", LBIS.L["Ring"], "BIS") --Ring of Spell Power
+    LBIS:AddItem(spec5, "228687", LBIS.L["Ring"], "Alt") --Dragonslayer's Signet
+    LBIS:AddItem(spec5, "231785", LBIS.L["Trinket"], "BIS") --Echoes of Betrayal
+    LBIS:AddItem(spec5, "230810", LBIS.L["Trinket"], "BIS") --Neltharion's Tear
+    LBIS:AddItem(spec5, "231282", LBIS.L["Trinket"], "BIS") --Hazza'rah's Charm of Chilled Magic
+    LBIS:AddItem(spec5, "230243", LBIS.L["Trinket"], "Alt") --Mind Quickening Gem
+    LBIS:AddItem(spec5, "13968", LBIS.L["Trinket"], "Alt") --Eye of the Beast
+    LBIS:AddItem(spec5, "229972", LBIS.L["Main Hand"], "BIS") --Staff of Rime
+    LBIS:AddItem(spec5, "229909", LBIS.L["Main Hand"], "BIS") --Staff of Order
+    LBIS:AddItem(spec5, "228271", LBIS.L["Main Hand"], "Alt") --Staff of Dominance
+    LBIS:AddItem(spec5, "220597", LBIS.L["Off Hand"], "BIS") --Drakestone of the Dream Harbinger
+    LBIS:AddItem(spec5, "19310", LBIS.L["Off Hand"], "Alt") --Tome of the Ice Lord
+    LBIS:AddItem(spec5, "19308", LBIS.L["Off Hand"], "Alt") --Tome of Arcane Domination
+    LBIS:AddItem(spec5, "231857", LBIS.L["Ranged/Relic"], "BIS") --Touch of Chaos
+    LBIS:AddItem(spec5, "228381", LBIS.L["Ranged/Relic"], "BIS") --Cold Snap
+    LBIS:AddItem(spec5, "228262", LBIS.L["Ranged/Relic"], "Alt") --Crimson Shocker
 end
 if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
     LoadData();
