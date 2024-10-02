@@ -6,9 +6,11 @@ internal class DruidTankMapping : SpecMapping
     public override string Class => "Druid";
     public override string Spec => "Tank";
 
-    public override string Phase0Url => "";
+    public override string Phase0Url => "tank-pre-raid-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
+            { ("Main Hand", "h3#weapon") },
+            { ("Ranged/Relic", "#relic") },
         };
 
     public override string CurrentUrl => "tank-bis-gear-pve";

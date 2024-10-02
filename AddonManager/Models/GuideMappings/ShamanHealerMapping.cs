@@ -6,9 +6,12 @@ internal class ShamanHealerMapping : SpecMapping
     public override string Class => "Shaman";
     public override string Spec => "Healer";
 
-    public override string Phase0Url => "";
+    public override string Phase0Url => "healer-pre-raid-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
+            { ("Main Hand", "h3#main-hand") },
+            { ("Off Hand", "h3#off-hand") },
+            { ("Ranged/Relic", "#relics") },
         };
 
     public override string CurrentUrl => "healer-bis-gear-pve";

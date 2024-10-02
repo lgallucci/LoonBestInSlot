@@ -30,7 +30,7 @@ public sealed partial class GuideImporter : Page
                                 "PaladinHealer", "PriestHealer", "ShamanHealer", "DruidTank", "PaladinTank", "RogueTank", "ShamanTank", 
                                 "WarlockTank", "WarriorTank", };
 
-    public string[] PhaseList = { "Phase5" };
+    public string[] PhaseList = { "Phase0", "Phase5" };
 
     public GuideImporter()
     {
