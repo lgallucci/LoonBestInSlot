@@ -1,4 +1,5 @@
 local function LoadData()
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Healer"], "0")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Healer"], "1")
     local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Healer"], "2")
     local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Healer"], "3")
@@ -15,6 +16,68 @@ local function LoadData()
     LBIS:AddEnchant(spec5, "20020", LBIS.L["Feet"]) --Enchant Boots - Greater Stamina
     LBIS:AddEnchant(spec5, "22750", LBIS.L["Main Hand"]) --Enchant Weapon - Healing Power
     LBIS:AddEnchant(spec5, "463871", LBIS.L["Off Hand"]) --Enchant Shield - Law of Nature
+
+    LBIS:AddItem(spec0, "226981", LBIS.L["Head"], "BIS") --Soulforge Crown
+    LBIS:AddItem(spec0, "220512", LBIS.L["Head"], "Alt") --Immaculate Goldsteel Helmet
+    LBIS:AddItem(spec0, "220522", LBIS.L["Head"], "Alt") --Soulcatcher Crown
+    LBIS:AddItem(spec0, "18490", LBIS.L["Head"], "Alt") --Insightful Hood
+    LBIS:AddItem(spec0, "220810", LBIS.L["Head"], "Alt") --Knight-Lieutenant's Imbued Helmet
+    LBIS:AddItem(spec0, "221384", LBIS.L["Head"], "Alt") --Emerald Encrusted Helmet
+    LBIS:AddItem(spec0, "226979", LBIS.L["Shoulder"], "BIS") --Soulforge Epaulets
+    LBIS:AddItem(spec0, "220739", LBIS.L["Shoulder"], "Alt") --Baleful Pauldrons
+    LBIS:AddItem(spec0, "220744", LBIS.L["Shoulder"], "Alt") --Wailing Chain Mantle
+    LBIS:AddItem(spec0, "22234", LBIS.L["Shoulder"], "Alt") --Mantle of Lost Hope
+    LBIS:AddItem(spec0, "14548", LBIS.L["Shoulder"], "Alt") --Royal Cap Spaulders
+    LBIS:AddItem(spec0, "220608", LBIS.L["Back"], "BIS") --Featherskin Drape
+    LBIS:AddItem(spec0, "228664", LBIS.L["Back"], "Alt") --Frostweaver Cape
+    LBIS:AddItem(spec0, "19531", LBIS.L["Back"], "Alt") --Caretaker's Cape
+    LBIS:AddItem(spec0, "216623", LBIS.L["Back"], "Alt") --Cape of Hemostasis
+    LBIS:AddItem(spec0, "226984", LBIS.L["Chest"], "BIS") --Soulforge Embrace
+    LBIS:AddItem(spec0, "13346", LBIS.L["Chest"], "Alt") --Robes of the Exalted
+    LBIS:AddItem(spec0, "220650", LBIS.L["Chest"], "Alt") --Obsessed Prophet's Chestplate
+    LBIS:AddItem(spec0, "220813", LBIS.L["Chest"], "Alt") --Knight's Imbued Armor
+    LBIS:AddItem(spec0, "221382", LBIS.L["Chest"], "Alt") --Emerald Encrusted Battleplate
+    LBIS:AddItem(spec0, "226977", LBIS.L["Wrist"], "BIS") --Soulforge Bindings
+    LBIS:AddItem(spec0, "18459", LBIS.L["Wrist"], "Alt") --Gallant's Wristguards
+    LBIS:AddItem(spec0, "228532", LBIS.L["Wrist"], "Alt") --Morlune's Bracer
+    LBIS:AddItem(spec0, "226982", LBIS.L["Hands"], "BIS") --Soulforge Fists
+    LBIS:AddItem(spec0, "18527", LBIS.L["Hands"], "Alt") --Harmonious Gauntlets
+    LBIS:AddItem(spec0, "220546", LBIS.L["Hands"], "Alt") --Hands of the Tormented
+    LBIS:AddItem(spec0, "14553", LBIS.L["Waist"], "BIS") --Sash of Mercy
+    LBIS:AddItem(spec0, "226978", LBIS.L["Waist"], "BIS") --Soulforge Cord
+    LBIS:AddItem(spec0, "220551", LBIS.L["Waist"], "Alt") --Devotee's Sash of the Emerald Dream
+    LBIS:AddItem(spec0, "226980", LBIS.L["Legs"], "BIS") --Soulforge Leggings
+    LBIS:AddItem(spec0, "18386", LBIS.L["Legs"], "Alt") --Padre's Trousers
+    LBIS:AddItem(spec0, "228040", LBIS.L["Legs"], "Alt") --Ghostloom Leggings
+    LBIS:AddItem(spec0, "228044", LBIS.L["Legs"], "Alt") --Maelstrom Leggings
+    LBIS:AddItem(spec0, "226983", LBIS.L["Feet"], "BIS") --Soulforge Treads
+    LBIS:AddItem(spec0, "22247", LBIS.L["Feet"], "Alt") --Faith Healer's Boots
+    LBIS:AddItem(spec0, "18507", LBIS.L["Feet"], "Alt") --Boots of the Full Moon
+    LBIS:AddItem(spec0, "13954", LBIS.L["Feet"], "Alt") --Verdant Footpads
+    LBIS:AddItem(spec0, "228019", LBIS.L["Neck"], "BIS") --Heart of the Fiend
+    LBIS:AddItem(spec0, "18723", LBIS.L["Neck"], "Alt") --Animated Chain Necklace
+    LBIS:AddItem(spec0, "220622", LBIS.L["Neck"], "Alt") --Perfectly Preserved Dragon's Eye
+    LBIS:AddItem(spec0, "228585", LBIS.L["Ring"], "BIS") --Mark of the Dragon Lord
+    LBIS:AddItem(spec0, "16058", LBIS.L["Ring"], "BIS") --Fordring's Seal
+    LBIS:AddItem(spec0, "22334", LBIS.L["Ring"], "Alt") --Band of Mending
+    LBIS:AddItem(spec0, "228538", LBIS.L["Ring"], "Alt") --Seal of Rivendare
+    LBIS:AddItem(spec0, "13178", LBIS.L["Ring"], "Alt") --Rosewine Circle
+    LBIS:AddItem(spec0, "12930", LBIS.L["Trinket"], "BIS") --Briarwood Reed
+    LBIS:AddItem(spec0, "221455", LBIS.L["Trinket"], "BIS") --Bloodlight Reverence
+    LBIS:AddItem(spec0, "220634", LBIS.L["Trinket"], "BIS") --Atal'ai Blood Ritual Charm
+    LBIS:AddItem(spec0, "227967", LBIS.L["Trinket"], "Alt") --Second Wind
+    LBIS:AddItem(spec0, "228168", LBIS.L["Main Hand"], "BIS") --Goblin Gear Grinder
+    LBIS:AddItem(spec0, "228544", LBIS.L["Main Hand"], "Alt") --Hammer of the Grand Crusader
+    LBIS:AddItem(spec0, "220579", LBIS.L["Main Hand"], "Alt") --Witch Doctor's Stick of Mojo
+    LBIS:AddItem(spec0, "11923", LBIS.L["Main Hand"], "Alt") --The Hammer of Grace
+    LBIS:AddItem(spec0, "22315", LBIS.L["Main Hand"], "Alt") --Hammer of Revitalization
+    LBIS:AddItem(spec0, "220602", LBIS.L["Off Hand"], "BIS") --Sewer Turtle Half-Shell
+    LBIS:AddItem(spec0, "220599", LBIS.L["Off Hand"], "Alt") --Drakestone of the Blood Prophet
+    LBIS:AddItem(spec0, "19312", LBIS.L["Off Hand"], "Alt") --Lei of the Lifegiver
+    LBIS:AddItem(spec0, "18523", LBIS.L["Off Hand"], "Alt") --Brightly Glowing Stone
+    LBIS:AddItem(spec0, "228175", LBIS.L["Ranged/Relic"], "BIS") --Libram of Holy Alacrity
+    LBIS:AddItem(spec0, "23201", LBIS.L["Ranged/Relic"], "Alt") --Libram of Divinity
+    LBIS:AddItem(spec0, "215435", LBIS.L["Ranged/Relic"], "Alt") --Libram of Benediction
 
     LBIS:AddItem(spec1, "211507", LBIS.L["Head"], "BIS") --Twilight Elementalist's Cowl
     LBIS:AddItem(spec1, "211842", LBIS.L["Head"], "Alt") --Rakkamar's Tattered Thinking Cap

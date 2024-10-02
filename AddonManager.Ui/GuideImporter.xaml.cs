@@ -25,7 +25,7 @@ namespace AddonManager.Ui;
 /// </summary>
 public sealed partial class GuideImporter : Page
 {
-    public string[] SpecList = {"DruidBalanceDps", "DruidFeralDps", "HunterDps", "MageDps", "PaladinDps", "PriestDps", "RogueDps", 
+    public string[] SpecList = {"DruidBalanceDps", "DruidFeralDps", "HunterRangedDps", "HunterMeleeDps", "MageDps", "PaladinDps", "PriestDps", "RogueDps", 
                                 "ShamanElementalDps", "ShamanEnhancementDps", "WarlockDps", "WarriorDps", "DruidHealer", "MageHealer", 
                                 "PaladinHealer", "PriestHealer", "ShamanHealer", "DruidTank", "PaladinTank", "RogueTank", "ShamanTank", 
                                 "WarlockTank", "WarriorTank", };

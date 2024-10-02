@@ -97,7 +97,8 @@ public class ClassSpecGuideMappings
 
         GuideMappings.AddRange(new DruidBalanceDpsMapping().ToList());
         GuideMappings.AddRange(new DruidFeralDpsMapping().ToList());
-        GuideMappings.AddRange(new HunterDpsMapping().ToList());
+        GuideMappings.AddRange(new HunterRangedDpsMapping().ToList());
+        GuideMappings.AddRange(new HunterMeleeDpsMapping().ToList());
         GuideMappings.AddRange(new MageDpsMapping().ToList());
         GuideMappings.AddRange(new PaladinDpsMapping().ToList());
         GuideMappings.AddRange(new PriestDpsMapping().ToList());

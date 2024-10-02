@@ -1,4 +1,5 @@
 local function LoadData()
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "0")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "1")
     local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "2")
     local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "3")
@@ -14,6 +15,59 @@ local function LoadData()
     LBIS:AddEnchant(spec5, "20012", LBIS.L["Hands"]) --Enchant Gloves - Greater Agility
     LBIS:AddEnchant(spec5, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec5, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
+
+    LBIS:AddItem(spec0, "228677", LBIS.L["Head"], "BIS") --Spellweaver's Turban
+    LBIS:AddItem(spec0, "226773", LBIS.L["Head"], "Alt") --Feralheart Cowl
+    LBIS:AddItem(spec0, "226778", LBIS.L["Shoulder"], "BIS") --Feralheart Spaulders
+    LBIS:AddItem(spec0, "220745", LBIS.L["Shoulder"], "Alt") --Membrane of Dark Neurosis
+    LBIS:AddItem(spec0, "20686", LBIS.L["Shoulder"], "Alt") --Abyssal Cloth Amice
+    LBIS:AddItem(spec0, "20697", LBIS.L["Back"], "BIS") --Crystalline Threaded Cape
+    LBIS:AddItem(spec0, "227869", LBIS.L["Back"], "BIS") --Brilliant Chromatic Cloak
+    LBIS:AddItem(spec0, "18350", LBIS.L["Back"], "Alt") --Amplifying Cloak
+    LBIS:AddItem(spec0, "220611", LBIS.L["Back"], "Alt") --Hukku's Hex Cape
+    LBIS:AddItem(spec0, "11623", LBIS.L["Back"], "Alt") --Spritecaster Cape
+    LBIS:AddItem(spec0, "220672", LBIS.L["Chest"], "BIS") --Lost Worshipper's Harness
+    LBIS:AddItem(spec0, "226776", LBIS.L["Chest"], "Alt") --Feralheart Vest
+    LBIS:AddItem(spec0, "226775", LBIS.L["Wrist"], "BIS") --Feralheart Wraps
+    LBIS:AddItem(spec0, "220538", LBIS.L["Wrist"], "Alt") --Cursed Slimescale Bracers
+    LBIS:AddItem(spec0, "211502", LBIS.L["Hands"], "BIS") --Void-Touched Leather Gauntlets
+    LBIS:AddItem(spec0, "226777", LBIS.L["Hands"], "BIS") --Feralheart Hands
+    LBIS:AddItem(spec0, "220544", LBIS.L["Hands"], "Alt") --Bloodflare Talons
+    LBIS:AddItem(spec0, "227882", LBIS.L["Waist"], "BIS") --Girdle of Arcane Insight
+    LBIS:AddItem(spec0, "223192", LBIS.L["Waist"], "Alt") --Cord of the Untamed
+    LBIS:AddItem(spec0, "11662", LBIS.L["Waist"], "Alt") --Ban'thok Sash
+    LBIS:AddItem(spec0, "226772", LBIS.L["Waist"], "Alt") --Feralheart Sash
+    LBIS:AddItem(spec0, "220673", LBIS.L["Legs"], "BIS") --Lost Worshipper's Leggings
+    LBIS:AddItem(spec0, "227191", LBIS.L["Legs"], "Alt") --Knight-Captain's Dragonhide Pants
+    LBIS:AddItem(spec0, "227185", LBIS.L["Legs"], "Alt") --Legionnaire's Dragonhide Pants
+    LBIS:AddItem(spec0, "226779", LBIS.L["Legs"], "Alt") --Feralheart Kilt
+    LBIS:AddItem(spec0, "220675", LBIS.L["Feet"], "BIS") --Lost Worshipper's Treads
+    LBIS:AddItem(spec0, "227194", LBIS.L["Feet"], "Alt") --Knight-Lieutenant's Dragonhide Boots
+    LBIS:AddItem(spec0, "227188", LBIS.L["Feet"], "Alt") --Blood Guard's Dragonhide Boots
+    LBIS:AddItem(spec0, "227965", LBIS.L["Feet"], "Alt") --Omnicast Boots
+    LBIS:AddItem(spec0, "228536", LBIS.L["Neck"], "BIS") --Star of Mystaria
+    LBIS:AddItem(spec0, "19426", LBIS.L["Neck"], "Alt") --Orb of the Darkmoon
+    LBIS:AddItem(spec0, "220623", LBIS.L["Neck"], "Alt") --Jin'do's Lost Locket
+    LBIS:AddItem(spec0, "228683", LBIS.L["Ring"], "BIS") --Rune Band of Wizardry
+    LBIS:AddItem(spec0, "228046", LBIS.L["Ring"], "BIS") --Don Mauricio's Band of Domination
+    LBIS:AddItem(spec0, "13001", LBIS.L["Ring"], "Alt") --Maiden's Circle
+    LBIS:AddItem(spec0, "12543", LBIS.L["Ring"], "Alt") --Songstone of Ironforge
+    LBIS:AddItem(spec0, "12545", LBIS.L["Ring"], "Alt") --Eye of Orgrimmar
+    LBIS:AddItem(spec0, "228678", LBIS.L["Trinket"], "BIS") --Draconic Infused Emblem
+    LBIS:AddItem(spec0, "12930", LBIS.L["Trinket"], "BIS") --Briarwood Reed
+    LBIS:AddItem(spec0, "223195", LBIS.L["Trinket"], "Alt") --Breadth of the Beast
+    LBIS:AddItem(spec0, "227972", LBIS.L["Trinket"], "Alt") --Burst of Knowledge
+    LBIS:AddItem(spec0, "13968", LBIS.L["Trinket"], "Alt") --Eye of the Beast
+    LBIS:AddItem(spec0, "228081", LBIS.L["Trinket"], "Alt") --Germinating Poisonseed
+    LBIS:AddItem(spec0, "20070", LBIS.L["Main Hand"], "BIS") --Sageclaw
+    LBIS:AddItem(spec0, "20214", LBIS.L["Main Hand"], "BIS") --Mindfang
+    LBIS:AddItem(spec0, "223964", LBIS.L["Main Hand"], "Alt") --Blade of Eternal Darkness
+    LBIS:AddItem(spec0, "220586", LBIS.L["Main Hand"], "Alt") --Hubris, the Bandit Brander
+    LBIS:AddItem(spec0, "228548", LBIS.L["Off Hand"], "BIS") --Scepter of Interminable Focus
+    LBIS:AddItem(spec0, "223539", LBIS.L["Off Hand"], "Alt") --Enthralled Sphere
+    LBIS:AddItem(spec0, "228180", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Swarm
+    LBIS:AddItem(spec0, "216490", LBIS.L["Ranged/Relic"], "Alt") --Idol of Wrath
+    LBIS:AddItem(spec0, "23197", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Moon
 
     LBIS:AddItem(spec1, "211507", LBIS.L["Head"], "BIS") --Twilight Elementalist's Cowl
     LBIS:AddItem(spec1, "211842", LBIS.L["Head"], "BIS") --Rakkamar's Tattered Thinking Cap

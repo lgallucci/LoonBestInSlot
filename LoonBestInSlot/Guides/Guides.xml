@@ -3,7 +3,8 @@
 <!-- Season of Discovery Guides -->
 	<Script file="SOD\DruidBalanceDps.lua" />
 	<Script file="SOD\DruidFeralDps.lua" />
-	<Script file="SOD\HunterDps.lua" />
+	<Script file="SOD\HunterRangedDps.lua" />
+	<Script file="SOD\HunterMeleeDps.lua" />
 	<Script file="SOD\MageDps.lua" />
 	<Script file="SOD\PaladinDps.lua" />
 	<Script file="SOD\PriestDps.lua" />

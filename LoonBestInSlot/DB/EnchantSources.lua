@@ -118,4 +118,5 @@ LBIS.EnchantSources =
     [468365] = { Name = "Hoodoo Hex", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Hoodoo Hex"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "231376" },
     [468368] = { Name = "Hoodoo Curse", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Hoodoo Curse"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "231377" },
     [468376] = { Name = "Presence of Valor", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Presence of Might"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "231381" },
+    [468383] = { Name = "Falcon's Fury", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Falcon's Call"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "231384" },
 }

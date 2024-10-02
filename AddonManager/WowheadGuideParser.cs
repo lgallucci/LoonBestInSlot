@@ -57,6 +57,7 @@ public class WowheadGuideParser
         { 231376, 468365 }, //Hoodoo Hex
         { 231377, 468368 }, //Hoodoo Curse
         { 19783, 24160 }, //Syncretist's Sigil
+        { 231384, 468383 }, //Falcon's Fury
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()
