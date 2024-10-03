@@ -39,7 +39,7 @@ LBISSettingsDefault =
 		[LBIS.L["Tank"]..LBIS.L["Warrior"]] = true,
 	},
 	PhaseTooltip = {
-		--[LBIS.L["PreRaid"]] = true,
+		[LBIS.L["PreRaid"]] = true,
 		[LBIS.L["Phase 1"]] = true,
 		[LBIS.L["Phase 2"]] = true,
 		[LBIS.L["Phase 3"]] = true,
@@ -351,15 +351,15 @@ local lbis_options = {
 			width = "full",
 			order = 39,
 		},
-		-- showPreRaid = {
-		-- 	type = "toggle",
-		-- 	name = LBIS.L["PreRaid"],
-		-- 	desc = LBIS.L["PreRaid"],
-		-- 	get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["PreRaid"]] end,
-		-- 	set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["PreRaid"]] = val end,
-		-- 	width = 1.1,
-		-- 	order = 40,
-		-- },
+		showPreRaid = {
+			type = "toggle",
+			name = LBIS.L["PreRaid"],
+			desc = LBIS.L["PreRaid"],
+			get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["PreRaid"]] end,
+			set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["PreRaid"]] = val end,
+			width = 1.1,
+			order = 40,
+		},
 		showPhase1 = {
 			type = "toggle",
 			name = LBIS.L["Phase 1"],

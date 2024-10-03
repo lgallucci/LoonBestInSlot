@@ -326,7 +326,7 @@ local function createItemRow(f, specItem, specItemSource)
         if specItem.Phase == "0" then
             pt:SetText("("..specItem.Bis..")");
         else
-            pt:SetText("("..specItem.Bis.." "..string.gsub(specItem.Phase, "0", "~")..")");
+            pt:SetText("("..specItem.Bis.." "..string.gsub(specItem.Phase, "0", "P")..")");
         end
         pt:SetPoint("TOPLEFT", t, "TOPRIGHT", 4, 0);
 
