@@ -9,11 +9,11 @@ if GetLocale() == "zhTW" then
   LBIS.L["A Final Blow"] = "最終一擊";
   LBIS.L["A Grim Discovery"] = "可怕的發現";
   LBIS.L["A Hero's Reward"] = "英雄的獎賞";
---  LBIS.L["A Just Reward"] = "";
   LBIS.L["A King's Tribute"] = "國王的禮物";
 --  LBIS.L["A Lesson in Grace"] = "";
 --  LBIS.L["A Lesson in Literacy"] = "";
   LBIS.L["A Terrible Purpose"] = "擺脫困境";
+--  LBIS.L["A Thane's Gratitude"] = "";
   LBIS.L["A Vengeful Fate"] = "奧爾德的報復";
   LBIS.L["Abyssal Signets"] = "深淵徽記";
   LBIS.L["Agathelos the Raging"] = "暴怒的阿迦賽羅斯";
@@ -30,6 +30,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Ammo"] = "攻擊";
   LBIS.L["Amnennar the Coldbringer"] = "『寒冰使者』亞門納爾";
   LBIS.L["An Audience with the King"] = "覲見國王";
+  LBIS.L["An Earnest Proposition"] = "誠摯的建議";
   LBIS.L["An Unholy Alliance"] = "邪惡的盟友";
   LBIS.L["Ancient Spirit"] = "遠古之靈";
   LBIS.L["Ancient Stone Keeper"] = "古代的石頭看守者";
@@ -47,6 +48,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Archmage Arugal"] = "大法師阿魯高";
   LBIS.L["Arena Grandmaster"] = "競技場宗師";
   LBIS.L["Arena Points"] = "競技場點數";
+--  LBIS.L["Arena Spoils"] = "";
 --  LBIS.L["Arena Treasure Chest"] = "";
   LBIS.L["Argent Dawn"] = "銀色黎明";
 --  LBIS.L["Argent Dawn - Revered"] = "";
@@ -101,6 +103,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Bloodscalp Witch Doctor"] = "";
   LBIS.L["Booty Bay"] = "藏寶海灣";
 --  LBIS.L["Boss Drop"] = "";
+  LBIS.L["Breastplate of the Chromatic Flight"] = "炫彩巨龍胸甲";
   LBIS.L["Bride of the Embalmer"] = "藏屍者的妻子";
   LBIS.L["Bring the End"] = "寒冰之王";
   LBIS.L["Bring the Light"] = "與聖光同在";
@@ -125,6 +128,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Cho'Rush the Observer"] = "『觀察者』克魯什";
   LBIS.L["Chromaggus"] = "克洛瑪古斯";
   LBIS.L["Cleansing the Eye"] = "淨化帕雷斯之眼";
+  LBIS.L["Codex of Defense"] = "防禦寶典";
   LBIS.L["Collecting Memories"] = "收集記憶";
   LBIS.L["Commander Springvale"] = "指揮官斯普林瓦爾";
   LBIS.L["Compendium of the Fallen"] = "墮落者綱要";
@@ -221,6 +225,9 @@ if GetLocale() == "zhTW" then
   LBIS.L["Engineering"] = "工程學";
 --  LBIS.L["Enhancement Dps"] = "";
   LBIS.L["Epic Armaments of Battle - Exalted Amongst the Dawn"] = "史詩級軍備之戰-銀色黎明聲望崇拜";
+  LBIS.L["Epic Armaments of Battle - Friend of the Dawn"] = "史詩級軍備之戰-銀色黎明聲望友善";
+  LBIS.L["Epic Armaments of Battle - Honored Amongst the Dawn"] = "史詩級軍備之戰-銀色黎明聲望尊敬";
+  LBIS.L["Epic Armaments of Battle - Revered Amongst the Dawn"] = "史詩級軍備之戰-銀色黎明聲望崇敬";
   LBIS.L["Eviscerator"] = "剜眼者";
   LBIS.L["Exalted"] = "崇拜";
   LBIS.L["Excelsior"] = "刨花皮靴";
@@ -365,6 +372,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Jin'do the Hexxer"] = "妖術師金度";
   LBIS.L["Jin'Zil's Forest Magic"] = "金吉爾的森林魔法";
   LBIS.L["Job Opening: Guard Captain of Revantusk Village"] = "職位空缺:惡齒村衛兵隊長";
+  LBIS.L["Just Compensation"] = "公平的補償";
   LBIS.L["Kam Deepfury"] = "卡姆·深怒";
   LBIS.L["Khan Hratha"] = "赫蘭薩可汗";
   LBIS.L["King Gordok"] = "戈多克大王";
@@ -436,6 +444,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Mazen's Behest"] = "馬森的請求";
 --  LBIS.L["Meilosh"] = "";
   LBIS.L["Mekgineer Thermaplugg"] = "麥克尼爾·瑟瑪普拉格";
+--  LBIS.L["MeleeDps"] = "";
   LBIS.L["Meshlok the Harvester (Rare)"] = "『收割者』麥什洛克 (精良)";
   LBIS.L["Miner Johnson (Rare)"] = "礦工約翰森 (精良)";
   LBIS.L["Missing In Action"] = "失蹤人員";
@@ -461,6 +470,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Nerub'enkan"] = "奈幽布恩坎";
 --  LBIS.L["Nether Sorceress"] = "";
 --  LBIS.L["New Features"] = "";
+--  LBIS.L["Night Falls"] = "";
 --  LBIS.L["Nightbane Dark Runner"] = "";
 --  LBIS.L["Nightbane Tainted One"] = "";
 --  LBIS.L["Nightbane Vile Fang"] = "";
@@ -488,6 +498,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Overlord Ramtusk"] = "拉姆塔斯主宰";
   LBIS.L["Overlord Wyrmthalak"] = "維姆薩拉克主宰";
   LBIS.L["Panzor the Invincible"] = "無敵的潘佐爾";
+--  LBIS.L["Paragon of Power Token"] = "";
 --  LBIS.L["Phase 1"] = "";
 --  LBIS.L["Phase 2"] = "";
 --  LBIS.L["Phase 3"] = "";
@@ -527,6 +538,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Ragnaros"] = "拉格納羅斯";
   LBIS.L["Ramstein the Gorger"] = "『暴食者』拉姆斯登";
   LBIS.L["Ranged/Relic"] = "遠程/聖物";
+--  LBIS.L["RangedDps"] = "";
   LBIS.L["Ras Frostwhisper"] = "萊斯·霜語";
   LBIS.L["Rattlegore"] = "血骨傀儡";
 --  LBIS.L["Ravenclaw Regent"] = "";
@@ -534,6 +546,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Razorfen Downs"] = "剃刀高地";
   LBIS.L["Razorfen Kraul"] = "剃刀沼澤";
   LBIS.L["Razorfen Spearhide"] = "剃刀沼澤刺鬃守衛";
+--  LBIS.L["Razorgore"] = "";
   LBIS.L["Razorgore the Untamed"] = "狂野的拉佐格爾";
   LBIS.L["Razorlash"] = "銳刺鞭笞者";
 --  LBIS.L["Razormaw Matriarch"] = "";
@@ -550,6 +563,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Return to Apothecary Zinge"] = "向藥劑師金格回報";
   LBIS.L["Return to Kristoff"] = "克里斯多夫的書";
   LBIS.L["Returning the Lost Satchel"] = "歸還背袋";
+--  LBIS.L["Revanchion"] = "";
 --  LBIS.L["Revanchion (scourge event only)"] = "";
   LBIS.L["Revelosh"] = "魯維羅什";
   LBIS.L["Revered"] = "崇敬";
@@ -564,6 +578,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Rotgrip"] = "洛特格里普";
   LBIS.L["Samophlange Manual"] = "主動式負載平衡器說明書";
   LBIS.L["Saving Sharpbeak"] = "拯救沙普比克";
+  LBIS.L["Saving the Best for Last"] = "最後的獎賞";
   LBIS.L["Saving Yenniku"] = "拯救耶尼庫";
 --  LBIS.L["Scapula of the Fallen Avatar"] = "";
 --  LBIS.L["Scarlet Centurion"] = "";
@@ -617,6 +632,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Southsea Shakedown"] = "南海復仇";
   LBIS.L["Spirestone Battle Lord (Rare)"] = "尖石戰鬥統帥 (精良)";
   LBIS.L["Spirestone Butcher (Rare)"] = "尖石屠夫 (精良)";
+  LBIS.L["Spirestone Lord Magus"] = "尖石首席魔導師";
 --  LBIS.L["Spirestone Mystic"] = "";
 --  LBIS.L["Spirit Shards"] = "";
 --  LBIS.L["Splinter Fist"] = "";
@@ -638,6 +654,10 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["STX-04/BD"] = "";
   LBIS.L["Sulfuron Harbinger"] = "薩弗隆先驅者";
   LBIS.L["Sunken Temple"] = "沉沒的神廟";
+  LBIS.L["Superior Armaments of Battle - Exalted Amongst the Dawn"] = "精良級軍備之戰-銀色黎明聲望崇拜";
+  LBIS.L["Superior Armaments of Battle - Friend of the Dawn"] = "精良級軍備之戰-銀色黎明聲望友善";
+  LBIS.L["Superior Armaments of Battle - Honored Amongst the Dawn"] = "精良級軍備之戰-銀色黎明聲望尊敬";
+  LBIS.L["Superior Armaments of Battle - Revered Amongst the Dawn"] = "精良級軍備之戰-銀色黎明聲望崇敬";
 --  LBIS.L["Supply Officer"] = "";
   LBIS.L["Swamp of Sorrows"] = "悲傷沼澤";
 --  LBIS.L["Syncretis's Sigil"] = "";
@@ -698,6 +718,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["The Love Potion"] = "愛情藥水";
 --  LBIS.L["The Mad King"] = "";
   LBIS.L["The Mark of Quality"] = "品質的保證";
+  LBIS.L["The Molten Core"] = "熔火之心";
 --  LBIS.L["The Naralex Event (Mutanus the Devourer)"] = " (『吞噬者』穆坦努斯)";
   LBIS.L["The Orb of Soran'ruk"] = "索蘭魯克寶珠";
   LBIS.L["The Pack Mistress"] = "座狼的首領";
@@ -760,11 +781,13 @@ if GetLocale() == "zhTW" then
   LBIS.L["Venom to the Undercity"] = "送往幽暗城的毒藥";
 --  LBIS.L["Venture Co. Surveyor"] = "";
   LBIS.L["Verdan the Everliving"] = "永生的沃爾丹";
+  LBIS.L["Verek"] = "維雷克";
   LBIS.L["Veteran's Battlegear"] = "精兵的裝備";
 --  LBIS.L["Vilebranch Shadowcaster"] = "";
 --  LBIS.L["Vinasia"] = "";
   LBIS.L["Viscous Fallout"] = "粘性輻射塵";
   LBIS.L["Vodouisant's Vigilant Embrace"] = "巫毒的警覺";
+--  LBIS.L["Voodoo Doll + 4 boss items"] = "";
   LBIS.L["Voodoo Feathers"] = "巫毒羽毛";
   LBIS.L["Vorrel's Revenge"] = "沃瑞爾的復仇";
 --  LBIS.L["Vultros"] = "";
@@ -804,6 +827,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["You Have Served Us Well"] = "幹得好";
   LBIS.L["Ysondre"] = "伊索德雷";
 --  LBIS.L["Zalgo the Explorer"] = "";
+--  LBIS.L["Zandalar Tribe Necklace"] = "";
 --  LBIS.L["Zarena Cromwind"] = "";
   LBIS.L["Zerillis"] = "澤雷利斯";
   LBIS.L["Zevrim Thornhoof"] = "瑟雷姆·刺蹄";

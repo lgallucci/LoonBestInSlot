@@ -9,11 +9,11 @@ if GetLocale() == "frFR" then
   LBIS.L["A Final Blow"] = "Un coup final";
   LBIS.L["A Grim Discovery"] = "Une découverte sinistre";
   LBIS.L["A Hero's Reward"] = "La récompense du héros";
---  LBIS.L["A Just Reward"] = "";
   LBIS.L["A King's Tribute"] = "Hommage royal";
 --  LBIS.L["A Lesson in Grace"] = "";
 --  LBIS.L["A Lesson in Literacy"] = "";
   LBIS.L["A Terrible Purpose"] = "Un terrible but";
+--  LBIS.L["A Thane's Gratitude"] = "";
   LBIS.L["A Vengeful Fate"] = "Un destin funeste";
   LBIS.L["Abyssal Signets"] = "Les chevalières abyssales";
   LBIS.L["Agathelos the Raging"] = "Agathelos le Déchaîné";
@@ -30,6 +30,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Ammo"] = "Munitions";
   LBIS.L["Amnennar the Coldbringer"] = "Amnennar le Porte-froid";
   LBIS.L["An Audience with the King"] = "Une audience avec le roi";
+  LBIS.L["An Earnest Proposition"] = "Une proposition sérieuse";
   LBIS.L["An Unholy Alliance"] = "Une alliance impie";
   LBIS.L["Ancient Spirit"] = "Esprit d'un ancien";
   LBIS.L["Ancient Stone Keeper"] = "Ancien Gardien des pierres";
@@ -47,6 +48,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Archmage Arugal"] = "Archimage Arugal";
   LBIS.L["Arena Grandmaster"] = "Grand maître de l'arène";
   LBIS.L["Arena Points"] = "Points d'arène";
+--  LBIS.L["Arena Spoils"] = "";
 --  LBIS.L["Arena Treasure Chest"] = "";
   LBIS.L["Argent Dawn"] = "Aube d'argent";
 --  LBIS.L["Argent Dawn - Revered"] = "";
@@ -101,6 +103,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Bloodscalp Witch Doctor"] = "";
   LBIS.L["Booty Bay"] = "Baie-du-Butin";
 --  LBIS.L["Boss Drop"] = "";
+  LBIS.L["Breastplate of the Chromatic Flight"] = "La cuirasse du vol chromatique";
   LBIS.L["Bride of the Embalmer"] = "La fiancée de l'Embaumeur";
   LBIS.L["Bring the End"] = "L'anéantissement";
   LBIS.L["Bring the Light"] = "Apportez la Lumière";
@@ -125,6 +128,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Cho'Rush the Observer"] = "Cho'Rush l'Observateur";
   LBIS.L["Chromaggus"] = "Chromaggus";
   LBIS.L["Cleansing the Eye"] = "Purifier l'Œil";
+  LBIS.L["Codex of Defense"] = "Le codex de défense";
   LBIS.L["Collecting Memories"] = "À la recherche de cartes du syndicat des mineurs";
   LBIS.L["Commander Springvale"] = "Commandant Springvale";
   LBIS.L["Compendium of the Fallen"] = "Compendium des Déchus";
@@ -221,6 +225,9 @@ if GetLocale() == "frFR" then
   LBIS.L["Engineering"] = "Ingénierie";
 --  LBIS.L["Enhancement Dps"] = "";
   LBIS.L["Epic Armaments of Battle - Exalted Amongst the Dawn"] = "Armes de bataille épiques - Exalté auprès de l'Aube";
+  LBIS.L["Epic Armaments of Battle - Friend of the Dawn"] = "Armes de bataille épiques - Ami de l'Aube";
+  LBIS.L["Epic Armaments of Battle - Honored Amongst the Dawn"] = "Armes de bataille épiques - Honoré auprès de l'Aube";
+  LBIS.L["Epic Armaments of Battle - Revered Amongst the Dawn"] = "Armes de bataille épiques - Révéré auprès de l'Aube";
   LBIS.L["Eviscerator"] = "Eviscérateur";
   LBIS.L["Exalted"] = "Exaltée";
   LBIS.L["Excelsior"] = "L'Excelsior de chez Drizzlik";
@@ -365,6 +372,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Jin'do the Hexxer"] = "Jin'do le Maléficieur";
   LBIS.L["Jin'Zil's Forest Magic"] = "Magie de la forêt de Jin'Zil";
   LBIS.L["Job Opening: Guard Captain of Revantusk Village"] = "Offre d'emploi : capitaine de la garde du village des Vengebroches";
+  LBIS.L["Just Compensation"] = "Une juste compensation";
   LBIS.L["Kam Deepfury"] = "Kam Deepfury";
   LBIS.L["Khan Hratha"] = "Khan Hratha";
   LBIS.L["King Gordok"] = "Roi Gordok";
@@ -436,6 +444,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Mazen's Behest"] = "Les ordres de Mazen";
 --  LBIS.L["Meilosh"] = "";
   LBIS.L["Mekgineer Thermaplugg"] = "Mekgénieur Thermaplugg";
+--  LBIS.L["MeleeDps"] = "";
   LBIS.L["Meshlok the Harvester (Rare)"] = "Meshlok le Moissonneur (Rare)";
   LBIS.L["Miner Johnson (Rare)"] = "Mineur Johnson (Rare)";
   LBIS.L["Missing In Action"] = "Porté disparu";
@@ -461,6 +470,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Nerub'enkan"] = "Nerub'enkan";
 --  LBIS.L["Nether Sorceress"] = "";
 --  LBIS.L["New Features"] = "";
+--  LBIS.L["Night Falls"] = "";
 --  LBIS.L["Nightbane Dark Runner"] = "";
 --  LBIS.L["Nightbane Tainted One"] = "";
 --  LBIS.L["Nightbane Vile Fang"] = "";
@@ -488,6 +498,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Overlord Ramtusk"] = "Seigneur Brusquebroche";
   LBIS.L["Overlord Wyrmthalak"] = "Seigneur Wyrmthalak";
   LBIS.L["Panzor the Invincible"] = "Panzor l'Invincible";
+--  LBIS.L["Paragon of Power Token"] = "";
 --  LBIS.L["Phase 1"] = "";
 --  LBIS.L["Phase 2"] = "";
 --  LBIS.L["Phase 3"] = "";
@@ -527,6 +538,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Ragnaros"] = "Ragnaros";
   LBIS.L["Ramstein the Gorger"] = "Ramstein Grandgosier";
   LBIS.L["Ranged/Relic"] = "À distance/Relique";
+--  LBIS.L["RangedDps"] = "";
   LBIS.L["Ras Frostwhisper"] = "Ras Murmegivre";
   LBIS.L["Rattlegore"] = "Cliquettripes";
 --  LBIS.L["Ravenclaw Regent"] = "";
@@ -534,6 +546,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Razorfen Downs"] = "Souilles de Tranchebauge";
   LBIS.L["Razorfen Kraul"] = "Kraal de Tranchebauge";
   LBIS.L["Razorfen Spearhide"] = "Lanceur de Tranchebauge";
+--  LBIS.L["Razorgore"] = "";
   LBIS.L["Razorgore the Untamed"] = "Tranchetripe l'Indompté";
   LBIS.L["Razorlash"] = "Tranchefouet";
 --  LBIS.L["Razormaw Matriarch"] = "";
@@ -550,6 +563,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Return to Apothecary Zinge"] = "De retour vers l'apothicaire Zinge";
   LBIS.L["Return to Kristoff"] = "Retourner voir Frère Kristoff";
   LBIS.L["Returning the Lost Satchel"] = "Rapporter la sacoche perdue";
+  LBIS.L["Revanchion"] = "Revanchion";
 --  LBIS.L["Revanchion (scourge event only)"] = "Revanchion";
   LBIS.L["Revelosh"] = "Revelosh";
   LBIS.L["Revered"] = "Révérée";
@@ -564,6 +578,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Rotgrip"] = "Grippe-charogne";
   LBIS.L["Samophlange Manual"] = "Manuel du samophlange";
   LBIS.L["Saving Sharpbeak"] = "Sauver Bec-tranchant";
+  LBIS.L["Saving the Best for Last"] = "Garder le meilleur pour la fin";
   LBIS.L["Saving Yenniku"] = "Il faut sauver Yenniku";
 --  LBIS.L["Scapula of the Fallen Avatar"] = "";
 --  LBIS.L["Scarlet Centurion"] = "";
@@ -617,6 +632,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Southsea Shakedown"] = "Le racket des mers du Sud";
   LBIS.L["Spirestone Battle Lord (Rare)"] = "Seigneur de guerre Pierre-du-pic (Rare)";
   LBIS.L["Spirestone Butcher (Rare)"] = "Boucher Pierre-du-pic (Rare)";
+  LBIS.L["Spirestone Lord Magus"] = "Seigneur magus Pierre-du-pic";
 --  LBIS.L["Spirestone Mystic"] = "";
 --  LBIS.L["Spirit Shards"] = "";
 --  LBIS.L["Splinter Fist"] = "";
@@ -638,6 +654,10 @@ if GetLocale() == "frFR" then
 --  LBIS.L["STX-04/BD"] = "";
   LBIS.L["Sulfuron Harbinger"] = "Messager de Sulfuron";
   LBIS.L["Sunken Temple"] = "Temple englouti";
+  LBIS.L["Superior Armaments of Battle - Exalted Amongst the Dawn"] = "Armes de bataille excellentes - Exalté auprès de l'Aube";
+  LBIS.L["Superior Armaments of Battle - Friend of the Dawn"] = "Armes de bataille excellentes - Ami de l'Aube";
+  LBIS.L["Superior Armaments of Battle - Honored Amongst the Dawn"] = "Armes de bataille excellentes - Honoré auprès de l'Aube";
+  LBIS.L["Superior Armaments of Battle - Revered Amongst the Dawn"] = "Armes de bataille excellentes - Révéré auprès de l'Aube";
 --  LBIS.L["Supply Officer"] = "";
   LBIS.L["Swamp of Sorrows"] = "Marais des Chagrins";
 --  LBIS.L["Syncretis's Sigil"] = "";
@@ -698,6 +718,7 @@ if GetLocale() == "frFR" then
   LBIS.L["The Love Potion"] = "Le philtre d'amour";
 --  LBIS.L["The Mad King"] = "";
   LBIS.L["The Mark of Quality"] = "La marque de la qualité";
+  LBIS.L["The Molten Core"] = "Le Cœur du Magma";
 --  LBIS.L["The Naralex Event (Mutanus the Devourer)"] = " (Mutanus le Dévoreur)";
   LBIS.L["The Orb of Soran'ruk"] = "L'Orbe de Soran'ruk";
   LBIS.L["The Pack Mistress"] = "La maîtresse de meute";
@@ -760,11 +781,13 @@ if GetLocale() == "frFR" then
   LBIS.L["Venom to the Undercity"] = "Du venin pour Fossoyeuse";
 --  LBIS.L["Venture Co. Surveyor"] = "";
   LBIS.L["Verdan the Everliving"] = "Verdan l'Immortel";
+  LBIS.L["Verek"] = "Verek";
   LBIS.L["Veteran's Battlegear"] = "La tenue de combat de vétéran";
 --  LBIS.L["Vilebranch Shadowcaster"] = "";
 --  LBIS.L["Vinasia"] = "";
   LBIS.L["Viscous Fallout"] = "Retombée visqueuse";
   LBIS.L["Vodouisant's Vigilant Embrace"] = "L'étreinte vigilante du vaudouisan";
+--  LBIS.L["Voodoo Doll + 4 boss items"] = "";
   LBIS.L["Voodoo Feathers"] = "Plumes vaudou";
   LBIS.L["Vorrel's Revenge"] = "La vengeance de Vorrel";
 --  LBIS.L["Vultros"] = "";
@@ -804,6 +827,7 @@ if GetLocale() == "frFR" then
   LBIS.L["You Have Served Us Well"] = "Vous nous avez bien servi";
   LBIS.L["Ysondre"] = "Ysondre";
 --  LBIS.L["Zalgo the Explorer"] = "";
+--  LBIS.L["Zandalar Tribe Necklace"] = "";
 --  LBIS.L["Zarena Cromwind"] = "";
   LBIS.L["Zerillis"] = "Zerillis";
   LBIS.L["Zevrim Thornhoof"] = "Zevrim Thornhoof";

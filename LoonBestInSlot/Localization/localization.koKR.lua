@@ -9,11 +9,11 @@ if GetLocale() == "koKR" then
   LBIS.L["A Final Blow"] = "마지막 일격";
   LBIS.L["A Grim Discovery"] = "불길한 발견";
   LBIS.L["A Hero's Reward"] = "영웅의 보상";
---  LBIS.L["A Just Reward"] = "";
   LBIS.L["A King's Tribute"] = "왕의 하사품";
 --  LBIS.L["A Lesson in Grace"] = "";
 --  LBIS.L["A Lesson in Literacy"] = "";
   LBIS.L["A Terrible Purpose"] = "황혼의망치단의 존재";
+--  LBIS.L["A Thane's Gratitude"] = "";
   LBIS.L["A Vengeful Fate"] = "운명의 복수";
   LBIS.L["Abyssal Signets"] = "심연의 인장";
   LBIS.L["Agathelos the Raging"] = "흉포한 아가테로스";
@@ -30,6 +30,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Ammo"] = "탄약";
   LBIS.L["Amnennar the Coldbringer"] = "혹한의 암네나르";
   LBIS.L["An Audience with the King"] = "국왕 알현";
+  LBIS.L["An Earnest Proposition"] = "진지한 제안";
   LBIS.L["An Unholy Alliance"] = "사악한 동맹";
   LBIS.L["Ancient Spirit"] = "고대의 정령";
   LBIS.L["Ancient Stone Keeper"] = "고대 바위 문지기";
@@ -47,6 +48,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Archmage Arugal"] = "대마법사 아루갈";
   LBIS.L["Arena Grandmaster"] = "최고검투사의 징표";
   LBIS.L["Arena Points"] = "투기장 점수";
+--  LBIS.L["Arena Spoils"] = "";
 --  LBIS.L["Arena Treasure Chest"] = "";
   LBIS.L["Argent Dawn"] = "은빛 여명회";
 --  LBIS.L["Argent Dawn - Revered"] = "";
@@ -101,6 +103,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Bloodscalp Witch Doctor"] = "";
   LBIS.L["Booty Bay"] = "무법항";
 --  LBIS.L["Boss Drop"] = "";
+  LBIS.L["Breastplate of the Chromatic Flight"] = "오색용군단 흉갑";
   LBIS.L["Bride of the Embalmer"] = "장의사의 신부";
   LBIS.L["Bring the End"] = "암네나르 처치";
   LBIS.L["Bring the Light"] = "빛의 힘";
@@ -125,6 +128,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Cho'Rush the Observer"] = "정찰병 초루쉬";
   LBIS.L["Chromaggus"] = "크로마구스";
   LBIS.L["Cleansing the Eye"] = "팔레스의 눈 정화";
+  LBIS.L["Codex of Defense"] = "방어의 고서";
   LBIS.L["Collecting Memories"] = "기억을 더듬어...";
   LBIS.L["Commander Springvale"] = "사령관 스프링베일";
   LBIS.L["Compendium of the Fallen"] = "타락의 개요";
@@ -221,6 +225,9 @@ if GetLocale() == "koKR" then
   LBIS.L["Engineering"] = "기계공학";
 --  LBIS.L["Enhancement Dps"] = "";
   LBIS.L["Epic Armaments of Battle - Exalted Amongst the Dawn"] = "영웅을 위한 전투 장비: 여명회의 확고한 동맹";
+  LBIS.L["Epic Armaments of Battle - Friend of the Dawn"] = "영웅을 위한 전투 장비: 여명회에 약간 우호적";
+  LBIS.L["Epic Armaments of Battle - Honored Amongst the Dawn"] = "영웅을 위한 전투 장비: 여명회에 우호적";
+  LBIS.L["Epic Armaments of Battle - Revered Amongst the Dawn"] = "영웅을 위한 전투 장비: 여명회에 매우 우호적";
   LBIS.L["Eviscerator"] = "적출자";
   LBIS.L["Exalted"] = "확고한 동맹";
   LBIS.L["Excelsior"] = "덩치 큰 바다악어 가죽";
@@ -365,6 +372,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Jin'do the Hexxer"] = "주술사 진도";
   LBIS.L["Jin'Zil's Forest Magic"] = "진질의 숲의 마법";
   LBIS.L["Job Opening: Guard Captain of Revantusk Village"] = "구인광고: 레반터스크 마을의 경비대장";
+  LBIS.L["Just Compensation"] = "정당한 보상";
   LBIS.L["Kam Deepfury"] = "캄 딥퓨리";
   LBIS.L["Khan Hratha"] = "칸 흐라사";
   LBIS.L["King Gordok"] = "왕 고르독";
@@ -436,6 +444,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Mazen's Behest"] = "마젠의 부탁";
 --  LBIS.L["Meilosh"] = "";
   LBIS.L["Mekgineer Thermaplugg"] = "멕기니어 텔마플러그";
+--  LBIS.L["MeleeDps"] = "";
   LBIS.L["Meshlok the Harvester (Rare)"] = "정원사 메슬로크 (희귀)";
   LBIS.L["Miner Johnson (Rare)"] = "광부 존슨 (희귀)";
   LBIS.L["Missing In Action"] = "교전 중 실종";
@@ -461,6 +470,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Nerub'enkan"] = "네룹엔칸";
 --  LBIS.L["Nether Sorceress"] = "";
   LBIS.L["New Features"] = "새로운 기능";
+--  LBIS.L["Night Falls"] = "";
 --  LBIS.L["Nightbane Dark Runner"] = "";
 --  LBIS.L["Nightbane Tainted One"] = "";
 --  LBIS.L["Nightbane Vile Fang"] = "";
@@ -488,6 +498,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Overlord Ramtusk"] = "대군주 램터스크";
   LBIS.L["Overlord Wyrmthalak"] = "대군주 윔타라크";
   LBIS.L["Panzor the Invincible"] = "무적의 판저";
+--  LBIS.L["Paragon of Power Token"] = "";
   LBIS.L["Phase 1"] = "1 페이즈";
   LBIS.L["Phase 2"] = "2 페이즈";
   LBIS.L["Phase 3"] = "3 페이즈";
@@ -527,6 +538,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Ragnaros"] = "라그나로스";
   LBIS.L["Ramstein the Gorger"] = "먹보 람스타인";
   LBIS.L["Ranged/Relic"] = "원거리 장비/성물";
+--  LBIS.L["RangedDps"] = "";
   LBIS.L["Ras Frostwhisper"] = "라스 프로스트위스퍼";
   LBIS.L["Rattlegore"] = "들창어금니";
 --  LBIS.L["Ravenclaw Regent"] = "";
@@ -534,6 +546,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Razorfen Downs"] = "가시덩굴 구릉";
   LBIS.L["Razorfen Kraul"] = "가시덩굴 우리";
   LBIS.L["Razorfen Spearhide"] = "가시덩굴일족 가시근위병";
+--  LBIS.L["Razorgore"] = "";
   LBIS.L["Razorgore the Untamed"] = "폭군 서슬송곳니";
   LBIS.L["Razorlash"] = "칼날채찍";
 --  LBIS.L["Razormaw Matriarch"] = "";
@@ -550,6 +563,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Return to Apothecary Zinge"] = "연금술사 진게에게 돌아가기";
   LBIS.L["Return to Kristoff"] = "수사 크리스토프에게로";
   LBIS.L["Returning the Lost Satchel"] = "잃어버린 가방 돌려주기";
+  LBIS.L["Revanchion"] = "레반치온";
 --  LBIS.L["Revanchion (scourge event only)"] = "레반치온";
   LBIS.L["Revelosh"] = "레벨로쉬";
   LBIS.L["Revered"] = "매우 우호적";
@@ -564,6 +578,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Rotgrip"] = "썩은 아귀";
   LBIS.L["Samophlange Manual"] = "사모플랜지 설명서";
   LBIS.L["Saving Sharpbeak"] = "뾰족부리 구출";
+  LBIS.L["Saving the Best for Last"] = "은혜의 보답";
   LBIS.L["Saving Yenniku"] = "예니쿠 구출";
 --  LBIS.L["Scapula of the Fallen Avatar"] = "";
 --  LBIS.L["Scarlet Centurion"] = "";
@@ -617,6 +632,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Southsea Shakedown"] = "남쪽바다해적단 처리반";
   LBIS.L["Spirestone Battle Lord (Rare)"] = "뾰족바위일족 전투대장 (희귀)";
   LBIS.L["Spirestone Butcher (Rare)"] = "뾰족바위일족 학살자 (희귀)";
+  LBIS.L["Spirestone Lord Magus"] = "뾰족바위일족 마법사장";
 --  LBIS.L["Spirestone Mystic"] = "";
   LBIS.L["Spirit Shards"] = "유령의 조각";
 --  LBIS.L["Splinter Fist"] = "";
@@ -638,6 +654,10 @@ if GetLocale() == "koKR" then
 --  LBIS.L["STX-04/BD"] = "";
   LBIS.L["Sulfuron Harbinger"] = "설퍼론 사자";
   LBIS.L["Sunken Temple"] = "가라앉은 사원";
+  LBIS.L["Superior Armaments of Battle - Exalted Amongst the Dawn"] = "희귀한 전투 장비: 여명회의 확고한 동맹";
+  LBIS.L["Superior Armaments of Battle - Friend of the Dawn"] = "희귀한 전투 장비: 여명회에 약간 우호적";
+  LBIS.L["Superior Armaments of Battle - Honored Amongst the Dawn"] = "희귀한 전투 장비: 여명회에 우호적";
+  LBIS.L["Superior Armaments of Battle - Revered Amongst the Dawn"] = "희귀한 전투 장비: 여명회에 매우 우호적";
 --  LBIS.L["Supply Officer"] = "";
   LBIS.L["Swamp of Sorrows"] = "슬픔의 늪";
 --  LBIS.L["Syncretis's Sigil"] = "";
@@ -698,6 +718,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Love Potion"] = "사랑의 묘약";
 --  LBIS.L["The Mad King"] = "";
   LBIS.L["The Mark of Quality"] = "최고의 품질";
+  LBIS.L["The Molten Core"] = "화산 심장부";
 --  LBIS.L["The Naralex Event (Mutanus the Devourer)"] = " (걸신들린 무타누스)";
   LBIS.L["The Orb of Soran'ruk"] = "소랜루크 수정구";
   LBIS.L["The Pack Mistress"] = "검은늑대 무리의 어미";
@@ -760,11 +781,13 @@ if GetLocale() == "koKR" then
   LBIS.L["Venom to the Undercity"] = "언더시티로 독 가져가기";
 --  LBIS.L["Venture Co. Surveyor"] = "";
   LBIS.L["Verdan the Everliving"] = "영생의 베르단";
+  LBIS.L["Verek"] = "베레크";
   LBIS.L["Veteran's Battlegear"] = "정예 용사의 전투장비";
 --  LBIS.L["Vilebranch Shadowcaster"] = "";
 --  LBIS.L["Vinasia"] = "";
   LBIS.L["Viscous Fallout"] = "방사성 폐기물";
   LBIS.L["Vodouisant's Vigilant Embrace"] = "선견의 은총";
+--  LBIS.L["Voodoo Doll + 4 boss items"] = "";
   LBIS.L["Voodoo Feathers"] = "부두 깃털";
   LBIS.L["Vorrel's Revenge"] = "보렐의 복수";
 --  LBIS.L["Vultros"] = "";
@@ -804,6 +827,7 @@ if GetLocale() == "koKR" then
   LBIS.L["You Have Served Us Well"] = "수고의 대가";
   LBIS.L["Ysondre"] = "이손드레";
 --  LBIS.L["Zalgo the Explorer"] = "";
+--  LBIS.L["Zandalar Tribe Necklace"] = "";
 --  LBIS.L["Zarena Cromwind"] = "";
   LBIS.L["Zerillis"] = "제릴리스";
   LBIS.L["Zevrim Thornhoof"] = "제브림 쏜후프";
