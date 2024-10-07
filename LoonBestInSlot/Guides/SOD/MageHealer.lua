@@ -344,7 +344,7 @@ local function LoadData()
     LBIS:AddItem(spec5, "231325", LBIS.L["Shoulder"], "BIS") --Zandalar Illusionist's Mantle
     LBIS:AddItem(spec5, "230240", LBIS.L["Shoulder"], "Alt") --Mantle of the Blackwing Cabal
     LBIS:AddItem(spec5, "230804", LBIS.L["Back"], "BIS") --Cloak of the Brood Lord
-    LBIS:AddItem(spec5, "19857", LBIS.L["Back"], "BIS") --Cloak of Consumption
+    LBIS:AddItem(spec5, "19857", LBIS.L["Back"], "Alt") --Cloak of Consumption
     LBIS:AddItem(spec5, "228100", LBIS.L["Back"], "Alt") --Drape of the Fire Lord
     LBIS:AddItem(spec5, "231113", LBIS.L["Chest"], "BIS") --Netherwind Vestments
     LBIS:AddItem(spec5, "231327", LBIS.L["Chest"], "BIS") --Zandalar Illusionist's Robe

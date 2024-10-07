@@ -588,8 +588,8 @@ local function LoadData()
     LBIS:AddItem(spec5, "221457", LBIS.L["Ranged/Relic"], "BIS") --Libram of Draconic Destruction
     LBIS:AddItem(spec5, "232389", LBIS.L["Ranged/Relic"], "BIS") --Libram of Plenty
     LBIS:AddItem(spec5, "23203", LBIS.L["Ranged/Relic"], "BIS") --Libram of Fervor
+    LBIS:AddItem(spec5, "209574", LBIS.L["Ranged/Relic"], "BIS") --Discarded Tenets of the Silver Hand
     LBIS:AddItem(spec5, "228173", LBIS.L["Ranged/Relic"], "Alt") --Libram of the Consecrated
-    LBIS:AddItem(spec5, "209574", LBIS.L["Ranged/Relic"], "Alt") --Discarded Tenets of the Silver Hand
     LBIS:AddItem(spec5, "215435", LBIS.L["Ranged/Relic"], "Alt") --Libram of Benediction
 end
 if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
