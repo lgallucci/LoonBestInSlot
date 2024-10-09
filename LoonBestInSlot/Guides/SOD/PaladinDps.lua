@@ -563,27 +563,17 @@ local function LoadData()
     LBIS:AddItem(spec5, "228084", LBIS.L["Trinket"], "Alt") --Miniaturized Fire Extinguisher
     LBIS:AddItem(spec5, "13164", LBIS.L["Trinket"], "Alt") --Heart of the Scale
     LBIS:AddItem(spec5, "230242", LBIS.L["Two Hand"], "BIS") --The Untamed Blade
-    LBIS:AddItem(spec5, "229749", LBIS.L["Two Hand"], "BIS") --Truthbearer
     LBIS:AddItem(spec5, "230818", LBIS.L["Two Hand"], "Alt") --Ashkandi, Greatsword of the Brotherhood
-    LBIS:AddItem(spec5, "228125", LBIS.L["Two Hand"], "Alt") --Refined Arcanite Champion
-    LBIS:AddItem(spec5, "230271", LBIS.L["Two Hand"], "Alt") --Drake Talon Cleaver
-    LBIS:AddItem(spec5, "228347", LBIS.L["Two Hand"], "Alt") --Typhoon
-    LBIS:AddItem(spec5, "230991", LBIS.L["Two Hand"], "Alt") --Halberd of Smiting
     LBIS:AddItem(spec5, "227683", LBIS.L["Two Hand"], "Alt") --Sulfuras, Hand of Ragnaros
-    LBIS:AddItem(spec5, "230844", LBIS.L["Two Hand"], "Alt") --Draconic Maul
+    LBIS:AddItem(spec5, "230271", LBIS.L["Two Hand"], "Alt") --Drake Talon Cleaver
     LBIS:AddItem(spec5, "232357", LBIS.L["Two Hand"], "Alt") --Draconic Avenger
-    LBIS:AddItem(spec5, "231823", LBIS.L["Two Hand"], "Alt") --Geddon's Glaive
     LBIS:AddItem(spec5, "228229", LBIS.L["Two Hand"], "Alt") --Obsidian Edged Blade
     LBIS:AddItem(spec5, "228410", LBIS.L["Two Hand"], "Alt") --Dreadblade of the Destructor
-    LBIS:AddItem(spec5, "227691", LBIS.L["Two Hand"], "Alt") --Blade of Hanna
-    LBIS:AddItem(spec5, "228460", LBIS.L["Two Hand"], "Alt") --Spinal Reaper
-    LBIS:AddItem(spec5, "227960", LBIS.L["Two Hand"], "Alt") --Impervious Giant
-    LBIS:AddItem(spec5, "1263", LBIS.L["Two Hand"], "Alt") --Brain Hacker
     LBIS:AddItem(spec5, "228606", LBIS.L["Two Hand"], "Alt") --Blackblade of Shahram
-    LBIS:AddItem(spec5, "227845", LBIS.L["Two Hand"], "Alt") --Refined Arcanite Reaper
-    LBIS:AddItem(spec5, "223526", LBIS.L["Two Hand"], "Alt") --Sul'thraze the Lasher
+    LBIS:AddItem(spec5, "228299", LBIS.L["Two Hand"], "Alt") --Spinal Reaper
     LBIS:AddItem(spec5, "228160", LBIS.L["Two Hand"], "Alt") --Faithbringer
     LBIS:AddItem(spec5, "231315", LBIS.L["Two Hand"], "Alt") --Zin'rokh, Destroyer of Worlds
+    LBIS:AddItem(spec5, "227845", LBIS.L["Two Hand"], "Alt") --Refined Arcanite Reaper
     LBIS:AddItem(spec5, "227684", LBIS.L["Two Hand"], "Alt") --Sulfuron Hammer
     LBIS:AddItem(spec5, "221457", LBIS.L["Ranged/Relic"], "BIS") --Libram of Draconic Destruction
     LBIS:AddItem(spec5, "232389", LBIS.L["Ranged/Relic"], "BIS") --Libram of Plenty

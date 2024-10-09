@@ -387,7 +387,7 @@ local function LoadData()
     LBIS:AddItem(spec5, "18500", LBIS.L["Ring"], "Alt") --Tarnished Elven Ring
     LBIS:AddItem(spec5, "231779", LBIS.L["Trinket"], "BIS") --Wrath of Wray
     LBIS:AddItem(spec5, "230282", LBIS.L["Trinket"], "BIS") --Drake Fang Talisman
-    LBIS:AddItem(spec5, "228078", LBIS.L["Trinket"], "BIS") --Accursed Chalice
+    LBIS:AddItem(spec5, "228078", LBIS.L["Trinket"], "Alt") --Accursed Chalice
     LBIS:AddItem(spec5, "228089", LBIS.L["Trinket"], "Alt") --Woodcarved Moonstalker
     LBIS:AddItem(spec5, "223195", LBIS.L["Trinket"], "Alt") --Breadth of the Beast
     LBIS:AddItem(spec5, "228722", LBIS.L["Trinket"], "Alt") --Hand of Justice
@@ -396,6 +396,8 @@ local function LoadData()
     LBIS:AddItem(spec5, "224282", LBIS.L["Two Hand"], "BIS") --Rae'lar
     LBIS:AddItem(spec5, "231823", LBIS.L["Two Hand"], "Alt") --Geddon's Glaive
     LBIS:AddItem(spec5, "227683", LBIS.L["Two Hand"], "Alt") --Sulfuras, Hand of Ragnaros
+    LBIS:AddItem(spec5, "230844", LBIS.L["Two Hand"], "Alt") --Draconic Maul
+    LBIS:AddItem(spec5, "230738", LBIS.L["Two Hand"], "Alt") --Herald of Woe
     LBIS:AddItem(spec5, "227833", LBIS.L["Two Hand"], "Alt") --Glaive of Obsidian Fury
     LBIS:AddItem(spec5, "228272", LBIS.L["Two Hand"], "Alt") --Shadowstrike
     LBIS:AddItem(spec5, "228230", LBIS.L["Two Hand"], "Alt") --Refined Hammer of the Titans
