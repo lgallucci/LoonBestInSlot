@@ -546,8 +546,8 @@ local function LoadData()
     LBIS:AddItem(spec5, "228261", LBIS.L["Ring"], "BIS") --Quick Strike Ring
     LBIS:AddItem(spec5, "230734", LBIS.L["Ring"], "BIS") --Circle of Applied Force
     LBIS:AddItem(spec5, "230929", LBIS.L["Ring"], "Alt") --Seal of Jin
-    LBIS:AddItem(spec5, "230921", LBIS.L["Ring"], "Alt") --Band of Jin
     LBIS:AddItem(spec5, "228080", LBIS.L["Ring"], "Alt") --Resin Loop
+    LBIS:AddItem(spec5, "230921", LBIS.L["Ring"], "Alt") --Band of Jin
     LBIS:AddItem(spec5, "230839", LBIS.L["Ring"], "Alt") --Master Dragonslayer's Ring
     LBIS:AddItem(spec5, "228286", LBIS.L["Ring"], "Alt") --Band of Accuria
     LBIS:AddItem(spec5, "19325", LBIS.L["Ring"], "Alt") --Don Julio's Band
@@ -566,13 +566,14 @@ local function LoadData()
     LBIS:AddItem(spec5, "230818", LBIS.L["Two Hand"], "Alt") --Ashkandi, Greatsword of the Brotherhood
     LBIS:AddItem(spec5, "227683", LBIS.L["Two Hand"], "Alt") --Sulfuras, Hand of Ragnaros
     LBIS:AddItem(spec5, "230271", LBIS.L["Two Hand"], "Alt") --Drake Talon Cleaver
+    LBIS:AddItem(spec5, "230738", LBIS.L["Two Hand"], "Alt") --Herald of Woe
     LBIS:AddItem(spec5, "232357", LBIS.L["Two Hand"], "Alt") --Draconic Avenger
-    LBIS:AddItem(spec5, "228229", LBIS.L["Two Hand"], "Alt") --Obsidian Edged Blade
     LBIS:AddItem(spec5, "228410", LBIS.L["Two Hand"], "Alt") --Dreadblade of the Destructor
-    LBIS:AddItem(spec5, "228606", LBIS.L["Two Hand"], "Alt") --Blackblade of Shahram
+    LBIS:AddItem(spec5, "228229", LBIS.L["Two Hand"], "Alt") --Obsidian Edged Blade
     LBIS:AddItem(spec5, "228299", LBIS.L["Two Hand"], "Alt") --Spinal Reaper
     LBIS:AddItem(spec5, "228160", LBIS.L["Two Hand"], "Alt") --Faithbringer
     LBIS:AddItem(spec5, "231315", LBIS.L["Two Hand"], "Alt") --Zin'rokh, Destroyer of Worlds
+    LBIS:AddItem(spec5, "228606", LBIS.L["Two Hand"], "Alt") --Blackblade of Shahram
     LBIS:AddItem(spec5, "227845", LBIS.L["Two Hand"], "Alt") --Refined Arcanite Reaper
     LBIS:AddItem(spec5, "227684", LBIS.L["Two Hand"], "Alt") --Sulfuron Hammer
     LBIS:AddItem(spec5, "221457", LBIS.L["Ranged/Relic"], "BIS") --Libram of Draconic Destruction
