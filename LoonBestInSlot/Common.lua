@@ -17,6 +17,24 @@ local function GetTableLng(tbl)
     return getN
 end
 
+local function stringify(object)
+    local objectType = type(object);
+    local debugString = "";
+
+    if objectType == "table" then
+        debugString = LBIS:Dump(object);
+    elseif objectType == "number" or objectType == "boolean" then
+        debugString = tostring(object);
+    elseif objectType == "nil" then
+        debugString = "nil";
+    elseif objectType == "string" then
+        debugString = object;
+    else
+        debugString = "Tried to debug an unknown type: "..objectType;
+    end
+    return debugString
+end
+
 function LBIS:Debug(startString, object)
     if LBIS.Debugging then
         if object == nil then
@@ -509,24 +527,6 @@ function LBIS:Dump(o)
     else
        return tostring(o)
     end
-end
-
-local function stringify(object)
-    local objectType = type(object);
-    local debugString = "";
-
-    if objectType == "table" then
-        debugString = LBIS:Dump(object);
-    elseif objectType == "number" or objectType == "boolean" then
-        debugString = tostring(object);
-    elseif objectType == "nil" then
-        debugString = "nil";
-    elseif objectType == "string" then
-        debugString = object;
-    else
-        debugString = "Tried to debug an unknown type: "..objectType;
-    end
-    return debugString
 end
 
 function LBIS:GetItemIdFromLink(itemLink)
