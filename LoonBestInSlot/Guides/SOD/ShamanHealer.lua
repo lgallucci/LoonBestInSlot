@@ -493,9 +493,16 @@ local function LoadData()
     LBIS:AddItem(spec5, "13178", LBIS.L["Ring"], "Alt") --Rosewine Circle
     LBIS:AddItem(spec5, "228538", LBIS.L["Ring"], "Alt") --Seal of Rivendare
     LBIS:AddItem(spec5, "220629", LBIS.L["Ring"], "Alt") --Drakeclaw Band of the Blood Prophet
-    LBIS:AddItem(spec5, "228297", LBIS.L["Trinket"], "BIS") --Shard of the Flame
-    LBIS:AddItem(spec5, "228298", LBIS.L["Trinket"], "BIS") --Shard of the Scale
-    LBIS:AddItem(spec5, "221308", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Overgrowth
+    LBIS:AddItem(spec5, "230269", LBIS.L["Trinket"], "BIS") --Rejuvenating Gem
+    LBIS:AddItem(spec5, "231910", LBIS.L["Trinket"], "BIS") --Heart of Azgaloth
+    LBIS:AddItem(spec5, "230810", LBIS.L["Trinket"], "BIS") --Neltharion's Tear
+    LBIS:AddItem(spec5, "230920", LBIS.L["Trinket"], "Alt") --Mar'li's Eye
+    LBIS:AddItem(spec5, "19288", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Blue Dragon
+    LBIS:AddItem(spec5, "228188", LBIS.L["Trinket"], "Alt") --Prestor's Hairpin
+    LBIS:AddItem(spec5, "19950", LBIS.L["Trinket"], "Alt") --Zandalarian Hero Charm
+    LBIS:AddItem(spec5, "228297", LBIS.L["Trinket"], "Alt") --Shard of the Flame
+    LBIS:AddItem(spec5, "228298", LBIS.L["Trinket"], "Alt") --Shard of the Scale
+    LBIS:AddItem(spec5, "221308", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Overgrowth
     LBIS:AddItem(spec5, "221463", LBIS.L["Trinket"], "Alt") --Ancestral Voodoo Doll
     LBIS:AddItem(spec5, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
     LBIS:AddItem(spec5, "227972", LBIS.L["Trinket"], "Alt") --Burst of Knowledge
@@ -503,9 +510,14 @@ local function LoadData()
     LBIS:AddItem(spec5, "22268", LBIS.L["Trinket"], "Alt") --Draconic Infused Emblem
     LBIS:AddItem(spec5, "220634", LBIS.L["Trinket"], "Alt") --Atal'ai Blood Ritual Charm
     LBIS:AddItem(spec5, "11819", LBIS.L["Trinket"], "Alt") --Second Wind
-    LBIS:AddItem(spec5, "228264", LBIS.L["Main Hand"], "BIS") --Aurastone Hammer
-    LBIS:AddItem(spec5, "228382", LBIS.L["Main Hand"], "Alt") --Fang of the Mystics
+    LBIS:AddItem(spec5, "231753", LBIS.L["Main Hand"], "BIS") --Skywall's Solace
+    LBIS:AddItem(spec5, "230838", LBIS.L["Main Hand"], "Alt") --Lok'amir il Romathis
+    LBIS:AddItem(spec5, "228264", LBIS.L["Main Hand"], "Alt") --Aurastone Hammer
+    LBIS:AddItem(spec5, "231002", LBIS.L["Main Hand"], "Alt") --Jin'do's Hexxer
+    LBIS:AddItem(spec5, "231387", LBIS.L["Main Hand"], "Alt") --Stormwrath, Sanctified Shortblade of the Galefinder
+    LBIS:AddItem(spec5, "230794", LBIS.L["Main Hand"], "Alt") --Claw of Chromaggus
     LBIS:AddItem(spec5, "228168", LBIS.L["Main Hand"], "Alt") --Goblin Gear Grinder
+    LBIS:AddItem(spec5, "228382", LBIS.L["Main Hand"], "Alt") --Fang of the Mystics
     LBIS:AddItem(spec5, "220579", LBIS.L["Main Hand"], "Alt") --Witch Doctor's Stick of Mojo
     LBIS:AddItem(spec5, "220586", LBIS.L["Main Hand"], "Alt") --Hubris, the Bandit Brander
     LBIS:AddItem(spec5, "20214", LBIS.L["Main Hand"], "Alt") --Mindfang

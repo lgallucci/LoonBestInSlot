@@ -616,6 +616,7 @@ local function LoadData()
     LBIS:AddItem(spec5, "228687", LBIS.L["Ring"], "Alt") --Dragonslayer's Signet
     LBIS:AddItem(spec5, "228255", LBIS.L["Trinket"], "BIS") --Talisman of Ephemeral Power
     LBIS:AddItem(spec5, "231785", LBIS.L["Trinket"], "BIS") --Echoes of Betrayal
+    LBIS:AddItem(spec5, "231509", LBIS.L["Trinket"], "BIS") --Cassandra's Tome
     LBIS:AddItem(spec5, "230810", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
     LBIS:AddItem(spec5, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
     LBIS:AddItem(spec5, "230838", LBIS.L["Main Hand"], "BIS") --Lok'amir il Romathis
