@@ -462,6 +462,7 @@ local function LoadData()
     LBIS:AddItem(spec5, "232147", LBIS.L["Head"], "BIS") --Judgement Crown
     LBIS:AddItem(spec5, "230246", LBIS.L["Head"], "Alt") --Helm of Endless Rage
     LBIS:AddItem(spec5, "226599", LBIS.L["Head"], "Alt") --Lawbringer Crown
+    LBIS:AddItem(spec5, "215161", LBIS.L["Head"], "Alt") --Tempered Interference-Negating Helmet
     LBIS:AddItem(spec5, "226976", LBIS.L["Head"], "Alt") --Soulforge Greathelm
     LBIS:AddItem(spec5, "12640", LBIS.L["Head"], "Alt") --Lionheart Helm
     LBIS:AddItem(spec5, "231014", LBIS.L["Head"], "Alt") --Lizardscale Eyepatch
@@ -537,22 +538,24 @@ local function LoadData()
     LBIS:AddItem(spec5, "228759", LBIS.L["Neck"], "Alt") --Eskhandar's Collar
     LBIS:AddItem(spec5, "15411", LBIS.L["Neck"], "Alt") --Mark of Fordring
     LBIS:AddItem(spec5, "19491", LBIS.L["Neck"], "Alt") --Amulet of the Darkmoon
+    LBIS:AddItem(spec5, "228685", LBIS.L["Neck"], "Alt") --Onyxia Tooth Pendant
+    LBIS:AddItem(spec5, "231803", LBIS.L["Neck"], "Alt") --Prestor's Talisman of Connivery
     LBIS:AddItem(spec5, "228147", LBIS.L["Neck"], "Alt") --Magmadar's Horn
     LBIS:AddItem(spec5, "213344", LBIS.L["Neck"], "Alt") --Gnomeregan Peace Officer's Torque
     LBIS:AddItem(spec5, "228354", LBIS.L["Neck"], "Alt") --Blazefury Medallion
-    LBIS:AddItem(spec5, "228685", LBIS.L["Neck"], "Alt") --Onyxia Tooth Pendant
     LBIS:AddItem(spec5, "228584", LBIS.L["Neck"], "Alt") --Emberfury Talisman
     LBIS:AddItem(spec5, "16309", LBIS.L["Neck"], "Alt") --Drakefire Amulet
     LBIS:AddItem(spec5, "228261", LBIS.L["Ring"], "BIS") --Quick Strike Ring
     LBIS:AddItem(spec5, "230734", LBIS.L["Ring"], "BIS") --Circle of Applied Force
     LBIS:AddItem(spec5, "230929", LBIS.L["Ring"], "Alt") --Seal of Jin
     LBIS:AddItem(spec5, "228080", LBIS.L["Ring"], "Alt") --Resin Loop
+    LBIS:AddItem(spec5, "19514", LBIS.L["Ring"], "Alt") --Protector's Band
+    LBIS:AddItem(spec5, "228667", LBIS.L["Ring"], "Alt") --Painweaver Band
+    LBIS:AddItem(spec5, "230855", LBIS.L["Ring"], "Alt") --Seal of the Gurubashi Berserker
     LBIS:AddItem(spec5, "230921", LBIS.L["Ring"], "Alt") --Band of Jin
     LBIS:AddItem(spec5, "230839", LBIS.L["Ring"], "Alt") --Master Dragonslayer's Ring
-    LBIS:AddItem(spec5, "228286", LBIS.L["Ring"], "Alt") --Band of Accuria
     LBIS:AddItem(spec5, "19325", LBIS.L["Ring"], "Alt") --Don Julio's Band
-    LBIS:AddItem(spec5, "21182", LBIS.L["Ring"], "Alt") --Band of Earthen Might
-    LBIS:AddItem(spec5, "220626", LBIS.L["Ring"], "Alt") --Drakeclaw Band of the Berserker
+    LBIS:AddItem(spec5, "228286", LBIS.L["Ring"], "Alt") --Band of Accuria
     LBIS:AddItem(spec5, "227455", LBIS.L["Ring"], "Alt") --Ocean's Breeze
     LBIS:AddItem(spec5, "227983", LBIS.L["Ring"], "Alt") --Dark Iron Seal
     LBIS:AddItem(spec5, "231779", LBIS.L["Trinket"], "BIS") --Wrath of Wray
