@@ -17,7 +17,8 @@ namespace AddonManager.Ui;
 /// </summary>
 public sealed partial class ItemImporter : Page
 {
-    public string[] ImporterList = { "EmblemImporter", "ProfessionImporter", "DungeonImporter", "RaidImporter", "PvPImporter", "ReputationImporter", "TierSetImporter" };
+    public string[] ImporterList = { "EmblemImporter", "ProfessionImporter", "DungeonImporter", "RaidImporter", "PvPImporter", 
+    "ReputationImporter", "TierSetImporter", "VendorImporter" };
 
     public ItemImporter()
     {
@@ -56,6 +57,9 @@ public sealed partial class ItemImporter : Page
                 break;
             case "TierSetImporter":
                 importer = new TierSetImporter(_importCancelToken.Token);
+                break;
+            case "VendorImporter":
+                importer = new VendorImporter(_importCancelToken.Token);
                 break;
             default:
                 txtJsonToParse.Text = "Choose a Importer !";

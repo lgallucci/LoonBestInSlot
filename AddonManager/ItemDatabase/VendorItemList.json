@@ -1,0 +1,532 @@
+{
+  "Items": {
+    "69109": {
+      "Name": "Scales of Life",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "69113": {
+      "Name": "Apparatus of Khaz'goroth",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "70105": {
+      "Name": "Matoclaw's Band",
+      "Source": "Zen'Vorka",
+      "SourceType": "Vendor",
+      "SourceNumber": "90g17s84c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70106": {
+      "Name": "Nightweaver's Amulet",
+      "Source": "Zen'Vorka",
+      "SourceType": "Vendor",
+      "SourceNumber": "90g17s84c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70107": {
+      "Name": "Fireheart Necklace",
+      "Source": "Zen'Vorka",
+      "SourceType": "Vendor",
+      "SourceNumber": "90g17s84c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70108": {
+      "Name": "Pyrelord Greaves",
+      "Source": "Zen'Vorka",
+      "SourceType": "Vendor",
+      "SourceNumber": "160g17s75c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70109": {
+      "Name": "Relic of Elune's Shadow",
+      "Source": "Ayla Shadowstorm",
+      "SourceType": "Vendor",
+      "SourceNumber": "80g54s28c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70110": {
+      "Name": "Band of Glittering Lights",
+      "Source": "Ayla Shadowstorm",
+      "SourceType": "Vendor",
+      "SourceNumber": "78g90s62c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70111": {
+      "Name": "Relic of Elune's Light",
+      "Source": "Ayla Shadowstorm",
+      "SourceType": "Vendor",
+      "SourceNumber": "83g29s56c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70112": {
+      "Name": "Globe of Moonlight",
+      "Source": "Ayla Shadowstorm",
+      "SourceType": "Vendor",
+      "SourceNumber": "76g39s14c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70113": {
+      "Name": "Moon Blessed Band",
+      "Source": "Ayla Shadowstorm",
+      "SourceType": "Vendor",
+      "SourceNumber": "78g90s62c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70114": {
+      "Name": "Fireplume Girdle",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "90g20s49c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70115": {
+      "Name": "Fiery Treads",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "163g67s46c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70116": {
+      "Name": "Gauntlets of Living Obsidium",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "99g49s17c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70117": {
+      "Name": "Belt of Living Obsidium",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "128g37s23c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70118": {
+      "Name": "Widow's Clutches",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "56g92s56c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70119": {
+      "Name": "Meteorite Ring",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "78g90s62c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70120": {
+      "Name": "Rickety Belt",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "91g33s13c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70121": {
+      "Name": "Ricket's Gun Show",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "91g67s52c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70122": {
+      "Name": "Aviana's Grips",
+      "Source": "Varlan Highbough",
+      "SourceType": "Vendor",
+      "SourceNumber": "65g36s13c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70123": {
+      "Name": "Lancer's Greaves",
+      "Source": "Varlan Highbough",
+      "SourceType": "Vendor",
+      "SourceNumber": "118g62s74c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70124": {
+      "Name": "Spirit Fragment Band",
+      "Source": "Varlan Highbough",
+      "SourceType": "Vendor",
+      "SourceNumber": "78g90s62c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70125": {
+      "Name": "Relic of Lo'Gosh",
+      "Source": "Varlan Highbough",
+      "SourceType": "Vendor",
+      "SourceNumber": "79g32s94c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70126": {
+      "Name": "Nemesis Shell Band",
+      "Source": "Varlan Highbough",
+      "SourceType": "Vendor",
+      "SourceNumber": "78g90s62c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70127": {
+      "Name": "Lylagar Horn Ring",
+      "Source": "Varlan Highbough",
+      "SourceType": "Vendor",
+      "SourceNumber": "78g90s62c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70128": {
+      "Name": "Relic of Tortolla",
+      "Source": "Varlan Highbough",
+      "SourceType": "Vendor",
+      "SourceNumber": "82g39s15c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70140": {
+      "Name": "Hyjal Bear Cub",
+      "Source": "Varlan Highbough",
+      "SourceType": "Vendor",
+      "SourceNumber": "1,166g66s66c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70141": {
+      "Name": "Dwyer's Caber",
+      "Source": "Varlan Highbough",
+      "SourceType": "Vendor",
+      "SourceNumber": "118g88s52c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70142": {
+      "Name": "Moonwell Chalice",
+      "Source": "Ayla Shadowstorm",
+      "SourceType": "Vendor",
+      "SourceNumber": "118g88s52c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70143": {
+      "Name": "Moonwell Phial",
+      "Source": "Ayla Shadowstorm",
+      "SourceType": "Vendor",
+      "SourceNumber": "118g88s52c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70144": {
+      "Name": "Ricket's Magnetic Fireball",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "152g85s23c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70159": {
+      "Name": "Mylune's Call",
+      "Source": "Varlan Highbough",
+      "SourceType": "Vendor",
+      "SourceNumber": "2,722g22s22c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70160": {
+      "Name": "Crimson Lasher",
+      "Source": "Ayla Shadowstorm",
+      "SourceType": "Vendor",
+      "SourceNumber": "1,166g66s66c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70161": {
+      "Name": "Mushroom Chair",
+      "Source": "Ayla Shadowstorm",
+      "SourceType": "Vendor",
+      "SourceNumber": "388g88s88c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70166": {
+      "Name": "Plans: Brainsplinter",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "233g33s33c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70167": {
+      "Name": "Plans: Masterwork Elementium Spellblade",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "233g33s33c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70168": {
+      "Name": "Plans: Lightforged Elementium Hammer",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "233g33s33c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70169": {
+      "Name": "Plans: Elementium-Edged Scalper",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "233g33s33c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70170": {
+      "Name": "Plans: Pyrium Spellward",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "233g33s33c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70171": {
+      "Name": "Plans: Unbreakable Guardian",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "233g33s33c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70172": {
+      "Name": "Plans: Masterwork Elementium Deathblade",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "233g33s33c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70173": {
+      "Name": "Plans: Witch-Hunter's Harvester",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "233g33s33c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70174": {
+      "Name": "Pattern: Royal Scribe's Satchel",
+      "Source": "Ayla Shadowstorm",
+      "SourceType": "Vendor",
+      "SourceNumber": "233g33s33c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70175": {
+      "Name": "Pattern: Triple-Reinforced Mining Bag",
+      "Source": "Ayla Shadowstorm",
+      "SourceType": "Vendor",
+      "SourceNumber": "233g33s33c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70176": {
+      "Name": "Pattern: Luxurious Silk Gem Bag",
+      "Source": "Ayla Shadowstorm",
+      "SourceType": "Vendor",
+      "SourceNumber": "233g33s33c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "70177": {
+      "Name": "Schematic: Flintlocke's Woodchucker",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "233g33s33c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "71078": {
+      "Name": "Schematic: Extreme-Impact Hole Puncher",
+      "Source": "Damek Bloombeard",
+      "SourceType": "Vendor",
+      "SourceNumber": "233g33s33c",
+      "SourceLocation": "Molten Front",
+      "SourceFaction": "B"
+    },
+    "71557": {
+      "Name": "Ranseur of Hatred",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71558": {
+      "Name": "Lava Bolt Crossbow",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71559": {
+      "Name": "Spire of Scarlet Pain",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71560": {
+      "Name": "Chelley's Sterilized Scalpel",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71561": {
+      "Name": "Hide-Bound Chains",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71562": {
+      "Name": "Obsidium Cleaver",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71563": {
+      "Name": "Firebound Gorget",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71564": {
+      "Name": "Theck's Emberseal",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71567": {
+      "Name": "Covenant of the Flame",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71568": {
+      "Name": "Morningstar Shard",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71575": {
+      "Name": "Trail of Embers",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71577": {
+      "Name": "Singed Plume of Aviana",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71579": {
+      "Name": "Scorchvine Wand",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71580": {
+      "Name": "Soulflame Vial",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71587": {
+      "Name": "Relic of the Elemental Lords",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71590": {
+      "Name": "Deathclutch Figurine",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71592": {
+      "Name": "Deflecting Star",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71593": {
+      "Name": "Giantslicer",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    },
+    "71641": {
+      "Name": "Riplimb's Lost Collar",
+      "Source": "Lurah Wrathvine",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Mount Hyjal",
+      "SourceFaction": "B"
+    }
+  }
+}
