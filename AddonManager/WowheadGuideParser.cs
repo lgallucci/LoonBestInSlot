@@ -703,7 +703,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
 
     private void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlAnchorElement, string> foundEnchant, Action<IHtmlTableElement?, string, string> foundTable)
     {
-        foreach (var guideMapping in specMapping.GuideMappings)
+foreach (var guideMapping in specMapping.GuideMappings)
         {
             bool foundEnchantText = false;
             foreach (var htmlMapping in guideMapping.Value.SlotHtmlId.Split(";"))
@@ -711,9 +711,9 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                 var headerElement = doc.QuerySelector(htmlMapping);
                 if (headerElement != null)
                 {
-                    var nextSibling = headerElement.NextSibling;
+                    var nextSibling = headerElement.NextElementSibling;
                     int elementCounter = 0;
-                    while (nextSibling != null && (nextSibling is not IHtmlTableElement || nextSibling is IHtmlHeadingElement))
+                    while (nextSibling != null && (!IsTableElement(nextSibling) || nextSibling is IHtmlHeadingElement))
                     {
                         if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*for new").Success)
                             foundEnchantText = false;
@@ -747,7 +747,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                             });
                         }
 
-                        nextSibling = nextSibling?.NextSibling;
+                        nextSibling = nextSibling?.NextElementSibling;
                         elementCounter++;
                     }
 
@@ -755,6 +755,10 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                     if (nextSibling is IHtmlTableElement)
                     {                            
                         foundTable(nextSibling as IHtmlTableElement, guideMapping.Key, htmlMapping);
+                    }
+                    else if (nextSibling.ClassName == "markup-table-wrapper")
+                    {
+                        foundTable(nextSibling.FirstChild as IHtmlTableElement, guideMapping.Key, htmlMapping);
                     }
                     else
                     {
@@ -767,5 +771,10 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                 }
             }
         }
+    }
+
+    private bool IsTableElement(IElement nextSibling)
+    {
+         return nextSibling is IHtmlTableElement || nextSibling.ClassName == "markup-table-wrapper";
     }
 }

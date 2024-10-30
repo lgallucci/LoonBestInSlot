@@ -14,6 +14,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Alizabal"] = "Ализабаль";
   LBIS.L["All"] = "Все";
   LBIS.L["Altairus"] = "Альтаирий";
+  LBIS.L["Alysrazor"] = "Алисразор";
   LBIS.L["Ammo"] = "Боеприпасы";
   LBIS.L["Ammunae"] = "Аммунаэ";
   LBIS.L["Anraphet"] = "Анрафет";
@@ -27,9 +28,11 @@ if GetLocale() == "ruRU" then
   LBIS.L["Ascendant Lord Obsidius"] = "Повелитель Перерожденных Обсидий";
   LBIS.L["Assassination"] = "Убийство";
   LBIS.L["Atramedes"] = "Атрамед";
+  LBIS.L["Avengers of Hyjal"] = "Хиджальские мстители";
   LBIS.L["Back"] = "Спина";
   LBIS.L["Bag"] = "Сумка";
   LBIS.L["Balance"] = "Баланс";
+  LBIS.L["Baleroc"] = "Бейлрок";
   LBIS.L["Baradin Hold"] = "Крепость Барадин";
   LBIS.L["Baradin's Wardens"] = "Защитники Тол Барада";
   LBIS.L["Baron Ashbury"] = "Барон Эшбери";
@@ -39,6 +42,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Bear Timed Chest"] = "";
   LBIS.L["Beast Mastery"] = "Чувство зверя";
   LBIS.L["Beauty"] = "Красавица";
+  LBIS.L["Beth'tilac"] = "Бет'тилак";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Blackrock Caverns"] = "Пещеры Черной горы";
   LBIS.L["Blackrock Caverns (Heroic)"] = "Пещеры Черной горы (Героический)";
@@ -78,6 +82,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Custom"] = "Вручную";
   LBIS.L["Daakara"] = "Даакара";
   LBIS.L["Dalaran"] = "Даларан";
+--  LBIS.L["Damek Bloombeard"] = "";
 --  LBIS.L["Dark Assassins"] = "";
 --  LBIS.L["Darkmoon Earthquake Deck"] = "";
   LBIS.L["Darkmoon Faire"] = "Ярмарка Новолуния";
@@ -92,6 +97,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Discipline"] = "Послушание";
 --  LBIS.L["Doing It Like a Dunwald"] = "";
 --  LBIS.L["Doing it the Hard Way"] = "";
+  LBIS.L["Dragon Soul"] = "Душа Дракона";
 --  LBIS.L["Dragonhawk Timed Chest"] = "";
   LBIS.L["Dragonmaw/Wildhammer Clan (Revered)"] = "Клан Драконьей Пасти/Громового Молота (Почтение)";
   LBIS.L["Drahga Shadowburner"] = "Драгх Горячий Мрак";
@@ -102,6 +108,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Earthrager Ptah"] = "Пта Ярость Земли";
   LBIS.L["Edit"] = "Отредактировать";
   LBIS.L["Elemental"] = "Стихии";
+--  LBIS.L["Elemental Bonds: The Vow"] = "";
 --  LBIS.L["Emblem Vendor"] = "";
 --  LBIS.L["Enchanting Supplies"] = "";
 --  LBIS.L["Enchanting Trainer"] = "";
@@ -125,6 +132,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Faction PVP Vendor"] = "";
   LBIS.L["Feet"] = "Ступни";
   LBIS.L["Fire"] = "Огонь";
+  LBIS.L["Firelands"] = "Огненные Просторы";
 --  LBIS.L["Firing Squad"] = "";
 --  LBIS.L["Flame-Scarred Junkbox"] = "";
   LBIS.L["Foe Reaper 5000"] = "Врагорез-5000";
@@ -155,6 +163,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Harrison Jones and the Temple of Uldum"] = "";
   LBIS.L["Hazza'rah"] = "Хазза'рах";
   LBIS.L["Head"] = "Голова";
+  LBIS.L["Head~Shoulder"] = "Голова~Плечо";
   LBIS.L["Helix Gearbreaker"] = "Хеликс Отломчикс";
   LBIS.L["Hellscream's Reach"] = "Батальон Адского Крика";
   LBIS.L["Hex Lord Malacrass"] = "Повелитель проклятий Малакрасс";
@@ -216,6 +225,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Loon Best In Slot"] = "";
 --  LBIS.L["Loon Best In Slot Browser"] = "";
   LBIS.L["Lord Godfrey"] = "Лорд Годфри";
+  LBIS.L["Lord Rhyolith"] = "Повелитель Риолит";
   LBIS.L["Lord Walden"] = "Лорд Вальден";
   LBIS.L["Lost City of the Tol'vir"] = "Затерянный город Тол'вир";
   LBIS.L["Lost City of the Tol'vir (Heroic)"] = "Затерянный город Тол'вир (Героический)";
@@ -224,15 +234,18 @@ if GetLocale() == "ruRU" then
   LBIS.L["Main Hand"] = "Правая рука";
   LBIS.L["Main Hand~Off Hand"] = "Правая рука~Левая рука";
   LBIS.L["Main Hand~Two Hand"] = "Правая рука~Двуручное";
+  LBIS.L["Majordomo Staghelm"] = "Мажордом Фэндрал Олений Шлем";
   LBIS.L["Maloriak"] = "Малориак";
   LBIS.L["Marksmanship"] = "Стрельба";
   LBIS.L["Midsummer Festival"] = "Огненный солнцеворот";
   LBIS.L["Mindbender Ghur'sha"] = "Подчиняющий разум Гур'ша";
 --  LBIS.L["Mobus"] = "";
+  LBIS.L["Molten Front"] = "Огненная передовая";
   LBIS.L["Mount Hyjal"] = "Гора Хиджал";
   LBIS.L["Nalorakk"] = "Налоракк";
 --  LBIS.L["Narkrall, The Drake-Tamer"] = "";
   LBIS.L["Neck"] = "Шея";
+  LBIS.L["Neck~Ring"] = "Шея~Палец";
   LBIS.L["Nefarian"] = "Нефариан";
 --  LBIS.L["New Features"] = "";
 --  LBIS.L["Night Terrors"] = "";
@@ -257,6 +270,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["PvP"] = "PvP";
   LBIS.L["Quest"] = "Задания";
   LBIS.L["Quiver"] = "Колчан";
+  LBIS.L["Ragnaros"] = "Рагнарос";
   LBIS.L["Rajh"] = "Радж";
   LBIS.L["Ramkahen"] = "Рамкахен";
   LBIS.L["Ramkahen (Revered)"] = "Рамкахен (Почтение)";
@@ -278,6 +292,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Shadowfang Keep"] = "Крепость Темного Клыка";
   LBIS.L["Shadowfang Keep (Heroic)"] = "Крепость Темного Клыка (Героический)";
   LBIS.L["Shadowfang Keep (Normal)"] = "Крепость Темного Клыка (Норм.)";
+  LBIS.L["Shannox"] = "Шэннокс";
 --  LBIS.L["Shard Trader"] = "";
   LBIS.L["Shimmering Expanse"] = "Мерцающий простор";
   LBIS.L["Shirt"] = "Рубашка";
@@ -350,9 +365,12 @@ if GetLocale() == "ruRU" then
   LBIS.L["Two Hand"] = "Двуручное";
   LBIS.L["Uldum"] = "Ульдум";
   LBIS.L["Unholy"] = "Нечестивость";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Valiona"] = "Валиона";
 --  LBIS.L["Valor Points"] = "";
   LBIS.L["Vanessa VanCleef"] = "Ванесса ван Клиф";
+--  LBIS.L["Various Bosses"] = "";
+--  LBIS.L["Varlan Highbough"] = "";
   LBIS.L["Vendor"] = "Торговец";
   LBIS.L["Vortex Pinnacle"] = "Вершина Смерча";
   LBIS.L["Vortex Pinnacle (Heroic)"] = "Вершина Смерча (Героический)";
@@ -364,6 +382,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Wrist"] = "Запястья";
 --  LBIS.L["Xariona"] = "";
   LBIS.L["Zanzil"] = "Занзил";
+--  LBIS.L["Zen'Vorkammer"] = "";
   LBIS.L["Zul'Aman"] = "Зул'Аман";
   LBIS.L["Zul'Gurub"] = "Зул'Гуруб";
 end

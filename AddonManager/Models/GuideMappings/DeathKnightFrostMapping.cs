@@ -23,12 +23,11 @@ internal class DeathKnightFrostMapping : SpecMapping
             { ("Waist", "#waist-for-frost-death-knight-dps") },
             { ("Legs", "#legs-for-frost-death-knight-dps") },
             { ("Feet", "#feet-for-frost-death-knight-dps") },
-            { ("Neck", "#neck-for-frost-death-knight-dps") },
+            { ("Neck", "#neck-for-frost-dps") },
             { ("Ring", "#rings-for-frost-death-knight-dps") },
             { ("Trinket", "#trinkets-for-frost-death-knight-dps") },
             { ("Main Hand", "#main-hand-weapons-for-frost-death-knight-dps") },
             { ("Off Hand", "#off-hand-weapons-for-frost-death-knight-dps") },
-            { ("Two Hand", "#two-handed-weapons-for-frost-death-knight-dps") },
             { ("Ranged/Relic", "#sigils-for-frost-death-knight-dps") },
         };
 

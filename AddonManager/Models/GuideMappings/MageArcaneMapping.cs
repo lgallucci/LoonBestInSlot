@@ -11,10 +11,9 @@ internal class MageArcaneMapping : SpecMapping
     public override string Phase0Url => "dps-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand-weapons-for-arcane-mage-dps-phase-2-pre-raid") },
-            { ("Two Hand", "#two-handed-weapons-for-arcane-mage-dps-phase-2-pre-raid") },
-            { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-phase-2-pre-raid") },
-            { ("Ranged/Relic", "#wands-for-arcane-mage-dps-phase-2-pre-raid") }
+            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-arcane-mage-dps-phase-3-pre-raid") },
+            { ("Off Hand", "#off-hand-weapons-for-arcane-mage-dps-phase-3-pre-raid") },
+            { ("Ranged/Relic", "#wands-for-arcane-mage-dps-phase-3-pre-raid") }
         };
 
     public override string CurrentPhaseUrl => "dps-bis-gear-pve";

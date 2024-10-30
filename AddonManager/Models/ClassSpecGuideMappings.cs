@@ -35,11 +35,11 @@ public class ClassGuideMapping
     public string ClassName { get; set; }
     public string Phase { get; set; }
 
-    public IEnumerable<KeyValuePair<string, GuideMapping>> GuideMappings 
+    public List<KeyValuePair<string, GuideMapping>> GuideMappings 
     { 
         get
         {
-            return _mappings.Where(m => m.Value.Enabled);
+            return _mappings.Where(m => m.Value.Enabled).ToList();
         }
     }
 

@@ -11,7 +11,7 @@ internal class DeathKnightBloodMapping : SpecMapping
     public override string Phase0Url => "tank-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-blood-death-knight-tanking") },
+            { ("Head", "#helm-for-blood-death-knight-tanking") },
             { ("Shoulder", "#shoulders-for-blood-death-knight-tanking") },
             { ("Back", "#cloak-for-blood-death-knight-tanking") },
             { ("Chest", "#chest-for-blood-death-knight-tanking") },
@@ -22,8 +22,9 @@ internal class DeathKnightBloodMapping : SpecMapping
             { ("Feet", "#boots-for-blood-death-knight-tanking") },
             { ("Neck", "#neck-for-blood-death-knight-tanking") },
             { ("Ring", "#rings-for-blood-death-knight-tanking") },
-            { ("Trinket", "#trinkets-for-blood-death-knight-tanking") },
-            { ("Two Hand", "h3#weapons~h4") },
+            { ("Trinket", "#defensive-trinkets-for-blood-death-knight") },
+            { ("Trinket", "#offensive-trinkets-for-blood-death-knight") },
+            { ("Two Hand", "h3#weapons") },
             { ("Ranged/Relic", "#relics-for-blood-death-knight-tanking") },
         };
 

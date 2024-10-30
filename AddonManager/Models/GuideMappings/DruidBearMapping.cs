@@ -22,7 +22,8 @@ internal class DruidBearMapping : SpecMapping
             { ("Feet", "#feet-for-feral-druid-tank") },
             { ("Neck", "#neck-for-feral-druid-tank") },
             { ("Ring", "#rings-for-feral-druid-tank") },
-            { ("Trinket", "#trinkets-for-feral-druid-tank") },
+            { ("Trinket", "#defensive-trinkets-for-feral-druid-tank") },
+            { ("Trinket", "#offensive-trinkets-for-feral-druid-tank") },
             { ("Two Hand", "#two-handed-weapons-for-feral-druid-tank") },
             { ("Ranged/Relic", "#relics-for-feral-druid-tank") }
         };

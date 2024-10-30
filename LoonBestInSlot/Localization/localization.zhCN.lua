@@ -14,6 +14,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Alizabal"] = "阿丽萨巴尔";
   LBIS.L["All"] = "全部";
   LBIS.L["Altairus"] = "阿尔泰鲁斯";
+  LBIS.L["Alysrazor"] = "奥利瑟拉佐尔";
   LBIS.L["Ammo"] = "弹药";
   LBIS.L["Ammunae"] = "阿穆纳伊";
   LBIS.L["Anraphet"] = "安拉斐特";
@@ -27,9 +28,11 @@ if GetLocale() == "zhCN" then
   LBIS.L["Ascendant Lord Obsidius"] = "升腾者领主奥西迪斯";
   LBIS.L["Assassination"] = "奇袭";
   LBIS.L["Atramedes"] = "艾卓曼德斯";
+  LBIS.L["Avengers of Hyjal"] = "海加尔复仇者";
   LBIS.L["Back"] = "背部";
   LBIS.L["Bag"] = "背包";
   LBIS.L["Balance"] = "平衡";
+  LBIS.L["Baleroc"] = "贝尔洛克";
   LBIS.L["Baradin Hold"] = "巴拉丁监狱";
   LBIS.L["Baradin's Wardens"] = "巴拉丁典狱官";
   LBIS.L["Baron Ashbury"] = "埃什博瑞男爵";
@@ -39,6 +42,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Bear Timed Chest"] = "";
   LBIS.L["Beast Mastery"] = "野兽控制";
   LBIS.L["Beauty"] = "如花";
+  LBIS.L["Beth'tilac"] = "贝丝缇拉克";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Blackrock Caverns"] = "黑石岩窟";
   LBIS.L["Blackrock Caverns (Heroic)"] = "黑石岩窟 (英雄)";
@@ -78,6 +82,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Custom"] = "自定义";
   LBIS.L["Daakara"] = "达卡拉";
   LBIS.L["Dalaran"] = "达拉然";
+--  LBIS.L["Damek Bloombeard"] = "";
 --  LBIS.L["Dark Assassins"] = "";
 --  LBIS.L["Darkmoon Earthquake Deck"] = "";
   LBIS.L["Darkmoon Faire"] = "暗月马戏团";
@@ -92,6 +97,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Discipline"] = "戒律";
 --  LBIS.L["Doing It Like a Dunwald"] = "";
 --  LBIS.L["Doing it the Hard Way"] = "";
+  LBIS.L["Dragon Soul"] = "巨龙之魂";
 --  LBIS.L["Dragonhawk Timed Chest"] = "";
   LBIS.L["Dragonmaw/Wildhammer Clan (Revered)"] = "龙喉氏族/蛮锤部族 (崇敬)";
   LBIS.L["Drahga Shadowburner"] = "达加·燃影者";
@@ -102,6 +108,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Earthrager Ptah"] = "地怒者塔赫";
   LBIS.L["Edit"] = "编辑";
   LBIS.L["Elemental"] = "元素";
+--  LBIS.L["Elemental Bonds: The Vow"] = "";
 --  LBIS.L["Emblem Vendor"] = "";
 --  LBIS.L["Enchanting Supplies"] = "";
 --  LBIS.L["Enchanting Trainer"] = "";
@@ -125,6 +132,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Faction PVP Vendor"] = "";
   LBIS.L["Feet"] = "脚";
   LBIS.L["Fire"] = "火焰";
+  LBIS.L["Firelands"] = "火焰之地";
 --  LBIS.L["Firing Squad"] = "";
 --  LBIS.L["Flame-Scarred Junkbox"] = "";
   LBIS.L["Foe Reaper 5000"] = "死神5000";
@@ -155,6 +163,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Harrison Jones and the Temple of Uldum"] = "";
   LBIS.L["Hazza'rah"] = "哈扎拉尔";
   LBIS.L["Head"] = "头部";
+  LBIS.L["Head~Shoulder"] = "头部~肩部";
   LBIS.L["Helix Gearbreaker"] = "赫利克斯·破甲";
   LBIS.L["Hellscream's Reach"] = "地狱咆哮近卫军";
   LBIS.L["Hex Lord Malacrass"] = "妖术领主玛拉卡斯";
@@ -216,6 +225,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Loon Best In Slot"] = "";
 --  LBIS.L["Loon Best In Slot Browser"] = "";
   LBIS.L["Lord Godfrey"] = "高弗雷勋爵";
+  LBIS.L["Lord Rhyolith"] = "雷奥利斯领主";
   LBIS.L["Lord Walden"] = "沃登勋爵";
   LBIS.L["Lost City of the Tol'vir"] = "托维尔失落之城";
   LBIS.L["Lost City of the Tol'vir (Heroic)"] = "托维尔失落之城 (英雄)";
@@ -224,15 +234,18 @@ if GetLocale() == "zhCN" then
   LBIS.L["Main Hand"] = "主手";
   LBIS.L["Main Hand~Off Hand"] = "主手~副手";
   LBIS.L["Main Hand~Two Hand"] = "主手~双手";
+  LBIS.L["Majordomo Staghelm"] = "管理者鹿盔";
   LBIS.L["Maloriak"] = "马洛拉克";
   LBIS.L["Marksmanship"] = "射击";
   LBIS.L["Midsummer Festival"] = "仲夏火焰节";
   LBIS.L["Mindbender Ghur'sha"] = "蛊心魔古厄夏";
 --  LBIS.L["Mobus"] = "";
+  LBIS.L["Molten Front"] = "熔火前线";
   LBIS.L["Mount Hyjal"] = "海加尔山";
   LBIS.L["Nalorakk"] = "纳洛拉克";
 --  LBIS.L["Narkrall, The Drake-Tamer"] = "";
   LBIS.L["Neck"] = "颈部";
+  LBIS.L["Neck~Ring"] = "颈部~手指";
   LBIS.L["Nefarian"] = "奈法利安";
 --  LBIS.L["New Features"] = "";
 --  LBIS.L["Night Terrors"] = "";
@@ -257,6 +270,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["PvP"] = "PvP";
   LBIS.L["Quest"] = "任务";
   LBIS.L["Quiver"] = "箭袋";
+  LBIS.L["Ragnaros"] = "拉格纳罗斯";
   LBIS.L["Rajh"] = "拉夏";
   LBIS.L["Ramkahen"] = "拉穆卡恒";
   LBIS.L["Ramkahen (Revered)"] = "拉穆卡恒 (崇敬)";
@@ -278,6 +292,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Shadowfang Keep"] = "影牙城堡";
   LBIS.L["Shadowfang Keep (Heroic)"] = "影牙城堡 (英雄)";
   LBIS.L["Shadowfang Keep (Normal)"] = "影牙城堡 (正常)";
+  LBIS.L["Shannox"] = "沙恩诺克斯";
 --  LBIS.L["Shard Trader"] = "";
   LBIS.L["Shimmering Expanse"] = "烁光海床";
   LBIS.L["Shirt"] = "衬衣";
@@ -350,9 +365,12 @@ if GetLocale() == "zhCN" then
   LBIS.L["Two Hand"] = "双手";
   LBIS.L["Uldum"] = "奥丹姆";
   LBIS.L["Unholy"] = "邪恶";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Valiona"] = "瓦里昂娜";
 --  LBIS.L["Valor Points"] = "";
   LBIS.L["Vanessa VanCleef"] = "梵妮莎·范克里夫";
+--  LBIS.L["Various Bosses"] = "";
+--  LBIS.L["Varlan Highbough"] = "";
   LBIS.L["Vendor"] = "商人";
   LBIS.L["Vortex Pinnacle"] = "漩涡峰";
   LBIS.L["Vortex Pinnacle (Heroic)"] = "漩涡峰 (英雄)";
@@ -364,6 +382,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Wrist"] = "手腕";
 --  LBIS.L["Xariona"] = "";
   LBIS.L["Zanzil"] = "赞吉尔";
+--  LBIS.L["Zen'Vorkammer"] = "";
   LBIS.L["Zul'Aman"] = "祖阿曼";
   LBIS.L["Zul'Gurub"] = "祖尔格拉布";
 end

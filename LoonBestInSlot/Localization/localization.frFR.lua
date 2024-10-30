@@ -14,6 +14,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Alizabal"] = "Alizabal";
   LBIS.L["All"] = "Tous";
   LBIS.L["Altairus"] = "Altairus";
+  LBIS.L["Alysrazor"] = "Alysrazor";
   LBIS.L["Ammo"] = "Munitions";
   LBIS.L["Ammunae"] = "Ammunae";
   LBIS.L["Anraphet"] = "Anraphet";
@@ -27,9 +28,11 @@ if GetLocale() == "frFR" then
   LBIS.L["Ascendant Lord Obsidius"] = "Seigneur ascendant Obsidius";
   LBIS.L["Assassination"] = "Assassinat";
   LBIS.L["Atramedes"] = "Atramédès";
+  LBIS.L["Avengers of Hyjal"] = "Vengeurs d’Hyjal";
   LBIS.L["Back"] = "Dos";
   LBIS.L["Bag"] = "Sac";
   LBIS.L["Balance"] = "Equilibre";
+  LBIS.L["Baleroc"] = "Baleroc";
   LBIS.L["Baradin Hold"] = "Bastion de Baradin";
   LBIS.L["Baradin's Wardens"] = "Gardiens de Baradin";
   LBIS.L["Baron Ashbury"] = "Baron Ashbury";
@@ -39,6 +42,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Bear Timed Chest"] = "";
   LBIS.L["Beast Mastery"] = "Maîtrise des bêtes";
   LBIS.L["Beauty"] = "La Belle";
+  LBIS.L["Beth'tilac"] = "Beth'tilac";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Blackrock Caverns"] = "Cavernes de Rochenoire";
   LBIS.L["Blackrock Caverns (Heroic)"] = "Cavernes de Rochenoire (Héroïque)";
@@ -78,6 +82,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Custom"] = "Personnalisé";
   LBIS.L["Daakara"] = "Daakara";
   LBIS.L["Dalaran"] = "Dalaran";
+--  LBIS.L["Damek Bloombeard"] = "";
 --  LBIS.L["Dark Assassins"] = "";
 --  LBIS.L["Darkmoon Earthquake Deck"] = "";
   LBIS.L["Darkmoon Faire"] = "Foire de Sombrelune";
@@ -92,6 +97,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Discipline"] = "Discipline";
 --  LBIS.L["Doing It Like a Dunwald"] = "";
 --  LBIS.L["Doing it the Hard Way"] = "";
+  LBIS.L["Dragon Soul"] = "L’Âme des dragons";
 --  LBIS.L["Dragonhawk Timed Chest"] = "";
   LBIS.L["Dragonmaw/Wildhammer Clan (Revered)"] = "Clan Gueule-de-dragon/Marteau-Hardi (Révérée)";
   LBIS.L["Drahga Shadowburner"] = "Drahga Brûle-Ombre";
@@ -102,6 +108,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Earthrager Ptah"] = "Enrageterre Ptah";
   LBIS.L["Edit"] = "Editer";
   LBIS.L["Elemental"] = "Élémentaire";
+--  LBIS.L["Elemental Bonds: The Vow"] = "";
 --  LBIS.L["Emblem Vendor"] = "";
 --  LBIS.L["Enchanting Supplies"] = "";
 --  LBIS.L["Enchanting Trainer"] = "";
@@ -125,6 +132,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Faction PVP Vendor"] = "";
   LBIS.L["Feet"] = "Pieds";
   LBIS.L["Fire"] = "Feu";
+  LBIS.L["Firelands"] = "Terres de Feu";
 --  LBIS.L["Firing Squad"] = "";
 --  LBIS.L["Flame-Scarred Junkbox"] = "";
   LBIS.L["Foe Reaper 5000"] = "Faucheur 5000";
@@ -155,6 +163,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Harrison Jones and the Temple of Uldum"] = "";
   LBIS.L["Hazza'rah"] = "Hazza'rah";
   LBIS.L["Head"] = "Tête";
+  LBIS.L["Head~Shoulder"] = "Tête~Épaule";
   LBIS.L["Helix Gearbreaker"] = "Hélix Engrecasse";
   LBIS.L["Hellscream's Reach"] = "Poing de Hurlenfer";
   LBIS.L["Hex Lord Malacrass"] = "Seigneur des maléfices Malacrass";
@@ -216,6 +225,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Loon Best In Slot"] = "Huard Meilleur dans la Fente";
   LBIS.L["Loon Best In Slot Browser"] = "Huard Meilleur dans le Navigateur de Machines à Sous";
   LBIS.L["Lord Godfrey"] = "Seigneur Godfrey";
+  LBIS.L["Lord Rhyolith"] = "Seigneur Rhyolith";
   LBIS.L["Lord Walden"] = "Seigneur Walden";
   LBIS.L["Lost City of the Tol'vir"] = "Cité perdue des Tol’vir";
   LBIS.L["Lost City of the Tol'vir (Heroic)"] = "Cité perdue des Tol’vir (Héroïque)";
@@ -224,15 +234,18 @@ if GetLocale() == "frFR" then
   LBIS.L["Main Hand"] = "Main droite";
   LBIS.L["Main Hand~Off Hand"] = "Main droite~Main gauche";
   LBIS.L["Main Hand~Two Hand"] = "Main droite~Deux mains";
+  LBIS.L["Majordomo Staghelm"] = "Chambellan Forteramure";
   LBIS.L["Maloriak"] = "Maloriak";
   LBIS.L["Marksmanship"] = "Précision";
   LBIS.L["Midsummer Festival"] = "Fête du feu du solstice d'été";
   LBIS.L["Mindbender Ghur'sha"] = "Torve-esprit Ghur'sha";
 --  LBIS.L["Mobus"] = "";
+  LBIS.L["Molten Front"] = "Front du Magma";
   LBIS.L["Mount Hyjal"] = "Mont Hyjal";
   LBIS.L["Nalorakk"] = "Nalorakk";
 --  LBIS.L["Narkrall, The Drake-Tamer"] = "";
   LBIS.L["Neck"] = "Cou";
+  LBIS.L["Neck~Ring"] = "Cou~Anneau";
   LBIS.L["Nefarian"] = "Nefarian";
 --  LBIS.L["New Features"] = "";
 --  LBIS.L["Night Terrors"] = "";
@@ -257,6 +270,7 @@ if GetLocale() == "frFR" then
   LBIS.L["PvP"] = "JcJ";
   LBIS.L["Quest"] = "Quête";
   LBIS.L["Quiver"] = "Carquois";
+  LBIS.L["Ragnaros"] = "Ragnaros";
   LBIS.L["Rajh"] = "Rajh";
   LBIS.L["Ramkahen"] = "Ramkahen";
   LBIS.L["Ramkahen (Revered)"] = "Ramkahen (Révérée)";
@@ -278,6 +292,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Shadowfang Keep"] = "Donjon d’Ombrecroc";
   LBIS.L["Shadowfang Keep (Heroic)"] = "Donjon d’Ombrecroc (Héroïque)";
   LBIS.L["Shadowfang Keep (Normal)"] = "Donjon d’Ombrecroc (Normal)";
+  LBIS.L["Shannox"] = "Shannox";
 --  LBIS.L["Shard Trader"] = "";
   LBIS.L["Shimmering Expanse"] = "Étendues Chatoyantes";
   LBIS.L["Shirt"] = "Chemise";
@@ -350,9 +365,12 @@ if GetLocale() == "frFR" then
   LBIS.L["Two Hand"] = "Deux mains";
   LBIS.L["Uldum"] = "Uldum";
   LBIS.L["Unholy"] = "Impie";
+--  LBIS.L["unknown"] = "";
   LBIS.L["Valiona"] = "Valiona";
 --  LBIS.L["Valor Points"] = "";
   LBIS.L["Vanessa VanCleef"] = "Vanessa VanCleef";
+--  LBIS.L["Various Bosses"] = "";
+--  LBIS.L["Varlan Highbough"] = "";
   LBIS.L["Vendor"] = "Vendeur";
   LBIS.L["Vortex Pinnacle"] = "Cime du vortex";
   LBIS.L["Vortex Pinnacle (Heroic)"] = "Cime du vortex (Héroïque)";
@@ -364,6 +382,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Wrist"] = "Poignets";
 --  LBIS.L["Xariona"] = "";
   LBIS.L["Zanzil"] = "Zanzil";
+--  LBIS.L["Zen'Vorkammer"] = "";
   LBIS.L["Zul'Aman"] = "Zul'Aman";
   LBIS.L["Zul'Gurub"] = "Zul'Gurub";
 end

@@ -41,45 +41,59 @@ LBIS:AddEnchant(spec2, "62158", LBIS.L["Main Hand~Two Hand"]) --Rune of the Ston
 LBIS:AddEnchant(spec2, "53344", LBIS.L["Main Hand~Two Hand"]) --Rune of the Fallen Crusader
 
 LBIS:AddItem(spec0, "59359", LBIS.L["Head"], "BIS") --Reinforced Bio-Optic Killshades
-LBIS:AddItem(spec0, "57873", LBIS.L["Head"], "BIS") --Helm of Setesh
+LBIS:AddItem(spec0, "60341", LBIS.L["Head"], "Alt") --Magma Plated Helmet
 LBIS:AddItem(spec0, "58098", LBIS.L["Head"], "Alt") --Helm of Easeful Death
-LBIS:AddItem(spec0, "67144", LBIS.L["Shoulder"], "BIS") --Pauldrons of Edward the Odd
-LBIS:AddItem(spec0, "56318", LBIS.L["Shoulder"], "BIS") --Raz's Pauldrons
-LBIS:AddItem(spec0, "58104", LBIS.L["Shoulder"], "Alt") --Sunburnt Pauldrons
-LBIS:AddItem(spec0, "62383", LBIS.L["Back"], "BIS") --Wrap of the Great Turtle
-LBIS:AddItem(spec0, "55058", LBIS.L["Chest"], "BIS") --Hardened Elementium Hauberk
-LBIS:AddItem(spec0, "63458", LBIS.L["Chest"], "Alt") --Lord Walden's Breastplate
-LBIS:AddItem(spec0, "58101", LBIS.L["Chest"], "Alt") --Chestplate of the Steadfast
-LBIS:AddItem(spec0, "57870", LBIS.L["Wrist"], "BIS") --Alpha Bracers
-LBIS:AddItem(spec0, "67238", LBIS.L["Wrist"], "Alt") --Terborus's Rotating Bands
-LBIS:AddItem(spec0, "56428", LBIS.L["Hands"], "BIS") --Fingers of Light
-LBIS:AddItem(spec0, "58105", LBIS.L["Hands"], "Alt") --Numbing Handguards
-LBIS:AddItem(spec0, "55059", LBIS.L["Waist"], "BIS") --Hardened Elementium Girdle
-LBIS:AddItem(spec0, "56392", LBIS.L["Waist"], "BIS") --Sand Dune Belt
-LBIS:AddItem(spec0, "57914", LBIS.L["Waist"], "Alt") --Girdle of the Mountains
-LBIS:AddItem(spec0, "60342", LBIS.L["Legs"], "BIS") --Magma Plated Legplates
-LBIS:AddItem(spec0, "58102", LBIS.L["Legs"], "BIS") --Greaves of Splendor
+LBIS:AddItem(spec0, "65027", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Apocalypse
+LBIS:AddItem(spec0, "60343", LBIS.L["Shoulder"], "Alt") --Magma Plated Pauldrons
+LBIS:AddItem(spec0, "59901", LBIS.L["Shoulder"], "Alt") --Heaving Plates of Protection
+LBIS:AddItem(spec0, "69879", LBIS.L["Back"], "BIS") --Cloudburst Cloak
+LBIS:AddItem(spec0, "71270", LBIS.L["Back"], "Alt") --Mantle of Patience
+LBIS:AddItem(spec0, "62383", LBIS.L["Back"], "Alt") --Wrap of the Great Turtle
+LBIS:AddItem(spec0, "58190", LBIS.L["Back"], "Alt") --Floating Web
+LBIS:AddItem(spec0, "60339", LBIS.L["Chest"], "BIS") --Magma Plated Battleplate
+LBIS:AddItem(spec0, "60349", LBIS.L["Chest"], "Alt Mit") --Magma Plated Chestguard
+LBIS:AddItem(spec0, "55060", LBIS.L["Chest"], "Alt") --Elementium Deathplate
+LBIS:AddItem(spec0, "71261", LBIS.L["Wrist"], "BIS") --Gigantiform Bracers
+LBIS:AddItem(spec0, "60228", LBIS.L["Wrist"], "Alt") --Bracers of the Mat'redor
+LBIS:AddItem(spec0, "70121", LBIS.L["Wrist"], "Alt") --Ricket's Gun Show
+LBIS:AddItem(spec0, "71059", LBIS.L["Hands"], "BIS") --Elementium Deathplate Gauntlets
+LBIS:AddItem(spec0, "69937", LBIS.L["Hands"], "Alt") --Eternal Elementium Handguards
+LBIS:AddItem(spec0, "60340", LBIS.L["Hands"], "Alt") --Magma Plated Gauntlets
+LBIS:AddItem(spec0, "65369", LBIS.L["Waist"], "BIS") --Sky Strider Belt
+LBIS:AddItem(spec0, "55059", LBIS.L["Waist"], "Alt") --Hardened Elementium Girdle
+LBIS:AddItem(spec0, "62384", LBIS.L["Waist"], "Alt") --Belt of the Ferocious Wolf
+LBIS:AddItem(spec0, "71061", LBIS.L["Legs"], "BIS") --Elementium Deathplate Greaves
+LBIS:AddItem(spec0, "65379", LBIS.L["Legs"], "BIS") --Sky Strider Greaves
+LBIS:AddItem(spec0, "60342", LBIS.L["Legs"], "Alt") --Magma Plated Legplates
 LBIS:AddItem(spec0, "67141", LBIS.L["Legs"], "Alt") --Corefire Legplates
-LBIS:AddItem(spec0, "56283", LBIS.L["Legs"], "Alt") --Triton Legplates
-LBIS:AddItem(spec0, "67138", LBIS.L["Neck"], "BIS") --Buc-Zakai Choker
-LBIS:AddItem(spec0, "56319", LBIS.L["Neck"], "BIS") --Carrier Wave Pendant
-LBIS:AddItem(spec0, "57932", LBIS.L["Neck"], "Alt") --The Lustrous Eye
-LBIS:AddItem(spec0, "52323", LBIS.L["Neck"], "Alt") --Elementium Guardian
-LBIS:AddItem(spec0, "67139", LBIS.L["Ring"], "BIS") --Blauvelt's Family Crest
-LBIS:AddItem(spec0, "56444", LBIS.L["Ring"], "BIS") --Umbriss Band
-LBIS:AddItem(spec0, "62440", LBIS.L["Ring"], "BIS") --Red Rock Band
-LBIS:AddItem(spec0, "62351", LBIS.L["Ring"], "BIS") --Felsen's Ring of Resolve
-LBIS:AddItem(spec0, "52320", LBIS.L["Ring"], "Alt") --Elementium Moebius Band
-LBIS:AddItem(spec0, "58483", LBIS.L["Trinket"], "BIS") --Lifebound Alchemist Stone
-LBIS:AddItem(spec0, "56347", LBIS.L["Trinket"], "Alt Stam") --Leaden Despair
-LBIS:AddItem(spec0, "52352", LBIS.L["Trinket"], "Alt") --Figurine - Earthen Guardian
+LBIS:AddItem(spec0, "69947", LBIS.L["Feet"], "BIS") --Mirrored Boots
+LBIS:AddItem(spec0, "60229", LBIS.L["Feet"], "Alt") --War-Torn Crushers
+LBIS:AddItem(spec0, "58197", LBIS.L["Feet"], "Alt") --Rock Furrow Boots
+LBIS:AddItem(spec0, "70929", LBIS.L["Neck"], "BIS") --Firebound Gorget
+LBIS:AddItem(spec0, "60227", LBIS.L["Neck"], "Alt") --Caelestrasz's Will
+LBIS:AddItem(spec0, "69885", LBIS.L["Neck"], "Alt") --Cloudburst Necklace
+LBIS:AddItem(spec0, "65025", LBIS.L["Neck"], "Alt") --Rage of Ages
+LBIS:AddItem(spec0, "70107", LBIS.L["Neck"], "Alt") --Fireheart Necklace
+LBIS:AddItem(spec0, "67138", LBIS.L["Neck"], "Alt") --Buc-Zakai Choker
+LBIS:AddItem(spec0, "60226", LBIS.L["Ring"], "BIS") --Dargonax's Signet
+LBIS:AddItem(spec0, "70940", LBIS.L["Ring"], "BIS") --Deflecting Brimstone Band
+LBIS:AddItem(spec0, "65382", LBIS.L["Ring"], "Alt") --Cloudburst Ring
+LBIS:AddItem(spec0, "71367", LBIS.L["Ring"], "Alt") --Theck's Emberseal
+LBIS:AddItem(spec0, "58185", LBIS.L["Ring"], "Alt") --Band of Bees
+LBIS:AddItem(spec0, "67139", LBIS.L["Ring"], "Alt") --Blauvelt's Family Crest
+LBIS:AddItem(spec0, "58187", LBIS.L["Ring"], "Alt") --Ring of the Battle Anthem
+LBIS:AddItem(spec0, "65072", LBIS.L["Trinket"], "BIS") --Heart of Rage
+LBIS:AddItem(spec0, "70141", LBIS.L["Trinket"], "Alt") --Dwyer's Caber
+LBIS:AddItem(spec0, "58180", LBIS.L["Trinket"], "Alt") --License to Slay
+LBIS:AddItem(spec0, "70164", LBIS.L["Two Hand"], "BIS Mit") --Masterwork Elementium Deathblade
 LBIS:AddItem(spec0, "64377", LBIS.L["Two Hand"], "BIS") --Zin'rokh, Destroyer of Worlds
-LBIS:AddItem(spec0, "56342", LBIS.L["Two Hand"], "BIS") --Sword of the Bottomless Pit
-LBIS:AddItem(spec0, "56456", LBIS.L["Two Hand"], "BIS") --Wild Hammer
-LBIS:AddItem(spec0, "56284", LBIS.L["Two Hand"], "BIS") --Whitefin Axe
-LBIS:AddItem(spec0, "67605", LBIS.L["Two Hand"], "BIS") --Forged Elementium Mindcrusher
-LBIS:AddItem(spec0, "62243", LBIS.L["Ranged/Relic"], "BIS") --Notched Jawbone
-LBIS:AddItem(spec0, "56337", LBIS.L["Ranged/Relic"], "Alt") --Stalagmite Dragon
+LBIS:AddItem(spec0, "63679", LBIS.L["Two Hand"], "BIS") --Reclaimed Ashkandi, Greatsword of the Brotherhood
+LBIS:AddItem(spec0, "59492", LBIS.L["Two Hand"], "Alt Mit") --Akirus the Worm-Breaker
+LBIS:AddItem(spec0, "69628", LBIS.L["Two Hand"], "Alt") --Jeklik's Smasher
+LBIS:AddItem(spec0, "71147", LBIS.L["Ranged/Relic"], "BIS") --Relic of the Elemental Lords
+LBIS:AddItem(spec0, "70125", LBIS.L["Ranged/Relic"], "Alt") --Relic of Lo'Gosh
+LBIS:AddItem(spec0, "64676", LBIS.L["Ranged/Relic"], "Alt") --Relic of Khaz'goroth
+LBIS:AddItem(spec0, "64674", LBIS.L["Ranged/Relic"], "Alt") --Relic of Aggramar
 
 LBIS:AddItem(spec1, "65186", LBIS.L["Head"], "BIS") --Magma Plated Faceguard
 LBIS:AddItem(spec1, "65038", LBIS.L["Head"], "BIS") --Dragon Bone Warhelm

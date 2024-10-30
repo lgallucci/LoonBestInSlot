@@ -25,6 +25,7 @@ public class EmblemImporter : LootImporter
         "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;50",
         "https://www.wowhead.com/cata/npc=46555/gunra#sells",
         "https://www.wowhead.com/cata/npc=46555/gunra#sells;50",
+        "https://www.wowhead.com/cata/npc=234135/kyanite-stonetender#sells"
     };
 
     public EmblemImporter(CancellationToken cancellationToken) : base(cancellationToken)
@@ -71,6 +72,7 @@ public class EmblemImporter : LootImporter
                             item == "396" ? "Valor Points" :
                             item == "2589" ? "Sidereal Essence" :
                             item == "2711" ? "Defiler's Scourgestone" :
+                            item == "3148" ? "Fissure Stone Fragment" :
                             item == "47242" ? "Trophy" :
                             item == "52025" ? "Vanquisher's Mark" :
                             item == "52026" ? "Protector's Mark" :
