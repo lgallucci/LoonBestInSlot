@@ -49,14 +49,14 @@ LBIS:AddItem(spec0, "56562", LBIS.L["Chest"], "Alt") --Assassin's Chestplate
 LBIS:AddItem(spec0, "69569", LBIS.L["Chest"], "Alt") --Shadowtooth Trollskin Breastplate
 LBIS:AddItem(spec0, "58131", LBIS.L["Chest"], "Alt") --Tunic of Sinking Envy
 LBIS:AddItem(spec0, "71130", LBIS.L["Wrist"], "BIS") --Flamebinder Bracers
+LBIS:AddItem(spec0, "65050", LBIS.L["Wrist"], "Alt") --Parasitic Bands
 LBIS:AddItem(spec0, "69559", LBIS.L["Wrist"], "Alt") --Amani'shi Bracers
-LBIS:AddItem(spec0, "60591", LBIS.L["Wrist"], "Alt") --Vicious Gladiator's Armwraps of Accuracy
 LBIS:AddItem(spec0, "63454", LBIS.L["Wrist"], "Alt") --Double Dealing Bracers
 LBIS:AddItem(spec0, "69942", LBIS.L["Hands"], "BIS") --Clutches of Evil
 LBIS:AddItem(spec0, "71097", LBIS.L["Hands"], "BIS") --Obsidian Arborweave Grips
 LBIS:AddItem(spec0, "60290", LBIS.L["Hands"], "Alt") --Stormrider's Grips
-LBIS:AddItem(spec0, "62433", LBIS.L["Hands"], "Alt") --Stormbolt Gloves
 LBIS:AddItem(spec0, "62417", LBIS.L["Hands"], "Alt") --Liar's Handwraps
+LBIS:AddItem(spec0, "62433", LBIS.L["Hands"], "Alt") --Stormbolt Gloves
 LBIS:AddItem(spec0, "69798", LBIS.L["Hands"], "Alt") --Knotted Handwraps
 LBIS:AddItem(spec0, "56368", LBIS.L["Hands"], "Alt") --Gloves of Haze
 LBIS:AddItem(spec0, "60231", LBIS.L["Waist"], "BIS") --Belt of the Fallen Brood
@@ -87,14 +87,16 @@ LBIS:AddItem(spec0, "69610", LBIS.L["Ring"], "Alt") --Arlokk's Signet
 LBIS:AddItem(spec0, "69799", LBIS.L["Ring"], "Alt") --Quickfinger Ring
 LBIS:AddItem(spec0, "52318", LBIS.L["Ring"], "Alt") --Band of Blades
 LBIS:AddItem(spec0, "58181", LBIS.L["Trinket"], "BIS") --Fluid Death
-LBIS:AddItem(spec0, "65026", LBIS.L["Trinket"], "BIS") --Prestor's Talisman of Machination
+LBIS:AddItem(spec0, "65140", LBIS.L["Trinket"], "BIS") --Essence of the Cyclone
+LBIS:AddItem(spec0, "65026", LBIS.L["Trinket"], "Alt") --Prestor's Talisman of Machination
 LBIS:AddItem(spec0, "59520", LBIS.L["Trinket"], "Alt") --Unheeded Warning
 LBIS:AddItem(spec0, "56328", LBIS.L["Trinket"], "Alt") --Key to the Endless Chamber
 LBIS:AddItem(spec0, "62468", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle
 LBIS:AddItem(spec0, "56394", LBIS.L["Trinket"], "Alt") --Tia's Grace
 LBIS:AddItem(spec0, "70165", LBIS.L["Two Hand"], "BIS") --Witch-Hunter's Harvester
+LBIS:AddItem(spec0, "70228", LBIS.L["Two Hand"], "Alt") --Ruthless Gladiator's Staff
+LBIS:AddItem(spec0, "59474", LBIS.L["Two Hand"], "Alt") --Malevolence
 LBIS:AddItem(spec0, "69843", LBIS.L["Two Hand"], "Alt") --Mobus's Dripping Halberd
-LBIS:AddItem(spec0, "61340", LBIS.L["Two Hand"], "Alt") --Vicious Gladiator's Pike
 LBIS:AddItem(spec0, "69626", LBIS.L["Two Hand"], "Alt") --Jin'do's Verdict
 LBIS:AddItem(spec0, "55066", LBIS.L["Two Hand"], "Alt") --Elementium Poleaxe
 LBIS:AddItem(spec0, "56343", LBIS.L["Two Hand"], "Alt") --Darkling Staff
