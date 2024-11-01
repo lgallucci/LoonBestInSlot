@@ -1,5 +1,4 @@
-﻿
-using System.Net;
+﻿using System.Net;
 using AddonManager.Models;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
