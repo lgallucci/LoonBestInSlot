@@ -91,7 +91,7 @@ LBIS:AddItem(spec0, "69799", LBIS.L["Ring"], "Alt") --Quickfinger Ring
 LBIS:AddItem(spec0, "52318", LBIS.L["Ring"], "Alt") --Band of Blades
 LBIS:AddItem(spec0, "58181", LBIS.L["Trinket"], "BIS") --Fluid Death
 LBIS:AddItem(spec0, "65140", LBIS.L["Trinket"], "BIS") --Essence of the Cyclone
-LBIS:AddItem(spec0, "65026", LBIS.L["Trinket"], "BIS") --Prestor's Talisman of Machination
+LBIS:AddItem(spec0, "65026", LBIS.L["Trinket"], "Alt") --Prestor's Talisman of Machination
 LBIS:AddItem(spec0, "59520", LBIS.L["Trinket"], "Alt") --Unheeded Warning
 LBIS:AddItem(spec0, "56328", LBIS.L["Trinket"], "Alt") --Key to the Endless Chamber
 LBIS:AddItem(spec0, "62468", LBIS.L["Trinket"], "Alt") --Unsolvable Riddle

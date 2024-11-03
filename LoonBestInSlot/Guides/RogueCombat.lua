@@ -60,6 +60,7 @@ LBIS:AddItem(spec0, "60301", LBIS.L["Chest"], "Alt") --Wind Dancer's Tunic
 LBIS:AddItem(spec0, "67135", LBIS.L["Chest"], "Alt") --Morrie's Waywalker Wrap
 LBIS:AddItem(spec0, "56562", LBIS.L["Chest"], "Alt") --Assassin's Chestplate
 LBIS:AddItem(spec0, "71130", LBIS.L["Wrist"], "BIS") --Flamebinder Bracers
+LBIS:AddItem(spec0, "65050", LBIS.L["Wrist"], "Alt") --Parasitic Bands
 LBIS:AddItem(spec0, "69559", LBIS.L["Wrist"], "Alt") --Amani'shi Bracers
 LBIS:AddItem(spec0, "56409", LBIS.L["Wrist"], "Alt") --Poison Fang Bracers
 LBIS:AddItem(spec0, "69942", LBIS.L["Hands"], "BIS") --Clutches of Evil
@@ -83,29 +84,32 @@ LBIS:AddItem(spec0, "69880", LBIS.L["Neck"], "Alt") --Mistral Pendant
 LBIS:AddItem(spec0, "67137", LBIS.L["Neck"], "Alt") --Don Rodrigo's Fabulous Necklace
 LBIS:AddItem(spec0, "69605", LBIS.L["Neck"], "Alt") --Amulet of the Watcher
 LBIS:AddItem(spec0, "71209", LBIS.L["Ring"], "BIS") --Splintered Brimstone Seal
-LBIS:AddItem(spec0, "70110", LBIS.L["Ring"], "BIS") --Band of Glittering Lights
-LBIS:AddItem(spec0, "62362", LBIS.L["Ring"], "BIS") --Signet of the Elder Council
-LBIS:AddItem(spec0, "67136", LBIS.L["Ring"], "BIS") --Gilnean Ring of Ruination
-LBIS:AddItem(spec0, "68812", LBIS.L["Ring"], "BIS") --Hornet-Sting Band
-LBIS:AddItem(spec0, "65367", LBIS.L["Ring"], "Alt") --Mistral Circle
+LBIS:AddItem(spec0, "65367", LBIS.L["Ring"], "BIS") --Mistral Circle
+LBIS:AddItem(spec0, "70110", LBIS.L["Ring"], "Alt") --Band of Glittering Lights
+LBIS:AddItem(spec0, "62362", LBIS.L["Ring"], "Alt") --Signet of the Elder Council
+LBIS:AddItem(spec0, "67136", LBIS.L["Ring"], "Alt") --Gilnean Ring of Ruination
+LBIS:AddItem(spec0, "68812", LBIS.L["Ring"], "Alt") --Hornet-Sting Band
 LBIS:AddItem(spec0, "70105", LBIS.L["Ring"], "Alt") --Matoclaw's Band
 LBIS:AddItem(spec0, "65026", LBIS.L["Trinket"], "BIS") --Prestor's Talisman of Machination
 LBIS:AddItem(spec0, "58181", LBIS.L["Trinket"], "BIS") --Fluid Death
-LBIS:AddItem(spec0, "56328", LBIS.L["Trinket"], "BIS") --Key to the Endless Chamber
-LBIS:AddItem(spec0, "56427", LBIS.L["Trinket"], "BIS") --Left Eye of Rajh
-LBIS:AddItem(spec0, "56394", LBIS.L["Trinket"], "BIS") --Tia's Grace
-LBIS:AddItem(spec0, "68129", LBIS.L["Main Hand"], "BIS") --Stormwake, the Tempest's Reach
+LBIS:AddItem(spec0, "65140", LBIS.L["Trinket"], "Alt") --Essence of the Cyclone
+LBIS:AddItem(spec0, "56328", LBIS.L["Trinket"], "Alt") --Key to the Endless Chamber
+LBIS:AddItem(spec0, "56427", LBIS.L["Trinket"], "Alt") --Left Eye of Rajh
+LBIS:AddItem(spec0, "56394", LBIS.L["Trinket"], "Alt") --Tia's Grace
 LBIS:AddItem(spec0, "68161", LBIS.L["Main Hand"], "BIS") --Krol Decapitator
+LBIS:AddItem(spec0, "59443", LBIS.L["Main Hand"], "Alt") --Crul'korak, the Lightning's Arc
+LBIS:AddItem(spec0, "63533", LBIS.L["Main Hand"], "Alt") --Fang of Twilight
 LBIS:AddItem(spec0, "63537", LBIS.L["Main Hand"], "Alt") --Claws of Torment
 LBIS:AddItem(spec0, "69575", LBIS.L["Main Hand"], "Alt") --Mace of the Sacrificed
 LBIS:AddItem(spec0, "69636", LBIS.L["Main Hand"], "Alt") --Thekal's Claws
 LBIS:AddItem(spec0, "65164", LBIS.L["Main Hand"], "Alt") --Cruel Barb
 LBIS:AddItem(spec0, "68601", LBIS.L["Off Hand"], "BIS") --Scaleslicer
+LBIS:AddItem(spec0, "59494", LBIS.L["Off Hand"], "BIS") --Uhn'agh Fash, the Darkest Betrayal
 LBIS:AddItem(spec0, "69620", LBIS.L["Off Hand"], "Alt") --Twinblade of the Hakkari
 LBIS:AddItem(spec0, "56335", LBIS.L["Off Hand"], "Alt") --Quicksilver Blade
 LBIS:AddItem(spec0, "71152", LBIS.L["Ranged/Relic"], "BIS") --Morningstar Shard
 LBIS:AddItem(spec0, "71366", LBIS.L["Ranged/Relic"], "BIS") --Lava Bolt Crossbow
-LBIS:AddItem(spec0, "59367", LBIS.L["Ranged/Relic"], "BIS") --Kickback 5000
+LBIS:AddItem(spec0, "59367", LBIS.L["Ranged/Relic"], "Alt") --Kickback 5000
 LBIS:AddItem(spec0, "68162", LBIS.L["Ranged/Relic"], "Alt") --Spinerender
 LBIS:AddItem(spec0, "69597", LBIS.L["Ranged/Relic"], "Alt") --Zulian Throwing Axe
 

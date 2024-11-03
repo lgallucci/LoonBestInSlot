@@ -77,6 +77,7 @@ LBIS:AddItem(spec0, "65025", LBIS.L["Neck"], "Alt") --Rage of Ages
 LBIS:AddItem(spec0, "69635", LBIS.L["Neck"], "Alt") --Amulet of Protection
 LBIS:AddItem(spec0, "71208", LBIS.L["Ring"], "BIS") --Serrated Brimstone Signet
 LBIS:AddItem(spec0, "60226", LBIS.L["Ring"], "BIS") --Dargonax's Signet
+LBIS:AddItem(spec0, "65382", LBIS.L["Ring"], "BIS") --Cloudburst Ring
 LBIS:AddItem(spec0, "70113", LBIS.L["Ring"], "Alt") --Moon Blessed Band
 LBIS:AddItem(spec0, "67139", LBIS.L["Ring"], "Alt") --Blauvelt's Family Crest
 LBIS:AddItem(spec0, "58185", LBIS.L["Ring"], "Alt") --Band of Bees

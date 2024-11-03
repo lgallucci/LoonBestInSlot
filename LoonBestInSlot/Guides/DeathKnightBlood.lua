@@ -83,6 +83,7 @@ LBIS:AddItem(spec0, "58185", LBIS.L["Ring"], "Alt") --Band of Bees
 LBIS:AddItem(spec0, "67139", LBIS.L["Ring"], "Alt") --Blauvelt's Family Crest
 LBIS:AddItem(spec0, "58187", LBIS.L["Ring"], "Alt") --Ring of the Battle Anthem
 LBIS:AddItem(spec0, "65072", LBIS.L["Trinket"], "BIS") --Heart of Rage
+LBIS:AddItem(spec0, "65118", LBIS.L["Trinket"], "BIS") --Crushing Weight
 LBIS:AddItem(spec0, "70141", LBIS.L["Trinket"], "Alt") --Dwyer's Caber
 LBIS:AddItem(spec0, "58180", LBIS.L["Trinket"], "Alt") --License to Slay
 LBIS:AddItem(spec0, "70164", LBIS.L["Two Hand"], "BIS Mit") --Masterwork Elementium Deathblade

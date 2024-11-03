@@ -60,6 +60,7 @@ LBIS:AddItem(spec0, "60301", LBIS.L["Chest"], "Alt") --Wind Dancer's Tunic
 LBIS:AddItem(spec0, "56562", LBIS.L["Chest"], "Alt") --Assassin's Chestplate
 LBIS:AddItem(spec0, "67135", LBIS.L["Chest"], "Alt") --Morrie's Waywalker Wrap
 LBIS:AddItem(spec0, "71130", LBIS.L["Wrist"], "BIS") --Flamebinder Bracers
+LBIS:AddItem(spec0, "65050", LBIS.L["Wrist"], "Alt") --Parasitic Bands
 LBIS:AddItem(spec0, "69559", LBIS.L["Wrist"], "Alt") --Amani'shi Bracers
 LBIS:AddItem(spec0, "56409", LBIS.L["Wrist"], "Alt") --Poison Fang Bracers
 LBIS:AddItem(spec0, "69942", LBIS.L["Hands"], "BIS") --Clutches of Evil
@@ -90,15 +91,17 @@ LBIS:AddItem(spec0, "68812", LBIS.L["Ring"], "Alt") --Hornet-Sting Band
 LBIS:AddItem(spec0, "70110", LBIS.L["Ring"], "Alt") --Band of Glittering Lights
 LBIS:AddItem(spec0, "67136", LBIS.L["Ring"], "Alt") --Gilnean Ring of Ruination
 LBIS:AddItem(spec0, "65026", LBIS.L["Trinket"], "BIS") --Prestor's Talisman of Machination
-LBIS:AddItem(spec0, "62463", LBIS.L["Trinket"], "BIS") --Unsolvable Riddle
 LBIS:AddItem(spec0, "62468", LBIS.L["Trinket"], "BIS") --Unsolvable Riddle
+LBIS:AddItem(spec0, "62463", LBIS.L["Trinket"], "BIS") --Unsolvable Riddle
 LBIS:AddItem(spec0, "58181", LBIS.L["Trinket"], "Alt") --Fluid Death
 LBIS:AddItem(spec0, "56328", LBIS.L["Trinket"], "Alt") --Key to the Endless Chamber
 LBIS:AddItem(spec0, "56394", LBIS.L["Trinket"], "Alt") --Tia's Grace
 LBIS:AddItem(spec0, "56427", LBIS.L["Trinket"], "Alt") --Left Eye of Rajh
+LBIS:AddItem(spec0, "59122", LBIS.L["Main Hand"], "BIS") --Organic Lifeform Inverter
 LBIS:AddItem(spec0, "69620", LBIS.L["Main Hand~Off Hand"], "BIS") --Twinblade of the Hakkari
-LBIS:AddItem(spec0, "56302", LBIS.L["Main Hand"], "BIS") --Steelbender's Masterpiece
+LBIS:AddItem(spec0, "56302", LBIS.L["Main Hand"], "Alt") --Steelbender's Masterpiece
 LBIS:AddItem(spec0, "68601", LBIS.L["Off Hand"], "BIS") --Scaleslicer
+LBIS:AddItem(spec0, "59494", LBIS.L["Off Hand"], "Alt") --Uhn'agh Fash, the Darkest Betrayal
 LBIS:AddItem(spec0, "65163", LBIS.L["Off Hand"], "Alt") --Buzzer Blade
 LBIS:AddItem(spec0, "71152", LBIS.L["Ranged/Relic"], "BIS") --Morningstar Shard
 LBIS:AddItem(spec0, "71366", LBIS.L["Ranged/Relic"], "BIS") --Lava Bolt Crossbow

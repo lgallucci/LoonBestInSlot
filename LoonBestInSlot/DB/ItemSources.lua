@@ -2207,6 +2207,7 @@ LBIS.ItemSources =
     [70940] = { Name = "Deflecting Brimstone Band", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
     [70942] = { Name = "Legguards of the Molten Giant", SourceType = LBIS.L["Drop"], Source = LBIS.L["Occu'thar"], SourceNumber = "0", SourceLocation = LBIS.L["Baradin Hold"], SourceFaction = "B" },
     [70943] = { Name = "Handguards of the Molten Giant", SourceType = LBIS.L["Drop"], Source = LBIS.L["Occu'thar"], SourceNumber = "0", SourceLocation = LBIS.L["Baradin Hold"], SourceFaction = "B" },
+    [70945] = { Name = "Chestguard of the Molten Giant", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
     [70947] = { Name = "Immolation Legguards", SourceType = LBIS.L["Drop"], Source = LBIS.L["Occu'thar"], SourceNumber = "0", SourceLocation = LBIS.L["Baradin Hold"], SourceFaction = "B" },
     [70949] = { Name = "Immolation Handguards", SourceType = LBIS.L["Drop"], Source = LBIS.L["Occu'thar"], SourceNumber = "0", SourceLocation = LBIS.L["Baradin Hold"], SourceFaction = "B" },
     [70950] = { Name = "Immolation Chestguard", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },

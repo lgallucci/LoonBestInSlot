@@ -47,8 +47,7 @@ LBIS:AddItem(spec0, "69579", LBIS.L["Head"], "Alt") --Amani Headdress
 LBIS:AddItem(spec0, "63485", LBIS.L["Head"], "Alt") --Cowl of Rebellion
 LBIS:AddItem(spec0, "58150", LBIS.L["Head"], "Alt") --Cluster of Stars
 LBIS:AddItem(spec0, "56321", LBIS.L["Head"], "Alt") --Willowy Crown
-LBIS:AddItem(spec0, "71106", LBIS.L["Shoulder"], "BIS") --Obsidian Arborweave Mantle
-LBIS:AddItem(spec0, "60279", LBIS.L["Shoulder"], "Alt") --Stormrider's Mantle
+LBIS:AddItem(spec0, "60279", LBIS.L["Shoulder"], "BIS") --Stormrider's Mantle
 LBIS:AddItem(spec0, "69551", LBIS.L["Shoulder"], "Alt") --Feathers of Akil'zon
 LBIS:AddItem(spec0, "57866", LBIS.L["Shoulder"], "Alt") --Mantle of Soft Shadows
 LBIS:AddItem(spec0, "56361", LBIS.L["Shoulder"], "Alt") --Mantle of Bestilled Winds

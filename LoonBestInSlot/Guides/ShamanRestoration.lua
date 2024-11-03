@@ -80,7 +80,8 @@ LBIS:AddItem(spec0, "60310", LBIS.L["Legs"], "Alt") --Legwraps of the Raging Ele
 LBIS:AddItem(spec0, "67148", LBIS.L["Legs"], "Alt") --Kilt of Trollish Dreams
 LBIS:AddItem(spec0, "60201", LBIS.L["Legs"], "Alt") --Phase-Twister Leggings
 LBIS:AddItem(spec0, "62380", LBIS.L["Legs"], "Alt") --Wilderness Legguards
-LBIS:AddItem(spec0, "69949", LBIS.L["Feet"], "BIS") --Earthen Scale Sabatons
+LBIS:AddItem(spec0, "60235", LBIS.L["Feet"], "BIS") --Boots of Az'galada
+LBIS:AddItem(spec0, "69950", LBIS.L["Feet"], "Alt") --Footwraps of Quenched Fire
 LBIS:AddItem(spec0, "62363", LBIS.L["Feet"], "Alt") --Earthmender's Boots
 LBIS:AddItem(spec0, "58481", LBIS.L["Feet"], "Alt") --Boots of the Perilous Seas
 LBIS:AddItem(spec0, "56448", LBIS.L["Feet"], "Alt") --Dark Iron Chain Boots

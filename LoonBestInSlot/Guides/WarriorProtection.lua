@@ -61,6 +61,7 @@ LBIS:AddItem(spec0, "69770", LBIS.L["Back"], "Alt") --Icebound Cloak
 LBIS:AddItem(spec0, "56369", LBIS.L["Back"], "Alt") --Billowing Cape
 LBIS:AddItem(spec0, "69800", LBIS.L["Back"], "Alt") --Spiritguard Drape
 LBIS:AddItem(spec0, "69572", LBIS.L["Back"], "Alt") --Hex Lord's Bloody Cloak
+LBIS:AddItem(spec0, "70945", LBIS.L["Chest"], "BIS") --Chestguard of the Molten Giant
 LBIS:AddItem(spec0, "60329", LBIS.L["Chest"], "BIS") --Earthen Chestguard
 LBIS:AddItem(spec0, "67143", LBIS.L["Chest"], "Alt") --Icebone Hauberk
 LBIS:AddItem(spec0, "56308", LBIS.L["Chest"], "Alt") --Beauty's Plate
@@ -73,6 +74,7 @@ LBIS:AddItem(spec0, "62449", LBIS.L["Wrist"], "Alt") --Sandguard Bracers
 LBIS:AddItem(spec0, "57870", LBIS.L["Wrist"], "Alt") --Alpha Bracers
 LBIS:AddItem(spec0, "67238", LBIS.L["Wrist"], "Alt") --Terborus's Rotating Bands
 LBIS:AddItem(spec0, "69801", LBIS.L["Wrist"], "Alt") --Amani Armguards
+LBIS:AddItem(spec0, "70943", LBIS.L["Hands"], "BIS") --Handguards of the Molten Giant
 LBIS:AddItem(spec0, "60332", LBIS.L["Hands"], "BIS") --Earthen Handguards
 LBIS:AddItem(spec0, "69619", LBIS.L["Hands"], "Alt") --Bone Plate Handguards
 LBIS:AddItem(spec0, "56428", LBIS.L["Hands"], "Alt") --Fingers of Light
@@ -86,7 +88,8 @@ LBIS:AddItem(spec0, "69842", LBIS.L["Waist"], "Alt") --Garr's Reinforced Girdle 
 LBIS:AddItem(spec0, "57914", LBIS.L["Waist"], "Alt") --Girdle of the Mountains
 LBIS:AddItem(spec0, "56392", LBIS.L["Waist"], "Alt") --Sand Dune Belt
 LBIS:AddItem(spec0, "63453", LBIS.L["Waist"], "Alt") --Iron Will Girdle
-LBIS:AddItem(spec0, "63501", LBIS.L["Legs"], "BIS") --Thunder Wall Greaves
+LBIS:AddItem(spec0, "70942", LBIS.L["Legs"], "BIS") --Legguards of the Molten Giant
+LBIS:AddItem(spec0, "63501", LBIS.L["Legs"], "Alt") --Thunder Wall Greaves
 LBIS:AddItem(spec0, "60330", LBIS.L["Legs"], "Alt") --Earthen Legguards
 LBIS:AddItem(spec0, "69583", LBIS.L["Legs"], "Alt") --Legguards of the Unforgiving
 LBIS:AddItem(spec0, "56367", LBIS.L["Legs"], "Alt") --Legguards of Winnowing Wind
@@ -116,8 +119,9 @@ LBIS:AddItem(spec0, "56398", LBIS.L["Ring"], "Alt") --Ring of Three Lights
 LBIS:AddItem(spec0, "62351", LBIS.L["Ring"], "Alt") --Felsen's Ring of Resolve
 LBIS:AddItem(spec0, "62440", LBIS.L["Ring"], "Alt") --Red Rock Band
 LBIS:AddItem(spec0, "65048", LBIS.L["Trinket"], "BIS") --Symbiotic Worm
-LBIS:AddItem(spec0, "70143", LBIS.L["Trinket"], "BIS") --Moonwell Phial
+LBIS:AddItem(spec0, "65109", LBIS.L["Trinket"], "BIS") --Vial of Stolen Memories
 LBIS:AddItem(spec0, "62471", LBIS.L["Trinket"], "BIS") --Mirror of Broken Images
+LBIS:AddItem(spec0, "70143", LBIS.L["Trinket"], "Alt") --Moonwell Phial
 LBIS:AddItem(spec0, "56347", LBIS.L["Trinket"], "Alt") --Leaden Despair
 LBIS:AddItem(spec0, "232016", LBIS.L["Trinket"], "Alt") --Bubblier Brightbrew Charm
 LBIS:AddItem(spec0, "232017", LBIS.L["Trinket"], "Alt") --Bitterer Balebrew Charm
