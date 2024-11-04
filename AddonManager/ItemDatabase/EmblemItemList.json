@@ -712,6 +712,238 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "59122": {
+      "Name": "Organic Lifeform Inverter",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "59314": {
+      "Name": "Pip's Solution Agitator",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "59320": {
+      "Name": "Themios the Darkbringer",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "59327": {
+      "Name": "Kingdom's Heart",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "59330": {
+      "Name": "Shalug'doom, the Axe of Unmaking",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "59333": {
+      "Name": "Lava Spine",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "59341": {
+      "Name": "Incineratus",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "59347": {
+      "Name": "Mace of Acrid Death",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "59443": {
+      "Name": "Crul'korak, the Lightning's Arc",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "59444": {
+      "Name": "Akmin-Kurai, Dominion's Shield",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "59459": {
+      "Name": "Andoros, Fist of the Dragon King",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "59474": {
+      "Name": "Malevolence",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "59484": {
+      "Name": "Book of Binding Will",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "59492": {
+      "Name": "Akirus the Worm-Breaker",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "59494": {
+      "Name": "Uhn'agh Fash, the Darkest Betrayal",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "59513": {
+      "Name": "Scepter of Ice",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60226": {
+      "Name": "Dargonax's Signet",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60227": {
+      "Name": "Caelestrasz's Will",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60228": {
+      "Name": "Bracers of the Mat'redor",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60229": {
+      "Name": "War-Torn Crushers",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60230": {
+      "Name": "Twilight Scale Leggings",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60231": {
+      "Name": "Belt of the Fallen Brood",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60232": {
+      "Name": "Shroud of Endless Grief",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60233": {
+      "Name": "Shard of Woe",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60234": {
+      "Name": "Bindings of Bleak Betrayal",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60235": {
+      "Name": "Boots of Az'galada",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60236": {
+      "Name": "Nightmare Rider's Boots",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60237": {
+      "Name": "Crown of the Twilight Queen",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "60238": {
+      "Name": "Bracers of the Dark Mother",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "60244": {
       "Name": "Firelord's Robes",
       "Source": "Valor Points",
@@ -1168,6 +1400,94 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "63532": {
+      "Name": "Dragonheart Piercer",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "63533": {
+      "Name": "Fang of Twilight",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "63536": {
+      "Name": "Blade of the Witching Hour",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "63679": {
+      "Name": "Reclaimed Ashkandi, Greatsword of the Brotherhood",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "63680": {
+      "Name": "Twilight's Hammer",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "63682": {
+      "Name": "Helm of the Forlorn Vanquisher",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "63683": {
+      "Name": "Helm of the Forlorn Conqueror",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "63684": {
+      "Name": "Helm of the Forlorn Protector",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "64314": {
+      "Name": "Mantle of the Forlorn Vanquisher",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "64315": {
+      "Name": "Mantle of the Forlorn Conqueror",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "64316": {
+      "Name": "Mantle of the Forlorn Protector",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "64671": {
       "Name": "Relic of Golganneth",
       "Source": "Valor Points",
@@ -1208,11 +1528,467 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "65018": {
+      "Name": "Shadow of Dread",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65019": {
+      "Name": "Shadowblaze Robes",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65021": {
+      "Name": "Manacles of the Sleeping Beast",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65022": {
+      "Name": "Belt of the Blackhand",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65025": {
+      "Name": "Rage of Ages",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65026": {
+      "Name": "Prestor's Talisman of Machination",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65027": {
+      "Name": "Pauldrons of the Apocalypse",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65028": {
+      "Name": "Chimaeron Armguards",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65029": {
+      "Name": "Jar of Ancient Remedies",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65043": {
+      "Name": "Mantle of Nefarius",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65048": {
+      "Name": "Symbiotic Worm",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65050": {
+      "Name": "Parasitic Bands",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65053": {
+      "Name": "Bell of Enraging Resonance",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65056": {
+      "Name": "Bracers of the Burningeye",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65057": {
+      "Name": "Belt of the Nightmare",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65068": {
+      "Name": "Chaos Beast Bracers",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65072": {
+      "Name": "Heart of Rage",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65074": {
+      "Name": "Spaulders of the Scarred Lady",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65085": {
+      "Name": "Electron Inductor Coils",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65105": {
+      "Name": "Theralion's Mirror",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65109": {
+      "Name": "Vial of Stolen Memories",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65110": {
+      "Name": "Heart of Ignacious",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65118": {
+      "Name": "Crushing Weight",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65124": {
+      "Name": "Fall of Mortality",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65127": {
+      "Name": "Shackles of the End of Days",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65138": {
+      "Name": "Bracers of the Bronze Flight",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65140": {
+      "Name": "Essence of the Cyclone",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65143": {
+      "Name": "Bracers of Impossible Strength",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65367": {
+      "Name": "Satchel of the Mistral Circle",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65368": {
+      "Name": "Satchel of the Star Chaser Belt",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65369": {
+      "Name": "Satchel of the Sky Strider Belt",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65370": {
+      "Name": "Satchel of the Thunder Wall Belt",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65371": {
+      "Name": "Satchel of the Wind Stalker Belt",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65372": {
+      "Name": "Satchel of the Permafrost Signet",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65373": {
+      "Name": "Satchel of the Planetary Band",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65374": {
+      "Name": "Satchel of the Gale Rouser Belt",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65375": {
+      "Name": "Satchel of the Tempest Keeper Belt",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65376": {
+      "Name": "Satchel of the Soul Breath Belt",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65377": {
+      "Name": "Satchel of the Lightning Well Belt",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65378": {
+      "Name": "Satchel of the Star Chaser Legguards",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65379": {
+      "Name": "Satchel of the Sky Strider Greaves",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65380": {
+      "Name": "Satchel of the Thunder Wall Greaves",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65381": {
+      "Name": "Satchel of the Wind Stalker Leggings",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65382": {
+      "Name": "Satchel of the Cloudburst Ring",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65383": {
+      "Name": "Satchel of the Soul Breath Leggings",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65384": {
+      "Name": "Satchel of the Gale Rouser Leggings",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65385": {
+      "Name": "Satchel of the Tempest Keeper Leggings",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "65386": {
+      "Name": "Satchel of the Lightning Well Legguards",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "68812": {
       "Name": "Hornet-Sting Band",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69878": {
+      "Name": "Satchel of the Permafrost Cape",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69879": {
+      "Name": "Satchel of the Cloudburst Cloak",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69880": {
+      "Name": "Satchel of the Mistral Pendant",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69881": {
+      "Name": "Satchel of the Planetary Drape",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69882": {
+      "Name": "Satchel of the Planetary Amulet",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69883": {
+      "Name": "Satchel of the Permafrost Choker",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69884": {
+      "Name": "Satchel of the Mistral Drape",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69885": {
+      "Name": "Satchel of the Cloudburst Necklace",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "234446": {
+      "Name": "Commendation of Service",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "3148",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     }

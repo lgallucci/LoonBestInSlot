@@ -27,6 +27,11 @@ public class EmblemImporter : LootImporter
         "https://www.wowhead.com/cata/npc=234135/kyanite-stonetender#sells"
     };
 
+    private List<string> guideUriList = new List<string>()
+    {
+        "https://www.wowhead.com/cata/guide/dungeons/elemental-rune-protocol-inferno-dungeons-overview",
+    };
+
     public EmblemImporter(CancellationToken cancellationToken) : base(cancellationToken)
     {
     }
@@ -37,6 +42,97 @@ public class EmblemImporter : LootImporter
     {
         //items.Items.Clear();
 
+        //await ReadFromItemPages(items, writeToLog);
+        await ReadFromGuidePage(items, writeToLog);
+
+        return items;
+    }
+
+    private Dictionary<int, int> _idSwaps = new Dictionary<int, int>
+    {
+        {232950, 65374}, //Gale Rouser Belt
+        {232951, 65384}, //Gale Rouser Leggings
+        {232973, 65371}, //Wind Stalker Belt
+        {232974, 65381}, //Wind Stalker Leggings
+        {232965, 65376}, //Soul Breath Belt
+        {232966, 65383}, //Soul Breath Leggings
+        {232948, 69885}, //Cloudburst Necklace
+        {232956, 69880}, //Mistral Pendant
+        {232958, 69883}, //Permafrost Choker
+        {232960, 69882}, //Planetary Amulet
+        {232949, 65382}, //Cloudburst Ring
+        {232954, 65367}, //Mistral Circle
+        {232959, 65372}, //Permafrost Signet
+        {232961, 65373}, //Planetary Band
+        {232947, 69879}, //Cloudburst Cloak
+        {232955, 69884}, //Mistral Drape
+        {232957, 69878}, //Permafrost Cape
+        {232962, 69881}, //Planetary Drape
+        {232952, 65377}, //Lightning Well Belt
+        {232953, 65386}, //Lightning Well Legguards
+        {232967, 65368}, //Star Chaser Belt
+        {232968, 65378}, //Star Chaser Legguards
+        {232963, 65369}, //Sky Strider Belt
+        {232964, 65379}, //Sky Strider Greaves
+        {232969, 65375}, //Tempest Keeper Belt
+        {232970, 65385}, //Tempest Keeper Leggings
+        {232971, 65370}, //Thunder Wall Belt
+        {232972, 65380}, //Thunder Wall Greaves
+    };
+
+    private async Task ReadFromGuidePage(DatabaseItems items, Action<string> writeToLog)
+    {
+        await Common.LoadFromWebPages(guideUriList, (uri, doc) =>
+        {
+            var currencySourceLocation = "Emblem Vendor";
+            var sourceFaction = "B";
+
+            var tables = doc.QuerySelectorAll(".markup-table-wrapper table");
+
+            foreach(IHtmlTableElement table in tables)
+            {
+                if (table.Rows[0].Cells[0].TextContent != "Item")
+                {
+                    continue;
+                }
+
+                foreach(var row in table.Rows)
+                {
+                    Common.RecursiveBoxSearch(row, (anchorObject) => 
+                    {
+                        var item = anchorObject.PathName.Replace("/cata/", "/").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", "");
+                        var itemName = anchorObject.TextContent.Trim();
+                        var itemId = 0;
+                        var itemIdIndex = item.IndexOf("/");
+                        if (itemIdIndex == -1)
+                            itemIdIndex = item.IndexOf("&");
+                        item = item.Substring(0, itemIdIndex);
+                        int.TryParse(item, out itemId);
+
+                        if (_idSwaps.ContainsKey(itemId))
+                        {
+                            itemId = _idSwaps[itemId];
+                        }
+
+                        var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
+                        {
+                            Name = itemName,
+                            SourceNumber = "3148",
+                            Source = "Fissure Stone Fragment",
+                            SourceLocation = currencySourceLocation,
+                            SourceType = "Dungeon Token",
+                            SourceFaction = sourceFaction
+                        });
+
+                        return successfulAdd;
+                    });
+                }
+            }
+        }, writeToLog);
+    }
+
+    private async Task ReadFromItemPages(DatabaseItems items, Action<string> writeToLog)
+    {
         await Common.ReadWowheadSellsList(wowheadUriList.Where(u => u.Contains("wowhead")), (uri, row, itemId, item) =>
         {
             var success = false;
@@ -48,7 +144,7 @@ public class EmblemImporter : LootImporter
 
             Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
             {
-                var item = anchorObject.PathName.Replace("/cata/", "/").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", ""); ;
+                var item = anchorObject.PathName.Replace("/cata/", "/").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", "");
 
                 var currencyIdIndex = item.IndexOf("/");
                 if (currencyIdIndex == -1)
@@ -123,7 +219,5 @@ public class EmblemImporter : LootImporter
                 });
             }
         }, writeToLog, _importCancelToken);
-
-        return items;
     }
 }
