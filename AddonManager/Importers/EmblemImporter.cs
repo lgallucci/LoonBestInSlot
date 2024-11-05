@@ -24,7 +24,6 @@ public class EmblemImporter : LootImporter
         "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;50",
         "https://www.wowhead.com/cata/npc=46555/gunra#sells",
         "https://www.wowhead.com/cata/npc=46555/gunra#sells;50",
-        "https://www.wowhead.com/cata/npc=234135/kyanite-stonetender#sells"
     };
 
     private List<string> guideUriList = new List<string>()
@@ -86,6 +85,7 @@ public class EmblemImporter : LootImporter
         {
             var currencySourceLocation = "Emblem Vendor";
             var sourceFaction = "B";
+            var currencyNumber = "-1";
 
             var tables = doc.QuerySelectorAll(".markup-table-wrapper table");
 
@@ -114,10 +114,12 @@ public class EmblemImporter : LootImporter
                             itemId = _idSwaps[itemId];
                         }
 
+                        currencyNumber = row.Cells[2].TextContent;
+
                         var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
                         {
                             Name = itemName,
-                            SourceNumber = "3148",
+                            SourceNumber = currencyNumber,
                             Source = "Fissure Stone Fragment",
                             SourceLocation = currencySourceLocation,
                             SourceType = "Dungeon Token",
