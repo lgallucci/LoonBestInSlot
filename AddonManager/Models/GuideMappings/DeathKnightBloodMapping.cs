@@ -42,8 +42,9 @@ internal class DeathKnightBloodMapping : SpecMapping
             { ("Feet", "#boots-for-blood-death-knight-tanking") },
             { ("Neck", "#neck-for-blood-death-knight-tanking") },
             { ("Ring", "#rings-for-blood-death-knight-tanking") },
-            { ("Trinket", "#trinkets-for-blood-death-knight-tanking") },
-            { ("Two Hand", "h3#weapons~h4") },
+            { ("Trinket", "#defensive-trinkets-for-blood-death-knight") },
+            { ("Trinket", "#offensive-trinkets-for-blood-death-knight") },
+            { ("Two Hand", "h3#weapons") },
             { ("Ranged/Relic", "#relics-for-blood-death-knight-tanking") },
         };
 

@@ -30,20 +30,20 @@ internal class HunterBeastMasteryMapping : SpecMapping
     public override string CurrentPhaseUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-beast-mastery-hunter-dps") },
-            { ("Shoulder", "#shoulders-for-beast-mastery-hunter-dps") },
-            { ("Back", "#back-for-beast-mastery-hunter-dps") },
-            { ("Chest", "#chest-for-beast-mastery-hunter-dps") },
-            { ("Wrist", "#wrist-for-beast-mastery-hunter-dps") },
-            { ("Hands", "#hands-for-beast-mastery-hunter-dps") },
-            { ("Waist", "#waist-for-beast-mastery-hunter-dps") },
-            { ("Legs", "#legs-for-beast-mastery-hunter-dps") },
-            { ("Feet", "#feet-for-beast-mastery-hunter-dps") },
-            { ("Neck", "#neck-for-beast-mastery-hunter-dps") },
-            { ("Ring", "#rings-for-beast-mastery-hunter-dps") },
-            { ("Trinket", "#trinkets-for-beast-mastery-hunter-dps") },
-            { ("Two Hand", "#melee-weapons-for-beast-mastery-hunter-dps") },
-            { ("Ranged/Relic", "#ranged-weapon-for-beast-mastery-hunter-dps") }
+            { ("Head", "#head-for-bm-hunter-dps") },
+            { ("Shoulder", "#shoulders-for-bm-hunter-dps") },
+            { ("Back", "#back-for-bm-hunter-dps") },
+            { ("Chest", "#chest-for-bm-hunter-dps") },
+            { ("Wrist", "#wrist-for-bm-hunter-dps") },
+            { ("Hands", "#hands-for-bm-hunter-dps") },
+            { ("Waist", "#waist-for-bm-hunter-dps") },
+            { ("Legs", "#legs-for-bm-hunter-dps") },
+            { ("Feet", "#feet-for-bm-hunter-dps") },
+            { ("Neck", "#neck-for-bm-hunter-dps") },
+            { ("Ring", "#rings-for-bm-hunter-dps") },
+            { ("Trinket", "#trinkets-for-bm-hunter-dps") },
+            { ("Two Hand", "#melee-weapons-for-bm-hunter-dps") },
+            { ("Ranged/Relic", "#ranged-weapon-for-bm-hunter-dps") }
         };
 
     public override string GemsEnchantsUrl => "dps-enchants-gems-pve";

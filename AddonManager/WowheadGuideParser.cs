@@ -109,6 +109,10 @@ public class WowheadGuideParser
         { 68763, 86933 }, //Arcanum of the Dragonmaw
         { 68716, 86901 }, //Greater Inscription of Jagged Stone
         { 52767, 74234 }, //Enchant Cloak - Protection
+        { 68766, 86934 }, //Arcanum of Ramkahen
+        { 226459, 86854 }, //Greater Inscription of Unbreakable Quartz
+        { 226460, 86907 }, //Greater Inscription of Shattered Crystal
+        { 226462, 86901 }, //Greater Inscription of Jagged Stone
      };
 
     private Dictionary<int, string> _itemSwaps = new Dictionary<int, string>()
@@ -171,7 +175,9 @@ public class WowheadGuideParser
         "alt",
         "10-man",
         "10 man",
-        "potentially bis"
+        "potentially bis",
+        "Tier 11",
+        "T11",
     };
 
     private class SlotSwaps

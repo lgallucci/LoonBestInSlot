@@ -11,34 +11,36 @@ LBIS:AddGem(spec0, "52208", "3", "False") --Reckless Ember Topaz
 LBIS:AddGem(spec0, "52207", "3", "False") --Brilliant Inferno Ruby
 LBIS:AddGem(spec0, "52236", "3", "False") --Purified Demonseye
 
-LBIS:AddEnchant(spec2, "86932", LBIS.L["Head"]) --Arcanum of Hyjal
-LBIS:AddEnchant(spec2, "86899", LBIS.L["Shoulder"]) --Greater Inscription of Charged Lodestone
-LBIS:AddEnchant(spec2, "86403", LBIS.L["Shoulder"]) --Felfire Inscription
-LBIS:AddEnchant(spec2, "75172", LBIS.L["Back"]) --Lightweave Embroidery
-LBIS:AddEnchant(spec2, "74240", LBIS.L["Back"]) --Enchant Cloak - Greater Intellect
-LBIS:AddEnchant(spec2, "52639", LBIS.L["Back"]) --Spring Loaded Cloak Expander
-LBIS:AddEnchant(spec2, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
-LBIS:AddEnchant(spec2, "74191", LBIS.L["Chest"]) --Enchant Chest - Mighty Stats
-LBIS:AddEnchant(spec2, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
-LBIS:AddEnchant(spec2, "96262", LBIS.L["Wrist"]) --Enchant Bracer - Mighty Intellect
-LBIS:AddEnchant(spec2, "85010", LBIS.L["Wrist"]) --Draconic Embossment - Intellect
-LBIS:AddEnchant(spec2, "74237", LBIS.L["Wrist"]) --Enchant Bracer - Exceptional Spirit
-LBIS:AddEnchant(spec2, "55628", LBIS.L["Wrist"]) --Socket Bracer
-LBIS:AddEnchant(spec2, "82175", LBIS.L["Hands"]) --Synapse Springs
-LBIS:AddEnchant(spec2, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
-LBIS:AddEnchant(spec2, "74198", LBIS.L["Hands"]) --Enchant Gloves - Haste
-LBIS:AddEnchant(spec2, "74132", LBIS.L["Hands"]) --Enchant Gloves - Mastery
-LBIS:AddEnchant(spec2, "55641", LBIS.L["Hands"]) --Socket Gloves
-LBIS:AddEnchant(spec2, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
-LBIS:AddEnchant(spec2, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec2, "75150", LBIS.L["Legs"]) --Powerful Ghostly Spellthread
-LBIS:AddEnchant(spec2, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
-LBIS:AddEnchant(spec2, "74199", LBIS.L["Feet"]) --Enchant Boots - Haste
-LBIS:AddEnchant(spec2, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
-LBIS:AddEnchant(spec2, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect
-LBIS:AddEnchant(spec2, "74242", LBIS.L["Main Hand"]) --Enchant Weapon - Power Torrent
-LBIS:AddEnchant(spec2, "74225", LBIS.L["Main Hand"]) --Enchant Weapon - Heartsong
-LBIS:AddEnchant(spec2, "74235", LBIS.L["Off Hand"]) --Enchant Off-Hand - Superior Intellect
+LBIS:AddEnchant(spec3, "86932", LBIS.L["Head"]) --Arcanum of Hyjal
+LBIS:AddEnchant(spec3, "86899", LBIS.L["Shoulder"]) --Greater Inscription of Charged Lodestone
+LBIS:AddEnchant(spec3, "86403", LBIS.L["Shoulder"]) --Felfire Inscription
+LBIS:AddEnchant(spec3, "75172", LBIS.L["Back"]) --Lightweave Embroidery
+LBIS:AddEnchant(spec3, "74240", LBIS.L["Back"]) --Enchant Cloak - Greater Intellect
+LBIS:AddEnchant(spec3, "55002", LBIS.L["Back"]) --Flexweave Underlay
+LBIS:AddEnchant(spec3, "52639", LBIS.L["Back"]) --Spring Loaded Cloak Expander
+LBIS:AddEnchant(spec3, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
+LBIS:AddEnchant(spec3, "74191", LBIS.L["Chest"]) --Enchant Chest - Mighty Stats
+LBIS:AddEnchant(spec3, "60692", LBIS.L["Chest"]) --Enchant Chest - Powerful Stats
+LBIS:AddEnchant(spec3, "96262", LBIS.L["Wrist"]) --Enchant Bracer - Mighty Intellect
+LBIS:AddEnchant(spec3, "85010", LBIS.L["Wrist"]) --Draconic Embossment - Intellect
+LBIS:AddEnchant(spec3, "74237", LBIS.L["Wrist"]) --Enchant Bracer - Exceptional Spirit
+LBIS:AddEnchant(spec3, "55628", LBIS.L["Wrist"]) --Socket Bracer
+LBIS:AddEnchant(spec3, "82175", LBIS.L["Hands"]) --Synapse Springs
+LBIS:AddEnchant(spec3, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
+LBIS:AddEnchant(spec3, "74198", LBIS.L["Hands"]) --Enchant Gloves - Haste
+LBIS:AddEnchant(spec3, "74132", LBIS.L["Hands"]) --Enchant Gloves - Mastery
+LBIS:AddEnchant(spec3, "55641", LBIS.L["Hands"]) --Socket Gloves
+LBIS:AddEnchant(spec3, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
+LBIS:AddEnchant(spec3, "55016", LBIS.L["Waist"]) --Nitro Boosts
+LBIS:AddEnchant(spec3, "75150", LBIS.L["Legs"]) --Powerful Ghostly Spellthread
+LBIS:AddEnchant(spec3, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
+LBIS:AddEnchant(spec3, "74199", LBIS.L["Feet"]) --Enchant Boots - Haste
+LBIS:AddEnchant(spec3, "47901", LBIS.L["Feet"]) --Enchant Boots - Tuskarr's Vitality
+LBIS:AddEnchant(spec3, "26023", LBIS.L["Feet"]) --Pursuit of Justice
+LBIS:AddEnchant(spec3, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect
+LBIS:AddEnchant(spec3, "74242", LBIS.L["Main Hand"]) --Enchant Weapon - Power Torrent
+LBIS:AddEnchant(spec3, "74225", LBIS.L["Main Hand"]) --Enchant Weapon - Heartsong
+LBIS:AddEnchant(spec3, "74235", LBIS.L["Off Hand"]) --Enchant Off-Hand - Superior Intellect
 
 LBIS:AddItem(spec0, "59448", LBIS.L["Head"], "BIS") --Specialized Bio-Optic Killshades
 LBIS:AddItem(spec0, "60359", LBIS.L["Head"], "BIS") --Reinforced Sapphirium Headguard
@@ -309,3 +311,68 @@ LBIS:AddItem(spec2, "56350", LBIS.L["Ranged/Relic"], "Alt") --Book of Dark Proph
 LBIS:AddItem(spec2, "63487", LBIS.L["Ranged/Relic"], "Alt") --Book of the Well Sung Song
 LBIS:AddItem(spec2, "56372", LBIS.L["Ranged/Relic"], "Alt") --Captured Lightning
 LBIS:AddItem(spec2, "62244", LBIS.L["Ranged/Relic"], "Alt") --Tattooed Eyeball
+
+LBIS:AddItem(spec3, "71519", LBIS.L["Head"], "BIS") --Immolation Headguard
+LBIS:AddItem(spec3, "71465", LBIS.L["Head"], "BIS") --Casque of Flame
+LBIS:AddItem(spec3, "71093", LBIS.L["Head"], "Alt") --Immolation Headguard
+LBIS:AddItem(spec3, "71342", LBIS.L["Head"], "Alt") --Casque of Flame
+LBIS:AddItem(spec3, "71521", LBIS.L["Shoulder"], "BIS") --Immolation Mantle
+LBIS:AddItem(spec3, "71413", LBIS.L["Shoulder"], "BIS") --Spaulders of Manifold Eyes
+LBIS:AddItem(spec3, "71095", LBIS.L["Shoulder"], "Alt") --Immolation Mantle
+LBIS:AddItem(spec3, "71043", LBIS.L["Shoulder"], "Alt") --Spaulders of Manifold Eyes
+LBIS:AddItem(spec3, "60232", LBIS.L["Back"], "BIS") --Shroud of Endless Grief
+LBIS:AddItem(spec3, "71434", LBIS.L["Back"], "BIS") --Wings of Flame
+LBIS:AddItem(spec3, "71229", LBIS.L["Back"], "Alt") --Flowing Flamewrath Cape
+LBIS:AddItem(spec3, "59516", LBIS.L["Back"], "Alt") --Drape of the Twins
+LBIS:AddItem(spec3, "71517", LBIS.L["Chest"], "BIS") --Immolation Breastplate
+LBIS:AddItem(spec3, "71439", LBIS.L["Chest"], "BIS") --Clutch of the Firemother
+LBIS:AddItem(spec3, "71091", LBIS.L["Chest"], "Alt") --Immolation Breastplate
+LBIS:AddItem(spec3, "70988", LBIS.L["Chest"], "Alt") --Clutch of the Firemother
+LBIS:AddItem(spec3, "71452", LBIS.L["Wrist"], "BIS") --Bracers of the Dread Hunter
+LBIS:AddItem(spec3, "60234", LBIS.L["Wrist"], "Alt") --Bindings of Bleak Betrayal
+LBIS:AddItem(spec3, "71260", LBIS.L["Wrist"], "Alt") --Bracers of Imperious Truths
+LBIS:AddItem(spec3, "71026", LBIS.L["Wrist"], "Alt") --Bracers of the Dread Hunter
+LBIS:AddItem(spec3, "71518", LBIS.L["Hands"], "BIS") --Immolation Gloves
+LBIS:AddItem(spec3, "71426", LBIS.L["Hands"], "BIS") --Grips of the Raging Giant
+LBIS:AddItem(spec3, "69938", LBIS.L["Hands"], "Alt") --Holy Flame Gauntlets
+LBIS:AddItem(spec3, "71007", LBIS.L["Hands"], "Alt") --Grips of the Raging Giant
+LBIS:AddItem(spec3, "71092", LBIS.L["Hands"], "Alt") --Immolation Gloves
+LBIS:AddItem(spec3, "65375", LBIS.L["Waist"], "BIS") --Tempest Keeper Belt
+LBIS:AddItem(spec3, "71253", LBIS.L["Waist"], "BIS") --Belt of the Seven Seals
+LBIS:AddItem(spec3, "62448", LBIS.L["Waist"], "Alt") --Sun King's Girdle
+LBIS:AddItem(spec3, "59450", LBIS.L["Waist"], "Alt") --Belt of the Blackhand
+LBIS:AddItem(spec3, "71520", LBIS.L["Legs"], "BIS") --Immolation Greaves
+LBIS:AddItem(spec3, "71453", LBIS.L["Legs"], "BIS") --Legplates of Absolute Control
+LBIS:AddItem(spec3, "71094", LBIS.L["Legs"], "Alt") --Immolation Greaves
+LBIS:AddItem(spec3, "71028", LBIS.L["Legs"], "Alt") --Legplates of Absolute Control
+LBIS:AddItem(spec3, "71475", LBIS.L["Feet"], "BIS") --Treads of the Penitent Man
+LBIS:AddItem(spec3, "69948", LBIS.L["Feet"], "Alt") --Emberforged Elementium Boots
+LBIS:AddItem(spec3, "71351", LBIS.L["Feet"], "Alt") --Treads of the Penitent Man
+LBIS:AddItem(spec3, "71472", LBIS.L["Neck"], "BIS") --Flowform Choker
+LBIS:AddItem(spec3, "71423", LBIS.L["Neck"], "Alt") --Heartstone of Rhyolith
+LBIS:AddItem(spec3, "71348", LBIS.L["Neck"], "Alt") --Flowform Choker
+LBIS:AddItem(spec3, "71012", LBIS.L["Neck"], "Alt") --Heartstone of Rhyolith
+LBIS:AddItem(spec3, "71237", LBIS.L["Ring"], "BIS") --Quicksilver Signet of the Avengers
+LBIS:AddItem(spec3, "71211", LBIS.L["Ring"], "BIS") --Soothing Brimstone Circle
+LBIS:AddItem(spec3, "71449", LBIS.L["Ring"], "Alt") --Crystal Prison Band
+LBIS:AddItem(spec3, "65373", LBIS.L["Ring"], "Alt") --Planetary Band
+LBIS:AddItem(spec3, "65076", LBIS.L["Ring"], "Alt") --Security Measure Alpha
+LBIS:AddItem(spec3, "69111", LBIS.L["Trinket"], "BIS") --Jaws of Defeat
+LBIS:AddItem(spec3, "65124", LBIS.L["Trinket"], "BIS") --Fall of Mortality
+LBIS:AddItem(spec3, "69149", LBIS.L["Trinket"], "Alt") --Eye of Blazing Power
+LBIS:AddItem(spec3, "68926", LBIS.L["Trinket"], "Alt") --Jaws of Defeat
+LBIS:AddItem(spec3, "62050", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Tsunami
+LBIS:AddItem(spec3, "64645", LBIS.L["Trinket"], "Alt") --Tyrande's Favorite Doll
+LBIS:AddItem(spec3, "59500", LBIS.L["Trinket"], "Alt") --Fall of Mortality
+LBIS:AddItem(spec3, "68983", LBIS.L["Trinket"], "Alt") --Eye of Blazing Power
+LBIS:AddItem(spec3, "68777", LBIS.L["Trinket"], "Alt") --Vibrant Alchemist Stone
+LBIS:AddItem(spec3, "71615", LBIS.L["Main Hand"], "BIS") --Ko'gun, Hammer of the Firelord
+LBIS:AddItem(spec3, "71777", LBIS.L["Main Hand"], "Alt") --Eye of Purification
+LBIS:AddItem(spec3, "71355", LBIS.L["Main Hand"], "Alt") --Ko'gun, Hammer of the Firelord
+LBIS:AddItem(spec3, "71776", LBIS.L["Main Hand"], "Alt") --Eye of Purification
+LBIS:AddItem(spec3, "71408", LBIS.L["Off Hand"], "BIS") --Ward of the Red Widow
+LBIS:AddItem(spec3, "71448", LBIS.L["Off Hand"], "BIS") --Goblet of Anger
+LBIS:AddItem(spec3, "71038", LBIS.L["Off Hand"], "Alt") --Ward of the Red Widow
+LBIS:AddItem(spec3, "71022", LBIS.L["Off Hand"], "Alt") --Goblet of Anger
+LBIS:AddItem(spec3, "71577", LBIS.L["Ranged/Relic"], "BIS") --Singed Plume of Aviana
+LBIS:AddItem(spec3, "71149", LBIS.L["Ranged/Relic"], "Alt") --Singed Plume of Aviana

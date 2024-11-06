@@ -2,6 +2,7 @@ LBIS.EnchantSources =
 {
     [2823] = { Name = "Deadly Poison", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Rogue Skill"], SourceLocation = "", TextureId = "2892" },
     [8679] = { Name = "Instant Poison", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Rogue Skill"], SourceLocation = "", TextureId = "6947" },
+    [26023] = { Name = "Pursuit of Justice", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Paladin Skill"], SourceLocation = "", TextureId = "" },
     [44494] = { Name = "Enchant Cloak - Superior Nature Resistance", DesignId = "37333", ScrollId = "0", Source = LBIS.L["Cult Alchemist"], SourceLocation = LBIS.L["Icecrown"], TextureId = "38956" },
     [44529] = { Name = "Enchant Gloves - Major Agility", DesignId = "38967", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [44575] = { Name = "Enchant Bracer - Greater Assault", DesignId = "44815", ScrollId = "0", Source = LBIS.L["Shard Trader"], SourceLocation = LBIS.L["Dalaran"], TextureId = "44815" },
@@ -20,6 +21,7 @@ LBIS.EnchantSources =
     [60692] = { Name = "Enchant Chest - Powerful Stats", DesignId = "44489", ScrollId = "0", Source = LBIS.L["Shard Trader"], SourceLocation = LBIS.L["Dalaran"], TextureId = "" },
     [62158] = { Name = "Rune of the Stoneskin Gargoyle", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Death Knight Skill"], SourceLocation = "", TextureId = "" },
     [62256] = { Name = "Enchant Bracer - Major Stamina", DesignId = "44944", ScrollId = "0", Source = LBIS.L["Shard Trader"], SourceLocation = LBIS.L["Dalaran"], TextureId = "" },
+    [68766] = { Name = "Arcanum of the Ramkahen", DesignId = "99999", ScrollId = "0", Source = unknown, SourceLocation = unknown, TextureId = "" },
     [74132] = { Name = "Enchant Gloves - Mastery", DesignId = "52687", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74189] = { Name = "Enchant Boots - Earthen Vitality", DesignId = "52743", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [74191] = { Name = "Enchant Chest - Mighty Stats", DesignId = "52744", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },

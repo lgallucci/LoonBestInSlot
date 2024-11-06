@@ -43,7 +43,7 @@ internal class DeathKnightUnholyMapping : SpecMapping
             { ("Ring", "#rings-for-unholy-death-knight-dps") },
             { ("Trinket", "#trinkets-for-unholy-death-knight-dps") },
             { ("Two Hand", "#weapons-for-unholy-death-knight-dps") },
-            { ("Ranged/Relic", "#sigils-for-unholy-death-knight-dps") },
+            { ("Ranged/Relic", "#relics-for-unholy-death-knight-dps") },
         };
 
     public override string GemsEnchantsUrl => "dps-enchants-gems-pve";

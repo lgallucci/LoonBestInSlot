@@ -14,24 +14,24 @@ LBIS:AddGem(spec0, "52214", "3", "False") --Fierce Ember Topaz
 LBIS:AddGem(spec0, "52213", "3", "False") --Etched Demonseye
 LBIS:AddGem(spec1, "52222", "3", "False") --Inscribed Ember Topaz
 
-LBIS:AddEnchant(spec2, "86933", LBIS.L["Head"]) --Arcanum of the Dragonmaw
-LBIS:AddEnchant(spec2, "86901", LBIS.L["Shoulder"]) --Greater Inscription of Jagged Stone
-LBIS:AddEnchant(spec2, "86401", LBIS.L["Shoulder"]) --Lionsmane Inscription
-LBIS:AddEnchant(spec2, "75178", LBIS.L["Back"]) --Swordguard Embroidery
-LBIS:AddEnchant(spec2, "74247", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
-LBIS:AddEnchant(spec2, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
-LBIS:AddEnchant(spec2, "96261", LBIS.L["Wrist"]) --Enchant Bracer - Major Strength
-LBIS:AddEnchant(spec2, "85009", LBIS.L["Wrist"]) --Draconic Embossment - Strength
-LBIS:AddEnchant(spec2, "82175", LBIS.L["Hands"]) --Synapse Springs
-LBIS:AddEnchant(spec2, "74254", LBIS.L["Hands"]) --Enchant Gloves - Mighty Strength
-LBIS:AddEnchant(spec2, "74212", LBIS.L["Hands"]) --Enchant Gloves - Exceptional Strength
-LBIS:AddEnchant(spec2, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
-LBIS:AddEnchant(spec2, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec2, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
-LBIS:AddEnchant(spec2, "78169", LBIS.L["Legs"]) --Scorched Leg Armor
-LBIS:AddEnchant(spec2, "74199", LBIS.L["Feet"]) --Enchant Boots - Haste
-LBIS:AddEnchant(spec2, "74215", LBIS.L["Ring"]) --Enchant Ring - Strength
-LBIS:AddEnchant(spec2, "53344", LBIS.L["Two Hand"]) --Rune of the Fallen Crusader
+LBIS:AddEnchant(spec3, "86933", LBIS.L["Head"]) --Arcanum of the Dragonmaw
+LBIS:AddEnchant(spec3, "86901", LBIS.L["Shoulder"]) --Greater Inscription of Jagged Stone
+LBIS:AddEnchant(spec3, "86401", LBIS.L["Shoulder"]) --Lionsmane Inscription
+LBIS:AddEnchant(spec3, "75178", LBIS.L["Back"]) --Swordguard Embroidery
+LBIS:AddEnchant(spec3, "74247", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
+LBIS:AddEnchant(spec3, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
+LBIS:AddEnchant(spec3, "96261", LBIS.L["Wrist"]) --Enchant Bracer - Major Strength
+LBIS:AddEnchant(spec3, "85009", LBIS.L["Wrist"]) --Draconic Embossment - Strength
+LBIS:AddEnchant(spec3, "82175", LBIS.L["Hands"]) --Synapse Springs
+LBIS:AddEnchant(spec3, "74254", LBIS.L["Hands"]) --Enchant Gloves - Mighty Strength
+LBIS:AddEnchant(spec3, "74212", LBIS.L["Hands"]) --Enchant Gloves - Exceptional Strength
+LBIS:AddEnchant(spec3, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
+LBIS:AddEnchant(spec3, "55016", LBIS.L["Waist"]) --Nitro Boosts
+LBIS:AddEnchant(spec3, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
+LBIS:AddEnchant(spec3, "78169", LBIS.L["Legs"]) --Scorched Leg Armor
+LBIS:AddEnchant(spec3, "74199", LBIS.L["Feet"]) --Enchant Boots - Haste
+LBIS:AddEnchant(spec3, "74215", LBIS.L["Ring"]) --Enchant Ring - Strength
+LBIS:AddEnchant(spec3, "53344", LBIS.L["Two Hand"]) --Rune of the Fallen Crusader
 
 LBIS:AddItem(spec0, "60341", LBIS.L["Head"], "BIS") --Magma Plated Helmet
 LBIS:AddItem(spec0, "59359", LBIS.L["Head"], "Alt") --Reinforced Bio-Optic Killshades
@@ -199,3 +199,54 @@ LBIS:AddItem(spec2, "65145", LBIS.L["Two Hand"], "Alt") --Shalug'doom, the Axe o
 LBIS:AddItem(spec2, "63679", LBIS.L["Two Hand"], "Alt") --Reclaimed Ashkandi, Greatsword of the Brotherhood
 LBIS:AddItem(spec2, "64674", LBIS.L["Ranged/Relic"], "BIS") --Relic of Aggramar
 LBIS:AddItem(spec2, "56279", LBIS.L["Ranged/Relic"], "Alt") --Conch of Thundering Waves
+
+LBIS:AddItem(spec3, "71478", LBIS.L["Head"], "BIS") --Elementium Deathplate Helmet
+LBIS:AddItem(spec3, "65181", LBIS.L["Head"], "BIS") --Magma Plated Helmet
+LBIS:AddItem(spec3, "71430", LBIS.L["Head"], "Alt") --Greathelm of the Voracious Maw
+LBIS:AddItem(spec3, "71480", LBIS.L["Shoulder"], "BIS") --Elementium Deathplate Pauldrons
+LBIS:AddItem(spec3, "65183", LBIS.L["Shoulder"], "BIS") --Magma Plated Pauldrons
+LBIS:AddItem(spec3, "65142", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Great Ettin
+LBIS:AddItem(spec3, "65117", LBIS.L["Back"], "BIS") --Glittering Epidermis
+LBIS:AddItem(spec3, "69879", LBIS.L["Back"], "Alt") --Cloudburst Cloak
+LBIS:AddItem(spec3, "71227", LBIS.L["Back"], "Alt") --Bladed Flamewrath Cover
+LBIS:AddItem(spec3, "71476", LBIS.L["Chest"], "BIS") --Elementium Deathplate Breastplate
+LBIS:AddItem(spec3, "71469", LBIS.L["Chest"], "BIS") --Breastplate of Shifting Visions
+LBIS:AddItem(spec3, "65179", LBIS.L["Chest"], "BIS") --Magma Plated Battleplate
+LBIS:AddItem(spec3, "71418", LBIS.L["Wrist"], "BIS") --Earthcrack Bracers
+LBIS:AddItem(spec3, "60228", LBIS.L["Wrist"], "BIS") --Bracers of the Mat'redor
+LBIS:AddItem(spec3, "71261", LBIS.L["Wrist"], "Alt") --Gigantiform Bracers
+LBIS:AddItem(spec3, "71477", LBIS.L["Hands"], "BIS") --Elementium Deathplate Gauntlets
+LBIS:AddItem(spec3, "65180", LBIS.L["Hands"], "BIS") --Magma Plated Gauntlets
+LBIS:AddItem(spec3, "71419", LBIS.L["Hands"], "Alt") --Fireskin Gauntlets
+LBIS:AddItem(spec3, "69936", LBIS.L["Hands"], "Alt") --Fists of Fury
+LBIS:AddItem(spec3, "71250", LBIS.L["Waist"], "BIS") --Cinch of the Flaming Ember
+LBIS:AddItem(spec3, "65369", LBIS.L["Waist"], "BIS") --Sky Strider Belt
+LBIS:AddItem(spec3, "71431", LBIS.L["Legs"], "BIS") --Lavaworm Legplates
+LBIS:AddItem(spec3, "71479", LBIS.L["Legs"], "BIS") --Elementium Deathplate Greaves
+LBIS:AddItem(spec3, "65379", LBIS.L["Legs"], "BIS") --Sky Strider Greaves
+LBIS:AddItem(spec3, "71061", LBIS.L["Legs"], "Alt") --Elementium Deathplate Greaves
+LBIS:AddItem(spec3, "71404", LBIS.L["Feet"], "BIS") --Arachnaflame Treads
+LBIS:AddItem(spec3, "65075", LBIS.L["Feet"], "BIS") --Massacre Treads
+LBIS:AddItem(spec3, "69946", LBIS.L["Feet"], "Alt") --Warboots of Mighty Lords
+LBIS:AddItem(spec3, "71446", LBIS.L["Neck"], "BIS") --Necklace of Fetishes
+LBIS:AddItem(spec3, "60227", LBIS.L["Neck"], "BIS") --Caelestrasz's Will
+LBIS:AddItem(spec3, "71212", LBIS.L["Neck"], "Alt") --Stoneheart Choker
+LBIS:AddItem(spec3, "69885", LBIS.L["Neck"], "Alt") --Cloudburst Necklace
+LBIS:AddItem(spec3, "71433", LBIS.L["Ring"], "BIS") --Alysrazor's Band
+LBIS:AddItem(spec3, "71215", LBIS.L["Ring"], "BIS") --Obsidian Signet of the Avengers
+LBIS:AddItem(spec3, "60226", LBIS.L["Ring"], "BIS") --Dargonax's Signet
+LBIS:AddItem(spec3, "71208", LBIS.L["Ring"], "Alt") --Serrated Brimstone Signet
+LBIS:AddItem(spec3, "65382", LBIS.L["Ring"], "Alt") --Cloudburst Ring
+LBIS:AddItem(spec3, "69167", LBIS.L["Trinket"], "BIS") --Vessel of Acceleration
+LBIS:AddItem(spec3, "65072", LBIS.L["Trinket"], "BIS") --Heart of Rage
+LBIS:AddItem(spec3, "56393", LBIS.L["Trinket"], "BIS") --Heart of Solace
+LBIS:AddItem(spec3, "65118", LBIS.L["Trinket"], "BIS") --Crushing Weight
+LBIS:AddItem(spec3, "69113", LBIS.L["Trinket"], "Alt") --Apparatus of Khaz'goroth
+LBIS:AddItem(spec3, "70723", LBIS.L["Two Hand"], "BIS") --Sulfuras, the Extinguished Hand
+LBIS:AddItem(spec3, "65003", LBIS.L["Two Hand"], "BIS") --Reclaimed Ashkandi, Greatsword of the Brotherhood
+LBIS:AddItem(spec3, "71781", LBIS.L["Two Hand"], "Alt") --Zoid's Firelit Greatsword
+LBIS:AddItem(spec3, "71445", LBIS.L["Two Hand"], "Alt") --Skullstealer Greataxe
+LBIS:AddItem(spec3, "71587", LBIS.L["Ranged/Relic"], "BIS") --Relic of the Elemental Lords
+LBIS:AddItem(spec3, "64674", LBIS.L["Ranged/Relic"], "BIS") --Relic of Aggramar
+LBIS:AddItem(spec3, "71147", LBIS.L["Ranged/Relic"], "Alt") --Relic of the Elemental Lords
+LBIS:AddItem(spec3, "70125", LBIS.L["Ranged/Relic"], "Alt") --Relic of Lo'Gosh
