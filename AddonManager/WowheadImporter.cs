@@ -37,6 +37,55 @@ public static class WowheadImporter
     { "Head", "Shoulder", "Back", "Chest", "Wrist", "Hands", "Waist", "Legs", "Feet", "Neck", "Ring",
     "Trinket", "Main Hand", "Off Hand", "Main Hand~Off Hand", "Two Hand", "Main Hand~Two Hand", "Ranged/Relic"};
 
+    private static HashSet<int> _tierPieces = new HashSet<int>
+    {
+        //Tier 11
+        63682, //Helm of the Forlorn Vanquisher
+        63683, //Helm of the Forlorn Conqueror
+        63684, //Helm of the Forlorn Protector
+        64314, //Mantle of the Forlorn Vanquisher
+        64315, //Mantle of the Forlorn Conqueror
+        64316, //Mantle of the Forlorn Protector
+        65000, //Crown of the Forlorn Protector
+        65001, //Crown of the Forlorn Conqueror
+        65002, //Crown of the Forlorn Vanquisher
+        65087, //Shoulders of the Forlorn Protector
+        65088, //Shoulders of the Forlorn Conqueror
+        65089, //Shoulders of the Forlorn Vanquisher
+        67423, //Chest of the Forlorn Conqueror
+        67424, //Chest of the Forlorn Protector
+        67425, //Chest of the Forlorn Vanquisher
+        67426, //Leggings of the Forlorn Vanquisher
+        67427, //Leggings of the Forlorn Protector
+        67428, //Leggings of the Forlorn Conqueror
+        67429, //Gauntlets of the Forlorn Conqueror
+        67430, //Gauntlets of the Forlorn Protector
+        67431, //Gauntlets of the Forlorn Vanquisher
+
+        //Tier 12
+        71668, //Helm of the Fiery Vanquisher
+        71669, //Gauntlets of the Fiery Vanquisher
+        71670, //Crown of the Fiery Vanquisher
+        71671, //Leggings of the Fiery Vanquisher
+        71672, //Chest of the Fiery Vanquisher
+        71673, //Shoulders of the Fiery Vanquisher
+        71674, //Mantle of the Fiery Vanquisher
+        71675, //Helm of the Fiery Conqueror
+        71676, //Gauntlets of the Fiery Conqueror
+        71677, //Crown of the Fiery Conqueror
+        71678, //Leggings of the Fiery Conqueror
+        71679, //Chest of the Fiery Conqueror
+        71680, //Shoulders of the Fiery Conqueror
+        71681, //Mantle of the Fiery Conqueror
+        71682, //Helm of the Fiery Protector
+        71683, //Gauntlets of the Fiery Protector
+        71684, //Crown of the Fiery Protector
+        71685, //Leggings of the Fiery Protector
+        71686, //Chest of the Fiery Protector
+        71687, //Shoulders of the Fiery Protector
+        71688, //Mantle of the Fiery Protector
+    };
+
     public static bool VerifyGuide(List<ItemSpec> items)
     {
         bool verificationSucceeded = true;
@@ -405,7 +454,7 @@ public static class WowheadImporter
         GetItems(csvLootTable, "ProfessionItemList");
         GetItems(csvLootTable, "VendorItemList");
 
-        var tokenKeys = UpdateTierPieces(csvLootTable, itemSources);
+        UpdateTierPieces(csvLootTable, itemSources);
 
         foreach (var csvItem in csvLootTable)
         {
@@ -451,12 +500,11 @@ public static class WowheadImporter
                     itemSources[csvItem.Key].SourceNumber = string.Join("~", csvItem.Value.ItemSource.Select(s => s.SourceNumber));
                     itemSources[csvItem.Key].SourceLocation = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceLocation)));
                     itemSources[csvItem.Key].SourceFaction = string.Join("..\"~\"..", csvItem.Value.ItemSource.First().SourceFaction);
-
-                    if (tokenKeys.Contains(csvItem.Key) && csvItem.Key != 47242)
-                    {
-                        itemSources[csvItem.Key].SourceType = "LBIS.L[\"Token\"]";
-                    }
                 }
+            }
+            if (_tierPieces.Contains(csvItem.Key))
+            {
+                itemSources[csvItem.Key].SourceType = "LBIS.L[\"Token\"]";
             }
         }
 
@@ -610,19 +658,15 @@ public static class WowheadImporter
         return sb.ToString();
     }
 
-    private static HashSet<int> UpdateTierPieces(Dictionary<int, CsvLootTable> csvLootTable, SortedDictionary<int, ItemSource> itemSources)
+    private static void UpdateTierPieces(Dictionary<int, CsvLootTable> csvLootTable, SortedDictionary<int, ItemSource> itemSources)
     {
         var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\TierSetList.json");
         DatabaseItems tierPieces = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
 
-        var tokenKeys = new HashSet<int>();
         foreach (var tierPiece in tierPieces.Items)
         {
             var tokenKey = Int32.Parse(tierPiece.Value.SourceNumber.Split("~")[0]);
-            if (!tokenKeys.Contains(tokenKey))
-            {
-                tokenKeys.Add(tokenKey);
-            }
+
             if (itemSources.ContainsKey(tierPiece.Key))
             {
                 if (csvLootTable.ContainsKey(tierPiece.Key))
@@ -664,7 +708,6 @@ public static class WowheadImporter
                 }
             }
         }
-        return tokenKeys;
     }
 
     private static void GetItems(Dictionary<int, CsvLootTable> csvLootTable, string fileName)
