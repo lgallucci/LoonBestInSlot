@@ -113,7 +113,14 @@ public class WowheadGuideParser
         { 226459, 86854 }, //Greater Inscription of Unbreakable Quartz
         { 226460, 86907 }, //Greater Inscription of Shattered Crystal
         { 226462, 86901 }, //Greater Inscription of Jagged Stone
+        { 68785, 96261 }, //Enchant Bracer - Major Strength
      };
+
+    private List<int> _excludeEnchants = new List<int>() 
+    {
+        68779,
+        52294
+    };
 
     private Dictionary<int, string> _itemSwaps = new Dictionary<int, string>()
     {
@@ -338,7 +345,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
             var itemId = Int32.Parse(item);
             bool skippedItem = false;
             foreach (var excludedName in excludedItemNames)
-                if (itemName.EndsWith(excludedName))
+                if (itemName.EndsWith(excludedName) || _excludeEnchants.Contains(itemId))
                     skippedItem = true;
             if (!skippedItem)
             {

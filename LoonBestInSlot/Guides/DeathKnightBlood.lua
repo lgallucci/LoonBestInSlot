@@ -6,6 +6,7 @@ local spec4 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "4")
 
 LBIS:AddGem(spec0, "52294", "3", "True") --Austere Shadowspirit Diamond
 LBIS:AddGem(spec1, "52295", "3", "True") --Effulgent Shadowspirit Diamond
+LBIS:AddGem(spec1, "68779", "3", "True") --Reverberating Shadowspirit Diamond
 LBIS:AddGem(spec0, "59480", "3", "False") --Fractured Cogwheel
 LBIS:AddGem(spec0, "59493", "3", "False") --Rigid Cogwheel
 LBIS:AddGem(spec0, "52221", "3", "False") --Guardian's Demonseye

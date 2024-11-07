@@ -33,8 +33,8 @@ LBIS:AddEnchant(spec3, "78169", LBIS.L["Legs"]) --Scorched Leg Armor
 LBIS:AddEnchant(spec3, "74238", LBIS.L["Feet"]) --Enchant Boots - Mastery
 LBIS:AddEnchant(spec3, "74199", LBIS.L["Feet"]) --Enchant Boots - Haste
 LBIS:AddEnchant(spec3, "74215", LBIS.L["Ring"]) --Enchant Ring - Strength
+LBIS:AddEnchant(spec3, "53344", LBIS.L["Main Hand~Off Hand~Two Hand"]) --Rune of the Fallen Crusader
 LBIS:AddEnchant(spec3, "53343", LBIS.L["Main Hand"]) --Rune of Razorice
-LBIS:AddEnchant(spec3, "53344", LBIS.L["Off Hand~Two Hand"]) --Rune of the Fallen Crusader
 
 LBIS:AddItem(spec0, "60341", LBIS.L["Head"], "BIS") --Magma Plated Helmet
 LBIS:AddItem(spec0, "59359", LBIS.L["Head"], "Alt") --Reinforced Bio-Optic Killshades
