@@ -1063,6 +1063,766 @@
       "SourceNumber": "65087",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
+    },
+    "71476": {
+      "Name": "Elementium Deathplate Breastplate",
+      "Source": "Chest of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71058~71672",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71477": {
+      "Name": "Elementium Deathplate Gauntlets",
+      "Source": "Gauntlets of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71059~71669",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71478": {
+      "Name": "Elementium Deathplate Helmet",
+      "Source": "Crown of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71479": {
+      "Name": "Elementium Deathplate Greaves",
+      "Source": "Leggings of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71061~71671",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71480": {
+      "Name": "Elementium Deathplate Pauldrons",
+      "Source": "Shoulders of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71481": {
+      "Name": "Elementium Deathplate Chestguard",
+      "Source": "Chest of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "70955~71672",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71482": {
+      "Name": "Elementium Deathplate Handguards",
+      "Source": "Gauntlets of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "70953~71669",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71483": {
+      "Name": "Elementium Deathplate Faceguard",
+      "Source": "Crown of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71484": {
+      "Name": "Elementium Deathplate Legguards",
+      "Source": "Leggings of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "70952~71671",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71485": {
+      "Name": "Elementium Deathplate Shoulderguards",
+      "Source": "Shoulders of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71486": {
+      "Name": "Obsidian Arborweave Raiment",
+      "Source": "Chest of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71100~71672",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71487": {
+      "Name": "Obsidian Arborweave Grips",
+      "Source": "Gauntlets of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71097~71669",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71488": {
+      "Name": "Obsidian Arborweave Headpiece",
+      "Source": "Crown of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71489": {
+      "Name": "Obsidian Arborweave Legguards",
+      "Source": "Leggings of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71099~71671",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71490": {
+      "Name": "Obsidian Arborweave Spaulders",
+      "Source": "Shoulders of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71491": {
+      "Name": "Obsidian Arborweave Handwraps",
+      "Source": "Gauntlets of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71102~71669",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71492": {
+      "Name": "Obsidian Arborweave Helm",
+      "Source": "Crown of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71493": {
+      "Name": "Obsidian Arborweave Legwraps",
+      "Source": "Leggings of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71104~71671",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71494": {
+      "Name": "Obsidian Arborweave Tunic",
+      "Source": "Chest of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71105~71672",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71495": {
+      "Name": "Obsidian Arborweave Mantle",
+      "Source": "Shoulders of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71496": {
+      "Name": "Obsidian Arborweave Gloves",
+      "Source": "Gauntlets of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71107~71669",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71497": {
+      "Name": "Obsidian Arborweave Cover",
+      "Source": "Crown of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71498": {
+      "Name": "Obsidian Arborweave Leggings",
+      "Source": "Leggings of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71109~71671",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71499": {
+      "Name": "Obsidian Arborweave Vestment",
+      "Source": "Chest of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71110~71672",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71500": {
+      "Name": "Obsidian Arborweave Shoulderwraps",
+      "Source": "Shoulders of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71501": {
+      "Name": "Flamewaker's Tunic",
+      "Source": "Chest of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71054~71686",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71502": {
+      "Name": "Flamewaker's Gloves",
+      "Source": "Gauntlets of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71050~71683",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71503": {
+      "Name": "Flamewaker's Headguard",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71684",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71504": {
+      "Name": "Flamewaker's Legguards",
+      "Source": "Leggings of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71052~71685",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71505": {
+      "Name": "Flamewaker's Spaulders",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71687",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71507": {
+      "Name": "Firehawk Gloves",
+      "Source": "Gauntlets of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71286~71669",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71508": {
+      "Name": "Firehawk Hood",
+      "Source": "Crown of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71509": {
+      "Name": "Firehawk Leggings",
+      "Source": "Leggings of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71288~71671",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71510": {
+      "Name": "Firehawk Robes",
+      "Source": "Chest of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71289~71672",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71511": {
+      "Name": "Firehawk Mantle",
+      "Source": "Shoulders of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71512": {
+      "Name": "Immolation Battleplate",
+      "Source": "Chest of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71063~71679",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71513": {
+      "Name": "Immolation Gauntlets",
+      "Source": "Gauntlets of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71064~71676",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71514": {
+      "Name": "Immolation Helmet",
+      "Source": "Crown of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71677",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71515": {
+      "Name": "Immolation Legplates",
+      "Source": "Leggings of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71066~71678",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71516": {
+      "Name": "Immolation Pauldrons",
+      "Source": "Shoulders of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71680",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71517": {
+      "Name": "Immolation Breastplate",
+      "Source": "Chest of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71091~71679",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71518": {
+      "Name": "Immolation Gloves",
+      "Source": "Gauntlets of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71092~71676",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71519": {
+      "Name": "Immolation Headguard",
+      "Source": "Crown of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71677",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71520": {
+      "Name": "Immolation Greaves",
+      "Source": "Leggings of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71094~71678",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71521": {
+      "Name": "Immolation Mantle",
+      "Source": "Shoulders of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71680",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71522": {
+      "Name": "Immolation Chestguard",
+      "Source": "Chest of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "70950~71679",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71523": {
+      "Name": "Immolation Handguards",
+      "Source": "Gauntlets of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "70949~71676",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71524": {
+      "Name": "Immolation Faceguard",
+      "Source": "Crown of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71677",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71525": {
+      "Name": "Immolation Legguards",
+      "Source": "Leggings of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "70947~71678",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71526": {
+      "Name": "Immolation Shoulderguards",
+      "Source": "Shoulders of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71680",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71527": {
+      "Name": "Handwraps of the Cleansing Flame",
+      "Source": "Gauntlets of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71271~71676",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71528": {
+      "Name": "Cowl of the Cleansing Flame",
+      "Source": "Crown of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71677",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71529": {
+      "Name": "Legwraps of the Cleansing Flame",
+      "Source": "Leggings of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71273~71678",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71530": {
+      "Name": "Robes of the Cleansing Flame",
+      "Source": "Chest of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71274~71679",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71531": {
+      "Name": "Mantle of the Cleansing Flame",
+      "Source": "Shoulders of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71680",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71532": {
+      "Name": "Gloves of the Cleansing Flame",
+      "Source": "Gauntlets of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71276~71676",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71533": {
+      "Name": "Hood of the Cleansing Flame",
+      "Source": "Crown of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71677",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71534": {
+      "Name": "Leggings of the Cleansing Flame",
+      "Source": "Leggings of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71278~71678",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71535": {
+      "Name": "Vestment of the Cleansing Flame",
+      "Source": "Chest of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71279~71679",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71536": {
+      "Name": "Shoulderwraps of the Cleansing Flame",
+      "Source": "Shoulders of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71680",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71537": {
+      "Name": "Dark Phoenix Tunic",
+      "Source": "Chest of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71045~71672",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71538": {
+      "Name": "Dark Phoenix Gloves",
+      "Source": "Gauntlets of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71046~71669",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71539": {
+      "Name": "Dark Phoenix Helmet",
+      "Source": "Crown of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71540": {
+      "Name": "Dark Phoenix Legguards",
+      "Source": "Leggings of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71048~71671",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71541": {
+      "Name": "Dark Phoenix Spaulders",
+      "Source": "Shoulders of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71542": {
+      "Name": "Erupting Volcanic Tunic",
+      "Source": "Chest of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71296~71686",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71543": {
+      "Name": "Erupting Volcanic Handwraps",
+      "Source": "Gauntlets of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71297~71683",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71544": {
+      "Name": "Erupting Volcanic Faceguard",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71684",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71545": {
+      "Name": "Erupting Volcanic Legwraps",
+      "Source": "Leggings of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71299~71685",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71546": {
+      "Name": "Erupting Volcanic Mantle",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71687",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71547": {
+      "Name": "Erupting Volcanic Cuirass",
+      "Source": "Chest of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71301~71686",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71548": {
+      "Name": "Erupting Volcanic Grips",
+      "Source": "Gauntlets of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71302~71683",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71549": {
+      "Name": "Erupting Volcanic Helmet",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71684",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71550": {
+      "Name": "Erupting Volcanic Legguards",
+      "Source": "Leggings of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71304~71685",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71551": {
+      "Name": "Erupting Volcanic Spaulders",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71687",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71552": {
+      "Name": "Erupting Volcanic Hauberk",
+      "Source": "Chest of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71291~71686",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71553": {
+      "Name": "Erupting Volcanic Gloves",
+      "Source": "Gauntlets of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71292~71683",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71554": {
+      "Name": "Erupting Volcanic Headpiece",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71684",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71555": {
+      "Name": "Erupting Volcanic Kilt",
+      "Source": "Leggings of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71294~71685",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71556": {
+      "Name": "Erupting Volcanic Shoulderwraps",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71687",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71594": {
+      "Name": "Balespider's Handwraps",
+      "Source": "Gauntlets of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71281~71676",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71595": {
+      "Name": "Balespider's Hood",
+      "Source": "Crown of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71677",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71596": {
+      "Name": "Balespider's Leggings",
+      "Source": "Leggings of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71283~71678",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71597": {
+      "Name": "Balespider's Robes",
+      "Source": "Chest of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71284~71679",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71598": {
+      "Name": "Balespider's Mantle",
+      "Source": "Shoulders of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71680",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71599": {
+      "Name": "Helmet of the Molten Giant",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71684",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71600": {
+      "Name": "Battleplate of the Molten Giant",
+      "Source": "Chest of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71068~71686",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71601": {
+      "Name": "Gauntlets of the Molten Giant",
+      "Source": "Gauntlets of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71069~71683",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71602": {
+      "Name": "Legplates of the Molten Giant",
+      "Source": "Leggings of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71071~71685",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71603": {
+      "Name": "Pauldrons of the Molten Giant",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71687",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71604": {
+      "Name": "Chestguard of the Molten Giant",
+      "Source": "Chest of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "70945~71686",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71605": {
+      "Name": "Handguards of the Molten Giant",
+      "Source": "Gauntlets of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "70943~71683",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71606": {
+      "Name": "Faceguard of the Molten Giant",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71684",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71607": {
+      "Name": "Legguards of the Molten Giant",
+      "Source": "Leggings of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "70942~71685",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71608": {
+      "Name": "Shoulderguards of the Molten Giant",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71687",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
     }
   }
 }

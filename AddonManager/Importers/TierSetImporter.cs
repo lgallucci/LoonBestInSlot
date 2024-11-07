@@ -59,9 +59,10 @@ public class TierSetImporter : LootImporter
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToText)
     {
-        items.Items.Clear();
+        //items.Items.Clear();
 
-        return await ConvertArmorSets(armorTokenUris, writeToText);
+        await ConvertArmorSets(armorTokenUris, items, writeToText);
+        return items;
     }
 
     internal override string FileName { get { return "TierSetList"; } }
@@ -82,10 +83,8 @@ public class TierSetImporter : LootImporter
         return result;
     }
 
-    private async Task<DatabaseItems> ConvertArmorSets(List<string> uris, Action<string> writeToText)
+    private async Task ConvertArmorSets(List<string> uris, DatabaseItems items, Action<string> writeToText)
     {
-        var dbItems = new DatabaseItems();
-
         await Common.LoadFromWebPages(uris, (uri, doc) =>
         {
             var tableElement = doc.QuerySelector(".listview-mode-default");
@@ -148,9 +147,9 @@ public class TierSetImporter : LootImporter
                         {
                             Console.WriteLine("item is 0?");
                         }
-                        if (!dbItems.Items.ContainsKey(itemId))
+                        if (!items.Items.ContainsKey(itemId))
                         {
-                            dbItems.Items.Add(itemId, new DatabaseItem()
+                            items.Items.Add(itemId, new DatabaseItem()
                             {
                                 Name = cellAnchor.TextContent,
                                 Source = tokenName?.TextContent ?? string.Empty,
@@ -164,7 +163,5 @@ public class TierSetImporter : LootImporter
                 }
             }
         }, writeToText, _importCancelToken);
-
-        return dbItems;
     }
 }

@@ -1984,11 +1984,147 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
-    "234446": {
-      "Name": "Commendation of Service",
-      "Source": "Fissure Stone Fragment",
+    "70945": {
+      "Name": "Chestguard of the Molten Giant",
+      "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "1",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "70950": {
+      "Name": "Immolation Chestguard",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },    
+    "71045": {
+      "Name": "Dark Phoenix Tunic",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71054": {
+      "Name": "Flamewaker's Tunic",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71058": { 
+      "Name": "Elementium Deathplate Breastplate",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71063": {
+      "Name": "Immolation Battleplate",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71068": {
+      "Name": "Battleplate of the Molten Giant",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71091": {
+      "Name": "Immolation Breastplate",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    }, 
+    "71100": { 
+      "Name": "Obsidian Arborweave Raiment",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71105": {
+      "Name": "Obsidian Arborweave Tunic",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71110": {
+      "Name": "Obsidian Arborweave Vestment",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71274": {
+      "Name": "Robes of the Cleansing Flame",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    }, 
+    "71279": {
+      "Name": "Vestment of the Cleansing Flame",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },    
+    "71284":{
+      "Name": "Balespider's Robes",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71289": {
+      "Name": "Firehawk Robes",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71291": {
+      "Name": "Erupting Volcanic Hauberk",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71296": {
+      "Name": "Erupting Volcanic Tunic",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71301": {
+      "Name": "Erupting Volcanic Cuirass",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "-1",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     }
