@@ -19,8 +19,6 @@ LBIS:AddGem(spec0, "52218", "3", "False") --Forceful Dream Emerald
 
 LBIS:AddEnchant(spec3, "86933", LBIS.L["Head"]) --Arcanum of the Wildhammer
 LBIS:AddEnchant(spec3, "86931", LBIS.L["Head"]) --Arcanum of the Earthen Ring
-LBIS:AddEnchant(spec3, "68779", LBIS.L["Head"]) --Reverberating Shadowspirit Diamond
-LBIS:AddEnchant(spec3, "52294", LBIS.L["Head"]) --Austere Shadowspirit Diamond
 LBIS:AddEnchant(spec3, "86901", LBIS.L["Shoulder"]) --Greater Inscription of Jagged Stone
 LBIS:AddEnchant(spec3, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
 LBIS:AddEnchant(spec3, "86402", LBIS.L["Shoulder"]) --Inscription of the Earth Prince

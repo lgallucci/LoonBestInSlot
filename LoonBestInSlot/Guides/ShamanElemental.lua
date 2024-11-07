@@ -298,6 +298,7 @@ LBIS:AddItem(spec3, "65254", LBIS.L["Chest"], "Alt") --Hauberk of the Raging Ele
 LBIS:AddItem(spec3, "65004", LBIS.L["Chest"], "Alt") --Circuit Design Breastplate
 LBIS:AddItem(spec3, "56563", LBIS.L["Chest"], "Alt") --Twilight Scale Chestguard
 LBIS:AddItem(spec3, "71425", LBIS.L["Wrist"], "BIS") --Lava Line Wristbands
+LBIS:AddItem(spec3, "71263", LBIS.L["Wrist"], "Alt") --Bracers of Misting Ash
 LBIS:AddItem(spec3, "65068", LBIS.L["Wrist"], "Alt") --Chaos Beast Bracers
 LBIS:AddItem(spec3, "59310", LBIS.L["Wrist"], "Alt") --Chaos Beast Bracers
 LBIS:AddItem(spec3, "63486", LBIS.L["Wrist"], "Alt") --Shackles of the Betrayed

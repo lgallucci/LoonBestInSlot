@@ -284,8 +284,10 @@ LBIS:AddItem(spec3, "71524", LBIS.L["Head"], "Alt") --Immolation Faceguard
 LBIS:AddItem(spec3, "70916", LBIS.L["Head"], "Alt") --Helm of Blazing Glory
 LBIS:AddItem(spec3, "70948", LBIS.L["Head"], "Alt") --Immolation Faceguard
 LBIS:AddItem(spec3, "71526", LBIS.L["Shoulder"], "BIS") --Immolation Shoulderguards
+LBIS:AddItem(spec3, "71612", LBIS.L["Shoulder"], "Alt") --Pauldrons of Roaring Flame
 LBIS:AddItem(spec3, "71432", LBIS.L["Shoulder"], "Alt") --Spaulders of Recurring Flame
 LBIS:AddItem(spec3, "70946", LBIS.L["Shoulder"], "Alt") --Immolation Shoulderguards
+LBIS:AddItem(spec3, "70921", LBIS.L["Shoulder"], "Alt") --Pauldrons of Roaring Flame
 LBIS:AddItem(spec3, "70737", LBIS.L["Shoulder"], "Alt") --Spaulders of Recurring Flame
 LBIS:AddItem(spec3, "71415", LBIS.L["Back"], "BIS") --Dreadfire Drape
 LBIS:AddItem(spec3, "69878", LBIS.L["Back"], "Alt") --Permafrost Cape
