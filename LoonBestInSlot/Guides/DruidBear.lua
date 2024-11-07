@@ -5,12 +5,14 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "4")
 
 LBIS:AddGem(spec0, "52294", "3", "True") --Austere Shadowspirit Diamond
+LBIS:AddGem(spec1, "68778", "3", "True") --Agile Shadowspirit Diamond
 LBIS:AddGem(spec0, "59477", "3", "False") --Subtle Cogwheel
 LBIS:AddGem(spec0, "59480", "3", "False") --Fractured Cogwheel
 LBIS:AddGem(spec0, "52242", "3", "False") --Solid Ocean Sapphire
 LBIS:AddGem(spec0, "52233", "3", "False") --Regal Dream Emerald
 LBIS:AddGem(spec1, "52231", "3", "False") --Puissant Dream Emerald
 LBIS:AddGem(spec0, "52238", "3", "False") --Shifting Demonseye
+LBIS:AddGem(spec1, "52212", "3", "False") --Delicate Inferno Ruby
 
 LBIS:AddEnchant(spec3, "86934", LBIS.L["Head"]) --Arcanum of the Ramkahen
 LBIS:AddEnchant(spec3, "86931", LBIS.L["Head"]) --Arcanum of the Earthern Ring
@@ -27,6 +29,7 @@ LBIS:AddEnchant(spec3, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamin
 LBIS:AddEnchant(spec3, "82175", LBIS.L["Hands"]) --Synapse Springs
 LBIS:AddEnchant(spec3, "78166", LBIS.L["Hands"]) --Heavy Savage Armor Kit
 LBIS:AddEnchant(spec3, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
+LBIS:AddEnchant(spec3, "44769", LBIS.L["Hands"]) --Glove Reinforcements
 LBIS:AddEnchant(spec3, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
 LBIS:AddEnchant(spec3, "55016", LBIS.L["Waist"]) --Nitro Boosts
 LBIS:AddEnchant(spec3, "78172", LBIS.L["Legs"]) --Charscale Leg Armor

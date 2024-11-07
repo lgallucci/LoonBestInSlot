@@ -114,6 +114,7 @@ public class WowheadGuideParser
         { 226460, 86907 }, //Greater Inscription of Shattered Crystal
         { 226462, 86901 }, //Greater Inscription of Jagged Stone
         { 68785, 96261 }, //Enchant Bracer - Major Strength
+        { 34207, 44769 }, //Glove Reinforcements
      };
 
     private List<int> _excludeEnchants = new List<int>() 
