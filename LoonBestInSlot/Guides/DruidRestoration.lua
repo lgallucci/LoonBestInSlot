@@ -365,8 +365,7 @@ LBIS:AddItem(spec3, "69943", LBIS.L["Hands"], "Alt") --Heavenly Gloves of the Mo
 LBIS:AddItem(spec3, "71044", LBIS.L["Hands"], "Alt") --Cindersilk Gloves
 LBIS:AddItem(spec3, "65194", LBIS.L["Hands"], "Alt") --Stormrider's Handwraps
 LBIS:AddItem(spec3, "65113", LBIS.L["Hands"], "Alt") --Hydrolance Gloves
-LBIS:AddItem(spec3, "71395", LBIS.L["Waist"], "BIS") --Firescar Sash
-LBIS:AddItem(spec3, "71249", LBIS.L["Waist"], "Alt") --Firescar Sash
+LBIS:AddItem(spec3, "71249", LBIS.L["Waist"], "BIS") --Firescar Sash
 LBIS:AddItem(spec3, "65374", LBIS.L["Waist"], "Alt") --Gale Rouser Belt
 LBIS:AddItem(spec3, "71493", LBIS.L["Legs"], "BIS") --Obsidian Arborweave Legwraps
 LBIS:AddItem(spec3, "71474", LBIS.L["Legs"], "Alt") --Firecat Leggings
@@ -394,14 +393,15 @@ LBIS:AddItem(spec3, "65076", LBIS.L["Ring"], "Alt") --Security Measure Alpha
 LBIS:AddItem(spec3, "65373", LBIS.L["Ring"], "Alt") --Planetary Band of the Undertow
 LBIS:AddItem(spec3, "65123", LBIS.L["Ring"], "Alt") --Signet of the Fifth Circle
 LBIS:AddItem(spec3, "69111", LBIS.L["Trinket"], "BIS") --Jaws of Defeat
-LBIS:AddItem(spec3, "69149", LBIS.L["Trinket"], "BIS") --Eye of Blazing Power
-LBIS:AddItem(spec3, "65124", LBIS.L["Trinket"], "Alt") --Fall of Mortality
-LBIS:AddItem(spec3, "69000", LBIS.L["Trinket"], "Alt") --Fiery Quintessence
-LBIS:AddItem(spec3, "68983", LBIS.L["Trinket"], "Alt") --Eye of Blazing Power
-LBIS:AddItem(spec3, "68926", LBIS.L["Trinket"], "Alt") --Jaws of Defeat
-LBIS:AddItem(spec3, "60233", LBIS.L["Trinket"], "Alt") --Shard of Woe
-LBIS:AddItem(spec3, "62050", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Tsunami
+LBIS:AddItem(spec3, "68926", LBIS.L["Trinket"], "BIS") --Jaws of Defeat
+LBIS:AddItem(spec3, "65124", LBIS.L["Trinket"], "BIS") --Fall of Mortality
+LBIS:AddItem(spec3, "69149", LBIS.L["Trinket"], "Alt") --Eye of Blazing Power
 LBIS:AddItem(spec3, "64645", LBIS.L["Trinket"], "Alt") --Tyrande's Favorite Doll
+LBIS:AddItem(spec3, "62050", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Tsunami
+LBIS:AddItem(spec3, "59500", LBIS.L["Trinket"], "Alt") --Fall of Mortality
+LBIS:AddItem(spec3, "68983", LBIS.L["Trinket"], "Alt") --Eye of Blazing Power
+LBIS:AddItem(spec3, "69000", LBIS.L["Trinket"], "Alt") --Fiery Quintessence
+LBIS:AddItem(spec3, "60233", LBIS.L["Trinket"], "Alt") --Shard of Woe
 LBIS:AddItem(spec3, "58184", LBIS.L["Trinket"], "Alt") --Core of Ripeness
 LBIS:AddItem(spec3, "71615", LBIS.L["Main Hand"], "BIS") --Ko'gun, Hammer of the Firelord
 LBIS:AddItem(spec3, "71560", LBIS.L["Main Hand"], "Alt") --Chelley's Sterilized Scalpel

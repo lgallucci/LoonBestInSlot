@@ -171,6 +171,14 @@ local function IsNotObsolete(specItem)
     return true;
 end
 
+function ToPrintableBoolean(boolValue)
+    if boolValue then
+        return "true";
+    else
+        return "false";
+    end
+end
+
 function LBIS.ItemList:UpdateItems()
 
     LBIS.BrowserWindow.Window.SlotDropDown:Show();
@@ -189,6 +197,17 @@ function LBIS.ItemList:UpdateItems()
 
         for itemId, specItem in LBIS:spairs(specItems, itemSortFunction) do
             local specItemSource = LBIS.ItemSources[specItem.Id];
+            
+			-- if itemId == 71289 then
+			-- 	print("item("..itemId..")");
+			-- 	print("-- IsInFaction("..ToPrintableBoolean(IsInFaction(specItemSource))..")");
+			-- 	print("-- IsInSlot("..ToPrintableBoolean(LBIS:IsInSlot(specItem))..")");
+			-- 	print("-- IsInPhase("..ToPrintableBoolean(IsInPhase(specItem, specItemSource))..")");
+			-- 	print("-- IsInSource("..ToPrintableBoolean(LBIS:IsInSource(specItemSource))..")"); 
+			-- 	print("-- IsInZone("..ToPrintableBoolean(LBIS:IsInZone(specItemSource))..")");
+			-- 	print("-- IsNotInClassic("..ToPrintableBoolean(IsNotInClassic(specItemSource))..")");
+			-- 	print("-- IsNotObsolete("..ToPrintableBoolean(IsNotObsolete(specItem))..")");
+			-- end
 
             if specItemSource == nil then
                 LBIS:Error("Missing item source: ", specItem);

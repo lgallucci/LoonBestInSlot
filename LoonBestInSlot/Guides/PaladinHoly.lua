@@ -363,6 +363,7 @@ LBIS:AddItem(spec3, "69149", LBIS.L["Trinket"], "Alt") --Eye of Blazing Power
 LBIS:AddItem(spec3, "68926", LBIS.L["Trinket"], "Alt") --Jaws of Defeat
 LBIS:AddItem(spec3, "62050", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Tsunami
 LBIS:AddItem(spec3, "64645", LBIS.L["Trinket"], "Alt") --Tyrande's Favorite Doll
+LBIS:AddItem(spec3, "69000", LBIS.L["Trinket"], "Alt") --Fiery Quintessence
 LBIS:AddItem(spec3, "59500", LBIS.L["Trinket"], "Alt") --Fall of Mortality
 LBIS:AddItem(spec3, "68983", LBIS.L["Trinket"], "Alt") --Eye of Blazing Power
 LBIS:AddItem(spec3, "68777", LBIS.L["Trinket"], "Alt") --Vibrant Alchemist Stone
