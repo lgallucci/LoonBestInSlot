@@ -666,15 +666,16 @@ public static class WowheadImporter
         foreach (var tierPiece in tierPieces.Items)
         {
             var tokenKey = Int32.Parse(tierPiece.Value.SourceNumber.Split("~")[0]);
-
-            if (itemSources.ContainsKey(tierPiece.Key))
+                
+            if (itemSources.ContainsKey(tierPiece.Key) && _tierPieces.Contains(tokenKey))
             {
                 if (csvLootTable.ContainsKey(tierPiece.Key))
                 {
                     if (!csvLootTable[tierPiece.Key].IsLegacy)
                     {
+                        //only if tokenKey is actual token
                         foreach (var source in csvLootTable[tokenKey].ItemSource)
-                        {
+                        {                            
                             csvLootTable[tierPiece.Key].AddItem(new ImportItemSource
                             {
                                 SourceType = tierPiece.Value.SourceType,
