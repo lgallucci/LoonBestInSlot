@@ -1,4 +1,5 @@
 ﻿using System.Net;
+using System.Text.RegularExpressions;
 using AddonManager.Models;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
@@ -42,7 +43,8 @@ public class EmblemImporter : LootImporter
         //items.Items.Clear();
 
         //await ReadFromItemPages(items, writeToLog);
-        await ReadFromGuidePage(items, writeToLog);
+        //await ReadFromGuidePage(items, writeToLog);
+        await ReadFromAtlasLoot(items, writeToLog);
 
         return items;
     }
@@ -221,5 +223,58 @@ public class EmblemImporter : LootImporter
                 });
             }
         }, writeToLog, _importCancelToken);
+    }
+
+    private async Task ReadFromAtlasLoot(DatabaseItems items, Action<string> writeToLog) 
+    {
+        var vendorPriceFile = @"E:\Blizzard\World of Warcraft\_classic_\Interface\Addons\AtlasLootClassic\Data\VendorPrice.lua";
+
+        var vendorLines = await System.IO.File.ReadAllLinesAsync(vendorPriceFile);
+        string pattern = @"\[(?<itemId>\d+)\] = ""(?<emblem>.*)"", -- (?<itemName>.+)";
+        Regex regex = new Regex(pattern);
+        var foundCata = false;
+
+        foreach(var vendorLine in vendorLines)
+        {        
+            foundCata = vendorLine.Contains("VENDOR_PRICES_RAW.CATA") || foundCata;
+
+            Match m = regex.Match(vendorLine.Trim());
+            if (m.Success && foundCata)
+            {
+                var itemId = Int32.Parse(m.Groups["itemId"].Value);
+                var emblem = m.Groups["emblem"].Value;
+                var itemName = m.Groups["itemName"].Value;
+
+                var emblemSplit = emblem.Split(":");
+                var currencySource = 
+                            emblemSplit[0] == "JusticePoints" ? "Justice Points" :
+                            emblemSplit[0] == "ValorPoints" ? "Valor Points" :
+                            emblemSplit[0] == "FissureStoneFragment" ? "Fissure Stone Fragment" :
+                            "unknown";
+                var currencyNumber = emblemSplit[1];
+
+                if (currencySource == "unknown")
+                {
+                    continue;
+                }
+                if (items.Items.ContainsKey(itemId))
+                {
+                    items.Items[itemId].SourceNumber = currencyNumber;
+                }
+                else 
+                {
+                    var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
+                    {
+                        Name = itemName,
+                        SourceNumber = currencyNumber,
+                        Source = currencySource,
+                        SourceLocation = "Emblem Vendor",
+                        SourceType = "Dungeon Token",
+                        SourceFaction = "B"
+                    });
+                }
+            }
+        }
+
     }
 }

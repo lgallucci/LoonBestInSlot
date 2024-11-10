@@ -1984,11 +1984,43 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "70942": {
+      "Name": "Legguards of the Molten Giant",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "70943": {
+      "Name": "Handguards of the Molten Giant",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "70945": {
       "Name": "Chestguard of the Molten Giant",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "70947": {
+      "Name": "Immolation Legguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "70949": {
+      "Name": "Immolation Handguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1996,15 +2028,71 @@
       "Name": "Immolation Chestguard",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
-    },    
+    },
+    "70952": {
+      "Name": "Elementium Deathplate Legguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "70953": {
+      "Name": "Elementium Deathplate Handguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "70955": {
+      "Name": "Elementium Deathplate Chestguard",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "71045": {
       "Name": "Dark Phoenix Tunic",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71046": {
+      "Name": "Dark Phoenix Gloves",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71048": {
+      "Name": "Dark Phoenix Legguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71050": {
+      "Name": "Flamewalkers Gloves",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71052": {
+      "Name": "Flamewalkers Legguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2012,15 +2100,31 @@
       "Name": "Flamewaker's Tunic",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
-    "71058": { 
+    "71058": {
       "Name": "Elementium Deathplate Breastplate",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71059": {
+      "Name": "Elementium Deathplate Gauntlets",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71061": {
+      "Name": "Elementium Deathplate Greaves",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2028,7 +2132,23 @@
       "Name": "Immolation Battleplate",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71064": {
+      "Name": "Immolation Gauntlets",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71066": {
+      "Name": "Immolation Legplates",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2036,7 +2156,23 @@
       "Name": "Battleplate of the Molten Giant",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71069": {
+      "Name": "Gauntlets of the Molten Giant",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71071": {
+      "Name": "Legplates of the Molten Giant",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2044,15 +2180,63 @@
       "Name": "Immolation Breastplate",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
-    }, 
-    "71100": { 
+    },
+    "71092": {
+      "Name": "Immolation Gloves",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71094": {
+      "Name": "Immolation Greaves",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71097": {
+      "Name": "Obsidan Arborweave Grips",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71099": {
+      "Name": "Obsidan Arborweave Legguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71100": {
       "Name": "Obsidian Arborweave Raiment",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71102": {
+      "Name": "Obsidan Arborweave Handwraps",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71104": {
+      "Name": "Obsidan Arborweave Legwraps",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2060,7 +2244,23 @@
       "Name": "Obsidian Arborweave Tunic",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71107": {
+      "Name": "Obsidan Arborweave Gloves",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71109": {
+      "Name": "Obsidan Arborweave Leggings",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2068,7 +2268,23 @@
       "Name": "Obsidian Arborweave Vestment",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71271": {
+      "Name": "Handwraps of the Cleansing Flame",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71273": {
+      "Name": "Legwraps of the Cleansing Flame",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2076,23 +2292,71 @@
       "Name": "Robes of the Cleansing Flame",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
-    }, 
+    },
+    "71276": {
+      "Name": "Gloves of the Cleansing Flame",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71278": {
+      "Name": "Leggings of the Cleansing Flame",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "71279": {
       "Name": "Vestment of the Cleansing Flame",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
-    },    
-    "71284":{
+    },
+    "71281": {
+      "Name": "Balespiders Handwraps",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71283": {
+      "Name": "Balespiders Leggings",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71284": {
       "Name": "Balespider's Robes",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71286": {
+      "Name": "Firehawk Gloves",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71288": {
+      "Name": "Firehawk Leggings",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2100,7 +2364,7 @@
       "Name": "Firehawk Robes",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2108,7 +2372,23 @@
       "Name": "Erupting Volcanic Hauberk",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71292": {
+      "Name": "Erupting Volcanic Gloves",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71294": {
+      "Name": "Erupting Volcanic Kilt",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2116,7 +2396,23 @@
       "Name": "Erupting Volcanic Tunic",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71297": {
+      "Name": "Erupting Volcanic Handwraps",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71299": {
+      "Name": "Erupting Volcanic Legwraps",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2124,7 +2420,31 @@
       "Name": "Erupting Volcanic Cuirass",
       "Source": "Valor Points",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "-1",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71302": {
+      "Name": "Erupting Volcanic Grips",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1650",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71304": {
+      "Name": "Erupting Volcanic Legguards",
+      "Source": "Valor Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "234446": {
+      "Name": "Commendation of Service",
+      "Source": "Fissure Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     }
