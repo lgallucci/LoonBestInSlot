@@ -359,6 +359,7 @@ LBIS:AddItem(spec3, "68777", LBIS.L["Trinket"], "Alt") --Vibrant Alchemist Stone
 LBIS:AddItem(spec3, "58184", LBIS.L["Trinket"], "Alt") --Core of Ripeness
 LBIS:AddItem(spec3, "71615", LBIS.L["Main Hand"], "BIS") --Ko'gun, Hammer of the Firelord
 LBIS:AddItem(spec3, "71560", LBIS.L["Main Hand"], "Alt") --Chelley's Sterilized Scalpel
+LBIS:AddItem(spec3, "71777", LBIS.L["Main Hand"], "Alt") --Eye of Purification
 LBIS:AddItem(spec3, "71359", LBIS.L["Main Hand"], "Alt") --Chelley's Sterilized Scalpel
 LBIS:AddItem(spec3, "65017", LBIS.L["Main Hand"], "Alt") --Andoros, Fist of the Dragon King
 LBIS:AddItem(spec3, "65041", LBIS.L["Main Hand"], "Alt") --Incineratus
