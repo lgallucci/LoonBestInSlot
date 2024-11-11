@@ -25,6 +25,7 @@ LBIS:AddEnchant(spec3, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agilit
 LBIS:AddEnchant(spec3, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
 LBIS:AddEnchant(spec3, "74252", LBIS.L["Feet"]) --Enchant Boots - Assassin's Step
 LBIS:AddEnchant(spec3, "95471", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Mighty Agility
+LBIS:AddEnchant(spec3, "99623", LBIS.L["Ranged/Relic"]) --Flintlocke's Woodchucker
 LBIS:AddEnchant(spec3, "81932", LBIS.L["Ranged/Relic"]) --Gnomish X-Ray Scope
 
 LBIS:AddItem(spec0, "60303", LBIS.L["Head"], "BIS") --Lightning-Charged Headguard

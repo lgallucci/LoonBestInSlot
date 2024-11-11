@@ -97,6 +97,7 @@ LBIS.EnchantSources =
     [96261] = { Name = "Enchant Bracer - Major Strength", DesignId = "68788", ScrollId = "0", Source = LBIS.L["World Drop"], SourceLocation = "", TextureId = "" },
     [96262] = { Name = "Enchant Bracer - Mighty Intellect", DesignId = "68789", ScrollId = "0", Source = LBIS.L["World Drop"], SourceLocation = "", TextureId = "" },
     [96264] = { Name = "Enchant Bracer - Agility", DesignId = "68787", ScrollId = "0", Source = LBIS.L["World Drop"], SourceLocation = "", TextureId = "" },
+    [99623] = { Name = "Flintlocke's Woodchucker", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Engineering Trainer"], SourceLocation = "", TextureId = "70139" },
     [101598] = { Name = "Drakehide Leg Armor", DesignId = "71720", ScrollId = "0", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = "", TextureId = "71720" },
     [101600] = { Name = "Drakehide Leg Reinforcements", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = "", TextureId = "" },
 }
