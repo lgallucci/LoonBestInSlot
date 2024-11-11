@@ -443,22 +443,23 @@ local function LoadData()
     LBIS:AddItem(spec4, "220605", LBIS.L["Ranged/Relic"], "Alt") --Libram of Sacrilege
 
     LBIS:AddItem(spec5, "231186", LBIS.L["Head"], "BIS") --Judgement Great Helm
+    LBIS:AddItem(spec5, "231178", LBIS.L["Head"], "Alt") --Judgement Crown
     LBIS:AddItem(spec5, "232163", LBIS.L["Head"], "Alt") --Judgement Great Helm
     LBIS:AddItem(spec5, "231184", LBIS.L["Shoulder"], "BIS") --Judgement Pauldrons
     LBIS:AddItem(spec5, "232161", LBIS.L["Shoulder"], "Alt") --Judgement Pauldrons
     LBIS:AddItem(spec5, "230744", LBIS.L["Back"], "BIS") --Elementium Threaded Cloak
+    LBIS:AddItem(spec5, "228383", LBIS.L["Back"], "Alt Thrt") --Puissant Cape
     LBIS:AddItem(spec5, "228292", LBIS.L["Back"], "Alt") --Dragon's Blood Cape
+    LBIS:AddItem(spec5, "231012", LBIS.L["Back"], "Alt Mit") --Overlord's Embrace
     LBIS:AddItem(spec5, "231181", LBIS.L["Chest"], "BIS") --Judgement Breastplate
     LBIS:AddItem(spec5, "231187", LBIS.L["Chest"], "Alt") --Judgement Chestguard
     LBIS:AddItem(spec5, "232166", LBIS.L["Chest"], "Alt") --Judgement Chestguard
     LBIS:AddItem(spec5, "231182", LBIS.L["Wrist"], "BIS") --Judgement Vambraces
-    LBIS:AddItem(spec5, "231174", LBIS.L["Wrist"], "Alt") --Judgement Bindings
     LBIS:AddItem(spec5, "232159", LBIS.L["Wrist"], "Alt") --Judgement Vambraces
     LBIS:AddItem(spec5, "231188", LBIS.L["Hands"], "BIS") --Judgement Handguards
     LBIS:AddItem(spec5, "231179", LBIS.L["Hands"], "Alt") --Judgement Gauntlets
     LBIS:AddItem(spec5, "232164", LBIS.L["Hands"], "Alt") --Judgement Handguards
     LBIS:AddItem(spec5, "231183", LBIS.L["Waist"], "BIS") --Judgement Waistguard
-    LBIS:AddItem(spec5, "231175", LBIS.L["Waist"], "Alt") --Judgement Belt
     LBIS:AddItem(spec5, "232160", LBIS.L["Waist"], "Alt") --Judgement Waistguard
     LBIS:AddItem(spec5, "231177", LBIS.L["Legs"], "BIS") --Judgement Legplates
     LBIS:AddItem(spec5, "231185", LBIS.L["Legs"], "Alt") --Judgement Legguards
@@ -476,12 +477,14 @@ local function LoadData()
     LBIS:AddItem(spec5, "230943", LBIS.L["Ring"], "Alt") --Overlord's Onyx Band
     LBIS:AddItem(spec5, "230999", LBIS.L["Ring"], "Alt") --Overlord's Crimson Band
     LBIS:AddItem(spec5, "228286", LBIS.L["Ring"], "Alt") --Band of Accuria
+    LBIS:AddItem(spec5, "228261", LBIS.L["Ring"], "Alt Thrt") --Quick Strike Ring
     LBIS:AddItem(spec5, "228242", LBIS.L["Ring"], "Alt") --Heavy Dark Iron Ring
     LBIS:AddItem(spec5, "230736", LBIS.L["Trinket"], "BIS Mit") --Styleen's Impeding Scarab
     LBIS:AddItem(spec5, "228686", LBIS.L["Trinket"], "Alt Stam") --Onyxia Blood Talisman
     LBIS:AddItem(spec5, "228163", LBIS.L["Trinket"], "Alt Stam") --Broodmother's Brooch
     LBIS:AddItem(spec5, "227915", LBIS.L["Trinket"], "Alt Stam") --Duke's Domain
     LBIS:AddItem(spec5, "230272", LBIS.L["Trinket"], "Alt") --Scrolls of Blinding Light
+    LBIS:AddItem(spec5, "231784", LBIS.L["Trinket"], "Alt") --Lightning's Cell
     LBIS:AddItem(spec5, "228078", LBIS.L["Trinket"], "Alt") --Accursed Chalice
     LBIS:AddItem(spec5, "11815", LBIS.L["Trinket"], "Alt") --Hand of Justice
     LBIS:AddItem(spec5, "221309", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Sandstorm

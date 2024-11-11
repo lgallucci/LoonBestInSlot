@@ -11,10 +11,16 @@ local function LoadData()
     LBIS:AddEnchant(spec5, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
     LBIS:AddEnchant(spec5, "461129", LBIS.L["Back"]) --Hydraxian Coronation
     LBIS:AddEnchant(spec5, "22725", LBIS.L["Chest"]) --Core Armor Kit
+    LBIS:AddEnchant(spec5, "20026", LBIS.L["Chest"]) --Enchant Chest - Major Health
+    LBIS:AddEnchant(spec5, "435903", LBIS.L["Chest"]) --Enchant Chest - Retricutioner
     LBIS:AddEnchant(spec5, "20011", LBIS.L["Wrist"]) --Enchant Bracer - Superior Stamina
+    LBIS:AddEnchant(spec5, "13931", LBIS.L["Wrist"]) --Enchant Bracer - Deflection
     LBIS:AddEnchant(spec5, "22725", LBIS.L["Hands"]) --Core Armor Kit
+    LBIS:AddEnchant(spec5, "13948", LBIS.L["Hands"]) --Enchant Gloves - Minor Haste
     LBIS:AddEnchant(spec5, "468368", LBIS.L["Legs"]) --Hoodoo Curse
     LBIS:AddEnchant(spec5, "22725", LBIS.L["Feet"]) --Core Armor Kit
+    LBIS:AddEnchant(spec5, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
+    LBIS:AddEnchant(spec5, "20020", LBIS.L["Feet"]) --Enchant Boots - Greater Stamina
     LBIS:AddEnchant(spec5, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
     LBIS:AddEnchant(spec5, "22749", LBIS.L["Two Hand"]) --Enchant Weapon - Spell Power
 

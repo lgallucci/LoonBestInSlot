@@ -8,12 +8,14 @@ local function LoadData()
     local spec6 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Tank"], "6")
 
     LBIS:AddEnchant(spec5, "468321", LBIS.L["Head"]) --Animist's Fury
+    LBIS:AddEnchant(spec5, "468323", LBIS.L["Head"]) --Animist's Roar
     LBIS:AddEnchant(spec5, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
     LBIS:AddEnchant(spec5, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
     LBIS:AddEnchant(spec5, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec5, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
     LBIS:AddEnchant(spec5, "13948", LBIS.L["Hands"]) --Enchant Gloves - Minor Haste
     LBIS:AddEnchant(spec5, "468321", LBIS.L["Legs"]) --Animist's Fury
+    LBIS:AddEnchant(spec5, "468323", LBIS.L["Legs"]) --Animist's Roar
     LBIS:AddEnchant(spec5, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec5, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
 

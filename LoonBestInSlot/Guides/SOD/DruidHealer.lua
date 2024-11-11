@@ -8,14 +8,21 @@ local function LoadData()
     local spec6 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Healer"], "6")
 
     LBIS:AddEnchant(spec5, "468314", LBIS.L["Head"]) --Animist's Caress
+    LBIS:AddEnchant(spec5, "468318", LBIS.L["Head"]) --Animist's Balance
     LBIS:AddEnchant(spec5, "24420", LBIS.L["Shoulder"]) --Zandalar Signet of Serenity
+    LBIS:AddEnchant(spec5, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
     LBIS:AddEnchant(spec5, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
     LBIS:AddEnchant(spec5, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec5, "23802", LBIS.L["Wrist"]) --Enchant Bracer - Healing Power
     LBIS:AddEnchant(spec5, "19057", LBIS.L["Hands"]) --Rugged Armor Kit
+    LBIS:AddEnchant(spec5, "468314", LBIS.L["Legs"]) --Animist's Caress
+    LBIS:AddEnchant(spec5, "468318", LBIS.L["Legs"]) --Animist's Balance
     LBIS:AddEnchant(spec5, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
+    LBIS:AddEnchant(spec5, "20024", LBIS.L["Feet"]) --Enchant Boots - Spirit
     LBIS:AddEnchant(spec5, "22750", LBIS.L["Main Hand"]) --Enchant Weapon - Healing Power
+    LBIS:AddEnchant(spec5, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
     LBIS:AddEnchant(spec5, "22750", LBIS.L["Two Hand"]) --Enchant Weapon - Healing Power
+    LBIS:AddEnchant(spec5, "22749", LBIS.L["Two Hand"]) --Enchant Weapon - Spell Power
 
     LBIS:AddItem(spec0, "227863", LBIS.L["Head"], "BIS") --Incandescent Mooncloth Circlet
     LBIS:AddItem(spec0, "231701", LBIS.L["Head"], "Alt") --Field Marshal's Dragonhide Headdress
@@ -552,8 +559,9 @@ local function LoadData()
     LBIS:AddItem(spec5, "226653", LBIS.L["Shoulder"], "Alt") --Cenarion Mantle
     LBIS:AddItem(spec5, "230912", LBIS.L["Shoulder"], "Alt") --Animist's Spaulders
     LBIS:AddItem(spec5, "226644", LBIS.L["Shoulder"], "Alt") --Cenarion Spaulders
-    LBIS:AddItem(spec5, "230998", LBIS.L["Back"], "BIS") --Hakkari Loa Cloak
+    LBIS:AddItem(spec5, "230733", LBIS.L["Back"], "BIS") --Shroud of Pure Thought
     LBIS:AddItem(spec5, "231300", LBIS.L["Back"], "BIS") --Cloak of Consumption
+    LBIS:AddItem(spec5, "230998", LBIS.L["Back"], "Alt") --Hakkari Loa Cloak
     LBIS:AddItem(spec5, "18510", LBIS.L["Back"], "Alt") --Hide of the Wild
     LBIS:AddItem(spec5, "220608", LBIS.L["Back"], "Alt") --Featherskin Drape
     LBIS:AddItem(spec5, "230804", LBIS.L["Back"], "Alt") --Cloak of the Brood Lord
@@ -622,11 +630,12 @@ local function LoadData()
     LBIS:AddItem(spec5, "230913", LBIS.L["Neck"], "Alt") --Jeklik's Opaline Talisman
     LBIS:AddItem(spec5, "18723", LBIS.L["Neck"], "Alt") --Animated Chain Necklace
     LBIS:AddItem(spec5, "230811", LBIS.L["Ring"], "BIS") --Pure Elementium Band
-    LBIS:AddItem(spec5, "228274", LBIS.L["Ring"], "BIS") --Cauterizing Band
+    LBIS:AddItem(spec5, "228359", LBIS.L["Ring"], "BIS") --Ring of Entropy
     LBIS:AddItem(spec5, "228287", LBIS.L["Ring"], "BIS") --Band of Sulfuras
     LBIS:AddItem(spec5, "228243", LBIS.L["Ring"], "BIS") --Ring of Spell Power
     LBIS:AddItem(spec5, "230867", LBIS.L["Ring"], "Alt") --Zanzil's Band
     LBIS:AddItem(spec5, "231001", LBIS.L["Ring"], "Alt") --Zanzil's Seal
+    LBIS:AddItem(spec5, "228274", LBIS.L["Ring"], "Alt") --Cauterizing Band
     LBIS:AddItem(spec5, "230915", LBIS.L["Ring"], "Alt") --Primalist's Band
     LBIS:AddItem(spec5, "231000", LBIS.L["Ring"], "Alt") --Primalist's Seal
     LBIS:AddItem(spec5, "228585", LBIS.L["Ring"], "Alt") --Mark of the Dragon Lord
@@ -636,7 +645,6 @@ local function LoadData()
     LBIS:AddItem(spec5, "230269", LBIS.L["Trinket"], "BIS") --Rejuvenating Gem
     LBIS:AddItem(spec5, "231280", LBIS.L["Trinket"], "BIS") --Wushoolay's Charm of Nature
     LBIS:AddItem(spec5, "230810", LBIS.L["Trinket"], "BIS") --Neltharion's Tear
-    LBIS:AddItem(spec5, "230920", LBIS.L["Trinket"], "Alt") --Mar'li's Eye
     LBIS:AddItem(spec5, "18470", LBIS.L["Trinket"], "Alt") --Royal Seal of Eldre'Thalas
     LBIS:AddItem(spec5, "221448", LBIS.L["Trinket"], "Alt") --Talisman of the Corrupted Grove
     LBIS:AddItem(spec5, "231784", LBIS.L["Trinket"], "Alt") --Lightning's Cell
@@ -644,7 +652,6 @@ local function LoadData()
     LBIS:AddItem(spec5, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
     LBIS:AddItem(spec5, "19288", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Blue Dragon
     LBIS:AddItem(spec5, "228188", LBIS.L["Trinket"], "Alt") --Prestor's Hairpin
-    LBIS:AddItem(spec5, "19950", LBIS.L["Trinket"], "Alt") --Zandalarian Hero Charm
     LBIS:AddItem(spec5, "231753", LBIS.L["Main Hand"], "BIS") --Skywall's Solace
     LBIS:AddItem(spec5, "231387", LBIS.L["Main Hand"], "BIS") --Stormwrath, Sanctified Shortblade of the Galefinder
     LBIS:AddItem(spec5, "230838", LBIS.L["Main Hand"], "Alt") --Lok'amir il Romathis

@@ -58,6 +58,11 @@ public class WowheadGuideParser
         { 231377, 468368 }, //Hoodoo Curse
         { 19783, 24160 }, //Syncretist's Sigil
         { 231384, 468383 }, //Falcon's Fury
+        { 10548, 12460 }, //Sniper Scope
+        { 231355, 468318 }, //Animist's Balance
+        { 231362, 468330 }, //Syncretist's Sigil
+        { 231371, 468351 }, //Vodouisant's Embrace 
+        { 231372, 468354 }, //Vodouisant's Shroud
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()
@@ -535,40 +540,56 @@ public class WowheadGuideParser
             foreach (var htmlMapping in guideMapping.Value.SlotHtmlId.Split(";"))
             {
                 var headerElement = doc.QuerySelector(htmlMapping);
-
                 if (headerElement != null)
                 {
-                    var nextSibling = headerElement.NextSibling;
+                    var nextSibling = headerElement.NextElementSibling;
                     int elementCounter = 0;
-                    while (nextSibling != null && (nextSibling is not IHtmlTableElement || nextSibling is IHtmlHeadingElement))
+                    while (nextSibling != null && (!IsTableElement(nextSibling) || nextSibling is IHtmlHeadingElement))
                     {
+                        if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*for new").Success)
+                            foundEnchantText = false;
+
                         //try to find enchant.
                         if (nextSibling is IHtmlAnchorElement && foundEnchantText)
                         {
-                            foundEnchant(nextSibling as IHtmlAnchorElement, guideMapping.Key);
-                            foundEnchantText = false;
+                            foundEnchant((IHtmlAnchorElement)nextSibling, guideMapping.Key);
                         }
 
-                        if (Regex.Match(nextSibling.TextContent.Trim(), "Recommended.*Enchant").Success)
-                            foundEnchantText = true;
-                        else if (Regex.Match(nextSibling.TextContent.Trim(), ".*Enchants:").Success)
+                        if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*enchant").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*enchants").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*armor").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*scope").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*inscription").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*tinker").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*runeforge").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended shield enchant").Success ||
+                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "bis.*enchant").Success)
                         {
-                            foreach(var enchantChild in nextSibling.ChildNodes)
-                            {
-                                if (enchantChild is IHtmlAnchorElement)
-                                {
-                                    foundEnchant(enchantChild as IHtmlAnchorElement, guideMapping.Key);
-                                }
-                            }
+                            foundEnchantText = true;
                         }
 
-                        nextSibling = nextSibling?.NextSibling;
+                        if (foundEnchantText)
+                        {
+                            Common.RecursiveBoxSearch(nextSibling, (anchorElement) => 
+                            {
+                                if (anchorElement != null)
+                                    foundEnchant((IHtmlAnchorElement)anchorElement, guideMapping.Key);
+                                return false;
+                            });
+                        }
+
+                        nextSibling = nextSibling?.NextElementSibling;
                         elementCounter++;
                     }
 
+                    foundEnchantText = false;
                     if (nextSibling is IHtmlTableElement)
-                    {
+                    {                            
                         foundTable(nextSibling as IHtmlTableElement, guideMapping.Key, htmlMapping);
+                    }
+                    else if (nextSibling.ClassName == "markup-table-wrapper")
+                    {
+                        foundTable(nextSibling.FirstChild as IHtmlTableElement, guideMapping.Key, htmlMapping);
                     }
                     else
                     {
@@ -581,5 +602,10 @@ public class WowheadGuideParser
                 }
             }
         }
+    }
+
+    private bool IsTableElement(IElement nextSibling)
+    {
+         return nextSibling is IHtmlTableElement || nextSibling.ClassName == "markup-table-wrapper";
     }
 }

@@ -8,14 +8,18 @@ local function LoadData()
     local spec6 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Tank"], "6")
 
     LBIS:AddEnchant(spec5, "468347", LBIS.L["Head"]) --Death's Embrace
+    LBIS:AddEnchant(spec5, "468349", LBIS.L["Head"]) --Death's Advance
     LBIS:AddEnchant(spec5, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
     LBIS:AddEnchant(spec5, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
     LBIS:AddEnchant(spec5, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec5, "20011", LBIS.L["Wrist"]) --Enchant Bracer - Superior Stamina
     LBIS:AddEnchant(spec5, "20012", LBIS.L["Hands"]) --Enchant Gloves - Greater Agility
+    LBIS:AddEnchant(spec5, "468347", LBIS.L["Legs"]) --Death's Embrace
+    LBIS:AddEnchant(spec5, "468349", LBIS.L["Legs"]) --Death's Advance
     LBIS:AddEnchant(spec5, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec5, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec5, "23800", LBIS.L["Off Hand"]) --Enchant Weapon - Agility
+    LBIS:AddEnchant(spec5, "12460", LBIS.L["Ranged/Relic"]) --Sniper Scope
 
     LBIS:AddItem(spec0, "226841", LBIS.L["Head"], "BIS") --Darkmantle Faceguard
     LBIS:AddItem(spec0, "226829", LBIS.L["Head"], "BIS") --Darkmantle Cap

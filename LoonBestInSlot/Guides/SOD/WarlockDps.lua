@@ -15,6 +15,7 @@ local function LoadData()
     LBIS:AddEnchant(spec5, "19057", LBIS.L["Hands"]) --Rugged Armor Kit
     LBIS:AddEnchant(spec5, "468365", LBIS.L["Legs"]) --Hoodoo Hex
     LBIS:AddEnchant(spec5, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
+    LBIS:AddEnchant(spec5, "20024", LBIS.L["Feet"]) --Enchant Boots - Spirit
     LBIS:AddEnchant(spec5, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
     LBIS:AddEnchant(spec5, "22749", LBIS.L["Two Hand"]) --Enchant Weapon - Spell Power
 

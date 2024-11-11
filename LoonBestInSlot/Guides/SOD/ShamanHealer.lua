@@ -13,6 +13,7 @@ local function LoadData()
     LBIS:AddEnchant(spec5, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec5, "23802", LBIS.L["Wrist"]) --Enchant Bracer - Healing Power
     LBIS:AddEnchant(spec5, "10344", LBIS.L["Hands"]) --Thick Armor Kit
+    LBIS:AddEnchant(spec5, "22844", LBIS.L["Legs"]) --Arcanum of Focus
     LBIS:AddEnchant(spec5, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec5, "22750", LBIS.L["Main Hand"]) --Enchant Weapon - Healing Power
     LBIS:AddEnchant(spec5, "463871", LBIS.L["Off Hand"]) --Enchant Shield - Law of Nature

@@ -8,14 +8,23 @@ local function LoadData()
     local spec6 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Dps"], "6")
 
     LBIS:AddEnchant(spec5, "22840", LBIS.L["Head"]) --Arcanum of Rapidity
+    LBIS:AddEnchant(spec5, "468330", LBIS.L["Head"]) --Syncretist's Sigil
+    LBIS:AddEnchant(spec5, "15394", LBIS.L["Head"]) --Lesser Arcanum of Resilience
     LBIS:AddEnchant(spec5, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
+    LBIS:AddEnchant(spec5, "446451", LBIS.L["Shoulder"]) --Atal'ai Signet of Might
+    LBIS:AddEnchant(spec5, "460963", LBIS.L["Shoulder"]) --Blessed Flame Mantle of the Dawn
     LBIS:AddEnchant(spec5, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
+    LBIS:AddEnchant(spec5, "461129", LBIS.L["Back"]) --Hydraxian Coronation
     LBIS:AddEnchant(spec5, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec5, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
     LBIS:AddEnchant(spec5, "13948", LBIS.L["Hands"]) --Enchant Gloves - Minor Haste
+    LBIS:AddEnchant(spec5, "20013", LBIS.L["Hands"]) --Enchant Gloves - Greater Strength
     LBIS:AddEnchant(spec5, "22840", LBIS.L["Legs"]) --Arcanum of Rapidity
+    LBIS:AddEnchant(spec5, "468330", LBIS.L["Legs"]) --Syncretist's Sigil
+    LBIS:AddEnchant(spec5, "15394", LBIS.L["Legs"]) --Lesser Arcanum of Resilience
     LBIS:AddEnchant(spec5, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
     LBIS:AddEnchant(spec5, "20034", LBIS.L["Two Hand"]) --Enchant Weapon - Crusader
+    LBIS:AddEnchant(spec5, "7222", LBIS.L["Two Hand"]) --Iron Counterweight
 
     LBIS:AddItem(spec0, "226976", LBIS.L["Head"], "BIS") --Soulforge Greathelm
     LBIS:AddItem(spec0, "12640", LBIS.L["Head"], "Alt") --Lionheart Helm

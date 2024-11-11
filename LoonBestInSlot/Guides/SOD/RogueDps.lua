@@ -13,9 +13,11 @@ local function LoadData()
     LBIS:AddEnchant(spec5, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec5, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
     LBIS:AddEnchant(spec5, "20012", LBIS.L["Hands"]) --Enchant Gloves - Greater Agility
+    LBIS:AddEnchant(spec5, "468349", LBIS.L["Legs"]) --Death's Advance
     LBIS:AddEnchant(spec5, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec5, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec5, "20034", LBIS.L["Off Hand"]) --Enchant Weapon - Crusader
+    LBIS:AddEnchant(spec5, "12460", LBIS.L["Ranged/Relic"]) --Sniper Scope
 
     LBIS:AddItem(spec0, "22005", LBIS.L["Head"], "BIS") --Darkmantle Cap
     LBIS:AddItem(spec0, "228111", LBIS.L["Head"], "Alt") --Mask of the Godslayer

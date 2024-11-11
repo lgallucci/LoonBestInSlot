@@ -7,15 +7,16 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "6")
 
-    LBIS:AddEnchant(spec5, "468354", LBIS.L["Head"]) --Vodouisant's Shroud
-    LBIS:AddEnchant(spec5, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
+    LBIS:AddEnchant(spec5, "22844", LBIS.L["Head"]) --Arcanum of Focus
+    LBIS:AddEnchant(spec5, "446459", LBIS.L["Shoulder"]) --Atal'ai Signet of Mojo
     LBIS:AddEnchant(spec5, "461129", LBIS.L["Back"]) --Hydraxian Coronation
     LBIS:AddEnchant(spec5, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec5, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
-    LBIS:AddEnchant(spec5, "20012", LBIS.L["Hands"]) --Enchant Gloves - Greater Agility
+    LBIS:AddEnchant(spec5, "19057", LBIS.L["Hands"]) --Armor +40
+    LBIS:AddEnchant(spec5, "22844", LBIS.L["Legs"]) --Arcanum of Focus
     LBIS:AddEnchant(spec5, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
-    LBIS:AddEnchant(spec5, "23804", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Intellect
-    LBIS:AddEnchant(spec5, "463871", LBIS.L["Off Hand"]) --Enchant Shield - Law of Nature
+    LBIS:AddEnchant(spec5, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
+    LBIS:AddEnchant(spec5, "20017", LBIS.L["Off Hand"]) --Enchant Shield - Greater Stamina
 
     LBIS:AddItem(spec0, "227002", LBIS.L["Head"], "BIS") --Coif of The Five Thunders
     LBIS:AddItem(spec0, "228677", LBIS.L["Head"], "Alt") --Spellweaver's Turban
