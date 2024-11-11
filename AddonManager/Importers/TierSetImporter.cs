@@ -10,13 +10,9 @@ public class TierSetImporter : LootImporter
     private List<string> armorTokenUris = new List<string>
     {
         //Tier 12
-        // @"https://www.wowhead.com/cata/item=63683/helm-of-the-forlorn-conqueror#currency-for",
-        // @"https://www.wowhead.com/cata/item=63684/helm-of-the-forlorn-protector#currency-for",
-        // @"https://www.wowhead.com/cata/item=63682/helm-of-the-forlorn-vanquisher#currency-for",
+        //@"https://www.wowhead.com/cata/item=63683/helm-of-the-forlorn-conqueror#currency-for",       
         
-        // @"https://www.wowhead.com/cata/item=64315/mantle-of-the-forlorn-conqueror#currency-for",
-        // @"https://www.wowhead.com/cata/item=64316/mantle-of-the-forlorn-protector#currency-for",
-        // @"https://www.wowhead.com/cata/item=64314/mantle-of-the-forlorn-vanquisher#currency-for",
+        //@"https://www.wowhead.com/item=71688/mantle-of-the-fiery-protector#currency-for",
 
         //These are sold for valor points ?
         // @"",

@@ -1823,6 +1823,310 @@
       "SourceNumber": "71687",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
+    },
+    "70941": {
+      "Name": "Shoulderguards of the Molten Giant",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71072": {
+      "Name": "Pauldrons of the Molten Giant",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71053": {
+      "Name": "Flamewaker's Spaulders",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71295": {
+      "Name": "Erupting Volcanic Shoulderwraps",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71305": {
+      "Name": "Erupting Volcanic Spaulders",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71300": {
+      "Name": "Erupting Volcanic Mantle",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "70944": {
+      "Name": "Faceguard of the Molten Giant",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71070": {
+      "Name": "Helmet of the Molten Giant",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71051": {
+      "Name": "Flamewaker's Headguard",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71293": {
+      "Name": "Erupting Volcanic Headpiece",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71303": {
+      "Name": "Erupting Volcanic Helmet",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71298": {
+      "Name": "Erupting Volcanic Faceguard",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71095": {
+      "Name": "Immolation Mantle",
+      "Source": "Mantle of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "70946": {
+      "Name": "Immolation Shoulderguards",
+      "Source": "Mantle of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71067": {
+      "Name": "Immolation Pauldrons",
+      "Source": "Mantle of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71275": {
+      "Name": "Mantle of the Cleansing Flame",
+      "Source": "Mantle of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71280": {
+      "Name": "Shoulderwraps of the Cleansing Flame",
+      "Source": "Mantle of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71285": {
+      "Name": "Balespider's Mantle",
+      "Source": "Mantle of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71093": {
+      "Name": "Immolation Headguard",
+      "Source": "Helm of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },    
+    "71065": {
+      "Name": "Immolation Helmet",
+      "Source": "Helm of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },    
+    "70948": {
+      "Name": "Immolation Faceguard",
+      "Source": "Helm of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71272": {
+      "Name": "Cowl of the Cleansing Flame",
+      "Source": "Helm of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71277": {
+      "Name": "Hood of the Cleansing Flame",
+      "Source": "Helm of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71282": {
+      "Name": "Balespider's Hood",
+      "Source": "Helm of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71049": {
+      "Name": "Dark Phoenix Spaulders",
+      "Source": "Mantle of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "70951": {
+      "Name": "Elementium Deathplate Shoulderguards",
+      "Source": "Mantle of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71062": {
+      "Name": "Elementium Deathplate Pauldrons",
+      "Source": "Mantle of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71290": {
+      "Name": "Firehawk Mantle",
+      "Source": "Mantle of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71106": {
+      "Name": "Obsidian Arborweave Mantle",
+      "Source": "Mantle of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71101": {
+      "Name": "Obsidian Arborweave Spaulders",
+      "Source": "Mantle of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71111": {
+      "Name": "Obsidian Arborweave Shoulderwraps",
+      "Source": "Mantle of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71047": {
+      "Name": "Dark Phoenix Helmet",
+      "Source": "Helm of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "70954": {
+      "Name": "Elementium Deathplate Faceguard",
+      "Source": "Helm of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },    
+    "71060": {
+      "Name": "Elementium Deathplate Helmet",
+      "Source": "Helm of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },    
+    "71287": {
+      "Name": "Firehawk Hood",
+      "Source": "Helm of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },    
+    "71108": {
+      "Name": "Obsidian Arborweave Cover",
+      "Source": "Helm of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },    
+    "71098": {
+      "Name": "Obsidian Arborweave Headpiece",
+      "Source": "Helm of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71103": {
+      "Name": "Obsidian Arborweave Helm",
+      "Source": "Helm of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
     }
   }
 }
