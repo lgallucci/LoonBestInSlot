@@ -612,7 +612,20 @@
       "Akil'zon": "Akil'zon",
       "Halazzi": "Halazzi",
       "Jan'alai": "Jan'alai",
-      "Nalorakk": "Nalorakk"
+      "Nalorakk": "Nalorakk",
+      "Alysrazor": "Alysrazor",
+      "Avengers of Hyjal": "Vengadores de Hyjal",
+      "Baleroc": "Baleroc",
+      "Beth'tilac": "Beth'tilac",
+      "Dragon Soul": "Alma de Dragón",
+      "Firelands": "Tierras de Fuego",
+      "Head~Shoulder": "Cabeza~Hombro",
+      "Lord Rhyolith": "Lord Piroclasto",
+      "Majordomo Staghelm": "Mayordomo Corzocelada",
+      "Molten Front": "Frente de Magma",
+      "Neck~Ring": "Cuello~Anillo",
+      "Ragnaros": "Ragnaros",
+      "Shannox": "Shannox"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -1149,7 +1162,14 @@
       "Akil'zon": "Akil'zon",
       "Halazzi": "Halazzi",
       "Jan'alai": "Jan'alai",
-      "Nalorakk": "Nalorakk"
+      "Nalorakk": "Nalorakk",
+      "Avengers of Hyjal": "Vengadores de Hyjal",
+      "Dragon Soul": "Alma de Dragón",
+      "Firelands": "Tierras de Fuego",
+      "Head~Shoulder": "Cabeza~Hombro",
+      "Molten Front": "Frente de Magma",
+      "Neck~Ring": "Cuello~Anillo",
+      "Ragnaros": "Ragnaros"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -1818,7 +1838,20 @@
       "Akil'zon": "Akil'zon",
       "Halazzi": "Halazzi",
       "Jan'alai": "Jan'alai",
-      "Nalorakk": "Nalorakk"
+      "Nalorakk": "Nalorakk",
+      "Alysrazor": "Alysrazar",
+      "Avengers of Hyjal": "Rächer des Hyjal",
+      "Baleroc": "Baloroc",
+      "Beth'tilac": "Beth'tilac",
+      "Dragon Soul": "Drachenseele",
+      "Firelands": "Die Feuerlande",
+      "Head~Shoulder": "Kopf~Schulter",
+      "Lord Rhyolith": "Lord Rhyolith",
+      "Majordomo Staghelm": "Majordomus Hirschhaupt",
+      "Molten Front": "Geschmolzene Front",
+      "Neck~Ring": "Hals~Finger",
+      "Ragnaros": "Ragnaros",
+      "Shannox": "Shannox"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -2422,7 +2455,20 @@
       "Akil'zon": "Akil'zon",
       "Halazzi": "Halazzi",
       "Jan'alai": "Jan'alai",
-      "Nalorakk": "Nalorakk"
+      "Nalorakk": "Nalorakk",
+      "Alysrazor": "Alysrazor",
+      "Avengers of Hyjal": "Vengeurs d’Hyjal",
+      "Baleroc": "Baleroc",
+      "Beth'tilac": "Beth'tilac",
+      "Dragon Soul": "L’Âme des dragons",
+      "Firelands": "Terres de Feu",
+      "Head~Shoulder": "Tête~Épaule",
+      "Lord Rhyolith": "Seigneur Rhyolith",
+      "Majordomo Staghelm": "Chambellan Forteramure",
+      "Molten Front": "Front du Magma",
+      "Neck~Ring": "Cou~Anneau",
+      "Ragnaros": "Ragnaros",
+      "Shannox": "Shannox"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -3022,7 +3068,20 @@
       "Akil'zon": "Акил'зон",
       "Halazzi": "Халаззи",
       "Jan'alai": "Джан'алай",
-      "Nalorakk": "Налоракк"
+      "Nalorakk": "Налоракк",
+      "Alysrazor": "Алисразор",
+      "Avengers of Hyjal": "Хиджальские мстители",
+      "Baleroc": "Бейлрок",
+      "Beth'tilac": "Бет'тилак",
+      "Dragon Soul": "Душа Дракона",
+      "Firelands": "Огненные Просторы",
+      "Head~Shoulder": "Голова~Плечо",
+      "Lord Rhyolith": "Повелитель Риолит",
+      "Majordomo Staghelm": "Мажордом Фэндрал Олений Шлем",
+      "Molten Front": "Огненная передовая",
+      "Neck~Ring": "Шея~Палец",
+      "Ragnaros": "Рагнарос",
+      "Shannox": "Шэннокс"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -3622,7 +3681,20 @@
       "Akil'zon": "埃基尔松",
       "Halazzi": "哈尔拉兹",
       "Jan'alai": "加亚莱",
-      "Nalorakk": "纳洛拉克"
+      "Nalorakk": "纳洛拉克",
+      "Alysrazor": "奥利瑟拉佐尔",
+      "Avengers of Hyjal": "海加尔复仇者",
+      "Baleroc": "贝尔洛克",
+      "Beth'tilac": "贝丝缇拉克",
+      "Dragon Soul": "巨龙之魂",
+      "Firelands": "火焰之地",
+      "Head~Shoulder": "头部~肩部",
+      "Lord Rhyolith": "雷奥利斯领主",
+      "Majordomo Staghelm": "管理者鹿盔",
+      "Molten Front": "熔火前线",
+      "Neck~Ring": "颈部~手指",
+      "Ragnaros": "拉格纳罗斯",
+      "Shannox": "沙恩诺克斯"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -4315,7 +4387,20 @@
       "Akil'zon": "아킬존 <독수리의 화신>",
       "Halazzi": "할라지 <스라소니의 화신>",
       "Jan'alai": "잔알라이 <용매의 화신>",
-      "Nalorakk": "날로라크 <곰의 화신>"
+      "Nalorakk": "날로라크 <곰의 화신>",
+      "Alysrazor": "알리스라조르",
+      "Avengers of Hyjal": "하이잘의 복수자",
+      "Baleroc": "문지기 발레록",
+      "Beth'tilac": "베스틸락",
+      "Dragon Soul": "용의 영혼",
+      "Firelands": "불의 땅",
+      "Head~Shoulder": "머리~어깨",
+      "Lord Rhyolith": "군주 라이올리스",
+      "Majordomo Staghelm": "청지기 스태그헬름",
+      "Molten Front": "녹아내린 전초지",
+      "Neck~Ring": "목~손가락",
+      "Ragnaros": "라그나로스",
+      "Shannox": "샤녹스"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -4914,7 +4999,20 @@
       "Akil'zon": "阿奇爾森",
       "Halazzi": "哈拉齊",
       "Jan'alai": "賈納雷",
-      "Nalorakk": "納羅拉克"
+      "Nalorakk": "納羅拉克",
+      "Alysrazor": "艾里絲拉卓",
+      "Avengers of Hyjal": "海加爾復仇者",
+      "Baleroc": "巴勒羅克",
+      "Beth'tilac": "貝絲堤拉克",
+      "Dragon Soul": "巨龍之魂",
+      "Firelands": "火源之界",
+      "Head~Shoulder": "頭部~肩部",
+      "Lord Rhyolith": "萊爾利斯領主",
+      "Majordomo Staghelm": "管理者鹿盔",
+      "Molten Front": "熔岩前線",
+      "Neck~Ring": "頸部~手指",
+      "Ragnaros": "拉格納羅斯",
+      "Shannox": "夏諾克斯"
     }
   }
 }

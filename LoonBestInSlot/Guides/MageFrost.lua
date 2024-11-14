@@ -192,6 +192,7 @@ LBIS:AddItem(spec2, "59460", LBIS.L["Ranged/Relic"], "BIS") --Theresa's Bookligh
 LBIS:AddItem(spec2, "69607", LBIS.L["Ranged/Relic"], "Alt") --Touch of Discord
 
 LBIS:AddItem(spec3, "71508", LBIS.L["Head"], "BIS") --Firehawk Hood
+LBIS:AddItem(spec3, "71421", LBIS.L["Head"], "Alt") --Flickering Cowl
 LBIS:AddItem(spec3, "71287", LBIS.L["Head"], "Alt") --Firehawk Hood
 LBIS:AddItem(spec3, "60237", LBIS.L["Head"], "Alt") --Crown of the Twilight Queen
 LBIS:AddItem(spec3, "65210", LBIS.L["Head"], "Alt") --Firelord's Hood

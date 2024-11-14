@@ -29,6 +29,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Assassination"] = "奇袭";
   LBIS.L["Atramedes"] = "艾卓曼德斯";
   LBIS.L["Avengers of Hyjal"] = "海加尔复仇者";
+--  LBIS.L["Ayla Shadowstorm"] = "";
   LBIS.L["Back"] = "背部";
   LBIS.L["Bag"] = "背包";
   LBIS.L["Balance"] = "平衡";
@@ -65,6 +66,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Blazewing"] = "";
   LBIS.L["Blood"] = "鲜血";
   LBIS.L["Bloodlord Mandokir"] = "血领主曼多基尔";
+  LBIS.L["Brewfest"] = "美酒节";
 --  LBIS.L["Cat"] = "";
   LBIS.L["Chest"] = "胸部";
   LBIS.L["Chimaeron"] = "奇美隆";
@@ -76,6 +78,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Conclave of Wind"] = "风之议会";
 --  LBIS.L["Conquest Points"] = "";
   LBIS.L["Corborus"] = "克伯鲁斯";
+  LBIS.L["Coren Direbrew"] = "科林·烈酒";
   LBIS.L["Corla, Herald of Twilight"] = "柯尔拉";
 --  LBIS.L["Cult Alchemist"] = "";
 --  LBIS.L["Cultist Shard Watcher"] = "";
@@ -106,6 +109,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Dungeon Token"] = "";
 --  LBIS.L["Earthen Ring (Revered)"] = " (崇敬)";
   LBIS.L["Earthrager Ptah"] = "地怒者塔赫";
+  LBIS.L["Edge of Madness"] = "疯狂之缘";
   LBIS.L["Edit"] = "编辑";
   LBIS.L["Elemental"] = "元素";
 --  LBIS.L["Elemental Bonds: The Vow"] = "";
@@ -113,6 +117,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Enchanting Supplies"] = "";
 --  LBIS.L["Enchanting Trainer"] = "";
   LBIS.L["Enchants"] = "附魔";
+  LBIS.L["End Time"] = "时光之末";
   LBIS.L["Engineering (455)"] = "工程学 (455)";
   LBIS.L["Engineering (465)"] = "工程学 (465)";
   LBIS.L["Engineering (475)"] = "工程学 (475)";
@@ -133,7 +138,9 @@ if GetLocale() == "zhCN" then
   LBIS.L["Feet"] = "脚";
   LBIS.L["Fire"] = "火焰";
   LBIS.L["Firelands"] = "火焰之地";
+  LBIS.L["Firelands (Heroic)"] = "火焰之地 (英雄)";
 --  LBIS.L["Firing Squad"] = "";
+--  LBIS.L["Fissure Stone Fragment"] = "";
 --  LBIS.L["Flame-Scarred Junkbox"] = "";
   LBIS.L["Foe Reaper 5000"] = "死神5000";
   LBIS.L["Forgemaster Throngus"] = "铸炉之主索格乌斯";
@@ -156,6 +163,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Guardians of Hyjal (Revered)"] = "海加尔守护者 (崇敬)";
   LBIS.L["Halazzi"] = "哈尔拉兹";
   LBIS.L["Halfus Wyrmbreaker"] = "哈尔弗斯·碎龙者";
+  LBIS.L["Hallow's End"] = "万圣节";
   LBIS.L["Halls of Origination"] = "起源大厅";
   LBIS.L["Halls of Origination (Heroic)"] = "起源大厅 (英雄)";
   LBIS.L["Halls of Origination (Normal)"] = "起源大厅 (正常)";
@@ -163,7 +171,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Harrison Jones and the Temple of Uldum"] = "";
   LBIS.L["Hazza'rah"] = "哈扎拉尔";
   LBIS.L["Head"] = "头部";
-  LBIS.L["Head~Shoulder"] = "头部~肩部";
+  LBIS.L["Headless Horseman"] = "无头骑士";
   LBIS.L["Helix Gearbreaker"] = "赫利克斯·破甲";
   LBIS.L["Hellscream's Reach"] = "地狱咆哮近卫军";
   LBIS.L["Hex Lord Malacrass"] = "妖术领主玛拉卡斯";
@@ -220,6 +228,9 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Leatherworking Trainer"] = "";
   LBIS.L["Left Click"] = "鼠标左击";
   LBIS.L["Legacy"] = "传承";
+--  LBIS.L["Legendary Staff Stage One"] = "";
+--  LBIS.L["Legendary Staff Stage Three"] = "";
+--  LBIS.L["Legendary Staff Stage Two"] = "";
   LBIS.L["Legs"] = "腿部";
   LBIS.L["Lockmaw"] = "锁喉";
 --  LBIS.L["Loon Best In Slot"] = "";
@@ -230,9 +241,11 @@ if GetLocale() == "zhCN" then
   LBIS.L["Lost City of the Tol'vir"] = "托维尔失落之城";
   LBIS.L["Lost City of the Tol'vir (Heroic)"] = "托维尔失落之城 (英雄)";
   LBIS.L["Lost City of the Tol'vir (Normal)"] = "托维尔失落之城 (正常)";
+--  LBIS.L["Lurah Wrathvine"] = "";
   LBIS.L["Magmaw"] = "熔喉";
   LBIS.L["Main Hand"] = "主手";
   LBIS.L["Main Hand~Off Hand"] = "主手~副手";
+  LBIS.L["Main Hand~Off Hand~Two Hand"] = "主手~副手~双手";
   LBIS.L["Main Hand~Two Hand"] = "主手~双手";
   LBIS.L["Majordomo Staghelm"] = "管理者鹿盔";
   LBIS.L["Maloriak"] = "马洛拉克";
@@ -242,22 +255,22 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Mobus"] = "";
   LBIS.L["Molten Front"] = "熔火前线";
   LBIS.L["Mount Hyjal"] = "海加尔山";
+  LBIS.L["Murozond"] = "姆诺兹多";
   LBIS.L["Nalorakk"] = "纳洛拉克";
 --  LBIS.L["Narkrall, The Drake-Tamer"] = "";
   LBIS.L["Neck"] = "颈部";
-  LBIS.L["Neck~Ring"] = "颈部~手指";
   LBIS.L["Nefarian"] = "奈法利安";
 --  LBIS.L["New Features"] = "";
 --  LBIS.L["Night Terrors"] = "";
   LBIS.L["None"] = "暂无";
   LBIS.L["Occu'thar"] = "欧库塔尔";
   LBIS.L["Off Hand"] = "副手";
-  LBIS.L["Off Hand~Two Hand"] = "副手~双手";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
   LBIS.L["Orgrimmar"] = "奥格瑞玛";
   LBIS.L["Ozruk"] = "欧泽鲁克";
   LBIS.L["Ozumat"] = "厄祖玛特";
+--  LBIS.L["Paladin Skill"] = "";
 --  LBIS.L["Phase 1"] = "";
 --  LBIS.L["Phase 2"] = "";
 --  LBIS.L["Phase 3"] = "";
@@ -382,7 +395,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Wrist"] = "手腕";
 --  LBIS.L["Xariona"] = "";
   LBIS.L["Zanzil"] = "赞吉尔";
---  LBIS.L["Zen'Vorkammer"] = "";
+--  LBIS.L["Zen'Vorka"] = "";
   LBIS.L["Zul'Aman"] = "祖阿曼";
   LBIS.L["Zul'Gurub"] = "祖尔格拉布";
 end
