@@ -255,6 +255,7 @@ LBIS:AddItem(spec3, "71086", LBIS.L["Main Hand"], "BIS") --Dragonwrath, Tarecgos
 LBIS:AddItem(spec3, "71797", LBIS.L["Main Hand"], "Alt") --Sho'ravon, Greatstaff of Annihilation
 LBIS:AddItem(spec3, "71784", LBIS.L["Main Hand"], "Alt") --Firethorn Mindslicer
 LBIS:AddItem(spec3, "71422", LBIS.L["Main Hand"], "Alt") --Volcanospike
+LBIS:AddItem(spec3, "71409", LBIS.L["Main Hand"], "Alt") --Funeral Pyre
 LBIS:AddItem(spec3, "71360", LBIS.L["Main Hand"], "Alt") --Spire of Scarlet Pain
 LBIS:AddItem(spec3, "71359", LBIS.L["Main Hand"], "Alt") --Chelley's Sterilized Scalpel
 LBIS:AddItem(spec3, "68132", LBIS.L["Main Hand"], "Alt") --Stormwake, the Tempest's Reach

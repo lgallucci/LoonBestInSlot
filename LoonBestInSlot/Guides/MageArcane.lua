@@ -263,6 +263,7 @@ LBIS:AddItem(spec3, "68998", LBIS.L["Trinket"], "Alt") --Rune of Zeth
 LBIS:AddItem(spec3, "65053", LBIS.L["Trinket"], "Alt") --Bell of Enraging Resonance
 LBIS:AddItem(spec3, "71086", LBIS.L["Main Hand"], "BIS") --Dragonwrath, Tarecgosa's Rest
 LBIS:AddItem(spec3, "71797", LBIS.L["Main Hand"], "Alt") --Sho'ravon, Greatstaff of Annihilation
+LBIS:AddItem(spec3, "71409", LBIS.L["Main Hand"], "Alt") --Funeral Pyre
 LBIS:AddItem(spec3, "71422", LBIS.L["Main Hand"], "Alt") --Volcanospike
 LBIS:AddItem(spec3, "71784", LBIS.L["Main Hand"], "Alt") --Firethorn Mindslicer
 LBIS:AddItem(spec3, "71360", LBIS.L["Main Hand"], "Alt") --Spire of Scarlet Pain

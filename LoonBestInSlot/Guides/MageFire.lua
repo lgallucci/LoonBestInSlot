@@ -261,13 +261,14 @@ LBIS:AddItem(spec3, "70124", LBIS.L["Ring"], "Alt") --Spirit Fragment Band
 LBIS:AddItem(spec3, "58188", LBIS.L["Ring"], "Alt") --Band of Secret Names
 LBIS:AddItem(spec3, "62047", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Volcano
 LBIS:AddItem(spec3, "69110", LBIS.L["Trinket"], "BIS") --Variable Pulse Lightning Capacitor
-LBIS:AddItem(spec3, "68998", LBIS.L["Trinket"], "Alt") --Rune of Zeth
 LBIS:AddItem(spec3, "65105", LBIS.L["Trinket"], "Alt") --Theralion's Mirror
+LBIS:AddItem(spec3, "68998", LBIS.L["Trinket"], "Alt") --Rune of Zeth
 LBIS:AddItem(spec3, "65053", LBIS.L["Trinket"], "Alt") --Bell of Enraging Resonance
 LBIS:AddItem(spec3, "71086", LBIS.L["Main Hand"], "BIS") --Dragonwrath, Tarecgosa's Rest
 LBIS:AddItem(spec3, "71797", LBIS.L["Main Hand"], "Alt") --Sho'ravon, Greatstaff of Annihilation
 LBIS:AddItem(spec3, "71784", LBIS.L["Main Hand"], "Alt") --Firethorn Mindslicer
 LBIS:AddItem(spec3, "71422", LBIS.L["Main Hand"], "Alt") --Volcanospike
+LBIS:AddItem(spec3, "71409", LBIS.L["Main Hand"], "Alt") --Funeral Pyre
 LBIS:AddItem(spec3, "71360", LBIS.L["Main Hand"], "Alt") --Spire of Scarlet Pain
 LBIS:AddItem(spec3, "71359", LBIS.L["Main Hand"], "Alt") --Chelley's Sterilized Scalpel
 LBIS:AddItem(spec3, "68132", LBIS.L["Main Hand"], "Alt") --Stormwake, the Tempest's Reach
