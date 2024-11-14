@@ -11,19 +11,19 @@ public class RaidImporter : LootImporter
     {
         //Firelands
         { @"https://www.wowhead.com/cata/npc=53691/shannox#drops;mode:n10", "Shannox, Firelands" },
-        { @"https://www.wowhead.com/cata/npc=53691/shannox#drops;mode:h10", "Shannox, Firelands" },
+        { @"https://www.wowhead.com/cata/npc=53691/shannox#drops;mode:h10", "Shannox, Firelands (Heroic)" },
         { @"https://www.wowhead.com/cata/npc=52558/lord-rhyolith#drops;mode:n10", "Lord Rhyolith, Firelands" },
-        { @"https://www.wowhead.com/cata/npc=52558/lord-rhyolith#drops;mode:h10", "Lord Rhyolith, Firelands" },
+        { @"https://www.wowhead.com/cata/npc=52558/lord-rhyolith#drops;mode:h10", "Lord Rhyolith, Firelands (Heroic)" },
         { @"https://www.wowhead.com/cata/npc=52498/bethtilac#drops;mode:n10", "Beth'tilac, Firelands" },
-        { @"https://www.wowhead.com/cata/npc=52498/bethtilac#drops;mode:h10", "Beth'tilac, Firelands" },
+        { @"https://www.wowhead.com/cata/npc=52498/bethtilac#drops;mode:h10", "Beth'tilac, Firelands (Heroic)" },
         { @"https://www.wowhead.com/cata/npc=52530/alysrazor#drops;mode:n10", "Alysrazor, Firelands" },
-        { @"https://www.wowhead.com/cata/npc=52530/alysrazor#drops;mode:h10", "Alysrazor, Firelands" },
+        { @"https://www.wowhead.com/cata/npc=52530/alysrazor#drops;mode:h10", "Alysrazor, Firelands (Heroic)" },
         { @"https://www.wowhead.com/cata/npc=53494/baleroc#drops;mode:n10", "Baleroc, Firelands" },
-        { @"https://www.wowhead.com/cata/npc=53494/baleroc#drops;mode:h10", "Baleroc, Firelands" },
+        { @"https://www.wowhead.com/cata/npc=53494/baleroc#drops;mode:h10", "Baleroc, Firelands (Heroic)" },
         { @"https://www.wowhead.com/cata/npc=52571/majordomo-staghelm#drops;mode:n10", "Majordomo Staghelm, Firelands" },
-        { @"https://www.wowhead.com/cata/npc=52571/majordomo-staghelm#drops;mode:h10", "Majordomo Staghelm, Firelands" },
+        { @"https://www.wowhead.com/cata/npc=52571/majordomo-staghelm#drops;mode:h10", "Majordomo Staghelm, Firelands (Heroic)" },
         { @"https://www.wowhead.com/cata/npc=52409/ragnaros#drops;mode:n10", "Ragnaros, Firelands" },
-        { @"https://www.wowhead.com/cata/npc=52409/ragnaros#drops;mode:h10", "Ragnaros, Firelands" },
+        { @"https://www.wowhead.com/cata/npc=52409/ragnaros#drops;mode:h10", "Ragnaros, Firelands (Heroic)" },
     };
 
     private Dictionary<string, string> wowheadContainsUriList = new Dictionary<string, string>

@@ -179,6 +179,17 @@ function ToPrintableBoolean(boolValue)
     end
 end
 
+function PrintDebugData(itemId, specItem, specItemSource)
+    print("item("..itemId..")");
+    print("-- IsInFaction("..ToPrintableBoolean(IsInFaction(specItemSource))..")");
+    print("-- IsInSlot("..ToPrintableBoolean(LBIS:IsInSlot(specItem))..")");
+    print("-- IsInPhase("..ToPrintableBoolean(IsInPhase(specItem, specItemSource))..")");
+    print("-- IsInSource("..ToPrintableBoolean(LBIS:IsInSource(specItemSource))..")"); 
+    print("-- IsInZone("..ToPrintableBoolean(LBIS:IsInZone(specItemSource))..")");
+    print("-- IsNotInClassic("..ToPrintableBoolean(IsNotInClassic(specItemSource))..")");
+    print("-- IsNotObsolete("..ToPrintableBoolean(IsNotObsolete(specItem))..")");
+end
+
 function LBIS.ItemList:UpdateItems()
 
     LBIS.BrowserWindow.Window.SlotDropDown:Show();
@@ -199,14 +210,7 @@ function LBIS.ItemList:UpdateItems()
             local specItemSource = LBIS.ItemSources[specItem.Id];
             
 			-- if itemId == 71289 then
-			-- 	print("item("..itemId..")");
-			-- 	print("-- IsInFaction("..ToPrintableBoolean(IsInFaction(specItemSource))..")");
-			-- 	print("-- IsInSlot("..ToPrintableBoolean(LBIS:IsInSlot(specItem))..")");
-			-- 	print("-- IsInPhase("..ToPrintableBoolean(IsInPhase(specItem, specItemSource))..")");
-			-- 	print("-- IsInSource("..ToPrintableBoolean(LBIS:IsInSource(specItemSource))..")"); 
-			-- 	print("-- IsInZone("..ToPrintableBoolean(LBIS:IsInZone(specItemSource))..")");
-			-- 	print("-- IsNotInClassic("..ToPrintableBoolean(IsNotInClassic(specItemSource))..")");
-			-- 	print("-- IsNotObsolete("..ToPrintableBoolean(IsNotObsolete(specItem))..")");
+                -- PrintDebugData(71289, specItem, specItemSource)
 			-- end
 
             if specItemSource == nil then
