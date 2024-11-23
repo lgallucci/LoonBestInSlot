@@ -338,6 +338,7 @@ LBIS:AddItem(spec3, "64904", LBIS.L["Ring"], "Alt") --Ring of the Boy Emperor
 LBIS:AddItem(spec3, "58188", LBIS.L["Ring"], "Alt") --Band of Secret Names
 LBIS:AddItem(spec3, "69110", LBIS.L["Trinket"], "BIS") --Variable Pulse Lightning Capacitor
 LBIS:AddItem(spec3, "62047", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Volcano
+LBIS:AddItem(spec3, "68925", LBIS.L["Trinket"], "Alt") --Variable Pulse Lightning Capacitor
 LBIS:AddItem(spec3, "69139", LBIS.L["Trinket"], "Alt") --Necromantic Focus
 LBIS:AddItem(spec3, "65053", LBIS.L["Trinket"], "Alt") --Bell of Enraging Resonance
 LBIS:AddItem(spec3, "65110", LBIS.L["Trinket"], "Alt") --Heart of Ignacious

@@ -280,7 +280,8 @@ LBIS:AddItem(spec3, "70488", LBIS.L["Hands"], "Alt") --Ruthless Gladiator's Scal
 LBIS:AddItem(spec3, "69936", LBIS.L["Hands"], "Alt") --Fists of Fury
 LBIS:AddItem(spec3, "65071", LBIS.L["Hands"], "Alt") --Plated Fists of Provocation
 LBIS:AddItem(spec3, "71443", LBIS.L["Waist"], "BIS") --Uncrushable Belt of Fury
-LBIS:AddItem(spec3, "71399", LBIS.L["Waist"], "Alt") --Cinch of the Flaming Ember
+LBIS:AddItem(spec3, "71250", LBIS.L["Waist"], "Alt") --Cinch of the Flaming Ember
+LBIS:AddItem(spec3, "71021", LBIS.L["Waist"], "Alt") --Uncrushable Belt of Fury
 LBIS:AddItem(spec3, "65040", LBIS.L["Waist"], "Alt") --Belt of Absolute Zero
 LBIS:AddItem(spec3, "65369", LBIS.L["Waist"], "Alt") --Sky Strider Belt
 LBIS:AddItem(spec3, "70326", LBIS.L["Waist"], "Alt") --Ruthless Gladiator's Girdle of Prowess
