@@ -365,9 +365,13 @@ public class WowheadGuideParser
                     return false;
                 if (phase == "Phase2" && (s.ToLower() == "phase 2" || s.ToLower() == "p2"))
                     return false;
-                else if (phase == "Phase3" && (s.ToLower() == "phase 3" || s.ToLower() == "p3"))
+                if (phase == "Phase3" && (s.ToLower() == "phase 3" || s.ToLower() == "p3"))
                     return false;
-                else if (phase == "Phase4" && (s.ToLower() == "phase 4" || s.ToLower() == "p4"))
+                if (phase == "Phase4" && (s.ToLower() == "phase 4" || s.ToLower() == "p4"))
+                    return false;
+                if (phase == "Phase5" && (s.ToLower() == "phase 5" || s.ToLower() == "p5"))
+                    return false;
+                if (phase == "Phase6" && (s.ToLower() == "phase 6" || s.ToLower() == "p6"))
                     return false;
 
                 return htmlBisText?.ToLower().Contains(s) ?? false;

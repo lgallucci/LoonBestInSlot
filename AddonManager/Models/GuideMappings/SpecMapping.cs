@@ -25,7 +25,9 @@ internal abstract class SpecMapping
             //new ClassGuideMapping(UrlBase + Phase2Url, Spec, Class, "Phase2", Phase2),
             //new ClassGuideMapping(UrlBase + Phase3Url, Spec, Class, "Phase3", Phase3),
             //new ClassGuideMapping(UrlBase + Phase4Url, Spec, Class, "Phase4", Phase4),
-            new ClassGuideMapping(UrlBase + CurrentUrl, Spec, Class, "Phase5", CurrentPhase)
+            //new ClassGuideMapping(UrlBase + CurrentUrl, Spec, Class, "Phase5", CurrentPhase)
+            new ClassGuideMapping(UrlBase + CurrentUrl, Spec, Class, "Phase6", CurrentPhase)
+            //new ClassGuideMapping(UrlBase + CurrentUrl, Spec, Class, "Phase7", CurrentPhase)
         };
 
         return list;
