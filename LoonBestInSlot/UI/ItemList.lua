@@ -144,6 +144,10 @@ local function IsInPhase(specItem, specItemSource)
         return true;
     elseif LBISSettings.SelectedPhase == LBIS.L["Phase 5"] and LBIS:FindInPhase(specItem.Phase, "5") then
         return true;
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 6"] and LBIS:FindInPhase(specItem.Phase, "6") then
+        return true;
+    elseif LBISSettings.SelectedPhase == LBIS.L["Phase 7"] and LBIS:FindInPhase(specItem.Phase, "7") then
+        return true;
     elseif LBISSettings.SelectedPhase == LBIS.L["BIS"] and strfind(specItem.Bis, "BIS") ~= nil then
         return true;
     end

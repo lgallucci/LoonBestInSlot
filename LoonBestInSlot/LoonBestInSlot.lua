@@ -13,7 +13,7 @@ LBIS.SpellCache = {};
 LBIS.Debugging = false;
 LBIS.DebuggingItem = -1;
 LBIS.AllItemsCached = false;
-LBIS.CurrentPhase = 5;
+LBIS.CurrentPhase = 6;
 
 LBIS.EventFrame = CreateFrame("FRAME",addonName.."Events")
 

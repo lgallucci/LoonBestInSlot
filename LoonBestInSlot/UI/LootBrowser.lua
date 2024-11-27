@@ -272,7 +272,8 @@ local function createDropDowns(window)
         ['name']='phase',
         ['parent']=window,
         ['title']='Phase:',
-        ['items']= { LBIS.L["All"], LBIS.L["PreRaid"], LBIS.L["Phase 1"], LBIS.L["Phase 2"], LBIS.L["Phase 3"], LBIS.L["Phase 4"], LBIS.L["Phase 5"], "BIS" }, 
+        ['items']= { LBIS.L["All"], LBIS.L["PreRaid"], LBIS.L["Phase 1"], LBIS.L["Phase 2"], LBIS.L["Phase 3"], LBIS.L["Phase 4"], LBIS.L["Phase 5"], LBIS.L["Phase 6"], "BIS" }, 
+        --LBIS.L["Phase 7"],
         ['defaultVal']=LBISSettings.SelectedPhase,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedPhase = dropdown_val;
