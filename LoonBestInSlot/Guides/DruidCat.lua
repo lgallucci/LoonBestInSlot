@@ -259,8 +259,8 @@ LBIS:AddItem(spec3, "69001", LBIS.L["Trinket"], "Alt") --Ancient Petrified Seed
 LBIS:AddItem(spec3, "59520", LBIS.L["Trinket"], "Alt") --Unheeded Warning
 LBIS:AddItem(spec3, "56328", LBIS.L["Trinket"], "Alt") --Key to the Endless Chamber
 LBIS:AddItem(spec3, "71466", LBIS.L["Two Hand"], "BIS") --Fandral's Flamescythe
+LBIS:AddItem(spec3, "71557", LBIS.L["Two Hand"], "BIS") --Ranseur of Hatred
 LBIS:AddItem(spec3, "65139", LBIS.L["Two Hand"], "BIS") --Malevolence
-LBIS:AddItem(spec3, "71557", LBIS.L["Two Hand"], "Alt") --Ranseur of Hatred
 LBIS:AddItem(spec3, "70165", LBIS.L["Two Hand"], "Alt") --Witch-Hunter's Harvester
 LBIS:AddItem(spec3, "71567", LBIS.L["Ranged/Relic"], "BIS") --Covenant of the Flame
 LBIS:AddItem(spec3, "64671", LBIS.L["Ranged/Relic"], "BIS") --Relic of Golganneth

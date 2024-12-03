@@ -343,6 +343,7 @@ LBIS:AddItem(spec3, "67130", LBIS.L["Neck"], "Alt") --Dorian's Lost Necklace
 LBIS:AddItem(spec3, "62416", LBIS.L["Neck"], "Alt") --Yellow Smoke Pendant
 LBIS:AddItem(spec3, "71237", LBIS.L["Ring"], "BIS") --Quicksilver Signet of the Avengers
 LBIS:AddItem(spec3, "71449", LBIS.L["Ring"], "BIS") --Crystal Prison Band
+LBIS:AddItem(spec3, "71211", LBIS.L["Ring"], "Alt") --Soothing Brimstone Circle
 LBIS:AddItem(spec3, "65123", LBIS.L["Ring"], "Alt") --Signet of the Fifth Circle
 LBIS:AddItem(spec3, "65373", LBIS.L["Ring"], "Alt") --Planetary Band
 LBIS:AddItem(spec3, "65076", LBIS.L["Ring"], "Alt") --Security Measure Alpha
