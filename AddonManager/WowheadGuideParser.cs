@@ -72,12 +72,13 @@ public class WowheadGuideParser
         { 18173, 22596 }, //Shadow Mantle of the Dawn
         { 22635, 28161 }, //Savage Guard
         { 231357, 468321 }, //Animist's Fury
-         { 231373, 468359 }, //Vodouisant's Charm
-         { 235529, 1217206 }, //Obsidian Scope
-         { 235526, 1217189 }, //Formula: Enchant Bracer - Spell Power
-         { 233803, 1213833 }, //Sharpened Chitin Armor Kit
-         { 233802, 1213829 }, //Glowing Chitin Armor Kit
-         { 231383, 468380 }, //Presence of Sight
+        { 231373, 468359 }, //Vodouisant's Charm
+        { 235529, 1217206 }, //Obsidian Scope
+        { 235526, 1217189 }, //Formula: Enchant Bracer - Spell Power
+        { 233803, 1213833 }, //Sharpened Chitin Armor Kit
+        { 233802, 1213829 }, //Glowing Chitin Armor Kit
+        { 231383, 468380 }, //Presence of Sight
+        { 231358, 468323 }, //Animist's Roar
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()
