@@ -21,6 +21,6 @@ internal class DruidBalanceDpsMapping : SpecMapping
         {
             { ("Main Hand", "h3#main-hand") },
             { ("Off Hand", "h3#off-hand") },
-            { ("Ranged/Relic", "h3#ranged") },
+            { ("Ranged/Relic", "h3#idol") },
         };
 }
