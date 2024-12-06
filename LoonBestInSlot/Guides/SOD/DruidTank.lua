@@ -7,7 +7,7 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Tank"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Tank"], "6")
 
-    LBIS:AddEnchant(spec6, "231358", LBIS.L["Head"]) --Animist's Roar
+    LBIS:AddEnchant(spec6, "468323", LBIS.L["Head"]) --Animist's Roar
     LBIS:AddEnchant(spec6, "432190", LBIS.L["Head"]) --Wolfshead Trophy
     LBIS:AddEnchant(spec6, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
     LBIS:AddEnchant(spec6, "25086", LBIS.L["Back"]) --Enchant Cloak - Dodge
@@ -16,7 +16,7 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
     LBIS:AddEnchant(spec6, "25072", LBIS.L["Hands"]) --Enchant Gloves - Threat
     LBIS:AddEnchant(spec6, "25080", LBIS.L["Hands"]) --Enchant Gloves - Superior Agility
-    LBIS:AddEnchant(spec6, "231358", LBIS.L["Legs"]) --Animist's Roar
+    LBIS:AddEnchant(spec6, "468323", LBIS.L["Legs"]) --Animist's Roar
     LBIS:AddEnchant(spec6, "468321", LBIS.L["Legs"]) --Animist's Fury
     LBIS:AddEnchant(spec6, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader

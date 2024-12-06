@@ -8,12 +8,14 @@ local function LoadData()
     local spec6 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "6")
 
     LBIS:AddEnchant(spec6, "468383", LBIS.L["Head"]) --Falcon's Fury
+    LBIS:AddEnchant(spec6, "468325", LBIS.L["Head"]) --Falcon's Call
     LBIS:AddEnchant(spec6, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
     LBIS:AddEnchant(spec6, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
     LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec6, "1217203", LBIS.L["Wrist"]) --Enchant Bracer - Agility
     LBIS:AddEnchant(spec6, "25080", LBIS.L["Hands"]) --Enchant Gloves - Superior Agility
     LBIS:AddEnchant(spec6, "468383", LBIS.L["Legs"]) --Falcon's Fury
+    LBIS:AddEnchant(spec6, "468325", LBIS.L["Legs"]) --Falcon's Call
     LBIS:AddEnchant(spec6, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Off Hand"]) --Enchant Weapon - Crusader
