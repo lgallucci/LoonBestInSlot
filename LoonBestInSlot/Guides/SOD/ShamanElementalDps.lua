@@ -7,16 +7,16 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "6")
 
-    LBIS:AddEnchant(spec6, "231373", LBIS.L["Head"]) --Vodouisant's Charm
+    LBIS:AddEnchant(spec6, "468359", LBIS.L["Head"]) --Vodouisant's Charm
     LBIS:AddEnchant(spec6, "468354", LBIS.L["Head"]) --Vodouisant's Shroud
     LBIS:AddEnchant(spec6, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
     LBIS:AddEnchant(spec6, "25084", LBIS.L["Back"]) --Enchant Cloak - Subtlety
-    LBIS:AddEnchant(spec6, "233802", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec6, "233802", LBIS.L["Wrist"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec6, "233802", LBIS.L["Hands"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec6, "231373", LBIS.L["Legs"]) --Vodouisant's Charm
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Wrist"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Hands"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "468359", LBIS.L["Legs"]) --Vodouisant's Charm
     LBIS:AddEnchant(spec6, "468354", LBIS.L["Legs"]) --Vodouisant's Shroud
-    LBIS:AddEnchant(spec6, "233802", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "23804", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Intellect
     LBIS:AddEnchant(spec6, "463871", LBIS.L["Off Hand"]) --Enchant Shield - Law of Nature
 

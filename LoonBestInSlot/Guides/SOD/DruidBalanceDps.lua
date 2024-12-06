@@ -11,11 +11,11 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
     LBIS:AddEnchant(spec6, "25082", LBIS.L["Back"]) --Enchant Cloak - Greater Nature Resistance
     LBIS:AddEnchant(spec6, "25084", LBIS.L["Back"]) --Enchant Cloak - Subtlety
-    LBIS:AddEnchant(spec6, "233802", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec6, "235526", LBIS.L["Wrist"]) --Formula: Enchant Bracer - Spell Power
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "1217189", LBIS.L["Wrist"]) --Formula: Enchant Bracer - Spell Power
     LBIS:AddEnchant(spec6, "1213626", LBIS.L["Hands"]) --Enchant Gloves - Arcane Power
     LBIS:AddEnchant(spec6, "468318", LBIS.L["Legs"]) --Animist's Balance
-    LBIS:AddEnchant(spec6, "233802", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
 
     LBIS:AddItem(spec0, "228677", LBIS.L["Head"], "BIS") --Spellweaver's Turban

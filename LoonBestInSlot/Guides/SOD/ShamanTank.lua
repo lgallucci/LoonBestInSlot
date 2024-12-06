@@ -13,14 +13,14 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
     LBIS:AddEnchant(spec6, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
     LBIS:AddEnchant(spec6, "25086", LBIS.L["Back"]) --Enchant Cloak - Dodge
-    LBIS:AddEnchant(spec6, "233803", LBIS.L["Chest"]) --Sharpened Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "1213833", LBIS.L["Chest"]) --Sharpened Chitin Armor Kit
     LBIS:AddEnchant(spec6, "13931", LBIS.L["Wrist"]) --Enchant Bracer - Deflection
-    LBIS:AddEnchant(spec6, "233803", LBIS.L["Hands"]) --Sharpened Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "1213833", LBIS.L["Hands"]) --Sharpened Chitin Armor Kit
     LBIS:AddEnchant(spec6, "20013", LBIS.L["Hands"]) --Enchant Gloves - Greater Strength
     LBIS:AddEnchant(spec6, "468362", LBIS.L["Legs"]) --Vodouisant's Vigilance
     LBIS:AddEnchant(spec6, "468354", LBIS.L["Legs"]) --Vodouisant's Shroud
     LBIS:AddEnchant(spec6, "468351", LBIS.L["Legs"]) --Vodouisant's Embrace
-    LBIS:AddEnchant(spec6, "233803", LBIS.L["Feet"]) --Sharpened Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "1213833", LBIS.L["Feet"]) --Sharpened Chitin Armor Kit
     LBIS:AddEnchant(spec6, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec6, "463871", LBIS.L["Off Hand"]) --Enchant Shield - Law of Nature

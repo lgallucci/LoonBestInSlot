@@ -10,7 +10,7 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "468314", LBIS.L["Head"]) --Animist's Caress
     LBIS:AddEnchant(spec6, "24420", LBIS.L["Shoulder"]) --Zandalar Signet of Serenity
     LBIS:AddEnchant(spec6, "25084", LBIS.L["Back"]) --Enchant Cloak - Subtlety
-    LBIS:AddEnchant(spec6, "233802", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "23802", LBIS.L["Wrist"]) --Enchant Bracer - Healing Power
     LBIS:AddEnchant(spec6, "25079", LBIS.L["Hands"]) --Enchant Gloves - Healing Power
     LBIS:AddEnchant(spec6, "468314", LBIS.L["Legs"]) --Animist's Caress

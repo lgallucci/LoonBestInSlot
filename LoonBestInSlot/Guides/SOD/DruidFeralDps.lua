@@ -20,7 +20,7 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "1217203", LBIS.L["Wrist"]) --Enchant Bracer - Agility
     LBIS:AddEnchant(spec6, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
     LBIS:AddEnchant(spec6, "25080", LBIS.L["Hands"]) --Enchant Gloves - Superior Agility
-    LBIS:AddEnchant(spec6, "231357", LBIS.L["Legs"]) --Animist's Fury
+    LBIS:AddEnchant(spec6, "468321", LBIS.L["Legs"]) --Animist's Fury
     LBIS:AddEnchant(spec6, "15394", LBIS.L["Legs"]) --Lesser Arcanum of Resilience
     LBIS:AddEnchant(spec6, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Two Hand"]) --Enchant Weapon - Crusader

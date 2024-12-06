@@ -9,18 +9,18 @@ local function LoadData()
 
     LBIS:AddEnchant(spec6, "468368", LBIS.L["Head"]) --Hoodoo Curse
     LBIS:AddEnchant(spec6, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
-    LBIS:AddEnchant(spec6, "18173", LBIS.L["Shoulder"]) --Shadow Mantle of the Dawn
+    LBIS:AddEnchant(spec6, "22596", LBIS.L["Shoulder"]) --Shadow Mantle of the Dawn
     LBIS:AddEnchant(spec6, "25086", LBIS.L["Back"]) --Enchant Cloak - Dodge
     LBIS:AddEnchant(spec6, "13522", LBIS.L["Back"]) --Enchant Cloak - Lesser Shadow Resistance
-    LBIS:AddEnchant(spec6, "233802", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "20026", LBIS.L["Chest"]) --Enchant Chest - Major Health
     LBIS:AddEnchant(spec6, "20011", LBIS.L["Wrist"]) --Enchant Bracer - Superior Stamina
     LBIS:AddEnchant(spec6, "13931", LBIS.L["Wrist"]) --Enchant Bracer - Deflection
-    LBIS:AddEnchant(spec6, "233802", LBIS.L["Hands"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Hands"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "25078", LBIS.L["Hands"]) --Enchant Gloves - Fire Power
     LBIS:AddEnchant(spec6, "13948", LBIS.L["Hands"]) --Enchant Gloves - Minor Haste
     LBIS:AddEnchant(spec6, "468368", LBIS.L["Legs"]) --Hoodoo Curse
-    LBIS:AddEnchant(spec6, "233802", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec6, "20020", LBIS.L["Feet"]) --Enchant Boots - Greater Stamina
     LBIS:AddEnchant(spec6, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power

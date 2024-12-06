@@ -15,7 +15,6 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "13945", LBIS.L["Wrist"]) --Enchant Bracer - Greater Stamina
     LBIS:AddEnchant(spec6, "25080", LBIS.L["Hands"]) --Enchant Gloves - Superior Agility
     LBIS:AddEnchant(spec6, "468376", LBIS.L["Legs"]) --Presence of Valor
-    LBIS:AddEnchant(spec6, "233374", LBIS.L["Legs"]) --Conqueror's Legguards
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec6, "20017", LBIS.L["Off Hand"]) --Enchant Shield - Greater Stamina

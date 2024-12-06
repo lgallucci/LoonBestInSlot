@@ -10,11 +10,11 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "468344", LBIS.L["Head"]) --Prophetic Curse
     LBIS:AddEnchant(spec6, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
     LBIS:AddEnchant(spec6, "461129", LBIS.L["Back"]) --Hydraxian Coronation
-    LBIS:AddEnchant(spec6, "233802", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "1217189", LBIS.L["Wrist"]) --Enchant Bracer - Spell Power
-    LBIS:AddEnchant(spec6, "233802", LBIS.L["Hands"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Hands"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "468344", LBIS.L["Legs"]) --Prophetic Curse
-    LBIS:AddEnchant(spec6, "233802", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
     LBIS:AddEnchant(spec6, "22749", LBIS.L["Two Hand"]) --Enchant Weapon - Spell Power
 

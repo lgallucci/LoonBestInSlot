@@ -7,14 +7,14 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Healer"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Healer"], "6")
 
-    LBIS:AddEnchant(spec6, "231383", LBIS.L["Head"]) --Presence of Sight
+    LBIS:AddEnchant(spec6, "468380", LBIS.L["Head"]) --Presence of Sight
     LBIS:AddEnchant(spec6, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
     LBIS:AddEnchant(spec6, "25082", LBIS.L["Back"]) --Enchant Cloak - Greater Nature Resistance
     LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec6, "1217189", LBIS.L["Wrist"]) --Enchant Bracer - Spell Power
     LBIS:AddEnchant(spec6, "25074", LBIS.L["Hands"]) --Enchant Gloves - Frost Power
     LBIS:AddEnchant(spec6, "1213626", LBIS.L["Hands"]) --Enchant Gloves - Arcane Power
-    LBIS:AddEnchant(spec6, "231383", LBIS.L["Legs"]) --Presence of Sight
+    LBIS:AddEnchant(spec6, "468380", LBIS.L["Legs"]) --Presence of Sight
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec6, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
 

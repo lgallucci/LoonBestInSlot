@@ -1,4 +1,5 @@
-﻿using System.Net.Http;
+﻿using System.Net;
+using System.Net.Http;
 using System.Text.RegularExpressions;
 using System.Windows.Documents;
 using System.Xml.Serialization;
@@ -17,6 +18,10 @@ public class WowheadGuideParser
                                                             "of the Tiger", "of Agility", "of the Squire" };
 
     private Random _rand = new Random(DateTime.Now.Millisecond);
+
+    private HashSet<int> _excludedEnchants = new HashSet<int>() {
+        233374, //Conqueror's Legguards
+    };
 
     private Dictionary<int, int> _enchantSwaps = new Dictionary<int, int>()
     {
@@ -63,6 +68,16 @@ public class WowheadGuideParser
         { 231362, 468330 }, //Syncretist's Sigil
         { 231371, 468351 }, //Vodouisant's Embrace 
         { 231372, 468354 }, //Vodouisant's Shroud
+        { 18172, 22597 }, //Nature Mantle of the Dawn
+        { 18173, 22596 }, //Shadow Mantle of the Dawn
+        { 22635, 28161 }, //Savage Guard
+        { 231357, 468321 }, //Animist's Fury
+         { 231373, 468359 }, //Vodouisant's Charm
+         { 235529, 1217206 }, //Obsidian Scope
+         { 235526, 1217189 }, //Formula: Enchant Bracer - Spell Power
+         { 233803, 1213833 }, //Sharpened Chitin Armor Kit
+         { 233802, 1213829 }, //Glowing Chitin Armor Kit
+         { 231383, 468380 }, //Presence of Sight
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()
@@ -322,6 +337,9 @@ public class WowheadGuideParser
             {
                 textureId = itemId.ToString();
                 itemId = _enchantSwaps[itemId];
+            } else if (_excludedEnchants.Contains(itemId))
+            {
+                return;
             }
 
             if (!enchants.ContainsKey(itemId + slot))
