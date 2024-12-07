@@ -406,6 +406,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "234032", LBIS.L["Ring"], "Alt") --Signet Ring of the Bronze Dragonflight
     LBIS:AddItem(spec6, "234436", LBIS.L["Ring"], "Alt") --Signet Ring of the Bronze Dragonflight
     LBIS:AddItem(spec6, "234803", LBIS.L["Ring"], "Alt") --Ring of the Fallen God
+    LBIS:AddItem(spec6, "233648", LBIS.L["Ring"], "Alt") --Ritssyn's Ring of Chaos
     LBIS:AddItem(spec6, "234169", LBIS.L["Ring"], "Alt") --Mindtear Band
     LBIS:AddItem(spec6, "228287", LBIS.L["Ring"], "Alt") --Band of Sulfuras
     LBIS:AddItem(spec6, "228687", LBIS.L["Ring"], "Alt") --Dragonslayer's Signet

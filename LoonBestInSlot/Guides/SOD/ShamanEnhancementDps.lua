@@ -7,8 +7,8 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement Dps"], "6")
 
-    LBIS:AddEnchant(spec6, "468354", LBIS.L["Head"]) --Vodouisant's Shroud
     LBIS:AddEnchant(spec6, "468351", LBIS.L["Head"]) --Vodouisant's Embrace
+    LBIS:AddEnchant(spec6, "468354", LBIS.L["Head"]) --Vodouisant's Shroud
     LBIS:AddEnchant(spec6, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
     LBIS:AddEnchant(spec6, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
     LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
@@ -388,19 +388,20 @@ local function LoadData()
     LBIS:AddItem(spec6, "228685", LBIS.L["Neck"], "Alt") --Onyxia Tooth Pendant
     LBIS:AddItem(spec6, "228147", LBIS.L["Neck"], "Alt") --Magmadar's Horn
     LBIS:AddItem(spec6, "233600", LBIS.L["Ring"], "BIS") --Ring of the Qiraji Fury
-    LBIS:AddItem(spec6, "234034", LBIS.L["Ring"], "BIS") --Signet Ring of the Bronze Dragonflight
+    LBIS:AddItem(spec6, "228261", LBIS.L["Ring"], "BIS") --Quick Strike Ring
+    LBIS:AddItem(spec6, "234034", LBIS.L["Ring"], "Alt") --Signet Ring of the Bronze Dragonflight
     LBIS:AddItem(spec6, "228286", LBIS.L["Ring"], "Alt") --Band of Accuria
     LBIS:AddItem(spec6, "230839", LBIS.L["Ring"], "Alt") --Master Dragonslayer's Ring
-    LBIS:AddItem(spec6, "228261", LBIS.L["Ring"], "Alt") --Quick Strike Ring
     LBIS:AddItem(spec6, "233627", LBIS.L["Trinket"], "BIS") --Jom Gabbar
-    LBIS:AddItem(spec6, "230273", LBIS.L["Trinket"], "BIS") --Natural Alignment Crystal
+    LBIS:AddItem(spec6, "233990", LBIS.L["Trinket"], "BIS") --Speedstone
+    LBIS:AddItem(spec6, "230273", LBIS.L["Trinket"], "Alt") --Natural Alignment Crystal
+    LBIS:AddItem(spec6, "231779", LBIS.L["Trinket"], "Alt") --Wrath of Wray
     LBIS:AddItem(spec6, "230282", LBIS.L["Trinket"], "Alt") --Drake Fang Talisman
-    LBIS:AddItem(spec6, "233990", LBIS.L["Trinket"], "Alt") --Speedstone
     LBIS:AddItem(spec6, "230810", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
     LBIS:AddItem(spec6, "228078", LBIS.L["Trinket"], "Alt") --Accursed Chalice
     LBIS:AddItem(spec6, "228722", LBIS.L["Trinket"], "Alt") --Hand of Justice
-    LBIS:AddItem(spec6, "234554", LBIS.L["Main Hand/Off Hand"], "BIS") --High Warlord's Cleaver
-    LBIS:AddItem(spec6, "235003", LBIS.L["Main Hand/Off Hand"], "Alt") --Blessed Qiraji War Axe
+    LBIS:AddItem(spec6, "235003", LBIS.L["Main Hand/Off Hand"], "BIS") --Blessed Qiraji War Axe
+    LBIS:AddItem(spec6, "234554", LBIS.L["Main Hand/Off Hand"], "Alt") --High Warlord's Cleaver
     LBIS:AddItem(spec6, "232561", LBIS.L["Main Hand"], "Alt") --Claw of the Black Drake
     LBIS:AddItem(spec6, "231815", LBIS.L["Main Hand/Off Hand"], "Alt") --Flashrend
     LBIS:AddItem(spec6, "17068", LBIS.L["Main Hand/Off Hand"], "Alt") --Deathbringer
