@@ -366,7 +366,7 @@ public static class WowheadImporter
                 if (rowElements != null && rowElements.Length > 0)
                 {
                     var source = rowElements[0].Children[0].TextContent.Trim();
-                    var location = rowElements[0].Children[2].TextContent.Trim();
+                    var location = rowElements[0].Children[3].TextContent.Trim();
 
                     if (rowElements.Length == 1)
                     {
