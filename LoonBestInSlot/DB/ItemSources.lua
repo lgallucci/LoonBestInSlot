@@ -6068,6 +6068,7 @@ LBIS.ItemSources =
     [233577] = { Name = "Thick Qirajihide Belt", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
     [233578] = { Name = "Creeping Vine Helm", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
     [233579] = { Name = "Gloves of Enforcement", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
+    [233580] = { Name = "Badge of the Swarmguard", SourceType = LBIS.L["Drop"], Source = LBIS.L["Battleguard Sartura"], SourceNumber = "0", SourceLocation = LBIS.L["Ahn'Qiraj"], SourceFaction = "B" },
     [233581] = { Name = "Sartura's Might", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
     [233582] = { Name = "Gauntlets of Steadfast Determination", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
     [233584] = { Name = "Scaled Leggings of Qiraji Fury", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },

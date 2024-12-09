@@ -834,8 +834,8 @@ local function LoadData()
     LBIS:AddItem(spec6, "234106", LBIS.L["Hands"], "Alt") --Gloves of Dark Wisdom
     LBIS:AddItem(spec6, "231156", LBIS.L["Hands"], "Alt") --Handguards of Transcendence
     LBIS:AddItem(spec6, "230239", LBIS.L["Hands"], "Alt") --Gloves of Rapid Evolution
-    LBIS:AddItem(spec6, "231623", LBIS.L["Hands"], "Alt") --Marshal's Satin Handwraps
     LBIS:AddItem(spec6, "231633", LBIS.L["Hands"], "Alt") --General's Satin Handwraps
+    LBIS:AddItem(spec6, "231623", LBIS.L["Hands"], "Alt") --Marshal's Satin Handwraps
     LBIS:AddItem(spec6, "226572", LBIS.L["Hands"], "Alt") --Gloves of Prophecy
     LBIS:AddItem(spec6, "226950", LBIS.L["Hands"], "Alt") --Virtuous Mitts
     LBIS:AddItem(spec6, "233632", LBIS.L["Waist"], "BIS") --Grasp of the Old God
@@ -863,8 +863,8 @@ local function LoadData()
     LBIS:AddItem(spec6, "231155", LBIS.L["Feet"], "Alt") --Boots of Transcendence
     LBIS:AddItem(spec6, "230843", LBIS.L["Feet"], "Alt") --Boots of Pure Thought
     LBIS:AddItem(spec6, "234168", LBIS.L["Feet"], "Alt") --Mendicant's Slippers
-    LBIS:AddItem(spec6, "231627", LBIS.L["Feet"], "Alt") --Marshal's Satin Walkers
     LBIS:AddItem(spec6, "231630", LBIS.L["Feet"], "Alt") --General's Satin Walkers
+    LBIS:AddItem(spec6, "231627", LBIS.L["Feet"], "Alt") --Marshal's Satin Walkers
     LBIS:AddItem(spec6, "227862", LBIS.L["Feet"], "Alt") --Incandescent Mooncloth Boots
     LBIS:AddItem(spec6, "226571", LBIS.L["Feet"], "Alt") --Boots of Prophecy
     LBIS:AddItem(spec6, "226952", LBIS.L["Feet"], "Alt") --Virtuous Sandals
@@ -904,6 +904,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "228188", LBIS.L["Trinket"], "Alt") --Prestor's Hairpin
     LBIS:AddItem(spec6, "230280", LBIS.L["Trinket"], "Alt") --Aegis of Preservation
     LBIS:AddItem(spec6, "233636", LBIS.L["Main Hand"], "BIS") --Scepter of the False Prophet
+    LBIS:AddItem(spec6, "234137", LBIS.L["Main Hand"], "Alt") --Fang of Korialstrasz
     LBIS:AddItem(spec6, "231753", LBIS.L["Main Hand"], "Alt") --Skywall's Solace
     LBIS:AddItem(spec6, "230838", LBIS.L["Main Hand"], "Alt") --Lok'amir il Romathis
     LBIS:AddItem(spec6, "233429", LBIS.L["Main Hand"], "Alt") --Gavel of Infinite Wisdom

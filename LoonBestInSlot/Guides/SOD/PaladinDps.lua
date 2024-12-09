@@ -691,6 +691,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "233627", LBIS.L["Trinket"], "BIS") --Jom Gabbar
     LBIS:AddItem(spec6, "230272", LBIS.L["Trinket"], "BIS") --Scrolls of Blinding Light
     LBIS:AddItem(spec6, "233990", LBIS.L["Trinket"], "BIS") --Speedstone
+    LBIS:AddItem(spec6, "233580", LBIS.L["Trinket"], "Alt") --Badge of the Swarmguard
     LBIS:AddItem(spec6, "231779", LBIS.L["Trinket"], "Alt") --Wrath of Wray
     LBIS:AddItem(spec6, "234462", LBIS.L["Trinket"], "Alt") --Earthstrike
     LBIS:AddItem(spec6, "228078", LBIS.L["Trinket"], "Alt") --Accursed Chalice

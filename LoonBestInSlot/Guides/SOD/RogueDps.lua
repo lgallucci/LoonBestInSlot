@@ -648,9 +648,9 @@ local function LoadData()
     LBIS:AddItem(spec6, "215166", LBIS.L["Head"], "Alt") --Glowing Gneuro-Linked Cowl
     LBIS:AddItem(spec6, "228500", LBIS.L["Head"], "Alt") --Mask of the Unforgiven
     LBIS:AddItem(spec6, "231338", LBIS.L["Shoulder"], "BIS") --Zandalar Madcap's Mantle
-    LBIS:AddItem(spec6, "232185", LBIS.L["Shoulder"], "BIS") --Bloodfang Spaulders
     LBIS:AddItem(spec6, "231039", LBIS.L["Shoulder"], "BIS") --Bloodfang Spaulders
     LBIS:AddItem(spec6, "233387", LBIS.L["Shoulder"], "Alt") --Deathdealer's Spaulders
+    LBIS:AddItem(spec6, "232185", LBIS.L["Shoulder"], "Alt") --Bloodfang Spaulders
     LBIS:AddItem(spec6, "233592", LBIS.L["Shoulder"], "Alt") --Mantle of Wicked Revenge
     LBIS:AddItem(spec6, "234078", LBIS.L["Shoulder"], "Alt") --Chitinous Shoulderguards
     LBIS:AddItem(spec6, "226444", LBIS.L["Shoulder"], "Alt") --Nightslayer Shoulder Pads
@@ -674,8 +674,8 @@ local function LoadData()
     LBIS:AddItem(spec6, "20068", LBIS.L["Back"], "Alt") --Deathguard's Cloak
     LBIS:AddItem(spec6, "220615", LBIS.L["Back"], "Alt") --Panther Fur Cloak
     LBIS:AddItem(spec6, "233389", LBIS.L["Chest"], "BIS") --Deathdealer's Vest
-    LBIS:AddItem(spec6, "232190", LBIS.L["Chest"], "BIS") --Bloodfang Chestpiece
     LBIS:AddItem(spec6, "231040", LBIS.L["Chest"], "BIS") --Bloodfang Chestpiece
+    LBIS:AddItem(spec6, "232190", LBIS.L["Chest"], "Alt") --Bloodfang Chestpiece
     LBIS:AddItem(spec6, "233568", LBIS.L["Chest"], "Alt") --Vest of Swift Execution
     LBIS:AddItem(spec6, "231337", LBIS.L["Chest"], "Alt") --Zandalar Madcap's Tunic
     LBIS:AddItem(spec6, "226447", LBIS.L["Chest"], "Alt") --Nightslayer Chestpiece
@@ -720,8 +720,8 @@ local function LoadData()
     LBIS:AddItem(spec6, "13252", LBIS.L["Waist"], "Alt") --Cloudrunner Girdle
     LBIS:AddItem(spec6, "226701", LBIS.L["Waist"], "Alt") --Shadowcraft Belt
     LBIS:AddItem(spec6, "231044", LBIS.L["Legs"], "BIS") --Bloodfang Pants
-    LBIS:AddItem(spec6, "232186", LBIS.L["Legs"], "BIS") --Bloodfang Pants
-    LBIS:AddItem(spec6, "233390", LBIS.L["Legs"], "Alt") --Deathdealer's Leggings
+    LBIS:AddItem(spec6, "233390", LBIS.L["Legs"], "BIS") --Deathdealer's Leggings
+    LBIS:AddItem(spec6, "232186", LBIS.L["Legs"], "Alt") --Bloodfang Pants
     LBIS:AddItem(spec6, "234163", LBIS.L["Legs"], "Alt") --Dark Heart Pants
     LBIS:AddItem(spec6, "226445", LBIS.L["Legs"], "Alt") --Nightslayer Pants
     LBIS:AddItem(spec6, "227847", LBIS.L["Legs"], "Alt") --Devilcore Leggings
@@ -732,8 +732,8 @@ local function LoadData()
     LBIS:AddItem(spec6, "228534", LBIS.L["Legs"], "Alt") --Plaguehound Leggings
     LBIS:AddItem(spec6, "16709", LBIS.L["Legs"], "Alt") --Shadowcraft Pants
     LBIS:AddItem(spec6, "231041", LBIS.L["Feet"], "BIS") --Bloodfang Boots
-    LBIS:AddItem(spec6, "232189", LBIS.L["Feet"], "BIS") --Bloodfang Boots
-    LBIS:AddItem(spec6, "233391", LBIS.L["Feet"], "Alt") --Deathdealer's Boots
+    LBIS:AddItem(spec6, "233391", LBIS.L["Feet"], "BIS") --Deathdealer's Boots
+    LBIS:AddItem(spec6, "232189", LBIS.L["Feet"], "Alt") --Bloodfang Boots
     LBIS:AddItem(spec6, "234068", LBIS.L["Feet"], "Alt") --Boots of the Vanguard
     LBIS:AddItem(spec6, "230805", LBIS.L["Feet"], "Alt") --Boots of the Shadow Flame
     LBIS:AddItem(spec6, "226443", LBIS.L["Feet"], "Alt") --Nightslayer Boots
@@ -743,8 +743,8 @@ local function LoadData()
     LBIS:AddItem(spec6, "20186", LBIS.L["Feet"], "Alt") --Defiler's Leather Boots
     LBIS:AddItem(spec6, "16711", LBIS.L["Feet"], "Alt") --Shadowcraft Boots
     LBIS:AddItem(spec6, "231336", LBIS.L["Neck"], "BIS") --Zandalarian Shadow Mastery Talisman
-    LBIS:AddItem(spec6, "231803", LBIS.L["Neck"], "BIS") --Prestor's Talisman of Connivery
     LBIS:AddItem(spec6, "228354", LBIS.L["Neck"], "BIS") --Blazefury Medallion
+    LBIS:AddItem(spec6, "231803", LBIS.L["Neck"], "Alt") --Prestor's Talisman of Connivery
     LBIS:AddItem(spec6, "228685", LBIS.L["Neck"], "Alt") --Onyxia Tooth Pendant
     LBIS:AddItem(spec6, "234116", LBIS.L["Neck"], "Alt") --Fury of the Forgotten Swarm
     LBIS:AddItem(spec6, "233587", LBIS.L["Neck"], "Alt") --Barbed Choker
