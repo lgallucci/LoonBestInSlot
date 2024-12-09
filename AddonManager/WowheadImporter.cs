@@ -285,6 +285,7 @@ public static class WowheadImporter
         GetItems(csvLootTable, "PvPItemList");
         GetItems(csvLootTable, "ReputationItemList");
         GetItems(csvLootTable, "ProfessionItemList");
+        GetItems(csvLootTable, "VendorItemList");
 
         var tokenKeys = UpdateTierPieces(csvLootTable, itemSources);
 

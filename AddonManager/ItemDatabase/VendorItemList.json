@@ -1911,6 +1911,198 @@
       "SourceNumber": "0",
       "SourceLocation": "Timermaul Hold",
       "SourceFaction": "B"
+    },
+    "233417": {
+      "Name": "Mace of Unending Life",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233418": {
+      "Name": "Cloak of Unending Life",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233419": {
+      "Name": "Band of Unending Life",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233420": {
+      "Name": "Cloak of the Unseen Path",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233421": {
+      "Name": "Scythe of the Unseen Path",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233422": {
+      "Name": "Signet of the Unseen Path",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233423": {
+      "Name": "Blade of Vaulted Secrets",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233424": {
+      "Name": "Drape of Vaulted Secrets",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233425": {
+      "Name": "Band of Vaulted Secrets",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233429": {
+      "Name": "Gavel of Infinite Wisdom",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233430": {
+      "Name": "Shroud of Infinite Wisdom",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233431": {
+      "Name": "Ring of Infinite Wisdom",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233432": {
+      "Name": "Cloak of Veiled Shadows",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233433": {
+      "Name": "Dagger of Veiled Shadows",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233434": {
+      "Name": "Band of Veiled Shadows",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233435": {
+      "Name": "Hammer of the Gathering Storm",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233436": {
+      "Name": "Cloak of the Gathering Storm",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233437": {
+      "Name": "Ring of the Gathering Storm",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233438": {
+      "Name": "Shroud of Unspoken Names",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233439": {
+      "Name": "Kris of Unspoken Names",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233440": {
+      "Name": "Ring of Unspoken Names",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233441": {
+      "Name": "Drape of Unyielding Strength",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233442": {
+      "Name": "Sickle of Unyielding Strength",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
+    },
+    "233443": {
+      "Name": "Signet of Unyielding Strength",
+      "Source": "Ahn'Qiraj Tokens",
+      "SourceType": "Vendor",
+      "SourceNumber": "",
+      "SourceLocation": "Silithus",
+      "SourceFaction": "B"
     }
   }
 }
