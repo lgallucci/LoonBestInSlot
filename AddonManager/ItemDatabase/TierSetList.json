@@ -4751,6 +4751,558 @@
       "SourceNumber": "231723",
       "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
+    },
+    "233373": {
+      "Name": "Conqueror's Breastplate",
+      "Source": "Carapace of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233363",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233374": {
+      "Name": "Conqueror's Legguards",
+      "Source": "Intact Peritoneum",
+      "SourceType": "TierToken",
+      "SourceNumber": "233367",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233375": {
+      "Name": "Conqueror's Crown",
+      "Source": "Intact Peritoneum",
+      "SourceType": "TierToken",
+      "SourceNumber": "233367",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233378": {
+      "Name": "Doomcaller's Trousers",
+      "Source": "Intact Entrails",
+      "SourceType": "TierToken",
+      "SourceNumber": "233368",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233380": {
+      "Name": "Doomcaller's Robes",
+      "Source": "Skin of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233364",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233381": {
+      "Name": "Doomcaller's Circlet",
+      "Source": "Intact Entrails",
+      "SourceType": "TierToken",
+      "SourceNumber": "233368",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233382": {
+      "Name": "Stormcaller's Leggings",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233385": {
+      "Name": "Stormcaller's Diadem",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233386": {
+      "Name": "Stormcaller's Hauberk",
+      "Source": "Husk of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233362",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233388": {
+      "Name": "Deathdealer's Helm",
+      "Source": "Intact Entrails",
+      "SourceType": "TierToken",
+      "SourceNumber": "233368",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233389": {
+      "Name": "Deathdealer's Vest",
+      "Source": "Skin of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233364",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233390": {
+      "Name": "Deathdealer's Leggings",
+      "Source": "Intact Entrails",
+      "SourceType": "TierToken",
+      "SourceNumber": "233368",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233393": {
+      "Name": "Tiara of the Oracle",
+      "Source": "Intact Entrails",
+      "SourceType": "TierToken",
+      "SourceNumber": "233368",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233395": {
+      "Name": "Vestments of the Oracle",
+      "Source": "Skin of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233364",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233396": {
+      "Name": "Trousers of the Oracle",
+      "Source": "Intact Entrails",
+      "SourceType": "TierToken",
+      "SourceNumber": "233368",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233397": {
+      "Name": "Avenger's Breastplate",
+      "Source": "Husk of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233362",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233398": {
+      "Name": "Avenger's Crown",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233400": {
+      "Name": "Avenger's Legguards",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233402": {
+      "Name": "Enigma Robes",
+      "Source": "Carapace of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233363",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233404": {
+      "Name": "Enigma Circlet",
+      "Source": "Intact Peritoneum",
+      "SourceType": "TierToken",
+      "SourceNumber": "233367",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233406": {
+      "Name": "Enigma Leggings",
+      "Source": "Intact Peritoneum",
+      "SourceType": "TierToken",
+      "SourceNumber": "233367",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233408": {
+      "Name": "Striker's Leggings",
+      "Source": "Intact Peritoneum",
+      "SourceType": "TierToken",
+      "SourceNumber": "233367",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233410": {
+      "Name": "Striker's Diadem",
+      "Source": "Intact Peritoneum",
+      "SourceType": "TierToken",
+      "SourceNumber": "233367",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233411": {
+      "Name": "Striker's Hauberk",
+      "Source": "Carapace of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233363",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233412": {
+      "Name": "Genesis Helm",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233415": {
+      "Name": "Genesis Vest",
+      "Source": "Husk of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233362",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233416": {
+      "Name": "Genesis Trousers",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233651": {
+      "Name": "Conqueror's Cuirass",
+      "Source": "Carapace of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233363",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233653": {
+      "Name": "Conqueror's Helm",
+      "Source": "Intact Peritoneum",
+      "SourceType": "TierToken",
+      "SourceNumber": "233367",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233654": {
+      "Name": "Conqueror's Tassets",
+      "Source": "Intact Peritoneum",
+      "SourceType": "TierToken",
+      "SourceNumber": "233367",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233659": {
+      "Name": "Deathdealer's Chestguard",
+      "Source": "Skin of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233364",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233661": {
+      "Name": "Deathdealer's Visor",
+      "Source": "Intact Entrails",
+      "SourceType": "TierToken",
+      "SourceNumber": "233368",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233662": {
+      "Name": "Deathdealer's Pants",
+      "Source": "Intact Entrails",
+      "SourceType": "TierToken",
+      "SourceNumber": "233368",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233664": {
+      "Name": "Striker's Ringmail",
+      "Source": "Carapace of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233363",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233666": {
+      "Name": "Striker's Visor",
+      "Source": "Intact Peritoneum",
+      "SourceType": "TierToken",
+      "SourceNumber": "233367",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233667": {
+      "Name": "Striker's Chain Legplates",
+      "Source": "Intact Peritoneum",
+      "SourceType": "TierToken",
+      "SourceNumber": "233367",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233669": {
+      "Name": "Doomcaller's Headguard",
+      "Source": "Intact Entrails",
+      "SourceType": "TierToken",
+      "SourceNumber": "233368",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233670": {
+      "Name": "Doomcaller's Garb",
+      "Source": "Skin of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233364",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233672": {
+      "Name": "Doomcaller's Pants",
+      "Source": "Intact Entrails",
+      "SourceType": "TierToken",
+      "SourceNumber": "233368",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233674": {
+      "Name": "Enigma Pants",
+      "Source": "Intact Peritoneum",
+      "SourceType": "TierToken",
+      "SourceNumber": "233367",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233676": {
+      "Name": "Enigma Diadem",
+      "Source": "Intact Peritoneum",
+      "SourceType": "TierToken",
+      "SourceNumber": "233367",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233678": {
+      "Name": "Enigma Garb",
+      "Source": "Carapace of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233363",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233679": {
+      "Name": "Leggings of the Oracle",
+      "Source": "Intact Entrails",
+      "SourceType": "TierToken",
+      "SourceNumber": "233368",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233680": {
+      "Name": "Robes of the Oracle",
+      "Source": "Skin of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233364",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233682": {
+      "Name": "Crown of the Oracle",
+      "Source": "Intact Entrails",
+      "SourceType": "TierToken",
+      "SourceNumber": "233368",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233685": {
+      "Name": "Avenger's Plate Pants",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233687": {
+      "Name": "Avenger's Helm",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233688": {
+      "Name": "Avenger's Cuirass",
+      "Source": "Husk of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233362",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233690": {
+      "Name": "Avenger's Tassets",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233692": {
+      "Name": "Avenger's Great Helm",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233693": {
+      "Name": "Avenger's Chestguard",
+      "Source": "Husk of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233362",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233694": {
+      "Name": "Stormcaller's Chestguard",
+      "Source": "Husk of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233362",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233695": {
+      "Name": "Stormcaller's Faceguard",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233698": {
+      "Name": "Stormcaller's Legplates",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233699": {
+      "Name": "Stormcaller's Breastplate",
+      "Source": "Husk of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233362",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233700": {
+      "Name": "Stormcaller's Crown",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233703": {
+      "Name": "Stormcaller's Chain Leggings",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233704": {
+      "Name": "Stormcaller's Embrace",
+      "Source": "Husk of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233362",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233705": {
+      "Name": "Stormcaller's Headdress",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233708": {
+      "Name": "Stormcaller's Mail Leggings",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233709": {
+      "Name": "Genesis Cowl",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233710": {
+      "Name": "Genesis Leather Pants",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233711": {
+      "Name": "Genesis Armor",
+      "Source": "Husk of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233362",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233714": {
+      "Name": "Genesis Leggings",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233715": {
+      "Name": "Genesis Leathers",
+      "Source": "Husk of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233362",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233718": {
+      "Name": "Genesis Headdress",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233719": {
+      "Name": "Genesis Breeches",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233720": {
+      "Name": "Genesis Chestguard",
+      "Source": "Husk of the Old God",
+      "SourceType": "TierToken",
+      "SourceNumber": "233362",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233723": {
+      "Name": "Genesis Mask",
+      "Source": "Intact Viscera",
+      "SourceType": "TierToken",
+      "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
     }
   }
 }

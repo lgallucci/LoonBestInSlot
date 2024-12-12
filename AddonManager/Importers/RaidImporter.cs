@@ -26,56 +26,31 @@ public class RaidImporter : LootImporter
     private Dictionary<string, string> bossTableQueries = new Dictionary<string, string>()
     {
         { "#razorgore-the-untamed-loot ~ .clean-markup-table-borders", "Razorgore the Untamed" },
-        { "#razorgore-the-untamed-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Razorgore the Untamed" },
-        { "#razorgore-the-untamed-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Razorgore the Untamed" },
-        { "#vaelastrasz-the-corrupt-loot ~ .clean-markup-table-borders", "Vaelastrasz the Corrupt" },
-        { "#vaelastrasz-the-corrupt-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Vaelastrasz the Corrupt" },
-        { "#vaelastrasz-the-corrupt-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Vaelastrasz the Corrupt" },
-        { "#broodlord-lashlayer-loot ~ .clean-markup-table-borders", "Broodlord Lashlayer" },
-        { "#broodlord-lashlayer-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Broodlord Lashlayer" },
-        { "#firemaw-loot ~ .clean-markup-table-borders", "Firemaw" },
-        { "#firemaw-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Firemaw" },
-        { "#firemaw-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Firemaw" },
-        { "#ebonroc-loot ~ .clean-markup-table-borders", "Ebonroc" },
-        { "#ebonroc-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Ebonroc" },
-        { "#ebonroc-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Ebonroc" },
-        { "#ebonroc-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Ebonroc" },
-        { "#ebonroc-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Ebonroc" },
-        { "#flamegor-loot ~ .clean-markup-table-borders", "Flamegor" },
-        { "#flamegor-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Flamegor" },
-        { "#flamegor-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Flamegor" },
-        { "#chromaggus-loot ~ .clean-markup-table-borders", "Chromaggus" },
-        { "#chromaggus-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Chromaggus" },
-        { "#nefarian-loot ~ .clean-markup-table-borders", "Nefarian" },
-        { "#nefarian-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Nefarian" },
-        { "#nefarian-loot ~ .clean-markup-table-borders ~ .clean-markup-table-borders ~ .clean-markup-table-borders", "Nefarian" },
-        { "#classic-blackwing-lair-trash-loot ~ .clean-markup-table-borders", "Trash Mobs" },
-        // { "#high-priests-shared-loot-table ~ .clean-markup-table-borders", "High Priests Shared" },
-        // { "#high-priest-venoxis ~ .clean-markup-table-borders", "High Priest Venoxis" },
-        // { "#high-priest-jeklik ~ .clean-markup-table-borders", "High Priest Jeklik"},
-        // { "#high-priest-marli ~ .clean-markup-table-borders", "High Priest Mar'li"},
-        // { "#high-priest-thekal ~ .clean-markup-table-borders", "High Priest Thekal"},
-        // { "#high-priestess-arlokk ~ .clean-markup-table-borders", "High Priestess Arlokk"},
-        // { "#hakkar ~ .clean-markup-table-borders", "Hakkar"},
-        // { "#bloodlord-mandokir ~ .clean-markup-table-borders", "Bloodlord Mandokir"},
-        // { "#jindo-the-hexxer ~ .clean-markup-table-borders", "Jin'do the Hexxer"},
-        // { "#gahzranka ~ .clean-markup-table-borders", "Gahz'ranka"},
+
     };
 
 
     private Dictionary<string, (string, string)> bossUriList = new Dictionary<string, (string, string)>
     {
-        { @"https://www.wowhead.com/classic/npc=12435/razorgore-the-untamed#drops;mode:seasonal40", ("Razorgore the Untamed", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=13020/vaelastrasz-the-corrupt#drops;mode:seasonal40", ("Vaelastrasz the Corrupt", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=12017/broodlord-lashlayer#drops;mode:seasonal40", ("Broodlord Lashlayer", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=11983/firemaw#drops;mode:seasonal40", ("Firemaw", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=14601/ebonroc#drops;mode:seasonal40", ("Ebonroc", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=11981/flamegor#drops;mode:seasonal40", ("Flamegor", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=14020/chromaggus#drops;mode:seasonal40", ("Chromaggus", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=11583/nefarian#drops;mode:seasonal40", ("Nefarian", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=11583/nefarian#drops;mode:seasonal40;50", ("Nefarian", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=11583/nefarian#drops;mode:seasonal40;100", ("Nefarian", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=231494/prince-thunderaan#drops", ("Prince Thunderaan", "The Crystal Vale")}
+        { @"https://www.wowhead.com/classic/npc=15348/kurinnaxx#drops", ("Kurinnaxx", "Ruins of Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15341/general-rajaxx#drops", ("General Rajaxx", "Ruins of Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15340/moam#drops", ("Moam", "Ruins of Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15370/buru-the-gorger#drops", ("Buru the Gorger", "Ruins of Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15369/ayamiss-the-hunter#drops", ("Ayamiss the Hunter", "Ruins of Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15339/ossirian-the-unscarred#drops", ("Ossirian the Unscarred", "Ruins of Ahn'Qiraj") },
+
+        { @"https://www.wowhead.com/classic/npc=15263/the-prophet-skeram#drops", ("The Prophet Skeram", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15516/battleguard-sartura#drops", ("Battleguard Sartura", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15510/fankriss-the-unyielding#drops", ("Fankriss the Unyielding", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15509/princess-huhuran#drops", ("Princess Huhuran", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15276/emperor-veklor#drops", ("Emperor Vek'lor", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15275/emperor-veknilash#drops", ("Emperor Vek'nilash", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15727/cthun#drops", ("C'Thun", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15543/princess-yauj#drops", ("Princess Yauj", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15544/vem#drops", ("Vem", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15511/lord-kri#drops", ("Lord Kri", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15299/viscidus#drops", ("Viscidus", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15517/ouro#drops", ("Ouro", "Ahn'Qiraj") },
     };
     
 
@@ -88,7 +63,6 @@ public class RaidImporter : LootImporter
         // {
         //     items.AddItems(await ConvertRaidLoot(raidUri, items, writeToLog));
         // }
-
 
         await GetItemDrops(items, writeToLog);
 

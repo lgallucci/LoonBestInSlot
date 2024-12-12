@@ -840,6 +840,30 @@
       "SourceLocation": "Zul'Gurub",
       "SourceFaction": "B"
     },
+    "20886": {
+      "Name": "Qiraji Spiked Hilt",
+      "Source": "Moam & Buru the Gorger & Ayamiss the Hunter & Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "20890": {
+      "Name": "Qiraji Ornate Hilt",
+      "Source": "Moam & Buru the Gorger & Ayamiss the Hunter & Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "21221": {
+      "Name": "Eye of C'Thun",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "22739": {
       "Name": "Tome of Polymorph: Turtle",
       "Source": "Gahz'ranka",
@@ -6182,6 +6206,1342 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "233362": {
+      "Name": "Husk of the Old God",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233363": {
+      "Name": "Carapace of the Old God",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233364": {
+      "Name": "Skin of the Old God",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233365": {
+      "Name": "Intact Viscera",
+      "Source": "Emperor Vek'lor & Emperor Vek'nilash & Ouro",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233367": {
+      "Name": "Intact Peritoneum",
+      "Source": "Emperor Vek'lor & Emperor Vek'nilash & Ouro",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233368": {
+      "Name": "Intact Entrails",
+      "Source": "Emperor Vek'lor & Emperor Vek'nilash & Ouro",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233369": {
+      "Name": "Qiraji Bindings of Dominance",
+      "Source": "Fankriss the Unyielding & Princess Huhuran & Viscidus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233370": {
+      "Name": "Qiraji Bindings of Command",
+      "Source": "Fankriss the Unyielding & Princess Huhuran & Viscidus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233371": {
+      "Name": "Qiraji Bindings of Sovereignty",
+      "Source": "Fankriss the Unyielding & Princess Huhuran & Viscidus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233496": {
+      "Name": "Barrage Shoulders",
+      "Source": "The Prophet Skeram",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233502": {
+      "Name": "Amulet of Foul Warding",
+      "Source": "The Prophet Skeram",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233503": {
+      "Name": "Pendant of the Qiraji Guardian",
+      "Source": "The Prophet Skeram",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233504": {
+      "Name": "Cloak of Concentrated Hatred",
+      "Source": "The Prophet Skeram",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233505": {
+      "Name": "Leggings of Immersion",
+      "Source": "The Prophet Skeram",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233506": {
+      "Name": "Beetle Scaled Wristguards",
+      "Source": "The Prophet Skeram",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233507": {
+      "Name": "Ring of Swarming Thought",
+      "Source": "The Prophet Skeram",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233509": {
+      "Name": "Staff of the Qiraji Prophets",
+      "Source": "The Prophet Skeram",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233514": {
+      "Name": "Boots of the Unwavering Will",
+      "Source": "The Prophet Skeram",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233515": {
+      "Name": "Hammer of Ji'zhi",
+      "Source": "The Prophet Skeram",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233516": {
+      "Name": "Breastplate of Annihilation",
+      "Source": "The Prophet Skeram",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233517": {
+      "Name": "Boots of the Redeemed Prophecy",
+      "Source": "The Prophet Skeram",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233518": {
+      "Name": "Boots of the Fallen Prophet",
+      "Source": "The Prophet Skeram",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233519": {
+      "Name": "Cape of the Trinity",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233520": {
+      "Name": "Robes of the Triumvirate",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233521": {
+      "Name": "Ternary Mantle",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233522": {
+      "Name": "Guise of the Devourer",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233523": {
+      "Name": "Triad Girdle",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233524": {
+      "Name": "Angelista's Touch",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233559": {
+      "Name": "Gloves of Ebru",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233560": {
+      "Name": "Ooze-ridden Gauntlets",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233561": {
+      "Name": "Boots of the Fallen Hero",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233562": {
+      "Name": "Angelista's Charm",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233563": {
+      "Name": "Mantle of Phrenic Power",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233564": {
+      "Name": "Bile-Covered Gauntlets",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233565": {
+      "Name": "Ukko's Ring of Darkness",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233566": {
+      "Name": "Mantle of the Desert's Fury",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233567": {
+      "Name": "Mantle of the Desert Crusade",
+      "Source": "Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233568": {
+      "Name": "Vest of Swift Execution",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233569": {
+      "Name": "Ring of the Devoured",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233570": {
+      "Name": "Petrified Scarab",
+      "Source": "Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233571": {
+      "Name": "Wand of Qiraji Nobility",
+      "Source": "Princess Yauj & Vem & Lord Kri",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233572": {
+      "Name": "Necklace of Purity",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233573": {
+      "Name": "Recomposed Boots",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233574": {
+      "Name": "Leggings of the Festering Swarm",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233575": {
+      "Name": "Robes of the Battleguard",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233576": {
+      "Name": "Silithid Claw",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233577": {
+      "Name": "Thick Qirajihide Belt",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233578": {
+      "Name": "Creeping Vine Helm",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233579": {
+      "Name": "Gloves of Enforcement",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233580": {
+      "Name": "Badge of the Swarmguard",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233581": {
+      "Name": "Sartura's Might",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233582": {
+      "Name": "Gauntlets of Steadfast Determination",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233583": {
+      "Name": "Legplates of Blazing Light",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233584": {
+      "Name": "Scaled Leggings of Qiraji Fury",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233585": {
+      "Name": "Ancient Qiraji Ripper",
+      "Source": "Fankriss the Unyielding",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233586": {
+      "Name": "Jaw of the Sand Reaver",
+      "Source": "Fankriss the Unyielding",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233587": {
+      "Name": "Barbed Choker",
+      "Source": "Fankriss the Unyielding",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233588": {
+      "Name": "Cloak of Untold Secrets",
+      "Source": "Fankriss the Unyielding",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233589": {
+      "Name": "Fetish of the Sand Reaver",
+      "Source": "Fankriss the Unyielding",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233590": {
+      "Name": "Hive Tunneler's Boots",
+      "Source": "Fankriss the Unyielding",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233591": {
+      "Name": "Silithid Carapace Chestguard",
+      "Source": "Fankriss the Unyielding",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233592": {
+      "Name": "Mantle of Wicked Revenge",
+      "Source": "Fankriss the Unyielding",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233593": {
+      "Name": "Pauldrons of the Unrelenting",
+      "Source": "Fankriss the Unyielding",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233594": {
+      "Name": "Robes of the Guardian Saint",
+      "Source": "Fankriss the Unyielding",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233595": {
+      "Name": "Scaled Sand Reaver Leggings",
+      "Source": "Fankriss the Unyielding",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233596": {
+      "Name": "Libram of Purification",
+      "Source": "Princess Huhuran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233597": {
+      "Name": "Totem of Life",
+      "Source": "Princess Huhuran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233598": {
+      "Name": "Slime-coated Leggings",
+      "Source": "Viscidus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233599": {
+      "Name": "Sharpened Silithid Femur",
+      "Source": "Viscidus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233600": {
+      "Name": "Ring of the Qiraji Fury",
+      "Source": "Viscidus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233601": {
+      "Name": "Scarab Brooch",
+      "Source": "Viscidus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233602": {
+      "Name": "Idol of Health",
+      "Source": "Princess Huhuran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233603": {
+      "Name": "Gauntlets of the Righteous Champion",
+      "Source": "Viscidus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233604": {
+      "Name": "Gauntlets of Kalimdor",
+      "Source": "Viscidus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233605": {
+      "Name": "Huhuran's Stinger",
+      "Source": "Princess Huhuran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233606": {
+      "Name": "Cloak of the Golden Hive",
+      "Source": "Princess Huhuran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233607": {
+      "Name": "Gloves of the Messiah",
+      "Source": "Princess Huhuran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233608": {
+      "Name": "Wasphide Gauntlets",
+      "Source": "Princess Huhuran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233609": {
+      "Name": "Ring of the Martyr",
+      "Source": "Princess Huhuran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233610": {
+      "Name": "Hive Defiler Wristguards",
+      "Source": "Princess Huhuran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233611": {
+      "Name": "Boots of Epiphany",
+      "Source": "Emperor Vek'lor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233612": {
+      "Name": "Qiraji Execution Bracers",
+      "Source": "Emperor Vek'lor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233613": {
+      "Name": "Vek'lor's Gloves of Devastation",
+      "Source": "Emperor Vek'lor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233614": {
+      "Name": "Royal Qiraji Belt",
+      "Source": "Emperor Vek'lor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233615": {
+      "Name": "Ring of Emperor Vek'lor",
+      "Source": "Emperor Vek'lor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233616": {
+      "Name": "Royal Scepter of Vek'lor",
+      "Source": "Emperor Vek'lor",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233617": {
+      "Name": "Bracelets of Royal Redemption",
+      "Source": "Emperor Vek'lor & Emperor Vek'nilash",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233618": {
+      "Name": "Gloves of the Hidden Temple",
+      "Source": "Emperor Vek'lor & Emperor Vek'nilash",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233619": {
+      "Name": "Regenerating Belt of Vek'nilash",
+      "Source": "Emperor Vek'lor & Emperor Vek'nilash",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233620": {
+      "Name": "Amulet of Vek'nilash",
+      "Source": "Emperor Vek'lor & Emperor Vek'nilash",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233621": {
+      "Name": "Kalimdor's Revenge",
+      "Source": "Emperor Vek'lor & Emperor Vek'nilash",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233622": {
+      "Name": "Grasp of the Fallen Emperor",
+      "Source": "Emperor Vek'nilash",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233623": {
+      "Name": "Belt of the Fallen Emperor",
+      "Source": "Emperor Vek'nilash",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233624": {
+      "Name": "Don Rigoberto's Lost Hat",
+      "Source": "Ouro",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233625": {
+      "Name": "Burrower Bracers",
+      "Source": "Ouro",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233626": {
+      "Name": "Larvae of the Great Worm",
+      "Source": "Ouro",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233627": {
+      "Name": "Jom Gabbar",
+      "Source": "Ouro",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233628": {
+      "Name": "The Burrower's Shell",
+      "Source": "Ouro",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233629": {
+      "Name": "Wormscale Blocker",
+      "Source": "Ouro",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233631": {
+      "Name": "Dark Storm Gauntlets",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233634": {
+      "Name": "Death's Sting",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233639": {
+      "Name": "Vanquished Tentacle of C'Thun",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233640": {
+      "Name": "Dark Edge of Insanity",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233641": {
+      "Name": "Cloak of Clarity",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233643": {
+      "Name": "Anubisath Warhammer",
+      "Source": "The Prophet Skeram & Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233644": {
+      "Name": "Garb of Royal Ascension",
+      "Source": "The Prophet Skeram & Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233645": {
+      "Name": "Gloves of the Immortal",
+      "Source": "The Prophet Skeram & Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233646": {
+      "Name": "Gloves of the Redeemed Prophecy",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233647": {
+      "Name": "Neretzek, The Blood Drinker",
+      "Source": "The Prophet Skeram & Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233648": {
+      "Name": "Ritssyn's Ring of Chaos",
+      "Source": "The Prophet Skeram & Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233649": {
+      "Name": "Shard of the Fallen Star",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234061": {
+      "Name": "Qiraji Sacrificial Dagger",
+      "Source": "Kurinnaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234062": {
+      "Name": "Vestments of the Shifting Sands",
+      "Source": "Kurinnaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234063": {
+      "Name": "Belt of the Sand Reaver",
+      "Source": "Kurinnaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234064": {
+      "Name": "Belt of the Inquisition",
+      "Source": "Kurinnaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234065": {
+      "Name": "Sand Reaver Wristguards",
+      "Source": "Kurinnaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234066": {
+      "Name": "Toughened Silithid Hide Gloves",
+      "Source": "Kurinnaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234067": {
+      "Name": "Manslayer of the Qiraji",
+      "Source": "General Rajaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234068": {
+      "Name": "Boots of the Vanguard",
+      "Source": "General Rajaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234069": {
+      "Name": "Boots of the Qiraji General",
+      "Source": "General Rajaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234070": {
+      "Name": "Bracers of Qiraji Command",
+      "Source": "General Rajaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234071": {
+      "Name": "Legplates of the Qiraji Command",
+      "Source": "General Rajaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234072": {
+      "Name": "Southwind's Grasp",
+      "Source": "General Rajaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234073": {
+      "Name": "Dustwind Turban",
+      "Source": "Moam",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234075": {
+      "Name": "Gauntlets of the Immovable",
+      "Source": "Moam & Ayamiss the Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234076": {
+      "Name": "Talon of Furious Concentration",
+      "Source": "Moam",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234077": {
+      "Name": "Thick Silithid Chestguard",
+      "Source": "Moam",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234078": {
+      "Name": "Chitinous Shoulderguards",
+      "Source": "Moam",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234079": {
+      "Name": "Cloak of the Savior",
+      "Source": "Moam",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234080": {
+      "Name": "Eye of Moam",
+      "Source": "Moam",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234081": {
+      "Name": "Gauntlets of Southwind",
+      "Source": "Moam",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234082": {
+      "Name": "Mantle of Maz'Nadir",
+      "Source": "Moam",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234083": {
+      "Name": "Ring of Fury",
+      "Source": "Moam",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234084": {
+      "Name": "Southwind Helm",
+      "Source": "Moam",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234087": {
+      "Name": "Obsidian Scaled Leggings",
+      "Source": "Moam",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234088": {
+      "Name": "Legplates of the Destroyer",
+      "Source": "Moam",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234089": {
+      "Name": "Buru's Skull Fragment",
+      "Source": "Buru the Gorger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234090": {
+      "Name": "Gloves of the Swarm",
+      "Source": "Buru the Gorger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234091": {
+      "Name": "Slimy Scaled Gauntlets",
+      "Source": "Buru the Gorger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234092": {
+      "Name": "Fetish of Chitinous Spikes",
+      "Source": "Buru the Gorger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234093": {
+      "Name": "Quicksand Waders",
+      "Source": "Buru the Gorger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234094": {
+      "Name": "Scaled Bracers of the Gorger",
+      "Source": "Buru the Gorger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234095": {
+      "Name": "Slime Kickers",
+      "Source": "Buru the Gorger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234096": {
+      "Name": "Bow of Taut Sinew",
+      "Source": "Ayamiss the Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234097": {
+      "Name": "Stinger of Ayamiss",
+      "Source": "Ayamiss the Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234098": {
+      "Name": "Boots of the Desert Protector",
+      "Source": "Ayamiss the Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234099": {
+      "Name": "Boots of the Fiery Sands",
+      "Source": "Ayamiss the Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234100": {
+      "Name": "Helm of Regrowth",
+      "Source": "Ayamiss the Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234101": {
+      "Name": "Ring of the Desert Winds",
+      "Source": "Ayamiss the Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234102": {
+      "Name": "Scaled Silithid Gauntlets",
+      "Source": "Ayamiss the Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234103": {
+      "Name": "Bracers of Brutality",
+      "Source": "Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234104": {
+      "Name": "Crossbow of Imminent Doom",
+      "Source": "Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234105": {
+      "Name": "Gauntlets of New Life",
+      "Source": "Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234106": {
+      "Name": "Gloves of Dark Wisdom",
+      "Source": "Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234107": {
+      "Name": "Helm of Domination",
+      "Source": "Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234108": {
+      "Name": "Leggings of the Black Blizzard",
+      "Source": "Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234109": {
+      "Name": "Mantle of the Horusath",
+      "Source": "Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234110": {
+      "Name": "Ossirian's Binding",
+      "Source": "Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234111": {
+      "Name": "Runic Stone Shoulders",
+      "Source": "Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234112": {
+      "Name": "Sand Polished Hammer",
+      "Source": "Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234113": {
+      "Name": "Sandstorm Cloak",
+      "Source": "Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234114": {
+      "Name": "Shackles of the Unscarred",
+      "Source": "Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234115": {
+      "Name": "Staff of the Ruins",
+      "Source": "Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "235045": {
+      "Name": "Imperial Qiraji Regalia",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "235046": {
+      "Name": "Imperial Qiraji Armaments",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "235047": {
+      "Name": "Gloves of the Fallen Prophet",
+      "Source": "Battleguard Sartura",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "235048": {
+      "Name": "Head of Ossirian the Unscarred",
+      "Source": "Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
       "SourceFaction": "B"
     }
   }

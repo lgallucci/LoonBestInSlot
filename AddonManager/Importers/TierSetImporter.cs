@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Runtime.Intrinsics;
 using AddonManager.Models;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
@@ -9,63 +10,15 @@ public class TierSetImporter : LootImporter
 {
     private Dictionary<string, string> armorTokenUris = new Dictionary<string, string>
     {
-        // { @"https://www.wowhead.com/classic/item=220636/atalai-ritual-token#currency-for", "Sunken Temple" },
-        // { @"https://www.wowhead.com/classic/item=220637/atalai-ritual-token#currency-for", "Sunken Temple" },
-
-
-        // { @"https://www.wowhead.com/classic/item=227532/incandescent-hood#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227537/incandescent-shoulderpads#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227533/incandescent-gloves#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227535/incandescent-robe#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227534/incandescent-leggings#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227536/incandescent-boots#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227530/incandescent-belt#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227531/incandescent-bindings#currency-for", "Molten Core"},
-
-        // { @"https://www.wowhead.com/classic/item=227764/scorched-core-helm#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227762/scorched-core-shoulderpads#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227759/scorched-core-gloves#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227766/scorched-core-chest#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227763/scorched-core-leggings#currency-for", "Molten Core"},        
-        // { @"https://www.wowhead.com/classic/item=227765/scorched-core-boots#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227761/scorched-core-belt#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227760/scorched-core-bindings#currency-for", "Molten Core"},
-
-        // { @"https://www.wowhead.com/classic/item=227755/molten-scaled-helm#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227752/molten-scaled-shoulderpads#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227756/molten-scaled-gloves#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227758/molten-scaled-chest#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227754/molten-scaled-leggings#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227757/molten-scaled-boots#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227751/molten-scaled-belt#currency-for", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/item=227750/molten-scaled-bindings#currency-for", "Molten Core"},
-
-        { "https://www.wowhead.com/classic/item=231711/draconian-hood#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231709/draconian-shoulderpads#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231712/draconian-gloves#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231714/draconian-robe#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231710/draconian-leggings#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231713/draconian-boots#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231708/draconian-belt#currency-for", "Blackwing Lair"},
-        { "https://www.wowhead.com/classic/item=231707/draconian-bindings#currency-for", "Blackwing Lair" },
-        
-        { "https://www.wowhead.com/classic/item=231719/primeval-helm#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231717/primeval-shoulderpads#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231720/primeval-gloves#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231723/primeval-chest#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231718/primeval-leggings#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231721/primeval-boots#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231716/primeval-belt#currency-for", "Blackwing Lair"},
-        { "https://www.wowhead.com/classic/item=231715/primeval-bindings#currency-for", "Blackwing Lair" },
-
-        { "https://www.wowhead.com/classic/item=231728/ancient-helm#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231726/ancient-shoulderpads#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231729/ancient-gloves#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231731/ancient-chest#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231727/ancient-leggings#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231730/ancient-boots#currency-for", "Blackwing Lair" },
-        { "https://www.wowhead.com/classic/item=231725/ancient-belt#currency-for", "Blackwing Lair"},
-        { "https://www.wowhead.com/classic/item=231724/ancient-bindings#currency-for", "Blackwing Lair" },
+        // { "https://www.wowhead.com/classic/item=233365/intact-viscera#currency-for", "Ahn'Qiraj" },
+        // { "https://www.wowhead.com/classic/item=233367/intact-viscera#currency-for", "Ahn'Qiraj" },
+        // { "https://www.wowhead.com/classic/item=233368/intact-viscera#currency-for", "Ahn'Qiraj" },
+        { "https://www.wowhead.com/classic/item=233369/qiraji-bindings-of-sovereignty", "Ahn'Qiraj" },
+        { "https://www.wowhead.com/classic/item=233370/qiraji-bindings-of-sovereignty", "Ahn'Qiraj" },
+        { "https://www.wowhead.com/classic/item=233371/qiraji-bindings-of-sovereignty", "Ahn'Qiraj" },
+        { "https://www.wowhead.com/classic/item=233362/skin-of-the-old-god#currency-for", "Ahn'Qiraj" },
+        { "https://www.wowhead.com/classic/item=233363/skin-of-the-old-god#currency-for", "Ahn'Qiraj" },
+        { "https://www.wowhead.com/classic/item=233364/skin-of-the-old-god#currency-for", "Ahn'Qiraj" },
     };
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToText)
@@ -79,7 +32,7 @@ public class TierSetImporter : LootImporter
 
     internal override string FileName { get { return "TierSetList"; } }
 
-    private List<(int, int)> recursiveItemsToQuery = new List<(int, int)>();
+    private Dictionary<int, int> recursiveItemsToQuery = new Dictionary<int, int>();
 
     private IHtmlAnchorElement? RecursivelyFindFirstAnchor(IElement element)
     {
@@ -115,12 +68,10 @@ public class TierSetImporter : LootImporter
             AddCurrencyItem(dbItems, doc, tokenId, uris[uri]);
         }, writeToText);
 
-        foreach(var item in recursiveItemsToQuery)
-        {
-            await Common.LoadFromWebPage($"https://www.wowhead.com/classic/item={item.Item1}/#currency-for", (uri, doc) => {
-                AddCurrencyItem(dbItems, doc, item.Item2, "Molten Core", false);
-            }, writeToText);
-        }
+        await Common.LoadFromWebPages(recursiveItemsToQuery.Select(r => $"https://www.wowhead.com/classic/item={r.Key}/#currency-for"), (uri, doc) => {
+            var key = uri.Replace("https://www.wowhead.com/classic/item=", "").Replace("/#currency-for", "");
+            AddCurrencyItem(dbItems, doc, recursiveItemsToQuery[Int32.Parse(key)], "Molten Core", false);
+        }, writeToText);
 
         return dbItems;
     }
@@ -181,7 +132,7 @@ public class TierSetImporter : LootImporter
                             SourceFaction = sourceFaction
                         });
                         if (recursive)
-                            recursiveItemsToQuery.Add((itemId, tokenId));
+                            recursiveItemsToQuery.Add(itemId, tokenId);
                     }
                 }
             }
