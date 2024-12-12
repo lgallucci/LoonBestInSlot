@@ -440,6 +440,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "226788", LBIS.L["Wrist"], "BIS") --Feralheart Bands
     LBIS:AddItem(spec6, "226662", LBIS.L["Wrist"], "Alt") --Cenarion Bands
     LBIS:AddItem(spec6, "233612", LBIS.L["Wrist"], "Alt") --Qiraji Execution Bracers
+    LBIS:AddItem(spec6, "234094", LBIS.L["Wrist"], "Alt") --Scaled Bracers of the Gorger
     LBIS:AddItem(spec6, "19587", LBIS.L["Wrist"], "Alt") --Forest Stalker's Bracers
     LBIS:AddItem(spec6, "231256", LBIS.L["Hands"], "BIS") --Stormrage Grips
     LBIS:AddItem(spec6, "226793", LBIS.L["Hands"], "BIS") --Feralheart Fists
@@ -456,8 +457,8 @@ local function LoadData()
     LBIS:AddItem(spec6, "226789", LBIS.L["Waist"], "Alt") --Feralheart Girdle
     LBIS:AddItem(spec6, "13252", LBIS.L["Waist"], "Alt") --Cloudrunner Girdle
     LBIS:AddItem(spec6, "233710", LBIS.L["Legs"], "BIS") --Genesis Leather Pants
-    LBIS:AddItem(spec6, "231691", LBIS.L["Legs"], "BIS") --Marshal's Dragonhide Leggings
     LBIS:AddItem(spec6, "231685", LBIS.L["Legs"], "BIS") --General's Dragonhide Leggings
+    LBIS:AddItem(spec6, "231691", LBIS.L["Legs"], "BIS") --Marshal's Dragonhide Leggings
     LBIS:AddItem(spec6, "231258", LBIS.L["Legs"], "Alt") --Stormrage Trousers
     LBIS:AddItem(spec6, "226666", LBIS.L["Legs"], "Alt") --Cenarion Trousers
     LBIS:AddItem(spec6, "226791", LBIS.L["Legs"], "Alt") --Feralheart Trousers

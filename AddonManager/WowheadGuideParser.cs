@@ -79,6 +79,7 @@ public class WowheadGuideParser
         { 233802, 1213829 }, //Glowing Chitin Armor Kit
         { 231383, 468380 }, //Presence of Sight
         { 231358, 468323 }, //Animist's Roar
+        { 19786, 24163 }, //Vodouisant's Vigilant Embrace
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()

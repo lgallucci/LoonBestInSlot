@@ -4752,6 +4752,14 @@
       "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
     },
+    "233372": {
+      "Name": "Conqueror's Greaves",
+      "Source": "Qiraji Bindings of Command",
+      "SourceType": "TierToken",
+      "SourceNumber": "233370",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233373": {
       "Name": "Conqueror's Breastplate",
       "Source": "Carapace of the Old God",
@@ -4776,11 +4784,35 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233376": {
+      "Name": "Conqueror's Spaulders",
+      "Source": "Qiraji Bindings of Command",
+      "SourceType": "TierToken",
+      "SourceNumber": "233370",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233377": {
+      "Name": "Doomcaller's Footwraps",
+      "Source": "Qiraji Bindings of Sovereignty",
+      "SourceType": "TierToken",
+      "SourceNumber": "233371",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233378": {
       "Name": "Doomcaller's Trousers",
       "Source": "Intact Entrails",
       "SourceType": "TierToken",
       "SourceNumber": "233368",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233379": {
+      "Name": "Doomcaller's Mantle",
+      "Source": "Qiraji Bindings of Sovereignty",
+      "SourceType": "TierToken",
+      "SourceNumber": "233371",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -4808,6 +4840,22 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233383": {
+      "Name": "Stormcaller's Pauldrons",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233384": {
+      "Name": "Stormcaller's Footguards",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233385": {
       "Name": "Stormcaller's Diadem",
       "Source": "Intact Viscera",
@@ -4821,6 +4869,14 @@
       "Source": "Husk of the Old God",
       "SourceType": "TierToken",
       "SourceNumber": "233362",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233387": {
+      "Name": "Deathdealer's Spaulders",
+      "Source": "Qiraji Bindings of Sovereignty",
+      "SourceType": "TierToken",
+      "SourceNumber": "233371",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -4848,11 +4904,35 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233391": {
+      "Name": "Deathdealer's Boots",
+      "Source": "Qiraji Bindings of Sovereignty",
+      "SourceType": "TierToken",
+      "SourceNumber": "233371",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233392": {
+      "Name": "Footwraps of the Oracle",
+      "Source": "Qiraji Bindings of Sovereignty",
+      "SourceType": "TierToken",
+      "SourceNumber": "233371",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233393": {
       "Name": "Tiara of the Oracle",
       "Source": "Intact Entrails",
       "SourceType": "TierToken",
       "SourceNumber": "233368",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233394": {
+      "Name": "Mantle of the Oracle",
+      "Source": "Qiraji Bindings of Sovereignty",
+      "SourceType": "TierToken",
+      "SourceNumber": "233371",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -4888,11 +4968,27 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233399": {
+      "Name": "Avenger's Greaves",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233400": {
       "Name": "Avenger's Legguards",
       "Source": "Intact Viscera",
       "SourceType": "TierToken",
       "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233401": {
+      "Name": "Avenger's Pauldrons",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -4904,11 +5000,27 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233403": {
+      "Name": "Enigma Shoulderpads",
+      "Source": "Qiraji Bindings of Command",
+      "SourceType": "TierToken",
+      "SourceNumber": "233370",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233404": {
       "Name": "Enigma Circlet",
       "Source": "Intact Peritoneum",
       "SourceType": "TierToken",
       "SourceNumber": "233367",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233405": {
+      "Name": "Enigma Boots",
+      "Source": "Qiraji Bindings of Command",
+      "SourceType": "TierToken",
+      "SourceNumber": "233370",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -4920,11 +5032,27 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233407": {
+      "Name": "Striker's Footguards",
+      "Source": "Qiraji Bindings of Command",
+      "SourceType": "TierToken",
+      "SourceNumber": "233370",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233408": {
       "Name": "Striker's Leggings",
       "Source": "Intact Peritoneum",
       "SourceType": "TierToken",
       "SourceNumber": "233367",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233409": {
+      "Name": "Striker's Pauldrons",
+      "Source": "Qiraji Bindings of Command",
+      "SourceType": "TierToken",
+      "SourceNumber": "233370",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -4952,6 +5080,22 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233413": {
+      "Name": "Genesis Shoulderpads",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233414": {
+      "Name": "Genesis Boots",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233415": {
       "Name": "Genesis Vest",
       "Source": "Husk of the Old God",
@@ -4968,11 +5112,163 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233418": {
+      "Name": "Cloak of Unending Life",
+      "Source": "Qiraji Regal Drape",
+      "SourceType": "TierToken",
+      "SourceNumber": "20889",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233419": {
+      "Name": "Band of Unending Life",
+      "Source": "Qiraji Magisterial Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "20884",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233420": {
+      "Name": "Cloak of the Unseen Path",
+      "Source": "Qiraji Regal Drape",
+      "SourceType": "TierToken",
+      "SourceNumber": "20889",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233422": {
+      "Name": "Signet of the Unseen Path",
+      "Source": "Qiraji Ceremonial Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "20888",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233424": {
+      "Name": "Drape of Vaulted Secrets",
+      "Source": "Qiraji Martial Drape",
+      "SourceType": "TierToken",
+      "SourceNumber": "20885",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233425": {
+      "Name": "Band of Vaulted Secrets",
+      "Source": "Qiraji Magisterial Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "20884",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233427": {
+      "Name": "Cape of Eternal Justice",
+      "Source": "Qiraji Regal Drape",
+      "SourceType": "TierToken",
+      "SourceNumber": "20889",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233428": {
+      "Name": "Ring of Eternal Justice",
+      "Source": "Qiraji Magisterial Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "20884",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233430": {
+      "Name": "Shroud of Infinite Wisdom",
+      "Source": "Qiraji Martial Drape",
+      "SourceType": "TierToken",
+      "SourceNumber": "20885",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233431": {
+      "Name": "Ring of Infinite Wisdom",
+      "Source": "Qiraji Ceremonial Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "20888",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233432": {
+      "Name": "Cloak of Veiled Shadows",
+      "Source": "Qiraji Martial Drape",
+      "SourceType": "TierToken",
+      "SourceNumber": "20885",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233434": {
+      "Name": "Band of Veiled Shadows",
+      "Source": "Qiraji Ceremonial Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "20888",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233436": {
+      "Name": "Cloak of the Gathering Storm",
+      "Source": "Qiraji Regal Drape",
+      "SourceType": "TierToken",
+      "SourceNumber": "20889",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233437": {
+      "Name": "Ring of the Gathering Storm",
+      "Source": "Qiraji Magisterial Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "20884",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233438": {
+      "Name": "Shroud of Unspoken Names",
+      "Source": "Qiraji Regal Drape",
+      "SourceType": "TierToken",
+      "SourceNumber": "20889",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233440": {
+      "Name": "Ring of Unspoken Names",
+      "Source": "Qiraji Ceremonial Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "20888",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233441": {
+      "Name": "Drape of Unyielding Strength",
+      "Source": "Qiraji Martial Drape",
+      "SourceType": "TierToken",
+      "SourceNumber": "20885",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233443": {
+      "Name": "Signet of Unyielding Strength",
+      "Source": "Qiraji Magisterial Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "20884",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233651": {
       "Name": "Conqueror's Cuirass",
       "Source": "Carapace of the Old God",
       "SourceType": "TierToken",
       "SourceNumber": "233363",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233652": {
+      "Name": "Conqueror's Sabatons",
+      "Source": "Qiraji Bindings of Command",
+      "SourceType": "TierToken",
+      "SourceNumber": "233370",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -4992,11 +5288,27 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233658": {
+      "Name": "Conqueror's Pauldrons",
+      "Source": "Qiraji Bindings of Command",
+      "SourceType": "TierToken",
+      "SourceNumber": "233370",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233659": {
       "Name": "Deathdealer's Chestguard",
       "Source": "Skin of the Old God",
       "SourceType": "TierToken",
       "SourceNumber": "233364",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233660": {
+      "Name": "Deathdealer's Treads",
+      "Source": "Qiraji Bindings of Sovereignty",
+      "SourceType": "TierToken",
+      "SourceNumber": "233371",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -5016,11 +5328,27 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233663": {
+      "Name": "Deathdealer's Pauldrons",
+      "Source": "Qiraji Bindings of Sovereignty",
+      "SourceType": "TierToken",
+      "SourceNumber": "233371",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233664": {
       "Name": "Striker's Ringmail",
       "Source": "Carapace of the Old God",
       "SourceType": "TierToken",
       "SourceNumber": "233363",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233665": {
+      "Name": "Striker's Treads",
+      "Source": "Qiraji Bindings of Command",
+      "SourceType": "TierToken",
+      "SourceNumber": "233370",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -5040,6 +5368,14 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233668": {
+      "Name": "Striker's Spaulders",
+      "Source": "Qiraji Bindings of Command",
+      "SourceType": "TierToken",
+      "SourceNumber": "233370",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233669": {
       "Name": "Doomcaller's Headguard",
       "Source": "Intact Entrails",
@@ -5056,11 +5392,27 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233671": {
+      "Name": "Doomcaller's Shoulderpads",
+      "Source": "Qiraji Bindings of Sovereignty",
+      "SourceType": "TierToken",
+      "SourceNumber": "233371",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233672": {
       "Name": "Doomcaller's Pants",
       "Source": "Intact Entrails",
       "SourceType": "TierToken",
       "SourceNumber": "233368",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233673": {
+      "Name": "Doomcaller's Treads",
+      "Source": "Qiraji Bindings of Sovereignty",
+      "SourceType": "TierToken",
+      "SourceNumber": "233371",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -5072,11 +5424,27 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233675": {
+      "Name": "Enigma Slippers",
+      "Source": "Qiraji Bindings of Command",
+      "SourceType": "TierToken",
+      "SourceNumber": "233370",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233676": {
       "Name": "Enigma Diadem",
       "Source": "Intact Peritoneum",
       "SourceType": "TierToken",
       "SourceNumber": "233367",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233677": {
+      "Name": "Enigma Mantle",
+      "Source": "Qiraji Bindings of Command",
+      "SourceType": "TierToken",
+      "SourceNumber": "233370",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -5104,6 +5472,14 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233681": {
+      "Name": "Shoulderpads of the Oracle",
+      "Source": "Qiraji Bindings of Sovereignty",
+      "SourceType": "TierToken",
+      "SourceNumber": "233371",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233682": {
       "Name": "Crown of the Oracle",
       "Source": "Intact Entrails",
@@ -5112,11 +5488,35 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233683": {
+      "Name": "Slippers of the Oracle",
+      "Source": "Qiraji Bindings of Sovereignty",
+      "SourceType": "TierToken",
+      "SourceNumber": "233371",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233684": {
+      "Name": "Avenger's Mantle",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233685": {
       "Name": "Avenger's Plate Pants",
       "Source": "Intact Viscera",
       "SourceType": "TierToken",
       "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233686": {
+      "Name": "Avenger's Treads",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -5136,11 +5536,27 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233689": {
+      "Name": "Avenger's Spaulders",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233690": {
       "Name": "Avenger's Tassets",
       "Source": "Intact Viscera",
       "SourceType": "TierToken",
       "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233691": {
+      "Name": "Avenger's Sabatons",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -5176,6 +5592,22 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233696": {
+      "Name": "Stormcaller's Sabatons",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233697": {
+      "Name": "Stormcaller's Spaulders",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233698": {
       "Name": "Stormcaller's Legplates",
       "Source": "Intact Viscera",
@@ -5200,6 +5632,22 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233701": {
+      "Name": "Stormcaller's Treads",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233702": {
+      "Name": "Stormcaller's Mantle",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233703": {
       "Name": "Stormcaller's Chain Leggings",
       "Source": "Intact Viscera",
@@ -5221,6 +5669,22 @@
       "Source": "Intact Viscera",
       "SourceType": "TierToken",
       "SourceNumber": "233365",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233706": {
+      "Name": "Stormcaller's Greaves",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233707": {
+      "Name": "Stormcaller's Epaulets",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -5256,6 +5720,22 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233712": {
+      "Name": "Genesis Stompers",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233713": {
+      "Name": "Genesis Spaulders",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233714": {
       "Name": "Genesis Leggings",
       "Source": "Intact Viscera",
@@ -5269,6 +5749,22 @@
       "Source": "Husk of the Old God",
       "SourceType": "TierToken",
       "SourceNumber": "233362",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233716": {
+      "Name": "Genesis Treads",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233717": {
+      "Name": "Genesis Mantle",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -5293,6 +5789,22 @@
       "Source": "Husk of the Old God",
       "SourceType": "TierToken",
       "SourceNumber": "233362",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233721": {
+      "Name": "Genesis Greaves",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233722": {
+      "Name": "Genesis Pauldrons",
+      "Source": "Qiraji Bindings of Dominance",
+      "SourceType": "TierToken",
+      "SourceNumber": "233369",
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },

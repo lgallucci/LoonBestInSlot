@@ -1047,6 +1047,566 @@
       "SourceNumber": "5",
       "SourceLocation": "Pix Xizzix - Booty Bay",
       "SourceFaction": "B"
+    },
+    "233724": {
+      "Name": "Battle Hardened Plate Girdle",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233725": {
+      "Name": "Battle Hardened Plate Girdle",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233726": {
+      "Name": "Battle Hardened Plate Armguards",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233727": {
+      "Name": "Battle Hardened Plate Armguards",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233728": {
+      "Name": "Blood-Caked Insignia",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233729": {
+      "Name": "Blood-Caked Choker",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233730": {
+      "Name": "Blood-Caked Talisman",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233731": {
+      "Name": "Blood-Caked Amulet",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233732": {
+      "Name": "Blood-Caked Necklace",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233733": {
+      "Name": "Blood-Caked Ring",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233734": {
+      "Name": "Blood-Caked Circle",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233735": {
+      "Name": "Blood-Caked Loop",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233736": {
+      "Name": "Blood-Caked Band",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233737": {
+      "Name": "Blood-Caked Cloak",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233738": {
+      "Name": "Blood-Caked Cape",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233739": {
+      "Name": "Blood-Caked Drape",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233740": {
+      "Name": "Blood-Caked Shroud",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233741": {
+      "Name": "Battle Hardened Lamellar Belt",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233742": {
+      "Name": "Battle Hardened Lamellar Armguards",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233743": {
+      "Name": "Battle Hardened Lamellar Wrists",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233744": {
+      "Name": "Battle Hardened Lamellar Cord",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233745": {
+      "Name": "Battle Hardened Mail Waistband",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233746": {
+      "Name": "Battle Hardened Mail Cord",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233747": {
+      "Name": "Battle Hardened Mail Belt",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233748": {
+      "Name": "Battle Hardened Mail Bracers",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233749": {
+      "Name": "Battle Hardened Mail Wristguards",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233750": {
+      "Name": "Battle Hardened Mail Vambraces",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233751": {
+      "Name": "Battle Hardened Chain Girdle",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233752": {
+      "Name": "Battle Hardened Chain Girdle",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233753": {
+      "Name": "Battle Hardened Chain Belt",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233754": {
+      "Name": "Battle Hardened Chain Belt",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233755": {
+      "Name": "Battle Hardened Chain Wristguards",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233756": {
+      "Name": "Battle Hardened Chain Wristguards",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233757": {
+      "Name": "Battle Hardened Chain Bracers",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233758": {
+      "Name": "Battle Hardened Chain Bracers",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233759": {
+      "Name": "Battle Hardened Dragonhide Bracers",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233760": {
+      "Name": "Battle Hardened Dragonhide Bracers",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233761": {
+      "Name": "Battle Hardened Dragonhide Belt",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233762": {
+      "Name": "Battle Hardened Dragonhide Belt",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233763": {
+      "Name": "Battle Hardened Dragonhide Waistguard",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233764": {
+      "Name": "Battle Hardened Dragonhide Waistguard",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233765": {
+      "Name": "Battle Hardened Dragonhide Cord",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233766": {
+      "Name": "Battle Hardened Dragonhide Cord",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233767": {
+      "Name": "Battle Hardened Dragonhide Wrists",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233768": {
+      "Name": "Battle Hardened Dragonhide Wrists",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233769": {
+      "Name": "Battle Hardened Dragonhide Armbands",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233770": {
+      "Name": "Battle Hardened Dragonhide Armbands",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233771": {
+      "Name": "Battle Hardened Leather Girdle",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233772": {
+      "Name": "Battle Hardened Leather Girdle",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233773": {
+      "Name": "Battle Hardened Leather Armsplints",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233774": {
+      "Name": "Battle Hardened Leather Armsplints",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233776": {
+      "Name": "Battle Hardened Silk Cuffs",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233778": {
+      "Name": "Battle Hardened Silk Sash",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233779": {
+      "Name": "Battle Hardened Satin Bracers",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233780": {
+      "Name": "Battle Hardened Satin Bracers",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233781": {
+      "Name": "Battle Hardened Satin Wrists",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233782": {
+      "Name": "Battle Hardened Satin Wrists",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233783": {
+      "Name": "Battle Hardened Satin Sash",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233784": {
+      "Name": "Battle Hardened Satin Sash",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233785": {
+      "Name": "Battle Hardened Satin Cinch",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233786": {
+      "Name": "Battle Hardened Satin Cinch",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233787": {
+      "Name": "Battle Hardened Dreadweave Cuffs",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233788": {
+      "Name": "Battle Hardened Dreadweave Cuffs",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233789": {
+      "Name": "Battle Hardened Dreadweave Belt",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "233790": {
+      "Name": "Battle Hardened Dreadweave Belt",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "234145": {
+      "Name": "Blood-Caked Hakkari Bijou",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "234960": {
+      "Name": "Reins of the Blood-Caked Tiger",
+      "Source": "unknown",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "234961": {
+      "Name": "Whistle of the Blood-Caked Raptor",
+      "Source": "unknown",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "235144": {
+      "Name": "Satchel of Blood-Caked Copper Coins",
+      "Source": "Blood-Caked Silver Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1",
+      "SourceLocation": "Mai'zin - Stranglethorn Vale",
+      "SourceFaction": "B"
+    },
+    "235145": {
+      "Name": "Satchel of Blood-Caked Silver Coins",
+      "Source": "unknown",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
     }
   }
 }

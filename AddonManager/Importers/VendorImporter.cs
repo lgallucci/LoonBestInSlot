@@ -24,7 +24,7 @@ public class VendorImporter : LootImporter
         // { @"https://www.wowhead.com/classic/npc=11536/quartermaster-miranda-breechlock#sells", ("Quartermaster Miranda Breechlock", "The Argent Dawn")},
         // { @"https://www.wowhead.com/classic/npc=12944/lokhtos-darkbargainer#sells", ("Lokhtos Darkbargainer", "Thorium Brotherhood")},
         // { @"https://www.wowhead.com/classic/npc=12944/lokhtos-darkbargainer#sells;50", ("Lokhtos Darkbargainer", "Thorium Brotherhood")}
-        { @"https://www.wowhead.com/classic/npc=15500/keyl-swiftclaw#sells", ("Ahn'Qiraj Tokens", "Silithus")}
+        //{ @"https://www.wowhead.com/classic/npc=15500/keyl-swiftclaw#sells", ("Ahn'Qiraj Tokens", "Silithus")}
     };
 
     internal override string FileName { get => "VendorItemList"; }

@@ -662,6 +662,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "231180", LBIS.L["Feet"], "BIS") --Judgement Sabatons
     LBIS:AddItem(spec6, "234095", LBIS.L["Feet"], "Alt") --Slime Kickers
     LBIS:AddItem(spec6, "234098", LBIS.L["Feet"], "Alt") --Boots of the Desert Protector
+    LBIS:AddItem(spec6, "233561", LBIS.L["Feet"], "Alt") --Boots of the Fallen Hero
     LBIS:AddItem(spec6, "232149", LBIS.L["Feet"], "Alt") --Judgement Sabatons
     LBIS:AddItem(spec6, "230741", LBIS.L["Feet"], "Alt") --Chromatic Boots
     LBIS:AddItem(spec6, "220656", LBIS.L["Feet"], "Alt") --Wailing Berserker's Battleboots
@@ -711,12 +712,13 @@ local function LoadData()
     LBIS:AddItem(spec6, "230844", LBIS.L["Two Hand"], "Alt") --Draconic Maul
     LBIS:AddItem(spec6, "228347", LBIS.L["Two Hand"], "Alt") --Typhoon
     LBIS:AddItem(spec6, "230271", LBIS.L["Two Hand"], "Alt") --Drake Talon Cleaver
-    LBIS:AddItem(spec6, "230738", LBIS.L["Two Hand"], "Alt") --Herald of Woe
     LBIS:AddItem(spec6, "227691", LBIS.L["Two Hand"], "Alt") --Blade of Hanna
+    LBIS:AddItem(spec6, "230738", LBIS.L["Two Hand"], "Alt") --Herald of Woe
     LBIS:AddItem(spec6, "232357", LBIS.L["Two Hand"], "Alt") --Draconic Avenger
-    LBIS:AddItem(spec6, "228410", LBIS.L["Two Hand"], "Alt") --Dreadblade of the Destructor
     LBIS:AddItem(spec6, "228229", LBIS.L["Two Hand"], "Alt") --Obsidian Edged Blade
+    LBIS:AddItem(spec6, "234987", LBIS.L["Two Hand"], "Alt") --Neretzek, The Blood Drinker
     LBIS:AddItem(spec6, "228299", LBIS.L["Two Hand"], "Alt") --Spinal Reaper
+    LBIS:AddItem(spec6, "229380", LBIS.L["Two Hand"], "Alt") --Shadowstrike
     LBIS:AddItem(spec6, "228160", LBIS.L["Two Hand"], "Alt") --Faithbringer
     LBIS:AddItem(spec6, "231315", LBIS.L["Two Hand"], "Alt") --Zin'rokh, Destroyer of Worlds
     LBIS:AddItem(spec6, "234475", LBIS.L["Ranged/Relic"], "BIS") --Libram of the Exorcist

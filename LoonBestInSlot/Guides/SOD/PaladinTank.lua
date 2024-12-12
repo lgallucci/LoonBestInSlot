@@ -532,6 +532,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "228722", LBIS.L["Trinket"], "Alt") --Hand of Justice
     LBIS:AddItem(spec6, "233990", LBIS.L["Trinket"], "Alt") --Speedstone
     LBIS:AddItem(spec6, "234462", LBIS.L["Trinket"], "Alt") --Earthstrike
+    LBIS:AddItem(spec6, "233570", LBIS.L["Trinket"], "Alt") --Petrified Scarab
     LBIS:AddItem(spec6, "228083", LBIS.L["Trinket"], "Alt") --Gloaming Treeheart
     LBIS:AddItem(spec6, "231781", LBIS.L["Trinket"], "Alt") --Soul of Thunder
     LBIS:AddItem(spec6, "228686", LBIS.L["Trinket"], "Alt Stam") --Onyxia Blood Talisman

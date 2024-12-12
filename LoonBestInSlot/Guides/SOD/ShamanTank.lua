@@ -714,6 +714,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "233706", LBIS.L["Feet"], "BIS") --Stormcaller's Greaves
     LBIS:AddItem(spec6, "233696", LBIS.L["Feet"], "BIS Mit") --Stormcaller's Sabatons
     LBIS:AddItem(spec6, "231212", LBIS.L["Feet"], "Alt") --Sabatons of Ten Storms
+    LBIS:AddItem(spec6, "234099", LBIS.L["Feet"], "Alt") --Boots of the Fiery Sands
     LBIS:AddItem(spec6, "21608", LBIS.L["Neck"], "BIS") --Amulet of Vek'nilash
     LBIS:AddItem(spec6, "233642", LBIS.L["Neck"], "BIS Mit") --Mark of C'Thun
     LBIS:AddItem(spec6, "231340", LBIS.L["Neck"], "Alt") --Unmarred Vision of Voodress

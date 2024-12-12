@@ -94,6 +94,7 @@ LBIS.EnchantSources =
     [23803] = { Name = "Enchant Weapon - Mighty Spirit", DesignId = "19448", ScrollId = "0", Source = LBIS.L["Thorium Brotherhood"], SourceLocation = LBIS.L["Blackrock Depths"], TextureId = "" },
     [23804] = { Name = "Enchant Weapon - Mighty Intellect", DesignId = "19449", ScrollId = "0", Source = LBIS.L["Thorium Brotherhood"], SourceLocation = LBIS.L["Blackrock Depths"], TextureId = "" },
     [24160] = { Name = "Syncretist's Sigil", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Syncretis's Sigil"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "19783" },
+    [24163] = { Name = "Vodouisant's Vigilant Embrace", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Vodouisant's Vigilant Embrace"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "19786" },
     [24420] = { Name = "Zandalar Signet of Serenity", DesignId = "20078", ScrollId = "0", Source = LBIS.L["Signets of the Zandalar"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "" },
     [24421] = { Name = "Zandalar Signet of Mojo", DesignId = "20076", ScrollId = "0", Source = LBIS.L["Signets of the Zandalar"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "" },
     [24422] = { Name = "Zandalar Signet of Might", DesignId = "20077", ScrollId = "0", Source = LBIS.L["Signets of the Zandalar"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "" },

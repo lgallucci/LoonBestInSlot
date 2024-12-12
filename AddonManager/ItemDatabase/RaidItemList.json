@@ -7543,6 +7543,38 @@
       "SourceNumber": "0",
       "SourceLocation": "Ruins of Ahn'Qiraj",
       "SourceFaction": "B"
+    },
+    "20889": {
+      "Name": "Qiraji Regal Drape",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"      
+    },
+    "20885": {
+      "Name": "Qiraji Martial Drape",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"     
+    },
+    "20884": {
+      "Name": "Qiraji Magisterial Ring",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "20888": {
+      "Name": "Qiraji Ceremonial Ring",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"     
     }
   }
 }

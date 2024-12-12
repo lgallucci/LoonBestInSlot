@@ -10,9 +10,11 @@ public class EmblemImporter : LootImporter
 {
     private List<string> wowheadUriList = new List<string>
     {
-        { @"https://www.wowhead.com/classic/npc=227853/pix-xizzix#sells"},
-        { @"https://www.wowhead.com/classic/npc=227853/pix-xizzix#sells;50"},
-        { @"https://www.wowhead.com/classic/npc=227853/pix-xizzix#sells;100"},
+        // { @"https://www.wowhead.com/classic/npc=227853/pix-xizzix#sells"},
+        // { @"https://www.wowhead.com/classic/npc=227853/pix-xizzix#sells;50"},
+        // { @"https://www.wowhead.com/classic/npc=227853/pix-xizzix#sells;100"},
+        { @"https://www.wowhead.com/classic/npc=218115/maizin#sells"},
+        { @"https://www.wowhead.com/classic/npc=218115/maizin#sells;50"},
     };
 
     internal override string FileName { get => "EmblemItemList"; }
@@ -30,7 +32,7 @@ public class EmblemImporter : LootImporter
             var sourceFaction = "B";
             var itemName = item.TextContent;
 
-            Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
+            Common.RecursiveBoxSearch(row.Children[11], (anchorObject) =>
             {
                 var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/classic", "").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", ""); ;
 
@@ -60,7 +62,8 @@ public class EmblemImporter : LootImporter
                             item == "52028" ? "Vanquisher's Mark (H)" :
                             item == "52029" ? "Protector's Mark (H)" :
                             item == "52030" ? "Conqueror's Mark (H)" : 
-                            item == "226404" ? "Tarnished Undermine Real" : "unknown";
+                            item == "226404" ? "Tarnished Undermine Real" : 
+                            item == "235142" ? "Blood-Caked Silver Coin" : "unknown";
 
                         if (string.IsNullOrWhiteSpace(currencySource))
                             currencySource = sourceText;
@@ -82,6 +85,8 @@ public class EmblemImporter : LootImporter
                             currencySourceLocation = "Icecrown Citadel (25H)";
                         else if (item == "226404")
                             currencySourceLocation = "Pix Xizzix - Booty Bay";
+                        else if (item == "235142")
+                            currencySourceLocation = "Mai'zin - Stranglethorn Vale";
                         else if (string.IsNullOrWhiteSpace(currencySourceLocation))
                             currencySourceLocation = "Emblem Vendor";
                     }

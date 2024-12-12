@@ -13,12 +13,16 @@ public class TierSetImporter : LootImporter
         // { "https://www.wowhead.com/classic/item=233365/intact-viscera#currency-for", "Ahn'Qiraj" },
         // { "https://www.wowhead.com/classic/item=233367/intact-viscera#currency-for", "Ahn'Qiraj" },
         // { "https://www.wowhead.com/classic/item=233368/intact-viscera#currency-for", "Ahn'Qiraj" },
-        { "https://www.wowhead.com/classic/item=233369/qiraji-bindings-of-sovereignty", "Ahn'Qiraj" },
-        { "https://www.wowhead.com/classic/item=233370/qiraji-bindings-of-sovereignty", "Ahn'Qiraj" },
-        { "https://www.wowhead.com/classic/item=233371/qiraji-bindings-of-sovereignty", "Ahn'Qiraj" },
-        { "https://www.wowhead.com/classic/item=233362/skin-of-the-old-god#currency-for", "Ahn'Qiraj" },
-        { "https://www.wowhead.com/classic/item=233363/skin-of-the-old-god#currency-for", "Ahn'Qiraj" },
-        { "https://www.wowhead.com/classic/item=233364/skin-of-the-old-god#currency-for", "Ahn'Qiraj" },
+        // { "https://www.wowhead.com/classic/item=233369/qiraji-bindings-of-dominance#currency-for", "Ahn'Qiraj" },
+        // { "https://www.wowhead.com/classic/item=233370/qiraji-bindings-of-sovereignty#currency-for", "Ahn'Qiraj" },
+        // { "https://www.wowhead.com/classic/item=233371/qiraji-bindings-of-sovereignty#currency-for", "Ahn'Qiraj" },
+        // { "https://www.wowhead.com/classic/item=233362/skin-of-the-old-god#currency-for", "Ahn'Qiraj" },
+        // { "https://www.wowhead.com/classic/item=233363/skin-of-the-old-god#currency-for", "Ahn'Qiraj" },
+        // { "https://www.wowhead.com/classic/item=233364/skin-of-the-old-god#currency-for", "Ahn'Qiraj" },
+        { "https://www.wowhead.com/classic/item=20889/qiraji-regal-drape#currency-for", "Ruins of Ahn'Qiraj" },
+        { "https://www.wowhead.com/classic/item=20885/qiraji-martial-drape#currency-for", "Ruins of Ahn'Qiraj" },
+        { "https://www.wowhead.com/classic/item=20884/qiraji-magisterial-ring#currency-for", "Ruins of Ahn'Qiraj" },
+        { "https://www.wowhead.com/classic/item=20888/qiraji-ceremonial-ring#currency-for", "Ruins of Ahn'Qiraj" },
     };
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToText)
