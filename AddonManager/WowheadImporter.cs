@@ -460,7 +460,7 @@ public static class WowheadImporter
 
     private static List<string> _bossNames = new List<string>() { "the prophet skeram", "battleguard sartura", "fankriss the unyielding",
                                                                 "princess huhuran", "emperor vek'nilash", "emperor vek'lor", "c'thun", 
-                                                                "princess yauj", "vem", "lord kri", "Viscidus", "Ouro"};
+                                                                "princess yauj", "vem", "lord kri", "viscidus", "ouro"};
 
     private static bool AreAllBosses(IHtmlCollection<IElement> rowElements)
     {
