@@ -380,10 +380,12 @@ public static class WowheadImporter
                         itemSources[itemId].SourceLocation = AddLocalizeText(location);
                         itemSources[itemId].SourceFaction = "B";
                     }
-                    else if (rowElements.All(r => r.Children[2].TextContent.Trim() == location))
+                    else if (rowElements.All(r => r.Children[3].TextContent.Trim() == location))
                     {
                         if (IsDungeonName(location))
                             itemSources[itemId].Source = AddLocalizeText("Trash Mobs");
+                        else if (AreAllBosses(rowElements))
+                            itemSources[itemId].Source = AddLocalizeText("Various Bosses");
                         else
                             itemSources[itemId].Source = AddLocalizeText("World Drop");
                         
@@ -454,6 +456,20 @@ public static class WowheadImporter
             writeToLog("Error !");
         }
         ItemSourceFileManager.WriteItemSources(itemSources);
+    }
+
+    private static List<string> _bossNames = new List<string>() { "the prophet skeram", "battleguard sartura", "fankriss the unyielding",
+                                                                "princess huhuran", "emperor vek'nilash", "emperor vek'lor", "c'thun", 
+                                                                "princess yauj", "vem", "lord kri", "Viscidus", "Ouro"};
+
+    private static bool AreAllBosses(IHtmlCollection<IElement> rowElements)
+    {
+        foreach(var row in rowElements)
+        {
+            if (!_bossNames.Contains(row.Children[0].TextContent.ToLower()))
+                return false;
+        }
+        return true;
     }
 
     private static List<string> _dungeons = new List<string>() {"ragefire chasm", "the deadmines", "wailing caverns", 
