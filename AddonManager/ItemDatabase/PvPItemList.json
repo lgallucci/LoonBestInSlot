@@ -9151,6 +9151,422 @@
       "SourceNumber": "6g35s96c",
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
+    },
+    "234542": {
+      "Name": "High Warlord's Greatsword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234543": {
+      "Name": "High Warlord's Battle Axe",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234545": {
+      "Name": "High Warlord's Pulverizer",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234546": {
+      "Name": "High Warlord's Destroyer",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234547": {
+      "Name": "High Warlord's Pig Sticker",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234548": {
+      "Name": "High Warlord's Pig Poker",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234549": {
+      "Name": "High Warlord's War Staff",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234550": {
+      "Name": "High Warlord's Spellblade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234551": {
+      "Name": "High Warlord's Battle Mace",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234552": {
+      "Name": "High Warlord's Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234553": {
+      "Name": "High Warlord's Quickblade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234554": {
+      "Name": "High Warlord's Cleaver",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234555": {
+      "Name": "High Warlord's Bludgeon",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234556": {
+      "Name": "High Warlord's Razor",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234557": {
+      "Name": "High Warlord's Right Claw",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234558": {
+      "Name": "High Warlord's Left Claw",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234559": {
+      "Name": "High Warlord's Recurve",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234560": {
+      "Name": "High Warlord's Crossbow",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234561": {
+      "Name": "High Warlord's Street Sweeper",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234562": {
+      "Name": "High Warlord's Shield Wall",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234563": {
+      "Name": "High Warlord's Tome of Destruction",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234564": {
+      "Name": "High Warlord's Tome of Mending",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234565": {
+      "Name": "Grand Marshal's Claymore",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234566": {
+      "Name": "Grand Marshal's Sunderer",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234567": {
+      "Name": "Grand Marshal's Battle Hammer",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234568": {
+      "Name": "Grand Marshal's Demolisher",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234569": {
+      "Name": "Grand Marshal's Glaive",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234570": {
+      "Name": "Grand Marshal's Polearm",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234571": {
+      "Name": "Grand Marshal's Stave",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234574": {
+      "Name": "Grand Marshal's Mageblade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234576": {
+      "Name": "Grand Marshal's Warhammer",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234578": {
+      "Name": "Grand Marshal's Longsword",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234579": {
+      "Name": "Grand Marshal's Swiftblade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234580": {
+      "Name": "Grand Marshal's Handaxe",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234581": {
+      "Name": "Grand Marshal's Punisher",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234582": {
+      "Name": "Grand Marshal's Dirk",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234583": {
+      "Name": "Grand Marshal's Right Hand Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234584": {
+      "Name": "Grand Marshal's Left Hand Blade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234585": {
+      "Name": "Grand Marshal's Bullseye",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234586": {
+      "Name": "Grand Marshal's Repeater",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234587": {
+      "Name": "Grand Marshal's Hand Cannon",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234588": {
+      "Name": "Grand Marshal's Aegis",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234589": {
+      "Name": "Grand Marshal's Tome of Power",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "234590": {
+      "Name": "Grand Marshal's Tome of Restoration",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "235473": {
+      "Name": "Grand Marshal's Barricade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "235474": {
+      "Name": "High Warlord's Barricade",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "235476": {
+      "Name": "High Warlord's Hacker",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "235477": {
+      "Name": "High Warlord's Bonecracker",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "235478": {
+      "Name": "High Warlord's Shiv",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "235479": {
+      "Name": "Grand Marshal's Shiv",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "235480": {
+      "Name": "Grand Marshal's Bonecracker",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
+    },
+    "235481": {
+      "Name": "Grand Marshal's Hacker",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Battlegrounds",
+      "SourceFaction": "B"
     }
   }
 }

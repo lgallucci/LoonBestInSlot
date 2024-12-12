@@ -12,6 +12,7 @@ public class ProfessionImporter : LootImporter
         { @"https://www.wowhead.com/classic/skill=165/leatherworking#recipes", "Leatherworking" },
         { @"https://www.wowhead.com/classic/skill=197/tailoring#recipes", "Tailoring" },
         { @"https://www.wowhead.com/classic/skill=164/blacksmithing#recipes", "Blacksmithing" },
+        { @"https://www.wowhead.com/classic/skill=333/enchanting", "Enchanting" }
     };
 
     internal override string FileName { get => "ProfessionItemList"; }

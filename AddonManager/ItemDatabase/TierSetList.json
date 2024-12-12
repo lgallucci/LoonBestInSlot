@@ -5112,6 +5112,14 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233417": {
+      "Name": "Mace of Unending Life",
+      "Source": "Qiraji Ornate Hilt",
+      "SourceType": "TierToken",
+      "SourceNumber": "20890",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233418": {
       "Name": "Cloak of Unending Life",
       "Source": "Qiraji Regal Drape",
@@ -5136,11 +5144,27 @@
       "SourceLocation": "Ruins of Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233421": {
+      "Name": "Scythe of the Unseen Path",
+      "Source": "Qiraji Spiked Hilt",
+      "SourceType": "TierToken",
+      "SourceNumber": "20886",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233422": {
       "Name": "Signet of the Unseen Path",
       "Source": "Qiraji Ceremonial Ring",
       "SourceType": "TierToken",
       "SourceNumber": "20888",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233423": {
+      "Name": "Blade of Vaulted Secrets",
+      "Source": "Qiraji Ornate Hilt",
+      "SourceType": "TierToken",
+      "SourceNumber": "20890",
       "SourceLocation": "Ruins of Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -5160,6 +5184,14 @@
       "SourceLocation": "Ruins of Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233426": {
+      "Name": "Blade of Eternal Justice",
+      "Source": "Qiraji Spiked Hilt",
+      "SourceType": "TierToken",
+      "SourceNumber": "20886",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233427": {
       "Name": "Cape of Eternal Justice",
       "Source": "Qiraji Regal Drape",
@@ -5173,6 +5205,14 @@
       "Source": "Qiraji Magisterial Ring",
       "SourceType": "TierToken",
       "SourceNumber": "20884",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233429": {
+      "Name": "Gavel of Infinite Wisdom",
+      "Source": "Qiraji Ornate Hilt",
+      "SourceType": "TierToken",
+      "SourceNumber": "20890",
       "SourceLocation": "Ruins of Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -5200,11 +5240,27 @@
       "SourceLocation": "Ruins of Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233433": {
+      "Name": "Dagger of Veiled Shadows",
+      "Source": "Qiraji Spiked Hilt",
+      "SourceType": "TierToken",
+      "SourceNumber": "20886",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233434": {
       "Name": "Band of Veiled Shadows",
       "Source": "Qiraji Ceremonial Ring",
       "SourceType": "TierToken",
       "SourceNumber": "20888",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233435": {
+      "Name": "Hammer of the Gathering Storm",
+      "Source": "Qiraji Spiked Hilt",
+      "SourceType": "TierToken",
+      "SourceNumber": "20886",
       "SourceLocation": "Ruins of Ahn'Qiraj",
       "SourceFaction": "B"
     },
@@ -5232,6 +5288,14 @@
       "SourceLocation": "Ruins of Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233439": {
+      "Name": "Kris of Unspoken Names",
+      "Source": "Qiraji Ornate Hilt",
+      "SourceType": "TierToken",
+      "SourceNumber": "20890",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233440": {
       "Name": "Ring of Unspoken Names",
       "Source": "Qiraji Ceremonial Ring",
@@ -5245,6 +5309,14 @@
       "Source": "Qiraji Martial Drape",
       "SourceType": "TierToken",
       "SourceNumber": "20885",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233442": {
+      "Name": "Sickle of Unyielding Strength",
+      "Source": "Qiraji Spiked Hilt",
+      "SourceType": "TierToken",
+      "SourceNumber": "20886",
       "SourceLocation": "Ruins of Ahn'Qiraj",
       "SourceFaction": "B"
     },

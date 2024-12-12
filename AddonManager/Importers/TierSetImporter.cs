@@ -19,10 +19,12 @@ public class TierSetImporter : LootImporter
         // { "https://www.wowhead.com/classic/item=233362/skin-of-the-old-god#currency-for", "Ahn'Qiraj" },
         // { "https://www.wowhead.com/classic/item=233363/skin-of-the-old-god#currency-for", "Ahn'Qiraj" },
         // { "https://www.wowhead.com/classic/item=233364/skin-of-the-old-god#currency-for", "Ahn'Qiraj" },
-        { "https://www.wowhead.com/classic/item=20889/qiraji-regal-drape#currency-for", "Ruins of Ahn'Qiraj" },
-        { "https://www.wowhead.com/classic/item=20885/qiraji-martial-drape#currency-for", "Ruins of Ahn'Qiraj" },
-        { "https://www.wowhead.com/classic/item=20884/qiraji-magisterial-ring#currency-for", "Ruins of Ahn'Qiraj" },
-        { "https://www.wowhead.com/classic/item=20888/qiraji-ceremonial-ring#currency-for", "Ruins of Ahn'Qiraj" },
+        // { "https://www.wowhead.com/classic/item=20889/qiraji-regal-drape#currency-for", "Ruins of Ahn'Qiraj" },
+        // { "https://www.wowhead.com/classic/item=20885/qiraji-martial-drape#currency-for", "Ruins of Ahn'Qiraj" },
+        // { "https://www.wowhead.com/classic/item=20884/qiraji-magisterial-ring#currency-for", "Ruins of Ahn'Qiraj" },
+        // { "https://www.wowhead.com/classic/item=20888/qiraji-ceremonial-ring#currency-for", "Ruins of Ahn'Qiraj" },
+        { "https://www.wowhead.com/classic/item=20886/qiraji-spiked-hilt#currency-for", "Ruins of Ahn'Qiraj"},
+        { "https://www.wowhead.com/classic/item=20890/qiraji-ornate-hilt#currency-for", "Ruins of Ahn'Qiraj"},
     };
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToText)

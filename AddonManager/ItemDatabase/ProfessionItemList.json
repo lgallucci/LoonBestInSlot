@@ -1,5 +1,13 @@
 {
   "Items": {
+    "232611": {
+      "Name": "Magnificent Trollshine",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "471400",
+      "SourceFaction": "B"
+    },
     "233490": {
       "Name": "Obsidian Champion",
       "Source": "Blacksmithing",
@@ -208,6 +216,86 @@
       "SourceLocation": "1213588",
       "SourceFaction": "B"
     },
+    "233990": {
+      "Name": "Speedstone",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1213593",
+      "SourceFaction": "B"
+    },
+    "233991": {
+      "Name": "Tear of the Dreamer",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1213595",
+      "SourceFaction": "B"
+    },
+    "233992": {
+      "Name": "Lodestone of Retaliation",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1213598",
+      "SourceFaction": "B"
+    },
+    "233993": {
+      "Name": "Enchanted Stopwatch",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1213600",
+      "SourceFaction": "B"
+    },
+    "233994": {
+      "Name": "Ruby-Encrusted Broach",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1213603",
+      "SourceFaction": "B"
+    },
+    "233995": {
+      "Name": "Scroll: Wrath of the Swarm",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1213607",
+      "SourceFaction": "B"
+    },
+    "233996": {
+      "Name": "Enchanted Repellent",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1213610",
+      "SourceFaction": "B"
+    },
+    "234000": {
+      "Name": "Enchanted Prayer Tome",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1213628",
+      "SourceFaction": "B"
+    },
+    "234001": {
+      "Name": "Enchanted Totem",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1213633",
+      "SourceFaction": "B"
+    },
+    "234002": {
+      "Name": "Enchanted Mushroom",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1213635",
+      "SourceFaction": "B"
+    },
     "234004": {
       "Name": "Obsidian Grinding Stone",
       "Source": "Blacksmithing",
@@ -414,6 +502,78 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "1214274",
+      "SourceFaction": "B"
+    },
+    "234468": {
+      "Name": "Idol of Ursin Power",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1216024",
+      "SourceFaction": "B"
+    },
+    "234469": {
+      "Name": "Idol of Feline Ferocity",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1216022",
+      "SourceFaction": "B"
+    },
+    "234474": {
+      "Name": "Idol of Sidereal Wrath",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1216020",
+      "SourceFaction": "B"
+    },
+    "234475": {
+      "Name": "Libram of the Exorcist",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1216007",
+      "SourceFaction": "B"
+    },
+    "234476": {
+      "Name": "Libram of Sanctity",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1216010",
+      "SourceFaction": "B"
+    },
+    "234477": {
+      "Name": "Libram of Righteousness",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1216005",
+      "SourceFaction": "B"
+    },
+    "234478": {
+      "Name": "Totem of Thunderous Strikes",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1216016",
+      "SourceFaction": "B"
+    },
+    "234479": {
+      "Name": "Totem of Flowing Magma",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1216018",
+      "SourceFaction": "B"
+    },
+    "234480": {
+      "Name": "Totem of Pyroclastic Thunder",
+      "Source": "Enchanting",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1216014",
       "SourceFaction": "B"
     },
     "234482": {
