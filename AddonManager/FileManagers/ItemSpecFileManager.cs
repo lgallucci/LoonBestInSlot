@@ -5,7 +5,7 @@ namespace AddonManager.FileManagers;
 
 public static class ItemSpecFileManager
 {
-    public static void WriteItemSpec(string path, string className, string specName,
+    public static void WriteItemSpec(string path, string className, string specName, bool isSod,
         List<EnchantSpec> enchantsList,
         Dictionary<int, List<ItemSpec>> itemsList)
     {
@@ -42,7 +42,11 @@ public static class ItemSpecFileManager
 
         itemSB.AppendLine("end");
 
-        itemSB.AppendLine("if LBIS.IsSOD then");
+        if (isSod) {
+            itemSB.AppendLine("if LBIS.IsSOD then");
+        } else {
+            itemSB.AppendLine("if not LBIS.IsSOD then");
+        }
         itemSB.AppendLine("    LoadData();");
         itemSB.AppendLine("end");
 

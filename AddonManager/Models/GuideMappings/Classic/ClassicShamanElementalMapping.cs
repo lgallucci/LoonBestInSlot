@@ -23,20 +23,20 @@ internal class ClassicShamanElementalMapping : ClassicSpecMapping
     public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-elemental-shaman") },
-            { ("Shoulder", "#shoulder-for-elemental-shaman") },
+            { ("Shoulder", "#shoulders-for-elemental-shaman") },
             { ("Back", "#back-for-elemental-shaman") },
             { ("Chest", "#chest-for-elemental-shaman") },
-            { ("Wrist", "#bracers-for-elemental-shaman") },
+            { ("Wrist", "#wrist-for-elemental-shaman") },
             { ("Hands", "#hands-for-elemental-shaman") },
-            { ("Waist", "#belt-for-elemental-shaman") },
+            { ("Waist", "#waist-for-elemental-shaman") },
             { ("Legs", "#legs-for-elemental-shaman") },
-            { ("Feet", "#boots-for-elemental-shaman") },
+            { ("Feet", "#feet-for-elemental-shaman") },
             { ("Neck", "#neck-for-elemental-shaman") },
-            { ("Ring", "#rings-for-elemental-shaman") },
-            { ("Trinket", "#trinkets-for-elemental-shaman") },
+            { ("Ring", "#ring-for-elemental-shaman") },
+            { ("Trinket", "#trinket-for-elemental-shaman") },
             { ("Main Hand", "#one-handed-weapons-for-elemental-shaman") },
             { ("Off Hand", "#off-hands-for-elemental-shaman") },
             { ("Two Hand", "#two-handed-weapons-for-elemental-shaman") },
-            { ("Ranged/Relic", "#ranged-weapons-for-elemental-shaman") },
+            //TODO: Wait til ranged are added
         };
 }

@@ -34,9 +34,7 @@ internal class ClassicPaladinRetributionMapping : ClassicSpecMapping
             { ("Neck", "#neck-for-paladin-dps") },
             { ("Ring", "#rings-for-paladin-dps") },
             { ("Trinket", "#trinkets-for-paladin-dps") },
-            { ("Main Hand", "#one-hand-weapons-for-paladin-dps") },
-            { ("Off Hand", "#off-hand-items-for-paladin-dps") },
             { ("Two Hand", "#two-hand-weapons-for-paladin-dps") },
-            { ("Ranged/Relic", "#wands-for-paladin-dps") },
+            //TODO: Wait til ranged are added
         };
 }

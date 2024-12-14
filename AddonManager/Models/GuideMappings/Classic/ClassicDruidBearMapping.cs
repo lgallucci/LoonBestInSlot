@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AddonManager.Models.GuideMappings.Classic;
 internal class ClassicDruidBearMapping : ClassicSpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/classic/guide/wow-classic-feral-druid-dps-molten-core-best-in-slot-gear";
+    public override string UrlBase => "https://www.wowhead.com/classic/guide/wow-classic-feral-druid-tank-molten-core-best-in-slot-gear";
     public override string Class => "Druid";
     public override string Spec => "Bear";
 
@@ -37,6 +37,6 @@ internal class ClassicDruidBearMapping : ClassicSpecMapping
             { ("Main Hand", "#one-hand-weapons-for-druid-tanks") },
             { ("Off Hand", "#off-hand-items-for-druid-tanks") },
             { ("Two Hand", "#two-hand-weapons-for-druid-tanks") },
-            { ("Ranged/Relic", "#idols-for-druid-tanks") },
+            //TODO: Wait til ranged are added
         };
 }

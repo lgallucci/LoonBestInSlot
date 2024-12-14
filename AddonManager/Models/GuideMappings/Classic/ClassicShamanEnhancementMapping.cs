@@ -26,15 +26,16 @@ internal class ClassicShamanEnhancementMapping : ClassicSpecMapping
             { ("Shoulder", "#shoulder-for-enhancement-shaman") },
             { ("Back", "#back-for-enhancement-shaman") },
             { ("Chest", "#chest-for-enhancement-shaman") },
-            { ("Wrist", "#bracers-for-enhancement-shaman") },
+            { ("Wrist", "#wrist-for-enhancement-shaman") },
             { ("Hands", "#hands-for-enhancement-shaman") },
-            { ("Waist", "#belt-for-enhancement-shaman") },
+            { ("Waist", "#waist-for-enhancement-shaman") },
             { ("Legs", "#legs-for-enhancement-shaman") },
-            { ("Feet", "#boots-for-enhancement-shaman") },
+            { ("Feet", "#feet-for-enhancement-shaman") },
             { ("Neck", "#neck-for-enhancement-shaman") },
             { ("Ring", "#rings-for-enhancement-shaman") },
             { ("Trinket", "#trinkets-for-enhancement-shaman") },
             { ("Main Hand", "#one-handed-for-enhancement-shaman") },
             { ("Two Hand", "#two-handed-for-enhancement-shaman") },
+            //TODO: Wait til ranged are added
         };
 }

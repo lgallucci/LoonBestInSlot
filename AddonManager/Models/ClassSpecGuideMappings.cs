@@ -143,6 +143,7 @@ public class ClassSpecGuideMappings
         ClassicGuideMappings.AddRange(new ClassicPaladinHolyMapping().ToList());
         ClassicGuideMappings.AddRange(new ClassicPaladinRetributionMapping().ToList());
         ClassicGuideMappings.AddRange(new ClassicPaladinTankMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicPriestHolyMapping().ToList());
         ClassicGuideMappings.AddRange(new ClassicPriestShadowMapping().ToList());
         ClassicGuideMappings.AddRange(new ClassicShamanElementalMapping().ToList());
         ClassicGuideMappings.AddRange(new ClassicShamanEnhancementMapping().ToList());

@@ -23,14 +23,14 @@ internal class ClassicWarriorProtectionMapping : ClassicSpecMapping
     public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-warrior-tank") },
-            { ("Shoulder", "#shoulder-for-warrior-tank") },
+            { ("Shoulder", "#shoulders-for-warrior-tank") },
             { ("Back", "#back-for-warrior-tank") },
             { ("Chest", "#chest-for-warrior-tank") },
-            { ("Wrist", "#bracers-for-warrior-tank") },
+            { ("Wrist", "#wrist-for-warrior-tank") },
             { ("Hands", "#hands-for-warrior-tank") },
-            { ("Waist", "#belt-for-warrior-tank") },
+            { ("Waist", "#waist-for-warrior-tank") },
             { ("Legs", "#legs-for-warrior-tank") },
-            { ("Feet", "#boots-for-warrior-tank") },
+            { ("Feet", "#feet-for-warrior-tank") },
             { ("Neck", "#neck-for-warrior-tank") },
             { ("Ring", "#rings-for-warrior-tank") },
             { ("Trinket", "#trinkets-for-warrior-tank") },

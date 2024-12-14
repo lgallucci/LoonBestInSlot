@@ -22,21 +22,20 @@ internal class ClassicPaladinTankMapping : ClassicSpecMapping
     public override string CurrentUrl => "";
     public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
-            { ("Head", "#helm-for-paladin-dps") },
-            { ("Shoulder", "#shoulder-for-paladin-dps") },
-            { ("Back", "#back-for-paladin-dps") },
-            { ("Chest", "#chest-for-paladin-dps") },
-            { ("Wrist", "#bracers-for-paladin-dps") },
-            { ("Hands", "#hands-for-paladin-dps") },
-            { ("Waist", "#belt-for-paladin-dps") },
-            { ("Legs", "#legs-for-paladin-dps") },
-            { ("Feet", "#boots-for-paladin-dps") },
-            { ("Neck", "#neck-for-paladin-dps") },
-            { ("Ring", "#rings-for-paladin-dps") },
-            { ("Trinket", "#trinkets-for-paladin-dps") },
-            { ("Main Hand", "#one-hand-weapons-for-paladin-dps") },
-            { ("Off Hand", "#off-hand-items-for-paladin-dps") },
-            { ("Two Hand", "#two-hand-weapons-for-paladin-dps") },
-            { ("Ranged/Relic", "#wands-for-paladin-dps") },
+            { ("Head", "#helm-for-paladin-tanks") },
+            { ("Shoulder", "#shoulder-for-paladin-tanks") },
+            { ("Back", "#back-for-paladin-tanks") },
+            { ("Chest", "#chest-for-paladin-tanks") },
+            { ("Wrist", "#bracers-for-paladin-tanks") },
+            { ("Hands", "#hands-for-paladin-tanks") },
+            { ("Waist", "#belt-for-paladin-tanks") },
+            { ("Legs", "#legs-for-paladin-tanks") },
+            { ("Feet", "#boots-for-paladin-tanks") },
+            { ("Neck", "#neck-for-paladin-tanks") },
+            { ("Ring", "#rings-for-paladin-tanks") },
+            { ("Trinket", "#trinkets-for-paladin-tanks") },
+            { ("Main Hand", "#main-hand-weapon-for-paladin-tanks") },
+            { ("Off Hand", "#shield-for-paladin-tanks") },
+            //TODO: Wait til ranged are added
         };
 }

@@ -35,7 +35,6 @@ internal class ClassicHunterDpsMapping : ClassicSpecMapping
             { ("Ring", "#rings-for-hunters") },
             { ("Trinket", "#trinkets-for-hunters") },
             { ("Main Hand", "#one-hand-weapons-for-hunters") },
-            { ("Off Hand", "#off-hand-items-for-hunters") },
             { ("Two Hand", "#two-hand-weapons-for-hunters") },
             { ("Ranged/Relic", "#ranged-weapons-for-hunters") },
         };

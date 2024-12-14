@@ -22,21 +22,21 @@ internal class ClassicWarlockDpsMapping : ClassicSpecMapping
     public override string CurrentUrl => "";
     public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-warlock-dps") },
-            { ("Shoulder", "#shoulder-for-warlock-dps") },
-            { ("Back", "#back-for-warlock-dps") },
-            { ("Chest", "#chest-for-warlock-dps") },
-            { ("Wrist", "#bracers-for-warlock-dps") },
-            { ("Hands", "#hands-for-warlock-dps") },
-            { ("Waist", "#belt-for-warlock-dps") },
-            { ("Legs", "#legs-for-warlock-dps") },
-            { ("Feet", "#boots-for-warlock-dps") },
-            { ("Neck", "#neck-for-warlock-dps") },
-            { ("Ring", "#rings-for-warlock-dps") },
-            { ("Trinket", "#trinkets-for-warlock-dps") },
-            { ("Main Hand", "#main-hand-for-warlock-dps") },
-            { ("Off Hand", "#off-hand-for-warlock-dps") },
-            { ("Two Hand", "#2h-weapon-for-warlock-dps") },
-            { ("Ranged/Relic", "#wand-for-warlock-dps") }
+            { ("Head", "#head-for-warlocks") },
+            { ("Shoulder", "#shoulders-for-warlocks") },
+            { ("Back", "#back-for-warlocks") },
+            { ("Chest", "#chest-for-warlocks") },
+            { ("Wrist", "#wrist-for-warlocks") },
+            { ("Hands", "#hands-for-warlocks") },
+            { ("Waist", "#waist-for-warlocks") },
+            { ("Legs", "#legs-for-warlocks") },
+            { ("Feet", "#feet-for-warlocks") },
+            { ("Neck", "#neck-for-warlocks") },
+            { ("Ring", "#rings-for-warlocks") },
+            { ("Trinket", "#trinkets-for-warlocks") },
+            { ("Main Hand", "#main-hand-for-warlocks") },
+            { ("Off Hand", "#off-hand-for-warlocks") },
+            { ("Two Hand", "#off-hand-for-warlocks ~ h4") },
+            { ("Ranged/Relic", "#wand-for-warlocks") }
         };
 }

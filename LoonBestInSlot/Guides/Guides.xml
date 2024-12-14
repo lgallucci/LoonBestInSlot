@@ -28,6 +28,23 @@
 	<Script file="SOD\WarriorTank.lua" />
 
 <!-- Classic Era/Hardcore Guides -->
+	<Script file="ERA\DruidBalance.lua" />
+	<Script file="ERA\DruidBear.lua" />
+	<Script file="ERA\DruidCat.lua" />
+	<Script file="ERA\DruidRestoration.lua" />
+	<Script file="ERA\HunterDps.lua" />
+	<Script file="ERA\MageDps.lua" />
+	<Script file="ERA\PaladinHoly.lua" />
+	<Script file="ERA\PaladinProtection.lua" />
+	<Script file="ERA\PaladinRetribution.lua" />
+	<Script file="ERA\PriestHoly.lua" />
+	<Script file="ERA\PriestShadow.lua" />
+	<Script file="ERA\RogueDps.lua" />
+	<Script file="ERA\ShamanElemental.lua" />
+	<Script file="ERA\ShamanEnhancement.lua" />
+	<Script file="ERA\ShamanRestoration.lua" />
+	<Script file="ERA\WarlockDps.lua" />
+	<Script file="ERA\WarriorDps.lua" />
 	<Script file="ERA\WarriorProtection.lua" />
 
 
