@@ -424,11 +424,11 @@ public static class WowheadImporter
                                 source += row.Children[0].TextContent.Trim();
                             }
 
-                            if (row.Children[7].TextContent.Trim() != sourceLocation)
+                            if (row.Children[8].TextContent.Trim() != sourceLocation)
                             {
                                 if (!string.IsNullOrWhiteSpace(sourceLocation))
                                     sourceLocation += " & ";
-                                sourceLocation += row.Children[7].TextContent.Trim();
+                                sourceLocation += row.Children[8].TextContent.Trim();
                             }
                         }
                         

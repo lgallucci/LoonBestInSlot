@@ -29,7 +29,7 @@ local function LoadData()
     LBIS:AddItem(spec1, "16838", LBIS.L["Waist"], "Alt") --Earthfury Belt
     LBIS:AddItem(spec1, "14553", LBIS.L["Waist"], "Alt") --Sash of Mercy
     LBIS:AddItem(spec1, "16843", LBIS.L["Legs"], "BIS") --Earthfury Legguards
-    LBIS:AddItem(spec1, "11841", LBIS.L["Legs/Feet"], "BIS") --Senior Designer's Pantaloons
+    LBIS:AddItem(spec1, "11841", LBIS.L["Legs"], "BIS") --Senior Designer's Pantaloons
     LBIS:AddItem(spec1, "16946", LBIS.L["Legs"], "Alt") --Legplates of Ten Storms
     LBIS:AddItem(spec1, "16837", LBIS.L["Feet"], "BIS") --Earthfury Boots
     LBIS:AddItem(spec1, "13954", LBIS.L["Feet"], "Alt") --Verdant Footpads
