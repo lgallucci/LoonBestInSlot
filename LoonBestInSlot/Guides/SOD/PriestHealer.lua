@@ -16,6 +16,7 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "19058", LBIS.L["Hands"]) --Rugged Armor Kit
     LBIS:AddEnchant(spec6, "468342", LBIS.L["Legs"]) --Prophetic Aura
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "22750", LBIS.L["Main Hand"]) --Enchant Weapon - Healing Power
     LBIS:AddEnchant(spec6, "23804", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Intellect
     LBIS:AddEnchant(spec6, "22750", LBIS.L["Two Hand"]) --Enchant Weapon - Healing Power
