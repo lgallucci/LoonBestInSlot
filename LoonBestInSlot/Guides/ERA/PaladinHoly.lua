@@ -14,7 +14,6 @@ local function LoadData()
     LBIS:AddItem(spec1, "18720", LBIS.L["Shoulder"], "Alt") --Shroud of the Nathrezim
     LBIS:AddItem(spec1, "14548", LBIS.L["Shoulder"], "Alt") --Royal Cap Spaulders
     LBIS:AddItem(spec1, "15061", LBIS.L["Shoulder"], "Alt") --Living Shoulders
-    LBIS:AddItem(spec1, "18510", LBIS.L["Back"], "BIS") --Hide of the Wild
     LBIS:AddItem(spec1, "13346", LBIS.L["Chest"], "BIS") --Robes of the Exalted
     LBIS:AddItem(spec1, "19145", LBIS.L["Chest"], "Alt") --Robe of Volatile Power
     LBIS:AddItem(spec1, "15047", LBIS.L["Chest"], "Alt") --Red Dragonscale Breastplate
@@ -36,11 +35,9 @@ local function LoadData()
     LBIS:AddItem(spec1, "19140", LBIS.L["Ring"], "BIS") --Cauterizing Band
     LBIS:AddItem(spec1, "13178", LBIS.L["Ring"], "Alt") --Rosewine Circle
     LBIS:AddItem(spec1, "16058", LBIS.L["Ring"], "Alt") --Fordring's Seal
-    LBIS:AddItem(spec1, "20505", LBIS.L["Ring"], "Alt") --Chivalrous Signet
     LBIS:AddItem(spec1, "13143", LBIS.L["Ring"], "Alt") --Mark of the Dragon Lord
     LBIS:AddItem(spec1, "17064", LBIS.L["Trinket"], "BIS") --Shard of the Scale
     LBIS:AddItem(spec1, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
-    LBIS:AddItem(spec1, "18472", LBIS.L["Trinket"], "Alt") --Royal Seal of Eldre'Thalas
     LBIS:AddItem(spec1, "11819", LBIS.L["Trinket"], "Alt") --Second Wind
     LBIS:AddItem(spec1, "17103", LBIS.L["Main Hand"], "BIS") --Azuresong Mageblade
     LBIS:AddItem(spec1, "17105", LBIS.L["Main Hand"], "Alt") --Aurastone Hammer

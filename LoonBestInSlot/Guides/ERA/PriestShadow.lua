@@ -17,8 +17,7 @@ local function LoadData()
     LBIS:AddItem(spec1, "14136", LBIS.L["Chest"], "BIS") --Robe of Winter Night
     LBIS:AddItem(spec1, "13314", LBIS.L["Chest"], "Alt") --Alanna's Embrace
     LBIS:AddItem(spec1, "14106", LBIS.L["Chest"], "Alt") --Felcloth Robe
-    LBIS:AddItem(spec1, "18407", LBIS.L["Hands"], "BIS") --Felcloth Gloves
-    LBIS:AddItem(spec1, "13253", LBIS.L["Hands"], "Alt") --Hands of Power
+    LBIS:AddItem(spec1, "13253", LBIS.L["Hands"], "BIS") --Hands of Power
     LBIS:AddItem(spec1, "10019", LBIS.L["Hands"], "Alt") --Dreamweave Gloves
     LBIS:AddItem(spec1, "18809", LBIS.L["Waist"], "BIS") --Sash of Whispered Secrets
     LBIS:AddItem(spec1, "11662", LBIS.L["Waist"], "Alt") --Ban'thok Sash

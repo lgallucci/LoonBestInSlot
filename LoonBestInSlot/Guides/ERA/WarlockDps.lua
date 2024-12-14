@@ -16,8 +16,7 @@ local function LoadData()
     LBIS:AddItem(spec1, "14153", LBIS.L["Chest"], "Alt") --Robe of the Void
     LBIS:AddItem(spec1, "14136", LBIS.L["Chest"], "Alt") --Robe of Winter Night
     LBIS:AddItem(spec1, "16804", LBIS.L["Wrist"], "BIS") --Felheart Bracers
-    LBIS:AddItem(spec1, "18407", LBIS.L["Hands"], "BIS") --Felcloth Gloves
-    LBIS:AddItem(spec1, "13253", LBIS.L["Hands"], "Alt") --Hands of Power
+    LBIS:AddItem(spec1, "13253", LBIS.L["Hands"], "BIS") --Hands of Power
     LBIS:AddItem(spec1, "16805", LBIS.L["Hands"], "Alt") --Felheart Gloves
     LBIS:AddItem(spec1, "19136", LBIS.L["Waist"], "BIS") --Mana Igniting Cord
     LBIS:AddItem(spec1, "11662", LBIS.L["Waist"], "Alt") --Ban'thok Sash

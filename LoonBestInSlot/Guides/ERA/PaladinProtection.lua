@@ -20,8 +20,7 @@ local function LoadData()
     LBIS:AddItem(spec1, "14624", LBIS.L["Chest"], "BIS") --Deathbone Chestplate
     LBIS:AddItem(spec1, "15413", LBIS.L["Chest"], "Alt") --Ornate Adamantium Breastplate
     LBIS:AddItem(spec1, "12618", LBIS.L["Chest"], "Alt") --Enchanted Thorium Breastplate
-    LBIS:AddItem(spec1, "16857", LBIS.L["Wrist"], "BIS") --Lawbringer Bracers
-    LBIS:AddItem(spec1, "18812", LBIS.L["Wrist"], "Alt") --Wristguards of True Flight
+    LBIS:AddItem(spec1, "18812", LBIS.L["Wrist"], "BIS") --Wristguards of True Flight
     LBIS:AddItem(spec1, "13951", LBIS.L["Wrist"], "Alt") --Vigorsteel Vambraces
     LBIS:AddItem(spec1, "16735", LBIS.L["Wrist"], "Alt") --Bracers of Valor
     LBIS:AddItem(spec1, "14622", LBIS.L["Hands"], "BIS") --Deathbone Gauntlets
