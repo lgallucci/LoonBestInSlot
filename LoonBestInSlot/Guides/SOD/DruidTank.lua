@@ -524,12 +524,12 @@ local function LoadData()
     LBIS:AddItem(spec6, "230839", LBIS.L["Ring"], "Alt") --Master Dragonslayer's Ring
     LBIS:AddItem(spec6, "228261", LBIS.L["Ring"], "Alt") --Quick Strike Ring
     LBIS:AddItem(spec6, "233992", LBIS.L["Trinket"], "BIS") --Lodestone of Retaliation
+    LBIS:AddItem(spec6, "228686", LBIS.L["Trinket"], "BIS Mit") --Onyxia Blood Talisman
     LBIS:AddItem(spec6, "228293", LBIS.L["Trinket"], "BIS") --Essence of the Pure Flame
     LBIS:AddItem(spec6, "231779", LBIS.L["Trinket"], "Alt") --Wrath of Wray
     LBIS:AddItem(spec6, "233628", LBIS.L["Trinket"], "Alt Mit") --The Burrower's Shell
     LBIS:AddItem(spec6, "233990", LBIS.L["Trinket"], "Alt") --Speedstone
     LBIS:AddItem(spec6, "234462", LBIS.L["Trinket"], "Alt") --Earthstrike
-    LBIS:AddItem(spec6, "228686", LBIS.L["Trinket"], "Alt Mit") --Onyxia Blood Talisman
     LBIS:AddItem(spec6, "235012", LBIS.L["Main Hand"], "BIS") --Mace of Unending Life
     LBIS:AddItem(spec6, "234548", LBIS.L["Main Hand"], "Alt") --High Warlord's Pig Poker
     LBIS:AddItem(spec6, "234570", LBIS.L["Main Hand"], "Alt") --Grand Marshal's Polearm
