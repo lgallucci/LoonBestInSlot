@@ -6,7 +6,7 @@ internal class SODDruidFeralDpsMapping : SODSpecMapping
     public override string Class => "Druid";
     public override string Spec => "Feral Dps";
 
-    public override string Phase0Url => "dps-pre-raid-bis-gear-pve";
+    public override string PreRaidUrl => "dps-pre-raid-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
             { ("Two Hand", "#weapons") },

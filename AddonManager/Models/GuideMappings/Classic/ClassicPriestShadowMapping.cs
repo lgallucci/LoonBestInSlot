@@ -11,7 +11,7 @@ internal class ClassicPriestShadowMapping : ClassicSpecMapping
     public override string Class => "Priest";
     public override string Spec => "Shadow";
 
-    public override string Phase0Url => "dps-pre-raid-bis-gear-pve";
+    public override string PreRaidUrl => "dps-pre-raid-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "h3#main-hand") },

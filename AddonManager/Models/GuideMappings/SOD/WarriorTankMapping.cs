@@ -6,7 +6,7 @@ internal class SODWarriorTankMapping : SODSpecMapping
     public override string Class => "Warrior";
     public override string Spec => "Tank";
 
-    public override string Phase0Url => "tank-pre-raid-bis-gear-pve";
+    public override string PreRaidUrl => "tank-pre-raid-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "h3#main-hand") },

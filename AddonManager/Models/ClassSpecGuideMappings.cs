@@ -5,15 +5,16 @@ using AddonManager.Models.GuideMappings.SOD;
 namespace AddonManager.Models;
 public class ClassGuideMapping
 {
-    public ClassGuideMapping(string webAddress, string specName, string className, string guideFolder, string phase, List<(string, GuideMapping)> guideMappings)
+    public ClassGuideMapping(string webAddress, string specName, string className, string guideFolder, string mappingType, int phase, List<(string, GuideMapping)> guideMappings)
     {
         WebAddress = webAddress;
         SpecName = specName;
         ClassName = className;
         Phase = phase;
         GuideFolder = guideFolder;
+        MappingType = mappingType;
 
-        if (Phase == "Enchants")
+        if (MappingType == "Enchants")
         {
             _mappings.Clear();
             foreach (var mapping in guideMappings)
@@ -45,8 +46,9 @@ public class ClassGuideMapping
     public string WebAddress { get; set; }
     public string SpecName { get; set; }
     public string ClassName { get; set; }
-    public string Phase { get; set; }
+    public int Phase { get; set; }
     public string GuideFolder { get; set; }
+    public string MappingType { get; set; }
 
     public IEnumerable<KeyValuePair<string, GuideMapping>> GuideMappings 
     { 

@@ -6,7 +6,7 @@ internal class SODWarriorDpsMapping : SODSpecMapping
     public override string Class => "Warrior";
     public override string Spec => "Dps";
 
-    public override string Phase0Url => "dps-pre-raid-bis-gear-pve";
+    public override string PreRaidUrl => "dps-pre-raid-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "#main-hand") },

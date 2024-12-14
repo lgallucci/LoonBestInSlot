@@ -28,7 +28,7 @@ public sealed partial class GuideImporter : Page
 {
       
     public string[] Versions = { "SOD", "Classic" };
-    public string[] PhaseList = {  "Phase0", "Phase1", "Phase2", "Phase3", "Phase4", "Phase5", "Phase6" };
+    public string[] PhaseList = {  "CurrentPhase", "PreRaid" };
 
     public GuideImporter()
     {
@@ -57,24 +57,21 @@ public sealed partial class GuideImporter : Page
     {
         ConsoleOut.Text = string.Empty;
         _importCancelToken = new CancellationTokenSource();
-        var phaseString = cmbPhase.SelectedValue.ToString();
-        var phaseNumber = 0;
-        if (phaseString.Contains("Phase"))
-            phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
+        var mappingType = cmbPhase.SelectedValue.ToString();
 
         var spec = cmbSpec.SelectedValue.ToString();
 
-        var specMapping = GetClassMappings().FirstOrDefault(gm => spec == $"{gm.ClassName}{gm.SpecName}" && gm.Phase == phaseString);
+        var specMapping = GetClassMappings().FirstOrDefault(gm => spec == $"{gm.ClassName}{gm.SpecName}" && gm.MappingType == mappingType);
 
         if (specMapping == null)
         {
-            ConsoleOut.Text = $"ERROR! Can't find class / spec / phase: {spec}, {phaseString}";
+            ConsoleOut.Text = $"ERROR! Can't find class / spec / phase: {spec}, {mappingType}";
             return;
         }
 
         try
         {
-            await WowheadImporter.ImportClass(specMapping, phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
+            await WowheadImporter.ImportClass(specMapping, specMapping.Phase, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
 
             ConsoleOut.Text += $"{spec} Completed! - Verification Passed!" + Environment.NewLine;
         }
@@ -92,35 +89,11 @@ public sealed partial class GuideImporter : Page
     {
         ConsoleOut.Text = string.Empty;
         _importCancelToken = new CancellationTokenSource();
-        var phaseString = cmbPhase.SelectedValue.ToString();
-        var phaseNumber = 0;
-        if (phaseString.Contains("Phase"))
-            phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
+        var mappingType = cmbPhase.SelectedValue.ToString();
 
         string result = string.Empty;
-
-        await WowheadImporter.ImportClasses(GetClassMappings().Where(gm => gm.Phase == phaseString), phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
-    }
-
-    private void Verify_Click(object sender, RoutedEventArgs e)
-    {
-        var phaseString = cmbPhase.SelectedValue.ToString();
-        ConsoleOut.Text = "Verifying Guides...";
-        foreach (var specMapping in GetClassMappings().Where(gm => gm.Phase == phaseString))
-        {
-            try
-            {
-                var items = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{specMapping.GuideFolder}\{specMapping.ClassName}{specMapping.SpecName}").Item2;
-
-                WowheadImporter.VerifyGuide(items[Int32.Parse(phaseString.Replace("Phase", ""))]);
-
-                ConsoleOut.Text += $"{specMapping} Completed! - Verification Passed!" + Environment.NewLine;
-            }
-            catch (VerificationException vex)
-            {
-                ConsoleOut.Text += $"{specMapping} Completed! - Verification Failed! - {vex.Message}..." + Environment.NewLine;
-            }
-        }
+        var specMappingList = GetClassMappings().Where(gm => gm.MappingType == mappingType);
+        await WowheadImporter.ImportClasses(specMappingList, specMappingList.First().Phase, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
     }
 
     private void Cancel_Click(object sender, RoutedEventArgs e)

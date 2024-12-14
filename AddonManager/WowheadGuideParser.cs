@@ -121,6 +121,7 @@ public class WowheadGuideParser
         "best in slot",
         "best"
     };
+    
     private List<string> _altTextSwaps = new()
     {
         "prebis",
@@ -184,27 +185,6 @@ public class WowheadGuideParser
                 return i;
             }
         }
-    }
-
-    class MyFormatter : IMarkupFormatter
-    {
-        public string CloseTag(IElement element, bool selfClosing)
-        {
-
-            string closeTag = HtmlMarkupFormatter.Instance.CloseTag(element, selfClosing);
-
-            if (closeTag == "</tr>" ||
-                closeTag == "</table>")
-                closeTag += "\n";
-
-            return closeTag;
-        }
-        public string Comment(IComment comment) => HtmlMarkupFormatter.Instance.Comment(comment);
-        public string Doctype(IDocumentType doctype) => HtmlMarkupFormatter.Instance.Doctype(doctype);
-        public string LiteralText(ICharacterData text) => HtmlMarkupFormatter.Instance.LiteralText(text);
-        public string OpenTag(IElement element, bool selfClosing) => HtmlMarkupFormatter.Instance.OpenTag(element, selfClosing);
-        public string Processing(IProcessingInstruction processing) => HtmlMarkupFormatter.Instance.Processing(processing);
-        public string Text(ICharacterData text) => text.Data;
     }
 
     public (Dictionary<int, ItemSpec>, Dictionary<string, EnchantSpec>) ParsePreRaidWowheadGuide(string className, 
@@ -367,7 +347,7 @@ public class WowheadGuideParser
         return slot;
     }
 
-    private string GetBisStatus(string htmlBisText, string rankText, bool isTierList, bool first, string phase)
+    private string GetBisStatus(string htmlBisText, string rankText, bool isTierList, bool first, int phase)
     {
 
         var bisText = string.Empty;
@@ -381,17 +361,17 @@ public class WowheadGuideParser
         {
             if (_altTextSwaps.Any((s) =>
             {
-                if (phase == "Phase1" && (s.ToLower() == "phase 1" || s.ToLower() == "p1"))
+                if (phase == 1 && (s.ToLower() == "phase 1" || s.ToLower() == "p1"))
                     return false;
-                if (phase == "Phase2" && (s.ToLower() == "phase 2" || s.ToLower() == "p2"))
+                if (phase == 2 && (s.ToLower() == "phase 2" || s.ToLower() == "p2"))
                     return false;
-                if (phase == "Phase3" && (s.ToLower() == "phase 3" || s.ToLower() == "p3"))
+                if (phase == 3 && (s.ToLower() == "phase 3" || s.ToLower() == "p3"))
                     return false;
-                if (phase == "Phase4" && (s.ToLower() == "phase 4" || s.ToLower() == "p4"))
+                if (phase == 4 && (s.ToLower() == "phase 4" || s.ToLower() == "p4"))
                     return false;
-                if (phase == "Phase5" && (s.ToLower() == "phase 5" || s.ToLower() == "p5"))
+                if (phase == 5 && (s.ToLower() == "phase 5" || s.ToLower() == "p5"))
                     return false;
-                if (phase == "Phase6" && (s.ToLower() == "phase 6" || s.ToLower() == "p6"))
+                if (phase == 6 && (s.ToLower() == "phase 6" || s.ToLower() == "p6"))
                     return false;
 
                 return htmlBisText?.ToLower().Contains(s) ?? false;

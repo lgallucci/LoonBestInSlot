@@ -6,7 +6,7 @@ internal class SODPriestHealerMapping : SODSpecMapping
     public override string Class => "Priest";
     public override string Spec => "Healer";
 
-    public override string Phase0Url => "healer-pre-raid-bis-gear-pve";
+    public override string PreRaidUrl => "healer-pre-raid-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "h3#main-hand-2") },

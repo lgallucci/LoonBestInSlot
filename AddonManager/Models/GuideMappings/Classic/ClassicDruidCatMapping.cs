@@ -11,7 +11,7 @@ internal class ClassicDruidCatMapping : ClassicSpecMapping
     public override string Class => "Druid";
     public override string Spec => "Cat";
 
-    public override string Phase0Url => "dps-pre-raid-bis-gear-pve";
+    public override string PreRaidUrl => "dps-pre-raid-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "h3#main-hand") },

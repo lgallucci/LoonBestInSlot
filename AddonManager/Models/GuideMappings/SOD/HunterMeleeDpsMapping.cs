@@ -6,7 +6,7 @@ internal class SODHunterMeleeDpsMapping : SODSpecMapping
     public override string Class => "Hunter";
     public override string Spec => "MeleeDps";
 
-    public override string Phase0Url => "dps-pre-raid-bis-gear-pve";
+    public override string PreRaidUrl => "dps-pre-raid-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
             { ("Main Hand", "h3#main-hand") },
