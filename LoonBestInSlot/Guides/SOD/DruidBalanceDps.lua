@@ -430,6 +430,6 @@ local function LoadData()
     LBIS:AddItem(spec6, "232390", LBIS.L["Ranged/Relic"], "Alt") --Idol of Celestial Focus
     LBIS:AddItem(spec6, "228180", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Swarm
 end
-if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
+if LBIS.IsSOD then
     LoadData();
 end

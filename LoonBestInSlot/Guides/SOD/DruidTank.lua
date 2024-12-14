@@ -545,6 +545,6 @@ local function LoadData()
     LBIS:AddItem(spec6, "234469", LBIS.L["Ranged/Relic"], "BIS") --Idol of Feline Ferocity
     LBIS:AddItem(spec6, "23198", LBIS.L["Ranged/Relic"], "Alt") --Idol of Brutality
 end
-if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
+if LBIS.IsSOD then
     LoadData();
 end

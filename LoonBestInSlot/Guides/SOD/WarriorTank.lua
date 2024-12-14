@@ -490,6 +490,6 @@ local function LoadData()
     LBIS:AddItem(spec6, "234104", LBIS.L["Ranged/Relic"], "Alt") --Crossbow of Imminent Doom
     LBIS:AddItem(spec6, "233626", LBIS.L["Ranged/Relic"], "Alt Mit") --Larvae of the Great Worm
 end
-if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
+if LBIS.IsSOD then
     LoadData();
 end

@@ -13,7 +13,14 @@ LBIS.SpellCache = {};
 LBIS.Debugging = false;
 LBIS.DebuggingItem = -1;
 LBIS.AllItemsCached = false;
-LBIS.CurrentPhase = 6;
+
+LBIS.IsSOD = C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery;
+
+if LBIS.IsSOD then
+	LBIS.CurrentPhase = 6;
+else
+	LBIS.CurrentPhase = 1;
+end
 
 LBIS.EventFrame = CreateFrame("FRAME",addonName.."Events")
 

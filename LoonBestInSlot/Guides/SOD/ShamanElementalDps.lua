@@ -595,6 +595,6 @@ local function LoadData()
     LBIS:AddItem(spec6, "232409", LBIS.L["Ranged/Relic"], "Alt") --Totem of the Elements
     LBIS:AddItem(spec6, "234480", LBIS.L["Ranged/Relic"], "Alt") --Totem of Pyroclastic Thunder
 end
-if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
+if LBIS.IsSOD then
     LoadData();
 end

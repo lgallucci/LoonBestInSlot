@@ -73,24 +73,14 @@ public static class WowheadImporter
         return verificationSucceeded;
     }
 
-    public static async Task ImportClasses(string[] specList, int phaseNumber, CancellationToken cancelToken, Action<string> logFunc)
+    public static async Task ImportClasses(IEnumerable<ClassGuideMapping> specList, int phaseNumber, CancellationToken cancelToken, Action<string> logFunc)
     {
         var addresses = new List<string>();
         var addressToSpec = new Dictionary<string, ClassGuideMapping>();
-        foreach (string spec in specList)
-        {
-            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == $"Phase{phaseNumber}");
-
-            if (specMapping == null)
-            {
-                logFunc($"{spec} Failed! - Can't find Spec!");
-                continue;
-            } 
-            else
-            {
-                addresses.Add(specMapping.WebAddress);
-                addressToSpec.Add(specMapping.WebAddress, specMapping);
-            }
+        foreach (var spec in specList)
+        { 
+            addresses.Add(spec.WebAddress);
+            addressToSpec.Add(spec.WebAddress, spec);
         }
 
         await Common.LoadFromWebPages(addresses, (address, doc) =>
@@ -146,7 +136,7 @@ public static class WowheadImporter
 
             if (classGuideMapping != null && classGuideMapping.WebAddress != "do_not_use")
             {
-                var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\SOD\{className.Replace(" ", "")}.lua");
+                var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{classGuideMapping.GuideFolder}\{className.Replace(" ", "")}.lua");
 
                 itemsAndEnchants = new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc);
 
@@ -158,7 +148,7 @@ public static class WowheadImporter
                 guide.Item1.AddRange(itemsAndEnchants.Item2.Values.ToList());
                 guide.Item2[phaseNumber] = itemsAndEnchants.Item1.Values.ToList();
 
-                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\SOD\{className.Replace(" ", "")}.lua", classGuideMapping.ClassName, classGuideMapping.SpecName,
+                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{classGuideMapping.GuideFolder}\{className.Replace(" ", "")}.lua", classGuideMapping.ClassName, classGuideMapping.SpecName,
                     guide.Item1, guide.Item2);
             }
             else

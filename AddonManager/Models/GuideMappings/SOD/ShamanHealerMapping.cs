@@ -1,0 +1,24 @@
+namespace AddonManager.Models.GuideMappings.SOD;
+
+internal class SODShamanHealerMapping : SODSpecMapping
+{
+    public override string UrlBase => "https://www.wowhead.com/classic/guide/season-of-discovery/classes/shaman/";
+    public override string Class => "Shaman";
+    public override string Spec => "Healer";
+
+    public override string Phase0Url => "healer-pre-raid-bis-gear-pve";
+    public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "h3#main-hand") },
+            { ("Off Hand", "h3#off-hand") },
+            { ("Ranged/Relic", "#relics") },
+        };
+
+    public override string CurrentUrl => "healer-bis-gear-pve";
+    public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "h3#main-hand") },
+            { ("Off Hand", "h3#off-hand") },
+            { ("Ranged/Relic", "#relics") },
+        };
+}

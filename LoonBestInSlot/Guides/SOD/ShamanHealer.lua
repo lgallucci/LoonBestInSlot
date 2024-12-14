@@ -658,6 +658,6 @@ local function LoadData()
     LBIS:AddItem(spec6, "228179", LBIS.L["Ranged/Relic"], "Alt") --Totem of the Plains
     LBIS:AddItem(spec6, "215436", LBIS.L["Ranged/Relic"], "Alt") --Totem of Invigorating Flame
 end
-if C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery then
+if LBIS.IsSOD then
     LoadData();
 end

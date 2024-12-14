@@ -1,14 +1,17 @@
 ﻿using AddonManager.Models.GuideMappings;
+using AddonManager.Models.GuideMappings.Classic;
+using AddonManager.Models.GuideMappings.SOD;
 
 namespace AddonManager.Models;
 public class ClassGuideMapping
 {
-    public ClassGuideMapping(string webAddress, string specName, string className, string phase, List<(string, GuideMapping)> guideMappings)
+    public ClassGuideMapping(string webAddress, string specName, string className, string phase, string guideFolder, List<(string, GuideMapping)> guideMappings)
     {
         WebAddress = webAddress;
         SpecName = specName;
         ClassName = className;
         Phase = phase;
+        GuideFolder = guideFolder;
 
         if (Phase == "Enchants")
         {
@@ -43,6 +46,7 @@ public class ClassGuideMapping
     public string SpecName { get; set; }
     public string ClassName { get; set; }
     public string Phase { get; set; }
+    public string GuideFolder { get; set; }
 
     public IEnumerable<KeyValuePair<string, GuideMapping>> GuideMappings 
     { 
@@ -71,6 +75,11 @@ public class ClassGuideMapping
         { "Two Hand", new GuideMapping { Enabled = false } },
         { "Ranged/Relic", new GuideMapping { Enabled = false } },
     };
+
+    public override string ToString()
+    {
+        return ClassName+SpecName;
+    }
 }
 
 public class GuideMapping
@@ -88,38 +97,61 @@ public class GuideMapping
     }
 }
 
+
 public class ClassSpecGuideMappings
 {
-    public List<ClassGuideMapping> GuideMappings { get; set; }
+    public List<ClassGuideMapping> SODGuideMappings { get; set; }
+    public List<ClassGuideMapping> ClassicGuideMappings { get; set; }
     public ClassSpecGuideMappings()
     {
-        GuideMappings = new List<ClassGuideMapping>();
+        SODGuideMappings = new List<ClassGuideMapping>();
 
-        GuideMappings.AddRange(new DruidBalanceDpsMapping().ToList());
-        GuideMappings.AddRange(new DruidFeralDpsMapping().ToList());
-        GuideMappings.AddRange(new HunterRangedDpsMapping().ToList());
-        GuideMappings.AddRange(new HunterMeleeDpsMapping().ToList());
-        GuideMappings.AddRange(new MageDpsMapping().ToList());
-        GuideMappings.AddRange(new PaladinDpsMapping().ToList());
-        GuideMappings.AddRange(new PriestDpsMapping().ToList());
-        GuideMappings.AddRange(new RogueDpsMapping().ToList());
-        GuideMappings.AddRange(new ShamanElementalDpsMapping().ToList());
-        GuideMappings.AddRange(new ShamanEnhancementDpsMapping().ToList());
-        GuideMappings.AddRange(new WarlockDpsMapping().ToList());
-        GuideMappings.AddRange(new WarriorDpsMapping().ToList());
-        
-        GuideMappings.AddRange(new DruidHealerMapping().ToList());
-        GuideMappings.AddRange(new MageHealerMapping().ToList());
-        GuideMappings.AddRange(new PaladinHealerMapping().ToList());
-        GuideMappings.AddRange(new PriestHealerMapping().ToList());
-        GuideMappings.AddRange(new ShamanHealerMapping().ToList());
-        
-        GuideMappings.AddRange(new DruidTankMapping().ToList());
-        GuideMappings.AddRange(new PaladinTankMapping().ToList());
-        GuideMappings.AddRange(new RogueTankMapping().ToList());
-        GuideMappings.AddRange(new ShamanTankMapping().ToList());
-        GuideMappings.AddRange(new WarlockTankMapping().ToList());
-        GuideMappings.AddRange(new WarriorTankMapping().ToList());
+        SODGuideMappings.AddRange(new SODDruidBalanceDpsMapping().ToList());
+        SODGuideMappings.AddRange(new SODDruidFeralDpsMapping().ToList());
+        SODGuideMappings.AddRange(new SODHunterRangedDpsMapping().ToList());
+        SODGuideMappings.AddRange(new SODHunterMeleeDpsMapping().ToList());
+        SODGuideMappings.AddRange(new SODMageDpsMapping().ToList());
+        SODGuideMappings.AddRange(new SODPaladinDpsMapping().ToList());
+        SODGuideMappings.AddRange(new SODPriestDpsMapping().ToList());
+        SODGuideMappings.AddRange(new SODRogueDpsMapping().ToList());
+        SODGuideMappings.AddRange(new SODShamanElementalDpsMapping().ToList());
+        SODGuideMappings.AddRange(new SODShamanEnhancementDpsMapping().ToList());
+        SODGuideMappings.AddRange(new SODWarlockDpsMapping().ToList());
+        SODGuideMappings.AddRange(new SODWarriorDpsMapping().ToList());
+
+        SODGuideMappings.AddRange(new SODDruidHealerMapping().ToList());
+        SODGuideMappings.AddRange(new SODMageHealerMapping().ToList());
+        SODGuideMappings.AddRange(new SODPaladinHealerMapping().ToList());
+        SODGuideMappings.AddRange(new SODPriestHealerMapping().ToList());
+        SODGuideMappings.AddRange(new SODShamanHealerMapping().ToList());
+
+        SODGuideMappings.AddRange(new SODDruidTankMapping().ToList());
+        SODGuideMappings.AddRange(new SODPaladinTankMapping().ToList());
+        SODGuideMappings.AddRange(new SODRogueTankMapping().ToList());
+        SODGuideMappings.AddRange(new SODShamanTankMapping().ToList());
+        SODGuideMappings.AddRange(new SODWarlockTankMapping().ToList());
+        SODGuideMappings.AddRange(new SODWarriorTankMapping().ToList());
+
+        ClassicGuideMappings = new List<ClassGuideMapping>();
+
+        ClassicGuideMappings.AddRange(new ClassicDruidBalanceMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicDruidBearMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicDruidRestorationMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicDruidCatMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicHunterDpsMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicMageDpsMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicPaladinHolyMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicPaladinRetributionMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicPaladinTankMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicPriestShadowMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicShamanElementalMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicShamanEnhancementMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicShamanRestorationMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicWarlockDpsMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicRogueDpsMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicWarriorDpsMapping().ToList());
+        ClassicGuideMappings.AddRange(new ClassicWarriorProtectionMapping().ToList());
+
     }
 }
 

@@ -401,7 +401,11 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     window:RegisterForDrag("LeftButton");
 
     local header = window:CreateFontString(nil, nil, "GameFontHighlightMed2");
-    header:SetText(LBIS.L["Loon Best In Slot Browser (SOD)"]);
+    if LBIS.IsSOD then
+        header:SetText(LBIS.L["Loon Best In Slot Browser (SOD)"]);
+    else
+        header:SetText(LBIS.L["Loon Best In Slot Browser (Classic)"]);
+    end
     header:SetPoint("TOP", window, -5, -5);
 
     local topLine = window:CreateLine();
