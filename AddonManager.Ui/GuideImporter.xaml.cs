@@ -64,7 +64,7 @@ public sealed partial class GuideImporter : Page
 
         var spec = cmbSpec.SelectedValue.ToString();
 
-        var specMapping = GetClassMappings().FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == phaseString);
+        var specMapping = GetClassMappings().FirstOrDefault(gm => spec == $"{gm.ClassName}{gm.SpecName}" && gm.Phase == phaseString);
 
         if (specMapping == null)
         {
@@ -99,7 +99,7 @@ public sealed partial class GuideImporter : Page
 
         string result = string.Empty;
 
-        await WowheadImporter.ImportClasses(GetClassMappings(), phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
+        await WowheadImporter.ImportClasses(GetClassMappings().Where(gm => gm.Phase == phaseString), phaseNumber, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
     }
 
     private void Verify_Click(object sender, RoutedEventArgs e)
@@ -110,8 +110,7 @@ public sealed partial class GuideImporter : Page
         {
             try
             {
-
-                var items = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{specMapping.GuideFolder}\{specMapping.ClassName.Replace(" ", "")}{specMapping.SpecName.Replace(" ", "")}").Item2;
+                var items = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{specMapping.GuideFolder}\{specMapping.ClassName}{specMapping.SpecName}").Item2;
 
                 WowheadImporter.VerifyGuide(items[Int32.Parse(phaseString.Replace("Phase", ""))]);
 

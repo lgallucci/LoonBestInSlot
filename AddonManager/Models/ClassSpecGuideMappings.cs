@@ -5,7 +5,7 @@ using AddonManager.Models.GuideMappings.SOD;
 namespace AddonManager.Models;
 public class ClassGuideMapping
 {
-    public ClassGuideMapping(string webAddress, string specName, string className, string phase, string guideFolder, List<(string, GuideMapping)> guideMappings)
+    public ClassGuideMapping(string webAddress, string specName, string className, string guideFolder, string phase, List<(string, GuideMapping)> guideMappings)
     {
         WebAddress = webAddress;
         SpecName = specName;

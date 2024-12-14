@@ -670,6 +670,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "226974", LBIS.L["Feet"], "Alt") --Soulforge Warboots
     LBIS:AddItem(spec6, "231902", LBIS.L["Neck"], "BIS") --Ada's Amulet
     LBIS:AddItem(spec6, "228354", LBIS.L["Neck"], "BIS") --Blazefury Medallion
+    LBIS:AddItem(spec6, "234116", LBIS.L["Neck"], "Alt") --Fury of the Forgotten Swarm
     LBIS:AddItem(spec6, "233587", LBIS.L["Neck"], "Alt") --Barbed Choker
     LBIS:AddItem(spec6, "231307", LBIS.L["Neck"], "Alt") --The Eye of Hakkar
     LBIS:AddItem(spec6, "228759", LBIS.L["Neck"], "Alt") --Eskhandar's Collar

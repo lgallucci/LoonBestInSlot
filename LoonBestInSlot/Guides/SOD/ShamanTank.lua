@@ -678,7 +678,7 @@ local function LoadData()
     LBIS:AddItem(spec5, "228178", LBIS.L["Ranged/Relic"], "Alt") --Totem of Earthen Vitality
 
     LBIS:AddItem(spec6, "233705", LBIS.L["Head"], "BIS") --Stormcaller's Headdress
-    LBIS:AddItem(spec6, "233695", LBIS.L["Head"], "Alt Mit") --Stormcaller's Faceguard
+    LBIS:AddItem(spec6, "233695", LBIS.L["Head"], "BIS Mit") --Stormcaller's Faceguard
     LBIS:AddItem(spec6, "231211", LBIS.L["Head"], "Alt") --Faceguard of Ten Storms
     LBIS:AddItem(spec6, "232219", LBIS.L["Head"], "Alt") --Crown of Ten Storms
     LBIS:AddItem(spec6, "226630", LBIS.L["Head"], "Alt") --Earthfury Greathelm
