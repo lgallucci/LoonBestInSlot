@@ -19,7 +19,8 @@ local function LoadData()
     LBIS:AddItem(spec1, "19145", LBIS.L["Chest"], "Alt") --Robe of Volatile Power
     LBIS:AddItem(spec1, "16833", LBIS.L["Chest"], "Alt") --Cenarion Vestments
     LBIS:AddItem(spec1, "13314", LBIS.L["Chest"], "Alt") --Alanna's Embrace
-    LBIS:AddItem(spec1, "16830", LBIS.L["Wrist"], "BIS") --Cenarion Bracers
+    LBIS:AddItem(spec1, "13208", LBIS.L["Wrist"], "BIS") --Bleak Howler Armguards
+    LBIS:AddItem(spec1, "16830", LBIS.L["Wrist"], "Alt") --Cenarion Bracers
     LBIS:AddItem(spec1, "18263", LBIS.L["Wrist"], "Alt") --Flarecore Wraps
     LBIS:AddItem(spec1, "13107", LBIS.L["Wrist"], "Alt") --Magiskull Cuffs
     LBIS:AddItem(spec1, "12554", LBIS.L["Hands"], "BIS") --Hands of the Exalted Herald

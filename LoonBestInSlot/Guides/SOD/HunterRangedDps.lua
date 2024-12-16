@@ -524,6 +524,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "234802", LBIS.L["Back"], "BIS") --Cloak of the Fallen God
     LBIS:AddItem(spec6, "233420", LBIS.L["Back"], "BIS") --Cloak of the Unseen Path
     LBIS:AddItem(spec6, "228290", LBIS.L["Back"], "Alt") --Cloak of the Shrouded Mists
+    LBIS:AddItem(spec6, "233958", LBIS.L["Back"], "Alt") --Qiraji Silk Cape
     LBIS:AddItem(spec6, "13340", LBIS.L["Back"], "Alt") --Cape of the Black Baron
     LBIS:AddItem(spec6, "230842", LBIS.L["Back"], "Alt") --Cloak of Draconic Might
     LBIS:AddItem(spec6, "232311", LBIS.L["Back"], "Alt") --Zulian Tigerhide Cloak
@@ -598,6 +599,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "233627", LBIS.L["Trinket"], "BIS") --Jom Gabbar
     LBIS:AddItem(spec6, "231288", LBIS.L["Trinket"], "BIS") --Renataki's Charm of Ravaging
     LBIS:AddItem(spec6, "233990", LBIS.L["Trinket"], "BIS") --Speedstone
+    LBIS:AddItem(spec6, "234462", LBIS.L["Trinket"], "Alt") --Earthstrike
     LBIS:AddItem(spec6, "13965", LBIS.L["Trinket"], "Alt") --Blackhand's Breadth
     LBIS:AddItem(spec6, "227990", LBIS.L["Trinket"], "Alt Ranged") --Hand of Injustice
     LBIS:AddItem(spec6, "230282", LBIS.L["Trinket"], "Alt Ranged") --Drake Fang Talisman
