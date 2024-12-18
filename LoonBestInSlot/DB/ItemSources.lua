@@ -2579,6 +2579,7 @@ LBIS.ItemSources =
     [18587] = { Name = "Goblin Jumper Cables XL", SourceType = LBIS.L["Profession"], Source = LBIS.L["Engineering"], SourceNumber = "0", SourceLocation = "23078", SourceFaction = "B" },
     [18588] = { Name = "EZ-Thro Dynamite II", SourceType = LBIS.L["Profession"], Source = LBIS.L["Engineering"], SourceNumber = "0", SourceLocation = "23069", SourceFaction = "B" },
     [18594] = { Name = "Powerful Seaforium Charge", SourceType = LBIS.L["Profession"], Source = LBIS.L["Engineering"], SourceNumber = "0", SourceLocation = "23080", SourceFaction = "B" },
+    [18608] = { Name = "Benediction", SourceType = LBIS.L["Quest"], Source = LBIS.L["The Eye of Divinity"], SourceNumber = "0", SourceLocation = LBIS.L["Molten Core"], SourceFaction = "B" },
     [18631] = { Name = "Truesilver Transformer", SourceType = LBIS.L["Profession"], Source = LBIS.L["Engineering"], SourceNumber = "0", SourceLocation = "23071", SourceFaction = "B" },
     [18634] = { Name = "Gyrofreeze Ice Reflector", SourceType = LBIS.L["Profession"], Source = LBIS.L["Engineering"], SourceNumber = "0", SourceLocation = "23077", SourceFaction = "B" },
     [18637] = { Name = "Major Recombobulator", SourceType = LBIS.L["Profession"], Source = LBIS.L["Engineering"], SourceNumber = "0", SourceLocation = "23079", SourceFaction = "B" },
