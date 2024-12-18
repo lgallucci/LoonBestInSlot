@@ -266,6 +266,7 @@ LBIS:AddItem(spec3, "65252", LBIS.L["Legs"], "Alt") --Legguards of the Raging El
 LBIS:AddItem(spec3, "60230", LBIS.L["Legs"], "Alt") --Twilight Scale Leggings
 LBIS:AddItem(spec3, "65049", LBIS.L["Legs"], "Alt") --Leggings of Lethal Force
 LBIS:AddItem(spec3, "71457", LBIS.L["Feet"], "BIS") --Decimation Treads
+LBIS:AddItem(spec3, "69949", LBIS.L["Feet"], "Alt") --Earthen Scale Sabatons
 LBIS:AddItem(spec3, "65063", LBIS.L["Feet"], "Alt") --Boots of Vertigo
 LBIS:AddItem(spec3, "62385", LBIS.L["Feet"], "Alt") --Treads of Malorne
 LBIS:AddItem(spec3, "58199", LBIS.L["Feet"], "Alt") --Moccasins of Verdurous Glooms
