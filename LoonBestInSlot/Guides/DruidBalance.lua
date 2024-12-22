@@ -72,7 +72,7 @@ LBIS:AddItem(spec0, "58183", LBIS.L["Trinket"], "Alt") --Soul Casket
 LBIS:AddItem(spec0, "56320", LBIS.L["Trinket"], "Alt") --Witching Hourglass
 LBIS:AddItem(spec0, "56462", LBIS.L["Trinket"], "Alt") --Gale of Shadows
 LBIS:AddItem(spec0, "70157", LBIS.L["Main Hand"], "BIS") --Lightforged Elementium Hammer
-LBIS:AddItem(spec0, "70164", LBIS.L["Main Hand"], "BIS") --Masterwork Elementium Deathblade
+LBIS:AddItem(spec0, "70156", LBIS.L["Main Hand"], "BIS") --Masterwork Elementium Spellblade
 LBIS:AddItem(spec0, "59341", LBIS.L["Main Hand"], "Alt") --Incineratus
 LBIS:AddItem(spec0, "65133", LBIS.L["Off Hand"], "BIS") --Book of Binding Will
 LBIS:AddItem(spec0, "70112", LBIS.L["Off Hand"], "Alt") --Globe of Moonlight
