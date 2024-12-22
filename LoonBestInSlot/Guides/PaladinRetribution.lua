@@ -118,9 +118,9 @@ LBIS:AddItem(spec0, "58185", LBIS.L["Ring"], "Alt") --Band of Bees
 LBIS:AddItem(spec0, "69563", LBIS.L["Ring"], "Alt") --Ring of the Numberless Brood
 LBIS:AddItem(spec0, "69852", LBIS.L["Ring"], "Alt") --Punisher's Band
 LBIS:AddItem(spec0, "56415", LBIS.L["Ring"], "Alt") --Nova Band
+LBIS:AddItem(spec0, "68972", LBIS.L["Trinket"], "BIS") --Apparatus of Khaz'goroth
 LBIS:AddItem(spec0, "62464", LBIS.L["Trinket"], "BIS") --Impatience of Youth
 LBIS:AddItem(spec0, "62469", LBIS.L["Trinket"], "BIS") --Impatience of Youth
-LBIS:AddItem(spec0, "68972", LBIS.L["Trinket"], "Alt") --Apparatus of Khaz'goroth
 LBIS:AddItem(spec0, "52351", LBIS.L["Trinket"], "Alt") --Figurine - King of Boars
 LBIS:AddItem(spec0, "56285", LBIS.L["Trinket"], "Alt") --Might of the Ocean
 LBIS:AddItem(spec0, "56345", LBIS.L["Trinket"], "Alt") --Magnetite Mirror

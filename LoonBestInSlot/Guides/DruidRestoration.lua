@@ -104,10 +104,10 @@ LBIS:AddItem(spec0, "64904", LBIS.L["Ring"], "Alt") --Ring of the Boy Emperor
 LBIS:AddItem(spec0, "52319", LBIS.L["Ring"], "Alt") --Ring of Warring Elements
 LBIS:AddItem(spec0, "62352", LBIS.L["Ring"], "Alt") --Diamant's Ring of Temperance
 LBIS:AddItem(spec0, "65124", LBIS.L["Trinket"], "BIS") --Fall of Mortality
-LBIS:AddItem(spec0, "60233", LBIS.L["Trinket"], "BIS") --Shard of Woe
-LBIS:AddItem(spec0, "70142", LBIS.L["Trinket"], "BIS") --Moonwell Chalice
-LBIS:AddItem(spec0, "62050", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Tsunami
 LBIS:AddItem(spec0, "64645", LBIS.L["Trinket"], "BIS") --Tyrande's Favorite Doll
+LBIS:AddItem(spec0, "62050", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Tsunami
+LBIS:AddItem(spec0, "70142", LBIS.L["Trinket"], "BIS") --Moonwell Chalice
+LBIS:AddItem(spec0, "60233", LBIS.L["Trinket"], "BIS") --Shard of Woe
 LBIS:AddItem(spec0, "68777", LBIS.L["Trinket"], "Alt") --Vibrant Alchemist Stone
 LBIS:AddItem(spec0, "58184", LBIS.L["Trinket"], "Alt") --Core of Ripeness
 LBIS:AddItem(spec0, "56351", LBIS.L["Trinket"], "Alt") --Tear of Blood

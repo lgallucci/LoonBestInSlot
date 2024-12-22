@@ -44,6 +44,7 @@ LBIS:AddItem(spec0, "62409", LBIS.L["Head"], "Alt") --Snarling Helm
 LBIS:AddItem(spec0, "56443", LBIS.L["Head"], "Alt") --Wildhammer Riding Helm
 LBIS:AddItem(spec0, "56298", LBIS.L["Head"], "Alt") --Renouncer's Cowl
 LBIS:AddItem(spec0, "60322", LBIS.L["Shoulder"], "BIS") --Spaulders of the Raging Elements
+LBIS:AddItem(spec0, "65074", LBIS.L["Shoulder"], "Alt") --Spaulders of the Scarred Lady
 LBIS:AddItem(spec0, "69554", LBIS.L["Shoulder"], "Alt") --Pauldrons of Nalorakk
 LBIS:AddItem(spec0, "56419", LBIS.L["Shoulder"], "Alt") --Bloodpetal Mantle
 LBIS:AddItem(spec0, "58124", LBIS.L["Shoulder"], "Alt") --Wrap of the Valley Glades

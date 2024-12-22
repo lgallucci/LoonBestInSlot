@@ -96,14 +96,16 @@ LBIS:AddItem(spec0, "58181", LBIS.L["Trinket"], "BIS") --Fluid Death
 LBIS:AddItem(spec0, "56328", LBIS.L["Trinket"], "Alt") --Key to the Endless Chamber
 LBIS:AddItem(spec0, "56427", LBIS.L["Trinket"], "Alt") --Left Eye of Rajh
 LBIS:AddItem(spec0, "56394", LBIS.L["Trinket"], "Alt") --Tia's Grace
-LBIS:AddItem(spec0, "59122", LBIS.L["Main Hand"], "BIS") --Organic Lifeform Inverter
+LBIS:AddItem(spec0, "70155", LBIS.L["Main Hand"], "BIS") --Brainsplinter
 LBIS:AddItem(spec0, "69620", LBIS.L["Main Hand~Off Hand"], "BIS") --Twinblade of the Hakkari
+LBIS:AddItem(spec0, "59122", LBIS.L["Main Hand"], "Alt") --Organic Lifeform Inverter
 LBIS:AddItem(spec0, "56302", LBIS.L["Main Hand"], "Alt") --Steelbender's Masterpiece
 LBIS:AddItem(spec0, "59494", LBIS.L["Off Hand"], "BIS") --Uhn'agh Fash, the Darkest Betrayal
 LBIS:AddItem(spec0, "68601", LBIS.L["Off Hand"], "Alt") --Scaleslicer
 LBIS:AddItem(spec0, "65163", LBIS.L["Off Hand"], "Alt") --Buzzer Blade
 LBIS:AddItem(spec0, "71152", LBIS.L["Ranged/Relic"], "BIS") --Morningstar Shard
 LBIS:AddItem(spec0, "71366", LBIS.L["Ranged/Relic"], "BIS") --Lava Bolt Crossbow
+LBIS:AddItem(spec0, "68608", LBIS.L["Ranged/Relic"], "Alt") --Dragonwreck Throwing Axe
 LBIS:AddItem(spec0, "59367", LBIS.L["Ranged/Relic"], "Alt") --Kickback 5000
 LBIS:AddItem(spec0, "68162", LBIS.L["Ranged/Relic"], "Alt") --Spinerender
 LBIS:AddItem(spec0, "69597", LBIS.L["Ranged/Relic"], "Alt") --Zulian Throwing Axe

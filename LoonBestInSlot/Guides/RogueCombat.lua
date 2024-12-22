@@ -109,6 +109,7 @@ LBIS:AddItem(spec0, "69620", LBIS.L["Off Hand"], "Alt") --Twinblade of the Hakka
 LBIS:AddItem(spec0, "56335", LBIS.L["Off Hand"], "Alt") --Quicksilver Blade
 LBIS:AddItem(spec0, "71152", LBIS.L["Ranged/Relic"], "BIS") --Morningstar Shard
 LBIS:AddItem(spec0, "71366", LBIS.L["Ranged/Relic"], "BIS") --Lava Bolt Crossbow
+LBIS:AddItem(spec0, "68608", LBIS.L["Ranged/Relic"], "Alt") --Dragonwreck Throwing Axe
 LBIS:AddItem(spec0, "59367", LBIS.L["Ranged/Relic"], "Alt") --Kickback 5000
 LBIS:AddItem(spec0, "68162", LBIS.L["Ranged/Relic"], "Alt") --Spinerender
 LBIS:AddItem(spec0, "69597", LBIS.L["Ranged/Relic"], "Alt") --Zulian Throwing Axe

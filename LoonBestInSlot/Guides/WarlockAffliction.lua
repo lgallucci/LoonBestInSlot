@@ -86,7 +86,6 @@ LBIS:AddItem(spec0, "63433", LBIS.L["Chest"], "Alt") --Robes of Arugal
 LBIS:AddItem(spec0, "58153", LBIS.L["Chest"], "Alt") --Robes of Embalmed Darkness
 LBIS:AddItem(spec0, "65174", LBIS.L["Chest"], "Alt") --Corsair's Overshirt
 LBIS:AddItem(spec0, "71265", LBIS.L["Wrist"], "BIS") --Emberflame Bracers
-LBIS:AddItem(spec0, "65097", LBIS.L["Wrist"], "Alt") --Bracers of the Dark Pool
 LBIS:AddItem(spec0, "65138", LBIS.L["Wrist"], "Alt") --Bracers of the Bronze Flight
 LBIS:AddItem(spec0, "60238", LBIS.L["Wrist"], "Alt") --Bracers of the Dark Mother
 LBIS:AddItem(spec0, "60211", LBIS.L["Wrist"], "Alt") --Bracers of the Dark Pool
