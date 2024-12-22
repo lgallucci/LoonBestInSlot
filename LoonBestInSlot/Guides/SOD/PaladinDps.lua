@@ -658,8 +658,8 @@ local function LoadData()
     LBIS:AddItem(spec6, "220654", LBIS.L["Legs"], "Alt") --Wailing Berserker's Legplates
     LBIS:AddItem(spec6, "226598", LBIS.L["Legs"], "Alt") --Lawbringer Leggings
     LBIS:AddItem(spec6, "230278", LBIS.L["Legs"], "Alt") --Legguards of the Fallen Crusader
-    LBIS:AddItem(spec6, "233399", LBIS.L["Feet"], "BIS") --Avenger's Greaves
     LBIS:AddItem(spec6, "231180", LBIS.L["Feet"], "BIS") --Judgement Sabatons
+    LBIS:AddItem(spec6, "233399", LBIS.L["Feet"], "Alt") --Avenger's Greaves
     LBIS:AddItem(spec6, "234095", LBIS.L["Feet"], "Alt") --Slime Kickers
     LBIS:AddItem(spec6, "234098", LBIS.L["Feet"], "Alt") --Boots of the Desert Protector
     LBIS:AddItem(spec6, "233561", LBIS.L["Feet"], "Alt") --Boots of the Fallen Hero

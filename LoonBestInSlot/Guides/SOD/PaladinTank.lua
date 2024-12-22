@@ -483,11 +483,12 @@ local function LoadData()
     LBIS:AddItem(spec6, "231178", LBIS.L["Head"], "Alt") --Judgement Crown
     LBIS:AddItem(spec6, "233795", LBIS.L["Head"], "Alt") --Razorspike Headcage
     LBIS:AddItem(spec6, "233689", LBIS.L["Shoulder"], "BIS") --Avenger's Spaulders
-    LBIS:AddItem(spec6, "233793", LBIS.L["Shoulder"], "BIS") --Razorspike Shoulderplates
     LBIS:AddItem(spec6, "233593", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Unrelenting
+    LBIS:AddItem(spec6, "233793", LBIS.L["Shoulder"], "Alt") --Razorspike Shoulderplates
     LBIS:AddItem(spec6, "233606", LBIS.L["Back"], "BIS") --Cloak of the Golden Hive
     LBIS:AddItem(spec6, "234113", LBIS.L["Back"], "Alt Mit") --Sandstorm Cloak
     LBIS:AddItem(spec6, "230744", LBIS.L["Back"], "Alt") --Elementium Threaded Cloak
+    LBIS:AddItem(spec6, "233737", LBIS.L["Back"], "Alt Stam") --Blood-Caked Cloak
     LBIS:AddItem(spec6, "228383", LBIS.L["Back"], "Alt Thrt") --Puissant Cape
     LBIS:AddItem(spec6, "228292", LBIS.L["Back"], "Alt") --Dragon's Blood Cape
     LBIS:AddItem(spec6, "231012", LBIS.L["Back"], "Alt Mit") --Overlord's Embrace
@@ -496,6 +497,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "231181", LBIS.L["Chest"], "Alt") --Judgement Breastplate
     LBIS:AddItem(spec6, "233591", LBIS.L["Chest"], "Alt") --Silithid Carapace Chestguard
     LBIS:AddItem(spec6, "233516", LBIS.L["Chest"], "Alt") --Breastplate of Annihilation
+    LBIS:AddItem(spec6, "233492", LBIS.L["Chest"], "Alt") --Razorspike Battleplate
     LBIS:AddItem(spec6, "231174", LBIS.L["Wrist"], "BIS") --Judgement Bindings
     LBIS:AddItem(spec6, "234748", LBIS.L["Wrist"], "Alt") --Deeprock Bracers
     LBIS:AddItem(spec6, "234148", LBIS.L["Wrist"], "Alt Mit") --Dragonbone Wristguards
@@ -516,6 +518,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "233642", LBIS.L["Neck"], "BIS") --Mark of C'Thun
     LBIS:AddItem(spec6, "233503", LBIS.L["Neck"], "Alt") --Pendant of the Qiraji Guardian
     LBIS:AddItem(spec6, "228354", LBIS.L["Neck"], "Alt") --Blazefury Medallion
+    LBIS:AddItem(spec6, "233729", LBIS.L["Neck"], "Alt Stam") --Blood-Caked Choker
     LBIS:AddItem(spec6, "228249", LBIS.L["Neck"], "Alt") --Medallion of Steadfast Might
     LBIS:AddItem(spec6, "230840", LBIS.L["Neck"], "Alt") --Master Dragonslayer's Medallion
     LBIS:AddItem(spec6, "230922", LBIS.L["Neck"], "Alt") --Talisman of Protection
@@ -526,6 +529,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "230808", LBIS.L["Ring"], "Alt") --Archimtiros' Ring of Reckoning
     LBIS:AddItem(spec6, "230943", LBIS.L["Ring"], "Alt") --Overlord's Onyx Band
     LBIS:AddItem(spec6, "230999", LBIS.L["Ring"], "Alt") --Overlord's Crimson Band
+    LBIS:AddItem(spec6, "233733", LBIS.L["Ring"], "Alt Stam") --Blood-Caked Ring
     LBIS:AddItem(spec6, "228242", LBIS.L["Ring"], "Alt") --Heavy Dark Iron Ring
     LBIS:AddItem(spec6, "233992", LBIS.L["Trinket"], "BIS") --Lodestone of Retaliation
     LBIS:AddItem(spec6, "230736", LBIS.L["Trinket"], "Alt Mit") --Styleen's Impeding Scarab
