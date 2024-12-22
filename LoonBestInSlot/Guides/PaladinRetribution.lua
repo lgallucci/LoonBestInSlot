@@ -314,9 +314,9 @@ LBIS:AddItem(spec3, "65382", LBIS.L["Ring"], "Alt") --Cloudburst Ring
 LBIS:AddItem(spec3, "70113", LBIS.L["Ring"], "Alt") --Moon Blessed Band
 LBIS:AddItem(spec3, "65106", LBIS.L["Ring"], "Alt") --Ring of Rivalry
 LBIS:AddItem(spec3, "69113", LBIS.L["Trinket"], "BIS") --Apparatus of Khaz'goroth
+LBIS:AddItem(spec3, "68972", LBIS.L["Trinket"], "Alt") --Apparatus of Khaz'goroth
 LBIS:AddItem(spec3, "62464", LBIS.L["Trinket"], "Alt") --Impatience of Youth
 LBIS:AddItem(spec3, "62469", LBIS.L["Trinket"], "Alt") --Impatience of Youth
-LBIS:AddItem(spec3, "68972", LBIS.L["Trinket"], "Alt") --Apparatus of Khaz'goroth
 LBIS:AddItem(spec3, "69002", LBIS.L["Trinket"], "Alt") --Essence of the Eternal Flame
 LBIS:AddItem(spec3, "70723", LBIS.L["Two Hand"], "BIS") --Sulfuras, the Extinguished Hand
 LBIS:AddItem(spec3, "71352", LBIS.L["Two Hand"], "Alt") --Sulfuras, the Extinguished Hand
