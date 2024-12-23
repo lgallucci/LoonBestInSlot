@@ -41,7 +41,7 @@
       "Blacksmithing": "Herrería",
       "Blood": "Sangre",
       "Borean Tundra": "Tundra Boreal",
-      "Brewfest": "Festival de la cerveza",
+      "Brewfest": "Fiesta de la Cerveza",
       "Cat": "Gato",
       "Cenarion Expedition (Revered)": "Expedición Cenarion (Reverenciado)",
       "Changing the Wind's Course": "Cambiar el curso del viento",
@@ -625,7 +625,12 @@
       "Molten Front": "Frente de Magma",
       "Neck~Ring": "Cuello~Anillo",
       "Ragnaros": "Ragnaros",
-      "Shannox": "Shannox"
+      "Shannox": "Shannox",
+      "Edge of Madness": "Extremo de la Locura",
+      "End Time": "Fin de los Días",
+      "Firelands (Heroic)": "Tierras de Fuego (Heroico)",
+      "Main Hand~Off Hand~Two Hand": "Mano derecha~Mano izquierda~Dos Manos",
+      "Murozond": "Murozond"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -1169,7 +1174,11 @@
       "Head~Shoulder": "Cabeza~Hombro",
       "Molten Front": "Frente de Magma",
       "Neck~Ring": "Cuello~Anillo",
-      "Ragnaros": "Ragnaros"
+      "Ragnaros": "Ragnaros",
+      "Edge of Madness": "Cabo de la Locura",
+      "End Time": "Fin de los Días",
+      "Firelands (Heroic)": "Tierras de Fuego (Heroico)",
+      "Main Hand~Off Hand~Two Hand": "Mano derecha~Mano izquierda~Dos Manos"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -1851,7 +1860,12 @@
       "Molten Front": "Geschmolzene Front",
       "Neck~Ring": "Hals~Finger",
       "Ragnaros": "Ragnaros",
-      "Shannox": "Shannox"
+      "Shannox": "Shannox",
+      "Edge of Madness": "Rand des Wahnsinns",
+      "End Time": "Die Endzeit",
+      "Firelands (Heroic)": "Die Feuerlande (Heroisch)",
+      "Main Hand~Off Hand~Two Hand": "Waffenhand~Schildhand~Zweihändig",
+      "Murozond": "Murozond"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -2468,7 +2482,12 @@
       "Molten Front": "Front du Magma",
       "Neck~Ring": "Cou~Anneau",
       "Ragnaros": "Ragnaros",
-      "Shannox": "Shannox"
+      "Shannox": "Shannox",
+      "Edge of Madness": "Frontière de la folie",
+      "End Time": "La Fin des temps",
+      "Firelands (Heroic)": "Terres de Feu (Héroïque)",
+      "Main Hand~Off Hand~Two Hand": "Main droite~Main gauche~Deux mains",
+      "Murozond": "Murozond"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -2571,7 +2590,7 @@
       "Hands": "Кисти рук",
       "Head": "Голова",
       "Head Games": "Игры разума",
-      "Headless Horseman": "Всадник без головы",
+      "Headless Horseman": "Всадник Без Головы",
       "Heigan the Unclean": "Хейган Нечистивый",
       "Herald Volazj": "Глашатай Волаж",
       "Heroic Judgment at the Eye of Eternity": "Героическое правосудие в Оке Вечности",
@@ -3081,7 +3100,12 @@
       "Molten Front": "Огненная передовая",
       "Neck~Ring": "Шея~Палец",
       "Ragnaros": "Рагнарос",
-      "Shannox": "Шэннокс"
+      "Shannox": "Шэннокс",
+      "Edge of Madness": "Грань Безумия",
+      "End Time": "Конец Времен",
+      "Firelands (Heroic)": "Огненные Просторы (Героический)",
+      "Main Hand~Off Hand~Two Hand": "Правая рука~Левая рука~Двуручное",
+      "Murozond": "Дорнозму"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -3694,7 +3718,12 @@
       "Molten Front": "熔火前线",
       "Neck~Ring": "颈部~手指",
       "Ragnaros": "拉格纳罗斯",
-      "Shannox": "沙恩诺克斯"
+      "Shannox": "沙恩诺克斯",
+      "Edge of Madness": "疯狂之缘",
+      "End Time": "时光之末",
+      "Firelands (Heroic)": "火焰之地 (英雄)",
+      "Main Hand~Off Hand~Two Hand": "主手~副手~双手",
+      "Murozond": "姆诺兹多"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -4400,7 +4429,12 @@
       "Molten Front": "녹아내린 전초지",
       "Neck~Ring": "목~손가락",
       "Ragnaros": "라그나로스",
-      "Shannox": "샤녹스"
+      "Shannox": "샤녹스",
+      "Edge of Madness": "광란의 경계",
+      "End Time": "시간의 끝",
+      "Firelands (Heroic)": "불의 땅 (영웅)",
+      "Main Hand~Off Hand~Two Hand": "주장비~보조장비~양손",
+      "Murozond": "무르도즈노"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -5012,7 +5046,12 @@
       "Molten Front": "熔岩前線",
       "Neck~Ring": "頸部~手指",
       "Ragnaros": "拉格納羅斯",
-      "Shannox": "夏諾克斯"
+      "Shannox": "夏諾克斯",
+      "Edge of Madness": "瘋狂之緣",
+      "End Time": "終焉之刻",
+      "Firelands (Heroic)": "火源之界 (英雄模式)",
+      "Main Hand~Off Hand~Two Hand": "主手~副手~雙手",
+      "Murozond": "姆多茲諾"
     }
   }
 }
