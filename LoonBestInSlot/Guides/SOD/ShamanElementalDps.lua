@@ -12,7 +12,7 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
     LBIS:AddEnchant(spec6, "25084", LBIS.L["Back"]) --Enchant Cloak - Subtlety
     LBIS:AddEnchant(spec6, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec6, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Wrist"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "1213829", LBIS.L["Hands"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "468359", LBIS.L["Legs"]) --Vodouisant's Charm
     LBIS:AddEnchant(spec6, "468354", LBIS.L["Legs"]) --Vodouisant's Shroud
@@ -549,7 +549,6 @@ local function LoadData()
     LBIS:AddItem(spec6, "234020", LBIS.L["Ring"], "BIS") --Signet Ring of the Bronze Dragonflight
     LBIS:AddItem(spec6, "234016", LBIS.L["Ring"], "BIS") --Signet Ring of the Bronze Dragonflight
     LBIS:AddItem(spec6, "233437", LBIS.L["Ring"], "BIS") --Ring of the Gathering Storm
-    LBIS:AddItem(spec6, "234463", LBIS.L["Ring"], "BIS") --Wrath of Cenarius
     LBIS:AddItem(spec6, "234101", LBIS.L["Ring"], "Alt") --Ring of the Desert Winds
     LBIS:AddItem(spec6, "234803", LBIS.L["Ring"], "Alt") --Ring of the Fallen God
     LBIS:AddItem(spec6, "234169", LBIS.L["Ring"], "Alt") --Mindtear Band

@@ -683,6 +683,9 @@ local function LoadData()
     LBIS:AddItem(spec6, "228261", LBIS.L["Ring"], "Alt") --Quick Strike Ring
     LBIS:AddItem(spec6, "230734", LBIS.L["Ring"], "Alt") --Circle of Applied Force
     LBIS:AddItem(spec6, "233428", LBIS.L["Ring"], "Alt") --Ring of Eternal Justice
+    LBIS:AddItem(spec6, "228286", LBIS.L["Ring"], "Alt") --Band of Accuria
+    LBIS:AddItem(spec6, "234083", LBIS.L["Ring"], "Alt") --Ring of Fury
+    LBIS:AddItem(spec6, "230839", LBIS.L["Ring"], "Alt") --Master Dragonslayer's Ring
     LBIS:AddItem(spec6, "233733", LBIS.L["Ring"], "Alt") --Blood-Caked Ring
     LBIS:AddItem(spec6, "230929", LBIS.L["Ring"], "Alt") --Seal of Jin
     LBIS:AddItem(spec6, "228080", LBIS.L["Ring"], "Alt") --Resin Loop

@@ -515,14 +515,15 @@ local function LoadData()
     LBIS:AddItem(spec6, "228249", LBIS.L["Neck"], "Alt") --Medallion of Steadfast Might
     LBIS:AddItem(spec6, "228759", LBIS.L["Neck"], "Alt") --Eskhandar's Collar
     LBIS:AddItem(spec6, "234031", LBIS.L["Ring"], "BIS") --Signet Ring of the Bronze Dragonflight
-    LBIS:AddItem(spec6, "233600", LBIS.L["Ring"], "BIS") --Ring of the Qiraji Fury
-    LBIS:AddItem(spec6, "233524", LBIS.L["Ring"], "BIS Mit") --Angelista's Touch
-    LBIS:AddItem(spec6, "233419", LBIS.L["Ring"], "Alt") --Band of Unending Life
     LBIS:AddItem(spec6, "234034", LBIS.L["Ring"], "Alt") --Signet Ring of the Bronze Dragonflight
+    LBIS:AddItem(spec6, "233600", LBIS.L["Ring"], "Alt") --Ring of the Qiraji Fury
+    LBIS:AddItem(spec6, "233524", LBIS.L["Ring"], "Alt Mit") --Angelista's Touch
     LBIS:AddItem(spec6, "233615", LBIS.L["Ring"], "Alt Mit") --Ring of Emperor Vek'lor
+    LBIS:AddItem(spec6, "233419", LBIS.L["Ring"], "Alt") --Band of Unending Life
     LBIS:AddItem(spec6, "228286", LBIS.L["Ring"], "Alt") --Band of Accuria
     LBIS:AddItem(spec6, "230839", LBIS.L["Ring"], "Alt") --Master Dragonslayer's Ring
     LBIS:AddItem(spec6, "228261", LBIS.L["Ring"], "Alt") --Quick Strike Ring
+    LBIS:AddItem(spec6, "228242", LBIS.L["Ring"], "Alt Mit") --Heavy Dark Iron Ring
     LBIS:AddItem(spec6, "233992", LBIS.L["Trinket"], "BIS") --Lodestone of Retaliation
     LBIS:AddItem(spec6, "228686", LBIS.L["Trinket"], "BIS Mit") --Onyxia Blood Talisman
     LBIS:AddItem(spec6, "228293", LBIS.L["Trinket"], "BIS") --Essence of the Pure Flame
