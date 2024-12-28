@@ -56,13 +56,22 @@ local function isInEnabledPhase(phaseText)
 	return false;
 end
 
+local function IsClassTooltip(classSpec)
+
+	if LBIS.IsSOD then
+		return LBISSettings.Tooltip[classSpec];
+	else
+		return LBISSettings.Tooltip["ERA_"..classSpec];
+	end
+end
+
 local function buildCombinedTooltip(entry, combinedTooltip, foundCustom)
 
 	local classCount = {};
 	local combinedSpecs = {};
 
 	for k, v in pairs(entry) do
-		if LBISSettings.Tooltip[k] and isInEnabledPhase(v.Phase) and foundCustom[k] == nil then
+		if IsClassTooltip(k) and isInEnabledPhase(v.Phase) and foundCustom[k] == nil then
 			local classSpec = LBIS.ClassSpec[k]
 
 			classCount[classSpec.Class..v.Bis..v.Phase] = (classCount[classSpec.Class..v.Bis..v.Phase] or 0) + 1;
