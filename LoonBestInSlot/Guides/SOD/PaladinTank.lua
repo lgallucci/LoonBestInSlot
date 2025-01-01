@@ -553,9 +553,9 @@ local function LoadData()
     LBIS:AddItem(spec6, "231867", LBIS.L["Main Hand"], "Alt") --Bloodlord's Defender
     LBIS:AddItem(spec6, "21269", LBIS.L["Off Hand"], "BIS") --Blessed Qiraji Bulwark
     LBIS:AddItem(spec6, "230802", LBIS.L["Off Hand"], "BIS Stam") --Elementium Reinforced Bulwark
+    LBIS:AddItem(spec6, "234089", LBIS.L["Off Hand"], "Alt") --Buru's Skull Fragment
     LBIS:AddItem(spec6, "233988", LBIS.L["Off Hand"], "Alt") --Tuned Force Reactive Disk
     LBIS:AddItem(spec6, "234588", LBIS.L["Off Hand"], "Alt") --Grand Marshal's Aegis
-    LBIS:AddItem(spec6, "234089", LBIS.L["Off Hand"], "Alt") --Buru's Skull Fragment
     LBIS:AddItem(spec6, "234459", LBIS.L["Off Hand"], "Alt") --Jagged Obsidian Shield
     LBIS:AddItem(spec6, "231289", LBIS.L["Off Hand"], "Alt") --Aegis of the Blood God
     LBIS:AddItem(spec6, "228266", LBIS.L["Off Hand"], "Alt") --Drillborer Disk

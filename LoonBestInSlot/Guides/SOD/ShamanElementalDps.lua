@@ -12,7 +12,7 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
     LBIS:AddEnchant(spec6, "25084", LBIS.L["Back"]) --Enchant Cloak - Subtlety
     LBIS:AddEnchant(spec6, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Wrist"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec6, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
     LBIS:AddEnchant(spec6, "1213829", LBIS.L["Hands"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "468359", LBIS.L["Legs"]) --Vodouisant's Charm
     LBIS:AddEnchant(spec6, "468354", LBIS.L["Legs"]) --Vodouisant's Shroud

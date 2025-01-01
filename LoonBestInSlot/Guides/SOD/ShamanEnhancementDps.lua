@@ -14,8 +14,8 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec6, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
     LBIS:AddEnchant(spec6, "13948", LBIS.L["Hands"]) --Enchant Gloves - Minor Haste
-    LBIS:AddEnchant(spec6, "468354", LBIS.L["Legs"]) --Vodouisant's Shroud
     LBIS:AddEnchant(spec6, "468351", LBIS.L["Legs"]) --Vodouisant's Embrace
+    LBIS:AddEnchant(spec6, "468354", LBIS.L["Legs"]) --Vodouisant's Shroud
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Off Hand"]) --Enchant Weapon - Crusader
