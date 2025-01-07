@@ -776,6 +776,7 @@ if GetLocale() == "frFR" then
   LBIS.L["The Duke of Zephyrs"] = "Le duc des Zéphyrs";
   LBIS.L["The Emerald Dream..."] = "Le Rêve d'Emeraude...";
   LBIS.L["The Essence of Eranikus"] = "L'Essence d'Eranikus";
+--  LBIS.L["The Eye of Divinity"] = "";
   LBIS.L["The Forging of Quel'Serrar"] = "Forger Quel'Serrar";
   LBIS.L["The Fury Runs Deep"] = "Fureur dans les Profondeurs";
   LBIS.L["The God Hakkar"] = "Le dieu Hakkar";

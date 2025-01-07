@@ -776,6 +776,7 @@ if GetLocale() == "deDE" then
   LBIS.L["The Duke of Zephyrs"] = "Der Fürst der Stürme";
   LBIS.L["The Emerald Dream..."] = "Der Smaragdgrüne Traum";
   LBIS.L["The Essence of Eranikus"] = "Die Essenz des Eranikus";
+--  LBIS.L["The Eye of Divinity"] = "";
   LBIS.L["The Forging of Quel'Serrar"] = "Das Schmieden von Quel'Serrar";
   LBIS.L["The Fury Runs Deep"] = "Tief empfundener Zorn";
   LBIS.L["The God Hakkar"] = "Der Gott Hakkar";

@@ -481,6 +481,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "226675", LBIS.L["Chest"], "Alt") --Cenarion Armor
     LBIS:AddItem(spec6, "233711", LBIS.L["Chest"], "Alt") --Genesis Armor
     LBIS:AddItem(spec6, "233612", LBIS.L["Wrist"], "BIS") --Qiraji Execution Bracers
+    LBIS:AddItem(spec6, "233506", LBIS.L["Wrist"], "Alt") --Beetle Scaled Wristguards
     LBIS:AddItem(spec6, "231245", LBIS.L["Wrist"], "Alt") --Stormrage Wristguards
     LBIS:AddItem(spec6, "226668", LBIS.L["Wrist"], "Alt") --Cenarion Wristguards
     LBIS:AddItem(spec6, "233618", LBIS.L["Hands"], "BIS") --Gloves of the Hidden Temple

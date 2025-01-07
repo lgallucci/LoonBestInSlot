@@ -776,6 +776,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["The Duke of Zephyrs"] = "微风公爵";
   LBIS.L["The Emerald Dream..."] = "翡翠梦境......";
   LBIS.L["The Essence of Eranikus"] = "伊兰尼库斯精华";
+--  LBIS.L["The Eye of Divinity"] = "";
   LBIS.L["The Forging of Quel'Serrar"] = "铸造奎尔塞拉";
   LBIS.L["The Fury Runs Deep"] = "卡姆·深怒";
   LBIS.L["The God Hakkar"] = "神灵哈卡";

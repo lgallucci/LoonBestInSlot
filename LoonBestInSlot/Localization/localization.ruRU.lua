@@ -776,6 +776,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Duke of Zephyrs"] = "Герцог Ветров";
   LBIS.L["The Emerald Dream..."] = "Изумрудный Сон";
   LBIS.L["The Essence of Eranikus"] = "Сущность Эраникуса";
+--  LBIS.L["The Eye of Divinity"] = "";
   LBIS.L["The Forging of Quel'Serrar"] = "Ковка Кель'Серрара";
   LBIS.L["The Fury Runs Deep"] = "Успокоить Гневливого";
   LBIS.L["The God Hakkar"] = "Бог Хаккар";

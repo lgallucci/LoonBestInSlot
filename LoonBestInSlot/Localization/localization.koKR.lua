@@ -776,6 +776,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Duke of Zephyrs"] = "서풍의 군주";
   LBIS.L["The Emerald Dream..."] = "에메랄드의 꿈...";
   LBIS.L["The Essence of Eranikus"] = "에라니쿠스의 정수";
+--  LBIS.L["The Eye of Divinity"] = "";
   LBIS.L["The Forging of Quel'Serrar"] = "The Forging of Quel'Serrar";
   LBIS.L["The Fury Runs Deep"] = "격노";
   LBIS.L["The God Hakkar"] = "학카르의 화신";

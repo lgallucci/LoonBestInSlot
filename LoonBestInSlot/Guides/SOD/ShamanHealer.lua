@@ -616,7 +616,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "13178", LBIS.L["Ring"], "Alt") --Rosewine Circle
     LBIS:AddItem(spec6, "228538", LBIS.L["Ring"], "Alt") --Seal of Rivendare
     LBIS:AddItem(spec6, "220629", LBIS.L["Ring"], "Alt") --Drakeclaw Band of the Blood Prophet
-    LBIS:AddItem(spec6, "230269", LBIS.L["Trinket"], "BIS") --Rejuvenating Gem
+    LBIS:AddItem(spec6, "234779", LBIS.L["Trinket"], "BIS") --Grace of Earth
     LBIS:AddItem(spec6, "233994", LBIS.L["Trinket"], "BIS") --Ruby-Encrusted Broach
     LBIS:AddItem(spec6, "221308", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Overgrowth
     LBIS:AddItem(spec6, "19288", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Blue Dragon

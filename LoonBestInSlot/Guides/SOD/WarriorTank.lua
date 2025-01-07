@@ -488,7 +488,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "233988", LBIS.L["Off Hand"], "Alt") --Tuned Force Reactive Disk
     LBIS:AddItem(spec6, "228165", LBIS.L["Ranged/Relic"], "BIS") --Dragonslayer's Javelin
     LBIS:AddItem(spec6, "234104", LBIS.L["Ranged/Relic"], "Alt") --Crossbow of Imminent Doom
-    LBIS:AddItem(spec6, "233626", LBIS.L["Ranged/Relic"], "Alt Mit") --Larvae of the Great Worm
+    LBIS:AddItem(spec6, "234121", LBIS.L["Ranged/Relic"], "Alt Mit") --Silithid Husked Launcher
 end
 if LBIS.IsSOD then
     LoadData();
