@@ -8,7 +8,7 @@ namespace AddonManager.Models.GuideMappings.Classic;
 internal abstract class ClassicSpecMapping
 {
     public string GuideFolder = "ERA";
-    public int CurrentPhaseNumber { get; } = 1;
+    public int CurrentPhaseNumber { get; } = 2;
     public abstract string UrlBase { get; }
     public abstract string Class { get; }
     public abstract string Spec { get; }

@@ -124,11 +124,10 @@ public sealed partial class GuideImporter : Page
 
     private async void Refresh_All_Click(object sender, RoutedEventArgs e)
     {
-        int phaseNumber = 3;
-        await RefreshAllItemSources(phaseNumber);
+        await RefreshAllItemSources();
     }
 
-    private async Task RefreshAllItemSources(int phaseNumber)
+    private async Task RefreshAllItemSources()
     {
         _importCancelToken = new CancellationTokenSource();
         

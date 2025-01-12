@@ -378,6 +378,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "226639", LBIS.L["Legs"], "Alt") --Earthfury Chain Leggings
     LBIS:AddItem(spec6, "232218", LBIS.L["Legs"], "Alt") --Leggings of Ten Storms
     LBIS:AddItem(spec6, "231228", LBIS.L["Feet"], "BIS") --Treads of Ten Storms
+    LBIS:AddItem(spec6, "233701", LBIS.L["Feet"], "Alt") --Stormcaller's Treads
     LBIS:AddItem(spec6, "232221", LBIS.L["Feet"], "Alt") --Treads of Ten Storms
     LBIS:AddItem(spec6, "227023", LBIS.L["Feet"], "Alt") --Treads of The Five Thunders
     LBIS:AddItem(spec6, "226636", LBIS.L["Feet"], "Alt") --Earthfury Battleboots

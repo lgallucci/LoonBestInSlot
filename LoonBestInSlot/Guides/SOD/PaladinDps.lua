@@ -684,8 +684,8 @@ local function LoadData()
     LBIS:AddItem(spec6, "230734", LBIS.L["Ring"], "Alt") --Circle of Applied Force
     LBIS:AddItem(spec6, "233428", LBIS.L["Ring"], "Alt") --Ring of Eternal Justice
     LBIS:AddItem(spec6, "228286", LBIS.L["Ring"], "Alt") --Band of Accuria
-    LBIS:AddItem(spec6, "234083", LBIS.L["Ring"], "Alt") --Ring of Fury
     LBIS:AddItem(spec6, "230839", LBIS.L["Ring"], "Alt") --Master Dragonslayer's Ring
+    LBIS:AddItem(spec6, "234083", LBIS.L["Ring"], "Alt") --Ring of Fury
     LBIS:AddItem(spec6, "233733", LBIS.L["Ring"], "Alt") --Blood-Caked Ring
     LBIS:AddItem(spec6, "230929", LBIS.L["Ring"], "Alt") --Seal of Jin
     LBIS:AddItem(spec6, "228080", LBIS.L["Ring"], "Alt") --Resin Loop
@@ -696,7 +696,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "233627", LBIS.L["Trinket"], "BIS") --Jom Gabbar
     LBIS:AddItem(spec6, "230272", LBIS.L["Trinket"], "BIS") --Scrolls of Blinding Light
     LBIS:AddItem(spec6, "233990", LBIS.L["Trinket"], "BIS") --Speedstone
-    LBIS:AddItem(spec6, "233580", LBIS.L["Trinket"], "Alt") --Badge of the Swarmguard
+    LBIS:AddItem(spec6, "233580", LBIS.L["Trinket"], "BIS") --Badge of the Swarmguard
     LBIS:AddItem(spec6, "231779", LBIS.L["Trinket"], "Alt") --Wrath of Wray
     LBIS:AddItem(spec6, "234462", LBIS.L["Trinket"], "Alt") --Earthstrike
     LBIS:AddItem(spec6, "228078", LBIS.L["Trinket"], "Alt") --Accursed Chalice
